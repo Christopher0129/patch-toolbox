@@ -252,19 +252,6 @@ def run():
         )
         write_md_file(OUTPUT_DIR / f"{os_name}.md", md_content)
 
-        # 当日归档
-        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-        if new_items:
-            daily_sections = build_os_md_items(new_items, os_name)
-            daily_md = make_bilingual_md(
-                title_zh=f"{zh_title} - {today} 更新",
-                title_en=f"{en_title} - {today} Update",
-                intro_zh=f"本次更新共 {len(new_items)} 条新漏洞。",
-                intro_en=f"This update contains {len(new_items)} new vulnerabilities.",
-                sections=daily_sections,
-            )
-            write_md_file(OUTPUT_DIR / f"{os_name}_{today}.md", daily_md)
-
         all_new += len(new_items)
         all_total += len(stored)
         reports[os_name] = {"new": len(new_items), "total": len(stored)}

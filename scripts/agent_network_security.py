@@ -244,7 +244,7 @@ def run():
                 break
         log_agent(AGENT_NAME, f"Padded to {len(display_items)} items from history")
 
-    # 生成主索引文件（总是包含最新50+条）
+    # 生成主索引文件
     sections = build_md_items(display_items[:max(50, len(display_items))])
     md_content = make_bilingual_md(
         title_zh="网络安全漏洞知识库",
@@ -255,22 +255,9 @@ def run():
     )
     write_md_file(OUTPUT_DIR / "index.md", md_content)
 
-    # 生成当日归档文件（仅包含新条目）
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    if new_items:
-        daily_sections = build_md_items(new_items)
-        daily_md = make_bilingual_md(
-            title_zh=f"网络安全漏洞 - {today} 更新",
-            title_en=f"Network Security Vulnerabilities - {today} Update",
-            intro_zh=f"本次更新共 {len(new_items)} 条新漏洞信息。",
-            intro_en=f"This update contains {len(new_items)} new vulnerability entries.",
-            sections=daily_sections,
-        )
-        write_md_file(OUTPUT_DIR / f"{today}.md", daily_md)
-        log_agent(AGENT_NAME, f"Written daily archive: {today}.md")
-
     # 汇报
-    total = len(state.get("network-security", {})) if "state" in dir() else len(all_stored)
+    state = __import__("utils").load_state()
+    total = len(state.get("network-security", {}))
     report = write_report(AGENT_NAME, len(new_items), total, errors)
     log_agent(AGENT_NAME, f"Report: new={report['new_items']}, total={report['total_items']}, errors={len(errors)}")
     log_agent(AGENT_NAME, "Run complete")

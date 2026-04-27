@@ -51,3 +51,8 @@ browser_data/
 # Local state
 state.json
 dedup.db
+
+# Agent logs & temp reports
+agents/*.log
+agents/*_report.json
+agents/cron.log
