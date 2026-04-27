@@ -52,10 +52,11 @@ browser_data/
 state.json
 dedup.db
 
-# Agent logs & temp reports
-agents/*.log
-agents/*_report.json
-agents/cron.log
+# Agent logs & temp reports (entire directory)
+agents/
 
 # Scripts (local automation only, not part of published KB)
 scripts/
+
+# requirements (local dev only)
+requirements.txt
