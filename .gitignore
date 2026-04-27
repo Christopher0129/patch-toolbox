@@ -56,3 +56,6 @@ dedup.db
 agents/*.log
 agents/*_report.json
 agents/cron.log
+
+# Scripts (local automation only, not part of published KB)
+scripts/

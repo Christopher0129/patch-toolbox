@@ -43,7 +43,7 @@ patch-toolbox/
 │   ├── linux.md                      # Linux 故障（50+条，中英双语）
 │   └── macos.md                      # macOS 故障（50+条，中英双语）
 │
-├── 📁 scripts/                       # 全部 Python 脚本
+├── 📁 scripts/                       # [本地脚本，不上传GitHub] 全部 Python 自动化脚本
 │   ├── utils.py                      # 🔧 通用工具库
 │   │                                   #   - 去重状态管理 (state.json)
 │   │                                   #   - 中英双语 Markdown 生成器
