@@ -65,7 +65,7 @@ class VectorConfig:
                         root = json.load(f)
                     cfg = root.get("vector_search", {})
                 except Exception:
-                cfg = {}
+                    cfg = {}
             else:
                 cfg = {}
         else:
