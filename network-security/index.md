@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 06:00:45 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 07:00:44 UTC_
 
 ## 中文 🇨🇳
 **网络安全漏洞知识库**
@@ -6621,510 +6621,517 @@ Review and apply vendor patch immediately. Verify exploit applicability in your 
 > 📎 来源 / Source: https://www.exploit-db.com/exploits/52462
 
 
-### GitHub 安全公告
+### CISA 已知被利用漏洞
 
-#### 1. GHSA-7jm2-g593-4qrc (MEDIUM)
+#### 1. CVE-2025-29635 (KEV)
 
-**CVE/编号**: GHSA-7jm2-g593-4qrc [GitHub-Advisory]
-**严重程度**: MEDIUM | 
-
-
-**漏洞描述**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-The agent-facing `gateway config.patch` / `config.apply` guard did not cover several operator-trusted settings, including sandbox policy, plugin enablement, gateway auth/TLS, hook routing, MCP server configuration, SSRF policy, and filesystem hardening. A prompt-injected model with access to the owner-only gateway tool could persist changes to those settings.
-
-**应对措施 / 缓解方案**:
-See GitHub Security Advisory GHSA-7jm2-g593-4qrc for affected packages and patched versions.
-
-**参考链接**:
-- https://github.com/advisories/GHSA-7jm2-g593-4qrc
-
-> 📎 来源 / Source: https://github.com/advisories/GHSA-7jm2-g593-4qrc
-
-#### 2. GHSA-qrp5-gfw2-gxv4 (MEDIUM)
-
-**CVE/编号**: GHSA-qrp5-gfw2-gxv4 [GitHub-Advisory]
-**严重程度**: MEDIUM | 
+**CVE/编号**: CVE-2025-29635 [CISA-KEV]
+**严重程度**: KEV | 
 
 
 **漏洞描述**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-Bundled MCP and LSP tools could be appended to the agent's effective tool set after the normal tool-policy pipeline had already filtered core tools. If an operator configured a restrictive policy, such as a tool profile, explicit allow/deny list, owner-only tool restriction, sandbox tool policy, or subagent tool policy, a bundled MCP/LSP tool could remain ava
+[CISA KEV] Vendor: D-Link, Product: DIR-823X. D-Link DIR-823X Command Injection Vulnerability. Due date: 2026-05-08.
 
 **应对措施 / 缓解方案**:
-See GitHub Security Advisory GHSA-qrp5-gfw2-gxv4 for affected packages and patched versions.
+Apply vendor patch before 2026-05-08. CISA directive enforcement required.
 
 **参考链接**:
-- https://github.com/advisories/GHSA-qrp5-gfw2-gxv4
+- https://nvd.nist.gov/vuln/detail/CVE-2025-29635
 
-> 📎 来源 / Source: https://github.com/advisories/GHSA-qrp5-gfw2-gxv4
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2025-29635
 
-#### 3. GHSA-h2vw-ph2c-jvwf (MEDIUM)
+#### 2. CVE-2024-7399 (KEV)
 
-**CVE/编号**: GHSA-h2vw-ph2c-jvwf [GitHub-Advisory]
-**严重程度**: MEDIUM | 
+**CVE/编号**: CVE-2024-7399 [CISA-KEV]
+**严重程度**: KEV | 
 
 
 **漏洞描述**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `>= 2026.4.5, < 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-A malicious workspace `.env` could set `MINIMAX_API_HOST` and redirect credentialed MiniMax requests to an attacker-controlled origin, exposing the MiniMax API key in the outbound `Authorization` header.
-
-This requires running OpenClaw from an attacker-controlled workspace. Severity is medium.
-
-## Fix
-
-OpenClaw now blocks `MINIMAX_API_HOST` from 
+[CISA KEV] Vendor: Samsung, Product: MagicINFO 9 Server. Samsung MagicINFO 9 Server Path Traversal Vulnerability. Due date: 2026-05-08.
 
 **应对措施 / 缓解方案**:
-See GitHub Security Advisory GHSA-h2vw-ph2c-jvwf for affected packages and patched versions.
+Apply vendor patch before 2026-05-08. CISA directive enforcement required.
 
 **参考链接**:
-- https://github.com/advisories/GHSA-h2vw-ph2c-jvwf
+- https://nvd.nist.gov/vuln/detail/CVE-2024-7399
 
-> 📎 来源 / Source: https://github.com/advisories/GHSA-h2vw-ph2c-jvwf
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2024-7399
 
-#### 4. GHSA-j4c5-89f5-f3pm (LOW)
+#### 3. CVE-2024-57728 (KEV)
 
-**CVE/编号**: GHSA-j4c5-89f5-f3pm [GitHub-Advisory]
-**严重程度**: LOW | 
+**CVE/编号**: CVE-2024-57728 [CISA-KEV]
+**严重程度**: KEV | 
 
 
 **漏洞描述**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-Browser profile creation normalized `cdpUrl` values before persisting them, but did not apply the configured browser SSRF policy at creation time. In deployments that explicitly disabled private-network CDP targets, a stored profile could still point at a private-network or metadata endpoint and later be probed by normal profile status flows.
-
-Default trusted
+[CISA KEV] Vendor: SimpleHelp , Product: SimpleHelp. SimpleHelp Path Traversal Vulnerability. Due date: 2026-05-08.
 
 **应对措施 / 缓解方案**:
-See GitHub Security Advisory GHSA-j4c5-89f5-f3pm for affected packages and patched versions.
+Apply vendor patch before 2026-05-08. CISA directive enforcement required.
 
 **参考链接**:
-- https://github.com/advisories/GHSA-j4c5-89f5-f3pm
+- https://nvd.nist.gov/vuln/detail/CVE-2024-57728
 
-> 📎 来源 / Source: https://github.com/advisories/GHSA-j4c5-89f5-f3pm
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2024-57728
 
-#### 5. GHSA-xrq9-jm7v-g9h7 (LOW)
+#### 4. CVE-2024-57726 (KEV)
 
-**CVE/编号**: GHSA-xrq9-jm7v-g9h7 [GitHub-Advisory]
-**严重程度**: LOW | 
+**CVE/编号**: CVE-2024-57726 [CISA-KEV]
+**严重程度**: KEV | 
 
 
 **漏洞描述**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-A paired device session with limited pairing scope could enumerate global pairing state and act on pairing requests that belonged to another device within the same gateway scope ceiling.
-
-This is a same-gateway paired-device authorization bug, not a remote unauthenticated issue. Severity is low.
-
-## Fix
-
-Pairing management actions are now limited to the calle
+[CISA KEV] Vendor: SimpleHelp , Product: SimpleHelp. SimpleHelp Missing Authorization Vulnerability. Due date: 2026-05-08.
 
 **应对措施 / 缓解方案**:
-See GitHub Security Advisory GHSA-xrq9-jm7v-g9h7 for affected packages and patched versions.
+Apply vendor patch before 2026-05-08. CISA directive enforcement required.
 
 **参考链接**:
-- https://github.com/advisories/GHSA-xrq9-jm7v-g9h7
+- https://nvd.nist.gov/vuln/detail/CVE-2024-57726
 
-> 📎 来源 / Source: https://github.com/advisories/GHSA-xrq9-jm7v-g9h7
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2024-57726
 
-#### 6. GHSA-c4qg-j8jg-42q5 (LOW)
+#### 5. CVE-2026-39987 (KEV)
 
-**CVE/编号**: GHSA-c4qg-j8jg-42q5 [GitHub-Advisory]
-**严重程度**: LOW | 
+**CVE/编号**: CVE-2026-39987 [CISA-KEV]
+**严重程度**: KEV | 
 
 
 **漏洞描述**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-The QQBot direct-upload media path could forward attacker-controlled image URLs without applying the SSRF validation used by the local download path. This could make configured QQBot media delivery request or relay URLs the operator did not intend to allow.
-
-The affected path is limited to QQBot outbound media handling and does not expose arbitrary local file
+[CISA KEV] Vendor: Marimo, Product: Marimo. Marimo Remote Code Execution Vulnerability. Due date: 2026-05-07.
 
 **应对措施 / 缓解方案**:
-See GitHub Security Advisory GHSA-c4qg-j8jg-42q5 for affected packages and patched versions.
+Apply vendor patch before 2026-05-07. CISA directive enforcement required.
 
 **参考链接**:
-- https://github.com/advisories/GHSA-c4qg-j8jg-42q5
+- https://nvd.nist.gov/vuln/detail/CVE-2026-39987
 
-> 📎 来源 / Source: https://github.com/advisories/GHSA-c4qg-j8jg-42q5
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2026-39987
 
-#### 7. GHSA-mj59-h3q9-ghfh (MEDIUM)
+#### 6. CVE-2026-33825 (KEV)
 
-**CVE/编号**: GHSA-mj59-h3q9-ghfh [GitHub-Advisory]
-**严重程度**: MEDIUM | 
+**CVE/编号**: CVE-2026-33825 [CISA-KEV]
+**严重程度**: KEV | 
 
 
 **漏洞描述**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-Workspace MCP stdio configuration could pass dangerous process-startup environment variables such as `NODE_OPTIONS`, `LD_PRELOAD`, or `BASH_ENV` to the spawned MCP server process. In a malicious workspace, this could make the MCP child load attacker-controlled code when the operator starts a session that uses that MCP server.
-
-The impact is limited to local/w
+[CISA KEV] Vendor: Microsoft, Product: Defender. Microsoft Defender Insufficient Granularity of Access Control Vulnerability. Due date: 2026-05-06.
 
 **应对措施 / 缓解方案**:
-See GitHub Security Advisory GHSA-mj59-h3q9-ghfh for affected packages and patched versions.
+Apply vendor patch before 2026-05-06. CISA directive enforcement required.
 
 **参考链接**:
-- https://github.com/advisories/GHSA-mj59-h3q9-ghfh
+- https://nvd.nist.gov/vuln/detail/CVE-2026-33825
 
-> 📎 来源 / Source: https://github.com/advisories/GHSA-mj59-h3q9-ghfh
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2026-33825
 
-#### 8. GHSA-57r2-h2wj-g887 (LOW)
+#### 7. CVE-2026-20122 (KEV)
 
-**CVE/编号**: GHSA-57r2-h2wj-g887 [GitHub-Advisory]
-**严重程度**: LOW | 
+**CVE/编号**: CVE-2026-20122 [CISA-KEV]
+**严重程度**: KEV | 
 
 
 **漏洞描述**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-Output from webhook-triggered isolated cron agent runs could be queued into the main session awareness stream without `trusted: false`. That made the event render as a trusted `System:` event instead of an untrusted system event.
-
-This is a trust-labeling issue that can strengthen prompt-injection impact, but it does not directly bypass gateway auth, tool pol
+[CISA KEV] Vendor: Cisco, Product: Catalyst SD-WAN Manger. Cisco Catalyst SD-WAN Manager Incorrect Use of Privileged APIs Vulnerability. Due date: 2026-04-23.
 
 **应对措施 / 缓解方案**:
-See GitHub Security Advisory GHSA-57r2-h2wj-g887 for affected packages and patched versions.
+Apply vendor patch before 2026-04-23. CISA directive enforcement required.
 
 **参考链接**:
-- https://github.com/advisories/GHSA-57r2-h2wj-g887
+- https://nvd.nist.gov/vuln/detail/CVE-2026-20122
 
-> 📎 来源 / Source: https://github.com/advisories/GHSA-57r2-h2wj-g887
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2026-20122
 
-#### 9. GHSA-hxvm-xjvf-93f3 (MEDIUM)
+#### 8. CVE-2026-20133 (KEV)
 
-**CVE/编号**: GHSA-hxvm-xjvf-93f3 [GitHub-Advisory]
-**严重程度**: MEDIUM | 
+**CVE/编号**: CVE-2026-20133 [CISA-KEV]
+**严重程度**: KEV | 
 
 
 **漏洞描述**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-Workspace `.env` loading did not reserve the `OPENCLAW_` runtime-control namespace broadly enough. A malicious workspace could set variables such as `OPENCLAW_GIT_DIR` before source-update or installer flows, potentially steering trusted OpenClaw runtime behavior.
-
-This requires running OpenClaw from an attacker-controlled workspace. Severity is medium.
-
-## F
+[CISA KEV] Vendor: Cisco, Product: Catalyst SD-WAN Manager. Cisco Catalyst SD-WAN Manager Exposure of Sensitive Information to an Unauthorized Actor Vulnerability. Due date: 2026-04-23.
 
 **应对措施 / 缓解方案**:
-See GitHub Security Advisory GHSA-hxvm-xjvf-93f3 for affected packages and patched versions.
+Apply vendor patch before 2026-04-23. CISA directive enforcement required.
 
 **参考链接**:
-- https://github.com/advisories/GHSA-hxvm-xjvf-93f3
+- https://nvd.nist.gov/vuln/detail/CVE-2026-20133
 
-> 📎 来源 / Source: https://github.com/advisories/GHSA-hxvm-xjvf-93f3
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2026-20133
 
-#### 10. GHSA-72q8-jcmc-97wx (MEDIUM)
+#### 9. CVE-2025-2749 (KEV)
 
-**CVE/编号**: GHSA-72q8-jcmc-97wx [GitHub-Advisory]
-**严重程度**: MEDIUM | 
+**CVE/编号**: CVE-2025-2749 [CISA-KEV]
+**严重程度**: KEV | 
 
 
 **漏洞描述**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-Feishu card-action callbacks could synthesize a message event with DM conversations classified as group conversations. That skipped `dmPolicy` enforcement for card actions, so a sender in a Feishu DM could trigger card-action flows that should have been blocked by a restrictive DM policy.
-
-The issue is limited to Feishu card-action handling. Severity is mediu
+[CISA KEV] Vendor: Kentico, Product: Kentico Xperience. Kentico Xperience Path Traversal Vulnerability. Due date: 2026-05-04.
 
 **应对措施 / 缓解方案**:
-See GitHub Security Advisory GHSA-72q8-jcmc-97wx for affected packages and patched versions.
+Apply vendor patch before 2026-05-04. CISA directive enforcement required.
 
 **参考链接**:
-- https://github.com/advisories/GHSA-72q8-jcmc-97wx
+- https://nvd.nist.gov/vuln/detail/CVE-2025-2749
 
-> 📎 来源 / Source: https://github.com/advisories/GHSA-72q8-jcmc-97wx
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2025-2749
 
-#### 11. GHSA-v8qf-fr4g-28p2 (LOW)
+#### 10. CVE-2023-27351 (KEV)
 
-**CVE/编号**: GHSA-v8qf-fr4g-28p2 [GitHub-Advisory]
-**严重程度**: LOW | 
+**CVE/编号**: CVE-2023-27351 [CISA-KEV]
+**严重程度**: KEV | 
 
 
 **漏洞描述**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-The Control UI assistant-media route authenticated trusted-proxy callers but did not enforce the declared operator scopes for identity-bearing HTTP auth paths. A trusted-proxy caller without `operator.read` could access assistant-media files and metadata that were otherwise inside allowed media roots.
-
-The route still required successful gateway authenticatio
+[CISA KEV] Vendor: PaperCut, Product: NG/MF. PaperCut NG/MF Improper Authentication Vulnerability. Due date: 2026-05-04.
 
 **应对措施 / 缓解方案**:
-See GitHub Security Advisory GHSA-v8qf-fr4g-28p2 for affected packages and patched versions.
+Apply vendor patch before 2026-05-04. CISA directive enforcement required.
 
 **参考链接**:
-- https://github.com/advisories/GHSA-v8qf-fr4g-28p2
+- https://nvd.nist.gov/vuln/detail/CVE-2023-27351
 
-> 📎 来源 / Source: https://github.com/advisories/GHSA-v8qf-fr4g-28p2
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2023-27351
 
-#### 12. GHSA-2xcp-x87w-q377 (MEDIUM)
+#### 11. CVE-2025-48700 (KEV)
 
-**CVE/编号**: GHSA-2xcp-x87w-q377 [GitHub-Advisory]
-**严重程度**: MEDIUM | 
+**CVE/编号**: CVE-2025-48700 [CISA-KEV]
+**严重程度**: KEV | 
 
 
 **漏洞描述**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-Templated hook mapping `sessionKey` values were treated differently from request-supplied session keys. A hook mapping could render an externally influenced session key even when `hooks.allowRequestSessionKey` was disabled, bypassing the intended routing opt-in for hook callers.
-
-This affects webhook routing isolation. It does not grant host execution by itse
+[CISA KEV] Vendor: Synacor, Product: Zimbra Collaboration Suite (ZCS). Synacor Zimbra Collaboration Suite (ZCS) Cross-site Scripting Vulnerability. Due date: 2026-04-23.
 
 **应对措施 / 缓解方案**:
-See GitHub Security Advisory GHSA-2xcp-x87w-q377 for affected packages and patched versions.
+Apply vendor patch before 2026-04-23. CISA directive enforcement required.
 
 **参考链接**:
-- https://github.com/advisories/GHSA-2xcp-x87w-q377
+- https://nvd.nist.gov/vuln/detail/CVE-2025-48700
 
-> 📎 来源 / Source: https://github.com/advisories/GHSA-2xcp-x87w-q377
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2025-48700
 
-#### 13. GHSA-rpm5-65cw-6hj4 (HIGH)
+#### 12. CVE-2026-20128 (KEV)
 
-**CVE/编号**: GHSA-rpm5-65cw-6hj4 [GitHub-Advisory]
-**严重程度**: HIGH | CVSS: 8.8
+**CVE/编号**: CVE-2026-20128 [CISA-KEV]
+**严重程度**: KEV | 
 
 
 **漏洞描述**:
-[GitHub Advisory] ### Summary
-GitPython blocks dangerous Git options such as `--upload-pack` and `--receive-pack` by default, but the equivalent Python kwargs `upload_pack` and `receive_pack` bypass that check. If an application passes attacker-controlled kwargs into `Repo.clone_from()`, `Remote.fetch()`, `Remote.pull()`, or `Remote.push()`, this leads to arbitrary command execution even when `allow_unsafe_options` is left at its default value of `False`.
-
-### Details
-GitPython explicitly treats helper-command op
+[CISA KEV] Vendor: Cisco, Product: Catalyst SD-WAN Manager. Cisco Catalyst SD-WAN Manager Storing Passwords in a Recoverable Format Vulnerability. Due date: 2026-04-23.
 
 **应对措施 / 缓解方案**:
-See GitHub Security Advisory GHSA-rpm5-65cw-6hj4 for affected packages and patched versions.
+Apply vendor patch before 2026-04-23. CISA directive enforcement required.
 
 **参考链接**:
-- https://github.com/advisories/GHSA-rpm5-65cw-6hj4
+- https://nvd.nist.gov/vuln/detail/CVE-2026-20128
 
-> 📎 来源 / Source: https://github.com/advisories/GHSA-rpm5-65cw-6hj4
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2026-20128
 
-#### 14. GHSA-x2qx-6953-8485 (HIGH)
+#### 13. CVE-2025-32975 (KEV)
 
-**CVE/编号**: GHSA-x2qx-6953-8485 [GitHub-Advisory]
-**严重程度**: HIGH | CVSS: 8.1
+**CVE/编号**: CVE-2025-32975 [CISA-KEV]
+**严重程度**: KEV | 
 
 
 **漏洞描述**:
-[GitHub Advisory] ### Summary
-
-`_clone()` validates `multi_options` as the original list, then executes `shlex.split(" ".join(multi_options))`. A string like `"--branch main --config core.hooksPath=/x"` passes validation (starts with `--branch`), but after split becomes `["--branch", "main", "--config", "core.hooksPath=/x"]`. Git applies the config and executes attacker hooks during clone.
-
-### Details
-
-The vulnerable code is in [`git/repo/base.py` line 1383](https://github.com/gitpython-developers/GitPython/blob
+[CISA KEV] Vendor: Quest, Product: KACE Systems Management Appliance (SMA). Quest KACE Systems Management Appliance (SMA) Improper Authentication Vulnerability. Due date: 2026-05-04.
 
 **应对措施 / 缓解方案**:
-See GitHub Security Advisory GHSA-x2qx-6953-8485 for affected packages and patched versions.
+Apply vendor patch before 2026-05-04. CISA directive enforcement required.
 
 **参考链接**:
-- https://github.com/advisories/GHSA-x2qx-6953-8485
+- https://nvd.nist.gov/vuln/detail/CVE-2025-32975
 
-> 📎 来源 / Source: https://github.com/advisories/GHSA-x2qx-6953-8485
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2025-32975
 
-#### 15. GHSA-3gr9-485j-v4xf (MEDIUM)
+#### 14. CVE-2024-27199 (KEV)
 
-**CVE/编号**: GHSA-3gr9-485j-v4xf [GitHub-Advisory]
-**严重程度**: MEDIUM | CVSS: 5.3
+**CVE/编号**: CVE-2024-27199 [CISA-KEV]
+**严重程度**: KEV | 
 
 
 **漏洞描述**:
-[GitHub Advisory] ## Summary
-
-After a note-mark owner soft-deletes a public book, its notes and uploaded assets stay readable at `/api/notes/{id}`, `/api/notes/{id}/content`, the slug URL, and the asset endpoints. Unauthenticated callers who hold the note ID or the slug path retain access. GORM's soft-delete scope does not reach the raw `JOIN books ...` clauses used by the note and asset queries.
-
-## Details
-
-`DELETE /api/books/{bookID}` sets `books.deleted_at` to the current time. The book-level endpoint starts 
+[CISA KEV] Vendor: JetBrains, Product: TeamCity. JetBrains TeamCity Relative Path Traversal Vulnerability. Due date: 2026-05-04.
 
 **应对措施 / 缓解方案**:
-See GitHub Security Advisory GHSA-3gr9-485j-v4xf for affected packages and patched versions.
+Apply vendor patch before 2026-05-04. CISA directive enforcement required.
 
 **参考链接**:
-- https://github.com/advisories/GHSA-3gr9-485j-v4xf
+- https://nvd.nist.gov/vuln/detail/CVE-2024-27199
 
-> 📎 来源 / Source: https://github.com/advisories/GHSA-3gr9-485j-v4xf
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2024-27199
 
-#### 16. GHSA-pxf8-6wqm-r6hh (CRITICAL)
+#### 15. CVE-2026-34197 (KEV)
 
-**CVE/编号**: GHSA-pxf8-6wqm-r6hh [GitHub-Advisory]
-**严重程度**: CRITICAL | CVSS: 9.4
+**CVE/编号**: CVE-2026-34197 [CISA-KEV]
+**严重程度**: KEV | 
 
 
 **漏洞描述**:
-[GitHub Advisory] ## Summary
-
-`IsPasswordMatch` in `backend/db/models.go` falls back to a hard-coded `bcrypt("null")` placeholder whenever a user has no stored password. OIDC-registered users are created with an empty password, so anyone who submits `password: "null"` to the internal login endpoint receives a valid session for that user. The bypass is unauthenticated and requires no user interaction.
-
-## Details
-
-`backend/db/models.go:36` defines the placeholder hash used by the timing-attack mitigation inside `I
+[CISA KEV] Vendor: Apache, Product: ActiveMQ. Apache ActiveMQ Improper Input Validation Vulnerability. Due date: 2026-04-30.
 
 **应对措施 / 缓解方案**:
-See GitHub Security Advisory GHSA-pxf8-6wqm-r6hh for affected packages and patched versions.
+Apply vendor patch before 2026-04-30. CISA directive enforcement required.
 
 **参考链接**:
-- https://github.com/advisories/GHSA-pxf8-6wqm-r6hh
+- https://nvd.nist.gov/vuln/detail/CVE-2026-34197
 
-> 📎 来源 / Source: https://github.com/advisories/GHSA-pxf8-6wqm-r6hh
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2026-34197
 
-#### 17. GHSA-gj49-89wh-h4gj (HIGH)
+#### 16. CVE-2009-0238 (KEV)
 
-**CVE/编号**: GHSA-gj49-89wh-h4gj [GitHub-Advisory]
-**严重程度**: HIGH | CVSS: 7.9
+**CVE/编号**: CVE-2009-0238 [CISA-KEV]
+**严重程度**: KEV | 
 
 
 **漏洞描述**:
-[GitHub Advisory] ### Impact
-The output of `cilium-bugtool` can contain sensitive data when the tool is run against Cilium deployments with WireGuard encryption enabled.
-
-Users of [WireGuard Transparent Encryption](https://docs.cilium.io/en/stable/security/network/encryption-wireguard/) are affected.
-The sensitive data is  the WireGuard private key (`cilium_wg0.key`) used for node-to-node encrypted communication
-
-`cilium-bugtool` is a debugging tool that is typically invoked manually and does not run during the n
+[CISA KEV] Vendor: Microsoft, Product: Office. Microsoft Office Remote Code Execution. Due date: 2026-04-28.
 
 **应对措施 / 缓解方案**:
-See GitHub Security Advisory GHSA-gj49-89wh-h4gj for affected packages and patched versions.
+Apply vendor patch before 2026-04-28. CISA directive enforcement required.
 
 **参考链接**:
-- https://github.com/advisories/GHSA-gj49-89wh-h4gj
+- https://nvd.nist.gov/vuln/detail/CVE-2009-0238
 
-> 📎 来源 / Source: https://github.com/advisories/GHSA-gj49-89wh-h4gj
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2009-0238
 
-#### 18. GHSA-wg4g-395p-mqv3 (MEDIUM)
+#### 17. CVE-2026-32201 (KEV)
 
-**CVE/编号**: GHSA-wg4g-395p-mqv3 [GitHub-Advisory]
-**严重程度**: MEDIUM | CVSS: 4.3
+**CVE/编号**: CVE-2026-32201 [CISA-KEV]
+**严重程度**: KEV | 
 
 
 **漏洞描述**:
-[GitHub Advisory] ### Impact
-
-When `n8n-mcp` runs in HTTP transport mode, authenticated MCP `tools/call` requests had their full arguments and JSON-RPC params written to server logs by the request dispatcher and several sibling code paths before any redaction. When a tool call carries credential material — most notably `n8n_manage_credentials.data` — the raw values can be persisted in logs.
-
-In deployments where logs are collected, forwarded to external systems, or viewable outside the request trust boundary (sha
+[CISA KEV] Vendor: Microsoft, Product: SharePoint Server. Microsoft SharePoint Server Improper Input Validation Vulnerability. Due date: 2026-04-28.
 
 **应对措施 / 缓解方案**:
-See GitHub Security Advisory GHSA-wg4g-395p-mqv3 for affected packages and patched versions.
+Apply vendor patch before 2026-04-28. CISA directive enforcement required.
 
 **参考链接**:
-- https://github.com/advisories/GHSA-wg4g-395p-mqv3
+- https://nvd.nist.gov/vuln/detail/CVE-2026-32201
 
-> 📎 来源 / Source: https://github.com/advisories/GHSA-wg4g-395p-mqv3
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2026-32201
 
-#### 19. GHSA-74m3-9qvm-rp9h (HIGH)
+#### 18. CVE-2012-1854 (KEV)
 
-**CVE/编号**: GHSA-74m3-9qvm-rp9h [GitHub-Advisory]
-**严重程度**: HIGH | CVSS: 8.7
+**CVE/编号**: CVE-2012-1854 [CISA-KEV]
+**严重程度**: KEV | 
 
 
 **漏洞描述**:
-[GitHub Advisory] **Summary**
-The zrok WebDAV drive backend (davServer.Dir) restricts path traversal through lexical normalization but does not prevent symlink following. When a symbolic link inside the shared DriveRoot points to a location outside that root, remote WebDAV consumers can read files and—on shares without OS-level permission restrictions—write or overwrite files anywhere on the host filesystem accessible to the zrok process.
-
-- Attack Vector: Network — exploitation is performed entirely over the Web
+[CISA KEV] Vendor: Microsoft, Product: Visual Basic for Applications (VBA). Microsoft Visual Basic for Applications Insecure Library Loading Vulnerability. Due date: 2026-04-27.
 
 **应对措施 / 缓解方案**:
-See GitHub Security Advisory GHSA-74m3-9qvm-rp9h for affected packages and patched versions.
+Apply vendor patch before 2026-04-27. CISA directive enforcement required.
 
 **参考链接**:
-- https://github.com/advisories/GHSA-74m3-9qvm-rp9h
+- https://nvd.nist.gov/vuln/detail/CVE-2012-1854
 
-> 📎 来源 / Source: https://github.com/advisories/GHSA-74m3-9qvm-rp9h
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2012-1854
 
-#### 20. GHSA-3q34-rx83-r6mq (HIGH)
+#### 19. CVE-2025-60710 (KEV)
 
-**CVE/编号**: GHSA-3q34-rx83-r6mq [GitHub-Advisory]
-**严重程度**: HIGH | 
+**CVE/编号**: CVE-2025-60710 [CISA-KEV]
+**严重程度**: KEV | 
 
 
 **漏洞描述**:
-[GitHub Advisory] ### Summary
-
-Heimdall performs rule matching on the raw (non-normalized) request path, while downstream components may normalize dot-segments according to [RFC 3986, Section 6.2.2.3](https://www.rfc-editor.org/rfc/rfc3986#section-6.2.2.3). This discrepancy can result in heimdall authorizing a request for one path (e.g., `/user/../admin`, or URL-encoded variants such as `/user/%2e%2e/admin` or `/user/%2e%2e%2fadmin`. The latter would require the `allow_encoded_slashes` option to be set to `on` or
+[CISA KEV] Vendor: Microsoft, Product: Windows. Microsoft Windows Link Following Vulnerability. Due date: 2026-04-27.
 
 **应对措施 / 缓解方案**:
-See GitHub Security Advisory GHSA-3q34-rx83-r6mq for affected packages and patched versions.
+Apply vendor patch before 2026-04-27. CISA directive enforcement required.
 
 **参考链接**:
-- https://github.com/advisories/GHSA-3q34-rx83-r6mq
+- https://nvd.nist.gov/vuln/detail/CVE-2025-60710
 
-> 📎 来源 / Source: https://github.com/advisories/GHSA-3q34-rx83-r6mq
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2025-60710
+
+#### 20. CVE-2023-21529 (KEV)
+
+**CVE/编号**: CVE-2023-21529 [CISA-KEV]
+**严重程度**: KEV | 
+
+
+**漏洞描述**:
+[CISA KEV] Vendor: Microsoft, Product: Exchange Server. Microsoft Exchange Server Deserialization of Untrusted Data Vulnerability. Due date: 2026-04-27.
+
+**应对措施 / 缓解方案**:
+Apply vendor patch before 2026-04-27. CISA directive enforcement required.
+
+**参考链接**:
+- https://nvd.nist.gov/vuln/detail/CVE-2023-21529
+
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2023-21529
+
+#### 21. CVE-2023-36424 (KEV)
+
+**CVE/编号**: CVE-2023-36424 [CISA-KEV]
+**严重程度**: KEV | 
+
+
+**漏洞描述**:
+[CISA KEV] Vendor: Microsoft, Product: Windows. Microsoft Windows Out-of-Bounds Read Vulnerability. Due date: 2026-04-27.
+
+**应对措施 / 缓解方案**:
+Apply vendor patch before 2026-04-27. CISA directive enforcement required.
+
+**参考链接**:
+- https://nvd.nist.gov/vuln/detail/CVE-2023-36424
+
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2023-36424
+
+#### 22. CVE-2020-9715 (KEV)
+
+**CVE/编号**: CVE-2020-9715 [CISA-KEV]
+**严重程度**: KEV | 
+
+
+**漏洞描述**:
+[CISA KEV] Vendor: Adobe, Product: Acrobat. Adobe Acrobat Use-After-Free Vulnerability. Due date: 2026-04-27.
+
+**应对措施 / 缓解方案**:
+Apply vendor patch before 2026-04-27. CISA directive enforcement required.
+
+**参考链接**:
+- https://nvd.nist.gov/vuln/detail/CVE-2020-9715
+
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2020-9715
+
+#### 23. CVE-2026-21643 (KEV)
+
+**CVE/编号**: CVE-2026-21643 [CISA-KEV]
+**严重程度**: KEV | 
+
+
+**漏洞描述**:
+[CISA KEV] Vendor: Fortinet, Product: FortiClient EMS. Fortinet FortiClient EMS SQL Injection Vulnerability. Due date: 2026-04-16.
+
+**应对措施 / 缓解方案**:
+Apply vendor patch before 2026-04-16. CISA directive enforcement required.
+
+**参考链接**:
+- https://nvd.nist.gov/vuln/detail/CVE-2026-21643
+
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2026-21643
+
+#### 24. CVE-2026-34621 (KEV)
+
+**CVE/编号**: CVE-2026-34621 [CISA-KEV]
+**严重程度**: KEV | 
+
+
+**漏洞描述**:
+[CISA KEV] Vendor: Adobe, Product: Acrobat and Reader. Adobe Acrobat and Reader Prototype Pollution Vulnerability. Due date: 2026-04-27.
+
+**应对措施 / 缓解方案**:
+Apply vendor patch before 2026-04-27. CISA directive enforcement required.
+
+**参考链接**:
+- https://nvd.nist.gov/vuln/detail/CVE-2026-34621
+
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2026-34621
+
+#### 25. CVE-2026-1340 (KEV)
+
+**CVE/编号**: CVE-2026-1340 [CISA-KEV]
+**严重程度**: KEV | 
+
+
+**漏洞描述**:
+[CISA KEV] Vendor: Ivanti, Product: Endpoint Manager Mobile (EPMM). Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability. Due date: 2026-04-11.
+
+**应对措施 / 缓解方案**:
+Apply vendor patch before 2026-04-11. CISA directive enforcement required.
+
+**参考链接**:
+- https://nvd.nist.gov/vuln/detail/CVE-2026-1340
+
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2026-1340
+
+#### 26. CVE-2026-35616 (KEV)
+
+**CVE/编号**: CVE-2026-35616 [CISA-KEV]
+**严重程度**: KEV | 
+
+
+**漏洞描述**:
+[CISA KEV] Vendor: Fortinet, Product: FortiClient EMS. Fortinet FortiClient EMS Improper Access Control Vulnerability. Due date: 2026-04-09.
+
+**应对措施 / 缓解方案**:
+Apply vendor patch before 2026-04-09. CISA directive enforcement required.
+
+**参考链接**:
+- https://nvd.nist.gov/vuln/detail/CVE-2026-35616
+
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2026-35616
+
+#### 27. CVE-2026-3502 (KEV)
+
+**CVE/编号**: CVE-2026-3502 [CISA-KEV]
+**严重程度**: KEV | 
+
+
+**漏洞描述**:
+[CISA KEV] Vendor: TrueConf, Product: Client. TrueConf Client Download of Code Without Integrity Check Vulnerability. Due date: 2026-04-16.
+
+**应对措施 / 缓解方案**:
+Apply vendor patch before 2026-04-16. CISA directive enforcement required.
+
+**参考链接**:
+- https://nvd.nist.gov/vuln/detail/CVE-2026-3502
+
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2026-3502
+
+#### 28. CVE-2026-5281 (KEV)
+
+**CVE/编号**: CVE-2026-5281 [CISA-KEV]
+**严重程度**: KEV | 
+
+
+**漏洞描述**:
+[CISA KEV] Vendor: Google, Product: Dawn. Google Dawn Use-After-Free Vulnerability. Due date: 2026-04-15.
+
+**应对措施 / 缓解方案**:
+Apply vendor patch before 2026-04-15. CISA directive enforcement required.
+
+**参考链接**:
+- https://nvd.nist.gov/vuln/detail/CVE-2026-5281
+
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2026-5281
+
+#### 29. CVE-2026-3055 (KEV)
+
+**CVE/编号**: CVE-2026-3055 [CISA-KEV]
+**严重程度**: KEV | 
+
+
+**漏洞描述**:
+[CISA KEV] Vendor: Citrix, Product: NetScaler. Citrix NetScaler Out-of-Bounds Read Vulnerability. Due date: 2026-04-02.
+
+**应对措施 / 缓解方案**:
+Apply vendor patch before 2026-04-02. CISA directive enforcement required.
+
+**参考链接**:
+- https://nvd.nist.gov/vuln/detail/CVE-2026-3055
+
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2026-3055
+
+#### 30. CVE-2025-53521 (KEV)
+
+**CVE/编号**: CVE-2025-53521 [CISA-KEV]
+**严重程度**: KEV | 
+
+
+**漏洞描述**:
+[CISA KEV] Vendor: F5, Product: BIG-IP. F5 BIG-IP Stack-Based Buffer Overflow Vulnerability. Due date: 2026-03-30.
+
+**应对措施 / 缓解方案**:
+Apply vendor patch before 2026-03-30. CISA directive enforcement required.
+
+**参考链接**:
+- https://nvd.nist.gov/vuln/detail/CVE-2025-53521
+
+> 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2025-53521
 
 
 ---
@@ -13740,510 +13747,517 @@ Review and apply vendor patch immediately. Verify exploit applicability in your 
 > 📎 Source: https://www.exploit-db.com/exploits/52462
 
 
-### GitHub Security Advisories
+### CISA Known Exploited Vulnerabilities
 
-#### 1. GHSA-7jm2-g593-4qrc (MEDIUM)
+#### 1. CVE-2025-29635 (KEV)
 
-**CVE/ID**: GHSA-7jm2-g593-4qrc [GitHub-Advisory]
-**Severity**: MEDIUM | 
-
-
-**Description**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-The agent-facing `gateway config.patch` / `config.apply` guard did not cover several operator-trusted settings, including sandbox policy, plugin enablement, gateway auth/TLS, hook routing, MCP server configuration, SSRF policy, and filesystem hardening. A prompt-injected model with access to the owner-only gateway tool could persist changes to those settings.
-
-**Mitigation / Countermeasure**:
-See GitHub Security Advisory GHSA-7jm2-g593-4qrc for affected packages and patched versions.
-
-**References**:
-- https://github.com/advisories/GHSA-7jm2-g593-4qrc
-
-> 📎 Source: https://github.com/advisories/GHSA-7jm2-g593-4qrc
-
-#### 2. GHSA-qrp5-gfw2-gxv4 (MEDIUM)
-
-**CVE/ID**: GHSA-qrp5-gfw2-gxv4 [GitHub-Advisory]
-**Severity**: MEDIUM | 
+**CVE/ID**: CVE-2025-29635 [CISA-KEV]
+**Severity**: KEV | 
 
 
 **Description**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-Bundled MCP and LSP tools could be appended to the agent's effective tool set after the normal tool-policy pipeline had already filtered core tools. If an operator configured a restrictive policy, such as a tool profile, explicit allow/deny list, owner-only tool restriction, sandbox tool policy, or subagent tool policy, a bundled MCP/LSP tool could remain ava
+[CISA KEV] Vendor: D-Link, Product: DIR-823X. D-Link DIR-823X Command Injection Vulnerability. Due date: 2026-05-08.
 
 **Mitigation / Countermeasure**:
-See GitHub Security Advisory GHSA-qrp5-gfw2-gxv4 for affected packages and patched versions.
+Apply vendor patch before 2026-05-08. CISA directive enforcement required.
 
 **References**:
-- https://github.com/advisories/GHSA-qrp5-gfw2-gxv4
+- https://nvd.nist.gov/vuln/detail/CVE-2025-29635
 
-> 📎 Source: https://github.com/advisories/GHSA-qrp5-gfw2-gxv4
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2025-29635
 
-#### 3. GHSA-h2vw-ph2c-jvwf (MEDIUM)
+#### 2. CVE-2024-7399 (KEV)
 
-**CVE/ID**: GHSA-h2vw-ph2c-jvwf [GitHub-Advisory]
-**Severity**: MEDIUM | 
+**CVE/ID**: CVE-2024-7399 [CISA-KEV]
+**Severity**: KEV | 
 
 
 **Description**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `>= 2026.4.5, < 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-A malicious workspace `.env` could set `MINIMAX_API_HOST` and redirect credentialed MiniMax requests to an attacker-controlled origin, exposing the MiniMax API key in the outbound `Authorization` header.
-
-This requires running OpenClaw from an attacker-controlled workspace. Severity is medium.
-
-## Fix
-
-OpenClaw now blocks `MINIMAX_API_HOST` from 
+[CISA KEV] Vendor: Samsung, Product: MagicINFO 9 Server. Samsung MagicINFO 9 Server Path Traversal Vulnerability. Due date: 2026-05-08.
 
 **Mitigation / Countermeasure**:
-See GitHub Security Advisory GHSA-h2vw-ph2c-jvwf for affected packages and patched versions.
+Apply vendor patch before 2026-05-08. CISA directive enforcement required.
 
 **References**:
-- https://github.com/advisories/GHSA-h2vw-ph2c-jvwf
+- https://nvd.nist.gov/vuln/detail/CVE-2024-7399
 
-> 📎 Source: https://github.com/advisories/GHSA-h2vw-ph2c-jvwf
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2024-7399
 
-#### 4. GHSA-j4c5-89f5-f3pm (LOW)
+#### 3. CVE-2024-57728 (KEV)
 
-**CVE/ID**: GHSA-j4c5-89f5-f3pm [GitHub-Advisory]
-**Severity**: LOW | 
+**CVE/ID**: CVE-2024-57728 [CISA-KEV]
+**Severity**: KEV | 
 
 
 **Description**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-Browser profile creation normalized `cdpUrl` values before persisting them, but did not apply the configured browser SSRF policy at creation time. In deployments that explicitly disabled private-network CDP targets, a stored profile could still point at a private-network or metadata endpoint and later be probed by normal profile status flows.
-
-Default trusted
+[CISA KEV] Vendor: SimpleHelp , Product: SimpleHelp. SimpleHelp Path Traversal Vulnerability. Due date: 2026-05-08.
 
 **Mitigation / Countermeasure**:
-See GitHub Security Advisory GHSA-j4c5-89f5-f3pm for affected packages and patched versions.
+Apply vendor patch before 2026-05-08. CISA directive enforcement required.
 
 **References**:
-- https://github.com/advisories/GHSA-j4c5-89f5-f3pm
+- https://nvd.nist.gov/vuln/detail/CVE-2024-57728
 
-> 📎 Source: https://github.com/advisories/GHSA-j4c5-89f5-f3pm
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2024-57728
 
-#### 5. GHSA-xrq9-jm7v-g9h7 (LOW)
+#### 4. CVE-2024-57726 (KEV)
 
-**CVE/ID**: GHSA-xrq9-jm7v-g9h7 [GitHub-Advisory]
-**Severity**: LOW | 
+**CVE/ID**: CVE-2024-57726 [CISA-KEV]
+**Severity**: KEV | 
 
 
 **Description**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-A paired device session with limited pairing scope could enumerate global pairing state and act on pairing requests that belonged to another device within the same gateway scope ceiling.
-
-This is a same-gateway paired-device authorization bug, not a remote unauthenticated issue. Severity is low.
-
-## Fix
-
-Pairing management actions are now limited to the calle
+[CISA KEV] Vendor: SimpleHelp , Product: SimpleHelp. SimpleHelp Missing Authorization Vulnerability. Due date: 2026-05-08.
 
 **Mitigation / Countermeasure**:
-See GitHub Security Advisory GHSA-xrq9-jm7v-g9h7 for affected packages and patched versions.
+Apply vendor patch before 2026-05-08. CISA directive enforcement required.
 
 **References**:
-- https://github.com/advisories/GHSA-xrq9-jm7v-g9h7
+- https://nvd.nist.gov/vuln/detail/CVE-2024-57726
 
-> 📎 Source: https://github.com/advisories/GHSA-xrq9-jm7v-g9h7
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2024-57726
 
-#### 6. GHSA-c4qg-j8jg-42q5 (LOW)
+#### 5. CVE-2026-39987 (KEV)
 
-**CVE/ID**: GHSA-c4qg-j8jg-42q5 [GitHub-Advisory]
-**Severity**: LOW | 
+**CVE/ID**: CVE-2026-39987 [CISA-KEV]
+**Severity**: KEV | 
 
 
 **Description**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-The QQBot direct-upload media path could forward attacker-controlled image URLs without applying the SSRF validation used by the local download path. This could make configured QQBot media delivery request or relay URLs the operator did not intend to allow.
-
-The affected path is limited to QQBot outbound media handling and does not expose arbitrary local file
+[CISA KEV] Vendor: Marimo, Product: Marimo. Marimo Remote Code Execution Vulnerability. Due date: 2026-05-07.
 
 **Mitigation / Countermeasure**:
-See GitHub Security Advisory GHSA-c4qg-j8jg-42q5 for affected packages and patched versions.
+Apply vendor patch before 2026-05-07. CISA directive enforcement required.
 
 **References**:
-- https://github.com/advisories/GHSA-c4qg-j8jg-42q5
+- https://nvd.nist.gov/vuln/detail/CVE-2026-39987
 
-> 📎 Source: https://github.com/advisories/GHSA-c4qg-j8jg-42q5
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2026-39987
 
-#### 7. GHSA-mj59-h3q9-ghfh (MEDIUM)
+#### 6. CVE-2026-33825 (KEV)
 
-**CVE/ID**: GHSA-mj59-h3q9-ghfh [GitHub-Advisory]
-**Severity**: MEDIUM | 
+**CVE/ID**: CVE-2026-33825 [CISA-KEV]
+**Severity**: KEV | 
 
 
 **Description**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-Workspace MCP stdio configuration could pass dangerous process-startup environment variables such as `NODE_OPTIONS`, `LD_PRELOAD`, or `BASH_ENV` to the spawned MCP server process. In a malicious workspace, this could make the MCP child load attacker-controlled code when the operator starts a session that uses that MCP server.
-
-The impact is limited to local/w
+[CISA KEV] Vendor: Microsoft, Product: Defender. Microsoft Defender Insufficient Granularity of Access Control Vulnerability. Due date: 2026-05-06.
 
 **Mitigation / Countermeasure**:
-See GitHub Security Advisory GHSA-mj59-h3q9-ghfh for affected packages and patched versions.
+Apply vendor patch before 2026-05-06. CISA directive enforcement required.
 
 **References**:
-- https://github.com/advisories/GHSA-mj59-h3q9-ghfh
+- https://nvd.nist.gov/vuln/detail/CVE-2026-33825
 
-> 📎 Source: https://github.com/advisories/GHSA-mj59-h3q9-ghfh
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2026-33825
 
-#### 8. GHSA-57r2-h2wj-g887 (LOW)
+#### 7. CVE-2026-20122 (KEV)
 
-**CVE/ID**: GHSA-57r2-h2wj-g887 [GitHub-Advisory]
-**Severity**: LOW | 
+**CVE/ID**: CVE-2026-20122 [CISA-KEV]
+**Severity**: KEV | 
 
 
 **Description**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-Output from webhook-triggered isolated cron agent runs could be queued into the main session awareness stream without `trusted: false`. That made the event render as a trusted `System:` event instead of an untrusted system event.
-
-This is a trust-labeling issue that can strengthen prompt-injection impact, but it does not directly bypass gateway auth, tool pol
+[CISA KEV] Vendor: Cisco, Product: Catalyst SD-WAN Manger. Cisco Catalyst SD-WAN Manager Incorrect Use of Privileged APIs Vulnerability. Due date: 2026-04-23.
 
 **Mitigation / Countermeasure**:
-See GitHub Security Advisory GHSA-57r2-h2wj-g887 for affected packages and patched versions.
+Apply vendor patch before 2026-04-23. CISA directive enforcement required.
 
 **References**:
-- https://github.com/advisories/GHSA-57r2-h2wj-g887
+- https://nvd.nist.gov/vuln/detail/CVE-2026-20122
 
-> 📎 Source: https://github.com/advisories/GHSA-57r2-h2wj-g887
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2026-20122
 
-#### 9. GHSA-hxvm-xjvf-93f3 (MEDIUM)
+#### 8. CVE-2026-20133 (KEV)
 
-**CVE/ID**: GHSA-hxvm-xjvf-93f3 [GitHub-Advisory]
-**Severity**: MEDIUM | 
+**CVE/ID**: CVE-2026-20133 [CISA-KEV]
+**Severity**: KEV | 
 
 
 **Description**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-Workspace `.env` loading did not reserve the `OPENCLAW_` runtime-control namespace broadly enough. A malicious workspace could set variables such as `OPENCLAW_GIT_DIR` before source-update or installer flows, potentially steering trusted OpenClaw runtime behavior.
-
-This requires running OpenClaw from an attacker-controlled workspace. Severity is medium.
-
-## F
+[CISA KEV] Vendor: Cisco, Product: Catalyst SD-WAN Manager. Cisco Catalyst SD-WAN Manager Exposure of Sensitive Information to an Unauthorized Actor Vulnerability. Due date: 2026-04-23.
 
 **Mitigation / Countermeasure**:
-See GitHub Security Advisory GHSA-hxvm-xjvf-93f3 for affected packages and patched versions.
+Apply vendor patch before 2026-04-23. CISA directive enforcement required.
 
 **References**:
-- https://github.com/advisories/GHSA-hxvm-xjvf-93f3
+- https://nvd.nist.gov/vuln/detail/CVE-2026-20133
 
-> 📎 Source: https://github.com/advisories/GHSA-hxvm-xjvf-93f3
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2026-20133
 
-#### 10. GHSA-72q8-jcmc-97wx (MEDIUM)
+#### 9. CVE-2025-2749 (KEV)
 
-**CVE/ID**: GHSA-72q8-jcmc-97wx [GitHub-Advisory]
-**Severity**: MEDIUM | 
+**CVE/ID**: CVE-2025-2749 [CISA-KEV]
+**Severity**: KEV | 
 
 
 **Description**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-Feishu card-action callbacks could synthesize a message event with DM conversations classified as group conversations. That skipped `dmPolicy` enforcement for card actions, so a sender in a Feishu DM could trigger card-action flows that should have been blocked by a restrictive DM policy.
-
-The issue is limited to Feishu card-action handling. Severity is mediu
+[CISA KEV] Vendor: Kentico, Product: Kentico Xperience. Kentico Xperience Path Traversal Vulnerability. Due date: 2026-05-04.
 
 **Mitigation / Countermeasure**:
-See GitHub Security Advisory GHSA-72q8-jcmc-97wx for affected packages and patched versions.
+Apply vendor patch before 2026-05-04. CISA directive enforcement required.
 
 **References**:
-- https://github.com/advisories/GHSA-72q8-jcmc-97wx
+- https://nvd.nist.gov/vuln/detail/CVE-2025-2749
 
-> 📎 Source: https://github.com/advisories/GHSA-72q8-jcmc-97wx
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2025-2749
 
-#### 11. GHSA-v8qf-fr4g-28p2 (LOW)
+#### 10. CVE-2023-27351 (KEV)
 
-**CVE/ID**: GHSA-v8qf-fr4g-28p2 [GitHub-Advisory]
-**Severity**: LOW | 
+**CVE/ID**: CVE-2023-27351 [CISA-KEV]
+**Severity**: KEV | 
 
 
 **Description**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-The Control UI assistant-media route authenticated trusted-proxy callers but did not enforce the declared operator scopes for identity-bearing HTTP auth paths. A trusted-proxy caller without `operator.read` could access assistant-media files and metadata that were otherwise inside allowed media roots.
-
-The route still required successful gateway authenticatio
+[CISA KEV] Vendor: PaperCut, Product: NG/MF. PaperCut NG/MF Improper Authentication Vulnerability. Due date: 2026-05-04.
 
 **Mitigation / Countermeasure**:
-See GitHub Security Advisory GHSA-v8qf-fr4g-28p2 for affected packages and patched versions.
+Apply vendor patch before 2026-05-04. CISA directive enforcement required.
 
 **References**:
-- https://github.com/advisories/GHSA-v8qf-fr4g-28p2
+- https://nvd.nist.gov/vuln/detail/CVE-2023-27351
 
-> 📎 Source: https://github.com/advisories/GHSA-v8qf-fr4g-28p2
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2023-27351
 
-#### 12. GHSA-2xcp-x87w-q377 (MEDIUM)
+#### 11. CVE-2025-48700 (KEV)
 
-**CVE/ID**: GHSA-2xcp-x87w-q377 [GitHub-Advisory]
-**Severity**: MEDIUM | 
+**CVE/ID**: CVE-2025-48700 [CISA-KEV]
+**Severity**: KEV | 
 
 
 **Description**:
-[GitHub Advisory] ## Affected Packages / Versions
-
-- Package: `openclaw` (npm)
-- Affected versions: `< 2026.4.20`
-- Patched version: `2026.4.20`
-
-## Impact
-
-Templated hook mapping `sessionKey` values were treated differently from request-supplied session keys. A hook mapping could render an externally influenced session key even when `hooks.allowRequestSessionKey` was disabled, bypassing the intended routing opt-in for hook callers.
-
-This affects webhook routing isolation. It does not grant host execution by itse
+[CISA KEV] Vendor: Synacor, Product: Zimbra Collaboration Suite (ZCS). Synacor Zimbra Collaboration Suite (ZCS) Cross-site Scripting Vulnerability. Due date: 2026-04-23.
 
 **Mitigation / Countermeasure**:
-See GitHub Security Advisory GHSA-2xcp-x87w-q377 for affected packages and patched versions.
+Apply vendor patch before 2026-04-23. CISA directive enforcement required.
 
 **References**:
-- https://github.com/advisories/GHSA-2xcp-x87w-q377
+- https://nvd.nist.gov/vuln/detail/CVE-2025-48700
 
-> 📎 Source: https://github.com/advisories/GHSA-2xcp-x87w-q377
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2025-48700
 
-#### 13. GHSA-rpm5-65cw-6hj4 (HIGH)
+#### 12. CVE-2026-20128 (KEV)
 
-**CVE/ID**: GHSA-rpm5-65cw-6hj4 [GitHub-Advisory]
-**Severity**: HIGH | CVSS: 8.8
+**CVE/ID**: CVE-2026-20128 [CISA-KEV]
+**Severity**: KEV | 
 
 
 **Description**:
-[GitHub Advisory] ### Summary
-GitPython blocks dangerous Git options such as `--upload-pack` and `--receive-pack` by default, but the equivalent Python kwargs `upload_pack` and `receive_pack` bypass that check. If an application passes attacker-controlled kwargs into `Repo.clone_from()`, `Remote.fetch()`, `Remote.pull()`, or `Remote.push()`, this leads to arbitrary command execution even when `allow_unsafe_options` is left at its default value of `False`.
-
-### Details
-GitPython explicitly treats helper-command op
+[CISA KEV] Vendor: Cisco, Product: Catalyst SD-WAN Manager. Cisco Catalyst SD-WAN Manager Storing Passwords in a Recoverable Format Vulnerability. Due date: 2026-04-23.
 
 **Mitigation / Countermeasure**:
-See GitHub Security Advisory GHSA-rpm5-65cw-6hj4 for affected packages and patched versions.
+Apply vendor patch before 2026-04-23. CISA directive enforcement required.
 
 **References**:
-- https://github.com/advisories/GHSA-rpm5-65cw-6hj4
+- https://nvd.nist.gov/vuln/detail/CVE-2026-20128
 
-> 📎 Source: https://github.com/advisories/GHSA-rpm5-65cw-6hj4
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2026-20128
 
-#### 14. GHSA-x2qx-6953-8485 (HIGH)
+#### 13. CVE-2025-32975 (KEV)
 
-**CVE/ID**: GHSA-x2qx-6953-8485 [GitHub-Advisory]
-**Severity**: HIGH | CVSS: 8.1
+**CVE/ID**: CVE-2025-32975 [CISA-KEV]
+**Severity**: KEV | 
 
 
 **Description**:
-[GitHub Advisory] ### Summary
-
-`_clone()` validates `multi_options` as the original list, then executes `shlex.split(" ".join(multi_options))`. A string like `"--branch main --config core.hooksPath=/x"` passes validation (starts with `--branch`), but after split becomes `["--branch", "main", "--config", "core.hooksPath=/x"]`. Git applies the config and executes attacker hooks during clone.
-
-### Details
-
-The vulnerable code is in [`git/repo/base.py` line 1383](https://github.com/gitpython-developers/GitPython/blob
+[CISA KEV] Vendor: Quest, Product: KACE Systems Management Appliance (SMA). Quest KACE Systems Management Appliance (SMA) Improper Authentication Vulnerability. Due date: 2026-05-04.
 
 **Mitigation / Countermeasure**:
-See GitHub Security Advisory GHSA-x2qx-6953-8485 for affected packages and patched versions.
+Apply vendor patch before 2026-05-04. CISA directive enforcement required.
 
 **References**:
-- https://github.com/advisories/GHSA-x2qx-6953-8485
+- https://nvd.nist.gov/vuln/detail/CVE-2025-32975
 
-> 📎 Source: https://github.com/advisories/GHSA-x2qx-6953-8485
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2025-32975
 
-#### 15. GHSA-3gr9-485j-v4xf (MEDIUM)
+#### 14. CVE-2024-27199 (KEV)
 
-**CVE/ID**: GHSA-3gr9-485j-v4xf [GitHub-Advisory]
-**Severity**: MEDIUM | CVSS: 5.3
+**CVE/ID**: CVE-2024-27199 [CISA-KEV]
+**Severity**: KEV | 
 
 
 **Description**:
-[GitHub Advisory] ## Summary
-
-After a note-mark owner soft-deletes a public book, its notes and uploaded assets stay readable at `/api/notes/{id}`, `/api/notes/{id}/content`, the slug URL, and the asset endpoints. Unauthenticated callers who hold the note ID or the slug path retain access. GORM's soft-delete scope does not reach the raw `JOIN books ...` clauses used by the note and asset queries.
-
-## Details
-
-`DELETE /api/books/{bookID}` sets `books.deleted_at` to the current time. The book-level endpoint starts 
+[CISA KEV] Vendor: JetBrains, Product: TeamCity. JetBrains TeamCity Relative Path Traversal Vulnerability. Due date: 2026-05-04.
 
 **Mitigation / Countermeasure**:
-See GitHub Security Advisory GHSA-3gr9-485j-v4xf for affected packages and patched versions.
+Apply vendor patch before 2026-05-04. CISA directive enforcement required.
 
 **References**:
-- https://github.com/advisories/GHSA-3gr9-485j-v4xf
+- https://nvd.nist.gov/vuln/detail/CVE-2024-27199
 
-> 📎 Source: https://github.com/advisories/GHSA-3gr9-485j-v4xf
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2024-27199
 
-#### 16. GHSA-pxf8-6wqm-r6hh (CRITICAL)
+#### 15. CVE-2026-34197 (KEV)
 
-**CVE/ID**: GHSA-pxf8-6wqm-r6hh [GitHub-Advisory]
-**Severity**: CRITICAL | CVSS: 9.4
+**CVE/ID**: CVE-2026-34197 [CISA-KEV]
+**Severity**: KEV | 
 
 
 **Description**:
-[GitHub Advisory] ## Summary
-
-`IsPasswordMatch` in `backend/db/models.go` falls back to a hard-coded `bcrypt("null")` placeholder whenever a user has no stored password. OIDC-registered users are created with an empty password, so anyone who submits `password: "null"` to the internal login endpoint receives a valid session for that user. The bypass is unauthenticated and requires no user interaction.
-
-## Details
-
-`backend/db/models.go:36` defines the placeholder hash used by the timing-attack mitigation inside `I
+[CISA KEV] Vendor: Apache, Product: ActiveMQ. Apache ActiveMQ Improper Input Validation Vulnerability. Due date: 2026-04-30.
 
 **Mitigation / Countermeasure**:
-See GitHub Security Advisory GHSA-pxf8-6wqm-r6hh for affected packages and patched versions.
+Apply vendor patch before 2026-04-30. CISA directive enforcement required.
 
 **References**:
-- https://github.com/advisories/GHSA-pxf8-6wqm-r6hh
+- https://nvd.nist.gov/vuln/detail/CVE-2026-34197
 
-> 📎 Source: https://github.com/advisories/GHSA-pxf8-6wqm-r6hh
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2026-34197
 
-#### 17. GHSA-gj49-89wh-h4gj (HIGH)
+#### 16. CVE-2009-0238 (KEV)
 
-**CVE/ID**: GHSA-gj49-89wh-h4gj [GitHub-Advisory]
-**Severity**: HIGH | CVSS: 7.9
+**CVE/ID**: CVE-2009-0238 [CISA-KEV]
+**Severity**: KEV | 
 
 
 **Description**:
-[GitHub Advisory] ### Impact
-The output of `cilium-bugtool` can contain sensitive data when the tool is run against Cilium deployments with WireGuard encryption enabled.
-
-Users of [WireGuard Transparent Encryption](https://docs.cilium.io/en/stable/security/network/encryption-wireguard/) are affected.
-The sensitive data is  the WireGuard private key (`cilium_wg0.key`) used for node-to-node encrypted communication
-
-`cilium-bugtool` is a debugging tool that is typically invoked manually and does not run during the n
+[CISA KEV] Vendor: Microsoft, Product: Office. Microsoft Office Remote Code Execution. Due date: 2026-04-28.
 
 **Mitigation / Countermeasure**:
-See GitHub Security Advisory GHSA-gj49-89wh-h4gj for affected packages and patched versions.
+Apply vendor patch before 2026-04-28. CISA directive enforcement required.
 
 **References**:
-- https://github.com/advisories/GHSA-gj49-89wh-h4gj
+- https://nvd.nist.gov/vuln/detail/CVE-2009-0238
 
-> 📎 Source: https://github.com/advisories/GHSA-gj49-89wh-h4gj
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2009-0238
 
-#### 18. GHSA-wg4g-395p-mqv3 (MEDIUM)
+#### 17. CVE-2026-32201 (KEV)
 
-**CVE/ID**: GHSA-wg4g-395p-mqv3 [GitHub-Advisory]
-**Severity**: MEDIUM | CVSS: 4.3
+**CVE/ID**: CVE-2026-32201 [CISA-KEV]
+**Severity**: KEV | 
 
 
 **Description**:
-[GitHub Advisory] ### Impact
-
-When `n8n-mcp` runs in HTTP transport mode, authenticated MCP `tools/call` requests had their full arguments and JSON-RPC params written to server logs by the request dispatcher and several sibling code paths before any redaction. When a tool call carries credential material — most notably `n8n_manage_credentials.data` — the raw values can be persisted in logs.
-
-In deployments where logs are collected, forwarded to external systems, or viewable outside the request trust boundary (sha
+[CISA KEV] Vendor: Microsoft, Product: SharePoint Server. Microsoft SharePoint Server Improper Input Validation Vulnerability. Due date: 2026-04-28.
 
 **Mitigation / Countermeasure**:
-See GitHub Security Advisory GHSA-wg4g-395p-mqv3 for affected packages and patched versions.
+Apply vendor patch before 2026-04-28. CISA directive enforcement required.
 
 **References**:
-- https://github.com/advisories/GHSA-wg4g-395p-mqv3
+- https://nvd.nist.gov/vuln/detail/CVE-2026-32201
 
-> 📎 Source: https://github.com/advisories/GHSA-wg4g-395p-mqv3
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2026-32201
 
-#### 19. GHSA-74m3-9qvm-rp9h (HIGH)
+#### 18. CVE-2012-1854 (KEV)
 
-**CVE/ID**: GHSA-74m3-9qvm-rp9h [GitHub-Advisory]
-**Severity**: HIGH | CVSS: 8.7
+**CVE/ID**: CVE-2012-1854 [CISA-KEV]
+**Severity**: KEV | 
 
 
 **Description**:
-[GitHub Advisory] **Summary**
-The zrok WebDAV drive backend (davServer.Dir) restricts path traversal through lexical normalization but does not prevent symlink following. When a symbolic link inside the shared DriveRoot points to a location outside that root, remote WebDAV consumers can read files and—on shares without OS-level permission restrictions—write or overwrite files anywhere on the host filesystem accessible to the zrok process.
-
-- Attack Vector: Network — exploitation is performed entirely over the Web
+[CISA KEV] Vendor: Microsoft, Product: Visual Basic for Applications (VBA). Microsoft Visual Basic for Applications Insecure Library Loading Vulnerability. Due date: 2026-04-27.
 
 **Mitigation / Countermeasure**:
-See GitHub Security Advisory GHSA-74m3-9qvm-rp9h for affected packages and patched versions.
+Apply vendor patch before 2026-04-27. CISA directive enforcement required.
 
 **References**:
-- https://github.com/advisories/GHSA-74m3-9qvm-rp9h
+- https://nvd.nist.gov/vuln/detail/CVE-2012-1854
 
-> 📎 Source: https://github.com/advisories/GHSA-74m3-9qvm-rp9h
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2012-1854
 
-#### 20. GHSA-3q34-rx83-r6mq (HIGH)
+#### 19. CVE-2025-60710 (KEV)
 
-**CVE/ID**: GHSA-3q34-rx83-r6mq [GitHub-Advisory]
-**Severity**: HIGH | 
+**CVE/ID**: CVE-2025-60710 [CISA-KEV]
+**Severity**: KEV | 
 
 
 **Description**:
-[GitHub Advisory] ### Summary
-
-Heimdall performs rule matching on the raw (non-normalized) request path, while downstream components may normalize dot-segments according to [RFC 3986, Section 6.2.2.3](https://www.rfc-editor.org/rfc/rfc3986#section-6.2.2.3). This discrepancy can result in heimdall authorizing a request for one path (e.g., `/user/../admin`, or URL-encoded variants such as `/user/%2e%2e/admin` or `/user/%2e%2e%2fadmin`. The latter would require the `allow_encoded_slashes` option to be set to `on` or
+[CISA KEV] Vendor: Microsoft, Product: Windows. Microsoft Windows Link Following Vulnerability. Due date: 2026-04-27.
 
 **Mitigation / Countermeasure**:
-See GitHub Security Advisory GHSA-3q34-rx83-r6mq for affected packages and patched versions.
+Apply vendor patch before 2026-04-27. CISA directive enforcement required.
 
 **References**:
-- https://github.com/advisories/GHSA-3q34-rx83-r6mq
+- https://nvd.nist.gov/vuln/detail/CVE-2025-60710
 
-> 📎 Source: https://github.com/advisories/GHSA-3q34-rx83-r6mq
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2025-60710
+
+#### 20. CVE-2023-21529 (KEV)
+
+**CVE/ID**: CVE-2023-21529 [CISA-KEV]
+**Severity**: KEV | 
+
+
+**Description**:
+[CISA KEV] Vendor: Microsoft, Product: Exchange Server. Microsoft Exchange Server Deserialization of Untrusted Data Vulnerability. Due date: 2026-04-27.
+
+**Mitigation / Countermeasure**:
+Apply vendor patch before 2026-04-27. CISA directive enforcement required.
+
+**References**:
+- https://nvd.nist.gov/vuln/detail/CVE-2023-21529
+
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2023-21529
+
+#### 21. CVE-2023-36424 (KEV)
+
+**CVE/ID**: CVE-2023-36424 [CISA-KEV]
+**Severity**: KEV | 
+
+
+**Description**:
+[CISA KEV] Vendor: Microsoft, Product: Windows. Microsoft Windows Out-of-Bounds Read Vulnerability. Due date: 2026-04-27.
+
+**Mitigation / Countermeasure**:
+Apply vendor patch before 2026-04-27. CISA directive enforcement required.
+
+**References**:
+- https://nvd.nist.gov/vuln/detail/CVE-2023-36424
+
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2023-36424
+
+#### 22. CVE-2020-9715 (KEV)
+
+**CVE/ID**: CVE-2020-9715 [CISA-KEV]
+**Severity**: KEV | 
+
+
+**Description**:
+[CISA KEV] Vendor: Adobe, Product: Acrobat. Adobe Acrobat Use-After-Free Vulnerability. Due date: 2026-04-27.
+
+**Mitigation / Countermeasure**:
+Apply vendor patch before 2026-04-27. CISA directive enforcement required.
+
+**References**:
+- https://nvd.nist.gov/vuln/detail/CVE-2020-9715
+
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2020-9715
+
+#### 23. CVE-2026-21643 (KEV)
+
+**CVE/ID**: CVE-2026-21643 [CISA-KEV]
+**Severity**: KEV | 
+
+
+**Description**:
+[CISA KEV] Vendor: Fortinet, Product: FortiClient EMS. Fortinet FortiClient EMS SQL Injection Vulnerability. Due date: 2026-04-16.
+
+**Mitigation / Countermeasure**:
+Apply vendor patch before 2026-04-16. CISA directive enforcement required.
+
+**References**:
+- https://nvd.nist.gov/vuln/detail/CVE-2026-21643
+
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2026-21643
+
+#### 24. CVE-2026-34621 (KEV)
+
+**CVE/ID**: CVE-2026-34621 [CISA-KEV]
+**Severity**: KEV | 
+
+
+**Description**:
+[CISA KEV] Vendor: Adobe, Product: Acrobat and Reader. Adobe Acrobat and Reader Prototype Pollution Vulnerability. Due date: 2026-04-27.
+
+**Mitigation / Countermeasure**:
+Apply vendor patch before 2026-04-27. CISA directive enforcement required.
+
+**References**:
+- https://nvd.nist.gov/vuln/detail/CVE-2026-34621
+
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2026-34621
+
+#### 25. CVE-2026-1340 (KEV)
+
+**CVE/ID**: CVE-2026-1340 [CISA-KEV]
+**Severity**: KEV | 
+
+
+**Description**:
+[CISA KEV] Vendor: Ivanti, Product: Endpoint Manager Mobile (EPMM). Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability. Due date: 2026-04-11.
+
+**Mitigation / Countermeasure**:
+Apply vendor patch before 2026-04-11. CISA directive enforcement required.
+
+**References**:
+- https://nvd.nist.gov/vuln/detail/CVE-2026-1340
+
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2026-1340
+
+#### 26. CVE-2026-35616 (KEV)
+
+**CVE/ID**: CVE-2026-35616 [CISA-KEV]
+**Severity**: KEV | 
+
+
+**Description**:
+[CISA KEV] Vendor: Fortinet, Product: FortiClient EMS. Fortinet FortiClient EMS Improper Access Control Vulnerability. Due date: 2026-04-09.
+
+**Mitigation / Countermeasure**:
+Apply vendor patch before 2026-04-09. CISA directive enforcement required.
+
+**References**:
+- https://nvd.nist.gov/vuln/detail/CVE-2026-35616
+
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2026-35616
+
+#### 27. CVE-2026-3502 (KEV)
+
+**CVE/ID**: CVE-2026-3502 [CISA-KEV]
+**Severity**: KEV | 
+
+
+**Description**:
+[CISA KEV] Vendor: TrueConf, Product: Client. TrueConf Client Download of Code Without Integrity Check Vulnerability. Due date: 2026-04-16.
+
+**Mitigation / Countermeasure**:
+Apply vendor patch before 2026-04-16. CISA directive enforcement required.
+
+**References**:
+- https://nvd.nist.gov/vuln/detail/CVE-2026-3502
+
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2026-3502
+
+#### 28. CVE-2026-5281 (KEV)
+
+**CVE/ID**: CVE-2026-5281 [CISA-KEV]
+**Severity**: KEV | 
+
+
+**Description**:
+[CISA KEV] Vendor: Google, Product: Dawn. Google Dawn Use-After-Free Vulnerability. Due date: 2026-04-15.
+
+**Mitigation / Countermeasure**:
+Apply vendor patch before 2026-04-15. CISA directive enforcement required.
+
+**References**:
+- https://nvd.nist.gov/vuln/detail/CVE-2026-5281
+
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2026-5281
+
+#### 29. CVE-2026-3055 (KEV)
+
+**CVE/ID**: CVE-2026-3055 [CISA-KEV]
+**Severity**: KEV | 
+
+
+**Description**:
+[CISA KEV] Vendor: Citrix, Product: NetScaler. Citrix NetScaler Out-of-Bounds Read Vulnerability. Due date: 2026-04-02.
+
+**Mitigation / Countermeasure**:
+Apply vendor patch before 2026-04-02. CISA directive enforcement required.
+
+**References**:
+- https://nvd.nist.gov/vuln/detail/CVE-2026-3055
+
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2026-3055
+
+#### 30. CVE-2025-53521 (KEV)
+
+**CVE/ID**: CVE-2025-53521 [CISA-KEV]
+**Severity**: KEV | 
+
+
+**Description**:
+[CISA KEV] Vendor: F5, Product: BIG-IP. F5 BIG-IP Stack-Based Buffer Overflow Vulnerability. Due date: 2026-03-30.
+
+**Mitigation / Countermeasure**:
+Apply vendor patch before 2026-03-30. CISA directive enforcement required.
+
+**References**:
+- https://nvd.nist.gov/vuln/detail/CVE-2025-53521
+
+> 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2025-53521
 
 
 
