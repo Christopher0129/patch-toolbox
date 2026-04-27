@@ -17,7 +17,7 @@ def vec_to_json(vec: List[float]) -> str:
 def vec_to_blob(vec: List[float]) -> bytes:
     """将向量转为二进制 blob（float32）。"""
     import struct
-    return struct.pack(f"&lt;{len(vec)}f", *vec)
+    return struct.pack(f"<{len(vec)}f", *vec)
 
 
 def ensure_entries_fts(conn: sqlite3.Connection):
