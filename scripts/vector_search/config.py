@@ -75,7 +75,12 @@ class VectorConfig:
 
         # 若 api_key 还是占位符（环境变量未设置），标记为无效
         api_key_value = cfg.get("api", {}).get("api_key", "")
-        api_key_resolved = api_key_value if isinstance(api_key_value, str) else ""
+        if api_key_value is None:
+            api_key_resolved = ""
+        elif isinstance(api_key_value, str):
+            api_key_resolved = api_key_value
+        else:
+            raise ValueError("vector_search.api.api_key must be a string")
         if api_key_resolved.startswith("${") and api_key_resolved.endswith("}"):
             api_key_resolved = ""
 
