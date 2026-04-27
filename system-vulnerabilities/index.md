@@ -7,12 +7,10 @@
 - [Linux 漏洞 / Linux Vulns](linux.md)
 - [macOS 漏洞 / macOS Vulns](macos.md)
 
-| 分类 | 最新更新 | 条目数 |
-|------|----------|--------|
-| [WINDOWS](windows.md) | 2026-04-27 09:35 | 306 |
-| [LINUX](linux.md) | 2026-04-27 09:35 | 300 |
-| [MACOS](macos.md) | 2026-04-27 09:35 | 445 |
+| 平台 / Platform | 条目数 / Entries | 链接 / Link |
+|---|---|---|
+| Windows | 306 | [windows.md](windows.md) |
+| Linux | 300 | [linux.md](linux.md) |
+| Macos | 425 | [macos.md](macos.md) |
 
 ---
-
-_自动维护 | Auto-maintained_

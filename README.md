@@ -6,13 +6,13 @@
 
 ## 中文介绍
 
-这是一个**持续自动维护**的安全知识库，每小时从 NVD、Exploit-DB、GitHub Security Advisories、Stack Exchange 等平台聚合最新的网络安全漏洞（含 0-Day 公开利用）、系统漏洞及常见故障信息。
+这是一个**持续整理**的安全知识库，聚合网络安全漏洞、系统漏洞及常见故障信息。
 
 ### 📚 知识库目录
 
 | 分类 | 入口 | 说明 |
 |------|------|------|
-| **网络安全漏洞** | [network-security/index.md](network-security/index.md) | CVE 漏洞库、0-Day 公开利用、GitHub 安全公告、CISA 紧急漏洞 |
+| **网络安全漏洞** | [network-security/index.md](network-security/index.md) | CVE 漏洞库、公开漏洞利用、GitHub 安全公告、CISA 紧急漏洞 |
 | **系统漏洞** | [system-vulnerabilities/index.md](system-vulnerabilities/index.md) | Windows / Linux / macOS 系统级漏洞及补丁信息 |
 | **系统故障排障** | [system-troubleshooting/index.md](system-troubleshooting/index.md) | Windows / Linux / macOS 常见故障及社区验证解决方案 |
 
@@ -29,18 +29,25 @@
 - [GitHub Security Advisories](https://github.com/advisories)
 - [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 - [Stack Exchange](https://serverfault.com/) / [Ask Ubuntu](https://askubuntu.com/) / [Ask Different](https://apple.stackexchange.com/)
+- [Reddit](https://www.reddit.com/) / [V2EX](https://www.v2ex.com/)
+
+### 💾 数据格式
+
+知识库内容同时提供 **SQLite 数据库** 与 **Markdown 文档** 两种格式：
+- SQLite 文件位于 `db/` 目录，适合程序化查询与导入
+- Markdown 文件位于各分类目录，适合直接阅读与浏览
 
 ---
 
 ## English Introduction
 
-An **auto-maintained** security knowledge base that aggregates the latest network security vulnerabilities (including public 0-Day exploits), system vulnerabilities, and common troubleshooting info from NVD, Exploit-DB, GitHub Security Advisories, Stack Exchange, and other platforms every hour.
+A **community-curated** security knowledge base that aggregates network security vulnerabilities, system vulnerabilities, and common troubleshooting info.
 
 ### 📚 Knowledge Base Index
 
 | Category | Entry | Description |
 |----------|-------|-------------|
-| **Network Security** | [network-security/index.md](network-security/index.md) | CVE database, 0-Day public exploits, GitHub security advisories, CISA emergency vulnerabilities |
+| **Network Security** | [network-security/index.md](network-security/index.md) | CVE database, public exploits, GitHub security advisories, CISA emergency vulnerabilities |
 | **System Vulnerabilities** | [system-vulnerabilities/index.md](system-vulnerabilities/index.md) | OS-level vulnerabilities and patch info for Windows / Linux / macOS |
 | **System Troubleshooting** | [system-troubleshooting/index.md](system-troubleshooting/index.md) | Common system issues and community-verified solutions for Windows / Linux / macOS |
 
@@ -57,6 +64,13 @@ An **auto-maintained** security knowledge base that aggregates the latest networ
 - [GitHub Security Advisories](https://github.com/advisories)
 - [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 - [Stack Exchange](https://serverfault.com/) / [Ask Ubuntu](https://askubuntu.com/) / [Ask Different](https://apple.stackexchange.com/)
+- [Reddit](https://www.reddit.com/) / [V2EX](https://www.v2ex.com/)
+
+### 💾 Data Format
+
+Content is available in both **SQLite database** and **Markdown document** formats:
+- SQLite files in `db/` for programmatic querying and importing
+- Markdown files in category directories for direct reading and browsing
 
 ---
 

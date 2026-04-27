@@ -48,7 +48,7 @@ Thumbs.db
 playwright-data/
 browser_data/
 
-# Local state
+# Local state (legacy, kept for backward compat)
 state.json
 dedup.db
 

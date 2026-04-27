@@ -7,12 +7,10 @@
 - [Linux 故障 / Linux Issues](linux.md)
 - [macOS 故障 / macOS Issues](macos.md)
 
-| 分类 | 最新更新 | 条目数 |
-|------|----------|--------|
-| [WINDOWS](windows.md) | 2026-04-27 09:38 | 315 |
-| [LINUX](linux.md) | 2026-04-27 09:38 | 295 |
-| [MACOS](macos.md) | 2026-04-27 09:38 | 280 |
+| 平台 / Platform | 条目数 / Entries | 链接 / Link |
+|---|---|---|
+| Windows | 316 | [windows.md](windows.md) |
+| Linux | 295 | [linux.md](linux.md) |
+| Macos | 280 | [macos.md](macos.md) |
 
 ---
-
-_自动维护 | Auto-maintained_
