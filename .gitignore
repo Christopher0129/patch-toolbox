@@ -55,8 +55,14 @@ dedup.db
 # Agent logs & temp reports (entire directory)
 agents/
 
-# Scripts (local automation only, not part of published KB)
-scripts/
+# Scripts — 保留 vector_search 模块和 CLI 工具，排除自动化/敏感脚本
+scripts/__pycache__/
+scripts/utils.py
+scripts/agent_*.py
+scripts/migrate_to_sqlite.py
+scripts/run_all.py
+scripts/cron_*.sh
+scripts/start-singbox.sh
 
 # requirements (local dev only)
 requirements.txt
