@@ -329,12 +329,14 @@ def run():
         zh_title, en_title = os_titles[os_name]
 
         sections = build_trouble_md_items(display_items[:max(50, len(display_items))], os_name)
+        nav = [{"text_zh": "返回目录", "text_en": "Back to Index", "href": "index.md"}]
         md_content = make_bilingual_md(
             title_zh=zh_title,
             title_en=en_title,
             intro_zh=f"本页面每小时自动从 Stack Exchange 社区抓取 {os_name.upper()} 平台常见故障及解决方法。",
             intro_en=f"Auto-updated hourly from Stack Exchange: common {os_name.upper()} issues and community-verified solutions.",
             sections=sections,
+            nav_links=nav,
         )
         write_md_file(OUTPUT_DIR / f"{os_name}.md", md_content)
 
@@ -342,7 +344,7 @@ def run():
         all_total += len(stored)
 
     # 总索引
-    index_lines = ["# 系统故障知识库总索引 | System Troubleshooting Knowledge Base Index", "", "| 分类 | 最新更新 | 条目数 |", "|------|----------|--------|"]
+    index_lines = ["# 系统故障知识库总索引 | System Troubleshooting Knowledge Base Index", "", "**🔗 导航 / Navigation**", "", "- [返回首页 / Back to Home](../README.md)", "- [Windows 故障 / Windows Issues](windows.md)", "- [Linux 故障 / Linux Issues](linux.md)", "- [macOS 故障 / macOS Issues](macos.md)", "", "| 分类 | 最新更新 | 条目数 |", "|------|----------|--------|"]
     for os_name in ["windows", "linux", "macos"]:
         cat = f"sys-trouble-{os_name}"
         state = __import__("utils").load_state()

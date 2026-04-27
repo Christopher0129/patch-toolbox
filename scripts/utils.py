@@ -106,6 +106,7 @@ def make_bilingual_md(
     intro_en: str,
     sections: List[Dict[str, Any]],  # 每个元素含 zh / en 子结构
     update_time: str = None,
+    nav_links: List[Dict[str, str]] = None,
 ) -> str:
     """
     生成带双语切换锚点的 Markdown。
@@ -180,6 +181,20 @@ def make_bilingual_md(
             if source:
                 lines.append(f"\n> 📎 Source: {source}")
             lines.append("")
+        lines.append("")
+
+    # 导航链接
+    if nav_links:
+        lines.append("")
+        lines.append("---")
+        lines.append("")
+        lines.append("**🔗 导航 / Navigation**")
+        lines.append("")
+        for link in nav_links:
+            text_zh = link.get("text_zh", "")
+            text_en = link.get("text_en", "")
+            href = link.get("href", "#")
+            lines.append(f"- [{text_zh} / {text_en}]({href})")
         lines.append("")
 
     return "\n".join(lines)

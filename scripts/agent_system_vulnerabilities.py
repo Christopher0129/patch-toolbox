@@ -243,12 +243,14 @@ def run():
         zh_title, en_title = os_titles[os_name]
 
         sections = build_os_md_items(display_items[:max(50, len(display_items))], os_name)
+        nav = [{"text_zh": "返回目录", "text_en": "Back to Index", "href": "index.md"}]
         md_content = make_bilingual_md(
             title_zh=zh_title,
             title_en=en_title,
             intro_zh=f"本页面每小时自动抓取 {os_name.upper()} 平台最新系统漏洞及应对措施。",
             intro_en=f"Auto-updated hourly: latest {os_name.upper()} system vulnerabilities and mitigations.",
             sections=sections,
+            nav_links=nav,
         )
         write_md_file(OUTPUT_DIR / f"{os_name}.md", md_content)
 
@@ -257,7 +259,7 @@ def run():
         reports[os_name] = {"new": len(new_items), "total": len(stored)}
 
     # 生成总索引
-    index_lines = ["# 系统漏洞知识库总索引 | System Vulnerability Knowledge Base Index", "", "| 分类 | 最新更新 | 条目数 |", "|------|----------|--------|"]
+    index_lines = ["# 系统漏洞知识库总索引 | System Vulnerability Knowledge Base Index", "", "**🔗 导航 / Navigation**", "", "- [返回首页 / Back to Home](../README.md)", "- [Windows 漏洞 / Windows Vulns](windows.md)", "- [Linux 漏洞 / Linux Vulns](linux.md)", "- [macOS 漏洞 / macOS Vulns](macos.md)", "", "| 分类 | 最新更新 | 条目数 |", "|------|----------|--------|"]
     for os_name in ["windows", "linux", "macos"]:
         cat = f"sys-vuln-{os_name}"
         state = __import__("utils").load_state()

@@ -252,6 +252,7 @@ def run():
         intro_zh="本页面每小时自动从 NVD、CISA KEV 等平台抓取最新网络安全漏洞及应对措施，自动去重并增量更新。",
         intro_en="This page is auto-updated hourly from NVD, CISA KEV, and other platforms. Deduplicated and incrementally maintained.",
         sections=sections,
+        nav_links=[{"text_zh": "返回首页", "text_en": "Back to Home", "href": "../README.md"}],
     )
     write_md_file(OUTPUT_DIR / "index.md", md_content)
 
