@@ -495,12 +495,18 @@ def fetch_json(url: str, timeout: int = 30, retries: int = 3, verify: bool = Tru
         if not proxy:
             log_agent("utils", f"fetch_json skip: no proxy for Reddit: {url}")
             return None
+        # Reddit 用更强的 headers 轮换
+        _REDDIT_UAS = [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        ]
         kwargs["headers"] = {
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            "User-Agent": _REDDIT_UAS[0],
             "Accept": "application/json, text/plain, */*",
-            "Accept-Language": "en-US,en;q=0.9",
+            "Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8",
             "Referer": "https://www.google.com/",
             "Connection": "keep-alive",
+            "DNT": "1",
         }
         kwargs["proxies"] = {"http": proxy, "https": proxy}
     elif not is_github and proxy:
@@ -512,10 +518,18 @@ def fetch_json(url: str, timeout: int = 30, retries: int = 3, verify: bool = Tru
     
     for attempt in range(retries):
         try:
+            if is_reddit:
+                kwargs["headers"]["User-Agent"] = _REDDIT_UAS[attempt % len(_REDDIT_UAS)]
+                time.sleep(1.5 * attempt)
             r = requests.get(url, **kwargs)
             if r.status_code == 429:
                 wait = 5 + (2 ** attempt)
                 log_agent("utils", f"Rate limit 429, waiting {wait}s...")
+                time.sleep(wait)
+                continue
+            if is_reddit and r.status_code in (403, 429):
+                wait = 5 + (3 ** attempt)
+                log_agent("utils", f"Reddit {r.status_code}, waiting {wait}s...")
                 time.sleep(wait)
                 continue
             r.raise_for_status()
@@ -538,33 +552,40 @@ def fetch_text(url: str, timeout: int = 30, retries: int = 3, verify: bool = Tru
     
     is_reddit = "reddit.com" in url
     
-    # Reddit 专用完整浏览器请求头（必须全，否则 403）
-    reddit_headers = {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Accept-Encoding": "gzip, deflate, br",
-        "Referer": "https://www.google.com/",
-        "Connection": "keep-alive",
-        "Upgrade-Insecure-Requests": "1",
-        "Sec-Fetch-Dest": "document",
-        "Sec-Fetch-Mode": "navigate",
-        "Sec-Fetch-Site": "cross-site",
-        "Sec-Fetch-User": "?1",
-        "Cache-Control": "max-age=0",
-    }
+    # Reddit 专用完整浏览器请求头轮换（绕过风控）
+    _REDDIT_UAS = [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    ]
+    
+    def _reddit_headers(idx: int = 0):
+        return {
+            "User-Agent": _REDDIT_UAS[idx % len(_REDDIT_UAS)],
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Referer": "https://www.google.com/",
+            "Connection": "keep-alive",
+            "Upgrade-Insecure-Requests": "1",
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "cross-site",
+            "Sec-Fetch-User": "?1",
+            "Cache-Control": "max-age=0",
+            "DNT": "1",
+        }
     
     # 代理配置：Reddit 必须走代理（国内被墙），其他看情况
     proxy = os.environ.get("HTTP_PROXY") or os.environ.get("http_proxy")
     if is_reddit and not proxy:
-        # Reddit 没代理就放弃
         log_agent("utils", f"fetch_text skip: no proxy for Reddit: {url}")
         return None
     
     kwargs = {
         "timeout": timeout,
         "verify": verify,
-        "headers": reddit_headers if is_reddit else {
+        "headers": _reddit_headers() if is_reddit else {
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
             "Accept-Language": "en-US,en;q=0.9",
         },
@@ -572,13 +593,21 @@ def fetch_text(url: str, timeout: int = 30, retries: int = 3, verify: bool = Tru
     if proxy:
         kwargs["proxies"] = {"http": proxy, "https": proxy}
     
-    # Reddit 不用 impersonate，用标准 requests 即可
     if not is_reddit:
         kwargs["impersonate"] = "chrome120"
     
     for attempt in range(retries):
         try:
+            if is_reddit:
+                # Reddit 轮换 UA + 增加延迟
+                kwargs["headers"] = _reddit_headers(attempt)
+                time.sleep(1.5 * attempt)  # Reddit 增加退避
             r = requests.get(url, **kwargs)
+            if is_reddit and r.status_code in (403, 429):
+                wait = 5 + (3 ** attempt)
+                log_agent("utils", f"Reddit {r.status_code}, waiting {wait}s...")
+                time.sleep(wait)
+                continue
             r.raise_for_status()
             log_agent("utils", f"fetch_text OK: {url} (HTTP {r.status_code})")
             return r.text

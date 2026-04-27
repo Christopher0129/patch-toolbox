@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 325**
+**总计条目 / Total entries: 326**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -4338,5 +4338,24 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8202-1
+
+---
+
+#### 326. [Ubuntu] USN-8212-1: authd vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that authd incorrectly assigned the primary group ID to
+users under certain conditions. A local attacker could possibly use this
+issue to achieve privilege escalation, or gain unauthorized access to files
+belonging to other users.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8212-1
 
 ---
