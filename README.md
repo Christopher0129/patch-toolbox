@@ -34,9 +34,7 @@
 
 ## English Introduction
 
-An **auto-maintained** security knowledge base that aggregates the latest network security vulnerabilities (including public 0-Day exploits), system vulnerabilities, and common troubleshooting info from NVD, Exploit-DB, GitHub Security Advisories, Stack Exchange, and other platforms every hour — deduplicated, incrementally updated, and archived in bilingual (CN/EN) Markdown.
-
-> This repo **contains knowledge content only**. Automation scripts run locally and are not published with the repo.
+An **auto-maintained** security knowledge base that aggregates the latest network security vulnerabilities (including public 0-Day exploits), system vulnerabilities, and common troubleshooting info from NVD, Exploit-DB, GitHub Security Advisories, Stack Exchange, and other platforms every hour.
 
 ### 📚 Knowledge Base Index
 
@@ -50,7 +48,6 @@ An **auto-maintained** security knowledge base that aggregates the latest networ
 
 - **Incremental**: New content appended, historical entries preserved
 - **Deduplication**: Same vulnerability keeps latest info; different mitigations are appended
-- **Minimum batch**: ≥50 new entries per category per update
 - **Bilingual**: All pages have built-in language toggle
 
 ### 📡 Data Sources
