@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 08:15:51 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 09:35:17 UTC_
 
 ## 中文 🇨🇳
 **macOS 系统漏洞**
@@ -21,7 +21,7 @@ _自动更新于 / Auto-updated: 2026-04-27 08:15:51 UTC_
 
 **CVE编号**: CVE-1999-0142 [NVD]
 **严重程度**: N/A CVSS: 7.5
-受影响产品: netscape:navigator, sun:java
+受影响产品: sun:java, netscape:navigator
 
 **漏洞描述**:
 The Java Applet Security Manager implementation in Netscape Navigator 2.0 and Java Developer's Kit 1.0 allows an applet to connect to arbitrary hosts.
@@ -117,7 +117,7 @@ Apply patch from vendor. Monitor http://freaky.staticusers.net/macsec/data/power
 
 **CVE编号**: CVE-1999-1412 [NVD]
 **严重程度**: N/A CVSS: 5.0
-受影响产品: apple:macos, apache:http_server
+受影响产品: apache:http_server, apple:macos
 
 **漏洞描述**:
 A possible interaction between Apple MacOS X release 1.0 and Apache HTTP server allows remote attackers to cause a denial of service (crash) via a flood of HTTP GET requests to CGI programs, which generates a large number of processes.
@@ -137,7 +137,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/14215.
 
 **CVE编号**: CVE-1999-0766 [NVD]
 **严重程度**: N/A CVSS: 9.3
-受影响产品: microsoft:internet_explorer, microsoft:java_virtual_machine
+受影响产品: microsoft:java_virtual_machine, microsoft:internet_explorer
 
 **漏洞描述**:
 The Microsoft Java Virtual Machine allows a malicious Java applet to execute arbitrary commands outside of the sandbox environment.
@@ -196,7 +196,7 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 **CVE编号**: CVE-2000-0162 [NVD]
 **严重程度**: N/A CVSS: 5.1
-受影响产品: microsoft:visual_studio, microsoft:internet_explorer, microsoft:ie
+受影响产品: microsoft:ie, microsoft:visual_studio, microsoft:internet_explorer
 
 **漏洞描述**:
 The Microsoft virtual machine (VM) in Internet Explorer 4.x and 5.x allows a remote attacker to read files via a malicious Java applet that escapes the Java sandbox, aka the "VM File Reading" vulnerability.
@@ -419,7 +419,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97958100816503&w=
 
 **CVE编号**: CVE-2001-0324 [NVD]
 **严重程度**: N/A CVSS: 2.6
-受影响产品: microsoft:windows_98, microsoft:windows_2000
+受影响产品: microsoft:windows_2000, microsoft:windows_98
 
 **漏洞描述**:
 Windows 98 and Windows 2000 Java clients allow remote attackers to cause a denial of service via a Java applet that opens a large number of UDP sockets, which prevents the host from establishing any additional UDP connections, and possibly causes a crash.
@@ -460,7 +460,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/
 
 **CVE编号**: CVE-2001-1008 [NVD]
 **严重程度**: N/A CVSS: 7.5
-受影响产品: sun:jre, sun:java_plug-in
+受影响产品: sun:java_plug-in, sun:jre
 
 **漏洞描述**:
 Java Plugin 1.4 for JRE 1.3 executes signed applets even if the certificate is expired, which could allow remote attackers to conduct unauthorized activities via an applet that has been signed by an expired certificate.
@@ -522,7 +522,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=99358249631139&w=
 
 **CVE编号**: CVE-2001-1480 [NVD]
 **严重程度**: N/A CVSS: 7.5
-受影响产品: sun:sdk, sun:jdk, apple:mac_os_runtime_for_java, sun:jre
+受影响产品: sun:sdk, apple:mac_os_runtime_for_java, sun:jre, sun:jdk
 
 **漏洞描述**:
 Java Runtime Environment (JRE) and SDK 1.2 through 1.3.0_04 allows untrusted applets to access the system clipboard.
@@ -585,7 +585,7 @@ Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/116875.
 
 **CVE编号**: CVE-2002-0058 [NVD]
 **严重程度**: N/A CVSS: 5.0
-受影响产品: sun:sdk, sun:jdk, microsoft:virtual_machine, sun:jre
+受影响产品: sun:sdk, microsoft:virtual_machine, sun:jre, sun:jdk
 
 **漏洞描述**:
 Vulnerability in Java Runtime Environment (JRE) allows remote malicious web sites to hijack or sniff a web client's sessions, when an HTTP proxy is being used, via a Java applet that redirects the session to another server, as seen in (1) Netscape 6.0 through 6.1 and 4.79 and earlier, (2) Microsoft VM build 3802 and earlier as used in Internet Explorer 4.x and 5.x, and possibly other implementations that use vulnerable versions of SDK or JDK.
@@ -606,7 +606,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101534535304228&w
 
 **CVE编号**: CVE-2002-0076 [NVD]
 **严重程度**: N/A CVSS: 7.5
-受影响产品: sun:jre, hp:java_jre-jdk, sun:sdk, sun:jdk, microsoft:virtual_machine
+受影响产品: sun:sdk, sun:jre, sun:jdk, hp:java_jre-jdk, microsoft:virtual_machine
 
 **漏洞描述**:
 Java Runtime Environment (JRE) Bytecode Verifier allows remote attackers to escape the Java sandbox and execute commands via an applet containing an illegal cast operation, as seen in (1) Microsoft VM build 3802 and earlier as used in Internet Explorer 4.x and 5.x, (2) Netscape 6.2.1 and earlier, and possibly other implementations that use vulnerable versions of SDK or JDK, aka a variant of the "Virtual Machine Verifier" vulnerability.
@@ -942,7 +942,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w
 
 **CVE编号**: CVE-2002-1257 [NVD]
 **严重程度**: N/A CVSS: 10.0
-受影响产品: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_me, microsoft:windows_95, microsoft:windows_xp
+受影响产品: microsoft:windows_98, microsoft:windows_98se, microsoft:windows_me, microsoft:windows_95, microsoft:windows_2000_terminal_services
 
 **漏洞描述**:
 Microsoft Virtual Machine (VM) up to and including build 5.0.3805 allows remote attackers to execute arbitrary code by including a Java applet that invokes COM (Component Object Model) objects in a web site or an HTML mail.
@@ -962,7 +962,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/6371.
 
 **CVE编号**: CVE-2002-1258 [NVD]
 **严重程度**: N/A CVSS: 5.0
-受影响产品: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_me, microsoft:windows_95, microsoft:windows_xp
+受影响产品: microsoft:windows_98, microsoft:windows_98se, microsoft:windows_me, microsoft:windows_95, microsoft:windows_2000_terminal_services
 
 **漏洞描述**:
 Two vulnerabilities in Microsoft Virtual Machine (VM) up to and including build 5.0.3805, as used in Internet Explorer and other applications, allow remote attackers to read files via a Java applet with a spoofed location in the CODEBASE parameter in the APPLET tag, possibly due to a parsing error.
@@ -982,7 +982,7 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 **CVE编号**: CVE-2002-1260 [NVD]
 **严重程度**: N/A CVSS: 7.5
-受影响产品: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_me, microsoft:windows_95, microsoft:windows_xp
+受影响产品: microsoft:windows_98, microsoft:windows_98se, microsoft:windows_me, microsoft:windows_95, microsoft:windows_2000_terminal_services
 
 **漏洞描述**:
 The Java Database Connectivity (JDBC) APIs in Microsoft Virtual Machine (VM) 5.0.3805 and earlier allow remote attackers to bypass security checks and access database contents via an untrusted Java applet.
@@ -1003,7 +1003,7 @@ Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/n-026.shtml.
 
 **CVE编号**: CVE-2002-1325 [NVD]
 **严重程度**: N/A CVSS: 5.0
-受影响产品: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_me, microsoft:windows_95, microsoft:windows_xp
+受影响产品: microsoft:windows_98, microsoft:windows_98se, microsoft:windows_me, microsoft:windows_95, microsoft:windows_2000_terminal_services
 
 **漏洞描述**:
 Microsoft Virtual Machine (VM) build 5.0.3805 and earlier allows remote attackers to determine a local user's username via a Java applet that accesses the user.dir system property, aka "User.dir Exposure Vulnerability."
@@ -1054,7 +1054,7 @@ Auto-updated every 6 hours: latest MACOS system vulnerabilities and mitigations.
 
 **CVE ID**: CVE-1999-0142 [NVD]
 **Severity**: N/A CVSS: 7.5
-**Affected Products**: netscape:navigator, sun:java
+**Affected Products**: sun:java, netscape:navigator
 
 **Description**:
 The Java Applet Security Manager implementation in Netscape Navigator 2.0 and Java Developer's Kit 1.0 allows an applet to connect to arbitrary hosts.
@@ -1150,7 +1150,7 @@ Apply patch from vendor. Monitor http://freaky.staticusers.net/macsec/data/power
 
 **CVE ID**: CVE-1999-1412 [NVD]
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: apple:macos, apache:http_server
+**Affected Products**: apache:http_server, apple:macos
 
 **Description**:
 A possible interaction between Apple MacOS X release 1.0 and Apache HTTP server allows remote attackers to cause a denial of service (crash) via a flood of HTTP GET requests to CGI programs, which generates a large number of processes.
@@ -1170,7 +1170,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/14215.
 
 **CVE ID**: CVE-1999-0766 [NVD]
 **Severity**: N/A CVSS: 9.3
-**Affected Products**: microsoft:internet_explorer, microsoft:java_virtual_machine
+**Affected Products**: microsoft:java_virtual_machine, microsoft:internet_explorer
 
 **Description**:
 The Microsoft Java Virtual Machine allows a malicious Java applet to execute arbitrary commands outside of the sandbox environment.
@@ -1229,7 +1229,7 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 **CVE ID**: CVE-2000-0162 [NVD]
 **Severity**: N/A CVSS: 5.1
-**Affected Products**: microsoft:visual_studio, microsoft:internet_explorer, microsoft:ie
+**Affected Products**: microsoft:ie, microsoft:visual_studio, microsoft:internet_explorer
 
 **Description**:
 The Microsoft virtual machine (VM) in Internet Explorer 4.x and 5.x allows a remote attacker to read files via a malicious Java applet that escapes the Java sandbox, aka the "VM File Reading" vulnerability.
@@ -1452,7 +1452,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97958100816503&w=
 
 **CVE ID**: CVE-2001-0324 [NVD]
 **Severity**: N/A CVSS: 2.6
-**Affected Products**: microsoft:windows_98, microsoft:windows_2000
+**Affected Products**: microsoft:windows_2000, microsoft:windows_98
 
 **Description**:
 Windows 98 and Windows 2000 Java clients allow remote attackers to cause a denial of service via a Java applet that opens a large number of UDP sockets, which prevents the host from establishing any additional UDP connections, and possibly causes a crash.
@@ -1493,7 +1493,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/
 
 **CVE ID**: CVE-2001-1008 [NVD]
 **Severity**: N/A CVSS: 7.5
-**Affected Products**: sun:jre, sun:java_plug-in
+**Affected Products**: sun:java_plug-in, sun:jre
 
 **Description**:
 Java Plugin 1.4 for JRE 1.3 executes signed applets even if the certificate is expired, which could allow remote attackers to conduct unauthorized activities via an applet that has been signed by an expired certificate.
@@ -1555,7 +1555,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=99358249631139&w=
 
 **CVE ID**: CVE-2001-1480 [NVD]
 **Severity**: N/A CVSS: 7.5
-**Affected Products**: sun:sdk, sun:jdk, apple:mac_os_runtime_for_java, sun:jre
+**Affected Products**: sun:sdk, apple:mac_os_runtime_for_java, sun:jre, sun:jdk
 
 **Description**:
 Java Runtime Environment (JRE) and SDK 1.2 through 1.3.0_04 allows untrusted applets to access the system clipboard.
@@ -1618,7 +1618,7 @@ Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/116875.
 
 **CVE ID**: CVE-2002-0058 [NVD]
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: sun:sdk, sun:jdk, microsoft:virtual_machine, sun:jre
+**Affected Products**: sun:sdk, microsoft:virtual_machine, sun:jre, sun:jdk
 
 **Description**:
 Vulnerability in Java Runtime Environment (JRE) allows remote malicious web sites to hijack or sniff a web client's sessions, when an HTTP proxy is being used, via a Java applet that redirects the session to another server, as seen in (1) Netscape 6.0 through 6.1 and 4.79 and earlier, (2) Microsoft VM build 3802 and earlier as used in Internet Explorer 4.x and 5.x, and possibly other implementations that use vulnerable versions of SDK or JDK.
@@ -1639,7 +1639,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101534535304228&w
 
 **CVE ID**: CVE-2002-0076 [NVD]
 **Severity**: N/A CVSS: 7.5
-**Affected Products**: sun:jre, hp:java_jre-jdk, sun:sdk, sun:jdk, microsoft:virtual_machine
+**Affected Products**: sun:sdk, sun:jre, sun:jdk, hp:java_jre-jdk, microsoft:virtual_machine
 
 **Description**:
 Java Runtime Environment (JRE) Bytecode Verifier allows remote attackers to escape the Java sandbox and execute commands via an applet containing an illegal cast operation, as seen in (1) Microsoft VM build 3802 and earlier as used in Internet Explorer 4.x and 5.x, (2) Netscape 6.2.1 and earlier, and possibly other implementations that use vulnerable versions of SDK or JDK, aka a variant of the "Virtual Machine Verifier" vulnerability.
@@ -1975,7 +1975,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w
 
 **CVE ID**: CVE-2002-1257 [NVD]
 **Severity**: N/A CVSS: 10.0
-**Affected Products**: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_me, microsoft:windows_95, microsoft:windows_xp
+**Affected Products**: microsoft:windows_98, microsoft:windows_98se, microsoft:windows_me, microsoft:windows_95, microsoft:windows_2000_terminal_services
 
 **Description**:
 Microsoft Virtual Machine (VM) up to and including build 5.0.3805 allows remote attackers to execute arbitrary code by including a Java applet that invokes COM (Component Object Model) objects in a web site or an HTML mail.
@@ -1995,7 +1995,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/6371.
 
 **CVE ID**: CVE-2002-1258 [NVD]
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_me, microsoft:windows_95, microsoft:windows_xp
+**Affected Products**: microsoft:windows_98, microsoft:windows_98se, microsoft:windows_me, microsoft:windows_95, microsoft:windows_2000_terminal_services
 
 **Description**:
 Two vulnerabilities in Microsoft Virtual Machine (VM) up to and including build 5.0.3805, as used in Internet Explorer and other applications, allow remote attackers to read files via a Java applet with a spoofed location in the CODEBASE parameter in the APPLET tag, possibly due to a parsing error.
@@ -2015,7 +2015,7 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 **CVE ID**: CVE-2002-1260 [NVD]
 **Severity**: N/A CVSS: 7.5
-**Affected Products**: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_me, microsoft:windows_95, microsoft:windows_xp
+**Affected Products**: microsoft:windows_98, microsoft:windows_98se, microsoft:windows_me, microsoft:windows_95, microsoft:windows_2000_terminal_services
 
 **Description**:
 The Java Database Connectivity (JDBC) APIs in Microsoft Virtual Machine (VM) 5.0.3805 and earlier allow remote attackers to bypass security checks and access database contents via an untrusted Java applet.
@@ -2036,7 +2036,7 @@ Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/n-026.shtml.
 
 **CVE ID**: CVE-2002-1325 [NVD]
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_me, microsoft:windows_95, microsoft:windows_xp
+**Affected Products**: microsoft:windows_98, microsoft:windows_98se, microsoft:windows_me, microsoft:windows_95, microsoft:windows_2000_terminal_services
 
 **Description**:
 Microsoft Virtual Machine (VM) build 5.0.3805 and earlier allows remote attackers to determine a local user's username via a Java applet that accesses the user.dir system property, aka "User.dir Exposure Vulnerability."

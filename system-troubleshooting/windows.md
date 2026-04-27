@@ -8,22 +8,292 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 07:08:55 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 09:06:11 UTC_
 
 ## 中文 🇨🇳
 **Windows 常见故障及解决方法**
 
-本页面每小时自动从 Stack Exchange 社区抓取 WINDOWS 平台常见故障及解决方法。
+本页面每6小时自动从 Stack Exchange、Reddit、V2EX 抓取 WINDOWS 平台常见故障及解决方法。
 
 ### WINDOWS 常见故障及解决方法
 
-#### 1. Find out which process is locking a file or folder in Windows
+#### 1. [V2EX] 各位大佬们，你们 win 系统安装了什么杀毒软件？
 
-**故障现象**: Find out which process is locking a file or folder in Windows
-**标签 / 来源**: Tags: windows, filesystems, process, community-faq-proposed | superuser | 👍 1331 | 💬 16 answers
+**故障现象**: [V2EX] 各位大佬们，你们 win 系统安装了什么杀毒软件？
+**标签 / 来源**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
 
 **问题描述**:
-Tags: windows, filesystems, process, community-faq-proposed | Score: 1331 | Views: 2068517 | Answers: 16
+是微软自带的还是第三方的？免费的还是付费的？
+
+**解决方法 / 社区答案**:
+See V2EX thread for community solutions.
+
+**参考链接**: https://www.v2ex.com/t/1208722#reply47
+
+> 📎 来源 / Source: https://www.v2ex.com/t/1208722#reply47
+
+#### 2. [V2EX] Windows Update 开始推送无限暂停体验
+
+**故障现象**: [V2EX] Windows Update 开始推送无限暂停体验
+**标签 / 来源**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**问题描述**:
+Windows Update 新体验已经开始逐步推送，Windows 更新的暂停功能现在引入了新的日历体验，用户可以选择具体日期暂停更新，最长可达 35 天，便于围绕旅行、会议、考试或繁忙周期进行规划。如果需要更长的暂停时间，用户可以多次延长暂停截止日期，每次最多 35 天，且无延长次数限制。
+具体👉🔗 Windows Update 体验重大改进：更多控制权与更少打扰
+
+**解决方法 / 社区答案**:
+See V2EX thread for community solutions.
+
+**参考链接**: https://www.v2ex.com/t/1208462#reply7
+
+> 📎 来源 / Source: https://www.v2ex.com/t/1208462#reply7
+
+#### 3. [V2EX] Win 11/10 重装系统、保留数据、初始化
+
+**故障现象**: [V2EX] Win 11/10 重装系统、保留数据、初始化
+**标签 / 来源**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**问题描述**:
+完整版：
+GitHub 、B 站 
+摘要
+常见软件的配置与数据迁移方法
+Windows 系统设置
+7-Zip 设置
+OOBE 设置：装驱动、禁用 BitLocker
+重新激活系统
+卸载禁用广告组件  
+重装前的思考
+我被微软偷袭了，不能登录微软帐户，详情见《 微软！我只是想更新 BIOS ，结果被迫重装系统？！ 》  
+重装与保留数据的思路
+Windows 设置
+Windows 官方云同步只支持部分设置，具体看文档：
+[] 图：Windows 备份设置目录 （中文是机翻， 英文版 ）
+而且由于网络问题，不一定能同步成功。我建议使用截图与文本保存修改过的配置。  
+控制面板
+在 Win11 系统
+
+**解决方法 / 社区答案**:
+See V2EX thread for community solutions.
+
+**参考链接**: https://www.v2ex.com/t/1206842#reply8
+
+> 📎 来源 / Source: https://www.v2ex.com/t/1206842#reply8
+
+#### 4. [V2EX] windows 更新这么离谱吗
+
+**故障现象**: [V2EX] windows 更新这么离谱吗
+**标签 / 来源**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**问题描述**:
+本来电脑安装的是 win10 专业版。昨晚睡觉之前关机，发现有更新。顺手就点了更新并关机，结果早上一开机变成 win11le ???要不要这么不要脸
+
+**解决方法 / 社区答案**:
+See V2EX thread for community solutions.
+
+**参考链接**: https://www.v2ex.com/t/1206784#reply47
+
+> 📎 来源 / Source: https://www.v2ex.com/t/1206784#reply47
+
+#### 5. [V2EX] 想用 Windows 系统作为游戏服务器，系统选什么
+
+**故障现象**: [V2EX] 想用 Windows 系统作为游戏服务器，系统选什么
+**标签 / 来源**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**问题描述**:
+比较旧的一台零氪 ser5配置: CPU: 5800H内存: 16G DDR4现在是安装了 Debian 13docker 跑 GameServerManager 作为 MC 和幸福工程的服务器现在遇到了有部分游戏服务器仅支持 Windows 系统，想换成 Windows ，根据 CPU ，考虑选择 Windows 10 ，请问我选择 server 或者 ltsc ，还是直接安装专业版。如果选择 server 会不会显卡驱动安装会有问题。有更好的结果 11 也是可以考虑的
+
+**解决方法 / 社区答案**:
+See V2EX thread for community solutions.
+
+**参考链接**: https://www.v2ex.com/t/1206091#reply2
+
+> 📎 来源 / Source: https://www.v2ex.com/t/1206091#reply2
+
+#### 6. [V2EX] Windows 上面有类似 TimeMachine 的备份软件吗
+
+**故障现象**: [V2EX] Windows 上面有类似 TimeMachine 的备份软件吗
+**标签 / 来源**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**问题描述**:
+rt主要诉求是文件历史版本。以前用 mac 的时候，我记得一份文件从创造开始，每次变更保存，time machine 都会有一个单独的备份。看了 windows 上面的备份软件，要么是单纯的备份，有增量备份的，需要定时运行。我记得 time machine 好像是后台一直再运行，保存在本地硬盘里，等跟 time machine 的硬盘链接的时候再转移过去。想请问一下大佬，windows 上面有类似的软件吗？
+
+**解决方法 / 社区答案**:
+See V2EX thread for community solutions.
+
+**参考链接**: https://www.v2ex.com/t/1204560#reply22
+
+> 📎 来源 / Source: https://www.v2ex.com/t/1204560#reply22
+
+#### 7. [V2EX] 微软无预警封禁 VeraCrypt 和 WireGuard 的开发者账号
+
+**故障现象**: [V2EX] 微软无预警封禁 VeraCrypt 和 WireGuard 的开发者账号
+**标签 / 来源**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**问题描述**:
+发不了链接
+来自 VC 开发者的已知信息:
+①目前找不到人工客服
+②如果在 2026 年 06 月无法解封账号,再叠加微软要更新驱动签名 CA 这一因素,则 VERACRYPT“事实上被判了死刑”
+不懂 WIN 开发,居然被巨硬卡脖子这么严重吗?
+
+**解决方法 / 社区答案**:
+See V2EX thread for community solutions.
+
+**参考链接**: https://www.v2ex.com/t/1204472#reply4
+
+> 📎 来源 / Source: https://www.v2ex.com/t/1204472#reply4
+
+#### 8. [V2EX] Win11 23H2 无线网卡（AX211）有 DNS 残留，经常需要手工干预的问题...
+
+**故障现象**: [V2EX] Win11 23H2 无线网卡（AX211）有 DNS 残留，经常需要手工干预的问题...
+**标签 / 来源**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**问题描述**:
+已问过 4 ，5 个模型，无非也就是这两三种说法，“DNS 幽灵”（解释这个是微软屎前 BUG ，需要手工干预）,“intel 网卡驱动有问题，你要接受事实”，“给你一个脚本，每次运行”，就这么这些了；   
+OK,现象是这样的：   （以下也就是我向 AI 问出的问题)
+Windows 11 的无线网卡所连接到无线 SSID 网络里，DNS 使用有这样情况：  
+虽然我任何 SSID 都不会去手工设定 DNS ，以往全部，包括现有记忆的 SSID ，设置是通过 DHCP 获取 DNS 并使用它，但是，laptop 冷开机后进入系统，AX211 网卡自动连接到 SSID 内，此 SSID 内使
+
+**解决方法 / 社区答案**:
+See V2EX thread for community solutions.
+
+**参考链接**: https://www.v2ex.com/t/1203922#reply11
+
+> 📎 来源 / Source: https://www.v2ex.com/t/1203922#reply11
+
+#### 9. [V2EX] Windows 桌面版 EULA 里面有一条很有意思
+
+**故障现象**: [V2EX] Windows 桌面版 EULA 里面有一条很有意思
+**标签 / 来源**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**问题描述**:
+...您不得:
+将软件用作服务器软件，用于商业托管服务，通过网络提供该软件以供多个用户同时使用，将软件安装在服务器上并允许用户远程访问，或将软件安装在设备上仅供远程用户使用。
+
+「将软件安装在设备上仅供远程用户使用」也就是说，Windows 桌面版作无头系统就违反 EULA 了，甚至插着键盘鼠标显示器但是不用，只通过远程桌面使用，也违反 EULA 。
+「将软件用作服务器软件」这个边界在哪里，是不是局域网建房开把 CS1.6/Minecraft 也违反 EULA 了？在互联网上呢？我的游戏忘记关了，别人一直可以连进我的游戏房间呢？
+
+**解决方法 / 社区答案**:
+See V2EX thread for community solutions.
+
+**参考链接**: https://www.v2ex.com/t/1202983#reply9
+
+> 📎 来源 / Source: https://www.v2ex.com/t/1202983#reply9
+
+#### 10. [V2EX] 发现 WinServer(2025)才是最轻量的 Win，胜过 LTSC，很适合虚拟机
+
+**故障现象**: [V2EX] 发现 WinServer(2025)才是最轻量的 Win，胜过 LTSC，很适合虚拟机
+**标签 / 来源**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**问题描述**:
+预装的组件比 LTSC 还少，默认甚至连 Windows Search 都没装（不会在后台索引占资源）。想要什么组件自己再装，最重要的是能一键卸载 Windows Defender
+Uninstall-WindowsFeature Windows-Defender
+
+（桌面版 Win 没有办法关 Defender ，至少没有官方正统的办法，只有 https://github.com/ionuttbara/windows-defender-remover 这种脚本直接干文件干注册表暴力拆。）
+关 Windows 防火墙也不会像桌面版 Win 那样，老在右下角弹防火墙已关闭警告。
+试了在虚拟机里面
+
+**解决方法 / 社区答案**:
+See V2EX thread for community solutions.
+
+**参考链接**: https://www.v2ex.com/t/1202967#reply61
+
+> 📎 来源 / Source: https://www.v2ex.com/t/1202967#reply61
+
+#### 11. [V2EX] 资源占用最低的 windows 杀毒软件是？
+
+**故障现象**: [V2EX] 资源占用最低的 windows 杀毒软件是？
+**标签 / 来源**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**问题描述**:
+有一个老软件需要在 windows 上跑
+手上有一台小鸡 但内存只有 2 个 G  
+所以想把 windows defender 替换成更轻量的杀毒软件 多腾点资源出来
+有人折腾过吗?
+
+**解决方法 / 社区答案**:
+See V2EX thread for community solutions.
+
+**参考链接**: https://www.v2ex.com/t/1202818#reply39
+
+> 📎 来源 / Source: https://www.v2ex.com/t/1202818#reply39
+
+#### 12. [V2EX] win11 经常系统信息的储存 显示 0GB
+
+**故障现象**: [V2EX] win11 经常系统信息的储存 显示 0GB
+**标签 / 来源**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**问题描述**:
+系统是 25H2(26200.8039),开机有时候风扇呼呼转，cpu 很高，有时候 100%，平常用很卡
+
+**解决方法 / 社区答案**:
+See V2EX thread for community solutions.
+
+**参考链接**: https://www.v2ex.com/t/1202591#reply1
+
+> 📎 来源 / Source: https://www.v2ex.com/t/1202591#reply1
+
+#### 13. [V2EX] bitwarden 的数据在 Windows 内存中是明文吗？
+
+**故障现象**: [V2EX] bitwarden 的数据在 Windows 内存中是明文吗？
+**标签 / 来源**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**问题描述**:
+bitwarden Windows 桌面版本的数据在内存中是不是明文？其他程序能直接获取到各种密码吗？  那主密码会直接明文保存在内存吗？  如果关闭 uac 和各种安全软件防护，并且直接使用内置管理员账户 Administrator 进行登录，这样是不是任何程序都能直接读取 bitwarden 的内存并获取到各种明文密码？
+
+**解决方法 / 社区答案**:
+See V2EX thread for community solutions.
+
+**参考链接**: https://www.v2ex.com/t/1202491#reply33
+
+> 📎 来源 / Source: https://www.v2ex.com/t/1202491#reply33
+
+#### 14. [V2EX] windows 11 现在问题还多吗
+
+**故障现象**: [V2EX] windows 11 现在问题还多吗
+**标签 / 来源**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**问题描述**:
+前段时间遇到的是，win11 下，突然没有声音，后来又是 win11 chrome 下，mp4 视频卡顿，变声的问题。想问下各位，最近修复了没
+
+**解决方法 / 社区答案**:
+See V2EX thread for community solutions.
+
+**参考链接**: https://www.v2ex.com/t/1202068#reply69
+
+> 📎 来源 / Source: https://www.v2ex.com/t/1202068#reply69
+
+#### 15. [V2EX] Windows 文件路径长度限制是多少个字符？ 244、255、256、260？「启用长路径」有用吗？
+
+**故障现象**: [V2EX] Windows 文件路径长度限制是多少个字符？ 244、255、256、260？「启用长路径」有用吗？
+**标签 / 来源**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**问题描述**:
+到底是多少个字符？
+256
+微软文档《 最大路径长度限制 》（ Maximum Path Length Limitation ）：
+在 Windows API 中，路径的最大长度为 MAX_PATH ，为 260 个字符。
+系统按以下顺序构建本地路径：驱动器号、冒号、反斜杠、用反斜杠分隔的路径和终止 null 字符。
+例如，驱动器 D 上的最大路径为：
+D:\某个 256 个字符的路径字符串&lt;NUL&gt;
+其中 &lt;NUL&gt; 表示当前系统代码页的不可见终止 null 字符。（&lt;&gt; 字符在此用于醒目用途，不能作为有效路径字符串的一部分。）  
+文档到这里的意思是：路
+
+**解决方法 / 社区答案**:
+See V2EX thread for community solutions.
+
+**参考链接**: https://www.v2ex.com/t/1201537#reply19
+
+> 📎 来源 / Source: https://www.v2ex.com/t/1201537#reply19
+
+#### 16. Find out which process is locking a file or folder in Windows
+
+**故障现象**: Find out which process is locking a file or folder in Windows
+**标签 / 来源**: Tags: windows, filesystems, process, community-faq-proposed | superuser | StackExchange | 👍 1331 | 💬 16 answers
+
+**问题描述**:
+Tags: windows, filesystems, process, community-faq-proposed | Score: 1331 | Views: 2068492 | Answers: 16
 
 **解决方法 / 社区答案**:
 You can use the Resource Monitor for this which comes built-in with Windows 7, 8, 10 and 11!
@@ -49,13 +319,13 @@ You can then try to close the application as you normally would, or, if that's n
 
 > 📎 来源 / Source: https://superuser.com/questions/117902/find-out-which-process-is-locking-a-file-or-folder-in-windows
 
-#### 2. What are the Windows A: and B: drives used for?
+#### 17. What are the Windows A: and B: drives used for?
 
 **故障现象**: What are the Windows A: and B: drives used for?
-**标签 / 来源**: Tags: windows, hard-drive | superuser | 👍 1006 | 💬 20 answers
+**标签 / 来源**: Tags: windows, hard-drive | superuser | StackExchange | 👍 1006 | 💬 20 answers
 
 **问题描述**:
-Tags: windows, hard-drive | Score: 1006 | Views: 531718 | Answers: 20
+Tags: windows, hard-drive | Score: 1006 | Views: 531717 | Answers: 20
 
 **解决方法 / 社区答案**:
 Short Version: A: &amp; B: are reserved by floppy disk drives, so C: is used by hard drives for backwards compatibility reasons.
@@ -83,13 +353,13 @@ For Windows specifically, it's worth mentioning that you can use A: and B: as th
 
 > 📎 来源 / Source: https://superuser.com/questions/231273/what-are-the-windows-a-and-b-drives-used-for
 
-#### 3. How can I display the contents of an environment variable from the command prompt in Windows 7?
+#### 18. How can I display the contents of an environment variable from the command prompt in Windows 7?
 
 **故障现象**: How can I display the contents of an environment variable from the command prompt in Windows 7?
-**标签 / 来源**: Tags: windows-7, windows, command-line, environment-variables | superuser | 👍 833 | 💬 8 answers
+**标签 / 来源**: Tags: windows-7, windows, command-line, environment-variables | superuser | StackExchange | 👍 833 | 💬 8 answers
 
 **问题描述**:
-Tags: windows-7, windows, command-line, environment-variables | Score: 833 | Views: 3005029 | Answers: 8
+Tags: windows-7, windows, command-line, environment-variables | Score: 833 | Views: 3005012 | Answers: 8
 
 **解决方法 / 社区答案**:
 In Windows Command-Prompt the syntax is echo %PATH%
@@ -104,10 +374,10 @@ How to list global environment variables separately from user-specific environme
 
 > 📎 来源 / Source: https://superuser.com/questions/341192/how-can-i-display-the-contents-of-an-environment-variable-from-the-command-promp
 
-#### 4. How to *disable* automatic reboots in Windows 10?
+#### 19. How to *disable* automatic reboots in Windows 10?
 
 **故障现象**: How to *disable* automatic reboots in Windows 10?
-**标签 / 来源**: Tags: windows-10, windows-update, reboot | superuser | 👍 676 | 💬 20 answers
+**标签 / 来源**: Tags: windows-10, windows-update, reboot | superuser | StackExchange | 👍 676 | 💬 20 answers
 
 **问题描述**:
 Tags: windows-10, windows-update, reboot | Score: 676 | Views: 402626 | Answers: 20
@@ -176,13 +446,13 @@ Windows will nag you with Toasts, Action Center alerts and banners across your s
 
 > 📎 来源 / Source: https://superuser.com/questions/957267/how-to-disable-automatic-reboots-in-windows-10
 
-#### 5. &quot;directory junction&quot; vs &quot;directory symbolic link&quot;?
+#### 20. &quot;directory junction&quot; vs &quot;directory symbolic link&quot;?
 
 **故障现象**: &quot;directory junction&quot; vs &quot;directory symbolic link&quot;?
-**标签 / 来源**: Tags: windows, filesystems, ntfs, symbolic-link | superuser | 👍 609 | 💬 3 answers
+**标签 / 来源**: Tags: windows, filesystems, ntfs, symbolic-link | superuser | StackExchange | 👍 609 | 💬 3 answers
 
 **问题描述**:
-Tags: windows, filesystems, ntfs, symbolic-link | Score: 609 | Views: 462520 | Answers: 3
+Tags: windows, filesystems, ntfs, symbolic-link | Score: 609 | Views: 462513 | Answers: 3
 
 **解决方法 / 社区答案**:
 A junction is definitely not the same thing as a directory symbolic link, although they behave similarly.  The main difference is that, if you are looking at a remote server, junctions are processed at the server and directory symbolic links are processed at the client.  Also see Matthew's comment on the fact that this means symbolic links on the local file system can point to remote file systems.
@@ -205,13 +475,13 @@ It should also be noted that creating a symbolic link requires special privilege
 
 > 📎 来源 / Source: https://superuser.com/questions/343074/directory-junction-vs-directory-symbolic-link
 
-#### 6. How do I run multiple commands on one line in PowerShell?
+#### 21. How do I run multiple commands on one line in PowerShell?
 
 **故障现象**: How do I run multiple commands on one line in PowerShell?
-**标签 / 来源**: Tags: windows, command-line, powershell | superuser | 👍 603 | 💬 5 answers
+**标签 / 来源**: Tags: windows, command-line, powershell | superuser | StackExchange | 👍 603 | 💬 5 answers
 
 **问题描述**:
-Tags: windows, command-line, powershell | Score: 603 | Views: 893181 | Answers: 5
+Tags: windows, command-line, powershell | Score: 603 | Views: 893171 | Answers: 5
 
 **解决方法 / 社区答案**:
 Use a semicolon to chain commands in PowerShell:
@@ -222,10 +492,10 @@ ipconfig /release; ipconfig /renew
 
 > 📎 来源 / Source: https://superuser.com/questions/612409/how-do-i-run-multiple-commands-on-one-line-in-powershell
 
-#### 7. Windows 7 SP1 Windows Update stuck checking for updates
+#### 22. Windows 7 SP1 Windows Update stuck checking for updates
 
 **故障现象**: Windows 7 SP1 Windows Update stuck checking for updates
-**标签 / 来源**: Tags: windows-7, windows, windows-update | superuser | 👍 561 | 💬 13 answers
+**标签 / 来源**: Tags: windows-7, windows, windows-update | superuser | StackExchange | 👍 561 | 💬 13 answers
 
 **问题描述**:
 Tags: windows-7, windows, windows-update | Score: 561 | Views: 3337928 | Answers: 13
@@ -272,13 +542,13 @@ If this is still not helping to search for new updates, use WSUSOffline to get a
 
 > 📎 来源 / Source: https://superuser.com/questions/951960/windows-7-sp1-windows-update-stuck-checking-for-updates
 
-#### 8. What is the home directory on Windows Subsystem for Linux?
+#### 23. What is the home directory on Windows Subsystem for Linux?
 
 **故障现象**: What is the home directory on Windows Subsystem for Linux?
-**标签 / 来源**: Tags: windows-10, bash, windows-subsystem-for-linux | superuser | 👍 526 | 💬 11 answers
+**标签 / 来源**: Tags: windows-10, bash, windows-subsystem-for-linux | superuser | StackExchange | 👍 526 | 💬 11 answers
 
 **问题描述**:
-Tags: windows-10, bash, windows-subsystem-for-linux | Score: 526 | Views: 1498457 | Answers: 11
+Tags: windows-10, bash, windows-subsystem-for-linux | Score: 526 | Views: 1498428 | Answers: 11
 
 **解决方法 / 社区答案**:
 In the latest versions [2025 WSL2], the file system is accessed from:
@@ -311,13 +581,13 @@ but with the files stored directly on the NTFS file system.
 
 > 📎 来源 / Source: https://superuser.com/questions/1185033/what-is-the-home-directory-on-windows-subsystem-for-linux
 
-#### 9. Can I delete the folder C:\ProgramData\Package Cache\?
+#### 24. Can I delete the folder C:\ProgramData\Package Cache\?
 
 **故障现象**: Can I delete the folder C:\ProgramData\Package Cache\?
-**标签 / 来源**: Tags: windows, disk-space | superuser | 👍 523 | 💬 10 answers
+**标签 / 来源**: Tags: windows, disk-space | superuser | StackExchange | 👍 523 | 💬 10 answers
 
 **问题描述**:
-Tags: windows, disk-space | Score: 523 | Views: 870936 | Answers: 10
+Tags: windows, disk-space | Score: 523 | Views: 870925 | Answers: 10
 
 **解决方法 / 社区答案**:
 TL;DR: Do NOT delete this folder
@@ -376,10 +646,10 @@ LSE allows you to create symlinks, hardlinks, junctions, smartcopies, smartclone
 
 > 📎 来源 / Source: https://superuser.com/questions/455853/can-i-delete-the-folder-c-programdata-package-cache
 
-#### 10. How to check if a binary is 32- or 64-bit on Windows?
+#### 25. How to check if a binary is 32- or 64-bit on Windows?
 
 **故障现象**: How to check if a binary is 32- or 64-bit on Windows?
-**标签 / 来源**: Tags: windows, binary-files, 32-vs-64-bit | superuser | 👍 522 | 💬 32 answers
+**标签 / 来源**: Tags: windows, binary-files, 32-vs-64-bit | superuser | StackExchange | 👍 522 | 💬 32 answers
 
 **问题描述**:
 Tags: windows, binary-files, 32-vs-64-bit | Score: 522 | Views: 509026 | Answers: 32
@@ -412,10 +682,10 @@ Full list of machine types, along with the rest of .exe specifications, can be f
 
 > 📎 来源 / Source: https://superuser.com/questions/358434/how-to-check-if-a-binary-is-32-or-64-bit-on-windows
 
-#### 11. Create/rename a file/folder that begins with a dot in Windows?
+#### 26. Create/rename a file/folder that begins with a dot in Windows?
 
 **故障现象**: Create/rename a file/folder that begins with a dot in Windows?
-**标签 / 来源**: Tags: windows | superuser | 👍 520 | 💬 12 answers
+**标签 / 来源**: Tags: windows | superuser | StackExchange | 👍 520 | 💬 12 answers
 
 **问题描述**:
 Tags: windows | Score: 520 | Views: 316540 | Answers: 12
@@ -431,10 +701,10 @@ echo testing &gt; .name
 
 > 📎 来源 / Source: https://superuser.com/questions/64471/create-rename-a-file-folder-that-begins-with-a-dot-in-windows
 
-#### 12. Is there any &#39;sudo&#39; command for Windows?
+#### 27. Is there any &#39;sudo&#39; command for Windows?
 
 **故障现象**: Is there any &#39;sudo&#39; command for Windows?
-**标签 / 来源**: Tags: windows, command-line, privileges | superuser | 👍 518 | 💬 19 answers
+**标签 / 来源**: Tags: windows, command-line, privileges | superuser | StackExchange | 👍 518 | 💬 19 answers
 
 **问题描述**:
 Tags: windows, command-line, privileges | Score: 518 | Views: 916657 | Answers: 19
@@ -456,13 +726,13 @@ to start a command shell as a administrator
 
 > 📎 来源 / Source: https://superuser.com/questions/42537/is-there-any-sudo-command-for-windows
 
-#### 13. How do I exit telnet?
+#### 28. How do I exit telnet?
 
 **故障现象**: How do I exit telnet?
-**标签 / 来源**: Tags: windows, telnet | superuser | 👍 512 | 💬 6 answers
+**标签 / 来源**: Tags: windows, telnet | superuser | StackExchange | 👍 512 | 💬 6 answers
 
 **问题描述**:
-Tags: windows, telnet | Score: 512 | Views: 910610 | Answers: 6
+Tags: windows, telnet | Score: 512 | Views: 910605 | Answers: 6
 
 **解决方法 / 社区答案**:
 It should have printed something along the lines of:
@@ -478,13 +748,13 @@ You should then enter the telnet console, where you can enter quit to leave teln
 
 > 📎 来源 / Source: https://superuser.com/questions/486496/how-do-i-exit-telnet
 
-#### 14. Windows SSH: Permissions for &#39;private-key&#39; are too open
+#### 29. Windows SSH: Permissions for &#39;private-key&#39; are too open
 
 **故障现象**: Windows SSH: Permissions for &#39;private-key&#39; are too open
-**标签 / 来源**: Tags: windows, ssh, permissions, openssh, private-key | superuser | 👍 498 | 💬 18 answers
+**标签 / 来源**: Tags: windows, ssh, permissions, openssh, private-key | superuser | StackExchange | 👍 498 | 💬 18 answers
 
 **问题描述**:
-Tags: windows, ssh, permissions, openssh, private-key | Score: 498 | Views: 1047424 | Answers: 18
+Tags: windows, ssh, permissions, openssh, private-key | Score: 498 | Views: 1047404 | Answers: 18
 
 **解决方法 / 社区答案**:
 You locate the file in Windows Explorer, right-click on it then select "Properties". Navigate to the "Security" tab and click "Advanced".
@@ -497,13 +767,13 @@ It should end up looking like this:
 
 > 📎 来源 / Source: https://superuser.com/questions/1296024/windows-ssh-permissions-for-private-key-are-too-open
 
-#### 15. How to download files from command line in Windows like wget or curl
+#### 30. How to download files from command line in Windows like wget or curl
 
 **故障现象**: How to download files from command line in Windows like wget or curl
-**标签 / 来源**: Tags: windows, wget, curl | superuser | 👍 490 | 💬 21 answers
+**标签 / 来源**: Tags: windows, wget, curl | superuser | StackExchange | 👍 490 | 💬 21 answers
 
 **问题描述**:
-Tags: windows, wget, curl | Score: 490 | Views: 1880090 | Answers: 21
+Tags: windows, wget, curl | Score: 490 | Views: 1880079 | Answers: 21
 
 **解决方法 / 社区答案**:
 An alternative I discovered recently, using PowerShell:
@@ -525,13 +795,13 @@ A standard windows credentials prompt will pop up. The credentials you enter the
 
 > 📎 来源 / Source: https://superuser.com/questions/25538/how-to-download-files-from-command-line-in-windows-like-wget-or-curl
 
-#### 16. How can I free up drive space from the Windows installer folder without killing Windows?
+#### 31. How can I free up drive space from the Windows installer folder without killing Windows?
 
 **故障现象**: How can I free up drive space from the Windows installer folder without killing Windows?
-**标签 / 来源**: Tags: windows, windows-10, windows-8.1, disk-space, windows-installer | superuser | 👍 486 | 💬 8 answers
+**标签 / 来源**: Tags: windows, windows-10, windows-8.1, disk-space, windows-installer | superuser | StackExchange | 👍 486 | 💬 8 answers
 
 **问题描述**:
-Tags: windows, windows-10, windows-8.1, disk-space, windows-installer | Score: 486 | Views: 1073388 | Answers: 8
+Tags: windows, windows-10, windows-8.1, disk-space, windows-installer | Score: 486 | Views: 1073378 | Answers: 8
 
 **解决方法 / 社区答案**:
 I created "PatchCleaner" to clean the windows installer directory of all orphaned files in one easy click. If you don't trust the app to do the right thing, use the move feature to put them somewhere safe in case you need them back in the future. I have run it on multiple machines and saved up to 15Gb of space :-)
@@ -554,10 +824,10 @@ NOTE: as @ Feb-2016 version 1.4.1.0 is out that has a fix to allow customisable 
 
 > 📎 来源 / Source: https://superuser.com/questions/707767/how-can-i-free-up-drive-space-from-the-windows-installer-folder-without-killing
 
-#### 17. How can I remove malicious spyware, malware, adware, viruses, trojans or rootkits from my PC?
+#### 32. How can I remove malicious spyware, malware, adware, viruses, trojans or rootkits from my PC?
 
 **故障现象**: How can I remove malicious spyware, malware, adware, viruses, trojans or rootkits from my PC?
-**标签 / 来源**: Tags: windows, anti-virus, virus, malware, community-faq | superuser | 👍 474 | 💬 18 answers
+**标签 / 来源**: Tags: windows, anti-virus, virus, malware, community-faq | superuser | StackExchange | 👍 474 | 💬 18 answers
 
 **问题描述**:
 Tags: windows, anti-virus, virus, malware, community-faq | Score: 474 | Views: 333616 | Answers: 18
@@ -628,13 +898,13 @@ Also, prefer to download the software and updates/upgrades directly from vendor 
 
 > 📎 来源 / Source: https://superuser.com/questions/100360/how-can-i-remove-malicious-spyware-malware-adware-viruses-trojans-or-rootkit
 
-#### 18. How to rename the User folder in Windows 10?
+#### 33. How to rename the User folder in Windows 10?
 
 **故障现象**: How to rename the User folder in Windows 10?
-**标签 / 来源**: Tags: windows, windows-10, microsoft-onedrive | superuser | 👍 468 | 💬 11 answers
+**标签 / 来源**: Tags: windows, windows-10, microsoft-onedrive | superuser | StackExchange | 👍 468 | 💬 11 answers
 
 **问题描述**:
-Tags: windows, windows-10, microsoft-onedrive | Score: 468 | Views: 1824065 | Answers: 11
+Tags: windows, windows-10, microsoft-onedrive | Score: 468 | Views: 1824060 | Answers: 11
 
 **解决方法 / 社区答案**:
 Microsoft has actually documented a very simple and clean way to rename a user profile folder.
@@ -667,13 +937,13 @@ Some applications create env vars with the user profile path fully expanded, so 
 
 > 📎 来源 / Source: https://superuser.com/questions/890812/how-to-rename-the-user-folder-in-windows-10
 
-#### 19. Rebooting Ubuntu on Windows without rebooting Windows?
+#### 34. Rebooting Ubuntu on Windows without rebooting Windows?
 
 **故障现象**: Rebooting Ubuntu on Windows without rebooting Windows?
-**标签 / 来源**: Tags: windows-10, windows-subsystem-for-linux | superuser | 👍 453 | 💬 9 answers
+**标签 / 来源**: Tags: windows-10, windows-subsystem-for-linux | superuser | StackExchange | 👍 453 | 💬 9 answers
 
 **问题描述**:
-Tags: windows-10, windows-subsystem-for-linux | Score: 453 | Views: 990464 | Answers: 9
+Tags: windows-10, windows-subsystem-for-linux | Score: 453 | Views: 990460 | Answers: 9
 
 **解决方法 / 社区答案**:
 You cannot reboot a distro with a single command. You must shut down and boot up the distro with two commands. If you run wsl.exe instead of wsl, then it works both in WSL Bash &amp; CMD.
@@ -705,13 +975,13 @@ net start LxssManager
 
 > 📎 来源 / Source: https://superuser.com/questions/1126721/rebooting-ubuntu-on-windows-without-rebooting-windows
 
-#### 20. How can I delete a symbolic link in Windows?
+#### 35. How can I delete a symbolic link in Windows?
 
 **故障现象**: How can I delete a symbolic link in Windows?
-**标签 / 来源**: Tags: windows, windows-7, symbolic-link | superuser | 👍 439 | 💬 13 answers
+**标签 / 来源**: Tags: windows, windows-7, symbolic-link | superuser | StackExchange | 👍 439 | 💬 13 answers
 
 **问题描述**:
-Tags: windows, windows-7, symbolic-link | Score: 439 | Views: 575997 | Answers: 13
+Tags: windows, windows-7, symbolic-link | Score: 439 | Views: 575986 | Answers: 13
 
 **解决方法 / 社区答案**:
 Be very careful.
@@ -722,13 +992,13 @@ SOLUTION: rmdir on the other hand will only delete the directory link, not what 
 
 > 📎 来源 / Source: https://superuser.com/questions/167076/how-can-i-delete-a-symbolic-link-in-windows
 
-#### 21. How to delete directories with path/names too long for normal delete
+#### 36. How to delete directories with path/names too long for normal delete
 
 **故障现象**: How to delete directories with path/names too long for normal delete
-**标签 / 来源**: Tags: windows, file-management | superuser | 👍 433 | 💬 25 answers
+**标签 / 来源**: Tags: windows, file-management | superuser | StackExchange | 👍 433 | 💬 25 answers
 
 **问题描述**:
-Tags: windows, file-management | Score: 433 | Views: 568441 | Answers: 25
+Tags: windows, file-management | Score: 433 | Views: 568440 | Answers: 25
 
 **解决方法 / 社区答案**:
 Use the 7-Zip File Manager to delete them.  
@@ -739,13 +1009,13 @@ If you are still having trouble, ensure that you utilize Shift+Delete inside the
 
 > 📎 来源 / Source: https://superuser.com/questions/78434/how-to-delete-directories-with-path-names-too-long-for-normal-delete
 
-#### 22. What is the Windows equivalent of the Unix command cat?
+#### 37. What is the Windows equivalent of the Unix command cat?
 
 **故障现象**: What is the Windows equivalent of the Unix command cat?
-**标签 / 来源**: Tags: windows, command-line, unix, cat | superuser | 👍 433 | 💬 4 answers
+**标签 / 来源**: Tags: windows, command-line, unix, cat | superuser | StackExchange | 👍 433 | 💬 4 answers
 
 **问题描述**:
-Tags: windows, command-line, unix, cat | Score: 433 | Views: 1180593 | Answers: 4
+Tags: windows, command-line, unix, cat | Score: 433 | Views: 1180581 | Answers: 4
 
 **解决方法 / 社区答案**:
 type
@@ -765,13 +1035,13 @@ bye
 
 > 📎 来源 / Source: https://superuser.com/questions/434870/what-is-the-windows-equivalent-of-the-unix-command-cat
 
-#### 23. Mouse pointer moving on arrow keys pressed in Windows?
+#### 38. Mouse pointer moving on arrow keys pressed in Windows?
 
 **故障现象**: Mouse pointer moving on arrow keys pressed in Windows?
-**标签 / 来源**: Tags: windows-10, mouse | superuser | 👍 399 | 💬 1 answers
+**标签 / 来源**: Tags: windows-10, mouse | superuser | StackExchange | 👍 399 | 💬 1 answers
 
 **问题描述**:
-Tags: windows-10, mouse | Score: 399 | Views: 212010 | Answers: 1
+Tags: windows-10, mouse | Score: 399 | Views: 212007 | Answers: 1
 
 **解决方法 / 社区答案**:
 Tried killing all running processes on my PC till the problem went away and I can now say for sure the culprit was...
@@ -784,13 +1054,13 @@ This also explains why the problem can persist after a reboot: when you reboot W
 
 > 📎 来源 / Source: https://superuser.com/questions/1467313/mouse-pointer-moving-on-arrow-keys-pressed-in-windows
 
-#### 24. How to disable the &quot;Get Windows 10&quot; icon shown in the notification area (tray)?
+#### 39. How to disable the &quot;Get Windows 10&quot; icon shown in the notification area (tray)?
 
 **故障现象**: How to disable the &quot;Get Windows 10&quot; icon shown in the notification area (tray)?
-**标签 / 来源**: Tags: windows, windows-10-upgrade | superuser | 👍 394 | 💬 14 answers
+**标签 / 来源**: Tags: windows, windows-10-upgrade | superuser | StackExchange | 👍 394 | 💬 14 answers
 
 **问题描述**:
-Tags: windows, windows-10-upgrade | Score: 394 | Views: 552675 | Answers: 14
+Tags: windows, windows-10-upgrade | Score: 394 | Views: 552674 | Answers: 14
 
 **解决方法 / 社区答案**:
 If you just want to remove the tray icon until the next restart you can terminate the GWX.exe process using Task Manager.
@@ -804,13 +1074,13 @@ After uninstalling, if remnants of the update's files are still in Windows\Syste
 
 > 📎 来源 / Source: https://superuser.com/questions/922068/how-to-disable-the-get-windows-10-icon-shown-in-the-notification-area-tray
 
-#### 25. How do you list all processes on the command line in Windows?
+#### 40. How do you list all processes on the command line in Windows?
 
 **故障现象**: How do you list all processes on the command line in Windows?
-**标签 / 来源**: Tags: windows, command-line | superuser | 👍 387 | 💬 15 answers
+**标签 / 来源**: Tags: windows, command-line | superuser | StackExchange | 👍 387 | 💬 15 answers
 
 **问题描述**:
-Tags: windows, command-line | Score: 387 | Views: 1322575 | Answers: 15
+Tags: windows, command-line | Score: 387 | Views: 1322568 | Answers: 15
 
 **解决方法 / 社区答案**:
 Working with cmd.exe:
@@ -831,13 +1101,13 @@ wmic process
 
 > 📎 来源 / Source: https://superuser.com/questions/914782/how-do-you-list-all-processes-on-the-command-line-in-windows
 
-#### 26. How to recursively delete directory from command line in windows?
+#### 41. How to recursively delete directory from command line in windows?
 
 **故障现象**: How to recursively delete directory from command line in windows?
-**标签 / 来源**: Tags: windows, command-line, cmd.exe | superuser | 👍 385 | 💬 8 answers
+**标签 / 来源**: Tags: windows, command-line, cmd.exe | superuser | StackExchange | 👍 385 | 💬 8 answers
 
 **问题描述**:
-Tags: windows, command-line, cmd.exe | Score: 385 | Views: 958892 | Answers: 8
+Tags: windows, command-line, cmd.exe | Score: 385 | Views: 958891 | Answers: 8
 
 **解决方法 / 社区答案**:
 deltree if I remember my DOS. 
@@ -869,13 +1139,13 @@ rmdir c:\test /s /q
 
 > 📎 来源 / Source: https://superuser.com/questions/179660/how-to-recursively-delete-directory-from-command-line-in-windows
 
-#### 27. How to read ext4 partitions on Windows?
+#### 42. How to read ext4 partitions on Windows?
 
 **故障现象**: How to read ext4 partitions on Windows?
-**标签 / 来源**: Tags: windows, filesystems, ext4 | superuser | 👍 377 | 💬 12 answers
+**标签 / 来源**: Tags: windows, filesystems, ext4 | superuser | StackExchange | 👍 377 | 💬 12 answers
 
 **问题描述**:
-Tags: windows, filesystems, ext4 | Score: 377 | Views: 1033434 | Answers: 12
+Tags: windows, filesystems, ext4 | Score: 377 | Views: 1033426 | Answers: 12
 
 **解决方法 / 社区答案**:
 Ext2Read works well. It can also open &amp; read disk images ( eg: Wubi disk images)
@@ -893,13 +1163,13 @@ Ext2Read works well. It can also open &amp; read disk images ( eg: Wubi disk ima
 
 > 📎 来源 / Source: https://superuser.com/questions/37512/how-to-read-ext4-partitions-on-windows
 
-#### 28. Native alternative to wget in Windows PowerShell?
+#### 43. Native alternative to wget in Windows PowerShell?
 
 **故障现象**: Native alternative to wget in Windows PowerShell?
-**标签 / 来源**: Tags: windows, powershell, powershell-2.0, powershell-3.0, powershell-4.0 | superuser | 👍 362 | 💬 12 answers
+**标签 / 来源**: Tags: windows, powershell, powershell-2.0, powershell-3.0, powershell-4.0 | superuser | StackExchange | 👍 362 | 💬 12 answers
 
 **问题描述**:
-Tags: windows, powershell, powershell-2.0, powershell-3.0, powershell-4.0 | Score: 362 | Views: 684506 | Answers: 12
+Tags: windows, powershell, powershell-2.0, powershell-3.0, powershell-4.0 | Score: 362 | Views: 684501 | Answers: 12
 
 **解决方法 / 社区答案**:
 Here's a simple PS 3.0 and later one-liner that works and doesn't involve much PS barf:
@@ -933,13 +1203,13 @@ You may find that doing a $ProgressPreference = "silentlyContinue" before Invoke
 
 > 📎 来源 / Source: https://superuser.com/questions/362152/native-alternative-to-wget-in-windows-powershell
 
-#### 29. Keyboard language keeps changing in Windows 10
+#### 44. Keyboard language keeps changing in Windows 10
 
 **故障现象**: Keyboard language keeps changing in Windows 10
-**标签 / 来源**: Tags: windows, windows-10, keyboard-layout | superuser | 👍 349 | 💬 9 answers
+**标签 / 来源**: Tags: windows, windows-10, keyboard-layout | superuser | StackExchange | 👍 349 | 💬 9 answers
 
 **问题描述**:
-Tags: windows, windows-10, keyboard-layout | Score: 349 | Views: 543258 | Answers: 9
+Tags: windows, windows-10, keyboard-layout | Score: 349 | Views: 543256 | Answers: 9
 
 **解决方法 / 社区答案**:
 In Windows 10, by default, pressing CTRL+SHIFT (or for some ALT+SHIFT - thanks madmenyo ) will cycle through any keyboard layouts that you might have mapped and it's surprisingly easy to do this by mistake.
@@ -968,13 +1238,13 @@ Also note that it's possible to disable this so that no key combination will cha
 
 > 📎 来源 / Source: https://superuser.com/questions/976947/keyboard-language-keeps-changing-in-windows-10
 
-#### 30. Why does virtualbox only have 32-bit option, no 64-bit option on Windows 7?
+#### 45. Why does virtualbox only have 32-bit option, no 64-bit option on Windows 7?
 
 **故障现象**: Why does virtualbox only have 32-bit option, no 64-bit option on Windows 7?
-**标签 / 来源**: Tags: windows, windows-7, virtualbox | superuser | 👍 349 | 💬 7 answers
+**标签 / 来源**: Tags: windows, windows-7, virtualbox | superuser | StackExchange | 👍 349 | 💬 7 answers
 
 **问题描述**:
-Tags: windows, windows-7, virtualbox | Score: 349 | Views: 1389530 | Answers: 7
+Tags: windows, windows-7, virtualbox | Score: 349 | Views: 1389528 | Answers: 7
 
 **解决方法 / 社区答案**:
 Take a look: http://www.fixedbyvonnie.com/2014/11/virtualbox-showing-32-bit-guest-versions-64-bit-host-os/
@@ -995,13 +1265,13 @@ Hyper-V (or any other form of bare-metal hypervisor) is not installed
 
 > 📎 来源 / Source: https://superuser.com/questions/866962/why-does-virtualbox-only-have-32-bit-option-no-64-bit-option-on-windows-7
 
-#### 31. How to pin either a Shortcut or a Batch file to the new Windows 7, 8 and 10 Taskbar and start menu?
+#### 46. How to pin either a Shortcut or a Batch file to the new Windows 7, 8 and 10 Taskbar and start menu?
 
 **故障现象**: How to pin either a Shortcut or a Batch file to the new Windows 7, 8 and 10 Taskbar and start menu?
-**标签 / 来源**: Tags: windows-7, windows-8, windows-10, taskbar, shortcuts | superuser | 👍 344 | 💬 7 answers
+**标签 / 来源**: Tags: windows-7, windows-8, windows-10, taskbar, shortcuts | superuser | StackExchange | 👍 344 | 💬 7 answers
 
 **问题描述**:
-Tags: windows-7, windows-8, windows-10, taskbar, shortcuts | Score: 344 | Views: 286085 | Answers: 7
+Tags: windows-7, windows-8, windows-10, taskbar, shortcuts | Score: 344 | Views: 286084 | Answers: 7
 
 **解决方法 / 社区答案**:
 Create a shortcut to your batch file.
@@ -1012,13 +1282,13 @@ Simply drag your new shortcut to the taskbar. It should now be pinnable.
 
 > 📎 来源 / Source: https://superuser.com/questions/100249/how-to-pin-either-a-shortcut-or-a-batch-file-to-the-new-windows-7-8-and-10-task
 
-#### 32. Conclusively stop wake timers from waking Windows 10 desktop
+#### 47. Conclusively stop wake timers from waking Windows 10 desktop
 
 **故障现象**: Conclusively stop wake timers from waking Windows 10 desktop
-**标签 / 来源**: Tags: windows-10, sleep, wake-on-lan | superuser | 👍 331 | 💬 3 answers
+**标签 / 来源**: Tags: windows-10, sleep, wake-on-lan | superuser | StackExchange | 👍 331 | 💬 3 answers
 
 **问题描述**:
-Tags: windows-10, sleep, wake-on-lan | Score: 331 | Views: 181508 | Answers: 3
+Tags: windows-10, sleep, wake-on-lan | Score: 331 | Views: 181507 | Answers: 3
 
 **解决方法 / 社区答案**:
 Summary
@@ -1085,13 +1355,13 @@ Set the time to something more sociable (7PM is fine) and disable the machine's 
 
 > 📎 来源 / Source: https://superuser.com/questions/973009/conclusively-stop-wake-timers-from-waking-windows-10-desktop
 
-#### 33. Menu select item stuck on screen after context or command menu has closed
+#### 48. Menu select item stuck on screen after context or command menu has closed
 
 **故障现象**: Menu select item stuck on screen after context or command menu has closed
-**标签 / 来源**: Tags: windows-7, windows, user-interface | superuser | 👍 327 | 💬 11 answers
+**标签 / 来源**: Tags: windows-7, windows, user-interface | superuser | StackExchange | 👍 327 | 💬 11 answers
 
 **问题描述**:
-Tags: windows-7, windows, user-interface | Score: 327 | Views: 324992 | Answers: 11
+Tags: windows-7, windows, user-interface | Score: 327 | Views: 324991 | Answers: 11
 
 **解决方法 / 社区答案**:
 The problem was introduced back in Windows 2000 when fading menu items were added. Originally, the feature was added in kernel-mode code and was tightly integrated into portions of the UI. Since it worked so well, it ended up staying there. The problem has appeared from time to time, but no one has had a reliable way to reproduce it in the kernel debugger to get it fixed.
@@ -1104,13 +1374,13 @@ Changing the screen resolution or color depth also resets the desktop window man
 
 > 📎 来源 / Source: https://superuser.com/questions/57016/menu-select-item-stuck-on-screen-after-context-or-command-menu-has-closed
 
-#### 34. How can I visualize the file system usage on Windows?
+#### 49. How can I visualize the file system usage on Windows?
 
 **故障现象**: How can I visualize the file system usage on Windows?
-**标签 / 来源**: Tags: windows, file-management, disk-space, community-faq | superuser | 👍 321 | 💬 23 answers
+**标签 / 来源**: Tags: windows, file-management, disk-space, community-faq | superuser | StackExchange | 👍 321 | 💬 23 answers
 
 **问题描述**:
-Tags: windows, file-management, disk-space, community-faq | Score: 321 | Views: 215821 | Answers: 23
+Tags: windows, file-management, disk-space, community-faq | Score: 321 | Views: 215817 | Answers: 23
 
 **解决方法 / 社区答案**:
 WinDirStat is a port of KDirStat for Linux. It's free, lightweight, small (650kb installer), fast, portable (as a standalone .exe file), and works on multiple versions of Windows. Besides showing folders and percentages (for the entire disk or any subset of folders), it also displays an (optional) graphical usage map. Works well with NTFS Junction folders, avoiding counting folders multiple times.
@@ -1119,13 +1389,13 @@ WinDirStat is a port of KDirStat for Linux. It's free, lightweight, small (650kb
 
 > 📎 来源 / Source: https://superuser.com/questions/8248/how-can-i-visualize-the-file-system-usage-on-windows
 
-#### 35. Equivalent of cmd&#39;s &quot;where&quot; in powershell
+#### 50. Equivalent of cmd&#39;s &quot;where&quot; in powershell
 
 **故障现象**: Equivalent of cmd&#39;s &quot;where&quot; in powershell
-**标签 / 来源**: Tags: windows, powershell | superuser | 👍 318 | 💬 6 answers
+**标签 / 来源**: Tags: windows, powershell | superuser | StackExchange | 👍 318 | 💬 6 answers
 
 **问题描述**:
-Tags: windows, powershell | Score: 318 | Views: 257714 | Answers: 6
+Tags: windows, powershell | Score: 318 | Views: 257705 | Answers: 6
 
 **解决方法 / 社区答案**:
 Use the Get-Command commandlet passing it the name of the executable. It populates the Path property of the returned object (of type ApplicationInfo) with the fully resolved path to the executable. 
@@ -1137,617 +1407,293 @@ C:\WINDOWS\system32\notepad.exe
 
 > 📎 来源 / Source: https://superuser.com/questions/675837/equivalent-of-cmds-where-in-powershell
 
-#### 36. Setting and getting Windows environment variables from the command prompt?
-
-**故障现象**: Setting and getting Windows environment variables from the command prompt?
-**标签 / 来源**: Tags: windows, command-line, environment-variables | superuser | 👍 317 | 💬 5 answers
-
-**问题描述**:
-Tags: windows, command-line, environment-variables | Score: 317 | Views: 1038789 | Answers: 5
-
-**解决方法 / 社区答案**:
-To make the environment variable accessible globally you need to set it in the registry. As you've realised by just using:
-
-
-  set NEWVAR=SOMETHING
-
-
-you are just setting it in the current process space.
-
-According to this page you can use the setx command:
-
-
-  setx NEWVAR SOMETHING
-
-
-setx is built into Windows 7, but for older versions may only be available if you install the Windows Resource Kit
-
-**参考链接**: https://superuser.com/questions/79612/setting-and-getting-windows-environment-variables-from-the-command-prompt
-
-> 📎 来源 / Source: https://superuser.com/questions/79612/setting-and-getting-windows-environment-variables-from-the-command-prompt
-
-#### 37. Is there a list of Windows special directories/shortcuts (like %TEMP%)?
-
-**故障现象**: Is there a list of Windows special directories/shortcuts (like %TEMP%)?
-**标签 / 来源**: Tags: windows, shortcuts, environment-variables, special-locations | superuser | 👍 314 | 💬 6 answers
-
-**问题描述**:
-Tags: windows, shortcuts, environment-variables, special-locations | Score: 314 | Views: 344813 | Answers: 6
-
-**解决方法 / 社区答案**:
-There are 156 run commands at mypchell.com.
-Here is a more complete list including the Windows Environment Commands (e.g. %temp%, %HomeDrive%, etc)
-
-Windows Environment Path Variables
-
-%AllUsersProfile% - Open the All User's Profile C:\ProgramData
-%AppData% - Opens AppData folder C:\Users\{username}\AppData\Roaming
-%CommonProgramFiles% - C:\Program Files\Common Files
-%CommonProgramFiles(x86)% - C:\Program Files (x86)\Common Files
-%HomeDrive% - Opens your home drive C:\
-%LocalAppData% - Opens local AppData folder C:\Users\{username}\AppData\Local
-%ProgramData% - C:\ProgramData
-%ProgramFiles% -  C:\Program Files or C:\Program Files (x86)
-%ProgramFiles(x86)% - C:\Program Files (x86)
-%Public% - C:\Users\Public
-%SystemDrive% - C:
-%SystemRoot% - Opens Windows folder C:\Windows
-%Temp% - Opens temporary file Folder C:\Users\{Username}\AppData\Local\Temp
-%UserProfile% - Opens your user's profile C:\Users\{username}
-%AppData%\Microsoft\Windows\Start Menu\Programs\Startup - Opens Windows 10 Startup location for program shortcuts
-
-
-
-Win+R
-
-Run commands
-
-Calc - Calculator
-Cfgwiz32 - ISDN Configuration Wizard
-Charmap - Character Map
-Chkdisk - Repair damaged files
-Cleanmgr - Cleans up hard drives
-Clipbrd - Windows Clipboard viewer
-Cmd - Opens a new Command Window (cmd.exe)
-Control - Displays Control Panel
-Dcomcnfg - DCOM user security
-Debug - Assembly language programming tool
-Defrag - Defragmentation tool
-Drwatson - Records programs crash &amp; snapshots
-Dxdiag - DirectX Diagnostic Utility
-Explorer - Windows Explorer
-Fontview - Graphical font viewer
-Ftp - ftp.exe program
-Hostname - Returns Computer's name
-Ipconfig - Displays IP configuration for all network adapters
-Jview - Microsoft Command-line Loader for Java classes
-MMC - Microsoft Management Console
-Msconfig - Configuration to edit startup files
-Msinfo32 - Microsoft System Information Utility
-Nbtstat - Displays stats and current connections using NetBios over TCP/IP
-Netstat - Displays all active network connections
-Nslookup - Returns your local DNS server
-Odbcad32 - ODBC Data Source Administrator
-Ping - Sends data to a specified host/IP
-Regedit - registry Editor
-Regsvr32 - register/de-register DLL/OCX/ActiveX
-Regwiz - Registration wizard
-Sfc /scannow - System File Checker
-Sndrec32 - Sound Recorder
-Sndvol32 - Volume control for soundcard
-Sysedit - Edit system startup files (config.sys, autoexec.bat, win.ini, etc.)
-Systeminfo - display various system information in text console
-Taskmgr - Task manager
-Telnet - Telnet program
-Taskkill - kill processes using command line interface
-Tskill - reduced version of Taskkill from Windows XP Home
-Tracert - Traces and displays all paths required to reach an internet host
-Winchat - simple chat program for Windows networks
-Winipcfg - Displays IP configuration  
-
-Microsoft Office suite
-
-winword - Microsoft Word
-excel - Microsoft Excel
-powerpnt - Microsoft PowerPoint
-msaccess - Microsoft Access
-outlook - Microsoft Outlook
-ois - Microsoft Picture Manager
-winproj - Microsoft Project 
-
-Management Consoles
-
-certmgr.msc - Certificate Manager
-ciadv.msc - Indexing Service
-compmgmt.msc - Computer management
-devmgmt.msc - Device Manager
-dfrg.msc - Defragment
-diskmgmt.msc - Disk Management
-fsmgmt.msc - Folder Sharing Management
-eventvwr.msc - Event Viewer
-gpedit.msc - Group Policy (&lt; XP Pro)
-iis.msc - Internet Information Services
-lusrmgr.msc - Local Users and Groups
-mscorcfg.msc - Net configurations
-ntmsmgr.msc - Removable Storage
-perfmon.msc - Performance Manager
-secpol.msc - Local Security Policy
-services.msc - System Services
-wmimgmt.msc - Windows Management   
-
-Control Panel utilities
-
-access.cpl - Accessibility Options
-hdwwiz.cpl - Add New Hardware Wizard
-appwiz.cpl - Add/Remove Programs
-timedate.cpl - Date and Time Properties
-desk.cpl - Display Properties
-inetcpl.cpl - Internet Properties
-joy.cpl - Joystick Properties
-main.cpl keyboard - Keyboard Properties
-main.cpl - Mouse Properties
-ncpa.cpl - Network Connections
-ncpl.cpl - Network Properties
-telephon.cpl - Phone and Modem options
-powercfg.cpl - Power Management
-intl.cpl - Regional settings
-mmsys.cpl sounds - Sound Properties
-mmsys.cpl - Sounds and Audio Device Properties
-sysdm.cpl - System Properties
-nusrmgr.cpl - User settings
-firewall.cpl - Firewall Settings (sp2)
-wscui.cpl - Security Center (sp2)
-Wupdmgr - Takes you to Microsoft Windows Update   
-
-Thanks to The New Tech for the original forum posting.
-
-**参考链接**: https://superuser.com/questions/217504/is-there-a-list-of-windows-special-directories-shortcuts-like-temp
-
-> 📎 来源 / Source: https://superuser.com/questions/217504/is-there-a-list-of-windows-special-directories-shortcuts-like-temp
-
-#### 38. Can I completely disable Cortana on Windows 10?
-
-**故障现象**: Can I completely disable Cortana on Windows 10?
-**标签 / 来源**: Tags: windows-10, cortana | superuser | 👍 314 | 💬 9 answers
-
-**问题描述**:
-Tags: windows-10, cortana | Score: 314 | Views: 1744193 | Answers: 9
-
-**解决方法 / 社区答案**:
-Update 2018: Warning about Taskbar Breakage
-
-I just reinstalled Windows 10 Pro and followed all the prescribed steps (both removing Cortana and removing all store apps) and it still works as prescribed. 
-
-It bears mentioning that removing Cortana will break the Default Taskbar in weird ways. It doesn't break Windows Search - so Explorer search still works in my experience.
-
-I've, personally, always replaced the default taskbar with Classic Start (linked via Ninite installer) and have no issues in day-to-day Windows usage otherwise.
-
-Update: Remove Cortana via "TakeOwn"
-
-Apparently, this trick stopped working at some point. I've used @Meferdati's link at some point successfully: winaero: how to uninstall Cortona. It contains a script that does all the work for you, as well as an explanation of how it works.
-
-Below are the steps I've been using, which are very similar to @MC10's answer, except I've always had to "TakeOwn" to get permissions and I move my files to a different folder (instead of deleting - in case I decide to revert):
-
-
-add TakeOwn to the context menu or (use takeown from the command line).
-Navigate to C:\Windows
-Create folder SystemApps.bak
-Use Takeown to gain ownership of c:\windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy
-(Gain ownership of anything else you want to move)
-Cut/Paste the folder(s) from SystemApps to SystemApps.bak
-When the "Permissions" pop-up appears, switch to Task Manager
-Kill SearchUI.exe process
-Switch back and give permission to move the folder
-
-
-The folder is now in SystemsApps.bak - and you can simply move it back if the need arises.
-
-Original: Remove Cortana via Powershell RemoveAppPackage
-
-First disable it, then uninstall the Cortana app.
-
-Disable it in the search settings:
-
-
-Click the search icon/box in the bottom left
-click the gear on the left bar
-Click off next to Cortana/Web Searches
-
-
-
-
-Then uninstall it, as listed here:
-
-In elevated PowerShell:
-
-Get-AppxPackage | Select Name, PackageFullName
-Remove-AppxPackage Microsoft.Windows.Cortana_1.4.8.176_neutral_neutral_cw5n1h2txyewy
-
-
-This is similar to MC10's answer, except that I'm sure the OS will be more accepting of uninstalling it via the "proper channels" (powershell) instead of renaming the folder.
-
-Windows has fixed it so now you cannot remove "...Cortana_1.6.1.52_ ...". When this is attempted it states this is part of Windows now and cannot be removed. I guess I will go back to renaming the folder.
-
-I'm using the same uninstall to remove other "features" like BingNews, BingSports, Etc
-
-Edit: Likewise, you can remove the "Provisioned" applications (aka: crap that gets installed per user) via this method
-
-Get-AppxProvisionedPackage -Online | Select DisplayName, PackageName
-Remove-AppxProvisionedPackage  Microsoft.ZuneMusic_2019.6.11821.0_neutral_~_8wekyb3d8bbwe
-
-
-Or... to remove ALL Apps that you can, app or provisionedapp, you can do this:
-
-Just a warning: This will uninstall the Windows Store. That's not an issue for me, but uninstalling everything isn't for the faint of heart.
-
-Get-AppxPackage | Remove-AppxPackage
-Get-AppxProvisionedPackage -Online | Remove-AppxProvisionedPackage -online
-
-
-As mentioned in comments, it's probably wise not to completely remove the Windows Store. I haven't tried this yet, but this (in the comments) looks to be ballpark of what I'd use:
-
-Get-AppxPackage -AllUsers | where-object {$_.name –notlike "*store*"} | Remove-AppxPackage
-Get-appxprovisionedpackage –online | where-object {$_.packagename –notlike "*store*"} | Remove-AppxProvisionedPackage -online
-
-
-Further resource: Delete Windows 10 Apps and Restore Default Windows 10 Apps
-
-**参考链接**: https://superuser.com/questions/949569/can-i-completely-disable-cortana-on-windows-10
-
-> 📎 来源 / Source: https://superuser.com/questions/949569/can-i-completely-disable-cortana-on-windows-10
-
-#### 39. Using cd command in Windows command line, can&#39;t navigate to D:\
-
-**故障现象**: Using cd command in Windows command line, can&#39;t navigate to D:\
-**标签 / 来源**: Tags: windows, command-line, path, cd | superuser | 👍 311 | 💬 9 answers
-
-**问题描述**:
-Tags: windows, command-line, path, cd | Score: 311 | Views: 1488461 | Answers: 9
-
-**解决方法 / 社区答案**:
-Going back to the days of DOS, there's a separate "current directory" for each drive.  cd D:\foldername changes D:'s current directory to the foldername specified, but does not change the fact that you're still working on the C: drive.
-
-What you want is simple:
-
-D:
-
-
-Here you can see how the "separate current directory for each drive" thing works:
-
-C:\Users\coneslayer&gt;e:
-
-E:\&gt;c:
-
-C:\Users\coneslayer&gt;cd e:\software
-
-C:\Users\coneslayer&gt;e:
-
-e:\Software&gt;
-
-**参考链接**: https://superuser.com/questions/135214/using-cd-command-in-windows-command-line-cant-navigate-to-d
-
-> 📎 来源 / Source: https://superuser.com/questions/135214/using-cd-command-in-windows-command-line-cant-navigate-to-d
-
-#### 40. How to move windows that open up offscreen?
-
-**故障现象**: How to move windows that open up offscreen?
-**标签 / 来源**: Tags: windows, multiple-monitors, window-manager | superuser | 👍 309 | 💬 24 answers
-
-**问题描述**:
-Tags: windows, multiple-monitors, window-manager | Score: 309 | Views: 728600 | Answers: 24
-
-**解决方法 / 社区答案**:
-I use this approach:
-
-
-Use Alt+Tab to switch to the off-screen application.
-Press Alt+SPACE to bring up the system menu (you won't see it because it is off screen)
-Press R to select the "Restore" menu choice to ensure the windows isn't maximized (you cannot move it if it is maximized)
-Press Alt+SPACE again, then M to select the "Move" menu choice.
-Press one of the arrow keys to initiate the movement.
-Now just use the mouse  to place the window where you want.
-
-
-If you are using a non-English version of Windows, the "R" and "M" menu choices will probably be different.
-
-**参考链接**: https://superuser.com/questions/53585/how-to-move-windows-that-open-up-offscreen
-
-> 📎 来源 / Source: https://superuser.com/questions/53585/how-to-move-windows-that-open-up-offscreen
-
-#### 41. How to quickly move current window to another Task View / desktop in Windows 10?
-
-**故障现象**: How to quickly move current window to another Task View / desktop in Windows 10?
-**标签 / 来源**: Tags: windows, windows-10 | superuser | 👍 305 | 💬 17 answers
-
-**问题描述**:
-Tags: windows, windows-10 | Score: 305 | Views: 291047 | Answers: 17
-
-**解决方法 / 社区答案**:
-I think for a quicker switch this should be in the titlebar, so I created a tool for that:
-
-https://github.com/Eun/MoveToDesktop
-
-
-
-You can also move windows by using WIN+ALT+Left/Right or change the shortcut as needed.
-
-**参考链接**: https://superuser.com/questions/950452/how-to-quickly-move-current-window-to-another-task-view-desktop-in-windows-10
-
-> 📎 来源 / Source: https://superuser.com/questions/950452/how-to-quickly-move-current-window-to-another-task-view-desktop-in-windows-10
-
-#### 42. How to mess up a PC running Windows 7?
-
-**故障现象**: How to mess up a PC running Windows 7?
-**标签 / 来源**: Tags: windows-7, windows, security | superuser | 👍 303 | 💬 27 answers
-
-**问题描述**:
-Tags: windows-7, windows, security | Score: 303 | Views: 118517 | Answers: 27
-
-**解决方法 / 社区答案**:
-A few major problems for you, 
-
-
-In bios disable the processors L2 cache - Machine crawls
-Windows+break-->advanced system settings --> hardware tab --> Device Manager, right click disable mouse (make sure you can get here with just your keyboard so you can undo this!)
-ctrl+alt + Arrow key - on some graphics cards this rotates the screen. (usually with no method of undoing this unless you know this shortcut)
-Make a floppy boot disc/usb Key/CD Rom, pop it in the floppy drive and ensure its set to first in the boot order in bios (bonus points for removing the hdd from boot list and creating all 3 boot discs with a different os on each so they fix one then get the next!)
-Use a partitioning tool to shrink the hdd partition to a few mb more than is currently in use
-Do the opposite and fill up available space with multiple copies of large files.  Combined with a startup script to start the copies would keep the hard drive filled if they first attempted cleanup by deleting files.
-
-
-And a few irritations to garnish the pc with
-
-
-If it had internet access - Open Internet Properties --> connections Tab -->Lan Settings, Check use a proxy server, set the address to 127.0.0.1 (prevents them googling for solutions :P)
-Right click on desktop - View - uncheck show desktop icons (irritating but not tough to fix)
-sticky tape on the bottom of the mouse can disrupt the laser stopping the mouse working (couple this with the major disabling of the mouse in device manager to add confusion).
-if the connectors are ps2, swap the mouse and keyboard, obvious if you're used to hardware but passes a quick glance from a noob
-In word Office button -->Word Options --> proofing --> AutoCorrect Options --> add a few entries for common words, subtlety is your friend, is --> was the --> teh etc (2k7 instructions but can be done via different route in most versions)
-
-
-Reverse the steps to undo the problems and ask in comments if you have trouble!
-
-Edit - as we may have had our beastly BIOS tricks taken from us here's a couple more windows based ones
-
-Put the shutdown command into autoexec.bat Command syntax here (you've talked about putting similar functionality in the startup folder, so this should confuse em by doing the same thing from a different spot)
-
-Fork bomb! Create a .bat file containing the following text and make it autorun (either call from autoexec.bat or drop the .bat in startup folder)
-
-:s
-start %0
-goto s
-
-
-This will spawn huge numbers of processes untill the machine grinds to a halt (The code is untested but looks viable)
-
-**参考链接**: https://superuser.com/questions/275894/how-to-mess-up-a-pc-running-windows-7
-
-> 📎 来源 / Source: https://superuser.com/questions/275894/how-to-mess-up-a-pc-running-windows-7
-
-#### 43. How to automatically reload modified files in Notepad++
-
-**故障现象**: How to automatically reload modified files in Notepad++
-**标签 / 来源**: Tags: windows, notepad++, text-editors | superuser | 👍 295 | 💬 6 answers
-
-**问题描述**:
-Tags: windows, notepad++, text-editors | Score: 295 | Views: 247824 | Answers: 6
-
-**解决方法 / 社区答案**:
-You can disable the confirmation in the settings:
-
-Settings -&gt; Preferences -&gt; MISC. -&gt; Update silently
-
-**参考链接**: https://superuser.com/questions/274961/how-to-automatically-reload-modified-files-in-notepad
-
-> 📎 来源 / Source: https://superuser.com/questions/274961/how-to-automatically-reload-modified-files-in-notepad
-
-#### 44. Equivalent of Linux `touch` to create an empty file with PowerShell
-
-**故障现象**: Equivalent of Linux `touch` to create an empty file with PowerShell
-**标签 / 来源**: Tags: windows, windows-8, powershell, powershell-3.0 | superuser | 👍 293 | 💬 14 answers
-
-**问题描述**:
-Tags: windows, windows-8, powershell, powershell-3.0 | Score: 293 | Views: 420050 | Answers: 14
-
-**解决方法 / 社区答案**:
-Using the append redirector ">>" resolves the issue where an existing file is deleted:
-
-echo $null &gt;&gt; filename
-
-**参考链接**: https://superuser.com/questions/502374/equivalent-of-linux-touch-to-create-an-empty-file-with-powershell
-
-> 📎 来源 / Source: https://superuser.com/questions/502374/equivalent-of-linux-touch-to-create-an-empty-file-with-powershell
-
-#### 45. How do I make Windows 10&#39;s File Explorer open &quot;This PC&quot; by default?
-
-**故障现象**: How do I make Windows 10&#39;s File Explorer open &quot;This PC&quot; by default?
-**标签 / 来源**: Tags: windows, windows-10, windows-explorer, windows-10-preview | superuser | 👍 291 | 💬 5 answers
-
-**问题描述**:
-Tags: windows, windows-10, windows-explorer, windows-10-preview | Score: 291 | Views: 256079 | Answers: 5
-
-**解决方法 / 社区答案**:
-As of build 9926 (at least - it may have been an earlier build), this is configurable via the GUI.
-
-Open Explorer and go to View, then click Options (or Change folder and search options). In General tab you can change Open File Explorer to This PC
-
-**参考链接**: https://superuser.com/questions/819521/how-do-i-make-windows-10s-file-explorer-open-this-pc-by-default
-
-> 📎 来源 / Source: https://superuser.com/questions/819521/how-do-i-make-windows-10s-file-explorer-open-this-pc-by-default
-
-#### 46. How can I reduce the consumption of the `vmmem` process?
-
-**故障现象**: How can I reduce the consumption of the `vmmem` process?
-**标签 / 来源**: Tags: windows-10, memory, docker, resources | superuser | 👍 273 | 💬 15 answers
-
-**问题描述**:
-Tags: windows-10, memory, docker, resources | Score: 273 | Views: 569301 | Answers: 15
-
-**解决方法 / 社区答案**:
-Daniiel B is on the money. To turn off Vmmem simply go into Powershell or whatever terminal you like to use under admin rights and enter the command wsl --shutdown, when your done with playing in wsl1/2.
-
-**参考链接**: https://superuser.com/questions/1559170/how-can-i-reduce-the-consumption-of-the-vmmem-process
-
-> 📎 来源 / Source: https://superuser.com/questions/1559170/how-can-i-reduce-the-consumption-of-the-vmmem-process
-
-#### 47. How can I execute a Windows command line in background?
-
-**故障现象**: How can I execute a Windows command line in background?
-**标签 / 来源**: Tags: windows, command-line | superuser | 👍 270 | 💬 12 answers
-
-**问题描述**:
-Tags: windows, command-line | Score: 270 | Views: 889345 | Answers: 12
-
-**解决方法 / 社区答案**:
-This is a little late but I just ran across this question while searching for the answer myself and I found this:
-
-START /B program
-
-
-which, on Windows, is the closest to the Linux command:
-
-program &amp;
-
-
-From the console HELP system:
-
-C:\&gt;HELP START
-
-Starts a separate window to run a specified program or command.
-
-START ["title"] [/D path] [/I] [/MIN] [/MAX] [/SEPARATE | /SHARED]
-      [/LOW | /NORMAL | /HIGH | /REALTIME | /ABOVENORMAL | /BELOWNORMAL]
-      [/NODE &lt;NUMA node&gt;] [/AFFINITY &lt;hex affinity mask&gt;] [/WAIT] [/B]
-      [command/program] [parameters]
-
-    "title"     Title to display in window title bar.
-    path        Starting directory.
-    B           Start application without creating a new window. The
-                application has ^C handling ignored. Unless the application
-                enables ^C processing, ^Break is the only way to interrupt
-                the application.
-
-
-One problem I saw with it is that  you have more than one program writing to the console window, it gets a little confusing and jumbled.
-
-To make it not interact with the user, you can redirect the output to a file:
-
-START /B program &gt; somefile.txt
-
-**参考链接**: https://superuser.com/questions/198525/how-can-i-execute-a-windows-command-line-in-background
-
-> 📎 来源 / Source: https://superuser.com/questions/198525/how-can-i-execute-a-windows-command-line-in-background
-
-#### 48. How do I change the language of all Powerpoint slides at once?
-
-**故障现象**: How do I change the language of all Powerpoint slides at once?
-**标签 / 来源**: Tags: windows, microsoft-office, microsoft-powerpoint, language, microsoft-powerpoint-2010 | superuser | 👍 268 | 💬 9 answers
-
-**问题描述**:
-Tags: windows, microsoft-office, microsoft-powerpoint, language, microsoft-powerpoint-2010 | Score: 268 | Views: 572692 | Answers: 9
-
-**解决方法 / 社区答案**:
-To change the language of the entire PowerPoint easily, open the View tab and select the Outline view.
-
-Now press
-
-
-Ctrl+A to select all.
-Tools → Language → Choose your language to set.
-
-
-Likewise while you have everything selected you can change other things like fonts, colours etc. Although of course in many case this is better done by changing the slide master, a presentation that has had many editors may have lots of 'hard' formatting set which deviates from the underlying master and needs resetting to be consistent. You can also reset individual slides to the master style, but this may result in placeholders moving as well, which may be undesirable in some situations.
-
-PowerPoint 2013
-
-
-View → Outline → select all slides (in a left menu) via Ctrl+A.
-Review → Language → Set Proofing Language... → Choose your language to set.
-
-
-As for me - PowerPoint restart was needed. 
-Probably because I also did changed Editing Language:
-
-
-Review → Language → Set Proofing Language... → Language Preferences → Choose Editing Languages.
-
-**参考链接**: https://superuser.com/questions/432366/how-do-i-change-the-language-of-all-powerpoint-slides-at-once
-
-> 📎 来源 / Source: https://superuser.com/questions/432366/how-do-i-change-the-language-of-all-powerpoint-slides-at-once
-
-#### 49. How can I check the temperature of my CPU in Windows?
-
-**故障现象**: How can I check the temperature of my CPU in Windows?
-**标签 / 来源**: Tags: windows, cpu, temperature | superuser | 👍 267 | 💬 10 answers
-
-**问题描述**:
-Tags: windows, cpu, temperature | Score: 267 | Views: 2706362 | Answers: 10
-
-**解决方法 / 社区答案**:
-Actually this information is given to OS by the BIOS, but you will need an application to expose the information. You can find a lot of applications to do this:
-
-Realtemp
-CPU thermomether
-Core Temp
-
-**参考链接**: https://superuser.com/questions/395434/how-can-i-check-the-temperature-of-my-cpu-in-windows
-
-> 📎 来源 / Source: https://superuser.com/questions/395434/how-can-i-check-the-temperature-of-my-cpu-in-windows
-
-#### 50. How to list Chocolatey packages already installed and newer version available from the command line
-
-**故障现象**: How to list Chocolatey packages already installed and newer version available from the command line
-**标签 / 来源**: Tags: windows, command-line, chocolatey | superuser | 👍 267 | 💬 4 answers
-
-**问题描述**:
-Tags: windows, command-line, chocolatey | Score: 267 | Views: 312131 | Answers: 4
-
-**解决方法 / 社区答案**:
-Note: You likely need to do the following commands in an administrative cmd/powershell prompt.
-
-If you have choco 0.9.9.6+, you can use the outdated command.
-
-choco outdated
-
-
-If you have 0.9.9+ installed:
-
-choco upgrade all --noop
-
-
-If you have version 0.9.8.33 or below installed:
-
-choco version all
-
-
-Following that, if you actually want to upgrade - you can follow with:
-
-cup all -y
-
-
-Note: -y will only work with 0.9.8.33+.
-
-**参考链接**: https://superuser.com/questions/890251/how-to-list-chocolatey-packages-already-installed-and-newer-version-available-fr
-
-> 📎 来源 / Source: https://superuser.com/questions/890251/how-to-list-chocolatey-packages-already-installed-and-newer-version-available-fr
-
 
 ---
 
 ## English 🇺🇸
 **Windows Common Issues & Solutions**
 
-Auto-updated hourly from Stack Exchange: common WINDOWS issues and community-verified solutions.
+Auto-updated every 6 hours from Stack Exchange, Reddit, V2EX: common WINDOWS issues and community-verified solutions.
 
 ### WINDOWS Common Issues & Solutions
 
-#### 1. Find out which process is locking a file or folder in Windows
+#### 1. [V2EX] 各位大佬们，你们 win 系统安装了什么杀毒软件？
 
-**Issue**: Find out which process is locking a file or folder in Windows
-**Tags / Source**: Tags: windows, filesystems, process, community-faq-proposed | superuser | 👍 1331 | 💬 16 answers
+**Issue**: [V2EX] 各位大佬们，你们 win 系统安装了什么杀毒软件？
+**Tags / Source**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
 
 **Description**:
-Tags: windows, filesystems, process, community-faq-proposed | Score: 1331 | Views: 2068517 | Answers: 16
+是微软自带的还是第三方的？免费的还是付费的？
+
+**Solution / Community Answer**:
+See V2EX thread for community solutions.
+
+**Reference**: https://www.v2ex.com/t/1208722#reply47
+
+> 📎 Source: https://www.v2ex.com/t/1208722#reply47
+
+#### 2. [V2EX] Windows Update 开始推送无限暂停体验
+
+**Issue**: [V2EX] Windows Update 开始推送无限暂停体验
+**Tags / Source**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**Description**:
+Windows Update 新体验已经开始逐步推送，Windows 更新的暂停功能现在引入了新的日历体验，用户可以选择具体日期暂停更新，最长可达 35 天，便于围绕旅行、会议、考试或繁忙周期进行规划。如果需要更长的暂停时间，用户可以多次延长暂停截止日期，每次最多 35 天，且无延长次数限制。
+具体👉🔗 Windows Update 体验重大改进：更多控制权与更少打扰
+
+**Solution / Community Answer**:
+See V2EX thread for community solutions.
+
+**Reference**: https://www.v2ex.com/t/1208462#reply7
+
+> 📎 Source: https://www.v2ex.com/t/1208462#reply7
+
+#### 3. [V2EX] Win 11/10 重装系统、保留数据、初始化
+
+**Issue**: [V2EX] Win 11/10 重装系统、保留数据、初始化
+**Tags / Source**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**Description**:
+完整版：
+GitHub 、B 站 
+摘要
+常见软件的配置与数据迁移方法
+Windows 系统设置
+7-Zip 设置
+OOBE 设置：装驱动、禁用 BitLocker
+重新激活系统
+卸载禁用广告组件  
+重装前的思考
+我被微软偷袭了，不能登录微软帐户，详情见《 微软！我只是想更新 BIOS ，结果被迫重装系统？！ 》  
+重装与保留数据的思路
+Windows 设置
+Windows 官方云同步只支持部分设置，具体看文档：
+[] 图：Windows 备份设置目录 （中文是机翻， 英文版 ）
+而且由于网络问题，不一定能同步成功。我建议使用截图与文本保存修改过的配置。  
+控制面板
+在 Win11 系统
+
+**Solution / Community Answer**:
+See V2EX thread for community solutions.
+
+**Reference**: https://www.v2ex.com/t/1206842#reply8
+
+> 📎 Source: https://www.v2ex.com/t/1206842#reply8
+
+#### 4. [V2EX] windows 更新这么离谱吗
+
+**Issue**: [V2EX] windows 更新这么离谱吗
+**Tags / Source**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**Description**:
+本来电脑安装的是 win10 专业版。昨晚睡觉之前关机，发现有更新。顺手就点了更新并关机，结果早上一开机变成 win11le ???要不要这么不要脸
+
+**Solution / Community Answer**:
+See V2EX thread for community solutions.
+
+**Reference**: https://www.v2ex.com/t/1206784#reply47
+
+> 📎 Source: https://www.v2ex.com/t/1206784#reply47
+
+#### 5. [V2EX] 想用 Windows 系统作为游戏服务器，系统选什么
+
+**Issue**: [V2EX] 想用 Windows 系统作为游戏服务器，系统选什么
+**Tags / Source**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**Description**:
+比较旧的一台零氪 ser5配置: CPU: 5800H内存: 16G DDR4现在是安装了 Debian 13docker 跑 GameServerManager 作为 MC 和幸福工程的服务器现在遇到了有部分游戏服务器仅支持 Windows 系统，想换成 Windows ，根据 CPU ，考虑选择 Windows 10 ，请问我选择 server 或者 ltsc ，还是直接安装专业版。如果选择 server 会不会显卡驱动安装会有问题。有更好的结果 11 也是可以考虑的
+
+**Solution / Community Answer**:
+See V2EX thread for community solutions.
+
+**Reference**: https://www.v2ex.com/t/1206091#reply2
+
+> 📎 Source: https://www.v2ex.com/t/1206091#reply2
+
+#### 6. [V2EX] Windows 上面有类似 TimeMachine 的备份软件吗
+
+**Issue**: [V2EX] Windows 上面有类似 TimeMachine 的备份软件吗
+**Tags / Source**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**Description**:
+rt主要诉求是文件历史版本。以前用 mac 的时候，我记得一份文件从创造开始，每次变更保存，time machine 都会有一个单独的备份。看了 windows 上面的备份软件，要么是单纯的备份，有增量备份的，需要定时运行。我记得 time machine 好像是后台一直再运行，保存在本地硬盘里，等跟 time machine 的硬盘链接的时候再转移过去。想请问一下大佬，windows 上面有类似的软件吗？
+
+**Solution / Community Answer**:
+See V2EX thread for community solutions.
+
+**Reference**: https://www.v2ex.com/t/1204560#reply22
+
+> 📎 Source: https://www.v2ex.com/t/1204560#reply22
+
+#### 7. [V2EX] 微软无预警封禁 VeraCrypt 和 WireGuard 的开发者账号
+
+**Issue**: [V2EX] 微软无预警封禁 VeraCrypt 和 WireGuard 的开发者账号
+**Tags / Source**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**Description**:
+发不了链接
+来自 VC 开发者的已知信息:
+①目前找不到人工客服
+②如果在 2026 年 06 月无法解封账号,再叠加微软要更新驱动签名 CA 这一因素,则 VERACRYPT“事实上被判了死刑”
+不懂 WIN 开发,居然被巨硬卡脖子这么严重吗?
+
+**Solution / Community Answer**:
+See V2EX thread for community solutions.
+
+**Reference**: https://www.v2ex.com/t/1204472#reply4
+
+> 📎 Source: https://www.v2ex.com/t/1204472#reply4
+
+#### 8. [V2EX] Win11 23H2 无线网卡（AX211）有 DNS 残留，经常需要手工干预的问题...
+
+**Issue**: [V2EX] Win11 23H2 无线网卡（AX211）有 DNS 残留，经常需要手工干预的问题...
+**Tags / Source**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**Description**:
+已问过 4 ，5 个模型，无非也就是这两三种说法，“DNS 幽灵”（解释这个是微软屎前 BUG ，需要手工干预）,“intel 网卡驱动有问题，你要接受事实”，“给你一个脚本，每次运行”，就这么这些了；   
+OK,现象是这样的：   （以下也就是我向 AI 问出的问题)
+Windows 11 的无线网卡所连接到无线 SSID 网络里，DNS 使用有这样情况：  
+虽然我任何 SSID 都不会去手工设定 DNS ，以往全部，包括现有记忆的 SSID ，设置是通过 DHCP 获取 DNS 并使用它，但是，laptop 冷开机后进入系统，AX211 网卡自动连接到 SSID 内，此 SSID 内使
+
+**Solution / Community Answer**:
+See V2EX thread for community solutions.
+
+**Reference**: https://www.v2ex.com/t/1203922#reply11
+
+> 📎 Source: https://www.v2ex.com/t/1203922#reply11
+
+#### 9. [V2EX] Windows 桌面版 EULA 里面有一条很有意思
+
+**Issue**: [V2EX] Windows 桌面版 EULA 里面有一条很有意思
+**Tags / Source**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**Description**:
+...您不得:
+将软件用作服务器软件，用于商业托管服务，通过网络提供该软件以供多个用户同时使用，将软件安装在服务器上并允许用户远程访问，或将软件安装在设备上仅供远程用户使用。
+
+「将软件安装在设备上仅供远程用户使用」也就是说，Windows 桌面版作无头系统就违反 EULA 了，甚至插着键盘鼠标显示器但是不用，只通过远程桌面使用，也违反 EULA 。
+「将软件用作服务器软件」这个边界在哪里，是不是局域网建房开把 CS1.6/Minecraft 也违反 EULA 了？在互联网上呢？我的游戏忘记关了，别人一直可以连进我的游戏房间呢？
+
+**Solution / Community Answer**:
+See V2EX thread for community solutions.
+
+**Reference**: https://www.v2ex.com/t/1202983#reply9
+
+> 📎 Source: https://www.v2ex.com/t/1202983#reply9
+
+#### 10. [V2EX] 发现 WinServer(2025)才是最轻量的 Win，胜过 LTSC，很适合虚拟机
+
+**Issue**: [V2EX] 发现 WinServer(2025)才是最轻量的 Win，胜过 LTSC，很适合虚拟机
+**Tags / Source**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**Description**:
+预装的组件比 LTSC 还少，默认甚至连 Windows Search 都没装（不会在后台索引占资源）。想要什么组件自己再装，最重要的是能一键卸载 Windows Defender
+Uninstall-WindowsFeature Windows-Defender
+
+（桌面版 Win 没有办法关 Defender ，至少没有官方正统的办法，只有 https://github.com/ionuttbara/windows-defender-remover 这种脚本直接干文件干注册表暴力拆。）
+关 Windows 防火墙也不会像桌面版 Win 那样，老在右下角弹防火墙已关闭警告。
+试了在虚拟机里面
+
+**Solution / Community Answer**:
+See V2EX thread for community solutions.
+
+**Reference**: https://www.v2ex.com/t/1202967#reply61
+
+> 📎 Source: https://www.v2ex.com/t/1202967#reply61
+
+#### 11. [V2EX] 资源占用最低的 windows 杀毒软件是？
+
+**Issue**: [V2EX] 资源占用最低的 windows 杀毒软件是？
+**Tags / Source**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**Description**:
+有一个老软件需要在 windows 上跑
+手上有一台小鸡 但内存只有 2 个 G  
+所以想把 windows defender 替换成更轻量的杀毒软件 多腾点资源出来
+有人折腾过吗?
+
+**Solution / Community Answer**:
+See V2EX thread for community solutions.
+
+**Reference**: https://www.v2ex.com/t/1202818#reply39
+
+> 📎 Source: https://www.v2ex.com/t/1202818#reply39
+
+#### 12. [V2EX] win11 经常系统信息的储存 显示 0GB
+
+**Issue**: [V2EX] win11 经常系统信息的储存 显示 0GB
+**Tags / Source**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**Description**:
+系统是 25H2(26200.8039),开机有时候风扇呼呼转，cpu 很高，有时候 100%，平常用很卡
+
+**Solution / Community Answer**:
+See V2EX thread for community solutions.
+
+**Reference**: https://www.v2ex.com/t/1202591#reply1
+
+> 📎 Source: https://www.v2ex.com/t/1202591#reply1
+
+#### 13. [V2EX] bitwarden 的数据在 Windows 内存中是明文吗？
+
+**Issue**: [V2EX] bitwarden 的数据在 Windows 内存中是明文吗？
+**Tags / Source**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**Description**:
+bitwarden Windows 桌面版本的数据在内存中是不是明文？其他程序能直接获取到各种密码吗？  那主密码会直接明文保存在内存吗？  如果关闭 uac 和各种安全软件防护，并且直接使用内置管理员账户 Administrator 进行登录，这样是不是任何程序都能直接读取 bitwarden 的内存并获取到各种明文密码？
+
+**Solution / Community Answer**:
+See V2EX thread for community solutions.
+
+**Reference**: https://www.v2ex.com/t/1202491#reply33
+
+> 📎 Source: https://www.v2ex.com/t/1202491#reply33
+
+#### 14. [V2EX] windows 11 现在问题还多吗
+
+**Issue**: [V2EX] windows 11 现在问题还多吗
+**Tags / Source**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**Description**:
+前段时间遇到的是，win11 下，突然没有声音，后来又是 win11 chrome 下，mp4 视频卡顿，变声的问题。想问下各位，最近修复了没
+
+**Solution / Community Answer**:
+See V2EX thread for community solutions.
+
+**Reference**: https://www.v2ex.com/t/1202068#reply69
+
+> 📎 Source: https://www.v2ex.com/t/1202068#reply69
+
+#### 15. [V2EX] Windows 文件路径长度限制是多少个字符？ 244、255、256、260？「启用长路径」有用吗？
+
+**Issue**: [V2EX] Windows 文件路径长度限制是多少个字符？ 244、255、256、260？「启用长路径」有用吗？
+**Tags / Source**: Tags: windows | v2ex-windows | V2EX | 👍 0 | 💬 0 answers
+
+**Description**:
+到底是多少个字符？
+256
+微软文档《 最大路径长度限制 》（ Maximum Path Length Limitation ）：
+在 Windows API 中，路径的最大长度为 MAX_PATH ，为 260 个字符。
+系统按以下顺序构建本地路径：驱动器号、冒号、反斜杠、用反斜杠分隔的路径和终止 null 字符。
+例如，驱动器 D 上的最大路径为：
+D:\某个 256 个字符的路径字符串&lt;NUL&gt;
+其中 &lt;NUL&gt; 表示当前系统代码页的不可见终止 null 字符。（&lt;&gt; 字符在此用于醒目用途，不能作为有效路径字符串的一部分。）  
+文档到这里的意思是：路
+
+**Solution / Community Answer**:
+See V2EX thread for community solutions.
+
+**Reference**: https://www.v2ex.com/t/1201537#reply19
+
+> 📎 Source: https://www.v2ex.com/t/1201537#reply19
+
+#### 16. Find out which process is locking a file or folder in Windows
+
+**Issue**: Find out which process is locking a file or folder in Windows
+**Tags / Source**: Tags: windows, filesystems, process, community-faq-proposed | superuser | StackExchange | 👍 1331 | 💬 16 answers
+
+**Description**:
+Tags: windows, filesystems, process, community-faq-proposed | Score: 1331 | Views: 2068492 | Answers: 16
 
 **Solution / Community Answer**:
 You can use the Resource Monitor for this which comes built-in with Windows 7, 8, 10 and 11!
@@ -1773,13 +1719,13 @@ You can then try to close the application as you normally would, or, if that's n
 
 > 📎 Source: https://superuser.com/questions/117902/find-out-which-process-is-locking-a-file-or-folder-in-windows
 
-#### 2. What are the Windows A: and B: drives used for?
+#### 17. What are the Windows A: and B: drives used for?
 
 **Issue**: What are the Windows A: and B: drives used for?
-**Tags / Source**: Tags: windows, hard-drive | superuser | 👍 1006 | 💬 20 answers
+**Tags / Source**: Tags: windows, hard-drive | superuser | StackExchange | 👍 1006 | 💬 20 answers
 
 **Description**:
-Tags: windows, hard-drive | Score: 1006 | Views: 531718 | Answers: 20
+Tags: windows, hard-drive | Score: 1006 | Views: 531717 | Answers: 20
 
 **Solution / Community Answer**:
 Short Version: A: &amp; B: are reserved by floppy disk drives, so C: is used by hard drives for backwards compatibility reasons.
@@ -1807,13 +1753,13 @@ For Windows specifically, it's worth mentioning that you can use A: and B: as th
 
 > 📎 Source: https://superuser.com/questions/231273/what-are-the-windows-a-and-b-drives-used-for
 
-#### 3. How can I display the contents of an environment variable from the command prompt in Windows 7?
+#### 18. How can I display the contents of an environment variable from the command prompt in Windows 7?
 
 **Issue**: How can I display the contents of an environment variable from the command prompt in Windows 7?
-**Tags / Source**: Tags: windows-7, windows, command-line, environment-variables | superuser | 👍 833 | 💬 8 answers
+**Tags / Source**: Tags: windows-7, windows, command-line, environment-variables | superuser | StackExchange | 👍 833 | 💬 8 answers
 
 **Description**:
-Tags: windows-7, windows, command-line, environment-variables | Score: 833 | Views: 3005029 | Answers: 8
+Tags: windows-7, windows, command-line, environment-variables | Score: 833 | Views: 3005012 | Answers: 8
 
 **Solution / Community Answer**:
 In Windows Command-Prompt the syntax is echo %PATH%
@@ -1828,10 +1774,10 @@ How to list global environment variables separately from user-specific environme
 
 > 📎 Source: https://superuser.com/questions/341192/how-can-i-display-the-contents-of-an-environment-variable-from-the-command-promp
 
-#### 4. How to *disable* automatic reboots in Windows 10?
+#### 19. How to *disable* automatic reboots in Windows 10?
 
 **Issue**: How to *disable* automatic reboots in Windows 10?
-**Tags / Source**: Tags: windows-10, windows-update, reboot | superuser | 👍 676 | 💬 20 answers
+**Tags / Source**: Tags: windows-10, windows-update, reboot | superuser | StackExchange | 👍 676 | 💬 20 answers
 
 **Description**:
 Tags: windows-10, windows-update, reboot | Score: 676 | Views: 402626 | Answers: 20
@@ -1900,13 +1846,13 @@ Windows will nag you with Toasts, Action Center alerts and banners across your s
 
 > 📎 Source: https://superuser.com/questions/957267/how-to-disable-automatic-reboots-in-windows-10
 
-#### 5. &quot;directory junction&quot; vs &quot;directory symbolic link&quot;?
+#### 20. &quot;directory junction&quot; vs &quot;directory symbolic link&quot;?
 
 **Issue**: &quot;directory junction&quot; vs &quot;directory symbolic link&quot;?
-**Tags / Source**: Tags: windows, filesystems, ntfs, symbolic-link | superuser | 👍 609 | 💬 3 answers
+**Tags / Source**: Tags: windows, filesystems, ntfs, symbolic-link | superuser | StackExchange | 👍 609 | 💬 3 answers
 
 **Description**:
-Tags: windows, filesystems, ntfs, symbolic-link | Score: 609 | Views: 462520 | Answers: 3
+Tags: windows, filesystems, ntfs, symbolic-link | Score: 609 | Views: 462513 | Answers: 3
 
 **Solution / Community Answer**:
 A junction is definitely not the same thing as a directory symbolic link, although they behave similarly.  The main difference is that, if you are looking at a remote server, junctions are processed at the server and directory symbolic links are processed at the client.  Also see Matthew's comment on the fact that this means symbolic links on the local file system can point to remote file systems.
@@ -1929,13 +1875,13 @@ It should also be noted that creating a symbolic link requires special privilege
 
 > 📎 Source: https://superuser.com/questions/343074/directory-junction-vs-directory-symbolic-link
 
-#### 6. How do I run multiple commands on one line in PowerShell?
+#### 21. How do I run multiple commands on one line in PowerShell?
 
 **Issue**: How do I run multiple commands on one line in PowerShell?
-**Tags / Source**: Tags: windows, command-line, powershell | superuser | 👍 603 | 💬 5 answers
+**Tags / Source**: Tags: windows, command-line, powershell | superuser | StackExchange | 👍 603 | 💬 5 answers
 
 **Description**:
-Tags: windows, command-line, powershell | Score: 603 | Views: 893181 | Answers: 5
+Tags: windows, command-line, powershell | Score: 603 | Views: 893171 | Answers: 5
 
 **Solution / Community Answer**:
 Use a semicolon to chain commands in PowerShell:
@@ -1946,10 +1892,10 @@ ipconfig /release; ipconfig /renew
 
 > 📎 Source: https://superuser.com/questions/612409/how-do-i-run-multiple-commands-on-one-line-in-powershell
 
-#### 7. Windows 7 SP1 Windows Update stuck checking for updates
+#### 22. Windows 7 SP1 Windows Update stuck checking for updates
 
 **Issue**: Windows 7 SP1 Windows Update stuck checking for updates
-**Tags / Source**: Tags: windows-7, windows, windows-update | superuser | 👍 561 | 💬 13 answers
+**Tags / Source**: Tags: windows-7, windows, windows-update | superuser | StackExchange | 👍 561 | 💬 13 answers
 
 **Description**:
 Tags: windows-7, windows, windows-update | Score: 561 | Views: 3337928 | Answers: 13
@@ -1996,13 +1942,13 @@ If this is still not helping to search for new updates, use WSUSOffline to get a
 
 > 📎 Source: https://superuser.com/questions/951960/windows-7-sp1-windows-update-stuck-checking-for-updates
 
-#### 8. What is the home directory on Windows Subsystem for Linux?
+#### 23. What is the home directory on Windows Subsystem for Linux?
 
 **Issue**: What is the home directory on Windows Subsystem for Linux?
-**Tags / Source**: Tags: windows-10, bash, windows-subsystem-for-linux | superuser | 👍 526 | 💬 11 answers
+**Tags / Source**: Tags: windows-10, bash, windows-subsystem-for-linux | superuser | StackExchange | 👍 526 | 💬 11 answers
 
 **Description**:
-Tags: windows-10, bash, windows-subsystem-for-linux | Score: 526 | Views: 1498457 | Answers: 11
+Tags: windows-10, bash, windows-subsystem-for-linux | Score: 526 | Views: 1498428 | Answers: 11
 
 **Solution / Community Answer**:
 In the latest versions [2025 WSL2], the file system is accessed from:
@@ -2035,13 +1981,13 @@ but with the files stored directly on the NTFS file system.
 
 > 📎 Source: https://superuser.com/questions/1185033/what-is-the-home-directory-on-windows-subsystem-for-linux
 
-#### 9. Can I delete the folder C:\ProgramData\Package Cache\?
+#### 24. Can I delete the folder C:\ProgramData\Package Cache\?
 
 **Issue**: Can I delete the folder C:\ProgramData\Package Cache\?
-**Tags / Source**: Tags: windows, disk-space | superuser | 👍 523 | 💬 10 answers
+**Tags / Source**: Tags: windows, disk-space | superuser | StackExchange | 👍 523 | 💬 10 answers
 
 **Description**:
-Tags: windows, disk-space | Score: 523 | Views: 870936 | Answers: 10
+Tags: windows, disk-space | Score: 523 | Views: 870925 | Answers: 10
 
 **Solution / Community Answer**:
 TL;DR: Do NOT delete this folder
@@ -2100,10 +2046,10 @@ LSE allows you to create symlinks, hardlinks, junctions, smartcopies, smartclone
 
 > 📎 Source: https://superuser.com/questions/455853/can-i-delete-the-folder-c-programdata-package-cache
 
-#### 10. How to check if a binary is 32- or 64-bit on Windows?
+#### 25. How to check if a binary is 32- or 64-bit on Windows?
 
 **Issue**: How to check if a binary is 32- or 64-bit on Windows?
-**Tags / Source**: Tags: windows, binary-files, 32-vs-64-bit | superuser | 👍 522 | 💬 32 answers
+**Tags / Source**: Tags: windows, binary-files, 32-vs-64-bit | superuser | StackExchange | 👍 522 | 💬 32 answers
 
 **Description**:
 Tags: windows, binary-files, 32-vs-64-bit | Score: 522 | Views: 509026 | Answers: 32
@@ -2136,10 +2082,10 @@ Full list of machine types, along with the rest of .exe specifications, can be f
 
 > 📎 Source: https://superuser.com/questions/358434/how-to-check-if-a-binary-is-32-or-64-bit-on-windows
 
-#### 11. Create/rename a file/folder that begins with a dot in Windows?
+#### 26. Create/rename a file/folder that begins with a dot in Windows?
 
 **Issue**: Create/rename a file/folder that begins with a dot in Windows?
-**Tags / Source**: Tags: windows | superuser | 👍 520 | 💬 12 answers
+**Tags / Source**: Tags: windows | superuser | StackExchange | 👍 520 | 💬 12 answers
 
 **Description**:
 Tags: windows | Score: 520 | Views: 316540 | Answers: 12
@@ -2155,10 +2101,10 @@ echo testing &gt; .name
 
 > 📎 Source: https://superuser.com/questions/64471/create-rename-a-file-folder-that-begins-with-a-dot-in-windows
 
-#### 12. Is there any &#39;sudo&#39; command for Windows?
+#### 27. Is there any &#39;sudo&#39; command for Windows?
 
 **Issue**: Is there any &#39;sudo&#39; command for Windows?
-**Tags / Source**: Tags: windows, command-line, privileges | superuser | 👍 518 | 💬 19 answers
+**Tags / Source**: Tags: windows, command-line, privileges | superuser | StackExchange | 👍 518 | 💬 19 answers
 
 **Description**:
 Tags: windows, command-line, privileges | Score: 518 | Views: 916657 | Answers: 19
@@ -2180,13 +2126,13 @@ to start a command shell as a administrator
 
 > 📎 Source: https://superuser.com/questions/42537/is-there-any-sudo-command-for-windows
 
-#### 13. How do I exit telnet?
+#### 28. How do I exit telnet?
 
 **Issue**: How do I exit telnet?
-**Tags / Source**: Tags: windows, telnet | superuser | 👍 512 | 💬 6 answers
+**Tags / Source**: Tags: windows, telnet | superuser | StackExchange | 👍 512 | 💬 6 answers
 
 **Description**:
-Tags: windows, telnet | Score: 512 | Views: 910610 | Answers: 6
+Tags: windows, telnet | Score: 512 | Views: 910605 | Answers: 6
 
 **Solution / Community Answer**:
 It should have printed something along the lines of:
@@ -2202,13 +2148,13 @@ You should then enter the telnet console, where you can enter quit to leave teln
 
 > 📎 Source: https://superuser.com/questions/486496/how-do-i-exit-telnet
 
-#### 14. Windows SSH: Permissions for &#39;private-key&#39; are too open
+#### 29. Windows SSH: Permissions for &#39;private-key&#39; are too open
 
 **Issue**: Windows SSH: Permissions for &#39;private-key&#39; are too open
-**Tags / Source**: Tags: windows, ssh, permissions, openssh, private-key | superuser | 👍 498 | 💬 18 answers
+**Tags / Source**: Tags: windows, ssh, permissions, openssh, private-key | superuser | StackExchange | 👍 498 | 💬 18 answers
 
 **Description**:
-Tags: windows, ssh, permissions, openssh, private-key | Score: 498 | Views: 1047424 | Answers: 18
+Tags: windows, ssh, permissions, openssh, private-key | Score: 498 | Views: 1047404 | Answers: 18
 
 **Solution / Community Answer**:
 You locate the file in Windows Explorer, right-click on it then select "Properties". Navigate to the "Security" tab and click "Advanced".
@@ -2221,13 +2167,13 @@ It should end up looking like this:
 
 > 📎 Source: https://superuser.com/questions/1296024/windows-ssh-permissions-for-private-key-are-too-open
 
-#### 15. How to download files from command line in Windows like wget or curl
+#### 30. How to download files from command line in Windows like wget or curl
 
 **Issue**: How to download files from command line in Windows like wget or curl
-**Tags / Source**: Tags: windows, wget, curl | superuser | 👍 490 | 💬 21 answers
+**Tags / Source**: Tags: windows, wget, curl | superuser | StackExchange | 👍 490 | 💬 21 answers
 
 **Description**:
-Tags: windows, wget, curl | Score: 490 | Views: 1880090 | Answers: 21
+Tags: windows, wget, curl | Score: 490 | Views: 1880079 | Answers: 21
 
 **Solution / Community Answer**:
 An alternative I discovered recently, using PowerShell:
@@ -2249,13 +2195,13 @@ A standard windows credentials prompt will pop up. The credentials you enter the
 
 > 📎 Source: https://superuser.com/questions/25538/how-to-download-files-from-command-line-in-windows-like-wget-or-curl
 
-#### 16. How can I free up drive space from the Windows installer folder without killing Windows?
+#### 31. How can I free up drive space from the Windows installer folder without killing Windows?
 
 **Issue**: How can I free up drive space from the Windows installer folder without killing Windows?
-**Tags / Source**: Tags: windows, windows-10, windows-8.1, disk-space, windows-installer | superuser | 👍 486 | 💬 8 answers
+**Tags / Source**: Tags: windows, windows-10, windows-8.1, disk-space, windows-installer | superuser | StackExchange | 👍 486 | 💬 8 answers
 
 **Description**:
-Tags: windows, windows-10, windows-8.1, disk-space, windows-installer | Score: 486 | Views: 1073388 | Answers: 8
+Tags: windows, windows-10, windows-8.1, disk-space, windows-installer | Score: 486 | Views: 1073378 | Answers: 8
 
 **Solution / Community Answer**:
 I created "PatchCleaner" to clean the windows installer directory of all orphaned files in one easy click. If you don't trust the app to do the right thing, use the move feature to put them somewhere safe in case you need them back in the future. I have run it on multiple machines and saved up to 15Gb of space :-)
@@ -2278,10 +2224,10 @@ NOTE: as @ Feb-2016 version 1.4.1.0 is out that has a fix to allow customisable 
 
 > 📎 Source: https://superuser.com/questions/707767/how-can-i-free-up-drive-space-from-the-windows-installer-folder-without-killing
 
-#### 17. How can I remove malicious spyware, malware, adware, viruses, trojans or rootkits from my PC?
+#### 32. How can I remove malicious spyware, malware, adware, viruses, trojans or rootkits from my PC?
 
 **Issue**: How can I remove malicious spyware, malware, adware, viruses, trojans or rootkits from my PC?
-**Tags / Source**: Tags: windows, anti-virus, virus, malware, community-faq | superuser | 👍 474 | 💬 18 answers
+**Tags / Source**: Tags: windows, anti-virus, virus, malware, community-faq | superuser | StackExchange | 👍 474 | 💬 18 answers
 
 **Description**:
 Tags: windows, anti-virus, virus, malware, community-faq | Score: 474 | Views: 333616 | Answers: 18
@@ -2352,13 +2298,13 @@ Also, prefer to download the software and updates/upgrades directly from vendor 
 
 > 📎 Source: https://superuser.com/questions/100360/how-can-i-remove-malicious-spyware-malware-adware-viruses-trojans-or-rootkit
 
-#### 18. How to rename the User folder in Windows 10?
+#### 33. How to rename the User folder in Windows 10?
 
 **Issue**: How to rename the User folder in Windows 10?
-**Tags / Source**: Tags: windows, windows-10, microsoft-onedrive | superuser | 👍 468 | 💬 11 answers
+**Tags / Source**: Tags: windows, windows-10, microsoft-onedrive | superuser | StackExchange | 👍 468 | 💬 11 answers
 
 **Description**:
-Tags: windows, windows-10, microsoft-onedrive | Score: 468 | Views: 1824065 | Answers: 11
+Tags: windows, windows-10, microsoft-onedrive | Score: 468 | Views: 1824060 | Answers: 11
 
 **Solution / Community Answer**:
 Microsoft has actually documented a very simple and clean way to rename a user profile folder.
@@ -2391,13 +2337,13 @@ Some applications create env vars with the user profile path fully expanded, so 
 
 > 📎 Source: https://superuser.com/questions/890812/how-to-rename-the-user-folder-in-windows-10
 
-#### 19. Rebooting Ubuntu on Windows without rebooting Windows?
+#### 34. Rebooting Ubuntu on Windows without rebooting Windows?
 
 **Issue**: Rebooting Ubuntu on Windows without rebooting Windows?
-**Tags / Source**: Tags: windows-10, windows-subsystem-for-linux | superuser | 👍 453 | 💬 9 answers
+**Tags / Source**: Tags: windows-10, windows-subsystem-for-linux | superuser | StackExchange | 👍 453 | 💬 9 answers
 
 **Description**:
-Tags: windows-10, windows-subsystem-for-linux | Score: 453 | Views: 990464 | Answers: 9
+Tags: windows-10, windows-subsystem-for-linux | Score: 453 | Views: 990460 | Answers: 9
 
 **Solution / Community Answer**:
 You cannot reboot a distro with a single command. You must shut down and boot up the distro with two commands. If you run wsl.exe instead of wsl, then it works both in WSL Bash &amp; CMD.
@@ -2429,13 +2375,13 @@ net start LxssManager
 
 > 📎 Source: https://superuser.com/questions/1126721/rebooting-ubuntu-on-windows-without-rebooting-windows
 
-#### 20. How can I delete a symbolic link in Windows?
+#### 35. How can I delete a symbolic link in Windows?
 
 **Issue**: How can I delete a symbolic link in Windows?
-**Tags / Source**: Tags: windows, windows-7, symbolic-link | superuser | 👍 439 | 💬 13 answers
+**Tags / Source**: Tags: windows, windows-7, symbolic-link | superuser | StackExchange | 👍 439 | 💬 13 answers
 
 **Description**:
-Tags: windows, windows-7, symbolic-link | Score: 439 | Views: 575997 | Answers: 13
+Tags: windows, windows-7, symbolic-link | Score: 439 | Views: 575986 | Answers: 13
 
 **Solution / Community Answer**:
 Be very careful.
@@ -2446,13 +2392,13 @@ SOLUTION: rmdir on the other hand will only delete the directory link, not what 
 
 > 📎 Source: https://superuser.com/questions/167076/how-can-i-delete-a-symbolic-link-in-windows
 
-#### 21. How to delete directories with path/names too long for normal delete
+#### 36. How to delete directories with path/names too long for normal delete
 
 **Issue**: How to delete directories with path/names too long for normal delete
-**Tags / Source**: Tags: windows, file-management | superuser | 👍 433 | 💬 25 answers
+**Tags / Source**: Tags: windows, file-management | superuser | StackExchange | 👍 433 | 💬 25 answers
 
 **Description**:
-Tags: windows, file-management | Score: 433 | Views: 568441 | Answers: 25
+Tags: windows, file-management | Score: 433 | Views: 568440 | Answers: 25
 
 **Solution / Community Answer**:
 Use the 7-Zip File Manager to delete them.  
@@ -2463,13 +2409,13 @@ If you are still having trouble, ensure that you utilize Shift+Delete inside the
 
 > 📎 Source: https://superuser.com/questions/78434/how-to-delete-directories-with-path-names-too-long-for-normal-delete
 
-#### 22. What is the Windows equivalent of the Unix command cat?
+#### 37. What is the Windows equivalent of the Unix command cat?
 
 **Issue**: What is the Windows equivalent of the Unix command cat?
-**Tags / Source**: Tags: windows, command-line, unix, cat | superuser | 👍 433 | 💬 4 answers
+**Tags / Source**: Tags: windows, command-line, unix, cat | superuser | StackExchange | 👍 433 | 💬 4 answers
 
 **Description**:
-Tags: windows, command-line, unix, cat | Score: 433 | Views: 1180593 | Answers: 4
+Tags: windows, command-line, unix, cat | Score: 433 | Views: 1180581 | Answers: 4
 
 **Solution / Community Answer**:
 type
@@ -2489,13 +2435,13 @@ bye
 
 > 📎 Source: https://superuser.com/questions/434870/what-is-the-windows-equivalent-of-the-unix-command-cat
 
-#### 23. Mouse pointer moving on arrow keys pressed in Windows?
+#### 38. Mouse pointer moving on arrow keys pressed in Windows?
 
 **Issue**: Mouse pointer moving on arrow keys pressed in Windows?
-**Tags / Source**: Tags: windows-10, mouse | superuser | 👍 399 | 💬 1 answers
+**Tags / Source**: Tags: windows-10, mouse | superuser | StackExchange | 👍 399 | 💬 1 answers
 
 **Description**:
-Tags: windows-10, mouse | Score: 399 | Views: 212010 | Answers: 1
+Tags: windows-10, mouse | Score: 399 | Views: 212007 | Answers: 1
 
 **Solution / Community Answer**:
 Tried killing all running processes on my PC till the problem went away and I can now say for sure the culprit was...
@@ -2508,13 +2454,13 @@ This also explains why the problem can persist after a reboot: when you reboot W
 
 > 📎 Source: https://superuser.com/questions/1467313/mouse-pointer-moving-on-arrow-keys-pressed-in-windows
 
-#### 24. How to disable the &quot;Get Windows 10&quot; icon shown in the notification area (tray)?
+#### 39. How to disable the &quot;Get Windows 10&quot; icon shown in the notification area (tray)?
 
 **Issue**: How to disable the &quot;Get Windows 10&quot; icon shown in the notification area (tray)?
-**Tags / Source**: Tags: windows, windows-10-upgrade | superuser | 👍 394 | 💬 14 answers
+**Tags / Source**: Tags: windows, windows-10-upgrade | superuser | StackExchange | 👍 394 | 💬 14 answers
 
 **Description**:
-Tags: windows, windows-10-upgrade | Score: 394 | Views: 552675 | Answers: 14
+Tags: windows, windows-10-upgrade | Score: 394 | Views: 552674 | Answers: 14
 
 **Solution / Community Answer**:
 If you just want to remove the tray icon until the next restart you can terminate the GWX.exe process using Task Manager.
@@ -2528,13 +2474,13 @@ After uninstalling, if remnants of the update's files are still in Windows\Syste
 
 > 📎 Source: https://superuser.com/questions/922068/how-to-disable-the-get-windows-10-icon-shown-in-the-notification-area-tray
 
-#### 25. How do you list all processes on the command line in Windows?
+#### 40. How do you list all processes on the command line in Windows?
 
 **Issue**: How do you list all processes on the command line in Windows?
-**Tags / Source**: Tags: windows, command-line | superuser | 👍 387 | 💬 15 answers
+**Tags / Source**: Tags: windows, command-line | superuser | StackExchange | 👍 387 | 💬 15 answers
 
 **Description**:
-Tags: windows, command-line | Score: 387 | Views: 1322575 | Answers: 15
+Tags: windows, command-line | Score: 387 | Views: 1322568 | Answers: 15
 
 **Solution / Community Answer**:
 Working with cmd.exe:
@@ -2555,13 +2501,13 @@ wmic process
 
 > 📎 Source: https://superuser.com/questions/914782/how-do-you-list-all-processes-on-the-command-line-in-windows
 
-#### 26. How to recursively delete directory from command line in windows?
+#### 41. How to recursively delete directory from command line in windows?
 
 **Issue**: How to recursively delete directory from command line in windows?
-**Tags / Source**: Tags: windows, command-line, cmd.exe | superuser | 👍 385 | 💬 8 answers
+**Tags / Source**: Tags: windows, command-line, cmd.exe | superuser | StackExchange | 👍 385 | 💬 8 answers
 
 **Description**:
-Tags: windows, command-line, cmd.exe | Score: 385 | Views: 958892 | Answers: 8
+Tags: windows, command-line, cmd.exe | Score: 385 | Views: 958891 | Answers: 8
 
 **Solution / Community Answer**:
 deltree if I remember my DOS. 
@@ -2593,13 +2539,13 @@ rmdir c:\test /s /q
 
 > 📎 Source: https://superuser.com/questions/179660/how-to-recursively-delete-directory-from-command-line-in-windows
 
-#### 27. How to read ext4 partitions on Windows?
+#### 42. How to read ext4 partitions on Windows?
 
 **Issue**: How to read ext4 partitions on Windows?
-**Tags / Source**: Tags: windows, filesystems, ext4 | superuser | 👍 377 | 💬 12 answers
+**Tags / Source**: Tags: windows, filesystems, ext4 | superuser | StackExchange | 👍 377 | 💬 12 answers
 
 **Description**:
-Tags: windows, filesystems, ext4 | Score: 377 | Views: 1033434 | Answers: 12
+Tags: windows, filesystems, ext4 | Score: 377 | Views: 1033426 | Answers: 12
 
 **Solution / Community Answer**:
 Ext2Read works well. It can also open &amp; read disk images ( eg: Wubi disk images)
@@ -2617,13 +2563,13 @@ Ext2Read works well. It can also open &amp; read disk images ( eg: Wubi disk ima
 
 > 📎 Source: https://superuser.com/questions/37512/how-to-read-ext4-partitions-on-windows
 
-#### 28. Native alternative to wget in Windows PowerShell?
+#### 43. Native alternative to wget in Windows PowerShell?
 
 **Issue**: Native alternative to wget in Windows PowerShell?
-**Tags / Source**: Tags: windows, powershell, powershell-2.0, powershell-3.0, powershell-4.0 | superuser | 👍 362 | 💬 12 answers
+**Tags / Source**: Tags: windows, powershell, powershell-2.0, powershell-3.0, powershell-4.0 | superuser | StackExchange | 👍 362 | 💬 12 answers
 
 **Description**:
-Tags: windows, powershell, powershell-2.0, powershell-3.0, powershell-4.0 | Score: 362 | Views: 684506 | Answers: 12
+Tags: windows, powershell, powershell-2.0, powershell-3.0, powershell-4.0 | Score: 362 | Views: 684501 | Answers: 12
 
 **Solution / Community Answer**:
 Here's a simple PS 3.0 and later one-liner that works and doesn't involve much PS barf:
@@ -2657,13 +2603,13 @@ You may find that doing a $ProgressPreference = "silentlyContinue" before Invoke
 
 > 📎 Source: https://superuser.com/questions/362152/native-alternative-to-wget-in-windows-powershell
 
-#### 29. Keyboard language keeps changing in Windows 10
+#### 44. Keyboard language keeps changing in Windows 10
 
 **Issue**: Keyboard language keeps changing in Windows 10
-**Tags / Source**: Tags: windows, windows-10, keyboard-layout | superuser | 👍 349 | 💬 9 answers
+**Tags / Source**: Tags: windows, windows-10, keyboard-layout | superuser | StackExchange | 👍 349 | 💬 9 answers
 
 **Description**:
-Tags: windows, windows-10, keyboard-layout | Score: 349 | Views: 543258 | Answers: 9
+Tags: windows, windows-10, keyboard-layout | Score: 349 | Views: 543256 | Answers: 9
 
 **Solution / Community Answer**:
 In Windows 10, by default, pressing CTRL+SHIFT (or for some ALT+SHIFT - thanks madmenyo ) will cycle through any keyboard layouts that you might have mapped and it's surprisingly easy to do this by mistake.
@@ -2692,13 +2638,13 @@ Also note that it's possible to disable this so that no key combination will cha
 
 > 📎 Source: https://superuser.com/questions/976947/keyboard-language-keeps-changing-in-windows-10
 
-#### 30. Why does virtualbox only have 32-bit option, no 64-bit option on Windows 7?
+#### 45. Why does virtualbox only have 32-bit option, no 64-bit option on Windows 7?
 
 **Issue**: Why does virtualbox only have 32-bit option, no 64-bit option on Windows 7?
-**Tags / Source**: Tags: windows, windows-7, virtualbox | superuser | 👍 349 | 💬 7 answers
+**Tags / Source**: Tags: windows, windows-7, virtualbox | superuser | StackExchange | 👍 349 | 💬 7 answers
 
 **Description**:
-Tags: windows, windows-7, virtualbox | Score: 349 | Views: 1389530 | Answers: 7
+Tags: windows, windows-7, virtualbox | Score: 349 | Views: 1389528 | Answers: 7
 
 **Solution / Community Answer**:
 Take a look: http://www.fixedbyvonnie.com/2014/11/virtualbox-showing-32-bit-guest-versions-64-bit-host-os/
@@ -2719,13 +2665,13 @@ Hyper-V (or any other form of bare-metal hypervisor) is not installed
 
 > 📎 Source: https://superuser.com/questions/866962/why-does-virtualbox-only-have-32-bit-option-no-64-bit-option-on-windows-7
 
-#### 31. How to pin either a Shortcut or a Batch file to the new Windows 7, 8 and 10 Taskbar and start menu?
+#### 46. How to pin either a Shortcut or a Batch file to the new Windows 7, 8 and 10 Taskbar and start menu?
 
 **Issue**: How to pin either a Shortcut or a Batch file to the new Windows 7, 8 and 10 Taskbar and start menu?
-**Tags / Source**: Tags: windows-7, windows-8, windows-10, taskbar, shortcuts | superuser | 👍 344 | 💬 7 answers
+**Tags / Source**: Tags: windows-7, windows-8, windows-10, taskbar, shortcuts | superuser | StackExchange | 👍 344 | 💬 7 answers
 
 **Description**:
-Tags: windows-7, windows-8, windows-10, taskbar, shortcuts | Score: 344 | Views: 286085 | Answers: 7
+Tags: windows-7, windows-8, windows-10, taskbar, shortcuts | Score: 344 | Views: 286084 | Answers: 7
 
 **Solution / Community Answer**:
 Create a shortcut to your batch file.
@@ -2736,13 +2682,13 @@ Simply drag your new shortcut to the taskbar. It should now be pinnable.
 
 > 📎 Source: https://superuser.com/questions/100249/how-to-pin-either-a-shortcut-or-a-batch-file-to-the-new-windows-7-8-and-10-task
 
-#### 32. Conclusively stop wake timers from waking Windows 10 desktop
+#### 47. Conclusively stop wake timers from waking Windows 10 desktop
 
 **Issue**: Conclusively stop wake timers from waking Windows 10 desktop
-**Tags / Source**: Tags: windows-10, sleep, wake-on-lan | superuser | 👍 331 | 💬 3 answers
+**Tags / Source**: Tags: windows-10, sleep, wake-on-lan | superuser | StackExchange | 👍 331 | 💬 3 answers
 
 **Description**:
-Tags: windows-10, sleep, wake-on-lan | Score: 331 | Views: 181508 | Answers: 3
+Tags: windows-10, sleep, wake-on-lan | Score: 331 | Views: 181507 | Answers: 3
 
 **Solution / Community Answer**:
 Summary
@@ -2809,13 +2755,13 @@ Set the time to something more sociable (7PM is fine) and disable the machine's 
 
 > 📎 Source: https://superuser.com/questions/973009/conclusively-stop-wake-timers-from-waking-windows-10-desktop
 
-#### 33. Menu select item stuck on screen after context or command menu has closed
+#### 48. Menu select item stuck on screen after context or command menu has closed
 
 **Issue**: Menu select item stuck on screen after context or command menu has closed
-**Tags / Source**: Tags: windows-7, windows, user-interface | superuser | 👍 327 | 💬 11 answers
+**Tags / Source**: Tags: windows-7, windows, user-interface | superuser | StackExchange | 👍 327 | 💬 11 answers
 
 **Description**:
-Tags: windows-7, windows, user-interface | Score: 327 | Views: 324992 | Answers: 11
+Tags: windows-7, windows, user-interface | Score: 327 | Views: 324991 | Answers: 11
 
 **Solution / Community Answer**:
 The problem was introduced back in Windows 2000 when fading menu items were added. Originally, the feature was added in kernel-mode code and was tightly integrated into portions of the UI. Since it worked so well, it ended up staying there. The problem has appeared from time to time, but no one has had a reliable way to reproduce it in the kernel debugger to get it fixed.
@@ -2828,13 +2774,13 @@ Changing the screen resolution or color depth also resets the desktop window man
 
 > 📎 Source: https://superuser.com/questions/57016/menu-select-item-stuck-on-screen-after-context-or-command-menu-has-closed
 
-#### 34. How can I visualize the file system usage on Windows?
+#### 49. How can I visualize the file system usage on Windows?
 
 **Issue**: How can I visualize the file system usage on Windows?
-**Tags / Source**: Tags: windows, file-management, disk-space, community-faq | superuser | 👍 321 | 💬 23 answers
+**Tags / Source**: Tags: windows, file-management, disk-space, community-faq | superuser | StackExchange | 👍 321 | 💬 23 answers
 
 **Description**:
-Tags: windows, file-management, disk-space, community-faq | Score: 321 | Views: 215821 | Answers: 23
+Tags: windows, file-management, disk-space, community-faq | Score: 321 | Views: 215817 | Answers: 23
 
 **Solution / Community Answer**:
 WinDirStat is a port of KDirStat for Linux. It's free, lightweight, small (650kb installer), fast, portable (as a standalone .exe file), and works on multiple versions of Windows. Besides showing folders and percentages (for the entire disk or any subset of folders), it also displays an (optional) graphical usage map. Works well with NTFS Junction folders, avoiding counting folders multiple times.
@@ -2843,13 +2789,13 @@ WinDirStat is a port of KDirStat for Linux. It's free, lightweight, small (650kb
 
 > 📎 Source: https://superuser.com/questions/8248/how-can-i-visualize-the-file-system-usage-on-windows
 
-#### 35. Equivalent of cmd&#39;s &quot;where&quot; in powershell
+#### 50. Equivalent of cmd&#39;s &quot;where&quot; in powershell
 
 **Issue**: Equivalent of cmd&#39;s &quot;where&quot; in powershell
-**Tags / Source**: Tags: windows, powershell | superuser | 👍 318 | 💬 6 answers
+**Tags / Source**: Tags: windows, powershell | superuser | StackExchange | 👍 318 | 💬 6 answers
 
 **Description**:
-Tags: windows, powershell | Score: 318 | Views: 257714 | Answers: 6
+Tags: windows, powershell | Score: 318 | Views: 257705 | Answers: 6
 
 **Solution / Community Answer**:
 Use the Get-Command commandlet passing it the name of the executable. It populates the Path property of the returned object (of type ApplicationInfo) with the fully resolved path to the executable. 
@@ -2860,600 +2806,6 @@ C:\WINDOWS\system32\notepad.exe
 **Reference**: https://superuser.com/questions/675837/equivalent-of-cmds-where-in-powershell
 
 > 📎 Source: https://superuser.com/questions/675837/equivalent-of-cmds-where-in-powershell
-
-#### 36. Setting and getting Windows environment variables from the command prompt?
-
-**Issue**: Setting and getting Windows environment variables from the command prompt?
-**Tags / Source**: Tags: windows, command-line, environment-variables | superuser | 👍 317 | 💬 5 answers
-
-**Description**:
-Tags: windows, command-line, environment-variables | Score: 317 | Views: 1038789 | Answers: 5
-
-**Solution / Community Answer**:
-To make the environment variable accessible globally you need to set it in the registry. As you've realised by just using:
-
-
-  set NEWVAR=SOMETHING
-
-
-you are just setting it in the current process space.
-
-According to this page you can use the setx command:
-
-
-  setx NEWVAR SOMETHING
-
-
-setx is built into Windows 7, but for older versions may only be available if you install the Windows Resource Kit
-
-**Reference**: https://superuser.com/questions/79612/setting-and-getting-windows-environment-variables-from-the-command-prompt
-
-> 📎 Source: https://superuser.com/questions/79612/setting-and-getting-windows-environment-variables-from-the-command-prompt
-
-#### 37. Is there a list of Windows special directories/shortcuts (like %TEMP%)?
-
-**Issue**: Is there a list of Windows special directories/shortcuts (like %TEMP%)?
-**Tags / Source**: Tags: windows, shortcuts, environment-variables, special-locations | superuser | 👍 314 | 💬 6 answers
-
-**Description**:
-Tags: windows, shortcuts, environment-variables, special-locations | Score: 314 | Views: 344813 | Answers: 6
-
-**Solution / Community Answer**:
-There are 156 run commands at mypchell.com.
-Here is a more complete list including the Windows Environment Commands (e.g. %temp%, %HomeDrive%, etc)
-
-Windows Environment Path Variables
-
-%AllUsersProfile% - Open the All User's Profile C:\ProgramData
-%AppData% - Opens AppData folder C:\Users\{username}\AppData\Roaming
-%CommonProgramFiles% - C:\Program Files\Common Files
-%CommonProgramFiles(x86)% - C:\Program Files (x86)\Common Files
-%HomeDrive% - Opens your home drive C:\
-%LocalAppData% - Opens local AppData folder C:\Users\{username}\AppData\Local
-%ProgramData% - C:\ProgramData
-%ProgramFiles% -  C:\Program Files or C:\Program Files (x86)
-%ProgramFiles(x86)% - C:\Program Files (x86)
-%Public% - C:\Users\Public
-%SystemDrive% - C:
-%SystemRoot% - Opens Windows folder C:\Windows
-%Temp% - Opens temporary file Folder C:\Users\{Username}\AppData\Local\Temp
-%UserProfile% - Opens your user's profile C:\Users\{username}
-%AppData%\Microsoft\Windows\Start Menu\Programs\Startup - Opens Windows 10 Startup location for program shortcuts
-
-
-
-Win+R
-
-Run commands
-
-Calc - Calculator
-Cfgwiz32 - ISDN Configuration Wizard
-Charmap - Character Map
-Chkdisk - Repair damaged files
-Cleanmgr - Cleans up hard drives
-Clipbrd - Windows Clipboard viewer
-Cmd - Opens a new Command Window (cmd.exe)
-Control - Displays Control Panel
-Dcomcnfg - DCOM user security
-Debug - Assembly language programming tool
-Defrag - Defragmentation tool
-Drwatson - Records programs crash &amp; snapshots
-Dxdiag - DirectX Diagnostic Utility
-Explorer - Windows Explorer
-Fontview - Graphical font viewer
-Ftp - ftp.exe program
-Hostname - Returns Computer's name
-Ipconfig - Displays IP configuration for all network adapters
-Jview - Microsoft Command-line Loader for Java classes
-MMC - Microsoft Management Console
-Msconfig - Configuration to edit startup files
-Msinfo32 - Microsoft System Information Utility
-Nbtstat - Displays stats and current connections using NetBios over TCP/IP
-Netstat - Displays all active network connections
-Nslookup - Returns your local DNS server
-Odbcad32 - ODBC Data Source Administrator
-Ping - Sends data to a specified host/IP
-Regedit - registry Editor
-Regsvr32 - register/de-register DLL/OCX/ActiveX
-Regwiz - Registration wizard
-Sfc /scannow - System File Checker
-Sndrec32 - Sound Recorder
-Sndvol32 - Volume control for soundcard
-Sysedit - Edit system startup files (config.sys, autoexec.bat, win.ini, etc.)
-Systeminfo - display various system information in text console
-Taskmgr - Task manager
-Telnet - Telnet program
-Taskkill - kill processes using command line interface
-Tskill - reduced version of Taskkill from Windows XP Home
-Tracert - Traces and displays all paths required to reach an internet host
-Winchat - simple chat program for Windows networks
-Winipcfg - Displays IP configuration  
-
-Microsoft Office suite
-
-winword - Microsoft Word
-excel - Microsoft Excel
-powerpnt - Microsoft PowerPoint
-msaccess - Microsoft Access
-outlook - Microsoft Outlook
-ois - Microsoft Picture Manager
-winproj - Microsoft Project 
-
-Management Consoles
-
-certmgr.msc - Certificate Manager
-ciadv.msc - Indexing Service
-compmgmt.msc - Computer management
-devmgmt.msc - Device Manager
-dfrg.msc - Defragment
-diskmgmt.msc - Disk Management
-fsmgmt.msc - Folder Sharing Management
-eventvwr.msc - Event Viewer
-gpedit.msc - Group Policy (&lt; XP Pro)
-iis.msc - Internet Information Services
-lusrmgr.msc - Local Users and Groups
-mscorcfg.msc - Net configurations
-ntmsmgr.msc - Removable Storage
-perfmon.msc - Performance Manager
-secpol.msc - Local Security Policy
-services.msc - System Services
-wmimgmt.msc - Windows Management   
-
-Control Panel utilities
-
-access.cpl - Accessibility Options
-hdwwiz.cpl - Add New Hardware Wizard
-appwiz.cpl - Add/Remove Programs
-timedate.cpl - Date and Time Properties
-desk.cpl - Display Properties
-inetcpl.cpl - Internet Properties
-joy.cpl - Joystick Properties
-main.cpl keyboard - Keyboard Properties
-main.cpl - Mouse Properties
-ncpa.cpl - Network Connections
-ncpl.cpl - Network Properties
-telephon.cpl - Phone and Modem options
-powercfg.cpl - Power Management
-intl.cpl - Regional settings
-mmsys.cpl sounds - Sound Properties
-mmsys.cpl - Sounds and Audio Device Properties
-sysdm.cpl - System Properties
-nusrmgr.cpl - User settings
-firewall.cpl - Firewall Settings (sp2)
-wscui.cpl - Security Center (sp2)
-Wupdmgr - Takes you to Microsoft Windows Update   
-
-Thanks to The New Tech for the original forum posting.
-
-**Reference**: https://superuser.com/questions/217504/is-there-a-list-of-windows-special-directories-shortcuts-like-temp
-
-> 📎 Source: https://superuser.com/questions/217504/is-there-a-list-of-windows-special-directories-shortcuts-like-temp
-
-#### 38. Can I completely disable Cortana on Windows 10?
-
-**Issue**: Can I completely disable Cortana on Windows 10?
-**Tags / Source**: Tags: windows-10, cortana | superuser | 👍 314 | 💬 9 answers
-
-**Description**:
-Tags: windows-10, cortana | Score: 314 | Views: 1744193 | Answers: 9
-
-**Solution / Community Answer**:
-Update 2018: Warning about Taskbar Breakage
-
-I just reinstalled Windows 10 Pro and followed all the prescribed steps (both removing Cortana and removing all store apps) and it still works as prescribed. 
-
-It bears mentioning that removing Cortana will break the Default Taskbar in weird ways. It doesn't break Windows Search - so Explorer search still works in my experience.
-
-I've, personally, always replaced the default taskbar with Classic Start (linked via Ninite installer) and have no issues in day-to-day Windows usage otherwise.
-
-Update: Remove Cortana via "TakeOwn"
-
-Apparently, this trick stopped working at some point. I've used @Meferdati's link at some point successfully: winaero: how to uninstall Cortona. It contains a script that does all the work for you, as well as an explanation of how it works.
-
-Below are the steps I've been using, which are very similar to @MC10's answer, except I've always had to "TakeOwn" to get permissions and I move my files to a different folder (instead of deleting - in case I decide to revert):
-
-
-add TakeOwn to the context menu or (use takeown from the command line).
-Navigate to C:\Windows
-Create folder SystemApps.bak
-Use Takeown to gain ownership of c:\windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy
-(Gain ownership of anything else you want to move)
-Cut/Paste the folder(s) from SystemApps to SystemApps.bak
-When the "Permissions" pop-up appears, switch to Task Manager
-Kill SearchUI.exe process
-Switch back and give permission to move the folder
-
-
-The folder is now in SystemsApps.bak - and you can simply move it back if the need arises.
-
-Original: Remove Cortana via Powershell RemoveAppPackage
-
-First disable it, then uninstall the Cortana app.
-
-Disable it in the search settings:
-
-
-Click the search icon/box in the bottom left
-click the gear on the left bar
-Click off next to Cortana/Web Searches
-
-
-
-
-Then uninstall it, as listed here:
-
-In elevated PowerShell:
-
-Get-AppxPackage | Select Name, PackageFullName
-Remove-AppxPackage Microsoft.Windows.Cortana_1.4.8.176_neutral_neutral_cw5n1h2txyewy
-
-
-This is similar to MC10's answer, except that I'm sure the OS will be more accepting of uninstalling it via the "proper channels" (powershell) instead of renaming the folder.
-
-Windows has fixed it so now you cannot remove "...Cortana_1.6.1.52_ ...". When this is attempted it states this is part of Windows now and cannot be removed. I guess I will go back to renaming the folder.
-
-I'm using the same uninstall to remove other "features" like BingNews, BingSports, Etc
-
-Edit: Likewise, you can remove the "Provisioned" applications (aka: crap that gets installed per user) via this method
-
-Get-AppxProvisionedPackage -Online | Select DisplayName, PackageName
-Remove-AppxProvisionedPackage  Microsoft.ZuneMusic_2019.6.11821.0_neutral_~_8wekyb3d8bbwe
-
-
-Or... to remove ALL Apps that you can, app or provisionedapp, you can do this:
-
-Just a warning: This will uninstall the Windows Store. That's not an issue for me, but uninstalling everything isn't for the faint of heart.
-
-Get-AppxPackage | Remove-AppxPackage
-Get-AppxProvisionedPackage -Online | Remove-AppxProvisionedPackage -online
-
-
-As mentioned in comments, it's probably wise not to completely remove the Windows Store. I haven't tried this yet, but this (in the comments) looks to be ballpark of what I'd use:
-
-Get-AppxPackage -AllUsers | where-object {$_.name –notlike "*store*"} | Remove-AppxPackage
-Get-appxprovisionedpackage –online | where-object {$_.packagename –notlike "*store*"} | Remove-AppxProvisionedPackage -online
-
-
-Further resource: Delete Windows 10 Apps and Restore Default Windows 10 Apps
-
-**Reference**: https://superuser.com/questions/949569/can-i-completely-disable-cortana-on-windows-10
-
-> 📎 Source: https://superuser.com/questions/949569/can-i-completely-disable-cortana-on-windows-10
-
-#### 39. Using cd command in Windows command line, can&#39;t navigate to D:\
-
-**Issue**: Using cd command in Windows command line, can&#39;t navigate to D:\
-**Tags / Source**: Tags: windows, command-line, path, cd | superuser | 👍 311 | 💬 9 answers
-
-**Description**:
-Tags: windows, command-line, path, cd | Score: 311 | Views: 1488461 | Answers: 9
-
-**Solution / Community Answer**:
-Going back to the days of DOS, there's a separate "current directory" for each drive.  cd D:\foldername changes D:'s current directory to the foldername specified, but does not change the fact that you're still working on the C: drive.
-
-What you want is simple:
-
-D:
-
-
-Here you can see how the "separate current directory for each drive" thing works:
-
-C:\Users\coneslayer&gt;e:
-
-E:\&gt;c:
-
-C:\Users\coneslayer&gt;cd e:\software
-
-C:\Users\coneslayer&gt;e:
-
-e:\Software&gt;
-
-**Reference**: https://superuser.com/questions/135214/using-cd-command-in-windows-command-line-cant-navigate-to-d
-
-> 📎 Source: https://superuser.com/questions/135214/using-cd-command-in-windows-command-line-cant-navigate-to-d
-
-#### 40. How to move windows that open up offscreen?
-
-**Issue**: How to move windows that open up offscreen?
-**Tags / Source**: Tags: windows, multiple-monitors, window-manager | superuser | 👍 309 | 💬 24 answers
-
-**Description**:
-Tags: windows, multiple-monitors, window-manager | Score: 309 | Views: 728600 | Answers: 24
-
-**Solution / Community Answer**:
-I use this approach:
-
-
-Use Alt+Tab to switch to the off-screen application.
-Press Alt+SPACE to bring up the system menu (you won't see it because it is off screen)
-Press R to select the "Restore" menu choice to ensure the windows isn't maximized (you cannot move it if it is maximized)
-Press Alt+SPACE again, then M to select the "Move" menu choice.
-Press one of the arrow keys to initiate the movement.
-Now just use the mouse  to place the window where you want.
-
-
-If you are using a non-English version of Windows, the "R" and "M" menu choices will probably be different.
-
-**Reference**: https://superuser.com/questions/53585/how-to-move-windows-that-open-up-offscreen
-
-> 📎 Source: https://superuser.com/questions/53585/how-to-move-windows-that-open-up-offscreen
-
-#### 41. How to quickly move current window to another Task View / desktop in Windows 10?
-
-**Issue**: How to quickly move current window to another Task View / desktop in Windows 10?
-**Tags / Source**: Tags: windows, windows-10 | superuser | 👍 305 | 💬 17 answers
-
-**Description**:
-Tags: windows, windows-10 | Score: 305 | Views: 291047 | Answers: 17
-
-**Solution / Community Answer**:
-I think for a quicker switch this should be in the titlebar, so I created a tool for that:
-
-https://github.com/Eun/MoveToDesktop
-
-
-
-You can also move windows by using WIN+ALT+Left/Right or change the shortcut as needed.
-
-**Reference**: https://superuser.com/questions/950452/how-to-quickly-move-current-window-to-another-task-view-desktop-in-windows-10
-
-> 📎 Source: https://superuser.com/questions/950452/how-to-quickly-move-current-window-to-another-task-view-desktop-in-windows-10
-
-#### 42. How to mess up a PC running Windows 7?
-
-**Issue**: How to mess up a PC running Windows 7?
-**Tags / Source**: Tags: windows-7, windows, security | superuser | 👍 303 | 💬 27 answers
-
-**Description**:
-Tags: windows-7, windows, security | Score: 303 | Views: 118517 | Answers: 27
-
-**Solution / Community Answer**:
-A few major problems for you, 
-
-
-In bios disable the processors L2 cache - Machine crawls
-Windows+break-->advanced system settings --> hardware tab --> Device Manager, right click disable mouse (make sure you can get here with just your keyboard so you can undo this!)
-ctrl+alt + Arrow key - on some graphics cards this rotates the screen. (usually with no method of undoing this unless you know this shortcut)
-Make a floppy boot disc/usb Key/CD Rom, pop it in the floppy drive and ensure its set to first in the boot order in bios (bonus points for removing the hdd from boot list and creating all 3 boot discs with a different os on each so they fix one then get the next!)
-Use a partitioning tool to shrink the hdd partition to a few mb more than is currently in use
-Do the opposite and fill up available space with multiple copies of large files.  Combined with a startup script to start the copies would keep the hard drive filled if they first attempted cleanup by deleting files.
-
-
-And a few irritations to garnish the pc with
-
-
-If it had internet access - Open Internet Properties --> connections Tab -->Lan Settings, Check use a proxy server, set the address to 127.0.0.1 (prevents them googling for solutions :P)
-Right click on desktop - View - uncheck show desktop icons (irritating but not tough to fix)
-sticky tape on the bottom of the mouse can disrupt the laser stopping the mouse working (couple this with the major disabling of the mouse in device manager to add confusion).
-if the connectors are ps2, swap the mouse and keyboard, obvious if you're used to hardware but passes a quick glance from a noob
-In word Office button -->Word Options --> proofing --> AutoCorrect Options --> add a few entries for common words, subtlety is your friend, is --> was the --> teh etc (2k7 instructions but can be done via different route in most versions)
-
-
-Reverse the steps to undo the problems and ask in comments if you have trouble!
-
-Edit - as we may have had our beastly BIOS tricks taken from us here's a couple more windows based ones
-
-Put the shutdown command into autoexec.bat Command syntax here (you've talked about putting similar functionality in the startup folder, so this should confuse em by doing the same thing from a different spot)
-
-Fork bomb! Create a .bat file containing the following text and make it autorun (either call from autoexec.bat or drop the .bat in startup folder)
-
-:s
-start %0
-goto s
-
-
-This will spawn huge numbers of processes untill the machine grinds to a halt (The code is untested but looks viable)
-
-**Reference**: https://superuser.com/questions/275894/how-to-mess-up-a-pc-running-windows-7
-
-> 📎 Source: https://superuser.com/questions/275894/how-to-mess-up-a-pc-running-windows-7
-
-#### 43. How to automatically reload modified files in Notepad++
-
-**Issue**: How to automatically reload modified files in Notepad++
-**Tags / Source**: Tags: windows, notepad++, text-editors | superuser | 👍 295 | 💬 6 answers
-
-**Description**:
-Tags: windows, notepad++, text-editors | Score: 295 | Views: 247824 | Answers: 6
-
-**Solution / Community Answer**:
-You can disable the confirmation in the settings:
-
-Settings -&gt; Preferences -&gt; MISC. -&gt; Update silently
-
-**Reference**: https://superuser.com/questions/274961/how-to-automatically-reload-modified-files-in-notepad
-
-> 📎 Source: https://superuser.com/questions/274961/how-to-automatically-reload-modified-files-in-notepad
-
-#### 44. Equivalent of Linux `touch` to create an empty file with PowerShell
-
-**Issue**: Equivalent of Linux `touch` to create an empty file with PowerShell
-**Tags / Source**: Tags: windows, windows-8, powershell, powershell-3.0 | superuser | 👍 293 | 💬 14 answers
-
-**Description**:
-Tags: windows, windows-8, powershell, powershell-3.0 | Score: 293 | Views: 420050 | Answers: 14
-
-**Solution / Community Answer**:
-Using the append redirector ">>" resolves the issue where an existing file is deleted:
-
-echo $null &gt;&gt; filename
-
-**Reference**: https://superuser.com/questions/502374/equivalent-of-linux-touch-to-create-an-empty-file-with-powershell
-
-> 📎 Source: https://superuser.com/questions/502374/equivalent-of-linux-touch-to-create-an-empty-file-with-powershell
-
-#### 45. How do I make Windows 10&#39;s File Explorer open &quot;This PC&quot; by default?
-
-**Issue**: How do I make Windows 10&#39;s File Explorer open &quot;This PC&quot; by default?
-**Tags / Source**: Tags: windows, windows-10, windows-explorer, windows-10-preview | superuser | 👍 291 | 💬 5 answers
-
-**Description**:
-Tags: windows, windows-10, windows-explorer, windows-10-preview | Score: 291 | Views: 256079 | Answers: 5
-
-**Solution / Community Answer**:
-As of build 9926 (at least - it may have been an earlier build), this is configurable via the GUI.
-
-Open Explorer and go to View, then click Options (or Change folder and search options). In General tab you can change Open File Explorer to This PC
-
-**Reference**: https://superuser.com/questions/819521/how-do-i-make-windows-10s-file-explorer-open-this-pc-by-default
-
-> 📎 Source: https://superuser.com/questions/819521/how-do-i-make-windows-10s-file-explorer-open-this-pc-by-default
-
-#### 46. How can I reduce the consumption of the `vmmem` process?
-
-**Issue**: How can I reduce the consumption of the `vmmem` process?
-**Tags / Source**: Tags: windows-10, memory, docker, resources | superuser | 👍 273 | 💬 15 answers
-
-**Description**:
-Tags: windows-10, memory, docker, resources | Score: 273 | Views: 569301 | Answers: 15
-
-**Solution / Community Answer**:
-Daniiel B is on the money. To turn off Vmmem simply go into Powershell or whatever terminal you like to use under admin rights and enter the command wsl --shutdown, when your done with playing in wsl1/2.
-
-**Reference**: https://superuser.com/questions/1559170/how-can-i-reduce-the-consumption-of-the-vmmem-process
-
-> 📎 Source: https://superuser.com/questions/1559170/how-can-i-reduce-the-consumption-of-the-vmmem-process
-
-#### 47. How can I execute a Windows command line in background?
-
-**Issue**: How can I execute a Windows command line in background?
-**Tags / Source**: Tags: windows, command-line | superuser | 👍 270 | 💬 12 answers
-
-**Description**:
-Tags: windows, command-line | Score: 270 | Views: 889345 | Answers: 12
-
-**Solution / Community Answer**:
-This is a little late but I just ran across this question while searching for the answer myself and I found this:
-
-START /B program
-
-
-which, on Windows, is the closest to the Linux command:
-
-program &amp;
-
-
-From the console HELP system:
-
-C:\&gt;HELP START
-
-Starts a separate window to run a specified program or command.
-
-START ["title"] [/D path] [/I] [/MIN] [/MAX] [/SEPARATE | /SHARED]
-      [/LOW | /NORMAL | /HIGH | /REALTIME | /ABOVENORMAL | /BELOWNORMAL]
-      [/NODE &lt;NUMA node&gt;] [/AFFINITY &lt;hex affinity mask&gt;] [/WAIT] [/B]
-      [command/program] [parameters]
-
-    "title"     Title to display in window title bar.
-    path        Starting directory.
-    B           Start application without creating a new window. The
-                application has ^C handling ignored. Unless the application
-                enables ^C processing, ^Break is the only way to interrupt
-                the application.
-
-
-One problem I saw with it is that  you have more than one program writing to the console window, it gets a little confusing and jumbled.
-
-To make it not interact with the user, you can redirect the output to a file:
-
-START /B program &gt; somefile.txt
-
-**Reference**: https://superuser.com/questions/198525/how-can-i-execute-a-windows-command-line-in-background
-
-> 📎 Source: https://superuser.com/questions/198525/how-can-i-execute-a-windows-command-line-in-background
-
-#### 48. How do I change the language of all Powerpoint slides at once?
-
-**Issue**: How do I change the language of all Powerpoint slides at once?
-**Tags / Source**: Tags: windows, microsoft-office, microsoft-powerpoint, language, microsoft-powerpoint-2010 | superuser | 👍 268 | 💬 9 answers
-
-**Description**:
-Tags: windows, microsoft-office, microsoft-powerpoint, language, microsoft-powerpoint-2010 | Score: 268 | Views: 572692 | Answers: 9
-
-**Solution / Community Answer**:
-To change the language of the entire PowerPoint easily, open the View tab and select the Outline view.
-
-Now press
-
-
-Ctrl+A to select all.
-Tools → Language → Choose your language to set.
-
-
-Likewise while you have everything selected you can change other things like fonts, colours etc. Although of course in many case this is better done by changing the slide master, a presentation that has had many editors may have lots of 'hard' formatting set which deviates from the underlying master and needs resetting to be consistent. You can also reset individual slides to the master style, but this may result in placeholders moving as well, which may be undesirable in some situations.
-
-PowerPoint 2013
-
-
-View → Outline → select all slides (in a left menu) via Ctrl+A.
-Review → Language → Set Proofing Language... → Choose your language to set.
-
-
-As for me - PowerPoint restart was needed. 
-Probably because I also did changed Editing Language:
-
-
-Review → Language → Set Proofing Language... → Language Preferences → Choose Editing Languages.
-
-**Reference**: https://superuser.com/questions/432366/how-do-i-change-the-language-of-all-powerpoint-slides-at-once
-
-> 📎 Source: https://superuser.com/questions/432366/how-do-i-change-the-language-of-all-powerpoint-slides-at-once
-
-#### 49. How can I check the temperature of my CPU in Windows?
-
-**Issue**: How can I check the temperature of my CPU in Windows?
-**Tags / Source**: Tags: windows, cpu, temperature | superuser | 👍 267 | 💬 10 answers
-
-**Description**:
-Tags: windows, cpu, temperature | Score: 267 | Views: 2706362 | Answers: 10
-
-**Solution / Community Answer**:
-Actually this information is given to OS by the BIOS, but you will need an application to expose the information. You can find a lot of applications to do this:
-
-Realtemp
-CPU thermomether
-Core Temp
-
-**Reference**: https://superuser.com/questions/395434/how-can-i-check-the-temperature-of-my-cpu-in-windows
-
-> 📎 Source: https://superuser.com/questions/395434/how-can-i-check-the-temperature-of-my-cpu-in-windows
-
-#### 50. How to list Chocolatey packages already installed and newer version available from the command line
-
-**Issue**: How to list Chocolatey packages already installed and newer version available from the command line
-**Tags / Source**: Tags: windows, command-line, chocolatey | superuser | 👍 267 | 💬 4 answers
-
-**Description**:
-Tags: windows, command-line, chocolatey | Score: 267 | Views: 312131 | Answers: 4
-
-**Solution / Community Answer**:
-Note: You likely need to do the following commands in an administrative cmd/powershell prompt.
-
-If you have choco 0.9.9.6+, you can use the outdated command.
-
-choco outdated
-
-
-If you have 0.9.9+ installed:
-
-choco upgrade all --noop
-
-
-If you have version 0.9.8.33 or below installed:
-
-choco version all
-
-
-Following that, if you actually want to upgrade - you can follow with:
-
-cup all -y
-
-
-Note: -y will only work with 0.9.8.33+.
-
-**Reference**: https://superuser.com/questions/890251/how-to-list-chocolatey-packages-already-installed-and-newer-version-available-fr
-
-> 📎 Source: https://superuser.com/questions/890251/how-to-list-chocolatey-packages-already-installed-and-newer-version-available-fr
 
 
 

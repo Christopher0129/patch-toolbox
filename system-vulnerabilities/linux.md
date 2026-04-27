@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 08:14:46 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 09:33:42 UTC_
 
 ## 中文 🇨🇳
 **Linux 系统漏洞**
@@ -21,7 +21,7 @@ _自动更新于 / Auto-updated: 2026-04-27 08:14:46 UTC_
 
 **CVE编号**: CVE-2000-0508 [NVD]
 **严重程度**: N/A CVSS: 5.0
-受影响产品: mandrakesoft:mandrake_linux, redhat:linux, debian:debian_linux
+受影响产品: mandrakesoft:mandrake_linux, debian:debian_linux, redhat:linux
 
 **漏洞描述**:
 rpc.lockd in Red Hat Linux 6.1 and 6.2 allows remote attackers to cause a denial of service via a malformed request.
@@ -114,7 +114,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 **CVE编号**: CVE-1999-1186 [NVD]
 **严重程度**: N/A CVSS: 7.2
-受影响产品: slackware:slackware_linux, redhat:linux, rxvt:rxvt
+受影响产品: slackware:slackware_linux, rxvt:rxvt, redhat:linux
 
 **漏洞描述**:
 rxvt, when compiled with the PRINT_PIPE option in various Linux operating systems including Linux Slackware 3.0 and RedHat 2.1, allows local users to gain root privileges by specifying a malicious program using the -print-pipe command line parameter.
@@ -150,7 +150,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 **CVE编号**: CVE-1999-0032 [NVD]
 **严重程度**: N/A CVSS: 7.2
-受影响产品: next:nextstep, bsdi:bsd_os, freebsd:freebsd, sgi:irix, sun:sunos
+受影响产品: sgi:irix, bsdi:bsd_os, next:nextstep, sun:sunos, freebsd:freebsd
 
 **漏洞描述**:
 Buffer overflow in lpr, as used in BSD-based systems including Linux, allows local users to execute arbitrary code as root via a long -C (classification) command line option.
@@ -248,7 +248,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602167420731&w=
 
 **CVE编号**: CVE-1999-1182 [NVD]
 **严重程度**: N/A CVSS: 7.2
-受影响产品: delix:dld, suse:suse_linux, caldera:openlinux_lite, redhat:linux, debian:debian_linux
+受影响产品: lst:lst_power_linux, delix:dld, debian:debian_linux, suse:suse_linux, caldera:openlinux_lite
 
 **漏洞描述**:
 Buffer overflow in run-time linkers (1) ld.so or (2) ld-linux.so for Linux systems allows local users to gain privileges by calling a setuid program with a long program name (argv[0]) and forcing ld.so/ld-linux.so to report an error.
@@ -269,7 +269,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602661419318&w=
 
 **CVE编号**: CVE-1999-1225 [NVD]
 **严重程度**: N/A CVSS: 5.0
-受影响产品: sun:solaris, openbsd:openbsd, digital:ultrix, netbsd:netbsd, linux:linux_kernel
+受影响产品: openbsd:openbsd, netbsd:netbsd, linux:linux_kernel, digital:ultrix, sun:solaris
 
 **漏洞描述**:
 rpc.mountd on Linux, Ultrix, and possibly other operating systems, allows remote attackers to determine the existence of a file on the server by attempting to mount that file, which generates different error messages depending on whether the file exists or not.
@@ -558,7 +558,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90786656409618&w=
 
 **CVE编号**: CVE-1999-0002 [NVD]
 **严重程度**: N/A CVSS: 10.0
-受影响产品: bsdi:bsd_os, redhat:linux, caldera:openlinux
+受影响产品: bsdi:bsd_os, caldera:openlinux, redhat:linux
 
 **漏洞描述**:
 Buffer overflow in NFS mountd gives root access to remote attackers, mostly in Linux systems.
@@ -597,7 +597,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 **CVE编号**: CVE-1999-0798 [NVD]
 **严重程度**: N/A CVSS: 10.0
-受影响产品: sco:internet_faststart, openbsd:openbsd, sco:unixware, bsdi:bsd_os, freebsd:freebsd
+受影响产品: bsdi:bsd_os, sco:openserver, openbsd:openbsd, sco:internet_faststart, sco:unixware
 
 **漏洞描述**:
 Buffer overflow in bootpd on OpenBSD, FreeBSD, and Linux systems via a malformed header type.
@@ -671,7 +671,7 @@ Apply patch from vendor. Monitor http://www.geocrawler.com/archives/3/92/1996/9/
 
 **CVE编号**: CVE-1999-0398 [NVD]
 **严重程度**: N/A CVSS: 4.6
-受影响产品: ssh:ssh, ssh:ssh2
+受影响产品: ssh:ssh2, ssh:ssh
 
 **漏洞描述**:
 In some instances of SSH 1.2.27 and 2.0.11 on Linux systems, SSH will allow users with expired accounts to login.
@@ -743,7 +743,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/324.
 
 **CVE编号**: CVE-1999-0390 [NVD]
 **严重程度**: N/A CVSS: 7.2
-受影响产品: redhat:linux, suse:suse_linux
+受影响产品: suse:suse_linux, redhat:linux
 
 **漏洞描述**:
 Buffer overflow in Dosemu Slang library in Linux.
@@ -817,7 +817,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/344.
 
 **CVE编号**: CVE-1999-0461 [NVD]
 **严重程度**: N/A CVSS: 10.0
-受影响产品: sgi:irix, linux:linux_kernel
+受影响产品: linux:linux_kernel, sgi:irix
 
 **漏洞描述**:
 Versions of rpcbind including Linux, IRIX, and Wietse Venema's rpcbind allow a remote attacker to insert and delete entries by spoofing a source address.
@@ -976,7 +976,7 @@ Auto-updated every 6 hours: latest LINUX system vulnerabilities and mitigations.
 
 **CVE ID**: CVE-2000-0508 [NVD]
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: mandrakesoft:mandrake_linux, redhat:linux, debian:debian_linux
+**Affected Products**: mandrakesoft:mandrake_linux, debian:debian_linux, redhat:linux
 
 **Description**:
 rpc.lockd in Red Hat Linux 6.1 and 6.2 allows remote attackers to cause a denial of service via a malformed request.
@@ -1069,7 +1069,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 **CVE ID**: CVE-1999-1186 [NVD]
 **Severity**: N/A CVSS: 7.2
-**Affected Products**: slackware:slackware_linux, redhat:linux, rxvt:rxvt
+**Affected Products**: slackware:slackware_linux, rxvt:rxvt, redhat:linux
 
 **Description**:
 rxvt, when compiled with the PRINT_PIPE option in various Linux operating systems including Linux Slackware 3.0 and RedHat 2.1, allows local users to gain root privileges by specifying a malicious program using the -print-pipe command line parameter.
@@ -1105,7 +1105,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 **CVE ID**: CVE-1999-0032 [NVD]
 **Severity**: N/A CVSS: 7.2
-**Affected Products**: next:nextstep, bsdi:bsd_os, freebsd:freebsd, sgi:irix, sun:sunos
+**Affected Products**: sgi:irix, bsdi:bsd_os, next:nextstep, sun:sunos, freebsd:freebsd
 
 **Description**:
 Buffer overflow in lpr, as used in BSD-based systems including Linux, allows local users to execute arbitrary code as root via a long -C (classification) command line option.
@@ -1203,7 +1203,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602167420731&w=
 
 **CVE ID**: CVE-1999-1182 [NVD]
 **Severity**: N/A CVSS: 7.2
-**Affected Products**: delix:dld, suse:suse_linux, caldera:openlinux_lite, redhat:linux, debian:debian_linux
+**Affected Products**: lst:lst_power_linux, delix:dld, debian:debian_linux, suse:suse_linux, caldera:openlinux_lite
 
 **Description**:
 Buffer overflow in run-time linkers (1) ld.so or (2) ld-linux.so for Linux systems allows local users to gain privileges by calling a setuid program with a long program name (argv[0]) and forcing ld.so/ld-linux.so to report an error.
@@ -1224,7 +1224,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602661419318&w=
 
 **CVE ID**: CVE-1999-1225 [NVD]
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: sun:solaris, openbsd:openbsd, digital:ultrix, netbsd:netbsd, linux:linux_kernel
+**Affected Products**: openbsd:openbsd, netbsd:netbsd, linux:linux_kernel, digital:ultrix, sun:solaris
 
 **Description**:
 rpc.mountd on Linux, Ultrix, and possibly other operating systems, allows remote attackers to determine the existence of a file on the server by attempting to mount that file, which generates different error messages depending on whether the file exists or not.
@@ -1513,7 +1513,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90786656409618&w=
 
 **CVE ID**: CVE-1999-0002 [NVD]
 **Severity**: N/A CVSS: 10.0
-**Affected Products**: bsdi:bsd_os, redhat:linux, caldera:openlinux
+**Affected Products**: bsdi:bsd_os, caldera:openlinux, redhat:linux
 
 **Description**:
 Buffer overflow in NFS mountd gives root access to remote attackers, mostly in Linux systems.
@@ -1552,7 +1552,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 **CVE ID**: CVE-1999-0798 [NVD]
 **Severity**: N/A CVSS: 10.0
-**Affected Products**: sco:internet_faststart, openbsd:openbsd, sco:unixware, bsdi:bsd_os, freebsd:freebsd
+**Affected Products**: bsdi:bsd_os, sco:openserver, openbsd:openbsd, sco:internet_faststart, sco:unixware
 
 **Description**:
 Buffer overflow in bootpd on OpenBSD, FreeBSD, and Linux systems via a malformed header type.
@@ -1626,7 +1626,7 @@ Apply patch from vendor. Monitor http://www.geocrawler.com/archives/3/92/1996/9/
 
 **CVE ID**: CVE-1999-0398 [NVD]
 **Severity**: N/A CVSS: 4.6
-**Affected Products**: ssh:ssh, ssh:ssh2
+**Affected Products**: ssh:ssh2, ssh:ssh
 
 **Description**:
 In some instances of SSH 1.2.27 and 2.0.11 on Linux systems, SSH will allow users with expired accounts to login.
@@ -1698,7 +1698,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/324.
 
 **CVE ID**: CVE-1999-0390 [NVD]
 **Severity**: N/A CVSS: 7.2
-**Affected Products**: redhat:linux, suse:suse_linux
+**Affected Products**: suse:suse_linux, redhat:linux
 
 **Description**:
 Buffer overflow in Dosemu Slang library in Linux.
@@ -1772,7 +1772,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/344.
 
 **CVE ID**: CVE-1999-0461 [NVD]
 **Severity**: N/A CVSS: 10.0
-**Affected Products**: sgi:irix, linux:linux_kernel
+**Affected Products**: linux:linux_kernel, sgi:irix
 
 **Description**:
 Versions of rpcbind including Linux, IRIX, and Wietse Venema's rpcbind allow a remote attacker to insert and delete entries by spoofing a source address.
