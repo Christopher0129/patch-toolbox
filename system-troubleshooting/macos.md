@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 05:05:47 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 06:09:56 UTC_
 
 ## 中文 🇨🇳
 **macOS 常见故障及解决方法**
@@ -54,7 +54,7 @@ You may get an error message: &quot;Can't install the software because it is not
 **标签 / 来源**: Tags: macos, command-line, homebrew, open-source | apple | 👍 1068 | 💬 11 answers
 
 **问题描述**:
-Tags: macos, command-line, homebrew, open-source | Score: 1068 | Views: 1439809 | Answers: 11
+Tags: macos, command-line, homebrew, open-source | Score: 1068 | Views: 1439812 | Answers: 11
 
 **解决方法 / 社区答案**:
 brew list and brew list --cask
@@ -72,7 +72,7 @@ If you wish to list casks only, brew list --cask will provide the items installe
 **标签 / 来源**: Tags: macos, kernel | apple | 👍 712 | 💬 16 answers
 
 **问题描述**:
-Tags: macos, kernel | Score: 712 | Views: 615534 | Answers: 16
+Tags: macos, kernel | Score: 712 | Views: 615535 | Answers: 16
 
 **解决方法 / 社区答案**:
 TLDR; If your MacBook Pro runs hot or shows a high % CPU for the kernel task, try charging on the right and not on the left.
@@ -116,7 +116,7 @@ Otherwise guessing and testing is the only way. Of course that leads to false co
 **标签 / 来源**: Tags: macos, keyboard, google-chrome | apple | 👍 654 | 💬 15 answers
 
 **问题描述**:
-Tags: macos, keyboard, google-chrome | Score: 654 | Views: 935244 | Answers: 15
+Tags: macos, keyboard, google-chrome | Score: 654 | Views: 935247 | Answers: 15
 
 **解决方法 / 社区答案**:
 UK Keyboard
@@ -182,7 +182,7 @@ Finder window.
 **标签 / 来源**: Tags: macos, keyboard | apple | 👍 587 | 💬 13 answers
 
 **问题描述**:
-Tags: macos, keyboard | Score: 587 | Views: 228306 | Answers: 13
+Tags: macos, keyboard | Score: 587 | Views: 228307 | Answers: 13
 
 **解决方法 / 社区答案**:
 The default shortcuts for moving to beginning or end of (wrapped) lines are ⌘← and ⌘→. ⌥↑ and ⌥↓ or ⌃A and ⌃E move to the beginning or end of unwrapped lines (or paragraphs). ⌥← and ⌥→ move backwards/forward by words, and all of these are compatible with holding Shift to select during the corresponding moves.
@@ -245,7 +245,7 @@ This echoes the behaviour of Cmd/Tab or equivalent in most operating systems, so
 **标签 / 来源**: Tags: macos, applications, command-line | apple | 👍 508 | 💬 1 answers
 
 **问题描述**:
-Tags: macos, applications, command-line | Score: 508 | Views: 865922 | Answers: 1
+Tags: macos, applications, command-line | Score: 508 | Views: 865928 | Answers: 1
 
 **解决方法 / 社区答案**:
 To open your current directory in Finder from Terminal, type open .
@@ -281,7 +281,7 @@ I answered a similar question: cmd-tab behavior on Mavericks with multiple displ
 **标签 / 来源**: Tags: macos, command-line, file, symlink | apple | 👍 484 | 💬 7 answers
 
 **问题描述**:
-Tags: macos, command-line, file, symlink | Score: 484 | Views: 724805 | Answers: 7
+Tags: macos, command-line, file, symlink | Score: 484 | Views: 724809 | Answers: 7
 
 **解决方法 / 社区答案**:
 ┌── ln(1) link, ln -- make links
@@ -325,7 +325,7 @@ To create a symlink to replace a system directory (e.g. if you want to have /Use
 **标签 / 来源**: Tags: macos, network, command-line | apple | 👍 451 | 💬 11 answers
 
 **问题描述**:
-Tags: macos, network, command-line | Score: 451 | Views: 1668082 | Answers: 11
+Tags: macos, network, command-line | Score: 451 | Views: 1668089 | Answers: 11
 
 **解决方法 / 社区答案**:
 Local IP address
@@ -364,7 +364,7 @@ When you run this command, it queries the ns1.google.com DNS server for the TXT 
 **标签 / 来源**: Tags: macbook-pro, spotlight, cpu | apple | 👍 450 | 💬 15 answers
 
 **问题描述**:
-Tags: macbook-pro, spotlight, cpu | Score: 450 | Views: 679870 | Answers: 15
+Tags: macbook-pro, spotlight, cpu | Score: 450 | Views: 679872 | Answers: 15
 
 **解决方法 / 社区答案**:
 As you know, the mds and mds_stores are Spotlight activities.
@@ -533,7 +533,7 @@ NOTE: If you need help in selecting colors to use you can use this online tool c
 **标签 / 来源**: Tags: terminal, bash, zsh, macos | apple | 👍 389 | 💬 4 answers
 
 **问题描述**:
-Tags: terminal, bash, zsh, macos | Score: 389 | Views: 337247 | Answers: 4
+Tags: terminal, bash, zsh, macos | Score: 389 | Views: 337249 | Answers: 4
 
 **解决方法 / 社区答案**:
 First, some important things:
@@ -667,7 +667,7 @@ An extensive collection of articles on switching to zsh on the mac can be found 
 **标签 / 来源**: Tags: macos, network, command-line | apple | 👍 375 | 💬 7 answers
 
 **问题描述**:
-Tags: macos, network, command-line | Score: 375 | Views: 1062787 | Answers: 7
+Tags: macos, network, command-line | Score: 375 | Views: 1062788 | Answers: 7
 
 **解决方法 / 社区答案**:
 netstat -anvp tcp | awk 'NR&lt;3 || /LISTEN/'
@@ -884,7 +884,7 @@ Now Apple has released the real fix, though this might still be useful. Because 
 **标签 / 来源**: Tags: macos, software-recommendation, image-editing | apple | 👍 365 | 💬 19 answers
 
 **问题描述**:
-Tags: macos, software-recommendation, image-editing | Score: 365 | Views: 884014 | Answers: 19
+Tags: macos, software-recommendation, image-editing | Score: 365 | Views: 884015 | Answers: 19
 
 **解决方法 / 社区答案**:
 I often have to do this with images of plots of data.  I use the command line tools that come in the Imagemagick package; I think I installed it on my system with MacPorts. You could also choose to install with brew (brew install imagemagick).
@@ -1039,7 +1039,7 @@ Result Screen:
 **标签 / 来源**: Tags: macos | apple | 👍 323 | 💬 3 answers
 
 **问题描述**:
-Tags: macos | Score: 323 | Views: 200603 | Answers: 3
+Tags: macos | Score: 323 | Views: 200604 | Answers: 3
 
 **解决方法 / 社区答案**:
 ⌘ CMD+⇧ SHIFT+. reveals hidden files in Finder and Open/Save dialogs.
@@ -1062,7 +1062,7 @@ Editing hidden files can be dangerous if you don't know what you're doing.
 **标签 / 来源**: Tags: macos, finder, file | apple | 👍 321 | 💬 32 answers
 
 **问题描述**:
-Tags: macos, finder, file | Score: 321 | Views: 609449 | Answers: 32
+Tags: macos, finder, file | Score: 321 | Views: 609450 | Answers: 32
 
 **解决方法 / 社区答案**:
 You can also do this in Terminal. Go to the directory where you want to create the file, then run the following:
@@ -1245,7 +1245,7 @@ From: https://github.com/Homebrew/homebrew/blob/master/Library/Formula/pcre.rb
 **标签 / 来源**: Tags: macos, command-line, unix, utilities | apple | 👍 278 | 💬 7 answers
 
 **问题描述**:
-Tags: macos, command-line, unix, utilities | Score: 278 | Views: 215463 | Answers: 7
+Tags: macos, command-line, unix, utilities | Score: 278 | Views: 215464 | Answers: 7
 
 **解决方法 / 社区答案**:
 This adds symlinks for GNU utilities with g prefix to /usr/local/bin/:
@@ -1285,7 +1285,7 @@ the "gnuman" directory to your MANPATH from your bashrc as well:
 **标签 / 来源**: Tags: macos, file | apple | 👍 275 | 💬 14 answers
 
 **问题描述**:
-Tags: macos, file | Score: 275 | Views: 394184 | Answers: 14
+Tags: macos, file | Score: 275 | Views: 394186 | Answers: 14
 
 **解决方法 / 社区答案**:
 You can't avoid them (but see the dot_clean answer by Saeid Zebardast --they can be removed from a directory if that is what you need).  They're created to store file information that would otherwise go into an extended attribute on HFS+ (Apple native) or Unix/UFS volumes; in earlier Mac OS this would be the resource fork.  Finder file operations will create them automatically to store the icon information, plus Time Machine stores some information in them so if you copy a file backed up via TM it will have that information copied as well.
@@ -1573,7 +1573,7 @@ On macOS, specifies whether the system should search for passphrases in the user
 **标签 / 来源**: Tags: macos, high-sierra, spaces | apple | 👍 229 | 💬 21 answers
 
 **问题描述**:
-Tags: macos, high-sierra, spaces | Score: 229 | Views: 262533 | Answers: 21
+Tags: macos, high-sierra, spaces | Score: 229 | Views: 262534 | Answers: 21
 
 **解决方法 / 社区答案**:
 Refer to the original page for detailed solutions and community answers.
@@ -1611,7 +1611,7 @@ Both the Command and left Option keys must be pressed on the same side (left or 
 **标签 / 来源**: Tags: macos, terminal, command-line, bash | apple | 👍 224 | 💬 6 answers
 
 **问题描述**:
-Tags: macos, terminal, command-line, bash | Score: 224 | Views: 1264164 | Answers: 6
+Tags: macos, terminal, command-line, bash | Score: 224 | Views: 1264168 | Answers: 6
 
 **解决方法 / 社区答案**:
 Open Terminal, type in sh /path/to/file and press enter. 
@@ -1689,7 +1689,7 @@ Other emoji have Unicode hex numbers with 5 characters, such as Grinning Face U+
 **标签 / 来源**: Tags: macos, usb | apple | 👍 212 | 💬 2 answers
 
 **问题描述**:
-Tags: macos, usb | Score: 212 | Views: 565192 | Answers: 2
+Tags: macos, usb | Score: 212 | Views: 565194 | Answers: 2
 
 **解决方法 / 社区答案**:
 In addition to system_profiler SPUSBDataType (suggested by @kjs), you can also use ioreg -p IOUSB:
@@ -1745,7 +1745,7 @@ IR Receiver
 **标签 / 来源**: Tags: macos, finder, switching, contextual-menu | apple | 👍 212 | 💬 12 answers
 
 **问题描述**:
-Tags: macos, finder, switching, contextual-menu | Score: 212 | Views: 200052 | Answers: 12
+Tags: macos, finder, switching, contextual-menu | Score: 212 | Views: 200053 | Answers: 12
 
 **解决方法 / 社区答案**:
 Keyboard method: Cmd-C then Opt-Cmd-V does the cut&amp;paste for files on Mac. 
@@ -1764,7 +1764,7 @@ Menu method: It's not part of the Apple menu system to 'cut' files.  The menu Cu
 **标签 / 来源**: Tags: macos, hard-drive, file | apple | 👍 211 | 💬 6 answers
 
 **问题描述**:
-Tags: macos, hard-drive, file | Score: 211 | Views: 761140 | Answers: 6
+Tags: macos, hard-drive, file | Score: 211 | Views: 761141 | Answers: 6
 
 **解决方法 / 社区答案**:
 It's generally safe, though a little dangerous depending, to do it but often not worth the effort.
@@ -1787,7 +1787,7 @@ Of course the best way to clear the caches is to install AppleJack and do it wit
 **标签 / 来源**: Tags: macos, zsh, environment-variables | apple | 👍 209 | 💬 1 answers
 
 **问题描述**:
-Tags: macos, zsh, environment-variables | Score: 209 | Views: 274066 | Answers: 1
+Tags: macos, zsh, environment-variables | Score: 209 | Views: 274068 | Answers: 1
 
 **解决方法 / 社区答案**:
 This is an attempt to write a canonical QA for this issue, as per the Meta post:  Where is the list of canonical questions stored for Ask Different? I expect it to be periodically edited with the goal of becoming a comprehensive information resource.
@@ -1913,7 +1913,7 @@ It allows you to restore trashed files via command line or the Finder.
 **标签 / 来源**: Tags: macbook-pro, audio | apple | 👍 202 | 💬 8 answers
 
 **问题描述**:
-Tags: macbook-pro, audio | Score: 202 | Views: 272561 | Answers: 8
+Tags: macbook-pro, audio | Score: 202 | Views: 272564 | Answers: 8
 
 **解决方法 / 社区答案**:
 sudo pkill coreaudiod
@@ -2038,7 +2038,7 @@ You can still open the picture in Preview.app when needed (top right corner).
 **标签 / 来源**: Tags: macos | apple | 👍 192 | 💬 6 answers
 
 **问题描述**:
-Tags: macos | Score: 192 | Views: 194509 | Answers: 6
+Tags: macos | Score: 192 | Views: 194510 | Answers: 6
 
 **解决方法 / 社区答案**:
 I have only enabled the first four of these, but here are all hidden preferences for disabling animations I have found.
@@ -2191,7 +2191,7 @@ If you installed Homebrew as a non-root user, you'll need to cd to /Users/yourus
 **标签 / 来源**: Tags: macos, command-line, hardware, storage | apple | 👍 183 | 💬 6 answers
 
 **问题描述**:
-Tags: macos, command-line, hardware, storage | Score: 183 | Views: 480009 | Answers: 6
+Tags: macos, command-line, hardware, storage | Score: 183 | Views: 480011 | Answers: 6
 
 **解决方法 / 社区答案**:
 diskutil list will list all disks with their identifiers, even if unmounted.
@@ -2268,7 +2268,7 @@ Click the annotations button in the toolbar and use the drop down menu next to t
 **标签 / 来源**: Tags: macos, photos, pdf, preview | apple | 👍 180 | 💬 9 answers
 
 **问题描述**:
-Tags: macos, photos, pdf, preview | Score: 180 | Views: 327359 | Answers: 9
+Tags: macos, photos, pdf, preview | Score: 180 | Views: 327360 | Answers: 9
 
 **解决方法 / 社区答案**:
 Do as follows:
@@ -2388,7 +2388,7 @@ The location in Lion OSX is in:
 **标签 / 来源**: Tags: mac-mini, macos, activity-monitor, apple-silicon | apple | 👍 178 | 💬 3 answers
 
 **问题描述**:
-Tags: mac-mini, macos, activity-monitor, apple-silicon | Score: 178 | Views: 155253 | Answers: 3
+Tags: mac-mini, macos, activity-monitor, apple-silicon | Score: 178 | Views: 155254 | Answers: 3
 
 **解决方法 / 社区答案**:
 This process belongs to an application you've installed yourself.
@@ -2404,7 +2404,7 @@ To find out more, select the process in Activity Monitor and press Cmd-I to open
 **标签 / 来源**: Tags: macos, unix | apple | 👍 178 | 💬 11 answers
 
 **问题描述**:
-Tags: macos, unix | Score: 178 | Views: 372061 | Answers: 11
+Tags: macos, unix | Score: 178 | Views: 372062 | Answers: 11
 
 **解决方法 / 社区答案**:
 The answer depends on you willingness to invest in commercial software:
@@ -2444,7 +2444,7 @@ The .mp4 extension in the output path serves as a cue for the program to do the 
 **标签 / 来源**: Tags: macos, terminal, wifi, ssh | apple | 👍 175 | 💬 7 answers
 
 **问题描述**:
-Tags: macos, terminal, wifi, ssh | Score: 175 | Views: 189533 | Answers: 7
+Tags: macos, terminal, wifi, ssh | Score: 175 | Views: 189535 | Answers: 7
 
 **解决方法 / 社区答案**:
 For keeping the connection alive, you can check in /etc/ssh/ssh_config the line where it says ServerAliveInterval, that tells you how often (in seconds) your computer is gonna send a null packet to keep the connection alive. If you have a 0 in there that indicates that your computer is not trying to keep the connection alive (it is disabled), otherwise it tells you how often (in seconds) it is sending the aforementioned packet. Try putting in 120 or 240, if it is still killing your connection, you can go lower, maybe to 5, if with that number it doesn't happen, maybe it is your router who is dumping the connection to free memory.
@@ -2542,7 +2542,7 @@ It slows down the entire network stack, so you can't throttle on a per app basis
 **标签 / 来源**: Tags: macos, terminal, sleep-wake, shutdown, restart | apple | 👍 172 | 💬 4 answers
 
 **问题描述**:
-Tags: macos, terminal, sleep-wake, shutdown, restart | Score: 172 | Views: 551481 | Answers: 4
+Tags: macos, terminal, sleep-wake, shutdown, restart | Score: 172 | Views: 551482 | Answers: 4
 
 **解决方法 / 社区答案**:
 The command you are after is shutdown.
@@ -2624,7 +2624,7 @@ In my case it was the Network Monitor from Little Snitch that seemed to be the b
 **标签 / 来源**: Tags: keyboard, display, macos | apple | 👍 170 | 💬 7 answers
 
 **问题描述**:
-Tags: keyboard, display, macos | Score: 170 | Views: 373484 | Answers: 7
+Tags: keyboard, display, macos | Score: 170 | Views: 373485 | Answers: 7
 
 **解决方法 / 社区答案**:
 Refer to the original page for detailed solutions and community answers.
@@ -2665,7 +2665,7 @@ is all that's needed. The target is a &quot;device&quot; (see the man page for d
 **标签 / 来源**: Tags: macos, command-line | apple | 👍 164 | 💬 17 answers
 
 **问题描述**:
-Tags: macos, command-line | Score: 164 | Views: 196307 | Answers: 17
+Tags: macos, command-line | Score: 164 | Views: 196308 | Answers: 17
 
 **解决方法 / 社区答案**:
 FileMerge (free), shipped with Xcode, offers a directory view.
@@ -2705,7 +2705,7 @@ Refer to the original page for detailed solutions and community answers.
 **标签 / 来源**: Tags: macos, notifications | apple | 👍 159 | 💬 10 answers
 
 **问题描述**:
-Tags: macos, notifications | Score: 159 | Views: 89318 | Answers: 10
+Tags: macos, notifications | Score: 159 | Views: 89319 | Answers: 10
 
 **解决方法 / 社区答案**:
 Unfortunately, you can't change the screen position of the Notification Center Alerts and Banners. This is a huge gripe of mine as well, and I highly encourage you to complain about this issue to Apple here:
@@ -2862,7 +2862,7 @@ Note that the -y overwrites existing files without prompting so if you want to n
 **标签 / 来源**: Tags: macos, daemons, docker | apple | 👍 154 | 💬 9 answers
 
 **问题描述**:
-Tags: macos, daemons, docker | Score: 154 | Views: 547378 | Answers: 9
+Tags: macos, daemons, docker | Score: 154 | Views: 547382 | Answers: 9
 
 **解决方法 / 社区答案**:
 An alternative solution is to use other runtime for docker. For example
@@ -2978,7 +2978,7 @@ You can summon the Dock on your big display by dragging the cursor to the bottom
 **标签 / 来源**: Tags: macos, notifications, dual-screen | apple | 👍 152 | 💬 3 answers
 
 **问题描述**:
-Tags: macos, notifications, dual-screen | Score: 152 | Views: 96074 | Answers: 3
+Tags: macos, notifications, dual-screen | Score: 152 | Views: 96075 | Answers: 3
 
 **解决方法 / 社区答案**:
 You should be able to do this by choosing the monitor on which the menu bar is active.
@@ -3087,7 +3087,7 @@ Many USB-Serial adapters use the chip from FTDI. Install the "Virtual COM Port" 
 **标签 / 来源**: Tags: macos, system-settings, visual-studio-code | apple | 👍 151 | 💬 3 answers
 
 **问题描述**:
-Tags: macos, system-settings, visual-studio-code | Score: 151 | Views: 54183 | Answers: 3
+Tags: macos, system-settings, visual-studio-code | Score: 151 | Views: 54184 | Answers: 3
 
 **解决方法 / 社区答案**:
 Enable Auto Detect (Search in Settings: window.autoDetectColorScheme)
@@ -3495,7 +3495,7 @@ Growl support for notification when a process completes
 **标签 / 来源**: Tags: terminal, finder | apple | 👍 207 | 💬 18 answers
 
 **问题描述**:
-Tags: terminal, finder | Score: 207 | Views: 407489 | Answers: 18
+Tags: terminal, finder | Score: 207 | Views: 407491 | Answers: 18
 
 **解决方法 / 社区答案**:
 As of Mac OS X Lion 10.7, Terminal provides Services for opening a new terminal window or tab at the selected folder in Finder. They also work with absolute pathnames selected in text (in any application). You can enable these services with System Preferences > Keyboard > Keyboard Shortcuts > Services. Look for "New Terminal at Folder" and "New Terminal Tab at Folder". You can also assign them shortcut keys.
@@ -3516,7 +3516,7 @@ Note: The New Terminal at Folder service will become active when you select a fo
 **标签 / 来源**: Tags: terminal, iterm | apple | 👍 193 | 💬 6 answers
 
 **问题描述**:
-Tags: terminal, iterm | Score: 193 | Views: 171843 | Answers: 6
+Tags: terminal, iterm | Score: 193 | Views: 171844 | Answers: 6
 
 **解决方法 / 社区答案**:
 You can use iTerm2's system-wide hotkey with the Hotkey Window profile to do this.
@@ -3559,7 +3559,7 @@ And that should be it. Make sure to enter q after the delete * command. This wil
 **标签 / 来源**: Tags: terminal, bash, environment-variables | apple | 👍 173 | 💬 12 answers
 
 **问题描述**:
-Tags: terminal, bash, environment-variables | Score: 173 | Views: 910373 | Answers: 12
+Tags: terminal, bash, environment-variables | Score: 173 | Views: 910376 | Answers: 12
 
 **解决方法 / 社区答案**:
 I have a .profile in my home directory; it contains many export … statements for environment variables.
@@ -3619,7 +3619,7 @@ On older Macs, the shortcut is different: command+option+Power or control+shift+
 **标签 / 来源**: Tags: terminal, iterm | apple | 👍 147 | 💬 4 answers
 
 **问题描述**:
-Tags: terminal, iterm | Score: 147 | Views: 63617 | Answers: 4
+Tags: terminal, iterm | Score: 147 | Views: 63618 | Answers: 4
 
 **解决方法 / 社区答案**:
 Select "Reuse previous session's directory" from the preferences of your profile:
@@ -3677,7 +3677,7 @@ Also, sometimes the base command sudo lsof /Volumes/myDrive won't find anything.
 **标签 / 来源**: Tags: terminal, bash, alias | apple | 👍 145 | 💬 3 answers
 
 **问题描述**:
-Tags: terminal, bash, alias | Score: 145 | Views: 302446 | Answers: 3
+Tags: terminal, bash, alias | Score: 145 | Views: 302447 | Answers: 3
 
 **解决方法 / 社区答案**:
 All you need to do is type alias at the prompt and any active aliases will be listed.
@@ -4030,7 +4030,7 @@ Because of some permission issues. However, do this only if you have to.
 **标签 / 来源**: Tags: macos, command-line, homebrew, path | apple | 👍 134 | 💬 13 answers
 
 **问题描述**:
-Tags: macos, command-line, homebrew, path | Score: 134 | Views: 736571 | Answers: 13
+Tags: macos, command-line, homebrew, path | Score: 134 | Views: 736572 | Answers: 13
 
 **解决方法 / 社区答案**:
 I had the same problem—installed brew, used it, but now it doens't work, ie, brew command not recognized anymore.
@@ -4226,7 +4226,7 @@ I didn't look too closely at but it is possible setting the last warning date to
 **标签 / 来源**: Tags: ios, xcode, macos | apple | 👍 132 | 💬 11 answers
 
 **问题描述**:
-Tags: ios, xcode, macos | Score: 132 | Views: 174153 | Answers: 11
+Tags: ios, xcode, macos | Score: 132 | Views: 174154 | Answers: 11
 
 **解决方法 / 社区答案**:
 Yes, you can delete any simulator that you don't use.  I do this routinely when I stop supporting older iOS versions.
@@ -4283,7 +4283,7 @@ Pressing Esc will always cancel the dialog.
 **标签 / 来源**: Tags: macos, command-line, zip, compression | apple | 👍 132 | 💬 10 answers
 
 **问题描述**:
-Tags: macos, command-line, zip, compression | Score: 132 | Views: 253014 | Answers: 10
+Tags: macos, command-line, zip, compression | Score: 132 | Views: 253015 | Answers: 10
 
 **解决方法 / 社区答案**:
 You can install p7zip with Homebrew. So
@@ -4417,7 +4417,7 @@ Note, just to make it clearer: After having applied the signature, start the app
 **标签 / 来源**: Tags: macos, keyboard | apple | 👍 129 | 💬 17 answers
 
 **问题描述**:
-Tags: macos, keyboard | Score: 129 | Views: 710506 | Answers: 17
+Tags: macos, keyboard | Score: 129 | Views: 710507 | Answers: 17
 
 **解决方法 / 社区答案**:
 On an American English keyboard you can type the European Currency symbol (€) with Option + Shift + 2.
@@ -4503,7 +4503,7 @@ Specifically for X11 applications running under XQuartz.app (which isn't very ma
 **标签 / 来源**: Tags: macos, network | apple | 👍 126 | 💬 6 answers
 
 **问题描述**:
-Tags: macos, network | Score: 126 | Views: 234369 | Answers: 6
+Tags: macos, network | Score: 126 | Views: 234371 | Answers: 6
 
 **解决方法 / 社区答案**:
 Setting the Mac hostname or computer name from the terminal
@@ -4606,7 +4606,7 @@ If there is a space between words and you don't want to use the methods above, p
 **标签 / 来源**: Tags: macos, network, nas, afp | apple | 👍 124 | 💬 30 answers
 
 **问题描述**:
-Tags: macos, network, nas, afp | Score: 124 | Views: 255645 | Answers: 30
+Tags: macos, network, nas, afp | Score: 124 | Views: 255646 | Answers: 30
 
 **解决方法 / 社区答案**:
 Apparently this problem can occur for many different reasons.  In my case it was solved by re-launching the finder.  A description and solution for this was at http://www.cnet.com/news/fix-shared-computer-not-found-in-finder/ .
@@ -4679,6 +4679,1689 @@ The -q parameter is what we need to avoid the problem, hence the symlink to /usr
 
 > 📎 来源 / Source: https://apple.stackexchange.com/questions/41743/how-do-i-speed-up-new-terminal-tab-loading-time
 
+#### 151. How to convert a HEIF/HEIC image to JPEG in macOS?
+
+**故障现象**: How to convert a HEIF/HEIC image to JPEG in macOS?
+**标签 / 来源**: Tags: macos, icloud, photos.app, file-conversion, image-editing | apple | 👍 123 | 💬 8 answers
+
+**问题描述**:
+Tags: macos, icloud, photos.app, file-conversion, image-editing | Score: 123 | Views: 101958 | Answers: 8
+
+**解决方法 / 社区答案**:
+You can use the command line tool imagemagick to convert HEIC images to JPG.
+# install imagemagick
+brew install imagemagick
+
+# convert a single image
+magick convert foo.HEIC foo.jpg
+
+# bulk convert multiple images
+magick mogrify -monitor -format jpg *.HEIC
+
+Update: Now MacOS provides a built-in converter using Finder, if you want a GUI solution.
+
+NOTE: As of version 7, magick convert results in this warning:
+WARNING: The convert command is deprecated in IMv7, use &quot;magick&quot; instead
+
+so, for version 7 of imagemagick (and possibly thereafter), the second command can be simplified to just:
+# convert a single image
+magick foo.HEIC foo.jpg
+
+**参考链接**: https://apple.stackexchange.com/questions/297134/how-to-convert-a-heif-heic-image-to-jpeg-in-macos
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/297134/how-to-convert-a-heif-heic-image-to-jpeg-in-macos
+
+#### 152. How do I get detailed SMART disk information on OS X (Mavericks or later)
+
+**故障现象**: How do I get detailed SMART disk information on OS X (Mavericks or later)
+**标签 / 来源**: Tags: hard-drive, macos, diskutil | apple | 👍 123 | 💬 8 answers
+
+**问题描述**:
+Tags: hard-drive, macos, diskutil | Score: 123 | Views: 224005 | Answers: 8
+
+**解决方法 / 社区答案**:
+I recently had the same question and found a command line tool www.smartmontools.org which can be installed via brew:
+brew install smartmontools
+
+Also via MacPorts:
+sudo port install smartmontools
+
+you can then run it
+smartctl -a disk0s3
+
+for the full report where disk0s3 is the disks physical backing which can be found in Disk Utility.app by getting info on the drive. (or via diskutil list on command line.) Here is an example of the output:
+smartctl 6.2 2013-07-26 r3841 [x86_64-apple-darwin13.1.0] (local build)
+Copyright (C) 2002-13, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Samsung based SSDs
+Device Model:     Samsung SSD 840 Series
+Serial Number:    S14LNEAD609248A
+LU WWN Device Id: 5 002538 5503acd2e
+Firmware Version: DXT08B0Q
+User Capacity:    500,107,862,016 bytes [500 GB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    Solid State Device
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 4c
+SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Thu Jun 19 16:34:10 2014 MDT
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x00) Offline data collection activity
+                    was never started.
+                    Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0) The previous self-test routine completed
+                    without error or no self-test has ever 
+                    been run.
+Total time to complete Offline 
+data collection:        (53956) seconds.
+Offline data collection
+capabilities:            (0x53) SMART execute Offline immediate.
+                    Auto Offline data collection on/off support.
+                    Suspend Offline collection upon new
+                    command.
+                    No Offline surface scan supported.
+                    Self-test supported.
+                    No Conveyance Self-test supported.
+                    Selective Self-test supported.
+SMART capabilities:            (0x0003) Saves SMART data before entering
+                    power-saving mode.
+                    Supports SMART auto save timer.
+Error logging capability:        (0x01) Error logging supported.
+                    General Purpose Logging supported.
+Short self-test routine 
+recommended polling time:    (   2) minutes.
+Extended self-test routine
+recommended polling time:    (  70) minutes.
+SCT capabilities:          (0x003d) SCT Status supported.
+                    SCT Error Recovery Control supported.
+                    SCT Feature Control supported.
+                    SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 1
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   099   099   000    Old_age   Always       -       2379
+ 12 Power_Cycle_Count       0x0032   098   098   000    Old_age   Always       -       1579
+177 Wear_Leveling_Count     0x0013   096   096   000    Pre-fail  Always       -       38
+179 Used_Rsvd_Blk_Cnt_Tot   0x0013   100   100   010    Pre-fail  Always       -       0
+181 Program_Fail_Cnt_Total  0x0032   100   100   010    Old_age   Always       -       0
+182 Erase_Fail_Count_Total  0x0032   100   100   010    Old_age   Always       -       0
+183 Runtime_Bad_Block       0x0013   100   100   010    Pre-fail  Always       -       0
+187 Uncorrectable_Error_Cnt 0x0032   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0032   059   039   000    Old_age   Always       -       41
+195 ECC_Error_Rate          0x001a   200   200   000    Old_age   Always       -       0
+199 CRC_Error_Count         0x003e   100   100   000    Old_age   Always       -       0
+235 POR_Recovery_Count      0x0012   099   099   000    Old_age   Always       -       1571
+241 Total_LBAs_Written      0x0032   099   099   000    Old_age   Always       -       14090964124
+
+SMART Error Log Version: 1
+No Errors Logged
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+  255        0    65535  Read_scanning was never started
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+**参考链接**: https://apple.stackexchange.com/questions/135565/how-do-i-get-detailed-smart-disk-information-on-os-x-mavericks-or-later
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/135565/how-do-i-get-detailed-smart-disk-information-on-os-x-mavericks-or-later
+
+#### 153. What functionality do &#39;marks&#39; offer in the El Capitan Terminal?
+
+**故障现象**: What functionality do &#39;marks&#39; offer in the El Capitan Terminal?
+**标签 / 来源**: Tags: terminal, macos | apple | 👍 123 | 💬 2 answers
+
+**问题描述**:
+Tags: terminal, macos | Score: 123 | Views: 21018 | Answers: 2
+
+**解决方法 / 社区答案**:
+Marks in the Terminal
+
+The new Terminal marks (available starting with OS X 10.11 - El Capitan) are similar to Bookmarks, which are also available in the Terminal, allowing you to mark window positions and then giving you the option of going back at a later point.
+
+Marks (or Bookmarks) don't refer to your command history, but to the scroll buffer used in the Terminal window/tab.
+
+Marking a Line
+
+By default, every time you press Enter in the Terminal window, the line is marked, which is displayed using an opening bracket at the beginning of the line and a closing one at the very end. This default behavior can be turned off using the Edit > Marks > Automatically Mark Prompt Lines menu entry. When this is disabled, you can still manually execute and mark a command using Cmd+Enter (or with the Edit > Marks > Mark as Prompt and Send Return menu entry).
+
+If you have automatic marking enabled and want to run a command without marking it as a prompt, you can do this using Cmd+Shift+Enter (or with the Edit > Marks > Send Return Without Marking menu entry).
+
+Disabling Marks
+
+Automatic marking of lines can be disabled using the Edit > Marks > Automatically Mark Prompt Lines menu entry.
+
+From the command line, the same can be achieved using
+
+defaults write com.apple.Terminal AutoMarkPromptLines -bool NO
+
+
+Hiding Marks
+
+If you want to use the mark functionality, but don't want to see the brackets at the beginning and end of the line, you hide them using the View > Hide Marks menu entry. This will keep the below functionality intact, but will no longer show the brackets.
+
+Jumping between Marks
+
+Once a line has been marked, you can quickly jump to the previous mark using Cmd+Up or to the next one using Cmd+Down. Similar options are provided for Bookmarks, and for selecting to the next/previous mark:
+
+
+
+Manually Marking a Line
+
+In addition to the automatic marking, you can also manually add marks by selecting a line in the terminal output using the mouse, and then selecting the Edit > Marks > Mark as Prompt menu entry (or Cmd+U).
+
+Use Cases
+
+The Marks functionality is useful if some of your executed commands produce lots of output, and you quickly want to scroll to the position where you entered the command. Pressing Cmd+Up will take you there. Pressing it repeatedly will take you further up, while pressing Cmd+Down will take you back down again. The target location is conveniently highlighted as you jump/scroll around.
+
+
+
+Selecting Content
+
+The same marks functionality can be used for selecting Terminal output. Pressing Cmd+Shift+Up will select the content up to the previous mark, while Cmd+Shift+Down will select down to the next mark. This is useful when wanting to copy log output or other content from the Terminal.
+
+This functionality is also available from the Edit > Navigate menu while pressing the Shift key:
+
+
+
+Summary
+
+Having used this for a couple of days now, I find it incredibly useful. Scrolling up through hundreds of lines of output to find the beginning of the command's output has suddenly become a lot easier.
+
+I wonder why this new feature isn't mentioned more prominently - I haven't seen it in any of the El Capitan walkthroughs. The Terminal help currently does not provide any details on this feature either.
+
+**参考链接**: https://apple.stackexchange.com/questions/209635/what-functionality-do-marks-offer-in-the-el-capitan-terminal
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/209635/what-functionality-do-marks-offer-in-the-el-capitan-terminal
+
+#### 154. Can I see my CPU and memory usage meters in the menu bar?
+
+**故障现象**: Can I see my CPU and memory usage meters in the menu bar?
+**标签 / 来源**: Tags: macos, menu-bar, activity-monitor | apple | 👍 121 | 💬 28 answers
+
+**问题描述**:
+Tags: macos, menu-bar, activity-monitor | Score: 121 | Views: 217353 | Answers: 28
+
+**解决方法 / 社区答案**:
+One that hasn't been mentioned yet is Stats, which describes itself as a
+
+Simple macOS system monitor in your menu bar
+
+It's an excellent open source project (https://github.com/exelban/stats) that can be installed via:
+brew install stats
+
+
+On big sur, after downloading, open launchpad, search for 'stats', and open it. It will start showing up in the menu bar.
+
+**参考链接**: https://apple.stackexchange.com/questions/1270/can-i-see-my-cpu-and-memory-usage-meters-in-the-menu-bar
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/1270/can-i-see-my-cpu-and-memory-usage-meters-in-the-menu-bar
+
+#### 155. runaway distnoted process
+
+**故障现象**: runaway distnoted process
+**标签 / 来源**: Tags: launchd, macos | apple | 👍 121 | 💬 14 answers
+
+**问题描述**:
+Tags: launchd, macos | Score: 121 | Views: 116201 | Answers: 14
+
+**解决方法 / 社区答案**:
+I've seen this too.  Emacs 24.3.1, Mavericks 10.9.
+
+I've found that the distnoted process calms down within seconds after I quit out of Emacs.
+
+I've filed an Emacs bug here: http://permalink.gmane.org/gmane.emacs.bugs/80836
+
+**参考链接**: https://apple.stackexchange.com/questions/111197/runaway-distnoted-process
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/111197/runaway-distnoted-process
+
+#### 156. Is there a keyboard shortcut to bring up Finder?
+
+**故障现象**: Is there a keyboard shortcut to bring up Finder?
+**标签 / 来源**: Tags: macos, keyboard | apple | 👍 120 | 💬 20 answers
+
+**问题描述**:
+Tags: macos, keyboard | Score: 120 | Views: 171484 | Answers: 20
+
+**解决方法 / 社区答案**:
+It's actually easy. On Yosemite, just press option ⌥+command ⌘+spacebar. That will open a new Smart Finder window. You then can navigate from there. It works on a system level no matter what application you're running. 
+
+No need for scripts or complicated setups. 
+
+Turn this option on in System Preferences > keyboard > shortcuts > spotlight > "show finder search window" in recent versions. This can be mapped to other keys too, but it can cause conflicts in other apps that might be using your desired shortcut.
+
+**参考链接**: https://apple.stackexchange.com/questions/114933/is-there-a-keyboard-shortcut-to-bring-up-finder
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/114933/is-there-a-keyboard-shortcut-to-bring-up-finder
+
+#### 157. Make the Menu Bar never show while in Full Screen
+
+**故障现象**: Make the Menu Bar never show while in Full Screen
+**标签 / 来源**: Tags: macos, menu-bar, fullscreen | apple | 👍 120 | 💬 9 answers
+
+**问题描述**:
+Tags: macos, menu-bar, fullscreen | Score: 120 | Views: 62314 | Answers: 9
+
+**解决方法 / 社区答案**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接**: https://apple.stackexchange.com/questions/70985/make-the-menu-bar-never-show-while-in-full-screen
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/70985/make-the-menu-bar-never-show-while-in-full-screen
+
+#### 158. How do I automate a key press in AppleScript?
+
+**故障现象**: How do I automate a key press in AppleScript?
+**标签 / 来源**: Tags: macos, mac, applescript | apple | 👍 119 | 💬 1 answers
+
+**问题描述**:
+Tags: macos, mac, applescript | Score: 119 | Views: 256210 | Answers: 1
+
+**解决方法 / 社区答案**:
+Run a script like this in AppleScript Editor:
+
+activate application "Firefox"
+repeat 100 times
+    tell application "System Events" to keystroke "a" using command down
+    delay (random number from 0.5 to 5)
+end repeat
+
+
+More examples:
+
+tell application "System Events"
+    key code 123 using {shift down, command down} -- shift-command-left
+end
+
+
+
+
+set old to (path to frontmost application as text)
+tell application "Notes"
+    reopen
+    activate
+end tell
+tell application "System Events" to keystroke "f" using {control down, command down}
+delay 1
+activate application old
+
+
+
+
+delay 0.5 -- time to release modifier keys if for example the script is run with command-R
+tell application "System Events" to tell process "Notification Center"
+    try
+        key down option
+        delay 0.1
+        click menu bar item 1 of menu bar 1
+    end try
+    key up option
+end tell
+
+
+See Events.h for a list of key codes.
+
+
+  $ grep '^ *kVK' /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Events.h|tr -d ,|while read x y z;do printf '%d %s %s\n' $z $z ${x#kVK_};done|sort -n
+  0 0x00 ANSI_A
+  1 0x01 ANSI_S
+  2 0x02 ANSI_D
+  3 0x03 ANSI_F
+  4 0x04 ANSI_H
+  5 0x05 ANSI_G
+  6 0x06 ANSI_Z
+  7 0x07 ANSI_X
+  8 0x08 ANSI_C
+  9 0x09 ANSI_V
+  10 0x0A ISO_Section
+  11 0x0B ANSI_B
+  12 0x0C ANSI_Q
+  13 0x0D ANSI_W
+  14 0x0E ANSI_E
+  15 0x0F ANSI_R
+  16 0x10 ANSI_Y
+  17 0x11 ANSI_T
+  18 0x12 ANSI_1
+  19 0x13 ANSI_2
+  20 0x14 ANSI_3
+  21 0x15 ANSI_4
+  22 0x16 ANSI_6
+  23 0x17 ANSI_5
+  24 0x18 ANSI_Equal
+  25 0x19 ANSI_9
+  26 0x1A ANSI_7
+  27 0x1B ANSI_Minus
+  28 0x1C ANSI_8
+  29 0x1D ANSI_0
+  30 0x1E ANSI_RightBracket
+  31 0x1F ANSI_O
+  32 0x20 ANSI_U
+  33 0x21 ANSI_LeftBracket
+  34 0x22 ANSI_I
+  35 0x23 ANSI_P
+  36 0x24 Return
+  37 0x25 ANSI_L
+  38 0x26 ANSI_J
+  39 0x27 ANSI_Quote
+  40 0x28 ANSI_K
+  41 0x29 ANSI_Semicolon
+  42 0x2A ANSI_Backslash
+  43 0x2B ANSI_Comma
+  44 0x2C ANSI_Slash
+  45 0x2D ANSI_N
+  46 0x2E ANSI_M
+  47 0x2F ANSI_Period
+  48 0x30 Tab
+  49 0x31 Space
+  50 0x32 ANSI_Grave
+  51 0x33 Delete
+  53 0x35 Escape
+  55 0x37 Command
+  56 0x38 Shift
+  57 0x39 CapsLock
+  58 0x3A Option
+  59 0x3B Control
+  60 0x3C RightShift
+  61 0x3D RightOption
+  62 0x3E RightControl
+  63 0x3F Function
+  64 0x40 F17
+  65 0x41 ANSI_KeypadDecimal
+  67 0x43 ANSI_KeypadMultiply
+  69 0x45 ANSI_KeypadPlus
+  71 0x47 ANSI_KeypadClear
+  72 0x48 VolumeUp
+  73 0x49 VolumeDown
+  74 0x4A Mute
+  75 0x4B ANSI_KeypadDivide
+  76 0x4C ANSI_KeypadEnter
+  78 0x4E ANSI_KeypadMinus
+  79 0x4F F18
+  80 0x50 F19
+  81 0x51 ANSI_KeypadEquals
+  82 0x52 ANSI_Keypad0
+  83 0x53 ANSI_Keypad1
+  84 0x54 ANSI_Keypad2
+  85 0x55 ANSI_Keypad3
+  86 0x56 ANSI_Keypad4
+  87 0x57 ANSI_Keypad5
+  88 0x58 ANSI_Keypad6
+  89 0x59 ANSI_Keypad7
+  90 0x5A F20
+  91 0x5B ANSI_Keypad8
+  92 0x5C ANSI_Keypad9
+  93 0x5D JIS_Yen
+  94 0x5E JIS_Underscore
+  95 0x5F JIS_KeypadComma
+  96 0x60 F5
+  97 0x61 F6
+  98 0x62 F7
+  99 0x63 F3
+  100 0x64 F8
+  101 0x65 F9
+  102 0x66 JIS_Eisu
+  103 0x67 F11
+  104 0x68 JIS_Kana
+  105 0x69 F13
+  106 0x6A F16
+  107 0x6B F14
+  109 0x6D F10
+  111 0x6F F12
+  113 0x71 F15
+  114 0x72 Help
+  115 0x73 Home
+  116 0x74 PageUp
+  117 0x75 ForwardDelete
+  118 0x76 F4
+  119 0x77 End
+  120 0x78 F2
+  121 0x79 PageDown
+  122 0x7A F1
+  123 0x7B LeftArrow
+  124 0x7C RightArrow
+  125 0x7D DownArrow
+  126 0x7E UpArrow
+
+
+You can also use AppleScript to click menu items:
+
+tell application "System Events" to tell (process 1 where frontmost is true)
+    click menu item "Minimize" of menu 1 of menu bar item "Window" of menu bar 1
+end tell
+
+
+
+
+tell application "System Events" to tell process "Finder"
+    set frontmost to true
+    tell menu bar item 3 of menu bar 1
+        click
+        click menu item "Open With" of menu 1
+    end tell
+end tell
+
+**参考链接**: https://apple.stackexchange.com/questions/36943/how-do-i-automate-a-key-press-in-applescript
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/36943/how-do-i-automate-a-key-press-in-applescript
+
+#### 159. What tiny thing in iOS 5 makes you smile, or has caught you off guard?
+
+**故障现象**: What tiny thing in iOS 5 makes you smile, or has caught you off guard?
+**标签 / 来源**: Tags: ios, macos | apple | 👍 117 | 💬 57 answers
+
+**问题描述**:
+Tags: ios, macos | Score: 117 | Views: 22520 | Answers: 57
+
+**解决方法 / 社区答案**:
+Usage shows how much space each app is using
+
+Settings -> General -> Usage
+
+iOS 5 now collects the space used by apps and the data in the app - sorted by the largest size. If you need to free up some space quickly, this is a great way to easily identify and remove the largest burdens on your storage space.
+
+ 
+ 
+
+
+Of specific tiny note, the edit button in the top right allows you to delete selective content from apps like Music.
+
+**参考链接**: https://apple.stackexchange.com/questions/27761/what-tiny-thing-in-ios-5-makes-you-smile-or-has-caught-you-off-guard
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/27761/what-tiny-thing-in-ios-5-makes-you-smile-or-has-caught-you-off-guard
+
+#### 160. macOS: Disable popup showing accented characters when holding down a key
+
+**故障现象**: macOS: Disable popup showing accented characters when holding down a key
+**标签 / 来源**: Tags: high-sierra, macos | apple | 👍 117 | 💬 3 answers
+
+**问题描述**:
+Tags: high-sierra, macos | Score: 117 | Views: 94454 | Answers: 3
+
+**解决方法 / 社区答案**:
+In macOS, when a key is held down while entering text, a popup is shown which lets one choose between various accented forms of the character. To disable this execute the following command line in the Terminal.app:
+defaults write -g ApplePressAndHoldEnabled -bool false
+
+Now, you'll need to log out and log back in. This should disable the display of the popup and character typed should start repeating when the key is held down.
+If you ever wish to return to this behaviour, execute the following command line in the Terminal.app:
+defaults write -g ApplePressAndHoldEnabled -bool true
+
+You'll need to log out and log back in again for the setting to take effect.
+
+**参考链接**: https://apple.stackexchange.com/questions/332769/macos-disable-popup-showing-accented-characters-when-holding-down-a-key
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/332769/macos-disable-popup-showing-accented-characters-when-holding-down-a-key
+
+#### 161. El Capitan, expand desktop thumbnails by default in Mission Control
+
+**故障现象**: El Capitan, expand desktop thumbnails by default in Mission Control
+**标签 / 来源**: Tags: mission-control, macos | apple | 👍 117 | 💬 17 answers
+
+**问题描述**:
+Tags: mission-control, macos | Score: 117 | Views: 23268 | Answers: 17
+
+**解决方法 / 社区答案**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接**: https://apple.stackexchange.com/questions/205446/el-capitan-expand-desktop-thumbnails-by-default-in-mission-control
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/205446/el-capitan-expand-desktop-thumbnails-by-default-in-mission-control
+
+#### 162. How to decrease .pdf size without losing quality
+
+**故障现象**: How to decrease .pdf size without losing quality
+**标签 / 来源**: Tags: macos, pdf, preview | apple | 👍 115 | 💬 10 answers
+
+**问题描述**:
+Tags: macos, pdf, preview | Score: 115 | Views: 112149 | Answers: 10
+
+**解决方法 / 社区答案**:
+The problem is - the default filter used during conversion has very low conversion settings.
+Thankfully, a custom filter can be added.
+Adding custom filter step by step
+
+Create a new directory (if you don't have it) - /Library/Filters
+
+Note that you could use ~/Library/Filters, instead.
+
+
+Add there a new filter file with unique filter - i.e. Reduce Size with good quality.qfilter
+The file should contain XML with new filter - you can base on the /System/Library/Filters/Reduce File Size.qfilter file or use my below example. Change compression setting, image size and add unique display name for your filter.
+
+Filter file structure/example
+
+I marked key settings by comments.
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple Computer//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;dict&gt;
+    &lt;key&gt;Domains&lt;/key&gt;
+    &lt;dict&gt;
+        &lt;key&gt;Applications&lt;/key&gt;
+        &lt;true/&gt;
+        &lt;key&gt;Printing&lt;/key&gt;
+        &lt;true/&gt;
+    &lt;/dict&gt;
+    &lt;key&gt;FilterData&lt;/key&gt;
+    &lt;dict&gt;
+        &lt;key&gt;ColorSettings&lt;/key&gt;
+        &lt;dict&gt;
+            &lt;key&gt;DocumentColorSettings&lt;/key&gt;
+            &lt;dict&gt;
+                &lt;key&gt;CustomLHSCorrection&lt;/key&gt;
+                &lt;array&gt;
+                    &lt;integer&gt;8&lt;/integer&gt;
+                    &lt;integer&gt;8&lt;/integer&gt;
+                    &lt;integer&gt;8&lt;/integer&gt;
+                &lt;/array&gt;
+            &lt;/dict&gt;
+            &lt;key&gt;ImageSettings&lt;/key&gt;
+            &lt;dict&gt;
+                &lt;key&gt;Compression Quality&lt;/key&gt;
+    &lt;!-- ====== Set your custom quality &lt;0,1&gt; ======= --&gt;
+                &lt;real&gt;0.75&lt;/real&gt;
+                &lt;key&gt;ImageCompression&lt;/key&gt;
+                &lt;string&gt;ImageJPEGCompress&lt;/string&gt;
+                &lt;key&gt;ImageScaleSettings&lt;/key&gt;
+                &lt;dict&gt;
+                    &lt;key&gt;ImageScaleFactor&lt;/key&gt;
+    &lt;!-- ====== Set your scale factor &lt;0,1&gt; ======= --&gt;                 
+                    &lt;real&gt;0.75&lt;/real&gt;
+                    &lt;key&gt;ImageScaleInterpolate&lt;/key&gt;
+                    &lt;true/&gt;
+    &lt;!-- ====== Set what sizes your images can reach ======= --&gt;                    
+                    &lt;key&gt;ImageSizeMax&lt;/key&gt;
+                    &lt;integer&gt;1684&lt;/integer&gt;
+                    &lt;key&gt;ImageSizeMin&lt;/key&gt;
+                    &lt;integer&gt;1200&lt;/integer&gt;
+                &lt;/dict&gt;
+            &lt;/dict&gt;
+        &lt;/dict&gt;
+    &lt;/dict&gt;
+    &lt;key&gt;FilterType&lt;/key&gt;
+    &lt;integer&gt;1&lt;/integer&gt;
+    &lt;key&gt;Name&lt;/key&gt;
+&lt;!-- ====== Set unique display name for your filter ======= --&gt;
+    &lt;string&gt;Reduce Size Good Quality&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
+
+Result
+Select your new filter when exporting file.
+
+
+Helpful articles:
+
+https://www.macworld.com/article/1168311/software/shrink-preview-files-without-ruining-image-quality.html
+
+**参考链接**: https://apple.stackexchange.com/questions/297417/how-to-decrease-pdf-size-without-losing-quality
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/297417/how-to-decrease-pdf-size-without-losing-quality
+
+#### 163. How to use pip after the OS X El Capitan upgrade?
+
+**故障现象**: How to use pip after the OS X El Capitan upgrade?
+**标签 / 来源**: Tags: macos, permission, python, authorization | apple | 👍 115 | 💬 12 answers
+
+**问题描述**:
+Tags: macos, permission, python, authorization | Score: 115 | Views: 171062 | Answers: 12
+
+**解决方法 / 社区答案**:
+A quick solution is to use homebrew to install python into /usr/local/bin so that your pip can run against a user-modifiable python framework.
+
+brew install python
+pip --version
+
+
+Disabling System Integrity Protection is also an option, but I don't recommend that for anything but professionally managed and fire walled servers where you have the manpower to manage intrusion detection or if you are a developer/sysadmin and need to test things with and without SIP.
+
+ls -lO /System/Library/Frameworks/Python.framework/Versions/2.7/
+csrutil status
+
+
+You will see that the restricted flag is set which cannot be removed even as root while SIP is engaged.
+
+Using homebrew makes it possible to manage pip and python separately than the system provided version. As a bonus, the homebrew framework is designed to ease maintainance and patch/chores via automation.
+
+**参考链接**: https://apple.stackexchange.com/questions/209572/how-to-use-pip-after-the-os-x-el-capitan-upgrade
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/209572/how-to-use-pip-after-the-os-x-el-capitan-upgrade
+
+#### 164. How to show hidden files and folders in Finder?
+
+**故障现象**: How to show hidden files and folders in Finder?
+**标签 / 来源**: Tags: finder, macos | apple | 👍 115 | 💬 4 answers
+
+**问题描述**:
+Tags: finder, macos | Score: 115 | Views: 85173 | Answers: 4
+
+**解决方法 / 社区答案**:
+I don't think you can set this for individual folders. To set it globally, so that Finder always shows hidden files, run Terminal and enter the following two commands:
+defaults write com.apple.finder AppleShowAllFiles true
+killall Finder
+
+To switch back, do the same but substitute false for true.
+This works all the way through macOS Catalina (and betas for Big Sur).
+
+**参考链接**: https://apple.stackexchange.com/questions/5870/how-to-show-hidden-files-and-folders-in-finder
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/5870/how-to-show-hidden-files-and-folders-in-finder
+
+#### 165. Is there a Google Calendar Mac Desktop App?
+
+**故障现象**: Is there a Google Calendar Mac Desktop App?
+**标签 / 来源**: Tags: macos, google-calendar | apple | 👍 115 | 💬 6 answers
+
+**问题描述**:
+Tags: macos, google-calendar | Score: 115 | Views: 638088 | Answers: 6
+
+**解决方法 / 社区答案**:
+Here's another way, adding Google Calendar as a Chrome App with standalone window. The calendar is then available in Launchpad and the Dock.
+
+Navigate Chrome to your calendar URL, e.g https://calendar.google.com
+Create Chrome App shortcut from the URL - Chrome drop down menu (3 dots icon on top right) &gt; Save and Share &gt; Create Shortcut
+
+
+
+Note: check the &quot;Open as window&quot; box
+
+
+Open the &quot;Google Calendar&quot; from Chrome Apps or Launchpad!
+
+
+
+Select &quot;Keep in Dock&quot; to keep the calendar icon in the MacOS Dock (optional)
+
+
+That's it! Your Google Calendar App is now available as a standalone window app from the MacOS Dock and Launchpad.
+
+**参考链接**: https://apple.stackexchange.com/questions/236444/is-there-a-google-calendar-mac-desktop-app
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/236444/is-there-a-google-calendar-mac-desktop-app
+
+#### 166. VirtualBox 5.1.28 fails to install on MacOS 10.13 due to KEXT security
+
+**故障现象**: VirtualBox 5.1.28 fails to install on MacOS 10.13 due to KEXT security
+**标签 / 来源**: Tags: macos, security, virtualbox, high-sierra, kernel-extensions | apple | 👍 114 | 💬 6 answers
+
+**问题描述**:
+Tags: macos, security, virtualbox, high-sierra, kernel-extensions | Score: 114 | Views: 126759 | Answers: 6
+
+**解决方法 / 社区答案**:
+Managed to solve it.
+
+
+Eject the VirtualBox image from: Finder > Devices
+
+
+Now allow the exception in: System Preferences > Security &amp; Privacy
+
+
+Finally but not least click Allow button so that way the developer with the name "Oracle America, Inc" will be accepted and the installer using that certificate will run just fine (basically this installer is signed using "Oracle America, Inc" certificate so we are required to enable it use on our machine first)
+Then try to install from the .dmg again so that it remounts the device.
+
+
+Now its working fine for me.
+
+**参考链接**: https://apple.stackexchange.com/questions/301303/virtualbox-5-1-28-fails-to-install-on-macos-10-13-due-to-kext-security
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/301303/virtualbox-5-1-28-fails-to-install-on-macos-10-13-due-to-kext-security
+
+#### 167. Yosemite bluetooth audio is choppy/skips
+
+**故障现象**: Yosemite bluetooth audio is choppy/skips
+**标签 / 来源**: Tags: macbook-pro, macos, audio, bluetooth | apple | 👍 114 | 💬 3 answers
+
+**问题描述**:
+Tags: macbook-pro, macos, audio, bluetooth | Score: 114 | Views: 126425 | Answers: 3
+
+**解决方法 / 社区答案**:
+It's an issue with the amount of power/bandwidth supplied to the BluetoothAudioAgent, the daemon in charge of streaming. Apparently most people have had success by entering the following command in terminal.app: 
+
+defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
+
+Source: http://lifehacker.com/fix-your-bluetooth-audio-in-yosemite-with-this-terminal-1670380974
+
+The source article lists Yosemite as the specific OS this applies to, but I know that this fix also works back to Mavericks and (possibly) Snow Leopard (untested).
+
+I am having this exact issue at the moment and entered that command with non-noticeable results. I'm going to reboot the machine and see if that takes the new settings into account. But it seems like this command is the way that the wide majority of people have resolved this issue. 
+
+EDIT: Just rebooted, the audio quality is significantly better. No noticeable choppiness whatsoever (knock on wood). It appears that the command I posted above does seem to resolve the issue. 
+
+EDIT 2 (2015-8-24): The above command does help in many cases and produces noticeable quality improvements. Unfortunately, however, Yosemite is very moody with regard to bluetooth audio. The problem compounds itself when in proximity of other bluetooth devices. To expand on my previous answer above, I highly recommend entering the following additional commands to increase other bluetooth audio parameters:
+
+defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Max (editable)" 80 
+defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" 48 
+defaults write com.apple.BluetoothAudioAgent "Apple Initial Bitpool (editable)" 40 
+defaults write com.apple.BluetoothAudioAgent "Apple Initial Bitpool Min (editable)" 40 
+defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool" 58 
+defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool Max" 58 
+defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool Min" 48
+
+
+EDIT 3 (2015-9-08): Alright. I'm sorry I keep updating this answer, but I keep finding more information about this issue (since improving bluetooth audio on Yosemite is a long-term effort, apparently). I've found several sources that cut straight to the mustard and set everything to 80 which appears to be the maximum allowable value for Bitpool settings. If the above settings don't work well enough for you, try the "All In&trade;" approach.
+
+defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Max (editable)" 80 
+defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" 80 
+defaults write com.apple.BluetoothAudioAgent "Apple Initial Bitpool (editable)" 80 
+defaults write com.apple.BluetoothAudioAgent "Apple Initial Bitpool Min (editable)" 80 
+defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool" 80 
+defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool Max" 80 
+defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool Min" 80
+
+
+To see your current defaults:
+
+defaults read com.apple.BluetoothAudioAgent
+
+
+Edit 4 (2016-07-14): One more (hopefully last) edit. Make sure that you restart the bluetoothaudiod (or coreaudiod) service after making changes to these settings. 
+
+sudo killall bluetoothaudiod
+
+
+Or, if you are on El Capitan:
+
+sudo killall coreaudiod
+
+
+Credit for this goes to the multiple wise nerds below who suggested it. (Thank you!)
+
+**参考链接**: https://apple.stackexchange.com/questions/167245/yosemite-bluetooth-audio-is-choppy-skips
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/167245/yosemite-bluetooth-audio-is-choppy-skips
+
+#### 168. How to make right click for the selected content using only keyboard on a Mac?
+
+**故障现象**: How to make right click for the selected content using only keyboard on a Mac?
+**标签 / 来源**: Tags: macos, keyboard, shortcut, contextual-menu | apple | 👍 114 | 💬 11 answers
+
+**问题描述**:
+Tags: macos, keyboard, shortcut, contextual-menu | Score: 114 | Views: 105261 | Answers: 11
+
+**解决方法 / 社区答案**:
+I don't know any way to show a context menu for items selected with the keyboard like what the menu key does in Windows.
+
+To assign a keyboard shortcut for performing a secondary click at the current coordinates of the pointer, you can either:
+
+
+Use a private.xml like this with Karabiner:
+
+&lt;?xml version="1.0"?&gt;
+&lt;root&gt;
+  &lt;item&gt;
+    &lt;name&gt;Right Mousebutton&lt;/name&gt;
+    &lt;identifier&gt;rightMouseButton&lt;/identifier&gt;
+    &lt;autogen&gt;__KeyToKey__ KeyCode::OPTION_R, PointingButton::RIGHT&lt;/autogen&gt;
+  &lt;/item&gt;
+&lt;/root&gt;
+
+Use BetterTouchTool:
+
+
+Use Keyboard Maestro:
+
+
+Download MouseTools and assign a shortcut to MouseTools -rightClick.
+
+**参考链接**: https://apple.stackexchange.com/questions/119699/how-to-make-right-click-for-the-selected-content-using-only-keyboard-on-a-mac
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/119699/how-to-make-right-click-for-the-selected-content-using-only-keyboard-on-a-mac
+
+#### 169. reattach terminal tab to another window
+
+**故障现象**: reattach terminal tab to another window
+**标签 / 来源**: Tags: terminal | apple | 👍 114 | 💬 6 answers
+
+**问题描述**:
+Tags: terminal | Score: 114 | Views: 52605 | Answers: 6
+
+**解决方法 / 社区答案**:
+You need to, in the window you want to move, go to View-> Show Tab Bar (if the tab bar isn't showing already).
+
+Then, drag the tab of the window you want to move onto the window you want to move it to.
+
+Update for iTerm 2: In iTerm 2 the setting is no longer exposed in the View menu.  Go to iTerm > Preferences > Appearance > Tabs and check "Show tab bar even when there is only one tab". Note that in early releases of iTerm 2 the setting was "Hide tab bar when there is only one tab".
+
+**参考链接**: https://apple.stackexchange.com/questions/14704/reattach-terminal-tab-to-another-window
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/14704/reattach-terminal-tab-to-another-window
+
+#### 170. How to type a NORMAL tilde sign (~) in Mac?
+
+**故障现象**: How to type a NORMAL tilde sign (~) in Mac?
+**标签 / 来源**: Tags: macos, keyboard | apple | 👍 113 | 💬 12 answers
+
+**问题描述**:
+Tags: macos, keyboard | Score: 113 | Views: 574154 | Answers: 12
+
+**解决方法 / 社区答案**:
+You type the accent tilde (shift `) then space: ~
+
+**参考链接**: https://apple.stackexchange.com/questions/135135/how-to-type-a-normal-tilde-sign-in-mac
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/135135/how-to-type-a-normal-tilde-sign-in-mac
+
+#### 171. How to add permanent environment variable in zsh
+
+**故障现象**: How to add permanent environment variable in zsh
+**标签 / 来源**: Tags: macos, python, zsh, environment-variables | apple | 👍 113 | 💬 7 answers
+
+**问题描述**:
+Tags: macos, python, zsh, environment-variables | Score: 113 | Views: 331058 | Answers: 7
+
+**解决方法 / 社区答案**:
+Bash
+
+Since Bash is typically the default shell you can open up this file in your home directory:
+
+$ vim ~/.bash_profile
+
+
+And add your variable to this file:
+
+export ENV_VAR=12345
+
+
+You can do this without even having to edit this file if you like, using the following one-liner:
+
+$ echo 'export ENV_VAR=12345' &gt;&gt; ~/.bash_profile
+
+
+And then confirm like so:
+
+$ cat ~/.bash_profile
+for i in ~/.bash_profile.d/[0-9]*; do
+  . "$i"
+done
+export ENV_VAR=12345
+
+
+After doing the above, if you open a new terminal you should see that environment variable has been set:
+
+$ echo $ENV_VAR
+12345
+
+
+Zsh
+
+If you find that you're using an alternative shell such as zsh, that uses a different set of configuration files maintained within your home directory, ~. Luckily the syntax of the changes is basically the same, just different files. So you can add the above example to this file instead:
+
+$ echo 'export ENV_VAR=12345' &gt;&gt; ~/.zshenv
+
+
+And then when you launch a zsh:
+
+$ echo $ENV_VAR
+12345
+
+
+References
+
+
+Zsh Startup Files
+
+**参考链接**: https://apple.stackexchange.com/questions/356441/how-to-add-permanent-environment-variable-in-zsh
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/356441/how-to-add-permanent-environment-variable-in-zsh
+
+#### 172. macOS: Navigating between desktops using keyboard shortcuts
+
+**故障现象**: macOS: Navigating between desktops using keyboard shortcuts
+**标签 / 来源**: Tags: macos, shortcut, desktop, mission-control, navigation | apple | 👍 113 | 💬 5 answers
+
+**问题描述**:
+Tags: macos, shortcut, desktop, mission-control, navigation | Score: 113 | Views: 320011 | Answers: 5
+
+**解决方法 / 社区答案**:
+On macOS Monterey 12 or earlier:
+
+Go to System Preferences app → Keyboard → Shortcuts and you can assign keyboard shortcuts to move across Spaces (desktops).
+
+
+On macOS Ventura 13 or later:
+
+Go to System Settings app → Keyboard Shortcuts... and you can assign keyboard shortcuts to move across Spaces (desktops).
+
+
+You can also use the F3 (Mission Control) key on your Mac's keyboard to get a birds eye view of all the Spaces (desktops in Mac parlance) and quickly and directly switch to the desired one. However, this will also involve using the mouse/trackpad.
+If you are looking for a 3rd-party tool which lets you customize keyboard shortcuts with much fine grain control, a popular app among users of macOS is Karabiner.
+
+**参考链接**: https://apple.stackexchange.com/questions/362614/macos-navigating-between-desktops-using-keyboard-shortcuts
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/362614/macos-navigating-between-desktops-using-keyboard-shortcuts
+
+#### 173. How do you force a 5 GHz wifi connection?
+
+**故障现象**: How do you force a 5 GHz wifi connection?
+**标签 / 来源**: Tags: macos, wifi, airport | apple | 👍 113 | 💬 14 answers
+
+**问题描述**:
+Tags: macos, wifi, airport | Score: 113 | Views: 305933 | Answers: 14
+
+**解决方法 / 社区答案**:
+In short: you can not force a frequency band in OS X 10.9 Mavericks. (On 10.5 you could...)
+You want to connect to the device using Basic Service Set Identification (BSSID) instead of the regular Service Set Identification (SSID). Connecting to a BSSID will connect you to a specific device regardless of the connection strength. Connecting to SSID will only connect you to a specific network name and if similar network names are available, it would connect to the best signal/noise ratio. It must be noted that your OS X chooses the wlan, not your router, and OS X switches to the strongest signal available (2.4GHz or 5GHz).
+To find a specific SSID and BSSID combination, you can run:
+/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport scan
+
+Before OSX 10.6 you could connect to a specific BSSID using:
+/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport --associate=XXX --bssid=YYY
+
+Where XXX is the SSID/network name and YYY the MAC address of the base station you want to talk to.
+On OS X 10.6 and beyond it is no longer possible to connect to BSSID directly. There is no known API for this and no third party Software exists that can do this. So you need to change your 5GHz SSID to a unique name or you need to go back to OS X 10.5, or you can change the 2.4GHz channel from within the router. I think these options are non-valid in your case.
+UPDATE As maxim points out, you can force a frequency band and use that to fix to 5GHz.
+On linux you can use iwconfig, but this tool is not available for OS X.
+
+**参考链接**: https://apple.stackexchange.com/questions/131852/how-do-you-force-a-5-ghz-wifi-connection
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/131852/how-do-you-force-a-5-ghz-wifi-connection
+
+#### 174. Right-click, create a new text file. How?
+
+**故障现象**: Right-click, create a new text file. How?
+**标签 / 来源**: Tags: macos, finder, contextual-menu | apple | 👍 113 | 💬 12 answers
+
+**问题描述**:
+Tags: macos, finder, contextual-menu | Score: 113 | Views: 145494 | Answers: 12
+
+**解决方法 / 社区答案**:
+I am using XtraFinder plugin for Mac OS's built in Finder. It has most of the features including create new file in finder options.
+
+You'll love it like I do
+
+;)
+
+**参考链接**: https://apple.stackexchange.com/questions/94755/right-click-create-a-new-text-file-how
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/94755/right-click-create-a-new-text-file-how
+
+#### 175. Creating A Bootable USB Of Windows 8.1 On OS X?
+
+**故障现象**: Creating A Bootable USB Of Windows 8.1 On OS X?
+**标签 / 来源**: Tags: macos, bootcamp, usb, startup, windows | apple | 👍 112 | 💬 3 answers
+
+**问题描述**:
+Tags: macos, bootcamp, usb, startup, windows | Score: 112 | Views: 259697 | Answers: 3
+
+**解决方法 / 社区答案**:
+I am not really sure why you would want to install Windows 8.1 without BootCamp.
+
+The USB stick needs to be a little bigger than the .iso file you are going to be burning. It doesn't matter if there is any data on it, this will totally erase the whole thing.
+
+
+
+Steps To Achieve Victory
+
+
+Download the ISO you want to use
+Open Terminal (in /Applications/Utilities)
+
+2.1 Navigate to the path where the .iso file is located
+
+2.2 Use ls to list all the folders 
+
+2.3 cd /path/to/iso to dive in to folder or cd .. to go back the path  
+Convert .iso to .img using hdiutil:
+hdiutil convert -format UDRW -o /path/to/target.img /path/to/source.iso
+Rename if OS X gave it a .dmg ending:
+mv /path/to/target.img.dmg path/to/target.img
+Type diskutil list to get a list of currently connected devices
+Insert USB drive you want to use
+Run diskutil list again to see what your USB stick gets assigned
+eg - /dev/disk3
+Run diskutil unmountDisk /dev/diskN (where N is the number assigned to your USB stick, in previous example it would be 3)
+Run sudo dd if=/path/to/target.img of=/dev/diskN bs=1m (if you get an error, replace bs=1m with bs=1M
+Run diskutil eject /dev/diskN and remove your USB stick
+The USB stick will now be ready to use
+
+
+
+
+IMPORTANT For the step #9 you can use the destination to /dev/rdiskN to reduce the copy time.
+
+NOTE: Sometimes, not always, Step #4 will be necessary. Not all the time. I am not sure why it will add the .dmg ending and other times leave it alone.
+
+NOTE 2: Might I suggest you learn the name of the .iso you downloaded, or just rename it win8.1.iso or something, and put it on your Desktop folder. That way, when you are typing commands like #3 and #4 etc, etc, you can type it like this:
+
+hdiutil convert -format UDRW -o ~/Desktop/win8.1.img ~/Desktop/win8.1.iso
+
+
+and 
+
+mv ~/Desktop/win8.1.img.dmg ~/Desktop/win8.1.img
+
+
+and step #9 would look like this:
+
+sudo dd if=~/Desktop/win8.1.img of=/dev/diskN bs=1m
+
+
+
+
+IMPORTANT - You can track the progress by pressing CTRL + T It will show the process info and records in and out, since we use the bs=1m each record is 1Mb in size so you can easily track the progress.
+
+
+
+I don't mean to be insulting with Note and Note2, I am just making sure that you know what all these commands mean. It's the simplest method. Unless someone else comes up with something better.
+
+**参考链接**: https://apple.stackexchange.com/questions/103874/creating-a-bootable-usb-of-windows-8-1-on-os-x
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/103874/creating-a-bootable-usb-of-windows-8-1-on-os-x
+
+#### 176. How to copy path of a file in Mac OS?
+
+**故障现象**: How to copy path of a file in Mac OS?
+**标签 / 来源**: Tags: macos | apple | 👍 111 | 💬 1 answers
+
+**问题描述**:
+Tags: macos | Score: 111 | Views: 277660 | Answers: 1
+
+**解决方法 / 社区答案**:
+All you need to do to copy any items path name directly to the clipboard from anywhere in the file system:
+
+Navigate to the file or folder you wish to copy the path for Right-click (or Control+Click, or a Two-Finger click on trackpads) on the file or folder in the Mac Finder
+While in the right-click menu, hold down the OPTION key to reveal the “Copy (item name) as Pathname” option, it replaces the standard Copy option Once selected, the file or folders path is now in the clipboard, ready to be pasted anywhere
+
+The copied pathname is always the complete path, it’s not relative.
+You can get the same result with a keyboard shortcut of Command+Option+C.
+Source http://osxdaily.com/2015/11/05/copy-file-path-name-text-mac-os-x-finder/
+
+**参考链接**: https://apple.stackexchange.com/questions/338898/how-to-copy-path-of-a-file-in-mac-os
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/338898/how-to-copy-path-of-a-file-in-mac-os
+
+#### 177. Where can I find default Microsoft fonts Calibri, Cambria?
+
+**故障现象**: Where can I find default Microsoft fonts Calibri, Cambria?
+**标签 / 来源**: Tags: macos, ms-office, font, font-book | apple | 👍 111 | 💬 5 answers
+
+**问题描述**:
+Tags: macos, ms-office, font, font-book | Score: 111 | Views: 244123 | Answers: 5
+
+**解决方法 / 社区答案**:
+To find and install default Microsoft fonts on a Mac:
+
+Navigate HERE in your browser.
+Download the .ZIP file.
+Unzip it (double-click it).
+Open the folder that appears.
+Select all the .TTF files inside the folder.
+With the files selected, right-click.
+From the pop-up menu, choose &quot;open with → Font Book&quot;.
+Click &quot;Install Font&quot; for each font.
+
+Note: Changes to fonts take effect when an application is opened or a user logs in to the account or computer on which the changes occurred, see support.apple.com.
+
+**参考链接**: https://apple.stackexchange.com/questions/128091/where-can-i-find-default-microsoft-fonts-calibri-cambria
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/128091/where-can-i-find-default-microsoft-fonts-calibri-cambria
+
+#### 178. No partition scheme option when erasing a USB disk in MacOS High Sierra?
+
+**故障现象**: No partition scheme option when erasing a USB disk in MacOS High Sierra?
+**标签 / 来源**: Tags: macos, partition | apple | 👍 110 | 💬 1 answers
+
+**问题描述**:
+Tags: macos, partition | Score: 110 | Views: 196975 | Answers: 1
+
+**解决方法 / 社区答案**:
+I thought I had the same issue but it's probably because in the view options at the top left corner of the Disk Utility window, "Show Only Volumes" is selected. 
+
+In order to change the partition map, it seems you have to select the actual disk. So simply select view - show all devices, then select the actual drive you're trying to reformat, then when trying to erase, you should have the option to choose a partition scheme. 
+
+Hope this helps!
+
+**参考链接**: https://apple.stackexchange.com/questions/304131/no-partition-scheme-option-when-erasing-a-usb-disk-in-macos-high-sierra
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/304131/no-partition-scheme-option-when-erasing-a-usb-disk-in-macos-high-sierra
+
+#### 179. Why is my host name wrong at the Terminal prompt when connected to a public WiFi network?
+
+**故障现象**: Why is my host name wrong at the Terminal prompt when connected to a public WiFi network?
+**标签 / 来源**: Tags: terminal, network, sharing | apple | 👍 110 | 💬 5 answers
+
+**问题描述**:
+Tags: terminal, network, sharing | Score: 110 | Views: 149693 | Answers: 5
+
+**解决方法 / 社区答案**:
+Type in Terminal:
+
+scutil --get HostName
+
+
+If there's no HostName available, what you see is probably coming from the DNS or DHCP server.  
+
+Set your HostName with:
+
+sudo scutil --set HostName 'yourHostName'
+
+
+That should do it.
+
+**参考链接**: https://apple.stackexchange.com/questions/40734/why-is-my-host-name-wrong-at-the-terminal-prompt-when-connected-to-a-public-wifi
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/40734/why-is-my-host-name-wrong-at-the-terminal-prompt-when-connected-to-a-public-wifi
+
+#### 180. OS X Terminal &quot;must have&quot; utilities
+
+**故障现象**: OS X Terminal &quot;must have&quot; utilities
+**标签 / 来源**: Tags: macos, mac, terminal, utilities | apple | 👍 109 | 💬 25 answers
+
+**问题描述**:
+Tags: macos, mac, terminal, utilities | Score: 109 | Views: 199906 | Answers: 25
+
+**解决方法 / 社区答案**:
+Homebrew
+
+The missing package manager for OS X.
+
+It is an amazing package manager, very light and easy to use. KIS Principle, that makes me think of archlinux. Its community is big and very active.
+(see also macports which brew doesn't replace completely, I prefer installing packages with brew, but some complex ones are only on macports)
+See also brew tap command which provides some missing formulas that can be useful like when you need latest php version &gt; brew tap josegonzalez/php.
+(Homebrew has a policy of not replacing system components, but hey, sometimes you have to)
+
+**参考链接**: https://apple.stackexchange.com/questions/12161/os-x-terminal-must-have-utilities
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/12161/os-x-terminal-must-have-utilities
+
+#### 181. how to find out the start time of last sleep
+
+**故障现象**: how to find out the start time of last sleep
+**标签 / 来源**: Tags: macos, mac, sleep-wake | apple | 👍 109 | 💬 4 answers
+
+**问题描述**:
+Tags: macos, mac, sleep-wake | Score: 109 | Views: 79405 | Answers: 4
+
+**解决方法 / 社区答案**:
+Actually, something like
+pmset -g log|grep -e &quot; Sleep  &quot; -e &quot; Wake  &quot;
+
+is what really gives me a clean timeline of sleep/wake events on 10.8.2. powerd does not log anything about it, at least on my system (10.8.2, MacBook Pro Retina 15).
+02/03/13 19:48:37 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:99%)                              26 secs   
+02/03/13 19:49:03 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:99%)                              27 secs   
+02/03/13 19:49:30 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:99%)                              26 secs   
+02/03/13 19:49:56 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:99%)                              26 secs   
+02/03/13 19:50:22 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:99%)                              26 secs   
+02/03/13 19:50:48 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:99%)                              26 secs   
+02/03/13 19:51:14 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:100%)                             1802 secs 
+02/03/13 20:39:17 GMT-03 Sleep      Maintenance Sleep Sleep: Using BATT (Charge:100%)                           244 secs  
+02/03/13 20:43:21 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:100%)                             51 secs   
+02/03/13 21:07:17 GMT-03 Sleep      Maintenance Sleep Sleep: Using BATT (Charge:100%)                           242 secs  
+02/03/13 21:11:19 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:100%)                             1103 secs 
+02/03/13 21:29:42 GMT-03 Wake       Wake due to EC.LidOpen/Lid Open: Using AC (Charge:100%)                     
+03/03/13 00:00:26 GMT-03 Sleep      Idle Sleep Sleep: Using BATT (Charge:85%)                                   96 secs   
+03/03/13 00:02:02 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:85%)                              38 secs   
+03/03/13 00:02:40 GMT-03 Wake       Wake due to EHC1/HID Activity: Using AC (Charge:85%)                        4338 secs 
+03/03/13 01:14:58 GMT-03 Sleep      Clamshell Sleep to DarkWake: Using AC (Charge:100%)                         48382 secs
+03/03/13 14:41:20 GMT-03 Wake       DarkWake to FullWake due to HID Activity: Using AC (Charge:100%)            728 secs  
+03/03/13 14:53:28 GMT-03 Sleep      Clamshell Sleep to DarkWake: Using AC (Charge:100%)                         415 secs  
+03/03/13 15:00:23 GMT-03 Wake       DarkWake to FullWake due to HID Activity: Using AC (Charge:100%)            718 secs  
+03/03/13 15:12:21 GMT-03 Sleep      Clamshell Sleep to DarkWake: Using AC (Charge:100%)                         156 secs  
+03/03/13 15:14:57 GMT-03 Wake       DarkWake to FullWake due to HID Activity: Using AC (Charge:100%)            834 secs  
+03/03/13 15:28:51 GMT-03 Sleep      Clamshell Sleep to DarkWake: Using AC (Charge:100%)                         378 secs 
+03/03/13 15:35:09 GMT-03 Wake       DarkWake to FullWake due to HID Activity: Using AC (Charge:100%)
+
+**参考链接**: https://apple.stackexchange.com/questions/52064/how-to-find-out-the-start-time-of-last-sleep
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/52064/how-to-find-out-the-start-time-of-last-sleep
+
+#### 182. MacBook Pro Bluetooth Audio balance keeps changing by itself
+
+**故障现象**: MacBook Pro Bluetooth Audio balance keeps changing by itself
+**标签 / 来源**: Tags: macos, audio, bluetooth | apple | 👍 109 | 💬 2 answers
+
+**问题描述**:
+Tags: macos, audio, bluetooth | Score: 109 | Views: 54656 | Answers: 2
+
+**解决方法 / 社区答案**:
+This is not the solution to the bug, however, there is an open source MacOS app that is a workaround. It watches for balance changes and centres immediately.
+
+Disclaimer: I made the application. I had similar problems with both Bluetooth headphones and normal headphones.
+
+**参考链接**: https://apple.stackexchange.com/questions/280145/macbook-pro-bluetooth-audio-balance-keeps-changing-by-itself
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/280145/macbook-pro-bluetooth-audio-balance-keeps-changing-by-itself
+
+#### 183. How can I make all folders in Finder &quot;snap to grid&quot;?
+
+**故障现象**: How can I make all folders in Finder &quot;snap to grid&quot;?
+**标签 / 来源**: Tags: macos, finder | apple | 👍 108 | 💬 3 answers
+
+**问题描述**:
+Tags: macos, finder | Score: 108 | Views: 171654 | Answers: 3
+
+**解决方法 / 社区答案**:
+The following steps applied &quot;Snap to Grid&quot; even for previously created folders.
+Tested on:
+
+10.6.x
+10.7.3
+10.8.x
+10.9.x
+10.12.5
+10.15.7
+12.x
+
+
+Go to any folder control
+Control click on the empty space
+Click on Show View Options
+In the &quot;Sort by&quot; drop down bar select &quot;Snap to Grid&quot;
+At the bottom of the window click on the &quot;Use as Defaults&quot;
+button
+
+NOTE: Because this will become the default setup for ALL Finder windows you may consider manipulating the Icon size, Grid spacing, Text size, Label position, Background, etc... accordingly.
+ALSO: If folders do not appear to have snapped to grid on a previously created folder, Relaunch Finder or you could try to toggle the &quot;Icon size&quot; down and back up too refresh the current window.
+This is where it is on 10.15 Catalina:
+
+**参考链接**: https://apple.stackexchange.com/questions/50508/how-can-i-make-all-folders-in-finder-snap-to-grid
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/50508/how-can-i-make-all-folders-in-finder-snap-to-grid
+
+#### 184. What features of Mavericks are beneficial to you?
+
+**故障现象**: What features of Mavericks are beneficial to you?
+**标签 / 来源**: Tags: macos | apple | 👍 107 | 💬 53 answers
+
+**问题描述**:
+Tags: macos | Score: 107 | Views: 21051 | Answers: 53
+
+**解决方法 / 社区答案**:
+The overhaul of the virtual memory system makes it clear that memory pressure is the primary factor to track and not how many free pages, inactive pages or overall virtual memory is allocated.
+
+
+
+The bottom panel is invaluable for diagnosing a slow machine and knowing whether to rule out memory contention as a cause of the slowness. After running your Mac for a week, you should reach a nice steady state like shown above and can know if adding more RAM or adjusting the programs you run will affect performance.
+
+**参考链接**: https://apple.stackexchange.com/questions/106036/what-features-of-mavericks-are-beneficial-to-you
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/106036/what-features-of-mavericks-are-beneficial-to-you
+
+#### 185. Shortcut key for fullscreen mode
+
+**故障现象**: Shortcut key for fullscreen mode
+**标签 / 来源**: Tags: macos, keyboard, macbook-pro, window-manager | apple | 👍 107 | 💬 5 answers
+
+**问题描述**:
+Tags: macos, keyboard, macbook-pro, window-manager | Score: 107 | Views: 322775 | Answers: 5
+
+**解决方法 / 社区答案**:
+The button in the top right of each window is not for minimizing and maximizing the window, but for putting it in and out of fullscreen mode (which is why it covers the menu bar, as you said). 
+
+The keyboard shortcut to toggle fullscreen depends on the application.
+
+Most applications that I use on a daily basis (such as Google Chrome, Terminal, Mail, and Safari) use ^+⌘+F (Control+Cmd+F) to toggle fullscreen mode.
+
+Unfortunately, not all developers use this shortcut in their applications. iTerm, for example, uses ⌘+Enter to toggle fullscreen mode. If the application you refer to does not use either of these shortcuts, you should look for the fullscreen option in the View menu or by searching for "fullscreen" in the Help menu.
+
+**参考链接**: https://apple.stackexchange.com/questions/137361/shortcut-key-for-fullscreen-mode
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/137361/shortcut-key-for-fullscreen-mode
+
+#### 186. Can I copy by highlighting and paste by middle click on Mac OS X?
+
+**故障现象**: Can I copy by highlighting and paste by middle click on Mac OS X?
+**标签 / 来源**: Tags: macos | apple | 👍 107 | 💬 13 answers
+
+**问题描述**:
+Tags: macos | Score: 107 | Views: 69608 | Answers: 13
+
+**解决方法 / 社区答案**:
+I wrote a free little C program that does something similar to Gilligan's answer. Whenever you drag-highlight or double-click text, it copies to the clipboard buffer. Then you can middle-mouse-click in any window to paste it. It is called "macpaste" and on Github (https://github.com/lodestone/macpaste). It works globally for every program I use that has textual data.
+
+In iTerm2, disable their middle-click in Preferences, otherwise you'll get double pastes.
+
+**参考链接**: https://apple.stackexchange.com/questions/21595/can-i-copy-by-highlighting-and-paste-by-middle-click-on-mac-os-x
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/21595/can-i-copy-by-highlighting-and-paste-by-middle-click-on-mac-os-x
+
+#### 187. Is there the dark mode (inverted colors) in the &#39;Preview&#39; Application for PDF reading?
+
+**故障现象**: Is there the dark mode (inverted colors) in the &#39;Preview&#39; Application for PDF reading?
+**标签 / 来源**: Tags: macos, pdf, preview, dark-mode | apple | 👍 106 | 💬 8 answers
+
+**问题描述**:
+Tags: macos, pdf, preview, dark-mode | Score: 106 | Views: 131722 | Answers: 8
+
+**解决方法 / 社区答案**:
+I had the same problem so I wrote simple and free app for Mac to read PDFs in negative. App offers two negative modes (colour inversion and colour inversion with sepia).
+
+It is called  Negative and it is free on the Mac App Store
+
+**参考链接**: https://apple.stackexchange.com/questions/317845/is-there-the-dark-mode-inverted-colors-in-the-preview-application-for-pdf-re
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/317845/is-there-the-dark-mode-inverted-colors-in-the-preview-application-for-pdf-re
+
+#### 188. Is there a way to prevent apps from staying in Dock after quitting?
+
+**故障现象**: Is there a way to prevent apps from staying in Dock after quitting?
+**标签 / 来源**: Tags: macos, dock | apple | 👍 106 | 💬 5 answers
+
+**问题描述**:
+Tags: macos, dock | Score: 106 | Views: 121522 | Answers: 5
+
+**解决方法 / 社区答案**:
+I think I understand your problem.. Open System Preferences, Click on dock, uncheck "Show recent applications in dock". This should probably solve your problem.
+
+**参考链接**: https://apple.stackexchange.com/questions/224236/is-there-a-way-to-prevent-apps-from-staying-in-dock-after-quitting
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/224236/is-there-a-way-to-prevent-apps-from-staying-in-dock-after-quitting
+
+#### 189. How to disable scroll acceleration in macOS Sierra?
+
+**故障现象**: How to disable scroll acceleration in macOS Sierra?
+**标签 / 来源**: Tags: mouse, macos | apple | 👍 106 | 💬 11 answers
+
+**问题描述**:
+Tags: mouse, macos | Score: 106 | Views: 143682 | Answers: 11
+
+**解决方法 / 社区答案**:
+I wrote a small program to fix this behavior: https://github.com/emreyolcu/discrete-scroll
+You may download a binary here. It runs in the background and allows you to scroll 3 lines with each tick of the wheel.
+
+**参考链接**: https://apple.stackexchange.com/questions/253111/how-to-disable-scroll-acceleration-in-macos-sierra
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/253111/how-to-disable-scroll-acceleration-in-macos-sierra
+
+#### 190. How to remove an environment variable on OSX using bash
+
+**故障现象**: How to remove an environment variable on OSX using bash
+**标签 / 来源**: Tags: macos, terminal, bash, path | apple | 👍 105 | 💬 1 answers
+
+**问题描述**:
+Tags: macos, terminal, bash, path | Score: 105 | Views: 249837 | Answers: 1
+
+**解决方法 / 社区答案**:
+unset it
+
+unset DYLD_LIBRARY_PATH
+
+
+The bash reference manual says
+
+
+  Once a variable is set, it may be unset only by using the unset builtin command.
+
+**参考链接**: https://apple.stackexchange.com/questions/91445/how-to-remove-an-environment-variable-on-osx-using-bash
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/91445/how-to-remove-an-environment-variable-on-osx-using-bash
+
+#### 191. How to make TextEdit open with a blank file by default?
+
+**故障现象**: How to make TextEdit open with a blank file by default?
+**标签 / 来源**: Tags: macos, textedit | apple | 👍 105 | 💬 3 answers
+
+**问题描述**:
+Tags: macos, textedit | Score: 105 | Views: 46416 | Answers: 3
+
+**解决方法 / 社区答案**:
+If you don't want to disable syncing documents and data, run
+
+defaults write -g NSShowAppCentricOpenPanelInsteadOfUntitledFile -bool false
+
+
+and quit and reopen TextEdit to apply the changes.
+
+To restore (thanks to comments run)
+
+defaults delete -g NSShowAppCentricOpenPanelInsteadOfUntitledFile
+
+
+To set this for TextEdit only (thanks to comment by gklka)
+
+defaults write com.apple.TextEdit NSShowAppCentricOpenPanelInsteadOfUntitledFile -bool false
+
+**参考链接**: https://apple.stackexchange.com/questions/61406/how-to-make-textedit-open-with-a-blank-file-by-default
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/61406/how-to-make-textedit-open-with-a-blank-file-by-default
+
+#### 192. How can I update everything installed through Homebrew after OSX upgrade?
+
+**故障现象**: How can I update everything installed through Homebrew after OSX upgrade?
+**标签 / 来源**: Tags: macos, homebrew, package-management | apple | 👍 105 | 💬 1 answers
+
+**问题描述**:
+Tags: macos, homebrew, package-management | Score: 105 | Views: 189595 | Answers: 1
+
+**解决方法 / 社区答案**:
+Use the command brew upgrade in the terminal to update all of the packages.  As for rebuilding all of your programs for the new OS build, there is no reason to do this as the compiled binary should result as the same.  If you are noticing any issues, I would just uninstall and reinstall the packages that you are having issues with.
+
+**参考链接**: https://apple.stackexchange.com/questions/56419/how-can-i-update-everything-installed-through-homebrew-after-osx-upgrade
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/56419/how-can-i-update-everything-installed-through-homebrew-after-osx-upgrade
+
+#### 193. Can an app window be minimized by clicking its Dock Icon?
+
+**故障现象**: Can an app window be minimized by clicking its Dock Icon?
+**标签 / 来源**: Tags: macos, dock, icon, window-manager | apple | 👍 104 | 💬 12 answers
+
+**问题描述**:
+Tags: macos, dock, icon, window-manager | Score: 104 | Views: 125243 | Answers: 12
+
+**解决方法 / 社区答案**:
+You can hide an active application by option-clicking (alt-clicking) its icon in the dock. You can also hide the active window and open another window by alt-clicking whatever application you want to open in the dock.
+
+But I agree with you that it would be more symmetrical to be able to click to minimize all the open windows in an application. I am a long-time PC user and this is one area where PCs got it right. That and combining closing and quitting (and the related window management issue).
+
+**参考链接**: https://apple.stackexchange.com/questions/24185/can-an-app-window-be-minimized-by-clicking-its-dock-icon
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/24185/can-an-app-window-be-minimized-by-clicking-its-dock-icon
+
+#### 194. Isn&#39;t Inactive memory a waste of resources?
+
+**故障现象**: Isn&#39;t Inactive memory a waste of resources?
+**标签 / 来源**: Tags: macos, mac, memory | apple | 👍 104 | 💬 7 answers
+
+**问题描述**:
+Tags: macos, mac, memory | Score: 104 | Views: 57563 | Answers: 7
+
+**解决方法 / 社区答案**:
+Inactive memory got a horrible rap due to a crappy name. It should have been called something like "make your Mac really fast the second, third, and fourth time it does the same task" memory except that's an awful name, too. 
+
+Apple re-wrote the activity monitor when it introduced several new features and added compressed memory, so some of this no longer applies to macOS that don’t show “Inactive Memory” but this still applies to Mac OS X memory management as documented against this version of Activity Monitor: https://support.apple.com/en-us/HT201538
+
+Here's how I explained things to someone new to the concept of virtual memory on OS X:
+
+
+Wired: The system cannot run without this amount of RAM (never swapped)
+Active: Programs are really using this memory now or in the last few seconds
+Inactive: Things that programs have read from the slow disk or elsewhere and said they never need again. Engineers know better, you will go back to Facebook in a few minutes or re-launch Word after quitting it. The same things happen again and again on computers.
+Free: Totally Wasted RAM - the system only needs one or two MB free to cover short term allocation requests. For largest allocations, it simply uses some of the Inactive RAM by allocating it to active/wired and removing the information on what it used to hold.
+
+
+The problem arises when Free+Inactive is less than roughly 1/3 of the total and then things can really get slow. 
+
+Inactive memory is bonus speed / double duty RAM. It serves as free at a moment's notice, but also makes repeated tasks much, much faster if the system guessed correctly and kept something in RAM that you will do again. It's faster than swapped memory since it's already loaded in RAM and accelerates things when the virtual memory system makes good guesses. 
+
+When you are wondering if RAM is a problem, rather than looking at each of the 4 categories (5 if you count active swap), you can couple W+A as slowing down a new program/task and F+I as speeding up a new program/task. The more F+I you have, the more new programs you can launch before the RAM needs to rely on swapping to juggle the memory that has been allocated.
+
+You don't really need to know how swap works since I mentioned it above. Basically, when a program is sitting idle and hasn't been used for days (or hours) the system will write that RAM to the hard drive rather than kill the program. This lets the system shuffle and handle all sorts of things relating to memory management and keeps each program from needing to talk amongst themselves to agree who will use less memory when the system runs out.
+
+Here is a real world example of how inactive RAM is used.
+
+
+Quit all apps and make sure the two Apps we are testing are not set to auto start when you log in
+Reboot your Mac
+Fire up your Activity Monitor and watch the RAM throughout
+Time how long it takes to start Application A (MS Word would be a good choice)
+Quit A
+Time how long it takes to start Application B (Adobe something would also be good)
+Quit B
+Time how long the second launch of A takes
+Quit A
+Time B's second launch.
+Time A's start the third time with B running.
+
+
+You should see dramatic speedups for the second / third launch as the system learns to keep in inactive RAM the things these two apps need to run.
+
+
+
+In your case - the total of Wired and Active means that some swapping to disk is likely happening and your Mac isn't as fast as it could be since your inactive RAM isn't large enough to store all the things you might need to reuse. If you have a fast SSD drive, this RAM allocation is OK and instead of starting to slow down once less than 1/2 of your RAM is F+I, you can cut things closer to like 1/4 of the total RAM for F+I before seeing noticeable slowness. These guidelines are general, and you'll want to watch vm_stat 15 or some similar interval to ensure continual and medium volume swapping isn't making your Mac slow.
+
+**参考链接**: https://apple.stackexchange.com/questions/67031/isnt-inactive-memory-a-waste-of-resources
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/67031/isnt-inactive-memory-a-waste-of-resources
+
+#### 195. How to view Root directory and subdirectories in Finder?
+
+**故障现象**: How to view Root directory and subdirectories in Finder?
+**标签 / 来源**: Tags: macos, finder, folders, root | apple | 👍 104 | 💬 13 answers
+
+**问题描述**:
+Tags: macos, finder, folders, root | Score: 104 | Views: 278637 | Answers: 13
+
+**解决方法 / 社区答案**:
+Shift-Command-G in Finder brings up a "Go to folder" dialog. Type in the name of the directory, for example, /usr/local. Finder will show the directory. I use this with Finder in 'View as Columns'
+
+While this doesn't give a browsable directory from the root directory down, I've found it quite useful.
+
+**参考链接**: https://apple.stackexchange.com/questions/34871/how-to-view-root-directory-and-subdirectories-in-finder
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/34871/how-to-view-root-directory-and-subdirectories-in-finder
+
+#### 196. Do MacBooks have a true &quot;Hibernate&quot; option?
+
+**故障现象**: Do MacBooks have a true &quot;Hibernate&quot; option?
+**标签 / 来源**: Tags: macos, macbook-pro, hibernate | apple | 👍 104 | 💬 4 answers
+
+**问题描述**:
+Tags: macos, macbook-pro, hibernate | Score: 104 | Views: 129318 | Answers: 4
+
+**解决方法 / 社区答案**:
+When newer laptops are put to sleep, they should save the contents of the RAM to /var/vm/sleepimage but keep the RAM powered as well. Desktop Macs should just use normal sleep mode by default.
+
+man pmset:
+
+hibernatemode = 0 (binary 0000) by default on supported desktops. The
+system will not back memory up to persistent storage. The system must
+wake from the contents of memory; the system will lose context on power
+loss. This is, historically, plain old sleep.
+
+hibernatemode = 3 (binary 0011) by default on supported portables. The
+system will store a copy of memory to persistent storage (the disk), and
+will power memory during sleep. The system will wake from memory, unless
+a power loss forces it to restore from disk image.
+
+hibernatemode = 25 (binary 0001 1001) is only settable via pmset. The
+system will store a copy of memory to persistent storage (the disk), and
+will remove power to memory. The system will restore from disk image. If
+you want "hibernation" - slower sleeps, slower wakes, and better battery
+life, you should use this setting.
+
+
+
+0 (traditional sleep mode): fast wake up and sleep, saves disk space
+3 (default safe sleep mode): fast wake up and sleep, state is kept when losing power
+25 (hibernation): saves energy, state is kept when losing power
+
+
+You can see which mode your Mac uses with pmset -g | grep hibernatemode and change it with sudo pmset -a hibernatemode $mode.
+
+Some newer Macs support a standby mode on 10.8 and later. Even if hibernatemode was set to 3, they power off memory after a bit over an hour of sleep.
+
+**参考链接**: https://apple.stackexchange.com/questions/51725/do-macbooks-have-a-true-hibernate-option
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/51725/do-macbooks-have-a-true-hibernate-option
+
+#### 197. Why doesn&#39;t Mac OS X source ~/.bashrc?
+
+**故障现象**: Why doesn&#39;t Mac OS X source ~/.bashrc?
+**标签 / 来源**: Tags: macos, terminal, bash, command-line | apple | 👍 104 | 💬 2 answers
+
+**问题描述**:
+Tags: macos, terminal, bash, command-line | Score: 104 | Views: 183444 | Answers: 2
+
+**解决方法 / 社区答案**:
+In OSX the terminal  by default starts a login session so reads .bash_profile etc. (The GUI login process that asks for your name and password does not use shell scripts and starts no shell it is all done from launchd and the workspace)
+On other Unices xterm runs a non login shell by default so they read .bashrc as the scripts that present you with your password etc at login call the login session and all terminals are sub process of this and inherit the shell environment.
+From the GNU document you referred to
+
+Invoked as an interactive non-login shell
+When an interactive shell that is not a login shell is started, Bash
+reads and executes commands from ~/.bashrc, if that file exists. This
+may be inhibited by using the --norc option. The --rcfile file option
+will force Bash to read and execute commands from file instead of
+~/.bashrc.
+So, typically, your ~/.bash_profile contains the line
+if [ -f ~/.bashrc ]; then . ~/.bashrc; fi 
+
+after (or before) any
+login-specific initializations.
+
+**参考链接**: https://apple.stackexchange.com/questions/119711/why-doesnt-mac-os-x-source-bashrc
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/119711/why-doesnt-mac-os-x-source-bashrc
+
+#### 198. Set default mail client in macOS without adding an email account?
+
+**故障现象**: Set default mail client in macOS without adding an email account?
+**标签 / 来源**: Tags: macos, mail.app, ms-office, preferences | apple | 👍 103 | 💬 13 answers
+
+**问题描述**:
+Tags: macos, mail.app, ms-office, preferences | Score: 103 | Views: 56998 | Answers: 13
+
+**解决方法 / 社区答案**:
+Update: Seems like Microsoft finally removed this tool. The suggested solution in their support documentation is
+https://support.microsoft.com/en-us/office/set-an-account-as-the-default-in-outlook-for-mac-1a085d36-db97-4230-9a40-c332364426e0
+I finally found something easy that worked, the SetDefaultMailApp from Microsoft:
+https://docs.microsoft.com/en-us/outlook/troubleshoot/outlook-for-mac/useful-tools#setdefaultmailapp
+
+**参考链接**: https://apple.stackexchange.com/questions/261881/set-default-mail-client-in-macos-without-adding-an-email-account
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/261881/set-default-mail-client-in-macos-without-adding-an-email-account
+
+#### 199. Why is the accountsd process eating so much CPU?
+
+**故障现象**: Why is the accountsd process eating so much CPU?
+**标签 / 来源**: Tags: macos, icloud, cpu | apple | 👍 103 | 💬 18 answers
+
+**问题描述**:
+Tags: macos, icloud, cpu | Score: 103 | Views: 251228 | Answers: 18
+
+**解决方法 / 社区答案**:
+In Mail.app's application's preferences, I deselected "Accounts > Advanced > Automatically Detect and Maintain Account Settings" on two Google accounts, and CPU usage returned to normal.
+
+**参考链接**: https://apple.stackexchange.com/questions/182059/why-is-the-accountsd-process-eating-so-much-cpu
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/182059/why-is-the-accountsd-process-eating-so-much-cpu
+
+#### 200. Application level volume control in OS X?
+
+**故障现象**: Application level volume control in OS X?
+**标签 / 来源**: Tags: macos, software-recommendation, mac, audio, software | apple | 👍 103 | 💬 13 answers
+
+**问题描述**:
+Tags: macos, software-recommendation, mac, audio, software | Score: 103 | Views: 331864 | Answers: 13
+
+**解决方法 / 社区答案**:
+A free and open-source solution is BackgroundMusic.
+A nicer and paid solution is Rogue Amoeba's SoundSource
+
+**参考链接**: https://apple.stackexchange.com/questions/10902/application-level-volume-control-in-os-x
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/10902/application-level-volume-control-in-os-x
+
 
 ---
 
@@ -4726,7 +6409,7 @@ You may get an error message: &quot;Can't install the software because it is not
 **Tags / Source**: Tags: macos, command-line, homebrew, open-source | apple | 👍 1068 | 💬 11 answers
 
 **Description**:
-Tags: macos, command-line, homebrew, open-source | Score: 1068 | Views: 1439809 | Answers: 11
+Tags: macos, command-line, homebrew, open-source | Score: 1068 | Views: 1439812 | Answers: 11
 
 **Solution / Community Answer**:
 brew list and brew list --cask
@@ -4744,7 +6427,7 @@ If you wish to list casks only, brew list --cask will provide the items installe
 **Tags / Source**: Tags: macos, kernel | apple | 👍 712 | 💬 16 answers
 
 **Description**:
-Tags: macos, kernel | Score: 712 | Views: 615534 | Answers: 16
+Tags: macos, kernel | Score: 712 | Views: 615535 | Answers: 16
 
 **Solution / Community Answer**:
 TLDR; If your MacBook Pro runs hot or shows a high % CPU for the kernel task, try charging on the right and not on the left.
@@ -4788,7 +6471,7 @@ Otherwise guessing and testing is the only way. Of course that leads to false co
 **Tags / Source**: Tags: macos, keyboard, google-chrome | apple | 👍 654 | 💬 15 answers
 
 **Description**:
-Tags: macos, keyboard, google-chrome | Score: 654 | Views: 935244 | Answers: 15
+Tags: macos, keyboard, google-chrome | Score: 654 | Views: 935247 | Answers: 15
 
 **Solution / Community Answer**:
 UK Keyboard
@@ -4854,7 +6537,7 @@ Finder window.
 **Tags / Source**: Tags: macos, keyboard | apple | 👍 587 | 💬 13 answers
 
 **Description**:
-Tags: macos, keyboard | Score: 587 | Views: 228306 | Answers: 13
+Tags: macos, keyboard | Score: 587 | Views: 228307 | Answers: 13
 
 **Solution / Community Answer**:
 The default shortcuts for moving to beginning or end of (wrapped) lines are ⌘← and ⌘→. ⌥↑ and ⌥↓ or ⌃A and ⌃E move to the beginning or end of unwrapped lines (or paragraphs). ⌥← and ⌥→ move backwards/forward by words, and all of these are compatible with holding Shift to select during the corresponding moves.
@@ -4917,7 +6600,7 @@ This echoes the behaviour of Cmd/Tab or equivalent in most operating systems, so
 **Tags / Source**: Tags: macos, applications, command-line | apple | 👍 508 | 💬 1 answers
 
 **Description**:
-Tags: macos, applications, command-line | Score: 508 | Views: 865922 | Answers: 1
+Tags: macos, applications, command-line | Score: 508 | Views: 865928 | Answers: 1
 
 **Solution / Community Answer**:
 To open your current directory in Finder from Terminal, type open .
@@ -4953,7 +6636,7 @@ I answered a similar question: cmd-tab behavior on Mavericks with multiple displ
 **Tags / Source**: Tags: macos, command-line, file, symlink | apple | 👍 484 | 💬 7 answers
 
 **Description**:
-Tags: macos, command-line, file, symlink | Score: 484 | Views: 724805 | Answers: 7
+Tags: macos, command-line, file, symlink | Score: 484 | Views: 724809 | Answers: 7
 
 **Solution / Community Answer**:
 ┌── ln(1) link, ln -- make links
@@ -4997,7 +6680,7 @@ To create a symlink to replace a system directory (e.g. if you want to have /Use
 **Tags / Source**: Tags: macos, network, command-line | apple | 👍 451 | 💬 11 answers
 
 **Description**:
-Tags: macos, network, command-line | Score: 451 | Views: 1668082 | Answers: 11
+Tags: macos, network, command-line | Score: 451 | Views: 1668089 | Answers: 11
 
 **Solution / Community Answer**:
 Local IP address
@@ -5036,7 +6719,7 @@ When you run this command, it queries the ns1.google.com DNS server for the TXT 
 **Tags / Source**: Tags: macbook-pro, spotlight, cpu | apple | 👍 450 | 💬 15 answers
 
 **Description**:
-Tags: macbook-pro, spotlight, cpu | Score: 450 | Views: 679870 | Answers: 15
+Tags: macbook-pro, spotlight, cpu | Score: 450 | Views: 679872 | Answers: 15
 
 **Solution / Community Answer**:
 As you know, the mds and mds_stores are Spotlight activities.
@@ -5205,7 +6888,7 @@ NOTE: If you need help in selecting colors to use you can use this online tool c
 **Tags / Source**: Tags: terminal, bash, zsh, macos | apple | 👍 389 | 💬 4 answers
 
 **Description**:
-Tags: terminal, bash, zsh, macos | Score: 389 | Views: 337247 | Answers: 4
+Tags: terminal, bash, zsh, macos | Score: 389 | Views: 337249 | Answers: 4
 
 **Solution / Community Answer**:
 First, some important things:
@@ -5339,7 +7022,7 @@ An extensive collection of articles on switching to zsh on the mac can be found 
 **Tags / Source**: Tags: macos, network, command-line | apple | 👍 375 | 💬 7 answers
 
 **Description**:
-Tags: macos, network, command-line | Score: 375 | Views: 1062787 | Answers: 7
+Tags: macos, network, command-line | Score: 375 | Views: 1062788 | Answers: 7
 
 **Solution / Community Answer**:
 netstat -anvp tcp | awk 'NR&lt;3 || /LISTEN/'
@@ -5556,7 +7239,7 @@ Now Apple has released the real fix, though this might still be useful. Because 
 **Tags / Source**: Tags: macos, software-recommendation, image-editing | apple | 👍 365 | 💬 19 answers
 
 **Description**:
-Tags: macos, software-recommendation, image-editing | Score: 365 | Views: 884014 | Answers: 19
+Tags: macos, software-recommendation, image-editing | Score: 365 | Views: 884015 | Answers: 19
 
 **Solution / Community Answer**:
 I often have to do this with images of plots of data.  I use the command line tools that come in the Imagemagick package; I think I installed it on my system with MacPorts. You could also choose to install with brew (brew install imagemagick).
@@ -5711,7 +7394,7 @@ Result Screen:
 **Tags / Source**: Tags: macos | apple | 👍 323 | 💬 3 answers
 
 **Description**:
-Tags: macos | Score: 323 | Views: 200603 | Answers: 3
+Tags: macos | Score: 323 | Views: 200604 | Answers: 3
 
 **Solution / Community Answer**:
 ⌘ CMD+⇧ SHIFT+. reveals hidden files in Finder and Open/Save dialogs.
@@ -5734,7 +7417,7 @@ Editing hidden files can be dangerous if you don't know what you're doing.
 **Tags / Source**: Tags: macos, finder, file | apple | 👍 321 | 💬 32 answers
 
 **Description**:
-Tags: macos, finder, file | Score: 321 | Views: 609449 | Answers: 32
+Tags: macos, finder, file | Score: 321 | Views: 609450 | Answers: 32
 
 **Solution / Community Answer**:
 You can also do this in Terminal. Go to the directory where you want to create the file, then run the following:
@@ -5917,7 +7600,7 @@ From: https://github.com/Homebrew/homebrew/blob/master/Library/Formula/pcre.rb
 **Tags / Source**: Tags: macos, command-line, unix, utilities | apple | 👍 278 | 💬 7 answers
 
 **Description**:
-Tags: macos, command-line, unix, utilities | Score: 278 | Views: 215463 | Answers: 7
+Tags: macos, command-line, unix, utilities | Score: 278 | Views: 215464 | Answers: 7
 
 **Solution / Community Answer**:
 This adds symlinks for GNU utilities with g prefix to /usr/local/bin/:
@@ -5957,7 +7640,7 @@ the "gnuman" directory to your MANPATH from your bashrc as well:
 **Tags / Source**: Tags: macos, file | apple | 👍 275 | 💬 14 answers
 
 **Description**:
-Tags: macos, file | Score: 275 | Views: 394184 | Answers: 14
+Tags: macos, file | Score: 275 | Views: 394186 | Answers: 14
 
 **Solution / Community Answer**:
 You can't avoid them (but see the dot_clean answer by Saeid Zebardast --they can be removed from a directory if that is what you need).  They're created to store file information that would otherwise go into an extended attribute on HFS+ (Apple native) or Unix/UFS volumes; in earlier Mac OS this would be the resource fork.  Finder file operations will create them automatically to store the icon information, plus Time Machine stores some information in them so if you copy a file backed up via TM it will have that information copied as well.
@@ -6245,7 +7928,7 @@ On macOS, specifies whether the system should search for passphrases in the user
 **Tags / Source**: Tags: macos, high-sierra, spaces | apple | 👍 229 | 💬 21 answers
 
 **Description**:
-Tags: macos, high-sierra, spaces | Score: 229 | Views: 262533 | Answers: 21
+Tags: macos, high-sierra, spaces | Score: 229 | Views: 262534 | Answers: 21
 
 **Solution / Community Answer**:
 Refer to the original page for detailed solutions and community answers.
@@ -6283,7 +7966,7 @@ Both the Command and left Option keys must be pressed on the same side (left or 
 **Tags / Source**: Tags: macos, terminal, command-line, bash | apple | 👍 224 | 💬 6 answers
 
 **Description**:
-Tags: macos, terminal, command-line, bash | Score: 224 | Views: 1264164 | Answers: 6
+Tags: macos, terminal, command-line, bash | Score: 224 | Views: 1264168 | Answers: 6
 
 **Solution / Community Answer**:
 Open Terminal, type in sh /path/to/file and press enter. 
@@ -6361,7 +8044,7 @@ Other emoji have Unicode hex numbers with 5 characters, such as Grinning Face U+
 **Tags / Source**: Tags: macos, usb | apple | 👍 212 | 💬 2 answers
 
 **Description**:
-Tags: macos, usb | Score: 212 | Views: 565192 | Answers: 2
+Tags: macos, usb | Score: 212 | Views: 565194 | Answers: 2
 
 **Solution / Community Answer**:
 In addition to system_profiler SPUSBDataType (suggested by @kjs), you can also use ioreg -p IOUSB:
@@ -6417,7 +8100,7 @@ IR Receiver
 **Tags / Source**: Tags: macos, finder, switching, contextual-menu | apple | 👍 212 | 💬 12 answers
 
 **Description**:
-Tags: macos, finder, switching, contextual-menu | Score: 212 | Views: 200052 | Answers: 12
+Tags: macos, finder, switching, contextual-menu | Score: 212 | Views: 200053 | Answers: 12
 
 **Solution / Community Answer**:
 Keyboard method: Cmd-C then Opt-Cmd-V does the cut&amp;paste for files on Mac. 
@@ -6436,7 +8119,7 @@ Menu method: It's not part of the Apple menu system to 'cut' files.  The menu Cu
 **Tags / Source**: Tags: macos, hard-drive, file | apple | 👍 211 | 💬 6 answers
 
 **Description**:
-Tags: macos, hard-drive, file | Score: 211 | Views: 761140 | Answers: 6
+Tags: macos, hard-drive, file | Score: 211 | Views: 761141 | Answers: 6
 
 **Solution / Community Answer**:
 It's generally safe, though a little dangerous depending, to do it but often not worth the effort.
@@ -6459,7 +8142,7 @@ Of course the best way to clear the caches is to install AppleJack and do it wit
 **Tags / Source**: Tags: macos, zsh, environment-variables | apple | 👍 209 | 💬 1 answers
 
 **Description**:
-Tags: macos, zsh, environment-variables | Score: 209 | Views: 274066 | Answers: 1
+Tags: macos, zsh, environment-variables | Score: 209 | Views: 274068 | Answers: 1
 
 **Solution / Community Answer**:
 This is an attempt to write a canonical QA for this issue, as per the Meta post:  Where is the list of canonical questions stored for Ask Different? I expect it to be periodically edited with the goal of becoming a comprehensive information resource.
@@ -6585,7 +8268,7 @@ It allows you to restore trashed files via command line or the Finder.
 **Tags / Source**: Tags: macbook-pro, audio | apple | 👍 202 | 💬 8 answers
 
 **Description**:
-Tags: macbook-pro, audio | Score: 202 | Views: 272561 | Answers: 8
+Tags: macbook-pro, audio | Score: 202 | Views: 272564 | Answers: 8
 
 **Solution / Community Answer**:
 sudo pkill coreaudiod
@@ -6710,7 +8393,7 @@ You can still open the picture in Preview.app when needed (top right corner).
 **Tags / Source**: Tags: macos | apple | 👍 192 | 💬 6 answers
 
 **Description**:
-Tags: macos | Score: 192 | Views: 194509 | Answers: 6
+Tags: macos | Score: 192 | Views: 194510 | Answers: 6
 
 **Solution / Community Answer**:
 I have only enabled the first four of these, but here are all hidden preferences for disabling animations I have found.
@@ -6863,7 +8546,7 @@ If you installed Homebrew as a non-root user, you'll need to cd to /Users/yourus
 **Tags / Source**: Tags: macos, command-line, hardware, storage | apple | 👍 183 | 💬 6 answers
 
 **Description**:
-Tags: macos, command-line, hardware, storage | Score: 183 | Views: 480009 | Answers: 6
+Tags: macos, command-line, hardware, storage | Score: 183 | Views: 480011 | Answers: 6
 
 **Solution / Community Answer**:
 diskutil list will list all disks with their identifiers, even if unmounted.
@@ -6940,7 +8623,7 @@ Click the annotations button in the toolbar and use the drop down menu next to t
 **Tags / Source**: Tags: macos, photos, pdf, preview | apple | 👍 180 | 💬 9 answers
 
 **Description**:
-Tags: macos, photos, pdf, preview | Score: 180 | Views: 327359 | Answers: 9
+Tags: macos, photos, pdf, preview | Score: 180 | Views: 327360 | Answers: 9
 
 **Solution / Community Answer**:
 Do as follows:
@@ -7060,7 +8743,7 @@ The location in Lion OSX is in:
 **Tags / Source**: Tags: mac-mini, macos, activity-monitor, apple-silicon | apple | 👍 178 | 💬 3 answers
 
 **Description**:
-Tags: mac-mini, macos, activity-monitor, apple-silicon | Score: 178 | Views: 155253 | Answers: 3
+Tags: mac-mini, macos, activity-monitor, apple-silicon | Score: 178 | Views: 155254 | Answers: 3
 
 **Solution / Community Answer**:
 This process belongs to an application you've installed yourself.
@@ -7076,7 +8759,7 @@ To find out more, select the process in Activity Monitor and press Cmd-I to open
 **Tags / Source**: Tags: macos, unix | apple | 👍 178 | 💬 11 answers
 
 **Description**:
-Tags: macos, unix | Score: 178 | Views: 372061 | Answers: 11
+Tags: macos, unix | Score: 178 | Views: 372062 | Answers: 11
 
 **Solution / Community Answer**:
 The answer depends on you willingness to invest in commercial software:
@@ -7116,7 +8799,7 @@ The .mp4 extension in the output path serves as a cue for the program to do the 
 **Tags / Source**: Tags: macos, terminal, wifi, ssh | apple | 👍 175 | 💬 7 answers
 
 **Description**:
-Tags: macos, terminal, wifi, ssh | Score: 175 | Views: 189533 | Answers: 7
+Tags: macos, terminal, wifi, ssh | Score: 175 | Views: 189535 | Answers: 7
 
 **Solution / Community Answer**:
 For keeping the connection alive, you can check in /etc/ssh/ssh_config the line where it says ServerAliveInterval, that tells you how often (in seconds) your computer is gonna send a null packet to keep the connection alive. If you have a 0 in there that indicates that your computer is not trying to keep the connection alive (it is disabled), otherwise it tells you how often (in seconds) it is sending the aforementioned packet. Try putting in 120 or 240, if it is still killing your connection, you can go lower, maybe to 5, if with that number it doesn't happen, maybe it is your router who is dumping the connection to free memory.
@@ -7214,7 +8897,7 @@ It slows down the entire network stack, so you can't throttle on a per app basis
 **Tags / Source**: Tags: macos, terminal, sleep-wake, shutdown, restart | apple | 👍 172 | 💬 4 answers
 
 **Description**:
-Tags: macos, terminal, sleep-wake, shutdown, restart | Score: 172 | Views: 551481 | Answers: 4
+Tags: macos, terminal, sleep-wake, shutdown, restart | Score: 172 | Views: 551482 | Answers: 4
 
 **Solution / Community Answer**:
 The command you are after is shutdown.
@@ -7296,7 +8979,7 @@ In my case it was the Network Monitor from Little Snitch that seemed to be the b
 **Tags / Source**: Tags: keyboard, display, macos | apple | 👍 170 | 💬 7 answers
 
 **Description**:
-Tags: keyboard, display, macos | Score: 170 | Views: 373484 | Answers: 7
+Tags: keyboard, display, macos | Score: 170 | Views: 373485 | Answers: 7
 
 **Solution / Community Answer**:
 Refer to the original page for detailed solutions and community answers.
@@ -7337,7 +9020,7 @@ is all that's needed. The target is a &quot;device&quot; (see the man page for d
 **Tags / Source**: Tags: macos, command-line | apple | 👍 164 | 💬 17 answers
 
 **Description**:
-Tags: macos, command-line | Score: 164 | Views: 196307 | Answers: 17
+Tags: macos, command-line | Score: 164 | Views: 196308 | Answers: 17
 
 **Solution / Community Answer**:
 FileMerge (free), shipped with Xcode, offers a directory view.
@@ -7377,7 +9060,7 @@ Refer to the original page for detailed solutions and community answers.
 **Tags / Source**: Tags: macos, notifications | apple | 👍 159 | 💬 10 answers
 
 **Description**:
-Tags: macos, notifications | Score: 159 | Views: 89318 | Answers: 10
+Tags: macos, notifications | Score: 159 | Views: 89319 | Answers: 10
 
 **Solution / Community Answer**:
 Unfortunately, you can't change the screen position of the Notification Center Alerts and Banners. This is a huge gripe of mine as well, and I highly encourage you to complain about this issue to Apple here:
@@ -7534,7 +9217,7 @@ Note that the -y overwrites existing files without prompting so if you want to n
 **Tags / Source**: Tags: macos, daemons, docker | apple | 👍 154 | 💬 9 answers
 
 **Description**:
-Tags: macos, daemons, docker | Score: 154 | Views: 547378 | Answers: 9
+Tags: macos, daemons, docker | Score: 154 | Views: 547382 | Answers: 9
 
 **Solution / Community Answer**:
 An alternative solution is to use other runtime for docker. For example
@@ -7650,7 +9333,7 @@ You can summon the Dock on your big display by dragging the cursor to the bottom
 **Tags / Source**: Tags: macos, notifications, dual-screen | apple | 👍 152 | 💬 3 answers
 
 **Description**:
-Tags: macos, notifications, dual-screen | Score: 152 | Views: 96074 | Answers: 3
+Tags: macos, notifications, dual-screen | Score: 152 | Views: 96075 | Answers: 3
 
 **Solution / Community Answer**:
 You should be able to do this by choosing the monitor on which the menu bar is active.
@@ -7759,7 +9442,7 @@ Many USB-Serial adapters use the chip from FTDI. Install the "Virtual COM Port" 
 **Tags / Source**: Tags: macos, system-settings, visual-studio-code | apple | 👍 151 | 💬 3 answers
 
 **Description**:
-Tags: macos, system-settings, visual-studio-code | Score: 151 | Views: 54183 | Answers: 3
+Tags: macos, system-settings, visual-studio-code | Score: 151 | Views: 54184 | Answers: 3
 
 **Solution / Community Answer**:
 Enable Auto Detect (Search in Settings: window.autoDetectColorScheme)
@@ -8167,7 +9850,7 @@ Growl support for notification when a process completes
 **Tags / Source**: Tags: terminal, finder | apple | 👍 207 | 💬 18 answers
 
 **Description**:
-Tags: terminal, finder | Score: 207 | Views: 407489 | Answers: 18
+Tags: terminal, finder | Score: 207 | Views: 407491 | Answers: 18
 
 **Solution / Community Answer**:
 As of Mac OS X Lion 10.7, Terminal provides Services for opening a new terminal window or tab at the selected folder in Finder. They also work with absolute pathnames selected in text (in any application). You can enable these services with System Preferences > Keyboard > Keyboard Shortcuts > Services. Look for "New Terminal at Folder" and "New Terminal Tab at Folder". You can also assign them shortcut keys.
@@ -8188,7 +9871,7 @@ Note: The New Terminal at Folder service will become active when you select a fo
 **Tags / Source**: Tags: terminal, iterm | apple | 👍 193 | 💬 6 answers
 
 **Description**:
-Tags: terminal, iterm | Score: 193 | Views: 171843 | Answers: 6
+Tags: terminal, iterm | Score: 193 | Views: 171844 | Answers: 6
 
 **Solution / Community Answer**:
 You can use iTerm2's system-wide hotkey with the Hotkey Window profile to do this.
@@ -8231,7 +9914,7 @@ And that should be it. Make sure to enter q after the delete * command. This wil
 **Tags / Source**: Tags: terminal, bash, environment-variables | apple | 👍 173 | 💬 12 answers
 
 **Description**:
-Tags: terminal, bash, environment-variables | Score: 173 | Views: 910373 | Answers: 12
+Tags: terminal, bash, environment-variables | Score: 173 | Views: 910376 | Answers: 12
 
 **Solution / Community Answer**:
 I have a .profile in my home directory; it contains many export … statements for environment variables.
@@ -8291,7 +9974,7 @@ On older Macs, the shortcut is different: command+option+Power or control+shift+
 **Tags / Source**: Tags: terminal, iterm | apple | 👍 147 | 💬 4 answers
 
 **Description**:
-Tags: terminal, iterm | Score: 147 | Views: 63617 | Answers: 4
+Tags: terminal, iterm | Score: 147 | Views: 63618 | Answers: 4
 
 **Solution / Community Answer**:
 Select "Reuse previous session's directory" from the preferences of your profile:
@@ -8349,7 +10032,7 @@ Also, sometimes the base command sudo lsof /Volumes/myDrive won't find anything.
 **Tags / Source**: Tags: terminal, bash, alias | apple | 👍 145 | 💬 3 answers
 
 **Description**:
-Tags: terminal, bash, alias | Score: 145 | Views: 302446 | Answers: 3
+Tags: terminal, bash, alias | Score: 145 | Views: 302447 | Answers: 3
 
 **Solution / Community Answer**:
 All you need to do is type alias at the prompt and any active aliases will be listed.
@@ -8702,7 +10385,7 @@ Because of some permission issues. However, do this only if you have to.
 **Tags / Source**: Tags: macos, command-line, homebrew, path | apple | 👍 134 | 💬 13 answers
 
 **Description**:
-Tags: macos, command-line, homebrew, path | Score: 134 | Views: 736571 | Answers: 13
+Tags: macos, command-line, homebrew, path | Score: 134 | Views: 736572 | Answers: 13
 
 **Solution / Community Answer**:
 I had the same problem—installed brew, used it, but now it doens't work, ie, brew command not recognized anymore.
@@ -8898,7 +10581,7 @@ I didn't look too closely at but it is possible setting the last warning date to
 **Tags / Source**: Tags: ios, xcode, macos | apple | 👍 132 | 💬 11 answers
 
 **Description**:
-Tags: ios, xcode, macos | Score: 132 | Views: 174153 | Answers: 11
+Tags: ios, xcode, macos | Score: 132 | Views: 174154 | Answers: 11
 
 **Solution / Community Answer**:
 Yes, you can delete any simulator that you don't use.  I do this routinely when I stop supporting older iOS versions.
@@ -8955,7 +10638,7 @@ Pressing Esc will always cancel the dialog.
 **Tags / Source**: Tags: macos, command-line, zip, compression | apple | 👍 132 | 💬 10 answers
 
 **Description**:
-Tags: macos, command-line, zip, compression | Score: 132 | Views: 253014 | Answers: 10
+Tags: macos, command-line, zip, compression | Score: 132 | Views: 253015 | Answers: 10
 
 **Solution / Community Answer**:
 You can install p7zip with Homebrew. So
@@ -9089,7 +10772,7 @@ Note, just to make it clearer: After having applied the signature, start the app
 **Tags / Source**: Tags: macos, keyboard | apple | 👍 129 | 💬 17 answers
 
 **Description**:
-Tags: macos, keyboard | Score: 129 | Views: 710506 | Answers: 17
+Tags: macos, keyboard | Score: 129 | Views: 710507 | Answers: 17
 
 **Solution / Community Answer**:
 On an American English keyboard you can type the European Currency symbol (€) with Option + Shift + 2.
@@ -9175,7 +10858,7 @@ Specifically for X11 applications running under XQuartz.app (which isn't very ma
 **Tags / Source**: Tags: macos, network | apple | 👍 126 | 💬 6 answers
 
 **Description**:
-Tags: macos, network | Score: 126 | Views: 234369 | Answers: 6
+Tags: macos, network | Score: 126 | Views: 234371 | Answers: 6
 
 **Solution / Community Answer**:
 Setting the Mac hostname or computer name from the terminal
@@ -9278,7 +10961,7 @@ If there is a space between words and you don't want to use the methods above, p
 **Tags / Source**: Tags: macos, network, nas, afp | apple | 👍 124 | 💬 30 answers
 
 **Description**:
-Tags: macos, network, nas, afp | Score: 124 | Views: 255645 | Answers: 30
+Tags: macos, network, nas, afp | Score: 124 | Views: 255646 | Answers: 30
 
 **Solution / Community Answer**:
 Apparently this problem can occur for many different reasons.  In my case it was solved by re-launching the finder.  A description and solution for this was at http://www.cnet.com/news/fix-shared-computer-not-found-in-finder/ .
@@ -9350,6 +11033,1689 @@ The -q parameter is what we need to avoid the problem, hence the symlink to /usr
 **Reference**: https://apple.stackexchange.com/questions/41743/how-do-i-speed-up-new-terminal-tab-loading-time
 
 > 📎 Source: https://apple.stackexchange.com/questions/41743/how-do-i-speed-up-new-terminal-tab-loading-time
+
+#### 151. How to convert a HEIF/HEIC image to JPEG in macOS?
+
+**Issue**: How to convert a HEIF/HEIC image to JPEG in macOS?
+**Tags / Source**: Tags: macos, icloud, photos.app, file-conversion, image-editing | apple | 👍 123 | 💬 8 answers
+
+**Description**:
+Tags: macos, icloud, photos.app, file-conversion, image-editing | Score: 123 | Views: 101958 | Answers: 8
+
+**Solution / Community Answer**:
+You can use the command line tool imagemagick to convert HEIC images to JPG.
+# install imagemagick
+brew install imagemagick
+
+# convert a single image
+magick convert foo.HEIC foo.jpg
+
+# bulk convert multiple images
+magick mogrify -monitor -format jpg *.HEIC
+
+Update: Now MacOS provides a built-in converter using Finder, if you want a GUI solution.
+
+NOTE: As of version 7, magick convert results in this warning:
+WARNING: The convert command is deprecated in IMv7, use &quot;magick&quot; instead
+
+so, for version 7 of imagemagick (and possibly thereafter), the second command can be simplified to just:
+# convert a single image
+magick foo.HEIC foo.jpg
+
+**Reference**: https://apple.stackexchange.com/questions/297134/how-to-convert-a-heif-heic-image-to-jpeg-in-macos
+
+> 📎 Source: https://apple.stackexchange.com/questions/297134/how-to-convert-a-heif-heic-image-to-jpeg-in-macos
+
+#### 152. How do I get detailed SMART disk information on OS X (Mavericks or later)
+
+**Issue**: How do I get detailed SMART disk information on OS X (Mavericks or later)
+**Tags / Source**: Tags: hard-drive, macos, diskutil | apple | 👍 123 | 💬 8 answers
+
+**Description**:
+Tags: hard-drive, macos, diskutil | Score: 123 | Views: 224005 | Answers: 8
+
+**Solution / Community Answer**:
+I recently had the same question and found a command line tool www.smartmontools.org which can be installed via brew:
+brew install smartmontools
+
+Also via MacPorts:
+sudo port install smartmontools
+
+you can then run it
+smartctl -a disk0s3
+
+for the full report where disk0s3 is the disks physical backing which can be found in Disk Utility.app by getting info on the drive. (or via diskutil list on command line.) Here is an example of the output:
+smartctl 6.2 2013-07-26 r3841 [x86_64-apple-darwin13.1.0] (local build)
+Copyright (C) 2002-13, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Samsung based SSDs
+Device Model:     Samsung SSD 840 Series
+Serial Number:    S14LNEAD609248A
+LU WWN Device Id: 5 002538 5503acd2e
+Firmware Version: DXT08B0Q
+User Capacity:    500,107,862,016 bytes [500 GB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    Solid State Device
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 4c
+SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Thu Jun 19 16:34:10 2014 MDT
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x00) Offline data collection activity
+                    was never started.
+                    Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0) The previous self-test routine completed
+                    without error or no self-test has ever 
+                    been run.
+Total time to complete Offline 
+data collection:        (53956) seconds.
+Offline data collection
+capabilities:            (0x53) SMART execute Offline immediate.
+                    Auto Offline data collection on/off support.
+                    Suspend Offline collection upon new
+                    command.
+                    No Offline surface scan supported.
+                    Self-test supported.
+                    No Conveyance Self-test supported.
+                    Selective Self-test supported.
+SMART capabilities:            (0x0003) Saves SMART data before entering
+                    power-saving mode.
+                    Supports SMART auto save timer.
+Error logging capability:        (0x01) Error logging supported.
+                    General Purpose Logging supported.
+Short self-test routine 
+recommended polling time:    (   2) minutes.
+Extended self-test routine
+recommended polling time:    (  70) minutes.
+SCT capabilities:          (0x003d) SCT Status supported.
+                    SCT Error Recovery Control supported.
+                    SCT Feature Control supported.
+                    SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 1
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   099   099   000    Old_age   Always       -       2379
+ 12 Power_Cycle_Count       0x0032   098   098   000    Old_age   Always       -       1579
+177 Wear_Leveling_Count     0x0013   096   096   000    Pre-fail  Always       -       38
+179 Used_Rsvd_Blk_Cnt_Tot   0x0013   100   100   010    Pre-fail  Always       -       0
+181 Program_Fail_Cnt_Total  0x0032   100   100   010    Old_age   Always       -       0
+182 Erase_Fail_Count_Total  0x0032   100   100   010    Old_age   Always       -       0
+183 Runtime_Bad_Block       0x0013   100   100   010    Pre-fail  Always       -       0
+187 Uncorrectable_Error_Cnt 0x0032   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0032   059   039   000    Old_age   Always       -       41
+195 ECC_Error_Rate          0x001a   200   200   000    Old_age   Always       -       0
+199 CRC_Error_Count         0x003e   100   100   000    Old_age   Always       -       0
+235 POR_Recovery_Count      0x0012   099   099   000    Old_age   Always       -       1571
+241 Total_LBAs_Written      0x0032   099   099   000    Old_age   Always       -       14090964124
+
+SMART Error Log Version: 1
+No Errors Logged
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+  255        0    65535  Read_scanning was never started
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+**Reference**: https://apple.stackexchange.com/questions/135565/how-do-i-get-detailed-smart-disk-information-on-os-x-mavericks-or-later
+
+> 📎 Source: https://apple.stackexchange.com/questions/135565/how-do-i-get-detailed-smart-disk-information-on-os-x-mavericks-or-later
+
+#### 153. What functionality do &#39;marks&#39; offer in the El Capitan Terminal?
+
+**Issue**: What functionality do &#39;marks&#39; offer in the El Capitan Terminal?
+**Tags / Source**: Tags: terminal, macos | apple | 👍 123 | 💬 2 answers
+
+**Description**:
+Tags: terminal, macos | Score: 123 | Views: 21018 | Answers: 2
+
+**Solution / Community Answer**:
+Marks in the Terminal
+
+The new Terminal marks (available starting with OS X 10.11 - El Capitan) are similar to Bookmarks, which are also available in the Terminal, allowing you to mark window positions and then giving you the option of going back at a later point.
+
+Marks (or Bookmarks) don't refer to your command history, but to the scroll buffer used in the Terminal window/tab.
+
+Marking a Line
+
+By default, every time you press Enter in the Terminal window, the line is marked, which is displayed using an opening bracket at the beginning of the line and a closing one at the very end. This default behavior can be turned off using the Edit > Marks > Automatically Mark Prompt Lines menu entry. When this is disabled, you can still manually execute and mark a command using Cmd+Enter (or with the Edit > Marks > Mark as Prompt and Send Return menu entry).
+
+If you have automatic marking enabled and want to run a command without marking it as a prompt, you can do this using Cmd+Shift+Enter (or with the Edit > Marks > Send Return Without Marking menu entry).
+
+Disabling Marks
+
+Automatic marking of lines can be disabled using the Edit > Marks > Automatically Mark Prompt Lines menu entry.
+
+From the command line, the same can be achieved using
+
+defaults write com.apple.Terminal AutoMarkPromptLines -bool NO
+
+
+Hiding Marks
+
+If you want to use the mark functionality, but don't want to see the brackets at the beginning and end of the line, you hide them using the View > Hide Marks menu entry. This will keep the below functionality intact, but will no longer show the brackets.
+
+Jumping between Marks
+
+Once a line has been marked, you can quickly jump to the previous mark using Cmd+Up or to the next one using Cmd+Down. Similar options are provided for Bookmarks, and for selecting to the next/previous mark:
+
+
+
+Manually Marking a Line
+
+In addition to the automatic marking, you can also manually add marks by selecting a line in the terminal output using the mouse, and then selecting the Edit > Marks > Mark as Prompt menu entry (or Cmd+U).
+
+Use Cases
+
+The Marks functionality is useful if some of your executed commands produce lots of output, and you quickly want to scroll to the position where you entered the command. Pressing Cmd+Up will take you there. Pressing it repeatedly will take you further up, while pressing Cmd+Down will take you back down again. The target location is conveniently highlighted as you jump/scroll around.
+
+
+
+Selecting Content
+
+The same marks functionality can be used for selecting Terminal output. Pressing Cmd+Shift+Up will select the content up to the previous mark, while Cmd+Shift+Down will select down to the next mark. This is useful when wanting to copy log output or other content from the Terminal.
+
+This functionality is also available from the Edit > Navigate menu while pressing the Shift key:
+
+
+
+Summary
+
+Having used this for a couple of days now, I find it incredibly useful. Scrolling up through hundreds of lines of output to find the beginning of the command's output has suddenly become a lot easier.
+
+I wonder why this new feature isn't mentioned more prominently - I haven't seen it in any of the El Capitan walkthroughs. The Terminal help currently does not provide any details on this feature either.
+
+**Reference**: https://apple.stackexchange.com/questions/209635/what-functionality-do-marks-offer-in-the-el-capitan-terminal
+
+> 📎 Source: https://apple.stackexchange.com/questions/209635/what-functionality-do-marks-offer-in-the-el-capitan-terminal
+
+#### 154. Can I see my CPU and memory usage meters in the menu bar?
+
+**Issue**: Can I see my CPU and memory usage meters in the menu bar?
+**Tags / Source**: Tags: macos, menu-bar, activity-monitor | apple | 👍 121 | 💬 28 answers
+
+**Description**:
+Tags: macos, menu-bar, activity-monitor | Score: 121 | Views: 217353 | Answers: 28
+
+**Solution / Community Answer**:
+One that hasn't been mentioned yet is Stats, which describes itself as a
+
+Simple macOS system monitor in your menu bar
+
+It's an excellent open source project (https://github.com/exelban/stats) that can be installed via:
+brew install stats
+
+
+On big sur, after downloading, open launchpad, search for 'stats', and open it. It will start showing up in the menu bar.
+
+**Reference**: https://apple.stackexchange.com/questions/1270/can-i-see-my-cpu-and-memory-usage-meters-in-the-menu-bar
+
+> 📎 Source: https://apple.stackexchange.com/questions/1270/can-i-see-my-cpu-and-memory-usage-meters-in-the-menu-bar
+
+#### 155. runaway distnoted process
+
+**Issue**: runaway distnoted process
+**Tags / Source**: Tags: launchd, macos | apple | 👍 121 | 💬 14 answers
+
+**Description**:
+Tags: launchd, macos | Score: 121 | Views: 116201 | Answers: 14
+
+**Solution / Community Answer**:
+I've seen this too.  Emacs 24.3.1, Mavericks 10.9.
+
+I've found that the distnoted process calms down within seconds after I quit out of Emacs.
+
+I've filed an Emacs bug here: http://permalink.gmane.org/gmane.emacs.bugs/80836
+
+**Reference**: https://apple.stackexchange.com/questions/111197/runaway-distnoted-process
+
+> 📎 Source: https://apple.stackexchange.com/questions/111197/runaway-distnoted-process
+
+#### 156. Is there a keyboard shortcut to bring up Finder?
+
+**Issue**: Is there a keyboard shortcut to bring up Finder?
+**Tags / Source**: Tags: macos, keyboard | apple | 👍 120 | 💬 20 answers
+
+**Description**:
+Tags: macos, keyboard | Score: 120 | Views: 171484 | Answers: 20
+
+**Solution / Community Answer**:
+It's actually easy. On Yosemite, just press option ⌥+command ⌘+spacebar. That will open a new Smart Finder window. You then can navigate from there. It works on a system level no matter what application you're running. 
+
+No need for scripts or complicated setups. 
+
+Turn this option on in System Preferences > keyboard > shortcuts > spotlight > "show finder search window" in recent versions. This can be mapped to other keys too, but it can cause conflicts in other apps that might be using your desired shortcut.
+
+**Reference**: https://apple.stackexchange.com/questions/114933/is-there-a-keyboard-shortcut-to-bring-up-finder
+
+> 📎 Source: https://apple.stackexchange.com/questions/114933/is-there-a-keyboard-shortcut-to-bring-up-finder
+
+#### 157. Make the Menu Bar never show while in Full Screen
+
+**Issue**: Make the Menu Bar never show while in Full Screen
+**Tags / Source**: Tags: macos, menu-bar, fullscreen | apple | 👍 120 | 💬 9 answers
+
+**Description**:
+Tags: macos, menu-bar, fullscreen | Score: 120 | Views: 62314 | Answers: 9
+
+**Solution / Community Answer**:
+Refer to the original page for detailed solutions and community answers.
+
+**Reference**: https://apple.stackexchange.com/questions/70985/make-the-menu-bar-never-show-while-in-full-screen
+
+> 📎 Source: https://apple.stackexchange.com/questions/70985/make-the-menu-bar-never-show-while-in-full-screen
+
+#### 158. How do I automate a key press in AppleScript?
+
+**Issue**: How do I automate a key press in AppleScript?
+**Tags / Source**: Tags: macos, mac, applescript | apple | 👍 119 | 💬 1 answers
+
+**Description**:
+Tags: macos, mac, applescript | Score: 119 | Views: 256210 | Answers: 1
+
+**Solution / Community Answer**:
+Run a script like this in AppleScript Editor:
+
+activate application "Firefox"
+repeat 100 times
+    tell application "System Events" to keystroke "a" using command down
+    delay (random number from 0.5 to 5)
+end repeat
+
+
+More examples:
+
+tell application "System Events"
+    key code 123 using {shift down, command down} -- shift-command-left
+end
+
+
+
+
+set old to (path to frontmost application as text)
+tell application "Notes"
+    reopen
+    activate
+end tell
+tell application "System Events" to keystroke "f" using {control down, command down}
+delay 1
+activate application old
+
+
+
+
+delay 0.5 -- time to release modifier keys if for example the script is run with command-R
+tell application "System Events" to tell process "Notification Center"
+    try
+        key down option
+        delay 0.1
+        click menu bar item 1 of menu bar 1
+    end try
+    key up option
+end tell
+
+
+See Events.h for a list of key codes.
+
+
+  $ grep '^ *kVK' /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Events.h|tr -d ,|while read x y z;do printf '%d %s %s\n' $z $z ${x#kVK_};done|sort -n
+  0 0x00 ANSI_A
+  1 0x01 ANSI_S
+  2 0x02 ANSI_D
+  3 0x03 ANSI_F
+  4 0x04 ANSI_H
+  5 0x05 ANSI_G
+  6 0x06 ANSI_Z
+  7 0x07 ANSI_X
+  8 0x08 ANSI_C
+  9 0x09 ANSI_V
+  10 0x0A ISO_Section
+  11 0x0B ANSI_B
+  12 0x0C ANSI_Q
+  13 0x0D ANSI_W
+  14 0x0E ANSI_E
+  15 0x0F ANSI_R
+  16 0x10 ANSI_Y
+  17 0x11 ANSI_T
+  18 0x12 ANSI_1
+  19 0x13 ANSI_2
+  20 0x14 ANSI_3
+  21 0x15 ANSI_4
+  22 0x16 ANSI_6
+  23 0x17 ANSI_5
+  24 0x18 ANSI_Equal
+  25 0x19 ANSI_9
+  26 0x1A ANSI_7
+  27 0x1B ANSI_Minus
+  28 0x1C ANSI_8
+  29 0x1D ANSI_0
+  30 0x1E ANSI_RightBracket
+  31 0x1F ANSI_O
+  32 0x20 ANSI_U
+  33 0x21 ANSI_LeftBracket
+  34 0x22 ANSI_I
+  35 0x23 ANSI_P
+  36 0x24 Return
+  37 0x25 ANSI_L
+  38 0x26 ANSI_J
+  39 0x27 ANSI_Quote
+  40 0x28 ANSI_K
+  41 0x29 ANSI_Semicolon
+  42 0x2A ANSI_Backslash
+  43 0x2B ANSI_Comma
+  44 0x2C ANSI_Slash
+  45 0x2D ANSI_N
+  46 0x2E ANSI_M
+  47 0x2F ANSI_Period
+  48 0x30 Tab
+  49 0x31 Space
+  50 0x32 ANSI_Grave
+  51 0x33 Delete
+  53 0x35 Escape
+  55 0x37 Command
+  56 0x38 Shift
+  57 0x39 CapsLock
+  58 0x3A Option
+  59 0x3B Control
+  60 0x3C RightShift
+  61 0x3D RightOption
+  62 0x3E RightControl
+  63 0x3F Function
+  64 0x40 F17
+  65 0x41 ANSI_KeypadDecimal
+  67 0x43 ANSI_KeypadMultiply
+  69 0x45 ANSI_KeypadPlus
+  71 0x47 ANSI_KeypadClear
+  72 0x48 VolumeUp
+  73 0x49 VolumeDown
+  74 0x4A Mute
+  75 0x4B ANSI_KeypadDivide
+  76 0x4C ANSI_KeypadEnter
+  78 0x4E ANSI_KeypadMinus
+  79 0x4F F18
+  80 0x50 F19
+  81 0x51 ANSI_KeypadEquals
+  82 0x52 ANSI_Keypad0
+  83 0x53 ANSI_Keypad1
+  84 0x54 ANSI_Keypad2
+  85 0x55 ANSI_Keypad3
+  86 0x56 ANSI_Keypad4
+  87 0x57 ANSI_Keypad5
+  88 0x58 ANSI_Keypad6
+  89 0x59 ANSI_Keypad7
+  90 0x5A F20
+  91 0x5B ANSI_Keypad8
+  92 0x5C ANSI_Keypad9
+  93 0x5D JIS_Yen
+  94 0x5E JIS_Underscore
+  95 0x5F JIS_KeypadComma
+  96 0x60 F5
+  97 0x61 F6
+  98 0x62 F7
+  99 0x63 F3
+  100 0x64 F8
+  101 0x65 F9
+  102 0x66 JIS_Eisu
+  103 0x67 F11
+  104 0x68 JIS_Kana
+  105 0x69 F13
+  106 0x6A F16
+  107 0x6B F14
+  109 0x6D F10
+  111 0x6F F12
+  113 0x71 F15
+  114 0x72 Help
+  115 0x73 Home
+  116 0x74 PageUp
+  117 0x75 ForwardDelete
+  118 0x76 F4
+  119 0x77 End
+  120 0x78 F2
+  121 0x79 PageDown
+  122 0x7A F1
+  123 0x7B LeftArrow
+  124 0x7C RightArrow
+  125 0x7D DownArrow
+  126 0x7E UpArrow
+
+
+You can also use AppleScript to click menu items:
+
+tell application "System Events" to tell (process 1 where frontmost is true)
+    click menu item "Minimize" of menu 1 of menu bar item "Window" of menu bar 1
+end tell
+
+
+
+
+tell application "System Events" to tell process "Finder"
+    set frontmost to true
+    tell menu bar item 3 of menu bar 1
+        click
+        click menu item "Open With" of menu 1
+    end tell
+end tell
+
+**Reference**: https://apple.stackexchange.com/questions/36943/how-do-i-automate-a-key-press-in-applescript
+
+> 📎 Source: https://apple.stackexchange.com/questions/36943/how-do-i-automate-a-key-press-in-applescript
+
+#### 159. What tiny thing in iOS 5 makes you smile, or has caught you off guard?
+
+**Issue**: What tiny thing in iOS 5 makes you smile, or has caught you off guard?
+**Tags / Source**: Tags: ios, macos | apple | 👍 117 | 💬 57 answers
+
+**Description**:
+Tags: ios, macos | Score: 117 | Views: 22520 | Answers: 57
+
+**Solution / Community Answer**:
+Usage shows how much space each app is using
+
+Settings -> General -> Usage
+
+iOS 5 now collects the space used by apps and the data in the app - sorted by the largest size. If you need to free up some space quickly, this is a great way to easily identify and remove the largest burdens on your storage space.
+
+ 
+ 
+
+
+Of specific tiny note, the edit button in the top right allows you to delete selective content from apps like Music.
+
+**Reference**: https://apple.stackexchange.com/questions/27761/what-tiny-thing-in-ios-5-makes-you-smile-or-has-caught-you-off-guard
+
+> 📎 Source: https://apple.stackexchange.com/questions/27761/what-tiny-thing-in-ios-5-makes-you-smile-or-has-caught-you-off-guard
+
+#### 160. macOS: Disable popup showing accented characters when holding down a key
+
+**Issue**: macOS: Disable popup showing accented characters when holding down a key
+**Tags / Source**: Tags: high-sierra, macos | apple | 👍 117 | 💬 3 answers
+
+**Description**:
+Tags: high-sierra, macos | Score: 117 | Views: 94454 | Answers: 3
+
+**Solution / Community Answer**:
+In macOS, when a key is held down while entering text, a popup is shown which lets one choose between various accented forms of the character. To disable this execute the following command line in the Terminal.app:
+defaults write -g ApplePressAndHoldEnabled -bool false
+
+Now, you'll need to log out and log back in. This should disable the display of the popup and character typed should start repeating when the key is held down.
+If you ever wish to return to this behaviour, execute the following command line in the Terminal.app:
+defaults write -g ApplePressAndHoldEnabled -bool true
+
+You'll need to log out and log back in again for the setting to take effect.
+
+**Reference**: https://apple.stackexchange.com/questions/332769/macos-disable-popup-showing-accented-characters-when-holding-down-a-key
+
+> 📎 Source: https://apple.stackexchange.com/questions/332769/macos-disable-popup-showing-accented-characters-when-holding-down-a-key
+
+#### 161. El Capitan, expand desktop thumbnails by default in Mission Control
+
+**Issue**: El Capitan, expand desktop thumbnails by default in Mission Control
+**Tags / Source**: Tags: mission-control, macos | apple | 👍 117 | 💬 17 answers
+
+**Description**:
+Tags: mission-control, macos | Score: 117 | Views: 23268 | Answers: 17
+
+**Solution / Community Answer**:
+Refer to the original page for detailed solutions and community answers.
+
+**Reference**: https://apple.stackexchange.com/questions/205446/el-capitan-expand-desktop-thumbnails-by-default-in-mission-control
+
+> 📎 Source: https://apple.stackexchange.com/questions/205446/el-capitan-expand-desktop-thumbnails-by-default-in-mission-control
+
+#### 162. How to decrease .pdf size without losing quality
+
+**Issue**: How to decrease .pdf size without losing quality
+**Tags / Source**: Tags: macos, pdf, preview | apple | 👍 115 | 💬 10 answers
+
+**Description**:
+Tags: macos, pdf, preview | Score: 115 | Views: 112149 | Answers: 10
+
+**Solution / Community Answer**:
+The problem is - the default filter used during conversion has very low conversion settings.
+Thankfully, a custom filter can be added.
+Adding custom filter step by step
+
+Create a new directory (if you don't have it) - /Library/Filters
+
+Note that you could use ~/Library/Filters, instead.
+
+
+Add there a new filter file with unique filter - i.e. Reduce Size with good quality.qfilter
+The file should contain XML with new filter - you can base on the /System/Library/Filters/Reduce File Size.qfilter file or use my below example. Change compression setting, image size and add unique display name for your filter.
+
+Filter file structure/example
+
+I marked key settings by comments.
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple Computer//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;dict&gt;
+    &lt;key&gt;Domains&lt;/key&gt;
+    &lt;dict&gt;
+        &lt;key&gt;Applications&lt;/key&gt;
+        &lt;true/&gt;
+        &lt;key&gt;Printing&lt;/key&gt;
+        &lt;true/&gt;
+    &lt;/dict&gt;
+    &lt;key&gt;FilterData&lt;/key&gt;
+    &lt;dict&gt;
+        &lt;key&gt;ColorSettings&lt;/key&gt;
+        &lt;dict&gt;
+            &lt;key&gt;DocumentColorSettings&lt;/key&gt;
+            &lt;dict&gt;
+                &lt;key&gt;CustomLHSCorrection&lt;/key&gt;
+                &lt;array&gt;
+                    &lt;integer&gt;8&lt;/integer&gt;
+                    &lt;integer&gt;8&lt;/integer&gt;
+                    &lt;integer&gt;8&lt;/integer&gt;
+                &lt;/array&gt;
+            &lt;/dict&gt;
+            &lt;key&gt;ImageSettings&lt;/key&gt;
+            &lt;dict&gt;
+                &lt;key&gt;Compression Quality&lt;/key&gt;
+    &lt;!-- ====== Set your custom quality &lt;0,1&gt; ======= --&gt;
+                &lt;real&gt;0.75&lt;/real&gt;
+                &lt;key&gt;ImageCompression&lt;/key&gt;
+                &lt;string&gt;ImageJPEGCompress&lt;/string&gt;
+                &lt;key&gt;ImageScaleSettings&lt;/key&gt;
+                &lt;dict&gt;
+                    &lt;key&gt;ImageScaleFactor&lt;/key&gt;
+    &lt;!-- ====== Set your scale factor &lt;0,1&gt; ======= --&gt;                 
+                    &lt;real&gt;0.75&lt;/real&gt;
+                    &lt;key&gt;ImageScaleInterpolate&lt;/key&gt;
+                    &lt;true/&gt;
+    &lt;!-- ====== Set what sizes your images can reach ======= --&gt;                    
+                    &lt;key&gt;ImageSizeMax&lt;/key&gt;
+                    &lt;integer&gt;1684&lt;/integer&gt;
+                    &lt;key&gt;ImageSizeMin&lt;/key&gt;
+                    &lt;integer&gt;1200&lt;/integer&gt;
+                &lt;/dict&gt;
+            &lt;/dict&gt;
+        &lt;/dict&gt;
+    &lt;/dict&gt;
+    &lt;key&gt;FilterType&lt;/key&gt;
+    &lt;integer&gt;1&lt;/integer&gt;
+    &lt;key&gt;Name&lt;/key&gt;
+&lt;!-- ====== Set unique display name for your filter ======= --&gt;
+    &lt;string&gt;Reduce Size Good Quality&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
+
+Result
+Select your new filter when exporting file.
+
+
+Helpful articles:
+
+https://www.macworld.com/article/1168311/software/shrink-preview-files-without-ruining-image-quality.html
+
+**Reference**: https://apple.stackexchange.com/questions/297417/how-to-decrease-pdf-size-without-losing-quality
+
+> 📎 Source: https://apple.stackexchange.com/questions/297417/how-to-decrease-pdf-size-without-losing-quality
+
+#### 163. How to use pip after the OS X El Capitan upgrade?
+
+**Issue**: How to use pip after the OS X El Capitan upgrade?
+**Tags / Source**: Tags: macos, permission, python, authorization | apple | 👍 115 | 💬 12 answers
+
+**Description**:
+Tags: macos, permission, python, authorization | Score: 115 | Views: 171062 | Answers: 12
+
+**Solution / Community Answer**:
+A quick solution is to use homebrew to install python into /usr/local/bin so that your pip can run against a user-modifiable python framework.
+
+brew install python
+pip --version
+
+
+Disabling System Integrity Protection is also an option, but I don't recommend that for anything but professionally managed and fire walled servers where you have the manpower to manage intrusion detection or if you are a developer/sysadmin and need to test things with and without SIP.
+
+ls -lO /System/Library/Frameworks/Python.framework/Versions/2.7/
+csrutil status
+
+
+You will see that the restricted flag is set which cannot be removed even as root while SIP is engaged.
+
+Using homebrew makes it possible to manage pip and python separately than the system provided version. As a bonus, the homebrew framework is designed to ease maintainance and patch/chores via automation.
+
+**Reference**: https://apple.stackexchange.com/questions/209572/how-to-use-pip-after-the-os-x-el-capitan-upgrade
+
+> 📎 Source: https://apple.stackexchange.com/questions/209572/how-to-use-pip-after-the-os-x-el-capitan-upgrade
+
+#### 164. How to show hidden files and folders in Finder?
+
+**Issue**: How to show hidden files and folders in Finder?
+**Tags / Source**: Tags: finder, macos | apple | 👍 115 | 💬 4 answers
+
+**Description**:
+Tags: finder, macos | Score: 115 | Views: 85173 | Answers: 4
+
+**Solution / Community Answer**:
+I don't think you can set this for individual folders. To set it globally, so that Finder always shows hidden files, run Terminal and enter the following two commands:
+defaults write com.apple.finder AppleShowAllFiles true
+killall Finder
+
+To switch back, do the same but substitute false for true.
+This works all the way through macOS Catalina (and betas for Big Sur).
+
+**Reference**: https://apple.stackexchange.com/questions/5870/how-to-show-hidden-files-and-folders-in-finder
+
+> 📎 Source: https://apple.stackexchange.com/questions/5870/how-to-show-hidden-files-and-folders-in-finder
+
+#### 165. Is there a Google Calendar Mac Desktop App?
+
+**Issue**: Is there a Google Calendar Mac Desktop App?
+**Tags / Source**: Tags: macos, google-calendar | apple | 👍 115 | 💬 6 answers
+
+**Description**:
+Tags: macos, google-calendar | Score: 115 | Views: 638088 | Answers: 6
+
+**Solution / Community Answer**:
+Here's another way, adding Google Calendar as a Chrome App with standalone window. The calendar is then available in Launchpad and the Dock.
+
+Navigate Chrome to your calendar URL, e.g https://calendar.google.com
+Create Chrome App shortcut from the URL - Chrome drop down menu (3 dots icon on top right) &gt; Save and Share &gt; Create Shortcut
+
+
+
+Note: check the &quot;Open as window&quot; box
+
+
+Open the &quot;Google Calendar&quot; from Chrome Apps or Launchpad!
+
+
+
+Select &quot;Keep in Dock&quot; to keep the calendar icon in the MacOS Dock (optional)
+
+
+That's it! Your Google Calendar App is now available as a standalone window app from the MacOS Dock and Launchpad.
+
+**Reference**: https://apple.stackexchange.com/questions/236444/is-there-a-google-calendar-mac-desktop-app
+
+> 📎 Source: https://apple.stackexchange.com/questions/236444/is-there-a-google-calendar-mac-desktop-app
+
+#### 166. VirtualBox 5.1.28 fails to install on MacOS 10.13 due to KEXT security
+
+**Issue**: VirtualBox 5.1.28 fails to install on MacOS 10.13 due to KEXT security
+**Tags / Source**: Tags: macos, security, virtualbox, high-sierra, kernel-extensions | apple | 👍 114 | 💬 6 answers
+
+**Description**:
+Tags: macos, security, virtualbox, high-sierra, kernel-extensions | Score: 114 | Views: 126759 | Answers: 6
+
+**Solution / Community Answer**:
+Managed to solve it.
+
+
+Eject the VirtualBox image from: Finder > Devices
+
+
+Now allow the exception in: System Preferences > Security &amp; Privacy
+
+
+Finally but not least click Allow button so that way the developer with the name "Oracle America, Inc" will be accepted and the installer using that certificate will run just fine (basically this installer is signed using "Oracle America, Inc" certificate so we are required to enable it use on our machine first)
+Then try to install from the .dmg again so that it remounts the device.
+
+
+Now its working fine for me.
+
+**Reference**: https://apple.stackexchange.com/questions/301303/virtualbox-5-1-28-fails-to-install-on-macos-10-13-due-to-kext-security
+
+> 📎 Source: https://apple.stackexchange.com/questions/301303/virtualbox-5-1-28-fails-to-install-on-macos-10-13-due-to-kext-security
+
+#### 167. Yosemite bluetooth audio is choppy/skips
+
+**Issue**: Yosemite bluetooth audio is choppy/skips
+**Tags / Source**: Tags: macbook-pro, macos, audio, bluetooth | apple | 👍 114 | 💬 3 answers
+
+**Description**:
+Tags: macbook-pro, macos, audio, bluetooth | Score: 114 | Views: 126425 | Answers: 3
+
+**Solution / Community Answer**:
+It's an issue with the amount of power/bandwidth supplied to the BluetoothAudioAgent, the daemon in charge of streaming. Apparently most people have had success by entering the following command in terminal.app: 
+
+defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
+
+Source: http://lifehacker.com/fix-your-bluetooth-audio-in-yosemite-with-this-terminal-1670380974
+
+The source article lists Yosemite as the specific OS this applies to, but I know that this fix also works back to Mavericks and (possibly) Snow Leopard (untested).
+
+I am having this exact issue at the moment and entered that command with non-noticeable results. I'm going to reboot the machine and see if that takes the new settings into account. But it seems like this command is the way that the wide majority of people have resolved this issue. 
+
+EDIT: Just rebooted, the audio quality is significantly better. No noticeable choppiness whatsoever (knock on wood). It appears that the command I posted above does seem to resolve the issue. 
+
+EDIT 2 (2015-8-24): The above command does help in many cases and produces noticeable quality improvements. Unfortunately, however, Yosemite is very moody with regard to bluetooth audio. The problem compounds itself when in proximity of other bluetooth devices. To expand on my previous answer above, I highly recommend entering the following additional commands to increase other bluetooth audio parameters:
+
+defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Max (editable)" 80 
+defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" 48 
+defaults write com.apple.BluetoothAudioAgent "Apple Initial Bitpool (editable)" 40 
+defaults write com.apple.BluetoothAudioAgent "Apple Initial Bitpool Min (editable)" 40 
+defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool" 58 
+defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool Max" 58 
+defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool Min" 48
+
+
+EDIT 3 (2015-9-08): Alright. I'm sorry I keep updating this answer, but I keep finding more information about this issue (since improving bluetooth audio on Yosemite is a long-term effort, apparently). I've found several sources that cut straight to the mustard and set everything to 80 which appears to be the maximum allowable value for Bitpool settings. If the above settings don't work well enough for you, try the "All In&trade;" approach.
+
+defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Max (editable)" 80 
+defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" 80 
+defaults write com.apple.BluetoothAudioAgent "Apple Initial Bitpool (editable)" 80 
+defaults write com.apple.BluetoothAudioAgent "Apple Initial Bitpool Min (editable)" 80 
+defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool" 80 
+defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool Max" 80 
+defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool Min" 80
+
+
+To see your current defaults:
+
+defaults read com.apple.BluetoothAudioAgent
+
+
+Edit 4 (2016-07-14): One more (hopefully last) edit. Make sure that you restart the bluetoothaudiod (or coreaudiod) service after making changes to these settings. 
+
+sudo killall bluetoothaudiod
+
+
+Or, if you are on El Capitan:
+
+sudo killall coreaudiod
+
+
+Credit for this goes to the multiple wise nerds below who suggested it. (Thank you!)
+
+**Reference**: https://apple.stackexchange.com/questions/167245/yosemite-bluetooth-audio-is-choppy-skips
+
+> 📎 Source: https://apple.stackexchange.com/questions/167245/yosemite-bluetooth-audio-is-choppy-skips
+
+#### 168. How to make right click for the selected content using only keyboard on a Mac?
+
+**Issue**: How to make right click for the selected content using only keyboard on a Mac?
+**Tags / Source**: Tags: macos, keyboard, shortcut, contextual-menu | apple | 👍 114 | 💬 11 answers
+
+**Description**:
+Tags: macos, keyboard, shortcut, contextual-menu | Score: 114 | Views: 105261 | Answers: 11
+
+**Solution / Community Answer**:
+I don't know any way to show a context menu for items selected with the keyboard like what the menu key does in Windows.
+
+To assign a keyboard shortcut for performing a secondary click at the current coordinates of the pointer, you can either:
+
+
+Use a private.xml like this with Karabiner:
+
+&lt;?xml version="1.0"?&gt;
+&lt;root&gt;
+  &lt;item&gt;
+    &lt;name&gt;Right Mousebutton&lt;/name&gt;
+    &lt;identifier&gt;rightMouseButton&lt;/identifier&gt;
+    &lt;autogen&gt;__KeyToKey__ KeyCode::OPTION_R, PointingButton::RIGHT&lt;/autogen&gt;
+  &lt;/item&gt;
+&lt;/root&gt;
+
+Use BetterTouchTool:
+
+
+Use Keyboard Maestro:
+
+
+Download MouseTools and assign a shortcut to MouseTools -rightClick.
+
+**Reference**: https://apple.stackexchange.com/questions/119699/how-to-make-right-click-for-the-selected-content-using-only-keyboard-on-a-mac
+
+> 📎 Source: https://apple.stackexchange.com/questions/119699/how-to-make-right-click-for-the-selected-content-using-only-keyboard-on-a-mac
+
+#### 169. reattach terminal tab to another window
+
+**Issue**: reattach terminal tab to another window
+**Tags / Source**: Tags: terminal | apple | 👍 114 | 💬 6 answers
+
+**Description**:
+Tags: terminal | Score: 114 | Views: 52605 | Answers: 6
+
+**Solution / Community Answer**:
+You need to, in the window you want to move, go to View-> Show Tab Bar (if the tab bar isn't showing already).
+
+Then, drag the tab of the window you want to move onto the window you want to move it to.
+
+Update for iTerm 2: In iTerm 2 the setting is no longer exposed in the View menu.  Go to iTerm > Preferences > Appearance > Tabs and check "Show tab bar even when there is only one tab". Note that in early releases of iTerm 2 the setting was "Hide tab bar when there is only one tab".
+
+**Reference**: https://apple.stackexchange.com/questions/14704/reattach-terminal-tab-to-another-window
+
+> 📎 Source: https://apple.stackexchange.com/questions/14704/reattach-terminal-tab-to-another-window
+
+#### 170. How to type a NORMAL tilde sign (~) in Mac?
+
+**Issue**: How to type a NORMAL tilde sign (~) in Mac?
+**Tags / Source**: Tags: macos, keyboard | apple | 👍 113 | 💬 12 answers
+
+**Description**:
+Tags: macos, keyboard | Score: 113 | Views: 574154 | Answers: 12
+
+**Solution / Community Answer**:
+You type the accent tilde (shift `) then space: ~
+
+**Reference**: https://apple.stackexchange.com/questions/135135/how-to-type-a-normal-tilde-sign-in-mac
+
+> 📎 Source: https://apple.stackexchange.com/questions/135135/how-to-type-a-normal-tilde-sign-in-mac
+
+#### 171. How to add permanent environment variable in zsh
+
+**Issue**: How to add permanent environment variable in zsh
+**Tags / Source**: Tags: macos, python, zsh, environment-variables | apple | 👍 113 | 💬 7 answers
+
+**Description**:
+Tags: macos, python, zsh, environment-variables | Score: 113 | Views: 331058 | Answers: 7
+
+**Solution / Community Answer**:
+Bash
+
+Since Bash is typically the default shell you can open up this file in your home directory:
+
+$ vim ~/.bash_profile
+
+
+And add your variable to this file:
+
+export ENV_VAR=12345
+
+
+You can do this without even having to edit this file if you like, using the following one-liner:
+
+$ echo 'export ENV_VAR=12345' &gt;&gt; ~/.bash_profile
+
+
+And then confirm like so:
+
+$ cat ~/.bash_profile
+for i in ~/.bash_profile.d/[0-9]*; do
+  . "$i"
+done
+export ENV_VAR=12345
+
+
+After doing the above, if you open a new terminal you should see that environment variable has been set:
+
+$ echo $ENV_VAR
+12345
+
+
+Zsh
+
+If you find that you're using an alternative shell such as zsh, that uses a different set of configuration files maintained within your home directory, ~. Luckily the syntax of the changes is basically the same, just different files. So you can add the above example to this file instead:
+
+$ echo 'export ENV_VAR=12345' &gt;&gt; ~/.zshenv
+
+
+And then when you launch a zsh:
+
+$ echo $ENV_VAR
+12345
+
+
+References
+
+
+Zsh Startup Files
+
+**Reference**: https://apple.stackexchange.com/questions/356441/how-to-add-permanent-environment-variable-in-zsh
+
+> 📎 Source: https://apple.stackexchange.com/questions/356441/how-to-add-permanent-environment-variable-in-zsh
+
+#### 172. macOS: Navigating between desktops using keyboard shortcuts
+
+**Issue**: macOS: Navigating between desktops using keyboard shortcuts
+**Tags / Source**: Tags: macos, shortcut, desktop, mission-control, navigation | apple | 👍 113 | 💬 5 answers
+
+**Description**:
+Tags: macos, shortcut, desktop, mission-control, navigation | Score: 113 | Views: 320011 | Answers: 5
+
+**Solution / Community Answer**:
+On macOS Monterey 12 or earlier:
+
+Go to System Preferences app → Keyboard → Shortcuts and you can assign keyboard shortcuts to move across Spaces (desktops).
+
+
+On macOS Ventura 13 or later:
+
+Go to System Settings app → Keyboard Shortcuts... and you can assign keyboard shortcuts to move across Spaces (desktops).
+
+
+You can also use the F3 (Mission Control) key on your Mac's keyboard to get a birds eye view of all the Spaces (desktops in Mac parlance) and quickly and directly switch to the desired one. However, this will also involve using the mouse/trackpad.
+If you are looking for a 3rd-party tool which lets you customize keyboard shortcuts with much fine grain control, a popular app among users of macOS is Karabiner.
+
+**Reference**: https://apple.stackexchange.com/questions/362614/macos-navigating-between-desktops-using-keyboard-shortcuts
+
+> 📎 Source: https://apple.stackexchange.com/questions/362614/macos-navigating-between-desktops-using-keyboard-shortcuts
+
+#### 173. How do you force a 5 GHz wifi connection?
+
+**Issue**: How do you force a 5 GHz wifi connection?
+**Tags / Source**: Tags: macos, wifi, airport | apple | 👍 113 | 💬 14 answers
+
+**Description**:
+Tags: macos, wifi, airport | Score: 113 | Views: 305933 | Answers: 14
+
+**Solution / Community Answer**:
+In short: you can not force a frequency band in OS X 10.9 Mavericks. (On 10.5 you could...)
+You want to connect to the device using Basic Service Set Identification (BSSID) instead of the regular Service Set Identification (SSID). Connecting to a BSSID will connect you to a specific device regardless of the connection strength. Connecting to SSID will only connect you to a specific network name and if similar network names are available, it would connect to the best signal/noise ratio. It must be noted that your OS X chooses the wlan, not your router, and OS X switches to the strongest signal available (2.4GHz or 5GHz).
+To find a specific SSID and BSSID combination, you can run:
+/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport scan
+
+Before OSX 10.6 you could connect to a specific BSSID using:
+/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport --associate=XXX --bssid=YYY
+
+Where XXX is the SSID/network name and YYY the MAC address of the base station you want to talk to.
+On OS X 10.6 and beyond it is no longer possible to connect to BSSID directly. There is no known API for this and no third party Software exists that can do this. So you need to change your 5GHz SSID to a unique name or you need to go back to OS X 10.5, or you can change the 2.4GHz channel from within the router. I think these options are non-valid in your case.
+UPDATE As maxim points out, you can force a frequency band and use that to fix to 5GHz.
+On linux you can use iwconfig, but this tool is not available for OS X.
+
+**Reference**: https://apple.stackexchange.com/questions/131852/how-do-you-force-a-5-ghz-wifi-connection
+
+> 📎 Source: https://apple.stackexchange.com/questions/131852/how-do-you-force-a-5-ghz-wifi-connection
+
+#### 174. Right-click, create a new text file. How?
+
+**Issue**: Right-click, create a new text file. How?
+**Tags / Source**: Tags: macos, finder, contextual-menu | apple | 👍 113 | 💬 12 answers
+
+**Description**:
+Tags: macos, finder, contextual-menu | Score: 113 | Views: 145494 | Answers: 12
+
+**Solution / Community Answer**:
+I am using XtraFinder plugin for Mac OS's built in Finder. It has most of the features including create new file in finder options.
+
+You'll love it like I do
+
+;)
+
+**Reference**: https://apple.stackexchange.com/questions/94755/right-click-create-a-new-text-file-how
+
+> 📎 Source: https://apple.stackexchange.com/questions/94755/right-click-create-a-new-text-file-how
+
+#### 175. Creating A Bootable USB Of Windows 8.1 On OS X?
+
+**Issue**: Creating A Bootable USB Of Windows 8.1 On OS X?
+**Tags / Source**: Tags: macos, bootcamp, usb, startup, windows | apple | 👍 112 | 💬 3 answers
+
+**Description**:
+Tags: macos, bootcamp, usb, startup, windows | Score: 112 | Views: 259697 | Answers: 3
+
+**Solution / Community Answer**:
+I am not really sure why you would want to install Windows 8.1 without BootCamp.
+
+The USB stick needs to be a little bigger than the .iso file you are going to be burning. It doesn't matter if there is any data on it, this will totally erase the whole thing.
+
+
+
+Steps To Achieve Victory
+
+
+Download the ISO you want to use
+Open Terminal (in /Applications/Utilities)
+
+2.1 Navigate to the path where the .iso file is located
+
+2.2 Use ls to list all the folders 
+
+2.3 cd /path/to/iso to dive in to folder or cd .. to go back the path  
+Convert .iso to .img using hdiutil:
+hdiutil convert -format UDRW -o /path/to/target.img /path/to/source.iso
+Rename if OS X gave it a .dmg ending:
+mv /path/to/target.img.dmg path/to/target.img
+Type diskutil list to get a list of currently connected devices
+Insert USB drive you want to use
+Run diskutil list again to see what your USB stick gets assigned
+eg - /dev/disk3
+Run diskutil unmountDisk /dev/diskN (where N is the number assigned to your USB stick, in previous example it would be 3)
+Run sudo dd if=/path/to/target.img of=/dev/diskN bs=1m (if you get an error, replace bs=1m with bs=1M
+Run diskutil eject /dev/diskN and remove your USB stick
+The USB stick will now be ready to use
+
+
+
+
+IMPORTANT For the step #9 you can use the destination to /dev/rdiskN to reduce the copy time.
+
+NOTE: Sometimes, not always, Step #4 will be necessary. Not all the time. I am not sure why it will add the .dmg ending and other times leave it alone.
+
+NOTE 2: Might I suggest you learn the name of the .iso you downloaded, or just rename it win8.1.iso or something, and put it on your Desktop folder. That way, when you are typing commands like #3 and #4 etc, etc, you can type it like this:
+
+hdiutil convert -format UDRW -o ~/Desktop/win8.1.img ~/Desktop/win8.1.iso
+
+
+and 
+
+mv ~/Desktop/win8.1.img.dmg ~/Desktop/win8.1.img
+
+
+and step #9 would look like this:
+
+sudo dd if=~/Desktop/win8.1.img of=/dev/diskN bs=1m
+
+
+
+
+IMPORTANT - You can track the progress by pressing CTRL + T It will show the process info and records in and out, since we use the bs=1m each record is 1Mb in size so you can easily track the progress.
+
+
+
+I don't mean to be insulting with Note and Note2, I am just making sure that you know what all these commands mean. It's the simplest method. Unless someone else comes up with something better.
+
+**Reference**: https://apple.stackexchange.com/questions/103874/creating-a-bootable-usb-of-windows-8-1-on-os-x
+
+> 📎 Source: https://apple.stackexchange.com/questions/103874/creating-a-bootable-usb-of-windows-8-1-on-os-x
+
+#### 176. How to copy path of a file in Mac OS?
+
+**Issue**: How to copy path of a file in Mac OS?
+**Tags / Source**: Tags: macos | apple | 👍 111 | 💬 1 answers
+
+**Description**:
+Tags: macos | Score: 111 | Views: 277660 | Answers: 1
+
+**Solution / Community Answer**:
+All you need to do to copy any items path name directly to the clipboard from anywhere in the file system:
+
+Navigate to the file or folder you wish to copy the path for Right-click (or Control+Click, or a Two-Finger click on trackpads) on the file or folder in the Mac Finder
+While in the right-click menu, hold down the OPTION key to reveal the “Copy (item name) as Pathname” option, it replaces the standard Copy option Once selected, the file or folders path is now in the clipboard, ready to be pasted anywhere
+
+The copied pathname is always the complete path, it’s not relative.
+You can get the same result with a keyboard shortcut of Command+Option+C.
+Source http://osxdaily.com/2015/11/05/copy-file-path-name-text-mac-os-x-finder/
+
+**Reference**: https://apple.stackexchange.com/questions/338898/how-to-copy-path-of-a-file-in-mac-os
+
+> 📎 Source: https://apple.stackexchange.com/questions/338898/how-to-copy-path-of-a-file-in-mac-os
+
+#### 177. Where can I find default Microsoft fonts Calibri, Cambria?
+
+**Issue**: Where can I find default Microsoft fonts Calibri, Cambria?
+**Tags / Source**: Tags: macos, ms-office, font, font-book | apple | 👍 111 | 💬 5 answers
+
+**Description**:
+Tags: macos, ms-office, font, font-book | Score: 111 | Views: 244123 | Answers: 5
+
+**Solution / Community Answer**:
+To find and install default Microsoft fonts on a Mac:
+
+Navigate HERE in your browser.
+Download the .ZIP file.
+Unzip it (double-click it).
+Open the folder that appears.
+Select all the .TTF files inside the folder.
+With the files selected, right-click.
+From the pop-up menu, choose &quot;open with → Font Book&quot;.
+Click &quot;Install Font&quot; for each font.
+
+Note: Changes to fonts take effect when an application is opened or a user logs in to the account or computer on which the changes occurred, see support.apple.com.
+
+**Reference**: https://apple.stackexchange.com/questions/128091/where-can-i-find-default-microsoft-fonts-calibri-cambria
+
+> 📎 Source: https://apple.stackexchange.com/questions/128091/where-can-i-find-default-microsoft-fonts-calibri-cambria
+
+#### 178. No partition scheme option when erasing a USB disk in MacOS High Sierra?
+
+**Issue**: No partition scheme option when erasing a USB disk in MacOS High Sierra?
+**Tags / Source**: Tags: macos, partition | apple | 👍 110 | 💬 1 answers
+
+**Description**:
+Tags: macos, partition | Score: 110 | Views: 196975 | Answers: 1
+
+**Solution / Community Answer**:
+I thought I had the same issue but it's probably because in the view options at the top left corner of the Disk Utility window, "Show Only Volumes" is selected. 
+
+In order to change the partition map, it seems you have to select the actual disk. So simply select view - show all devices, then select the actual drive you're trying to reformat, then when trying to erase, you should have the option to choose a partition scheme. 
+
+Hope this helps!
+
+**Reference**: https://apple.stackexchange.com/questions/304131/no-partition-scheme-option-when-erasing-a-usb-disk-in-macos-high-sierra
+
+> 📎 Source: https://apple.stackexchange.com/questions/304131/no-partition-scheme-option-when-erasing-a-usb-disk-in-macos-high-sierra
+
+#### 179. Why is my host name wrong at the Terminal prompt when connected to a public WiFi network?
+
+**Issue**: Why is my host name wrong at the Terminal prompt when connected to a public WiFi network?
+**Tags / Source**: Tags: terminal, network, sharing | apple | 👍 110 | 💬 5 answers
+
+**Description**:
+Tags: terminal, network, sharing | Score: 110 | Views: 149693 | Answers: 5
+
+**Solution / Community Answer**:
+Type in Terminal:
+
+scutil --get HostName
+
+
+If there's no HostName available, what you see is probably coming from the DNS or DHCP server.  
+
+Set your HostName with:
+
+sudo scutil --set HostName 'yourHostName'
+
+
+That should do it.
+
+**Reference**: https://apple.stackexchange.com/questions/40734/why-is-my-host-name-wrong-at-the-terminal-prompt-when-connected-to-a-public-wifi
+
+> 📎 Source: https://apple.stackexchange.com/questions/40734/why-is-my-host-name-wrong-at-the-terminal-prompt-when-connected-to-a-public-wifi
+
+#### 180. OS X Terminal &quot;must have&quot; utilities
+
+**Issue**: OS X Terminal &quot;must have&quot; utilities
+**Tags / Source**: Tags: macos, mac, terminal, utilities | apple | 👍 109 | 💬 25 answers
+
+**Description**:
+Tags: macos, mac, terminal, utilities | Score: 109 | Views: 199906 | Answers: 25
+
+**Solution / Community Answer**:
+Homebrew
+
+The missing package manager for OS X.
+
+It is an amazing package manager, very light and easy to use. KIS Principle, that makes me think of archlinux. Its community is big and very active.
+(see also macports which brew doesn't replace completely, I prefer installing packages with brew, but some complex ones are only on macports)
+See also brew tap command which provides some missing formulas that can be useful like when you need latest php version &gt; brew tap josegonzalez/php.
+(Homebrew has a policy of not replacing system components, but hey, sometimes you have to)
+
+**Reference**: https://apple.stackexchange.com/questions/12161/os-x-terminal-must-have-utilities
+
+> 📎 Source: https://apple.stackexchange.com/questions/12161/os-x-terminal-must-have-utilities
+
+#### 181. how to find out the start time of last sleep
+
+**Issue**: how to find out the start time of last sleep
+**Tags / Source**: Tags: macos, mac, sleep-wake | apple | 👍 109 | 💬 4 answers
+
+**Description**:
+Tags: macos, mac, sleep-wake | Score: 109 | Views: 79405 | Answers: 4
+
+**Solution / Community Answer**:
+Actually, something like
+pmset -g log|grep -e &quot; Sleep  &quot; -e &quot; Wake  &quot;
+
+is what really gives me a clean timeline of sleep/wake events on 10.8.2. powerd does not log anything about it, at least on my system (10.8.2, MacBook Pro Retina 15).
+02/03/13 19:48:37 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:99%)                              26 secs   
+02/03/13 19:49:03 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:99%)                              27 secs   
+02/03/13 19:49:30 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:99%)                              26 secs   
+02/03/13 19:49:56 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:99%)                              26 secs   
+02/03/13 19:50:22 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:99%)                              26 secs   
+02/03/13 19:50:48 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:99%)                              26 secs   
+02/03/13 19:51:14 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:100%)                             1802 secs 
+02/03/13 20:39:17 GMT-03 Sleep      Maintenance Sleep Sleep: Using BATT (Charge:100%)                           244 secs  
+02/03/13 20:43:21 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:100%)                             51 secs   
+02/03/13 21:07:17 GMT-03 Sleep      Maintenance Sleep Sleep: Using BATT (Charge:100%)                           242 secs  
+02/03/13 21:11:19 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:100%)                             1103 secs 
+02/03/13 21:29:42 GMT-03 Wake       Wake due to EC.LidOpen/Lid Open: Using AC (Charge:100%)                     
+03/03/13 00:00:26 GMT-03 Sleep      Idle Sleep Sleep: Using BATT (Charge:85%)                                   96 secs   
+03/03/13 00:02:02 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:85%)                              38 secs   
+03/03/13 00:02:40 GMT-03 Wake       Wake due to EHC1/HID Activity: Using AC (Charge:85%)                        4338 secs 
+03/03/13 01:14:58 GMT-03 Sleep      Clamshell Sleep to DarkWake: Using AC (Charge:100%)                         48382 secs
+03/03/13 14:41:20 GMT-03 Wake       DarkWake to FullWake due to HID Activity: Using AC (Charge:100%)            728 secs  
+03/03/13 14:53:28 GMT-03 Sleep      Clamshell Sleep to DarkWake: Using AC (Charge:100%)                         415 secs  
+03/03/13 15:00:23 GMT-03 Wake       DarkWake to FullWake due to HID Activity: Using AC (Charge:100%)            718 secs  
+03/03/13 15:12:21 GMT-03 Sleep      Clamshell Sleep to DarkWake: Using AC (Charge:100%)                         156 secs  
+03/03/13 15:14:57 GMT-03 Wake       DarkWake to FullWake due to HID Activity: Using AC (Charge:100%)            834 secs  
+03/03/13 15:28:51 GMT-03 Sleep      Clamshell Sleep to DarkWake: Using AC (Charge:100%)                         378 secs 
+03/03/13 15:35:09 GMT-03 Wake       DarkWake to FullWake due to HID Activity: Using AC (Charge:100%)
+
+**Reference**: https://apple.stackexchange.com/questions/52064/how-to-find-out-the-start-time-of-last-sleep
+
+> 📎 Source: https://apple.stackexchange.com/questions/52064/how-to-find-out-the-start-time-of-last-sleep
+
+#### 182. MacBook Pro Bluetooth Audio balance keeps changing by itself
+
+**Issue**: MacBook Pro Bluetooth Audio balance keeps changing by itself
+**Tags / Source**: Tags: macos, audio, bluetooth | apple | 👍 109 | 💬 2 answers
+
+**Description**:
+Tags: macos, audio, bluetooth | Score: 109 | Views: 54656 | Answers: 2
+
+**Solution / Community Answer**:
+This is not the solution to the bug, however, there is an open source MacOS app that is a workaround. It watches for balance changes and centres immediately.
+
+Disclaimer: I made the application. I had similar problems with both Bluetooth headphones and normal headphones.
+
+**Reference**: https://apple.stackexchange.com/questions/280145/macbook-pro-bluetooth-audio-balance-keeps-changing-by-itself
+
+> 📎 Source: https://apple.stackexchange.com/questions/280145/macbook-pro-bluetooth-audio-balance-keeps-changing-by-itself
+
+#### 183. How can I make all folders in Finder &quot;snap to grid&quot;?
+
+**Issue**: How can I make all folders in Finder &quot;snap to grid&quot;?
+**Tags / Source**: Tags: macos, finder | apple | 👍 108 | 💬 3 answers
+
+**Description**:
+Tags: macos, finder | Score: 108 | Views: 171654 | Answers: 3
+
+**Solution / Community Answer**:
+The following steps applied &quot;Snap to Grid&quot; even for previously created folders.
+Tested on:
+
+10.6.x
+10.7.3
+10.8.x
+10.9.x
+10.12.5
+10.15.7
+12.x
+
+
+Go to any folder control
+Control click on the empty space
+Click on Show View Options
+In the &quot;Sort by&quot; drop down bar select &quot;Snap to Grid&quot;
+At the bottom of the window click on the &quot;Use as Defaults&quot;
+button
+
+NOTE: Because this will become the default setup for ALL Finder windows you may consider manipulating the Icon size, Grid spacing, Text size, Label position, Background, etc... accordingly.
+ALSO: If folders do not appear to have snapped to grid on a previously created folder, Relaunch Finder or you could try to toggle the &quot;Icon size&quot; down and back up too refresh the current window.
+This is where it is on 10.15 Catalina:
+
+**Reference**: https://apple.stackexchange.com/questions/50508/how-can-i-make-all-folders-in-finder-snap-to-grid
+
+> 📎 Source: https://apple.stackexchange.com/questions/50508/how-can-i-make-all-folders-in-finder-snap-to-grid
+
+#### 184. What features of Mavericks are beneficial to you?
+
+**Issue**: What features of Mavericks are beneficial to you?
+**Tags / Source**: Tags: macos | apple | 👍 107 | 💬 53 answers
+
+**Description**:
+Tags: macos | Score: 107 | Views: 21051 | Answers: 53
+
+**Solution / Community Answer**:
+The overhaul of the virtual memory system makes it clear that memory pressure is the primary factor to track and not how many free pages, inactive pages or overall virtual memory is allocated.
+
+
+
+The bottom panel is invaluable for diagnosing a slow machine and knowing whether to rule out memory contention as a cause of the slowness. After running your Mac for a week, you should reach a nice steady state like shown above and can know if adding more RAM or adjusting the programs you run will affect performance.
+
+**Reference**: https://apple.stackexchange.com/questions/106036/what-features-of-mavericks-are-beneficial-to-you
+
+> 📎 Source: https://apple.stackexchange.com/questions/106036/what-features-of-mavericks-are-beneficial-to-you
+
+#### 185. Shortcut key for fullscreen mode
+
+**Issue**: Shortcut key for fullscreen mode
+**Tags / Source**: Tags: macos, keyboard, macbook-pro, window-manager | apple | 👍 107 | 💬 5 answers
+
+**Description**:
+Tags: macos, keyboard, macbook-pro, window-manager | Score: 107 | Views: 322775 | Answers: 5
+
+**Solution / Community Answer**:
+The button in the top right of each window is not for minimizing and maximizing the window, but for putting it in and out of fullscreen mode (which is why it covers the menu bar, as you said). 
+
+The keyboard shortcut to toggle fullscreen depends on the application.
+
+Most applications that I use on a daily basis (such as Google Chrome, Terminal, Mail, and Safari) use ^+⌘+F (Control+Cmd+F) to toggle fullscreen mode.
+
+Unfortunately, not all developers use this shortcut in their applications. iTerm, for example, uses ⌘+Enter to toggle fullscreen mode. If the application you refer to does not use either of these shortcuts, you should look for the fullscreen option in the View menu or by searching for "fullscreen" in the Help menu.
+
+**Reference**: https://apple.stackexchange.com/questions/137361/shortcut-key-for-fullscreen-mode
+
+> 📎 Source: https://apple.stackexchange.com/questions/137361/shortcut-key-for-fullscreen-mode
+
+#### 186. Can I copy by highlighting and paste by middle click on Mac OS X?
+
+**Issue**: Can I copy by highlighting and paste by middle click on Mac OS X?
+**Tags / Source**: Tags: macos | apple | 👍 107 | 💬 13 answers
+
+**Description**:
+Tags: macos | Score: 107 | Views: 69608 | Answers: 13
+
+**Solution / Community Answer**:
+I wrote a free little C program that does something similar to Gilligan's answer. Whenever you drag-highlight or double-click text, it copies to the clipboard buffer. Then you can middle-mouse-click in any window to paste it. It is called "macpaste" and on Github (https://github.com/lodestone/macpaste). It works globally for every program I use that has textual data.
+
+In iTerm2, disable their middle-click in Preferences, otherwise you'll get double pastes.
+
+**Reference**: https://apple.stackexchange.com/questions/21595/can-i-copy-by-highlighting-and-paste-by-middle-click-on-mac-os-x
+
+> 📎 Source: https://apple.stackexchange.com/questions/21595/can-i-copy-by-highlighting-and-paste-by-middle-click-on-mac-os-x
+
+#### 187. Is there the dark mode (inverted colors) in the &#39;Preview&#39; Application for PDF reading?
+
+**Issue**: Is there the dark mode (inverted colors) in the &#39;Preview&#39; Application for PDF reading?
+**Tags / Source**: Tags: macos, pdf, preview, dark-mode | apple | 👍 106 | 💬 8 answers
+
+**Description**:
+Tags: macos, pdf, preview, dark-mode | Score: 106 | Views: 131722 | Answers: 8
+
+**Solution / Community Answer**:
+I had the same problem so I wrote simple and free app for Mac to read PDFs in negative. App offers two negative modes (colour inversion and colour inversion with sepia).
+
+It is called  Negative and it is free on the Mac App Store
+
+**Reference**: https://apple.stackexchange.com/questions/317845/is-there-the-dark-mode-inverted-colors-in-the-preview-application-for-pdf-re
+
+> 📎 Source: https://apple.stackexchange.com/questions/317845/is-there-the-dark-mode-inverted-colors-in-the-preview-application-for-pdf-re
+
+#### 188. Is there a way to prevent apps from staying in Dock after quitting?
+
+**Issue**: Is there a way to prevent apps from staying in Dock after quitting?
+**Tags / Source**: Tags: macos, dock | apple | 👍 106 | 💬 5 answers
+
+**Description**:
+Tags: macos, dock | Score: 106 | Views: 121522 | Answers: 5
+
+**Solution / Community Answer**:
+I think I understand your problem.. Open System Preferences, Click on dock, uncheck "Show recent applications in dock". This should probably solve your problem.
+
+**Reference**: https://apple.stackexchange.com/questions/224236/is-there-a-way-to-prevent-apps-from-staying-in-dock-after-quitting
+
+> 📎 Source: https://apple.stackexchange.com/questions/224236/is-there-a-way-to-prevent-apps-from-staying-in-dock-after-quitting
+
+#### 189. How to disable scroll acceleration in macOS Sierra?
+
+**Issue**: How to disable scroll acceleration in macOS Sierra?
+**Tags / Source**: Tags: mouse, macos | apple | 👍 106 | 💬 11 answers
+
+**Description**:
+Tags: mouse, macos | Score: 106 | Views: 143682 | Answers: 11
+
+**Solution / Community Answer**:
+I wrote a small program to fix this behavior: https://github.com/emreyolcu/discrete-scroll
+You may download a binary here. It runs in the background and allows you to scroll 3 lines with each tick of the wheel.
+
+**Reference**: https://apple.stackexchange.com/questions/253111/how-to-disable-scroll-acceleration-in-macos-sierra
+
+> 📎 Source: https://apple.stackexchange.com/questions/253111/how-to-disable-scroll-acceleration-in-macos-sierra
+
+#### 190. How to remove an environment variable on OSX using bash
+
+**Issue**: How to remove an environment variable on OSX using bash
+**Tags / Source**: Tags: macos, terminal, bash, path | apple | 👍 105 | 💬 1 answers
+
+**Description**:
+Tags: macos, terminal, bash, path | Score: 105 | Views: 249837 | Answers: 1
+
+**Solution / Community Answer**:
+unset it
+
+unset DYLD_LIBRARY_PATH
+
+
+The bash reference manual says
+
+
+  Once a variable is set, it may be unset only by using the unset builtin command.
+
+**Reference**: https://apple.stackexchange.com/questions/91445/how-to-remove-an-environment-variable-on-osx-using-bash
+
+> 📎 Source: https://apple.stackexchange.com/questions/91445/how-to-remove-an-environment-variable-on-osx-using-bash
+
+#### 191. How to make TextEdit open with a blank file by default?
+
+**Issue**: How to make TextEdit open with a blank file by default?
+**Tags / Source**: Tags: macos, textedit | apple | 👍 105 | 💬 3 answers
+
+**Description**:
+Tags: macos, textedit | Score: 105 | Views: 46416 | Answers: 3
+
+**Solution / Community Answer**:
+If you don't want to disable syncing documents and data, run
+
+defaults write -g NSShowAppCentricOpenPanelInsteadOfUntitledFile -bool false
+
+
+and quit and reopen TextEdit to apply the changes.
+
+To restore (thanks to comments run)
+
+defaults delete -g NSShowAppCentricOpenPanelInsteadOfUntitledFile
+
+
+To set this for TextEdit only (thanks to comment by gklka)
+
+defaults write com.apple.TextEdit NSShowAppCentricOpenPanelInsteadOfUntitledFile -bool false
+
+**Reference**: https://apple.stackexchange.com/questions/61406/how-to-make-textedit-open-with-a-blank-file-by-default
+
+> 📎 Source: https://apple.stackexchange.com/questions/61406/how-to-make-textedit-open-with-a-blank-file-by-default
+
+#### 192. How can I update everything installed through Homebrew after OSX upgrade?
+
+**Issue**: How can I update everything installed through Homebrew after OSX upgrade?
+**Tags / Source**: Tags: macos, homebrew, package-management | apple | 👍 105 | 💬 1 answers
+
+**Description**:
+Tags: macos, homebrew, package-management | Score: 105 | Views: 189595 | Answers: 1
+
+**Solution / Community Answer**:
+Use the command brew upgrade in the terminal to update all of the packages.  As for rebuilding all of your programs for the new OS build, there is no reason to do this as the compiled binary should result as the same.  If you are noticing any issues, I would just uninstall and reinstall the packages that you are having issues with.
+
+**Reference**: https://apple.stackexchange.com/questions/56419/how-can-i-update-everything-installed-through-homebrew-after-osx-upgrade
+
+> 📎 Source: https://apple.stackexchange.com/questions/56419/how-can-i-update-everything-installed-through-homebrew-after-osx-upgrade
+
+#### 193. Can an app window be minimized by clicking its Dock Icon?
+
+**Issue**: Can an app window be minimized by clicking its Dock Icon?
+**Tags / Source**: Tags: macos, dock, icon, window-manager | apple | 👍 104 | 💬 12 answers
+
+**Description**:
+Tags: macos, dock, icon, window-manager | Score: 104 | Views: 125243 | Answers: 12
+
+**Solution / Community Answer**:
+You can hide an active application by option-clicking (alt-clicking) its icon in the dock. You can also hide the active window and open another window by alt-clicking whatever application you want to open in the dock.
+
+But I agree with you that it would be more symmetrical to be able to click to minimize all the open windows in an application. I am a long-time PC user and this is one area where PCs got it right. That and combining closing and quitting (and the related window management issue).
+
+**Reference**: https://apple.stackexchange.com/questions/24185/can-an-app-window-be-minimized-by-clicking-its-dock-icon
+
+> 📎 Source: https://apple.stackexchange.com/questions/24185/can-an-app-window-be-minimized-by-clicking-its-dock-icon
+
+#### 194. Isn&#39;t Inactive memory a waste of resources?
+
+**Issue**: Isn&#39;t Inactive memory a waste of resources?
+**Tags / Source**: Tags: macos, mac, memory | apple | 👍 104 | 💬 7 answers
+
+**Description**:
+Tags: macos, mac, memory | Score: 104 | Views: 57563 | Answers: 7
+
+**Solution / Community Answer**:
+Inactive memory got a horrible rap due to a crappy name. It should have been called something like "make your Mac really fast the second, third, and fourth time it does the same task" memory except that's an awful name, too. 
+
+Apple re-wrote the activity monitor when it introduced several new features and added compressed memory, so some of this no longer applies to macOS that don’t show “Inactive Memory” but this still applies to Mac OS X memory management as documented against this version of Activity Monitor: https://support.apple.com/en-us/HT201538
+
+Here's how I explained things to someone new to the concept of virtual memory on OS X:
+
+
+Wired: The system cannot run without this amount of RAM (never swapped)
+Active: Programs are really using this memory now or in the last few seconds
+Inactive: Things that programs have read from the slow disk or elsewhere and said they never need again. Engineers know better, you will go back to Facebook in a few minutes or re-launch Word after quitting it. The same things happen again and again on computers.
+Free: Totally Wasted RAM - the system only needs one or two MB free to cover short term allocation requests. For largest allocations, it simply uses some of the Inactive RAM by allocating it to active/wired and removing the information on what it used to hold.
+
+
+The problem arises when Free+Inactive is less than roughly 1/3 of the total and then things can really get slow. 
+
+Inactive memory is bonus speed / double duty RAM. It serves as free at a moment's notice, but also makes repeated tasks much, much faster if the system guessed correctly and kept something in RAM that you will do again. It's faster than swapped memory since it's already loaded in RAM and accelerates things when the virtual memory system makes good guesses. 
+
+When you are wondering if RAM is a problem, rather than looking at each of the 4 categories (5 if you count active swap), you can couple W+A as slowing down a new program/task and F+I as speeding up a new program/task. The more F+I you have, the more new programs you can launch before the RAM needs to rely on swapping to juggle the memory that has been allocated.
+
+You don't really need to know how swap works since I mentioned it above. Basically, when a program is sitting idle and hasn't been used for days (or hours) the system will write that RAM to the hard drive rather than kill the program. This lets the system shuffle and handle all sorts of things relating to memory management and keeps each program from needing to talk amongst themselves to agree who will use less memory when the system runs out.
+
+Here is a real world example of how inactive RAM is used.
+
+
+Quit all apps and make sure the two Apps we are testing are not set to auto start when you log in
+Reboot your Mac
+Fire up your Activity Monitor and watch the RAM throughout
+Time how long it takes to start Application A (MS Word would be a good choice)
+Quit A
+Time how long it takes to start Application B (Adobe something would also be good)
+Quit B
+Time how long the second launch of A takes
+Quit A
+Time B's second launch.
+Time A's start the third time with B running.
+
+
+You should see dramatic speedups for the second / third launch as the system learns to keep in inactive RAM the things these two apps need to run.
+
+
+
+In your case - the total of Wired and Active means that some swapping to disk is likely happening and your Mac isn't as fast as it could be since your inactive RAM isn't large enough to store all the things you might need to reuse. If you have a fast SSD drive, this RAM allocation is OK and instead of starting to slow down once less than 1/2 of your RAM is F+I, you can cut things closer to like 1/4 of the total RAM for F+I before seeing noticeable slowness. These guidelines are general, and you'll want to watch vm_stat 15 or some similar interval to ensure continual and medium volume swapping isn't making your Mac slow.
+
+**Reference**: https://apple.stackexchange.com/questions/67031/isnt-inactive-memory-a-waste-of-resources
+
+> 📎 Source: https://apple.stackexchange.com/questions/67031/isnt-inactive-memory-a-waste-of-resources
+
+#### 195. How to view Root directory and subdirectories in Finder?
+
+**Issue**: How to view Root directory and subdirectories in Finder?
+**Tags / Source**: Tags: macos, finder, folders, root | apple | 👍 104 | 💬 13 answers
+
+**Description**:
+Tags: macos, finder, folders, root | Score: 104 | Views: 278637 | Answers: 13
+
+**Solution / Community Answer**:
+Shift-Command-G in Finder brings up a "Go to folder" dialog. Type in the name of the directory, for example, /usr/local. Finder will show the directory. I use this with Finder in 'View as Columns'
+
+While this doesn't give a browsable directory from the root directory down, I've found it quite useful.
+
+**Reference**: https://apple.stackexchange.com/questions/34871/how-to-view-root-directory-and-subdirectories-in-finder
+
+> 📎 Source: https://apple.stackexchange.com/questions/34871/how-to-view-root-directory-and-subdirectories-in-finder
+
+#### 196. Do MacBooks have a true &quot;Hibernate&quot; option?
+
+**Issue**: Do MacBooks have a true &quot;Hibernate&quot; option?
+**Tags / Source**: Tags: macos, macbook-pro, hibernate | apple | 👍 104 | 💬 4 answers
+
+**Description**:
+Tags: macos, macbook-pro, hibernate | Score: 104 | Views: 129318 | Answers: 4
+
+**Solution / Community Answer**:
+When newer laptops are put to sleep, they should save the contents of the RAM to /var/vm/sleepimage but keep the RAM powered as well. Desktop Macs should just use normal sleep mode by default.
+
+man pmset:
+
+hibernatemode = 0 (binary 0000) by default on supported desktops. The
+system will not back memory up to persistent storage. The system must
+wake from the contents of memory; the system will lose context on power
+loss. This is, historically, plain old sleep.
+
+hibernatemode = 3 (binary 0011) by default on supported portables. The
+system will store a copy of memory to persistent storage (the disk), and
+will power memory during sleep. The system will wake from memory, unless
+a power loss forces it to restore from disk image.
+
+hibernatemode = 25 (binary 0001 1001) is only settable via pmset. The
+system will store a copy of memory to persistent storage (the disk), and
+will remove power to memory. The system will restore from disk image. If
+you want "hibernation" - slower sleeps, slower wakes, and better battery
+life, you should use this setting.
+
+
+
+0 (traditional sleep mode): fast wake up and sleep, saves disk space
+3 (default safe sleep mode): fast wake up and sleep, state is kept when losing power
+25 (hibernation): saves energy, state is kept when losing power
+
+
+You can see which mode your Mac uses with pmset -g | grep hibernatemode and change it with sudo pmset -a hibernatemode $mode.
+
+Some newer Macs support a standby mode on 10.8 and later. Even if hibernatemode was set to 3, they power off memory after a bit over an hour of sleep.
+
+**Reference**: https://apple.stackexchange.com/questions/51725/do-macbooks-have-a-true-hibernate-option
+
+> 📎 Source: https://apple.stackexchange.com/questions/51725/do-macbooks-have-a-true-hibernate-option
+
+#### 197. Why doesn&#39;t Mac OS X source ~/.bashrc?
+
+**Issue**: Why doesn&#39;t Mac OS X source ~/.bashrc?
+**Tags / Source**: Tags: macos, terminal, bash, command-line | apple | 👍 104 | 💬 2 answers
+
+**Description**:
+Tags: macos, terminal, bash, command-line | Score: 104 | Views: 183444 | Answers: 2
+
+**Solution / Community Answer**:
+In OSX the terminal  by default starts a login session so reads .bash_profile etc. (The GUI login process that asks for your name and password does not use shell scripts and starts no shell it is all done from launchd and the workspace)
+On other Unices xterm runs a non login shell by default so they read .bashrc as the scripts that present you with your password etc at login call the login session and all terminals are sub process of this and inherit the shell environment.
+From the GNU document you referred to
+
+Invoked as an interactive non-login shell
+When an interactive shell that is not a login shell is started, Bash
+reads and executes commands from ~/.bashrc, if that file exists. This
+may be inhibited by using the --norc option. The --rcfile file option
+will force Bash to read and execute commands from file instead of
+~/.bashrc.
+So, typically, your ~/.bash_profile contains the line
+if [ -f ~/.bashrc ]; then . ~/.bashrc; fi 
+
+after (or before) any
+login-specific initializations.
+
+**Reference**: https://apple.stackexchange.com/questions/119711/why-doesnt-mac-os-x-source-bashrc
+
+> 📎 Source: https://apple.stackexchange.com/questions/119711/why-doesnt-mac-os-x-source-bashrc
+
+#### 198. Set default mail client in macOS without adding an email account?
+
+**Issue**: Set default mail client in macOS without adding an email account?
+**Tags / Source**: Tags: macos, mail.app, ms-office, preferences | apple | 👍 103 | 💬 13 answers
+
+**Description**:
+Tags: macos, mail.app, ms-office, preferences | Score: 103 | Views: 56998 | Answers: 13
+
+**Solution / Community Answer**:
+Update: Seems like Microsoft finally removed this tool. The suggested solution in their support documentation is
+https://support.microsoft.com/en-us/office/set-an-account-as-the-default-in-outlook-for-mac-1a085d36-db97-4230-9a40-c332364426e0
+I finally found something easy that worked, the SetDefaultMailApp from Microsoft:
+https://docs.microsoft.com/en-us/outlook/troubleshoot/outlook-for-mac/useful-tools#setdefaultmailapp
+
+**Reference**: https://apple.stackexchange.com/questions/261881/set-default-mail-client-in-macos-without-adding-an-email-account
+
+> 📎 Source: https://apple.stackexchange.com/questions/261881/set-default-mail-client-in-macos-without-adding-an-email-account
+
+#### 199. Why is the accountsd process eating so much CPU?
+
+**Issue**: Why is the accountsd process eating so much CPU?
+**Tags / Source**: Tags: macos, icloud, cpu | apple | 👍 103 | 💬 18 answers
+
+**Description**:
+Tags: macos, icloud, cpu | Score: 103 | Views: 251228 | Answers: 18
+
+**Solution / Community Answer**:
+In Mail.app's application's preferences, I deselected "Accounts > Advanced > Automatically Detect and Maintain Account Settings" on two Google accounts, and CPU usage returned to normal.
+
+**Reference**: https://apple.stackexchange.com/questions/182059/why-is-the-accountsd-process-eating-so-much-cpu
+
+> 📎 Source: https://apple.stackexchange.com/questions/182059/why-is-the-accountsd-process-eating-so-much-cpu
+
+#### 200. Application level volume control in OS X?
+
+**Issue**: Application level volume control in OS X?
+**Tags / Source**: Tags: macos, software-recommendation, mac, audio, software | apple | 👍 103 | 💬 13 answers
+
+**Description**:
+Tags: macos, software-recommendation, mac, audio, software | Score: 103 | Views: 331864 | Answers: 13
+
+**Solution / Community Answer**:
+A free and open-source solution is BackgroundMusic.
+A nicer and paid solution is Rogue Amoeba's SoundSource
+
+**Reference**: https://apple.stackexchange.com/questions/10902/application-level-volume-control-in-os-x
+
+> 📎 Source: https://apple.stackexchange.com/questions/10902/application-level-volume-control-in-os-x
 
 
 

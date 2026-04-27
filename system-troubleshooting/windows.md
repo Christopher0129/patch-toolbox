@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 05:02:25 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 06:04:14 UTC_
 
 ## 中文 🇨🇳
 **Windows 常见故障及解决方法**
@@ -23,7 +23,7 @@ _自动更新于 / Auto-updated: 2026-04-27 05:02:25 UTC_
 **标签 / 来源**: Tags: windows, filesystems, process, community-faq-proposed | superuser | 👍 1331 | 💬 16 answers
 
 **问题描述**:
-Tags: windows, filesystems, process, community-faq-proposed | Score: 1331 | Views: 2068503 | Answers: 16
+Tags: windows, filesystems, process, community-faq-proposed | Score: 1331 | Views: 2068506 | Answers: 16
 
 **解决方法 / 社区答案**:
 You can use the Resource Monitor for this which comes built-in with Windows 7, 8, 10 and 11!
@@ -89,7 +89,7 @@ For Windows specifically, it's worth mentioning that you can use A: and B: as th
 **标签 / 来源**: Tags: windows-7, windows, command-line, environment-variables | superuser | 👍 833 | 💬 8 answers
 
 **问题描述**:
-Tags: windows-7, windows, command-line, environment-variables | Score: 833 | Views: 3005019 | Answers: 8
+Tags: windows-7, windows, command-line, environment-variables | Score: 833 | Views: 3005021 | Answers: 8
 
 **解决方法 / 社区答案**:
 In Windows Command-Prompt the syntax is echo %PATH%
@@ -182,7 +182,7 @@ Windows will nag you with Toasts, Action Center alerts and banners across your s
 **标签 / 来源**: Tags: windows, filesystems, ntfs, symbolic-link | superuser | 👍 609 | 💬 3 answers
 
 **问题描述**:
-Tags: windows, filesystems, ntfs, symbolic-link | Score: 609 | Views: 462514 | Answers: 3
+Tags: windows, filesystems, ntfs, symbolic-link | Score: 609 | Views: 462518 | Answers: 3
 
 **解决方法 / 社区答案**:
 A junction is definitely not the same thing as a directory symbolic link, although they behave similarly.  The main difference is that, if you are looking at a remote server, junctions are processed at the server and directory symbolic links are processed at the client.  Also see Matthew's comment on the fact that this means symbolic links on the local file system can point to remote file systems.
@@ -211,7 +211,7 @@ It should also be noted that creating a symbolic link requires special privilege
 **标签 / 来源**: Tags: windows, command-line, powershell | superuser | 👍 603 | 💬 5 answers
 
 **问题描述**:
-Tags: windows, command-line, powershell | Score: 603 | Views: 893175 | Answers: 5
+Tags: windows, command-line, powershell | Score: 603 | Views: 893178 | Answers: 5
 
 **解决方法 / 社区答案**:
 Use a semicolon to chain commands in PowerShell:
@@ -278,7 +278,7 @@ If this is still not helping to search for new updates, use WSUSOffline to get a
 **标签 / 来源**: Tags: windows-10, bash, windows-subsystem-for-linux | superuser | 👍 526 | 💬 11 answers
 
 **问题描述**:
-Tags: windows-10, bash, windows-subsystem-for-linux | Score: 526 | Views: 1498448 | Answers: 11
+Tags: windows-10, bash, windows-subsystem-for-linux | Score: 526 | Views: 1498453 | Answers: 11
 
 **解决方法 / 社区答案**:
 In the latest versions [2025 WSL2], the file system is accessed from:
@@ -317,7 +317,7 @@ but with the files stored directly on the NTFS file system.
 **标签 / 来源**: Tags: windows, disk-space | superuser | 👍 523 | 💬 10 answers
 
 **问题描述**:
-Tags: windows, disk-space | Score: 523 | Views: 870932 | Answers: 10
+Tags: windows, disk-space | Score: 523 | Views: 870935 | Answers: 10
 
 **解决方法 / 社区答案**:
 TL;DR: Do NOT delete this folder
@@ -462,7 +462,7 @@ to start a command shell as a administrator
 **标签 / 来源**: Tags: windows, telnet | superuser | 👍 512 | 💬 6 answers
 
 **问题描述**:
-Tags: windows, telnet | Score: 512 | Views: 910606 | Answers: 6
+Tags: windows, telnet | Score: 512 | Views: 910607 | Answers: 6
 
 **解决方法 / 社区答案**:
 It should have printed something along the lines of:
@@ -484,7 +484,7 @@ You should then enter the telnet console, where you can enter quit to leave teln
 **标签 / 来源**: Tags: windows, ssh, permissions, openssh, private-key | superuser | 👍 498 | 💬 18 answers
 
 **问题描述**:
-Tags: windows, ssh, permissions, openssh, private-key | Score: 498 | Views: 1047409 | Answers: 18
+Tags: windows, ssh, permissions, openssh, private-key | Score: 498 | Views: 1047416 | Answers: 18
 
 **解决方法 / 社区答案**:
 You locate the file in Windows Explorer, right-click on it then select "Properties". Navigate to the "Security" tab and click "Advanced".
@@ -503,7 +503,7 @@ It should end up looking like this:
 **标签 / 来源**: Tags: windows, wget, curl | superuser | 👍 490 | 💬 21 answers
 
 **问题描述**:
-Tags: windows, wget, curl | Score: 490 | Views: 1880087 | Answers: 21
+Tags: windows, wget, curl | Score: 490 | Views: 1880088 | Answers: 21
 
 **解决方法 / 社区答案**:
 An alternative I discovered recently, using PowerShell:
@@ -531,7 +531,7 @@ A standard windows credentials prompt will pop up. The credentials you enter the
 **标签 / 来源**: Tags: windows, windows-10, windows-8.1, disk-space, windows-installer | superuser | 👍 486 | 💬 8 answers
 
 **问题描述**:
-Tags: windows, windows-10, windows-8.1, disk-space, windows-installer | Score: 486 | Views: 1073384 | Answers: 8
+Tags: windows, windows-10, windows-8.1, disk-space, windows-installer | Score: 486 | Views: 1073385 | Answers: 8
 
 **解决方法 / 社区答案**:
 I created "PatchCleaner" to clean the windows installer directory of all orphaned files in one easy click. If you don't trust the app to do the right thing, use the move feature to put them somewhere safe in case you need them back in the future. I have run it on multiple machines and saved up to 15Gb of space :-)
@@ -634,7 +634,7 @@ Also, prefer to download the software and updates/upgrades directly from vendor 
 **标签 / 来源**: Tags: windows, windows-10, microsoft-onedrive | superuser | 👍 468 | 💬 11 answers
 
 **问题描述**:
-Tags: windows, windows-10, microsoft-onedrive | Score: 468 | Views: 1824064 | Answers: 11
+Tags: windows, windows-10, microsoft-onedrive | Score: 468 | Views: 1824065 | Answers: 11
 
 **解决方法 / 社区答案**:
 Microsoft has actually documented a very simple and clean way to rename a user profile folder.
@@ -673,7 +673,7 @@ Some applications create env vars with the user profile path fully expanded, so 
 **标签 / 来源**: Tags: windows-10, windows-subsystem-for-linux | superuser | 👍 453 | 💬 9 answers
 
 **问题描述**:
-Tags: windows-10, windows-subsystem-for-linux | Score: 453 | Views: 990462 | Answers: 9
+Tags: windows-10, windows-subsystem-for-linux | Score: 453 | Views: 990464 | Answers: 9
 
 **解决方法 / 社区答案**:
 You cannot reboot a distro with a single command. You must shut down and boot up the distro with two commands. If you run wsl.exe instead of wsl, then it works both in WSL Bash &amp; CMD.
@@ -711,7 +711,7 @@ net start LxssManager
 **标签 / 来源**: Tags: windows, windows-7, symbolic-link | superuser | 👍 439 | 💬 13 answers
 
 **问题描述**:
-Tags: windows, windows-7, symbolic-link | Score: 439 | Views: 575992 | Answers: 13
+Tags: windows, windows-7, symbolic-link | Score: 439 | Views: 575994 | Answers: 13
 
 **解决方法 / 社区答案**:
 Be very careful.
@@ -745,7 +745,7 @@ If you are still having trouble, ensure that you utilize Shift+Delete inside the
 **标签 / 来源**: Tags: windows, command-line, unix, cat | superuser | 👍 433 | 💬 4 answers
 
 **问题描述**:
-Tags: windows, command-line, unix, cat | Score: 433 | Views: 1180583 | Answers: 4
+Tags: windows, command-line, unix, cat | Score: 433 | Views: 1180587 | Answers: 4
 
 **解决方法 / 社区答案**:
 type
@@ -810,7 +810,7 @@ After uninstalling, if remnants of the update's files are still in Windows\Syste
 **标签 / 来源**: Tags: windows, command-line | superuser | 👍 387 | 💬 15 answers
 
 **问题描述**:
-Tags: windows, command-line | Score: 387 | Views: 1322570 | Answers: 15
+Tags: windows, command-line | Score: 387 | Views: 1322571 | Answers: 15
 
 **解决方法 / 社区答案**:
 Working with cmd.exe:
@@ -875,7 +875,7 @@ rmdir c:\test /s /q
 **标签 / 来源**: Tags: windows, filesystems, ext4 | superuser | 👍 377 | 💬 12 answers
 
 **问题描述**:
-Tags: windows, filesystems, ext4 | Score: 377 | Views: 1033431 | Answers: 12
+Tags: windows, filesystems, ext4 | Score: 377 | Views: 1033432 | Answers: 12
 
 **解决方法 / 社区答案**:
 Ext2Read works well. It can also open &amp; read disk images ( eg: Wubi disk images)
@@ -899,7 +899,7 @@ Ext2Read works well. It can also open &amp; read disk images ( eg: Wubi disk ima
 **标签 / 来源**: Tags: windows, powershell, powershell-2.0, powershell-3.0, powershell-4.0 | superuser | 👍 362 | 💬 12 answers
 
 **问题描述**:
-Tags: windows, powershell, powershell-2.0, powershell-3.0, powershell-4.0 | Score: 362 | Views: 684504 | Answers: 12
+Tags: windows, powershell, powershell-2.0, powershell-3.0, powershell-4.0 | Score: 362 | Views: 684506 | Answers: 12
 
 **解决方法 / 社区答案**:
 Here's a simple PS 3.0 and later one-liner that works and doesn't involve much PS barf:
@@ -1110,7 +1110,7 @@ Changing the screen resolution or color depth also resets the desktop window man
 **标签 / 来源**: Tags: windows, file-management, disk-space, community-faq | superuser | 👍 321 | 💬 23 answers
 
 **问题描述**:
-Tags: windows, file-management, disk-space, community-faq | Score: 321 | Views: 215820 | Answers: 23
+Tags: windows, file-management, disk-space, community-faq | Score: 321 | Views: 215821 | Answers: 23
 
 **解决方法 / 社区答案**:
 WinDirStat is a port of KDirStat for Linux. It's free, lightweight, small (650kb installer), fast, portable (as a standalone .exe file), and works on multiple versions of Windows. Besides showing folders and percentages (for the entire disk or any subset of folders), it also displays an (optional) graphical usage map. Works well with NTFS Junction folders, avoiding counting folders multiple times.
@@ -1143,7 +1143,7 @@ C:\WINDOWS\system32\notepad.exe
 **标签 / 来源**: Tags: windows, command-line, environment-variables | superuser | 👍 317 | 💬 5 answers
 
 **问题描述**:
-Tags: windows, command-line, environment-variables | Score: 317 | Views: 1038786 | Answers: 5
+Tags: windows, command-line, environment-variables | Score: 317 | Views: 1038787 | Answers: 5
 
 **解决方法 / 社区答案**:
 To make the environment variable accessible globally you need to set it in the registry. As you've realised by just using:
@@ -1311,7 +1311,7 @@ Thanks to The New Tech for the original forum posting.
 **标签 / 来源**: Tags: windows-10, cortana | superuser | 👍 314 | 💬 9 answers
 
 **问题描述**:
-Tags: windows-10, cortana | Score: 314 | Views: 1744192 | Answers: 9
+Tags: windows-10, cortana | Score: 314 | Views: 1744193 | Answers: 9
 
 **解决方法 / 社区答案**:
 Update 2018: Warning about Taskbar Breakage
@@ -1402,7 +1402,7 @@ Further resource: Delete Windows 10 Apps and Restore Default Windows 10 Apps
 **标签 / 来源**: Tags: windows, command-line, path, cd | superuser | 👍 311 | 💬 9 answers
 
 **问题描述**:
-Tags: windows, command-line, path, cd | Score: 311 | Views: 1488453 | Answers: 9
+Tags: windows, command-line, path, cd | Score: 311 | Views: 1488457 | Answers: 9
 
 **解决方法 / 社区答案**:
 Going back to the days of DOS, there's a separate "current directory" for each drive.  cd D:\foldername changes D:'s current directory to the foldername specified, but does not change the fact that you're still working on the C: drive.
@@ -1434,7 +1434,7 @@ e:\Software&gt;
 **标签 / 来源**: Tags: windows, multiple-monitors, window-manager | superuser | 👍 309 | 💬 24 answers
 
 **问题描述**:
-Tags: windows, multiple-monitors, window-manager | Score: 309 | Views: 728598 | Answers: 24
+Tags: windows, multiple-monitors, window-manager | Score: 309 | Views: 728599 | Answers: 24
 
 **解决方法 / 社区答案**:
 I use this approach:
@@ -1460,7 +1460,7 @@ If you are using a non-English version of Windows, the "R" and "M" menu choices 
 **标签 / 来源**: Tags: windows, windows-10 | superuser | 👍 305 | 💬 17 answers
 
 **问题描述**:
-Tags: windows, windows-10 | Score: 305 | Views: 291046 | Answers: 17
+Tags: windows, windows-10 | Score: 305 | Views: 291047 | Answers: 17
 
 **解决方法 / 社区答案**:
 I think for a quicker switch this should be in the titlebar, so I created a tool for that:
@@ -1564,7 +1564,7 @@ echo $null &gt;&gt; filename
 **标签 / 来源**: Tags: windows, windows-10, windows-explorer, windows-10-preview | superuser | 👍 291 | 💬 5 answers
 
 **问题描述**:
-Tags: windows, windows-10, windows-explorer, windows-10-preview | Score: 291 | Views: 256078 | Answers: 5
+Tags: windows, windows-10, windows-explorer, windows-10-preview | Score: 291 | Views: 256079 | Answers: 5
 
 **解决方法 / 社区答案**:
 As of build 9926 (at least - it may have been an earlier build), this is configurable via the GUI.
@@ -1581,7 +1581,7 @@ Open Explorer and go to View, then click Options (or Change folder and search op
 **标签 / 来源**: Tags: windows-10, memory, docker, resources | superuser | 👍 273 | 💬 15 answers
 
 **问题描述**:
-Tags: windows-10, memory, docker, resources | Score: 273 | Views: 569298 | Answers: 15
+Tags: windows-10, memory, docker, resources | Score: 273 | Views: 569299 | Answers: 15
 
 **解决方法 / 社区答案**:
 Daniiel B is on the money. To turn off Vmmem simply go into Powershell or whatever terminal you like to use under admin rights and enter the command wsl --shutdown, when your done with playing in wsl1/2.
@@ -1644,7 +1644,7 @@ START /B program &gt; somefile.txt
 **标签 / 来源**: Tags: windows, microsoft-office, microsoft-powerpoint, language, microsoft-powerpoint-2010 | superuser | 👍 268 | 💬 9 answers
 
 **问题描述**:
-Tags: windows, microsoft-office, microsoft-powerpoint, language, microsoft-powerpoint-2010 | Score: 268 | Views: 572691 | Answers: 9
+Tags: windows, microsoft-office, microsoft-powerpoint, language, microsoft-powerpoint-2010 | Score: 268 | Views: 572692 | Answers: 9
 
 **解决方法 / 社区答案**:
 To change the language of the entire PowerPoint easily, open the View tab and select the Outline view.
@@ -1681,7 +1681,7 @@ Review → Language → Set Proofing Language... → Language Preferences → Ch
 **标签 / 来源**: Tags: windows, cpu, temperature | superuser | 👍 267 | 💬 10 answers
 
 **问题描述**:
-Tags: windows, cpu, temperature | Score: 267 | Views: 2706361 | Answers: 10
+Tags: windows, cpu, temperature | Score: 267 | Views: 2706362 | Answers: 10
 
 **解决方法 / 社区答案**:
 Actually this information is given to OS by the BIOS, but you will need an application to expose the information. You can find a lot of applications to do this:
@@ -1700,7 +1700,7 @@ Core Temp
 **标签 / 来源**: Tags: windows, command-line, chocolatey | superuser | 👍 267 | 💬 4 answers
 
 **问题描述**:
-Tags: windows, command-line, chocolatey | Score: 267 | Views: 312130 | Answers: 4
+Tags: windows, command-line, chocolatey | Score: 267 | Views: 312131 | Answers: 4
 
 **解决方法 / 社区答案**:
 Note: You likely need to do the following commands in an administrative cmd/powershell prompt.
@@ -1754,7 +1754,7 @@ If you want to know more about how the Google search works you can read Google's
 **标签 / 来源**: Tags: windows, command-line | superuser | 👍 259 | 💬 11 answers
 
 **问题描述**:
-Tags: windows, command-line | Score: 259 | Views: 243681 | Answers: 11
+Tags: windows, command-line | Score: 259 | Views: 243682 | Answers: 11
 
 **解决方法 / 社区答案**:
 The where command does what you want and goes back at least to the resource kit for Windows 98, and is included by default in Server 2003, Vista, and newer:
@@ -1838,7 +1838,7 @@ Based on this page, the "File Contents" option won't always show up - only when 
 **标签 / 来源**: Tags: windows, windows-explorer, icons, cache | superuser | 👍 251 | 💬 13 answers
 
 **问题描述**:
-Tags: windows, windows-explorer, icons, cache | Score: 251 | Views: 408445 | Answers: 13
+Tags: windows, windows-explorer, icons, cache | Score: 251 | Views: 408451 | Answers: 13
 
 **解决方法 / 社区答案**:
 Yes.
@@ -1888,7 +1888,7 @@ Works on Windows Server without admin rights! Yammie! :)
 **标签 / 来源**: Tags: windows, windows-8, performance, troubleshooting, cpu-usage | superuser | 👍 243 | 💬 6 answers
 
 **问题描述**:
-Tags: windows, windows-8, performance, troubleshooting, cpu-usage | Score: 243 | Views: 753727 | Answers: 6
+Tags: windows, windows-8, performance, troubleshooting, cpu-usage | Score: 243 | Views: 753728 | Answers: 6
 
 **解决方法 / 社区答案**:
 Introduction
@@ -2205,7 +2205,7 @@ In Windows Vista and above, UAC will pop up, click &quot;Yes&quot;.
 **标签 / 来源**: Tags: windows, unix, powershell, which | superuser | 👍 231 | 💬 11 answers
 
 **问题描述**:
-Tags: windows, unix, powershell, which | Score: 231 | Views: 192990 | Answers: 11
+Tags: windows, unix, powershell, which | Score: 231 | Views: 192992 | Answers: 11
 
 **解决方法 / 社区答案**:
 This was asked and answered on Stack Overflow: Equivalent of *Nix 'which' command in PowerShell?
@@ -2369,7 +2369,7 @@ Use my sign-in info to automatically finish setting up my device and reopen my a
 **标签 / 来源**: Tags: windows-7, windows, encoding, console | superuser | 👍 226 | 💬 9 answers
 
 **问题描述**:
-Tags: windows-7, windows, encoding, console | Score: 226 | Views: 563116 | Answers: 9
+Tags: windows-7, windows, encoding, console | Score: 226 | Views: 563117 | Answers: 9
 
 **解决方法 / 社区答案**:
 To change the codepage for the console only, do the following:
@@ -2434,7 +2434,7 @@ To use this, save it in a text file and change the extension from .txt to .reg. 
 **标签 / 来源**: Tags: windows, networking, windows-explorer | superuser | 👍 223 | 💬 14 answers
 
 **问题描述**:
-Tags: windows, networking, windows-explorer | Score: 223 | Views: 365744 | Answers: 14
+Tags: windows, networking, windows-explorer | Score: 223 | Views: 365745 | Answers: 14
 
 **解决方法 / 社区答案**:
 I found a fix by changing &quot;internet options&quot; -- so I guess Windows is detecting the &quot;internet&quot; as my own network.. sigh.
@@ -2466,7 +2466,7 @@ When adding a DNS name (i.e. FQDN), you can use wildcards like so: *.example.com
 **标签 / 来源**: Tags: windows, networking, port, tcpip | superuser | 👍 221 | 💬 3 answers
 
 **问题描述**:
-Tags: windows, networking, port, tcpip | Score: 221 | Views: 610666 | Answers: 3
+Tags: windows, networking, port, tcpip | Score: 221 | Views: 610667 | Answers: 3
 
 **解决方法 / 社区答案**:
 Due to the way TCP/IP works, connections can not be closed immediately.  Packets may arrive out of order or be retransmitted after the connection has been closed.
@@ -2611,7 +2611,7 @@ In addition to the DLL injection problem, there is also a focus-stealing method 
 **标签 / 来源**: Tags: windows, thunderbird, user-profiles | superuser | 👍 213 | 💬 3 answers
 
 **问题描述**:
-Tags: windows, thunderbird, user-profiles | Score: 213 | Views: 134967 | Answers: 3
+Tags: windows, thunderbird, user-profiles | Score: 213 | Views: 134968 | Answers: 3
 
 **解决方法 / 社区答案**:
 Roaming is the folder that would be synchronized with a server if you logged into a domain with a roaming profile (enabling you to log into any computer in a domain and access your favorites, documents, etc. Firefox stores its information here, so you could even have the same bookmarks between computers with a roaming profile.
@@ -2742,7 +2742,7 @@ Last note: Beware if you use ESC or Ctrl+V in vim, or in any other app.
 **标签 / 来源**: Tags: windows-10, symbolic-link | superuser | 👍 210 | 💬 6 answers
 
 **问题描述**:
-Tags: windows-10, symbolic-link | Score: 210 | Views: 618995 | Answers: 6
+Tags: windows-10, symbolic-link | Score: 210 | Views: 618996 | Answers: 6
 
 **解决方法 / 社区答案**:
 It seems like the junction command has been retired in Windows 10.
@@ -2812,7 +2812,7 @@ mklink - Create a symbolic link to a directory or a file, or create a hard file 
 **标签 / 来源**: Tags: windows, security, ntfs | superuser | 👍 209 | 💬 15 answers
 
 **问题描述**:
-Tags: windows, security, ntfs | Score: 209 | Views: 301626 | Answers: 15
+Tags: windows, security, ntfs | Score: 209 | Views: 301627 | Answers: 15
 
 **解决方法 / 社区答案**:
 If you download a .ZIP and unzip it, the individual files will be marked as the same zone as the .ZIP.  Almost every time I have a folder full of "blocked" files, this is how I got them.
@@ -2829,7 +2829,7 @@ Before unzipping, click the Unblock button on the .ZIP.
 **标签 / 来源**: Tags: windows, command-line, ssh, text-editors | superuser | 👍 209 | 💬 14 answers
 
 **问题描述**:
-Tags: windows, command-line, ssh, text-editors | Score: 209 | Views: 1380568 | Answers: 14
+Tags: windows, command-line, ssh, text-editors | Score: 209 | Views: 1380570 | Answers: 14
 
 **解决方法 / 社区答案**:
 The simplest solution on all versions of Windows is:
@@ -2849,7 +2849,7 @@ And, no extra software required.
 **标签 / 来源**: Tags: windows, command-line, sleep, shutdown, run-dialog | superuser | 👍 209 | 💬 14 answers
 
 **问题描述**:
-Tags: windows, command-line, sleep, shutdown, run-dialog | Score: 209 | Views: 792671 | Answers: 14
+Tags: windows, command-line, sleep, shutdown, run-dialog | Score: 209 | Views: 792673 | Answers: 14
 
 **解决方法 / 社区答案**:
 You will find shutdown.exe to be your friend.
@@ -2982,7 +2982,7 @@ Check out this answer.
 **标签 / 来源**: Tags: windows, networking, vpn, routing | superuser | 👍 200 | 💬 13 answers
 
 **问题描述**:
-Tags: windows, networking, vpn, routing | Score: 200 | Views: 430954 | Answers: 13
+Tags: windows, networking, vpn, routing | Score: 200 | Views: 430956 | Answers: 13
 
 **解决方法 / 社区答案**:
 You can turn off taking over your entire connection by going to the properties of the VPN, Networking tab, Internet Protocol (TCP/IP) properties, Advanced, untick Use default gateway on remote network. This may or may not leave a route to 192.168.123.0/24 depending on the VPN server's setup. If it doesn't, you'll have to manually add the route each time, although you could put it in a batch file.
@@ -3006,7 +3006,7 @@ More about this at http://technet.microsoft.com/en-us/library/bb878117.aspx
 **标签 / 来源**: Tags: windows, networking, dns | superuser | 👍 200 | 💬 24 answers
 
 **问题描述**:
-Tags: windows, networking, dns | Score: 200 | Views: 453478 | Answers: 24
+Tags: windows, networking, dns | Score: 200 | Views: 453480 | Answers: 24
 
 **解决方法 / 社区答案**:
 I believe that nslookup opens a winsock connection on the DNS port and issues a query, whereas ping uses the DNS Client service. You could try and stop this service and see whether this makes a difference.
@@ -3415,7 +3415,7 @@ accidentally tried to create a folder named .... – but it's not really possibl
 **标签 / 来源**: Tags: windows-10, windows-10-v1607, windows-subsystem-for-linux | superuser | 👍 196 | 💬 15 answers
 
 **问题描述**:
-Tags: windows-10, windows-10-v1607, windows-subsystem-for-linux | Score: 196 | Views: 440335 | Answers: 15
+Tags: windows-10, windows-10-v1607, windows-subsystem-for-linux | Score: 196 | Views: 440338 | Answers: 15
 
 **解决方法 / 社区答案**:
 PM for Windows Command-Line here:
@@ -3482,7 +3482,7 @@ Integrate TrIDNet
 **标签 / 来源**: Tags: windows, screensaver, security-policy | superuser | 👍 192 | 💬 18 answers
 
 **问题描述**:
-Tags: windows, screensaver, security-policy | Score: 192 | Views: 754710 | Answers: 18
+Tags: windows, screensaver, security-policy | Score: 192 | Views: 754711 | Answers: 18
 
 **解决方法 / 社区答案**:
 If Windows Media Player is still installed, you can play a video on loop and minimize it (the sample "Wildlife" videos work fine for this).  By default, as long as a video is playing, the screen won't lock.
@@ -3497,7 +3497,7 @@ If Windows Media Player is still installed, you can play a video on loop and min
 **标签 / 来源**: Tags: windows, file-management | superuser | 👍 191 | 💬 18 answers
 
 **问题描述**:
-Tags: windows, file-management | Score: 191 | Views: 655537 | Answers: 18
+Tags: windows, file-management | Score: 191 | Views: 655538 | Answers: 18
 
 **解决方法 / 社区答案**:
 There's a native GUI for Windows:
@@ -3520,7 +3520,7 @@ As an example, in the image below I could not delete my Eclipse directory. Searc
 **标签 / 来源**: Tags: windows | superuser | 👍 190 | 💬 12 answers
 
 **问题描述**:
-Tags: windows | Score: 190 | Views: 728996 | Answers: 12
+Tags: windows | Score: 190 | Views: 728997 | Answers: 12
 
 **解决方法 / 社区答案**:
 Tar
@@ -3602,7 +3602,7 @@ AT THIS POINT MAKE SURE YOU ARE USING "English (United Kingdom) - US" as the def
 **标签 / 来源**: Tags: windows, 64-bit | superuser | 👍 184 | 💬 11 answers
 
 **问题描述**:
-Tags: windows, 64-bit | Score: 184 | Views: 106592 | Answers: 11
+Tags: windows, 64-bit | Score: 184 | Views: 106593 | Answers: 11
 
 **解决方法 / 社区答案**:
 Short answer: To ensure legacy 32-bit applications continue to work the same way they used to without imposing ugly rules on 64-bit applications that would create a permanent mess.
@@ -3986,7 +3986,7 @@ There is also the older (but still useful) and more light-weight Path Editor. (N
 **标签 / 来源**: Tags: windows-10, windows-subsystem-for-linux, disk-space, wsl2, ubuntu-20.04 | superuser | 👍 173 | 💬 10 answers
 
 **问题描述**:
-Tags: windows-10, windows-subsystem-for-linux, disk-space, wsl2, ubuntu-20.04 | Score: 173 | Views: 338315 | Answers: 10
+Tags: windows-10, windows-subsystem-for-linux, disk-space, wsl2, ubuntu-20.04 | Score: 173 | Views: 338318 | Answers: 10
 
 **解决方法 / 社区答案**:
 There are a few options here, but I'm moving things around in this edit. My &quot;original&quot; answer is back to being the preferred method.  See the bottom of this answer for an alternative, experimental method.
@@ -4026,7 +4026,7 @@ sparseVhd=true
 **标签 / 来源**: Tags: windows, command-line, batch-file, shortcuts | superuser | 👍 172 | 💬 9 answers
 
 **问题描述**:
-Tags: windows, command-line, batch-file, shortcuts | Score: 172 | Views: 638958 | Answers: 9
+Tags: windows, command-line, batch-file, shortcuts | Score: 172 | Views: 638959 | Answers: 9
 
 **解决方法 / 社区答案**:
 Save the following as wscript, for instance, hidecmd.vbs after replacing "testing.bat" with your batch file's name.
@@ -4119,7 +4119,7 @@ Source: https://answers.microsoft.com/en-us/windows/forum/windows_10-hardware-wi
 **标签 / 来源**: Tags: windows, networking, wireless-networking, wake-on-lan | superuser | 👍 168 | 💬 2 answers
 
 **问题描述**:
-Tags: windows, networking, wireless-networking, wake-on-lan | Score: 168 | Views: 129708 | Answers: 2
+Tags: windows, networking, wireless-networking, wake-on-lan | Score: 168 | Views: 129709 | Answers: 2
 
 **解决方法 / 社区答案**:
 Sam3000's answer is very nice. I'll add some technical details.
@@ -4159,7 +4159,7 @@ If you are missing the langs.model.xml file, you can download the current versio
 **标签 / 来源**: Tags: windows, keyboard-shortcuts | superuser | 👍 168 | 💬 6 answers
 
 **问题描述**:
-Tags: windows, keyboard-shortcuts | Score: 168 | Views: 103271 | Answers: 6
+Tags: windows, keyboard-shortcuts | Score: 168 | Views: 103272 | Answers: 6
 
 **解决方法 / 社区答案**:
 This works for me in Win10 (and probably all other even vaguely-recent versions of Windows)... also copied here from https://stackoverflow.com/a/43645062/995048 since this page seems to come up first in search results:
@@ -4191,7 +4191,7 @@ Click the Process ID link.  This will show you the process (In my Win + R case: 
 **标签 / 来源**: Tags: windows, windows-10, multiple-monitors, keyboard-shortcuts | superuser | 👍 168 | 💬 5 answers
 
 **问题描述**:
-Tags: windows, windows-10, multiple-monitors, keyboard-shortcuts | Score: 168 | Views: 791822 | Answers: 5
+Tags: windows, windows-10, multiple-monitors, keyboard-shortcuts | Score: 168 | Views: 791825 | Answers: 5
 
 **解决方法 / 社区答案**:
 I solved it by unchecking the box which you can see in the following screenshot.
@@ -4244,7 +4244,7 @@ Maybe this will help someone.
 **标签 / 来源**: Tags: windows, filesystems | superuser | 👍 167 | 💬 6 answers
 
 **问题描述**:
-Tags: windows, filesystems | Score: 167 | Views: 292808 | Answers: 6
+Tags: windows, filesystems | Score: 167 | Views: 292809 | Answers: 6
 
 **解决方法 / 社区答案**:
 Size is the actual size of the file in bytes.
@@ -4313,7 +4313,7 @@ Afterwards, reboot the PC and try VirtualBox again.
 **标签 / 来源**: Tags: windows, administrator, uac | superuser | 👍 165 | 💬 11 answers
 
 **问题描述**:
-Tags: windows, administrator, uac | Score: 165 | Views: 860398 | Answers: 11
+Tags: windows, administrator, uac | Score: 165 | Views: 860405 | Answers: 11
 
 **解决方法 / 社区答案**:
 Windows Registry Editor Version 5.00
@@ -4341,7 +4341,7 @@ In some cases - small amount 0.1% of programs may ask twice about UAC prompt.
 **标签 / 来源**: Tags: windows, windows-10, keyboard-shortcuts | superuser | 👍 165 | 💬 4 answers
 
 **问题描述**:
-Tags: windows, windows-10, keyboard-shortcuts | Score: 165 | Views: 530893 | Answers: 4
+Tags: windows, windows-10, keyboard-shortcuts | Score: 165 | Views: 530896 | Answers: 4
 
 **解决方法 / 社区答案**:
 The Ctrl+Shift+Win+B key sequence will restart your graphics driver.
@@ -4446,7 +4446,7 @@ A brief and also incomplete history of Windows localization | The Old New Thing
 **标签 / 来源**: Tags: windows-10 | superuser | 👍 164 | 💬 8 answers
 
 **问题描述**:
-Tags: windows-10 | Score: 164 | Views: 1070781 | Answers: 8
+Tags: windows-10 | Score: 164 | Views: 1070782 | Answers: 8
 
 **解决方法 / 社区答案**:
 Built-in wallpapers
@@ -4670,7 +4670,7 @@ To download every Bing wallpaper in 4K, visit this page on GitHub.
 **标签 / 来源**: Tags: windows-10, keyboard, keyboard-layout | superuser | 👍 163 | 💬 7 answers
 
 **问题描述**:
-Tags: windows-10, keyboard, keyboard-layout | Score: 163 | Views: 171925 | Answers: 7
+Tags: windows-10, keyboard, keyboard-layout | Score: 163 | Views: 171926 | Answers: 7
 
 **解决方法 / 社区答案**:
 The issue happens when you open a RDP connection. Just bring the RDP window in foreground and press Alt+Enter.
@@ -4903,7 +4903,7 @@ The Old New Thing: Practical Development Throughout the Evolution of Windows by 
 **标签 / 来源**: Tags: windows, command-line | superuser | 👍 160 | 💬 12 answers
 
 **问题描述**:
-Tags: windows, command-line | Score: 160 | Views: 761513 | Answers: 12
+Tags: windows, command-line | Score: 160 | Views: 761515 | Answers: 12
 
 **解决方法 / 社区答案**:
 &gt; wmic logicaldisk get caption
@@ -5164,7 +5164,7 @@ Free Hex Editor (frhed), small and fast.
 **标签 / 来源**: Tags: windows-7, windows, command-line-arguments | superuser | 👍 152 | 💬 8 answers
 
 **问题描述**:
-Tags: windows-7, windows, command-line-arguments | Score: 152 | Views: 255178 | Answers: 8
+Tags: windows-7, windows, command-line-arguments | Score: 152 | Views: 255179 | Answers: 8
 
 **解决方法 / 社区答案**:
 You can do it without Process Explorer, too, using Windows' WMI service.  Run the following from the command prompt:
@@ -5260,7 +5260,7 @@ latest versions.
 **标签 / 来源**: Tags: windows-10, windows-search | superuser | 👍 151 | 💬 3 answers
 
 **问题描述**:
-Tags: windows-10, windows-search | Score: 151 | Views: 53370 | Answers: 3
+Tags: windows-10, windows-search | Score: 151 | Views: 53371 | Answers: 3
 
 **解决方法 / 社区答案**:
 This problem was the result of a temporary server-side malfunction on Microsoft's side. It has since been resolved, and affected systems should operate normally after a reboot.
@@ -5363,6 +5363,1672 @@ The value has moved from NTFS directly into Local Computer Policy &gt; Computer 
 
 > 📎 来源 / Source: https://superuser.com/questions/1119883/windows-10-enable-ntfs-long-paths-policy-option-missing
 
+#### 151. How to set an alias in Windows Command Line?
+
+**故障现象**: How to set an alias in Windows Command Line?
+**标签 / 来源**: Tags: windows, command-line | superuser | 👍 148 | 💬 9 answers
+
+**问题描述**:
+Tags: windows, command-line | Score: 148 | Views: 448249 | Answers: 9
+
+**解决方法 / 社区答案**:
+As Christian.K said in his comment, the DOSKEY command can be used to define macros, which are  analogous to aliases.
+
+doskey macroName=macroDefinition
+
+
+Macro parameters are referenced in the definition via $ prefixed positions: $1 through $9 and $* for all.
+
+See the doskey technet documentation, or type doskey /? or help doskey from the command line for more information.
+
+But there are serious limitations with DOSKEY macros:
+
+
+The macros only work on the interactive command line - they do not work within a batch script.
+They cannot be used on either side of a pipe: Both someMacro|findstr '^' and dir|someMacro fail.
+They cannot be used within a FOR /F commands: for /f %A in ('someMacro') do ... fails
+
+
+The limitations are so severe that I rarely use DOSKEY macros.
+
+Obviously you can create batch scripts instead of macros, and make sure the script locations are in your PATH. But then you must prefix each script with CALL if you want to use the script within another script.
+
+You could create simple variable "macros" for long and oft used commands, but syntax is a bit awkward to type, since you need to expand the "macro" when you want to use it.
+
+Definition:
+
+set "cdMe=cd a_very_long_path"
+
+
+Usage (from command line or script)
+
+%cdMe%
+
+**参考链接**: https://superuser.com/questions/560519/how-to-set-an-alias-in-windows-command-line
+
+> 📎 来源 / Source: https://superuser.com/questions/560519/how-to-set-an-alias-in-windows-command-line
+
+#### 152. Setting and using variable within same command line in Windows cmd.exe
+
+**故障现象**: Setting and using variable within same command line in Windows cmd.exe
+**标签 / 来源**: Tags: windows, command-line, shell | superuser | 👍 148 | 💬 5 answers
+
+**问题描述**:
+Tags: windows, command-line, shell | Score: 148 | Views: 178646 | Answers: 5
+
+**解决方法 / 社区答案**:
+Note that cmd /C &quot;set &quot;EDITOR=vim&quot; &amp;&amp; echo %EDITOR%&quot; would not work.
+Nor would cmd /C &quot;setlocal ENABLEDELAYEDEXPANSION &amp;&amp; set &quot;EDITOR=vim&quot; &amp;&amp; echo !EDITOR!&quot;
+You would need:
+
+the /V option, to enable delayed environment variable expansion using ! as delimiter.
+no space between a command and the &amp;&amp; (or add quotes)
+
+That is:
+C:\&gt; cmd /V /C &quot;set EDITOR=vim&amp;&amp; echo '!EDITOR!'&quot;
+'vim'
+# or
+C:\&gt; cmd /V /C &quot;set &quot;EDITOR=vim&quot; &amp;&amp; echo '!EDITOR!'&quot;
+'vim'
+
+As noted below by maoizm, it is cmd /V /C, not cmd /C /V (which would not work)
+
+
+I can't think of any practical reason you'd ever actually want this within the context of a single command
+
+Typically, you need this when you have to replace a value used multiple times in a long command line.
+For instance, to deploy a file to Nexus (in multiple lines for readability):
+cmd /v /c &quot;set g=com.agroup&amp;&amp; set a=anArtifact&amp;&amp; set v=1.1.0&amp;&amp; \
+           mvn deploy:deploy-file -Dfile=C:\path\!a!-!v!.jar \
+           -Dpackaging=jar -DgroupId=!g! -DartifactId=!a! -Dversion=!v! \
+           -DrepositoryId=nexus 
+           -Durl=http://myserver/nexus/content/repositories/my-repo/&quot;
+
+Instead of having to replace group, artifact (used 2 times) and version in a long and complex command line, you can edit them at the beginning of said command. It is clearer/easier to manipulate and change the parameter values.
+
+**参考链接**: https://superuser.com/questions/223104/setting-and-using-variable-within-same-command-line-in-windows-cmd-exe
+
+> 📎 来源 / Source: https://superuser.com/questions/223104/setting-and-using-variable-within-same-command-line-in-windows-cmd-exe
+
+#### 153. Ubuntu crashes on windows: 0x80040326 Wsl error
+
+**故障现象**: Ubuntu crashes on windows: 0x80040326 Wsl error
+**标签 / 来源**: Tags: windows, ubuntu, windows-subsystem-for-linux | superuser | 👍 147 | 💬 10 answers
+
+**问题描述**:
+Tags: windows, ubuntu, windows-subsystem-for-linux | Score: 147 | Views: 37397 | Answers: 10
+
+**解决方法 / 社区答案**:
+I had a same problem, but just solved it.
+Update your wsl system.
+wsl --update
+
+**参考链接**: https://superuser.com/questions/1776464/ubuntu-crashes-on-windows-0x80040326-wsl-error
+
+> 📎 来源 / Source: https://superuser.com/questions/1776464/ubuntu-crashes-on-windows-0x80040326-wsl-error
+
+#### 154. How can I add an item to the &#39;new&#39; context menu?
+
+**故障现象**: How can I add an item to the &#39;new&#39; context menu?
+**标签 / 来源**: Tags: windows, context-menu | superuser | 👍 145 | 💬 11 answers
+
+**问题描述**:
+Tags: windows, context-menu | Score: 145 | Views: 171286 | Answers: 11
+
+**解决方法 / 社区答案**:
+One more thing:
+
+If you want to add a file as a template for the new item, use
+
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\.html\ShellNew]
+"FileName"="html.html"
+
+
+and then place the file (html.html) in:
+
+
+For your own profile: %Userprofile%\Templates
+For all users: %Allusersprofile%\Templates
+For the whole system: %Systemroot%\ShellNew
+
+
+
+
+One more detail: if you want to delete the "Windows Live Call" entry, use:
+
+[-HKEY_CLASSES_ROOT\.wlcshrtctv2\LiveCall\ShellNew]
+
+**参考链接**: https://superuser.com/questions/34704/how-can-i-add-an-item-to-the-new-context-menu
+
+> 📎 来源 / Source: https://superuser.com/questions/34704/how-can-i-add-an-item-to-the-new-context-menu
+
+#### 155. How do you shutdown or restart a Windows computer over a Remote Desktop connection?
+
+**故障现象**: How do you shutdown or restart a Windows computer over a Remote Desktop connection?
+**标签 / 来源**: Tags: windows, remote-desktop, reboot, remote-shutdown | superuser | 👍 143 | 💬 5 answers
+
+**问题描述**:
+Tags: windows, remote-desktop, reboot, remote-shutdown | Score: 143 | Views: 394745 | Answers: 5
+
+**解决方法 / 社区答案**:
+Open a command window (or Windows Key + R) and type the following...
+
+...to restart:
+
+shutdown /r /t 0 
+
+
+...to shutdown:
+
+shutdown /s /t 0
+
+**参考链接**: https://superuser.com/questions/128051/how-do-you-shutdown-or-restart-a-windows-computer-over-a-remote-desktop-connecti
+
+> 📎 来源 / Source: https://superuser.com/questions/128051/how-do-you-shutdown-or-restart-a-windows-computer-over-a-remote-desktop-connecti
+
+#### 156. What is the Windows equivalent of &quot;wc -l&quot;?
+
+**故障现象**: What is the Windows equivalent of &quot;wc -l&quot;?
+**标签 / 来源**: Tags: windows, command-line | superuser | 👍 143 | 💬 4 answers
+
+**问题描述**:
+Tags: windows, command-line | Score: 143 | Views: 254623 | Answers: 4
+
+**解决方法 / 社区答案**:
+The Linux/Unix &quot;line count&quot; command, wc -l, has a Windows equivalent find /c /v &quot;&quot;.
+How does this work?
+According to Raymond Chen of the The Old New Thing, this functions as such since
+
+It is a special quirk of the find command that the null string is treated as never matching.
+
+The inverted (/v) count (/c) thus effectively counts all the lines;
+hence, the line count.
+Example usage
+To count the number of modified files in a subversion working copy:
+svn status -q | find /c /v &quot;&quot;
+
+Such a command can be used to mark a build as &quot;dirty&quot; if the count is not 0, i.e. there are uncommitted changes in the working copy.
+To obtain a line count of all your Java files:
+(for /r %f in (*.java) do @type &quot;%f&quot;) | find /c /v &quot;&quot;
+
+The command find /c /v &quot;&quot; can also be added to a batch file if required. 
+Remember to duplicate the % characters (%%f) in batch files.
+
+PowerShell
+A working PowerShell equivalent is Measure-Object -line — some additional formatting is required though, e.g. a directory listing for simplicity:
+(ls | Measure-Object -line).Lines
+
+**参考链接**: https://superuser.com/questions/959036/what-is-the-windows-equivalent-of-wc-l
+
+> 📎 来源 / Source: https://superuser.com/questions/959036/what-is-the-windows-equivalent-of-wc-l
+
+#### 157. Why do damaged hard drives freeze the entire system?
+
+**故障现象**: Why do damaged hard drives freeze the entire system?
+**标签 / 来源**: Tags: windows, hard-drive, freeze, bad-sectors | superuser | 👍 143 | 💬 4 answers
+
+**问题描述**:
+Tags: windows, hard-drive, freeze, bad-sectors | Score: 143 | Views: 84805 | Answers: 4
+
+**解决方法 / 社区答案**:
+This is one of those areas where SATA is suboptimal. The problem is at the storage device interconnect protocol level, and thus not related to what software you are running. Using another file copier or another operating system won't magically make things better, except that it might try to set different timeout values to reduce the impact of the problem (which may or may not be possible depending on the hardware and firmware; see below).
+
+There are a few important points here:
+
+
+With SATA, if the drive stops responding, this can tie up the whole storage system, not just the one drive that is having problems. It certainly has the potential to tie up the whole controller, and since most consumer systems have only a single disk controller (the one integrated on the motherboard), this means all storage. It's even worse if the drive fails in some non-standard and/or unexpected way, which can certainly happen if the drive is marginal. You may be interested in How can a single disk in a hardware SATA RAID-10 array bring the entire array to a screeching halt? on Server Fault.
+Most consumer SATA drives have long default timeout periods (on the order of minutes) and many consumer SATA drives lack configurable error recovery control. So-called "NAS" drives often have configurable ERC, and high-end drives virtually always do; such drives may also have shorter default timeouts (7 seconds being a common value). Long timeout periods are advantageous if the drive holds the only copy of the data, which unfortunately is common on consumer systems; they are a disadvantage in a redundant configuration or where you simply want to get as much as possible off the drive before it deteriorates further.
+A drive will keep trying to read a bad sector until it reaches its timeout threshold or until an abort is signalled by the host. Since the SATA bus can be tied up by the wait for the read to finish, it might not be possible for the OS to signal a storage-level command abort, and in extreme cases, drives might not even respond well to a SATA bus reset in such a situation.
+
+
+Point #1 is one of the main selling points for SAS on servers; SAS has significantly better error handling than SATA. Point #2 is a drive firmware limitation, and #3 becomes a problem really only because of #2.
+
+So what happens is that the OS issues a "read sectors" command to the disk, and the particular sectors are somehow damaged. Thus, the disk goes into retry mode to try to get the data off the platters, trying the read again and again until it gets good enough data that the disk's own error correction (FEC) is able to correct for the remaining errors. If you are unlucky, this might be never, but the drive will keep trying for some fairly long period of time before deciding that this read isn't going to succeed.
+
+Because the operating system is waiting for the read, this will at the very least slow down the copying process to a crawl, and depending on the exact OS architecture can cause the OS to become jerky or even freeze for the duration. The disk, at this point, is busy with the original read and won't respond to further read commands until the one that is currently executing ends (successfully or unsuccessfully), and other software generally won't do better than the operating system it is running on.
+
+Hence, anything that triggers a read elsewhere (ideally, only on the damaged drive) is going to have to wait in line until the damaged drive either successfully reads the sector in question, or determines that it cannot be read. Because of SATA's less than optimal handling of nonresponsive drives, this can mean that not only the drive you are copying from is going to have its I/O delayed. This can very easily cause other software to become slow or unresponsive as well, as that software waits for a different I/O request to finish, even if the operating system is able to cope.
+
+It's also important to note here that disk I/O can happen even though you aren't explicitly accessing any files on disk. The two main causes for this would be load-on-demand executable code, and swap. Since swap is sometimes used even when the system is not under memory pressure, and load-on-demand executable code is common on modern systems and with modern executable file formats, unintended disk read activity during normal use is a very real possibility.
+
+As pointed out in a comment to the question by Matteo Italia, one mitigative strategy is to use a different storage interconnect, which is a complicated way of saying "put the disk in a USB enclosure". By abstracting through the USB mass storage protocol, this isolates the problematic SATA portion from the rest of your system, which means that in theory, only I/O on that specific disk should be affected by I/O problems on that disk.
+
+As a bit of an aside, this is pretty much why SATA (particularly, SATA without drive-level ERC) is often discouraged for RAID (especially RAID levels with redundancy, which among the standard ones is all except RAID 0); the long timeout periods and poor error handling can easily cause a whole device to be thrown out of the array for a single bad sector, which the RAID controller could handle just fine if redundancy exists and the storage controller simply knows that this is the problem. SAS was designed for large storage arrays, and thus with the expectation that there will be problems on various drives occasionally, which led to it being designed to handle the case of a single problematic drive or I/O request gracefully even if the drive doesn't. Problematic disks are not very common in consumer systems simply because those tend to not have many disks installed, and the ones that are installed virtually never have redundancy; since SATA aimed to replace PATA/IDE not SCSI (the latter being the niche SAS aimed for), it is likely that its error handling features and demands (or guarantees) were considered adequate for its intended use case.
+
+**参考链接**: https://superuser.com/questions/954262/why-do-damaged-hard-drives-freeze-the-entire-system
+
+> 📎 来源 / Source: https://superuser.com/questions/954262/why-do-damaged-hard-drives-freeze-the-entire-system
+
+#### 158. Map capslock to control in Windows 10
+
+**故障现象**: Map capslock to control in Windows 10
+**标签 / 来源**: Tags: keyboard-layout, windows-10, remapping, key-binding, capslock | superuser | 👍 143 | 💬 13 answers
+
+**问题描述**:
+Tags: keyboard-layout, windows-10, remapping, key-binding, capslock | Score: 143 | Views: 239495 | Answers: 13
+
+**解决方法 / 社区答案**:
+In case anyone needed this done via PowerShell:
+$hexified = &quot;00,00,00,00,00,00,00,00,02,00,00,00,1d,00,3a,00,00,00,00,00&quot;.Split(',') | % { &quot;0x$_&quot;};
+$kbLayout = 'HKLM:\System\CurrentControlSet\Control\Keyboard Layout';    
+New-ItemProperty -Path $kbLayout -Name &quot;Scancode Map&quot; -PropertyType Binary -Value ([byte[]]$hexified);
+
+Run it as Administrator and reboot.
+
+**参考链接**: https://superuser.com/questions/949385/map-capslock-to-control-in-windows-10
+
+> 📎 来源 / Source: https://superuser.com/questions/949385/map-capslock-to-control-in-windows-10
+
+#### 159. Can you zip a file from the command prompt using ONLY Windows&#39; built-in capability to zip files?
+
+**故障现象**: Can you zip a file from the command prompt using ONLY Windows&#39; built-in capability to zip files?
+**标签 / 来源**: Tags: windows, command-line, batch, zip | superuser | 👍 142 | 💬 12 answers
+
+**问题描述**:
+Tags: windows, command-line, batch, zip | Score: 142 | Views: 499677 | Answers: 12
+
+**解决方法 / 社区答案**:
+Here is an all batch file solution (a variation of my other answer) that will zip a file named c:\ue_english.txt and put it in C:\someArchive.zip:
+
+set FILETOZIP=c:\ue_english.txt
+
+set TEMPDIR=C:\temp738
+rmdir %TEMPDIR%
+mkdir %TEMPDIR%
+xcopy /s %FILETOZIP% %TEMPDIR%
+
+echo Set objArgs = WScript.Arguments &gt; _zipIt.vbs
+echo InputFolder = objArgs(0) &gt;&gt; _zipIt.vbs
+echo ZipFile = objArgs(1) &gt;&gt; _zipIt.vbs
+echo CreateObject("Scripting.FileSystemObject").CreateTextFile(ZipFile, True).Write "PK" ^&amp; Chr(5) ^&amp; Chr(6) ^&amp; String(18, vbNullChar) &gt;&gt; _zipIt.vbs
+echo Set objShell = CreateObject("Shell.Application") &gt;&gt; _zipIt.vbs
+echo Set source = objShell.NameSpace(InputFolder).Items &gt;&gt; _zipIt.vbs
+echo objShell.NameSpace(ZipFile).CopyHere(source) &gt;&gt; _zipIt.vbs
+echo wScript.Sleep 2000 &gt;&gt; _zipIt.vbs
+
+CScript  _zipIt.vbs  %TEMPDIR%  C:\someArchive.zip
+
+pause
+
+
+Write access is required to the parent of the folder stored in TEMPDIR. As this is often not the case for the root of drive C TEMPDIR may have to be changed.
+
+Write access is also required for the folder the .bat script is in (as it generates a file there).
+
+Also, please note that the file extension for the compressed file must be .zip. Attempts to use another extension may result in a script error. Instead, generate the .zip file and rename it.
+
+**参考链接**: https://superuser.com/questions/110991/can-you-zip-a-file-from-the-command-prompt-using-only-windows-built-in-capabili
+
+> 📎 来源 / Source: https://superuser.com/questions/110991/can-you-zip-a-file-from-the-command-prompt-using-only-windows-built-in-capabili
+
+#### 160. How can I mass rename files?
+
+**故障现象**: How can I mass rename files?
+**标签 / 来源**: Tags: windows, command-line, file-management | superuser | 👍 141 | 💬 24 answers
+
+**问题描述**:
+Tags: windows, command-line, file-management | Score: 141 | Views: 402252 | Answers: 24
+
+**解决方法 / 社区答案**:
+I know in your title you say "in dos" but I get the impression you are just looking for a way to do this and are wondering if that is the best way.
+
+The absolute best tool I have found for this is Bulk Rename Utility.  
+
+
+
+It isn't a command line tool, but they do have a command line version if you really want to use it that way.
+
+I've used the GUI version a lot, and it is very powerful, very fast and extremely easy to use.
+
+Oh, and it is FREE for personal use.
+
+**参考链接**: https://superuser.com/questions/16007/how-can-i-mass-rename-files
+
+> 📎 来源 / Source: https://superuser.com/questions/16007/how-can-i-mass-rename-files
+
+#### 161. Restart a Windows service from the command line
+
+**故障现象**: Restart a Windows service from the command line
+**标签 / 来源**: Tags: windows-7, windows, command-line | superuser | 👍 140 | 💬 6 answers
+
+**问题描述**:
+Tags: windows-7, windows, command-line | Score: 140 | Views: 754896 | Answers: 6
+
+**解决方法 / 社区答案**:
+You can use net stop [service name] to stop it and net start [service name] to start it up again basically restarting the service.
+
+To combine them just do this - net stop [service name] &amp;&amp; net start [service name].
+
+
+
+There is also a command built specifically for messing with services: sc
+
+
+DESCRIPTION:
+        SC is a command line program used for communicating with the
+        Service Control Manager and services.
+USAGE:
+        sc  [command] [service name]  ...
+
+
+        The option  has the form "\\ServerName"
+        Further help on commands can be obtained by typing: "sc [command]"
+        Commands:
+          query-----------Queries the status for a service, or
+                          enumerates the status for types of services.
+          queryex---------Queries the extended status for a service, or
+                          enumerates the status for types of services.
+          start-----------Starts a service.
+          pause-----------Sends a PAUSE control request to a service.
+          interrogate-----Sends an INTERROGATE control request to a service.
+          continue--------Sends a CONTINUE control request to a service.
+          stop------------Sends a STOP request to a service.
+          config----------Changes the configuration of a service (persistent).
+          description-----Changes the description of a service.
+          failure---------Changes the actions taken by a service upon failure.
+          failureflag-----Changes the failure actions flag of a service.
+          sidtype---------Changes the service SID type of a service.
+          privs-----------Changes the required privileges of a service.
+          managedaccount--Changes the service to mark the service account
+                          password as managed by LSA.
+          qc--------------Queries the configuration information for a service.
+          qdescription----Queries the description for a service.
+          qfailure--------Queries the actions taken by a service upon failure.
+          qfailureflag----Queries the failure actions flag of a service.
+          qsidtype--------Queries the service SID type of a service.
+          qprivs----------Queries the required privileges of a service.
+          qtriggerinfo----Queries the trigger parameters of a service.
+          qpreferrednode--Queries the preferred NUMA node of a service.
+          qrunlevel-------Queries the run level of a service.
+          qmanagedaccount-Queries whether a services uses an account with a
+                          password managed by LSA.
+          qprotection-----Queries the process protection level of a service.
+          delete----------Deletes a service (from the registry).
+          create----------Creates a service. (adds it to the registry).
+          control---------Sends a control to a service.
+          sdshow----------Displays a service's security descriptor.
+          sdset-----------Sets a service's security descriptor.
+          showsid---------Displays the service SID string corresponding to an arbitrary name.
+          triggerinfo-----Configures the trigger parameters of a service.
+          preferrednode---Sets the preferred NUMA node of a service.
+          runlevel--------Sets the run level of a service.
+          GetDisplayName--Gets the DisplayName for a service.
+          GetKeyName------Gets the ServiceKeyName for a service.
+          EnumDepend------Enumerates Service Dependencies.
+
+        The following commands don't require a service name:
+        sc   
+          boot------------(ok | bad) Indicates whether the last boot should
+                          be saved as the last-known-good boot configuration
+          Lock------------Locks the Service Database
+          QueryLock-------Queries the LockStatus for the SCManager Database
+EXAMPLE:
+        sc start MyService
+
+QUERY and QUERYEX OPTIONS:
+        If the query command is followed by a service name, the status
+        for that service is returned.  Further options do not apply in
+        this case.  If the query command is followed by nothing or one of
+        the options listed below, the services are enumerated.
+    type=    Type of services to enumerate (driver, service, all)
+             (default = service)
+    state=   State of services to enumerate (inactive, all)
+             (default = active)
+    bufsize= The size (in bytes) of the enumeration buffer
+             (default = 4096)
+    ri=      The resume index number at which to begin the enumeration
+             (default = 0)
+    group=   Service group to enumerate
+             (default = all groups)
+
+SYNTAX EXAMPLES
+sc query                - Enumerates status for active services & drivers
+sc query eventlog       - Displays status for the eventlog service
+sc queryex eventlog     - Displays extended status for the eventlog service
+sc query type= driver   - Enumerates only active drivers
+sc query type= service  - Enumerates only Win32 services
+sc query state= all     - Enumerates all services & drivers
+sc query bufsize= 50    - Enumerates with a 50 byte buffer
+sc query ri= 14         - Enumerates with resume index = 14
+sc queryex group= ""    - Enumerates active services not in a group
+sc query type= interact - Enumerates all interactive services
+sc query type= driver group= NDIS     - Enumerates all NDIS drivers
+
+**参考链接**: https://superuser.com/questions/301765/restart-a-windows-service-from-the-command-line
+
+> 📎 来源 / Source: https://superuser.com/questions/301765/restart-a-windows-service-from-the-command-line
+
+#### 162. Keyboard shortcuts to arrange Chrome tabs on Windows?
+
+**故障现象**: Keyboard shortcuts to arrange Chrome tabs on Windows?
+**标签 / 来源**: Tags: windows, google-chrome, keyboard, keyboard-shortcuts | superuser | 👍 140 | 💬 8 answers
+
+**问题描述**:
+Tags: windows, google-chrome, keyboard, keyboard-shortcuts | Score: 140 | Views: 67229 | Answers: 8
+
+**解决方法 / 社区答案**:
+Ctrl+Shift+PgUp
+Ctrl+Shift+PgDn
+
+**参考链接**: https://superuser.com/questions/629432/keyboard-shortcuts-to-arrange-chrome-tabs-on-windows
+
+> 📎 来源 / Source: https://superuser.com/questions/629432/keyboard-shortcuts-to-arrange-chrome-tabs-on-windows
+
+#### 163. What is the difference between SETX and SET in environment variables in Windows
+
+**故障现象**: What is the difference between SETX and SET in environment variables in Windows
+**标签 / 来源**: Tags: windows, environment-variables | superuser | 👍 140 | 💬 4 answers
+
+**问题描述**:
+Tags: windows, environment-variables | Score: 140 | Views: 159899 | Answers: 4
+
+**解决方法 / 社区答案**:
+I'm afraid it's not quite that simple. Environment variables are not limited by scope, as you suggest, but you are right that the lifetime of the value in the variable is different when comparing the verbs. 
+
+set modifies the current shell's (the window's) environment values, and the change is available immediately, but it is temporary.  The change will not affect other shells that are running, and as soon as you close the shell, the new value is lost until such time as you run set again. 
+
+setx modifies the value permanently, which affects all future shells, but does not modify the environment of the shells already running.  You have to exit the shell and reopen it before the change will be available, but the value will remain modified until you change it again. 
+
+See here for an example: http://batcheero.blogspot.com/2008/02/set-and-setx.html
+
+**参考链接**: https://superuser.com/questions/916649/what-is-the-difference-between-setx-and-set-in-environment-variables-in-windows
+
+> 📎 来源 / Source: https://superuser.com/questions/916649/what-is-the-difference-between-setx-and-set-in-environment-variables-in-windows
+
+#### 164. Delete all files from a folder and its sub folders
+
+**故障现象**: Delete all files from a folder and its sub folders
+**标签 / 来源**: Tags: windows, script, powershell, batch-file, vbscript | superuser | 👍 139 | 💬 16 answers
+
+**问题描述**:
+Tags: windows, script, powershell, batch-file, vbscript | Score: 139 | Views: 555882 | Answers: 16
+
+**解决方法 / 社区答案**:
+Short and sweet PowerShell.  Not sure what the lowest version of PS it will work with.
+Remove-Item c:\Tmp\* -Recurse -Force
+
+**参考链接**: https://superuser.com/questions/741945/delete-all-files-from-a-folder-and-its-sub-folders
+
+> 📎 来源 / Source: https://superuser.com/questions/741945/delete-all-files-from-a-folder-and-its-sub-folders
+
+#### 165. Disable Narrator shortcut key in Windows
+
+**故障现象**: Disable Narrator shortcut key in Windows
+**标签 / 来源**: Tags: windows, windows-8, hotkeys | superuser | 👍 139 | 💬 11 answers
+
+**问题描述**:
+Tags: windows, windows-8, hotkeys | Score: 139 | Views: 180666 | Answers: 11
+
+**解决方法 / 社区答案**:
+I have not tried it personally but here's what I found.
+
+Navigate to %systemroot%\System32
+In this folder a file called Narrator.exe is to be found
+Right click the file and choose Properties
+Choose the Security tab and press Advanced
+In the top of the window press Change to change the Owner permissions
+In the text field write your username and press OK to all the dialogs
+
+Now you should be able to change the permissions of the file, this is where we remove all the permissions from your user and change the owner back to SYSTESM; this way your user will not be able to start the Narrator.
+
+Right-click the Narrator file again and choose Properties and Security
+Press Advanced
+Now that you are the owner you can change permissions for other users. Choose your own user and press Edit
+Remove the Read &amp; Execute and Read permissions and press OK
+Now press Change in the top under Owner and write system in the text field
+Press OK to all dialogs
+
+Source
+
+**参考链接**: https://superuser.com/questions/473410/disable-narrator-shortcut-key-in-windows
+
+> 📎 来源 / Source: https://superuser.com/questions/473410/disable-narrator-shortcut-key-in-windows
+
+#### 166. How to move the recovery partition on Windows 10?
+
+**故障现象**: How to move the recovery partition on Windows 10?
+**标签 / 来源**: Tags: windows-10, diskpart | superuser | 👍 139 | 💬 5 answers
+
+**问题描述**:
+Tags: windows-10, diskpart | Score: 139 | Views: 268011 | Answers: 5
+
+**解决方法 / 社区答案**:
+According to MS's documentation, capture-and-apply-windows-system-and-recovery-partitions, the recovery partition can be captured and applied to a new partition. I have made it to work on my windows 10 PC.
+Warning 1: You must know what the following commands do before you execute them. Check the link above and MS's documentation for diskpart, dism and reagentc.
+Warning 2: Check disk numbers, partition numbers and volume letters carefully before executing commands.
+
+Use diskpart to find current recovery partition and assign a driver letter(eg. O) to it:
+
+DISKPART&gt; list disk
+DISKPART&gt; select disk &lt;the-number-of-disk-where-current-recovery-partition-locate&gt;
+DISKPART&gt; list partition
+DISKPART&gt; select partition &lt;the-number-of-current-recovery-partition&gt;
+DISKPART&gt; assign letter=O
+
+
+Create an image file from current recovery partition:
+
+Dism /Capture-Image /ImageFile:C:\recovery-partition.wim /CaptureDir:O:\ /Name:&quot;Recovery&quot;
+
+
+Apply the created image file to another partition(eg. N) that will become the new recovery partition:
+
+Dism /Apply-Image /ImageFile:C:\recovery-partition.wim /Index:1 /ApplyDir:N:\
+
+
+Register the location of the recovery tools:
+
+reagentc /disable
+reagentc /setreimage /path N:\Recovery\WindowsRE
+reagentc /enable
+
+
+Use diskpart to hide the recovery partition:
+
+For UEFI:
+
+DISKPART&gt; select volume N
+DISKPART&gt; set id=&quot;de94bba4-06d1-4d40-a16a-bfd50179d6ac&quot;
+DISKPART&gt; gpt attributes=0x8000000000000001
+DISKPART&gt; remove
+
+
+For BIOS:
+
+DISKPART&gt; select volume N
+DISKPART&gt; set id=27
+DISKPART&gt; remove
+
+
+Reboot the computer, now the new recovery partition should be working
+(Optional) Delete the old recovery partition:
+
+DISKPART&gt; select volume O
+DISKPART&gt; delete partition override
+
+
+(Optional) Check if the recovery partition is working:
+
+Show the current status:
+reagentc /info
+
+
+Specifies that Windows RE starts automatically the next time the system starts:
+reagentc /boottore
+
+
+Reboot the computer and do your stuff in Windows RE (eg. enter CMD and run some tools)
+
+**参考链接**: https://superuser.com/questions/1453790/how-to-move-the-recovery-partition-on-windows-10
+
+> 📎 来源 / Source: https://superuser.com/questions/1453790/how-to-move-the-recovery-partition-on-windows-10
+
+#### 167. Where does Putty store known_hosts information on Windows?
+
+**故障现象**: Where does Putty store known_hosts information on Windows?
+**标签 / 来源**: Tags: windows, ssh, putty, known-hosts | superuser | 👍 138 | 💬 3 answers
+
+**问题描述**:
+Tags: windows, ssh, putty, known-hosts | Score: 138 | Views: 202114 | Answers: 3
+
+**解决方法 / 社区答案**:
+Putty stores known hosts under a registry key:  HKEY_CURRENT_USER\SoftWare\SimonTatham\PuTTY\SshHostKeys.
+
+**参考链接**: https://superuser.com/questions/197489/where-does-putty-store-known-hosts-information-on-windows
+
+> 📎 来源 / Source: https://superuser.com/questions/197489/where-does-putty-store-known-hosts-information-on-windows
+
+#### 168. Why can&#39;t VirtualBox or VMware run with Hyper-V enabled on Windows 10?
+
+**故障现象**: Why can&#39;t VirtualBox or VMware run with Hyper-V enabled on Windows 10?
+**标签 / 来源**: Tags: windows-10, virtualbox, virtual-machine, virtualization, vmware | superuser | 👍 137 | 💬 4 answers
+
+**问题描述**:
+Tags: windows-10, virtualbox, virtual-machine, virtualization, vmware | Score: 137 | Views: 170569 | Answers: 4
+
+**解决方法 / 社区答案**:
+VirtualBox and VMware Workstation (and VMware Player) are "level 2 hypervisors." Hyper-V and VMware ESXi are "level 1 hypervisors."
+
+The main difference is that a level 2 hypervisor is an application running inside an existing OS, while a level 1 hypervisor is the OS itself.
+
+This means that when you enable Hyper-V, your Windows 10 "host" becomes a virtual machine. A special one, but nonetheless a virtual machine.
+
+So your question would more aptly be: "Why don't VirtualBox and VMware Workstation work inside a Hyper-V virtual machine?" One can answer because as a VM, the Intel VT-X instruction are no longer accessible from your virtual machine, only the host has access to it.
+
+QEMU works because it does not do virtualization but emulation, which is completely different and explains why QEMU is painfully slow. Virtualization is the process of running a complete isolated machine inside another, but with the help of the processor. This requires the virtual machine and the host to be instruction compatible.
+
+Emulation is the process of running any machine inside a running OS, there is no platform restriction, and is why QEMU can run an ARM machine on an amd64 platform.
+
+Note: QEMU has 2 operating modes:
+
+
+it can work as an emulator, this is the mode explained above
+it can work as virtualization software with the help of KVM if the guest architecture is compatible with the host's and if the VT instruction is present of course.
+
+**参考链接**: https://superuser.com/questions/1208850/why-cant-virtualbox-or-vmware-run-with-hyper-v-enabled-on-windows-10
+
+> 📎 来源 / Source: https://superuser.com/questions/1208850/why-cant-virtualbox-or-vmware-run-with-hyper-v-enabled-on-windows-10
+
+#### 169. How to open a .tar.gz file in Windows?
+
+**故障现象**: How to open a .tar.gz file in Windows?
+**标签 / 来源**: Tags: windows, windows-7, tar, gz | superuser | 👍 136 | 💬 10 answers
+
+**问题描述**:
+Tags: windows, windows-7, tar, gz | Score: 136 | Views: 691920 | Answers: 10
+
+**解决方法 / 社区答案**:
+You can use 7-zip to untar the .tar file as well. 
+
+
+Right-click the file
+Select 7-zip -> Extract Here / Extract To
+
+**参考链接**: https://superuser.com/questions/215629/how-to-open-a-tar-gz-file-in-windows
+
+> 📎 来源 / Source: https://superuser.com/questions/215629/how-to-open-a-tar-gz-file-in-windows
+
+#### 170. How do I install a VSIX file in Visual Studio?
+
+**故障现象**: How do I install a VSIX file in Visual Studio?
+**标签 / 来源**: Tags: windows, visual-studio-2010, visual-studio | superuser | 👍 136 | 💬 11 answers
+
+**问题描述**:
+Tags: windows, visual-studio-2010, visual-studio | Score: 136 | Views: 417791 | Answers: 11
+
+**解决方法 / 社区答案**:
+VSIX is a Visual Studio extension installer.  You must have Visual Studio 2010 or newer in order to install them, but you should be able to install it by double-clicking the .vsix file.  Alternatively you should be able to install it from within the VS Extension Manager (Tools->Extension Manger)
+
+See more about VSIX files at Quan To's Visual Studio Extensibility blog
+
+**参考链接**: https://superuser.com/questions/73675/how-do-i-install-a-vsix-file-in-visual-studio
+
+> 📎 来源 / Source: https://superuser.com/questions/73675/how-do-i-install-a-vsix-file-in-visual-studio
+
+#### 171. Recursively delete empty directories in Windows
+
+**故障现象**: Recursively delete empty directories in Windows
+**标签 / 来源**: Tags: windows, command-line | superuser | 👍 135 | 💬 13 answers
+
+**问题描述**:
+Tags: windows, command-line | Score: 135 | Views: 240097 | Answers: 13
+
+**解决方法 / 社区答案**:
+You can use Remove Empty Directories utility.
+
+Alternatively you can use this one-liner batch file (from DownloadSquad):
+
+for /f "delims=" %d in ('dir /s /b /ad ^| sort /r') do rd "%d"
+
+
+(if used inside a batch file, replace %d with %%d)
+
+This works because rd will not remove a directory that contains files.
+
+**参考链接**: https://superuser.com/questions/39674/recursively-delete-empty-directories-in-windows
+
+> 📎 来源 / Source: https://superuser.com/questions/39674/recursively-delete-empty-directories-in-windows
+
+#### 172. How can I open a command prompt in current folder with a keyboard shortcut?
+
+**故障现象**: How can I open a command prompt in current folder with a keyboard shortcut?
+**标签 / 来源**: Tags: windows, command-line, keyboard-shortcuts, autohotkey | superuser | 👍 133 | 💬 12 answers
+
+**问题描述**:
+Tags: windows, command-line, keyboard-shortcuts, autohotkey | Score: 133 | Views: 308592 | Answers: 12
+
+**解决方法 / 社区答案**:
+Press Alt+D, type cmd and press Enter. For more details see blog post here.
+
+**参考链接**: https://superuser.com/questions/205359/how-can-i-open-a-command-prompt-in-current-folder-with-a-keyboard-shortcut
+
+> 📎 来源 / Source: https://superuser.com/questions/205359/how-can-i-open-a-command-prompt-in-current-folder-with-a-keyboard-shortcut
+
+#### 173. A command-line or batch cmd to concatenate multiple files
+
+**故障现象**: A command-line or batch cmd to concatenate multiple files
+**标签 / 来源**: Tags: windows, command-line | superuser | 👍 133 | 💬 6 answers
+
+**问题描述**:
+Tags: windows, command-line | Score: 133 | Views: 697261 | Answers: 6
+
+**解决方法 / 社区答案**:
+I don't want to type the name of all
+  files.
+
+
+That's easy to be avoided. Open a command prompt in this folder and type the following command:
+
+copy /b *.txt newfile.txt
+
+
+Press Enter.
+
+Now you will have all text files in this folder ordered by date ascending merged into a single file called newfile.txt.
+
+
+  My ultimate aim is to store the
+  contents of each text file in a separate
+  column of an Excel sheet.
+
+
+Here's a tutorial that may help you to achieve your "ultimate aim":
+
+Merge all CSV or TXT files in a folder in one worksheet
+
+**参考链接**: https://superuser.com/questions/111825/a-command-line-or-batch-cmd-to-concatenate-multiple-files
+
+> 📎 来源 / Source: https://superuser.com/questions/111825/a-command-line-or-batch-cmd-to-concatenate-multiple-files
+
+#### 174. Run a script on start up on Windows 10
+
+**故障现象**: Run a script on start up on Windows 10
+**标签 / 来源**: Tags: windows-10, boot | superuser | 👍 133 | 💬 6 answers
+
+**问题描述**:
+Tags: windows-10, boot | Score: 133 | Views: 548126 | Answers: 6
+
+**解决方法 / 社区答案**:
+The startup folder is still there and functions as normal.
+
+To access it, press Windows+R, then type shell:startup.
+
+You should be able to do what you were previously doing in Windows 7 from there.
+
+**参考链接**: https://superuser.com/questions/954950/run-a-script-on-start-up-on-windows-10
+
+> 📎 来源 / Source: https://superuser.com/questions/954950/run-a-script-on-start-up-on-windows-10
+
+#### 175. How to prevent Windows 10 waking from sleep when traveling in bag?
+
+**故障现象**: How to prevent Windows 10 waking from sleep when traveling in bag?
+**标签 / 来源**: Tags: windows-10, sleep, hibernate, windows-task-scheduler | superuser | 👍 133 | 💬 10 answers
+
+**问题描述**:
+Tags: windows-10, sleep, hibernate, windows-task-scheduler | Score: 133 | Views: 132715 | Answers: 10
+
+**解决方法 / 社区答案**:
+This has worked for me so far. Go to:
+Control Panel\Hardware and Sound\Power Options\Edit Plan Settings
+Click &quot;Change advanced power settings&quot;
+Go to &quot;Sleep-&gt;Allow wake timers&quot; and change the setting to Disable.
+
+UPDATE: As Erik pointed out, there can be two options:
+
+Disable them both.
+UPDATE #2:
+In addition to wake timers, peripheral devices can also wake your computer. See Rosdi's answer for network interfaces. It reminded me of something I had to change recently as my computer was waking again when peripherals were attached. First I disconnected the mouse, but it turned out to be the keyboard.
+Open the Device Manager and expand Keyboards - or whatever your problematic device category is - and find the suspect, e.g. &quot;HID Keyboard Device&quot;. Right-click that and select Properties, then go to the Power Management tab and uncheck &quot;Allow this device to wake the computer&quot;.
+
+**参考链接**: https://superuser.com/questions/958109/how-to-prevent-windows-10-waking-from-sleep-when-traveling-in-bag
+
+> 📎 来源 / Source: https://superuser.com/questions/958109/how-to-prevent-windows-10-waking-from-sleep-when-traveling-in-bag
+
+#### 176. Change default action on connecting a USB device
+
+**故障现象**: Change default action on connecting a USB device
+**标签 / 来源**: Tags: windows, usb | superuser | 👍 132 | 💬 1 answers
+
+**问题描述**:
+Tags: windows, usb | Score: 132 | Views: 354443 | Answers: 1
+
+**解决方法 / 社区答案**:
+Microsoft explains all about autoplay here.
+
+
+Open AutoPlay by clicking the Start button , and then clicking Control Panel. In the search box, type autoplay, and then click AutoPlay. 
+In the list next to the device or type of media, click the new action you want to use.
+
+**参考链接**: https://superuser.com/questions/401073/change-default-action-on-connecting-a-usb-device
+
+> 📎 来源 / Source: https://superuser.com/questions/401073/change-default-action-on-connecting-a-usb-device
+
+#### 177. Display the taskbar clock on multiple screens in Windows?
+
+**故障现象**: Display the taskbar clock on multiple screens in Windows?
+**标签 / 来源**: Tags: windows, windows-8, taskbar, clock | superuser | 👍 132 | 💬 7 answers
+
+**问题描述**:
+Tags: windows, windows-8, taskbar, clock | Score: 132 | Views: 196308 | Answers: 7
+
+**解决方法 / 社区答案**:
+You can't display the clock on both taskbar. It is possible to drag your primary taskbar to the second monitor providing they are unlocked first.
+
+**参考链接**: https://superuser.com/questions/495201/display-the-taskbar-clock-on-multiple-screens-in-windows
+
+> 📎 来源 / Source: https://superuser.com/questions/495201/display-the-taskbar-clock-on-multiple-screens-in-windows
+
+#### 178. How to set default user for manually installed WSL distro?
+
+**故障现象**: How to set default user for manually installed WSL distro?
+**标签 / 来源**: Tags: linux, windows, user-accounts, windows-subsystem-for-linux | superuser | 👍 131 | 💬 8 answers
+
+**问题描述**:
+Tags: linux, windows, user-accounts, windows-subsystem-for-linux | Score: 131 | Views: 257638 | Answers: 8
+
+**解决方法 / 社区答案**:
+There are a few possible methods of changing/setting the default user in an imported WSL instance.  While the two that were mentioned in other answers still work, there are two &quot;official&quot; ways now.
+Method 1 - wsl --manage --set-default-user (WSL 2.4.10 and later)
+As of February 2025, the latest release of WSL (2.4.10.0) includes a built-in flag for setting the default user. If needed, you can (assuming you are running on a release in the last few years) update via:
+wsl --update
+
+And then:
+wsl --manage &lt;distro&gt; --set-default-user &lt;username&gt;
+
+This queries the user id (via usr/bin/id and perhaps other methods) in the distribution and then sets the returned UID in the registry as in Method #3 below.  It does require that the username/id already exists. See the &quot;For readers who need to create a new user&quot; section below if needed.
+Method 2 - /etc/wsl.conf
+The current Microsoft recommended way of setting the username in an instance is to create a /etc/wsl.conf in the instance with the following setting:
+[user]
+default=username
+
+Changing, of course, username to be your default username.
+Exit your distro/instance, then issue a wsl --terminate &lt;distroname&gt; from PowerShell or CMD.  When you restart, the default user should be set.
+This is safer and less error-prone than the registry-based methods.
+Method 3 - Registry Key
+Setting the registry key per @harrymc's answer.
+Method 4 - LxRunOffline
+Using LxRunOffline to set the registry entry, as described in @Jaime's answer.  Ultimately this has the same effect as Method 3 above.
+Semi-method 5 - Runtime user selection via wsl commandline argument
+The username can be selected when starting any WSL instance by:
+wsl -u username or wsl -d distroname -u username, etc.
+For instance, wsl -d Ubuntu -u root.
+
+Side Note: This question was specifically about setting the default username in an imported instance.
+However, for completeness, you can also set the default username for a distro that was installed from the Store (or wsl --install) with:
+&lt;distro&gt;.exe config --default-user &lt;username&gt;
+
+For instance, if you installed &quot;Ubuntu 20.04&quot; from the Store, you would use:
+ubuntu2004.exe config --default-user &lt;username&gt;
+
+The .exe here is an &quot;App Execution Alias&quot; in Windows.  You can check the name by going to &quot;Manage app execution aliases&quot; in the Windows System Settings.
+
+For readers who need to create a new user
+@ndemou made a good point in the comments last year that I, in hindsight, dismissed improperly.  Two other users have now mentioned in the comments that @ndemou's information was helpful.  My belated apologies!  Here's the additional information based on @ndemou's advice ...
+Some users who find this answer may be starting up as root not because they --import'd a distribution, but possibly because the default user was never created during installation in the first place.  This can happen when the distribution installation is stopped prematurely, and likely for other reasons as well.
+Under Ubuntu, the default distribution for WSL, you can create your user by starting with:
+wsl ~ -u root
+
+If you need to, add the -d &lt;distribution&gt; option.
+Then run:
+NEWUSER=&lt;your_username&gt;
+useradd --create-home --shell /usr/bin/bash --user-group --groups  adm,dialout,cdrom,floppy,sudo,audio,dip,video,plugdev,netdev --password $(read -sp Password: pw ; echo $pw | openssl passwd -1 -stdin) $NEWUSER
+
+Then set the user as the default using the /etc/wsl.conf as mentioned above.
+If you've already created the user, or are using a different distribution, as @ndemou points out, make sure to also add the user either to a group that is in sudoers or directly to sudoers via visudo.  See the answers to this question for additional details.
+
+**参考链接**: https://superuser.com/questions/1566022/how-to-set-default-user-for-manually-installed-wsl-distro
+
+> 📎 来源 / Source: https://superuser.com/questions/1566022/how-to-set-default-user-for-manually-installed-wsl-distro
+
+#### 179. How can I shrink a Windows 10 partition?
+
+**故障现象**: How can I shrink a Windows 10 partition?
+**标签 / 来源**: Tags: windows, hard-drive, partitioning, mirroring | superuser | 👍 131 | 💬 13 answers
+
+**问题描述**:
+Tags: windows, hard-drive, partitioning, mirroring | Score: 131 | Views: 295566 | Answers: 13
+
+**解决方法 / 社区答案**:
+There seems to be absolutely no need for any third party software.
+
+I have followed the instructions here, and I successfully shrank my OS partition in about 10 minutes.
+Running under Windows 10, but I doubt it makes a difference here.
+
+The steps are:
+
+
+Disable hibernation.
+
+At a an elevated (admin) command prompt, run the command
+
+powercfg /h off
+
+Disable pagefile.
+
+Open the System page in Control Panel (from “This PC”/“My computer”, open the Properties). Click “Advanced System Settings”, then in the “System Properties” dialog's “Advanced” tab, open the “Performance” settings, go to the “Advanced” tab, click “Change...” under “Virtual memory”, untick “Automatically manage paging file size for all drives”, select the drive you want to shrink, select “No paging file” and click the “Set” button.
+Disable system protection.
+
+In the “System Properties” dialog as above, go to the “System Protection” tab, click “Configure...” and select “Disable system protection”.
+Restart.
+
+
+Now the three files that were preventing partition reduction are gone. Reduce partition size, and then restore the three items.
+
+If Disk Management complains that “There is not enough space available on the disk(s) to complete this operation.” even though you entered a size that should work according to Disk Management's own figures, see Cannot shrink C: partition: Not enough space
+
+I have later found similar instructions at other places, all of them mentioning only these 3 items.
+
+**参考链接**: https://superuser.com/questions/1017764/how-can-i-shrink-a-windows-10-partition
+
+> 📎 来源 / Source: https://superuser.com/questions/1017764/how-can-i-shrink-a-windows-10-partition
+
+#### 180. How to add command line options to shortcut?
+
+**故障现象**: How to add command line options to shortcut?
+**标签 / 来源**: Tags: windows, windows-xp, shortcuts, command-line-arguments | superuser | 👍 130 | 💬 4 answers
+
+**问题描述**:
+Tags: windows, windows-xp, shortcuts, command-line-arguments | Score: 130 | Views: 485255 | Answers: 4
+
+**解决方法 / 社区答案**:
+Have you tried to add in the Target field
+
+
+"c:\path\to\exe\program.exe" -option1 -option2
+
+
+Only the program path and name need to be enclosed in quotes.
+
+**参考链接**: https://superuser.com/questions/29569/how-to-add-command-line-options-to-shortcut
+
+> 📎 来源 / Source: https://superuser.com/questions/29569/how-to-add-command-line-options-to-shortcut
+
+#### 181. Unable to install fonts on Windows 10
+
+**故障现象**: Unable to install fonts on Windows 10
+**标签 / 来源**: Tags: windows, fonts, windows-10, uac | superuser | 👍 129 | 💬 2 answers
+
+**问题描述**:
+Tags: windows, fonts, windows-10, uac | Score: 129 | Views: 170795 | Answers: 2
+
+**解决方法 / 社区答案**:
+After a week of trying everything. The answer as weird as it sounds is to enable the windows firewall. I know, makes no sense right? It's not connected to font settings, however once "On" I was able to fix my issue with installing fonts on windows 10 and without an error message!
+
+**参考链接**: https://superuser.com/questions/957907/unable-to-install-fonts-on-windows-10
+
+> 📎 来源 / Source: https://superuser.com/questions/957907/unable-to-install-fonts-on-windows-10
+
+#### 182. How to make Outlook Calendar reminders stay on top in Windows 7
+
+**故障现象**: How to make Outlook Calendar reminders stay on top in Windows 7
+**标签 / 来源**: Tags: windows, microsoft-outlook, calendar, popups, reminder | superuser | 👍 129 | 💬 11 answers
+
+**问题描述**:
+Tags: windows, microsoft-outlook, calendar, popups, reminder | Score: 129 | Views: 234341 | Answers: 11
+
+**解决方法 / 社区答案**:
+I had the same problem with Outlook 2010. Use the steps mentioned below, it works like a charm. Don't forget to enable all macros: Trust Center > Macro Settings.
+
+
+Create a Digital certificate for later: Hit Start and type
+'certificate', select 'Digital Certificate for VBA Projects'
+Enter a name for your certificate. Click OK. Open Outlook and hit Alt + F11 to
+start the VBA editor. 
+In the tree on the left, expand 'Microsoft Office Outlook Objects' and double click on 'ThisOutlookSession'
+Paste in this code:
+
+Private Declare PtrSafe Function FindWindowA Lib "user32" _
+(ByVal lpClassName As String, ByVal lpWindowName As String) As Long
+
+Private Declare PtrSafe Function SetWindowPos Lib "user32" ( _
+ByVal hwnd As Long, ByVal hWndInsertAfter As Long, _
+ByVal X As Long, ByVal Y As Long, ByVal cx As Long, _
+ByVal cy As Long, ByVal wFlags As Long) As Long
+
+Private Const SWP_NOSIZE = &amp;H1
+Private Const SWP_NOMOVE = &amp;H2
+Private Const FLAGS As Long = SWP_NOMOVE Or SWP_NOSIZE
+Private Const HWND_TOPMOST = -1
+
+Private Sub Application_Reminder(ByVal Item As Object)
+Dim ReminderWindowHWnd As Variant
+On Error Resume Next
+ReminderWindowHWnd = FindWindowA(vbNullString, "1 Reminder")
+SetWindowPos ReminderWindowHWnd, HWND_TOPMOST, 0, 0, 0, 0, FLAGS
+
+End Sub
+
+Sign the Macro so it will run: Tools > Digital Signature... and choose the certificate you created earlier
+Close the VBA window
+Enable all macros in File > Options > Trust Center > Trust Center Settings > Macro Settings
+
+**参考链接**: https://superuser.com/questions/251963/how-to-make-outlook-calendar-reminders-stay-on-top-in-windows-7
+
+> 📎 来源 / Source: https://superuser.com/questions/251963/how-to-make-outlook-calendar-reminders-stay-on-top-in-windows-7
+
+#### 183. View past notifications in Windows 10 and 11?
+
+**故障现象**: View past notifications in Windows 10 and 11?
+**标签 / 来源**: Tags: windows, windows-10, windows-11, notifications, action-center | superuser | 👍 129 | 💬 4 answers
+
+**问题描述**:
+Tags: windows, windows-10, windows-11, notifications, action-center | Score: 129 | Views: 304443 | Answers: 4
+
+**解决方法 / 社区答案**:
+tldr; No there's not.
+
+The action center is the same as found on the Microsoft Phones running Windows 10 Mobile.  These actions (notifications) are meant to be displayed to the user until they take action.  There are two ways a user can interact with an action:
+
+
+Dismiss the notification (clears the action)
+Select the notification (respond to the action)
+
+
+Once one of these interactions takes place, the notification and therefore the action is no longer displayed.  No history is maintained of these notifications and cannot be retrieved.  This is done on purpose as that history could (and most likely would) become very large.  
+
+If you are worried that the notification has system-wide consequences it could be worth looking into the System logs instead; here separate messages about system events are stored.
+
+
+
+Update: It appears that some applications will additionally add events into the event viewer.  This can be done by:
+
+
+Open Event Viewer 
+Expand Applications and Services Logs 
+Drill down to the app or service you are interested in, e.g. for Windows Defender you might go to: Microsoft -&gt; Windows -&gt; Windows Defender -&gt; Operational log. 
+Review the log and look for the notification you were interested in.
+
+
+This is NOT the notification history, but additional information provided by the application and as such, there's no guarantee that the notification was logged.  It also requires that a user knows which application whose notification they're looking for.
+
+**参考链接**: https://superuser.com/questions/947947/view-past-notifications-in-windows-10-and-11
+
+> 📎 来源 / Source: https://superuser.com/questions/947947/view-past-notifications-in-windows-10-and-11
+
+#### 184. Set shortcuts to change keyboard layout in Windows 10
+
+**故障现象**: Set shortcuts to change keyboard layout in Windows 10
+**标签 / 来源**: Tags: keyboard, windows-10, keyboard-layout, input-languages | superuser | 👍 129 | 💬 12 answers
+
+**问题描述**:
+Tags: keyboard, windows-10, keyboard-layout, input-languages | Score: 129 | Views: 367310 | Answers: 12
+
+**解决方法 / 社区答案**:
+Go to Control Panel → Clock, Language, and Region → Change input methods (under Language) → Advanced settings → Change language bar hot keys.
+
+**参考链接**: https://superuser.com/questions/958901/set-shortcuts-to-change-keyboard-layout-in-windows-10
+
+> 📎 来源 / Source: https://superuser.com/questions/958901/set-shortcuts-to-change-keyboard-layout-in-windows-10
+
+#### 185. Windows 10 Ubuntu Bash Shell: How Do I Mount Other Windows Drives?
+
+**故障现象**: Windows 10 Ubuntu Bash Shell: How Do I Mount Other Windows Drives?
+**标签 / 来源**: Tags: windows-10, bash, mount | superuser | 👍 129 | 💬 6 answers
+
+**问题描述**:
+Tags: windows-10, bash, mount | Score: 129 | Views: 242241 | Answers: 6
+
+**解决方法 / 社区答案**:
+Good news, it is now possible to mount USB media (including formatted as FAT) and network shares with drvfs on Windows 10:
+
+Mount removable media: (e.g. D:)
+
+$ sudo mkdir /mnt/d
+$ sudo mount -t drvfs D: /mnt/d
+
+
+To safely unmount
+
+$ sudo umount /mnt/d
+
+
+You can also mount network shares without smbfs:
+
+$ sudo mount -t drvfs '\\server\share' /mnt/share
+
+
+You need at least Build 16176 so you might have to opt-in to the Windows Insider programm and then update Windows. Source: https://blogs.msdn.microsoft.com/wsl/2017/04/18/file-system-improvements-to-the-windows-subsystem-for-linux/
+
+**参考链接**: https://superuser.com/questions/1114341/windows-10-ubuntu-bash-shell-how-do-i-mount-other-windows-drives
+
+> 📎 来源 / Source: https://superuser.com/questions/1114341/windows-10-ubuntu-bash-shell-how-do-i-mount-other-windows-drives
+
+#### 186. How do I type the tick and backtick characters on Windows?
+
+**故障现象**: How do I type the tick and backtick characters on Windows?
+**标签 / 来源**: Tags: windows, typing | superuser | 👍 128 | 💬 14 answers
+
+**问题描述**:
+Tags: windows, typing | Score: 128 | Views: 561545 | Answers: 14
+
+**解决方法 / 社区答案**:
+Backtick (grave accent)
+QWERTY
+Key that’s been marked with red border. It’s a dead key by default.
+
+
+
+This also applies to the Slovak QWERTZ layout.
+
+QWERTZ Germany &amp; Austria
+Shift + Key that's been marked with red border
+
+
+
+
+QWERTZ Switzerland
+Shift + Key that's been marked with a red border
+
+
+
+
+QWERTZ Czech Republic and South Slavic Latin (Bosnian, Croatian, Serbian, Slovene)
+Alt Gr + Key that's been marked with red border
+
+
+
+
+QWERTZ Hungary
+Alt Gr + Key that's been marked with red border
+
+
+
+
+AZERTY France
+Alt Gr + Key that’s been marked with red border
+
+
+
+
+AZERTY Belgium
+Alt Gr + Key that’s been marked with red border
+
+
+
+
+Forwardtick (acute accent)
+AZERTY Belgium
+Alt Gr + Key that’s been marked with red border
+
+
+
+
+Alt codes
+There may not be forwardtick keys available for the other keyboards, however an alt code exists (Hold left Alt and type the numbers on your num pad).
+The below codes should work on any keyboard.
+
+Alt + 96 = `
+Alt + 0180 = ´
+Alt + 39 = '
+
+So if you want an ', you do the following: Hold left Alt, press
+3, release 3 but still hold Alt, press
+9, release 9, release Alt.
+Unicode Character 'ACUTE ACCENT'
+
+**参考链接**: https://superuser.com/questions/254076/how-do-i-type-the-tick-and-backtick-characters-on-windows
+
+> 📎 来源 / Source: https://superuser.com/questions/254076/how-do-i-type-the-tick-and-backtick-characters-on-windows
+
+#### 187. What does &quot;delayed start&quot; do in startup type for a Windows service?
+
+**故障现象**: What does &quot;delayed start&quot; do in startup type for a Windows service?
+**标签 / 来源**: Tags: windows, boot, windows-services | superuser | 👍 128 | 💬 5 answers
+
+**问题描述**:
+Tags: windows, boot, windows-services | Score: 128 | Views: 321771 | Answers: 5
+
+**解决方法 / 社区答案**:
+A service marked as Automatic (Delayed Start) will start shortly after all other services designated as Automatic have been started. In my experience, this means that they are started 1-2 minutes after the computer boots.
+
+The setting is most useful in lessening the "mad rush" for resources when a machine boots.
+
+Note that when you have 20 services all being started at the same time, each will start up slower as it competes with the others for slices of the machine's precious resources (CPU/RAM/Disk/Network). That is, each service takes longer to become available!
+
+If you have a few services that are critical, then you may want to set those few to Automatic and set as many of the others as you can to Automatic (Delayed Start). This will ensure that the critical services get the most resources early and become available sooner, while the non-critical services start a bit later (which by definition is ok).
+
+**参考链接**: https://superuser.com/questions/285653/what-does-delayed-start-do-in-startup-type-for-a-windows-service
+
+> 📎 来源 / Source: https://superuser.com/questions/285653/what-does-delayed-start-do-in-startup-type-for-a-windows-service
+
+#### 188. How can I SSH into &quot;Bash on Ubuntu on Windows 10&quot;?
+
+**故障现象**: How can I SSH into &quot;Bash on Ubuntu on Windows 10&quot;?
+**标签 / 来源**: Tags: windows-10, bash, ssh, windows-10-v1607, windows-subsystem-for-linux | superuser | 👍 128 | 💬 5 answers
+
+**问题描述**:
+Tags: windows-10, bash, ssh, windows-10-v1607, windows-subsystem-for-linux | Score: 128 | Views: 232533 | Answers: 5
+
+**解决方法 / 社区答案**:
+I got it to work; here's how.
+
+Uninstalled ssh-server, reinstalled it and made sure it's started with
+
+sudo service ssh --full-restart
+
+
+Make sure you turned off root access and added another user in the config file.
+
+I was able to connect to the subsystem on 127.0.0.1:22 as expected. 
+I hope this will help you.
+
+
+
+
+sudo apt-get purge openssh-server
+sudo apt-get install openssh-server
+sudo nano /etc/ssh/sshd_config and disallow root login by setting PermitRootLogin no
+Then add a line beneath it that says:
+
+AllowUsers yourusername
+
+and make sure PasswordAuthentication is set to yes if you want to login using a password.
+Disable privilege separation by adding/modifying : UsePrivilegeSeparation no
+sudo service ssh --full-restart
+Connect to your Linux subsystem from Windows using a ssh client like PuTTY.
+
+**参考链接**: https://superuser.com/questions/1111591/how-can-i-ssh-into-bash-on-ubuntu-on-windows-10
+
+> 📎 来源 / Source: https://superuser.com/questions/1111591/how-can-i-ssh-into-bash-on-ubuntu-on-windows-10
+
+#### 189. Should I defragment my SSD?
+
+**故障现象**: Should I defragment my SSD?
+**标签 / 来源**: Tags: windows-10, ssd, defragment | superuser | 👍 128 | 💬 8 answers
+
+**问题描述**:
+Tags: windows-10, ssd, defragment | Score: 128 | Views: 73296 | Answers: 8
+
+**解决方法 / 社区答案**:
+Let Windows do its job. Once per month it does a real full defrag, also on a SSD, to optimize the internal meta data.
+
+
+  The short answer is, yes, Windows does sometimes defragment SSDs, yes,
+  it's important to intelligently and appropriately defrag SSDs, and
+  yes, Windows is smart about how it treats your SSD.
+
+
+Here is a reply from Microsoft:
+
+
+  Storage Optimizer will defrag an SSD once a month if volume snapshots are enabled. This is by design and necessary due to slow
+  volsnap copy on write performance on fragmented SSD volumes. It’s
+  also somewhat of a misconception that fragmentation is not a problem
+  on SSDs. If an SSD gets too fragmented you can hit maximum file
+  fragmentation (when the metadata can’t represent any more file
+  fragments) which will result in errors when you try to write/extend a
+  file. Furthermore, more file fragments means more metadata to process
+  while reading/writing a file, which can lead to slower performance.
+  
+  As far as Retrim is concerned, this command should run on the schedule
+  specified in the dfrgui UI. Retrim is necessary because of the way
+  TRIM is processed in the file systems. Due to the varying performance
+  of hardware responding to TRIM, TRIM is processed asynchronously by
+  the file system. When a file is deleted or space is otherwise freed,
+  the file system queues the trim request to be processed. To limit the
+  peek resource usage this queue may only grow to a maximum number of
+  trim requests. If the queue is of max size, incoming TRIM requests may
+  be dropped. This is okay because we will periodically come through and
+  do a Retrim with Storage Optimizer. The Retrim is done at a
+  granularity that should avoid hitting the maximum TRIM request queue
+  size where TRIMs are dropped.
+
+
+So install Windows on the SSD and forget it. Windows will do everything on its own.
+
+**参考链接**: https://superuser.com/questions/1150641/should-i-defragment-my-ssd
+
+> 📎 来源 / Source: https://superuser.com/questions/1150641/should-i-defragment-my-ssd
+
+#### 190. How to access a BitLocker-encrypted drive in Linux?
+
+**故障现象**: How to access a BitLocker-encrypted drive in Linux?
+**标签 / 来源**: Tags: linux, windows, encryption, multi-boot, bitlocker | superuser | 👍 126 | 💬 10 answers
+
+**问题描述**:
+Tags: linux, windows, encryption, multi-boot, bitlocker | Score: 126 | Views: 493008 | Answers: 10
+
+**解决方法 / 社区答案**:
+You can access the BitLocker partition under Linux using Dislocker, an open-source driver that is using FUSE (or not).
+Note: You need the file on a USB key (the one with the .bek extension) or the recovery password.
+
+**参考链接**: https://superuser.com/questions/376533/how-to-access-a-bitlocker-encrypted-drive-in-linux
+
+> 📎 来源 / Source: https://superuser.com/questions/376533/how-to-access-a-bitlocker-encrypted-drive-in-linux
+
+#### 191. How do I create a right-click context menu entry to open Git Bash at a given folder within ConEmu?
+
+**故障现象**: How do I create a right-click context menu entry to open Git Bash at a given folder within ConEmu?
+**标签 / 来源**: Tags: windows, bash, git, conemu | superuser | 👍 126 | 💬 6 answers
+
+**问题描述**:
+Tags: windows, bash, git, conemu | Score: 126 | Views: 71770 | Answers: 6
+
+**解决方法 / 社区答案**:
+There are a number of ways this can be done in ConEmu as it is so highly configurable, but here's the way I do it.
+
+
+In ConEmu, hit WinAltp to open the settings dialog.
+Select the Tasks subsection under the Startup node and click the + icon to add a new 'Task'
+In the Task Name field enter Git Bash, leave Task Parameters blank and add "C:\Program Files\Git\bin\sh.exe" --login -i to the Commands section. It should look something like this:
+
+
+
+
+
+Now select the Integration node and enter the following under the ConEmu Here - Explorer menu integration section: 
+
+
+Menu item: ConEmu Here [Git Bash]
+Command: /single /cmd {Git Bash}
+Icon file: C:\Program Files\Git\mingw64\share\git\git-for-windows.ico
+
+Click the Register button
+
+
+
+
+This should add an entry in your right-click context menu (complete with icon). In the Command field you can use any of the ConEmu.exe switches (worth checking out for more complete documentation of what you can do - it's pretty powerful).
+
+Note: If you'd like a Git for Windows icon to appear at the top left of the ConEmu window, use the /icon switch; e.g.,
+
+/icon "C:\Program Files\Git\mingw64\share\git\git-for-windows.ico" /single /cmd {Git Bash}
+
+
+This only seems to work if it's the first tab open, though.
+
+**参考链接**: https://superuser.com/questions/454380/how-do-i-create-a-right-click-context-menu-entry-to-open-git-bash-at-a-given-fol
+
+> 📎 来源 / Source: https://superuser.com/questions/454380/how-do-i-create-a-right-click-context-menu-entry-to-open-git-bash-at-a-given-fol
+
+#### 192. How do I modify my Git Bash profile in Windows?
+
+**故障现象**: How do I modify my Git Bash profile in Windows?
+**标签 / 来源**: Tags: windows, bashrc, .bash-profile, git-bash | superuser | 👍 125 | 💬 6 answers
+
+**问题描述**:
+Tags: windows, bashrc, .bash-profile, git-bash | Score: 125 | Views: 331804 | Answers: 6
+
+**解决方法 / 社区答案**:
+When you open up your Git Bash, you should be in your home directory by default.
+Now create the .bashrc file (if on Windows&nbsp;7 the file should be named .bashrc.).
+
+If you're not in the home directory, change into it by typing:
+
+
+  cd
+
+
+and pressing Enter. cd, without any other parameters listed after, will always return the home directory.
+
+You can create the file by typing:
+
+
+  touch .bashrc
+
+
+Then edit it with Vim or you could try doing it with some Windows editor, but I don't recommend it, because of some text formatting issues.
+
+
+  vim .bashrc
+
+
+Change to Insert Mode by hitting the i key.
+
+Add your alias by typing:
+
+
+  alias gs='git status'
+
+
+Exit the insert mode by hitting the Esc key.
+
+Save and close your file by typing the following :wqEnter.
+
+:wEnter will only save your file.
+
+:q!Enter will quit the editor without saving your file.
+
+Finally, update the file to use your new changes by typing:
+
+
+  source .bashrc
+
+**参考链接**: https://superuser.com/questions/602872/how-do-i-modify-my-git-bash-profile-in-windows
+
+> 📎 来源 / Source: https://superuser.com/questions/602872/how-do-i-modify-my-git-bash-profile-in-windows
+
+#### 193. How do I stop Windows 10 going to sleep after locking with Win+L key
+
+**故障现象**: How do I stop Windows 10 going to sleep after locking with Win+L key
+**标签 / 来源**: Tags: windows, sleep, power | superuser | 👍 125 | 💬 7 answers
+
+**问题描述**:
+Tags: windows, sleep, power | Score: 125 | Views: 176449 | Answers: 7
+
+**解决方法 / 社区答案**:
+After running PowerCfg /q and reviewing this page, I believe I have determined the solution to this problem.
+
+There appear to be many power settings that just don't show up in my advanced power options window.  One is Sleep &rarr; System unattended sleep timeout.
+To make it visible, I opened regedit.exe and found this key:
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238C9FA8-0AAD-41ED-83F4-97BE242C8F20\7bc4a2f9-d8fc-4469-b07b-33eb785aaca0
+
+
+Set its Attributes DWORD value to 2.  This will make it show up in your advanced settings.  Go there and configure it to be zero minutes if you don't want it to sleep when you lock your screen.
+
+**参考链接**: https://superuser.com/questions/1153162/how-do-i-stop-windows-10-going-to-sleep-after-locking-with-winl-key
+
+> 📎 来源 / Source: https://superuser.com/questions/1153162/how-do-i-stop-windows-10-going-to-sleep-after-locking-with-winl-key
+
+#### 194. Can I use my laptop as a second monitor?
+
+**故障现象**: Can I use my laptop as a second monitor?
+**标签 / 来源**: Tags: windows, laptop, multiple-monitors | superuser | 👍 125 | 💬 9 answers
+
+**问题描述**:
+Tags: windows, laptop, multiple-monitors | Score: 125 | Views: 112209 | Answers: 9
+
+**解决方法 / 社区答案**:
+Here's an interesting freeware solution:
+
+ZoneScreen
+
+**参考链接**: https://superuser.com/questions/15254/can-i-use-my-laptop-as-a-second-monitor
+
+> 📎 来源 / Source: https://superuser.com/questions/15254/can-i-use-my-laptop-as-a-second-monitor
+
+#### 195. Multi-tab command prompt in Windows?
+
+**故障现象**: Multi-tab command prompt in Windows?
+**标签 / 来源**: Tags: windows, command-line, tabs | superuser | 👍 124 | 💬 11 answers
+
+**问题描述**:
+Tags: windows, command-line, tabs | Score: 124 | Views: 195577 | Answers: 11
+
+**解决方法 / 社区答案**:
+Sorry for the self-promotion, I'm the author of another Console Emulator, not mentioned here.
+
+
+
+ConEmu is opensource console emulator with tabs, which represents multiple consoles and simple GUI applications as one customizable GUI window.
+
+Initially, the program was designed to work with Far Manager (my favorite shell replacement - file and archive management, command history and completion, powerful editor). But ConEmu can be used with any other console application or simple GUI tools (like PuTTY for example). ConEmu is a live project, open to suggestions.
+
+A brief excerpt from the long list of options:
+
+
+Use any font installed in the system, or copied to a folder of the program (ttf, otf, fon, bdf)
+Run selected tabs as Administrator (Vista+) or as selected user
+Windows 7 Jump lists and Progress on taskbar
+Integration with DosBox (useful in 64bit systems to run DOS applications)
+Smooth resize, maximized and fullscreen window modes
+Scrollbar initially hidden, may be revealed by mouseover or checkbox in settings
+Optional settings (e.g. pallette) for selected applications
+User friendly text and block selection (from keyboard or mouse), copy, paste, text search in console
+ANSI X3.64 and Xterm 256 color
+Quake/Tilda style
+Change cursor position in command prompt (cmd, powershell) with mouse click (build 120618+)
+Works on Chinese editions of Windows :)
+
+
+Far Manager users will acquire shell style drag-n-drop, thumbnails and tiles in panles, tabs for editors and viewers, true colors and font styles (italic/bold/underline).
+
+Try it. You may read some comments on StackOverflow.
+
+**参考链接**: https://superuser.com/questions/30733/multi-tab-command-prompt-in-windows
+
+> 📎 来源 / Source: https://superuser.com/questions/30733/multi-tab-command-prompt-in-windows
+
+#### 196. What is the $WINDOWS.~BT folder?
+
+**故障现象**: What is the $WINDOWS.~BT folder?
+**标签 / 来源**: Tags: windows | superuser | 👍 124 | 💬 2 answers
+
+**问题描述**:
+Tags: windows | Score: 124 | Views: 363926 | Answers: 2
+
+**解决方法 / 社区答案**:
+This seems to be Windows update logs &amp; files.
+It includes files to upgrade Windows, and also, once you do upgrade, the old OS goes into that folder
+It should be perfectly safe to delete it, as long as you don't want to upgrade or downgrade Windows.
+However, you can't do it the normal way.
+Instead,
+
+a)      Press Windows key + R
+b)      Type: %windir%\system32\cleanmgr.exe
+c)       Hit Enter on your keyboard
+
+Edit: This method seems to only delete some things in this folder, some may be left over. See the other answer for a more complete removal method, though that isn't perfect, either. Additionally, this may help: How to delete trustedinstaller files on Windows 8
+Sources:
+
+http://answers.microsoft.com/en-us/windows/forum/windows_8-windows_install/how-do-i-delete-windowsbt-after-failed-windows-8/d15416e8-fd5a-4d4e-b04b-5907a4f6c623
+John (see comments)
+FranKee (see comments)
+
+**参考链接**: https://superuser.com/questions/886098/what-is-the-windows-bt-folder
+
+> 📎 来源 / Source: https://superuser.com/questions/886098/what-is-the-windows-bt-folder
+
+#### 197. Cortana Search is not finding applications on Windows 10
+
+**故障现象**: Cortana Search is not finding applications on Windows 10
+**标签 / 来源**: Tags: windows-10 | superuser | 👍 124 | 💬 17 answers
+
+**问题描述**:
+Tags: windows-10 | Score: 124 | Views: 133915 | Answers: 17
+
+**解决方法 / 社区答案**:
+Found a solution here: Cortana not finding Desktop apps when searching for them
+
+Here is the relevant part:
+
+I reinstalled Cortana using the following procedure:
+
+
+Open an elevated Command Prompt window (press win + X, and then press A)
+Type start powershell and press enter
+Run the command (in one line):
+
+
+
+  Get-AppXPackage -Name Microsoft.Windows.Cortana | Foreach
+  {Add-AppxPackage -DisableDevelopmentMode -Register
+  "$($_.InstallLocation)\AppXManifest.xml"}
+
+
+After 30 seconds the problem was solved on my machine. Incredible.
+
+**参考链接**: https://superuser.com/questions/950009/cortana-search-is-not-finding-applications-on-windows-10
+
+> 📎 来源 / Source: https://superuser.com/questions/950009/cortana-search-is-not-finding-applications-on-windows-10
+
+#### 198. How can I control the master volume in Windows?
+
+**故障现象**: How can I control the master volume in Windows?
+**标签 / 来源**: Tags: windows, audio, keyboard-shortcuts, macros | superuser | 👍 123 | 💬 14 answers
+
+**问题描述**:
+Tags: windows, audio, keyboard-shortcuts, macros | Score: 123 | Views: 401600 | Answers: 14
+
+**解决方法 / 社区答案**:
+I just did this with my laptop. I used AutoHotKey
+
+Here is the script
+
+#PgUp::Send {Volume_Up 1}
+#PgDn::Send {Volume_Down 1}
+
+
+so doing Win+PgUp Win+PgDown changes the master volume. If you prefer Ctrl+PgUp, use ^PgUp::Send.
+
+
+If you don't have it installed already, http://www.autohotkey.com/
+Once installed, right click your Desktop, and choose new AutoHotKey file
+Make sure to title the file ending with .ahk  (for example, I used "controls.ahk")
+Paste the code in from above
+Save it, and double click the script in windows explorer
+
+
+To run it at startup
+
+
+Use the AHK provided "Convert to exe" utility (or you can right click the file and select "compile script")
+Create the .exe in "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+
+**参考链接**: https://superuser.com/questions/82229/how-can-i-control-the-master-volume-in-windows
+
+> 📎 来源 / Source: https://superuser.com/questions/82229/how-can-i-control-the-master-volume-in-windows
+
+#### 199. If DOS is single-tasking, how was multitasking possible in old version of Windows?
+
+**故障现象**: If DOS is single-tasking, how was multitasking possible in old version of Windows?
+**标签 / 来源**: Tags: windows, multitasking | superuser | 👍 123 | 💬 7 answers
+
+**问题描述**:
+Tags: windows, multitasking | Score: 123 | Views: 31469 | Answers: 7
+
+**解决方法 / 社区答案**:
+Windows 95
+Windows 95 was far more than &quot;just a wrapper&quot; for MS-DOS. Quoting Raymond Chen:
+
+MS-DOS served two purposes in Windows 95.
+
+It served as the boot loader.
+It acted as the 16-bit legacy device driver layer.
+
+
+Windows 95 actually hooked/overrode just about all of MS-DOS, keeping it as a compatibility layer while doing all the heavy lifting itself. It also implemented preemptive multitasking for 32-bit programs.
+
+Pre-Windows 95
+Windows 3.x and older were mostly 16-bit (with the exception of Win32s, a kinda compatibility layer that bridges 16 and 32, but we'll ignore that here), were more dependent on DOS, and used only cooperative multitasking - that's the one where they don't force a running program to switch out; they wait for the running program to yield control (basically, say &quot;I'm done&quot; by telling the OS to run the next program that's waiting).
+
+Multitasking was cooperative, just like in old versions of MacOS (though unlike Multitasking DOS 4.x, which sported preemptive multitasking). A task had to yield to the OS in order to schedule a different task. The yields were built into certain API calls, notably message processing. As long as a task processed messages in a timely manner, everything was great. If a task stopped processing messages and was busy executing some processing loop, multitasking was no more.
+
+Windows 3.x architecture
+As for how early Windows programs would yield control:
+
+Windows 3.1 uses cooperative multitasking - meaning that each application that is in the process of running is instructed to periodically check a message queue to find out if any other application is asking for use of the CPU and, if so, to yield control to that application. However, many Windows 3.1 applications would check the message queue only infrequently, or not at all, and monopolize control of the CPU for as much time as they required. A preemptive multitasking system like Windows 95 will take CPU control away from a running application and distribute it to those that have a higher priority based on the system's needs.
+
+source
+All DOS would see is this single application (Windows or other) running, which would pass control around without exiting. In theory, preemptive multitasking can possibly be implemented on top of DOS anyway with the use of a real-time clock and hardware interrupts to forcibly give control to the scheduler. As Tonny comments, this was actually done by some OSes running on top of DOS.
+386 enhanced mode?
+Note: there have been some comments on 386 enhanced mode of Windows 3.x being 32-bit, and supporting preemptive multitasking.
+This is an interesting case. To summarise the linked blog post, 386 enhanced mode was basically a 32-bit hypervisor, which ran virtual machines. Inside one of those virtual machines ran Windows 3.x standard mode, which does all the stuff listed above.
+MS-DOS would also run inside those virtual machines, and apparently they were preemptively multitasked - so it seems that the 386 enhanced mode hypervisor will share CPU time slices between the virtual machines (one of which ran normal 3.x and others which ran MS-DOS), and each VM will do its own thing - 3.x would cooperatively multitask, while MS-DOS would be single-tasked.
+
+MS-DOS
+DOS itself was single-tasking on paper, but it did have support for TSR programs, that would stay in the background until triggered by a hardware interrupt. Far from true multitasking, but not fully single-tasked either.
+
+All this talk of bit-ness? I asked about multitasking!
+Well, strictly speaking the bit-ness and multitasking are not dependent on each other. It should be possible top implement any multitasking mode in any bit-ness. However, the move from 16-bit processors to 32-bit processors also introduced other hardware functionality that could have made preemptive multitasking easier to implement.
+Also, since 32-bit programs were new, it was easier to get them to work when they're forcibly switched out - which might have broken some legacy 16-bit programs.
+Of course, this is all speculation. If you really want to know why MS didn't implement preemptive multitasking in Windows 3.x (386 enhanced mode notwithstanding), you'll have to ask someone who worked there.
+Also, I wanted to correct your assumption that Windows 95 was jsut a wrapper for DOS ;)
+
+**参考链接**: https://superuser.com/questions/726348/if-dos-is-single-tasking-how-was-multitasking-possible-in-old-version-of-window
+
+> 📎 来源 / Source: https://superuser.com/questions/726348/if-dos-is-single-tasking-how-was-multitasking-possible-in-old-version-of-window
+
+#### 200. Why does Windows use backslashes for paths and Unix forward slashes?
+
+**故障现象**: Why does Windows use backslashes for paths and Unix forward slashes?
+**标签 / 来源**: Tags: windows, unix, path | superuser | 👍 122 | 💬 2 answers
+
+**问题描述**:
+Tags: windows, unix, path | Score: 122 | Views: 83967 | Answers: 2
+
+**解决方法 / 社区答案**:
+Unix introduced / as the directory separator sometime around 1970. I don't know why exactly this character was chosen; the ancestor system Multics used &gt;, but the designers of Unix had already used &gt; together with &lt; for redirection in the shell (see Why is the root directory denoted by a / sign?).
+MS-DOS 2.0 introduced \ as the directory separator in the early 1980s. The reason / was not used is that MS-DOS 1.0 (which did not support directories at all) was already using / to introduce command-line options. It probably took this usage of / from VMS (which had a more complicated syntax for directories). You can read a more detailed explanation of why that choice was made on Larry Osterman's blog. MS-DOS even briefly had an option to change the option character to - and the directory separator to /, but it didn't stick.
+/ it is recognized by most programmer-level APIs (in all versions of DOS and Windows). So you can often, but not always get away with using / as a directory separator under Windows. A notable exception is that you can't use / as a separator after the \\? prefix which (even in Windows 7) is the only way to specify a path using Unicode or containing more than 260 characters.
+Some user interface elements support / as a directory separator under Windows, but not all. Some programs just pass filenames through to the underlying API, so they support / and \ indifferently. In the command interpreter (in command.com or cmd), you can use / in many cases, but not always; this is partly dependent on the version of Windows (for example, cd /windows works in XP and 7 but did not in Windows 9x). The Explorer path entry box accepts / (at least from XP up; probably because it also accepts URLs). On the other hand, the standard file open dialog rejects slashes.
+
+**参考链接**: https://superuser.com/questions/176388/why-does-windows-use-backslashes-for-paths-and-unix-forward-slashes
+
+> 📎 来源 / Source: https://superuser.com/questions/176388/why-does-windows-use-backslashes-for-paths-and-unix-forward-slashes
+
 
 ---
 
@@ -5379,7 +7045,7 @@ Auto-updated hourly from Stack Exchange: common WINDOWS issues and community-ver
 **Tags / Source**: Tags: windows, filesystems, process, community-faq-proposed | superuser | 👍 1331 | 💬 16 answers
 
 **Description**:
-Tags: windows, filesystems, process, community-faq-proposed | Score: 1331 | Views: 2068503 | Answers: 16
+Tags: windows, filesystems, process, community-faq-proposed | Score: 1331 | Views: 2068506 | Answers: 16
 
 **Solution / Community Answer**:
 You can use the Resource Monitor for this which comes built-in with Windows 7, 8, 10 and 11!
@@ -5445,7 +7111,7 @@ For Windows specifically, it's worth mentioning that you can use A: and B: as th
 **Tags / Source**: Tags: windows-7, windows, command-line, environment-variables | superuser | 👍 833 | 💬 8 answers
 
 **Description**:
-Tags: windows-7, windows, command-line, environment-variables | Score: 833 | Views: 3005019 | Answers: 8
+Tags: windows-7, windows, command-line, environment-variables | Score: 833 | Views: 3005021 | Answers: 8
 
 **Solution / Community Answer**:
 In Windows Command-Prompt the syntax is echo %PATH%
@@ -5538,7 +7204,7 @@ Windows will nag you with Toasts, Action Center alerts and banners across your s
 **Tags / Source**: Tags: windows, filesystems, ntfs, symbolic-link | superuser | 👍 609 | 💬 3 answers
 
 **Description**:
-Tags: windows, filesystems, ntfs, symbolic-link | Score: 609 | Views: 462514 | Answers: 3
+Tags: windows, filesystems, ntfs, symbolic-link | Score: 609 | Views: 462518 | Answers: 3
 
 **Solution / Community Answer**:
 A junction is definitely not the same thing as a directory symbolic link, although they behave similarly.  The main difference is that, if you are looking at a remote server, junctions are processed at the server and directory symbolic links are processed at the client.  Also see Matthew's comment on the fact that this means symbolic links on the local file system can point to remote file systems.
@@ -5567,7 +7233,7 @@ It should also be noted that creating a symbolic link requires special privilege
 **Tags / Source**: Tags: windows, command-line, powershell | superuser | 👍 603 | 💬 5 answers
 
 **Description**:
-Tags: windows, command-line, powershell | Score: 603 | Views: 893175 | Answers: 5
+Tags: windows, command-line, powershell | Score: 603 | Views: 893178 | Answers: 5
 
 **Solution / Community Answer**:
 Use a semicolon to chain commands in PowerShell:
@@ -5634,7 +7300,7 @@ If this is still not helping to search for new updates, use WSUSOffline to get a
 **Tags / Source**: Tags: windows-10, bash, windows-subsystem-for-linux | superuser | 👍 526 | 💬 11 answers
 
 **Description**:
-Tags: windows-10, bash, windows-subsystem-for-linux | Score: 526 | Views: 1498448 | Answers: 11
+Tags: windows-10, bash, windows-subsystem-for-linux | Score: 526 | Views: 1498453 | Answers: 11
 
 **Solution / Community Answer**:
 In the latest versions [2025 WSL2], the file system is accessed from:
@@ -5673,7 +7339,7 @@ but with the files stored directly on the NTFS file system.
 **Tags / Source**: Tags: windows, disk-space | superuser | 👍 523 | 💬 10 answers
 
 **Description**:
-Tags: windows, disk-space | Score: 523 | Views: 870932 | Answers: 10
+Tags: windows, disk-space | Score: 523 | Views: 870935 | Answers: 10
 
 **Solution / Community Answer**:
 TL;DR: Do NOT delete this folder
@@ -5818,7 +7484,7 @@ to start a command shell as a administrator
 **Tags / Source**: Tags: windows, telnet | superuser | 👍 512 | 💬 6 answers
 
 **Description**:
-Tags: windows, telnet | Score: 512 | Views: 910606 | Answers: 6
+Tags: windows, telnet | Score: 512 | Views: 910607 | Answers: 6
 
 **Solution / Community Answer**:
 It should have printed something along the lines of:
@@ -5840,7 +7506,7 @@ You should then enter the telnet console, where you can enter quit to leave teln
 **Tags / Source**: Tags: windows, ssh, permissions, openssh, private-key | superuser | 👍 498 | 💬 18 answers
 
 **Description**:
-Tags: windows, ssh, permissions, openssh, private-key | Score: 498 | Views: 1047409 | Answers: 18
+Tags: windows, ssh, permissions, openssh, private-key | Score: 498 | Views: 1047416 | Answers: 18
 
 **Solution / Community Answer**:
 You locate the file in Windows Explorer, right-click on it then select "Properties". Navigate to the "Security" tab and click "Advanced".
@@ -5859,7 +7525,7 @@ It should end up looking like this:
 **Tags / Source**: Tags: windows, wget, curl | superuser | 👍 490 | 💬 21 answers
 
 **Description**:
-Tags: windows, wget, curl | Score: 490 | Views: 1880087 | Answers: 21
+Tags: windows, wget, curl | Score: 490 | Views: 1880088 | Answers: 21
 
 **Solution / Community Answer**:
 An alternative I discovered recently, using PowerShell:
@@ -5887,7 +7553,7 @@ A standard windows credentials prompt will pop up. The credentials you enter the
 **Tags / Source**: Tags: windows, windows-10, windows-8.1, disk-space, windows-installer | superuser | 👍 486 | 💬 8 answers
 
 **Description**:
-Tags: windows, windows-10, windows-8.1, disk-space, windows-installer | Score: 486 | Views: 1073384 | Answers: 8
+Tags: windows, windows-10, windows-8.1, disk-space, windows-installer | Score: 486 | Views: 1073385 | Answers: 8
 
 **Solution / Community Answer**:
 I created "PatchCleaner" to clean the windows installer directory of all orphaned files in one easy click. If you don't trust the app to do the right thing, use the move feature to put them somewhere safe in case you need them back in the future. I have run it on multiple machines and saved up to 15Gb of space :-)
@@ -5990,7 +7656,7 @@ Also, prefer to download the software and updates/upgrades directly from vendor 
 **Tags / Source**: Tags: windows, windows-10, microsoft-onedrive | superuser | 👍 468 | 💬 11 answers
 
 **Description**:
-Tags: windows, windows-10, microsoft-onedrive | Score: 468 | Views: 1824064 | Answers: 11
+Tags: windows, windows-10, microsoft-onedrive | Score: 468 | Views: 1824065 | Answers: 11
 
 **Solution / Community Answer**:
 Microsoft has actually documented a very simple and clean way to rename a user profile folder.
@@ -6029,7 +7695,7 @@ Some applications create env vars with the user profile path fully expanded, so 
 **Tags / Source**: Tags: windows-10, windows-subsystem-for-linux | superuser | 👍 453 | 💬 9 answers
 
 **Description**:
-Tags: windows-10, windows-subsystem-for-linux | Score: 453 | Views: 990462 | Answers: 9
+Tags: windows-10, windows-subsystem-for-linux | Score: 453 | Views: 990464 | Answers: 9
 
 **Solution / Community Answer**:
 You cannot reboot a distro with a single command. You must shut down and boot up the distro with two commands. If you run wsl.exe instead of wsl, then it works both in WSL Bash &amp; CMD.
@@ -6067,7 +7733,7 @@ net start LxssManager
 **Tags / Source**: Tags: windows, windows-7, symbolic-link | superuser | 👍 439 | 💬 13 answers
 
 **Description**:
-Tags: windows, windows-7, symbolic-link | Score: 439 | Views: 575992 | Answers: 13
+Tags: windows, windows-7, symbolic-link | Score: 439 | Views: 575994 | Answers: 13
 
 **Solution / Community Answer**:
 Be very careful.
@@ -6101,7 +7767,7 @@ If you are still having trouble, ensure that you utilize Shift+Delete inside the
 **Tags / Source**: Tags: windows, command-line, unix, cat | superuser | 👍 433 | 💬 4 answers
 
 **Description**:
-Tags: windows, command-line, unix, cat | Score: 433 | Views: 1180583 | Answers: 4
+Tags: windows, command-line, unix, cat | Score: 433 | Views: 1180587 | Answers: 4
 
 **Solution / Community Answer**:
 type
@@ -6166,7 +7832,7 @@ After uninstalling, if remnants of the update's files are still in Windows\Syste
 **Tags / Source**: Tags: windows, command-line | superuser | 👍 387 | 💬 15 answers
 
 **Description**:
-Tags: windows, command-line | Score: 387 | Views: 1322570 | Answers: 15
+Tags: windows, command-line | Score: 387 | Views: 1322571 | Answers: 15
 
 **Solution / Community Answer**:
 Working with cmd.exe:
@@ -6231,7 +7897,7 @@ rmdir c:\test /s /q
 **Tags / Source**: Tags: windows, filesystems, ext4 | superuser | 👍 377 | 💬 12 answers
 
 **Description**:
-Tags: windows, filesystems, ext4 | Score: 377 | Views: 1033431 | Answers: 12
+Tags: windows, filesystems, ext4 | Score: 377 | Views: 1033432 | Answers: 12
 
 **Solution / Community Answer**:
 Ext2Read works well. It can also open &amp; read disk images ( eg: Wubi disk images)
@@ -6255,7 +7921,7 @@ Ext2Read works well. It can also open &amp; read disk images ( eg: Wubi disk ima
 **Tags / Source**: Tags: windows, powershell, powershell-2.0, powershell-3.0, powershell-4.0 | superuser | 👍 362 | 💬 12 answers
 
 **Description**:
-Tags: windows, powershell, powershell-2.0, powershell-3.0, powershell-4.0 | Score: 362 | Views: 684504 | Answers: 12
+Tags: windows, powershell, powershell-2.0, powershell-3.0, powershell-4.0 | Score: 362 | Views: 684506 | Answers: 12
 
 **Solution / Community Answer**:
 Here's a simple PS 3.0 and later one-liner that works and doesn't involve much PS barf:
@@ -6466,7 +8132,7 @@ Changing the screen resolution or color depth also resets the desktop window man
 **Tags / Source**: Tags: windows, file-management, disk-space, community-faq | superuser | 👍 321 | 💬 23 answers
 
 **Description**:
-Tags: windows, file-management, disk-space, community-faq | Score: 321 | Views: 215820 | Answers: 23
+Tags: windows, file-management, disk-space, community-faq | Score: 321 | Views: 215821 | Answers: 23
 
 **Solution / Community Answer**:
 WinDirStat is a port of KDirStat for Linux. It's free, lightweight, small (650kb installer), fast, portable (as a standalone .exe file), and works on multiple versions of Windows. Besides showing folders and percentages (for the entire disk or any subset of folders), it also displays an (optional) graphical usage map. Works well with NTFS Junction folders, avoiding counting folders multiple times.
@@ -6499,7 +8165,7 @@ C:\WINDOWS\system32\notepad.exe
 **Tags / Source**: Tags: windows, command-line, environment-variables | superuser | 👍 317 | 💬 5 answers
 
 **Description**:
-Tags: windows, command-line, environment-variables | Score: 317 | Views: 1038786 | Answers: 5
+Tags: windows, command-line, environment-variables | Score: 317 | Views: 1038787 | Answers: 5
 
 **Solution / Community Answer**:
 To make the environment variable accessible globally you need to set it in the registry. As you've realised by just using:
@@ -6667,7 +8333,7 @@ Thanks to The New Tech for the original forum posting.
 **Tags / Source**: Tags: windows-10, cortana | superuser | 👍 314 | 💬 9 answers
 
 **Description**:
-Tags: windows-10, cortana | Score: 314 | Views: 1744192 | Answers: 9
+Tags: windows-10, cortana | Score: 314 | Views: 1744193 | Answers: 9
 
 **Solution / Community Answer**:
 Update 2018: Warning about Taskbar Breakage
@@ -6758,7 +8424,7 @@ Further resource: Delete Windows 10 Apps and Restore Default Windows 10 Apps
 **Tags / Source**: Tags: windows, command-line, path, cd | superuser | 👍 311 | 💬 9 answers
 
 **Description**:
-Tags: windows, command-line, path, cd | Score: 311 | Views: 1488453 | Answers: 9
+Tags: windows, command-line, path, cd | Score: 311 | Views: 1488457 | Answers: 9
 
 **Solution / Community Answer**:
 Going back to the days of DOS, there's a separate "current directory" for each drive.  cd D:\foldername changes D:'s current directory to the foldername specified, but does not change the fact that you're still working on the C: drive.
@@ -6790,7 +8456,7 @@ e:\Software&gt;
 **Tags / Source**: Tags: windows, multiple-monitors, window-manager | superuser | 👍 309 | 💬 24 answers
 
 **Description**:
-Tags: windows, multiple-monitors, window-manager | Score: 309 | Views: 728598 | Answers: 24
+Tags: windows, multiple-monitors, window-manager | Score: 309 | Views: 728599 | Answers: 24
 
 **Solution / Community Answer**:
 I use this approach:
@@ -6816,7 +8482,7 @@ If you are using a non-English version of Windows, the "R" and "M" menu choices 
 **Tags / Source**: Tags: windows, windows-10 | superuser | 👍 305 | 💬 17 answers
 
 **Description**:
-Tags: windows, windows-10 | Score: 305 | Views: 291046 | Answers: 17
+Tags: windows, windows-10 | Score: 305 | Views: 291047 | Answers: 17
 
 **Solution / Community Answer**:
 I think for a quicker switch this should be in the titlebar, so I created a tool for that:
@@ -6920,7 +8586,7 @@ echo $null &gt;&gt; filename
 **Tags / Source**: Tags: windows, windows-10, windows-explorer, windows-10-preview | superuser | 👍 291 | 💬 5 answers
 
 **Description**:
-Tags: windows, windows-10, windows-explorer, windows-10-preview | Score: 291 | Views: 256078 | Answers: 5
+Tags: windows, windows-10, windows-explorer, windows-10-preview | Score: 291 | Views: 256079 | Answers: 5
 
 **Solution / Community Answer**:
 As of build 9926 (at least - it may have been an earlier build), this is configurable via the GUI.
@@ -6937,7 +8603,7 @@ Open Explorer and go to View, then click Options (or Change folder and search op
 **Tags / Source**: Tags: windows-10, memory, docker, resources | superuser | 👍 273 | 💬 15 answers
 
 **Description**:
-Tags: windows-10, memory, docker, resources | Score: 273 | Views: 569298 | Answers: 15
+Tags: windows-10, memory, docker, resources | Score: 273 | Views: 569299 | Answers: 15
 
 **Solution / Community Answer**:
 Daniiel B is on the money. To turn off Vmmem simply go into Powershell or whatever terminal you like to use under admin rights and enter the command wsl --shutdown, when your done with playing in wsl1/2.
@@ -7000,7 +8666,7 @@ START /B program &gt; somefile.txt
 **Tags / Source**: Tags: windows, microsoft-office, microsoft-powerpoint, language, microsoft-powerpoint-2010 | superuser | 👍 268 | 💬 9 answers
 
 **Description**:
-Tags: windows, microsoft-office, microsoft-powerpoint, language, microsoft-powerpoint-2010 | Score: 268 | Views: 572691 | Answers: 9
+Tags: windows, microsoft-office, microsoft-powerpoint, language, microsoft-powerpoint-2010 | Score: 268 | Views: 572692 | Answers: 9
 
 **Solution / Community Answer**:
 To change the language of the entire PowerPoint easily, open the View tab and select the Outline view.
@@ -7037,7 +8703,7 @@ Review → Language → Set Proofing Language... → Language Preferences → Ch
 **Tags / Source**: Tags: windows, cpu, temperature | superuser | 👍 267 | 💬 10 answers
 
 **Description**:
-Tags: windows, cpu, temperature | Score: 267 | Views: 2706361 | Answers: 10
+Tags: windows, cpu, temperature | Score: 267 | Views: 2706362 | Answers: 10
 
 **Solution / Community Answer**:
 Actually this information is given to OS by the BIOS, but you will need an application to expose the information. You can find a lot of applications to do this:
@@ -7056,7 +8722,7 @@ Core Temp
 **Tags / Source**: Tags: windows, command-line, chocolatey | superuser | 👍 267 | 💬 4 answers
 
 **Description**:
-Tags: windows, command-line, chocolatey | Score: 267 | Views: 312130 | Answers: 4
+Tags: windows, command-line, chocolatey | Score: 267 | Views: 312131 | Answers: 4
 
 **Solution / Community Answer**:
 Note: You likely need to do the following commands in an administrative cmd/powershell prompt.
@@ -7110,7 +8776,7 @@ If you want to know more about how the Google search works you can read Google's
 **Tags / Source**: Tags: windows, command-line | superuser | 👍 259 | 💬 11 answers
 
 **Description**:
-Tags: windows, command-line | Score: 259 | Views: 243681 | Answers: 11
+Tags: windows, command-line | Score: 259 | Views: 243682 | Answers: 11
 
 **Solution / Community Answer**:
 The where command does what you want and goes back at least to the resource kit for Windows 98, and is included by default in Server 2003, Vista, and newer:
@@ -7194,7 +8860,7 @@ Based on this page, the "File Contents" option won't always show up - only when 
 **Tags / Source**: Tags: windows, windows-explorer, icons, cache | superuser | 👍 251 | 💬 13 answers
 
 **Description**:
-Tags: windows, windows-explorer, icons, cache | Score: 251 | Views: 408445 | Answers: 13
+Tags: windows, windows-explorer, icons, cache | Score: 251 | Views: 408451 | Answers: 13
 
 **Solution / Community Answer**:
 Yes.
@@ -7244,7 +8910,7 @@ Works on Windows Server without admin rights! Yammie! :)
 **Tags / Source**: Tags: windows, windows-8, performance, troubleshooting, cpu-usage | superuser | 👍 243 | 💬 6 answers
 
 **Description**:
-Tags: windows, windows-8, performance, troubleshooting, cpu-usage | Score: 243 | Views: 753727 | Answers: 6
+Tags: windows, windows-8, performance, troubleshooting, cpu-usage | Score: 243 | Views: 753728 | Answers: 6
 
 **Solution / Community Answer**:
 Introduction
@@ -7561,7 +9227,7 @@ In Windows Vista and above, UAC will pop up, click &quot;Yes&quot;.
 **Tags / Source**: Tags: windows, unix, powershell, which | superuser | 👍 231 | 💬 11 answers
 
 **Description**:
-Tags: windows, unix, powershell, which | Score: 231 | Views: 192990 | Answers: 11
+Tags: windows, unix, powershell, which | Score: 231 | Views: 192992 | Answers: 11
 
 **Solution / Community Answer**:
 This was asked and answered on Stack Overflow: Equivalent of *Nix 'which' command in PowerShell?
@@ -7725,7 +9391,7 @@ Use my sign-in info to automatically finish setting up my device and reopen my a
 **Tags / Source**: Tags: windows-7, windows, encoding, console | superuser | 👍 226 | 💬 9 answers
 
 **Description**:
-Tags: windows-7, windows, encoding, console | Score: 226 | Views: 563116 | Answers: 9
+Tags: windows-7, windows, encoding, console | Score: 226 | Views: 563117 | Answers: 9
 
 **Solution / Community Answer**:
 To change the codepage for the console only, do the following:
@@ -7790,7 +9456,7 @@ To use this, save it in a text file and change the extension from .txt to .reg. 
 **Tags / Source**: Tags: windows, networking, windows-explorer | superuser | 👍 223 | 💬 14 answers
 
 **Description**:
-Tags: windows, networking, windows-explorer | Score: 223 | Views: 365744 | Answers: 14
+Tags: windows, networking, windows-explorer | Score: 223 | Views: 365745 | Answers: 14
 
 **Solution / Community Answer**:
 I found a fix by changing &quot;internet options&quot; -- so I guess Windows is detecting the &quot;internet&quot; as my own network.. sigh.
@@ -7822,7 +9488,7 @@ When adding a DNS name (i.e. FQDN), you can use wildcards like so: *.example.com
 **Tags / Source**: Tags: windows, networking, port, tcpip | superuser | 👍 221 | 💬 3 answers
 
 **Description**:
-Tags: windows, networking, port, tcpip | Score: 221 | Views: 610666 | Answers: 3
+Tags: windows, networking, port, tcpip | Score: 221 | Views: 610667 | Answers: 3
 
 **Solution / Community Answer**:
 Due to the way TCP/IP works, connections can not be closed immediately.  Packets may arrive out of order or be retransmitted after the connection has been closed.
@@ -7967,7 +9633,7 @@ In addition to the DLL injection problem, there is also a focus-stealing method 
 **Tags / Source**: Tags: windows, thunderbird, user-profiles | superuser | 👍 213 | 💬 3 answers
 
 **Description**:
-Tags: windows, thunderbird, user-profiles | Score: 213 | Views: 134967 | Answers: 3
+Tags: windows, thunderbird, user-profiles | Score: 213 | Views: 134968 | Answers: 3
 
 **Solution / Community Answer**:
 Roaming is the folder that would be synchronized with a server if you logged into a domain with a roaming profile (enabling you to log into any computer in a domain and access your favorites, documents, etc. Firefox stores its information here, so you could even have the same bookmarks between computers with a roaming profile.
@@ -8098,7 +9764,7 @@ Last note: Beware if you use ESC or Ctrl+V in vim, or in any other app.
 **Tags / Source**: Tags: windows-10, symbolic-link | superuser | 👍 210 | 💬 6 answers
 
 **Description**:
-Tags: windows-10, symbolic-link | Score: 210 | Views: 618995 | Answers: 6
+Tags: windows-10, symbolic-link | Score: 210 | Views: 618996 | Answers: 6
 
 **Solution / Community Answer**:
 It seems like the junction command has been retired in Windows 10.
@@ -8168,7 +9834,7 @@ mklink - Create a symbolic link to a directory or a file, or create a hard file 
 **Tags / Source**: Tags: windows, security, ntfs | superuser | 👍 209 | 💬 15 answers
 
 **Description**:
-Tags: windows, security, ntfs | Score: 209 | Views: 301626 | Answers: 15
+Tags: windows, security, ntfs | Score: 209 | Views: 301627 | Answers: 15
 
 **Solution / Community Answer**:
 If you download a .ZIP and unzip it, the individual files will be marked as the same zone as the .ZIP.  Almost every time I have a folder full of "blocked" files, this is how I got them.
@@ -8185,7 +9851,7 @@ Before unzipping, click the Unblock button on the .ZIP.
 **Tags / Source**: Tags: windows, command-line, ssh, text-editors | superuser | 👍 209 | 💬 14 answers
 
 **Description**:
-Tags: windows, command-line, ssh, text-editors | Score: 209 | Views: 1380568 | Answers: 14
+Tags: windows, command-line, ssh, text-editors | Score: 209 | Views: 1380570 | Answers: 14
 
 **Solution / Community Answer**:
 The simplest solution on all versions of Windows is:
@@ -8205,7 +9871,7 @@ And, no extra software required.
 **Tags / Source**: Tags: windows, command-line, sleep, shutdown, run-dialog | superuser | 👍 209 | 💬 14 answers
 
 **Description**:
-Tags: windows, command-line, sleep, shutdown, run-dialog | Score: 209 | Views: 792671 | Answers: 14
+Tags: windows, command-line, sleep, shutdown, run-dialog | Score: 209 | Views: 792673 | Answers: 14
 
 **Solution / Community Answer**:
 You will find shutdown.exe to be your friend.
@@ -8338,7 +10004,7 @@ Check out this answer.
 **Tags / Source**: Tags: windows, networking, vpn, routing | superuser | 👍 200 | 💬 13 answers
 
 **Description**:
-Tags: windows, networking, vpn, routing | Score: 200 | Views: 430954 | Answers: 13
+Tags: windows, networking, vpn, routing | Score: 200 | Views: 430956 | Answers: 13
 
 **Solution / Community Answer**:
 You can turn off taking over your entire connection by going to the properties of the VPN, Networking tab, Internet Protocol (TCP/IP) properties, Advanced, untick Use default gateway on remote network. This may or may not leave a route to 192.168.123.0/24 depending on the VPN server's setup. If it doesn't, you'll have to manually add the route each time, although you could put it in a batch file.
@@ -8362,7 +10028,7 @@ More about this at http://technet.microsoft.com/en-us/library/bb878117.aspx
 **Tags / Source**: Tags: windows, networking, dns | superuser | 👍 200 | 💬 24 answers
 
 **Description**:
-Tags: windows, networking, dns | Score: 200 | Views: 453478 | Answers: 24
+Tags: windows, networking, dns | Score: 200 | Views: 453480 | Answers: 24
 
 **Solution / Community Answer**:
 I believe that nslookup opens a winsock connection on the DNS port and issues a query, whereas ping uses the DNS Client service. You could try and stop this service and see whether this makes a difference.
@@ -8771,7 +10437,7 @@ accidentally tried to create a folder named .... – but it's not really possibl
 **Tags / Source**: Tags: windows-10, windows-10-v1607, windows-subsystem-for-linux | superuser | 👍 196 | 💬 15 answers
 
 **Description**:
-Tags: windows-10, windows-10-v1607, windows-subsystem-for-linux | Score: 196 | Views: 440335 | Answers: 15
+Tags: windows-10, windows-10-v1607, windows-subsystem-for-linux | Score: 196 | Views: 440338 | Answers: 15
 
 **Solution / Community Answer**:
 PM for Windows Command-Line here:
@@ -8838,7 +10504,7 @@ Integrate TrIDNet
 **Tags / Source**: Tags: windows, screensaver, security-policy | superuser | 👍 192 | 💬 18 answers
 
 **Description**:
-Tags: windows, screensaver, security-policy | Score: 192 | Views: 754710 | Answers: 18
+Tags: windows, screensaver, security-policy | Score: 192 | Views: 754711 | Answers: 18
 
 **Solution / Community Answer**:
 If Windows Media Player is still installed, you can play a video on loop and minimize it (the sample "Wildlife" videos work fine for this).  By default, as long as a video is playing, the screen won't lock.
@@ -8853,7 +10519,7 @@ If Windows Media Player is still installed, you can play a video on loop and min
 **Tags / Source**: Tags: windows, file-management | superuser | 👍 191 | 💬 18 answers
 
 **Description**:
-Tags: windows, file-management | Score: 191 | Views: 655537 | Answers: 18
+Tags: windows, file-management | Score: 191 | Views: 655538 | Answers: 18
 
 **Solution / Community Answer**:
 There's a native GUI for Windows:
@@ -8876,7 +10542,7 @@ As an example, in the image below I could not delete my Eclipse directory. Searc
 **Tags / Source**: Tags: windows | superuser | 👍 190 | 💬 12 answers
 
 **Description**:
-Tags: windows | Score: 190 | Views: 728996 | Answers: 12
+Tags: windows | Score: 190 | Views: 728997 | Answers: 12
 
 **Solution / Community Answer**:
 Tar
@@ -8958,7 +10624,7 @@ AT THIS POINT MAKE SURE YOU ARE USING "English (United Kingdom) - US" as the def
 **Tags / Source**: Tags: windows, 64-bit | superuser | 👍 184 | 💬 11 answers
 
 **Description**:
-Tags: windows, 64-bit | Score: 184 | Views: 106592 | Answers: 11
+Tags: windows, 64-bit | Score: 184 | Views: 106593 | Answers: 11
 
 **Solution / Community Answer**:
 Short answer: To ensure legacy 32-bit applications continue to work the same way they used to without imposing ugly rules on 64-bit applications that would create a permanent mess.
@@ -9342,7 +11008,7 @@ There is also the older (but still useful) and more light-weight Path Editor. (N
 **Tags / Source**: Tags: windows-10, windows-subsystem-for-linux, disk-space, wsl2, ubuntu-20.04 | superuser | 👍 173 | 💬 10 answers
 
 **Description**:
-Tags: windows-10, windows-subsystem-for-linux, disk-space, wsl2, ubuntu-20.04 | Score: 173 | Views: 338315 | Answers: 10
+Tags: windows-10, windows-subsystem-for-linux, disk-space, wsl2, ubuntu-20.04 | Score: 173 | Views: 338318 | Answers: 10
 
 **Solution / Community Answer**:
 There are a few options here, but I'm moving things around in this edit. My &quot;original&quot; answer is back to being the preferred method.  See the bottom of this answer for an alternative, experimental method.
@@ -9382,7 +11048,7 @@ sparseVhd=true
 **Tags / Source**: Tags: windows, command-line, batch-file, shortcuts | superuser | 👍 172 | 💬 9 answers
 
 **Description**:
-Tags: windows, command-line, batch-file, shortcuts | Score: 172 | Views: 638958 | Answers: 9
+Tags: windows, command-line, batch-file, shortcuts | Score: 172 | Views: 638959 | Answers: 9
 
 **Solution / Community Answer**:
 Save the following as wscript, for instance, hidecmd.vbs after replacing "testing.bat" with your batch file's name.
@@ -9475,7 +11141,7 @@ Source: https://answers.microsoft.com/en-us/windows/forum/windows_10-hardware-wi
 **Tags / Source**: Tags: windows, networking, wireless-networking, wake-on-lan | superuser | 👍 168 | 💬 2 answers
 
 **Description**:
-Tags: windows, networking, wireless-networking, wake-on-lan | Score: 168 | Views: 129708 | Answers: 2
+Tags: windows, networking, wireless-networking, wake-on-lan | Score: 168 | Views: 129709 | Answers: 2
 
 **Solution / Community Answer**:
 Sam3000's answer is very nice. I'll add some technical details.
@@ -9515,7 +11181,7 @@ If you are missing the langs.model.xml file, you can download the current versio
 **Tags / Source**: Tags: windows, keyboard-shortcuts | superuser | 👍 168 | 💬 6 answers
 
 **Description**:
-Tags: windows, keyboard-shortcuts | Score: 168 | Views: 103271 | Answers: 6
+Tags: windows, keyboard-shortcuts | Score: 168 | Views: 103272 | Answers: 6
 
 **Solution / Community Answer**:
 This works for me in Win10 (and probably all other even vaguely-recent versions of Windows)... also copied here from https://stackoverflow.com/a/43645062/995048 since this page seems to come up first in search results:
@@ -9547,7 +11213,7 @@ Click the Process ID link.  This will show you the process (In my Win + R case: 
 **Tags / Source**: Tags: windows, windows-10, multiple-monitors, keyboard-shortcuts | superuser | 👍 168 | 💬 5 answers
 
 **Description**:
-Tags: windows, windows-10, multiple-monitors, keyboard-shortcuts | Score: 168 | Views: 791822 | Answers: 5
+Tags: windows, windows-10, multiple-monitors, keyboard-shortcuts | Score: 168 | Views: 791825 | Answers: 5
 
 **Solution / Community Answer**:
 I solved it by unchecking the box which you can see in the following screenshot.
@@ -9600,7 +11266,7 @@ Maybe this will help someone.
 **Tags / Source**: Tags: windows, filesystems | superuser | 👍 167 | 💬 6 answers
 
 **Description**:
-Tags: windows, filesystems | Score: 167 | Views: 292808 | Answers: 6
+Tags: windows, filesystems | Score: 167 | Views: 292809 | Answers: 6
 
 **Solution / Community Answer**:
 Size is the actual size of the file in bytes.
@@ -9669,7 +11335,7 @@ Afterwards, reboot the PC and try VirtualBox again.
 **Tags / Source**: Tags: windows, administrator, uac | superuser | 👍 165 | 💬 11 answers
 
 **Description**:
-Tags: windows, administrator, uac | Score: 165 | Views: 860398 | Answers: 11
+Tags: windows, administrator, uac | Score: 165 | Views: 860405 | Answers: 11
 
 **Solution / Community Answer**:
 Windows Registry Editor Version 5.00
@@ -9697,7 +11363,7 @@ In some cases - small amount 0.1% of programs may ask twice about UAC prompt.
 **Tags / Source**: Tags: windows, windows-10, keyboard-shortcuts | superuser | 👍 165 | 💬 4 answers
 
 **Description**:
-Tags: windows, windows-10, keyboard-shortcuts | Score: 165 | Views: 530893 | Answers: 4
+Tags: windows, windows-10, keyboard-shortcuts | Score: 165 | Views: 530896 | Answers: 4
 
 **Solution / Community Answer**:
 The Ctrl+Shift+Win+B key sequence will restart your graphics driver.
@@ -9802,7 +11468,7 @@ A brief and also incomplete history of Windows localization | The Old New Thing
 **Tags / Source**: Tags: windows-10 | superuser | 👍 164 | 💬 8 answers
 
 **Description**:
-Tags: windows-10 | Score: 164 | Views: 1070781 | Answers: 8
+Tags: windows-10 | Score: 164 | Views: 1070782 | Answers: 8
 
 **Solution / Community Answer**:
 Built-in wallpapers
@@ -10026,7 +11692,7 @@ To download every Bing wallpaper in 4K, visit this page on GitHub.
 **Tags / Source**: Tags: windows-10, keyboard, keyboard-layout | superuser | 👍 163 | 💬 7 answers
 
 **Description**:
-Tags: windows-10, keyboard, keyboard-layout | Score: 163 | Views: 171925 | Answers: 7
+Tags: windows-10, keyboard, keyboard-layout | Score: 163 | Views: 171926 | Answers: 7
 
 **Solution / Community Answer**:
 The issue happens when you open a RDP connection. Just bring the RDP window in foreground and press Alt+Enter.
@@ -10259,7 +11925,7 @@ The Old New Thing: Practical Development Throughout the Evolution of Windows by 
 **Tags / Source**: Tags: windows, command-line | superuser | 👍 160 | 💬 12 answers
 
 **Description**:
-Tags: windows, command-line | Score: 160 | Views: 761513 | Answers: 12
+Tags: windows, command-line | Score: 160 | Views: 761515 | Answers: 12
 
 **Solution / Community Answer**:
 &gt; wmic logicaldisk get caption
@@ -10520,7 +12186,7 @@ Free Hex Editor (frhed), small and fast.
 **Tags / Source**: Tags: windows-7, windows, command-line-arguments | superuser | 👍 152 | 💬 8 answers
 
 **Description**:
-Tags: windows-7, windows, command-line-arguments | Score: 152 | Views: 255178 | Answers: 8
+Tags: windows-7, windows, command-line-arguments | Score: 152 | Views: 255179 | Answers: 8
 
 **Solution / Community Answer**:
 You can do it without Process Explorer, too, using Windows' WMI service.  Run the following from the command prompt:
@@ -10616,7 +12282,7 @@ latest versions.
 **Tags / Source**: Tags: windows-10, windows-search | superuser | 👍 151 | 💬 3 answers
 
 **Description**:
-Tags: windows-10, windows-search | Score: 151 | Views: 53370 | Answers: 3
+Tags: windows-10, windows-search | Score: 151 | Views: 53371 | Answers: 3
 
 **Solution / Community Answer**:
 This problem was the result of a temporary server-side malfunction on Microsoft's side. It has since been resolved, and affected systems should operate normally after a reboot.
@@ -10718,6 +12384,1672 @@ The value has moved from NTFS directly into Local Computer Policy &gt; Computer 
 **Reference**: https://superuser.com/questions/1119883/windows-10-enable-ntfs-long-paths-policy-option-missing
 
 > 📎 Source: https://superuser.com/questions/1119883/windows-10-enable-ntfs-long-paths-policy-option-missing
+
+#### 151. How to set an alias in Windows Command Line?
+
+**Issue**: How to set an alias in Windows Command Line?
+**Tags / Source**: Tags: windows, command-line | superuser | 👍 148 | 💬 9 answers
+
+**Description**:
+Tags: windows, command-line | Score: 148 | Views: 448249 | Answers: 9
+
+**Solution / Community Answer**:
+As Christian.K said in his comment, the DOSKEY command can be used to define macros, which are  analogous to aliases.
+
+doskey macroName=macroDefinition
+
+
+Macro parameters are referenced in the definition via $ prefixed positions: $1 through $9 and $* for all.
+
+See the doskey technet documentation, or type doskey /? or help doskey from the command line for more information.
+
+But there are serious limitations with DOSKEY macros:
+
+
+The macros only work on the interactive command line - they do not work within a batch script.
+They cannot be used on either side of a pipe: Both someMacro|findstr '^' and dir|someMacro fail.
+They cannot be used within a FOR /F commands: for /f %A in ('someMacro') do ... fails
+
+
+The limitations are so severe that I rarely use DOSKEY macros.
+
+Obviously you can create batch scripts instead of macros, and make sure the script locations are in your PATH. But then you must prefix each script with CALL if you want to use the script within another script.
+
+You could create simple variable "macros" for long and oft used commands, but syntax is a bit awkward to type, since you need to expand the "macro" when you want to use it.
+
+Definition:
+
+set "cdMe=cd a_very_long_path"
+
+
+Usage (from command line or script)
+
+%cdMe%
+
+**Reference**: https://superuser.com/questions/560519/how-to-set-an-alias-in-windows-command-line
+
+> 📎 Source: https://superuser.com/questions/560519/how-to-set-an-alias-in-windows-command-line
+
+#### 152. Setting and using variable within same command line in Windows cmd.exe
+
+**Issue**: Setting and using variable within same command line in Windows cmd.exe
+**Tags / Source**: Tags: windows, command-line, shell | superuser | 👍 148 | 💬 5 answers
+
+**Description**:
+Tags: windows, command-line, shell | Score: 148 | Views: 178646 | Answers: 5
+
+**Solution / Community Answer**:
+Note that cmd /C &quot;set &quot;EDITOR=vim&quot; &amp;&amp; echo %EDITOR%&quot; would not work.
+Nor would cmd /C &quot;setlocal ENABLEDELAYEDEXPANSION &amp;&amp; set &quot;EDITOR=vim&quot; &amp;&amp; echo !EDITOR!&quot;
+You would need:
+
+the /V option, to enable delayed environment variable expansion using ! as delimiter.
+no space between a command and the &amp;&amp; (or add quotes)
+
+That is:
+C:\&gt; cmd /V /C &quot;set EDITOR=vim&amp;&amp; echo '!EDITOR!'&quot;
+'vim'
+# or
+C:\&gt; cmd /V /C &quot;set &quot;EDITOR=vim&quot; &amp;&amp; echo '!EDITOR!'&quot;
+'vim'
+
+As noted below by maoizm, it is cmd /V /C, not cmd /C /V (which would not work)
+
+
+I can't think of any practical reason you'd ever actually want this within the context of a single command
+
+Typically, you need this when you have to replace a value used multiple times in a long command line.
+For instance, to deploy a file to Nexus (in multiple lines for readability):
+cmd /v /c &quot;set g=com.agroup&amp;&amp; set a=anArtifact&amp;&amp; set v=1.1.0&amp;&amp; \
+           mvn deploy:deploy-file -Dfile=C:\path\!a!-!v!.jar \
+           -Dpackaging=jar -DgroupId=!g! -DartifactId=!a! -Dversion=!v! \
+           -DrepositoryId=nexus 
+           -Durl=http://myserver/nexus/content/repositories/my-repo/&quot;
+
+Instead of having to replace group, artifact (used 2 times) and version in a long and complex command line, you can edit them at the beginning of said command. It is clearer/easier to manipulate and change the parameter values.
+
+**Reference**: https://superuser.com/questions/223104/setting-and-using-variable-within-same-command-line-in-windows-cmd-exe
+
+> 📎 Source: https://superuser.com/questions/223104/setting-and-using-variable-within-same-command-line-in-windows-cmd-exe
+
+#### 153. Ubuntu crashes on windows: 0x80040326 Wsl error
+
+**Issue**: Ubuntu crashes on windows: 0x80040326 Wsl error
+**Tags / Source**: Tags: windows, ubuntu, windows-subsystem-for-linux | superuser | 👍 147 | 💬 10 answers
+
+**Description**:
+Tags: windows, ubuntu, windows-subsystem-for-linux | Score: 147 | Views: 37397 | Answers: 10
+
+**Solution / Community Answer**:
+I had a same problem, but just solved it.
+Update your wsl system.
+wsl --update
+
+**Reference**: https://superuser.com/questions/1776464/ubuntu-crashes-on-windows-0x80040326-wsl-error
+
+> 📎 Source: https://superuser.com/questions/1776464/ubuntu-crashes-on-windows-0x80040326-wsl-error
+
+#### 154. How can I add an item to the &#39;new&#39; context menu?
+
+**Issue**: How can I add an item to the &#39;new&#39; context menu?
+**Tags / Source**: Tags: windows, context-menu | superuser | 👍 145 | 💬 11 answers
+
+**Description**:
+Tags: windows, context-menu | Score: 145 | Views: 171286 | Answers: 11
+
+**Solution / Community Answer**:
+One more thing:
+
+If you want to add a file as a template for the new item, use
+
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\.html\ShellNew]
+"FileName"="html.html"
+
+
+and then place the file (html.html) in:
+
+
+For your own profile: %Userprofile%\Templates
+For all users: %Allusersprofile%\Templates
+For the whole system: %Systemroot%\ShellNew
+
+
+
+
+One more detail: if you want to delete the "Windows Live Call" entry, use:
+
+[-HKEY_CLASSES_ROOT\.wlcshrtctv2\LiveCall\ShellNew]
+
+**Reference**: https://superuser.com/questions/34704/how-can-i-add-an-item-to-the-new-context-menu
+
+> 📎 Source: https://superuser.com/questions/34704/how-can-i-add-an-item-to-the-new-context-menu
+
+#### 155. How do you shutdown or restart a Windows computer over a Remote Desktop connection?
+
+**Issue**: How do you shutdown or restart a Windows computer over a Remote Desktop connection?
+**Tags / Source**: Tags: windows, remote-desktop, reboot, remote-shutdown | superuser | 👍 143 | 💬 5 answers
+
+**Description**:
+Tags: windows, remote-desktop, reboot, remote-shutdown | Score: 143 | Views: 394745 | Answers: 5
+
+**Solution / Community Answer**:
+Open a command window (or Windows Key + R) and type the following...
+
+...to restart:
+
+shutdown /r /t 0 
+
+
+...to shutdown:
+
+shutdown /s /t 0
+
+**Reference**: https://superuser.com/questions/128051/how-do-you-shutdown-or-restart-a-windows-computer-over-a-remote-desktop-connecti
+
+> 📎 Source: https://superuser.com/questions/128051/how-do-you-shutdown-or-restart-a-windows-computer-over-a-remote-desktop-connecti
+
+#### 156. What is the Windows equivalent of &quot;wc -l&quot;?
+
+**Issue**: What is the Windows equivalent of &quot;wc -l&quot;?
+**Tags / Source**: Tags: windows, command-line | superuser | 👍 143 | 💬 4 answers
+
+**Description**:
+Tags: windows, command-line | Score: 143 | Views: 254623 | Answers: 4
+
+**Solution / Community Answer**:
+The Linux/Unix &quot;line count&quot; command, wc -l, has a Windows equivalent find /c /v &quot;&quot;.
+How does this work?
+According to Raymond Chen of the The Old New Thing, this functions as such since
+
+It is a special quirk of the find command that the null string is treated as never matching.
+
+The inverted (/v) count (/c) thus effectively counts all the lines;
+hence, the line count.
+Example usage
+To count the number of modified files in a subversion working copy:
+svn status -q | find /c /v &quot;&quot;
+
+Such a command can be used to mark a build as &quot;dirty&quot; if the count is not 0, i.e. there are uncommitted changes in the working copy.
+To obtain a line count of all your Java files:
+(for /r %f in (*.java) do @type &quot;%f&quot;) | find /c /v &quot;&quot;
+
+The command find /c /v &quot;&quot; can also be added to a batch file if required. 
+Remember to duplicate the % characters (%%f) in batch files.
+
+PowerShell
+A working PowerShell equivalent is Measure-Object -line — some additional formatting is required though, e.g. a directory listing for simplicity:
+(ls | Measure-Object -line).Lines
+
+**Reference**: https://superuser.com/questions/959036/what-is-the-windows-equivalent-of-wc-l
+
+> 📎 Source: https://superuser.com/questions/959036/what-is-the-windows-equivalent-of-wc-l
+
+#### 157. Why do damaged hard drives freeze the entire system?
+
+**Issue**: Why do damaged hard drives freeze the entire system?
+**Tags / Source**: Tags: windows, hard-drive, freeze, bad-sectors | superuser | 👍 143 | 💬 4 answers
+
+**Description**:
+Tags: windows, hard-drive, freeze, bad-sectors | Score: 143 | Views: 84805 | Answers: 4
+
+**Solution / Community Answer**:
+This is one of those areas where SATA is suboptimal. The problem is at the storage device interconnect protocol level, and thus not related to what software you are running. Using another file copier or another operating system won't magically make things better, except that it might try to set different timeout values to reduce the impact of the problem (which may or may not be possible depending on the hardware and firmware; see below).
+
+There are a few important points here:
+
+
+With SATA, if the drive stops responding, this can tie up the whole storage system, not just the one drive that is having problems. It certainly has the potential to tie up the whole controller, and since most consumer systems have only a single disk controller (the one integrated on the motherboard), this means all storage. It's even worse if the drive fails in some non-standard and/or unexpected way, which can certainly happen if the drive is marginal. You may be interested in How can a single disk in a hardware SATA RAID-10 array bring the entire array to a screeching halt? on Server Fault.
+Most consumer SATA drives have long default timeout periods (on the order of minutes) and many consumer SATA drives lack configurable error recovery control. So-called "NAS" drives often have configurable ERC, and high-end drives virtually always do; such drives may also have shorter default timeouts (7 seconds being a common value). Long timeout periods are advantageous if the drive holds the only copy of the data, which unfortunately is common on consumer systems; they are a disadvantage in a redundant configuration or where you simply want to get as much as possible off the drive before it deteriorates further.
+A drive will keep trying to read a bad sector until it reaches its timeout threshold or until an abort is signalled by the host. Since the SATA bus can be tied up by the wait for the read to finish, it might not be possible for the OS to signal a storage-level command abort, and in extreme cases, drives might not even respond well to a SATA bus reset in such a situation.
+
+
+Point #1 is one of the main selling points for SAS on servers; SAS has significantly better error handling than SATA. Point #2 is a drive firmware limitation, and #3 becomes a problem really only because of #2.
+
+So what happens is that the OS issues a "read sectors" command to the disk, and the particular sectors are somehow damaged. Thus, the disk goes into retry mode to try to get the data off the platters, trying the read again and again until it gets good enough data that the disk's own error correction (FEC) is able to correct for the remaining errors. If you are unlucky, this might be never, but the drive will keep trying for some fairly long period of time before deciding that this read isn't going to succeed.
+
+Because the operating system is waiting for the read, this will at the very least slow down the copying process to a crawl, and depending on the exact OS architecture can cause the OS to become jerky or even freeze for the duration. The disk, at this point, is busy with the original read and won't respond to further read commands until the one that is currently executing ends (successfully or unsuccessfully), and other software generally won't do better than the operating system it is running on.
+
+Hence, anything that triggers a read elsewhere (ideally, only on the damaged drive) is going to have to wait in line until the damaged drive either successfully reads the sector in question, or determines that it cannot be read. Because of SATA's less than optimal handling of nonresponsive drives, this can mean that not only the drive you are copying from is going to have its I/O delayed. This can very easily cause other software to become slow or unresponsive as well, as that software waits for a different I/O request to finish, even if the operating system is able to cope.
+
+It's also important to note here that disk I/O can happen even though you aren't explicitly accessing any files on disk. The two main causes for this would be load-on-demand executable code, and swap. Since swap is sometimes used even when the system is not under memory pressure, and load-on-demand executable code is common on modern systems and with modern executable file formats, unintended disk read activity during normal use is a very real possibility.
+
+As pointed out in a comment to the question by Matteo Italia, one mitigative strategy is to use a different storage interconnect, which is a complicated way of saying "put the disk in a USB enclosure". By abstracting through the USB mass storage protocol, this isolates the problematic SATA portion from the rest of your system, which means that in theory, only I/O on that specific disk should be affected by I/O problems on that disk.
+
+As a bit of an aside, this is pretty much why SATA (particularly, SATA without drive-level ERC) is often discouraged for RAID (especially RAID levels with redundancy, which among the standard ones is all except RAID 0); the long timeout periods and poor error handling can easily cause a whole device to be thrown out of the array for a single bad sector, which the RAID controller could handle just fine if redundancy exists and the storage controller simply knows that this is the problem. SAS was designed for large storage arrays, and thus with the expectation that there will be problems on various drives occasionally, which led to it being designed to handle the case of a single problematic drive or I/O request gracefully even if the drive doesn't. Problematic disks are not very common in consumer systems simply because those tend to not have many disks installed, and the ones that are installed virtually never have redundancy; since SATA aimed to replace PATA/IDE not SCSI (the latter being the niche SAS aimed for), it is likely that its error handling features and demands (or guarantees) were considered adequate for its intended use case.
+
+**Reference**: https://superuser.com/questions/954262/why-do-damaged-hard-drives-freeze-the-entire-system
+
+> 📎 Source: https://superuser.com/questions/954262/why-do-damaged-hard-drives-freeze-the-entire-system
+
+#### 158. Map capslock to control in Windows 10
+
+**Issue**: Map capslock to control in Windows 10
+**Tags / Source**: Tags: keyboard-layout, windows-10, remapping, key-binding, capslock | superuser | 👍 143 | 💬 13 answers
+
+**Description**:
+Tags: keyboard-layout, windows-10, remapping, key-binding, capslock | Score: 143 | Views: 239495 | Answers: 13
+
+**Solution / Community Answer**:
+In case anyone needed this done via PowerShell:
+$hexified = &quot;00,00,00,00,00,00,00,00,02,00,00,00,1d,00,3a,00,00,00,00,00&quot;.Split(',') | % { &quot;0x$_&quot;};
+$kbLayout = 'HKLM:\System\CurrentControlSet\Control\Keyboard Layout';    
+New-ItemProperty -Path $kbLayout -Name &quot;Scancode Map&quot; -PropertyType Binary -Value ([byte[]]$hexified);
+
+Run it as Administrator and reboot.
+
+**Reference**: https://superuser.com/questions/949385/map-capslock-to-control-in-windows-10
+
+> 📎 Source: https://superuser.com/questions/949385/map-capslock-to-control-in-windows-10
+
+#### 159. Can you zip a file from the command prompt using ONLY Windows&#39; built-in capability to zip files?
+
+**Issue**: Can you zip a file from the command prompt using ONLY Windows&#39; built-in capability to zip files?
+**Tags / Source**: Tags: windows, command-line, batch, zip | superuser | 👍 142 | 💬 12 answers
+
+**Description**:
+Tags: windows, command-line, batch, zip | Score: 142 | Views: 499677 | Answers: 12
+
+**Solution / Community Answer**:
+Here is an all batch file solution (a variation of my other answer) that will zip a file named c:\ue_english.txt and put it in C:\someArchive.zip:
+
+set FILETOZIP=c:\ue_english.txt
+
+set TEMPDIR=C:\temp738
+rmdir %TEMPDIR%
+mkdir %TEMPDIR%
+xcopy /s %FILETOZIP% %TEMPDIR%
+
+echo Set objArgs = WScript.Arguments &gt; _zipIt.vbs
+echo InputFolder = objArgs(0) &gt;&gt; _zipIt.vbs
+echo ZipFile = objArgs(1) &gt;&gt; _zipIt.vbs
+echo CreateObject("Scripting.FileSystemObject").CreateTextFile(ZipFile, True).Write "PK" ^&amp; Chr(5) ^&amp; Chr(6) ^&amp; String(18, vbNullChar) &gt;&gt; _zipIt.vbs
+echo Set objShell = CreateObject("Shell.Application") &gt;&gt; _zipIt.vbs
+echo Set source = objShell.NameSpace(InputFolder).Items &gt;&gt; _zipIt.vbs
+echo objShell.NameSpace(ZipFile).CopyHere(source) &gt;&gt; _zipIt.vbs
+echo wScript.Sleep 2000 &gt;&gt; _zipIt.vbs
+
+CScript  _zipIt.vbs  %TEMPDIR%  C:\someArchive.zip
+
+pause
+
+
+Write access is required to the parent of the folder stored in TEMPDIR. As this is often not the case for the root of drive C TEMPDIR may have to be changed.
+
+Write access is also required for the folder the .bat script is in (as it generates a file there).
+
+Also, please note that the file extension for the compressed file must be .zip. Attempts to use another extension may result in a script error. Instead, generate the .zip file and rename it.
+
+**Reference**: https://superuser.com/questions/110991/can-you-zip-a-file-from-the-command-prompt-using-only-windows-built-in-capabili
+
+> 📎 Source: https://superuser.com/questions/110991/can-you-zip-a-file-from-the-command-prompt-using-only-windows-built-in-capabili
+
+#### 160. How can I mass rename files?
+
+**Issue**: How can I mass rename files?
+**Tags / Source**: Tags: windows, command-line, file-management | superuser | 👍 141 | 💬 24 answers
+
+**Description**:
+Tags: windows, command-line, file-management | Score: 141 | Views: 402252 | Answers: 24
+
+**Solution / Community Answer**:
+I know in your title you say "in dos" but I get the impression you are just looking for a way to do this and are wondering if that is the best way.
+
+The absolute best tool I have found for this is Bulk Rename Utility.  
+
+
+
+It isn't a command line tool, but they do have a command line version if you really want to use it that way.
+
+I've used the GUI version a lot, and it is very powerful, very fast and extremely easy to use.
+
+Oh, and it is FREE for personal use.
+
+**Reference**: https://superuser.com/questions/16007/how-can-i-mass-rename-files
+
+> 📎 Source: https://superuser.com/questions/16007/how-can-i-mass-rename-files
+
+#### 161. Restart a Windows service from the command line
+
+**Issue**: Restart a Windows service from the command line
+**Tags / Source**: Tags: windows-7, windows, command-line | superuser | 👍 140 | 💬 6 answers
+
+**Description**:
+Tags: windows-7, windows, command-line | Score: 140 | Views: 754896 | Answers: 6
+
+**Solution / Community Answer**:
+You can use net stop [service name] to stop it and net start [service name] to start it up again basically restarting the service.
+
+To combine them just do this - net stop [service name] &amp;&amp; net start [service name].
+
+
+
+There is also a command built specifically for messing with services: sc
+
+
+DESCRIPTION:
+        SC is a command line program used for communicating with the
+        Service Control Manager and services.
+USAGE:
+        sc  [command] [service name]  ...
+
+
+        The option  has the form "\\ServerName"
+        Further help on commands can be obtained by typing: "sc [command]"
+        Commands:
+          query-----------Queries the status for a service, or
+                          enumerates the status for types of services.
+          queryex---------Queries the extended status for a service, or
+                          enumerates the status for types of services.
+          start-----------Starts a service.
+          pause-----------Sends a PAUSE control request to a service.
+          interrogate-----Sends an INTERROGATE control request to a service.
+          continue--------Sends a CONTINUE control request to a service.
+          stop------------Sends a STOP request to a service.
+          config----------Changes the configuration of a service (persistent).
+          description-----Changes the description of a service.
+          failure---------Changes the actions taken by a service upon failure.
+          failureflag-----Changes the failure actions flag of a service.
+          sidtype---------Changes the service SID type of a service.
+          privs-----------Changes the required privileges of a service.
+          managedaccount--Changes the service to mark the service account
+                          password as managed by LSA.
+          qc--------------Queries the configuration information for a service.
+          qdescription----Queries the description for a service.
+          qfailure--------Queries the actions taken by a service upon failure.
+          qfailureflag----Queries the failure actions flag of a service.
+          qsidtype--------Queries the service SID type of a service.
+          qprivs----------Queries the required privileges of a service.
+          qtriggerinfo----Queries the trigger parameters of a service.
+          qpreferrednode--Queries the preferred NUMA node of a service.
+          qrunlevel-------Queries the run level of a service.
+          qmanagedaccount-Queries whether a services uses an account with a
+                          password managed by LSA.
+          qprotection-----Queries the process protection level of a service.
+          delete----------Deletes a service (from the registry).
+          create----------Creates a service. (adds it to the registry).
+          control---------Sends a control to a service.
+          sdshow----------Displays a service's security descriptor.
+          sdset-----------Sets a service's security descriptor.
+          showsid---------Displays the service SID string corresponding to an arbitrary name.
+          triggerinfo-----Configures the trigger parameters of a service.
+          preferrednode---Sets the preferred NUMA node of a service.
+          runlevel--------Sets the run level of a service.
+          GetDisplayName--Gets the DisplayName for a service.
+          GetKeyName------Gets the ServiceKeyName for a service.
+          EnumDepend------Enumerates Service Dependencies.
+
+        The following commands don't require a service name:
+        sc   
+          boot------------(ok | bad) Indicates whether the last boot should
+                          be saved as the last-known-good boot configuration
+          Lock------------Locks the Service Database
+          QueryLock-------Queries the LockStatus for the SCManager Database
+EXAMPLE:
+        sc start MyService
+
+QUERY and QUERYEX OPTIONS:
+        If the query command is followed by a service name, the status
+        for that service is returned.  Further options do not apply in
+        this case.  If the query command is followed by nothing or one of
+        the options listed below, the services are enumerated.
+    type=    Type of services to enumerate (driver, service, all)
+             (default = service)
+    state=   State of services to enumerate (inactive, all)
+             (default = active)
+    bufsize= The size (in bytes) of the enumeration buffer
+             (default = 4096)
+    ri=      The resume index number at which to begin the enumeration
+             (default = 0)
+    group=   Service group to enumerate
+             (default = all groups)
+
+SYNTAX EXAMPLES
+sc query                - Enumerates status for active services & drivers
+sc query eventlog       - Displays status for the eventlog service
+sc queryex eventlog     - Displays extended status for the eventlog service
+sc query type= driver   - Enumerates only active drivers
+sc query type= service  - Enumerates only Win32 services
+sc query state= all     - Enumerates all services & drivers
+sc query bufsize= 50    - Enumerates with a 50 byte buffer
+sc query ri= 14         - Enumerates with resume index = 14
+sc queryex group= ""    - Enumerates active services not in a group
+sc query type= interact - Enumerates all interactive services
+sc query type= driver group= NDIS     - Enumerates all NDIS drivers
+
+**Reference**: https://superuser.com/questions/301765/restart-a-windows-service-from-the-command-line
+
+> 📎 Source: https://superuser.com/questions/301765/restart-a-windows-service-from-the-command-line
+
+#### 162. Keyboard shortcuts to arrange Chrome tabs on Windows?
+
+**Issue**: Keyboard shortcuts to arrange Chrome tabs on Windows?
+**Tags / Source**: Tags: windows, google-chrome, keyboard, keyboard-shortcuts | superuser | 👍 140 | 💬 8 answers
+
+**Description**:
+Tags: windows, google-chrome, keyboard, keyboard-shortcuts | Score: 140 | Views: 67229 | Answers: 8
+
+**Solution / Community Answer**:
+Ctrl+Shift+PgUp
+Ctrl+Shift+PgDn
+
+**Reference**: https://superuser.com/questions/629432/keyboard-shortcuts-to-arrange-chrome-tabs-on-windows
+
+> 📎 Source: https://superuser.com/questions/629432/keyboard-shortcuts-to-arrange-chrome-tabs-on-windows
+
+#### 163. What is the difference between SETX and SET in environment variables in Windows
+
+**Issue**: What is the difference between SETX and SET in environment variables in Windows
+**Tags / Source**: Tags: windows, environment-variables | superuser | 👍 140 | 💬 4 answers
+
+**Description**:
+Tags: windows, environment-variables | Score: 140 | Views: 159899 | Answers: 4
+
+**Solution / Community Answer**:
+I'm afraid it's not quite that simple. Environment variables are not limited by scope, as you suggest, but you are right that the lifetime of the value in the variable is different when comparing the verbs. 
+
+set modifies the current shell's (the window's) environment values, and the change is available immediately, but it is temporary.  The change will not affect other shells that are running, and as soon as you close the shell, the new value is lost until such time as you run set again. 
+
+setx modifies the value permanently, which affects all future shells, but does not modify the environment of the shells already running.  You have to exit the shell and reopen it before the change will be available, but the value will remain modified until you change it again. 
+
+See here for an example: http://batcheero.blogspot.com/2008/02/set-and-setx.html
+
+**Reference**: https://superuser.com/questions/916649/what-is-the-difference-between-setx-and-set-in-environment-variables-in-windows
+
+> 📎 Source: https://superuser.com/questions/916649/what-is-the-difference-between-setx-and-set-in-environment-variables-in-windows
+
+#### 164. Delete all files from a folder and its sub folders
+
+**Issue**: Delete all files from a folder and its sub folders
+**Tags / Source**: Tags: windows, script, powershell, batch-file, vbscript | superuser | 👍 139 | 💬 16 answers
+
+**Description**:
+Tags: windows, script, powershell, batch-file, vbscript | Score: 139 | Views: 555882 | Answers: 16
+
+**Solution / Community Answer**:
+Short and sweet PowerShell.  Not sure what the lowest version of PS it will work with.
+Remove-Item c:\Tmp\* -Recurse -Force
+
+**Reference**: https://superuser.com/questions/741945/delete-all-files-from-a-folder-and-its-sub-folders
+
+> 📎 Source: https://superuser.com/questions/741945/delete-all-files-from-a-folder-and-its-sub-folders
+
+#### 165. Disable Narrator shortcut key in Windows
+
+**Issue**: Disable Narrator shortcut key in Windows
+**Tags / Source**: Tags: windows, windows-8, hotkeys | superuser | 👍 139 | 💬 11 answers
+
+**Description**:
+Tags: windows, windows-8, hotkeys | Score: 139 | Views: 180666 | Answers: 11
+
+**Solution / Community Answer**:
+I have not tried it personally but here's what I found.
+
+Navigate to %systemroot%\System32
+In this folder a file called Narrator.exe is to be found
+Right click the file and choose Properties
+Choose the Security tab and press Advanced
+In the top of the window press Change to change the Owner permissions
+In the text field write your username and press OK to all the dialogs
+
+Now you should be able to change the permissions of the file, this is where we remove all the permissions from your user and change the owner back to SYSTESM; this way your user will not be able to start the Narrator.
+
+Right-click the Narrator file again and choose Properties and Security
+Press Advanced
+Now that you are the owner you can change permissions for other users. Choose your own user and press Edit
+Remove the Read &amp; Execute and Read permissions and press OK
+Now press Change in the top under Owner and write system in the text field
+Press OK to all dialogs
+
+Source
+
+**Reference**: https://superuser.com/questions/473410/disable-narrator-shortcut-key-in-windows
+
+> 📎 Source: https://superuser.com/questions/473410/disable-narrator-shortcut-key-in-windows
+
+#### 166. How to move the recovery partition on Windows 10?
+
+**Issue**: How to move the recovery partition on Windows 10?
+**Tags / Source**: Tags: windows-10, diskpart | superuser | 👍 139 | 💬 5 answers
+
+**Description**:
+Tags: windows-10, diskpart | Score: 139 | Views: 268011 | Answers: 5
+
+**Solution / Community Answer**:
+According to MS's documentation, capture-and-apply-windows-system-and-recovery-partitions, the recovery partition can be captured and applied to a new partition. I have made it to work on my windows 10 PC.
+Warning 1: You must know what the following commands do before you execute them. Check the link above and MS's documentation for diskpart, dism and reagentc.
+Warning 2: Check disk numbers, partition numbers and volume letters carefully before executing commands.
+
+Use diskpart to find current recovery partition and assign a driver letter(eg. O) to it:
+
+DISKPART&gt; list disk
+DISKPART&gt; select disk &lt;the-number-of-disk-where-current-recovery-partition-locate&gt;
+DISKPART&gt; list partition
+DISKPART&gt; select partition &lt;the-number-of-current-recovery-partition&gt;
+DISKPART&gt; assign letter=O
+
+
+Create an image file from current recovery partition:
+
+Dism /Capture-Image /ImageFile:C:\recovery-partition.wim /CaptureDir:O:\ /Name:&quot;Recovery&quot;
+
+
+Apply the created image file to another partition(eg. N) that will become the new recovery partition:
+
+Dism /Apply-Image /ImageFile:C:\recovery-partition.wim /Index:1 /ApplyDir:N:\
+
+
+Register the location of the recovery tools:
+
+reagentc /disable
+reagentc /setreimage /path N:\Recovery\WindowsRE
+reagentc /enable
+
+
+Use diskpart to hide the recovery partition:
+
+For UEFI:
+
+DISKPART&gt; select volume N
+DISKPART&gt; set id=&quot;de94bba4-06d1-4d40-a16a-bfd50179d6ac&quot;
+DISKPART&gt; gpt attributes=0x8000000000000001
+DISKPART&gt; remove
+
+
+For BIOS:
+
+DISKPART&gt; select volume N
+DISKPART&gt; set id=27
+DISKPART&gt; remove
+
+
+Reboot the computer, now the new recovery partition should be working
+(Optional) Delete the old recovery partition:
+
+DISKPART&gt; select volume O
+DISKPART&gt; delete partition override
+
+
+(Optional) Check if the recovery partition is working:
+
+Show the current status:
+reagentc /info
+
+
+Specifies that Windows RE starts automatically the next time the system starts:
+reagentc /boottore
+
+
+Reboot the computer and do your stuff in Windows RE (eg. enter CMD and run some tools)
+
+**Reference**: https://superuser.com/questions/1453790/how-to-move-the-recovery-partition-on-windows-10
+
+> 📎 Source: https://superuser.com/questions/1453790/how-to-move-the-recovery-partition-on-windows-10
+
+#### 167. Where does Putty store known_hosts information on Windows?
+
+**Issue**: Where does Putty store known_hosts information on Windows?
+**Tags / Source**: Tags: windows, ssh, putty, known-hosts | superuser | 👍 138 | 💬 3 answers
+
+**Description**:
+Tags: windows, ssh, putty, known-hosts | Score: 138 | Views: 202114 | Answers: 3
+
+**Solution / Community Answer**:
+Putty stores known hosts under a registry key:  HKEY_CURRENT_USER\SoftWare\SimonTatham\PuTTY\SshHostKeys.
+
+**Reference**: https://superuser.com/questions/197489/where-does-putty-store-known-hosts-information-on-windows
+
+> 📎 Source: https://superuser.com/questions/197489/where-does-putty-store-known-hosts-information-on-windows
+
+#### 168. Why can&#39;t VirtualBox or VMware run with Hyper-V enabled on Windows 10?
+
+**Issue**: Why can&#39;t VirtualBox or VMware run with Hyper-V enabled on Windows 10?
+**Tags / Source**: Tags: windows-10, virtualbox, virtual-machine, virtualization, vmware | superuser | 👍 137 | 💬 4 answers
+
+**Description**:
+Tags: windows-10, virtualbox, virtual-machine, virtualization, vmware | Score: 137 | Views: 170569 | Answers: 4
+
+**Solution / Community Answer**:
+VirtualBox and VMware Workstation (and VMware Player) are "level 2 hypervisors." Hyper-V and VMware ESXi are "level 1 hypervisors."
+
+The main difference is that a level 2 hypervisor is an application running inside an existing OS, while a level 1 hypervisor is the OS itself.
+
+This means that when you enable Hyper-V, your Windows 10 "host" becomes a virtual machine. A special one, but nonetheless a virtual machine.
+
+So your question would more aptly be: "Why don't VirtualBox and VMware Workstation work inside a Hyper-V virtual machine?" One can answer because as a VM, the Intel VT-X instruction are no longer accessible from your virtual machine, only the host has access to it.
+
+QEMU works because it does not do virtualization but emulation, which is completely different and explains why QEMU is painfully slow. Virtualization is the process of running a complete isolated machine inside another, but with the help of the processor. This requires the virtual machine and the host to be instruction compatible.
+
+Emulation is the process of running any machine inside a running OS, there is no platform restriction, and is why QEMU can run an ARM machine on an amd64 platform.
+
+Note: QEMU has 2 operating modes:
+
+
+it can work as an emulator, this is the mode explained above
+it can work as virtualization software with the help of KVM if the guest architecture is compatible with the host's and if the VT instruction is present of course.
+
+**Reference**: https://superuser.com/questions/1208850/why-cant-virtualbox-or-vmware-run-with-hyper-v-enabled-on-windows-10
+
+> 📎 Source: https://superuser.com/questions/1208850/why-cant-virtualbox-or-vmware-run-with-hyper-v-enabled-on-windows-10
+
+#### 169. How to open a .tar.gz file in Windows?
+
+**Issue**: How to open a .tar.gz file in Windows?
+**Tags / Source**: Tags: windows, windows-7, tar, gz | superuser | 👍 136 | 💬 10 answers
+
+**Description**:
+Tags: windows, windows-7, tar, gz | Score: 136 | Views: 691920 | Answers: 10
+
+**Solution / Community Answer**:
+You can use 7-zip to untar the .tar file as well. 
+
+
+Right-click the file
+Select 7-zip -> Extract Here / Extract To
+
+**Reference**: https://superuser.com/questions/215629/how-to-open-a-tar-gz-file-in-windows
+
+> 📎 Source: https://superuser.com/questions/215629/how-to-open-a-tar-gz-file-in-windows
+
+#### 170. How do I install a VSIX file in Visual Studio?
+
+**Issue**: How do I install a VSIX file in Visual Studio?
+**Tags / Source**: Tags: windows, visual-studio-2010, visual-studio | superuser | 👍 136 | 💬 11 answers
+
+**Description**:
+Tags: windows, visual-studio-2010, visual-studio | Score: 136 | Views: 417791 | Answers: 11
+
+**Solution / Community Answer**:
+VSIX is a Visual Studio extension installer.  You must have Visual Studio 2010 or newer in order to install them, but you should be able to install it by double-clicking the .vsix file.  Alternatively you should be able to install it from within the VS Extension Manager (Tools->Extension Manger)
+
+See more about VSIX files at Quan To's Visual Studio Extensibility blog
+
+**Reference**: https://superuser.com/questions/73675/how-do-i-install-a-vsix-file-in-visual-studio
+
+> 📎 Source: https://superuser.com/questions/73675/how-do-i-install-a-vsix-file-in-visual-studio
+
+#### 171. Recursively delete empty directories in Windows
+
+**Issue**: Recursively delete empty directories in Windows
+**Tags / Source**: Tags: windows, command-line | superuser | 👍 135 | 💬 13 answers
+
+**Description**:
+Tags: windows, command-line | Score: 135 | Views: 240097 | Answers: 13
+
+**Solution / Community Answer**:
+You can use Remove Empty Directories utility.
+
+Alternatively you can use this one-liner batch file (from DownloadSquad):
+
+for /f "delims=" %d in ('dir /s /b /ad ^| sort /r') do rd "%d"
+
+
+(if used inside a batch file, replace %d with %%d)
+
+This works because rd will not remove a directory that contains files.
+
+**Reference**: https://superuser.com/questions/39674/recursively-delete-empty-directories-in-windows
+
+> 📎 Source: https://superuser.com/questions/39674/recursively-delete-empty-directories-in-windows
+
+#### 172. How can I open a command prompt in current folder with a keyboard shortcut?
+
+**Issue**: How can I open a command prompt in current folder with a keyboard shortcut?
+**Tags / Source**: Tags: windows, command-line, keyboard-shortcuts, autohotkey | superuser | 👍 133 | 💬 12 answers
+
+**Description**:
+Tags: windows, command-line, keyboard-shortcuts, autohotkey | Score: 133 | Views: 308592 | Answers: 12
+
+**Solution / Community Answer**:
+Press Alt+D, type cmd and press Enter. For more details see blog post here.
+
+**Reference**: https://superuser.com/questions/205359/how-can-i-open-a-command-prompt-in-current-folder-with-a-keyboard-shortcut
+
+> 📎 Source: https://superuser.com/questions/205359/how-can-i-open-a-command-prompt-in-current-folder-with-a-keyboard-shortcut
+
+#### 173. A command-line or batch cmd to concatenate multiple files
+
+**Issue**: A command-line or batch cmd to concatenate multiple files
+**Tags / Source**: Tags: windows, command-line | superuser | 👍 133 | 💬 6 answers
+
+**Description**:
+Tags: windows, command-line | Score: 133 | Views: 697261 | Answers: 6
+
+**Solution / Community Answer**:
+I don't want to type the name of all
+  files.
+
+
+That's easy to be avoided. Open a command prompt in this folder and type the following command:
+
+copy /b *.txt newfile.txt
+
+
+Press Enter.
+
+Now you will have all text files in this folder ordered by date ascending merged into a single file called newfile.txt.
+
+
+  My ultimate aim is to store the
+  contents of each text file in a separate
+  column of an Excel sheet.
+
+
+Here's a tutorial that may help you to achieve your "ultimate aim":
+
+Merge all CSV or TXT files in a folder in one worksheet
+
+**Reference**: https://superuser.com/questions/111825/a-command-line-or-batch-cmd-to-concatenate-multiple-files
+
+> 📎 Source: https://superuser.com/questions/111825/a-command-line-or-batch-cmd-to-concatenate-multiple-files
+
+#### 174. Run a script on start up on Windows 10
+
+**Issue**: Run a script on start up on Windows 10
+**Tags / Source**: Tags: windows-10, boot | superuser | 👍 133 | 💬 6 answers
+
+**Description**:
+Tags: windows-10, boot | Score: 133 | Views: 548126 | Answers: 6
+
+**Solution / Community Answer**:
+The startup folder is still there and functions as normal.
+
+To access it, press Windows+R, then type shell:startup.
+
+You should be able to do what you were previously doing in Windows 7 from there.
+
+**Reference**: https://superuser.com/questions/954950/run-a-script-on-start-up-on-windows-10
+
+> 📎 Source: https://superuser.com/questions/954950/run-a-script-on-start-up-on-windows-10
+
+#### 175. How to prevent Windows 10 waking from sleep when traveling in bag?
+
+**Issue**: How to prevent Windows 10 waking from sleep when traveling in bag?
+**Tags / Source**: Tags: windows-10, sleep, hibernate, windows-task-scheduler | superuser | 👍 133 | 💬 10 answers
+
+**Description**:
+Tags: windows-10, sleep, hibernate, windows-task-scheduler | Score: 133 | Views: 132715 | Answers: 10
+
+**Solution / Community Answer**:
+This has worked for me so far. Go to:
+Control Panel\Hardware and Sound\Power Options\Edit Plan Settings
+Click &quot;Change advanced power settings&quot;
+Go to &quot;Sleep-&gt;Allow wake timers&quot; and change the setting to Disable.
+
+UPDATE: As Erik pointed out, there can be two options:
+
+Disable them both.
+UPDATE #2:
+In addition to wake timers, peripheral devices can also wake your computer. See Rosdi's answer for network interfaces. It reminded me of something I had to change recently as my computer was waking again when peripherals were attached. First I disconnected the mouse, but it turned out to be the keyboard.
+Open the Device Manager and expand Keyboards - or whatever your problematic device category is - and find the suspect, e.g. &quot;HID Keyboard Device&quot;. Right-click that and select Properties, then go to the Power Management tab and uncheck &quot;Allow this device to wake the computer&quot;.
+
+**Reference**: https://superuser.com/questions/958109/how-to-prevent-windows-10-waking-from-sleep-when-traveling-in-bag
+
+> 📎 Source: https://superuser.com/questions/958109/how-to-prevent-windows-10-waking-from-sleep-when-traveling-in-bag
+
+#### 176. Change default action on connecting a USB device
+
+**Issue**: Change default action on connecting a USB device
+**Tags / Source**: Tags: windows, usb | superuser | 👍 132 | 💬 1 answers
+
+**Description**:
+Tags: windows, usb | Score: 132 | Views: 354443 | Answers: 1
+
+**Solution / Community Answer**:
+Microsoft explains all about autoplay here.
+
+
+Open AutoPlay by clicking the Start button , and then clicking Control Panel. In the search box, type autoplay, and then click AutoPlay. 
+In the list next to the device or type of media, click the new action you want to use.
+
+**Reference**: https://superuser.com/questions/401073/change-default-action-on-connecting-a-usb-device
+
+> 📎 Source: https://superuser.com/questions/401073/change-default-action-on-connecting-a-usb-device
+
+#### 177. Display the taskbar clock on multiple screens in Windows?
+
+**Issue**: Display the taskbar clock on multiple screens in Windows?
+**Tags / Source**: Tags: windows, windows-8, taskbar, clock | superuser | 👍 132 | 💬 7 answers
+
+**Description**:
+Tags: windows, windows-8, taskbar, clock | Score: 132 | Views: 196308 | Answers: 7
+
+**Solution / Community Answer**:
+You can't display the clock on both taskbar. It is possible to drag your primary taskbar to the second monitor providing they are unlocked first.
+
+**Reference**: https://superuser.com/questions/495201/display-the-taskbar-clock-on-multiple-screens-in-windows
+
+> 📎 Source: https://superuser.com/questions/495201/display-the-taskbar-clock-on-multiple-screens-in-windows
+
+#### 178. How to set default user for manually installed WSL distro?
+
+**Issue**: How to set default user for manually installed WSL distro?
+**Tags / Source**: Tags: linux, windows, user-accounts, windows-subsystem-for-linux | superuser | 👍 131 | 💬 8 answers
+
+**Description**:
+Tags: linux, windows, user-accounts, windows-subsystem-for-linux | Score: 131 | Views: 257638 | Answers: 8
+
+**Solution / Community Answer**:
+There are a few possible methods of changing/setting the default user in an imported WSL instance.  While the two that were mentioned in other answers still work, there are two &quot;official&quot; ways now.
+Method 1 - wsl --manage --set-default-user (WSL 2.4.10 and later)
+As of February 2025, the latest release of WSL (2.4.10.0) includes a built-in flag for setting the default user. If needed, you can (assuming you are running on a release in the last few years) update via:
+wsl --update
+
+And then:
+wsl --manage &lt;distro&gt; --set-default-user &lt;username&gt;
+
+This queries the user id (via usr/bin/id and perhaps other methods) in the distribution and then sets the returned UID in the registry as in Method #3 below.  It does require that the username/id already exists. See the &quot;For readers who need to create a new user&quot; section below if needed.
+Method 2 - /etc/wsl.conf
+The current Microsoft recommended way of setting the username in an instance is to create a /etc/wsl.conf in the instance with the following setting:
+[user]
+default=username
+
+Changing, of course, username to be your default username.
+Exit your distro/instance, then issue a wsl --terminate &lt;distroname&gt; from PowerShell or CMD.  When you restart, the default user should be set.
+This is safer and less error-prone than the registry-based methods.
+Method 3 - Registry Key
+Setting the registry key per @harrymc's answer.
+Method 4 - LxRunOffline
+Using LxRunOffline to set the registry entry, as described in @Jaime's answer.  Ultimately this has the same effect as Method 3 above.
+Semi-method 5 - Runtime user selection via wsl commandline argument
+The username can be selected when starting any WSL instance by:
+wsl -u username or wsl -d distroname -u username, etc.
+For instance, wsl -d Ubuntu -u root.
+
+Side Note: This question was specifically about setting the default username in an imported instance.
+However, for completeness, you can also set the default username for a distro that was installed from the Store (or wsl --install) with:
+&lt;distro&gt;.exe config --default-user &lt;username&gt;
+
+For instance, if you installed &quot;Ubuntu 20.04&quot; from the Store, you would use:
+ubuntu2004.exe config --default-user &lt;username&gt;
+
+The .exe here is an &quot;App Execution Alias&quot; in Windows.  You can check the name by going to &quot;Manage app execution aliases&quot; in the Windows System Settings.
+
+For readers who need to create a new user
+@ndemou made a good point in the comments last year that I, in hindsight, dismissed improperly.  Two other users have now mentioned in the comments that @ndemou's information was helpful.  My belated apologies!  Here's the additional information based on @ndemou's advice ...
+Some users who find this answer may be starting up as root not because they --import'd a distribution, but possibly because the default user was never created during installation in the first place.  This can happen when the distribution installation is stopped prematurely, and likely for other reasons as well.
+Under Ubuntu, the default distribution for WSL, you can create your user by starting with:
+wsl ~ -u root
+
+If you need to, add the -d &lt;distribution&gt; option.
+Then run:
+NEWUSER=&lt;your_username&gt;
+useradd --create-home --shell /usr/bin/bash --user-group --groups  adm,dialout,cdrom,floppy,sudo,audio,dip,video,plugdev,netdev --password $(read -sp Password: pw ; echo $pw | openssl passwd -1 -stdin) $NEWUSER
+
+Then set the user as the default using the /etc/wsl.conf as mentioned above.
+If you've already created the user, or are using a different distribution, as @ndemou points out, make sure to also add the user either to a group that is in sudoers or directly to sudoers via visudo.  See the answers to this question for additional details.
+
+**Reference**: https://superuser.com/questions/1566022/how-to-set-default-user-for-manually-installed-wsl-distro
+
+> 📎 Source: https://superuser.com/questions/1566022/how-to-set-default-user-for-manually-installed-wsl-distro
+
+#### 179. How can I shrink a Windows 10 partition?
+
+**Issue**: How can I shrink a Windows 10 partition?
+**Tags / Source**: Tags: windows, hard-drive, partitioning, mirroring | superuser | 👍 131 | 💬 13 answers
+
+**Description**:
+Tags: windows, hard-drive, partitioning, mirroring | Score: 131 | Views: 295566 | Answers: 13
+
+**Solution / Community Answer**:
+There seems to be absolutely no need for any third party software.
+
+I have followed the instructions here, and I successfully shrank my OS partition in about 10 minutes.
+Running under Windows 10, but I doubt it makes a difference here.
+
+The steps are:
+
+
+Disable hibernation.
+
+At a an elevated (admin) command prompt, run the command
+
+powercfg /h off
+
+Disable pagefile.
+
+Open the System page in Control Panel (from “This PC”/“My computer”, open the Properties). Click “Advanced System Settings”, then in the “System Properties” dialog's “Advanced” tab, open the “Performance” settings, go to the “Advanced” tab, click “Change...” under “Virtual memory”, untick “Automatically manage paging file size for all drives”, select the drive you want to shrink, select “No paging file” and click the “Set” button.
+Disable system protection.
+
+In the “System Properties” dialog as above, go to the “System Protection” tab, click “Configure...” and select “Disable system protection”.
+Restart.
+
+
+Now the three files that were preventing partition reduction are gone. Reduce partition size, and then restore the three items.
+
+If Disk Management complains that “There is not enough space available on the disk(s) to complete this operation.” even though you entered a size that should work according to Disk Management's own figures, see Cannot shrink C: partition: Not enough space
+
+I have later found similar instructions at other places, all of them mentioning only these 3 items.
+
+**Reference**: https://superuser.com/questions/1017764/how-can-i-shrink-a-windows-10-partition
+
+> 📎 Source: https://superuser.com/questions/1017764/how-can-i-shrink-a-windows-10-partition
+
+#### 180. How to add command line options to shortcut?
+
+**Issue**: How to add command line options to shortcut?
+**Tags / Source**: Tags: windows, windows-xp, shortcuts, command-line-arguments | superuser | 👍 130 | 💬 4 answers
+
+**Description**:
+Tags: windows, windows-xp, shortcuts, command-line-arguments | Score: 130 | Views: 485255 | Answers: 4
+
+**Solution / Community Answer**:
+Have you tried to add in the Target field
+
+
+"c:\path\to\exe\program.exe" -option1 -option2
+
+
+Only the program path and name need to be enclosed in quotes.
+
+**Reference**: https://superuser.com/questions/29569/how-to-add-command-line-options-to-shortcut
+
+> 📎 Source: https://superuser.com/questions/29569/how-to-add-command-line-options-to-shortcut
+
+#### 181. Unable to install fonts on Windows 10
+
+**Issue**: Unable to install fonts on Windows 10
+**Tags / Source**: Tags: windows, fonts, windows-10, uac | superuser | 👍 129 | 💬 2 answers
+
+**Description**:
+Tags: windows, fonts, windows-10, uac | Score: 129 | Views: 170795 | Answers: 2
+
+**Solution / Community Answer**:
+After a week of trying everything. The answer as weird as it sounds is to enable the windows firewall. I know, makes no sense right? It's not connected to font settings, however once "On" I was able to fix my issue with installing fonts on windows 10 and without an error message!
+
+**Reference**: https://superuser.com/questions/957907/unable-to-install-fonts-on-windows-10
+
+> 📎 Source: https://superuser.com/questions/957907/unable-to-install-fonts-on-windows-10
+
+#### 182. How to make Outlook Calendar reminders stay on top in Windows 7
+
+**Issue**: How to make Outlook Calendar reminders stay on top in Windows 7
+**Tags / Source**: Tags: windows, microsoft-outlook, calendar, popups, reminder | superuser | 👍 129 | 💬 11 answers
+
+**Description**:
+Tags: windows, microsoft-outlook, calendar, popups, reminder | Score: 129 | Views: 234341 | Answers: 11
+
+**Solution / Community Answer**:
+I had the same problem with Outlook 2010. Use the steps mentioned below, it works like a charm. Don't forget to enable all macros: Trust Center > Macro Settings.
+
+
+Create a Digital certificate for later: Hit Start and type
+'certificate', select 'Digital Certificate for VBA Projects'
+Enter a name for your certificate. Click OK. Open Outlook and hit Alt + F11 to
+start the VBA editor. 
+In the tree on the left, expand 'Microsoft Office Outlook Objects' and double click on 'ThisOutlookSession'
+Paste in this code:
+
+Private Declare PtrSafe Function FindWindowA Lib "user32" _
+(ByVal lpClassName As String, ByVal lpWindowName As String) As Long
+
+Private Declare PtrSafe Function SetWindowPos Lib "user32" ( _
+ByVal hwnd As Long, ByVal hWndInsertAfter As Long, _
+ByVal X As Long, ByVal Y As Long, ByVal cx As Long, _
+ByVal cy As Long, ByVal wFlags As Long) As Long
+
+Private Const SWP_NOSIZE = &amp;H1
+Private Const SWP_NOMOVE = &amp;H2
+Private Const FLAGS As Long = SWP_NOMOVE Or SWP_NOSIZE
+Private Const HWND_TOPMOST = -1
+
+Private Sub Application_Reminder(ByVal Item As Object)
+Dim ReminderWindowHWnd As Variant
+On Error Resume Next
+ReminderWindowHWnd = FindWindowA(vbNullString, "1 Reminder")
+SetWindowPos ReminderWindowHWnd, HWND_TOPMOST, 0, 0, 0, 0, FLAGS
+
+End Sub
+
+Sign the Macro so it will run: Tools > Digital Signature... and choose the certificate you created earlier
+Close the VBA window
+Enable all macros in File > Options > Trust Center > Trust Center Settings > Macro Settings
+
+**Reference**: https://superuser.com/questions/251963/how-to-make-outlook-calendar-reminders-stay-on-top-in-windows-7
+
+> 📎 Source: https://superuser.com/questions/251963/how-to-make-outlook-calendar-reminders-stay-on-top-in-windows-7
+
+#### 183. View past notifications in Windows 10 and 11?
+
+**Issue**: View past notifications in Windows 10 and 11?
+**Tags / Source**: Tags: windows, windows-10, windows-11, notifications, action-center | superuser | 👍 129 | 💬 4 answers
+
+**Description**:
+Tags: windows, windows-10, windows-11, notifications, action-center | Score: 129 | Views: 304443 | Answers: 4
+
+**Solution / Community Answer**:
+tldr; No there's not.
+
+The action center is the same as found on the Microsoft Phones running Windows 10 Mobile.  These actions (notifications) are meant to be displayed to the user until they take action.  There are two ways a user can interact with an action:
+
+
+Dismiss the notification (clears the action)
+Select the notification (respond to the action)
+
+
+Once one of these interactions takes place, the notification and therefore the action is no longer displayed.  No history is maintained of these notifications and cannot be retrieved.  This is done on purpose as that history could (and most likely would) become very large.  
+
+If you are worried that the notification has system-wide consequences it could be worth looking into the System logs instead; here separate messages about system events are stored.
+
+
+
+Update: It appears that some applications will additionally add events into the event viewer.  This can be done by:
+
+
+Open Event Viewer 
+Expand Applications and Services Logs 
+Drill down to the app or service you are interested in, e.g. for Windows Defender you might go to: Microsoft -&gt; Windows -&gt; Windows Defender -&gt; Operational log. 
+Review the log and look for the notification you were interested in.
+
+
+This is NOT the notification history, but additional information provided by the application and as such, there's no guarantee that the notification was logged.  It also requires that a user knows which application whose notification they're looking for.
+
+**Reference**: https://superuser.com/questions/947947/view-past-notifications-in-windows-10-and-11
+
+> 📎 Source: https://superuser.com/questions/947947/view-past-notifications-in-windows-10-and-11
+
+#### 184. Set shortcuts to change keyboard layout in Windows 10
+
+**Issue**: Set shortcuts to change keyboard layout in Windows 10
+**Tags / Source**: Tags: keyboard, windows-10, keyboard-layout, input-languages | superuser | 👍 129 | 💬 12 answers
+
+**Description**:
+Tags: keyboard, windows-10, keyboard-layout, input-languages | Score: 129 | Views: 367310 | Answers: 12
+
+**Solution / Community Answer**:
+Go to Control Panel → Clock, Language, and Region → Change input methods (under Language) → Advanced settings → Change language bar hot keys.
+
+**Reference**: https://superuser.com/questions/958901/set-shortcuts-to-change-keyboard-layout-in-windows-10
+
+> 📎 Source: https://superuser.com/questions/958901/set-shortcuts-to-change-keyboard-layout-in-windows-10
+
+#### 185. Windows 10 Ubuntu Bash Shell: How Do I Mount Other Windows Drives?
+
+**Issue**: Windows 10 Ubuntu Bash Shell: How Do I Mount Other Windows Drives?
+**Tags / Source**: Tags: windows-10, bash, mount | superuser | 👍 129 | 💬 6 answers
+
+**Description**:
+Tags: windows-10, bash, mount | Score: 129 | Views: 242241 | Answers: 6
+
+**Solution / Community Answer**:
+Good news, it is now possible to mount USB media (including formatted as FAT) and network shares with drvfs on Windows 10:
+
+Mount removable media: (e.g. D:)
+
+$ sudo mkdir /mnt/d
+$ sudo mount -t drvfs D: /mnt/d
+
+
+To safely unmount
+
+$ sudo umount /mnt/d
+
+
+You can also mount network shares without smbfs:
+
+$ sudo mount -t drvfs '\\server\share' /mnt/share
+
+
+You need at least Build 16176 so you might have to opt-in to the Windows Insider programm and then update Windows. Source: https://blogs.msdn.microsoft.com/wsl/2017/04/18/file-system-improvements-to-the-windows-subsystem-for-linux/
+
+**Reference**: https://superuser.com/questions/1114341/windows-10-ubuntu-bash-shell-how-do-i-mount-other-windows-drives
+
+> 📎 Source: https://superuser.com/questions/1114341/windows-10-ubuntu-bash-shell-how-do-i-mount-other-windows-drives
+
+#### 186. How do I type the tick and backtick characters on Windows?
+
+**Issue**: How do I type the tick and backtick characters on Windows?
+**Tags / Source**: Tags: windows, typing | superuser | 👍 128 | 💬 14 answers
+
+**Description**:
+Tags: windows, typing | Score: 128 | Views: 561545 | Answers: 14
+
+**Solution / Community Answer**:
+Backtick (grave accent)
+QWERTY
+Key that’s been marked with red border. It’s a dead key by default.
+
+
+
+This also applies to the Slovak QWERTZ layout.
+
+QWERTZ Germany &amp; Austria
+Shift + Key that's been marked with red border
+
+
+
+
+QWERTZ Switzerland
+Shift + Key that's been marked with a red border
+
+
+
+
+QWERTZ Czech Republic and South Slavic Latin (Bosnian, Croatian, Serbian, Slovene)
+Alt Gr + Key that's been marked with red border
+
+
+
+
+QWERTZ Hungary
+Alt Gr + Key that's been marked with red border
+
+
+
+
+AZERTY France
+Alt Gr + Key that’s been marked with red border
+
+
+
+
+AZERTY Belgium
+Alt Gr + Key that’s been marked with red border
+
+
+
+
+Forwardtick (acute accent)
+AZERTY Belgium
+Alt Gr + Key that’s been marked with red border
+
+
+
+
+Alt codes
+There may not be forwardtick keys available for the other keyboards, however an alt code exists (Hold left Alt and type the numbers on your num pad).
+The below codes should work on any keyboard.
+
+Alt + 96 = `
+Alt + 0180 = ´
+Alt + 39 = '
+
+So if you want an ', you do the following: Hold left Alt, press
+3, release 3 but still hold Alt, press
+9, release 9, release Alt.
+Unicode Character 'ACUTE ACCENT'
+
+**Reference**: https://superuser.com/questions/254076/how-do-i-type-the-tick-and-backtick-characters-on-windows
+
+> 📎 Source: https://superuser.com/questions/254076/how-do-i-type-the-tick-and-backtick-characters-on-windows
+
+#### 187. What does &quot;delayed start&quot; do in startup type for a Windows service?
+
+**Issue**: What does &quot;delayed start&quot; do in startup type for a Windows service?
+**Tags / Source**: Tags: windows, boot, windows-services | superuser | 👍 128 | 💬 5 answers
+
+**Description**:
+Tags: windows, boot, windows-services | Score: 128 | Views: 321771 | Answers: 5
+
+**Solution / Community Answer**:
+A service marked as Automatic (Delayed Start) will start shortly after all other services designated as Automatic have been started. In my experience, this means that they are started 1-2 minutes after the computer boots.
+
+The setting is most useful in lessening the "mad rush" for resources when a machine boots.
+
+Note that when you have 20 services all being started at the same time, each will start up slower as it competes with the others for slices of the machine's precious resources (CPU/RAM/Disk/Network). That is, each service takes longer to become available!
+
+If you have a few services that are critical, then you may want to set those few to Automatic and set as many of the others as you can to Automatic (Delayed Start). This will ensure that the critical services get the most resources early and become available sooner, while the non-critical services start a bit later (which by definition is ok).
+
+**Reference**: https://superuser.com/questions/285653/what-does-delayed-start-do-in-startup-type-for-a-windows-service
+
+> 📎 Source: https://superuser.com/questions/285653/what-does-delayed-start-do-in-startup-type-for-a-windows-service
+
+#### 188. How can I SSH into &quot;Bash on Ubuntu on Windows 10&quot;?
+
+**Issue**: How can I SSH into &quot;Bash on Ubuntu on Windows 10&quot;?
+**Tags / Source**: Tags: windows-10, bash, ssh, windows-10-v1607, windows-subsystem-for-linux | superuser | 👍 128 | 💬 5 answers
+
+**Description**:
+Tags: windows-10, bash, ssh, windows-10-v1607, windows-subsystem-for-linux | Score: 128 | Views: 232533 | Answers: 5
+
+**Solution / Community Answer**:
+I got it to work; here's how.
+
+Uninstalled ssh-server, reinstalled it and made sure it's started with
+
+sudo service ssh --full-restart
+
+
+Make sure you turned off root access and added another user in the config file.
+
+I was able to connect to the subsystem on 127.0.0.1:22 as expected. 
+I hope this will help you.
+
+
+
+
+sudo apt-get purge openssh-server
+sudo apt-get install openssh-server
+sudo nano /etc/ssh/sshd_config and disallow root login by setting PermitRootLogin no
+Then add a line beneath it that says:
+
+AllowUsers yourusername
+
+and make sure PasswordAuthentication is set to yes if you want to login using a password.
+Disable privilege separation by adding/modifying : UsePrivilegeSeparation no
+sudo service ssh --full-restart
+Connect to your Linux subsystem from Windows using a ssh client like PuTTY.
+
+**Reference**: https://superuser.com/questions/1111591/how-can-i-ssh-into-bash-on-ubuntu-on-windows-10
+
+> 📎 Source: https://superuser.com/questions/1111591/how-can-i-ssh-into-bash-on-ubuntu-on-windows-10
+
+#### 189. Should I defragment my SSD?
+
+**Issue**: Should I defragment my SSD?
+**Tags / Source**: Tags: windows-10, ssd, defragment | superuser | 👍 128 | 💬 8 answers
+
+**Description**:
+Tags: windows-10, ssd, defragment | Score: 128 | Views: 73296 | Answers: 8
+
+**Solution / Community Answer**:
+Let Windows do its job. Once per month it does a real full defrag, also on a SSD, to optimize the internal meta data.
+
+
+  The short answer is, yes, Windows does sometimes defragment SSDs, yes,
+  it's important to intelligently and appropriately defrag SSDs, and
+  yes, Windows is smart about how it treats your SSD.
+
+
+Here is a reply from Microsoft:
+
+
+  Storage Optimizer will defrag an SSD once a month if volume snapshots are enabled. This is by design and necessary due to slow
+  volsnap copy on write performance on fragmented SSD volumes. It’s
+  also somewhat of a misconception that fragmentation is not a problem
+  on SSDs. If an SSD gets too fragmented you can hit maximum file
+  fragmentation (when the metadata can’t represent any more file
+  fragments) which will result in errors when you try to write/extend a
+  file. Furthermore, more file fragments means more metadata to process
+  while reading/writing a file, which can lead to slower performance.
+  
+  As far as Retrim is concerned, this command should run on the schedule
+  specified in the dfrgui UI. Retrim is necessary because of the way
+  TRIM is processed in the file systems. Due to the varying performance
+  of hardware responding to TRIM, TRIM is processed asynchronously by
+  the file system. When a file is deleted or space is otherwise freed,
+  the file system queues the trim request to be processed. To limit the
+  peek resource usage this queue may only grow to a maximum number of
+  trim requests. If the queue is of max size, incoming TRIM requests may
+  be dropped. This is okay because we will periodically come through and
+  do a Retrim with Storage Optimizer. The Retrim is done at a
+  granularity that should avoid hitting the maximum TRIM request queue
+  size where TRIMs are dropped.
+
+
+So install Windows on the SSD and forget it. Windows will do everything on its own.
+
+**Reference**: https://superuser.com/questions/1150641/should-i-defragment-my-ssd
+
+> 📎 Source: https://superuser.com/questions/1150641/should-i-defragment-my-ssd
+
+#### 190. How to access a BitLocker-encrypted drive in Linux?
+
+**Issue**: How to access a BitLocker-encrypted drive in Linux?
+**Tags / Source**: Tags: linux, windows, encryption, multi-boot, bitlocker | superuser | 👍 126 | 💬 10 answers
+
+**Description**:
+Tags: linux, windows, encryption, multi-boot, bitlocker | Score: 126 | Views: 493008 | Answers: 10
+
+**Solution / Community Answer**:
+You can access the BitLocker partition under Linux using Dislocker, an open-source driver that is using FUSE (or not).
+Note: You need the file on a USB key (the one with the .bek extension) or the recovery password.
+
+**Reference**: https://superuser.com/questions/376533/how-to-access-a-bitlocker-encrypted-drive-in-linux
+
+> 📎 Source: https://superuser.com/questions/376533/how-to-access-a-bitlocker-encrypted-drive-in-linux
+
+#### 191. How do I create a right-click context menu entry to open Git Bash at a given folder within ConEmu?
+
+**Issue**: How do I create a right-click context menu entry to open Git Bash at a given folder within ConEmu?
+**Tags / Source**: Tags: windows, bash, git, conemu | superuser | 👍 126 | 💬 6 answers
+
+**Description**:
+Tags: windows, bash, git, conemu | Score: 126 | Views: 71770 | Answers: 6
+
+**Solution / Community Answer**:
+There are a number of ways this can be done in ConEmu as it is so highly configurable, but here's the way I do it.
+
+
+In ConEmu, hit WinAltp to open the settings dialog.
+Select the Tasks subsection under the Startup node and click the + icon to add a new 'Task'
+In the Task Name field enter Git Bash, leave Task Parameters blank and add "C:\Program Files\Git\bin\sh.exe" --login -i to the Commands section. It should look something like this:
+
+
+
+
+
+Now select the Integration node and enter the following under the ConEmu Here - Explorer menu integration section: 
+
+
+Menu item: ConEmu Here [Git Bash]
+Command: /single /cmd {Git Bash}
+Icon file: C:\Program Files\Git\mingw64\share\git\git-for-windows.ico
+
+Click the Register button
+
+
+
+
+This should add an entry in your right-click context menu (complete with icon). In the Command field you can use any of the ConEmu.exe switches (worth checking out for more complete documentation of what you can do - it's pretty powerful).
+
+Note: If you'd like a Git for Windows icon to appear at the top left of the ConEmu window, use the /icon switch; e.g.,
+
+/icon "C:\Program Files\Git\mingw64\share\git\git-for-windows.ico" /single /cmd {Git Bash}
+
+
+This only seems to work if it's the first tab open, though.
+
+**Reference**: https://superuser.com/questions/454380/how-do-i-create-a-right-click-context-menu-entry-to-open-git-bash-at-a-given-fol
+
+> 📎 Source: https://superuser.com/questions/454380/how-do-i-create-a-right-click-context-menu-entry-to-open-git-bash-at-a-given-fol
+
+#### 192. How do I modify my Git Bash profile in Windows?
+
+**Issue**: How do I modify my Git Bash profile in Windows?
+**Tags / Source**: Tags: windows, bashrc, .bash-profile, git-bash | superuser | 👍 125 | 💬 6 answers
+
+**Description**:
+Tags: windows, bashrc, .bash-profile, git-bash | Score: 125 | Views: 331804 | Answers: 6
+
+**Solution / Community Answer**:
+When you open up your Git Bash, you should be in your home directory by default.
+Now create the .bashrc file (if on Windows&nbsp;7 the file should be named .bashrc.).
+
+If you're not in the home directory, change into it by typing:
+
+
+  cd
+
+
+and pressing Enter. cd, without any other parameters listed after, will always return the home directory.
+
+You can create the file by typing:
+
+
+  touch .bashrc
+
+
+Then edit it with Vim or you could try doing it with some Windows editor, but I don't recommend it, because of some text formatting issues.
+
+
+  vim .bashrc
+
+
+Change to Insert Mode by hitting the i key.
+
+Add your alias by typing:
+
+
+  alias gs='git status'
+
+
+Exit the insert mode by hitting the Esc key.
+
+Save and close your file by typing the following :wqEnter.
+
+:wEnter will only save your file.
+
+:q!Enter will quit the editor without saving your file.
+
+Finally, update the file to use your new changes by typing:
+
+
+  source .bashrc
+
+**Reference**: https://superuser.com/questions/602872/how-do-i-modify-my-git-bash-profile-in-windows
+
+> 📎 Source: https://superuser.com/questions/602872/how-do-i-modify-my-git-bash-profile-in-windows
+
+#### 193. How do I stop Windows 10 going to sleep after locking with Win+L key
+
+**Issue**: How do I stop Windows 10 going to sleep after locking with Win+L key
+**Tags / Source**: Tags: windows, sleep, power | superuser | 👍 125 | 💬 7 answers
+
+**Description**:
+Tags: windows, sleep, power | Score: 125 | Views: 176449 | Answers: 7
+
+**Solution / Community Answer**:
+After running PowerCfg /q and reviewing this page, I believe I have determined the solution to this problem.
+
+There appear to be many power settings that just don't show up in my advanced power options window.  One is Sleep &rarr; System unattended sleep timeout.
+To make it visible, I opened regedit.exe and found this key:
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238C9FA8-0AAD-41ED-83F4-97BE242C8F20\7bc4a2f9-d8fc-4469-b07b-33eb785aaca0
+
+
+Set its Attributes DWORD value to 2.  This will make it show up in your advanced settings.  Go there and configure it to be zero minutes if you don't want it to sleep when you lock your screen.
+
+**Reference**: https://superuser.com/questions/1153162/how-do-i-stop-windows-10-going-to-sleep-after-locking-with-winl-key
+
+> 📎 Source: https://superuser.com/questions/1153162/how-do-i-stop-windows-10-going-to-sleep-after-locking-with-winl-key
+
+#### 194. Can I use my laptop as a second monitor?
+
+**Issue**: Can I use my laptop as a second monitor?
+**Tags / Source**: Tags: windows, laptop, multiple-monitors | superuser | 👍 125 | 💬 9 answers
+
+**Description**:
+Tags: windows, laptop, multiple-monitors | Score: 125 | Views: 112209 | Answers: 9
+
+**Solution / Community Answer**:
+Here's an interesting freeware solution:
+
+ZoneScreen
+
+**Reference**: https://superuser.com/questions/15254/can-i-use-my-laptop-as-a-second-monitor
+
+> 📎 Source: https://superuser.com/questions/15254/can-i-use-my-laptop-as-a-second-monitor
+
+#### 195. Multi-tab command prompt in Windows?
+
+**Issue**: Multi-tab command prompt in Windows?
+**Tags / Source**: Tags: windows, command-line, tabs | superuser | 👍 124 | 💬 11 answers
+
+**Description**:
+Tags: windows, command-line, tabs | Score: 124 | Views: 195577 | Answers: 11
+
+**Solution / Community Answer**:
+Sorry for the self-promotion, I'm the author of another Console Emulator, not mentioned here.
+
+
+
+ConEmu is opensource console emulator with tabs, which represents multiple consoles and simple GUI applications as one customizable GUI window.
+
+Initially, the program was designed to work with Far Manager (my favorite shell replacement - file and archive management, command history and completion, powerful editor). But ConEmu can be used with any other console application or simple GUI tools (like PuTTY for example). ConEmu is a live project, open to suggestions.
+
+A brief excerpt from the long list of options:
+
+
+Use any font installed in the system, or copied to a folder of the program (ttf, otf, fon, bdf)
+Run selected tabs as Administrator (Vista+) or as selected user
+Windows 7 Jump lists and Progress on taskbar
+Integration with DosBox (useful in 64bit systems to run DOS applications)
+Smooth resize, maximized and fullscreen window modes
+Scrollbar initially hidden, may be revealed by mouseover or checkbox in settings
+Optional settings (e.g. pallette) for selected applications
+User friendly text and block selection (from keyboard or mouse), copy, paste, text search in console
+ANSI X3.64 and Xterm 256 color
+Quake/Tilda style
+Change cursor position in command prompt (cmd, powershell) with mouse click (build 120618+)
+Works on Chinese editions of Windows :)
+
+
+Far Manager users will acquire shell style drag-n-drop, thumbnails and tiles in panles, tabs for editors and viewers, true colors and font styles (italic/bold/underline).
+
+Try it. You may read some comments on StackOverflow.
+
+**Reference**: https://superuser.com/questions/30733/multi-tab-command-prompt-in-windows
+
+> 📎 Source: https://superuser.com/questions/30733/multi-tab-command-prompt-in-windows
+
+#### 196. What is the $WINDOWS.~BT folder?
+
+**Issue**: What is the $WINDOWS.~BT folder?
+**Tags / Source**: Tags: windows | superuser | 👍 124 | 💬 2 answers
+
+**Description**:
+Tags: windows | Score: 124 | Views: 363926 | Answers: 2
+
+**Solution / Community Answer**:
+This seems to be Windows update logs &amp; files.
+It includes files to upgrade Windows, and also, once you do upgrade, the old OS goes into that folder
+It should be perfectly safe to delete it, as long as you don't want to upgrade or downgrade Windows.
+However, you can't do it the normal way.
+Instead,
+
+a)      Press Windows key + R
+b)      Type: %windir%\system32\cleanmgr.exe
+c)       Hit Enter on your keyboard
+
+Edit: This method seems to only delete some things in this folder, some may be left over. See the other answer for a more complete removal method, though that isn't perfect, either. Additionally, this may help: How to delete trustedinstaller files on Windows 8
+Sources:
+
+http://answers.microsoft.com/en-us/windows/forum/windows_8-windows_install/how-do-i-delete-windowsbt-after-failed-windows-8/d15416e8-fd5a-4d4e-b04b-5907a4f6c623
+John (see comments)
+FranKee (see comments)
+
+**Reference**: https://superuser.com/questions/886098/what-is-the-windows-bt-folder
+
+> 📎 Source: https://superuser.com/questions/886098/what-is-the-windows-bt-folder
+
+#### 197. Cortana Search is not finding applications on Windows 10
+
+**Issue**: Cortana Search is not finding applications on Windows 10
+**Tags / Source**: Tags: windows-10 | superuser | 👍 124 | 💬 17 answers
+
+**Description**:
+Tags: windows-10 | Score: 124 | Views: 133915 | Answers: 17
+
+**Solution / Community Answer**:
+Found a solution here: Cortana not finding Desktop apps when searching for them
+
+Here is the relevant part:
+
+I reinstalled Cortana using the following procedure:
+
+
+Open an elevated Command Prompt window (press win + X, and then press A)
+Type start powershell and press enter
+Run the command (in one line):
+
+
+
+  Get-AppXPackage -Name Microsoft.Windows.Cortana | Foreach
+  {Add-AppxPackage -DisableDevelopmentMode -Register
+  "$($_.InstallLocation)\AppXManifest.xml"}
+
+
+After 30 seconds the problem was solved on my machine. Incredible.
+
+**Reference**: https://superuser.com/questions/950009/cortana-search-is-not-finding-applications-on-windows-10
+
+> 📎 Source: https://superuser.com/questions/950009/cortana-search-is-not-finding-applications-on-windows-10
+
+#### 198. How can I control the master volume in Windows?
+
+**Issue**: How can I control the master volume in Windows?
+**Tags / Source**: Tags: windows, audio, keyboard-shortcuts, macros | superuser | 👍 123 | 💬 14 answers
+
+**Description**:
+Tags: windows, audio, keyboard-shortcuts, macros | Score: 123 | Views: 401600 | Answers: 14
+
+**Solution / Community Answer**:
+I just did this with my laptop. I used AutoHotKey
+
+Here is the script
+
+#PgUp::Send {Volume_Up 1}
+#PgDn::Send {Volume_Down 1}
+
+
+so doing Win+PgUp Win+PgDown changes the master volume. If you prefer Ctrl+PgUp, use ^PgUp::Send.
+
+
+If you don't have it installed already, http://www.autohotkey.com/
+Once installed, right click your Desktop, and choose new AutoHotKey file
+Make sure to title the file ending with .ahk  (for example, I used "controls.ahk")
+Paste the code in from above
+Save it, and double click the script in windows explorer
+
+
+To run it at startup
+
+
+Use the AHK provided "Convert to exe" utility (or you can right click the file and select "compile script")
+Create the .exe in "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+
+**Reference**: https://superuser.com/questions/82229/how-can-i-control-the-master-volume-in-windows
+
+> 📎 Source: https://superuser.com/questions/82229/how-can-i-control-the-master-volume-in-windows
+
+#### 199. If DOS is single-tasking, how was multitasking possible in old version of Windows?
+
+**Issue**: If DOS is single-tasking, how was multitasking possible in old version of Windows?
+**Tags / Source**: Tags: windows, multitasking | superuser | 👍 123 | 💬 7 answers
+
+**Description**:
+Tags: windows, multitasking | Score: 123 | Views: 31469 | Answers: 7
+
+**Solution / Community Answer**:
+Windows 95
+Windows 95 was far more than &quot;just a wrapper&quot; for MS-DOS. Quoting Raymond Chen:
+
+MS-DOS served two purposes in Windows 95.
+
+It served as the boot loader.
+It acted as the 16-bit legacy device driver layer.
+
+
+Windows 95 actually hooked/overrode just about all of MS-DOS, keeping it as a compatibility layer while doing all the heavy lifting itself. It also implemented preemptive multitasking for 32-bit programs.
+
+Pre-Windows 95
+Windows 3.x and older were mostly 16-bit (with the exception of Win32s, a kinda compatibility layer that bridges 16 and 32, but we'll ignore that here), were more dependent on DOS, and used only cooperative multitasking - that's the one where they don't force a running program to switch out; they wait for the running program to yield control (basically, say &quot;I'm done&quot; by telling the OS to run the next program that's waiting).
+
+Multitasking was cooperative, just like in old versions of MacOS (though unlike Multitasking DOS 4.x, which sported preemptive multitasking). A task had to yield to the OS in order to schedule a different task. The yields were built into certain API calls, notably message processing. As long as a task processed messages in a timely manner, everything was great. If a task stopped processing messages and was busy executing some processing loop, multitasking was no more.
+
+Windows 3.x architecture
+As for how early Windows programs would yield control:
+
+Windows 3.1 uses cooperative multitasking - meaning that each application that is in the process of running is instructed to periodically check a message queue to find out if any other application is asking for use of the CPU and, if so, to yield control to that application. However, many Windows 3.1 applications would check the message queue only infrequently, or not at all, and monopolize control of the CPU for as much time as they required. A preemptive multitasking system like Windows 95 will take CPU control away from a running application and distribute it to those that have a higher priority based on the system's needs.
+
+source
+All DOS would see is this single application (Windows or other) running, which would pass control around without exiting. In theory, preemptive multitasking can possibly be implemented on top of DOS anyway with the use of a real-time clock and hardware interrupts to forcibly give control to the scheduler. As Tonny comments, this was actually done by some OSes running on top of DOS.
+386 enhanced mode?
+Note: there have been some comments on 386 enhanced mode of Windows 3.x being 32-bit, and supporting preemptive multitasking.
+This is an interesting case. To summarise the linked blog post, 386 enhanced mode was basically a 32-bit hypervisor, which ran virtual machines. Inside one of those virtual machines ran Windows 3.x standard mode, which does all the stuff listed above.
+MS-DOS would also run inside those virtual machines, and apparently they were preemptively multitasked - so it seems that the 386 enhanced mode hypervisor will share CPU time slices between the virtual machines (one of which ran normal 3.x and others which ran MS-DOS), and each VM will do its own thing - 3.x would cooperatively multitask, while MS-DOS would be single-tasked.
+
+MS-DOS
+DOS itself was single-tasking on paper, but it did have support for TSR programs, that would stay in the background until triggered by a hardware interrupt. Far from true multitasking, but not fully single-tasked either.
+
+All this talk of bit-ness? I asked about multitasking!
+Well, strictly speaking the bit-ness and multitasking are not dependent on each other. It should be possible top implement any multitasking mode in any bit-ness. However, the move from 16-bit processors to 32-bit processors also introduced other hardware functionality that could have made preemptive multitasking easier to implement.
+Also, since 32-bit programs were new, it was easier to get them to work when they're forcibly switched out - which might have broken some legacy 16-bit programs.
+Of course, this is all speculation. If you really want to know why MS didn't implement preemptive multitasking in Windows 3.x (386 enhanced mode notwithstanding), you'll have to ask someone who worked there.
+Also, I wanted to correct your assumption that Windows 95 was jsut a wrapper for DOS ;)
+
+**Reference**: https://superuser.com/questions/726348/if-dos-is-single-tasking-how-was-multitasking-possible-in-old-version-of-window
+
+> 📎 Source: https://superuser.com/questions/726348/if-dos-is-single-tasking-how-was-multitasking-possible-in-old-version-of-window
+
+#### 200. Why does Windows use backslashes for paths and Unix forward slashes?
+
+**Issue**: Why does Windows use backslashes for paths and Unix forward slashes?
+**Tags / Source**: Tags: windows, unix, path | superuser | 👍 122 | 💬 2 answers
+
+**Description**:
+Tags: windows, unix, path | Score: 122 | Views: 83967 | Answers: 2
+
+**Solution / Community Answer**:
+Unix introduced / as the directory separator sometime around 1970. I don't know why exactly this character was chosen; the ancestor system Multics used &gt;, but the designers of Unix had already used &gt; together with &lt; for redirection in the shell (see Why is the root directory denoted by a / sign?).
+MS-DOS 2.0 introduced \ as the directory separator in the early 1980s. The reason / was not used is that MS-DOS 1.0 (which did not support directories at all) was already using / to introduce command-line options. It probably took this usage of / from VMS (which had a more complicated syntax for directories). You can read a more detailed explanation of why that choice was made on Larry Osterman's blog. MS-DOS even briefly had an option to change the option character to - and the directory separator to /, but it didn't stick.
+/ it is recognized by most programmer-level APIs (in all versions of DOS and Windows). So you can often, but not always get away with using / as a directory separator under Windows. A notable exception is that you can't use / as a separator after the \\? prefix which (even in Windows 7) is the only way to specify a path using Unicode or containing more than 260 characters.
+Some user interface elements support / as a directory separator under Windows, but not all. Some programs just pass filenames through to the underlying API, so they support / and \ indifferently. In the command interpreter (in command.com or cmd), you can use / in many cases, but not always; this is partly dependent on the version of Windows (for example, cd /windows works in XP and 7 but did not in Windows 9x). The Explorer path entry box accepts / (at least from XP up; probably because it also accepts URLs). On the other hand, the standard file open dialog rejects slashes.
+
+**Reference**: https://superuser.com/questions/176388/why-does-windows-use-backslashes-for-paths-and-unix-forward-slashes
+
+> 📎 Source: https://superuser.com/questions/176388/why-does-windows-use-backslashes-for-paths-and-unix-forward-slashes
 
 
 
