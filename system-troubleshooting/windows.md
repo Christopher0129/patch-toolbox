@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 02:13:49 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 03:00:27 UTC_
 
 ## 中文 🇨🇳
 **Windows 常见故障及解决方法**
@@ -3454,6 +3454,8 @@ Note: -y will only work with 0.9.8.33+.
 **Reference**: https://superuser.com/questions/890251/how-to-list-chocolatey-packages-already-installed-and-newer-version-available-fr
 
 > 📎 Source: https://superuser.com/questions/890251/how-to-list-chocolatey-packages-already-installed-and-newer-version-available-fr
+
+
 
 ---
 

@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 02:14:04 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 03:00:41 UTC_
 
 ## 中文 🇨🇳
 **macOS 常见故障及解决方法**
@@ -3642,6 +3642,8 @@ This is the order in which these files get read.  Keep in mind that it reads fir
 **Reference**: https://apple.stackexchange.com/questions/388622/zsh-zprofile-zshrc-zlogin-what-goes-where
 
 > 📎 Source: https://apple.stackexchange.com/questions/388622/zsh-zprofile-zshrc-zlogin-what-goes-where
+
+
 
 ---
 

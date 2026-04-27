@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 02:13:22 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 03:00:19 UTC_
 
 ## 中文 🇨🇳
 **Linux 系统漏洞**
@@ -1916,6 +1916,8 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 - https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0414
 
 > 📎 Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0414
+
+
 
 ---
 

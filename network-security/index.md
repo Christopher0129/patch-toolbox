@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 02:13:08 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 03:00:11 UTC_
 
 ## 中文 🇨🇳
 **网络安全漏洞知识库**
@@ -2032,6 +2032,8 @@ Refer to vendor security advisory for patch and mitigation guidance.
 - http://www.cert.org/advisories/CA-1993-07.html
 
 > 📎 Source: http://ciac.llnl.gov/ciac/bulletins/d-15.shtml
+
+
 
 ---
 

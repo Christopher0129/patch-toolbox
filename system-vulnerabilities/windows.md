@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 02:13:21 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 03:00:16 UTC_
 
 ## 中文 🇨🇳
 **Windows 系统漏洞**
@@ -1994,6 +1994,8 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1043.
 - http://www.securityfocus.com/templates/advisory.html?id=2126
 
 > 📎 Source: http://www.securityfocus.com/bid/1043
+
+
 
 ---
 

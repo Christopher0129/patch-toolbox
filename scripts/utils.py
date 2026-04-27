@@ -104,7 +104,7 @@ def make_bilingual_md(
     title_en: str,
     intro_zh: str,
     intro_en: str,
-    sections: List[Dict[str, Any]],  # 每个元素含 zh / en 子结构
+    sections: List[Dict[str, Any]],
     update_time: str = None,
     nav_links: List[Dict[str, str]] = None,
 ) -> str:
@@ -241,7 +241,7 @@ def git_push(msg: str = None):
     if msg is None:
         msg = f"auto-update: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}"
     token = os.environ.get("GITHUB_TOKEN") or _read_token_from_script()
-    repo = "https://github.com/Christopher0129/security-knowledge-base.git"
+    repo = "https://github.com/Christopher0129/patch-toolbox.git"
     # 使用 token 嵌入 remote URL
     auth_repo = repo.replace("https://", f"https://{token}@")
 

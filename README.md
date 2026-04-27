@@ -13,7 +13,7 @@
 ### 📁 目录结构
 
 ```
-security-knowledge-base/
+patch-toolbox/
 ├── network-security/           # 网络安全漏洞与应对措施
 │   ├── index.md                # 总索引（中英双语）
 │   └── YYYY-MM-DD.md           # 按日期归档
@@ -120,7 +120,7 @@ security-knowledge-base/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/Christopher0129/security-knowledge-base.git
+git clone https://github.com/Christopher0129/patch-toolbox.git
 cd security-knowledge-base
 
 # 2. Install dependencies (Python 3.12+)

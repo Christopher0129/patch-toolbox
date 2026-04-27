@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 02:13:23 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 03:00:21 UTC_
 
 ## 中文 🇨🇳
 **macOS 系统漏洞**
@@ -2072,6 +2072,8 @@ Apply patch from vendor. Monitor http://apple.slashdot.org/apple/02/09/21/122236
 - http://apple.slashdot.org/apple/02/09/21/122236.shtml?tid=172
 
 > 📎 Source: http://apple.slashdot.org/apple/02/09/21/122236.shtml?tid=172
+
+
 
 ---
 
