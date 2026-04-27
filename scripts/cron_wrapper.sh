@@ -8,7 +8,7 @@ set -e
 export GITHUB_TOKEN=$(bash ~/.github/get-token.sh)
 
 # 项目目录
-PROJECT_DIR="/root/.openclaw/workspace/security-knowledge-base"
+PROJECT_DIR="/root/.openclaw/workspace/patch-toolbox"
 cd "$PROJECT_DIR"
 
 # Python 环境

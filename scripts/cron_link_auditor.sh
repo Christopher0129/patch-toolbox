@@ -5,7 +5,7 @@
 set -e
 
 export GITHUB_TOKEN=$(bash ~/.github/get-token.sh)
-PROJECT_DIR="/root/.openclaw/workspace/security-knowledge-base"
+PROJECT_DIR="/root/.openclaw/workspace/patch-toolbox"
 cd "$PROJECT_DIR"
 
 PYTHON="/root/.openclaw/workspace/.venv/bin/python"

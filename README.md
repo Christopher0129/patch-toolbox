@@ -68,7 +68,7 @@ An **auto-maintained** security knowledge base that scrapes the latest network s
 ### 📁 Directory Structure
 
 ```
-security-knowledge-base/
+patch-toolbox/
 ├── network-security/           # Network security vulnerabilities & countermeasures
 │   ├── index.md                # Master index (bilingual)
 │   └── YYYY-MM-DD.md           # Date-based archives
@@ -121,7 +121,7 @@ security-knowledge-base/
 ```bash
 # 1. Clone the repo
 git clone https://github.com/Christopher0129/patch-toolbox.git
-cd security-knowledge-base
+cd patch-toolbox
 
 # 2. Install dependencies (Python 3.12+)
 python3 -m venv .venv
