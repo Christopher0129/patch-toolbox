@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 316**
+**总计条目 / Total entries: 392**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -8845,5 +8845,1416 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
+
+---
+
+#### 317. How do I disable a physical CoPilot button?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, microsoft-copilot | Score: 21 | Views: 2049 | Answers: 2 | Created: 2026-04-04
+
+**解决方案 / Solution**:
+Microsoft PowerToys Keyboard Manager can do it, but instead of &quot;Remap a key&quot;, use &quot;Remap a Shortcut&quot;, and remap Win (Left)+Shift (Left)+F23 to &quot;Disable&quot;:
+
+Can also be remapped to left-arrow.
+(Found the solution like 40 minutes after posting the question)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936426/how-do-i-disable-a-physical-copilot-button
+
+---
+
+#### 318. Why can’t I kill a process under Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, process, kill | Score: 7 | Views: 2051 | Answers: 2 | Created: 2026-03-25
+
+**解决方案 / Solution**:
+You state, &quot;a stuck process... [that] survives powering off the system.&quot; If the PC was completely shut down, with no power and nothing running, then the only way that process could &quot;survive&quot; is by starting up each time the machine boots.
+
+Check the the machine is truly completely shut down:
+
+Press Windows, type cmd, and press CtrlShiftEnter to open a CMD prompt as administrator.
+Type powercfg /h off and press Enter to turn off hibernation.
+Type shutdown /s /t 00 and press Enter to fully shut down.
+
+
+If the process is still running after rebooting, use Microsoft/Sysinternals Autoruns to determine how that process is launched, whether VirusTotal deems it safe (last column, below) and other information. Note that just one or two negative votes from the 60 or so VirusTotal engines may not indicate an issue. You can use Autoruns to prevent a process from starting automatically by unchecking the box in the first column.
+
+
+One way to forcefully delete a file is to use a third-party tool such as LockHunter or an alternative. If the file has open handles or is a running application, these tools can schedule. its deletion during reboot, before the app can start.
+
+
+Finally, perform a full malware scan. You can use Windows built-in Defender, or try a standalone offline antimalware scan, such as
+Microsoft Defender Offline, ESET SysRescue Live or an alternative.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936151/why-can-t-i-kill-a-process-under-windows-11
+
+---
+
+#### 319. What can I do to run “Microsoft Picture! Digital Image Pro” on a modern, 64 Bit Windows 11 computer?
+
+**问题描述 / Problem Description**:
+Tags: windows-7, windows-10, windows-xp-mode | Score: 7 | Views: 1568 | Answers: 1 | Created: 2026-01-26
+
+**解决方案 / Solution**:
+To install Microsoft Digital Image Pro (versions 7 and 10 tested) on 64 bit Windows:
+Start the installer normally.
+When you see this message click OK:
+
+When you see this message do NOT click OK:
+
+Leave everything alone and sign out of Windows (right-click Windows icon &gt; Shut down or sign out &gt; Sign out). Do not restart. Do not shutdown.
+You will then see a screen that shows that the installer is preventing sign out. That's good. Wait a few seconds and then click the Cancel button that is on that screen.
+That will take you back to the desktop.
+Now you can click OK on that second dialog.
+The install will continue. Let it finish. It may pause for a bit, but just be patient. It should finish up correctly.
+Source:
+https://www.elevenforum.com/t/microsoft-digital-image-pro-10-wont-install.11480/#post-369327
+Alternative solution: Start the installation and open task manager. Watch for msiexec processes that have your user name (i.e. NOT System). There will initially be one, then two, and then three when the IE install runs. Kill the third one and the install will proceed and complete successfully.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934182/what-can-i-do-to-run-microsoft-picture-digital-image-pro-on-a-modern-64-bit
+
+---
+
+#### 320. How to reduce memory/CPU usage during build by Visual Studio build?
+
+**问题描述 / Problem Description**:
+Tags: windows, performance, visual-studio, blocking, build | Score: 6 | Views: 1017 | Answers: 1 | Created: 2026-04-14
+
+**解决方案 / Solution**:
+First of all, @Grawity, I'd like to thank you for your comment, but I believe I've found the key issue:
+I mentioned the maximum number of concurrent threads per build to be 14, but apparently that seems to be wrong: it was set to 28 (&quot;Tools&quot; menu, &quot;Options&quot;, &quot;Build and Run&quot;):
+
+I've modified this to 12 (first I'd modified it to 14, but due to a comment from Criggie I decided to go for 12.)
+Important remark:
+If you have different Visual Studio sessions opened, your modification will be spread over the others too, except if one of those others has that particular option (Build and Run) opened. As a rule of thumb, I'd advise you to close all VS sessions, just to be sure.
+That 28 corresponds with the amount of logical cores, as you can see in this screenshot of the Task Manager, Performance tab, CPU page:
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936726/how-to-reduce-memory-cpu-usage-during-build-by-visual-studio-build
+
+---
+
+#### 321. How can I prevent Microsoft Edge from restoring tab groups on startup?
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, microsoft-edge | Score: 6 | Views: 435 | Answers: 1 | Created: 2026-04-08
+
+**解决方案 / Solution**:
+There is no built-in Edge setting to suppress tab group restoration. The workaround is a PowerShell script that runs in the background and cleans up after Edge closes.
+How Edge stores tab groups
+Edge persists tab groups in two places:
+
+%LOCALAPPDATA%\Microsoft\Edge\User Data\Default\Preferences — JSON key tab_groups (group definitions with titles, colors, tab URLs)
+%LOCALAPPDATA%\Microsoft\Edge\User Data\Default\Sessions\Session_* and Tabs_* — binary session files
+
+Clearing both prevents Edge from restoring groups on the next launch. Your startup pages setting (&quot;Open specific pages&quot;) is stored separately and is not affected.
+Solution: Background PowerShell script + scheduled task
+The script watches for msedge.exe to exit, then clears tab_groups in Preferences and deletes the session files.
+Full script on GitHub Gist: https://gist.github.com/Der-Mischa-mit-sch/10f9ee2806657b8775363eee57528e1b
+Setup (one time):
+
+Save Clear-EdgeTabGroups.ps1 to any folder (e.g. C:\Scripts\)
+Register the scheduled task to run it at login:
+
+$action  = New-ScheduledTaskAction `
+    -Execute 'powershell.exe' `
+    -Argument '-NonInteractive -WindowStyle Hidden -ExecutionPolicy Bypass -File &quot;C:\Scripts\Clear-EdgeTabGroups.ps1&quot;'
+$trigger  = New-ScheduledTaskTrigger -AtLogOn -User $env:USERNAME
+$settings = New-ScheduledTaskSettingsSet -ExecutionTimeLimit (New-TimeSpan -Days 365) -MultipleInstances IgnoreNew
+Register-ScheduledTask -TaskName 'ClearEdgeTabGroupsOnClose' `
+    -Action $action -Trigger $trigger -Settings $settings -Force
+
+The script requires no admin rights — it only modifies files in your own user profile.
+What the script does on each Edge close:
+
+Sets tab_groups to [] in Preferences
+Deletes Session_* and Tabs_* files from the Sessions\ folder
+Logs each cleanup to Clear-EdgeTabGroups.log next to the script
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936539/how-can-i-prevent-microsoft-edge-from-restoring-tab-groups-on-startup
+
+---
+
+#### 322. 20+ services get installed automatically and I can&#39;t find a way to disable them
+
+**问题描述 / Problem Description**:
+Tags: windows, services | Score: 6 | Views: 1066 | Answers: 1 | Created: 2026-04-02
+
+**解决方案 / Solution**:
+These are legit Per-user services in Windows 10 and upwards. They have a Locally Unique Identifier (LUID) suffix at the end of the name.
+Their templates are in HKLM\SYSTEM\CurrentControlSet\Services where you can change startup behavior.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936365/20-services-get-installed-automatically-and-i-cant-find-a-way-to-disable-them
+
+---
+
+#### 323. Disk usage at 100% when any single program runs
+
+**问题描述 / Problem Description**:
+Tags: hard-drive, windows-11 | Score: 5 | Views: 83 | Answers: 1 | Created: 2026-04-04
+
+**解决方案 / Solution**:
+Determine if the issue is due to hardware or software.
+
+Use a tool such as free CrystalDiskMark or an alternative to establish a baseline for speed with the current operating system (OS) on existing hardware.
+Create a bootable USB drive with its own OS, such as Hiren's BootCD PE or an alternative, boot from it, and run the same speed test app.
+If there is a drastic difference in speed, then you've determined the issue is with Windows OS and/or software on the HDD; if there is little difference, then you ascertained it's a hardware issue, such as bad controller on the PCB or bad connector.
+
+
+If the issue is OS/software, look At Task Manager's Details tab. Add columns I/O reads, I/O writes, I/O read bytes, and I/O write bytes by clicking on the column header and selecting them. Look for any process with excessive I/O and high priority that might be causing the issue. In particular, look to Windows OS apps that might be checking files, such as Defender or third-party AV, and Search Indexer. Also check for malware with a thorough scan.
+
+
+
+
+If it's a hardware issue, check for broken wires and bad connections, or take it in for professional help.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936427/disk-usage-at-100-when-any-single-program-runs
+
+---
+
+#### 324. Why is Windows prompting for USB passkey I haven&#39;t created?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, security, passkey | Score: 5 | Views: 2708 | Answers: 2 | Created: 2026-02-24
+
+**解决方案 / Solution**:
+I don't know how MS has suddenly decided that I have an active USB passkey.
+
+It hasn't. The OS doesn't keep track of any associations with hardware passkeys – they are self-contained devices – so it doesn't really know whether you have one or not.
+But the OS does know whether you have Windows Hello set up or not. If you don't have Windows Hello, but a program requests to access a passkey, then the only other choice is to prompt you to connect an external key.
+(On a machine with Bluetooth it would also give you an option between USB and pairing your phone via CaBLE – but on a desktop without Bluetooth it'll directly ask for USB.)
+More specifically, even if you do have Windows Hello set up, the OS also knows whether it has stored that specific passkey in Hello or not. So if you had some passkeys before, but managed to accidentally reset the Hello storage – as can be guessed from you having to set up a new PIN – then Windows won't be able to satisfy the request by itself and will ask for an external key (because, again, it doesn't know whether you have one).
+Enabling/disabling &quot;virtualization-based security&quot; (e.g. to use VirtualBox) will reset the Windows Hello passkey storage. Clearing the TPM will also do so (Hello doesn't require a TPM but will use one if available).
+Note that the use (or non-use) of a USB passkey for Windows itself has no influence on the passkey storage used by other programs. So even if Windows knows that you don't have a USB passkey for the Microsoft Account specifically, it still does not know that you don't have a USB passkey for, say, Discord or whatever website you visited in Vivaldi.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935235/why-is-windows-prompting-for-usb-passkey-i-havent-created
+
+---
+
+#### 325. Windows 10 lost about 60 GB after two System Restore operations, but shadow storage shows minimal usage – where did the space go?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, ntfs, storage, disk-space, vss | Score: 5 | Views: 448 | Answers: 1 | Created: 2026-02-22
+
+**解决方案 / Solution**:
+Solution:
+After running System Restore twice, I lost about 60 GB of free space. VSS, shadow copies, WinSxS and normal cleanup tools showed nothing unusual.
+I used WinDirStat (run as Administrator) and discovered that the space was taken by the hidden NTFS metadata structure:
+$Extend → $RmMetadata → $Txf (~60 GB)
+
+This is the Transactional NTFS (TxF) journal, which had grown and was not automatically cleaned after System Restore.
+I fixed it by resetting the NTFS transaction log in PowerShell (run as Administrator):
+fsutil resource setautoreset true C:\
+chkdsk C: /f
+
+After rebooting, NTFS rebuilt the transaction log, $Txf shrank, and the ~60 GB of free space was restored.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935174/windows-10-lost-about-60-gb-after-two-system-restore-operations-but-shadow-stor
+
+---
+
+#### 326. How can I reload a command prompt after modifying an environment variable in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows, command-line, windows-11, environment-variables, refresh | Score: 4 | Views: 279 | Answers: 2 | Created: 2026-04-17
+
+**解决方案 / Solution**:
+Explanation: why doesn't it work?
+
+In order for that environment variable to be taken into account, I need to restart my command prompt.
+
+GUI
+If you permanently set environment variables using the GUI tools, those only apply to a new cmd.exe session, not to the cmd.exe sessions already in progress.
+
+CMD
+If you temporarily set environment variables using the set command, those apply to the remainder of the current cmd.exe session
+C:\&gt; ver
+
+Microsoft Windows [Version 10.0.19045.6466]
+
+C:\&gt; echo %example%
+%example%
+
+C:\&gt; set example=lorem
+
+C:\&gt; echo %example%
+lorem
+
+C:\&gt;
+
+You can make permanent changes from the command line using the setx command. See setx /?
+CMD2
+Command prompt sessions started within  an existing session just inherit variables from the parent session
+
+
+See also
+The workings of environment variables and command-prompt sessions (cmd.exe) is also touched on in the following
+
+How to list global environment variables separately from user-specific environment variables?
+
+Solution: how to make it work?
+In order for the request to be possible (loading modified environment variables into a command prompt), the best solution is to define those environment variables inside the command prompt, but this comes with a major thing to think about: you need to start up your command prompt under administrator privileges!
+Once this is done, you can do the following:
+setx /M zwam_var zwam_value
+
+(The /M switch is needed for setting a machine-wide environment variable.)
+Hereby the result:
+
+Obviously, as you are creating/modifying environment variables inside your prompt, no history gets lost.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936809/how-can-i-reload-a-command-prompt-after-modifying-an-environment-variable-in-win
+
+---
+
+#### 327. How to get rid of a “Untrusted theme files have been blocked by the system administrator” message on Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows, desktop-customization, themes | Score: 4 | Views: 320 | Answers: 1 | Created: 2026-04-02
+
+**解决方案 / Solution**:
+The problem is related to the fact that the Desktop folder is now on a network location, but it’s not that alone.
+I suppose this is the subject of another question, but I’ve found that Windows doesn’t treat network locations the same as maps to these locations.
+If I move the Desktop to say:
+S:\shared\Desktop
+
+I get the behaviour as above.
+If I move it to, say:
+\\SERVER\shared\Desktop
+
+Everything’s OK.
+It seems Windows treats the map as more remote than the simple share.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936366/how-to-get-rid-of-a-untrusted-theme-files-have-been-blocked-by-the-system-admin
+
+---
+
+#### 328. How to resolve &quot;operation could not be completed because the vhdx is currently in use&quot; for wsl despite prior `wsl.exe --shutdown`?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, wsl2, virtual-disk | Score: 3 | Views: 297 | Answers: 1 | Created: 2026-04-19
+
+**解决方案 / Solution**:
+In my case, I could see that my Virtual Disk was mounted:
+&gt; Get-Disk | Where-Object Model -match &quot;Virtual Disk&quot;
+
+Number Friendly Name                                                                                           Serial Number                    HealthStatus         OperationalStatus      Total Size Partition
+                                                                                                                                                                                                       Style
+------ -------------                                                                                           -------------                    ------------         -----------------      ---------- ----------
+4      Msft Virtual Disk                                                                                                                        Healthy              Online                       1 TB RAW
+
+I most likely forgot the detach vdisk after I shrank the virtaul disk with diskpart.
+One can the dismount that either via:
+&gt; Dismount-VHD -DiskNumber 4
+
+You could also open diskmgmt.msc via Windows + R, the vdisk will be listed there e.g. as &quot;Disk 4&quot;.
+Right click it and select &quot;Detach VHD&quot;.
+Then:
+&gt; wsl --manage Debian --set-sparse true --allow-unsafe
+Conversion in progress, this may take a few minutes.
+The operation completed successfully.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936864/how-to-resolve-operation-could-not-be-completed-because-the-vhdx-is-currently-i
+
+---
+
+#### 329. With a single window, Firefox quits with CTRL SHIFT Q, but doesn&#39;t quit when I close the last window. Is that new and is there a setting?
+
+**问题描述 / Problem Description**:
+Tags: windows, firefox, process | Score: 3 | Views: 491 | Answers: 1 | Created: 2026-04-14
+
+**解决方案 / Solution**:
+What version of Firefox, and for what language, are you using? The Mozilla list for keyboard shortcuts, using English-US language settings, does not list CtrlShiftQ at all. CtrlQ is supposed &quot;Quit&quot;, but I find that does nothing on my machines running Firefox 149.0.2, neither on Windows nor on Ubuntu 24.04. Your suggestion to use CtrlShiftQ also does nothing.
+
+In the URL bar, type about:config.
+In the Search bar for the form, enter lastt.
+Double-click browser.tabs.closeWindowWithLastTab to set it to true.
+
+Now, closing the last tab will also close Firefox.
+However, you state in a comment that AltF4, which is listed, does not close Firefox. That key combo is used almost universally in Windows and Linux to end an application. If that fails, then something is seriously wrong.
+
+Press Alt, then H and M to restart Firefox in Troubleshooting Mode. If AltF4 now works to quit the app, look to some extension (perhaps malware) as causing the issue.
+If AltF4 still does not work, check in Task Manager to see whether you're the owner of the Firefox process.
+Also look in Autoruns to see if some automatically started process keeps Firefox running.
+Perform a thorough check for malware.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936724/with-a-single-window-firefox-quits-with-ctrl-shift-q-but-doesnt-quit-when-i-c
+
+---
+
+#### 330. How to isolate a Standard User in Windows 11 with specific drive restrictions and a 10GB disk quota?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, guest-account | Score: 3 | Views: 52 | Answers: 1 | Created: 2026-04-12
+
+**解决方案 / Solution**:
+For the disk quota, you need to go into quota settings.
+
+Open file explorer
+Right click on the disk, select Properties
+Click on Quot Tab
+Show Quota Settings (you will need admin access)
+Enable quota management
+Deny disk space to users exceeding quota limit
+Set your disk space limit
+Apply
+
+To deny the use of D: drive
+
+Add yourself
+Remove authenticated users
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936660/how-to-isolate-a-standard-user-in-windows-11-with-specific-drive-restrictions-an
+
+---
+
+#### 331. Microsoft Store (and Xbox app) say that they are not available in my country/region (Canada) - user account issue
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, user-accounts, language, microsoft-store | Score: 3 | Views: 77 | Answers: 1 | Created: 2026-03-25
+
+**解决方案 / Solution**:
+Ok, so after a bunch of searching, I eventually installed ProcMon, and started looking at the failing processes (for me it was GameBar, Microsoft Store, and Xbox)
+I went Filter-&gt;Filter, and filtered to the process name, as well as Result is ACCESS DENIED.
+I went to regedit, in regedit, I right-clicked on one of the keys that had ACCESS DENIED, and selected Permissions.
+I noticed that these keys had an object named ALL APPLICATION PACKAGES given read rights in my local account, but this object was missing in my main account.
+I bulk edited every key to give ALL APPLICATION PACKAGES permissions. You can grab the list from ProcMon by Saving as a csv file, then using your favourite language of choice to grab the unique entries that start with HK (I only had to change the registry keys, not any of the other folders).
+I started with GameBar, then went to Microsoft Store. The xbox app didn't launch, so I search for the xboxinstaller to reinstall that, and it seems like give ALL APPLICATION PACKAGES access rights fixed it automatically.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936180/microsoft-store-and-xbox-app-say-that-they-are-not-available-in-my-country-reg
+
+---
+
+#### 332. Why does network jitter increase with computer uptime? How to fix?
+
+**问题描述 / Problem Description**:
+Tags: windows, wireless-networking, jitter | Score: 2 | Views: 75 | Answers: 1 | Created: 2026-04-21
+
+**解决方案 / Solution**:
+This is how I'd troubleshoot this:
+
+A different device connected to the same network, connecting to the same VPN endpoints:
+
+
+If this different device has the same symptoms, the problem is with the network or the VPN endpoints.
+If this different device does not have problems, the problem is with your computer.
+
+
+Use different software (OS) on the problem computer. A &quot;Linux Live&quot; drive is probably the easiest way to do this. Then, connect to the same network and to the same VPN endpoints.
+
+
+If the different OS has does not have any problems, the problem is with the OS/software on your computer.
+If the different OS does have the problems, the problem is with your computer hardware.
+
+These two tests will isolate where the problem is occurring.
+I would also make sure you're running the latest available drivers and firmware for your computer, just as a general recommendation, to maximize the chances of successful function.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936924/why-does-network-jitter-increase-with-computer-uptime-how-to-fix
+
+---
+
+#### 333. Windows has a broken passkey for Microsoft account - but I cannot delete the passkey
+
+**问题描述 / Problem Description**:
+Tags: windows, microsoft-account, passkey | Score: 2 | Views: 169 | Answers: 2 | Created: 2026-04-11
+
+**解决方案 / Solution**:
+You can delete all passkeys together with Windows Hello's PIN, fingerprint and face data using
+certutil.exe -DeleteHelloContainer -v
+
+and signing out.
+It will list deleted passkeys one by one. You'll lose the aforementioned biometric and PIN data also used for passwordless sign-in to Windows. On business devices you might be required to enter them again at next login. Or you just want that yourself to regain that option.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936645/windows-has-a-broken-passkey-for-microsoft-account-but-i-cannot-delete-the-pas
+
+---
+
+#### 334. Did Microsoft force-install Copilot during a recent (2026 April) Microsoft Edge update?
+
+**问题描述 / Problem Description**:
+Tags: windows, installation, windows-11, microsoft-edge, microsoft-copilot | Score: 2 | Views: 663 | Answers: 1 | Created: 2026-04-08
+
+**解决方案 / Solution**:
+I have Windows 10 Home with MS365. Event Viewer shows it installed Copilot as a new service on 2026 April 07. This was about an hour after it updated Defender Antivirus - KB2267602 (Version 1.447.207.0) but the event log shows that was successfully installed the day before! Following that, the log shows literally thousands of DCOM errors (I counted over 80 in one randomly chosen second period). Some of these mention trying to run C:\Program Files (x86)\Microsoft\Copilot\Application\mscopilot_proxy.exe. The PC crashed this morning prompting me to look for reasons. I have a new directory, C:\Program Files (x86)\Microsoft\Copilot with 0.87GB of files. (Time) correlation doesn’t prove causality but this seems suspicious.
+There are plenty of articles online from 2024 October stating MS forcefully installed Copilot on Windows 10/11 outside the European Economic Area (EEA). Have they just sussed out that another Brexit benefit is they can now also force unwanted software on those living in the UK?
+(Edited - I'm new to this. I presented the evidence but no conclusion.) I believe Microsoft installed Copilot on customers' computers without asking their permission or giving notification in 2026 April. This recent push may be restricted to just customers in the UK following its exit from the European Economic Area which was spared in 2024.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936543/did-microsoft-force-install-copilot-during-a-recent-2026-april-microsoft-edge
+
+---
+
+#### 335. I want to move taskbar icons on the bar, but they don&#39;t stay where I put them. If possible, how do I do this in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, taskbar, icons, shortcuts, user-interface | Score: 2 | Views: 48 | Answers: 1 | Created: 2026-04-05
+
+**解决方案 / Solution**:
+1. Create a new user
+Open Settings > Accounts > Other User and click Add Account.
+Note: Windows wants you to use a Microsoft account, but you should be able to choose &quot;Add a user without a Microsoft account&quot; for this test.
+Reference: Microsoft.Com: Manage User Accounts in Windows
+2. Login as the new user and test
+Sign out of your account and then log in to the account you've just created.
+Add shortcuts to the taskbar in the new account and rearrange the existing shortcuts, then reboot the computer and few times and see whether the changes you've made revert like they do in your original profile or not.
+3. Here's your diagnosis
+
+If the taskbar behaves correctly in the new profile and remembers your shortcut movements, the problem is with your profile. Backup your data and transfer it to the new user account. If you have a Microsoft account, consider recreating that Microsoft account user using the same instructions in Step 1 above.
+
+If you observe the same incorrect behavior in this new account as you do in your other account, the problem is in your OS and you should follow standard Windows Repair steps. Microsoft.com: Fix issues by reinstalling the current version of Windows
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936460/i-want-to-move-taskbar-icons-on-the-bar-but-they-dont-stay-where-i-put-them-i
+
+---
+
+#### 336. How do I hide the &quot;What&#39;s New in Notepad&quot; megaphone icon in Notepad?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, user-interface, notepad | Score: 2 | Views: 114 | Answers: 1 | Created: 2026-03-20
+
+**解决方案 / Solution**:
+There's no official way to remove that icon; it's part of the Microsoft UI.
+It might be  possible to do it with some hack found on internet, but that's probably not a good idea(things like this, sometimes involve change app files manually, and can break it). The best solution is to switch to another app(like the old Notepad, for example).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936034/how-do-i-hide-the-whats-new-in-notepad-megaphone-icon-in-notepad
+
+---
+
+#### 337. Options to remove/hide Quick Access&#39; pin icon in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, icons, desktop-customization | Score: 2 | Views: 80 | Answers: 1 | Created: 2026-03-15
+
+**解决方案 / Solution**:
+Here is what I figured out myself. Of course, I am still on the look out for a more refined solution from someone with more expertise.
+Disclaimer: Trusted Installer carries a lot of risks - I know there are communities who will just uncritically shut down any mention of it to be on the safe side. Do every needed backup procedure before proceeding.
+Requirement:
+
+Transparent .ico file (or transparent icon group saved as .res)
+Resource Hacker (RH)
+A way to elevate RH to TrustedInstaller
+
+Steps
+
+For ways to elevate RH to TrustedInstaller, I used Winaero since they have a pretty good record. There is also this alternative that I saw on Github but never tried.
+The Quick Access Pin is located in C:\Windows\SystemResources\imageres.dll.mun.
+Navigate to the folder with the elevated RH and open it, the pin is in Icon Group #5100 and the Icon Group folder is the second to last one in the navigation pane to the left.
+Right click on the icon group and select &quot;Replace Icon&quot;, then select the transparent icon you prepared. If you don't have one on hand, you can export the pin icon file and create a transparent version from that.
+After replacing the pin. Just save directly to the file. You cannot save it as a separate file elsewhere that you can move and replace the original file later, as that would require Explorer to be elevated to TI too.
+If it doesnt take effect immediately, rebuild your icon cache.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935870/options-to-remove-hide-quick-access-pin-icon-in-windows-11
+
+---
+
+#### 338. Why am I experiencing drive failure after opening a folder from IDE?
+
+**问题描述 / Problem Description**:
+Tags: linux, windows-10, ubuntu, hard-drive, mount | Score: 2 | Views: 80 | Answers: 1 | Created: 2026-01-25
+
+**解决方案 / Solution**:
+This usually happens when the NTFS partition was left in hibernated / fast-startup state by Windows. ntfsfix clears it temporarily, but it comes back after reboot.
+Best fix: boot back into Windows, disable Fast Startup, do a full shutdown, then mount again in Ubuntu.
+If you want it auto-mounted every boot, add it properly in /etc/fstab instead of mounting manually. Data itself is usually fine, it’s just NTFS being NTFS 😅
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934124/why-am-i-experiencing-drive-failure-after-opening-a-folder-from-ide
+
+---
+
+#### 339. Add an existing Active Directory domain to DNS
+
+**问题描述 / Problem Description**:
+Tags: dns, active-directory, windows-server | Score: 2 | Views: 333 | Answers: 1 | Created: 2025-08-11
+
+**解决方案 / Solution**:
+According to Microsoft docs, AD DC provisioning is nowadays done through the same Server Manager. (Previously it was done using dcpromo.exe but that has been removed.) Either the 'notifications' popup, or the 'AD DS' section on the left side menu, should have an option to promote the server.
+
+The &quot;Promote this server&quot; link will start the process. You will be asked to enter the domain name; the tool will automatically join the server to AD as a member, set up the AD services (including DNS), and replicate data from an existing DC.
+In your case, you'll want to select Add a domain controller to an existing domain.
+
+AD DNS cannot be set up without AD DC, so promoting the server to DC needs to be done first. (All of your non-AD DNS zones will remain configured.)
+On the other hand, DHCP is not part of AD and not needed for AD operations.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1917222/add-an-existing-active-directory-domain-to-dns
+
+---
+
+#### 340. IIS + Windows Authentication - how to make the MSA account launch a browser (edge/chrome)?
+
+**问题描述 / Problem Description**:
+Tags: iis, windows-server | Score: 2 | Views: 618 | Answers: 1 | Created: 2024-12-17
+
+**解决方案 / Solution**:
+From what I understand, the issue is that accepting Windows Authentication in IIS also by default performs impersonation on behalf of that user – making the app run with that user's privileges – and switching privileges via impersonation (as opposed to a full 'logon') is likely incompatible with the various security hardening and sandboxing features that modern browsers (Chrome in particular?) want to use.
+So the first thing I'd try, if possible, is to disable impersonation – e.g. maybe:
+
+https://stackoverflow.com/questions/65266848/force-iis-not-to-impersonate-user
+
+If that doesn't work... split the project into two sites – a frontend that accepts Windows Authentication, and which talks over an internal API (using some other form of authentication, e.g. static API key) to a backend that uses Puppeteer. At some point in the future, you might end up needing to do so anyway.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1865888/iis-windows-authentication-how-to-make-the-msa-account-launch-a-browser-edg
+
+---
+
+#### 341. point a domain name to a vm with internal IP
+
+**问题描述 / Problem Description**:
+Tags: dns, hyper-v, windows-server | Score: 2 | Views: 619 | Answers: 1 | Created: 2024-12-01
+
+**解决方案 / Solution**:
+When a local pc needs to be accessible from the internet using IPv4, one always needs to use the public IP address. There are simply too few IP addresses available to be able to use the LAN IP address.
+So in order to get the VM accessible from the internet, first, find out what the public IP address is by going to https://www.whatsmyip.com and note it down. I'm going to assume here that you are not behind a CGNAT.
+Next, Change the DNS of the domain and set the A record to this IP address.
+It can take up to 48 hours for DNS changes to be active everywhere.
+Next, change the network adapter settings and set it to bridge or NAT. If you use NAT, add port 80 and 443 in the NAT table and test it from your pc first.
+Next, In the router, allow port 80 and 443 to be forwarded to your PC if you use NAT or directly to the VM if you use bridge.
+Next, make sure the firewall is setup correctly.
+Lastly, Most routers will not support NAT hairpinning, which means that accessing domain.com will work from outside the network, but not from inside. To fix this, in the local DNS server, add an entry for your domain.com and set its A record to the LAN IP address.
+Now domain.com will work from both outside the network and inside.
+And before you say: But I only want to use the LAN IP because I can't access the router, then that means it will only work from inside the network. If IPv6 is possible, you don't need to setup NAT rules, but it will severely limit access to your server.
+Also, if port 80 and/or 443 are not available, you can use a different port, but then the domain will become https://mydomain:4443, assuming we changed the port to 4443. The NAT rule on the router would then become 4443 -&gt; 443 and the VM still uses 443.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1863339/point-a-domain-name-to-a-vm-with-internal-ip
+
+---
+
+#### 342. How to set the password expiring date for a local user remotely?
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, windows-server | Score: 2 | Views: 632 | Answers: 1 | Created: 2024-07-12
+
+**解决方案 / Solution**:
+You cannot set a specific password expiration date for local accounts in Windows. You can...
+
+Set an ACCOUNT expiration date.
+Set a Maximum Password Age.
+
+Together with the tip Vomit IT gave in their comment, you could do maths and effectively create a specific expiration date, by arbitrarily setting a date in the past as the -PasswordLastSet value which, together with the Maximum Password Age, would allow you to set a specific expiration date. To do this you'd need to know the maximum amount of time you'd want one of these accounts to remain active, and then set a Maximum Password Age longer than that. Next, you'd choose the date you want the specific password to expire on, find the difference between the Maximum Password Age and the number of days before you want THIS password to expire, and set -PasswordLastSet that number of days in the past.
+So, if the maximum amount of time one of these accounts would need to remain active would be 31 (one month), you set the Maximum Password Age to something like 35. Then, for this specific account you want to expire in one week's time, you'd subtract 7 from 35 to get 28, calculate the date 28 days ago (on July 15th, that would be June 17th, and set THAT date as the -PasswordLastSet value. With this combination of values, the password for this account will expire in 7 days, on July 22nd in our example.
+This can all be done pretty simply and automatically in a scripting language of your choice, such as PowerShell.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1848885/how-to-set-the-password-expiring-date-for-a-local-user-remotely
+
+---
+
+#### 343. W11 Change what path taken by softlink
+
+**问题描述 / Problem Description**:
+Tags: windows-11, network-printer | Score: 1 | Views: 23 | Answers: 1 | Created: 2026-04-26
+
+**解决方案 / Solution**:
+Context menu
+The easiest way to still get to all classic Control Panel places is to right-click and then use 'Open' from the context menu.
+3rd party software
+Alternatively use the file manager explorerplusplus, which can still open 'Devices and Printers' by clicking on it  in the files pane of the 'Hardware and Sound' 'folder', or directly expand to the available printers.
+Or try mods like Restoring Control Panel Pages (video) or ms-settings: URI Redirector, but they are tedious to set up and originally intended only for Windows 10.
+Specific items via CLSID
+For the specific case of 'Devices and Printers' you can create a shortcut to explorer.exe shell:::{A8A91A66-3A7D-4424-8D24-04E180695C7A}, with three semicolons in a row after 'shell'.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937072/w11-change-what-path-taken-by-softlink
+
+---
+
+#### 344. How to remove a printer with no Remove device button
+
+**问题描述 / Problem Description**:
+Tags: windows-10, network-printer | Score: 1 | Views: 26 | Answers: 2 | Created: 2026-04-25
+
+**解决方案 / Solution**:
+not sure if you tried but if this helps but you can try to remove printer via cmd.
+rundll32 printui.dll,PrintUIEntry /dl /n &quot;printer_name&quot; /c\computer_name
+
+where replace variable
+printer_name=&gt; exact name of the printer you want to remove
+computer_name=&gt; name of the computer or server from which the named printer should be removed
+here's the microsoft official kb
+https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/rundll32-printui
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937056/how-to-remove-a-printer-with-no-remove-device-button
+
+---
+
+#### 345. Some apps resets autostart to &quot;inactive&quot; after new login
+
+**问题描述 / Problem Description**:
+Tags: windows, autostart | Score: 1 | Views: 44 | Answers: 1 | Created: 2026-04-20
+
+**解决方案 / Solution**:
+noshow.exe is a helper application that runs the main f.lux binary with the /noshow argument (source). That it is missing indicates a failed install.
+Given that you've reported there are similar messages and errors from multiple applications installed from the Store, this is more likely an OS issue. Repair Windows using the built-in tools.
+Settings &gt; System &gt; Recovery
+Run the first option, &quot;Repair Windows without resetting your PC&quot; first. If that does not resolve the issue, you can try the second option &quot;Fix problems using Windows Update&quot;, which completes a full reinstall but keeps your user profile and installed applications untouched.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936880/some-apps-resets-autostart-to-inactive-after-new-login
+
+---
+
+#### 346. Why does Windows group applications in the taskbar even though with they have different AUMIDs?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, taskbar, portable-apps, aumid | Score: 1 | Views: 72 | Answers: 2 | Created: 2026-04-15
+
+**解决方案 / Solution**:
+That may be a bug in Win 11.
+Try modifying the Registry value, \HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\TaskbarGlomLevel Set it to 2, but if that does not work, try values 0 or 1.
+
+Also try changing the value of TaskbarBadges` in the same key.
+
+If that fails, configure User Configuration\Administrative Templates\Start Menu and Taskbar with the Group Policy Editor. For Windows Home, see Major Geeks.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936769/why-does-windows-group-applications-in-the-taskbar-even-though-with-they-have-di
+
+---
+
+#### 347. How to save my current environment on Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11 | Score: 1 | Views: 45 | Answers: 1 | Created: 2026-04-13
+
+**解决方案 / Solution**:
+There are a number of tools available for deployment and migration of Windows; corporate environments depend on them to create standard releases for all machines, yet still have individual identifiers and licenses.
+See Windows deployment scenarios and tools and the many alternatives.
+That said, by the time you're ready to move to a new machine, a new version of Windows may be available, and existing settings for Win 11 might not apply to v. 12. For that reason, as well as to provide for more complete customization, I prefer to use third-party tools such as Open Shell Menu and WinSetView, to provide consistent look-and-feel though MS might make inconsistent changes from one version (or even update) to the next. The settings for each of those tools are easily exported and imported.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936690/how-to-save-my-current-environment-on-windows-11
+
+---
+
+#### 348. Can Windows 10 be activated with a Windows 11 product key?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, windows-11, license, product-key | Score: 1 | Views: 196 | Answers: 3 | Created: 2026-04-11
+
+**解决方案 / Solution**:
+If I bought a Windows 11 Home retail license, could I use the product key to activate a freshly installed Windows 10 Home?
+
+Windows 10 can only be upgraded to Windows 11, Windows 10 cannot be even activated with a Windows 11 license key, your system likely supports Windows 11 even if you have to bypass the compatibility checks
+
+I've read different opinions on whether a Windows 11 product key would activate a copy of Windows 10.
+
+It does not.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936654/can-windows-10-be-activated-with-a-windows-11-product-key
+
+---
+
+#### 349. How to allow Firefox to connect to Python-spawned localhost server?
+
+**问题描述 / Problem Description**:
+Tags: firefox, windows-11, webserver, http, localhost | Score: 1 | Views: 56 | Answers: 1 | Created: 2026-04-08
+
+**解决方案 / Solution**:
+Yes, I do get a loop if I visit http://127.0.0.1:8000 or http://0.0.0.0:8000.
+Aren't those IPv4 IP addresses?
+
+They are indeed IPv4 addresses. And your http.server is listening only on an IPv6 address.¹
+But the name localhost maps to both the IPv4 address 127.0.0.1 and an IPv6 address ::1, and it is the browser's choice as to which one to use.
+This most likely means that you have a different program listening on the same port 8000 but on IPv4, and for some reason Firefox is preferring IPv4 when translating localhost, so instead of connecting to the Python http.server at [::1]:8000 it reaches some entirely different program at 127.0.0.1:8000.
+
+Run netstat -a -o -n -p tcp as administrator to check what might be listening on that (the listening socket you're looking for may be either 127.0.0.1:8000 or 0.0.0.0:8000).
+
+Check Firefox's network.dns.disableIPv6 parameter in about:config to make sure IPv6 is not disabled (which might be why it is giving you a different result).
+
+
+¹ Note that only Linux has the feature where listening on IPv6 [::] automagically listens also on IPv4 0.0.0.0 and therefore a single socket is enough to handle both. When Python http.server does the same on Windows (and I think also on macOS), its [::] listener remains only for IPv6 connections – handling both protocols would require two sockets and an event loop.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936530/how-to-allow-firefox-to-connect-to-python-spawned-localhost-server
+
+---
+
+#### 350. Why is Firefox requesting the Windows (login) password?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, firefox, security | Score: 1 | Views: 135 | Answers: 1 | Created: 2026-04-05
+
+**解决方案 / Solution**:
+The Firefox source browser aboutLogins.ftl file has the following message which is from the dialog shown in the question:
+# This message can be seen when attempting to edit a login in about:logins on Windows.
+about-logins-edit-login-os-auth-dialog-message2-win = To edit your password, enter your Windows login credentials. This helps protect the security of your accounts.
+
+Using git blame on the above line shows the text was last changed by commit ef3afc6a in response to bug 1636032 Some users are confused about which password/PIN to enter in the OS re-auth dialog from about:logins in May 2020.
+I.e. the dialog message for Windows about needing to enter your Windows login credentials has been present in Firefox for almost 6 years before the change in behaviour mentioned in the question was reported.
+Therefore, appears a recent update for some reason caused an existing dialog about needing Windows login credentials to change Firefox Passwords settings to be triggered.
+While haven't yet completely answered the why in the question, it does show the dialog message text isn't a recent addition.
+Also, I can't rule out that some Windows change related to security isn't the cause.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936455/why-is-firefox-requesting-the-windows-login-password
+
+---
+
+#### 351. Why does my Windows behave as if the up arrow key was constantly pressed?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, keyboard, start-menu, input | Score: 1 | Views: 255 | Answers: 1 | Created: 2026-04-03
+
+**解决方案 / Solution**:
+I couldn't pinpoint what is causing it but found out that restarting DWM fixes it (must be run in elevated cmd):
+taskkill /f /im dwm.exe
+
+Also here's one line which will just ask for elevation (can be used as a button in Stream Deck or so ^^):
+powershell -Command &quot;Start-Process cmd -ArgumentList '/c taskkill /f /im dwm.exe' -Verb RunAs&quot;
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936410/why-does-my-windows-behave-as-if-the-up-arrow-key-was-constantly-pressed
+
+---
+
+#### 352. What is &quot;QueryOpen&quot; in Sysinternals Process Monitor?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11 | Score: 1 | Views: 62 | Answers: 3 | Created: 2026-04-03
+
+**解决方案 / Solution**:
+It seems to me that this is short for FastIoQueryOpen, one of the FastIo* operations that each filesystem driver implements – i.e. part of the internal Windows API between the kernel and the filesystems, which happens to be exactly where the ProcMon filter driver sits as well.
+(Or, upon a closer look, it might be specifically a filesystem filter driver API. Not clear to me.)
+The function is supposed to return a FILE_NETWORK_OPEN_INFORMATION structure containing the file's size and timestamps.  In the leaked WinXP source code, several places document implementations of this function as:
+Routine Description:
+
+    This routine is the fast I/O &quot;pass through&quot; routine for opening a file
+    and returning network information [on] it.
+
+I'm not sure what makes it specific to network filesystems – the internal Windows kernel filesystem interfaces operate very differently from what I'm familiar with – but I am guessing it has something to do with the fact that Windows interfaces generally operate on file handles instead of being path-based (e.g. even to delete a file, internally this involves opening it, marking it as &quot;delete-on-close&quot;, then closing) whereas network FS protocols often can retrieve file metadata by path without having to open that file at all, . But that's a wild guess from quickly skimming the source code.
+
+https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/ns-wdm-_fast_io_dispatch
+https://learn.microsoft.com/is-is/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-network-query-open
+https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_network_open_information
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936389/what-is-queryopen-in-sysinternals-process-monitor
+
+---
+
+#### 353. How to convert a PowerShell command into a batch file?
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell | Score: 1 | Views: 120 | Answers: 1 | Created: 2026-04-01
+
+**解决方案 / Solution**:
+learn.microsoft.com/en-us/powershell:
+
+To execute an inline script block defined inside a string, the call operator &amp; can be used:
+powershell.exe -Command &quot;&amp; {Get-WinEvent -LogName Security}&quot;
+
+
+So in your case, you can use:
+powershell.exe -NoProfile -Command &quot;&amp; { .\bcs.ps1 -sites 'a.com','b.guide','c.com' }&quot;
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936359/how-to-convert-a-powershell-command-into-a-batch-file
+
+---
+
+#### 354. I used the &quot;nuclear option&quot; to get rid of Windows 11 S mode on HP laptop, network drivers aren&#39;t loading nor installable
+
+**问题描述 / Problem Description**:
+Tags: networking, laptop, drivers, windows-11 | Score: 1 | Views: 122 | Answers: 1 | Created: 2026-03-31
+
+**解决方案 / Solution**:
+The OP states the HP laptop is a &quot;14-ep2011wm&quot;. HP support states this is either &quot;B5VU3UA&quot; or &quot;B5VU3UAR&quot; (where &quot;R&quot; means refurbished).  HP offers product support here or &quot;B5VU3UA&quot; and here for &quot;B5VU3UAR&quot;. HP shows the &quot;B5VU3UA&quot; has a Realtek WLAN, while the WLAN manufacturer is not given for the &quot;B5VU3UAR&quot;. For WLAN drivers, HP offers the same WLAN downloads for the current Windows 25H2 release. This would be sp155768.exe for Realtek and sp165524.exe for MediaTek. These executables have to first be run to get the WLAN drivers. The default is to write the drivers to the C:\SWSetup folder.
+Before selecting an folder to search for a WLAN driver, the OP needs to complete one of the the options given below.
+
+Option 1: Use another Windows machine.
+Find another Windows machine where you can run both sp155768.exe and sp165524.exe. Copy the SWSetup folder to the flash drive, then select this folder to search for a WLAN driver.
+
+Option 2: Open a Command Prompt window.
+Press the key combination shift+F10 to open a Command Prompt window. Run both sp155768.exe and sp165524.exe. Select the SWSetup folder to search for a WLAN driver. If Windows is in S mode, then this option will not be available.
+
+Option 3: Open a Command Prompt window while booted to Windows Recovery.
+Press the key combination control+shift+F3 to switch to Audit mode. Once in Audit mode, boot to Windows Recovery by holding down a shift key while rebooting. While in Windows Recovery, open a Command Prompt window and run both sp155768.exe and sp165524.exe. Boot back to Audit mode and press the &quot;OK&quot; button on the System Preparation Tool popup. The computer will boot to the Out-of-Box Experience (OOBE). When asked to install a WLAN driver, select to search the SWSetup folder.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936311/i-used-the-nuclear-option-to-get-rid-of-windows-11-s-mode-on-hp-laptop-networ
+
+---
+
+#### 355. Why is Windows Hello data becoming invalid once booted with secure boot off?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, secure-boot, fingerprint, windows-hello | Score: 1 | Views: 160 | Answers: 2 | Created: 2026-03-23
+
+**解决方案 / Solution**:
+When your computer has a TPM and is using Secure Boot, at least part of the data required for the trusted chain the security system uses for login is stored in the TPM.
+When you disabled Secure Boot Windows Hello is now missing a key part of the trust chain and so logins will fail.
+If you do not want Secure Boot, you should disable it before setting up Windows Hello, however, because of how Windows Hello functions, it may not actually work, and even if it does, it will not be as secure.
+In general, you should consider Windows Hello as a feature that requires TPM and Secure Boot, and if you do not wish to use Secure Boot, you should not use Windows Hello.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936095/why-is-windows-hello-data-becoming-invalid-once-booted-with-secure-boot-off
+
+---
+
+#### 356. How to work around &quot;Windows cannot find &#39;ocsetup&#39;.&quot;
+
+**问题描述 / Problem Description**:
+Tags: installation, windows-11, compatibility | Score: 1 | Views: 105 | Answers: 1 | Created: 2026-03-23
+
+**解决方案 / Solution**:
+&quot;ocsetup&quot; is the Optional Components utility. It is found on the Windows Server OSes.
+Looking at the system support matrix for Dell OpenManage, which I am familiar with and have worked with before, it only supports running on Server OSes. You cannot run it on a desktop OS.
+You could try building a VM of a server OS. They all come with extended trial periods. But, I would step backwards a bit and re-question why you believe OpenManage is the right solution. OpenManage is a pretty complex and extensive network device management toolset, but depending on why you're having trouble updating your printer's firmware, it may not be a solution for you.
+I recommend asking another question about updating your printer's firmware so we can help you with that problem.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936076/how-to-work-around-windows-cannot-find-ocsetup
+
+---
+
+#### 357. How to force Windows File Explorer to forget the OMV NAS credentials and ask for a NAS password every time?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, nas, openmediavault | Score: 1 | Views: 60 | Answers: 1 | Created: 2026-03-16
+
+**解决方案 / Solution**:
+You can still clear those by restarting the workstation service (LanmanWorkstation) as mentioned in the answer here: serverfault.com/a/486506/411612 or try the other listed services. It will probably affect all logged in users though
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935894/how-to-force-windows-file-explorer-to-forget-the-omv-nas-credentials-and-ask-for
+
+---
+
+#### 358. FFMpeg streaming - Unknown Error
+
+**问题描述 / Problem Description**:
+Tags: windows-10, ffmpeg, streaming | Score: 1 | Views: 219 | Answers: 1 | Created: 2026-03-08
+
+**解决方案 / Solution**:
+Thank you all for the input and help understanding the commands for FFMpeg.
+As it turns out, the power supply to the network switch was failing, and the switch kept blipping off very briefly.  It just so happened to do it while I was in the cabinet looking.  This minor blip was enough to disrupt the stream, but not enough to cause anyone on site issues with anything else IT related, so it went un-noticed until I was there again.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935657/ffmpeg-streaming-unknown-error
+
+---
+
+#### 359. On Windows 10, how to allow regular user to create symbolic links via the command line?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, symbolic-link, user, privileges | Score: 1 | Views: 87 | Answers: 1 | Created: 2026-03-05
+
+**解决方案 / Solution**:
+The last missing piece was this ...
+You have to reboot after, creating a new session is not enough !
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935570/on-windows-10-how-to-allow-regular-user-to-create-symbolic-links-via-the-comman
+
+---
+
+#### 360. The &quot;Dates modified&quot; of folders synced to OneDrive changed to the syncing time. Can I reverse/stop this without OneDrive just readjusting them again?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, backup, ntfs, microsoft-onedrive, metadata | Score: 1 | Views: 121 | Answers: 1 | Created: 2026-02-26
+
+**解决方案 / Solution**:
+Unless you have some sort of filesystem change logging, there will not be previous values you can restore the Date Modified values to.
+Date Modified tracks more than just file changes. OneDrive's normal operation updates the folders in ways that triggers this value being updated.
+You &quot;strongly oppos(ing)&quot; dates being modified by this sync tool (that's what it is, it is not a backup solution) doesn't really register. It is doing what it is intended to do, in the manner it is intended to do it. OneDrive does not present options allowing you to change this behavior while it is carrying out its tasks. If you wish to have a backup tool that does not update the Date Modified values, you'll need to choose a tool that does that and not use OneDrive.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935315/the-dates-modified-of-folders-synced-to-onedrive-changed-to-the-syncing-time
+
+---
+
+#### 361. Why am I unable to activate H&amp;R Block tax software? Some screens are missing
+
+**问题描述 / Problem Description**:
+Tags: windows-10, installation, software-activation | Score: 1 | Views: 328 | Answers: 1 | Created: 2026-01-30
+
+**解决方案 / Solution**:
+After many repeated attempts to download H&amp;R Block Tax software files and install them, I finally noticed that Microsoft Edge is listed as a requirement. Edge is installed on this PC, but was disabled, as well as the associated Edge WebView2 browser component.
+This application is built on WebView2, and without it, only shows the surrounding window that hosts that browser component, which does all the work.
+Remedy
+Enable (or reinstall) Microsoft Edge and WebView2 and then install the application. WebView2 must be enabled while the software is running (though not Edge, per se), but can safely be disabled, e.g., by Sordum's Edge Blocker after the app is shut down. The screenshot below shows how the app should look.
+
+Note to H&amp;R Developers
+It would save a lot of time for Support staff if the main screen displayed a static image, i.e., served as a splash screen, with text similar to &quot;WebView is starting...&quot;. As soon as MS WebView2 starts, that would be hidden, and if WebView2  cannot start, it gives Support a course to remedy the issue.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934352/why-am-i-unable-to-activate-hr-block-tax-software-some-screens-are-missing
+
+---
+
+#### 362. How to cycle between taskbar buttons with mouse wheel in Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows-10 | Score: 1 | Views: 27 | Answers: 1 | Created: 2026-01-24
+
+**解决方案 / Solution**:
+I found out it's possible with 7+ Taskbar Tweaker.
+Just open the utility and click &quot;Cycle between taskbar buttons&quot; checkbox.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934092/how-to-cycle-between-taskbar-buttons-with-mouse-wheel-in-windows
+
+---
+
+#### 363. How to install AMD display (graphics) drivers on Windows Server 2019 standard?
+
+**问题描述 / Problem Description**:
+Tags: windows, drivers, graphics-card, windows-server, amd-ryzen | Score: 1 | Views: 17514 | Answers: 1 | Created: 2024-01-20
+
+**解决方案 / Solution**:
+A &quot;unsupported OS&quot; error is strange if the driver is for Windows.
+I suppose that you used
+this driver.
+In case that the problem is with the driver's refusal
+to install is because this is a Windows Server edition,
+the post
+AMD Drivers installation - Error 184 on Windows Server 2022
+has this method of forcing the installation which worked for more
+than one person:
+
+I just finished installing the Windows10/11 drivers on Windows Server
+2022. Run the amd-software-adrenalin-edition-22.5.2-win10-win11-may23 and let it unpack and fail with the message that it cannot continue.
+Go into device manager and select your graphic device and manually
+install the drivers by pointing it to the folder that the amd install
+put them in, mine was D:\AMD. It will just install the drivers and not
+the software but that is all I wanted.
+
+You may download the software from the post
+AMD Software: Adrenalin Edition 22.5.2 Release Notes.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1826612/how-to-install-amd-display-graphics-drivers-on-windows-server-2019-standard
+
+---
+
+#### 364. How to migrate a Windows 7 user home folder to a new Windows 11 system?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-7, windows-11, migration | Score: 0 | Views: 34 | Answers: 2 | Created: 2026-04-26
+
+**解决方案 / Solution**:
+All permissions and settings have been preserved.
+
+The permissions need to be changed to match the new system. Each freshly installed Windows system has a different machine SID, which leads to your user accounts having two different user SIDs and being two separate entities as far as the permission system is concerned.
+Windows 7 fortunately predates AppX, so it should be enough to:
+
+Assign ownership of the folder, recursively, to the new user (e.g. using icacls /setowner on the Windows 11 system).
+icacls Win7User /setowner Gabriel /t
+
+
+Grant full control of the folder, with inheritance enabled, to the new user (e.g. using icacls /grant on the Windows 11 system).
+icacls Win7user /grant &quot;Gabriel:(OI)(CI)(F)&quot;
+
+
+Manually load the user's &quot;HKEY_CURRENT_USER&quot; registry hive ntuser.dat through regedit, then grant full control of the entire hive, recursively, to the new user.
+(Select HKEY_USERS in regedit, then &quot;File &gt; Load hive&quot; will become active. Don't forget to unload it after.)
+
+Repeat for the user's usrclass.dat registry hive.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937078/how-to-migrate-a-windows-7-user-home-folder-to-a-new-windows-11-system
+
+---
+
+#### 365. uvx ocrmypdf tells me file not found
+
+**问题描述 / Problem Description**:
+Tags: windows, ocr, tesseract-ocr | Score: 0 | Views: 29 | Answers: 1 | Created: 2026-04-24
+
+**解决方案 / Solution**:
+They're warnings about missing dependencies for features you're not using. The features are in the optimisation, so the simple fix is to add --optimize 0 into your command to supress the optional optimisations.
+uvx ocrmypdf --language ita --force-ocr --optimize 0 19940809_185_SO_113.pdf ocred.pdf would be your full command.
+If you want compression or optimisation, you need to install the missing dependancies jbig2enc and pngquant by using something like chocolatey with choco install pngquant and choco install jbig2enc, or sudo apt install ocrmypdf jbig2enc pngquant in WSL.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937022/uvx-ocrmypdf-tells-me-file-not-found
+
+---
+
+#### 366. How to fix application icon on Windows 11 to not show the default icon?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, taskbar, icons | Score: 0 | Views: 38 | Answers: 1 | Created: 2026-04-24
+
+**解决方案 / Solution**:
+You should try changing the icon on the Properties.
+Right-click the problem icon, select Properties, go to the Shortcut tab, and click Change Icon. Next, select the icon and click OK.
+If you don't find the icon here, click Browse, go to the app installation folder, select the .exe file, and click Open. Now, select the icon, click Apply, and OK.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937011/how-to-fix-application-icon-on-windows-11-to-not-show-the-default-icon
+
+---
+
+#### 367. [V2EX] 求 Windows UWP 软件大佬实现一个 terminal 功能
+
+**问题描述 / Problem Description**:
+个人觉得 Windows 自带的 terminal 工具很好用，手感很好渲染也不错，可惜不支持侧边栏显示 tabs/workspace ，现在 claude code/codex 用得多，经常要开很多个 tabs ，导致 tabs 超出了横向显示空间，如果能支持垂直标签页外加工作区，那将是非常好用的一个功能，可惜我不擅长 Windows 软件开发，Visual Studio 开发对于 Agent 来说不友好，求大佬帮忙实现这个功能，我给你 stars ！
+https://github.com/microsoft/terminal
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208936#reply7
+
+---
+
+#### 368. [V2EX] 各位大佬们，你们 win 系统安装了什么杀毒软件？
+
+**问题描述 / Problem Description**:
+是微软自带的还是第三方的？免费的还是付费的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208722#reply57
+
+---
+
+#### 369. [V2EX] 稀疏文件（sparse file）如何在不同分区移动后保持稀疏性呢
+
+**问题描述 / Problem Description**:
+我找过很多办法，问过多个 AI ，给出的方法都是无效的，但还是自己尝试找到一个办法：
+稀疏（ sparse file ）文件通过 ghost 的备份还原可以在不同分区继续保持稀疏状态，
+不知道还有没其它办法
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1200599#reply4
+
+---
+
+#### 370. [V2EX] 告别“强制重启”：微软承诺用户可无限期暂停安装 Win11 补丁
+
+**问题描述 / Problem Description**:
+https://www.ithome.com/0/931/201.htm
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1199981#reply5
+
+---
+
+#### 371. [V2EX] 增强的语音识别下载失败求助
+
+**问题描述 / Problem Description**:
+增强的语音识别简中一直下载失败，日语就很快下载了，试了 gemini 给的各种办法也不行。求助！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1198200#reply1
+
+---
+
+#### 372. [V2EX] Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址
+
+**问题描述 / Problem Description**:
+Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址
+公司之前购买的 50 多套正版微软系统，买的早还是批量授权许可的，现在都是订阅制了。
+从 Microsoft 365  admin center 管理员后台给大家直接获取的正版镜像下载地址，
+所有镜像都自带 3 种版本：专业版、企业版、专业工作站版。
+作为企业系统母版(比如域控系统母版、超融合云桌面 vdi 系统母版等~)、自己电脑安装正版稳定版系统非常合适，微软直链，没有任何第三方再封装，微软企业直供，每次微软封装更新都会提供更新下载地址：（仅是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1196147#reply44
+
+---
+
+#### 373. [V2EX] V2 魔怔人为什么这么多？
+
+**问题描述 / Problem Description**:
+今天有个热帖，讨论鸿蒙智行的，现已经到水深火热了，我不过就是在里面感叹一句，华为手机从当年使用火龙 888 ，到 2026 年目前为止出货量国内第一，就这都要被喷？是不是在 V 社说起华为，必须要喷华为才行，其他任何行为都是禁止的？是不是有点魔怔了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208960#reply8
+
+---
+
+#### 374. [V2EX] 咨询 paypal 绑卡失效问题，您的卡已被拒绝。请尝试使用其他付款方式。
+
+**问题描述 / Problem Description**:
+前提:绑卡目的为 gpt plus 的日区白嫖。过程：paypal 大号白嫖过 3 次，均为日封，第一次时候不懂订阅了 plus 立马就点击了取消续费。所以怀疑是这个操作导致 paypal 黑号而造成 plus 封号过快。注销了原先的 paypal 账号然后注册新号，绑卡的时候就提示您的卡已被拒绝。请尝试使用其他付款方式。试过招商跟农商的 visa 卡都不行，借记卡也不行，不清楚是新号风控了还是我的实名制风控了。询问客服账号没有问题。客服回复如下：我仔细查看了您的账户，看到您在 4 月 27 日尝试添加尾号为 84 的银行卡，是无法添加的状态。我帮您检查过账户的状态良好，因为加卡的功能也是正常
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208950#reply1
+
+---
+
+#### 375. [V2EX] 电子产品 填缝 防水 胶 胶泥，有推荐吗？
+
+**问题描述 / Problem Description**:
+很多电子产品需要防水，怎么说呢？就是防止水通过它的缝儿渗透进去。这种有什么好的推荐？我问了一下 AI ，没太满意，我比较菜。我其实就这个简单的需求，只要能满足这个就好，但是我跟 AI 分析了半天，那就只能是瞎猜，下面就是我找到的弯路：这些个东西可能全都是错的，可以不用看。感觉它可以像水或者是油脂一样的这种的胶泥，然后它可以渗进 0.1mm 这样的缝隙，它可以堵住这个缝，这样的话就避免水进去。填入水或者油，可以让它更好的渗进缝隙来，更密封嘛，对吧？水或油蒸发完毕后，它就变成具有一定能力的胶泥，也有大概的可固定形状。不会牢固的附着在塑料的表面，也不会太紧密的把塑料粘合起来。就好像我可以把这个东西抹
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208949#reply8
+
+---
+
+#### 376. [V2EX] 上车后 iPhone 自动连到车内蓝牙汽水音乐会跳出来自动播放
+
+**问题描述 / Problem Description**:
+除非点暂停，划掉退出后还会自动播放，老版本的汽水音乐里有个选项“连蓝牙唤醒自动播放”，现在没有了，真恶心啊！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208940#reply1
+
+---
+
+#### 377. [V2EX] 员工注册了个体户，裁员的时候是正常走 n+1 吗？
+
+**问题描述 / Problem Description**:
+现在 AI 浪潮下想自己做点事情，但是有同事说如果注册了个体户，裁员的时候拿不到赔偿，不知道是不是这样
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208929#reply6
+
+---
+
+#### 378. [V2EX] 现在官网买 codex 要 Sales Tax 的吗？
+
+**问题描述 / Problem Description**:
+curosr 好像没要啊。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208918#reply1
+
+---
+
+#### 379. [V2EX] 提问远程控制软件/组网软件推荐
+
+**问题描述 / Problem Description**:
+最近 tailscale 被公司 ban 了，想寻找替代品op 从 24 年开始用 tailscale ，配置简单，也解决了安全的困扰（毕竟要加入组需要我授权），公司电脑 win 笔记本，家里电脑 win 台式机，手机🍎17Pro ，iPad 安装，方便偶尔异地运维（登录数据库）或者远程摸鱼（家里电脑国际冲浪和 moonlight 串流），后来 25 年学会 exit node ，手机使用家里电脑/公司电脑作为流量出口，访问国际网络/内网 OA难道是我高强度使用 rustdesk 远程回家摸鱼被网络组发现了？🤔但是这几天公司网络封禁了 tailscale ，上个周只是 ban 了登录页面，这个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208917#reply1
+
+---
+
+#### 380. [V2EX] 局域网内 ping 电视丢包。这个一般啥原因啊？
+
+**问题描述 / Problem Description**:
+猫 - 软路由 - 交换机 - 路由 (tp-XDR6070)路由器就在电视和小爱音响下面放着但是从电脑 ping 电视。200ms 的延迟。。来回波动。ping 小爱音响是 5ms 左右距离 10 米的样子，没有墙电视是索尼的 75x9000h ，5G 频段。我以前是可以用 moonlight 投屏到电视玩极品飞车、玩双人成行的。。。是路由器老化了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208911#reply5
+
+---
+
+#### 381. [V2EX] 有没有比较好的 agent 开发的学习社区、资料、教程推荐？
+
+**问题描述 / Problem Description**:
+最近发现招聘风向全都倾向 AI agent 开发了，所以也想与时俱进一下，希望哪怕前端不幸失业了可以转到 agent 开发去，希望大家有比较好的资源可以一起共享一下~感谢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208908#reply3
+
+---
+
+#### 382. [V2EX] 想问问各位大佬们的公司都有哪些 ai 应用落地的？
+
+**问题描述 / Problem Description**:
+如题，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208887#reply7
+
+---
+
+#### 383. [V2EX] Manus 收购案被禁， Meta 是不是开心死了？
+
+**问题描述 / Problem Description**:
+https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20623 外商投资安全审查工作机制办公室（国家发展改革委）依法依规对外资收购 Manus 项目作出禁止投资决定，要求当事人撤销该收购交易。 manus 能干的小龙虾都能了吧，怎么感觉 Meta 更加开心？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208883#reply0
+
+---
+
+#### 384. [V2EX] 为什么现在网上都没有 114 抢号相关的开源脚本了？
+
+**问题描述 / Problem Description**:
+北京专家号太难挂了，基本被黄牛垄断！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208879#reply1
+
+---
+
+#### 385. [V2EX] 咸鱼卖京东家政，买家要我的订单号，有没有坑
+
+**问题描述 / Problem Description**:
+不清楚是不是中间商拍的，让我下单后，给他京东的订单号，然后说服务完后确认收货，有坑吗？我很少咸鱼交易
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208877#reply0
+
+---
+
+#### 386. [V2EX] 在 agent 中， mcp 和 skill+cli 是“互补”还是“竞争”关系
+
+**问题描述 / Problem Description**:
+有些场景是不是两个都能做，那有啥场景是彼此无法取代对方的吗。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208867#reply10
+
+---
+
+#### 387. [V2EX] 挑战孩子的试题，自己也没解出来😂
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208865#reply2
+
+---
+
+#### 388. [V2EX] 请 xdm 推荐一下脚宽人士友好的一脚蹬
+
+**问题描述 / Problem Description**:
+脚宽穿鞋老是挤脚趾，之前买的合适的鞋都坏了。最近试了下 keen 的脚感挺不错，就是有点贵，而我穿鞋又比较费。想问一下有没有兄弟能推荐一下平替啥的，500 上下能穿 2 年左右
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208843#reply3
+
+---
+
+#### 389. [V2EX] 关于睡前听书的问题
+
+**问题描述 / Problem Description**:
+现在睡前必须听点东西才能入睡，前段时间在喜马拉雅听完了日本近代史和货币战争，最近开始听凡人修仙传，但是我发现了一个问题，长篇小说相比于之前的短篇，有很多人名会在后文重复出现，听书一听漏后面就不知道这人是干啥的了，大家听小说也会有这个问题吗？有其他的睡前助眠节目推荐吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208835#reply8
+
+---
+
+#### 390. [V2EX] 最不容易 429 的 provider+模型组合是什么？
+
+**问题描述 / Problem Description**:
+没什么正经业务，就是自己玩玩，用的 hermes ，xiaomi 的薅完了，nvidia ，gemini ，chatgpt 的免费 tier 一个事情干不完就 429 了没有可以白嫖而且不怎么 429 的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208822#reply0
+
+---
+
+#### 391. [V2EX] CloudFlare 的 ai gatewey 能够干掉 OpenRouter 吗
+
+**问题描述 / Problem Description**:
+一直不能够理解 OpenRouter 的盈利模式，在官方模型价格的基础上再额外加收一定的手续费。
+如果价格不比官方的 API 便宜还要额外加收手续费，我能够想到的使用 OpenRouter 的唯一好处就是方便聚合多个大模型，不需要测试一个模型就绑定一个信用卡。
+但是现在 CloudFlare 的 ai gatewey 也聚合了大量的模型，并且可以统一走 CloudFlare 支付，是否能够干掉 OpenRouter ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208819#reply7
+
+---
+
+#### 392. [V2EX] 一个连接数的问题求助
+
+**问题描述 / Problem Description**:
+情况：公网 ip ，有动态 dns ，映射群晖业务。
+问题：
+爱快 wan 口信息显示有 4 千多的连接数。图 1 。实际只有 1 百多的连接，请问这个是什么问题，给人攻击了？可以怎样防御？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208764#reply5
 
 ---

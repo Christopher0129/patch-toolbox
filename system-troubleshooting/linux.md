@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 295**
+**总计条目 / Total entries: 381**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -9268,5 +9268,2392 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
+
+---
+
+#### 296. Creating temporary, ephemeral user account on Linux
+
+**问题描述 / Problem Description**:
+Tags: linux, testing, accounts | Score: 16 | Views: 1253 | Answers: 2 | Created: 2026-03-10
+
+**解决方案 / Solution**:
+systemd-run DynamicUsers provides dummy/ephemeral users:
+systemd-run -t -p DynamicUser=true -p ReadWritePaths=/usr/prefixexample bash
+
+Before that, create your prefix world-writable so the newly allocated user will have access:
+sudo mkdir /usr/prefixexample
+sudo chmod a+rwX -R /usr/prefixexample
+
+In the prefix, that directory is accessible, but not other directories in the real system:
+home@...:~$ machinectl shell
+Connected to the local host. Press ^] three times within 1s to exit session.
+root@...:~# rm -rf /usr/prefixexample
+root@...:~# mkdir /usr/prefixexample
+root@...:~# echo foo &gt; /usr/prefixexample/a
+root@...:~# chmod a+rwX -R /usr/prefixexample
+root@...:~# systemd-run -t -p DynamicUser=true -p ReadWritePaths=/usr/prefixexample bash
+Running as unit: run-p239224-i239225.service; invocation ID: d90bd6100a0a424dabbd72baea481f13
+Press ^] three times within 1s to disconnect TTY.
+run-p239224-i239225@...:/$ # Modifying system files is restricted
+run-p239224-i239225@...:/$ touch /test
+touch: cannot touch '/test': Read-only file system
+run-p239224-i239225@...:/$ # /tmp is accessible, but is a separate emphemeral tmpfs
+run-p239224-i239225@...:/$ touch /tmp/test
+run-p239224-i239225@...:/$ # Editing my user directory is blocked
+run-p239224-i239225@...:/$ touch /home/home/abc
+touch: setting times of '/home/home/abc': Permission denied
+run-p239224-i239225@...:/$ # The dynamic user cannot write to my actual disks
+run-p239224-i239225@...:/$ mount | grep rw | grep sda
+run-p239224-i239225@...:/$ mount | grep rw | grep nvme
+run-p239224-i239225@...:/$ cd /usr/prefixexample
+run-p239224-i239225@...:/usr/prefixexample$ # Reading in the prefix works
+run-p239224-i239225@...:/usr/prefixexample$ cat a
+foo
+run-p239224-i239225@...:/usr/prefixexample$ # Writing in the prefix works
+run-p239224-i239225@...:/usr/prefixexample$ echo bar &gt; b
+run-p239224-i239225@...:/usr/prefixexample$ cat b
+bar
+run-p239224-i239225@...:/usr/prefixexample$ # Ensure emphemeral UID's files don't remain
+run-p239224-i239225@...:/usr/prefixexample$ rm -rf /usr/prefixexample/*
+
+This basically is a container. Imagine Docker -v /:/:ro i.e. the root directory not the usual subdirectory. DynamicUser implies ProtectSystem which implies PrivateUsers. PrivateUsers creates a user namespace, which is the basis of all containerization technologies. ProtectSystem et al create a mount namespace, which are safer and more capable than chroot, which still works but is replaceable with pivot_root inside.
+If you don't have root to execute systemd-run, you'll have to skip the &quot;ephemeral user&quot; part, expand its implied options, and use the systemd user instance instead. Skipping it should be safe since you can only write to one path.
+systemd-run --user -t \
+    -p ProtectSystem=strict \
+    -p ProtectHome=read-only \
+    -p PrivateTmp=true \
+    -p NoNewPrivileges=true \
+    -p ReadWritePaths=/usr/prefixexample \
+    bash
+
+
+what if I want the prefix directory to be under a more deeply nested path. e.g. /home/me/projects/myproject/testprefix. In the above example if they try to cd to that directory they aren't allowed. I'm guessing there's some way to add it to the paths?
+
+To allow that, replace ReadWritePaths=/usr/prefixexample with BindPaths=/usr/prefixexample:/mnt. Then the simplest way is to update your code to use /mnt.
+There's no way to access any subdirectory of the real /home/me if your home directory is properly world-unreadable. If your absolute paths are unavoidably hardcoded, then in the dynamic user, run unshare -cm --keep-caps bash . Then inside that unshared namespace, run mount -t tmpfs tmpfs /home/me &amp;&amp; mkdir -p /home/me/projects/myproject/testprefix &amp;&amp; mount --bind /mnt /home/me/projects/myproject/testprefix .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804923/creating-temporary-ephemeral-user-account-on-linux
+
+---
+
+#### 297. Can systemd be used only as an init system, without its other components?
+
+**问题描述 / Problem Description**:
+Tags: linux, systemd, boot, init | Score: 14 | Views: 1276 | Answers: 2 | Created: 2026-03-22
+
+**解决方案 / Solution**:
+I do not think you can disable systemd-journald. You can disable persistent storage and forward messages to syslog for further processing.
+Other mentioned components are optional from the systemd side. You can look at build options what can be disabled.
+That said, other software may well expect some functionality, e.g. systemd-logind or systemd-udevd, to be present. Even the systemd-less distributions provide emulation for them.
+systemd-resolved or systemd-networkd are pretty much self contained; you are free to use or not use them depending on your goals.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805105/can-systemd-be-used-only-as-an-init-system-without-its-other-components
+
+---
+
+#### 298. apt-key is removed in Debian 13. How to list keys?
+
+**问题描述 / Problem Description**:
+Tags: debian, apt, gpg, apt-key | Score: 12 | Views: 1168 | Answers: 1 | Created: 2026-03-15
+
+**解决方案 / Solution**:
+apt-key, along with /etc/apt/trusted.gpg.d/, were removed because they behave like global variables. The new deb822.sources files can optionally store armored GPG keys inline, and replaces the old.list format. Keys in /usr/share/keyrings are not trusted unless referenced.
+Raw deb822 keys
+Look in /etc/apt/sources.list.d/*.sources, and filter them by sed -n '/^Signed-By:/{:again;p;n;/^[^ ]/b;b again}'. Each may look like armor or paths:
+Signed-By: -----BEGIN PGP PUBLIC KEY BLOCK-----
+ .
+ mQ12340000000000000000000000000000000000000000000000000000000000
+ 1234000000000000000000000000000000000000000000000000000000000000
+ 1234000000000000000000000000000000001234
+ =1234
+ -----END PGP PUBLIC KEY BLOCK-----
+[or]
+Signed-By: /usr/share/keyrings/microsoft.gpg
+
+Displaying deb822 keys
+To actually parse the keys:
+#!/bin/bash
+shopt -s nullglob
+echo '-----deb822 keys-----'
+for x in /etc/apt/sources.list.d/*.sources; do
+  echo &quot;$x&quot;
+  signedby=&quot;$(sed -n '/^Signed-[Bb]y:/{:again;p;n;/^[^ ]/b;b again}' &quot;$x&quot;)&quot;
+  if [[ $signedby =~ ^Signed-[Bb]y:\ (/.*)$ ]]; then
+    echo References &quot;${BASH_REMATCH[1]}&quot;
+    gpg --show-keys &quot;${BASH_REMATCH[1]}&quot;
+  elif [ -z &quot;$signedby&quot; ]; then
+    echo 'Warning: No Signed-By found'
+  else
+    echo Inline
+    {
+      echo '-----BEGIN PGP PUBLIC KEY BLOCK-----'
+      echo
+      echo &quot;$signedby&quot; | grep -v 'PGP PUBLIC\|\.' | sed 's/^ //'
+      echo '-----END PGP PUBLIC KEY BLOCK-----'
+    } | gpg --show-keys
+  fi
+done
+
+It works for the normal system keys, and most PPAs. go.sources might be corrupt:
+-----deb822 keys-----
+/etc/apt/sources.list.d/apt-fast.sources
+Inline
+pub   rsa4096 2024-05-03 [SC]
+      BC5934FD3DEBD4DAEA544F791E2824A7F22B44BD
+uid                      Launchpad PPA for apt-fast
+
+/etc/apt/sources.list.d/docker.sources
+Inline
+pub   rsa4096 2017-02-22 [SCEA]
+      9DC858229FC7DD38854AE2D88D81803C0EBFCD88
+uid                      Docker Release (CE deb) &lt;docker@docker.com&gt;
+sub   rsa4096 2017-02-22 [S]
+
+/etc/apt/sources.list.d/google-chrome.sources
+Inline
+pub   rsa4096 2016-04-12 [SC]
+      EB4C1BFD4F042F6DDDCCEC917721F63BD38B4796
+uid                      Google Inc. (Linux Packages Signing Authority) &lt;linux-packages-keymaster@google.com&gt;
+sub   rsa4096 2016-04-12 [S] [expired: 2019-04-12]
+sub   rsa4096 2017-01-24 [S] [expired: 2020-01-24]
+sub   rsa4096 2019-07-22 [S] [expired: 2022-07-21]
+sub   rsa4096 2021-10-26 [S] [expired: 2024-10-25]
+sub   rsa4096 2023-02-15 [S] [expired: 2026-02-14]
+sub   rsa4096 2024-01-30 [S] [expires: 2027-01-29]
+sub   rsa4096 2025-01-07 [S] [expires: 2028-01-07]
+
+/etc/apt/sources.list.d/go.sources
+Inline
+gpg: invalid radix64 character 2D skipped
+gpg: invalid radix64 character 3A skipped
+gpg: CRC error; 13DCA1 - 136FB0
+gpg: [don't know]: invalid packet (ctb=4a)
+gpg: read_block: read error: Invalid packet
+gpg: import from '[stdin]' failed: Invalid keyring
+/etc/apt/sources.list.d/kisak-mesa.sources
+Inline
+pub   rsa4096 2017-11-30 [SC]
+      EB8B81E14DA65431D7504EA8F63F0F2B90935439
+uid                      Launchpad PPA for kisak
+
+/etc/apt/sources.list.d/kubuntu-backports.sources
+Inline
+pub   rsa4096 2024-05-02 [SC]
+      7EB726D45F5037D1A642C72C17FB29293721A2CD
+uid                      Launchpad PPA for Kubuntu Package Archives
+
+/etc/apt/sources.list.d/mozilla.sources
+Inline
+pub   rsa2048 2021-05-04 [SC]
+      35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3
+uid                      Artifact Registry Repository Signer &lt;artifact-registry-repository-signer@google.com&gt;
+
+/etc/apt/sources.list.d/neovim.sources
+Inline
+pub   rsa4096 2014-12-11 [SC]
+      9DBB0BE9366964F134855E2255F96FCF8231B6DD
+uid                      Launchpad PPA for Neovim PPA Team
+
+/etc/apt/sources.list.d/rocm.sources
+Inline
+pub   rsa4096 2016-08-01 [SC] [expires: 2027-02-02]
+      CA8BB4727A47B4D09B4EE8969386B48A1A693C5C
+uid                      AMD MLSE DevOps &lt;dl.MLSE.DevOps@amd.com&gt;
+sub   rsa4096 2016-08-01 [E] [expires: 2027-02-02]
+
+/etc/apt/sources.list.d/signal.sources
+Inline
+pub   rsa4096 2017-04-05 [SC]
+      DBA36B5181D0C816F630E889D980A17457F6FB06
+uid                      Open Whisper Systems &lt;support@whispersystems.org&gt;
+sub   rsa4096 2017-04-05 [E]
+
+/etc/apt/sources.list.d/tradingview-desktop.sources
+Inline
+pub   rsa2048 2024-04-05 [SC] [expires: 2027-04-05]
+      BB7B63DFD37F1D386191797AC5DE37BA63861F9F
+uid                      TradingView &lt;desktop@tradingview.com&gt;
+
+/etc/apt/sources.list.d/ubuntu.sources
+References /usr/share/keyrings/ubuntu-archive-keyring.gpg
+pub   rsa4096 2012-05-11 [SC]
+      790BC7277767219C42C86F933B4FE6ACC0B21F32
+uid                      Ubuntu Archive Automatic Signing Key (2012) &lt;ftpmaster@ubuntu.com&gt;
+
+pub   rsa4096 2012-05-11 [SC]
+      843938DF228D22F7B3742BC0D94AA3F0EFE21092
+uid                      Ubuntu CD Image Automatic Signing Key (2012) &lt;cdimage@ubuntu.com&gt;
+
+pub   rsa4096 2018-09-17 [SC]
+      F6ECB3762474EDA9D21B7022871920D1991BC93C
+uid                      Ubuntu Archive Automatic Signing Key (2018) &lt;ftpmaster@ubuntu.com&gt;
+
+/etc/apt/sources.list.d/vscode.sources
+References /usr/share/keyrings/microsoft.gpg
+pub   rsa2048 2015-10-28 [SC]
+      BC528686B50D79E339D3721CEB3E94ADBE1229CF
+uid                      Microsoft (Release signing) &lt;gpgsecurity@microsoft.com&gt;
+
+Displaying old keys
+To display keys that should be migrated:
+#!/bin/bash
+shopt -s nullglob
+echo '-----/etc/apt/trusted.gpg.d-----'
+paths=(/etc/apt/trusted.gpg.d/*.gpg)
+for x in &quot;${paths[@]}&quot;; do
+  echo &quot;$x&quot;
+  gpg --show-keys &quot;$x&quot;
+done
+if [ &quot;${#paths}&quot; -eq 0 ]; then
+  echo None
+else
+  echo 'On newer systems, this folder is deleteable if e.g. /etc/apt/sources.list.d/ubuntu.sources references /usr/share/keyrings'
+fi
+echo '-----/etc/apt/sources.list-----'
+if [ ! -f /etc/apt/sources.list ]; then
+  echo 'Absent, so already migrated'
+elif ! grep -q ^deb /etc/apt/sources.list; then
+  echo 'Only comments and no sources, so already migrated'
+elif ! gerp -q signed-by= /etc/apt/sources.list; then
+  echo 'Strange. [signed-by=...] usually should not appear here'
+else
+  echo 'Found old style /etc/apt/sources.list without specific keys'
+fi
+shopt -s nullglob
+echo '-----/etc/apt/sources.list.d/*.list-----'
+paths=(/etc/apt/sources.list.d/*.list)
+for x in &quot;${paths[@]}&quot;; do
+  echo &quot;$x&quot;
+  found=''
+  refs=&quot;$(grep -io 'signed-by=/[^] ]\+' &quot;$x&quot; | cut -f2- -d=)&quot;
+  for ref in $refs; do
+    echo References &quot;$ref&quot;
+    gpg --show-keys &quot;$ref&quot; 
+  done
+  if [ -z &quot;$refs&quot; ]; then
+    echo 'Warning: no signed-by found'
+  fi
+done
+if [ &quot;${#paths}&quot; -eq 0 ]; then
+  echo None
+else
+  echo 'On newer systems, run ` sudo apt modernize-sources `'
+fi
+echo '-----/etc/apt/keyrings-----'
+echo 'Anything here is not trusted until referenced'
+echo '-----/usr/share/keyrings-----'
+echo 'Anything here is not trusted until referenced'
+
+Output:
+$ docker run --rm -it ubuntu:24.04
+# apt update &amp;&amp; apt install gpg
+[...]
+# ./myscript2.sh
+-----/etc/apt/trusted.gpg.d-----
+/etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg
+gpg: directory '/root/.gnupg' created
+gpg: keybox '/root/.gnupg/pubring.kbx' created
+pub   rsa4096 2012-05-11 [SC]
+      843938DF228D22F7B3742BC0D94AA3F0EFE21092
+uid                      Ubuntu CD Image Automatic Signing Key (2012) &lt;cdimage@ubuntu.com&gt;
+
+/etc/apt/trusted.gpg.d/ubuntu-keyring-2018-archive.gpg
+pub   rsa4096 2018-09-17 [SC]
+      F6ECB3762474EDA9D21B7022871920D1991BC93C
+uid                      Ubuntu Archive Automatic Signing Key (2018) &lt;ftpmaster@ubuntu.com&gt;
+
+On newer systems, this folder is deleteable if e.g. /etc/apt/sources.list.d/ubuntu.sources references /usr/share/keyrings
+-----/etc/apt/sources.list-----
+Only comments and no sources, so already migrated
+-----/etc/apt/sources.list.d/*.list-----
+None
+-----/etc/apt/keyrings-----
+Anything here is not trusted until referenced
+-----/usr/share/keyrings-----
+Anything here is not trusted until referenced
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805005/apt-key-is-removed-in-debian-13-how-to-list-keys
+
+---
+
+#### 299. Why does this column command keep generating spaces indefinitely when piped to a file, but works fine when not piped?
+
+**问题描述 / Problem Description**:
+Tags: linux, text-processing, pipe, columns | Score: 9 | Views: 795 | Answers: 1 | Created: 2026-03-31
+
+**解决方案 / Solution**:
+That was just a bug -- fixed by bb525b5, between 2.39.4 and 2.40 (identified via git bisect).
+Finding which commit introduced it is left as an exercise to the reader.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805244/why-does-this-column-command-keep-generating-spaces-indefinitely-when-piped-to-a
+
+---
+
+#### 300. Can the path of an ejected device be validated?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, devices, eject | Score: 8 | Views: 863 | Answers: 3 | Created: 2026-03-17
+
+**解决方案 / Solution**:
+Then I eject the device and sda ceases to exist in /dev/
+
+No! Otherwise my answer wouldn't work: you need to be able to open that device node as read-write to be able to issue the &quot;close CDROM drive&quot; ioctl, which causes Linux to re-scan the USB mass storage device. If it ceased to exist, there'd be nothing to open!
+This happens, for example, if the device gets the &quot;power off&quot; command via USB. In that case, all you could do is reset the whole USB bus (I'm sure there's answers on here that explain how to), and hope that suffices for the device to power back on (USB devices are supposed to, but, USB device firmware was Dante Alighieri's main inspiration when he wrote his Inferno, so I wouldn't rely on it with every possible device).
+
+Is it possible to validate a device path of an unmounted device? How?
+
+Check its existence. That's basically the same as trying to open it, so you might as well use eject for the validation. In a shell script, you can [ -e /dev/sda ] to check for existence.
+In my answer I didn't go into detail on how to figure out the device name, recognizing that the asker there had just had his drive &quot;ejected&quot;, and thus things should be pretty unambigous at the end of the log.
+If you need to figure out which /dev/sd? is your USB thumb drive, you might have to look at the numbered symlinked directories in /sys/bus/usb/drivers/usb-storage/ and compare these to the symlinks in /sys/block/sd?.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805048/can-the-path-of-an-ejected-device-be-validated
+
+---
+
+#### 301. Google Chrome update script overwrites .sources file and ignores /etc/default/google-chrome, causing i386 apt warnings
+
+**问题描述 / Problem Description**:
+Tags: debian, apt, package-management, dpkg, chrome | Score: 7 | Views: 863 | Answers: 1 | Created: 2026-04-13
+
+**解决方案 / Solution**:
+Supposedly, the clean way to permanently disable this is shown on the download page:
+
+Note: Installing Google Chrome will add the Google repository so your system will automatically keep Google Chrome up to date. If you don’t want Google's repository, do “sudo touch /etc/default/google-chrome” before installing the package.
+
+The postrm clarifies this:
+# Only remove the defaults file if it is not empty. An empty file was probably
+# put there by the sysadmin to disable automatic repository configuration, as
+# per the instructions on the package download page.
+
+So the safe way to disable this is apparently to ensure that /etc/default/google-chrome is empty. However that only works for new installations; if a google-chrome.sources file is present on upgrade (or re-install), it is overwritten.
+What actually works is to rename the repository configuration file. It can then be edited, and the renamed file won’t be touched on upgrade (and the original file won’t be restored).
+The postinst script interprets repo_add_once=true (and variants thereof) as requesting the installation of the repository configuration; once that’s been done, it sets it to false, which disables future repository configuration. There’s also a repo_reenable_on_distupgrade flag but doesn’t appear to be used in the maintainer scripts.
+Ironically, the old repository configuration specified [arch=amd64]…
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805417/google-chrome-update-script-overwrites-sources-file-and-ignores-etc-default-go
+
+---
+
+#### 302. Tar refuses to create symlink out of target directory
+
+**问题描述 / Problem Description**:
+Tags: debian, ssh, tar | Score: 7 | Views: 472 | Answers: 1 | Created: 2026-03-31
+
+**解决方案 / Solution**:
+Fixed by explicit closing of stdin channel in paramiko after sending the archive bytes.
+channels = client.exec_command(...)
+stdin = channels[0]
+with open(archive_path, &quot;rb&quot;) as pca:
+    while True:
+        block = pca.read(BLOCKSIZE)
+        if not block:
+            break
+        stdin.write(block)
+stdin.close() ## &lt;-- added this
+
+It seems tar is postponing finalization of some details to end of the whole input processing, and the channel object was hanging in Python memory.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805233/tar-refuses-to-create-symlink-out-of-target-directory
+
+---
+
+#### 303. What knowledge to take from this major upgrade (Debian 12 to 13) where I&#39;ve faced some troubles?
+
+**问题描述 / Problem Description**:
+Tags: debian, deb, dist-upgrade | Score: 7 | Views: 823 | Answers: 2 | Created: 2026-03-14
+
+**解决方案 / Solution**:
+Without the logs, it’s impossible to know what your first dist-upgrade did. However, with a third-party repository installed it’s not surprising that it didn’t upgrade the system properly.
+What you should have done is read the Debian 13 release notes. They explain in detail how to prepare for the upgrade (including removing non-Debian packages — while this is often not necessary, it makes for a smoother upgrade), and how to perform the upgrade safely.
+I also recommend not specifying -y when running upgrades interactively; it’s best to check what apt is going to do (or not do) before letting it proceed. Even --autoremove is best left until later since it can result in unwanted package removals.
+Regarding dist-upgrade v. full-upgrade, they’re the same. See apt full-upgrade vs apt upgrade redundancy for details of the various upgrade options.
+In step 3, it’s normal not to get a complete upgrade: apt-get upgrade only upgrades packages that can be upgraded without removing anything, which is usually only a small part of a major upgrade (between releases). That’s why you needed the apt-get dist-upgrade in step 4 to finish the upgrade. See also What is the purpose of running `apt-get upgrade` then `full-upgrade` when upgrading to a new Debian release?
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804994/what-knowledge-to-take-from-this-major-upgrade-debian-12-to-13-where-ive-face
+
+---
+
+#### 304. Why does my system slow down when the RAM usage is high, even when there is no swap?
+
+**问题描述 / Problem Description**:
+Tags: linux, swap, ram, zram | Score: 7 | Views: 1449 | Answers: 1 | Created: 2026-02-05
+
+**解决方案 / Solution**:
+Swap is only one of the possibilities the kernel can use when it is low on memory; it is used when the kernel needs to remove data from memory that doesn’t exist on disk. Data in memory that does exist on disk, that is to say, data mapped from files, can be “swapped out” too — it doesn’t go to swap, it goes back to the file it came from.
+So even without swap on disk, you can still end up suffering from disk-related slowdowns as the kernel pages data out and back in. Paging data out will often be “free” (because the data is already on disk and hasn’t changed since it was read), but paging it back in won’t — and in general, if the kernel is under memory pressure and resorted to paging data out, that data won’t be in cache so it will take longer to read again! When things get really bad, you can end up thrashing, which is when the kernel spends more time paging data in and out than the system can spend time doing useful work — even without swap.
+The only reliable solution to that is to align your working set size with your available memory, either by reducing the amount of data you need in memory at a given time, or by increasing the amount of memory you have (which may be difficult, especially nowadays). It might also be worth trying to disable swapping on zRAM — if your working set fits in your physical memory, you will get better performance by using the memory for work than for swap. You could also adjust swappiness so that the kernel prefers dropping pages from cache instead of swapping; see Why does swappiness not work? for details.
+(The above ignores your swap on zRAM, which is still swap, and incurs some performance decrease — but much less than paging to disk, so the primary factor in your case is paging.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804265/why-does-my-system-slow-down-when-the-ram-usage-is-high-even-when-there-is-no-s
+
+---
+
+#### 305. If a shell runs &quot;exec&quot; to start my graphical session, why do I still see that shell in the process list?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, exec, login-manager | Score: 6 | Views: 574 | Answers: 2 | Created: 2026-04-23
+
+**解决方案 / Solution**:
+exec start-hyprland | systemd-cat -p info -t hyprland is not the same as exec sleep 300.
+In exec cmd, cmd is run in the same process as the shell, not a child (exec should really have been called nofork).
+In cmd1 | cmd2, the shell forks itself twice¹, runs cmd1 in the first child, cmd2 in the second after having instantiated a pipe or socket pair connecting the stdout of the first to the stdin of the second.
+In any case, since cmd1 and cmd2 are running concurrently, they have to run in separate processes.
+Here, cmd1 is exec start-hyprland, so that runs start-hyprland without forking, but that's done by the first child mentioned above. exec is superfluous here because that child would not have forked an extra process just to execute that one command anyway.
+The sh you see in ps output is the main shell that is waiting for the termination of both processes constituting that pipeline².
+For that sh process started by your session manager to run start-hyprland without a fork, you'd need something like:
+exec cmd1 &gt; &gt;(cmd2)
+
+Where cmd2 is started asynchronously, not waited for, with its stdin connected to a pipe. &gt;(cmd2) expands to a path to the other end of that pipe, which the shells opens in write-only mode (&gt;) on the stdout of cmd1 and exec skips the fork.
+Note that the process running cmd2 in that case will will end up being the child of the one running cmd1, so when it dies, cmd1 will receive a SIGCHLD signal which might very well confuse it.
+Example:
+$ ksh -c 'exec sleep 100 | cat' &amp;
+$ ps -Hopid,ppid,args
+    PID    PPID COMMAND
+   6074    6072 /bin/zsh
+   9744    6074   ksh -c exec sleep 100 | cat
+   9745    9744     sleep 100
+   9746    9744     cat
+   9749    6074   ps -Hopid,ppid,args
+
+The process running sleep and the one running cat are sister processes both spawned by the process that executed ksh and that process is still there waiting for them (well here it being ksh93, it only waits for the one running cat² unless you set the pipefail option).
+$ ksh -c 'exec sleep 100 &gt; &gt;(cat)' &amp;
+$ ps -Hopid,ppid,args
+    PID    PPID COMMAND
+   6074    6072 /bin/zsh
+   9229    6074   sleep 100
+   9230    9229     cat
+   9238    6074   ps -Hopid,ppid,args
+
+This time, ksh is gone and was replace by sleep and cat still a child of that process that used to run ksh but now runs sleep.
+&gt;(...) (process substitution) is not standard sh syntax though. It comes from ksh in the mid-80s though at the time it could not be used as target of redirections. zsh and bash have copied it since (and rc and derivatives have the same feature with a different syntax). The above would work today with ksh93, zsh and bash, but yash has a related feature that is even more relevant here: process redirection:
+In that shell, &gt;(cmd) is not substituted with the path of a pipe but is short for 1&gt;(cmd) just like &gt;file is short for 1&gt;file and redirects file descriptor 1 (stdout) to a pipe to a process started asynchronously to run cmd, so in yash, you'd just do exec cmd1 &gt;(cmd2).
+With standard sh syntax, you'd need to resort to named pipes by hand, something like:
+mkfifo -m600 some-pipe &amp;&amp;
+  { cmd2 &lt;&amp;3 3&lt;&amp;- &amp; } 3&lt; some-pipe &amp;&amp;
+  { rm -f some-pipe &amp;&amp; exec cmd1; } &gt; some-pipe
+
+Though of course you'd want to make sure some-pipe is created unique in some temporary area which with standard sh and utilities is hard to do portably and reliably.
+As noted by @grawity in comment, in the specific case of systemd-cat, you can also do:
+systemd-cat -p info start-hyprland
+
+Where systemd-cat cmd executes cmd in its own process with both its stdout and stderr (current versions of the man page say it connects stdin instead of stderr but that's not what I observe and it wouldn't make sense³) directly connected to the journal via a Unix-domain socket instead of forwarding it from a pipe (or socketpair for shells that use them for their | operator like ksh93 on systems where pipes are not seekable, not process substitution which can't use socketpairs) to the command.
+To avoid touching stderr, you could do:
+systemcat sh -c 'exec cmd 2&gt;&amp;3 3&gt;&amp;-' 3&gt;&amp;2
+
+
+¹ Though some shells skip the fork for cmd2 except of course, down the line, to execute cmd2 if that's an external command and not a builtin or function.
+² Some shells only wait for the right-most one, and some shells optimise out an extra fork when running the last command of an inline script so could run cmd2 in the shell process, which is not your case here since ps still shows that process running sh.
+³ Fix now committed, so should be included in the next release.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805578/if-a-shell-runs-exec-to-start-my-graphical-session-why-do-i-still-see-that-sh
+
+---
+
+#### 306. How can I tell in software if a very quiet fan isn&#39;t spinning?
+
+**问题描述 / Problem Description**:
+Tags: debian, hardware, temperature, fan | Score: 6 | Views: 1673 | Answers: 2 | Created: 2026-03-22
+
+**解决方案 / Solution**:
+The control of the fan speed on the HP EliteBook 845 G7 via the BIOS is only possible to a limited extent. HP business notebooks generally manage fan curves automatically to ensure optimal cooling and hardware integrity.
+Enter the BIOS, restart your laptop and immediately press the F10 key repeatedly to open the BIOS setup utility.
+Find fan settings and navigate to the Advanced or Power tabs.
+Available options:
+Fan Always On
+You can enable or disable this option in the BIOS. If it is disabled, the fan may stop completely under low load.
+
+Laptop fan to turn on and off at will Solved Start a conversation
+
+HP ProBook PCs, EliteBook PCs, and Mobile Workstation PCs - Customized fan control
+
+
+
+With under low load it is meant that the fan automatically turns on and off, as also described in the manual on page 25.
+Like with many gaming graphics cards, where the fans only start spinning once a certain load is reached.
+
+The computer fan starts up automatically to cool internal components  and prevent overheating. It is normal for the internal fan to cycle on and off during routine operation.
+
+
+To reduce the possibility of heat-related injuries or of overheating the computer, do not place
+the computer directly on your lap or obstruct the computer air vents. Use the computer only on a hard, at
+surface. Do not allow another hard surface, such as an adjoining optional printer, or a soft surface, such as
+pillows or rugs or clothing, to block airfow. Also, do not allow the AC adapter to come into contact with the
+skin or a soft surface, such as pillows or rugs or clothing, during operation. The computer and the AC adapter
+comply with the user-accessible surface temperature limits dened by applicable safety standards
+
+
+HP EliteBook 845 G7 Maintenance and Service Guide
+
+
+TjMax = 105 °C is the official maximum temperature of the CPU. This is exactly the value that everything refers to (throttling, etc.).
+
+AMD Ryzen 5 PRO 4650U Processor 
+
+
+International safety standards for IT and AV equipment, relevant for laptops, tablets, monitors, etc.
+Accessible surfaces shall not reach temperatures that could cause burns to the user under normal operating conditions.
+
+
+CPU Health and Testing
+Component Tests: Inside the diagnostics menu, navigate to Component Tests to find specific tests for the processor, including a &quot;Processor Check&quot; to verify functionality.
+System Information: The BIOS &quot;Main&quot; tab displays processor type and speed.
+Temperature Management: Users have reported high operating temperatures (100°C - 105°C) on the EliteBook 845 G7 during heavy loads, which can be managed by adjusting the Windows Power Plan's &quot;Processor performance boost mode&quot; to disabled if overheating is detected.
+
+
+HP Elitebook 845 g7 overheating? 
+
+
+Take a look at your CPU temperature, thermal throttling starts at around 95 °C, and beyond that it can become critical.
+Dust always builds up in the fans, and if the device previously belonged to a smoker and wasn’t properly cleaned, a lot of grime can accumulate as well.
+You can try cleaning the laptop again from the outside using a can of compressed air / Anti-dust spray to blow out as much dirt as possible.
+Otherwise, if it’s possible and you feel confident, open the device and check what’s going on, then clean it from the inside with a brush and a cloth.
+If the fan is broken, get a replacement on eBay or a similar site, You can find used fans for between €15 and €25. Here’s also a video showing how to open it, otherwise
+take it to someone who knows how to do it.
+
+HP Elitebook 845 G7 parts installation and disassembly
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805113/how-can-i-tell-in-software-if-a-very-quiet-fan-isnt-spinning
+
+---
+
+#### 307. How can I change the Bluetooth sound profiles for my headset so they are easy to understand?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, audio, pulseaudio, bluetooth, pipewire | Score: 6 | Views: 360 | Answers: 1 | Created: 2026-02-20
+
+**解决方案 / Solution**:
+I can tell you where these names come from: the Bluetooth standards' profile names. Maybe knowing that &quot;handsfree&quot; comes from the time that phones with bluetooth were new, and refers to making phone calls while driving a car helps make remembering easier? That's not calling for a lot of audio quality, but for things like &quot;hangup&quot; and &quot;louder&quot; buttons and low latency. (Background often helps me remember stuff.) Headset Profile, on the other hand, is call-center headset centric (monoaural headsets for people with hands on keyboards and a strained smile on their face).
+(By the way, neither is &quot;hifi&quot;, so I'm a bit confused: You would want to listen to music using the &quot;advanced audio distribution&quot; profile (A2DP).)
+Both Pulseaudio and Pipewire use GNU Gettext to allow for strings to be translated to other languages than the software was written in. So, to change these strings for, say, German, you'd just need to change the .po file, listing the translations of the English texts, to contain a better translation; then, rebuild the machine-readable translation file (.mo) and replace the old one with it. (you'll find these in /usr/share/local/{LANGUAGE}/LC_MESSAGES/pipewire.mo, and the originals on Freedesktop's git repository)
+However, in your case, just guessing from the location you state in your profile, you're probably at odds with the untranslated &quot;original&quot;, you'll probably have to change to original source code, recompile, reinstall.
+I suspect the specific occurrence is of https://gitlab.freedesktop.org/pipewire/pipewire/-/blob/master/spa/plugins/bluez5/bluez5-device.c (and if you change e.g. _(&quot;Handsfree&quot;) there, you will have to change all the .po files for other languages, as well, because that's the &quot;key&quot; to lookup the translations!)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804603/how-can-i-change-the-bluetooth-sound-profiles-for-my-headset-so-they-are-easy-to
+
+---
+
+#### 308. What is the keycode of the Compose key in Linux (kernel)?
+
+**问题描述 / Problem Description**:
+Tags: linux, keyboard-layout, compose-key | Score: 6 | Views: 791 | Answers: 2 | Created: 2026-02-11
+
+**解决方案 / Solution**:
+There is none. Compose processing happens in the layer above keycodes. You use loadkeys to map any keycode (or a combination of keycode and modifiers) to a Compose &quot;character&quot;.
+So, you would need to find out the correct keycode for the physical key and use loadkeys to assign Compose to it. Like:
+echo 'alt keycode 52 = Compose' | loadkeys -
+
+There is keycode with the name KEY_COMPOSE; it is 127. But it is just a name; you still need to explicitly assign to it the meaning of &quot;compose character&quot; using loadkeys.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804397/what-is-the-keycode-of-the-compose-key-in-linux-kernel
+
+---
+
+#### 309. How to debug silent server crashes?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, freeze, gpu | Score: 6 | Views: 877 | Answers: 2 | Created: 2025-12-16
+
+**解决方案 / Solution**:
+Sometimes logging to another machine over the network works when logging to hard disk doesn't (because udp is fast, and the network stack sometimes dies last or at least after the kernel's various filesystem and disk IO layers).
+So if you have one machine which either doesn't crash or crashes less frequently than others (if you've set up a cluster with slurm or similar, this would probably be the main cluster management node rather than the compute nodes), try setting it up to receive logs over the LAN from the other servers, and configure at least some of the other servers (the ones that crash most often, if there's any difference between them) to send a copy of kernel log entries to the logging server.
+How to do this depends on whether you're using rsyslogd or systemd journal.  See either man rsyslogd or man systemd-journal-remote.service.
+For example, with rsyslogd:
+My systems use journald but are also configured to log everything with rsyslogd.
+I have the following in my logging server's rsyslog config:
+$ModLoad imudp              # provides UDP syslog reception 
+$UDPServerAddress x.x.x.x   # my logging server's IP address
+$UDPServerRun 514
+
+and in my other machines:
+if $fromhost-ip == '127.0.0.1' and $syslogfacility-text == 'kern' then @logserver
+
+(where &quot;logserver&quot; is the hostname of my log server)
+Actually, I have it set up so that each machine sends kernel logs to at least one other machine on my LAN, and receives log messages from at least one machine.  i.e. they all log to each other, which is why the if $fromhost-ip == '127.0.0.1' test is required, so they don't forward received messages in a never-ending loop.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803068/how-to-debug-silent-server-crashes
+
+---
+
+#### 310. Need help/confirmation on formatting a Debian install to use two drives
+
+**问题描述 / Problem Description**:
+Tags: debian, partition, system-installation, debian-installer, partition-table | Score: 5 | Views: 433 | Answers: 3 | Created: 2026-03-26
+
+**解决方案 / Solution**:
+Agreeing with John: put your personal data on the SSD; that's where the speed at which you can access random bytes and store data really makes a difference.
+And: a fully set-up debian system comes nowhere close to filling 256 GB, so you'll be fine, completely without the HDD, which you can add to your storage if needed, later.
+Contrary to what John says, there's not really any flexibility won by having /home on its own partition. You can always just copy or move the files contained in a directory, just as easily as you clone the full partition, with the difference that in the file case, you'll not be copying empty space on a partition. So. There's that.
+Frankly, I'd approach this differently. You are (probably) using the graphical debian installer. Go back to the step where you decide how to partition your hard drive (misnomer in the installer, most systems don't even have a hard drive anymore): Select, &quot;guided – whole disk with LVM&quot; instead of &quot;manual&quot;, do that on your SSD, and from there on, just defaults. (You can also use the &quot;encrypted + LVM&quot; option, which is what I'd recommend, especially if this is for a laptop that might get lost.)
+That's it, and it's pretty future-proof: With an LVM setup, you can always just plug in more storage, extend the LVM volume group (in other storage management systems, that'd be called a &quot;pool&quot;), increase the size of the volumes on that, do things like move volumes off aging disks to new disks … while in use. So, if you later find yourself short on space, you can just add the HDD to your LVM volume group, say, hey, I want to simply enlargen my single volume-for-everything, do that, or, you can say, hey, I have a lot of movies on my /home/leonardo/Videos directory, let me just make a new volume on the HDD, move all the movies there and mount it automatically at /home/leonardo/Videos. Same with anything else – you don't need to decide this now forever, it's possible, with little effort, to change later. (You can also do much fancier stuff, if you need the space, like using your HDD as &quot;large&quot; storage and using the SSD as &quot;hot&quot; cache, if you do use LVM here. It's not something I'd recommend in your case, though: your HDD is not very large compared to the SSD, and you get data loss if any of these two fail, and your HDD might already be 10 years old, just guessing from the name? That'd make it both very slow and rather likely to fail, compared to the SSD.)
+In that light, the less you use physical partitions now the more flexible you are. Your approach is one that I'd have done in the year 2000 – and I would have misestimated how much space my system and my /home need, to the effect that one would be running full while the other still had space on it.
+Don't do that to yourself. Putting everything on the SSD will be fine until you amass massive amounts of data, and with LVM, you can then, very flexibly, just shift data to additional storage. At that point in time, storage prices are quite likely to have normalized a bit, too. So, start with the SSD, and then when things get full, do decisions on the data you then actually have vs the one you project you might have at some point.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805175/need-help-confirmation-on-formatting-a-debian-install-to-use-two-drives
+
+---
+
+#### 311. Build a minimal i686 Ubuntu live image (no GUI) with hardware detection similar to the Ubuntu installer?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, live-usb, 32bit, live-build | Score: 5 | Views: 396 | Answers: 1 | Created: 2026-03-08
+
+**解决方案 / Solution**:
+To the best of my knowledge, Ubuntu has stopped doing 32 bit releases for about 8 years now; so, I don't think you'll be able to pull together a working Ubuntu that works in i686 and is not hopelessly antique and unlikely to work on modern hardware.
+Best guess here is that you want to instead go the debian route – I've asked that in the comments, but realistically, if this is about things being a minimal system, the functional differences between the two distros aren't that large. Mostly, you don't get someone nagging you about buying a subscription if you go for debian ;)
+There is a pretty fundamental difference in installation: the default debian installer is really, really bad (imho) in user-friendliness compared to the Ubuntu installer. Luckily, that won't matter much to you.
+
+Ability to boot on both legacy BIOS and UEFI systems
+
+and
+
+ave the USB use VFAT instead of iso9660
+
+sound like you don't really want to have something like a Live CD image that just happens to also be bootable from a thumb drive and might or might not also have a volume for persistent storage.
+You just want to install a Linux distro on a USB drive, make sure everything inside is portable (e.g. UUIDs in fstab, not device names), and set it up in a way that the USB drive both has a valid MBR as well as a UEFI system partition. (doing both can be tricky, but I think installers still try to do both on most distros)
+Note that USB booting on pre-64 bit system was (in my memory) always fickle. The &quot;ISO 9660-on-USB-with-isolinux&quot; trickery was mostly owed to the fact that systems were very varied in what they'd do when faced with a thumb drive, while distros still wanted to maintain only one installation image for both optical media and USB thumb drives; Matthew Garrett has written more about booting in the EFI-switchover era. My memory from that time is more varied, motherboard firmwares would decide to boot or not boot, sometimes based on whatever the motherboard vendor thought Seemed Like A Good Idea At The TimeTM.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804878/build-a-minimal-i686-ubuntu-live-image-no-gui-with-hardware-detection-similar
+
+---
+
+#### 312. Understanding VIRT, RES and SHR in htop
+
+**问题描述 / Problem Description**:
+Tags: linux, virtual-memory | Score: 5 | Views: 713 | Answers: 2 | Created: 2026-02-27
+
+**解决方案 / Solution**:
+VIRT only shows the virtual memory allocation; it doesn’t necessarily correspond to pages at all. Processes can allocate memory without ever using it.
+RES as you say is resident memory, that is to say, pages present in physical memory allocated for the process.
+SHR counts memory that’s shared between processes. This happens for example with shared libraries: their read-only pages are mapped in memory once, and every process relying on them gets the same pages. See How to know shared memory between two processes?
+This is documented in more detail in the htop manual.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804734/understanding-virt-res-and-shr-in-htop
+
+---
+
+#### 313. Create and verify a large single file in parallel-mode
+
+**问题描述 / Problem Description**:
+Tags: linux, hashsum, parallelism | Score: 5 | Views: 609 | Answers: 3 | Created: 2026-02-18
+
+**解决方案 / Solution**:
+Most hashing algorithms these days are not bound by how much CPU you can throw at them - but by how much memory bandwidth you have. Your md5 implementation might be an outlier in its slowness. Something's wrong there; it's really slow.
+Hashes like the xxHash family will saturate your 3Gb/s link easily. Once you've saturated that, no way to get faster, especially not with parallelism.
+So, just go and install xxhash's xxhsum. In its xxhsum -H3 implementation it reaches 15914.4 MB/s – that's nearly 64 Gb/s – single-threadedly on my phone (on which im typing this) (as installed via Termux's pkg). (You can benchmark with xxhsum -b.)
+Note that &quot;splitting a file and hashing its parts with md5&quot; is not at all the same as &quot;calculating the md5 hash of the full file&quot;, so you'll need to do something custom anyways. This is a clear case for just not doing md5, then.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804535/create-and-verify-a-large-single-file-in-parallel-mode
+
+---
+
+#### 314. Querying application versions in Debian-style Linux versions
+
+**问题描述 / Problem Description**:
+Tags: debian, ubuntu, repository, version | Score: 5 | Views: 504 | Answers: 2 | Created: 2025-12-08
+
+**解决方案 / Solution**:
+Marcus Müller’s answer shows how to get version information for any distribution release or container image.
+For Debian (and Ubuntu), you can use rmadison instead (in the devscripts package):
+$ rmadison qemu
+qemu       | 1:5.2+dfsg-11+deb11u3         | oldoldstable                      | source, amd64, arm64, armhf, i386
+qemu       | 1:5.2+dfsg-11+deb11u3         | oldoldstable-debug                | source
+qemu       | 1:7.2+dfsg-7+deb12u16         | oldstable                         | source
+qemu       | 1:7.2+dfsg-7+deb12u16         | oldstable-debug                   | source
+qemu       | 1:7.2+dfsg-7+deb12u16         | oldstable-proposed-updates-debug  | source
+qemu       | 1:7.2+dfsg-7+deb12u17         | buildd-oldstable-proposed-updates | source
+qemu       | 1:7.2+dfsg-7+deb12u17         | oldstable-proposed-updates        | source
+qemu       | 1:7.2+dfsg-7+deb12u17         | oldstable-proposed-updates-debug  | source
+qemu       | 1:10.0.2+ds-2+deb13u1~bpo12+1 | oldstable-backports               | source
+qemu       | 1:10.0.2+ds-2+deb13u1~bpo12+1 | oldstable-backports-debug         | source
+qemu       | 1:10.0.6+ds-0+deb13u2         | stable                            | source
+qemu       | 1:10.0.6+ds-0+deb13u2         | stable-debug                      | source
+qemu       | 1:10.0.6+ds-0+deb13u2         | unstable                          | source
+qemu       | 1:10.1.2+ds-1                 | testing                           | source
+qemu       | 1:10.1.2+ds-3                 | unstable                          | source
+qemu       | 1:10.1.2+ds-3                 | unstable-debug                    | source
+qemu       | 1:10.2.0~rc1+ds-1             | experimental                      | source
+qemu       | 1:10.2.0~rc1+ds-1             | experimental-debug                | source
+
+On a Debian system (or similar), this will show results for currently-supported releases of Debian by default; on a Ubuntu system (or derivative), it will show results for Ubuntu. The -u option can be used to switch sources (-u debian or -u ubuntu).
+One benefit of this approach is that it shows all available versions, including backports, regardless of the repositories configured on the querying system or in the container image.
+For Debian specifically, you can get information on older releases as well by querying the archived releases instead:
+$ rmadison -u archive qemu
+ qemu | 0.6.1+20050407-1sarge1        | debian/sarge              | i386, powerpc
+ qemu | 0.6.1+20050407-1sarge1        | debian/sarge-security     | source, i386, powerpc
+ qemu | 0.8.2-4                       | debian/etch-m68k          | source
+ qemu | 0.8.2-4etch3                  | debian/etch               | source, amd64, i386, powerpc
+ qemu | 0.8.2-4etch3                  | debian/etch-security      | source, amd64, i386, powerpc
+ qemu | 0.9.1-10lenny1~bpo40+1        | debian/etch-backports     | source, amd64, i386, powerpc, sparc
+ qemu | 0.9.1-10lenny1                | debian/lenny              | source, amd64, i386, powerpc, sparc
+ qemu | 0.9.1-10lenny1                | debian/lenny-security     | source, amd64, i386, powerpc, sparc
+ qemu | 0.12.5+dfsg-3squeeze4         | debian/squeeze            | source, amd64, armel, i386, kfreebsd-amd64, kfreebsd-i386, mips, mipsel, powerpc, sparc   
+ qemu | 0.12.5+dfsg-3squeeze4         | debian/squeeze-security   | source, amd64, armel, i386, kfreebsd-amd64, kfreebsd-i386, mips, mipsel, powerpc, sparc   
+ qemu | 0.12.5+dfsg-3squeeze5         | debian/squeeze-lts        | source, amd64, i386
+ qemu | 1.1.2+dfsg-2~bpo60+1          | debian/squeeze-backports  | source, armel, ia64, kfreebsd-amd64, kfreebsd-i386, mips, powerpc
+ qemu | 1.1.2+dfsg-6a+deb7u7~bpo60+1  | debian/squeeze-backports  | source, amd64, i386, mipsel, sparc
+ qemu | 1.1.2+dfsg-6a+deb7u12         | debian/wheezy             | source, amd64, armel, armhf, i386, ia64, kfreebsd-amd64, kfreebsd-i386, mips, mipsel, powerpc, s390x, sparc
+ qemu | 1.1.2+dfsg-6+deb7u25          | debian/wheezy-security    | source, amd64, armel, armhf, i386
+ qemu | 2.0.0+dfsg-4~bpo70+1          | debian/wheezy-backports   | source, s390x
+ qemu | 2.1+dfsg-5~bpo70+1            | debian/wheezy-backports   | source, sparc
+ qemu | 1:2.1+dfsg-11                 | debian/jessie-kfreebsd    | source, kfreebsd-amd64, kfreebsd-i386
+ qemu | 1:2.1+dfsg-12+deb8u5a~bpo70+1 | debian/wheezy-backports   | source, amd64, armel, armhf, i386, ia64, kfreebsd-amd64, kfreebsd-i386, mips, mipsel, powerpc
+ qemu | 1:2.1+dfsg-12+deb8u6          | debian/jessie             | source, amd64, arm64, armel, armhf, i386, mips, mipsel, powerpc, ppc64el, s390x
+ qemu | 1:2.1+dfsg-12+deb8u15         | debian/jessie-security    | source, amd64, armel, armhf, i386
+ qemu | 1:2.8+dfsg-3~bpo8+1           | debian/jessie-backports   | source, amd64, arm64, armel, armhf, i386, mips, mipsel, powerpc, ppc64el, s390x
+ qemu | 1:2.8+dfsg-6+deb9u9           | debian/stretch            | source, amd64, arm64, armel, armhf, i386, mips, mipsel, ppc64el, s390x
+ qemu | 1:2.8+dfsg-6+deb9u17          | debian/stretch-security   | source, amd64, arm64, armel, armhf, i386
+ qemu | 1:3.1+dfsg-8+deb10u8          | debian/buster             | source, amd64, arm64, armel, armhf, i386, mips, mips64el, mipsel, ppc64el, s390x
+ qemu | 1:3.1+dfsg-8+deb10u12         | debian/buster-security    | source, amd64, arm64, armhf, i386
+ qemu | 1:5.2+dfsg-9~bpo10+1          | debian/buster-backports   | source, amd64, arm64, armel, armhf, i386, mips64el, mipsel, ppc64el, s390x
+ qemu | 1:5.2+dfsg-11+deb11u3         | debian/bullseye           | source, amd64, arm64, armel, armhf, i386, mips64el, mipsel, ppc64el, s390x
+ qemu | 1:7.2+dfsg-7+deb12u2~bpo11+1  | debian/bullseye-backports | source
+
+The UDD can also be used as a source:
+$ rmadison -u udd qemu
+ qemu | 1:5.2+dfsg-11+deb11u3         | bullseye           | source, amd64, arm64, armhf, i386
+ qemu | 1:5.2+dfsg-11+deb11u5         | bullseye-security  | source, amd64, arm64, armhf, i386
+ qemu | 1:7.2+dfsg-7+deb12u15         | bookworm-security  | source
+ qemu | 1:7.2+dfsg-7+deb12u16         | bookworm           | source
+ qemu | 1:7.2+dfsg-7+deb12u17         | bookworm-p-u       | source
+ qemu | 1:10.0.2+ds-2+deb13u1~bpo12+1 | bookworm-backports | source
+ qemu | 1:10.0.2+ds-2+deb13u1         | trixie-security    | source
+ qemu | 1:10.0.6+ds-0+deb13u2         | trixie             | source
+ qemu | 1:10.0.6+ds-0+deb13u2         | sid                | source
+ qemu | 1:10.1.2+ds-1                 | forky              | source
+ qemu | 1:10.1.2+ds-3                 | sid                | source
+ qemu | 1:10.2.0~rc1+ds-1             | experimental       | source
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801912/querying-application-versions-in-debian-style-linux-versions
+
+---
+
+#### 315. Can a single physical server boot and run two Debian systems from different partitions?
+
+**问题描述 / Problem Description**:
+Tags: debian, system-installation | Score: 4 | Views: 972 | Answers: 5 | Created: 2026-04-14
+
+**解决方案 / Solution**:
+If I understood your question correctly, you want to run two Debian instances simultaneously on one computer, that’s not possible unless you use a container or a virtualization system on your main OS/System.
+I would install Debian as the main system and then use Debian with Docker.
+This way, you can run as many Debian instances as your hardware setup allows, so at least two for sure.
+
+Install Docker Engine on Debian
+
+debian - Docker Official Image
+
+
+This way, you can also try out different configurations and easily export the containers to use them on other operating systems/systems.
+Of course, security aspects and hardening must be considered if you want to use it in production and not just as a test or lab environment.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805434/can-a-single-physical-server-boot-and-run-two-debian-systems-from-different-part
+
+---
+
+#### 316. Why is Unix socket still there despite not referred by process file descriptor?
+
+**问题描述 / Problem Description**:
+Tags: linux, unix-sockets | Score: 4 | Views: 104 | Answers: 1 | Created: 2026-02-20
+
+**解决方案 / Solution**:
+Educated guess is file descriptor passing (SCM_RIGHTS message). It creates the copy of file descriptor (which now remains open), but until the destination consumed the SCM_RIGHTS message it will not appear in the destination's file table. Consider the example of /tmp/scm simply creating a sink socket where /tmp/server can send its created &quot;production&quot; socket:
+
+Launch /tmp/scm that creates @SCM socket that is used as a sink for passing file descriptor:
+
+
+bor@ThinkPad-E16-Gen3:~$ /tmp/scm &amp;
+[3] 24854
+bor@ThinkPad-E16-Gen3:~$ sudo netstat -pax | grep SCM
+unix  2      [ ]         DGRAM                    293467   24854/scm            @SCM
+bor@ThinkPad-E16-Gen3:~$ LANG=C ls -l /proc/24854/fd
+total 0
+lrwx------ 1 bor bor 64 Feb 21 17:53 0 -&gt; /dev/pts/1
+lrwx------ 1 bor bor 64 Feb 21 17:53 1 -&gt; /dev/pts/1
+lrwx------ 1 bor bor 64 Feb 21 17:53 2 -&gt; /dev/pts/1
+lrwx------ 1 bor bor 64 Feb 21 17:53 3 -&gt; 'socket:[293467]'
+bor@ThinkPad-E16-Gen3:~$ 
+
+
+Now launch /tmp/server which creates the abstract socket @SOCKET and passes its descriptor to the @SCM socket:
+
+bor@ThinkPad-E16-Gen3:~$ /tmp/server
+passing fd 3
+bor@ThinkPad-E16-Gen3:~$ sudo netstat -pax | grep SOCKET
+unix  2      [ ]         DGRAM                    304790   24870/server         @SOCKET
+bor@ThinkPad-E16-Gen3:~$ LANG=C ls -l /proc/24870/fd
+total 0
+lrwx------ 1 bor bor 64 Feb 21 17:55 0 -&gt; /dev/pts/0
+lrwx------ 1 bor bor 64 Feb 21 17:55 1 -&gt; /dev/pts/0
+lrwx------ 1 bor bor 64 Feb 21 17:55 2 -&gt; /dev/pts/0
+lrwx------ 1 bor bor 64 Feb 21 17:55 3 -&gt; 'socket:[304790]'
+lrwx------ 1 bor bor 64 Feb 21 17:55 4 -&gt; 'socket:[304791]'
+bor@ThinkPad-E16-Gen3:~$ LANG=C ls -l /proc/24854/fd
+итого 0
+lrwx------ 1 bor bor 64 Feb 21 17:53 0 -&gt; /dev/pts/1
+lrwx------ 1 bor bor 64 Feb 21 17:53 1 -&gt; /dev/pts/1
+lrwx------ 1 bor bor 64 Feb 21 17:53 2 -&gt; /dev/pts/1
+lrwx------ 1 bor bor 64 фев 21 17:53 3 -&gt; 'socket:[293467]'
+bor@ThinkPad-E16-Gen3:~$ 
+
+Notice that although the /tmp/server has sent the file descriptor, it is not visible in the /tmp/scm file table.
+
+Kill /tmp/server.
+
+bor@ThinkPad-E16-Gen3:~$ sudo netstat -pax | grep SOCKET
+unix  2      [ ]         DGRAM                    304790   -                    @SOCKET
+bor@ThinkPad-E16-Gen3:~$ 
+
+At this point you have open reference to the @SOCKET somewhere in the socket @SCM buffers. I do not know whether it is possible to show it and how. I suppose it is possible by directly crawling memory, but I could not find netstat/ss options to show pending control messages (as opposed to the actual data).
+The only way to destroy it is to either consume the SCM_RIGHTS message and close the resulting file descriptor or to terminate the process that listens on the @SCM socket.
+bor@ThinkPad-E16-Gen3:~$ fg
+/tmp/scm
+^C
+bor@ThinkPad-E16-Gen3:~$ sudo netstat -pax | grep SOCKET
+bor@ThinkPad-E16-Gen3:~$ 
+
+For the sake of completeness, the code.
+The /tmp/scm.c:
+       #define SOCKET_NAME &quot;\0SCM&quot;
+       #define BUFFER_SIZE 12
+
+       #include &lt;stdio.h&gt;
+       #include &lt;stdlib.h&gt;
+       #include &lt;string.h&gt;
+       #include &lt;sys/socket.h&gt;
+       #include &lt;sys/un.h&gt;
+       #include &lt;unistd.h&gt;
+
+       int
+       main(void)
+       {
+           int                 down_flag = 0;
+           int                 ret;
+           int                 connection_socket;
+           int                 data_socket;
+           int                 result;
+           ssize_t             r, w;
+           struct sockaddr_un  name;
+           char                buffer[BUFFER_SIZE];
+
+           /* Create local socket. */
+
+           connection_socket = socket(AF_UNIX, SOCK_DGRAM, 0);
+           if (connection_socket == -1) {
+               perror(&quot;socket&quot;);
+               exit(EXIT_FAILURE);
+           }
+
+           /*
+            * For portability clear the whole structure, since some
+            * implementations have additional (nonstandard) fields in
+            * the structure.
+            */
+
+           memset(&amp;name, 0, sizeof(name));
+
+           /* Bind socket to socket name. */
+
+           name.sun_family = AF_UNIX;
+           memcpy(name.sun_path, SOCKET_NAME, sizeof(SOCKET_NAME));
+
+           ret = bind(connection_socket, (const struct sockaddr *) &amp;name,
+                      sizeof(name) - (sizeof(name.sun_path) - sizeof(SOCKET_NAME) + 1));
+           if (ret == -1) {
+               perror(&quot;bind&quot;);
+               exit(EXIT_FAILURE);
+           }
+
+       sleep (60*60*24);
+
+           exit(EXIT_SUCCESS);
+       }
+
+The /tmp/server.c:
+       #define SOCKET_NAME &quot;\0SOCKET&quot;
+       #define SCM_SOCKET_NAME &quot;\0SCM&quot;
+
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;string.h&gt;
+#include &lt;sys/socket.h&gt;
+#include &lt;sys/types.h&gt;
+#include &lt;sys/un.h&gt;
+#include &lt;unistd.h&gt;
+
+ssize_t
+sock_fd_write(int sock, void *buf, ssize_t buflen, int fd)
+{
+    ssize_t     size;
+    struct msghdr   msg;
+    struct iovec    iov;
+    union {
+        struct cmsghdr  cmsghdr;
+        char        control[CMSG_SPACE(sizeof (int))];
+    } cmsgu;
+    struct cmsghdr  *cmsg;
+
+    iov.iov_base = buf;
+    iov.iov_len = buflen;
+
+    msg.msg_name = NULL;
+    msg.msg_namelen = 0;
+    msg.msg_iov = &amp;iov;
+    msg.msg_iovlen = 1;
+
+    if (fd != -1) {
+        msg.msg_control = cmsgu.control;
+        msg.msg_controllen = sizeof(cmsgu.control);
+
+        cmsg = CMSG_FIRSTHDR(&amp;msg);
+        cmsg-&gt;cmsg_len = CMSG_LEN(sizeof (int));
+        cmsg-&gt;cmsg_level = SOL_SOCKET;
+        cmsg-&gt;cmsg_type = SCM_RIGHTS;
+
+        printf (&quot;passing fd %d\n&quot;, fd);
+        *((int *) CMSG_DATA(cmsg)) = fd;
+    } else {
+        msg.msg_control = NULL;
+        msg.msg_controllen = 0;
+        printf (&quot;not passing fd\n&quot;);
+    }
+
+    size = sendmsg(sock, &amp;msg, 0);
+
+    if (size &lt; 0)
+        perror (&quot;sendmsg&quot;);
+    return size;
+}
+
+       int
+       main(void)
+       {
+           int                 ret;
+           int                 connection_socket;
+           int                 scm_socket;
+           struct sockaddr_un  name;
+
+           /* Create local socket.  */
+
+           connection_socket = socket(AF_UNIX, SOCK_DGRAM, 0);
+           if (connection_socket == -1) {
+               perror(&quot;socket&quot;);
+               exit(EXIT_FAILURE);
+           }
+
+           /*
+            * For portability clear the whole structure, since some
+            * implementations have additional (nonstandard) fields in
+            * the structure.
+            */
+
+           memset(&amp;name, 0, sizeof(name));
+
+           /* Bind socket to socket name.  */
+
+           name.sun_family = AF_UNIX;
+           memcpy(name.sun_path, SOCKET_NAME, sizeof(SOCKET_NAME));
+
+           ret = bind(connection_socket, (const struct sockaddr *) &amp;name,
+                      sizeof(name) - (sizeof(name.sun_path) - sizeof(SOCKET_NAME) + 1));
+           if (ret == -1) {
+               perror(&quot;bind&quot;);
+               exit(EXIT_FAILURE);
+           }
+
+           /* Create SCM socket.  */
+
+           scm_socket = socket(AF_UNIX, SOCK_DGRAM, 0);
+           if (scm_socket == -1) {
+               perror(&quot;socket scm&quot;);
+               exit(EXIT_FAILURE);
+           }
+
+           /*
+            * For portability clear the whole structure, since some
+            * implementations have additional (nonstandard) fields in
+            * the structure.
+            */
+
+           memset(&amp;name, 0, sizeof(name));
+
+           /* Bind socket to socket name.  */
+
+           name.sun_family = AF_UNIX;
+           memcpy(name.sun_path, SCM_SOCKET_NAME, sizeof(SCM_SOCKET_NAME));
+
+           ret = connect(scm_socket, (const struct sockaddr *) &amp;name,
+                      sizeof(name) - (sizeof(name.sun_path) - sizeof(SCM_SOCKET_NAME) + 1));
+           if (ret == -1) {
+               perror(&quot;connect scm&quot;);
+               exit(EXIT_FAILURE);
+           }
+
+           sock_fd_write(scm_socket, 0, 0, connection_socket);
+
+       sleep (60 * 60 * 24);
+
+           exit(EXIT_SUCCESS);
+       }
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804617/why-is-unix-socket-still-there-despite-not-referred-by-process-file-descriptor
+
+---
+
+#### 317. Change what kernel is being booted in Grub
+
+**问题描述 / Problem Description**:
+Tags: debian, kernel, grub2, kernel-modules | Score: 4 | Views: 592 | Answers: 3 | Created: 2026-02-20
+
+**解决方案 / Solution**:
+I'd uninstall the newer kernel package and set a hold on the linux kernel package (e.g. using aptitude).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804604/change-what-kernel-is-being-booted-in-grub
+
+---
+
+#### 318. Getting parent device node from partition device node
+
+**问题描述 / Problem Description**:
+Tags: linux, udev, block-device | Score: 3 | Views: 220 | Answers: 3 | Created: 2026-04-16
+
+**解决方案 / Solution**:
+On Linux, with lsblk, you can get the parent kernel name with lsblk -o pkname:
+$ ls -ld foo
+brw-rw---- 1 root disk 8, 6 Apr 17 06:54 foo
+$ lsblk -no pkname foo
+sda
+$ lsblk -no name foo
+sda6
+
+AFAICT, it's only documented in the output of lsblk -H aka --list-columns:
+$ lsblk -H | grep -i parent
+      PKNAME &lt;string&gt;        internal parent kernel device name
+
+With zsh:
+$ zmodload zsh/stat
+$ stat -A d +rdev foo &amp;&amp;
+    print -r -- /sys/dev/block/$(( d &gt;&gt; 8 )):$(( d &amp; 0xff ))(:P:h:t)
+sda
+
+Where we do it by hand by extracting the major:minor from the rdev field of the stat structure, locate the device in /sys via the /sys/dev/block/major:minor symlink (assuming it's a block device in the first place), then use modifiers in glob qualifiers, to get its real Path, then the head (dirname, so parent) of that path (assuming it is a partition in the first place), then the tail (basename).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805499/getting-parent-device-node-from-partition-device-node
+
+---
+
+#### 319. Installing HopToDesk on Debian 13 (trixie) or LMDE 7 (gigi) error /var/lib/dpkg/info/hoptodesk.postinst: No such file or directory
+
+**问题描述 / Problem Description**:
+Tags: debian, software-installation, package-management | Score: 3 | Views: 212 | Answers: 1 | Created: 2026-04-07
+
+**解决方案 / Solution**:
+I tried to run the post-installation script:
+$ sudo /var/lib/dpkg/info/hoptodesk.postinst
+
+sudo: unable to execute /var/lib/dpkg/info/hoptodesk.postinst: No such file or directory
+
+I have found that /var/lib/dpkg/info/hoptodesk.postinst exists, and is an executable as it should be, just it's in DOS CRLF (line terminators) format:
+$ file /var/lib/dpkg/info/hoptodesk.postinst
+
+/var/lib/dpkg/info/hoptodesk.postinst: Bourne-Again shell script, Unicode text, UTF-8 text executable, with CRLF line terminators
+
+
+So, to resolve the issue is as easy as to convert to Unix LF format, and re-running dpkg:
+$ sudo dos2unix /var/lib/dpkg/info/hoptodesk.postinst
+
+dos2unix: converting file /var/lib/dpkg/info/hoptodesk.postinst to Unix format...
+
+and finally, finishing the installation with:
+$ sudo dpkg --configure --pending
+
+Setting up hoptodesk (1.45.10) ...
+Created symlink '/etc/systemd/system/multi-user.target.wants/hoptodesk.service' → '/etc/systemd/system/hoptodesk.service'.
+
+Hope it helps.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805343/installing-hoptodesk-on-debian-13-trixie-or-lmde-7-gigi-error-var-lib-dpkg
+
+---
+
+#### 320. Upgrade to grub 2.14 from 2.12 on Debian can no longer load Linux initrd
+
+**问题描述 / Problem Description**:
+Tags: debian, boot, grub2, initrd | Score: 3 | Views: 440 | Answers: 1 | Created: 2026-03-05
+
+**解决方案 / Solution**:
+GRUB 2.14 is using native EFI load image instead of legacy handover if
+
+Kernel is built with EFI stub
+shim supports LoadImage protocol (as of version 16.1).
+
+In this case GRUB tries to install LoadFile2 protocol on the loaded initrd image, later kernel stub will call this protocol to get initrd.
+The first error comes from installing LoadFile2 protocol and the second - from calling LoadImage when booting kernel. The first is completely inside the firmware. The second is between GRUB and shim.
+There is no way to force legacy handover protocol. You can try installing older shim (pre-16.1) to see if it changes anything but it is not an option in the long run.
+Consider reporting it to the grub developers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804824/upgrade-to-grub-2-14-from-2-12-on-debian-can-no-longer-load-linux-initrd
+
+---
+
+#### 321. Ubuntu system returns &quot;killed&quot; on nearly all commands
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, nginx, node.js, out-of-memory, deployment | Score: 3 | Views: 170 | Answers: 2 | Created: 2026-02-16
+
+**解决方案 / Solution**:
+It definitely looks like a crypto miner malware, which has arranged a higher priority for itself and is trying to kill any commands that would kill it before they can take effect.
+  │ └─809 /bin/softirq --randomx-1gb-pages -o 45.125.66.100:444 -u react -p 3cthDeQ5 --tls -o 45.94.31.89:443 -u react -p 3cthDeQ5 --tls -B
+
+This is clearly a fake name: a real softirq process would have a name like [ksoftirqd/0] and it would have no reason to have IP addresses and ports as parameters.
+Maybe you're using a weak password (use SSH key authentication for internet-accessible servers) or the software you're running has a vulnerability that allows the attacker to plant malware to the system.
+In the comments, eyoung100 already identified PeerBlight (CVE-2025-55182) as the possible vulnerability, if the application is using React Server Function endpoints or React Server Components. If you are using the vulnerable versions (anything older than versions 19.0.1, 19.1.2 or 19.2.1), you'll need to update those componets before redeploying your application.
+Anyway, the link in Robo's answer seems to indicate this malware is part of the RondoDox botnet.
+Because the malware attempts to protect itself, you may have to stop the VPS, create a new &quot;clean&quot; one, and then connect the disk of the infected VPS as a secondary disk to the clean VPS to recover your data and to possibly inspect the malware. Unless you know how to check, assume any executables on the disk of the infected VPS are contaminated by malware - so don't reuse them. Before redeploying, check if the application (or any components you used in it, if the application is custom-built by yourself) for security notices and update as necessary.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804521/ubuntu-system-returns-killed-on-nearly-all-commands
+
+---
+
+#### 322. Resizing encrypted system partition on Linux Ubuntu
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, partition, encryption, luks, gparted | Score: 3 | Views: 398 | Answers: 1 | Created: 2025-11-14
+
+**解决方案 / Solution**:
+This solution looks at a convenient GUI option, using the KDE Partition Manager.
+
+Unlock the LUKS-encrypted partition.
+Resize the ext4 filesystem or another supported filesystem inside the partition. This also has the intended effect that it shrinks the encrypted partition.
+Finally, apply changes.
+
+Here is a CLI solution derived from the commands KDE Partition Manager executes.
+
+Unlock the LUKS-encrypted partition: cryptsetup open --type luks2 /dev/[device_name] [device_name]_crypt. This will allow you to see the filesystem inside on /dev/mapper/[device_name]_crypt
+Check the filesystem for errors. For an ext4 filesystem, use e2fsck -v /dev/mapper/[device_name]_crypt to check for any errors. e2fsck -vf /dev/mapper/[device_name]_crypt can be used to repair those errors. For btrfs, use btrfs check instead and btrfs check --repair to repair errors. It is advised to backup data before repairing the filesystem.
+Execute resize2fs /dev/mapper/[device_name]_crypt [new_size] to shrink the filesystem. This will not shrink the LUKS partition. [new_size] should be 32768 512-bytes (16777216 bytes or 16 megabytes) smaller than [new_size] in the next step to allow for room for the LUKS header. For btrfs, mount /dev/mapper/[device_name]_crypt first and then run btrfs filesystem resize [new_size] [mounted_path].
+To shrink the LUKS partition, run cryptsetup --size [new_size] resize /dev/mapper/[device_name]_crypt. Note [new_size] is in 512-byte units (divide bytes by 512 or megabytes by 2 to obtain this)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801335/resizing-encrypted-system-partition-on-linux-ubuntu
+
+---
+
+#### 323. How to debug uninformative email received at startup
+
+**问题描述 / Problem Description**:
+Tags: linux, startup | Score: 2 | Views: 81 | Answers: 1 | Created: 2026-04-26
+
+**解决方案 / Solution**:
+Thanks for all the comments. I am confident that the email originated from an at command, but I am unable to find any details of which command or what, in more detail, went wrong.
+There does not seem to be much error processing capability in at. The solution I devised is to create a file, called, say, at.script containing:
+
+echo &quot;First comment”
+Command
+echo &quot;Ending comment”
+
+and use it like:
+at -f at.script HH:mm
+which sends an email if the command fails:
+
+First comment
+[error message]
+Ending comment
+
+To always send an email, use
+at -m -f at.script HH:mm
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805641/how-to-debug-uninformative-email-received-at-startup
+
+---
+
+#### 324. Get debug symbols for ubuntu kernel
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, linux-kernel, debugging | Score: 2 | Views: 85 | Answers: 1 | Created: 2026-04-18
+
+**解决方案 / Solution**:
+So apparently they are in the linux-image-unsigned package (linux-image-unsigned-6.17.0-19-generic-dbgsym)
+$ dpkg --listfiles linux-image-unsigned-6.17.0-19-generic-dbgsym | grep /usr/lib/debug/boot
+/usr/lib/debug/boot
+/usr/lib/debug/boot/vmlinux-6.17.0-19-generic
+
+$ file /usr/lib/debug/boot/vmlinux-6.17.0-19-generic
+/usr/lib/debug/boot/vmlinux-6.17.0-19-generic: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=3aca328be7c4b1bc5cbb857c1483d4ac6e979e45, with debug_info, not stripped
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805516/get-debug-symbols-for-ubuntu-kernel
+
+---
+
+#### 325. Cinnamon - I can&#39;t get my laptop to power off when lid is closed
+
+**问题描述 / Problem Description**:
+Tags: debian, systemd, cinnamon | Score: 2 | Views: 46 | Answers: 1 | Created: 2026-04-17
+
+**解决方案 / Solution**:
+The handling of lid switch is blocked by the csd-power which has its own logic. Looking at cinnamon-settings-daemon sources you should be able to disable it with
+gsettings set org.cinnamon.settings-daemon.plugins.power inhibit-lid-switch false
+
+You should also be able to tell csd-power to power off instead of suspending with
+gsettings set org.cinnamon.settings-daemon.plugins.power lid-close-battery-action shutdown
+gsettings set org.cinnamon.settings-daemon.plugins.power lid-close-ac-action shutdown
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805509/cinnamon-i-cant-get-my-laptop-to-power-off-when-lid-is-closed
+
+---
+
+#### 326. Unable to login with normal user via SSH after upgrading to Debian Bookworm
+
+**问题描述 / Problem Description**:
+Tags: debian, ssh, arm, putty | Score: 2 | Views: 48 | Answers: 1 | Created: 2026-04-07
+
+**解决方案 / Solution**:
+Apr 06 23:00:35 odroidhc4 sshd-session[780237]: User ricky from 192.168.0.X not allowed because none of user's groups are listed in AllowGroups
+
+This would be the source of the problem.   Check the definition of AllowGroups and DenyGroups in your /etc/ssh/sshd_config.   Either add user ricky to one of the allowed groups or comment out that definition in the config.
+From man sshd_config:
+
+AllowGroups
+This keyword can be followed by a list of group name patterns, separated by
+spaces.  If specified, login is allowed only for users whose primary group
+or supplementary group list matches one of the patterns.  Only group names
+are valid; a numerical group ID is not recognized.  By default, login is
+allowed for all groups.  The allow/deny groups directives are processed in
+the following order: DenyGroups, AllowGroups.
+See PATTERNS in ssh_config(5) for more information on patterns.  This keyword
+may appear multiple times in sshd_config with each instance appending to the
+list.
+
+and
+
+DenyGroups
+This keyword can be followed by a list of group name patterns, separated by
+spaces.  Login is disallowed for users whose primary group or supplementary
+group list matches one of the patterns.  Only group names are valid; a
+numerical group ID is not recognized.  By default, login is allowed for all
+groups.  The allow/deny groups directives are processed in the following
+order: DenyGroups, AllowGroups.
+See PATTERNS in ssh_config(5) for more information on patterns.  This keyword
+may appear multiple times in sshd_config with each instance appending to the
+list.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805337/unable-to-login-with-normal-user-via-ssh-after-upgrading-to-debian-bookworm
+
+---
+
+#### 327. Debian 13 display issue with notebook
+
+**问题描述 / Problem Description**:
+Tags: debian, display, debian-installer, firmware, radeon | Score: 2 | Views: 181 | Answers: 2 | Created: 2026-04-03
+
+**解决方案 / Solution**:
+What is going on?
+
+Laptop's not working without firmware; in this case probably especially GPU firmware, which would be in the non-free firmware-amd-graphics-* package.
+
+Is it possible to fix this without installing non-free firmware?
+
+no. Unless you can write that firmware yourself. That's not practically possible.
+
+Curiously, Debian 12 LXDE with firmware=never doesn't have this issue: after installation I can access both LXDE and CLI normally.
+
+Unless the installation of Debian 13 with non-free firmware also fails, I suspect it's falling back to VESA graphics, which is probably not what you want on a laptop. (or you, at some point, installed the non-free firmware and forgot about it – always take the human factor into account!)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805270/debian-13-display-issue-with-notebook
+
+---
+
+#### 328. How to set GET_EVENT_STATUS_NOTIFICATION interval for CD drive in Linux
+
+**问题描述 / Problem Description**:
+Tags: linux, configuration, block-device, data-cd | Score: 2 | Views: 125 | Answers: 1 | Created: 2026-03-24
+
+**解决方案 / Solution**:
+The interval at which Linux kernel polls removable block devices is set by the events_dfl_poll_msecs setting. You can set it by e.g.
+echo 60000 &gt; /sys/module/block/parameters/events_dfl_poll_msecs
+
+to increase the interval to 60 seconds. Setting it to 0 will disable polling entirely and newly inserted discs will only be detected when you try to access the drive.
+There is also per-device setting events_poll_msecs. When set to -1, the device uses the global setting above.
+echo -1 &gt; /sys/block/sr0/events_poll_msecs
+
+The kernel default is actually 0 (polling disabled), but on most distributions udev rule in /usr/lib/udev/rules.d/60-block.rules overrides this:
+# enable in-kernel media-presence polling
+ACTION==&quot;add&quot;, SUBSYSTEM==&quot;module&quot;, KERNEL==&quot;block&quot;, ATTR{parameters/events_dfl_poll_msecs}==&quot;0&quot;, \
+   ATTR{parameters/events_dfl_poll_msecs}=&quot;2000&quot;
+
+If you wanted to permanently modify the setting (rather than just for testing), creating an override file in /etc/udev/rules.d would be the cleanest way.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805135/how-to-set-get-event-status-notification-interval-for-cd-drive-in-linux
+
+---
+
+#### 329. Overmounts behave differently between / and other mount points
+
+**问题描述 / Problem Description**:
+Tags: linux, mount, cd-command, namespace | Score: 2 | Views: 136 | Answers: 1 | Created: 2026-03-13
+
+**解决方案 / Solution**:
+A leading / is handled specially by basically jumping to /proc/self/root. That can be changed by chroot or pivot_root but not cd. Mounts are only considered for each path component e.g. subdirectory, and there are none in cd /.
+To actually see the tmpfs mounted over /, use ls /... To exclude interference by the shell, use cd -P /...
+hostname:~$ unshare -cm --keep-caps
+hostname:~$ mount -t tmpfs tmpfs /
+hostname:~$ cd /
+hostname:/$ ls
+bin   cdrom  etc   lib    lib64   lost+found  mnt  old  proc  run   srv  tmp  var
+boot  dev    home  lib32  libx32  media       new  opt  root  sbin  sys  usr
+hostname:/$ ls ..
+hostname:/$ touch test
+touch: cannot touch 'test': Permission denied
+hostname:/$ touch ../test
+hostname:/$ ls ..
+test
+hostname:/$ ls
+bin   cdrom  etc   lib    lib64   lost+found  mnt  old  proc  run   srv  tmp  var
+boot  dev    home  lib32  libx32  media       new  opt  root  sbin  sys  usr
+hostname:/$ cd .. # Bash swallows the `..`
+hostname:/$ ls
+bin   cdrom  etc   lib    lib64   lost+found  mnt  old  proc  run   srv  tmp  var
+boot  dev    home  lib32  libx32  media       new  opt  root  sbin  sys  usr
+hostname:/$ cd -P ..
+hostname:/$ ls
+test
+hostname:/$ mkdir bin
+hostname:/$ cp /bin/busybox bin
+hostname:/$ chroot . busybox ash
+
+
+BusyBox v1.37.0 (Ubuntu 1:1.37.0-4ubuntu1) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+/ $ ls
+bin
+/ $ cd / # Jumps to, i.e. stays at, the new `/` since we chrooted
+/ $ ls
+bin
+/ $ 
+hostname:/$ ls
+bin
+hostname:/$ cd / # Jumps to real `/` when outside chroot
+hostname:/$ ls
+bin   cdrom  etc   lib    lib64   lost+found  mnt  old  proc  run   srv  tmp  var
+boot  dev    home  lib32  libx32  media       new  opt  root  sbin  sys  usr
+hostname:/$ ls usr/.. # Any (attempted) directory change triggers mountpoint lookup
+bin
+
+
+Notably, if I switch into the shell's mount namespace and run ls from another terminal using nsenter --target $PID_OF_FIRST_SHELL -m ls, then I get the error message
+
+man setns, used by nsenter, says:
+
+Changing the mount  namespace  requires  that  the  caller  possess  both  CAP_SYS_CHROOT [...]
+
+So the setns probably performs a chroot internally.
+
+
+Are you saying that chdir(&quot;..&quot;) doesn't get resolved to the root directory?
+
+.. means ./.. which grabs the cwd and resolves to /... Linux prevents escaping the root directory, so /.. still resolves to the old /. Since .. is usually not the current directory, Linux takes the time to check whether there's a mountpoint i.e. DCACHE_MOUNTED. Now the mountpoint code replaces the old / with the new /.
+You can replace ls /.. with ls /usr/...
+I needed /.. to force a non-simple path component that resolves to the root directory. Otherwise, Linux is too lazy to check for mountpoints. ls //, ls ///, ls /./, and ls //./. all make Linux lazy. Linux just blindly skips the slashes and single dots. Symlinks basically just replace the prefix, so ln -s . /test doesn't stop Linux from being too lazy to check the mountpoint.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804976/overmounts-behave-differently-between-and-other-mount-points
+
+---
+
+#### 330. Sunshine + Moonlight on Linux (RTX 3060) – how to enable YUV 4:4:4 / RGB streaming?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, nvidia, ffmpeg, video-encoding | Score: 2 | Views: 186 | Answers: 1 | Created: 2026-03-10
+
+**解决方案 / Solution**:
+YUV 4:4:4 with NvENC encoding will outright not work on Linux as of now and that message will be shown by sunshine.
+This is because Sunshine has not implemented 4:4:4 NvENC support for Linux yet. The discussion around implementing it (LizardByte discussion #220) latest comment (made on Jan 10th, 2025) is:
+
+Is there any update on native/recombined YUV4:4:4 host support on Linux? I couldn't see any MR or discussion related to it around the repos or in the discord.
+
+And the PR that implemented it (Sunshine PR #2533)  explicitly mentions:
+
+linux support may be possible through ffmpeg, but not yet implemented or even investigated
+
+Windows support was added in release 2025.118.151840 and no other release until today mentions 4:4:4 at all. So the reason it doesn't work is because the host is Linux and it's still not implemented for it.
+If you prioritize 4:4:4 over NvENC GPU Encoding, 4:4:4 works on Linux as of now with x264 encoding but is apparently currently not available for x265 encoding because it jumps from wanting yuv444p10le or yuv420p10le to deciding to use x264 if Main10 is not available. Issue #4836 demonstrates this:
+
+[2026-03-10 16:14:17.056]: Info: Creating encoder [libx264]
+[2026-03-10 16:14:17.056]: Info: Color coding: SDR (Rec. 601)
+[2026-03-10 16:14:17.056]: Info: Color depth: 8-bit
+[2026-03-10 16:14:17.056]: Info: Color range: JPEG
+[2026-03-10 16:14:17.056]: Info: Streaming bitrate is 1000000
+[2026-03-10 16:14:17.057]: Info: [libx264 @ 0x7712a53fed80] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2
+[2026-03-10 16:14:17.058]: Info: [libx264 @ 0x7712a53fed80] profile High 4:4:4 Predictive, level 4.2, 4:4:4, 8-bit
+[2026-03-10 16:14:17.081]: Warning: [libx264 @ 0x7712a53fed80] VBV underflow (frame 0, -43076 bits)
+[2026-03-10 16:14:17.081]: Info: [libx264 @ 0x7712a53fed80] frame I:1     Avg QP:47.00  size:  8197
+[2026-03-10 16:14:17.081]: Info: [libx264 @ 0x7712a53fed80] mb I  I16..4: 100.0%  0.0%  0.0%
+[2026-03-10 16:14:17.081]: Info: [libx264 @ 0x7712a53fed80] coded y,u,v intra: 0.0% 0.0% 0.0%
+[2026-03-10 16:14:17.081]: Info: [libx264 @ 0x7712a53fed80] i16 v,h,dc,p: 88%  0% 12%  0%
+[2026-03-10 16:14:17.081]: Info: [libx264 @ 0x7712a53fed80] kb/s:3934.56
+[2026-03-10 16:14:17.082]: Info: Screencasting with X11
+[2026-03-10 16:14:17.083]: Info: Creating encoder [libx265]
+[2026-03-10 16:14:17.083]: Info: Color coding: SDR (Rec. 709)
+[2026-03-10 16:14:17.083]: Info: Color depth: 10-bit
+[2026-03-10 16:14:17.083]: Info: Color range: JPEG
+[2026-03-10 16:14:17.083]: Info: Streaming bitrate is 1000000
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140] Specified pixel format yuv444p10le is not supported by the libx265 encoder.
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140] Supported pixel formats:
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140]   yuv420p
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140]   yuvj420p
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140]   yuv422p
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140]   yuvj422p
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140]   yuv444p
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140]   yuvj444p
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140]   gbrp
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140]   gray
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140]   yuva420p
+[2026-03-10 16:14:17.083]: Error: Could not open codec [libx265]: Invalid argument
+[2026-03-10 16:14:17.083]: Info: Creating encoder [libx265]
+[2026-03-10 16:14:17.083]: Info: Color coding: SDR (Rec. 709)
+[2026-03-10 16:14:17.083]: Info: Color depth: 10-bit
+[2026-03-10 16:14:17.083]: Info: Color range: JPEG
+[2026-03-10 16:14:17.083]: Info: Streaming bitrate is 1000000
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140] Specified pixel format yuv420p10le is not supported by the libx265 encoder.
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140] Supported pixel formats:
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140]   yuv420p
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140]   yuvj420p
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140]   yuv422p
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140]   yuvj422p
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140]   yuv444p
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140]   yuvj444p
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140]   gbrp
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140]   gray
+[2026-03-10 16:14:17.083]: Error: [libx265 @ 0x7712a53ff140]   yuva420p
+[2026-03-10 16:14:17.083]: Error: Could not open codec [libx265]: Invalid argument
+[2026-03-10 16:14:17.083]: Warning: Encoder [software] does not support HEVC Main10 on this system
+
+x264 encoding succeeds but x265 is dropped due to Main10 not being available while yuv444p was reported by libx265 to be available.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804918/sunshine-moonlight-on-linux-rtx-3060-how-to-enable-yuv-444-rgb-streami
+
+---
+
+#### 331. Debian software RAID1 Over my head: I&#39;m looking for pointers concerning UEFI booting alternate EFI locations if the either one fails
+
+**问题描述 / Problem Description**:
+Tags: debian, uefi, firmware, software-raid | Score: 2 | Views: 190 | Answers: 1 | Created: 2026-03-09
+
+**解决方案 / Solution**:
+The UEFI hard drive media device paths are using partition GUID. It can be shown e.g. with lsblk -o +partuuid.
+UEFI boot entries are normally managed by the efibootmgr --create. You pass the Linux device node and efibootmgr will compute the necessary GUID, partition offset and partition size for you. For Linux MD RAID1 you will need to create two boot entries, one for each physical partition. I do not think Debian does it automatically in this case.
+Debian actually supports having two independent copies of ESP (without RAID) and will install bootloader on each of them when updating grub. For this you set grub-efi/install_devices option of the grub-efi-amd64 package:
+bor@ThinkPad-E16-Gen3:~/tmp$ sudo debconf-show grub-efi-amd64 | grep grub-efi/install_devices:
+* grub-efi/install_devices: /dev/disk/by-id/nvme-eui.ace42e005580d4a9-part1
+bor@ThinkPad-E16-Gen3:~/tmp$
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804885/debian-software-raid1-over-my-head-im-looking-for-pointers-concerning-uefi-boo
+
+---
+
+#### 332. Cant get the static ip to connect to the CUPS server
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, cups, printing | Score: 2 | Views: 55 | Answers: 1 | Created: 2026-02-20
+
+**解决方案 / Solution**:
+As default, CUPS would listen only to local host. If you want CUPS to listen to your static IP, you must configure it in /etc/cups/cupsd.conf. Make sure that the lines marked with &lt;---- are in there (remove the arrows of course..)
+# Listen on external interfaces for connections
+Listen &lt;dnsnameofyourserver&gt;:631    &lt;--------
+Listen /var/run/cups/cups.sock
+
+# Show shared printers on the local network.
+Browsing On
+BrowseOrder allow,deny
+BrowseAllow all
+BrowseAddress All         &lt;-------
+
+# Restrict access to the server...
+&lt;Location /&gt;
+  Order allow,deny
+  Allow localhost
+  Allow All               &lt;---------
+&lt;/Location&gt;
+
+# Restrict access to the admin pages...
+&lt;Location /admin&gt;
+  Order allow,deny
+  Allow All                &lt;---------
+&lt;/Location&gt;
+
+
+# Restrict access to configuration files...
+&lt;Location /admin/conf&gt;
+  AuthType Default
+  Require user @SYSTEM
+  Order allow,deny
+  Allow All                       &lt;---------
+&lt;/Location&gt;
+
+and restart cups.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804597/cant-get-the-static-ip-to-connect-to-the-cups-server
+
+---
+
+#### 333. How to enable/disable Airplane Mode on Debian 13 or Ubuntu 24.04 with GNOME 48+?
+
+**问题描述 / Problem Description**:
+Tags: debian, ubuntu, wifi, gnome, networkmanager | Score: 2 | Views: 284 | Answers: 1 | Created: 2026-02-10
+
+**解决方案 / Solution**:
+On modern GNOME systems Airplane Mode is controlled by kernel rfkill, not by nmcli alone.
+Enable Airplane Mode (WiFi, WWAN, Bluetooth OFF):
+rfkill block all
+nmcli radio all off
+
+Disable Airplane Mode (WiFi, WWAN, Bluetooth ON):
+rfkill unblock all
+nmcli radio all on
+
+Airplane Mode while keeping Bluetooth separate:
+Enable (WiFi and WWAN OFF, Bluetooth unchanged):
+rfkill block wifi
+rfkill block wwan
+nmcli radio wifi off
+nmcli radio wwan off
+
+Disable (WiFi and WWAN ON, Bluetooth unchanged):
+rfkill unblock wifi
+rfkill unblock wwan
+nmcli radio wifi on
+nmcli radio wwan on
+
+Notes:
+
+GNOME derives Airplane Mode state from rfkill
+nmcli alone may disable radios without updating the GNOME UI
+Using both tools keeps CLI and desktop state consistent
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804380/how-to-enable-disable-airplane-mode-on-debian-13-or-ubuntu-24-04-with-gnome-48
+
+---
+
+#### 334. How to use a &quot;grep&quot; result as an input of another grep, resulting in multiple lines?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, command-line, grep, pipe, windows-subsystem-for-linux | Score: 2 | Views: 924 | Answers: 5 | Created: 2025-10-29
+
+**解决方案 / Solution**:
+If you're already using awk, you don't need to use grep.  awk can do Extended Regular Expression (ERE) matches like grep -E.
+And just as importantly, awk can use boolean operators (!, &amp;&amp;, ||, and even parentheses) with conditions/patterns, which grep can't do (although you can make a regex with alternations using | which is an OR operation).
+For example:
+awk -F- '/Rebuild All started/ &amp;&amp; 
+         /: (fatal|error)/ { print $1 }' build_output.txt | 
+  sort -n |
+  uniq
+
+You could even write the awk script so that it stored the matches in an associative array, then sorted and printed the the output in an END block, avoiding the need for piping to sort -n | uniq.
+BTW, egrep is deprecated. use grep -E instead for ERE.  With GNU grep you also have the option of using -P for PCRE
+
+If you're not using awk, then piping the output of grep into another grep is effectively an AND operation.  If needed, you can use grep's -v option for negation.
+e.g. using cut instead of awk.
+grep 'Rebuild All started' build_output.txt |
+  grep -E ': (fatal|error)/' |
+  cut -d- -f1 |
+  sort -n |
+  uniq
+
+This is objectively worse than just using awk. Every program in a pipeline has startup overhead and requires more resources (CPU time, RAM, and I/O bandwidth)...this is not as big a problem as it was a decade or two ago, we have much faster computers and storage devices now, but that's not really a good excuse to be wasteful in how we use them.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800857/how-to-use-a-grep-result-as-an-input-of-another-grep-resulting-in-multiple-li
+
+---
+
+#### 335. apt-get upgrade fails: a 20220329.git681281e4-0ubuntu3.40 package is missing from our jammy-updates pool. How can we catch it?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, apt, upgrade | Score: 2 | Views: 381 | Answers: 1 | Created: 2025-10-28
+
+**解决方案 / Solution**:
+The error indicates that your Artifactory repository is inconsistent — it’s referencing a package version in its indices that’s not present in its pool. The package should be in the pool, it was uploaded to the 22.04 repositories on September 18.
+As far as the upgrade itself, only you can know — the rest of apt’s output should tell you what it did. A quick check is to run apt-get upgrade again; if it reports fewer than 514 packages to upgrade (I assume they were upgraded, not installed — the latter would be extremely surprising), then the upgrade did process packages other than the one it couldn’t download.
+Incidentally, 514 packages to upgrade, and in particular 32 held back, is unusual for an upgrade that doesn’t involve bumping releases. But whether that indicates a problem or not depends on how the system has been maintained so far.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800826/apt-get-upgrade-fails-a-20220329-git681281e4-0ubuntu3-40-package-is-missing-fro
+
+---
+
+#### 336. Can AppArmor deny access to file metadata with stat()?
+
+**问题描述 / Problem Description**:
+Tags: linux, apparmor | Score: 1 | Views: 69 | Answers: 1 | Created: 2026-04-20
+
+**解决方案 / Solution**:
+AppArmor can’t fully hide a file the way chmod 000 would, because even with a deny rule the kernel may still allow metadata lookups (stat/inode info) unless you block broader filesystem access paths. what you can do is tighten the profile by denying not just read/execute but also **all filesystem access to that subtree using deny /secret/** rwmklx, plus restricting open and limiting directory traversal (and avoid giving /{,**} rwix which is way too permissive). but honestly AppArmor is not designed for “stealth filesystem” behavior, so even with tuning you may still see partial metadata leaks like stat, becuase that’s handled at VFS layer not just path access.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805542/can-apparmor-deny-access-to-file-metadata-with-stat
+
+---
+
+#### 337. Inkscape shows multiple ICC profile duplicated
+
+**问题描述 / Problem Description**:
+Tags: debian, duplicate-files, inkscape | Score: 1 | Views: 32 | Answers: 1 | Created: 2026-04-11
+
+**解决方案 / Solution**:
+To figure out where files come from, use dpkg -S (or dlocate -S if you have dlocate installed):
+$ dpkg -S /usr/share/color/icc/colord/AdobeRGB1998.icc /usr/share/color/icc/compatibleWithAdobeRGB1998.icc
+colord-data: /usr/share/color/icc/colord/AdobeRGB1998.icc
+icc-profiles-free: /usr/share/color/icc/compatibleWithAdobeRGB1998.icc
+
+Some of them are duplicated inside single packages:
+$ dpkg -S /usr/share/color/icc/ghostscript/default_gray.icc /usr/share/color/icc/ghostscript/sgray.icc
+libgs-common: /usr/share/color/icc/ghostscript/default_gray.icc
+libgs-common: /usr/share/color/icc/ghostscript/sgray.icc
+
+although the files themselves have very different sizes.
+In some cases, file can show an embedded timestamp (along with other information):
+$ file /usr/share/color/icc/colord/AdobeRGB1998.icc /usr/share/color/icc/compatibleWithAdobeRGB1998.icc /usr/share/color/icc/ghostscript/default_gray.icc /usr/share/color/icc/ghostscript/sgray.icc
+/usr/share/color/icc/colord/AdobeRGB1998.icc:        ColorSync color profile 4.4, type lcms, RGB/XYZ-mntr device by lcms, 3196 bytes, 3-3-2025 17:37:57, 0xf18a476c271ccdb3 MD5 'r'
+/usr/share/color/icc/compatibleWithAdobeRGB1998.icc: Microsoft color profile 2.2, type argl, RGB/XYZ-mntr device by argl, 580 bytes, 8-7-2006 3:28:47 &quot;Compatible with Adobe RGB (1998)&quot;
+/usr/share/color/icc/ghostscript/default_gray.icc:   ColorSync color profile 2.1, GRAY/XYZ-mntr device, 2460 bytes &quot;Artifex Software sGray ICC Profile&quot;
+/usr/share/color/icc/ghostscript/sgray.icc:          ColorSync color profile 2.1, GRAY/XYZ-mntr device, 416 bytes &quot;Artifex Software sGray ICC Profile&quot;
+
+So AdobeRGB1998.icc is newer than compatibleWithAdobeRGB1998.icc; as its name suggests, the latter is a free re-implementation of the Adobe profile, but the Adobe profile has been updated since.
+Some ICC v2 profiles can be viewed using tools in the argyll package. Copy the profiles to a directory where you can write, then run iccgamut to convert them to gamut files, and viewgam to produce an HTML file allowing them to be explored.
+If the duplicate names really bother you, you can fix some of them by removing packages if you don’t need them (for example icc-profiles-free). In libgs-common’s case, you could report this as a bug — I don’t think it should ship profiles with duplicate names.
+In any case you shouldn’t rename files shipped by packages, the renamed files will no longer be managed by the package manager.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805390/inkscape-shows-multiple-icc-profile-duplicated
+
+---
+
+#### 338. Dockerfile with Airflow base image wont build in Gitlab
+
+**问题描述 / Problem Description**:
+Tags: debian, docker, gitlab | Score: 1 | Views: 74 | Answers: 2 | Created: 2026-03-31
+
+**解决方案 / Solution**:
+Perhaps there's a caching problem as apt-get update works locally and Docker doesn't pull newer images unless necessary. You can use the digest of your apache/airflow:slim-2.11.2-python3.10 to ensure both computers have the same version. It's surprising that your sudo apt-get update works because I get &quot;sudo: a terminal is required to read the password&quot; on the latest version. You can use the Dockerfile command USER to switch to root and back:
+FROM apache/airflow@sha256:32ef1c1927c47e55fd05f65e7da7b60ff7c431d0cca5c27972c7f436fff9cb56
+USER root
+
+# Debug 1
+RUN sha256sum /etc/apt/sources.list.d/debian.sources /usr/share/keyrings/debian-archive-keyring.gpg
+# You should see:
+# fba4b66c95952e28af3fda06211991a51dc83d5448c2a4d262ec736b12323edb  /etc/apt/sources.list.d/debian.sources
+# 506b815cbb32d9b6066b4a2aa524071e071761e7e7f68c3ac74f3061ba852017  /usr/share/keyrings/debian-archive-keyring.gpg
+
+# Debug 2
+RUN curl http://deb.debian.org/debian/dists/bookworm/InRelease
+# Then check that the PGP SIGNATURE section printed in the GitLab Runner
+# is the same as the one you see in a broswser
+
+RUN apt-get update &amp;&amp; \
+    apt-get install -y neofetch # example
+USER airflow
+
+The other possibility is that your GitLab Runner has the wrong configuration. Let's print the Dockerfile using cat. Your entire .gitlab-ci.yml should look like:
+# Replace this first half with no-tls-docker-runner is you're using that
+default:
+  image: docker:24.0.5-cli
+  services:
+    - docker:24.0.5-dind
+  before_script:
+    - docker info
+variables:
+  DOCKER_TLS_CERTDIR: &quot;/certs&quot;
+
+build:
+  stage: build
+  tags:
+    - tls-docker-runner
+  script:
+    - cat Dockerfile
+    - docker build --no-cache --progress=plain -t my-docker-image .
+    - docker run --rm -i my-docker-image bash -c neofetch
+# Then verify the printed Dockerfile contents are exactly what you saved
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805238/dockerfile-with-airflow-base-image-wont-build-in-gitlab
+
+---
+
+#### 339. How to create launcher for an app started with command arguments - tor browser launcher does not work
+
+**问题描述 / Problem Description**:
+Tags: debian, kde, launcher, desktop-shortcuts | Score: 1 | Views: 78 | Answers: 1 | Created: 2026-03-21
+
+**解决方案 / Solution**:
+As Andrei answered above: start-tor-browser.desktop is using a relative path so the command in the answer actually only works after cd ing into the right directory first (cd /home/dir/tor-browser).
+The app launcher needs to be changed like so:
+
+Program: sh
+Arguments: -c 'cd /home/dir/tor-browser &amp;&amp; /usr/bin/firejail --profile=/etc/firejail/start-tor-browser.profile /home/dir/tor-browser/start-tor-browser.desktop'
+
+This solved my problem. If you know of a better one or find this has a problem, write an answer or a comment instead of downvoting.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805091/how-to-create-launcher-for-an-app-started-with-command-arguments-tor-browser-l
+
+---
+
+#### 340. Apt refusing to download new releaseinfo after refusing once
+
+**问题描述 / Problem Description**:
+Tags: debian, apt, software-updates | Score: 1 | Views: 57 | Answers: 1 | Created: 2026-03-15
+
+**解决方案 / Solution**:
+My fix for this type of situation is to delete the relevant repository indices from /var/lib/apt/lists. Files there start with the repository hostname, so for a third-party repository deleting all files starting with the appropriate hostname should do the trick.
+After removing the old indices, run apt update to download the current ones; apt won’t complain about changes in the release information.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805013/apt-refusing-to-download-new-releaseinfo-after-refusing-once
+
+---
+
+#### 341. How do I find out when my system last beeped?
+
+**问题描述 / Problem Description**:
+Tags: debian, audio, modprobe | Score: 1 | Views: 80 | Answers: 1 | Created: 2026-03-12
+
+**解决方案 / Solution**:
+No, I don't think there's such a log.
+Have you checked if there is a fire alarm with a low battery somewhere nearby?
+And an external hard drive can indeed make a beep-like sound if it moves its read/write heads around violently enough... like if it encounters a low-level read error and its firmware tells it to recalibrate its head positioning subsystem. There are even projects to make music using floppy &amp; hard drives (and other electromechanical devices): see The Floppotron 3.0 for a very extravagant example.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804970/how-do-i-find-out-when-my-system-last-beeped
+
+---
+
+#### 342. How to make networking work in UML 6.18.16?
+
+**问题描述 / Problem Description**:
+Tags: debian, networking, kernel, user-mode-linux | Score: 1 | Views: 42 | Answers: 1 | Created: 2026-03-11
+
+**解决方案 / Solution**:
+eth0=tuntap syntax had been marked as obsolete that's why you see Netdevice 0.
+Try replacing eth0=tuntap,umltap0 with vec0:transport=tap,ifname=umltap0,depth=128
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804936/how-to-make-networking-work-in-uml-6-18-16
+
+---
+
+#### 343. Display scaling of LMDE resets to default after screen resize
+
+**问题描述 / Problem Description**:
+Tags: debian, linux-mint, display-settings, gnome-boxes | Score: 1 | Views: 32 | Answers: 1 | Created: 2026-03-10
+
+**解决方案 / Solution**:
+This happens because Cinnamon is using automatic scaling instead of a fixed scale. In my case, resizing the Boxes window changed the virtual display geometry, and Cinnamon recalculated DPI and dropped effective scaling back to 100%.
+Check the current setting:
+gsettings get org.cinnamon.desktop.interface scaling-factor
+If it returns uint32 0, that means “automatic”.
+Force Cinnamon to use a fixed 200% scale instead:
+gsettings set org.cinnamon.desktop.interface scaling-factor 2
+You can verify it with:
+gsettings get org.cinnamon.desktop.interface scaling-factor
+It should now return:
+uint32 2
+After that, resizing the GNOME Boxes window should still change the guest resolution, but Cinnamon should keep the UI at 200% instead of reverting to 100%.
+Extra note: in this setup, spice-vdagent and the virtual display resize were working normally. The real problem was Cinnamon auto-scaling (scaling-factor = 0), not Boxes itself.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804919/display-scaling-of-lmde-resets-to-default-after-screen-resize
+
+---
+
+#### 344. MDADM Raid 5 reading speed is slow
+
+**问题描述 / Problem Description**:
+Tags: debian, dd, io, mdadm | Score: 1 | Views: 81 | Answers: 1 | Created: 2026-02-20
+
+**解决方案 / Solution**:
+I found a solution: I installed trixie-backport kernel.
+I just double-checked an old bookworm Live CD, it worked. I tested also a brandnew trixie Live CD, it didn't worked. Conclusion: there must be something wrong in current trixie kernel.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804613/mdadm-raid-5-reading-speed-is-slow
+
+---
+
+#### 345. OpenBox Display Scaler
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, openbox | Score: 1 | Views: 61 | Answers: 1 | Created: 2026-02-20
+
+**解决方案 / Solution**:
+To change the screen scaling in Openbox to something more readable on the GPD's small screen:
+
+Start a terminal emulator in Openbox and run xranadr -q | head, which will give you the display name on the start of the second line of output. On my GPD Pocket 2, the name is eDP-1.
+
+Edit the ~/.config/openbox/autostart file to include the following line at the start:
+xrandr --output &lt;display-name&gt; --scale 0.6
+
+
+Replace &lt;display-name&gt; with the name of your display.
+I found a scaling of 0.6 to be right for me, but you can adjust this to your liking. The lower the value, the larger everything will appear.
+
+Close and restart Openbox.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804600/openbox-display-scaler
+
+---
+
+#### 346. [V2EX] Linux 桌面环境 orWM 推荐
+
+**问题描述 / Problem Description**:
+RT ，当前在用 kde plasma ，但是感觉设置项太多，我也不喜欢 QT ，想换一下
+主要是想有鼠标时可以鼠标操作，出差时使用触控板进行操作，似乎 gnome 不错，但是不知道现在还稳定不，几年前用的时候动不动插件就用不了了....当然，我也只用一些基础插件。
+有人用 hyprland 吗？操作体验怎么样，桌面似乎是不能显示文件吗？鼠标和触控板操作不知道怎么样，有没有老哥解答一下，我的机器是 thinkbook 14+ 2024 ultra7 版本
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1203303#reply47
+
+---
+
+#### 347. [V2EX] 请教一个 unraid 的 docker 网络问题
+
+**问题描述 / Problem Description**:
+unraid 系统网关指向旁路由，但是 docker 里的 qb 和 tr 用什么方法可以不走旁路由吗？ docker 的网关可以指向主路由吗？只有一个网口并没有 vlan 交换机
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1198708#reply17
+
+---
+
+#### 348. [V2EX] Linux 格式化 fat32/exfat 分区避坑
+
+**问题描述 / Problem Description**:
+在 linux 下把 U 盘/tf 卡格式化为 fat32 或 exfat 格式，插入手机或 windows 不能识别。因为这是 Linux 下的 fat 格式，要转换为 windows 的。！！！更改前先保存数据！！！！！！更改前先保存数据！！！！！！更改前先保存数据！！！查看原来的fdisk /dev/sdc按 p, 看到 Type 显示为 LinuxDevice     Boot Start      End  Sectors  Size Id Type/dev/sdc1        2048 31293439 31291392 14.9G 83 Linux更改为"通用"格式按 t ，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1198633#reply24
+
+---
+
+#### 349. [V2EX] Linux 服务器上有多个 ip，程序本身不能指定接口，有第三方程序可以强制让程序使用指定接口吗？
+
+**问题描述 / Problem Description**:
+像 libbind 、proxychains 、部分 tsocks 这类基于 LD_PRELOAD 劫持 libc 的办法，不适合 golang 编写的程序
+有比较便捷的解决方案吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1197941#reply17
+
+---
+
+#### 350. [V2EX] Ubuntu 26.04 LTS 关键变化解读
+
+**问题描述 / Problem Description**:
+Ubuntu 26.04 LTS （代号 Resolute Raccoon ）预计于 2026 年 4 月 23 日发布，作为下一代长期支持版本，它将成为未来数年企业与服务器环境的重要基础系统。相比 24.04 LTS ，本次版本的变化并不只是界面升级，而是涉及 内核、桌面架构、软件栈、应用分发和系统安全机制等多个底层领域。参考 https://mp.weixin.qq.com/s/1D2OZ3SPDU0NZcvRidAiTw
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1196785#reply5
+
+---
+
+#### 351. [V2EX] win11 对比 ubuntu，是真的拉胯
+
+**问题描述 / Problem Description**:
+最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:win11 内置安全扫描，自动扫病毒，风扇狂转win11 自动后台更新，风扇狂转win11 什么也没做，但是 cpu 有工作，风扇会转win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。不比不知道原来 win11 这么拉胯
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1196703#reply83
+
+---
+
+#### 352. [V2EX] PVELXC 容器报错 Failed to receive program message: WebSocket connection closed unexpectedly
+
+**问题描述 / Problem Description**:
+环境是双路 7K62 加上 32G*16 内存运行了 PVE 系统创建了 LXC 容器LXC 容器使用了官方的 Ubuntu 22 模板创建容器的时候默认勾选了无特权容器容器的硬件配置为 4 核心，4G 内存 8G 硬盘 8G 缓冲区然后用这个创建好的容器做了模板，复制出来 22 个容器复制的时候硬盘自动选择了链接模式这个操作是找了 GPT 写的代码复制以上 22 个容器都运行同一个计算程序，程序始终访问网络，获取数据，计算，上交数据就和挖矿那种差不多现在问题是 22 个容器同时运行几个小时里面的程序就会崩溃报错Failed to receive program message: WebSoc
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1089807#reply4
+
+---
+
+#### 353. [V2EX] 记录一下今天的坑： snap hostfs
+
+**问题描述 / Problem Description**:
+今天帮人看故障，现象是 firefox 无法把/opt/data/ （一个单独 mount 的 RAID 卷）作为下载目录错误信息是刚访问到/opt/层就已经 permission denied 了首先 777 ，没修复然后看日志，发现是 apparmor修改了 snap.firefox.firefox 的 apparmor profile ，加 rw ，加 audit ，能捕捉到 firefox 访问/opt/的痕迹，并且授权，但浏览器看不到里面现有的文件想了好久，终于去看了一下/proc/XXX/mounts发现这个 RAID 卷居然 mount 在了/var/lib/snapd/host
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1086841#reply7
+
+---
+
+#### 354. [V2EX] ubuntu22.04 热点求救
+
+**问题描述 / Problem Description**:
+nuc11atck4 装了个 ubuntu22.04一开始连接热点失败，降级 wpasupplicant 到 2.9.0 可以了现在能连上热点了，但是网络不通。。完全搜不到解决方案，求救
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1086157#reply7
+
+---
+
+#### 355. [V2EX] 有精简版 ubuntu 吗？
+
+**问题描述 / Problem Description**:
+大家都怎么用那种 10G 硬盘的 VPS 的，自带系统装个 ubutnu 就还剩 4G 多点，docker 镜像都下载不了几个。
+保证系统必要功能，应该 2G 硬盘空间就能做到了吧，印象中 debian 就是这个值。我这边有的工具只有 ubuntu 才能直接使用，debian 有点问题。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1080458#reply13
+
+---
+
+#### 356. [V2EX] 求助： ubuntu 现在 ssh 不能直接 root 账户登录了？
+
+**问题描述 / Problem Description**:
+服务器一直用 24 年以前的 20.04 版本，为了不同设备登录方便不想用密钥，所以都设置成了直接 root 用户密码登录。在之前就发现用新版 22/24 的就无法直接设置 root 密码登录，设置点登录一直重复弹输入密码，这两天新安装 20.04 发现也不能直接用 root 登录了。。。搜了好半天好像没有讲过这个的，有遇到一样情况的吗？是否新版设置了什么权限需要多修改哪些地方呢？之前一直是在/etc/ssh/sshd_config 里面修改PermitRootLogin yesPasswordAuthentication yes然后重启 ssh ，就可以直接设置 root 和密码登录了，但现
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1078064#reply17
+
+---
+
+#### 357. [V2EX] Droidian 在 redmi note7 上，使用 docker，老是重启
+
+**问题描述 / Problem Description**:
+用旧手安装 Droidian ，安装 docker 。安装 dockge ，只要访问 dockge 页面，手机就重启。不访问 dockge 页面，正常得很，不会重启。大佬们还有有什么排查手段嘛？1. 查看重启记录last reboot 没有重启的记录2. dmesg -w 查看内核的打印，没有看出异常。3. docker logs 也没有异常。还有其他思路嘛？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1019336#reply4
+
+---
+
+#### 358. [V2EX] debian12 关不了机
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1018014#reply7
+
+---
+
+#### 359. [V2EX] debian 11 安装很慢是怎么回事？
+
+**问题描述 / Problem Description**:
+在 vmware 上安装 debian11 ，这一步总是卡很长时间，上一步尝试选择华为云源也卡在这里。这一步是在干什么？用的是 3.7G 的完整版镜像，按理说不用联网啊。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1006490#reply3
+
+---
+
+#### 360. [V2EX] apt install 安装的东西附带的依赖 为什么在 purge 之后 autoremove 删不掉
+
+**问题描述 / Problem Description**:
+是有其他组件依赖吗  为什么总感觉 debian 删东西删不干净
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1000277#reply3
+
+---
+
+#### 361. [V2EX] 求 Linux 系统资源探针
+
+**问题描述 / Problem Description**:
+如题，现在有一个 Debian12 ，轻度使用，挂了一些服务，想挂个探针，提供 web 界面，方便查看。
+看了一下哪吒探针之类的，挺麻烦的，要部署两端。试了试 netdata ，内存占用太大了，不好。
+求助 v 友有没有合适的探针软件，要求：
+
+单台部署，部署不要太复杂，最好傻瓜式装上就能用，可以接受一点点折腾。
+自身资源占用别太离谱，内存最好别超 100m
+web 界面支持，能看、方便看就行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/994208#reply11
+
+---
+
+#### 362. [V2EX] GLM 的稳定性是不是太离谱了？
+
+**问题描述 / Problem Description**:
+刚刚续费了季度 Pro 套餐，就开始疯狂报错
+API Error: 400 {"type":"error","error":{"message":"网络错误，错误 id 20260427233129a7ee7f005e494d82 ，请稍后重试。","code":"1234"},"request_id":"20260427233129a7ee7f005e494d82"}   *  10  
+续费季度之前都很少碰到这个，就离谱。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208961#reply3
+
+---
+
+#### 363. [V2EX] 买 mac 还是转 Linux 系统
+
+**问题描述 / Problem Description**:
+CPU                                          
+
+Intel Core i7-8550U @ 1.80GHz （睿频 4.0GHz ）                                
+4 核 8 线程, 8MB L3 缓存                                                    
+
+内存                                                                          
+
+16GB DDR4 （已用 4.4GB ，可用 11G
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208943#reply22
+
+---
+
+#### 364. [V2EX] opencode go 的 DeepSeek 是官方直连吗
+
+**问题描述 / Problem Description**:
+今天看了下 DeepSeekV4 的次数涨了不少，估算了下 token 好像吃上折上折了？
+预估了一下 token 量，算上缓存的话
+一个 go 套餐里，DeepSeek V4 Flash 已经约等于	10,923,420,500     token 了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208931#reply1
+
+---
+
+#### 365. [V2EX] 为什么我感觉 Codex 审美好差
+
+**问题描述 / Problem Description**:
+我之前用 Flutter ，通过 Gemini 写了一个学英语的 App ，最近想迭代功能，感觉 Flutter 很多细节上不太满意，决定换成 macOS 原生开发了。找 Codex 开发，GPT-5.5 + Extra High ，重构是比较顺利，可以跑起来，但是真的，太丑了。
+然后 macOS 左上角那三个按钮，就是长得像红绿灯的东西，和顶栏其它的元素（ 2 个收起/展开按钮，标题），让 Codex 反复改，几个小时过去了还是各种问题。最后给我整崩溃了，换成 Gemini ，虽然也是磕磕绊绊，但肉眼可见地方向正确，最后花了一个多小时调好了。
+后续我又花了几个小时通过 Gemini 把丑到爆
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208925#reply8
+
+---
+
+#### 366. [V2EX] 你们有没有遇到过，通过梯子看 youtube 高清视频的时候，竟然会导致全家的 wifi 异常断开
+
+**问题描述 / Problem Description**:
+只要一开梯子看高清就这样，这是什么原理，电脑开的，手机 wifi 居然也显示异常
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208916#reply8
+
+---
+
+#### 367. [V2EX] 全新未拆封 Sandisk 256G SD 卡转让
+
+**问题描述 / Problem Description**:
+全新未拆封, 因为买错了, dji action6 好像用不了这个卡, 有意者联系 VX:SGVybWl0aXN0
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208912#reply4
+
+---
+
+#### 368. [V2EX] 公司开始严查访问境外网络，如何破局
+
+**问题描述 / Problem Description**:
+1. 办公电脑为 window11 ，上面装有公司的 EDR2. 办公电脑访问的公司的网络有办法绕过公司的检测么？各位大神出出招
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208909#reply54
+
+---
+
+#### 369. [V2EX] 不同 AI 平台的历史记录聚合，有什么好方法吗
+
+**问题描述 / Problem Description**:
+因为没有固定用某个 AI 的习惯，都是一阵子用这家，一阵子用那家，导致历史记录散落在各个平台。有时候想找一个以前问过的东西，但不记得在哪问的了，还得每个平台都找一遍。有的像 deepseek 官网连搜索都没有，更麻烦。不知道有没有什么办法可以把各家官网的历史记录聚合到一处管理。虽然可以用三方客户端+API 来统一入口，但那样就要花钱，感觉没啥必要。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208907#reply3
+
+---
+
+#### 370. [V2EX] 这么多年了微信的开发文档还是当年那个味道
+
+**问题描述 / Problem Description**:
+很多年前就已经见识了微信的开发文档,解决方案全靠社区踩坑,今天因为一个业务需要看下文档,还是当年的味道,通知消息还只支持 xml,各种含糊不清楚,到处超链接,有没有社区整理的文档
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208886#reply0
+
+---
+
+#### 371. [V2EX] 最近配了一台新的台式电脑，我想在外面笔记本上可以远程回去直接玩游戏，求方案
+
+**问题描述 / Problem Description**:
+求各位大佬指点一下，来个方案，不要远程软件，例如：向日葵，todesk 等
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208878#reply29
+
+---
+
+#### 372. [V2EX] 目前用国模 vibe coding 现状
+
+**问题描述 / Problem Description**:
+glm 买不到
+kimi 高峰算力不足，高峰算力不足，。。。
+deepseek 没有 coding plan 兜底，怕扣钱太快。
+mimo 感觉实力不行，用的欲望不大，也没有性价比。
+Qwen 没有用过，大家有用过的评价下。
+minimax  你是谁？？？
+各位大佬们，可以提供一些国模的购买渠道吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208875#reply3
+
+---
+
+#### 373. [V2EX] 貌似 Raycast 要改成 Web 套壳了，有平替吗
+
+**问题描述 / Problem Description**:
+https://x.com/ktiays/status/2048304683916423244
+看了这个帖子，特么一个常驻工具内存占用快 2G ，实在受不了，自带的 AI 更是依托
+当我发现他发布 windows 版后就该清楚有这一天的
+其实我用 raycast 的功能很少，但是可以集中在一起：
+
+剪贴板：可以搜索，显示复制来源，富文本也能显示
+Snippets：这个主要可以设置一些占位符，比如 {copy}, {time} 这些，根据当前复制内容自动应用，这个我感觉要找平替可能很困难
+Window Management：这个在我使用 Raycast 之前用的是 Magnet
+Quicklin
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208869#reply14
+
+---
+
+#### 374. [V2EX] 基于 clangd 的函数定义查找，不能找第三方库代码的实现吗？ 用的 vtk
+
+**问题描述 / Problem Description**:
+vscode 自带的 intelliSense 感觉有时找到的函数定义不对试了下 clangd ，发现找不到第三方库代码的实现吗？  用的 vtk改成 cl.exe 或 clang-cl.exe 都找不到第二层函数实现，只能找到我的函数调用的第一层vscode 设置    "cmake.generator": "Ninja",    "cmake.configureSettings": {        "CMAKE_C_COMPILER": "clang-cl",        "CMAKE_CXX_COMPILER": "clang-cl",        "CMAKE_EXPORT_CO
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208859#reply1
+
+---
+
+#### 375. [V2EX] 字节这 Code Plan 诈骗吧
+
+**问题描述 / Problem Description**:
+每 5 小时：最多约 1,200 次请求
+
+就问了 2 两个问题额度就耗光了，第 2 个问题刚好卡中间浪费时间。总共估计 100 次请求左右，它这是怎么计算的，10 倍吗！
+卖不起就别卖，标的很高骗人进去，挂羊头卖狗肉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208842#reply12
+
+---
+
+#### 376. [V2EX] 求稳定 GLM-5.1 接口推荐
+
+**问题描述 / Problem Description**:
+目前在用 OpenCode Go 的 GLM-5.1 套餐，整体响应速度和稳定性都不错，体验挺好。
+但用量消耗很快，才使用一周就已经耗掉 65%~70% 额度，眼看就要不够用了。
+之前也试过百度、火山引擎的相关套餐，同样是跑 GLM-5 ，体验很差，基本没法正常使用。智谱官网的 Coding 套餐长期缺货，完全抢不到。
+想问问各位大佬有没有合适的替代方案：
+优先海外站点，国内平台普遍网络卡顿严重；
+预算控制在 20 美元以内；
+主打稳定流畅跑 GLM5 系列，性价比高。
+求靠谱海外 AI 接口 / 套餐推荐，感谢～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208841#reply7
+
+---
+
+#### 377. [V2EX] 求推荐一个玩 hermes 或者 openclaw 的大模型
+
+**问题描述 / Problem Description**:
+大家来推荐一下给我玩 hermes 和 openclaw 的相关的模型呀，要聪明的，费用适中
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208810#reply19
+
+---
+
+#### 378. [V2EX] [开源分享] Worktree Manager - 多 Repo 的工作区管理工具，多 Repo 场景一定要看一下
+
+**问题描述 / Problem Description**:
+前置话题是一个来自 2024 年的问题： https://www.v2ex.com/t/1046409原文如下：-----最近任务交叉进行开发，经常在开发 A 任务的时候，B 任务有点问题要改或者需要优化。这个时候需要切换分支，重新编译，然后重新打开页面开始开发。但是有的任务是单项目，有的任务是多项目，这么一套流程下来手速快一点慢倒是不慢，就是单纯的感觉在浪费时间。所以我在想有没有这么一个东西，可以直接把当前系统打开的应用/浏览器页面以及位置和窗口大小都给保存下来，有点类似 VMware 的快照，除此之外还可以来回切换，像 git 的分支管理那样，切到 B 任务快照开发完提交后可以继续切回主时
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208798#reply2
+
+---
+
+#### 379. [V2EX] 现在还有什么 gpt 账号 plus 的渠道吗？号商别再内斗了
+
+**问题描述 / Problem Description**:
+之前 7 块钱一个月的 plus 是真的香有的话偷偷说别再发帖直接掀桌子了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208785#reply33
+
+---
+
+#### 380. [V2EX] 家人们 cursor 与 windsurf 二选一怎么选呢？
+
+**问题描述 / Problem Description**:
+背景
+Claude 账号被 ban 了，目前手上只剩 Codex 还在服役。这段时间跟 Claude 斗智斗勇属实心累，不想再折腾了，想着干脆转 Cursor 或者 Windsurf 算了。
+纠结点
+Cursor 和 Windsurf 看起来都还行，想问问老哥们哪个更耐用点
+Cursor 我看有 Pro+ 是 3x 的用量
+Windsurf 只有 pro 上一层就是 Max 了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208781#reply30
+
+---
+
+#### 381. [V2EX] 话说怎么重置 coding plan 的使用指针能够最大化在白天使用 token?
+
+**问题描述 / Problem Description**:
+比如 GLM 的 coding plan 是 5 小时重置一次，我假设让 cc 接 GLM api 在早上 6 点发出第一个请求，那么我能使用的区间是 06:00 → 11:00,然后 11:00 → 16:00 ，最后是 16:00 到 18:00 能够最大化使用，但是我 vibe 了很久，都没法让 claude 去请求一次 api ，好像是因为是交互式的，有没有佬出个主意
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208766#reply4
 
 ---
