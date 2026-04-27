@@ -20,9 +20,6 @@ The Java Applet Security Manager implementation in Netscape Navigator 2.0 and Ja
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0142.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 2. CVE-1999-0141
@@ -35,9 +32,6 @@ Java Bytecode Verifier allows malicious applets to execute arbitrary commands as
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/134.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -52,9 +46,6 @@ Java in Netscape 4.5 does not properly restrict applets from connecting to other
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/12231.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 4. CVE-1999-1015
@@ -67,9 +58,6 @@ Buffer overflow in Apple AppleShare Mail Server 5.0.3 on MacOS 8.1 and earlier a
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=89200657216213&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -84,9 +72,6 @@ Control Panel "Password Security" option for Apple Powerbooks allows attackers w
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://freaky.staticusers.net/macsec/data/powerbooksecurity-data.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 6. CVE-1999-1412
@@ -99,9 +84,6 @@ A possible interaction between Apple MacOS X release 1.0 and Apache HTTP server 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/14215.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -116,9 +98,6 @@ Internet Explorer allows remote attackers to read files by redirecting data to a
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-043.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 8. CVE-2000-0237
@@ -131,9 +110,6 @@ Netscape Enterprise Server with Web Publishing enabled allows remote attackers t
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1075.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -148,9 +124,6 @@ Panda Security 3.0 allows users to uninstall the Panda software via its Add/Remo
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://updates.pandasoftware.com/docs/us/Avoidvulnerability.zip.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 10. CVE-2000-0266
@@ -163,9 +136,6 @@ Internet Explorer 5.01 allows remote attackers to bypass the cross frame securit
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1121.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -180,9 +150,6 @@ AppleShare IP 6.1 and later allows a remote attacker to read potentially sensiti
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://asu.info.apple.com/swupdates.nsf/artnum/n11670.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 12. CVE-2000-0676
@@ -195,9 +162,6 @@ Netscape Communicator and Navigator 4.04 through 4.74 allows remote attackers to
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-00:39.netscape.asc.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -212,9 +176,6 @@ Netscape Communicator does not properly prevent a ServerSocket object from being
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.cert.org/advisories/CA-2000-15.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 14. CVE-2000-0889
@@ -226,9 +187,6 @@ Two Sun security certificates have been compromised, which could allow attackers
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://sunsolve.Sun.COM/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/198&type=0&nav=sec.sba.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -243,9 +201,6 @@ Mac OS Runtime for Java (MRJ) 2.2.3 allows remote attackers to use malicious app
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-12/0241.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 16. CVE-2001-0137
@@ -258,9 +213,6 @@ Windows Media Player 7 allows remote attackers to execute malicious Java applets
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97958100816503&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -275,9 +227,6 @@ Windows 98 and Windows 2000 Java clients allow remote attackers to cause a denia
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/win2ksecadvice/2001-q1/0060.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 18. CVE-2001-1026
@@ -290,9 +239,6 @@ Trend Micro InterScan AppletTrap 2.0 does not properly filter URLs when they are
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-07/0129.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -307,9 +253,6 @@ Java Plugin 1.4 for JRE 1.3 executes signed applets even if the certificate is e
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-08/0359.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 20. CVE-2001-1254
@@ -322,9 +265,6 @@ Web Access component for COM2001 Alexis 2.0 and 2.1 in InternetPBX sends usernam
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/217200.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -339,9 +279,6 @@ Apple MacOS X 10.0 and 10.1 allow a local user to read and write to a user's des
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=99358249631139&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 22. CVE-2001-1480
@@ -354,9 +291,6 @@ Java Runtime Environment (JRE) and SDK 1.2 through 1.3.0_04 allows untrusted app
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://cert.uni-stuttgart.de/archive/bugtraq/2001/10/msg00120.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -371,9 +305,6 @@ Apple Personal Web Sharing (PWS) 1.1, 1.5, and 1.5.5, when Web Sharing authentic
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://cert.uni-stuttgart.de/archive/bugtraq/2001/06/msg00409.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 24. CVE-2002-1601
@@ -386,9 +317,6 @@ The Connectables feature in Adobe PhotoDeluxe 3.1 prepends the Adobe directory t
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/116875.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -403,9 +331,6 @@ Apple Palm Desktop 4.0b76 and 4.0b77 creates world-readable backup files and fol
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/250093.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 26. CVE-2002-0153
@@ -418,9 +343,6 @@ Internet Explorer 5.1 for Macintosh allows remote attackers to bypass security c
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/8851.php.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -435,9 +357,6 @@ Buffer overflow in Apple QuickTime Player 5.01 and 5.02 allows remote web server
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101320742616105&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 28. CVE-2002-0676
@@ -450,9 +369,6 @@ SoftwareUpdate for MacOS 10.1.x does not use authentication when downloading a s
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.cunap.com/~hardingr/projects/osx/exploit.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -467,9 +383,6 @@ Buffer overflow in Apple QuickTime 5.0 ActiveX component allows remote attackers
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/293095.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 30. CVE-2002-0976
@@ -482,9 +395,6 @@ Internet Explorer 4.0 and later allows remote attackers to read arbitrary files 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=102960731805373&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -499,9 +409,6 @@ Terminal 1.3 in Apple Mac OS X 10.2 allows remote attackers to execute arbitrary
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://apple.slashdot.org/apple/02/09/21/122236.shtml?tid=172.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 32. CVE-2002-2184
@@ -514,9 +421,6 @@ Digi-Net Technologies DigiChat 3.5 allows chat users to obtain the IP addresses 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/5019.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -531,9 +435,6 @@ The Apple Package Manager in KisMAC 0.02a and earlier modifies file permissions 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://securitytracker.com/id?1005764.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 34. CVE-2002-2248
@@ -546,9 +447,6 @@ Buffer overflow in the sun.awt.windows.WDefaultFontCharset Java class implementa
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103834439321292&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -563,9 +461,6 @@ Symantec Java! JIT (Just-In-Time) Compiler for Netscape Communicator 4.0 through
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103798147613151&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 36. CVE-2002-2284
@@ -578,9 +473,6 @@ Netscape Communicator 4.0 through 4.79 allows remote attackers to bypass JVM sec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103798147613151&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -595,9 +487,6 @@ Directory traversal vulnerability in Remote Console Applet in Halycon Software i
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2002-12/0126.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 38. CVE-2002-2373
@@ -610,9 +499,6 @@ The default configuration of the TCP/IP printer configuration utility in Apple L
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/10476.php.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -627,9 +513,6 @@ Apple File Protocol (AFP) in Mac OS X before 10.2.4 allows administrators to log
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=61798.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 40. CVE-2003-0050
@@ -642,9 +525,6 @@ parse_xml.cgi in Apple Darwin Streaming Administration Server 4.1.2 and QuickTim
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2003/Feb/25/applesa20030225macosx102.txt.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -659,9 +539,6 @@ parse_xml.cgi in Apple Darwin Streaming Administration Server 4.1.2 and QuickTim
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2003/Feb/25/applesa20030225macosx102.txt.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 42. CVE-2003-0052
@@ -674,9 +551,6 @@ parse_xml.cgi in Apple Darwin Streaming Administration Server 4.1.2 and QuickTim
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2003/Feb/25/applesa20030225macosx102.txt.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -691,9 +565,6 @@ Cross-site scripting (XSS) vulnerability in parse_xml.cgi in Apple Darwin Stream
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2003/Feb/25/applesa20030225macosx102.txt.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 44. CVE-2003-0054
@@ -706,9 +577,6 @@ Apple Darwin Streaming Administration Server 4.1.2 and QuickTime Streaming Serve
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2003/Feb/25/applesa20030225macosx102.txt.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -723,9 +591,6 @@ Buffer overflow in the MP3 broadcasting module of Apple Darwin Streaming Adminis
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2003/Feb/25/applesa20030225macosx102.txt.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 46. CVE-2003-0168
@@ -738,9 +603,6 @@ Buffer overflow in Apple QuickTime Player 5.x and 6.0 for Windows allows remote 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2003-q1/0166.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -755,9 +617,6 @@ The ByteCode Verifier component of Microsoft Virtual Machine (VM) build 5.0.3809
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/11751.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 48. CVE-2003-0420
@@ -770,9 +629,6 @@ Information leak in dsimportexport for Apple Macintosh OS X Server 10.2.6 allows
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://secunia.com/advisories/9025/.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -787,9 +643,6 @@ The administration capability for Apple AirPort 802.11 wireless access point dev
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://secunia.com/advisories/8773.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 50. CVE-2003-0379
@@ -802,9 +655,6 @@ Unknown vulnerability in Apple File Service (AFP Server) for Mac OS X Server, wh
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/mhonarc/security-announce/msg00030.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -819,9 +669,6 @@ Apple QuickTime / Darwin Streaming Server before 4.1.3f allows remote attackers 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2003-q3/0040.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 52. CVE-2003-0422
@@ -834,9 +681,6 @@ Apple QuickTime / Darwin Streaming Server before 4.1.3f allows remote attackers 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2003-q3/0040.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -851,9 +695,6 @@ parse_xml.cgi in Apple QuickTime / Darwin Streaming Server before 4.1.3g allows 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2003-q3/0040.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 54. CVE-2003-0424
@@ -866,9 +707,6 @@ Apple QuickTime / Darwin Streaming Server before 4.1.3f allows remote attackers 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2003-q3/0040.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -883,9 +721,6 @@ Directory traversal vulnerability in Apple QuickTime / Darwin Streaming Server b
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2003-q3/0040.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 56. CVE-2003-0426
@@ -898,9 +733,6 @@ The installation of Apple QuickTime / Darwin Streaming Server before 4.1.3f star
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2003-q3/0040.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -915,9 +747,6 @@ Apple QuickTime / Darwin Streaming Server before 4.1.3g allows remote attackers 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2003-q3/0040.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 58. CVE-2003-0975
@@ -930,9 +759,6 @@ Apple Safari 1.0 through 1.1 on Mac OS X 10.3.1 and Mac OS X 10.2.8 allows remot
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=61798.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -947,9 +773,6 @@ Xscreensaver 4.14 contains certain debugging code that should have been omitted,
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://bugs.gentoo.org/show_bug.cgi?id=41253.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 60. CVE-2003-1091
@@ -962,9 +785,6 @@ Integer overflow in MP3Broadcaster for Apple QuickTime/Darwin Streaming Server 4
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2003-05/0245.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -979,9 +799,6 @@ Sun Java Runtime Environment (JRE) and SDK 1.4.0_01 and earlier allows untrusted
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://secunia.com/advisories/8958.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 62. CVE-2003-1413
@@ -994,9 +811,6 @@ parse_xml.cgi in Apple Darwin Streaming Server 4.1.1 allows remote attackers to 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://securityreason.com/securityalert/3260.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1011,9 +825,6 @@ Directory traversal vulnerability in parse_xml.cg Apple Darwin Streaming Server 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://securityreason.com/securityalert/3260.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 64. CVE-2003-1516
@@ -1026,9 +837,6 @@ The org.apache.xalan.processor.XSLProcessorVersion class in Java Plug-in 1.4.2_0
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/341815.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1043,9 +851,6 @@ Workgroup Manager in Apple Mac OS X Server 10.2 through 10.2.6 does not disable 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=25631.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 66. CVE-2003-1006
@@ -1058,9 +863,6 @@ Buffer overflow in cd9660.util in Apple Mac OS X 10.0 through 10.3.2 and Apple M
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=61798.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1075,9 +877,6 @@ AppleFileServer (AFS) in Apple Mac OS X 10.2.8 and 10.3.2 does not properly hand
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=61798.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 68. CVE-2003-1009
@@ -1090,9 +889,6 @@ Directory Services in Apple Mac OS X 10.0.2, 10.0.3, 10.2.8, 10.3.2 and Apple Ma
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=32478.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1107,9 +903,6 @@ Apple Mac OS X 10.0 through 10.2.8 allows local users with a USB keyboard to gai
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=61798.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 70. CVE-2003-0514
@@ -1122,9 +915,6 @@ Apple Safari allows remote attackers to bypass intended cookie access restrictio
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2004-q1/0056.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1139,9 +929,6 @@ Stack-based buffer overflow in AppleFileServer for Mac OS X 10.3.3 and earlier a
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/mhonarc/security-announce/msg00049.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 72. CVE-2004-0431
@@ -1154,9 +941,6 @@ Integer overflow in Apple QuickTime (QuickTime.qts) before 6.5.1 allows attacker
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/mhonarc/security-announce/msg00048.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1171,9 +955,6 @@ Microsoft Java virtual machine (VM) 5.0.0.3810 allows remote attackers to bypass
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=108948405808522&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 74. CVE-2004-0518
@@ -1186,9 +967,6 @@ Unknown vulnerability in AppleFileServer for Mac OS X 10.3.4, related to "the us
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.seifried.org/pipermail/security/2004-May/003743.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1203,9 +981,6 @@ OpenLDAP 1.0 through 2.1.19, as used in Apple Mac OS 10.3.4 and 10.3.5 and possi
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://secunia.com/advisories/12491/.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 76. CVE-2004-0831
@@ -1218,9 +993,6 @@ McAfee VirusScan 4.5.1 does not drop SYSTEM privileges before allowing users to 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=109526269429728&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1235,9 +1007,6 @@ Apple Safari 1.0 through 1.2.3 allows remote attackers to spoof the URL displaye
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 78. CVE-2004-1081
@@ -1250,9 +1019,6 @@ The Application Framework (AppKit) for Apple Mac OS X 10.2.8 and 10.3.6 does not
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1267,9 +1033,6 @@ Apache for Apple Mac OS X 10.2.8 and 10.3.6 allows remote attackers to read file
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 80. CVE-2004-1085
@@ -1282,9 +1045,6 @@ Human Interface Toolbox (HIToolBox) for Apple Mac 0S X 10.3.6 allows local users
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1299,9 +1059,6 @@ Buffer overflow in PSNormalizer for Apple Mac OS X 10.3.6 allows remote attacker
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 82. CVE-2004-1087
@@ -1314,9 +1071,6 @@ Terminal for Apple Mac OS X 10.3.6 may indicate that "Secure Keyboard Entry" is 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1331,9 +1085,6 @@ Postfix server for Apple Mac OS X 10.3.6, when using CRAM-MD5, allows remote att
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 84. CVE-2004-1089
@@ -1346,9 +1097,6 @@ Unknown vulnerability in Apple Mac OS X 10.3.6 server, when using Kerberos authe
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1363,9 +1111,6 @@ Apache for Apple Mac OS X 10.2.8 and 10.3.6 restricts access to files in a case 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 86. CVE-2004-0622
@@ -1378,9 +1123,6 @@ Apple Mac OS X 10.3.4, 10.4, 10.5, and possibly other versions does not properly
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://citp.princeton.edu/pub/coldboot.pdf.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1395,9 +1137,6 @@ Multiple vulnerabilities in Konqueror in KDE 3.3.1 and earlier (1) allow access 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=110356286722875&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 88. CVE-2004-0873
@@ -1410,9 +1149,6 @@ Apple iChat AV 2.1, AV 2.0, and 1.0.1 allows remote attackers to execute arbitra
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Sep/msg00001.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1427,9 +1163,6 @@ Unknown vulnerability related to "the handling of large requests" in RAdmin for 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/May/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 90. CVE-2004-1398
@@ -1442,9 +1175,6 @@ Format string vulnerability in prelink.c in kextload in Apple OS X, as used by T
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.grok.org.uk/pipermail/full-disclosure/2006-September/049452.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1459,9 +1189,6 @@ Opera 7.54 and earlier does not properly limit an applet's access to internal Ja
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.grok.org.uk/pipermail/full-disclosure/2004-November/029044.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 92. CVE-2004-1753
@@ -1474,9 +1201,6 @@ The Apple Java plugin, as used in Netscape 7.1 and 7.2, Mozilla 1.7.2, and Firef
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://bugzilla.mozilla.org/show_bug.cgi?id=162134.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1491,9 +1215,6 @@ Buffer overflow in IBM Lotus Notes 6.5.x before 6.5.3 and 6.0.x before 6.0.5 all
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://secunia.com/advisories/12046.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 94. CVE-2004-2281
@@ -1506,9 +1227,6 @@ Multiple unknown vulnerabilities in IBM Lotus Notes 6.5.x before 6.5.4 and 6.0.x
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://secunia.com/advisories/12046.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1523,9 +1241,6 @@ Dell TrueMobile 1300 WLAN Mini-PCI Card Util TrayApplet 3.10.39.0 does not prope
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2004-q1/0042.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 96. CVE-2004-2367
@@ -1538,9 +1253,6 @@ The Control Panel applet in WFTPD and WFTPD Pro 3.21 R1 and R2 allows remote aut
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://secunia.com/advisories/11160/.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1555,9 +1267,6 @@ Heap-based buffer overflow in Apple QuickTime on Mac OS 10.2.8 through 10.3.5 ma
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Oct/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 98. CVE-2004-0962
@@ -1570,9 +1279,6 @@ Apple Remote Desktop Client 1.2.4 executes a GUI application as root when it is 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Oct/msg00002.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1587,9 +1293,6 @@ Integer overflow on Apple QuickTime before 6.5.2, when running on Windows system
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Oct/msg00001.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 100. CVE-2004-1029
@@ -1602,9 +1305,6 @@ The Sun Java Plugin capability in Java 2 Runtime Environment (JRE) 1.4.2_01, 1.4
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://jouko.iki.fi/adv/javaplugin.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1619,9 +1319,6 @@ Buffer overflow in Apple iTunes 4.7 allows remote attackers to execute arbitrary
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Jan/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 102. CVE-2005-0289
@@ -1634,9 +1331,6 @@ Apple AirPort Express prior to 6.1.1 and Extreme prior to 5.5.1, configured as a
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.grok.org.uk/pipermail/full-disclosure/2005-January/030832.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1651,9 +1345,6 @@ Integer signedness error in Apple File Service (AFP Server) allows remote attack
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Mar/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 104. CVE-2005-0341
@@ -1666,9 +1357,6 @@ Apple Safari 1.2.4 does not obey the Content-type field in the HTTP header and r
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=110756965213819&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1683,9 +1371,6 @@ AppleWebKit (WebCore and WebKit), as used in multiple products such as Safari 1.
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Apr/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 106. CVE-2005-1331
@@ -1698,9 +1383,6 @@ The AppleScript Editor in Mac OS X 10.3.9 does not properly display script code 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00001.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1715,9 +1397,6 @@ Apple Help Viewer 2.0.7 and 3.0.0 in Mac OS X 10.3.9 allows remote attackers to 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00001.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 108. CVE-2005-1341
@@ -1730,9 +1409,6 @@ Apple Terminal 1.4.4 allows attackers to execute arbitrary commands via terminal
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00001.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1747,9 +1423,6 @@ The x-man-page: URI handler for Apple Terminal 1.4.4 in Mac OS X 10.3.9 does not
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00001.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 110. CVE-2005-1579
@@ -1762,9 +1435,6 @@ Apple QuickTime Player 7.0 on Mac OS X 10.4 allows remote attackers to obtain se
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/fulldisclosure/2005-05/0265.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1779,9 +1449,6 @@ The bbencode_second_pass and make_clickable functions in bbcode.php for phpBB be
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://castlecops.com/t123194-.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 112. CVE-2005-1248
@@ -1794,9 +1461,6 @@ Buffer overflow in Apple iTunes before 4.8 allows remote attackers to execute ar
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=301596.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1811,9 +1475,6 @@ Certain system calls in Apple Mac OS X 10.4.1 do not properly enforce the permis
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00004.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 114. CVE-2005-1408
@@ -1826,9 +1487,6 @@ Apple Keynote 2.0 and 2.0.1 allows remote attackers to read arbitrary files via 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00005.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1843,9 +1501,6 @@ LaunchServices in Apple Mac OS X 10.4.x up to 10.4.1 does not properly mark file
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 116. CVE-2005-1724
@@ -1858,9 +1513,6 @@ NFS on Apple Mac OS X 10.4.x up to 10.4.1 does not properly obey the -network or
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1875,9 +1527,6 @@ launchd 106 in Apple Mac OS X 10.4.x up to 10.4.1 allows local users to overwrit
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 118. CVE-2005-1727
@@ -1890,9 +1539,6 @@ Apple Mac OS X 10.4.x up to 10.4.1 sets insecure world- and group-writable permi
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1907,9 +1553,6 @@ MCX Client for Apple Mac OS X 10.4.x up to 10.4.1 insecurely logs Portable Home 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 120. CVE-2005-1473
@@ -1922,9 +1565,6 @@ SecurityAgent in Apple Mac OS X 10.4.1 allows attackers with physical access to 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00004.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1939,9 +1579,6 @@ Dashboard in Apple Mac OS X 10.4.1 allows remote attackers to install widgets vi
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00004.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 122. CVE-2005-1933
@@ -1954,9 +1591,6 @@ Dashboard in Apple Mac OS X Tiger 10.4 allows attackers to execute arbitrary com
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/983429.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1971,9 +1605,6 @@ Apple Darwin Streaming Server 5.5 and earlier allows remote attackers to cause a
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=112126999514361&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 124. CVE-2005-2196
@@ -1986,9 +1617,6 @@ The Apple AirPort card uses a default WEP key when not connected to a known or t
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://securitytracker.com/id?1014522.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2003,9 +1631,6 @@ Apple Safari 1.3 (132) on Mac OS X 1.3.9 allows remote attackers to cause a deni
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/407702.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 126. CVE-2005-3018
@@ -2018,9 +1643,6 @@ Apple Safari allows remote attackers to cause a denial of service (application c
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=112715234411672&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2035,9 +1657,6 @@ Buffer overflow in QuickDraw Manager for Apple OS X 10.3.9 and 10.4.2, as used b
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 128. CVE-2005-2747
@@ -2050,9 +1669,6 @@ Buffer overflow in ImageIO for Apple Mac OS X 10.4.2, as used by applications su
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2067,9 +1683,6 @@ The malloc function in the libSystem library in Apple Mac OS X 10.3.9 and 10.4.2
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 130. CVE-2005-2524
@@ -2082,9 +1695,6 @@ Safari after 2.0 in Apple Mac OS X 10.3.9 allows remote attackers to bypass doma
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2099,9 +1709,6 @@ Authorization Services in securityd for Apple Mac OS X 10.3.9 allows local users
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 132. CVE-2005-2742
@@ -2114,9 +1721,6 @@ SecurityAgent in Apple Mac OS X 10.4.2, under certain circumstances, can cause t
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2131,9 +1735,6 @@ The Java extensions for QuickTime 6.52 and earlier in Apple Mac OS X 10.3.9 allo
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 134. CVE-2005-2745
@@ -2146,9 +1747,6 @@ Mail.app in Mail for Apple Mac OS X 10.3.9, when using Kerberos 5 for SMTP authe
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2163,9 +1761,6 @@ Mail.app in Mail for Apple Mac OS X 10.3.9 and 10.4.2 includes message contents 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 136. CVE-2005-2753
@@ -2178,9 +1773,6 @@ Integer overflow in Apple QuickTime before 7.0.3 allows user-assisted attackers 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=302772.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2195,9 +1787,6 @@ Integer overflow in Apple QuickTime before 7.0.3 allows user-assisted attackers 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=302772.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 138. CVE-2005-2755
@@ -2210,9 +1799,6 @@ Apple QuickTime Player before 7.0.3 allows user-assisted attackers to cause a de
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/fulldisclosure/2005-11/0102.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2227,9 +1813,6 @@ Apple QuickTime before 7.0.3 allows user-assisted attackers to overwrite memory 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=302772.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 140. CVE-2005-3897
@@ -2242,9 +1825,6 @@ Apple Safari 2.0.2 allows remote attackers to cause a denial of service (system 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=113278010907401&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2259,9 +1839,6 @@ Unspecified vulnerability in Java Runtime Environment in Java JDK and JRE 5.0 Up
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Nov/msg00004.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 142. CVE-2005-3946
@@ -2274,9 +1851,6 @@ Opera 8.50 allows remote attackers to cause a denial of service (crash) via a Ja
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.illegalaccess.org/exploit/opera85/OperaApplet.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2291,9 +1865,6 @@ Multiple heap-based buffer overflows in QuickTime.qts in Apple QuickTime Player 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303101.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 144. CVE-2005-4197
@@ -2306,9 +1877,6 @@ tunnelform.yaws in Nortel SSL VPN 4.2.1.6 allows remote attackers to execute arb
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://secunia.com/advisories/17974.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2323,9 +1891,6 @@ Perl in Apple Mac OS X Server 10.3.9 does not properly drop privileges when usin
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303382.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 146. CVE-2005-4504
@@ -2338,9 +1903,6 @@ The khtml::RenderTableSection::ensureRows function in KHTMLParser in Apple Mac O
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303382.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2355,9 +1917,6 @@ Unspecified vulnerability in the Apple Mac OS X kernel before 10.4.2 allows remo
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=301948.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 148. CVE-2005-2340
@@ -2370,9 +1929,6 @@ Heap-based buffer overflow in Apple Quicktime before 7.0.4 allows remote attacke
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/fulldisclosure/2006-01/0392.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2387,9 +1943,6 @@ Race condition in Java 1.4.2 before 1.4.2 Release 2 on Apple Mac OS X allows loc
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=302266.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 150. CVE-2005-2529
@@ -2402,9 +1955,6 @@ Unspecified vulnerability in Java 1.4.2 before 1.4.2 Release 2 on Apple Mac OS X
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=302266.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2419,9 +1969,6 @@ Unspecified vulnerability in Java 1.3.1 before 1.3.1_16 on Apple Mac OS X allows
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=302265.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 152. CVE-2005-2738
@@ -2434,9 +1981,6 @@ Java 1.4.2 before 1.4.2 Release 2 on Apple Mac OS X does not prevent multiple pr
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=302265.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2451,9 +1995,6 @@ Buffer overflow in Apple Quicktime before 7.0.4 allows remote attackers to execu
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/fulldisclosure/2006-01/0445.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 154. CVE-2005-3708
@@ -2466,9 +2007,6 @@ Integer overflow in Apple Quicktime before 7.0.4 allows remote attackers to exec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303101.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2483,9 +2021,6 @@ Integer underflow in Apple Quicktime before 7.0.4 allows remote attackers to cau
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/fulldisclosure/2006-01/0447.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 156. CVE-2005-3710
@@ -2498,9 +2033,6 @@ Integer overflow in Apple Quicktime before 7.0.4 allows remote attackers to exec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/fulldisclosure/2006-01/0440.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2515,9 +2047,6 @@ Integer overflow in Apple Quicktime before 7.0.4 allows remote attackers to exec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/fulldisclosure/2006-01/0442.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 158. CVE-2005-3713
@@ -2530,9 +2059,6 @@ Heap-based buffer overflow in Apple Quicktime before 7.0.4 allows remote attacke
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/fulldisclosure/2006-01/0401.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2547,9 +2073,6 @@ The network interface for Apple AirPort Express 6.x before Firmware Update 6.3, 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/Jan/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 160. CVE-2005-4678
@@ -2562,9 +2085,6 @@ Apple Safari 2.0.2 (aka 416.12) allows remote attackers to spoof the URL in the 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://secunia.com/advisories/17618.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2579,9 +2099,6 @@ Stack-based buffer overflow in JDBC Applet Server in IBM DB2 8.1 allows remote a
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=110495251101381&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 162. CVE-2006-0382
@@ -2594,9 +2111,6 @@ Apple Mac OS X 10.4.5 and allows local users to cause a denial of service (crash
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/Feb/msg00000.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2611,9 +2125,6 @@ The "Open 'safe' files after downloading" option in Safari on Apple Mac OS X all
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303382.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 164. CVE-2006-0396
@@ -2626,9 +2137,6 @@ Buffer overflow in Mail in Apple Mac OS X 10.4 up to 10.4.5, when patched with S
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303453.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2643,9 +2151,6 @@ Unspecified vulnerability in Safari, LaunchServices, and/or CoreTypes in Apple M
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303453.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 166. CVE-2006-0398
@@ -2658,9 +2163,6 @@ Unspecified vulnerability in Safari, LaunchServices, and/or CoreTypes in Apple M
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303453.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2675,9 +2177,6 @@ Unspecified vulnerability in Safari, LaunchServices, and/or CoreTypes in Apple M
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303453.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 168. CVE-2006-0400
@@ -2690,9 +2189,6 @@ CoreTypes in Apple Mac OS X 10.4 up to 10.4.5 allows remote attackers to bypass 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303453.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2707,9 +2203,6 @@ Integer overflow in Apple QuickTime Player 7.0.3 and 7.0.4 and iTunes 6.0.1 and 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00002.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 170. CVE-2006-1552
@@ -2722,9 +2215,6 @@ Integer overflow in ImageIO in Apple Mac OS X 10.4 up to 10.4.5 allows remote at
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://drunkenblog.com/drunkenblog-archives/000760.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2739,9 +2229,6 @@ Apple Safari 2.0.3 allows remote attackers to cause a denial of service and poss
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://secunia.com/advisories/19686.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 172. CVE-2006-1987
@@ -2754,9 +2241,6 @@ Apple Safari 2.0.3 allows remote attackers to cause a denial of service and poss
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://secunia.com/advisories/19686.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2771,9 +2255,6 @@ The WebTextRenderer(WebInternal) _CG_drawRun:style:geometry: function in Apple S
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://secunia.com/advisories/19686.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 174. CVE-2006-2019
@@ -2786,9 +2267,6 @@ Apple Mac OS X Safari 2.0.3, 1.3.1, and possibly other versions allows remote at
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.grok.org.uk/pipermail/full-disclosure/2006-April/045472.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2803,9 +2281,6 @@ Multiple Apple Mac OS X 10.4 applications might allow context-dependent attacker
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.osvdb.org/27780.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 176. CVE-2006-1453
@@ -2818,9 +2293,6 @@ Stack-based buffer overflow in Apple QuickTime before 7.1 allows remote attacker
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00002.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2835,9 +2307,6 @@ Heap-based buffer overflow in Apple QuickTime before 7.1 allows remote attackers
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00002.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 178. CVE-2006-1458
@@ -2850,9 +2319,6 @@ Integer overflow in Apple QuickTime Player before 7.1 allows remote attackers to
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00002.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2867,9 +2333,6 @@ Multiple integer overflows in Apple QuickTime before 7.1 allow remote attackers 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00002.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 180. CVE-2006-1460
@@ -2882,9 +2345,6 @@ Multiple buffer overflows in Apple QuickTime before 7.1 allow remote attackers t
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00002.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2899,9 +2359,6 @@ Multiple buffer overflows in Apple QuickTime before 7.1 allow remote attackers t
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00002.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 182. CVE-2006-1462
@@ -2914,9 +2371,6 @@ Multiple integer overflows in Apple QuickTime before 7.1 allow remote attackers 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00002.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2931,9 +2385,6 @@ Heap-based buffer overflow in Apple QuickTime before 7.1 allows remote attackers
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00002.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 184. CVE-2006-1464
@@ -2946,9 +2397,6 @@ Buffer overflow in Apple QuickTime before 7.1 allows remote attackers to execute
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00002.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2963,9 +2411,6 @@ Buffer overflow in Apple QuickTime before 7.1 allows remote attackers to execute
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00002.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 186. CVE-2006-1439
@@ -2978,9 +2423,6 @@ NSSecureTextField in AppKit in Apple Mac OS X 10.4.6 does not re-enable secure e
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00003.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2995,9 +2437,6 @@ BOM in Apple Mac OS X 10.3.9 and 10.4.6 allows attackers to overwrite arbitrary 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00003.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 188. CVE-2006-1441
@@ -3010,9 +2449,6 @@ Integer overflow in CFNetwork in Apple Mac OS X 10.4.6 allows remote attackers t
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00003.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3027,9 +2463,6 @@ The bundle API in CoreFoundation in Apple Mac OS X 10.3.9 and 10.4.6 loads dynam
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00003.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 190. CVE-2006-1443
@@ -3042,9 +2475,6 @@ Integer underflow in CoreFoundation in Apple Mac OS X 10.3.9 and 10.4.6 allows c
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00003.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3059,9 +2489,6 @@ CoreGraphics in Apple Mac OS X 10.4.6, when "Enable access for assistive devices
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00003.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 192. CVE-2006-1445
@@ -3074,9 +2501,6 @@ Buffer overflow in the FTP server (FTPServer) in Apple Mac OS X 10.3.9 and 10.4.
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00003.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3091,9 +2515,6 @@ Keychain in Apple Mac OS X 10.3.9 and 10.4.6 might allow an application to bypas
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00003.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 194. CVE-2006-1447
@@ -3106,9 +2527,6 @@ LaunchServices in Apple Mac OS X 10.4.6 allows remote attackers to cause Safari 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00003.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3123,9 +2541,6 @@ Finder in Apple Mac OS X 10.3.9 and 10.4.6 allows user-assisted attackers to exe
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00003.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 196. CVE-2006-1449
@@ -3138,9 +2553,6 @@ Integer overflow in Mail in Apple Mac OS X 10.3.9 and 10.4.6 allows remote attac
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00003.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3155,9 +2567,6 @@ Mail in Apple Mac OS X 10.3.9 and 10.4.6 allows remote attackers to execute arbi
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00003.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 198. CVE-2006-1451
@@ -3170,9 +2579,6 @@ MySQL Manager in Apple Mac OS X 10.3.9 and 10.4.6, when setting up a new MySQL d
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00003.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3187,9 +2593,6 @@ Stack-based buffer overflow in Preview in Apple Mac OS 10.4 up to 10.4.6 allows 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00003.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 200. CVE-2006-1455
@@ -3202,9 +2605,6 @@ QuickTime Streaming Server in Apple Mac OS X 10.3.9 and 10.4.6 allows remote att
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00003.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3219,9 +2619,6 @@ Buffer overflow in QuickTime Streaming Server in Apple Mac OS X 10.3.9 and 10.4.
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00003.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 202. CVE-2006-1457
@@ -3234,9 +2631,6 @@ Safari on Apple Mac OS X 10.4.6, when "Open `safe' files after downloading" is e
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00003.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3251,9 +2645,6 @@ Heap-based buffer overflow in Apple QuickTime before 7.1 allows remote attackers
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00002.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 204. CVE-2006-3224
@@ -3266,9 +2657,6 @@ Apple Safari 2.0.3 (417.9.3) on Mac OS X 10.4.6 allows remote attackers to cause
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.grok.org.uk/pipermail/full-disclosure/2006-May/046150.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3283,9 +2671,6 @@ Unspecified vulnerability in Apple File Protocol (AFP) server in Apple Mac OS X 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/Jun/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 206. CVE-2006-1469
@@ -3298,9 +2683,6 @@ Stack-based buffer overflow in ImageIO in Apple Mac OS X 10.4 up to 10.4.6 allow
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/Jun/msg00000.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3315,9 +2697,6 @@ OpenLDAP in Apple Mac OS X 10.4 up to 10.4.6 allows remote attackers to cause a 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/Jun/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 208. CVE-2006-1471
@@ -3330,9 +2709,6 @@ Format string vulnerability in the CF_syslog function launchd in Apple Mac OS X 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/Jun/msg00000.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3347,9 +2723,6 @@ Integer overflow in the AAC file parsing code in Apple iTunes before 6.0.5 on Ma
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303952.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 210. CVE-2006-2199
@@ -3362,9 +2735,6 @@ Unspecified vulnerability in Java Applets in OpenOffice.org 1.1.x (aka StarOffic
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://fedoranews.org/cms/node/2343.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3379,9 +2749,6 @@ The TIFFFetchAnyArray function in ImageIO in Apple OS X 10.4.7 and earlier allow
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.security-protocols.com/sp-x31-advisory.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 212. CVE-2006-3372
@@ -3394,9 +2761,6 @@ Apple Safari 2.0.4/419.3 allows remote attackers to cause a denial of service (a
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://browserfun.blogspot.com/2006/07/mobb-5-dhtml-setattributenode.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3411,9 +2775,6 @@ The privoxy configuration file in Tor before 0.1.1.20, when run on Apple OS X, l
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://secunia.com/advisories/20514.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 214. CVE-2006-3545
@@ -3426,9 +2787,6 @@ Microsoft Internet Explorer 7.0 Beta allows remote attackers to cause a denial o
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/438754/100/0/threaded.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3443,9 +2801,6 @@ WebCore in Apple Mac OS X 10.3.9 and 10.4 through 10.4.7 allows remote attackers
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://browserfun.blogspot.com/2006/07/mobb-31-safari-khtmlparserpoponeblock.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 216. CVE-2006-1472
@@ -3458,9 +2813,6 @@ Unspecified vulnerability in AFP Server in Apple Mac OS X 10.3.9 allows remote a
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006//Aug/msg00000.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3475,9 +2827,6 @@ Integer overflow in AFP Server for Apple Mac OS X 10.3.9 and 10.4.7 allows remot
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006//Aug/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 218. CVE-2006-3495
@@ -3490,9 +2839,6 @@ AFP Server in Apple Mac OS X 10.3.9 and 10.4.7 stores reconnect keys in a world-
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006//Aug/msg00000.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3507,9 +2853,6 @@ AFP Server in Apple Mac OS X 10.3.9 and 10.4.7 allows remote attackers to cause 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006//Aug/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 220. CVE-2006-3497
@@ -3522,9 +2865,6 @@ Unspecified vulnerability in the "compression state handling" in Bom for Apple M
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006//Aug/msg00000.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3539,9 +2879,6 @@ Stack-based buffer overflow in bootpd in the DHCP component for Apple Mac OS X 1
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006//Aug/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 222. CVE-2006-0392
@@ -3554,9 +2891,6 @@ Buffer overflow in Apple Mac OS X 10.4.7 allows user-assisted attackers to cause
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006//Aug/msg00000.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3571,9 +2905,6 @@ OpenSSH in Apple Mac OS X 10.4.7 allows remote attackers to cause a denial of se
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006//Aug/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 224. CVE-2006-3499
@@ -3586,9 +2917,6 @@ The dynamic linker (dyld) in Apple Mac OS X 10.3.9 allows local users to obtain 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006//Aug/msg00000.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3603,9 +2931,6 @@ The dynamic linker (dyld) in Apple Mac OS X 10.4.7 allows local users to execute
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006//Aug/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 226. CVE-2006-3501
@@ -3618,9 +2943,6 @@ Integer overflow in ImageIO for Apple Mac OS X 10.4.7 allows user-assisted attac
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006//Aug/msg00000.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3635,9 +2957,6 @@ Unspecified vulnerability in ImageIO in Apple Mac OS X 10.4.7 allows user-assist
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006//Aug/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 228. CVE-2006-3503
@@ -3650,9 +2969,6 @@ Integer overflow in ImageIO in Apple Mac OS X 10.4.7 allows user-assisted attack
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006//Aug/msg00000.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3667,9 +2983,6 @@ The Download Validation in LaunchServices for Apple Mac OS X 10.4.7 can identify
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006//Aug/msg00000.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 230. CVE-2006-3505
@@ -3682,9 +2995,6 @@ WebKit in Apple Mac OS X 10.3.9 and 10.4.7 allows remote attackers to cause a de
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006//Aug/msg00000.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3699,9 +3009,6 @@ Integer overflow in Apple QuickTime before 7.1.3 allows user-assisted remote att
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304357.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 232. CVE-2006-4382
@@ -3714,9 +3021,6 @@ Multiple buffer overflows in Apple QuickTime before 7.1.3 allow user-assisted re
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304357.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3731,9 +3035,6 @@ Heap-based buffer overflow in Apple QuickTime before 7.1.3 allows user-assisted 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304357.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 234. CVE-2006-4385
@@ -3746,9 +3047,6 @@ Buffer overflow in Apple QuickTime before 7.1.3 allows user-assisted remote atta
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304357.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3763,9 +3061,6 @@ Integer overflow in Apple QuickTime before 7.1.3 allows user-assisted remote att
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304357.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 236. CVE-2006-4388
@@ -3778,9 +3073,6 @@ Integer overflow in Apple QuickTime before 7.1.3 allows user-assisted remote att
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304357.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3795,9 +3087,6 @@ Apple QuickTime before 7.1.3 allows user-assisted remote attackers to execute ar
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304357.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 238. CVE-2006-4866
@@ -3810,9 +3099,6 @@ Buffer overflow in kextload in Apple OS X, as used by TDIXSupport in Roxio Toast
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.grok.org.uk/pipermail/full-disclosure/2006-September/049452.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3827,9 +3113,6 @@ Apple Remote Desktop (ARD) for Mac OS X 10.2.8 and later does not drop privilege
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.osvdb.org/32260.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 240. CVE-2006-3507
@@ -3842,9 +3125,6 @@ Multiple stack-based buffer overflows in the AirPort wireless driver on Apple Ma
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/Security-announce/2006/Sep/msg00001.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3859,9 +3139,6 @@ Heap-based buffer overflow in the AirPort wireless driver on Apple Mac OS X 10.4
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/Security-announce/2006/Sep/msg00001.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 242. CVE-2006-3509
@@ -3874,9 +3151,6 @@ Integer overflow in the API for the AirPort wireless driver on Apple Mac OS X 10
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/Security-announce/2006/Sep/msg00001.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3891,9 +3165,6 @@ Apple QuickTime 7.1.3 Player and Plug-In allows remote attackers to execute arbi
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=305149.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 244. CVE-2006-4387
@@ -3906,9 +3177,6 @@ Apple Mac OS X 10.4 through 10.4.7, when the administrator clears the "Allow use
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/Sep/msg00002.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3923,9 +3191,6 @@ CFNetwork in Apple Mac OS X 10.4 through 10.4.7 and 10.3.9 allows remote SSL sit
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/Sep/msg00002.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 246. CVE-2006-4391
@@ -3938,9 +3203,6 @@ Buffer overflow in Apple ImageIO on Apple Mac OS X 10.4 through 10.4.7 allows re
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/Sep/msg00002.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3955,9 +3217,6 @@ Unspecified vulnerability in LoginWindow in Apple Mac OS X 10.4 through 10.4.7, 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/Sep/msg00002.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 248. CVE-2006-4394
@@ -3970,9 +3229,6 @@ A logic error in LoginWindow in Apple Mac OS X 10.4 through 10.4.7, allows netwo
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/Sep/msg00002.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3987,9 +3243,6 @@ Unspecified vulnerability in QuickDraw Manager in Apple Mac OS X 10.3.9 and 10.4
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/Sep/msg00002.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 250. CVE-2006-4397
@@ -4002,9 +3255,6 @@ Unchecked error condition in LoginWindow in Apple Mac OS X 10.4 through 10.4.7 p
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/Sep/msg00002.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4019,9 +3269,6 @@ User interface inconsistency in Workgroup Manager in Apple Mac OS X 10.4 through
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/Sep/msg00002.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 252. CVE-2006-5327
@@ -4034,9 +3281,6 @@ Untrusted search path vulnerability in OpenBase SQL 10.0 and earlier, as used in
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2007/Oct/msg00001.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4051,9 +3295,6 @@ OpenBase SQL 10.0 and earlier, as used in Apple Xcode 2.2 2.2 and earlier and po
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2007/Oct/msg00001.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 254. CVE-2006-5710
@@ -4066,9 +3307,6 @@ The Airport driver for certain Orinoco based Airport cards in Darwin kernel 8.8.
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304829.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4083,9 +3321,6 @@ The fpathconf syscall function in bsd/kern/kern_descrip.c in the Darwin kernel (
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=305214.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 256. CVE-2006-4413
@@ -4098,9 +3333,6 @@ Apple Remote Desktop before 3.1 uses insecure permissions for certain built-in p
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/Nov/msg00000.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4115,9 +3347,6 @@ Unspecified vulnerability in the Java Runtime Environment (JRE) Swing library in
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://secunia.com/advisories/22910.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 258. CVE-2006-6015
@@ -4130,9 +3359,6 @@ Buffer overflow in the JavaScript implementation in Safari on Apple Mac OS X 10.
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/451542/100/0/threaded.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4147,9 +3373,6 @@ com.apple.AppleDiskImageController in Apple Mac OS X 10.4.8, and possibly other 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://alastairs-place.net/2006/11/dmg-vulnerability/.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 260. CVE-2006-6062
@@ -4162,9 +3385,6 @@ Unspecified vulnerability in Apple Mac OS X 10.4.8, and possibly other versions,
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=305214.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4179,9 +3399,6 @@ Apple Mac OS X allows local users to cause a denial of service (memory corruptio
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://projects.info-pull.com/mokb/MOKB-23-11-2006.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 262. CVE-2006-6127
@@ -4194,9 +3411,6 @@ Apple Mac OS X kernel allows local users to cause a denial of service via a proc
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=307041.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4211,9 +3425,6 @@ Integer overflow in the fatfile_getarch2 in Apple Mac OS X allows local users to
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=305214.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 264. CVE-2006-6130
@@ -4226,9 +3437,6 @@ Apple Mac OS X AppleTalk allows local users to cause a denial of service (kernel
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=305214.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4243,9 +3451,6 @@ The Apple Type Services (ATS) server in Mac OS X 10.4.8 and earlier does not sec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304829.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 266. CVE-2006-4398
@@ -4258,9 +3463,6 @@ Multiple buffer overflows in the Apple Type Services (ATS) server in Mac OS X 10
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304829.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4275,9 +3477,6 @@ Stack-based buffer overflow in the Apple Type Services (ATS) server in Mac OS 10
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304829.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 268. CVE-2006-4402
@@ -4290,9 +3489,6 @@ Heap-based buffer overflow in the Finder in Apple Mac OS X 10.4.8 and earlier al
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304829.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4307,9 +3503,6 @@ The FTP server in Apple Mac OS X 10.4.8 and earlier, when FTP Access is enabled,
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304829.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 270. CVE-2006-4404
@@ -4322,9 +3515,6 @@ The Installer application in Apple Mac OS X 10.4.8 and earlier, when used by a u
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304829.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4339,9 +3529,6 @@ Buffer overflow in PPP on Apple Mac OS X 10.4.x up to 10.4.8 and 10.3.x up to 10
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304829.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 272. CVE-2006-4407
@@ -4354,9 +3541,6 @@ The Security Framework in Apple Mac OS X 10.3.x up to 10.3.9 does not properly p
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304829.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4371,9 +3555,6 @@ The Security Framework in Apple Mac OS X 10.4 through 10.4.8 allows remote attac
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304829.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 274. CVE-2006-4409
@@ -4386,9 +3567,6 @@ The Online Certificate Status Protocol (OCSP) service in the Security Framework 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304829.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4403,9 +3581,6 @@ The Security Framework in Apple Mac OS X 10.3.9, and 10.4.x before 10.4.7, does 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304829.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 276. CVE-2006-4411
@@ -4418,9 +3593,6 @@ The VPN service in Apple Mac OS X 10.3.x through 10.3.9 and 10.4.x through 10.4.
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304829.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4435,9 +3607,6 @@ WebKit in Apple Mac OS X 10.3.x through 10.3.9 and 10.4 through 10.4.8 allows re
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304829.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 278. CVE-2006-6238
@@ -4450,9 +3619,6 @@ The AutoFill feature in Apple Safari 2.0.4 does not properly verify that all aut
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://secunia.com/advisories/23066.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4467,9 +3633,6 @@ Apple Airport Extreme firmware 0.1.27 in Mac OS X 10.4.8 on Mac mini, MacBook, a
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=305031.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 280. CVE-2006-5681
@@ -4482,9 +3645,6 @@ QuickTime for Java on Mac OS X 10.4 through 10.4.8, when used with Quartz Compos
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304916.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4499,9 +3659,6 @@ Buffer overflow in the glob implementation (glob.c) in libc in NetBSD-current be
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=305391.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 282. CVE-1999-1113
@@ -4514,9 +3671,6 @@ Buffer overflow in Eudora Internet Mail Server (EIMS) 2.01 and earlier on MacOS 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=89258194718577&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4531,9 +3685,6 @@ MacOS uses weak encryption for passwords that are stored in the Users & Groups D
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93188174906513&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 284. CVE-1999-1076
@@ -4546,9 +3697,6 @@ Idle locking function in MacOS 9 allows local users to bypass the password prote
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=94096348604173&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4563,9 +3711,6 @@ Idle locking function in MacOS 9 allows local attackers to bypass the password p
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=94149318124548&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 286. CVE-1999-1528
@@ -4578,9 +3723,6 @@ ProSoft Netware Client 5.12 on Macintosh MacOS 9 does not automatically log a us
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=94261444428430&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4595,9 +3737,6 @@ Apache on MacOS X Client 10.0.3 with the HFS+ file system allows remote attacker
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-06/0090.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 288. CVE-2001-0921
@@ -4610,9 +3749,6 @@ Netscape 4.79 and earlier for MacOS allows an attacker with access to the browse
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=100638816318705&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4627,9 +3763,6 @@ Point to Point Protocol daemon (pppd) in MacOS x 10.0 and 10.1 through 10.1.5 pr
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/7750.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 290. CVE-2002-1773
@@ -4642,9 +3775,6 @@ Buffer overflow in ICQ 2.6x for MacOS X 10.0 through 10.1.2 allows remote attack
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/254133.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4659,9 +3789,6 @@ Cross-site scripting vulnerability AOL Instant Messenger (AIM) 4.5 and 4.7 for M
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/282443.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 292. CVE-2003-0088
@@ -4674,9 +3801,6 @@ TruBlueEnvironment for MacOS 10.2.3 and earlier allows local users to overwrite 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=61798.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4691,9 +3815,6 @@ The Cisco VPN 5000 Client for MacOS before 5.2.2 records the most recently used 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.cisco.com/warp/public/707/vpn5k-client-multiple-vuln-pub.shtml.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 294. CVE-2003-0171
@@ -4706,9 +3827,6 @@ DirectoryServices in MacOS X trusts the PATH environment variable to locate and 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/mhonarc/security-announce/msg00028.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4723,9 +3841,6 @@ The installation of Dantz Retrospect Client 5.0.540 on MacOS X 10.2.6, and possi
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=105579526026992&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 296. CVE-2003-0518
@@ -4738,9 +3853,6 @@ The screen saver in MacOS X allows users with physical access to cause the scree
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2003-07/0034.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4755,9 +3867,6 @@ nidump on MacOS X before 10.3 allows local users to read the encrypted passwords
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/mhonarc/security-announce/msg00038.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 298. CVE-2004-0169
@@ -4770,9 +3879,6 @@ QuickTime Streaming Server in MacOS X 10.2.8 and 10.3.2 allows remote attackers 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Feb/msg00000.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4787,9 +3893,6 @@ Cisco Trust Agent (CTA) before 2.1.104.0, when running on MacOS X, allows attack
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://secunia.com/advisories/25598.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 300. CVE-2007-6456
@@ -4802,9 +3905,6 @@ Unspecified vulnerability in OpenOffice.org code in Planamesa NeoOffice 2.2.2 be
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://neowiki.neooffice.org/index.php/NeoOffice_Release_Notes.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4819,9 +3919,6 @@ An issue was discovered in certain Apple products. macOS before 10.12 is affecte
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/96329.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 302. CVE-2016-4660
@@ -4834,9 +3931,6 @@ An issue was discovered in certain Apple products. iOS before 10.1 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/93849.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4851,9 +3945,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.1 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/93852.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 304. CVE-2016-4662
@@ -4866,9 +3957,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.1 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/93852.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4883,9 +3971,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.1 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/93852.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 306. CVE-2016-4667
@@ -4898,9 +3983,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.1 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/93852.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4915,9 +3997,6 @@ An issue was discovered in certain Apple products. iOS before 10.1 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://packetstormsecurity.com/files/158874/Safari-Webkit-For-iOS-7.1.2-JIT-Optimization-Bug.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 308. CVE-2016-4670
@@ -4930,9 +4009,6 @@ An issue was discovered in certain Apple products. iOS before 10.1 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94433.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4947,9 +4023,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.1 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/93852.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 310. CVE-2016-4673
@@ -4962,9 +4035,6 @@ An issue was discovered in certain Apple products. iOS before 10.1 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/93849.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4979,9 +4049,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.1 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/93852.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 312. CVE-2016-4675
@@ -4994,9 +4061,6 @@ An issue was discovered in certain Apple products. iOS before 10.1 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/93849.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5011,9 +4075,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.1 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/93852.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 314. CVE-2016-4679
@@ -5026,9 +4087,6 @@ An issue was discovered in certain Apple products. iOS before 10.1 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/93849.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5043,9 +4101,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.1 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94431.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 316. CVE-2016-4682
@@ -5058,9 +4113,6 @@ An issue was discovered in certain Apple products. macOS before 10.12 is affecte
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/93852.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5075,9 +4127,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.1 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94431.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 318. CVE-2016-4688
@@ -5090,9 +4139,6 @@ An issue was discovered in certain Apple products. iOS before 10.1 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94572.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5107,9 +4153,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 320. CVE-2016-4693
@@ -5122,9 +4165,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5139,9 +4179,6 @@ An issue was discovered in certain Apple products. iOS before 10.1 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94429.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 322. CVE-2016-4780
@@ -5154,9 +4191,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.1 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://support.apple.com/HT207275.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5171,9 +4205,6 @@ An issue was discovered in certain Apple products. iOS before 10.1 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94429.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 324. CVE-2016-7579
@@ -5186,9 +4217,6 @@ An issue was discovered in certain Apple products. iOS before 10.1 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/93856.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5203,9 +4231,6 @@ An issue was discovered in certain Apple products. macOS before 10.12 is affecte
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94434.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 326. CVE-2016-7582
@@ -5218,9 +4243,6 @@ An issue was discovered in certain Apple products. macOS before 10.12 is affecte
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94435.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5235,9 +4257,6 @@ An issue was discovered in certain Apple products. iOS before 10.1 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94571.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 328. CVE-2016-7588
@@ -5250,9 +4269,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5267,9 +4283,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 330. CVE-2016-7594
@@ -5282,9 +4295,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5299,9 +4309,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 332. CVE-2016-7596
@@ -5314,9 +4321,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.2 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94903.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5331,9 +4335,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.2 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94903.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 334. CVE-2016-7602
@@ -5346,9 +4347,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.2 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94903.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5363,9 +4361,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.2 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94903.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 336. CVE-2016-7604
@@ -5378,9 +4373,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.2 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94903.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5395,9 +4387,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.2 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94903.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 338. CVE-2016-7606
@@ -5410,9 +4399,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5427,9 +4413,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 340. CVE-2016-7608
@@ -5442,9 +4425,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.2 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94903.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5459,9 +4439,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.2 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94903.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 342. CVE-2016-7612
@@ -5474,9 +4451,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5491,9 +4465,6 @@ An issue was discovered in certain Apple products. iOS before 10.1 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94116.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 344. CVE-2016-7615
@@ -5506,9 +4477,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5523,9 +4491,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 346. CVE-2016-7617
@@ -5538,9 +4503,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.2 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94903.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5555,9 +4517,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.2 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94903.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 348. CVE-2016-7619
@@ -5570,9 +4529,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5587,9 +4543,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.2 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94903.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 350. CVE-2016-7621
@@ -5602,9 +4555,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5619,9 +4569,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.2 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94903.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 352. CVE-2016-7624
@@ -5634,9 +4581,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.2 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94903.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5651,9 +4595,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.2 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94903.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 354. CVE-2016-7627
@@ -5666,9 +4607,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5683,9 +4621,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.2 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94903.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 356. CVE-2016-7629
@@ -5698,9 +4633,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.2 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94903.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5715,9 +4647,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.2 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94903.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 358. CVE-2016-7636
@@ -5730,9 +4659,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5747,9 +4673,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 360. CVE-2016-7643
@@ -5762,9 +4685,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5779,9 +4699,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94904.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 362. CVE-2016-7655
@@ -5794,9 +4711,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94906.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5811,9 +4725,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 364. CVE-2016-7658
@@ -5826,9 +4737,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5843,9 +4751,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 366. CVE-2016-7660
@@ -5858,9 +4763,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5875,9 +4777,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94906.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 368. CVE-2016-7662
@@ -5890,9 +4789,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5907,9 +4803,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/94905.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 370. CVE-2016-7667
@@ -5922,9 +4815,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://support.apple.com/HT207422.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5939,9 +4829,6 @@ An issue was discovered in certain Apple products. iOS before 10.2 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://support.apple.com/HT207422.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 372. CVE-2016-7742
@@ -5954,9 +4841,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.2 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://support.apple.com/HT207423.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5971,9 +4855,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.2 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://support.apple.com/HT207423.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 374. CVE-2017-2353
@@ -5986,9 +4867,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.3 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/95723.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6003,9 +4881,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.3 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/95723.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 376. CVE-2017-2358
@@ -6018,9 +4893,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.3 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/95723.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6035,9 +4907,6 @@ An issue was discovered in certain Apple products. iOS before 10.2.1 is affected
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/95729.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 378. CVE-2017-2361
@@ -6050,9 +4919,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.3 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/95723.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6067,9 +4933,6 @@ An issue was discovered in certain Apple products. iOS before 10.2.1 is affected
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/95731.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 380. CVE-2016-9892
@@ -6082,9 +4945,6 @@ The esets_daemon service in ESET Endpoint Antivirus for macOS before 6.4.168.0 a
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://packetstormsecurity.com/files/141350/ESET-Endpoint-Antivirus-6-Remote-Code-Execution.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6099,9 +4959,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 382. CVE-2017-2379
@@ -6114,9 +4971,6 @@ An issue was discovered in certain Apple products. iOS before 10.3 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97137.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6131,9 +4985,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 384. CVE-2017-2382
@@ -6146,9 +4997,6 @@ An issue was discovered in certain Apple products. macOS Server before 5.3 is af
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97128.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6163,9 +5011,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 386. CVE-2017-2390
@@ -6178,9 +5023,6 @@ An issue was discovered in certain Apple products. iOS before 10.3 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97137.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6195,9 +5037,6 @@ An issue was discovered in certain Apple products. Pages before 6.1, Numbers bef
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97126.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 388. CVE-2017-2398
@@ -6210,9 +5049,6 @@ An issue was discovered in certain Apple products. iOS before 10.3 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97147.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6227,9 +5063,6 @@ An issue was discovered in certain Apple products. iOS before 10.3 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97137.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 390. CVE-2017-2402
@@ -6242,9 +5075,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6259,9 +5089,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 392. CVE-2017-2406
@@ -6274,9 +5101,6 @@ An issue was discovered in certain Apple products. iOS before 10.3 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97137.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6291,9 +5115,6 @@ An issue was discovered in certain Apple products. iOS before 10.3 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97137.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 394. CVE-2017-2408
@@ -6306,9 +5127,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6323,9 +5141,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 396. CVE-2017-2410
@@ -6338,9 +5153,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6355,9 +5167,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 398. CVE-2017-2416
@@ -6370,9 +5179,6 @@ An issue was discovered in certain Apple products. iOS before 10.3 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97137.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6387,9 +5193,6 @@ An issue was discovered in certain Apple products. iOS before 10.3 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97137.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 400. CVE-2017-2418
@@ -6402,9 +5205,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6419,9 +5219,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 402. CVE-2017-2421
@@ -6434,9 +5231,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6451,9 +5245,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 404. CVE-2017-2423
@@ -6466,9 +5257,6 @@ An issue was discovered in certain Apple products. iOS before 10.3 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97147.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6483,9 +5271,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 406. CVE-2017-2426
@@ -6498,9 +5283,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6515,9 +5297,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 408. CVE-2017-2428
@@ -6530,9 +5309,6 @@ An issue was discovered in certain Apple products. iOS before 10.3 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97146.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6547,9 +5323,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 410. CVE-2017-2430
@@ -6562,9 +5335,6 @@ An issue was discovered in certain Apple products. iOS before 10.3 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97137.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6579,9 +5349,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 412. CVE-2017-2432
@@ -6594,9 +5361,6 @@ An issue was discovered in certain Apple products. iOS before 10.3 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97137.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6611,9 +5375,6 @@ An issue was discovered in certain Apple products. iOS before 10.3 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97137.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 414. CVE-2017-2436
@@ -6626,9 +5387,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6643,9 +5401,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 416. CVE-2017-2438
@@ -6658,9 +5413,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6675,9 +5427,6 @@ An issue was discovered in certain Apple products. iOS before 10.3 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97137.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 418. CVE-2017-2440
@@ -6690,9 +5439,6 @@ An issue was discovered in certain Apple products. iOS before 10.3 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97137.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6707,9 +5453,6 @@ An issue was discovered in certain Apple products. iOS before 10.3 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97137.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 420. CVE-2017-2443
@@ -6722,9 +5465,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6739,9 +5479,6 @@ An issue was discovered in certain Apple products. iOS before 10.3 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97134.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 422. CVE-2017-2449
@@ -6754,9 +5491,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97140.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6771,9 +5505,6 @@ An issue was discovered in certain Apple products. iOS before 10.3 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97137.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 424. CVE-2017-2451
@@ -6787,9 +5518,6 @@ An issue was discovered in certain Apple products. iOS before 10.3 is affected. 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97137.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 425. CVE-2017-2456
@@ -6802,8 +5530,5 @@ An issue was discovered in certain Apple products. iOS before 10.3 is affected. 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/97137.
-
-**参考链接 / References**:
-- N/A
 
 ---

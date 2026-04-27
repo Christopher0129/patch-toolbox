@@ -20,9 +20,6 @@ Remote command execution in Microsoft Internet Explorer using .lnk and .url file
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0280.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 2. CVE-1999-0012
@@ -35,9 +32,6 @@ Some web servers under Microsoft Windows allow remote attackers to bypass access
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0012.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -52,9 +46,6 @@ Microsoft SQL Server 6.5 uses weak encryption for the password for the SQLExecut
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=ntbugtraq&m=90222453431645&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 4. CVE-1999-0288
@@ -67,9 +58,6 @@ The WINS server in Microsoft Windows NT 4.0 before SP4 allows remote attackers t
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://safenetworks.com/Windows/wins.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -84,9 +72,6 @@ TCP/IP implementation in Microsoft Windows 95, Windows NT 4.0, and possibly othe
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/10789.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 6. CVE-1999-0364
@@ -99,9 +84,6 @@ Microsoft Access 97 stores a database password as plaintext in a foreign mdb, al
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=91816470220259&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -116,9 +98,6 @@ Buffer overflow in FTP server in Microsoft IIS 3.0 and 4.0 allows local and some
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=91722115016183&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 8. CVE-1999-0379
@@ -131,9 +110,6 @@ Microsoft Taskpads allows remote web sites to execute commands on the visiting u
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.osvdb.org/1019.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -148,9 +124,6 @@ Microsoft Personal Web Server and FrontPage Personal Web Server in some Windows 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.osvdb.org/111.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 10. CVE-1999-0419
@@ -162,9 +135,6 @@ When the Microsoft SMTP service attempts to send a message to a server and recei
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0419.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -179,9 +149,6 @@ Internet Explorer 5.0 allows a remote server to read arbitrary files on the clie
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-012.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 12. CVE-1999-1097
@@ -194,9 +161,6 @@ Microsoft NetMeeting 2.1 allows one client to read the contents of another clien
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=92586457816446&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -211,9 +175,6 @@ A remote attacker can disable the virus warning mechanism in Microsoft Excel 97.
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ231304.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 14. CVE-1999-1033
@@ -226,9 +187,6 @@ Microsoft Outlook Express before 4.72.3612.1700 allows a malicious user to send 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=92647407427342&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -243,9 +201,6 @@ A configuration problem in the Ad Server Sample directory (AdSamples) in Microso
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=92647407227303&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 16. CVE-1999-1368
@@ -258,9 +213,6 @@ AV Option for MS Exchange Server option for InoculateIT 4.53, and possibly other
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=ntbugtraq&m=92652152723629&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -275,9 +227,6 @@ Microsoft Outlook client allows remote attackers to cause a denial of service by
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93041631215856&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 18. CVE-1999-1011
@@ -290,9 +239,6 @@ The Remote Data Service (RDS) DataFactory component of Microsoft Data Access Com
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/j-054.shtml.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -307,9 +253,6 @@ The Microsoft Jet database engine allows an attacker to modify text files via a 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/templates/archive.pike?list=1&date=1999-08-22&msg=19990729195531.25108.qmail%40underground.org.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 20. CVE-1999-0700
@@ -322,9 +265,6 @@ Buffer overflow in Microsoft Phone Dialer (dialer.exe), via a malformed dialer e
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ237185.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -339,9 +279,6 @@ Microsoft Exchange 5.5 allows a remote attacker to relay email (i.e. spam) using
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ237927.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 22. CVE-1999-0749
@@ -354,9 +291,6 @@ Buffer overflow in Microsoft Telnet client in Windows 95 and Windows 98 via a ma
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/586.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -371,9 +305,6 @@ The Microsoft Jet database engine allows an attacker to execute commands via a d
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/548.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 24. CVE-1999-1052
@@ -386,9 +317,6 @@ Microsoft FrontPage stores form results in a default location in /_private/form_
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93582550911564&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -403,9 +331,6 @@ Microsoft HTML control as used in (1) Internet Explorer 5.0, (2) FrontPage Expre
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=ntbugtraq&m=93578772920970&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 26. CVE-1999-0910
@@ -418,9 +343,6 @@ Microsoft Site Server and Commercial Internet System (MCIS) do not set an expira
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/625.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -435,9 +357,6 @@ Microsoft Excel does not warn a user when a macro is present in a Symbolic Link 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ241900.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 28. CVE-1999-0766
@@ -450,9 +369,6 @@ The Microsoft Java Virtual Machine allows a malicious Java applet to execute arb
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ240346.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -467,9 +383,6 @@ Microsoft Virtual Machine (VM) allows remote attackers to escape the Java sandbo
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93993545118416&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 30. CVE-2000-0329
@@ -482,9 +395,6 @@ A Microsoft ActiveX control allows a remote attacker to execute a malicious cabi
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-048.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -499,9 +409,6 @@ Buffer overflow in Microsoft Rich Text Format (RTF) reader allows attackers to c
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ249973.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 32. CVE-1999-0999
@@ -514,9 +421,6 @@ Microsoft SQL 7.0 server allows a remote attacker to cause a denial of service v
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ248749.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -531,9 +435,6 @@ Modifications to ACLs (Access Control Lists) in Microsoft Exchange  5.5 do not t
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0993.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 34. CVE-1999-1043
@@ -546,9 +447,6 @@ Microsoft Exchange Server 5.5 and 5.0 does not properly handle (1) malformed NNT
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/1998/ms98-007.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -563,9 +461,6 @@ Microsoft Excel 97 does not warn the user before executing worksheet functions, 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/179.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 36. CVE-1999-1246
@@ -578,9 +473,6 @@ Direct Mailer feature in Microsoft Site Server 3.0 saves user domain names and p
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://support.microsoft.com/support/kb/articles/Q229/9/72.asp.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -595,9 +487,6 @@ Microsoft Office 98, Macintosh Edition, does not properly initialize the disk sp
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://support.microsoft.com/support/kb/articles/q189/5/29.asp.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 38. CVE-1999-1279
@@ -610,9 +499,6 @@ An interaction between the AS/400 shared folders feature and Microsoft SNA Serve
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://support.microsoft.com/support/kb/articles/q138/0/01.asp.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -627,9 +513,6 @@ Microsoft Internet Information Services (IIS) server 4.0 SP4, without certain ho
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/ntbugtraq/1998-1999/msg00276.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 40. CVE-2000-0053
@@ -642,9 +525,6 @@ Microsoft Commercial Internet System (MCIS) IMAP server allows remote attackers 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ246731.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -659,9 +539,6 @@ The WebHits ISAPI filter in Microsoft Index Server allows remote attackers to re
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.osvdb.org/1210.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 42. CVE-2000-0098
@@ -674,9 +551,6 @@ Microsoft Index Server allows remote attackers to determine the real path for a 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-006.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -691,9 +565,6 @@ Microsoft Java Virtual Machine allows remote attackers to read files via the get
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/957.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 44. CVE-2000-0089
@@ -706,9 +577,6 @@ The rdisk utility in Microsoft Terminal Server Edition and Windows NT 4.0 stores
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ249108.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -723,9 +591,6 @@ Sample web sites on Microsoft Site Server 3.0 Commerce Edition do not validate a
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/994.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 46. CVE-2000-0162
@@ -738,9 +603,6 @@ The Microsoft virtual machine (VM) in Internet Explorer 4.x and 5.x allows a rem
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-011.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -755,9 +617,6 @@ The Microsoft Active Setup ActiveX component in Internet Explorer 4.x and 5.x al
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/templates/archive.pike?list=1&date=2000-02-15&msg=20000221103938.T21312%40securityfocus.com.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 48. CVE-2000-0216
@@ -770,9 +629,6 @@ Microsoft email clients in Outlook, Exchange, and Windows Messaging automaticall
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/ntbugtraq/2000-q1/0176.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -787,9 +643,6 @@ The window.showHelp() method in Internet Explorer 5.x does not restrict HTML hel
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1033.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 50. CVE-2000-0168
@@ -802,9 +655,6 @@ Microsoft Windows 9x operating systems allow an attacker to cause a denial of se
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1043.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -819,9 +669,6 @@ Buffer overflow in Microsoft Clip Art Gallery allows remote attackers to cause a
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1034.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 52. CVE-2000-0202
@@ -834,9 +681,6 @@ Microsoft SQL Server 7.0 and Microsoft Data Engine (MSDE) 1.0 allow remote attac
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1041.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -851,9 +695,6 @@ When a new SQL Server is registered in Enterprise Manager for Microsoft SQL Serv
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1055.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 54. CVE-2000-0228
@@ -866,9 +707,6 @@ Microsoft Windows Media License Manager allows remote attackers to cause a denia
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1058.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -883,9 +721,6 @@ Microsoft TCP/IP Printing Services, aka Print Services for Unix, allows an attac
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-03/0306.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 56. CVE-2000-0302
@@ -898,9 +733,6 @@ Microsoft Index Server allows remote attackers to view the source code of ASP fi
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=95453598317340&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -915,9 +747,6 @@ Microsoft Excel 97 and 2000 does not warn the user when executing Excel Macro La
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.osvdb.org/1272.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 58. CVE-2000-0260
@@ -930,9 +759,6 @@ Buffer overflow in the dvwssr.dll DLL in Microsoft Visual Interdev 1.0 allows us
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.osvdb.org/282.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -947,9 +773,6 @@ The default configuration for the domain name resolver for Microsoft Windows 98,
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/458659.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 60. CVE-2000-0331
@@ -962,9 +785,6 @@ Buffer overflow in Microsoft command processor (CMD.EXE) for Windows NT and Wind
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-04/0147.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -979,9 +799,6 @@ Microsoft IIS 4.0 and 5.0 with the IISADMPWD virtual directory installed allows 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1191.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 62. CVE-2000-0400
@@ -994,9 +811,6 @@ The Microsoft Active Movie ActiveX Control in Internet Explorer 5 does not restr
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=95868514521257&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1011,9 +825,6 @@ The Mixed Mode authentication capability in Microsoft SQL Server 7.0 stores the 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.microsoft.com/technet/support/kb.asp?ID=263968.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 64. CVE-2000-0485
@@ -1026,9 +837,6 @@ Microsoft SQL Server allows local users to obtain database passwords via the Dat
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/62771.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1043,9 +851,6 @@ Microsoft Windows Media Encoder allows remote attackers to cause a denial of ser
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1282.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 66. CVE-2000-0524
@@ -1058,9 +863,6 @@ Microsoft Outlook and Outlook Express allow remote attackers to cause a denial o
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-06/0045.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1075,9 +877,6 @@ Internet Explorer 5.x does not warn a user before opening a Microsoft Access dat
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.cert.org/advisories/CA-2000-16.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 68. CVE-2000-0597
@@ -1090,9 +889,6 @@ Microsoft Office 2000 (Excel and PowerPoint) and PowerPoint 97 are marked as saf
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1399.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1107,9 +903,6 @@ Microsoft SQL Server 7.0 allows a local user to bypass permissions for stored pr
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1444.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 70. CVE-2000-0654
@@ -1122,9 +915,6 @@ Microsoft Enterprise Manager allows local users to obtain database passwords via
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1466.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1139,9 +929,6 @@ Internet Explorer 5.x and Microsoft Outlook allows remote attackers to read arbi
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1474.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 72. CVE-2000-0567
@@ -1154,9 +941,6 @@ Buffer overflow in Microsoft Outlook and Outlook Express allows remote attackers
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1481.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1171,9 +955,6 @@ Microsoft Outlook 98 and 2000, and Outlook Express 4.0x and 5.0x, allow remote a
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.cert.org/advisories/CA-2000-14.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 74. CVE-2000-0653
@@ -1186,9 +967,6 @@ Microsoft Outlook Express allows remote attackers to monitor a user's email by c
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1502.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1203,9 +981,6 @@ Microsoft Excel 97 and 2000 allows an attacker to execute arbitrary commands by 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1451.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 76. CVE-2000-1079
@@ -1218,9 +993,6 @@ Interactions between the CIFS Browser Protocol and NetBIOS as implemented in Mic
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/ntbugtraq/2000-q3/0116.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1235,9 +1007,6 @@ The URLConnection function in MacOS Runtime Java (MRJ) 2.1 and earlier and the M
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-06/0056.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 78. CVE-2000-0709
@@ -1250,9 +1019,6 @@ The shtml.exe component of Microsoft FrontPage 2000 Server Extensions 1.1 allows
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-08/0288.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1267,9 +1033,6 @@ The shtml.exe component of Microsoft FrontPage 2000 Server Extensions 1.1 allows
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-08/0288.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 80. CVE-2000-0742
@@ -1282,9 +1045,6 @@ The IPX protocol implementation in Microsoft Windows 95 and 98 allows remote att
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1544.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1299,9 +1059,6 @@ The Microsoft Outlook mail client identifies the physical path of the sender's m
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/201422.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 82. CVE-2000-0756
@@ -1314,9 +1071,6 @@ Microsoft Outlook 2000 does not properly process long or malformed fields in vCa
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1633.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1331,9 +1085,6 @@ Buffer overflow in the HTML interpreter in Microsoft Office 2000 allows an attac
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1561.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 84. CVE-2000-0771
@@ -1346,9 +1097,6 @@ Microsoft Windows 2000 allows local users to cause a denial of service by corrup
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1613.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1363,9 +1111,6 @@ The password protection feature of Microsoft Money can store the password in pla
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1615.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 86. CVE-2000-0788
@@ -1378,9 +1123,6 @@ The Mail Merge tool in Microsoft Word does not prompt the user before executing 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1566.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1395,9 +1137,6 @@ The web-based folder display capability in Microsoft Internet Explorer 5.5 on Wi
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1571.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 88. CVE-2000-0849
@@ -1410,9 +1149,6 @@ Race condition in Microsoft Windows Media server allows remote attackers to caus
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1655.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1427,9 +1163,6 @@ When a Microsoft Office 2000 document is launched, the directory of that documen
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-09/0277.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 90. CVE-2000-0858
@@ -1442,9 +1175,6 @@ Vulnerability in Microsoft Windows NT 4.0 allows remote attackers to cause a den
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vendor/2000-q3/0065.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1459,9 +1189,6 @@ Microsoft Windows 2000 before Service Pack 2 (SP2), when running in a non-Window
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/818496.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 92. CVE-2000-1006
@@ -1474,9 +1201,6 @@ Microsoft Exchange Server 5.5 does not properly handle a MIME header with a blan
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1869.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1491,9 +1215,6 @@ Microsoft Virtual Machine (VM) in Internet Explorer 4.x and 5.x allows an unsign
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-075.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 94. CVE-2000-0817
@@ -1506,9 +1227,6 @@ Buffer overflow in the HTTP protocol parser for Microsoft Network Monitor (Netmo
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://xforce.iss.net/alerts/index.php.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1523,9 +1241,6 @@ Buffer overflows in Microsoft Network Monitor (Netmon) allow remote attackers to
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-083.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 96. CVE-2000-0929
@@ -1538,9 +1253,6 @@ Microsoft Windows Media Player 7 allows attackers to cause a denial of service i
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97024839222747&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1555,9 +1267,6 @@ The CiWebHitsFile component in Microsoft Indexing Services for Windows 2000 allo
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/141903.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 98. CVE-2000-0980
@@ -1570,9 +1279,6 @@ NMPI (Name Management Protocol on IPX) listener in Microsoft NWLink does not pro
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1781.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1587,9 +1293,6 @@ Microsoft NetMeeting with Remote Desktop Sharing enabled allows remote attackers
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ273854.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 100. CVE-2000-1081
@@ -1602,9 +1305,6 @@ The xp_displayparamstmt function in SQL Server and Microsoft SQL Server Desktop 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97570878710037&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1619,9 +1319,6 @@ The xp_enumresultset function in SQL Server and Microsoft SQL Server Desktop Eng
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97570878710037&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 102. CVE-2000-1083
@@ -1634,9 +1331,6 @@ The xp_showcolv function in SQL Server and Microsoft SQL Server Desktop Engine (
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97570878710037&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1651,9 +1345,6 @@ The xp_updatecolvbm function in SQL Server and Microsoft SQL Server Desktop Engi
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97570878710037&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 104. CVE-2000-1085
@@ -1666,9 +1357,6 @@ The xp_peekqueue function in Microsoft SQL Server 2000 and SQL Server Desktop En
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97570884410184&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1683,9 +1371,6 @@ The xp_printstatements function in Microsoft SQL Server 2000 and SQL Server Desk
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97570884410184&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 106. CVE-2000-1087
@@ -1698,9 +1383,6 @@ The xp_proxiedmetadata function in Microsoft SQL Server 2000 and SQL Server Desk
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97570884410184&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1715,9 +1397,6 @@ The xp_SetSQLSecurity function in Microsoft SQL Server 2000 and SQL Server Deskt
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97570884410184&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 108. CVE-2000-1089
@@ -1730,9 +1409,6 @@ Buffer overflow in Microsoft Phone Book Service allows local users to execute ar
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/2048.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1747,9 +1423,6 @@ Microsoft Windows Media Player 7 executes scripts in custom skin (.WMS) files, w
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1976.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 110. CVE-2000-1113
@@ -1762,9 +1435,6 @@ Buffer overflow in Microsoft Windows Media Player allows remote attackers to exe
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.atstake.com/research/advisories/2000/a112300-1.txt.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1779,9 +1449,6 @@ The installation of Microsoft Exchange 2000 before Rev. A creates a user account
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1958.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 112. CVE-2000-1090
@@ -1794,9 +1461,6 @@ Microsoft IIS for Far East editions 4.0 and 5.0 allows remote attackers to read 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.nsfocus.com/english/homepage/sa_08.htm.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1811,9 +1475,6 @@ Web Extender Client (WEC) in Microsoft Office 2000, Windows 2000, and Windows Me
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/2199.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 114. CVE-2001-0005
@@ -1826,9 +1487,6 @@ Buffer overflow in the parsing mechanism of the file loader in Microsoft PowerPo
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.atstake.com/research/advisories/2001/a012301-1.txt.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1843,9 +1501,6 @@ The "Configure Your Server" tool in Microsoft 2000 domain controllers installs a
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/2133.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 116. CVE-2001-0047
@@ -1858,9 +1513,6 @@ The default permissions for the MTS Package Administration registry key in Windo
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/2065.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1875,9 +1527,6 @@ Buffer overflow in Microsoft FrontPage Server Extensions (PWS) 3.0.2.926 on Wind
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/1999-q3/0381.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 118. CVE-1999-0945
@@ -1890,9 +1539,6 @@ Buffer overflow in Internet Mail Service (IMS) for Microsoft Exchange 5.5 and 5.
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ169174.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1907,9 +1553,6 @@ Microsoft Internet Explorer 5.0 through 6.0 allows attackers to cause a denial o
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://cert.uni-stuttgart.de/archive/vuln-dev/2001/05/msg00029.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 120. CVE-2001-1326
@@ -1922,9 +1565,6 @@ Eudora 5.1 allows remote attackers to execute arbitrary code when the "Use Micro
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/187128.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1939,9 +1579,6 @@ IIS 5.0 and Microsoft Exchange 2000 allow remote attackers to cause a denial of 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/796584.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 122. CVE-2001-0261
@@ -1954,9 +1591,6 @@ Microsoft Windows 2000 Encrypted File System does not properly destroy backups o
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97992179925715&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1971,9 +1605,6 @@ Microsoft Outlook 8.5 and earlier, and Outlook Express 5 and earlier, with the "
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3BEN-US%3Bq234241.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 124. CVE-2001-0237
@@ -1986,9 +1617,6 @@ Memory leak in Microsoft 2000 domain controller allows remote attackers to cause
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://ciac.llnl.gov/ciac/bulletins/l-079.shtml.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2003,9 +1631,6 @@ Microsoft Word before Word 2002 allows attackers to automatically execute macros
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/2753.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 126. CVE-2001-0242
@@ -2018,9 +1643,6 @@ Buffer overflows in Microsoft Windows Media Player 7 and earlier allow remote at
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/187528.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2035,9 +1657,6 @@ Buffer overflow in Microsoft Index Server 2.0 allows remote attackers to execute
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/2709.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 128. CVE-2001-0245
@@ -2050,9 +1669,6 @@ Microsoft Index Server 2.0 in Windows NT 4.0, and Indexing Service in Windows 20
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-025.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2067,9 +1683,6 @@ The Microsoft MS00-060 patch for IIS 5.0 and earlier introduces an error which a
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.osvdb.org/5693.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 130. CVE-2001-0337
@@ -2082,9 +1695,6 @@ The Microsoft MS01-014 and MS01-016 patches for IIS 5.0 and earlier introduce a 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-026.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2099,9 +1709,6 @@ Eudora before 5.1 allows a remote attacker to execute arbitrary code, when the '
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=98503741910995&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 132. CVE-2001-0238
@@ -2114,9 +1721,6 @@ Microsoft Data Access Component Internet Publishing Provider 8.103.2519.0 and ea
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/l-074.shtml.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2131,9 +1735,6 @@ Microsoft Internet Security and Acceleration (ISA) Server 2000 Web Proxy allows 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/l-073.shtml.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 134. CVE-2001-1243
@@ -2146,9 +1747,6 @@ Scripting.FileSystemObject in asp.dll for Microsoft IIS 4.0 and 5.0 allows local
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/6800.php.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2163,9 +1761,6 @@ Microsoft Exchange 5.5 2000 allows remote attackers to cause a denial of service
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://ciac.llnl.gov/ciac/bulletins/l-116.shtml.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 136. CVE-2001-0340
@@ -2178,9 +1773,6 @@ An interaction between the Outlook Web Access (OWA) service in Microsoft Exchang
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/l-091.shtml.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2195,9 +1787,6 @@ Buffer overflow in Microsoft Visual Studio RAD Support sub-component of FrontPag
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=99348216322147&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 138. CVE-2001-0344
@@ -2210,9 +1799,6 @@ An SQL query method in Microsoft SQL Server 2000 Gold and 7.0 using Mixed Mode a
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/l-095.shtml.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2227,9 +1813,6 @@ Microsoft Windows 2000 telnet service allows attackers to prevent idle Telnet se
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/2843.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 140. CVE-2001-0346
@@ -2242,9 +1825,6 @@ Handle leak in Microsoft Windows 2000 telnet service allows attackers to cause a
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-031.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2259,9 +1839,6 @@ Information disclosure vulnerability in Microsoft Windows 2000 telnet service al
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/l-092.shtml.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 142. CVE-2001-0348
@@ -2274,9 +1851,6 @@ Microsoft Windows 2000 telnet service allows attackers to cause a denial of serv
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://razor.bindview.com/publish/advisories/adv_mstelnet.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2291,9 +1865,6 @@ Microsoft Windows 2000 telnet service creates named pipes with predictable names
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/587587.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 144. CVE-2001-0350
@@ -2306,9 +1877,6 @@ Microsoft Windows 2000 telnet service creates named pipes with predictable names
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-031.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2323,9 +1891,6 @@ Microsoft Windows 2000 telnet service allows a local user to make a certain syst
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/l-092.shtml.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 146. CVE-2001-0501
@@ -2338,9 +1903,6 @@ Microsoft Word 2002 and earlier allows attackers to automatically execute macros
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=99325144322224&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2355,9 +1917,6 @@ Microsoft NetMeeting 3.01 with Remote Desktop Sharing enabled allows remote atta
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/5368.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 148. CVE-2001-1055
@@ -2370,9 +1929,6 @@ The Microsoft Windows network stack allows remote attackers to cause a denial of
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/200323.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2387,9 +1943,6 @@ Vulnerability in authentication process for SMTP service in Microsoft Windows 20
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/l-107.shtml.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 150. CVE-2001-0538
@@ -2402,9 +1955,6 @@ Microsoft Outlook View ActiveX Control in Microsoft Outlook 2002 and earlier all
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=99496431214078&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2419,9 +1969,6 @@ Microsoft Word 2000 does not check AutoRecovery (.asd) files for macros, which a
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://support.microsoft.com/support/kb/articles/Q274/2/28.asp.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 152. CVE-2001-1099
@@ -2434,9 +1981,6 @@ The default configuration of Norton AntiVirus for Microsoft Exchange 2000 2.x al
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/212724.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2451,9 +1995,6 @@ SQLQHit.asp sample file in Microsoft Index Server 2.0 allows remote attackers to
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/214217.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 154. CVE-2001-0509
@@ -2466,9 +2007,6 @@ Vulnerabilities in RPC servers in (1) Microsoft Exchange Server 2000 and earlier
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-041.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2483,9 +2021,6 @@ Buffer overflow in Microsoft Windows Media Player 7.1 and earlier allows remote 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/187001.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 156. CVE-2001-0546
@@ -2498,9 +2033,6 @@ Memory leak in H.323 Gatekeeper Service in Microsoft Internet Security and Accel
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/3196.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2515,9 +2047,6 @@ Memory leak in the proxy service in Microsoft Internet Security and Acceleration
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/3197.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 158. CVE-2001-0658
@@ -2530,9 +2059,6 @@ Cross-site scripting (CSS) vulnerability in Microsoft Internet Security and Acce
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/3198.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2547,9 +2073,6 @@ Microsoft IIS 4.0 and before, when installed on a FAT partition, allows a remote
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/192802.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 160. CVE-2001-0505
@@ -2562,9 +2085,6 @@ Multiple memory leaks in Microsoft Services for Unix 2.0 allow remote attackers 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/581603.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2579,9 +2099,6 @@ Outlook Web Access (OWA) in Microsoft Exchange 5.5, SP4 and earlier, allows remo
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://support.microsoft.com/support/kb/articles/Q307/1/95.ASP.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 162. CVE-2001-0666
@@ -2594,9 +2111,6 @@ Outlook Web Access (OWA) in Microsoft Exchange 2000 allows an authenticated user
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/3368.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2611,9 +2125,6 @@ Vulnerability in (1) Microsoft Excel 2002 and earlier and (2) Microsoft PowerPoi
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/218802.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 164. CVE-2001-0902
@@ -2626,9 +2137,6 @@ Microsoft IIS 5.0 allows remote attackers to spoof web log entries via an HTTP r
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=100626531103946&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2643,9 +2151,6 @@ Buffer overflow in helpctr.exe program in Microsoft Help Center for Windows XP a
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=100638955422011&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 166. CVE-2001-0719
@@ -2658,9 +2163,6 @@ Buffer overflow in Microsoft Windows Media Player 6.4 allows remote attackers to
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/202470.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2675,9 +2177,6 @@ Outlook Web Access (OWA) in Microsoft Exchange 5.5 Server, when used with Intern
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.osvdb.org/5557.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 168. CVE-2001-1186
@@ -2690,9 +2189,6 @@ Microsoft IIS 5.0 allows remote attackers to cause a denial of service via an HT
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/244931.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2707,9 +2203,6 @@ Microsoft Windows XP allows local users to bypass a locked screen and run certai
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/7713.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 170. CVE-2001-0542
@@ -2722,9 +2215,6 @@ Buffer overflows in Microsoft SQL Server 7.0 and 2000 allow attackers with acces
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=100891252317406&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2739,9 +2229,6 @@ Microsoft Internet Explorer for Unix 5.0SP1 allows local users to possibly cause
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/246611.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 172. CVE-2001-1219
@@ -2754,9 +2241,6 @@ Microsoft Internet Explorer 6.0 and earlier allows malicious website operators t
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/246649.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2771,9 +2255,6 @@ Microsoft Internet Explorer 6 allows remote attackers to cause a denial of servi
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/245152.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 174. CVE-2001-1497
@@ -2786,9 +2267,6 @@ Microsoft Internet Explorer 4.0 through 6.0 could allow local users to different
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/7592.php.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2803,9 +2281,6 @@ Microsoft Internet Security and Acceleration (ISA) Server 2000 allows remote att
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://cert.uni-stuttgart.de/archive/bugtraq/2001/11/msg00018.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 176. CVE-2002-0077
@@ -2818,9 +2293,6 @@ Microsoft Internet Explorer 5.01, 5.5 and 6.0 treats objects invoked on an HTML 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101103188711920&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2835,9 +2307,6 @@ In Microsoft Windows NT and Windows 2000, a trusting domain that receives author
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/3997.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 178. CVE-2002-0021
@@ -2850,9 +2319,6 @@ Network Product Identification (PID) Checker in Microsoft Office v. X for Mac al
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.osvdb.org/2041.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2867,9 +2333,6 @@ Microsoft Exchange Server 2000 System Attendant gives "Everyone" group privilege
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.osvdb.org/2042.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 180. CVE-2002-0050
@@ -2882,9 +2345,6 @@ Buffer overflow in AuthFilter ISAPI filter on Microsoft Commerce Server 2000 all
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/4157.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2899,9 +2359,6 @@ SMTP service in (1) Microsoft Windows 2000 and (2) Internet Mail Connector (IMC)
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101501580409373&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 182. CVE-2002-0055
@@ -2914,9 +2371,6 @@ SMTP service in Microsoft Windows 2000, Windows XP Professional, and Exchange 20
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101558498401274&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2931,9 +2385,6 @@ XMLHTTP control in Microsoft XML Core Services 2.6 and later does not properly h
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-12/0152.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 184. CVE-2002-0058
@@ -2946,9 +2397,6 @@ Vulnerability in Java Runtime Environment (JRE) allows remote malicious web site
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101534535304228&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2963,9 +2411,6 @@ Java Runtime Environment (JRE) Bytecode Verifier allows remote attackers to esca
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/218.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 186. CVE-2002-0101
@@ -2978,9 +2423,6 @@ Microsoft Internet Explorer 6.0 and earlier allows local users to cause a denial
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101039104608083&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2995,9 +2437,6 @@ Microsoft Internet Explorer 5.5 on Windows 98 allows remote web pages to cause a
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/250592.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 188. CVE-2002-0078
@@ -3010,9 +2449,6 @@ The zone determination function in Microsoft Internet Explorer 5.5 and 6.0 allow
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101781180528301&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3027,9 +2463,6 @@ Buffer overflow in Multiple UNC Provider (MUP) in Microsoft Windows operating sy
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101793727306282&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 190. CVE-2002-0152
@@ -3042,9 +2475,6 @@ Buffer overflow in various Microsoft applications for Macintosh allows remote at
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101897994314015&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3059,9 +2489,6 @@ Buffer overflows in extended stored procedures for Microsoft SQL Server 7.0 and 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101535353331625&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 192. CVE-2002-0224
@@ -3074,9 +2501,6 @@ The MSDTC (Microsoft Distributed Transaction Service Coordinator) for Microsoft 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/253360.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3091,9 +2515,6 @@ Microsoft MSN Messenger allows remote attackers to use Javascript that reference
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/254021.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 194. CVE-2002-1056
@@ -3106,9 +2527,6 @@ Microsoft Outlook 2000 and 2002, when configured to use Microsoft Word as the em
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101760380418890&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3123,9 +2541,6 @@ Buffer overflow in Microsoft MSN Chat ActiveX Control, as used in MSN Messenger 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=102089960531919&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 196. CVE-2002-0188
@@ -3138,9 +2553,6 @@ Microsoft Internet Explorer 5.01 and 6.0 allow remote attackers to execute arbit
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2002-05/0126.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3155,9 +2567,6 @@ Microsoft Internet Explorer 5.01, 5.5 and 6.0 allows remote attackers to execute
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/9084.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 198. CVE-2002-0191
@@ -3170,9 +2579,6 @@ Microsoft Internet Explorer 5.01, 5.5 and 6.0 allows remote attackers to view ar
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101778302030981&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3187,9 +2593,6 @@ Microsoft Internet Explorer 5.01 and 6.0 allow remote attackers to execute arbit
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/4752.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 200. CVE-2002-0368
@@ -3202,9 +2605,6 @@ The Store Service in Microsoft Exchange 2000 allows remote attackers to cause a 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/9195.php.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3219,9 +2619,6 @@ LANMAN service on Microsoft Windows 2000 allows remote attackers to cause a deni
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2002-q2/0025.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 202. CVE-2002-0186
@@ -3234,9 +2631,6 @@ Buffer overflow in the SQLXML ISAPI extension of Microsoft SQL Server 2000 allow
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2002-q2/0100.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3251,9 +2645,6 @@ Cross-site scripting vulnerability in the SQLXML component of Microsoft SQL Serv
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2002-q2/0100.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 204. CVE-2002-0371
@@ -3266,9 +2657,6 @@ Buffer overflow in gopher client for Microsoft Internet Explorer 5.1 through 6.0
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=102320516707940&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3283,9 +2671,6 @@ Microsoft Windows Media Player versions 6.4 and 7.1 and Media Player for Windows
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/9420.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 206. CVE-2002-0373
@@ -3298,9 +2683,6 @@ The Windows Media Device Manager (WMDM) Service in Microsoft Windows Media Playe
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/9421.php.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3315,9 +2697,6 @@ The Windows Media Active Playlist in Microsoft Windows Media Player 7.1 stores i
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/9422.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 208. CVE-2002-0620
@@ -3330,9 +2709,6 @@ Buffer overflow in the Profile Service of Microsoft Commerce Server 2000 allows 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/4853.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3347,9 +2723,6 @@ Buffer overflow in the Office Web Components (OWC) package installer used by Mic
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/9424.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 210. CVE-2002-0622
@@ -3362,9 +2735,6 @@ The Office Web Components (OWC) package installer for Microsoft Commerce Server 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/9425.php.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3379,9 +2749,6 @@ Buffer overflow in AuthFilter ISAPI filter on Microsoft Commerce Server 2000 and
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/9426.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 212. CVE-2002-0624
@@ -3394,9 +2761,6 @@ Buffer overflow in the password encryption function of Microsoft SQL Server 2000
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.cert.org/advisories/CA-2002-22.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3411,9 +2775,6 @@ Buffer overflow in bulk insert procedure of Microsoft SQL Server 2000, including
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=102639885223746&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 214. CVE-2002-0642
@@ -3426,9 +2787,6 @@ The registry key containing the SQL Server service account information in Micros
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.cert.org/advisories/CA-2002-22.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3443,9 +2801,6 @@ The installation of Microsoft Data Engine 1.0 (MSDE 1.0), and Microsoft SQL Serv
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=102640092826731&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 216. CVE-2002-0409
@@ -3458,9 +2813,6 @@ orderdetails.aspx, as made available to Microsoft .NET developers as example cod
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101518860823788&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3475,9 +2827,6 @@ Microsoft Windows 2000 allows local users to bypass the policy that prohibits re
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/260704.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 218. CVE-2002-0444
@@ -3490,9 +2839,6 @@ Microsoft Windows 2000 running the Terminal Server 90-day trial version, and pos
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/8813.php.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3507,9 +2853,6 @@ The "sa" account is installed with a default null password on (1) Microsoft SQL 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=96333895000350&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 220. CVE-2002-0507
@@ -3522,9 +2865,6 @@ An interaction between Microsoft Outlook Web Access (OWA) with RSA SecurID allow
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/264705.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3539,9 +2879,6 @@ The Macro Security Model in Microsoft Excel 2000 and 2002 for Windows allows rem
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/9397.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 222. CVE-2002-0617
@@ -3554,9 +2891,6 @@ The Macro Security Model in Microsoft Excel 2000 and 2002 for Windows allows rem
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.osvdb.org/5175.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3571,9 +2905,6 @@ The Macro Security Model in Microsoft Excel 2000 and 2002 for Windows allows rem
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=ntbugtraq&m=102256054320377&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 224. CVE-2002-0619
@@ -3586,9 +2917,6 @@ The Mail Merge Tool in Microsoft Word 2002 for Windows, when Microsoft Access is
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=102139136019862&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3603,9 +2931,6 @@ Buffer overflow in several Database Consistency Checkers (DBCCs) for Microsoft S
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/2002/ms02-038.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 226. CVE-2002-0645
@@ -3618,9 +2943,6 @@ SQL injection vulnerability in stored procedures for Microsoft SQL Server 2000 a
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/2002/ms02-038.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3635,9 +2957,6 @@ Multiple buffer overflows in the Resolution Service for Microsoft SQL Server 200
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=102760196931518&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 228. CVE-2002-0650
@@ -3650,9 +2969,6 @@ The keep-alive mechanism for Microsoft SQL Server 2000 allows remote attackers t
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=102760196931518&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3667,9 +2983,6 @@ Buffer overflow in the Transact-SQL (T-SQL) OpenRowSet component of Microsoft Da
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/9734.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 230. CVE-2002-0697
@@ -3682,9 +2995,6 @@ Microsoft Metadirectory Services (MMS) 2.2 allows remote attackers to bypass aut
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/9657.php.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3699,9 +3009,6 @@ Buffer overflow in Internet Mail Connector (IMC) for Microsoft Exchange Server 5
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://bvlive01.iss.net/issEn/delivery/xforce/alertdetail.jsp?oid=20759.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 232. CVE-2002-0700
@@ -3714,9 +3021,6 @@ Buffer overflow in a system function that performs user authentication for Micro
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/9783.php.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3731,9 +3035,6 @@ Web authoring command in Microsoft Content Management Server (MCMS) 2001 allows 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/9784.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 234. CVE-2002-0719
@@ -3746,9 +3047,6 @@ SQL injection vulnerability in the function that services for Microsoft Content 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/9785.php.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3763,9 +3061,6 @@ Microsoft SQL Server 2000 allows remote attackers to cause a denial of service v
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=102760196931518&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 236. CVE-2002-0736
@@ -3778,9 +3073,6 @@ Microsoft BackOffice 4.0 and 4.5, when configured to be accessible by other syst
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2002-04/0208.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3795,9 +3087,6 @@ Microsoft SQL Server 7.0 and 2000 installs with weak permissions for extended st
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/ntbugtraq/2002-q3/0087.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 238. CVE-2002-0859
@@ -3810,9 +3099,6 @@ Buffer overflow in the OpenDataSource function of the Jet engine on Microsoft SQ
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=102450188620081&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3827,9 +3113,6 @@ Buffer overflow in a legacy ActiveX control used to display specially formatted 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/9935.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 240. CVE-2002-0648
@@ -3842,9 +3125,6 @@ The legacy <script> data-island capability for XML in Microsoft Internet Explore
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103011639524314&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3859,9 +3139,6 @@ Microsoft Internet Explorer 5.01 and 5.5 allows remote attackers to execute scri
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/9938.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 242. CVE-2002-0722
@@ -3874,9 +3151,6 @@ Microsoft Internet Explorer 5.01, 5.5, and 6.0 allows remote attackers to misrep
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103054692223380&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3891,9 +3165,6 @@ Microsoft Internet Explorer 5.5 and 6.0 does not properly verify the domain of a
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/9537.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 244. CVE-2002-0724
@@ -3906,9 +3177,6 @@ Buffer overflow in SMB (Server Message Block) protocol in Microsoft Windows NT, 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103011556323184&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3923,9 +3191,6 @@ Buffer overflow in Microsoft Terminal Services Advanced Client (TSAC) ActiveX co
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.atstake.com/research/advisories/2002/a082802-1.txt.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 246. CVE-2002-0727
@@ -3938,9 +3203,6 @@ The Host function in Microsoft Office Web Components (OWC) 2000 and 2002 is expo
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101829645415486&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3955,9 +3217,6 @@ The LoadText method in the spreadsheet component in Microsoft Office Web Compone
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101829911018463&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 248. CVE-2002-0861
@@ -3970,9 +3229,6 @@ Microsoft Office Web Components (OWC) 2000 and 2002 allows remote attackers to b
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101829726516346&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3987,9 +3243,6 @@ Buffer overflow in Microsoft DirectX Files Viewer ActiveX control (xweb.ocx) 2.0
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=102953851705859&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 250. CVE-2002-0977
@@ -4002,9 +3255,6 @@ Buffer overflow in Microsoft File Transfer Manager (FTM) ActiveX control before 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2002-08/0189.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4019,9 +3269,6 @@ Microsoft File Transfer Manager (FTM) ActiveX control before 4.0 allows remote a
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2002-08/0189.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 252. CVE-2002-0982
@@ -4034,9 +3281,6 @@ Microsoft SQL Server 2000 SP2, when configured as a distributor, allows attacker
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103004505027360&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4051,9 +3295,6 @@ Buffer overflow in the authentication function for Microsoft SQL Server 2000 and
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=102873609025020&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 254. CVE-2002-0696
@@ -4066,9 +3307,6 @@ Microsoft Visual FoxPro 6.0 does not register its associated files with Internet
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/m-120.shtml.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4083,9 +3321,6 @@ Unknown vulnerability in the Certificate Enrollment ActiveX Control in Microsoft
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/2002/ms02-048.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 256. CVE-2002-0862
@@ -4098,9 +3333,6 @@ The (1) CertGetCertificateChain, (2) CertVerifyCertificateChainPolicy, and (3) W
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=102866120821995&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4115,9 +3347,6 @@ RealJukebox 2 1.0.2.340 and 1.0.2.379, and RealOne Player Gold 6.0.10.505, allow
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2002-07/0130.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 258. CVE-2002-1117
@@ -4130,9 +3359,6 @@ Veritas Backup Exec 8.5 and earlier requires that the "RestrictAnonymous" regist
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103134395124579&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4147,9 +3373,6 @@ Buffer overflow in the ZIP capability for multiple products allows remote attack
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2002-q4/0009.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 260. CVE-2002-0692
@@ -4162,9 +3385,6 @@ Buffer overflow in SmartHTML Interpreter (shtml.dll) in Microsoft FrontPage Serv
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/10194.php.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4179,9 +3399,6 @@ Buffer overflow in the HTML Help ActiveX Control (hhctrl.ocx) in Microsoft Windo
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103365849505409&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 262. CVE-2002-0694
@@ -4194,9 +3411,6 @@ The HTML Help facility in Microsoft Windows 98, 98 Second Edition, Millennium Ed
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/10254.php.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4211,9 +3425,6 @@ Remote Data Protocol (RDP) version 5.0 in Microsoft Windows 2000 and RDP 5.1 in 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103235960119404&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 264. CVE-2002-0864
@@ -4226,9 +3437,6 @@ The Remote Data Protocol (RDP) version 5.1 in Microsoft Windows XP allows remote
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103235745116592&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4243,9 +3451,6 @@ A certain class that supports XML (Extensible Markup Language) in Microsoft Virt
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/10135.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 266. CVE-2002-0866
@@ -4258,9 +3463,6 @@ Java Database Connectivity (JDBC) classes in Microsoft Virtual Machine (VM) up t
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2002-09/0271.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4275,9 +3477,6 @@ Microsoft Virtual Machine (VM) up to and including build 5.0.3805 allows remote 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/10134.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 268. CVE-2002-1137
@@ -4290,9 +3489,6 @@ Buffer overflow in the Database Console Command (DBCC) that handles user inputs 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/n-003.shtml.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4307,9 +3503,6 @@ Microsoft SQL Server 7.0 and 2000, including Microsoft Data Engine (MSDE) 1.0 an
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/n-003.shtml.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 270. CVE-2002-1139
@@ -4322,9 +3515,6 @@ The Compressed Folders feature in Microsoft Windows 98 with Plus! Pack, Windows 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/10252.php.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4339,9 +3529,6 @@ The Sun Microsystems RPC library Services for Unix 3.0 Interix SD, as implemente
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/10258.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 272. CVE-2002-1141
@@ -4354,9 +3541,6 @@ An input validation error in the Sun Microsystems RPC library Services for Unix 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/10259.php.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4371,9 +3555,6 @@ The Remote Desktop Sharing (RDS) Screen Saver Protection capability for Microsof
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103228375116204&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 274. CVE-2001-1451
@@ -4386,9 +3567,6 @@ Memory leak in the SNMP LAN Manager (LANMAN) MIB extension for Microsoft Windows
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3B296815.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4403,9 +3581,6 @@ The xp_runwebtask stored procedure in the Web Tasks component of Microsoft SQL S
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103487044122900&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 276. CVE-2002-1179
@@ -4418,9 +3593,6 @@ Buffer overflow in the S/MIME Parsing capability in Microsoft Outlook Express 5.
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103435413105661&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4435,9 +3607,6 @@ Buffer overflow in Microsoft PPTP Service on Windows XP and Windows 2000 allows 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/293146.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 278. CVE-2002-0869
@@ -4450,9 +3619,6 @@ Unknown vulnerability in the hosting process (dllhost.exe) for Microsoft Interne
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2002-q4/0059.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4467,9 +3633,6 @@ Multiple cross-site scripting (XSS) vulnerabilities in the administrative web pa
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103651224215736&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 280. CVE-2002-1184
@@ -4482,9 +3645,6 @@ The system root folder of Microsoft Windows 2000 has default permissions of Ever
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/5415.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4499,9 +3659,6 @@ Heap-based buffer overflow in the Remote Data Services (RDS) component of Micros
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2002-q4/0082.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 282. CVE-2002-1286
@@ -4514,9 +3671,6 @@ The Microsoft Java implementation, as used in Internet Explorer, allows remote a
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4531,9 +3685,6 @@ Stack-based buffer overflow in the Microsoft Java implementation, as used in Int
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 284. CVE-2002-1288
@@ -4546,9 +3697,6 @@ The Microsoft Java implementation, as used in Internet Explorer, allows remote a
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4563,9 +3711,6 @@ The Microsoft Java implementation, as used in Internet Explorer, allows remote a
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 286. CVE-2002-1290
@@ -4578,9 +3723,6 @@ The Microsoft Java implementation, as used in Internet Explorer, allows remote a
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4595,9 +3737,6 @@ The Microsoft Java implementation, as used in Internet Explorer, allows remote a
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 288. CVE-2002-1292
@@ -4610,9 +3749,6 @@ The Microsoft Java virtual machine (VM) build 5.0.3805 and earlier, as used in I
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4627,9 +3763,6 @@ The Microsoft Java implementation, as used in Internet Explorer, provides a publ
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 290. CVE-2002-1294
@@ -4642,9 +3775,6 @@ The Microsoft Java implementation, as used in Internet Explorer, can provide HTM
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4659,9 +3789,6 @@ The Microsoft Java implementation, as used in Internet Explorer, allows remote a
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 292. CVE-2002-1183
@@ -4674,9 +3801,6 @@ Microsoft Windows 98 and Windows NT 4.0 do not properly verify the Basic Constra
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/5410.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4691,9 +3815,6 @@ Microsoft Outlook 2002 allows remote attackers to cause a denial of service (rep
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/6319.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 294. CVE-2002-1256
@@ -4706,9 +3827,6 @@ The SMB signing capability in the Server Message Block (SMB) protocol in Microso
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/6367.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4723,9 +3841,6 @@ Microsoft Virtual Machine (VM) up to and including build 5.0.3805 allows remote 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/6371.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 296. CVE-2002-1258
@@ -4738,9 +3853,6 @@ Two vulnerabilities in Microsoft Virtual Machine (VM) up to and including build 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/2002/ms02-069.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4755,9 +3867,6 @@ The Java Database Connectivity (JDBC) APIs in Microsoft Virtual Machine (VM) 5.0
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/n-026.shtml.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 298. CVE-2002-1325
@@ -4770,9 +3879,6 @@ Microsoft Virtual Machine (VM) build 5.0.3805 and earlier allows remote attacker
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/6380.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4787,9 +3893,6 @@ Buffer overflow in the Windows Shell function in Microsoft Windows XP allows rem
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=104025849109384&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 300. CVE-2002-1670
@@ -4803,9 +3906,6 @@ Microsoft Windows XP Professional upgrade edition overwrites previously installe
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/250596.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 301. CVE-2017-9948
@@ -4818,9 +3918,6 @@ A stack buffer overflow vulnerability has been discovered in Microsoft Skype 7.2
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/99281.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4838,9 +3935,6 @@ Fix leaking buffer allocated to send MSFT_OP_LE_MONITOR_ADVERTISEMENT.
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://git.kernel.org/stable/c/5987b9f7d9314c7411136005b3a52f61a8cc0911.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4879,9 +3973,6 @@ Read of size 8 at addr ffff888106cbbca8 by task kworker/u5:2/309
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://git.kernel.org/stable/c/10f9f426ac6e752c8d87bf4346930ba347aaabac.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4981,9 +4072,6 @@ E.g. tracing mapping requests for TPM TIS yields:
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://git.kernel.org/stable/c/0dccbc75e18df85399a71933d60b97494110f559.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 305. CVE-2023-53828
@@ -5010,9 +4098,6 @@ Fix the bt_dev_dbg() by using handle instead of monitor->handle.
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://git.kernel.org/stable/c/81d8e9f59df63b8358751c1ffed9f1cf5c796909.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5042,8 +4127,5 @@ still valid.
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://git.kernel.org/stable/c/0d4d6b083da9b033ddccef72d77f373c819ae3ea.
-
-**参考链接 / References**:
-- N/A
 
 ---

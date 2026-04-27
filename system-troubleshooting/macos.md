@@ -33,9 +33,6 @@ sudo xcode-select --switch /Library/Developer/CommandLineTools
 I found the solution in this question, Command Line Tools not working.
 You may get an error message: &quot;Can't install the software because it is not currently available from the Software Update server&quot;. In this case xcode-select --reset works as pointed by akozin.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 2. List of all packages installed using Homebrew
@@ -48,9 +45,6 @@ brew list and brew list --cask
 Running brew list will show a list of all your installed Homebrew formulae and casks.
 
 If you wish to list casks only, brew list --cask will provide the items installed using Homebrew Cask.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -91,9 +85,6 @@ How can I find out what this process is doing?
 The only way to actually ask the kernel what it's doing is to attach a kernel debugger. That means getting a debug kernel from Apple, rebooting, then using a second Mac to attach to the debugged machine. You can then examine stack traces and guess what they mean.
 Otherwise guessing and testing is the only way. Of course that leads to false conclusions more often than not.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 4. Shortcut for toggling between different windows of same app?
@@ -124,9 +115,6 @@ though it doesn't list the reverse direction, it does still work when you add sh
 
 You can use the alternative of  Ctrl ⌃   F4  [visible in the prefs window above] but that almost indiscriminately marches through every single open window on all Spaces, without switching to the correct Space each time. It's really not too useful unless you use a single Space, just included here for completeness.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 5. Please share your hidden macOS features or tips and tricks
@@ -153,9 +141,6 @@ Finder window.
 ⌘  &#x2325;  S - Shows/Hides sidebar
 ⌘  . or esc - Cancels and closes the dialog window
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 6. Remap &quot;Home&quot; and &quot;End&quot; to beginning and end of line
@@ -179,9 +164,6 @@ See Cocoa Text System for more information about the customizable keybindings.
 Terminal's keybindings can be customized in Preferences &gt; Profiles &gt; Settings &gt; Keyboard. \033OH moves to the beginning of a line and \033OF to the end of a line.
 In Eclipse, key bindings should be modified in Preferences &gt; General &gt; Keys. You need to modify default bindings for commands Line Start and Line End (replace ⌘← by ↖ and ⌘→ by ↘). For selection to work, also modify Select Line Start and Select Line End.
 PS: You may need to logout and login again for the ~/Library/KeyBindings/DefaultKeyBinding.dict change to take effect.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -212,9 +194,6 @@ Late note:
 This echoes the behaviour of Cmd/Tab or equivalent in most operating systems, so could be considered a 'sensible' default.
  just to save this attracting even more comments on why it was a good/bad choice of default.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 8. How do I launch Finder from terminal or command line
@@ -229,9 +208,6 @@ Library: open ~/Library
 Downloads: open ~/Downloads
 And so on.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 9. Why does my dock keep moving back to my other monitor?
@@ -243,9 +219,6 @@ Tags: macbook-pro, macos, display, dock | Score: 492 | Views: 525764 | Answers: 
 You can summon the Dock on a different display by moving the cursor to the bottom of the desired display, and then continuing moving down. It may be possible that this is occurring when you inadvertently perform that action.
 
 I answered a similar question: cmd-tab behavior on Mavericks with multiple displays.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -286,9 +259,6 @@ lrwxr-xr-x  1 user  staff  11 Feb  1 17:05 Pictures -&gt; ../Pictures
 
 To create a symlink to replace a system directory (e.g. if you want to have /Users pointing to another disk drive), you need to disable System Integrity Protection. You can re-enable it after the symlink is set up.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 11. How do I find my IP Address from the command line?
@@ -323,9 +293,6 @@ o-o.myaddr.l.google.com: This is the hostname used for the DNS lookup. It is a s
 
 When you run this command, it queries the ns1.google.com DNS server for the TXT record associated with o-o.myaddr.l.google.com. The response will contain the TXT record, which typically includes information about the IP address of the client making the DNS query. The +short option ensures that only the relevant information is displayed, making it easier to read the output.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 12. mds and mds_stores constantly consuming cpu
@@ -347,9 +314,6 @@ After this you could run the complete re-indexing of your hard drive (be aware t
 sudo rm -rf /System/Volumes/Data/.Spotlight-V100/*
 
 The next and final step would be to add others to your (do not scan), privacy settings.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -419,9 +383,6 @@ Now to display a notification:
 notify Lorem ipsum dolor sit amet
 sleep 5; notify Slow command finished
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 14. Got any tips or tricks for Terminal in Mac OS X?
@@ -431,9 +392,6 @@ Tags: mac, terminal, macos | Score: 404 | Views: 249648 | Answers: 133
 
 **解决方案 / Solution**:
 You can hold option and click a position in the current line to move your cursor to that position.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -483,9 +441,6 @@ $ . ~/.bash_profile
 
 
 NOTE: If you need help in selecting colors to use you can use this online tool called LSCOLORS Generator.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -616,9 +571,6 @@ There are many zsh configuration frameworks on the web (many of them are on Gith
 The zsh manual has a lot of information, but it's often written in a way that's terse and hard to follow, and has few examples. Don't hesitate to search for explanations and examples online: if you only use the part of zsh that's easy to understand in the manual, you'll miss out. Two good resources are the zsh-users mailing list and Unix Stack Exchange.
 An extensive collection of articles on switching to zsh on the mac can be found on scriptingosx.com and a useful Ruby script to bring your command history with you, can be found on Github.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 17. How can I list my open network ports with netstat?
@@ -639,9 +591,6 @@ COMMAND     PID      USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
 BetterTou 34548 grgarside   20u  IPv4 0xa42a1d0ade5d3585      0t0  TCP *:62981 (LISTEN)
 BetterTou 34548 grgarside   21u  IPv6 0xa42a1d0ad67f7a5d      0t0  TCP *:62981 (LISTEN)
 …
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -829,9 +778,6 @@ Thanks to Chet, who looks after bash, and has been making these patches availabl
 
 Now Apple has released the real fix, though this might still be useful. Because they only released a fix for Lion and up, and the official patch provides GNU bash, version 3.2.53(1)-release (x86_64-apple-darwin13), however, the Game over bug is still somewhat vulnerable. At this point, rebuilding your own version of Bash against 3.2.57 is probably more secure than relying on Apple's patch, unless you do it wrong.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 19. How to combine two images into one on a Mac?
@@ -851,9 +797,6 @@ This isn't a GUI application, but maybe some others might have a better solution
 2020-12-10：
 I used it on 2020-12-10 and now the correct code is
 convert +append a.png b.jpg +append c.tif
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -896,9 +839,6 @@ echo 'export PATH=&quot;/usr/local/opt/node@14/bin:$PATH&quot;' &gt;&gt; ~/.zshr
 
 (replace .zshrc with .bashrc or similar, depending on which $SHELL you use)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 21. How can I disable animation when switching desktops in Lion?
@@ -911,9 +851,6 @@ I posted a bug on Radar#28495374 and here is the response from Apple:
 
 Fixed in 10.12.  Go to Accessibility and Turn on Reduce Motion…
 Please let us know whether the issue is resolved for you by updating your bug report.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -945,9 +882,6 @@ it will work a bit better. From the scutil(8) man page:
 
     The --set option requires super-user access.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 23. Can I get the CPU temperature and fan speed from the command line in OS X?
@@ -974,9 +908,6 @@ Intel® Power Gadget and then launch Intel Power Gadget from the launchpad.
 
 Result Screen:
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 24. Hotkey to show hidden files and folders in File Open dialog?
@@ -995,9 +926,6 @@ You can also press ⌘ CMD+⇧ SHIFT+G and type the path to the hidden folder, j
 
 Editing hidden files can be dangerous if you don't know what you're doing.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 25. How to create a text file in a folder
@@ -1014,9 +942,6 @@ touch file.txt
 Or redirect 'nothing' to a text file
 
 &gt; file.txt
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1046,9 +971,6 @@ Turn on spotlight again:
 sudo mdutil -a -i on
 
 Now everything is being reindexed as expected.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1083,9 +1005,6 @@ From the input source selector in the menu bar, select &quot;Unicode Hex Input&q
 
 To enter a Unicode character, hold down option and type the 4-digit hex code for the character and it will be inserted. In this case, it would be option+2318.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 28. How to Retrieve the Wi-Fi Password of a Connected Network on a Mac
@@ -1107,9 +1026,6 @@ Check the Show password box, enter your system password, and click the Allow but
 That should show you the password for the wireless network you are on, if it is stored on your computer. If no such entry appears, it means the password is not stored on your computer.
 
 Note that you can also use this technique to find saved passwords for websites or other passwords that you computer has stored but you have forgotten.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1139,9 +1055,6 @@ Alternatively, you can use this Bash oneliner by Christophe Marois:
 
 cd ~/Library/Preferences &amp;&amp; sudo find com.apple.finder.plist* -exec rm {} \; &amp;&amp; killall Finder
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 30. Where can I find the installed package path via brew
@@ -1165,9 +1078,6 @@ From: https://github.com/Homebrew/homebrew/blob/master/Library/Formula/pcre.rb
 ==&gt; Options
 --universal
     Build a universal binary
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1204,9 +1114,6 @@ the "gnuman" directory to your MANPATH from your bashrc as well:
 
     MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 32. Why are dot underscore ._ files created, and how can I avoid them?
@@ -1218,9 +1125,6 @@ Tags: macos, file | Score: 275 | Views: 394181 | Answers: 14
 You can't avoid them (but see the dot_clean answer by Saeid Zebardast --they can be removed from a directory if that is what you need).  They're created to store file information that would otherwise go into an extended attribute on HFS+ (Apple native) or Unix/UFS volumes; in earlier Mac OS this would be the resource fork.  Finder file operations will create them automatically to store the icon information, plus Time Machine stores some information in them so if you copy a file backed up via TM it will have that information copied as well.
 
 (This is nothing new; I've noticed that XP and later leave various turds around as well, although not quite as many.)
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1236,9 +1140,6 @@ Other relevant options
 
 -t  opens in the default editor (i.e. if you use BBEdit, TextMate, etc.)
 -e will open the file specifically in TextEdit
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1306,9 +1207,6 @@ See answer by user Pierz below if you're using iTerm, as there's a setting you n
 Note:
 Recent MacOS updates may remove the entry. If TouchID stops working for sudo then check if the entry was removed and add it back in, following these instructions again.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 35. How can I manually delete old backups to free space for Time Machine?
@@ -1330,9 +1228,6 @@ sudo tmutil machinedirectory
 
 If you back up to a network share, you may have sparse bundle storage and if so, that needs to be compacted as well.
 sudo hdiutil compact /Volumes/drive_name/Backups.backupdb/mac_name.sparsebundle
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1370,9 +1265,6 @@ But please stop and think before disabling SIP, even temporarily or partially: d
 To underscore the importance of leaving as much of SIP enabled as much of the time as possible, consider the events of September 23, 2019. Google released an update to Chrome that tried to replace the symbolic link from /var to /private/var. On most systems, SIP blocked this and there were no bad effects. On systems with SIP disabled, it rendered macOS broken and unbootable. The most common reason for disabling SIP was to load unapproved (/improperly signed) kernel extensions (specifically video drivers); if they'd only disabled the kext restriction, they would not have been affected. See the official Google support thread, a superuser Q&amp;A on it, and an Ars Technica article.
 References and further info: WWDC presentation on &quot;Security and Your Apps&quot;, a good explanation by Eldad Eilam on quora.com, the Ars Technica review of El Capitan, and an Apple support article on SIP, and a deep dive by Rich Trouton (who also posted an answer to this question).
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 37. How can I make Safari show the URL when I hover over a link?
@@ -1402,9 +1294,6 @@ Click and drag the link out of where it will originally appear.
 At your mouse will be a small box telling you the title of the new window and its URL, although it may be shortened.
 You can also drag the link to the plus sign in your tab list, out of the window, or in a folder/the desktop to open that URL in a new tab, new window or save it to your computer, respectively.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 38. Is there a keyboard shortcut to move a window from one monitor to another?
@@ -1423,9 +1312,6 @@ Add new shortcuts like this:
 Click on the plus sign to add a new one, the Menu Title field has to match exactly the text that appears on the Window menu in every application: &quot;Move to DISPLAY NAME&quot; (To find the text just open the Window menu on any application)
 Finally on the Keyboard Shortcut field enter the shortcut you'd like to use
 Add as many shortcuts as you need to move any window between your displays!
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1453,9 +1339,6 @@ In order to maximize the window both in width and height to the current desktop 
 
 You notice the change of behaviour of the button in the way it changes its content from two the arrows to a plus sign.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 40. macOS Sierra doesn’t seem to remember SSH keys between reboots
@@ -1474,9 +1357,6 @@ From the ssh_config man page on 10.12.2:
 UseKeychain
 On macOS, specifies whether the system should search for passphrases in the user's keychain when attempting to use a particular key. When the passphrase is provided by the user, this option also specifies whether the passphrase should be stored into the keychain once it has been verified to be correct.  The argument must be 'yes' or 'no'.  The default is 'no'.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 41. How can I rename Desktops / Spaces in macOS?
@@ -1486,9 +1366,6 @@ Tags: macos, high-sierra, spaces | Score: 229 | Views: 262531 | Answers: 21
 
 **解决方案 / Solution**:
 Refer to the original page for detailed solutions and community answers.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1508,9 +1385,6 @@ Before releasing the Command key, press and hold the Option key.
 You must switch to another app and let it take focus first. In other words, you can't just Command + Tab to another app and before actually selecting that app (by releasing the Command and Tab keys), switch right back to your minimized app, which you might attempt to do if you minimized it by accident or just simply changed your mind shortly after minimizing.
 Both the Command and left Option keys must be pressed on the same side (left or right) of the keyboard.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 43. How do I run a .sh or .command file in Terminal
@@ -1522,9 +1396,6 @@ Tags: macos, terminal, command-line, bash | Score: 224 | Views: 1264163 | Answer
 Open Terminal, type in sh /path/to/file and press enter. 
 
 Faster is to type sh and a space and then drag the file to the window and release the icon anywhere on the window.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1544,9 +1415,6 @@ Select/highlight all the images to be included in the PDF document; otherwise on
 
 Then from the &quot;File&quot; menu choose &quot;Export Selected Images&quot; (or &quot;Export as PDF...&quot; in recent OS X versions) and then &quot;PDF &gt; Save as PDF&quot;
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 45. Suppressing &quot;The default interactive shell is now zsh&quot; message in macOS Catalina
@@ -1561,9 +1429,6 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 
 to $HOME/.bash_profile, $HOME/.profile or $HOME/.bashrc and restart iTerm. After that, the warning message will be gone.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 46. I included emoji in my password and now I can&#39;t log in to my Account on Yosemite
@@ -1577,9 +1442,6 @@ If you have "Other Input Sources" available at the top right of your login scree
 Some items you find in the  "emoji" category have Unicode hex numbers with just 4 characters, such as Airplane U+2708 ✈.  With the Unicode Hex Input keyboard, you input this by holding down the Option key while you type 2708.  
 
 Other emoji have Unicode hex numbers with 5 characters, such as Grinning Face U+1F600 😀.  For these you need to find the two corresponding UTF-16 Hex codes (sometimes called "surrogates") by consulting Character Viewer or using an internet source like fileformat.info.  For 1F600 these are D83D and DE00.  You can input 1F600 by holding down the option key while typing D83DDE00.  You may see two dots in the field, but it is still just one character.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1632,9 +1494,6 @@ EHCI Root Hub Simulation
 HubDevice
 IR Receiver
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 48. Why is it not possible to use the &quot;cut&quot; command to manipulate a file in the Finder?
@@ -1648,9 +1507,6 @@ Keyboard method: Cmd-C then Opt-Cmd-V does the cut&amp;paste for files on Mac.
 Mouse method: Drag the file from one folder to the parent of the target folder (ie, if moving to Documents:Financial, drag to Documents). Hover on the parent folder for a few seconds, and it will spring open. Then you can continue dragging the file to the target folder. (note, the mouse method may result in very long hover times, if you're dragging a huge number of files, eg 1,000 files)
 
 Menu method: It's not part of the Apple menu system to 'cut' files.  The menu Cut option is grayed out, and becomes enabled when text is selected.  But not files. Here is an in-depth discussion on Apple's discussion forum.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1669,9 +1525,6 @@ In the terminal run the following to sort all of the files in that directory by 
 du -sh /Library/Caches/* | sort -h
 
 Of course the best way to clear the caches is to install AppleJack and do it with that in single user mode. Doing it with the System fully up can be a little dangerous. If you do it then I'd reboot immediately afterwards.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1712,9 +1565,6 @@ This is the order in which these files get read.  Keep in mind that it reads fir
 2 In interactive mode, they [the shell] accept input typed from the keyboard.  (GNU Bash Reference Manual, 1.2 What is a Shell?)
 3 When executing non-interactively, shells execute commands read from a file. (Ibid.)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 51. Open Finder window from current Terminal location?
@@ -1724,9 +1574,6 @@ Tags: macos, terminal, finder, path | Score: 207 | Views: 83985 | Answers: 7
 
 **解决方案 / Solution**:
 Typing open . in Terminal will open the current working directory in a Finder window.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1749,9 +1596,6 @@ Prior to Mojave you can use openssl sha -sha256 &lt;file&gt; or openssl sha256 &
 
 To check command line options for the openssl sha command: openssl sha -help.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 53. How can I make auto-hide/show for the dock faster?
@@ -1772,9 +1616,6 @@ To explain, changing &quot;0.15&quot; with any number can let you tailor things 
 To revert back to the default sliding effect, open a Terminal window and type the following:
 defaults delete com.apple.dock autohide-time-modifier; killall Dock
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 54. How to move files to trash from command line?
@@ -1785,9 +1626,6 @@ Tags: macos, command-line | Score: 202 | Views: 111071 | Answers: 17
 **解决方案 / Solution**:
 The trash command line tool can be installed via brew install trash or port install trash.
 It allows you to restore trashed files via command line or the Finder.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1805,9 +1643,6 @@ sudo kill -9 `ps ax|grep 'coreaudio[a-z]' | awk '{print $1}'`
 It will restart automatically after a couple seconds.
 That fixes some problems my aging MBP has been having, where it sometimes fails to detect headphones or decides the speakers aren't connected. No guarantees it will work for every audio problem, but it's worth a shot.
 Source: zakgreant on macosxhints forums.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1858,9 +1693,6 @@ Apps that are pre-installed with OS X
 /Library
 /usr/local
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 57. Cmd+Tab does not work on hidden or minimized windows
@@ -1878,9 +1710,6 @@ press ⇥ Tab until you've selected the app
 press the ⌥ Option, and let go of the ⌘ Cmd. 
 ( You must release ⌘ Cmd after pressing ⌥ Option ! )
 ( You must release ⌘ Cmd before release ⌥ Option ! )
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1902,9 +1731,6 @@ This way you can still use the arrow keys to navigate between the pictures.
 ↑,↓,← and → in icon view
 
 You can still open the picture in Preview.app when needed (top right corner).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1963,9 +1789,6 @@ defaults write com.apple.finder DisableAllAnimations -bool true
 defaults write com.apple.Mail DisableSendAnimations -bool true
 defaults write com.apple.Mail DisableReplyAnimations -bool true
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 60. Homebrew: Your CLT does not support macOS 11.0
@@ -1994,9 +1817,6 @@ groups: com.apple.FindSystemFiles.pkg-group
 Big Sur
 11.0.1 (20B29)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 61. Is there a quick way to lock my Mac?
@@ -2018,9 +1838,6 @@ Control-Command-Q or ^+⌘+Q
 For older OS, ⇧+⌃+⏏ puts the display (only the display, not the whole computer) to sleep and will then prompt you for a password if you have enabled Require password [amount of time] after sleep or screen saver begins under System Preferences &gt; Security.
 
 If your Mac does not have an &#x23CF; (eject) key, you can use ⇧+⌃+⌽ (power).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2047,9 +1864,6 @@ git reset --hard origin/master
 This will upgrade your homebrew and you can use brew again.
 
 If you installed Homebrew as a non-root user, you'll need to cd to /Users/yourusername/homebrew/Library instead of /usr/local/Library.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2090,9 +1904,6 @@ Filesystem     Size   Used  Avail Capacity  iused    ifree %iused  Mounted on
 /dev/disk1s1   300G   282G    19G    94% 68771109  4529660   94%   /Volumes/George Garside
 /dev/disk1s2   200G   172G    27G    87%   144125 26731127    1%   /Volumes/GRGARSIDE
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 64. Which OS X Applications do you find indispensable?
@@ -2103,9 +1914,6 @@ Tags: macos, software-recommendation | Score: 180 | Views: 49806 | Answers: 239
 **解决方案 / Solution**:
 Dropbox
 Put your files into your Dropbox on one computer, and they'll be instantly available on any of your other computers that you've installed Dropbox on.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2118,9 +1926,6 @@ Tags: macos | Score: 180 | Views: 56548 | Answers: 107
 Using the FaceTime camera to add signatures to PDFs in Preview. 
 
 Click the annotations button in the toolbar and use the drop down menu next to the signature icon to grab your signature from a piece of paper you have written it on. Then just click and drag in the document to place it. Haven't really needed it yet, but it's implemented so nicely that I did it just for fun.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2142,9 +1947,6 @@ Now you have a copy of your image pasted above your old image. This is apparentl
 Click on the new image (round blue corners appear, no marching ants)
 Copy (Command-C)
 Paste on your PDF document. The image is an object, moveable and resizable. The original PDF is still a PDF, editable and all.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2199,9 +2001,6 @@ german : 'Fenster auf der linken Bildschirmseite anordnen'
 or a different title: 'Fenster auf die linke Seite des Bildschirms bewegen'
 Phrases for left / right can be found on the green &quot;full screen&quot; button:
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 68. What is the `installd` process, and why is it eating my CPU?
@@ -2233,9 +2032,6 @@ The location in Lion OSX is in:
 
 (if you have locate configured correctly, run: locate installd to find the right location).
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 69. What is this qemu-system-aarch64 process and why is it using almost 3 GB of RAM on my M1 Mac
@@ -2246,9 +2042,6 @@ Tags: mac-mini, macos, activity-monitor, apple-silicon | Score: 178 | Views: 155
 **解决方案 / Solution**:
 This process belongs to an application you've installed yourself.
 To find out more, select the process in Activity Monitor and press Cmd-I to open the Process Information window. You should see the name of the process which started it at the top, and the path to the binary itself near the top of the 3rd tab (open files and ports).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2261,9 +2054,6 @@ Tags: macos, unix | Score: 178 | Views: 372061 | Answers: 11
 The answer depends on you willingness to invest in commercial software:
 If you don’t mind spending some money on a commercial product, Paragon’s extFS for Mac will give you read and write access to ext2 / ext3 / ext4 file systems. The current version supports all versions of OS X / macOS from 10.10 upwards.
 If you are looking for a free solution, you can setup a Linux virtual machine, mount your volume(s) there and share it / them via Samba or (S)FTP. This post has some details on how to achieve this using VirtualBox, a free virtual machine application. Note this is not exactly a lightweight solution, even if using a prebuilt VirtualBox VM will spare you installing and configuring a Linux distro from scratch.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2283,9 +2073,6 @@ ffmpeg -i /path/to/input/file /path/to/output.mp4
 
 The .mp4 extension in the output path serves as a cue for the program to do the proper conversion -- no more options are necessary.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 72. How can I prevent an SSH session from hanging in OS X Terminal?
@@ -2302,9 +2089,6 @@ For killing it when it gets hang up, you can use the ssh escape character:
 
 
 That is, press the tilde and then the period, if it doesn't work, press Enter before you press that, that will kill the connection immediately.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2325,9 +2109,6 @@ nslookup nn.nn.nn.nn
 host nn.nn.nn.nn
 
 (where nn signifies your Mac's ip address)
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2352,9 +2133,6 @@ the order in which you connected them.
 You should not connect any
 power supply that exceeds 100W, as it might damage your Mac.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 75. How to simulate slow internet connections on the mac
@@ -2372,9 +2150,6 @@ Additionally, iOS has similar function accessible from within Xcode and iOS 6 or
 Older versions of Xcode before version 4.3.2 embedded a copy of this tool. This SO thread documents some history of the tool in a similar manner to the iOS simulators and developer documentation.
 There are 11 built in profiles from a Lossy Edge network with 400ms delay to a cable modem. If you need other limits, you can create custom profiles with your own settings or you can also use ipfw yourself as described in Craig Hockenberry's article slow ride, make it easy It also mentions the Speed Limit panel by Mike Schrag that is a smaller download than Xcode, but has fewer options than Apple's tool.
 It slows down the entire network stack, so you can't throttle on a per app basis without doing things like install lion in a virtual machine and set that VM with a throttled stack.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2398,9 +2173,6 @@ From comments there are two things to be addressed
 How shutdown works is by sending a sigterm to all processes which should then deal with that e.g. save open files etc. If they don't exit then they will get sent a SIGKILL which forces them to die with no chance to respond. The signals are not sent via the normal key message queue so Apps have to deal with this separately to the code that gets called from quit on the menu. A good app should call common code from both.
 This other answer shows how to shutdown as if you hit the menu options. But note that apps can cancel this shutdown
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 77. How to get the chrome tabs to always show when in full screen mode?
@@ -2410,9 +2182,6 @@ Tags: macos, google-chrome, fullscreen, tabs | Score: 170 | Views: 357321 | Answ
 
 **解决方案 / Solution**:
 With latest version of Chrome, there is the option to show the Toolbar (which includes tabs) in the View menu.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2432,9 +2201,6 @@ Method 1 - Move your mouse to the bottom of the desired display.  Don't stop onc
 
 Method 2 - This will change the default starting point for your Dock.  In System Preferences > Displays > Arrangement you can drag the menu bar from one display to another in this windows display icons.  See the attached picture for reference.  This alters the default preference to always show the Dock on the desired display, the one you drag the menu bar to in this preference pane, when you boot and/or login to your user account.  You can still use method 1 to temporarily change the Dock's location but upon a reboot it will return to the display specified here.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 79. WindowServer high CPU on Yosemite
@@ -2447,9 +2213,6 @@ I had a similar issue with high cpu usage in WindowServer which I managed to get
 
 In my case it was the Network Monitor from Little Snitch that seemed to be the biggest culprit.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 80. Keyboard shortcut to switch focus between multiple displays on OS X 10.9+
@@ -2459,9 +2222,6 @@ Tags: keyboard, display, macos | Score: 170 | Views: 373483 | Answers: 7
 
 **解决方案 / Solution**:
 Refer to the original page for detailed solutions and community answers.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2484,9 +2244,6 @@ sudo installer -pkg /path/to/package.pkg -target /
 
 is all that's needed. The target is a &quot;device&quot; (see the man page for details or run installer -dominfo). Here / is the main drive, it also accepts devices like &quot;/Volumes/Macintosh HD&quot;, or /dev/disk0.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 82. What directory comparison tools can I use on OS X?
@@ -2507,9 +2264,6 @@ Click the "right" button and choose the folder you would like to move items TO. 
 In the right panel, choose to exclude: "identical" and "Changed right". This way you will only see files which are missing in the "new" folder and ignore files your may have added in the "new" folder.
 Move files manually in Finder or let FileMerge do it, by choosing an option in the "Merge" dropdown in the right panel.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 83. Any nice, stable ways to keep a window &#39;Always on top&#39; on the Mac?
@@ -2519,9 +2273,6 @@ Tags: macos, window-manager | Score: 163 | Views: 276780 | Answers: 13
 
 **解决方案 / Solution**:
 Refer to the original page for detailed solutions and community answers.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2544,9 +2295,6 @@ For notifications that don't need immediate attention, consider changing the ale
 
 Good luck, and keep spreading the word that we need to tell Apple to make this experience better.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 85. How to stop OS X from writing Spotlight and Trash files to memory cards and USB sticks?
@@ -2567,9 +2315,6 @@ cd -
 
 Other unfamiliar stuff you may still see you probably want to keep, like Apple double "._*" files and other Apple DS cruft relating to icons and window placement.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 86. How to switch or close the new split Terminal pane?
@@ -2581,9 +2326,6 @@ Tags: macos, terminal | Score: 158 | Views: 154734 | Answers: 3
 The idea behind splitting is that it allows you to keep a certain part of the shell buffer displayed while continuing to enter new commands. So only the lowest split does allow keyboard input. To position the view on the shell buffer use the scroll bar.
 
 You can un-split by pressing Shift-Cmd-D.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2626,9 +2368,6 @@ Then home and end will work like normal again (phew).
 Also note that alt+← and alt+→ by default in terminal map to word left and word right, another handy combo to remember.
 Feel free to modify this answer to add more useful key bindings, as it is a community wiki.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 88. Remember window sizes and placement when unplugging and replugging second monitor
@@ -2638,9 +2377,6 @@ Tags: macos, windows, display, window-manager, productivity | Score: 157 | Views
 
 **解决方案 / Solution**:
 Have a look at Stay by Cordless Dog. I believe it does exactly what you're looking for.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2665,9 +2401,6 @@ find . -size +50M -iname '*.wav' -type f -exec ffmpeg -i {} -codec:a libmp3lame 
 
 Note that the -y overwrites existing files without prompting so if you want to not have that you can remove it.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 90. How do I start the docker daemon on macOS?
@@ -2686,9 +2419,6 @@ Since docker desktop isn't free for enterprise usage, the alternative runtime is
 NOTE: if you've previously used Docker Desktop for launching Docker daemon and had an export of DOCKER_HOST defined in your user's shell configuration (.bash_profile, .zsh_profile etc.), you need to re-specify DOCKER_HOST to make sure it points to .colima directory and commands like docker-compose up -d work properly.
 Example:
 export DOCKER_HOST=unix:///$HOME/.colima/docker.sock
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2760,9 +2490,6 @@ GNU bash, version 4.4.12(1)-release (x86_64-apple-darwin16.6.0)
 Copyright (C) 2016 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later &lt;http://gnu.org/licenses/gpl.html&gt;
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 92. cmd-tab behavior on Mavericks with multiple displays
@@ -2774,9 +2501,6 @@ Tags: macos, display, application-switcher | Score: 153 | Views: 87913 | Answers
 I believe this coincides with the Dock's location.  Just tested it on my MacBook Air, connected to a non-Apple external display, and whenever I moved the Dock from screen to screen the Application Switcher would follow.
 
 You can summon the Dock on your big display by dragging the cursor to the bottom of it's display, essentially dragging down at the bottom.  After a second the Dock should pop up.  Once the Dock is on the desired display press commandtab to summon the Application Switcher.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2794,9 +2518,6 @@ System Settings -&gt; Displays -&gt; Arrangement
 and drag the little white bar to the monitor where you want the notifications to show up.
 In the picture below, the bar is being dragged from the left to the right window.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 94. Restricting Command+tab options to only apps that are in the current space
@@ -2806,9 +2527,6 @@ Tags: macos, spaces | Score: 152 | Views: 67784 | Answers: 12
 
 **解决方案 / Solution**:
 Refer to the original page for detailed solutions and community answers.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2878,9 +2596,6 @@ end tell
 
 Many USB-Serial adapters use the chip from FTDI. Install the "Virtual COM Port" driver and look for the proper TTY name in /dev. For example, on a PowerBook G4 it came up as /dev/tty.usbserial-FTALKY8I.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 96. How do I sync the Visual Studio Code (vscode) theme to use my OS light/dark color scheme?
@@ -2901,9 +2616,6 @@ workbench.preferredLightColorTheme - defaults to &quot;Default Light+&quot;
 workbench.preferredDarkColorTheme - defaults to &quot;Default Dark+&quot;
 workbench.preferredHighContrastColorTheme - defaults to &quot;Default High Contrast&quot;
 workbench.preferredHighContrastLightColorTheme - defaults to &quot;Default High Contrast Light&quot;
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2929,9 +2641,6 @@ alt/option + right clicking on volume gives you this menu:
 
 and Quicktime now looks like this:
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 98. Should I disconnect my MacBook Pro&#39;s power cord when the battery is fully charged?
@@ -2952,9 +2661,6 @@ At the time of answering, Apple's advice read:
 
 If you need help following Apple's advice, use Battery Guardian; it is free and will remind you when to deplete your battery.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 99. Is there a keyboard shortcut to navigate one level up in Finder?
@@ -2974,9 +2680,6 @@ In addition, you can use the command [ keyboard shortcut to take you back to the
 You can also right-click on the title in the Finder's window to select anywhere in the file's path to go straight to that location.
 
 Finally, you can also customise the Toolbar to add the Path button.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3075,9 +2778,6 @@ sudo launchctl bslist | grep ^A
 
 Quit your web browser and check if that helps. For example using Chrome is very resourceful, especially when there is some front-end processing going on in the background (e.g. Javascript) or advert-like animations are constantly rendering the content.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 101. git auto-complete for *branches* at the command line?
@@ -3109,9 +2809,6 @@ u means the user that owns the file, by default its creator, i.e. you
 + means set/activate/add a permission
 x means execute permission, i.e. the ability to run the script
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 102. What is the difference between .bash_profile and .bashrc?
@@ -3127,9 +2824,6 @@ When you login (type username and password) via console, either sitting at the m
 But, if you’ve already logged into your machine and open a new terminal window (xterm) then .bashrc is executed before the window command prompt. .bashrc is also run when you start a new bash instance by typing /bin/bash in a terminal.
 
 On OS X, Terminal by default runs a login shell every time, so this is a little different to most other systems, but you can configure that in the preferences.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3156,9 +2850,6 @@ See also Chris Johnsen's informative and useful comment:
 
 I usually just put the things that I'd normally put in ~/.bashrc to ~/.profile — has worked so far like a charm.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 104. How to use terminal to copy a file to the clipboard?
@@ -3176,9 +2867,6 @@ To put it somewhere else (i.e. paste it) run:
 pbpaste &gt; ~/Documents/ded.html
 
 Now you should have a copy of ded.html sitting in ~/Documents.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3240,9 +2928,6 @@ Real Mem Total (ps):    3402.828 MB
 
 (very slightly adjusted to match the tab sizing on StackExchange ;)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 106. What is the difference between iTerm2 and Terminal?
@@ -3264,9 +2949,6 @@ Instant replay (can "rewind" your session in case you forgot to note/copy someth
 Paste history
 Growl support for notification when a process completes
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 107. How can I open a Terminal window directly from my current Finder location?
@@ -3283,9 +2965,6 @@ As of OS X Mountain Lion 10.8, Command-Dragging into a terminal will also execut
 
 Note: The New Terminal at Folder service will become active when you select a folder in Finder. You cannot simply have the folder open and run the service "in place". Go back to the parent folder, select the relevant folder, then activate the service via the Services menu or context menu.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 108. iTerm as a slide-out terminal from the top of the screen
@@ -3301,9 +2980,6 @@ With default settings, the Hotkey Profile window will stretch across the top of 
 
 
 You can customize the settings for the &quot;Hotkey Window&quot; profile under the &quot;Profiles&quot; tab. To make it look like a Quake drop-down terminal, you can use similar &quot;Window&quot; preferences:
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3322,9 +2998,6 @@ You'll see a list of all your messages. From the mail prompt, do
 
 And that should be it. Make sure to enter q after the delete * command. This will save the changes to disk.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 110. How do I set environment variables on OS X?
@@ -3338,9 +3011,6 @@ You can create such a file by opening a Terminal and issuing the command touch .
 Close Terminal.
 Then you should open that file in a plain-text editor (TextWrangler for example). You can also use nano .profile in a Terminal window (current directory should be your home), which is much easier than vi. Insert lines such as export JAVA_HOME=…. Save, exit nano if you used that and quit a running Terminal.
 Open Terminal and issue the command env to see all environment variables. Check that the ones you defined have the value you assigned to them. You should be good to go now but don't forget that environment variables defined in .profile are not passed to GUI applications.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3359,9 +3029,6 @@ Pros: Creates the mount point in /Volumes for you.
 
 Cons: Requires the Finder to be running.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 112. How can I keep my Mac awake AND locked?
@@ -3376,9 +3043,6 @@ In System Preferences &gt; Security &amp; Privacy, check the box for &quot;Requi
 Now, you can hit command+option+Q  to turn off the display without sleeping the computer, and doing anything that turns on the display (like hitting a key or clicking a mouse button) will prompt you for your account password.
 On older Macs, the shortcut is different: command+option+Power or control+shift+power.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 113. How to open a new tab in iTerm in the same folder as the one that is open?
@@ -3392,9 +3056,6 @@ Select "Reuse previous session's directory" from the preferences of your profile
 
 
 Alternatively click on "Advanced Configuration" then "Edit..." so you can set the working directory separately for new windows, new tabs &amp; new split panes
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3430,9 +3091,6 @@ One final note, lsof can take a minute or two. It can also hang, but you should 
 Also, sometimes the base command sudo lsof /Volumes/myDrive won't find anything. If that happens, try adding the +D argument (i.e. sudo lsof +D /Volumes/myDrive). That will do a top down scan of the disk. It'll take longer, but it should pick up anything that's causing the disk to be un-ejectable.
 (Hat tip to Alec Jacobson's post for extra details.)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 115. How can I list and edit all defined aliases in Terminal?
@@ -3464,9 +3122,6 @@ fi
 
 This will include ~/.bashrc for login shells and in the order you wish if one file depends upon the other based on what you are setting.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 116. Replace Text Edit as the default text editor
@@ -3486,9 +3141,6 @@ duti -s com.sublimetext.4 public.unix-executable all
 Some files are also considered 'public.data', not 'public.plain-text', so you can do this as well:
 duti -s com.sublimetext.4 public.data all
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 117. How can I make ctrl+right/left arrow stop changing Desktops in Lion?
@@ -3498,9 +3150,6 @@ Tags: macos, mission-control | Score: 144 | Views: 86632 | Answers: 2
 
 **解决方案 / Solution**:
 Go to System Preferences > Keyboard > Shortcuts > Mission Control and change the settings for "Move left a space" and "Move right a space" or disable them completely.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3513,9 +3162,6 @@ Tags: macos, applications | Score: 143 | Views: 127173 | Answers: 21
 Hold on option (or alt) while clicking the Window menu.  This should change Bring All to Front into Arrange in Front, which did the trick for me.
 
 This worked for me on OSX 10.9.1
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3541,9 +3187,6 @@ open -a "QuickTime Player" ~/Desktop/filename.mp4
 
 If you need further information about the open command, type man open.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 120. How to bring back multi-touch gestures after it crashes without reboot?
@@ -3554,9 +3197,6 @@ Tags: macos, multi-touch, bettertouchtool | Score: 140 | Views: 83968 | Answers:
 **解决方案 / Solution**:
 Run the command killall Dock in Terminal.
 In my case, only Mission Control gestures had stopped working (three finger swipe left/right to switch spaces, three finger swipe up for overview, mission control etc).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3590,9 +3230,6 @@ There are numerous guides for getting the most from rsync, rsync command example
 
 Alternative tools include ditto and cp. Both are reasonable choices but offer differing syntax.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 122. How do I disable the Minimize (command-M) shortcut?
@@ -3616,9 +3253,6 @@ Close the window to save the changes.
 
 I'm aware that this is not really "disabling it" but the result is effectively the same and without depending on 3rd party software.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 123. How do I open the context menu from a Mac keyboard?
@@ -3632,9 +3266,6 @@ In Windows, when we use the keyboard short-cuts we mostly use the Menu key in Wi
 
 When this Menu key is pressed, Windows will assume that you right-clicked the highlighted/active element &gt; then it will show you the context menu even if the mouse pointer is not pointing to the highlighted element.
 So this feature seems to be missing in Mac OS. And whatever suggested solutions, even Enable Mouse Key it always require you to point/move your mouse pointer to element first, which is meaningless. If I need to use the keyboard short-cut to open the context menu on the highlighted item, why do I need again to move the mouse pointer to it also. Somehow this is not a short-cut!!
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3664,9 +3295,6 @@ OS X 10.10.4+, Yosemite
 
 In OSX 10.10.4 the mDNSResponder has been reintroduced. So use the first one will work again.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 125. Mail App keeps popping up in the background in Mac OS Mojave
@@ -3687,9 +3315,6 @@ So if I have mail running, but no viewer windows open, then I get a viewer windo
 If instead of hitting the red cross button, I minimise mail using the minus button, then I don't get any viewer windows randomly opening. In this scenario, the mail viewer window is minimised either on the right hand side of the dock or into the application icon itself, depending on your settings (System Preferences > Dock > "Minimize windows into application icon").
 
 So I have changed my habits to work around this annoying bug...
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3731,9 +3356,6 @@ Never used it, but looks good from the screenshots. I really like the fact that 
 OneButton FTP (Free)
 Just searching around and found yet another one...It looks pretty nice, except it's no longer supported. However, you can still download it.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 127. How to fix homebrew error: &quot;invalid active developer path&quot; after upgrade to OS X El Capitan?
@@ -3757,9 +3379,6 @@ sudo chown -R $(whoami):admin /usr/local
 
 Because of some permission issues. However, do this only if you have to.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 128. Why does my brew installation not work?
@@ -3775,9 +3394,6 @@ Adding this to my .zshrc solved the problem on a machine with Apple M1 CPU:
 eval $(/opt/homebrew/bin/brew shellenv)
 
 Note that this is not the same as adding to the PATH variable. The brew command is indeed located in those standard locations listed in other solutions. It turned out not to be a PATH variable thing that was causing this subset of the brew-not-recognized-anymore problem.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3796,9 +3412,6 @@ You may also need to run the following two commands right after:
 
 sudo kextunload /System/Library/Extensions/AppleHDA.kext 
 sudo kextload /System/Library/Extensions/AppleHDA.kext
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3880,9 +3493,6 @@ Or, if you're on a Power PC, using Rosetta or anything before Snow Leopard, you 
 
 Finally, there's a complete newbie guide on &quot;The X Lab&quot; that I just won't quote here for it's too long.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 131. Silencing &quot;Your disk is almost full&quot; notification
@@ -3945,9 +3555,6 @@ lastWarningDate (string e.g. 2017-05-05 16:48:29 +0000)
 
 I didn't look too closely at but it is possible setting the last warning date to a date in the future would also prevent the alert displaying.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 132. Can I delete unnecessary device simulators of Xcode?
@@ -3963,9 +3570,6 @@ At the top, tap on Simulators and you'll see a list on the left-side.
 From there, find the simulator you want to delete and Cntl - click (or right-click) and select Delete.
 I do this with each simulator that runs in each iOS version that I no longer support.
 Update July 2020: There's a free utility in the Mac App Store named DevCleaner for Xcode.  This application can display and delete simulators and various caches.  I've found it be a very quick and easy way to regain space.  I'm not the developer or associated with this application in any way.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3998,9 +3602,6 @@ Regardless of which control is currently selected:
 Pressing Return will always trigger the default button (highlight-coloured button).
 Pressing Esc will always cancel the dialog.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 134. How can I unpack .7z files via MacOS terminal?
@@ -4022,9 +3623,6 @@ Installing Homebrew as @EraserPencil suggested makes sense as the OP might need 
 
 It should be noted there is 7z e as well but as commented by @Qback, this does almost never do what you want if you have subdirectories in the archive.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 135. Is there a way to completely disable Dock?
@@ -4044,9 +3642,6 @@ defaults delete com.apple.dock autohide-delay; killall Dock
 
 
 The author says he sets the delay to two seconds, so he can still get to the Dock in those rare cases when it's needed.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4069,9 +3664,6 @@ Other useful options:
 -m (mirror): -r --timestamping --level inf --no-remove-listing
 -nc, --no-clobber: Skip download if files exist
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 137. How to turnoff screen / lock Macbook Pro with touch bar using keyboard?
@@ -4082,9 +3674,6 @@ Tags: macbook-pro, touch-bar | Score: 131 | Views: 148357 | Answers: 10
 **解决方案 / Solution**:
 you can add the sleep function to the touch bar through system preferences > keyboard > customize control strip and then drag the sleep icon to the touch bar, allowing you to put it to sleep by pressing 1 button.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 138. Enter a filename in the File Open dialog
@@ -4094,9 +3683,6 @@ Tags: macos | Score: 130 | Views: 44849 | Answers: 3
 
 **解决方案 / Solution**:
 Yes. When the Finder dialog box is active type ⇧⌘G to bring up the Go to the folder direct entry dialog. You can enter the path to the file in the dialog using the Unix-type path expressions you'd expect: ~ for your home directory, / for a directory separator, etc.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4120,9 +3706,6 @@ sudo codesign --force --sign - /path/to/application.app
 
 Note, just to make it clearer: After having applied the signature, start the app, accept incoming connections one last time, then quit and start again to verify that the request is gone.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 140. How do I type the euro value sign € on a Mac?
@@ -4133,9 +3716,6 @@ Tags: macos, keyboard | Score: 129 | Views: 710506 | Answers: 17
 **解决方案 / Solution**:
 On an American English keyboard you can type the European Currency symbol (€) with Option + Shift + 2.
 NOTE: It is also worth to note that specifically in Terminal, option 'Use Option as Meta Key' is turned on by default and this blocks this key combination. Please go to Terminal 'preferences', section 'Profiles' and under tab 'Keyboard' untick 'Use Option as Meta Key' checkbox to have it working.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4150,9 +3730,6 @@ If you have a full keyboard you can use the pgup and pgdown keys on your keyboar
 If you are not using a full keyboard, function, labeled fn on your keyboard, plus the up and down arrow keys will give you a page up and down.
 
 For certain applications, particularly in shell / terminal / tty windows, the expected behaviour is achieved with fn+shift+arrow up/down
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4180,9 +3757,6 @@ Mou
 
 Marked 2
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 143. macOS windows requiring an explicit click to make active, before UI elements inside can be clicked
@@ -4197,9 +3771,6 @@ The answer, in general, is "no". There are some exceptions/workarounds though, f
 You can click through to any control in an unfocused window using Cmd-Click. This will directly operate that control without focusing the window, which might save you a click in your side-by-side browser window scenario. Unfortunately it's up to each application developer to make this work sensibly, and some unfocused applications will still perform any special action assigned to Cmd-Click, rather than treating it as a simple click.
 In Terminal.app, Cmd-Right Click will paste the contents of the primary selection (the last text you highlighted in any terminal window) into the same or another terminal, whether that terminal is focused or not.
 Specifically for X11 applications running under XQuartz.app (which isn't very many these days), you can specify the "focus follow mouse" option so that X11 windows are focused as you mouse over them. (There also used be a hidden focus-follows-mouse option for Terminal.app windows, don't know if it still works in El Capitan or Sierra.)
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4235,9 +3806,6 @@ dscacheutil -flushcache
 
   Restart your Mac.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 145. Copying the current directory&#39;s path to the clipboard
@@ -4248,9 +3816,6 @@ Tags: macos, finder | Score: 126 | Views: 100324 | Answers: 19
 **解决方案 / Solution**:
 Option+Command+C
 Will copy the path for selected folder or file to the clipboard. Tried on El Capitan through Sonoma.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4263,9 +3828,6 @@ Tags: macos, software-recommendation, ui, drawing | Score: 126 | Views: 291595 |
 For free online diagramming there's diagrams.net, which I am a developer on. It supports the automatic connection and dragging of components you're looking for. Also, it's free, which meets your under $30 requirement.
 There is also a Desktop version available.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 147. Ctrl + Alt + Delete: Mac Equivalent?
@@ -4275,9 +3837,6 @@ Tags: macos, keyboard | Score: 126 | Views: 1594813 | Answers: 11
 
 **解决方案 / Solution**:
 The keyboard shortcut you’re looking for is ⌘ + ⌥ + ⎋, alternatively known as command + option + escape. This will bring up the Force Quit Applications window (see screenshot below).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4290,9 +3849,6 @@ Tags: macos, command-line | Score: 125 | Views: 799124 | Answers: 6
 You can use the Tab key after pressing the first few characters (this will then "fill in" the rest of the folder for you e.g. type cd ~/LTab fills in cd ~/Library/ then type ApTab and it will fill in the rest for you.
 
 If there is a space between words and you don't want to use the methods above, put a \ (backslash) before the space, e.g. cd ~/Library/Application\ Support.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4311,9 +3867,6 @@ Apparently this problem can occur for many different reasons.  In my case it was
   Hold the Option key and right-click the Finder icon in the Dock, then select Relaunch.
   Press Option-Command-Escape or choose Force Quit from the Apple menu, then select the Finder and click Relaunch.
   Log out and log back in to your user account.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4366,9 +3919,6 @@ As it turns out, Terminal will pass the -q parameter to /usr/bin/login when it i
 
 The -q parameter is what we need to avoid the problem, hence the symlink to /usr/local/bin/bash.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 151. How to convert a HEIF/HEIC image to JPEG in macOS?
@@ -4395,9 +3945,6 @@ WARNING: The convert command is deprecated in IMv7, use &quot;magick&quot; inste
 so, for version 7 of imagemagick (and possibly thereafter), the second command can be simplified to just:
 # convert a single image
 magick foo.HEIC foo.jpg
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4508,9 +4055,6 @@ Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 153. What functionality do &#39;marks&#39; offer in the El Capitan Terminal?
@@ -4574,9 +4118,6 @@ Having used this for a couple of days now, I find it incredibly useful. Scrollin
 
 I wonder why this new feature isn't mentioned more prominently - I haven't seen it in any of the El Capitan walkthroughs. The Terminal help currently does not provide any details on this feature either.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 154. Can I see my CPU and memory usage meters in the menu bar?
@@ -4595,9 +4136,6 @@ brew install stats
 
 On big sur, after downloading, open launchpad, search for 'stats', and open it. It will start showing up in the menu bar.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 155. runaway distnoted process
@@ -4611,9 +4149,6 @@ I've seen this too.  Emacs 24.3.1, Mavericks 10.9.
 I've found that the distnoted process calms down within seconds after I quit out of Emacs.
 
 I've filed an Emacs bug here: http://permalink.gmane.org/gmane.emacs.bugs/80836
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4629,9 +4164,6 @@ No need for scripts or complicated setups.
 
 Turn this option on in System Preferences > keyboard > shortcuts > spotlight > "show finder search window" in recent versions. This can be mapped to other keys too, but it can cause conflicts in other apps that might be using your desired shortcut.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 157. Make the Menu Bar never show while in Full Screen
@@ -4641,9 +4173,6 @@ Tags: macos, menu-bar, fullscreen | Score: 120 | Views: 62314 | Answers: 9
 
 **解决方案 / Solution**:
 Refer to the original page for detailed solutions and community answers.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4835,9 +4364,6 @@ tell application "System Events" to tell process "Finder"
     end tell
 end tell
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 159. What tiny thing in iOS 5 makes you smile, or has caught you off guard?
@@ -4858,9 +4384,6 @@ iOS 5 now collects the space used by apps and the data in the app - sorted by th
 
 Of specific tiny note, the edit button in the top right allows you to delete selective content from apps like Music.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 160. macOS: Disable popup showing accented characters when holding down a key
@@ -4878,9 +4401,6 @@ defaults write -g ApplePressAndHoldEnabled -bool true
 
 You'll need to log out and log back in again for the setting to take effect.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 161. El Capitan, expand desktop thumbnails by default in Mission Control
@@ -4890,9 +4410,6 @@ Tags: mission-control, macos | Score: 117 | Views: 23268 | Answers: 17
 
 **解决方案 / Solution**:
 Refer to the original page for detailed solutions and community answers.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4980,9 +4497,6 @@ Helpful articles:
 
 https://www.macworld.com/article/1168311/software/shrink-preview-files-without-ruining-image-quality.html
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 163. How to use pip after the OS X El Capitan upgrade?
@@ -5007,9 +4521,6 @@ You will see that the restricted flag is set which cannot be removed even as roo
 
 Using homebrew makes it possible to manage pip and python separately than the system provided version. As a bonus, the homebrew framework is designed to ease maintainance and patch/chores via automation.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 164. How to show hidden files and folders in Finder?
@@ -5024,9 +4535,6 @@ killall Finder
 
 To switch back, do the same but substitute false for true.
 This works all the way through macOS Catalina (and betas for Big Sur).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5055,9 +4563,6 @@ Select &quot;Keep in Dock&quot; to keep the calendar icon in the MacOS Dock (opt
 
 That's it! Your Google Calendar App is now available as a standalone window app from the MacOS Dock and Launchpad.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 166. VirtualBox 5.1.28 fails to install on MacOS 10.13 due to KEXT security
@@ -5080,9 +4585,6 @@ Then try to install from the .dmg again so that it remounts the device.
 
 
 Now its working fine for me.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5143,9 +4645,6 @@ sudo killall coreaudiod
 
 Credit for this goes to the multiple wise nerds below who suggested it. (Thank you!)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 168. How to make right click for the selected content using only keyboard on a Mac?
@@ -5178,9 +4677,6 @@ Use Keyboard Maestro:
 
 Download MouseTools and assign a shortcut to MouseTools -rightClick.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 169. reattach terminal tab to another window
@@ -5195,9 +4691,6 @@ Then, drag the tab of the window you want to move onto the window you want to mo
 
 Update for iTerm 2: In iTerm 2 the setting is no longer exposed in the View menu.  Go to iTerm > Preferences > Appearance > Tabs and check "Show tab bar even when there is only one tab". Note that in early releases of iTerm 2 the setting was "Hide tab bar when there is only one tab".
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 170. How to type a NORMAL tilde sign (~) in Mac?
@@ -5207,9 +4700,6 @@ Tags: macos, keyboard | Score: 113 | Views: 574154 | Answers: 12
 
 **解决方案 / Solution**:
 You type the accent tilde (shift `) then space: ~
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5269,9 +4759,6 @@ References
 
 Zsh Startup Files
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 172. macOS: Navigating between desktops using keyboard shortcuts
@@ -5292,9 +4779,6 @@ Go to System Settings app → Keyboard Shortcuts... and you can assign keyboard 
 
 You can also use the F3 (Mission Control) key on your Mac's keyboard to get a birds eye view of all the Spaces (desktops in Mac parlance) and quickly and directly switch to the desired one. However, this will also involve using the mouse/trackpad.
 If you are looking for a 3rd-party tool which lets you customize keyboard shortcuts with much fine grain control, a popular app among users of macOS is Karabiner.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5317,9 +4801,6 @@ On OS X 10.6 and beyond it is no longer possible to connect to BSSID directly. T
 UPDATE As maxim points out, you can force a frequency band and use that to fix to 5GHz.
 On linux you can use iwconfig, but this tool is not available for OS X.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 174. Right-click, create a new text file. How?
@@ -5333,9 +4814,6 @@ I am using XtraFinder plugin for Mac OS's built in Finder. It has most of the fe
 You'll love it like I do
 
 ;)
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5405,9 +4883,6 @@ IMPORTANT - You can track the progress by pressing CTRL + T It will show the pro
 
 I don't mean to be insulting with Note and Note2, I am just making sure that you know what all these commands mean. It's the simplest method. Unless someone else comes up with something better.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 176. How to copy path of a file in Mac OS?
@@ -5424,9 +4899,6 @@ While in the right-click menu, hold down the OPTION key to reveal the “Copy (i
 The copied pathname is always the complete path, it’s not relative.
 You can get the same result with a keyboard shortcut of Command+Option+C.
 Source http://osxdaily.com/2015/11/05/copy-file-path-name-text-mac-os-x-finder/
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5449,9 +4921,6 @@ Click &quot;Install Font&quot; for each font.
 
 Note: Changes to fonts take effect when an application is opened or a user logs in to the account or computer on which the changes occurred, see support.apple.com.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 178. No partition scheme option when erasing a USB disk in MacOS High Sierra?
@@ -5465,9 +4934,6 @@ I thought I had the same issue but it's probably because in the view options at 
 In order to change the partition map, it seems you have to select the actual disk. So simply select view - show all devices, then select the actual drive you're trying to reformat, then when trying to erase, you should have the option to choose a partition scheme. 
 
 Hope this helps!
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5491,9 +4957,6 @@ sudo scutil --set HostName 'yourHostName'
 
 That should do it.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 180. OS X Terminal &quot;must have&quot; utilities
@@ -5510,9 +4973,6 @@ It is an amazing package manager, very light and easy to use. KIS Principle, tha
 (see also macports which brew doesn't replace completely, I prefer installing packages with brew, but some complex ones are only on macports)
 See also brew tap command which provides some missing formulas that can be useful like when you need latest php version &gt; brew tap josegonzalez/php.
 (Homebrew has a policy of not replacing system components, but hey, sometimes you have to)
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5550,9 +5010,6 @@ is what really gives me a clean timeline of sleep/wake events on 10.8.2. powerd 
 03/03/13 15:28:51 GMT-03 Sleep      Clamshell Sleep to DarkWake: Using AC (Charge:100%)                         378 secs 
 03/03/13 15:35:09 GMT-03 Wake       DarkWake to FullWake due to HID Activity: Using AC (Charge:100%)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 182. MacBook Pro Bluetooth Audio balance keeps changing by itself
@@ -5564,9 +5021,6 @@ Tags: macos, audio, bluetooth | Score: 109 | Views: 54656 | Answers: 2
 This is not the solution to the bug, however, there is an open source MacOS app that is a workaround. It watches for balance changes and centres immediately.
 
 Disclaimer: I made the application. I had similar problems with both Bluetooth headphones and normal headphones.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5599,9 +5053,6 @@ NOTE: Because this will become the default setup for ALL Finder windows you may 
 ALSO: If folders do not appear to have snapped to grid on a previously created folder, Relaunch Finder or you could try to toggle the &quot;Icon size&quot; down and back up too refresh the current window.
 This is where it is on 10.15 Catalina:
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 184. What features of Mavericks are beneficial to you?
@@ -5615,9 +5066,6 @@ The overhaul of the virtual memory system makes it clear that memory pressure is
 
 
 The bottom panel is invaluable for diagnosing a slow machine and knowing whether to rule out memory contention as a cause of the slowness. After running your Mac for a week, you should reach a nice steady state like shown above and can know if adding more RAM or adjusting the programs you run will affect performance.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5635,9 +5083,6 @@ Most applications that I use on a daily basis (such as Google Chrome, Terminal, 
 
 Unfortunately, not all developers use this shortcut in their applications. iTerm, for example, uses ⌘+Enter to toggle fullscreen mode. If the application you refer to does not use either of these shortcuts, you should look for the fullscreen option in the View menu or by searching for "fullscreen" in the Help menu.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 186. Can I copy by highlighting and paste by middle click on Mac OS X?
@@ -5649,9 +5094,6 @@ Tags: macos | Score: 107 | Views: 69608 | Answers: 13
 I wrote a free little C program that does something similar to Gilligan's answer. Whenever you drag-highlight or double-click text, it copies to the clipboard buffer. Then you can middle-mouse-click in any window to paste it. It is called "macpaste" and on Github (https://github.com/lodestone/macpaste). It works globally for every program I use that has textual data.
 
 In iTerm2, disable their middle-click in Preferences, otherwise you'll get double pastes.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5665,9 +5107,6 @@ I had the same problem so I wrote simple and free app for Mac to read PDFs in ne
 
 It is called  Negative and it is free on the Mac App Store
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 188. Is there a way to prevent apps from staying in Dock after quitting?
@@ -5677,9 +5116,6 @@ Tags: macos, dock | Score: 106 | Views: 121522 | Answers: 5
 
 **解决方案 / Solution**:
 I think I understand your problem.. Open System Preferences, Click on dock, uncheck "Show recent applications in dock". This should probably solve your problem.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5691,9 +5127,6 @@ Tags: mouse, macos | Score: 106 | Views: 143682 | Answers: 11
 **解决方案 / Solution**:
 I wrote a small program to fix this behavior: https://github.com/emreyolcu/discrete-scroll
 You may download a binary here. It runs in the background and allows you to scroll 3 lines with each tick of the wheel.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5712,9 +5145,6 @@ The bash reference manual says
 
 
   Once a variable is set, it may be unset only by using the unset builtin command.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5740,9 +5170,6 @@ To set this for TextEdit only (thanks to comment by gklka)
 
 defaults write com.apple.TextEdit NSShowAppCentricOpenPanelInsteadOfUntitledFile -bool false
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 192. How can I update everything installed through Homebrew after OSX upgrade?
@@ -5752,9 +5179,6 @@ Tags: macos, homebrew, package-management | Score: 105 | Views: 189595 | Answers
 
 **解决方案 / Solution**:
 Use the command brew upgrade in the terminal to update all of the packages.  As for rebuilding all of your programs for the new OS build, there is no reason to do this as the compiled binary should result as the same.  If you are noticing any issues, I would just uninstall and reinstall the packages that you are having issues with.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5767,9 +5191,6 @@ Tags: macos, dock, icon, window-manager | Score: 104 | Views: 125243 | Answers: 
 You can hide an active application by option-clicking (alt-clicking) its icon in the dock. You can also hide the active window and open another window by alt-clicking whatever application you want to open in the dock.
 
 But I agree with you that it would be more symmetrical to be able to click to minimize all the open windows in an application. I am a long-time PC user and this is one area where PCs got it right. That and combining closing and quitting (and the related window management issue).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5822,9 +5243,6 @@ You should see dramatic speedups for the second / third launch as the system lea
 
 In your case - the total of Wired and Active means that some swapping to disk is likely happening and your Mac isn't as fast as it could be since your inactive RAM isn't large enough to store all the things you might need to reuse. If you have a fast SSD drive, this RAM allocation is OK and instead of starting to slow down once less than 1/2 of your RAM is F+I, you can cut things closer to like 1/4 of the total RAM for F+I before seeing noticeable slowness. These guidelines are general, and you'll want to watch vm_stat 15 or some similar interval to ensure continual and medium volume swapping isn't making your Mac slow.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 195. How to view Root directory and subdirectories in Finder?
@@ -5836,9 +5254,6 @@ Tags: macos, finder, folders, root | Score: 104 | Views: 278637 | Answers: 13
 Shift-Command-G in Finder brings up a "Go to folder" dialog. Type in the name of the directory, for example, /usr/local. Finder will show the directory. I use this with Finder in 'View as Columns'
 
 While this doesn't give a browsable directory from the root directory down, I've found it quite useful.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5879,9 +5294,6 @@ You can see which mode your Mac uses with pmset -g | grep hibernatemode and chan
 
 Some newer Macs support a standby mode on 10.8 and later. Even if hibernatemode was set to 3, they power off memory after a bit over an hour of sleep.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 197. Why doesn&#39;t Mac OS X source ~/.bashrc?
@@ -5906,9 +5318,6 @@ if [ -f ~/.bashrc ]; then . ~/.bashrc; fi
 after (or before) any
 login-specific initializations.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 198. Set default mail client in macOS without adding an email account?
@@ -5922,9 +5331,6 @@ https://support.microsoft.com/en-us/office/set-an-account-as-the-default-in-outl
 I finally found something easy that worked, the SetDefaultMailApp from Microsoft:
 https://docs.microsoft.com/en-us/outlook/troubleshoot/outlook-for-mac/useful-tools#setdefaultmailapp
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 199. Why is the accountsd process eating so much CPU?
@@ -5934,9 +5340,6 @@ Tags: macos, icloud, cpu | Score: 103 | Views: 251228 | Answers: 18
 
 **解决方案 / Solution**:
 In Mail.app's application's preferences, I deselected "Accounts > Advanced > Automatically Detect and Maintain Account Settings" on two Google accounts, and CPU usage returned to normal.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5948,9 +5351,6 @@ Tags: macos, software-recommendation, mac, audio, software | Score: 103 | Views:
 **解决方案 / Solution**:
 A free and open-source solution is BackgroundMusic.
 A nicer and paid solution is Rogue Amoeba's SoundSource
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5988,9 +5388,6 @@ As you have the other options to put the machine to sleep, it seems very likely 
 
 Right now, there is no way to alter this behaviour.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 202. Single application not showing up in Spotlight
@@ -6002,9 +5399,6 @@ Tags: macos, spotlight | Score: 102 | Views: 33053 | Answers: 5
 Go to System Preferences --&gt; Spotlight --&gt; Privacy. While that's open, go to Finder --&gt; Applications and drag Matlab from Applications into Privacy. Close out System Preferences then reopen it and remove Matlab from the same place. 
 
 This will force a reindex for Spotlight. I've seen this work for some people and not for others but it's worth a shot.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6039,9 +5433,6 @@ Or you can read the whole manual with
 
 man open
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 204. How can I activate buttons with just the keyboard?
@@ -6068,9 +5459,6 @@ space (SPACE) selects the active button (blue, outline).
 &#x21A9; (RETURN) is OK or the default button (blue, pulsing, filled).
 For some dialog boxes, ⌘+first_letter will select the button with a certain first letter in the text (as pointed out by @Griffo).
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 205. How to hide computer name and user name in terminal command prompt
@@ -6091,9 +5479,6 @@ If you are NOT using BASH but ZSH, do the following:
 (3) save the file, ~/.zshrc,
 (4) source the zshrc to apply the change with source ~/.zshrc.
 (5) You should be good at this point!
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6117,9 +5502,6 @@ dscl . -read /Users/${USER} JPEGPhoto | tail -1 | xxd -r -p &gt; ${HOME}/Desktop
 The resolution can vary, depending on the original size of the photo and what version of the operating system you're using when it is saved.
 
 If you are running Mac OS X 10.4, my memory is failing me as I don't recall if the user picture was stored in NetInfo or not.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6154,9 +5536,6 @@ Your permissions are not correct (yet). Just run the command you listed and you'
 
 If you have other problems remember, the brew doctor can help you!
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 208. What is &quot;photoanalysisd&quot; and why is it using 77% of my CPU?
@@ -6178,9 +5557,6 @@ close Photos.
 
 
 This stops photoanalysisd cold, no reboot or kill required.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6205,9 +5581,6 @@ Since macOS 10.13, the default Apple file system is now APFS which is case-insen
 diskutil ap list
 
 (diskutil info &lt;device&gt; does not print whether an APFS slice is case-sensitive or not.)
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6239,9 +5612,6 @@ This should give you the information as to which extension it is. I, personally,
 After removing the extension, exit VS Code, wait for a bit while the fans slow down and then start again. It shouldn't give you a problem now.
 Happy coding!
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 211. Disable line wrapping for output in the Terminal
@@ -6262,9 +5632,6 @@ tput smam
 
 enables line wrapping.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 212. How do I get F11 and F12 to behave like normal function keys?
@@ -6276,9 +5643,6 @@ Tags: macos, keyboard, system-settings, preferences | Score: 99 | Views: 153925 
 Well I actually just figured this out.  In Preferences under Mission Control there were two options set to use the F11 and F12 keys.  I set these to '-' and that fixed the issue.  The options that were set to use these function keys are highlighted in the screenshot below.
 
 2024 Note: MacOS Sonoma 14.3.1 this config option has moved: System Settings →  Desktop &amp; Dock →  Keyboard and Mouse Shortcut →  Show Desktop
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6301,9 +5665,6 @@ Settings in Terminal or iTerm 2 don't normally have to be changed. Both of them 
 
 The default shell can also be changed from System Preferences or with dscl, but all three options just modify /var/db/dslocal/nodes/Default/users/$USER.plist.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 214. Is it &#39;OK&#39; to use the root user as a normal user?
@@ -6319,9 +5680,6 @@ Which is to say, it's mighty convenient from time to time, because it means you 
 So, no, it's not OK to use the root account all the time. It gives you a tiny amount of convenience but puts you in a lot of danger. There's the danger of stupid mistakes having catastrophic results ("Hey, why is rm -rf * taking so long to run? **** I'm in /!"). There's the danger of acclimating yourself to the idea that all files are equal and you can just mess about with whatever you want, anywhere in the directory tree. There's the danger that any hack to your account is immediately a hack to the whole system, so now every single piece of software on your machine is security-critical. And even if you think you don't care about your machine getting hacked (after all, that photo of Flopsy is a real piece of glossy paper, not some ephemeral JPEG), I care about your machine getting hacked because then it's on the botnet that's mounting the DDOS attack against whatever internet service I can't access today.
 
 Root is your spiderman costume. It gives you great power but requires great responsibility. It's there in the closet whenever you need it, so you don't have to wear it all the time.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6344,9 +5702,6 @@ defaults write com.apple.systempreferences AttentionPrefBundleIDs '{ &quot;com.a
 
 instead. This seems to work, and is the default value on a fresh install, at least for some newer versions - but it is also more difficult to type and ultimately has the same impact, so I still just use the top version and have noticed no ill effects.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 216. How to set to open folder with enter in finder?
@@ -6362,9 +5717,6 @@ But just found this plugin to finder XtraFinder which among lot of other options
 
 Feeling a lot relieved now! Hope it helps.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 217. How can I list all user accounts in the terminal?
@@ -6376,9 +5728,6 @@ Tags: macos, terminal, command-line | Score: 96 | Views: 325649 | Answers: 8
 How about
 
 dscacheutil -q user | grep -A 3 -B 2 -e uid:\ 5'[0-9][0-9]'
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6393,9 +5742,6 @@ To be concise: the symbol you're asking about, the circle with the arrow escapin
 So the menu item ⌥⌘⎋ 
 is option+command+esc pressed simultaneously.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 219. How to open terminal in Mac using keyboard shortcut?
@@ -6407,9 +5753,6 @@ Tags: macos, terminal, mac | Score: 96 | Views: 389512 | Answers: 2
 Press CmdSpace to open spotlight search, and type terminal and hit return.
 
 Or if you are in the terminal press CmdT to open a new tab OR CmdN to open a new Terminal window.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6432,9 +5775,6 @@ YY - 2 digit year   &gt; 15
 once that is done go through the install normally. I just tried it and it worked with a USB install of OS X (10.11 - El Capitan) and it worked like a charm!
 If setting to correct date doesn't work. Set to a date just after the os release.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 221. Displaying combined file size of selected files in Finder
@@ -6448,9 +5788,6 @@ Instead of &#x2318;+I use &#x2318;+&#x2325;+I to see the info:
 
 
 Cmd+Ctrl+I does something similar, but gives you a static Summary Info window which doesn't update as your selection changes, and you can open multiple windows for different selections, which is handy for comparing groups of synced folders for example.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6467,9 +5804,6 @@ This will stop the homebrew update for this command. If you want to prevent auto
 export HOMEBREW_NO_AUTO_UPDATE=1
 
 to set it permanently, add it to your ~/.bash_profile. Note that changing this permanently is discouraged by the developers.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6488,9 +5822,6 @@ SetFile -d '12/31/1999 23:59:59' file.txt
 SetFile -d &quot;$(GetFileInfo -m test.txt)&quot; file.txt
 
 SetFile is part of the command line tools package which can be installed using xcode-select --install or downloaded from developer.apple.com/downloads or from Xcode's preferences.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6515,9 +5846,6 @@ hibernatemode = 25 (binary 0001 1001) is only settable via pmset. The system wil
 
 I used hibernatemode 0 with my MacBook Air. Even if the MacBook Air went to sleep when the battery was nearly empty, the battery didn't usually drain out completely during sleep. /var/vm/sleepimage took about 4 GiB of disk space, and writing it hundreds or thousands of times might have reduced the lifespan of the SSD.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 225. MacBook unplugged from external monitor thinks it&#39;s still the Secondary Desktop
@@ -6527,9 +5855,6 @@ Tags: macbook-pro, display | Score: 94 | Views: 90132 | Answers: 5
 
 **解决方案 / Solution**:
 Command + Brightness Up is the keyboard shortcut for Detect Displays in Lion.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6550,9 +5875,6 @@ Select &quot;Terminal.app&quot; for the application, and for the command, type C
 
 Now ⌘W will not close your terminal windows.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 227. What tool exists to identify the RGB value of a pixel?
@@ -6563,9 +5885,6 @@ Tags: macos, image-capture | Score: 93 | Views: 74880 | Answers: 17
 **解决方案 / Solution**:
 There is a utility (in Applications/Utilities) called Digital Color Meter, which shows the color code of whatever you're hovering at the moment. It's a bit more lightweight than Preview. There are also shortcuts for copying the color value as a string (⇧+⌘+C) or image (⌥+⌘+C).
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 228. How to get a notification when my commands are done
@@ -6575,9 +5894,6 @@ Tags: macos, command-line, bash | Score: 93 | Views: 79834 | Answers: 19
 
 **解决方案 / Solution**:
 (svn update . &amp;&amp; ant clean build start &amp;&amp; say done) || say error
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6595,9 +5911,6 @@ In OS X, the Finder Sync extension point lets you cleanly and safely modify the 
 
 Extensions are parts of an app that are able to integrate with certain core components of the OS. Finder Sync extensions in particular enable tighter integration with Finder by way of sync status badges, and allowing buttons to be added to the toolbar, sidebar, and right click menus.
 OS X keeps a database of all known apps on your computer, and this also includes any extensions (.appex bundles). When Finder launches, it queries this database for Finder Sync extensions and launches them. For security reasons, each extension lives in its own process.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6645,9 +5958,6 @@ For Apple Silicon Macs and macOS 11 (Big Sur) and higher, use AlDente.
 Alternatively, there is a more lightweight tool with a command line version: battery.
 [1] No longer works with Apple Silicon Macs.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 231. Official way to obtain an OS X ISO file
@@ -6679,9 +5989,6 @@ Use an external HD or thumb drive which is in ExFAT format (Compared to FAT form
 
 For clarity, you can do the above on any version of OS X from 10.6.8 (Snow Leopard) onwards, so you can use an old image to get hold of a new image for example, if you have access to a different OS version than Mavericks.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 232. How to set PATH for Finder-launched applications
@@ -6710,9 +6017,6 @@ Note: Changing the launchctl PATH will not take effect until the Dock is "restar
 
 killall Dock
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 233. What is rapportd and why does it want incoming network connections?
@@ -6729,9 +6033,6 @@ Daemon providing support for the Rapport connectivity framework.
 Checking the code signature with codesign -dv --verbose=4 /usr/libexec/rapportd shows it is signed by Apple and in a SIP-protected location (unless you turned off SIP), this appears to be legitimate Apple software. The man page implies it's related to communication, though I've yet to find any real documentation on it.
 (Thanks to John Keates for the code-signature tip.)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 234. Is there a way to mute sound from one application on macOS?
@@ -6742,9 +6043,6 @@ Tags: macos, audio | Score: 93 | Views: 413657 | Answers: 6
 **解决方案 / Solution**:
 There's a nice open source app, BackgroundMusic, that provides for per app volume control in OSX10.10+:
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 235. What are alternatives for Menumeters on El Capitan?
@@ -6754,9 +6052,6 @@ Tags: software-recommendation, macos | Score: 92 | Views: 61691 | Answers: 4
 
 **解决方案 / Solution**:
 I just ported MenuMeters for El Capitan, please go to http://member.ipmu.jp/yuji.tachikawa/MenuMetersElCapitan/.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6769,9 +6064,6 @@ Tags: terminal, activity-monitor, unix | Score: 92 | Views: 117797 | Answers: 8
 Instruments—a part of the Apple Xcode development suite—can monitor all file access and writes. Open it from /Applications/Xcode.app/Contents/Applications/Instruments.app, select your application or process, and press Start. You have extensive filter options available in the menus.
 
 Older versions of Xcode are storing the App at /Developer/Applications/Instruments.app
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6789,9 +6081,6 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
 See this howtogeek for details.
 Alternatively, you can use noTunes from Tom Taylor to prevent iTunes or Apple Music from launching automatically.
 Additional triggers are connected headphones and third-party apps that send automation messages (such as LaunchBar search results being sent to Music app / iTunes).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6816,9 +6105,6 @@ If you have Xcode 4.3 or later, you can use it to edit property lists in a graph
 
 
 Xcode 4.2 and earlier came with a separate application for editing property lists (/Developer/Applications/Utilities/Property List Editor.app/).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6845,9 +6131,6 @@ In the beginning, Apple used to make Darwin available as a separate OS, includin
 Since all of the things you mentioned were born on Unix and use Unix APIs and Unix libraries, they actually typically don't even know about the &quot;non-Darwin&quot; parts of macOS, so it is only logical that they will consider the OS to be &quot;Darwin&quot;. Note that &quot;Darwin&quot; is also what gets returned as the name of the OS when you call the Unix/POSIX int uname(struct utsname *buf) library function or the uname Unix/POSIX commandline utility.
 So, to answer the question you didn't ask explicitly but is implicit in your question: why does Node.js return &quot;Darwin&quot; for the name of macOS? Because when Node.js asks macOS for its name, that's what macOS tells it its name is!
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 240. How can I track progress of dd
@@ -6858,9 +6141,6 @@ Tags: macos, command-line | Score: 89 | Views: 96849 | Answers: 8
 **解决方案 / Solution**:
 The same information, displayed every second by in klanomath's answer, can displayed using your command. You just need to enter a controlT character from the keyboard while the dd command is executing.
 By pressing the controlT character, you are sending the same SIGINFO signal to the dd command that the command pkill -INFO -x dd sends.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6907,9 +6187,6 @@ tmutil addexclusion _item_ sets an exclusion rule so that the item (even if move
 tmutil addexclusion -p _item_ sets an exclusion rule so that the item path is excluded. This remains unchanged so if the file moves it will be backed up if not at this exact path and also will prevent backing up a file if it comes back in the same location as the rule specifies.
 tmutil removeexclusion _item_ removed either type of exclusion rule as appropriate.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 242. Can a Mac&#39;s model year be determined with a Terminal Command?
@@ -6948,9 +6225,6 @@ JSON mapping https://github.com/krypted/swiftwarrantylookup/blob/master/src/swif
 
 Note that as of November 2017, Apple has forced the use of https over http for this service.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 243. how to reinstall xcode command-line tools?
@@ -6965,9 +6239,6 @@ and then xcode-select --install
 
 
 Problem fixed on my side
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7008,9 +6279,6 @@ In [2]: r_alt = '0xE6'
 
 In [3]: print(convert(r_alt))
 0x7000000e6
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7053,9 +6321,6 @@ sh: cd: /tnp: No such file or directory
 
 Pop Quiz: In what directory will the rmcommand run? :)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 246. How do I find out the applescript commands available for a particular app?
@@ -7076,9 +6341,6 @@ Select the app you want to find out more about.
 
 When you open it, you can browse through the available AppleScript commands for that application and find what you want.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 247. How to disable Full Screen Animation on OS X 10.9
@@ -7090,9 +6352,6 @@ Tags: macos, fullscreen | Score: 89 | Views: 29702 | Answers: 3
 macOS Sierra (10.12) introduced &quot;reduce motion&quot;.
 Go to System Preferences &gt; Accessibility &gt; Display and check the box labeled Reduce motion.
 I find this makes things much more pleasant ;)
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7107,9 +6366,6 @@ sudo xcode-select -s /Library/Developer/CommandLineTools
 
 worked. Thanks to Royite on Apple's Developer Forums for this solution.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 249. What un(der)-documented features have you stumbled upon in Mountain Lion?
@@ -7119,9 +6375,6 @@ Tags: macos | Score: 88 | Views: 15977 | Answers: 53
 
 **解决方案 / Solution**:
 You can now silence bouncing application icons in the Dock by just hovering over them, instead of needing to click and activate them.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7140,9 +6393,6 @@ Now run diskutil unmountDisk /dev/diskN
 and do sudo dd if=/path-to.iso of=/dev/rdiskN bs=1m (or bs=1M with homebrew)
 When finished diskutil eject /dev/diskN
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 251. [V2EX] Codex App 替代全局语音输入
@@ -7152,9 +6402,6 @@ When finished diskutil eject /dev/diskN
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7175,9 +6422,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 253. [V2EX] 盖世游戏 macOS 太好用了，比 crossover 好多了
@@ -7187,9 +6431,6 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7231,9 +6472,6 @@ macOS 27 预计 6 月份推出 Beta 测试版，9 月推送正式版。
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 256. [V2EX] Mac 如何阻止软件自动更新？
@@ -7244,9 +6482,6 @@ Mac 系统如何阻止指定软件自动更新，像微信 WPS Chrome 一打开�
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 257. [V2EX] mac 连接有线音响，看视频总是前几秒没声音
@@ -7256,9 +6491,6 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7276,9 +6508,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 259. [V2EX] MacBookPro 哪个系统好用一点
@@ -7288,9 +6517,6 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7302,9 +6528,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 261. [V2EX] macmini 上的通知怎么发送到 iPhone 上
@@ -7315,9 +6538,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 262. [V2EX] Mac stduio m4 max 128G 2t 跑本地模型划算吗？
@@ -7327,9 +6547,6 @@ Mac stduio m4 max 128G 2t 跑本地模型划算吗？现在用的 5090 正式版
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7362,9 +6579,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 265. [V2EX] Gemini app, now on Mac
@@ -7388,9 +6602,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 267. [V2EX] 关于现在注册土区和尼区 apple id 的几个问题，请教一下各位
@@ -7403,9 +6614,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 268. [V2EX] 推荐个 mac 的显示器吧？ 618 想搞一个
@@ -7415,9 +6623,6 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7429,9 +6634,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 270. [V2EX] 苹果 App Store 国区充值可获额外 10% 奖励
@@ -7441,9 +6643,6 @@ N/A
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7455,9 +6654,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 272. [V2EX] 有更新了 ios18.7.8 的 V 友吗？
@@ -7468,9 +6664,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 273. [V2EX] 看上了苹果店里展示 MacBook Neo 的那个垫子，哪里能买到？
@@ -7480,9 +6673,6 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7521,9 +6711,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 277. [V2EX] 😊Vibe 了一个给 iOS6 用的 AI 聊天客户端
@@ -7553,9 +6740,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 279. [V2EX] apple 以旧换新可以叠加 Epp 吗
@@ -7565,9 +6749,6 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 

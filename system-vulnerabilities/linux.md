@@ -20,9 +20,6 @@ rpc.lockd in Red Hat Linux 6.1 and 6.2 allows remote attackers to cause a denial
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-06/0073.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 2. CVE-1999-0242
@@ -35,9 +32,6 @@ Remote attackers can access mail files via POP3 in some Linux systems that are u
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0242.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -52,9 +46,6 @@ Some configurations of NIS+ in Linux allowed attackers to log in as the user "+"
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0245.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 4. CVE-1999-0123
@@ -67,9 +58,6 @@ Race condition in Linux mailx command allows local users to read user files.
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0123.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -84,9 +72,6 @@ Buffer overflow in Linux splitvt command gives root access to local users.
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0316.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 6. CVE-1999-1186
@@ -99,9 +84,6 @@ rxvt, when compiled with the PRINT_PIPE option in various Linux operating system
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602167418966&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -116,9 +98,6 @@ The dip program on many Linux systems allows local users to gain root access via
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0137.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 8. CVE-1999-0032
@@ -131,9 +110,6 @@ Buffer overflow in lpr, as used in BSD-based systems including Linux, allows loc
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/advisories/19980402-01-PX.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -148,9 +124,6 @@ rcp on various Linux systems including Red Hat 4.0 allows a "nobody" user or oth
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602167420509&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 10. CVE-1999-0298
@@ -163,9 +136,6 @@ ypbind with -ypset and -ypsetme options activated in Linux Slackware and SunOS a
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.nai.com/nai_labs/asp_set/advisory/06_ypbindsetme_adv.asp.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -180,9 +150,6 @@ Buffer overflow in TestChip function in XFree86 SuperProbe in Slackware Linux 3.
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/6384.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 12. CVE-1999-1387
@@ -195,9 +162,6 @@ Windows NT 4.0 SP2 allows remote attackers to cause a denial of service (crash),
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602167420731&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -212,9 +176,6 @@ Buffer overflow in run-time linkers (1) ld.so or (2) ld-linux.so for Linux syste
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602661419318&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 14. CVE-1999-1225
@@ -227,9 +188,6 @@ rpc.mountd on Linux, Ultrix, and possibly other operating systems, allows remote
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/7526.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -244,9 +202,6 @@ Linux implementations of TFTP would allow access to files outside the restricted
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0183.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 16. CVE-1999-0216
@@ -259,9 +214,6 @@ Denial of service of inetd on Linux through SYN and RST packets.
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0216.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -276,9 +228,6 @@ Buffer overflow in Linux Slackware crond program allows local users to gain root
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0340.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 18. CVE-1999-0341
@@ -291,9 +240,6 @@ Buffer overflow in the Linux mail program "deliver" allows local users to gain r
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0341.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -308,9 +254,6 @@ Quake 2 server 3.13 on Linux does not properly check file permissions for the co
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/8590.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 20. CVE-1999-0330
@@ -323,9 +266,6 @@ Linux bdash game has a buffer overflow that allows local users to gain root acce
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://marc.info/?l=bugtraq&m=87602558319119&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -340,9 +280,6 @@ ifdhcpc-done script for configuring DHCP on Red Hat Linux 5 allows local users t
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=88950856416985&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 22. CVE-1999-1498
@@ -355,9 +292,6 @@ Slackware Linux 3.4 pkgtool allows local attacker to read and write to arbitrary
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/82.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -372,9 +306,6 @@ Bug in AMD K6 processor on Linux 2.0.x and 2.1.x kernels allows local users to c
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://uwsg.iu.edu/hypermail/linux/kernel/9805.3/0855.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 24. CVE-1999-1441
@@ -387,9 +318,6 @@ Linux 2.0.34 does not properly prevent users from sending SIGIO signals to arbit
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90221103126047&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -404,9 +332,6 @@ login in Slackware Linux 3.2 through 3.5 does not properly check for an error wh
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90221104525951&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 26. CVE-1999-1406
@@ -419,9 +344,6 @@ dumpreg in Red Hat Linux 5.1 opens /dev/mem with O_RDWR access, which allows loc
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90221104526185&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -436,9 +358,6 @@ Hylafax faxsurvey CGI script on Linux allows remote attackers to execute arbitra
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/2056.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 28. CVE-1999-1381
@@ -451,9 +370,6 @@ Buffer overflow in dbadmin CGI program 1.0.1 on Linux allows remote attackers to
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90786656409618&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -468,9 +384,6 @@ Buffer overflow in NFS mountd gives root access to remote attackers, mostly in L
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/advisories/19981006-01-I.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 30. CVE-1999-0342
@@ -483,9 +396,6 @@ Linux PAM modules allow local users to gain root access using temporary files.
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0342.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -500,9 +410,6 @@ Buffer overflow in bootpd on OpenBSD, FreeBSD, and Linux systems via a malformed
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=91278867118128&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 32. CVE-1999-1173
@@ -515,9 +422,6 @@ Corel Word Perfect 8 for Linux creates a temporary working directory with world-
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=91404045014047&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -532,9 +436,6 @@ Linux 2.1.132 and earlier allows local users to cause a denial of service (resou
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=91495921611500&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 34. CVE-1999-0243
@@ -546,9 +447,6 @@ Linux cfingerd could be exploited to gain root access.
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.geocrawler.com/archives/3/92/1996/9/0/2217716/.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -563,9 +461,6 @@ In some instances of SSH 1.2.27 and 2.0.11 on Linux systems, SSH will allow user
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0398.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 36. CVE-1999-0401
@@ -579,9 +474,6 @@ A race condition in Linux 2.2.1 allows local users to read arbitrary memory from
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0401.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 37. CVE-1999-0698
@@ -593,9 +485,6 @@ Denial of service in IP protocol logger (ippl) on Red Hat and Debian Linux.
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0698.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -610,9 +499,6 @@ Buffer overflow in the bootp server in the Debian Linux netstd package.
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/324.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 39. CVE-1999-0390
@@ -625,9 +511,6 @@ Buffer overflow in Dosemu Slang library in Linux.
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://ftp.caldera.com/pub/security/OpenLinux/CSSA-1999-006.1.txt.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -642,9 +525,6 @@ Linux ftpwatch program allows local users to gain root privileges.
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/317.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 41. CVE-1999-0451
@@ -657,9 +537,6 @@ Denial of service in Linux 2.0.36 allows local users to prevent any server from 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/343.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -674,9 +551,6 @@ Denial of service in Linux 2.2.0 running the ldd command on a core file.
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/344.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 43. CVE-1999-0461
@@ -689,9 +563,6 @@ Versions of rpcbind including Linux, IRIX, and Wietse Venema's rpcbind allow a r
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0461.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -706,9 +577,6 @@ The debug option in Caldera Linux smail allows remote attackers to execute comma
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-001.0.txt.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 45. CVE-1999-0403
@@ -722,9 +590,6 @@ A bug in Cyrix CPUs on Linux allows local users to perform a denial of service.
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=91821080015725&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 46. CVE-1999-0459
@@ -736,9 +601,6 @@ Local users can perform a denial of service in Alpha Linux, using MILO to force 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0459.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -753,9 +615,6 @@ xtvscreen in SuSE Linux 6.0 allows local users to overwrite arbitrary files via 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/12580.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 48. CVE-1999-0460
@@ -768,9 +627,6 @@ Buffer overflow in Linux autofs module through long directory names allows local
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/312.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -785,9 +641,6 @@ install.iss installation script for Internet Security Scanner (ISS) for Linux, v
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/12640.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 50. CVE-1999-0414
@@ -800,9 +653,6 @@ In Linux before version 2.0.36, remote attackers can spoof a TCP connection and 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0414.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -817,9 +667,6 @@ The default permissions of /dev/kmem in Linux versions before 2.0.36 allows IP s
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0426.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 52. CVE-1999-0431
@@ -832,9 +679,6 @@ Linux 2.2.3 and earlier allow a remote attacker to perform an IP fragmentation a
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0431.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -849,9 +693,6 @@ Buffer overflow in gnuplot in Linux version 3.5 allows local users to obtain roo
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/319.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 54. CVE-1999-0421
@@ -864,9 +705,6 @@ During a reboot after an installation of Linux Slackware 3.6, a remote attacker 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.osvdb.org/981.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -881,9 +719,6 @@ suidperl in Linux Perl does not check the nosuid mount option on file systems, a
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/339.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 56. CVE-1999-0804
@@ -896,9 +731,6 @@ Denial of service in Linux 2.2.x kernels via malformed ICMP packets containing u
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/302.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -913,9 +745,6 @@ screen and rxvt in Red Hat Linux 6.0 do not properly set the modes of tty device
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=92877527701347&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 58. CVE-2000-0365
@@ -928,9 +757,6 @@ Red Hat Linux 6.0 installs the /dev/pts file system with insecure modes, which a
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=92877527701347&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -945,9 +771,6 @@ Sudo 1.5 in Debian Linux 2.1 and Red Hat 6.0 allows local users to determine the
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/14665.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 60. CVE-2000-0118
@@ -960,9 +783,6 @@ The Red Hat Linux su program does not log failed password guesses if the su proc
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=94935300520617&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -977,9 +797,6 @@ Buffer overflow in VMWare 1.0.1 for Linux via a long HOME environmental variable
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/490.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 62. CVE-1999-1348
@@ -992,9 +809,6 @@ Linuxconf on Red Hat Linux 6.0 and earlier does not properly disable PAM-based a
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93220073515880&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1009,9 +823,6 @@ Linux 2.0.37 does not properly encode the Custom segment limit, which allows loc
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/18156.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 64. CVE-1999-0710
@@ -1024,9 +835,6 @@ The Squid package in Red Hat Linux 5.2 and 6.0, and other distributions, install
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://fedoranews.org/updates/FEDORA--.shtml.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1041,9 +849,6 @@ IPChains in Linux kernels 2.2.10 and earlier does not reassemble IP fragments be
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93312523904591&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 66. CVE-1999-0746
@@ -1056,9 +861,6 @@ A default configuration of in.identd in SuSE Linux waits 120 seconds between req
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/587.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1073,9 +875,6 @@ Remote attackers can cause a denial of service on Linux in.telnetd telnet daemon
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/594.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 68. CVE-2000-0374
@@ -1088,9 +887,6 @@ The default configuration of kdm in Caldera and Mandrake Linux, and possibly oth
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-021.0.txt.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1105,9 +901,6 @@ The pt_chown command in Linux allows local users to modify TTY terminal devices 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/597.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 70. CVE-1999-0769
@@ -1120,9 +913,6 @@ Vixie Cron on Linux systems allows local users to set parameters of sendmail com
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/611.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1137,9 +927,6 @@ Buffer overflow in Berkeley automounter daemon (amd) logging facility provided i
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/614.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 72. CVE-1999-1352
@@ -1152,9 +939,6 @@ mknod in Linux 2.2 follows symbolic links, which could allow local users to over
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93855134409747&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1169,9 +953,6 @@ PAM configuration file for rlogin in Red Hat Linux 6.1 and earlier includes a le
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93942774609925&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 74. CVE-1999-1347
@@ -1184,9 +965,6 @@ Xsession in Red Hat Linux 6.1 and earlier can allow local users with restricted 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93942774609925&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1201,9 +979,6 @@ The IDENT server in Caldera Linux 2.3 creates multiple threads for each IDENT re
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-029.1.txt.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 76. CVE-2000-0356
@@ -1216,9 +991,6 @@ Pluggable Authentication Modules (PAM) in Red Hat Linux 6.1 does not properly lo
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/697.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1233,9 +1005,6 @@ Linux kernel before 2.3.18 or 2.2.13pre15, with SLIP and PPP options, allows loc
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=94061108411308&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 78. CVE-2000-0362
@@ -1248,9 +1017,6 @@ Buffer overflows in Linux cdwtools 093 and earlier allows local users to gain ro
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.novell.com/linux/security/advisories/suse_security_announce_25.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1265,9 +1031,6 @@ Linux cdwtools 093 and earlier allows local users to gain root privileges via th
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.novell.com/linux/security/advisories/suse_security_announce_25.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 80. CVE-1999-0832
@@ -1280,9 +1043,6 @@ Buffer overflow in NFS server on Linux allows attackers to execute commands via 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-033.0.txt.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1297,9 +1057,6 @@ Denial of service in Linux syslogd via a large number of connections.
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://ftp.caldera.com/pub/security/OpenLinux/CSSA-1999-035.0.txt.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 82. CVE-2000-0531
@@ -1312,9 +1069,6 @@ Linux gpm program allows local users to cause a denial of service by flooding th
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-07/0409.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1329,9 +1083,6 @@ Buffer overflow in Linux su command gives root access to local users.
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0317.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 84. CVE-2000-0357
@@ -1344,9 +1095,6 @@ ORBit and esound in Red Hat Linux 6.1 do not use sufficiently random numbers, wh
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.redhat.com/corp/support/errata/RHSA1999058-01.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1361,9 +1109,6 @@ ORBit and gnome-session in Red Hat Linux 6.1 allows remote attackers to crash a 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.redhat.com/corp/support/errata/RHSA1999058-01.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 86. CVE-1999-0986
@@ -1376,9 +1121,6 @@ The ping command in Linux 2.0.3x allows local users to cause a denial of service
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/870.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1393,9 +1135,6 @@ Buffer overflow in Linux linuxconf package allows remote attackers to gain root 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://marc.info/?l=bugtraq&m=94580196627059&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 88. CVE-1999-1327
@@ -1408,9 +1147,6 @@ Buffer overflow in linuxconf 1.11r11-rh2 on Red Hat Linux 5.1 allows local users
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90221103125826&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1425,9 +1161,6 @@ linuxconf before 1.11.r11-rh3 on Red Hat Linux 5.1 allows local users to overwri
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90383955231511&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 90. CVE-1999-1329
@@ -1440,9 +1173,6 @@ Buffer overflow in SysVInit in Red Hat Linux 5.1 and earlier allows local users 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/7250.php.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1457,9 +1187,6 @@ netcfg 2.16-1 in Red Hat Linux 4.2 allows the Ethernet interface to be controlle
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/7245.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 92. CVE-1999-1332
@@ -1472,9 +1199,6 @@ gzexe in the gzip package on Red Hat Linux 5.0 and earlier allows local users to
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=88603844115233&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1489,9 +1213,6 @@ automatic download option in ncftp 2.4.2 FTP client in Red Hat Linux 5.0 and ear
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=89042322924057&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 94. CVE-1999-1335
@@ -1504,9 +1225,6 @@ snmpd server in cmu-snmp SNMP package before 3.3-1 in Red Hat Linux 4.0 is confi
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.redhat.com/support/errata/rh40-errata-general.html#cmu-snmp.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1521,9 +1239,6 @@ Vulnerability when Network Address Translation (NAT) is enabled in Linux 2.2.10 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93277426802802&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 96. CVE-1999-0894
@@ -1536,9 +1251,6 @@ Red Hat Linux screen program does not use Unix98 ptys, allowing local users to w
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0894.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1553,9 +1265,6 @@ The line printer daemon (lpd) in the lpr package in multiple Linux operating sys
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/advisories/20021104-01-P.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 98. CVE-2000-1221
@@ -1568,9 +1277,6 @@ The line printer daemon (lpd) in the lpr package in multiple Linux operating sys
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/advisories/20021104-01-P.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1585,9 +1291,6 @@ get_it program in Corel Linux Update allows local users to gain root access by s
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://linux.corel.com/support/clos_patch1.htm.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 100. CVE-2000-0107
@@ -1600,9 +1303,6 @@ Linux apcd program allows local attackers to modify arbitrary files via a symlin
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.debian.org/security/2000/20000201.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1617,9 +1317,6 @@ Buffer overflow in Linux mount and umount allows local users to gain root privil
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://ftp.caldera.com/pub/security/OpenLinux/CSSA-2000-002.0.txt.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 102. CVE-2000-0194
@@ -1632,9 +1329,6 @@ buildxconf in Corel Linux allows local users to modify or create arbitrary files
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-02/0323.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1649,9 +1343,6 @@ setxconf in Corel Linux allows local users to gain root access via the -T parame
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-02/0323.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 104. CVE-2000-0170
@@ -1664,9 +1355,6 @@ Buffer overflow in the man program in Linux allows local users to gain privilege
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1011.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1681,9 +1369,6 @@ Buffer overflow in the dump utility in the Linux ext2fs backup package allows lo
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.redhat.com/support/errata/RHSA-2000-100.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 106. CVE-2000-0196
@@ -1696,9 +1381,6 @@ Buffer overflow in mhshow in the Linux nmh package allows remote attackers to ex
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.redhat.com/support/errata/RHSA-2000-006.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1713,9 +1395,6 @@ The default configuration of Dosemu in Corel Linux 1.0 allows local users to exe
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1030.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 108. CVE-2000-0206
@@ -1728,9 +1407,6 @@ The installation of Oracle 8.1.5.x on Linux follows symlinks and creates the ora
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-03/0023.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1745,9 +1421,6 @@ Linux printtool sets the permissions of printer configuration files to be world-
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-03/0082.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 110. CVE-2000-0171
@@ -1760,9 +1433,6 @@ atsadc in the atsar package for Linux does not properly check the permissions of
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-03/0102.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1777,9 +1447,6 @@ SuSE Linux IMAP server allows remote attackers to bypass IMAP authentication and
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vendor/2000-q1/0035.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 112. CVE-2000-0231
@@ -1792,9 +1459,6 @@ Linux kreatecd trusts a user-supplied path that is used to find the cdrecord pro
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-03/0162.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1809,9 +1473,6 @@ The Linux 2.2.x kernel does not restrict the number of Unix domain sockets as de
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-03/0254.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 114. CVE-2000-0289
@@ -1824,9 +1485,6 @@ IP masquerading in Linux 2.2.x allows remote attackers to route UDP packets thro
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-03/0284.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1841,9 +1499,6 @@ The Linux trustees kernel patch allows attackers to cause a denial of service by
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-04/0035.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 116. CVE-2000-0263
@@ -1856,9 +1511,6 @@ The X font server xfs in Red Hat Linux 6.x allows an attacker to cause a denial 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-04/0079.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1873,9 +1525,6 @@ Linux OpenLDAP server allows local users to modify arbitrary files via a symlink
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-2000-009.0.txt.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 118. CVE-2000-0248
@@ -1888,9 +1537,6 @@ The web GUI for the Linux Virtual Server (LVS) software in the Red Hat Linux Pir
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://xforce.iss.net/alerts/advise46.php3.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1905,9 +1551,6 @@ Linux xmonisdn package allows local users to gain root privileges by modifying t
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/583.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 120. CVE-2000-0340
@@ -1920,9 +1563,6 @@ Buffer overflow in Gnomelib in SuSE Linux 6.3 allows local users to execute arbi
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1155.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1937,9 +1577,6 @@ The knfsd NFS server in Linux kernel 2.2.x allows remote attackers to cause a de
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1160.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 122. CVE-2000-0293
@@ -1952,9 +1589,6 @@ aaa_base in SuSE Linux 6.3, and cron.daily in earlier versions, allow local user
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1130.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1969,9 +1603,6 @@ The pam_console PAM module in Linux systems performs a chown on various devices 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-05/0023.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 124. CVE-2000-0438
@@ -1984,9 +1615,6 @@ Buffer overflow in fdmount on Linux systems allows local users in the "floppy" g
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-05/0245.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2001,9 +1629,6 @@ Buffer overflow in KDE kdesud on Linux allows local uses to gain privileges via 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-05/0353.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 126. CVE-2000-0454
@@ -2016,9 +1641,6 @@ Buffer overflow in Linux cdrecord allows local users to gain privileges via the 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-05/0367.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2033,9 +1655,6 @@ Buffer overflow in Linux splitvt 1.6.3 and earlier allows local users to gain ro
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-06/0125.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 128. CVE-2000-0506
@@ -2048,9 +1667,6 @@ The "capabilities" feature in Linux before 2.2.16 allows local users to cause a 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://sgigate.sgi.com/security/20000802-01-P.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2065,9 +1681,6 @@ Secure Locate (slocate) in Red Hat Linux allows local users to gain privileges v
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1385.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 130. CVE-2000-0604
@@ -2080,9 +1693,6 @@ gkermit in Red Hat Linux is improperly installed with setgid uucp, which allows 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1383.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2097,9 +1707,6 @@ Buffer overflow in kon program in Kanji on Console (KON) package on Linux may al
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1371.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 132. CVE-2000-0607
@@ -2112,9 +1719,6 @@ Buffer overflow in fld program in Kanji on Console (KON) package on Linux may al
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1371.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2129,9 +1733,6 @@ Buffer overflow in xconq and cconq game programs on Red Hat Linux allows local u
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-06/0222.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 134. CVE-2000-0618
@@ -2144,9 +1745,6 @@ Buffer overflow in xconq and cconq game programs on Red Hat Linux allows local u
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-06/0222.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2161,9 +1759,6 @@ makewhatis in Linux man package allows local users to overwrite files via a syml
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://ftp.caldera.com/pub/security/OpenLinux/CSSA-2000-021.0.txt.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 136. CVE-2000-0614
@@ -2176,9 +1771,6 @@ Tnef program in Linux systems allows remote attackers to overwrite arbitrary fil
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vendor/2000-q3/0002.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2193,9 +1785,6 @@ rpc.statd in the nfs-utils package in various Linux distributions does not prope
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-07/0206.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 138. CVE-2000-0633
@@ -2208,9 +1797,6 @@ Vulnerability in Mandrake Linux usermode package allows local users to to reboot
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-07/0251.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2225,9 +1811,6 @@ Vulnerability in gpm in Caldera Linux allows local users to delete arbitrary fil
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-07/0273.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 140. CVE-2000-0668
@@ -2240,9 +1823,6 @@ pam_console PAM module in Linux systems allows a user to access the system conso
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-07/0398.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2257,9 +1837,6 @@ Buffer overflow in mailx mail command (aka Mail) on Linux systems allows local u
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-05/0435.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 142. CVE-2000-0354
@@ -2272,9 +1849,6 @@ mirror 2.8.x in Linux systems allows remote attackers to create files one level 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.debian.org/security/1999/19991018.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2289,9 +1863,6 @@ userhelper in the usermode package on Red Hat Linux executes non-setuid programs
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97034397026473&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 144. CVE-2000-0816
@@ -2304,9 +1875,6 @@ Linux tmpwatch --fuser option allows local users to execute arbitrary commands b
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.linux-mandrake.com/en/security/MDKSA-2000-056.php3?dis=7.1.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2321,9 +1889,6 @@ ping in iputils before 20001010, as distributed on Red Hat Linux 6.2 through 7J 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-10/0429.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 146. CVE-2000-1214
@@ -2336,9 +1901,6 @@ Buffer overflows in the (1) outpack or (2) buf variables of ping in iputils befo
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-10/0429.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2353,9 +1915,6 @@ The initscripts package in Red Hat Linux allows local users to gain privileges v
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-2000-0031.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 148. CVE-2000-0698
@@ -2368,9 +1927,6 @@ Minicom 1.82.1 and earlier on some Linux systems allows local users to create ar
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/77361.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2385,9 +1941,6 @@ Linux Intrusion Detection System (LIDS) 0.9.7 allows local users to gain root pr
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-07/0486.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 150. CVE-2000-0714
@@ -2400,9 +1953,6 @@ umb-scheme 3.2-11 for Red Hat Linux is installed with world-writeable files.
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.redhat.com/support/errata/RHSA-2000-047.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2417,9 +1967,6 @@ DiskCheck script diskcheck.pl in Red Hat Linux 6.2 allows local users to create 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://seclists.org/bugtraq/2000/Aug/0082.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 152. CVE-2000-0747
@@ -2432,9 +1979,6 @@ The logrotate script for OpenLDAP before 1.2.11 in Conectiva Linux sends an impr
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-07/0379.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2449,9 +1993,6 @@ Buffer overflow in the Linux binary compatibility module in FreeBSD 3.x through 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/freebsd/2000-08/0338.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 154. CVE-2000-0800
@@ -2464,9 +2005,6 @@ String parsing error in rpc.kstatd in the linuxnfs or knfsd packages in SuSE and
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.novell.com/linux/security/advisories/suse_security_announce_58.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2481,9 +2019,6 @@ The tmpwatch utility in Red Hat Linux forks a new process for each directory lev
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.redhat.com/support/errata/RHSA-2000-080.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 156. CVE-2000-0866
@@ -2496,9 +2031,6 @@ Interbase 6 SuperServer for Linux allows an attacker to cause a denial of servic
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-09/0027.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2513,9 +2045,6 @@ Kernel logging daemon (klogd) in Linux does not properly cleanse user-injected f
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://ftp.caldera.com/pub/security/OpenLinux/CSSA-2000-032.0.txt.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 158. CVE-2000-0868
@@ -2528,9 +2057,6 @@ The default configuration of Apache 1.3.12 in SuSE Linux 6.4 allows remote attac
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/linux/suse/2000-q3/0906.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2545,9 +2071,6 @@ The default configuration of Apache 1.3.12 in SuSE Linux 6.4 enables WebDAV, whi
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/linux/suse/2000-q3/0906.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 160. CVE-2000-0883
@@ -2560,9 +2083,6 @@ The default configuration of mod_perl for Apache as installed on Mandrake Linux 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-09/0111.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2577,9 +2097,6 @@ dump in Red Hat Linux 6.2 trusts the pathname specified by the RSH environmental
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-10/0438.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 162. CVE-2000-1042
@@ -2592,9 +2109,6 @@ Buffer overflow in ypserv in Mandrake Linux 7.1 and earlier, and possibly other 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.linux-mandrake.com/en/security/MDKSA-2000-064.php3?dis=7.1.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2609,9 +2123,6 @@ Format string vulnerability in ypserv in Mandrake Linux 7.1 and earlier, and pos
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.linux-mandrake.com/en/security/MDKSA-2000-064.php3?dis=7.1.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 164. CVE-2000-1044
@@ -2624,9 +2135,6 @@ Format string vulnerability in ypbind-mt in SuSE SuSE-6.2, and possibly other Li
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/linux/suse/2000-q4/0262.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2641,9 +2149,6 @@ The default configuration of the Xsession file in Mandrake Linux 7.1 and 7.0 byp
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.linux-mandrake.com/en/security/MDKSA-2000-052.php3.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 166. CVE-2000-0934
@@ -2656,9 +2161,6 @@ Glint in Red Hat Linux 5.2 allows local users to overwrite arbitrary files and c
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.redhat.com/support/errata/RHSA-2000-062.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2673,9 +2175,6 @@ cyrus-sasl before 1.5.24 in Red Hat Linux 7.0 does not properly verify the autho
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.redhat.com/support/errata/RHSA-2000-094.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 168. CVE-2000-1095
@@ -2688,9 +2187,6 @@ modprobe in the modutils 2.3.x package on Linux systems allows a local user to e
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-11/0179.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2705,9 +2201,6 @@ in.identd ident server in SuSE Linux 6.x and 7.0 allows remote attackers to caus
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-11/0387.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 170. CVE-2000-1125
@@ -2720,9 +2213,6 @@ restore 0.4b15 and earlier in Red Hat Linux 6.2 trusts the pathname specified by
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97336034309944&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2737,9 +2227,6 @@ elvis-tiny before 1.4-10 in Debian GNU/Linux, and possibly other Linux operating
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97502995616099&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 172. CVE-2000-1183
@@ -2752,9 +2239,6 @@ Buffer overflow in socks5 server on Linux allows attackers to execute arbitrary 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-11/0219.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2769,9 +2253,6 @@ Buffer overflow in pam_localuser PAM module in Red Hat Linux 7.x and 6.x allows 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://distro.conectiva.com.br/atualizacoes/?id=a&anuncio=000358.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 174. CVE-2001-0073
@@ -2784,9 +2265,6 @@ Buffer overflow in the find_default_type function in libsecure in NSA Security-e
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/153188.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2801,9 +2279,6 @@ The "mxcsr P4" vulnerability in the Linux kernel before 2.2.17-14, when running 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://ciac.llnl.gov/ciac/bulletins/l-045.shtml.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 176. CVE-2000-0314
@@ -2816,9 +2291,6 @@ traceroute in NetBSD 1.3.3 and Linux systems allows local users to flood other s
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://ftp.NetBSD.ORG/pub/NetBSD/misc/security/advisories/NetBSD-SA1999-004.txt.asc.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2833,9 +2305,6 @@ traceroute in NetBSD 1.3.3 and Linux systems allows local unprivileged users to 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://ftp.NetBSD.ORG/pub/NetBSD/misc/security/advisories/NetBSD-SA1999-004.txt.asc.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 178. CVE-2001-0107
@@ -2848,9 +2317,6 @@ Veritas Backup agent on Linux allows remote attackers to cause a denial of servi
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97958921407182&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2865,9 +2331,6 @@ vpop3d program in linuxconf 1.23r and earlier allows local users to overwrite ar
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97916374410647&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 180. CVE-2001-0172
@@ -2880,9 +2343,6 @@ Buffer overflow in ReiserFS 3.5.28 in SuSE Linux allows local users to cause a d
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-01/0127.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2897,9 +2357,6 @@ Format string vulnerability in the error logging code of DHCP server and client 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.calderasystems.com/support/security/advisories/CSSA-2001-003.0.txt.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 182. CVE-2001-1467
@@ -2912,9 +2369,6 @@ mkpasswd in expect 5.2.8, as used by Red Hat Linux 6.2 through 7.0, seeds its ra
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-04/0173.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2929,9 +2383,6 @@ Unknown vulnerability in binfmt_misc in the Linux kernel before 2.2.19, related 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=98575345009963&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 184. CVE-2001-1391
@@ -2944,9 +2395,6 @@ Off-by-one vulnerability in CPIA driver of Linux kernel before 2.2.19 allows use
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=98575345009963&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2961,9 +2409,6 @@ The Linux kernel before 2.2.19 does not have unregister calls for (1) CPUID and 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=98575345009963&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 186. CVE-2001-1393
@@ -2976,9 +2421,6 @@ Unknown vulnerability in classifier code for Linux kernel before 2.2.19 could re
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=98575345009963&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2993,9 +2435,6 @@ Signedness error in (1) getsockopt and (2) setsockopt for Linux kernel before 2.
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=98575345009963&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 188. CVE-2001-1395
@@ -3008,9 +2447,6 @@ Unknown vulnerability in sockfilter for Linux kernel before 2.2.19 related to "b
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=98575345009963&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3025,9 +2461,6 @@ Unknown vulnerabilities in strnlen_user for Linux kernel before 2.2.19, with unk
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=98575345009963&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 190. CVE-2001-1397
@@ -3040,9 +2473,6 @@ The System V (SYS5) shared memory implementation for Linux kernel before 2.2.19 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=98575345009963&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3057,9 +2487,6 @@ Masquerading code for Linux kernel before 2.2.19 does not fully check packet len
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=98575345009963&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 192. CVE-2001-1399
@@ -3072,9 +2499,6 @@ Certain operations in Linux kernel before 2.2.19 on the x86 architecture copy th
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=98575345009963&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3089,9 +2513,6 @@ Unknown vulnerabilities in the UDP port allocation for Linux kernel before 2.2.1
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=98575345009963&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 194. CVE-2001-0193
@@ -3104,9 +2525,6 @@ Format string vulnerability in man in some Linux distributions allows local user
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=98096782126481&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3121,9 +2539,6 @@ Chili!Soft ASP for Linux before 3.6 does not properly set group privileges when 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-02/0112.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 196. CVE-2001-0316
@@ -3136,9 +2551,6 @@ Linux kernel 2.4 and 2.2 allows local users to read kernel memory and possibly g
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-02/0267.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3153,9 +2565,6 @@ Race condition in ptrace in Linux kernel 2.4 and 2.2 allows local users to gain 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-02/0267.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 198. CVE-2001-1332
@@ -3168,9 +2577,6 @@ Buffer overflows in Linux CUPS before 1.1.6 may allow remote attackers to execut
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://distro.conectiva.com.br/atualizacoes/?id=a&anuncio=000384.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3185,9 +2591,6 @@ Linux CUPS before 1.1.6 does not securely handle temporary files, possibly due t
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://distro.conectiva.com.br/atualizacoes/?id=a&anuncio=000384.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 200. CVE-2001-0474
@@ -3200,9 +2603,6 @@ Utah-glx in Mesa before 3.3-14 on Mandrake Linux 7.2 allows local users to overw
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.linux-mandrake.com/en/security/2001/MDKSA-2001-029.php3.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3217,9 +2617,6 @@ Vulnerability in rpmdrake in Mandrake Linux 8.0 related to insecure temporary fi
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.linux-mandrake.com/en/security/2001/MDKSA-2001-043.php3.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 202. CVE-2001-0405
@@ -3232,9 +2629,6 @@ ip_conntrack_ftp in the IPTables firewall for Linux 2.4 allows remote attackers 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-04/0271.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3249,9 +2643,6 @@ Opera 5.0 for Linux does not properly handle malformed HTTP headers, which allow
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/196980.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 204. CVE-2001-1146
@@ -3264,9 +2655,6 @@ AllCommerce with debugging enabled in EnGarde Secure Linux 1.0.1 creates tempora
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.linuxsecurity.com/advisories/other_advisory-1492.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3281,9 +2669,6 @@ The default configuration of sudo in Engarde Secure Linux 1.0.1 allows any user 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.linuxsecurity.com/advisories/other_advisory-1493.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 206. CVE-2001-0623
@@ -3296,9 +2681,6 @@ sendfiled, as included with Simple Asynchronous File Transfer (SAFT), on various
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.debian.org/security/2001/dsa-050.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3313,9 +2695,6 @@ Sdbsearch.cgi in SuSE Linux 6.0-7.2 could allow remote attackers to execute arbi
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.novell.com/linux/security/advisories/2001_027_sdb_txt.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 208. CVE-2001-1119
@@ -3328,9 +2707,6 @@ cda in xmcd 3.0.2 and 2.6 in SuSE Linux allows local users to overwrite arbitrar
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/105347.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3345,9 +2721,6 @@ Buffer overflow in dsh in dqs 3.2.7 in SuSE Linux 7.0 and earlier, and possibly 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-05/0193.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 210. CVE-2001-0635
@@ -3360,9 +2733,6 @@ Red Hat Linux 7.1 sets insecure permissions on swap files created during install
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.osvdb.org/5564.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3377,9 +2747,6 @@ Sun Chili!Soft 3.5.2 on Linux and 3.6 on AIX creates a default admin username an
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-02/0378.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 212. CVE-2000-1195
@@ -3392,9 +2759,6 @@ telnet daemon (telnetd) from the Linux netkit package before netkit-telnet-0.16 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.caldera.com/support/security/advisories/CSSA-2000-008.0.txt.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3409,9 +2773,6 @@ The default configuration of the DVI print filter (dvips) in Red Hat Linux 7.0 a
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=99892644616749&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 214. CVE-2001-1069
@@ -3424,9 +2785,6 @@ libCoolType library as used in Adobe Acrobat (acroread) on Linux creates the Ado
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://lists.debian.org/debian-security/2001/debian-security-200101/msg00085.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3441,9 +2799,6 @@ Apache on Red Hat Linux with with the UserDir directive enabled generates differ
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vuln-dev/2000-q3/0083.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 216. CVE-2001-0641
@@ -3456,9 +2811,6 @@ Buffer overflow in man program in various distributions of Linux allows local us
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-05/0087.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3473,9 +2825,6 @@ LogLine function in klogd in sysklogd 1.3 in various Linux distributions allows 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://download.immunix.org/ImmunixOS/7.0/updates/IMNX-2001-70-026-01.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 218. CVE-2001-0739
@@ -3488,9 +2837,6 @@ Guardian Digital WebTool in EnGarde Secure Linux 1.0.1 allows restarted services
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.linuxsecurity.com/advisories/other_advisory-1404.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3505,9 +2851,6 @@ Buffer overflow in Linux xinetd 2.1.8.9pre11-1 and earlier may allow remote atta
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-06/0064.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 220. CVE-2001-0775
@@ -3520,9 +2863,6 @@ Buffer overflow in xloadimage 4.1 (aka xli 1.16 and 1.17) in Linux allows remote
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.debian.org/security/2001/dsa-069.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3537,9 +2877,6 @@ LPRng in Red Hat Linux 7.0 and 7.1 does not properly drop memberships in supplem
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/l-096.shtml.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 222. CVE-2001-0907
@@ -3552,9 +2889,6 @@ Linux kernel 2.2.1 through 2.2.19, and 2.4.1 through 2.4.10, allows local users 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://ftp.caldera.com/pub/security/OpenLinux/CSSA-2001-036.0.txt.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3569,9 +2903,6 @@ ptrace in Linux 2.2.x through 2.2.19, and 2.4.x through 2.4.9, allows local user
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://ftp.caldera.com/pub/security/OpenLinux/CSSA-2001-036.0.txt.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 224. CVE-2001-0914
@@ -3584,9 +2915,6 @@ Linux kernel before 2.4.11pre3 in multiple Linux distributions allows local user
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=100638584813349&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3601,9 +2929,6 @@ The default installation of Apache before 1.3.19 on Mandrake Linux 7.1 through 8
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/913704.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 226. CVE-2001-0912
@@ -3616,9 +2941,6 @@ Packaging error for expect 8.3.3 in Mandrake Linux 8.1 causes expect to search f
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.linux-mandrake.com/en/security/2001/MDKSA-2001-087.php3?dis=8.1.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3633,9 +2955,6 @@ A buffer overflow in Linux fetchmail before 5.8.6 allows remote attackers to exe
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-01:43.fetchmail.asc.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 228. CVE-2001-0851
@@ -3648,9 +2967,6 @@ Linux kernel 2.0, 2.2 and 2.4 with syncookies enabled allows remote attackers to
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://distro.conectiva.com.br/atualizacoes/?id=a&anuncio=000432.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3665,9 +2981,6 @@ TUX HTTP server 2.1.0-2 in Red Hat Linux allows remote attackers to cause a deni
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=100498100112191&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 230. CVE-2001-0859
@@ -3680,9 +2993,6 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=100498100112191&w
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/advisories/3725.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3697,9 +3007,6 @@ The default PAM files included with passwd in Mandrake Linux 8.1 do not support 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/7706.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 232. CVE-2001-1506
@@ -3712,9 +3019,6 @@ Unknown vulnerability in the file system protection subsystem in HP Secure OS So
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/advisories/3618.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3729,9 +3033,6 @@ Linux kernel 2.2.19 enables CAP_SYS_RESOURCE for setuid processes, which allows 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-10/0179.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 234. CVE-2001-1561
@@ -3744,9 +3045,6 @@ Buffer overflow in Xvt 2.1 in Debian Linux 2.2 allows local users to execute arb
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-07/0024.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3761,9 +3059,6 @@ Unknown vulnerability in Tomcat 3.2.1 running on HP Secure OS for Linux 1.0 allo
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/hp/2001-q4/0062.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 236. CVE-2001-1572
@@ -3776,9 +3071,6 @@ The MAC module in Netfilter in Linux kernel 2.4.1 through 2.4.11, when configure
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-10/0057.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3793,9 +3085,6 @@ Linux kernel, and possibly other operating systems, allows remote attackers to r
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.osvdb.org/5394.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 238. CVE-2002-0060
@@ -3808,9 +3097,6 @@ IRC connection tracking helper module in the netfilter subsystem for Linux 2.4.1
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://frontal2.mandriva.com/security/advisories?name=MDKSA-2002:041.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3825,9 +3111,6 @@ Buffer overflow in ncurses 5.0, and the ncurses4 compatibility package as used i
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.debian.org/security/2002/dsa-113.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 240. CVE-2002-0086
@@ -3840,9 +3123,6 @@ Buffer overflow in bindsock in Lotus Domino 5.0.4 and 5.0.7 on Linux allows loca
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www-1.ibm.com/support/docview.wss?uid=swg21095569.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3857,9 +3137,6 @@ Vulnerability in the MIT-SHM extension of the X server on Linux (XFree86) 4.2.1 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/advisories/20021001-01-P.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 242. CVE-2002-0203
@@ -3872,9 +3149,6 @@ ttawebtop.cgi in Tarantella Enterprise 3.20 on SPARC Solaris and Linux, and 3.1x
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101190195430376&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3889,9 +3163,6 @@ The default stylesheet for DocBook on Red Hat Linux 6.2 through 7.2 is installed
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/advisories/4095.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 244. CVE-2002-0378
@@ -3904,9 +3175,6 @@ The default configuration of LPRng print spooler in Red Hat Linux 7.0 through 7.
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/advisories/4205.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3921,9 +3189,6 @@ The encrypted loop device in Linux kernel 2.4.10 and earlier does not authentica
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2002-01/0010.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 246. CVE-2002-0429
@@ -3936,9 +3201,6 @@ The iBCS routines in arch/i386/kernel/traps.c for Linux kernels 2.4.18 and earli
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101561298818888&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3953,9 +3215,6 @@ Linux Directory Penguin traceroute.pl CGI script 1.0 allows remote attackers to 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/8600.php.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 248. CVE-2002-0489
@@ -3968,9 +3227,6 @@ Linux Directory Penguin NsLookup CGI script (nslookup.pl) 1.0 allows remote atta
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101684215209558&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3985,9 +3241,6 @@ The d_path function in Linux kernel 2.2.20 and earlier, and 2.4.18 and earlier, 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2002-q1/0074.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 250. CVE-2002-0510
@@ -4000,9 +3253,6 @@ The UDP implementation in Linux 2.4.x kernels keeps the IP Identification field 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/8588.php.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4017,9 +3267,6 @@ setpwnam.c in the util-linux package, as included in Red Hat Linux 7.3 and earli
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://ftp.caldera.com/pub/security/OpenLinux/CSSA-2002-043.0.txt.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 252. CVE-2002-0767
@@ -4032,9 +3279,6 @@ simpleinit on Linux systems does not close a read/write FIFO file descriptor bef
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/276739.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4049,9 +3293,6 @@ Format string vulnerability in super for Linux allows local users to gain root p
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2002-q3/0045.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 254. CVE-2002-0849
@@ -4064,9 +3305,6 @@ Linux-iSCSI iSCSI implementation installs the iscsi.conf file with world-readabl
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=102882056105806&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4081,9 +3319,6 @@ Buffer overflows in netstd 3.07-17 package allows remote DNS servers to execute 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/273987.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 256. CVE-2002-0915
@@ -4096,9 +3331,6 @@ autorun in Xandros based Linux distributions allows local users to read the firs
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2002-05/0260.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4113,9 +3345,6 @@ The mailconf module in Linuxconf 1.24, and other versions before 1.28, on Conect
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://distro.conectiva.com.br/atualizacoes/?id=a&anuncio=000544.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 258. CVE-2002-1319
@@ -4128,9 +3357,6 @@ The Linux kernel 2.4.20 and earlier, and 2.5.x, when running on x86 systems, all
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://distro.conectiva.com.br/atualizacoes/?id=a&anuncio=000553.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4145,9 +3371,6 @@ Linux kernel 2.2.x allows local users to cause a denial of service (crash) by us
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.debian.org/security/2003/dsa-336.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 260. CVE-2002-1571
@@ -4160,9 +3383,6 @@ The linux 2.4 kernel before 2.4.19 assumes that the fninit instruction clears al
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://linux.bkbits.net:8080/linux-2.4/diffs/arch/i386/kernel/i387.c%401.6.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4177,9 +3397,6 @@ Signed integer overflow in the bttv_read function in the bttv driver (bttv-drive
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://linux.bkbits.net:8080/linux-2.4/cset%403d6badc0mxsPaOTT_GuPVxCp1_ormw.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 262. CVE-2002-1573
@@ -4192,9 +3409,6 @@ Unspecified vulnerability in the pcilynx ieee1394 firewire driver (pcilynx.c) in
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://linux.bkbits.net:8080/linux-2.4/cset%403d6aadcbBIDX67Zl6zZnVKRcsilCVQ.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4209,9 +3423,6 @@ Astaro Security Linux 2.016 creates world-writable files and directories, which 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/256124.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 264. CVE-2002-1764
@@ -4224,9 +3435,6 @@ acroread in Adobe Acrobat Reader 4.05 on Linux allows local users to overwrite a
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/277932.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4241,9 +3449,6 @@ Buffer overflow in tnslsnr of Oracle 8i Database Server 8.1.5 for Linux allows l
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/265452.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 266. CVE-2002-1826
@@ -4256,9 +3461,6 @@ grsecurity 1.9.4 for Linux kernel 2.4.18 allows local users to bypass read-only 
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/273002.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4273,9 +3475,6 @@ rhmask 1.0-9 in Red Hat Linux 7.1 allows local users to overwrite arbitrary file
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/276317.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 268. CVE-2002-1963
@@ -4288,9 +3487,6 @@ Linux kernel 2.4.1 through 2.4.19 sets root's NR_RESERVED_FILES limit to 10 file
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/281100.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4305,9 +3501,6 @@ ifconfig, when used on the Linux kernel 2.2 and later, does not report when the 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2002-07/0279.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 270. CVE-2002-2012
@@ -4320,9 +3513,6 @@ Unknown vulnerability in Apache 1.3.19 running on HP Secure OS for Linux 1.0 all
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/7810.php.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4337,9 +3527,6 @@ User-mode Linux (UML) 2.4.17-8 does not restrict access to kernel address space,
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2002-01/0338.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 272. CVE-2002-2254
@@ -4352,9 +3539,6 @@ The experimental IP packet queuing feature in Netfilter / IPTables in Linux kern
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2002-12/0025.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4369,9 +3553,6 @@ Buffer overflow in the French documentation patch for Gnuplot 3.7 in SuSE Linux 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.securityfocus.com/bid/6329.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 274. CVE-2002-2394
@@ -4384,9 +3565,6 @@ InterScan VirusWall 3.6 for Linux and 3.52 for Windows allows remote attackers t
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.iss.net/security_center/static/10106.php.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4401,9 +3579,6 @@ Buffer overflow in the mtink status monitor, as included in the printer-drivers 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2003-q1/0029.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 276. CVE-2003-0035
@@ -4416,9 +3591,6 @@ Buffer overflow in escputil, as included in the printer-drivers package in Mandr
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2003-q1/0029.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4433,9 +3605,6 @@ ml85p, as included in the printer-drivers package for Mandrake Linux, allows loc
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2003-q1/0029.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 278. CVE-2003-0018
@@ -4448,9 +3617,6 @@ Linux kernel 2.4.10 through 2.4.21-pre4 does not properly handle the O_DIRECT fe
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://linux.bkbits.net:8080/linux-2.4/cset%403e2f193drGJDBg9SG6JwaDQwCBnAMQ.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4465,9 +3631,6 @@ uml_net in the kernel-utils package for Red Hat Linux 8.0 has incorrect setuid r
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/n-044.shtml.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 280. CVE-2003-0076
@@ -4480,9 +3643,6 @@ Unknown vulnerability in the directory parser for Direct Connect 4 Linux (dcgui)
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://dc.ketelhot.de/pipermail/dc/2003-January/000094.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4497,9 +3657,6 @@ A patch for mcookie in the util-linux package for Mandrake Linux 8.2 and 9.0 use
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.mandrakesoft.com/security/advisories?name=MDKSA-2003:016.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 282. CVE-2003-0156
@@ -4512,9 +3669,6 @@ Directory traversal vulnerability in Cross-Referencing Linux (LXR) allows remote
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=104739747222492&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4529,9 +3683,6 @@ The iptables ruleset in Gnome-lokkit in Red Hat Linux 8.0 does not include any r
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.osvdb.org/4400.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 284. CVE-2003-0127
@@ -4544,9 +3695,6 @@ The kernel module loader in Linux kernel 2.2.x before 2.2.25, and 2.4.x before 2
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor ftp://ftp.caldera.com/pub/security/OpenLinux/CSSA-2003-020.0.txt.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4561,9 +3709,6 @@ Buffer overflows in the Cisco VPN 5000 Client before 5.2.7 for Linux, and VPN 50
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.cisco.com/warp/public/707/vpn5k-client-multiple-vuln-pub.shtml.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 286. CVE-2002-1506
@@ -4576,9 +3721,6 @@ Buffer overflow in Linuxconf before 1.28r4 allows local users to execute arbitra
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2002-08/0304.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4593,9 +3735,6 @@ vsftpd FTP daemon in Red Hat Linux 9 is not compiled against TCP wrappers (tcp_w
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.redhat.com/support/errata/RHSA-2003-084.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 288. CVE-2003-0084
@@ -4608,9 +3747,6 @@ mod_auth_any package in Red Hat Enterprise Linux 2.1 and other operating systems
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2003-114.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4625,9 +3761,6 @@ The route cache implementation in Linux 2.4, and the Netfilter IP conntrack modu
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2003-q2/0073.html.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 290. CVE-2003-0246
@@ -4640,9 +3773,6 @@ The ioperm system call in Linux kernel 2.4.20 and earlier does not properly rest
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2003-q2/0076.html.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4657,9 +3787,6 @@ Unknown vulnerability in the TTY layer of the Linux kernel 2.4 allows attackers 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.debian.org/security/2003/dsa-311.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 292. CVE-2003-0248
@@ -4672,9 +3799,6 @@ The mxcsr code in Linux kernel 2.4 allows attackers to modify CPU state register
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.debian.org/security/2003/dsa-311.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4689,9 +3813,6 @@ The TCP/IP fragment reassembly handling in the Linux kernel 2.4 allows remote at
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://www.debian.org/security/2003/dsa-311.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 294. CVE-2003-0396
@@ -4704,9 +3825,6 @@ Buffer overflow in les for ATM on Linux (linux-atm) before 2.4.1, if used setuid
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=105154433926396&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4721,9 +3839,6 @@ pam_wheel in Linux-PAM 0.78, with the trust option enabled and the use_uid optio
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=105577915506761&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 296. CVE-2003-0418
@@ -4736,9 +3851,6 @@ The Linux 2.0 kernel IP stack does not properly calculate the size of an ICMP ci
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=105519179005065&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4753,9 +3865,6 @@ Integer signedness error in the Linux Socket Filter implementation (filter.c) in
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://ftp.belnet.be/linux/gentoo-portage/sys-kernel/gentoo-sources/files/gentoo-sources-2.4.CAN-2003-0643.patch.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 298. CVE-2003-0476
@@ -4768,9 +3877,6 @@ The execve system call in Linux 2.4.x records the file descriptor of the executa
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=105664924024009&w=2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4785,9 +3891,6 @@ VMware Workstation 4.0 for Linux allows local users to overwrite arbitrary files
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=105673688529147&w=2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 300. CVE-2003-0501
@@ -4800,8 +3903,5 @@ The /proc filesystem in Linux allows local users to obtain sensitive information
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=105621758104242.
-
-**参考链接 / References**:
-- N/A
 
 ---

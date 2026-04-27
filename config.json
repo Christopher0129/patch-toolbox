@@ -1,0 +1,30 @@
+{
+  "vector_search": {
+    "enabled": false,
+    "provider": "local",
+    "local": {
+      "model_name": "BAAI/bge-small-zh-v1.5",
+      "model_path": "./models/bge-small-zh-v1.5",
+      "dimension": 512,
+      "max_length": 512
+    },
+    "api": {
+      "base_url": "https://api.siliconflow.cn/v1",
+      "api_key": "",
+      "model": "BAAI/bge-m3",
+      "dimension": 1024,
+      "batch_size": 32
+    },
+    "index": {
+      "auto_index_on_run": true,
+      "index_batch_size": 64,
+      "distance_metric": "cosine"
+    },
+    "search": {
+      "default_k": 10,
+      "rrf_k": 60,
+      "hybrid_weight_keywords": 0.4,
+      "hybrid_weight_vector": 0.6
+    }
+  }
+}

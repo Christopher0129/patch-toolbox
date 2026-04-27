@@ -27,9 +27,6 @@ The --block-size parameter is described in the man page for ls; man ls and searc
 
 Note that both --block-size and -h are GNU extensions on top of the Open Group's ls, so this may not work if you don't have a GNU userland (which most Linux installations do). The ls from GNU Coreutils 8.5 does support --block-size and -h as described above. Thanks to kojiro for pointing this out.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 2. Finding the PID of the process using a specific port?
@@ -53,9 +50,6 @@ You can also use lsof:
 $ sudo lsof -n -i :80 | grep LISTEN
 nginx   125004 nginx    3u  IPv4   6645      0t0  TCP 0.0.0.0:80 (LISTEN)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 3. Why am I still getting a password prompt with ssh with public key authentication?
@@ -75,9 +69,6 @@ Also, if SELinux is set to enforcing, you may need to run restorecon -R -v ~/.ss
 
 
 ¹  Except on some distributions (Debian and derivatives) which have patched the code to allow group writability if you are the only user in your group.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -112,9 +103,6 @@ host unix.stackexchange.com | awk '/has address/ { print $4 ; exit }'
 nslookup unix.stackexchange.com | awk '/^Address: / { print $2 ; exit }'
 dig unix.stackexchange.com | awk '/^;; ANSWER SECTION:$/ { getline ; print $5 ; exit }'
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 5. Execute vs Read bit. How do directory permissions in Linux work?
@@ -130,9 +118,6 @@ The read bit (r) allows the affected user to list the files within the directory
 The write bit (w) allows the affected user to create, rename, or delete files within the directory, and modify the directory's attributes
 The execute bit (x) allows the affected user to enter the directory, and access files and directories inside
 The sticky bit (T, or t if the execute bit is set for others) states that files and directories within that directory may only be deleted or renamed by their owner (or root)
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -165,9 +150,6 @@ So, for me, I can see Wayland is in use:
 $ loginctl show-session c2 -p Type                                                  
 Type=wayland
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 7. Compress a folder with tar?
@@ -193,9 +175,6 @@ tar czf ~/www_backups/$(date +%Y%m%d-%H%M%S).tar.gz .
 This will create a file named something like 20120902-185558.tar.gz.
 On Linux, chances are your tar also supports BZip2 compression with the j rather than z option. And possibly others. Check the man page on your local system.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 8. When should I not kill -9 a process?
@@ -207,9 +186,6 @@ Tags: linux, command-line, kill, process-management | Score: 436 | Views: 209582
 Generally, you should use kill (short for kill -s TERM, or on most systems kill -15) before kill -9 (kill -s KILL) to give the target process a chance to clean up after itself.  (Processes can't catch or ignore SIGKILL, but they can and often do catch SIGTERM.)  If you don't give the process a chance to finish what it's doing and clean up, it may leave corrupted files (or other state) around that it won't be able to understand once restarted.
 
 strace/truss, ltrace and gdb are generally good ideas for looking at why a stuck process is stuck.   (truss -u on Solaris is particularly helpful; I find ltrace too often presents arguments to library calls in an unusable format.)  Solaris also has useful /proc-based tools, some of which have been ported to Linux.  (pstack is often helpful).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -318,9 +294,6 @@ Mem:       7987492    7785572     201920          0      41556     491508
 -/+ buffers/cache:    7252508     734984
 Swap:      5963772          0    5963772
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 10. How to check OS and version using a Linux command
@@ -359,9 +332,6 @@ Ubuntu Saucy Salamander (development branch)
 
 $ cat /etc/debian_version 
 wheezy/sid
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -422,9 +392,6 @@ find . -type f  -exec du -h {} + | sort -r -h
 
 
 The find command will recursively find all files in all sub directories of . and call du -h (meaning disk usage -humanreadable) and then sort the output again. If your find/sort doesn't support -h, replace with du -k and sort -rn. Note that size and disk usage are not the same thing.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -536,9 +503,6 @@ In summary:
 You need to be aware of sockets, cores and threads
 You need to be careful of the term CPU as it means different things in different contexts
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 13. How to set default file permissions for all folders/files in a directory?
@@ -575,9 +539,6 @@ default:user::rwx
 default:group::rwx
 default:other::r-x
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 14. How can I monitor disk io?
@@ -612,9 +573,6 @@ xvdb              1.39     0.43    4.03    1.82    43.33    18.43    10.56     0
 
 
 Some other options that can show disk usage in trending graphs is munin and cacti.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -651,9 +609,6 @@ Or use the following command to set python3.6 as default:
 
 sudo update-alternatives  --set python /usr/bin/python3.6
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 16. How can I update to a newer version of Git using apt-get?
@@ -672,9 +627,6 @@ git --version
 As of Dec 2018, I got git 2.20.1 that way, while the version in the Ubuntu Xenial repositories was 2.7.4.
 If your system doesn't have add-apt-repository, you can install it via:
 sudo apt-get install python-software-properties software-properties-common
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -777,9 +729,6 @@ myip.opendns.com.   0   IN  A   80.100.192.168
 
 ;; Query time: 4 msec
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 18. how can I recursively delete empty directories in my home directory?
@@ -802,9 +751,6 @@ After you've verified that this is selecting the correct directories, use -delet
 
 $ find . -type d -empty -delete
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 19. How do I find out what hard disks are in the system?
@@ -824,9 +770,6 @@ Linux also provides the lsblk utility which displays a nice tree view of the sto
 If you have an fdisk or disklabel utility, it might be able to tell you what devices it's able to work on.
 
 You will find utility names for many unix variants on the Rosetta Stone for Unix, in particular the “list hardware configuration” and “read a disk label” lines.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -855,9 +798,6 @@ From the manpage:
 Version Information: top -version: procps-ng version 3.3.9
 System: CentOS 7
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 21. linux: How can I view all UUIDs for all available disks on my system?
@@ -874,9 +814,6 @@ There's a tool called blkid (use it as root or with sudo),
 
 you can check this link for more info
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 22. How to know if a disk is an SSD or an HDD
@@ -891,9 +828,6 @@ cat /sys/block/sda/queue/rotational
 You should get 1 for hard disks and 0 for a SSD.
 It will probably not work if your disk is a logical device emulated by hardware (like a RAID controller).
 See this answer for more information about SSD partitioning, filesystem...
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -922,9 +856,6 @@ Sources:
 https://stackoverflow.com/questions/1795370/unix-fast-remove-directory-for-cleaning-up-daily-builds
 http://www.slashroot.in/which-is-the-fastest-method-to-delete-files-in-linux
 https://www.quora.com/Linux-why-stat+unlink-can-be-faster-than-a-single-unlink/answer/Kent-Fredric?srid=O9EW&amp;share=1
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1264,9 +1195,6 @@ spec_store_bypass: CPU is affected by the Speculative Store Bypass vulnerability
  P.S.
 This listing was derived from arch/x86/include/asm/cpufeatures.h in the kernel source. The flags are listed in the same order as the source code. Please help by adding links to descriptions of features when they're missing, by writing a short description of features that have an unexpressive names, and by updating the list for new kernel versions. The current list is from Linux 4.15 plus some later additions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 25. Kernel inotify watch limit reached
@@ -1332,9 +1260,6 @@ find /proc/*/fd -lname anon_inode:inotify |
 
 The first column indicates the number of inotify fds (not the number of watches though) and the second shows the PID of that process [sources: 1, 2].
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 26. Difference between cp -r and cp -a
@@ -1348,9 +1273,6 @@ Recursive means that cp copies the contents of directories, and if a directory h
 By default, cp creates a new file which has the same content as the old file, and the same permissions but restricted by the umask; the copy is dated from the time of the copy, and belongs to the user doing the copy. With the -p option, the copy has the same modification time, the same access time, and the same permissions as the original. It also has the same owner and group as the original, if the user doing the copy has the permission to create such files.
 
 The -a option means -R and -p, plus a few other preservation options. It attempts to make a copy that's as close to the original as possible: same directory tree, same file types, same contents, same metadata (times, permissions, extended attributes, etc.).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1380,9 +1302,6 @@ st, "steal time", is only relevant in virtualized environments. It represents ti
 
 The CPU time accounting  document from IBM has more information about steal time, and CPU accounting in virtualized environments. (It's aimed at zSeries type hardware, but the general idea is the same for most platforms.)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 28. How to get the complete and exact list of mounted filesystems in Linux?
@@ -1398,9 +1317,6 @@ If you have any form of containers on your system, /proc/mounts only lists the f
 There's also a list of mounted filesystems in /etc/mtab. This list is maintained by the mount and umount commands. That means that if you don't use these commands (which is pretty rare), your action (mount or unmount) won't be recorded. In practice, it's mostly in a chroot that you'll find /etc/mtab files that differ wildly from the state of the system. Also, mounts performed in the chroot will be reflected in the chroot's /etc/mtab but not in the main /etc/mtab. Actions performed while /etc/mtab is on a read-only filesystem are also not recorded there.
 
 The reason why you'd sometimes want to consult /etc/mtab in preference to or in addition to /proc/mounts is that because it has access to the mount command line, it's sometimes able to present information in a way that's easier to understand; for example you see mount options as requested (whereas /proc/mounts lists the mount and kernel defaults as well), and bind mounts appear as such in /etc/mtab.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1428,9 +1344,6 @@ GRUB_CMDLINE_LINUX_DEFAULT=&quot;cgroup_enable=memory swapaccount=1&quot;
 
 and then running sudo update-grub and rebooting to boot with the new kernel boot parameters.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 30. What does aux mean in `ps aux`?
@@ -1450,9 +1363,6 @@ Historically, BSD and AT&amp;T developed incompatible versions of ps.  The optio
 All (or nearly all) non-embedded Linux distributions use a variant of the procps suite.  The above options are as defined in the procps ps man page.
 
 In the comments, you say you are using Apple MacOS (OSX, I presume).  The OSX man page for ps is here and it shows support only for AT&amp;T style.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1478,9 +1388,6 @@ Creates a new partition,
 without creating a new file system on that partition.
 
     [Emphasis added.]
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1558,9 +1465,6 @@ esac
 
 but of course that's up to you.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 33. How can I edit multiple files in Vim?
@@ -1585,9 +1489,6 @@ vim foo.txt bar.txt
 result:
 [foo.txt] bar.txt
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 34. How to determine Linux kernel architecture?
@@ -1607,9 +1508,6 @@ Linux behrooz 2.6.32-5-amd64 #1 SMP Mon Mar 7 21:35:22 UTC 2011 **x86_64** GNU/L
 
 EDIT:
 See is my linux ARM 32 or 64 bit? for ARM
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1689,9 +1587,6 @@ See also:
 ArchWiki article on Cron
 ArchWiki article on Systemd Timers
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 36. How to download portion of video with youtube-dl command?
@@ -1716,9 +1611,6 @@ The -ss parameter in this position states to discard all input up until 15 secon
 
 ffmpeg is a popular tool and should be in any of the popular OS repositories/package managers.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 37. How can I see dmesg output as it changes?
@@ -1738,9 +1630,6 @@ $ dmesg -wH
 
 Those options are available for example in Fedora 19.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 38. How do I determine the number of RAM slots in use?
@@ -1757,9 +1646,6 @@ dmidecode -t 16
 
 
 lshw -class memory
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1785,9 +1671,6 @@ If images with the same name exist in both directories, the command above will o
 
 If you want to move the files from /images2, with rsync, you can pass the option --remove-source-files. Then rsync copies all the files in turn, and removes each file when it's done. This is a lot slower than moving if the source and destination directories are on the same filesystem.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 40. Understanding of diff output
@@ -1810,9 +1693,6 @@ As I have already said, the lines from both files are shown together
 +GNU is not UNIX
 
 Here - denotes the lines which were deleted from file1.txt, and + denotes the lines which were added.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1840,9 +1720,6 @@ This assumes you are using the bash/sh shell.
 Under tcsh/csh you would use  
 
  find / -name art |&amp; grep ....
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1897,9 +1774,6 @@ He, he.
 
 You maybe noticed that the corrupted $PATH variable was not reset. This wouldn't have happened, if the admin invoked su - instead.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 43. Is Linux a Unix?
@@ -1923,9 +1797,6 @@ Strictly speaking, Linux is an operating system kernel that is designed like Uni
 Linux is most commonly used as a name of Unix-like operating systems that use Linux as their kernel. As many of the tools outside the kernel are part of the GNU project, such systems are often known as GNU/Linux. All major Linux distributions consist of GNU/Linux and other software.
 There are Linux-based Unix-like systems that don't use many GNU tools, especially in the embedded world, but I don't think any of them does away with GNU development tools, in particular GCC.
 There are operating systems that have Linux as their kernel but are not Unix-like. The most well-known is Android, which doesn't have a Unix-like user experience (though you can install a Unix-like command line) or administrator experience or (mostly) programmer experience (“native” Android programs use an API that is completely different from Unix).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1961,9 +1832,6 @@ prog_end_date=`date '+%C%y%m%d' -d &quot;$end_date+10 days&quot;`
 
 So if $end_date = 20131001 then $prog_end_date = 20131011.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 45. Can I watch the progress of a `sync` operation?
@@ -1978,9 +1846,6 @@ watch -d grep -e Dirty: -e Writeback: /proc/meminfo
 
 
 With regular disks I can normally ignore Writeback, but I'm not sure if it's involved more often in the USB transfer path.  If it just bounces up and down without a clear trend to it, you can probably just look at the Dirty number.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2002,9 +1867,6 @@ cd /usr/local/etc
 ln -s &quot;$PWD/nginx/&quot; /etc/nginx
 
 Make sure that the path is in double quotes, to make sure things like spaces in your current path are escaped. Note that you must use double quotes when doing this, as $PWD will not be substituted if you use single quotes.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2029,9 +1891,6 @@ Alt+SysRq+U remount filesystems as read-only
 Alt+SysRq+B forcefully reboot
 
 For the full list of possible commands and additional tips on how to type these commands, see the Wikipedia page.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2099,9 +1958,6 @@ Other options
 If the above isn't for you I've used tools such as photorec to recover files in the past, but it's geared for image files only. I've written about this method extensively on my blog in this article titled:
 How to Recover Corrupt jpeg and mov Files from a Digital Camera's SDD Card on Fedora/CentOS/RHEL.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 49. Determine the size of a block device
@@ -2118,9 +1974,6 @@ Deprecated: blockdev --getsize /dev/sda returns size in sectors.
 
 blockdev is part of util-linux.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 50. Why would someone choose FreeBSD over Linux?
@@ -2134,9 +1987,6 @@ If you want to know what's different so you can use the system more efficiently,
 If you want more of the historical context for this decision, I'll just take a guess as to why they chose FreeBSD. Around the time of the first dot-com bubble, FreeBSD 4 was extremely popular with ISPs. This may or may not have been related to the addition of kqueue. The Wikipedia page describes the feelings for FreeBSD 4 thusly: "…widely regarded as one of the most stable and high performance operating systems of the whole Unix lineage." FreeBSD in particular has added other features over time which would appeal to hosting providers, such as jail and ZFS support.
 
 Personally, I really like the BSD systems because they just feel like they fit together better than most Linux distros I've used. Also, the documentation provided directly in the various handbooks, etc. is outstanding. If you're going to be using FreeBSD, I highly recommend the FreeBSD Handbook.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2160,9 +2010,6 @@ System Information
     Manufacturer: HP
     Product Name: ProLiant ML330 G6
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 52. Why is my ethernet interface called enp0s10 instead of eth0?
@@ -2182,9 +2029,6 @@ en| |   --&gt; ethernet
     s10 --&gt; slot number (10)
 
 Source: udev-builtin-net_id.c on GitHub
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2216,9 +2060,6 @@ echo &quot;username:encryptedPassWd&quot; | chpasswd -e
 The encrypted password we can also use to create a new user with this password, for example:
 useradd -p 'encryptedPassWd'  username
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 54. Linux: Difference between /dev/console, /dev/tty and /dev/tty0
@@ -2238,9 +2079,6 @@ An exercise to show the difference between /dev/tty and /dev/tty0:
 Switch to the 2nd console by pressing Ctrl+Alt+F2. Login as root. Type sleep 5; echo tty0 &gt; /dev/tty0. Press Enter and switch to the 3rd console by pressing Alt+F3.
 Now switch back to the 2nd console by pressing Alt+F2. Type sleep 5; echo tty &gt; /dev/tty, press Enter and switch to the 3rd console.
 You can see that tty is the console where process starts, and tty0 is a always current console.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2324,9 +2162,6 @@ excerpt from @MattJohnson's answer on SO
   
   You should almost never need to use these zones.  Instead you should be using a fully named time zone like America/New_York or Europe/London or whatever is appropriate for your location.  Refer to the list here.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 56. Mount cifs Network Drive: write permissions and chown
@@ -2346,9 +2181,6 @@ If the server is sending ownership information, you may need to add the forceuid
 
 sudo mount -t cifs -o username=${USER},password=${PASSWORD},uid=$(id -u),gid=$(id -g),forceuid,forcegid, //server-address/folder /mount/path/on/ubuntu
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 57. Trying to SSH to local VM Ubuntu with Putty
@@ -2362,9 +2194,6 @@ VirtualBox will create a private network (10.0.2.x) which will be connected to y
 This means that you cannot directly access any host of the private network from the host network. To do so, you need some port forwarding. In the network preferences of your VM you can, for example, configure VirtualBox to open port 22 on 127.0.1.1 (a loopback address of your host) and forward any traffic to port 22 of 10.0.2.1 (the internal address of your VM)
 
 This way, you can point putty to Port 22 of 127.0.1.1 and VirtualBox will redirect this connection to your VM where its ssh daemon will answer it, allowing you to log in.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2380,9 +2209,6 @@ ps aux --sort -rss
 
 
 Check here for more Linux process memory usage
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2406,9 +2232,6 @@ rsync -avu --delete &quot;/home/user/A/&quot; &quot;/home/user/B&quot;
 
 Manpage: https://download.samba.org/pub/rsync/rsync.html
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 60. How to move all files and folders via mv command
@@ -2420,9 +2243,6 @@ Tags: linux, command, rename | Score: 182 | Views: 876725 | Answers: 7
 Try with this:
 
 mv /path/sourcefolder/* /path/destinationfolder/
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2473,9 +2293,6 @@ lrwxrwxrwx 1 mj mj 4 Jul 27 08:47 test1 -&gt; test
 
 
 And finally we change the ownership of the link using the -h option.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2533,9 +2350,6 @@ ptrace(PTRACE_DETACH, pid, NULL, NULL);
 
 I've already posted a proof-of-concept script for dumping /proc/$pid/mem on another thread.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 63. Zip everything in current directory
@@ -2586,9 +2400,6 @@ Excluding files can be done via the -x flag. From the man-page:
 
           See -i for more on include and exclude.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 64. Get the chmod numerical value for a file
@@ -2606,9 +2417,6 @@ stat -f &quot;%OLp&quot; &lt;file&gt;
 
 Busybox:
  stat -c '%a' &lt;file&gt;
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2634,9 +2442,6 @@ Any useful use-case?
 
 ssh.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 66. How to make log-rotate change take effect
@@ -2656,9 +2461,6 @@ logrotate -d /etc/logrotate.d/your-logrotate-config
 You may need to be root or a specific user to run this command.
 Or as mentioned in comments, identify the logrotate line in the output of the command crontab -l and execute the command line refer to slm's answer to have a precise cron.daily explanation
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 67. How do I attach a terminal to a detached process?
@@ -2677,9 +2479,6 @@ Then close stdin: call close (0); and open it again: call open ("/tmp/fifo", 060
 Finally, write away (from a different terminal, as gdb will probably hang):
 
 echo blah &gt; /tmp/fifo
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2787,9 +2586,6 @@ If you put all of those to /etc/rc.local and include following at the end, every
 Or a bit simpler alternative which might work better (cache only /home and /usr, only do this if your /home and /usr really fit in RAM):
 (nice find /home /usr -type f -print0 | nice ionice -c 3 wc -l --files0-from - &gt; /dev/null)&amp;
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 69. What is this folder /run/user/1000?
@@ -2806,9 +2602,6 @@ However storing all these files in /tmp is problematic as /tmp is writable by ev
 
 So systemd came along and created /run/user/$uid. This directory is local to the system and only accessible by the target user. So applications looking to store their files locally no longer have to worry about access control.
 It also keeps things nice and organized. When a user logs out, and no active sessions remain, pam_systemd will wipe the /run/user/$uid directory out. With various files scattered around /tmp, you couldn't do this.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2835,9 +2628,6 @@ This feature allows new binary types to be supported, such as MZ executables (wh
 
 Your question stemmed from cross-compilation, albeit in the .NET sense, and that brings up a caveat with binfmt_misc: some configuration scripts misbehave when you try to cross-compile on a system which can run the cross-compiled binaries. Typically, detecting cross-compilation involves building a binary and attempting to run it; if it runs, you're not cross-compiling, if it doesn't, you are (or your compiler's broken). autoconf scripts can usually be fixed in this case by explicitly specifying the build and host architectures, but sometimes you'll have to disable binfmt_misc temporarily...
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 71. Difference between pts and tty
@@ -2855,9 +2645,6 @@ A pty is created by a process through posix_openpt() (which usually opens the sp
 The master part, which is the file descriptor obtained by this process through this call, is used to emulate a terminal. After some initialization, the second part can be unlocked with unlockpt(), and the master is used to receive or send characters to this second part (slave).
 
 The slave part, which is anchored in the filesystem as /dev/pts/x (the real name can be obtained by the master through ptsname()) behaves like a native terminal device (/dev/ttyx). In most cases, a shell is started that uses it as a controlling terminal.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2877,9 +2664,6 @@ Yes, according to man df you can:
 Another way is to use the mount command. Without parameters it lists the currently mounted devices, including their file systems.
 
 In case you need to find out only one certain file system, is easier to use the stat command's -f option instead of parsing out one value from the above mentioned commands' output.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2906,9 +2690,6 @@ As you can see, it points to e.g. libpthread.so.0, not just libpthread.so.
 
 
 The reason for the symbolic link is for the linker. When you want to link against libpthread.so directly, you give gcc the flag -lpthread, and it adds on the lib prefix and .so suffix automatically. You can't tell it to add on the .so.0 suffix, so the symbolic link points to the newest version of the lib to faciliate that
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2946,9 +2727,6 @@ ls -Al | while IFS= read -r string; do echo "$string" |
 
 
 Seriously though, just don't.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2988,9 +2766,6 @@ Another alternative is to use pstree wchich prints the process tree of the user
 
 pstree &lt;username or pid&gt;
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 76. Long line wrapping in Nano
@@ -3021,9 +2796,6 @@ If you have a Mac, like lodeOfCode's answer below, you can always update nano an
 
 
 nano linewrap
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3127,9 +2899,6 @@ Available output columns:
         ZONED  zone model
           DAX  dax-capable device
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 78. Why does /etc/resolv.conf point at 127.0.0.53?
@@ -3169,9 +2938,6 @@ Make your own /etc/resolv.conf file, an actual regular file instead of a symboli
 
 The systemd-resolved configuration files are a whole bunch of files in various directories that get combined, and how to configure them for the second choice aforementioned is beyond the scope of this answer.
 Read the resolved.conf(5) manual page for that.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3220,9 +2986,6 @@ References
 http://www.queryhome.com/15491/whats-happening-kernel-starting-killer-choose-which-process
 https://serverfault.com/a/571326
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 80. Show top five CPU consuming processes with `ps`
@@ -3241,9 +3004,6 @@ ps aux | sort -nrk 3,3 | head -n 5
 If you want something that's truly 'top'esq with constant updates, use watch
 
 watch "ps aux | sort -nrk 3,3 | head -n 5"
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3274,9 +3034,6 @@ Or
 
 killall SCREEN
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 82. How can I look up a username by id in linux?
@@ -3293,9 +3050,6 @@ $ id -nu [number]
 3.17.3-1-ARCH #1 SMP PREEMPT Fri Nov 14 22:56:01 CET 2014 i686 GNU/Linux
 
 I can confirm that it returns a corresponding user name, if one exists, on Arch Linux. I can also confirm that it does not work on Ubuntu when run as a normal user, although I have not tested this as the superuser. It also does not work on Alpine Linux. Maybe a security feature prevents this from working on some systems.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3321,9 +3075,6 @@ I will note, that they can be on separate disks/partitions, /bin must be on the 
 
 For full correctness, some unices may ignore FHS, as I believe it is only a Linux Standard, I'm not aware that it has yet been included in SUS, Posix or any other UNIX standard, though it should be IMHO. It is a part of the LSB standard though.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 84. How do I know if a partition is ext2, ext3, or ext4?
@@ -3346,9 +3097,6 @@ Here, you want to know the format of data in a device file, so you need to pass 
 Given this sample output, the first disk has one partition and the second disk has two partitions. /dev/sda1 is an ext4 filesystem, /dev/sdb1 is an ext2 filesystem, and /dev/sdb2 is some swap space (about 4GB).
 
 You must run this command as root, because ordinary users may not read disk partitions directly: if needed, add sudo in front.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3374,9 +3122,6 @@ lsb_release -a
 
 
 Or do a rpm -qa | grep centos-release or redhat-release for RHEL derived systems
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3407,9 +3152,6 @@ Edit:
 
 Forgot to mention, in upcoming RHEL distributions you should use the new systemctl command to issue poweroff/reboot. As stated in the manpages of reboot and shutdown they are "a legacy command available for compatibility only." and the systemctl method will be the only one safe.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 87. Linux ls to show only file name, date, and size
@@ -3432,9 +3174,6 @@ Or in ksh93:
 command -x stat -c &quot;%y %s %n&quot; -- *
 
 Which will run as many invocations of stat as necessary to work around the limit on the size of the arguments.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3483,9 +3222,6 @@ tony@jabba:/media/sf_name$ ls -l tst.txt
 -rwxrwx--- 1 root vboxsf 2283 Apr  4  2012 tst.txt
 tony@jabba:/media/sf_name$
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 89. Set the default kernel in GRUB
@@ -3501,9 +3237,6 @@ GRUB_DEFAULT=saved
 
 Do the sudo update-grub, reboot, get into your grub menu and select whichever menu or submenu item you need. The choice will be saved every time and then your computer will boot into it automatically. When you manually choose a different entry, that becomes the new default.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 90. How do I find how long ago a Linux system was installed?
@@ -3516,9 +3249,6 @@ sudo tune2fs -l /dev/sda1 **OR** /dev/sdb1*  | grep 'Filesystem created:'
 
 This will tell you when the file system was created.
 * = In the first column of df / you can find the exact partition to use.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3547,9 +3277,6 @@ There are some arguments to decide which timestamp to change (e.g. -a for access
 See man touch for more details.
 
 touch can become handy in combination with cp -u ("copy only when the SOURCE file is newer than the destination file or when the destination file is missing") or for the creation of empty marker files.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3634,9 +3361,6 @@ References
 
 How to detect virtualization at dmo.ca
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 93. What&#39;s the best way to join files again after splitting them?
@@ -3646,9 +3370,6 @@ Tags: linux, command-line, files, iso, split | Score: 135 | Views: 214610 | Answ
 
 **解决方案 / Solution**:
 That's just what cat was made for. Since it is one of the oldest GNU tools, I think it's very unlikely that any other tool does that faster/better. And it's not piping - it's only redirecting output.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3672,9 +3393,6 @@ date -s "2014-12-25 $(date +%H:%M:%S)"
 
 will change the date, but keep the time. See man date for formatting details to construct other combinations: the individual components are %Y, %m, %d, %H, %M, and %S.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 95. How can I find available network interfaces?
@@ -3694,9 +3412,6 @@ If you're on a system where that has been made obsolete, you can use
 
 ip link show
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 96. Setting /proc/sys/vm/drop_caches to clear cache
@@ -3708,9 +3423,6 @@ Tags: linux, virtual-memory | Score: 134 | Views: 307376 | Answers: 2
 It isn't sticky - you just write to the file to make it drop the caches and then it immediately starts caching again.
 
 Basically when you write to that file you aren't really changing a setting, you are issuing a command to the kernel. The kernel acts on that command (by dropping the caches) then carries on as before.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3736,9 +3448,6 @@ Overriding the ACPI DSDT in the kernel. This is sometimes needed to correct for 
 Certain critical error conditions, such as machine check exceptions and kernel oopses.
 Certain serious bugs in the BIOS, UEFI, or other system firmware which the kernel must work around.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 98. ssh-add returns with: &quot;Error connecting to agent: No such file or directory&quot;
@@ -3756,9 +3465,6 @@ or by evaluating the script returned by ssh-agent in your current shell.
 eval &quot;$(ssh-agent)&quot;
 
 I suggest using the second method, because you keep all your history and variables.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3799,9 +3505,6 @@ some useful information about which graphics card is in use
 (mostly repeats glxinfo in a more compact and easy-to-read form, though),
 and it gives you a nice rendering of a rotating triangle.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 100. What&#39;s the difference between /usr/lib/systemd/system and /etc/systemd/system?
@@ -3828,9 +3531,6 @@ Basically, files that ships in packages downloaded from distribution repository 
 
 System-specific units override units supplied by vendors. Using drop-ins, you can override only specific parts of unit files, leaving the rest to vendor (drop-ins are available since the very beginning of systemd, but were properly documented only in v219; see man systemd.unit).
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 101. Systemd service - what is `multi-user.target`
@@ -3850,9 +3550,6 @@ Run Lvl Target Units                        Description
         multi-user.target
 5       runlevel5.target, graphical.target  Set up a gfx multi-user shell
 6       runlevel6.target, reboot.target     Shut down and reboot the system
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3919,9 +3616,6 @@ Linux version 2.6.32.12-0.7-default (geeko@buildhost) (gcc version 4.3.4 [gcc-4_
 
 pretty much the same information as cat /proc/version &amp; uname
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 103. How are &quot;/dev&quot; Linux files created?
@@ -3962,9 +3656,6 @@ There's also a thing called a "named pipe" or "FIFO" (first-in, first-out queue)
 
 
 A file that isn't "special" in any way is called a "regular file". You will occasionally see mention of this in Unix documentation. That's what it means; a file that isn't a device node or a symlink or whatever. Just a normal, every day file with no magical properties.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4075,9 +3766,6 @@ zesty/
 
 Docker , OS requirements
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 105. Why is video tearing such a problem in Linux?
@@ -4092,9 +3780,6 @@ Wayland, which is somewhat unenthusiastically trying to replace X, supports a pe
 
 If you quickly google "wayland video tearing" you'll find more information on everything.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 106. Uploading directories with sftp?
@@ -4107,9 +3792,6 @@ I don't know why sftp does this but you can only recursive copy if the destinati
 
 sftp&gt; mkdir bin
 sftp&gt; put -r bin
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4125,9 +3807,6 @@ sshpass -p 'YourPassword' ssh user@host
 
 
 sshpass also supports passing the keyboard-interactive password from a file or an environment variable, which might be a more appropriate option in any situation where security is relevant. See man sshpass for the details.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4150,9 +3829,6 @@ Given a vm.swappiness of 100, the priorities would be equal (file_prio=200-100=1
 Conversely setting the vm.swappiness to 0 will prevent the kernel from evicting anonymous pages in favour of pages from the file cache. This might be useful if programs do most of their caching themselves, which might be the case with some databases. In desktop systems this might improve interactivity, but the downside is that I/O performance will likely take a hit.
 
 The default value has most likely been chosen as an approximate middleground between these two extremes. As with any performance parameter, adjusting vm.swappiness should be based on  benchmark data comparable to real workloads, not just a gut feeling.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4179,9 +3855,6 @@ ls --full-time
 ls -l --time-style=long-iso
 2024-04-09 08:58
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 110. Creating a user without a password
@@ -4193,9 +3866,6 @@ Tags: ubuntu, users, git, non-root-user | Score: 122 | Views: 450156 | Answers: 
 The --disabled-password option will not set a password, meaning no password is legal, but  login  is still possible (for example with SSH RSA keys).
 
 To create an user without a password, use passwd -d $username after the user is created to make the password empty. Note not all systems allow users with empty password to log in.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4243,9 +3913,6 @@ PING example.com (93.184.216.119) 56(84) bytes of data.
 --- example.com ping statistics ---
 4 packets transmitted, 4 received, 0% packet loss, time 3004ms
 rtt min/avg/max/mdev = 134.621/136.028/139.848/2.252 ms
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4300,9 +3967,6 @@ To get list of users, use getpwent (it will get one user per call).
 
 skill (procps &amp; procps-ng) and killall (psmisc) tools both uses getpwnam library call to parse argument of -u option, and only username will be parsed. pkill (procps &amp; procps-ng) uses both atol and getpwnam to parse -u/-U argument and allow both numeric and textual user specifier.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 113. What are high memory and low memory on Linux?
@@ -4342,9 +4006,6 @@ Every kernel process can also access the user space range if it wishes to. And t
 
 1 Whether the split is 3/1, 2/2, or 1/3 is controlled by the CONFIG_VMSPLIT_... option; you can probably check under /boot/config* to see which option was selected for your kernel.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 114. ssh_exchange_identification: Connection closed by remote host (not using hosts.deny)
@@ -4379,9 +4040,6 @@ This method has helped me many many times in finding issues, be it authenticatio
 
 The main advantage of this method is that it allows you to check the sshd configuration without having to restart the sshd on the default port. Normally this should not interfere with existing SSH-connections, but I've seen it. So this allows one to validate the configuration file prior to - potentially - cutting off ones access to a remote server (for example I have that for some VPS and even for physical servers where I need to pay extra to get out-of-band access to the machine).
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 115. What is difference between User space and Kernel space?
@@ -4406,9 +4064,6 @@ If it is the first one, than does it mean that normal user program cannot have m
 
 For an answer to this, please refer to the excellent answer by wag to What are high memory and low memory on Linux?.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 116. What is &quot;mail&quot;, and how is it navigated?
@@ -4421,9 +4076,6 @@ This page describes the interactive command in detail, and is in fact a fairly t
 
 If there is more than a screenful of messages, then z will
 show the next screenful, and z- will show the previous screenful.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4512,9 +4164,6 @@ Image credits:
 * Boot/Root diskettes image from: https://www.maketecheasier.com/
 * yggdrasil diskette image from: https://yggdrasilblog.wordpress.com/
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 118. &quot;Input/output error&quot; when accessing a directory
@@ -4528,9 +4177,6 @@ Input/Output errors during filesystem access attempts generally mean hardware is
 Type dmesg and check the last few lines of output. If the disc or the connection to it is failing, it'll be noted there.
 
 EDIT Are you mounting it via ntfs or ntfs-3g ? As I recall, the legacy ntfs driver  had no stable write support and was largely abandoned when it turned out ntfs-3g was significantly more stable and secure.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4560,9 +4206,6 @@ To experiment, run tty in a terminal to see what the terminal device is. Let's s
 
 Writing to another terminal is occasionally useful to display a notification; for example the write command does that. Reading from another terminal is not normally done.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 120. What is the benefit of compiling your own linux kernel?
@@ -4589,9 +4232,6 @@ I need to improve performance of x because I am hitting the current limits of th
 
 
 The issue lies in thinking that there's some intrinsic benefit to compiling your own kernel when everything is already working the way it should be, and I don't think that there is.  Though you can spend countless hours disabling things you don't need and tweaking the things that are tweakable, the fact is the linux kernel is already pretty well tuned (by your distribution) for most user situations.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4621,9 +4261,6 @@ mount -t ntfs /dev/sda1  /mnt/
 
 USB devices are usually vfat and Linux are usually ext.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 122. Shell script fails: Syntax error: &quot;(&quot; unexpected
@@ -4637,9 +4274,6 @@ The script does not begin with a shebang line, so the system executes it with /b
 Since dash (like all other shells) is an interpreter, it won't complain until the execution reaches the problematic line. So even if the script successfully started at some point in your testing, it would have aborted once line 68 was reached.
 
 The shebang line must be the very first thing in the file. Since you use bash features, the first line of the file must be #!/bin/bash or #!/usr/bin/env bash.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4660,9 +4294,6 @@ default         192.168.1.1     0.0.0.0         UG    0      0        0 eth0
 
 
 The Iface column in the line with destination default tells you which interface is used.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4697,9 +4328,6 @@ SYNOPSIS
 
 Full manual: https://linux.die.net/man/1/which
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 125. Creating a ram disk on Linux
@@ -4711,9 +4339,6 @@ Tags: linux, ramdisk | Score: 114 | Views: 178020 | Answers: 8
 The best way to create a ram disk on linux is tmpfs. It's a filesystem living in ram, so there is no need for ext2. You can create a tmpfs of 16Gb size with:
 
 mount -o size=16G -t tmpfs none /mnt/tmpfs
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4732,9 +4357,6 @@ mount /dev/cdrom /media/cdrom
 After that command is run, a file whose location on the CD-ROM is /dir/file is now accessible on your system as /media/cdrom/dir/file. When you've finished using the CD, you run the command umount /dev/cdrom or umount /media/cdrom (both will work; typical desktop environments will do this when you click on the “eject” or ”safely remove” button).
 Mounting applies to anything that is made accessible as files, not just actual storage devices. For example, all Linux systems have a special filesystem mounted under /proc. That filesystem (called proc) does not have underlying storage: the files in it give information about running processes and various other system information; the information is provided directly by the kernel from its in-memory data structures.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 127. How to limit network bandwidth?
@@ -4749,9 +4371,6 @@ For a simple script, try wondershaper.
 
 An example from using tc:
 tc qdisc add dev eth0 root tbf rate 1024kbit latency 50ms burst 1540
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5043,9 +4662,6 @@ DYNAMIC SYMBOL TABLE:
 0000000000207220  w   DO .bss   0000000000000008  GLIBC_2.2.5 program_invocation_short_name
 0000000000207240 g    DO .bss   0000000000000008  GLIBC_2.2.5 stderr
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 129. What is this new /run filesystem?
@@ -5061,9 +4677,6 @@ The udev runtime data moved from /dev/.udev/ to /run/udev/. The /run mountpoint 
  
 There is more detail here (now dead, link to archive).
 (1) From thread on the Arch Projects ML
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5081,9 +4694,6 @@ So if you did not make a backup, your only recovery options are:
 On RedHat/CentOS, if your jobs have been triggered before, you can find the cron log in /var/log/cron. The file will help you rewrite the jobs again. 
 Another option is to recover the file using a file recovery tool. This is less likely to be successful though, since the system partition is usually a busy one and corresponding sectors probably have already been overwritten.
 On Ubuntu/Debian, if your task has run before, try grep CRON /var/log/syslog
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5107,9 +4717,6 @@ dbus-send --print-reply --dest=org.freedesktop.DBus  /org/freedesktop/DBus org.f
 Just like qdbus, if --session or no message bus is specified, dbus will send to the login session message bus. So the above will list the services available on the session bus.
 Use --system if you want instead to use the system wide message bus:
 dbus-send --system --print-reply --dest=org.freedesktop.DBus  /org/freedesktop/DBus org.freedesktop.DBus.ListNames
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5144,9 +4751,6 @@ amixer set Master toggle
 Also note that there might be two different percentage scales, the default raw and for some devices a more natural scale based on decibel, which is also used by alsamixer. Use -M to use the latter.
 Finally, if you're interested only in PulseAudio, you might want to check out pactl (see one of the other answers).
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 133. Easy command line method to determine specific ARM architecture string?
@@ -5165,9 +4769,6 @@ rpm --eval '%{_arch}'
 will output the current architecture name (which may be influenced by other parameters, e.g. --target).
 Note that the running architecture may be different from the hardware architecture or even the kernel architecture. It’s possible to run i386 Debian on a 64-bit Intel or AMD CPU, and I believe it’s possible to run armhf on a 64-bit ARM CPU. It’s also possible to have mostly i386 binaries (so the primary architecture is i386) on an amd64 kernel, or even binaries from an entirely different architecture if it’s supported by QEMU (a common use for this is debootstrap chroots used for cross-compiling).
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 134. Does `sl` ever show the current directory?
@@ -5177,9 +4778,6 @@ Tags: linux | Score: 110 | Views: 23222 | Answers: 10
 
 **解决方案 / Solution**:
 As far as I know, the only condition under which sl shows the current directory is when you mistype it as ls.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5209,9 +4807,6 @@ NM_SETTING_WIRELESS_POWERSAVE_ENABLE  (3): enable powersave
 To take effect, just run:
 sudo systemctl restart NetworkManager
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 136. Execute a specific command in a given directory without cd&#39;ing to it?
@@ -5226,9 +4821,6 @@ $ (cd /var/log &amp;&amp; cp -- *.log ~/Desktop)
 
 
 The directory is only changed for that subshell, so you avoid the work of needing to cd - afterwards.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5252,9 +4844,6 @@ sudo -s
 
 and then you can do anything without having to type sudo before every command.
 To exit this sudo -s shell terminal, type exit and you will be returned to the previous shell terminal.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5297,9 +4886,6 @@ On the other side, as you can read in the POSIX manual page of cp, -r behavior  
     * If the -r option was  specified,  the  behavior  is implementation-
       defined.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 139. How to find out if a system uses SysV, Upstart or Systemd initsystem
@@ -5336,9 +4922,6 @@ You can also execute it to find out more:
 init (upstart 0.6.5)
 Copyright (C) 2010 Canonical Ltd.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 140. How to see disk details like manufacturer in Linux
@@ -5368,9 +4951,6 @@ and:
 
 Some options (eg. -r for SCSI) may not work with old kernels as necessary 
 ioctl()´s were not supported.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5406,9 +4986,6 @@ Note: Make sure the "mail" command is present in your system. mailutils package 
 
 Update: There are people (and bug reports for different Linux distributions) reporting that sSMTP will not accept passwords with a 'space' or '#' character. If sSMTP is not working for you, this may be the case.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 142. How can I restart the SSH daemon on Ubuntu?
@@ -5423,9 +5000,6 @@ service ssh restart
 
 
 The service is also controlled by upstart, and not sysvinit. So you'll find it at /etc/init/ssh.conf instead of /etc/init.d/ssh.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5449,9 +5023,6 @@ $ find /sys | grep drivers.*02:00
 That is r8169.
 
 First I need to find coordinates of the device using lspci; then I find driver that is used for the devices with these coordinates.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5479,9 +5050,6 @@ id -Gn
 This last command will yield the same result as executing
 
 groups
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5549,9 +5117,6 @@ Using numeric modes instead of text commands ([ugo][=+-][rwxXst]) is probably mo
 
 Some text variants can come in handy: if you simply want to ensure a file can be executed by anyone, chmod a+x will do that, regardless of what the other permissions are. Likewise, +X adds the execute permission only if one of the execute permissions is already set or the file is a directory; this can be handy for restoring permissions globally without having to special-case files v. directories. Thus, chmod -R ug=rX,u+w,o= is equivalent to applying chmod -R 750 to all directories and executable files and chmod -R 640 to all other files.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 146. What are the alternatives for checking open ports, besides telnet?
@@ -5566,9 +5131,6 @@ nc -zv kafka02 6667
 
 -z = sets nc to simply scan for listening daemons, without actually sending any data to them
 -v = enables verbose mode
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5588,9 +5150,6 @@ Beware that sometimes, you get that error when SSL servers forget to provide the
 Use openssl s_client -showcerts -connect the-git-server:443 to get the list of certificates  being sent.
 Note that the pathname of the certificates bundle may differ depending on operating system. The directory holding the certs sub-directory is given by the command openssl version -d. The actual certificates file in that directory may additionally have a different name.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 148. What does status &quot;active (exited)&quot; mean for a systemd service?
@@ -5606,9 +5165,6 @@ State active (exited) means that systemd has successfully run the commands but t
 If there is you must define it in the unit file by configuring the Type and ExecStart options appropriately according to whether the process you start is the main proces, forks child processes and exits etc.
 
 Check the different systemd man pages or update your question and post the unit file or init script.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5638,9 +5194,6 @@ reclaimed due to items being in use (MemAvailable in
 
 Basically, “buff/cache” counts memory used for data that’s on disk or should end up there soon, and as a result is potentially usable (the corresponding memory can be made available immediately, if it hasn’t been modified since it was read, or given enough time, if it has); “available” measures the amount of memory which can be allocated and used without causing more swapping (see How can I get the amount of available memory portably across distributions? for a lot more detail on that).
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 150. What is kernel ip forwarding?
@@ -5662,9 +5215,6 @@ Enabling ip_forward tells your Linux system to do this.  For it to be meaningful
 When doing routing, security is important and that's where Linux's packet filter, iptables, gets involved.  So you will need an iptables configuration consistent with your needs.
 
 Note that enabling forwarding with iptables disabled and/or without taking firewalling and security into account could leave you open to vulnerabilites if one of the NICs is facing the Internet or a subnet you don't have control over.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5692,9 +5242,6 @@ use Sys::CPUAffinity;
 Sys::CpuAffinity::setAffinity(getpid(), [0]);
 exec $ARGV[0] @ARGV
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 152. Use shared libraries in /usr/local/lib
@@ -5713,9 +5260,6 @@ or to make the change permanent you can add /usr/local/lib to /etc/ld.so.conf (o
 
 If you're still having problems, running ldd [executable name] will show you the libraries it's trying to find, and which ones can't be found.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 153. What is the meaning of 0.0.0.0 as a gateway?
@@ -5727,9 +5271,6 @@ Tags: linux, networking, routing | Score: 101 | Views: 205460 | Answers: 4
 0.0.0.0 has the specific meaning &quot;unspecified&quot;.  This roughly translates to &quot;there is none&quot; in the context of a gateway.  Of course, this assumes that the network is locally connected, as there is no intermediate hop.  The machine will send the packet out that interface as though to a machine connected to that segment, which in Ethernet means the MAC address of the destination host will be used instead of the MAC address of the next hop gateway.
 As a destination, 0.0.0.0/0 is special: if there are no network bits, there can't be anything in the network number either.  So, it's naturally unspecified.  For prefix matching it masks off all bits, so all addresses are within 0.0.0.0/0; for this reason it's used to mean &quot;default gateway&quot; in routing tables.  It is also the least-specific possible route, so selections that prioritize specificity will choose anything else available and match 0.0.0.0/0 as a last resort.
 However, sticking to your question, yes, it does have a special meaning.  It means that the network is locally connected on that interface and no more hops are needed to get to it.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5809,9 +5350,6 @@ Man page for systemd-resolved.service, systemd-resolved
 Man page for resolved.conf, resolved.conf.d
 Man page for systemd-network
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 155. How to run a script with systemd right before shutdown?
@@ -5842,9 +5380,6 @@ After creating the file, make sure to systemctl daemon-reload and systemctl enab
 
 I just got it from systemd IRC, credits are going to mezcalero.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 156. What does the letter &#39;u&#39; mean in /dev/urandom?
@@ -5868,9 +5403,6 @@ Update:
 
 Regarding which came first for Linux, /dev/random or /dev/urandom, @Stéphane Chazelas gave the post with the original patch and @StephenKitt showed they were both introduced simultaneously.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 157. Why is the root directory denoted by a / sign?
@@ -5887,9 +5419,6 @@ A thing to note here is that in the Lear-Siegler ADM-3A terminal in common use d
 
 As for why the root directory is denoted by a single /, it is a convention most likely influenced by the fact that the root directory is the top-level directory of the directory hierarchy, and while other directories may be beneath it, there usually isn't a reason to refer to anything outside the root directory. Similarly the directory entry itself has no name, because it's the boundary of the visible directory tree.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 158. How to remove all the files in a directory?
@@ -5899,9 +5428,6 @@ Tags: linux, directory, rm, recursive | Score: 97 | Views: 531269 | Answers: 14
 
 **解决方案 / Solution**:
 If your top-level directory is called images, then run rm -r images/*. This uses the shell glob operator * to run rm -r on every file or directory within images.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5936,9 +5462,6 @@ One exception to this broad statement is the CPU chip, which has no "driver" per
 The rest of the code in an OS kernel provides generic services like memory management, IPC, scheduling, etc. These services may primarily serve userland applications, as with the examples linked previously, or they may be internal services used by drivers or other intra-kernel infrastructure.
 The one in /boot, loaded into RAM at boot time by the boot loader early in the boot process.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 160. How to display the Linux kernel command line parameters given for the current boot?
@@ -5950,9 +5473,6 @@ Tags: linux, linux-kernel | Score: 96 | Views: 135219 | Answers: 2
 $ cat /proc/cmdline
 root=/dev/xvda xencons=tty console=tty1 console=hvc0 nosep nodevfs ramdisk_size=32768 ip_conntrack.hashsize=8192 nf_conntrack.hashsize=8192 ro  devtmpfs.mount=1 
 $
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5985,9 +5505,6 @@ Turn the automatic updater back on, now that the blockage is cleared:
 
 Select the package unattended-upgrades again.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 162. Create and format exFAT partition from Linux
@@ -6003,9 +5520,6 @@ mkfs.exfat /dev/sdX1
 As for creating the partition in the first place, this is the same as for any other filesystem. Create a partition in your favourite partition manager. If you have an MBR partition table, set the partition type to NTFS (that is, code 7).
 Newer fdisk versions identify the partition type as &quot;Microsoft basic data&quot; (EBD0A0A2-B9E5-4433-87C0-68B6B72699C7, code 11.
 Note, that some distributions only package the fuse module, so you may have to build it yourself.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6029,9 +5543,6 @@ $ sed -e "s/foo/bar/" -e "/FOO/d"
 
 Would first replace foo with bar and then delete every line containing FOO.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 164. What is the difference between procfs and sysfs?
@@ -6049,9 +5560,6 @@ The /proc filesystem was originally designed to publish process information and 
 The sysfs (or /sys filesystem) was designed to add structure to this mess and provide a uniform way to expose system information and control points (settable system and driver attributes) to user-space from the kernel.  Now, the driver framework in the kernel automatically creates directories under /sys when drivers are registered, based on the driver type and the values in their data structures.  This means that drivers of a particular type will all have the same elements exposed via sysfs.
 
 Many of the legacy system information and control points are still accessible in /proc, but all new busses and drivers should expose their info and control points via sysfs.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6079,9 +5587,6 @@ The "threads are implemented as processes" phrase refers to the issue of threads
 Signal handling was another problematic area with the old implementation, this is described in more detail in the paper @FooF refers to in their answer. 
 
 As noted in the comments, Linux 2.4 was also released in 2001, the same year as the book, so it's not surprising the news didn't get to that print.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6122,9 +5627,6 @@ route or the newer (on Linux) ip route - show the routing table status.
 strace (or truss, dtrace or tusc depending on the system) - is a useful tool that shows which system calls the problematic process performs. It also shows error codes (errno) when system calls fail. This information often says enough for understanding the system behavior and solving a problem. Alternatively, using breakpoints on some networking functions in gdb can let you find out when they are made and with which arguments.
 to investigate firewall issues on Linux: iptables -nvL shows how many packets are matched by each rule (iptables -Z to zero the counters). The LOG target inserted in the firewall chains is useful to see which packets reach them and how they have already been transformed when they get there. To get further, NFLOG (associated with ulogd) will log the full packet.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 167. What&#39;s the difference between pkill and killall?
@@ -6142,9 +5644,6 @@ There are other differences as well. The killall command for instance has option
 Note that the killall command on systems descendant from Unix System V (notably Sun's Solaris, IBM's AIX and HP's HP-UX) kills all processes killable by a particular user, effectively shutting down the system if run by root.
 
 The Linux psmisc utilities have been ported to BSD (and in extension Mac OS X), hence killall there follows the "kill processes by name" semantics.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6166,9 +5665,6 @@ Alternatively
 Find and open the key from the key server.
 Copy it's contents into a text file.
 Go to System Tool &gt; Preferences &gt; Software Sources &gt; Authentication &gt; Add key, and select the text file created. Ubuntu 14.04 and later try: Software Center -&gt; Edit -&gt; Software Sources -&gt; Authentication -&gt; Import key file
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6211,9 +5707,6 @@ There is still a time window during which SSH logins are possible yet apt-get
 will not run, but I cannot imagine another solution that can works on the stock
 Ubuntu 16.04 cloud image.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 170. How do I shorten the current directory path shown on terminal?
@@ -6231,9 +5724,6 @@ bob@bob-ubuntu:~/Desktop/Dropbox/School/2017/C/A3/$
 will be trimmed to
 bob@bob-ubuntu:.../A3/$
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 171. Allowing a regular user to listen to a port below 1024
@@ -6247,9 +5737,6 @@ setcap 'cap_net_bind_service=+ep' /path/to/program
 this will work for specific processes. But to allow a particular user to bind to ports below 1024 you will have to add him to sudoers. 
 
 Have a look at this discussion for more.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6271,9 +5758,6 @@ l-wx------ 1 isaac isaac 64 Dec 28 00:56 4 -&gt; /home/isaac/testfile.txt
 Of course, as usual: 0 is stdin, 1 is stdout and 2 is stderr.
 The 4th is an open file (to write) in this case.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 173. show gateway IP address when performing ifconfig command
@@ -6288,9 +5772,6 @@ $ ip route show
 212.13.197.0/28 dev eth0  proto kernel  scope link  src 212.13.197.13
 default via 212.13.197.1 dev eth0
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 174. Shell: how to go to the beginning of line when you are inside a screen?
@@ -6300,9 +5781,6 @@ Tags: linux, gnu-screen, keyboard-shortcuts | Score: 90 | Views: 99378 | Answers
 
 **解决方案 / Solution**:
 Use Ctrl-a a, or change screen's escape keystroke (option -e).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6360,9 +5838,6 @@ append option (i.e.: -a) would end up removing the user from all groups
 before adding them to &quot;newgroup&quot; (i.e.: -G alone means &quot;replace with&quot;).
 One downside to using adduser here though is that you can only specify one group at a time.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 176. How to run a script on screen lock/unlock?
@@ -6396,9 +5871,6 @@ dbus-monitor --session "type='signal',interface='org.gnome.ScreenSaver'" |
 
 
 Just replace echo SCREEN_LOCKED and echo SCREEN_UNLOCKED with what you need.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6445,9 +5917,6 @@ TightVNC
 
 For RDP most Linux systems either already have rdesktop installed or it is available in the package manager. Using rdesktop you only have to enable RDP connections to your Windows system and then you will be able to use RDP for a full GUI Windows console.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 178. How to recover files I deleted now by running rm *?
@@ -6485,9 +5954,6 @@ $ extundelete /dev/&lt;device-file&gt; --restore-all
 
 Instead of --restore-all, you can try options like --restore-file &lt;path&gt; or --restore-directory &lt;path&gt;
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 179. Why can&#39;t Linux usernames begin with numbers?
@@ -6519,9 +5985,6 @@ $ chown -R 1000 /home/1000   # This will first try to map
 
 Adding a user named '0' would just be asking for trouble (UID 0 == root user). However, note that group/user ID arguments can be preceded by a '+' to force their interpretation as an integer.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 180. What is the correct way to view your CPU speed on Linux?
@@ -6544,9 +6007,6 @@ echo &quot;scale=10000; 4*a(1)&quot; | bc -l &amp;
 
 (This command uses bc to calculate pi to 10000 places.)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 181. How to determine the maximum number to pass to make -j option?
@@ -6566,9 +6026,6 @@ make -j$(nproc) is a decent place to start, but you can usually use higher value
 For really fast builds, if you have enough memory, I recommend using a tmpfs, that way most jobs will be CPU-bound and make -j$(nproc) will work as fast as possible.
 Now that high-CPU-count systems are common, and thus the amount of memory available per CPU core is typically lower than it used to be, and many builds now require a lot of memory, the equation is changing. There’s been some discussion of these issues on the Debian development mailing list, starting with this bug asking for a “new option to reduce emitted processors by system memory” in nproc and culminating in a Python script which supports specifying the amount of memory required per core. This will provide a better value for -j if you know how much memory is required. In Debian 13, Ubuntu 25.10, and later (and derivatives), this is packaged as guess-concurrency.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 182. Is it good to make a separate partition for /boot?
@@ -6580,9 +6037,6 @@ Tags: linux, partition, system-installation | Score: 88 | Views: 73794 | Answers
 This is a holdover from &quot;ye olde tymes&quot; when machines had trouble addressing large hard drives.  The idea behind the /boot partition was to make the partition always accessible to any machine that the drive was plugged into.  If the machine could get to the start of the drive (lower cylinder numbers) then it could bootstrap the system; from there the linux kernel would be able to bypass the BIOS boot restriction and work around the problem.  As modern machines have lifted that restriction, there is no longer a fixed need for /boot to be separate, unless you require additional processing of the other partitions, such as encryption or file systems that are not natively recognized by the bootloader.
 Technically, you can get away with a single partition and be just fine, provided that you are not using really really old hardware (pre-1998 or so).
 If you do decide to use a separate partition, just be sure to give it adequate room, say 200mb of space.  That will be more than enough for several kernel upgrades (which consume several megs each time).  If /boot starts to fill up, remove older kernels that you don't use and adjust your bootloader to recognize this fact.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6610,9 +6064,6 @@ excerpt - Wheel on Wikipedia
   control access to the su command, which allows a user to masquerade as
   another user (usually the super user).
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 184. how to redirect output to multiple log files
@@ -6630,9 +6081,6 @@ Accordingly – this will overwrite the files:
 echo test | tee file1 file2 file3
 
 If you want to only append to multiple files, use tee --append file1 file2 or tee -a file1 file2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6666,9 +6114,6 @@ Tasks: 248 total,   3 running, 244 sleeping,   0 stopped,   1 zombie
 KiB Mem:   8186416 total,  6267232 used,  1919184 free,   298832 buffers
 KiB Swap:  8191996 total,        0 used,  8191996 free,  2833308 cached
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 186. Checking if HyperThreading is enabled or not?
@@ -6701,9 +6146,6 @@ L3 cache:              12288K
 Note, however, this technique will fail if any logical processor has been turned off with a simple
 
 echo 0 &gt; /sys/devices/system/cpu/cpuX/online
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6739,9 +6181,6 @@ sudo update-initramfs -u -k all
 # reboot when convenient
 
 credits to https://askubuntu.com/a/7553
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6781,9 +6220,6 @@ $ cat /etc/sysctl.d/10-local.conf
 kernel.dmesg_restrict = 0
 
 If you are on Ubuntu, for release 20.10 onwards there is already a line to persist this setting in /etc/sysctl.d/10-kernel-hardening.conf. After changing the file, to make the changes effective the user either needs to reboot or run sudo service procps restart .
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6841,9 +6277,6 @@ On the one hand, there are situations where sudo is definitely the right tool fo
 
 On the other hand, there are situations like yours, where an automated script requires root permissions to something, for example to make a backup. Now using sudo to work around the root account is not only pointless, it's also dangerous: at first glance rsyncuser looks like an ordinary unprivileged account. But as I've already explained, it would be very easy for an attacker to gain full root access if he had already gained rsyncuser access. So essentially, you now have an additional root account that doesn't look like a root account at all, which is not a good thing.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 190. How to change default new window directory from within the tmux
@@ -6885,9 +6318,6 @@ attach -c /ddd/eee
 
 New windows (or panes) will now start in directory /ddd/eee, regardless of the directory of the current pane.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 191. Disable screen blanking on text console
@@ -6926,9 +6356,6 @@ add the setterm output to /etc/issue since /etc/issue is output on every virtual
 
 Choose one alternative from the above.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 192. How to restrict an SSH user to only allow SSH-tunneling?
@@ -6940,9 +6367,6 @@ Tags: linux, ssh, account-restrictions | Score: 84 | Views: 77258 | Answers: 4
 On the server side, you can restrict this by setting their user shell to /bin/true. This will allow them to authenticate, but not actually run anything since they don't get a shell to run it in. This means they will be limited to whatever subset of things SSH is able to offer them. If it offers port forwarding, they will still be able to do that.
 
 On the client side, you will probably want to connect with the -N. This stops the client from ASKING for a remote command such as a shell, it just stops after the authentication part is done. Thanks to commentors for pointhing this out.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6958,9 +6382,6 @@ cat /sys/class/power_supply/BAT0/power_now
 
 
 This works on kernel 3.8.11 (Ubuntu Quantal mainline generic).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6980,9 +6401,6 @@ export TERM=vt100
 
 
 ps: TERM should be announced via ssh automagically, but in some circumstances this magic fails.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7039,9 +6457,6 @@ References
 
 18.2. NFS Client Configuration - CentOS 5 Deployment Guide
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 196. What is a &quot;loop device&quot; when mounting?
@@ -7055,9 +6470,6 @@ The -o is short for --options.
 And the last thing, if you want to search for &quot;-o&quot; you need to escape the '-'.
 Try:
 man mount | grep &quot;\-o&quot;
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7134,9 +6546,6 @@ And ldd a.out will show the linkage to libtest.so.
 
 Note that I doubt this is how glibc is actually compiled, since it is probably not as portable as glibc itself (see man gcc with regard to the -fPIC and -pie switches), but it demonstrates the basic mechanism.  For the real details you'd have to look at the source makefile.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 198. Changing a file&#39;s &quot;Date Created&quot; and &quot;Last Modified&quot; attributes to another file&#39;s
@@ -7188,9 +6597,6 @@ I was able to touch a file as I mentioned above and it worked as I described. Yo
 Bug 461505 - can't set timestamp on samba shares
 Bug 693491 - Unable to set attributes/timestamps on CIFS/Samba share
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 199. Correctly determining memory usage in Linux
@@ -7210,9 +6616,6 @@ This will cause the free number to be larger than the top RSS sum.
 
 
 There are many other reasons the numbers might not add up. This answer is just trying to make the point that memory management is very complex, and you cant just add/subtract individual values to get total memory usage.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7261,9 +6664,6 @@ wlan0     13 channels in total; available frequencies :
 
 None of these channels are outside of 2.4 GHz. It does not support 5 GHz.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 201. Reply on same interface as incoming?
@@ -7277,9 +6677,6 @@ ip rule add from &lt;interface_IP&gt; table isp2 prio 1
 ip route add default via &lt;gateway_IP&gt; dev &lt;interface&gt; table isp2
 
 The above doesn't require any packet marking with ipfilter.  It works because the outgoing (reply) packets will have the IP address that was originally used to connect to the 2nd interface as the source (from) address on the outgoing packet.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7305,9 +6702,6 @@ To get better visibility into the traffic, you may prefer a hex dump:
 
 od -x &lt; /dev/ttyS0
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 203. Shebang line with `#!/usr/bin/env command --argument` fails on Linux
@@ -7319,9 +6713,6 @@ Tags: linux, scripting, executable, env | Score: 81 | Views: 34305 | Answers: 3
 Looks like this is because Linux (unlike BSD) only passes a single argument to the shebang command (in this case env).
 
 This has been extensively discussed on StackOverflow.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7398,9 +6789,6 @@ schroot.conf manual. Schroot is part of the Debian autobuilder (buildd) project.
 Virtual machine
 If you need complete isolation of the alternate environment, use a virtual machine such as KVM (qemu-kvm ) or VirtualBox.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 205. How to bind USB device under a static name?
@@ -7420,9 +6808,6 @@ udevadm info -a -p  $(udevadm info -q path -n /dev/ttyUSB0)
 
 
 There is a more in depth guide you can read on http://www.reactivated.net/writing_udev_rules.html
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7663,9 +7048,6 @@ SUSE-IBM Software Integration Center                   LINUX
 Tech Lead    
 Public Cloud Architect
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 207. How to safely turn off swap permanently and reclaim the space? (on Debian Jessie)
@@ -7745,9 +7127,6 @@ Encryption note: If your swap partition is encrypted, then you also need to comm
 CLI:
 I will check in VMs if my solution works, then I will share it. In the meantime, see this answer.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 208. Linux LXC vs FreeBSD jail
@@ -7817,9 +7196,6 @@ ezjail – Jail administration framework
 A Brief History of Containers: From the 1970s to 2017
 Docker Considered Harmful - Good article about the security circus around container technologies.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 209. Linux: Kill process based on arguments
@@ -7846,9 +7222,6 @@ $ pkill -f 'sleep 30'
 $ pgrep sleep
 8008
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 210. Need explanation on Resident Set Size/Virtual Size
@@ -7867,9 +7240,6 @@ If you want to see how much memory a process has allocated, one of the best ways
 
 Please note, since you may also be benchmarking runtimes, that valgrind will make your programs very slightly slower (but probably within your tolerances).
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 211. convert a hex string to binary and send with netcat
@@ -7883,9 +7253,6 @@ $ echo '0006303030304e43' | xxd -r -p | nc -l localhost 8181
 
 Thanks to inspiration from @Gilles' answer, here's a Perl version:
 $ echo '0006303030304e43' | perl -e 'print pack &quot;H*&quot;, &lt;STDIN&gt;' | nc -l localhost 8181
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7932,9 +7299,6 @@ Namespaces in operation, part 5: User namespaces.
 
 For now, I'd go with udisks2.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 213. Will Linux start killing my processes without asking me if memory gets short?
@@ -7979,9 +7343,6 @@ You can see if the OOM-Killer is involved by looking at the output of dmesg, and
 [11686.043641] Out of memory: Kill process 2603 (flasherav) score 761 or sacrifice child
 [11686.043647] Killed process 2603 (flasherav) total-vm:1498536kB, anon-rss:721784kB, file-rss:4228kB
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 214. How do I choose a graphics card for Linux?
@@ -8007,9 +7368,6 @@ The advantage to having an open driver is that it will work out of the box in an
 
 If you aren't planning on playing 3D games, either the Intel or AMD drivers are the best.  The AMD driver is more modern than the Intel one, it uses the Gallium3D architecture within Mesa (that's what the g stands for in r600g), but they both get the job done.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 215. Bluetooth won&#39;t turn On on Ubuntu 20.04
@@ -8021,9 +7379,6 @@ Tags: ubuntu, drivers, bluetooth | Score: 78 | Views: 149204 | Answers: 13
 It's a bug: Bluetooth unavailable after updates - Reading Intel version information failed (-110)
 Cold boot as in powering off from the PC's source button (taking electricity off the mother board) worked for me.
 Just shutting down and having the motherboard LEDs on didn't work.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8050,9 +7405,6 @@ calls setup_thread_stack (linux//include/linux/sched.h) for the new process usin
 
 Finally, the POSIX __environ convention is a user-space convention. It has no connection with anything in the Linux kernel. You can write a userspace program without using glibc and without the __environ global and then manage the environment variables however you like. No one will arrest you for doing this but you will have to write your own environment management functions (setenv/getenv) and your own wrappers for sys_exec and it is likely that no one will be able to guess where you put the changes to your environment.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 217. How to create /dev/null?
@@ -8067,9 +7419,6 @@ chmod 666 /dev/null
 
 Use these command to create /dev/null or use null(4) manpage for further help.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 218. How can I write to dmesg from command line?
@@ -8079,9 +7428,6 @@ Tags: linux, command-line, kernel, logs, dmesg | Score: 77 | Views: 84764 | Answ
 
 **解决方案 / Solution**:
 Write to /dev/kmsg (not /proc/kmsg as suggested by @Nils).  See linux/kernel/printk/printk.c devkmsg_writev for the kernel-side implementation and systemd/src/journal/journald-kmsg.c server_forward_kmsg for an example of usage.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8101,9 +7447,6 @@ That said, what your are asking about is more like a fileserver solution than an
 
 If you have Windows boxes on your network, you will want to setup a Samba server, which can share out your files to Linux and Windows boxes alike. Samba3 can also function as an NT4 style domain controller, whereas Samba4 is able to mimic a Windows 2003 style domain controller.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 220. File system compatible with all OSes?
@@ -8117,9 +7460,6 @@ UDF is a candidate. It works out-of-the-box on linux >= 2.6.31, Windows >= Vista
 Note: UDF comes in different versions, which are not equally supported on all platforms, see Wikipedia - Compatibility.
 
 UDF can be created on Linux with the tool mkudffs from the package udftools.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8151,9 +7491,6 @@ autorandr --change --default laptop
 
 Unfortunately my machine doesn't give any udev output when I hotplug my monitor. I'm using the NVIDIA proprietary drivers, so that isn't surprising. So I have bound it to the XF68Display key (Fn-F8) for now, which is almost as good.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 222. How to find all hard links to a given file?
@@ -8184,9 +7521,6 @@ are mentioned on the find command line.
 
 In sum, ls -l counts the . and .. directories as separate hard links but find . -samefile does not.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 223. What&#39;s the difference between poweroff and halt?
@@ -8202,9 +7536,6 @@ Sources:
 https://serverfault.com/questions/191537/shutdown-what-is-difference-between-power-off-and-halt
 http://osdir.com/ml/os.solaris.managers.summaries/2001-10/msg00027.html
 A comment by Peter White
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8235,9 +7566,6 @@ for x in *&quot; &quot;*; do
   y=$(printf %s/ &quot;$x&quot; | tr &quot; &quot; &quot;_&quot;)
   mv -- &quot;$x&quot; &quot;${y%/}&quot;
 done
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8363,9 +7691,6 @@ while [[ $dir == /*/*/* ]]; do
   dir=${dir%/*}
 done
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 226. What is the difference between the following kernel Makefile terms: vmLinux, vmlinuz, vmlinux.bin, zimage &amp; bzimage?
@@ -8412,9 +7737,6 @@ ls -lh /boot/vmlinuz-$(uname -r)
 file /boot/vmlinuz-$(uname -r)
 /boot/vmlinuz-2.6.35-23-generic: Linux kernel x86 boot executable bzImage, version 2.6.35-23-generic (buildd@rosea, RO-rootFS, root_dev 0x6801, swap_dev 0x4, Normal VGA
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 227. Moving Linux install to a new computer
@@ -8451,9 +7773,6 @@ Change the UUID of RAID volumes (not necessary, but recommended to avoid confusi
 See also a step-by-step cloning guide targeted at Ubuntu.
 My current desktop computer installation was cloned from its predecessor by unplugging one of two RAID-1 mirrored disks, moving it into the new computer, creating a RAID-1 volume on the already present disk, letting the mirror resynchronize, and making the changes outlined above where applicable.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 228. What is the difference between kill , pkill and killall?
@@ -8468,9 +7787,6 @@ How pkill and killall work can be seen using ltrace or strace on them. On Linux,
 
 pkill and pgrep use the readproc system call, whereas killall does not. I couldn't say if there's a performance difference: you'll have to benchmark that on your own.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 229. Which process is `/proc/self/` for?
@@ -8483,9 +7799,6 @@ This has nothing to do with foreground and background processes; it only has to 
 ls -l /proc/self
 
 you'll see ls's pid, if you write code which uses /proc/self that code will see its own pid, etc.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8531,9 +7844,6 @@ Match Address 127.0.0.*
 Other clients are still able to connect, but logins will fail because there is no available authentication methods.
 Match arguments and allowed conditional configuration options are documented in  sshd_config man page. Match patterns are documented in ssh_config man page.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 231. Is there any (good) SQLite GUI for Linux?
@@ -8548,9 +7858,6 @@ sudo apt-get install sqlitebrowser
 
 or as Snap package:
 snap install sqlitebrowser
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8623,9 +7930,6 @@ You can confirm that it worked with the following command after rebooting:
 $ cat /sys/kernel/mm/transparent_hugepage/enabled
 always madvise [never]
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 233. Understanding /dev and its subdirs and files
@@ -8650,9 +7954,6 @@ Finally, there are a few other files that you might find under /dev, for traditi
 
 
 ¹ This is actually no longer true under Linux, but this detail only matters to device driver writers.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8754,9 +8055,6 @@ and otherwise truncates the number like bash/mksh.
 
 ¹ That's likely to change in the next version though. Now that the development of ksh93 has been taken over as a community effort outside of AT&amp;T, that behaviour, even though encouraged somehow by POSIX, is being reverted
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 235. linux + g++: command not found
@@ -8777,9 +8075,6 @@ apt-get install build-essential
 
 In Void Linux, it's xbps-install -Su base-devel, which provides m4, autoconf, automake, bc, binutils, bison, ed, libfl-devel, flex, libgcc-devel, kernel-libc-headers, glibc-devel, isl, cloog, mpfr, libmpc, gcc, libstdc++-devel, gcc-c++, gettext-libs, gettext, groff, libtool, make, patch, pkg-config, texinfo, unzip, and xz.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 236. Access to original contents of mount point
@@ -8794,9 +8089,6 @@ ls /mnt/root/home/foo/.ssh
 
 
 As long as you use --bind (as opposed to --rbind), you get a clone of the mount without the stuff mounted on top of it.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8826,9 +8118,6 @@ of this helper program; chances are you did not intend to run this program.
 The linker is used to run dynamically-linked programs. When you run chmod, the kernel effectively runs the equivalent of /lib64/ld-linux-x86-64.so.2 /bin/chmod, as you did manually; the latter works even if the chmod binary isn’t executable because the check for execute permission is done by the execve() system call on the file that it is being told to execute and in the /lib64/ld-linux-x86-64.so.2 /bin/chmod shell command line, the path passed by the shell to execve() is /lib64/ld-linux-x86-64.so.2, not /bin/chmod, and it’s the one that is checked for execute permission, /bin/chmod is only passed as an argument to the linker. It's the same thing in /bin/sh ./some-script where ./some-script doesn't need to be executable.
 You’ll find much more detail on this in the excellent How programs get run: ELF binaries article.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 238. How to find which process is regularly writing to disk?
@@ -8852,9 +8141,6 @@ Total DISK READ: 0.00 B/s | Total DISK WRITE: 0.00 B/s
  1033 be/4 root        0.00 B/s    0.00 B/s  0.00 %  0.00 % [flush-8:0]
    10 be/4 root        0.00 B/s    0.00 B/s  0.00 %  0.00 % [ksoftirqd/1]
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 239. Is there any reason why I get ^[[A when I press up arrow at the console login screen?
@@ -8870,9 +8156,6 @@ You're probably running sh which outputs the raw keycodes generated when you pre
 A more advanced shell like bash intercepts these keycodes and does something with them. E.g. show the last command in its history.
 
 To fix your issue, type bash to enter a bash shell. Then use the up/down arrow commands (note, your history would start afresh in the new shell).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8891,9 +8174,6 @@ It is sometimes possible to do a power cycle on branch of the USB bus where the 
 The 1-1 should be adjusted to your configuration. You can see to which part of the USB tree your device is plugged by running lsusb -t before ejecting it.
 
 You can find detailed information on the linux-usb mailing-list, this thread for example.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8936,9 +8216,6 @@ Another viable solution would be to install the requisite libraries on the new h
 
 As with many things in the U&amp;L universe, this is a cat with many skins, two of which are outlined above.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 242. How to start a windows partition from the Grub command line
@@ -8964,9 +8241,6 @@ In the command line grub mode  ls will list the hard drive partitions, help list
 
 Once you have set the root correctly you can ls / to view files and directories to find the correct path to the windows boot manager if it is not in the default location.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 243. Finding files that use the most disk space
@@ -8986,9 +8260,6 @@ UPDATE These days I usually use a more readable form (as Jay Chakra explains in 
 Sometimes, eg. when you have lots of mount points in the current directory,  instead of using -x or multiple --exclude=PATTERN, it is handier to mount the filesystem on an unused mount point (often /mnt) and work from there.
 
 Mind you that when working with large (NFS) volumes, you can cause a substantial load on the storage backend (filer) when running du over lots of (sub)directories. In that case it is better to consider setting quota on the volume.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9091,9 +8362,6 @@ Save the file and exit the editor.
 
 This SO answer suggests a way to have it run only once but I have never used it so I can't vouch for it.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 245. cp -L vs. cp -H
@@ -9134,9 +8402,6 @@ $ cp -rL subdir subdir-with-L
 $ list subdir-with-L
 -rw-rw-r-- 14   file  
 -rw-rw-r-- 14   link
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9314,9 +8579,6 @@ And more SambaCry: The Linux Sequel to WannaCry.
 
 P.S. The commit fix in the SAMBA github project appear to be commit 02a76d86db0cbe79fcaf1a500630e24d961fa149
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 247. fork: retry: Resource temporarily unavailable
@@ -9326,9 +8588,6 @@ Tags: linux, fork | Score: 72 | Views: 270452 | Answers: 5
 
 **解决方案 / Solution**:
 This could be due to some resource limit, either on the server itself (or) specific to your user account. Limits in your shell could be checked via ulimit -a. Esp check for ulimit -u max user processes, if you have reached max processes, fork is unable to create any new and failing with that error. This could also be due to swap/memory resource issue
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9353,9 +8612,6 @@ MATCH
 
 The if condition is fulfilled if grep returns with exit code 0 (which means a match). The ! exclamation mark will negate this.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 249. Can we get compiler information from an elf binary?
@@ -9374,9 +8630,6 @@ objdump -s --section .comment /path/binary
 
 
 I just realized I ignored the rest of your question. Flags aren't generally saved anywhere; they would be in a comment section most likely, but I've never seen that done. There's a spot in the COFF header for a timestamp, but there's no equivalent in ELF, so I don't think the compile time is available either
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9419,9 +8672,6 @@ for is a shell keyword
 $ type nosuchthing
 -bash: type: nosuchthing: not found
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 251. [V2EX] Gnome 桌面下截图上传到 imgur 的 extension
@@ -9444,9 +8694,6 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9474,9 +8721,6 @@ d@develop:~/test$ sar -n DEV 1 | awk '/IFACE/ &amp
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 255. [V2EX] 使用 auto-cpufreq 平衡 Linux 性能功耗
@@ -9488,9 +8732,6 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9522,9 +8763,6 @@ rsync --delete-before -d -H -O --progress /tmp/empty/ 2026-04-02/
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9560,9 +8798,6 @@ wifi B 由于是香港专线，可以自由访问谷歌等网站，无需翻墙�
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 260. [V2EX] 115 网盘如何多端稳定挂载？
@@ -9584,9 +8819,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 261. [V2EX] Linux 桌面环境 orWM 推荐
@@ -9598,9 +8830,6 @@ RT ，当前在用 kde plasma ，但是感觉设置项太多，我也不喜欢 Q
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9616,9 +8845,6 @@ Linux Kernel 6.8
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9639,9 +8865,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 264. [V2EX] nfs mv 的操作是原子的么？ A 节点 move， B 节点要么完全可见，要么完全不可见？
@@ -9651,9 +8874,6 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9665,9 +8885,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 266. [V2EX] ubuntu 上有没有基于 OpenGL 的原生 3d 游戏
@@ -9677,9 +8894,6 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9692,9 +8906,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 268. [V2EX] 求推荐 Ubuntu 好用的 ssh 工具
@@ -9705,9 +8916,6 @@ N/A
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 269. [V2EX] ubuntu 26.04 有人体验了吗, 有国内的可用镜像吗
@@ -9717,9 +8925,6 @@ N/A
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9743,9 +8948,6 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9775,9 +8977,6 @@ vscode gpu 加速已经送了，不然显存要炸
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 273. [V2EX] vmware17 安装 ubuntu22.04.5，最后一步报错
@@ -9788,9 +8987,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 274. [V2EX] 求 Ubuntu 台式机指纹 USB 识别器推荐
@@ -9800,9 +8996,6 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9835,9 +9028,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 277. [V2EX] ubuntu 用 vbetool dpms off 了再 on 后，显示乱码
@@ -9847,9 +9037,6 @@ N/A
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9863,9 +9050,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 279. [V2EX] Linux 安装完系统后默认是安装好显卡驱动吗？
@@ -9875,9 +9059,6 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9892,9 +9073,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 281. [V2EX] 各大镜像站不再提供 Debian12 下载？
@@ -9906,9 +9084,6 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9941,9 +9116,6 @@ N/A
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 284. [V2EX] Debian 龙芯 移植进度
@@ -9956,9 +9128,6 @@ binutils_2.45.50.20251209-1_loong64.changes ACCEPTED into unstable Debian FTP Ma
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9984,9 +9153,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 287. [V2EX] Debian 13 “trixie” released
@@ -10011,9 +9177,6 @@ N/A
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 289. [V2EX] debian 12 的体验真的很糟糕
@@ -10023,9 +9186,6 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -10042,9 +9202,6 @@ chmod +w /opt/debian_custom/isolinux/txt.c
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -10063,9 +9220,6 @@ vncserver 搭建成功了，且普通用户能正常登录桌面环境，但是�
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 292. [V2EX] 我成功申请成为 Debian 正式成员， id 是 atzlinux
@@ -10075,9 +9229,6 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -10092,9 +9243,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 294. [V2EX] 真心求教 Debian 双网卡如何指定出入站
@@ -10108,9 +9256,6 @@ A 网卡有公网 ip 可以联通 B 网卡没有公网 ip
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 295. [V2EX] 现在的 gnome 这么难用了吗
@@ -10123,8 +9268,5 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---

@@ -34,9 +34,6 @@ See blue arrow in screen shot below
 When you've found the handle, you can identify the process by looking at the Image and/or PID column.
 You can then try to close the application as you normally would, or, if that's not possible, just right-click the handle and kill the process directly from there. Easy peasy!
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 2. What are the Windows A: and B: drives used for?
@@ -66,9 +63,6 @@ So largely the reason for starting the hard drive at C is for backwards compatib
 
 For Windows specifically, it's worth mentioning that you can use A: and B: as the names for volumes, be it a flash drive or an internal hard drive.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 3. How can I display the contents of an environment variable from the command prompt in Windows 7?
@@ -84,9 +78,6 @@ To send those variables to a text file enter the command set &gt; filename.txt
 Related
 
 How to list global environment variables separately from user-specific environment variables?
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -155,9 +146,6 @@ I did not set any settings around Active Hours or the Reboot Options.
 DO NOT click the 'Install now' button within the Windows Update UI unless you're ready to install and reboot. Once the updates are installed, there is no stopping Windows from deciding to reboot.
 Windows will nag you with Toasts, Action Center alerts and banners across your screen. As long as you don't install the updates you're fine (but do do them eventually.)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 5. &quot;directory junction&quot; vs &quot;directory symbolic link&quot;?
@@ -182,9 +170,6 @@ The difference between a directory symbolic link and a file symbolic link is sim
 
 It should also be noted that creating a symbolic link requires special privilege (by default, only available to elevated processes) whereas creating a junction only requires access to the file system.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 6. How do I run multiple commands on one line in PowerShell?
@@ -196,9 +181,6 @@ Tags: windows, command-line, powershell | Score: 603 | Views: 893171 | Answers: 
 Use a semicolon to chain commands in PowerShell:
 
 ipconfig /release; ipconfig /renew
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -245,9 +227,6 @@ Workaround 1
 
 If this is still not helping to search for new updates, use WSUSOffline to get all the updates.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 8. What is the home directory on Windows Subsystem for Linux?
@@ -281,9 +260,6 @@ Previously, in 2018, The root Linux path was related to which distribution you h
 %LOCALAPPDATA%\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs
 
 but with the files stored directly on the NTFS file system.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -345,9 +321,6 @@ NOTE:  If you make the newpath absolute, you'll be able to move link without bre
 Option 2. (using a tool):  Another GREAT alternative is a free handy utility I've been using for years called &quot;Link Shell Extension&quot;.  LSE is free and you can find it here (or Google for it): http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html
 LSE allows you to create symlinks, hardlinks, junctions, smartcopies, smartclones, smart mirrors, smart moves, splices, multiple sources, and bunch of other stuff I found too confusing to read, frankly.  But, it's a brilliant free product that creates a Windows Explorer context menu that allows you right-click on your LINK-TARGET folder then drag it to where you'd like to create the actual link. You can of course rename the link to anything you'd like.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 10. How to check if a binary is 32- or 64-bit on Windows?
@@ -379,9 +352,6 @@ The signature is usually further ahead in MZ files.
 The relevant values are 0x8664 for a 64-bit executable and 0x014c for a 32-bit one (64 86 and 4c 01 respectively when adjusted for endianness, but any decent hex editor will automatically handle endianness when you search for a hex value). There are a lot more possible values, but you probably won't ever encounter any of these, or be able to run such executables on your Windows PC.
 Full list of machine types, along with the rest of .exe specifications, can be found in Microsoft PE and COFF Specification Machine Types section.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 11. Create/rename a file/folder that begins with a dot in Windows?
@@ -395,9 +365,6 @@ To create/rename on windows explorer, just rename to .name. - The additional dot
 To create a new file begins with a dot, on command prompt:
 
 echo testing &gt; .name
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -419,9 +386,6 @@ runas /noprofile /user:Administrator cmd
 
 to start a command shell as a administrator
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 13. How do I exit telnet?
@@ -439,9 +403,6 @@ Since ^X is  CtrlX, try Ctrl] for ^].
 
 You should then enter the telnet console, where you can enter quit to leave telnet.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 14. Windows SSH: Permissions for &#39;private-key&#39; are too open
@@ -455,9 +416,6 @@ You locate the file in Windows Explorer, right-click on it then select "Properti
 Change the owner to you, disable inheritance and delete all permissions. Then grant yourself "Full control" and save the permissions. Now SSH won't complain about file permission too open anymore.
 
 It should end up looking like this:
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -482,9 +440,6 @@ $client.Credentials =  Get-Credential
 
 A standard windows credentials prompt will pop up. The credentials you enter there will be used to download the file. You only need to do this once for all the time you will be using the $client object.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 16. How can I free up drive space from the Windows installer folder without killing Windows?
@@ -508,9 +463,6 @@ Adobe Reader can fail to update after running PatchCleaner.
 
 
 NOTE: as @ Feb-2016 version 1.4.1.0 is out that has a fix to allow customisable filters to exclude adobe reader from being incorrectly detected.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -581,9 +533,6 @@ Also, prefer to download the software and updates/upgrades directly from vendor 
 1 Microsoft now publishes the Windows 10 install media so you can legally download and write to an 8GB or larger flash drive for free. You still need a valid license, but you don't need a separate recovery disk for the basic operating system any more.
 2 This is a good time to point out I have softened my approach somewhat. Today, most &quot;infections&quot; fall under the category of PUPs (Potentially Unwanted Programs) and browser extensions included with other downloads. Often these PUPs/extensions can safely be removed through traditional means, and they are now a large enough percentage of malware that I may stop at this point and simply try the Add/Remove Programs feature or normal browser option to remove an extension. However, at the first sign of something deeper — any hint the software won't just uninstall normally — and it's back to repaving the machine.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 18. How to rename the User folder in Windows 10?
@@ -618,9 +567,6 @@ You may find you have to restart instead of just logging out and logging back in
 Environment variables (info)
 Some applications create env vars with the user profile path fully expanded, so it's advisable to check for these and reboot if any needed fixing.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 19. Rebooting Ubuntu on Windows without rebooting Windows?
@@ -654,9 +600,6 @@ Restart-Service LxssManager
 net stop LxssManager
 net start LxssManager
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 20. How can I delete a symbolic link in Windows?
@@ -669,9 +612,6 @@ Be very careful.
 If you have a symbolic link that is a directory (made with mklink /d) then using del will delete all of the files in the target directory (the directory that the link points to), rather than just the link.
 SOLUTION: rmdir on the other hand will only delete the directory link, not what the link points to.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 21. How to delete directories with path/names too long for normal delete
@@ -683,9 +623,6 @@ Tags: windows, file-management | Score: 433 | Views: 568440 | Answers: 25
 Use the 7-Zip File Manager to delete them.  
 
 If you are still having trouble, ensure that you utilize Shift+Delete inside the 7-Zip File Manager. Otherwise, Windows tries to move them to the Recycle Bin (which will fail again).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -708,9 +645,6 @@ C:\&gt;type c.txt
 hi
 bye
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 23. Mouse pointer moving on arrow keys pressed in Windows?
@@ -724,9 +658,6 @@ Microsoft Paint
 (classic Win32 one)
 Apparently it's got a feature that allows moving the mouse pointer using arrow keys, and for some reason sometimes it doesn't stop listening when the window loses focus, so Paint was running in the background since I often use it and it was still doing its job of moving the mouse.
 This also explains why the problem can persist after a reboot: when you reboot Windows while Paint is running, Windows will automatically &quot;save your work&quot; and reopen Paint at system boot, causing the bug again!
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -742,9 +673,6 @@ Control panel, windows update, installed updates, sort by name, &quot;Update for
 (Alternative: open CMD and enter wusa /uninstall /KB:3035583)
 When you're offered the same again via Windows Update remember to hide it.
 After uninstalling, if remnants of the update's files are still in Windows\System32\GWX, just delete that directory, although first you may need to take ownership of it.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -767,9 +695,6 @@ Via WMI:
 wmic process
 
 (you can query remote machines as well with /node:ComputerOrIP, and there are a LOT more ways to customize this command: link)
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -804,9 +729,6 @@ Regarding the sudo part of your question, if you need more priviliges, you can f
 runas /user:Administrator cmd
 rmdir c:\test /s /q
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 27. How to read ext4 partitions on Windows?
@@ -825,9 +747,6 @@ Ext2Read works well. It can also open &amp; read disk images ( eg: Wubi disk ima
   folders. It can recursively copy
   entire folders. It can also be used to
   view and copy disk and file
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -864,9 +783,6 @@ If you are using Windows 7, you will need to install version 4 or newer of the W
 
 You may find that doing a $ProgressPreference = "silentlyContinue" before Invoke-WebRequest will significantly improve download speed with large files; this variable controls whether the progress UI is rendered.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 29. Keyboard language keeps changing in Windows 10
@@ -897,9 +813,6 @@ to bring up the On Screen Keyboard might help temporarily.
 
 Also note that it's possible to disable this so that no key combination will change the language - change the keys to "Not Assigned" - see answer below from Mort for more info
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 30. Why does virtualbox only have 32-bit option, no 64-bit option on Windows 7?
@@ -922,9 +835,6 @@ For AMD x64: AMD SVM (Secure Virtual Machine) is enabled
 
 Hyper-V (or any other form of bare-metal hypervisor) is not installed
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 31. How to pin either a Shortcut or a Batch file to the new Windows 7, 8 and 10 Taskbar and start menu?
@@ -936,9 +846,6 @@ Tags: windows-7, windows-8, windows-10, taskbar, shortcuts | Score: 344 | Views:
 Create a shortcut to your batch file.
 Get into shortcut property and change target to something like: cmd.exe /C "path-to-your-batch".
 Simply drag your new shortcut to the taskbar. It should now be pinnable.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1008,9 +915,6 @@ Someone at Microsoft has a sense of humour for this one. If you're woken at nigh
 
 Set the time to something more sociable (7PM is fine) and disable the machine's ability to wake itself up for the task.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 33. Menu select item stuck on screen after context or command menu has closed
@@ -1025,9 +929,6 @@ The same effect can be achieved without changing the screen resolution or color 
 
 Changing the screen resolution or color depth also resets the desktop window manager, so it's always been a workaround for the bug when it appears. Either of these solutions will fix the problem.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 34. How can I visualize the file system usage on Windows?
@@ -1037,9 +938,6 @@ Tags: windows, file-management, disk-space, community-faq | Score: 321 | Views: 
 
 **解决方案 / Solution**:
 WinDirStat is a port of KDirStat for Linux. It's free, lightweight, small (650kb installer), fast, portable (as a standalone .exe file), and works on multiple versions of Windows. Besides showing folders and percentages (for the entire disk or any subset of folders), it also displays an (optional) graphical usage map. Works well with NTFS Junction folders, avoiding counting folders multiple times.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1053,9 +951,6 @@ Use the Get-Command commandlet passing it the name of the executable. It populat
 
 # ~&gt; (get-command notepad.exe).Path
 C:\WINDOWS\system32\notepad.exe
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1080,9 +975,6 @@ According to this page you can use the setx command:
 
 
 setx is built into Windows 7, but for older versions may only be available if you install the Windows Resource Kit
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1218,9 +1110,6 @@ Wupdmgr - Takes you to Microsoft Windows Update
 
 Thanks to The New Tech for the original forum posting.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 38. Can I completely disable Cortana on Windows 10?
@@ -1307,9 +1196,6 @@ Get-appxprovisionedpackage –online | where-object {$_.packagename –notlike "
 
 Further resource: Delete Windows 10 Apps and Restore Default Windows 10 Apps
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 39. Using cd command in Windows command line, can&#39;t navigate to D:\
@@ -1337,9 +1223,6 @@ C:\Users\coneslayer&gt;e:
 
 e:\Software&gt;
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 40. How to move windows that open up offscreen?
@@ -1361,9 +1244,6 @@ Now just use the mouse  to place the window where you want.
 
 If you are using a non-English version of Windows, the "R" and "M" menu choices will probably be different.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 41. How to quickly move current window to another Task View / desktop in Windows 10?
@@ -1379,9 +1259,6 @@ https://github.com/Eun/MoveToDesktop
 
 
 You can also move windows by using WIN+ALT+Left/Right or change the shortcut as needed.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1427,9 +1304,6 @@ goto s
 
 This will spawn huge numbers of processes untill the machine grinds to a halt (The code is untested but looks viable)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 43. How to automatically reload modified files in Notepad++
@@ -1441,9 +1315,6 @@ Tags: windows, notepad++, text-editors | Score: 295 | Views: 247822 | Answers: 6
 You can disable the confirmation in the settings:
 
 Settings -&gt; Preferences -&gt; MISC. -&gt; Update silently
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1457,9 +1328,6 @@ Using the append redirector ">>" resolves the issue where an existing file is de
 
 echo $null &gt;&gt; filename
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 45. How do I make Windows 10&#39;s File Explorer open &quot;This PC&quot; by default?
@@ -1472,9 +1340,6 @@ As of build 9926 (at least - it may have been an earlier build), this is configu
 
 Open Explorer and go to View, then click Options (or Change folder and search options). In General tab you can change Open File Explorer to This PC
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 46. How can I reduce the consumption of the `vmmem` process?
@@ -1484,9 +1349,6 @@ Tags: windows-10, memory, docker, resources | Score: 273 | Views: 569293 | Answe
 
 **解决方案 / Solution**:
 Daniiel B is on the money. To turn off Vmmem simply go into Powershell or whatever terminal you like to use under admin rights and enter the command wsl --shutdown, when your done with playing in wsl1/2.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1531,9 +1393,6 @@ To make it not interact with the user, you can redirect the output to a file:
 
 START /B program &gt; somefile.txt
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 48. How do I change the language of all Powerpoint slides at once?
@@ -1566,9 +1425,6 @@ Probably because I also did changed Editing Language:
 
 Review → Language → Set Proofing Language... → Language Preferences → Choose Editing Languages.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 49. How can I check the temperature of my CPU in Windows?
@@ -1582,9 +1438,6 @@ Actually this information is given to OS by the BIOS, but you will need an appli
 Realtemp
 CPU thermomether
 Core Temp
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1618,9 +1471,6 @@ cup all -y
 
 Note: -y will only work with 0.9.8.33+.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 51. Why is Google so much faster than a hard-drive search?
@@ -1632,9 +1482,6 @@ Tags: windows, hard-drive, windows-search, google-search | Score: 265 | Views: 4
 Google is not searching the internet: it is searching an index. Google has huge server farms which are constantly scanning and indexing the internet. This process takes a lot of time, just like the search of your unindexed hard drive. In Windows 7, there is an option to index your hard drives. This process takes some time at first but once it is up and running the results of a search will be instantaneous.
 
 If you want to know more about how the Google search works you can read Google's article "How Search Works" or read the article "How Stuff Works: How Google Works".
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1662,9 +1509,6 @@ If executing in PowerShell, be sure to include '.exe' to distinguish from any 'w
 C:\&gt; where.exe where.exe
 C:\Windows\System32\where.exe
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 53. Windows equivalent of the Linux command &#39;touch&#39;?
@@ -1688,9 +1532,6 @@ Edit based on comments by Lumi and Justin: put this in a batch file, eg. touch.c
 
 This works even if the file is not in the current directory (tested on Windows 7).
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 54. How to search inside files on Windows 7?
@@ -1710,9 +1551,6 @@ If you click on the Advanced button in Indexing Options and go to the File Types
 Or you can just do a normal search, and after the search is finished you can click on the "File Contents" button under the "Search again in" field (which is located after the end of the search results list, if you scroll to the bottom).
 
 Based on this page, the "File Contents" option won't always show up - only when the folder being searched is not marked for file content indexing; in that case, file contents are supposedly searched automatically, without having to specify this option explicitly.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1740,9 +1578,6 @@ Check this video for a demo.
 
 [tip credit]
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 56. Kill a process which says &quot;Access denied&quot;
@@ -1756,9 +1591,6 @@ Kill a protected process?
 http://processhacker.sourceforge.net/index.php
 
 Works on Windows Server without admin rights! Yammie! :)
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1932,9 +1764,6 @@ you can see that the avgNetHub.sys driver causes a lof of DPC usage
 
 The name indicates that this driver is part of AVG anti virus software. So update the software or remove it if you see this in your trace.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 58. How do I set system environment variables in Windows 10?
@@ -1957,9 +1786,6 @@ Then on the left side click About and select System info at the bottom.
 In the new Control Panel window that opens, click Advanced system settings on the left.
 
 Now in the new window that comes up, select Environment Variables... at the bottom.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -1988,9 +1814,6 @@ if "%~1"=="-FIXED_CTRL_C" (
    GOTO :EOF
 )
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 60. How to compare the differences between two PDF files on Windows?
@@ -2011,9 +1834,6 @@ scoop bucket add extras
 scoop install extras/diffpdf
 
 This does not require administrator privileges on your account, so it can be installed on externally managed systems (e.g. work computers).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2064,9 +1884,6 @@ Start » Run... (or hit Win+R)
 Type: regedit
 In Windows Vista and above, UAC will pop up, click &quot;Yes&quot;.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 62. PowerShell equivalent to the Unix `which` command?
@@ -2087,9 +1904,6 @@ This was asked and answered on Stack Overflow: Equivalent of *Nix 'which' comman
   "`nNew-Alias which get-command" | add-content $profile
   
   The `n at the start of the last line is to ensure it will start as a new line.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2112,9 +1926,6 @@ U:\a\network\path&gt; popd
 C:\a\local\path&gt; REM the U: drive has been deleted
 
 C:\a\local\path&gt;
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2157,9 +1968,6 @@ netstat -ban
 
 This will provide a list of connections made with the process id of each process.  Go to Task Manager, and select View/Select Columns and enable PID (Process Identifier).  Look for the PID of iexplore.exe in the list returned by netstat -ban  This will reveal the proxy ip and port.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 65. PowerShell equivalent of curl
@@ -2176,9 +1984,6 @@ more detail:
 
 https://discoposse.com/2012/06/30/powershell-invoke-restmethod-putting-the-curl-in-your-shell/
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 66. Typing “python” on Windows 10 (version 1903) command prompt opens Microsoft store
@@ -2190,9 +1995,6 @@ Tags: windows-10, command-line, python, cmd.exe, unattended | Score: 229 | Views
 Fixed it by removing it automatically on the settings page.  Under Apps and Features, there are an application execution aliases.
 
 I am running the latest 1903 update.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2216,9 +2018,6 @@ Update:  with the release of Windows 10 version 1803 (the April 2018 Update), Mi
 
 Use my sign-in info to automatically finish setting up my device and reopen my apps after an update or restart.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 68. Change default code page of Windows console to UTF-8
@@ -2234,9 +2033,6 @@ Go to [HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\Autorun]
 Change the value to @chcp 65001&gt;nul
 
 If Autorun is not present, you can add a New String
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2277,9 +2073,6 @@ Windows Registry Editor Version 5.00
 
 To use this, save it in a text file and change the extension from .txt to .reg. Then whenever it comes back, you can just double click it and restart or sign out.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 70. Disable &quot;These files might be harmful to your computer&quot; warning?
@@ -2307,9 +2100,6 @@ If you are using a DNS name (i.e. FQDN) to map the network drive, adding the IP 
 When adding an IP address, you can use wildcards like so: 192.168.1.*
 When adding a DNS name (i.e. FQDN), you can use wildcards like so: *.example.com
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 71. What are CLOSE_WAIT and TIME_WAIT states?
@@ -2324,9 +2114,6 @@ CLOSE_WAIT indicates that the remote endpoint (other side of the connection) has
 TIME_WAIT indicates that local endpoint (this side) has closed the connection.
 
 The connection is being kept around so that any delayed packets can be matched to the connection and handled appropriately.  The connections will be removed when they time out within four minutes. See http://en.wikipedia.org/wiki/Transmission_Control_Protocol for more details.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2448,9 +2235,6 @@ Basically, this works great. But I never found the time to write something that 
 
 In addition to the DLL injection problem, there is also a focus-stealing method which I didn't cover in the implementation on Google Code. A co-worker actually did some additional research and covered that method. The problem was discussed on SO: https://stackoverflow.com/questions/7430864/windows-7-prevent-application-from-losing-focus
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 73. Why are there directories called Local, LocalLow, and Roaming under \Users\&lt;username&gt;\AppData?
@@ -2463,9 +2247,6 @@ Roaming is the folder that would be synchronized with a server if you logged int
 Local is the folder that is specific to that computer - any information here would not be synchronized with a server. This folder is equivalent in Windows XP to C:\Documents and Settings\User\Local Settings\Application Data.
 LocalLow is the same folder as local, but it has a lower integrity level. For example, Internet Explorer 8 can only write to the LocalLow folder (when protected mode is on).
 This document from Microsoft (&quot;Managing Roaming User Data Deployment Guide&quot;) has a long explanation for what these three folder areas are and how they are used, as well as the changes implemented between Windows XP and Vista (Windows 7 retains the Vista structure).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2522,9 +2303,6 @@ and set its value to 1.
 More information in the article
 How to Disable Web Search Results in Start Menu on Windows 11.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 75. How to delete a file in Windows with a too long filename?
@@ -2544,9 +2322,6 @@ rmdir the_dir_to_delete
 This works because robocopy internally uses the Unicode-aware versions of Win32 functions, with the \\?\ prefix for file paths; those functions have a limit of 2¹⁶-1 (32,767) characters instead of 259.
 
 You may need to go through this process more than once to get rid of all of the files.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2570,9 +2345,6 @@ ESC = clear selection
 Make sure you press 'Assign' after each change you make otherwise it won't take effect.
 
 Last note: Beware if you use ESC or Ctrl+V in vim, or in any other app.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2639,9 +2411,6 @@ Further Reading
 An A-Z Index of the Windows CMD command line - An excellent reference for all things Windows cmd line related.
 mklink - Create a symbolic link to a directory or a file, or create a hard file link or directory junction.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 78. &quot;This file came from another computer...&quot; - how can I unblock all the files in a folder without having to unblock them individually?
@@ -2653,9 +2422,6 @@ Tags: windows, security, ntfs | Score: 209 | Views: 301626 | Answers: 15
 If you download a .ZIP and unzip it, the individual files will be marked as the same zone as the .ZIP.  Almost every time I have a folder full of "blocked" files, this is how I got them.
 
 Before unzipping, click the Unblock button on the .ZIP.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2671,9 +2437,6 @@ C:\&gt; notepad somefile.txt
 
 
 And, no extra software required.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2710,9 +2473,6 @@ following command:
 
 powercfg -hibernate off
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 81. How do I view the contents of a PFX file on Windows?
@@ -2727,9 +2487,6 @@ Some options to view PFX file details:
 Open a command prompt and type: certutil -dump &lt;path to cert&gt;
 Install OpenSSL and use the commands to view the details, such as: openssl pkcs12 -info -in &lt;path to cert&gt;
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 82. How to access Windows folders from Bash on Ubuntu on Windows
@@ -2741,9 +2498,6 @@ Tags: windows-10, bash, shell, windows-subsystem-for-linux | Score: 202 | Views:
 You'll find the Windows C:\ structure at /mnt/c/ in the Bash environment.
 
 Therefore, my Documents folder is at /mnt/c/Users/Ben/Documents/.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2758,9 +2512,6 @@ I've been using licecap in various Super&nbsp;User answers. It's dead simple to 
 
 
 On Windows 8.1 and hdpi displays, you'll need to turn off per app display scaling to get it to work normally without turning off global display scaling. I have a walkthrough on it here (Fixed as of version 1.26.)
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2795,9 +2546,6 @@ This is one of many answers posted here. Feel free to try other people's suggest
 Method for Creator's update
 Check out this answer.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 85. How can I make the Windows VPN route selective traffic (by destination network)?
@@ -2817,9 +2565,6 @@ This example will make a persistent (it's not necessary to run the command after
 
 More about this at http://technet.microsoft.com/en-us/library/bb878117.aspx
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 86. Why is &#39;ping&#39; unable to resolve a name when &#39;nslookup&#39; works fine?
@@ -2836,9 +2581,6 @@ Flush DNS resolver cache : ipconfig /flushdns
 Renew DNS client registration and refresh DHCP leases : ipconfig /registerdns
 Flush routing table : route /f
 (Caution: this will remove all your routes and gateways until you restart!)
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -2858,9 +2600,6 @@ As mentioned by Itai Bar-Haim in the comments, and Thee Gamefanatic said in thei
 Microsoft has a thorough deep dive into Secure Boot and how it works available on this blog:
 https://blogs.technet.microsoft.com/dubaisec/2016/03/14/diving-into-secure-boot/
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 88. Remote Desktop intermittently freezing
@@ -2879,9 +2618,6 @@ Services\Client&quot; /v fClientDisableUDP /d 1 /t REG_DWORD
 After that, close and reopen all your RDP sessions on your client computer to restart the Remote Desktop Client (mstsc.exe, aka Microsoft Terminal Services Client) application.
 I'm waiting for a final fix to this issue.
 Follow-up: I am not sure, but it looks like fixed in 21H1 (both client and server must run 21H1 or higher). For me I no longer see freezes without the disable UDP workaround.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3189,9 +2925,6 @@ Image source Windows 10 Is Watching: Should You Be Worried?
 Disclaimer
 I am not affiliated with 10 Privacy Fixer or O&amp;O ShutUp10.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 90. On my Windows machine, I had a folder with a name of four dots that acted like some kind of rabbit hole - how did that happen?
@@ -3216,9 +2949,6 @@ So it could be that one of your programs:
 always uses \\?\ to access files, 
 accidentally tried to create a folder named .... – but it's not really possible to know for sure after the fact.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 91. How to access linux/Ubuntu files from Windows 10 WSL?
@@ -3235,9 +2965,6 @@ IMPORTANT: Spelunking through the Windows filesystem to access Linux files has a
 So how does one access Linux files using Windows tools (e.g. notepad, VS/VScode, etc.)? Previously, you couldn't, but starting in Windows 10 1903 we (finally!) expose your distros' filesystems to Windows via a P9 fileserver. We've also published an in-depth video discussing how this works! You can also read a summary of this new feature in this blog post
 
 Look forward to hearing how you get on with this feature. If you find any problems, please file issues on the WSL GitHub repo here: https://github.com/Microsoft/wsl.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3279,9 +3006,6 @@ Total Commander
 Integrate TrID
 Integrate TrIDNet
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 93. How can I prevent a policy-enforced screen lock in Windows?
@@ -3291,9 +3015,6 @@ Tags: windows, screensaver, security-policy | Score: 192 | Views: 754710 | Answe
 
 **解决方案 / Solution**:
 If Windows Media Player is still installed, you can play a video on loop and minimize it (the sample "Wildlife" videos work fine for this).  By default, as long as a video is playing, the screen won't lock.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3312,9 +3033,6 @@ You can search for the "Associated Handles" using the searchbox (circled in red)
 
 
 As an example, in the image below I could not delete my Eclipse directory. Searching for the Eclipse associated handles showed that the adb.exe had a handle to the directory. After ending the adb process, I could then delete the Eclipse directory.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3343,9 +3061,6 @@ Expand-Archive out.zip
 Directory
 For both tools, you can use a file or directory for the input.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 96. How to run a batch file in a completely hidden way?
@@ -3368,9 +3083,6 @@ Example: Invisible.vbs &quot;Kill.vbs ME.exe&quot;
 Solution 2:
 Use a command line tool to silently launch a process : Quiet, hidecon or hideexec.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 97. Apostrophes and double quotes don&#39;t show up until I type the next letter
@@ -3389,9 +3101,6 @@ Click the "Keyboards and Languages" tab
 Click "Change Keyboards..."
 AT THIS POINT MAKE SURE YOU ARE USING "English (United Kingdom) - US" as the default input language, meaning you set the keyboard to US, not US-international
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 98. Why does 64-bit Windows need a separate &quot;Program Files (x86)&quot; folder?
@@ -3408,9 +3117,6 @@ The main reason is to make 32-bit applications that don't even know 64-bit syste
 
 The simplest solution to this is consistently separate directories. Really the only alternative is to require every 64-bit application to "hide" its executable files somewhere a 32-bit application wouldn't look, such as a bin64 directory inside that application. But that would impose permanent ugliness on 64-bit systems just to support legacy applications.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 99. Why does the /winsxs folder grow so large, and can it be made smaller?
@@ -3425,9 +3131,6 @@ DISM /online /cleanup-Image /spsuperseded
 
 
 Must be executed from an elevated command prompt
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3466,9 +3169,6 @@ data. So, the freeware is a perfect
 tool for Data Recovery Wizard to
 recover files from a backup disk.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 101. How does Windows know if a program is not responding?
@@ -3482,9 +3182,6 @@ An application gets the events from a queue provided by Windows.
 If the application doesn't poll the eventqueue for a while (5 seconds), for example when doing a long calculation, then Windows assumes that the application is hung and alerts the user.
 
 To avoid that applications should push expensive calculations to worker threads or split up processing and make sure the queue gets polled regularly.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3518,9 +3215,6 @@ There is also NotMyFault
 
   Notmyfault is a tool that you can use to crash, hang, and cause kernel memory leaks on your Windows system. It’s useful for learning how to identify and diagnose device driver and hardware problems, and you can also use it to generate blue screen dump files on misbehaving systems.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 103. How can I clear the output from Window&#39;s Command Prompt using a keyboard shortcut?
@@ -3531,9 +3225,6 @@ Tags: windows, command-line, keyboard-shortcuts | Score: 179 | Views: 692160 | A
 **解决方案 / Solution**:
 NO, But you can use CLS command to clear the whole screen, Esc (Escape) key will clear the input line.
 In addition, pressing Ctrl + C will move the cursor to a new blank line.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3559,9 +3250,6 @@ Software-induced corruption can often be cleaned up by using Windows' disk error
 
 But especially for cheaper and/or heavily-used drives, bad flash memory is very likely. Don't use this drive for important files anymore.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 105. How to disable Ctrl+Shift keyboard layout switch (for the same input language) in Windows?
@@ -3574,9 +3262,6 @@ You were very close to the solution of your problem ;)
 In Windows XP, Vista or 7:
 Control Panel -&gt; Regional and Language Options -&gt; Languages tab -&gt; Details...
 There, you can edit the hotkeys to change input languages. If you press the Change Key Sequence... button, you will be able to change (disable) the hotkey which switches keyboard layouts (that Ctrl+Shift combination you mentioned).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3620,9 +3305,6 @@ Try creating new shortcuts to the EXEs and see if they appear as expected.
 
 Try clearing Windows' icon cache and see if that corrects the icons. For that, see this existing SU question: Refresh Icon Cache Without Rebooting
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 107. Change name of Virtual Desktop in Windows 10
@@ -3633,9 +3315,6 @@ Tags: windows-10, virtual-desktop, virtual-desktop-manager | Score: 177 | Views:
 **解决方案 / Solution**:
 It seems at this time, you can not rename the virtual desktops in Windows 10. It is a feature that I would love to have though.
 EDIT: It seems you can now rename virtual desktops.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3652,9 +3331,6 @@ You can use Offline NT Password Editor to reset the password.
 
 Detailed instructions on using any of the 3 are available over here.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 109. How to disable the screen orientation hotkeys in Windows (XP)?
@@ -3668,9 +3344,6 @@ I have not tested on AMD/ATI graphics, but I know for a fact that all Intel driv
 Simply go in to the configuration tool of your driver and look under a section called hotkeys and disable it.
 
 For Intel:
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3715,9 +3388,6 @@ Update January 2022:
 The language settings are now found in
 Settings &gt; Time &amp; Language &gt; Language.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 111. Is there a convenient way to edit PATH in Windows 7?
@@ -3744,9 +3414,6 @@ There is also the older (but still useful) and more light-weight Path Editor. (N
 
 
   Path Editor is a small utility that makes path management very straightforward with its intuitive user interface and drag-and-drop simplicity. Path Editor can clean your path of missing and duplicate entries with a single click of the mouse.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3783,9 +3450,6 @@ You can also add the following to your .wslconfig (located in your Windows profi
 [experimental]
 sparseVhd=true
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 113. How to run a batch file without launching a &quot;command window&quot;?
@@ -3806,9 +3470,6 @@ The second parameter of oShell.Run is intWindowStyle value indicating the appear
 
 The reference is here http://msdn.microsoft.com/en-us/library/d5fk67ky.aspx
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 114. How do I paste the Windows clipboard into my PuTTY session, using only the keyboard?
@@ -3824,9 +3485,6 @@ From PuTTY documentation:
 
 Pasting is done using the right button (or the middle mouse button, if you have a three-button mouse and have set it up; see section 4.11.2). (Pressing Shift-Ins, or selecting ‘Paste’ from the Ctrl+right-click context menu, have the same effect.) When you click the right mouse button, PuTTY will read whatever is in the Windows clipboard and paste it into your session, exactly as if it had been typed at the keyboard.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 115. How do I remove Candy Crush Saga from Windows 10?
@@ -3838,9 +3496,6 @@ Tags: windows-10, uninstall | Score: 171 | Views: 134542 | Answers: 8
 I was able to uninstall simply by right-clicking on the app in the Start Menu and selecting uninstall.
 
 Typing Get-AppxPackage -Name king.com.CandyCrushSaga into PowerShell confirmed it is completely gone from the system, not just from the start menu.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3868,9 +3523,6 @@ Settings --&gt; System --&gt; Power &amp; Sleep --&gt; Screen [1 minute]
 
 Source: https://answers.microsoft.com/en-us/windows/forum/windows_10-hardware-winpc/windows-10-multiple-display-windows-are-moved-and/2b9d5a18-45cc-4c50-b16e-fd95dbf27ff3
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 117. What is a &quot;Magic Packet&quot; for waking a computer?
@@ -3887,9 +3539,6 @@ Wake on Pattern Match is a superset of the previous. It will cause the card to w
 
 If you don't want/need your computer to be woken up from anywhere else, you can disable both of those options.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 118. Notepad++ is unable to load langs.xml, why?
@@ -3903,9 +3552,6 @@ Go to the installation folder for Notepad++ and rename langs.xml to langs.xml.ba
 also replace this file in the folder C:\users\(user)\appdata\roaming\notepad++
 You will want to then compare the langs.xml to langs.xml.bad and see if there is anything legitimate that you want back.
 If you are missing the langs.model.xml file, you can download the current version from the master branch of the official github repo.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3934,9 +3580,6 @@ Click the Synchronize button on the Window Properties dialog.  This will show th
 On the Window Properties dialog, select the Process tab
 Click the Process ID link.  This will show you the process (In my Win + R case: EXPLORER)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 120. Windows 10 - How to move window to other monitor by using keyboard shortcuts?
@@ -3950,9 +3593,6 @@ I solved it by unchecking the box which you can see in the following screenshot.
 Go to Control Panel &gt; Ease of Access Center &gt; Make the Keyboard Easier to Use
 Then search for the setting &quot;Make it easier to manage windows&quot; and un-check the option &quot;Prevent windows from being automatically arranged when moved to the edge of the screen&quot;
 After unchecking this option, it works again.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -3982,9 +3622,6 @@ The items were listed here in this section:
 
 
 Maybe this will help someone.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4022,9 +3659,6 @@ from the Size value when viewing the properties window.
 
 Source: What's The Difference Between Size And Size On Disk In Windows Folder Properties.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 123. VT-x is not available, but is enabled in BIOS
@@ -4047,9 +3681,6 @@ dism.exe /Online /Disable-Feature:Microsoft-Hyper-V
 
 
 Afterwards, reboot the PC and try VirtualBox again.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4074,9 +3705,6 @@ Afterwards, right-click the app you'd like to run without administrative privile
 
 In some cases - small amount 0.1% of programs may ask twice about UAC prompt.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 125. What does CTRL+WIN+SHIFT+B do in Windows?
@@ -4086,9 +3714,6 @@ Tags: windows, windows-10, keyboard-shortcuts | Score: 165 | Views: 530893 | Ans
 
 **解决方案 / Solution**:
 The Ctrl+Shift+Win+B key sequence will restart your graphics driver.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4103,9 +3728,6 @@ HDTune works on Windows 7 too.
 
 
 A blog-post reference.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4172,9 +3794,6 @@ Inside WDG – Localization Process – W10FG
 Localizability Testing - Globalization | Microsoft Docs
 What is Pseudo-Localization?
 A brief and also incomplete history of Windows localization | The Old New Thing
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4395,9 +4014,6 @@ To activate Windows Photo Viewer in Windows 10, visit this article on HowToGeek.
 To download default wallpapers from every Windows version, visit this article on XDA.
 To download every Bing wallpaper in 4K, visit this page on GitHub.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 129. AltGr randomly stops working on windows 10
@@ -4411,9 +4027,6 @@ The issue happens when you open a RDP connection. Just bring the RDP window in f
 The issue will disappear on all other windows too
 
 Source: How to Fix Alt Gr Key Not Working.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4442,9 +4055,6 @@ pdftk. FOSS power tool. Command line only. Windows, Mac, Linux, FreeBSD. Windows
 
 
 There are also a lot of commercial tools.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4495,9 +4105,6 @@ DISKPART&gt; list partition
 After that you should be able to convert to dynamic disk.
 Usually I re-purpose drives so I don't worry about data loss, but back up your data and use a desktop.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 132. How can the font size be changed in Notepad++?
@@ -4511,9 +4118,6 @@ Ctrl and NUMPAD +/NUMPAD - or mouse wheel to zoom in/out
 Edit: Or to achieve exactly what you asked for...
 
 Settings > Style Configurator. Under Font Style you can set the font and size
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4544,9 +4148,6 @@ Customer Experience Improvement Program states
   Customer Experience Improvement Program, this job collects and sends
   usage data to Microsoft. However, it is set to run even if opted out
   Siuf (under Feedback)
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4616,9 +4217,6 @@ Further reading
 
 The Old New Thing: Practical Development Throughout the Evolution of Windows by Raymond Chen (Principal Software Design Engineer at Microsoft).
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 135. See available drives from Windows CLI?
@@ -4640,9 +4238,6 @@ if probably the easiest one. Doesn't need administrative privileges, doesn't ret
 If you want to use it in a script, then wrap it in for /f with the skip=1 option:
 
 for /f "skip=1 delims=" %%x in ('wmic logicaldisk get caption') do @echo.%%x
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4676,9 +4271,6 @@ ftype &quot;No_Extension&quot;=
 assoc &quot;No_Extension&quot;\DefaultIcon=
 assoc .=
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 137. What is Windows&#39; equivalent of the &quot;which&quot; command in Unix? Is there an equivalent PowerShell command?
@@ -4698,9 +4290,6 @@ And for PowerShell, explicitly add the .exe suffix:
 PS C:\&gt;where.exe ping
 C:\Windows\System32\PING.EXE
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 138. Windows Linux Subsystem - Accessing Files outside of Ubuntu
@@ -4715,9 +4304,6 @@ What I've been doing as a developer is to host projects on my d: and point the l
 
 Make sure you update your Windows builds periodically as they seem to be fixing a lot of issues with each build, especially around sym-links and crossing FS boundaries between Linux/Windows.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 139. How to prove the authenticity of a screenshot?
@@ -4729,9 +4315,6 @@ Tags: windows, screen-capture, image-processing | Score: 156 | Views: 73561 | An
 You cannot prove that. They were on your PC, fully under your control for some time. You could have tampered with them.  Therefore you cannot prove that you did not tamper with them.
 
 If you need to set up a legally safe solution then look for an independent third party and a way to have them store information in such a way that you can only trigger a store or read (e.g., a screenshot on a Citrix server to a write-once location).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4787,9 +4370,6 @@ Method 2: 49m, 57m: average: 53 minutes
 
 Wow, method 2 is nearly three times faster than method 1! I'll be updating my deletestuff.bat!
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 141. How do I disable Aero Shake in Windows 7?
@@ -4808,9 +4388,6 @@ Here's a picture of the Group Policy Editor, with the setting highlighted:
 
 Another option is to edit a key in the registry. If you don't have Group Policy Editor for some reason (lower end Windows 7 edition), this might be your only option. There's a downloadable reg file that will handle this automatically from the How-To Geek.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 142. What Tiling Window Manager for Windows do you recommend?
@@ -4820,9 +4397,6 @@ Tags: windows, window-manager, awesome-wm | Score: 156 | Views: 136682 | Answers
 
 **解决方案 / Solution**:
 bug.n is nice, and Open Source. :-)
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4844,9 +4418,6 @@ Actually, things are a bit complicated (as usual). There is also%USERPROFILE%, w
 
 The values of these variables, and which one is right for you, will depend on the Windows version and any changes by an administrator, as their values may be different (see e.g. the question Difference between profile and home path ).
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 144. Hex editors for Windows?
@@ -4856,9 +4427,6 @@ Tags: windows, hex-editor | Score: 154 | Views: 306981 | Answers: 9
 
 **解决方案 / Solution**:
 Free Hex Editor (frhed), small and fast.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4876,9 +4444,6 @@ WMIC path win32_process get Caption,Processid,Commandline
 If you want to dump the output to a file (makes it a bit easier to read), use the /OUTPUT switch:
 
 WMIC /OUTPUT:C:\Process.txt path win32_process get Caption,Processid,Commandline
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -4949,9 +4514,6 @@ Create and execute the following .reg file:
 [EDIT3] Microsoft might have finally disabled this in its
 latest versions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 147. Windows 10 Search not loading, showing blank window
@@ -4995,9 +4557,6 @@ Restart Explorer.Exe or PC and allgood
 
 Source How to Disable Bing in the Windows 10 Start Menu
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 148. How can I unzip a .tar.gz in one step (using 7-Zip)?
@@ -5022,9 +4581,6 @@ You could also do it "in one step" by opening the file in the 7-zip GUI: Open th
 
 There's a long running thread here of people asking/voting for one-step handling of tgz and bz2 files. The lack action thus far indicates it's not going to happen until someone steps and contributes meaningfully (code, money, something).
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 149. Is it safe to delete from C:\Windows\Installer?
@@ -5037,9 +4593,6 @@ No, it's not. Windows Installer uses that to cache installation files for anythi
 
 Since Windows Update can also deploy Windows Installer patches, you could also prevent your machine from receiving Windows and Office updates.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 150. Windows 10 &quot;Enable NTFS long paths policy&quot; option missing
@@ -5049,9 +4602,6 @@ Tags: windows, windows-10, ntfs, filenames, windows-10-v1607 | Score: 149 | View
 
 **解决方案 / Solution**:
 The value has moved from NTFS directly into Local Computer Policy &gt; Computer Configuration &gt; Administrative Templates &gt; System &gt; Filesystem in the RTM version of the Version 1607.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5093,9 +4643,6 @@ Usage (from command line or script)
 
 %cdMe%
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 152. Setting and using variable within same command line in Windows cmd.exe
@@ -5133,9 +4680,6 @@ cmd /v /c &quot;set g=com.agroup&amp;&amp; set a=anArtifact&amp;&amp; set v=1.1.
 
 Instead of having to replace group, artifact (used 2 times) and version in a long and complex command line, you can edit them at the beginning of said command. It is clearer/easier to manipulate and change the parameter values.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 153. Ubuntu crashes on windows: 0x80040326 Wsl error
@@ -5147,9 +4691,6 @@ Tags: windows, ubuntu, windows-subsystem-for-linux | Score: 147 | Views: 37397 |
 I had a same problem, but just solved it.
 Update your wsl system.
 wsl --update
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5182,9 +4723,6 @@ One more detail: if you want to delete the "Windows Live Call" entry, use:
 
 [-HKEY_CLASSES_ROOT\.wlcshrtctv2\LiveCall\ShellNew]
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 155. How do you shutdown or restart a Windows computer over a Remote Desktop connection?
@@ -5203,9 +4741,6 @@ shutdown /r /t 0
 ...to shutdown:
 
 shutdown /s /t 0
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5237,9 +4772,6 @@ Remember to duplicate the % characters (%%f) in batch files.
 PowerShell
 A working PowerShell equivalent is Measure-Object -line — some additional formatting is required though, e.g. a directory listing for simplicity:
 (ls | Measure-Object -line).Lines
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5273,9 +4805,6 @@ As pointed out in a comment to the question by Matteo Italia, one mitigative str
 
 As a bit of an aside, this is pretty much why SATA (particularly, SATA without drive-level ERC) is often discouraged for RAID (especially RAID levels with redundancy, which among the standard ones is all except RAID 0); the long timeout periods and poor error handling can easily cause a whole device to be thrown out of the array for a single bad sector, which the RAID controller could handle just fine if redundancy exists and the storage controller simply knows that this is the problem. SAS was designed for large storage arrays, and thus with the expectation that there will be problems on various drives occasionally, which led to it being designed to handle the case of a single problematic drive or I/O request gracefully even if the drive doesn't. Problematic disks are not very common in consumer systems simply because those tend to not have many disks installed, and the ones that are installed virtually never have redundancy; since SATA aimed to replace PATA/IDE not SCSI (the latter being the niche SAS aimed for), it is likely that its error handling features and demands (or guarantees) were considered adequate for its intended use case.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 158. Map capslock to control in Windows 10
@@ -5290,9 +4819,6 @@ $kbLayout = 'HKLM:\System\CurrentControlSet\Control\Keyboard Layout';
 New-ItemProperty -Path $kbLayout -Name &quot;Scancode Map&quot; -PropertyType Binary -Value ([byte[]]$hexified);
 
 Run it as Administrator and reboot.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5331,9 +4857,6 @@ Write access is also required for the folder the .bat script is in (as it genera
 
 Also, please note that the file extension for the compressed file must be .zip. Attempts to use another extension may result in a script error. Instead, generate the .zip file and rename it.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 160. How can I mass rename files?
@@ -5353,9 +4876,6 @@ It isn't a command line tool, but they do have a command line version if you rea
 I've used the GUI version a lot, and it is very powerful, very fast and extremely easy to use.
 
 Oh, and it is FREE for personal use.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5464,9 +4984,6 @@ sc queryex group= ""    - Enumerates active services not in a group
 sc query type= interact - Enumerates all interactive services
 sc query type= driver group= NDIS     - Enumerates all NDIS drivers
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 162. Keyboard shortcuts to arrange Chrome tabs on Windows?
@@ -5477,9 +4994,6 @@ Tags: windows, google-chrome, keyboard, keyboard-shortcuts | Score: 140 | Views:
 **解决方案 / Solution**:
 Ctrl+Shift+PgUp
 Ctrl+Shift+PgDn
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5497,9 +5011,6 @@ setx modifies the value permanently, which affects all future shells, but does n
 
 See here for an example: http://batcheero.blogspot.com/2008/02/set-and-setx.html
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 164. Delete all files from a folder and its sub folders
@@ -5510,9 +5021,6 @@ Tags: windows, script, powershell, batch-file, vbscript | Score: 139 | Views: 55
 **解决方案 / Solution**:
 Short and sweet PowerShell.  Not sure what the lowest version of PS it will work with.
 Remove-Item c:\Tmp\* -Recurse -Force
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5541,9 +5049,6 @@ Now press Change in the top under Owner and write system in the text field
 Press OK to all dialogs
 
 Source
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5619,9 +5124,6 @@ reagentc /boottore
 
 Reboot the computer and do your stuff in Windows RE (eg. enter CMD and run some tools)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 167. Where does Putty store known_hosts information on Windows?
@@ -5631,9 +5133,6 @@ Tags: windows, ssh, putty, known-hosts | Score: 138 | Views: 202114 | Answers: 3
 
 **解决方案 / Solution**:
 Putty stores known hosts under a registry key:  HKEY_CURRENT_USER\SoftWare\SimonTatham\PuTTY\SshHostKeys.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5661,9 +5160,6 @@ Note: QEMU has 2 operating modes:
 it can work as an emulator, this is the mode explained above
 it can work as virtualization software with the help of KVM if the guest architecture is compatible with the host's and if the VT instruction is present of course.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 169. How to open a .tar.gz file in Windows?
@@ -5678,9 +5174,6 @@ You can use 7-zip to untar the .tar file as well.
 Right-click the file
 Select 7-zip -> Extract Here / Extract To
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 170. How do I install a VSIX file in Visual Studio?
@@ -5692,9 +5185,6 @@ Tags: windows, visual-studio-2010, visual-studio | Score: 136 | Views: 417791 | 
 VSIX is a Visual Studio extension installer.  You must have Visual Studio 2010 or newer in order to install them, but you should be able to install it by double-clicking the .vsix file.  Alternatively you should be able to install it from within the VS Extension Manager (Tools->Extension Manger)
 
 See more about VSIX files at Quan To's Visual Studio Extensibility blog
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5715,9 +5205,6 @@ for /f "delims=" %d in ('dir /s /b /ad ^| sort /r') do rd "%d"
 
 This works because rd will not remove a directory that contains files.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 172. How can I open a command prompt in current folder with a keyboard shortcut?
@@ -5727,9 +5214,6 @@ Tags: windows, command-line, keyboard-shortcuts, autohotkey | Score: 133 | Views
 
 **解决方案 / Solution**:
 Press Alt+D, type cmd and press Enter. For more details see blog post here.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5762,9 +5246,6 @@ Here's a tutorial that may help you to achieve your "ultimate aim":
 
 Merge all CSV or TXT files in a folder in one worksheet
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 174. Run a script on start up on Windows 10
@@ -5778,9 +5259,6 @@ The startup folder is still there and functions as normal.
 To access it, press Windows+R, then type shell:startup.
 
 You should be able to do what you were previously doing in Windows 7 from there.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5802,9 +5280,6 @@ UPDATE #2:
 In addition to wake timers, peripheral devices can also wake your computer. See Rosdi's answer for network interfaces. It reminded me of something I had to change recently as my computer was waking again when peripherals were attached. First I disconnected the mouse, but it turned out to be the keyboard.
 Open the Device Manager and expand Keyboards - or whatever your problematic device category is - and find the suspect, e.g. &quot;HID Keyboard Device&quot;. Right-click that and select Properties, then go to the Power Management tab and uncheck &quot;Allow this device to wake the computer&quot;.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 176. Change default action on connecting a USB device
@@ -5819,9 +5294,6 @@ Microsoft explains all about autoplay here.
 Open AutoPlay by clicking the Start button , and then clicking Control Panel. In the search box, type autoplay, and then click AutoPlay. 
 In the list next to the device or type of media, click the new action you want to use.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 177. Display the taskbar clock on multiple screens in Windows?
@@ -5831,9 +5303,6 @@ Tags: windows, windows-8, taskbar, clock | Score: 132 | Views: 196308 | Answers:
 
 **解决方案 / Solution**:
 You can't display the clock on both taskbar. It is possible to drag your primary taskbar to the second monitor providing they are unlocked first.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -5892,9 +5361,6 @@ useradd --create-home --shell /usr/bin/bash --user-group --groups  adm,dialout,c
 Then set the user as the default using the /etc/wsl.conf as mentioned above.
 If you've already created the user, or are using a different distribution, as @ndemou points out, make sure to also add the user either to a group that is in sudoers or directly to sudoers via visudo.  See the answers to this question for additional details.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 179. How can I shrink a Windows 10 partition?
@@ -5932,9 +5398,6 @@ If Disk Management complains that “There is not enough space available on the 
 
 I have later found similar instructions at other places, all of them mentioning only these 3 items.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 180. How to add command line options to shortcut?
@@ -5951,9 +5414,6 @@ Have you tried to add in the Target field
 
 Only the program path and name need to be enclosed in quotes.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 181. Unable to install fonts on Windows 10
@@ -5963,9 +5423,6 @@ Tags: windows, fonts, windows-10, uac | Score: 129 | Views: 170795 | Answers: 2
 
 **解决方案 / Solution**:
 After a week of trying everything. The answer as weird as it sounds is to enable the windows firewall. I know, makes no sense right? It's not connected to font settings, however once "On" I was able to fix my issue with installing fonts on windows 10 and without an error message!
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6010,9 +5467,6 @@ Sign the Macro so it will run: Tools > Digital Signature... and choose the certi
 Close the VBA window
 Enable all macros in File > Options > Trust Center > Trust Center Settings > Macro Settings
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 183. View past notifications in Windows 10 and 11?
@@ -6047,9 +5501,6 @@ Review the log and look for the notification you were interested in.
 
 This is NOT the notification history, but additional information provided by the application and as such, there's no guarantee that the notification was logged.  It also requires that a user knows which application whose notification they're looking for.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 184. Set shortcuts to change keyboard layout in Windows 10
@@ -6059,9 +5510,6 @@ Tags: keyboard, windows-10, keyboard-layout, input-languages | Score: 129 | View
 
 **解决方案 / Solution**:
 Go to Control Panel → Clock, Language, and Region → Change input methods (under Language) → Advanced settings → Change language bar hot keys.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6090,9 +5538,6 @@ $ sudo mount -t drvfs '\\server\share' /mnt/share
 
 
 You need at least Build 16176 so you might have to opt-in to the Windows Insider programm and then update Windows. Source: https://blogs.msdn.microsoft.com/wsl/2017/04/18/file-system-improvements-to-the-windows-subsystem-for-linux/
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6166,9 +5611,6 @@ So if you want an ', you do the following: Hold left Alt, press
 9, release 9, release Alt.
 Unicode Character 'ACUTE ACCENT'
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 187. What does &quot;delayed start&quot; do in startup type for a Windows service?
@@ -6184,9 +5626,6 @@ The setting is most useful in lessening the "mad rush" for resources when a mach
 Note that when you have 20 services all being started at the same time, each will start up slower as it competes with the others for slices of the machine's precious resources (CPU/RAM/Disk/Network). That is, each service takes longer to become available!
 
 If you have a few services that are critical, then you may want to set those few to Automatic and set as many of the others as you can to Automatic (Delayed Start). This will ensure that the critical services get the most resources early and become available sooner, while the non-critical services start a bit later (which by definition is ok).
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6222,9 +5661,6 @@ and make sure PasswordAuthentication is set to yes if you want to login using a 
 Disable privilege separation by adding/modifying : UsePrivilegeSeparation no
 sudo service ssh --full-restart
 Connect to your Linux subsystem from Windows using a ssh client like PuTTY.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6270,9 +5706,6 @@ Here is a reply from Microsoft:
 
 So install Windows on the SSD and forget it. Windows will do everything on its own.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 190. How to access a BitLocker-encrypted drive in Linux?
@@ -6283,9 +5716,6 @@ Tags: linux, windows, encryption, multi-boot, bitlocker | Score: 126 | Views: 49
 **解决方案 / Solution**:
 You can access the BitLocker partition under Linux using Dislocker, an open-source driver that is using FUSE (or not).
 Note: You need the file on a USB key (the one with the .bek extension) or the recovery password.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6326,9 +5756,6 @@ Note: If you'd like a Git for Windows icon to appear at the top left of the ConE
 
 
 This only seems to work if it's the first tab open, though.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6382,9 +5809,6 @@ Finally, update the file to use your new changes by typing:
 
   source .bashrc
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 193. How do I stop Windows 10 going to sleep after locking with Win+L key
@@ -6403,9 +5827,6 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238C9FA8
 
 Set its Attributes DWORD value to 2.  This will make it show up in your advanced settings.  Go there and configure it to be zero minutes if you don't want it to sleep when you lock your screen.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 194. Can I use my laptop as a second monitor?
@@ -6417,9 +5838,6 @@ Tags: windows, laptop, multiple-monitors | Score: 125 | Views: 112209 | Answers:
 Here's an interesting freeware solution:
 
 ZoneScreen
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6458,9 +5876,6 @@ Far Manager users will acquire shell style drag-n-drop, thumbnails and tiles in 
 
 Try it. You may read some comments on StackOverflow.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 196. What is the $WINDOWS.~BT folder?
@@ -6485,9 +5900,6 @@ Sources:
 http://answers.microsoft.com/en-us/windows/forum/windows_8-windows_install/how-do-i-delete-windowsbt-after-failed-windows-8/d15416e8-fd5a-4d4e-b04b-5907a4f6c623
 John (see comments)
 FranKee (see comments)
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6516,9 +5928,6 @@ Run the command (in one line):
 
 
 After 30 seconds the problem was solved on my machine. Incredible.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6551,9 +5960,6 @@ To run it at startup
 
 Use the AHK provided "Convert to exe" utility (or you can right click the file and select "compile script")
 Create the .exe in "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6600,9 +6006,6 @@ Also, since 32-bit programs were new, it was easier to get them to work when the
 Of course, this is all speculation. If you really want to know why MS didn't implement preemptive multitasking in Windows 3.x (386 enhanced mode notwithstanding), you'll have to ask someone who worked there.
 Also, I wanted to correct your assumption that Windows 95 was jsut a wrapper for DOS ;)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 200. Why does Windows use backslashes for paths and Unix forward slashes?
@@ -6615,9 +6018,6 @@ Unix introduced / as the directory separator sometime around 1970. I don't know 
 MS-DOS 2.0 introduced \ as the directory separator in the early 1980s. The reason / was not used is that MS-DOS 1.0 (which did not support directories at all) was already using / to introduce command-line options. It probably took this usage of / from VMS (which had a more complicated syntax for directories). You can read a more detailed explanation of why that choice was made on Larry Osterman's blog. MS-DOS even briefly had an option to change the option character to - and the directory separator to /, but it didn't stick.
 / it is recognized by most programmer-level APIs (in all versions of DOS and Windows). So you can often, but not always get away with using / as a directory separator under Windows. A notable exception is that you can't use / as a separator after the \\? prefix which (even in Windows 7) is the only way to specify a path using Unicode or containing more than 260 characters.
 Some user interface elements support / as a directory separator under Windows, but not all. Some programs just pass filenames through to the underlying API, so they support / and \ indifferently. In the command interpreter (in command.com or cmd), you can use / in many cases, but not always; this is partly dependent on the version of Windows (for example, cd /windows works in XP and 7 but did not in Windows 9x). The Explorer path entry box accepts / (at least from XP up; probably because it also accepts URLs). On the other hand, the standard file open dialog rejects slashes.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6638,9 +6038,6 @@ cd GITDIR # Where GITDIR is wherever inside Program Files you put Git
 cp bin/git* /MINGW/bin # Where MINGW is wherever you put MinGW
 cp -r libexec/git* /MINGW/libexec
 cp -r share/git* /MINGW/share
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6683,9 +6080,6 @@ delete partition override
 
 
 Source How to delete an OEM partition
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6757,9 +6151,6 @@ Documentation for PowerShell's FileSystemWatcher
 Documentation for PowerShell's Register-Event
 Inspirations for script
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 204. How do I run Java apps upscaled on a high-DPI display?
@@ -6776,9 +6167,6 @@ Right click -> Properties
 Go to Compatibility tab
 Check Override high DPI scaling behavior.
 Choose System for Scaling performed by:
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6804,9 +6192,6 @@ display.exe: PE32 executable for MS Windows (GUI) Intel 80386 32-bit&lt;/pre&gt;
 
 
 As you can see, the 64-bit WinRAR installer is classified as PE32+, which signifies a 64-bit executable. The 32-bit application is simply PE32, a 32-bit executable.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6845,9 +6230,6 @@ MSIX documentation
 
 Why can't VirtualBox or VMware run with Hyper-V enabled on Windows 10
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 207. Getting WGET to display a less verbose output
@@ -6865,9 +6247,6 @@ to make wget less verbose. When I saw &quot;less verbose&quot; I mean that you g
 one printed line of text with the file name for each download
 no progress bar
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 208. Where are the shortcuts for the Windows 7 Taskbar stored on disk?
@@ -6880,9 +6259,6 @@ Taskbar shortcuts are located in: %AppData%\Microsoft\Internet Explorer\Quick La
 
 You can also add the "Quick Launch" folder to your task bar as a toolbar to re-enable the quick launch feature.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 209. How to order windows of the same program on taskbar
@@ -6894,9 +6270,6 @@ Tags: windows, windows-8, firefox, taskbar | Score: 118 | Views: 75241 | Answers
 Figured I'd share how I got this solved.
 
 Scott's comment pointed me to this question: Reorder Windows 7 taskbar items The accepted answer to that points to a program now called 7+ Taskbar Tweaker, which as it turns out works with Windows 8 as well as 7 now. It not only offers options for easily reordering windows within a taskbar group (either by right-clicking and dragging the taskbar tabs themselves or by dragging the preview windows), but also a whole lot of further options for customizations and conveniences. So for anyone else frustrated with this, that program is exactly what you're looking for and more.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6923,9 +6296,6 @@ To me that includes all folders and files in the start screen.
 But maybe you installed programs, then uninstalled them- but the folders remained there hence the extra folders or files.
 
 In my case all that was in that folder existed in the Start menu.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -6985,9 +6355,6 @@ cscript //nologo .\!cSctVBS!
 DEL !cSctVBS! /f /q
 )1&gt;&gt;!LOG! 2&gt;&gt;&amp;1
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 212. Windows 10 high memory usage (unknown reason)
@@ -7028,9 +6395,6 @@ In the sample of the user chr0n0ss the FMic and Irp usage is caused by  F-Secure
 
 Removing it and using Windows Defender fixed the issue for him.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 213. How to echo contents of file in a DOS/Windows command prompt
@@ -7047,9 +6411,6 @@ Highest score (default)
 Date modified (newest first)
 Date created (oldest first)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 214. Keep cmd.exe command history between sessions?
@@ -7063,9 +6424,6 @@ I've found 2 ways, neither of which require switching to PowerShell.
 Install Clink, which enhances cmd.exe with persistent history and much more. Just install it and then open cmd as normal.
 
 Install TCC/LE free version, which is a separate program, again providing an enhanced version of cmd.exe.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7095,9 +6453,6 @@ Connect to the computer setup previously
 Using a 'Monitor' button at the bottom, select and show screen number 2.
 iPad now shows screen 2 from PC.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 216. Local taskbar visible during remote desktop fullscreen
@@ -7107,9 +6462,6 @@ Tags: windows, windows-10, remote-desktop, taskbar, always-on-top | Score: 116 |
 
 **解决方案 / Solution**:
 Try restarting explorer.exe process as mentioned in fixing remote desktop taskbar
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7123,9 +6475,6 @@ I use Net Limiter, which has a free version, but unfortunately you'll need to pa
 
 NetLimiter is an ultimate internet traffic control and monitoring tool designed for Windows. You can use NetLimiter to set download/upload transfer rate limits for applications or even single connection and monitor their internet traffic.
 Along with this unique feature, Netlimiter offers comprehensive set of internet statistical tools. It includes real-time traffic measurement and long-term per-application internet traffic statistics
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7161,9 +6510,6 @@ Windows Registry Editor Version 5.00
 If the above appears to have no affect, and a 64-bit variant of
 Windows is being used, using a QWORD value instead of a DWORD value
 may resolve the issue.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7204,9 +6550,6 @@ Update: For Java 7 (32-bit), look instead for:
 
 C:\Program Files (x86)\Java\jre7\bin\javacpl.exe .. and yes, Java 7 still has this problem &ndash; after all these years they didn't fix it to work properly, so this workaround is still required.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 220. Windows 10: Rename pinned items in Windows Explorer&#39;s Quick Access
@@ -7224,9 +6567,6 @@ mklink /J "c:\whatever\Directory 1" "c:\dir1"
 
 Then you'll see "Directory 1" in "c:\whatever", which you can add to Quick Access, and it will be named "Directory 1".
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 221. How to pick a color from an image
@@ -7243,9 +6583,6 @@ Open the file with MS Paint
 Use Paint's pick color and pick the color
 Press "Edit Colors" button
 You have the RGB values!
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7268,9 +6605,6 @@ No installation required
 
 Forked and improved on GitHub and enhanced https://github.com/andrijac/ruler
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 223. Use VPN connection only for selected applications
@@ -7292,9 +6626,6 @@ There are scripts for accomplishing the above steps here or there is another gui
 
 Here is a detailed guide for routing Transmission via a VPN (using a VPN server that you own.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 224. recursively change owner windows 7
@@ -7313,9 +6644,6 @@ The first one will give you ownership of all the files, however that might not b
 
 In that case, run the second command, which will fix the broken permissions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 225. Show the date on the System Tray in Windows 10
@@ -7330,9 +6658,6 @@ Unchecking "Use small taskbar buttons" or doubling the taskbar height are the tw
 
 [EDIT]
 After reading Why you should use a vertical taskbar I tried it and also realized that you get the full time and date already from the smallest size of the vertical taskbar, even with small taskbar buttons. So it might have changed since the time the question was asked. Now, this might be your solution if you like the side bar, or you are willing to try and reap some of the benefits that article claims.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7355,9 +6680,6 @@ Right click on the Outlook shortcut from your start menu
 Select Open file location
 Copy the shortcut for Outlook to the Startup folder
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 227. Should I disable swap file if I have lots of RAM or should I move it to a virtual RAM drive?
@@ -7376,9 +6698,6 @@ The people who designed your operating system's behavior are not fools. Having a
 
 There's no point in trying to put a paging file in RAM. And if you have lots of RAM, the paging file is very unlikely to be used (it just needs to be there) so it doesn't particularly matter how fast the device it is on is.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 228. How to rearrange virtual desktops in Windows 10
@@ -7390,9 +6709,6 @@ Tags: windows-10, virtual-desktop | Score: 112 | Views: 54627 | Answers: 6
 This is not possible in the current version of Windows 10 (20H2) or earlier versions.
 However, the recent Windows 10 Insider Preview Build 21337 mentions this feature.
 We can only hope that this feature will be rolled out to Windows 10 in an upcoming update.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7429,9 +6745,6 @@ To adjust this, simply change the values in the Registry and you should be able 
 On my computer, the values were set to "Disabled" and I have no clue which application did that. I changed the values to default and now everything works again like it should.
 
 Or you can just delete the key "TrustManager" itself and everything is working as well.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7529,9 +6842,6 @@ Notably, if the Skype UWP application is already running, before attempting the 
 
 Additional reading: Download Skype for More Features Than Windows 10’s Built-In Version
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 231. Turn off display in Windows on command
@@ -7544,9 +6854,6 @@ A couple more options:
 
 Turn Off LCD - just place the executable on your desktop
 NirCmd - you'll need to copy nircmd.exe to your Windows system directory, or add its location to the PATH environment variable. Then just run nircmd monitor off from the command line. More information at the link.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7570,9 +6877,6 @@ There are also other limitations. For example, the number of files that can be r
 
 I suppose read-only filesystem driver for an MTP device might be possible, but because of the problems outlined above, it will be of very little use, so nobody bothered to create it.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 233. Assigning a virtual desktop to a monitor in Windows 10
@@ -7589,9 +6893,6 @@ Afaik, if you choose the 2nd option, it will remember your choice even if you cl
 
 hope it helps
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 234. Securely erasing all data from a hard drive
@@ -7601,9 +6902,6 @@ Tags: windows, mac, security, secure-erase | Score: 110 | Views: 23450 | Answers
 
 **解决方案 / Solution**:
 Look into Darik's Boot and Nuke. It's a bootable CD which lets you securely erase your hard drives.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7642,9 +6940,6 @@ C:\Windows;C:\Windows\System32;C:\Python27
 Test on a new terminal window or if using an integrated terminal within a 
   text editor, close and restart your editor or the changes won't be applied.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 236. Dual monitors on Windows - How do I set a different DPI or text size on each monitor?
@@ -7658,9 +6953,6 @@ DPI settings affect the entire desktop, regardless of number or arrangement of m
 Update:
 
 This is untrue as of Windows 8.1, which adds many DPI scaling enhancements, including per-display DPI settings. Although some may not find the implementation offers enough control.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7676,9 +6968,6 @@ My mistake was in using the well known public DNS Servers for CloudFlare (1.1.1.
 
 When I tested the above process with the correct internal DNS server IP address, everything worked properly.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 238. Extremely simple web server for Windows?
@@ -7690,9 +6979,6 @@ Tags: windows, webserver, software-rec, http | Score: 109 | Views: 180922 | Answ
 I recently used mongoose for this purpose. It supports Windows. From the homepage:
 
 Mongoose executable does not depend on any external library or configuration. If it is copied to any directory and executed, it starts to serve that directory on port 8080. If some additional config is required - for example, different listening port or IP-based access control, then a mongoose.conf file with respective options (see example) can be created in the same directory where executable lives. This makes Mongoose perfect for all sorts of demos, quick tests, file sharing, and Web programming.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7713,9 +6999,6 @@ I did some research on Google and in the Windows registry, and found nothing but
   When you are prompted by User Account Control, click Continue.
   At the command prompt, type powercfg.exe /hibernate off, and then press ENTER.
   Type exit and then press ENTER to close the Command Prompt window.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7750,9 +7033,6 @@ Depending on your system’s hardware performance, you likely found that WSL2 is
 
 This speeds up command-line access. However, WSL2 may still have the upper hand since it does not require SSH to enable access.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 241. How can I delete all files/subfolders in a given folder via the command prompt?
@@ -7764,9 +7044,6 @@ Tags: windows, windows-7, command-line, batch-file | Score: 108 | Views: 875880 
 You can do this using del and the /S flag (to tell it to remove all files from all subdirectories):
 
 del /S C:\Path\to\directory\*
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7792,9 +7069,6 @@ set TEST_VAR=something
 
 when I start cmd and enter echo %TEST_VAR% it says something. So it works :)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 243. Windows equivalent to UNIX &quot;time&quot; command
@@ -7811,9 +7085,6 @@ Measure-Command {start-process whateveryouwantexecute -Wait}
 Edited to your need @efficiencylsBliss:
 
 Measure-Command {start-process java -argumentlist "whateverargumentisneeded" -wait}
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7860,9 +7131,6 @@ gaga
 
 C:\&gt;
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 245. Can&#39;t copy and paste in Remote Desktop Connection session
@@ -7898,9 +7166,6 @@ If you have a shared clipboard problem, see if the following troubleshooting gui
 |                          |                         | and reconnect to the session.|
 +--------------------------+-------------------------+------------------------------+
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 246. Mapping drive letters to local folders
@@ -7933,9 +7198,6 @@ For more information on both commands you can query via the command line with /?
 
 net use /? &amp; subst /?
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 247. How can I open Google Chrome via command-line with a URL, in incognito mode?
@@ -7955,9 +7217,6 @@ If you have a window open Chrome will default to the currently running applicati
 
 chrome.exe -incognito --app=google.com
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 248. What is the difference between Symbolic Link and Shortcut?
@@ -7969,9 +7228,6 @@ Tags: windows, shortcuts, symbolic-link | Score: 107 | Views: 90739 | Answers: 5
 I think the important point is that shortcuts are just a file. They have a size (A small one, that just references where they point) and they require an application to support that filetype in order to be used.
 
 A symbolic link is filesystem level, and everything sees it as the original file. An application needs no special support to use a symbolic link.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -7990,9 +7246,6 @@ File > Options > Customize Ribbon > Keyboard shortcuts: Customize...
 Under Categories, select All Commands
 Under Commands, look for PasteTextOnly
 Set the keyboard shortcut for PasteTextOnly to Ctrl+Shift+V
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8171,9 +7424,6 @@ The sourceMask must match the original long name.
 The initial rename must generate a short name that also matches the sourceMask
 The initial renamed short name must sort later than the original short name (if it existed?)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 251. Windows 10 deletes lots of tiny files super slowly. Can anything be done to speed it up?
@@ -8194,9 +7444,6 @@ Issue the delete from inside a Command prompt using a command
 similar to (use del /? to see all parameters):
   del /f /q *.*           (del in current folder, add `/s` to traverse sub-folders)
   del /f /q /s folder
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8223,9 +7470,6 @@ watch echo test
 
 will echo test every 5 seconds.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 253. Turning off the cmd window beep sound
@@ -8239,9 +7483,6 @@ Source
 It should be noted that the instruction stops the beep globally on windows and not on just for within the windows command shell. Also, the service will run again when you reboot your computer.
 @Ady's answer will suffice. But if you want to just disable it per instance, you can always put this method into a batch file (but it's so short you can just type it) and run it.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 254. What is the equivalent of Linux&#39;s &quot;~&quot; (tilde) shell expansion to home directory in Windows?
@@ -8253,9 +7494,6 @@ Tags: windows, linux, command-line | Score: 105 | Views: 69083 | Answers: 9
 You can use cd /d %USERPROFILE% if you use cmd.
 
 or you can use cd ~ if you use PowerShell.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8281,9 +7519,6 @@ Close current virtual desktop:
 WIN+Ctrl+F4
 Switch virtual desktop:
 WIN+Ctrl+LEFT or RIGHT
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8315,9 +7550,6 @@ Set the creation time of a file foo.txt to November 24, 2015, at 6:00am:
 
 $(Get-Item foo.txt).creationtime=$(Get-Date "11/24/2015 06:00 am")
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 257. OpenVPN: Only route a specific IP addresses through VPN?
@@ -8337,9 +7569,6 @@ route 192.168.0.1 255.255.255.255
 
 BTW: route-nopull means &quot;don't pull routes from the server&quot;
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 258. Commmand line command to copy entire directory (including directory folder) to another directory
@@ -8352,9 +7581,6 @@ Try using XCOPY with the /E switch. More info here.
 I haven't had to access this information from my brain in years!
 UPDATE
 The documentation says that it copies all files and subdirectories from the source directory (meaning that the parent directory is not created), so you would have to create test in C:\test2 first and then use XCOPY.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8373,9 +7599,6 @@ Various "Task Manager replacement" tools (such as Process&nbsp;Explorer) have a 
 The regular Windows 10 Task Manager also has a "Startup" tab where all the startup programs can be disabled. Try disabling them all; if the pixel disappears, re-enable one, or half of them¹, repeating until you find the one that's showing the window. (Although there is a small chance that it's launched by a service and not by a startup program.)
 
 ¹ (Systems tend to accumulate so much cruft in the "Startup" list that I suspect you should just keep the remaining half permanently disabled anyway...)
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8423,9 +7646,6 @@ Windows Update Client for Windows 7 and Windows Server 2008 R2: July 2015
 
 Windows Update Client for Windows 8.1 and Windows Server 2012 R2: July 2015
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 261. Why the heck does NTFS allow invisible executables?
@@ -8459,9 +7679,6 @@ Save it with the extension .COM and it will execute (unless your AV is paying at
 
 It would be informative to save it in an alternate data stream and run a scan...
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 262. What is Git Bash for Windows anyway?
@@ -8494,9 +7711,6 @@ mintty
 
 mintty is included because cmd.exe, the default Windows command line window, is missing some important features which are normally available on most *nix systems. In most cases, mintty is a better choice for running commands (certainly for the utilities that come with the Git Bash for Windows package), but occasionally a Windows system application may work better with cmd.exe.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 263. Is it possible to disable smooth movement of the cursor in Office 2013/windows 10?
@@ -8523,9 +7737,6 @@ In the &quot;Performance Options&quot; window, on the &quot;Visual Effects&quot;
 
 Edit: The latter method may look very different on Windows 10, sorry I missed that part.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 264. How can I make a Windows PC bullet-proof for home users?
@@ -8535,9 +7746,6 @@ Tags: windows, security, virus, malware | Score: 103 | Views: 17814 | Answers: 2
 
 **解决方案 / Solution**:
 Probably the best advice I've ever heard on the topic is: Stop running as an administrator.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8549,9 +7757,6 @@ Tags: windows, screenshot, mouse-cursor | Score: 103 | Views: 127773 | Answers: 
 **解决方案 / Solution**:
 IrfanView has an option to include the cursor while taking screenshots. Press C to configure options and the hotkey.
 It is free for private, educational, and non-commercial use.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8570,9 +7775,6 @@ If you're using Remote Desktop, then use Ctrl+Alt+End instead.
 1 You should know what your host key is, but it's configurable. Mine usually was Right Ctrl.
 
 If you want to know what your Host Key is, open VirtualBox and go to File → Preferences → Input. If you don't like the current key, you can change it to whatever you wish.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8639,9 +7841,6 @@ Process Lasso
   processes won't negatively impact the
   responsiveness of your PC.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 268. How to unzip a file using the cmd?
@@ -8655,9 +7854,6 @@ C:\&gt; tar -xf archive.zip
 
 Note: zip support is not well documented
 ref: https://www.freebsd.org/cgi/man.cgi?query=bsdtar&amp;sektion=1&amp;manpath=FreeBSD+5.3-stable
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8685,9 +7881,6 @@ the &amp; is used to call a File. when you're only using a command &amp; is unne
 powershell -command "&amp; 'C:\foobar.ps1'" 
 
 You could also use powershell -file C:\file.ps1 to call a script
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8737,9 +7930,6 @@ focus when you clicked Alt-plus.
 
 I would go for the second option, because it integrates nicely with your current usage.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 271. How do I set Notepad++ as the default editor?
@@ -8757,9 +7947,6 @@ Select fortran,TeX,SQL and then .sql and add it to the registered extensions:
 
 
 Click Close.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8784,9 +7971,6 @@ You must have admin privileges when you run CMD.  You can do this under an admin
 
 The end result is also achievable in Windows XP, but it is not as easy. Guide here
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 273. How to avoid keyboard layout automatically changing on Windows?
@@ -8803,9 +7987,6 @@ In Windows 7 this is Control Panel/Region and Language/Keyboards and Languages/C
 
 You may also want to disable automatic detection of languages in Word (Tools/Languages). I think this may switch the keyboard layout to match the detected language.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 274. Why can&#39;t you uninstall multiple programs at once in Windows?
@@ -8821,9 +8002,6 @@ There is always the question in designing any database - do you want speed or ac
 Now, I believe the MSI engine itself enforces installing, modifying, or removing only one program at a time - if you try to run an .msi while another is uninstalling, for example, it either won't run or will wait for the currently running uninstall to finish.  Non-MSI installers may not behave this way - since they don't use the MSI engine.  But because of this safety design decision, this is probably why appwiz.cpl insists on only letting one uninstaller be called at once.
 
 CCleaner allows you to kick off uninstallers without waiting for previously running ones to finish.  MSI installers will likely still not work in parallel due to the above.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8846,9 +8024,6 @@ Here, we have that
 /c continues with remaining files even in an error occurs.
 
 You can also do things like backup the existing ACLs &amp; apply them across all. Have a look at ss64 which explains the different options &amp; switches very well.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8892,9 +8067,6 @@ In the Windows 10 creators Update, there is an option to stop Windows Updates fo
 
 under Settings App where the Windows Update options are.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 277. How to remove read-only attribute recursively on Windows
@@ -8915,9 +8087,6 @@ c:\folder\*.* is the folder you are running it on, plus wildcards for all files
 
 Here is some more documentation and examples for the attrib command: 
 https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/attrib
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8941,9 +8110,6 @@ Search the registry in RegEdit for C:\MSOCache and change all references
 to point to your CD/DVD drive,
 example:
 E:\MSOCache (will of course require the disc when something Office related needs those cache files.)
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -8975,9 +8141,6 @@ Here is the list from the commit description:
 
 You can read the full information in the URL above.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 280. Pin applications to multiple desktops in Windows 10
@@ -8990,9 +8153,6 @@ The feature has now been released as one of several "Virtual Desktop Improvement
 
 
   You can now pin a window so it’s available on every desktop. To do this, launch Task View then right-click on the window you want to pin and choose “Show this window on all desktops”. Try pinning Skype or Groove Music so they’re always at your fingertips. And if you have a multi-mon setup, you might enjoy the ability to have your email app on the second monitor no matter which desktop you switch to.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9012,9 +8172,6 @@ The reason why the A2DP device gets disabled when two-way communications is requ
 
 Disabling A2DP while HFP or HSP is active is the easy way out: it will reduce both technical complexity and the power budget of the device.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 282. Option to Turn Bluetooth on or off is Missing
@@ -9032,9 +8189,6 @@ Restart.
 
 Worked for me. :)
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 283. How do I determine if my Windows is 32-bit or 64-bit using a command?
@@ -9044,9 +8198,6 @@ Tags: windows, command-line | Score: 98 | Views: 359661 | Answers: 5
 
 **解决方案 / Solution**:
 From an elevated command prompt, type wmic os get osarchitecture.  The output is pretty obvious, I think - it'll return either "32-bit" or "64-bit".
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9080,9 +8231,6 @@ time /T outputs the current system time.
 
 Note: w32tm /query was first made available in the Windows Time client versions of Windows Vista, and Windows Server 2008. See Windows Time Service Tools and Settings
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 285. Virtual Box - not filling entire screen
@@ -9094,9 +8242,6 @@ Tags: windows-7, windows, virtualbox, virtual-machine, virtualization | Score: 9
 You must install guest additions.
 In the "Devices" menu in the virtual machine's menu bar, VirtualBox has a handy menu item named "Install guest additions", which mounts the Guest Additions ISO file inside your virtual machine. A Windows guest should then automatically start the Guest Additions installer, which installs the Guest Additions into your Windows guest.
 After that your virtual OS scren will be automatically change resolution to fill entire screen.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9125,9 +8270,6 @@ HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers
 You can read more at: How to Clean Up Your Messy Windows Context Menu
 Or use some freeware NirSoft tools like ShellMenuView or ShellExView.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 287. Disable Win + Space keyboard layout switch in Windows 10
@@ -9137,9 +8279,6 @@ Tags: windows-10, keyboard-shortcuts, keyboard-layout | Score: 98 | Views: 11596
 
 **解决方案 / Solution**:
 You can also use the new PowerToys for Windows 10 to remap it.  In my case, I remapped it so that it brings up PowerToys Run when I press Win + Space.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9157,9 +8296,6 @@ Double-click on “No auto-restart with logged on users for scheduled automatic 
 Select Enabled, and then select OK.
 
 Note: See comments, you also need to enable 'Configure Automatic Updates'
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9190,9 +8326,6 @@ But for 0x2339, there is an entry in the default system message table, physicall
 It just so happens to share the number of the "Directory of %1" line of the command processor's resources: a fallback not anticipated by the developers of cmd.exe. So the DNS reference is just a coincidence, it could be anything.
 
 Note that the proper message contains a variable argument (the directory name), while the DNS message doesn't. I guess that's why there is no more output after that - it might just terminate.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9225,9 +8358,6 @@ Possible alternatives:
 
 There's also software that makes sure the disk is restored to a previous snapshot on each boot. I've never used it though, so I don't know how effective it would be for your use case.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 291. View a list of symbolic links on system?
@@ -9245,9 +8375,6 @@ dir /AL /S C:\
 /A displays all files with a specific attribute, and L specifies reparse points (symlinks and directory junctions)
 /S makes the command recursive
 replace C:\ with the drive letter you want to scan, or with a path if you don't want to scan an entire drive
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9278,9 +8405,6 @@ The additions are as follows:
 /LOG:&lt;logfile path&gt; is pretty self-explanatory.
 /XF is being used to exclude certain filetypes so it doesn't take so long
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 293. How to search for only folders in Windows 7 instead of folders AND files
@@ -9295,9 +8419,6 @@ To restrict by file type    Use            Example
 ------------------------    ---            -------
 Folders                     folders        kind:folders
 Folder name                 foldername     foldername:mydocs
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9324,9 +8445,6 @@ VBoxManage convertfromraw --format VDI [filename].img [filename].vdi
 
 
 Mount the VDI as a hard disk.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9368,9 +8486,6 @@ Canon Pocketronic
 Source
 We can see a C (Clear) and CI (Cancel Input) button.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 296. Why does Windows only show about 3.5 GB of my 4 GB of RAM?
@@ -9390,9 +8505,6 @@ See Dude, Where's My 4 Gigabytes of RAM?
 
 
 The only practical solution is to install a 64-bit operating system. In Windows Vista and later, 32-bit and 64-bit license keys are interchangeable. If you can get Windows installation media for the 64-bit version of your operating system, you can reinstall using your original license key.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9452,9 +8564,6 @@ Windows Registry Editor Version 5.00
 
 If that doesn't work, try searching the registry for Windows Photo Viewer and photoviewer.dll to see if there are any references to photoviewer.dll being called directly (without rundll32).
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 298. Disable a Windows service from the command line
@@ -9470,9 +8579,6 @@ sc stop "Name of Service"
 The space after the "start=" is important
 
 You can see service name by double clicking a service on Services screen:
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9499,9 +8605,6 @@ Device Bus Speed         : 0x02 (High-Speed)
 For USB 1.1, it will show:
 Device Bus Speed         : 0x01 (Full-Speed)
 Besides this, there are also several other methods that are explained in great detail here
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9535,9 +8638,6 @@ If you want all the technical details on how the registry keys work, you can rea
 
 Link for reference
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 301. [V2EX] 各位大佬们，你们 win 系统安装了什么杀毒软件？
@@ -9547,9 +8647,6 @@ Link for reference
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9561,9 +8658,6 @@ Windows Update 新体验已经开始逐步推送，Windows 更新的暂停功能
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9592,9 +8686,6 @@ Windows 官方云同步只支持部分设置，具体看文档：
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 304. [V2EX] windows 更新这么离谱吗
@@ -9604,9 +8695,6 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9618,9 +8706,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 306. [V2EX] Windows 上面有类似 TimeMachine 的备份软件吗
@@ -9630,9 +8715,6 @@ rt主要诉求是文件历史版本。以前用 mac 的时候，我记得一份�
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9648,9 +8730,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 308. [V2EX] Win11 23H2 无线网卡（AX211）有 DNS 残留，经常需要手工干预的问题...
@@ -9663,9 +8742,6 @@ Windows 11 的无线网卡所连接到无线 SSID 网络里，DNS 使用有这�
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9680,9 +8756,6 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9715,9 +8788,6 @@ See V2EX thread for community solutions.
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 312. [V2EX] win11 经常系统信息的储存 显示 0GB
@@ -9727,9 +8797,6 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9741,9 +8808,6 @@ bitwarden Windows 桌面版本的数据在内存中是不是明文？其他程�
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 314. [V2EX] windows 11 现在问题还多吗
@@ -9753,9 +8817,6 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
 
@@ -9775,9 +8836,6 @@ D:\某个 256 个字符的路径字符串&lt;NUL&gt;
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
 
-**参考链接 / References**:
-- N/A
-
 ---
 
 #### 316. [V2EX] 各位大佬们，你们 win 系统安装了什么杀毒软件？
@@ -9787,8 +8845,5 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
-
-**参考链接 / References**:
-- N/A
 
 ---
