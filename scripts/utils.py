@@ -368,9 +368,19 @@ def write_report(agent_name: str, new_count: int, total_count: int, errors: List
 # ---------------------------------------------------------------------------
 
 def git_push(msg: str = None) -> dict:
-    """推送至 GitHub 与 Gitee，返回 {github: bool, gitee: bool}"""
+    """推送至 GitHub 与 Gitee，返回 {github: bool, gitee: bool}
+    
+    GitHub 操作不走代理（proxy IP 被风控），Git 环境变量自动处理。
+    """
     if msg is None:
         msg = f"auto-update: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}"
+
+    # 清除代理环境变量，Git 操作走直连
+    env_clean = os.environ.copy()
+    env_clean.pop("HTTP_PROXY", None)
+    env_clean.pop("HTTPS_PROXY", None)
+    env_clean.pop("http_proxy", None)
+    env_clean.pop("https_proxy", None)
 
     token_gh = os.environ.get("GITHUB_TOKEN") or _read_token_from_script()
     repo_gh = "https://github.com/Christopher0129/patch-toolbox.git"
@@ -381,17 +391,17 @@ def git_push(msg: str = None) -> dict:
     auth_repo_gt = repo_gt.replace("https://", f"https://{token_gt}@")
 
     os.chdir(PROJECT_ROOT)
-    subprocess.run(["git", "branch", "-M", "main"], capture_output=True)
+    subprocess.run(["git", "branch", "-M", "main"], capture_output=True, env=env_clean)
 
-    # 先尝试 fetch 避免冲突
-    subprocess.run(["git", "fetch", auth_repo_gh, "main"], capture_output=True)
+    # 先尝试 fetch 避免冲突（直连）
+    subprocess.run(["git", "fetch", auth_repo_gh, "main"], capture_output=True, env=env_clean)
 
     # git add
-    result = subprocess.run(["git", "add", "."], capture_output=True, text=True)
+    result = subprocess.run(["git", "add", "."], capture_output=True, text=True, env=env_clean)
     log_agent("publisher", f"Git add OK")
 
     # git commit
-    result = subprocess.run(["git", "commit", "-m", msg], capture_output=True, text=True)
+    result = subprocess.run(["git", "commit", "-m", msg], capture_output=True, text=True, env=env_clean)
     if result.returncode != 0:
         if "nothing to commit" in result.stdout or "nothing to commit" in result.stderr:
             log_agent("publisher", "Nothing to commit")
@@ -401,31 +411,32 @@ def git_push(msg: str = None) -> dict:
 
     # ---- GitHub push ----
     github_ok = False
-    result = subprocess.run(["git", "push", auth_repo_gh, "HEAD:main"], capture_output=True, text=True)
+    result = subprocess.run(["git", "push", auth_repo_gh, "HEAD:main"], capture_output=True, text=True, env=env_clean)
     if result.returncode == 0:
         github_ok = True
         log_agent("publisher", "GitHub push OK")
     else:
-        # retry with pull --rebase
-        subprocess.run(["git", "pull", auth_repo_gh, "main", "--rebase"], capture_output=True)
-        result = subprocess.run(["git", "push", auth_repo_gh, "HEAD:main"], capture_output=True, text=True)
+        # retry with pull --rebase（直连）
+        log_agent("publisher", f"GitHub push failed, trying pull --rebase: {result.stderr.strip()[:200]}")
+        subprocess.run(["git", "pull", auth_repo_gh, "main", "--rebase"], capture_output=True, env=env_clean)
+        result = subprocess.run(["git", "push", auth_repo_gh, "HEAD:main"], capture_output=True, text=True, env=env_clean)
         if result.returncode == 0:
             github_ok = True
             log_agent("publisher", "GitHub push OK (after rebase)")
         else:
-            log_agent("publisher", f"GitHub push failed: {result.stderr}")
+            log_agent("publisher", f"GitHub push failed: {result.stderr.strip()[:300]}")
 
     # ---- Gitee push ----
     gitee_ok = False
     if github_ok:
         # Gitee 默认分支是 master; token 格式: https://oauth2:<token>@gitee.com/...
         auth_repo_gt = "https://oauth2:{}@gitee.com/liu-ritian/patch-toolbox.git".format(token_gt)
-        result = subprocess.run(["git", "push", auth_repo_gt, "HEAD:master"], capture_output=True, text=True)
+        result = subprocess.run(["git", "push", auth_repo_gt, "HEAD:master"], capture_output=True, text=True, env=env_clean)
         if result.returncode == 0:
             gitee_ok = True
             log_agent("publisher", "Gitee push OK")
         else:
-            log_agent("publisher", f"Gitee push failed: {result.stderr}")
+            log_agent("publisher", f"Gitee push failed: {result.stderr.strip()[:300]}")
 
     return {"github": github_ok, "gitee": gitee_ok}
 
@@ -459,44 +470,122 @@ def _read_gitee_token_from_script() -> str:
 # ---------------------------------------------------------------------------
 
 def fetch_json(url: str, timeout: int = 30, retries: int = 3, verify: bool = True) -> Optional[dict]:
-    """使用 curl_cffi 抓取 JSON（模拟浏览器指纹，绕过 Cloudflare/反爬）"""
+    """使用 curl_cffi 抓取 JSON（模拟浏览器指纹，绕过 Cloudflare/反爬）
+    
+    GitHub API 不走代理（datacenter IP 被风控）。
+    Reddit 必须走代理 + 完整浏览器 headers。
+    """
     from curl_cffi import requests
+    
+    is_github = "api.github.com" in url or "github.com" in url
+    is_reddit = "reddit.com" in url
+    
+    proxy = os.environ.get("HTTP_PROXY") or os.environ.get("http_proxy")
+    
+    kwargs = {
+        "timeout": timeout,
+        "verify": verify,
+        "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Accept-Language": "en-US,en;q=0.9",
+        },
+    }
+    
+    if is_reddit:
+        if not proxy:
+            log_agent("utils", f"fetch_json skip: no proxy for Reddit: {url}")
+            return None
+        kwargs["headers"] = {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            "Accept": "application/json, text/plain, */*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Referer": "https://www.google.com/",
+            "Connection": "keep-alive",
+        }
+        kwargs["proxies"] = {"http": proxy, "https": proxy}
+    elif not is_github and proxy:
+        # 非 GitHub 非 Reddit，有代理就用
+        kwargs["proxies"] = {"http": proxy, "https": proxy}
+    
+    if not is_reddit:
+        kwargs["impersonate"] = "chrome120"
+    
     for attempt in range(retries):
         try:
-            r = requests.get(url, timeout=timeout, impersonate="chrome120", verify=verify, headers={
-                "Accept": "application/json, text/plain, */*",
-                "Accept-Language": "en-US,en;q=0.9",
-            })
+            r = requests.get(url, **kwargs)
             if r.status_code == 429:
-                # Rate limit: 指数退避，更长等待
                 wait = 5 + (2 ** attempt)
                 log_agent("utils", f"Rate limit 429, waiting {wait}s...")
                 time.sleep(wait)
                 continue
             r.raise_for_status()
+            log_agent("utils", f"fetch_json OK: {url} (HTTP {r.status_code})")
             return r.json()
         except Exception as e:
             time.sleep(2 ** attempt)
             if attempt == retries - 1:
-                log_agent("utils", f"fetch_json failed after {retries} attempts: {url} | {e}")
+                log_agent("utils", f"fetch_json failed: {url} | {e}")
     return None
 
 
 def fetch_text(url: str, timeout: int = 30, retries: int = 3, verify: bool = True) -> Optional[str]:
-    """使用 curl_cffi 抓取文本/HTML（模拟浏览器指纹）"""
+    """使用 curl_cffi 抓取文本/HTML（模拟浏览器指纹）
+    
+    Reddit 特殊处理：使用完整浏览器 headers 绕过风控。
+    关键 headers：User-Agent、Accept、Accept-Language、Referer、Connection。
+    """
     from curl_cffi import requests
+    
+    is_reddit = "reddit.com" in url
+    
+    # Reddit 专用完整浏览器请求头（必须全，否则 403）
+    reddit_headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Referer": "https://www.google.com/",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "cross-site",
+        "Sec-Fetch-User": "?1",
+        "Cache-Control": "max-age=0",
+    }
+    
+    # 代理配置：Reddit 必须走代理（国内被墙），其他看情况
+    proxy = os.environ.get("HTTP_PROXY") or os.environ.get("http_proxy")
+    if is_reddit and not proxy:
+        # Reddit 没代理就放弃
+        log_agent("utils", f"fetch_text skip: no proxy for Reddit: {url}")
+        return None
+    
+    kwargs = {
+        "timeout": timeout,
+        "verify": verify,
+        "headers": reddit_headers if is_reddit else {
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+        },
+    }
+    if proxy:
+        kwargs["proxies"] = {"http": proxy, "https": proxy}
+    
+    # Reddit 不用 impersonate，用标准 requests 即可
+    if not is_reddit:
+        kwargs["impersonate"] = "chrome120"
+    
     for attempt in range(retries):
         try:
-            r = requests.get(url, timeout=timeout, impersonate="chrome120", verify=verify, headers={
-                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-                "Accept-Language": "en-US,en;q=0.9",
-            })
+            r = requests.get(url, **kwargs)
             r.raise_for_status()
+            log_agent("utils", f"fetch_text OK: {url} (HTTP {r.status_code})")
             return r.text
         except Exception as e:
             time.sleep(2 ** attempt)
             if attempt == retries - 1:
-                log_agent("utils", f"fetch_text failed after {retries} attempts: {url} | {e}")
+                log_agent("utils", f"fetch_text failed: {url} | {e}")
     return None
 
 
