@@ -5,7 +5,7 @@ from __future__ import annotations
 
 import json
 import os
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, Optional
 
@@ -58,17 +58,18 @@ class VectorConfig:
         从顶层 config.json 读取配置，支持 override 字典（用于单元测试）。
         如果 config.json 不存在或没有 vector_search 字段，返回 enabled=False。
         """
-        cfg = override
-        if cfg is None:
+        if override is None:
             if DEFAULT_CONFIG_PATH.exists():
                 try:
                     with open(DEFAULT_CONFIG_PATH, "r", encoding="utf-8") as f:
                         root = json.load(f)
                     cfg = root.get("vector_search", {})
                 except Exception:
-                    cfg = {}
+                cfg = {}
             else:
                 cfg = {}
+        else:
+            cfg = override
 
         # 递归替换 ${ENV_VAR} 占位符
         cfg = _deep_resolve_env(cfg)
