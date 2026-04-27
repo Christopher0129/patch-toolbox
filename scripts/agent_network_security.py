@@ -2,13 +2,15 @@
 """
 Agent: Network Security Vulnerabilities
 每小时抓取网络安全漏洞及应对措施，增量更新。
-数据源: NVD API, CISA KEV, CVE Details
+数据源: NVD API, Exploit-DB RSS, GitHub Security Advisories, CISA KEV
 """
 import sys
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
 
 import json
-from datetime import datetime, timezone, timedelta
+import feedparser
+import requests
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import List, Dict, Any
 
@@ -46,7 +48,6 @@ def fetch_nvd_cves(limit: int = 50) -> List[Dict[str, Any]]:
         if not en_desc and descriptions:
             en_desc = descriptions[0].get("value", "")
 
-        # 提取 CVSS 分数
         cvss_score = None
         severity = "N/A"
         metrics = cve.get("metrics", {})
@@ -58,11 +59,9 @@ def fetch_nvd_cves(limit: int = 50) -> List[Dict[str, Any]]:
                     severity = cvss_data.get("baseSeverity", "N/A")
                     break
 
-        # 提取参考链接
         refs = cve.get("references", [])
         ref_urls = [r.get("url", "") for r in refs[:5] if r.get("url")]
 
-        # 提取 CWE
         weaknesses = cve.get("weaknesses", [])
         cwes = []
         for w in weaknesses:
@@ -70,7 +69,7 @@ def fetch_nvd_cves(limit: int = 50) -> List[Dict[str, Any]]:
                 if d.get("value", "").startswith("CWE-"):
                     cwes.append(d["value"])
 
-        item = {
+        items.append({
             "cve_id": cve_id,
             "title": f"{cve_id}",
             "description": en_desc,
@@ -80,22 +79,102 @@ def fetch_nvd_cves(limit: int = 50) -> List[Dict[str, Any]]:
             "references": ref_urls,
             "published": cve.get("published", ""),
             "last_modified": cve.get("lastModified", ""),
-        }
-        items.append(item)
+            "source_tag": "NVD",
+        })
 
     log_agent(AGENT_NAME, f"NVD fetched {len(items)} CVEs")
     return items
 
 
+def fetch_exploit_db(limit: int = 30) -> List[Dict[str, Any]]:
+    """从 Exploit-DB RSS 抓取最新 exploit/0-day"""
+    try:
+        r = requests.get("https://www.exploit-db.com/rss.xml", timeout=25, headers={
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Accept": "application/rss+xml,application/xml;q=0.9,*/*;q=0.8",
+        })
+        r.raise_for_status()
+    except Exception as e:
+        log_agent(AGENT_NAME, f"Exploit-DB fetch error: {e}")
+        return []
+
+    feed = feedparser.parse(r.text)
+    items = []
+    for entry in feed.entries[:limit]:
+        title = entry.get("title", "")
+        link = entry.get("link", "")
+        desc = entry.get("description", "")
+        # 提取CVE号（如果标题中有）
+        cve_match = __import__("re").search(r"CVE-\d{4}-\d{4,}", title)
+        cve_id = cve_match.group(0) if cve_match else ""
+
+        items.append({
+            "cve_id": cve_id or f"EDB-{link.split('/')[-1]}" if link else "EDB-UNKNOWN",
+            "title": f"{cve_id or 'Exploit'} - {title}" if cve_id else title,
+            "description": f"[Exploit-DB] {strip_html_tags(desc)[:300]}",
+            "cvss_score": None,
+            "severity": "EXPLOIT",
+            "cwes": [],
+            "references": [link] if link else [],
+            "published": entry.get("published", ""),
+            "last_modified": entry.get("updated", ""),
+            "solution": "Review and apply vendor patch immediately. Verify exploit applicability in your environment.",
+            "source_tag": "Exploit-DB",
+        })
+
+    log_agent(AGENT_NAME, f"Exploit-DB fetched {len(items)} items")
+    return items
+
+
+def fetch_github_advisories(limit: int = 20) -> List[Dict[str, Any]]:
+    """从 GitHub Security Advisories API 抓取最新安全公告"""
+    url = f"https://api.github.com/advisories?per_page={limit}"
+    data = fetch_json(url, timeout=20)
+    if not data or not isinstance(data, list):
+        log_agent(AGENT_NAME, "GitHub Advisories returned no data")
+        return []
+
+    items = []
+    for adv in data:
+        ghsa_id = adv.get("ghsa_id", "")
+        summary = adv.get("summary", "")
+        desc = adv.get("description", "")[:500]
+        severity = adv.get("severity", "N/A").upper()
+        cvss_score = adv.get("cvss", {}).get("score") if isinstance(adv.get("cvss"), dict) else None
+        refs = []
+        if adv.get("html_url"):
+            refs.append(adv["html_url"])
+
+        # 提取关联的CVE
+        cves = adv.get("cve_ids", [])
+        cve_id = cves[0] if cves else ""
+
+        items.append({
+            "cve_id": cve_id or ghsa_id,
+            "title": f"{cve_id or ghsa_id} - {summary[:80]}",
+            "description": f"[GitHub Advisory] {desc}",
+            "cvss_score": cvss_score,
+            "severity": severity,
+            "cwes": [],
+            "references": refs,
+            "published": adv.get("published_at", ""),
+            "last_modified": adv.get("updated_at", ""),
+            "solution": f"See GitHub Security Advisory {ghsa_id} for affected packages and patched versions.",
+            "source_tag": "GitHub-Advisory",
+        })
+
+    log_agent(AGENT_NAME, f"GitHub Advisories fetched {len(items)} items")
+    return items
+
+
 def fetch_cisa_kev() -> List[Dict[str, Any]]:
-    """从 CISA KEV 抓取已知被利用漏洞"""
+    """从 CISA KEV 抓取已知被利用漏洞（网络受限时可能失败）"""
     url = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
     data = fetch_json(url, timeout=30)
     if not data or "vulnerabilities" not in data:
         return []
 
     items = []
-    # 只取最近更新的前 N 条
     vulns = sorted(
         data["vulnerabilities"],
         key=lambda x: x.get("dateAdded", ""),
@@ -108,12 +187,11 @@ def fetch_cisa_kev() -> List[Dict[str, Any]]:
         vendor = v.get("vendorProject", "Unknown")
         desc = v.get("vulnerabilityName", "")
         due_date = v.get("dueDate", "")
-        notes = v.get("notes", "")
 
-        item = {
+        items.append({
             "cve_id": cve_id,
             "title": f"{cve_id} - {desc}",
-            "description": f"Vendor: {vendor}, Product: {product}. {desc}. Due date: {due_date}. Notes: {notes}",
+            "description": f"[CISA KEV] Vendor: {vendor}, Product: {product}. {desc}. Due date: {due_date}.",
             "cvss_score": None,
             "severity": "KEV",
             "cwes": [],
@@ -121,8 +199,8 @@ def fetch_cisa_kev() -> List[Dict[str, Any]]:
             "published": v.get("dateAdded", ""),
             "last_modified": v.get("dateAdded", ""),
             "solution": f"Apply vendor patch before {due_date}. CISA directive enforcement required.",
-        }
-        items.append(item)
+            "source_tag": "CISA-KEV",
+        })
 
     log_agent(AGENT_NAME, f"CISA KEV fetched {len(items)} items")
     return items
@@ -133,24 +211,42 @@ def fetch_cisa_kev() -> List[Dict[str, Any]]:
 # ---------------------------------------------------------------------------
 
 def build_md_items(items: List[dict]) -> List[Dict[str, Any]]:
-    """将原始 items 转为双语 MD 结构"""
-    sections = []
-    section_items = []
-
+    """将原始 items 转为双语 MD 结构，按 source_tag 分组"""
+    # 分组
+    groups: Dict[str, List[dict]] = {"NVD": [], "Exploit-DB": [], "GitHub-Advisory": [], "CISA-KEV": [], "other": []}
     for item in items:
-        cve_id = item.get("cve_id", "N/A")
-        desc = item.get("description", "")
-        severity = item.get("severity", "N/A")
-        cvss = item.get("cvss_score")
-        cwes = item.get("cwes", [])
-        refs = item.get("references", [])
-        solution = item.get("solution", "Refer to vendor security advisory for patch and mitigation guidance.")
+        tag = item.get("source_tag", "other")
+        groups.setdefault(tag, []).append(item)
 
-        cvss_str = f"CVSS: {cvss}" if cvss is not None else "CVSS: N/A"
-        cwes_str = f"CWE: {', '.join(cwes)}" if cwes else ""
-        refs_str = "\n".join([f"- {r}" for r in refs]) if refs else ""
+    sections = []
+    group_titles = {
+        "NVD": ("CVE 漏洞库 (NVD)", "CVE Database (NVD)"),
+        "Exploit-DB": ("公开利用代码 / 0-Day (Exploit-DB)", "Public Exploits / 0-Day (Exploit-DB)"),
+        "GitHub-Advisory": ("GitHub 安全公告", "GitHub Security Advisories"),
+        "CISA-KEV": ("CISA 已知被利用漏洞", "CISA Known Exploited Vulnerabilities"),
+        "other": ("其他来源", "Other Sources"),
+    }
 
-        zh_content = f"""**CVE编号**: {cve_id}
+    for tag, group_items in groups.items():
+        if not group_items:
+            continue
+        section_items = []
+        for item in group_items:
+            cve_id = item.get("cve_id", "N/A")
+            desc = item.get("description", "")
+            severity = item.get("severity", "N/A")
+            cvss = item.get("cvss_score")
+            cwes = item.get("cwes", [])
+            refs = item.get("references", [])
+            solution = item.get("solution", "Refer to vendor security advisory for patch and mitigation guidance.")
+            source_tag = item.get("source_tag", "")
+
+            cvss_str = f"CVSS: {cvss}" if cvss is not None else ""
+            cwes_str = f"CWE: {', '.join(cwes)}" if cwes else ""
+            refs_str = "\n".join([f"- {r}" for r in refs]) if refs else ""
+            src_badge = f"[{source_tag}]" if source_tag else ""
+
+            zh_content = f"""**CVE/编号**: {cve_id} {src_badge}
 **严重程度**: {severity} | {cvss_str}
 {cwes_str}
 
@@ -163,7 +259,7 @@ def build_md_items(items: List[dict]) -> List[Dict[str, Any]]:
 **参考链接**:
 {refs_str}"""
 
-        en_content = f"""**CVE ID**: {cve_id}
+            en_content = f"""**CVE/ID**: {cve_id} {src_badge}
 **Severity**: {severity} | {cvss_str}
 {cwes_str}
 
@@ -176,24 +272,26 @@ def build_md_items(items: List[dict]) -> List[Dict[str, Any]]:
 **References**:
 {refs_str}"""
 
-        section_items.append({
-            "zh": {
-                "title": f"{cve_id} ({severity})",
-                "content": zh_content,
-                "source": refs[0] if refs else "NVD",
-            },
-            "en": {
-                "title": f"{cve_id} ({severity})",
-                "content": en_content,
-                "source": refs[0] if refs else "NVD",
-            },
+            section_items.append({
+                "zh": {
+                    "title": f"{cve_id} ({severity})",
+                    "content": zh_content,
+                    "source": refs[0] if refs else source_tag,
+                },
+                "en": {
+                    "title": f"{cve_id} ({severity})",
+                    "content": en_content,
+                    "source": refs[0] if refs else source_tag,
+                },
+            })
+
+        zh_heading, en_heading = group_titles.get(tag, (tag, tag))
+        sections.append({
+            "heading_zh": zh_heading,
+            "heading_en": en_heading,
+            "items": section_items,
         })
 
-    sections.append({
-        "heading_zh": "最新漏洞列表",
-        "heading_en": "Latest Vulnerabilities",
-        "items": section_items,
-    })
     return sections
 
 
@@ -204,7 +302,7 @@ def run():
     all_items = []
     errors = []
 
-    # 1. NVD
+    # 1. NVD (基础源，稳定50条)
     try:
         nvd_items = fetch_nvd_cves(limit=50)
         all_items.extend(nvd_items)
@@ -212,7 +310,23 @@ def run():
         errors.append(f"NVD: {e}")
         log_agent(AGENT_NAME, f"NVD error: {e}")
 
-    # 2. CISA KEV
+    # 2. Exploit-DB (0-day / 公开利用)
+    try:
+        edb_items = fetch_exploit_db(limit=30)
+        all_items.extend(edb_items)
+    except Exception as e:
+        errors.append(f"Exploit-DB: {e}")
+        log_agent(AGENT_NAME, f"Exploit-DB error: {e}")
+
+    # 3. GitHub Advisories (最新安全公告)
+    try:
+        gh_items = fetch_github_advisories(limit=20)
+        all_items.extend(gh_items)
+    except Exception as e:
+        errors.append(f"GitHub-Advisories: {e}")
+        log_agent(AGENT_NAME, f"GitHub-Advisories error: {e}")
+
+    # 4. CISA KEV (网络受限时可能失败)
     try:
         cisa_items = fetch_cisa_kev()
         all_items.extend(cisa_items)
@@ -226,20 +340,17 @@ def run():
     new_items = filter_new_items("network-security", all_items, keep_old_methods=True)
     log_agent(AGENT_NAME, f"New items after dedup: {len(new_items)}")
 
-    # 如果新条目不足50，尝试补充（从历史中加载已有条目合并）
+    # 补充到展示数量
     state = __import__("utils").load_state()
     all_stored = list(state.get("network-security", {}).values())
-    # 合并新+已有用于展示，但只写新条目到增量文件
-    display_items = new_items
-    if len(new_items) < MIN_ITEMS:
-        # 从历史中补充到50条用于显示
-        stored_items = [s["data"] for s in all_stored[:MIN_ITEMS]]
-        # 去重
+    display_items = list(new_items)
+    if len(display_items) < MIN_ITEMS:
         seen_ids = {__import__("utils").dedup_key(i) for i in new_items}
-        for s in stored_items:
-            if __import__("utils").dedup_key(s) not in seen_ids:
-                display_items.append(s)
-                seen_ids.add(__import__("utils").dedup_key(s))
+        for s in all_stored:
+            d = s["data"]
+            if __import__("utils").dedup_key(d) not in seen_ids:
+                display_items.append(d)
+                seen_ids.add(__import__("utils").dedup_key(d))
             if len(display_items) >= MIN_ITEMS:
                 break
         log_agent(AGENT_NAME, f"Padded to {len(display_items)} items from history")
@@ -249,15 +360,14 @@ def run():
     md_content = make_bilingual_md(
         title_zh="网络安全漏洞知识库",
         title_en="Network Security Vulnerability Knowledge Base",
-        intro_zh="本页面每小时自动从 NVD、CISA KEV 等平台抓取最新网络安全漏洞及应对措施，自动去重并增量更新。",
-        intro_en="This page is auto-updated hourly from NVD, CISA KEV, and other platforms. Deduplicated and incrementally maintained.",
+        intro_zh="本页面每小时自动从 NVD、Exploit-DB、GitHub Security Advisories、CISA KEV 等平台抓取最新网络安全漏洞（含0-Day公开利用）、应对措施及补丁信息，自动去重并增量更新。",
+        intro_en="Auto-updated hourly from NVD, Exploit-DB, GitHub Security Advisories, CISA KEV. Covers CVEs, public exploits (0-Day), and mitigation guidance. Deduplicated and incrementally maintained.",
         sections=sections,
         nav_links=[{"text_zh": "返回首页", "text_en": "Back to Home", "href": "../README.md"}],
     )
     write_md_file(OUTPUT_DIR / "index.md", md_content)
 
     # 汇报
-    state = __import__("utils").load_state()
     total = len(state.get("network-security", {}))
     report = write_report(AGENT_NAME, len(new_items), total, errors)
     log_agent(AGENT_NAME, f"Report: new={report['new_items']}, total={report['total_items']}, errors={len(errors)}")

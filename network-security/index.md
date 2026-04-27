@@ -8,18 +8,531 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 03:13:01 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 03:20:38 UTC_
 
 ## 中文 🇨🇳
 **网络安全漏洞知识库**
 
-本页面每小时自动从 NVD、CISA KEV 等平台抓取最新网络安全漏洞及应对措施，自动去重并增量更新。
+本页面每小时自动从 NVD、Exploit-DB、GitHub Security Advisories、CISA KEV 等平台抓取最新网络安全漏洞（含0-Day公开利用）、应对措施及补丁信息，自动去重并增量更新。
 
-### 最新漏洞列表
+### 公开利用代码 / 0-Day (Exploit-DB)
+
+#### 1. EDB-52512 (EXPLOIT)
+
+**CVE/编号**: EDB-52512 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] Throttlestop Kernel Driver - Kernel Out-of-Bounds Write Privilege Escalation
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52512
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52512
+
+#### 2. EDB-52511 (EXPLOIT)
+
+**CVE/编号**: EDB-52511 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] WordPress Plugin  5.2.0 - Broken Access Control
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52511
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52511
+
+#### 3. EDB-52510 (EXPLOIT)
+
+**CVE/编号**: EDB-52510 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] AVAST Antivirus 25.11 - Unquoted Service Path
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52510
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52510
+
+#### 4. EDB-52509 (EXPLOIT)
+
+**CVE/编号**: EDB-52509 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] NetBT e-Fatura - Privilege Escalation
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52509
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52509
+
+#### 5. EDB-52508 (EXPLOIT)
+
+**CVE/编号**: EDB-52508 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] D-Link DIR-650IN - Authenticated Command Injection
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52508
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52508
+
+#### 6. EDB-52506 (EXPLOIT)
+
+**CVE/编号**: EDB-52506 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] React Server 19.2.0 - Remote Code Execution
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52506
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52506
+
+#### 7. EDB-52505 (EXPLOIT)
+
+**CVE/编号**: EDB-52505 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] RomM  4.4.0 -  XSS_CSRF Chain
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52505
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52505
+
+#### 8. EDB-52504 (EXPLOIT)
+
+**CVE/编号**: EDB-52504 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] Jumbo Website Manager  - Remote Code Execution
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52504
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52504
+
+#### 9. EDB-52503 (EXPLOIT)
+
+**CVE/编号**: EDB-52503 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] ZSH 5.9 - RCE
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52503
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52503
+
+#### 10. EDB-52502 (EXPLOIT)
+
+**CVE/编号**: EDB-52502 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] FortiWeb  8.0.2 - Remote Code Execution
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52502
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52502
+
+#### 11. EDB-52501 (EXPLOIT)
+
+**CVE/编号**: EDB-52501 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] 7-Zip 24.00 - Directory Traversal
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52501
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52501
+
+#### 12. EDB-52500 (EXPLOIT)
+
+**CVE/编号**: EDB-52500 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] xibocms 3.3.4 - RCE
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52500
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52500
+
+#### 13. EDB-52499 (EXPLOIT)
+
+**CVE/编号**: EDB-52499 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] SQLite 3.50.1 - Heap Overflow
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52499
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52499
+
+#### 14. EDB-52498 (EXPLOIT)
+
+**CVE/编号**: EDB-52498 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] Microsoft MMC MSC EvilTwin - Local Admin Creation
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52498
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52498
+
+#### 15. EDB-52497 (EXPLOIT)
+
+**CVE/编号**: EDB-52497 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] Horilla v1.3 - RCE
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52497
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52497
+
+#### 16. EDB-52496 (EXPLOIT)
+
+**CVE/编号**: EDB-52496 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] is-localhost-ip 2.0.0 - SSRF
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52496
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52496
+
+#### 17. EDB-52495 (EXPLOIT)
+
+**CVE/编号**: EDB-52495 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] Fortinet FortiWeb v8.0.1 - Auth Bypass
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52495
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52495
+
+#### 18. EDB-52494 (EXPLOIT)
+
+**CVE/编号**: EDB-52494 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] Windows Kernel - Elevation of Privilege
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52494
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52494
+
+#### 19. EDB-52493 (EXPLOIT)
+
+**CVE/编号**: EDB-52493 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] Desktop Window Manager Core Library 10.0.10240.0 - Privilege Escalation
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52493
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52493
+
+#### 20. EDB-52492 (EXPLOIT)
+
+**CVE/编号**: EDB-52492 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] ASP.net  8.0.10 - Bypass
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52492
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52492
+
+#### 21. EDB-52491 (EXPLOIT)
+
+**CVE/编号**: EDB-52491 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] Grafana 11.6.0 - SSRF
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52491
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52491
+
+#### 22. EDB-52490 (EXPLOIT)
+
+**CVE/编号**: EDB-52490 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] Zhiyuan OA - arbitrary file upload leading
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52490
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52490
+
+#### 23. EDB-52489 (EXPLOIT)
+
+**CVE/编号**: EDB-52489 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] WBCE CMS 1.6.4 - Remote Code Execution
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52489
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52489
+
+#### 24. EDB-52488 (EXPLOIT)
+
+**CVE/编号**: EDB-52488 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] RiteCMS 3.1.0 - Authenticated Remote Code Execution
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52488
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52488
+
+#### 25. EDB-52487 (EXPLOIT)
+
+**CVE/编号**: EDB-52487 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] WordPress  Madara - Local File Inclusion
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52487
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52487
+
+#### 26. EDB-52486 (EXPLOIT)
+
+**CVE/编号**: EDB-52486 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] WordPress Backup Migration 1.3.7 - Remote Command Execution
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52486
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52486
+
+#### 27. EDB-52485 (EXPLOIT)
+
+**CVE/编号**: EDB-52485 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] mailcow 2025-01a - Host Header Password Reset Poisoning
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52485
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52485
+
+#### 28. EDB-52484 (EXPLOIT)
+
+**CVE/编号**: EDB-52484 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] Easy File Sharing Web Server v7.2 - Buffer Overflow
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52484
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52484
+
+#### 29. EDB-52483 (EXPLOIT)
+
+**CVE/编号**: EDB-52483 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] WeGIA 3.5.0 - SQL Injection
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52483
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52483
+
+#### 30. EDB-52482 (EXPLOIT)
+
+**CVE/编号**: EDB-52482 [Exploit-DB]
+**严重程度**: EXPLOIT | 
+
+
+**漏洞描述**:
+[Exploit-DB] Boss Mini v1.4.0 - Local File Inclusion (LFI)
+
+**应对措施 / 缓解方案**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**参考链接**:
+- https://www.exploit-db.com/exploits/52482
+
+> 📎 来源 / Source: https://www.exploit-db.com/exploits/52482
+
+
+### 其他来源
 
 #### 1. CVE-1999-0095 (N/A)
 
-**CVE编号**: CVE-1999-0095
+**CVE/编号**: CVE-1999-0095 
 **严重程度**: N/A | CVSS: 10.0
 
 
@@ -40,7 +553,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 2. CVE-1999-0082 (N/A)
 
-**CVE编号**: CVE-1999-0082
+**CVE/编号**: CVE-1999-0082 
 **严重程度**: N/A | CVSS: 10.0
 
 
@@ -58,7 +571,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 3. CVE-1999-1471 (N/A)
 
-**CVE编号**: CVE-1999-1471
+**CVE/编号**: CVE-1999-1471 
 **严重程度**: N/A | CVSS: 7.2
 
 
@@ -79,7 +592,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 4. CVE-1999-1122 (N/A)
 
-**CVE编号**: CVE-1999-1122
+**CVE/编号**: CVE-1999-1122 
 **严重程度**: N/A | CVSS: 4.6
 
 
@@ -100,7 +613,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 5. CVE-1999-1467 (N/A)
 
-**CVE编号**: CVE-1999-1467
+**CVE/编号**: CVE-1999-1467 
 **严重程度**: N/A | CVSS: 10.0
 
 
@@ -121,7 +634,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 6. CVE-1999-1506 (N/A)
 
-**CVE编号**: CVE-1999-1506
+**CVE/编号**: CVE-1999-1506 
 **严重程度**: N/A | CVSS: 7.5
 
 
@@ -141,7 +654,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 7. CVE-1999-0084 (HIGH)
 
-**CVE编号**: CVE-1999-0084
+**CVE/编号**: CVE-1999-0084 
 **严重程度**: HIGH | CVSS: 8.4
 CWE: CWE-269
 
@@ -159,7 +672,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 8. CVE-2000-0388 (N/A)
 
-**CVE编号**: CVE-2000-0388
+**CVE/编号**: CVE-2000-0388 
 **严重程度**: N/A | CVSS: 7.5
 
 
@@ -179,7 +692,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 9. CVE-1999-0209 (N/A)
 
-**CVE编号**: CVE-1999-0209
+**CVE/编号**: CVE-1999-0209 
 **严重程度**: N/A | CVSS: 5.0
 
 
@@ -197,7 +710,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 10. CVE-1999-1198 (N/A)
 
-**CVE编号**: CVE-1999-1198
+**CVE/编号**: CVE-1999-1198 
 **严重程度**: N/A | CVSS: 7.2
 
 
@@ -218,7 +731,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 11. CVE-1999-1391 (N/A)
 
-**CVE编号**: CVE-1999-1391
+**CVE/编号**: CVE-1999-1391 
 **严重程度**: N/A | CVSS: 7.2
 
 
@@ -239,7 +752,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 12. CVE-1999-1392 (N/A)
 
-**CVE编号**: CVE-1999-1392
+**CVE/编号**: CVE-1999-1392 
 **严重程度**: N/A | CVSS: 7.2
 
 
@@ -260,7 +773,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 13. CVE-1999-1057 (N/A)
 
-**CVE编号**: CVE-1999-1057
+**CVE/编号**: CVE-1999-1057 
 **严重程度**: N/A | CVSS: 4.6
 
 
@@ -281,7 +794,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 14. CVE-1999-1554 (N/A)
 
-**CVE编号**: CVE-1999-1554
+**CVE/编号**: CVE-1999-1554 
 **严重程度**: N/A | CVSS: 2.1
 
 
@@ -302,7 +815,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 15. CVE-1999-1197 (N/A)
 
-**CVE编号**: CVE-1999-1197
+**CVE/编号**: CVE-1999-1197 
 **严重程度**: N/A | CVSS: 7.2
 
 
@@ -323,7 +836,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 16. CVE-1999-1115 (N/A)
 
-**CVE编号**: CVE-1999-1115
+**CVE/编号**: CVE-1999-1115 
 **严重程度**: N/A | CVSS: 7.2
 
 
@@ -344,7 +857,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 17. CVE-1999-1258 (N/A)
 
-**CVE编号**: CVE-1999-1258
+**CVE/编号**: CVE-1999-1258 
 **严重程度**: N/A | CVSS: 5.0
 
 
@@ -364,7 +877,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 18. CVE-1999-1438 (N/A)
 
-**CVE编号**: CVE-1999-1438
+**CVE/编号**: CVE-1999-1438 
 **严重程度**: N/A | CVSS: 7.2
 
 
@@ -385,7 +898,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 19. CVE-1999-1211 (N/A)
 
-**CVE编号**: CVE-1999-1211
+**CVE/编号**: CVE-1999-1211 
 **严重程度**: N/A | CVSS: 7.2
 
 
@@ -405,7 +918,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 20. CVE-1999-1212 (N/A)
 
-**CVE编号**: CVE-1999-1212
+**CVE/编号**: CVE-1999-1212 
 **严重程度**: N/A | CVSS: 7.2
 
 
@@ -423,616 +936,532 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 > 📎 来源 / Source: http://www.cert.org/advisories/CA-1991-02.html
 
-#### 21. CVE-1999-1194 (N/A)
-
-**CVE编号**: CVE-1999-1194
-**严重程度**: N/A | CVSS: 7.2
-
-
-**漏洞描述**:
-chroot in Digital Ultrix 4.1 and 4.0 is insecurely installed, which allows local users to gain privileges.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://www.cert.org/advisories/CA-1991-05.html
-- http://www.securityfocus.com/bid/17
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/577
-- http://www.cert.org/advisories/CA-1991-05.html
-- http://www.securityfocus.com/bid/17
-
-> 📎 来源 / Source: http://www.cert.org/advisories/CA-1991-05.html
-
-#### 22. CVE-1999-1193 (N/A)
-
-**CVE编号**: CVE-1999-1193
-**严重程度**: N/A | CVSS: 10.0
-
-
-**漏洞描述**:
-The "me" user in NeXT NeXTstep 2.1 and earlier has wheel group privileges, which could allow the me user to use the su command to become root.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://www.cert.org/advisories/CA-1991-06.html
-- http://www.securityfocus.com/bid/20
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/581
-- http://www.cert.org/advisories/CA-1991-06.html
-- http://www.securityfocus.com/bid/20
-
-> 📎 来源 / Source: http://www.cert.org/advisories/CA-1991-06.html
-
-#### 23. CVE-1999-1123 (N/A)
-
-**CVE编号**: CVE-1999-1123
-**严重程度**: N/A | CVSS: 7.2
-
-
-**漏洞描述**:
-The installation of Sun Source (sunsrc) tapes allows local users to gain root privileges via setuid root programs (1) makeinstall or (2) winstall.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/107&type=0&nav=sec.sba
-- http://www.cert.org/advisories/CA-1991-07.html
-- http://www.securityfocus.com/bid/21
-- http://www.securityfocus.com/bid/22
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/582
-
-> 📎 来源 / Source: http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/107&type=0&nav=sec.sba
-
-#### 24. CVE-1999-1034 (N/A)
-
-**CVE编号**: CVE-1999-1034
-**严重程度**: N/A | CVSS: 7.2
-
-
-**漏洞描述**:
-Vulnerability in login in AT&T System V Release 4 allows local users to gain privileges.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://www.cert.org/advisories/CA-1991-08.html
-- http://www.ciac.org/ciac/bulletins/b-28.shtml
-- http://www.securityfocus.com/bid/23
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/583
-- http://www.cert.org/advisories/CA-1991-08.html
-
-> 📎 来源 / Source: http://www.cert.org/advisories/CA-1991-08.html
-
-#### 25. CVE-1999-1415 (N/A)
-
-**CVE编号**: CVE-1999-1415
-**严重程度**: N/A | CVSS: 4.6
-
-
-**漏洞描述**:
-Vulnerability in /usr/bin/mail in DEC ULTRIX before 4.2 allows local users to gain privileges.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://www.cert.org/advisories/CA-91.13.Ultrix.mail.vulnerability
-- http://www.securityfocus.com/bid/27
-- http://www.cert.org/advisories/CA-91.13.Ultrix.mail.vulnerability
-- http://www.securityfocus.com/bid/27
-
-> 📎 来源 / Source: http://www.cert.org/advisories/CA-91.13.Ultrix.mail.vulnerability
-
-#### 26. CVE-1999-1090 (N/A)
-
-**CVE编号**: CVE-1999-1090
-**严重程度**: N/A | CVSS: 7.5
-
-
-**漏洞描述**:
-The default configuration of NCSA Telnet package for Macintosh and PC enables FTP, even though it does not include an "ftp=yes" line, which allows remote attackers to read and modify arbitrary files.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://www.cert.org/advisories/CA-1991-15.html
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/1844
-- http://www.cert.org/advisories/CA-1991-15.html
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/1844
-
-> 📎 来源 / Source: http://www.cert.org/advisories/CA-1991-15.html
-
-#### 27. CVE-1999-0498 (N/A)
-
-**CVE编号**: CVE-1999-0498
-**严重程度**: N/A | CVSS: 10.0
-
-
-**漏洞描述**:
-TFTP is not running in a restricted directory, allowing a remote attacker to access sensitive information such as password files.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0498
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0498
-
-> 📎 来源 / Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0498
-
-#### 28. CVE-1999-1468 (N/A)
-
-**CVE编号**: CVE-1999-1468
-**严重程度**: N/A | CVSS: 6.2
-
-
-**漏洞描述**:
-rdist in various UNIX systems uses popen to execute sendmail, which allows local users to gain root privileges by modifying the IFS (Internal Field Separator) variable.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://www.alw.nih.gov/Security/8lgm/8lgm-Advisory-01.html
-- http://www.cert.org/advisories/CA-91.20.rdist.vulnerability
-- http://www.iss.net/security_center/static/7160.php
-- http://www.osvdb.org/8106
-- http://www.securityfocus.com/bid/31
-
-> 📎 来源 / Source: http://www.alw.nih.gov/Security/8lgm/8lgm-Advisory-01.html
-
-#### 29. CVE-1999-0167 (N/A)
-
-**CVE编号**: CVE-1999-0167
-**严重程度**: N/A | CVSS: 4.6
-
-
-**漏洞描述**:
-In SunOS, NFS file handles could be guessed, giving unauthorized access to the exported file system.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0167
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0167
-
-> 📎 来源 / Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0167
-
-#### 30. CVE-1999-1493 (N/A)
-
-**CVE编号**: CVE-1999-1493
-**严重程度**: N/A | CVSS: 10.0
-
-
-**漏洞描述**:
-Vulnerability in crp in Hewlett Packard Apollo Domain OS SR10 through SR10.3 allows remote attackers to gain root privileges via insecure system calls, (1) pad_$dm_cmd and (2) pad_$def_pfk().
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://www.cert.org/advisories/CA-1991-23.html
-- http://www.securityfocus.com/bid/34
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/7158
-- http://www.cert.org/advisories/CA-1991-23.html
-- http://www.securityfocus.com/bid/34
-
-> 📎 来源 / Source: http://www.cert.org/advisories/CA-1991-23.html
-
-#### 31. CVE-1999-1032 (N/A)
-
-**CVE编号**: CVE-1999-1032
-**严重程度**: N/A | CVSS: 10.0
-
-
-**漏洞描述**:
-Vulnerability in LAT/Telnet Gateway (lattelnet) on Ultrix 4.1 and 4.2 allows attackers to gain root privileges.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://ciac.llnl.gov/ciac/bulletins/b-36.shtml
-- http://www.cert.org/advisories/CA-1991-11.html
-- http://www.securityfocus.com/bid/26
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/584
-- http://ciac.llnl.gov/ciac/bulletins/b-36.shtml
-
-> 📎 来源 / Source: http://ciac.llnl.gov/ciac/bulletins/b-36.shtml
-
-#### 32. CVE-1999-1059 (N/A)
-
-**CVE编号**: CVE-1999-1059
-**严重程度**: N/A | CVSS: 10.0
-
-
-**漏洞描述**:
-Vulnerability in rexec daemon (rexecd) in AT&T TCP/IP 4.0 for various SVR4 systems allows remote attackers to execute arbitrary commands.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://www.cert.org/advisories/CA-1992-04.html
-- http://www.iss.net/security_center/static/3159.php
-- http://www.securityfocus.com/bid/36
-- http://www.cert.org/advisories/CA-1992-04.html
-- http://www.iss.net/security_center/static/3159.php
-
-> 📎 来源 / Source: http://www.cert.org/advisories/CA-1992-04.html
-
-#### 33. CVE-1999-0627 (N/A)
-
-**CVE编号**: CVE-1999-0627
-**严重程度**: N/A | CVSS: 0.0
-
-
-**漏洞描述**:
-The rexd service is running, which uses weak authentication that can allow an attacker to execute commands.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0627
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0627
-
-> 📎 来源 / Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0627
-
-#### 34. CVE-1999-1121 (N/A)
-
-**CVE编号**: CVE-1999-1121
-**严重程度**: N/A | CVSS: 7.2
-
-
-**漏洞描述**:
-The default configuration for UUCP in AIX before 3.2 allows local users to gain root privileges.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://www.cert.org/advisories/CA-1992-06.html
-- http://www.osvdb.org/891
-- http://www.securityfocus.com/bid/38
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/554
-- http://www.cert.org/advisories/CA-1992-06.html
-
-> 📎 来源 / Source: http://www.cert.org/advisories/CA-1992-06.html
-
-#### 35. CVE-1999-0117 (N/A)
-
-**CVE编号**: CVE-1999-0117
-**严重程度**: N/A | CVSS: 7.2
-
-
-**漏洞描述**:
-AIX passwd allows local users to gain root access.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0117
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0117
-
-> 📎 来源 / Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0117
-
-#### 36. CVE-1999-1119 (N/A)
-
-**CVE编号**: CVE-1999-1119
-**严重程度**: N/A | CVSS: 10.0
-
-
-**漏洞描述**:
-FTP installation script anon.ftp in AIX insecurely configures anonymous FTP, which allows remote attackers to execute arbitrary commands.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://www.cert.org/advisories/CA-1992-09.html
-- http://www.securityfocus.com/bid/41
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/3154
-- http://www.cert.org/advisories/CA-1992-09.html
-- http://www.securityfocus.com/bid/41
-
-> 📎 来源 / Source: http://www.cert.org/advisories/CA-1992-09.html
-
-#### 37. CVE-1999-1142 (N/A)
-
-**CVE编号**: CVE-1999-1142
-**严重程度**: N/A | CVSS: 7.2
-
-
-**漏洞描述**:
-SunOS 4.1.2 and earlier allows local users to gain privileges via "LD_*" environmental variables to certain dynamically linked setuid or setgid programs such as (1) login, (2) su, or (3) sendmail, that change the real and effective user ids to the same user.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/116
-- http://www.cert.org/advisories/CA-1992-11.html
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/3152
-- http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/116
-- http://www.cert.org/advisories/CA-1992-11.html
-
-> 📎 来源 / Source: http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/116
-
-#### 38. CVE-1999-0168 (N/A)
-
-**CVE编号**: CVE-1999-0168
-**严重程度**: N/A | CVSS: 7.5
-
-
-**漏洞描述**:
-The portmapper may act as a proxy and redirect service requests from an attacker, making the request appear to come from the local host, possibly bypassing authentication that would otherwise have taken place.  For example, NFS file systems could be mounted through the portmapper despite export restrictions.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0168
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0168
-
-> 📎 来源 / Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0168
-
-#### 39. CVE-1999-0214 (N/A)
-
-**CVE编号**: CVE-1999-0214
-**严重程度**: N/A | CVSS: 10.0
-
-
-**漏洞描述**:
-Denial of service by sending forged ICMP unreachable packets.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- https://www.cve.org/CVERecord?id=CVE-1999-0214
-- https://www.cve.org/CVERecord?id=CVE-1999-0214
-
-> 📎 来源 / Source: https://www.cve.org/CVERecord?id=CVE-1999-0214
-
-#### 40. CVE-1999-1396 (N/A)
-
-**CVE编号**: CVE-1999-1396
-**严重程度**: N/A | CVSS: 7.2
-
-
-**漏洞描述**:
-Vulnerability in integer multiplication emulation code on SPARC architectures for SunOS 4.1 through 4.1.2 allows local users to gain root access or cause a denial of service (crash).
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://www.cert.org/advisories/CA-1992-15.html
-- http://www.iss.net/security_center/static/7150.php
-- http://www.securityfocus.com/bid/49
-- http://www.cert.org/advisories/CA-1992-15.html
-- http://www.iss.net/security_center/static/7150.php
-
-> 📎 来源 / Source: http://www.cert.org/advisories/CA-1992-15.html
-
-#### 41. CVE-1999-1395 (N/A)
-
-**CVE编号**: CVE-1999-1395
-**严重程度**: N/A | CVSS: 7.2
-
-
-**漏洞描述**:
-Vulnerability in Monitor utility (SYS$SHARE:SPISHR.EXE) in VMS 5.0 through 5.4-2 allows local users to gain privileges.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://osvdb.org/59332
-- http://www.cert.org/advisories/CA-1992-18.html
-- http://www.cert.org/advisories/CA-92.16.VMS.Monitor.vulnerability
-- http://www.iss.net/security_center/static/7136.php
-- http://www.securityfocus.com/bid/51
-
-> 📎 来源 / Source: http://osvdb.org/59332
-
-#### 42. CVE-1999-1306 (N/A)
-
-**CVE编号**: CVE-1999-1306
-**严重程度**: N/A | CVSS: 7.5
-
-
-**漏洞描述**:
-Cisco IOS 9.1 and earlier does not properly handle extended IP access lists when the IP route cache is enabled and the "established" keyword is set, which could allow attackers to bypass filters.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://www.cert.org/advisories/CA-1992-20.html
-- http://www.cert.org/advisories/CA-1992-20.html
-
-> 📎 来源 / Source: http://www.cert.org/advisories/CA-1992-20.html
-
-#### 43. CVE-1999-1466 (N/A)
-
-**CVE编号**: CVE-1999-1466
-**严重程度**: N/A | CVSS: 7.5
-
-
-**漏洞描述**:
-Vulnerability in Cisco routers versions 8.2 through 9.1 allows remote attackers to bypass access control lists when extended IP access lists are used on certain interfaces, the IP route cache is enabled, and the access list uses the "established" keyword.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://www.cert.org/advisories/CA-1992-20.html
-- http://www.securityfocus.com/bid/53
-- http://www.cert.org/advisories/CA-1992-20.html
-- http://www.securityfocus.com/bid/53
-
-> 📎 来源 / Source: http://www.cert.org/advisories/CA-1992-20.html
-
-#### 44. CVE-1999-1021 (N/A)
-
-**CVE编号**: CVE-1999-1021
-**严重程度**: N/A | CVSS: 7.2
-
-
-**漏洞描述**:
-NFS on SunOS 4.1 through 4.1.2 ignores the high order 16 bits in a 32 bit UID, which allows a local user to gain root access if the lower 16 bits are set to 0, as fixed by the NFS jumbo patch upgrade.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/117&type=0&nav=sec.sba
-- http://www.cert.org/advisories/CA-1992-15.html
-- http://www.securityfocus.com/bid/47
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/82
-- http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/117&type=0&nav=sec.sba
-
-> 📎 来源 / Source: http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/117&type=0&nav=sec.sba
-
-#### 45. CVE-1999-1056 (N/A)
-
-**CVE编号**: CVE-1999-1056
-**严重程度**: N/A | CVSS: N/A
-
-
-**漏洞描述**:
-Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-1395.  Reason: This candidate is a duplicate of CVE-1999-1395.  Notes: All CVE users should reference CVE-1999-1395 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-
-
-> 📎 来源 / Source: NVD
-
-#### 46. CVE-1999-0312 (N/A)
-
-**CVE编号**: CVE-1999-0312
-**严重程度**: N/A | CVSS: 5.0
-
-
-**漏洞描述**:
-HP ypbind allows attackers with root privileges to modify NIS data.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0312
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0312
-
-> 📎 来源 / Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0312
-
-#### 47. CVE-1999-1507 (N/A)
-
-**CVE编号**: CVE-1999-1507
-**严重程度**: N/A | CVSS: 7.2
-
-
-**漏洞描述**:
-Sun SunOS 4.1 through 4.1.3 allows local attackers to gain root access via insecure permissions on files and directories such as crash.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://www.cert.org/advisories/CA-1993-03.html
-- http://www.securityfocus.com/bid/59
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/521
-- http://www.cert.org/advisories/CA-1993-03.html
-- http://www.securityfocus.com/bid/59
-
-> 📎 来源 / Source: http://www.cert.org/advisories/CA-1993-03.html
-
-#### 48. CVE-1999-1218 (N/A)
-
-**CVE编号**: CVE-1999-1218
-**严重程度**: N/A | CVSS: 2.1
-
-
-**漏洞描述**:
-Vulnerability in finger in Commodore Amiga UNIX 2.1p2a and earlier allows local users to read arbitrary files.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://www.cert.org/advisories/CA-1993-04.html
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/522
-- http://www.cert.org/advisories/CA-1993-04.html
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/522
-
-> 📎 来源 / Source: http://www.cert.org/advisories/CA-1993-04.html
-
-#### 49. CVE-1999-1312 (N/A)
-
-**CVE编号**: CVE-1999-1312
-**严重程度**: N/A | CVSS: 7.2
-
-
-**漏洞描述**:
-Vulnerability in DEC OpenVMS VAX 5.5-2 through 5.0, and OpenVMS AXP 1.0, allows local users to gain system privileges.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://www.cert.org/advisories/CA-1993-05.html
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/7142
-- http://www.cert.org/advisories/CA-1993-05.html
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/7142
-
-> 📎 来源 / Source: http://www.cert.org/advisories/CA-1993-05.html
-
-#### 50. CVE-1999-1216 (N/A)
-
-**CVE编号**: CVE-1999-1216
-**严重程度**: N/A | CVSS: 7.5
-
-
-**漏洞描述**:
-Cisco routers 9.17 and earlier allow remote attackers to bypass security restrictions via certain IP source routed packets that should normally be denied using the "no ip source-route" command.
-
-**应对措施 / 缓解方案**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**参考链接**:
-- http://ciac.llnl.gov/ciac/bulletins/d-15.shtml
-- http://www.cert.org/advisories/CA-1993-07.html
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/541
-- http://ciac.llnl.gov/ciac/bulletins/d-15.shtml
-- http://www.cert.org/advisories/CA-1993-07.html
-
-> 📎 来源 / Source: http://ciac.llnl.gov/ciac/bulletins/d-15.shtml
-
 
 ---
 
 ## English 🇺🇸
 **Network Security Vulnerability Knowledge Base**
 
-This page is auto-updated hourly from NVD, CISA KEV, and other platforms. Deduplicated and incrementally maintained.
+Auto-updated hourly from NVD, Exploit-DB, GitHub Security Advisories, CISA KEV. Covers CVEs, public exploits (0-Day), and mitigation guidance. Deduplicated and incrementally maintained.
 
-### Latest Vulnerabilities
+### Public Exploits / 0-Day (Exploit-DB)
+
+#### 1. EDB-52512 (EXPLOIT)
+
+**CVE/ID**: EDB-52512 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] Throttlestop Kernel Driver - Kernel Out-of-Bounds Write Privilege Escalation
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52512
+
+> 📎 Source: https://www.exploit-db.com/exploits/52512
+
+#### 2. EDB-52511 (EXPLOIT)
+
+**CVE/ID**: EDB-52511 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] WordPress Plugin  5.2.0 - Broken Access Control
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52511
+
+> 📎 Source: https://www.exploit-db.com/exploits/52511
+
+#### 3. EDB-52510 (EXPLOIT)
+
+**CVE/ID**: EDB-52510 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] AVAST Antivirus 25.11 - Unquoted Service Path
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52510
+
+> 📎 Source: https://www.exploit-db.com/exploits/52510
+
+#### 4. EDB-52509 (EXPLOIT)
+
+**CVE/ID**: EDB-52509 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] NetBT e-Fatura - Privilege Escalation
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52509
+
+> 📎 Source: https://www.exploit-db.com/exploits/52509
+
+#### 5. EDB-52508 (EXPLOIT)
+
+**CVE/ID**: EDB-52508 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] D-Link DIR-650IN - Authenticated Command Injection
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52508
+
+> 📎 Source: https://www.exploit-db.com/exploits/52508
+
+#### 6. EDB-52506 (EXPLOIT)
+
+**CVE/ID**: EDB-52506 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] React Server 19.2.0 - Remote Code Execution
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52506
+
+> 📎 Source: https://www.exploit-db.com/exploits/52506
+
+#### 7. EDB-52505 (EXPLOIT)
+
+**CVE/ID**: EDB-52505 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] RomM  4.4.0 -  XSS_CSRF Chain
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52505
+
+> 📎 Source: https://www.exploit-db.com/exploits/52505
+
+#### 8. EDB-52504 (EXPLOIT)
+
+**CVE/ID**: EDB-52504 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] Jumbo Website Manager  - Remote Code Execution
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52504
+
+> 📎 Source: https://www.exploit-db.com/exploits/52504
+
+#### 9. EDB-52503 (EXPLOIT)
+
+**CVE/ID**: EDB-52503 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] ZSH 5.9 - RCE
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52503
+
+> 📎 Source: https://www.exploit-db.com/exploits/52503
+
+#### 10. EDB-52502 (EXPLOIT)
+
+**CVE/ID**: EDB-52502 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] FortiWeb  8.0.2 - Remote Code Execution
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52502
+
+> 📎 Source: https://www.exploit-db.com/exploits/52502
+
+#### 11. EDB-52501 (EXPLOIT)
+
+**CVE/ID**: EDB-52501 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] 7-Zip 24.00 - Directory Traversal
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52501
+
+> 📎 Source: https://www.exploit-db.com/exploits/52501
+
+#### 12. EDB-52500 (EXPLOIT)
+
+**CVE/ID**: EDB-52500 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] xibocms 3.3.4 - RCE
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52500
+
+> 📎 Source: https://www.exploit-db.com/exploits/52500
+
+#### 13. EDB-52499 (EXPLOIT)
+
+**CVE/ID**: EDB-52499 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] SQLite 3.50.1 - Heap Overflow
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52499
+
+> 📎 Source: https://www.exploit-db.com/exploits/52499
+
+#### 14. EDB-52498 (EXPLOIT)
+
+**CVE/ID**: EDB-52498 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] Microsoft MMC MSC EvilTwin - Local Admin Creation
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52498
+
+> 📎 Source: https://www.exploit-db.com/exploits/52498
+
+#### 15. EDB-52497 (EXPLOIT)
+
+**CVE/ID**: EDB-52497 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] Horilla v1.3 - RCE
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52497
+
+> 📎 Source: https://www.exploit-db.com/exploits/52497
+
+#### 16. EDB-52496 (EXPLOIT)
+
+**CVE/ID**: EDB-52496 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] is-localhost-ip 2.0.0 - SSRF
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52496
+
+> 📎 Source: https://www.exploit-db.com/exploits/52496
+
+#### 17. EDB-52495 (EXPLOIT)
+
+**CVE/ID**: EDB-52495 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] Fortinet FortiWeb v8.0.1 - Auth Bypass
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52495
+
+> 📎 Source: https://www.exploit-db.com/exploits/52495
+
+#### 18. EDB-52494 (EXPLOIT)
+
+**CVE/ID**: EDB-52494 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] Windows Kernel - Elevation of Privilege
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52494
+
+> 📎 Source: https://www.exploit-db.com/exploits/52494
+
+#### 19. EDB-52493 (EXPLOIT)
+
+**CVE/ID**: EDB-52493 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] Desktop Window Manager Core Library 10.0.10240.0 - Privilege Escalation
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52493
+
+> 📎 Source: https://www.exploit-db.com/exploits/52493
+
+#### 20. EDB-52492 (EXPLOIT)
+
+**CVE/ID**: EDB-52492 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] ASP.net  8.0.10 - Bypass
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52492
+
+> 📎 Source: https://www.exploit-db.com/exploits/52492
+
+#### 21. EDB-52491 (EXPLOIT)
+
+**CVE/ID**: EDB-52491 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] Grafana 11.6.0 - SSRF
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52491
+
+> 📎 Source: https://www.exploit-db.com/exploits/52491
+
+#### 22. EDB-52490 (EXPLOIT)
+
+**CVE/ID**: EDB-52490 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] Zhiyuan OA - arbitrary file upload leading
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52490
+
+> 📎 Source: https://www.exploit-db.com/exploits/52490
+
+#### 23. EDB-52489 (EXPLOIT)
+
+**CVE/ID**: EDB-52489 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] WBCE CMS 1.6.4 - Remote Code Execution
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52489
+
+> 📎 Source: https://www.exploit-db.com/exploits/52489
+
+#### 24. EDB-52488 (EXPLOIT)
+
+**CVE/ID**: EDB-52488 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] RiteCMS 3.1.0 - Authenticated Remote Code Execution
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52488
+
+> 📎 Source: https://www.exploit-db.com/exploits/52488
+
+#### 25. EDB-52487 (EXPLOIT)
+
+**CVE/ID**: EDB-52487 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] WordPress  Madara - Local File Inclusion
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52487
+
+> 📎 Source: https://www.exploit-db.com/exploits/52487
+
+#### 26. EDB-52486 (EXPLOIT)
+
+**CVE/ID**: EDB-52486 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] WordPress Backup Migration 1.3.7 - Remote Command Execution
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52486
+
+> 📎 Source: https://www.exploit-db.com/exploits/52486
+
+#### 27. EDB-52485 (EXPLOIT)
+
+**CVE/ID**: EDB-52485 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] mailcow 2025-01a - Host Header Password Reset Poisoning
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52485
+
+> 📎 Source: https://www.exploit-db.com/exploits/52485
+
+#### 28. EDB-52484 (EXPLOIT)
+
+**CVE/ID**: EDB-52484 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] Easy File Sharing Web Server v7.2 - Buffer Overflow
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52484
+
+> 📎 Source: https://www.exploit-db.com/exploits/52484
+
+#### 29. EDB-52483 (EXPLOIT)
+
+**CVE/ID**: EDB-52483 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] WeGIA 3.5.0 - SQL Injection
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52483
+
+> 📎 Source: https://www.exploit-db.com/exploits/52483
+
+#### 30. EDB-52482 (EXPLOIT)
+
+**CVE/ID**: EDB-52482 [Exploit-DB]
+**Severity**: EXPLOIT | 
+
+
+**Description**:
+[Exploit-DB] Boss Mini v1.4.0 - Local File Inclusion (LFI)
+
+**Mitigation / Countermeasure**:
+Review and apply vendor patch immediately. Verify exploit applicability in your environment.
+
+**References**:
+- https://www.exploit-db.com/exploits/52482
+
+> 📎 Source: https://www.exploit-db.com/exploits/52482
+
+
+### Other Sources
 
 #### 1. CVE-1999-0095 (N/A)
 
-**CVE ID**: CVE-1999-0095
+**CVE/ID**: CVE-1999-0095 
 **Severity**: N/A | CVSS: 10.0
 
 
@@ -1053,7 +1482,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 2. CVE-1999-0082 (N/A)
 
-**CVE ID**: CVE-1999-0082
+**CVE/ID**: CVE-1999-0082 
 **Severity**: N/A | CVSS: 10.0
 
 
@@ -1071,7 +1500,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 3. CVE-1999-1471 (N/A)
 
-**CVE ID**: CVE-1999-1471
+**CVE/ID**: CVE-1999-1471 
 **Severity**: N/A | CVSS: 7.2
 
 
@@ -1092,7 +1521,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 4. CVE-1999-1122 (N/A)
 
-**CVE ID**: CVE-1999-1122
+**CVE/ID**: CVE-1999-1122 
 **Severity**: N/A | CVSS: 4.6
 
 
@@ -1113,7 +1542,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 5. CVE-1999-1467 (N/A)
 
-**CVE ID**: CVE-1999-1467
+**CVE/ID**: CVE-1999-1467 
 **Severity**: N/A | CVSS: 10.0
 
 
@@ -1134,7 +1563,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 6. CVE-1999-1506 (N/A)
 
-**CVE ID**: CVE-1999-1506
+**CVE/ID**: CVE-1999-1506 
 **Severity**: N/A | CVSS: 7.5
 
 
@@ -1154,7 +1583,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 7. CVE-1999-0084 (HIGH)
 
-**CVE ID**: CVE-1999-0084
+**CVE/ID**: CVE-1999-0084 
 **Severity**: HIGH | CVSS: 8.4
 CWE: CWE-269
 
@@ -1172,7 +1601,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 8. CVE-2000-0388 (N/A)
 
-**CVE ID**: CVE-2000-0388
+**CVE/ID**: CVE-2000-0388 
 **Severity**: N/A | CVSS: 7.5
 
 
@@ -1192,7 +1621,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 9. CVE-1999-0209 (N/A)
 
-**CVE ID**: CVE-1999-0209
+**CVE/ID**: CVE-1999-0209 
 **Severity**: N/A | CVSS: 5.0
 
 
@@ -1210,7 +1639,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 10. CVE-1999-1198 (N/A)
 
-**CVE ID**: CVE-1999-1198
+**CVE/ID**: CVE-1999-1198 
 **Severity**: N/A | CVSS: 7.2
 
 
@@ -1231,7 +1660,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 11. CVE-1999-1391 (N/A)
 
-**CVE ID**: CVE-1999-1391
+**CVE/ID**: CVE-1999-1391 
 **Severity**: N/A | CVSS: 7.2
 
 
@@ -1252,7 +1681,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 12. CVE-1999-1392 (N/A)
 
-**CVE ID**: CVE-1999-1392
+**CVE/ID**: CVE-1999-1392 
 **Severity**: N/A | CVSS: 7.2
 
 
@@ -1273,7 +1702,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 13. CVE-1999-1057 (N/A)
 
-**CVE ID**: CVE-1999-1057
+**CVE/ID**: CVE-1999-1057 
 **Severity**: N/A | CVSS: 4.6
 
 
@@ -1294,7 +1723,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 14. CVE-1999-1554 (N/A)
 
-**CVE ID**: CVE-1999-1554
+**CVE/ID**: CVE-1999-1554 
 **Severity**: N/A | CVSS: 2.1
 
 
@@ -1315,7 +1744,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 15. CVE-1999-1197 (N/A)
 
-**CVE ID**: CVE-1999-1197
+**CVE/ID**: CVE-1999-1197 
 **Severity**: N/A | CVSS: 7.2
 
 
@@ -1336,7 +1765,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 16. CVE-1999-1115 (N/A)
 
-**CVE ID**: CVE-1999-1115
+**CVE/ID**: CVE-1999-1115 
 **Severity**: N/A | CVSS: 7.2
 
 
@@ -1357,7 +1786,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 17. CVE-1999-1258 (N/A)
 
-**CVE ID**: CVE-1999-1258
+**CVE/ID**: CVE-1999-1258 
 **Severity**: N/A | CVSS: 5.0
 
 
@@ -1377,7 +1806,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 18. CVE-1999-1438 (N/A)
 
-**CVE ID**: CVE-1999-1438
+**CVE/ID**: CVE-1999-1438 
 **Severity**: N/A | CVSS: 7.2
 
 
@@ -1398,7 +1827,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 19. CVE-1999-1211 (N/A)
 
-**CVE ID**: CVE-1999-1211
+**CVE/ID**: CVE-1999-1211 
 **Severity**: N/A | CVSS: 7.2
 
 
@@ -1418,7 +1847,7 @@ Refer to vendor security advisory for patch and mitigation guidance.
 
 #### 20. CVE-1999-1212 (N/A)
 
-**CVE ID**: CVE-1999-1212
+**CVE/ID**: CVE-1999-1212 
 **Severity**: N/A | CVSS: 7.2
 
 
@@ -1435,603 +1864,6 @@ Refer to vendor security advisory for patch and mitigation guidance.
 - https://exchange.xforce.ibmcloud.com/vulnerabilities/574
 
 > 📎 Source: http://www.cert.org/advisories/CA-1991-02.html
-
-#### 21. CVE-1999-1194 (N/A)
-
-**CVE ID**: CVE-1999-1194
-**Severity**: N/A | CVSS: 7.2
-
-
-**Description**:
-chroot in Digital Ultrix 4.1 and 4.0 is insecurely installed, which allows local users to gain privileges.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://www.cert.org/advisories/CA-1991-05.html
-- http://www.securityfocus.com/bid/17
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/577
-- http://www.cert.org/advisories/CA-1991-05.html
-- http://www.securityfocus.com/bid/17
-
-> 📎 Source: http://www.cert.org/advisories/CA-1991-05.html
-
-#### 22. CVE-1999-1193 (N/A)
-
-**CVE ID**: CVE-1999-1193
-**Severity**: N/A | CVSS: 10.0
-
-
-**Description**:
-The "me" user in NeXT NeXTstep 2.1 and earlier has wheel group privileges, which could allow the me user to use the su command to become root.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://www.cert.org/advisories/CA-1991-06.html
-- http://www.securityfocus.com/bid/20
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/581
-- http://www.cert.org/advisories/CA-1991-06.html
-- http://www.securityfocus.com/bid/20
-
-> 📎 Source: http://www.cert.org/advisories/CA-1991-06.html
-
-#### 23. CVE-1999-1123 (N/A)
-
-**CVE ID**: CVE-1999-1123
-**Severity**: N/A | CVSS: 7.2
-
-
-**Description**:
-The installation of Sun Source (sunsrc) tapes allows local users to gain root privileges via setuid root programs (1) makeinstall or (2) winstall.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/107&type=0&nav=sec.sba
-- http://www.cert.org/advisories/CA-1991-07.html
-- http://www.securityfocus.com/bid/21
-- http://www.securityfocus.com/bid/22
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/582
-
-> 📎 Source: http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/107&type=0&nav=sec.sba
-
-#### 24. CVE-1999-1034 (N/A)
-
-**CVE ID**: CVE-1999-1034
-**Severity**: N/A | CVSS: 7.2
-
-
-**Description**:
-Vulnerability in login in AT&T System V Release 4 allows local users to gain privileges.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://www.cert.org/advisories/CA-1991-08.html
-- http://www.ciac.org/ciac/bulletins/b-28.shtml
-- http://www.securityfocus.com/bid/23
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/583
-- http://www.cert.org/advisories/CA-1991-08.html
-
-> 📎 Source: http://www.cert.org/advisories/CA-1991-08.html
-
-#### 25. CVE-1999-1415 (N/A)
-
-**CVE ID**: CVE-1999-1415
-**Severity**: N/A | CVSS: 4.6
-
-
-**Description**:
-Vulnerability in /usr/bin/mail in DEC ULTRIX before 4.2 allows local users to gain privileges.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://www.cert.org/advisories/CA-91.13.Ultrix.mail.vulnerability
-- http://www.securityfocus.com/bid/27
-- http://www.cert.org/advisories/CA-91.13.Ultrix.mail.vulnerability
-- http://www.securityfocus.com/bid/27
-
-> 📎 Source: http://www.cert.org/advisories/CA-91.13.Ultrix.mail.vulnerability
-
-#### 26. CVE-1999-1090 (N/A)
-
-**CVE ID**: CVE-1999-1090
-**Severity**: N/A | CVSS: 7.5
-
-
-**Description**:
-The default configuration of NCSA Telnet package for Macintosh and PC enables FTP, even though it does not include an "ftp=yes" line, which allows remote attackers to read and modify arbitrary files.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://www.cert.org/advisories/CA-1991-15.html
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/1844
-- http://www.cert.org/advisories/CA-1991-15.html
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/1844
-
-> 📎 Source: http://www.cert.org/advisories/CA-1991-15.html
-
-#### 27. CVE-1999-0498 (N/A)
-
-**CVE ID**: CVE-1999-0498
-**Severity**: N/A | CVSS: 10.0
-
-
-**Description**:
-TFTP is not running in a restricted directory, allowing a remote attacker to access sensitive information such as password files.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0498
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0498
-
-> 📎 Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0498
-
-#### 28. CVE-1999-1468 (N/A)
-
-**CVE ID**: CVE-1999-1468
-**Severity**: N/A | CVSS: 6.2
-
-
-**Description**:
-rdist in various UNIX systems uses popen to execute sendmail, which allows local users to gain root privileges by modifying the IFS (Internal Field Separator) variable.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://www.alw.nih.gov/Security/8lgm/8lgm-Advisory-01.html
-- http://www.cert.org/advisories/CA-91.20.rdist.vulnerability
-- http://www.iss.net/security_center/static/7160.php
-- http://www.osvdb.org/8106
-- http://www.securityfocus.com/bid/31
-
-> 📎 Source: http://www.alw.nih.gov/Security/8lgm/8lgm-Advisory-01.html
-
-#### 29. CVE-1999-0167 (N/A)
-
-**CVE ID**: CVE-1999-0167
-**Severity**: N/A | CVSS: 4.6
-
-
-**Description**:
-In SunOS, NFS file handles could be guessed, giving unauthorized access to the exported file system.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0167
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0167
-
-> 📎 Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0167
-
-#### 30. CVE-1999-1493 (N/A)
-
-**CVE ID**: CVE-1999-1493
-**Severity**: N/A | CVSS: 10.0
-
-
-**Description**:
-Vulnerability in crp in Hewlett Packard Apollo Domain OS SR10 through SR10.3 allows remote attackers to gain root privileges via insecure system calls, (1) pad_$dm_cmd and (2) pad_$def_pfk().
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://www.cert.org/advisories/CA-1991-23.html
-- http://www.securityfocus.com/bid/34
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/7158
-- http://www.cert.org/advisories/CA-1991-23.html
-- http://www.securityfocus.com/bid/34
-
-> 📎 Source: http://www.cert.org/advisories/CA-1991-23.html
-
-#### 31. CVE-1999-1032 (N/A)
-
-**CVE ID**: CVE-1999-1032
-**Severity**: N/A | CVSS: 10.0
-
-
-**Description**:
-Vulnerability in LAT/Telnet Gateway (lattelnet) on Ultrix 4.1 and 4.2 allows attackers to gain root privileges.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://ciac.llnl.gov/ciac/bulletins/b-36.shtml
-- http://www.cert.org/advisories/CA-1991-11.html
-- http://www.securityfocus.com/bid/26
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/584
-- http://ciac.llnl.gov/ciac/bulletins/b-36.shtml
-
-> 📎 Source: http://ciac.llnl.gov/ciac/bulletins/b-36.shtml
-
-#### 32. CVE-1999-1059 (N/A)
-
-**CVE ID**: CVE-1999-1059
-**Severity**: N/A | CVSS: 10.0
-
-
-**Description**:
-Vulnerability in rexec daemon (rexecd) in AT&T TCP/IP 4.0 for various SVR4 systems allows remote attackers to execute arbitrary commands.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://www.cert.org/advisories/CA-1992-04.html
-- http://www.iss.net/security_center/static/3159.php
-- http://www.securityfocus.com/bid/36
-- http://www.cert.org/advisories/CA-1992-04.html
-- http://www.iss.net/security_center/static/3159.php
-
-> 📎 Source: http://www.cert.org/advisories/CA-1992-04.html
-
-#### 33. CVE-1999-0627 (N/A)
-
-**CVE ID**: CVE-1999-0627
-**Severity**: N/A | CVSS: 0.0
-
-
-**Description**:
-The rexd service is running, which uses weak authentication that can allow an attacker to execute commands.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0627
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0627
-
-> 📎 Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0627
-
-#### 34. CVE-1999-1121 (N/A)
-
-**CVE ID**: CVE-1999-1121
-**Severity**: N/A | CVSS: 7.2
-
-
-**Description**:
-The default configuration for UUCP in AIX before 3.2 allows local users to gain root privileges.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://www.cert.org/advisories/CA-1992-06.html
-- http://www.osvdb.org/891
-- http://www.securityfocus.com/bid/38
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/554
-- http://www.cert.org/advisories/CA-1992-06.html
-
-> 📎 Source: http://www.cert.org/advisories/CA-1992-06.html
-
-#### 35. CVE-1999-0117 (N/A)
-
-**CVE ID**: CVE-1999-0117
-**Severity**: N/A | CVSS: 7.2
-
-
-**Description**:
-AIX passwd allows local users to gain root access.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0117
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0117
-
-> 📎 Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0117
-
-#### 36. CVE-1999-1119 (N/A)
-
-**CVE ID**: CVE-1999-1119
-**Severity**: N/A | CVSS: 10.0
-
-
-**Description**:
-FTP installation script anon.ftp in AIX insecurely configures anonymous FTP, which allows remote attackers to execute arbitrary commands.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://www.cert.org/advisories/CA-1992-09.html
-- http://www.securityfocus.com/bid/41
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/3154
-- http://www.cert.org/advisories/CA-1992-09.html
-- http://www.securityfocus.com/bid/41
-
-> 📎 Source: http://www.cert.org/advisories/CA-1992-09.html
-
-#### 37. CVE-1999-1142 (N/A)
-
-**CVE ID**: CVE-1999-1142
-**Severity**: N/A | CVSS: 7.2
-
-
-**Description**:
-SunOS 4.1.2 and earlier allows local users to gain privileges via "LD_*" environmental variables to certain dynamically linked setuid or setgid programs such as (1) login, (2) su, or (3) sendmail, that change the real and effective user ids to the same user.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/116
-- http://www.cert.org/advisories/CA-1992-11.html
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/3152
-- http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/116
-- http://www.cert.org/advisories/CA-1992-11.html
-
-> 📎 Source: http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/116
-
-#### 38. CVE-1999-0168 (N/A)
-
-**CVE ID**: CVE-1999-0168
-**Severity**: N/A | CVSS: 7.5
-
-
-**Description**:
-The portmapper may act as a proxy and redirect service requests from an attacker, making the request appear to come from the local host, possibly bypassing authentication that would otherwise have taken place.  For example, NFS file systems could be mounted through the portmapper despite export restrictions.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0168
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0168
-
-> 📎 Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0168
-
-#### 39. CVE-1999-0214 (N/A)
-
-**CVE ID**: CVE-1999-0214
-**Severity**: N/A | CVSS: 10.0
-
-
-**Description**:
-Denial of service by sending forged ICMP unreachable packets.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- https://www.cve.org/CVERecord?id=CVE-1999-0214
-- https://www.cve.org/CVERecord?id=CVE-1999-0214
-
-> 📎 Source: https://www.cve.org/CVERecord?id=CVE-1999-0214
-
-#### 40. CVE-1999-1396 (N/A)
-
-**CVE ID**: CVE-1999-1396
-**Severity**: N/A | CVSS: 7.2
-
-
-**Description**:
-Vulnerability in integer multiplication emulation code on SPARC architectures for SunOS 4.1 through 4.1.2 allows local users to gain root access or cause a denial of service (crash).
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://www.cert.org/advisories/CA-1992-15.html
-- http://www.iss.net/security_center/static/7150.php
-- http://www.securityfocus.com/bid/49
-- http://www.cert.org/advisories/CA-1992-15.html
-- http://www.iss.net/security_center/static/7150.php
-
-> 📎 Source: http://www.cert.org/advisories/CA-1992-15.html
-
-#### 41. CVE-1999-1395 (N/A)
-
-**CVE ID**: CVE-1999-1395
-**Severity**: N/A | CVSS: 7.2
-
-
-**Description**:
-Vulnerability in Monitor utility (SYS$SHARE:SPISHR.EXE) in VMS 5.0 through 5.4-2 allows local users to gain privileges.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://osvdb.org/59332
-- http://www.cert.org/advisories/CA-1992-18.html
-- http://www.cert.org/advisories/CA-92.16.VMS.Monitor.vulnerability
-- http://www.iss.net/security_center/static/7136.php
-- http://www.securityfocus.com/bid/51
-
-> 📎 Source: http://osvdb.org/59332
-
-#### 42. CVE-1999-1306 (N/A)
-
-**CVE ID**: CVE-1999-1306
-**Severity**: N/A | CVSS: 7.5
-
-
-**Description**:
-Cisco IOS 9.1 and earlier does not properly handle extended IP access lists when the IP route cache is enabled and the "established" keyword is set, which could allow attackers to bypass filters.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://www.cert.org/advisories/CA-1992-20.html
-- http://www.cert.org/advisories/CA-1992-20.html
-
-> 📎 Source: http://www.cert.org/advisories/CA-1992-20.html
-
-#### 43. CVE-1999-1466 (N/A)
-
-**CVE ID**: CVE-1999-1466
-**Severity**: N/A | CVSS: 7.5
-
-
-**Description**:
-Vulnerability in Cisco routers versions 8.2 through 9.1 allows remote attackers to bypass access control lists when extended IP access lists are used on certain interfaces, the IP route cache is enabled, and the access list uses the "established" keyword.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://www.cert.org/advisories/CA-1992-20.html
-- http://www.securityfocus.com/bid/53
-- http://www.cert.org/advisories/CA-1992-20.html
-- http://www.securityfocus.com/bid/53
-
-> 📎 Source: http://www.cert.org/advisories/CA-1992-20.html
-
-#### 44. CVE-1999-1021 (N/A)
-
-**CVE ID**: CVE-1999-1021
-**Severity**: N/A | CVSS: 7.2
-
-
-**Description**:
-NFS on SunOS 4.1 through 4.1.2 ignores the high order 16 bits in a 32 bit UID, which allows a local user to gain root access if the lower 16 bits are set to 0, as fixed by the NFS jumbo patch upgrade.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/117&type=0&nav=sec.sba
-- http://www.cert.org/advisories/CA-1992-15.html
-- http://www.securityfocus.com/bid/47
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/82
-- http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/117&type=0&nav=sec.sba
-
-> 📎 Source: http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/117&type=0&nav=sec.sba
-
-#### 45. CVE-1999-1056 (N/A)
-
-**CVE ID**: CVE-1999-1056
-**Severity**: N/A | CVSS: N/A
-
-
-**Description**:
-Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-1395.  Reason: This candidate is a duplicate of CVE-1999-1395.  Notes: All CVE users should reference CVE-1999-1395 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-
-
-> 📎 Source: NVD
-
-#### 46. CVE-1999-0312 (N/A)
-
-**CVE ID**: CVE-1999-0312
-**Severity**: N/A | CVSS: 5.0
-
-
-**Description**:
-HP ypbind allows attackers with root privileges to modify NIS data.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0312
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0312
-
-> 📎 Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0312
-
-#### 47. CVE-1999-1507 (N/A)
-
-**CVE ID**: CVE-1999-1507
-**Severity**: N/A | CVSS: 7.2
-
-
-**Description**:
-Sun SunOS 4.1 through 4.1.3 allows local attackers to gain root access via insecure permissions on files and directories such as crash.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://www.cert.org/advisories/CA-1993-03.html
-- http://www.securityfocus.com/bid/59
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/521
-- http://www.cert.org/advisories/CA-1993-03.html
-- http://www.securityfocus.com/bid/59
-
-> 📎 Source: http://www.cert.org/advisories/CA-1993-03.html
-
-#### 48. CVE-1999-1218 (N/A)
-
-**CVE ID**: CVE-1999-1218
-**Severity**: N/A | CVSS: 2.1
-
-
-**Description**:
-Vulnerability in finger in Commodore Amiga UNIX 2.1p2a and earlier allows local users to read arbitrary files.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://www.cert.org/advisories/CA-1993-04.html
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/522
-- http://www.cert.org/advisories/CA-1993-04.html
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/522
-
-> 📎 Source: http://www.cert.org/advisories/CA-1993-04.html
-
-#### 49. CVE-1999-1312 (N/A)
-
-**CVE ID**: CVE-1999-1312
-**Severity**: N/A | CVSS: 7.2
-
-
-**Description**:
-Vulnerability in DEC OpenVMS VAX 5.5-2 through 5.0, and OpenVMS AXP 1.0, allows local users to gain system privileges.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://www.cert.org/advisories/CA-1993-05.html
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/7142
-- http://www.cert.org/advisories/CA-1993-05.html
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/7142
-
-> 📎 Source: http://www.cert.org/advisories/CA-1993-05.html
-
-#### 50. CVE-1999-1216 (N/A)
-
-**CVE ID**: CVE-1999-1216
-**Severity**: N/A | CVSS: 7.5
-
-
-**Description**:
-Cisco routers 9.17 and earlier allow remote attackers to bypass security restrictions via certain IP source routed packets that should normally be denied using the "no ip source-route" command.
-
-**Mitigation / Countermeasure**:
-Refer to vendor security advisory for patch and mitigation guidance.
-
-**References**:
-- http://ciac.llnl.gov/ciac/bulletins/d-15.shtml
-- http://www.cert.org/advisories/CA-1993-07.html
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/541
-- http://ciac.llnl.gov/ciac/bulletins/d-15.shtml
-- http://www.cert.org/advisories/CA-1993-07.html
-
-> 📎 Source: http://ciac.llnl.gov/ciac/bulletins/d-15.shtml
 
 
 
