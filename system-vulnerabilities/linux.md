@@ -1917,3 +1917,8 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 > 📎 Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0414
 
+---
+
+**🔗 导航 / Navigation**
+
+- [返回目录 / Back to Index](index.md)

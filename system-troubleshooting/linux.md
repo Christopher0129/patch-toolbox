@@ -4489,3 +4489,8 @@ Personally, I really like the BSD systems because they just feel like they fit t
 
 > 📎 Source: https://unix.stackexchange.com/questions/14489/why-would-someone-choose-freebsd-over-linux
 
+---
+
+**🔗 导航 / Navigation**
+
+- [返回目录 / Back to Index](index.md)

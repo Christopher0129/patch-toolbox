@@ -3455,3 +3455,8 @@ Note: -y will only work with 0.9.8.33+.
 
 > 📎 Source: https://superuser.com/questions/890251/how-to-list-chocolatey-packages-already-installed-and-newer-version-available-fr
 
+---
+
+**🔗 导航 / Navigation**
+
+- [返回目录 / Back to Index](index.md)

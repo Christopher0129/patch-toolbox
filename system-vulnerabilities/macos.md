@@ -2073,3 +2073,8 @@ Apply patch from vendor. Monitor http://apple.slashdot.org/apple/02/09/21/122236
 
 > 📎 Source: http://apple.slashdot.org/apple/02/09/21/122236.shtml?tid=172
 
+---
+
+**🔗 导航 / Navigation**
+
+- [返回目录 / Back to Index](index.md)

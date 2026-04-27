@@ -3643,3 +3643,8 @@ This is the order in which these files get read.  Keep in mind that it reads fir
 
 > 📎 Source: https://apple.stackexchange.com/questions/388622/zsh-zprofile-zshrc-zlogin-what-goes-where
 
+---
+
+**🔗 导航 / Navigation**
+
+- [返回目录 / Back to Index](index.md)

@@ -1995,3 +1995,8 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1043.
 
 > 📎 Source: http://www.securityfocus.com/bid/1043
 
+---
+
+**🔗 导航 / Navigation**
+
+- [返回目录 / Back to Index](index.md)
