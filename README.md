@@ -6,76 +6,54 @@
 
 ## 中文介绍
 
-这是一个**持续整理**的安全知识库，聚合网络安全漏洞、系统漏洞及常见故障信息。
+一个长期维护的安全知识库，收集网络安全漏洞、系统漏洞和常见故障排障信息。内容来自公开渠道，持续整理和补充。
 
-### 📚 知识库目录
+### 目录
 
 | 分类 | 入口 | 说明 |
 |------|------|------|
-| **网络安全漏洞** | [network-security/index.md](network-security/index.md) | CVE 漏洞库、公开漏洞利用、GitHub 安全公告、CISA 紧急漏洞 |
-| **系统漏洞** | [system-vulnerabilities/index.md](system-vulnerabilities/index.md) | Windows / Linux / macOS 系统级漏洞及补丁信息 |
-| **系统故障排障** | [system-troubleshooting/index.md](system-troubleshooting/index.md) | Windows / Linux / macOS 常见故障及社区验证解决方案 |
+| 网络安全漏洞 | [network-security/index.md](network-security/index.md) | CVE 漏洞库、公开利用、GitHub 安全公告、CISA 紧急漏洞 |
+| 系统漏洞 | [system-vulnerabilities/index.md](system-vulnerabilities/index.md) | Windows / Linux / macOS 系统级漏洞及补丁信息 |
+| 系统故障排障 | [system-troubleshooting/index.md](system-troubleshooting/index.md) | Windows / Linux / macOS 常见故障及社区验证方案 |
 
-### 🔄 更新策略
+### 使用说明
 
-- **增量更新**：新内容追加，历史条目保留
-- **去重机制**：同一漏洞保留最新信息，不同缓解方法追加记录
-- **中英双语**：所有页面内置语言切换
+- 新条目会追加，历史内容保留，同一漏洞的不同缓解方法会分别记录
+- 所有页面同时提供中英双语结构，技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性
+- 提供 SQLite 和 Markdown 两种格式：SQLite 在 `db/` 目录，适合程序查询；Markdown 在各分类目录，适合直接阅读
 
-### 📡 数据来源
+### 数据来源
 
-- [NVD - National Vulnerability Database](https://nvd.nist.gov/)
-- [Exploit-DB](https://www.exploit-db.com/)
-- [GitHub Security Advisories](https://github.com/advisories)
-- [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
-- [Stack Exchange](https://serverfault.com/) / [Ask Ubuntu](https://askubuntu.com/) / [Ask Different](https://apple.stackexchange.com/)
-- [Reddit](https://www.reddit.com/) / [V2EX](https://www.v2ex.com/)
-
-### 💾 数据格式
-
-知识库内容同时提供 **SQLite 数据库** 与 **Markdown 文档** 两种格式：
-- SQLite 文件位于 `db/` 目录，适合程序化查询与导入
-- Markdown 文件位于各分类目录，适合直接阅读与浏览
+[NVD](https://nvd.nist.gov/)、[Exploit-DB](https://www.exploit-db.com/)、[GitHub Security Advisories](https://github.com/advisories)、[CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)、[Stack Exchange](https://serverfault.com/) 系列、Reddit、V2EX 等。
 
 ---
 
 ## English Introduction
 
-A **community-curated** security knowledge base that aggregates network security vulnerabilities, system vulnerabilities, and common troubleshooting info.
+A long-term maintained security knowledge base collecting network vulnerabilities, system vulnerabilities, and common troubleshooting info. Content sourced from public channels and continuously organized.
 
-### 📚 Knowledge Base Index
+### Index
 
 | Category | Entry | Description |
 |----------|-------|-------------|
-| **Network Security** | [network-security/index.md](network-security/index.md) | CVE database, public exploits, GitHub security advisories, CISA emergency vulnerabilities |
-| **System Vulnerabilities** | [system-vulnerabilities/index.md](system-vulnerabilities/index.md) | OS-level vulnerabilities and patch info for Windows / Linux / macOS |
-| **System Troubleshooting** | [system-troubleshooting/index.md](system-troubleshooting/index.md) | Common system issues and community-verified solutions for Windows / Linux / macOS |
+| Network Security | [network-security/index.md](network-security/index.md) | CVE database, public exploits, GitHub security advisories, CISA emergency vulnerabilities |
+| System Vulnerabilities | [system-vulnerabilities/index.md](system-vulnerabilities/index.md) | OS-level vulnerabilities and patch info for Windows / Linux / macOS |
+| System Troubleshooting | [system-troubleshooting/index.md](system-troubleshooting/index.md) | Common system issues and community-verified solutions for Windows / Linux / macOS |
 
-### 🔄 Update Strategy
+### Notes
 
-- **Incremental**: New content appended, historical entries preserved
-- **Deduplication**: Same vulnerability keeps latest info; different mitigations are appended
-- **Bilingual**: All pages have built-in language toggle
+- New entries are appended; historical content is kept. Different mitigations for the same vulnerability are recorded separately.
+- All pages have bilingual structure. Technical details (descriptions, patch info, etc.) remain in original language for accuracy.
+- Available in SQLite (`db/` for programmatic use) and Markdown (category directories for reading).
 
-### 📡 Data Sources
+### Sources
 
-- [NVD - National Vulnerability Database](https://nvd.nist.gov/)
-- [Exploit-DB](https://www.exploit-db.com/)
-- [GitHub Security Advisories](https://github.com/advisories)
-- [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
-- [Stack Exchange](https://serverfault.com/) / [Ask Ubuntu](https://askubuntu.com/) / [Ask Different](https://apple.stackexchange.com/)
-- [Reddit](https://www.reddit.com/) / [V2EX](https://www.v2ex.com/)
-
-### 💾 Data Format
-
-Content is available in both **SQLite database** and **Markdown document** formats:
-- SQLite files in `db/` for programmatic querying and importing
-- Markdown files in category directories for direct reading and browsing
+[NVD](https://nvd.nist.gov/), [Exploit-DB](https://www.exploit-db.com/), [GitHub Security Advisories](https://github.com/advisories), [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog), [Stack Exchange](https://serverfault.com/) family, Reddit, V2EX, etc.
 
 ---
 
-## 📜 License
+## License
 
-This project is licensed under the [MIT License](LICENSE).
+[MIT License](LICENSE)
 
 ---

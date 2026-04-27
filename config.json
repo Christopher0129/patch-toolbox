@@ -1,7 +1,8 @@
 {
   "vector_search": {
     "enabled": false,
-    "provider": "local",
+    "_comment": "向量搜索配置。设置 enabled=true 并填写 api_key 后启用。密钥请通过环境变量 VECTOR_API_KEY 传入，切勿明文写入本文件。",
+    "provider": "api",
     "local": {
       "model_name": "BAAI/bge-small-zh-v1.5",
       "model_path": "./models/bge-small-zh-v1.5",
@@ -9,10 +10,10 @@
       "max_length": 512
     },
     "api": {
-      "base_url": "https://api.siliconflow.cn/v1",
-      "api_key": "",
-      "model": "BAAI/bge-m3",
-      "dimension": 1024,
+      "base_url": "https://api.xiaocaseai.cn/v1",
+      "api_key": "${VECTOR_API_KEY}",
+      "model": "text-embedding-3-small",
+      "dimension": 1536,
       "batch_size": 32
     },
     "index": {

@@ -60,3 +60,11 @@ scripts/
 
 # requirements (local dev only)
 requirements.txt
+
+# Secrets / credentials (never commit)
+*.asc
+*.key
+.env
+secrets/
+get-secret.sh
+get-token.sh
