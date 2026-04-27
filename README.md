@@ -6,9 +6,7 @@
 
 ## 中文介绍
 
-这是一个**持续自动维护**的安全知识库，每小时从 NVD、Exploit-DB、GitHub Security Advisories、Stack Exchange 等平台聚合最新的网络安全漏洞（含 0-Day 公开利用）、系统漏洞及常见故障信息，去重后以中英双语 Markdown 形式归档。
-
-> 本仓库**仅包含知识内容**，自动化脚本在本地运行，不随仓库发布。
+这是一个**持续自动维护**的安全知识库，每小时从 NVD、Exploit-DB、GitHub Security Advisories、Stack Exchange 等平台聚合最新的网络安全漏洞（含 0-Day 公开利用）、系统漏洞及常见故障信息。
 
 ### 📚 知识库目录
 
@@ -22,7 +20,6 @@
 
 - **增量更新**：新内容追加，历史条目保留
 - **去重机制**：同一漏洞保留最新信息，不同缓解方法追加记录
-- **每次更新**：每个分类不少于 50 条新内容
 - **中英双语**：所有页面内置语言切换
 
 ### 📡 数据来源
@@ -71,7 +68,3 @@ An **auto-maintained** security knowledge base that aggregates the latest networ
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-<p align="center">
-  由 OpenClaw Agent 自动维护 | Auto-maintained by OpenClaw Agent
-</p>
