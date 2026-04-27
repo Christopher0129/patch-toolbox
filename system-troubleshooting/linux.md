@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 04:27:55 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 05:02:44 UTC_
 
 ## 中文 🇨🇳
 **Linux 常见故障及解决方法**
@@ -139,7 +139,7 @@ dig unix.stackexchange.com | awk '/^;; ANSWER SECTION:$/ { getline ; print $5 ; 
 **标签 / 来源**: Tags: linux, permissions, directory | unix | 👍 536 | 💬 9 answers
 
 **问题描述**:
-Tags: linux, permissions, directory | Score: 536 | Views: 403915 | Answers: 9
+Tags: linux, permissions, directory | Score: 536 | Views: 403917 | Answers: 9
 
 **解决方法 / 社区答案**:
 When applying permissions to directories on Linux, the permission bits have different meanings than on regular files.
@@ -160,7 +160,7 @@ The sticky bit (T, or t if the execute bit is set for others) states that files 
 **标签 / 来源**: Tags: linux, x11, wayland | unix | 👍 514 | 💬 15 answers
 
 **问题描述**:
-Tags: linux, x11, wayland | Score: 514 | Views: 702757 | Answers: 15
+Tags: linux, x11, wayland | Score: 514 | Views: 702759 | Answers: 15
 
 **解决方法 / 社区答案**:
 Obtain the session ID to pass in by issuing:
@@ -196,7 +196,7 @@ Type=wayland
 **标签 / 来源**: Tags: linux, backup, tar | unix | 👍 505 | 💬 2 answers
 
 **问题描述**:
-Tags: linux, backup, tar | Score: 505 | Views: 1359515 | Answers: 2
+Tags: linux, backup, tar | Score: 505 | Views: 1359520 | Answers: 2
 
 **解决方法 / 社区答案**:
 To tar and gzip a folder, the syntax is:
@@ -243,7 +243,7 @@ strace/truss, ltrace and gdb are generally good ideas for looking at why a stuck
 **标签 / 来源**: Tags: linux, kernel, performance, cache, ram | unix | 👍 419 | 💬 1 answers
 
 **问题描述**:
-Tags: linux, kernel, performance, cache, ram | Score: 419 | Views: 985960 | Answers: 1
+Tags: linux, kernel, performance, cache, ram | Score: 419 | Views: 985962 | Answers: 1
 
 **解决方法 / 社区答案**:
 Emptying the buffers cache
@@ -355,7 +355,7 @@ Swap:      5963772          0    5963772
 **标签 / 来源**: Tags: linux, shell | unix | 👍 400 | 💬 3 answers
 
 **问题描述**:
-Tags: linux, shell | Score: 400 | Views: 1968359 | Answers: 3
+Tags: linux, shell | Score: 400 | Views: 1968360 | Answers: 3
 
 **解决方法 / 社区答案**:
 Kernel Version
@@ -464,7 +464,7 @@ The find command will recursively find all files in all sub directories of . and
 **标签 / 来源**: Tags: linux, cpu | unix | 👍 384 | 💬 12 answers
 
 **问题描述**:
-Tags: linux, cpu | Score: 384 | Views: 815327 | Answers: 12
+Tags: linux, cpu | Score: 384 | Views: 815329 | Answers: 12
 
 **解决方法 / 社区答案**:
 To get a complete picture you need to look at the number of threads per core, cores per socket and sockets. If you multiply these numbers you will get the number of CPUs on your system.
@@ -830,7 +830,7 @@ myip.opendns.com.   0   IN  A   80.100.192.168
 **标签 / 来源**: Tags: linux, filesystems, find, rm | unix | 👍 318 | 💬 2 answers
 
 **问题描述**:
-Tags: linux, filesystems, find, rm | Score: 318 | Views: 291415 | Answers: 2
+Tags: linux, filesystems, find, rm | Score: 318 | Views: 291416 | Answers: 2
 
 **解决方法 / 社区答案**:
 The find command is the primary tool for recursive file system operations.
@@ -857,7 +857,7 @@ $ find . -type d -empty -delete
 **标签 / 来源**: Tags: linux, hardware, devices, hard-disk | unix | 👍 313 | 💬 16 answers
 
 **问题描述**:
-Tags: linux, hardware, devices, hard-disk | Score: 313 | Views: 1391062 | Answers: 16
+Tags: linux, hardware, devices, hard-disk | Score: 313 | Views: 1391064 | Answers: 16
 
 **解决方法 / 社区答案**:
 This is highly platform-dependent. Also different methods may treat edge cases differently (“fake” disks of various kinds, RAID volumes, …).
@@ -914,7 +914,7 @@ System: CentOS 7
 **标签 / 来源**: Tags: linux, storage | unix | 👍 303 | 💬 13 answers
 
 **问题描述**:
-Tags: linux, storage | Score: 303 | Views: 1002566 | Answers: 13
+Tags: linux, storage | Score: 303 | Views: 1002568 | Answers: 13
 
 **解决方法 / 社区答案**:
 There's a tool called blkid (use it as root or with sudo), 
@@ -955,7 +955,7 @@ See this answer for more information about SSD partitioning, filesystem...
 **标签 / 来源**: Tags: linux, command-line, files, rm | unix | 👍 297 | 💬 24 answers
 
 **问题描述**:
-Tags: linux, command-line, files, rm | Score: 297 | Views: 507561 | Answers: 24
+Tags: linux, command-line, files, rm | Score: 297 | Views: 507562 | Answers: 24
 
 **解决方法 / 社区答案**:
 Using rsync is surprising fast and simple.
@@ -988,7 +988,7 @@ https://www.quora.com/Linux-why-stat+unlink-can-be-faster-than-a-single-unlink/a
 **标签 / 来源**: Tags: linux, cpu, arm, x86 | unix | 👍 283 | 💬 6 answers
 
 **问题描述**:
-Tags: linux, cpu, arm, x86 | Score: 283 | Views: 215281 | Answers: 6
+Tags: linux, cpu, arm, x86 | Score: 283 | Views: 215282 | Answers: 6
 
 **解决方法 / 社区答案**:
 x86
@@ -1505,7 +1505,7 @@ and then running sudo update-grub and rebooting to boot with the new kernel boot
 **标签 / 来源**: Tags: linux, ps | unix | 👍 260 | 💬 4 answers
 
 **问题描述**:
-Tags: linux, ps | Score: 260 | Views: 542983 | Answers: 4
+Tags: linux, ps | Score: 260 | Views: 542984 | Answers: 4
 
 **解决方法 / 社区答案**:
 a = show processes for all users
@@ -1530,7 +1530,7 @@ In the comments, you say you are using Apple MacOS (OSX, I presume).  The OSX ma
 **标签 / 来源**: Tags: ubuntu, mount, fdisk | unix | 👍 259 | 💬 21 answers
 
 **问题描述**:
-Tags: ubuntu, mount, fdisk | Score: 259 | Views: 1622634 | Answers: 21
+Tags: ubuntu, mount, fdisk | Score: 259 | Views: 1622639 | Answers: 21
 
 **解决方法 / 社区答案**:
 WARNING: This will wipe out your drive!
@@ -1560,7 +1560,7 @@ without creating a new file system on that partition.
 **标签 / 来源**: Tags: linux, shell-script, distributions | unix | 👍 257 | 💬 21 answers
 
 **问题描述**:
-Tags: linux, shell-script, distributions | Score: 257 | Views: 364821 | Answers: 21
+Tags: linux, shell-script, distributions | Score: 257 | Views: 364822 | Answers: 21
 
 **解决方法 / 社区答案**:
 To get OS and VER, the latest standard seems to be /etc/os-release. 
@@ -1695,7 +1695,7 @@ See is my linux ARM 32 or 64 bit? for ARM
 **标签 / 来源**: Tags: linux, cron, scheduling | unix | 👍 246 | 💬 4 answers
 
 **问题描述**:
-Tags: linux, cron, scheduling | Score: 246 | Views: 603353 | Answers: 4
+Tags: linux, cron, scheduling | Score: 246 | Views: 603355 | Answers: 4
 
 **解决方法 / 社区答案**:
 With most Crons (e.g. Vixie-Cron - Debian/Ubuntu default, Cronie - Fedora default, Solaris Cron ...) you get the list of scheduled cron jobs for the current user via:
@@ -2114,7 +2114,7 @@ Make sure that the path is in double quotes, to make sure things like spaces in 
 **标签 / 来源**: Tags: linux, desktop, freeze | unix | 👍 202 | 💬 10 answers
 
 **问题描述**:
-Tags: linux, desktop, freeze | Score: 202 | Views: 673976 | Answers: 10
+Tags: linux, desktop, freeze | Score: 202 | Views: 673978 | Answers: 10
 
 **解决方法 / 社区答案**:
 If all else fails, you Raise The Elephant.  There are Magic SysRq key sequences (Alt+SysRq+?) that the Linux kernel handles specially.
@@ -2254,7 +2254,7 @@ Personally, I really like the BSD systems because they just feel like they fit t
 **标签 / 来源**: Tags: linux, hardware, system-information, smbios, dmidecode | unix | 👍 191 | 💬 10 answers
 
 **问题描述**:
-Tags: linux, hardware, system-information, smbios, dmidecode | Score: 191 | Views: 492416 | Answers: 10
+Tags: linux, hardware, system-information, smbios, dmidecode | Score: 191 | Views: 492417 | Answers: 10
 
 **解决方法 / 社区答案**:
 using the dmidecode | grep -A3 '^System Information' command. There you'll find all information from BIOS and hardware. These are examples on three different machines (this is an excerpt of the complete output):
@@ -2341,7 +2341,7 @@ useradd -p 'encryptedPassWd'  username
 **标签 / 来源**: Tags: linux, tty, console | unix | 👍 187 | 💬 3 answers
 
 **问题描述**:
-Tags: linux, tty, console | Score: 187 | Views: 204991 | Answers: 3
+Tags: linux, tty, console | Score: 187 | Views: 204992 | Answers: 3
 
 **解决方法 / 社区答案**:
 From the Linux Kernel documentation on Kernel.org:
@@ -2496,7 +2496,7 @@ This way, you can point putty to Port 22 of 127.0.1.1 and VirtualBox will redire
 **标签 / 来源**: Tags: linux, memory | unix | 👍 182 | 💬 9 answers
 
 **问题描述**:
-Tags: linux, memory | Score: 182 | Views: 494008 | Answers: 9
+Tags: linux, memory | Score: 182 | Views: 494009 | Answers: 9
 
 **解决方法 / 社区答案**:
 Use the following command:
@@ -2516,7 +2516,7 @@ Check here for more Linux process memory usage
 **标签 / 来源**: Tags: linux, files, file-copy, synchronization | unix | 👍 182 | 💬 9 answers
 
 **问题描述**:
-Tags: linux, files, file-copy, synchronization | Score: 182 | Views: 338370 | Answers: 9
+Tags: linux, files, file-copy, synchronization | Score: 182 | Views: 338371 | Answers: 9
 
 **解决方法 / 社区答案**:
 This puts folder A into folder B:
@@ -2994,7 +2994,7 @@ Your question stemmed from cross-compilation, albeit in the .NET sense, and that
 **标签 / 来源**: Tags: linux, tty, terminology, who | unix | 👍 164 | 💬 3 answers
 
 **问题描述**:
-Tags: linux, tty, terminology, who | Score: 164 | Views: 176362 | Answers: 3
+Tags: linux, tty, terminology, who | Score: 164 | Views: 176364 | Answers: 3
 
 **解决方法 / 社区答案**:
 A tty is a native terminal device, the backend is either hardware or kernel-emulated.
@@ -3397,7 +3397,7 @@ https://serverfault.com/a/571326
 **标签 / 来源**: Tags: linux, ps | unix | 👍 156 | 💬 13 answers
 
 **问题描述**:
-Tags: linux, ps | Score: 156 | Views: 520011 | Answers: 13
+Tags: linux, ps | Score: 156 | Views: 520012 | Answers: 13
 
 **解决方法 / 社区答案**:
 Why use ps when you can do it easily with the top command?
@@ -3534,7 +3534,7 @@ You must run this command as root, because ordinary users may not read disk part
 **标签 / 来源**: Tags: linux, ssh, version, info, system-information | unix | 👍 142 | 💬 13 answers
 
 **问题描述**:
-Tags: linux, ssh, version, info, system-information | Score: 142 | Views: 175458 | Answers: 13
+Tags: linux, ssh, version, info, system-information | Score: 142 | Views: 175460 | Answers: 13
 
 **解决方法 / 社区答案**:
 If I need to know what it is say Linux/Unix , 32/64 bit
@@ -3879,7 +3879,7 @@ will change the date, but keep the time. See man date for formatting details to 
 **标签 / 来源**: Tags: linux, networking, devices, systemd, udev | unix | 👍 134 | 💬 6 answers
 
 **问题描述**:
-Tags: linux, networking, devices, systemd, udev | Score: 134 | Views: 512358 | Answers: 6
+Tags: linux, networking, devices, systemd, udev | Score: 134 | Views: 512360 | Answers: 6
 
 **解决方法 / 社区答案**:
 The simplest method I know to list all of your interfaces is
@@ -3949,7 +3949,7 @@ Certain serious bugs in the BIOS, UEFI, or other system firmware which the kerne
 **标签 / 来源**: Tags: linux, ssh, ssh-agent | unix | 👍 133 | 💬 5 answers
 
 **问题描述**:
-Tags: linux, ssh, ssh-agent | Score: 133 | Views: 264530 | Answers: 5
+Tags: linux, ssh, ssh-agent | Score: 133 | Views: 264531 | Answers: 5
 
 **解决方法 / 社区答案**:
 The client tool ssh-add wants to communicate with the background process ssh-agent. You need to start the ssh-agent process first. On Linux, a shell uses the environment variables SSH_AUTH_SOCK and SSH_AGENT_PID to identify the correct process to talk to.
@@ -4040,6 +4040,1941 @@ System-specific units override units supplied by vendors. Using drop-ins, you ca
 **参考链接**: https://unix.stackexchange.com/questions/206315/whats-the-difference-between-usr-lib-systemd-system-and-etc-systemd-system
 
 > 📎 来源 / Source: https://unix.stackexchange.com/questions/206315/whats-the-difference-between-usr-lib-systemd-system-and-etc-systemd-system
+
+#### 101. Systemd service - what is `multi-user.target`
+
+**故障现象**: Systemd service - what is `multi-user.target`
+**标签 / 来源**: Tags: ubuntu, systemd, services | unix | 👍 133 | 💬 5 answers
+
+**问题描述**:
+Tags: ubuntu, systemd, services | Score: 133 | Views: 162825 | Answers: 5
+
+**解决方法 / 社区答案**:
+multi-user.target means that the systemd-service will start when the system reach runlevel 2.
+
+To complement the answer, here's a table of the targets and their run levels:
+
+Run Lvl Target Units                        Description
+0       runlevel0.target, poweroff.target   Shut down and power off
+1       runlevel1.target, rescue.target     Set up a rescue shell
+2,3,4   runlevel[234].target,               Set up a non-gfx multi-user shell
+        multi-user.target
+5       runlevel5.target, graphical.target  Set up a gfx multi-user shell
+6       runlevel6.target, reboot.target     Shut down and reboot the system
+
+**参考链接**: https://unix.stackexchange.com/questions/404667/systemd-service-what-is-multi-user-target
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/404667/systemd-service-what-is-multi-user-target
+
+#### 102. How do I identify which Linux distro is running?
+
+**故障现象**: How do I identify which Linux distro is running?
+**标签 / 来源**: Tags: linux, version | unix | 👍 132 | 💬 3 answers
+
+**问题描述**:
+Tags: linux, version | Score: 132 | Views: 245068 | Answers: 3
+
+**解决方法 / 社区答案**:
+A question very close to this one was posted on Unix.Stackexchange HERE
+Giles has a pretty complete | cool answer for the ways he describes.
+
+# cat /proc/version
+
+Linux version 2.6.32-71.el6.x86_64 (mockbuild@c6b6.centos.org) (gcc version 4.4.4 20100726 (Red Hat 4.4.4-13) (GCC) ) #1 SMP Fri May 20 03:51:51 BST 2011  
+
+
+# uname -a
+
+Linux system1.doofus.local 2.6.32-71.el6.x86_64 #1 SMP Fri May 20 03:51:51 BST 2011 x86_64 x86_64 x86_64 GNU/Linux
+
+# cat /etc/issue
+
+CentOS Linux release 6.0 (Final)
+Kernel \r on an \m
+
+
+cat /proc/config.gz cat /usr/src/linux/config.gz cat /boot/config*
+
+Though I did some checking and this was not very reliable except on SUSE.
+
+# zcat /proc/config.gz | grep -i kernel
+CONFIG_SUSE_KERNEL=y
+# CONFIG_KERNEL_DESKTOP is not set
+CONFIG_LOCK_KERNEL=y
+
+Release Files in /etc (from Unix.com)
+
+
+Novell SuSE---> /etc/SuSE-release    
+Red Hat--->/etc/redhat-release, /etc/redhat_version  
+Fedora-->/etc/fedora-release    
+Slackware--->/etc/slackware-release, /etc/slackware-version    
+Old Debian--->/etc/debian_release, /etc/debian_version 
+New Debian--->/etc/os-release
+Mandrake--->/etc/mandrake-release  
+Yellow dog-->/etc/yellowdog-release     
+Sun JDS--->/etc/sun-release  
+Solaris/Sparc--->/etc/release      
+Gentoo--->/etc/gentoo-release
+
+
+There is also a bash script at the Unix.com link someone wrote to automate checking.
+
+Figuring out what package manager you have is a good clue.
+
+rpm yum apt-get zypper +many more
+
+Though this is by no means foolproof as the vendor could use anything they want. It really just gives you a place to start.
+
+# dmesg | less
+
+Linux version 2.6.32.12-0.7-default (geeko@buildhost) (gcc version 4.3.4 [gcc-4_3-branch revision 152973] (SUSE Linux) ) #1 SMP 2010-05-20 11:14:20 +0200
+
+pretty much the same information as cat /proc/version &amp; uname
+
+**参考链接**: https://unix.stackexchange.com/questions/35183/how-do-i-identify-which-linux-distro-is-running
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/35183/how-do-i-identify-which-linux-distro-is-running
+
+#### 103. How are &quot;/dev&quot; Linux files created?
+
+**故障现象**: How are &quot;/dev&quot; Linux files created?
+**标签 / 来源**: Tags: linux, files, devices | unix | 👍 129 | 💬 7 answers
+
+**问题描述**:
+Tags: linux, files, devices | Score: 129 | Views: 69630 | Answers: 7
+
+**解决方法 / 社区答案**:
+/dev/zero is an example of a "special file" &mdash; particularly, a "device node". Normally these get created by the distro installation process, but you can totally create them yourself if you want to.
+
+If you ask ls about /dev/zero:
+
+# ls -l /dev/zero
+crw-rw-rw- 1 root root 1, 5  Nov 5 09:34 /dev/zero
+
+
+The "c" at the start tells you that this is a "character device"; the other type is "block device" (printed by ls as "b"). Very roughly, random-access devices like harddisks tend to be block devices, while sequential things like tape drives or your sound card tend to be character devices.
+
+The "1, 5" part is the "major device number" and the "minor device number".
+
+With this information, we can use the mknod command to make our very own device node:
+
+# mknod foobar c 1 5
+
+
+This creates a new file named foobar, in the current folder, which does exactly the same thing as /dev/zero. (You can of course set different permissions on it if you want.) All this "file" really contains is the three items above &mdash; device type, major number, minor number. You can use ls to look up the codes for other devices and recreate those too. When you get bored, just use rm to remove the device nodes you just created.
+
+Basically the major number tells the Linux kernel which device driver to talk to, and the minor number tells the device driver which device you're talking about. (E.g., you probably have one SATA controller, but maybe multiple harddisks plugged into it.)
+
+If you want to invent new devices that do something new... well, you'll need to edit the source code for the Linux kernel and compile your own custom kernel. So let's not do that! :-) But you can add device files that duplicate the ones you've already got just fine. An automated system like udev is basically just watching for device events and calling mknod / rm for you automatically. Nothing more magic than that.
+
+There are still other kinds of special files:
+
+
+Linux considers a directory to be a special kind of file. (Usually you can't directly open a directory, but if you could, you'd find it's a normal file that contains data in a special format, and tells the kernel where to find all the files in that directory.)
+A symlink is a special file. (But a hard link isn't.) You can create symlinks using the ln -s command. (Look up the manpage for it.)
+There's also a thing called a "named pipe" or "FIFO" (first-in, first-out queue). You can create one with mkfifo. A FIFO is a magical file that can be opened by two programs at once &mdash; one reading, one writing. When this happens, it works like a normal shell pipe. But you can start each program separately...
+
+
+A file that isn't "special" in any way is called a "regular file". You will occasionally see mention of this in Unix documentation. That's what it means; a file that isn't a device node or a symlink or whatever. Just a normal, every day file with no magical properties.
+
+**参考链接**: https://unix.stackexchange.com/questions/241173/how-are-dev-linux-files-created
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/241173/how-are-dev-linux-files-created
+
+#### 104. Unable to locate package `docker-ce` on a 64bit ubuntu
+
+**故障现象**: Unable to locate package `docker-ce` on a 64bit ubuntu
+**标签 / 来源**: Tags: ubuntu, apt, software-installation, docker | unix | 👍 129 | 💬 5 answers
+
+**问题描述**:
+Tags: ubuntu, apt, software-installation, docker | Score: 129 | Views: 229593 | Answers: 5
+
+**解决方法 / 社区答案**:
+Add Docker's official GPG key:
+sudo apt update
+sudo apt install ca-certificates curl gnupg
+sudo install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+
+Ubuntu 24.04 (Noble Numbat)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu noble stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 23.10 (Mantic Minotaur)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu mantic stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 23.04 (Lunar Lobster)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu lunar stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 22.10 (Kinetic)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu kinetic stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 22.04 (Jammy)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu jammy stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 21.10 (Impish)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu impish stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 21.04 (hirsute)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu hirsute stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 20.10 (Groovy)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu groovy stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 20.04 (Focal)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu focal stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 19.10 (Eoan)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu eoan stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 19.04 (Disco)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu disco stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 18.10 (Cosmic)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu cosmic stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 18.04 (bionic)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu bionic stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 17.10
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu artful stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 16.04
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu xenial stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Run the following:
+sudo apt update
+apt-cache search docker-ce
+
+sample output:
+docker-ce - Docker: the open-source application container engine
+
+Install docker-ce:
+sudo apt install docker-ce
+
+To check the available and permitted Ubuntu codenames:
+curl -sSL  https://download.docker.com/linux/ubuntu/dists/ |awk -F'&quot;' 'FNR &gt;7 {print $2}'
+
+sample output (Results may be different after the directory updates):
+../
+artful/
+bionic/
+cosmic/
+disco/
+eoan/
+focal/
+groovy/
+hirsute/
+impish/
+jammy/
+kinetic/
+lunar/
+trusty/
+xenial/
+yakkety/
+zesty/
+
+Docker , OS requirements
+
+**参考链接**: https://unix.stackexchange.com/questions/363048/unable-to-locate-package-docker-ce-on-a-64bit-ubuntu
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/363048/unable-to-locate-package-docker-ce-on-a-64bit-ubuntu
+
+#### 105. Why is video tearing such a problem in Linux?
+
+**故障现象**: Why is video tearing such a problem in Linux?
+**标签 / 来源**: Tags: linux, graphics, monitors, composite | unix | 👍 127 | 💬 8 answers
+
+**问题描述**:
+Tags: linux, graphics, monitors, composite | Score: 127 | Views: 101435 | Answers: 8
+
+**解决方法 / 社区答案**:
+This is all due to the fact that the X server is out-dated, ill-suitable for today's graphics hardware and basically all the direct video card communication is done as an extension ("patch") over the ancient bloated core. The X server provides no builtin means of synchronization between user rendering the window and the screen displaying a window, so the content changes in the middle of rendering. This is one of the well-known issues of the X server (it has many, the entire model of what the server does and is outdated - event handling in subwindows, metadata about windows, graphical primitives for direct drawing...). Widget toolkits mostly want to gloss over all this, but tearing is still a problem because there is no mechanism to handle that. Additional problems arise when you have multiple cards that require different drivers, and on top of all this, opengl library has a hard-wired dependency on xlib, so you can't really use it independently without going through X.
+
+Wayland, which is somewhat unenthusiastically trying to replace X, supports a pedantic vsync synchronization in its core, and is advertised to have every frame exactly perfect.
+
+If you quickly google "wayland video tearing" you'll find more information on everything.
+
+**参考链接**: https://unix.stackexchange.com/questions/182801/why-is-video-tearing-such-a-problem-in-linux
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/182801/why-is-video-tearing-such-a-problem-in-linux
+
+#### 106. Uploading directories with sftp?
+
+**故障现象**: Uploading directories with sftp?
+**标签 / 来源**: Tags: linux, ssh, sftp | unix | 👍 126 | 💬 11 answers
+
+**问题描述**:
+Tags: linux, ssh, sftp | Score: 126 | Views: 309988 | Answers: 11
+
+**解决方法 / 社区答案**:
+I don't know why sftp does this but you can only recursive copy if the destination directory already exists. So do this...
+
+sftp&gt; mkdir bin
+sftp&gt; put -r bin
+
+**参考链接**: https://unix.stackexchange.com/questions/7004/uploading-directories-with-sftp
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/7004/uploading-directories-with-sftp
+
+#### 107. SSH login with clear text password as a parameter?
+
+**故障现象**: SSH login with clear text password as a parameter?
+**标签 / 来源**: Tags: linux, ubuntu, ssh, security, login | unix | 👍 125 | 💬 3 answers
+
+**问题描述**:
+Tags: linux, ubuntu, ssh, security, login | Score: 125 | Views: 663177 | Answers: 3
+
+**解决方法 / 社区答案**:
+On Ubuntu, install the sshpass package, then use it like this: 
+
+sshpass -p 'YourPassword' ssh user@host
+
+
+sshpass also supports passing the keyboard-interactive password from a file or an environment variable, which might be a more appropriate option in any situation where security is relevant. See man sshpass for the details.
+
+**参考链接**: https://unix.stackexchange.com/questions/38737/ssh-login-with-clear-text-password-as-a-parameter
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/38737/ssh-login-with-clear-text-password-as-a-parameter
+
+#### 108. Why is swappiness set to 60 by default?
+
+**故障现象**: Why is swappiness set to 60 by default?
+**标签 / 来源**: Tags: linux, kernel, swap | unix | 👍 124 | 💬 3 answers
+
+**问题描述**:
+Tags: linux, kernel, swap | Score: 124 | Views: 73648 | Answers: 3
+
+**解决方法 / 社区答案**:
+Since kernel 2.6.28, Linux uses a Split Least Recently Used (LRU) page replacement strategy. Pages with a filesystem source, such as program text or shared libraries belong to the file cache. Pages without filesystem backing are called anonymous pages, and consist of runtime data such as the stack space reserved for applications etc. Typically pages belonging to the file cache are cheaper to evict from memory (as these can simple be read back from disk when needed). Since anonymous pages have no filesystem backing, they must remain in memory as long as they are needed by a program unless there is swap space to store them to. 
+
+It is a common misconception that a swap partition would somehow slow down your system. Not having a swap partition does not mean that the kernel won't evict pages from memory, it just means that the kernel has fewer choices in regards to which pages to evict. The amount of swap available will not affect how much it is used.
+
+Linux can cope with the absence of a swap space because, by default, the kernel memory accounting policy may overcommit memory. The downside is that when physical memory is exhausted, and the kernel cannot swap anonymous pages to disk, the out-of-memory-killer (OOM-killer) mechanism will start killing off memory-hogging "rogue" processes to free up memory for other processes.
+
+The vm.swappiness option is a modifier that changes the balance between swapping out file cache pages in favour of anonymous pages. The file cache is given an arbitrary priority value of 200 from which vm.swappiness modifier is deducted (file_prio=200-vm.swappiness). Anonymous pages, by default, start out with 60 (anon_prio=vm.swappiness). This means that, by default, the priority weights stand moderately in favour of anonymous pages (anon_prio=60, file_prio=200-60=140). The behaviour is defined in mm/vmscan.c in the kernel source tree.
+
+Given a vm.swappiness of 100, the priorities would be equal (file_prio=200-100=100, anon_prio=100). This would make sense for an I/O heavy system if it is not wanted that pages from the file cache being evicted in favour of anonymous pages.
+
+Conversely setting the vm.swappiness to 0 will prevent the kernel from evicting anonymous pages in favour of pages from the file cache. This might be useful if programs do most of their caching themselves, which might be the case with some databases. In desktop systems this might improve interactivity, but the downside is that I/O performance will likely take a hit.
+
+The default value has most likely been chosen as an approximate middleground between these two extremes. As with any performance parameter, adjusting vm.swappiness should be based on  benchmark data comparable to real workloads, not just a gut feeling.
+
+**参考链接**: https://unix.stackexchange.com/questions/88693/why-is-swappiness-set-to-60-by-default
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/88693/why-is-swappiness-set-to-60-by-default
+
+#### 109. Show the year while listing files in the current directory
+
+**故障现象**: Show the year while listing files in the current directory
+**标签 / 来源**: Tags: linux, shell-script, date | unix | 👍 123 | 💬 7 answers
+
+**问题描述**:
+Tags: linux, shell-script, date | Score: 123 | Views: 215366 | Answers: 7
+
+**解决方法 / 社区答案**:
+You can use man ls and here you can find the --time-style parameter. Or you can use:
+
+
+
+Command
+Sample Output
+
+
+
+
+ls --full-time
+2024-04-09 13:24:44.108466043 -0500
+
+
+ls -l --time-style=long-iso
+2024-04-09 08:58
+
+**参考链接**: https://unix.stackexchange.com/questions/50431/show-the-year-while-listing-files-in-the-current-directory
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/50431/show-the-year-while-listing-files-in-the-current-directory
+
+#### 110. Creating a user without a password
+
+**故障现象**: Creating a user without a password
+**标签 / 来源**: Tags: ubuntu, users, git, non-root-user | unix | 👍 122 | 💬 8 answers
+
+**问题描述**:
+Tags: ubuntu, users, git, non-root-user | Score: 122 | Views: 450156 | Answers: 8
+
+**解决方法 / 社区答案**:
+The --disabled-password option will not set a password, meaning no password is legal, but  login  is still possible (for example with SSH RSA keys).
+
+To create an user without a password, use passwd -d $username after the user is created to make the password empty. Note not all systems allow users with empty password to log in.
+
+**参考链接**: https://unix.stackexchange.com/questions/56765/creating-a-user-without-a-password
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/56765/creating-a-user-without-a-password
+
+#### 111. Block network access of a process?
+
+**故障现象**: Block network access of a process?
+**标签 / 来源**: Tags: linux, networking, process, iptables | unix | 👍 121 | 💬 11 answers
+
+**问题描述**:
+Tags: linux, networking, process, iptables | Score: 121 | Views: 87708 | Answers: 11
+
+**解决方法 / 社区答案**:
+With Linux 2.6.24+ (considered experimental until 2.6.29), you can use network namespaces for that. You need to have the 'network namespaces' enabled in your kernel (CONFIG_NET_NS=y) and util-linux with the unshare tool.
+
+Then, starting a process without network access is as simple as:
+
+unshare -n program ...
+
+
+This creates an empty network namespace for the process. That is, it is run with no network interfaces, including no loopback. In below example we add -r to run the program only after the current effective user and group IDs have been mapped to  the  superuser ones (avoid sudo):
+
+$ unshare -r -n ping 127.0.0.1
+connect: Network is unreachable
+
+
+If your app needs a network interface you can set a new one up:
+
+$ unshare -n -- sh -c 'ip link set dev lo up; ping 127.0.0.1'
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=32 time=0.066 ms
+
+
+Note that this will create a new, local loopback. That is, the spawned process won't be able to access open ports of the host's 127.0.0.1.
+
+
+
+If you need to gain access to the original networking inside the namespace, you can use nsenter to enter the other namespace.
+
+The following example runs ping with network namespace that is used by PID 1 (it is specified through -t 1):
+
+$ nsenter -n -t 1 -- ping -c4 example.com
+PING example.com (93.184.216.119) 56(84) bytes of data.
+64 bytes from 93.184.216.119: icmp_seq=1 ttl=50 time=134 ms
+64 bytes from 93.184.216.119: icmp_seq=2 ttl=50 time=134 ms
+64 bytes from 93.184.216.119: icmp_seq=3 ttl=50 time=134 ms
+64 bytes from 93.184.216.119: icmp_seq=4 ttl=50 time=139 ms
+
+--- example.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 134.621/136.028/139.848/2.252 ms
+
+**参考链接**: https://unix.stackexchange.com/questions/68956/block-network-access-of-a-process
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/68956/block-network-access-of-a-process
+
+#### 112. How do I kill all a user&#39;s processes using their UID
+
+**故障现象**: How do I kill all a user&#39;s processes using their UID
+**标签 / 来源**: Tags: c, linux, proc | unix | 👍 121 | 💬 6 answers
+
+**问题描述**:
+Tags: c, linux, proc | Score: 121 | Views: 499467 | Answers: 6
+
+**解决方法 / 社区答案**:
+Use pkill -U UID or pkill -u UID or username instead of UID. Sometimes skill -u USERNAME may work, another tool is killall -u USERNAME.
+
+Skill was a linux-specific and is now outdated, and pkill is more portable (Linux, Solaris, BSD).
+
+pkill allow both numberic and symbolic UIDs, effective and real http://man7.org/linux/man-pages/man1/pkill.1.html
+
+
+  pkill  -  ... signal processes based on name and other attributes
+
+    -u, --euid euid,...
+         Only match processes whose effective user ID is listed.
+         Either the numerical or symbolical value may be used.
+    -U, --uid uid,...
+         Only match processes whose real user ID is listed.  Either the
+         numerical or symbolical value may be used.
+
+
+
+Man page of skill says is it allowed only to use username, not user id: http://man7.org/linux/man-pages/man1/skill.1.html
+
+
+  skill, snice ...  These tools are obsolete and unportable.  The command syntax is poorly defined.  Consider using the killall, pkill
+
+  -u, --user user
+         The next expression is a username.
+
+
+
+killall is not marked as outdated in Linux, but it also will not work with numberic UID; only username: http://man7.org/linux/man-pages/man1/killall.1.html
+
+
+  killall - kill processes by name
+
+   -u, --user
+         Kill only processes the specified user owns.  Command names
+         are optional.
+
+
+
+I think, any utility used to find process in Linux/Solaris style /proc (procfs) will use full list of processes (doing some readdir of /proc). I think, they will iterate over /proc digital subfolders and check every found process for match.
+
+To get list of users, use getpwent (it will get one user per call).
+
+skill (procps &amp; procps-ng) and killall (psmisc) tools both uses getpwnam library call to parse argument of -u option, and only username will be parsed. pkill (procps &amp; procps-ng) uses both atol and getpwnam to parse -u/-U argument and allow both numeric and textual user specifier.
+
+**参考链接**: https://unix.stackexchange.com/questions/18043/how-do-i-kill-all-a-users-processes-using-their-uid
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/18043/how-do-i-kill-all-a-users-processes-using-their-uid
+
+#### 113. What are high memory and low memory on Linux?
+
+**故障现象**: What are high memory and low memory on Linux?
+**标签 / 来源**: Tags: linux, kernel, memory | unix | 👍 121 | 💬 7 answers
+
+**问题描述**:
+Tags: linux, kernel, memory | Score: 121 | Views: 126866 | Answers: 7
+
+**解决方法 / 社区答案**:
+On a 32-bit architecture, the address space range for addressing RAM is: 
+
+0x00000000 - 0xffffffff
+
+
+or 4'294'967'295 (4 GB).
+
+The linux kernel splits that up 3/1 (could also be 2/2, or 1/3 1) into user space (high memory) and kernel space (low memory) respectively.
+
+The user space range: 
+
+0x00000000 - 0xbfffffff
+
+
+Every newly spawned user process gets an address (range) inside this area. User processes are generally untrusted and therefore are forbidden to access the kernel space. Further, they are considered non-urgent, as a general rule, the kernel tries to defer the allocation of memory to those processes.
+
+The kernel space range: 
+
+0xc0000000 - 0xffffffff
+
+
+A kernel processes gets its address (range) here. The kernel can directly access this 1 GB of addresses (well, not the full 1 GB, there are 128 MB reserved for high memory access).
+
+Processes spawned in kernel space are trusted, urgent and assumed error-free, the memory request gets processed instantaneously.
+
+Every kernel process can also access the user space range if it wishes to. And to achieve this, the kernel maps an address from the user space (the high memory) to its kernel space (the low memory), the 128 MB mentioned above are especially reserved for this.
+
+
+
+1 Whether the split is 3/1, 2/2, or 1/3 is controlled by the CONFIG_VMSPLIT_... option; you can probably check under /boot/config* to see which option was selected for your kernel.
+
+**参考链接**: https://unix.stackexchange.com/questions/4929/what-are-high-memory-and-low-memory-on-linux
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/4929/what-are-high-memory-and-low-memory-on-linux
+
+#### 114. ssh_exchange_identification: Connection closed by remote host (not using hosts.deny)
+
+**故障现象**: ssh_exchange_identification: Connection closed by remote host (not using hosts.deny)
+**标签 / 来源**: Tags: linux, ssh, key-authentication | unix | 👍 121 | 💬 13 answers
+
+**问题描述**:
+Tags: linux, ssh, key-authentication | Score: 121 | Views: 683618 | Answers: 13
+
+**解决方法 / 社区答案**:
+Originally posted on Ask Ubuntu
+
+If you have ruled out any "external" factors, the following set of steps usually helps to narrow it down. So while this doesn't directly answer your question, it may help tracking down the error cause.
+
+Troubleshooting sshd
+
+What I find generally very useful in any such cases is to start sshd without letting it daemonize. The problem in my case was that neither syslog nor auth.log showed anything meaningful.
+
+When I started it from the terminal I got:
+
+# $(which sshd) -Ddp 10222
+/etc/ssh/sshd_config line 8: address family must be specified before ListenAddress.
+
+
+Much better! This error message allowed me to see what's wrong and fix it. Neither of the log files contained this output.
+
+NB: at least on Ubuntu the $(which sshd) is the best method to satisfy sshd requirement of an absolute path. Otherwise you'll get the following error: sshd re-exec requires execution with an absolute path. The -p 10222 makes sshd listen on that alternative port, overriding the configuration file - this is so that it doesn't clash with potentially running sshd instances. Make sure to choose a free port here.
+
+Finally: connect to the alternative port (ssh -p 10222 user@server).
+
+This method has helped me many many times in finding issues, be it authentication issues or other types. To get really verbose output to stdout, use $(which sshd) -Ddddp 10222 (note the added dd to increase verbosity). For more debugging goodness check man sshd.
+
+
+
+The main advantage of this method is that it allows you to check the sshd configuration without having to restart the sshd on the default port. Normally this should not interfere with existing SSH-connections, but I've seen it. So this allows one to validate the configuration file prior to - potentially - cutting off ones access to a remote server (for example I have that for some VPS and even for physical servers where I need to pay extra to get out-of-band access to the machine).
+
+**参考链接**: https://unix.stackexchange.com/questions/128894/ssh-exchange-identification-connection-closed-by-remote-host-not-using-hosts-d
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/128894/ssh-exchange-identification-connection-closed-by-remote-host-not-using-hosts-d
+
+#### 115. What is difference between User space and Kernel space?
+
+**故障现象**: What is difference between User space and Kernel space?
+**标签 / 来源**: Tags: linux, kernel, drivers | unix | 👍 120 | 💬 3 answers
+
+**问题描述**:
+Tags: linux, kernel, drivers | Score: 120 | Views: 190364 | Answers: 3
+
+**解决方法 / 社区答案**:
+Is Kernel space used when Kernel is executing on the behalf of the user program i.e. System Call? Or is it the address space for all the Kernel threads (for example scheduler)?
+
+Yes and yes.
+Before we go any further, we should state this about memory.
+Memory gets divided into two distinct areas:
+
+The user space, which is a set of locations where normal user processes run (i.e everything other than the kernel). The role of the kernel is to manage applications running in this space from messing with each other, and the machine.
+The kernel space, which is the location where the code and data of the kernel is stored, and executes under.
+
+Processes running under the user space have access only to a limited part of memory, whereas the kernel has access to all of the memory. Processes running in user space also don't have access to the kernel space. User space processes can only access a small part of the kernel via an interface exposed by the kernel - the system calls. If a process performs a system call, a software interrupt is sent to the kernel, which then dispatches the appropriate interrupt handler and continues its work after the handler has finished.
+Kernel space code has the property to run in &quot;kernel mode&quot;, which (in your typical desktop -x86- computer) is what you call code that executes under ring 0. Typically in x86 architecture, there are 4 rings of protection. Ring 0 (kernel mode), Ring 1 (may be used by virtual machine hypervisors or drivers), Ring 2 (may be used by drivers, I am not so sure about that though). Ring 3 is what typical applications run under. It is the least privileged ring, and applications running on it have access to a subset of the processor's instructions. Ring 0 (kernel space) is the most privileged ring, and has access to all of the machine's instructions. For an example of this, a &quot;plain&quot; application (like a browser) can not use x86 assembly instructions lgdt to load the global descriptor table, nor hlt to halt a processor.
+
+If it is the first one, than does it mean that normal user program cannot have more than 3GB of memory (if the division is 3GB + 1GB)? Also, in that case how can kernel use High Memory, because to what virtual memory address will the pages from high memory be mapped to, as 1GB of kernel space will be logically mapped?
+
+For an answer to this, please refer to the excellent answer by wag to What are high memory and low memory on Linux?.
+
+**参考链接**: https://unix.stackexchange.com/questions/87625/what-is-difference-between-user-space-and-kernel-space
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/87625/what-is-difference-between-user-space-and-kernel-space
+
+#### 116. What is &quot;mail&quot;, and how is it navigated?
+
+**故障现象**: What is &quot;mail&quot;, and how is it navigated?
+**标签 / 来源**: Tags: linux, mail-command | unix | 👍 120 | 💬 3 answers
+
+**问题描述**:
+Tags: linux, mail-command | Score: 120 | Views: 182106 | Answers: 3
+
+**解决方法 / 社区答案**:
+This page describes the interactive command in detail, and is in fact a fairly thorough tutorial. Describes commands such as z and z- :
+
+If there is more than a screenful of messages, then z will
+show the next screenful, and z- will show the previous screenful.
+
+**参考链接**: https://unix.stackexchange.com/questions/26790/what-is-mail-and-how-is-it-navigated
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/26790/what-is-mail-and-how-is-it-navigated
+
+#### 117. If Linux is only a kernel, then how were its first versions used (without distribution)?
+
+**故障现象**: If Linux is only a kernel, then how were its first versions used (without distribution)?
+**标签 / 来源**: Tags: linux, kernel, linux-kernel, history | unix | 👍 118 | 💬 6 answers
+
+**问题描述**:
+Tags: linux, kernel, linux-kernel, history | Score: 118 | Views: 24470 | Answers: 6
+
+**解决方法 / 社区答案**:
+In the early stages of Linux, Linus Torvalds released the Linux kernel source in an alpha state to signal to others that work towards a new Unix-like kernel was in development. By that time, as @RalfFriedi stated, the Linux kernel was cross-compiled in Minix.
+
+As for usable software, Linus Torvalds also ported utilities to distribute along with the Linux kernel in order for others to test it. These programs were mainly bash and gcc, as described by LINUX's History by Linus Torvalds. Per the the Usenet post:
+
+
+From: torvalds@klaava.Helsinki.FI (Linus Benedict Torvalds)  
+Newsgroups: comp.os.minix
+Subject: What would you like to see most in minix?
+Summary: small poll for my new operating system  
+Message-ID: &lt;1991Aug25.205708.9541@klaava.Helsinki.FI&gt;
+Date: 25 Aug 91 20:57:08 GMT
+Organization: University of Helsinki
+
+  
+  Hello everybody out there using minix -
+  
+  I'm doing a (free) operating system (just a hobby, won't be big and 
+  professional like gnu) for 386(486) AT clones.  This has been brewing 
+  since april, and is starting to get ready.  I'd like any feedback on things people like/dislike in minix, as my OS resembles it somewhat
+  (same physical layout of the file-system (due to practical reasons) among other things).
+  
+  I've currently ported bash(1.08) and gcc(1.40), and things seem to
+  work.   This implies that I'll get something practical within a few
+  months, and   I'd like to know what features most people would want. 
+  Any suggestions   are welcome, but I won't promise I'll implement them
+  :-)
+
+
+Linus distributed the kernel and core utility programs in a diskette format for users to try it and possibly to contribute to it.
+
+Afterwards, there were  H.J. Lu's Boot-root floppy diskettes. If this could be called a distribution, then it would gain the fame of being the first distribution capable of being installed on hard disk.
+
+
+  These were two 5¼" diskette images containing the Linux kernel and the
+  minimum tools required to get started. So minimal were these tools
+  that to be able to boot from a hard drive required editing its master
+  boot record with a hex editor.
+
+
+
+
+Eventually the number of utilities grew larger than the maximum size of a diskette.
+
+MCC Interim Linux was the first Linux distribution to be used by people with slightly less technical skills by introducing an automated installation and new utilities such as fdisk.
+
+
+  MCC Interim Linux was a Linux distribution first released in February
+  1992 by Owen Le Blanc of the Manchester Computing Centre (MCC), part
+  of the University of Manchester.
+  
+  The first release of MCC Interim Linux was based on Linux 0.12 and
+  made use of Theodore Ts'o's ramdisk code to copy a small root image to
+  memory, freeing the floppy drive for additional utilities
+  diskettes.[2]
+  
+  He also stated his distributions were "unofficial experiments",
+  describing the goals of his releases as being:
+  
+  
+  To provide a simple installation procedure.  
+  To provide a more complete installation procedure.  
+  To provide a backup/recovery service.  
+  To back up his (then) current system.  
+  To compile, link, and test every binary file under the current versions of the kernel, gcc, and libraries.  
+  To provide a stable base system, which can be installed in a short time, and to which other software can be added with relatively little
+  effort.  
+  
+
+
+After the MCC precursor, SLS was the first distribution offering the X Window System in May of 1992. Notably, the competitor to SLS, the mythical Yggdrasil, debuted in December of 1992.
+
+
+
+Other major distributors followed as we know them today, notably Slackware in July of 1993 (based on SLS) and Debian in December of 1993 until the first official version 1.1 release in December of 1995. 
+
+Image credits:
+* Boot/Root diskettes image from: https://www.maketecheasier.com/
+* yggdrasil diskette image from: https://yggdrasilblog.wordpress.com/
+
+**参考链接**: https://unix.stackexchange.com/questions/461113/if-linux-is-only-a-kernel-then-how-were-its-first-versions-used-without-distri
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/461113/if-linux-is-only-a-kernel-then-how-were-its-first-versions-used-without-distri
+
+#### 118. &quot;Input/output error&quot; when accessing a directory
+
+**故障现象**: &quot;Input/output error&quot; when accessing a directory
+**标签 / 来源**: Tags: ubuntu, directory, ntfs | unix | 👍 117 | 💬 8 answers
+
+**问题描述**:
+Tags: ubuntu, directory, ntfs | Score: 117 | Views: 855860 | Answers: 8
+
+**解决方法 / 社区答案**:
+Input/Output errors during filesystem access attempts generally mean hardware issues.
+
+Type dmesg and check the last few lines of output. If the disc or the connection to it is failing, it'll be noted there.
+
+EDIT Are you mounting it via ntfs or ntfs-3g ? As I recall, the legacy ntfs driver  had no stable write support and was largely abandoned when it turned out ntfs-3g was significantly more stable and secure.
+
+**参考链接**: https://unix.stackexchange.com/questions/39905/input-output-error-when-accessing-a-directory
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/39905/input-output-error-when-accessing-a-directory
+
+#### 119. What is stored in /dev/pts files and can we open them?
+
+**故障现象**: What is stored in /dev/pts files and can we open them?
+**标签 / 来源**: Tags: linux, terminal, devices, pty | unix | 👍 116 | 💬 3 answers
+
+**问题描述**:
+Tags: linux, terminal, devices, pty | Score: 116 | Views: 155272 | Answers: 3
+
+**解决方法 / 社区答案**:
+Nothing is stored in /dev/pts. This filesystem lives purely in memory.
+
+Entries in /dev/pts are pseudo-terminals (pty for short). Unix kernels have a generic notion of terminals. A terminal provides a way for applications to display output and to receive input through a terminal device. A process may have a controlling terminal — for a text mode application, this is how it interacts with the user.
+
+Terminals can be either hardware terminals (“tty”, short for “teletype”) or pseudo-terminals (“pty”). Hardware terminals are connected over some interface such as a serial port (ttyS0, …) or USB (ttyUSB0, …) or over a PC screen and keyboard (tty1, …). Pseudo-terminals are provided by a terminal emulator, which is an application. Some types of pseudo-terminals are:
+
+
+GUI applications such as xterm, gnome-terminal, konsole, … transform keyboard and mouse events into text input and display output graphically in some font.
+Multiplexer applications such as screen and tmux relay input and output from and to another terminal, to decouple text mode applications from the actual terminal.
+Remote shell applications such as sshd, telnetd, rlogind, … relay input and output between a remote terminal on the client and a pty on the server.
+
+
+If a program opens a terminal for writing, the output from that program appears on the terminal. It is common to have several programs outputting to a terminal at the same time, though this can be confusing at times as there is no way to tell which part of the output came from which program. Background processes that try to write to their controlling terminal may be automatically suspended by a SIGTTOU signal.
+
+If a program opens a terminal for reading, the input from the user is passed to that program. If multiple programs are reading from the same terminal, each character is routed independently to one of the programs; this is not recommended. Normally there is only a single program actively reading from the terminal at a given time; programs that try to read from their controlling terminal while they are not in the foreground are automatically suspended by a SIGTTIN signal.
+
+To experiment, run tty in a terminal to see what the terminal device is. Let's say it's /dev/pts/42. In a shell in another terminal, run echo hello &gt;/dev/pts/42: the string hello will be displayed on the other terminal. Now run cat /dev/pts/42 and type in the other terminal. To kill that cat command (which will make the other terminal hard to use), press Ctrl+C.
+
+Writing to another terminal is occasionally useful to display a notification; for example the write command does that. Reading from another terminal is not normally done.
+
+**参考链接**: https://unix.stackexchange.com/questions/93531/what-is-stored-in-dev-pts-files-and-can-we-open-them
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/93531/what-is-stored-in-dev-pts-files-and-can-we-open-them
+
+#### 120. What is the benefit of compiling your own linux kernel?
+
+**故障现象**: What is the benefit of compiling your own linux kernel?
+**标签 / 来源**: Tags: linux, kernel, compiling | unix | 👍 116 | 💬 13 answers
+
+**问题描述**:
+Tags: linux, kernel, compiling | Score: 116 | Views: 49846 | Answers: 13
+
+**解决方法 / 社区答案**:
+In my mind, the only benefit you really get from compiling your own linux kernel is:
+
+You learn how to compile your own linux kernel.
+
+It's not something you need to do for more speed / memory / xxx whatever.  It is a valuable thing to do if that's the stage you feel you are at in your development.  If you want to have a deeper understanding of what this whole "open source" thing is about, about how and what the different parts of the kernel are, then you should give it a go.  If you are just looking to speed up your boot time by 3 seconds, then... what's the point... go buy an ssd.   If you are curious, if you want to learn, then compiling your own kernel is a great idea and you will likely get a lot out of it.  
+
+With that said, there are some specific reasons when it would be appropriate to compile your own kernel (as several people have pointed out in the other answers).  Generally these arise out of a specific need you have for a specific outcome, for example:
+
+
+I need to get the system to boot/run on hardware with limited resources
+I need to test out a patch and provide feedback to the developers
+I need to disable something that is causing a conflict
+I need to develop the linux kernel
+I need to enable support for my unsupported hardware
+I need to improve performance of x because I am hitting the current limits of the system (and I know what I'm doing)
+
+
+The issue lies in thinking that there's some intrinsic benefit to compiling your own kernel when everything is already working the way it should be, and I don't think that there is.  Though you can spend countless hours disabling things you don't need and tweaking the things that are tweakable, the fact is the linux kernel is already pretty well tuned (by your distribution) for most user situations.
+
+**参考链接**: https://unix.stackexchange.com/questions/905/what-is-the-benefit-of-compiling-your-own-linux-kernel
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/905/what-is-the-benefit-of-compiling-your-own-linux-kernel
+
+#### 121. How to mount a device in Linux?
+
+**故障现象**: How to mount a device in Linux?
+**标签 / 来源**: Tags: linux, mount | unix | 👍 116 | 💬 10 answers
+
+**问题描述**:
+Tags: linux, mount | Score: 116 | Views: 1052927 | Answers: 10
+
+**解决方法 / 社区答案**:
+You can use fdisk to have an idea of what kind of partitions you have, for example:
+
+fdisk -l
+
+
+Shows:
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sda1   *          63   204796619   102398278+   7  HPFS/NTFS
+/dev/sda2       204797952   205821951      512000   83  Linux
+/dev/sda3       205821952   976773119   385475584   8e  Linux LVM
+
+
+That way you know that you have sda1,2 and 3 partitions. The -t option is the filesystem type; it can be NTFS, FAT, EXT. In my example, sda1 is ntfs, so it should be something like:
+
+mount -t ntfs /dev/sda1  /mnt/
+
+
+USB devices are usually vfat and Linux are usually ext.
+
+**参考链接**: https://unix.stackexchange.com/questions/18925/how-to-mount-a-device-in-linux
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/18925/how-to-mount-a-device-in-linux
+
+#### 122. Shell script fails: Syntax error: &quot;(&quot; unexpected
+
+**故障现象**: Shell script fails: Syntax error: &quot;(&quot; unexpected
+**标签 / 来源**: Tags: bash, shell, ubuntu, shell-script | unix | 👍 116 | 💬 7 answers
+
+**问题描述**:
+Tags: bash, shell, ubuntu, shell-script | Score: 116 | Views: 485044 | Answers: 7
+
+**解决方法 / 社区答案**:
+The script does not begin with a shebang line, so the system executes it with /bin/sh. On Ubuntu, /bin/sh is dash, a shell designed for fast startup and execution with only standard features. When dash reaches line 68, it sees a syntax error: that parenthesis doesn't mean anything to it in context.
+
+Since dash (like all other shells) is an interpreter, it won't complain until the execution reaches the problematic line. So even if the script successfully started at some point in your testing, it would have aborted once line 68 was reached.
+
+The shebang line must be the very first thing in the file. Since you use bash features, the first line of the file must be #!/bin/bash or #!/usr/bin/env bash.
+
+**参考链接**: https://unix.stackexchange.com/questions/45781/shell-script-fails-syntax-error-unexpected
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/45781/shell-script-fails-syntax-error-unexpected
+
+#### 123. How to find out which interface am I using for connecting to the internet?
+
+**故障现象**: How to find out which interface am I using for connecting to the internet?
+**标签 / 来源**: Tags: linux, routing | unix | 👍 115 | 💬 13 answers
+
+**问题描述**:
+Tags: linux, routing | Score: 115 | Views: 197863 | Answers: 13
+
+**解决方法 / 社区答案**:
+You can use route to find your default route:
+
+$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+192.168.1.0     *               255.255.255.0   U     1      0        0 eth0
+link-local      *               255.255.0.0     U     1000   0        0 eth0
+default         192.168.1.1     0.0.0.0         UG    0      0        0 eth0
+
+
+The Iface column in the line with destination default tells you which interface is used.
+
+**参考链接**: https://unix.stackexchange.com/questions/14961/how-to-find-out-which-interface-am-i-using-for-connecting-to-the-internet
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/14961/how-to-find-out-which-interface-am-i-using-for-connecting-to-the-internet
+
+#### 124. How to find the installation path for a software under linux?
+
+**故障现象**: How to find the installation path for a software under linux?
+**标签 / 来源**: Tags: linux, software-installation | unix | 👍 115 | 💬 10 answers
+
+**问题描述**:
+Tags: linux, software-installation | Score: 115 | Views: 668040 | Answers: 10
+
+**解决方法 / 社区答案**:
+You can use:
+
+which fluidpoint
+
+
+to see where it is executing from (if it's in your $PATH). Or:
+
+find / -name fluidpoint 2&gt; /dev/null
+
+
+to look for a file named fluipoint and redirect errors on virtual filesystems.
+
+Usually they are in /sbin, /usr/sbin, /usr/local/bin or ~ as a hidden directory.
+
+From Manual:
+
+NAME
+       which - shows the full path of (shell) commands.
+
+SYNOPSIS
+       which [options] [--] programname [...]
+
+
+Full manual: https://linux.die.net/man/1/which
+
+**参考链接**: https://unix.stackexchange.com/questions/19369/how-to-find-the-installation-path-for-a-software-under-linux
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/19369/how-to-find-the-installation-path-for-a-software-under-linux
+
+#### 125. Creating a ram disk on Linux
+
+**故障现象**: Creating a ram disk on Linux
+**标签 / 来源**: Tags: linux, ramdisk | unix | 👍 114 | 💬 8 answers
+
+**问题描述**:
+Tags: linux, ramdisk | Score: 114 | Views: 178020 | Answers: 8
+
+**解决方法 / 社区答案**:
+The best way to create a ram disk on linux is tmpfs. It's a filesystem living in ram, so there is no need for ext2. You can create a tmpfs of 16Gb size with:
+
+mount -o size=16G -t tmpfs none /mnt/tmpfs
+
+**参考链接**: https://unix.stackexchange.com/questions/66329/creating-a-ram-disk-on-linux
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/66329/creating-a-ram-disk-on-linux
+
+#### 126. What is meant by mounting a device in Linux?
+
+**故障现象**: What is meant by mounting a device in Linux?
+**标签 / 来源**: Tags: linux, mount | unix | 👍 114 | 💬 4 answers
+
+**问题描述**:
+Tags: linux, mount | Score: 114 | Views: 150384 | Answers: 4
+
+**解决方法 / 社区答案**:
+Unix systems have a single directory tree. All accessible storage must have an associated location in this single directory tree. This is unlike Windows where (in the most common syntax for file paths) there is one directory tree per storage component (drive).
+Mounting is the act of associating a storage device to a particular location in the directory tree. For example, when the system boots, a particular storage device (commonly called the root partition) is associated with the root of the directory tree, i.e., that storage device is mounted on / (the root directory).
+It's worth noting that mounting not only associates the device containing the data with a directory, but also with a filesystem driver, which is a piece of code that understands how the data on the device is organized and presents it as files and directories.
+Let's say you now want to access files on a CD-ROM. You must mount the CD-ROM on a location in the directory tree (this may be done automatically when you insert the CD). Let's say the CD-ROM device is /dev/cdrom and the chosen mount point is /media/cdrom. The corresponding command is
+mount /dev/cdrom /media/cdrom
+
+After that command is run, a file whose location on the CD-ROM is /dir/file is now accessible on your system as /media/cdrom/dir/file. When you've finished using the CD, you run the command umount /dev/cdrom or umount /media/cdrom (both will work; typical desktop environments will do this when you click on the “eject” or ”safely remove” button).
+Mounting applies to anything that is made accessible as files, not just actual storage devices. For example, all Linux systems have a special filesystem mounted under /proc. That filesystem (called proc) does not have underlying storage: the files in it give information about running processes and various other system information; the information is provided directly by the kernel from its in-memory data structures.
+
+**参考链接**: https://unix.stackexchange.com/questions/3192/what-is-meant-by-mounting-a-device-in-linux
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/3192/what-is-meant-by-mounting-a-device-in-linux
+
+#### 127. How to limit network bandwidth?
+
+**故障现象**: How to limit network bandwidth?
+**标签 / 来源**: Tags: linux, networking, bandwidth, qos | unix | 👍 113 | 💬 6 answers
+
+**问题描述**:
+Tags: linux, networking, bandwidth, qos | Score: 113 | Views: 240133 | Answers: 6
+
+**解决方法 / 社区答案**:
+You can throttle the network bandwidth on the interface using the command called tc Man page available at http://man7.org/linux/man-pages/man8/tc.8.html
+
+For a simple script, try wondershaper.
+
+An example from using tc:
+tc qdisc add dev eth0 root tbf rate 1024kbit latency 50ms burst 1540
+
+**参考链接**: https://unix.stackexchange.com/questions/28198/how-to-limit-network-bandwidth
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/28198/how-to-limit-network-bandwidth
+
+#### 128. Why are true and false so large?
+
+**故障现象**: Why are true and false so large?
+**标签 / 来源**: Tags: linux, reverse-engineering | unix | 👍 112 | 💬 5 answers
+
+**问题描述**:
+Tags: linux, reverse-engineering | Score: 112 | Views: 27867 | Answers: 5
+
+**解决方法 / 社区答案**:
+In the past, /bin/true and /bin/false in the shell were actually scripts.
+For instance, in a PDP/11 Unix System 7:
+$ ls -la /bin/true /bin/false
+-rwxr-xr-x 1 bin         7 Jun  8  1979 /bin/false
+-rwxr-xr-x 1 bin         0 Jun  8  1979 /bin/true
+$
+$ cat /bin/false
+exit 1
+$
+$ cat /bin/true
+$  
+
+Nowadays, at least in bash, the trueand false commands are implemented as shell built-in commands. Thus no executable binary files are invoked by default, both when using the false and true directives in the bash command line and inside shell scripts.
+From the bashsource, builtins/mkbuiltins.c:
+char *posix_builtins[] =
+    {
+      "alias", "bg", "cd", "command", "false", "fc", "fg", "getopts", "jobs",
+      "kill", "newgrp", "pwd", "read", "true", "umask", "unalias", "wait",
+      (char *)NULL
+    };
+
+Also per @meuh comments:
+$ command -V true false
+true is a shell builtin
+false is a shell builtin
+
+So it can be said with a high degree of certainty the trueand false executable files exist mainly for being called from other programs.
+From now on, the answer will focus on the /bin/true binary from the coreutilspackage in Debian 9 / 64 bits. (/usr/bin/true running RedHat. RedHat and Debian use both the  coreutils package, analysed the compiled version of the latter having it more at hand).
+As it can be seen in the source file false.c, /bin/false is compiled with (almost) the same source code as /bin/true, just returning EXIT_FAILURE (1) instead, so this answer can be applied for both binaries.
+#define EXIT_STATUS EXIT_FAILURE
+#include &quot;true.c&quot;
+
+As it also can be confirmed by both executables having the same size:
+$ ls -l /bin/true /bin/false
+-rwxr-xr-x 1 root root 31464 Feb 22  2017 /bin/false
+-rwxr-xr-x 1 root root 31464 Feb 22  2017 /bin/true
+
+Alas, the direct answer to the question &quot;why are true and false so large?&quot; could be, because there are not anymore so pressing reasons to care about their top performance. They are not essential to bash performance, not being used anymore by bash (scripting).
+Similar comments apply to their size, 26KB for the kind of hardware we have nowadays is insignificant. Space is not at premium for the typical server/desktop anymore, and they do not even bother anymore to use the same binary for false and true, as it is just deployed twice in distributions using coreutils.
+Focusing, however, in the real spirit of the question, why something that should be so simple and small, gets so large?
+The real distribution of the sections of /bin/true is as these charts shows; the main code+data amounts to roughly 3KB out of a 26KB binary, which amounts to 12% of the size of /bin/true.
+The true utility got indeed more cruft code over the years, most notably the standard support for --version and --help.
+However, that it is not the (only) main justification for it being so big, but rather, while being dynamically linked (using shared libs), also having part of a generic library commonly used by coreutils binaries linked as a static library.  The metada for building an elf executable file also amounts for a significant part of the binary, being it a relatively small file by today´s standards.
+The rest of the answer is for explaining how we got to build the following charts detailing the composition of the /bin/true executable binary file and how we arrived to that conclusion.
+
+
+As @Maks says, the binary was compiled from C; as per my comment also, it is also confirmed it is from coreutils. We are pointing directly to the author(s) git https://github.com/wertarbyte/coreutils/blob/master/src/true.c, instead of the gnu git as @Maks  (same sources, different repositories - this repository was selected as it has the full source of the coreutils libraries)
+We can see the various building blocks of the /bin/truebinary here (Debian 9 - 64 bits from coreutils):
+$ file /bin/true
+/bin/true: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=9ae82394864538fa7b23b7f87b259ea2a20889c4, stripped
+
+$ size /bin/true
+    text       data     bss     dec     hex filename
+   24583       1160     416   26159    662f true
+
+Of those:
+
+text (usually code) is around 24KB
+data (initialised variables, mostly strings) are around 1KB
+bss (uninitialized  data) 0.5KB
+
+Of the 24KB, around 1KB is for fixing up the 58 external functions.
+That still leaves around roughly 23KB for rest of the code. We will show down bellow that the actual main file - main()+usage() code is around 1KB compiled, and explain what the other 22KB are used for.
+Drilling further down the binary with readelf -S true, we can see that while the binary is 26159 bytes, the actual compiled code is 13017 bytes, and the rest is assorted data/initialisation code.
+However, true.c is not the whole story and 13KB seems pretty much excessive if it were only that file; we can see functions called in main() that are not listed in the external functions seen in the elf with objdump -T true ; functions that are present at:
+
+https://github.com/coreutils/gnulib/blob/master/lib/progname.c
+https://github.com/coreutils/gnulib/blob/master/lib/closeout.c
+https://github.com/coreutils/gnulib/blob/master/lib/version-etc.c
+
+Those extra functions not linked externally in main() are:
+
+set_program_name()
+close_stdout()
+version_etc()
+
+So my first suspicion was partly correct, whilst the library is using dynamic libraries, the /bin/true binary is big because it has some static libraries included with it (but that is not the only cause).
+Compiling C code is not usually that inefficient for having such space unaccounted for, hence my initial suspicion something was amiss.
+The extra space, almost 90% of the size of the binary, is indeed extra libraries/elf metadata.
+While using Hopper for disassembling/decompiling the binary to understand where functions are, it can be seen the compiled binary code of true.c/usage() function is actually 833 bytes, and of the true.c/main() function is 225 bytes, which is roughly slightly less than 1KB. The logic for version functions, which is buried in the static libraries, is around 1KB.
+The actual compiled main()+usage()+version()+strings+vars are only using up around 3KB to 3.5KB.
+It is indeed ironic, such small and humble utilities have became bigger in size for the reasons explained above.
+related question: Understanding what a Linux binary is doing
+true.c main() with the offending function calls:
+int
+main (int argc, char **argv)
+{
+  /* Recognize --help or --version only if it's the only command-line
+     argument.  */
+  if (argc == 2)
+    {
+      initialize_main (&amp;argc, &amp;argv);
+      set_program_name (argv[0]);           &lt;-----------
+      setlocale (LC_ALL, &quot;&quot;);
+      bindtextdomain (PACKAGE, LOCALEDIR);
+      textdomain (PACKAGE);
+
+      atexit (close_stdout);             &lt;-----
+
+      if (STREQ (argv[1], &quot;--help&quot;))
+        usage (EXIT_STATUS);
+
+      if (STREQ (argv[1], &quot;--version&quot;))
+        version_etc (stdout, PROGRAM_NAME, PACKAGE_NAME, Version,  AUTHORS,  &lt;------
+                     (char *) NULL);
+    }
+
+  exit (EXIT_STATUS);
+}
+
+The decimal size of the various sections of the binary:
+$ size -A -t true 
+true  :
+section               size      addr
+.interp                 28       568
+.note.ABI-tag           32       596
+.note.gnu.build-id      36       628
+.gnu.hash               60       664
+.dynsym               1416       728
+.dynstr                676      2144
+.gnu.version           118      2820
+.gnu.version_r          96      2944
+.rela.dyn              624      3040
+.rela.plt             1104      3664
+.init                   23      4768
+.plt                   752      4800
+.plt.got                 8      5552
+.text                13017      5568
+.fini                    9     18588
+.rodata               3104     18624
+.eh_frame_hdr          572     21728
+.eh_frame             2908     22304
+.init_array              8   2125160
+.fini_array              8   2125168
+.jcr                     8   2125176
+.data.rel.ro            88   2125184
+.dynamic               480   2125272
+.got                    48   2125752
+.got.plt               392   2125824
+.data                  128   2126240
+.bss                   416   2126368
+.gnu_debuglink          52         0
+Total                26211
+
+Output of readelf -S true
+$ readelf -S true
+There are 30 section headers, starting at offset 0x7368:
+
+Section Headers:
+  [Nr] Name              Type             Address           Offset
+       Size              EntSize          Flags  Link  Info  Align
+  [ 0]                   NULL             0000000000000000  00000000
+       0000000000000000  0000000000000000           0     0     0
+  [ 1] .interp           PROGBITS         0000000000000238  00000238
+       000000000000001c  0000000000000000   A       0     0     1
+  [ 2] .note.ABI-tag     NOTE             0000000000000254  00000254
+       0000000000000020  0000000000000000   A       0     0     4
+  [ 3] .note.gnu.build-i NOTE             0000000000000274  00000274
+       0000000000000024  0000000000000000   A       0     0     4
+  [ 4] .gnu.hash         GNU_HASH         0000000000000298  00000298
+       000000000000003c  0000000000000000   A       5     0     8
+  [ 5] .dynsym           DYNSYM           00000000000002d8  000002d8
+       0000000000000588  0000000000000018   A       6     1     8
+  [ 6] .dynstr           STRTAB           0000000000000860  00000860
+       00000000000002a4  0000000000000000   A       0     0     1
+  [ 7] .gnu.version      VERSYM           0000000000000b04  00000b04
+       0000000000000076  0000000000000002   A       5     0     2
+  [ 8] .gnu.version_r    VERNEED          0000000000000b80  00000b80
+       0000000000000060  0000000000000000   A       6     1     8
+  [ 9] .rela.dyn         RELA             0000000000000be0  00000be0
+       0000000000000270  0000000000000018   A       5     0     8
+  [10] .rela.plt         RELA             0000000000000e50  00000e50
+       0000000000000450  0000000000000018  AI       5    25     8
+  [11] .init             PROGBITS         00000000000012a0  000012a0
+       0000000000000017  0000000000000000  AX       0     0     4
+  [12] .plt              PROGBITS         00000000000012c0  000012c0
+       00000000000002f0  0000000000000010  AX       0     0     16
+  [13] .plt.got          PROGBITS         00000000000015b0  000015b0
+       0000000000000008  0000000000000000  AX       0     0     8
+  [14] .text             PROGBITS         00000000000015c0  000015c0
+       00000000000032d9  0000000000000000  AX       0     0     16
+  [15] .fini             PROGBITS         000000000000489c  0000489c
+       0000000000000009  0000000000000000  AX       0     0     4
+  [16] .rodata           PROGBITS         00000000000048c0  000048c0
+       0000000000000c20  0000000000000000   A       0     0     32
+  [17] .eh_frame_hdr     PROGBITS         00000000000054e0  000054e0
+       000000000000023c  0000000000000000   A       0     0     4
+  [18] .eh_frame         PROGBITS         0000000000005720  00005720
+       0000000000000b5c  0000000000000000   A       0     0     8
+  [19] .init_array       INIT_ARRAY       0000000000206d68  00006d68
+       0000000000000008  0000000000000008  WA       0     0     8
+  [20] .fini_array       FINI_ARRAY       0000000000206d70  00006d70
+       0000000000000008  0000000000000008  WA       0     0     8
+  [21] .jcr              PROGBITS         0000000000206d78  00006d78
+       0000000000000008  0000000000000000  WA       0     0     8
+  [22] .data.rel.ro      PROGBITS         0000000000206d80  00006d80
+       0000000000000058  0000000000000000  WA       0     0     32
+  [23] .dynamic          DYNAMIC          0000000000206dd8  00006dd8
+       00000000000001e0  0000000000000010  WA       6     0     8
+  [24] .got              PROGBITS         0000000000206fb8  00006fb8
+       0000000000000030  0000000000000008  WA       0     0     8
+  [25] .got.plt          PROGBITS         0000000000207000  00007000
+       0000000000000188  0000000000000008  WA       0     0     8
+  [26] .data             PROGBITS         00000000002071a0  000071a0
+       0000000000000080  0000000000000000  WA       0     0     32
+  [27] .bss              NOBITS           0000000000207220  00007220
+       00000000000001a0  0000000000000000  WA       0     0     32
+  [28] .gnu_debuglink    PROGBITS         0000000000000000  00007220
+       0000000000000034  0000000000000000           0     0     1
+  [29] .shstrtab         STRTAB           0000000000000000  00007254
+       000000000000010f  0000000000000000           0     0     1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  l (large), p (processor specific)
+
+Output of objdump -T true (external functions dynamically linked on run-time)
+$ objdump -T true
+
+true:     file format elf64-x86-64
+
+DYNAMIC SYMBOL TABLE:
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 __uflow
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 getenv
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 free
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 abort
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 __errno_location
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 strncmp
+0000000000000000  w   D  *UND*  0000000000000000              _ITM_deregisterTMCloneTable
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 _exit
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 __fpending
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 textdomain
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 fclose
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 bindtextdomain
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 dcgettext
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 __ctype_get_mb_cur_max
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 strlen
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.4   __stack_chk_fail
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 mbrtowc
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 strrchr
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 lseek
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 memset
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 fscanf
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 close
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 __libc_start_main
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 memcmp
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 fputs_unlocked
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 calloc
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 strcmp
+0000000000000000  w   D  *UND*  0000000000000000              __gmon_start__
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.14  memcpy
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 fileno
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 malloc
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 fflush
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 nl_langinfo
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 ungetc
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 __freading
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 realloc
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 fdopen
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 setlocale
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.3.4 __printf_chk
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 error
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 open
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 fseeko
+0000000000000000  w   D  *UND*  0000000000000000              _Jv_RegisterClasses
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 __cxa_atexit
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 exit
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 fwrite
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.3.4 __fprintf_chk
+0000000000000000  w   D  *UND*  0000000000000000              _ITM_registerTMCloneTable
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 mbsinit
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 iswprint
+0000000000000000  w   DF *UND*  0000000000000000  GLIBC_2.2.5 __cxa_finalize
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.3   __ctype_b_loc
+0000000000207228 g    DO .bss   0000000000000008  GLIBC_2.2.5 stdout
+0000000000207220 g    DO .bss   0000000000000008  GLIBC_2.2.5 __progname
+0000000000207230  w   DO .bss   0000000000000008  GLIBC_2.2.5 program_invocation_name
+0000000000207230 g    DO .bss   0000000000000008  GLIBC_2.2.5 __progname_full
+0000000000207220  w   DO .bss   0000000000000008  GLIBC_2.2.5 program_invocation_short_name
+0000000000207240 g    DO .bss   0000000000000008  GLIBC_2.2.5 stderr
+
+**参考链接**: https://unix.stackexchange.com/questions/419697/why-are-true-and-false-so-large
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/419697/why-are-true-and-false-so-large
+
+#### 129. What is this new /run filesystem?
+
+**故障现象**: What is this new /run filesystem?
+**标签 / 来源**: Tags: linux, filesystems, directory-structure | unix | 👍 112 | 💬 2 answers
+
+**问题描述**:
+Tags: linux, filesystems, directory-structure | Score: 112 | Views: 132435 | Answers: 2
+
+**解决方法 / 社区答案**:
+Apparently, many tools (among them udev) will soon require a /run/ directory that is mounted early (as tmpfs). Arch developers introduced /run last month to prepare for this.
+
+The udev runtime data moved from /dev/.udev/ to /run/udev/. The /run mountpoint is supposed to be a tmpfs mounted during early boot, available and writable to for all tools at any time during bootup, it replaces /var/run/, which should become a symlink some day.(1)
+
+ 
+There is more detail here (now dead, link to archive).
+(1) From thread on the Arch Projects ML
+
+**参考链接**: https://unix.stackexchange.com/questions/13972/what-is-this-new-run-filesystem
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/13972/what-is-this-new-run-filesystem
+
+#### 130. Recover cron jobs accidently removed with crontab -r
+
+**故障现象**: Recover cron jobs accidently removed with crontab -r
+**标签 / 来源**: Tags: linux, cron | unix | 👍 112 | 💬 5 answers
+
+**问题描述**:
+Tags: linux, cron | Score: 112 | Views: 107293 | Answers: 5
+
+**解决方法 / 社区答案**:
+crontab -r removes the only file containing the cron jobs. 
+
+So if you did not make a backup, your only recovery options are:
+
+
+On RedHat/CentOS, if your jobs have been triggered before, you can find the cron log in /var/log/cron. The file will help you rewrite the jobs again. 
+Another option is to recover the file using a file recovery tool. This is less likely to be successful though, since the system partition is usually a busy one and corresponding sectors probably have already been overwritten.
+On Ubuntu/Debian, if your task has run before, try grep CRON /var/log/syslog
+
+**参考链接**: https://unix.stackexchange.com/questions/136350/recover-cron-jobs-accidently-removed-with-crontab-r
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/136350/recover-cron-jobs-accidently-removed-with-crontab-r
+
+#### 131. A list of available D-Bus services
+
+**故障现象**: A list of available D-Bus services
+**标签 / 来源**: Tags: linux, d-bus, ipc | unix | 👍 111 | 💬 6 answers
+
+**问题描述**:
+Tags: linux, d-bus, ipc | Score: 111 | Views: 122640 | Answers: 6
+
+**解决方法 / 社区答案**:
+On QT setups (short commands and clean, human readable output) you can run:
+qdbus
+
+will list list the services available on the session bus and
+qdbus --system
+
+will list list the services available on the system bus.
+
+On any setup you can use dbus-send
+dbus-send --print-reply --dest=org.freedesktop.DBus  /org/freedesktop/DBus org.freedesktop.DBus.ListNames
+
+Just like qdbus, if --session or no message bus is specified, dbus will send to the login session message bus. So the above will list the services available on the session bus.
+Use --system if you want instead to use the system wide message bus:
+dbus-send --system --print-reply --dest=org.freedesktop.DBus  /org/freedesktop/DBus org.freedesktop.DBus.ListNames
+
+**参考链接**: https://unix.stackexchange.com/questions/46301/a-list-of-available-d-bus-services
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/46301/a-list-of-available-d-bus-services
+
+#### 132. How to use command line to change volume?
+
+**故障现象**: How to use command line to change volume?
+**标签 / 来源**: Tags: linux, command-line, audio, alsa | unix | 👍 111 | 💬 7 answers
+
+**问题描述**:
+Tags: linux, command-line, audio, alsa | Score: 111 | Views: 271823 | Answers: 7
+
+**解决方法 / 社区答案**:
+You can use amixer. It's in the alsa-utils package on Ubuntu and Debian.
+Run amixer without parameters to get an overview about your controls for the default device.
+You can also use alsamixer without parameters (from the same package) to get a more visual overview. Use F6 to see and switch between devices. Commonly, you might have PulseAudio and a hardware sound card to select from.
+Then use amixer with the set command to set the volume.
+For example, to set the master channel to 50%:
+amixer set Master 50%
+
+Master is the control name and should match one that you see when running without parameters.
+Note the % sign, without it, it will treat the value as a 0 - 65536 level.
+If PulseAudio is not your default device, you can use the -D switch:
+amixer -D pulse set Master 50%
+
+Other useful commands pointed out in the comments:
+To increase/decrease the volume use +/- after the number, use
+amixer set Master 10%+
+amixer set Master 10%-
+
+To mute, unmute or toggle between muted/unmuted state, use
+amixer set Master mute
+amixer set Master unmute
+amixer set Master toggle
+
+Also note that there might be two different percentage scales, the default raw and for some devices a more natural scale based on decibel, which is also used by alsamixer. Use -M to use the latter.
+Finally, if you're interested only in PulseAudio, you might want to check out pactl (see one of the other answers).
+
+**参考链接**: https://unix.stackexchange.com/questions/21089/how-to-use-command-line-to-change-volume
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/21089/how-to-use-command-line-to-change-volume
+
+#### 133. Easy command line method to determine specific ARM architecture string?
+
+**故障现象**: Easy command line method to determine specific ARM architecture string?
+**标签 / 来源**: Tags: debian, ubuntu, scripting, architecture, cpu-architecture | unix | 👍 111 | 💬 2 answers
+
+**问题描述**:
+Tags: debian, ubuntu, scripting, architecture, cpu-architecture | Score: 111 | Views: 232891 | Answers: 2
+
+**解决方法 / 社区答案**:
+On Debian and derivatives,
+dpkg --print-architecture
+
+will output the primary architecture of the machine it’s run on. This will be armhf on a machine running 32-bit ARM Debian or Ubuntu (or a derivative), arm64 on a machine running 64-bit ARM.
+On RPM-based systems,
+rpm --eval '%{_arch}'
+
+will output the current architecture name (which may be influenced by other parameters, e.g. --target).
+Note that the running architecture may be different from the hardware architecture or even the kernel architecture. It’s possible to run i386 Debian on a 64-bit Intel or AMD CPU, and I believe it’s possible to run armhf on a 64-bit ARM CPU. It’s also possible to have mostly i386 binaries (so the primary architecture is i386) on an amd64 kernel, or even binaries from an entirely different architecture if it’s supported by QEMU (a common use for this is debootstrap chroots used for cross-compiling).
+
+**参考链接**: https://unix.stackexchange.com/questions/180726/easy-command-line-method-to-determine-specific-arm-architecture-string
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/180726/easy-command-line-method-to-determine-specific-arm-architecture-string
+
+#### 134. Does `sl` ever show the current directory?
+
+**故障现象**: Does `sl` ever show the current directory?
+**标签 / 来源**: Tags: linux | unix | 👍 110 | 💬 10 answers
+
+**问题描述**:
+Tags: linux | Score: 110 | Views: 23222 | Answers: 10
+
+**解决方法 / 社区答案**:
+As far as I know, the only condition under which sl shows the current directory is when you mistype it as ls.
+
+**参考链接**: https://unix.stackexchange.com/questions/124816/does-sl-ever-show-the-current-directory
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/124816/does-sl-ever-show-the-current-directory
+
+#### 135. How to turn off Wireless power management permanently
+
+**故障现象**: How to turn off Wireless power management permanently
+**标签 / 来源**: Tags: linux, wifi, power-management | unix | 👍 109 | 💬 5 answers
+
+**问题描述**:
+Tags: linux, wifi, power-management | Score: 109 | Views: 275990 | Answers: 5
+
+**解决方法 / 社区答案**:
+Open this file with your favorite text editor, I use nano here:
+sudo nano /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
+
+By default there is:
+[connection]
+wifi.powersave = 3
+
+Change the value to 2.
+
+Possible values for the wifi.powersave field are:
+NM_SETTING_WIRELESS_POWERSAVE_DEFAULT (0): use the default value
+NM_SETTING_WIRELESS_POWERSAVE_IGNORE  (1): don't touch existing setting
+NM_SETTING_WIRELESS_POWERSAVE_DISABLE (2): disable powersave
+NM_SETTING_WIRELESS_POWERSAVE_ENABLE  (3): enable powersave
+
+(Informal source on GitHub for these values.)
+
+To take effect, just run:
+sudo systemctl restart NetworkManager
+
+**参考链接**: https://unix.stackexchange.com/questions/269661/how-to-turn-off-wireless-power-management-permanently
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/269661/how-to-turn-off-wireless-power-management-permanently
+
+#### 136. Execute a specific command in a given directory without cd&#39;ing to it?
+
+**故障现象**: Execute a specific command in a given directory without cd&#39;ing to it?
+**标签 / 来源**: Tags: linux, bash, cd-command | unix | 👍 109 | 💬 11 answers
+
+**问题描述**:
+Tags: linux, bash, cd-command | Score: 109 | Views: 147345 | Answers: 11
+
+**解决方法 / 社区答案**:
+I don't know if this counts, but you can make a subshell:
+
+$ (cd /var/log &amp;&amp; cp -- *.log ~/Desktop)
+
+
+The directory is only changed for that subshell, so you avoid the work of needing to cd - afterwards.
+
+**参考链接**: https://unix.stackexchange.com/questions/13802/execute-a-specific-command-in-a-given-directory-without-cding-to-it
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/13802/execute-a-specific-command-in-a-given-directory-without-cding-to-it
+
+#### 137. Is there a way to stop having to write &#39;sudo&#39; for every little thing in Linux?
+
+**故障现象**: Is there a way to stop having to write &#39;sudo&#39; for every little thing in Linux?
+**标签 / 来源**: Tags: linux, permissions, sudo | unix | 👍 109 | 💬 11 answers
+
+**问题描述**:
+Tags: linux, permissions, sudo | Score: 109 | Views: 371243 | Answers: 11
+
+**解决方法 / 社区答案**:
+Two options come to my mind:
+
+Own the directory you want by using chown:
+sudo chown your_username directory 
+
+(replace your_username with your username and directory with the directory you want.)
+
+The other thing you can do is work as root as long as you KNOW WHAT YOU ARE DOING. To use root do:
+sudo -s
+
+
+
+and then you can do anything without having to type sudo before every command.
+To exit this sudo -s shell terminal, type exit and you will be returned to the previous shell terminal.
+
+**参考链接**: https://unix.stackexchange.com/questions/26074/is-there-a-way-to-stop-having-to-write-sudo-for-every-little-thing-in-linux
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/26074/is-there-a-way-to-stop-having-to-write-sudo-for-every-little-thing-in-linux
+
+#### 138. Difference between cp -r and cp -R (copy command)
+
+**故障现象**: Difference between cp -r and cp -R (copy command)
+**标签 / 来源**: Tags: linux, cp | unix | 👍 109 | 💬 5 answers
+
+**问题描述**:
+Tags: linux, cp | Score: 109 | Views: 156009 | Answers: 5
+
+**解决方法 / 社区答案**:
+While -R is posix well-defined, -r is not portable!
+
+On Linux, in the GNU and BusyBox implementations of cp, -r and -R are equivalent. 
+
+On the other side, as you can read in the POSIX manual page of cp, -r behavior  is implementation-defined.
+
+
+    * If  neither  the  -R  nor  -r  options were specified, cp shall take
+      actions based on the type and contents of the file referenced by the
+      symbolic link, and not by the symbolic link itself.
+
+    * If the -R option was specified:
+
+       * If  none  of  the  options  -H,  -L, nor -P were specified, it is
+         unspecified which of -H, -L, or -P will be used as a default.
+
+       * If the -H option was specified, cp shall take  actions based on
+         the type and contents of the file referenced by any symbolic link
+         specified as a source_file operand.
+
+       * If the -L option was specified, cp shall take  actions based  on
+         the type and contents of the file referenced by any symbolic link
+         specified as a source_file operand or any symbolic links encoun-
+         tered during traversal of a file hierarchy.
+
+       * If  the  -P option was specified, cp shall copy any symbolic link
+         specified as a source_file operand and any symbolic links encoun-
+         tered  during traversal of a file hierarchy, and shall not follow
+         any symbolic links.
+
+    * If the -r option was  specified,  the  behavior  is implementation-
+      defined.
+
+**参考链接**: https://unix.stackexchange.com/questions/18712/difference-between-cp-r-and-cp-r-copy-command
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/18712/difference-between-cp-r-and-cp-r-copy-command
+
+#### 139. How to find out if a system uses SysV, Upstart or Systemd initsystem
+
+**故障现象**: How to find out if a system uses SysV, Upstart or Systemd initsystem
+**标签 / 来源**: Tags: linux, systemd, init, upstart, sysvinit | unix | 👍 108 | 💬 5 answers
+
+**问题描述**:
+Tags: linux, systemd, init, upstart, sysvinit | Score: 108 | Views: 128579 | Answers: 5
+
+**解决方法 / 社区答案**:
+The init process is always assigned PID 1. The /proc filesystem provides a way to obtain the path to an executable given a PID.
+
+In other words:
+
+nathan@nathan-desktop:~$ sudo stat /proc/1/exe
+  File: '/proc/1/exe' -&gt; '/sbin/upstart'
+
+
+As you can see, the init process on my Ubuntu 14.10 box is Upstart. Ubuntu 15.04 uses systemd, so running that command instead yields:
+
+nathan@nathan-gnome:~$ sudo stat /proc/1/exe
+  File: '/proc/1/exe' -&gt; '/lib/systemd/systemd'
+
+
+If the system you're on gives /sbin/init as a result, then you'll want to try statting that file:
+
+nathan@nathan-gnome:~$ sudo stat /proc/1/exe
+  File: '/proc/1/exe' -&gt; '/sbin/init'
+nathan@nathan-gnome:~$ stat /sbin/init
+  File: ‘/sbin/init’ -&gt; ‘/lib/systemd/systemd’
+
+
+You can also execute it to find out more:
+
+[user@centos ~]$ /sbin/init --version
+init (upstart 0.6.5)
+Copyright (C) 2010 Canonical Ltd.
+
+**参考链接**: https://unix.stackexchange.com/questions/196166/how-to-find-out-if-a-system-uses-sysv-upstart-or-systemd-initsystem
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/196166/how-to-find-out-if-a-system-uses-sysv-upstart-or-systemd-initsystem
+
+#### 140. How to see disk details like manufacturer in Linux
+
+**故障现象**: How to see disk details like manufacturer in Linux
+**标签 / 来源**: Tags: linux, hard-disk, sfdisk | unix | 👍 108 | 💬 9 answers
+
+**问题描述**:
+Tags: linux, hard-disk, sfdisk | Score: 108 | Views: 255767 | Answers: 9
+
+**解决方法 / 社区答案**:
+Try these commands:
+
+lshw -class disk  
+
+hwinfo --disk
+
+
+You may have to install hwinfo.
+
+Concerning hdparm:
+hdparm(8) says:  
+
+Although this utility is intended primarily for use with SATA/IDE hard disk 
+devices, several of the options are also valid (and permitted) for use with 
+SCSI hard disk devices and MFM/RLL hard disks with XT interfaces.
+
+
+and:
+
+Some options (eg. -r for SCSI) may not work with old kernels as necessary 
+ioctl()´s were not supported.
+
+**参考链接**: https://unix.stackexchange.com/questions/5085/how-to-see-disk-details-like-manufacturer-in-linux
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/5085/how-to-see-disk-details-like-manufacturer-in-linux
+
+#### 141. Can I set up system mail to use an external SMTP server?
+
+**故障现象**: Can I set up system mail to use an external SMTP server?
+**标签 / 来源**: Tags: linux, smtp, email | unix | 👍 108 | 💬 7 answers
+
+**问题描述**:
+Tags: linux, smtp, email | Score: 108 | Views: 391910 | Answers: 7
+
+**解决方法 / 社区答案**:
+I found sSMTP very simple to use.
+
+In Debian based systems:
+
+apt-get install ssmtp
+
+
+Then edit the configuration file in /etc/ssmtp/ssmtp.conf
+
+A sample configuration to use your gmail for sending e-mails:
+
+# root is the person who gets all mail for userids &lt; 1000
+root=your@email.com
+
+# Here is the gmail configuration (or change it to your private smtp server)
+mailhub=smtp.gmail.com:587
+AuthUser=your@gmail.com
+AuthPass=yourGmailPass
+UseTLS=YES
+UseSTARTTLS=YES
+
+
+Note: Make sure the "mail" command is present in your system. mailutils package should provide this one in Debian based systems.
+
+Update: There are people (and bug reports for different Linux distributions) reporting that sSMTP will not accept passwords with a 'space' or '#' character. If sSMTP is not working for you, this may be the case.
+
+**参考链接**: https://unix.stackexchange.com/questions/36982/can-i-set-up-system-mail-to-use-an-external-smtp-server
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/36982/can-i-set-up-system-mail-to-use-an-external-smtp-server
+
+#### 142. How can I restart the SSH daemon on Ubuntu?
+
+**故障现象**: How can I restart the SSH daemon on Ubuntu?
+**标签 / 来源**: Tags: ubuntu, services, sshd, upstart | unix | 👍 108 | 💬 2 answers
+
+**问题描述**:
+Tags: ubuntu, services, sshd, upstart | Score: 108 | Views: 396953 | Answers: 2
+
+**解决方法 / 社区答案**:
+Ubuntu calls the service ssh, not sshd.
+
+service ssh restart
+
+
+The service is also controlled by upstart, and not sysvinit. So you'll find it at /etc/init/ssh.conf instead of /etc/init.d/ssh.
+
+**参考链接**: https://unix.stackexchange.com/questions/127886/how-can-i-restart-the-ssh-daemon-on-ubuntu
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/127886/how-can-i-restart-the-ssh-daemon-on-ubuntu
+
+#### 143. Linux: How to find the device driver used for a device?
+
+**故障现象**: Linux: How to find the device driver used for a device?
+**标签 / 来源**: Tags: linux, linux-kernel | unix | 👍 107 | 💬 12 answers
+
+**问题描述**:
+Tags: linux, linux-kernel | Score: 107 | Views: 494262 | Answers: 12
+
+**解决方法 / 社区答案**:
+Just use /sys.
+
+Example. I want to find the driver for my Ethernet card:
+
+$ sudo lspci
+...
+02:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168B PCI Express Gigabit Ethernet controller (rev 01)
+$ find /sys | grep drivers.*02:00
+/sys/bus/pci/drivers/r8169/0000:02:00.0
+
+
+That is r8169.
+
+First I need to find coordinates of the device using lspci; then I find driver that is used for the devices with these coordinates.
+
+**参考链接**: https://unix.stackexchange.com/questions/41817/linux-how-to-find-the-device-driver-used-for-a-device
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/41817/linux-how-to-find-the-device-driver-used-for-a-device
+
+#### 144. Is there a whoami to find the current group I&#39;m logged in as?
+
+**故障现象**: Is there a whoami to find the current group I&#39;m logged in as?
+**标签 / 来源**: Tags: linux, users, group | unix | 👍 107 | 💬 2 answers
+
+**问题描述**:
+Tags: linux, users, group | Score: 107 | Views: 114828 | Answers: 2
+
+**解决方法 / 社区答案**:
+I figured I can use the following. 
+
+id -g
+
+
+To get all the groups I belong
+
+id -G
+
+
+And to get the actual names, instead of the ids, just pass the flag -n.
+
+id -Gn
+
+
+This last command will yield the same result as executing
+
+groups
+
+**参考链接**: https://unix.stackexchange.com/questions/252980/is-there-a-whoami-to-find-the-current-group-im-logged-in-as
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/252980/is-there-a-whoami-to-find-the-current-group-im-logged-in-as
+
+#### 145. Understanding UNIX permissions and file types
+
+**故障现象**: Understanding UNIX permissions and file types
+**标签 / 来源**: Tags: linux, permissions, ls, chmod | unix | 👍 106 | 💬 6 answers
+
+**问题描述**:
+Tags: linux, permissions, ls, chmod | Score: 106 | Views: 117704 | Answers: 6
+
+**解决方法 / 社区答案**:
+I’ll answer your questions in three parts: file types, permissions, and use cases for the various forms of chmod.
+
+File types
+
+The first character in ls -l output represents the file type; d means it’s a directory. It can’t be set or unset, it depends on how the file was created. You can find the complete list of file types in the ls documentation; those you’re likely to come across are
+
+
+-: “regular” file, created with any program which can write a file
+b: block special file, typically disk or partition devices, can be created with mknod
+c: character special file, can also be created with mknod (see /dev for examples)
+d: directory, can be created with mkdir
+l: symbolic link, can be created with ln -s
+p: named pipe, can be created with mkfifo
+s: socket, can be created with nc -U
+D: door, created by some server processes on Solaris/openindiana.
+
+
+Permissions
+
+chmod 0777 is used to set all the permissions in one chmod execution, rather than combining changes with u+ etc. Each of the four digits is an octal value representing a set of permissions:
+
+
+suid, sgid and “sticky” (see below)
+user permissions
+group permissions
+“other” permissions
+
+
+The octal value is calculated as the sum of the permissions:
+
+
+“read” is 4
+“write” is 2
+“execute” is 1
+
+
+For the first digit:
+
+
+suid is 4; binaries with this bit set run as their owner user (commonly root)
+sgid is 2; binaries with this bit set run as their owner group (this was used for games so high scores could be shared, but it’s often a security risk when combined with vulnerabilities in the games), and files created in directories with this bit set belong to the directory’s owner group by default (this is handy for creating shared folders)
+“sticky” (or “restricted deletion”) is 1; files in directories with this bit set can only be deleted by their owner, the directory’s owner, or root (see /tmp for a common example of this).
+
+
+See the chmod manpage for details. Note that in all this I’m ignoring other security features which can alter users’ permissions on files (SELinux, file ACLs...).
+
+Special bits are handled differently depending on the type of file (regular file or directory) and the underlying system. (This is mentioned in the chmod manpage.) On the system I used to test this (with coreutils 8.23 on an ext4 filesystem, running Linux kernel 3.16.7-ckt2), the behaviour is as follows. For a file, the special bits are always cleared unless explicitly set, so chmod 0777 is equivalent to chmod 777, and both commands clear the special bits and give everyone full permissions on the file. For a directory, the special bits are never fully cleared using the four-digit numeric form, so in effect chmod 0777 is also equivalent to chmod 777 but it’s misleading since some of the special bits will remain as-is. (A previous version of this answer got this wrong.) To clear special bits on directories you need to use u-s, g-s and/or o-t explicitly or specify a negative numeric value, so chmod -7000 will clear all the special bits on a directory.
+
+In ls -l output, suid, sgid and “sticky” appear in place of the x entry: suid is s or S instead of the user’s x, sgid is s or S instead of the group’s x, and “sticky” is t or T instead of others’ x. A lower-case letter indicates that both the special bit and the executable bit are set; an upper-case letter indicates that only the special bit is set.
+
+The various forms of chmod
+
+Because of the behaviour described above, using the full four digits in chmod can be confusing (at least it turns out I was confused). It’s useful when you want to set special bits as well as permission bits; otherwise the bits are cleared if you’re manipulating a file, preserved if you’re manipulating a directory. So chmod 2750 ensures you’ll get at least sgid and exactly u=rwx,g=rx,o=; but chmod 0750 won’t necessarily clear the special bits.
+
+Using numeric modes instead of text commands ([ugo][=+-][rwxXst]) is probably more a case of habit and the aim of the command. Once you’re used to using numeric modes, it’s often easier to just specify the full mode that way; and it’s useful to be able to think of permissions using numeric modes, since many other commands can use them (install, mknod...).
+
+Some text variants can come in handy: if you simply want to ensure a file can be executed by anyone, chmod a+x will do that, regardless of what the other permissions are. Likewise, +X adds the execute permission only if one of the execute permissions is already set or the file is a directory; this can be handy for restoring permissions globally without having to special-case files v. directories. Thus, chmod -R ug=rX,u+w,o= is equivalent to applying chmod -R 750 to all directories and executable files and chmod -R 640 to all other files.
+
+**参考链接**: https://unix.stackexchange.com/questions/183994/understanding-unix-permissions-and-file-types
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/183994/understanding-unix-permissions-and-file-types
+
+#### 146. What are the alternatives for checking open ports, besides telnet?
+
+**故障现象**: What are the alternatives for checking open ports, besides telnet?
+**标签 / 来源**: Tags: linux, networking, curl, telnet | unix | 👍 105 | 💬 9 answers
+
+**问题描述**:
+Tags: linux, networking, curl, telnet | Score: 105 | Views: 272487 | Answers: 9
+
+**解决方法 / 社区答案**:
+Netcat (nc) is one option.
+nc -zv kafka02 6667
+
+
+-z = sets nc to simply scan for listening daemons, without actually sending any data to them
+-v = enables verbose mode
+
+**参考链接**: https://unix.stackexchange.com/questions/479710/what-are-the-alternatives-for-checking-open-ports-besides-telnet
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/479710/what-are-the-alternatives-for-checking-open-ports-besides-telnet
+
+#### 147. List all available ssl ca certificates
+
+**故障现象**: List all available ssl ca certificates
+**标签 / 来源**: Tags: linux, openssl | unix | 👍 104 | 💬 8 answers
+
+**问题描述**:
+Tags: linux, openssl | Score: 104 | Views: 581877 | Answers: 8
+
+**解决方法 / 社区答案**:
+It's not SSL keys you want, it's certificate authorities, and more precisely their certificates.
+You could try:
+awk -v cmd='openssl x509 -noout -subject' '
+    /BEGIN/{close(cmd)};{print | cmd}' &lt; /etc/ssl/certs/ca-certificates.crt
+
+To get the &quot;subject&quot; of every CA certificate in /etc/ssl/certs/ca-certificates.crt (this works because openssl exits after reading an individual cert block, but awk relaunches openssl on the next print | cmd call).
+Beware that sometimes, you get that error when SSL servers forget to provide the intermediate certificates.
+Use openssl s_client -showcerts -connect the-git-server:443 to get the list of certificates  being sent.
+Note that the pathname of the certificates bundle may differ depending on operating system. The directory holding the certs sub-directory is given by the command openssl version -d. The actual certificates file in that directory may additionally have a different name.
+
+**参考链接**: https://unix.stackexchange.com/questions/97244/list-all-available-ssl-ca-certificates
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/97244/list-all-available-ssl-ca-certificates
+
+#### 148. What does status &quot;active (exited)&quot; mean for a systemd service?
+
+**故障现象**: What does status &quot;active (exited)&quot; mean for a systemd service?
+**标签 / 来源**: Tags: linux, systemd, services, sysvinit | unix | 👍 104 | 💬 3 answers
+
+**问题描述**:
+Tags: linux, systemd, services, sysvinit | Score: 104 | Views: 221266 | Answers: 3
+
+**解决方法 / 社区答案**:
+It seems you are running a system with systemd yet you are using sysV commands. Did you create a sysV init script or a systemd unit file?
+
+State active (exited) means that systemd has successfully run the commands but that it does not know there is a daemon to monitor.
+
+If there is you must define it in the unit file by configuring the Type and ExecStart options appropriately according to whether the process you start is the main proces, forks child processes and exits etc.
+
+Check the different systemd man pages or update your question and post the unit file or init script.
+
+**参考链接**: https://unix.stackexchange.com/questions/241970/what-does-status-active-exited-mean-for-a-systemd-service
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/241970/what-does-status-active-exited-mean-for-a-systemd-service
+
+#### 149. What do the &quot;buff/cache&quot; and &quot;avail mem&quot; fields in top mean?
+
+**故障现象**: What do the &quot;buff/cache&quot; and &quot;avail mem&quot; fields in top mean?
+**标签 / 来源**: Tags: linux, memory, top | unix | 👍 102 | 💬 3 answers
+
+**问题描述**:
+Tags: linux, memory, top | Score: 102 | Views: 185264 | Answers: 3
+
+**解决方法 / 社区答案**:
+top’s manpage doesn’t describe the fields, but free’s does:
+
+buffers
+Memory used by kernel buffers (Buffers in /proc/meminfo)
+cache
+Memory used by the page cache and slabs (Cached and
+SReclaimable in /proc/meminfo)
+buff/cache
+Sum of buffers and cache
+available
+Estimation of how much memory is available for starting new
+applications, without swapping. Unlike the data provided by
+the cache or free fields, this field takes into account page
+cache and also that not all reclaimable memory slabs will be
+reclaimed due to items being in use (MemAvailable in
+/proc/meminfo, available on kernels 3.14, emulated on kernels
+2.6.27+, otherwise the same as free)
+
+Basically, “buff/cache” counts memory used for data that’s on disk or should end up there soon, and as a result is potentially usable (the corresponding memory can be made available immediately, if it hasn’t been modified since it was read, or given enough time, if it has); “available” measures the amount of memory which can be allocated and used without causing more swapping (see How can I get the amount of available memory portably across distributions? for a lot more detail on that).
+
+**参考链接**: https://unix.stackexchange.com/questions/390518/what-do-the-buff-cache-and-avail-mem-fields-in-top-mean
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/390518/what-do-the-buff-cache-and-avail-mem-fields-in-top-mean
+
+#### 150. What is kernel ip forwarding?
+
+**故障现象**: What is kernel ip forwarding?
+**标签 / 来源**: Tags: linux, kernel, ip, routing | unix | 👍 102 | 💬 2 answers
+
+**问题描述**:
+Tags: linux, kernel, ip, routing | Score: 102 | Views: 119877 | Answers: 2
+
+**解决方法 / 社区答案**:
+"IP forwarding" is a synonym for "routing."  It is called "kernel IP forwarding" because it is a feature of the Linux kernel.
+
+A router has multiple network interfaces.  If traffic comes in on one interface that matches a subnet of another network interface, a router then forwards that traffic to the other network interface.
+
+So, let's say you have two NICs, one (NIC 1) is at address 192.168.2.1/24, and the other (NIC 2) is 192.168.3.1/24.  If forwarding is enabled, and a packet comes in on NIC 1 with a "destination address" of 192.168.3.8, the router will resend that packet out of the NIC 2.
+
+It's common for routers functioning as gateways to the Internet to have a default route whereby any traffic that doesn't match any NICs will go through the default route's NIC.  So in the above example, if you have an internet connection on NIC 2, you'd set NIC 2 as your default route and then any traffic coming in from NIC 1 that isn't destined for something on 192.168.2.0/24 will go through NIC 2.  Hopefully there's other routers past NIC 2 that can further route it (in the case of the Internet, the next hop would be your ISP's router, and then their providers upstream router, etc.)
+
+Enabling ip_forward tells your Linux system to do this.  For it to be meaningful, you need two network interfaces (any 2 or more of wired NIC cards, Wifi cards or chipsets, PPP links over a 56k modem or serial, etc.).  
+
+When doing routing, security is important and that's where Linux's packet filter, iptables, gets involved.  So you will need an iptables configuration consistent with your needs.
+
+Note that enabling forwarding with iptables disabled and/or without taking firewalling and security into account could leave you open to vulnerabilites if one of the NICs is facing the Internet or a subnet you don't have control over.
+
+**参考链接**: https://unix.stackexchange.com/questions/14056/what-is-kernel-ip-forwarding
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/14056/what-is-kernel-ip-forwarding
 
 
 ---
@@ -4173,7 +6108,7 @@ dig unix.stackexchange.com | awk '/^;; ANSWER SECTION:$/ { getline ; print $5 ; 
 **Tags / Source**: Tags: linux, permissions, directory | unix | 👍 536 | 💬 9 answers
 
 **Description**:
-Tags: linux, permissions, directory | Score: 536 | Views: 403915 | Answers: 9
+Tags: linux, permissions, directory | Score: 536 | Views: 403917 | Answers: 9
 
 **Solution / Community Answer**:
 When applying permissions to directories on Linux, the permission bits have different meanings than on regular files.
@@ -4194,7 +6129,7 @@ The sticky bit (T, or t if the execute bit is set for others) states that files 
 **Tags / Source**: Tags: linux, x11, wayland | unix | 👍 514 | 💬 15 answers
 
 **Description**:
-Tags: linux, x11, wayland | Score: 514 | Views: 702757 | Answers: 15
+Tags: linux, x11, wayland | Score: 514 | Views: 702759 | Answers: 15
 
 **Solution / Community Answer**:
 Obtain the session ID to pass in by issuing:
@@ -4230,7 +6165,7 @@ Type=wayland
 **Tags / Source**: Tags: linux, backup, tar | unix | 👍 505 | 💬 2 answers
 
 **Description**:
-Tags: linux, backup, tar | Score: 505 | Views: 1359515 | Answers: 2
+Tags: linux, backup, tar | Score: 505 | Views: 1359520 | Answers: 2
 
 **Solution / Community Answer**:
 To tar and gzip a folder, the syntax is:
@@ -4277,7 +6212,7 @@ strace/truss, ltrace and gdb are generally good ideas for looking at why a stuck
 **Tags / Source**: Tags: linux, kernel, performance, cache, ram | unix | 👍 419 | 💬 1 answers
 
 **Description**:
-Tags: linux, kernel, performance, cache, ram | Score: 419 | Views: 985960 | Answers: 1
+Tags: linux, kernel, performance, cache, ram | Score: 419 | Views: 985962 | Answers: 1
 
 **Solution / Community Answer**:
 Emptying the buffers cache
@@ -4389,7 +6324,7 @@ Swap:      5963772          0    5963772
 **Tags / Source**: Tags: linux, shell | unix | 👍 400 | 💬 3 answers
 
 **Description**:
-Tags: linux, shell | Score: 400 | Views: 1968359 | Answers: 3
+Tags: linux, shell | Score: 400 | Views: 1968360 | Answers: 3
 
 **Solution / Community Answer**:
 Kernel Version
@@ -4498,7 +6433,7 @@ The find command will recursively find all files in all sub directories of . and
 **Tags / Source**: Tags: linux, cpu | unix | 👍 384 | 💬 12 answers
 
 **Description**:
-Tags: linux, cpu | Score: 384 | Views: 815327 | Answers: 12
+Tags: linux, cpu | Score: 384 | Views: 815329 | Answers: 12
 
 **Solution / Community Answer**:
 To get a complete picture you need to look at the number of threads per core, cores per socket and sockets. If you multiply these numbers you will get the number of CPUs on your system.
@@ -4864,7 +6799,7 @@ myip.opendns.com.   0   IN  A   80.100.192.168
 **Tags / Source**: Tags: linux, filesystems, find, rm | unix | 👍 318 | 💬 2 answers
 
 **Description**:
-Tags: linux, filesystems, find, rm | Score: 318 | Views: 291415 | Answers: 2
+Tags: linux, filesystems, find, rm | Score: 318 | Views: 291416 | Answers: 2
 
 **Solution / Community Answer**:
 The find command is the primary tool for recursive file system operations.
@@ -4891,7 +6826,7 @@ $ find . -type d -empty -delete
 **Tags / Source**: Tags: linux, hardware, devices, hard-disk | unix | 👍 313 | 💬 16 answers
 
 **Description**:
-Tags: linux, hardware, devices, hard-disk | Score: 313 | Views: 1391062 | Answers: 16
+Tags: linux, hardware, devices, hard-disk | Score: 313 | Views: 1391064 | Answers: 16
 
 **Solution / Community Answer**:
 This is highly platform-dependent. Also different methods may treat edge cases differently (“fake” disks of various kinds, RAID volumes, …).
@@ -4948,7 +6883,7 @@ System: CentOS 7
 **Tags / Source**: Tags: linux, storage | unix | 👍 303 | 💬 13 answers
 
 **Description**:
-Tags: linux, storage | Score: 303 | Views: 1002566 | Answers: 13
+Tags: linux, storage | Score: 303 | Views: 1002568 | Answers: 13
 
 **Solution / Community Answer**:
 There's a tool called blkid (use it as root or with sudo), 
@@ -4989,7 +6924,7 @@ See this answer for more information about SSD partitioning, filesystem...
 **Tags / Source**: Tags: linux, command-line, files, rm | unix | 👍 297 | 💬 24 answers
 
 **Description**:
-Tags: linux, command-line, files, rm | Score: 297 | Views: 507561 | Answers: 24
+Tags: linux, command-line, files, rm | Score: 297 | Views: 507562 | Answers: 24
 
 **Solution / Community Answer**:
 Using rsync is surprising fast and simple.
@@ -5022,7 +6957,7 @@ https://www.quora.com/Linux-why-stat+unlink-can-be-faster-than-a-single-unlink/a
 **Tags / Source**: Tags: linux, cpu, arm, x86 | unix | 👍 283 | 💬 6 answers
 
 **Description**:
-Tags: linux, cpu, arm, x86 | Score: 283 | Views: 215281 | Answers: 6
+Tags: linux, cpu, arm, x86 | Score: 283 | Views: 215282 | Answers: 6
 
 **Solution / Community Answer**:
 x86
@@ -5539,7 +7474,7 @@ and then running sudo update-grub and rebooting to boot with the new kernel boot
 **Tags / Source**: Tags: linux, ps | unix | 👍 260 | 💬 4 answers
 
 **Description**:
-Tags: linux, ps | Score: 260 | Views: 542983 | Answers: 4
+Tags: linux, ps | Score: 260 | Views: 542984 | Answers: 4
 
 **Solution / Community Answer**:
 a = show processes for all users
@@ -5564,7 +7499,7 @@ In the comments, you say you are using Apple MacOS (OSX, I presume).  The OSX ma
 **Tags / Source**: Tags: ubuntu, mount, fdisk | unix | 👍 259 | 💬 21 answers
 
 **Description**:
-Tags: ubuntu, mount, fdisk | Score: 259 | Views: 1622634 | Answers: 21
+Tags: ubuntu, mount, fdisk | Score: 259 | Views: 1622639 | Answers: 21
 
 **Solution / Community Answer**:
 WARNING: This will wipe out your drive!
@@ -5594,7 +7529,7 @@ without creating a new file system on that partition.
 **Tags / Source**: Tags: linux, shell-script, distributions | unix | 👍 257 | 💬 21 answers
 
 **Description**:
-Tags: linux, shell-script, distributions | Score: 257 | Views: 364821 | Answers: 21
+Tags: linux, shell-script, distributions | Score: 257 | Views: 364822 | Answers: 21
 
 **Solution / Community Answer**:
 To get OS and VER, the latest standard seems to be /etc/os-release. 
@@ -5729,7 +7664,7 @@ See is my linux ARM 32 or 64 bit? for ARM
 **Tags / Source**: Tags: linux, cron, scheduling | unix | 👍 246 | 💬 4 answers
 
 **Description**:
-Tags: linux, cron, scheduling | Score: 246 | Views: 603353 | Answers: 4
+Tags: linux, cron, scheduling | Score: 246 | Views: 603355 | Answers: 4
 
 **Solution / Community Answer**:
 With most Crons (e.g. Vixie-Cron - Debian/Ubuntu default, Cronie - Fedora default, Solaris Cron ...) you get the list of scheduled cron jobs for the current user via:
@@ -6148,7 +8083,7 @@ Make sure that the path is in double quotes, to make sure things like spaces in 
 **Tags / Source**: Tags: linux, desktop, freeze | unix | 👍 202 | 💬 10 answers
 
 **Description**:
-Tags: linux, desktop, freeze | Score: 202 | Views: 673976 | Answers: 10
+Tags: linux, desktop, freeze | Score: 202 | Views: 673978 | Answers: 10
 
 **Solution / Community Answer**:
 If all else fails, you Raise The Elephant.  There are Magic SysRq key sequences (Alt+SysRq+?) that the Linux kernel handles specially.
@@ -6288,7 +8223,7 @@ Personally, I really like the BSD systems because they just feel like they fit t
 **Tags / Source**: Tags: linux, hardware, system-information, smbios, dmidecode | unix | 👍 191 | 💬 10 answers
 
 **Description**:
-Tags: linux, hardware, system-information, smbios, dmidecode | Score: 191 | Views: 492416 | Answers: 10
+Tags: linux, hardware, system-information, smbios, dmidecode | Score: 191 | Views: 492417 | Answers: 10
 
 **Solution / Community Answer**:
 using the dmidecode | grep -A3 '^System Information' command. There you'll find all information from BIOS and hardware. These are examples on three different machines (this is an excerpt of the complete output):
@@ -6375,7 +8310,7 @@ useradd -p 'encryptedPassWd'  username
 **Tags / Source**: Tags: linux, tty, console | unix | 👍 187 | 💬 3 answers
 
 **Description**:
-Tags: linux, tty, console | Score: 187 | Views: 204991 | Answers: 3
+Tags: linux, tty, console | Score: 187 | Views: 204992 | Answers: 3
 
 **Solution / Community Answer**:
 From the Linux Kernel documentation on Kernel.org:
@@ -6530,7 +8465,7 @@ This way, you can point putty to Port 22 of 127.0.1.1 and VirtualBox will redire
 **Tags / Source**: Tags: linux, memory | unix | 👍 182 | 💬 9 answers
 
 **Description**:
-Tags: linux, memory | Score: 182 | Views: 494008 | Answers: 9
+Tags: linux, memory | Score: 182 | Views: 494009 | Answers: 9
 
 **Solution / Community Answer**:
 Use the following command:
@@ -6550,7 +8485,7 @@ Check here for more Linux process memory usage
 **Tags / Source**: Tags: linux, files, file-copy, synchronization | unix | 👍 182 | 💬 9 answers
 
 **Description**:
-Tags: linux, files, file-copy, synchronization | Score: 182 | Views: 338370 | Answers: 9
+Tags: linux, files, file-copy, synchronization | Score: 182 | Views: 338371 | Answers: 9
 
 **Solution / Community Answer**:
 This puts folder A into folder B:
@@ -7028,7 +8963,7 @@ Your question stemmed from cross-compilation, albeit in the .NET sense, and that
 **Tags / Source**: Tags: linux, tty, terminology, who | unix | 👍 164 | 💬 3 answers
 
 **Description**:
-Tags: linux, tty, terminology, who | Score: 164 | Views: 176362 | Answers: 3
+Tags: linux, tty, terminology, who | Score: 164 | Views: 176364 | Answers: 3
 
 **Solution / Community Answer**:
 A tty is a native terminal device, the backend is either hardware or kernel-emulated.
@@ -7431,7 +9366,7 @@ https://serverfault.com/a/571326
 **Tags / Source**: Tags: linux, ps | unix | 👍 156 | 💬 13 answers
 
 **Description**:
-Tags: linux, ps | Score: 156 | Views: 520011 | Answers: 13
+Tags: linux, ps | Score: 156 | Views: 520012 | Answers: 13
 
 **Solution / Community Answer**:
 Why use ps when you can do it easily with the top command?
@@ -7568,7 +9503,7 @@ You must run this command as root, because ordinary users may not read disk part
 **Tags / Source**: Tags: linux, ssh, version, info, system-information | unix | 👍 142 | 💬 13 answers
 
 **Description**:
-Tags: linux, ssh, version, info, system-information | Score: 142 | Views: 175458 | Answers: 13
+Tags: linux, ssh, version, info, system-information | Score: 142 | Views: 175460 | Answers: 13
 
 **Solution / Community Answer**:
 If I need to know what it is say Linux/Unix , 32/64 bit
@@ -7913,7 +9848,7 @@ will change the date, but keep the time. See man date for formatting details to 
 **Tags / Source**: Tags: linux, networking, devices, systemd, udev | unix | 👍 134 | 💬 6 answers
 
 **Description**:
-Tags: linux, networking, devices, systemd, udev | Score: 134 | Views: 512358 | Answers: 6
+Tags: linux, networking, devices, systemd, udev | Score: 134 | Views: 512360 | Answers: 6
 
 **Solution / Community Answer**:
 The simplest method I know to list all of your interfaces is
@@ -7983,7 +9918,7 @@ Certain serious bugs in the BIOS, UEFI, or other system firmware which the kerne
 **Tags / Source**: Tags: linux, ssh, ssh-agent | unix | 👍 133 | 💬 5 answers
 
 **Description**:
-Tags: linux, ssh, ssh-agent | Score: 133 | Views: 264530 | Answers: 5
+Tags: linux, ssh, ssh-agent | Score: 133 | Views: 264531 | Answers: 5
 
 **Solution / Community Answer**:
 The client tool ssh-add wants to communicate with the background process ssh-agent. You need to start the ssh-agent process first. On Linux, a shell uses the environment variables SSH_AUTH_SOCK and SSH_AGENT_PID to identify the correct process to talk to.
@@ -8074,6 +10009,1941 @@ System-specific units override units supplied by vendors. Using drop-ins, you ca
 **Reference**: https://unix.stackexchange.com/questions/206315/whats-the-difference-between-usr-lib-systemd-system-and-etc-systemd-system
 
 > 📎 Source: https://unix.stackexchange.com/questions/206315/whats-the-difference-between-usr-lib-systemd-system-and-etc-systemd-system
+
+#### 101. Systemd service - what is `multi-user.target`
+
+**Issue**: Systemd service - what is `multi-user.target`
+**Tags / Source**: Tags: ubuntu, systemd, services | unix | 👍 133 | 💬 5 answers
+
+**Description**:
+Tags: ubuntu, systemd, services | Score: 133 | Views: 162825 | Answers: 5
+
+**Solution / Community Answer**:
+multi-user.target means that the systemd-service will start when the system reach runlevel 2.
+
+To complement the answer, here's a table of the targets and their run levels:
+
+Run Lvl Target Units                        Description
+0       runlevel0.target, poweroff.target   Shut down and power off
+1       runlevel1.target, rescue.target     Set up a rescue shell
+2,3,4   runlevel[234].target,               Set up a non-gfx multi-user shell
+        multi-user.target
+5       runlevel5.target, graphical.target  Set up a gfx multi-user shell
+6       runlevel6.target, reboot.target     Shut down and reboot the system
+
+**Reference**: https://unix.stackexchange.com/questions/404667/systemd-service-what-is-multi-user-target
+
+> 📎 Source: https://unix.stackexchange.com/questions/404667/systemd-service-what-is-multi-user-target
+
+#### 102. How do I identify which Linux distro is running?
+
+**Issue**: How do I identify which Linux distro is running?
+**Tags / Source**: Tags: linux, version | unix | 👍 132 | 💬 3 answers
+
+**Description**:
+Tags: linux, version | Score: 132 | Views: 245068 | Answers: 3
+
+**Solution / Community Answer**:
+A question very close to this one was posted on Unix.Stackexchange HERE
+Giles has a pretty complete | cool answer for the ways he describes.
+
+# cat /proc/version
+
+Linux version 2.6.32-71.el6.x86_64 (mockbuild@c6b6.centos.org) (gcc version 4.4.4 20100726 (Red Hat 4.4.4-13) (GCC) ) #1 SMP Fri May 20 03:51:51 BST 2011  
+
+
+# uname -a
+
+Linux system1.doofus.local 2.6.32-71.el6.x86_64 #1 SMP Fri May 20 03:51:51 BST 2011 x86_64 x86_64 x86_64 GNU/Linux
+
+# cat /etc/issue
+
+CentOS Linux release 6.0 (Final)
+Kernel \r on an \m
+
+
+cat /proc/config.gz cat /usr/src/linux/config.gz cat /boot/config*
+
+Though I did some checking and this was not very reliable except on SUSE.
+
+# zcat /proc/config.gz | grep -i kernel
+CONFIG_SUSE_KERNEL=y
+# CONFIG_KERNEL_DESKTOP is not set
+CONFIG_LOCK_KERNEL=y
+
+Release Files in /etc (from Unix.com)
+
+
+Novell SuSE---> /etc/SuSE-release    
+Red Hat--->/etc/redhat-release, /etc/redhat_version  
+Fedora-->/etc/fedora-release    
+Slackware--->/etc/slackware-release, /etc/slackware-version    
+Old Debian--->/etc/debian_release, /etc/debian_version 
+New Debian--->/etc/os-release
+Mandrake--->/etc/mandrake-release  
+Yellow dog-->/etc/yellowdog-release     
+Sun JDS--->/etc/sun-release  
+Solaris/Sparc--->/etc/release      
+Gentoo--->/etc/gentoo-release
+
+
+There is also a bash script at the Unix.com link someone wrote to automate checking.
+
+Figuring out what package manager you have is a good clue.
+
+rpm yum apt-get zypper +many more
+
+Though this is by no means foolproof as the vendor could use anything they want. It really just gives you a place to start.
+
+# dmesg | less
+
+Linux version 2.6.32.12-0.7-default (geeko@buildhost) (gcc version 4.3.4 [gcc-4_3-branch revision 152973] (SUSE Linux) ) #1 SMP 2010-05-20 11:14:20 +0200
+
+pretty much the same information as cat /proc/version &amp; uname
+
+**Reference**: https://unix.stackexchange.com/questions/35183/how-do-i-identify-which-linux-distro-is-running
+
+> 📎 Source: https://unix.stackexchange.com/questions/35183/how-do-i-identify-which-linux-distro-is-running
+
+#### 103. How are &quot;/dev&quot; Linux files created?
+
+**Issue**: How are &quot;/dev&quot; Linux files created?
+**Tags / Source**: Tags: linux, files, devices | unix | 👍 129 | 💬 7 answers
+
+**Description**:
+Tags: linux, files, devices | Score: 129 | Views: 69630 | Answers: 7
+
+**Solution / Community Answer**:
+/dev/zero is an example of a "special file" &mdash; particularly, a "device node". Normally these get created by the distro installation process, but you can totally create them yourself if you want to.
+
+If you ask ls about /dev/zero:
+
+# ls -l /dev/zero
+crw-rw-rw- 1 root root 1, 5  Nov 5 09:34 /dev/zero
+
+
+The "c" at the start tells you that this is a "character device"; the other type is "block device" (printed by ls as "b"). Very roughly, random-access devices like harddisks tend to be block devices, while sequential things like tape drives or your sound card tend to be character devices.
+
+The "1, 5" part is the "major device number" and the "minor device number".
+
+With this information, we can use the mknod command to make our very own device node:
+
+# mknod foobar c 1 5
+
+
+This creates a new file named foobar, in the current folder, which does exactly the same thing as /dev/zero. (You can of course set different permissions on it if you want.) All this "file" really contains is the three items above &mdash; device type, major number, minor number. You can use ls to look up the codes for other devices and recreate those too. When you get bored, just use rm to remove the device nodes you just created.
+
+Basically the major number tells the Linux kernel which device driver to talk to, and the minor number tells the device driver which device you're talking about. (E.g., you probably have one SATA controller, but maybe multiple harddisks plugged into it.)
+
+If you want to invent new devices that do something new... well, you'll need to edit the source code for the Linux kernel and compile your own custom kernel. So let's not do that! :-) But you can add device files that duplicate the ones you've already got just fine. An automated system like udev is basically just watching for device events and calling mknod / rm for you automatically. Nothing more magic than that.
+
+There are still other kinds of special files:
+
+
+Linux considers a directory to be a special kind of file. (Usually you can't directly open a directory, but if you could, you'd find it's a normal file that contains data in a special format, and tells the kernel where to find all the files in that directory.)
+A symlink is a special file. (But a hard link isn't.) You can create symlinks using the ln -s command. (Look up the manpage for it.)
+There's also a thing called a "named pipe" or "FIFO" (first-in, first-out queue). You can create one with mkfifo. A FIFO is a magical file that can be opened by two programs at once &mdash; one reading, one writing. When this happens, it works like a normal shell pipe. But you can start each program separately...
+
+
+A file that isn't "special" in any way is called a "regular file". You will occasionally see mention of this in Unix documentation. That's what it means; a file that isn't a device node or a symlink or whatever. Just a normal, every day file with no magical properties.
+
+**Reference**: https://unix.stackexchange.com/questions/241173/how-are-dev-linux-files-created
+
+> 📎 Source: https://unix.stackexchange.com/questions/241173/how-are-dev-linux-files-created
+
+#### 104. Unable to locate package `docker-ce` on a 64bit ubuntu
+
+**Issue**: Unable to locate package `docker-ce` on a 64bit ubuntu
+**Tags / Source**: Tags: ubuntu, apt, software-installation, docker | unix | 👍 129 | 💬 5 answers
+
+**Description**:
+Tags: ubuntu, apt, software-installation, docker | Score: 129 | Views: 229593 | Answers: 5
+
+**Solution / Community Answer**:
+Add Docker's official GPG key:
+sudo apt update
+sudo apt install ca-certificates curl gnupg
+sudo install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+
+Ubuntu 24.04 (Noble Numbat)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu noble stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 23.10 (Mantic Minotaur)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu mantic stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 23.04 (Lunar Lobster)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu lunar stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 22.10 (Kinetic)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu kinetic stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 22.04 (Jammy)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu jammy stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 21.10 (Impish)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu impish stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 21.04 (hirsute)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu hirsute stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 20.10 (Groovy)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu groovy stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 20.04 (Focal)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu focal stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 19.10 (Eoan)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu eoan stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 19.04 (Disco)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu disco stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 18.10 (Cosmic)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu cosmic stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 18.04 (bionic)
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu bionic stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 17.10
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu artful stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Ubuntu 16.04
+echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu xenial stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+Run the following:
+sudo apt update
+apt-cache search docker-ce
+
+sample output:
+docker-ce - Docker: the open-source application container engine
+
+Install docker-ce:
+sudo apt install docker-ce
+
+To check the available and permitted Ubuntu codenames:
+curl -sSL  https://download.docker.com/linux/ubuntu/dists/ |awk -F'&quot;' 'FNR &gt;7 {print $2}'
+
+sample output (Results may be different after the directory updates):
+../
+artful/
+bionic/
+cosmic/
+disco/
+eoan/
+focal/
+groovy/
+hirsute/
+impish/
+jammy/
+kinetic/
+lunar/
+trusty/
+xenial/
+yakkety/
+zesty/
+
+Docker , OS requirements
+
+**Reference**: https://unix.stackexchange.com/questions/363048/unable-to-locate-package-docker-ce-on-a-64bit-ubuntu
+
+> 📎 Source: https://unix.stackexchange.com/questions/363048/unable-to-locate-package-docker-ce-on-a-64bit-ubuntu
+
+#### 105. Why is video tearing such a problem in Linux?
+
+**Issue**: Why is video tearing such a problem in Linux?
+**Tags / Source**: Tags: linux, graphics, monitors, composite | unix | 👍 127 | 💬 8 answers
+
+**Description**:
+Tags: linux, graphics, monitors, composite | Score: 127 | Views: 101435 | Answers: 8
+
+**Solution / Community Answer**:
+This is all due to the fact that the X server is out-dated, ill-suitable for today's graphics hardware and basically all the direct video card communication is done as an extension ("patch") over the ancient bloated core. The X server provides no builtin means of synchronization between user rendering the window and the screen displaying a window, so the content changes in the middle of rendering. This is one of the well-known issues of the X server (it has many, the entire model of what the server does and is outdated - event handling in subwindows, metadata about windows, graphical primitives for direct drawing...). Widget toolkits mostly want to gloss over all this, but tearing is still a problem because there is no mechanism to handle that. Additional problems arise when you have multiple cards that require different drivers, and on top of all this, opengl library has a hard-wired dependency on xlib, so you can't really use it independently without going through X.
+
+Wayland, which is somewhat unenthusiastically trying to replace X, supports a pedantic vsync synchronization in its core, and is advertised to have every frame exactly perfect.
+
+If you quickly google "wayland video tearing" you'll find more information on everything.
+
+**Reference**: https://unix.stackexchange.com/questions/182801/why-is-video-tearing-such-a-problem-in-linux
+
+> 📎 Source: https://unix.stackexchange.com/questions/182801/why-is-video-tearing-such-a-problem-in-linux
+
+#### 106. Uploading directories with sftp?
+
+**Issue**: Uploading directories with sftp?
+**Tags / Source**: Tags: linux, ssh, sftp | unix | 👍 126 | 💬 11 answers
+
+**Description**:
+Tags: linux, ssh, sftp | Score: 126 | Views: 309988 | Answers: 11
+
+**Solution / Community Answer**:
+I don't know why sftp does this but you can only recursive copy if the destination directory already exists. So do this...
+
+sftp&gt; mkdir bin
+sftp&gt; put -r bin
+
+**Reference**: https://unix.stackexchange.com/questions/7004/uploading-directories-with-sftp
+
+> 📎 Source: https://unix.stackexchange.com/questions/7004/uploading-directories-with-sftp
+
+#### 107. SSH login with clear text password as a parameter?
+
+**Issue**: SSH login with clear text password as a parameter?
+**Tags / Source**: Tags: linux, ubuntu, ssh, security, login | unix | 👍 125 | 💬 3 answers
+
+**Description**:
+Tags: linux, ubuntu, ssh, security, login | Score: 125 | Views: 663177 | Answers: 3
+
+**Solution / Community Answer**:
+On Ubuntu, install the sshpass package, then use it like this: 
+
+sshpass -p 'YourPassword' ssh user@host
+
+
+sshpass also supports passing the keyboard-interactive password from a file or an environment variable, which might be a more appropriate option in any situation where security is relevant. See man sshpass for the details.
+
+**Reference**: https://unix.stackexchange.com/questions/38737/ssh-login-with-clear-text-password-as-a-parameter
+
+> 📎 Source: https://unix.stackexchange.com/questions/38737/ssh-login-with-clear-text-password-as-a-parameter
+
+#### 108. Why is swappiness set to 60 by default?
+
+**Issue**: Why is swappiness set to 60 by default?
+**Tags / Source**: Tags: linux, kernel, swap | unix | 👍 124 | 💬 3 answers
+
+**Description**:
+Tags: linux, kernel, swap | Score: 124 | Views: 73648 | Answers: 3
+
+**Solution / Community Answer**:
+Since kernel 2.6.28, Linux uses a Split Least Recently Used (LRU) page replacement strategy. Pages with a filesystem source, such as program text or shared libraries belong to the file cache. Pages without filesystem backing are called anonymous pages, and consist of runtime data such as the stack space reserved for applications etc. Typically pages belonging to the file cache are cheaper to evict from memory (as these can simple be read back from disk when needed). Since anonymous pages have no filesystem backing, they must remain in memory as long as they are needed by a program unless there is swap space to store them to. 
+
+It is a common misconception that a swap partition would somehow slow down your system. Not having a swap partition does not mean that the kernel won't evict pages from memory, it just means that the kernel has fewer choices in regards to which pages to evict. The amount of swap available will not affect how much it is used.
+
+Linux can cope with the absence of a swap space because, by default, the kernel memory accounting policy may overcommit memory. The downside is that when physical memory is exhausted, and the kernel cannot swap anonymous pages to disk, the out-of-memory-killer (OOM-killer) mechanism will start killing off memory-hogging "rogue" processes to free up memory for other processes.
+
+The vm.swappiness option is a modifier that changes the balance between swapping out file cache pages in favour of anonymous pages. The file cache is given an arbitrary priority value of 200 from which vm.swappiness modifier is deducted (file_prio=200-vm.swappiness). Anonymous pages, by default, start out with 60 (anon_prio=vm.swappiness). This means that, by default, the priority weights stand moderately in favour of anonymous pages (anon_prio=60, file_prio=200-60=140). The behaviour is defined in mm/vmscan.c in the kernel source tree.
+
+Given a vm.swappiness of 100, the priorities would be equal (file_prio=200-100=100, anon_prio=100). This would make sense for an I/O heavy system if it is not wanted that pages from the file cache being evicted in favour of anonymous pages.
+
+Conversely setting the vm.swappiness to 0 will prevent the kernel from evicting anonymous pages in favour of pages from the file cache. This might be useful if programs do most of their caching themselves, which might be the case with some databases. In desktop systems this might improve interactivity, but the downside is that I/O performance will likely take a hit.
+
+The default value has most likely been chosen as an approximate middleground between these two extremes. As with any performance parameter, adjusting vm.swappiness should be based on  benchmark data comparable to real workloads, not just a gut feeling.
+
+**Reference**: https://unix.stackexchange.com/questions/88693/why-is-swappiness-set-to-60-by-default
+
+> 📎 Source: https://unix.stackexchange.com/questions/88693/why-is-swappiness-set-to-60-by-default
+
+#### 109. Show the year while listing files in the current directory
+
+**Issue**: Show the year while listing files in the current directory
+**Tags / Source**: Tags: linux, shell-script, date | unix | 👍 123 | 💬 7 answers
+
+**Description**:
+Tags: linux, shell-script, date | Score: 123 | Views: 215366 | Answers: 7
+
+**Solution / Community Answer**:
+You can use man ls and here you can find the --time-style parameter. Or you can use:
+
+
+
+Command
+Sample Output
+
+
+
+
+ls --full-time
+2024-04-09 13:24:44.108466043 -0500
+
+
+ls -l --time-style=long-iso
+2024-04-09 08:58
+
+**Reference**: https://unix.stackexchange.com/questions/50431/show-the-year-while-listing-files-in-the-current-directory
+
+> 📎 Source: https://unix.stackexchange.com/questions/50431/show-the-year-while-listing-files-in-the-current-directory
+
+#### 110. Creating a user without a password
+
+**Issue**: Creating a user without a password
+**Tags / Source**: Tags: ubuntu, users, git, non-root-user | unix | 👍 122 | 💬 8 answers
+
+**Description**:
+Tags: ubuntu, users, git, non-root-user | Score: 122 | Views: 450156 | Answers: 8
+
+**Solution / Community Answer**:
+The --disabled-password option will not set a password, meaning no password is legal, but  login  is still possible (for example with SSH RSA keys).
+
+To create an user without a password, use passwd -d $username after the user is created to make the password empty. Note not all systems allow users with empty password to log in.
+
+**Reference**: https://unix.stackexchange.com/questions/56765/creating-a-user-without-a-password
+
+> 📎 Source: https://unix.stackexchange.com/questions/56765/creating-a-user-without-a-password
+
+#### 111. Block network access of a process?
+
+**Issue**: Block network access of a process?
+**Tags / Source**: Tags: linux, networking, process, iptables | unix | 👍 121 | 💬 11 answers
+
+**Description**:
+Tags: linux, networking, process, iptables | Score: 121 | Views: 87708 | Answers: 11
+
+**Solution / Community Answer**:
+With Linux 2.6.24+ (considered experimental until 2.6.29), you can use network namespaces for that. You need to have the 'network namespaces' enabled in your kernel (CONFIG_NET_NS=y) and util-linux with the unshare tool.
+
+Then, starting a process without network access is as simple as:
+
+unshare -n program ...
+
+
+This creates an empty network namespace for the process. That is, it is run with no network interfaces, including no loopback. In below example we add -r to run the program only after the current effective user and group IDs have been mapped to  the  superuser ones (avoid sudo):
+
+$ unshare -r -n ping 127.0.0.1
+connect: Network is unreachable
+
+
+If your app needs a network interface you can set a new one up:
+
+$ unshare -n -- sh -c 'ip link set dev lo up; ping 127.0.0.1'
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=32 time=0.066 ms
+
+
+Note that this will create a new, local loopback. That is, the spawned process won't be able to access open ports of the host's 127.0.0.1.
+
+
+
+If you need to gain access to the original networking inside the namespace, you can use nsenter to enter the other namespace.
+
+The following example runs ping with network namespace that is used by PID 1 (it is specified through -t 1):
+
+$ nsenter -n -t 1 -- ping -c4 example.com
+PING example.com (93.184.216.119) 56(84) bytes of data.
+64 bytes from 93.184.216.119: icmp_seq=1 ttl=50 time=134 ms
+64 bytes from 93.184.216.119: icmp_seq=2 ttl=50 time=134 ms
+64 bytes from 93.184.216.119: icmp_seq=3 ttl=50 time=134 ms
+64 bytes from 93.184.216.119: icmp_seq=4 ttl=50 time=139 ms
+
+--- example.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 134.621/136.028/139.848/2.252 ms
+
+**Reference**: https://unix.stackexchange.com/questions/68956/block-network-access-of-a-process
+
+> 📎 Source: https://unix.stackexchange.com/questions/68956/block-network-access-of-a-process
+
+#### 112. How do I kill all a user&#39;s processes using their UID
+
+**Issue**: How do I kill all a user&#39;s processes using their UID
+**Tags / Source**: Tags: c, linux, proc | unix | 👍 121 | 💬 6 answers
+
+**Description**:
+Tags: c, linux, proc | Score: 121 | Views: 499467 | Answers: 6
+
+**Solution / Community Answer**:
+Use pkill -U UID or pkill -u UID or username instead of UID. Sometimes skill -u USERNAME may work, another tool is killall -u USERNAME.
+
+Skill was a linux-specific and is now outdated, and pkill is more portable (Linux, Solaris, BSD).
+
+pkill allow both numberic and symbolic UIDs, effective and real http://man7.org/linux/man-pages/man1/pkill.1.html
+
+
+  pkill  -  ... signal processes based on name and other attributes
+
+    -u, --euid euid,...
+         Only match processes whose effective user ID is listed.
+         Either the numerical or symbolical value may be used.
+    -U, --uid uid,...
+         Only match processes whose real user ID is listed.  Either the
+         numerical or symbolical value may be used.
+
+
+
+Man page of skill says is it allowed only to use username, not user id: http://man7.org/linux/man-pages/man1/skill.1.html
+
+
+  skill, snice ...  These tools are obsolete and unportable.  The command syntax is poorly defined.  Consider using the killall, pkill
+
+  -u, --user user
+         The next expression is a username.
+
+
+
+killall is not marked as outdated in Linux, but it also will not work with numberic UID; only username: http://man7.org/linux/man-pages/man1/killall.1.html
+
+
+  killall - kill processes by name
+
+   -u, --user
+         Kill only processes the specified user owns.  Command names
+         are optional.
+
+
+
+I think, any utility used to find process in Linux/Solaris style /proc (procfs) will use full list of processes (doing some readdir of /proc). I think, they will iterate over /proc digital subfolders and check every found process for match.
+
+To get list of users, use getpwent (it will get one user per call).
+
+skill (procps &amp; procps-ng) and killall (psmisc) tools both uses getpwnam library call to parse argument of -u option, and only username will be parsed. pkill (procps &amp; procps-ng) uses both atol and getpwnam to parse -u/-U argument and allow both numeric and textual user specifier.
+
+**Reference**: https://unix.stackexchange.com/questions/18043/how-do-i-kill-all-a-users-processes-using-their-uid
+
+> 📎 Source: https://unix.stackexchange.com/questions/18043/how-do-i-kill-all-a-users-processes-using-their-uid
+
+#### 113. What are high memory and low memory on Linux?
+
+**Issue**: What are high memory and low memory on Linux?
+**Tags / Source**: Tags: linux, kernel, memory | unix | 👍 121 | 💬 7 answers
+
+**Description**:
+Tags: linux, kernel, memory | Score: 121 | Views: 126866 | Answers: 7
+
+**Solution / Community Answer**:
+On a 32-bit architecture, the address space range for addressing RAM is: 
+
+0x00000000 - 0xffffffff
+
+
+or 4'294'967'295 (4 GB).
+
+The linux kernel splits that up 3/1 (could also be 2/2, or 1/3 1) into user space (high memory) and kernel space (low memory) respectively.
+
+The user space range: 
+
+0x00000000 - 0xbfffffff
+
+
+Every newly spawned user process gets an address (range) inside this area. User processes are generally untrusted and therefore are forbidden to access the kernel space. Further, they are considered non-urgent, as a general rule, the kernel tries to defer the allocation of memory to those processes.
+
+The kernel space range: 
+
+0xc0000000 - 0xffffffff
+
+
+A kernel processes gets its address (range) here. The kernel can directly access this 1 GB of addresses (well, not the full 1 GB, there are 128 MB reserved for high memory access).
+
+Processes spawned in kernel space are trusted, urgent and assumed error-free, the memory request gets processed instantaneously.
+
+Every kernel process can also access the user space range if it wishes to. And to achieve this, the kernel maps an address from the user space (the high memory) to its kernel space (the low memory), the 128 MB mentioned above are especially reserved for this.
+
+
+
+1 Whether the split is 3/1, 2/2, or 1/3 is controlled by the CONFIG_VMSPLIT_... option; you can probably check under /boot/config* to see which option was selected for your kernel.
+
+**Reference**: https://unix.stackexchange.com/questions/4929/what-are-high-memory-and-low-memory-on-linux
+
+> 📎 Source: https://unix.stackexchange.com/questions/4929/what-are-high-memory-and-low-memory-on-linux
+
+#### 114. ssh_exchange_identification: Connection closed by remote host (not using hosts.deny)
+
+**Issue**: ssh_exchange_identification: Connection closed by remote host (not using hosts.deny)
+**Tags / Source**: Tags: linux, ssh, key-authentication | unix | 👍 121 | 💬 13 answers
+
+**Description**:
+Tags: linux, ssh, key-authentication | Score: 121 | Views: 683618 | Answers: 13
+
+**Solution / Community Answer**:
+Originally posted on Ask Ubuntu
+
+If you have ruled out any "external" factors, the following set of steps usually helps to narrow it down. So while this doesn't directly answer your question, it may help tracking down the error cause.
+
+Troubleshooting sshd
+
+What I find generally very useful in any such cases is to start sshd without letting it daemonize. The problem in my case was that neither syslog nor auth.log showed anything meaningful.
+
+When I started it from the terminal I got:
+
+# $(which sshd) -Ddp 10222
+/etc/ssh/sshd_config line 8: address family must be specified before ListenAddress.
+
+
+Much better! This error message allowed me to see what's wrong and fix it. Neither of the log files contained this output.
+
+NB: at least on Ubuntu the $(which sshd) is the best method to satisfy sshd requirement of an absolute path. Otherwise you'll get the following error: sshd re-exec requires execution with an absolute path. The -p 10222 makes sshd listen on that alternative port, overriding the configuration file - this is so that it doesn't clash with potentially running sshd instances. Make sure to choose a free port here.
+
+Finally: connect to the alternative port (ssh -p 10222 user@server).
+
+This method has helped me many many times in finding issues, be it authentication issues or other types. To get really verbose output to stdout, use $(which sshd) -Ddddp 10222 (note the added dd to increase verbosity). For more debugging goodness check man sshd.
+
+
+
+The main advantage of this method is that it allows you to check the sshd configuration without having to restart the sshd on the default port. Normally this should not interfere with existing SSH-connections, but I've seen it. So this allows one to validate the configuration file prior to - potentially - cutting off ones access to a remote server (for example I have that for some VPS and even for physical servers where I need to pay extra to get out-of-band access to the machine).
+
+**Reference**: https://unix.stackexchange.com/questions/128894/ssh-exchange-identification-connection-closed-by-remote-host-not-using-hosts-d
+
+> 📎 Source: https://unix.stackexchange.com/questions/128894/ssh-exchange-identification-connection-closed-by-remote-host-not-using-hosts-d
+
+#### 115. What is difference between User space and Kernel space?
+
+**Issue**: What is difference between User space and Kernel space?
+**Tags / Source**: Tags: linux, kernel, drivers | unix | 👍 120 | 💬 3 answers
+
+**Description**:
+Tags: linux, kernel, drivers | Score: 120 | Views: 190364 | Answers: 3
+
+**Solution / Community Answer**:
+Is Kernel space used when Kernel is executing on the behalf of the user program i.e. System Call? Or is it the address space for all the Kernel threads (for example scheduler)?
+
+Yes and yes.
+Before we go any further, we should state this about memory.
+Memory gets divided into two distinct areas:
+
+The user space, which is a set of locations where normal user processes run (i.e everything other than the kernel). The role of the kernel is to manage applications running in this space from messing with each other, and the machine.
+The kernel space, which is the location where the code and data of the kernel is stored, and executes under.
+
+Processes running under the user space have access only to a limited part of memory, whereas the kernel has access to all of the memory. Processes running in user space also don't have access to the kernel space. User space processes can only access a small part of the kernel via an interface exposed by the kernel - the system calls. If a process performs a system call, a software interrupt is sent to the kernel, which then dispatches the appropriate interrupt handler and continues its work after the handler has finished.
+Kernel space code has the property to run in &quot;kernel mode&quot;, which (in your typical desktop -x86- computer) is what you call code that executes under ring 0. Typically in x86 architecture, there are 4 rings of protection. Ring 0 (kernel mode), Ring 1 (may be used by virtual machine hypervisors or drivers), Ring 2 (may be used by drivers, I am not so sure about that though). Ring 3 is what typical applications run under. It is the least privileged ring, and applications running on it have access to a subset of the processor's instructions. Ring 0 (kernel space) is the most privileged ring, and has access to all of the machine's instructions. For an example of this, a &quot;plain&quot; application (like a browser) can not use x86 assembly instructions lgdt to load the global descriptor table, nor hlt to halt a processor.
+
+If it is the first one, than does it mean that normal user program cannot have more than 3GB of memory (if the division is 3GB + 1GB)? Also, in that case how can kernel use High Memory, because to what virtual memory address will the pages from high memory be mapped to, as 1GB of kernel space will be logically mapped?
+
+For an answer to this, please refer to the excellent answer by wag to What are high memory and low memory on Linux?.
+
+**Reference**: https://unix.stackexchange.com/questions/87625/what-is-difference-between-user-space-and-kernel-space
+
+> 📎 Source: https://unix.stackexchange.com/questions/87625/what-is-difference-between-user-space-and-kernel-space
+
+#### 116. What is &quot;mail&quot;, and how is it navigated?
+
+**Issue**: What is &quot;mail&quot;, and how is it navigated?
+**Tags / Source**: Tags: linux, mail-command | unix | 👍 120 | 💬 3 answers
+
+**Description**:
+Tags: linux, mail-command | Score: 120 | Views: 182106 | Answers: 3
+
+**Solution / Community Answer**:
+This page describes the interactive command in detail, and is in fact a fairly thorough tutorial. Describes commands such as z and z- :
+
+If there is more than a screenful of messages, then z will
+show the next screenful, and z- will show the previous screenful.
+
+**Reference**: https://unix.stackexchange.com/questions/26790/what-is-mail-and-how-is-it-navigated
+
+> 📎 Source: https://unix.stackexchange.com/questions/26790/what-is-mail-and-how-is-it-navigated
+
+#### 117. If Linux is only a kernel, then how were its first versions used (without distribution)?
+
+**Issue**: If Linux is only a kernel, then how were its first versions used (without distribution)?
+**Tags / Source**: Tags: linux, kernel, linux-kernel, history | unix | 👍 118 | 💬 6 answers
+
+**Description**:
+Tags: linux, kernel, linux-kernel, history | Score: 118 | Views: 24470 | Answers: 6
+
+**Solution / Community Answer**:
+In the early stages of Linux, Linus Torvalds released the Linux kernel source in an alpha state to signal to others that work towards a new Unix-like kernel was in development. By that time, as @RalfFriedi stated, the Linux kernel was cross-compiled in Minix.
+
+As for usable software, Linus Torvalds also ported utilities to distribute along with the Linux kernel in order for others to test it. These programs were mainly bash and gcc, as described by LINUX's History by Linus Torvalds. Per the the Usenet post:
+
+
+From: torvalds@klaava.Helsinki.FI (Linus Benedict Torvalds)  
+Newsgroups: comp.os.minix
+Subject: What would you like to see most in minix?
+Summary: small poll for my new operating system  
+Message-ID: &lt;1991Aug25.205708.9541@klaava.Helsinki.FI&gt;
+Date: 25 Aug 91 20:57:08 GMT
+Organization: University of Helsinki
+
+  
+  Hello everybody out there using minix -
+  
+  I'm doing a (free) operating system (just a hobby, won't be big and 
+  professional like gnu) for 386(486) AT clones.  This has been brewing 
+  since april, and is starting to get ready.  I'd like any feedback on things people like/dislike in minix, as my OS resembles it somewhat
+  (same physical layout of the file-system (due to practical reasons) among other things).
+  
+  I've currently ported bash(1.08) and gcc(1.40), and things seem to
+  work.   This implies that I'll get something practical within a few
+  months, and   I'd like to know what features most people would want. 
+  Any suggestions   are welcome, but I won't promise I'll implement them
+  :-)
+
+
+Linus distributed the kernel and core utility programs in a diskette format for users to try it and possibly to contribute to it.
+
+Afterwards, there were  H.J. Lu's Boot-root floppy diskettes. If this could be called a distribution, then it would gain the fame of being the first distribution capable of being installed on hard disk.
+
+
+  These were two 5¼" diskette images containing the Linux kernel and the
+  minimum tools required to get started. So minimal were these tools
+  that to be able to boot from a hard drive required editing its master
+  boot record with a hex editor.
+
+
+
+
+Eventually the number of utilities grew larger than the maximum size of a diskette.
+
+MCC Interim Linux was the first Linux distribution to be used by people with slightly less technical skills by introducing an automated installation and new utilities such as fdisk.
+
+
+  MCC Interim Linux was a Linux distribution first released in February
+  1992 by Owen Le Blanc of the Manchester Computing Centre (MCC), part
+  of the University of Manchester.
+  
+  The first release of MCC Interim Linux was based on Linux 0.12 and
+  made use of Theodore Ts'o's ramdisk code to copy a small root image to
+  memory, freeing the floppy drive for additional utilities
+  diskettes.[2]
+  
+  He also stated his distributions were "unofficial experiments",
+  describing the goals of his releases as being:
+  
+  
+  To provide a simple installation procedure.  
+  To provide a more complete installation procedure.  
+  To provide a backup/recovery service.  
+  To back up his (then) current system.  
+  To compile, link, and test every binary file under the current versions of the kernel, gcc, and libraries.  
+  To provide a stable base system, which can be installed in a short time, and to which other software can be added with relatively little
+  effort.  
+  
+
+
+After the MCC precursor, SLS was the first distribution offering the X Window System in May of 1992. Notably, the competitor to SLS, the mythical Yggdrasil, debuted in December of 1992.
+
+
+
+Other major distributors followed as we know them today, notably Slackware in July of 1993 (based on SLS) and Debian in December of 1993 until the first official version 1.1 release in December of 1995. 
+
+Image credits:
+* Boot/Root diskettes image from: https://www.maketecheasier.com/
+* yggdrasil diskette image from: https://yggdrasilblog.wordpress.com/
+
+**Reference**: https://unix.stackexchange.com/questions/461113/if-linux-is-only-a-kernel-then-how-were-its-first-versions-used-without-distri
+
+> 📎 Source: https://unix.stackexchange.com/questions/461113/if-linux-is-only-a-kernel-then-how-were-its-first-versions-used-without-distri
+
+#### 118. &quot;Input/output error&quot; when accessing a directory
+
+**Issue**: &quot;Input/output error&quot; when accessing a directory
+**Tags / Source**: Tags: ubuntu, directory, ntfs | unix | 👍 117 | 💬 8 answers
+
+**Description**:
+Tags: ubuntu, directory, ntfs | Score: 117 | Views: 855860 | Answers: 8
+
+**Solution / Community Answer**:
+Input/Output errors during filesystem access attempts generally mean hardware issues.
+
+Type dmesg and check the last few lines of output. If the disc or the connection to it is failing, it'll be noted there.
+
+EDIT Are you mounting it via ntfs or ntfs-3g ? As I recall, the legacy ntfs driver  had no stable write support and was largely abandoned when it turned out ntfs-3g was significantly more stable and secure.
+
+**Reference**: https://unix.stackexchange.com/questions/39905/input-output-error-when-accessing-a-directory
+
+> 📎 Source: https://unix.stackexchange.com/questions/39905/input-output-error-when-accessing-a-directory
+
+#### 119. What is stored in /dev/pts files and can we open them?
+
+**Issue**: What is stored in /dev/pts files and can we open them?
+**Tags / Source**: Tags: linux, terminal, devices, pty | unix | 👍 116 | 💬 3 answers
+
+**Description**:
+Tags: linux, terminal, devices, pty | Score: 116 | Views: 155272 | Answers: 3
+
+**Solution / Community Answer**:
+Nothing is stored in /dev/pts. This filesystem lives purely in memory.
+
+Entries in /dev/pts are pseudo-terminals (pty for short). Unix kernels have a generic notion of terminals. A terminal provides a way for applications to display output and to receive input through a terminal device. A process may have a controlling terminal — for a text mode application, this is how it interacts with the user.
+
+Terminals can be either hardware terminals (“tty”, short for “teletype”) or pseudo-terminals (“pty”). Hardware terminals are connected over some interface such as a serial port (ttyS0, …) or USB (ttyUSB0, …) or over a PC screen and keyboard (tty1, …). Pseudo-terminals are provided by a terminal emulator, which is an application. Some types of pseudo-terminals are:
+
+
+GUI applications such as xterm, gnome-terminal, konsole, … transform keyboard and mouse events into text input and display output graphically in some font.
+Multiplexer applications such as screen and tmux relay input and output from and to another terminal, to decouple text mode applications from the actual terminal.
+Remote shell applications such as sshd, telnetd, rlogind, … relay input and output between a remote terminal on the client and a pty on the server.
+
+
+If a program opens a terminal for writing, the output from that program appears on the terminal. It is common to have several programs outputting to a terminal at the same time, though this can be confusing at times as there is no way to tell which part of the output came from which program. Background processes that try to write to their controlling terminal may be automatically suspended by a SIGTTOU signal.
+
+If a program opens a terminal for reading, the input from the user is passed to that program. If multiple programs are reading from the same terminal, each character is routed independently to one of the programs; this is not recommended. Normally there is only a single program actively reading from the terminal at a given time; programs that try to read from their controlling terminal while they are not in the foreground are automatically suspended by a SIGTTIN signal.
+
+To experiment, run tty in a terminal to see what the terminal device is. Let's say it's /dev/pts/42. In a shell in another terminal, run echo hello &gt;/dev/pts/42: the string hello will be displayed on the other terminal. Now run cat /dev/pts/42 and type in the other terminal. To kill that cat command (which will make the other terminal hard to use), press Ctrl+C.
+
+Writing to another terminal is occasionally useful to display a notification; for example the write command does that. Reading from another terminal is not normally done.
+
+**Reference**: https://unix.stackexchange.com/questions/93531/what-is-stored-in-dev-pts-files-and-can-we-open-them
+
+> 📎 Source: https://unix.stackexchange.com/questions/93531/what-is-stored-in-dev-pts-files-and-can-we-open-them
+
+#### 120. What is the benefit of compiling your own linux kernel?
+
+**Issue**: What is the benefit of compiling your own linux kernel?
+**Tags / Source**: Tags: linux, kernel, compiling | unix | 👍 116 | 💬 13 answers
+
+**Description**:
+Tags: linux, kernel, compiling | Score: 116 | Views: 49846 | Answers: 13
+
+**Solution / Community Answer**:
+In my mind, the only benefit you really get from compiling your own linux kernel is:
+
+You learn how to compile your own linux kernel.
+
+It's not something you need to do for more speed / memory / xxx whatever.  It is a valuable thing to do if that's the stage you feel you are at in your development.  If you want to have a deeper understanding of what this whole "open source" thing is about, about how and what the different parts of the kernel are, then you should give it a go.  If you are just looking to speed up your boot time by 3 seconds, then... what's the point... go buy an ssd.   If you are curious, if you want to learn, then compiling your own kernel is a great idea and you will likely get a lot out of it.  
+
+With that said, there are some specific reasons when it would be appropriate to compile your own kernel (as several people have pointed out in the other answers).  Generally these arise out of a specific need you have for a specific outcome, for example:
+
+
+I need to get the system to boot/run on hardware with limited resources
+I need to test out a patch and provide feedback to the developers
+I need to disable something that is causing a conflict
+I need to develop the linux kernel
+I need to enable support for my unsupported hardware
+I need to improve performance of x because I am hitting the current limits of the system (and I know what I'm doing)
+
+
+The issue lies in thinking that there's some intrinsic benefit to compiling your own kernel when everything is already working the way it should be, and I don't think that there is.  Though you can spend countless hours disabling things you don't need and tweaking the things that are tweakable, the fact is the linux kernel is already pretty well tuned (by your distribution) for most user situations.
+
+**Reference**: https://unix.stackexchange.com/questions/905/what-is-the-benefit-of-compiling-your-own-linux-kernel
+
+> 📎 Source: https://unix.stackexchange.com/questions/905/what-is-the-benefit-of-compiling-your-own-linux-kernel
+
+#### 121. How to mount a device in Linux?
+
+**Issue**: How to mount a device in Linux?
+**Tags / Source**: Tags: linux, mount | unix | 👍 116 | 💬 10 answers
+
+**Description**:
+Tags: linux, mount | Score: 116 | Views: 1052927 | Answers: 10
+
+**Solution / Community Answer**:
+You can use fdisk to have an idea of what kind of partitions you have, for example:
+
+fdisk -l
+
+
+Shows:
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sda1   *          63   204796619   102398278+   7  HPFS/NTFS
+/dev/sda2       204797952   205821951      512000   83  Linux
+/dev/sda3       205821952   976773119   385475584   8e  Linux LVM
+
+
+That way you know that you have sda1,2 and 3 partitions. The -t option is the filesystem type; it can be NTFS, FAT, EXT. In my example, sda1 is ntfs, so it should be something like:
+
+mount -t ntfs /dev/sda1  /mnt/
+
+
+USB devices are usually vfat and Linux are usually ext.
+
+**Reference**: https://unix.stackexchange.com/questions/18925/how-to-mount-a-device-in-linux
+
+> 📎 Source: https://unix.stackexchange.com/questions/18925/how-to-mount-a-device-in-linux
+
+#### 122. Shell script fails: Syntax error: &quot;(&quot; unexpected
+
+**Issue**: Shell script fails: Syntax error: &quot;(&quot; unexpected
+**Tags / Source**: Tags: bash, shell, ubuntu, shell-script | unix | 👍 116 | 💬 7 answers
+
+**Description**:
+Tags: bash, shell, ubuntu, shell-script | Score: 116 | Views: 485044 | Answers: 7
+
+**Solution / Community Answer**:
+The script does not begin with a shebang line, so the system executes it with /bin/sh. On Ubuntu, /bin/sh is dash, a shell designed for fast startup and execution with only standard features. When dash reaches line 68, it sees a syntax error: that parenthesis doesn't mean anything to it in context.
+
+Since dash (like all other shells) is an interpreter, it won't complain until the execution reaches the problematic line. So even if the script successfully started at some point in your testing, it would have aborted once line 68 was reached.
+
+The shebang line must be the very first thing in the file. Since you use bash features, the first line of the file must be #!/bin/bash or #!/usr/bin/env bash.
+
+**Reference**: https://unix.stackexchange.com/questions/45781/shell-script-fails-syntax-error-unexpected
+
+> 📎 Source: https://unix.stackexchange.com/questions/45781/shell-script-fails-syntax-error-unexpected
+
+#### 123. How to find out which interface am I using for connecting to the internet?
+
+**Issue**: How to find out which interface am I using for connecting to the internet?
+**Tags / Source**: Tags: linux, routing | unix | 👍 115 | 💬 13 answers
+
+**Description**:
+Tags: linux, routing | Score: 115 | Views: 197863 | Answers: 13
+
+**Solution / Community Answer**:
+You can use route to find your default route:
+
+$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+192.168.1.0     *               255.255.255.0   U     1      0        0 eth0
+link-local      *               255.255.0.0     U     1000   0        0 eth0
+default         192.168.1.1     0.0.0.0         UG    0      0        0 eth0
+
+
+The Iface column in the line with destination default tells you which interface is used.
+
+**Reference**: https://unix.stackexchange.com/questions/14961/how-to-find-out-which-interface-am-i-using-for-connecting-to-the-internet
+
+> 📎 Source: https://unix.stackexchange.com/questions/14961/how-to-find-out-which-interface-am-i-using-for-connecting-to-the-internet
+
+#### 124. How to find the installation path for a software under linux?
+
+**Issue**: How to find the installation path for a software under linux?
+**Tags / Source**: Tags: linux, software-installation | unix | 👍 115 | 💬 10 answers
+
+**Description**:
+Tags: linux, software-installation | Score: 115 | Views: 668040 | Answers: 10
+
+**Solution / Community Answer**:
+You can use:
+
+which fluidpoint
+
+
+to see where it is executing from (if it's in your $PATH). Or:
+
+find / -name fluidpoint 2&gt; /dev/null
+
+
+to look for a file named fluipoint and redirect errors on virtual filesystems.
+
+Usually they are in /sbin, /usr/sbin, /usr/local/bin or ~ as a hidden directory.
+
+From Manual:
+
+NAME
+       which - shows the full path of (shell) commands.
+
+SYNOPSIS
+       which [options] [--] programname [...]
+
+
+Full manual: https://linux.die.net/man/1/which
+
+**Reference**: https://unix.stackexchange.com/questions/19369/how-to-find-the-installation-path-for-a-software-under-linux
+
+> 📎 Source: https://unix.stackexchange.com/questions/19369/how-to-find-the-installation-path-for-a-software-under-linux
+
+#### 125. Creating a ram disk on Linux
+
+**Issue**: Creating a ram disk on Linux
+**Tags / Source**: Tags: linux, ramdisk | unix | 👍 114 | 💬 8 answers
+
+**Description**:
+Tags: linux, ramdisk | Score: 114 | Views: 178020 | Answers: 8
+
+**Solution / Community Answer**:
+The best way to create a ram disk on linux is tmpfs. It's a filesystem living in ram, so there is no need for ext2. You can create a tmpfs of 16Gb size with:
+
+mount -o size=16G -t tmpfs none /mnt/tmpfs
+
+**Reference**: https://unix.stackexchange.com/questions/66329/creating-a-ram-disk-on-linux
+
+> 📎 Source: https://unix.stackexchange.com/questions/66329/creating-a-ram-disk-on-linux
+
+#### 126. What is meant by mounting a device in Linux?
+
+**Issue**: What is meant by mounting a device in Linux?
+**Tags / Source**: Tags: linux, mount | unix | 👍 114 | 💬 4 answers
+
+**Description**:
+Tags: linux, mount | Score: 114 | Views: 150384 | Answers: 4
+
+**Solution / Community Answer**:
+Unix systems have a single directory tree. All accessible storage must have an associated location in this single directory tree. This is unlike Windows where (in the most common syntax for file paths) there is one directory tree per storage component (drive).
+Mounting is the act of associating a storage device to a particular location in the directory tree. For example, when the system boots, a particular storage device (commonly called the root partition) is associated with the root of the directory tree, i.e., that storage device is mounted on / (the root directory).
+It's worth noting that mounting not only associates the device containing the data with a directory, but also with a filesystem driver, which is a piece of code that understands how the data on the device is organized and presents it as files and directories.
+Let's say you now want to access files on a CD-ROM. You must mount the CD-ROM on a location in the directory tree (this may be done automatically when you insert the CD). Let's say the CD-ROM device is /dev/cdrom and the chosen mount point is /media/cdrom. The corresponding command is
+mount /dev/cdrom /media/cdrom
+
+After that command is run, a file whose location on the CD-ROM is /dir/file is now accessible on your system as /media/cdrom/dir/file. When you've finished using the CD, you run the command umount /dev/cdrom or umount /media/cdrom (both will work; typical desktop environments will do this when you click on the “eject” or ”safely remove” button).
+Mounting applies to anything that is made accessible as files, not just actual storage devices. For example, all Linux systems have a special filesystem mounted under /proc. That filesystem (called proc) does not have underlying storage: the files in it give information about running processes and various other system information; the information is provided directly by the kernel from its in-memory data structures.
+
+**Reference**: https://unix.stackexchange.com/questions/3192/what-is-meant-by-mounting-a-device-in-linux
+
+> 📎 Source: https://unix.stackexchange.com/questions/3192/what-is-meant-by-mounting-a-device-in-linux
+
+#### 127. How to limit network bandwidth?
+
+**Issue**: How to limit network bandwidth?
+**Tags / Source**: Tags: linux, networking, bandwidth, qos | unix | 👍 113 | 💬 6 answers
+
+**Description**:
+Tags: linux, networking, bandwidth, qos | Score: 113 | Views: 240133 | Answers: 6
+
+**Solution / Community Answer**:
+You can throttle the network bandwidth on the interface using the command called tc Man page available at http://man7.org/linux/man-pages/man8/tc.8.html
+
+For a simple script, try wondershaper.
+
+An example from using tc:
+tc qdisc add dev eth0 root tbf rate 1024kbit latency 50ms burst 1540
+
+**Reference**: https://unix.stackexchange.com/questions/28198/how-to-limit-network-bandwidth
+
+> 📎 Source: https://unix.stackexchange.com/questions/28198/how-to-limit-network-bandwidth
+
+#### 128. Why are true and false so large?
+
+**Issue**: Why are true and false so large?
+**Tags / Source**: Tags: linux, reverse-engineering | unix | 👍 112 | 💬 5 answers
+
+**Description**:
+Tags: linux, reverse-engineering | Score: 112 | Views: 27867 | Answers: 5
+
+**Solution / Community Answer**:
+In the past, /bin/true and /bin/false in the shell were actually scripts.
+For instance, in a PDP/11 Unix System 7:
+$ ls -la /bin/true /bin/false
+-rwxr-xr-x 1 bin         7 Jun  8  1979 /bin/false
+-rwxr-xr-x 1 bin         0 Jun  8  1979 /bin/true
+$
+$ cat /bin/false
+exit 1
+$
+$ cat /bin/true
+$  
+
+Nowadays, at least in bash, the trueand false commands are implemented as shell built-in commands. Thus no executable binary files are invoked by default, both when using the false and true directives in the bash command line and inside shell scripts.
+From the bashsource, builtins/mkbuiltins.c:
+char *posix_builtins[] =
+    {
+      "alias", "bg", "cd", "command", "false", "fc", "fg", "getopts", "jobs",
+      "kill", "newgrp", "pwd", "read", "true", "umask", "unalias", "wait",
+      (char *)NULL
+    };
+
+Also per @meuh comments:
+$ command -V true false
+true is a shell builtin
+false is a shell builtin
+
+So it can be said with a high degree of certainty the trueand false executable files exist mainly for being called from other programs.
+From now on, the answer will focus on the /bin/true binary from the coreutilspackage in Debian 9 / 64 bits. (/usr/bin/true running RedHat. RedHat and Debian use both the  coreutils package, analysed the compiled version of the latter having it more at hand).
+As it can be seen in the source file false.c, /bin/false is compiled with (almost) the same source code as /bin/true, just returning EXIT_FAILURE (1) instead, so this answer can be applied for both binaries.
+#define EXIT_STATUS EXIT_FAILURE
+#include &quot;true.c&quot;
+
+As it also can be confirmed by both executables having the same size:
+$ ls -l /bin/true /bin/false
+-rwxr-xr-x 1 root root 31464 Feb 22  2017 /bin/false
+-rwxr-xr-x 1 root root 31464 Feb 22  2017 /bin/true
+
+Alas, the direct answer to the question &quot;why are true and false so large?&quot; could be, because there are not anymore so pressing reasons to care about their top performance. They are not essential to bash performance, not being used anymore by bash (scripting).
+Similar comments apply to their size, 26KB for the kind of hardware we have nowadays is insignificant. Space is not at premium for the typical server/desktop anymore, and they do not even bother anymore to use the same binary for false and true, as it is just deployed twice in distributions using coreutils.
+Focusing, however, in the real spirit of the question, why something that should be so simple and small, gets so large?
+The real distribution of the sections of /bin/true is as these charts shows; the main code+data amounts to roughly 3KB out of a 26KB binary, which amounts to 12% of the size of /bin/true.
+The true utility got indeed more cruft code over the years, most notably the standard support for --version and --help.
+However, that it is not the (only) main justification for it being so big, but rather, while being dynamically linked (using shared libs), also having part of a generic library commonly used by coreutils binaries linked as a static library.  The metada for building an elf executable file also amounts for a significant part of the binary, being it a relatively small file by today´s standards.
+The rest of the answer is for explaining how we got to build the following charts detailing the composition of the /bin/true executable binary file and how we arrived to that conclusion.
+
+
+As @Maks says, the binary was compiled from C; as per my comment also, it is also confirmed it is from coreutils. We are pointing directly to the author(s) git https://github.com/wertarbyte/coreutils/blob/master/src/true.c, instead of the gnu git as @Maks  (same sources, different repositories - this repository was selected as it has the full source of the coreutils libraries)
+We can see the various building blocks of the /bin/truebinary here (Debian 9 - 64 bits from coreutils):
+$ file /bin/true
+/bin/true: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=9ae82394864538fa7b23b7f87b259ea2a20889c4, stripped
+
+$ size /bin/true
+    text       data     bss     dec     hex filename
+   24583       1160     416   26159    662f true
+
+Of those:
+
+text (usually code) is around 24KB
+data (initialised variables, mostly strings) are around 1KB
+bss (uninitialized  data) 0.5KB
+
+Of the 24KB, around 1KB is for fixing up the 58 external functions.
+That still leaves around roughly 23KB for rest of the code. We will show down bellow that the actual main file - main()+usage() code is around 1KB compiled, and explain what the other 22KB are used for.
+Drilling further down the binary with readelf -S true, we can see that while the binary is 26159 bytes, the actual compiled code is 13017 bytes, and the rest is assorted data/initialisation code.
+However, true.c is not the whole story and 13KB seems pretty much excessive if it were only that file; we can see functions called in main() that are not listed in the external functions seen in the elf with objdump -T true ; functions that are present at:
+
+https://github.com/coreutils/gnulib/blob/master/lib/progname.c
+https://github.com/coreutils/gnulib/blob/master/lib/closeout.c
+https://github.com/coreutils/gnulib/blob/master/lib/version-etc.c
+
+Those extra functions not linked externally in main() are:
+
+set_program_name()
+close_stdout()
+version_etc()
+
+So my first suspicion was partly correct, whilst the library is using dynamic libraries, the /bin/true binary is big because it has some static libraries included with it (but that is not the only cause).
+Compiling C code is not usually that inefficient for having such space unaccounted for, hence my initial suspicion something was amiss.
+The extra space, almost 90% of the size of the binary, is indeed extra libraries/elf metadata.
+While using Hopper for disassembling/decompiling the binary to understand where functions are, it can be seen the compiled binary code of true.c/usage() function is actually 833 bytes, and of the true.c/main() function is 225 bytes, which is roughly slightly less than 1KB. The logic for version functions, which is buried in the static libraries, is around 1KB.
+The actual compiled main()+usage()+version()+strings+vars are only using up around 3KB to 3.5KB.
+It is indeed ironic, such small and humble utilities have became bigger in size for the reasons explained above.
+related question: Understanding what a Linux binary is doing
+true.c main() with the offending function calls:
+int
+main (int argc, char **argv)
+{
+  /* Recognize --help or --version only if it's the only command-line
+     argument.  */
+  if (argc == 2)
+    {
+      initialize_main (&amp;argc, &amp;argv);
+      set_program_name (argv[0]);           &lt;-----------
+      setlocale (LC_ALL, &quot;&quot;);
+      bindtextdomain (PACKAGE, LOCALEDIR);
+      textdomain (PACKAGE);
+
+      atexit (close_stdout);             &lt;-----
+
+      if (STREQ (argv[1], &quot;--help&quot;))
+        usage (EXIT_STATUS);
+
+      if (STREQ (argv[1], &quot;--version&quot;))
+        version_etc (stdout, PROGRAM_NAME, PACKAGE_NAME, Version,  AUTHORS,  &lt;------
+                     (char *) NULL);
+    }
+
+  exit (EXIT_STATUS);
+}
+
+The decimal size of the various sections of the binary:
+$ size -A -t true 
+true  :
+section               size      addr
+.interp                 28       568
+.note.ABI-tag           32       596
+.note.gnu.build-id      36       628
+.gnu.hash               60       664
+.dynsym               1416       728
+.dynstr                676      2144
+.gnu.version           118      2820
+.gnu.version_r          96      2944
+.rela.dyn              624      3040
+.rela.plt             1104      3664
+.init                   23      4768
+.plt                   752      4800
+.plt.got                 8      5552
+.text                13017      5568
+.fini                    9     18588
+.rodata               3104     18624
+.eh_frame_hdr          572     21728
+.eh_frame             2908     22304
+.init_array              8   2125160
+.fini_array              8   2125168
+.jcr                     8   2125176
+.data.rel.ro            88   2125184
+.dynamic               480   2125272
+.got                    48   2125752
+.got.plt               392   2125824
+.data                  128   2126240
+.bss                   416   2126368
+.gnu_debuglink          52         0
+Total                26211
+
+Output of readelf -S true
+$ readelf -S true
+There are 30 section headers, starting at offset 0x7368:
+
+Section Headers:
+  [Nr] Name              Type             Address           Offset
+       Size              EntSize          Flags  Link  Info  Align
+  [ 0]                   NULL             0000000000000000  00000000
+       0000000000000000  0000000000000000           0     0     0
+  [ 1] .interp           PROGBITS         0000000000000238  00000238
+       000000000000001c  0000000000000000   A       0     0     1
+  [ 2] .note.ABI-tag     NOTE             0000000000000254  00000254
+       0000000000000020  0000000000000000   A       0     0     4
+  [ 3] .note.gnu.build-i NOTE             0000000000000274  00000274
+       0000000000000024  0000000000000000   A       0     0     4
+  [ 4] .gnu.hash         GNU_HASH         0000000000000298  00000298
+       000000000000003c  0000000000000000   A       5     0     8
+  [ 5] .dynsym           DYNSYM           00000000000002d8  000002d8
+       0000000000000588  0000000000000018   A       6     1     8
+  [ 6] .dynstr           STRTAB           0000000000000860  00000860
+       00000000000002a4  0000000000000000   A       0     0     1
+  [ 7] .gnu.version      VERSYM           0000000000000b04  00000b04
+       0000000000000076  0000000000000002   A       5     0     2
+  [ 8] .gnu.version_r    VERNEED          0000000000000b80  00000b80
+       0000000000000060  0000000000000000   A       6     1     8
+  [ 9] .rela.dyn         RELA             0000000000000be0  00000be0
+       0000000000000270  0000000000000018   A       5     0     8
+  [10] .rela.plt         RELA             0000000000000e50  00000e50
+       0000000000000450  0000000000000018  AI       5    25     8
+  [11] .init             PROGBITS         00000000000012a0  000012a0
+       0000000000000017  0000000000000000  AX       0     0     4
+  [12] .plt              PROGBITS         00000000000012c0  000012c0
+       00000000000002f0  0000000000000010  AX       0     0     16
+  [13] .plt.got          PROGBITS         00000000000015b0  000015b0
+       0000000000000008  0000000000000000  AX       0     0     8
+  [14] .text             PROGBITS         00000000000015c0  000015c0
+       00000000000032d9  0000000000000000  AX       0     0     16
+  [15] .fini             PROGBITS         000000000000489c  0000489c
+       0000000000000009  0000000000000000  AX       0     0     4
+  [16] .rodata           PROGBITS         00000000000048c0  000048c0
+       0000000000000c20  0000000000000000   A       0     0     32
+  [17] .eh_frame_hdr     PROGBITS         00000000000054e0  000054e0
+       000000000000023c  0000000000000000   A       0     0     4
+  [18] .eh_frame         PROGBITS         0000000000005720  00005720
+       0000000000000b5c  0000000000000000   A       0     0     8
+  [19] .init_array       INIT_ARRAY       0000000000206d68  00006d68
+       0000000000000008  0000000000000008  WA       0     0     8
+  [20] .fini_array       FINI_ARRAY       0000000000206d70  00006d70
+       0000000000000008  0000000000000008  WA       0     0     8
+  [21] .jcr              PROGBITS         0000000000206d78  00006d78
+       0000000000000008  0000000000000000  WA       0     0     8
+  [22] .data.rel.ro      PROGBITS         0000000000206d80  00006d80
+       0000000000000058  0000000000000000  WA       0     0     32
+  [23] .dynamic          DYNAMIC          0000000000206dd8  00006dd8
+       00000000000001e0  0000000000000010  WA       6     0     8
+  [24] .got              PROGBITS         0000000000206fb8  00006fb8
+       0000000000000030  0000000000000008  WA       0     0     8
+  [25] .got.plt          PROGBITS         0000000000207000  00007000
+       0000000000000188  0000000000000008  WA       0     0     8
+  [26] .data             PROGBITS         00000000002071a0  000071a0
+       0000000000000080  0000000000000000  WA       0     0     32
+  [27] .bss              NOBITS           0000000000207220  00007220
+       00000000000001a0  0000000000000000  WA       0     0     32
+  [28] .gnu_debuglink    PROGBITS         0000000000000000  00007220
+       0000000000000034  0000000000000000           0     0     1
+  [29] .shstrtab         STRTAB           0000000000000000  00007254
+       000000000000010f  0000000000000000           0     0     1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  l (large), p (processor specific)
+
+Output of objdump -T true (external functions dynamically linked on run-time)
+$ objdump -T true
+
+true:     file format elf64-x86-64
+
+DYNAMIC SYMBOL TABLE:
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 __uflow
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 getenv
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 free
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 abort
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 __errno_location
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 strncmp
+0000000000000000  w   D  *UND*  0000000000000000              _ITM_deregisterTMCloneTable
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 _exit
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 __fpending
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 textdomain
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 fclose
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 bindtextdomain
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 dcgettext
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 __ctype_get_mb_cur_max
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 strlen
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.4   __stack_chk_fail
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 mbrtowc
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 strrchr
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 lseek
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 memset
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 fscanf
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 close
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 __libc_start_main
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 memcmp
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 fputs_unlocked
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 calloc
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 strcmp
+0000000000000000  w   D  *UND*  0000000000000000              __gmon_start__
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.14  memcpy
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 fileno
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 malloc
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 fflush
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 nl_langinfo
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 ungetc
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 __freading
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 realloc
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 fdopen
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 setlocale
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.3.4 __printf_chk
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 error
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 open
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 fseeko
+0000000000000000  w   D  *UND*  0000000000000000              _Jv_RegisterClasses
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 __cxa_atexit
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 exit
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 fwrite
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.3.4 __fprintf_chk
+0000000000000000  w   D  *UND*  0000000000000000              _ITM_registerTMCloneTable
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 mbsinit
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 iswprint
+0000000000000000  w   DF *UND*  0000000000000000  GLIBC_2.2.5 __cxa_finalize
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.3   __ctype_b_loc
+0000000000207228 g    DO .bss   0000000000000008  GLIBC_2.2.5 stdout
+0000000000207220 g    DO .bss   0000000000000008  GLIBC_2.2.5 __progname
+0000000000207230  w   DO .bss   0000000000000008  GLIBC_2.2.5 program_invocation_name
+0000000000207230 g    DO .bss   0000000000000008  GLIBC_2.2.5 __progname_full
+0000000000207220  w   DO .bss   0000000000000008  GLIBC_2.2.5 program_invocation_short_name
+0000000000207240 g    DO .bss   0000000000000008  GLIBC_2.2.5 stderr
+
+**Reference**: https://unix.stackexchange.com/questions/419697/why-are-true-and-false-so-large
+
+> 📎 Source: https://unix.stackexchange.com/questions/419697/why-are-true-and-false-so-large
+
+#### 129. What is this new /run filesystem?
+
+**Issue**: What is this new /run filesystem?
+**Tags / Source**: Tags: linux, filesystems, directory-structure | unix | 👍 112 | 💬 2 answers
+
+**Description**:
+Tags: linux, filesystems, directory-structure | Score: 112 | Views: 132435 | Answers: 2
+
+**Solution / Community Answer**:
+Apparently, many tools (among them udev) will soon require a /run/ directory that is mounted early (as tmpfs). Arch developers introduced /run last month to prepare for this.
+
+The udev runtime data moved from /dev/.udev/ to /run/udev/. The /run mountpoint is supposed to be a tmpfs mounted during early boot, available and writable to for all tools at any time during bootup, it replaces /var/run/, which should become a symlink some day.(1)
+
+ 
+There is more detail here (now dead, link to archive).
+(1) From thread on the Arch Projects ML
+
+**Reference**: https://unix.stackexchange.com/questions/13972/what-is-this-new-run-filesystem
+
+> 📎 Source: https://unix.stackexchange.com/questions/13972/what-is-this-new-run-filesystem
+
+#### 130. Recover cron jobs accidently removed with crontab -r
+
+**Issue**: Recover cron jobs accidently removed with crontab -r
+**Tags / Source**: Tags: linux, cron | unix | 👍 112 | 💬 5 answers
+
+**Description**:
+Tags: linux, cron | Score: 112 | Views: 107293 | Answers: 5
+
+**Solution / Community Answer**:
+crontab -r removes the only file containing the cron jobs. 
+
+So if you did not make a backup, your only recovery options are:
+
+
+On RedHat/CentOS, if your jobs have been triggered before, you can find the cron log in /var/log/cron. The file will help you rewrite the jobs again. 
+Another option is to recover the file using a file recovery tool. This is less likely to be successful though, since the system partition is usually a busy one and corresponding sectors probably have already been overwritten.
+On Ubuntu/Debian, if your task has run before, try grep CRON /var/log/syslog
+
+**Reference**: https://unix.stackexchange.com/questions/136350/recover-cron-jobs-accidently-removed-with-crontab-r
+
+> 📎 Source: https://unix.stackexchange.com/questions/136350/recover-cron-jobs-accidently-removed-with-crontab-r
+
+#### 131. A list of available D-Bus services
+
+**Issue**: A list of available D-Bus services
+**Tags / Source**: Tags: linux, d-bus, ipc | unix | 👍 111 | 💬 6 answers
+
+**Description**:
+Tags: linux, d-bus, ipc | Score: 111 | Views: 122640 | Answers: 6
+
+**Solution / Community Answer**:
+On QT setups (short commands and clean, human readable output) you can run:
+qdbus
+
+will list list the services available on the session bus and
+qdbus --system
+
+will list list the services available on the system bus.
+
+On any setup you can use dbus-send
+dbus-send --print-reply --dest=org.freedesktop.DBus  /org/freedesktop/DBus org.freedesktop.DBus.ListNames
+
+Just like qdbus, if --session or no message bus is specified, dbus will send to the login session message bus. So the above will list the services available on the session bus.
+Use --system if you want instead to use the system wide message bus:
+dbus-send --system --print-reply --dest=org.freedesktop.DBus  /org/freedesktop/DBus org.freedesktop.DBus.ListNames
+
+**Reference**: https://unix.stackexchange.com/questions/46301/a-list-of-available-d-bus-services
+
+> 📎 Source: https://unix.stackexchange.com/questions/46301/a-list-of-available-d-bus-services
+
+#### 132. How to use command line to change volume?
+
+**Issue**: How to use command line to change volume?
+**Tags / Source**: Tags: linux, command-line, audio, alsa | unix | 👍 111 | 💬 7 answers
+
+**Description**:
+Tags: linux, command-line, audio, alsa | Score: 111 | Views: 271823 | Answers: 7
+
+**Solution / Community Answer**:
+You can use amixer. It's in the alsa-utils package on Ubuntu and Debian.
+Run amixer without parameters to get an overview about your controls for the default device.
+You can also use alsamixer without parameters (from the same package) to get a more visual overview. Use F6 to see and switch between devices. Commonly, you might have PulseAudio and a hardware sound card to select from.
+Then use amixer with the set command to set the volume.
+For example, to set the master channel to 50%:
+amixer set Master 50%
+
+Master is the control name and should match one that you see when running without parameters.
+Note the % sign, without it, it will treat the value as a 0 - 65536 level.
+If PulseAudio is not your default device, you can use the -D switch:
+amixer -D pulse set Master 50%
+
+Other useful commands pointed out in the comments:
+To increase/decrease the volume use +/- after the number, use
+amixer set Master 10%+
+amixer set Master 10%-
+
+To mute, unmute or toggle between muted/unmuted state, use
+amixer set Master mute
+amixer set Master unmute
+amixer set Master toggle
+
+Also note that there might be two different percentage scales, the default raw and for some devices a more natural scale based on decibel, which is also used by alsamixer. Use -M to use the latter.
+Finally, if you're interested only in PulseAudio, you might want to check out pactl (see one of the other answers).
+
+**Reference**: https://unix.stackexchange.com/questions/21089/how-to-use-command-line-to-change-volume
+
+> 📎 Source: https://unix.stackexchange.com/questions/21089/how-to-use-command-line-to-change-volume
+
+#### 133. Easy command line method to determine specific ARM architecture string?
+
+**Issue**: Easy command line method to determine specific ARM architecture string?
+**Tags / Source**: Tags: debian, ubuntu, scripting, architecture, cpu-architecture | unix | 👍 111 | 💬 2 answers
+
+**Description**:
+Tags: debian, ubuntu, scripting, architecture, cpu-architecture | Score: 111 | Views: 232891 | Answers: 2
+
+**Solution / Community Answer**:
+On Debian and derivatives,
+dpkg --print-architecture
+
+will output the primary architecture of the machine it’s run on. This will be armhf on a machine running 32-bit ARM Debian or Ubuntu (or a derivative), arm64 on a machine running 64-bit ARM.
+On RPM-based systems,
+rpm --eval '%{_arch}'
+
+will output the current architecture name (which may be influenced by other parameters, e.g. --target).
+Note that the running architecture may be different from the hardware architecture or even the kernel architecture. It’s possible to run i386 Debian on a 64-bit Intel or AMD CPU, and I believe it’s possible to run armhf on a 64-bit ARM CPU. It’s also possible to have mostly i386 binaries (so the primary architecture is i386) on an amd64 kernel, or even binaries from an entirely different architecture if it’s supported by QEMU (a common use for this is debootstrap chroots used for cross-compiling).
+
+**Reference**: https://unix.stackexchange.com/questions/180726/easy-command-line-method-to-determine-specific-arm-architecture-string
+
+> 📎 Source: https://unix.stackexchange.com/questions/180726/easy-command-line-method-to-determine-specific-arm-architecture-string
+
+#### 134. Does `sl` ever show the current directory?
+
+**Issue**: Does `sl` ever show the current directory?
+**Tags / Source**: Tags: linux | unix | 👍 110 | 💬 10 answers
+
+**Description**:
+Tags: linux | Score: 110 | Views: 23222 | Answers: 10
+
+**Solution / Community Answer**:
+As far as I know, the only condition under which sl shows the current directory is when you mistype it as ls.
+
+**Reference**: https://unix.stackexchange.com/questions/124816/does-sl-ever-show-the-current-directory
+
+> 📎 Source: https://unix.stackexchange.com/questions/124816/does-sl-ever-show-the-current-directory
+
+#### 135. How to turn off Wireless power management permanently
+
+**Issue**: How to turn off Wireless power management permanently
+**Tags / Source**: Tags: linux, wifi, power-management | unix | 👍 109 | 💬 5 answers
+
+**Description**:
+Tags: linux, wifi, power-management | Score: 109 | Views: 275990 | Answers: 5
+
+**Solution / Community Answer**:
+Open this file with your favorite text editor, I use nano here:
+sudo nano /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
+
+By default there is:
+[connection]
+wifi.powersave = 3
+
+Change the value to 2.
+
+Possible values for the wifi.powersave field are:
+NM_SETTING_WIRELESS_POWERSAVE_DEFAULT (0): use the default value
+NM_SETTING_WIRELESS_POWERSAVE_IGNORE  (1): don't touch existing setting
+NM_SETTING_WIRELESS_POWERSAVE_DISABLE (2): disable powersave
+NM_SETTING_WIRELESS_POWERSAVE_ENABLE  (3): enable powersave
+
+(Informal source on GitHub for these values.)
+
+To take effect, just run:
+sudo systemctl restart NetworkManager
+
+**Reference**: https://unix.stackexchange.com/questions/269661/how-to-turn-off-wireless-power-management-permanently
+
+> 📎 Source: https://unix.stackexchange.com/questions/269661/how-to-turn-off-wireless-power-management-permanently
+
+#### 136. Execute a specific command in a given directory without cd&#39;ing to it?
+
+**Issue**: Execute a specific command in a given directory without cd&#39;ing to it?
+**Tags / Source**: Tags: linux, bash, cd-command | unix | 👍 109 | 💬 11 answers
+
+**Description**:
+Tags: linux, bash, cd-command | Score: 109 | Views: 147345 | Answers: 11
+
+**Solution / Community Answer**:
+I don't know if this counts, but you can make a subshell:
+
+$ (cd /var/log &amp;&amp; cp -- *.log ~/Desktop)
+
+
+The directory is only changed for that subshell, so you avoid the work of needing to cd - afterwards.
+
+**Reference**: https://unix.stackexchange.com/questions/13802/execute-a-specific-command-in-a-given-directory-without-cding-to-it
+
+> 📎 Source: https://unix.stackexchange.com/questions/13802/execute-a-specific-command-in-a-given-directory-without-cding-to-it
+
+#### 137. Is there a way to stop having to write &#39;sudo&#39; for every little thing in Linux?
+
+**Issue**: Is there a way to stop having to write &#39;sudo&#39; for every little thing in Linux?
+**Tags / Source**: Tags: linux, permissions, sudo | unix | 👍 109 | 💬 11 answers
+
+**Description**:
+Tags: linux, permissions, sudo | Score: 109 | Views: 371243 | Answers: 11
+
+**Solution / Community Answer**:
+Two options come to my mind:
+
+Own the directory you want by using chown:
+sudo chown your_username directory 
+
+(replace your_username with your username and directory with the directory you want.)
+
+The other thing you can do is work as root as long as you KNOW WHAT YOU ARE DOING. To use root do:
+sudo -s
+
+
+
+and then you can do anything without having to type sudo before every command.
+To exit this sudo -s shell terminal, type exit and you will be returned to the previous shell terminal.
+
+**Reference**: https://unix.stackexchange.com/questions/26074/is-there-a-way-to-stop-having-to-write-sudo-for-every-little-thing-in-linux
+
+> 📎 Source: https://unix.stackexchange.com/questions/26074/is-there-a-way-to-stop-having-to-write-sudo-for-every-little-thing-in-linux
+
+#### 138. Difference between cp -r and cp -R (copy command)
+
+**Issue**: Difference between cp -r and cp -R (copy command)
+**Tags / Source**: Tags: linux, cp | unix | 👍 109 | 💬 5 answers
+
+**Description**:
+Tags: linux, cp | Score: 109 | Views: 156009 | Answers: 5
+
+**Solution / Community Answer**:
+While -R is posix well-defined, -r is not portable!
+
+On Linux, in the GNU and BusyBox implementations of cp, -r and -R are equivalent. 
+
+On the other side, as you can read in the POSIX manual page of cp, -r behavior  is implementation-defined.
+
+
+    * If  neither  the  -R  nor  -r  options were specified, cp shall take
+      actions based on the type and contents of the file referenced by the
+      symbolic link, and not by the symbolic link itself.
+
+    * If the -R option was specified:
+
+       * If  none  of  the  options  -H,  -L, nor -P were specified, it is
+         unspecified which of -H, -L, or -P will be used as a default.
+
+       * If the -H option was specified, cp shall take  actions based on
+         the type and contents of the file referenced by any symbolic link
+         specified as a source_file operand.
+
+       * If the -L option was specified, cp shall take  actions based  on
+         the type and contents of the file referenced by any symbolic link
+         specified as a source_file operand or any symbolic links encoun-
+         tered during traversal of a file hierarchy.
+
+       * If  the  -P option was specified, cp shall copy any symbolic link
+         specified as a source_file operand and any symbolic links encoun-
+         tered  during traversal of a file hierarchy, and shall not follow
+         any symbolic links.
+
+    * If the -r option was  specified,  the  behavior  is implementation-
+      defined.
+
+**Reference**: https://unix.stackexchange.com/questions/18712/difference-between-cp-r-and-cp-r-copy-command
+
+> 📎 Source: https://unix.stackexchange.com/questions/18712/difference-between-cp-r-and-cp-r-copy-command
+
+#### 139. How to find out if a system uses SysV, Upstart or Systemd initsystem
+
+**Issue**: How to find out if a system uses SysV, Upstart or Systemd initsystem
+**Tags / Source**: Tags: linux, systemd, init, upstart, sysvinit | unix | 👍 108 | 💬 5 answers
+
+**Description**:
+Tags: linux, systemd, init, upstart, sysvinit | Score: 108 | Views: 128579 | Answers: 5
+
+**Solution / Community Answer**:
+The init process is always assigned PID 1. The /proc filesystem provides a way to obtain the path to an executable given a PID.
+
+In other words:
+
+nathan@nathan-desktop:~$ sudo stat /proc/1/exe
+  File: '/proc/1/exe' -&gt; '/sbin/upstart'
+
+
+As you can see, the init process on my Ubuntu 14.10 box is Upstart. Ubuntu 15.04 uses systemd, so running that command instead yields:
+
+nathan@nathan-gnome:~$ sudo stat /proc/1/exe
+  File: '/proc/1/exe' -&gt; '/lib/systemd/systemd'
+
+
+If the system you're on gives /sbin/init as a result, then you'll want to try statting that file:
+
+nathan@nathan-gnome:~$ sudo stat /proc/1/exe
+  File: '/proc/1/exe' -&gt; '/sbin/init'
+nathan@nathan-gnome:~$ stat /sbin/init
+  File: ‘/sbin/init’ -&gt; ‘/lib/systemd/systemd’
+
+
+You can also execute it to find out more:
+
+[user@centos ~]$ /sbin/init --version
+init (upstart 0.6.5)
+Copyright (C) 2010 Canonical Ltd.
+
+**Reference**: https://unix.stackexchange.com/questions/196166/how-to-find-out-if-a-system-uses-sysv-upstart-or-systemd-initsystem
+
+> 📎 Source: https://unix.stackexchange.com/questions/196166/how-to-find-out-if-a-system-uses-sysv-upstart-or-systemd-initsystem
+
+#### 140. How to see disk details like manufacturer in Linux
+
+**Issue**: How to see disk details like manufacturer in Linux
+**Tags / Source**: Tags: linux, hard-disk, sfdisk | unix | 👍 108 | 💬 9 answers
+
+**Description**:
+Tags: linux, hard-disk, sfdisk | Score: 108 | Views: 255767 | Answers: 9
+
+**Solution / Community Answer**:
+Try these commands:
+
+lshw -class disk  
+
+hwinfo --disk
+
+
+You may have to install hwinfo.
+
+Concerning hdparm:
+hdparm(8) says:  
+
+Although this utility is intended primarily for use with SATA/IDE hard disk 
+devices, several of the options are also valid (and permitted) for use with 
+SCSI hard disk devices and MFM/RLL hard disks with XT interfaces.
+
+
+and:
+
+Some options (eg. -r for SCSI) may not work with old kernels as necessary 
+ioctl()´s were not supported.
+
+**Reference**: https://unix.stackexchange.com/questions/5085/how-to-see-disk-details-like-manufacturer-in-linux
+
+> 📎 Source: https://unix.stackexchange.com/questions/5085/how-to-see-disk-details-like-manufacturer-in-linux
+
+#### 141. Can I set up system mail to use an external SMTP server?
+
+**Issue**: Can I set up system mail to use an external SMTP server?
+**Tags / Source**: Tags: linux, smtp, email | unix | 👍 108 | 💬 7 answers
+
+**Description**:
+Tags: linux, smtp, email | Score: 108 | Views: 391910 | Answers: 7
+
+**Solution / Community Answer**:
+I found sSMTP very simple to use.
+
+In Debian based systems:
+
+apt-get install ssmtp
+
+
+Then edit the configuration file in /etc/ssmtp/ssmtp.conf
+
+A sample configuration to use your gmail for sending e-mails:
+
+# root is the person who gets all mail for userids &lt; 1000
+root=your@email.com
+
+# Here is the gmail configuration (or change it to your private smtp server)
+mailhub=smtp.gmail.com:587
+AuthUser=your@gmail.com
+AuthPass=yourGmailPass
+UseTLS=YES
+UseSTARTTLS=YES
+
+
+Note: Make sure the "mail" command is present in your system. mailutils package should provide this one in Debian based systems.
+
+Update: There are people (and bug reports for different Linux distributions) reporting that sSMTP will not accept passwords with a 'space' or '#' character. If sSMTP is not working for you, this may be the case.
+
+**Reference**: https://unix.stackexchange.com/questions/36982/can-i-set-up-system-mail-to-use-an-external-smtp-server
+
+> 📎 Source: https://unix.stackexchange.com/questions/36982/can-i-set-up-system-mail-to-use-an-external-smtp-server
+
+#### 142. How can I restart the SSH daemon on Ubuntu?
+
+**Issue**: How can I restart the SSH daemon on Ubuntu?
+**Tags / Source**: Tags: ubuntu, services, sshd, upstart | unix | 👍 108 | 💬 2 answers
+
+**Description**:
+Tags: ubuntu, services, sshd, upstart | Score: 108 | Views: 396953 | Answers: 2
+
+**Solution / Community Answer**:
+Ubuntu calls the service ssh, not sshd.
+
+service ssh restart
+
+
+The service is also controlled by upstart, and not sysvinit. So you'll find it at /etc/init/ssh.conf instead of /etc/init.d/ssh.
+
+**Reference**: https://unix.stackexchange.com/questions/127886/how-can-i-restart-the-ssh-daemon-on-ubuntu
+
+> 📎 Source: https://unix.stackexchange.com/questions/127886/how-can-i-restart-the-ssh-daemon-on-ubuntu
+
+#### 143. Linux: How to find the device driver used for a device?
+
+**Issue**: Linux: How to find the device driver used for a device?
+**Tags / Source**: Tags: linux, linux-kernel | unix | 👍 107 | 💬 12 answers
+
+**Description**:
+Tags: linux, linux-kernel | Score: 107 | Views: 494262 | Answers: 12
+
+**Solution / Community Answer**:
+Just use /sys.
+
+Example. I want to find the driver for my Ethernet card:
+
+$ sudo lspci
+...
+02:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168B PCI Express Gigabit Ethernet controller (rev 01)
+$ find /sys | grep drivers.*02:00
+/sys/bus/pci/drivers/r8169/0000:02:00.0
+
+
+That is r8169.
+
+First I need to find coordinates of the device using lspci; then I find driver that is used for the devices with these coordinates.
+
+**Reference**: https://unix.stackexchange.com/questions/41817/linux-how-to-find-the-device-driver-used-for-a-device
+
+> 📎 Source: https://unix.stackexchange.com/questions/41817/linux-how-to-find-the-device-driver-used-for-a-device
+
+#### 144. Is there a whoami to find the current group I&#39;m logged in as?
+
+**Issue**: Is there a whoami to find the current group I&#39;m logged in as?
+**Tags / Source**: Tags: linux, users, group | unix | 👍 107 | 💬 2 answers
+
+**Description**:
+Tags: linux, users, group | Score: 107 | Views: 114828 | Answers: 2
+
+**Solution / Community Answer**:
+I figured I can use the following. 
+
+id -g
+
+
+To get all the groups I belong
+
+id -G
+
+
+And to get the actual names, instead of the ids, just pass the flag -n.
+
+id -Gn
+
+
+This last command will yield the same result as executing
+
+groups
+
+**Reference**: https://unix.stackexchange.com/questions/252980/is-there-a-whoami-to-find-the-current-group-im-logged-in-as
+
+> 📎 Source: https://unix.stackexchange.com/questions/252980/is-there-a-whoami-to-find-the-current-group-im-logged-in-as
+
+#### 145. Understanding UNIX permissions and file types
+
+**Issue**: Understanding UNIX permissions and file types
+**Tags / Source**: Tags: linux, permissions, ls, chmod | unix | 👍 106 | 💬 6 answers
+
+**Description**:
+Tags: linux, permissions, ls, chmod | Score: 106 | Views: 117704 | Answers: 6
+
+**Solution / Community Answer**:
+I’ll answer your questions in three parts: file types, permissions, and use cases for the various forms of chmod.
+
+File types
+
+The first character in ls -l output represents the file type; d means it’s a directory. It can’t be set or unset, it depends on how the file was created. You can find the complete list of file types in the ls documentation; those you’re likely to come across are
+
+
+-: “regular” file, created with any program which can write a file
+b: block special file, typically disk or partition devices, can be created with mknod
+c: character special file, can also be created with mknod (see /dev for examples)
+d: directory, can be created with mkdir
+l: symbolic link, can be created with ln -s
+p: named pipe, can be created with mkfifo
+s: socket, can be created with nc -U
+D: door, created by some server processes on Solaris/openindiana.
+
+
+Permissions
+
+chmod 0777 is used to set all the permissions in one chmod execution, rather than combining changes with u+ etc. Each of the four digits is an octal value representing a set of permissions:
+
+
+suid, sgid and “sticky” (see below)
+user permissions
+group permissions
+“other” permissions
+
+
+The octal value is calculated as the sum of the permissions:
+
+
+“read” is 4
+“write” is 2
+“execute” is 1
+
+
+For the first digit:
+
+
+suid is 4; binaries with this bit set run as their owner user (commonly root)
+sgid is 2; binaries with this bit set run as their owner group (this was used for games so high scores could be shared, but it’s often a security risk when combined with vulnerabilities in the games), and files created in directories with this bit set belong to the directory’s owner group by default (this is handy for creating shared folders)
+“sticky” (or “restricted deletion”) is 1; files in directories with this bit set can only be deleted by their owner, the directory’s owner, or root (see /tmp for a common example of this).
+
+
+See the chmod manpage for details. Note that in all this I’m ignoring other security features which can alter users’ permissions on files (SELinux, file ACLs...).
+
+Special bits are handled differently depending on the type of file (regular file or directory) and the underlying system. (This is mentioned in the chmod manpage.) On the system I used to test this (with coreutils 8.23 on an ext4 filesystem, running Linux kernel 3.16.7-ckt2), the behaviour is as follows. For a file, the special bits are always cleared unless explicitly set, so chmod 0777 is equivalent to chmod 777, and both commands clear the special bits and give everyone full permissions on the file. For a directory, the special bits are never fully cleared using the four-digit numeric form, so in effect chmod 0777 is also equivalent to chmod 777 but it’s misleading since some of the special bits will remain as-is. (A previous version of this answer got this wrong.) To clear special bits on directories you need to use u-s, g-s and/or o-t explicitly or specify a negative numeric value, so chmod -7000 will clear all the special bits on a directory.
+
+In ls -l output, suid, sgid and “sticky” appear in place of the x entry: suid is s or S instead of the user’s x, sgid is s or S instead of the group’s x, and “sticky” is t or T instead of others’ x. A lower-case letter indicates that both the special bit and the executable bit are set; an upper-case letter indicates that only the special bit is set.
+
+The various forms of chmod
+
+Because of the behaviour described above, using the full four digits in chmod can be confusing (at least it turns out I was confused). It’s useful when you want to set special bits as well as permission bits; otherwise the bits are cleared if you’re manipulating a file, preserved if you’re manipulating a directory. So chmod 2750 ensures you’ll get at least sgid and exactly u=rwx,g=rx,o=; but chmod 0750 won’t necessarily clear the special bits.
+
+Using numeric modes instead of text commands ([ugo][=+-][rwxXst]) is probably more a case of habit and the aim of the command. Once you’re used to using numeric modes, it’s often easier to just specify the full mode that way; and it’s useful to be able to think of permissions using numeric modes, since many other commands can use them (install, mknod...).
+
+Some text variants can come in handy: if you simply want to ensure a file can be executed by anyone, chmod a+x will do that, regardless of what the other permissions are. Likewise, +X adds the execute permission only if one of the execute permissions is already set or the file is a directory; this can be handy for restoring permissions globally without having to special-case files v. directories. Thus, chmod -R ug=rX,u+w,o= is equivalent to applying chmod -R 750 to all directories and executable files and chmod -R 640 to all other files.
+
+**Reference**: https://unix.stackexchange.com/questions/183994/understanding-unix-permissions-and-file-types
+
+> 📎 Source: https://unix.stackexchange.com/questions/183994/understanding-unix-permissions-and-file-types
+
+#### 146. What are the alternatives for checking open ports, besides telnet?
+
+**Issue**: What are the alternatives for checking open ports, besides telnet?
+**Tags / Source**: Tags: linux, networking, curl, telnet | unix | 👍 105 | 💬 9 answers
+
+**Description**:
+Tags: linux, networking, curl, telnet | Score: 105 | Views: 272487 | Answers: 9
+
+**Solution / Community Answer**:
+Netcat (nc) is one option.
+nc -zv kafka02 6667
+
+
+-z = sets nc to simply scan for listening daemons, without actually sending any data to them
+-v = enables verbose mode
+
+**Reference**: https://unix.stackexchange.com/questions/479710/what-are-the-alternatives-for-checking-open-ports-besides-telnet
+
+> 📎 Source: https://unix.stackexchange.com/questions/479710/what-are-the-alternatives-for-checking-open-ports-besides-telnet
+
+#### 147. List all available ssl ca certificates
+
+**Issue**: List all available ssl ca certificates
+**Tags / Source**: Tags: linux, openssl | unix | 👍 104 | 💬 8 answers
+
+**Description**:
+Tags: linux, openssl | Score: 104 | Views: 581877 | Answers: 8
+
+**Solution / Community Answer**:
+It's not SSL keys you want, it's certificate authorities, and more precisely their certificates.
+You could try:
+awk -v cmd='openssl x509 -noout -subject' '
+    /BEGIN/{close(cmd)};{print | cmd}' &lt; /etc/ssl/certs/ca-certificates.crt
+
+To get the &quot;subject&quot; of every CA certificate in /etc/ssl/certs/ca-certificates.crt (this works because openssl exits after reading an individual cert block, but awk relaunches openssl on the next print | cmd call).
+Beware that sometimes, you get that error when SSL servers forget to provide the intermediate certificates.
+Use openssl s_client -showcerts -connect the-git-server:443 to get the list of certificates  being sent.
+Note that the pathname of the certificates bundle may differ depending on operating system. The directory holding the certs sub-directory is given by the command openssl version -d. The actual certificates file in that directory may additionally have a different name.
+
+**Reference**: https://unix.stackexchange.com/questions/97244/list-all-available-ssl-ca-certificates
+
+> 📎 Source: https://unix.stackexchange.com/questions/97244/list-all-available-ssl-ca-certificates
+
+#### 148. What does status &quot;active (exited)&quot; mean for a systemd service?
+
+**Issue**: What does status &quot;active (exited)&quot; mean for a systemd service?
+**Tags / Source**: Tags: linux, systemd, services, sysvinit | unix | 👍 104 | 💬 3 answers
+
+**Description**:
+Tags: linux, systemd, services, sysvinit | Score: 104 | Views: 221266 | Answers: 3
+
+**Solution / Community Answer**:
+It seems you are running a system with systemd yet you are using sysV commands. Did you create a sysV init script or a systemd unit file?
+
+State active (exited) means that systemd has successfully run the commands but that it does not know there is a daemon to monitor.
+
+If there is you must define it in the unit file by configuring the Type and ExecStart options appropriately according to whether the process you start is the main proces, forks child processes and exits etc.
+
+Check the different systemd man pages or update your question and post the unit file or init script.
+
+**Reference**: https://unix.stackexchange.com/questions/241970/what-does-status-active-exited-mean-for-a-systemd-service
+
+> 📎 Source: https://unix.stackexchange.com/questions/241970/what-does-status-active-exited-mean-for-a-systemd-service
+
+#### 149. What do the &quot;buff/cache&quot; and &quot;avail mem&quot; fields in top mean?
+
+**Issue**: What do the &quot;buff/cache&quot; and &quot;avail mem&quot; fields in top mean?
+**Tags / Source**: Tags: linux, memory, top | unix | 👍 102 | 💬 3 answers
+
+**Description**:
+Tags: linux, memory, top | Score: 102 | Views: 185264 | Answers: 3
+
+**Solution / Community Answer**:
+top’s manpage doesn’t describe the fields, but free’s does:
+
+buffers
+Memory used by kernel buffers (Buffers in /proc/meminfo)
+cache
+Memory used by the page cache and slabs (Cached and
+SReclaimable in /proc/meminfo)
+buff/cache
+Sum of buffers and cache
+available
+Estimation of how much memory is available for starting new
+applications, without swapping. Unlike the data provided by
+the cache or free fields, this field takes into account page
+cache and also that not all reclaimable memory slabs will be
+reclaimed due to items being in use (MemAvailable in
+/proc/meminfo, available on kernels 3.14, emulated on kernels
+2.6.27+, otherwise the same as free)
+
+Basically, “buff/cache” counts memory used for data that’s on disk or should end up there soon, and as a result is potentially usable (the corresponding memory can be made available immediately, if it hasn’t been modified since it was read, or given enough time, if it has); “available” measures the amount of memory which can be allocated and used without causing more swapping (see How can I get the amount of available memory portably across distributions? for a lot more detail on that).
+
+**Reference**: https://unix.stackexchange.com/questions/390518/what-do-the-buff-cache-and-avail-mem-fields-in-top-mean
+
+> 📎 Source: https://unix.stackexchange.com/questions/390518/what-do-the-buff-cache-and-avail-mem-fields-in-top-mean
+
+#### 150. What is kernel ip forwarding?
+
+**Issue**: What is kernel ip forwarding?
+**Tags / Source**: Tags: linux, kernel, ip, routing | unix | 👍 102 | 💬 2 answers
+
+**Description**:
+Tags: linux, kernel, ip, routing | Score: 102 | Views: 119877 | Answers: 2
+
+**Solution / Community Answer**:
+"IP forwarding" is a synonym for "routing."  It is called "kernel IP forwarding" because it is a feature of the Linux kernel.
+
+A router has multiple network interfaces.  If traffic comes in on one interface that matches a subnet of another network interface, a router then forwards that traffic to the other network interface.
+
+So, let's say you have two NICs, one (NIC 1) is at address 192.168.2.1/24, and the other (NIC 2) is 192.168.3.1/24.  If forwarding is enabled, and a packet comes in on NIC 1 with a "destination address" of 192.168.3.8, the router will resend that packet out of the NIC 2.
+
+It's common for routers functioning as gateways to the Internet to have a default route whereby any traffic that doesn't match any NICs will go through the default route's NIC.  So in the above example, if you have an internet connection on NIC 2, you'd set NIC 2 as your default route and then any traffic coming in from NIC 1 that isn't destined for something on 192.168.2.0/24 will go through NIC 2.  Hopefully there's other routers past NIC 2 that can further route it (in the case of the Internet, the next hop would be your ISP's router, and then their providers upstream router, etc.)
+
+Enabling ip_forward tells your Linux system to do this.  For it to be meaningful, you need two network interfaces (any 2 or more of wired NIC cards, Wifi cards or chipsets, PPP links over a 56k modem or serial, etc.).  
+
+When doing routing, security is important and that's where Linux's packet filter, iptables, gets involved.  So you will need an iptables configuration consistent with your needs.
+
+Note that enabling forwarding with iptables disabled and/or without taking firewalling and security into account could leave you open to vulnerabilites if one of the NICs is facing the Internet or a subnet you don't have control over.
+
+**Reference**: https://unix.stackexchange.com/questions/14056/what-is-kernel-ip-forwarding
+
+> 📎 Source: https://unix.stackexchange.com/questions/14056/what-is-kernel-ip-forwarding
 
 
 

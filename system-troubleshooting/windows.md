@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 04:27:43 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 05:02:25 UTC_
 
 ## 中文 🇨🇳
 **Windows 常见故障及解决方法**
@@ -89,7 +89,7 @@ For Windows specifically, it's worth mentioning that you can use A: and B: as th
 **标签 / 来源**: Tags: windows-7, windows, command-line, environment-variables | superuser | 👍 833 | 💬 8 answers
 
 **问题描述**:
-Tags: windows-7, windows, command-line, environment-variables | Score: 833 | Views: 3005018 | Answers: 8
+Tags: windows-7, windows, command-line, environment-variables | Score: 833 | Views: 3005019 | Answers: 8
 
 **解决方法 / 社区答案**:
 In Windows Command-Prompt the syntax is echo %PATH%
@@ -278,7 +278,7 @@ If this is still not helping to search for new updates, use WSUSOffline to get a
 **标签 / 来源**: Tags: windows-10, bash, windows-subsystem-for-linux | superuser | 👍 526 | 💬 11 answers
 
 **问题描述**:
-Tags: windows-10, bash, windows-subsystem-for-linux | Score: 526 | Views: 1498445 | Answers: 11
+Tags: windows-10, bash, windows-subsystem-for-linux | Score: 526 | Views: 1498448 | Answers: 11
 
 **解决方法 / 社区答案**:
 In the latest versions [2025 WSL2], the file system is accessed from:
@@ -317,7 +317,7 @@ but with the files stored directly on the NTFS file system.
 **标签 / 来源**: Tags: windows, disk-space | superuser | 👍 523 | 💬 10 answers
 
 **问题描述**:
-Tags: windows, disk-space | Score: 523 | Views: 870931 | Answers: 10
+Tags: windows, disk-space | Score: 523 | Views: 870932 | Answers: 10
 
 **解决方法 / 社区答案**:
 TL;DR: Do NOT delete this folder
@@ -484,7 +484,7 @@ You should then enter the telnet console, where you can enter quit to leave teln
 **标签 / 来源**: Tags: windows, ssh, permissions, openssh, private-key | superuser | 👍 498 | 💬 18 answers
 
 **问题描述**:
-Tags: windows, ssh, permissions, openssh, private-key | Score: 498 | Views: 1047407 | Answers: 18
+Tags: windows, ssh, permissions, openssh, private-key | Score: 498 | Views: 1047409 | Answers: 18
 
 **解决方法 / 社区答案**:
 You locate the file in Windows Explorer, right-click on it then select "Properties". Navigate to the "Security" tab and click "Advanced".
@@ -531,7 +531,7 @@ A standard windows credentials prompt will pop up. The credentials you enter the
 **标签 / 来源**: Tags: windows, windows-10, windows-8.1, disk-space, windows-installer | superuser | 👍 486 | 💬 8 answers
 
 **问题描述**:
-Tags: windows, windows-10, windows-8.1, disk-space, windows-installer | Score: 486 | Views: 1073383 | Answers: 8
+Tags: windows, windows-10, windows-8.1, disk-space, windows-installer | Score: 486 | Views: 1073384 | Answers: 8
 
 **解决方法 / 社区答案**:
 I created "PatchCleaner" to clean the windows installer directory of all orphaned files in one easy click. If you don't trust the app to do the right thing, use the move feature to put them somewhere safe in case you need them back in the future. I have run it on multiple machines and saved up to 15Gb of space :-)
@@ -634,7 +634,7 @@ Also, prefer to download the software and updates/upgrades directly from vendor 
 **标签 / 来源**: Tags: windows, windows-10, microsoft-onedrive | superuser | 👍 468 | 💬 11 answers
 
 **问题描述**:
-Tags: windows, windows-10, microsoft-onedrive | Score: 468 | Views: 1824063 | Answers: 11
+Tags: windows, windows-10, microsoft-onedrive | Score: 468 | Views: 1824064 | Answers: 11
 
 **解决方法 / 社区答案**:
 Microsoft has actually documented a very simple and clean way to rename a user profile folder.
@@ -745,7 +745,7 @@ If you are still having trouble, ensure that you utilize Shift+Delete inside the
 **标签 / 来源**: Tags: windows, command-line, unix, cat | superuser | 👍 433 | 💬 4 answers
 
 **问题描述**:
-Tags: windows, command-line, unix, cat | Score: 433 | Views: 1180582 | Answers: 4
+Tags: windows, command-line, unix, cat | Score: 433 | Views: 1180583 | Answers: 4
 
 **解决方法 / 社区答案**:
 type
@@ -810,7 +810,7 @@ After uninstalling, if remnants of the update's files are still in Windows\Syste
 **标签 / 来源**: Tags: windows, command-line | superuser | 👍 387 | 💬 15 answers
 
 **问题描述**:
-Tags: windows, command-line | Score: 387 | Views: 1322569 | Answers: 15
+Tags: windows, command-line | Score: 387 | Views: 1322570 | Answers: 15
 
 **解决方法 / 社区答案**:
 Working with cmd.exe:
@@ -1001,7 +1001,7 @@ Hyper-V (or any other form of bare-metal hypervisor) is not installed
 **标签 / 来源**: Tags: windows-7, windows-8, windows-10, taskbar, shortcuts | superuser | 👍 344 | 💬 7 answers
 
 **问题描述**:
-Tags: windows-7, windows-8, windows-10, taskbar, shortcuts | Score: 344 | Views: 286084 | Answers: 7
+Tags: windows-7, windows-8, windows-10, taskbar, shortcuts | Score: 344 | Views: 286085 | Answers: 7
 
 **解决方法 / 社区答案**:
 Create a shortcut to your batch file.
@@ -1125,7 +1125,7 @@ WinDirStat is a port of KDirStat for Linux. It's free, lightweight, small (650kb
 **标签 / 来源**: Tags: windows, powershell | superuser | 👍 318 | 💬 6 answers
 
 **问题描述**:
-Tags: windows, powershell | Score: 318 | Views: 257708 | Answers: 6
+Tags: windows, powershell | Score: 318 | Views: 257709 | Answers: 6
 
 **解决方法 / 社区答案**:
 Use the Get-Command commandlet passing it the name of the executable. It populates the Path property of the returned object (of type ApplicationInfo) with the fully resolved path to the executable. 
@@ -1143,7 +1143,7 @@ C:\WINDOWS\system32\notepad.exe
 **标签 / 来源**: Tags: windows, command-line, environment-variables | superuser | 👍 317 | 💬 5 answers
 
 **问题描述**:
-Tags: windows, command-line, environment-variables | Score: 317 | Views: 1038784 | Answers: 5
+Tags: windows, command-line, environment-variables | Score: 317 | Views: 1038786 | Answers: 5
 
 **解决方法 / 社区答案**:
 To make the environment variable accessible globally you need to set it in the registry. As you've realised by just using:
@@ -1402,7 +1402,7 @@ Further resource: Delete Windows 10 Apps and Restore Default Windows 10 Apps
 **标签 / 来源**: Tags: windows, command-line, path, cd | superuser | 👍 311 | 💬 9 answers
 
 **问题描述**:
-Tags: windows, command-line, path, cd | Score: 311 | Views: 1488450 | Answers: 9
+Tags: windows, command-line, path, cd | Score: 311 | Views: 1488453 | Answers: 9
 
 **解决方法 / 社区答案**:
 Going back to the days of DOS, there's a separate "current directory" for each drive.  cd D:\foldername changes D:'s current directory to the foldername specified, but does not change the fact that you're still working on the C: drive.
@@ -1460,7 +1460,7 @@ If you are using a non-English version of Windows, the "R" and "M" menu choices 
 **标签 / 来源**: Tags: windows, windows-10 | superuser | 👍 305 | 💬 17 answers
 
 **问题描述**:
-Tags: windows, windows-10 | Score: 305 | Views: 291045 | Answers: 17
+Tags: windows, windows-10 | Score: 305 | Views: 291046 | Answers: 17
 
 **解决方法 / 社区答案**:
 I think for a quicker switch this should be in the titlebar, so I created a tool for that:
@@ -1530,7 +1530,7 @@ This will spawn huge numbers of processes untill the machine grinds to a halt (T
 **标签 / 来源**: Tags: windows, notepad++, text-editors | superuser | 👍 295 | 💬 6 answers
 
 **问题描述**:
-Tags: windows, notepad++, text-editors | Score: 295 | Views: 247823 | Answers: 6
+Tags: windows, notepad++, text-editors | Score: 295 | Views: 247824 | Answers: 6
 
 **解决方法 / 社区答案**:
 You can disable the confirmation in the settings:
@@ -1547,7 +1547,7 @@ Settings -&gt; Preferences -&gt; MISC. -&gt; Update silently
 **标签 / 来源**: Tags: windows, windows-8, powershell, powershell-3.0 | superuser | 👍 293 | 💬 14 answers
 
 **问题描述**:
-Tags: windows, windows-8, powershell, powershell-3.0 | Score: 293 | Views: 420048 | Answers: 14
+Tags: windows, windows-8, powershell, powershell-3.0 | Score: 293 | Views: 420049 | Answers: 14
 
 **解决方法 / 社区答案**:
 Using the append redirector ">>" resolves the issue where an existing file is deleted:
@@ -1581,7 +1581,7 @@ Open Explorer and go to View, then click Options (or Change folder and search op
 **标签 / 来源**: Tags: windows-10, memory, docker, resources | superuser | 👍 273 | 💬 15 answers
 
 **问题描述**:
-Tags: windows-10, memory, docker, resources | Score: 273 | Views: 569297 | Answers: 15
+Tags: windows-10, memory, docker, resources | Score: 273 | Views: 569298 | Answers: 15
 
 **解决方法 / 社区答案**:
 Daniiel B is on the money. To turn off Vmmem simply go into Powershell or whatever terminal you like to use under admin rights and enter the command wsl --shutdown, when your done with playing in wsl1/2.
@@ -1681,7 +1681,7 @@ Review → Language → Set Proofing Language... → Language Preferences → Ch
 **标签 / 来源**: Tags: windows, cpu, temperature | superuser | 👍 267 | 💬 10 answers
 
 **问题描述**:
-Tags: windows, cpu, temperature | Score: 267 | Views: 2706360 | Answers: 10
+Tags: windows, cpu, temperature | Score: 267 | Views: 2706361 | Answers: 10
 
 **解决方法 / 社区答案**:
 Actually this information is given to OS by the BIOS, but you will need an application to expose the information. You can find a lot of applications to do this:
@@ -1754,7 +1754,7 @@ If you want to know more about how the Google search works you can read Google's
 **标签 / 来源**: Tags: windows, command-line | superuser | 👍 259 | 💬 11 answers
 
 **问题描述**:
-Tags: windows, command-line | Score: 259 | Views: 243680 | Answers: 11
+Tags: windows, command-line | Score: 259 | Views: 243681 | Answers: 11
 
 **解决方法 / 社区答案**:
 The where command does what you want and goes back at least to the resource kit for Windows 98, and is included by default in Server 2003, Vista, and newer:
@@ -1838,7 +1838,7 @@ Based on this page, the "File Contents" option won't always show up - only when 
 **标签 / 来源**: Tags: windows, windows-explorer, icons, cache | superuser | 👍 251 | 💬 13 answers
 
 **问题描述**:
-Tags: windows, windows-explorer, icons, cache | Score: 251 | Views: 408444 | Answers: 13
+Tags: windows, windows-explorer, icons, cache | Score: 251 | Views: 408445 | Answers: 13
 
 **解决方法 / 社区答案**:
 Yes.
@@ -1869,7 +1869,7 @@ Check this video for a demo.
 **标签 / 来源**: Tags: windows-7, windows, 64-bit | superuser | 👍 251 | 💬 11 answers
 
 **问题描述**:
-Tags: windows-7, windows, 64-bit | Score: 251 | Views: 1111843 | Answers: 11
+Tags: windows-7, windows, 64-bit | Score: 251 | Views: 1111844 | Answers: 11
 
 **解决方法 / 社区答案**:
 Kill a protected process?
@@ -2065,7 +2065,7 @@ The name indicates that this driver is part of AVG anti virus software. So updat
 **标签 / 来源**: Tags: windows, windows-10 | superuser | 👍 239 | 💬 9 answers
 
 **问题描述**:
-Tags: windows, windows-10 | Score: 239 | Views: 1539780 | Answers: 9
+Tags: windows, windows-10 | Score: 239 | Views: 1539782 | Answers: 9
 
 **解决方法 / 社区答案**:
 Note: After seeing lots of comments about setting environment variables without administrator rights in Windows 10, I think I have found a way. I was not administrator and could use PowerShell.
@@ -2093,7 +2093,7 @@ Now in the new window that comes up, select Environment Variables... at the bott
 **标签 / 来源**: Tags: windows, command-line, batch | superuser | 👍 236 | 💬 21 answers
 
 **问题描述**:
-Tags: windows, command-line, batch | Score: 236 | Views: 199305 | Answers: 21
+Tags: windows, command-line, batch | Score: 236 | Views: 199306 | Answers: 21
 
 **解决方法 / 社区答案**:
 At this site, I found an effective solution:
@@ -2205,7 +2205,7 @@ In Windows Vista and above, UAC will pop up, click &quot;Yes&quot;.
 **标签 / 来源**: Tags: windows, unix, powershell, which | superuser | 👍 231 | 💬 11 answers
 
 **问题描述**:
-Tags: windows, unix, powershell, which | Score: 231 | Views: 192989 | Answers: 11
+Tags: windows, unix, powershell, which | Score: 231 | Views: 192990 | Answers: 11
 
 **解决方法 / 社区答案**:
 This was asked and answered on Stack Overflow: Equivalent of *Nix 'which' command in PowerShell?
@@ -2258,7 +2258,7 @@ C:\a\local\path&gt;
 **标签 / 来源**: Tags: windows, windows-xp, networking, proxy | superuser | 👍 229 | 💬 15 answers
 
 **问题描述**:
-Tags: windows, windows-xp, networking, proxy | Score: 229 | Views: 1026134 | Answers: 15
+Tags: windows, windows-xp, networking, proxy | Score: 229 | Views: 1026135 | Answers: 15
 
 **解决方法 / 社区答案**:
 The auto proxy detection system works by downloading a file called wpad.dat from the host wpad.  First confirm this host exists from a command prompt:
@@ -2304,7 +2304,7 @@ This will provide a list of connections made with the process id of each process
 **标签 / 来源**: Tags: windows, powershell, curl | superuser | 👍 229 | 💬 9 answers
 
 **问题描述**:
-Tags: windows, powershell, curl | Score: 229 | Views: 723773 | Answers: 9
+Tags: windows, powershell, curl | Score: 229 | Views: 723774 | Answers: 9
 
 **解决方法 / 社区答案**:
 PowerShell 3.0 has the new command Invoke-RestMethod:
@@ -2742,7 +2742,7 @@ Last note: Beware if you use ESC or Ctrl+V in vim, or in any other app.
 **标签 / 来源**: Tags: windows-10, symbolic-link | superuser | 👍 210 | 💬 6 answers
 
 **问题描述**:
-Tags: windows-10, symbolic-link | Score: 210 | Views: 618994 | Answers: 6
+Tags: windows-10, symbolic-link | Score: 210 | Views: 618995 | Answers: 6
 
 **解决方法 / 社区答案**:
 It seems like the junction command has been retired in Windows 10.
@@ -2849,7 +2849,7 @@ And, no extra software required.
 **标签 / 来源**: Tags: windows, command-line, sleep, shutdown, run-dialog | superuser | 👍 209 | 💬 14 answers
 
 **问题描述**:
-Tags: windows, command-line, sleep, shutdown, run-dialog | Score: 209 | Views: 792670 | Answers: 14
+Tags: windows, command-line, sleep, shutdown, run-dialog | Score: 209 | Views: 792671 | Answers: 14
 
 **解决方法 / 社区答案**:
 You will find shutdown.exe to be your friend.
@@ -2925,7 +2925,7 @@ Therefore, my Documents folder is at /mnt/c/Users/Ben/Documents/.
 **标签 / 来源**: Tags: windows, software-rec, screen-capture, animated-gif | superuser | 👍 201 | 💬 10 answers
 
 **问题描述**:
-Tags: windows, software-rec, screen-capture, animated-gif | Score: 201 | Views: 161751 | Answers: 10
+Tags: windows, software-rec, screen-capture, animated-gif | Score: 201 | Views: 161752 | Answers: 10
 
 **解决方法 / 社区答案**:
 I've been using licecap in various Super&nbsp;User answers. It's dead simple to use as you can see from this animated GIF image - just extend it over your recording area, hit record, set a save file, do your thing and hit stop. It's free, works pretty well, and seems simpler than most of the alternatives. It's entirely free and has Windows and OS X ports.
@@ -3415,7 +3415,7 @@ accidentally tried to create a folder named .... – but it's not really possibl
 **标签 / 来源**: Tags: windows-10, windows-10-v1607, windows-subsystem-for-linux | superuser | 👍 196 | 💬 15 answers
 
 **问题描述**:
-Tags: windows-10, windows-10-v1607, windows-subsystem-for-linux | Score: 196 | Views: 440334 | Answers: 15
+Tags: windows-10, windows-10-v1607, windows-subsystem-for-linux | Score: 196 | Views: 440335 | Answers: 15
 
 **解决方法 / 社区答案**:
 PM for Windows Command-Line here:
@@ -3437,7 +3437,7 @@ Look forward to hearing how you get on with this feature. If you find any proble
 **标签 / 来源**: Tags: windows, file-management, file-extension | superuser | 👍 194 | 💬 7 answers
 
 **问题描述**:
-Tags: windows, file-management, file-extension | Score: 194 | Views: 322511 | Answers: 7
+Tags: windows, file-management, file-extension | Score: 194 | Views: 322512 | Answers: 7
 
 **解决方法 / 社区答案**:
 You can use the TrID tool which has a growing library of file type definitions for identifying files with.
@@ -3497,7 +3497,7 @@ If Windows Media Player is still installed, you can play a video on loop and min
 **标签 / 来源**: Tags: windows, file-management | superuser | 👍 191 | 💬 18 answers
 
 **问题描述**:
-Tags: windows, file-management | Score: 191 | Views: 655536 | Answers: 18
+Tags: windows, file-management | Score: 191 | Views: 655537 | Answers: 18
 
 **解决方法 / 社区答案**:
 There's a native GUI for Windows:
@@ -3520,7 +3520,7 @@ As an example, in the image below I could not delete my Eclipse directory. Searc
 **标签 / 来源**: Tags: windows | superuser | 👍 190 | 💬 12 answers
 
 **问题描述**:
-Tags: windows | Score: 190 | Views: 728995 | Answers: 12
+Tags: windows | Score: 190 | Views: 728996 | Answers: 12
 
 **解决方法 / 社区答案**:
 Tar
@@ -3579,7 +3579,7 @@ Use a command line tool to silently launch a process : Quiet, hidecon or hideexe
 **标签 / 来源**: Tags: windows, windows-xp, keyboard | superuser | 👍 188 | 💬 12 answers
 
 **问题描述**:
-Tags: windows, windows-xp, keyboard | Score: 188 | Views: 407550 | Answers: 12
+Tags: windows, windows-xp, keyboard | Score: 188 | Views: 407551 | Answers: 12
 
 **解决方法 / 社区答案**:
 The reason is because you are using US-international keyboard. 
@@ -3679,6 +3679,1690 @@ recover files from a backup disk.
 
 > 📎 来源 / Source: https://superuser.com/questions/32164/what-utility-can-move-my-windows-boot-partition-over-to-another-hard-drive
 
+#### 101. How does Windows know if a program is not responding?
+
+**故障现象**: How does Windows know if a program is not responding?
+**标签 / 来源**: Tags: windows | superuser | 👍 181 | 💬 5 answers
+
+**问题描述**:
+Tags: windows | Score: 181 | Views: 40330 | Answers: 5
+
+**解决方法 / 社区答案**:
+An application gets the events from a queue provided by Windows. 
+
+If the application doesn't poll the eventqueue for a while (5 seconds), for example when doing a long calculation, then Windows assumes that the application is hung and alerts the user.
+
+To avoid that applications should push expensive calculations to worker threads or split up processing and make sure the queue gets polled regularly.
+
+**参考链接**: https://superuser.com/questions/961843/how-does-windows-know-if-a-program-is-not-responding
+
+> 📎 来源 / Source: https://superuser.com/questions/961843/how-does-windows-know-if-a-program-is-not-responding
+
+#### 102. How can I provoke Windows to hang (freeze)?
+
+**故障现象**: How can I provoke Windows to hang (freeze)?
+**标签 / 来源**: Tags: windows, freeze | superuser | 👍 180 | 💬 13 answers
+
+**问题描述**:
+Tags: windows, freeze | Score: 180 | Views: 43842 | Answers: 13
+
+**解决方法 / 社区答案**:
+Maybe this can help:
+Forcing a System Crash from the Keyboard
+
+
+  With USB keyboards, you must enable the keyboard-initiated crash in
+  the registry. In the registry key
+  HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\kbdhid\Parameters,
+  create a value named CrashOnCtrlScroll, and set it equal to a
+  REG_DWORD value of 0x01.
+  
+  You must restart the system for these settings to take effect.
+  
+  After this is completed, the keyboard crash can be initiated by using
+  the following hotkey sequence: Hold down the rightmost CTRL key, and
+  press the SCROLL LOCK key twice.
+
+
+Or you could start a fork bomb: see this SO question
+
+There is also NotMyFault
+
+
+  Notmyfault is a tool that you can use to crash, hang, and cause kernel memory leaks on your Windows system. It’s useful for learning how to identify and diagnose device driver and hardware problems, and you can also use it to generate blue screen dump files on misbehaving systems.
+
+**参考链接**: https://superuser.com/questions/1264734/how-can-i-provoke-windows-to-hang-freeze
+
+> 📎 来源 / Source: https://superuser.com/questions/1264734/how-can-i-provoke-windows-to-hang-freeze
+
+#### 103. How can I clear the output from Window&#39;s Command Prompt using a keyboard shortcut?
+
+**故障现象**: How can I clear the output from Window&#39;s Command Prompt using a keyboard shortcut?
+**标签 / 来源**: Tags: windows, command-line, keyboard-shortcuts | superuser | 👍 179 | 💬 3 answers
+
+**问题描述**:
+Tags: windows, command-line, keyboard-shortcuts | Score: 179 | Views: 692160 | Answers: 3
+
+**解决方法 / 社区答案**:
+NO, But you can use CLS command to clear the whole screen, Esc (Escape) key will clear the input line.
+In addition, pressing Ctrl + C will move the cursor to a new blank line.
+
+**参考链接**: https://superuser.com/questions/585238/how-can-i-clear-the-output-from-windows-command-prompt-using-a-keyboard-shortcu
+
+> 📎 来源 / Source: https://superuser.com/questions/585238/how-can-i-clear-the-output-from-windows-command-prompt-using-a-keyboard-shortcu
+
+#### 104. What is the purpose/function of &quot;.&#223;&#223;&#223;&quot; files?
+
+**故障现象**: What is the purpose/function of &quot;.&#223;&#223;&#223;&quot; files?
+**标签 / 来源**: Tags: windows, file-transfer | superuser | 👍 177 | 💬 1 answers
+
+**问题描述**:
+Tags: windows, file-transfer | Score: 177 | Views: 22594 | Answers: 1
+
+**解决方法 / 社区答案**:
+Most likely these aren't actual files but the result of filesystem corruption.
+
+
+It is normally not possible to have multiple identically named files.
+Their names (ßßßßßßßß.ßßß) correspond to hexadecimal bytes E1 E1 E1&hellip; in code page 437 (which was the default MS-DOS code page, and therefore the default FAT/FAT32 code page when long file names aren't in use).
+(The character is not the Greek beta but the German lowercase sharp S. The dot isn't actually stored in the FAT, but added by the OS when reading, so it doesn't get corrupted.)
+Their sizes are close to 3&thinsp;789&thinsp;677&thinsp;025 bytes, which is again 0xE1&thinsp;E1&thinsp;E1&thinsp;E1 in hex.
+(That's approximately 3&thinsp;700&thinsp;856.469 kilobytes; Windows probably rounds up.)
+
+
+All signs point to part of your filesystem's master file table being filled with the byte 0xE1, which may be caused by software (such as unplugging mid-write),  but may also indicate that the flash memory itself is dying.
+
+Software-induced corruption can often be cleaned up by using Windows' disk error checking (chkdsk). Or just reformat the drive (after copying your real files out of it).
+
+But especially for cheaper and/or heavily-used drives, bad flash memory is very likely. Don't use this drive for important files anymore.
+
+**参考链接**: https://superuser.com/questions/1345305/what-is-the-purpose-function-of-%c3%9f%c3%9f%c3%9f-files
+
+> 📎 来源 / Source: https://superuser.com/questions/1345305/what-is-the-purpose-function-of-%c3%9f%c3%9f%c3%9f-files
+
+#### 105. How to disable Ctrl+Shift keyboard layout switch (for the same input language) in Windows?
+
+**故障现象**: How to disable Ctrl+Shift keyboard layout switch (for the same input language) in Windows?
+**标签 / 来源**: Tags: windows, keyboard-shortcuts, keyboard-layout | superuser | 👍 177 | 💬 13 answers
+
+**问题描述**:
+Tags: windows, keyboard-shortcuts, keyboard-layout | Score: 177 | Views: 393524 | Answers: 13
+
+**解决方法 / 社区答案**:
+You were very close to the solution of your problem ;)
+In Windows XP, Vista or 7:
+Control Panel -&gt; Regional and Language Options -&gt; Languages tab -&gt; Details...
+There, you can edit the hotkeys to change input languages. If you press the Change Key Sequence... button, you will be able to change (disable) the hotkey which switches keyboard layouts (that Ctrl+Shift combination you mentioned).
+
+**参考链接**: https://superuser.com/questions/109066/how-to-disable-ctrlshift-keyboard-layout-switch-for-the-same-input-language-i
+
+> 📎 来源 / Source: https://superuser.com/questions/109066/how-to-disable-ctrlshift-keyboard-layout-switch-for-the-same-input-language-i
+
+#### 106. Two blue arrows at top right of icons
+
+**故障现象**: Two blue arrows at top right of icons
+**标签 / 来源**: Tags: windows-10, windows-explorer, icons, microsoft-office-2007 | superuser | 👍 177 | 💬 10 answers
+
+**问题描述**:
+Tags: windows-10, windows-explorer, icons, microsoft-office-2007 | Score: 177 | Views: 788666 | Answers: 10
+
+**解决方法 / 社区答案**:
+I archived the folder and the text went blue as expected...
+
+
+Blue text in Explorer = NTFS compression is enabled via the properties (this has been standard in Windows for many versions now).
+
+
+
+Two blue arrows is Windows 10's new way of showing the same thing, at the icon-level.
+
+
+
+Reference/More info:
+
+
+Compress or Uncompress Files and Folders in Windows 10
+Properties dialog image source
+
+
+edit:
+
+
+  When I just recently installed Office 2007, I noticed the same arrows on the icons for the programs.
+
+
+That's kind of weird, and is may be just a matter of icon cache corruption.
+
+For that, here's a couple things to try:
+
+Ensure the EXEs are not actually compressed.
+
+Try creating new shortcuts to the EXEs and see if they appear as expected.
+
+Try clearing Windows' icon cache and see if that corrects the icons. For that, see this existing SU question: Refresh Icon Cache Without Rebooting
+
+**参考链接**: https://superuser.com/questions/1001970/two-blue-arrows-at-top-right-of-icons
+
+> 📎 来源 / Source: https://superuser.com/questions/1001970/two-blue-arrows-at-top-right-of-icons
+
+#### 107. Change name of Virtual Desktop in Windows 10
+
+**故障现象**: Change name of Virtual Desktop in Windows 10
+**标签 / 来源**: Tags: windows-10, virtual-desktop, virtual-desktop-manager | superuser | 👍 177 | 💬 7 answers
+
+**问题描述**:
+Tags: windows-10, virtual-desktop, virtual-desktop-manager | Score: 177 | Views: 90590 | Answers: 7
+
+**解决方法 / 社区答案**:
+It seems at this time, you can not rename the virtual desktops in Windows 10. It is a feature that I would love to have though.
+EDIT: It seems you can now rename virtual desktops.
+
+**参考链接**: https://superuser.com/questions/959258/change-name-of-virtual-desktop-in-windows-10
+
+> 📎 来源 / Source: https://superuser.com/questions/959258/change-name-of-virtual-desktop-in-windows-10
+
+#### 108. What can I do if I forgot my Windows password?
+
+**故障现象**: What can I do if I forgot my Windows password?
+**标签 / 来源**: Tags: windows-7, windows, passwords, community-faq | superuser | 👍 176 | 💬 17 answers
+
+**问题描述**:
+Tags: windows-7, windows, passwords, community-faq | Score: 176 | Views: 295094 | Answers: 17
+
+**解决方法 / 社区答案**:
+If you have an Ubuntu live CD you can reset it using chntpw application
+You can use Bart's PE + Password Renew to reset the password
+You can use Offline NT Password Editor to reset the password.
+
+
+Detailed instructions on using any of the 3 are available over here.
+
+**参考链接**: https://superuser.com/questions/72244/what-can-i-do-if-i-forgot-my-windows-password
+
+> 📎 来源 / Source: https://superuser.com/questions/72244/what-can-i-do-if-i-forgot-my-windows-password
+
+#### 109. How to disable the screen orientation hotkeys in Windows (XP)?
+
+**故障现象**: How to disable the screen orientation hotkeys in Windows (XP)?
+**标签 / 来源**: Tags: windows, display, keyboard-shortcuts, hotkeys, nvidia-graphics-card | superuser | 👍 176 | 💬 4 answers
+
+**问题描述**:
+Tags: windows, display, keyboard-shortcuts, hotkeys, nvidia-graphics-card | Score: 176 | Views: 100682 | Answers: 4
+
+**解决方法 / 社区答案**:
+I have not tested on AMD/ATI graphics, but I know for a fact that all Intel drivers do this and some Nvidia drivers.
+
+Simply go in to the configuration tool of your driver and look under a section called hotkeys and disable it.
+
+For Intel:
+
+**参考链接**: https://superuser.com/questions/279756/how-to-disable-the-screen-orientation-hotkeys-in-windows-xp
+
+> 📎 来源 / Source: https://superuser.com/questions/279756/how-to-disable-the-screen-orientation-hotkeys-in-windows-xp
+
+#### 110. How to delete a keyboard layout in Windows 10
+
+**故障现象**: How to delete a keyboard layout in Windows 10
+**标签 / 来源**: Tags: windows-10, keyboard-layout | superuser | 👍 176 | 💬 9 answers
+
+**问题描述**:
+Tags: windows-10, keyboard-layout | Score: 176 | Views: 488230 | Answers: 9
+
+**解决方法 / 社区答案**:
+To remove a keyboard under Windows 10 is done this way :
+Method 1 : Settings
+
+Select the Start button
+Go to Settings &gt; Time &amp; Language &gt; Region &amp; language
+Under Languages, click your language
+
+Click Options
+Under Keyboards click your keyboard
+Click Remove
+
+
+Method 2 : Preloaded
+
+Use regedit to navigate to following registry keys, where
+you will find there the list of keyboards that are preloaded at boot.
+
+
+HKEY_USERS\.DEFAULT\Keyboard Layout\Preload
+HKEY_CURRENT_USER\Keyboard Layout\Preload
+HKEY_USERS\.DEFAULT\Control Panel\International\User Profile
+HKEY_USERS\.DEFAULT\Control Panel\International\User Profile System Backup
+
+
+Find the keyboard identifier among the list of
+Keyboard Identifiers
+
+Delete the key.
+
+
+
+Update January 2022:
+The language settings are now found in
+Settings &gt; Time &amp; Language &gt; Language.
+
+**参考链接**: https://superuser.com/questions/957552/how-to-delete-a-keyboard-layout-in-windows-10
+
+> 📎 来源 / Source: https://superuser.com/questions/957552/how-to-delete-a-keyboard-layout-in-windows-10
+
+#### 111. Is there a convenient way to edit PATH in Windows 7?
+
+**故障现象**: Is there a convenient way to edit PATH in Windows 7?
+**标签 / 来源**: Tags: windows, path | superuser | 👍 174 | 💬 10 answers
+
+**问题描述**:
+Tags: windows, path | Score: 174 | Views: 70489 | Answers: 10
+
+**解决方法 / 社区答案**:
+There is always the Rapid Environment Editor which claims full support for all major OS versions, including 64-bit.
+
+
+  Editable tree
+  
+  Show environment variables and values as an editable tree.
+  
+  Portable mode
+  
+  RapidEE doesn't require installation and could be run as a "portable application". View details.
+  
+  
+
+
+There is also the older (but still useful) and more light-weight Path Editor. (Note that the site is dead as of 2015-08-07, but still exists as an archive.org snapshot from 2013-03-27 — direct link to the installer). It works just fine on Windows 7 and, though it comes only as an installer, also works as a portable/stand-alone executable if you extract it.
+
+
+  Path Editor is a small utility that makes path management very straightforward with its intuitive user interface and drag-and-drop simplicity. Path Editor can clean your path of missing and duplicate entries with a single click of the mouse.
+
+**参考链接**: https://superuser.com/questions/297947/is-there-a-convenient-way-to-edit-path-in-windows-7
+
+> 📎 来源 / Source: https://superuser.com/questions/297947/is-there-a-convenient-way-to-edit-path-in-windows-7
+
+#### 112. How do I get back unused disk space from Ubuntu on WSL2?
+
+**故障现象**: How do I get back unused disk space from Ubuntu on WSL2?
+**标签 / 来源**: Tags: windows-10, windows-subsystem-for-linux, disk-space, wsl2, ubuntu-20.04 | superuser | 👍 173 | 💬 10 answers
+
+**问题描述**:
+Tags: windows-10, windows-subsystem-for-linux, disk-space, wsl2, ubuntu-20.04 | Score: 173 | Views: 338315 | Answers: 10
+
+**解决方法 / 社区答案**:
+There are a few options here, but I'm moving things around in this edit. My &quot;original&quot; answer is back to being the preferred method.  See the bottom of this answer for an alternative, experimental method.
+&quot;Original&quot; Answer (Preferred)
+There's a WSL Github issue open on this topic.  WSL will automatically grow the virtual disk (ext4.vhdx), but shrinking it to reclaim unused space is something that must currently be done manually.
+The first thing you'll need to do is know the location of your ext4.vhdx.  For a default Ubuntu installation, it should be in something like %USERPROFILE%\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\
+Then there are several techniques that you can use to remove the unused space.  I recommend you start with a wsl --shutdown and copy the vhdx as a backup to start.  If you are running Docker Desktop, also shut it down, otherwise it may inadvertently attempt to restart WSL after your --shutdown.
+
+If you are on Windows Professional or higher, you can install Hyper-V and use the Optimize-VHD commandlet as described in the original issue.
+.
+
+On Windows Home (and higher) you can use diskpart as described in this comment.
+
+Exporting the WSL distro and re-importing it into a new WSL instance (as in this comment) will also reclaim the space.  Note that you will need to reset the default username after an import. See here (and here for alternative options).
+
+
+I have tested and confirmed both the second and third techniques personally.
+
+Alternative (Warning)
+The following feature remains in &quot;Experimental&quot; status a year after its appearance, and while I'm sure it works well for many, too many users continue to report corruption of their WSL Distributions and sometimes even the Windows host filesystem when using it.
+Thanks to comments from @MarkCh and @willnode, I've edited the answer to both move this method under the original answer as well as highlight this warning.
+In September, 2023, a pre-release of WSL (2.0.0) enabled a new &quot;sparse&quot; mode for disk images which is intended to automatically shrink the image when files are removed. (Especially given the warning above) Always maintain good backups, especially when using newer features that affect the entire virtual drive. I have not tested this personally yet.
+While that said, from the DevBlog announcement, you can convert an existing disk image to sparse with the following command from PowerShell:
+wsl --manage &lt;distro&gt; --set-sparse true
+
+You can also add the following to your .wslconfig (located in your Windows profile directory, not inside WSL) to have any newly created distro image be sparse:
+[experimental]
+sparseVhd=true
+
+**参考链接**: https://superuser.com/questions/1606213/how-do-i-get-back-unused-disk-space-from-ubuntu-on-wsl2
+
+> 📎 来源 / Source: https://superuser.com/questions/1606213/how-do-i-get-back-unused-disk-space-from-ubuntu-on-wsl2
+
+#### 113. How to run a batch file without launching a &quot;command window&quot;?
+
+**故障现象**: How to run a batch file without launching a &quot;command window&quot;?
+**标签 / 来源**: Tags: windows, command-line, batch-file, shortcuts | superuser | 👍 172 | 💬 9 answers
+
+**问题描述**:
+Tags: windows, command-line, batch-file, shortcuts | Score: 172 | Views: 638958 | Answers: 9
+
+**解决方法 / 社区答案**:
+Save the following as wscript, for instance, hidecmd.vbs after replacing "testing.bat" with your batch file's name.
+
+Set oShell = CreateObject ("Wscript.Shell") 
+Dim strArgs
+strArgs = "cmd /c testing.bat"
+oShell.Run strArgs, 0, false
+
+
+The second parameter of oShell.Run is intWindowStyle value indicating the appearance of the program's window and zero value is for hidden window.
+
+The reference is here http://msdn.microsoft.com/en-us/library/d5fk67ky.aspx
+
+**参考链接**: https://superuser.com/questions/140047/how-to-run-a-batch-file-without-launching-a-command-window
+
+> 📎 来源 / Source: https://superuser.com/questions/140047/how-to-run-a-batch-file-without-launching-a-command-window
+
+#### 114. How do I paste the Windows clipboard into my PuTTY session, using only the keyboard?
+
+**故障现象**: How do I paste the Windows clipboard into my PuTTY session, using only the keyboard?
+**标签 / 来源**: Tags: windows, keyboard-shortcuts, putty, clipboard | superuser | 👍 171 | 💬 3 answers
+
+**问题描述**:
+Tags: windows, keyboard-shortcuts, putty, clipboard | Score: 171 | Views: 437716 | Answers: 3
+
+**解决方法 / 社区答案**:
+You can use Shift+Ins to paste text.
+
+From PuTTY documentation:
+
+
+Pasting is done using the right button (or the middle mouse button, if you have a three-button mouse and have set it up; see section 4.11.2). (Pressing Shift-Ins, or selecting ‘Paste’ from the Ctrl+right-click context menu, have the same effect.) When you click the right mouse button, PuTTY will read whatever is in the Windows clipboard and paste it into your session, exactly as if it had been typed at the keyboard.
+
+**参考链接**: https://superuser.com/questions/180043/how-do-i-paste-the-windows-clipboard-into-my-putty-session-using-only-the-keybo
+
+> 📎 来源 / Source: https://superuser.com/questions/180043/how-do-i-paste-the-windows-clipboard-into-my-putty-session-using-only-the-keybo
+
+#### 115. How do I remove Candy Crush Saga from Windows 10?
+
+**故障现象**: How do I remove Candy Crush Saga from Windows 10?
+**标签 / 来源**: Tags: windows-10, uninstall | superuser | 👍 171 | 💬 8 answers
+
+**问题描述**:
+Tags: windows-10, uninstall | Score: 171 | Views: 134542 | Answers: 8
+
+**解决方法 / 社区答案**:
+I was able to uninstall simply by right-clicking on the app in the Start Menu and selecting uninstall.
+
+Typing Get-AppxPackage -Name king.com.CandyCrushSaga into PowerShell confirmed it is completely gone from the system, not just from the start menu.
+
+**参考链接**: https://superuser.com/questions/958562/how-do-i-remove-candy-crush-saga-from-windows-10
+
+> 📎 来源 / Source: https://superuser.com/questions/958562/how-do-i-remove-candy-crush-saga-from-windows-10
+
+#### 116. Windows on second monitor moves to primary monitor after sleep/lock
+
+**故障现象**: Windows on second monitor moves to primary monitor after sleep/lock
+**标签 / 来源**: Tags: windows, windows-10, display, multiple-monitors, visual-studio | superuser | 👍 170 | 💬 9 answers
+
+**问题描述**:
+Tags: windows, windows-10, display, multiple-monitors, visual-studio | Score: 170 | Views: 473586 | Answers: 9
+
+**解决方法 / 社区答案**:
+A similar case on Microsoft Community mentioned a workaround, have a try.
+
+
+Start Control Panel --&gt; Device Manager
+Select View --&gt; Show hidden devices
+Expand Computer --&gt; Monitors*
+
+When you expand the Monitors you will see your current monitor (highlighted) and all the disconnected monitors (greyed out).   You may see monitors with &quot;non-PNP&quot; and &quot;PNP&quot; listed as well.  I believe these are aliases to your current monitor (at a lower resolution) before Windows installed drivers for it.
+I uninstalled ALL the greyed out monitors.  Right-click on these monitors and select uninstall.  Keep only the highlighted monitor you are currently using.
+
+Uninstall all greyed out monitors (even non-PNP and PNP monitors)
+Reboot your system.
+
+After doing this my windows don't resize after my monitor goes to sleep.  You can quickly test this by temporarily setting your monitor sleep time to 1 minute.
+Settings --&gt; System --&gt; Power &amp; Sleep --&gt; Screen [1 minute]
+
+Source: https://answers.microsoft.com/en-us/windows/forum/windows_10-hardware-winpc/windows-10-multiple-display-windows-are-moved-and/2b9d5a18-45cc-4c50-b16e-fd95dbf27ff3
+
+**参考链接**: https://superuser.com/questions/1292435/windows-on-second-monitor-moves-to-primary-monitor-after-sleep-lock
+
+> 📎 来源 / Source: https://superuser.com/questions/1292435/windows-on-second-monitor-moves-to-primary-monitor-after-sleep-lock
+
+#### 117. What is a &quot;Magic Packet&quot; for waking a computer?
+
+**故障现象**: What is a &quot;Magic Packet&quot; for waking a computer?
+**标签 / 来源**: Tags: windows, networking, wireless-networking, wake-on-lan | superuser | 👍 168 | 💬 2 answers
+
+**问题描述**:
+Tags: windows, networking, wireless-networking, wake-on-lan | Score: 168 | Views: 129708 | Answers: 2
+
+**解决方法 / 社区答案**:
+Sam3000's answer is very nice. I'll add some technical details.
+
+Wake on Magic Packet causes the network card to awaken the computer when it receives a magic packet. A packet is considered "magic" when it contains FF FF FF FF FF FF (six instances of the largest possible byte value) followed by sixteen instances of the card's six-byte MAC address. That sequence can appear anywhere within the frame, so the packet can be sent over any higher-level protocol. Usually, UDP is used, but sometimes raw frames with EtherType 0x0842 are used. (Source: Wikipedia.)
+
+Wake on Pattern Match is a superset of the previous. It will cause the card to wake the machine when various things come in, including a magic packet, a NetBIOS name query, a TCP SYN packet (either TCPv4 or TCPv6), etc. Those last ones may require ARP offload to be enabled. (Source: TechNet.)
+
+If you don't want/need your computer to be woken up from anywhere else, you can disable both of those options.
+
+**参考链接**: https://superuser.com/questions/1066619/what-is-a-magic-packet-for-waking-a-computer
+
+> 📎 来源 / Source: https://superuser.com/questions/1066619/what-is-a-magic-packet-for-waking-a-computer
+
+#### 118. Notepad++ is unable to load langs.xml, why?
+
+**故障现象**: Notepad++ is unable to load langs.xml, why?
+**标签 / 来源**: Tags: windows-7, windows, notepad++ | superuser | 👍 168 | 💬 6 answers
+
+**问题描述**:
+Tags: windows-7, windows, notepad++ | Score: 168 | Views: 120116 | Answers: 6
+
+**解决方法 / 社区答案**:
+Somehow, your langs.xml has errors in it. Perhaps while exploring various Notepad++ options you accidentally made unintended changes to it. That's what happened to me.
+Go to the installation folder for Notepad++ and rename langs.xml to langs.xml.bad. Then, in that same folder, find langs.model.xml, make a copy of it, and rename the copy to langs.xml. DO NOT simply rename the file or you will not have it available the next time you need it.
+also replace this file in the folder C:\users\(user)\appdata\roaming\notepad++
+You will want to then compare the langs.xml to langs.xml.bad and see if there is anything legitimate that you want back.
+If you are missing the langs.model.xml file, you can download the current version from the master branch of the official github repo.
+
+**参考链接**: https://superuser.com/questions/67128/notepad-is-unable-to-load-langs-xml-why
+
+> 📎 来源 / Source: https://superuser.com/questions/67128/notepad-is-unable-to-load-langs-xml-why
+
+#### 119. How can I determine which process owns a hotkey in Windows?
+
+**故障现象**: How can I determine which process owns a hotkey in Windows?
+**标签 / 来源**: Tags: windows, keyboard-shortcuts | superuser | 👍 168 | 💬 6 answers
+
+**问题描述**:
+Tags: windows, keyboard-shortcuts | Score: 168 | Views: 103271 | Answers: 6
+
+**解决方法 / 社区答案**:
+This works for me in Win10 (and probably all other even vaguely-recent versions of Windows)... also copied here from https://stackoverflow.com/a/43645062/995048 since this page seems to come up first in search results:
+
+One possible way is to use the Visual Studio tool Spy++.
+Give this a try:
+
+Run the tool (for me, it's at C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\Tools\spyxx_amd64.exe, or use spyxx.exe to monitor 32-bit processes)
+In the menu bar, select Spy -&gt; Log messages... (or hit Ctrl + M)
+Check All Windows in System in the Additional Windows frame
+Switch to the Messages tab
+Click the Clear All button
+Select WM_HOTKEY in the listbox, or check Keyboard in Message Groups (if you're OK with more potential noise)
+Click the OK button
+Press the hotkey in question (Win + R, for example)
+Select the WM_HOTKEY line in the Messages (All Windows) window, right click, and select Properties... in the context menu
+In the Message Properties dialog, click the Window Handle link (this will be the handle for the window that received the message)
+Click the Synchronize button on the Window Properties dialog.  This will show the window in the main Spy++ window treeview.
+On the Window Properties dialog, select the Process tab
+Click the Process ID link.  This will show you the process (In my Win + R case: EXPLORER)
+
+**参考链接**: https://superuser.com/questions/11308/how-can-i-determine-which-process-owns-a-hotkey-in-windows
+
+> 📎 来源 / Source: https://superuser.com/questions/11308/how-can-i-determine-which-process-owns-a-hotkey-in-windows
+
+#### 120. Windows 10 - How to move window to other monitor by using keyboard shortcuts?
+
+**故障现象**: Windows 10 - How to move window to other monitor by using keyboard shortcuts?
+**标签 / 来源**: Tags: windows, windows-10, multiple-monitors, keyboard-shortcuts | superuser | 👍 168 | 💬 5 answers
+
+**问题描述**:
+Tags: windows, windows-10, multiple-monitors, keyboard-shortcuts | Score: 168 | Views: 791822 | Answers: 5
+
+**解决方法 / 社区答案**:
+I solved it by unchecking the box which you can see in the following screenshot.
+
+Go to Control Panel &gt; Ease of Access Center &gt; Make the Keyboard Easier to Use
+Then search for the setting &quot;Make it easier to manage windows&quot; and un-check the option &quot;Prevent windows from being automatically arranged when moved to the edge of the screen&quot;
+After unchecking this option, it works again.
+
+**参考链接**: https://superuser.com/questions/1132802/windows-10-how-to-move-window-to-other-monitor-by-using-keyboard-shortcuts
+
+> 📎 来源 / Source: https://superuser.com/questions/1132802/windows-10-how-to-move-window-to-other-monitor-by-using-keyboard-shortcuts
+
+#### 121. Items unpinned from taskbar are back after restart/sign out on Windows 10
+
+**故障现象**: Items unpinned from taskbar are back after restart/sign out on Windows 10
+**标签 / 来源**: Tags: windows, windows-10, taskbar | superuser | 👍 167 | 💬 7 answers
+
+**问题描述**:
+Tags: windows, windows-10, taskbar | Score: 167 | Views: 277107 | Answers: 7
+
+**解决方法 / 社区答案**:
+I had the same problem. Nothing works.
+
+Finally, I found the XML file in my profile:
+
+%LOCALAPPDATA%\Microsoft\Windows\Shell\LayoutModification.xml
+
+
+The items were listed here in this section:
+
+  &lt;/DefaultLayoutOverride&gt;
+    &lt;CustomTaskbarLayoutCollection PinListPlacement="Replace"&gt;
+    &lt;defaultlayout:TaskbarLayout&gt;
+      &lt;taskbar:TaskbarPinList&gt;
+-- items were here - removed
+      &lt;/taskbar:TaskbarPinList&gt;
+    &lt;/defaultlayout:TaskbarLayout&gt;
+  &lt;/CustomTaskbarLayoutCollection&gt;
+
+
+Maybe this will help someone.
+
+**参考链接**: https://superuser.com/questions/1251656/items-unpinned-from-taskbar-are-back-after-restart-sign-out-on-windows-10
+
+> 📎 来源 / Source: https://superuser.com/questions/1251656/items-unpinned-from-taskbar-are-back-after-restart-sign-out-on-windows-10
+
+#### 122. What is the difference between “Size” and “Size on disk?”
+
+**故障现象**: What is the difference between “Size” and “Size on disk?”
+**标签 / 来源**: Tags: windows, filesystems | superuser | 👍 167 | 💬 6 answers
+
+**问题描述**:
+Tags: windows, filesystems | Score: 167 | Views: 292808 | Answers: 6
+
+**解决方法 / 社区答案**:
+Size is the actual size of the file in bytes.
+Size on disk is the actual amount of space being taken up on the disk. They differ because the disk is divided into tracks and sectors, and can allocate blocks of discrete size.
+For a more detailed explanation, see this text which I copied from another site:
+
+We know that a disk is made up of Tracks and Sectors. In Windows that
+means the OS allocates space for files in &quot;clusters&quot; or &quot;allocation
+units&quot;.
+The size of a cluster can vary, but typical ranges are from 512 bytes
+to 32K or more. For example, on my C:\ drive, the allocation unit is
+4096 bytes. This means that Windows will allocate 4096 bytes for any
+file or portion of a file that is from 1 to 4096 bytes in length.
+If I have a file that is 17KB (kilo bytes), then the Size on disk
+would be 20.48 KB (or 20480 bytes). The calculation would be 4096 (1
+allocation unit) x 5 = 20480 bytes. It takes 5 allocation units to
+hold a 17KB file.
+Another example would be if I have a file that is 2000 bytes in size.
+The file size on disk would be 4096 bytes. The reason is, because even
+though the entire file can fit inside one allocation unit, it still
+takes up 4096 of space (one allocation unit) on disk (only one file
+can use an allocation unit and cannot be shared with other files).
+So the size on disk is the space of all those sectors in which the
+file is saved. That means,usually, the size on disk is always greater
+than the actual size.
+So the actual size of a file(s) or folder(s) should always be taken
+from the Size value when viewing the properties window.
+
+Source: What's The Difference Between Size And Size On Disk In Windows Folder Properties.
+
+**参考链接**: https://superuser.com/questions/66825/what-is-the-difference-between-size-and-size-on-disk
+
+> 📎 来源 / Source: https://superuser.com/questions/66825/what-is-the-difference-between-size-and-size-on-disk
+
+#### 123. VT-x is not available, but is enabled in BIOS
+
+**故障现象**: VT-x is not available, but is enabled in BIOS
+**标签 / 来源**: Tags: windows-10, bios, virtualization, vt-x | superuser | 👍 166 | 💬 14 answers
+
+**问题描述**:
+Tags: windows-10, bios, virtualization, vt-x | Score: 166 | Views: 460731 | Answers: 14
+
+**解决方法 / 社区答案**:
+There are three common culprits for the type of error the user is seeing:
+
+
+VT-x is not enabled in the BIOS
+The CPU doesn't support VT-x
+Hyper-V virtualization is enabled in Windows
+
+
+Since the user already eliminated the first two possible culprits, the next step is to open a command prompt as administrator and run the following command:
+
+dism.exe /Online /Disable-Feature:Microsoft-Hyper-V
+
+
+Afterwards, reboot the PC and try VirtualBox again.
+
+**参考链接**: https://superuser.com/questions/1153470/vt-x-is-not-available-but-is-enabled-in-bios
+
+> 📎 来源 / Source: https://superuser.com/questions/1153470/vt-x-is-not-available-but-is-enabled-in-bios
+
+#### 124. Force a program to run *without* administrator privileges or UAC?
+
+**故障现象**: Force a program to run *without* administrator privileges or UAC?
+**标签 / 来源**: Tags: windows, administrator, uac | superuser | 👍 165 | 💬 11 answers
+
+**问题描述**:
+Tags: windows, administrator, uac | Score: 165 | Views: 860398 | Answers: 11
+
+**解决方法 / 社区答案**:
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\forcerunasinvoker]
+@="Run without privilege elevation"
+
+[HKEY_CLASSES_ROOT\*\shell\forcerunasinvoker\command]
+@="cmd /min /C \"set __COMPAT_LAYER=RUNASINVOKER &amp;&amp; start \"\" \"%1\"\""
+
+
+Save this text in &lt;name_of_file&gt;.reg and add it to the Windows Registry. (Double-clicking on it should do the trick.)
+
+Afterwards, right-click the app you'd like to run without administrative privileges and select "Run without privilege elevation".
+
+In some cases - small amount 0.1% of programs may ask twice about UAC prompt.
+
+**参考链接**: https://superuser.com/questions/171917/force-a-program-to-run-without-administrator-privileges-or-uac
+
+> 📎 来源 / Source: https://superuser.com/questions/171917/force-a-program-to-run-without-administrator-privileges-or-uac
+
+#### 125. What does CTRL+WIN+SHIFT+B do in Windows?
+
+**故障现象**: What does CTRL+WIN+SHIFT+B do in Windows?
+**标签 / 来源**: Tags: windows, windows-10, keyboard-shortcuts | superuser | 👍 165 | 💬 4 answers
+
+**问题描述**:
+Tags: windows, windows-10, keyboard-shortcuts | Score: 165 | Views: 530893 | Answers: 4
+
+**解决方法 / 社区答案**:
+The Ctrl+Shift+Win+B key sequence will restart your graphics driver.
+
+**参考链接**: https://superuser.com/questions/1127463/what-does-ctrlwinshiftb-do-in-windows
+
+> 📎 来源 / Source: https://superuser.com/questions/1127463/what-does-ctrlwinshiftb-do-in-windows
+
+#### 126. How can I read my hard drive’s SMART status in Windows 7?
+
+**故障现象**: How can I read my hard drive’s SMART status in Windows 7?
+**标签 / 来源**: Tags: windows-7, windows, hard-drive, smart | superuser | 👍 164 | 💬 16 answers
+
+**问题描述**:
+Tags: windows-7, windows, hard-drive, smart | Score: 164 | Views: 418845 | Answers: 16
+
+**解决方法 / 社区答案**:
+HDTune works on Windows 7 too.
+
+
+
+A blog-post reference.
+
+**参考链接**: https://superuser.com/questions/29240/how-can-i-read-my-hard-drive-s-smart-status-in-windows-7
+
+> 📎 来源 / Source: https://superuser.com/questions/29240/how-can-i-read-my-hard-drive-s-smart-status-in-windows-7
+
+#### 127. Pseudo English looking characters used in Windows 10 Insider Preview
+
+**故障现象**: Pseudo English looking characters used in Windows 10 Insider Preview
+**标签 / 来源**: Tags: windows, windows-10-preview, security-center | superuser | 👍 164 | 💬 1 answers
+
+**问题描述**:
+Tags: windows, windows-10-preview, security-center | Score: 164 | Views: 14849 | Answers: 1
+
+**解决方法 / 社区答案**:
+I wanted to know if anyone else has seen this or, even better, knows what is up?
+
+First the good news, it's not a virus.
+You are seeing the effects of something called Pseudo-Localization, and it is a known thing with some insider preview builds that have the language set to something other than en-us.
+To fix the issue change your language to en-us.
+
+
+That's pseudolocalization used to test compatibility across different
+languages. Microsoft and others have been doing it for years now.
+During most development, the only language that has 100% coverage is
+en-us because 100% of primary development on Windows is done in
+Redmond.
+Running non-US locales on insider builds, especially in Skip Ahead and
+Fast Ring, are only shipped with en-US and Pseudoloc'd locales. OP is
+definitely using en-UK (&quot;programme&quot;) which means that a large number
+of strings are probably pseudoloc'd. This helps identify non-localized
+strings
+it's weird enough that it won't make it into retail through an
+automated check (there's a lot of zero-width spaces in there, too,
+which aren't allowed in normal translations for the most part).
+
+Source Strange font/characters in some apps : windowsinsiders
+
+My name is Miki Albertson and I’m a Program Manager from Windows
+Localization team. Today I would like to give you a behind-the-scenes
+look at how WDG products are made available to Windows Insiders in
+their language. By the way, we call this process “Localization”.
+Second, we use a process known as “pseudo enhancement” within the
+existing localized builds to allow us to mark new or changed UI
+strings that have been exposed to localization, but have not yet been
+localized. For some non-Latin based languages, this can involve adding
+some random localized characters at the start of the unlocalized
+string as an identifier; or in the case of Latin-based languages we
+replace the existing characters in the string with accented versions.
+If there are unlocalized (i.e. English) strings in the build that
+don’t have those characters, this is potentially a bug and could
+potentially delay the project. (Please see below for examples of
+“Pseudo Enhancement”)
+
+With Windows as a Service, validation through the Pseudo Localization
+Tool is often done parallel to our translation work. Once those
+resources have been translated, Pseudo-enhanced characters that were
+added to the resources will be removed. Also, for those resources that
+are not yet localized, the process is to turn off Pseudo Localization
+tool before we release to Insiders, but sometimes due to this not
+being done as expected, you might see the pseudo strings in the
+Insider Preview builds.
+
+(emphasis mine)
+Source Inside WDG – Localization Process – W10FG
+
+Further Reading
+
+Inside WDG – Localization Process – W10FG
+Localizability Testing - Globalization | Microsoft Docs
+What is Pseudo-Localization?
+A brief and also incomplete history of Windows localization | The Old New Thing
+
+**参考链接**: https://superuser.com/questions/1340277/pseudo-english-looking-characters-used-in-windows-10-insider-preview
+
+> 📎 来源 / Source: https://superuser.com/questions/1340277/pseudo-english-looking-characters-used-in-windows-10-insider-preview
+
+#### 128. Path to current desktop backgrounds in Windows 10?
+
+**故障现象**: Path to current desktop backgrounds in Windows 10?
+**标签 / 来源**: Tags: windows-10 | superuser | 👍 164 | 💬 8 answers
+
+**问题描述**:
+Tags: windows-10 | Score: 164 | Views: 1070781 | Answers: 8
+
+**解决方法 / 社区答案**:
+Built-in wallpapers
+A copy of the current wallpaper can be found by entering one of the below paths in Windows File Explorer address bar.
+Some of the paths below may not exist on your PC, and that's OK; move on to the next path.
+Path 1 -
+%AppData%\Microsoft\Windows\Themes\CachedFiles
+
+Path 2 -
+%AppData%\Microsoft\Windows\Themes\TranscodedWallpaper
+Note: TranscodedWallpaper does not have a file extension, even though it is a JPEG image file.
+To view the image in a imager viewer,
+
+Right click on the file and use &quot;Open With&quot; option
+(or)
+select the image and press Enter
+This will bring up the &quot;Select an app to open...&quot; or &quot;How do you want to open this file?&quot; dialogue box.
+Any popular image viewer should work - such as the &quot;Windows Photo Viewer&quot; (built-in), Microsoft Photos app, PicView, qView, etc..
+
+Alternatively, drag and drop the file into a Firefox tab or mspaint window to view/edit.
+Note for Windows 10/11: The above wallpaper paths comes with limitations.
+For example, if the wallpaper you're looking for is no longer visible in the 'Background' tab in the Settings app, you can't recover it. It will work for your last five wallpapers but nothing older. [1]
+
+Path 3: Default Windows wallpapers -
+%SystemRoot%\Web
+Check in one of the below folders  -
+
+&quot;4K&quot; for 4K wallpapers
+&quot;Screen&quot; for lock screen backgrounds
+&quot;touchkeyboard&quot; for colorful abstract backdrops in Windows 11 [2]
+&quot;Wallpapers&quot; for default Windows wallpapers
+
+
+Path 4: Wallpapers from installed themes (Aero, etc.) -
+%SystemRoot%\Resources\Themes
+Path 5: Wallpapers from per-user installed themes (including pre-installed themes from OEM) -
+%LocalAppData%\Microsoft\Windows\Themes
+
+Desktop background set by Windows Photo Viewer
+Path 6 - [21]
+%AppData%\Microsoft\Windows Photo Viewer\
+Note 1: The image file in above path will be named Windows Photo Viewer Wallpaper.jpg and is a copy of the original image used to set the desktop wallpaper. I am unaware of a easy method to find the location of the original image (an file/image duplicate comparison tool might be an option).
+Note 2: If desktop background was NOT set by Windows Photo Viewer, the above path might sometimes redirect to %AppData%\Microsoft\Windows instead. This is not unexpected. Dismiss the window, and move on to one of the below scripts to find correct wallpaper location.
+
+Desktop background set by Slideshow or other methods
+If the wallpaper is set by Windows Slideshow, 3rd party app or manually set by a user, try one of the below scripts.
+The code will attempt to extract the original location of the image by decoding binary data from below key in the Windows Registry.
+Key Name: HKEY_CURRENT_USER\Control Panel\Desktop
+Value Name: TranscodedImageCache
+Windows Slideshow -
+
+Manually set wallpaper - e.g., right click on image file and select &quot;Set as desktop background&quot;
+
+
+Script 1 - VBScript
+
+To decode the registry key and view the image in Windows Explorer, follow the instructions listed on ElevenForum.com;
+(or)
+Open Notepad to save below code in a .vbs file and run it.
+
+Only ASCII compatible.
+Read the warning written below the code for more information.
+The contents of .vbs file - [5]
+Const HKCU = &amp;H80000001 'HKEY_CURRENT_USER
+
+sComputer = &quot;.&quot;  
+
+Set oReg=GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; _
+            &amp; sComputer &amp; &quot;\root\default:StdRegProv&quot;)
+
+sKeyPath = &quot;Control Panel\Desktop\&quot;
+sValueName = &quot;TranscodedImageCache&quot;
+oReg.GetBinaryValue HKCU, sKeyPath, sValueName, sValue
+
+
+sContents = &quot;&quot;
+
+For i = 24 To UBound(sValue)
+  vByte = sValue(i)
+  If vByte &lt;&gt; 0 And vByte &lt;&gt; &quot;&quot; Then
+    sContents = sContents &amp; Chr(vByte)
+  End If
+Next
+
+CreateObject(&quot;Wscript.Shell&quot;).Run &quot;explorer.exe /select,&quot;&quot;&quot; &amp; sContents &amp; &quot;&quot;&quot;&quot;
+
+Note: The vbs didn't work for me when I first set up the Slideshow, but it worked after changing to the next image in the Slideshow.
+Warning: This vbs code does not work if the file name contains non-ASCII characters, i.e., if Unicode characters (like Δ, Й, ק ,م, ๗, あ, 叶, 葉, 말) are present in the file name, then the vbs code above will fail to locate the image in Windows Explorer.
+
+Script 2 - PowerShell [8]
+ASCII + Unicode compatible
+
+Option A:
+Run below code in a PowerShell window.
+
+Open/select Windows PowerShell using the Start menu or Win + X shortcut.
+(Admin) privilege is not required.
+Paste below code and press Enter.
+$TIC=(Get-ItemProperty 'HKCU:\Control Panel\Desktop' TranscodedImageCache -ErrorAction Stop).TranscodedImageCache
+Paste below code (a second time) and press Enter.
+[System.Text.Encoding]::Unicode.GetString($TIC) -replace '(.+)([A-Z]:[0-9a-zA-Z\\])+','$2'
+
+Location of the wallpaper will displayed.
+
+
+
+
+Option B:
+Save below code as .ps1 file and run
+
+Open Notepad and paste the three lines of code mentioned below.
+Save the new document as Wallpaper_path.ps1 file.
+Note: Under 'Save as type:' option, select &quot;All types&quot; (see screenshot below).
+Go to the file, right click on the file and select &quot;Run with PowerShell&quot;
+
+Location of the wallpaper will be generated and copied to clipboard.
+
+
+$TIC = (Get-ItemProperty 'HKCU:\Control Panel\Desktop' TranscodedImageCache -ErrorAction Stop).TranscodedImageCache
+$result = [System.Text.Encoding]::Unicode.GetString($TIC) -replace '(.+)([A-Z]:[0-9a-zA-Z\\])+','$2'
+Set-Clipboard -Value $result
+
+Save .ps1 file -
+
+Run .ps1 file -
+
+
+Script 3 - AutoHotkey
+ASCII + Unicode compatible
+
+Download and install AutoHotkey.
+Open Notepad and save below code as .ahk file.
+Run .ahk file.
+Press Win + W and the location of the wallpaper will be displayed in a message box.
+
+#Requires AutoHotkey v2.0
+#SingleInstance force
+
+; #HotIf WinActive(&quot;ahk_class WorkerW ahk_exe explorer.exe&quot;)
+; commented out - enable shortcut on desktop only
+
+#W::{ ; Win + W
+MsgBox &quot;WallpaperPath_v5`n&quot; WallpaperPath_v5(ThisHotkey),, 262144 ; 262144 = Always-on-top
+}
+
+; #HotIf
+
+;-------
+; User-defined functions
+
+WallpaperPath_v5(key := A_ThisHotkey) {
+
+; modified from https://www.autohotkey.com/docs/v2/lib/ComObject.htm#ExWallpaper
+AD := ComObject(&quot;{75048700-EF1F-11D0-9888-006097DEACF9}&quot;, &quot;{F490EB00-1240-11D1-9888-006097DEACF9}&quot;)
+wszWallpaper := Buffer(260 * 2)
+ComCall(4, AD, &quot;ptr&quot;, wszWallpaper, &quot;uint&quot;, 260, &quot;uint&quot;, 0x00000002)
+wallpaperPath := StrGet(wszWallpaper, &quot;UTF-16&quot;)
+If wallpaperPath != A_AppData &quot;\Microsoft\Windows\Themes\TranscodedWallpaper&quot; {
+    If FileExist(wallpaperPath)
+        Return wallpaperPath
+    ; Else ; invalid path ; proceed to get correct path from the registry
+    }
+; Else ; path = C:\Users\&lt;UserName&gt;\AppData\Roaming\Microsoft\Windows\Themes\TranscodedWallpaper
+; proceed to get correct path from the registry
+
+wallpaperPath := &quot;&quot; ; clear variable that stores path
+
+; modified from AHK v1 code - https://gist.github.com/raveren/bac5196d2063665d2154#file-aio-ahk-L741
+; This source has code for multi-monitor setups that is not included here.
+; Look for `openWallpaperUnderMouse()` and `getMonitorUnderMouse()` functions over there if you need it.
+
+; Read the binary value from the registry
+regBinary := RegRead(&quot;HKEY_CURRENT_USER\Control Panel\Desktop&quot;, &quot;TranscodedImageCache&quot;) ; 1600 characters
+; alternative: regBinary := RegRead(&quot;HKEY_CURRENT_USER\Control Panel\Desktop&quot;, &quot;TranscodedImageCache_000&quot;)
+
+; remove first 48 characters and create array
+regArr := StrSplit(SubStr(regBinary, 49))
+
+Loop regArr.Length {
+    char := Chr(&quot;0x&quot; regArr[A_Index + 2] regArr[A_Index + 3] regArr[A_Index] regArr[A_Index + 1])
+            ; &quot;Word&quot; format = 4 numbers per character
+            ; use &quot;0x&quot; [] [] [] [] instead of &quot;0x00&quot; [] [] to allow for converting Unicode characters
+
+    If char = &quot;&quot;                ; char := Chr(&quot;0x&quot; 0 0 0 0) consecutive zeroes results in empty string
+        Break                   ; End Loop
+    Else {
+        A_Index += 3            ; skip 3 subsequent characters - Loop A_Index 2 3 4, (not 5) 6 7 8, (not 9)…
+        wallpaperPath .= char   ; add generated string to path - Chr(&quot;0x&quot; [3] [4] [1] [2]), Chr(&quot;0x&quot; [7] [8] [5] [6])… and so on
+        }
+    }
+If FileExist(wallpaperPath)
+    Return wallpaperPath        ; Return path to desktop wallpaper
+Else {
+    MsgBox( key &quot;:: WallpaperPath_v5() is not valid!&quot;   &quot;`n&quot;
+        .   &quot;wallpaperPath: &quot; wallpaperPath             &quot;`n`n&quot;
+        .   &quot;TranscodedImageCache:`n&quot; regBinary             ,, 262144) ; 262144 = Always-on-top
+    Exit
+    }
+}
+
+Example of message box containing wallpaper path -
+
+For other iterations of this code, visit this AHK v2 script on GitHub.
+
+Bonus Info
+If you are looking for the location of Lock Screen images, visit this SuperUser question.
+Note on 3rd party apps
+When 3rd party apps like John's Background Switcher are used to manage desktop backgrounds (which I used on my older Win10 PC), they typically provide an option to view the current/previous desktop background (if set by the app itself). Check the app's help file to know more.
+
+To activate Windows Photo Viewer in Windows 10, visit this article on HowToGeek.
+To download default wallpapers from every Windows version, visit this article on XDA.
+To download every Bing wallpaper in 4K, visit this page on GitHub.
+
+**参考链接**: https://superuser.com/questions/966650/path-to-current-desktop-backgrounds-in-windows-10
+
+> 📎 来源 / Source: https://superuser.com/questions/966650/path-to-current-desktop-backgrounds-in-windows-10
+
+#### 129. AltGr randomly stops working on windows 10
+
+**故障现象**: AltGr randomly stops working on windows 10
+**标签 / 来源**: Tags: windows-10, keyboard, keyboard-layout | superuser | 👍 163 | 💬 7 answers
+
+**问题描述**:
+Tags: windows-10, keyboard, keyboard-layout | Score: 163 | Views: 171925 | Answers: 7
+
+**解决方法 / 社区答案**:
+The issue happens when you open a RDP connection. Just bring the RDP window in foreground and press Alt+Enter.
+
+The issue will disappear on all other windows too
+
+Source: How to Fix Alt Gr Key Not Working.
+
+**参考链接**: https://superuser.com/questions/1149165/altgr-randomly-stops-working-on-windows-10
+
+> 📎 来源 / Source: https://superuser.com/questions/1149165/altgr-randomly-stops-working-on-windows-10
+
+#### 130. Combine/merge PDF files in Windows?
+
+**故障现象**: Combine/merge PDF files in Windows?
+**标签 / 来源**: Tags: windows, pdf, software-rec | superuser | 👍 162 | 💬 9 answers
+
+**问题描述**:
+Tags: windows, pdf, software-rec | Score: 162 | Views: 298746 | Answers: 9
+
+**解决方法 / 社区答案**:
+There are quite a few free options, as well as some good commercial ones:
+Web-based (Free)
+
+BCL Premium PDF Merge Merge 2 PDF documents. Max 10MB/file. Limit of 20 merges/day
+MergePDF. Merge up to 10 files. Max limit of 5MB/file. (Registration required)
+
+Desktop tools (free)
+
+Booklet Creater. Merges files to create a booklet. Rearranges pages to that you can print and fold to create a simple booklet.
+
+PDF Sam. Also known as &quot;PDF Split &amp; Merge&quot;. FOSS tool for splitting and merging PDFs. Windows &amp; Mac. Console and GUI interfaces. On Windows, the installer by default installs Ad-Aware Security Toolbar, sets Lavasoft SecureSearch as homepage, new tabs, and default search provider.
+
+Swift PDF. Combines multiple images (JPG, GIF, etc.) into a single PDF.
+Editor's note, 5/1/2017: Swift PDF was last updated in 2006 and was compatible with Windows 95.  The original link is dead and the product appears to no longer be supported.  However, it is still downloadable at https://swift-pdf.en.softonic.com/
+
+pdftk. FOSS power tool. Command line only. Windows, Mac, Linux, FreeBSD. Windows GUI versions exist, including a portable version and the official free version.
+
+
+There are also a lot of commercial tools.
+
+**参考链接**: https://superuser.com/questions/34284/combine-merge-pdf-files-in-windows
+
+> 📎 来源 / Source: https://superuser.com/questions/34284/combine-merge-pdf-files-in-windows
+
+#### 131. How to delete the Recovery Partition in Windows 10?
+
+**故障现象**: How to delete the Recovery Partition in Windows 10?
+**标签 / 来源**: Tags: windows, windows-10, partitioning, recovery-partition | superuser | 👍 161 | 💬 4 answers
+
+**问题描述**:
+Tags: windows, windows-10, partitioning, recovery-partition | Score: 161 | Views: 538902 | Answers: 4
+
+**解决方法 / 社区答案**:
+There is plenty of space on the disk. You are getting this error for a different reason. If your machine is anything but a desktop then you would get the error you have.
+https://technet.microsoft.com/library/354e5163-f388-4354-984c-ea4e4206694c
+You aren't able to delete the recovery partition because it EFI protected. You should be able to force by using the override command.
+https://technet.microsoft.com/en-us/library/cc766465(v=ws.10).aspx
+I would try using diskpart (from an elevated command prompt) to delete the partition.
+DISKPART&gt; list disk
+DISKPART&gt; select disk 4
+
+Disk 4 is now the selected disk.
+
+DISKPART&gt; list partition
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 1    Primary            223 GB  1024 KB
+  Partition 3    Recovery           450 MB   223 GB
+  
+DISKPART&gt; select partition 3
+
+Partition 3 is now the selected partition.
+
+DISKPART&gt; list partition
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 1    Primary            223 GB  1024 KB
+* Partition 3    Recovery           450 MB   223 GB
+  
+DISKPART&gt; delete partition override
+
+DiskPart successfully deleted the selected partition.
+
+DISKPART&gt; list partition
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 1    Primary            223 GB  1024 KB
+
+After that you should be able to convert to dynamic disk.
+Usually I re-purpose drives so I don't worry about data loss, but back up your data and use a desktop.
+
+**参考链接**: https://superuser.com/questions/1023765/how-to-delete-the-recovery-partition-in-windows-10
+
+> 📎 来源 / Source: https://superuser.com/questions/1023765/how-to-delete-the-recovery-partition-in-windows-10
+
+#### 132. How can the font size be changed in Notepad++?
+
+**故障现象**: How can the font size be changed in Notepad++?
+**标签 / 来源**: Tags: windows, fonts, notepad++ | superuser | 👍 161 | 💬 9 answers
+
+**问题描述**:
+Tags: windows, fonts, notepad++ | Score: 161 | Views: 300740 | Answers: 9
+
+**解决方法 / 社区答案**:
+Ctrl and NUMPAD +/NUMPAD - or mouse wheel to zoom in/out
+
+Edit: Or to achieve exactly what you asked for...
+
+Settings > Style Configurator. Under Font Style you can set the font and size
+
+**参考链接**: https://superuser.com/questions/16831/how-can-the-font-size-be-changed-in-notepad
+
+> 📎 来源 / Source: https://superuser.com/questions/16831/how-can-the-font-size-be-changed-in-notepad
+
+#### 133. Windows Disk I/O 100% at boot for 20 Minutes
+
+**故障现象**: Windows Disk I/O 100% at boot for 20 Minutes
+**标签 / 来源**: Tags: windows, hard-drive, boot | superuser | 👍 161 | 💬 3 answers
+
+**问题描述**:
+Tags: windows, hard-drive, boot | Score: 161 | Views: 260129 | Answers: 3
+
+**解决方法 / 社区答案**:
+You can disable the scheduled tasks that starts CompatTelTunner.exe by looking in the Task Scheduler.
+Computer Management – System Tools – Task Schedule Library – Microsoft – Windows – Application Experience
+or
+Start - Run - taskschd.msc
+Name: Microsoft Compatibility Appraiser
+Location: \Microsoft\Windows\Application Experience
+Collects program telemetry information if opted-in to the Microsoft Customer Experience Improvement Program.
+Right click on “Microsoft Compatibility Appraiser” and select “Disable”
+By default, it is set to start if there is ANY network connection.
+
+The executable is located here:
+C:\Windows\System32\CompatTelRunner.exe  
+
+You may also want to look at the following:
+Customer Experience Improvement Program states
+
+
+  If the user has consented to participate in the Windows
+  Customer Experience Improvement Program, this job collects and sends
+  usage data to Microsoft. However, it is set to run even if opted out
+  Siuf (under Feedback)
+
+**参考链接**: https://superuser.com/questions/944067/windows-disk-i-o-100-at-boot-for-20-minutes
+
+> 📎 来源 / Source: https://superuser.com/questions/944067/windows-disk-i-o-100-at-boot-for-20-minutes
+
+#### 134. Why are there no odd Windows process IDs?
+
+**故障现象**: Why are there no odd Windows process IDs?
+**标签 / 来源**: Tags: windows, process | superuser | 👍 161 | 💬 1 answers
+
+**问题描述**:
+Tags: windows, process | Score: 161 | Views: 20929 | Answers: 1
+
+**解决方法 / 社区答案**:
+&quot;Why are there no odd Windows process Ids?&quot;
+
+The same code that allocates kernel handles is also used to
+allocate process and thread IDs. Since kernel handles are a multiple
+of four, so too are process and thread IDs.
+
+
+Why are process and thread IDs multiples of four?
+
+On Windows NT-based operating systems, process and thread IDs happen
+always to be a multiple of four. Is this just a coincidence?
+Yes, it's just a coincidence, and you shouldn't rely on it since it is
+not part of the programming contract. For example, Windows 95 process
+and thread IDs were not always multiples of four. (By comparison, the
+reason that kernel handles are always a multiple of four is part of
+the specification and will be guaranteed for the foreseeable future.)
+Process and thread IDs are multiples of four as a side-effect of code
+re-use. The same code that allocates kernel handles is also used to
+allocate process and thread IDs. Since kernel handles are a multiple
+of four, so too are process and thread IDs. This is an implementation
+detail, so don't write code that relies on it. I'm just telling you to
+satisfy your curiosity.
+
+Source Why are process and thread IDs multiples of four?
+
+Why are kernel HANDLEs always a multiple of four?
+
+Not very well known is that the bottom two bits of kernel HANDLEs are
+always zero; in other words, their numeric value is always a multiple
+of 4. Note that this applies only to kernel HANDLEs; it does not apply
+to pseudo-handles or to any other type of handle (USER handles, GDI
+handles, multimedia handles...) Kernel handles are things you can pass
+to the CloseHandle function.
+The availability of the bottom two bits is buried in the ntdef.h
+header file:
+//
+// Low order two bits of a handle are ignored by the system and available
+// for use by application code as tag bits.  The remaining bits are opaque
+// and used to store a serial number and table index.
+//
+
+#define OBJ_HANDLE_TAGBITS  0x00000003L
+
+That at least the bottom bit of kernel HANDLEs is always zero is
+implied by the GetQueuedCompletionStatus function, which indicates
+that you can set the bottom bit of the event handle to suppress
+completion port notification. In order for this to work, the bottom
+bit must normally be zero.
+This information is not useful for most application writers, which
+should continue to treat HANDLEs as opaque values. The people who
+would be interested in tag bits are those who are implementing
+low-level class libraries or are wrapping kernel objects inside a
+larger framework.
+
+Source Why are kernel HANDLEs always a multiple of four?
+
+Further reading
+
+The Old New Thing: Practical Development Throughout the Evolution of Windows by Raymond Chen (Principal Software Design Engineer at Microsoft).
+
+**参考链接**: https://superuser.com/questions/936773/why-are-there-no-odd-windows-process-ids
+
+> 📎 来源 / Source: https://superuser.com/questions/936773/why-are-there-no-odd-windows-process-ids
+
+#### 135. See available drives from Windows CLI?
+
+**故障现象**: See available drives from Windows CLI?
+**标签 / 来源**: Tags: windows, command-line | superuser | 👍 160 | 💬 12 answers
+
+**问题描述**:
+Tags: windows, command-line | Score: 160 | Views: 761513 | Answers: 12
+
+**解决方法 / 社区答案**:
+&gt; wmic logicaldisk get caption
+
+Caption
+C:
+D:
+E:
+
+
+if probably the easiest one. Doesn't need administrative privileges, doesn't return more or less than what's needed, etc.
+
+If you want to use it in a script, then wrap it in for /f with the skip=1 option:
+
+for /f "skip=1 delims=" %%x in ('wmic logicaldisk get caption') do @echo.%%x
+
+**参考链接**: https://superuser.com/questions/139899/see-available-drives-from-windows-cli
+
+> 📎 来源 / Source: https://superuser.com/questions/139899/see-available-drives-from-windows-cli
+
+#### 136. How to set the default program for opening files without an extension in Windows?
+
+**故障现象**: How to set the default program for opening files without an extension in Windows?
+**标签 / 来源**: Tags: windows, file-management | superuser | 👍 159 | 💬 11 answers
+
+**问题描述**:
+Tags: windows, file-management | Score: 159 | Views: 121995 | Answers: 11
+
+**解决方法 / 社区答案**:
+With the command line:
+assoc .=&quot;No_Extension&quot;
+ftype &quot;No_Extension&quot;=&quot;C:\path\to\my editor.exe&quot; &quot;%1&quot;
+
+Restart the computer for the changes to take effect.
+To give credit, I learned this from the vim wikia here and here
+Extra info:
+Instead of &quot;C:\path\to\...&quot;, the following macros may be useful:
+
+%SystemDrive% - drive windows is installed on, i.e. C:\
+%ProgramFiles% - e.g. &quot;C:\Program Files\&quot;
+%ProgramFiles(x86)% - e.g. &quot;C:\Program Files (x86)\&quot;
+
+You will need to properly escape them though:
+ftype &quot;No_Extension&quot;=^&quot;^%ProgramFiles(x86)^%\Notepad++\notepad++.exe^&quot; &quot;%1&quot;
+
+To set the icon to be the same as .txt files (I didn't do this, since it automatically made the files' icons display as Notepad++ files):
+assoc &quot;No_Extension&quot;\DefaultIcon=%SystemRoot%\System32\imageres.dll,-102
+
+To undo, you can read the assoc /? or ftype /? information, e.g.:
+ftype &quot;No_Extension&quot;=
+assoc &quot;No_Extension&quot;\DefaultIcon=
+assoc .=
+
+**参考链接**: https://superuser.com/questions/13653/how-to-set-the-default-program-for-opening-files-without-an-extension-in-windows
+
+> 📎 来源 / Source: https://superuser.com/questions/13653/how-to-set-the-default-program-for-opening-files-without-an-extension-in-windows
+
+#### 137. What is Windows&#39; equivalent of the &quot;which&quot; command in Unix? Is there an equivalent PowerShell command?
+
+**故障现象**: What is Windows&#39; equivalent of the &quot;which&quot; command in Unix? Is there an equivalent PowerShell command?
+**标签 / 来源**: Tags: windows, command-line, powershell, which | superuser | 👍 159 | 💬 6 answers
+
+**问题描述**:
+Tags: windows, command-line, powershell, which | Score: 159 | Views: 119758 | Answers: 6
+
+**解决方法 / 社区答案**:
+Newer versions of Windows (I think Windows 2003 and up) have the where command:
+
+C:\&gt;where ping
+C:\Windows\System32\PING.EXE
+
+
+And for PowerShell, explicitly add the .exe suffix:
+
+PS C:\&gt;where.exe ping
+C:\Windows\System32\PING.EXE
+
+**参考链接**: https://superuser.com/questions/207707/what-is-windows-equivalent-of-the-which-command-in-unix-is-there-an-equivale
+
+> 📎 来源 / Source: https://superuser.com/questions/207707/what-is-windows-equivalent-of-the-which-command-in-unix-is-there-an-equivale
+
+#### 138. Windows Linux Subsystem - Accessing Files outside of Ubuntu
+
+**故障现象**: Windows Linux Subsystem - Accessing Files outside of Ubuntu
+**标签 / 来源**: Tags: windows-10, bash, windows-subsystem-for-linux | superuser | 👍 157 | 💬 8 answers
+
+**问题描述**:
+Tags: windows-10, bash, windows-subsystem-for-linux | Score: 157 | Views: 267627 | Answers: 8
+
+**解决方法 / 社区答案**:
+I'm not sure if I'm misunderstanding your question, but your ubuntu bash (top right window) should have access to your Windows-based disks under /mnt.  For example, on my machine /mnt/c/Users/Scott/Desktop is my Windows desktop and I can read/write files there from vi for ex.  I don't believe the opposite is true just yet.  That is, I don't think you can explore into your bash world from Windows explorer.
+
+What I've been doing as a developer is to host projects on my d: and point the linux-based tools to that /mnt/d/projects/someproject/ folder.
+
+Make sure you update your Windows builds periodically as they seem to be fixing a lot of issues with each build, especially around sym-links and crossing FS boundaries between Linux/Windows.
+
+**参考链接**: https://superuser.com/questions/1083962/windows-linux-subsystem-accessing-files-outside-of-ubuntu
+
+> 📎 来源 / Source: https://superuser.com/questions/1083962/windows-linux-subsystem-accessing-files-outside-of-ubuntu
+
+#### 139. How to prove the authenticity of a screenshot?
+
+**故障现象**: How to prove the authenticity of a screenshot?
+**标签 / 来源**: Tags: windows, screen-capture, image-processing | superuser | 👍 156 | 💬 14 answers
+
+**问题描述**:
+Tags: windows, screen-capture, image-processing | Score: 156 | Views: 73561 | Answers: 14
+
+**解决方法 / 社区答案**:
+You cannot prove that. They were on your PC, fully under your control for some time. You could have tampered with them.  Therefore you cannot prove that you did not tamper with them.
+
+If you need to set up a legally safe solution then look for an independent third party and a way to have them store information in such a way that you can only trigger a store or read (e.g., a screenshot on a Citrix server to a write-once location).
+
+**参考链接**: https://superuser.com/questions/1010186/how-to-prove-the-authenticity-of-a-screenshot
+
+> 📎 来源 / Source: https://superuser.com/questions/1010186/how-to-prove-the-authenticity-of-a-screenshot
+
+#### 140. Mass deleting files in Windows
+
+**故障现象**: Mass deleting files in Windows
+**标签 / 来源**: Tags: windows, file-management | superuser | 👍 156 | 💬 14 answers
+
+**问题描述**:
+Tags: windows, file-management | Score: 156 | Views: 155701 | Answers: 14
+
+**解决方法 / 社区答案**:
+WARNING: if you have symlinks to directories then del will delete actual directories and not symlinks. Be very careful with this and do not run these commands unless you know there are no symlinks inside target directory.
+
+
+
+I regularly need to delete lots of files and directories from a WinXP encrypted drive, typically around 22 GB of 500,000 files in 45,000 folders.
+
+Deleting with Windows Explorer is rubbish because it wastes lots of time enumerating the files. I usually move the stuff I need to delete to C:\stufftodelete and have a deletestuff.bat batch file to rmdir /s/q C:\stufftodelete. This is scheduled to run at night, but sometimes I need to run it during the day so the quicker the better.
+
+Here's the results of a quick time test of a small 5.85 MB sample of 960 files in 303 folders. I ran method 1 followed by method 2, then reset the test directories. 
+
+Method 1  removes the files and directory structure in one pass: 
+
+rmdir /s/q foldername
+
+
+Method 2 has a first pass to delete files and outputs to nul to avoid the overhead of writing to screen for every singe file. A second pass then cleans up the remaining directory structure: 
+
+del /f/s/q foldername &gt; nul
+rmdir /s/q foldername
+
+
+
+Method 1: 17.5s, 14.9s, 13.9s, 14.8s, 13.8s: average 14.98 seconds
+Method 2: 14.3s, 12.1s, 11.7s, 14.2s, 11.8s: average 12.82 seconds
+
+
+Here's results of another test using 404 MB of 19,521 files in 3,243 folders:
+
+
+Method 1: 2 minutes 20 seconds
+Method 2: 2 minutes 33 seconds
+
+
+So there's not much in it, probably too close to judge on a single test.
+
+
+
+Edit: I've retested with much more data, this is a typical case for me: 28.3 GB of 1,159,211 files in 146,918 folders:
+
+
+Method 1: 2h 15m, 2h 34m: average: 2 hours 25 minutes
+Method 2: 49m, 57m: average: 53 minutes
+
+
+Wow, method 2 is nearly three times faster than method 1! I'll be updating my deletestuff.bat!
+
+**参考链接**: https://superuser.com/questions/19762/mass-deleting-files-in-windows
+
+> 📎 来源 / Source: https://superuser.com/questions/19762/mass-deleting-files-in-windows
+
+#### 141. How do I disable Aero Shake in Windows 7?
+
+**故障现象**: How do I disable Aero Shake in Windows 7?
+**标签 / 来源**: Tags: windows-7, windows, aero | superuser | 👍 156 | 💬 5 answers
+
+**问题描述**:
+Tags: windows-7, windows, aero | Score: 156 | Views: 54362 | Answers: 5
+
+**解决方法 / 社区答案**:
+The best way to do this is to use the Group Policy editor. Go into the start menu, type in gpedit.msc, and hit enter. When it comes up, go into User Configuration -> Administratrive Templates -> Desktop.
+
+In here you'll see a settings called "Turn off Aero Shake window minimizing mouse gesture". Set this to enabled and no more Aero Shake.
+
+Here's a picture of the Group Policy Editor, with the setting highlighted:
+
+
+
+Another option is to edit a key in the registry. If you don't have Group Policy Editor for some reason (lower end Windows 7 edition), this might be your only option. There's a downloadable reg file that will handle this automatically from the How-To Geek.
+
+**参考链接**: https://superuser.com/questions/12156/how-do-i-disable-aero-shake-in-windows-7
+
+> 📎 来源 / Source: https://superuser.com/questions/12156/how-do-i-disable-aero-shake-in-windows-7
+
+#### 142. What Tiling Window Manager for Windows do you recommend?
+
+**故障现象**: What Tiling Window Manager for Windows do you recommend?
+**标签 / 来源**: Tags: windows, window-manager, awesome-wm | superuser | 👍 156 | 💬 3 answers
+
+**问题描述**:
+Tags: windows, window-manager, awesome-wm | Score: 156 | Views: 136682 | Answers: 3
+
+**解决方法 / 社区答案**:
+bug.n is nice, and Open Source. :-)
+
+**参考链接**: https://superuser.com/questions/10347/what-tiling-window-manager-for-windows-do-you-recommend
+
+> 📎 来源 / Source: https://superuser.com/questions/10347/what-tiling-window-manager-for-windows-do-you-recommend
+
+#### 143. Is there a shortcut command in Windows command prompt to get to the current user&#39;s home directory like there is in Linux?
+
+**故障现象**: Is there a shortcut command in Windows command prompt to get to the current user&#39;s home directory like there is in Linux?
+**标签 / 来源**: Tags: windows, windows-vista, command-line | superuser | 👍 154 | 💬 14 answers
+
+**问题描述**:
+Tags: windows, windows-vista, command-line | Score: 154 | Views: 299074 | Answers: 14
+
+**解决方法 / 社区答案**:
+Yes, you can use %HOMEPATH%, and %HOMEDRIVE%. These contain the full path of the user's home directory (without drive letter), and the drive letter, respectively.
+
+There are quite a few other useful variables available, such as %OS% (Operating System), or %WINDIR% (Windows system directory). See Wikipedia: Environment Variables for a list.
+
+
+
+Notes:
+
+Actually, things are a bit complicated (as usual). There is also%USERPROFILE%, which does contain the drive letter, and is usually the same directory as %HOMEPATH% plus %HOMEDRIVE%. 
+
+The values of these variables, and which one is right for you, will depend on the Windows version and any changes by an administrator, as their values may be different (see e.g. the question Difference between profile and home path ).
+
+**参考链接**: https://superuser.com/questions/168714/is-there-a-shortcut-command-in-windows-command-prompt-to-get-to-the-current-user
+
+> 📎 来源 / Source: https://superuser.com/questions/168714/is-there-a-shortcut-command-in-windows-command-prompt-to-get-to-the-current-user
+
+#### 144. Hex editors for Windows?
+
+**故障现象**: Hex editors for Windows?
+**标签 / 来源**: Tags: windows, hex-editor | superuser | 👍 154 | 💬 9 answers
+
+**问题描述**:
+Tags: windows, hex-editor | Score: 154 | Views: 306981 | Answers: 9
+
+**解决方法 / 社区答案**:
+Free Hex Editor (frhed), small and fast.
+
+**参考链接**: https://superuser.com/questions/14465/hex-editors-for-windows
+
+> 📎 来源 / Source: https://superuser.com/questions/14465/hex-editors-for-windows
+
+#### 145. How do I find out command line arguments of a running program?
+
+**故障现象**: How do I find out command line arguments of a running program?
+**标签 / 来源**: Tags: windows-7, windows, command-line-arguments | superuser | 👍 152 | 💬 8 answers
+
+**问题描述**:
+Tags: windows-7, windows, command-line-arguments | Score: 152 | Views: 255178 | Answers: 8
+
+**解决方法 / 社区答案**:
+You can do it without Process Explorer, too, using Windows' WMI service.  Run the following from the command prompt:
+
+WMIC path win32_process get Caption,Processid,Commandline
+
+
+If you want to dump the output to a file (makes it a bit easier to read), use the /OUTPUT switch:
+
+WMIC /OUTPUT:C:\Process.txt path win32_process get Caption,Processid,Commandline
+
+**参考链接**: https://superuser.com/questions/415360/how-do-i-find-out-command-line-arguments-of-a-running-program
+
+> 📎 来源 / Source: https://superuser.com/questions/415360/how-do-i-find-out-command-line-arguments-of-a-running-program
+
+#### 146. How to disable sticky corners in Windows 10
+
+**故障现象**: How to disable sticky corners in Windows 10
+**标签 / 来源**: Tags: multiple-monitors, mouse, windows-10 | superuser | 👍 152 | 💬 11 answers
+
+**问题描述**:
+Tags: multiple-monitors, mouse, windows-10 | Score: 152 | Views: 161275 | Answers: 11
+
+**解决方法 / 社区答案**:
+The thread
+How to disable sticky corners in Windows 10?
+from answers.microsoft.com treats this same problem :
+
+When moving the mouse from the left monitor to to the top left of the
+right monitor the 6 pixel corner will catch your mouse.
+I have similar problem in windows 8.1 and changing
+MouseCornerClipLength in registry to 0 from 6 and disable Corner
+Navigation in Taskbar and Start menu properties helped.
+Anyway in Win10 i can't find MouseCornerClipLength, Corner Navigation
+disabled at all and adding same registry keys won't help.
+
+The answer on June 4, 2015, by a Microsoft Support Engineer named Vijay B was :
+
+We are aware of this issue and it is currently being investigated.
+Stay tuned and we will update this thread when additional information
+becomes available.
+If any other posters experiencing this have not submitted this through
+the Windows Feedback App, please do so. This article
+http://answers.microsoft.com/en-us/insider/forum/insider_apps-insider_feedback/how-to-share-feedback-on-windows-10-technical/5e501781-a580-43e3-8926-40ae19343805 explains using the Windows Feedback App.
+
+It seems that your only option is currently to wait for a future improvement,
+or for some hacker to come up with the right hack.
+Adding your voice to the Windows Feedback App might help.
+[EDIT1] The open-source application Non Stick Mouse is said to offer
+a solution in the case of multiple monitors.
+The developer states:
+
+What it does is hop the mouse over the sticking corners, as well as
+the screen edges when moving windows. Thus it allows the dragging of
+windows through screens without your mouse getting hijacked by the
+Snap Assist.
+[...]
+This application does not read or write to any drive, it does not
+access the registry or connect to the Internet.
+
+Warning: It has been noted in the comments that
+virustotal finds malware in the latest version of &quot;non stick mouse&quot;.
+[EDIT2]
+I have found a
+source
+that gives a solution for Windows 10 (which I'm unable to test now):
+
+Disable Snap
+In Settings &gt; System &gt; Multitasking, set Snap to Off.
+
+Registry modification
+Create and execute the following .reg file:
+ Windows Registry Editor Version 5.00
+
+ [HKEY_CURRENT_USER\Control Panel\Desktop]
+ &quot;MouseMonitorEscapeSpeed&quot;=dword:00000001
+
+ [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ImmersiveShell\EdgeUI]
+ &quot;MouseMonitorEscapeSpeed&quot;=-
+
+
+
+[EDIT3] Microsoft might have finally disabled this in its
+latest versions.
+
+**参考链接**: https://superuser.com/questions/947817/how-to-disable-sticky-corners-in-windows-10
+
+> 📎 来源 / Source: https://superuser.com/questions/947817/how-to-disable-sticky-corners-in-windows-10
+
+#### 147. Windows 10 Search not loading, showing blank window
+
+**故障现象**: Windows 10 Search not loading, showing blank window
+**标签 / 来源**: Tags: windows-10, windows-search | superuser | 👍 151 | 💬 3 answers
+
+**问题描述**:
+Tags: windows-10, windows-search | Score: 151 | Views: 53370 | Answers: 3
+
+**解决方法 / 社区答案**:
+This problem was the result of a temporary server-side malfunction on Microsoft's side. It has since been resolved, and affected systems should operate normally after a reboot.
+
+
+  We are aware of a temporary server-side issue causing Windows search to show a blank box. This issue has been resolved for most users and in some cases, you might need to restart your device. We are working diligently to fully resolve the issue and will provide an update once resolved. 
+  
+  This issue was resolved at 12:00 PM PST. If you are still experiencing issues, please restart your device. In rare cases, you may need to manually end the SearchUI.exe or SearchApp.exe process via Task Manager. (To locate these processes, select CTRL + Shift + Esc then select the Details tab.)
+
+
+- source
+
+The problem seemed to be related to certain online-enabled features tied to the search menu, namely Bing Search and Cortana. Disabling these features allowed other features of the search menu to begin functioning again.
+
+The following steps explain how to disable Bing Search and Cortana in the search menu.
+
+
+Open Regedit and navigate to   HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search
+
+
+
+ 2. Right-click the Search icon and choose New > DWORD (32-bit) Value. Name the new value BingSearchEnabled
+
+
+ 3. Double-click the new BingSearchEnabled value to open its properties dialog. The number in the “Value data” box should already be 0—just ensure it’s still 0. Click OK to continue
+
+
+ 4. Below BingSearchEnabled, you should see  CortanaConsent. Double-click this value to open its properties dialog. Change its “Value Data” box to “0”.
+
+If you don’t see CortanaConsent, create it by following the same steps you used to create BingSearchEnabled.
+
+
+
+Restart Explorer.Exe or PC and allgood
+
+Source How to Disable Bing in the Windows 10 Start Menu
+
+**参考链接**: https://superuser.com/questions/1522905/windows-10-search-not-loading-showing-blank-window
+
+> 📎 来源 / Source: https://superuser.com/questions/1522905/windows-10-search-not-loading-showing-blank-window
+
+#### 148. How can I unzip a .tar.gz in one step (using 7-Zip)?
+
+**故障现象**: How can I unzip a .tar.gz in one step (using 7-Zip)?
+**标签 / 来源**: Tags: windows, tar, 7-zip | superuser | 👍 150 | 💬 8 answers
+
+**问题描述**:
+Tags: windows, tar, 7-zip | Score: 150 | Views: 295447 | Answers: 8
+
+**解决方法 / 社区答案**:
+Not really.  A .tar.gz or .tgz file really is two formats: .tar is the archive, and .gz is the compression.  So the first step decompresses, and the second step extracts the archive.
+
+To do it all in one step, you need the tar program.  Cygwin includes this.
+
+tar xzvf foobaz.tar.gz
+
+; x = eXtract 
+; z = filter through gZip
+; v = be Verbose (show activity)
+; f = filename
+
+
+You could also do it "in one step" by opening the file in the 7-zip GUI: Open the .tar.gz file, double click the included .tar file, then extract those files to your location of choice.
+
+There's a long running thread here of people asking/voting for one-step handling of tgz and bz2 files. The lack action thus far indicates it's not going to happen until someone steps and contributes meaningfully (code, money, something).
+
+**参考链接**: https://superuser.com/questions/80019/how-can-i-unzip-a-tar-gz-in-one-step-using-7-zip
+
+> 📎 来源 / Source: https://superuser.com/questions/80019/how-can-i-unzip-a-tar-gz-in-one-step-using-7-zip
+
+#### 149. Is it safe to delete from C:\Windows\Installer?
+
+**故障现象**: Is it safe to delete from C:\Windows\Installer?
+**标签 / 来源**: Tags: windows-7, windows, windows-10, windows-xp, disk-space | superuser | 👍 149 | 💬 9 answers
+
+**问题描述**:
+Tags: windows-7, windows, windows-10, windows-xp, disk-space | Score: 149 | Views: 205679 | Answers: 9
+
+**解决方法 / 社区答案**:
+No, it's not. Windows Installer uses that to cache installation files for anything installed on the machine using Windows Installer. At a minimum, you could lose the ability to add or remove programs, at the worst, you may lose the ability to run some programs.
+
+Since Windows Update can also deploy Windows Installer patches, you could also prevent your machine from receiving Windows and Office updates.
+
+**参考链接**: https://superuser.com/questions/23479/is-it-safe-to-delete-from-c-windows-installer
+
+> 📎 来源 / Source: https://superuser.com/questions/23479/is-it-safe-to-delete-from-c-windows-installer
+
+#### 150. Windows 10 &quot;Enable NTFS long paths policy&quot; option missing
+
+**故障现象**: Windows 10 &quot;Enable NTFS long paths policy&quot; option missing
+**标签 / 来源**: Tags: windows, windows-10, ntfs, filenames, windows-10-v1607 | superuser | 👍 149 | 💬 2 answers
+
+**问题描述**:
+Tags: windows, windows-10, ntfs, filenames, windows-10-v1607 | Score: 149 | Views: 319508 | Answers: 2
+
+**解决方法 / 社区答案**:
+The value has moved from NTFS directly into Local Computer Policy &gt; Computer Configuration &gt; Administrative Templates &gt; System &gt; Filesystem in the RTM version of the Version 1607.
+
+**参考链接**: https://superuser.com/questions/1119883/windows-10-enable-ntfs-long-paths-policy-option-missing
+
+> 📎 来源 / Source: https://superuser.com/questions/1119883/windows-10-enable-ntfs-long-paths-policy-option-missing
+
 
 ---
 
@@ -3761,7 +5445,7 @@ For Windows specifically, it's worth mentioning that you can use A: and B: as th
 **Tags / Source**: Tags: windows-7, windows, command-line, environment-variables | superuser | 👍 833 | 💬 8 answers
 
 **Description**:
-Tags: windows-7, windows, command-line, environment-variables | Score: 833 | Views: 3005018 | Answers: 8
+Tags: windows-7, windows, command-line, environment-variables | Score: 833 | Views: 3005019 | Answers: 8
 
 **Solution / Community Answer**:
 In Windows Command-Prompt the syntax is echo %PATH%
@@ -3950,7 +5634,7 @@ If this is still not helping to search for new updates, use WSUSOffline to get a
 **Tags / Source**: Tags: windows-10, bash, windows-subsystem-for-linux | superuser | 👍 526 | 💬 11 answers
 
 **Description**:
-Tags: windows-10, bash, windows-subsystem-for-linux | Score: 526 | Views: 1498445 | Answers: 11
+Tags: windows-10, bash, windows-subsystem-for-linux | Score: 526 | Views: 1498448 | Answers: 11
 
 **Solution / Community Answer**:
 In the latest versions [2025 WSL2], the file system is accessed from:
@@ -3989,7 +5673,7 @@ but with the files stored directly on the NTFS file system.
 **Tags / Source**: Tags: windows, disk-space | superuser | 👍 523 | 💬 10 answers
 
 **Description**:
-Tags: windows, disk-space | Score: 523 | Views: 870931 | Answers: 10
+Tags: windows, disk-space | Score: 523 | Views: 870932 | Answers: 10
 
 **Solution / Community Answer**:
 TL;DR: Do NOT delete this folder
@@ -4156,7 +5840,7 @@ You should then enter the telnet console, where you can enter quit to leave teln
 **Tags / Source**: Tags: windows, ssh, permissions, openssh, private-key | superuser | 👍 498 | 💬 18 answers
 
 **Description**:
-Tags: windows, ssh, permissions, openssh, private-key | Score: 498 | Views: 1047407 | Answers: 18
+Tags: windows, ssh, permissions, openssh, private-key | Score: 498 | Views: 1047409 | Answers: 18
 
 **Solution / Community Answer**:
 You locate the file in Windows Explorer, right-click on it then select "Properties". Navigate to the "Security" tab and click "Advanced".
@@ -4203,7 +5887,7 @@ A standard windows credentials prompt will pop up. The credentials you enter the
 **Tags / Source**: Tags: windows, windows-10, windows-8.1, disk-space, windows-installer | superuser | 👍 486 | 💬 8 answers
 
 **Description**:
-Tags: windows, windows-10, windows-8.1, disk-space, windows-installer | Score: 486 | Views: 1073383 | Answers: 8
+Tags: windows, windows-10, windows-8.1, disk-space, windows-installer | Score: 486 | Views: 1073384 | Answers: 8
 
 **Solution / Community Answer**:
 I created "PatchCleaner" to clean the windows installer directory of all orphaned files in one easy click. If you don't trust the app to do the right thing, use the move feature to put them somewhere safe in case you need them back in the future. I have run it on multiple machines and saved up to 15Gb of space :-)
@@ -4306,7 +5990,7 @@ Also, prefer to download the software and updates/upgrades directly from vendor 
 **Tags / Source**: Tags: windows, windows-10, microsoft-onedrive | superuser | 👍 468 | 💬 11 answers
 
 **Description**:
-Tags: windows, windows-10, microsoft-onedrive | Score: 468 | Views: 1824063 | Answers: 11
+Tags: windows, windows-10, microsoft-onedrive | Score: 468 | Views: 1824064 | Answers: 11
 
 **Solution / Community Answer**:
 Microsoft has actually documented a very simple and clean way to rename a user profile folder.
@@ -4417,7 +6101,7 @@ If you are still having trouble, ensure that you utilize Shift+Delete inside the
 **Tags / Source**: Tags: windows, command-line, unix, cat | superuser | 👍 433 | 💬 4 answers
 
 **Description**:
-Tags: windows, command-line, unix, cat | Score: 433 | Views: 1180582 | Answers: 4
+Tags: windows, command-line, unix, cat | Score: 433 | Views: 1180583 | Answers: 4
 
 **Solution / Community Answer**:
 type
@@ -4482,7 +6166,7 @@ After uninstalling, if remnants of the update's files are still in Windows\Syste
 **Tags / Source**: Tags: windows, command-line | superuser | 👍 387 | 💬 15 answers
 
 **Description**:
-Tags: windows, command-line | Score: 387 | Views: 1322569 | Answers: 15
+Tags: windows, command-line | Score: 387 | Views: 1322570 | Answers: 15
 
 **Solution / Community Answer**:
 Working with cmd.exe:
@@ -4673,7 +6357,7 @@ Hyper-V (or any other form of bare-metal hypervisor) is not installed
 **Tags / Source**: Tags: windows-7, windows-8, windows-10, taskbar, shortcuts | superuser | 👍 344 | 💬 7 answers
 
 **Description**:
-Tags: windows-7, windows-8, windows-10, taskbar, shortcuts | Score: 344 | Views: 286084 | Answers: 7
+Tags: windows-7, windows-8, windows-10, taskbar, shortcuts | Score: 344 | Views: 286085 | Answers: 7
 
 **Solution / Community Answer**:
 Create a shortcut to your batch file.
@@ -4797,7 +6481,7 @@ WinDirStat is a port of KDirStat for Linux. It's free, lightweight, small (650kb
 **Tags / Source**: Tags: windows, powershell | superuser | 👍 318 | 💬 6 answers
 
 **Description**:
-Tags: windows, powershell | Score: 318 | Views: 257708 | Answers: 6
+Tags: windows, powershell | Score: 318 | Views: 257709 | Answers: 6
 
 **Solution / Community Answer**:
 Use the Get-Command commandlet passing it the name of the executable. It populates the Path property of the returned object (of type ApplicationInfo) with the fully resolved path to the executable. 
@@ -4815,7 +6499,7 @@ C:\WINDOWS\system32\notepad.exe
 **Tags / Source**: Tags: windows, command-line, environment-variables | superuser | 👍 317 | 💬 5 answers
 
 **Description**:
-Tags: windows, command-line, environment-variables | Score: 317 | Views: 1038784 | Answers: 5
+Tags: windows, command-line, environment-variables | Score: 317 | Views: 1038786 | Answers: 5
 
 **Solution / Community Answer**:
 To make the environment variable accessible globally you need to set it in the registry. As you've realised by just using:
@@ -5074,7 +6758,7 @@ Further resource: Delete Windows 10 Apps and Restore Default Windows 10 Apps
 **Tags / Source**: Tags: windows, command-line, path, cd | superuser | 👍 311 | 💬 9 answers
 
 **Description**:
-Tags: windows, command-line, path, cd | Score: 311 | Views: 1488450 | Answers: 9
+Tags: windows, command-line, path, cd | Score: 311 | Views: 1488453 | Answers: 9
 
 **Solution / Community Answer**:
 Going back to the days of DOS, there's a separate "current directory" for each drive.  cd D:\foldername changes D:'s current directory to the foldername specified, but does not change the fact that you're still working on the C: drive.
@@ -5132,7 +6816,7 @@ If you are using a non-English version of Windows, the "R" and "M" menu choices 
 **Tags / Source**: Tags: windows, windows-10 | superuser | 👍 305 | 💬 17 answers
 
 **Description**:
-Tags: windows, windows-10 | Score: 305 | Views: 291045 | Answers: 17
+Tags: windows, windows-10 | Score: 305 | Views: 291046 | Answers: 17
 
 **Solution / Community Answer**:
 I think for a quicker switch this should be in the titlebar, so I created a tool for that:
@@ -5202,7 +6886,7 @@ This will spawn huge numbers of processes untill the machine grinds to a halt (T
 **Tags / Source**: Tags: windows, notepad++, text-editors | superuser | 👍 295 | 💬 6 answers
 
 **Description**:
-Tags: windows, notepad++, text-editors | Score: 295 | Views: 247823 | Answers: 6
+Tags: windows, notepad++, text-editors | Score: 295 | Views: 247824 | Answers: 6
 
 **Solution / Community Answer**:
 You can disable the confirmation in the settings:
@@ -5219,7 +6903,7 @@ Settings -&gt; Preferences -&gt; MISC. -&gt; Update silently
 **Tags / Source**: Tags: windows, windows-8, powershell, powershell-3.0 | superuser | 👍 293 | 💬 14 answers
 
 **Description**:
-Tags: windows, windows-8, powershell, powershell-3.0 | Score: 293 | Views: 420048 | Answers: 14
+Tags: windows, windows-8, powershell, powershell-3.0 | Score: 293 | Views: 420049 | Answers: 14
 
 **Solution / Community Answer**:
 Using the append redirector ">>" resolves the issue where an existing file is deleted:
@@ -5253,7 +6937,7 @@ Open Explorer and go to View, then click Options (or Change folder and search op
 **Tags / Source**: Tags: windows-10, memory, docker, resources | superuser | 👍 273 | 💬 15 answers
 
 **Description**:
-Tags: windows-10, memory, docker, resources | Score: 273 | Views: 569297 | Answers: 15
+Tags: windows-10, memory, docker, resources | Score: 273 | Views: 569298 | Answers: 15
 
 **Solution / Community Answer**:
 Daniiel B is on the money. To turn off Vmmem simply go into Powershell or whatever terminal you like to use under admin rights and enter the command wsl --shutdown, when your done with playing in wsl1/2.
@@ -5353,7 +7037,7 @@ Review → Language → Set Proofing Language... → Language Preferences → Ch
 **Tags / Source**: Tags: windows, cpu, temperature | superuser | 👍 267 | 💬 10 answers
 
 **Description**:
-Tags: windows, cpu, temperature | Score: 267 | Views: 2706360 | Answers: 10
+Tags: windows, cpu, temperature | Score: 267 | Views: 2706361 | Answers: 10
 
 **Solution / Community Answer**:
 Actually this information is given to OS by the BIOS, but you will need an application to expose the information. You can find a lot of applications to do this:
@@ -5426,7 +7110,7 @@ If you want to know more about how the Google search works you can read Google's
 **Tags / Source**: Tags: windows, command-line | superuser | 👍 259 | 💬 11 answers
 
 **Description**:
-Tags: windows, command-line | Score: 259 | Views: 243680 | Answers: 11
+Tags: windows, command-line | Score: 259 | Views: 243681 | Answers: 11
 
 **Solution / Community Answer**:
 The where command does what you want and goes back at least to the resource kit for Windows 98, and is included by default in Server 2003, Vista, and newer:
@@ -5510,7 +7194,7 @@ Based on this page, the "File Contents" option won't always show up - only when 
 **Tags / Source**: Tags: windows, windows-explorer, icons, cache | superuser | 👍 251 | 💬 13 answers
 
 **Description**:
-Tags: windows, windows-explorer, icons, cache | Score: 251 | Views: 408444 | Answers: 13
+Tags: windows, windows-explorer, icons, cache | Score: 251 | Views: 408445 | Answers: 13
 
 **Solution / Community Answer**:
 Yes.
@@ -5541,7 +7225,7 @@ Check this video for a demo.
 **Tags / Source**: Tags: windows-7, windows, 64-bit | superuser | 👍 251 | 💬 11 answers
 
 **Description**:
-Tags: windows-7, windows, 64-bit | Score: 251 | Views: 1111843 | Answers: 11
+Tags: windows-7, windows, 64-bit | Score: 251 | Views: 1111844 | Answers: 11
 
 **Solution / Community Answer**:
 Kill a protected process?
@@ -5737,7 +7421,7 @@ The name indicates that this driver is part of AVG anti virus software. So updat
 **Tags / Source**: Tags: windows, windows-10 | superuser | 👍 239 | 💬 9 answers
 
 **Description**:
-Tags: windows, windows-10 | Score: 239 | Views: 1539780 | Answers: 9
+Tags: windows, windows-10 | Score: 239 | Views: 1539782 | Answers: 9
 
 **Solution / Community Answer**:
 Note: After seeing lots of comments about setting environment variables without administrator rights in Windows 10, I think I have found a way. I was not administrator and could use PowerShell.
@@ -5765,7 +7449,7 @@ Now in the new window that comes up, select Environment Variables... at the bott
 **Tags / Source**: Tags: windows, command-line, batch | superuser | 👍 236 | 💬 21 answers
 
 **Description**:
-Tags: windows, command-line, batch | Score: 236 | Views: 199305 | Answers: 21
+Tags: windows, command-line, batch | Score: 236 | Views: 199306 | Answers: 21
 
 **Solution / Community Answer**:
 At this site, I found an effective solution:
@@ -5877,7 +7561,7 @@ In Windows Vista and above, UAC will pop up, click &quot;Yes&quot;.
 **Tags / Source**: Tags: windows, unix, powershell, which | superuser | 👍 231 | 💬 11 answers
 
 **Description**:
-Tags: windows, unix, powershell, which | Score: 231 | Views: 192989 | Answers: 11
+Tags: windows, unix, powershell, which | Score: 231 | Views: 192990 | Answers: 11
 
 **Solution / Community Answer**:
 This was asked and answered on Stack Overflow: Equivalent of *Nix 'which' command in PowerShell?
@@ -5930,7 +7614,7 @@ C:\a\local\path&gt;
 **Tags / Source**: Tags: windows, windows-xp, networking, proxy | superuser | 👍 229 | 💬 15 answers
 
 **Description**:
-Tags: windows, windows-xp, networking, proxy | Score: 229 | Views: 1026134 | Answers: 15
+Tags: windows, windows-xp, networking, proxy | Score: 229 | Views: 1026135 | Answers: 15
 
 **Solution / Community Answer**:
 The auto proxy detection system works by downloading a file called wpad.dat from the host wpad.  First confirm this host exists from a command prompt:
@@ -5976,7 +7660,7 @@ This will provide a list of connections made with the process id of each process
 **Tags / Source**: Tags: windows, powershell, curl | superuser | 👍 229 | 💬 9 answers
 
 **Description**:
-Tags: windows, powershell, curl | Score: 229 | Views: 723773 | Answers: 9
+Tags: windows, powershell, curl | Score: 229 | Views: 723774 | Answers: 9
 
 **Solution / Community Answer**:
 PowerShell 3.0 has the new command Invoke-RestMethod:
@@ -6414,7 +8098,7 @@ Last note: Beware if you use ESC or Ctrl+V in vim, or in any other app.
 **Tags / Source**: Tags: windows-10, symbolic-link | superuser | 👍 210 | 💬 6 answers
 
 **Description**:
-Tags: windows-10, symbolic-link | Score: 210 | Views: 618994 | Answers: 6
+Tags: windows-10, symbolic-link | Score: 210 | Views: 618995 | Answers: 6
 
 **Solution / Community Answer**:
 It seems like the junction command has been retired in Windows 10.
@@ -6521,7 +8205,7 @@ And, no extra software required.
 **Tags / Source**: Tags: windows, command-line, sleep, shutdown, run-dialog | superuser | 👍 209 | 💬 14 answers
 
 **Description**:
-Tags: windows, command-line, sleep, shutdown, run-dialog | Score: 209 | Views: 792670 | Answers: 14
+Tags: windows, command-line, sleep, shutdown, run-dialog | Score: 209 | Views: 792671 | Answers: 14
 
 **Solution / Community Answer**:
 You will find shutdown.exe to be your friend.
@@ -6597,7 +8281,7 @@ Therefore, my Documents folder is at /mnt/c/Users/Ben/Documents/.
 **Tags / Source**: Tags: windows, software-rec, screen-capture, animated-gif | superuser | 👍 201 | 💬 10 answers
 
 **Description**:
-Tags: windows, software-rec, screen-capture, animated-gif | Score: 201 | Views: 161751 | Answers: 10
+Tags: windows, software-rec, screen-capture, animated-gif | Score: 201 | Views: 161752 | Answers: 10
 
 **Solution / Community Answer**:
 I've been using licecap in various Super&nbsp;User answers. It's dead simple to use as you can see from this animated GIF image - just extend it over your recording area, hit record, set a save file, do your thing and hit stop. It's free, works pretty well, and seems simpler than most of the alternatives. It's entirely free and has Windows and OS X ports.
@@ -7087,7 +8771,7 @@ accidentally tried to create a folder named .... – but it's not really possibl
 **Tags / Source**: Tags: windows-10, windows-10-v1607, windows-subsystem-for-linux | superuser | 👍 196 | 💬 15 answers
 
 **Description**:
-Tags: windows-10, windows-10-v1607, windows-subsystem-for-linux | Score: 196 | Views: 440334 | Answers: 15
+Tags: windows-10, windows-10-v1607, windows-subsystem-for-linux | Score: 196 | Views: 440335 | Answers: 15
 
 **Solution / Community Answer**:
 PM for Windows Command-Line here:
@@ -7109,7 +8793,7 @@ Look forward to hearing how you get on with this feature. If you find any proble
 **Tags / Source**: Tags: windows, file-management, file-extension | superuser | 👍 194 | 💬 7 answers
 
 **Description**:
-Tags: windows, file-management, file-extension | Score: 194 | Views: 322511 | Answers: 7
+Tags: windows, file-management, file-extension | Score: 194 | Views: 322512 | Answers: 7
 
 **Solution / Community Answer**:
 You can use the TrID tool which has a growing library of file type definitions for identifying files with.
@@ -7169,7 +8853,7 @@ If Windows Media Player is still installed, you can play a video on loop and min
 **Tags / Source**: Tags: windows, file-management | superuser | 👍 191 | 💬 18 answers
 
 **Description**:
-Tags: windows, file-management | Score: 191 | Views: 655536 | Answers: 18
+Tags: windows, file-management | Score: 191 | Views: 655537 | Answers: 18
 
 **Solution / Community Answer**:
 There's a native GUI for Windows:
@@ -7192,7 +8876,7 @@ As an example, in the image below I could not delete my Eclipse directory. Searc
 **Tags / Source**: Tags: windows | superuser | 👍 190 | 💬 12 answers
 
 **Description**:
-Tags: windows | Score: 190 | Views: 728995 | Answers: 12
+Tags: windows | Score: 190 | Views: 728996 | Answers: 12
 
 **Solution / Community Answer**:
 Tar
@@ -7251,7 +8935,7 @@ Use a command line tool to silently launch a process : Quiet, hidecon or hideexe
 **Tags / Source**: Tags: windows, windows-xp, keyboard | superuser | 👍 188 | 💬 12 answers
 
 **Description**:
-Tags: windows, windows-xp, keyboard | Score: 188 | Views: 407550 | Answers: 12
+Tags: windows, windows-xp, keyboard | Score: 188 | Views: 407551 | Answers: 12
 
 **Solution / Community Answer**:
 The reason is because you are using US-international keyboard. 
@@ -7350,6 +9034,1690 @@ recover files from a backup disk.
 **Reference**: https://superuser.com/questions/32164/what-utility-can-move-my-windows-boot-partition-over-to-another-hard-drive
 
 > 📎 Source: https://superuser.com/questions/32164/what-utility-can-move-my-windows-boot-partition-over-to-another-hard-drive
+
+#### 101. How does Windows know if a program is not responding?
+
+**Issue**: How does Windows know if a program is not responding?
+**Tags / Source**: Tags: windows | superuser | 👍 181 | 💬 5 answers
+
+**Description**:
+Tags: windows | Score: 181 | Views: 40330 | Answers: 5
+
+**Solution / Community Answer**:
+An application gets the events from a queue provided by Windows. 
+
+If the application doesn't poll the eventqueue for a while (5 seconds), for example when doing a long calculation, then Windows assumes that the application is hung and alerts the user.
+
+To avoid that applications should push expensive calculations to worker threads or split up processing and make sure the queue gets polled regularly.
+
+**Reference**: https://superuser.com/questions/961843/how-does-windows-know-if-a-program-is-not-responding
+
+> 📎 Source: https://superuser.com/questions/961843/how-does-windows-know-if-a-program-is-not-responding
+
+#### 102. How can I provoke Windows to hang (freeze)?
+
+**Issue**: How can I provoke Windows to hang (freeze)?
+**Tags / Source**: Tags: windows, freeze | superuser | 👍 180 | 💬 13 answers
+
+**Description**:
+Tags: windows, freeze | Score: 180 | Views: 43842 | Answers: 13
+
+**Solution / Community Answer**:
+Maybe this can help:
+Forcing a System Crash from the Keyboard
+
+
+  With USB keyboards, you must enable the keyboard-initiated crash in
+  the registry. In the registry key
+  HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\kbdhid\Parameters,
+  create a value named CrashOnCtrlScroll, and set it equal to a
+  REG_DWORD value of 0x01.
+  
+  You must restart the system for these settings to take effect.
+  
+  After this is completed, the keyboard crash can be initiated by using
+  the following hotkey sequence: Hold down the rightmost CTRL key, and
+  press the SCROLL LOCK key twice.
+
+
+Or you could start a fork bomb: see this SO question
+
+There is also NotMyFault
+
+
+  Notmyfault is a tool that you can use to crash, hang, and cause kernel memory leaks on your Windows system. It’s useful for learning how to identify and diagnose device driver and hardware problems, and you can also use it to generate blue screen dump files on misbehaving systems.
+
+**Reference**: https://superuser.com/questions/1264734/how-can-i-provoke-windows-to-hang-freeze
+
+> 📎 Source: https://superuser.com/questions/1264734/how-can-i-provoke-windows-to-hang-freeze
+
+#### 103. How can I clear the output from Window&#39;s Command Prompt using a keyboard shortcut?
+
+**Issue**: How can I clear the output from Window&#39;s Command Prompt using a keyboard shortcut?
+**Tags / Source**: Tags: windows, command-line, keyboard-shortcuts | superuser | 👍 179 | 💬 3 answers
+
+**Description**:
+Tags: windows, command-line, keyboard-shortcuts | Score: 179 | Views: 692160 | Answers: 3
+
+**Solution / Community Answer**:
+NO, But you can use CLS command to clear the whole screen, Esc (Escape) key will clear the input line.
+In addition, pressing Ctrl + C will move the cursor to a new blank line.
+
+**Reference**: https://superuser.com/questions/585238/how-can-i-clear-the-output-from-windows-command-prompt-using-a-keyboard-shortcu
+
+> 📎 Source: https://superuser.com/questions/585238/how-can-i-clear-the-output-from-windows-command-prompt-using-a-keyboard-shortcu
+
+#### 104. What is the purpose/function of &quot;.&#223;&#223;&#223;&quot; files?
+
+**Issue**: What is the purpose/function of &quot;.&#223;&#223;&#223;&quot; files?
+**Tags / Source**: Tags: windows, file-transfer | superuser | 👍 177 | 💬 1 answers
+
+**Description**:
+Tags: windows, file-transfer | Score: 177 | Views: 22594 | Answers: 1
+
+**Solution / Community Answer**:
+Most likely these aren't actual files but the result of filesystem corruption.
+
+
+It is normally not possible to have multiple identically named files.
+Their names (ßßßßßßßß.ßßß) correspond to hexadecimal bytes E1 E1 E1&hellip; in code page 437 (which was the default MS-DOS code page, and therefore the default FAT/FAT32 code page when long file names aren't in use).
+(The character is not the Greek beta but the German lowercase sharp S. The dot isn't actually stored in the FAT, but added by the OS when reading, so it doesn't get corrupted.)
+Their sizes are close to 3&thinsp;789&thinsp;677&thinsp;025 bytes, which is again 0xE1&thinsp;E1&thinsp;E1&thinsp;E1 in hex.
+(That's approximately 3&thinsp;700&thinsp;856.469 kilobytes; Windows probably rounds up.)
+
+
+All signs point to part of your filesystem's master file table being filled with the byte 0xE1, which may be caused by software (such as unplugging mid-write),  but may also indicate that the flash memory itself is dying.
+
+Software-induced corruption can often be cleaned up by using Windows' disk error checking (chkdsk). Or just reformat the drive (after copying your real files out of it).
+
+But especially for cheaper and/or heavily-used drives, bad flash memory is very likely. Don't use this drive for important files anymore.
+
+**Reference**: https://superuser.com/questions/1345305/what-is-the-purpose-function-of-%c3%9f%c3%9f%c3%9f-files
+
+> 📎 Source: https://superuser.com/questions/1345305/what-is-the-purpose-function-of-%c3%9f%c3%9f%c3%9f-files
+
+#### 105. How to disable Ctrl+Shift keyboard layout switch (for the same input language) in Windows?
+
+**Issue**: How to disable Ctrl+Shift keyboard layout switch (for the same input language) in Windows?
+**Tags / Source**: Tags: windows, keyboard-shortcuts, keyboard-layout | superuser | 👍 177 | 💬 13 answers
+
+**Description**:
+Tags: windows, keyboard-shortcuts, keyboard-layout | Score: 177 | Views: 393524 | Answers: 13
+
+**Solution / Community Answer**:
+You were very close to the solution of your problem ;)
+In Windows XP, Vista or 7:
+Control Panel -&gt; Regional and Language Options -&gt; Languages tab -&gt; Details...
+There, you can edit the hotkeys to change input languages. If you press the Change Key Sequence... button, you will be able to change (disable) the hotkey which switches keyboard layouts (that Ctrl+Shift combination you mentioned).
+
+**Reference**: https://superuser.com/questions/109066/how-to-disable-ctrlshift-keyboard-layout-switch-for-the-same-input-language-i
+
+> 📎 Source: https://superuser.com/questions/109066/how-to-disable-ctrlshift-keyboard-layout-switch-for-the-same-input-language-i
+
+#### 106. Two blue arrows at top right of icons
+
+**Issue**: Two blue arrows at top right of icons
+**Tags / Source**: Tags: windows-10, windows-explorer, icons, microsoft-office-2007 | superuser | 👍 177 | 💬 10 answers
+
+**Description**:
+Tags: windows-10, windows-explorer, icons, microsoft-office-2007 | Score: 177 | Views: 788666 | Answers: 10
+
+**Solution / Community Answer**:
+I archived the folder and the text went blue as expected...
+
+
+Blue text in Explorer = NTFS compression is enabled via the properties (this has been standard in Windows for many versions now).
+
+
+
+Two blue arrows is Windows 10's new way of showing the same thing, at the icon-level.
+
+
+
+Reference/More info:
+
+
+Compress or Uncompress Files and Folders in Windows 10
+Properties dialog image source
+
+
+edit:
+
+
+  When I just recently installed Office 2007, I noticed the same arrows on the icons for the programs.
+
+
+That's kind of weird, and is may be just a matter of icon cache corruption.
+
+For that, here's a couple things to try:
+
+Ensure the EXEs are not actually compressed.
+
+Try creating new shortcuts to the EXEs and see if they appear as expected.
+
+Try clearing Windows' icon cache and see if that corrects the icons. For that, see this existing SU question: Refresh Icon Cache Without Rebooting
+
+**Reference**: https://superuser.com/questions/1001970/two-blue-arrows-at-top-right-of-icons
+
+> 📎 Source: https://superuser.com/questions/1001970/two-blue-arrows-at-top-right-of-icons
+
+#### 107. Change name of Virtual Desktop in Windows 10
+
+**Issue**: Change name of Virtual Desktop in Windows 10
+**Tags / Source**: Tags: windows-10, virtual-desktop, virtual-desktop-manager | superuser | 👍 177 | 💬 7 answers
+
+**Description**:
+Tags: windows-10, virtual-desktop, virtual-desktop-manager | Score: 177 | Views: 90590 | Answers: 7
+
+**Solution / Community Answer**:
+It seems at this time, you can not rename the virtual desktops in Windows 10. It is a feature that I would love to have though.
+EDIT: It seems you can now rename virtual desktops.
+
+**Reference**: https://superuser.com/questions/959258/change-name-of-virtual-desktop-in-windows-10
+
+> 📎 Source: https://superuser.com/questions/959258/change-name-of-virtual-desktop-in-windows-10
+
+#### 108. What can I do if I forgot my Windows password?
+
+**Issue**: What can I do if I forgot my Windows password?
+**Tags / Source**: Tags: windows-7, windows, passwords, community-faq | superuser | 👍 176 | 💬 17 answers
+
+**Description**:
+Tags: windows-7, windows, passwords, community-faq | Score: 176 | Views: 295094 | Answers: 17
+
+**Solution / Community Answer**:
+If you have an Ubuntu live CD you can reset it using chntpw application
+You can use Bart's PE + Password Renew to reset the password
+You can use Offline NT Password Editor to reset the password.
+
+
+Detailed instructions on using any of the 3 are available over here.
+
+**Reference**: https://superuser.com/questions/72244/what-can-i-do-if-i-forgot-my-windows-password
+
+> 📎 Source: https://superuser.com/questions/72244/what-can-i-do-if-i-forgot-my-windows-password
+
+#### 109. How to disable the screen orientation hotkeys in Windows (XP)?
+
+**Issue**: How to disable the screen orientation hotkeys in Windows (XP)?
+**Tags / Source**: Tags: windows, display, keyboard-shortcuts, hotkeys, nvidia-graphics-card | superuser | 👍 176 | 💬 4 answers
+
+**Description**:
+Tags: windows, display, keyboard-shortcuts, hotkeys, nvidia-graphics-card | Score: 176 | Views: 100682 | Answers: 4
+
+**Solution / Community Answer**:
+I have not tested on AMD/ATI graphics, but I know for a fact that all Intel drivers do this and some Nvidia drivers.
+
+Simply go in to the configuration tool of your driver and look under a section called hotkeys and disable it.
+
+For Intel:
+
+**Reference**: https://superuser.com/questions/279756/how-to-disable-the-screen-orientation-hotkeys-in-windows-xp
+
+> 📎 Source: https://superuser.com/questions/279756/how-to-disable-the-screen-orientation-hotkeys-in-windows-xp
+
+#### 110. How to delete a keyboard layout in Windows 10
+
+**Issue**: How to delete a keyboard layout in Windows 10
+**Tags / Source**: Tags: windows-10, keyboard-layout | superuser | 👍 176 | 💬 9 answers
+
+**Description**:
+Tags: windows-10, keyboard-layout | Score: 176 | Views: 488230 | Answers: 9
+
+**Solution / Community Answer**:
+To remove a keyboard under Windows 10 is done this way :
+Method 1 : Settings
+
+Select the Start button
+Go to Settings &gt; Time &amp; Language &gt; Region &amp; language
+Under Languages, click your language
+
+Click Options
+Under Keyboards click your keyboard
+Click Remove
+
+
+Method 2 : Preloaded
+
+Use regedit to navigate to following registry keys, where
+you will find there the list of keyboards that are preloaded at boot.
+
+
+HKEY_USERS\.DEFAULT\Keyboard Layout\Preload
+HKEY_CURRENT_USER\Keyboard Layout\Preload
+HKEY_USERS\.DEFAULT\Control Panel\International\User Profile
+HKEY_USERS\.DEFAULT\Control Panel\International\User Profile System Backup
+
+
+Find the keyboard identifier among the list of
+Keyboard Identifiers
+
+Delete the key.
+
+
+
+Update January 2022:
+The language settings are now found in
+Settings &gt; Time &amp; Language &gt; Language.
+
+**Reference**: https://superuser.com/questions/957552/how-to-delete-a-keyboard-layout-in-windows-10
+
+> 📎 Source: https://superuser.com/questions/957552/how-to-delete-a-keyboard-layout-in-windows-10
+
+#### 111. Is there a convenient way to edit PATH in Windows 7?
+
+**Issue**: Is there a convenient way to edit PATH in Windows 7?
+**Tags / Source**: Tags: windows, path | superuser | 👍 174 | 💬 10 answers
+
+**Description**:
+Tags: windows, path | Score: 174 | Views: 70489 | Answers: 10
+
+**Solution / Community Answer**:
+There is always the Rapid Environment Editor which claims full support for all major OS versions, including 64-bit.
+
+
+  Editable tree
+  
+  Show environment variables and values as an editable tree.
+  
+  Portable mode
+  
+  RapidEE doesn't require installation and could be run as a "portable application". View details.
+  
+  
+
+
+There is also the older (but still useful) and more light-weight Path Editor. (Note that the site is dead as of 2015-08-07, but still exists as an archive.org snapshot from 2013-03-27 — direct link to the installer). It works just fine on Windows 7 and, though it comes only as an installer, also works as a portable/stand-alone executable if you extract it.
+
+
+  Path Editor is a small utility that makes path management very straightforward with its intuitive user interface and drag-and-drop simplicity. Path Editor can clean your path of missing and duplicate entries with a single click of the mouse.
+
+**Reference**: https://superuser.com/questions/297947/is-there-a-convenient-way-to-edit-path-in-windows-7
+
+> 📎 Source: https://superuser.com/questions/297947/is-there-a-convenient-way-to-edit-path-in-windows-7
+
+#### 112. How do I get back unused disk space from Ubuntu on WSL2?
+
+**Issue**: How do I get back unused disk space from Ubuntu on WSL2?
+**Tags / Source**: Tags: windows-10, windows-subsystem-for-linux, disk-space, wsl2, ubuntu-20.04 | superuser | 👍 173 | 💬 10 answers
+
+**Description**:
+Tags: windows-10, windows-subsystem-for-linux, disk-space, wsl2, ubuntu-20.04 | Score: 173 | Views: 338315 | Answers: 10
+
+**Solution / Community Answer**:
+There are a few options here, but I'm moving things around in this edit. My &quot;original&quot; answer is back to being the preferred method.  See the bottom of this answer for an alternative, experimental method.
+&quot;Original&quot; Answer (Preferred)
+There's a WSL Github issue open on this topic.  WSL will automatically grow the virtual disk (ext4.vhdx), but shrinking it to reclaim unused space is something that must currently be done manually.
+The first thing you'll need to do is know the location of your ext4.vhdx.  For a default Ubuntu installation, it should be in something like %USERPROFILE%\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\
+Then there are several techniques that you can use to remove the unused space.  I recommend you start with a wsl --shutdown and copy the vhdx as a backup to start.  If you are running Docker Desktop, also shut it down, otherwise it may inadvertently attempt to restart WSL after your --shutdown.
+
+If you are on Windows Professional or higher, you can install Hyper-V and use the Optimize-VHD commandlet as described in the original issue.
+.
+
+On Windows Home (and higher) you can use diskpart as described in this comment.
+
+Exporting the WSL distro and re-importing it into a new WSL instance (as in this comment) will also reclaim the space.  Note that you will need to reset the default username after an import. See here (and here for alternative options).
+
+
+I have tested and confirmed both the second and third techniques personally.
+
+Alternative (Warning)
+The following feature remains in &quot;Experimental&quot; status a year after its appearance, and while I'm sure it works well for many, too many users continue to report corruption of their WSL Distributions and sometimes even the Windows host filesystem when using it.
+Thanks to comments from @MarkCh and @willnode, I've edited the answer to both move this method under the original answer as well as highlight this warning.
+In September, 2023, a pre-release of WSL (2.0.0) enabled a new &quot;sparse&quot; mode for disk images which is intended to automatically shrink the image when files are removed. (Especially given the warning above) Always maintain good backups, especially when using newer features that affect the entire virtual drive. I have not tested this personally yet.
+While that said, from the DevBlog announcement, you can convert an existing disk image to sparse with the following command from PowerShell:
+wsl --manage &lt;distro&gt; --set-sparse true
+
+You can also add the following to your .wslconfig (located in your Windows profile directory, not inside WSL) to have any newly created distro image be sparse:
+[experimental]
+sparseVhd=true
+
+**Reference**: https://superuser.com/questions/1606213/how-do-i-get-back-unused-disk-space-from-ubuntu-on-wsl2
+
+> 📎 Source: https://superuser.com/questions/1606213/how-do-i-get-back-unused-disk-space-from-ubuntu-on-wsl2
+
+#### 113. How to run a batch file without launching a &quot;command window&quot;?
+
+**Issue**: How to run a batch file without launching a &quot;command window&quot;?
+**Tags / Source**: Tags: windows, command-line, batch-file, shortcuts | superuser | 👍 172 | 💬 9 answers
+
+**Description**:
+Tags: windows, command-line, batch-file, shortcuts | Score: 172 | Views: 638958 | Answers: 9
+
+**Solution / Community Answer**:
+Save the following as wscript, for instance, hidecmd.vbs after replacing "testing.bat" with your batch file's name.
+
+Set oShell = CreateObject ("Wscript.Shell") 
+Dim strArgs
+strArgs = "cmd /c testing.bat"
+oShell.Run strArgs, 0, false
+
+
+The second parameter of oShell.Run is intWindowStyle value indicating the appearance of the program's window and zero value is for hidden window.
+
+The reference is here http://msdn.microsoft.com/en-us/library/d5fk67ky.aspx
+
+**Reference**: https://superuser.com/questions/140047/how-to-run-a-batch-file-without-launching-a-command-window
+
+> 📎 Source: https://superuser.com/questions/140047/how-to-run-a-batch-file-without-launching-a-command-window
+
+#### 114. How do I paste the Windows clipboard into my PuTTY session, using only the keyboard?
+
+**Issue**: How do I paste the Windows clipboard into my PuTTY session, using only the keyboard?
+**Tags / Source**: Tags: windows, keyboard-shortcuts, putty, clipboard | superuser | 👍 171 | 💬 3 answers
+
+**Description**:
+Tags: windows, keyboard-shortcuts, putty, clipboard | Score: 171 | Views: 437716 | Answers: 3
+
+**Solution / Community Answer**:
+You can use Shift+Ins to paste text.
+
+From PuTTY documentation:
+
+
+Pasting is done using the right button (or the middle mouse button, if you have a three-button mouse and have set it up; see section 4.11.2). (Pressing Shift-Ins, or selecting ‘Paste’ from the Ctrl+right-click context menu, have the same effect.) When you click the right mouse button, PuTTY will read whatever is in the Windows clipboard and paste it into your session, exactly as if it had been typed at the keyboard.
+
+**Reference**: https://superuser.com/questions/180043/how-do-i-paste-the-windows-clipboard-into-my-putty-session-using-only-the-keybo
+
+> 📎 Source: https://superuser.com/questions/180043/how-do-i-paste-the-windows-clipboard-into-my-putty-session-using-only-the-keybo
+
+#### 115. How do I remove Candy Crush Saga from Windows 10?
+
+**Issue**: How do I remove Candy Crush Saga from Windows 10?
+**Tags / Source**: Tags: windows-10, uninstall | superuser | 👍 171 | 💬 8 answers
+
+**Description**:
+Tags: windows-10, uninstall | Score: 171 | Views: 134542 | Answers: 8
+
+**Solution / Community Answer**:
+I was able to uninstall simply by right-clicking on the app in the Start Menu and selecting uninstall.
+
+Typing Get-AppxPackage -Name king.com.CandyCrushSaga into PowerShell confirmed it is completely gone from the system, not just from the start menu.
+
+**Reference**: https://superuser.com/questions/958562/how-do-i-remove-candy-crush-saga-from-windows-10
+
+> 📎 Source: https://superuser.com/questions/958562/how-do-i-remove-candy-crush-saga-from-windows-10
+
+#### 116. Windows on second monitor moves to primary monitor after sleep/lock
+
+**Issue**: Windows on second monitor moves to primary monitor after sleep/lock
+**Tags / Source**: Tags: windows, windows-10, display, multiple-monitors, visual-studio | superuser | 👍 170 | 💬 9 answers
+
+**Description**:
+Tags: windows, windows-10, display, multiple-monitors, visual-studio | Score: 170 | Views: 473586 | Answers: 9
+
+**Solution / Community Answer**:
+A similar case on Microsoft Community mentioned a workaround, have a try.
+
+
+Start Control Panel --&gt; Device Manager
+Select View --&gt; Show hidden devices
+Expand Computer --&gt; Monitors*
+
+When you expand the Monitors you will see your current monitor (highlighted) and all the disconnected monitors (greyed out).   You may see monitors with &quot;non-PNP&quot; and &quot;PNP&quot; listed as well.  I believe these are aliases to your current monitor (at a lower resolution) before Windows installed drivers for it.
+I uninstalled ALL the greyed out monitors.  Right-click on these monitors and select uninstall.  Keep only the highlighted monitor you are currently using.
+
+Uninstall all greyed out monitors (even non-PNP and PNP monitors)
+Reboot your system.
+
+After doing this my windows don't resize after my monitor goes to sleep.  You can quickly test this by temporarily setting your monitor sleep time to 1 minute.
+Settings --&gt; System --&gt; Power &amp; Sleep --&gt; Screen [1 minute]
+
+Source: https://answers.microsoft.com/en-us/windows/forum/windows_10-hardware-winpc/windows-10-multiple-display-windows-are-moved-and/2b9d5a18-45cc-4c50-b16e-fd95dbf27ff3
+
+**Reference**: https://superuser.com/questions/1292435/windows-on-second-monitor-moves-to-primary-monitor-after-sleep-lock
+
+> 📎 Source: https://superuser.com/questions/1292435/windows-on-second-monitor-moves-to-primary-monitor-after-sleep-lock
+
+#### 117. What is a &quot;Magic Packet&quot; for waking a computer?
+
+**Issue**: What is a &quot;Magic Packet&quot; for waking a computer?
+**Tags / Source**: Tags: windows, networking, wireless-networking, wake-on-lan | superuser | 👍 168 | 💬 2 answers
+
+**Description**:
+Tags: windows, networking, wireless-networking, wake-on-lan | Score: 168 | Views: 129708 | Answers: 2
+
+**Solution / Community Answer**:
+Sam3000's answer is very nice. I'll add some technical details.
+
+Wake on Magic Packet causes the network card to awaken the computer when it receives a magic packet. A packet is considered "magic" when it contains FF FF FF FF FF FF (six instances of the largest possible byte value) followed by sixteen instances of the card's six-byte MAC address. That sequence can appear anywhere within the frame, so the packet can be sent over any higher-level protocol. Usually, UDP is used, but sometimes raw frames with EtherType 0x0842 are used. (Source: Wikipedia.)
+
+Wake on Pattern Match is a superset of the previous. It will cause the card to wake the machine when various things come in, including a magic packet, a NetBIOS name query, a TCP SYN packet (either TCPv4 or TCPv6), etc. Those last ones may require ARP offload to be enabled. (Source: TechNet.)
+
+If you don't want/need your computer to be woken up from anywhere else, you can disable both of those options.
+
+**Reference**: https://superuser.com/questions/1066619/what-is-a-magic-packet-for-waking-a-computer
+
+> 📎 Source: https://superuser.com/questions/1066619/what-is-a-magic-packet-for-waking-a-computer
+
+#### 118. Notepad++ is unable to load langs.xml, why?
+
+**Issue**: Notepad++ is unable to load langs.xml, why?
+**Tags / Source**: Tags: windows-7, windows, notepad++ | superuser | 👍 168 | 💬 6 answers
+
+**Description**:
+Tags: windows-7, windows, notepad++ | Score: 168 | Views: 120116 | Answers: 6
+
+**Solution / Community Answer**:
+Somehow, your langs.xml has errors in it. Perhaps while exploring various Notepad++ options you accidentally made unintended changes to it. That's what happened to me.
+Go to the installation folder for Notepad++ and rename langs.xml to langs.xml.bad. Then, in that same folder, find langs.model.xml, make a copy of it, and rename the copy to langs.xml. DO NOT simply rename the file or you will not have it available the next time you need it.
+also replace this file in the folder C:\users\(user)\appdata\roaming\notepad++
+You will want to then compare the langs.xml to langs.xml.bad and see if there is anything legitimate that you want back.
+If you are missing the langs.model.xml file, you can download the current version from the master branch of the official github repo.
+
+**Reference**: https://superuser.com/questions/67128/notepad-is-unable-to-load-langs-xml-why
+
+> 📎 Source: https://superuser.com/questions/67128/notepad-is-unable-to-load-langs-xml-why
+
+#### 119. How can I determine which process owns a hotkey in Windows?
+
+**Issue**: How can I determine which process owns a hotkey in Windows?
+**Tags / Source**: Tags: windows, keyboard-shortcuts | superuser | 👍 168 | 💬 6 answers
+
+**Description**:
+Tags: windows, keyboard-shortcuts | Score: 168 | Views: 103271 | Answers: 6
+
+**Solution / Community Answer**:
+This works for me in Win10 (and probably all other even vaguely-recent versions of Windows)... also copied here from https://stackoverflow.com/a/43645062/995048 since this page seems to come up first in search results:
+
+One possible way is to use the Visual Studio tool Spy++.
+Give this a try:
+
+Run the tool (for me, it's at C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\Tools\spyxx_amd64.exe, or use spyxx.exe to monitor 32-bit processes)
+In the menu bar, select Spy -&gt; Log messages... (or hit Ctrl + M)
+Check All Windows in System in the Additional Windows frame
+Switch to the Messages tab
+Click the Clear All button
+Select WM_HOTKEY in the listbox, or check Keyboard in Message Groups (if you're OK with more potential noise)
+Click the OK button
+Press the hotkey in question (Win + R, for example)
+Select the WM_HOTKEY line in the Messages (All Windows) window, right click, and select Properties... in the context menu
+In the Message Properties dialog, click the Window Handle link (this will be the handle for the window that received the message)
+Click the Synchronize button on the Window Properties dialog.  This will show the window in the main Spy++ window treeview.
+On the Window Properties dialog, select the Process tab
+Click the Process ID link.  This will show you the process (In my Win + R case: EXPLORER)
+
+**Reference**: https://superuser.com/questions/11308/how-can-i-determine-which-process-owns-a-hotkey-in-windows
+
+> 📎 Source: https://superuser.com/questions/11308/how-can-i-determine-which-process-owns-a-hotkey-in-windows
+
+#### 120. Windows 10 - How to move window to other monitor by using keyboard shortcuts?
+
+**Issue**: Windows 10 - How to move window to other monitor by using keyboard shortcuts?
+**Tags / Source**: Tags: windows, windows-10, multiple-monitors, keyboard-shortcuts | superuser | 👍 168 | 💬 5 answers
+
+**Description**:
+Tags: windows, windows-10, multiple-monitors, keyboard-shortcuts | Score: 168 | Views: 791822 | Answers: 5
+
+**Solution / Community Answer**:
+I solved it by unchecking the box which you can see in the following screenshot.
+
+Go to Control Panel &gt; Ease of Access Center &gt; Make the Keyboard Easier to Use
+Then search for the setting &quot;Make it easier to manage windows&quot; and un-check the option &quot;Prevent windows from being automatically arranged when moved to the edge of the screen&quot;
+After unchecking this option, it works again.
+
+**Reference**: https://superuser.com/questions/1132802/windows-10-how-to-move-window-to-other-monitor-by-using-keyboard-shortcuts
+
+> 📎 Source: https://superuser.com/questions/1132802/windows-10-how-to-move-window-to-other-monitor-by-using-keyboard-shortcuts
+
+#### 121. Items unpinned from taskbar are back after restart/sign out on Windows 10
+
+**Issue**: Items unpinned from taskbar are back after restart/sign out on Windows 10
+**Tags / Source**: Tags: windows, windows-10, taskbar | superuser | 👍 167 | 💬 7 answers
+
+**Description**:
+Tags: windows, windows-10, taskbar | Score: 167 | Views: 277107 | Answers: 7
+
+**Solution / Community Answer**:
+I had the same problem. Nothing works.
+
+Finally, I found the XML file in my profile:
+
+%LOCALAPPDATA%\Microsoft\Windows\Shell\LayoutModification.xml
+
+
+The items were listed here in this section:
+
+  &lt;/DefaultLayoutOverride&gt;
+    &lt;CustomTaskbarLayoutCollection PinListPlacement="Replace"&gt;
+    &lt;defaultlayout:TaskbarLayout&gt;
+      &lt;taskbar:TaskbarPinList&gt;
+-- items were here - removed
+      &lt;/taskbar:TaskbarPinList&gt;
+    &lt;/defaultlayout:TaskbarLayout&gt;
+  &lt;/CustomTaskbarLayoutCollection&gt;
+
+
+Maybe this will help someone.
+
+**Reference**: https://superuser.com/questions/1251656/items-unpinned-from-taskbar-are-back-after-restart-sign-out-on-windows-10
+
+> 📎 Source: https://superuser.com/questions/1251656/items-unpinned-from-taskbar-are-back-after-restart-sign-out-on-windows-10
+
+#### 122. What is the difference between “Size” and “Size on disk?”
+
+**Issue**: What is the difference between “Size” and “Size on disk?”
+**Tags / Source**: Tags: windows, filesystems | superuser | 👍 167 | 💬 6 answers
+
+**Description**:
+Tags: windows, filesystems | Score: 167 | Views: 292808 | Answers: 6
+
+**Solution / Community Answer**:
+Size is the actual size of the file in bytes.
+Size on disk is the actual amount of space being taken up on the disk. They differ because the disk is divided into tracks and sectors, and can allocate blocks of discrete size.
+For a more detailed explanation, see this text which I copied from another site:
+
+We know that a disk is made up of Tracks and Sectors. In Windows that
+means the OS allocates space for files in &quot;clusters&quot; or &quot;allocation
+units&quot;.
+The size of a cluster can vary, but typical ranges are from 512 bytes
+to 32K or more. For example, on my C:\ drive, the allocation unit is
+4096 bytes. This means that Windows will allocate 4096 bytes for any
+file or portion of a file that is from 1 to 4096 bytes in length.
+If I have a file that is 17KB (kilo bytes), then the Size on disk
+would be 20.48 KB (or 20480 bytes). The calculation would be 4096 (1
+allocation unit) x 5 = 20480 bytes. It takes 5 allocation units to
+hold a 17KB file.
+Another example would be if I have a file that is 2000 bytes in size.
+The file size on disk would be 4096 bytes. The reason is, because even
+though the entire file can fit inside one allocation unit, it still
+takes up 4096 of space (one allocation unit) on disk (only one file
+can use an allocation unit and cannot be shared with other files).
+So the size on disk is the space of all those sectors in which the
+file is saved. That means,usually, the size on disk is always greater
+than the actual size.
+So the actual size of a file(s) or folder(s) should always be taken
+from the Size value when viewing the properties window.
+
+Source: What's The Difference Between Size And Size On Disk In Windows Folder Properties.
+
+**Reference**: https://superuser.com/questions/66825/what-is-the-difference-between-size-and-size-on-disk
+
+> 📎 Source: https://superuser.com/questions/66825/what-is-the-difference-between-size-and-size-on-disk
+
+#### 123. VT-x is not available, but is enabled in BIOS
+
+**Issue**: VT-x is not available, but is enabled in BIOS
+**Tags / Source**: Tags: windows-10, bios, virtualization, vt-x | superuser | 👍 166 | 💬 14 answers
+
+**Description**:
+Tags: windows-10, bios, virtualization, vt-x | Score: 166 | Views: 460731 | Answers: 14
+
+**Solution / Community Answer**:
+There are three common culprits for the type of error the user is seeing:
+
+
+VT-x is not enabled in the BIOS
+The CPU doesn't support VT-x
+Hyper-V virtualization is enabled in Windows
+
+
+Since the user already eliminated the first two possible culprits, the next step is to open a command prompt as administrator and run the following command:
+
+dism.exe /Online /Disable-Feature:Microsoft-Hyper-V
+
+
+Afterwards, reboot the PC and try VirtualBox again.
+
+**Reference**: https://superuser.com/questions/1153470/vt-x-is-not-available-but-is-enabled-in-bios
+
+> 📎 Source: https://superuser.com/questions/1153470/vt-x-is-not-available-but-is-enabled-in-bios
+
+#### 124. Force a program to run *without* administrator privileges or UAC?
+
+**Issue**: Force a program to run *without* administrator privileges or UAC?
+**Tags / Source**: Tags: windows, administrator, uac | superuser | 👍 165 | 💬 11 answers
+
+**Description**:
+Tags: windows, administrator, uac | Score: 165 | Views: 860398 | Answers: 11
+
+**Solution / Community Answer**:
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\forcerunasinvoker]
+@="Run without privilege elevation"
+
+[HKEY_CLASSES_ROOT\*\shell\forcerunasinvoker\command]
+@="cmd /min /C \"set __COMPAT_LAYER=RUNASINVOKER &amp;&amp; start \"\" \"%1\"\""
+
+
+Save this text in &lt;name_of_file&gt;.reg and add it to the Windows Registry. (Double-clicking on it should do the trick.)
+
+Afterwards, right-click the app you'd like to run without administrative privileges and select "Run without privilege elevation".
+
+In some cases - small amount 0.1% of programs may ask twice about UAC prompt.
+
+**Reference**: https://superuser.com/questions/171917/force-a-program-to-run-without-administrator-privileges-or-uac
+
+> 📎 Source: https://superuser.com/questions/171917/force-a-program-to-run-without-administrator-privileges-or-uac
+
+#### 125. What does CTRL+WIN+SHIFT+B do in Windows?
+
+**Issue**: What does CTRL+WIN+SHIFT+B do in Windows?
+**Tags / Source**: Tags: windows, windows-10, keyboard-shortcuts | superuser | 👍 165 | 💬 4 answers
+
+**Description**:
+Tags: windows, windows-10, keyboard-shortcuts | Score: 165 | Views: 530893 | Answers: 4
+
+**Solution / Community Answer**:
+The Ctrl+Shift+Win+B key sequence will restart your graphics driver.
+
+**Reference**: https://superuser.com/questions/1127463/what-does-ctrlwinshiftb-do-in-windows
+
+> 📎 Source: https://superuser.com/questions/1127463/what-does-ctrlwinshiftb-do-in-windows
+
+#### 126. How can I read my hard drive’s SMART status in Windows 7?
+
+**Issue**: How can I read my hard drive’s SMART status in Windows 7?
+**Tags / Source**: Tags: windows-7, windows, hard-drive, smart | superuser | 👍 164 | 💬 16 answers
+
+**Description**:
+Tags: windows-7, windows, hard-drive, smart | Score: 164 | Views: 418845 | Answers: 16
+
+**Solution / Community Answer**:
+HDTune works on Windows 7 too.
+
+
+
+A blog-post reference.
+
+**Reference**: https://superuser.com/questions/29240/how-can-i-read-my-hard-drive-s-smart-status-in-windows-7
+
+> 📎 Source: https://superuser.com/questions/29240/how-can-i-read-my-hard-drive-s-smart-status-in-windows-7
+
+#### 127. Pseudo English looking characters used in Windows 10 Insider Preview
+
+**Issue**: Pseudo English looking characters used in Windows 10 Insider Preview
+**Tags / Source**: Tags: windows, windows-10-preview, security-center | superuser | 👍 164 | 💬 1 answers
+
+**Description**:
+Tags: windows, windows-10-preview, security-center | Score: 164 | Views: 14849 | Answers: 1
+
+**Solution / Community Answer**:
+I wanted to know if anyone else has seen this or, even better, knows what is up?
+
+First the good news, it's not a virus.
+You are seeing the effects of something called Pseudo-Localization, and it is a known thing with some insider preview builds that have the language set to something other than en-us.
+To fix the issue change your language to en-us.
+
+
+That's pseudolocalization used to test compatibility across different
+languages. Microsoft and others have been doing it for years now.
+During most development, the only language that has 100% coverage is
+en-us because 100% of primary development on Windows is done in
+Redmond.
+Running non-US locales on insider builds, especially in Skip Ahead and
+Fast Ring, are only shipped with en-US and Pseudoloc'd locales. OP is
+definitely using en-UK (&quot;programme&quot;) which means that a large number
+of strings are probably pseudoloc'd. This helps identify non-localized
+strings
+it's weird enough that it won't make it into retail through an
+automated check (there's a lot of zero-width spaces in there, too,
+which aren't allowed in normal translations for the most part).
+
+Source Strange font/characters in some apps : windowsinsiders
+
+My name is Miki Albertson and I’m a Program Manager from Windows
+Localization team. Today I would like to give you a behind-the-scenes
+look at how WDG products are made available to Windows Insiders in
+their language. By the way, we call this process “Localization”.
+Second, we use a process known as “pseudo enhancement” within the
+existing localized builds to allow us to mark new or changed UI
+strings that have been exposed to localization, but have not yet been
+localized. For some non-Latin based languages, this can involve adding
+some random localized characters at the start of the unlocalized
+string as an identifier; or in the case of Latin-based languages we
+replace the existing characters in the string with accented versions.
+If there are unlocalized (i.e. English) strings in the build that
+don’t have those characters, this is potentially a bug and could
+potentially delay the project. (Please see below for examples of
+“Pseudo Enhancement”)
+
+With Windows as a Service, validation through the Pseudo Localization
+Tool is often done parallel to our translation work. Once those
+resources have been translated, Pseudo-enhanced characters that were
+added to the resources will be removed. Also, for those resources that
+are not yet localized, the process is to turn off Pseudo Localization
+tool before we release to Insiders, but sometimes due to this not
+being done as expected, you might see the pseudo strings in the
+Insider Preview builds.
+
+(emphasis mine)
+Source Inside WDG – Localization Process – W10FG
+
+Further Reading
+
+Inside WDG – Localization Process – W10FG
+Localizability Testing - Globalization | Microsoft Docs
+What is Pseudo-Localization?
+A brief and also incomplete history of Windows localization | The Old New Thing
+
+**Reference**: https://superuser.com/questions/1340277/pseudo-english-looking-characters-used-in-windows-10-insider-preview
+
+> 📎 Source: https://superuser.com/questions/1340277/pseudo-english-looking-characters-used-in-windows-10-insider-preview
+
+#### 128. Path to current desktop backgrounds in Windows 10?
+
+**Issue**: Path to current desktop backgrounds in Windows 10?
+**Tags / Source**: Tags: windows-10 | superuser | 👍 164 | 💬 8 answers
+
+**Description**:
+Tags: windows-10 | Score: 164 | Views: 1070781 | Answers: 8
+
+**Solution / Community Answer**:
+Built-in wallpapers
+A copy of the current wallpaper can be found by entering one of the below paths in Windows File Explorer address bar.
+Some of the paths below may not exist on your PC, and that's OK; move on to the next path.
+Path 1 -
+%AppData%\Microsoft\Windows\Themes\CachedFiles
+
+Path 2 -
+%AppData%\Microsoft\Windows\Themes\TranscodedWallpaper
+Note: TranscodedWallpaper does not have a file extension, even though it is a JPEG image file.
+To view the image in a imager viewer,
+
+Right click on the file and use &quot;Open With&quot; option
+(or)
+select the image and press Enter
+This will bring up the &quot;Select an app to open...&quot; or &quot;How do you want to open this file?&quot; dialogue box.
+Any popular image viewer should work - such as the &quot;Windows Photo Viewer&quot; (built-in), Microsoft Photos app, PicView, qView, etc..
+
+Alternatively, drag and drop the file into a Firefox tab or mspaint window to view/edit.
+Note for Windows 10/11: The above wallpaper paths comes with limitations.
+For example, if the wallpaper you're looking for is no longer visible in the 'Background' tab in the Settings app, you can't recover it. It will work for your last five wallpapers but nothing older. [1]
+
+Path 3: Default Windows wallpapers -
+%SystemRoot%\Web
+Check in one of the below folders  -
+
+&quot;4K&quot; for 4K wallpapers
+&quot;Screen&quot; for lock screen backgrounds
+&quot;touchkeyboard&quot; for colorful abstract backdrops in Windows 11 [2]
+&quot;Wallpapers&quot; for default Windows wallpapers
+
+
+Path 4: Wallpapers from installed themes (Aero, etc.) -
+%SystemRoot%\Resources\Themes
+Path 5: Wallpapers from per-user installed themes (including pre-installed themes from OEM) -
+%LocalAppData%\Microsoft\Windows\Themes
+
+Desktop background set by Windows Photo Viewer
+Path 6 - [21]
+%AppData%\Microsoft\Windows Photo Viewer\
+Note 1: The image file in above path will be named Windows Photo Viewer Wallpaper.jpg and is a copy of the original image used to set the desktop wallpaper. I am unaware of a easy method to find the location of the original image (an file/image duplicate comparison tool might be an option).
+Note 2: If desktop background was NOT set by Windows Photo Viewer, the above path might sometimes redirect to %AppData%\Microsoft\Windows instead. This is not unexpected. Dismiss the window, and move on to one of the below scripts to find correct wallpaper location.
+
+Desktop background set by Slideshow or other methods
+If the wallpaper is set by Windows Slideshow, 3rd party app or manually set by a user, try one of the below scripts.
+The code will attempt to extract the original location of the image by decoding binary data from below key in the Windows Registry.
+Key Name: HKEY_CURRENT_USER\Control Panel\Desktop
+Value Name: TranscodedImageCache
+Windows Slideshow -
+
+Manually set wallpaper - e.g., right click on image file and select &quot;Set as desktop background&quot;
+
+
+Script 1 - VBScript
+
+To decode the registry key and view the image in Windows Explorer, follow the instructions listed on ElevenForum.com;
+(or)
+Open Notepad to save below code in a .vbs file and run it.
+
+Only ASCII compatible.
+Read the warning written below the code for more information.
+The contents of .vbs file - [5]
+Const HKCU = &amp;H80000001 'HKEY_CURRENT_USER
+
+sComputer = &quot;.&quot;  
+
+Set oReg=GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; _
+            &amp; sComputer &amp; &quot;\root\default:StdRegProv&quot;)
+
+sKeyPath = &quot;Control Panel\Desktop\&quot;
+sValueName = &quot;TranscodedImageCache&quot;
+oReg.GetBinaryValue HKCU, sKeyPath, sValueName, sValue
+
+
+sContents = &quot;&quot;
+
+For i = 24 To UBound(sValue)
+  vByte = sValue(i)
+  If vByte &lt;&gt; 0 And vByte &lt;&gt; &quot;&quot; Then
+    sContents = sContents &amp; Chr(vByte)
+  End If
+Next
+
+CreateObject(&quot;Wscript.Shell&quot;).Run &quot;explorer.exe /select,&quot;&quot;&quot; &amp; sContents &amp; &quot;&quot;&quot;&quot;
+
+Note: The vbs didn't work for me when I first set up the Slideshow, but it worked after changing to the next image in the Slideshow.
+Warning: This vbs code does not work if the file name contains non-ASCII characters, i.e., if Unicode characters (like Δ, Й, ק ,م, ๗, あ, 叶, 葉, 말) are present in the file name, then the vbs code above will fail to locate the image in Windows Explorer.
+
+Script 2 - PowerShell [8]
+ASCII + Unicode compatible
+
+Option A:
+Run below code in a PowerShell window.
+
+Open/select Windows PowerShell using the Start menu or Win + X shortcut.
+(Admin) privilege is not required.
+Paste below code and press Enter.
+$TIC=(Get-ItemProperty 'HKCU:\Control Panel\Desktop' TranscodedImageCache -ErrorAction Stop).TranscodedImageCache
+Paste below code (a second time) and press Enter.
+[System.Text.Encoding]::Unicode.GetString($TIC) -replace '(.+)([A-Z]:[0-9a-zA-Z\\])+','$2'
+
+Location of the wallpaper will displayed.
+
+
+
+
+Option B:
+Save below code as .ps1 file and run
+
+Open Notepad and paste the three lines of code mentioned below.
+Save the new document as Wallpaper_path.ps1 file.
+Note: Under 'Save as type:' option, select &quot;All types&quot; (see screenshot below).
+Go to the file, right click on the file and select &quot;Run with PowerShell&quot;
+
+Location of the wallpaper will be generated and copied to clipboard.
+
+
+$TIC = (Get-ItemProperty 'HKCU:\Control Panel\Desktop' TranscodedImageCache -ErrorAction Stop).TranscodedImageCache
+$result = [System.Text.Encoding]::Unicode.GetString($TIC) -replace '(.+)([A-Z]:[0-9a-zA-Z\\])+','$2'
+Set-Clipboard -Value $result
+
+Save .ps1 file -
+
+Run .ps1 file -
+
+
+Script 3 - AutoHotkey
+ASCII + Unicode compatible
+
+Download and install AutoHotkey.
+Open Notepad and save below code as .ahk file.
+Run .ahk file.
+Press Win + W and the location of the wallpaper will be displayed in a message box.
+
+#Requires AutoHotkey v2.0
+#SingleInstance force
+
+; #HotIf WinActive(&quot;ahk_class WorkerW ahk_exe explorer.exe&quot;)
+; commented out - enable shortcut on desktop only
+
+#W::{ ; Win + W
+MsgBox &quot;WallpaperPath_v5`n&quot; WallpaperPath_v5(ThisHotkey),, 262144 ; 262144 = Always-on-top
+}
+
+; #HotIf
+
+;-------
+; User-defined functions
+
+WallpaperPath_v5(key := A_ThisHotkey) {
+
+; modified from https://www.autohotkey.com/docs/v2/lib/ComObject.htm#ExWallpaper
+AD := ComObject(&quot;{75048700-EF1F-11D0-9888-006097DEACF9}&quot;, &quot;{F490EB00-1240-11D1-9888-006097DEACF9}&quot;)
+wszWallpaper := Buffer(260 * 2)
+ComCall(4, AD, &quot;ptr&quot;, wszWallpaper, &quot;uint&quot;, 260, &quot;uint&quot;, 0x00000002)
+wallpaperPath := StrGet(wszWallpaper, &quot;UTF-16&quot;)
+If wallpaperPath != A_AppData &quot;\Microsoft\Windows\Themes\TranscodedWallpaper&quot; {
+    If FileExist(wallpaperPath)
+        Return wallpaperPath
+    ; Else ; invalid path ; proceed to get correct path from the registry
+    }
+; Else ; path = C:\Users\&lt;UserName&gt;\AppData\Roaming\Microsoft\Windows\Themes\TranscodedWallpaper
+; proceed to get correct path from the registry
+
+wallpaperPath := &quot;&quot; ; clear variable that stores path
+
+; modified from AHK v1 code - https://gist.github.com/raveren/bac5196d2063665d2154#file-aio-ahk-L741
+; This source has code for multi-monitor setups that is not included here.
+; Look for `openWallpaperUnderMouse()` and `getMonitorUnderMouse()` functions over there if you need it.
+
+; Read the binary value from the registry
+regBinary := RegRead(&quot;HKEY_CURRENT_USER\Control Panel\Desktop&quot;, &quot;TranscodedImageCache&quot;) ; 1600 characters
+; alternative: regBinary := RegRead(&quot;HKEY_CURRENT_USER\Control Panel\Desktop&quot;, &quot;TranscodedImageCache_000&quot;)
+
+; remove first 48 characters and create array
+regArr := StrSplit(SubStr(regBinary, 49))
+
+Loop regArr.Length {
+    char := Chr(&quot;0x&quot; regArr[A_Index + 2] regArr[A_Index + 3] regArr[A_Index] regArr[A_Index + 1])
+            ; &quot;Word&quot; format = 4 numbers per character
+            ; use &quot;0x&quot; [] [] [] [] instead of &quot;0x00&quot; [] [] to allow for converting Unicode characters
+
+    If char = &quot;&quot;                ; char := Chr(&quot;0x&quot; 0 0 0 0) consecutive zeroes results in empty string
+        Break                   ; End Loop
+    Else {
+        A_Index += 3            ; skip 3 subsequent characters - Loop A_Index 2 3 4, (not 5) 6 7 8, (not 9)…
+        wallpaperPath .= char   ; add generated string to path - Chr(&quot;0x&quot; [3] [4] [1] [2]), Chr(&quot;0x&quot; [7] [8] [5] [6])… and so on
+        }
+    }
+If FileExist(wallpaperPath)
+    Return wallpaperPath        ; Return path to desktop wallpaper
+Else {
+    MsgBox( key &quot;:: WallpaperPath_v5() is not valid!&quot;   &quot;`n&quot;
+        .   &quot;wallpaperPath: &quot; wallpaperPath             &quot;`n`n&quot;
+        .   &quot;TranscodedImageCache:`n&quot; regBinary             ,, 262144) ; 262144 = Always-on-top
+    Exit
+    }
+}
+
+Example of message box containing wallpaper path -
+
+For other iterations of this code, visit this AHK v2 script on GitHub.
+
+Bonus Info
+If you are looking for the location of Lock Screen images, visit this SuperUser question.
+Note on 3rd party apps
+When 3rd party apps like John's Background Switcher are used to manage desktop backgrounds (which I used on my older Win10 PC), they typically provide an option to view the current/previous desktop background (if set by the app itself). Check the app's help file to know more.
+
+To activate Windows Photo Viewer in Windows 10, visit this article on HowToGeek.
+To download default wallpapers from every Windows version, visit this article on XDA.
+To download every Bing wallpaper in 4K, visit this page on GitHub.
+
+**Reference**: https://superuser.com/questions/966650/path-to-current-desktop-backgrounds-in-windows-10
+
+> 📎 Source: https://superuser.com/questions/966650/path-to-current-desktop-backgrounds-in-windows-10
+
+#### 129. AltGr randomly stops working on windows 10
+
+**Issue**: AltGr randomly stops working on windows 10
+**Tags / Source**: Tags: windows-10, keyboard, keyboard-layout | superuser | 👍 163 | 💬 7 answers
+
+**Description**:
+Tags: windows-10, keyboard, keyboard-layout | Score: 163 | Views: 171925 | Answers: 7
+
+**Solution / Community Answer**:
+The issue happens when you open a RDP connection. Just bring the RDP window in foreground and press Alt+Enter.
+
+The issue will disappear on all other windows too
+
+Source: How to Fix Alt Gr Key Not Working.
+
+**Reference**: https://superuser.com/questions/1149165/altgr-randomly-stops-working-on-windows-10
+
+> 📎 Source: https://superuser.com/questions/1149165/altgr-randomly-stops-working-on-windows-10
+
+#### 130. Combine/merge PDF files in Windows?
+
+**Issue**: Combine/merge PDF files in Windows?
+**Tags / Source**: Tags: windows, pdf, software-rec | superuser | 👍 162 | 💬 9 answers
+
+**Description**:
+Tags: windows, pdf, software-rec | Score: 162 | Views: 298746 | Answers: 9
+
+**Solution / Community Answer**:
+There are quite a few free options, as well as some good commercial ones:
+Web-based (Free)
+
+BCL Premium PDF Merge Merge 2 PDF documents. Max 10MB/file. Limit of 20 merges/day
+MergePDF. Merge up to 10 files. Max limit of 5MB/file. (Registration required)
+
+Desktop tools (free)
+
+Booklet Creater. Merges files to create a booklet. Rearranges pages to that you can print and fold to create a simple booklet.
+
+PDF Sam. Also known as &quot;PDF Split &amp; Merge&quot;. FOSS tool for splitting and merging PDFs. Windows &amp; Mac. Console and GUI interfaces. On Windows, the installer by default installs Ad-Aware Security Toolbar, sets Lavasoft SecureSearch as homepage, new tabs, and default search provider.
+
+Swift PDF. Combines multiple images (JPG, GIF, etc.) into a single PDF.
+Editor's note, 5/1/2017: Swift PDF was last updated in 2006 and was compatible with Windows 95.  The original link is dead and the product appears to no longer be supported.  However, it is still downloadable at https://swift-pdf.en.softonic.com/
+
+pdftk. FOSS power tool. Command line only. Windows, Mac, Linux, FreeBSD. Windows GUI versions exist, including a portable version and the official free version.
+
+
+There are also a lot of commercial tools.
+
+**Reference**: https://superuser.com/questions/34284/combine-merge-pdf-files-in-windows
+
+> 📎 Source: https://superuser.com/questions/34284/combine-merge-pdf-files-in-windows
+
+#### 131. How to delete the Recovery Partition in Windows 10?
+
+**Issue**: How to delete the Recovery Partition in Windows 10?
+**Tags / Source**: Tags: windows, windows-10, partitioning, recovery-partition | superuser | 👍 161 | 💬 4 answers
+
+**Description**:
+Tags: windows, windows-10, partitioning, recovery-partition | Score: 161 | Views: 538902 | Answers: 4
+
+**Solution / Community Answer**:
+There is plenty of space on the disk. You are getting this error for a different reason. If your machine is anything but a desktop then you would get the error you have.
+https://technet.microsoft.com/library/354e5163-f388-4354-984c-ea4e4206694c
+You aren't able to delete the recovery partition because it EFI protected. You should be able to force by using the override command.
+https://technet.microsoft.com/en-us/library/cc766465(v=ws.10).aspx
+I would try using diskpart (from an elevated command prompt) to delete the partition.
+DISKPART&gt; list disk
+DISKPART&gt; select disk 4
+
+Disk 4 is now the selected disk.
+
+DISKPART&gt; list partition
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 1    Primary            223 GB  1024 KB
+  Partition 3    Recovery           450 MB   223 GB
+  
+DISKPART&gt; select partition 3
+
+Partition 3 is now the selected partition.
+
+DISKPART&gt; list partition
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 1    Primary            223 GB  1024 KB
+* Partition 3    Recovery           450 MB   223 GB
+  
+DISKPART&gt; delete partition override
+
+DiskPart successfully deleted the selected partition.
+
+DISKPART&gt; list partition
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 1    Primary            223 GB  1024 KB
+
+After that you should be able to convert to dynamic disk.
+Usually I re-purpose drives so I don't worry about data loss, but back up your data and use a desktop.
+
+**Reference**: https://superuser.com/questions/1023765/how-to-delete-the-recovery-partition-in-windows-10
+
+> 📎 Source: https://superuser.com/questions/1023765/how-to-delete-the-recovery-partition-in-windows-10
+
+#### 132. How can the font size be changed in Notepad++?
+
+**Issue**: How can the font size be changed in Notepad++?
+**Tags / Source**: Tags: windows, fonts, notepad++ | superuser | 👍 161 | 💬 9 answers
+
+**Description**:
+Tags: windows, fonts, notepad++ | Score: 161 | Views: 300740 | Answers: 9
+
+**Solution / Community Answer**:
+Ctrl and NUMPAD +/NUMPAD - or mouse wheel to zoom in/out
+
+Edit: Or to achieve exactly what you asked for...
+
+Settings > Style Configurator. Under Font Style you can set the font and size
+
+**Reference**: https://superuser.com/questions/16831/how-can-the-font-size-be-changed-in-notepad
+
+> 📎 Source: https://superuser.com/questions/16831/how-can-the-font-size-be-changed-in-notepad
+
+#### 133. Windows Disk I/O 100% at boot for 20 Minutes
+
+**Issue**: Windows Disk I/O 100% at boot for 20 Minutes
+**Tags / Source**: Tags: windows, hard-drive, boot | superuser | 👍 161 | 💬 3 answers
+
+**Description**:
+Tags: windows, hard-drive, boot | Score: 161 | Views: 260129 | Answers: 3
+
+**Solution / Community Answer**:
+You can disable the scheduled tasks that starts CompatTelTunner.exe by looking in the Task Scheduler.
+Computer Management – System Tools – Task Schedule Library – Microsoft – Windows – Application Experience
+or
+Start - Run - taskschd.msc
+Name: Microsoft Compatibility Appraiser
+Location: \Microsoft\Windows\Application Experience
+Collects program telemetry information if opted-in to the Microsoft Customer Experience Improvement Program.
+Right click on “Microsoft Compatibility Appraiser” and select “Disable”
+By default, it is set to start if there is ANY network connection.
+
+The executable is located here:
+C:\Windows\System32\CompatTelRunner.exe  
+
+You may also want to look at the following:
+Customer Experience Improvement Program states
+
+
+  If the user has consented to participate in the Windows
+  Customer Experience Improvement Program, this job collects and sends
+  usage data to Microsoft. However, it is set to run even if opted out
+  Siuf (under Feedback)
+
+**Reference**: https://superuser.com/questions/944067/windows-disk-i-o-100-at-boot-for-20-minutes
+
+> 📎 Source: https://superuser.com/questions/944067/windows-disk-i-o-100-at-boot-for-20-minutes
+
+#### 134. Why are there no odd Windows process IDs?
+
+**Issue**: Why are there no odd Windows process IDs?
+**Tags / Source**: Tags: windows, process | superuser | 👍 161 | 💬 1 answers
+
+**Description**:
+Tags: windows, process | Score: 161 | Views: 20929 | Answers: 1
+
+**Solution / Community Answer**:
+&quot;Why are there no odd Windows process Ids?&quot;
+
+The same code that allocates kernel handles is also used to
+allocate process and thread IDs. Since kernel handles are a multiple
+of four, so too are process and thread IDs.
+
+
+Why are process and thread IDs multiples of four?
+
+On Windows NT-based operating systems, process and thread IDs happen
+always to be a multiple of four. Is this just a coincidence?
+Yes, it's just a coincidence, and you shouldn't rely on it since it is
+not part of the programming contract. For example, Windows 95 process
+and thread IDs were not always multiples of four. (By comparison, the
+reason that kernel handles are always a multiple of four is part of
+the specification and will be guaranteed for the foreseeable future.)
+Process and thread IDs are multiples of four as a side-effect of code
+re-use. The same code that allocates kernel handles is also used to
+allocate process and thread IDs. Since kernel handles are a multiple
+of four, so too are process and thread IDs. This is an implementation
+detail, so don't write code that relies on it. I'm just telling you to
+satisfy your curiosity.
+
+Source Why are process and thread IDs multiples of four?
+
+Why are kernel HANDLEs always a multiple of four?
+
+Not very well known is that the bottom two bits of kernel HANDLEs are
+always zero; in other words, their numeric value is always a multiple
+of 4. Note that this applies only to kernel HANDLEs; it does not apply
+to pseudo-handles or to any other type of handle (USER handles, GDI
+handles, multimedia handles...) Kernel handles are things you can pass
+to the CloseHandle function.
+The availability of the bottom two bits is buried in the ntdef.h
+header file:
+//
+// Low order two bits of a handle are ignored by the system and available
+// for use by application code as tag bits.  The remaining bits are opaque
+// and used to store a serial number and table index.
+//
+
+#define OBJ_HANDLE_TAGBITS  0x00000003L
+
+That at least the bottom bit of kernel HANDLEs is always zero is
+implied by the GetQueuedCompletionStatus function, which indicates
+that you can set the bottom bit of the event handle to suppress
+completion port notification. In order for this to work, the bottom
+bit must normally be zero.
+This information is not useful for most application writers, which
+should continue to treat HANDLEs as opaque values. The people who
+would be interested in tag bits are those who are implementing
+low-level class libraries or are wrapping kernel objects inside a
+larger framework.
+
+Source Why are kernel HANDLEs always a multiple of four?
+
+Further reading
+
+The Old New Thing: Practical Development Throughout the Evolution of Windows by Raymond Chen (Principal Software Design Engineer at Microsoft).
+
+**Reference**: https://superuser.com/questions/936773/why-are-there-no-odd-windows-process-ids
+
+> 📎 Source: https://superuser.com/questions/936773/why-are-there-no-odd-windows-process-ids
+
+#### 135. See available drives from Windows CLI?
+
+**Issue**: See available drives from Windows CLI?
+**Tags / Source**: Tags: windows, command-line | superuser | 👍 160 | 💬 12 answers
+
+**Description**:
+Tags: windows, command-line | Score: 160 | Views: 761513 | Answers: 12
+
+**Solution / Community Answer**:
+&gt; wmic logicaldisk get caption
+
+Caption
+C:
+D:
+E:
+
+
+if probably the easiest one. Doesn't need administrative privileges, doesn't return more or less than what's needed, etc.
+
+If you want to use it in a script, then wrap it in for /f with the skip=1 option:
+
+for /f "skip=1 delims=" %%x in ('wmic logicaldisk get caption') do @echo.%%x
+
+**Reference**: https://superuser.com/questions/139899/see-available-drives-from-windows-cli
+
+> 📎 Source: https://superuser.com/questions/139899/see-available-drives-from-windows-cli
+
+#### 136. How to set the default program for opening files without an extension in Windows?
+
+**Issue**: How to set the default program for opening files without an extension in Windows?
+**Tags / Source**: Tags: windows, file-management | superuser | 👍 159 | 💬 11 answers
+
+**Description**:
+Tags: windows, file-management | Score: 159 | Views: 121995 | Answers: 11
+
+**Solution / Community Answer**:
+With the command line:
+assoc .=&quot;No_Extension&quot;
+ftype &quot;No_Extension&quot;=&quot;C:\path\to\my editor.exe&quot; &quot;%1&quot;
+
+Restart the computer for the changes to take effect.
+To give credit, I learned this from the vim wikia here and here
+Extra info:
+Instead of &quot;C:\path\to\...&quot;, the following macros may be useful:
+
+%SystemDrive% - drive windows is installed on, i.e. C:\
+%ProgramFiles% - e.g. &quot;C:\Program Files\&quot;
+%ProgramFiles(x86)% - e.g. &quot;C:\Program Files (x86)\&quot;
+
+You will need to properly escape them though:
+ftype &quot;No_Extension&quot;=^&quot;^%ProgramFiles(x86)^%\Notepad++\notepad++.exe^&quot; &quot;%1&quot;
+
+To set the icon to be the same as .txt files (I didn't do this, since it automatically made the files' icons display as Notepad++ files):
+assoc &quot;No_Extension&quot;\DefaultIcon=%SystemRoot%\System32\imageres.dll,-102
+
+To undo, you can read the assoc /? or ftype /? information, e.g.:
+ftype &quot;No_Extension&quot;=
+assoc &quot;No_Extension&quot;\DefaultIcon=
+assoc .=
+
+**Reference**: https://superuser.com/questions/13653/how-to-set-the-default-program-for-opening-files-without-an-extension-in-windows
+
+> 📎 Source: https://superuser.com/questions/13653/how-to-set-the-default-program-for-opening-files-without-an-extension-in-windows
+
+#### 137. What is Windows&#39; equivalent of the &quot;which&quot; command in Unix? Is there an equivalent PowerShell command?
+
+**Issue**: What is Windows&#39; equivalent of the &quot;which&quot; command in Unix? Is there an equivalent PowerShell command?
+**Tags / Source**: Tags: windows, command-line, powershell, which | superuser | 👍 159 | 💬 6 answers
+
+**Description**:
+Tags: windows, command-line, powershell, which | Score: 159 | Views: 119758 | Answers: 6
+
+**Solution / Community Answer**:
+Newer versions of Windows (I think Windows 2003 and up) have the where command:
+
+C:\&gt;where ping
+C:\Windows\System32\PING.EXE
+
+
+And for PowerShell, explicitly add the .exe suffix:
+
+PS C:\&gt;where.exe ping
+C:\Windows\System32\PING.EXE
+
+**Reference**: https://superuser.com/questions/207707/what-is-windows-equivalent-of-the-which-command-in-unix-is-there-an-equivale
+
+> 📎 Source: https://superuser.com/questions/207707/what-is-windows-equivalent-of-the-which-command-in-unix-is-there-an-equivale
+
+#### 138. Windows Linux Subsystem - Accessing Files outside of Ubuntu
+
+**Issue**: Windows Linux Subsystem - Accessing Files outside of Ubuntu
+**Tags / Source**: Tags: windows-10, bash, windows-subsystem-for-linux | superuser | 👍 157 | 💬 8 answers
+
+**Description**:
+Tags: windows-10, bash, windows-subsystem-for-linux | Score: 157 | Views: 267627 | Answers: 8
+
+**Solution / Community Answer**:
+I'm not sure if I'm misunderstanding your question, but your ubuntu bash (top right window) should have access to your Windows-based disks under /mnt.  For example, on my machine /mnt/c/Users/Scott/Desktop is my Windows desktop and I can read/write files there from vi for ex.  I don't believe the opposite is true just yet.  That is, I don't think you can explore into your bash world from Windows explorer.
+
+What I've been doing as a developer is to host projects on my d: and point the linux-based tools to that /mnt/d/projects/someproject/ folder.
+
+Make sure you update your Windows builds periodically as they seem to be fixing a lot of issues with each build, especially around sym-links and crossing FS boundaries between Linux/Windows.
+
+**Reference**: https://superuser.com/questions/1083962/windows-linux-subsystem-accessing-files-outside-of-ubuntu
+
+> 📎 Source: https://superuser.com/questions/1083962/windows-linux-subsystem-accessing-files-outside-of-ubuntu
+
+#### 139. How to prove the authenticity of a screenshot?
+
+**Issue**: How to prove the authenticity of a screenshot?
+**Tags / Source**: Tags: windows, screen-capture, image-processing | superuser | 👍 156 | 💬 14 answers
+
+**Description**:
+Tags: windows, screen-capture, image-processing | Score: 156 | Views: 73561 | Answers: 14
+
+**Solution / Community Answer**:
+You cannot prove that. They were on your PC, fully under your control for some time. You could have tampered with them.  Therefore you cannot prove that you did not tamper with them.
+
+If you need to set up a legally safe solution then look for an independent third party and a way to have them store information in such a way that you can only trigger a store or read (e.g., a screenshot on a Citrix server to a write-once location).
+
+**Reference**: https://superuser.com/questions/1010186/how-to-prove-the-authenticity-of-a-screenshot
+
+> 📎 Source: https://superuser.com/questions/1010186/how-to-prove-the-authenticity-of-a-screenshot
+
+#### 140. Mass deleting files in Windows
+
+**Issue**: Mass deleting files in Windows
+**Tags / Source**: Tags: windows, file-management | superuser | 👍 156 | 💬 14 answers
+
+**Description**:
+Tags: windows, file-management | Score: 156 | Views: 155701 | Answers: 14
+
+**Solution / Community Answer**:
+WARNING: if you have symlinks to directories then del will delete actual directories and not symlinks. Be very careful with this and do not run these commands unless you know there are no symlinks inside target directory.
+
+
+
+I regularly need to delete lots of files and directories from a WinXP encrypted drive, typically around 22 GB of 500,000 files in 45,000 folders.
+
+Deleting with Windows Explorer is rubbish because it wastes lots of time enumerating the files. I usually move the stuff I need to delete to C:\stufftodelete and have a deletestuff.bat batch file to rmdir /s/q C:\stufftodelete. This is scheduled to run at night, but sometimes I need to run it during the day so the quicker the better.
+
+Here's the results of a quick time test of a small 5.85 MB sample of 960 files in 303 folders. I ran method 1 followed by method 2, then reset the test directories. 
+
+Method 1  removes the files and directory structure in one pass: 
+
+rmdir /s/q foldername
+
+
+Method 2 has a first pass to delete files and outputs to nul to avoid the overhead of writing to screen for every singe file. A second pass then cleans up the remaining directory structure: 
+
+del /f/s/q foldername &gt; nul
+rmdir /s/q foldername
+
+
+
+Method 1: 17.5s, 14.9s, 13.9s, 14.8s, 13.8s: average 14.98 seconds
+Method 2: 14.3s, 12.1s, 11.7s, 14.2s, 11.8s: average 12.82 seconds
+
+
+Here's results of another test using 404 MB of 19,521 files in 3,243 folders:
+
+
+Method 1: 2 minutes 20 seconds
+Method 2: 2 minutes 33 seconds
+
+
+So there's not much in it, probably too close to judge on a single test.
+
+
+
+Edit: I've retested with much more data, this is a typical case for me: 28.3 GB of 1,159,211 files in 146,918 folders:
+
+
+Method 1: 2h 15m, 2h 34m: average: 2 hours 25 minutes
+Method 2: 49m, 57m: average: 53 minutes
+
+
+Wow, method 2 is nearly three times faster than method 1! I'll be updating my deletestuff.bat!
+
+**Reference**: https://superuser.com/questions/19762/mass-deleting-files-in-windows
+
+> 📎 Source: https://superuser.com/questions/19762/mass-deleting-files-in-windows
+
+#### 141. How do I disable Aero Shake in Windows 7?
+
+**Issue**: How do I disable Aero Shake in Windows 7?
+**Tags / Source**: Tags: windows-7, windows, aero | superuser | 👍 156 | 💬 5 answers
+
+**Description**:
+Tags: windows-7, windows, aero | Score: 156 | Views: 54362 | Answers: 5
+
+**Solution / Community Answer**:
+The best way to do this is to use the Group Policy editor. Go into the start menu, type in gpedit.msc, and hit enter. When it comes up, go into User Configuration -> Administratrive Templates -> Desktop.
+
+In here you'll see a settings called "Turn off Aero Shake window minimizing mouse gesture". Set this to enabled and no more Aero Shake.
+
+Here's a picture of the Group Policy Editor, with the setting highlighted:
+
+
+
+Another option is to edit a key in the registry. If you don't have Group Policy Editor for some reason (lower end Windows 7 edition), this might be your only option. There's a downloadable reg file that will handle this automatically from the How-To Geek.
+
+**Reference**: https://superuser.com/questions/12156/how-do-i-disable-aero-shake-in-windows-7
+
+> 📎 Source: https://superuser.com/questions/12156/how-do-i-disable-aero-shake-in-windows-7
+
+#### 142. What Tiling Window Manager for Windows do you recommend?
+
+**Issue**: What Tiling Window Manager for Windows do you recommend?
+**Tags / Source**: Tags: windows, window-manager, awesome-wm | superuser | 👍 156 | 💬 3 answers
+
+**Description**:
+Tags: windows, window-manager, awesome-wm | Score: 156 | Views: 136682 | Answers: 3
+
+**Solution / Community Answer**:
+bug.n is nice, and Open Source. :-)
+
+**Reference**: https://superuser.com/questions/10347/what-tiling-window-manager-for-windows-do-you-recommend
+
+> 📎 Source: https://superuser.com/questions/10347/what-tiling-window-manager-for-windows-do-you-recommend
+
+#### 143. Is there a shortcut command in Windows command prompt to get to the current user&#39;s home directory like there is in Linux?
+
+**Issue**: Is there a shortcut command in Windows command prompt to get to the current user&#39;s home directory like there is in Linux?
+**Tags / Source**: Tags: windows, windows-vista, command-line | superuser | 👍 154 | 💬 14 answers
+
+**Description**:
+Tags: windows, windows-vista, command-line | Score: 154 | Views: 299074 | Answers: 14
+
+**Solution / Community Answer**:
+Yes, you can use %HOMEPATH%, and %HOMEDRIVE%. These contain the full path of the user's home directory (without drive letter), and the drive letter, respectively.
+
+There are quite a few other useful variables available, such as %OS% (Operating System), or %WINDIR% (Windows system directory). See Wikipedia: Environment Variables for a list.
+
+
+
+Notes:
+
+Actually, things are a bit complicated (as usual). There is also%USERPROFILE%, which does contain the drive letter, and is usually the same directory as %HOMEPATH% plus %HOMEDRIVE%. 
+
+The values of these variables, and which one is right for you, will depend on the Windows version and any changes by an administrator, as their values may be different (see e.g. the question Difference between profile and home path ).
+
+**Reference**: https://superuser.com/questions/168714/is-there-a-shortcut-command-in-windows-command-prompt-to-get-to-the-current-user
+
+> 📎 Source: https://superuser.com/questions/168714/is-there-a-shortcut-command-in-windows-command-prompt-to-get-to-the-current-user
+
+#### 144. Hex editors for Windows?
+
+**Issue**: Hex editors for Windows?
+**Tags / Source**: Tags: windows, hex-editor | superuser | 👍 154 | 💬 9 answers
+
+**Description**:
+Tags: windows, hex-editor | Score: 154 | Views: 306981 | Answers: 9
+
+**Solution / Community Answer**:
+Free Hex Editor (frhed), small and fast.
+
+**Reference**: https://superuser.com/questions/14465/hex-editors-for-windows
+
+> 📎 Source: https://superuser.com/questions/14465/hex-editors-for-windows
+
+#### 145. How do I find out command line arguments of a running program?
+
+**Issue**: How do I find out command line arguments of a running program?
+**Tags / Source**: Tags: windows-7, windows, command-line-arguments | superuser | 👍 152 | 💬 8 answers
+
+**Description**:
+Tags: windows-7, windows, command-line-arguments | Score: 152 | Views: 255178 | Answers: 8
+
+**Solution / Community Answer**:
+You can do it without Process Explorer, too, using Windows' WMI service.  Run the following from the command prompt:
+
+WMIC path win32_process get Caption,Processid,Commandline
+
+
+If you want to dump the output to a file (makes it a bit easier to read), use the /OUTPUT switch:
+
+WMIC /OUTPUT:C:\Process.txt path win32_process get Caption,Processid,Commandline
+
+**Reference**: https://superuser.com/questions/415360/how-do-i-find-out-command-line-arguments-of-a-running-program
+
+> 📎 Source: https://superuser.com/questions/415360/how-do-i-find-out-command-line-arguments-of-a-running-program
+
+#### 146. How to disable sticky corners in Windows 10
+
+**Issue**: How to disable sticky corners in Windows 10
+**Tags / Source**: Tags: multiple-monitors, mouse, windows-10 | superuser | 👍 152 | 💬 11 answers
+
+**Description**:
+Tags: multiple-monitors, mouse, windows-10 | Score: 152 | Views: 161275 | Answers: 11
+
+**Solution / Community Answer**:
+The thread
+How to disable sticky corners in Windows 10?
+from answers.microsoft.com treats this same problem :
+
+When moving the mouse from the left monitor to to the top left of the
+right monitor the 6 pixel corner will catch your mouse.
+I have similar problem in windows 8.1 and changing
+MouseCornerClipLength in registry to 0 from 6 and disable Corner
+Navigation in Taskbar and Start menu properties helped.
+Anyway in Win10 i can't find MouseCornerClipLength, Corner Navigation
+disabled at all and adding same registry keys won't help.
+
+The answer on June 4, 2015, by a Microsoft Support Engineer named Vijay B was :
+
+We are aware of this issue and it is currently being investigated.
+Stay tuned and we will update this thread when additional information
+becomes available.
+If any other posters experiencing this have not submitted this through
+the Windows Feedback App, please do so. This article
+http://answers.microsoft.com/en-us/insider/forum/insider_apps-insider_feedback/how-to-share-feedback-on-windows-10-technical/5e501781-a580-43e3-8926-40ae19343805 explains using the Windows Feedback App.
+
+It seems that your only option is currently to wait for a future improvement,
+or for some hacker to come up with the right hack.
+Adding your voice to the Windows Feedback App might help.
+[EDIT1] The open-source application Non Stick Mouse is said to offer
+a solution in the case of multiple monitors.
+The developer states:
+
+What it does is hop the mouse over the sticking corners, as well as
+the screen edges when moving windows. Thus it allows the dragging of
+windows through screens without your mouse getting hijacked by the
+Snap Assist.
+[...]
+This application does not read or write to any drive, it does not
+access the registry or connect to the Internet.
+
+Warning: It has been noted in the comments that
+virustotal finds malware in the latest version of &quot;non stick mouse&quot;.
+[EDIT2]
+I have found a
+source
+that gives a solution for Windows 10 (which I'm unable to test now):
+
+Disable Snap
+In Settings &gt; System &gt; Multitasking, set Snap to Off.
+
+Registry modification
+Create and execute the following .reg file:
+ Windows Registry Editor Version 5.00
+
+ [HKEY_CURRENT_USER\Control Panel\Desktop]
+ &quot;MouseMonitorEscapeSpeed&quot;=dword:00000001
+
+ [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ImmersiveShell\EdgeUI]
+ &quot;MouseMonitorEscapeSpeed&quot;=-
+
+
+
+[EDIT3] Microsoft might have finally disabled this in its
+latest versions.
+
+**Reference**: https://superuser.com/questions/947817/how-to-disable-sticky-corners-in-windows-10
+
+> 📎 Source: https://superuser.com/questions/947817/how-to-disable-sticky-corners-in-windows-10
+
+#### 147. Windows 10 Search not loading, showing blank window
+
+**Issue**: Windows 10 Search not loading, showing blank window
+**Tags / Source**: Tags: windows-10, windows-search | superuser | 👍 151 | 💬 3 answers
+
+**Description**:
+Tags: windows-10, windows-search | Score: 151 | Views: 53370 | Answers: 3
+
+**Solution / Community Answer**:
+This problem was the result of a temporary server-side malfunction on Microsoft's side. It has since been resolved, and affected systems should operate normally after a reboot.
+
+
+  We are aware of a temporary server-side issue causing Windows search to show a blank box. This issue has been resolved for most users and in some cases, you might need to restart your device. We are working diligently to fully resolve the issue and will provide an update once resolved. 
+  
+  This issue was resolved at 12:00 PM PST. If you are still experiencing issues, please restart your device. In rare cases, you may need to manually end the SearchUI.exe or SearchApp.exe process via Task Manager. (To locate these processes, select CTRL + Shift + Esc then select the Details tab.)
+
+
+- source
+
+The problem seemed to be related to certain online-enabled features tied to the search menu, namely Bing Search and Cortana. Disabling these features allowed other features of the search menu to begin functioning again.
+
+The following steps explain how to disable Bing Search and Cortana in the search menu.
+
+
+Open Regedit and navigate to   HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search
+
+
+
+ 2. Right-click the Search icon and choose New > DWORD (32-bit) Value. Name the new value BingSearchEnabled
+
+
+ 3. Double-click the new BingSearchEnabled value to open its properties dialog. The number in the “Value data” box should already be 0—just ensure it’s still 0. Click OK to continue
+
+
+ 4. Below BingSearchEnabled, you should see  CortanaConsent. Double-click this value to open its properties dialog. Change its “Value Data” box to “0”.
+
+If you don’t see CortanaConsent, create it by following the same steps you used to create BingSearchEnabled.
+
+
+
+Restart Explorer.Exe or PC and allgood
+
+Source How to Disable Bing in the Windows 10 Start Menu
+
+**Reference**: https://superuser.com/questions/1522905/windows-10-search-not-loading-showing-blank-window
+
+> 📎 Source: https://superuser.com/questions/1522905/windows-10-search-not-loading-showing-blank-window
+
+#### 148. How can I unzip a .tar.gz in one step (using 7-Zip)?
+
+**Issue**: How can I unzip a .tar.gz in one step (using 7-Zip)?
+**Tags / Source**: Tags: windows, tar, 7-zip | superuser | 👍 150 | 💬 8 answers
+
+**Description**:
+Tags: windows, tar, 7-zip | Score: 150 | Views: 295447 | Answers: 8
+
+**Solution / Community Answer**:
+Not really.  A .tar.gz or .tgz file really is two formats: .tar is the archive, and .gz is the compression.  So the first step decompresses, and the second step extracts the archive.
+
+To do it all in one step, you need the tar program.  Cygwin includes this.
+
+tar xzvf foobaz.tar.gz
+
+; x = eXtract 
+; z = filter through gZip
+; v = be Verbose (show activity)
+; f = filename
+
+
+You could also do it "in one step" by opening the file in the 7-zip GUI: Open the .tar.gz file, double click the included .tar file, then extract those files to your location of choice.
+
+There's a long running thread here of people asking/voting for one-step handling of tgz and bz2 files. The lack action thus far indicates it's not going to happen until someone steps and contributes meaningfully (code, money, something).
+
+**Reference**: https://superuser.com/questions/80019/how-can-i-unzip-a-tar-gz-in-one-step-using-7-zip
+
+> 📎 Source: https://superuser.com/questions/80019/how-can-i-unzip-a-tar-gz-in-one-step-using-7-zip
+
+#### 149. Is it safe to delete from C:\Windows\Installer?
+
+**Issue**: Is it safe to delete from C:\Windows\Installer?
+**Tags / Source**: Tags: windows-7, windows, windows-10, windows-xp, disk-space | superuser | 👍 149 | 💬 9 answers
+
+**Description**:
+Tags: windows-7, windows, windows-10, windows-xp, disk-space | Score: 149 | Views: 205679 | Answers: 9
+
+**Solution / Community Answer**:
+No, it's not. Windows Installer uses that to cache installation files for anything installed on the machine using Windows Installer. At a minimum, you could lose the ability to add or remove programs, at the worst, you may lose the ability to run some programs.
+
+Since Windows Update can also deploy Windows Installer patches, you could also prevent your machine from receiving Windows and Office updates.
+
+**Reference**: https://superuser.com/questions/23479/is-it-safe-to-delete-from-c-windows-installer
+
+> 📎 Source: https://superuser.com/questions/23479/is-it-safe-to-delete-from-c-windows-installer
+
+#### 150. Windows 10 &quot;Enable NTFS long paths policy&quot; option missing
+
+**Issue**: Windows 10 &quot;Enable NTFS long paths policy&quot; option missing
+**Tags / Source**: Tags: windows, windows-10, ntfs, filenames, windows-10-v1607 | superuser | 👍 149 | 💬 2 answers
+
+**Description**:
+Tags: windows, windows-10, ntfs, filenames, windows-10-v1607 | Score: 149 | Views: 319508 | Answers: 2
+
+**Solution / Community Answer**:
+The value has moved from NTFS directly into Local Computer Policy &gt; Computer Configuration &gt; Administrative Templates &gt; System &gt; Filesystem in the RTM version of the Version 1607.
+
+**Reference**: https://superuser.com/questions/1119883/windows-10-enable-ntfs-long-paths-policy-option-missing
+
+> 📎 Source: https://superuser.com/questions/1119883/windows-10-enable-ntfs-long-paths-policy-option-missing
 
 
 

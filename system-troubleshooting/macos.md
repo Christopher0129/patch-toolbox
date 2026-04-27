@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 04:29:12 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 05:05:47 UTC_
 
 ## 中文 🇨🇳
 **macOS 常见故障及解决方法**
@@ -54,7 +54,7 @@ You may get an error message: &quot;Can't install the software because it is not
 **标签 / 来源**: Tags: macos, command-line, homebrew, open-source | apple | 👍 1068 | 💬 11 answers
 
 **问题描述**:
-Tags: macos, command-line, homebrew, open-source | Score: 1068 | Views: 1439806 | Answers: 11
+Tags: macos, command-line, homebrew, open-source | Score: 1068 | Views: 1439809 | Answers: 11
 
 **解决方法 / 社区答案**:
 brew list and brew list --cask
@@ -72,7 +72,7 @@ If you wish to list casks only, brew list --cask will provide the items installe
 **标签 / 来源**: Tags: macos, kernel | apple | 👍 712 | 💬 16 answers
 
 **问题描述**:
-Tags: macos, kernel | Score: 712 | Views: 615533 | Answers: 16
+Tags: macos, kernel | Score: 712 | Views: 615534 | Answers: 16
 
 **解决方法 / 社区答案**:
 TLDR; If your MacBook Pro runs hot or shows a high % CPU for the kernel task, try charging on the right and not on the left.
@@ -116,7 +116,7 @@ Otherwise guessing and testing is the only way. Of course that leads to false co
 **标签 / 来源**: Tags: macos, keyboard, google-chrome | apple | 👍 654 | 💬 15 answers
 
 **问题描述**:
-Tags: macos, keyboard, google-chrome | Score: 654 | Views: 935240 | Answers: 15
+Tags: macos, keyboard, google-chrome | Score: 654 | Views: 935244 | Answers: 15
 
 **解决方法 / 社区答案**:
 UK Keyboard
@@ -182,7 +182,7 @@ Finder window.
 **标签 / 来源**: Tags: macos, keyboard | apple | 👍 587 | 💬 13 answers
 
 **问题描述**:
-Tags: macos, keyboard | Score: 587 | Views: 228305 | Answers: 13
+Tags: macos, keyboard | Score: 587 | Views: 228306 | Answers: 13
 
 **解决方法 / 社区答案**:
 The default shortcuts for moving to beginning or end of (wrapped) lines are ⌘← and ⌘→. ⌥↑ and ⌥↓ or ⌃A and ⌃E move to the beginning or end of unwrapped lines (or paragraphs). ⌥← and ⌥→ move backwards/forward by words, and all of these are compatible with holding Shift to select during the corresponding moves.
@@ -211,7 +211,7 @@ PS: You may need to logout and login again for the ~/Library/KeyBindings/Default
 **标签 / 来源**: Tags: macos, mac, spaces, mission-control | apple | 👍 539 | 💬 2 answers
 
 **问题描述**:
-Tags: macos, mac, spaces, mission-control | Score: 539 | Views: 207135 | Answers: 2
+Tags: macos, mac, spaces, mission-control | Score: 539 | Views: 207136 | Answers: 2
 
 **解决方法 / 社区答案**:
 General Solution
@@ -245,7 +245,7 @@ This echoes the behaviour of Cmd/Tab or equivalent in most operating systems, so
 **标签 / 来源**: Tags: macos, applications, command-line | apple | 👍 508 | 💬 1 answers
 
 **问题描述**:
-Tags: macos, applications, command-line | Score: 508 | Views: 865921 | Answers: 1
+Tags: macos, applications, command-line | Score: 508 | Views: 865922 | Answers: 1
 
 **解决方法 / 社区答案**:
 To open your current directory in Finder from Terminal, type open .
@@ -281,7 +281,7 @@ I answered a similar question: cmd-tab behavior on Mavericks with multiple displ
 **标签 / 来源**: Tags: macos, command-line, file, symlink | apple | 👍 484 | 💬 7 answers
 
 **问题描述**:
-Tags: macos, command-line, file, symlink | Score: 484 | Views: 724804 | Answers: 7
+Tags: macos, command-line, file, symlink | Score: 484 | Views: 724805 | Answers: 7
 
 **解决方法 / 社区答案**:
 ┌── ln(1) link, ln -- make links
@@ -325,7 +325,7 @@ To create a symlink to replace a system directory (e.g. if you want to have /Use
 **标签 / 来源**: Tags: macos, network, command-line | apple | 👍 451 | 💬 11 answers
 
 **问题描述**:
-Tags: macos, network, command-line | Score: 451 | Views: 1668077 | Answers: 11
+Tags: macos, network, command-line | Score: 451 | Views: 1668082 | Answers: 11
 
 **解决方法 / 社区答案**:
 Local IP address
@@ -364,7 +364,7 @@ When you run this command, it queries the ns1.google.com DNS server for the TXT 
 **标签 / 来源**: Tags: macbook-pro, spotlight, cpu | apple | 👍 450 | 💬 15 answers
 
 **问题描述**:
-Tags: macbook-pro, spotlight, cpu | Score: 450 | Views: 679869 | Answers: 15
+Tags: macbook-pro, spotlight, cpu | Score: 450 | Views: 679870 | Answers: 15
 
 **解决方法 / 社区答案**:
 As you know, the mds and mds_stores are Spotlight activities.
@@ -533,7 +533,7 @@ NOTE: If you need help in selecting colors to use you can use this online tool c
 **标签 / 来源**: Tags: terminal, bash, zsh, macos | apple | 👍 389 | 💬 4 answers
 
 **问题描述**:
-Tags: terminal, bash, zsh, macos | Score: 389 | Views: 337246 | Answers: 4
+Tags: terminal, bash, zsh, macos | Score: 389 | Views: 337247 | Answers: 4
 
 **解决方法 / 社区答案**:
 First, some important things:
@@ -1008,7 +1008,7 @@ it will work a bit better. From the scutil(8) man page:
 **标签 / 来源**: Tags: macos, temperature, command-line, monitoring | apple | 👍 324 | 💬 14 answers
 
 **问题描述**:
-Tags: macos, temperature, command-line, monitoring | Score: 324 | Views: 574589 | Answers: 14
+Tags: macos, temperature, command-line, monitoring | Score: 324 | Views: 574590 | Answers: 14
 
 **解决方法 / 社区答案**:
 Option #1) you may consider using inbuilt utility powermetrics to get the cpu and gpu temperature and lot more other details.
@@ -1062,7 +1062,7 @@ Editing hidden files can be dangerous if you don't know what you're doing.
 **标签 / 来源**: Tags: macos, finder, file | apple | 👍 321 | 💬 32 answers
 
 **问题描述**:
-Tags: macos, finder, file | Score: 321 | Views: 609448 | Answers: 32
+Tags: macos, finder, file | Score: 321 | Views: 609449 | Answers: 32
 
 **解决方法 / 社区答案**:
 You can also do this in Terminal. Go to the directory where you want to create the file, then run the following:
@@ -1285,7 +1285,7 @@ the "gnuman" directory to your MANPATH from your bashrc as well:
 **标签 / 来源**: Tags: macos, file | apple | 👍 275 | 💬 14 answers
 
 **问题描述**:
-Tags: macos, file | Score: 275 | Views: 394183 | Answers: 14
+Tags: macos, file | Score: 275 | Views: 394184 | Answers: 14
 
 **解决方法 / 社区答案**:
 You can't avoid them (but see the dot_clean answer by Saeid Zebardast --they can be removed from a directory if that is what you need).  They're created to store file information that would otherwise go into an extended attribute on HFS+ (Apple native) or Unix/UFS volumes; in earlier Mac OS this would be the resource fork.  Finder file operations will create them automatically to store the icon information, plus Time Machine stores some information in them so if you copy a file backed up via TM it will have that information copied as well.
@@ -1689,7 +1689,7 @@ Other emoji have Unicode hex numbers with 5 characters, such as Grinning Face U+
 **标签 / 来源**: Tags: macos, usb | apple | 👍 212 | 💬 2 answers
 
 **问题描述**:
-Tags: macos, usb | Score: 212 | Views: 565191 | Answers: 2
+Tags: macos, usb | Score: 212 | Views: 565192 | Answers: 2
 
 **解决方法 / 社区答案**:
 In addition to system_profiler SPUSBDataType (suggested by @kjs), you can also use ioreg -p IOUSB:
@@ -1764,7 +1764,7 @@ Menu method: It's not part of the Apple menu system to 'cut' files.  The menu Cu
 **标签 / 来源**: Tags: macos, hard-drive, file | apple | 👍 211 | 💬 6 answers
 
 **问题描述**:
-Tags: macos, hard-drive, file | Score: 211 | Views: 761138 | Answers: 6
+Tags: macos, hard-drive, file | Score: 211 | Views: 761140 | Answers: 6
 
 **解决方法 / 社区答案**:
 It's generally safe, though a little dangerous depending, to do it but often not worth the effort.
@@ -1872,7 +1872,7 @@ To check command line options for the openssl sha command: openssl sha -help.
 **标签 / 来源**: Tags: dock, macos | apple | 👍 204 | 💬 12 answers
 
 **问题描述**:
-Tags: dock, macos | Score: 204 | Views: 253798 | Answers: 12
+Tags: dock, macos | Score: 204 | Views: 253799 | Answers: 12
 
 **解决方法 / 社区答案**:
 To make the Dock instantly leap back into view when it’s needed, rather than slide, open a Terminal window and type the following:
@@ -1913,7 +1913,7 @@ It allows you to restore trashed files via command line or the Finder.
 **标签 / 来源**: Tags: macbook-pro, audio | apple | 👍 202 | 💬 8 answers
 
 **问题描述**:
-Tags: macbook-pro, audio | Score: 202 | Views: 272560 | Answers: 8
+Tags: macbook-pro, audio | Score: 202 | Views: 272561 | Answers: 8
 
 **解决方法 / 社区答案**:
 sudo pkill coreaudiod
@@ -2268,7 +2268,7 @@ Click the annotations button in the toolbar and use the drop down menu next to t
 **标签 / 来源**: Tags: macos, photos, pdf, preview | apple | 👍 180 | 💬 9 answers
 
 **问题描述**:
-Tags: macos, photos, pdf, preview | Score: 180 | Views: 327358 | Answers: 9
+Tags: macos, photos, pdf, preview | Score: 180 | Views: 327359 | Answers: 9
 
 **解决方法 / 社区答案**:
 Do as follows:
@@ -2624,7 +2624,7 @@ In my case it was the Network Monitor from Little Snitch that seemed to be the b
 **标签 / 来源**: Tags: keyboard, display, macos | apple | 👍 170 | 💬 7 answers
 
 **问题描述**:
-Tags: keyboard, display, macos | Score: 170 | Views: 373483 | Answers: 7
+Tags: keyboard, display, macos | Score: 170 | Views: 373484 | Answers: 7
 
 **解决方法 / 社区答案**:
 Refer to the original page for detailed solutions and community answers.
@@ -3014,7 +3014,7 @@ Refer to the original page for detailed solutions and community answers.
 **标签 / 来源**: Tags: macos, command-line | apple | 👍 151 | 💬 16 answers
 
 **问题描述**:
-Tags: macos, command-line | Score: 151 | Views: 675404 | Answers: 16
+Tags: macos, command-line | Score: 151 | Views: 675405 | Answers: 16
 
 **解决方法 / 社区答案**:
 You can use the terminal command screen to do this!!!
@@ -3288,6 +3288,1397 @@ Quit your web browser and check if that helps. For example using Chrome is very 
 
 > 📎 来源 / Source: https://apple.stackexchange.com/questions/178281/how-to-investigate-high-kernel-task-memory-usage
 
+#### 101. git auto-complete for *branches* at the command line?
+
+**故障现象**: git auto-complete for *branches* at the command line?
+**标签 / 来源**: Tags: terminal, command-line, bash, auto-complete, git | apple | 👍 488 | 💬 16 answers
+
+**问题描述**:
+Tags: terminal, command-line, bash, auto-complete, git | Score: 488 | Views: 332073 | Answers: 16
+
+**解决方法 / 社区答案**:
+Ok, so I needed the git autocompletion script.
+I got that from this url using the following command in the Terminal app:
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+
+No need to worry about what directory you're in when you run this as your home directory(~) is used with the target.
+Then I added to my ~/.bash_profile file the following 'execute if it exists' code:
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
+Update: I'm making these bits of code more concise to shrink down my .bashrc file, in this case I now use:
+test -f ~/.git-completion.bash &amp;&amp; . $_
+
+Note: $_ means the last argument to the previous command. so . $_ means run it - &quot;it&quot; being .git-completion.bash in this case
+This still works on both Ubuntu and OSX and on machines without the script .git-completion.bash script.
+Now git Tab (actually it's git TabTab ) works like a charm!
+p.s.: If this doesn't work off the bat, you may need to run chmod u+x ~/.git-completion.bash to grant yourself the necessary permission:
+
+chmod is the command that modifies file permissions
+u means the user that owns the file, by default its creator, i.e. you
++ means set/activate/add a permission
+x means execute permission, i.e. the ability to run the script
+
+**参考链接**: https://apple.stackexchange.com/questions/55875/git-auto-complete-for-branches-at-the-command-line
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/55875/git-auto-complete-for-branches-at-the-command-line
+
+#### 102. What is the difference between .bash_profile and .bashrc?
+
+**故障现象**: What is the difference between .bash_profile and .bashrc?
+**标签 / 来源**: Tags: terminal, command-line, bash | apple | 👍 433 | 💬 5 answers
+
+**问题描述**:
+Tags: terminal, command-line, bash | Score: 433 | Views: 360248 | Answers: 5
+
+**解决方法 / 社区答案**:
+.bash_profile is executed for login shells, while .bashrc is executed for interactive non-login shells.
+
+When you login (type username and password) via console, either sitting at the machine, or remotely via ssh: .bash_profile is executed to configure your shell before the initial command prompt.
+
+But, if you’ve already logged into your machine and open a new terminal window (xterm) then .bashrc is executed before the window command prompt. .bashrc is also run when you start a new bash instance by typing /bin/bash in a terminal.
+
+On OS X, Terminal by default runs a login shell every time, so this is a little different to most other systems, but you can configure that in the preferences.
+
+**参考链接**: https://apple.stackexchange.com/questions/51036/what-is-the-difference-between-bash-profile-and-bashrc
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/51036/what-is-the-difference-between-bash-profile-and-bashrc
+
+#### 103. Why doesn&#39;t .bashrc run automatically?
+
+**故障现象**: Why doesn&#39;t .bashrc run automatically?
+**标签 / 来源**: Tags: terminal, command-line, bash | apple | 👍 288 | 💬 14 answers
+
+**问题描述**:
+Tags: terminal, command-line, bash | Score: 288 | Views: 574354 | Answers: 14
+
+**解决方法 / 社区答案**:
+Been there, done that. What I came aware of, OS X doesn't read .bashrc file on bash start. Instead, it reads the following files (in the following order):
+
+
+/etc/profile
+~/.bash_profile
+~/.bash_login   
+~/.profile
+
+
+See also Chris Johnsen's informative and useful comment:
+
+
+  By default, Terminal starts the shell via /usr/bin/login, which makes the shell a login shell. On every platform (not just Mac OS X) bash does not use .bashrc for login shells (only /etc/profile and the first of .bash_profile, .bash_login, .profile that exists and is readable). This is why "put source ~/.bashrc in your .bash_profile" is standard advice
+
+
+I usually just put the things that I'd normally put in ~/.bashrc to ~/.profile — has worked so far like a charm.
+
+**参考链接**: https://apple.stackexchange.com/questions/12993/why-doesnt-bashrc-run-automatically
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/12993/why-doesnt-bashrc-run-automatically
+
+#### 104. How to use terminal to copy a file to the clipboard?
+
+**故障现象**: How to use terminal to copy a file to the clipboard?
+**标签 / 来源**: Tags: mac, terminal | apple | 👍 286 | 💬 11 answers
+
+**问题描述**:
+Tags: mac, terminal | Score: 286 | Views: 274471 | Answers: 11
+
+**解决方法 / 社区答案**:
+If I'm understanding the question right, what you're after is pbcopy and pbpaste.
+Open a terminal and run:
+cat ~/Desktop/ded.html | pbcopy
+
+The file is now in your clipboard.
+To put it somewhere else (i.e. paste it) run:
+pbpaste &gt; ~/Documents/ded.html
+
+Now you should have a copy of ded.html sitting in ~/Documents.
+
+**参考链接**: https://apple.stackexchange.com/questions/15318/how-to-use-terminal-to-copy-a-file-to-the-clipboard
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/15318/how-to-use-terminal-to-copy-a-file-to-the-clipboard
+
+#### 105. Is there a Mac OS X Terminal version of the &quot;free&quot; command in Linux systems?
+
+**故障现象**: Is there a Mac OS X Terminal version of the &quot;free&quot; command in Linux systems?
+**标签 / 来源**: Tags: terminal, memory, command-line | apple | 👍 262 | 💬 22 answers
+
+**问题描述**:
+Tags: terminal, memory, command-line | Score: 262 | Views: 380680 | Answers: 22
+
+**解决方法 / 社区答案**:
+As @khedron says, you can see this info in Activity Monitor.
+If you want it on the command line, here is a Python script that I wrote (or perhaps modified from someone else's, I can't remember, it's quite old now) to show you the Wired, Active, Inactive and Free memory amounts:
+#!/usr/bin/python
+
+import subprocess
+import re
+
+# Get process info
+ps = subprocess.Popen(['ps', '-caxm', '-orss,comm'], stdout=subprocess.PIPE).communicate()[0].decode()
+vm = subprocess.Popen(['vm_stat'], stdout=subprocess.PIPE).communicate()[0].decode()
+
+# Iterate processes
+processLines = ps.split('\n')
+sep = re.compile('[\s]+')
+rssTotal = 0 # kB
+for row in range(1,len(processLines)):
+    rowText = processLines[row].strip()
+    rowElements = sep.split(rowText)
+    try:
+        rss = float(rowElements[0]) * 1024
+    except:
+        rss = 0 # ignore...
+    rssTotal += rss
+
+# Process vm_stat
+vmLines = vm.split('\n')
+sep = re.compile(':[\s]+')
+vmStats = {}
+for row in range(1,len(vmLines)-2):
+    rowText = vmLines[row].strip()
+    rowElements = sep.split(rowText)
+    vmStats[(rowElements[0])] = int(rowElements[1].strip('\.')) * 4096
+
+print('Wired Memory:\t\t%d MB' % (vmStats[&quot;Pages wired down&quot;]/1024/1024))
+print('Active Memory:\t\t%d MB' % (vmStats[&quot;Pages active&quot;]/1024/1024))
+print('Inactive Memory:\t%d MB' % (vmStats[&quot;Pages inactive&quot;]/1024/1024))
+print('Free Memory:\t\t%d MB' % (vmStats[&quot;Pages free&quot;]/1024/1024))
+print('Real Mem Total (ps):\t%.3f MB' % (rssTotal/1024/1024))
+
+As you can see, you can just call vm_stat from the command line, though it counts in 4kB pages, hence the script to convert to MB.
+The script also counts up the &quot;real memory&quot; usage of all running processes for comparison (this won't match any specific value(s) from overall memory stats, because memory is a complex beast).
+
+Here's an example of the output of the script on my system:
+[user@host:~] % memReport.py
+Wired Memory:           1381 MB
+Active Memory:          3053 MB
+Inactive Memory:        727 MB
+Free Memory:            1619 MB
+Real Mem Total (ps):    3402.828 MB
+
+(very slightly adjusted to match the tab sizing on StackExchange ;)
+
+**参考链接**: https://apple.stackexchange.com/questions/4286/is-there-a-mac-os-x-terminal-version-of-the-free-command-in-linux-systems
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/4286/is-there-a-mac-os-x-terminal-version-of-the-free-command-in-linux-systems
+
+#### 106. What is the difference between iTerm2 and Terminal?
+
+**故障现象**: What is the difference between iTerm2 and Terminal?
+**标签 / 来源**: Tags: terminal, command-line, iterm | apple | 👍 208 | 💬 10 answers
+
+**问题描述**:
+Tags: terminal, command-line, iterm | Score: 208 | Views: 254811 | Answers: 10
+
+**解决方法 / 社区答案**:
+There are several features listed on their features page.
+
+Some of the features I like are:
+
+
+Split pane view
+Hotkey window for instant terminal anywhere
+Search will highlight all found words (like in Chrome and Safari)
+Mouseless copy
+Instant replay (can "rewind" your session in case you forgot to note/copy something)
+Paste history
+Growl support for notification when a process completes
+
+**参考链接**: https://apple.stackexchange.com/questions/25143/what-is-the-difference-between-iterm2-and-terminal
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/25143/what-is-the-difference-between-iterm2-and-terminal
+
+#### 107. How can I open a Terminal window directly from my current Finder location?
+
+**故障现象**: How can I open a Terminal window directly from my current Finder location?
+**标签 / 来源**: Tags: terminal, finder | apple | 👍 207 | 💬 18 answers
+
+**问题描述**:
+Tags: terminal, finder | Score: 207 | Views: 407489 | Answers: 18
+
+**解决方法 / 社区答案**:
+As of Mac OS X Lion 10.7, Terminal provides Services for opening a new terminal window or tab at the selected folder in Finder. They also work with absolute pathnames selected in text (in any application). You can enable these services with System Preferences > Keyboard > Keyboard Shortcuts > Services. Look for "New Terminal at Folder" and "New Terminal Tab at Folder". You can also assign them shortcut keys.
+
+In addition, you can now drag folders (and pathnames) onto the Terminal application icon to open a new terminal window, or onto a tab bar in a terminal window to create a new tab in that window. If you drag onto a tab (rather than into the terminal view) it will execute a complete cd command to switch to that directory without any additional typing.
+
+As of OS X Mountain Lion 10.8, Command-Dragging into a terminal will also execute a complete cd command.
+
+Note: The New Terminal at Folder service will become active when you select a folder in Finder. You cannot simply have the folder open and run the service "in place". Go back to the parent folder, select the relevant folder, then activate the service via the Services menu or context menu.
+
+**参考链接**: https://apple.stackexchange.com/questions/11323/how-can-i-open-a-terminal-window-directly-from-my-current-finder-location
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/11323/how-can-i-open-a-terminal-window-directly-from-my-current-finder-location
+
+#### 108. iTerm as a slide-out terminal from the top of the screen
+
+**故障现象**: iTerm as a slide-out terminal from the top of the screen
+**标签 / 来源**: Tags: terminal, iterm | apple | 👍 193 | 💬 6 answers
+
+**问题描述**:
+Tags: terminal, iterm | Score: 193 | Views: 171843 | Answers: 6
+
+**解决方法 / 社区答案**:
+You can use iTerm2's system-wide hotkey with the Hotkey Window profile to do this.
+In iTerm2 preferences, click on the &quot;Keys&quot; tab and choose &quot;Hotkey&quot;. Click &quot;Create a Dedicated Hotkey Window…&quot; and assign the hotkey you'd like to use.
+Check the &quot;Hotkey toggles a dedicated window with profile:&quot; option and choose &quot;Hotkey Window&quot; in the popup menu below (should be selected by default).
+With default settings, the Hotkey Profile window will stretch across the top of the screen, and the hotkey will drop the window down from the top, complete with animation.
+
+
+You can customize the settings for the &quot;Hotkey Window&quot; profile under the &quot;Profiles&quot; tab. To make it look like a Quake drop-down terminal, you can use similar &quot;Window&quot; preferences:
+
+**参考链接**: https://apple.stackexchange.com/questions/48796/iterm-as-a-slide-out-terminal-from-the-top-of-the-screen
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/48796/iterm-as-a-slide-out-terminal-from-the-top-of-the-screen
+
+#### 109. How do I delete all Terminal mail?
+
+**故障现象**: How do I delete all Terminal mail?
+**标签 / 来源**: Tags: terminal, email, unix | apple | 👍 174 | 💬 4 answers
+
+**问题描述**:
+Tags: terminal, email, unix | Score: 174 | Views: 149574 | Answers: 4
+
+**解决方法 / 社区答案**:
+Launch the UNIX mail utility by running the following at the command prompt (in e.g. Terminal.app):
+$ mail
+
+You'll see a list of all your messages. From the mail prompt, do
+? delete *
+? q
+
+And that should be it. Make sure to enter q after the delete * command. This will save the changes to disk.
+
+**参考链接**: https://apple.stackexchange.com/questions/28745/how-do-i-delete-all-terminal-mail
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/28745/how-do-i-delete-all-terminal-mail
+
+#### 110. How do I set environment variables on OS X?
+
+**故障现象**: How do I set environment variables on OS X?
+**标签 / 来源**: Tags: terminal, bash, environment-variables | apple | 👍 173 | 💬 12 answers
+
+**问题描述**:
+Tags: terminal, bash, environment-variables | Score: 173 | Views: 910373 | Answers: 12
+
+**解决方法 / 社区答案**:
+I have a .profile in my home directory; it contains many export … statements for environment variables.
+You can create such a file by opening a Terminal and issuing the command touch .profile.
+Close Terminal.
+Then you should open that file in a plain-text editor (TextWrangler for example). You can also use nano .profile in a Terminal window (current directory should be your home), which is much easier than vi. Insert lines such as export JAVA_HOME=…. Save, exit nano if you used that and quit a running Terminal.
+Open Terminal and issue the command env to see all environment variables. Check that the ones you defined have the value you assigned to them. You should be good to go now but don't forget that environment variables defined in .profile are not passed to GUI applications.
+
+**参考链接**: https://apple.stackexchange.com/questions/106778/how-do-i-set-environment-variables-on-os-x
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/106778/how-do-i-set-environment-variables-on-os-x
+
+#### 111. How can I mount an SMB share from the command line?
+
+**故障现象**: How can I mount an SMB share from the command line?
+**标签 / 来源**: Tags: terminal, smb, mount | apple | 👍 162 | 💬 9 answers
+
+**问题描述**:
+Tags: terminal, smb, mount | Score: 162 | Views: 553962 | Answers: 9
+
+**解决方法 / 社区答案**:
+Use the open(1) command and a URL:
+
+open 'smb://username:password@server/share'
+
+
+Pros: Creates the mount point in /Volumes for you.
+
+Cons: Requires the Finder to be running.
+
+**参考链接**: https://apple.stackexchange.com/questions/697/how-can-i-mount-an-smb-share-from-the-command-line
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/697/how-can-i-mount-an-smb-share-from-the-command-line
+
+#### 112. How can I keep my Mac awake AND locked?
+
+**故障现象**: How can I keep my Mac awake AND locked?
+**标签 / 来源**: Tags: macos, security, sleep-wake, power | apple | 👍 147 | 💬 8 answers
+
+**问题描述**:
+Tags: macos, security, sleep-wake, power | Score: 147 | Views: 221872 | Answers: 8
+
+**解决方法 / 社区答案**:
+In System Preferences &gt; Energy Saver, check the box for &quot;Prevent computer from sleeping automatically when the display is off&quot; (on laptops, this is under the Power Adapter tab)
+In System Preferences &gt; Security &amp; Privacy, check the box for &quot;Require password after sleep or screen saver begins&quot; and set the delay in the dropdown menu to &quot;immediately&quot;
+
+Now, you can hit command+option+Q  to turn off the display without sleeping the computer, and doing anything that turns on the display (like hitting a key or clicking a mouse button) will prompt you for your account password.
+On older Macs, the shortcut is different: command+option+Power or control+shift+power.
+
+**参考链接**: https://apple.stackexchange.com/questions/76107/how-can-i-keep-my-mac-awake-and-locked
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/76107/how-can-i-keep-my-mac-awake-and-locked
+
+#### 113. How to open a new tab in iTerm in the same folder as the one that is open?
+
+**故障现象**: How to open a new tab in iTerm in the same folder as the one that is open?
+**标签 / 来源**: Tags: terminal, iterm | apple | 👍 147 | 💬 4 answers
+
+**问题描述**:
+Tags: terminal, iterm | Score: 147 | Views: 63617 | Answers: 4
+
+**解决方法 / 社区答案**:
+Select "Reuse previous session's directory" from the preferences of your profile:
+
+
+
+Alternatively click on "Advanced Configuration" then "Edit..." so you can set the working directory separately for new windows, new tabs &amp; new split panes
+
+**参考链接**: https://apple.stackexchange.com/questions/148508/how-to-open-a-new-tab-in-iterm-in-the-same-folder-as-the-one-that-is-open
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/148508/how-to-open-a-new-tab-in-iterm-in-the-same-folder-as-the-one-that-is-open
+
+#### 114. The volume can&#39;t be ejected because it&#39;s currently in use
+
+**故障现象**: The volume can&#39;t be ejected because it&#39;s currently in use
+**标签 / 来源**: Tags: external-disk, eject, macos | apple | 👍 145 | 💬 10 answers
+
+**问题描述**:
+Tags: external-disk, eject, macos | Score: 145 | Views: 203648 | Answers: 10
+
+**解决方法 / 社区答案**:
+lsof is indeed your best bet. The fastest and easiest way would be this :-
+sudo lsof /Volumes/myDrive
+
+(be sure to run with sudo otherwise it probably won't work as intended)
+It can take a couple minutes to run, but once it's complete, it gives you a list of open files on the disk. The output will look something like this:
+COMMAND    PID  USER   FD   TYPE DEVICE SIZE/OFF  NODE NAME
+mds         89  root   19r   DIR   52,3      432     2 /Volumes/Photos
+mds         89  root   23r   DIR   52,3      432     2 /Volumes/Photos
+Finder     681 alans   14r   DIR   52,3      432     2 /Volumes/Photos
+QuickLook 2158 alans    9r   REG   52,3  1141591 78651 /Volumes/Photos/_tmp_iphone_10_backup/APC_1546.JPG  
+
+In this case, it's the QuickLook application that has a file open. Closing the application directly is the best way to fix the issue. However, that's not always possible. For example, QuickLook doesn't show up as an application you can get to in the Dock.
+If you can't close the application manually, you can use the kill command to terminate it from the command line. To do that, use the PID from the second column as the ID to kill. From the above example, it would be:
+kill 2158
+
+Note that sometimes that doesn't work and a more aggressive form of kill must be used. Here's a series of escalating aggressiveness (using the example PID of 2158):
+kill 2158
+sudo kill 2158
+sudo kill -INT 2158
+sudo kill -KILL 2158
+
+You should be able to eject the disk once the process/application has been killed.
+One final note, lsof can take a minute or two. It can also hang, but you should give it at least a few minutes before you decide that's what happened.
+Also, sometimes the base command sudo lsof /Volumes/myDrive won't find anything. If that happens, try adding the +D argument (i.e. sudo lsof +D /Volumes/myDrive). That will do a top down scan of the disk. It'll take longer, but it should pick up anything that's causing the disk to be un-ejectable.
+(Hat tip to Alec Jacobson's post for extra details.)
+
+**参考链接**: https://apple.stackexchange.com/questions/104842/the-volume-cant-be-ejected-because-its-currently-in-use
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/104842/the-volume-cant-be-ejected-because-its-currently-in-use
+
+#### 115. How can I list and edit all defined aliases in Terminal?
+
+**故障现象**: How can I list and edit all defined aliases in Terminal?
+**标签 / 来源**: Tags: terminal, bash, alias | apple | 👍 145 | 💬 3 answers
+
+**问题描述**:
+Tags: terminal, bash, alias | Score: 145 | Views: 302446 | Answers: 3
+
+**解决方法 / 社区答案**:
+All you need to do is type alias at the prompt and any active aliases will be listed.
+
+Aliases are usually loaded at initialization of your shell so look in .bash_profile or .bashrc in your home directory.  
+
+unalias will only work for your current session.  Unless you find where it is defined and loaded, it will be loaded again when you start a new Terminal session.
+
+~/.bashrc gets run for both login and non-login shells, ~/.bash_profile only gets run for login shells.  
+
+See login shell vs non-login shell
+
+As per comment from Chris Page:
+
+You should put most of your customizations (including aliases) in ~/.bashrc and have ~/.bash_profile run ~/.bashrc, so they apply to both login (~/.bash_profile) and non-login (~/.bashrc) shells. Also, decide which of these should be "primary" and if the profile is your choice, tack on the rc file at the end. If the rc file is primary, source that at the beginning of your profile
+
+These lines should be in the file ~/.bash_profile:
+
+if [ -f "$HOME/.bashrc" ] ; then
+  source $HOME/.bashrc
+fi
+
+
+This will include ~/.bashrc for login shells and in the order you wish if one file depends upon the other based on what you are setting.
+
+**参考链接**: https://apple.stackexchange.com/questions/25352/how-can-i-list-and-edit-all-defined-aliases-in-terminal
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/25352/how-can-i-list-and-edit-all-defined-aliases-in-terminal
+
+#### 116. Replace Text Edit as the default text editor
+
+**故障现象**: Replace Text Edit as the default text editor
+**标签 / 来源**: Tags: macos, text-editor, launch-services | apple | 👍 144 | 💬 11 answers
+
+**问题描述**:
+Tags: macos, text-editor, launch-services | Score: 144 | Views: 137559 | Answers: 11
+
+**解决方法 / 社区答案**:
+Another option is to use duti (https://github.com/moretension/duti).
+Run brew install duti, save a filetype like this as:
+duti -s com.sublimetext.4 public.plain-text all
+
+The changes should be applied immediately, so you don't have to restart like when editing com.apple.LaunchServices.plist.
+To also change the default application for executable scripts with no filename extension, add a line like this:
+duti -s com.sublimetext.4 public.unix-executable all
+
+Some files are also considered 'public.data', not 'public.plain-text', so you can do this as well:
+duti -s com.sublimetext.4 public.data all
+
+**参考链接**: https://apple.stackexchange.com/questions/123833/replace-text-edit-as-the-default-text-editor
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/123833/replace-text-edit-as-the-default-text-editor
+
+#### 117. How can I make ctrl+right/left arrow stop changing Desktops in Lion?
+
+**故障现象**: How can I make ctrl+right/left arrow stop changing Desktops in Lion?
+**标签 / 来源**: Tags: macos, mission-control | apple | 👍 144 | 💬 2 answers
+
+**问题描述**:
+Tags: macos, mission-control | Score: 144 | Views: 86632 | Answers: 2
+
+**解决方法 / 社区答案**:
+Go to System Preferences > Keyboard > Shortcuts > Mission Control and change the settings for "Move left a space" and "Move right a space" or disable them completely.
+
+**参考链接**: https://apple.stackexchange.com/questions/18043/how-can-i-make-ctrlright-left-arrow-stop-changing-desktops-in-lion
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/18043/how-can-i-make-ctrlright-left-arrow-stop-changing-desktops-in-lion
+
+#### 118. How do I move a window whose title bar is off-screen?
+
+**故障现象**: How do I move a window whose title bar is off-screen?
+**标签 / 来源**: Tags: macos, applications | apple | 👍 143 | 💬 21 answers
+
+**问题描述**:
+Tags: macos, applications | Score: 143 | Views: 127173 | Answers: 21
+
+**解决方法 / 社区答案**:
+Hold on option (or alt) while clicking the Window menu.  This should change Bring All to Front into Arrange in Front, which did the trick for me.
+
+This worked for me on OSX 10.9.1
+
+**参考链接**: https://apple.stackexchange.com/questions/71112/how-do-i-move-a-window-whose-title-bar-is-off-screen
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/71112/how-do-i-move-a-window-whose-title-bar-is-off-screen
+
+#### 119. How to open files in another app via Terminal on macOS?
+
+**故障现象**: How to open files in another app via Terminal on macOS?
+**标签 / 来源**: Tags: macos, terminal, command-line | apple | 👍 142 | 💬 3 answers
+
+**问题描述**:
+Tags: macos, terminal, command-line | Score: 142 | Views: 1276914 | Answers: 3
+
+**解决方法 / 社区答案**:
+To open any file from the command line with the default application, just type open followed by the filename/path.
+
+Example:
+
+open ~/Desktop/filename.mp4
+
+
+Edit: as per Johnny Drama's comment below, if you want to be able to open files in a certain application, put -a followed by the application's name in quotes between open and the file.
+
+Example:
+
+open -a "QuickTime Player" ~/Desktop/filename.mp4
+
+
+If you need further information about the open command, type man open.
+
+**参考链接**: https://apple.stackexchange.com/questions/212583/how-to-open-files-in-another-app-via-terminal-on-macos
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/212583/how-to-open-files-in-another-app-via-terminal-on-macos
+
+#### 120. How to bring back multi-touch gestures after it crashes without reboot?
+
+**故障现象**: How to bring back multi-touch gestures after it crashes without reboot?
+**标签 / 来源**: Tags: macos, multi-touch, bettertouchtool | apple | 👍 140 | 💬 8 answers
+
+**问题描述**:
+Tags: macos, multi-touch, bettertouchtool | Score: 140 | Views: 83968 | Answers: 8
+
+**解决方法 / 社区答案**:
+Run the command killall Dock in Terminal.
+In my case, only Mission Control gestures had stopped working (three finger swipe left/right to switch spaces, three finger swipe up for overview, mission control etc).
+
+**参考链接**: https://apple.stackexchange.com/questions/151907/how-to-bring-back-multi-touch-gestures-after-it-crashes-without-reboot
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/151907/how-to-bring-back-multi-touch-gestures-after-it-crashes-without-reboot
+
+#### 121. Fastest and safest way to copy massive data from one external drive to another
+
+**故障现象**: Fastest and safest way to copy massive data from one external drive to another
+**标签 / 来源**: Tags: macos, finder, backup, file-transfer | apple | 👍 140 | 💬 6 answers
+
+**问题描述**:
+Tags: macos, finder, backup, file-transfer | Score: 140 | Views: 282097 | Answers: 6
+
+**解决方法 / 社区答案**:
+remote sync, rsync, is a reliable choice for copying large amounts of data. You can prepare the command and perform a dry-run before committing to the copy; add --dry-run to simulate the copy.
+
+Your final command will be fairly simple:
+
+sudo rsync -vaE --progress /Volumes/SourceName /Volumes/DestinationName
+
+
+The flags are:
+
+
+v increases verbosity.
+a applies archive settings to mirror the source files exactly, including symbolic links and permissions.
+E copies extended attributes and resource forks (OS X only).
+--progress shows progress during the copy.
+
+
+sudo, is used to ensure rsync has appropriate rights to access and read all files on your drive regardless of owner. This also allows rsync to write the files to the new drive recreating the original owner information.
+
+rsync is likely the best choice because it can be rerun in case of problems, offers detailed logging, and is as fast as can be while remaining safe.
+
+There are numerous guides for getting the most from rsync, rsync command examples provides relevant examples. Take care with the trailing slashes; these can make a world of difference if your copy starts with a folder.
+
+Alternative tools include ditto and cp. Both are reasonable choices but offer differing syntax.
+
+**参考链接**: https://apple.stackexchange.com/questions/117465/fastest-and-safest-way-to-copy-massive-data-from-one-external-drive-to-another
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/117465/fastest-and-safest-way-to-copy-massive-data-from-one-external-drive-to-another
+
+#### 122. How do I disable the Minimize (command-M) shortcut?
+
+**故障现象**: How do I disable the Minimize (command-M) shortcut?
+**标签 / 来源**: Tags: keyboard, macos, contextual-menu | apple | 👍 140 | 💬 10 answers
+
+**问题描述**:
+Tags: keyboard, macos, contextual-menu | Score: 140 | Views: 39914 | Answers: 10
+
+**解决方法 / 社区答案**:
+You don't need to install any additional software.
+
+
+Go to System Preferences > Keyboard > Shortcuts > App Shortcuts
+Click the  button below 
+Enter "Minimize" (use "Minimize All" to override minimizing all windows with ⌥⌘M) into the Menu Title text input field.
+Assign some bizzare key combination that you won't press by accident.
+Repeat steps three and four for "Minimise" (alternate spelling) which is required for some apps.
+Close the window to save the changes.
+
+
+
+
+I'm aware that this is not really "disabling it" but the result is effectively the same and without depending on 3rd party software.
+
+**参考链接**: https://apple.stackexchange.com/questions/115562/how-do-i-disable-the-minimize-command-m-shortcut
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/115562/how-do-i-disable-the-minimize-command-m-shortcut
+
+#### 123. How do I open the context menu from a Mac keyboard?
+
+**故障现象**: How do I open the context menu from a Mac keyboard?
+**标签 / 来源**: Tags: macos, keyboard, contextual-menu, spellcheck | apple | 👍 140 | 💬 22 answers
+
+**问题描述**:
+Tags: macos, keyboard, contextual-menu, spellcheck | Score: 140 | Views: 83262 | Answers: 22
+
+**解决方法 / 社区答案**:
+I always have the same question but I didn't find the answer yet.
+In Windows, when we use the keyboard short-cuts we mostly use the Menu key in Windows keyboard:
+
+When this Menu key is pressed, Windows will assume that you right-clicked the highlighted/active element &gt; then it will show you the context menu even if the mouse pointer is not pointing to the highlighted element.
+So this feature seems to be missing in Mac OS. And whatever suggested solutions, even Enable Mouse Key it always require you to point/move your mouse pointer to element first, which is meaningless. If I need to use the keyboard short-cut to open the context menu on the highlighted item, why do I need again to move the mouse pointer to it also. Somehow this is not a short-cut!!
+
+**参考链接**: https://apple.stackexchange.com/questions/32715/how-do-i-open-the-context-menu-from-a-mac-keyboard
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/32715/how-do-i-open-the-context-menu-from-a-mac-keyboard
+
+#### 124. DNS not resolving on Mac OS X
+
+**故障现象**: DNS not resolving on Mac OS X
+**标签 / 来源**: Tags: macos, macbook-pro, snow-leopard, network, dns | apple | 👍 139 | 💬 28 answers
+
+**问题描述**:
+Tags: macos, macbook-pro, snow-leopard, network, dns | Score: 139 | Views: 360572 | Answers: 28
+
+**解决方法 / 社区答案**:
+It turns out the solution was to bounce mDNSResponder:
+
+sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.mDNSResponder.plist
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.mDNSResponder.plist
+
+
+This was obtained by a different coworker from this Server Fault question.
+
+OS X 10.10.0 – 10.10.3, Yosemite
+
+Apparently, mDNSResponder doesn't exist in Yosemite (OS X 10.10). You can restart descoveryd instead to fix these issues.
+
+sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.discoveryd.plist
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.discoveryd.plist
+
+
+OS X 10.10.4+, Yosemite
+
+In OSX 10.10.4 the mDNSResponder has been reintroduced. So use the first one will work again.
+
+**参考链接**: https://apple.stackexchange.com/questions/26616/dns-not-resolving-on-mac-os-x
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/26616/dns-not-resolving-on-mac-os-x
+
+#### 125. Mail App keeps popping up in the background in Mac OS Mojave
+
+**故障现象**: Mail App keeps popping up in the background in Mac OS Mojave
+**标签 / 来源**: Tags: macbook-pro, mail.app, macos | apple | 👍 138 | 💬 11 answers
+
+**问题描述**:
+Tags: macbook-pro, mail.app, macos | Score: 138 | Views: 221356 | Answers: 11
+
+**解决方法 / 社区答案**:
+I have the same issue: 
+The google calendar stuff is nonsense. The notification settings suggestion doesn't work.
+
+I've narrowed it down to the following:
+
+I normally hit the red cross button on the viewer window once I have finished looking at my mail, this closes open viewer windows but leaves the mail app active in the dock:
+
+So if I have mail running, but no viewer windows open, then I get a viewer window randomly popping up to the foreground a few times an hour. 
+
+If instead of hitting the red cross button, I minimise mail using the minus button, then I don't get any viewer windows randomly opening. In this scenario, the mail viewer window is minimised either on the right hand side of the dock or into the application icon itself, depending on your settings (System Preferences > Dock > "Minimize windows into application icon").
+
+So I have changed my habits to work around this annoying bug...
+
+**参考链接**: https://apple.stackexchange.com/questions/344223/mail-app-keeps-popping-up-in-the-background-in-mac-os-mojave
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/344223/mail-app-keeps-popping-up-in-the-background-in-mac-os-mojave
+
+#### 126. What&#39;s a good graphical SFTP utility for OS X?
+
+**故障现象**: What&#39;s a good graphical SFTP utility for OS X?
+**标签 / 来源**: Tags: macos, snow-leopard, software-recommendation, ssh, ftp | apple | 👍 137 | 💬 15 answers
+
+**问题描述**:
+Tags: macos, snow-leopard, software-recommendation, ssh, ftp | Score: 137 | Views: 376006 | Answers: 15
+
+**解决方法 / 社区答案**:
+Cyberduck (Free) and partner Mountain Duck ($39 with volume and enterprise options)
+A great free FTP client. This is my go-to application. Anytime I need FTP access, I use Cyberduck. It's not quite as lightweight as Fugu, but it adds a lot more functionality than Fugu. I also really like the Growl integration with Cyberduck.
+
+
+Fugu (Free)
+Awesome little FTP client. As I noted above, this is a lightweight FTP client. It is great for simple FTP transfers and browsing. I do like the dual panel navigation.
+
+Filezilla (Free)
+I haven't actually used Filezilla extensively, but from what I've seen of it, I really like it. I downloaded it and played with it for a bit and I really like the tabbed connections. I also like the ability to jump to a path easily.
+
+RBrowser (Free, $29 Upgrade)
+A free FTP/FTP-SSL client. I don't usually use RBrowser because a $29 upgrade is necessary to unlock other protocols (Local, FTP/SSL/TLS, SFTP-SSH). I do like the Site Manager. It's a handy little thing to have.
+
+
+I searched and came up with some other free FTP clients:
+FireFTP (Free) - Firefox extension
+The one downside I see is that this is for Firefox. The website doesn't make it clear how it works with Firefox, so I assume it is an extension.
+Macfusion (Free)
+This one relies on Google's MacFUSE. Since I don't know anything about MacFUSE, I don't know if this is good or bad.
+Transmit ($34) By Panic
+I have never used Transmit before, but I have used Coda and I definitely would recommend anything from Panic. The only reason I haven't used this because of the $34 price tag.
+
+ForkLift2 ($30)
+Never used it, just found it when searching.
+Fetch ($24 per user)
+An amazing program with a long, long, long mac heritage. It's way up there with Transmit by Panic and Interarchy as a file transfer program loved by long time Mac power users.
+Flow ($30)
+Never used it, but looks good from the screenshots. I really like the fact that it looks like Finder. I may have to give this one a try.
+
+OneButton FTP (Free)
+Just searching around and found yet another one...It looks pretty nice, except it's no longer supported. However, you can still download it.
+
+**参考链接**: https://apple.stackexchange.com/questions/25661/whats-a-good-graphical-sftp-utility-for-os-x
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/25661/whats-a-good-graphical-sftp-utility-for-os-x
+
+#### 127. How to fix homebrew error: &quot;invalid active developer path&quot; after upgrade to OS X El Capitan?
+
+**故障现象**: How to fix homebrew error: &quot;invalid active developer path&quot; after upgrade to OS X El Capitan?
+**标签 / 来源**: Tags: homebrew, macos | apple | 👍 136 | 💬 5 answers
+
+**问题描述**:
+Tags: homebrew, macos | Score: 136 | Views: 125239 | Answers: 5
+
+**解决方法 / 社区答案**:
+Run the following commands to fix the above error
+
+sudo xcode-select --install
+sudo xcode-select -switch /
+
+
+I found the answer on https://github.com/Homebrew/homebrew/issues/23500
+
+I also had to do this:
+
+sudo chown -R $(whoami):admin /usr/local
+
+
+Because of some permission issues. However, do this only if you have to.
+
+**参考链接**: https://apple.stackexchange.com/questions/209624/how-to-fix-homebrew-error-invalid-active-developer-path-after-upgrade-to-os-x
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/209624/how-to-fix-homebrew-error-invalid-active-developer-path-after-upgrade-to-os-x
+
+#### 128. Why does my brew installation not work?
+
+**故障现象**: Why does my brew installation not work?
+**标签 / 来源**: Tags: macos, command-line, homebrew, path | apple | 👍 134 | 💬 13 answers
+
+**问题描述**:
+Tags: macos, command-line, homebrew, path | Score: 134 | Views: 736571 | Answers: 13
+
+**解决方法 / 社区答案**:
+I had the same problem—installed brew, used it, but now it doens't work, ie, brew command not recognized anymore.
+The context of my brew-not-recognized-anymore problem is a bit more specific: I'm using iTerm instead of Terminal, I installed brew in the standard way to the standard place, I used brew to install zsh and oh-my-zsh, and at that point the brew command stopped working.
+I wasn't able to find the solution to my subset of the brew-not-recognized-anymore problem anywhere, so I'm posting the solution in case anyone else has this sort of brew-not-recognized-anymore problem.
+Adding this to my .zshrc solved the problem on a machine with Apple M1 CPU:
+eval $(/opt/homebrew/bin/brew shellenv)
+
+Note that this is not the same as adding to the PATH variable. The brew command is indeed located in those standard locations listed in other solutions. It turned out not to be a PATH variable thing that was causing this subset of the brew-not-recognized-anymore problem.
+
+**参考链接**: https://apple.stackexchange.com/questions/148901/why-does-my-brew-installation-not-work
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/148901/why-does-my-brew-installation-not-work
+
+#### 129. Unable to modify the volume with the keyboard
+
+**故障现象**: Unable to modify the volume with the keyboard
+**标签 / 来源**: Tags: keyboard, macos, macbook-pro, audio | apple | 👍 134 | 💬 11 answers
+
+**问题描述**:
+Tags: keyboard, macos, macbook-pro, audio | Score: 134 | Views: 534934 | Answers: 11
+
+**解决方法 / 社区答案**:
+What worked for me: open up a Terminal window and run:
+
+sudo killall coreaudiod
+
+
+You may also need to run the following two commands right after:
+
+sudo kextunload /System/Library/Extensions/AppleHDA.kext 
+sudo kextload /System/Library/Extensions/AppleHDA.kext
+
+**参考链接**: https://apple.stackexchange.com/questions/124476/unable-to-modify-the-volume-with-the-keyboard
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/124476/unable-to-modify-the-volume-with-the-keyboard
+
+#### 130. How can I figure out what&#39;s slowly eating my drive space?
+
+**故障现象**: How can I figure out what&#39;s slowly eating my drive space?
+**标签 / 来源**: Tags: macos, disk-space, filevault | apple | 👍 133 | 💬 19 answers
+
+**问题描述**:
+Tags: macos, disk-space, filevault | Score: 133 | Views: 114263 | Answers: 19
+
+**解决方法 / 社区答案**:
+I've had a very similar issue, and so I decided to compile several methods for solving it. So, following, there are those options and some of them I got from the answers already provided here. I understand this is a little bit offtopic from the question, but it's in tune with the answers. This has many parts and those are all softwares I could try myself somehow.
+It's generally a good idea to pay close attention for using the sudo options below so the software can have access to every file, which will likely include some big hidden ones.
+
+Here's a brief list of apps for checking the disk usage:
+
+GrandPerspective is only graphical, using the Treemap, it can measure files by logical or physical methods before scanning, show/hide package contents and change color scheme on the fly. It also is able to save the scanned data for archiving or comparing multiple windows.
+
+Disk Inventory X also uses the Treemap graphical scheme but along side a list view of folders and files. The grahpics isn't as good as GrandPerspective neither the list as good as OmniDiskSweeper, but it does a good job mixing both. It has a Finder plugin and the most options between the 3 on preferences. It's the most complex, but not all complete.
+
+OmniDiskSweeper is non-graphical and very similar to Finder's column view. You choose the folder or disk to analyse, it will order them by disk usage after taking its time to calculate. You can then just delete (move to trash) anything listed.
+
+
+So each one has its advantages and highlights, I'm still not sure if there's one that comes on top. They're all free.
+
+There is also a different approach, of apps for scanning specific expected places and files for space usage in non-optimal ways. They basically gather some known things about the system that can be bloating your disk all in one nice interface so you can see and decide what to delete.
+
+CleanMyMac lists caches, logs, language files, universal binaries, development &quot;junk&quot;, extensions and applications. It scans through the files and also uses some knowledge base it has. Great interface, simple to use. CleanMyMac has a free trial which will only clean up to 500 MB.
+
+XSlimmer is very specific. It remove &quot;unnecessary&quot; code from &quot;fat&quot; binaries and Strip out unneeded languages, as it says on the website. Universal Binaries, that is, use a lot of space for storing files to run in several different architectures and languages. So, this strips all of them to shrink to only your computer needs. XSlimmer is currently discontinued.
+
+
+
+Another approach is looking for duplicate files. There are many commercial options, some may be better than the listed below, I haven't tried them all. Anyway, I'm listing my choice of apps considering which ones I was able to try.
+
+TidyUp is a very well known app in this subject. You can specify where to scan for what kind of duplicates. It offers basic and advanced modes, several different strategies and criterias.
+
+MrClean is a free tool that just scans for folders for duplicates and trash them. Very simplistic but efficient if you're sure on what you're doing.
+
+Chipmunk scans duplicates and let you choose which ones you want to trash. It offers a node-view of folders and you can select to &quot;delete all files in a folder that have duplicates elsewhere, or vice versa&quot; as well as hand-picking. It may take very long to scan all files, but it does a very decent job after that.
+
+DupeCheck &quot;drop a file on it and it will use your Spotlight index to see if you have a potential duplicate somewhere.&quot; That's about this nice open source app. Not a great tool for space cleaning at once, but over time it helps you keep your space clean.
+
+DuplicateFileSearcher from the website: &quot;is a free powerful software utility that will help you to find and delete duplicate files on your computer. It can also be used to calculate MD5 and SHA hashes. The software runs in Windows, Linux, Solaris and MacOS.&quot;. Enough said.
+
+
+
+Next I'll briefly discuss on a similar approach by quoting relevant parts about two other things that can be done to look for missing disk space, without installing anything new, just using the command line (the Terminal).
+This (long but good) one is from MacFixIt forums (go there for more options and details):
+
+In most cases, there really are files occupying part of the volume, but the files are invisible in normal use of the Finder.
+Using the Finder’s Go to Folder feature (in the Go menu), look at the sizes of the contents of these folders, by pasting in these pathnames:
+/private/var/vm 
+/private/var/log 
+/Volumes 
+
+The /private/var/vm directory contains the swapfiles used by virtual memory. New ones are made as more data is swapped from RAM to the hard drive. The entire process of creating them begins at each reboot or restart; do not attempt to remove them yourself. Check the total size of all the swapfiles, right after you boot, and as the disk fills up. In Panther, the first two swapfiles are 64 MB, then each new one is twice the size of the preceeding one (128 MB, 256 MB, 512 MB, 1 GB) up to a maximum size of 1 GB. In Tiger, the first two swapfiles are 64 MB, the next one is 128 MB, and any additional swapfiles are 256 MB.
+If you do not run the daily, weekly, and monthly maintenance scripts (either by using a utility, or by running the commands sudo periodic daily, sudo periodic weekly, and sudo periodic monthly in Terminal), the logs on the startup volume can become too large. If an error is occurring frequently and is being logged, you can have a very large file at /private/var/log/system.log.
+The files in /Volumes should be aliases to your mounted volumes. Do not remove these aliases, because anything you do to them happens to the contents of the corresponding volumes. If you are not confident that you can explore this folder without mishap, before you begin, properly unmount any volume other than the startup volume, if the missing disk space problem affects only that volume. External FireWire drives can be disconnected after proper unmounting.
+Sometimes, backup programs that cannot find an intended destination (or target) volume for a backup create a folder with the same name as the destination, and put the folder into the /Volumes directory. There are cases in which the entire startup volume has been backed up on itself, in a folder inside /Volumes. If the amount of missing space is about the size of your user folder, such a backup is likely to be the explanation. If you use Carbon Copy Cloner or another backup or cloning utility and have its preferences configured to create a backup on a schedule, and the intended destination volume is not mounted or is sleeping at the scheduled time, the backup is created in the /Volumes directory.
+To check the size of the normally invisible /Volumes directory on the active startup volume, open a new Finder window. Select the startup volume in the list at the left, then choose column view (the one at the right of the three views). From the Finder’s Go menu, choose Go to Folder, and paste in:
+/Volumes 
+
+The /Volumes directory becomes visible in the Finder; find its size by selecting it and typing Command I. My /Volumes directory is reported to be 12K.
+
+This other one is from Mac OS X Hints forums (not much more to see there):
+
+You may want to run a du in terminal to see what is all going on. This could take a few minutes to run.
+An example would be to open up terminal.app then run these commands:
+sudo du -h -d 1 -c /
+
+Input your password when it prompts for it then let it go, it will take a few minutes to run so be paitent.
+
+du stands for Disk Usage. There's also df. I like including the -x to the above command, and sort;
+sudo du -cxhd 1 / | sort -h
+
+
+Adding to the command line option, you could use an automator service for opening any app. With this you will get different (and more complete) results on GUI.
+Or, if you're on a Power PC, using Rosetta or anything before Snow Leopard, you can mix any of the before mentioned apps with Pseudo. It's a little app to open things as admin. Picture it like a GUI for sudo.
+
+
+Finally, there's a complete newbie guide on &quot;The X Lab&quot; that I just won't quote here for it's too long.
+
+**参考链接**: https://apple.stackexchange.com/questions/5353/how-can-i-figure-out-whats-slowly-eating-my-drive-space
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/5353/how-can-i-figure-out-whats-slowly-eating-my-drive-space
+
+#### 131. Silencing &quot;Your disk is almost full&quot; notification
+
+**故障现象**: Silencing &quot;Your disk is almost full&quot; notification
+**标签 / 来源**: Tags: notifications, disk-space, macos | apple | 👍 133 | 💬 4 answers
+
+**问题描述**:
+Tags: notifications, disk-space, macos | Score: 133 | Views: 121895 | Answers: 4
+
+**解决方法 / 社区答案**:
+The solution to disabling the "almost full" and "full" notification is to disable the daemon responsible for it:
+
+launchctl unload -w /System/Library/LaunchAgents/com.apple.diskspaced.plist
+
+
+or
+
+launchctl stop com.apple.diskspaced
+
+
+Alternatively, if you only want to prevent the "almost full" from appearing so often then you can lower the GB threshold via:
+
+minFreeSpace (int) - minimal free size in GB. Default: 20
+
+
+The default 20GB is too high for small SSDs and a possible bug causes the alert to be shown every day rather than just once, so as a workaround you can lower the free space before the alert appears, e.g. to 10GB:
+
+defaults write com.apple.diskspaced minFreeSpace 10
+
+
+The daemon only reads its prefs on startup so you need to restart it if you have system integrity turned off:
+
+launchctl unload -w /System/Library/LaunchAgents/com.apple.diskspaced.plist
+launchctl load -w /System/Library/LaunchAgents/com.apple.diskspaced.plist
+
+
+Otherwise kill it:
+
+killall diskspaced
+
+
+In case you are interested in the other preferences for these disk alerts you can view some of them using the help param:
+
+/System/Library/PrivateFrameworks/StorageManagement.framework/Versions/A/Resources/diskspaced help
+---
+  Domain: com.apple.diskspaced
+  Supported keys:
+  debugLog (BOOL) - log additional debug information. Default: NO
+  checkAllVolumes (BOOL) - check all volumes. Default: NO
+  minDiskSize (int) - minimal disk size in GB. Default: 128
+  minFreeSpace (int) - minimal free size in GB. Default: 20
+  minPurgeableSpace (int) - minimal purgeabe space size in GB. Default: 20
+---
+  Commands: removeAllNotifications - Removes all scheduled and delivered user notificiations.
+
+
+And here are a couple of hidden ones:
+
+warningInterval (integer default 0)
+lastWarningDate (string e.g. 2017-05-05 16:48:29 +0000)
+
+
+I didn't look too closely at but it is possible setting the last warning date to a date in the future would also prevent the alert displaying.
+
+**参考链接**: https://apple.stackexchange.com/questions/254485/silencing-your-disk-is-almost-full-notification
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/254485/silencing-your-disk-is-almost-full-notification
+
+#### 132. Can I delete unnecessary device simulators of Xcode?
+
+**故障现象**: Can I delete unnecessary device simulators of Xcode?
+**标签 / 来源**: Tags: ios, xcode, macos | apple | 👍 132 | 💬 11 answers
+
+**问题描述**:
+Tags: ios, xcode, macos | Score: 132 | Views: 174153 | Answers: 11
+
+**解决方法 / 社区答案**:
+Yes, you can delete any simulator that you don't use.  I do this routinely when I stop supporting older iOS versions.
+If you delete them and then you find that you need them at some point in the future, you can redownload them from Apple's developer site.
+The best way to delete them is in Xcode.  Go to Window -&gt; Devices and Simulators.  This will open a new window with all the devices you use in Xcode.
+At the top, tap on Simulators and you'll see a list on the left-side.
+From there, find the simulator you want to delete and Cntl - click (or right-click) and select Delete.
+I do this with each simulator that runs in each iOS version that I no longer support.
+Update July 2020: There's a free utility in the Mac App Store named DevCleaner for Xcode.  This application can display and delete simulators and various caches.  I've found it be a very quick and easy way to regain space.  I'm not the developer or associated with this application in any way.
+
+**参考链接**: https://apple.stackexchange.com/questions/306566/can-i-delete-unnecessary-device-simulators-of-xcode
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/306566/can-i-delete-unnecessary-device-simulators-of-xcode
+
+#### 133. How do I negotiate dialogue boxes using the keyboard only?
+
+**故障现象**: How do I negotiate dialogue boxes using the keyboard only?
+**标签 / 来源**: Tags: macos, keyboard | apple | 👍 132 | 💬 5 answers
+
+**问题描述**:
+Tags: macos, keyboard | Score: 132 | Views: 45814 | Answers: 5
+
+**解决方法 / 社区答案**:
+macOS provides functionality to cycle through dialog boxes, but there is a system setting that must be enabled.
+Toggle Functionality with Keyboard Shortcut
+Press Control-F7
+System Settings (macOS Ventura and later)
+Starting with macOS Ventura, the setting is in System Settings → Keyboard → Keyboard Navigation. Click the toggle to enable the setting.
+
+System Preferences (macOS Monterey and earlier)
+In macOS Monterey and earlier versions, the setting is in System Preferences → Keyboard → Shortcuts → Full Keyboard Access... → All Controls
+
+
+Keyboard Control Tips
+
+Now you can navigate dialogue boxes using the keyboard:
+
+Press Tab to move the focus the next button on the dialog.
+Press Shift-Tab to move back to the previous button.
+Press Space to trigger the currently selected button (highlighted border).
+
+Regardless of which control is currently selected:
+
+Pressing Return will always trigger the default button (highlight-coloured button).
+Pressing Esc will always cancel the dialog.
+
+**参考链接**: https://apple.stackexchange.com/questions/55292/how-do-i-negotiate-dialogue-boxes-using-the-keyboard-only
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/55292/how-do-i-negotiate-dialogue-boxes-using-the-keyboard-only
+
+#### 134. How can I unpack .7z files via MacOS terminal?
+
+**故障现象**: How can I unpack .7z files via MacOS terminal?
+**标签 / 来源**: Tags: macos, command-line, zip, compression | apple | 👍 132 | 💬 10 answers
+
+**问题描述**:
+Tags: macos, command-line, zip, compression | Score: 132 | Views: 253014 | Answers: 10
+
+**解决方法 / 社区答案**:
+You can install p7zip with Homebrew. So
+
+% brew install p7zip
+% 7za x myfiles.7z
+
+
+Installing Homebrew as @EraserPencil suggested makes sense as the OP might need more programs in the future, which would be at his fingertips then. You can install Homebrew with
+
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+
+It should be noted there is 7z e as well but as commented by @Qback, this does almost never do what you want if you have subdirectories in the archive.
+
+**参考链接**: https://apple.stackexchange.com/questions/307377/how-can-i-unpack-7z-files-via-macos-terminal
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/307377/how-can-i-unpack-7z-files-via-macos-terminal
+
+#### 135. Is there a way to completely disable Dock?
+
+**故障现象**: Is there a way to completely disable Dock?
+**标签 / 来源**: Tags: macos, dock, launchbar | apple | 👍 132 | 💬 6 answers
+
+**问题描述**:
+Tags: macos, dock, launchbar | Score: 132 | Views: 79025 | Answers: 6
+
+**解决方法 / 社区答案**:
+This article from Lifehacker.com.au suggests setting the Dock autohide delay to 1000 seconds, like so:
+
+defaults write com.apple.dock autohide-delay -float 1000; killall Dock
+
+
+To restore the default behavior:
+
+defaults delete com.apple.dock autohide-delay; killall Dock
+
+
+The author says he sets the delay to two seconds, so he can still get to the Dock in those rare cases when it's needed.
+
+**参考链接**: https://apple.stackexchange.com/questions/59556/is-there-a-way-to-completely-disable-dock
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/59556/is-there-a-way-to-completely-disable-dock
+
+#### 136. Getting all files from a web page using curl
+
+**故障现象**: Getting all files from a web page using curl
+**标签 / 来源**: Tags: macos, bash | apple | 👍 131 | 💬 5 answers
+
+**问题描述**:
+Tags: macos, bash | Score: 131 | Views: 361070 | Answers: 5
+
+**解决方法 / 社区答案**:
+Use wget instead.
+Install it with Homebrew: brew install wget or  MacPorts: sudo port install wget
+For downloading files from a directory listing, use -r (recursive), -np (don't follow links to parent directories), and -k to make links in downloaded HTML or CSS point to local files (credit @xaccrocheur).
+wget -r -np -k http://www.ime.usp.br/~coelho/mac0122-2013/ep2/esqueleto/
+
+Other useful options:
+
+-nd (no directories): download all files to the current directory
+-e robots=off: ignore restrictions in robots.txt file and don't download robots.txt files
+-A png,jpg: accept only files with the extensions png or jpg
+-m (mirror): -r --timestamping --level inf --no-remove-listing
+-nc, --no-clobber: Skip download if files exist
+
+**参考链接**: https://apple.stackexchange.com/questions/100570/getting-all-files-from-a-web-page-using-curl
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/100570/getting-all-files-from-a-web-page-using-curl
+
+#### 137. How to turnoff screen / lock Macbook Pro with touch bar using keyboard?
+
+**故障现象**: How to turnoff screen / lock Macbook Pro with touch bar using keyboard?
+**标签 / 来源**: Tags: macbook-pro, touch-bar | apple | 👍 131 | 💬 10 answers
+
+**问题描述**:
+Tags: macbook-pro, touch-bar | Score: 131 | Views: 148357 | Answers: 10
+
+**解决方法 / 社区答案**:
+you can add the sleep function to the touch bar through system preferences > keyboard > customize control strip and then drag the sleep icon to the touch bar, allowing you to put it to sleep by pressing 1 button.
+
+**参考链接**: https://apple.stackexchange.com/questions/261496/how-to-turnoff-screen-lock-macbook-pro-with-touch-bar-using-keyboard
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/261496/how-to-turnoff-screen-lock-macbook-pro-with-touch-bar-using-keyboard
+
+#### 138. Enter a filename in the File Open dialog
+
+**故障现象**: Enter a filename in the File Open dialog
+**标签 / 来源**: Tags: macos | apple | 👍 130 | 💬 3 answers
+
+**问题描述**:
+Tags: macos | Score: 130 | Views: 44849 | Answers: 3
+
+**解决方法 / 社区答案**:
+Yes. When the Finder dialog box is active type ⇧⌘G to bring up the Go to the folder direct entry dialog. You can enter the path to the file in the dialog using the Unix-type path expressions you'd expect: ~ for your home directory, / for a directory separator, etc.
+
+**参考链接**: https://apple.stackexchange.com/questions/26819/enter-a-filename-in-the-file-open-dialog
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/26819/enter-a-filename-in-the-file-open-dialog
+
+#### 139. How to get rid of firewall &quot;accept incoming connections&quot; dialog?
+
+**故障现象**: How to get rid of firewall &quot;accept incoming connections&quot; dialog?
+**标签 / 来源**: Tags: macos, snow-leopard, firewall | apple | 👍 130 | 💬 14 answers
+
+**问题描述**:
+Tags: macos, snow-leopard, firewall | Score: 130 | Views: 127359 | Answers: 14
+
+**解决方法 / 社区答案**:
+sudo codesign --force --deep --sign - /path/to/application.app
+
+
+I've never had to create a certificate using this method.
+
+If that doesn't help, try without --deep and without the trailing slash:
+
+sudo codesign --force --sign - /path/to/application.app
+
+
+
+
+Note, just to make it clearer: After having applied the signature, start the app, accept incoming connections one last time, then quit and start again to verify that the request is gone.
+
+**参考链接**: https://apple.stackexchange.com/questions/3271/how-to-get-rid-of-firewall-accept-incoming-connections-dialog
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/3271/how-to-get-rid-of-firewall-accept-incoming-connections-dialog
+
+#### 140. How do I type the euro value sign € on a Mac?
+
+**故障现象**: How do I type the euro value sign € on a Mac?
+**标签 / 来源**: Tags: macos, keyboard | apple | 👍 129 | 💬 17 answers
+
+**问题描述**:
+Tags: macos, keyboard | Score: 129 | Views: 710506 | Answers: 17
+
+**解决方法 / 社区答案**:
+On an American English keyboard you can type the European Currency symbol (€) with Option + Shift + 2.
+NOTE: It is also worth to note that specifically in Terminal, option 'Use Option as Meta Key' is turned on by default and this blocks this key combination. Please go to Terminal 'preferences', section 'Profiles' and under tab 'Keyboard' untick 'Use Option as Meta Key' checkbox to have it working.
+
+**参考链接**: https://apple.stackexchange.com/questions/105203/how-do-i-type-the-euro-value-sign-%e2%82%ac-on-a-mac
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/105203/how-do-i-type-the-euro-value-sign-%e2%82%ac-on-a-mac
+
+#### 141. How can I achieve page-up and page-down in OS X?
+
+**故障现象**: How can I achieve page-up and page-down in OS X?
+**标签 / 来源**: Tags: macos, macbook-pro, mac | apple | 👍 129 | 💬 9 answers
+
+**问题描述**:
+Tags: macos, macbook-pro, mac | Score: 129 | Views: 98391 | Answers: 9
+
+**解决方法 / 社区答案**:
+If you have a full keyboard you can use the pgup and pgdown keys on your keyboard, near the numpad. 
+
+If you are not using a full keyboard, function, labeled fn on your keyboard, plus the up and down arrow keys will give you a page up and down.
+
+For certain applications, particularly in shell / terminal / tty windows, the expected behaviour is achieved with fn+shift+arrow up/down
+
+**参考链接**: https://apple.stackexchange.com/questions/26930/how-can-i-achieve-page-up-and-page-down-in-os-x
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/26930/how-can-i-achieve-page-up-and-page-down-in-os-x
+
+#### 142. Which application to preview .md files?
+
+**故障现象**: Which application to preview .md files?
+**标签 / 来源**: Tags: macos | apple | 👍 129 | 💬 12 answers
+
+**问题描述**:
+Tags: macos | Score: 129 | Views: 187059 | Answers: 12
+
+**解决方法 / 社区答案**:
+The superuser question, Markdown Live Preview Editor?, provides a wealth of options:
+
+BBEdit
+TextMate
+Mou
+Marked
+MarkdownLive
+Atom
+Marked 2
+MacDown
+
+In additional to those, you can install a markdown QuickLook plugin for Finder based previews.
+MarkdownLive
+
+Mou
+
+Marked 2
+
+**参考链接**: https://apple.stackexchange.com/questions/120624/which-application-to-preview-md-files
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/120624/which-application-to-preview-md-files
+
+#### 143. macOS windows requiring an explicit click to make active, before UI elements inside can be clicked
+
+**故障现象**: macOS windows requiring an explicit click to make active, before UI elements inside can be clicked
+**标签 / 来源**: Tags: macos | apple | 👍 128 | 💬 4 answers
+
+**问题描述**:
+Tags: macos | Score: 128 | Views: 55146 | Answers: 4
+
+**解决方法 / 社区答案**:
+The answer, in general, is "no". There are some exceptions/workarounds though, for example: 
+
+
+You can click through to any control in an unfocused window using Cmd-Click. This will directly operate that control without focusing the window, which might save you a click in your side-by-side browser window scenario. Unfortunately it's up to each application developer to make this work sensibly, and some unfocused applications will still perform any special action assigned to Cmd-Click, rather than treating it as a simple click.
+In Terminal.app, Cmd-Right Click will paste the contents of the primary selection (the last text you highlighted in any terminal window) into the same or another terminal, whether that terminal is focused or not.
+Specifically for X11 applications running under XQuartz.app (which isn't very many these days), you can specify the "focus follow mouse" option so that X11 windows are focused as you mouse over them. (There also used be a hidden focus-follows-mouse option for Terminal.app windows, don't know if it still works in El Capitan or Sierra.)
+
+**参考链接**: https://apple.stackexchange.com/questions/269622/macos-windows-requiring-an-explicit-click-to-make-active-before-ui-elements-ins
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/269622/macos-windows-requiring-an-explicit-click-to-make-active-before-ui-elements-ins
+
+#### 144. Set the hostname/computer name for macOS
+
+**故障现象**: Set the hostname/computer name for macOS
+**标签 / 来源**: Tags: macos, network | apple | 👍 126 | 💬 6 answers
+
+**问题描述**:
+Tags: macos, network | Score: 126 | Views: 234369 | Answers: 6
+
+**解决方法 / 社区答案**:
+Setting the Mac hostname or computer name from the terminal
+
+
+  
+  Open a terminal. 
+  Type the following command to change the primary hostname of your Mac:
+  This is your fully qualified hostname, for example myMac.domain.com 
+
+sudo scutil --set HostName &lt;new host name&gt;
+
+  Type the following command to change the Bonjour hostname of your Mac:
+  This is the name usable on the local network, for example myMac.local. 
+
+sudo scutil --set LocalHostName &lt;new host name&gt;
+
+  If you also want to change the computer name, type the following command:
+  This is the user-friendly computer name you see in Finder, for example myMac. 
+
+sudo scutil --set ComputerName &lt;new name&gt;
+
+  Flush the DNS cache by typing: 
+
+dscacheutil -flushcache
+
+  Restart your Mac.
+
+**参考链接**: https://apple.stackexchange.com/questions/287760/set-the-hostname-computer-name-for-macos
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/287760/set-the-hostname-computer-name-for-macos
+
+#### 145. Copying the current directory&#39;s path to the clipboard
+
+**故障现象**: Copying the current directory&#39;s path to the clipboard
+**标签 / 来源**: Tags: macos, finder | apple | 👍 126 | 💬 19 answers
+
+**问题描述**:
+Tags: macos, finder | Score: 126 | Views: 100324 | Answers: 19
+
+**解决方法 / 社区答案**:
+Option+Command+C
+Will copy the path for selected folder or file to the clipboard. Tried on El Capitan through Sonoma.
+
+**参考链接**: https://apple.stackexchange.com/questions/47216/copying-the-current-directorys-path-to-the-clipboard
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/47216/copying-the-current-directorys-path-to-the-clipboard
+
+#### 146. Can anyone recommend an app for creating flowcharts and diagrams?
+
+**故障现象**: Can anyone recommend an app for creating flowcharts and diagrams?
+**标签 / 来源**: Tags: macos, software-recommendation, ui, drawing | apple | 👍 126 | 💬 31 answers
+
+**问题描述**:
+Tags: macos, software-recommendation, ui, drawing | Score: 126 | Views: 291595 | Answers: 31
+
+**解决方法 / 社区答案**:
+For free online diagramming there's diagrams.net, which I am a developer on. It supports the automatic connection and dragging of components you're looking for. Also, it's free, which meets your under $30 requirement.
+There is also a Desktop version available.
+
+**参考链接**: https://apple.stackexchange.com/questions/6490/can-anyone-recommend-an-app-for-creating-flowcharts-and-diagrams
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/6490/can-anyone-recommend-an-app-for-creating-flowcharts-and-diagrams
+
+#### 147. Ctrl + Alt + Delete: Mac Equivalent?
+
+**故障现象**: Ctrl + Alt + Delete: Mac Equivalent?
+**标签 / 来源**: Tags: macos, keyboard | apple | 👍 126 | 💬 11 answers
+
+**问题描述**:
+Tags: macos, keyboard | Score: 126 | Views: 1594813 | Answers: 11
+
+**解决方法 / 社区答案**:
+The keyboard shortcut you’re looking for is ⌘ + ⌥ + ⎋, alternatively known as command + option + escape. This will bring up the Force Quit Applications window (see screenshot below).
+
+**参考链接**: https://apple.stackexchange.com/questions/86010/ctrl-alt-delete-mac-equivalent
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/86010/ctrl-alt-delete-mac-equivalent
+
+#### 148. How to cd to a directory with a name containing spaces in bash?
+
+**故障现象**: How to cd to a directory with a name containing spaces in bash?
+**标签 / 来源**: Tags: macos, command-line | apple | 👍 125 | 💬 6 answers
+
+**问题描述**:
+Tags: macos, command-line | Score: 125 | Views: 799124 | Answers: 6
+
+**解决方法 / 社区答案**:
+You can use the Tab key after pressing the first few characters (this will then "fill in" the rest of the folder for you e.g. type cd ~/LTab fills in cd ~/Library/ then type ApTab and it will fill in the rest for you.
+
+If there is a space between words and you don't want to use the methods above, put a \ (backslash) before the space, e.g. cd ~/Library/Application\ Support.
+
+**参考链接**: https://apple.stackexchange.com/questions/14683/how-to-cd-to-a-directory-with-a-name-containing-spaces-in-bash
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/14683/how-to-cd-to-a-directory-with-a-name-containing-spaces-in-bash
+
+#### 149. The operation can’t be completed because the original item for “Foo” can’t be found
+
+**故障现象**: The operation can’t be completed because the original item for “Foo” can’t be found
+**标签 / 来源**: Tags: macos, network, nas, afp | apple | 👍 124 | 💬 30 answers
+
+**问题描述**:
+Tags: macos, network, nas, afp | Score: 124 | Views: 255645 | Answers: 30
+
+**解决方法 / 社区答案**:
+Apparently this problem can occur for many different reasons.  In my case it was solved by re-launching the finder.  A description and solution for this was at http://www.cnet.com/news/fix-shared-computer-not-found-in-finder/ .
+
+
+  To fix this problem, you simply need to relaunch the Finder, and it will re-populate the list of shared devices. To do this, you can do one of the following:
+  
+  
+  Hold the Option key and right-click the Finder icon in the Dock, then select Relaunch.
+  Press Option-Command-Escape or choose Force Quit from the Apple menu, then select the Finder and click Relaunch.
+  Log out and log back in to your user account.
+
+**参考链接**: https://apple.stackexchange.com/questions/131613/the-operation-can-t-be-completed-because-the-original-item-for-foo-can-t-be-fo
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/131613/the-operation-can-t-be-completed-because-the-original-item-for-foo-can-t-be-fo
+
+#### 150. How do I speed up new Terminal tab loading time?
+
+**故障现象**: How do I speed up new Terminal tab loading time?
+**标签 / 来源**: Tags: macos, terminal, command-line | apple | 👍 124 | 💬 11 answers
+
+**问题描述**:
+Tags: macos, terminal, command-line | Score: 124 | Views: 68299 | Answers: 11
+
+**解决方法 / 社区答案**:
+Short Answer:
+
+The problem is caused by a (potentially) expensive ASL system log lookup.  To see this in action, run sudo fs_usage | grep 'asl.*login' in a Terminal window, then open a new Terminal window.
+
+To solve the problem, configure Terminal to launch a non-standard shell:
+
+
+Create a symlink to your preferred shell.  E.g.: sudo ln -s /bin/bash /usr/local/bin/bash
+Open Terminal Preferences and select the "General" tab.
+Select "Shells open with: Command" and enter the symlink you created in step 1.  E.g. "/usr/local/bin/bash".
+
+
+Note 1: You may also need to add bash and -bash to the process list at "Terminal Preferences > Profiles > Shell > Ask before closing".
+
+Note 2: /usr/local/bin is writable in OS X 10.11 (El Capitan) Rootless mode.  
+
+To verify the fix:
+
+
+Open a new Terminal window.
+"Last Login:" should not be displayed at the top
+Open the inspector (Command + I) and select the Info tab.
+The command should read login -pfq username /usr/bin/bash or login -pfql username ...
+
+
+Important: If the login command does not include the -q parameter, then you have not fixed the problem.
+
+You can also use sudo fs_usage | grep 'asl.*login' to verify that /var/log/asl is not accessed when opening a new Terminal window.
+
+Details:
+
+There are a number of bugs at play here.
+
+The actual cause of the slowness is /usr/bin/login, which by default will display the date of your last login.  To get this last login date, it searches the ASL (Apple System Log) database at /var/log/asl/.  These log files can be very heavily fragmented and it's this file fragmentation that causes the delay when opening a new window or tab.  (Bug 1)
+
+The only way to suppress the ASL search for last login is to pass the -q parameter to /usr/bin/login.  The .hushlogin file will also suppress the "Last Login" display, but it does not suppress the expensive ASL search. (Bug 2)
+
+Terminal always uses /usr/bin/login to launch each new window/shell.  There is no option to launch a shell directly nor is there a way to directly control the parameters passed to /usr/bin/login (Bug 3).
+
+As it turns out, Terminal will pass the -q parameter to /usr/bin/login when it is configured to use a non-standard shell.  (Bug 4)
+
+The -q parameter is what we need to avoid the problem, hence the symlink to /usr/local/bin/bash.
+
+**参考链接**: https://apple.stackexchange.com/questions/41743/how-do-i-speed-up-new-terminal-tab-loading-time
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/41743/how-do-i-speed-up-new-terminal-tab-loading-time
+
 
 ---
 
@@ -3335,7 +4726,7 @@ You may get an error message: &quot;Can't install the software because it is not
 **Tags / Source**: Tags: macos, command-line, homebrew, open-source | apple | 👍 1068 | 💬 11 answers
 
 **Description**:
-Tags: macos, command-line, homebrew, open-source | Score: 1068 | Views: 1439806 | Answers: 11
+Tags: macos, command-line, homebrew, open-source | Score: 1068 | Views: 1439809 | Answers: 11
 
 **Solution / Community Answer**:
 brew list and brew list --cask
@@ -3353,7 +4744,7 @@ If you wish to list casks only, brew list --cask will provide the items installe
 **Tags / Source**: Tags: macos, kernel | apple | 👍 712 | 💬 16 answers
 
 **Description**:
-Tags: macos, kernel | Score: 712 | Views: 615533 | Answers: 16
+Tags: macos, kernel | Score: 712 | Views: 615534 | Answers: 16
 
 **Solution / Community Answer**:
 TLDR; If your MacBook Pro runs hot or shows a high % CPU for the kernel task, try charging on the right and not on the left.
@@ -3397,7 +4788,7 @@ Otherwise guessing and testing is the only way. Of course that leads to false co
 **Tags / Source**: Tags: macos, keyboard, google-chrome | apple | 👍 654 | 💬 15 answers
 
 **Description**:
-Tags: macos, keyboard, google-chrome | Score: 654 | Views: 935240 | Answers: 15
+Tags: macos, keyboard, google-chrome | Score: 654 | Views: 935244 | Answers: 15
 
 **Solution / Community Answer**:
 UK Keyboard
@@ -3463,7 +4854,7 @@ Finder window.
 **Tags / Source**: Tags: macos, keyboard | apple | 👍 587 | 💬 13 answers
 
 **Description**:
-Tags: macos, keyboard | Score: 587 | Views: 228305 | Answers: 13
+Tags: macos, keyboard | Score: 587 | Views: 228306 | Answers: 13
 
 **Solution / Community Answer**:
 The default shortcuts for moving to beginning or end of (wrapped) lines are ⌘← and ⌘→. ⌥↑ and ⌥↓ or ⌃A and ⌃E move to the beginning or end of unwrapped lines (or paragraphs). ⌥← and ⌥→ move backwards/forward by words, and all of these are compatible with holding Shift to select during the corresponding moves.
@@ -3492,7 +4883,7 @@ PS: You may need to logout and login again for the ~/Library/KeyBindings/Default
 **Tags / Source**: Tags: macos, mac, spaces, mission-control | apple | 👍 539 | 💬 2 answers
 
 **Description**:
-Tags: macos, mac, spaces, mission-control | Score: 539 | Views: 207135 | Answers: 2
+Tags: macos, mac, spaces, mission-control | Score: 539 | Views: 207136 | Answers: 2
 
 **Solution / Community Answer**:
 General Solution
@@ -3526,7 +4917,7 @@ This echoes the behaviour of Cmd/Tab or equivalent in most operating systems, so
 **Tags / Source**: Tags: macos, applications, command-line | apple | 👍 508 | 💬 1 answers
 
 **Description**:
-Tags: macos, applications, command-line | Score: 508 | Views: 865921 | Answers: 1
+Tags: macos, applications, command-line | Score: 508 | Views: 865922 | Answers: 1
 
 **Solution / Community Answer**:
 To open your current directory in Finder from Terminal, type open .
@@ -3562,7 +4953,7 @@ I answered a similar question: cmd-tab behavior on Mavericks with multiple displ
 **Tags / Source**: Tags: macos, command-line, file, symlink | apple | 👍 484 | 💬 7 answers
 
 **Description**:
-Tags: macos, command-line, file, symlink | Score: 484 | Views: 724804 | Answers: 7
+Tags: macos, command-line, file, symlink | Score: 484 | Views: 724805 | Answers: 7
 
 **Solution / Community Answer**:
 ┌── ln(1) link, ln -- make links
@@ -3606,7 +4997,7 @@ To create a symlink to replace a system directory (e.g. if you want to have /Use
 **Tags / Source**: Tags: macos, network, command-line | apple | 👍 451 | 💬 11 answers
 
 **Description**:
-Tags: macos, network, command-line | Score: 451 | Views: 1668077 | Answers: 11
+Tags: macos, network, command-line | Score: 451 | Views: 1668082 | Answers: 11
 
 **Solution / Community Answer**:
 Local IP address
@@ -3645,7 +5036,7 @@ When you run this command, it queries the ns1.google.com DNS server for the TXT 
 **Tags / Source**: Tags: macbook-pro, spotlight, cpu | apple | 👍 450 | 💬 15 answers
 
 **Description**:
-Tags: macbook-pro, spotlight, cpu | Score: 450 | Views: 679869 | Answers: 15
+Tags: macbook-pro, spotlight, cpu | Score: 450 | Views: 679870 | Answers: 15
 
 **Solution / Community Answer**:
 As you know, the mds and mds_stores are Spotlight activities.
@@ -3814,7 +5205,7 @@ NOTE: If you need help in selecting colors to use you can use this online tool c
 **Tags / Source**: Tags: terminal, bash, zsh, macos | apple | 👍 389 | 💬 4 answers
 
 **Description**:
-Tags: terminal, bash, zsh, macos | Score: 389 | Views: 337246 | Answers: 4
+Tags: terminal, bash, zsh, macos | Score: 389 | Views: 337247 | Answers: 4
 
 **Solution / Community Answer**:
 First, some important things:
@@ -4289,7 +5680,7 @@ it will work a bit better. From the scutil(8) man page:
 **Tags / Source**: Tags: macos, temperature, command-line, monitoring | apple | 👍 324 | 💬 14 answers
 
 **Description**:
-Tags: macos, temperature, command-line, monitoring | Score: 324 | Views: 574589 | Answers: 14
+Tags: macos, temperature, command-line, monitoring | Score: 324 | Views: 574590 | Answers: 14
 
 **Solution / Community Answer**:
 Option #1) you may consider using inbuilt utility powermetrics to get the cpu and gpu temperature and lot more other details.
@@ -4343,7 +5734,7 @@ Editing hidden files can be dangerous if you don't know what you're doing.
 **Tags / Source**: Tags: macos, finder, file | apple | 👍 321 | 💬 32 answers
 
 **Description**:
-Tags: macos, finder, file | Score: 321 | Views: 609448 | Answers: 32
+Tags: macos, finder, file | Score: 321 | Views: 609449 | Answers: 32
 
 **Solution / Community Answer**:
 You can also do this in Terminal. Go to the directory where you want to create the file, then run the following:
@@ -4566,7 +5957,7 @@ the "gnuman" directory to your MANPATH from your bashrc as well:
 **Tags / Source**: Tags: macos, file | apple | 👍 275 | 💬 14 answers
 
 **Description**:
-Tags: macos, file | Score: 275 | Views: 394183 | Answers: 14
+Tags: macos, file | Score: 275 | Views: 394184 | Answers: 14
 
 **Solution / Community Answer**:
 You can't avoid them (but see the dot_clean answer by Saeid Zebardast --they can be removed from a directory if that is what you need).  They're created to store file information that would otherwise go into an extended attribute on HFS+ (Apple native) or Unix/UFS volumes; in earlier Mac OS this would be the resource fork.  Finder file operations will create them automatically to store the icon information, plus Time Machine stores some information in them so if you copy a file backed up via TM it will have that information copied as well.
@@ -4970,7 +6361,7 @@ Other emoji have Unicode hex numbers with 5 characters, such as Grinning Face U+
 **Tags / Source**: Tags: macos, usb | apple | 👍 212 | 💬 2 answers
 
 **Description**:
-Tags: macos, usb | Score: 212 | Views: 565191 | Answers: 2
+Tags: macos, usb | Score: 212 | Views: 565192 | Answers: 2
 
 **Solution / Community Answer**:
 In addition to system_profiler SPUSBDataType (suggested by @kjs), you can also use ioreg -p IOUSB:
@@ -5045,7 +6436,7 @@ Menu method: It's not part of the Apple menu system to 'cut' files.  The menu Cu
 **Tags / Source**: Tags: macos, hard-drive, file | apple | 👍 211 | 💬 6 answers
 
 **Description**:
-Tags: macos, hard-drive, file | Score: 211 | Views: 761138 | Answers: 6
+Tags: macos, hard-drive, file | Score: 211 | Views: 761140 | Answers: 6
 
 **Solution / Community Answer**:
 It's generally safe, though a little dangerous depending, to do it but often not worth the effort.
@@ -5153,7 +6544,7 @@ To check command line options for the openssl sha command: openssl sha -help.
 **Tags / Source**: Tags: dock, macos | apple | 👍 204 | 💬 12 answers
 
 **Description**:
-Tags: dock, macos | Score: 204 | Views: 253798 | Answers: 12
+Tags: dock, macos | Score: 204 | Views: 253799 | Answers: 12
 
 **Solution / Community Answer**:
 To make the Dock instantly leap back into view when it’s needed, rather than slide, open a Terminal window and type the following:
@@ -5194,7 +6585,7 @@ It allows you to restore trashed files via command line or the Finder.
 **Tags / Source**: Tags: macbook-pro, audio | apple | 👍 202 | 💬 8 answers
 
 **Description**:
-Tags: macbook-pro, audio | Score: 202 | Views: 272560 | Answers: 8
+Tags: macbook-pro, audio | Score: 202 | Views: 272561 | Answers: 8
 
 **Solution / Community Answer**:
 sudo pkill coreaudiod
@@ -5549,7 +6940,7 @@ Click the annotations button in the toolbar and use the drop down menu next to t
 **Tags / Source**: Tags: macos, photos, pdf, preview | apple | 👍 180 | 💬 9 answers
 
 **Description**:
-Tags: macos, photos, pdf, preview | Score: 180 | Views: 327358 | Answers: 9
+Tags: macos, photos, pdf, preview | Score: 180 | Views: 327359 | Answers: 9
 
 **Solution / Community Answer**:
 Do as follows:
@@ -5905,7 +7296,7 @@ In my case it was the Network Monitor from Little Snitch that seemed to be the b
 **Tags / Source**: Tags: keyboard, display, macos | apple | 👍 170 | 💬 7 answers
 
 **Description**:
-Tags: keyboard, display, macos | Score: 170 | Views: 373483 | Answers: 7
+Tags: keyboard, display, macos | Score: 170 | Views: 373484 | Answers: 7
 
 **Solution / Community Answer**:
 Refer to the original page for detailed solutions and community answers.
@@ -6295,7 +7686,7 @@ Refer to the original page for detailed solutions and community answers.
 **Tags / Source**: Tags: macos, command-line | apple | 👍 151 | 💬 16 answers
 
 **Description**:
-Tags: macos, command-line | Score: 151 | Views: 675404 | Answers: 16
+Tags: macos, command-line | Score: 151 | Views: 675405 | Answers: 16
 
 **Solution / Community Answer**:
 You can use the terminal command screen to do this!!!
@@ -6568,6 +7959,1397 @@ Quit your web browser and check if that helps. For example using Chrome is very 
 **Reference**: https://apple.stackexchange.com/questions/178281/how-to-investigate-high-kernel-task-memory-usage
 
 > 📎 Source: https://apple.stackexchange.com/questions/178281/how-to-investigate-high-kernel-task-memory-usage
+
+#### 101. git auto-complete for *branches* at the command line?
+
+**Issue**: git auto-complete for *branches* at the command line?
+**Tags / Source**: Tags: terminal, command-line, bash, auto-complete, git | apple | 👍 488 | 💬 16 answers
+
+**Description**:
+Tags: terminal, command-line, bash, auto-complete, git | Score: 488 | Views: 332073 | Answers: 16
+
+**Solution / Community Answer**:
+Ok, so I needed the git autocompletion script.
+I got that from this url using the following command in the Terminal app:
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+
+No need to worry about what directory you're in when you run this as your home directory(~) is used with the target.
+Then I added to my ~/.bash_profile file the following 'execute if it exists' code:
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
+Update: I'm making these bits of code more concise to shrink down my .bashrc file, in this case I now use:
+test -f ~/.git-completion.bash &amp;&amp; . $_
+
+Note: $_ means the last argument to the previous command. so . $_ means run it - &quot;it&quot; being .git-completion.bash in this case
+This still works on both Ubuntu and OSX and on machines without the script .git-completion.bash script.
+Now git Tab (actually it's git TabTab ) works like a charm!
+p.s.: If this doesn't work off the bat, you may need to run chmod u+x ~/.git-completion.bash to grant yourself the necessary permission:
+
+chmod is the command that modifies file permissions
+u means the user that owns the file, by default its creator, i.e. you
++ means set/activate/add a permission
+x means execute permission, i.e. the ability to run the script
+
+**Reference**: https://apple.stackexchange.com/questions/55875/git-auto-complete-for-branches-at-the-command-line
+
+> 📎 Source: https://apple.stackexchange.com/questions/55875/git-auto-complete-for-branches-at-the-command-line
+
+#### 102. What is the difference between .bash_profile and .bashrc?
+
+**Issue**: What is the difference between .bash_profile and .bashrc?
+**Tags / Source**: Tags: terminal, command-line, bash | apple | 👍 433 | 💬 5 answers
+
+**Description**:
+Tags: terminal, command-line, bash | Score: 433 | Views: 360248 | Answers: 5
+
+**Solution / Community Answer**:
+.bash_profile is executed for login shells, while .bashrc is executed for interactive non-login shells.
+
+When you login (type username and password) via console, either sitting at the machine, or remotely via ssh: .bash_profile is executed to configure your shell before the initial command prompt.
+
+But, if you’ve already logged into your machine and open a new terminal window (xterm) then .bashrc is executed before the window command prompt. .bashrc is also run when you start a new bash instance by typing /bin/bash in a terminal.
+
+On OS X, Terminal by default runs a login shell every time, so this is a little different to most other systems, but you can configure that in the preferences.
+
+**Reference**: https://apple.stackexchange.com/questions/51036/what-is-the-difference-between-bash-profile-and-bashrc
+
+> 📎 Source: https://apple.stackexchange.com/questions/51036/what-is-the-difference-between-bash-profile-and-bashrc
+
+#### 103. Why doesn&#39;t .bashrc run automatically?
+
+**Issue**: Why doesn&#39;t .bashrc run automatically?
+**Tags / Source**: Tags: terminal, command-line, bash | apple | 👍 288 | 💬 14 answers
+
+**Description**:
+Tags: terminal, command-line, bash | Score: 288 | Views: 574354 | Answers: 14
+
+**Solution / Community Answer**:
+Been there, done that. What I came aware of, OS X doesn't read .bashrc file on bash start. Instead, it reads the following files (in the following order):
+
+
+/etc/profile
+~/.bash_profile
+~/.bash_login   
+~/.profile
+
+
+See also Chris Johnsen's informative and useful comment:
+
+
+  By default, Terminal starts the shell via /usr/bin/login, which makes the shell a login shell. On every platform (not just Mac OS X) bash does not use .bashrc for login shells (only /etc/profile and the first of .bash_profile, .bash_login, .profile that exists and is readable). This is why "put source ~/.bashrc in your .bash_profile" is standard advice
+
+
+I usually just put the things that I'd normally put in ~/.bashrc to ~/.profile — has worked so far like a charm.
+
+**Reference**: https://apple.stackexchange.com/questions/12993/why-doesnt-bashrc-run-automatically
+
+> 📎 Source: https://apple.stackexchange.com/questions/12993/why-doesnt-bashrc-run-automatically
+
+#### 104. How to use terminal to copy a file to the clipboard?
+
+**Issue**: How to use terminal to copy a file to the clipboard?
+**Tags / Source**: Tags: mac, terminal | apple | 👍 286 | 💬 11 answers
+
+**Description**:
+Tags: mac, terminal | Score: 286 | Views: 274471 | Answers: 11
+
+**Solution / Community Answer**:
+If I'm understanding the question right, what you're after is pbcopy and pbpaste.
+Open a terminal and run:
+cat ~/Desktop/ded.html | pbcopy
+
+The file is now in your clipboard.
+To put it somewhere else (i.e. paste it) run:
+pbpaste &gt; ~/Documents/ded.html
+
+Now you should have a copy of ded.html sitting in ~/Documents.
+
+**Reference**: https://apple.stackexchange.com/questions/15318/how-to-use-terminal-to-copy-a-file-to-the-clipboard
+
+> 📎 Source: https://apple.stackexchange.com/questions/15318/how-to-use-terminal-to-copy-a-file-to-the-clipboard
+
+#### 105. Is there a Mac OS X Terminal version of the &quot;free&quot; command in Linux systems?
+
+**Issue**: Is there a Mac OS X Terminal version of the &quot;free&quot; command in Linux systems?
+**Tags / Source**: Tags: terminal, memory, command-line | apple | 👍 262 | 💬 22 answers
+
+**Description**:
+Tags: terminal, memory, command-line | Score: 262 | Views: 380680 | Answers: 22
+
+**Solution / Community Answer**:
+As @khedron says, you can see this info in Activity Monitor.
+If you want it on the command line, here is a Python script that I wrote (or perhaps modified from someone else's, I can't remember, it's quite old now) to show you the Wired, Active, Inactive and Free memory amounts:
+#!/usr/bin/python
+
+import subprocess
+import re
+
+# Get process info
+ps = subprocess.Popen(['ps', '-caxm', '-orss,comm'], stdout=subprocess.PIPE).communicate()[0].decode()
+vm = subprocess.Popen(['vm_stat'], stdout=subprocess.PIPE).communicate()[0].decode()
+
+# Iterate processes
+processLines = ps.split('\n')
+sep = re.compile('[\s]+')
+rssTotal = 0 # kB
+for row in range(1,len(processLines)):
+    rowText = processLines[row].strip()
+    rowElements = sep.split(rowText)
+    try:
+        rss = float(rowElements[0]) * 1024
+    except:
+        rss = 0 # ignore...
+    rssTotal += rss
+
+# Process vm_stat
+vmLines = vm.split('\n')
+sep = re.compile(':[\s]+')
+vmStats = {}
+for row in range(1,len(vmLines)-2):
+    rowText = vmLines[row].strip()
+    rowElements = sep.split(rowText)
+    vmStats[(rowElements[0])] = int(rowElements[1].strip('\.')) * 4096
+
+print('Wired Memory:\t\t%d MB' % (vmStats[&quot;Pages wired down&quot;]/1024/1024))
+print('Active Memory:\t\t%d MB' % (vmStats[&quot;Pages active&quot;]/1024/1024))
+print('Inactive Memory:\t%d MB' % (vmStats[&quot;Pages inactive&quot;]/1024/1024))
+print('Free Memory:\t\t%d MB' % (vmStats[&quot;Pages free&quot;]/1024/1024))
+print('Real Mem Total (ps):\t%.3f MB' % (rssTotal/1024/1024))
+
+As you can see, you can just call vm_stat from the command line, though it counts in 4kB pages, hence the script to convert to MB.
+The script also counts up the &quot;real memory&quot; usage of all running processes for comparison (this won't match any specific value(s) from overall memory stats, because memory is a complex beast).
+
+Here's an example of the output of the script on my system:
+[user@host:~] % memReport.py
+Wired Memory:           1381 MB
+Active Memory:          3053 MB
+Inactive Memory:        727 MB
+Free Memory:            1619 MB
+Real Mem Total (ps):    3402.828 MB
+
+(very slightly adjusted to match the tab sizing on StackExchange ;)
+
+**Reference**: https://apple.stackexchange.com/questions/4286/is-there-a-mac-os-x-terminal-version-of-the-free-command-in-linux-systems
+
+> 📎 Source: https://apple.stackexchange.com/questions/4286/is-there-a-mac-os-x-terminal-version-of-the-free-command-in-linux-systems
+
+#### 106. What is the difference between iTerm2 and Terminal?
+
+**Issue**: What is the difference between iTerm2 and Terminal?
+**Tags / Source**: Tags: terminal, command-line, iterm | apple | 👍 208 | 💬 10 answers
+
+**Description**:
+Tags: terminal, command-line, iterm | Score: 208 | Views: 254811 | Answers: 10
+
+**Solution / Community Answer**:
+There are several features listed on their features page.
+
+Some of the features I like are:
+
+
+Split pane view
+Hotkey window for instant terminal anywhere
+Search will highlight all found words (like in Chrome and Safari)
+Mouseless copy
+Instant replay (can "rewind" your session in case you forgot to note/copy something)
+Paste history
+Growl support for notification when a process completes
+
+**Reference**: https://apple.stackexchange.com/questions/25143/what-is-the-difference-between-iterm2-and-terminal
+
+> 📎 Source: https://apple.stackexchange.com/questions/25143/what-is-the-difference-between-iterm2-and-terminal
+
+#### 107. How can I open a Terminal window directly from my current Finder location?
+
+**Issue**: How can I open a Terminal window directly from my current Finder location?
+**Tags / Source**: Tags: terminal, finder | apple | 👍 207 | 💬 18 answers
+
+**Description**:
+Tags: terminal, finder | Score: 207 | Views: 407489 | Answers: 18
+
+**Solution / Community Answer**:
+As of Mac OS X Lion 10.7, Terminal provides Services for opening a new terminal window or tab at the selected folder in Finder. They also work with absolute pathnames selected in text (in any application). You can enable these services with System Preferences > Keyboard > Keyboard Shortcuts > Services. Look for "New Terminal at Folder" and "New Terminal Tab at Folder". You can also assign them shortcut keys.
+
+In addition, you can now drag folders (and pathnames) onto the Terminal application icon to open a new terminal window, or onto a tab bar in a terminal window to create a new tab in that window. If you drag onto a tab (rather than into the terminal view) it will execute a complete cd command to switch to that directory without any additional typing.
+
+As of OS X Mountain Lion 10.8, Command-Dragging into a terminal will also execute a complete cd command.
+
+Note: The New Terminal at Folder service will become active when you select a folder in Finder. You cannot simply have the folder open and run the service "in place". Go back to the parent folder, select the relevant folder, then activate the service via the Services menu or context menu.
+
+**Reference**: https://apple.stackexchange.com/questions/11323/how-can-i-open-a-terminal-window-directly-from-my-current-finder-location
+
+> 📎 Source: https://apple.stackexchange.com/questions/11323/how-can-i-open-a-terminal-window-directly-from-my-current-finder-location
+
+#### 108. iTerm as a slide-out terminal from the top of the screen
+
+**Issue**: iTerm as a slide-out terminal from the top of the screen
+**Tags / Source**: Tags: terminal, iterm | apple | 👍 193 | 💬 6 answers
+
+**Description**:
+Tags: terminal, iterm | Score: 193 | Views: 171843 | Answers: 6
+
+**Solution / Community Answer**:
+You can use iTerm2's system-wide hotkey with the Hotkey Window profile to do this.
+In iTerm2 preferences, click on the &quot;Keys&quot; tab and choose &quot;Hotkey&quot;. Click &quot;Create a Dedicated Hotkey Window…&quot; and assign the hotkey you'd like to use.
+Check the &quot;Hotkey toggles a dedicated window with profile:&quot; option and choose &quot;Hotkey Window&quot; in the popup menu below (should be selected by default).
+With default settings, the Hotkey Profile window will stretch across the top of the screen, and the hotkey will drop the window down from the top, complete with animation.
+
+
+You can customize the settings for the &quot;Hotkey Window&quot; profile under the &quot;Profiles&quot; tab. To make it look like a Quake drop-down terminal, you can use similar &quot;Window&quot; preferences:
+
+**Reference**: https://apple.stackexchange.com/questions/48796/iterm-as-a-slide-out-terminal-from-the-top-of-the-screen
+
+> 📎 Source: https://apple.stackexchange.com/questions/48796/iterm-as-a-slide-out-terminal-from-the-top-of-the-screen
+
+#### 109. How do I delete all Terminal mail?
+
+**Issue**: How do I delete all Terminal mail?
+**Tags / Source**: Tags: terminal, email, unix | apple | 👍 174 | 💬 4 answers
+
+**Description**:
+Tags: terminal, email, unix | Score: 174 | Views: 149574 | Answers: 4
+
+**Solution / Community Answer**:
+Launch the UNIX mail utility by running the following at the command prompt (in e.g. Terminal.app):
+$ mail
+
+You'll see a list of all your messages. From the mail prompt, do
+? delete *
+? q
+
+And that should be it. Make sure to enter q after the delete * command. This will save the changes to disk.
+
+**Reference**: https://apple.stackexchange.com/questions/28745/how-do-i-delete-all-terminal-mail
+
+> 📎 Source: https://apple.stackexchange.com/questions/28745/how-do-i-delete-all-terminal-mail
+
+#### 110. How do I set environment variables on OS X?
+
+**Issue**: How do I set environment variables on OS X?
+**Tags / Source**: Tags: terminal, bash, environment-variables | apple | 👍 173 | 💬 12 answers
+
+**Description**:
+Tags: terminal, bash, environment-variables | Score: 173 | Views: 910373 | Answers: 12
+
+**Solution / Community Answer**:
+I have a .profile in my home directory; it contains many export … statements for environment variables.
+You can create such a file by opening a Terminal and issuing the command touch .profile.
+Close Terminal.
+Then you should open that file in a plain-text editor (TextWrangler for example). You can also use nano .profile in a Terminal window (current directory should be your home), which is much easier than vi. Insert lines such as export JAVA_HOME=…. Save, exit nano if you used that and quit a running Terminal.
+Open Terminal and issue the command env to see all environment variables. Check that the ones you defined have the value you assigned to them. You should be good to go now but don't forget that environment variables defined in .profile are not passed to GUI applications.
+
+**Reference**: https://apple.stackexchange.com/questions/106778/how-do-i-set-environment-variables-on-os-x
+
+> 📎 Source: https://apple.stackexchange.com/questions/106778/how-do-i-set-environment-variables-on-os-x
+
+#### 111. How can I mount an SMB share from the command line?
+
+**Issue**: How can I mount an SMB share from the command line?
+**Tags / Source**: Tags: terminal, smb, mount | apple | 👍 162 | 💬 9 answers
+
+**Description**:
+Tags: terminal, smb, mount | Score: 162 | Views: 553962 | Answers: 9
+
+**Solution / Community Answer**:
+Use the open(1) command and a URL:
+
+open 'smb://username:password@server/share'
+
+
+Pros: Creates the mount point in /Volumes for you.
+
+Cons: Requires the Finder to be running.
+
+**Reference**: https://apple.stackexchange.com/questions/697/how-can-i-mount-an-smb-share-from-the-command-line
+
+> 📎 Source: https://apple.stackexchange.com/questions/697/how-can-i-mount-an-smb-share-from-the-command-line
+
+#### 112. How can I keep my Mac awake AND locked?
+
+**Issue**: How can I keep my Mac awake AND locked?
+**Tags / Source**: Tags: macos, security, sleep-wake, power | apple | 👍 147 | 💬 8 answers
+
+**Description**:
+Tags: macos, security, sleep-wake, power | Score: 147 | Views: 221872 | Answers: 8
+
+**Solution / Community Answer**:
+In System Preferences &gt; Energy Saver, check the box for &quot;Prevent computer from sleeping automatically when the display is off&quot; (on laptops, this is under the Power Adapter tab)
+In System Preferences &gt; Security &amp; Privacy, check the box for &quot;Require password after sleep or screen saver begins&quot; and set the delay in the dropdown menu to &quot;immediately&quot;
+
+Now, you can hit command+option+Q  to turn off the display without sleeping the computer, and doing anything that turns on the display (like hitting a key or clicking a mouse button) will prompt you for your account password.
+On older Macs, the shortcut is different: command+option+Power or control+shift+power.
+
+**Reference**: https://apple.stackexchange.com/questions/76107/how-can-i-keep-my-mac-awake-and-locked
+
+> 📎 Source: https://apple.stackexchange.com/questions/76107/how-can-i-keep-my-mac-awake-and-locked
+
+#### 113. How to open a new tab in iTerm in the same folder as the one that is open?
+
+**Issue**: How to open a new tab in iTerm in the same folder as the one that is open?
+**Tags / Source**: Tags: terminal, iterm | apple | 👍 147 | 💬 4 answers
+
+**Description**:
+Tags: terminal, iterm | Score: 147 | Views: 63617 | Answers: 4
+
+**Solution / Community Answer**:
+Select "Reuse previous session's directory" from the preferences of your profile:
+
+
+
+Alternatively click on "Advanced Configuration" then "Edit..." so you can set the working directory separately for new windows, new tabs &amp; new split panes
+
+**Reference**: https://apple.stackexchange.com/questions/148508/how-to-open-a-new-tab-in-iterm-in-the-same-folder-as-the-one-that-is-open
+
+> 📎 Source: https://apple.stackexchange.com/questions/148508/how-to-open-a-new-tab-in-iterm-in-the-same-folder-as-the-one-that-is-open
+
+#### 114. The volume can&#39;t be ejected because it&#39;s currently in use
+
+**Issue**: The volume can&#39;t be ejected because it&#39;s currently in use
+**Tags / Source**: Tags: external-disk, eject, macos | apple | 👍 145 | 💬 10 answers
+
+**Description**:
+Tags: external-disk, eject, macos | Score: 145 | Views: 203648 | Answers: 10
+
+**Solution / Community Answer**:
+lsof is indeed your best bet. The fastest and easiest way would be this :-
+sudo lsof /Volumes/myDrive
+
+(be sure to run with sudo otherwise it probably won't work as intended)
+It can take a couple minutes to run, but once it's complete, it gives you a list of open files on the disk. The output will look something like this:
+COMMAND    PID  USER   FD   TYPE DEVICE SIZE/OFF  NODE NAME
+mds         89  root   19r   DIR   52,3      432     2 /Volumes/Photos
+mds         89  root   23r   DIR   52,3      432     2 /Volumes/Photos
+Finder     681 alans   14r   DIR   52,3      432     2 /Volumes/Photos
+QuickLook 2158 alans    9r   REG   52,3  1141591 78651 /Volumes/Photos/_tmp_iphone_10_backup/APC_1546.JPG  
+
+In this case, it's the QuickLook application that has a file open. Closing the application directly is the best way to fix the issue. However, that's not always possible. For example, QuickLook doesn't show up as an application you can get to in the Dock.
+If you can't close the application manually, you can use the kill command to terminate it from the command line. To do that, use the PID from the second column as the ID to kill. From the above example, it would be:
+kill 2158
+
+Note that sometimes that doesn't work and a more aggressive form of kill must be used. Here's a series of escalating aggressiveness (using the example PID of 2158):
+kill 2158
+sudo kill 2158
+sudo kill -INT 2158
+sudo kill -KILL 2158
+
+You should be able to eject the disk once the process/application has been killed.
+One final note, lsof can take a minute or two. It can also hang, but you should give it at least a few minutes before you decide that's what happened.
+Also, sometimes the base command sudo lsof /Volumes/myDrive won't find anything. If that happens, try adding the +D argument (i.e. sudo lsof +D /Volumes/myDrive). That will do a top down scan of the disk. It'll take longer, but it should pick up anything that's causing the disk to be un-ejectable.
+(Hat tip to Alec Jacobson's post for extra details.)
+
+**Reference**: https://apple.stackexchange.com/questions/104842/the-volume-cant-be-ejected-because-its-currently-in-use
+
+> 📎 Source: https://apple.stackexchange.com/questions/104842/the-volume-cant-be-ejected-because-its-currently-in-use
+
+#### 115. How can I list and edit all defined aliases in Terminal?
+
+**Issue**: How can I list and edit all defined aliases in Terminal?
+**Tags / Source**: Tags: terminal, bash, alias | apple | 👍 145 | 💬 3 answers
+
+**Description**:
+Tags: terminal, bash, alias | Score: 145 | Views: 302446 | Answers: 3
+
+**Solution / Community Answer**:
+All you need to do is type alias at the prompt and any active aliases will be listed.
+
+Aliases are usually loaded at initialization of your shell so look in .bash_profile or .bashrc in your home directory.  
+
+unalias will only work for your current session.  Unless you find where it is defined and loaded, it will be loaded again when you start a new Terminal session.
+
+~/.bashrc gets run for both login and non-login shells, ~/.bash_profile only gets run for login shells.  
+
+See login shell vs non-login shell
+
+As per comment from Chris Page:
+
+You should put most of your customizations (including aliases) in ~/.bashrc and have ~/.bash_profile run ~/.bashrc, so they apply to both login (~/.bash_profile) and non-login (~/.bashrc) shells. Also, decide which of these should be "primary" and if the profile is your choice, tack on the rc file at the end. If the rc file is primary, source that at the beginning of your profile
+
+These lines should be in the file ~/.bash_profile:
+
+if [ -f "$HOME/.bashrc" ] ; then
+  source $HOME/.bashrc
+fi
+
+
+This will include ~/.bashrc for login shells and in the order you wish if one file depends upon the other based on what you are setting.
+
+**Reference**: https://apple.stackexchange.com/questions/25352/how-can-i-list-and-edit-all-defined-aliases-in-terminal
+
+> 📎 Source: https://apple.stackexchange.com/questions/25352/how-can-i-list-and-edit-all-defined-aliases-in-terminal
+
+#### 116. Replace Text Edit as the default text editor
+
+**Issue**: Replace Text Edit as the default text editor
+**Tags / Source**: Tags: macos, text-editor, launch-services | apple | 👍 144 | 💬 11 answers
+
+**Description**:
+Tags: macos, text-editor, launch-services | Score: 144 | Views: 137559 | Answers: 11
+
+**Solution / Community Answer**:
+Another option is to use duti (https://github.com/moretension/duti).
+Run brew install duti, save a filetype like this as:
+duti -s com.sublimetext.4 public.plain-text all
+
+The changes should be applied immediately, so you don't have to restart like when editing com.apple.LaunchServices.plist.
+To also change the default application for executable scripts with no filename extension, add a line like this:
+duti -s com.sublimetext.4 public.unix-executable all
+
+Some files are also considered 'public.data', not 'public.plain-text', so you can do this as well:
+duti -s com.sublimetext.4 public.data all
+
+**Reference**: https://apple.stackexchange.com/questions/123833/replace-text-edit-as-the-default-text-editor
+
+> 📎 Source: https://apple.stackexchange.com/questions/123833/replace-text-edit-as-the-default-text-editor
+
+#### 117. How can I make ctrl+right/left arrow stop changing Desktops in Lion?
+
+**Issue**: How can I make ctrl+right/left arrow stop changing Desktops in Lion?
+**Tags / Source**: Tags: macos, mission-control | apple | 👍 144 | 💬 2 answers
+
+**Description**:
+Tags: macos, mission-control | Score: 144 | Views: 86632 | Answers: 2
+
+**Solution / Community Answer**:
+Go to System Preferences > Keyboard > Shortcuts > Mission Control and change the settings for "Move left a space" and "Move right a space" or disable them completely.
+
+**Reference**: https://apple.stackexchange.com/questions/18043/how-can-i-make-ctrlright-left-arrow-stop-changing-desktops-in-lion
+
+> 📎 Source: https://apple.stackexchange.com/questions/18043/how-can-i-make-ctrlright-left-arrow-stop-changing-desktops-in-lion
+
+#### 118. How do I move a window whose title bar is off-screen?
+
+**Issue**: How do I move a window whose title bar is off-screen?
+**Tags / Source**: Tags: macos, applications | apple | 👍 143 | 💬 21 answers
+
+**Description**:
+Tags: macos, applications | Score: 143 | Views: 127173 | Answers: 21
+
+**Solution / Community Answer**:
+Hold on option (or alt) while clicking the Window menu.  This should change Bring All to Front into Arrange in Front, which did the trick for me.
+
+This worked for me on OSX 10.9.1
+
+**Reference**: https://apple.stackexchange.com/questions/71112/how-do-i-move-a-window-whose-title-bar-is-off-screen
+
+> 📎 Source: https://apple.stackexchange.com/questions/71112/how-do-i-move-a-window-whose-title-bar-is-off-screen
+
+#### 119. How to open files in another app via Terminal on macOS?
+
+**Issue**: How to open files in another app via Terminal on macOS?
+**Tags / Source**: Tags: macos, terminal, command-line | apple | 👍 142 | 💬 3 answers
+
+**Description**:
+Tags: macos, terminal, command-line | Score: 142 | Views: 1276914 | Answers: 3
+
+**Solution / Community Answer**:
+To open any file from the command line with the default application, just type open followed by the filename/path.
+
+Example:
+
+open ~/Desktop/filename.mp4
+
+
+Edit: as per Johnny Drama's comment below, if you want to be able to open files in a certain application, put -a followed by the application's name in quotes between open and the file.
+
+Example:
+
+open -a "QuickTime Player" ~/Desktop/filename.mp4
+
+
+If you need further information about the open command, type man open.
+
+**Reference**: https://apple.stackexchange.com/questions/212583/how-to-open-files-in-another-app-via-terminal-on-macos
+
+> 📎 Source: https://apple.stackexchange.com/questions/212583/how-to-open-files-in-another-app-via-terminal-on-macos
+
+#### 120. How to bring back multi-touch gestures after it crashes without reboot?
+
+**Issue**: How to bring back multi-touch gestures after it crashes without reboot?
+**Tags / Source**: Tags: macos, multi-touch, bettertouchtool | apple | 👍 140 | 💬 8 answers
+
+**Description**:
+Tags: macos, multi-touch, bettertouchtool | Score: 140 | Views: 83968 | Answers: 8
+
+**Solution / Community Answer**:
+Run the command killall Dock in Terminal.
+In my case, only Mission Control gestures had stopped working (three finger swipe left/right to switch spaces, three finger swipe up for overview, mission control etc).
+
+**Reference**: https://apple.stackexchange.com/questions/151907/how-to-bring-back-multi-touch-gestures-after-it-crashes-without-reboot
+
+> 📎 Source: https://apple.stackexchange.com/questions/151907/how-to-bring-back-multi-touch-gestures-after-it-crashes-without-reboot
+
+#### 121. Fastest and safest way to copy massive data from one external drive to another
+
+**Issue**: Fastest and safest way to copy massive data from one external drive to another
+**Tags / Source**: Tags: macos, finder, backup, file-transfer | apple | 👍 140 | 💬 6 answers
+
+**Description**:
+Tags: macos, finder, backup, file-transfer | Score: 140 | Views: 282097 | Answers: 6
+
+**Solution / Community Answer**:
+remote sync, rsync, is a reliable choice for copying large amounts of data. You can prepare the command and perform a dry-run before committing to the copy; add --dry-run to simulate the copy.
+
+Your final command will be fairly simple:
+
+sudo rsync -vaE --progress /Volumes/SourceName /Volumes/DestinationName
+
+
+The flags are:
+
+
+v increases verbosity.
+a applies archive settings to mirror the source files exactly, including symbolic links and permissions.
+E copies extended attributes and resource forks (OS X only).
+--progress shows progress during the copy.
+
+
+sudo, is used to ensure rsync has appropriate rights to access and read all files on your drive regardless of owner. This also allows rsync to write the files to the new drive recreating the original owner information.
+
+rsync is likely the best choice because it can be rerun in case of problems, offers detailed logging, and is as fast as can be while remaining safe.
+
+There are numerous guides for getting the most from rsync, rsync command examples provides relevant examples. Take care with the trailing slashes; these can make a world of difference if your copy starts with a folder.
+
+Alternative tools include ditto and cp. Both are reasonable choices but offer differing syntax.
+
+**Reference**: https://apple.stackexchange.com/questions/117465/fastest-and-safest-way-to-copy-massive-data-from-one-external-drive-to-another
+
+> 📎 Source: https://apple.stackexchange.com/questions/117465/fastest-and-safest-way-to-copy-massive-data-from-one-external-drive-to-another
+
+#### 122. How do I disable the Minimize (command-M) shortcut?
+
+**Issue**: How do I disable the Minimize (command-M) shortcut?
+**Tags / Source**: Tags: keyboard, macos, contextual-menu | apple | 👍 140 | 💬 10 answers
+
+**Description**:
+Tags: keyboard, macos, contextual-menu | Score: 140 | Views: 39914 | Answers: 10
+
+**Solution / Community Answer**:
+You don't need to install any additional software.
+
+
+Go to System Preferences > Keyboard > Shortcuts > App Shortcuts
+Click the  button below 
+Enter "Minimize" (use "Minimize All" to override minimizing all windows with ⌥⌘M) into the Menu Title text input field.
+Assign some bizzare key combination that you won't press by accident.
+Repeat steps three and four for "Minimise" (alternate spelling) which is required for some apps.
+Close the window to save the changes.
+
+
+
+
+I'm aware that this is not really "disabling it" but the result is effectively the same and without depending on 3rd party software.
+
+**Reference**: https://apple.stackexchange.com/questions/115562/how-do-i-disable-the-minimize-command-m-shortcut
+
+> 📎 Source: https://apple.stackexchange.com/questions/115562/how-do-i-disable-the-minimize-command-m-shortcut
+
+#### 123. How do I open the context menu from a Mac keyboard?
+
+**Issue**: How do I open the context menu from a Mac keyboard?
+**Tags / Source**: Tags: macos, keyboard, contextual-menu, spellcheck | apple | 👍 140 | 💬 22 answers
+
+**Description**:
+Tags: macos, keyboard, contextual-menu, spellcheck | Score: 140 | Views: 83262 | Answers: 22
+
+**Solution / Community Answer**:
+I always have the same question but I didn't find the answer yet.
+In Windows, when we use the keyboard short-cuts we mostly use the Menu key in Windows keyboard:
+
+When this Menu key is pressed, Windows will assume that you right-clicked the highlighted/active element &gt; then it will show you the context menu even if the mouse pointer is not pointing to the highlighted element.
+So this feature seems to be missing in Mac OS. And whatever suggested solutions, even Enable Mouse Key it always require you to point/move your mouse pointer to element first, which is meaningless. If I need to use the keyboard short-cut to open the context menu on the highlighted item, why do I need again to move the mouse pointer to it also. Somehow this is not a short-cut!!
+
+**Reference**: https://apple.stackexchange.com/questions/32715/how-do-i-open-the-context-menu-from-a-mac-keyboard
+
+> 📎 Source: https://apple.stackexchange.com/questions/32715/how-do-i-open-the-context-menu-from-a-mac-keyboard
+
+#### 124. DNS not resolving on Mac OS X
+
+**Issue**: DNS not resolving on Mac OS X
+**Tags / Source**: Tags: macos, macbook-pro, snow-leopard, network, dns | apple | 👍 139 | 💬 28 answers
+
+**Description**:
+Tags: macos, macbook-pro, snow-leopard, network, dns | Score: 139 | Views: 360572 | Answers: 28
+
+**Solution / Community Answer**:
+It turns out the solution was to bounce mDNSResponder:
+
+sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.mDNSResponder.plist
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.mDNSResponder.plist
+
+
+This was obtained by a different coworker from this Server Fault question.
+
+OS X 10.10.0 – 10.10.3, Yosemite
+
+Apparently, mDNSResponder doesn't exist in Yosemite (OS X 10.10). You can restart descoveryd instead to fix these issues.
+
+sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.discoveryd.plist
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.discoveryd.plist
+
+
+OS X 10.10.4+, Yosemite
+
+In OSX 10.10.4 the mDNSResponder has been reintroduced. So use the first one will work again.
+
+**Reference**: https://apple.stackexchange.com/questions/26616/dns-not-resolving-on-mac-os-x
+
+> 📎 Source: https://apple.stackexchange.com/questions/26616/dns-not-resolving-on-mac-os-x
+
+#### 125. Mail App keeps popping up in the background in Mac OS Mojave
+
+**Issue**: Mail App keeps popping up in the background in Mac OS Mojave
+**Tags / Source**: Tags: macbook-pro, mail.app, macos | apple | 👍 138 | 💬 11 answers
+
+**Description**:
+Tags: macbook-pro, mail.app, macos | Score: 138 | Views: 221356 | Answers: 11
+
+**Solution / Community Answer**:
+I have the same issue: 
+The google calendar stuff is nonsense. The notification settings suggestion doesn't work.
+
+I've narrowed it down to the following:
+
+I normally hit the red cross button on the viewer window once I have finished looking at my mail, this closes open viewer windows but leaves the mail app active in the dock:
+
+So if I have mail running, but no viewer windows open, then I get a viewer window randomly popping up to the foreground a few times an hour. 
+
+If instead of hitting the red cross button, I minimise mail using the minus button, then I don't get any viewer windows randomly opening. In this scenario, the mail viewer window is minimised either on the right hand side of the dock or into the application icon itself, depending on your settings (System Preferences > Dock > "Minimize windows into application icon").
+
+So I have changed my habits to work around this annoying bug...
+
+**Reference**: https://apple.stackexchange.com/questions/344223/mail-app-keeps-popping-up-in-the-background-in-mac-os-mojave
+
+> 📎 Source: https://apple.stackexchange.com/questions/344223/mail-app-keeps-popping-up-in-the-background-in-mac-os-mojave
+
+#### 126. What&#39;s a good graphical SFTP utility for OS X?
+
+**Issue**: What&#39;s a good graphical SFTP utility for OS X?
+**Tags / Source**: Tags: macos, snow-leopard, software-recommendation, ssh, ftp | apple | 👍 137 | 💬 15 answers
+
+**Description**:
+Tags: macos, snow-leopard, software-recommendation, ssh, ftp | Score: 137 | Views: 376006 | Answers: 15
+
+**Solution / Community Answer**:
+Cyberduck (Free) and partner Mountain Duck ($39 with volume and enterprise options)
+A great free FTP client. This is my go-to application. Anytime I need FTP access, I use Cyberduck. It's not quite as lightweight as Fugu, but it adds a lot more functionality than Fugu. I also really like the Growl integration with Cyberduck.
+
+
+Fugu (Free)
+Awesome little FTP client. As I noted above, this is a lightweight FTP client. It is great for simple FTP transfers and browsing. I do like the dual panel navigation.
+
+Filezilla (Free)
+I haven't actually used Filezilla extensively, but from what I've seen of it, I really like it. I downloaded it and played with it for a bit and I really like the tabbed connections. I also like the ability to jump to a path easily.
+
+RBrowser (Free, $29 Upgrade)
+A free FTP/FTP-SSL client. I don't usually use RBrowser because a $29 upgrade is necessary to unlock other protocols (Local, FTP/SSL/TLS, SFTP-SSH). I do like the Site Manager. It's a handy little thing to have.
+
+
+I searched and came up with some other free FTP clients:
+FireFTP (Free) - Firefox extension
+The one downside I see is that this is for Firefox. The website doesn't make it clear how it works with Firefox, so I assume it is an extension.
+Macfusion (Free)
+This one relies on Google's MacFUSE. Since I don't know anything about MacFUSE, I don't know if this is good or bad.
+Transmit ($34) By Panic
+I have never used Transmit before, but I have used Coda and I definitely would recommend anything from Panic. The only reason I haven't used this because of the $34 price tag.
+
+ForkLift2 ($30)
+Never used it, just found it when searching.
+Fetch ($24 per user)
+An amazing program with a long, long, long mac heritage. It's way up there with Transmit by Panic and Interarchy as a file transfer program loved by long time Mac power users.
+Flow ($30)
+Never used it, but looks good from the screenshots. I really like the fact that it looks like Finder. I may have to give this one a try.
+
+OneButton FTP (Free)
+Just searching around and found yet another one...It looks pretty nice, except it's no longer supported. However, you can still download it.
+
+**Reference**: https://apple.stackexchange.com/questions/25661/whats-a-good-graphical-sftp-utility-for-os-x
+
+> 📎 Source: https://apple.stackexchange.com/questions/25661/whats-a-good-graphical-sftp-utility-for-os-x
+
+#### 127. How to fix homebrew error: &quot;invalid active developer path&quot; after upgrade to OS X El Capitan?
+
+**Issue**: How to fix homebrew error: &quot;invalid active developer path&quot; after upgrade to OS X El Capitan?
+**Tags / Source**: Tags: homebrew, macos | apple | 👍 136 | 💬 5 answers
+
+**Description**:
+Tags: homebrew, macos | Score: 136 | Views: 125239 | Answers: 5
+
+**Solution / Community Answer**:
+Run the following commands to fix the above error
+
+sudo xcode-select --install
+sudo xcode-select -switch /
+
+
+I found the answer on https://github.com/Homebrew/homebrew/issues/23500
+
+I also had to do this:
+
+sudo chown -R $(whoami):admin /usr/local
+
+
+Because of some permission issues. However, do this only if you have to.
+
+**Reference**: https://apple.stackexchange.com/questions/209624/how-to-fix-homebrew-error-invalid-active-developer-path-after-upgrade-to-os-x
+
+> 📎 Source: https://apple.stackexchange.com/questions/209624/how-to-fix-homebrew-error-invalid-active-developer-path-after-upgrade-to-os-x
+
+#### 128. Why does my brew installation not work?
+
+**Issue**: Why does my brew installation not work?
+**Tags / Source**: Tags: macos, command-line, homebrew, path | apple | 👍 134 | 💬 13 answers
+
+**Description**:
+Tags: macos, command-line, homebrew, path | Score: 134 | Views: 736571 | Answers: 13
+
+**Solution / Community Answer**:
+I had the same problem—installed brew, used it, but now it doens't work, ie, brew command not recognized anymore.
+The context of my brew-not-recognized-anymore problem is a bit more specific: I'm using iTerm instead of Terminal, I installed brew in the standard way to the standard place, I used brew to install zsh and oh-my-zsh, and at that point the brew command stopped working.
+I wasn't able to find the solution to my subset of the brew-not-recognized-anymore problem anywhere, so I'm posting the solution in case anyone else has this sort of brew-not-recognized-anymore problem.
+Adding this to my .zshrc solved the problem on a machine with Apple M1 CPU:
+eval $(/opt/homebrew/bin/brew shellenv)
+
+Note that this is not the same as adding to the PATH variable. The brew command is indeed located in those standard locations listed in other solutions. It turned out not to be a PATH variable thing that was causing this subset of the brew-not-recognized-anymore problem.
+
+**Reference**: https://apple.stackexchange.com/questions/148901/why-does-my-brew-installation-not-work
+
+> 📎 Source: https://apple.stackexchange.com/questions/148901/why-does-my-brew-installation-not-work
+
+#### 129. Unable to modify the volume with the keyboard
+
+**Issue**: Unable to modify the volume with the keyboard
+**Tags / Source**: Tags: keyboard, macos, macbook-pro, audio | apple | 👍 134 | 💬 11 answers
+
+**Description**:
+Tags: keyboard, macos, macbook-pro, audio | Score: 134 | Views: 534934 | Answers: 11
+
+**Solution / Community Answer**:
+What worked for me: open up a Terminal window and run:
+
+sudo killall coreaudiod
+
+
+You may also need to run the following two commands right after:
+
+sudo kextunload /System/Library/Extensions/AppleHDA.kext 
+sudo kextload /System/Library/Extensions/AppleHDA.kext
+
+**Reference**: https://apple.stackexchange.com/questions/124476/unable-to-modify-the-volume-with-the-keyboard
+
+> 📎 Source: https://apple.stackexchange.com/questions/124476/unable-to-modify-the-volume-with-the-keyboard
+
+#### 130. How can I figure out what&#39;s slowly eating my drive space?
+
+**Issue**: How can I figure out what&#39;s slowly eating my drive space?
+**Tags / Source**: Tags: macos, disk-space, filevault | apple | 👍 133 | 💬 19 answers
+
+**Description**:
+Tags: macos, disk-space, filevault | Score: 133 | Views: 114263 | Answers: 19
+
+**Solution / Community Answer**:
+I've had a very similar issue, and so I decided to compile several methods for solving it. So, following, there are those options and some of them I got from the answers already provided here. I understand this is a little bit offtopic from the question, but it's in tune with the answers. This has many parts and those are all softwares I could try myself somehow.
+It's generally a good idea to pay close attention for using the sudo options below so the software can have access to every file, which will likely include some big hidden ones.
+
+Here's a brief list of apps for checking the disk usage:
+
+GrandPerspective is only graphical, using the Treemap, it can measure files by logical or physical methods before scanning, show/hide package contents and change color scheme on the fly. It also is able to save the scanned data for archiving or comparing multiple windows.
+
+Disk Inventory X also uses the Treemap graphical scheme but along side a list view of folders and files. The grahpics isn't as good as GrandPerspective neither the list as good as OmniDiskSweeper, but it does a good job mixing both. It has a Finder plugin and the most options between the 3 on preferences. It's the most complex, but not all complete.
+
+OmniDiskSweeper is non-graphical and very similar to Finder's column view. You choose the folder or disk to analyse, it will order them by disk usage after taking its time to calculate. You can then just delete (move to trash) anything listed.
+
+
+So each one has its advantages and highlights, I'm still not sure if there's one that comes on top. They're all free.
+
+There is also a different approach, of apps for scanning specific expected places and files for space usage in non-optimal ways. They basically gather some known things about the system that can be bloating your disk all in one nice interface so you can see and decide what to delete.
+
+CleanMyMac lists caches, logs, language files, universal binaries, development &quot;junk&quot;, extensions and applications. It scans through the files and also uses some knowledge base it has. Great interface, simple to use. CleanMyMac has a free trial which will only clean up to 500 MB.
+
+XSlimmer is very specific. It remove &quot;unnecessary&quot; code from &quot;fat&quot; binaries and Strip out unneeded languages, as it says on the website. Universal Binaries, that is, use a lot of space for storing files to run in several different architectures and languages. So, this strips all of them to shrink to only your computer needs. XSlimmer is currently discontinued.
+
+
+
+Another approach is looking for duplicate files. There are many commercial options, some may be better than the listed below, I haven't tried them all. Anyway, I'm listing my choice of apps considering which ones I was able to try.
+
+TidyUp is a very well known app in this subject. You can specify where to scan for what kind of duplicates. It offers basic and advanced modes, several different strategies and criterias.
+
+MrClean is a free tool that just scans for folders for duplicates and trash them. Very simplistic but efficient if you're sure on what you're doing.
+
+Chipmunk scans duplicates and let you choose which ones you want to trash. It offers a node-view of folders and you can select to &quot;delete all files in a folder that have duplicates elsewhere, or vice versa&quot; as well as hand-picking. It may take very long to scan all files, but it does a very decent job after that.
+
+DupeCheck &quot;drop a file on it and it will use your Spotlight index to see if you have a potential duplicate somewhere.&quot; That's about this nice open source app. Not a great tool for space cleaning at once, but over time it helps you keep your space clean.
+
+DuplicateFileSearcher from the website: &quot;is a free powerful software utility that will help you to find and delete duplicate files on your computer. It can also be used to calculate MD5 and SHA hashes. The software runs in Windows, Linux, Solaris and MacOS.&quot;. Enough said.
+
+
+
+Next I'll briefly discuss on a similar approach by quoting relevant parts about two other things that can be done to look for missing disk space, without installing anything new, just using the command line (the Terminal).
+This (long but good) one is from MacFixIt forums (go there for more options and details):
+
+In most cases, there really are files occupying part of the volume, but the files are invisible in normal use of the Finder.
+Using the Finder’s Go to Folder feature (in the Go menu), look at the sizes of the contents of these folders, by pasting in these pathnames:
+/private/var/vm 
+/private/var/log 
+/Volumes 
+
+The /private/var/vm directory contains the swapfiles used by virtual memory. New ones are made as more data is swapped from RAM to the hard drive. The entire process of creating them begins at each reboot or restart; do not attempt to remove them yourself. Check the total size of all the swapfiles, right after you boot, and as the disk fills up. In Panther, the first two swapfiles are 64 MB, then each new one is twice the size of the preceeding one (128 MB, 256 MB, 512 MB, 1 GB) up to a maximum size of 1 GB. In Tiger, the first two swapfiles are 64 MB, the next one is 128 MB, and any additional swapfiles are 256 MB.
+If you do not run the daily, weekly, and monthly maintenance scripts (either by using a utility, or by running the commands sudo periodic daily, sudo periodic weekly, and sudo periodic monthly in Terminal), the logs on the startup volume can become too large. If an error is occurring frequently and is being logged, you can have a very large file at /private/var/log/system.log.
+The files in /Volumes should be aliases to your mounted volumes. Do not remove these aliases, because anything you do to them happens to the contents of the corresponding volumes. If you are not confident that you can explore this folder without mishap, before you begin, properly unmount any volume other than the startup volume, if the missing disk space problem affects only that volume. External FireWire drives can be disconnected after proper unmounting.
+Sometimes, backup programs that cannot find an intended destination (or target) volume for a backup create a folder with the same name as the destination, and put the folder into the /Volumes directory. There are cases in which the entire startup volume has been backed up on itself, in a folder inside /Volumes. If the amount of missing space is about the size of your user folder, such a backup is likely to be the explanation. If you use Carbon Copy Cloner or another backup or cloning utility and have its preferences configured to create a backup on a schedule, and the intended destination volume is not mounted or is sleeping at the scheduled time, the backup is created in the /Volumes directory.
+To check the size of the normally invisible /Volumes directory on the active startup volume, open a new Finder window. Select the startup volume in the list at the left, then choose column view (the one at the right of the three views). From the Finder’s Go menu, choose Go to Folder, and paste in:
+/Volumes 
+
+The /Volumes directory becomes visible in the Finder; find its size by selecting it and typing Command I. My /Volumes directory is reported to be 12K.
+
+This other one is from Mac OS X Hints forums (not much more to see there):
+
+You may want to run a du in terminal to see what is all going on. This could take a few minutes to run.
+An example would be to open up terminal.app then run these commands:
+sudo du -h -d 1 -c /
+
+Input your password when it prompts for it then let it go, it will take a few minutes to run so be paitent.
+
+du stands for Disk Usage. There's also df. I like including the -x to the above command, and sort;
+sudo du -cxhd 1 / | sort -h
+
+
+Adding to the command line option, you could use an automator service for opening any app. With this you will get different (and more complete) results on GUI.
+Or, if you're on a Power PC, using Rosetta or anything before Snow Leopard, you can mix any of the before mentioned apps with Pseudo. It's a little app to open things as admin. Picture it like a GUI for sudo.
+
+
+Finally, there's a complete newbie guide on &quot;The X Lab&quot; that I just won't quote here for it's too long.
+
+**Reference**: https://apple.stackexchange.com/questions/5353/how-can-i-figure-out-whats-slowly-eating-my-drive-space
+
+> 📎 Source: https://apple.stackexchange.com/questions/5353/how-can-i-figure-out-whats-slowly-eating-my-drive-space
+
+#### 131. Silencing &quot;Your disk is almost full&quot; notification
+
+**Issue**: Silencing &quot;Your disk is almost full&quot; notification
+**Tags / Source**: Tags: notifications, disk-space, macos | apple | 👍 133 | 💬 4 answers
+
+**Description**:
+Tags: notifications, disk-space, macos | Score: 133 | Views: 121895 | Answers: 4
+
+**Solution / Community Answer**:
+The solution to disabling the "almost full" and "full" notification is to disable the daemon responsible for it:
+
+launchctl unload -w /System/Library/LaunchAgents/com.apple.diskspaced.plist
+
+
+or
+
+launchctl stop com.apple.diskspaced
+
+
+Alternatively, if you only want to prevent the "almost full" from appearing so often then you can lower the GB threshold via:
+
+minFreeSpace (int) - minimal free size in GB. Default: 20
+
+
+The default 20GB is too high for small SSDs and a possible bug causes the alert to be shown every day rather than just once, so as a workaround you can lower the free space before the alert appears, e.g. to 10GB:
+
+defaults write com.apple.diskspaced minFreeSpace 10
+
+
+The daemon only reads its prefs on startup so you need to restart it if you have system integrity turned off:
+
+launchctl unload -w /System/Library/LaunchAgents/com.apple.diskspaced.plist
+launchctl load -w /System/Library/LaunchAgents/com.apple.diskspaced.plist
+
+
+Otherwise kill it:
+
+killall diskspaced
+
+
+In case you are interested in the other preferences for these disk alerts you can view some of them using the help param:
+
+/System/Library/PrivateFrameworks/StorageManagement.framework/Versions/A/Resources/diskspaced help
+---
+  Domain: com.apple.diskspaced
+  Supported keys:
+  debugLog (BOOL) - log additional debug information. Default: NO
+  checkAllVolumes (BOOL) - check all volumes. Default: NO
+  minDiskSize (int) - minimal disk size in GB. Default: 128
+  minFreeSpace (int) - minimal free size in GB. Default: 20
+  minPurgeableSpace (int) - minimal purgeabe space size in GB. Default: 20
+---
+  Commands: removeAllNotifications - Removes all scheduled and delivered user notificiations.
+
+
+And here are a couple of hidden ones:
+
+warningInterval (integer default 0)
+lastWarningDate (string e.g. 2017-05-05 16:48:29 +0000)
+
+
+I didn't look too closely at but it is possible setting the last warning date to a date in the future would also prevent the alert displaying.
+
+**Reference**: https://apple.stackexchange.com/questions/254485/silencing-your-disk-is-almost-full-notification
+
+> 📎 Source: https://apple.stackexchange.com/questions/254485/silencing-your-disk-is-almost-full-notification
+
+#### 132. Can I delete unnecessary device simulators of Xcode?
+
+**Issue**: Can I delete unnecessary device simulators of Xcode?
+**Tags / Source**: Tags: ios, xcode, macos | apple | 👍 132 | 💬 11 answers
+
+**Description**:
+Tags: ios, xcode, macos | Score: 132 | Views: 174153 | Answers: 11
+
+**Solution / Community Answer**:
+Yes, you can delete any simulator that you don't use.  I do this routinely when I stop supporting older iOS versions.
+If you delete them and then you find that you need them at some point in the future, you can redownload them from Apple's developer site.
+The best way to delete them is in Xcode.  Go to Window -&gt; Devices and Simulators.  This will open a new window with all the devices you use in Xcode.
+At the top, tap on Simulators and you'll see a list on the left-side.
+From there, find the simulator you want to delete and Cntl - click (or right-click) and select Delete.
+I do this with each simulator that runs in each iOS version that I no longer support.
+Update July 2020: There's a free utility in the Mac App Store named DevCleaner for Xcode.  This application can display and delete simulators and various caches.  I've found it be a very quick and easy way to regain space.  I'm not the developer or associated with this application in any way.
+
+**Reference**: https://apple.stackexchange.com/questions/306566/can-i-delete-unnecessary-device-simulators-of-xcode
+
+> 📎 Source: https://apple.stackexchange.com/questions/306566/can-i-delete-unnecessary-device-simulators-of-xcode
+
+#### 133. How do I negotiate dialogue boxes using the keyboard only?
+
+**Issue**: How do I negotiate dialogue boxes using the keyboard only?
+**Tags / Source**: Tags: macos, keyboard | apple | 👍 132 | 💬 5 answers
+
+**Description**:
+Tags: macos, keyboard | Score: 132 | Views: 45814 | Answers: 5
+
+**Solution / Community Answer**:
+macOS provides functionality to cycle through dialog boxes, but there is a system setting that must be enabled.
+Toggle Functionality with Keyboard Shortcut
+Press Control-F7
+System Settings (macOS Ventura and later)
+Starting with macOS Ventura, the setting is in System Settings → Keyboard → Keyboard Navigation. Click the toggle to enable the setting.
+
+System Preferences (macOS Monterey and earlier)
+In macOS Monterey and earlier versions, the setting is in System Preferences → Keyboard → Shortcuts → Full Keyboard Access... → All Controls
+
+
+Keyboard Control Tips
+
+Now you can navigate dialogue boxes using the keyboard:
+
+Press Tab to move the focus the next button on the dialog.
+Press Shift-Tab to move back to the previous button.
+Press Space to trigger the currently selected button (highlighted border).
+
+Regardless of which control is currently selected:
+
+Pressing Return will always trigger the default button (highlight-coloured button).
+Pressing Esc will always cancel the dialog.
+
+**Reference**: https://apple.stackexchange.com/questions/55292/how-do-i-negotiate-dialogue-boxes-using-the-keyboard-only
+
+> 📎 Source: https://apple.stackexchange.com/questions/55292/how-do-i-negotiate-dialogue-boxes-using-the-keyboard-only
+
+#### 134. How can I unpack .7z files via MacOS terminal?
+
+**Issue**: How can I unpack .7z files via MacOS terminal?
+**Tags / Source**: Tags: macos, command-line, zip, compression | apple | 👍 132 | 💬 10 answers
+
+**Description**:
+Tags: macos, command-line, zip, compression | Score: 132 | Views: 253014 | Answers: 10
+
+**Solution / Community Answer**:
+You can install p7zip with Homebrew. So
+
+% brew install p7zip
+% 7za x myfiles.7z
+
+
+Installing Homebrew as @EraserPencil suggested makes sense as the OP might need more programs in the future, which would be at his fingertips then. You can install Homebrew with
+
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+
+It should be noted there is 7z e as well but as commented by @Qback, this does almost never do what you want if you have subdirectories in the archive.
+
+**Reference**: https://apple.stackexchange.com/questions/307377/how-can-i-unpack-7z-files-via-macos-terminal
+
+> 📎 Source: https://apple.stackexchange.com/questions/307377/how-can-i-unpack-7z-files-via-macos-terminal
+
+#### 135. Is there a way to completely disable Dock?
+
+**Issue**: Is there a way to completely disable Dock?
+**Tags / Source**: Tags: macos, dock, launchbar | apple | 👍 132 | 💬 6 answers
+
+**Description**:
+Tags: macos, dock, launchbar | Score: 132 | Views: 79025 | Answers: 6
+
+**Solution / Community Answer**:
+This article from Lifehacker.com.au suggests setting the Dock autohide delay to 1000 seconds, like so:
+
+defaults write com.apple.dock autohide-delay -float 1000; killall Dock
+
+
+To restore the default behavior:
+
+defaults delete com.apple.dock autohide-delay; killall Dock
+
+
+The author says he sets the delay to two seconds, so he can still get to the Dock in those rare cases when it's needed.
+
+**Reference**: https://apple.stackexchange.com/questions/59556/is-there-a-way-to-completely-disable-dock
+
+> 📎 Source: https://apple.stackexchange.com/questions/59556/is-there-a-way-to-completely-disable-dock
+
+#### 136. Getting all files from a web page using curl
+
+**Issue**: Getting all files from a web page using curl
+**Tags / Source**: Tags: macos, bash | apple | 👍 131 | 💬 5 answers
+
+**Description**:
+Tags: macos, bash | Score: 131 | Views: 361070 | Answers: 5
+
+**Solution / Community Answer**:
+Use wget instead.
+Install it with Homebrew: brew install wget or  MacPorts: sudo port install wget
+For downloading files from a directory listing, use -r (recursive), -np (don't follow links to parent directories), and -k to make links in downloaded HTML or CSS point to local files (credit @xaccrocheur).
+wget -r -np -k http://www.ime.usp.br/~coelho/mac0122-2013/ep2/esqueleto/
+
+Other useful options:
+
+-nd (no directories): download all files to the current directory
+-e robots=off: ignore restrictions in robots.txt file and don't download robots.txt files
+-A png,jpg: accept only files with the extensions png or jpg
+-m (mirror): -r --timestamping --level inf --no-remove-listing
+-nc, --no-clobber: Skip download if files exist
+
+**Reference**: https://apple.stackexchange.com/questions/100570/getting-all-files-from-a-web-page-using-curl
+
+> 📎 Source: https://apple.stackexchange.com/questions/100570/getting-all-files-from-a-web-page-using-curl
+
+#### 137. How to turnoff screen / lock Macbook Pro with touch bar using keyboard?
+
+**Issue**: How to turnoff screen / lock Macbook Pro with touch bar using keyboard?
+**Tags / Source**: Tags: macbook-pro, touch-bar | apple | 👍 131 | 💬 10 answers
+
+**Description**:
+Tags: macbook-pro, touch-bar | Score: 131 | Views: 148357 | Answers: 10
+
+**Solution / Community Answer**:
+you can add the sleep function to the touch bar through system preferences > keyboard > customize control strip and then drag the sleep icon to the touch bar, allowing you to put it to sleep by pressing 1 button.
+
+**Reference**: https://apple.stackexchange.com/questions/261496/how-to-turnoff-screen-lock-macbook-pro-with-touch-bar-using-keyboard
+
+> 📎 Source: https://apple.stackexchange.com/questions/261496/how-to-turnoff-screen-lock-macbook-pro-with-touch-bar-using-keyboard
+
+#### 138. Enter a filename in the File Open dialog
+
+**Issue**: Enter a filename in the File Open dialog
+**Tags / Source**: Tags: macos | apple | 👍 130 | 💬 3 answers
+
+**Description**:
+Tags: macos | Score: 130 | Views: 44849 | Answers: 3
+
+**Solution / Community Answer**:
+Yes. When the Finder dialog box is active type ⇧⌘G to bring up the Go to the folder direct entry dialog. You can enter the path to the file in the dialog using the Unix-type path expressions you'd expect: ~ for your home directory, / for a directory separator, etc.
+
+**Reference**: https://apple.stackexchange.com/questions/26819/enter-a-filename-in-the-file-open-dialog
+
+> 📎 Source: https://apple.stackexchange.com/questions/26819/enter-a-filename-in-the-file-open-dialog
+
+#### 139. How to get rid of firewall &quot;accept incoming connections&quot; dialog?
+
+**Issue**: How to get rid of firewall &quot;accept incoming connections&quot; dialog?
+**Tags / Source**: Tags: macos, snow-leopard, firewall | apple | 👍 130 | 💬 14 answers
+
+**Description**:
+Tags: macos, snow-leopard, firewall | Score: 130 | Views: 127359 | Answers: 14
+
+**Solution / Community Answer**:
+sudo codesign --force --deep --sign - /path/to/application.app
+
+
+I've never had to create a certificate using this method.
+
+If that doesn't help, try without --deep and without the trailing slash:
+
+sudo codesign --force --sign - /path/to/application.app
+
+
+
+
+Note, just to make it clearer: After having applied the signature, start the app, accept incoming connections one last time, then quit and start again to verify that the request is gone.
+
+**Reference**: https://apple.stackexchange.com/questions/3271/how-to-get-rid-of-firewall-accept-incoming-connections-dialog
+
+> 📎 Source: https://apple.stackexchange.com/questions/3271/how-to-get-rid-of-firewall-accept-incoming-connections-dialog
+
+#### 140. How do I type the euro value sign € on a Mac?
+
+**Issue**: How do I type the euro value sign € on a Mac?
+**Tags / Source**: Tags: macos, keyboard | apple | 👍 129 | 💬 17 answers
+
+**Description**:
+Tags: macos, keyboard | Score: 129 | Views: 710506 | Answers: 17
+
+**Solution / Community Answer**:
+On an American English keyboard you can type the European Currency symbol (€) with Option + Shift + 2.
+NOTE: It is also worth to note that specifically in Terminal, option 'Use Option as Meta Key' is turned on by default and this blocks this key combination. Please go to Terminal 'preferences', section 'Profiles' and under tab 'Keyboard' untick 'Use Option as Meta Key' checkbox to have it working.
+
+**Reference**: https://apple.stackexchange.com/questions/105203/how-do-i-type-the-euro-value-sign-%e2%82%ac-on-a-mac
+
+> 📎 Source: https://apple.stackexchange.com/questions/105203/how-do-i-type-the-euro-value-sign-%e2%82%ac-on-a-mac
+
+#### 141. How can I achieve page-up and page-down in OS X?
+
+**Issue**: How can I achieve page-up and page-down in OS X?
+**Tags / Source**: Tags: macos, macbook-pro, mac | apple | 👍 129 | 💬 9 answers
+
+**Description**:
+Tags: macos, macbook-pro, mac | Score: 129 | Views: 98391 | Answers: 9
+
+**Solution / Community Answer**:
+If you have a full keyboard you can use the pgup and pgdown keys on your keyboard, near the numpad. 
+
+If you are not using a full keyboard, function, labeled fn on your keyboard, plus the up and down arrow keys will give you a page up and down.
+
+For certain applications, particularly in shell / terminal / tty windows, the expected behaviour is achieved with fn+shift+arrow up/down
+
+**Reference**: https://apple.stackexchange.com/questions/26930/how-can-i-achieve-page-up-and-page-down-in-os-x
+
+> 📎 Source: https://apple.stackexchange.com/questions/26930/how-can-i-achieve-page-up-and-page-down-in-os-x
+
+#### 142. Which application to preview .md files?
+
+**Issue**: Which application to preview .md files?
+**Tags / Source**: Tags: macos | apple | 👍 129 | 💬 12 answers
+
+**Description**:
+Tags: macos | Score: 129 | Views: 187059 | Answers: 12
+
+**Solution / Community Answer**:
+The superuser question, Markdown Live Preview Editor?, provides a wealth of options:
+
+BBEdit
+TextMate
+Mou
+Marked
+MarkdownLive
+Atom
+Marked 2
+MacDown
+
+In additional to those, you can install a markdown QuickLook plugin for Finder based previews.
+MarkdownLive
+
+Mou
+
+Marked 2
+
+**Reference**: https://apple.stackexchange.com/questions/120624/which-application-to-preview-md-files
+
+> 📎 Source: https://apple.stackexchange.com/questions/120624/which-application-to-preview-md-files
+
+#### 143. macOS windows requiring an explicit click to make active, before UI elements inside can be clicked
+
+**Issue**: macOS windows requiring an explicit click to make active, before UI elements inside can be clicked
+**Tags / Source**: Tags: macos | apple | 👍 128 | 💬 4 answers
+
+**Description**:
+Tags: macos | Score: 128 | Views: 55146 | Answers: 4
+
+**Solution / Community Answer**:
+The answer, in general, is "no". There are some exceptions/workarounds though, for example: 
+
+
+You can click through to any control in an unfocused window using Cmd-Click. This will directly operate that control without focusing the window, which might save you a click in your side-by-side browser window scenario. Unfortunately it's up to each application developer to make this work sensibly, and some unfocused applications will still perform any special action assigned to Cmd-Click, rather than treating it as a simple click.
+In Terminal.app, Cmd-Right Click will paste the contents of the primary selection (the last text you highlighted in any terminal window) into the same or another terminal, whether that terminal is focused or not.
+Specifically for X11 applications running under XQuartz.app (which isn't very many these days), you can specify the "focus follow mouse" option so that X11 windows are focused as you mouse over them. (There also used be a hidden focus-follows-mouse option for Terminal.app windows, don't know if it still works in El Capitan or Sierra.)
+
+**Reference**: https://apple.stackexchange.com/questions/269622/macos-windows-requiring-an-explicit-click-to-make-active-before-ui-elements-ins
+
+> 📎 Source: https://apple.stackexchange.com/questions/269622/macos-windows-requiring-an-explicit-click-to-make-active-before-ui-elements-ins
+
+#### 144. Set the hostname/computer name for macOS
+
+**Issue**: Set the hostname/computer name for macOS
+**Tags / Source**: Tags: macos, network | apple | 👍 126 | 💬 6 answers
+
+**Description**:
+Tags: macos, network | Score: 126 | Views: 234369 | Answers: 6
+
+**Solution / Community Answer**:
+Setting the Mac hostname or computer name from the terminal
+
+
+  
+  Open a terminal. 
+  Type the following command to change the primary hostname of your Mac:
+  This is your fully qualified hostname, for example myMac.domain.com 
+
+sudo scutil --set HostName &lt;new host name&gt;
+
+  Type the following command to change the Bonjour hostname of your Mac:
+  This is the name usable on the local network, for example myMac.local. 
+
+sudo scutil --set LocalHostName &lt;new host name&gt;
+
+  If you also want to change the computer name, type the following command:
+  This is the user-friendly computer name you see in Finder, for example myMac. 
+
+sudo scutil --set ComputerName &lt;new name&gt;
+
+  Flush the DNS cache by typing: 
+
+dscacheutil -flushcache
+
+  Restart your Mac.
+
+**Reference**: https://apple.stackexchange.com/questions/287760/set-the-hostname-computer-name-for-macos
+
+> 📎 Source: https://apple.stackexchange.com/questions/287760/set-the-hostname-computer-name-for-macos
+
+#### 145. Copying the current directory&#39;s path to the clipboard
+
+**Issue**: Copying the current directory&#39;s path to the clipboard
+**Tags / Source**: Tags: macos, finder | apple | 👍 126 | 💬 19 answers
+
+**Description**:
+Tags: macos, finder | Score: 126 | Views: 100324 | Answers: 19
+
+**Solution / Community Answer**:
+Option+Command+C
+Will copy the path for selected folder or file to the clipboard. Tried on El Capitan through Sonoma.
+
+**Reference**: https://apple.stackexchange.com/questions/47216/copying-the-current-directorys-path-to-the-clipboard
+
+> 📎 Source: https://apple.stackexchange.com/questions/47216/copying-the-current-directorys-path-to-the-clipboard
+
+#### 146. Can anyone recommend an app for creating flowcharts and diagrams?
+
+**Issue**: Can anyone recommend an app for creating flowcharts and diagrams?
+**Tags / Source**: Tags: macos, software-recommendation, ui, drawing | apple | 👍 126 | 💬 31 answers
+
+**Description**:
+Tags: macos, software-recommendation, ui, drawing | Score: 126 | Views: 291595 | Answers: 31
+
+**Solution / Community Answer**:
+For free online diagramming there's diagrams.net, which I am a developer on. It supports the automatic connection and dragging of components you're looking for. Also, it's free, which meets your under $30 requirement.
+There is also a Desktop version available.
+
+**Reference**: https://apple.stackexchange.com/questions/6490/can-anyone-recommend-an-app-for-creating-flowcharts-and-diagrams
+
+> 📎 Source: https://apple.stackexchange.com/questions/6490/can-anyone-recommend-an-app-for-creating-flowcharts-and-diagrams
+
+#### 147. Ctrl + Alt + Delete: Mac Equivalent?
+
+**Issue**: Ctrl + Alt + Delete: Mac Equivalent?
+**Tags / Source**: Tags: macos, keyboard | apple | 👍 126 | 💬 11 answers
+
+**Description**:
+Tags: macos, keyboard | Score: 126 | Views: 1594813 | Answers: 11
+
+**Solution / Community Answer**:
+The keyboard shortcut you’re looking for is ⌘ + ⌥ + ⎋, alternatively known as command + option + escape. This will bring up the Force Quit Applications window (see screenshot below).
+
+**Reference**: https://apple.stackexchange.com/questions/86010/ctrl-alt-delete-mac-equivalent
+
+> 📎 Source: https://apple.stackexchange.com/questions/86010/ctrl-alt-delete-mac-equivalent
+
+#### 148. How to cd to a directory with a name containing spaces in bash?
+
+**Issue**: How to cd to a directory with a name containing spaces in bash?
+**Tags / Source**: Tags: macos, command-line | apple | 👍 125 | 💬 6 answers
+
+**Description**:
+Tags: macos, command-line | Score: 125 | Views: 799124 | Answers: 6
+
+**Solution / Community Answer**:
+You can use the Tab key after pressing the first few characters (this will then "fill in" the rest of the folder for you e.g. type cd ~/LTab fills in cd ~/Library/ then type ApTab and it will fill in the rest for you.
+
+If there is a space between words and you don't want to use the methods above, put a \ (backslash) before the space, e.g. cd ~/Library/Application\ Support.
+
+**Reference**: https://apple.stackexchange.com/questions/14683/how-to-cd-to-a-directory-with-a-name-containing-spaces-in-bash
+
+> 📎 Source: https://apple.stackexchange.com/questions/14683/how-to-cd-to-a-directory-with-a-name-containing-spaces-in-bash
+
+#### 149. The operation can’t be completed because the original item for “Foo” can’t be found
+
+**Issue**: The operation can’t be completed because the original item for “Foo” can’t be found
+**Tags / Source**: Tags: macos, network, nas, afp | apple | 👍 124 | 💬 30 answers
+
+**Description**:
+Tags: macos, network, nas, afp | Score: 124 | Views: 255645 | Answers: 30
+
+**Solution / Community Answer**:
+Apparently this problem can occur for many different reasons.  In my case it was solved by re-launching the finder.  A description and solution for this was at http://www.cnet.com/news/fix-shared-computer-not-found-in-finder/ .
+
+
+  To fix this problem, you simply need to relaunch the Finder, and it will re-populate the list of shared devices. To do this, you can do one of the following:
+  
+  
+  Hold the Option key and right-click the Finder icon in the Dock, then select Relaunch.
+  Press Option-Command-Escape or choose Force Quit from the Apple menu, then select the Finder and click Relaunch.
+  Log out and log back in to your user account.
+
+**Reference**: https://apple.stackexchange.com/questions/131613/the-operation-can-t-be-completed-because-the-original-item-for-foo-can-t-be-fo
+
+> 📎 Source: https://apple.stackexchange.com/questions/131613/the-operation-can-t-be-completed-because-the-original-item-for-foo-can-t-be-fo
+
+#### 150. How do I speed up new Terminal tab loading time?
+
+**Issue**: How do I speed up new Terminal tab loading time?
+**Tags / Source**: Tags: macos, terminal, command-line | apple | 👍 124 | 💬 11 answers
+
+**Description**:
+Tags: macos, terminal, command-line | Score: 124 | Views: 68299 | Answers: 11
+
+**Solution / Community Answer**:
+Short Answer:
+
+The problem is caused by a (potentially) expensive ASL system log lookup.  To see this in action, run sudo fs_usage | grep 'asl.*login' in a Terminal window, then open a new Terminal window.
+
+To solve the problem, configure Terminal to launch a non-standard shell:
+
+
+Create a symlink to your preferred shell.  E.g.: sudo ln -s /bin/bash /usr/local/bin/bash
+Open Terminal Preferences and select the "General" tab.
+Select "Shells open with: Command" and enter the symlink you created in step 1.  E.g. "/usr/local/bin/bash".
+
+
+Note 1: You may also need to add bash and -bash to the process list at "Terminal Preferences > Profiles > Shell > Ask before closing".
+
+Note 2: /usr/local/bin is writable in OS X 10.11 (El Capitan) Rootless mode.  
+
+To verify the fix:
+
+
+Open a new Terminal window.
+"Last Login:" should not be displayed at the top
+Open the inspector (Command + I) and select the Info tab.
+The command should read login -pfq username /usr/bin/bash or login -pfql username ...
+
+
+Important: If the login command does not include the -q parameter, then you have not fixed the problem.
+
+You can also use sudo fs_usage | grep 'asl.*login' to verify that /var/log/asl is not accessed when opening a new Terminal window.
+
+Details:
+
+There are a number of bugs at play here.
+
+The actual cause of the slowness is /usr/bin/login, which by default will display the date of your last login.  To get this last login date, it searches the ASL (Apple System Log) database at /var/log/asl/.  These log files can be very heavily fragmented and it's this file fragmentation that causes the delay when opening a new window or tab.  (Bug 1)
+
+The only way to suppress the ASL search for last login is to pass the -q parameter to /usr/bin/login.  The .hushlogin file will also suppress the "Last Login" display, but it does not suppress the expensive ASL search. (Bug 2)
+
+Terminal always uses /usr/bin/login to launch each new window/shell.  There is no option to launch a shell directly nor is there a way to directly control the parameters passed to /usr/bin/login (Bug 3).
+
+As it turns out, Terminal will pass the -q parameter to /usr/bin/login when it is configured to use a non-standard shell.  (Bug 4)
+
+The -q parameter is what we need to avoid the problem, hence the symlink to /usr/local/bin/bash.
+
+**Reference**: https://apple.stackexchange.com/questions/41743/how-do-i-speed-up-new-terminal-tab-loading-time
+
+> 📎 Source: https://apple.stackexchange.com/questions/41743/how-do-i-speed-up-new-terminal-tab-loading-time
 
 
 

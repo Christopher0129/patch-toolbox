@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 04:27:26 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 05:01:31 UTC_
 
 ## 中文 🇨🇳
 **macOS 系统漏洞**
@@ -21,7 +21,7 @@ _自动更新于 / Auto-updated: 2026-04-27 04:27:26 UTC_
 
 **CVE编号**: CVE-1999-0142
 **严重程度**: N/A CVSS: 7.5
-受影响产品: netscape:navigator, sun:java
+受影响产品: sun:java, netscape:navigator
 
 **漏洞描述**:
 The Java Applet Security Manager implementation in Netscape Navigator 2.0 and Java Developer's Kit 1.0 allows an applet to connect to arbitrary hosts.
@@ -117,7 +117,7 @@ Apply patch from vendor. Monitor http://freaky.staticusers.net/macsec/data/power
 
 **CVE编号**: CVE-1999-1412
 **严重程度**: N/A CVSS: 5.0
-受影响产品: apple:macos, apache:http_server
+受影响产品: apache:http_server, apple:macos
 
 **漏洞描述**:
 A possible interaction between Apple MacOS X release 1.0 and Apache HTTP server allows remote attackers to cause a denial of service (crash) via a flood of HTTP GET requests to CGI programs, which generates a large number of processes.
@@ -196,7 +196,7 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 **CVE编号**: CVE-2000-0162
 **严重程度**: N/A CVSS: 5.1
-受影响产品: microsoft:internet_explorer, microsoft:visual_studio, microsoft:ie
+受影响产品: microsoft:ie, microsoft:visual_studio, microsoft:internet_explorer
 
 **漏洞描述**:
 The Microsoft virtual machine (VM) in Internet Explorer 4.x and 5.x allows a remote attacker to read files via a malicious Java applet that escapes the Java sandbox, aka the "VM File Reading" vulnerability.
@@ -317,7 +317,7 @@ Apply patch from vendor. Monitor ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisori
 
 **CVE编号**: CVE-2000-0711
 **严重程度**: N/A CVSS: 7.5
-受影响产品: netscape:communicator, microsoft:virtual_machine
+受影响产品: microsoft:virtual_machine, netscape:communicator
 
 **漏洞描述**:
 Netscape Communicator does not properly prevent a ServerSocket object from being created by untrusted entities, which allows remote attackers to create a server on the victim's system via a malicious applet, as demonstrated by Brown Orifice.
@@ -419,7 +419,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97958100816503&w=
 
 **CVE编号**: CVE-2001-0324
 **严重程度**: N/A CVSS: 2.6
-受影响产品: microsoft:windows_98, microsoft:windows_2000
+受影响产品: microsoft:windows_2000, microsoft:windows_98
 
 **漏洞描述**:
 Windows 98 and Windows 2000 Java clients allow remote attackers to cause a denial of service via a Java applet that opens a large number of UDP sockets, which prevents the host from establishing any additional UDP connections, and possibly causes a crash.
@@ -460,7 +460,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/
 
 **CVE编号**: CVE-2001-1008
 **严重程度**: N/A CVSS: 7.5
-受影响产品: sun:java_plug-in, sun:jre
+受影响产品: sun:jre, sun:java_plug-in
 
 **漏洞描述**:
 Java Plugin 1.4 for JRE 1.3 executes signed applets even if the certificate is expired, which could allow remote attackers to conduct unauthorized activities via an applet that has been signed by an expired certificate.
@@ -522,7 +522,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=99358249631139&w=
 
 **CVE编号**: CVE-2001-1480
 **严重程度**: N/A CVSS: 7.5
-受影响产品: sun:jre, sun:sdk, apple:mac_os_runtime_for_java, sun:jdk
+受影响产品: sun:sdk, sun:jdk, apple:mac_os_runtime_for_java, sun:jre
 
 **漏洞描述**:
 Java Runtime Environment (JRE) and SDK 1.2 through 1.3.0_04 allows untrusted applets to access the system clipboard.
@@ -585,7 +585,7 @@ Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/116875.
 
 **CVE编号**: CVE-2002-0058
 **严重程度**: N/A CVSS: 5.0
-受影响产品: sun:jre, microsoft:virtual_machine, sun:sdk, sun:jdk
+受影响产品: microsoft:virtual_machine, sun:jdk, sun:sdk, sun:jre
 
 **漏洞描述**:
 Vulnerability in Java Runtime Environment (JRE) allows remote malicious web sites to hijack or sniff a web client's sessions, when an HTTP proxy is being used, via a Java applet that redirects the session to another server, as seen in (1) Netscape 6.0 through 6.1 and 4.79 and earlier, (2) Microsoft VM build 3802 and earlier as used in Internet Explorer 4.x and 5.x, and possibly other implementations that use vulnerable versions of SDK or JDK.
@@ -606,7 +606,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101534535304228&w
 
 **CVE编号**: CVE-2002-0076
 **严重程度**: N/A CVSS: 7.5
-受影响产品: sun:jre, hp:java_jre-jdk, sun:sdk, microsoft:virtual_machine, sun:jdk
+受影响产品: sun:jre, sun:jdk, microsoft:virtual_machine, sun:sdk, hp:java_jre-jdk
 
 **漏洞描述**:
 Java Runtime Environment (JRE) Bytecode Verifier allows remote attackers to escape the Java sandbox and execute commands via an applet containing an illegal cast operation, as seen in (1) Microsoft VM build 3802 and earlier as used in Internet Explorer 4.x and 5.x, (2) Netscape 6.2.1 and earlier, and possibly other implementations that use vulnerable versions of SDK or JDK, aka a variant of the "Virtual Machine Verifier" vulnerability.
@@ -942,7 +942,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w
 
 **CVE编号**: CVE-2002-1257
 **严重程度**: N/A CVSS: 10.0
-受影响产品: microsoft:windows_98se, microsoft:windows_me, microsoft:windows_xp, microsoft:windows_2000_terminal_services, microsoft:windows_98
+受影响产品: microsoft:windows_xp, microsoft:windows_2000_terminal_services, microsoft:windows_2000, microsoft:windows_98, microsoft:windows_95
 
 **漏洞描述**:
 Microsoft Virtual Machine (VM) up to and including build 5.0.3805 allows remote attackers to execute arbitrary code by including a Java applet that invokes COM (Component Object Model) objects in a web site or an HTML mail.
@@ -962,7 +962,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/6371.
 
 **CVE编号**: CVE-2002-1258
 **严重程度**: N/A CVSS: 5.0
-受影响产品: microsoft:windows_98se, microsoft:windows_me, microsoft:windows_xp, microsoft:windows_2000_terminal_services, microsoft:windows_98
+受影响产品: microsoft:windows_xp, microsoft:windows_2000_terminal_services, microsoft:windows_2000, microsoft:windows_98, microsoft:windows_95
 
 **漏洞描述**:
 Two vulnerabilities in Microsoft Virtual Machine (VM) up to and including build 5.0.3805, as used in Internet Explorer and other applications, allow remote attackers to read files via a Java applet with a spoofed location in the CODEBASE parameter in the APPLET tag, possibly due to a parsing error.
@@ -982,7 +982,7 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 **CVE编号**: CVE-2002-1260
 **严重程度**: N/A CVSS: 7.5
-受影响产品: microsoft:windows_98se, microsoft:windows_me, microsoft:windows_xp, microsoft:windows_2000_terminal_services, microsoft:windows_98
+受影响产品: microsoft:windows_xp, microsoft:windows_2000_terminal_services, microsoft:windows_2000, microsoft:windows_98, microsoft:windows_95
 
 **漏洞描述**:
 The Java Database Connectivity (JDBC) APIs in Microsoft Virtual Machine (VM) 5.0.3805 and earlier allow remote attackers to bypass security checks and access database contents via an untrusted Java applet.
@@ -1003,7 +1003,7 @@ Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/n-026.shtml.
 
 **CVE编号**: CVE-2002-1325
 **严重程度**: N/A CVSS: 5.0
-受影响产品: microsoft:windows_98se, microsoft:windows_me, microsoft:windows_xp, microsoft:windows_2000_terminal_services, microsoft:windows_98
+受影响产品: microsoft:windows_xp, microsoft:windows_2000_terminal_services, microsoft:windows_2000, microsoft:windows_98, microsoft:windows_95
 
 **漏洞描述**:
 Microsoft Virtual Machine (VM) build 5.0.3805 and earlier allows remote attackers to determine a local user's username via a Java applet that accesses the user.dir system property, aka "User.dir Exposure Vulnerability."
@@ -1023,7 +1023,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/6380.
 
 **CVE编号**: CVE-2002-1898
 **严重程度**: N/A CVSS: 7.2
-受影响产品: apple:terminal, apple:mac_os_x
+受影响产品: apple:mac_os_x, apple:terminal
 
 **漏洞描述**:
 Terminal 1.3 in Apple Mac OS X 10.2 allows remote attackers to execute arbitrary commands via shell metacharacters in a telnet:// link, which is executed by Terminal.app window.
@@ -1167,7 +1167,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/
 
 **CVE编号**: CVE-2002-2373
 **严重程度**: N/A CVSS: 7.5
-受影响产品: apple:tcp_ip_configuration_utility, apple:apple_laserwriter
+受影响产品: apple:apple_laserwriter, apple:tcp_ip_configuration_utility
 
 **漏洞描述**:
 The default configuration of the TCP/IP printer configuration utility in Apple LaserWriter 12/640 PS printer contains a blank Telnet password, which allows remote attackers to gain access.
@@ -1577,7 +1577,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatc
 
 **CVE编号**: CVE-2003-0975
 **严重程度**: N/A CVSS: 5.0
-受影响产品: apple:mac_os_x, apple:safari, apple:mac_os_x_server
+受影响产品: apple:safari, apple:mac_os_x, apple:mac_os_x_server
 
 **漏洞描述**:
 Apple Safari 1.0 through 1.1 on Mac OS X 10.3.1 and Mac OS X 10.2.8 allows remote attackers to steal user cookies from another domain via a link with a hex-encoded null character (%00) followed by the target domain.
@@ -1639,7 +1639,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/
 
 **CVE编号**: CVE-2003-1123
 **严重程度**: N/A CVSS: 7.5
-受影响产品: sun:jre, sun:jdk
+受影响产品: sun:jdk, sun:jre
 
 **漏洞描述**:
 Sun Java Runtime Environment (JRE) and SDK 1.4.0_01 and earlier allows untrusted applets to access certain information within trusted applets, which allows attackers to bypass the restrictions of the Java security model.
@@ -1994,7 +1994,7 @@ Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announ
 
 **CVE编号**: CVE-2004-1081
 **严重程度**: N/A CVSS: 2.1
-受影响产品: apple:darwin_streaming_server, apple:mac_os_x, apple:mac_os_x_server, apple:quicktime_streaming_server
+受影响产品: apple:darwin_streaming_server, apple:quicktime_streaming_server, apple:mac_os_x, apple:mac_os_x_server
 
 **漏洞描述**:
 The Application Framework (AppKit) for Apple Mac OS X 10.2.8 and 10.3.6 does not properly restrict access to a secure text input field, which allows local users to read keyboard input from other applications within the same window session.
@@ -2015,7 +2015,7 @@ Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announ
 
 **CVE编号**: CVE-2004-1084
 **严重程度**: N/A CVSS: 5.0
-受影响产品: apple:darwin_streaming_server, apple:mac_os_x, apple:mac_os_x_server, apple:quicktime_streaming_server
+受影响产品: apple:darwin_streaming_server, apple:quicktime_streaming_server, apple:mac_os_x, apple:mac_os_x_server
 
 **漏洞描述**:
 Apache for Apple Mac OS X 10.2.8 and 10.3.6 allows remote attackers to read files and resource fork content via HTTP requests to certain special file names related to multiple data streams in HFS+, which bypass Apache file handles.
@@ -2036,7 +2036,7 @@ Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announ
 
 **CVE编号**: CVE-2004-1085
 **严重程度**: N/A CVSS: 2.1
-受影响产品: apple:darwin_streaming_server, apple:mac_os_x, apple:mac_os_x_server, apple:quicktime_streaming_server
+受影响产品: apple:darwin_streaming_server, apple:quicktime_streaming_server, apple:mac_os_x, apple:mac_os_x_server
 
 **漏洞描述**:
 Human Interface Toolbox (HIToolBox) for Apple Mac 0S X 10.3.6 allows local users to exit applications via the force-quit key combination, even when the system is running in kiosk mode.
@@ -2057,7 +2057,7 @@ Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announ
 
 **CVE编号**: CVE-2004-1086
 **严重程度**: N/A CVSS: 7.5
-受影响产品: apple:darwin_streaming_server, apple:mac_os_x, apple:mac_os_x_server, apple:quicktime_streaming_server
+受影响产品: apple:darwin_streaming_server, apple:quicktime_streaming_server, apple:mac_os_x, apple:mac_os_x_server
 
 **漏洞描述**:
 Buffer overflow in PSNormalizer for Apple Mac OS X 10.3.6 allows remote attackers to execute arbitrary code via a crafted PostScript input file.
@@ -2074,6 +2074,1031 @@ Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announ
 
 > 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html
 
+#### 101. CVE-2004-1087 (N/A)
+
+**CVE编号**: CVE-2004-1087
+**严重程度**: N/A CVSS: 2.1
+受影响产品: apple:darwin_streaming_server, apple:quicktime_streaming_server, apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述**:
+Terminal for Apple Mac OS X 10.3.6 may indicate that "Secure Keyboard Entry" is enabled even when it is not, which could result in a false sense of security for the user.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html
+- http://secunia.com/advisories/13362/
+- http://www.ciac.org/ciac/bulletins/p-049.shtml
+- http://www.securityfocus.com/bid/11802
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18355
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html
+
+#### 102. CVE-2004-1088 (N/A)
+
+**CVE编号**: CVE-2004-1088
+**严重程度**: N/A CVSS: 7.5
+受影响产品: apple:darwin_streaming_server, apple:quicktime_streaming_server, apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述**:
+Postfix server for Apple Mac OS X 10.3.6, when using CRAM-MD5, allows remote attackers to send mail without authentication by replaying authentication information.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html
+- http://secunia.com/advisories/13362/
+- http://www.ciac.org/ciac/bulletins/p-049.shtml
+- http://www.securityfocus.com/bid/11802
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18353
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html
+
+#### 103. CVE-2004-1089 (N/A)
+
+**CVE编号**: CVE-2004-1089
+**严重程度**: N/A CVSS: 4.6
+受影响产品: apple:darwin_streaming_server, apple:quicktime_streaming_server, apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述**:
+Unknown vulnerability in Apple Mac OS X 10.3.6 server, when using Kerberos authentication and Cyrus IMAP allows local users to access mailboxes of other users.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html
+- http://secunia.com/advisories/13362/
+- http://www.ciac.org/ciac/bulletins/p-049.shtml
+- http://www.securityfocus.com/bid/11802
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18351
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html
+
+#### 104. CVE-2004-1083 (HIGH)
+
+**CVE编号**: CVE-2004-1083
+**严重程度**: HIGH CVSS: 7.5
+受影响产品: apple:darwin_streaming_server, apple:quicktime_streaming_server, apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述**:
+Apache for Apple Mac OS X 10.2.8 and 10.3.6 restricts access to files in a case sensitive manner, but the Apple HFS+ filesystem accesses files in a case insensitive manner, which allows remote attackers to read .DS_Store files and files beginning with ".ht" using alternate capitalization.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html
+- http://lists.apple.com/archives/security-announce/2005//Aug/msg00001.html
+- http://lists.apple.com/archives/security-announce/2005/Aug/msg00000.html
+- http://secunia.com/advisories/13362/
+- http://www.ciac.org/ciac/bulletins/p-049.shtml
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html
+
+#### 105. CVE-2004-0622 (N/A)
+
+**CVE编号**: CVE-2004-0622
+**严重程度**: N/A CVSS: 2.1
+受影响产品: apple:mac_os_x
+
+**漏洞描述**:
+Apple Mac OS X 10.3.4, 10.4, 10.5, and possibly other versions does not properly clear memory for login (aka Loginwindow.app), Keychain, or FileVault passwords, which could allow the root user or an attacker with physical access to obtain sensitive information by reading memory.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://citp.princeton.edu/pub/coldboot.pdf.
+
+**参考链接**:
+- http://citp.princeton.edu/pub/coldboot.pdf
+- http://marc.info/?l=bugtraq&m=108819559925981&w=2
+- http://www.securityfocus.com/archive/1/488930/100/100/threaded
+- http://www.securityfocus.com/archive/1/488948/100/100/threaded
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/16557
+
+> 📎 来源 / Source: http://citp.princeton.edu/pub/coldboot.pdf
+
+#### 106. CVE-2004-1145 (N/A)
+
+**CVE编号**: CVE-2004-1145
+**严重程度**: N/A CVSS: 5.0
+受影响产品: ethereal_group:ethereal, suse:suse_linux, redhat:enterprise_linux, sgi:propack, redhat:enterprise_linux_desktop
+
+**漏洞描述**:
+Multiple vulnerabilities in Konqueror in KDE 3.3.1 and earlier (1) allow access to restricted Java classes via JavaScript and (2) do not properly restrict access to certain Java classes from the Java applet, which allows remote attackers to bypass sandbox restrictions and read or write arbitrary files.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=110356286722875&w=2.
+
+**参考链接**:
+- http://marc.info/?l=bugtraq&m=110356286722875&w=2
+- http://secunia.com/advisories/13586
+- http://www.gentoo.org/security/en/glsa/glsa-200501-16.xml
+- http://www.heise.de/security/dienste/browsercheck/tests/java.shtml
+- http://www.kb.cert.org/vuls/id/420222
+
+> 📎 来源 / Source: http://marc.info/?l=bugtraq&m=110356286722875&w=2
+
+#### 107. CVE-2004-0873 (N/A)
+
+**CVE编号**: CVE-2004-0873
+**严重程度**: N/A CVSS: 7.5
+受影响产品: apple:ichat_av, apple:ichat
+
+**漏洞描述**:
+Apple iChat AV 2.1, AV 2.0, and 1.0.1 allows remote attackers to execute arbitrary programs via a "link" that references the program.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Sep/msg00001.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2004/Sep/msg00001.html
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/17420
+- http://lists.apple.com/archives/security-announce/2004/Sep/msg00001.html
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/17420
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2004/Sep/msg00001.html
+
+#### 108. CVE-2004-0429 (N/A)
+
+**CVE编号**: CVE-2004-0429
+**严重程度**: N/A CVSS: 10.0
+受影响产品: apple:mac_os_x
+
+**漏洞描述**:
+Unknown vulnerability related to "the handling of large requests" in RAdmin for Apple Mac OS X 10.3.3 and Mac OS X 10.2.8 may allow attackers to have unknown impact via unknown attack vectors.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/May/msg00000.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2004/May/msg00000.html
+- http://marc.info/?l=bugtraq&m=108369640424244&w=2
+- http://secunia.com/advisories/11539/
+- http://securitytracker.com/id?1010045
+- http://www.auscert.org.au/render.html?it=4070
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2004/May/msg00000.html
+
+#### 109. CVE-2004-1398 (N/A)
+
+**CVE编号**: CVE-2004-1398
+**严重程度**: N/A CVSS: 4.6
+受影响产品: roxio:toast
+
+**漏洞描述**:
+Format string vulnerability in prelink.c in kextload in Apple OS X, as used by TDIXSupport in Roxio Toast Titanium and possibly other products, allows local users to execute arbitrary code via format string specifiers in the extension argument.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.grok.org.uk/pipermail/full-disclosure/2006-September/049452.html.
+
+**参考链接**:
+- http://lists.grok.org.uk/pipermail/full-disclosure/2006-September/049452.html
+- http://marc.info/?l=bugtraq&m=110305083706943&w=2
+- http://www.netragard.com/pdfs/research/apple-kext-tools-20060822.txt
+- http://www.securityfocus.com/bid/11926
+- http://www.securityfocus.com/bid/20031
+
+> 📎 来源 / Source: http://lists.grok.org.uk/pipermail/full-disclosure/2006-September/049452.html
+
+#### 110. CVE-2004-1489 (N/A)
+
+**CVE编号**: CVE-2004-1489
+**严重程度**: N/A CVSS: 2.6
+受影响产品: opera:opera_browser
+
+**漏洞描述**:
+Opera 7.54 and earlier does not properly limit an applet's access to internal Java packages from Sun, which allows remote attackers to gain sensitive information, such as user names and the installation directory.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.grok.org.uk/pipermail/full-disclosure/2004-November/029044.html.
+
+**参考链接**:
+- http://lists.grok.org.uk/pipermail/full-disclosure/2004-November/029044.html
+- http://www.gentoo.org/security/en/glsa/glsa-200502-17.xml
+- http://www.opera.com/linux/changelogs/754u1/
+- http://lists.grok.org.uk/pipermail/full-disclosure/2004-November/029044.html
+- http://www.gentoo.org/security/en/glsa/glsa-200502-17.xml
+
+> 📎 来源 / Source: http://lists.grok.org.uk/pipermail/full-disclosure/2004-November/029044.html
+
+#### 111. CVE-2004-1753 (N/A)
+
+**CVE编号**: CVE-2004-1753
+**严重程度**: N/A CVSS: 2.6
+受影响产品: mozilla:mozilla, mozilla:firefox, netscape:navigator
+
+**漏洞描述**:
+The Apple Java plugin, as used in Netscape 7.1 and 7.2, Mozilla 1.7.2, and Firefox 0.9.3 on MacOS X 10.3.5, when tabbed browsing is enabled, does not properly handle SetWindow(NULL) calls, which allows Java applets from one tab to draw to other tabs and facilitates phishing attacks that spoof tabs.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://bugzilla.mozilla.org/show_bug.cgi?id=162134.
+
+**参考链接**:
+- http://bugzilla.mozilla.org/show_bug.cgi?id=162134
+- http://secunia.com/advisories/12392
+- http://www.securityfocus.com/archive/1/373080
+- http://www.securityfocus.com/archive/1/373232
+- http://www.securityfocus.com/archive/1/373309
+
+> 📎 来源 / Source: http://bugzilla.mozilla.org/show_bug.cgi?id=162134
+
+#### 112. CVE-2004-2280 (N/A)
+
+**CVE编号**: CVE-2004-2280
+**严重程度**: N/A CVSS: 5.0
+受影响产品: ibm:lotus_notes
+
+**漏洞描述**:
+Buffer overflow in IBM Lotus Notes 6.5.x before 6.5.3 and 6.0.x before 6.0.5 allows remote attackers to cause a denial of service (crash) via unknown vectors related to Java applets, as identified by KSPR62F4KN.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/12046.
+
+**参考链接**:
+- http://secunia.com/advisories/12046
+- http://www-1.ibm.com/support/docview.wss?rs=475&context=SSKTWP&q1=Java&uid=swg21173910&loc=en_US&cs=utf-8&lang=en
+- http://www.osvdb.org/8418
+- http://www.securityfocus.com/bid/10704
+- http://secunia.com/advisories/12046
+
+> 📎 来源 / Source: http://secunia.com/advisories/12046
+
+#### 113. CVE-2004-2281 (N/A)
+
+**CVE编号**: CVE-2004-2281
+**严重程度**: N/A CVSS: 10.0
+受影响产品: ibm:lotus_notes
+
+**漏洞描述**:
+Multiple unknown vulnerabilities in IBM Lotus Notes 6.5.x before 6.5.4 and 6.0.x before 6.0.5 have unknown impact and attack vectors, related to Java applets, as identified by (1) KSPR5YS6GR and (2) KSPR62F4D3.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/12046.
+
+**参考链接**:
+- http://secunia.com/advisories/12046
+- http://www-1.ibm.com/support/docview.wss?rs=475&context=SSKTWP&q1=Java&uid=swg21173910&loc=en_US&cs=utf-8&lang=en
+- http://www.osvdb.org/8416
+- http://www.osvdb.org/8417
+- http://www.securityfocus.com/bid/10704
+
+> 📎 来源 / Source: http://secunia.com/advisories/12046
+
+#### 114. CVE-2004-2359 (N/A)
+
+**CVE编号**: CVE-2004-2359
+**严重程度**: N/A CVSS: 10.0
+受影响产品: dell:truemobile_1300_wlan_mini-pci_card_util_trayapplet
+
+**漏洞描述**:
+Dell TrueMobile 1300 WLAN Mini-PCI Card Util TrayApplet 3.10.39.0 does not properly drop SYSTEM privileges when started from the systray applet, which allows local users to gain privileges by accessing the Help functionality.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2004-q1/0042.html.
+
+**参考链接**:
+- http://archives.neohapsis.com/archives/vulnwatch/2004-q1/0042.html
+- http://secunia.com/advisories/10949
+- http://securitytracker.com/id?1009174
+- http://www.securityfocus.com/bid/9714
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/15285
+
+> 📎 来源 / Source: http://archives.neohapsis.com/archives/vulnwatch/2004-q1/0042.html
+
+#### 115. CVE-2004-2367 (N/A)
+
+**CVE编号**: CVE-2004-2367
+**严重程度**: N/A CVSS: 5.0
+受影响产品: texas_imperial_software:wftpd, texas_imperial_software:wftpd_pro
+
+**漏洞描述**:
+The Control Panel applet in WFTPD and WFTPD Pro 3.21 R1 and R2 allows remote authenticated users to cause a denial of service (crash) via a long FTP command.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/11160/.
+
+**参考链接**:
+- http://secunia.com/advisories/11160/
+- http://www.securiteam.com/windowsntfocus/5JP0B20CAY.html
+- http://www.securityfocus.com/bid/9908
+- http://www.wftpd.com/bug_gpf.htm
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/15510
+
+> 📎 来源 / Source: http://secunia.com/advisories/11160/
+
+#### 116. CVE-2004-0926 (N/A)
+
+**CVE编号**: CVE-2004-0926
+**严重程度**: N/A CVSS: 10.0
+受影响产品: apple:mac_os_x, apple:mac_os_x_server, easy_software_products:cups
+
+**漏洞描述**:
+Heap-based buffer overflow in Apple QuickTime on Mac OS 10.2.8 through 10.3.5 may allow remote attackers to execute arbitrary code via a certain BMP image.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Oct/msg00000.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2004/Oct/msg00000.html
+- http://lists.apple.com/archives/security-announce/2004/Oct/msg00001.html
+- http://www.securityfocus.com/bid/11322
+- http://lists.apple.com/archives/security-announce/2004/Oct/msg00000.html
+- http://lists.apple.com/archives/security-announce/2004/Oct/msg00001.html
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2004/Oct/msg00000.html
+
+#### 117. CVE-2004-0962 (N/A)
+
+**CVE编号**: CVE-2004-0962
+**严重程度**: N/A CVSS: 10.0
+受影响产品: apple:apple_remote_desktop
+
+**漏洞描述**:
+Apple Remote Desktop Client 1.2.4 executes a GUI application as root when it is started by an Apple Remote Desktop Administrator application, which allows remote authenticated users to execute arbitrary code when loginwindow is active via Fast User Switching.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Oct/msg00002.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2004/Oct/msg00002.html
+- http://lists.apple.com/archives/security-announce/2004/Oct/msg00002.html
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2004/Oct/msg00002.html
+
+#### 118. CVE-2004-0988 (N/A)
+
+**CVE编号**: CVE-2004-0988
+**严重程度**: N/A CVSS: 5.0
+受影响产品: apple:quicktime
+
+**漏洞描述**:
+Integer overflow on Apple QuickTime before 6.5.2, when running on Windows systems, allows remote attackers to cause a denial of service (memory consumption) via certain inputs that cause a large memory operation.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Oct/msg00001.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2004/Oct/msg00001.html
+- http://lists.apple.com/archives/security-announce/2004/Oct/msg00001.html
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2004/Oct/msg00001.html
+
+#### 119. CVE-2004-1029 (N/A)
+
+**CVE编号**: CVE-2004-1029
+**严重程度**: N/A CVSS: 9.3
+受影响产品: symantec:enterprise_firewall, gentoo:linux, sun:jre, hp:java_sdk-rte, sun:jdk
+
+**漏洞描述**:
+The Sun Java Plugin capability in Java 2 Runtime Environment (JRE) 1.4.2_01, 1.4.2_04, and possibly earlier versions, does not properly restrict access between Javascript and Java applets during data transfer, which allows remote attackers to load unsafe classes and execute arbitrary code by using the reflection API to access private Java packages.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://jouko.iki.fi/adv/javaplugin.html.
+
+**参考链接**:
+- http://jouko.iki.fi/adv/javaplugin.html
+- http://lists.apple.com/archives/security-announce/2005/Feb/msg00000.html
+- http://rpmfind.net/linux/RPM/suse/updates/9.3/i386/rpm/i586/java-1_4_2-sun-src-1.4.2.08-0.1.i586.html
+- http://secunia.com/advisories/13271
+- http://secunia.com/advisories/29035
+
+> 📎 来源 / Source: http://jouko.iki.fi/adv/javaplugin.html
+
+#### 120. CVE-2005-0043 (N/A)
+
+**CVE编号**: CVE-2005-0043
+**严重程度**: N/A CVSS: 7.5
+受影响产品: apple:itunes
+
+**漏洞描述**:
+Buffer overflow in Apple iTunes 4.7 allows remote attackers to execute arbitrary code via a long URL in (1) .m3u or (2) .pls playlist files.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Jan/msg00000.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/Jan/msg00000.html
+- http://secunia.com/advisories/13804
+- http://securitytracker.com/id?1012839
+- http://www.idefense.com/application/poi/display?id=180&type=vulnerabilities
+- http://www.kb.cert.org/vuls/id/377368
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/Jan/msg00000.html
+
+#### 121. CVE-2005-0289 (N/A)
+
+**CVE编号**: CVE-2005-0289
+**严重程度**: N/A CVSS: 5.0
+受影响产品: apple:airport_extreme, apple:airport_express
+
+**漏洞描述**:
+Apple AirPort Express prior to 6.1.1 and Extreme prior to 5.5.1, configured as a Wireless Data Service (WDS), allows remote attackers to cause a denial of service (device freeze) by connecting to UDP port 161 and before link-state change occurs.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.grok.org.uk/pipermail/full-disclosure/2005-January/030832.html.
+
+**参考链接**:
+- http://lists.grok.org.uk/pipermail/full-disclosure/2005-January/030832.html
+- http://marc.info/?l=bugtraq&m=110582124528867&w=2
+- http://secunia.com/advisories/13753
+- http://www.securityfocus.com/bid/12152
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18865
+
+> 📎 来源 / Source: http://lists.grok.org.uk/pipermail/full-disclosure/2005-January/030832.html
+
+#### 122. CVE-2005-0340 (N/A)
+
+**CVE编号**: CVE-2005-0340
+**严重程度**: N/A CVSS: 5.0
+受影响产品: apple:afp_server
+
+**漏洞描述**:
+Integer signedness error in Apple File Service (AFP Server) allows remote attackers to cause a denial of service (application crash) via a negative UAM string length in a FPLoginExt packet.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Mar/msg00000.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/Mar/msg00000.html
+- http://marc.info/?l=bugtraq&m=110791369419784&w=2
+- http://www.securityfocus.com/bid/12478
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/19263
+- http://lists.apple.com/archives/security-announce/2005/Mar/msg00000.html
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/Mar/msg00000.html
+
+#### 123. CVE-2005-0341 (N/A)
+
+**CVE编号**: CVE-2005-0341
+**严重程度**: N/A CVSS: 4.3
+受影响产品: apple:safari
+
+**漏洞描述**:
+Apple Safari 1.2.4 does not obey the Content-type field in the HTTP header and renders text as HTML, which allows remote attackers to inject arbitrary web script or HTML and perform cross-site scripting (XSS) attacks.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=110756965213819&w=2.
+
+**参考链接**:
+- http://marc.info/?l=bugtraq&m=110756965213819&w=2
+- http://securitytracker.com/id?1013087
+- http://tigger.uic.edu/~jrockw2/safari_20050204.txt
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/19227
+- http://marc.info/?l=bugtraq&m=110756965213819&w=2
+
+> 📎 来源 / Source: http://marc.info/?l=bugtraq&m=110756965213819&w=2
+
+#### 124. CVE-2005-0976 (N/A)
+
+**CVE编号**: CVE-2005-0976
+**严重程度**: N/A CVSS: 5.0
+受影响产品: apple:safari, hmdt:shiira, omnigroup:omniweb
+
+**漏洞描述**:
+AppleWebKit (WebCore and WebKit), as used in multiple products such as Safari 1.2 and OmniGroup OmniWeb 5.1, allows remote attackers to read arbitrary files via the XMLHttpRequest Javascript component, as demonstrated using automatically mounted disk images and file:// URLs.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Apr/msg00000.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/Apr/msg00000.html
+- http://remahl.se/david/vuln/001/
+- http://lists.apple.com/archives/security-announce/2005/Apr/msg00000.html
+- http://remahl.se/david/vuln/001/
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/Apr/msg00000.html
+
+#### 125. CVE-2005-1331 (N/A)
+
+**CVE编号**: CVE-2005-1331
+**严重程度**: N/A CVSS: 5.1
+受影响产品: apple:mac_os_x, apple:applescript, apple:mac_os_x_server
+
+**漏洞描述**:
+The AppleScript Editor in Mac OS X 10.3.9 does not properly display script code for an applescript: URI, which can result in code that is different than the actual code that would be run, which could allow remote attackers to trick users into executing malicious code via certain URI characters such as NULL, control characters, and homographs.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00001.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/May/msg00001.html
+- http://remahl.se/david/vuln/010/
+- http://secunia.com/advisories/15227
+- http://www.securityfocus.com/bid/13480
+- http://www.vupen.com/english/advisories/2005/0455
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/May/msg00001.html
+
+#### 126. CVE-2005-1337 (N/A)
+
+**CVE编号**: CVE-2005-1337
+**严重程度**: N/A CVSS: 7.5
+受影响产品: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述**:
+Apple Help Viewer 2.0.7 and 3.0.0 in Mac OS X 10.3.9 allows remote attackers to read and execute arbitrary scrpts with less restrictive privileges via a help:// URI.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00001.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/May/msg00001.html
+- http://remahl.se/david/vuln/004/
+- http://lists.apple.com/archives/security-announce/2005/May/msg00001.html
+- http://remahl.se/david/vuln/004/
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/May/msg00001.html
+
+#### 127. CVE-2005-1341 (N/A)
+
+**CVE编号**: CVE-2005-1341
+**严重程度**: N/A CVSS: 5.1
+受影响产品: apple:mac_os_x, apple:terminal, apple:mac_os_x_server
+
+**漏洞描述**:
+Apple Terminal 1.4.4 allows attackers to execute arbitrary commands via terminal escape sequences.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00001.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/May/msg00001.html
+- http://remahl.se/david/vuln/012/
+- http://secunia.com/advisories/15227
+- http://securitytracker.com/id?1013882
+- http://www.kb.cert.org/vuls/id/994510
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/May/msg00001.html
+
+#### 128. CVE-2005-1342 (N/A)
+
+**CVE编号**: CVE-2005-1342
+**严重程度**: N/A CVSS: 7.5
+受影响产品: apple:mac_os_x, apple:terminal
+
+**漏洞描述**:
+The x-man-page: URI handler for Apple Terminal 1.4.4 in Mac OS X 10.3.9 does not cleanse terminal escape sequences, which allows remote attackers to execute arbitrary commands.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00001.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/May/msg00001.html
+- http://remahl.se/david/vuln/011/
+- http://secunia.com/advisories/15227
+- http://www.kb.cert.org/vuls/id/356070
+- http://www.osvdb.org/16084
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/May/msg00001.html
+
+#### 129. CVE-2005-1579 (N/A)
+
+**CVE编号**: CVE-2005-1579
+**严重程度**: N/A CVSS: 5.0
+受影响产品: apple:quicktime
+
+**漏洞描述**:
+Apple QuickTime Player 7.0 on Mac OS X 10.4 allows remote attackers to obtain sensitive information via a .mov file with a Quartz Composer composition (.qtz) file that uses certain patches to read local information, then other patches to send the information to the attacker.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/fulldisclosure/2005-05/0265.html.
+
+**参考链接**:
+- http://archives.neohapsis.com/archives/fulldisclosure/2005-05/0265.html
+- http://docs.info.apple.com/article.html?artnum=301714
+- http://lists.apple.com/archives/quartzcomposer-dev/2005/May/msg00250.html
+- http://lists.apple.com/archives/quartzcomposer-dev/2005/May/msg00263.html
+- http://lists.apple.com/archives/security-announce/2005/May/msg00006.html
+
+> 📎 来源 / Source: http://archives.neohapsis.com/archives/fulldisclosure/2005-05/0265.html
+
+#### 130. CVE-2005-1193 (N/A)
+
+**CVE编号**: CVE-2005-1193
+**严重程度**: N/A CVSS: 7.5
+受影响产品: phpbb_group:phpbb
+
+**漏洞描述**:
+The bbencode_second_pass and make_clickable functions in bbcode.php for phpBB before 2.0.15, as used in viewtopic.php, privmsg.php, and other scripts, allow remote attackers to execute arbitrary script via a BBcode tag with a (1) javascript:, (2) applet:, (3) about:, (4) activex:, (5) chrome:, or (6) script: URI scheme, as demonstrated using the URL tag.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://castlecops.com/t123194-.html.
+
+**参考链接**:
+- http://castlecops.com/t123194-.html
+- http://marc.info/?l=full-disclosure&m=111552510000088&w=2
+- http://seclists.org/lists/bugtraq/2005/May/0098.html
+- http://secunia.com/advisories/15298
+- http://securitytracker.com/id?1013918
+
+> 📎 来源 / Source: http://castlecops.com/t123194-.html
+
+#### 131. CVE-2005-1248 (N/A)
+
+**CVE编号**: CVE-2005-1248
+**严重程度**: N/A CVSS: 7.5
+受影响产品: apple:itunes
+
+**漏洞描述**:
+Buffer overflow in Apple iTunes before 4.8 allows remote attackers to execute arbitrary code via a crafted MPEG4 file.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=301596.
+
+**参考链接**:
+- http://docs.info.apple.com/article.html?artnum=301596
+- http://lists.apple.com/archives/security-announce/2005/May/msg00003.html
+- http://secunia.com/advisories/15310
+- http://securitytracker.com/id?1013927
+- http://www.ngssoftware.com/advisories/itunes.txt
+
+> 📎 来源 / Source: http://docs.info.apple.com/article.html?artnum=301596
+
+#### 132. CVE-2005-1472 (N/A)
+
+**CVE编号**: CVE-2005-1472
+**严重程度**: N/A CVSS: 2.1
+受影响产品: apple:mac_os_x
+
+**漏洞描述**:
+Certain system calls in Apple Mac OS X 10.4.1 do not properly enforce the permissions of certain directories without the POSIX read bit set, but with the execute bits set for group or other, which allows local users to list files in otherwise restricted directories.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00004.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/May/msg00004.html
+- http://lists.apple.com/archives/security-announce/2005/May/msg00004.html
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/May/msg00004.html
+
+#### 133. CVE-2005-1408 (N/A)
+
+**CVE编号**: CVE-2005-1408
+**严重程度**: N/A CVSS: 5.0
+受影响产品: apple:keynote
+
+**漏洞描述**:
+Apple Keynote 2.0 and 2.0.1 allows remote attackers to read arbitrary files via the keynote: URI handler in a crafted Keynote presentation.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00005.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/May/msg00005.html
+- http://remahl.se/david/vuln/016/
+- http://secunia.com/advisories/15508
+- http://securitytracker.com/id?1014053
+- http://lists.apple.com/archives/security-announce/2005/May/msg00005.html
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/May/msg00005.html
+
+#### 134. CVE-2005-1723 (N/A)
+
+**CVE编号**: CVE-2005-1723
+**严重程度**: N/A CVSS: 7.5
+受影响产品: apple:mac_os_x_server
+
+**漏洞描述**:
+LaunchServices in Apple Mac OS X 10.4.x up to 10.4.1 does not properly mark file extensions and MIME types as unsafe if an Apple Uniform Type Identifier (UTI) is not created when the type is added to the database of unsafe types, which could allow attackers to bypass intended restrictions.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+- http://securitytracker.com/id?1014141
+- http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+- http://securitytracker.com/id?1014141
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+
+#### 135. CVE-2005-1724 (N/A)
+
+**CVE编号**: CVE-2005-1724
+**严重程度**: N/A CVSS: 7.5
+受影响产品: apple:mac_os_x_server
+
+**漏洞描述**:
+NFS on Apple Mac OS X 10.4.x up to 10.4.1 does not properly obey the -network or -mask flags for a filesystem and exports it to everyone, which allows remote attackers to bypass intended access restrictions.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+- http://securitytracker.com/id?1014142
+- http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+- http://securitytracker.com/id?1014142
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+
+#### 136. CVE-2005-1725 (N/A)
+
+**CVE编号**: CVE-2005-1725
+**严重程度**: N/A CVSS: 2.1
+受影响产品: apple:mac_os_x_server
+
+**漏洞描述**:
+launchd 106 in Apple Mac OS X 10.4.x up to 10.4.1 allows local users to overwrite arbitrary files via a symlink attack on the socket file in an insecure temporary directory.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+- http://marc.info/?l=bugtraq&m=111833509424379&w=2
+- http://www.suresec.org/advisories/adv3.pdf
+- http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+- http://marc.info/?l=bugtraq&m=111833509424379&w=2
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+
+#### 137. CVE-2005-1727 (N/A)
+
+**CVE编号**: CVE-2005-1727
+**严重程度**: N/A CVSS: 3.7
+受影响产品: apple:mac_os_x_server
+
+**漏洞描述**:
+Apple Mac OS X 10.4.x up to 10.4.1 sets insecure world- and group-writable permissions for the (1) system cache folder and (2) Dashboard system widgets, which allows local users to conduct unauthorized file operations via "file race conditions."
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+- http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+
+#### 138. CVE-2005-1728 (N/A)
+
+**CVE编号**: CVE-2005-1728
+**严重程度**: N/A CVSS: 4.6
+受影响产品: apple:mac_os_x
+
+**漏洞描述**:
+MCX Client for Apple Mac OS X 10.4.x up to 10.4.1 insecurely logs Portable Home Directory credentials, which allows local users to obtain the credentials.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+- http://securitytracker.com/id?1014148
+- http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+- http://securitytracker.com/id?1014148
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+
+#### 139. CVE-2005-1473 (N/A)
+
+**CVE编号**: CVE-2005-1473
+**严重程度**: N/A CVSS: 4.6
+受影响产品: apple:mac_os_x
+
+**漏洞描述**:
+SecurityAgent in Apple Mac OS X 10.4.1 allows attackers with physical access to bypass the locked screensaver and launch background applications by opening a URL from a text input field.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00004.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/May/msg00004.html
+- http://lists.apple.com/archives/security-announce/2005/May/msg00004.html
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/May/msg00004.html
+
+#### 140. CVE-2005-1474 (N/A)
+
+**CVE编号**: CVE-2005-1474
+**严重程度**: N/A CVSS: 7.5
+受影响产品: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述**:
+Dashboard in Apple Mac OS X 10.4.1 allows remote attackers to install widgets via Safari without prompting the user, a different vulnerability than CVE-2005-1933.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00004.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/May/msg00004.html
+- http://www.securityfocus.com/bid/13694
+- http://lists.apple.com/archives/security-announce/2005/May/msg00004.html
+- http://www.securityfocus.com/bid/13694
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/May/msg00004.html
+
+#### 141. CVE-2005-1933 (N/A)
+
+**CVE编号**: CVE-2005-1933
+**严重程度**: N/A CVSS: 7.5
+受影响产品: apple:mac_os_x
+
+**漏洞描述**:
+Dashboard in Apple Mac OS X Tiger 10.4 allows attackers to execute arbitrary commands by overriding the behavior of system widgets via a user widget with the same bundle identifier (CFBundleIdentifier), a different vulnerability than CVE-2005-1474.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/983429.
+
+**参考链接**:
+- http://www.kb.cert.org/vuls/id/983429
+- http://www1.cs.columbia.edu/~aaron/files/widgets/
+- http://www.kb.cert.org/vuls/id/983429
+- http://www1.cs.columbia.edu/~aaron/files/widgets/
+
+> 📎 来源 / Source: http://www.kb.cert.org/vuls/id/983429
+
+#### 142. CVE-2005-2195 (N/A)
+
+**CVE编号**: CVE-2005-2195
+**严重程度**: N/A CVSS: 5.0
+受影响产品: apple:darwin_streaming_server
+
+**漏洞描述**:
+Apple Darwin Streaming Server 5.5 and earlier allows remote attackers to cause a denial of service (application crash) via a URL with a filename containing a .cgi extension and an MS-DOS device name such as AUX, CON, PRN, COM1, or LPT1, a different vulnerability than CVE-2003-0421 and CVE-2003-0502.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=112126999514361&w=2.
+
+**参考链接**:
+- http://marc.info/?l=bugtraq&m=112126999514361&w=2
+- http://secunia.com/advisories/16056
+- http://securitytracker.com/id?1014474
+- http://secway.org/Advisory/AD20050713.txt
+- http://marc.info/?l=bugtraq&m=112126999514361&w=2
+
+> 📎 来源 / Source: http://marc.info/?l=bugtraq&m=112126999514361&w=2
+
+#### 143. CVE-2005-2196 (N/A)
+
+**CVE编号**: CVE-2005-2196
+**严重程度**: N/A CVSS: 2.1
+受影响产品: apple:airport_card
+
+**漏洞描述**:
+The Apple AirPort card uses a default WEP key when not connected to a known or trusted network, which can cause it to automatically connect to a malicious network.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://securitytracker.com/id?1014522.
+
+**参考链接**:
+- http://securitytracker.com/id?1014522
+- http://www.securityfocus.com/bid/14321
+- http://securitytracker.com/id?1014522
+- http://www.securityfocus.com/bid/14321
+
+> 📎 来源 / Source: http://securitytracker.com/id?1014522
+
+#### 144. CVE-2005-2594 (N/A)
+
+**CVE编号**: CVE-2005-2594
+**严重程度**: N/A CVSS: 5.0
+受影响产品: apple:safari
+
+**漏洞描述**:
+Apple Safari 1.3 (132) on Mac OS X 1.3.9 allows remote attackers to cause a denial of service (crash) via certain Javascript, possibly involving a function that defines a handler for itself within the function body.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/407702.
+
+**参考链接**:
+- http://www.securityfocus.com/archive/1/407702
+- http://www.securityfocus.com/bid/14528
+- http://www.securityfocus.com/archive/1/407702
+- http://www.securityfocus.com/bid/14528
+
+> 📎 来源 / Source: http://www.securityfocus.com/archive/1/407702
+
+#### 145. CVE-2005-3018 (N/A)
+
+**CVE编号**: CVE-2005-3018
+**严重程度**: N/A CVSS: 5.0
+受影响产品: apple:safari
+
+**漏洞描述**:
+Apple Safari allows remote attackers to cause a denial of service (application crash) via a crafted data:// URL.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=112715234411672&w=2.
+
+**参考链接**:
+- http://marc.info/?l=bugtraq&m=112715234411672&w=2
+- http://secunia.com/advisories/16875/
+- http://www.osvdb.org/19569
+- http://www.securityfocus.com/bid/14868
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/22331
+
+> 📎 来源 / Source: http://marc.info/?l=bugtraq&m=112715234411672&w=2
+
+#### 146. CVE-2005-2744 (N/A)
+
+**CVE编号**: CVE-2005-2744
+**严重程度**: N/A CVSS: 5.1
+受影响产品: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述**:
+Buffer overflow in QuickDraw Manager for Apple OS X 10.3.9 and 10.4.2, as used by applications such as Safari, Mail, and Finder, allows remote attackers to execute arbitrary code via a crafted PICT file.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+- http://secunia.com/advisories/16920/
+- http://securitytracker.com/alerts/2005/Sep/1014961.html
+- http://www.auscert.org.au/5509
+- http://www.ciac.org/ciac/bulletins/p-312.shtml
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+
+#### 147. CVE-2005-2747 (N/A)
+
+**CVE编号**: CVE-2005-2747
+**严重程度**: N/A CVSS: 7.5
+受影响产品: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述**:
+Buffer overflow in ImageIO for Apple Mac OS X 10.4.2, as used by applications such as WebCore and Safari, allows remote attackers to execute arbitrary code via a crafted GIF file.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+- http://secunia.com/advisories/16920/
+- http://securitytracker.com/alerts/2005/Sep/1014958.html
+- http://www.auscert.org.au/5509
+- http://www.ciac.org/ciac/bulletins/p-312.shtml
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+
+#### 148. CVE-2005-2748 (N/A)
+
+**CVE编号**: CVE-2005-2748
+**严重程度**: N/A CVSS: 2.1
+受影响产品: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述**:
+The malloc function in the libSystem library in Apple Mac OS X 10.3.9 and 10.4.2 allows local users to overwrite arbitrary files by setting the MallocLogFile environment variable to the target file before running a setuid application.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+- http://secunia.com/advisories/16920/
+- http://www.auscert.org.au/5509
+- http://www.ciac.org/ciac/bulletins/p-312.shtml
+- http://www.suresec.org/advisories/adv7.pdf
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+
+#### 149. CVE-2005-2524 (N/A)
+
+**CVE编号**: CVE-2005-2524
+**严重程度**: N/A CVSS: 5.0
+受影响产品: apple:safari, apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述**:
+Safari after 2.0 in Apple Mac OS X 10.3.9 allows remote attackers to bypass domain restrictions via crafted web archives that cause Safari to render them as if they came from a different site.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+- http://secunia.com/advisories/16920/
+- http://www.auscert.org.au/5509
+- http://www.ciac.org/ciac/bulletins/p-312.shtml
+- http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+
+#### 150. CVE-2005-2741 (N/A)
+
+**CVE编号**: CVE-2005-2741
+**严重程度**: N/A CVSS: 7.2
+受影响产品: apple:mac_os_x, perry_kiehtreiber:securityd, apple:mac_os_x_server
+
+**漏洞描述**:
+Authorization Services in securityd for Apple Mac OS X 10.3.9 allows local users to gain privileges by granting themselves certain rights that should be restricted to administrators.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html.
+
+**参考链接**:
+- http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+- http://secunia.com/advisories/16920/
+- http://www.auscert.org.au/5509
+- http://www.ciac.org/ciac/bulletins/p-312.shtml
+- http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+
+> 📎 来源 / Source: http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+
 
 ---
 
@@ -2088,7 +3113,7 @@ Auto-updated hourly: latest MACOS system vulnerabilities and mitigations.
 
 **CVE ID**: CVE-1999-0142
 **Severity**: N/A CVSS: 7.5
-**Affected Products**: netscape:navigator, sun:java
+**Affected Products**: sun:java, netscape:navigator
 
 **Description**:
 The Java Applet Security Manager implementation in Netscape Navigator 2.0 and Java Developer's Kit 1.0 allows an applet to connect to arbitrary hosts.
@@ -2184,7 +3209,7 @@ Apply patch from vendor. Monitor http://freaky.staticusers.net/macsec/data/power
 
 **CVE ID**: CVE-1999-1412
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: apple:macos, apache:http_server
+**Affected Products**: apache:http_server, apple:macos
 
 **Description**:
 A possible interaction between Apple MacOS X release 1.0 and Apache HTTP server allows remote attackers to cause a denial of service (crash) via a flood of HTTP GET requests to CGI programs, which generates a large number of processes.
@@ -2263,7 +3288,7 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 **CVE ID**: CVE-2000-0162
 **Severity**: N/A CVSS: 5.1
-**Affected Products**: microsoft:internet_explorer, microsoft:visual_studio, microsoft:ie
+**Affected Products**: microsoft:ie, microsoft:visual_studio, microsoft:internet_explorer
 
 **Description**:
 The Microsoft virtual machine (VM) in Internet Explorer 4.x and 5.x allows a remote attacker to read files via a malicious Java applet that escapes the Java sandbox, aka the "VM File Reading" vulnerability.
@@ -2384,7 +3409,7 @@ Apply patch from vendor. Monitor ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisori
 
 **CVE ID**: CVE-2000-0711
 **Severity**: N/A CVSS: 7.5
-**Affected Products**: netscape:communicator, microsoft:virtual_machine
+**Affected Products**: microsoft:virtual_machine, netscape:communicator
 
 **Description**:
 Netscape Communicator does not properly prevent a ServerSocket object from being created by untrusted entities, which allows remote attackers to create a server on the victim's system via a malicious applet, as demonstrated by Brown Orifice.
@@ -2486,7 +3511,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97958100816503&w=
 
 **CVE ID**: CVE-2001-0324
 **Severity**: N/A CVSS: 2.6
-**Affected Products**: microsoft:windows_98, microsoft:windows_2000
+**Affected Products**: microsoft:windows_2000, microsoft:windows_98
 
 **Description**:
 Windows 98 and Windows 2000 Java clients allow remote attackers to cause a denial of service via a Java applet that opens a large number of UDP sockets, which prevents the host from establishing any additional UDP connections, and possibly causes a crash.
@@ -2527,7 +3552,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/
 
 **CVE ID**: CVE-2001-1008
 **Severity**: N/A CVSS: 7.5
-**Affected Products**: sun:java_plug-in, sun:jre
+**Affected Products**: sun:jre, sun:java_plug-in
 
 **Description**:
 Java Plugin 1.4 for JRE 1.3 executes signed applets even if the certificate is expired, which could allow remote attackers to conduct unauthorized activities via an applet that has been signed by an expired certificate.
@@ -2589,7 +3614,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=99358249631139&w=
 
 **CVE ID**: CVE-2001-1480
 **Severity**: N/A CVSS: 7.5
-**Affected Products**: sun:jre, sun:sdk, apple:mac_os_runtime_for_java, sun:jdk
+**Affected Products**: sun:sdk, sun:jdk, apple:mac_os_runtime_for_java, sun:jre
 
 **Description**:
 Java Runtime Environment (JRE) and SDK 1.2 through 1.3.0_04 allows untrusted applets to access the system clipboard.
@@ -2652,7 +3677,7 @@ Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/116875.
 
 **CVE ID**: CVE-2002-0058
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: sun:jre, microsoft:virtual_machine, sun:sdk, sun:jdk
+**Affected Products**: microsoft:virtual_machine, sun:jdk, sun:sdk, sun:jre
 
 **Description**:
 Vulnerability in Java Runtime Environment (JRE) allows remote malicious web sites to hijack or sniff a web client's sessions, when an HTTP proxy is being used, via a Java applet that redirects the session to another server, as seen in (1) Netscape 6.0 through 6.1 and 4.79 and earlier, (2) Microsoft VM build 3802 and earlier as used in Internet Explorer 4.x and 5.x, and possibly other implementations that use vulnerable versions of SDK or JDK.
@@ -2673,7 +3698,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101534535304228&w
 
 **CVE ID**: CVE-2002-0076
 **Severity**: N/A CVSS: 7.5
-**Affected Products**: sun:jre, hp:java_jre-jdk, sun:sdk, microsoft:virtual_machine, sun:jdk
+**Affected Products**: sun:jre, sun:jdk, microsoft:virtual_machine, sun:sdk, hp:java_jre-jdk
 
 **Description**:
 Java Runtime Environment (JRE) Bytecode Verifier allows remote attackers to escape the Java sandbox and execute commands via an applet containing an illegal cast operation, as seen in (1) Microsoft VM build 3802 and earlier as used in Internet Explorer 4.x and 5.x, (2) Netscape 6.2.1 and earlier, and possibly other implementations that use vulnerable versions of SDK or JDK, aka a variant of the "Virtual Machine Verifier" vulnerability.
@@ -3009,7 +4034,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w
 
 **CVE ID**: CVE-2002-1257
 **Severity**: N/A CVSS: 10.0
-**Affected Products**: microsoft:windows_98se, microsoft:windows_me, microsoft:windows_xp, microsoft:windows_2000_terminal_services, microsoft:windows_98
+**Affected Products**: microsoft:windows_xp, microsoft:windows_2000_terminal_services, microsoft:windows_2000, microsoft:windows_98, microsoft:windows_95
 
 **Description**:
 Microsoft Virtual Machine (VM) up to and including build 5.0.3805 allows remote attackers to execute arbitrary code by including a Java applet that invokes COM (Component Object Model) objects in a web site or an HTML mail.
@@ -3029,7 +4054,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/6371.
 
 **CVE ID**: CVE-2002-1258
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: microsoft:windows_98se, microsoft:windows_me, microsoft:windows_xp, microsoft:windows_2000_terminal_services, microsoft:windows_98
+**Affected Products**: microsoft:windows_xp, microsoft:windows_2000_terminal_services, microsoft:windows_2000, microsoft:windows_98, microsoft:windows_95
 
 **Description**:
 Two vulnerabilities in Microsoft Virtual Machine (VM) up to and including build 5.0.3805, as used in Internet Explorer and other applications, allow remote attackers to read files via a Java applet with a spoofed location in the CODEBASE parameter in the APPLET tag, possibly due to a parsing error.
@@ -3049,7 +4074,7 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 **CVE ID**: CVE-2002-1260
 **Severity**: N/A CVSS: 7.5
-**Affected Products**: microsoft:windows_98se, microsoft:windows_me, microsoft:windows_xp, microsoft:windows_2000_terminal_services, microsoft:windows_98
+**Affected Products**: microsoft:windows_xp, microsoft:windows_2000_terminal_services, microsoft:windows_2000, microsoft:windows_98, microsoft:windows_95
 
 **Description**:
 The Java Database Connectivity (JDBC) APIs in Microsoft Virtual Machine (VM) 5.0.3805 and earlier allow remote attackers to bypass security checks and access database contents via an untrusted Java applet.
@@ -3070,7 +4095,7 @@ Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/n-026.shtml.
 
 **CVE ID**: CVE-2002-1325
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: microsoft:windows_98se, microsoft:windows_me, microsoft:windows_xp, microsoft:windows_2000_terminal_services, microsoft:windows_98
+**Affected Products**: microsoft:windows_xp, microsoft:windows_2000_terminal_services, microsoft:windows_2000, microsoft:windows_98, microsoft:windows_95
 
 **Description**:
 Microsoft Virtual Machine (VM) build 5.0.3805 and earlier allows remote attackers to determine a local user's username via a Java applet that accesses the user.dir system property, aka "User.dir Exposure Vulnerability."
@@ -3090,7 +4115,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/6380.
 
 **CVE ID**: CVE-2002-1898
 **Severity**: N/A CVSS: 7.2
-**Affected Products**: apple:terminal, apple:mac_os_x
+**Affected Products**: apple:mac_os_x, apple:terminal
 
 **Description**:
 Terminal 1.3 in Apple Mac OS X 10.2 allows remote attackers to execute arbitrary commands via shell metacharacters in a telnet:// link, which is executed by Terminal.app window.
@@ -3234,7 +4259,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/
 
 **CVE ID**: CVE-2002-2373
 **Severity**: N/A CVSS: 7.5
-**Affected Products**: apple:tcp_ip_configuration_utility, apple:apple_laserwriter
+**Affected Products**: apple:apple_laserwriter, apple:tcp_ip_configuration_utility
 
 **Description**:
 The default configuration of the TCP/IP printer configuration utility in Apple LaserWriter 12/640 PS printer contains a blank Telnet password, which allows remote attackers to gain access.
@@ -3644,7 +4669,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatc
 
 **CVE ID**: CVE-2003-0975
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: apple:mac_os_x, apple:safari, apple:mac_os_x_server
+**Affected Products**: apple:safari, apple:mac_os_x, apple:mac_os_x_server
 
 **Description**:
 Apple Safari 1.0 through 1.1 on Mac OS X 10.3.1 and Mac OS X 10.2.8 allows remote attackers to steal user cookies from another domain via a link with a hex-encoded null character (%00) followed by the target domain.
@@ -3706,7 +4731,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/
 
 **CVE ID**: CVE-2003-1123
 **Severity**: N/A CVSS: 7.5
-**Affected Products**: sun:jre, sun:jdk
+**Affected Products**: sun:jdk, sun:jre
 
 **Description**:
 Sun Java Runtime Environment (JRE) and SDK 1.4.0_01 and earlier allows untrusted applets to access certain information within trusted applets, which allows attackers to bypass the restrictions of the Java security model.
@@ -4061,7 +5086,7 @@ Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announ
 
 **CVE ID**: CVE-2004-1081
 **Severity**: N/A CVSS: 2.1
-**Affected Products**: apple:darwin_streaming_server, apple:mac_os_x, apple:mac_os_x_server, apple:quicktime_streaming_server
+**Affected Products**: apple:darwin_streaming_server, apple:quicktime_streaming_server, apple:mac_os_x, apple:mac_os_x_server
 
 **Description**:
 The Application Framework (AppKit) for Apple Mac OS X 10.2.8 and 10.3.6 does not properly restrict access to a secure text input field, which allows local users to read keyboard input from other applications within the same window session.
@@ -4082,7 +5107,7 @@ Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announ
 
 **CVE ID**: CVE-2004-1084
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: apple:darwin_streaming_server, apple:mac_os_x, apple:mac_os_x_server, apple:quicktime_streaming_server
+**Affected Products**: apple:darwin_streaming_server, apple:quicktime_streaming_server, apple:mac_os_x, apple:mac_os_x_server
 
 **Description**:
 Apache for Apple Mac OS X 10.2.8 and 10.3.6 allows remote attackers to read files and resource fork content via HTTP requests to certain special file names related to multiple data streams in HFS+, which bypass Apache file handles.
@@ -4103,7 +5128,7 @@ Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announ
 
 **CVE ID**: CVE-2004-1085
 **Severity**: N/A CVSS: 2.1
-**Affected Products**: apple:darwin_streaming_server, apple:mac_os_x, apple:mac_os_x_server, apple:quicktime_streaming_server
+**Affected Products**: apple:darwin_streaming_server, apple:quicktime_streaming_server, apple:mac_os_x, apple:mac_os_x_server
 
 **Description**:
 Human Interface Toolbox (HIToolBox) for Apple Mac 0S X 10.3.6 allows local users to exit applications via the force-quit key combination, even when the system is running in kiosk mode.
@@ -4124,7 +5149,7 @@ Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announ
 
 **CVE ID**: CVE-2004-1086
 **Severity**: N/A CVSS: 7.5
-**Affected Products**: apple:darwin_streaming_server, apple:mac_os_x, apple:mac_os_x_server, apple:quicktime_streaming_server
+**Affected Products**: apple:darwin_streaming_server, apple:quicktime_streaming_server, apple:mac_os_x, apple:mac_os_x_server
 
 **Description**:
 Buffer overflow in PSNormalizer for Apple Mac OS X 10.3.6 allows remote attackers to execute arbitrary code via a crafted PostScript input file.
@@ -4140,6 +5165,1031 @@ Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announ
 - https://exchange.xforce.ibmcloud.com/vulnerabilities/18354
 
 > 📎 Source: http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html
+
+#### 101. CVE-2004-1087 (N/A)
+
+**CVE ID**: CVE-2004-1087
+**Severity**: N/A CVSS: 2.1
+**Affected Products**: apple:darwin_streaming_server, apple:quicktime_streaming_server, apple:mac_os_x, apple:mac_os_x_server
+
+**Description**:
+Terminal for Apple Mac OS X 10.3.6 may indicate that "Secure Keyboard Entry" is enabled even when it is not, which could result in a false sense of security for the user.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html
+- http://secunia.com/advisories/13362/
+- http://www.ciac.org/ciac/bulletins/p-049.shtml
+- http://www.securityfocus.com/bid/11802
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18355
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html
+
+#### 102. CVE-2004-1088 (N/A)
+
+**CVE ID**: CVE-2004-1088
+**Severity**: N/A CVSS: 7.5
+**Affected Products**: apple:darwin_streaming_server, apple:quicktime_streaming_server, apple:mac_os_x, apple:mac_os_x_server
+
+**Description**:
+Postfix server for Apple Mac OS X 10.3.6, when using CRAM-MD5, allows remote attackers to send mail without authentication by replaying authentication information.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html
+- http://secunia.com/advisories/13362/
+- http://www.ciac.org/ciac/bulletins/p-049.shtml
+- http://www.securityfocus.com/bid/11802
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18353
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html
+
+#### 103. CVE-2004-1089 (N/A)
+
+**CVE ID**: CVE-2004-1089
+**Severity**: N/A CVSS: 4.6
+**Affected Products**: apple:darwin_streaming_server, apple:quicktime_streaming_server, apple:mac_os_x, apple:mac_os_x_server
+
+**Description**:
+Unknown vulnerability in Apple Mac OS X 10.3.6 server, when using Kerberos authentication and Cyrus IMAP allows local users to access mailboxes of other users.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html
+- http://secunia.com/advisories/13362/
+- http://www.ciac.org/ciac/bulletins/p-049.shtml
+- http://www.securityfocus.com/bid/11802
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18351
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html
+
+#### 104. CVE-2004-1083 (HIGH)
+
+**CVE ID**: CVE-2004-1083
+**Severity**: HIGH CVSS: 7.5
+**Affected Products**: apple:darwin_streaming_server, apple:quicktime_streaming_server, apple:mac_os_x, apple:mac_os_x_server
+
+**Description**:
+Apache for Apple Mac OS X 10.2.8 and 10.3.6 restricts access to files in a case sensitive manner, but the Apple HFS+ filesystem accesses files in a case insensitive manner, which allows remote attackers to read .DS_Store files and files beginning with ".ht" using alternate capitalization.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html
+- http://lists.apple.com/archives/security-announce/2005//Aug/msg00001.html
+- http://lists.apple.com/archives/security-announce/2005/Aug/msg00000.html
+- http://secunia.com/advisories/13362/
+- http://www.ciac.org/ciac/bulletins/p-049.shtml
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2004/Dec/msg00000.html
+
+#### 105. CVE-2004-0622 (N/A)
+
+**CVE ID**: CVE-2004-0622
+**Severity**: N/A CVSS: 2.1
+**Affected Products**: apple:mac_os_x
+
+**Description**:
+Apple Mac OS X 10.3.4, 10.4, 10.5, and possibly other versions does not properly clear memory for login (aka Loginwindow.app), Keychain, or FileVault passwords, which could allow the root user or an attacker with physical access to obtain sensitive information by reading memory.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://citp.princeton.edu/pub/coldboot.pdf.
+
+**References**:
+- http://citp.princeton.edu/pub/coldboot.pdf
+- http://marc.info/?l=bugtraq&m=108819559925981&w=2
+- http://www.securityfocus.com/archive/1/488930/100/100/threaded
+- http://www.securityfocus.com/archive/1/488948/100/100/threaded
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/16557
+
+> 📎 Source: http://citp.princeton.edu/pub/coldboot.pdf
+
+#### 106. CVE-2004-1145 (N/A)
+
+**CVE ID**: CVE-2004-1145
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: ethereal_group:ethereal, suse:suse_linux, redhat:enterprise_linux, sgi:propack, redhat:enterprise_linux_desktop
+
+**Description**:
+Multiple vulnerabilities in Konqueror in KDE 3.3.1 and earlier (1) allow access to restricted Java classes via JavaScript and (2) do not properly restrict access to certain Java classes from the Java applet, which allows remote attackers to bypass sandbox restrictions and read or write arbitrary files.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=110356286722875&w=2.
+
+**References**:
+- http://marc.info/?l=bugtraq&m=110356286722875&w=2
+- http://secunia.com/advisories/13586
+- http://www.gentoo.org/security/en/glsa/glsa-200501-16.xml
+- http://www.heise.de/security/dienste/browsercheck/tests/java.shtml
+- http://www.kb.cert.org/vuls/id/420222
+
+> 📎 Source: http://marc.info/?l=bugtraq&m=110356286722875&w=2
+
+#### 107. CVE-2004-0873 (N/A)
+
+**CVE ID**: CVE-2004-0873
+**Severity**: N/A CVSS: 7.5
+**Affected Products**: apple:ichat_av, apple:ichat
+
+**Description**:
+Apple iChat AV 2.1, AV 2.0, and 1.0.1 allows remote attackers to execute arbitrary programs via a "link" that references the program.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Sep/msg00001.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2004/Sep/msg00001.html
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/17420
+- http://lists.apple.com/archives/security-announce/2004/Sep/msg00001.html
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/17420
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2004/Sep/msg00001.html
+
+#### 108. CVE-2004-0429 (N/A)
+
+**CVE ID**: CVE-2004-0429
+**Severity**: N/A CVSS: 10.0
+**Affected Products**: apple:mac_os_x
+
+**Description**:
+Unknown vulnerability related to "the handling of large requests" in RAdmin for Apple Mac OS X 10.3.3 and Mac OS X 10.2.8 may allow attackers to have unknown impact via unknown attack vectors.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/May/msg00000.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2004/May/msg00000.html
+- http://marc.info/?l=bugtraq&m=108369640424244&w=2
+- http://secunia.com/advisories/11539/
+- http://securitytracker.com/id?1010045
+- http://www.auscert.org.au/render.html?it=4070
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2004/May/msg00000.html
+
+#### 109. CVE-2004-1398 (N/A)
+
+**CVE ID**: CVE-2004-1398
+**Severity**: N/A CVSS: 4.6
+**Affected Products**: roxio:toast
+
+**Description**:
+Format string vulnerability in prelink.c in kextload in Apple OS X, as used by TDIXSupport in Roxio Toast Titanium and possibly other products, allows local users to execute arbitrary code via format string specifiers in the extension argument.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.grok.org.uk/pipermail/full-disclosure/2006-September/049452.html.
+
+**References**:
+- http://lists.grok.org.uk/pipermail/full-disclosure/2006-September/049452.html
+- http://marc.info/?l=bugtraq&m=110305083706943&w=2
+- http://www.netragard.com/pdfs/research/apple-kext-tools-20060822.txt
+- http://www.securityfocus.com/bid/11926
+- http://www.securityfocus.com/bid/20031
+
+> 📎 Source: http://lists.grok.org.uk/pipermail/full-disclosure/2006-September/049452.html
+
+#### 110. CVE-2004-1489 (N/A)
+
+**CVE ID**: CVE-2004-1489
+**Severity**: N/A CVSS: 2.6
+**Affected Products**: opera:opera_browser
+
+**Description**:
+Opera 7.54 and earlier does not properly limit an applet's access to internal Java packages from Sun, which allows remote attackers to gain sensitive information, such as user names and the installation directory.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.grok.org.uk/pipermail/full-disclosure/2004-November/029044.html.
+
+**References**:
+- http://lists.grok.org.uk/pipermail/full-disclosure/2004-November/029044.html
+- http://www.gentoo.org/security/en/glsa/glsa-200502-17.xml
+- http://www.opera.com/linux/changelogs/754u1/
+- http://lists.grok.org.uk/pipermail/full-disclosure/2004-November/029044.html
+- http://www.gentoo.org/security/en/glsa/glsa-200502-17.xml
+
+> 📎 Source: http://lists.grok.org.uk/pipermail/full-disclosure/2004-November/029044.html
+
+#### 111. CVE-2004-1753 (N/A)
+
+**CVE ID**: CVE-2004-1753
+**Severity**: N/A CVSS: 2.6
+**Affected Products**: mozilla:mozilla, mozilla:firefox, netscape:navigator
+
+**Description**:
+The Apple Java plugin, as used in Netscape 7.1 and 7.2, Mozilla 1.7.2, and Firefox 0.9.3 on MacOS X 10.3.5, when tabbed browsing is enabled, does not properly handle SetWindow(NULL) calls, which allows Java applets from one tab to draw to other tabs and facilitates phishing attacks that spoof tabs.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://bugzilla.mozilla.org/show_bug.cgi?id=162134.
+
+**References**:
+- http://bugzilla.mozilla.org/show_bug.cgi?id=162134
+- http://secunia.com/advisories/12392
+- http://www.securityfocus.com/archive/1/373080
+- http://www.securityfocus.com/archive/1/373232
+- http://www.securityfocus.com/archive/1/373309
+
+> 📎 Source: http://bugzilla.mozilla.org/show_bug.cgi?id=162134
+
+#### 112. CVE-2004-2280 (N/A)
+
+**CVE ID**: CVE-2004-2280
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: ibm:lotus_notes
+
+**Description**:
+Buffer overflow in IBM Lotus Notes 6.5.x before 6.5.3 and 6.0.x before 6.0.5 allows remote attackers to cause a denial of service (crash) via unknown vectors related to Java applets, as identified by KSPR62F4KN.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/12046.
+
+**References**:
+- http://secunia.com/advisories/12046
+- http://www-1.ibm.com/support/docview.wss?rs=475&context=SSKTWP&q1=Java&uid=swg21173910&loc=en_US&cs=utf-8&lang=en
+- http://www.osvdb.org/8418
+- http://www.securityfocus.com/bid/10704
+- http://secunia.com/advisories/12046
+
+> 📎 Source: http://secunia.com/advisories/12046
+
+#### 113. CVE-2004-2281 (N/A)
+
+**CVE ID**: CVE-2004-2281
+**Severity**: N/A CVSS: 10.0
+**Affected Products**: ibm:lotus_notes
+
+**Description**:
+Multiple unknown vulnerabilities in IBM Lotus Notes 6.5.x before 6.5.4 and 6.0.x before 6.0.5 have unknown impact and attack vectors, related to Java applets, as identified by (1) KSPR5YS6GR and (2) KSPR62F4D3.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/12046.
+
+**References**:
+- http://secunia.com/advisories/12046
+- http://www-1.ibm.com/support/docview.wss?rs=475&context=SSKTWP&q1=Java&uid=swg21173910&loc=en_US&cs=utf-8&lang=en
+- http://www.osvdb.org/8416
+- http://www.osvdb.org/8417
+- http://www.securityfocus.com/bid/10704
+
+> 📎 Source: http://secunia.com/advisories/12046
+
+#### 114. CVE-2004-2359 (N/A)
+
+**CVE ID**: CVE-2004-2359
+**Severity**: N/A CVSS: 10.0
+**Affected Products**: dell:truemobile_1300_wlan_mini-pci_card_util_trayapplet
+
+**Description**:
+Dell TrueMobile 1300 WLAN Mini-PCI Card Util TrayApplet 3.10.39.0 does not properly drop SYSTEM privileges when started from the systray applet, which allows local users to gain privileges by accessing the Help functionality.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2004-q1/0042.html.
+
+**References**:
+- http://archives.neohapsis.com/archives/vulnwatch/2004-q1/0042.html
+- http://secunia.com/advisories/10949
+- http://securitytracker.com/id?1009174
+- http://www.securityfocus.com/bid/9714
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/15285
+
+> 📎 Source: http://archives.neohapsis.com/archives/vulnwatch/2004-q1/0042.html
+
+#### 115. CVE-2004-2367 (N/A)
+
+**CVE ID**: CVE-2004-2367
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: texas_imperial_software:wftpd, texas_imperial_software:wftpd_pro
+
+**Description**:
+The Control Panel applet in WFTPD and WFTPD Pro 3.21 R1 and R2 allows remote authenticated users to cause a denial of service (crash) via a long FTP command.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/11160/.
+
+**References**:
+- http://secunia.com/advisories/11160/
+- http://www.securiteam.com/windowsntfocus/5JP0B20CAY.html
+- http://www.securityfocus.com/bid/9908
+- http://www.wftpd.com/bug_gpf.htm
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/15510
+
+> 📎 Source: http://secunia.com/advisories/11160/
+
+#### 116. CVE-2004-0926 (N/A)
+
+**CVE ID**: CVE-2004-0926
+**Severity**: N/A CVSS: 10.0
+**Affected Products**: apple:mac_os_x, apple:mac_os_x_server, easy_software_products:cups
+
+**Description**:
+Heap-based buffer overflow in Apple QuickTime on Mac OS 10.2.8 through 10.3.5 may allow remote attackers to execute arbitrary code via a certain BMP image.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Oct/msg00000.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2004/Oct/msg00000.html
+- http://lists.apple.com/archives/security-announce/2004/Oct/msg00001.html
+- http://www.securityfocus.com/bid/11322
+- http://lists.apple.com/archives/security-announce/2004/Oct/msg00000.html
+- http://lists.apple.com/archives/security-announce/2004/Oct/msg00001.html
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2004/Oct/msg00000.html
+
+#### 117. CVE-2004-0962 (N/A)
+
+**CVE ID**: CVE-2004-0962
+**Severity**: N/A CVSS: 10.0
+**Affected Products**: apple:apple_remote_desktop
+
+**Description**:
+Apple Remote Desktop Client 1.2.4 executes a GUI application as root when it is started by an Apple Remote Desktop Administrator application, which allows remote authenticated users to execute arbitrary code when loginwindow is active via Fast User Switching.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Oct/msg00002.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2004/Oct/msg00002.html
+- http://lists.apple.com/archives/security-announce/2004/Oct/msg00002.html
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2004/Oct/msg00002.html
+
+#### 118. CVE-2004-0988 (N/A)
+
+**CVE ID**: CVE-2004-0988
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: apple:quicktime
+
+**Description**:
+Integer overflow on Apple QuickTime before 6.5.2, when running on Windows systems, allows remote attackers to cause a denial of service (memory consumption) via certain inputs that cause a large memory operation.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2004/Oct/msg00001.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2004/Oct/msg00001.html
+- http://lists.apple.com/archives/security-announce/2004/Oct/msg00001.html
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2004/Oct/msg00001.html
+
+#### 119. CVE-2004-1029 (N/A)
+
+**CVE ID**: CVE-2004-1029
+**Severity**: N/A CVSS: 9.3
+**Affected Products**: symantec:enterprise_firewall, gentoo:linux, sun:jre, hp:java_sdk-rte, sun:jdk
+
+**Description**:
+The Sun Java Plugin capability in Java 2 Runtime Environment (JRE) 1.4.2_01, 1.4.2_04, and possibly earlier versions, does not properly restrict access between Javascript and Java applets during data transfer, which allows remote attackers to load unsafe classes and execute arbitrary code by using the reflection API to access private Java packages.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://jouko.iki.fi/adv/javaplugin.html.
+
+**References**:
+- http://jouko.iki.fi/adv/javaplugin.html
+- http://lists.apple.com/archives/security-announce/2005/Feb/msg00000.html
+- http://rpmfind.net/linux/RPM/suse/updates/9.3/i386/rpm/i586/java-1_4_2-sun-src-1.4.2.08-0.1.i586.html
+- http://secunia.com/advisories/13271
+- http://secunia.com/advisories/29035
+
+> 📎 Source: http://jouko.iki.fi/adv/javaplugin.html
+
+#### 120. CVE-2005-0043 (N/A)
+
+**CVE ID**: CVE-2005-0043
+**Severity**: N/A CVSS: 7.5
+**Affected Products**: apple:itunes
+
+**Description**:
+Buffer overflow in Apple iTunes 4.7 allows remote attackers to execute arbitrary code via a long URL in (1) .m3u or (2) .pls playlist files.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Jan/msg00000.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/Jan/msg00000.html
+- http://secunia.com/advisories/13804
+- http://securitytracker.com/id?1012839
+- http://www.idefense.com/application/poi/display?id=180&type=vulnerabilities
+- http://www.kb.cert.org/vuls/id/377368
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/Jan/msg00000.html
+
+#### 121. CVE-2005-0289 (N/A)
+
+**CVE ID**: CVE-2005-0289
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: apple:airport_extreme, apple:airport_express
+
+**Description**:
+Apple AirPort Express prior to 6.1.1 and Extreme prior to 5.5.1, configured as a Wireless Data Service (WDS), allows remote attackers to cause a denial of service (device freeze) by connecting to UDP port 161 and before link-state change occurs.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.grok.org.uk/pipermail/full-disclosure/2005-January/030832.html.
+
+**References**:
+- http://lists.grok.org.uk/pipermail/full-disclosure/2005-January/030832.html
+- http://marc.info/?l=bugtraq&m=110582124528867&w=2
+- http://secunia.com/advisories/13753
+- http://www.securityfocus.com/bid/12152
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18865
+
+> 📎 Source: http://lists.grok.org.uk/pipermail/full-disclosure/2005-January/030832.html
+
+#### 122. CVE-2005-0340 (N/A)
+
+**CVE ID**: CVE-2005-0340
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: apple:afp_server
+
+**Description**:
+Integer signedness error in Apple File Service (AFP Server) allows remote attackers to cause a denial of service (application crash) via a negative UAM string length in a FPLoginExt packet.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Mar/msg00000.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/Mar/msg00000.html
+- http://marc.info/?l=bugtraq&m=110791369419784&w=2
+- http://www.securityfocus.com/bid/12478
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/19263
+- http://lists.apple.com/archives/security-announce/2005/Mar/msg00000.html
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/Mar/msg00000.html
+
+#### 123. CVE-2005-0341 (N/A)
+
+**CVE ID**: CVE-2005-0341
+**Severity**: N/A CVSS: 4.3
+**Affected Products**: apple:safari
+
+**Description**:
+Apple Safari 1.2.4 does not obey the Content-type field in the HTTP header and renders text as HTML, which allows remote attackers to inject arbitrary web script or HTML and perform cross-site scripting (XSS) attacks.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=110756965213819&w=2.
+
+**References**:
+- http://marc.info/?l=bugtraq&m=110756965213819&w=2
+- http://securitytracker.com/id?1013087
+- http://tigger.uic.edu/~jrockw2/safari_20050204.txt
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/19227
+- http://marc.info/?l=bugtraq&m=110756965213819&w=2
+
+> 📎 Source: http://marc.info/?l=bugtraq&m=110756965213819&w=2
+
+#### 124. CVE-2005-0976 (N/A)
+
+**CVE ID**: CVE-2005-0976
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: apple:safari, hmdt:shiira, omnigroup:omniweb
+
+**Description**:
+AppleWebKit (WebCore and WebKit), as used in multiple products such as Safari 1.2 and OmniGroup OmniWeb 5.1, allows remote attackers to read arbitrary files via the XMLHttpRequest Javascript component, as demonstrated using automatically mounted disk images and file:// URLs.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Apr/msg00000.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/Apr/msg00000.html
+- http://remahl.se/david/vuln/001/
+- http://lists.apple.com/archives/security-announce/2005/Apr/msg00000.html
+- http://remahl.se/david/vuln/001/
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/Apr/msg00000.html
+
+#### 125. CVE-2005-1331 (N/A)
+
+**CVE ID**: CVE-2005-1331
+**Severity**: N/A CVSS: 5.1
+**Affected Products**: apple:mac_os_x, apple:applescript, apple:mac_os_x_server
+
+**Description**:
+The AppleScript Editor in Mac OS X 10.3.9 does not properly display script code for an applescript: URI, which can result in code that is different than the actual code that would be run, which could allow remote attackers to trick users into executing malicious code via certain URI characters such as NULL, control characters, and homographs.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00001.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/May/msg00001.html
+- http://remahl.se/david/vuln/010/
+- http://secunia.com/advisories/15227
+- http://www.securityfocus.com/bid/13480
+- http://www.vupen.com/english/advisories/2005/0455
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/May/msg00001.html
+
+#### 126. CVE-2005-1337 (N/A)
+
+**CVE ID**: CVE-2005-1337
+**Severity**: N/A CVSS: 7.5
+**Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**Description**:
+Apple Help Viewer 2.0.7 and 3.0.0 in Mac OS X 10.3.9 allows remote attackers to read and execute arbitrary scrpts with less restrictive privileges via a help:// URI.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00001.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/May/msg00001.html
+- http://remahl.se/david/vuln/004/
+- http://lists.apple.com/archives/security-announce/2005/May/msg00001.html
+- http://remahl.se/david/vuln/004/
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/May/msg00001.html
+
+#### 127. CVE-2005-1341 (N/A)
+
+**CVE ID**: CVE-2005-1341
+**Severity**: N/A CVSS: 5.1
+**Affected Products**: apple:mac_os_x, apple:terminal, apple:mac_os_x_server
+
+**Description**:
+Apple Terminal 1.4.4 allows attackers to execute arbitrary commands via terminal escape sequences.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00001.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/May/msg00001.html
+- http://remahl.se/david/vuln/012/
+- http://secunia.com/advisories/15227
+- http://securitytracker.com/id?1013882
+- http://www.kb.cert.org/vuls/id/994510
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/May/msg00001.html
+
+#### 128. CVE-2005-1342 (N/A)
+
+**CVE ID**: CVE-2005-1342
+**Severity**: N/A CVSS: 7.5
+**Affected Products**: apple:mac_os_x, apple:terminal
+
+**Description**:
+The x-man-page: URI handler for Apple Terminal 1.4.4 in Mac OS X 10.3.9 does not cleanse terminal escape sequences, which allows remote attackers to execute arbitrary commands.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00001.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/May/msg00001.html
+- http://remahl.se/david/vuln/011/
+- http://secunia.com/advisories/15227
+- http://www.kb.cert.org/vuls/id/356070
+- http://www.osvdb.org/16084
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/May/msg00001.html
+
+#### 129. CVE-2005-1579 (N/A)
+
+**CVE ID**: CVE-2005-1579
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: apple:quicktime
+
+**Description**:
+Apple QuickTime Player 7.0 on Mac OS X 10.4 allows remote attackers to obtain sensitive information via a .mov file with a Quartz Composer composition (.qtz) file that uses certain patches to read local information, then other patches to send the information to the attacker.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/fulldisclosure/2005-05/0265.html.
+
+**References**:
+- http://archives.neohapsis.com/archives/fulldisclosure/2005-05/0265.html
+- http://docs.info.apple.com/article.html?artnum=301714
+- http://lists.apple.com/archives/quartzcomposer-dev/2005/May/msg00250.html
+- http://lists.apple.com/archives/quartzcomposer-dev/2005/May/msg00263.html
+- http://lists.apple.com/archives/security-announce/2005/May/msg00006.html
+
+> 📎 Source: http://archives.neohapsis.com/archives/fulldisclosure/2005-05/0265.html
+
+#### 130. CVE-2005-1193 (N/A)
+
+**CVE ID**: CVE-2005-1193
+**Severity**: N/A CVSS: 7.5
+**Affected Products**: phpbb_group:phpbb
+
+**Description**:
+The bbencode_second_pass and make_clickable functions in bbcode.php for phpBB before 2.0.15, as used in viewtopic.php, privmsg.php, and other scripts, allow remote attackers to execute arbitrary script via a BBcode tag with a (1) javascript:, (2) applet:, (3) about:, (4) activex:, (5) chrome:, or (6) script: URI scheme, as demonstrated using the URL tag.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://castlecops.com/t123194-.html.
+
+**References**:
+- http://castlecops.com/t123194-.html
+- http://marc.info/?l=full-disclosure&m=111552510000088&w=2
+- http://seclists.org/lists/bugtraq/2005/May/0098.html
+- http://secunia.com/advisories/15298
+- http://securitytracker.com/id?1013918
+
+> 📎 Source: http://castlecops.com/t123194-.html
+
+#### 131. CVE-2005-1248 (N/A)
+
+**CVE ID**: CVE-2005-1248
+**Severity**: N/A CVSS: 7.5
+**Affected Products**: apple:itunes
+
+**Description**:
+Buffer overflow in Apple iTunes before 4.8 allows remote attackers to execute arbitrary code via a crafted MPEG4 file.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=301596.
+
+**References**:
+- http://docs.info.apple.com/article.html?artnum=301596
+- http://lists.apple.com/archives/security-announce/2005/May/msg00003.html
+- http://secunia.com/advisories/15310
+- http://securitytracker.com/id?1013927
+- http://www.ngssoftware.com/advisories/itunes.txt
+
+> 📎 Source: http://docs.info.apple.com/article.html?artnum=301596
+
+#### 132. CVE-2005-1472 (N/A)
+
+**CVE ID**: CVE-2005-1472
+**Severity**: N/A CVSS: 2.1
+**Affected Products**: apple:mac_os_x
+
+**Description**:
+Certain system calls in Apple Mac OS X 10.4.1 do not properly enforce the permissions of certain directories without the POSIX read bit set, but with the execute bits set for group or other, which allows local users to list files in otherwise restricted directories.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00004.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/May/msg00004.html
+- http://lists.apple.com/archives/security-announce/2005/May/msg00004.html
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/May/msg00004.html
+
+#### 133. CVE-2005-1408 (N/A)
+
+**CVE ID**: CVE-2005-1408
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: apple:keynote
+
+**Description**:
+Apple Keynote 2.0 and 2.0.1 allows remote attackers to read arbitrary files via the keynote: URI handler in a crafted Keynote presentation.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00005.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/May/msg00005.html
+- http://remahl.se/david/vuln/016/
+- http://secunia.com/advisories/15508
+- http://securitytracker.com/id?1014053
+- http://lists.apple.com/archives/security-announce/2005/May/msg00005.html
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/May/msg00005.html
+
+#### 134. CVE-2005-1723 (N/A)
+
+**CVE ID**: CVE-2005-1723
+**Severity**: N/A CVSS: 7.5
+**Affected Products**: apple:mac_os_x_server
+
+**Description**:
+LaunchServices in Apple Mac OS X 10.4.x up to 10.4.1 does not properly mark file extensions and MIME types as unsafe if an Apple Uniform Type Identifier (UTI) is not created when the type is added to the database of unsafe types, which could allow attackers to bypass intended restrictions.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+- http://securitytracker.com/id?1014141
+- http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+- http://securitytracker.com/id?1014141
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+
+#### 135. CVE-2005-1724 (N/A)
+
+**CVE ID**: CVE-2005-1724
+**Severity**: N/A CVSS: 7.5
+**Affected Products**: apple:mac_os_x_server
+
+**Description**:
+NFS on Apple Mac OS X 10.4.x up to 10.4.1 does not properly obey the -network or -mask flags for a filesystem and exports it to everyone, which allows remote attackers to bypass intended access restrictions.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+- http://securitytracker.com/id?1014142
+- http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+- http://securitytracker.com/id?1014142
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+
+#### 136. CVE-2005-1725 (N/A)
+
+**CVE ID**: CVE-2005-1725
+**Severity**: N/A CVSS: 2.1
+**Affected Products**: apple:mac_os_x_server
+
+**Description**:
+launchd 106 in Apple Mac OS X 10.4.x up to 10.4.1 allows local users to overwrite arbitrary files via a symlink attack on the socket file in an insecure temporary directory.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+- http://marc.info/?l=bugtraq&m=111833509424379&w=2
+- http://www.suresec.org/advisories/adv3.pdf
+- http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+- http://marc.info/?l=bugtraq&m=111833509424379&w=2
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+
+#### 137. CVE-2005-1727 (N/A)
+
+**CVE ID**: CVE-2005-1727
+**Severity**: N/A CVSS: 3.7
+**Affected Products**: apple:mac_os_x_server
+
+**Description**:
+Apple Mac OS X 10.4.x up to 10.4.1 sets insecure world- and group-writable permissions for the (1) system cache folder and (2) Dashboard system widgets, which allows local users to conduct unauthorized file operations via "file race conditions."
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+- http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+
+#### 138. CVE-2005-1728 (N/A)
+
+**CVE ID**: CVE-2005-1728
+**Severity**: N/A CVSS: 4.6
+**Affected Products**: apple:mac_os_x
+
+**Description**:
+MCX Client for Apple Mac OS X 10.4.x up to 10.4.1 insecurely logs Portable Home Directory credentials, which allows local users to obtain the credentials.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+- http://securitytracker.com/id?1014148
+- http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+- http://securitytracker.com/id?1014148
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/Jun/msg00000.html
+
+#### 139. CVE-2005-1473 (N/A)
+
+**CVE ID**: CVE-2005-1473
+**Severity**: N/A CVSS: 4.6
+**Affected Products**: apple:mac_os_x
+
+**Description**:
+SecurityAgent in Apple Mac OS X 10.4.1 allows attackers with physical access to bypass the locked screensaver and launch background applications by opening a URL from a text input field.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00004.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/May/msg00004.html
+- http://lists.apple.com/archives/security-announce/2005/May/msg00004.html
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/May/msg00004.html
+
+#### 140. CVE-2005-1474 (N/A)
+
+**CVE ID**: CVE-2005-1474
+**Severity**: N/A CVSS: 7.5
+**Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**Description**:
+Dashboard in Apple Mac OS X 10.4.1 allows remote attackers to install widgets via Safari without prompting the user, a different vulnerability than CVE-2005-1933.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/May/msg00004.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/May/msg00004.html
+- http://www.securityfocus.com/bid/13694
+- http://lists.apple.com/archives/security-announce/2005/May/msg00004.html
+- http://www.securityfocus.com/bid/13694
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/May/msg00004.html
+
+#### 141. CVE-2005-1933 (N/A)
+
+**CVE ID**: CVE-2005-1933
+**Severity**: N/A CVSS: 7.5
+**Affected Products**: apple:mac_os_x
+
+**Description**:
+Dashboard in Apple Mac OS X Tiger 10.4 allows attackers to execute arbitrary commands by overriding the behavior of system widgets via a user widget with the same bundle identifier (CFBundleIdentifier), a different vulnerability than CVE-2005-1474.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/983429.
+
+**References**:
+- http://www.kb.cert.org/vuls/id/983429
+- http://www1.cs.columbia.edu/~aaron/files/widgets/
+- http://www.kb.cert.org/vuls/id/983429
+- http://www1.cs.columbia.edu/~aaron/files/widgets/
+
+> 📎 Source: http://www.kb.cert.org/vuls/id/983429
+
+#### 142. CVE-2005-2195 (N/A)
+
+**CVE ID**: CVE-2005-2195
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: apple:darwin_streaming_server
+
+**Description**:
+Apple Darwin Streaming Server 5.5 and earlier allows remote attackers to cause a denial of service (application crash) via a URL with a filename containing a .cgi extension and an MS-DOS device name such as AUX, CON, PRN, COM1, or LPT1, a different vulnerability than CVE-2003-0421 and CVE-2003-0502.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=112126999514361&w=2.
+
+**References**:
+- http://marc.info/?l=bugtraq&m=112126999514361&w=2
+- http://secunia.com/advisories/16056
+- http://securitytracker.com/id?1014474
+- http://secway.org/Advisory/AD20050713.txt
+- http://marc.info/?l=bugtraq&m=112126999514361&w=2
+
+> 📎 Source: http://marc.info/?l=bugtraq&m=112126999514361&w=2
+
+#### 143. CVE-2005-2196 (N/A)
+
+**CVE ID**: CVE-2005-2196
+**Severity**: N/A CVSS: 2.1
+**Affected Products**: apple:airport_card
+
+**Description**:
+The Apple AirPort card uses a default WEP key when not connected to a known or trusted network, which can cause it to automatically connect to a malicious network.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://securitytracker.com/id?1014522.
+
+**References**:
+- http://securitytracker.com/id?1014522
+- http://www.securityfocus.com/bid/14321
+- http://securitytracker.com/id?1014522
+- http://www.securityfocus.com/bid/14321
+
+> 📎 Source: http://securitytracker.com/id?1014522
+
+#### 144. CVE-2005-2594 (N/A)
+
+**CVE ID**: CVE-2005-2594
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: apple:safari
+
+**Description**:
+Apple Safari 1.3 (132) on Mac OS X 1.3.9 allows remote attackers to cause a denial of service (crash) via certain Javascript, possibly involving a function that defines a handler for itself within the function body.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/407702.
+
+**References**:
+- http://www.securityfocus.com/archive/1/407702
+- http://www.securityfocus.com/bid/14528
+- http://www.securityfocus.com/archive/1/407702
+- http://www.securityfocus.com/bid/14528
+
+> 📎 Source: http://www.securityfocus.com/archive/1/407702
+
+#### 145. CVE-2005-3018 (N/A)
+
+**CVE ID**: CVE-2005-3018
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: apple:safari
+
+**Description**:
+Apple Safari allows remote attackers to cause a denial of service (application crash) via a crafted data:// URL.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=112715234411672&w=2.
+
+**References**:
+- http://marc.info/?l=bugtraq&m=112715234411672&w=2
+- http://secunia.com/advisories/16875/
+- http://www.osvdb.org/19569
+- http://www.securityfocus.com/bid/14868
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/22331
+
+> 📎 Source: http://marc.info/?l=bugtraq&m=112715234411672&w=2
+
+#### 146. CVE-2005-2744 (N/A)
+
+**CVE ID**: CVE-2005-2744
+**Severity**: N/A CVSS: 5.1
+**Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**Description**:
+Buffer overflow in QuickDraw Manager for Apple OS X 10.3.9 and 10.4.2, as used by applications such as Safari, Mail, and Finder, allows remote attackers to execute arbitrary code via a crafted PICT file.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+- http://secunia.com/advisories/16920/
+- http://securitytracker.com/alerts/2005/Sep/1014961.html
+- http://www.auscert.org.au/5509
+- http://www.ciac.org/ciac/bulletins/p-312.shtml
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+
+#### 147. CVE-2005-2747 (N/A)
+
+**CVE ID**: CVE-2005-2747
+**Severity**: N/A CVSS: 7.5
+**Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**Description**:
+Buffer overflow in ImageIO for Apple Mac OS X 10.4.2, as used by applications such as WebCore and Safari, allows remote attackers to execute arbitrary code via a crafted GIF file.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+- http://secunia.com/advisories/16920/
+- http://securitytracker.com/alerts/2005/Sep/1014958.html
+- http://www.auscert.org.au/5509
+- http://www.ciac.org/ciac/bulletins/p-312.shtml
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+
+#### 148. CVE-2005-2748 (N/A)
+
+**CVE ID**: CVE-2005-2748
+**Severity**: N/A CVSS: 2.1
+**Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**Description**:
+The malloc function in the libSystem library in Apple Mac OS X 10.3.9 and 10.4.2 allows local users to overwrite arbitrary files by setting the MallocLogFile environment variable to the target file before running a setuid application.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+- http://secunia.com/advisories/16920/
+- http://www.auscert.org.au/5509
+- http://www.ciac.org/ciac/bulletins/p-312.shtml
+- http://www.suresec.org/advisories/adv7.pdf
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+
+#### 149. CVE-2005-2524 (N/A)
+
+**CVE ID**: CVE-2005-2524
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: apple:safari, apple:mac_os_x, apple:mac_os_x_server
+
+**Description**:
+Safari after 2.0 in Apple Mac OS X 10.3.9 allows remote attackers to bypass domain restrictions via crafted web archives that cause Safari to render them as if they came from a different site.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+- http://secunia.com/advisories/16920/
+- http://www.auscert.org.au/5509
+- http://www.ciac.org/ciac/bulletins/p-312.shtml
+- http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+
+#### 150. CVE-2005-2741 (N/A)
+
+**CVE ID**: CVE-2005-2741
+**Severity**: N/A CVSS: 7.2
+**Affected Products**: apple:mac_os_x, perry_kiehtreiber:securityd, apple:mac_os_x_server
+
+**Description**:
+Authorization Services in securityd for Apple Mac OS X 10.3.9 allows local users to gain privileges by granting themselves certain rights that should be restricted to administrators.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html.
+
+**References**:
+- http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+- http://secunia.com/advisories/16920/
+- http://www.auscert.org.au/5509
+- http://www.ciac.org/ciac/bulletins/p-312.shtml
+- http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
+
+> 📎 Source: http://lists.apple.com/archives/security-announce/2005/Sep/msg00002.html
 
 
 
