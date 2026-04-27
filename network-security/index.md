@@ -4717,3 +4717,9 @@ Refer to original article for detailed remediation and PoC analysis.
 - https://xz.aliyun.com/news/92013
 
 ---
+
+---
+
+**🔗 导航 / Navigation**
+
+- [返回首页 / Back to Home](../README.md)
