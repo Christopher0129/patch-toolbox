@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 07:07:11 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 07:23:22 UTC_
 
 ## 中文 🇨🇳
 **macOS 常见故障及解决方法**
@@ -23,7 +23,7 @@ _自动更新于 / Auto-updated: 2026-04-27 07:07:11 UTC_
 **标签 / 来源**: Tags: xcode, development, git, macos | apple | 👍 3062 | 💬 8 answers
 
 **问题描述**:
-Tags: xcode, development, git, macos | Score: 3062 | Views: 2593658 | Answers: 8
+Tags: xcode, development, git, macos | Score: 3062 | Views: 2593657 | Answers: 8
 
 **解决方法 / 社区答案**:
 Solution
@@ -54,7 +54,7 @@ You may get an error message: &quot;Can't install the software because it is not
 **标签 / 来源**: Tags: macos, command-line, homebrew, open-source | apple | 👍 1068 | 💬 11 answers
 
 **问题描述**:
-Tags: macos, command-line, homebrew, open-source | Score: 1068 | Views: 1439817 | Answers: 11
+Tags: macos, command-line, homebrew, open-source | Score: 1068 | Views: 1439800 | Answers: 11
 
 **解决方法 / 社区答案**:
 brew list and brew list --cask
@@ -72,7 +72,7 @@ If you wish to list casks only, brew list --cask will provide the items installe
 **标签 / 来源**: Tags: macos, kernel | apple | 👍 712 | 💬 16 answers
 
 **问题描述**:
-Tags: macos, kernel | Score: 712 | Views: 615535 | Answers: 16
+Tags: macos, kernel | Score: 712 | Views: 615529 | Answers: 16
 
 **解决方法 / 社区答案**:
 TLDR; If your MacBook Pro runs hot or shows a high % CPU for the kernel task, try charging on the right and not on the left.
@@ -116,7 +116,7 @@ Otherwise guessing and testing is the only way. Of course that leads to false co
 **标签 / 来源**: Tags: macos, keyboard, google-chrome | apple | 👍 654 | 💬 15 answers
 
 **问题描述**:
-Tags: macos, keyboard, google-chrome | Score: 654 | Views: 935264 | Answers: 15
+Tags: macos, keyboard, google-chrome | Score: 654 | Views: 935235 | Answers: 15
 
 **解决方法 / 社区答案**:
 UK Keyboard
@@ -151,7 +151,7 @@ You can use the alternative of  Ctrl ⌃   F4  [visible in the prefs window abov
 **标签 / 来源**: Tags: macos | apple | 👍 612 | 💬 159 answers
 
 **问题描述**:
-Tags: macos | Score: 612 | Views: 346413 | Answers: 159
+Tags: macos | Score: 612 | Views: 346411 | Answers: 159
 
 **解决方法 / 社区答案**:
 In any Finder window or Open/Save dialog, you can hit ⌘&#x21E7;G (just '/' also works in Open/Save) to get a location bar from which you can directly type in the directory to go to. It even supports ~ for home and tab completion.
@@ -182,7 +182,7 @@ Finder window.
 **标签 / 来源**: Tags: macos, keyboard | apple | 👍 587 | 💬 13 answers
 
 **问题描述**:
-Tags: macos, keyboard | Score: 587 | Views: 228307 | Answers: 13
+Tags: macos, keyboard | Score: 587 | Views: 228305 | Answers: 13
 
 **解决方法 / 社区答案**:
 The default shortcuts for moving to beginning or end of (wrapped) lines are ⌘← and ⌘→. ⌥↑ and ⌥↓ or ⌃A and ⌃E move to the beginning or end of unwrapped lines (or paragraphs). ⌥← and ⌥→ move backwards/forward by words, and all of these are compatible with holding Shift to select during the corresponding moves.
@@ -211,7 +211,7 @@ PS: You may need to logout and login again for the ~/Library/KeyBindings/Default
 **标签 / 来源**: Tags: macos, mac, spaces, mission-control | apple | 👍 539 | 💬 2 answers
 
 **问题描述**:
-Tags: macos, mac, spaces, mission-control | Score: 539 | Views: 207138 | Answers: 2
+Tags: macos, mac, spaces, mission-control | Score: 539 | Views: 207135 | Answers: 2
 
 **解决方法 / 社区答案**:
 General Solution
@@ -245,7 +245,7 @@ This echoes the behaviour of Cmd/Tab or equivalent in most operating systems, so
 **标签 / 来源**: Tags: macos, applications, command-line | apple | 👍 508 | 💬 1 answers
 
 **问题描述**:
-Tags: macos, applications, command-line | Score: 508 | Views: 865929 | Answers: 1
+Tags: macos, applications, command-line | Score: 508 | Views: 865919 | Answers: 1
 
 **解决方法 / 社区答案**:
 To open your current directory in Finder from Terminal, type open .
@@ -264,7 +264,7 @@ And so on.
 **标签 / 来源**: Tags: macbook-pro, macos, display, dock | apple | 👍 492 | 💬 8 answers
 
 **问题描述**:
-Tags: macbook-pro, macos, display, dock | Score: 492 | Views: 525766 | Answers: 8
+Tags: macbook-pro, macos, display, dock | Score: 492 | Views: 525764 | Answers: 8
 
 **解决方法 / 社区答案**:
 You can summon the Dock on a different display by moving the cursor to the bottom of the desired display, and then continuing moving down. It may be possible that this is occurring when you inadvertently perform that action.
@@ -281,7 +281,7 @@ I answered a similar question: cmd-tab behavior on Mavericks with multiple displ
 **标签 / 来源**: Tags: macos, command-line, file, symlink | apple | 👍 484 | 💬 7 answers
 
 **问题描述**:
-Tags: macos, command-line, file, symlink | Score: 484 | Views: 724809 | Answers: 7
+Tags: macos, command-line, file, symlink | Score: 484 | Views: 724804 | Answers: 7
 
 **解决方法 / 社区答案**:
 ┌── ln(1) link, ln -- make links
@@ -325,7 +325,7 @@ To create a symlink to replace a system directory (e.g. if you want to have /Use
 **标签 / 来源**: Tags: macos, network, command-line | apple | 👍 451 | 💬 11 answers
 
 **问题描述**:
-Tags: macos, network, command-line | Score: 451 | Views: 1668100 | Answers: 11
+Tags: macos, network, command-line | Score: 451 | Views: 1668068 | Answers: 11
 
 **解决方法 / 社区答案**:
 Local IP address
@@ -364,7 +364,7 @@ When you run this command, it queries the ns1.google.com DNS server for the TXT 
 **标签 / 来源**: Tags: macbook-pro, spotlight, cpu | apple | 👍 450 | 💬 15 answers
 
 **问题描述**:
-Tags: macbook-pro, spotlight, cpu | Score: 450 | Views: 679875 | Answers: 15
+Tags: macbook-pro, spotlight, cpu | Score: 450 | Views: 679863 | Answers: 15
 
 **解决方法 / 社区答案**:
 As you know, the mds and mds_stores are Spotlight activities.
@@ -533,7 +533,7 @@ NOTE: If you need help in selecting colors to use you can use this online tool c
 **标签 / 来源**: Tags: terminal, bash, zsh, macos | apple | 👍 389 | 💬 4 answers
 
 **问题描述**:
-Tags: terminal, bash, zsh, macos | Score: 389 | Views: 337252 | Answers: 4
+Tags: terminal, bash, zsh, macos | Score: 389 | Views: 337244 | Answers: 4
 
 **解决方法 / 社区答案**:
 First, some important things:
@@ -667,7 +667,7 @@ An extensive collection of articles on switching to zsh on the mac can be found 
 **标签 / 来源**: Tags: macos, network, command-line | apple | 👍 375 | 💬 7 answers
 
 **问题描述**:
-Tags: macos, network, command-line | Score: 375 | Views: 1062791 | Answers: 7
+Tags: macos, network, command-line | Score: 375 | Views: 1062787 | Answers: 7
 
 **解决方法 / 社区答案**:
 netstat -anvp tcp | awk 'NR&lt;3 || /LISTEN/'
@@ -884,7 +884,7 @@ Now Apple has released the real fix, though this might still be useful. Because 
 **标签 / 来源**: Tags: macos, software-recommendation, image-editing | apple | 👍 365 | 💬 19 answers
 
 **问题描述**:
-Tags: macos, software-recommendation, image-editing | Score: 365 | Views: 884017 | Answers: 19
+Tags: macos, software-recommendation, image-editing | Score: 365 | Views: 884013 | Answers: 19
 
 **解决方法 / 社区答案**:
 I often have to do this with images of plots of data.  I use the command line tools that come in the Imagemagick package; I think I installed it on my system with MacPorts. You could also choose to install with brew (brew install imagemagick).
@@ -955,7 +955,7 @@ echo 'export PATH=&quot;/usr/local/opt/node@14/bin:$PATH&quot;' &gt;&gt; ~/.zshr
 **标签 / 来源**: Tags: macos, spaces | apple | 👍 352 | 💬 6 answers
 
 **问题描述**:
-Tags: macos, spaces | Score: 352 | Views: 135253 | Answers: 6
+Tags: macos, spaces | Score: 352 | Views: 135252 | Answers: 6
 
 **解决方法 / 社区答案**:
 I posted a bug on Radar#28495374 and here is the response from Apple:
@@ -1008,7 +1008,7 @@ it will work a bit better. From the scutil(8) man page:
 **标签 / 来源**: Tags: macos, temperature, command-line, monitoring | apple | 👍 324 | 💬 14 answers
 
 **问题描述**:
-Tags: macos, temperature, command-line, monitoring | Score: 324 | Views: 574590 | Answers: 14
+Tags: macos, temperature, command-line, monitoring | Score: 324 | Views: 574587 | Answers: 14
 
 **解决方法 / 社区答案**:
 Option #1) you may consider using inbuilt utility powermetrics to get the cpu and gpu temperature and lot more other details.
@@ -1039,7 +1039,7 @@ Result Screen:
 **标签 / 来源**: Tags: macos | apple | 👍 323 | 💬 3 answers
 
 **问题描述**:
-Tags: macos | Score: 323 | Views: 200604 | Answers: 3
+Tags: macos | Score: 323 | Views: 200602 | Answers: 3
 
 **解决方法 / 社区答案**:
 ⌘ CMD+⇧ SHIFT+. reveals hidden files in Finder and Open/Save dialogs.
@@ -1062,7 +1062,7 @@ Editing hidden files can be dangerous if you don't know what you're doing.
 **标签 / 来源**: Tags: macos, finder, file | apple | 👍 321 | 💬 32 answers
 
 **问题描述**:
-Tags: macos, finder, file | Score: 321 | Views: 609451 | Answers: 32
+Tags: macos, finder, file | Score: 321 | Views: 609446 | Answers: 32
 
 **解决方法 / 社区答案**:
 You can also do this in Terminal. Go to the directory where you want to create the file, then run the following:
@@ -1118,7 +1118,7 @@ Now everything is being reindexed as expected.
 **标签 / 来源**: Tags: macos, internationalization, keyboard | apple | 👍 303 | 💬 17 answers
 
 **问题描述**:
-Tags: macos, internationalization, keyboard | Score: 303 | Views: 354806 | Answers: 17
+Tags: macos, internationalization, keyboard | Score: 303 | Views: 354805 | Answers: 17
 
 **解决方法 / 社区答案**:
 If you're just looking for the Unicode versions of Mac OS X keys, you can use this Apple support document to copy and paste them:
@@ -1216,7 +1216,7 @@ cd ~/Library/Preferences &amp;&amp; sudo find com.apple.finder.plist* -exec rm {
 **标签 / 来源**: Tags: macos, homebrew | apple | 👍 279 | 💬 15 answers
 
 **问题描述**:
-Tags: macos, homebrew | Score: 279 | Views: 651618 | Answers: 15
+Tags: macos, homebrew | Score: 279 | Views: 651613 | Answers: 15
 
 **解决方法 / 社区答案**:
 Use the following to show the installation path of a package:
@@ -1245,7 +1245,7 @@ From: https://github.com/Homebrew/homebrew/blob/master/Library/Formula/pcre.rb
 **标签 / 来源**: Tags: macos, command-line, unix, utilities | apple | 👍 278 | 💬 7 answers
 
 **问题描述**:
-Tags: macos, command-line, unix, utilities | Score: 278 | Views: 215465 | Answers: 7
+Tags: macos, command-line, unix, utilities | Score: 278 | Views: 215462 | Answers: 7
 
 **解决方法 / 社区答案**:
 This adds symlinks for GNU utilities with g prefix to /usr/local/bin/:
@@ -1285,7 +1285,7 @@ the "gnuman" directory to your MANPATH from your bashrc as well:
 **标签 / 来源**: Tags: macos, file | apple | 👍 275 | 💬 14 answers
 
 **问题描述**:
-Tags: macos, file | Score: 275 | Views: 394187 | Answers: 14
+Tags: macos, file | Score: 275 | Views: 394181 | Answers: 14
 
 **解决方法 / 社区答案**:
 You can't avoid them (but see the dot_clean answer by Saeid Zebardast --they can be removed from a directory if that is what you need).  They're created to store file information that would otherwise go into an extended attribute on HFS+ (Apple native) or Unix/UFS volumes; in earlier Mac OS this would be the resource fork.  Finder file operations will create them automatically to store the icon information, plus Time Machine stores some information in them so if you copy a file backed up via TM it will have that information copied as well.
@@ -1302,7 +1302,7 @@ You can't avoid them (but see the dot_clean answer by Saeid Zebardast --they can
 **标签 / 来源**: Tags: macos, command-line, terminal, textedit | apple | 👍 273 | 💬 5 answers
 
 **问题描述**:
-Tags: macos, command-line, terminal, textedit | Score: 273 | Views: 538175 | Answers: 5
+Tags: macos, command-line, terminal, textedit | Score: 273 | Views: 538174 | Answers: 5
 
 **解决方法 / 社区答案**:
 open -a TextEdit filename should do the trick.
@@ -1322,7 +1322,7 @@ Other relevant options
 **标签 / 来源**: Tags: macos, mac, password, sudo, touch-id | apple | 👍 272 | 💬 14 answers
 
 **问题描述**:
-Tags: macos, mac, password, sudo, touch-id | Score: 272 | Views: 118536 | Answers: 14
+Tags: macos, mac, password, sudo, touch-id | Score: 272 | Views: 118530 | Answers: 14
 
 **解决方法 / 社区答案**:
 To allow TouchID on your Mac to authenticate you for sudo access instead of a password you need to do the following.
@@ -1420,7 +1420,7 @@ sudo hdiutil compact /Volumes/drive_name/Backups.backupdb/mac_name.sparsebundle
 **标签 / 来源**: Tags: macos, unix, root, sip | apple | 👍 265 | 💬 3 answers
 
 **问题描述**:
-Tags: macos, unix, root, sip | Score: 265 | Views: 186445 | Answers: 3
+Tags: macos, unix, root, sip | Score: 265 | Views: 186444 | Answers: 3
 
 **解决方法 / 社区答案**:
 First: the name &quot;rootless&quot; is misleading, since there's still a root account, and you can still access it (the official name, &quot;System Integrity Protection&quot;, is more accurate). What it really does is limit the power of the root account, so that even if you become root, you don't have full control over the system. Essentially, the idea is that it's too easy for malware to get root access (e.g. by presenting an auth dialog to the user, which will cause the user to reflexively enter the admin password). SIP adds another layer of protection, which malware can't penetrate even if it gets root. The bad part of this, of course, it that it must also apply to things you're doing intentionally. But the restrictions it places on root aren't that bad; they don't prevent most &quot;normal&quot; system customization.
@@ -1550,7 +1550,7 @@ You notice the change of behaviour of the button in the way it changes its conte
 **标签 / 来源**: Tags: terminal, password, ssh, macos | apple | 👍 230 | 💬 11 answers
 
 **问题描述**:
-Tags: terminal, password, ssh, macos | Score: 230 | Views: 175527 | Answers: 11
+Tags: terminal, password, ssh, macos | Score: 230 | Views: 175526 | Answers: 11
 
 **解决方法 / 社区答案**:
 As of macOS Sierra 10.12.2 Apple added an ssh_config option called UseKeychain which allows a 'proper' resolution to the problem. Add the following to your ~/.ssh/config file:
@@ -1573,16 +1573,10 @@ On macOS, specifies whether the system should search for passphrases in the user
 **标签 / 来源**: Tags: macos, high-sierra, spaces | apple | 👍 229 | 💬 21 answers
 
 **问题描述**:
-Tags: macos, high-sierra, spaces | Score: 229 | Views: 262534 | Answers: 21
+Tags: macos, high-sierra, spaces | Score: 229 | Views: 262531 | Answers: 21
 
 **解决方法 / 社区答案**:
-21 Answers
-21
-Sorted by:
-Reset to default
-Highest score (default)
-Date modified (newest first)
-Date created (oldest first)
+Refer to the original page for detailed solutions and community answers.
 
 **参考链接**: https://apple.stackexchange.com/questions/211954/how-can-i-rename-desktops-spaces-in-macos
 
@@ -1617,7 +1611,7 @@ Both the Command and left Option keys must be pressed on the same side (left or 
 **标签 / 来源**: Tags: macos, terminal, command-line, bash | apple | 👍 224 | 💬 6 answers
 
 **问题描述**:
-Tags: macos, terminal, command-line, bash | Score: 224 | Views: 1264169 | Answers: 6
+Tags: macos, terminal, command-line, bash | Score: 224 | Views: 1264163 | Answers: 6
 
 **解决方法 / 社区答案**:
 Open Terminal, type in sh /path/to/file and press enter. 
@@ -1657,7 +1651,7 @@ Then from the &quot;File&quot; menu choose &quot;Export Selected Images&quot; (o
 **标签 / 来源**: Tags: terminal, command-line, macos, bash | apple | 👍 216 | 💬 5 answers
 
 **问题描述**:
-Tags: terminal, command-line, macos, bash | Score: 216 | Views: 100044 | Answers: 5
+Tags: terminal, command-line, macos, bash | Score: 216 | Views: 100043 | Answers: 5
 
 **解决方法 / 社区答案**:
 I found the solution on reddit. The solution is also mentioned in the &quot;How to use a different shell without changing the default&quot; section of the Apple support article mentioned in the bash warning: https://support.apple.com/en-us/HT208050/.
@@ -1695,7 +1689,7 @@ Other emoji have Unicode hex numbers with 5 characters, such as Grinning Face U+
 **标签 / 来源**: Tags: macos, usb | apple | 👍 212 | 💬 2 answers
 
 **问题描述**:
-Tags: macos, usb | Score: 212 | Views: 565199 | Answers: 2
+Tags: macos, usb | Score: 212 | Views: 565190 | Answers: 2
 
 **解决方法 / 社区答案**:
 In addition to system_profiler SPUSBDataType (suggested by @kjs), you can also use ioreg -p IOUSB:
@@ -1751,7 +1745,7 @@ IR Receiver
 **标签 / 来源**: Tags: macos, finder, switching, contextual-menu | apple | 👍 212 | 💬 12 answers
 
 **问题描述**:
-Tags: macos, finder, switching, contextual-menu | Score: 212 | Views: 200053 | Answers: 12
+Tags: macos, finder, switching, contextual-menu | Score: 212 | Views: 200052 | Answers: 12
 
 **解决方法 / 社区答案**:
 Keyboard method: Cmd-C then Opt-Cmd-V does the cut&amp;paste for files on Mac. 
@@ -1770,7 +1764,7 @@ Menu method: It's not part of the Apple menu system to 'cut' files.  The menu Cu
 **标签 / 来源**: Tags: macos, hard-drive, file | apple | 👍 211 | 💬 6 answers
 
 **问题描述**:
-Tags: macos, hard-drive, file | Score: 211 | Views: 761143 | Answers: 6
+Tags: macos, hard-drive, file | Score: 211 | Views: 761133 | Answers: 6
 
 **解决方法 / 社区答案**:
 It's generally safe, though a little dangerous depending, to do it but often not worth the effort.
@@ -1793,7 +1787,7 @@ Of course the best way to clear the caches is to install AppleJack and do it wit
 **标签 / 来源**: Tags: macos, zsh, environment-variables | apple | 👍 209 | 💬 1 answers
 
 **问题描述**:
-Tags: macos, zsh, environment-variables | Score: 209 | Views: 274068 | Answers: 1
+Tags: macos, zsh, environment-variables | Score: 209 | Views: 274065 | Answers: 1
 
 **解决方法 / 社区答案**:
 This is an attempt to write a canonical QA for this issue, as per the Meta post:  Where is the list of canonical questions stored for Ask Different? I expect it to be periodically edited with the goal of becoming a comprehensive information resource.
@@ -1847,7 +1841,7 @@ Auto-updated hourly from Stack Exchange: common MACOS issues and community-verif
 **Tags / Source**: Tags: xcode, development, git, macos | apple | 👍 3062 | 💬 8 answers
 
 **Description**:
-Tags: xcode, development, git, macos | Score: 3062 | Views: 2593658 | Answers: 8
+Tags: xcode, development, git, macos | Score: 3062 | Views: 2593657 | Answers: 8
 
 **Solution / Community Answer**:
 Solution
@@ -1878,7 +1872,7 @@ You may get an error message: &quot;Can't install the software because it is not
 **Tags / Source**: Tags: macos, command-line, homebrew, open-source | apple | 👍 1068 | 💬 11 answers
 
 **Description**:
-Tags: macos, command-line, homebrew, open-source | Score: 1068 | Views: 1439817 | Answers: 11
+Tags: macos, command-line, homebrew, open-source | Score: 1068 | Views: 1439800 | Answers: 11
 
 **Solution / Community Answer**:
 brew list and brew list --cask
@@ -1896,7 +1890,7 @@ If you wish to list casks only, brew list --cask will provide the items installe
 **Tags / Source**: Tags: macos, kernel | apple | 👍 712 | 💬 16 answers
 
 **Description**:
-Tags: macos, kernel | Score: 712 | Views: 615535 | Answers: 16
+Tags: macos, kernel | Score: 712 | Views: 615529 | Answers: 16
 
 **Solution / Community Answer**:
 TLDR; If your MacBook Pro runs hot or shows a high % CPU for the kernel task, try charging on the right and not on the left.
@@ -1940,7 +1934,7 @@ Otherwise guessing and testing is the only way. Of course that leads to false co
 **Tags / Source**: Tags: macos, keyboard, google-chrome | apple | 👍 654 | 💬 15 answers
 
 **Description**:
-Tags: macos, keyboard, google-chrome | Score: 654 | Views: 935264 | Answers: 15
+Tags: macos, keyboard, google-chrome | Score: 654 | Views: 935235 | Answers: 15
 
 **Solution / Community Answer**:
 UK Keyboard
@@ -1975,7 +1969,7 @@ You can use the alternative of  Ctrl ⌃   F4  [visible in the prefs window abov
 **Tags / Source**: Tags: macos | apple | 👍 612 | 💬 159 answers
 
 **Description**:
-Tags: macos | Score: 612 | Views: 346413 | Answers: 159
+Tags: macos | Score: 612 | Views: 346411 | Answers: 159
 
 **Solution / Community Answer**:
 In any Finder window or Open/Save dialog, you can hit ⌘&#x21E7;G (just '/' also works in Open/Save) to get a location bar from which you can directly type in the directory to go to. It even supports ~ for home and tab completion.
@@ -2006,7 +2000,7 @@ Finder window.
 **Tags / Source**: Tags: macos, keyboard | apple | 👍 587 | 💬 13 answers
 
 **Description**:
-Tags: macos, keyboard | Score: 587 | Views: 228307 | Answers: 13
+Tags: macos, keyboard | Score: 587 | Views: 228305 | Answers: 13
 
 **Solution / Community Answer**:
 The default shortcuts for moving to beginning or end of (wrapped) lines are ⌘← and ⌘→. ⌥↑ and ⌥↓ or ⌃A and ⌃E move to the beginning or end of unwrapped lines (or paragraphs). ⌥← and ⌥→ move backwards/forward by words, and all of these are compatible with holding Shift to select during the corresponding moves.
@@ -2035,7 +2029,7 @@ PS: You may need to logout and login again for the ~/Library/KeyBindings/Default
 **Tags / Source**: Tags: macos, mac, spaces, mission-control | apple | 👍 539 | 💬 2 answers
 
 **Description**:
-Tags: macos, mac, spaces, mission-control | Score: 539 | Views: 207138 | Answers: 2
+Tags: macos, mac, spaces, mission-control | Score: 539 | Views: 207135 | Answers: 2
 
 **Solution / Community Answer**:
 General Solution
@@ -2069,7 +2063,7 @@ This echoes the behaviour of Cmd/Tab or equivalent in most operating systems, so
 **Tags / Source**: Tags: macos, applications, command-line | apple | 👍 508 | 💬 1 answers
 
 **Description**:
-Tags: macos, applications, command-line | Score: 508 | Views: 865929 | Answers: 1
+Tags: macos, applications, command-line | Score: 508 | Views: 865919 | Answers: 1
 
 **Solution / Community Answer**:
 To open your current directory in Finder from Terminal, type open .
@@ -2088,7 +2082,7 @@ And so on.
 **Tags / Source**: Tags: macbook-pro, macos, display, dock | apple | 👍 492 | 💬 8 answers
 
 **Description**:
-Tags: macbook-pro, macos, display, dock | Score: 492 | Views: 525766 | Answers: 8
+Tags: macbook-pro, macos, display, dock | Score: 492 | Views: 525764 | Answers: 8
 
 **Solution / Community Answer**:
 You can summon the Dock on a different display by moving the cursor to the bottom of the desired display, and then continuing moving down. It may be possible that this is occurring when you inadvertently perform that action.
@@ -2105,7 +2099,7 @@ I answered a similar question: cmd-tab behavior on Mavericks with multiple displ
 **Tags / Source**: Tags: macos, command-line, file, symlink | apple | 👍 484 | 💬 7 answers
 
 **Description**:
-Tags: macos, command-line, file, symlink | Score: 484 | Views: 724809 | Answers: 7
+Tags: macos, command-line, file, symlink | Score: 484 | Views: 724804 | Answers: 7
 
 **Solution / Community Answer**:
 ┌── ln(1) link, ln -- make links
@@ -2149,7 +2143,7 @@ To create a symlink to replace a system directory (e.g. if you want to have /Use
 **Tags / Source**: Tags: macos, network, command-line | apple | 👍 451 | 💬 11 answers
 
 **Description**:
-Tags: macos, network, command-line | Score: 451 | Views: 1668100 | Answers: 11
+Tags: macos, network, command-line | Score: 451 | Views: 1668068 | Answers: 11
 
 **Solution / Community Answer**:
 Local IP address
@@ -2188,7 +2182,7 @@ When you run this command, it queries the ns1.google.com DNS server for the TXT 
 **Tags / Source**: Tags: macbook-pro, spotlight, cpu | apple | 👍 450 | 💬 15 answers
 
 **Description**:
-Tags: macbook-pro, spotlight, cpu | Score: 450 | Views: 679875 | Answers: 15
+Tags: macbook-pro, spotlight, cpu | Score: 450 | Views: 679863 | Answers: 15
 
 **Solution / Community Answer**:
 As you know, the mds and mds_stores are Spotlight activities.
@@ -2357,7 +2351,7 @@ NOTE: If you need help in selecting colors to use you can use this online tool c
 **Tags / Source**: Tags: terminal, bash, zsh, macos | apple | 👍 389 | 💬 4 answers
 
 **Description**:
-Tags: terminal, bash, zsh, macos | Score: 389 | Views: 337252 | Answers: 4
+Tags: terminal, bash, zsh, macos | Score: 389 | Views: 337244 | Answers: 4
 
 **Solution / Community Answer**:
 First, some important things:
@@ -2491,7 +2485,7 @@ An extensive collection of articles on switching to zsh on the mac can be found 
 **Tags / Source**: Tags: macos, network, command-line | apple | 👍 375 | 💬 7 answers
 
 **Description**:
-Tags: macos, network, command-line | Score: 375 | Views: 1062791 | Answers: 7
+Tags: macos, network, command-line | Score: 375 | Views: 1062787 | Answers: 7
 
 **Solution / Community Answer**:
 netstat -anvp tcp | awk 'NR&lt;3 || /LISTEN/'
@@ -2708,7 +2702,7 @@ Now Apple has released the real fix, though this might still be useful. Because 
 **Tags / Source**: Tags: macos, software-recommendation, image-editing | apple | 👍 365 | 💬 19 answers
 
 **Description**:
-Tags: macos, software-recommendation, image-editing | Score: 365 | Views: 884017 | Answers: 19
+Tags: macos, software-recommendation, image-editing | Score: 365 | Views: 884013 | Answers: 19
 
 **Solution / Community Answer**:
 I often have to do this with images of plots of data.  I use the command line tools that come in the Imagemagick package; I think I installed it on my system with MacPorts. You could also choose to install with brew (brew install imagemagick).
@@ -2779,7 +2773,7 @@ echo 'export PATH=&quot;/usr/local/opt/node@14/bin:$PATH&quot;' &gt;&gt; ~/.zshr
 **Tags / Source**: Tags: macos, spaces | apple | 👍 352 | 💬 6 answers
 
 **Description**:
-Tags: macos, spaces | Score: 352 | Views: 135253 | Answers: 6
+Tags: macos, spaces | Score: 352 | Views: 135252 | Answers: 6
 
 **Solution / Community Answer**:
 I posted a bug on Radar#28495374 and here is the response from Apple:
@@ -2832,7 +2826,7 @@ it will work a bit better. From the scutil(8) man page:
 **Tags / Source**: Tags: macos, temperature, command-line, monitoring | apple | 👍 324 | 💬 14 answers
 
 **Description**:
-Tags: macos, temperature, command-line, monitoring | Score: 324 | Views: 574590 | Answers: 14
+Tags: macos, temperature, command-line, monitoring | Score: 324 | Views: 574587 | Answers: 14
 
 **Solution / Community Answer**:
 Option #1) you may consider using inbuilt utility powermetrics to get the cpu and gpu temperature and lot more other details.
@@ -2863,7 +2857,7 @@ Result Screen:
 **Tags / Source**: Tags: macos | apple | 👍 323 | 💬 3 answers
 
 **Description**:
-Tags: macos | Score: 323 | Views: 200604 | Answers: 3
+Tags: macos | Score: 323 | Views: 200602 | Answers: 3
 
 **Solution / Community Answer**:
 ⌘ CMD+⇧ SHIFT+. reveals hidden files in Finder and Open/Save dialogs.
@@ -2886,7 +2880,7 @@ Editing hidden files can be dangerous if you don't know what you're doing.
 **Tags / Source**: Tags: macos, finder, file | apple | 👍 321 | 💬 32 answers
 
 **Description**:
-Tags: macos, finder, file | Score: 321 | Views: 609451 | Answers: 32
+Tags: macos, finder, file | Score: 321 | Views: 609446 | Answers: 32
 
 **Solution / Community Answer**:
 You can also do this in Terminal. Go to the directory where you want to create the file, then run the following:
@@ -2942,7 +2936,7 @@ Now everything is being reindexed as expected.
 **Tags / Source**: Tags: macos, internationalization, keyboard | apple | 👍 303 | 💬 17 answers
 
 **Description**:
-Tags: macos, internationalization, keyboard | Score: 303 | Views: 354806 | Answers: 17
+Tags: macos, internationalization, keyboard | Score: 303 | Views: 354805 | Answers: 17
 
 **Solution / Community Answer**:
 If you're just looking for the Unicode versions of Mac OS X keys, you can use this Apple support document to copy and paste them:
@@ -3040,7 +3034,7 @@ cd ~/Library/Preferences &amp;&amp; sudo find com.apple.finder.plist* -exec rm {
 **Tags / Source**: Tags: macos, homebrew | apple | 👍 279 | 💬 15 answers
 
 **Description**:
-Tags: macos, homebrew | Score: 279 | Views: 651618 | Answers: 15
+Tags: macos, homebrew | Score: 279 | Views: 651613 | Answers: 15
 
 **Solution / Community Answer**:
 Use the following to show the installation path of a package:
@@ -3069,7 +3063,7 @@ From: https://github.com/Homebrew/homebrew/blob/master/Library/Formula/pcre.rb
 **Tags / Source**: Tags: macos, command-line, unix, utilities | apple | 👍 278 | 💬 7 answers
 
 **Description**:
-Tags: macos, command-line, unix, utilities | Score: 278 | Views: 215465 | Answers: 7
+Tags: macos, command-line, unix, utilities | Score: 278 | Views: 215462 | Answers: 7
 
 **Solution / Community Answer**:
 This adds symlinks for GNU utilities with g prefix to /usr/local/bin/:
@@ -3109,7 +3103,7 @@ the "gnuman" directory to your MANPATH from your bashrc as well:
 **Tags / Source**: Tags: macos, file | apple | 👍 275 | 💬 14 answers
 
 **Description**:
-Tags: macos, file | Score: 275 | Views: 394187 | Answers: 14
+Tags: macos, file | Score: 275 | Views: 394181 | Answers: 14
 
 **Solution / Community Answer**:
 You can't avoid them (but see the dot_clean answer by Saeid Zebardast --they can be removed from a directory if that is what you need).  They're created to store file information that would otherwise go into an extended attribute on HFS+ (Apple native) or Unix/UFS volumes; in earlier Mac OS this would be the resource fork.  Finder file operations will create them automatically to store the icon information, plus Time Machine stores some information in them so if you copy a file backed up via TM it will have that information copied as well.
@@ -3126,7 +3120,7 @@ You can't avoid them (but see the dot_clean answer by Saeid Zebardast --they can
 **Tags / Source**: Tags: macos, command-line, terminal, textedit | apple | 👍 273 | 💬 5 answers
 
 **Description**:
-Tags: macos, command-line, terminal, textedit | Score: 273 | Views: 538175 | Answers: 5
+Tags: macos, command-line, terminal, textedit | Score: 273 | Views: 538174 | Answers: 5
 
 **Solution / Community Answer**:
 open -a TextEdit filename should do the trick.
@@ -3146,7 +3140,7 @@ Other relevant options
 **Tags / Source**: Tags: macos, mac, password, sudo, touch-id | apple | 👍 272 | 💬 14 answers
 
 **Description**:
-Tags: macos, mac, password, sudo, touch-id | Score: 272 | Views: 118536 | Answers: 14
+Tags: macos, mac, password, sudo, touch-id | Score: 272 | Views: 118530 | Answers: 14
 
 **Solution / Community Answer**:
 To allow TouchID on your Mac to authenticate you for sudo access instead of a password you need to do the following.
@@ -3244,7 +3238,7 @@ sudo hdiutil compact /Volumes/drive_name/Backups.backupdb/mac_name.sparsebundle
 **Tags / Source**: Tags: macos, unix, root, sip | apple | 👍 265 | 💬 3 answers
 
 **Description**:
-Tags: macos, unix, root, sip | Score: 265 | Views: 186445 | Answers: 3
+Tags: macos, unix, root, sip | Score: 265 | Views: 186444 | Answers: 3
 
 **Solution / Community Answer**:
 First: the name &quot;rootless&quot; is misleading, since there's still a root account, and you can still access it (the official name, &quot;System Integrity Protection&quot;, is more accurate). What it really does is limit the power of the root account, so that even if you become root, you don't have full control over the system. Essentially, the idea is that it's too easy for malware to get root access (e.g. by presenting an auth dialog to the user, which will cause the user to reflexively enter the admin password). SIP adds another layer of protection, which malware can't penetrate even if it gets root. The bad part of this, of course, it that it must also apply to things you're doing intentionally. But the restrictions it places on root aren't that bad; they don't prevent most &quot;normal&quot; system customization.
@@ -3374,7 +3368,7 @@ You notice the change of behaviour of the button in the way it changes its conte
 **Tags / Source**: Tags: terminal, password, ssh, macos | apple | 👍 230 | 💬 11 answers
 
 **Description**:
-Tags: terminal, password, ssh, macos | Score: 230 | Views: 175527 | Answers: 11
+Tags: terminal, password, ssh, macos | Score: 230 | Views: 175526 | Answers: 11
 
 **Solution / Community Answer**:
 As of macOS Sierra 10.12.2 Apple added an ssh_config option called UseKeychain which allows a 'proper' resolution to the problem. Add the following to your ~/.ssh/config file:
@@ -3397,16 +3391,10 @@ On macOS, specifies whether the system should search for passphrases in the user
 **Tags / Source**: Tags: macos, high-sierra, spaces | apple | 👍 229 | 💬 21 answers
 
 **Description**:
-Tags: macos, high-sierra, spaces | Score: 229 | Views: 262534 | Answers: 21
+Tags: macos, high-sierra, spaces | Score: 229 | Views: 262531 | Answers: 21
 
 **Solution / Community Answer**:
-21 Answers
-21
-Sorted by:
-Reset to default
-Highest score (default)
-Date modified (newest first)
-Date created (oldest first)
+Refer to the original page for detailed solutions and community answers.
 
 **Reference**: https://apple.stackexchange.com/questions/211954/how-can-i-rename-desktops-spaces-in-macos
 
@@ -3441,7 +3429,7 @@ Both the Command and left Option keys must be pressed on the same side (left or 
 **Tags / Source**: Tags: macos, terminal, command-line, bash | apple | 👍 224 | 💬 6 answers
 
 **Description**:
-Tags: macos, terminal, command-line, bash | Score: 224 | Views: 1264169 | Answers: 6
+Tags: macos, terminal, command-line, bash | Score: 224 | Views: 1264163 | Answers: 6
 
 **Solution / Community Answer**:
 Open Terminal, type in sh /path/to/file and press enter. 
@@ -3481,7 +3469,7 @@ Then from the &quot;File&quot; menu choose &quot;Export Selected Images&quot; (o
 **Tags / Source**: Tags: terminal, command-line, macos, bash | apple | 👍 216 | 💬 5 answers
 
 **Description**:
-Tags: terminal, command-line, macos, bash | Score: 216 | Views: 100044 | Answers: 5
+Tags: terminal, command-line, macos, bash | Score: 216 | Views: 100043 | Answers: 5
 
 **Solution / Community Answer**:
 I found the solution on reddit. The solution is also mentioned in the &quot;How to use a different shell without changing the default&quot; section of the Apple support article mentioned in the bash warning: https://support.apple.com/en-us/HT208050/.
@@ -3519,7 +3507,7 @@ Other emoji have Unicode hex numbers with 5 characters, such as Grinning Face U+
 **Tags / Source**: Tags: macos, usb | apple | 👍 212 | 💬 2 answers
 
 **Description**:
-Tags: macos, usb | Score: 212 | Views: 565199 | Answers: 2
+Tags: macos, usb | Score: 212 | Views: 565190 | Answers: 2
 
 **Solution / Community Answer**:
 In addition to system_profiler SPUSBDataType (suggested by @kjs), you can also use ioreg -p IOUSB:
@@ -3575,7 +3563,7 @@ IR Receiver
 **Tags / Source**: Tags: macos, finder, switching, contextual-menu | apple | 👍 212 | 💬 12 answers
 
 **Description**:
-Tags: macos, finder, switching, contextual-menu | Score: 212 | Views: 200053 | Answers: 12
+Tags: macos, finder, switching, contextual-menu | Score: 212 | Views: 200052 | Answers: 12
 
 **Solution / Community Answer**:
 Keyboard method: Cmd-C then Opt-Cmd-V does the cut&amp;paste for files on Mac. 
@@ -3594,7 +3582,7 @@ Menu method: It's not part of the Apple menu system to 'cut' files.  The menu Cu
 **Tags / Source**: Tags: macos, hard-drive, file | apple | 👍 211 | 💬 6 answers
 
 **Description**:
-Tags: macos, hard-drive, file | Score: 211 | Views: 761143 | Answers: 6
+Tags: macos, hard-drive, file | Score: 211 | Views: 761133 | Answers: 6
 
 **Solution / Community Answer**:
 It's generally safe, though a little dangerous depending, to do it but often not worth the effort.
@@ -3617,7 +3605,7 @@ Of course the best way to clear the caches is to install AppleJack and do it wit
 **Tags / Source**: Tags: macos, zsh, environment-variables | apple | 👍 209 | 💬 1 answers
 
 **Description**:
-Tags: macos, zsh, environment-variables | Score: 209 | Views: 274068 | Answers: 1
+Tags: macos, zsh, environment-variables | Score: 209 | Views: 274065 | Answers: 1
 
 **Solution / Community Answer**:
 This is an attempt to write a canonical QA for this issue, as per the Meta post:  Where is the list of canonical questions stored for Ask Different? I expect it to be periodically edited with the goal of becoming a comprehensive information resource.

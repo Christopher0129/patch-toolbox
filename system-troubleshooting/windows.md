@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 07:02:56 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 07:08:55 UTC_
 
 ## 中文 🇨🇳
 **Windows 常见故障及解决方法**
@@ -23,7 +23,7 @@ _自动更新于 / Auto-updated: 2026-04-27 07:02:56 UTC_
 **标签 / 来源**: Tags: windows, filesystems, process, community-faq-proposed | superuser | 👍 1331 | 💬 16 answers
 
 **问题描述**:
-Tags: windows, filesystems, process, community-faq-proposed | Score: 1331 | Views: 2068516 | Answers: 16
+Tags: windows, filesystems, process, community-faq-proposed | Score: 1331 | Views: 2068517 | Answers: 16
 
 **解决方法 / 社区答案**:
 You can use the Resource Monitor for this which comes built-in with Windows 7, 8, 10 and 11!
@@ -89,7 +89,7 @@ For Windows specifically, it's worth mentioning that you can use A: and B: as th
 **标签 / 来源**: Tags: windows-7, windows, command-line, environment-variables | superuser | 👍 833 | 💬 8 answers
 
 **问题描述**:
-Tags: windows-7, windows, command-line, environment-variables | Score: 833 | Views: 3005027 | Answers: 8
+Tags: windows-7, windows, command-line, environment-variables | Score: 833 | Views: 3005029 | Answers: 8
 
 **解决方法 / 社区答案**:
 In Windows Command-Prompt the syntax is echo %PATH%
@@ -278,7 +278,7 @@ If this is still not helping to search for new updates, use WSUSOffline to get a
 **标签 / 来源**: Tags: windows-10, bash, windows-subsystem-for-linux | superuser | 👍 526 | 💬 11 answers
 
 **问题描述**:
-Tags: windows-10, bash, windows-subsystem-for-linux | Score: 526 | Views: 1498456 | Answers: 11
+Tags: windows-10, bash, windows-subsystem-for-linux | Score: 526 | Views: 1498457 | Answers: 11
 
 **解决方法 / 社区答案**:
 In the latest versions [2025 WSL2], the file system is accessed from:
@@ -462,7 +462,7 @@ to start a command shell as a administrator
 **标签 / 来源**: Tags: windows, telnet | superuser | 👍 512 | 💬 6 answers
 
 **问题描述**:
-Tags: windows, telnet | Score: 512 | Views: 910609 | Answers: 6
+Tags: windows, telnet | Score: 512 | Views: 910610 | Answers: 6
 
 **解决方法 / 社区答案**:
 It should have printed something along the lines of:
@@ -728,7 +728,7 @@ SOLUTION: rmdir on the other hand will only delete the directory link, not what 
 **标签 / 来源**: Tags: windows, file-management | superuser | 👍 433 | 💬 25 answers
 
 **问题描述**:
-Tags: windows, file-management | Score: 433 | Views: 568440 | Answers: 25
+Tags: windows, file-management | Score: 433 | Views: 568441 | Answers: 25
 
 **解决方法 / 社区答案**:
 Use the 7-Zip File Manager to delete them.  
@@ -1125,7 +1125,7 @@ WinDirStat is a port of KDirStat for Linux. It's free, lightweight, small (650kb
 **标签 / 来源**: Tags: windows, powershell | superuser | 👍 318 | 💬 6 answers
 
 **问题描述**:
-Tags: windows, powershell | Score: 318 | Views: 257712 | Answers: 6
+Tags: windows, powershell | Score: 318 | Views: 257714 | Answers: 6
 
 **解决方法 / 社区答案**:
 Use the Get-Command commandlet passing it the name of the executable. It populates the Path property of the returned object (of type ApplicationInfo) with the fully resolved path to the executable. 
@@ -1747,7 +1747,7 @@ Auto-updated hourly from Stack Exchange: common WINDOWS issues and community-ver
 **Tags / Source**: Tags: windows, filesystems, process, community-faq-proposed | superuser | 👍 1331 | 💬 16 answers
 
 **Description**:
-Tags: windows, filesystems, process, community-faq-proposed | Score: 1331 | Views: 2068516 | Answers: 16
+Tags: windows, filesystems, process, community-faq-proposed | Score: 1331 | Views: 2068517 | Answers: 16
 
 **Solution / Community Answer**:
 You can use the Resource Monitor for this which comes built-in with Windows 7, 8, 10 and 11!
@@ -1813,7 +1813,7 @@ For Windows specifically, it's worth mentioning that you can use A: and B: as th
 **Tags / Source**: Tags: windows-7, windows, command-line, environment-variables | superuser | 👍 833 | 💬 8 answers
 
 **Description**:
-Tags: windows-7, windows, command-line, environment-variables | Score: 833 | Views: 3005027 | Answers: 8
+Tags: windows-7, windows, command-line, environment-variables | Score: 833 | Views: 3005029 | Answers: 8
 
 **Solution / Community Answer**:
 In Windows Command-Prompt the syntax is echo %PATH%
@@ -2002,7 +2002,7 @@ If this is still not helping to search for new updates, use WSUSOffline to get a
 **Tags / Source**: Tags: windows-10, bash, windows-subsystem-for-linux | superuser | 👍 526 | 💬 11 answers
 
 **Description**:
-Tags: windows-10, bash, windows-subsystem-for-linux | Score: 526 | Views: 1498456 | Answers: 11
+Tags: windows-10, bash, windows-subsystem-for-linux | Score: 526 | Views: 1498457 | Answers: 11
 
 **Solution / Community Answer**:
 In the latest versions [2025 WSL2], the file system is accessed from:
@@ -2186,7 +2186,7 @@ to start a command shell as a administrator
 **Tags / Source**: Tags: windows, telnet | superuser | 👍 512 | 💬 6 answers
 
 **Description**:
-Tags: windows, telnet | Score: 512 | Views: 910609 | Answers: 6
+Tags: windows, telnet | Score: 512 | Views: 910610 | Answers: 6
 
 **Solution / Community Answer**:
 It should have printed something along the lines of:
@@ -2452,7 +2452,7 @@ SOLUTION: rmdir on the other hand will only delete the directory link, not what 
 **Tags / Source**: Tags: windows, file-management | superuser | 👍 433 | 💬 25 answers
 
 **Description**:
-Tags: windows, file-management | Score: 433 | Views: 568440 | Answers: 25
+Tags: windows, file-management | Score: 433 | Views: 568441 | Answers: 25
 
 **Solution / Community Answer**:
 Use the 7-Zip File Manager to delete them.  
@@ -2849,7 +2849,7 @@ WinDirStat is a port of KDirStat for Linux. It's free, lightweight, small (650kb
 **Tags / Source**: Tags: windows, powershell | superuser | 👍 318 | 💬 6 answers
 
 **Description**:
-Tags: windows, powershell | Score: 318 | Views: 257712 | Answers: 6
+Tags: windows, powershell | Score: 318 | Views: 257714 | Answers: 6
 
 **Solution / Community Answer**:
 Use the Get-Command commandlet passing it the name of the executable. It populates the Path property of the returned object (of type ApplicationInfo) with the fully resolved path to the executable. 

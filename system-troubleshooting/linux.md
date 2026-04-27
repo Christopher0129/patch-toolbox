@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 07:04:26 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 07:16:02 UTC_
 
 ## 中文 🇨🇳
 **Linux 常见故障及解决方法**
@@ -23,7 +23,7 @@ _自动更新于 / Auto-updated: 2026-04-27 07:04:26 UTC_
 **标签 / 来源**: Tags: linux, ls | unix | 👍 936 | 💬 2 answers
 
 **问题描述**:
-Tags: linux, ls | Score: 936 | Views: 2451293 | Answers: 2
+Tags: linux, ls | Score: 936 | Views: 2451295 | Answers: 2
 
 **解决方法 / 社区答案**:
 ls -l --block-size=M will give you a long format listing (needed to actually see the file size) and round file sizes up to the nearest MiB.
@@ -48,7 +48,7 @@ Note that both --block-size and -h are GNU extensions on top of the Open Group's
 **标签 / 来源**: Tags: linux, process, ip, netstat | unix | 👍 831 | 💬 8 answers
 
 **问题描述**:
-Tags: linux, process, ip, netstat | Score: 831 | Views: 2194674 | Answers: 8
+Tags: linux, process, ip, netstat | Score: 831 | Views: 2194675 | Answers: 8
 
 **解决方法 / 社区答案**:
 Your existing command doesn't work because Linux requires you to either be root or the owner of the process to get the information you desire.
@@ -196,7 +196,7 @@ Type=wayland
 **标签 / 来源**: Tags: linux, backup, tar | unix | 👍 505 | 💬 2 answers
 
 **问题描述**:
-Tags: linux, backup, tar | Score: 505 | Views: 1359554 | Answers: 2
+Tags: linux, backup, tar | Score: 505 | Views: 1359556 | Answers: 2
 
 **解决方法 / 社区答案**:
 To tar and gzip a folder, the syntax is:
@@ -464,7 +464,7 @@ The find command will recursively find all files in all sub directories of . and
 **标签 / 来源**: Tags: linux, cpu | unix | 👍 384 | 💬 12 answers
 
 **问题描述**:
-Tags: linux, cpu | Score: 384 | Views: 815340 | Answers: 12
+Tags: linux, cpu | Score: 384 | Views: 815341 | Answers: 12
 
 **解决方法 / 社区答案**:
 To get a complete picture you need to look at the number of threads per core, cores per socket and sockets. If you multiply these numbers you will get the number of CPUs on your system.
@@ -830,7 +830,7 @@ myip.opendns.com.   0   IN  A   80.100.192.168
 **标签 / 来源**: Tags: linux, filesystems, find, rm | unix | 👍 318 | 💬 2 answers
 
 **问题描述**:
-Tags: linux, filesystems, find, rm | Score: 318 | Views: 291416 | Answers: 2
+Tags: linux, filesystems, find, rm | Score: 318 | Views: 291417 | Answers: 2
 
 **解决方法 / 社区答案**:
 The find command is the primary tool for recursive file system operations.
@@ -914,7 +914,7 @@ System: CentOS 7
 **标签 / 来源**: Tags: linux, storage | unix | 👍 303 | 💬 13 answers
 
 **问题描述**:
-Tags: linux, storage | Score: 303 | Views: 1002579 | Answers: 13
+Tags: linux, storage | Score: 303 | Views: 1002580 | Answers: 13
 
 **解决方法 / 社区答案**:
 There's a tool called blkid (use it as root or with sudo), 
@@ -1560,7 +1560,7 @@ without creating a new file system on that partition.
 **标签 / 来源**: Tags: linux, shell-script, distributions | unix | 👍 257 | 💬 21 answers
 
 **问题描述**:
-Tags: linux, shell-script, distributions | Score: 257 | Views: 364822 | Answers: 21
+Tags: linux, shell-script, distributions | Score: 257 | Views: 364824 | Answers: 21
 
 **解决方法 / 社区答案**:
 To get OS and VER, the latest standard seems to be /etc/os-release. 
@@ -2214,7 +2214,7 @@ How to Recover Corrupt jpeg and mov Files from a Digital Camera's SDD Card on Fe
 **标签 / 来源**: Tags: linux, size | unix | 👍 196 | 💬 21 answers
 
 **问题描述**:
-Tags: linux, size | Score: 196 | Views: 336781 | Answers: 21
+Tags: linux, size | Score: 196 | Views: 336782 | Answers: 21
 
 **解决方法 / 社区答案**:
 blockdev --getsize64 /dev/sda returns size in bytes.
@@ -2264,7 +2264,7 @@ Auto-updated hourly from Stack Exchange: common LINUX issues and community-verif
 **Tags / Source**: Tags: linux, ls | unix | 👍 936 | 💬 2 answers
 
 **Description**:
-Tags: linux, ls | Score: 936 | Views: 2451293 | Answers: 2
+Tags: linux, ls | Score: 936 | Views: 2451295 | Answers: 2
 
 **Solution / Community Answer**:
 ls -l --block-size=M will give you a long format listing (needed to actually see the file size) and round file sizes up to the nearest MiB.
@@ -2289,7 +2289,7 @@ Note that both --block-size and -h are GNU extensions on top of the Open Group's
 **Tags / Source**: Tags: linux, process, ip, netstat | unix | 👍 831 | 💬 8 answers
 
 **Description**:
-Tags: linux, process, ip, netstat | Score: 831 | Views: 2194674 | Answers: 8
+Tags: linux, process, ip, netstat | Score: 831 | Views: 2194675 | Answers: 8
 
 **Solution / Community Answer**:
 Your existing command doesn't work because Linux requires you to either be root or the owner of the process to get the information you desire.
@@ -2437,7 +2437,7 @@ Type=wayland
 **Tags / Source**: Tags: linux, backup, tar | unix | 👍 505 | 💬 2 answers
 
 **Description**:
-Tags: linux, backup, tar | Score: 505 | Views: 1359554 | Answers: 2
+Tags: linux, backup, tar | Score: 505 | Views: 1359556 | Answers: 2
 
 **Solution / Community Answer**:
 To tar and gzip a folder, the syntax is:
@@ -2705,7 +2705,7 @@ The find command will recursively find all files in all sub directories of . and
 **Tags / Source**: Tags: linux, cpu | unix | 👍 384 | 💬 12 answers
 
 **Description**:
-Tags: linux, cpu | Score: 384 | Views: 815340 | Answers: 12
+Tags: linux, cpu | Score: 384 | Views: 815341 | Answers: 12
 
 **Solution / Community Answer**:
 To get a complete picture you need to look at the number of threads per core, cores per socket and sockets. If you multiply these numbers you will get the number of CPUs on your system.
@@ -3071,7 +3071,7 @@ myip.opendns.com.   0   IN  A   80.100.192.168
 **Tags / Source**: Tags: linux, filesystems, find, rm | unix | 👍 318 | 💬 2 answers
 
 **Description**:
-Tags: linux, filesystems, find, rm | Score: 318 | Views: 291416 | Answers: 2
+Tags: linux, filesystems, find, rm | Score: 318 | Views: 291417 | Answers: 2
 
 **Solution / Community Answer**:
 The find command is the primary tool for recursive file system operations.
@@ -3155,7 +3155,7 @@ System: CentOS 7
 **Tags / Source**: Tags: linux, storage | unix | 👍 303 | 💬 13 answers
 
 **Description**:
-Tags: linux, storage | Score: 303 | Views: 1002579 | Answers: 13
+Tags: linux, storage | Score: 303 | Views: 1002580 | Answers: 13
 
 **Solution / Community Answer**:
 There's a tool called blkid (use it as root or with sudo), 
@@ -3801,7 +3801,7 @@ without creating a new file system on that partition.
 **Tags / Source**: Tags: linux, shell-script, distributions | unix | 👍 257 | 💬 21 answers
 
 **Description**:
-Tags: linux, shell-script, distributions | Score: 257 | Views: 364822 | Answers: 21
+Tags: linux, shell-script, distributions | Score: 257 | Views: 364824 | Answers: 21
 
 **Solution / Community Answer**:
 To get OS and VER, the latest standard seems to be /etc/os-release. 
@@ -4455,7 +4455,7 @@ How to Recover Corrupt jpeg and mov Files from a Digital Camera's SDD Card on Fe
 **Tags / Source**: Tags: linux, size | unix | 👍 196 | 💬 21 answers
 
 **Description**:
-Tags: linux, size | Score: 196 | Views: 336781 | Answers: 21
+Tags: linux, size | Score: 196 | Views: 336782 | Answers: 21
 
 **Solution / Community Answer**:
 blockdev --getsize64 /dev/sda returns size in bytes.
