@@ -55,10 +55,8 @@ dedup.db
 # Agent logs & temp reports (entire directory)
 agents/
 
-# Scripts — 保留 vector_search 模块和 CLI 工具，排除自动化/敏感脚本
+# Scripts — 保留核心模块，排除敏感/自动化脚本
 scripts/__pycache__/
-scripts/utils.py
-scripts/agent_*.py
 scripts/migrate_to_sqlite.py
 scripts/run_all.py
 scripts/cron_*.sh
