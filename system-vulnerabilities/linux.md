@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 04:00:26 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 04:27:22 UTC_
 
 ## 中文 🇨🇳
 **Linux 系统漏洞**
@@ -114,7 +114,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 **CVE编号**: CVE-1999-1186
 **严重程度**: N/A CVSS: 7.2
-受影响产品: redhat:linux, slackware:slackware_linux, rxvt:rxvt
+受影响产品: redhat:linux, rxvt:rxvt, slackware:slackware_linux
 
 **漏洞描述**:
 rxvt, when compiled with the PRINT_PIPE option in various Linux operating systems including Linux Slackware 3.0 and RedHat 2.1, allows local users to gain root privileges by specifying a malicious program using the -print-pipe command line parameter.
@@ -150,7 +150,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 **CVE编号**: CVE-1999-0032
 **严重程度**: N/A CVSS: 7.2
-受影响产品: sgi:irix, bsdi:bsd_os, freebsd:freebsd, sun:sunos, next:nextstep
+受影响产品: sun:sunos, bsdi:bsd_os, freebsd:freebsd, sgi:irix, next:nextstep
 
 **漏洞描述**:
 Buffer overflow in lpr, as used in BSD-based systems including Linux, allows local users to execute arbitrary code as root via a long -C (classification) command line option.
@@ -171,7 +171,7 @@ Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/adv
 
 **CVE编号**: CVE-1999-1299
 **严重程度**: N/A CVSS: 10.0
-受影响产品: slackware:slackware_linux, redhat:linux
+受影响产品: redhat:linux, slackware:slackware_linux
 
 **漏洞描述**:
 rcp on various Linux systems including Red Hat 4.0 allows a "nobody" user or other user with UID of 65535 to overwrite arbitrary files, since 65535 is interpreted as -1 by chown and other system calls, which causes the calls to fail to modify the ownership of the file.
@@ -248,7 +248,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602167420731&w=
 
 **CVE编号**: CVE-1999-1182
 **严重程度**: N/A CVSS: 7.2
-受影响产品: caldera:openlinux_lite, delix:dld, lst:lst_power_linux, suse:suse_linux, debian:debian_linux
+受影响产品: debian:debian_linux, suse:suse_linux, caldera:openlinux_lite, delix:dld, lst:lst_power_linux
 
 **漏洞描述**:
 Buffer overflow in run-time linkers (1) ld.so or (2) ld-linux.so for Linux systems allows local users to gain privileges by calling a setuid program with a long program name (argv[0]) and forcing ld.so/ld-linux.so to report an error.
@@ -269,7 +269,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602661419318&w=
 
 **CVE编号**: CVE-1999-1225
 **严重程度**: N/A CVSS: 5.0
-受影响产品: openbsd:openbsd, digital:ultrix, linux:linux_kernel, sun:solaris, netbsd:netbsd
+受影响产品: openbsd:openbsd, digital:ultrix, netbsd:netbsd, linux:linux_kernel, sun:solaris
 
 **漏洞描述**:
 rpc.mountd on Linux, Ultrix, and possibly other operating systems, allows remote attackers to determine the existence of a file on the server by attempting to mount that file, which generates different error messages depending on whether the file exists or not.
@@ -289,7 +289,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/7526.
 
 **CVE编号**: CVE-1999-0183
 **严重程度**: N/A CVSS: 6.4
-受影响产品: tftp:tftp, linux:linux_kernel
+受影响产品: linux:linux_kernel, tftp:tftp
 
 **漏洞描述**:
 Linux implementations of TFTP would allow access to files outside the restricted directory.
@@ -307,7 +307,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 **CVE编号**: CVE-1999-0216
 **严重程度**: N/A CVSS: 5.0
-受影响产品: gnu:inet, linux:linux_kernel, hp:hp-ux
+受影响产品: linux:linux_kernel, gnu:inet, hp:hp-ux
 
 **漏洞描述**:
 Denial of service of inetd on Linux through SYN and RST packets.
@@ -558,7 +558,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90786656409618&w=
 
 **CVE编号**: CVE-1999-0002
 **严重程度**: N/A CVSS: 10.0
-受影响产品: caldera:openlinux, bsdi:bsd_os, redhat:linux
+受影响产品: redhat:linux, caldera:openlinux, bsdi:bsd_os
 
 **漏洞描述**:
 Buffer overflow in NFS mountd gives root access to remote attackers, mostly in Linux systems.
@@ -597,7 +597,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 **CVE编号**: CVE-1999-0798
 **严重程度**: N/A CVSS: 10.0
-受影响产品: sco:internet_faststart, openbsd:openbsd, bsdi:bsd_os, freebsd:freebsd, sco:unixware
+受影响产品: openbsd:openbsd, sco:openserver, bsdi:bsd_os, sco:internet_faststart, redhat:linux
 
 **漏洞描述**:
 Buffer overflow in bootpd on OpenBSD, FreeBSD, and Linux systems via a malformed header type.
@@ -671,7 +671,7 @@ Apply patch from vendor. Monitor http://www.geocrawler.com/archives/3/92/1996/9/
 
 **CVE编号**: CVE-1999-0398
 **严重程度**: N/A CVSS: 4.6
-受影响产品: ssh:ssh2, ssh:ssh
+受影响产品: ssh:ssh, ssh:ssh2
 
 **漏洞描述**:
 In some instances of SSH 1.2.27 and 2.0.11 on Linux systems, SSH will allow users with expired accounts to login.
@@ -743,7 +743,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/324.
 
 **CVE编号**: CVE-1999-0390
 **严重程度**: N/A CVSS: 7.2
-受影响产品: suse:suse_linux, redhat:linux
+受影响产品: redhat:linux, suse:suse_linux
 
 **漏洞描述**:
 Buffer overflow in Dosemu Slang library in Linux.
@@ -817,7 +817,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/344.
 
 **CVE编号**: CVE-1999-0461
 **严重程度**: N/A CVSS: 10.0
-受影响产品: sgi:irix, linux:linux_kernel
+受影响产品: linux:linux_kernel, sgi:irix
 
 **漏洞描述**:
 Versions of rpcbind including Linux, IRIX, and Wietse Venema's rpcbind allow a remote attacker to insert and delete entries by spoofing a source address.
@@ -962,6 +962,978 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 > 📎 来源 / Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0414
 
+#### 51. CVE-1999-0426 (CRITICAL)
+
+**CVE编号**: CVE-1999-0426
+**严重程度**: CRITICAL CVSS: 9.8
+受影响产品: suse:suse_linux
+
+**漏洞描述**:
+The default permissions of /dev/kmem in Linux versions before 2.0.36 allows IP spoofing.
+
+**应对措施**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0426.
+
+**参考链接**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0426
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0426
+
+> 📎 来源 / Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0426
+
+#### 52. CVE-1999-0431 (N/A)
+
+**CVE编号**: CVE-1999-0431
+**严重程度**: N/A CVSS: 5.0
+受影响产品: linux:linux_kernel
+
+**漏洞描述**:
+Linux 2.2.3 and earlier allow a remote attacker to perform an IP fragmentation attack, causing a denial of service.
+
+**应对措施**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0431.
+
+**参考链接**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0431
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0431
+
+> 📎 来源 / Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0431
+
+#### 53. CVE-1999-0409 (N/A)
+
+**CVE编号**: CVE-1999-0409
+**严重程度**: N/A CVSS: 4.6
+受影响产品: suse:suse_linux
+
+**漏洞描述**:
+Buffer overflow in gnuplot in Linux version 3.5 allows local users to obtain root access.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/319.
+
+**参考链接**:
+- http://www.securityfocus.com/bid/319
+- http://www.securityfocus.com/bid/319
+
+> 📎 来源 / Source: http://www.securityfocus.com/bid/319
+
+#### 54. CVE-1999-0421 (N/A)
+
+**CVE编号**: CVE-1999-0421
+**严重程度**: N/A CVSS: 7.2
+受影响产品: slackware:slackware_linux
+
+**漏洞描述**:
+During a reboot after an installation of Linux Slackware 3.6, a remote attacker can obtain root access by logging in to the root account without a password.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.osvdb.org/981.
+
+**参考链接**:
+- http://www.osvdb.org/981
+- http://www.securityfocus.com/bid/338
+- http://www.osvdb.org/981
+- http://www.securityfocus.com/bid/338
+
+> 📎 来源 / Source: http://www.osvdb.org/981
+
+#### 55. CVE-1999-0462 (N/A)
+
+**CVE编号**: CVE-1999-0462
+**严重程度**: N/A CVSS: 7.2
+受影响产品: suse:suse_linux
+
+**漏洞描述**:
+suidperl in Linux Perl does not check the nosuid mount option on file systems, allowing local users to gain root access by placing a setuid script in a mountable file system, e.g. a CD-ROM or floppy disk.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/339.
+
+**参考链接**:
+- http://www.securityfocus.com/bid/339
+- http://www.securityfocus.com/bid/339
+
+> 📎 来源 / Source: http://www.securityfocus.com/bid/339
+
+#### 56. CVE-1999-0804 (N/A)
+
+**CVE编号**: CVE-1999-0804
+**严重程度**: N/A CVSS: 5.0
+受影响产品: debian:debian_linux, linux:linux_kernel, redhat:linux, suse:suse_linux
+
+**漏洞描述**:
+Denial of service in Linux 2.2.x kernels via malformed ICMP packets containing unusual types, codes, and IP header lengths.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/302.
+
+**参考链接**:
+- http://www.securityfocus.com/bid/302
+- http://www.securityfocus.com/bid/302
+
+> 📎 来源 / Source: http://www.securityfocus.com/bid/302
+
+#### 57. CVE-2000-0364 (N/A)
+
+**CVE编号**: CVE-2000-0364
+**严重程度**: N/A CVSS: 4.6
+受影响产品: redhat:linux
+
+**漏洞描述**:
+screen and rxvt in Red Hat Linux 6.0 do not properly set the modes of tty devices, which allows local users to write to other ttys.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=92877527701347&w=2.
+
+**参考链接**:
+- http://marc.info/?l=bugtraq&m=92877527701347&w=2
+- http://marc.info/?l=bugtraq&m=92886009012161&w=2
+- http://www.redhat.com/corp/support/errata/RHSA1999014_01.html
+- http://www.securityfocus.com/bid/309
+- http://marc.info/?l=bugtraq&m=92877527701347&w=2
+
+> 📎 来源 / Source: http://marc.info/?l=bugtraq&m=92877527701347&w=2
+
+#### 58. CVE-2000-0365 (N/A)
+
+**CVE编号**: CVE-2000-0365
+**严重程度**: N/A CVSS: 4.6
+受影响产品: redhat:linux
+
+**漏洞描述**:
+Red Hat Linux 6.0 installs the /dev/pts file system with insecure modes, which allows local users to write to other tty devices.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=92877527701347&w=2.
+
+**参考链接**:
+- http://marc.info/?l=bugtraq&m=92877527701347&w=2
+- http://marc.info/?l=bugtraq&m=92886009012161&w=2
+- http://www.redhat.com/corp/support/errata/RHSA1999014_01.html
+- http://www.securityfocus.com/bid/308
+- http://marc.info/?l=bugtraq&m=92877527701347&w=2
+
+> 📎 来源 / Source: http://marc.info/?l=bugtraq&m=92877527701347&w=2
+
+#### 59. CVE-1999-1496 (N/A)
+
+**CVE编号**: CVE-1999-1496
+**严重程度**: N/A CVSS: 2.1
+受影响产品: debian:debian_linux, redhat:linux, todd_miller:sudo
+
+**漏洞描述**:
+Sudo 1.5 in Debian Linux 2.1 and Red Hat 6.0 allows local users to determine the existence of arbitrary files by attempting to execute the target filename as a program, which generates a different error message when the file does not exist.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/14665.
+
+**参考链接**:
+- http://www.securityfocus.com/archive/1/14665
+- http://www.securityfocus.com/bid/321
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/2277
+- http://www.securityfocus.com/archive/1/14665
+- http://www.securityfocus.com/bid/321
+
+> 📎 来源 / Source: http://www.securityfocus.com/archive/1/14665
+
+#### 60. CVE-2000-0118 (N/A)
+
+**CVE编号**: CVE-2000-0118
+**严重程度**: N/A CVSS: 7.2
+受影响产品: redhat:linux, sun:solaris, sun:sunos
+
+**漏洞描述**:
+The Red Hat Linux su program does not log failed password guesses if the su process is killed before it times out, which allows local attackers to conduct brute force password guessing.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=94935300520617&w=2.
+
+**参考链接**:
+- http://marc.info/?l=bugtraq&m=94935300520617&w=2
+- http://marc.info/?l=bugtraq&m=94935300520617&w=2
+
+> 📎 来源 / Source: http://marc.info/?l=bugtraq&m=94935300520617&w=2
+
+#### 61. CVE-1999-0733 (N/A)
+
+**CVE编号**: CVE-1999-0733
+**严重程度**: N/A CVSS: 7.2
+受影响产品: vmware:workstation
+
+**漏洞描述**:
+Buffer overflow in VMWare 1.0.1 for Linux via a long HOME environmental variable.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/490.
+
+**参考链接**:
+- http://www.securityfocus.com/bid/490
+- http://www.securityfocus.com/bid/490
+
+> 📎 来源 / Source: http://www.securityfocus.com/bid/490
+
+#### 62. CVE-1999-1348 (N/A)
+
+**CVE编号**: CVE-1999-1348
+**严重程度**: N/A CVSS: 2.1
+受影响产品: redhat:linux
+
+**漏洞描述**:
+Linuxconf on Red Hat Linux 6.0 and earlier does not properly disable PAM-based access to the shutdown command, which could allow local users to cause a denial of service.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93220073515880&w=2.
+
+**参考链接**:
+- http://marc.info/?l=bugtraq&m=93220073515880&w=2
+- http://marc.info/?l=bugtraq&m=93220073515880&w=2
+
+> 📎 来源 / Source: http://marc.info/?l=bugtraq&m=93220073515880&w=2
+
+#### 63. CVE-1999-1166 (N/A)
+
+**CVE编号**: CVE-1999-1166
+**严重程度**: N/A CVSS: 7.2
+受影响产品: linux:linux_kernel
+
+**漏洞描述**:
+Linux 2.0.37 does not properly encode the Custom segment limit, which allows local users to gain root privileges by accessing and modifying kernel memory.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/18156.
+
+**参考链接**:
+- http://www.securityfocus.com/archive/1/18156
+- http://www.securityfocus.com/bid/523
+- http://www.securityfocus.com/archive/1/18156
+- http://www.securityfocus.com/bid/523
+
+> 📎 来源 / Source: http://www.securityfocus.com/archive/1/18156
+
+#### 64. CVE-1999-0710 (N/A)
+
+**CVE编号**: CVE-1999-0710
+**严重程度**: N/A CVSS: 7.5
+受影响产品: redhat:linux
+
+**漏洞描述**:
+The Squid package in Red Hat Linux 5.2 and 6.0, and other distributions, installs cachemgr.cgi in a public web directory, which allows remote attackers to use it as an intermediary to connect to other systems.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://fedoranews.org/updates/FEDORA--.shtml.
+
+**参考链接**:
+- http://fedoranews.org/updates/FEDORA--.shtml
+- http://www.debian.org/security/2004/dsa-576
+- http://www.redhat.com/archives/fedora-announce-list/2005-May/msg00025.html
+- http://www.redhat.com/support/errata/RHSA-1999-025.html
+- http://www.redhat.com/support/errata/RHSA-2005-489.html
+
+> 📎 来源 / Source: http://fedoranews.org/updates/FEDORA--.shtml
+
+#### 65. CVE-1999-1018 (N/A)
+
+**CVE编号**: CVE-1999-1018
+**严重程度**: N/A CVSS: 7.5
+受影响产品: linux:linux_kernel
+
+**漏洞描述**:
+IPChains in Linux kernels 2.2.10 and earlier does not reassemble IP fragments before checking the header information, which allows a remote attacker to bypass the filtering rules using several fragments with 0 offsets.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93312523904591&w=2.
+
+**参考链接**:
+- http://marc.info/?l=bugtraq&m=93312523904591&w=2
+- http://www.securityfocus.com/bid/543
+- http://marc.info/?l=bugtraq&m=93312523904591&w=2
+- http://www.securityfocus.com/bid/543
+
+> 📎 来源 / Source: http://marc.info/?l=bugtraq&m=93312523904591&w=2
+
+#### 66. CVE-1999-0746 (N/A)
+
+**CVE编号**: CVE-1999-0746
+**严重程度**: N/A CVSS: 5.0
+受影响产品: suse:suse_linux, slackware:slackware_linux
+
+**漏洞描述**:
+A default configuration of in.identd in SuSE Linux waits 120 seconds between requests, allowing a remote attacker to conduct a denial of service.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/587.
+
+**参考链接**:
+- http://www.securityfocus.com/bid/587
+- http://www.securityfocus.com/bid/587
+
+> 📎 来源 / Source: http://www.securityfocus.com/bid/587
+
+#### 67. CVE-1999-0740 (N/A)
+
+**CVE编号**: CVE-1999-0740
+**严重程度**: N/A CVSS: 6.4
+受影响产品: redhat:linux
+
+**漏洞描述**:
+Remote attackers can cause a denial of service on Linux in.telnetd telnet daemon through a malformed TERM environmental variable.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/594.
+
+**参考链接**:
+- http://www.securityfocus.com/bid/594
+- http://www.securityfocus.com/bid/594
+
+> 📎 来源 / Source: http://www.securityfocus.com/bid/594
+
+#### 68. CVE-2000-0374 (N/A)
+
+**CVE编号**: CVE-2000-0374
+**严重程度**: N/A CVSS: 10.0
+受影响产品: caldera:openlinux
+
+**漏洞描述**:
+The default configuration of kdm in Caldera and Mandrake Linux, and possibly other distributions, allows XDMCP connections from any host, which allows remote attackers to obtain sensitive information or bypass additional access restrictions.
+
+**应对措施**:
+Apply patch from vendor. Monitor ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-021.0.txt.
+
+**参考链接**:
+- ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-021.0.txt
+- http://frontal2.mandriva.com/security/advisories?name=MDKSA-2002:025
+- http://www.securityfocus.com/bid/1446
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/4856
+- ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-021.0.txt
+
+> 📎 来源 / Source: ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-021.0.txt
+
+#### 69. CVE-1999-0720 (N/A)
+
+**CVE编号**: CVE-1999-0720
+**严重程度**: N/A CVSS: 4.6
+受影响产品: linux:linux_kernel
+
+**漏洞描述**:
+The pt_chown command in Linux allows local users to modify TTY terminal devices that belong to other users.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/597.
+
+**参考链接**:
+- http://www.securityfocus.com/bid/597
+- http://www.securityfocus.com/templates/archive.pike?list=1&msg=lcamtuf.4.05.9907041223290.355-300000%40nimue.ids.pl
+- http://www.securityfocus.com/bid/597
+- http://www.securityfocus.com/templates/archive.pike?list=1&msg=lcamtuf.4.05.9907041223290.355-300000%40nimue.ids.pl
+
+> 📎 来源 / Source: http://www.securityfocus.com/bid/597
+
+#### 70. CVE-1999-0769 (N/A)
+
+**CVE编号**: CVE-1999-0769
+**严重程度**: N/A CVSS: 7.2
+受影响产品: debian:debian_linux, redhat:linux, caldera:openlinux, paul_vixie:vixie_cron
+
+**漏洞描述**:
+Vixie Cron on Linux systems allows local users to set parameters of sendmail commands via the MAILTO environmental variable.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/611.
+
+**参考链接**:
+- http://www.securityfocus.com/bid/611
+- http://www.securityfocus.com/bid/611
+
+> 📎 来源 / Source: http://www.securityfocus.com/bid/611
+
+#### 71. CVE-1999-0704 (N/A)
+
+**CVE编号**: CVE-1999-0704
+**严重程度**: N/A CVSS: 9.3
+受影响产品: redhat:linux, freebsd:freebsd, bsdi:bsd_os
+
+**漏洞描述**:
+Buffer overflow in Berkeley automounter daemon (amd) logging facility provided in the Linux am-utils package and others.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/614.
+
+**参考链接**:
+- http://www.securityfocus.com/bid/614
+- http://www.securityfocus.com/bid/614
+
+> 📎 来源 / Source: http://www.securityfocus.com/bid/614
+
+#### 72. CVE-1999-1352 (N/A)
+
+**CVE编号**: CVE-1999-1352
+**严重程度**: N/A CVSS: 4.6
+受影响产品: linux:linux_kernel
+
+**漏洞描述**:
+mknod in Linux 2.2 follows symbolic links, which could allow local users to overwrite files or gain privileges.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93855134409747&w=2.
+
+**参考链接**:
+- http://marc.info/?l=bugtraq&m=93855134409747&w=2
+- http://marc.info/?l=bugtraq&m=93855134409747&w=2
+
+> 📎 来源 / Source: http://marc.info/?l=bugtraq&m=93855134409747&w=2
+
+#### 73. CVE-1999-1346 (N/A)
+
+**CVE编号**: CVE-1999-1346
+**严重程度**: N/A CVSS: 7.5
+受影响产品: redhat:linux
+
+**漏洞描述**:
+PAM configuration file for rlogin in Red Hat Linux 6.1 and earlier includes a less restrictive rule before a more restrictive one, which allows users to access the host via rlogin even if rlogin has been explicitly disabled using the /etc/nologin file.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93942774609925&w=2.
+
+**参考链接**:
+- http://marc.info/?l=bugtraq&m=93942774609925&w=2
+- http://marc.info/?l=bugtraq&m=93942774609925&w=2
+
+> 📎 来源 / Source: http://marc.info/?l=bugtraq&m=93942774609925&w=2
+
+#### 74. CVE-1999-1347 (N/A)
+
+**CVE编号**: CVE-1999-1347
+**严重程度**: N/A CVSS: 4.6
+受影响产品: redhat:linux
+
+**漏洞描述**:
+Xsession in Red Hat Linux 6.1 and earlier can allow local users with restricted accounts to bypass execution of the .xsession file by starting kde, gnome or anotherlevel from kdm.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93942774609925&w=2.
+
+**参考链接**:
+- http://marc.info/?l=bugtraq&m=93942774609925&w=2
+- http://marc.info/?l=bugtraq&m=93942774609925&w=2
+
+> 📎 来源 / Source: http://marc.info/?l=bugtraq&m=93942774609925&w=2
+
+#### 75. CVE-2000-0369 (N/A)
+
+**CVE编号**: CVE-2000-0369
+**严重程度**: N/A CVSS: 5.0
+受影响产品: caldera:openlinux
+
+**漏洞描述**:
+The IDENT server in Caldera Linux 2.3 creates multiple threads for each IDENT request, which allows remote attackers to cause a denial of service.
+
+**应对措施**:
+Apply patch from vendor. Monitor ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-029.1.txt.
+
+**参考链接**:
+- ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-029.1.txt
+- http://www.securityfocus.com/bid/1266
+- ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-029.1.txt
+- http://www.securityfocus.com/bid/1266
+
+> 📎 来源 / Source: ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-029.1.txt
+
+#### 76. CVE-2000-0356 (N/A)
+
+**CVE编号**: CVE-2000-0356
+**严重程度**: N/A CVSS: 4.6
+受影响产品: redhat:linux
+
+**漏洞描述**:
+Pluggable Authentication Modules (PAM) in Red Hat Linux 6.1 does not properly lock access to disabled NIS accounts.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/697.
+
+**参考链接**:
+- http://www.securityfocus.com/bid/697
+- http://www.securityfocus.com/templates/advisory.html?id=1789
+- http://www.securityfocus.com/bid/697
+- http://www.securityfocus.com/templates/advisory.html?id=1789
+
+> 📎 来源 / Source: http://www.securityfocus.com/bid/697
+
+#### 77. CVE-1999-1341 (N/A)
+
+**CVE编号**: CVE-1999-1341
+**严重程度**: N/A CVSS: 4.6
+受影响产品: linux:linux_kernel
+
+**漏洞描述**:
+Linux kernel before 2.3.18 or 2.2.13pre15, with SLIP and PPP options, allows local unprivileged users to forge IP packets via the TIOCSETD option on tty devices.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=94061108411308&w=2.
+
+**参考链接**:
+- http://marc.info/?l=bugtraq&m=94061108411308&w=2
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/7858
+- http://marc.info/?l=bugtraq&m=94061108411308&w=2
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/7858
+
+> 📎 来源 / Source: http://marc.info/?l=bugtraq&m=94061108411308&w=2
+
+#### 78. CVE-2000-0362 (N/A)
+
+**CVE编号**: CVE-2000-0362
+**严重程度**: N/A CVSS: 7.2
+受影响产品: suse:suse_linux
+
+**漏洞描述**:
+Buffer overflows in Linux cdwtools 093 and earlier allows local users to gain root privileges.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.novell.com/linux/security/advisories/suse_security_announce_25.html.
+
+**参考链接**:
+- http://www.novell.com/linux/security/advisories/suse_security_announce_25.html
+- http://www.securityfocus.com/bid/738
+- http://www.novell.com/linux/security/advisories/suse_security_announce_25.html
+- http://www.securityfocus.com/bid/738
+
+> 📎 来源 / Source: http://www.novell.com/linux/security/advisories/suse_security_announce_25.html
+
+#### 79. CVE-2000-0363 (N/A)
+
+**CVE编号**: CVE-2000-0363
+**严重程度**: N/A CVSS: 6.2
+受影响产品: suse:suse_linux
+
+**漏洞描述**:
+Linux cdwtools 093 and earlier allows local users to gain root privileges via the /tmp directory.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.novell.com/linux/security/advisories/suse_security_announce_25.html.
+
+**参考链接**:
+- http://www.novell.com/linux/security/advisories/suse_security_announce_25.html
+- http://www.securityfocus.com/bid/738
+- http://www.novell.com/linux/security/advisories/suse_security_announce_25.html
+- http://www.securityfocus.com/bid/738
+
+> 📎 来源 / Source: http://www.novell.com/linux/security/advisories/suse_security_announce_25.html
+
+#### 80. CVE-1999-0832 (N/A)
+
+**CVE编号**: CVE-1999-0832
+**严重程度**: N/A CVSS: 10.0
+受影响产品: debian:debian_linux, redhat:linux
+
+**漏洞描述**:
+Buffer overflow in NFS server on Linux allows attackers to execute commands via a long pathname.
+
+**应对措施**:
+Apply patch from vendor. Monitor ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-033.0.txt.
+
+**参考链接**:
+- ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-033.0.txt
+- http://www.debian.org/security/1999/19991111
+- http://www.novell.com/linux/security/advisories/suse_security_announce_29.html
+- http://www.redhat.com/support/errata/rh42-errata-general.html#NFS
+- http://www.securityfocus.com/bid/782
+
+> 📎 来源 / Source: ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-033.0.txt
+
+#### 81. CVE-1999-0831 (N/A)
+
+**CVE编号**: CVE-1999-0831
+**严重程度**: N/A CVSS: 5.0
+受影响产品: debian:debian_linux, suse:suse_linux, sun:cobalt_raq_2, sun:cobalt_raq_3i, cobalt:qube
+
+**漏洞描述**:
+Denial of service in Linux syslogd via a large number of connections.
+
+**应对措施**:
+Apply patch from vendor. Monitor ftp://ftp.caldera.com/pub/security/OpenLinux/CSSA-1999-035.0.txt.
+
+**参考链接**:
+- ftp://ftp.caldera.com/pub/security/OpenLinux/CSSA-1999-035.0.txt
+- http://www.securityfocus.com/bid/809
+- ftp://ftp.caldera.com/pub/security/OpenLinux/CSSA-1999-035.0.txt
+- http://www.securityfocus.com/bid/809
+
+> 📎 来源 / Source: ftp://ftp.caldera.com/pub/security/OpenLinux/CSSA-1999-035.0.txt
+
+#### 82. CVE-2000-0531 (N/A)
+
+**CVE编号**: CVE-2000-0531
+**严重程度**: N/A CVSS: 2.1
+受影响产品: redhat:linux, caldera:openlinux_eserver, caldera:openlinux
+
+**漏洞描述**:
+Linux gpm program allows local users to cause a denial of service by flooding the /dev/gpmctl device with STREAM sockets.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-07/0409.html.
+
+**参考链接**:
+- http://archives.neohapsis.com/archives/bugtraq/2000-07/0409.html
+- http://www.redhat.com/support/errata/RHSA-2000-045.html
+- http://www.securityfocus.com/bid/1377
+- http://www.securityfocus.com/templates/archive.pike?list=1&msg=Pine.LNX.4.10.10006201453090.1812-200000%40apollo.aci.com.pl
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/5010
+
+> 📎 来源 / Source: http://archives.neohapsis.com/archives/bugtraq/2000-07/0409.html
+
+#### 83. CVE-1999-0317 (N/A)
+
+**CVE编号**: CVE-1999-0317
+**严重程度**: N/A CVSS: 7.2
+受影响产品: linux:linux_kernel
+
+**漏洞描述**:
+Buffer overflow in Linux su command gives root access to local users.
+
+**应对措施**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0317.
+
+**参考链接**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0317
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0317
+
+> 📎 来源 / Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0317
+
+#### 84. CVE-2000-0357 (N/A)
+
+**CVE编号**: CVE-2000-0357
+**严重程度**: N/A CVSS: 7.5
+受影响产品: redhat:linux
+
+**漏洞描述**:
+ORBit and esound in Red Hat Linux 6.1 do not use sufficiently random numbers, which allows local users to guess the authentication keys.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.redhat.com/corp/support/errata/RHSA1999058-01.html.
+
+**参考链接**:
+- http://www.redhat.com/corp/support/errata/RHSA1999058-01.html
+- http://www.redhat.com/corp/support/errata/RHSA1999058-01.html
+
+> 📎 来源 / Source: http://www.redhat.com/corp/support/errata/RHSA1999058-01.html
+
+#### 85. CVE-2000-0358 (N/A)
+
+**CVE编号**: CVE-2000-0358
+**严重程度**: N/A CVSS: 5.0
+受影响产品: redhat:linux
+
+**漏洞描述**:
+ORBit and gnome-session in Red Hat Linux 6.1 allows remote attackers to crash a program.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.redhat.com/corp/support/errata/RHSA1999058-01.html.
+
+**参考链接**:
+- http://www.redhat.com/corp/support/errata/RHSA1999058-01.html
+- http://www.redhat.com/corp/support/errata/RHSA1999058-01.html
+
+> 📎 来源 / Source: http://www.redhat.com/corp/support/errata/RHSA1999058-01.html
+
+#### 86. CVE-1999-0986 (N/A)
+
+**CVE编号**: CVE-1999-0986
+**严重程度**: N/A CVSS: 5.0
+受影响产品: debian:debian_linux, linux:linux_kernel, redhat:linux
+
+**漏洞描述**:
+The ping command in Linux 2.0.3x allows local users to cause a denial of service by sending large packets with the -R (record route) option.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/870.
+
+**参考链接**:
+- http://www.securityfocus.com/bid/870
+- http://www.securityfocus.com/bid/870
+
+> 📎 来源 / Source: http://www.securityfocus.com/bid/870
+
+#### 87. CVE-2000-0017 (N/A)
+
+**CVE编号**: CVE-2000-0017
+**严重程度**: N/A CVSS: 10.0
+受影响产品: redhat:linux
+
+**漏洞描述**:
+Buffer overflow in Linux linuxconf package allows remote attackers to gain root privileges via a long parameter.
+
+**应对措施**:
+Apply patch from vendor. Monitor https://marc.info/?l=bugtraq&m=94580196627059&w=2.
+
+**参考链接**:
+- https://marc.info/?l=bugtraq&m=94580196627059&w=2
+- https://marc.info/?l=bugtraq&m=94580196627059&w=2
+
+> 📎 来源 / Source: https://marc.info/?l=bugtraq&m=94580196627059&w=2
+
+#### 88. CVE-1999-1327 (N/A)
+
+**CVE编号**: CVE-1999-1327
+**严重程度**: N/A CVSS: 7.2
+受影响产品: redhat:linux
+
+**漏洞描述**:
+Buffer overflow in linuxconf 1.11r11-rh2 on Red Hat Linux 5.1 allows local users to gain root privileges via a long LANG environmental variable.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90221103125826&w=2.
+
+**参考链接**:
+- http://marc.info/?l=bugtraq&m=90221103125826&w=2
+- http://www.iss.net/security_center/static/7239.php
+- http://www.osvdb.org/6065
+- http://www.redhat.com/support/errata/rh51-errata-general.html#linuxconf
+- http://marc.info/?l=bugtraq&m=90221103125826&w=2
+
+> 📎 来源 / Source: http://marc.info/?l=bugtraq&m=90221103125826&w=2
+
+#### 89. CVE-1999-1328 (N/A)
+
+**CVE编号**: CVE-1999-1328
+**严重程度**: N/A CVSS: 7.2
+受影响产品: redhat:linux
+
+**漏洞描述**:
+linuxconf before 1.11.r11-rh3 on Red Hat Linux 5.1 allows local users to overwrite arbitrary files and gain root access via a symlink attack.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90383955231511&w=2.
+
+**参考链接**:
+- http://marc.info/?l=bugtraq&m=90383955231511&w=2
+- http://www.iss.net/security_center/static/7232.php
+- http://www.osvdb.org/6068
+- http://www.redhat.com/support/errata/rh51-errata-general.html#linuxconf
+- http://marc.info/?l=bugtraq&m=90383955231511&w=2
+
+> 📎 来源 / Source: http://marc.info/?l=bugtraq&m=90383955231511&w=2
+
+#### 90. CVE-1999-1329 (N/A)
+
+**CVE编号**: CVE-1999-1329
+**严重程度**: N/A CVSS: 7.2
+受影响产品: redhat:linux
+
+**漏洞描述**:
+Buffer overflow in SysVInit in Red Hat Linux 5.1 and earlier allows local users to gain privileges.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.iss.net/security_center/static/7250.php.
+
+**参考链接**:
+- http://www.iss.net/security_center/static/7250.php
+- http://www.redhat.com/support/errata/rh50-errata-general.html#SysVinit
+- http://www.iss.net/security_center/static/7250.php
+- http://www.redhat.com/support/errata/rh50-errata-general.html#SysVinit
+
+> 📎 来源 / Source: http://www.iss.net/security_center/static/7250.php
+
+#### 91. CVE-1999-1331 (N/A)
+
+**CVE编号**: CVE-1999-1331
+**严重程度**: N/A CVSS: 2.1
+受影响产品: redhat:linux
+
+**漏洞描述**:
+netcfg 2.16-1 in Red Hat Linux 4.2 allows the Ethernet interface to be controlled by users on reboot when an option is set, which allows local users to cause a denial of service by shutting down the interface.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.iss.net/security_center/static/7245.php.
+
+**参考链接**:
+- http://www.iss.net/security_center/static/7245.php
+- http://www.redhat.com/support/errata/rh42-errata-general.html#netcfg
+- http://www.iss.net/security_center/static/7245.php
+- http://www.redhat.com/support/errata/rh42-errata-general.html#netcfg
+
+> 📎 来源 / Source: http://www.iss.net/security_center/static/7245.php
+
+#### 92. CVE-1999-1332 (N/A)
+
+**CVE编号**: CVE-1999-1332
+**严重程度**: N/A CVSS: 2.1
+受影响产品: redhat:linux
+
+**漏洞描述**:
+gzexe in the gzip package on Red Hat Linux 5.0 and earlier allows local users to overwrite files of other users via a symlink attack on a temporary file.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=88603844115233&w=2.
+
+**参考链接**:
+- http://marc.info/?l=bugtraq&m=88603844115233&w=2
+- http://www.debian.org/security/2003/dsa-308
+- http://www.iss.net/security_center/static/7241.php
+- http://www.osvdb.org/3812
+- http://www.redhat.com/support/errata/rh50-errata-general.html#gzip
+
+> 📎 来源 / Source: http://marc.info/?l=bugtraq&m=88603844115233&w=2
+
+#### 93. CVE-1999-1333 (N/A)
+
+**CVE编号**: CVE-1999-1333
+**严重程度**: N/A CVSS: 7.5
+受影响产品: redhat:linux
+
+**漏洞描述**:
+automatic download option in ncftp 2.4.2 FTP client in Red Hat Linux 5.0 and earlier allows remote attackers to execute arbitrary commands via shell metacharacters in the names of files that are to be downloaded.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=89042322924057&w=2.
+
+**参考链接**:
+- http://marc.info/?l=bugtraq&m=89042322924057&w=2
+- http://www.iss.net/security_center/static/7240.php
+- http://www.osvdb.org/6111
+- http://www.redhat.com/support/errata/rh50-errata-general.html#ncftp
+- http://marc.info/?l=bugtraq&m=89042322924057&w=2
+
+> 📎 来源 / Source: http://marc.info/?l=bugtraq&m=89042322924057&w=2
+
+#### 94. CVE-1999-1335 (N/A)
+
+**CVE编号**: CVE-1999-1335
+**严重程度**: N/A CVSS: 6.4
+受影响产品: redhat:linux
+
+**漏洞描述**:
+snmpd server in cmu-snmp SNMP package before 3.3-1 in Red Hat Linux 4.0 is configured to allow remote attackers to read and write sensitive information.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.redhat.com/support/errata/rh40-errata-general.html#cmu-snmp.
+
+**参考链接**:
+- http://www.redhat.com/support/errata/rh40-errata-general.html#cmu-snmp
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/7251
+- http://www.redhat.com/support/errata/rh40-errata-general.html#cmu-snmp
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/7251
+
+> 📎 来源 / Source: http://www.redhat.com/support/errata/rh40-errata-general.html#cmu-snmp
+
+#### 95. CVE-1999-1339 (N/A)
+
+**CVE编号**: CVE-1999-1339
+**严重程度**: N/A CVSS: 5.0
+受影响产品: freebsd:freebsd, linux:linux_kernel
+
+**漏洞描述**:
+Vulnerability when Network Address Translation (NAT) is enabled in Linux 2.2.10 and earlier with ipchains, or FreeBSD 3.2 with ipfw, allows remote attackers to cause a denial of service (kernel panic) via a ping -R (record route) command.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93277426802802&w=2.
+
+**参考链接**:
+- http://marc.info/?l=bugtraq&m=93277426802802&w=2
+- http://marc.info/?l=bugtraq&m=93277766505061&w=2
+- http://www.iss.net/security_center/static/7257.php
+- http://www.kernel.org/pub/linux/kernel/v2.2/patch-2.2.11.gz
+- http://www.osvdb.org/6105
+
+> 📎 来源 / Source: http://marc.info/?l=bugtraq&m=93277426802802&w=2
+
+#### 96. CVE-1999-0894 (N/A)
+
+**CVE编号**: CVE-1999-0894
+**严重程度**: N/A CVSS: 10.0
+受影响产品: redhat:linux
+
+**漏洞描述**:
+Red Hat Linux screen program does not use Unix98 ptys, allowing local users to write to other terminals.
+
+**应对措施**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0894.
+
+**参考链接**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0894
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0894
+
+> 📎 来源 / Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0894
+
+#### 97. CVE-2000-1220 (N/A)
+
+**CVE编号**: CVE-2000-1220
+**严重程度**: N/A CVSS: 10.0
+受影响产品: redhat:linux, sgi:irix
+
+**漏洞描述**:
+The line printer daemon (lpd) in the lpr package in multiple Linux operating systems allows local users to gain root privileges by causing sendmail to execute with arbitrary command line arguments, as demonstrated using the -C option to specify a configuration file.
+
+**应对措施**:
+Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/advisories/20021104-01-P.
+
+**参考链接**:
+- ftp://patches.sgi.com/support/free/security/advisories/20021104-01-P
+- http://seclists.org/lists/bugtraq/2000/Jan/0116.html
+- http://www.atstake.com/research/advisories/2000/lpd_advisory.txt
+- http://www.debian.org/security/2000/20000109
+- http://www.kb.cert.org/vuls/id/39001
+
+> 📎 来源 / Source: ftp://patches.sgi.com/support/free/security/advisories/20021104-01-P
+
+#### 98. CVE-2000-1221 (N/A)
+
+**CVE编号**: CVE-2000-1221
+**严重程度**: N/A CVSS: 10.0
+受影响产品: debian:debian_linux, redhat:linux, sgi:irix
+
+**漏洞描述**:
+The line printer daemon (lpd) in the lpr package in multiple Linux operating systems authenticates by comparing the reverse-resolved hostname of the local machine to the hostname of the print server as returned by gethostname, which allows remote attackers to bypass intended access controls by modifying the DNS for the attacking IP.
+
+**应对措施**:
+Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/advisories/20021104-01-P.
+
+**参考链接**:
+- ftp://patches.sgi.com/support/free/security/advisories/20021104-01-P
+- http://rhn.redhat.com/errata/RHSA-2000-002.html
+- http://www.atstake.com/research/advisories/2000/lpd_advisory.txt
+- http://www.debian.org/security/2000/20000109
+- http://www.kb.cert.org/vuls/id/30308
+
+> 📎 来源 / Source: ftp://patches.sgi.com/support/free/security/advisories/20021104-01-P
+
+#### 99. CVE-2000-0048 (N/A)
+
+**CVE编号**: CVE-2000-0048
+**严重程度**: N/A CVSS: 7.2
+受影响产品: corel:linux
+
+**漏洞描述**:
+get_it program in Corel Linux Update allows local users to gain root access by specifying an alternate PATH for the cp program.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://linux.corel.com/support/clos_patch1.htm.
+
+**参考链接**:
+- http://linux.corel.com/support/clos_patch1.htm
+- http://www.securityfocus.com/bid/928
+- http://linux.corel.com/support/clos_patch1.htm
+- http://www.securityfocus.com/bid/928
+
+> 📎 来源 / Source: http://linux.corel.com/support/clos_patch1.htm
+
+#### 100. CVE-2000-0107 (N/A)
+
+**CVE编号**: CVE-2000-0107
+**严重程度**: N/A CVSS: 7.2
+受影响产品: debian:debian_linux
+
+**漏洞描述**:
+Linux apcd program allows local attackers to modify arbitrary files via a symlink attack.
+
+**应对措施**:
+Apply patch from vendor. Monitor http://www.debian.org/security/2000/20000201.
+
+**参考链接**:
+- http://www.debian.org/security/2000/20000201
+- http://www.securityfocus.com/bid/958
+- http://www.debian.org/security/2000/20000201
+- http://www.securityfocus.com/bid/958
+
+> 📎 来源 / Source: http://www.debian.org/security/2000/20000201
+
 
 ---
 
@@ -1069,7 +2041,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 **CVE ID**: CVE-1999-1186
 **Severity**: N/A CVSS: 7.2
-**Affected Products**: redhat:linux, slackware:slackware_linux, rxvt:rxvt
+**Affected Products**: redhat:linux, rxvt:rxvt, slackware:slackware_linux
 
 **Description**:
 rxvt, when compiled with the PRINT_PIPE option in various Linux operating systems including Linux Slackware 3.0 and RedHat 2.1, allows local users to gain root privileges by specifying a malicious program using the -print-pipe command line parameter.
@@ -1105,7 +2077,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 **CVE ID**: CVE-1999-0032
 **Severity**: N/A CVSS: 7.2
-**Affected Products**: sgi:irix, bsdi:bsd_os, freebsd:freebsd, sun:sunos, next:nextstep
+**Affected Products**: sun:sunos, bsdi:bsd_os, freebsd:freebsd, sgi:irix, next:nextstep
 
 **Description**:
 Buffer overflow in lpr, as used in BSD-based systems including Linux, allows local users to execute arbitrary code as root via a long -C (classification) command line option.
@@ -1126,7 +2098,7 @@ Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/adv
 
 **CVE ID**: CVE-1999-1299
 **Severity**: N/A CVSS: 10.0
-**Affected Products**: slackware:slackware_linux, redhat:linux
+**Affected Products**: redhat:linux, slackware:slackware_linux
 
 **Description**:
 rcp on various Linux systems including Red Hat 4.0 allows a "nobody" user or other user with UID of 65535 to overwrite arbitrary files, since 65535 is interpreted as -1 by chown and other system calls, which causes the calls to fail to modify the ownership of the file.
@@ -1203,7 +2175,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602167420731&w=
 
 **CVE ID**: CVE-1999-1182
 **Severity**: N/A CVSS: 7.2
-**Affected Products**: caldera:openlinux_lite, delix:dld, lst:lst_power_linux, suse:suse_linux, debian:debian_linux
+**Affected Products**: debian:debian_linux, suse:suse_linux, caldera:openlinux_lite, delix:dld, lst:lst_power_linux
 
 **Description**:
 Buffer overflow in run-time linkers (1) ld.so or (2) ld-linux.so for Linux systems allows local users to gain privileges by calling a setuid program with a long program name (argv[0]) and forcing ld.so/ld-linux.so to report an error.
@@ -1224,7 +2196,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602661419318&w=
 
 **CVE ID**: CVE-1999-1225
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: openbsd:openbsd, digital:ultrix, linux:linux_kernel, sun:solaris, netbsd:netbsd
+**Affected Products**: openbsd:openbsd, digital:ultrix, netbsd:netbsd, linux:linux_kernel, sun:solaris
 
 **Description**:
 rpc.mountd on Linux, Ultrix, and possibly other operating systems, allows remote attackers to determine the existence of a file on the server by attempting to mount that file, which generates different error messages depending on whether the file exists or not.
@@ -1244,7 +2216,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/7526.
 
 **CVE ID**: CVE-1999-0183
 **Severity**: N/A CVSS: 6.4
-**Affected Products**: tftp:tftp, linux:linux_kernel
+**Affected Products**: linux:linux_kernel, tftp:tftp
 
 **Description**:
 Linux implementations of TFTP would allow access to files outside the restricted directory.
@@ -1262,7 +2234,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 **CVE ID**: CVE-1999-0216
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: gnu:inet, linux:linux_kernel, hp:hp-ux
+**Affected Products**: linux:linux_kernel, gnu:inet, hp:hp-ux
 
 **Description**:
 Denial of service of inetd on Linux through SYN and RST packets.
@@ -1513,7 +2485,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90786656409618&w=
 
 **CVE ID**: CVE-1999-0002
 **Severity**: N/A CVSS: 10.0
-**Affected Products**: caldera:openlinux, bsdi:bsd_os, redhat:linux
+**Affected Products**: redhat:linux, caldera:openlinux, bsdi:bsd_os
 
 **Description**:
 Buffer overflow in NFS mountd gives root access to remote attackers, mostly in Linux systems.
@@ -1552,7 +2524,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 **CVE ID**: CVE-1999-0798
 **Severity**: N/A CVSS: 10.0
-**Affected Products**: sco:internet_faststart, openbsd:openbsd, bsdi:bsd_os, freebsd:freebsd, sco:unixware
+**Affected Products**: openbsd:openbsd, sco:openserver, bsdi:bsd_os, sco:internet_faststart, redhat:linux
 
 **Description**:
 Buffer overflow in bootpd on OpenBSD, FreeBSD, and Linux systems via a malformed header type.
@@ -1626,7 +2598,7 @@ Apply patch from vendor. Monitor http://www.geocrawler.com/archives/3/92/1996/9/
 
 **CVE ID**: CVE-1999-0398
 **Severity**: N/A CVSS: 4.6
-**Affected Products**: ssh:ssh2, ssh:ssh
+**Affected Products**: ssh:ssh, ssh:ssh2
 
 **Description**:
 In some instances of SSH 1.2.27 and 2.0.11 on Linux systems, SSH will allow users with expired accounts to login.
@@ -1698,7 +2670,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/324.
 
 **CVE ID**: CVE-1999-0390
 **Severity**: N/A CVSS: 7.2
-**Affected Products**: suse:suse_linux, redhat:linux
+**Affected Products**: redhat:linux, suse:suse_linux
 
 **Description**:
 Buffer overflow in Dosemu Slang library in Linux.
@@ -1772,7 +2744,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/344.
 
 **CVE ID**: CVE-1999-0461
 **Severity**: N/A CVSS: 10.0
-**Affected Products**: sgi:irix, linux:linux_kernel
+**Affected Products**: linux:linux_kernel, sgi:irix
 
 **Description**:
 Versions of rpcbind including Linux, IRIX, and Wietse Venema's rpcbind allow a remote attacker to insert and delete entries by spoofing a source address.
@@ -1916,6 +2888,978 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 - https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0414
 
 > 📎 Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0414
+
+#### 51. CVE-1999-0426 (CRITICAL)
+
+**CVE ID**: CVE-1999-0426
+**Severity**: CRITICAL CVSS: 9.8
+**Affected Products**: suse:suse_linux
+
+**Description**:
+The default permissions of /dev/kmem in Linux versions before 2.0.36 allows IP spoofing.
+
+**Mitigation**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0426.
+
+**References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0426
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0426
+
+> 📎 Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0426
+
+#### 52. CVE-1999-0431 (N/A)
+
+**CVE ID**: CVE-1999-0431
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: linux:linux_kernel
+
+**Description**:
+Linux 2.2.3 and earlier allow a remote attacker to perform an IP fragmentation attack, causing a denial of service.
+
+**Mitigation**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0431.
+
+**References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0431
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0431
+
+> 📎 Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0431
+
+#### 53. CVE-1999-0409 (N/A)
+
+**CVE ID**: CVE-1999-0409
+**Severity**: N/A CVSS: 4.6
+**Affected Products**: suse:suse_linux
+
+**Description**:
+Buffer overflow in gnuplot in Linux version 3.5 allows local users to obtain root access.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/319.
+
+**References**:
+- http://www.securityfocus.com/bid/319
+- http://www.securityfocus.com/bid/319
+
+> 📎 Source: http://www.securityfocus.com/bid/319
+
+#### 54. CVE-1999-0421 (N/A)
+
+**CVE ID**: CVE-1999-0421
+**Severity**: N/A CVSS: 7.2
+**Affected Products**: slackware:slackware_linux
+
+**Description**:
+During a reboot after an installation of Linux Slackware 3.6, a remote attacker can obtain root access by logging in to the root account without a password.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.osvdb.org/981.
+
+**References**:
+- http://www.osvdb.org/981
+- http://www.securityfocus.com/bid/338
+- http://www.osvdb.org/981
+- http://www.securityfocus.com/bid/338
+
+> 📎 Source: http://www.osvdb.org/981
+
+#### 55. CVE-1999-0462 (N/A)
+
+**CVE ID**: CVE-1999-0462
+**Severity**: N/A CVSS: 7.2
+**Affected Products**: suse:suse_linux
+
+**Description**:
+suidperl in Linux Perl does not check the nosuid mount option on file systems, allowing local users to gain root access by placing a setuid script in a mountable file system, e.g. a CD-ROM or floppy disk.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/339.
+
+**References**:
+- http://www.securityfocus.com/bid/339
+- http://www.securityfocus.com/bid/339
+
+> 📎 Source: http://www.securityfocus.com/bid/339
+
+#### 56. CVE-1999-0804 (N/A)
+
+**CVE ID**: CVE-1999-0804
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: debian:debian_linux, linux:linux_kernel, redhat:linux, suse:suse_linux
+
+**Description**:
+Denial of service in Linux 2.2.x kernels via malformed ICMP packets containing unusual types, codes, and IP header lengths.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/302.
+
+**References**:
+- http://www.securityfocus.com/bid/302
+- http://www.securityfocus.com/bid/302
+
+> 📎 Source: http://www.securityfocus.com/bid/302
+
+#### 57. CVE-2000-0364 (N/A)
+
+**CVE ID**: CVE-2000-0364
+**Severity**: N/A CVSS: 4.6
+**Affected Products**: redhat:linux
+
+**Description**:
+screen and rxvt in Red Hat Linux 6.0 do not properly set the modes of tty devices, which allows local users to write to other ttys.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=92877527701347&w=2.
+
+**References**:
+- http://marc.info/?l=bugtraq&m=92877527701347&w=2
+- http://marc.info/?l=bugtraq&m=92886009012161&w=2
+- http://www.redhat.com/corp/support/errata/RHSA1999014_01.html
+- http://www.securityfocus.com/bid/309
+- http://marc.info/?l=bugtraq&m=92877527701347&w=2
+
+> 📎 Source: http://marc.info/?l=bugtraq&m=92877527701347&w=2
+
+#### 58. CVE-2000-0365 (N/A)
+
+**CVE ID**: CVE-2000-0365
+**Severity**: N/A CVSS: 4.6
+**Affected Products**: redhat:linux
+
+**Description**:
+Red Hat Linux 6.0 installs the /dev/pts file system with insecure modes, which allows local users to write to other tty devices.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=92877527701347&w=2.
+
+**References**:
+- http://marc.info/?l=bugtraq&m=92877527701347&w=2
+- http://marc.info/?l=bugtraq&m=92886009012161&w=2
+- http://www.redhat.com/corp/support/errata/RHSA1999014_01.html
+- http://www.securityfocus.com/bid/308
+- http://marc.info/?l=bugtraq&m=92877527701347&w=2
+
+> 📎 Source: http://marc.info/?l=bugtraq&m=92877527701347&w=2
+
+#### 59. CVE-1999-1496 (N/A)
+
+**CVE ID**: CVE-1999-1496
+**Severity**: N/A CVSS: 2.1
+**Affected Products**: debian:debian_linux, redhat:linux, todd_miller:sudo
+
+**Description**:
+Sudo 1.5 in Debian Linux 2.1 and Red Hat 6.0 allows local users to determine the existence of arbitrary files by attempting to execute the target filename as a program, which generates a different error message when the file does not exist.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/14665.
+
+**References**:
+- http://www.securityfocus.com/archive/1/14665
+- http://www.securityfocus.com/bid/321
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/2277
+- http://www.securityfocus.com/archive/1/14665
+- http://www.securityfocus.com/bid/321
+
+> 📎 Source: http://www.securityfocus.com/archive/1/14665
+
+#### 60. CVE-2000-0118 (N/A)
+
+**CVE ID**: CVE-2000-0118
+**Severity**: N/A CVSS: 7.2
+**Affected Products**: redhat:linux, sun:solaris, sun:sunos
+
+**Description**:
+The Red Hat Linux su program does not log failed password guesses if the su process is killed before it times out, which allows local attackers to conduct brute force password guessing.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=94935300520617&w=2.
+
+**References**:
+- http://marc.info/?l=bugtraq&m=94935300520617&w=2
+- http://marc.info/?l=bugtraq&m=94935300520617&w=2
+
+> 📎 Source: http://marc.info/?l=bugtraq&m=94935300520617&w=2
+
+#### 61. CVE-1999-0733 (N/A)
+
+**CVE ID**: CVE-1999-0733
+**Severity**: N/A CVSS: 7.2
+**Affected Products**: vmware:workstation
+
+**Description**:
+Buffer overflow in VMWare 1.0.1 for Linux via a long HOME environmental variable.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/490.
+
+**References**:
+- http://www.securityfocus.com/bid/490
+- http://www.securityfocus.com/bid/490
+
+> 📎 Source: http://www.securityfocus.com/bid/490
+
+#### 62. CVE-1999-1348 (N/A)
+
+**CVE ID**: CVE-1999-1348
+**Severity**: N/A CVSS: 2.1
+**Affected Products**: redhat:linux
+
+**Description**:
+Linuxconf on Red Hat Linux 6.0 and earlier does not properly disable PAM-based access to the shutdown command, which could allow local users to cause a denial of service.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93220073515880&w=2.
+
+**References**:
+- http://marc.info/?l=bugtraq&m=93220073515880&w=2
+- http://marc.info/?l=bugtraq&m=93220073515880&w=2
+
+> 📎 Source: http://marc.info/?l=bugtraq&m=93220073515880&w=2
+
+#### 63. CVE-1999-1166 (N/A)
+
+**CVE ID**: CVE-1999-1166
+**Severity**: N/A CVSS: 7.2
+**Affected Products**: linux:linux_kernel
+
+**Description**:
+Linux 2.0.37 does not properly encode the Custom segment limit, which allows local users to gain root privileges by accessing and modifying kernel memory.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/18156.
+
+**References**:
+- http://www.securityfocus.com/archive/1/18156
+- http://www.securityfocus.com/bid/523
+- http://www.securityfocus.com/archive/1/18156
+- http://www.securityfocus.com/bid/523
+
+> 📎 Source: http://www.securityfocus.com/archive/1/18156
+
+#### 64. CVE-1999-0710 (N/A)
+
+**CVE ID**: CVE-1999-0710
+**Severity**: N/A CVSS: 7.5
+**Affected Products**: redhat:linux
+
+**Description**:
+The Squid package in Red Hat Linux 5.2 and 6.0, and other distributions, installs cachemgr.cgi in a public web directory, which allows remote attackers to use it as an intermediary to connect to other systems.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://fedoranews.org/updates/FEDORA--.shtml.
+
+**References**:
+- http://fedoranews.org/updates/FEDORA--.shtml
+- http://www.debian.org/security/2004/dsa-576
+- http://www.redhat.com/archives/fedora-announce-list/2005-May/msg00025.html
+- http://www.redhat.com/support/errata/RHSA-1999-025.html
+- http://www.redhat.com/support/errata/RHSA-2005-489.html
+
+> 📎 Source: http://fedoranews.org/updates/FEDORA--.shtml
+
+#### 65. CVE-1999-1018 (N/A)
+
+**CVE ID**: CVE-1999-1018
+**Severity**: N/A CVSS: 7.5
+**Affected Products**: linux:linux_kernel
+
+**Description**:
+IPChains in Linux kernels 2.2.10 and earlier does not reassemble IP fragments before checking the header information, which allows a remote attacker to bypass the filtering rules using several fragments with 0 offsets.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93312523904591&w=2.
+
+**References**:
+- http://marc.info/?l=bugtraq&m=93312523904591&w=2
+- http://www.securityfocus.com/bid/543
+- http://marc.info/?l=bugtraq&m=93312523904591&w=2
+- http://www.securityfocus.com/bid/543
+
+> 📎 Source: http://marc.info/?l=bugtraq&m=93312523904591&w=2
+
+#### 66. CVE-1999-0746 (N/A)
+
+**CVE ID**: CVE-1999-0746
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: suse:suse_linux, slackware:slackware_linux
+
+**Description**:
+A default configuration of in.identd in SuSE Linux waits 120 seconds between requests, allowing a remote attacker to conduct a denial of service.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/587.
+
+**References**:
+- http://www.securityfocus.com/bid/587
+- http://www.securityfocus.com/bid/587
+
+> 📎 Source: http://www.securityfocus.com/bid/587
+
+#### 67. CVE-1999-0740 (N/A)
+
+**CVE ID**: CVE-1999-0740
+**Severity**: N/A CVSS: 6.4
+**Affected Products**: redhat:linux
+
+**Description**:
+Remote attackers can cause a denial of service on Linux in.telnetd telnet daemon through a malformed TERM environmental variable.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/594.
+
+**References**:
+- http://www.securityfocus.com/bid/594
+- http://www.securityfocus.com/bid/594
+
+> 📎 Source: http://www.securityfocus.com/bid/594
+
+#### 68. CVE-2000-0374 (N/A)
+
+**CVE ID**: CVE-2000-0374
+**Severity**: N/A CVSS: 10.0
+**Affected Products**: caldera:openlinux
+
+**Description**:
+The default configuration of kdm in Caldera and Mandrake Linux, and possibly other distributions, allows XDMCP connections from any host, which allows remote attackers to obtain sensitive information or bypass additional access restrictions.
+
+**Mitigation**:
+Apply patch from vendor. Monitor ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-021.0.txt.
+
+**References**:
+- ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-021.0.txt
+- http://frontal2.mandriva.com/security/advisories?name=MDKSA-2002:025
+- http://www.securityfocus.com/bid/1446
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/4856
+- ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-021.0.txt
+
+> 📎 Source: ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-021.0.txt
+
+#### 69. CVE-1999-0720 (N/A)
+
+**CVE ID**: CVE-1999-0720
+**Severity**: N/A CVSS: 4.6
+**Affected Products**: linux:linux_kernel
+
+**Description**:
+The pt_chown command in Linux allows local users to modify TTY terminal devices that belong to other users.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/597.
+
+**References**:
+- http://www.securityfocus.com/bid/597
+- http://www.securityfocus.com/templates/archive.pike?list=1&msg=lcamtuf.4.05.9907041223290.355-300000%40nimue.ids.pl
+- http://www.securityfocus.com/bid/597
+- http://www.securityfocus.com/templates/archive.pike?list=1&msg=lcamtuf.4.05.9907041223290.355-300000%40nimue.ids.pl
+
+> 📎 Source: http://www.securityfocus.com/bid/597
+
+#### 70. CVE-1999-0769 (N/A)
+
+**CVE ID**: CVE-1999-0769
+**Severity**: N/A CVSS: 7.2
+**Affected Products**: debian:debian_linux, redhat:linux, caldera:openlinux, paul_vixie:vixie_cron
+
+**Description**:
+Vixie Cron on Linux systems allows local users to set parameters of sendmail commands via the MAILTO environmental variable.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/611.
+
+**References**:
+- http://www.securityfocus.com/bid/611
+- http://www.securityfocus.com/bid/611
+
+> 📎 Source: http://www.securityfocus.com/bid/611
+
+#### 71. CVE-1999-0704 (N/A)
+
+**CVE ID**: CVE-1999-0704
+**Severity**: N/A CVSS: 9.3
+**Affected Products**: redhat:linux, freebsd:freebsd, bsdi:bsd_os
+
+**Description**:
+Buffer overflow in Berkeley automounter daemon (amd) logging facility provided in the Linux am-utils package and others.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/614.
+
+**References**:
+- http://www.securityfocus.com/bid/614
+- http://www.securityfocus.com/bid/614
+
+> 📎 Source: http://www.securityfocus.com/bid/614
+
+#### 72. CVE-1999-1352 (N/A)
+
+**CVE ID**: CVE-1999-1352
+**Severity**: N/A CVSS: 4.6
+**Affected Products**: linux:linux_kernel
+
+**Description**:
+mknod in Linux 2.2 follows symbolic links, which could allow local users to overwrite files or gain privileges.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93855134409747&w=2.
+
+**References**:
+- http://marc.info/?l=bugtraq&m=93855134409747&w=2
+- http://marc.info/?l=bugtraq&m=93855134409747&w=2
+
+> 📎 Source: http://marc.info/?l=bugtraq&m=93855134409747&w=2
+
+#### 73. CVE-1999-1346 (N/A)
+
+**CVE ID**: CVE-1999-1346
+**Severity**: N/A CVSS: 7.5
+**Affected Products**: redhat:linux
+
+**Description**:
+PAM configuration file for rlogin in Red Hat Linux 6.1 and earlier includes a less restrictive rule before a more restrictive one, which allows users to access the host via rlogin even if rlogin has been explicitly disabled using the /etc/nologin file.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93942774609925&w=2.
+
+**References**:
+- http://marc.info/?l=bugtraq&m=93942774609925&w=2
+- http://marc.info/?l=bugtraq&m=93942774609925&w=2
+
+> 📎 Source: http://marc.info/?l=bugtraq&m=93942774609925&w=2
+
+#### 74. CVE-1999-1347 (N/A)
+
+**CVE ID**: CVE-1999-1347
+**Severity**: N/A CVSS: 4.6
+**Affected Products**: redhat:linux
+
+**Description**:
+Xsession in Red Hat Linux 6.1 and earlier can allow local users with restricted accounts to bypass execution of the .xsession file by starting kde, gnome or anotherlevel from kdm.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93942774609925&w=2.
+
+**References**:
+- http://marc.info/?l=bugtraq&m=93942774609925&w=2
+- http://marc.info/?l=bugtraq&m=93942774609925&w=2
+
+> 📎 Source: http://marc.info/?l=bugtraq&m=93942774609925&w=2
+
+#### 75. CVE-2000-0369 (N/A)
+
+**CVE ID**: CVE-2000-0369
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: caldera:openlinux
+
+**Description**:
+The IDENT server in Caldera Linux 2.3 creates multiple threads for each IDENT request, which allows remote attackers to cause a denial of service.
+
+**Mitigation**:
+Apply patch from vendor. Monitor ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-029.1.txt.
+
+**References**:
+- ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-029.1.txt
+- http://www.securityfocus.com/bid/1266
+- ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-029.1.txt
+- http://www.securityfocus.com/bid/1266
+
+> 📎 Source: ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-029.1.txt
+
+#### 76. CVE-2000-0356 (N/A)
+
+**CVE ID**: CVE-2000-0356
+**Severity**: N/A CVSS: 4.6
+**Affected Products**: redhat:linux
+
+**Description**:
+Pluggable Authentication Modules (PAM) in Red Hat Linux 6.1 does not properly lock access to disabled NIS accounts.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/697.
+
+**References**:
+- http://www.securityfocus.com/bid/697
+- http://www.securityfocus.com/templates/advisory.html?id=1789
+- http://www.securityfocus.com/bid/697
+- http://www.securityfocus.com/templates/advisory.html?id=1789
+
+> 📎 Source: http://www.securityfocus.com/bid/697
+
+#### 77. CVE-1999-1341 (N/A)
+
+**CVE ID**: CVE-1999-1341
+**Severity**: N/A CVSS: 4.6
+**Affected Products**: linux:linux_kernel
+
+**Description**:
+Linux kernel before 2.3.18 or 2.2.13pre15, with SLIP and PPP options, allows local unprivileged users to forge IP packets via the TIOCSETD option on tty devices.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=94061108411308&w=2.
+
+**References**:
+- http://marc.info/?l=bugtraq&m=94061108411308&w=2
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/7858
+- http://marc.info/?l=bugtraq&m=94061108411308&w=2
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/7858
+
+> 📎 Source: http://marc.info/?l=bugtraq&m=94061108411308&w=2
+
+#### 78. CVE-2000-0362 (N/A)
+
+**CVE ID**: CVE-2000-0362
+**Severity**: N/A CVSS: 7.2
+**Affected Products**: suse:suse_linux
+
+**Description**:
+Buffer overflows in Linux cdwtools 093 and earlier allows local users to gain root privileges.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.novell.com/linux/security/advisories/suse_security_announce_25.html.
+
+**References**:
+- http://www.novell.com/linux/security/advisories/suse_security_announce_25.html
+- http://www.securityfocus.com/bid/738
+- http://www.novell.com/linux/security/advisories/suse_security_announce_25.html
+- http://www.securityfocus.com/bid/738
+
+> 📎 Source: http://www.novell.com/linux/security/advisories/suse_security_announce_25.html
+
+#### 79. CVE-2000-0363 (N/A)
+
+**CVE ID**: CVE-2000-0363
+**Severity**: N/A CVSS: 6.2
+**Affected Products**: suse:suse_linux
+
+**Description**:
+Linux cdwtools 093 and earlier allows local users to gain root privileges via the /tmp directory.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.novell.com/linux/security/advisories/suse_security_announce_25.html.
+
+**References**:
+- http://www.novell.com/linux/security/advisories/suse_security_announce_25.html
+- http://www.securityfocus.com/bid/738
+- http://www.novell.com/linux/security/advisories/suse_security_announce_25.html
+- http://www.securityfocus.com/bid/738
+
+> 📎 Source: http://www.novell.com/linux/security/advisories/suse_security_announce_25.html
+
+#### 80. CVE-1999-0832 (N/A)
+
+**CVE ID**: CVE-1999-0832
+**Severity**: N/A CVSS: 10.0
+**Affected Products**: debian:debian_linux, redhat:linux
+
+**Description**:
+Buffer overflow in NFS server on Linux allows attackers to execute commands via a long pathname.
+
+**Mitigation**:
+Apply patch from vendor. Monitor ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-033.0.txt.
+
+**References**:
+- ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-033.0.txt
+- http://www.debian.org/security/1999/19991111
+- http://www.novell.com/linux/security/advisories/suse_security_announce_29.html
+- http://www.redhat.com/support/errata/rh42-errata-general.html#NFS
+- http://www.securityfocus.com/bid/782
+
+> 📎 Source: ftp://ftp.calderasystems.com/pub/OpenLinux/security/CSSA-1999-033.0.txt
+
+#### 81. CVE-1999-0831 (N/A)
+
+**CVE ID**: CVE-1999-0831
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: debian:debian_linux, suse:suse_linux, sun:cobalt_raq_2, sun:cobalt_raq_3i, cobalt:qube
+
+**Description**:
+Denial of service in Linux syslogd via a large number of connections.
+
+**Mitigation**:
+Apply patch from vendor. Monitor ftp://ftp.caldera.com/pub/security/OpenLinux/CSSA-1999-035.0.txt.
+
+**References**:
+- ftp://ftp.caldera.com/pub/security/OpenLinux/CSSA-1999-035.0.txt
+- http://www.securityfocus.com/bid/809
+- ftp://ftp.caldera.com/pub/security/OpenLinux/CSSA-1999-035.0.txt
+- http://www.securityfocus.com/bid/809
+
+> 📎 Source: ftp://ftp.caldera.com/pub/security/OpenLinux/CSSA-1999-035.0.txt
+
+#### 82. CVE-2000-0531 (N/A)
+
+**CVE ID**: CVE-2000-0531
+**Severity**: N/A CVSS: 2.1
+**Affected Products**: redhat:linux, caldera:openlinux_eserver, caldera:openlinux
+
+**Description**:
+Linux gpm program allows local users to cause a denial of service by flooding the /dev/gpmctl device with STREAM sockets.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-07/0409.html.
+
+**References**:
+- http://archives.neohapsis.com/archives/bugtraq/2000-07/0409.html
+- http://www.redhat.com/support/errata/RHSA-2000-045.html
+- http://www.securityfocus.com/bid/1377
+- http://www.securityfocus.com/templates/archive.pike?list=1&msg=Pine.LNX.4.10.10006201453090.1812-200000%40apollo.aci.com.pl
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/5010
+
+> 📎 Source: http://archives.neohapsis.com/archives/bugtraq/2000-07/0409.html
+
+#### 83. CVE-1999-0317 (N/A)
+
+**CVE ID**: CVE-1999-0317
+**Severity**: N/A CVSS: 7.2
+**Affected Products**: linux:linux_kernel
+
+**Description**:
+Buffer overflow in Linux su command gives root access to local users.
+
+**Mitigation**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0317.
+
+**References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0317
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0317
+
+> 📎 Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0317
+
+#### 84. CVE-2000-0357 (N/A)
+
+**CVE ID**: CVE-2000-0357
+**Severity**: N/A CVSS: 7.5
+**Affected Products**: redhat:linux
+
+**Description**:
+ORBit and esound in Red Hat Linux 6.1 do not use sufficiently random numbers, which allows local users to guess the authentication keys.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.redhat.com/corp/support/errata/RHSA1999058-01.html.
+
+**References**:
+- http://www.redhat.com/corp/support/errata/RHSA1999058-01.html
+- http://www.redhat.com/corp/support/errata/RHSA1999058-01.html
+
+> 📎 Source: http://www.redhat.com/corp/support/errata/RHSA1999058-01.html
+
+#### 85. CVE-2000-0358 (N/A)
+
+**CVE ID**: CVE-2000-0358
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: redhat:linux
+
+**Description**:
+ORBit and gnome-session in Red Hat Linux 6.1 allows remote attackers to crash a program.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.redhat.com/corp/support/errata/RHSA1999058-01.html.
+
+**References**:
+- http://www.redhat.com/corp/support/errata/RHSA1999058-01.html
+- http://www.redhat.com/corp/support/errata/RHSA1999058-01.html
+
+> 📎 Source: http://www.redhat.com/corp/support/errata/RHSA1999058-01.html
+
+#### 86. CVE-1999-0986 (N/A)
+
+**CVE ID**: CVE-1999-0986
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: debian:debian_linux, linux:linux_kernel, redhat:linux
+
+**Description**:
+The ping command in Linux 2.0.3x allows local users to cause a denial of service by sending large packets with the -R (record route) option.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/870.
+
+**References**:
+- http://www.securityfocus.com/bid/870
+- http://www.securityfocus.com/bid/870
+
+> 📎 Source: http://www.securityfocus.com/bid/870
+
+#### 87. CVE-2000-0017 (N/A)
+
+**CVE ID**: CVE-2000-0017
+**Severity**: N/A CVSS: 10.0
+**Affected Products**: redhat:linux
+
+**Description**:
+Buffer overflow in Linux linuxconf package allows remote attackers to gain root privileges via a long parameter.
+
+**Mitigation**:
+Apply patch from vendor. Monitor https://marc.info/?l=bugtraq&m=94580196627059&w=2.
+
+**References**:
+- https://marc.info/?l=bugtraq&m=94580196627059&w=2
+- https://marc.info/?l=bugtraq&m=94580196627059&w=2
+
+> 📎 Source: https://marc.info/?l=bugtraq&m=94580196627059&w=2
+
+#### 88. CVE-1999-1327 (N/A)
+
+**CVE ID**: CVE-1999-1327
+**Severity**: N/A CVSS: 7.2
+**Affected Products**: redhat:linux
+
+**Description**:
+Buffer overflow in linuxconf 1.11r11-rh2 on Red Hat Linux 5.1 allows local users to gain root privileges via a long LANG environmental variable.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90221103125826&w=2.
+
+**References**:
+- http://marc.info/?l=bugtraq&m=90221103125826&w=2
+- http://www.iss.net/security_center/static/7239.php
+- http://www.osvdb.org/6065
+- http://www.redhat.com/support/errata/rh51-errata-general.html#linuxconf
+- http://marc.info/?l=bugtraq&m=90221103125826&w=2
+
+> 📎 Source: http://marc.info/?l=bugtraq&m=90221103125826&w=2
+
+#### 89. CVE-1999-1328 (N/A)
+
+**CVE ID**: CVE-1999-1328
+**Severity**: N/A CVSS: 7.2
+**Affected Products**: redhat:linux
+
+**Description**:
+linuxconf before 1.11.r11-rh3 on Red Hat Linux 5.1 allows local users to overwrite arbitrary files and gain root access via a symlink attack.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90383955231511&w=2.
+
+**References**:
+- http://marc.info/?l=bugtraq&m=90383955231511&w=2
+- http://www.iss.net/security_center/static/7232.php
+- http://www.osvdb.org/6068
+- http://www.redhat.com/support/errata/rh51-errata-general.html#linuxconf
+- http://marc.info/?l=bugtraq&m=90383955231511&w=2
+
+> 📎 Source: http://marc.info/?l=bugtraq&m=90383955231511&w=2
+
+#### 90. CVE-1999-1329 (N/A)
+
+**CVE ID**: CVE-1999-1329
+**Severity**: N/A CVSS: 7.2
+**Affected Products**: redhat:linux
+
+**Description**:
+Buffer overflow in SysVInit in Red Hat Linux 5.1 and earlier allows local users to gain privileges.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.iss.net/security_center/static/7250.php.
+
+**References**:
+- http://www.iss.net/security_center/static/7250.php
+- http://www.redhat.com/support/errata/rh50-errata-general.html#SysVinit
+- http://www.iss.net/security_center/static/7250.php
+- http://www.redhat.com/support/errata/rh50-errata-general.html#SysVinit
+
+> 📎 Source: http://www.iss.net/security_center/static/7250.php
+
+#### 91. CVE-1999-1331 (N/A)
+
+**CVE ID**: CVE-1999-1331
+**Severity**: N/A CVSS: 2.1
+**Affected Products**: redhat:linux
+
+**Description**:
+netcfg 2.16-1 in Red Hat Linux 4.2 allows the Ethernet interface to be controlled by users on reboot when an option is set, which allows local users to cause a denial of service by shutting down the interface.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.iss.net/security_center/static/7245.php.
+
+**References**:
+- http://www.iss.net/security_center/static/7245.php
+- http://www.redhat.com/support/errata/rh42-errata-general.html#netcfg
+- http://www.iss.net/security_center/static/7245.php
+- http://www.redhat.com/support/errata/rh42-errata-general.html#netcfg
+
+> 📎 Source: http://www.iss.net/security_center/static/7245.php
+
+#### 92. CVE-1999-1332 (N/A)
+
+**CVE ID**: CVE-1999-1332
+**Severity**: N/A CVSS: 2.1
+**Affected Products**: redhat:linux
+
+**Description**:
+gzexe in the gzip package on Red Hat Linux 5.0 and earlier allows local users to overwrite files of other users via a symlink attack on a temporary file.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=88603844115233&w=2.
+
+**References**:
+- http://marc.info/?l=bugtraq&m=88603844115233&w=2
+- http://www.debian.org/security/2003/dsa-308
+- http://www.iss.net/security_center/static/7241.php
+- http://www.osvdb.org/3812
+- http://www.redhat.com/support/errata/rh50-errata-general.html#gzip
+
+> 📎 Source: http://marc.info/?l=bugtraq&m=88603844115233&w=2
+
+#### 93. CVE-1999-1333 (N/A)
+
+**CVE ID**: CVE-1999-1333
+**Severity**: N/A CVSS: 7.5
+**Affected Products**: redhat:linux
+
+**Description**:
+automatic download option in ncftp 2.4.2 FTP client in Red Hat Linux 5.0 and earlier allows remote attackers to execute arbitrary commands via shell metacharacters in the names of files that are to be downloaded.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=89042322924057&w=2.
+
+**References**:
+- http://marc.info/?l=bugtraq&m=89042322924057&w=2
+- http://www.iss.net/security_center/static/7240.php
+- http://www.osvdb.org/6111
+- http://www.redhat.com/support/errata/rh50-errata-general.html#ncftp
+- http://marc.info/?l=bugtraq&m=89042322924057&w=2
+
+> 📎 Source: http://marc.info/?l=bugtraq&m=89042322924057&w=2
+
+#### 94. CVE-1999-1335 (N/A)
+
+**CVE ID**: CVE-1999-1335
+**Severity**: N/A CVSS: 6.4
+**Affected Products**: redhat:linux
+
+**Description**:
+snmpd server in cmu-snmp SNMP package before 3.3-1 in Red Hat Linux 4.0 is configured to allow remote attackers to read and write sensitive information.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.redhat.com/support/errata/rh40-errata-general.html#cmu-snmp.
+
+**References**:
+- http://www.redhat.com/support/errata/rh40-errata-general.html#cmu-snmp
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/7251
+- http://www.redhat.com/support/errata/rh40-errata-general.html#cmu-snmp
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/7251
+
+> 📎 Source: http://www.redhat.com/support/errata/rh40-errata-general.html#cmu-snmp
+
+#### 95. CVE-1999-1339 (N/A)
+
+**CVE ID**: CVE-1999-1339
+**Severity**: N/A CVSS: 5.0
+**Affected Products**: freebsd:freebsd, linux:linux_kernel
+
+**Description**:
+Vulnerability when Network Address Translation (NAT) is enabled in Linux 2.2.10 and earlier with ipchains, or FreeBSD 3.2 with ipfw, allows remote attackers to cause a denial of service (kernel panic) via a ping -R (record route) command.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93277426802802&w=2.
+
+**References**:
+- http://marc.info/?l=bugtraq&m=93277426802802&w=2
+- http://marc.info/?l=bugtraq&m=93277766505061&w=2
+- http://www.iss.net/security_center/static/7257.php
+- http://www.kernel.org/pub/linux/kernel/v2.2/patch-2.2.11.gz
+- http://www.osvdb.org/6105
+
+> 📎 Source: http://marc.info/?l=bugtraq&m=93277426802802&w=2
+
+#### 96. CVE-1999-0894 (N/A)
+
+**CVE ID**: CVE-1999-0894
+**Severity**: N/A CVSS: 10.0
+**Affected Products**: redhat:linux
+
+**Description**:
+Red Hat Linux screen program does not use Unix98 ptys, allowing local users to write to other terminals.
+
+**Mitigation**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0894.
+
+**References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0894
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0894
+
+> 📎 Source: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0894
+
+#### 97. CVE-2000-1220 (N/A)
+
+**CVE ID**: CVE-2000-1220
+**Severity**: N/A CVSS: 10.0
+**Affected Products**: redhat:linux, sgi:irix
+
+**Description**:
+The line printer daemon (lpd) in the lpr package in multiple Linux operating systems allows local users to gain root privileges by causing sendmail to execute with arbitrary command line arguments, as demonstrated using the -C option to specify a configuration file.
+
+**Mitigation**:
+Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/advisories/20021104-01-P.
+
+**References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20021104-01-P
+- http://seclists.org/lists/bugtraq/2000/Jan/0116.html
+- http://www.atstake.com/research/advisories/2000/lpd_advisory.txt
+- http://www.debian.org/security/2000/20000109
+- http://www.kb.cert.org/vuls/id/39001
+
+> 📎 Source: ftp://patches.sgi.com/support/free/security/advisories/20021104-01-P
+
+#### 98. CVE-2000-1221 (N/A)
+
+**CVE ID**: CVE-2000-1221
+**Severity**: N/A CVSS: 10.0
+**Affected Products**: debian:debian_linux, redhat:linux, sgi:irix
+
+**Description**:
+The line printer daemon (lpd) in the lpr package in multiple Linux operating systems authenticates by comparing the reverse-resolved hostname of the local machine to the hostname of the print server as returned by gethostname, which allows remote attackers to bypass intended access controls by modifying the DNS for the attacking IP.
+
+**Mitigation**:
+Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/advisories/20021104-01-P.
+
+**References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20021104-01-P
+- http://rhn.redhat.com/errata/RHSA-2000-002.html
+- http://www.atstake.com/research/advisories/2000/lpd_advisory.txt
+- http://www.debian.org/security/2000/20000109
+- http://www.kb.cert.org/vuls/id/30308
+
+> 📎 Source: ftp://patches.sgi.com/support/free/security/advisories/20021104-01-P
+
+#### 99. CVE-2000-0048 (N/A)
+
+**CVE ID**: CVE-2000-0048
+**Severity**: N/A CVSS: 7.2
+**Affected Products**: corel:linux
+
+**Description**:
+get_it program in Corel Linux Update allows local users to gain root access by specifying an alternate PATH for the cp program.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://linux.corel.com/support/clos_patch1.htm.
+
+**References**:
+- http://linux.corel.com/support/clos_patch1.htm
+- http://www.securityfocus.com/bid/928
+- http://linux.corel.com/support/clos_patch1.htm
+- http://www.securityfocus.com/bid/928
+
+> 📎 Source: http://linux.corel.com/support/clos_patch1.htm
+
+#### 100. CVE-2000-0107 (N/A)
+
+**CVE ID**: CVE-2000-0107
+**Severity**: N/A CVSS: 7.2
+**Affected Products**: debian:debian_linux
+
+**Description**:
+Linux apcd program allows local attackers to modify arbitrary files via a symlink attack.
+
+**Mitigation**:
+Apply patch from vendor. Monitor http://www.debian.org/security/2000/20000201.
+
+**References**:
+- http://www.debian.org/security/2000/20000201
+- http://www.securityfocus.com/bid/958
+- http://www.debian.org/security/2000/20000201
+- http://www.securityfocus.com/bid/958
+
+> 📎 Source: http://www.debian.org/security/2000/20000201
 
 
 

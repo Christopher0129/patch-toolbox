@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 04:00:41 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 04:27:55 UTC_
 
 ## 中文 🇨🇳
 **Linux 常见故障及解决方法**
@@ -23,7 +23,7 @@ _自动更新于 / Auto-updated: 2026-04-27 04:00:41 UTC_
 **标签 / 来源**: Tags: linux, ls | unix | 👍 936 | 💬 2 answers
 
 **问题描述**:
-Tags: linux, ls | Score: 936 | Views: 2451279 | Answers: 2
+Tags: linux, ls | Score: 936 | Views: 2451284 | Answers: 2
 
 **解决方法 / 社区答案**:
 ls -l --block-size=M will give you a long format listing (needed to actually see the file size) and round file sizes up to the nearest MiB.
@@ -48,7 +48,7 @@ Note that both --block-size and -h are GNU extensions on top of the Open Group's
 **标签 / 来源**: Tags: linux, process, ip, netstat | unix | 👍 831 | 💬 8 answers
 
 **问题描述**:
-Tags: linux, process, ip, netstat | Score: 831 | Views: 2194648 | Answers: 8
+Tags: linux, process, ip, netstat | Score: 831 | Views: 2194654 | Answers: 8
 
 **解决方法 / 社区答案**:
 Your existing command doesn't work because Linux requires you to either be root or the owner of the process to get the information you desire.
@@ -76,7 +76,7 @@ nginx   125004 nginx    3u  IPv4   6645      0t0  TCP 0.0.0.0:80 (LISTEN)
 **标签 / 来源**: Tags: ubuntu, centos, ssh, sshd, key-authentication | unix | 👍 745 | 💬 32 answers
 
 **问题描述**:
-Tags: ubuntu, centos, ssh, sshd, key-authentication | Score: 745 | Views: 1428792 | Answers: 32
+Tags: ubuntu, centos, ssh, sshd, key-authentication | Score: 745 | Views: 1428794 | Answers: 32
 
 **解决方法 / 社区答案**:
 Make sure the permissions on the ~/.ssh directory and its contents are proper. When I first set up my ssh key auth, I didn't have the ~/.ssh folder properly set up, and it yelled at me.
@@ -139,7 +139,7 @@ dig unix.stackexchange.com | awk '/^;; ANSWER SECTION:$/ { getline ; print $5 ; 
 **标签 / 来源**: Tags: linux, permissions, directory | unix | 👍 536 | 💬 9 answers
 
 **问题描述**:
-Tags: linux, permissions, directory | Score: 536 | Views: 403914 | Answers: 9
+Tags: linux, permissions, directory | Score: 536 | Views: 403915 | Answers: 9
 
 **解决方法 / 社区答案**:
 When applying permissions to directories on Linux, the permission bits have different meanings than on regular files.
@@ -160,7 +160,7 @@ The sticky bit (T, or t if the execute bit is set for others) states that files 
 **标签 / 来源**: Tags: linux, x11, wayland | unix | 👍 514 | 💬 15 answers
 
 **问题描述**:
-Tags: linux, x11, wayland | Score: 514 | Views: 702754 | Answers: 15
+Tags: linux, x11, wayland | Score: 514 | Views: 702757 | Answers: 15
 
 **解决方法 / 社区答案**:
 Obtain the session ID to pass in by issuing:
@@ -196,7 +196,7 @@ Type=wayland
 **标签 / 来源**: Tags: linux, backup, tar | unix | 👍 505 | 💬 2 answers
 
 **问题描述**:
-Tags: linux, backup, tar | Score: 505 | Views: 1359503 | Answers: 2
+Tags: linux, backup, tar | Score: 505 | Views: 1359515 | Answers: 2
 
 **解决方法 / 社区答案**:
 To tar and gzip a folder, the syntax is:
@@ -243,7 +243,7 @@ strace/truss, ltrace and gdb are generally good ideas for looking at why a stuck
 **标签 / 来源**: Tags: linux, kernel, performance, cache, ram | unix | 👍 419 | 💬 1 answers
 
 **问题描述**:
-Tags: linux, kernel, performance, cache, ram | Score: 419 | Views: 985957 | Answers: 1
+Tags: linux, kernel, performance, cache, ram | Score: 419 | Views: 985960 | Answers: 1
 
 **解决方法 / 社区答案**:
 Emptying the buffers cache
@@ -464,7 +464,7 @@ The find command will recursively find all files in all sub directories of . and
 **标签 / 来源**: Tags: linux, cpu | unix | 👍 384 | 💬 12 answers
 
 **问题描述**:
-Tags: linux, cpu | Score: 384 | Views: 815326 | Answers: 12
+Tags: linux, cpu | Score: 384 | Views: 815327 | Answers: 12
 
 **解决方法 / 社区答案**:
 To get a complete picture you need to look at the number of threads per core, cores per socket and sockets. If you multiply these numbers you will get the number of CPUs on your system.
@@ -579,7 +579,7 @@ You need to be careful of the term CPU as it means different things in different
 **标签 / 来源**: Tags: linux, permissions, directory | unix | 👍 379 | 💬 5 answers
 
 **问题描述**:
-Tags: linux, permissions, directory | Score: 379 | Views: 714955 | Answers: 5
+Tags: linux, permissions, directory | Score: 379 | Views: 714957 | Answers: 5
 
 **解决方法 / 社区答案**:
 I found it: Applying default permissions
@@ -620,7 +620,7 @@ default:other::r-x
 **标签 / 来源**: Tags: linux, disk | unix | 👍 378 | 💬 11 answers
 
 **问题描述**:
-Tags: linux, disk | Score: 378 | Views: 1059518 | Answers: 11
+Tags: linux, disk | Score: 378 | Views: 1059519 | Answers: 11
 
 **解决方法 / 社区答案**:
 For disk I/O trending there are a few options. My personal favorite is the sar command from sysstat. By default, it gives output like this:
@@ -830,7 +830,7 @@ myip.opendns.com.   0   IN  A   80.100.192.168
 **标签 / 来源**: Tags: linux, filesystems, find, rm | unix | 👍 318 | 💬 2 answers
 
 **问题描述**:
-Tags: linux, filesystems, find, rm | Score: 318 | Views: 291413 | Answers: 2
+Tags: linux, filesystems, find, rm | Score: 318 | Views: 291415 | Answers: 2
 
 **解决方法 / 社区答案**:
 The find command is the primary tool for recursive file system operations.
@@ -857,7 +857,7 @@ $ find . -type d -empty -delete
 **标签 / 来源**: Tags: linux, hardware, devices, hard-disk | unix | 👍 313 | 💬 16 answers
 
 **问题描述**:
-Tags: linux, hardware, devices, hard-disk | Score: 313 | Views: 1391057 | Answers: 16
+Tags: linux, hardware, devices, hard-disk | Score: 313 | Views: 1391062 | Answers: 16
 
 **解决方法 / 社区答案**:
 This is highly platform-dependent. Also different methods may treat edge cases differently (“fake” disks of various kinds, RAID volumes, …).
@@ -882,7 +882,7 @@ You will find utility names for many unix variants on the Rosetta Stone for Unix
 **标签 / 来源**: Tags: linux, memory, top, meminfo | unix | 👍 309 | 💬 9 answers
 
 **问题描述**:
-Tags: linux, memory, top, meminfo | Score: 309 | Views: 477595 | Answers: 9
+Tags: linux, memory, top, meminfo | Score: 309 | Views: 477597 | Answers: 9
 
 **解决方法 / 社区答案**:
 When in top, typing capital "E" cycles through different memory units (KiB, MiB, GiB, etc., which are different from kB, MB and GB) in the total memory info:
@@ -914,7 +914,7 @@ System: CentOS 7
 **标签 / 来源**: Tags: linux, storage | unix | 👍 303 | 💬 13 answers
 
 **问题描述**:
-Tags: linux, storage | Score: 303 | Views: 1002557 | Answers: 13
+Tags: linux, storage | Score: 303 | Views: 1002566 | Answers: 13
 
 **解决方法 / 社区答案**:
 There's a tool called blkid (use it as root or with sudo), 
@@ -935,7 +935,7 @@ you can check this link for more info
 **标签 / 来源**: Tags: linux, hard-disk, block-device, ssd | unix | 👍 302 | 💬 10 answers
 
 **问题描述**:
-Tags: linux, hard-disk, block-device, ssd | Score: 302 | Views: 448328 | Answers: 10
+Tags: linux, hard-disk, block-device, ssd | Score: 302 | Views: 448329 | Answers: 10
 
 **解决方法 / 社区答案**:
 Linux automatically detects SSD, and since kernel version 2.6.29, you may verify sda with:
@@ -955,7 +955,7 @@ See this answer for more information about SSD partitioning, filesystem...
 **标签 / 来源**: Tags: linux, command-line, files, rm | unix | 👍 297 | 💬 24 answers
 
 **问题描述**:
-Tags: linux, command-line, files, rm | Score: 297 | Views: 507560 | Answers: 24
+Tags: linux, command-line, files, rm | Score: 297 | Views: 507561 | Answers: 24
 
 **解决方法 / 社区答案**:
 Using rsync is surprising fast and simple.
@@ -988,7 +988,7 @@ https://www.quora.com/Linux-why-stat+unlink-can-be-faster-than-a-single-unlink/a
 **标签 / 来源**: Tags: linux, cpu, arm, x86 | unix | 👍 283 | 💬 6 answers
 
 **问题描述**:
-Tags: linux, cpu, arm, x86 | Score: 283 | Views: 215280 | Answers: 6
+Tags: linux, cpu, arm, x86 | Score: 283 | Views: 215281 | Answers: 6
 
 **解决方法 / 社区答案**:
 x86
@@ -1331,7 +1331,7 @@ This listing was derived from arch/x86/include/asm/cpufeatures.h in the kernel s
 **标签 / 来源**: Tags: linux, kernel, inotify | unix | 👍 282 | 💬 2 answers
 
 **问题描述**:
-Tags: linux, kernel, inotify | Score: 282 | Views: 226435 | Answers: 2
+Tags: linux, kernel, inotify | Score: 282 | Views: 226436 | Answers: 2
 
 **解决方法 / 社区答案**:
 Is it safe to raise that value and what would be the consequences of a too high value?
@@ -1420,7 +1420,7 @@ The -a option means -R and -p, plus a few other preservation options. It attempt
 **标签 / 来源**: Tags: linux, cpu, top | unix | 👍 273 | 💬 3 answers
 
 **问题描述**:
-Tags: linux, cpu, top | Score: 273 | Views: 460224 | Answers: 3
+Tags: linux, cpu, top | Score: 273 | Views: 460225 | Answers: 3
 
 **解决方法 / 社区答案**:
 hi is the time spent processing hardware interrupts. Hardware interrupts are generated by hardware devices (network cards, keyboard controller, external timer, hardware sensors, ...) when they need to signal something to the CPU (data has arrived, for example).
@@ -1453,7 +1453,7 @@ The CPU time accounting  document from IBM has more information about steal time
 **标签 / 来源**: Tags: linux, filesystems, mount | unix | 👍 264 | 💬 5 answers
 
 **问题描述**:
-Tags: linux, filesystems, mount | Score: 264 | Views: 1131822 | Answers: 5
+Tags: linux, filesystems, mount | Score: 264 | Views: 1131824 | Answers: 5
 
 **解决方法 / 社区答案**:
 The definitive list of mounted filesystems is in /proc/mounts.
@@ -1474,7 +1474,7 @@ The reason why you'd sometimes want to consult /etc/mtab in preference to or in 
 **标签 / 来源**: Tags: linux, memory, ulimit | unix | 👍 263 | 💬 12 answers
 
 **问题描述**:
-Tags: linux, memory, ulimit | Score: 263 | Views: 436682 | Answers: 12
+Tags: linux, memory, ulimit | Score: 263 | Views: 436683 | Answers: 12
 
 **解决方法 / 社区答案**:
 Another way to limit this is to use Linux's control groups.  This is especially useful if you want to limit a process's (or group of processes') allocation of physical memory distinctly from virtual memory.  For example:
@@ -1505,7 +1505,7 @@ and then running sudo update-grub and rebooting to boot with the new kernel boot
 **标签 / 来源**: Tags: linux, ps | unix | 👍 260 | 💬 4 answers
 
 **问题描述**:
-Tags: linux, ps | Score: 260 | Views: 542981 | Answers: 4
+Tags: linux, ps | Score: 260 | Views: 542983 | Answers: 4
 
 **解决方法 / 社区答案**:
 a = show processes for all users
@@ -1530,7 +1530,7 @@ In the comments, you say you are using Apple MacOS (OSX, I presume).  The OSX ma
 **标签 / 来源**: Tags: ubuntu, mount, fdisk | unix | 👍 259 | 💬 21 answers
 
 **问题描述**:
-Tags: ubuntu, mount, fdisk | Score: 259 | Views: 1622620 | Answers: 21
+Tags: ubuntu, mount, fdisk | Score: 259 | Views: 1622634 | Answers: 21
 
 **解决方法 / 社区答案**:
 WARNING: This will wipe out your drive!
@@ -1807,7 +1807,7 @@ ffmpeg is a popular tool and should be in any of the popular OS repositories/pac
 **标签 / 来源**: Tags: linux, command-line, logs, dmesg | unix | 👍 243 | 💬 7 answers
 
 **问题描述**:
-Tags: linux, command-line, logs, dmesg | Score: 243 | Views: 336443 | Answers: 7
+Tags: linux, command-line, logs, dmesg | Score: 243 | Views: 336445 | Answers: 7
 
 **解决方法 / 社区答案**:
 Relatively recent dmesg versions provide a follow option (-w, --follow) which works analogously to tail -f.
@@ -1831,7 +1831,7 @@ Those options are available for example in Fedora 19.
 **标签 / 来源**: Tags: linux, command-line, memory, hardware | unix | 👍 237 | 💬 5 answers
 
 **问题描述**:
-Tags: linux, command-line, memory, hardware | Score: 237 | Views: 284544 | Answers: 5
+Tags: linux, command-line, memory, hardware | Score: 237 | Views: 284547 | Answers: 5
 
 **解决方法 / 社区答案**:
 Since you don't mention, I'm assuming this is on Linux. Any of the following should show you (with root):
@@ -1882,7 +1882,7 @@ If you want to move the files from /images2, with rsync, you can pass the option
 **标签 / 来源**: Tags: linux, files, diff | unix | 👍 228 | 💬 6 answers
 
 **问题描述**:
-Tags: linux, files, diff | Score: 228 | Views: 325424 | Answers: 6
+Tags: linux, files, diff | Score: 228 | Views: 325425 | Answers: 6
 
 **解决方法 / 社区答案**:
 In your first diff output (so called &quot;normal diff&quot;) the meaning is as follows:
@@ -1942,7 +1942,7 @@ Under tcsh/csh you would use
 **标签 / 来源**: Tags: linux, permissions, su, conventions | unix | 👍 221 | 💬 4 answers
 
 **问题描述**:
-Tags: linux, permissions, su, conventions | Score: 221 | Views: 135871 | Answers: 4
+Tags: linux, permissions, su, conventions | Score: 221 | Views: 135872 | Answers: 4
 
 **解决方法 / 社区答案**:
 su - invokes a login shell after switching the user. A login shell resets most environment variables, providing a clean base.
@@ -2000,7 +2000,7 @@ You maybe noticed that the corrupted $PATH variable was not reset. This wouldn't
 **标签 / 来源**: Tags: linux, unix, history | unix | 👍 213 | 💬 9 answers
 
 **问题描述**:
-Tags: linux, unix, history | Score: 213 | Views: 116072 | Answers: 9
+Tags: linux, unix, history | Score: 213 | Views: 116073 | Answers: 9
 
 **解决方法 / 社区答案**:
 That depends on what you mean by “Unix”, and by “Linux”.
@@ -2068,7 +2068,7 @@ So if $end_date = 20131001 then $prog_end_date = 20131011.
 **标签 / 来源**: Tags: linux, filesystems, io, async | unix | 👍 209 | 💬 8 answers
 
 **问题描述**:
-Tags: linux, filesystems, io, async | Score: 209 | Views: 118843 | Answers: 8
+Tags: linux, filesystems, io, async | Score: 209 | Views: 118844 | Answers: 8
 
 **解决方法 / 社区答案**:
 Looking at /proc/meminfo will show the Dirty number shrinking over time as all the data spools out; some of it may spill into Writeback as well.  That will be a summary against all devices, but in the cases where one device on the system is much slower than the rest you'll usually end up where everything in that queue is related to it.  You'll probably find the Dirty number large when you start and the sync finishes about the same time it approaches 0.  Try this to get an interactive display:
@@ -2088,7 +2088,7 @@ With regular disks I can normally ignore Writeback, but I'm not sure if it's inv
 **标签 / 来源**: Tags: linux, filesystems, ln | unix | 👍 202 | 💬 6 answers
 
 **问题描述**:
-Tags: linux, filesystems, ln | Score: 202 | Views: 505510 | Answers: 6
+Tags: linux, filesystems, ln | Score: 202 | Views: 505511 | Answers: 6
 
 **解决方法 / 社区答案**:
 As Dubu points out in a comment, the issue lies in your relative paths. I had a similar problem symlinking my nginx configuration from /usr/local/etc/nginx to /etc/nginx. If you create your symlink like this:
@@ -2114,7 +2114,7 @@ Make sure that the path is in double quotes, to make sure things like spaces in 
 **标签 / 来源**: Tags: linux, desktop, freeze | unix | 👍 202 | 💬 10 answers
 
 **问题描述**:
-Tags: linux, desktop, freeze | Score: 202 | Views: 673972 | Answers: 10
+Tags: linux, desktop, freeze | Score: 202 | Views: 673976 | Answers: 10
 
 **解决方法 / 社区答案**:
 If all else fails, you Raise The Elephant.  There are Magic SysRq key sequences (Alt+SysRq+?) that the Linux kernel handles specially.
@@ -2143,7 +2143,7 @@ For the full list of possible commands and additional tips on how to type these 
 **标签 / 来源**: Tags: linux, data-recovery, deleted-files | unix | 👍 202 | 💬 14 answers
 
 **问题描述**:
-Tags: linux, data-recovery, deleted-files | Score: 202 | Views: 1208038 | Answers: 14
+Tags: linux, data-recovery, deleted-files | Score: 202 | Views: 1208040 | Answers: 14
 
 **解决方法 / 社区答案**:
 The link someone provided in the comments is likely your best chance.
@@ -2248,6 +2248,1799 @@ Personally, I really like the BSD systems because they just feel like they fit t
 
 > 📎 来源 / Source: https://unix.stackexchange.com/questions/14489/why-would-someone-choose-freebsd-over-linux
 
+#### 51. How can I find the hardware model in Linux?
+
+**故障现象**: How can I find the hardware model in Linux?
+**标签 / 来源**: Tags: linux, hardware, system-information, smbios, dmidecode | unix | 👍 191 | 💬 10 answers
+
+**问题描述**:
+Tags: linux, hardware, system-information, smbios, dmidecode | Score: 191 | Views: 492416 | Answers: 10
+
+**解决方法 / 社区答案**:
+using the dmidecode | grep -A3 '^System Information' command. There you'll find all information from BIOS and hardware. These are examples on three different machines (this is an excerpt of the complete output):
+
+System Information
+    Manufacturer: Dell Inc.
+    Product Name: Precision M4700
+
+System Information
+    Manufacturer: MICRO-STAR INTERANTIONAL CO.,LTD
+    Product Name: MS-7368
+
+System Information
+    Manufacturer: HP
+    Product Name: ProLiant ML330 G6
+
+**参考链接**: https://unix.stackexchange.com/questions/75750/how-can-i-find-the-hardware-model-in-linux
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/75750/how-can-i-find-the-hardware-model-in-linux
+
+#### 52. Why is my ethernet interface called enp0s10 instead of eth0?
+
+**故障现象**: Why is my ethernet interface called enp0s10 instead of eth0?
+**标签 / 来源**: Tags: linux, networking, udev, ethernet | unix | 👍 189 | 💬 5 answers
+
+**问题描述**:
+Tags: linux, networking, udev, ethernet | Score: 189 | Views: 292794 | Answers: 5
+
+**解决方法 / 社区答案**:
+Answer on &quot;What does enp0s10 means?&quot; question:
+enp0s10:
+| | |
+v | |
+en| |   --&gt; ethernet
+  v |
+  p0|   --&gt; bus number (0)
+    v
+    s10 --&gt; slot number (10)
+
+Source: udev-builtin-net_id.c on GitHub
+
+**参考链接**: https://unix.stackexchange.com/questions/134483/why-is-my-ethernet-interface-called-enp0s10-instead-of-eth0
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/134483/why-is-my-ethernet-interface-called-enp0s10-instead-of-eth0
+
+#### 53. Manually generate password for /etc/shadow
+
+**故障现象**: Manually generate password for /etc/shadow
+**标签 / 来源**: Tags: linux, password, shadow | unix | 👍 188 | 💬 10 answers
+
+**问题描述**:
+Tags: linux, password, shadow | Score: 188 | Views: 450016 | Answers: 10
+
+**解决方法 / 社区答案**:
+You can use following commands for the same:
+Method 1 (md5, sha256, sha512)
+openssl passwd -6 -salt xyz  yourpass
+
+Note: passing -1 will generate an MD5 password, -5 a SHA256 and -6 SHA512 (recommended)
+Method 2 (md5, sha256, sha512)
+mkpasswd --method=SHA-512 --stdin
+
+The option --method accepts md5, sha-256 and sha-512
+Method 3 (des, md5, sha256, sha512)
+As @tink suggested, we can update the password using chpasswd using:
+echo &quot;username:password&quot; | chpasswd 
+
+Or you can use the encrypted password with chpasswd. First generate it using this:
+perl -e 'print crypt(&quot;YourPasswd&quot;, &quot;salt&quot;, &quot;sha512&quot;),&quot;\n&quot;'
+
+Then later you can use the generated password to update /etc/shadow:
+echo &quot;username:encryptedPassWd&quot; | chpasswd -e
+
+The encrypted password we can also use to create a new user with this password, for example:
+useradd -p 'encryptedPassWd'  username
+
+**参考链接**: https://unix.stackexchange.com/questions/81240/manually-generate-password-for-etc-shadow
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/81240/manually-generate-password-for-etc-shadow
+
+#### 54. Linux: Difference between /dev/console, /dev/tty and /dev/tty0
+
+**故障现象**: Linux: Difference between /dev/console, /dev/tty and /dev/tty0
+**标签 / 来源**: Tags: linux, tty, console | unix | 👍 187 | 💬 3 answers
+
+**问题描述**:
+Tags: linux, tty, console | Score: 187 | Views: 204991 | Answers: 3
+
+**解决方法 / 社区答案**:
+From the Linux Kernel documentation on Kernel.org:
+/dev/tty        Current TTY device
+/dev/console    System console
+/dev/tty0       Current virtual console
+
+In the good old days /dev/console was System Administrator console. And TTYs were users' serial devices attached to a server.
+Now /dev/console and /dev/tty0 represent current display and usually are the same. You can override it for example by adding console=ttyS0 to grub.conf. After that your /dev/tty0 is a monitor and /dev/console is /dev/ttyS0.
+An exercise to show the difference between /dev/tty and /dev/tty0:
+Switch to the 2nd console by pressing Ctrl+Alt+F2. Login as root. Type sleep 5; echo tty0 &gt; /dev/tty0. Press Enter and switch to the 3rd console by pressing Alt+F3.
+Now switch back to the 2nd console by pressing Alt+F2. Type sleep 5; echo tty &gt; /dev/tty, press Enter and switch to the 3rd console.
+You can see that tty is the console where process starts, and tty0 is a always current console.
+
+**参考链接**: https://unix.stackexchange.com/questions/60641/linux-difference-between-dev-console-dev-tty-and-dev-tty0
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/60641/linux-difference-between-dev-console-dev-tty-and-dev-tty0
+
+#### 55. Timezone setting in Linux
+
+**故障现象**: Timezone setting in Linux
+**标签 / 来源**: Tags: linux, date, time, timezone | unix | 👍 184 | 💬 3 answers
+
+**问题描述**:
+Tags: linux, date, time, timezone | Score: 184 | Views: 717820 | Answers: 3
+
+**解决方法 / 社区答案**:
+Take a look at this blog post titled: How To: 2 Methods To Change TimeZone in Linux.
+
+Red Hat distros
+
+If you're using a distribution such as Red Hat then your approach of copying the file would be mostly acceptable.
+
+NOTE: If you're looking for a distro-agnostic solution, this also works on Debian, though there are simpler approaches below if you only need to be concerned with Debian machines.
+
+$ ls /usr/share/zoneinfo/
+Africa/      CET          Etc/         Hongkong     Kwajalein    Pacific/     ROK          zone.tab
+America/     Chile/       Europe/      HST          Libya        Poland       Singapore    Zulu
+Antarctica/  CST6CDT      GB           Iceland      MET          Portugal     Turkey       
+Arctic/      Cuba         GB-Eire      Indian/      Mexico/      posix/       UCT          
+Asia/        EET          GMT          Iran         MST          posixrules   Universal    
+Atlantic/    Egypt        GMT0         iso3166.tab  MST7MDT      PRC          US/          
+Australia/   Eire         GMT-0        Israel       Navajo       PST8PDT      UTC          
+Brazil/      EST          GMT+0        Jamaica      NZ           right/       WET          
+Canada/      EST5EDT      Greenwich    Japan        NZ-CHAT      ROC          W-SU         
+
+
+I would recommend linking to it rather than copying however.
+
+$ sudo unlink /etc/localtime 
+$ sudo ln -s /usr/share/zoneinfo/Etc/GMT+6 /etc/localtime
+
+
+Now date shows the different timezone:
+
+$ date -u
+Thu Jan 23 05:40:31 UTC 2014
+
+$ date 
+Wed Jan 22 23:40:38 GMT+6 2014
+
+
+Ubuntu/Debian Distros
+
+To change the timezone on either of these distros you can use this command:
+
+$ sudo dpkg-reconfigure tzdata
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+$ sudo dpkg-reconfigure tzdata
+
+Current default time zone: 'Etc/GMT-6'
+Local time is now:      Thu Jan 23 11:52:16 GMT-6 2014.
+Universal Time is now:  Thu Jan 23 05:52:16 UTC 2014.
+
+
+Now when we check it out:
+
+$ date -u
+Thu Jan 23 05:53:32 UTC 2014
+
+$ date 
+Thu Jan 23 11:53:33 GMT-6 2014
+
+
+NOTE: There's also this option in Ubuntu 14.04 and higher with a single command (source: Ask Ubuntu - setting timezone from terminal):
+
+$ sudo timedatectl set-timezone Etc/GMT-6
+
+
+On the use of "Etc/GMT+6"
+
+excerpt from @MattJohnson's answer on SO
+
+
+  Zones like Etc/GMT+6 are intentionally reversed for backwards compatibility with POSIX standards.  See the comments in this file.
+  
+  You should almost never need to use these zones.  Instead you should be using a fully named time zone like America/New_York or Europe/London or whatever is appropriate for your location.  Refer to the list here.
+
+**参考链接**: https://unix.stackexchange.com/questions/110522/timezone-setting-in-linux
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/110522/timezone-setting-in-linux
+
+#### 56. Mount cifs Network Drive: write permissions and chown
+
+**故障现象**: Mount cifs Network Drive: write permissions and chown
+**标签 / 来源**: Tags: linux, permissions, mount, chown, cifs | unix | 👍 184 | 💬 3 answers
+
+**问题描述**:
+Tags: linux, permissions, mount, chown, cifs | Score: 184 | Views: 550029 | Answers: 3
+
+**解决方法 / 社区答案**:
+You are mounting the CIFS share as root (because you used sudo), so you cannot write as normal user. If your Linux Distribution and its kernel are recent enough that you could mount the network share as a normal user (but under a folder that the user own), you will have the proper credentials to write file (e.g. mount the shared folder somewhere under your home directory, like for instance $HOME/netshare/. Obviously, you would need to create the folder before mounting it).
+
+An alternative is to specify the user and group ID that the mounted network share should used, this would allow that particular user and potentially group to write to the share. Add the following options to your mount: uid=&lt;user&gt;,gid=&lt;group&gt; and replace &lt;user&gt; and &lt;group&gt; respectively by your own user and default group, which you can find automatically with the id command.
+
+sudo mount -t cifs -o username=${USER},password=${PASSWORD},uid=$(id -u),gid=$(id -g) //server-address/folder /mount/path/on/ubuntu
+
+
+If the server is sending ownership information, you may need to add the forceuid and forcegid options.
+
+sudo mount -t cifs -o username=${USER},password=${PASSWORD},uid=$(id -u),gid=$(id -g),forceuid,forcegid, //server-address/folder /mount/path/on/ubuntu
+
+**参考链接**: https://unix.stackexchange.com/questions/68079/mount-cifs-network-drive-write-permissions-and-chown
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/68079/mount-cifs-network-drive-write-permissions-and-chown
+
+#### 57. Trying to SSH to local VM Ubuntu with Putty
+
+**故障现象**: Trying to SSH to local VM Ubuntu with Putty
+**标签 / 来源**: Tags: ubuntu, virtualbox, putty | unix | 👍 183 | 💬 6 answers
+
+**问题描述**:
+Tags: ubuntu, virtualbox, putty | Score: 183 | Views: 600105 | Answers: 6
+
+**解决方法 / 社区答案**:
+VirtualBox will create a private network (10.0.2.x) which will be connected to your host network using NAT. (Unless configured otherwise.)
+
+This means that you cannot directly access any host of the private network from the host network. To do so, you need some port forwarding. In the network preferences of your VM you can, for example, configure VirtualBox to open port 22 on 127.0.1.1 (a loopback address of your host) and forward any traffic to port 22 of 10.0.2.1 (the internal address of your VM)
+
+This way, you can point putty to Port 22 of 127.0.1.1 and VirtualBox will redirect this connection to your VM where its ssh daemon will answer it, allowing you to log in.
+
+**参考链接**: https://unix.stackexchange.com/questions/145997/trying-to-ssh-to-local-vm-ubuntu-with-putty
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/145997/trying-to-ssh-to-local-vm-ubuntu-with-putty
+
+#### 58. Sorting down processes by memory usage
+
+**故障现象**: Sorting down processes by memory usage
+**标签 / 来源**: Tags: linux, memory | unix | 👍 182 | 💬 9 answers
+
+**问题描述**:
+Tags: linux, memory | Score: 182 | Views: 494008 | Answers: 9
+
+**解决方法 / 社区答案**:
+Use the following command:
+
+ps aux --sort -rss
+
+
+Check here for more Linux process memory usage
+
+**参考链接**: https://unix.stackexchange.com/questions/92493/sorting-down-processes-by-memory-usage
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/92493/sorting-down-processes-by-memory-usage
+
+#### 59. How to sync two folders with command line tools?
+
+**故障现象**: How to sync two folders with command line tools?
+**标签 / 来源**: Tags: linux, files, file-copy, synchronization | unix | 👍 182 | 💬 9 answers
+
+**问题描述**:
+Tags: linux, files, file-copy, synchronization | Score: 182 | Views: 338370 | Answers: 9
+
+**解决方法 / 社区答案**:
+This puts folder A into folder B:
+rsync -avu --delete &quot;/home/user/A&quot; &quot;/home/user/B&quot;
+
+If you want the contents of folders A and B to be the same, put /home/user/A/ (with the slash) as the source. This takes not the folder A but all of its content and puts it into folder B. Like this:
+rsync -avu --delete &quot;/home/user/A/&quot; &quot;/home/user/B&quot;
+
+
+-a archive mode; equals -rlptgoD (no -H, -A, -X)
+-v run verbosely
+-u only copy files with a newer modification time (or size difference if the times are equal)
+--delete delete the files in target folder that do not exist in the source
+
+Manpage: https://download.samba.org/pub/rsync/rsync.html
+
+**参考链接**: https://unix.stackexchange.com/questions/203846/how-to-sync-two-folders-with-command-line-tools
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/203846/how-to-sync-two-folders-with-command-line-tools
+
+#### 60. How to move all files and folders via mv command
+
+**故障现象**: How to move all files and folders via mv command
+**标签 / 来源**: Tags: linux, command, rename | unix | 👍 182 | 💬 7 answers
+
+**问题描述**:
+Tags: linux, command, rename | Score: 182 | Views: 876725 | Answers: 7
+
+**解决方法 / 社区答案**:
+Try with this:
+
+mv /path/sourcefolder/* /path/destinationfolder/
+
+**参考链接**: https://unix.stackexchange.com/questions/50487/how-to-move-all-files-and-folders-via-mv-command
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/50487/how-to-move-all-files-and-folders-via-mv-command
+
+#### 61. How to change ownership of symbolic links?
+
+**故障现象**: How to change ownership of symbolic links?
+**标签 / 来源**: Tags: linux, permissions, rhel, symlink, ln | unix | 👍 179 | 💬 3 answers
+
+**问题描述**:
+Tags: linux, permissions, rhel, symlink, ln | Score: 179 | Views: 251905 | Answers: 3
+
+**解决方法 / 社区答案**:
+On a Linux system, when changing the ownership of a symbolic link using chown, by default it changes the target of the symbolic link (ie, whatever the symbolic link is pointing to).
+
+If you'd like to change ownership of the link itself, you need to use the -h option to chown:
+
+
+  -h, --no-dereference
+  affect  each  symbolic  link  instead of any referenced file (useful only on systems that can change the ownership of a symlink)
+
+
+For example:
+
+$ touch test
+$ ls -l test*
+-rw-r--r-- 1 mj   mj   0 Jul 27 08:47 test
+$ sudo ln -s test test1
+$ ls -l test*
+-rw-r--r-- 1 mj   mj   0 Jul 27 08:47 test
+lrwxrwxrwx 1 root root 4 Jul 27 08:47 test1 -&gt; test
+$ sudo chown root:root test1
+$ ls -l test*
+-rw-r--r-- 1 root root 0 Jul 27 08:47 test
+lrwxrwxrwx 1 root root 4 Jul 27 08:47 test1 -&gt; test
+
+
+Note that the target of the link is now owned by root.
+
+$ sudo chown mj:mj test1
+$ ls -l test*
+-rw-r--r-- 1 mj   mj   0 Jul 27 08:47 test
+lrwxrwxrwx 1 root root 4 Jul 27 08:47 test1 -&gt; test
+
+
+And again, the link test1 is still owned by root, even though test has changed.
+
+$ sudo chown -h mj:mj test1
+$ ls -l test*
+-rw-r--r-- 1 mj mj 0 Jul 27 08:47 test
+lrwxrwxrwx 1 mj mj 4 Jul 27 08:47 test1 -&gt; test
+
+
+And finally we change the ownership of the link using the -h option.
+
+**参考链接**: https://unix.stackexchange.com/questions/218557/how-to-change-ownership-of-symbolic-links
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/218557/how-to-change-ownership-of-symbolic-links
+
+#### 62. How do I read from /proc/$pid/mem under Linux?
+
+**故障现象**: How do I read from /proc/$pid/mem under Linux?
+**标签 / 来源**: Tags: linux, kernel, process, memory, proc | unix | 👍 176 | 💬 6 answers
+
+**问题描述**:
+Tags: linux, kernel, process, memory, proc | Score: 176 | Views: 190951 | Answers: 6
+
+**解决方法 / 社区答案**:
+/proc/$pid/maps
+/proc/$pid/mem shows the contents of $pid's memory mapped the same way as in the process, i.e., the byte at offset x in the pseudo-file is the same as the byte at address x in the process. If an address is unmapped in the process, reading from the corresponding offset in the file returns EIO (Input/output error). For example, since the first page in a process is never mapped (so that dereferencing a NULL pointer fails cleanly rather than unintendedly accessing actual memory), reading the first byte of /proc/$pid/mem always yield an I/O error.
+The way to find out what parts of the process memory are mapped is to read /proc/$pid/maps. This file contains one line per mapped region, looking like this:
+08048000-08054000 r-xp 00000000 08:01 828061     /bin/cat
+08c9b000-08cbc000 rw-p 00000000 00:00 0          [heap]
+
+The first two numbers are the boundaries of the region (addresses of the first byte and the byte after last, in hexa). The next column contain the permissions, then there's some information about the file (offset, device, inode and name) if this is a file mapping. See the proc(5) man page or Understanding Linux /proc/id/maps for more information.
+Here's a proof-of-concept script that dumps the contents of its own memory.
+#! /usr/bin/env python
+import re
+maps_file = open(&quot;/proc/self/maps&quot;, 'r')
+mem_file = open(&quot;/proc/self/mem&quot;, 'rb', 0)
+output_file = open(&quot;self.dump&quot;, 'wb')
+for line in maps_file.readlines():  # for each mapped region
+    m = re.match(r'([0-9A-Fa-f]+)-([0-9A-Fa-f]+) ([-r])', line)
+    if m.group(3) == 'r':  # if this is a readable region
+        start = int(m.group(1), 16)
+        end = int(m.group(2), 16)
+        mem_file.seek(start)  # seek to region start
+        chunk = mem_file.read(end - start)  # read region contents
+        output_file.write(chunk)  # dump contents to standard output
+maps_file.close()
+mem_file.close()
+output_file.close()
+
+
+/proc/$pid/mem
+[The following is for historical interest. It does not apply to current kernels.]
+Since version 3.3 of the kernel, you can access /proc/$pid/mem normally as long as you access only access it at mapped offsets and you have permission to trace it (same permissions as ptrace for read-only access). But in older kernels, there were some additional complications.
+If you try to read from the mem pseudo-file of another process, it doesn't work: you get an ESRCH (No such process) error.
+The permissions on /proc/$pid/mem (r--------) are more liberal than what should be the case. For example, you shouldn't be able to read a setuid process's memory. Furthermore, trying to read a process's memory while the process is modifying it could give the reader an inconsistent view of the memory, and worse, there were race conditions that could trace older versions of the Linux kernel (according to this lkml thread, though I don't know the details). So additional checks are needed:
+
+The process that wants to read from /proc/$pid/mem must attach to the process using ptrace with the PTRACE_ATTACH flag. This is what debuggers do when they start debugging a process; it's also what strace does to a process's system calls. Once the reader has finished reading from /proc/$pid/mem, it should detach by calling ptrace with the PTRACE_DETACH flag.
+The observed process must not be running. Normally calling ptrace(PTRACE_ATTACH, …) will stop the target process (it sends a STOP signal), but there is a race condition (signal delivery is asynchronous), so the tracer should call wait (as documented in ptrace(2)).
+
+A process running as root can read any process's memory, without needing to call ptrace, but the observed process must be stopped, or the read will still return ESRCH.
+In the Linux kernel source, the code providing per-process entries in /proc is in fs/proc/base.c, and the function to read from /proc/$pid/mem is mem_read. The additional check is performed by check_mem_permission.
+Here's some sample C code to attach to a process and read a chunk its of mem file (error checking omitted):
+sprintf(mem_file_name, &quot;/proc/%d/mem&quot;, pid);
+mem_fd = open(mem_file_name, O_RDONLY);
+ptrace(PTRACE_ATTACH, pid, NULL, NULL);
+waitpid(pid, NULL, 0);
+lseek(mem_fd, offset, SEEK_SET);
+read(mem_fd, buf, _SC_PAGE_SIZE);
+ptrace(PTRACE_DETACH, pid, NULL, NULL);
+
+I've already posted a proof-of-concept script for dumping /proc/$pid/mem on another thread.
+
+**参考链接**: https://unix.stackexchange.com/questions/6301/how-do-i-read-from-proc-pid-mem-under-linux
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/6301/how-do-i-read-from-proc-pid-mem-under-linux
+
+#### 63. Zip everything in current directory
+
+**故障现象**: Zip everything in current directory
+**标签 / 来源**: Tags: ubuntu, packaging, compression, zip | unix | 👍 176 | 💬 2 answers
+
+**问题描述**:
+Tags: ubuntu, packaging, compression, zip | Score: 176 | Views: 300258 | Answers: 2
+
+**解决方法 / 社区答案**:
+Install zip and use
+
+zip -r foo.zip .
+
+
+You can use the flags -0 (none) to -9 (best) to change compressionrate
+
+Excluding files can be done via the -x flag. From the man-page:
+
+-x files
+--exclude files
+          Explicitly exclude the specified files, as in:
+
+                 zip -r foo foo -x \*.o
+
+          which  will  include the contents of foo in foo.zip while excluding all the files that end in .o.  The backslash avoids the shell filename substitution, so that the name matching
+          is performed by zip at all directory levels.
+
+          Also possible:
+
+                 zip -r foo foo -x@exclude.lst
+
+          which will include the contents of foo in foo.zip while excluding all the files that match the patterns in the file exclude.lst.
+
+          The long option forms of the above are
+
+                 zip -r foo foo --exclude \*.o
+
+          and
+
+                 zip -r foo foo --exclude @exclude.lst
+
+          Multiple patterns can be specified, as in:
+
+                 zip -r foo foo -x \*.o \*.c
+
+          If there is no space between -x and the pattern, just one value is assumed (no list):
+
+                 zip -r foo foo -x\*.o
+
+          See -i for more on include and exclude.
+
+**参考链接**: https://unix.stackexchange.com/questions/27362/zip-everything-in-current-directory
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/27362/zip-everything-in-current-directory
+
+#### 64. Get the chmod numerical value for a file
+
+**故障现象**: Get the chmod numerical value for a file
+**标签 / 来源**: Tags: linux, freebsd, chmod | unix | 👍 172 | 💬 4 answers
+
+**问题描述**:
+Tags: linux, freebsd, chmod | Score: 172 | Views: 269466 | Answers: 4
+
+**解决方法 / 社区答案**:
+You can get the value directly using a stat output format, e.g.
+Linux:
+stat --format '%a' &lt;file&gt;
+
+BSD/OS X:
+stat -f &quot;%OLp&quot; &lt;file&gt;
+
+Busybox:
+ stat -c '%a' &lt;file&gt;
+
+**参考链接**: https://unix.stackexchange.com/questions/46915/get-the-chmod-numerical-value-for-a-file
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/46915/get-the-chmod-numerical-value-for-a-file
+
+#### 65. What are pseudo terminals (pty/tty)?
+
+**故障现象**: What are pseudo terminals (pty/tty)?
+**标签 / 来源**: Tags: linux, terminal, pty | unix | 👍 172 | 💬 3 answers
+
+**问题描述**:
+Tags: linux, terminal, pty | Score: 172 | Views: 129984 | Answers: 3
+
+**解决方法 / 社区答案**:
+What is a pseudo terminal? (tty/pty)
+
+A device that has the functions of a physical terminal without actually being one. Created by terminal emulators such as xterm. More detail is in the manpage pty(7).
+
+Why do we need them? How they got introduced and what was the need for it?
+
+Traditionally, UNIX has a concept of a controlling terminal for a group of processes, and many I/O functions are built with terminals in mind. Pseudoterminals handle, for example, some control characters like ^C.
+
+Are they outdated? Do we not need them anymore? Is there anything that replaced them?
+
+They are not outdated and are used in many programs, including ssh.
+
+Any useful use-case?
+
+ssh.
+
+**参考链接**: https://unix.stackexchange.com/questions/21147/what-are-pseudo-terminals-pty-tty
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/21147/what-are-pseudo-terminals-pty-tty
+
+#### 66. How to make log-rotate change take effect
+
+**故障现象**: How to make log-rotate change take effect
+**标签 / 来源**: Tags: linux, syslog, logrotate | unix | 👍 169 | 💬 4 answers
+
+**问题描述**:
+Tags: linux, syslog, logrotate | Score: 169 | Views: 400685 | Answers: 4
+
+**解决方法 / 社区答案**:
+logrotate uses crontab to work. It's scheduled work, not a daemon, so no need to reload its configuration.
+When the crontab executes logrotate, it will use your new config file automatically.
+If you need to test your config you can also execute logrotate on your own  with the command:
+logrotate /etc/logrotate.d/your-logrotate-config
+
+If you want to have a debug output use argument  -d
+logrotate -d /etc/logrotate.d/your-logrotate-config
+
+You may need to be root or a specific user to run this command.
+Or as mentioned in comments, identify the logrotate line in the output of the command crontab -l and execute the command line refer to slm's answer to have a precise cron.daily explanation
+
+**参考链接**: https://unix.stackexchange.com/questions/116136/how-to-make-log-rotate-change-take-effect
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/116136/how-to-make-log-rotate-change-take-effect
+
+#### 67. How do I attach a terminal to a detached process?
+
+**故障现象**: How do I attach a terminal to a detached process?
+**标签 / 来源**: Tags: linux, shell, command-line, terminal, process | unix | 👍 167 | 💬 5 answers
+
+**问题描述**:
+Tags: linux, shell, command-line, terminal, process | Score: 167 | Views: 300559 | Answers: 5
+
+**解决方法 / 社区答案**:
+Yes, it is. First, create a pipe:
+mkfifo /tmp/fifo.
+ Use gdb to attach to the process:
+gdb -p PID
+
+Then close stdin: call close (0); and open it again: call open ("/tmp/fifo", 0600)
+
+Finally, write away (from a different terminal, as gdb will probably hang):
+
+echo blah &gt; /tmp/fifo
+
+**参考链接**: https://unix.stackexchange.com/questions/31824/how-do-i-attach-a-terminal-to-a-detached-process
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/31824/how-do-i-attach-a-terminal-to-a-detached-process
+
+#### 68. Can I configure my Linux system for more aggressive file system caching?
+
+**故障现象**: Can I configure my Linux system for more aggressive file system caching?
+**标签 / 来源**: Tags: linux, filesystems, performance, fstab, sysctl | unix | 👍 167 | 💬 7 answers
+
+**问题描述**:
+Tags: linux, filesystems, performance, fstab, sysctl | Score: 167 | Views: 171822 | Answers: 7
+
+**解决方法 / 社区答案**:
+Improving disk cache performance in general is more than just increasing the file system cache size unless your whole system fits in RAM in which case you should use RAM drive (tmpfs is good because it allows falling back to disk if you need the RAM in some case) for runtime storage (and perhaps an initrd script to copy system from storage to RAM drive at startup).
+You didn't tell if your storage device is SSD or HDD. Here's what I've found to work for me (in my case sda is a HDD mounted at /home and sdb is SSD mounted at /).
+First optimize the load-stuff-from-storage-to-cache part:
+Here is my setup for HDD (make sure AHCI+NCQ is enabled in BIOS if you have toggles):
+    echo cfq &gt; /sys/block/sda/queue/scheduler
+    echo 10000 &gt; /sys/block/sda/queue/iosched/fifo_expire_async
+    echo 250 &gt; /sys/block/sda/queue/iosched/fifo_expire_sync
+    echo 80 &gt; /sys/block/sda/queue/iosched/slice_async
+    echo 1 &gt; /sys/block/sda/queue/iosched/low_latency
+    echo 6 &gt; /sys/block/sda/queue/iosched/quantum
+    echo 5 &gt; /sys/block/sda/queue/iosched/slice_async_rq
+    echo 3 &gt; /sys/block/sda/queue/iosched/slice_idle
+    echo 100 &gt; /sys/block/sda/queue/iosched/slice_sync
+    hdparm -q -M 254 /dev/sda
+
+Worth noting for the HDD case is high fifo_expire_async (usually write) and long slice_sync to allow a single process to get high throughput (set slice_sync to lower number if you hit situations where multiple processes are waiting for some data from the disk in parallel). The slice_idle is always a compromise for HDDs but setting it somewhere in range 3-20 should be okay depending on disk usage and disk firmware. I prefer to target for low values but setting it too low will destroy your throughput. The quantum setting seems to affect throughput a lot but try to keep this as low as possible to keep latency on sensible level. Setting quantum too low will destroy throughput. Values in range 3-8 seem to work well with HDDs. The worst case latency for a read is (quantum * slice_sync) + (slice_async_rq * slice_async) ms if I've understood the kernel behavior correctly. The async is mostly used by writes and since you're willing to delay writing to disk, set both slice_async_rq and slice_async to very low numbers. However, setting slice_async_rq too low value may stall reads because writes cannot be delayed after reads any more. My config will try to write data to disk at most after 10 seconds after data has been passed to kernel but since you can tolerate loss of data on power loss also set fifo_expire_async to 3600000 to tell that 1 hour is okay for the delay to disk. Just keep the slice_async low, though, because otherwise you can get high read latency.
+The hdparm command is required to prevent AAM from killing much of the performance that AHCI+NCQ allows. If your disk makes too much noise, then skip this.
+Here is my setup for SSD (Intel 320 series):
+    echo cfq &gt; /sys/block/sdb/queue/scheduler
+    echo 1 &gt; /sys/block/sdb/queue/iosched/back_seek_penalty
+    echo 10000 &gt; /sys/block/sdb/queue/iosched/fifo_expire_async
+    echo 20 &gt; /sys/block/sdb/queue/iosched/fifo_expire_sync
+    echo 1 &gt; /sys/block/sdb/queue/iosched/low_latency
+    echo 6 &gt; /sys/block/sdb/queue/iosched/quantum
+    echo 2 &gt; /sys/block/sdb/queue/iosched/slice_async
+    echo 10 &gt; /sys/block/sdb/queue/iosched/slice_async_rq
+    echo 1 &gt; /sys/block/sdb/queue/iosched/slice_idle
+    echo 20 &gt; /sys/block/sdb/queue/iosched/slice_sync
+
+Here it's worth noting the low values for different slice settings. The most important setting for an SSD is slice_idle which must be set to 0-1. Setting it to zero moves all ordering decisions to native NCQ while setting it to 1 allows kernel to order requests (but if the NCQ is active, the hardware may override kernel ordering partially). Test both values to see if you can see the difference. For Intel 320 series, it seems that setting slide_idle to 0 gives the best throughput but setting it to 1 gives best (lowest) overall latency. If you have recent enough kernel, you can use slide_idle_us to set the value in microseconds instead of milliseconds and you could use something like echo 14 &gt; slice_idle_us instead. Suitable value seems to be close to 700000 divided by max practical IOPS your storage device can support so 14 is okay for pretty fast SSD devices.
+For more information about these tunables, see https://www.kernel.org/doc/Documentation/block/cfq-iosched.txt .
+Update in year 2020 and kernel version 5.3 (cfq is dead):
+#!/bin/bash
+modprobe bfq
+for d in /sys/block/sd?; do
+  # HDD (tuned for Seagate SMR drive)
+  echo bfq &gt;&quot;$d/queue/scheduler&quot;
+  echo 4 &gt;&quot;$d/queue/nr_requests&quot;
+  echo 32000 &gt;&quot;$d/queue/iosched/back_seek_max&quot;
+  echo 3 &gt;&quot;$d/queue/iosched/back_seek_penalty&quot;
+  echo 80 &gt;&quot;$d/queue/iosched/fifo_expire_sync&quot;
+  echo 1000 &gt;&quot;$d/queue/iosched/fifo_expire_async&quot;
+  echo 5300 &gt;&quot;$d/queue/iosched/slice_idle_us&quot;
+  echo 1 &gt;&quot;$d/queue/iosched/low_latency&quot;
+  echo 200 &gt;&quot;$d/queue/iosched/timeout_sync&quot;
+  echo 0 &gt;&quot;$d/queue/iosched/max_budget&quot;
+  echo 1 &gt;&quot;$d/queue/iosched/strict_guarantees&quot;
+
+  # additional tweaks for SSD (tuned for Samsung EVO 850):
+  if test $(cat &quot;$d/queue/rotational&quot;) = &quot;0&quot;; then
+    echo 36 &gt;&quot;$d/queue/nr_requests&quot;
+    echo 1 &gt;&quot;$d/queue/iosched/back_seek_penalty&quot;
+    # slice_idle_us should be ~ 0.7/IOPS in µs
+    echo 16 &gt;&quot;$d/queue/iosched/slice_idle_us&quot;
+    echo 10 &gt;&quot;$d/queue/iosched/fifo_expire_sync&quot;
+    echo 250 &gt;&quot;$d/queue/iosched/fifo_expire_async&quot;
+    echo 10 &gt;&quot;$d/queue/iosched/timeout_sync&quot;
+    echo 0 &gt;&quot;$d/queue/iosched/strict_guarantees&quot;
+  fi
+done
+
+The setup is pretty similar but I now use bfq instead of cfq because the latter is not available with modern kernels. I try to keep nr_requests as low as possible to allow bfq to control the scheduling more accurately. At least Samsung SSD drives seem to require a pretty deep queue to be able to run with high IOPS. Update: Many Samsung SSDs have a firmware bug and can hang the whole device if nr_requests is too high and OS submits lots of requests rapidly. I've seen random freeze about once every 2 months if I use high nr_requests (e.g. 32 or 36), but the value 6 has been stable this far. The official fix is to set it to 1 but it hurts the performance a lot! For more details, see https://bugzilla.kernel.org/show_bug.cgi?id=203475 and https://bugzilla.kernel.org/show_bug.cgi?id=201693 – basically, if you have a Samsung SSD device and see failed command: WRITE FPDMA QUEUED in the kernel log, you've been bitten by this bug.
+If you have latest SSD firmware installed and still get hangs, try kernel flag libata.force=3.0Gbps. Surprisingly many motherboard SATA chipsets are not stable at 6 Gbps line speeds but are totally stable with 3 Gbps line speeds.
+I'm using Ubuntu 18.04 with kernel package linux-lowlatency-hwe-18.04-edge which has bfq only as a module so I need to load it before being able to switch to it.
+I also nowadays also use zram but I only use 5% of RAM for zram. This allows Linux kernel to use swapping related logic without touching the disks. However, if you decide to go with zero disk swap, make sure your apps do not leak RAM or you're wasting money.
+Now that we have configured kernel to load stuff from disk to cache with sensible performance, it's time to adjust the cache behavior:
+According to benchmarks I've done, I wouldn't bother setting read ahead via blockdev at all. Kernel default settings are fine.
+Set system to prefer swapping file data over application code (this does not matter if you have enough RAM to keep whole filesystem and all the application code and all virtual memory allocated by applications in RAM). This reduces latency for swapping between different applications over latency for accessing big files from a single application:
+echo 15 &gt; /proc/sys/vm/swappiness
+
+If you prefer to keep applications nearly always in RAM you could set this to 1. If you set this to zero, kernel will not swap at all unless absolutely necessary to avoid OOM. If you were memory limited and working with big files (e.g. HD video editing), then it might make sense to set this close to 100.
+I nowadays (2017) prefer to have no swap at all if you have enough RAM. Having no swap will usually lose 200-1000 MB of RAM on long running desktop machine. I'm willing to sacrifice that much to avoid worst case scenario latency (swapping application code in when RAM is full). In practice, this means that I prefer OOM Killer to swapping. If you allow/need swapping, you might want to increase /proc/sys/vm/watermark_scale_factor, too, to avoid some latency. I would suggest values between 100 and 500. You can consider this setting as trading CPU usage for lower swap latency. The default is 10 and the maximum possible is 1000. Higher value should (according to kernel documentation) result in higher CPU usage for kswapd processes and lower overall swapping latency.
+Next, tell kernel to prefer keeping directory hierarchy in memory over file contents and the rest of the page cache in case some RAM needs to be freed (again, if everything fits in RAM, this setting does nothing):
+echo 10 &gt; /proc/sys/vm/vfs_cache_pressure # kernel 5.3 or older
+
+echo 120 &gt; /proc/sys/vm/vfs_cache_pressure # kernel 5.4 or newer
+
+Setting vfs_cache_pressure to a low value makes sense because in most cases, the kernel needs to know the directory structure and other filesystem metadata before it can use file contents from the cache and flushing the directory cache too soon will make the file cache next to worthless. However, page cache contains also other data but just the file contents so this setting should be considered like the overall importance of metadata caching vs rest of the system. Consider going all the way down to 1 with this setting if you have lots of small files (my system has around 150K 10 megapixel photos and counts as a &quot;lots of small files&quot; system).
+Never set it to zero or the directory structure is always kept in memory even if the system runs out of memory.
+Setting this to a big value is sensible only if you have only a few big files that are constantly being re-read (again, HD video editing without enough RAM would be an example case). Official kernel documentation says that &quot;increasing vfs_cache_pressure significantly beyond 100 may have negative performance impact&quot;.
+Year 2021 update: After running with kernel version 5.4 for long enough, I've come to the conclusion that the very low vfs_cache_pressure setting (I used to run with 1 for years) may now be causing long stalls / bad latency when memory pressure gets high enough. However, I never noticed such behavior with kernel version 5.3 or lesser.
+Year 2022 update: I've been running kernel 5.4.x series for another year and I've come to the conclusion that vfs_cache_pressure has changed permanently. The kernel memory manager behavior that I used to get with kernel version 5.3 or older with values in range 1..5 seems to match real world behavior with 5.4 values in range 100..120. The newer kernels make this adjustment matter more so I'd recommend the value vfs_cache_pressure=120 nowadays for low latency overall. Kernel version 5.3 or older should use a very low but non-zero value here in my opinion.
+Exception: if you have a truly massive amount of files and directories and you rarely touch/read/list all files setting vfs_cache_pressure higher than 100 may be wise. This only applies if you do not have enough RAM and cannot keep the whole directory structure in RAM and still have enough RAM for normal file cache and processes (e.g. company wide file server with lots of archival content). If you feel that you need to increase vfs_cache_pressure way above 100 you're running without enough RAM (I have 64 GB RAM on my workstation and 120 seems to be a good setting for minimum latency overall). Increasing vfs_cache_pressure may help a bit but the only real fix is to get more RAM. Having vfs_cache_pressure set to high number sacrifices average performance for having a more stable performance overall (that is, you can avoid really bad worst case behavior but have to deal with worse overall performance).
+Finally, tell the kernel to use up to 99% of the RAM as cache for writes and instruct kernel to use up to 50% of RAM before slowing down the process that's writing (default for dirty_background_ratio is 10). Warning: I personally would not do this but you claimed to have enough RAM and are willing to lose the data.
+echo 99 &gt; /proc/sys/vm/dirty_ratio
+echo 50 &gt; /proc/sys/vm/dirty_background_ratio
+
+And tell that 1h write delay is ok to even start writing stuff on the disk (again, I would not do this):
+echo 360000 &gt; /proc/sys/vm/dirty_expire_centisecs
+echo 360000 &gt; /proc/sys/vm/dirty_writeback_centisecs
+
+For more information about these tunables, see https://www.kernel.org/doc/Documentation/sysctl/vm.txt
+If you put all of those to /etc/rc.local and include following at the end, everything will be in cache as soon as possible after boot (only do this if your filesystem really fits in the RAM):
+(nice find / -type f -and -not -path '/sys/*' -and -not -path '/proc/*' -print0 2&gt;/dev/null | nice ionice -c 3 wc -l --files0-from - &gt; /dev/null)&amp;
+
+Or a bit simpler alternative which might work better (cache only /home and /usr, only do this if your /home and /usr really fit in RAM):
+(nice find /home /usr -type f -print0 | nice ionice -c 3 wc -l --files0-from - &gt; /dev/null)&amp;
+
+**参考链接**: https://unix.stackexchange.com/questions/30286/can-i-configure-my-linux-system-for-more-aggressive-file-system-caching
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/30286/can-i-configure-my-linux-system-for-more-aggressive-file-system-caching
+
+#### 69. What is this folder /run/user/1000?
+
+**故障现象**: What is this folder /run/user/1000?
+**标签 / 来源**: Tags: linux, fedora, filesystems, directory-structure | unix | 👍 167 | 💬 2 answers
+
+**问题描述**:
+Tags: linux, fedora, filesystems, directory-structure | Score: 167 | Views: 195386 | Answers: 2
+
+**解决方法 / 社区答案**:
+/run/user/$uid is created by pam_systemd and used for storing files used by running processes for that user. These might be things such as your keyring daemon, pulseaudio, etc.
+
+Prior to systemd, these applications typically stored their files in /tmp. They couldn't use a location in /home/$user as home directories are often mounted over network filesystems, and these files should not be shared among hosts. /tmp was the only location specified by the FHS which is local, and writable by all users.
+
+However storing all these files in /tmp is problematic as /tmp is writable by everyone, and while you can change the ownership &amp; mode on the files being created, it's more difficult to work with.
+
+So systemd came along and created /run/user/$uid. This directory is local to the system and only accessible by the target user. So applications looking to store their files locally no longer have to worry about access control.
+It also keeps things nice and organized. When a user logs out, and no active sessions remain, pam_systemd will wipe the /run/user/$uid directory out. With various files scattered around /tmp, you couldn't do this.
+
+**参考链接**: https://unix.stackexchange.com/questions/162900/what-is-this-folder-run-user-1000
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/162900/what-is-this-folder-run-user-1000
+
+#### 70. How is Mono magical?
+
+**故障现象**: How is Mono magical?
+**标签 / 来源**: Tags: linux, executable, cross-compilation, mono | unix | 👍 165 | 💬 1 answers
+
+**问题描述**:
+Tags: linux, executable, cross-compilation, mono | Score: 165 | Views: 11848 | Answers: 1
+
+**解决方法 / 社区答案**:
+This is binfmt_misc in action: it allows the kernel to be told how to run binaries it doesn't know about. Look at the contents of /proc/sys/fs/binfmt_misc; among the files you see there, one should explain how to run Mono binaries:
+
+enabled
+interpreter /usr/lib/binfmt-support/run-detectors
+flags:
+offset 0
+magic 4d5a
+
+
+(on a Debian system). This tells the kernel that binaries starting with MZ (4d5a) should be given to run-detectors. The latter figures out whether to use Mono or Wine to run the binary.
+
+Binary types can be added, removed, enabled and disabled at any time; see the documentation above for details (the semantics are surprising, the virtual filesystem used here doesn't behave entirely like a standard filesystem). /proc/sys/fs/binfmt_misc/status gives the global status, and each binary "descriptor" shows its individual status. Another way of disabling binfmt_misc is to unload its kernel module, if it's built as a module; this also means it's possible to blacklist it to avoid it entirely.
+
+This feature allows new binary types to be supported, such as MZ executables (which include Windows PE and PE+ binaries, but also DOS and OS/2 binaries!), Java JAR files... It also allows known binary types to be supported on new architectures, typically using Qemu; thus, with the appropriate libraries, you can transparently run ARM Linux binaries on an Intel processor!
+
+Your question stemmed from cross-compilation, albeit in the .NET sense, and that brings up a caveat with binfmt_misc: some configuration scripts misbehave when you try to cross-compile on a system which can run the cross-compiled binaries. Typically, detecting cross-compilation involves building a binary and attempting to run it; if it runs, you're not cross-compiling, if it doesn't, you are (or your compiler's broken). autoconf scripts can usually be fixed in this case by explicitly specifying the build and host architectures, but sometimes you'll have to disable binfmt_misc temporarily...
+
+**参考链接**: https://unix.stackexchange.com/questions/259376/how-is-mono-magical
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/259376/how-is-mono-magical
+
+#### 71. Difference between pts and tty
+
+**故障现象**: Difference between pts and tty
+**标签 / 来源**: Tags: linux, tty, terminology, who | unix | 👍 164 | 💬 3 answers
+
+**问题描述**:
+Tags: linux, tty, terminology, who | Score: 164 | Views: 176362 | Answers: 3
+
+**解决方法 / 社区答案**:
+A tty is a native terminal device, the backend is either hardware or kernel-emulated.
+A pty (pseudo terminal device) is a terminal device which is emulated by another program (example: xterm, screen, or ssh are such programs). A pts is the slave part of a pty.
+(More info can be found in man pty.)
+Short summary:
+A pty is created by a process through posix_openpt() (which usually opens the special device /dev/ptmx), and is constituted by a pair of bidirectional character devices:
+
+The master part, which is the file descriptor obtained by this process through this call, is used to emulate a terminal. After some initialization, the second part can be unlocked with unlockpt(), and the master is used to receive or send characters to this second part (slave).
+
+The slave part, which is anchored in the filesystem as /dev/pts/x (the real name can be obtained by the master through ptsname()) behaves like a native terminal device (/dev/ttyx). In most cases, a shell is started that uses it as a controlling terminal.
+
+**参考链接**: https://unix.stackexchange.com/questions/21280/difference-between-pts-and-tty
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/21280/difference-between-pts-and-tty
+
+#### 72. How to show the filesystem type via the terminal?
+
+**故障现象**: How to show the filesystem type via the terminal?
+**标签 / 来源**: Tags: linux, filesystems | unix | 👍 163 | 💬 2 answers
+
+**问题描述**:
+Tags: linux, filesystems | Score: 163 | Views: 380005 | Answers: 2
+
+**解决方法 / 社区答案**:
+Yes, according to man df you can:
+
+
+-T, --print-type      print file system type
+
+
+
+Another way is to use the mount command. Without parameters it lists the currently mounted devices, including their file systems.
+
+In case you need to find out only one certain file system, is easier to use the stat command's -f option instead of parsing out one value from the above mentioned commands' output.
+
+**参考链接**: https://unix.stackexchange.com/questions/53313/how-to-show-the-filesystem-type-via-the-terminal
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/53313/how-to-show-the-filesystem-type-via-the-terminal
+
+#### 73. How do SO (shared object) numbers work?
+
+**故障现象**: How do SO (shared object) numbers work?
+**标签 / 来源**: Tags: linux, dynamic-linking | unix | 👍 163 | 💬 4 answers
+
+**问题描述**:
+Tags: linux, dynamic-linking | Score: 163 | Views: 123963 | Answers: 4
+
+**解决方法 / 社区答案**:
+Binaries themselves know which version of a shared library they depend on, and request it specifically. You can use ldd to show the dependencies; mine for ls are:
+
+$ ldd /bin/ls
+    linux-gate.so.1 =&gt;  (0xb784e000)
+    librt.so.1 =&gt; /lib/librt.so.1 (0xb782c000)
+    libacl.so.1 =&gt; /lib/libacl.so.1 (0xb7824000)
+    libc.so.6 =&gt; /lib/libc.so.6 (0xb76dc000)
+    libpthread.so.0 =&gt; /lib/libpthread.so.0 (0xb76c3000)
+    /lib/ld-linux.so.2 (0xb784f000)
+    libattr.so.1 =&gt; /lib/libattr.so.1 (0xb76bd000)
+
+
+As you can see, it points to e.g. libpthread.so.0, not just libpthread.so.
+
+
+
+The reason for the symbolic link is for the linker. When you want to link against libpthread.so directly, you give gcc the flag -lpthread, and it adds on the lib prefix and .so suffix automatically. You can't tell it to add on the .so.0 suffix, so the symbolic link points to the newest version of the lib to faciliate that
+
+**参考链接**: https://unix.stackexchange.com/questions/475/how-do-so-shared-object-numbers-work
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/475/how-do-so-shared-object-numbers-work
+
+#### 74. How to output only file names (with spaces) in ls -Al?
+
+**故障现象**: How to output only file names (with spaces) in ls -Al?
+**标签 / 来源**: Tags: linux, command-line, ls | unix | 👍 162 | 💬 10 answers
+
+**问题描述**:
+Tags: linux, command-line, ls | Score: 162 | Views: 448811 | Answers: 10
+
+**解决方法 / 社区答案**:
+You really should not parse the output of ls. If this is a homework assignment and you are required to, your professor does not know what they're talking about. Why don't you do something like this:
+
+  The good...
+
+find ./  -printf "%f\n"
+
+
+or
+
+for n in *; do printf '%s\n' "$n"; done
+
+
+...the bad...
+
+If you really really want to use ls, you can make it a little bit more robust by doing something like this:
+
+ls -lA | awk -F':[0-9]* ' '/:/{print $2}'
+
+
+...and the ugly
+
+If you insist on doing it the wrong, dangerous way and just have to use a while loop, do this:
+
+ls -Al | while IFS= read -r string; do echo "$string" | 
+    awk -F':[0-9]* ' '/:/{print $2}'; done
+
+
+Seriously though, just don't.
+
+**参考链接**: https://unix.stackexchange.com/questions/70614/how-to-output-only-file-names-with-spaces-in-ls-al
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/70614/how-to-output-only-file-names-with-spaces-in-ls-al
+
+#### 75. How to see process created by specific user in Unix/linux
+
+**故障现象**: How to see process created by specific user in Unix/linux
+**标签 / 来源**: Tags: linux, process, ps | unix | 👍 161 | 💬 3 answers
+
+**问题描述**:
+Tags: linux, process, ps | Score: 161 | Views: 478947 | Answers: 3
+
+**解决方法 / 社区答案**:
+To view only the processes owned by a specific user, use the following command:
+
+top -U [username]
+
+
+Replace the [username] with the required username
+
+If you want to use ps then
+
+ps -u [username]
+
+
+OR
+
+ ps -ef | grep &lt;username&gt;
+
+
+OR
+
+ps -efl | grep &lt;username&gt;
+
+
+for the extended listing
+
+Check out the man ps page for options
+
+Another alternative is to use pstree wchich prints the process tree of the user
+
+pstree &lt;username or pid&gt;
+
+**参考链接**: https://unix.stackexchange.com/questions/85466/how-to-see-process-created-by-specific-user-in-unix-linux
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/85466/how-to-see-process-created-by-specific-user-in-unix-linux
+
+#### 76. Long line wrapping in Nano
+
+**故障现象**: Long line wrapping in Nano
+**标签 / 来源**: Tags: ubuntu, nano | unix | 👍 160 | 💬 8 answers
+
+**问题描述**:
+Tags: ubuntu, nano | Score: 160 | Views: 189904 | Answers: 8
+
+**解决方法 / 社区答案**:
+To see the word wrapping style you described, use nano's "soft wrapping": Esc+$.
+
+The Esc+L command you (and everyone) tried does "hard wrapping."
+
+Note on keystroke notation - if you are new to Linux, the notation Esc+$ means press and release Esc and then press $.  The full key press sequence then is Esc, Shift+4.
+
+(It does not mean hold down escape while pressing $.)
+
+Source: https://www.nano-editor.org/dist/v2.9/nano.html (search for --softwrap)
+
+
+Note on softwrap and formatting mistakes - If you are new to nano, be a little careful of softwrap. If you are editing a configuration file or something else that is sensitive to newlines or indents, formatting mistakes can be made. Until you get comfortable with softwrap’s behaviors, I suggest doing a quick check with softwrap off (do the key sequence again) before saving. 
+
+Note on the goodness provided by others in their answers below - because different operating systems and different versions of nano do things a little differently:
+
+
+If you like softwrap on all of the time, set it in your .nanorc, as described in x0a's answer below, as it is a bit more through than Prashant's.
+If you have a Raspberry Pi, note chainsawmascara's answer about needing an extra keystroke for softwrap to go into effect.
+If you have a Mac, like lodeOfCode's answer below, you can always update nano and here, and thus bask in the warm glow of softwrap!
+
+
+nano linewrap
+
+**参考链接**: https://unix.stackexchange.com/questions/122795/long-line-wrapping-in-nano
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/122795/long-line-wrapping-in-nano
+
+#### 77. List partition labels from the command line
+
+**故障现象**: List partition labels from the command line
+**标签 / 来源**: Tags: linux, command-line, partition, disk | unix | 👍 158 | 💬 14 answers
+
+**问题描述**:
+Tags: linux, command-line, partition, disk | Score: 158 | Views: 326238 | Answers: 14
+
+**解决方法 / 社区答案**:
+with lsblk
+For instance, the command
+lsblk -o name,mountpoint,label,size,uuid
+
+outputs:
+NAME                           MOUNTPOINT     LABEL         SIZE UUID
+sda                                                         1.4T
+├─sda1                         /boot          boot          953M f557b9f0-edb5-42bb-94d8-27bc03c3c2c7
+├─sda2                                                     46.6G 727fa348-8804-4773-ae3d-f3e176d12dac
+│ └─sda2_crypt (dm-0)                                      46.6G P1kvJI-5iqv-s9gJ-8V2H-2EEO-q4aK-sx4aDi
+│   ├─debian_crypt-swap (dm-1) [SWAP]                         2G 3f9f24d7-86d1-4e21-93e9-f3c181d05cf0
+│   ├─debian_crypt-tmp (dm-2)  /tmp           tmp             5G 93fc8219-f985-45fb-bd5c-2c7940a7512d
+│   ├─debian_crypt-home (dm-3) /home          home            6G 12e8566c-8f0f-45ec-8524-6d9d9ee91eae
+│   └─debian_crypt-root (dm-4) /              root         33.6G 9685570b-4c9e-43ea-815e-49d10dc7a1bf
+├─sda3                                                    651.9G d3e0436c-85f6-45c6-9d8f-28b79ee06102
+│ └─crypt_gusto (dm-8)         /media/Gusto   Gusto       651.9G 0c084508-cb8b-4b61-832d-6b85273f33c4
+├─sda4                                                        1K
+├─sda5                                                      298G 5063da5f-9b68-43de-914c-32b89622bcc8
+│ └─crypt_kabi (dm-7)          /media/Kabi    Kabi          298G e6a0b66c-8fe9-4e7b-9d54-7b2b430e109d
+├─sda6                                                    213.6G 5129d860-bb41-4393-b4b1-f8af53d9155d
+│ └─crypt_zami (dm-6)          /media/Zami    Zami        213.6G 19101155-6070-4f37-b39d-19f28867c66b
+├─sda7                         /media/Server  Server       85.6G a9f4dae5-901c-4f49-bb30-592de3000713
+└─sda8                                                    100.6G dc7f4586-a33d-4707-98e9-8b55c559b0d2
+  └─crypt_grafi (dm-5)         /media/Grafi   Grafi       100.6G 5e3242e1-ec7a-4806-92f7-88a126feea94
+sdb                                                        14.5G
+├─sdb1                                        DEBIAN_LIVE     3G 6bf4d915-2b62-444e-a2c8-16307769b5c2
+├─sdb2                                                        2G 90ec6f73-8fdb-4c8d-aebd-cadd0f51b412
+│ └─crypt_sdb2 (dm-10)         /mnt           data            2G 91e779dd-0a3f-40b2-8ad0-257d860541a6
+└─sdb3                                        linux         9.5G 14a783a4-96dd-4a85-8de7-6e8eea230594
+loop0                                                      1000M a3be80bf-0f2c-44ed-8de5-d60e3b19c01a
+└─crypt_dropbox (dm-9)         /media/Dropbox Dropbox       998M 8461e2cf-ae17-449b-8ee5-29cc88688b8b
+zram0                          [SWAP]                       250M f8254ae5-5ae6-4fda-b8ef-83f25c405894
+zram1                          [SWAP]                       250M 7e7ed90d-731c-422a-bf9b-828f09b80502
+
+You can specify plenty of columns in whatever order you like:
+Available output columns:
+         NAME  device name
+        KNAME  internal kernel device name
+         PATH  path to the device node
+      MAJ:MIN  major:minor device number
+      FSAVAIL  filesystem size available
+       FSSIZE  filesystem size
+       FSTYPE  filesystem type
+       FSUSED  filesystem size used
+       FSUSE%  filesystem use percentage
+      FSROOTS  mounted filesystem roots
+        FSVER  filesystem version
+   MOUNTPOINT  where the device is mounted
+  MOUNTPOINTS  all locations where device is mounted
+        LABEL  filesystem LABEL
+         UUID  filesystem UUID
+       PTUUID  partition table identifier (usually UUID)
+       PTTYPE  partition table type
+     PARTTYPE  partition type code or UUID
+ PARTTYPENAME  partition type name
+    PARTLABEL  partition LABEL
+     PARTUUID  partition UUID
+    PARTFLAGS  partition flags
+           RA  read-ahead of the device
+           RO  read-only device
+           RM  removable device
+      HOTPLUG  removable or hotplug device (usb, pcmcia, ...)
+        MODEL  device identifier
+       SERIAL  disk serial number
+         SIZE  size of the device
+        STATE  state of the device
+        OWNER  user name
+        GROUP  group name
+         MODE  device node permissions
+    ALIGNMENT  alignment offset
+       MIN-IO  minimum I/O size
+       OPT-IO  optimal I/O size
+      PHY-SEC  physical sector size
+      LOG-SEC  logical sector size
+         ROTA  rotational device
+        SCHED  I/O scheduler name
+      RQ-SIZE  request queue size
+         TYPE  device type
+     DISC-ALN  discard alignment offset
+    DISC-GRAN  discard granularity
+     DISC-MAX  discard max bytes
+    DISC-ZERO  discard zeroes data
+        WSAME  write same max bytes
+          WWN  unique storage identifier
+         RAND  adds randomness
+       PKNAME  internal parent kernel device name
+         HCTL  Host:Channel:Target:Lun for SCSI
+         TRAN  device transport type
+   SUBSYSTEMS  de-duplicated chain of subsystems
+          REV  device revision
+       VENDOR  device vendor
+        ZONED  zone model
+          DAX  dax-capable device
+
+**参考链接**: https://unix.stackexchange.com/questions/14165/list-partition-labels-from-the-command-line
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/14165/list-partition-labels-from-the-command-line
+
+#### 78. Why does /etc/resolv.conf point at 127.0.0.53?
+
+**故障现象**: Why does /etc/resolv.conf point at 127.0.0.53?
+**标签 / 来源**: Tags: linux, dns, resolv.conf | unix | 👍 158 | 💬 3 answers
+
+**问题描述**:
+Tags: linux, dns, resolv.conf | Score: 158 | Views: 318752 | Answers: 3
+
+**解决方法 / 社区答案**:
+You are likely running systemd-resolved as a service.
+systemd-resolved generates two configuration files on the fly, for optional use by DNS client libraries (such as the BIND DNS client library in C libraries):
+
+/run/systemd/resolve/stub-resolv.conf tells DNS client libraries to send their queries to 127.0.0.53.  This is where the systemd-resolved process listens for DNS queries, which it then forwards on.
+/run/systemd/resolve/resolv.conf tells DNS client libraries to send their queries to IP addresses that systemd-resolved has obtained on the fly from its configuration files and DNS server information contained in DHCP leases.  Effectively, this bypasses the systemd-resolved forwarding step, at the expense of also bypassing all of systemd-resolved's logic for making complex decisions about what to actually forward to, for any given transaction.
+
+In both cases, systemd-resolved configures a search list of domain name suffixes, again derived on the fly from its configuration files and DHCP leases (which it is told about via a mechanism that is beyond the scope of this answer).
+/etc/resolv.conf can optionally be:
+
+a symbolic link to either of these;
+a symbolic link to a package-supplied static file at /usr/lib/systemd/resolv.conf, which also specifies 127.0.0.53 but no search domains calculated on the fly;
+some other file entirely.
+
+It's likely that you have such a symbolic link.
+In which case, the thing that knows about the 192.168.1.1 setting, that is (presumably) handed out in DHCP leases by the DHCP server on your LAN, is systemd-resolved, which is forwarding query traffic to it as you have observed.
+Your DNS client libraries, in your applications programs, are themselves only talking to systemd-resolved.
+Ironically, although it could be that you haven't captured loopback interface traffic to/from 127.0.0.53 properly, it is more likely that you aren't seeing it because systemd-resolved also (optionally) bypasses the BIND DNS Client in your C libraries and generates no such traffic to be captured.
+There's an NSS module provided with systemd-resolved, named nss-resolve, that is a plug-in for your C libraries.
+Previously, your C libraries would have used another plug-in named nss-dns which uses the BIND DNS Client to make queries using the DNS protocol to the server(s) listed in /etc/resolv.conf, applying the domain suffixes listed therein.
+nss-resolve gets listed ahead of nss-dns in your /etc/nsswitch.conf file, causing your C libraries to not use the BIND DNS Client, or the DNS protocol, to perform name→address lookups at all.
+Instead, nss-resolve speaks a non-standard and idiosyncratic protocol over the (system-wide) Desktop Bus to systemd-resolved, which again makes back end queries of 192.168.1.1 or whatever your DHCP leases and configuration files say.
+To intercept that you have to monitor the Desktop Bus traffic with dbus-monitor or some such tool.
+It's not even IP traffic, let alone IP traffic over a loopback network interface. as the Desktop Bus is reached via an AF_LOCAL socket.
+If you want to use a third-party resolving proxy DNS server at 1.1.1.1, or some other IP address, you have three choices:
+
+Configure your DHCP server to hand that out instead of handing out 192.168.1.1.  systemd-resolved will learn of that via the DHCP leases and use it.
+Configure systemd-resolved via its own configuration mechanisms to use that instead of what it is seeing in the DHCP leases.
+Make your own /etc/resolv.conf file, an actual regular file instead of a symbolic link, list 1.1.1.1 there and remember to turn off nss-resolve so that you go back to using nss-dns and the BIND DNS Client.
+
+The systemd-resolved configuration files are a whole bunch of files in various directories that get combined, and how to configure them for the second choice aforementioned is beyond the scope of this answer.
+Read the resolved.conf(5) manual page for that.
+
+**参考链接**: https://unix.stackexchange.com/questions/612416/why-does-etc-resolv-conf-point-at-127-0-0-53
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/612416/why-does-etc-resolv-conf-point-at-127-0-0-53
+
+#### 79. How does the OOM killer decide which process to kill first?
+
+**故障现象**: How does the OOM killer decide which process to kill first?
+**标签 / 来源**: Tags: linux, memory, out-of-memory | unix | 👍 157 | 💬 1 answers
+
+**问题描述**:
+Tags: linux, memory, out-of-memory | Score: 157 | Views: 189916 | Answers: 1
+
+**解决方法 / 社区答案**:
+If memory is exhaustively used up by processes, to the extent which can possibly threaten the stability of the system, then the OOM killer comes into the picture.
+NOTE: It is the task of the OOM Killer to continue killing processes until enough memory is freed for the smooth functioning of the rest of the process that the Kernel is attempting to run.
+The OOM Killer has to select the best process(es) to kill. Best here refers to that process which will free up the maximum memory upon killing and is also the least important to the system.
+The primary goal is to kill the least number of processes that minimizes the damage done and at the same time maximizing the amount of memory freed.
+To facilitate this, the kernel maintains an oom_score for each of the processes. You can see the oom_score of each of the processes in the /proc filesystem under the pid directory.
+$ cat /proc/10292/oom_score
+
+The higher the value of oom_score of any process, the higher is its likelihood of getting killed by the OOM Killer in an out-of-memory situation.
+How is the OOM_Score calculated?
+
+In David's patch set, the old badness() heuristics are almost entirely
+gone. Instead, the calculation turns into a simple question of what
+percentage of the available memory is being used by the process. If
+the system as a whole is short of memory, then &quot;available memory&quot; is
+the sum of all RAM and swap space available to the system.
+If instead, the OOM situation is caused by exhausting the memory allowed
+to a given cpuset/control group, then &quot;available memory&quot; is the total
+amount allocated to that control group. A similar calculation is made
+if limits imposed by a memory policy have been exceeded. In each case,
+the memory use of the process is deemed to be the sum of its resident
+set (the number of RAM pages it is using) and its swap usage.
+This calculation produces a percent-times-ten number as a result; a
+process which is using every byte of the memory available to it will
+have a score of 1000, while a process using no memory at all will get
+a score of zero. There are very few heuristic tweaks to this score,
+but the code does still subtract a small amount (30) from the score of
+root-owned processes on the notion that they are slightly more
+valuable than user-owned processes.
+One other tweak which is applied is to add the value stored in each
+process's oom_score_adj variable, which can be adjusted via /proc.
+This knob allows the adjustment of each process's attractiveness to
+the OOM killer in user space; setting it to -1000 will disable OOM
+kills entirely, while setting to +1000 is the equivalent of painting a
+large target on the associated process.
+
+References
+http://www.queryhome.com/15491/whats-happening-kernel-starting-killer-choose-which-process
+https://serverfault.com/a/571326
+
+**参考链接**: https://unix.stackexchange.com/questions/153585/how-does-the-oom-killer-decide-which-process-to-kill-first
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/153585/how-does-the-oom-killer-decide-which-process-to-kill-first
+
+#### 80. Show top five CPU consuming processes with `ps`
+
+**故障现象**: Show top five CPU consuming processes with `ps`
+**标签 / 来源**: Tags: linux, ps | unix | 👍 156 | 💬 13 answers
+
+**问题描述**:
+Tags: linux, ps | Score: 156 | Views: 520011 | Answers: 13
+
+**解决方法 / 社区答案**:
+Why use ps when you can do it easily with the top command?
+
+If you must use ps, try this:
+
+ps aux | sort -nrk 3,3 | head -n 5
+
+
+If you want something that's truly 'top'esq with constant updates, use watch
+
+watch "ps aux | sort -nrk 3,3 | head -n 5"
+
+**参考链接**: https://unix.stackexchange.com/questions/13968/show-top-five-cpu-consuming-processes-with-ps
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/13968/show-top-five-cpu-consuming-processes-with-ps
+
+#### 81. How do I kill all screens?
+
+**故障现象**: How do I kill all screens?
+**标签 / 来源**: Tags: linux, bash, gnu-screen, kill | unix | 👍 153 | 💬 8 answers
+
+**问题描述**:
+Tags: linux, bash, gnu-screen, kill | Score: 153 | Views: 467444 | Answers: 8
+
+**解决方法 / 社区答案**:
+You can use :
+
+pkill screen
+
+
+Or 
+
+killall screen
+
+
+
+
+In OSX the process is called SCREEN in all caps. So, use:
+
+pkill SCREEN
+
+
+Or
+
+killall SCREEN
+
+**参考链接**: https://unix.stackexchange.com/questions/94527/how-do-i-kill-all-screens
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/94527/how-do-i-kill-all-screens
+
+#### 82. How can I look up a username by id in linux?
+
+**故障现象**: How can I look up a username by id in linux?
+**标签 / 来源**: Tags: linux, ubuntu, users, uuid | unix | 👍 146 | 💬 8 answers
+
+**问题描述**:
+Tags: linux, ubuntu, users, uuid | Score: 146 | Views: 362675 | Answers: 8
+
+**解决方法 / 社区答案**:
+You might enjoy this little ditty. 
+
+$ id -nu [number]
+
+
+3.17.3-1-ARCH #1 SMP PREEMPT Fri Nov 14 22:56:01 CET 2014 i686 GNU/Linux
+
+I can confirm that it returns a corresponding user name, if one exists, on Arch Linux. I can also confirm that it does not work on Ubuntu when run as a normal user, although I have not tested this as the superuser. It also does not work on Alpine Linux. Maybe a security feature prevents this from working on some systems.
+
+**参考链接**: https://unix.stackexchange.com/questions/36580/how-can-i-look-up-a-username-by-id-in-linux
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/36580/how-can-i-look-up-a-username-by-id-in-linux
+
+#### 83. Difference between /bin and /usr/bin
+
+**故障现象**: Difference between /bin and /usr/bin
+**标签 / 来源**: Tags: linux, directory, fhs | unix | 👍 144 | 💬 5 answers
+
+**问题描述**:
+Tags: linux, directory, fhs | Score: 144 | Views: 160721 | Answers: 5
+
+**解决方法 / 社区答案**:
+What? no /bin/ is not a symlink to /usr/bin on any FHS compliant system. Note that there are still popular Unices and Linuxes that ignore this - for example, /bin and /sbin are symlinked to /usr/bin on Arch Linux (the reasoning being that you don't need /bin for rescue/single-user-mode, since you'd just boot a live CD).
+
+/bin
+
+contains commands that may be used by both the system administrator and by users, but which are required when no other filesystems are mounted (e.g. in single user mode). It may also contain commands which are used indirectly by scripts
+
+/usr/bin/
+
+This is the primary directory of executable commands on the system.
+
+essentially, /bin contains executables which are required by the system for emergency repairs, booting, and single user mode. /usr/bin contains any binaries that aren't required.
+
+I will note, that they can be on separate disks/partitions, /bin must be on the same disk as /. /usr/bin can be on another disk - although note that this configuration has been kind of broken for a while (this is why e.g. systemd warns about this configuration on boot).
+
+For full correctness, some unices may ignore FHS, as I believe it is only a Linux Standard, I'm not aware that it has yet been included in SUS, Posix or any other UNIX standard, though it should be IMHO. It is a part of the LSB standard though.
+
+**参考链接**: https://unix.stackexchange.com/questions/5915/difference-between-bin-and-usr-bin
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/5915/difference-between-bin-and-usr-bin
+
+#### 84. How do I know if a partition is ext2, ext3, or ext4?
+
+**故障现象**: How do I know if a partition is ext2, ext3, or ext4?
+**标签 / 来源**: Tags: linux, ext4, ext3, ext2 | unix | 👍 143 | 💬 12 answers
+
+**问题描述**:
+Tags: linux, ext4, ext3, ext2 | Score: 143 | Views: 229365 | Answers: 12
+
+**解决方法 / 社区答案**:
+How do I tell what sort of data (what data format) is in a file?
+→ Use the file utility.
+
+Here, you want to know the format of data in a device file, so you need to pass the -s flag to tell file not just to say that it's a device file but look at the content. Sometimes you'll need the -L flag as well, if the device file name is a symbolic link. You'll see output like this:
+
+# file -sL /dev/sd*
+/dev/sda1: Linux rev 1.0 ext4 filesystem data, UUID=63fa0104-4aab-4dc8-a50d-e2c1bf0fb188 (extents) (large files) (huge files)
+/dev/sdb1: Linux rev 1.0 ext2 filesystem data, UUID=b3c82023-78e1-4ad4-b6e0-62355b272166
+/dev/sdb2: Linux/i386 swap file (new style), version 1 (4K pages), size 4194303 pages, no label, UUID=3f64308c-19db-4da5-a9a0-db4d7defb80f
+
+
+Given this sample output, the first disk has one partition and the second disk has two partitions. /dev/sda1 is an ext4 filesystem, /dev/sdb1 is an ext2 filesystem, and /dev/sdb2 is some swap space (about 4GB).
+
+You must run this command as root, because ordinary users may not read disk partitions directly: if needed, add sudo in front.
+
+**参考链接**: https://unix.stackexchange.com/questions/60723/how-do-i-know-if-a-partition-is-ext2-ext3-or-ext4
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/60723/how-do-i-know-if-a-partition-is-ext2-ext3-or-ext4
+
+#### 85. How can I tell what version of Linux I&#39;m using?
+
+**故障现象**: How can I tell what version of Linux I&#39;m using?
+**标签 / 来源**: Tags: linux, ssh, version, info, system-information | unix | 👍 142 | 💬 13 answers
+
+**问题描述**:
+Tags: linux, ssh, version, info, system-information | Score: 142 | Views: 175458 | Answers: 13
+
+**解决方法 / 社区答案**:
+If I need to know what it is say Linux/Unix , 32/64 bit
+
+uname -a 
+
+
+This would give me almost all information that I need, 
+
+If I further need to know what release it is say (Centos 5.4, or 5.5 or 5.6)
+on a Linux box I would further check the file /etc/issue to see its release info ( or for Debian / Ubuntu /etc/lsb-release )
+
+Alternative way is to use the lsb_release utility:
+
+lsb_release -a
+
+
+Or do a rpm -qa | grep centos-release or redhat-release for RHEL derived systems
+
+**参考链接**: https://unix.stackexchange.com/questions/23833/how-can-i-tell-what-version-of-linux-im-using
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/23833/how-can-i-tell-what-version-of-linux-im-using
+
+#### 86. What is the difference between reboot , init 6 and shutdown -r now?
+
+**故障现象**: What is the difference between reboot , init 6 and shutdown -r now?
+**标签 / 来源**: Tags: linux, shutdown, init, reboot | unix | 👍 142 | 💬 4 answers
+
+**问题描述**:
+Tags: linux, shutdown, init, reboot | Score: 142 | Views: 415220 | Answers: 4
+
+**解决方法 / 社区答案**:
+There is no difference in them. Internally they do exactly the same thing:
+
+
+reboot uses the shutdown command (with the -r switch). The shutdown command used to kill all the running processes, unmount all the file systems and finally tells the kernel to issue the ACPI power command. The source can be found here.
+In older distros the reboot command was forcing the processes to exit by issuing the SIGKILL signal (still found in sources, can be invoked with -f option), in most recent distros it defaults to the more graceful and init friendly init 1 -&gt; shutdown -r. This ensures that daemons clean up themselves before shutdown.
+init 6 tells the init process to shutdown all of the spawned processes/daemons as written in the init files (in the inverse order they started) and lastly invoke the shutdown -r now command to reboot the machine
+
+
+Today there is not much difference as both commands do exactly the same, and they respect the init scripts used to start services/daemons by invoking the shutdown scripts for them. Except for reboot -f -r now as stated below
+
+There is a small explanation taken from manpages of why the reboot -f is not safe:
+
+
+  -f, --force
+    Force immediate halt, power-off, reboot. Don't contact the init system.
+
+
+Edit:
+
+Forgot to mention, in upcoming RHEL distributions you should use the new systemctl command to issue poweroff/reboot. As stated in the manpages of reboot and shutdown they are "a legacy command available for compatibility only." and the systemctl method will be the only one safe.
+
+**参考链接**: https://unix.stackexchange.com/questions/64280/what-is-the-difference-between-reboot-init-6-and-shutdown-r-now
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/64280/what-is-the-difference-between-reboot-init-6-and-shutdown-r-now
+
+#### 87. Linux ls to show only file name, date, and size
+
+**故障现象**: Linux ls to show only file name, date, and size
+**标签 / 来源**: Tags: linux, command-line, files, ls | unix | 👍 141 | 💬 15 answers
+
+**问题描述**:
+Tags: linux, command-line, files, ls | Score: 141 | Views: 248431 | Answers: 15
+
+**解决方法 / 社区答案**:
+Try stat instead of ls. Here with the GNU implementation of stat (beware the BSDs and zsh also have a stat command but with a completely different API):
+stat -c &quot;%y %s %n&quot; -- *
+
+To output in columnar format (assuming none of the file names contain comma or newline characters):
+stat -c &quot;%n,%s&quot; -- * | column -t -s,
+
+Beware that if there's a file called - in the current working directory, GNU stat will report information about the file opened on stdin instead of for that file.
+If you run into a Argument list too long error, with shells where printf is builtin, you can change it to:
+printf '%s\0' * | xargs -0 stat -c &quot;%y %s %n&quot; --
+
+Or in ksh93:
+command -x stat -c &quot;%y %s %n&quot; -- *
+
+Which will run as many invocations of stat as necessary to work around the limit on the size of the arguments.
+
+**参考链接**: https://unix.stackexchange.com/questions/22218/linux-ls-to-show-only-file-name-date-and-size
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/22218/linux-ls-to-show-only-file-name-date-and-size
+
+#### 88. File permission issues with shared folders under Virtual Box (Ubuntu Guest, Windows Host)
+
+**故障现象**: File permission issues with shared folders under Virtual Box (Ubuntu Guest, Windows Host)
+**标签 / 来源**: Tags: ubuntu, permissions, virtualbox, virtual-machine | unix | 👍 141 | 💬 10 answers
+
+**问题描述**:
+Tags: ubuntu, permissions, virtualbox, virtual-machine | Score: 141 | Views: 333935 | Answers: 10
+
+**解决方法 / 社区答案**:
+The regular way of getting access to the files now, is to allow VirtualBox to automount the shared folder (which will make it show up under /media/sf_directory_name) and then to add your regular Ubuntu user to the vboxsf group (as root #).
+
+# usermod -aG vboxsf &lt;youruser&gt;
+
+
+By default, without manual action, the mounts look like this,
+
+drwxrwx--- 1 root vboxsf 40960 Oct 23 10:42 sf_&lt;name&gt;
+
+
+so the vboxsf group has full access.  By adding your user to that group, you gain full access.  So you wouldn't worry about changing their permissions (which don't make sense on the Windows host), you just give yourself access.
+
+In this specific case, this is the automounted Shared Folder,
+
+Ubuntu               214153212  31893804 182259408  15% /media/sf_Ubuntu
+
+
+and it is that directory that should be used to access to the Shared Folder, by putting the local user into the vboxsf group.  If you want a 'better' link under your user's home directory, you could always create a symbolic link.
+
+ln -s /media/sf_Ubuntu /home/m/Desktop/vbox_shared
+
+
+You will need to reboot your VM for these changes to take effect
+
+If you manually mount the shared folder, then you need to use the relevant options on the mount command to set the folder with the right ownership (i.e. the gid, uid and umask options to mount).  This is because the Host OS doesn't support the same permission system as Linux, so VirtualBox has no way of knowing who should own the files.
+
+However, I strongly recommend just configuring the shared folder to be auto-mounted (it's a setting on the Shared Folder configuration in VirtualBox itself).
+
+
+For the avoidance of doubt, I do not believe you can change permissions normally anyway, on that filesystem if it's mounted in the regular way,
+
+tony@jabba:/media/sf_name$ ls -l tst.txt
+-rwxrwx--- 1 root vboxsf 2283 Apr  4  2012 tst.txt
+tony@jabba:/media/sf_name$ sudo chown tony tst.txt
+[sudo] password for tony: 
+tony@jabba:/media/sf_name$ ls -l tst.txt
+-rwxrwx--- 1 root vboxsf 2283 Apr  4  2012 tst.txt
+tony@jabba:/media/sf_name$
+
+**参考链接**: https://unix.stackexchange.com/questions/52667/file-permission-issues-with-shared-folders-under-virtual-box-ubuntu-guest-wind
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/52667/file-permission-issues-with-shared-folders-under-virtual-box-ubuntu-guest-wind
+
+#### 89. Set the default kernel in GRUB
+
+**故障现象**: Set the default kernel in GRUB
+**标签 / 来源**: Tags: linux, kernel, boot, grub | unix | 👍 140 | 💬 11 answers
+
+**问题描述**:
+Tags: linux, kernel, boot, grub | Score: 140 | Views: 428583 | Answers: 11
+
+**解决方法 / 社区答案**:
+After struggling for 2 hours, I have found a much easier way to achieve this. I just RTFM. ;)
+Add two lines to /etc/default/grub
+GRUB_SAVEDEFAULT=true
+GRUB_DEFAULT=saved
+
+Do the sudo update-grub, reboot, get into your grub menu and select whichever menu or submenu item you need. The choice will be saved every time and then your computer will boot into it automatically. When you manually choose a different entry, that becomes the new default.
+
+**参考链接**: https://unix.stackexchange.com/questions/198003/set-the-default-kernel-in-grub
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/198003/set-the-default-kernel-in-grub
+
+#### 90. How do I find how long ago a Linux system was installed?
+
+**故障现象**: How do I find how long ago a Linux system was installed?
+**标签 / 来源**: Tags: linux, system-installation | unix | 👍 139 | 💬 18 answers
+
+**问题描述**:
+Tags: linux, system-installation | Score: 139 | Views: 151247 | Answers: 18
+
+**解决方法 / 社区答案**:
+sudo tune2fs -l /dev/sda1 **OR** /dev/sdb1*  | grep 'Filesystem created:'
+
+This will tell you when the file system was created.
+* = In the first column of df / you can find the exact partition to use.
+
+**参考链接**: https://unix.stackexchange.com/questions/9971/how-do-i-find-how-long-ago-a-linux-system-was-installed
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/9971/how-do-i-find-how-long-ago-a-linux-system-was-installed
+
+#### 91. timestamp, modification time, and created time of a file
+
+**故障现象**: timestamp, modification time, and created time of a file
+**标签 / 来源**: Tags: linux, filesystems, files | unix | 👍 138 | 💬 2 answers
+
+**问题描述**:
+Tags: linux, filesystems, files | Score: 138 | Views: 352604 | Answers: 2
+
+**解决方法 / 社区答案**:
+There are 3 kind of "timestamps":
+
+
+Access - the last time the file was read
+Modify - the last time the file was modified (content has been modified)
+Change - the last time meta data of the file was changed (e.g. permissions)
+
+
+To display this information, you can use stat which is part of the coreutils.
+
+stat will show you also some more information like the device, inodes, links, etc.
+
+Remember that this sort of information depends highly on the filesystem and mount options. For example if you mount a partition with the noatime option, no access information will be written.
+
+A utility to change the timestamps would be touch.
+There are some arguments to decide which timestamp to change (e.g. -a for access time, -m for modification time) and to influence the parsing of a new given timestamp.
+See man touch for more details.
+
+touch can become handy in combination with cp -u ("copy only when the SOURCE file is newer than the destination file or when the destination file is missing") or for the creation of empty marker files.
+
+**参考链接**: https://unix.stackexchange.com/questions/2464/timestamp-modification-time-and-created-time-of-a-file
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/2464/timestamp-modification-time-and-created-time-of-a-file
+
+#### 92. Easy way to determine the virtualization technology of a Linux machine?
+
+**故障现象**: Easy way to determine the virtualization technology of a Linux machine?
+**标签 / 来源**: Tags: linux, command-line, virtual-machine | unix | 👍 137 | 💬 17 answers
+
+**问题描述**:
+Tags: linux, command-line, virtual-machine | Score: 137 | Views: 130239 | Answers: 17
+
+**解决方法 / 社区答案**:
+dmidecode -s system-product-name
+
+I have tested on Vmware Workstation, VirtualBox, QEMU with KVM, standalone QEMU with Ubuntu as the guest OS. Others have added additional platforms that they're familiar with as well.
+
+Virtualization technologies
+
+
+VMware Workstation
+
+root@router:~# dmidecode -s system-product-name
+VMware Virtual Platform
+
+VirtualBox
+
+root@router:~# dmidecode -s system-product-name
+VirtualBox
+
+Qemu with KVM
+
+root@router:~# dmidecode -s system-product-name
+KVM
+
+Qemu (emulated)
+
+root@router:~# dmidecode -s system-product-name
+Bochs
+
+Microsoft VirtualPC
+
+root@router:~# dmidecode | egrep -i 'manufacturer|product'
+Manufacturer: Microsoft Corporation
+Product Name: Virtual Machine
+
+Virtuozzo
+
+root@router:~# dmidecode
+/dev/mem: Permission denied
+
+Xen
+
+root@router:~# dmidecode | grep -i domU
+Product Name: HVM domU
+
+
+
+On bare metal, this returns an identification of the computer or motherboard model.
+
+/dev/disk/by-id
+
+If you don't have the rights to run dmidecode then you can use:
+
+Virtualization Technology: QEMU
+
+ls -1 /dev/disk/by-id/
+
+
+Output
+
+[root@host-7-129 ~]# ls -1 /dev/disk/by-id/
+ata-QEMU_DVD-ROM_QM00003
+ata-QEMU_HARDDISK_QM00001
+ata-QEMU_HARDDISK_QM00001-part1
+ata-QEMU_HARDDISK_QM00002
+ata-QEMU_HARDDISK_QM00002-part1
+scsi-SATA_QEMU_HARDDISK_QM00001
+scsi-SATA_QEMU_HARDDISK_QM00001-part1
+scsi-SATA_QEMU_HARDDISK_QM00002
+scsi-SATA_QEMU_HARDDISK_QM00002-part1
+
+
+References
+
+
+How to detect virtualization at dmo.ca
+
+**参考链接**: https://unix.stackexchange.com/questions/89714/easy-way-to-determine-the-virtualization-technology-of-a-linux-machine
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/89714/easy-way-to-determine-the-virtualization-technology-of-a-linux-machine
+
+#### 93. What&#39;s the best way to join files again after splitting them?
+
+**故障现象**: What&#39;s the best way to join files again after splitting them?
+**标签 / 来源**: Tags: linux, command-line, files, iso, split | unix | 👍 135 | 💬 6 answers
+
+**问题描述**:
+Tags: linux, command-line, files, iso, split | Score: 135 | Views: 214610 | Answers: 6
+
+**解决方法 / 社区答案**:
+That's just what cat was made for. Since it is one of the oldest GNU tools, I think it's very unlikely that any other tool does that faster/better. And it's not piping - it's only redirecting output.
+
+**参考链接**: https://unix.stackexchange.com/questions/24630/whats-the-best-way-to-join-files-again-after-splitting-them
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/24630/whats-the-best-way-to-join-files-again-after-splitting-them
+
+#### 94. Linux: set date through command line
+
+**故障现象**: Linux: set date through command line
+**标签 / 来源**: Tags: linux, date, clock | unix | 👍 134 | 💬 7 answers
+
+**问题描述**:
+Tags: linux, date, clock | Score: 134 | Views: 757612 | Answers: 7
+
+**解决方法 / 社区答案**:
+Use date -s:
+
+date -s '2014-12-25 12:34:56'
+
+
+Run that as root or under sudo. Changing only one of the year/month/day is more of a challenge and will involve repeating bits of the current date. There are also GUI date tools built in to the major desktop environments, usually accessed through the clock.
+
+To change only part of the time, you can use command substitution in the date string:
+
+date -s "2014-12-25 $(date +%H:%M:%S)"
+
+
+will change the date, but keep the time. See man date for formatting details to construct other combinations: the individual components are %Y, %m, %d, %H, %M, and %S.
+
+**参考链接**: https://unix.stackexchange.com/questions/151547/linux-set-date-through-command-line
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/151547/linux-set-date-through-command-line
+
+#### 95. How can I find available network interfaces?
+
+**故障现象**: How can I find available network interfaces?
+**标签 / 来源**: Tags: linux, networking, devices, systemd, udev | unix | 👍 134 | 💬 6 answers
+
+**问题描述**:
+Tags: linux, networking, devices, systemd, udev | Score: 134 | Views: 512358 | Answers: 6
+
+**解决方法 / 社区答案**:
+The simplest method I know to list all of your interfaces is
+
+ifconfig -a
+
+
+EDIT
+
+If you're on a system where that has been made obsolete, you can use
+
+ip link show
+
+**参考链接**: https://unix.stackexchange.com/questions/125400/how-can-i-find-available-network-interfaces
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/125400/how-can-i-find-available-network-interfaces
+
+#### 96. Setting /proc/sys/vm/drop_caches to clear cache
+
+**故障现象**: Setting /proc/sys/vm/drop_caches to clear cache
+**标签 / 来源**: Tags: linux, virtual-memory | unix | 👍 134 | 💬 2 answers
+
+**问题描述**:
+Tags: linux, virtual-memory | Score: 134 | Views: 307376 | Answers: 2
+
+**解决方法 / 社区答案**:
+It isn't sticky - you just write to the file to make it drop the caches and then it immediately starts caching again.
+
+Basically when you write to that file you aren't really changing a setting, you are issuing a command to the kernel. The kernel acts on that command (by dropping the caches) then carries on as before.
+
+**参考链接**: https://unix.stackexchange.com/questions/17936/setting-proc-sys-vm-drop-caches-to-clear-cache
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/17936/setting-proc-sys-vm-drop-caches-to-clear-cache
+
+#### 97. What is a tainted Linux kernel?
+
+**故障现象**: What is a tainted Linux kernel?
+**标签 / 来源**: Tags: linux, linux-kernel, kernel-modules, troubleshooting, proprietary-drivers | unix | 👍 134 | 💬 2 answers
+
+**问题描述**:
+Tags: linux, linux-kernel, kernel-modules, troubleshooting, proprietary-drivers | Score: 134 | Views: 207611 | Answers: 2
+
+**解决方法 / 社区答案**:
+A tainted kernel is one that is in an unsupported state because it cannot be guaranteed to function correctly. Most kernel developers will ignore bug reports involving tainted kernels, and community members may ask that you correct the tainting condition before they can proceed with diagnosing problems related to the kernel. In addition, some debugging functionality and API calls may be disabled when the kernel is tainted.
+The taint state is indicated by a series of flags which represent the various reasons a kernel cannot be trusted to work properly. The most common reason for the kernel to become tainted is loading a proprietary graphics driver from NVIDIA or AMD, in which case it is generally safe to ignore the condition. However, some scenarios that cause the kernel to become tainted may be indicative of more serious problems such as failing hardware. It is a good idea to examine system logs and the specific taint flags set to determine the underlying cause of the issue.
+This feature is intended to identify conditions which may make it difficult to properly troubleshoot a kernel problem. For example, a proprietary driver can cause problems that cannot be debugged reliably because its source code is not available and its effects cannot be determined. Likewise, if a serious kernel or hardware error had previously occurred, the integrity of the kernel space may have been compromised, meaning that any subsequent debug messages generated by the kernel may not be reliable.
+Note that correcting the tainting condition alone does not remove the taint state because doing so does not change the fact that the kernel can no longer be relied on to work correctly or produce accurate debugging information. The system must be restarted to clear the taint flags.
+More information is available in the Linux kernel documentation, including what each taint flag means and how to troubleshoot a tainted kernel prior to reporting bugs.
+A partial list of conditions that can result in the kernel being tainted follows, each with their own flags. Note that some Linux vendors, such as SUSE, add additional taint flags to indicate conditions such as loading a module that is supported by a third party rather than directly by the vendor.
+
+Loading a proprietary (or non-GPL-compatible) kernel module. As noted above, this is the most common reason for the kernel to become tainted.
+The use of staging drivers, which are part of the kernel source code but are experimental and not fully tested.
+The use of out-of-tree modules that are not included with the Linux kernel source code.
+Forcibly loading or unloading modules. This can happen if one is trying to use a module that is not built for the current version of the kernel. (The Linux kernel module ABI is not stable across versions, or even differently-configured builds of the same version.)
+Running a kernel on certain hardware configurations that are specifically not supported, such as an SMP (multiprocessor) kernel on early AMD Athlon processors not supporting SMP operation.
+Overriding the ACPI DSDT in the kernel. This is sometimes needed to correct for firmware power-management bugs; see this Arch Linux wiki article for details.
+Certain critical error conditions, such as machine check exceptions and kernel oopses.
+Certain serious bugs in the BIOS, UEFI, or other system firmware which the kernel must work around.
+
+**参考链接**: https://unix.stackexchange.com/questions/118116/what-is-a-tainted-linux-kernel
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/118116/what-is-a-tainted-linux-kernel
+
+#### 98. ssh-add returns with: &quot;Error connecting to agent: No such file or directory&quot;
+
+**故障现象**: ssh-add returns with: &quot;Error connecting to agent: No such file or directory&quot;
+**标签 / 来源**: Tags: linux, ssh, ssh-agent | unix | 👍 133 | 💬 5 answers
+
+**问题描述**:
+Tags: linux, ssh, ssh-agent | Score: 133 | Views: 264530 | Answers: 5
+
+**解决方法 / 社区答案**:
+The client tool ssh-add wants to communicate with the background process ssh-agent. You need to start the ssh-agent process first. On Linux, a shell uses the environment variables SSH_AUTH_SOCK and SSH_AGENT_PID to identify the correct process to talk to.
+You can start ssh-agent in multiple ways.
+Either by starting a new shell
+ssh-agent bash
+
+or by evaluating the script returned by ssh-agent in your current shell.
+eval &quot;$(ssh-agent)&quot;
+
+I suggest using the second method, because you keep all your history and variables.
+
+**参考链接**: https://unix.stackexchange.com/questions/464574/ssh-add-returns-with-error-connecting-to-agent-no-such-file-or-directory
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/464574/ssh-add-returns-with-error-connecting-to-agent-no-such-file-or-directory
+
+#### 99. How to check which GPU is active in Linux?
+
+**故障现象**: How to check which GPU is active in Linux?
+**标签 / 来源**: Tags: linux, hardware, graphics | unix | 👍 133 | 💬 12 answers
+
+**问题描述**:
+Tags: linux, hardware, graphics | Score: 133 | Views: 454435 | Answers: 12
+
+**解决方法 / 社区答案**:
+I've just gone through a hell of a time
+trying to get my discrete graphics to work in Ubuntu,
+and answering this question was constantly a challenge,
+since the lspci method mentioned earlier
+can sometimes say that both are [VGA controller].
+I think the following command should give you an indication of your active chip:
+$ glxinfo | grep -E &quot;OpenGL vendor|OpenGL renderer&quot;
+OpenGL vendor string: Intel Open Source Technology Center
+OpenGL renderer string: Mesa DRI Intel(R) Sandybridge Mobile
+
+For me, this is telling me that my Intel graphics are running the show.
+glxinfo is available from the mesa-utils package,
+so you will need to install it if you haven't already. 
+On Ubuntu 22.04, for example, run:
+sudo apt-get install mesa-utils
+
+If you're using an NVIDIA chip, and you're using the bumblebee package,
+you can put optirun in front of that line,
+and it should tell you that you're running the NVIDIA chip
+(optirun is basically telling the computer
+to use the discrete chip to run whatever command follows,
+but everything else is still using the integrated chip).
+$ optirun glxinfo | grep -E &quot;OpenGL vendor|OpenGL renderer&quot;
+OpenGL vendor string: NVIDIA Corporation
+OpenGL renderer string: GeForce GT 555M/PCIe/SSE2
+
+glxheads is another helpful command from mesa-utils that tells you
+some useful information about which graphics card is in use
+(mostly repeats glxinfo in a more compact and easy-to-read form, though),
+and it gives you a nice rendering of a rotating triangle.
+
+**参考链接**: https://unix.stackexchange.com/questions/16407/how-to-check-which-gpu-is-active-in-linux
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/16407/how-to-check-which-gpu-is-active-in-linux
+
+#### 100. What&#39;s the difference between /usr/lib/systemd/system and /etc/systemd/system?
+
+**故障现象**: What&#39;s the difference between /usr/lib/systemd/system and /etc/systemd/system?
+**标签 / 来源**: Tags: debian, ubuntu, centos, systemd | unix | 👍 133 | 💬 3 answers
+
+**问题描述**:
+Tags: debian, ubuntu, centos, systemd | Score: 133 | Views: 116937 | Answers: 3
+
+**解决方法 / 社区答案**:
+This question is already answered in man 7 file-hierarchy which comes with systemd (there is also online version):
+
+        /etc
+           System-specific configuration.
+ (…)
+ VENDOR-SUPPLIED OPERATING SYSTEM RESOURCES
+       /usr
+            Vendor-supplied operating system resources. 
+            Usually read-only, but this is not required. Possibly 
+            shared between multiple hosts. This directory should not
+            be modified by the administrator, except when installing 
+            or removing vendor-supplied packages.
+
+
+Basically, files that ships in packages downloaded from distribution repository go into /usr/lib/systemd/. Modifications done by system administrator (user) go into /etc/systemd/system/. 
+
+System-specific units override units supplied by vendors. Using drop-ins, you can override only specific parts of unit files, leaving the rest to vendor (drop-ins are available since the very beginning of systemd, but were properly documented only in v219; see man systemd.unit).
+
+**参考链接**: https://unix.stackexchange.com/questions/206315/whats-the-difference-between-usr-lib-systemd-system-and-etc-systemd-system
+
+> 📎 来源 / Source: https://unix.stackexchange.com/questions/206315/whats-the-difference-between-usr-lib-systemd-system-and-etc-systemd-system
+
 
 ---
 
@@ -2264,7 +4057,7 @@ Auto-updated hourly from Stack Exchange: common LINUX issues and community-verif
 **Tags / Source**: Tags: linux, ls | unix | 👍 936 | 💬 2 answers
 
 **Description**:
-Tags: linux, ls | Score: 936 | Views: 2451279 | Answers: 2
+Tags: linux, ls | Score: 936 | Views: 2451284 | Answers: 2
 
 **Solution / Community Answer**:
 ls -l --block-size=M will give you a long format listing (needed to actually see the file size) and round file sizes up to the nearest MiB.
@@ -2289,7 +4082,7 @@ Note that both --block-size and -h are GNU extensions on top of the Open Group's
 **Tags / Source**: Tags: linux, process, ip, netstat | unix | 👍 831 | 💬 8 answers
 
 **Description**:
-Tags: linux, process, ip, netstat | Score: 831 | Views: 2194648 | Answers: 8
+Tags: linux, process, ip, netstat | Score: 831 | Views: 2194654 | Answers: 8
 
 **Solution / Community Answer**:
 Your existing command doesn't work because Linux requires you to either be root or the owner of the process to get the information you desire.
@@ -2317,7 +4110,7 @@ nginx   125004 nginx    3u  IPv4   6645      0t0  TCP 0.0.0.0:80 (LISTEN)
 **Tags / Source**: Tags: ubuntu, centos, ssh, sshd, key-authentication | unix | 👍 745 | 💬 32 answers
 
 **Description**:
-Tags: ubuntu, centos, ssh, sshd, key-authentication | Score: 745 | Views: 1428792 | Answers: 32
+Tags: ubuntu, centos, ssh, sshd, key-authentication | Score: 745 | Views: 1428794 | Answers: 32
 
 **Solution / Community Answer**:
 Make sure the permissions on the ~/.ssh directory and its contents are proper. When I first set up my ssh key auth, I didn't have the ~/.ssh folder properly set up, and it yelled at me.
@@ -2380,7 +4173,7 @@ dig unix.stackexchange.com | awk '/^;; ANSWER SECTION:$/ { getline ; print $5 ; 
 **Tags / Source**: Tags: linux, permissions, directory | unix | 👍 536 | 💬 9 answers
 
 **Description**:
-Tags: linux, permissions, directory | Score: 536 | Views: 403914 | Answers: 9
+Tags: linux, permissions, directory | Score: 536 | Views: 403915 | Answers: 9
 
 **Solution / Community Answer**:
 When applying permissions to directories on Linux, the permission bits have different meanings than on regular files.
@@ -2401,7 +4194,7 @@ The sticky bit (T, or t if the execute bit is set for others) states that files 
 **Tags / Source**: Tags: linux, x11, wayland | unix | 👍 514 | 💬 15 answers
 
 **Description**:
-Tags: linux, x11, wayland | Score: 514 | Views: 702754 | Answers: 15
+Tags: linux, x11, wayland | Score: 514 | Views: 702757 | Answers: 15
 
 **Solution / Community Answer**:
 Obtain the session ID to pass in by issuing:
@@ -2437,7 +4230,7 @@ Type=wayland
 **Tags / Source**: Tags: linux, backup, tar | unix | 👍 505 | 💬 2 answers
 
 **Description**:
-Tags: linux, backup, tar | Score: 505 | Views: 1359503 | Answers: 2
+Tags: linux, backup, tar | Score: 505 | Views: 1359515 | Answers: 2
 
 **Solution / Community Answer**:
 To tar and gzip a folder, the syntax is:
@@ -2484,7 +4277,7 @@ strace/truss, ltrace and gdb are generally good ideas for looking at why a stuck
 **Tags / Source**: Tags: linux, kernel, performance, cache, ram | unix | 👍 419 | 💬 1 answers
 
 **Description**:
-Tags: linux, kernel, performance, cache, ram | Score: 419 | Views: 985957 | Answers: 1
+Tags: linux, kernel, performance, cache, ram | Score: 419 | Views: 985960 | Answers: 1
 
 **Solution / Community Answer**:
 Emptying the buffers cache
@@ -2705,7 +4498,7 @@ The find command will recursively find all files in all sub directories of . and
 **Tags / Source**: Tags: linux, cpu | unix | 👍 384 | 💬 12 answers
 
 **Description**:
-Tags: linux, cpu | Score: 384 | Views: 815326 | Answers: 12
+Tags: linux, cpu | Score: 384 | Views: 815327 | Answers: 12
 
 **Solution / Community Answer**:
 To get a complete picture you need to look at the number of threads per core, cores per socket and sockets. If you multiply these numbers you will get the number of CPUs on your system.
@@ -2820,7 +4613,7 @@ You need to be careful of the term CPU as it means different things in different
 **Tags / Source**: Tags: linux, permissions, directory | unix | 👍 379 | 💬 5 answers
 
 **Description**:
-Tags: linux, permissions, directory | Score: 379 | Views: 714955 | Answers: 5
+Tags: linux, permissions, directory | Score: 379 | Views: 714957 | Answers: 5
 
 **Solution / Community Answer**:
 I found it: Applying default permissions
@@ -2861,7 +4654,7 @@ default:other::r-x
 **Tags / Source**: Tags: linux, disk | unix | 👍 378 | 💬 11 answers
 
 **Description**:
-Tags: linux, disk | Score: 378 | Views: 1059518 | Answers: 11
+Tags: linux, disk | Score: 378 | Views: 1059519 | Answers: 11
 
 **Solution / Community Answer**:
 For disk I/O trending there are a few options. My personal favorite is the sar command from sysstat. By default, it gives output like this:
@@ -3071,7 +4864,7 @@ myip.opendns.com.   0   IN  A   80.100.192.168
 **Tags / Source**: Tags: linux, filesystems, find, rm | unix | 👍 318 | 💬 2 answers
 
 **Description**:
-Tags: linux, filesystems, find, rm | Score: 318 | Views: 291413 | Answers: 2
+Tags: linux, filesystems, find, rm | Score: 318 | Views: 291415 | Answers: 2
 
 **Solution / Community Answer**:
 The find command is the primary tool for recursive file system operations.
@@ -3098,7 +4891,7 @@ $ find . -type d -empty -delete
 **Tags / Source**: Tags: linux, hardware, devices, hard-disk | unix | 👍 313 | 💬 16 answers
 
 **Description**:
-Tags: linux, hardware, devices, hard-disk | Score: 313 | Views: 1391057 | Answers: 16
+Tags: linux, hardware, devices, hard-disk | Score: 313 | Views: 1391062 | Answers: 16
 
 **Solution / Community Answer**:
 This is highly platform-dependent. Also different methods may treat edge cases differently (“fake” disks of various kinds, RAID volumes, …).
@@ -3123,7 +4916,7 @@ You will find utility names for many unix variants on the Rosetta Stone for Unix
 **Tags / Source**: Tags: linux, memory, top, meminfo | unix | 👍 309 | 💬 9 answers
 
 **Description**:
-Tags: linux, memory, top, meminfo | Score: 309 | Views: 477595 | Answers: 9
+Tags: linux, memory, top, meminfo | Score: 309 | Views: 477597 | Answers: 9
 
 **Solution / Community Answer**:
 When in top, typing capital "E" cycles through different memory units (KiB, MiB, GiB, etc., which are different from kB, MB and GB) in the total memory info:
@@ -3155,7 +4948,7 @@ System: CentOS 7
 **Tags / Source**: Tags: linux, storage | unix | 👍 303 | 💬 13 answers
 
 **Description**:
-Tags: linux, storage | Score: 303 | Views: 1002557 | Answers: 13
+Tags: linux, storage | Score: 303 | Views: 1002566 | Answers: 13
 
 **Solution / Community Answer**:
 There's a tool called blkid (use it as root or with sudo), 
@@ -3176,7 +4969,7 @@ you can check this link for more info
 **Tags / Source**: Tags: linux, hard-disk, block-device, ssd | unix | 👍 302 | 💬 10 answers
 
 **Description**:
-Tags: linux, hard-disk, block-device, ssd | Score: 302 | Views: 448328 | Answers: 10
+Tags: linux, hard-disk, block-device, ssd | Score: 302 | Views: 448329 | Answers: 10
 
 **Solution / Community Answer**:
 Linux automatically detects SSD, and since kernel version 2.6.29, you may verify sda with:
@@ -3196,7 +4989,7 @@ See this answer for more information about SSD partitioning, filesystem...
 **Tags / Source**: Tags: linux, command-line, files, rm | unix | 👍 297 | 💬 24 answers
 
 **Description**:
-Tags: linux, command-line, files, rm | Score: 297 | Views: 507560 | Answers: 24
+Tags: linux, command-line, files, rm | Score: 297 | Views: 507561 | Answers: 24
 
 **Solution / Community Answer**:
 Using rsync is surprising fast and simple.
@@ -3229,7 +5022,7 @@ https://www.quora.com/Linux-why-stat+unlink-can-be-faster-than-a-single-unlink/a
 **Tags / Source**: Tags: linux, cpu, arm, x86 | unix | 👍 283 | 💬 6 answers
 
 **Description**:
-Tags: linux, cpu, arm, x86 | Score: 283 | Views: 215280 | Answers: 6
+Tags: linux, cpu, arm, x86 | Score: 283 | Views: 215281 | Answers: 6
 
 **Solution / Community Answer**:
 x86
@@ -3572,7 +5365,7 @@ This listing was derived from arch/x86/include/asm/cpufeatures.h in the kernel s
 **Tags / Source**: Tags: linux, kernel, inotify | unix | 👍 282 | 💬 2 answers
 
 **Description**:
-Tags: linux, kernel, inotify | Score: 282 | Views: 226435 | Answers: 2
+Tags: linux, kernel, inotify | Score: 282 | Views: 226436 | Answers: 2
 
 **Solution / Community Answer**:
 Is it safe to raise that value and what would be the consequences of a too high value?
@@ -3661,7 +5454,7 @@ The -a option means -R and -p, plus a few other preservation options. It attempt
 **Tags / Source**: Tags: linux, cpu, top | unix | 👍 273 | 💬 3 answers
 
 **Description**:
-Tags: linux, cpu, top | Score: 273 | Views: 460224 | Answers: 3
+Tags: linux, cpu, top | Score: 273 | Views: 460225 | Answers: 3
 
 **Solution / Community Answer**:
 hi is the time spent processing hardware interrupts. Hardware interrupts are generated by hardware devices (network cards, keyboard controller, external timer, hardware sensors, ...) when they need to signal something to the CPU (data has arrived, for example).
@@ -3694,7 +5487,7 @@ The CPU time accounting  document from IBM has more information about steal time
 **Tags / Source**: Tags: linux, filesystems, mount | unix | 👍 264 | 💬 5 answers
 
 **Description**:
-Tags: linux, filesystems, mount | Score: 264 | Views: 1131822 | Answers: 5
+Tags: linux, filesystems, mount | Score: 264 | Views: 1131824 | Answers: 5
 
 **Solution / Community Answer**:
 The definitive list of mounted filesystems is in /proc/mounts.
@@ -3715,7 +5508,7 @@ The reason why you'd sometimes want to consult /etc/mtab in preference to or in 
 **Tags / Source**: Tags: linux, memory, ulimit | unix | 👍 263 | 💬 12 answers
 
 **Description**:
-Tags: linux, memory, ulimit | Score: 263 | Views: 436682 | Answers: 12
+Tags: linux, memory, ulimit | Score: 263 | Views: 436683 | Answers: 12
 
 **Solution / Community Answer**:
 Another way to limit this is to use Linux's control groups.  This is especially useful if you want to limit a process's (or group of processes') allocation of physical memory distinctly from virtual memory.  For example:
@@ -3746,7 +5539,7 @@ and then running sudo update-grub and rebooting to boot with the new kernel boot
 **Tags / Source**: Tags: linux, ps | unix | 👍 260 | 💬 4 answers
 
 **Description**:
-Tags: linux, ps | Score: 260 | Views: 542981 | Answers: 4
+Tags: linux, ps | Score: 260 | Views: 542983 | Answers: 4
 
 **Solution / Community Answer**:
 a = show processes for all users
@@ -3771,7 +5564,7 @@ In the comments, you say you are using Apple MacOS (OSX, I presume).  The OSX ma
 **Tags / Source**: Tags: ubuntu, mount, fdisk | unix | 👍 259 | 💬 21 answers
 
 **Description**:
-Tags: ubuntu, mount, fdisk | Score: 259 | Views: 1622620 | Answers: 21
+Tags: ubuntu, mount, fdisk | Score: 259 | Views: 1622634 | Answers: 21
 
 **Solution / Community Answer**:
 WARNING: This will wipe out your drive!
@@ -4048,7 +5841,7 @@ ffmpeg is a popular tool and should be in any of the popular OS repositories/pac
 **Tags / Source**: Tags: linux, command-line, logs, dmesg | unix | 👍 243 | 💬 7 answers
 
 **Description**:
-Tags: linux, command-line, logs, dmesg | Score: 243 | Views: 336443 | Answers: 7
+Tags: linux, command-line, logs, dmesg | Score: 243 | Views: 336445 | Answers: 7
 
 **Solution / Community Answer**:
 Relatively recent dmesg versions provide a follow option (-w, --follow) which works analogously to tail -f.
@@ -4072,7 +5865,7 @@ Those options are available for example in Fedora 19.
 **Tags / Source**: Tags: linux, command-line, memory, hardware | unix | 👍 237 | 💬 5 answers
 
 **Description**:
-Tags: linux, command-line, memory, hardware | Score: 237 | Views: 284544 | Answers: 5
+Tags: linux, command-line, memory, hardware | Score: 237 | Views: 284547 | Answers: 5
 
 **Solution / Community Answer**:
 Since you don't mention, I'm assuming this is on Linux. Any of the following should show you (with root):
@@ -4123,7 +5916,7 @@ If you want to move the files from /images2, with rsync, you can pass the option
 **Tags / Source**: Tags: linux, files, diff | unix | 👍 228 | 💬 6 answers
 
 **Description**:
-Tags: linux, files, diff | Score: 228 | Views: 325424 | Answers: 6
+Tags: linux, files, diff | Score: 228 | Views: 325425 | Answers: 6
 
 **Solution / Community Answer**:
 In your first diff output (so called &quot;normal diff&quot;) the meaning is as follows:
@@ -4183,7 +5976,7 @@ Under tcsh/csh you would use
 **Tags / Source**: Tags: linux, permissions, su, conventions | unix | 👍 221 | 💬 4 answers
 
 **Description**:
-Tags: linux, permissions, su, conventions | Score: 221 | Views: 135871 | Answers: 4
+Tags: linux, permissions, su, conventions | Score: 221 | Views: 135872 | Answers: 4
 
 **Solution / Community Answer**:
 su - invokes a login shell after switching the user. A login shell resets most environment variables, providing a clean base.
@@ -4241,7 +6034,7 @@ You maybe noticed that the corrupted $PATH variable was not reset. This wouldn't
 **Tags / Source**: Tags: linux, unix, history | unix | 👍 213 | 💬 9 answers
 
 **Description**:
-Tags: linux, unix, history | Score: 213 | Views: 116072 | Answers: 9
+Tags: linux, unix, history | Score: 213 | Views: 116073 | Answers: 9
 
 **Solution / Community Answer**:
 That depends on what you mean by “Unix”, and by “Linux”.
@@ -4309,7 +6102,7 @@ So if $end_date = 20131001 then $prog_end_date = 20131011.
 **Tags / Source**: Tags: linux, filesystems, io, async | unix | 👍 209 | 💬 8 answers
 
 **Description**:
-Tags: linux, filesystems, io, async | Score: 209 | Views: 118843 | Answers: 8
+Tags: linux, filesystems, io, async | Score: 209 | Views: 118844 | Answers: 8
 
 **Solution / Community Answer**:
 Looking at /proc/meminfo will show the Dirty number shrinking over time as all the data spools out; some of it may spill into Writeback as well.  That will be a summary against all devices, but in the cases where one device on the system is much slower than the rest you'll usually end up where everything in that queue is related to it.  You'll probably find the Dirty number large when you start and the sync finishes about the same time it approaches 0.  Try this to get an interactive display:
@@ -4329,7 +6122,7 @@ With regular disks I can normally ignore Writeback, but I'm not sure if it's inv
 **Tags / Source**: Tags: linux, filesystems, ln | unix | 👍 202 | 💬 6 answers
 
 **Description**:
-Tags: linux, filesystems, ln | Score: 202 | Views: 505510 | Answers: 6
+Tags: linux, filesystems, ln | Score: 202 | Views: 505511 | Answers: 6
 
 **Solution / Community Answer**:
 As Dubu points out in a comment, the issue lies in your relative paths. I had a similar problem symlinking my nginx configuration from /usr/local/etc/nginx to /etc/nginx. If you create your symlink like this:
@@ -4355,7 +6148,7 @@ Make sure that the path is in double quotes, to make sure things like spaces in 
 **Tags / Source**: Tags: linux, desktop, freeze | unix | 👍 202 | 💬 10 answers
 
 **Description**:
-Tags: linux, desktop, freeze | Score: 202 | Views: 673972 | Answers: 10
+Tags: linux, desktop, freeze | Score: 202 | Views: 673976 | Answers: 10
 
 **Solution / Community Answer**:
 If all else fails, you Raise The Elephant.  There are Magic SysRq key sequences (Alt+SysRq+?) that the Linux kernel handles specially.
@@ -4384,7 +6177,7 @@ For the full list of possible commands and additional tips on how to type these 
 **Tags / Source**: Tags: linux, data-recovery, deleted-files | unix | 👍 202 | 💬 14 answers
 
 **Description**:
-Tags: linux, data-recovery, deleted-files | Score: 202 | Views: 1208038 | Answers: 14
+Tags: linux, data-recovery, deleted-files | Score: 202 | Views: 1208040 | Answers: 14
 
 **Solution / Community Answer**:
 The link someone provided in the comments is likely your best chance.
@@ -4488,6 +6281,1799 @@ Personally, I really like the BSD systems because they just feel like they fit t
 **Reference**: https://unix.stackexchange.com/questions/14489/why-would-someone-choose-freebsd-over-linux
 
 > 📎 Source: https://unix.stackexchange.com/questions/14489/why-would-someone-choose-freebsd-over-linux
+
+#### 51. How can I find the hardware model in Linux?
+
+**Issue**: How can I find the hardware model in Linux?
+**Tags / Source**: Tags: linux, hardware, system-information, smbios, dmidecode | unix | 👍 191 | 💬 10 answers
+
+**Description**:
+Tags: linux, hardware, system-information, smbios, dmidecode | Score: 191 | Views: 492416 | Answers: 10
+
+**Solution / Community Answer**:
+using the dmidecode | grep -A3 '^System Information' command. There you'll find all information from BIOS and hardware. These are examples on three different machines (this is an excerpt of the complete output):
+
+System Information
+    Manufacturer: Dell Inc.
+    Product Name: Precision M4700
+
+System Information
+    Manufacturer: MICRO-STAR INTERANTIONAL CO.,LTD
+    Product Name: MS-7368
+
+System Information
+    Manufacturer: HP
+    Product Name: ProLiant ML330 G6
+
+**Reference**: https://unix.stackexchange.com/questions/75750/how-can-i-find-the-hardware-model-in-linux
+
+> 📎 Source: https://unix.stackexchange.com/questions/75750/how-can-i-find-the-hardware-model-in-linux
+
+#### 52. Why is my ethernet interface called enp0s10 instead of eth0?
+
+**Issue**: Why is my ethernet interface called enp0s10 instead of eth0?
+**Tags / Source**: Tags: linux, networking, udev, ethernet | unix | 👍 189 | 💬 5 answers
+
+**Description**:
+Tags: linux, networking, udev, ethernet | Score: 189 | Views: 292794 | Answers: 5
+
+**Solution / Community Answer**:
+Answer on &quot;What does enp0s10 means?&quot; question:
+enp0s10:
+| | |
+v | |
+en| |   --&gt; ethernet
+  v |
+  p0|   --&gt; bus number (0)
+    v
+    s10 --&gt; slot number (10)
+
+Source: udev-builtin-net_id.c on GitHub
+
+**Reference**: https://unix.stackexchange.com/questions/134483/why-is-my-ethernet-interface-called-enp0s10-instead-of-eth0
+
+> 📎 Source: https://unix.stackexchange.com/questions/134483/why-is-my-ethernet-interface-called-enp0s10-instead-of-eth0
+
+#### 53. Manually generate password for /etc/shadow
+
+**Issue**: Manually generate password for /etc/shadow
+**Tags / Source**: Tags: linux, password, shadow | unix | 👍 188 | 💬 10 answers
+
+**Description**:
+Tags: linux, password, shadow | Score: 188 | Views: 450016 | Answers: 10
+
+**Solution / Community Answer**:
+You can use following commands for the same:
+Method 1 (md5, sha256, sha512)
+openssl passwd -6 -salt xyz  yourpass
+
+Note: passing -1 will generate an MD5 password, -5 a SHA256 and -6 SHA512 (recommended)
+Method 2 (md5, sha256, sha512)
+mkpasswd --method=SHA-512 --stdin
+
+The option --method accepts md5, sha-256 and sha-512
+Method 3 (des, md5, sha256, sha512)
+As @tink suggested, we can update the password using chpasswd using:
+echo &quot;username:password&quot; | chpasswd 
+
+Or you can use the encrypted password with chpasswd. First generate it using this:
+perl -e 'print crypt(&quot;YourPasswd&quot;, &quot;salt&quot;, &quot;sha512&quot;),&quot;\n&quot;'
+
+Then later you can use the generated password to update /etc/shadow:
+echo &quot;username:encryptedPassWd&quot; | chpasswd -e
+
+The encrypted password we can also use to create a new user with this password, for example:
+useradd -p 'encryptedPassWd'  username
+
+**Reference**: https://unix.stackexchange.com/questions/81240/manually-generate-password-for-etc-shadow
+
+> 📎 Source: https://unix.stackexchange.com/questions/81240/manually-generate-password-for-etc-shadow
+
+#### 54. Linux: Difference between /dev/console, /dev/tty and /dev/tty0
+
+**Issue**: Linux: Difference between /dev/console, /dev/tty and /dev/tty0
+**Tags / Source**: Tags: linux, tty, console | unix | 👍 187 | 💬 3 answers
+
+**Description**:
+Tags: linux, tty, console | Score: 187 | Views: 204991 | Answers: 3
+
+**Solution / Community Answer**:
+From the Linux Kernel documentation on Kernel.org:
+/dev/tty        Current TTY device
+/dev/console    System console
+/dev/tty0       Current virtual console
+
+In the good old days /dev/console was System Administrator console. And TTYs were users' serial devices attached to a server.
+Now /dev/console and /dev/tty0 represent current display and usually are the same. You can override it for example by adding console=ttyS0 to grub.conf. After that your /dev/tty0 is a monitor and /dev/console is /dev/ttyS0.
+An exercise to show the difference between /dev/tty and /dev/tty0:
+Switch to the 2nd console by pressing Ctrl+Alt+F2. Login as root. Type sleep 5; echo tty0 &gt; /dev/tty0. Press Enter and switch to the 3rd console by pressing Alt+F3.
+Now switch back to the 2nd console by pressing Alt+F2. Type sleep 5; echo tty &gt; /dev/tty, press Enter and switch to the 3rd console.
+You can see that tty is the console where process starts, and tty0 is a always current console.
+
+**Reference**: https://unix.stackexchange.com/questions/60641/linux-difference-between-dev-console-dev-tty-and-dev-tty0
+
+> 📎 Source: https://unix.stackexchange.com/questions/60641/linux-difference-between-dev-console-dev-tty-and-dev-tty0
+
+#### 55. Timezone setting in Linux
+
+**Issue**: Timezone setting in Linux
+**Tags / Source**: Tags: linux, date, time, timezone | unix | 👍 184 | 💬 3 answers
+
+**Description**:
+Tags: linux, date, time, timezone | Score: 184 | Views: 717820 | Answers: 3
+
+**Solution / Community Answer**:
+Take a look at this blog post titled: How To: 2 Methods To Change TimeZone in Linux.
+
+Red Hat distros
+
+If you're using a distribution such as Red Hat then your approach of copying the file would be mostly acceptable.
+
+NOTE: If you're looking for a distro-agnostic solution, this also works on Debian, though there are simpler approaches below if you only need to be concerned with Debian machines.
+
+$ ls /usr/share/zoneinfo/
+Africa/      CET          Etc/         Hongkong     Kwajalein    Pacific/     ROK          zone.tab
+America/     Chile/       Europe/      HST          Libya        Poland       Singapore    Zulu
+Antarctica/  CST6CDT      GB           Iceland      MET          Portugal     Turkey       
+Arctic/      Cuba         GB-Eire      Indian/      Mexico/      posix/       UCT          
+Asia/        EET          GMT          Iran         MST          posixrules   Universal    
+Atlantic/    Egypt        GMT0         iso3166.tab  MST7MDT      PRC          US/          
+Australia/   Eire         GMT-0        Israel       Navajo       PST8PDT      UTC          
+Brazil/      EST          GMT+0        Jamaica      NZ           right/       WET          
+Canada/      EST5EDT      Greenwich    Japan        NZ-CHAT      ROC          W-SU         
+
+
+I would recommend linking to it rather than copying however.
+
+$ sudo unlink /etc/localtime 
+$ sudo ln -s /usr/share/zoneinfo/Etc/GMT+6 /etc/localtime
+
+
+Now date shows the different timezone:
+
+$ date -u
+Thu Jan 23 05:40:31 UTC 2014
+
+$ date 
+Wed Jan 22 23:40:38 GMT+6 2014
+
+
+Ubuntu/Debian Distros
+
+To change the timezone on either of these distros you can use this command:
+
+$ sudo dpkg-reconfigure tzdata
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+$ sudo dpkg-reconfigure tzdata
+
+Current default time zone: 'Etc/GMT-6'
+Local time is now:      Thu Jan 23 11:52:16 GMT-6 2014.
+Universal Time is now:  Thu Jan 23 05:52:16 UTC 2014.
+
+
+Now when we check it out:
+
+$ date -u
+Thu Jan 23 05:53:32 UTC 2014
+
+$ date 
+Thu Jan 23 11:53:33 GMT-6 2014
+
+
+NOTE: There's also this option in Ubuntu 14.04 and higher with a single command (source: Ask Ubuntu - setting timezone from terminal):
+
+$ sudo timedatectl set-timezone Etc/GMT-6
+
+
+On the use of "Etc/GMT+6"
+
+excerpt from @MattJohnson's answer on SO
+
+
+  Zones like Etc/GMT+6 are intentionally reversed for backwards compatibility with POSIX standards.  See the comments in this file.
+  
+  You should almost never need to use these zones.  Instead you should be using a fully named time zone like America/New_York or Europe/London or whatever is appropriate for your location.  Refer to the list here.
+
+**Reference**: https://unix.stackexchange.com/questions/110522/timezone-setting-in-linux
+
+> 📎 Source: https://unix.stackexchange.com/questions/110522/timezone-setting-in-linux
+
+#### 56. Mount cifs Network Drive: write permissions and chown
+
+**Issue**: Mount cifs Network Drive: write permissions and chown
+**Tags / Source**: Tags: linux, permissions, mount, chown, cifs | unix | 👍 184 | 💬 3 answers
+
+**Description**:
+Tags: linux, permissions, mount, chown, cifs | Score: 184 | Views: 550029 | Answers: 3
+
+**Solution / Community Answer**:
+You are mounting the CIFS share as root (because you used sudo), so you cannot write as normal user. If your Linux Distribution and its kernel are recent enough that you could mount the network share as a normal user (but under a folder that the user own), you will have the proper credentials to write file (e.g. mount the shared folder somewhere under your home directory, like for instance $HOME/netshare/. Obviously, you would need to create the folder before mounting it).
+
+An alternative is to specify the user and group ID that the mounted network share should used, this would allow that particular user and potentially group to write to the share. Add the following options to your mount: uid=&lt;user&gt;,gid=&lt;group&gt; and replace &lt;user&gt; and &lt;group&gt; respectively by your own user and default group, which you can find automatically with the id command.
+
+sudo mount -t cifs -o username=${USER},password=${PASSWORD},uid=$(id -u),gid=$(id -g) //server-address/folder /mount/path/on/ubuntu
+
+
+If the server is sending ownership information, you may need to add the forceuid and forcegid options.
+
+sudo mount -t cifs -o username=${USER},password=${PASSWORD},uid=$(id -u),gid=$(id -g),forceuid,forcegid, //server-address/folder /mount/path/on/ubuntu
+
+**Reference**: https://unix.stackexchange.com/questions/68079/mount-cifs-network-drive-write-permissions-and-chown
+
+> 📎 Source: https://unix.stackexchange.com/questions/68079/mount-cifs-network-drive-write-permissions-and-chown
+
+#### 57. Trying to SSH to local VM Ubuntu with Putty
+
+**Issue**: Trying to SSH to local VM Ubuntu with Putty
+**Tags / Source**: Tags: ubuntu, virtualbox, putty | unix | 👍 183 | 💬 6 answers
+
+**Description**:
+Tags: ubuntu, virtualbox, putty | Score: 183 | Views: 600105 | Answers: 6
+
+**Solution / Community Answer**:
+VirtualBox will create a private network (10.0.2.x) which will be connected to your host network using NAT. (Unless configured otherwise.)
+
+This means that you cannot directly access any host of the private network from the host network. To do so, you need some port forwarding. In the network preferences of your VM you can, for example, configure VirtualBox to open port 22 on 127.0.1.1 (a loopback address of your host) and forward any traffic to port 22 of 10.0.2.1 (the internal address of your VM)
+
+This way, you can point putty to Port 22 of 127.0.1.1 and VirtualBox will redirect this connection to your VM where its ssh daemon will answer it, allowing you to log in.
+
+**Reference**: https://unix.stackexchange.com/questions/145997/trying-to-ssh-to-local-vm-ubuntu-with-putty
+
+> 📎 Source: https://unix.stackexchange.com/questions/145997/trying-to-ssh-to-local-vm-ubuntu-with-putty
+
+#### 58. Sorting down processes by memory usage
+
+**Issue**: Sorting down processes by memory usage
+**Tags / Source**: Tags: linux, memory | unix | 👍 182 | 💬 9 answers
+
+**Description**:
+Tags: linux, memory | Score: 182 | Views: 494008 | Answers: 9
+
+**Solution / Community Answer**:
+Use the following command:
+
+ps aux --sort -rss
+
+
+Check here for more Linux process memory usage
+
+**Reference**: https://unix.stackexchange.com/questions/92493/sorting-down-processes-by-memory-usage
+
+> 📎 Source: https://unix.stackexchange.com/questions/92493/sorting-down-processes-by-memory-usage
+
+#### 59. How to sync two folders with command line tools?
+
+**Issue**: How to sync two folders with command line tools?
+**Tags / Source**: Tags: linux, files, file-copy, synchronization | unix | 👍 182 | 💬 9 answers
+
+**Description**:
+Tags: linux, files, file-copy, synchronization | Score: 182 | Views: 338370 | Answers: 9
+
+**Solution / Community Answer**:
+This puts folder A into folder B:
+rsync -avu --delete &quot;/home/user/A&quot; &quot;/home/user/B&quot;
+
+If you want the contents of folders A and B to be the same, put /home/user/A/ (with the slash) as the source. This takes not the folder A but all of its content and puts it into folder B. Like this:
+rsync -avu --delete &quot;/home/user/A/&quot; &quot;/home/user/B&quot;
+
+
+-a archive mode; equals -rlptgoD (no -H, -A, -X)
+-v run verbosely
+-u only copy files with a newer modification time (or size difference if the times are equal)
+--delete delete the files in target folder that do not exist in the source
+
+Manpage: https://download.samba.org/pub/rsync/rsync.html
+
+**Reference**: https://unix.stackexchange.com/questions/203846/how-to-sync-two-folders-with-command-line-tools
+
+> 📎 Source: https://unix.stackexchange.com/questions/203846/how-to-sync-two-folders-with-command-line-tools
+
+#### 60. How to move all files and folders via mv command
+
+**Issue**: How to move all files and folders via mv command
+**Tags / Source**: Tags: linux, command, rename | unix | 👍 182 | 💬 7 answers
+
+**Description**:
+Tags: linux, command, rename | Score: 182 | Views: 876725 | Answers: 7
+
+**Solution / Community Answer**:
+Try with this:
+
+mv /path/sourcefolder/* /path/destinationfolder/
+
+**Reference**: https://unix.stackexchange.com/questions/50487/how-to-move-all-files-and-folders-via-mv-command
+
+> 📎 Source: https://unix.stackexchange.com/questions/50487/how-to-move-all-files-and-folders-via-mv-command
+
+#### 61. How to change ownership of symbolic links?
+
+**Issue**: How to change ownership of symbolic links?
+**Tags / Source**: Tags: linux, permissions, rhel, symlink, ln | unix | 👍 179 | 💬 3 answers
+
+**Description**:
+Tags: linux, permissions, rhel, symlink, ln | Score: 179 | Views: 251905 | Answers: 3
+
+**Solution / Community Answer**:
+On a Linux system, when changing the ownership of a symbolic link using chown, by default it changes the target of the symbolic link (ie, whatever the symbolic link is pointing to).
+
+If you'd like to change ownership of the link itself, you need to use the -h option to chown:
+
+
+  -h, --no-dereference
+  affect  each  symbolic  link  instead of any referenced file (useful only on systems that can change the ownership of a symlink)
+
+
+For example:
+
+$ touch test
+$ ls -l test*
+-rw-r--r-- 1 mj   mj   0 Jul 27 08:47 test
+$ sudo ln -s test test1
+$ ls -l test*
+-rw-r--r-- 1 mj   mj   0 Jul 27 08:47 test
+lrwxrwxrwx 1 root root 4 Jul 27 08:47 test1 -&gt; test
+$ sudo chown root:root test1
+$ ls -l test*
+-rw-r--r-- 1 root root 0 Jul 27 08:47 test
+lrwxrwxrwx 1 root root 4 Jul 27 08:47 test1 -&gt; test
+
+
+Note that the target of the link is now owned by root.
+
+$ sudo chown mj:mj test1
+$ ls -l test*
+-rw-r--r-- 1 mj   mj   0 Jul 27 08:47 test
+lrwxrwxrwx 1 root root 4 Jul 27 08:47 test1 -&gt; test
+
+
+And again, the link test1 is still owned by root, even though test has changed.
+
+$ sudo chown -h mj:mj test1
+$ ls -l test*
+-rw-r--r-- 1 mj mj 0 Jul 27 08:47 test
+lrwxrwxrwx 1 mj mj 4 Jul 27 08:47 test1 -&gt; test
+
+
+And finally we change the ownership of the link using the -h option.
+
+**Reference**: https://unix.stackexchange.com/questions/218557/how-to-change-ownership-of-symbolic-links
+
+> 📎 Source: https://unix.stackexchange.com/questions/218557/how-to-change-ownership-of-symbolic-links
+
+#### 62. How do I read from /proc/$pid/mem under Linux?
+
+**Issue**: How do I read from /proc/$pid/mem under Linux?
+**Tags / Source**: Tags: linux, kernel, process, memory, proc | unix | 👍 176 | 💬 6 answers
+
+**Description**:
+Tags: linux, kernel, process, memory, proc | Score: 176 | Views: 190951 | Answers: 6
+
+**Solution / Community Answer**:
+/proc/$pid/maps
+/proc/$pid/mem shows the contents of $pid's memory mapped the same way as in the process, i.e., the byte at offset x in the pseudo-file is the same as the byte at address x in the process. If an address is unmapped in the process, reading from the corresponding offset in the file returns EIO (Input/output error). For example, since the first page in a process is never mapped (so that dereferencing a NULL pointer fails cleanly rather than unintendedly accessing actual memory), reading the first byte of /proc/$pid/mem always yield an I/O error.
+The way to find out what parts of the process memory are mapped is to read /proc/$pid/maps. This file contains one line per mapped region, looking like this:
+08048000-08054000 r-xp 00000000 08:01 828061     /bin/cat
+08c9b000-08cbc000 rw-p 00000000 00:00 0          [heap]
+
+The first two numbers are the boundaries of the region (addresses of the first byte and the byte after last, in hexa). The next column contain the permissions, then there's some information about the file (offset, device, inode and name) if this is a file mapping. See the proc(5) man page or Understanding Linux /proc/id/maps for more information.
+Here's a proof-of-concept script that dumps the contents of its own memory.
+#! /usr/bin/env python
+import re
+maps_file = open(&quot;/proc/self/maps&quot;, 'r')
+mem_file = open(&quot;/proc/self/mem&quot;, 'rb', 0)
+output_file = open(&quot;self.dump&quot;, 'wb')
+for line in maps_file.readlines():  # for each mapped region
+    m = re.match(r'([0-9A-Fa-f]+)-([0-9A-Fa-f]+) ([-r])', line)
+    if m.group(3) == 'r':  # if this is a readable region
+        start = int(m.group(1), 16)
+        end = int(m.group(2), 16)
+        mem_file.seek(start)  # seek to region start
+        chunk = mem_file.read(end - start)  # read region contents
+        output_file.write(chunk)  # dump contents to standard output
+maps_file.close()
+mem_file.close()
+output_file.close()
+
+
+/proc/$pid/mem
+[The following is for historical interest. It does not apply to current kernels.]
+Since version 3.3 of the kernel, you can access /proc/$pid/mem normally as long as you access only access it at mapped offsets and you have permission to trace it (same permissions as ptrace for read-only access). But in older kernels, there were some additional complications.
+If you try to read from the mem pseudo-file of another process, it doesn't work: you get an ESRCH (No such process) error.
+The permissions on /proc/$pid/mem (r--------) are more liberal than what should be the case. For example, you shouldn't be able to read a setuid process's memory. Furthermore, trying to read a process's memory while the process is modifying it could give the reader an inconsistent view of the memory, and worse, there were race conditions that could trace older versions of the Linux kernel (according to this lkml thread, though I don't know the details). So additional checks are needed:
+
+The process that wants to read from /proc/$pid/mem must attach to the process using ptrace with the PTRACE_ATTACH flag. This is what debuggers do when they start debugging a process; it's also what strace does to a process's system calls. Once the reader has finished reading from /proc/$pid/mem, it should detach by calling ptrace with the PTRACE_DETACH flag.
+The observed process must not be running. Normally calling ptrace(PTRACE_ATTACH, …) will stop the target process (it sends a STOP signal), but there is a race condition (signal delivery is asynchronous), so the tracer should call wait (as documented in ptrace(2)).
+
+A process running as root can read any process's memory, without needing to call ptrace, but the observed process must be stopped, or the read will still return ESRCH.
+In the Linux kernel source, the code providing per-process entries in /proc is in fs/proc/base.c, and the function to read from /proc/$pid/mem is mem_read. The additional check is performed by check_mem_permission.
+Here's some sample C code to attach to a process and read a chunk its of mem file (error checking omitted):
+sprintf(mem_file_name, &quot;/proc/%d/mem&quot;, pid);
+mem_fd = open(mem_file_name, O_RDONLY);
+ptrace(PTRACE_ATTACH, pid, NULL, NULL);
+waitpid(pid, NULL, 0);
+lseek(mem_fd, offset, SEEK_SET);
+read(mem_fd, buf, _SC_PAGE_SIZE);
+ptrace(PTRACE_DETACH, pid, NULL, NULL);
+
+I've already posted a proof-of-concept script for dumping /proc/$pid/mem on another thread.
+
+**Reference**: https://unix.stackexchange.com/questions/6301/how-do-i-read-from-proc-pid-mem-under-linux
+
+> 📎 Source: https://unix.stackexchange.com/questions/6301/how-do-i-read-from-proc-pid-mem-under-linux
+
+#### 63. Zip everything in current directory
+
+**Issue**: Zip everything in current directory
+**Tags / Source**: Tags: ubuntu, packaging, compression, zip | unix | 👍 176 | 💬 2 answers
+
+**Description**:
+Tags: ubuntu, packaging, compression, zip | Score: 176 | Views: 300258 | Answers: 2
+
+**Solution / Community Answer**:
+Install zip and use
+
+zip -r foo.zip .
+
+
+You can use the flags -0 (none) to -9 (best) to change compressionrate
+
+Excluding files can be done via the -x flag. From the man-page:
+
+-x files
+--exclude files
+          Explicitly exclude the specified files, as in:
+
+                 zip -r foo foo -x \*.o
+
+          which  will  include the contents of foo in foo.zip while excluding all the files that end in .o.  The backslash avoids the shell filename substitution, so that the name matching
+          is performed by zip at all directory levels.
+
+          Also possible:
+
+                 zip -r foo foo -x@exclude.lst
+
+          which will include the contents of foo in foo.zip while excluding all the files that match the patterns in the file exclude.lst.
+
+          The long option forms of the above are
+
+                 zip -r foo foo --exclude \*.o
+
+          and
+
+                 zip -r foo foo --exclude @exclude.lst
+
+          Multiple patterns can be specified, as in:
+
+                 zip -r foo foo -x \*.o \*.c
+
+          If there is no space between -x and the pattern, just one value is assumed (no list):
+
+                 zip -r foo foo -x\*.o
+
+          See -i for more on include and exclude.
+
+**Reference**: https://unix.stackexchange.com/questions/27362/zip-everything-in-current-directory
+
+> 📎 Source: https://unix.stackexchange.com/questions/27362/zip-everything-in-current-directory
+
+#### 64. Get the chmod numerical value for a file
+
+**Issue**: Get the chmod numerical value for a file
+**Tags / Source**: Tags: linux, freebsd, chmod | unix | 👍 172 | 💬 4 answers
+
+**Description**:
+Tags: linux, freebsd, chmod | Score: 172 | Views: 269466 | Answers: 4
+
+**Solution / Community Answer**:
+You can get the value directly using a stat output format, e.g.
+Linux:
+stat --format '%a' &lt;file&gt;
+
+BSD/OS X:
+stat -f &quot;%OLp&quot; &lt;file&gt;
+
+Busybox:
+ stat -c '%a' &lt;file&gt;
+
+**Reference**: https://unix.stackexchange.com/questions/46915/get-the-chmod-numerical-value-for-a-file
+
+> 📎 Source: https://unix.stackexchange.com/questions/46915/get-the-chmod-numerical-value-for-a-file
+
+#### 65. What are pseudo terminals (pty/tty)?
+
+**Issue**: What are pseudo terminals (pty/tty)?
+**Tags / Source**: Tags: linux, terminal, pty | unix | 👍 172 | 💬 3 answers
+
+**Description**:
+Tags: linux, terminal, pty | Score: 172 | Views: 129984 | Answers: 3
+
+**Solution / Community Answer**:
+What is a pseudo terminal? (tty/pty)
+
+A device that has the functions of a physical terminal without actually being one. Created by terminal emulators such as xterm. More detail is in the manpage pty(7).
+
+Why do we need them? How they got introduced and what was the need for it?
+
+Traditionally, UNIX has a concept of a controlling terminal for a group of processes, and many I/O functions are built with terminals in mind. Pseudoterminals handle, for example, some control characters like ^C.
+
+Are they outdated? Do we not need them anymore? Is there anything that replaced them?
+
+They are not outdated and are used in many programs, including ssh.
+
+Any useful use-case?
+
+ssh.
+
+**Reference**: https://unix.stackexchange.com/questions/21147/what-are-pseudo-terminals-pty-tty
+
+> 📎 Source: https://unix.stackexchange.com/questions/21147/what-are-pseudo-terminals-pty-tty
+
+#### 66. How to make log-rotate change take effect
+
+**Issue**: How to make log-rotate change take effect
+**Tags / Source**: Tags: linux, syslog, logrotate | unix | 👍 169 | 💬 4 answers
+
+**Description**:
+Tags: linux, syslog, logrotate | Score: 169 | Views: 400685 | Answers: 4
+
+**Solution / Community Answer**:
+logrotate uses crontab to work. It's scheduled work, not a daemon, so no need to reload its configuration.
+When the crontab executes logrotate, it will use your new config file automatically.
+If you need to test your config you can also execute logrotate on your own  with the command:
+logrotate /etc/logrotate.d/your-logrotate-config
+
+If you want to have a debug output use argument  -d
+logrotate -d /etc/logrotate.d/your-logrotate-config
+
+You may need to be root or a specific user to run this command.
+Or as mentioned in comments, identify the logrotate line in the output of the command crontab -l and execute the command line refer to slm's answer to have a precise cron.daily explanation
+
+**Reference**: https://unix.stackexchange.com/questions/116136/how-to-make-log-rotate-change-take-effect
+
+> 📎 Source: https://unix.stackexchange.com/questions/116136/how-to-make-log-rotate-change-take-effect
+
+#### 67. How do I attach a terminal to a detached process?
+
+**Issue**: How do I attach a terminal to a detached process?
+**Tags / Source**: Tags: linux, shell, command-line, terminal, process | unix | 👍 167 | 💬 5 answers
+
+**Description**:
+Tags: linux, shell, command-line, terminal, process | Score: 167 | Views: 300559 | Answers: 5
+
+**Solution / Community Answer**:
+Yes, it is. First, create a pipe:
+mkfifo /tmp/fifo.
+ Use gdb to attach to the process:
+gdb -p PID
+
+Then close stdin: call close (0); and open it again: call open ("/tmp/fifo", 0600)
+
+Finally, write away (from a different terminal, as gdb will probably hang):
+
+echo blah &gt; /tmp/fifo
+
+**Reference**: https://unix.stackexchange.com/questions/31824/how-do-i-attach-a-terminal-to-a-detached-process
+
+> 📎 Source: https://unix.stackexchange.com/questions/31824/how-do-i-attach-a-terminal-to-a-detached-process
+
+#### 68. Can I configure my Linux system for more aggressive file system caching?
+
+**Issue**: Can I configure my Linux system for more aggressive file system caching?
+**Tags / Source**: Tags: linux, filesystems, performance, fstab, sysctl | unix | 👍 167 | 💬 7 answers
+
+**Description**:
+Tags: linux, filesystems, performance, fstab, sysctl | Score: 167 | Views: 171822 | Answers: 7
+
+**Solution / Community Answer**:
+Improving disk cache performance in general is more than just increasing the file system cache size unless your whole system fits in RAM in which case you should use RAM drive (tmpfs is good because it allows falling back to disk if you need the RAM in some case) for runtime storage (and perhaps an initrd script to copy system from storage to RAM drive at startup).
+You didn't tell if your storage device is SSD or HDD. Here's what I've found to work for me (in my case sda is a HDD mounted at /home and sdb is SSD mounted at /).
+First optimize the load-stuff-from-storage-to-cache part:
+Here is my setup for HDD (make sure AHCI+NCQ is enabled in BIOS if you have toggles):
+    echo cfq &gt; /sys/block/sda/queue/scheduler
+    echo 10000 &gt; /sys/block/sda/queue/iosched/fifo_expire_async
+    echo 250 &gt; /sys/block/sda/queue/iosched/fifo_expire_sync
+    echo 80 &gt; /sys/block/sda/queue/iosched/slice_async
+    echo 1 &gt; /sys/block/sda/queue/iosched/low_latency
+    echo 6 &gt; /sys/block/sda/queue/iosched/quantum
+    echo 5 &gt; /sys/block/sda/queue/iosched/slice_async_rq
+    echo 3 &gt; /sys/block/sda/queue/iosched/slice_idle
+    echo 100 &gt; /sys/block/sda/queue/iosched/slice_sync
+    hdparm -q -M 254 /dev/sda
+
+Worth noting for the HDD case is high fifo_expire_async (usually write) and long slice_sync to allow a single process to get high throughput (set slice_sync to lower number if you hit situations where multiple processes are waiting for some data from the disk in parallel). The slice_idle is always a compromise for HDDs but setting it somewhere in range 3-20 should be okay depending on disk usage and disk firmware. I prefer to target for low values but setting it too low will destroy your throughput. The quantum setting seems to affect throughput a lot but try to keep this as low as possible to keep latency on sensible level. Setting quantum too low will destroy throughput. Values in range 3-8 seem to work well with HDDs. The worst case latency for a read is (quantum * slice_sync) + (slice_async_rq * slice_async) ms if I've understood the kernel behavior correctly. The async is mostly used by writes and since you're willing to delay writing to disk, set both slice_async_rq and slice_async to very low numbers. However, setting slice_async_rq too low value may stall reads because writes cannot be delayed after reads any more. My config will try to write data to disk at most after 10 seconds after data has been passed to kernel but since you can tolerate loss of data on power loss also set fifo_expire_async to 3600000 to tell that 1 hour is okay for the delay to disk. Just keep the slice_async low, though, because otherwise you can get high read latency.
+The hdparm command is required to prevent AAM from killing much of the performance that AHCI+NCQ allows. If your disk makes too much noise, then skip this.
+Here is my setup for SSD (Intel 320 series):
+    echo cfq &gt; /sys/block/sdb/queue/scheduler
+    echo 1 &gt; /sys/block/sdb/queue/iosched/back_seek_penalty
+    echo 10000 &gt; /sys/block/sdb/queue/iosched/fifo_expire_async
+    echo 20 &gt; /sys/block/sdb/queue/iosched/fifo_expire_sync
+    echo 1 &gt; /sys/block/sdb/queue/iosched/low_latency
+    echo 6 &gt; /sys/block/sdb/queue/iosched/quantum
+    echo 2 &gt; /sys/block/sdb/queue/iosched/slice_async
+    echo 10 &gt; /sys/block/sdb/queue/iosched/slice_async_rq
+    echo 1 &gt; /sys/block/sdb/queue/iosched/slice_idle
+    echo 20 &gt; /sys/block/sdb/queue/iosched/slice_sync
+
+Here it's worth noting the low values for different slice settings. The most important setting for an SSD is slice_idle which must be set to 0-1. Setting it to zero moves all ordering decisions to native NCQ while setting it to 1 allows kernel to order requests (but if the NCQ is active, the hardware may override kernel ordering partially). Test both values to see if you can see the difference. For Intel 320 series, it seems that setting slide_idle to 0 gives the best throughput but setting it to 1 gives best (lowest) overall latency. If you have recent enough kernel, you can use slide_idle_us to set the value in microseconds instead of milliseconds and you could use something like echo 14 &gt; slice_idle_us instead. Suitable value seems to be close to 700000 divided by max practical IOPS your storage device can support so 14 is okay for pretty fast SSD devices.
+For more information about these tunables, see https://www.kernel.org/doc/Documentation/block/cfq-iosched.txt .
+Update in year 2020 and kernel version 5.3 (cfq is dead):
+#!/bin/bash
+modprobe bfq
+for d in /sys/block/sd?; do
+  # HDD (tuned for Seagate SMR drive)
+  echo bfq &gt;&quot;$d/queue/scheduler&quot;
+  echo 4 &gt;&quot;$d/queue/nr_requests&quot;
+  echo 32000 &gt;&quot;$d/queue/iosched/back_seek_max&quot;
+  echo 3 &gt;&quot;$d/queue/iosched/back_seek_penalty&quot;
+  echo 80 &gt;&quot;$d/queue/iosched/fifo_expire_sync&quot;
+  echo 1000 &gt;&quot;$d/queue/iosched/fifo_expire_async&quot;
+  echo 5300 &gt;&quot;$d/queue/iosched/slice_idle_us&quot;
+  echo 1 &gt;&quot;$d/queue/iosched/low_latency&quot;
+  echo 200 &gt;&quot;$d/queue/iosched/timeout_sync&quot;
+  echo 0 &gt;&quot;$d/queue/iosched/max_budget&quot;
+  echo 1 &gt;&quot;$d/queue/iosched/strict_guarantees&quot;
+
+  # additional tweaks for SSD (tuned for Samsung EVO 850):
+  if test $(cat &quot;$d/queue/rotational&quot;) = &quot;0&quot;; then
+    echo 36 &gt;&quot;$d/queue/nr_requests&quot;
+    echo 1 &gt;&quot;$d/queue/iosched/back_seek_penalty&quot;
+    # slice_idle_us should be ~ 0.7/IOPS in µs
+    echo 16 &gt;&quot;$d/queue/iosched/slice_idle_us&quot;
+    echo 10 &gt;&quot;$d/queue/iosched/fifo_expire_sync&quot;
+    echo 250 &gt;&quot;$d/queue/iosched/fifo_expire_async&quot;
+    echo 10 &gt;&quot;$d/queue/iosched/timeout_sync&quot;
+    echo 0 &gt;&quot;$d/queue/iosched/strict_guarantees&quot;
+  fi
+done
+
+The setup is pretty similar but I now use bfq instead of cfq because the latter is not available with modern kernels. I try to keep nr_requests as low as possible to allow bfq to control the scheduling more accurately. At least Samsung SSD drives seem to require a pretty deep queue to be able to run with high IOPS. Update: Many Samsung SSDs have a firmware bug and can hang the whole device if nr_requests is too high and OS submits lots of requests rapidly. I've seen random freeze about once every 2 months if I use high nr_requests (e.g. 32 or 36), but the value 6 has been stable this far. The official fix is to set it to 1 but it hurts the performance a lot! For more details, see https://bugzilla.kernel.org/show_bug.cgi?id=203475 and https://bugzilla.kernel.org/show_bug.cgi?id=201693 – basically, if you have a Samsung SSD device and see failed command: WRITE FPDMA QUEUED in the kernel log, you've been bitten by this bug.
+If you have latest SSD firmware installed and still get hangs, try kernel flag libata.force=3.0Gbps. Surprisingly many motherboard SATA chipsets are not stable at 6 Gbps line speeds but are totally stable with 3 Gbps line speeds.
+I'm using Ubuntu 18.04 with kernel package linux-lowlatency-hwe-18.04-edge which has bfq only as a module so I need to load it before being able to switch to it.
+I also nowadays also use zram but I only use 5% of RAM for zram. This allows Linux kernel to use swapping related logic without touching the disks. However, if you decide to go with zero disk swap, make sure your apps do not leak RAM or you're wasting money.
+Now that we have configured kernel to load stuff from disk to cache with sensible performance, it's time to adjust the cache behavior:
+According to benchmarks I've done, I wouldn't bother setting read ahead via blockdev at all. Kernel default settings are fine.
+Set system to prefer swapping file data over application code (this does not matter if you have enough RAM to keep whole filesystem and all the application code and all virtual memory allocated by applications in RAM). This reduces latency for swapping between different applications over latency for accessing big files from a single application:
+echo 15 &gt; /proc/sys/vm/swappiness
+
+If you prefer to keep applications nearly always in RAM you could set this to 1. If you set this to zero, kernel will not swap at all unless absolutely necessary to avoid OOM. If you were memory limited and working with big files (e.g. HD video editing), then it might make sense to set this close to 100.
+I nowadays (2017) prefer to have no swap at all if you have enough RAM. Having no swap will usually lose 200-1000 MB of RAM on long running desktop machine. I'm willing to sacrifice that much to avoid worst case scenario latency (swapping application code in when RAM is full). In practice, this means that I prefer OOM Killer to swapping. If you allow/need swapping, you might want to increase /proc/sys/vm/watermark_scale_factor, too, to avoid some latency. I would suggest values between 100 and 500. You can consider this setting as trading CPU usage for lower swap latency. The default is 10 and the maximum possible is 1000. Higher value should (according to kernel documentation) result in higher CPU usage for kswapd processes and lower overall swapping latency.
+Next, tell kernel to prefer keeping directory hierarchy in memory over file contents and the rest of the page cache in case some RAM needs to be freed (again, if everything fits in RAM, this setting does nothing):
+echo 10 &gt; /proc/sys/vm/vfs_cache_pressure # kernel 5.3 or older
+
+echo 120 &gt; /proc/sys/vm/vfs_cache_pressure # kernel 5.4 or newer
+
+Setting vfs_cache_pressure to a low value makes sense because in most cases, the kernel needs to know the directory structure and other filesystem metadata before it can use file contents from the cache and flushing the directory cache too soon will make the file cache next to worthless. However, page cache contains also other data but just the file contents so this setting should be considered like the overall importance of metadata caching vs rest of the system. Consider going all the way down to 1 with this setting if you have lots of small files (my system has around 150K 10 megapixel photos and counts as a &quot;lots of small files&quot; system).
+Never set it to zero or the directory structure is always kept in memory even if the system runs out of memory.
+Setting this to a big value is sensible only if you have only a few big files that are constantly being re-read (again, HD video editing without enough RAM would be an example case). Official kernel documentation says that &quot;increasing vfs_cache_pressure significantly beyond 100 may have negative performance impact&quot;.
+Year 2021 update: After running with kernel version 5.4 for long enough, I've come to the conclusion that the very low vfs_cache_pressure setting (I used to run with 1 for years) may now be causing long stalls / bad latency when memory pressure gets high enough. However, I never noticed such behavior with kernel version 5.3 or lesser.
+Year 2022 update: I've been running kernel 5.4.x series for another year and I've come to the conclusion that vfs_cache_pressure has changed permanently. The kernel memory manager behavior that I used to get with kernel version 5.3 or older with values in range 1..5 seems to match real world behavior with 5.4 values in range 100..120. The newer kernels make this adjustment matter more so I'd recommend the value vfs_cache_pressure=120 nowadays for low latency overall. Kernel version 5.3 or older should use a very low but non-zero value here in my opinion.
+Exception: if you have a truly massive amount of files and directories and you rarely touch/read/list all files setting vfs_cache_pressure higher than 100 may be wise. This only applies if you do not have enough RAM and cannot keep the whole directory structure in RAM and still have enough RAM for normal file cache and processes (e.g. company wide file server with lots of archival content). If you feel that you need to increase vfs_cache_pressure way above 100 you're running without enough RAM (I have 64 GB RAM on my workstation and 120 seems to be a good setting for minimum latency overall). Increasing vfs_cache_pressure may help a bit but the only real fix is to get more RAM. Having vfs_cache_pressure set to high number sacrifices average performance for having a more stable performance overall (that is, you can avoid really bad worst case behavior but have to deal with worse overall performance).
+Finally, tell the kernel to use up to 99% of the RAM as cache for writes and instruct kernel to use up to 50% of RAM before slowing down the process that's writing (default for dirty_background_ratio is 10). Warning: I personally would not do this but you claimed to have enough RAM and are willing to lose the data.
+echo 99 &gt; /proc/sys/vm/dirty_ratio
+echo 50 &gt; /proc/sys/vm/dirty_background_ratio
+
+And tell that 1h write delay is ok to even start writing stuff on the disk (again, I would not do this):
+echo 360000 &gt; /proc/sys/vm/dirty_expire_centisecs
+echo 360000 &gt; /proc/sys/vm/dirty_writeback_centisecs
+
+For more information about these tunables, see https://www.kernel.org/doc/Documentation/sysctl/vm.txt
+If you put all of those to /etc/rc.local and include following at the end, everything will be in cache as soon as possible after boot (only do this if your filesystem really fits in the RAM):
+(nice find / -type f -and -not -path '/sys/*' -and -not -path '/proc/*' -print0 2&gt;/dev/null | nice ionice -c 3 wc -l --files0-from - &gt; /dev/null)&amp;
+
+Or a bit simpler alternative which might work better (cache only /home and /usr, only do this if your /home and /usr really fit in RAM):
+(nice find /home /usr -type f -print0 | nice ionice -c 3 wc -l --files0-from - &gt; /dev/null)&amp;
+
+**Reference**: https://unix.stackexchange.com/questions/30286/can-i-configure-my-linux-system-for-more-aggressive-file-system-caching
+
+> 📎 Source: https://unix.stackexchange.com/questions/30286/can-i-configure-my-linux-system-for-more-aggressive-file-system-caching
+
+#### 69. What is this folder /run/user/1000?
+
+**Issue**: What is this folder /run/user/1000?
+**Tags / Source**: Tags: linux, fedora, filesystems, directory-structure | unix | 👍 167 | 💬 2 answers
+
+**Description**:
+Tags: linux, fedora, filesystems, directory-structure | Score: 167 | Views: 195386 | Answers: 2
+
+**Solution / Community Answer**:
+/run/user/$uid is created by pam_systemd and used for storing files used by running processes for that user. These might be things such as your keyring daemon, pulseaudio, etc.
+
+Prior to systemd, these applications typically stored their files in /tmp. They couldn't use a location in /home/$user as home directories are often mounted over network filesystems, and these files should not be shared among hosts. /tmp was the only location specified by the FHS which is local, and writable by all users.
+
+However storing all these files in /tmp is problematic as /tmp is writable by everyone, and while you can change the ownership &amp; mode on the files being created, it's more difficult to work with.
+
+So systemd came along and created /run/user/$uid. This directory is local to the system and only accessible by the target user. So applications looking to store their files locally no longer have to worry about access control.
+It also keeps things nice and organized. When a user logs out, and no active sessions remain, pam_systemd will wipe the /run/user/$uid directory out. With various files scattered around /tmp, you couldn't do this.
+
+**Reference**: https://unix.stackexchange.com/questions/162900/what-is-this-folder-run-user-1000
+
+> 📎 Source: https://unix.stackexchange.com/questions/162900/what-is-this-folder-run-user-1000
+
+#### 70. How is Mono magical?
+
+**Issue**: How is Mono magical?
+**Tags / Source**: Tags: linux, executable, cross-compilation, mono | unix | 👍 165 | 💬 1 answers
+
+**Description**:
+Tags: linux, executable, cross-compilation, mono | Score: 165 | Views: 11848 | Answers: 1
+
+**Solution / Community Answer**:
+This is binfmt_misc in action: it allows the kernel to be told how to run binaries it doesn't know about. Look at the contents of /proc/sys/fs/binfmt_misc; among the files you see there, one should explain how to run Mono binaries:
+
+enabled
+interpreter /usr/lib/binfmt-support/run-detectors
+flags:
+offset 0
+magic 4d5a
+
+
+(on a Debian system). This tells the kernel that binaries starting with MZ (4d5a) should be given to run-detectors. The latter figures out whether to use Mono or Wine to run the binary.
+
+Binary types can be added, removed, enabled and disabled at any time; see the documentation above for details (the semantics are surprising, the virtual filesystem used here doesn't behave entirely like a standard filesystem). /proc/sys/fs/binfmt_misc/status gives the global status, and each binary "descriptor" shows its individual status. Another way of disabling binfmt_misc is to unload its kernel module, if it's built as a module; this also means it's possible to blacklist it to avoid it entirely.
+
+This feature allows new binary types to be supported, such as MZ executables (which include Windows PE and PE+ binaries, but also DOS and OS/2 binaries!), Java JAR files... It also allows known binary types to be supported on new architectures, typically using Qemu; thus, with the appropriate libraries, you can transparently run ARM Linux binaries on an Intel processor!
+
+Your question stemmed from cross-compilation, albeit in the .NET sense, and that brings up a caveat with binfmt_misc: some configuration scripts misbehave when you try to cross-compile on a system which can run the cross-compiled binaries. Typically, detecting cross-compilation involves building a binary and attempting to run it; if it runs, you're not cross-compiling, if it doesn't, you are (or your compiler's broken). autoconf scripts can usually be fixed in this case by explicitly specifying the build and host architectures, but sometimes you'll have to disable binfmt_misc temporarily...
+
+**Reference**: https://unix.stackexchange.com/questions/259376/how-is-mono-magical
+
+> 📎 Source: https://unix.stackexchange.com/questions/259376/how-is-mono-magical
+
+#### 71. Difference between pts and tty
+
+**Issue**: Difference between pts and tty
+**Tags / Source**: Tags: linux, tty, terminology, who | unix | 👍 164 | 💬 3 answers
+
+**Description**:
+Tags: linux, tty, terminology, who | Score: 164 | Views: 176362 | Answers: 3
+
+**Solution / Community Answer**:
+A tty is a native terminal device, the backend is either hardware or kernel-emulated.
+A pty (pseudo terminal device) is a terminal device which is emulated by another program (example: xterm, screen, or ssh are such programs). A pts is the slave part of a pty.
+(More info can be found in man pty.)
+Short summary:
+A pty is created by a process through posix_openpt() (which usually opens the special device /dev/ptmx), and is constituted by a pair of bidirectional character devices:
+
+The master part, which is the file descriptor obtained by this process through this call, is used to emulate a terminal. After some initialization, the second part can be unlocked with unlockpt(), and the master is used to receive or send characters to this second part (slave).
+
+The slave part, which is anchored in the filesystem as /dev/pts/x (the real name can be obtained by the master through ptsname()) behaves like a native terminal device (/dev/ttyx). In most cases, a shell is started that uses it as a controlling terminal.
+
+**Reference**: https://unix.stackexchange.com/questions/21280/difference-between-pts-and-tty
+
+> 📎 Source: https://unix.stackexchange.com/questions/21280/difference-between-pts-and-tty
+
+#### 72. How to show the filesystem type via the terminal?
+
+**Issue**: How to show the filesystem type via the terminal?
+**Tags / Source**: Tags: linux, filesystems | unix | 👍 163 | 💬 2 answers
+
+**Description**:
+Tags: linux, filesystems | Score: 163 | Views: 380005 | Answers: 2
+
+**Solution / Community Answer**:
+Yes, according to man df you can:
+
+
+-T, --print-type      print file system type
+
+
+
+Another way is to use the mount command. Without parameters it lists the currently mounted devices, including their file systems.
+
+In case you need to find out only one certain file system, is easier to use the stat command's -f option instead of parsing out one value from the above mentioned commands' output.
+
+**Reference**: https://unix.stackexchange.com/questions/53313/how-to-show-the-filesystem-type-via-the-terminal
+
+> 📎 Source: https://unix.stackexchange.com/questions/53313/how-to-show-the-filesystem-type-via-the-terminal
+
+#### 73. How do SO (shared object) numbers work?
+
+**Issue**: How do SO (shared object) numbers work?
+**Tags / Source**: Tags: linux, dynamic-linking | unix | 👍 163 | 💬 4 answers
+
+**Description**:
+Tags: linux, dynamic-linking | Score: 163 | Views: 123963 | Answers: 4
+
+**Solution / Community Answer**:
+Binaries themselves know which version of a shared library they depend on, and request it specifically. You can use ldd to show the dependencies; mine for ls are:
+
+$ ldd /bin/ls
+    linux-gate.so.1 =&gt;  (0xb784e000)
+    librt.so.1 =&gt; /lib/librt.so.1 (0xb782c000)
+    libacl.so.1 =&gt; /lib/libacl.so.1 (0xb7824000)
+    libc.so.6 =&gt; /lib/libc.so.6 (0xb76dc000)
+    libpthread.so.0 =&gt; /lib/libpthread.so.0 (0xb76c3000)
+    /lib/ld-linux.so.2 (0xb784f000)
+    libattr.so.1 =&gt; /lib/libattr.so.1 (0xb76bd000)
+
+
+As you can see, it points to e.g. libpthread.so.0, not just libpthread.so.
+
+
+
+The reason for the symbolic link is for the linker. When you want to link against libpthread.so directly, you give gcc the flag -lpthread, and it adds on the lib prefix and .so suffix automatically. You can't tell it to add on the .so.0 suffix, so the symbolic link points to the newest version of the lib to faciliate that
+
+**Reference**: https://unix.stackexchange.com/questions/475/how-do-so-shared-object-numbers-work
+
+> 📎 Source: https://unix.stackexchange.com/questions/475/how-do-so-shared-object-numbers-work
+
+#### 74. How to output only file names (with spaces) in ls -Al?
+
+**Issue**: How to output only file names (with spaces) in ls -Al?
+**Tags / Source**: Tags: linux, command-line, ls | unix | 👍 162 | 💬 10 answers
+
+**Description**:
+Tags: linux, command-line, ls | Score: 162 | Views: 448811 | Answers: 10
+
+**Solution / Community Answer**:
+You really should not parse the output of ls. If this is a homework assignment and you are required to, your professor does not know what they're talking about. Why don't you do something like this:
+
+  The good...
+
+find ./  -printf "%f\n"
+
+
+or
+
+for n in *; do printf '%s\n' "$n"; done
+
+
+...the bad...
+
+If you really really want to use ls, you can make it a little bit more robust by doing something like this:
+
+ls -lA | awk -F':[0-9]* ' '/:/{print $2}'
+
+
+...and the ugly
+
+If you insist on doing it the wrong, dangerous way and just have to use a while loop, do this:
+
+ls -Al | while IFS= read -r string; do echo "$string" | 
+    awk -F':[0-9]* ' '/:/{print $2}'; done
+
+
+Seriously though, just don't.
+
+**Reference**: https://unix.stackexchange.com/questions/70614/how-to-output-only-file-names-with-spaces-in-ls-al
+
+> 📎 Source: https://unix.stackexchange.com/questions/70614/how-to-output-only-file-names-with-spaces-in-ls-al
+
+#### 75. How to see process created by specific user in Unix/linux
+
+**Issue**: How to see process created by specific user in Unix/linux
+**Tags / Source**: Tags: linux, process, ps | unix | 👍 161 | 💬 3 answers
+
+**Description**:
+Tags: linux, process, ps | Score: 161 | Views: 478947 | Answers: 3
+
+**Solution / Community Answer**:
+To view only the processes owned by a specific user, use the following command:
+
+top -U [username]
+
+
+Replace the [username] with the required username
+
+If you want to use ps then
+
+ps -u [username]
+
+
+OR
+
+ ps -ef | grep &lt;username&gt;
+
+
+OR
+
+ps -efl | grep &lt;username&gt;
+
+
+for the extended listing
+
+Check out the man ps page for options
+
+Another alternative is to use pstree wchich prints the process tree of the user
+
+pstree &lt;username or pid&gt;
+
+**Reference**: https://unix.stackexchange.com/questions/85466/how-to-see-process-created-by-specific-user-in-unix-linux
+
+> 📎 Source: https://unix.stackexchange.com/questions/85466/how-to-see-process-created-by-specific-user-in-unix-linux
+
+#### 76. Long line wrapping in Nano
+
+**Issue**: Long line wrapping in Nano
+**Tags / Source**: Tags: ubuntu, nano | unix | 👍 160 | 💬 8 answers
+
+**Description**:
+Tags: ubuntu, nano | Score: 160 | Views: 189904 | Answers: 8
+
+**Solution / Community Answer**:
+To see the word wrapping style you described, use nano's "soft wrapping": Esc+$.
+
+The Esc+L command you (and everyone) tried does "hard wrapping."
+
+Note on keystroke notation - if you are new to Linux, the notation Esc+$ means press and release Esc and then press $.  The full key press sequence then is Esc, Shift+4.
+
+(It does not mean hold down escape while pressing $.)
+
+Source: https://www.nano-editor.org/dist/v2.9/nano.html (search for --softwrap)
+
+
+Note on softwrap and formatting mistakes - If you are new to nano, be a little careful of softwrap. If you are editing a configuration file or something else that is sensitive to newlines or indents, formatting mistakes can be made. Until you get comfortable with softwrap’s behaviors, I suggest doing a quick check with softwrap off (do the key sequence again) before saving. 
+
+Note on the goodness provided by others in their answers below - because different operating systems and different versions of nano do things a little differently:
+
+
+If you like softwrap on all of the time, set it in your .nanorc, as described in x0a's answer below, as it is a bit more through than Prashant's.
+If you have a Raspberry Pi, note chainsawmascara's answer about needing an extra keystroke for softwrap to go into effect.
+If you have a Mac, like lodeOfCode's answer below, you can always update nano and here, and thus bask in the warm glow of softwrap!
+
+
+nano linewrap
+
+**Reference**: https://unix.stackexchange.com/questions/122795/long-line-wrapping-in-nano
+
+> 📎 Source: https://unix.stackexchange.com/questions/122795/long-line-wrapping-in-nano
+
+#### 77. List partition labels from the command line
+
+**Issue**: List partition labels from the command line
+**Tags / Source**: Tags: linux, command-line, partition, disk | unix | 👍 158 | 💬 14 answers
+
+**Description**:
+Tags: linux, command-line, partition, disk | Score: 158 | Views: 326238 | Answers: 14
+
+**Solution / Community Answer**:
+with lsblk
+For instance, the command
+lsblk -o name,mountpoint,label,size,uuid
+
+outputs:
+NAME                           MOUNTPOINT     LABEL         SIZE UUID
+sda                                                         1.4T
+├─sda1                         /boot          boot          953M f557b9f0-edb5-42bb-94d8-27bc03c3c2c7
+├─sda2                                                     46.6G 727fa348-8804-4773-ae3d-f3e176d12dac
+│ └─sda2_crypt (dm-0)                                      46.6G P1kvJI-5iqv-s9gJ-8V2H-2EEO-q4aK-sx4aDi
+│   ├─debian_crypt-swap (dm-1) [SWAP]                         2G 3f9f24d7-86d1-4e21-93e9-f3c181d05cf0
+│   ├─debian_crypt-tmp (dm-2)  /tmp           tmp             5G 93fc8219-f985-45fb-bd5c-2c7940a7512d
+│   ├─debian_crypt-home (dm-3) /home          home            6G 12e8566c-8f0f-45ec-8524-6d9d9ee91eae
+│   └─debian_crypt-root (dm-4) /              root         33.6G 9685570b-4c9e-43ea-815e-49d10dc7a1bf
+├─sda3                                                    651.9G d3e0436c-85f6-45c6-9d8f-28b79ee06102
+│ └─crypt_gusto (dm-8)         /media/Gusto   Gusto       651.9G 0c084508-cb8b-4b61-832d-6b85273f33c4
+├─sda4                                                        1K
+├─sda5                                                      298G 5063da5f-9b68-43de-914c-32b89622bcc8
+│ └─crypt_kabi (dm-7)          /media/Kabi    Kabi          298G e6a0b66c-8fe9-4e7b-9d54-7b2b430e109d
+├─sda6                                                    213.6G 5129d860-bb41-4393-b4b1-f8af53d9155d
+│ └─crypt_zami (dm-6)          /media/Zami    Zami        213.6G 19101155-6070-4f37-b39d-19f28867c66b
+├─sda7                         /media/Server  Server       85.6G a9f4dae5-901c-4f49-bb30-592de3000713
+└─sda8                                                    100.6G dc7f4586-a33d-4707-98e9-8b55c559b0d2
+  └─crypt_grafi (dm-5)         /media/Grafi   Grafi       100.6G 5e3242e1-ec7a-4806-92f7-88a126feea94
+sdb                                                        14.5G
+├─sdb1                                        DEBIAN_LIVE     3G 6bf4d915-2b62-444e-a2c8-16307769b5c2
+├─sdb2                                                        2G 90ec6f73-8fdb-4c8d-aebd-cadd0f51b412
+│ └─crypt_sdb2 (dm-10)         /mnt           data            2G 91e779dd-0a3f-40b2-8ad0-257d860541a6
+└─sdb3                                        linux         9.5G 14a783a4-96dd-4a85-8de7-6e8eea230594
+loop0                                                      1000M a3be80bf-0f2c-44ed-8de5-d60e3b19c01a
+└─crypt_dropbox (dm-9)         /media/Dropbox Dropbox       998M 8461e2cf-ae17-449b-8ee5-29cc88688b8b
+zram0                          [SWAP]                       250M f8254ae5-5ae6-4fda-b8ef-83f25c405894
+zram1                          [SWAP]                       250M 7e7ed90d-731c-422a-bf9b-828f09b80502
+
+You can specify plenty of columns in whatever order you like:
+Available output columns:
+         NAME  device name
+        KNAME  internal kernel device name
+         PATH  path to the device node
+      MAJ:MIN  major:minor device number
+      FSAVAIL  filesystem size available
+       FSSIZE  filesystem size
+       FSTYPE  filesystem type
+       FSUSED  filesystem size used
+       FSUSE%  filesystem use percentage
+      FSROOTS  mounted filesystem roots
+        FSVER  filesystem version
+   MOUNTPOINT  where the device is mounted
+  MOUNTPOINTS  all locations where device is mounted
+        LABEL  filesystem LABEL
+         UUID  filesystem UUID
+       PTUUID  partition table identifier (usually UUID)
+       PTTYPE  partition table type
+     PARTTYPE  partition type code or UUID
+ PARTTYPENAME  partition type name
+    PARTLABEL  partition LABEL
+     PARTUUID  partition UUID
+    PARTFLAGS  partition flags
+           RA  read-ahead of the device
+           RO  read-only device
+           RM  removable device
+      HOTPLUG  removable or hotplug device (usb, pcmcia, ...)
+        MODEL  device identifier
+       SERIAL  disk serial number
+         SIZE  size of the device
+        STATE  state of the device
+        OWNER  user name
+        GROUP  group name
+         MODE  device node permissions
+    ALIGNMENT  alignment offset
+       MIN-IO  minimum I/O size
+       OPT-IO  optimal I/O size
+      PHY-SEC  physical sector size
+      LOG-SEC  logical sector size
+         ROTA  rotational device
+        SCHED  I/O scheduler name
+      RQ-SIZE  request queue size
+         TYPE  device type
+     DISC-ALN  discard alignment offset
+    DISC-GRAN  discard granularity
+     DISC-MAX  discard max bytes
+    DISC-ZERO  discard zeroes data
+        WSAME  write same max bytes
+          WWN  unique storage identifier
+         RAND  adds randomness
+       PKNAME  internal parent kernel device name
+         HCTL  Host:Channel:Target:Lun for SCSI
+         TRAN  device transport type
+   SUBSYSTEMS  de-duplicated chain of subsystems
+          REV  device revision
+       VENDOR  device vendor
+        ZONED  zone model
+          DAX  dax-capable device
+
+**Reference**: https://unix.stackexchange.com/questions/14165/list-partition-labels-from-the-command-line
+
+> 📎 Source: https://unix.stackexchange.com/questions/14165/list-partition-labels-from-the-command-line
+
+#### 78. Why does /etc/resolv.conf point at 127.0.0.53?
+
+**Issue**: Why does /etc/resolv.conf point at 127.0.0.53?
+**Tags / Source**: Tags: linux, dns, resolv.conf | unix | 👍 158 | 💬 3 answers
+
+**Description**:
+Tags: linux, dns, resolv.conf | Score: 158 | Views: 318752 | Answers: 3
+
+**Solution / Community Answer**:
+You are likely running systemd-resolved as a service.
+systemd-resolved generates two configuration files on the fly, for optional use by DNS client libraries (such as the BIND DNS client library in C libraries):
+
+/run/systemd/resolve/stub-resolv.conf tells DNS client libraries to send their queries to 127.0.0.53.  This is where the systemd-resolved process listens for DNS queries, which it then forwards on.
+/run/systemd/resolve/resolv.conf tells DNS client libraries to send their queries to IP addresses that systemd-resolved has obtained on the fly from its configuration files and DNS server information contained in DHCP leases.  Effectively, this bypasses the systemd-resolved forwarding step, at the expense of also bypassing all of systemd-resolved's logic for making complex decisions about what to actually forward to, for any given transaction.
+
+In both cases, systemd-resolved configures a search list of domain name suffixes, again derived on the fly from its configuration files and DHCP leases (which it is told about via a mechanism that is beyond the scope of this answer).
+/etc/resolv.conf can optionally be:
+
+a symbolic link to either of these;
+a symbolic link to a package-supplied static file at /usr/lib/systemd/resolv.conf, which also specifies 127.0.0.53 but no search domains calculated on the fly;
+some other file entirely.
+
+It's likely that you have such a symbolic link.
+In which case, the thing that knows about the 192.168.1.1 setting, that is (presumably) handed out in DHCP leases by the DHCP server on your LAN, is systemd-resolved, which is forwarding query traffic to it as you have observed.
+Your DNS client libraries, in your applications programs, are themselves only talking to systemd-resolved.
+Ironically, although it could be that you haven't captured loopback interface traffic to/from 127.0.0.53 properly, it is more likely that you aren't seeing it because systemd-resolved also (optionally) bypasses the BIND DNS Client in your C libraries and generates no such traffic to be captured.
+There's an NSS module provided with systemd-resolved, named nss-resolve, that is a plug-in for your C libraries.
+Previously, your C libraries would have used another plug-in named nss-dns which uses the BIND DNS Client to make queries using the DNS protocol to the server(s) listed in /etc/resolv.conf, applying the domain suffixes listed therein.
+nss-resolve gets listed ahead of nss-dns in your /etc/nsswitch.conf file, causing your C libraries to not use the BIND DNS Client, or the DNS protocol, to perform name→address lookups at all.
+Instead, nss-resolve speaks a non-standard and idiosyncratic protocol over the (system-wide) Desktop Bus to systemd-resolved, which again makes back end queries of 192.168.1.1 or whatever your DHCP leases and configuration files say.
+To intercept that you have to monitor the Desktop Bus traffic with dbus-monitor or some such tool.
+It's not even IP traffic, let alone IP traffic over a loopback network interface. as the Desktop Bus is reached via an AF_LOCAL socket.
+If you want to use a third-party resolving proxy DNS server at 1.1.1.1, or some other IP address, you have three choices:
+
+Configure your DHCP server to hand that out instead of handing out 192.168.1.1.  systemd-resolved will learn of that via the DHCP leases and use it.
+Configure systemd-resolved via its own configuration mechanisms to use that instead of what it is seeing in the DHCP leases.
+Make your own /etc/resolv.conf file, an actual regular file instead of a symbolic link, list 1.1.1.1 there and remember to turn off nss-resolve so that you go back to using nss-dns and the BIND DNS Client.
+
+The systemd-resolved configuration files are a whole bunch of files in various directories that get combined, and how to configure them for the second choice aforementioned is beyond the scope of this answer.
+Read the resolved.conf(5) manual page for that.
+
+**Reference**: https://unix.stackexchange.com/questions/612416/why-does-etc-resolv-conf-point-at-127-0-0-53
+
+> 📎 Source: https://unix.stackexchange.com/questions/612416/why-does-etc-resolv-conf-point-at-127-0-0-53
+
+#### 79. How does the OOM killer decide which process to kill first?
+
+**Issue**: How does the OOM killer decide which process to kill first?
+**Tags / Source**: Tags: linux, memory, out-of-memory | unix | 👍 157 | 💬 1 answers
+
+**Description**:
+Tags: linux, memory, out-of-memory | Score: 157 | Views: 189916 | Answers: 1
+
+**Solution / Community Answer**:
+If memory is exhaustively used up by processes, to the extent which can possibly threaten the stability of the system, then the OOM killer comes into the picture.
+NOTE: It is the task of the OOM Killer to continue killing processes until enough memory is freed for the smooth functioning of the rest of the process that the Kernel is attempting to run.
+The OOM Killer has to select the best process(es) to kill. Best here refers to that process which will free up the maximum memory upon killing and is also the least important to the system.
+The primary goal is to kill the least number of processes that minimizes the damage done and at the same time maximizing the amount of memory freed.
+To facilitate this, the kernel maintains an oom_score for each of the processes. You can see the oom_score of each of the processes in the /proc filesystem under the pid directory.
+$ cat /proc/10292/oom_score
+
+The higher the value of oom_score of any process, the higher is its likelihood of getting killed by the OOM Killer in an out-of-memory situation.
+How is the OOM_Score calculated?
+
+In David's patch set, the old badness() heuristics are almost entirely
+gone. Instead, the calculation turns into a simple question of what
+percentage of the available memory is being used by the process. If
+the system as a whole is short of memory, then &quot;available memory&quot; is
+the sum of all RAM and swap space available to the system.
+If instead, the OOM situation is caused by exhausting the memory allowed
+to a given cpuset/control group, then &quot;available memory&quot; is the total
+amount allocated to that control group. A similar calculation is made
+if limits imposed by a memory policy have been exceeded. In each case,
+the memory use of the process is deemed to be the sum of its resident
+set (the number of RAM pages it is using) and its swap usage.
+This calculation produces a percent-times-ten number as a result; a
+process which is using every byte of the memory available to it will
+have a score of 1000, while a process using no memory at all will get
+a score of zero. There are very few heuristic tweaks to this score,
+but the code does still subtract a small amount (30) from the score of
+root-owned processes on the notion that they are slightly more
+valuable than user-owned processes.
+One other tweak which is applied is to add the value stored in each
+process's oom_score_adj variable, which can be adjusted via /proc.
+This knob allows the adjustment of each process's attractiveness to
+the OOM killer in user space; setting it to -1000 will disable OOM
+kills entirely, while setting to +1000 is the equivalent of painting a
+large target on the associated process.
+
+References
+http://www.queryhome.com/15491/whats-happening-kernel-starting-killer-choose-which-process
+https://serverfault.com/a/571326
+
+**Reference**: https://unix.stackexchange.com/questions/153585/how-does-the-oom-killer-decide-which-process-to-kill-first
+
+> 📎 Source: https://unix.stackexchange.com/questions/153585/how-does-the-oom-killer-decide-which-process-to-kill-first
+
+#### 80. Show top five CPU consuming processes with `ps`
+
+**Issue**: Show top five CPU consuming processes with `ps`
+**Tags / Source**: Tags: linux, ps | unix | 👍 156 | 💬 13 answers
+
+**Description**:
+Tags: linux, ps | Score: 156 | Views: 520011 | Answers: 13
+
+**Solution / Community Answer**:
+Why use ps when you can do it easily with the top command?
+
+If you must use ps, try this:
+
+ps aux | sort -nrk 3,3 | head -n 5
+
+
+If you want something that's truly 'top'esq with constant updates, use watch
+
+watch "ps aux | sort -nrk 3,3 | head -n 5"
+
+**Reference**: https://unix.stackexchange.com/questions/13968/show-top-five-cpu-consuming-processes-with-ps
+
+> 📎 Source: https://unix.stackexchange.com/questions/13968/show-top-five-cpu-consuming-processes-with-ps
+
+#### 81. How do I kill all screens?
+
+**Issue**: How do I kill all screens?
+**Tags / Source**: Tags: linux, bash, gnu-screen, kill | unix | 👍 153 | 💬 8 answers
+
+**Description**:
+Tags: linux, bash, gnu-screen, kill | Score: 153 | Views: 467444 | Answers: 8
+
+**Solution / Community Answer**:
+You can use :
+
+pkill screen
+
+
+Or 
+
+killall screen
+
+
+
+
+In OSX the process is called SCREEN in all caps. So, use:
+
+pkill SCREEN
+
+
+Or
+
+killall SCREEN
+
+**Reference**: https://unix.stackexchange.com/questions/94527/how-do-i-kill-all-screens
+
+> 📎 Source: https://unix.stackexchange.com/questions/94527/how-do-i-kill-all-screens
+
+#### 82. How can I look up a username by id in linux?
+
+**Issue**: How can I look up a username by id in linux?
+**Tags / Source**: Tags: linux, ubuntu, users, uuid | unix | 👍 146 | 💬 8 answers
+
+**Description**:
+Tags: linux, ubuntu, users, uuid | Score: 146 | Views: 362675 | Answers: 8
+
+**Solution / Community Answer**:
+You might enjoy this little ditty. 
+
+$ id -nu [number]
+
+
+3.17.3-1-ARCH #1 SMP PREEMPT Fri Nov 14 22:56:01 CET 2014 i686 GNU/Linux
+
+I can confirm that it returns a corresponding user name, if one exists, on Arch Linux. I can also confirm that it does not work on Ubuntu when run as a normal user, although I have not tested this as the superuser. It also does not work on Alpine Linux. Maybe a security feature prevents this from working on some systems.
+
+**Reference**: https://unix.stackexchange.com/questions/36580/how-can-i-look-up-a-username-by-id-in-linux
+
+> 📎 Source: https://unix.stackexchange.com/questions/36580/how-can-i-look-up-a-username-by-id-in-linux
+
+#### 83. Difference between /bin and /usr/bin
+
+**Issue**: Difference between /bin and /usr/bin
+**Tags / Source**: Tags: linux, directory, fhs | unix | 👍 144 | 💬 5 answers
+
+**Description**:
+Tags: linux, directory, fhs | Score: 144 | Views: 160721 | Answers: 5
+
+**Solution / Community Answer**:
+What? no /bin/ is not a symlink to /usr/bin on any FHS compliant system. Note that there are still popular Unices and Linuxes that ignore this - for example, /bin and /sbin are symlinked to /usr/bin on Arch Linux (the reasoning being that you don't need /bin for rescue/single-user-mode, since you'd just boot a live CD).
+
+/bin
+
+contains commands that may be used by both the system administrator and by users, but which are required when no other filesystems are mounted (e.g. in single user mode). It may also contain commands which are used indirectly by scripts
+
+/usr/bin/
+
+This is the primary directory of executable commands on the system.
+
+essentially, /bin contains executables which are required by the system for emergency repairs, booting, and single user mode. /usr/bin contains any binaries that aren't required.
+
+I will note, that they can be on separate disks/partitions, /bin must be on the same disk as /. /usr/bin can be on another disk - although note that this configuration has been kind of broken for a while (this is why e.g. systemd warns about this configuration on boot).
+
+For full correctness, some unices may ignore FHS, as I believe it is only a Linux Standard, I'm not aware that it has yet been included in SUS, Posix or any other UNIX standard, though it should be IMHO. It is a part of the LSB standard though.
+
+**Reference**: https://unix.stackexchange.com/questions/5915/difference-between-bin-and-usr-bin
+
+> 📎 Source: https://unix.stackexchange.com/questions/5915/difference-between-bin-and-usr-bin
+
+#### 84. How do I know if a partition is ext2, ext3, or ext4?
+
+**Issue**: How do I know if a partition is ext2, ext3, or ext4?
+**Tags / Source**: Tags: linux, ext4, ext3, ext2 | unix | 👍 143 | 💬 12 answers
+
+**Description**:
+Tags: linux, ext4, ext3, ext2 | Score: 143 | Views: 229365 | Answers: 12
+
+**Solution / Community Answer**:
+How do I tell what sort of data (what data format) is in a file?
+→ Use the file utility.
+
+Here, you want to know the format of data in a device file, so you need to pass the -s flag to tell file not just to say that it's a device file but look at the content. Sometimes you'll need the -L flag as well, if the device file name is a symbolic link. You'll see output like this:
+
+# file -sL /dev/sd*
+/dev/sda1: Linux rev 1.0 ext4 filesystem data, UUID=63fa0104-4aab-4dc8-a50d-e2c1bf0fb188 (extents) (large files) (huge files)
+/dev/sdb1: Linux rev 1.0 ext2 filesystem data, UUID=b3c82023-78e1-4ad4-b6e0-62355b272166
+/dev/sdb2: Linux/i386 swap file (new style), version 1 (4K pages), size 4194303 pages, no label, UUID=3f64308c-19db-4da5-a9a0-db4d7defb80f
+
+
+Given this sample output, the first disk has one partition and the second disk has two partitions. /dev/sda1 is an ext4 filesystem, /dev/sdb1 is an ext2 filesystem, and /dev/sdb2 is some swap space (about 4GB).
+
+You must run this command as root, because ordinary users may not read disk partitions directly: if needed, add sudo in front.
+
+**Reference**: https://unix.stackexchange.com/questions/60723/how-do-i-know-if-a-partition-is-ext2-ext3-or-ext4
+
+> 📎 Source: https://unix.stackexchange.com/questions/60723/how-do-i-know-if-a-partition-is-ext2-ext3-or-ext4
+
+#### 85. How can I tell what version of Linux I&#39;m using?
+
+**Issue**: How can I tell what version of Linux I&#39;m using?
+**Tags / Source**: Tags: linux, ssh, version, info, system-information | unix | 👍 142 | 💬 13 answers
+
+**Description**:
+Tags: linux, ssh, version, info, system-information | Score: 142 | Views: 175458 | Answers: 13
+
+**Solution / Community Answer**:
+If I need to know what it is say Linux/Unix , 32/64 bit
+
+uname -a 
+
+
+This would give me almost all information that I need, 
+
+If I further need to know what release it is say (Centos 5.4, or 5.5 or 5.6)
+on a Linux box I would further check the file /etc/issue to see its release info ( or for Debian / Ubuntu /etc/lsb-release )
+
+Alternative way is to use the lsb_release utility:
+
+lsb_release -a
+
+
+Or do a rpm -qa | grep centos-release or redhat-release for RHEL derived systems
+
+**Reference**: https://unix.stackexchange.com/questions/23833/how-can-i-tell-what-version-of-linux-im-using
+
+> 📎 Source: https://unix.stackexchange.com/questions/23833/how-can-i-tell-what-version-of-linux-im-using
+
+#### 86. What is the difference between reboot , init 6 and shutdown -r now?
+
+**Issue**: What is the difference between reboot , init 6 and shutdown -r now?
+**Tags / Source**: Tags: linux, shutdown, init, reboot | unix | 👍 142 | 💬 4 answers
+
+**Description**:
+Tags: linux, shutdown, init, reboot | Score: 142 | Views: 415220 | Answers: 4
+
+**Solution / Community Answer**:
+There is no difference in them. Internally they do exactly the same thing:
+
+
+reboot uses the shutdown command (with the -r switch). The shutdown command used to kill all the running processes, unmount all the file systems and finally tells the kernel to issue the ACPI power command. The source can be found here.
+In older distros the reboot command was forcing the processes to exit by issuing the SIGKILL signal (still found in sources, can be invoked with -f option), in most recent distros it defaults to the more graceful and init friendly init 1 -&gt; shutdown -r. This ensures that daemons clean up themselves before shutdown.
+init 6 tells the init process to shutdown all of the spawned processes/daemons as written in the init files (in the inverse order they started) and lastly invoke the shutdown -r now command to reboot the machine
+
+
+Today there is not much difference as both commands do exactly the same, and they respect the init scripts used to start services/daemons by invoking the shutdown scripts for them. Except for reboot -f -r now as stated below
+
+There is a small explanation taken from manpages of why the reboot -f is not safe:
+
+
+  -f, --force
+    Force immediate halt, power-off, reboot. Don't contact the init system.
+
+
+Edit:
+
+Forgot to mention, in upcoming RHEL distributions you should use the new systemctl command to issue poweroff/reboot. As stated in the manpages of reboot and shutdown they are "a legacy command available for compatibility only." and the systemctl method will be the only one safe.
+
+**Reference**: https://unix.stackexchange.com/questions/64280/what-is-the-difference-between-reboot-init-6-and-shutdown-r-now
+
+> 📎 Source: https://unix.stackexchange.com/questions/64280/what-is-the-difference-between-reboot-init-6-and-shutdown-r-now
+
+#### 87. Linux ls to show only file name, date, and size
+
+**Issue**: Linux ls to show only file name, date, and size
+**Tags / Source**: Tags: linux, command-line, files, ls | unix | 👍 141 | 💬 15 answers
+
+**Description**:
+Tags: linux, command-line, files, ls | Score: 141 | Views: 248431 | Answers: 15
+
+**Solution / Community Answer**:
+Try stat instead of ls. Here with the GNU implementation of stat (beware the BSDs and zsh also have a stat command but with a completely different API):
+stat -c &quot;%y %s %n&quot; -- *
+
+To output in columnar format (assuming none of the file names contain comma or newline characters):
+stat -c &quot;%n,%s&quot; -- * | column -t -s,
+
+Beware that if there's a file called - in the current working directory, GNU stat will report information about the file opened on stdin instead of for that file.
+If you run into a Argument list too long error, with shells where printf is builtin, you can change it to:
+printf '%s\0' * | xargs -0 stat -c &quot;%y %s %n&quot; --
+
+Or in ksh93:
+command -x stat -c &quot;%y %s %n&quot; -- *
+
+Which will run as many invocations of stat as necessary to work around the limit on the size of the arguments.
+
+**Reference**: https://unix.stackexchange.com/questions/22218/linux-ls-to-show-only-file-name-date-and-size
+
+> 📎 Source: https://unix.stackexchange.com/questions/22218/linux-ls-to-show-only-file-name-date-and-size
+
+#### 88. File permission issues with shared folders under Virtual Box (Ubuntu Guest, Windows Host)
+
+**Issue**: File permission issues with shared folders under Virtual Box (Ubuntu Guest, Windows Host)
+**Tags / Source**: Tags: ubuntu, permissions, virtualbox, virtual-machine | unix | 👍 141 | 💬 10 answers
+
+**Description**:
+Tags: ubuntu, permissions, virtualbox, virtual-machine | Score: 141 | Views: 333935 | Answers: 10
+
+**Solution / Community Answer**:
+The regular way of getting access to the files now, is to allow VirtualBox to automount the shared folder (which will make it show up under /media/sf_directory_name) and then to add your regular Ubuntu user to the vboxsf group (as root #).
+
+# usermod -aG vboxsf &lt;youruser&gt;
+
+
+By default, without manual action, the mounts look like this,
+
+drwxrwx--- 1 root vboxsf 40960 Oct 23 10:42 sf_&lt;name&gt;
+
+
+so the vboxsf group has full access.  By adding your user to that group, you gain full access.  So you wouldn't worry about changing their permissions (which don't make sense on the Windows host), you just give yourself access.
+
+In this specific case, this is the automounted Shared Folder,
+
+Ubuntu               214153212  31893804 182259408  15% /media/sf_Ubuntu
+
+
+and it is that directory that should be used to access to the Shared Folder, by putting the local user into the vboxsf group.  If you want a 'better' link under your user's home directory, you could always create a symbolic link.
+
+ln -s /media/sf_Ubuntu /home/m/Desktop/vbox_shared
+
+
+You will need to reboot your VM for these changes to take effect
+
+If you manually mount the shared folder, then you need to use the relevant options on the mount command to set the folder with the right ownership (i.e. the gid, uid and umask options to mount).  This is because the Host OS doesn't support the same permission system as Linux, so VirtualBox has no way of knowing who should own the files.
+
+However, I strongly recommend just configuring the shared folder to be auto-mounted (it's a setting on the Shared Folder configuration in VirtualBox itself).
+
+
+For the avoidance of doubt, I do not believe you can change permissions normally anyway, on that filesystem if it's mounted in the regular way,
+
+tony@jabba:/media/sf_name$ ls -l tst.txt
+-rwxrwx--- 1 root vboxsf 2283 Apr  4  2012 tst.txt
+tony@jabba:/media/sf_name$ sudo chown tony tst.txt
+[sudo] password for tony: 
+tony@jabba:/media/sf_name$ ls -l tst.txt
+-rwxrwx--- 1 root vboxsf 2283 Apr  4  2012 tst.txt
+tony@jabba:/media/sf_name$
+
+**Reference**: https://unix.stackexchange.com/questions/52667/file-permission-issues-with-shared-folders-under-virtual-box-ubuntu-guest-wind
+
+> 📎 Source: https://unix.stackexchange.com/questions/52667/file-permission-issues-with-shared-folders-under-virtual-box-ubuntu-guest-wind
+
+#### 89. Set the default kernel in GRUB
+
+**Issue**: Set the default kernel in GRUB
+**Tags / Source**: Tags: linux, kernel, boot, grub | unix | 👍 140 | 💬 11 answers
+
+**Description**:
+Tags: linux, kernel, boot, grub | Score: 140 | Views: 428583 | Answers: 11
+
+**Solution / Community Answer**:
+After struggling for 2 hours, I have found a much easier way to achieve this. I just RTFM. ;)
+Add two lines to /etc/default/grub
+GRUB_SAVEDEFAULT=true
+GRUB_DEFAULT=saved
+
+Do the sudo update-grub, reboot, get into your grub menu and select whichever menu or submenu item you need. The choice will be saved every time and then your computer will boot into it automatically. When you manually choose a different entry, that becomes the new default.
+
+**Reference**: https://unix.stackexchange.com/questions/198003/set-the-default-kernel-in-grub
+
+> 📎 Source: https://unix.stackexchange.com/questions/198003/set-the-default-kernel-in-grub
+
+#### 90. How do I find how long ago a Linux system was installed?
+
+**Issue**: How do I find how long ago a Linux system was installed?
+**Tags / Source**: Tags: linux, system-installation | unix | 👍 139 | 💬 18 answers
+
+**Description**:
+Tags: linux, system-installation | Score: 139 | Views: 151247 | Answers: 18
+
+**Solution / Community Answer**:
+sudo tune2fs -l /dev/sda1 **OR** /dev/sdb1*  | grep 'Filesystem created:'
+
+This will tell you when the file system was created.
+* = In the first column of df / you can find the exact partition to use.
+
+**Reference**: https://unix.stackexchange.com/questions/9971/how-do-i-find-how-long-ago-a-linux-system-was-installed
+
+> 📎 Source: https://unix.stackexchange.com/questions/9971/how-do-i-find-how-long-ago-a-linux-system-was-installed
+
+#### 91. timestamp, modification time, and created time of a file
+
+**Issue**: timestamp, modification time, and created time of a file
+**Tags / Source**: Tags: linux, filesystems, files | unix | 👍 138 | 💬 2 answers
+
+**Description**:
+Tags: linux, filesystems, files | Score: 138 | Views: 352604 | Answers: 2
+
+**Solution / Community Answer**:
+There are 3 kind of "timestamps":
+
+
+Access - the last time the file was read
+Modify - the last time the file was modified (content has been modified)
+Change - the last time meta data of the file was changed (e.g. permissions)
+
+
+To display this information, you can use stat which is part of the coreutils.
+
+stat will show you also some more information like the device, inodes, links, etc.
+
+Remember that this sort of information depends highly on the filesystem and mount options. For example if you mount a partition with the noatime option, no access information will be written.
+
+A utility to change the timestamps would be touch.
+There are some arguments to decide which timestamp to change (e.g. -a for access time, -m for modification time) and to influence the parsing of a new given timestamp.
+See man touch for more details.
+
+touch can become handy in combination with cp -u ("copy only when the SOURCE file is newer than the destination file or when the destination file is missing") or for the creation of empty marker files.
+
+**Reference**: https://unix.stackexchange.com/questions/2464/timestamp-modification-time-and-created-time-of-a-file
+
+> 📎 Source: https://unix.stackexchange.com/questions/2464/timestamp-modification-time-and-created-time-of-a-file
+
+#### 92. Easy way to determine the virtualization technology of a Linux machine?
+
+**Issue**: Easy way to determine the virtualization technology of a Linux machine?
+**Tags / Source**: Tags: linux, command-line, virtual-machine | unix | 👍 137 | 💬 17 answers
+
+**Description**:
+Tags: linux, command-line, virtual-machine | Score: 137 | Views: 130239 | Answers: 17
+
+**Solution / Community Answer**:
+dmidecode -s system-product-name
+
+I have tested on Vmware Workstation, VirtualBox, QEMU with KVM, standalone QEMU with Ubuntu as the guest OS. Others have added additional platforms that they're familiar with as well.
+
+Virtualization technologies
+
+
+VMware Workstation
+
+root@router:~# dmidecode -s system-product-name
+VMware Virtual Platform
+
+VirtualBox
+
+root@router:~# dmidecode -s system-product-name
+VirtualBox
+
+Qemu with KVM
+
+root@router:~# dmidecode -s system-product-name
+KVM
+
+Qemu (emulated)
+
+root@router:~# dmidecode -s system-product-name
+Bochs
+
+Microsoft VirtualPC
+
+root@router:~# dmidecode | egrep -i 'manufacturer|product'
+Manufacturer: Microsoft Corporation
+Product Name: Virtual Machine
+
+Virtuozzo
+
+root@router:~# dmidecode
+/dev/mem: Permission denied
+
+Xen
+
+root@router:~# dmidecode | grep -i domU
+Product Name: HVM domU
+
+
+
+On bare metal, this returns an identification of the computer or motherboard model.
+
+/dev/disk/by-id
+
+If you don't have the rights to run dmidecode then you can use:
+
+Virtualization Technology: QEMU
+
+ls -1 /dev/disk/by-id/
+
+
+Output
+
+[root@host-7-129 ~]# ls -1 /dev/disk/by-id/
+ata-QEMU_DVD-ROM_QM00003
+ata-QEMU_HARDDISK_QM00001
+ata-QEMU_HARDDISK_QM00001-part1
+ata-QEMU_HARDDISK_QM00002
+ata-QEMU_HARDDISK_QM00002-part1
+scsi-SATA_QEMU_HARDDISK_QM00001
+scsi-SATA_QEMU_HARDDISK_QM00001-part1
+scsi-SATA_QEMU_HARDDISK_QM00002
+scsi-SATA_QEMU_HARDDISK_QM00002-part1
+
+
+References
+
+
+How to detect virtualization at dmo.ca
+
+**Reference**: https://unix.stackexchange.com/questions/89714/easy-way-to-determine-the-virtualization-technology-of-a-linux-machine
+
+> 📎 Source: https://unix.stackexchange.com/questions/89714/easy-way-to-determine-the-virtualization-technology-of-a-linux-machine
+
+#### 93. What&#39;s the best way to join files again after splitting them?
+
+**Issue**: What&#39;s the best way to join files again after splitting them?
+**Tags / Source**: Tags: linux, command-line, files, iso, split | unix | 👍 135 | 💬 6 answers
+
+**Description**:
+Tags: linux, command-line, files, iso, split | Score: 135 | Views: 214610 | Answers: 6
+
+**Solution / Community Answer**:
+That's just what cat was made for. Since it is one of the oldest GNU tools, I think it's very unlikely that any other tool does that faster/better. And it's not piping - it's only redirecting output.
+
+**Reference**: https://unix.stackexchange.com/questions/24630/whats-the-best-way-to-join-files-again-after-splitting-them
+
+> 📎 Source: https://unix.stackexchange.com/questions/24630/whats-the-best-way-to-join-files-again-after-splitting-them
+
+#### 94. Linux: set date through command line
+
+**Issue**: Linux: set date through command line
+**Tags / Source**: Tags: linux, date, clock | unix | 👍 134 | 💬 7 answers
+
+**Description**:
+Tags: linux, date, clock | Score: 134 | Views: 757612 | Answers: 7
+
+**Solution / Community Answer**:
+Use date -s:
+
+date -s '2014-12-25 12:34:56'
+
+
+Run that as root or under sudo. Changing only one of the year/month/day is more of a challenge and will involve repeating bits of the current date. There are also GUI date tools built in to the major desktop environments, usually accessed through the clock.
+
+To change only part of the time, you can use command substitution in the date string:
+
+date -s "2014-12-25 $(date +%H:%M:%S)"
+
+
+will change the date, but keep the time. See man date for formatting details to construct other combinations: the individual components are %Y, %m, %d, %H, %M, and %S.
+
+**Reference**: https://unix.stackexchange.com/questions/151547/linux-set-date-through-command-line
+
+> 📎 Source: https://unix.stackexchange.com/questions/151547/linux-set-date-through-command-line
+
+#### 95. How can I find available network interfaces?
+
+**Issue**: How can I find available network interfaces?
+**Tags / Source**: Tags: linux, networking, devices, systemd, udev | unix | 👍 134 | 💬 6 answers
+
+**Description**:
+Tags: linux, networking, devices, systemd, udev | Score: 134 | Views: 512358 | Answers: 6
+
+**Solution / Community Answer**:
+The simplest method I know to list all of your interfaces is
+
+ifconfig -a
+
+
+EDIT
+
+If you're on a system where that has been made obsolete, you can use
+
+ip link show
+
+**Reference**: https://unix.stackexchange.com/questions/125400/how-can-i-find-available-network-interfaces
+
+> 📎 Source: https://unix.stackexchange.com/questions/125400/how-can-i-find-available-network-interfaces
+
+#### 96. Setting /proc/sys/vm/drop_caches to clear cache
+
+**Issue**: Setting /proc/sys/vm/drop_caches to clear cache
+**Tags / Source**: Tags: linux, virtual-memory | unix | 👍 134 | 💬 2 answers
+
+**Description**:
+Tags: linux, virtual-memory | Score: 134 | Views: 307376 | Answers: 2
+
+**Solution / Community Answer**:
+It isn't sticky - you just write to the file to make it drop the caches and then it immediately starts caching again.
+
+Basically when you write to that file you aren't really changing a setting, you are issuing a command to the kernel. The kernel acts on that command (by dropping the caches) then carries on as before.
+
+**Reference**: https://unix.stackexchange.com/questions/17936/setting-proc-sys-vm-drop-caches-to-clear-cache
+
+> 📎 Source: https://unix.stackexchange.com/questions/17936/setting-proc-sys-vm-drop-caches-to-clear-cache
+
+#### 97. What is a tainted Linux kernel?
+
+**Issue**: What is a tainted Linux kernel?
+**Tags / Source**: Tags: linux, linux-kernel, kernel-modules, troubleshooting, proprietary-drivers | unix | 👍 134 | 💬 2 answers
+
+**Description**:
+Tags: linux, linux-kernel, kernel-modules, troubleshooting, proprietary-drivers | Score: 134 | Views: 207611 | Answers: 2
+
+**Solution / Community Answer**:
+A tainted kernel is one that is in an unsupported state because it cannot be guaranteed to function correctly. Most kernel developers will ignore bug reports involving tainted kernels, and community members may ask that you correct the tainting condition before they can proceed with diagnosing problems related to the kernel. In addition, some debugging functionality and API calls may be disabled when the kernel is tainted.
+The taint state is indicated by a series of flags which represent the various reasons a kernel cannot be trusted to work properly. The most common reason for the kernel to become tainted is loading a proprietary graphics driver from NVIDIA or AMD, in which case it is generally safe to ignore the condition. However, some scenarios that cause the kernel to become tainted may be indicative of more serious problems such as failing hardware. It is a good idea to examine system logs and the specific taint flags set to determine the underlying cause of the issue.
+This feature is intended to identify conditions which may make it difficult to properly troubleshoot a kernel problem. For example, a proprietary driver can cause problems that cannot be debugged reliably because its source code is not available and its effects cannot be determined. Likewise, if a serious kernel or hardware error had previously occurred, the integrity of the kernel space may have been compromised, meaning that any subsequent debug messages generated by the kernel may not be reliable.
+Note that correcting the tainting condition alone does not remove the taint state because doing so does not change the fact that the kernel can no longer be relied on to work correctly or produce accurate debugging information. The system must be restarted to clear the taint flags.
+More information is available in the Linux kernel documentation, including what each taint flag means and how to troubleshoot a tainted kernel prior to reporting bugs.
+A partial list of conditions that can result in the kernel being tainted follows, each with their own flags. Note that some Linux vendors, such as SUSE, add additional taint flags to indicate conditions such as loading a module that is supported by a third party rather than directly by the vendor.
+
+Loading a proprietary (or non-GPL-compatible) kernel module. As noted above, this is the most common reason for the kernel to become tainted.
+The use of staging drivers, which are part of the kernel source code but are experimental and not fully tested.
+The use of out-of-tree modules that are not included with the Linux kernel source code.
+Forcibly loading or unloading modules. This can happen if one is trying to use a module that is not built for the current version of the kernel. (The Linux kernel module ABI is not stable across versions, or even differently-configured builds of the same version.)
+Running a kernel on certain hardware configurations that are specifically not supported, such as an SMP (multiprocessor) kernel on early AMD Athlon processors not supporting SMP operation.
+Overriding the ACPI DSDT in the kernel. This is sometimes needed to correct for firmware power-management bugs; see this Arch Linux wiki article for details.
+Certain critical error conditions, such as machine check exceptions and kernel oopses.
+Certain serious bugs in the BIOS, UEFI, or other system firmware which the kernel must work around.
+
+**Reference**: https://unix.stackexchange.com/questions/118116/what-is-a-tainted-linux-kernel
+
+> 📎 Source: https://unix.stackexchange.com/questions/118116/what-is-a-tainted-linux-kernel
+
+#### 98. ssh-add returns with: &quot;Error connecting to agent: No such file or directory&quot;
+
+**Issue**: ssh-add returns with: &quot;Error connecting to agent: No such file or directory&quot;
+**Tags / Source**: Tags: linux, ssh, ssh-agent | unix | 👍 133 | 💬 5 answers
+
+**Description**:
+Tags: linux, ssh, ssh-agent | Score: 133 | Views: 264530 | Answers: 5
+
+**Solution / Community Answer**:
+The client tool ssh-add wants to communicate with the background process ssh-agent. You need to start the ssh-agent process first. On Linux, a shell uses the environment variables SSH_AUTH_SOCK and SSH_AGENT_PID to identify the correct process to talk to.
+You can start ssh-agent in multiple ways.
+Either by starting a new shell
+ssh-agent bash
+
+or by evaluating the script returned by ssh-agent in your current shell.
+eval &quot;$(ssh-agent)&quot;
+
+I suggest using the second method, because you keep all your history and variables.
+
+**Reference**: https://unix.stackexchange.com/questions/464574/ssh-add-returns-with-error-connecting-to-agent-no-such-file-or-directory
+
+> 📎 Source: https://unix.stackexchange.com/questions/464574/ssh-add-returns-with-error-connecting-to-agent-no-such-file-or-directory
+
+#### 99. How to check which GPU is active in Linux?
+
+**Issue**: How to check which GPU is active in Linux?
+**Tags / Source**: Tags: linux, hardware, graphics | unix | 👍 133 | 💬 12 answers
+
+**Description**:
+Tags: linux, hardware, graphics | Score: 133 | Views: 454435 | Answers: 12
+
+**Solution / Community Answer**:
+I've just gone through a hell of a time
+trying to get my discrete graphics to work in Ubuntu,
+and answering this question was constantly a challenge,
+since the lspci method mentioned earlier
+can sometimes say that both are [VGA controller].
+I think the following command should give you an indication of your active chip:
+$ glxinfo | grep -E &quot;OpenGL vendor|OpenGL renderer&quot;
+OpenGL vendor string: Intel Open Source Technology Center
+OpenGL renderer string: Mesa DRI Intel(R) Sandybridge Mobile
+
+For me, this is telling me that my Intel graphics are running the show.
+glxinfo is available from the mesa-utils package,
+so you will need to install it if you haven't already. 
+On Ubuntu 22.04, for example, run:
+sudo apt-get install mesa-utils
+
+If you're using an NVIDIA chip, and you're using the bumblebee package,
+you can put optirun in front of that line,
+and it should tell you that you're running the NVIDIA chip
+(optirun is basically telling the computer
+to use the discrete chip to run whatever command follows,
+but everything else is still using the integrated chip).
+$ optirun glxinfo | grep -E &quot;OpenGL vendor|OpenGL renderer&quot;
+OpenGL vendor string: NVIDIA Corporation
+OpenGL renderer string: GeForce GT 555M/PCIe/SSE2
+
+glxheads is another helpful command from mesa-utils that tells you
+some useful information about which graphics card is in use
+(mostly repeats glxinfo in a more compact and easy-to-read form, though),
+and it gives you a nice rendering of a rotating triangle.
+
+**Reference**: https://unix.stackexchange.com/questions/16407/how-to-check-which-gpu-is-active-in-linux
+
+> 📎 Source: https://unix.stackexchange.com/questions/16407/how-to-check-which-gpu-is-active-in-linux
+
+#### 100. What&#39;s the difference between /usr/lib/systemd/system and /etc/systemd/system?
+
+**Issue**: What&#39;s the difference between /usr/lib/systemd/system and /etc/systemd/system?
+**Tags / Source**: Tags: debian, ubuntu, centos, systemd | unix | 👍 133 | 💬 3 answers
+
+**Description**:
+Tags: debian, ubuntu, centos, systemd | Score: 133 | Views: 116937 | Answers: 3
+
+**Solution / Community Answer**:
+This question is already answered in man 7 file-hierarchy which comes with systemd (there is also online version):
+
+        /etc
+           System-specific configuration.
+ (…)
+ VENDOR-SUPPLIED OPERATING SYSTEM RESOURCES
+       /usr
+            Vendor-supplied operating system resources. 
+            Usually read-only, but this is not required. Possibly 
+            shared between multiple hosts. This directory should not
+            be modified by the administrator, except when installing 
+            or removing vendor-supplied packages.
+
+
+Basically, files that ships in packages downloaded from distribution repository go into /usr/lib/systemd/. Modifications done by system administrator (user) go into /etc/systemd/system/. 
+
+System-specific units override units supplied by vendors. Using drop-ins, you can override only specific parts of unit files, leaving the rest to vendor (drop-ins are available since the very beginning of systemd, but were properly documented only in v219; see man systemd.unit).
+
+**Reference**: https://unix.stackexchange.com/questions/206315/whats-the-difference-between-usr-lib-systemd-system-and-etc-systemd-system
+
+> 📎 Source: https://unix.stackexchange.com/questions/206315/whats-the-difference-between-usr-lib-systemd-system-and-etc-systemd-system
 
 
 

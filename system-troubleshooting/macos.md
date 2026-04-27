@@ -8,7 +8,7 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 04:00:54 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 04:29:12 UTC_
 
 ## 中文 🇨🇳
 **macOS 常见故障及解决方法**
@@ -54,7 +54,7 @@ You may get an error message: &quot;Can't install the software because it is not
 **标签 / 来源**: Tags: macos, command-line, homebrew, open-source | apple | 👍 1068 | 💬 11 answers
 
 **问题描述**:
-Tags: macos, command-line, homebrew, open-source | Score: 1068 | Views: 1439800 | Answers: 11
+Tags: macos, command-line, homebrew, open-source | Score: 1068 | Views: 1439806 | Answers: 11
 
 **解决方法 / 社区答案**:
 brew list and brew list --cask
@@ -72,7 +72,7 @@ If you wish to list casks only, brew list --cask will provide the items installe
 **标签 / 来源**: Tags: macos, kernel | apple | 👍 712 | 💬 16 answers
 
 **问题描述**:
-Tags: macos, kernel | Score: 712 | Views: 615529 | Answers: 16
+Tags: macos, kernel | Score: 712 | Views: 615533 | Answers: 16
 
 **解决方法 / 社区答案**:
 TLDR; If your MacBook Pro runs hot or shows a high % CPU for the kernel task, try charging on the right and not on the left.
@@ -116,7 +116,7 @@ Otherwise guessing and testing is the only way. Of course that leads to false co
 **标签 / 来源**: Tags: macos, keyboard, google-chrome | apple | 👍 654 | 💬 15 answers
 
 **问题描述**:
-Tags: macos, keyboard, google-chrome | Score: 654 | Views: 935235 | Answers: 15
+Tags: macos, keyboard, google-chrome | Score: 654 | Views: 935240 | Answers: 15
 
 **解决方法 / 社区答案**:
 UK Keyboard
@@ -151,7 +151,7 @@ You can use the alternative of  Ctrl ⌃   F4  [visible in the prefs window abov
 **标签 / 来源**: Tags: macos | apple | 👍 612 | 💬 159 answers
 
 **问题描述**:
-Tags: macos | Score: 612 | Views: 346411 | Answers: 159
+Tags: macos | Score: 612 | Views: 346412 | Answers: 159
 
 **解决方法 / 社区答案**:
 In any Finder window or Open/Save dialog, you can hit ⌘&#x21E7;G (just '/' also works in Open/Save) to get a location bar from which you can directly type in the directory to go to. It even supports ~ for home and tab completion.
@@ -245,7 +245,7 @@ This echoes the behaviour of Cmd/Tab or equivalent in most operating systems, so
 **标签 / 来源**: Tags: macos, applications, command-line | apple | 👍 508 | 💬 1 answers
 
 **问题描述**:
-Tags: macos, applications, command-line | Score: 508 | Views: 865919 | Answers: 1
+Tags: macos, applications, command-line | Score: 508 | Views: 865921 | Answers: 1
 
 **解决方法 / 社区答案**:
 To open your current directory in Finder from Terminal, type open .
@@ -264,7 +264,7 @@ And so on.
 **标签 / 来源**: Tags: macbook-pro, macos, display, dock | apple | 👍 492 | 💬 8 answers
 
 **问题描述**:
-Tags: macbook-pro, macos, display, dock | Score: 492 | Views: 525764 | Answers: 8
+Tags: macbook-pro, macos, display, dock | Score: 492 | Views: 525765 | Answers: 8
 
 **解决方法 / 社区答案**:
 You can summon the Dock on a different display by moving the cursor to the bottom of the desired display, and then continuing moving down. It may be possible that this is occurring when you inadvertently perform that action.
@@ -325,7 +325,7 @@ To create a symlink to replace a system directory (e.g. if you want to have /Use
 **标签 / 来源**: Tags: macos, network, command-line | apple | 👍 451 | 💬 11 answers
 
 **问题描述**:
-Tags: macos, network, command-line | Score: 451 | Views: 1668068 | Answers: 11
+Tags: macos, network, command-line | Score: 451 | Views: 1668077 | Answers: 11
 
 **解决方法 / 社区答案**:
 Local IP address
@@ -364,7 +364,7 @@ When you run this command, it queries the ns1.google.com DNS server for the TXT 
 **标签 / 来源**: Tags: macbook-pro, spotlight, cpu | apple | 👍 450 | 💬 15 answers
 
 **问题描述**:
-Tags: macbook-pro, spotlight, cpu | Score: 450 | Views: 679863 | Answers: 15
+Tags: macbook-pro, spotlight, cpu | Score: 450 | Views: 679869 | Answers: 15
 
 **解决方法 / 社区答案**:
 As you know, the mds and mds_stores are Spotlight activities.
@@ -533,7 +533,7 @@ NOTE: If you need help in selecting colors to use you can use this online tool c
 **标签 / 来源**: Tags: terminal, bash, zsh, macos | apple | 👍 389 | 💬 4 answers
 
 **问题描述**:
-Tags: terminal, bash, zsh, macos | Score: 389 | Views: 337244 | Answers: 4
+Tags: terminal, bash, zsh, macos | Score: 389 | Views: 337246 | Answers: 4
 
 **解决方法 / 社区答案**:
 First, some important things:
@@ -884,7 +884,7 @@ Now Apple has released the real fix, though this might still be useful. Because 
 **标签 / 来源**: Tags: macos, software-recommendation, image-editing | apple | 👍 365 | 💬 19 answers
 
 **问题描述**:
-Tags: macos, software-recommendation, image-editing | Score: 365 | Views: 884013 | Answers: 19
+Tags: macos, software-recommendation, image-editing | Score: 365 | Views: 884014 | Answers: 19
 
 **解决方法 / 社区答案**:
 I often have to do this with images of plots of data.  I use the command line tools that come in the Imagemagick package; I think I installed it on my system with MacPorts. You could also choose to install with brew (brew install imagemagick).
@@ -1008,7 +1008,7 @@ it will work a bit better. From the scutil(8) man page:
 **标签 / 来源**: Tags: macos, temperature, command-line, monitoring | apple | 👍 324 | 💬 14 answers
 
 **问题描述**:
-Tags: macos, temperature, command-line, monitoring | Score: 324 | Views: 574587 | Answers: 14
+Tags: macos, temperature, command-line, monitoring | Score: 324 | Views: 574589 | Answers: 14
 
 **解决方法 / 社区答案**:
 Option #1) you may consider using inbuilt utility powermetrics to get the cpu and gpu temperature and lot more other details.
@@ -1039,7 +1039,7 @@ Result Screen:
 **标签 / 来源**: Tags: macos | apple | 👍 323 | 💬 3 answers
 
 **问题描述**:
-Tags: macos | Score: 323 | Views: 200602 | Answers: 3
+Tags: macos | Score: 323 | Views: 200603 | Answers: 3
 
 **解决方法 / 社区答案**:
 ⌘ CMD+⇧ SHIFT+. reveals hidden files in Finder and Open/Save dialogs.
@@ -1062,7 +1062,7 @@ Editing hidden files can be dangerous if you don't know what you're doing.
 **标签 / 来源**: Tags: macos, finder, file | apple | 👍 321 | 💬 32 answers
 
 **问题描述**:
-Tags: macos, finder, file | Score: 321 | Views: 609446 | Answers: 32
+Tags: macos, finder, file | Score: 321 | Views: 609448 | Answers: 32
 
 **解决方法 / 社区答案**:
 You can also do this in Terminal. Go to the directory where you want to create the file, then run the following:
@@ -1216,7 +1216,7 @@ cd ~/Library/Preferences &amp;&amp; sudo find com.apple.finder.plist* -exec rm {
 **标签 / 来源**: Tags: macos, homebrew | apple | 👍 279 | 💬 15 answers
 
 **问题描述**:
-Tags: macos, homebrew | Score: 279 | Views: 651613 | Answers: 15
+Tags: macos, homebrew | Score: 279 | Views: 651616 | Answers: 15
 
 **解决方法 / 社区答案**:
 Use the following to show the installation path of a package:
@@ -1245,7 +1245,7 @@ From: https://github.com/Homebrew/homebrew/blob/master/Library/Formula/pcre.rb
 **标签 / 来源**: Tags: macos, command-line, unix, utilities | apple | 👍 278 | 💬 7 answers
 
 **问题描述**:
-Tags: macos, command-line, unix, utilities | Score: 278 | Views: 215462 | Answers: 7
+Tags: macos, command-line, unix, utilities | Score: 278 | Views: 215463 | Answers: 7
 
 **解决方法 / 社区答案**:
 This adds symlinks for GNU utilities with g prefix to /usr/local/bin/:
@@ -1285,7 +1285,7 @@ the "gnuman" directory to your MANPATH from your bashrc as well:
 **标签 / 来源**: Tags: macos, file | apple | 👍 275 | 💬 14 answers
 
 **问题描述**:
-Tags: macos, file | Score: 275 | Views: 394181 | Answers: 14
+Tags: macos, file | Score: 275 | Views: 394183 | Answers: 14
 
 **解决方法 / 社区答案**:
 You can't avoid them (but see the dot_clean answer by Saeid Zebardast --they can be removed from a directory if that is what you need).  They're created to store file information that would otherwise go into an extended attribute on HFS+ (Apple native) or Unix/UFS volumes; in earlier Mac OS this would be the resource fork.  Finder file operations will create them automatically to store the icon information, plus Time Machine stores some information in them so if you copy a file backed up via TM it will have that information copied as well.
@@ -1302,7 +1302,7 @@ You can't avoid them (but see the dot_clean answer by Saeid Zebardast --they can
 **标签 / 来源**: Tags: macos, command-line, terminal, textedit | apple | 👍 273 | 💬 5 answers
 
 **问题描述**:
-Tags: macos, command-line, terminal, textedit | Score: 273 | Views: 538174 | Answers: 5
+Tags: macos, command-line, terminal, textedit | Score: 273 | Views: 538175 | Answers: 5
 
 **解决方法 / 社区答案**:
 open -a TextEdit filename should do the trick.
@@ -1322,7 +1322,7 @@ Other relevant options
 **标签 / 来源**: Tags: macos, mac, password, sudo, touch-id | apple | 👍 272 | 💬 14 answers
 
 **问题描述**:
-Tags: macos, mac, password, sudo, touch-id | Score: 272 | Views: 118530 | Answers: 14
+Tags: macos, mac, password, sudo, touch-id | Score: 272 | Views: 118535 | Answers: 14
 
 **解决方法 / 社区答案**:
 To allow TouchID on your Mac to authenticate you for sudo access instead of a password you need to do the following.
@@ -1420,7 +1420,7 @@ sudo hdiutil compact /Volumes/drive_name/Backups.backupdb/mac_name.sparsebundle
 **标签 / 来源**: Tags: macos, unix, root, sip | apple | 👍 265 | 💬 3 answers
 
 **问题描述**:
-Tags: macos, unix, root, sip | Score: 265 | Views: 186444 | Answers: 3
+Tags: macos, unix, root, sip | Score: 265 | Views: 186445 | Answers: 3
 
 **解决方法 / 社区答案**:
 First: the name &quot;rootless&quot; is misleading, since there's still a root account, and you can still access it (the official name, &quot;System Integrity Protection&quot;, is more accurate). What it really does is limit the power of the root account, so that even if you become root, you don't have full control over the system. Essentially, the idea is that it's too easy for malware to get root access (e.g. by presenting an auth dialog to the user, which will cause the user to reflexively enter the admin password). SIP adds another layer of protection, which malware can't penetrate even if it gets root. The bad part of this, of course, it that it must also apply to things you're doing intentionally. But the restrictions it places on root aren't that bad; they don't prevent most &quot;normal&quot; system customization.
@@ -1573,7 +1573,7 @@ On macOS, specifies whether the system should search for passphrases in the user
 **标签 / 来源**: Tags: macos, high-sierra, spaces | apple | 👍 229 | 💬 21 answers
 
 **问题描述**:
-Tags: macos, high-sierra, spaces | Score: 229 | Views: 262531 | Answers: 21
+Tags: macos, high-sierra, spaces | Score: 229 | Views: 262533 | Answers: 21
 
 **解决方法 / 社区答案**:
 Refer to the original page for detailed solutions and community answers.
@@ -1611,7 +1611,7 @@ Both the Command and left Option keys must be pressed on the same side (left or 
 **标签 / 来源**: Tags: macos, terminal, command-line, bash | apple | 👍 224 | 💬 6 answers
 
 **问题描述**:
-Tags: macos, terminal, command-line, bash | Score: 224 | Views: 1264163 | Answers: 6
+Tags: macos, terminal, command-line, bash | Score: 224 | Views: 1264164 | Answers: 6
 
 **解决方法 / 社区答案**:
 Open Terminal, type in sh /path/to/file and press enter. 
@@ -1651,7 +1651,7 @@ Then from the &quot;File&quot; menu choose &quot;Export Selected Images&quot; (o
 **标签 / 来源**: Tags: terminal, command-line, macos, bash | apple | 👍 216 | 💬 5 answers
 
 **问题描述**:
-Tags: terminal, command-line, macos, bash | Score: 216 | Views: 100043 | Answers: 5
+Tags: terminal, command-line, macos, bash | Score: 216 | Views: 100044 | Answers: 5
 
 **解决方法 / 社区答案**:
 I found the solution on reddit. The solution is also mentioned in the &quot;How to use a different shell without changing the default&quot; section of the Apple support article mentioned in the bash warning: https://support.apple.com/en-us/HT208050/.
@@ -1689,7 +1689,7 @@ Other emoji have Unicode hex numbers with 5 characters, such as Grinning Face U+
 **标签 / 来源**: Tags: macos, usb | apple | 👍 212 | 💬 2 answers
 
 **问题描述**:
-Tags: macos, usb | Score: 212 | Views: 565190 | Answers: 2
+Tags: macos, usb | Score: 212 | Views: 565191 | Answers: 2
 
 **解决方法 / 社区答案**:
 In addition to system_profiler SPUSBDataType (suggested by @kjs), you can also use ioreg -p IOUSB:
@@ -1764,7 +1764,7 @@ Menu method: It's not part of the Apple menu system to 'cut' files.  The menu Cu
 **标签 / 来源**: Tags: macos, hard-drive, file | apple | 👍 211 | 💬 6 answers
 
 **问题描述**:
-Tags: macos, hard-drive, file | Score: 211 | Views: 761133 | Answers: 6
+Tags: macos, hard-drive, file | Score: 211 | Views: 761138 | Answers: 6
 
 **解决方法 / 社区答案**:
 It's generally safe, though a little dangerous depending, to do it but often not worth the effort.
@@ -1787,7 +1787,7 @@ Of course the best way to clear the caches is to install AppleJack and do it wit
 **标签 / 来源**: Tags: macos, zsh, environment-variables | apple | 👍 209 | 💬 1 answers
 
 **问题描述**:
-Tags: macos, zsh, environment-variables | Score: 209 | Views: 274065 | Answers: 1
+Tags: macos, zsh, environment-variables | Score: 209 | Views: 274066 | Answers: 1
 
 **解决方法 / 社区答案**:
 This is an attempt to write a canonical QA for this issue, as per the Meta post:  Where is the list of canonical questions stored for Ask Different? I expect it to be periodically edited with the goal of becoming a comprehensive information resource.
@@ -1824,6 +1824,1469 @@ This is the order in which these files get read.  Keep in mind that it reads fir
 **参考链接**: https://apple.stackexchange.com/questions/388622/zsh-zprofile-zshrc-zlogin-what-goes-where
 
 > 📎 来源 / Source: https://apple.stackexchange.com/questions/388622/zsh-zprofile-zshrc-zlogin-what-goes-where
+
+#### 51. Open Finder window from current Terminal location?
+
+**故障现象**: Open Finder window from current Terminal location?
+**标签 / 来源**: Tags: macos, terminal, finder, path | apple | 👍 207 | 💬 7 answers
+
+**问题描述**:
+Tags: macos, terminal, finder, path | Score: 207 | Views: 83985 | Answers: 7
+
+**解决方法 / 社区答案**:
+Typing open . in Terminal will open the current working directory in a Finder window.
+
+**参考链接**: https://apple.stackexchange.com/questions/19375/open-finder-window-from-current-terminal-location
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/19375/open-finder-window-from-current-terminal-location
+
+#### 52. Need a cli to check the sha256 hash of a file
+
+**故障现象**: Need a cli to check the sha256 hash of a file
+**标签 / 来源**: Tags: macos, command-line, encryption | apple | 👍 205 | 💬 4 answers
+
+**问题描述**:
+Tags: macos, command-line, encryption | Score: 205 | Views: 151884 | Answers: 4
+
+**解决方法 / 社区答案**:
+You can use
+
+openssl dgst -sha256 &lt;file&gt;
+
+
+Tested on LibreSSL 2.6.4 on macOS 10.14 (Mojave).
+
+
+
+Prior to Mojave you can use openssl sha -sha256 &lt;file&gt; or openssl sha256 &lt;file&gt;.
+
+To check command line options for the openssl sha command: openssl sha -help.
+
+**参考链接**: https://apple.stackexchange.com/questions/230917/need-a-cli-to-check-the-sha256-hash-of-a-file
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/230917/need-a-cli-to-check-the-sha256-hash-of-a-file
+
+#### 53. How can I make auto-hide/show for the dock faster?
+
+**故障现象**: How can I make auto-hide/show for the dock faster?
+**标签 / 来源**: Tags: dock, macos | apple | 👍 204 | 💬 12 answers
+
+**问题描述**:
+Tags: dock, macos | Score: 204 | Views: 253798 | Answers: 12
+
+**解决方法 / 社区答案**:
+To make the Dock instantly leap back into view when it’s needed, rather than slide, open a Terminal window and type the following:
+defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock
+
+
+I find this useful, but if you’d like the animation for the dock to reappear to last for a split-second, try the following:
+defaults write com.apple.dock autohide-time-modifier -float 0.15; killall Dock
+
+To explain, changing &quot;0.15&quot; with any number can let you tailor things as it represents the time in seconds taken for the dock to reappear fully.
+
+To revert back to the default sliding effect, open a Terminal window and type the following:
+defaults delete com.apple.dock autohide-time-modifier; killall Dock
+
+**参考链接**: https://apple.stackexchange.com/questions/33600/how-can-i-make-auto-hide-show-for-the-dock-faster
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/33600/how-can-i-make-auto-hide-show-for-the-dock-faster
+
+#### 54. How to move files to trash from command line?
+
+**故障现象**: How to move files to trash from command line?
+**标签 / 来源**: Tags: macos, command-line | apple | 👍 202 | 💬 17 answers
+
+**问题描述**:
+Tags: macos, command-line | Score: 202 | Views: 111071 | Answers: 17
+
+**解决方法 / 社区答案**:
+The trash command line tool can be installed via brew install trash or port install trash.
+It allows you to restore trashed files via command line or the Finder.
+
+**参考链接**: https://apple.stackexchange.com/questions/50844/how-to-move-files-to-trash-from-command-line
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/50844/how-to-move-files-to-trash-from-command-line
+
+#### 55. Restarting sound service?
+
+**故障现象**: Restarting sound service?
+**标签 / 来源**: Tags: macbook-pro, audio | apple | 👍 202 | 💬 8 answers
+
+**问题描述**:
+Tags: macbook-pro, audio | Score: 202 | Views: 272560 | Answers: 8
+
+**解决方法 / 社区答案**:
+sudo pkill coreaudiod
+On older OSes:
+You can kill the CoreAudio process by opening Terminal and running:
+sudo kill -9 `ps ax|grep 'coreaudio[a-z]' | awk '{print $1}'`
+
+It will restart automatically after a couple seconds.
+That fixes some problems my aging MBP has been having, where it sometimes fails to detect headphones or decides the speakers aren't connected. No guarantees it will work for every audio problem, but it's worth a shot.
+Source: zakgreant on macosxhints forums.
+
+**参考链接**: https://apple.stackexchange.com/questions/16842/restarting-sound-service
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/16842/restarting-sound-service
+
+#### 56. How do I disable System Integrity Protection (SIP) AKA &quot;rootless&quot; on macOS?
+
+**故障现象**: How do I disable System Integrity Protection (SIP) AKA &quot;rootless&quot; on macOS?
+**标签 / 来源**: Tags: macos, sip | apple | 👍 197 | 💬 6 answers
+
+**问题描述**:
+Tags: macos, sip | Score: 197 | Views: 499215 | Answers: 6
+
+**解决方法 / 社区答案**:
+Note: disabling System Integrity Protection is dangerous, and makes your system more vulnerable to malware.
+As Apple puts it in the developer documentation about SIP:
+
+Warning
+Disable SIP only temporarily to perform necessary tasks, and reenable it as soon as possible. Failure to reenable SIP when you are done testing leaves your computer vulnerable to malicious code.
+
+If you are simply trying to configure system development tools such as vim, python2, ruby and so on, you almost certainly want to be just installing community-maintained versions from Homebrew and configuring those instead.  The system-provided tools may be convenient to bootstrap, but if you require SIP exceptions for your daily workflow you are almost certainly doing things in a way which will break in a future version of the operating system, and may break applications and other system functionality in the meanwhile.
+Valid reasons to disable SIP yourself might be:
+
+if you're doing research on malware yourself in a disposable environment, such as in a macOS virtual machine
+if you are attempting to modify core operating system functionality for deployment in a highly-specialized environment such as a public-facing kiosk
+if you require a legacy kernel extension such as MacFUSE on an M1 mac
+
+Also important beyond the security implications is the fact that anything you do on a mac with SIP disabled will not work on anyone else's mac unless they also disable it first. If you're developing mac apps, then your system becomes less useful as a testbed because you don't know if your code only works because you hacked your system. If you're developing for another platform such as deployment to a web server, then you can't share your development environment setup with other developers on your team without compromising their security as well.
+Here's how to do it if you really need to:
+Apple's documentation covers disabling SIP, About System Integrity Protection on your Mac and Configuring System Integrity Protection.
+An article on lifehacker.com lists these steps:
+
+
+Reboot your Mac into Recovery Mode by restarting your computer and holding down Command+R until the Apple logo appears on your screen.
+Click Utilities &gt; Terminal.
+In the Terminal window, type in csrutil disable and press Enter.
+Restart your Mac.
+
+
+You can verify whether a file or folder is restricted by issuing this ls command using the capital O (and not zero 0) to modify the long listing flag:
+ls -lO /System /usr 
+
+Look for the restricted text to indicate where SIP is enforced.
+By default (=SIP enabled), the following folders are restricted (see Apple Support page):
+/System
+/usr
+/bin
+/sbin
+Apps that are pre-installed with OS X
+
+... and the following folders are free:
+/Applications
+/Library
+/usr/local
+
+**参考链接**: https://apple.stackexchange.com/questions/208478/how-do-i-disable-system-integrity-protection-sip-aka-rootless-on-macos
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/208478/how-do-i-disable-system-integrity-protection-sip-aka-rootless-on-macos
+
+#### 57. Cmd+Tab does not work on hidden or minimized windows
+
+**故障现象**: Cmd+Tab does not work on hidden or minimized windows
+**标签 / 来源**: Tags: macos, application-switcher | apple | 👍 192 | 💬 17 answers
+
+**问题描述**:
+Tags: macos, application-switcher | Score: 192 | Views: 144145 | Answers: 17
+
+**解决方法 / 社区答案**:
+This one is a bit tricky :
+
+press ⌘ Cmd + ⇥ Tab to show your running apps. Keep holding ⌘ Cmd.
+
+press ⇥ Tab until you've selected the app
+
+press the ⌥ Option, and let go of the ⌘ Cmd. 
+( You must release ⌘ Cmd after pressing ⌥ Option ! )
+( You must release ⌘ Cmd before release ⌥ Option ! )
+
+**参考链接**: https://apple.stackexchange.com/questions/112350/cmdtab-does-not-work-on-hidden-or-minimized-windows
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/112350/cmdtab-does-not-work-on-hidden-or-minimized-windows
+
+#### 58. Move through images in a folder with Preview.app
+
+**故障现象**: Move through images in a folder with Preview.app
+**标签 / 来源**: Tags: macos, preview | apple | 👍 192 | 💬 12 answers
+
+**问题描述**:
+Tags: macos, preview | Score: 192 | Views: 200585 | Answers: 12
+
+**解决方法 / 社区答案**:
+If you are just skimming the pictures do this:
+Instead of opening a picture in Preview.app by double-clicking it, press space to preview the picture in Quick Look when selected in Finder.
+
+Quick Look offers a fast, full-size preview of nearly any kind of file without opening the file. You can rotate photos, trim audio and video clips, and use Markup — directly in the Quick Look window.
+https://support.apple.com/en-gb/guide/mac-help/mh14119/mac
+
+This way you can still use the arrow keys to navigate between the pictures.
+
+↑ and ↓ in list view
+↑,↓,← and → in icon view
+
+You can still open the picture in Preview.app when needed (top right corner).
+
+**参考链接**: https://apple.stackexchange.com/questions/37914/move-through-images-in-a-folder-with-preview-app
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/37914/move-through-images-in-a-folder-with-preview-app
+
+#### 59. How to turn off all animations on OS X
+
+**故障现象**: How to turn off all animations on OS X
+**标签 / 来源**: Tags: macos | apple | 👍 192 | 💬 6 answers
+
+**问题描述**:
+Tags: macos | Score: 192 | Views: 194509 | Answers: 6
+
+**解决方法 / 社区答案**:
+I have only enabled the first four of these, but here are all hidden preferences for disabling animations I have found.
+
+# opening and closing windows and popovers
+defaults write -g NSAutomaticWindowAnimationsEnabled -bool false
+
+# smooth scrolling
+defaults write -g NSScrollAnimationEnabled -bool false
+
+# showing and hiding sheets, resizing preference windows, zooming windows
+# float 0 doesn't work
+defaults write -g NSWindowResizeTime -float 0.001
+
+# opening and closing Quick Look windows
+defaults write -g QLPanelAnimationDuration -float 0
+
+# rubberband scrolling (doesn't affect web views)
+defaults write -g NSScrollViewRubberbanding -bool false
+
+# resizing windows before and after showing the version browser
+# also disabled by NSWindowResizeTime -float 0.001
+defaults write -g NSDocumentRevisionsWindowTransformAnimation -bool false
+
+# showing a toolbar or menu bar in full screen
+defaults write -g NSToolbarFullScreenAnimationDuration -float 0
+
+# scrolling column views
+defaults write -g NSBrowserColumnAnimationSpeedMultiplier -float 0
+
+# showing the Dock
+defaults write com.apple.dock autohide-time-modifier -float 0
+defaults write com.apple.dock autohide-delay -float 0
+
+# showing and hiding Mission Control, command+numbers
+defaults write com.apple.dock expose-animation-duration -float 0
+
+# showing and hiding Launchpad
+defaults write com.apple.dock springboard-show-duration -float 0
+defaults write com.apple.dock springboard-hide-duration -float 0
+
+# changing pages in Launchpad
+defaults write com.apple.dock springboard-page-duration -float 0
+
+# at least AnimateInfoPanes
+defaults write com.apple.finder DisableAllAnimations -bool true
+
+# sending messages and opening windows for replies
+defaults write com.apple.Mail DisableSendAnimations -bool true
+defaults write com.apple.Mail DisableReplyAnimations -bool true
+
+**参考链接**: https://apple.stackexchange.com/questions/14001/how-to-turn-off-all-animations-on-os-x
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/14001/how-to-turn-off-all-animations-on-os-x
+
+#### 60. Homebrew: Your CLT does not support macOS 11.0
+
+**故障现象**: Homebrew: Your CLT does not support macOS 11.0
+**标签 / 来源**: Tags: command-line, homebrew, macos | apple | 👍 191 | 💬 5 answers
+
+**问题描述**:
+Tags: command-line, homebrew, macos | Score: 191 | Views: 121880 | Answers: 5
+
+**解决方法 / 社区答案**:
+Simplest solution that worked when upgrading to Big Sur. A clean install may not require the solution below. There is inconsistency with the way CLT is upgraded to 12.2.
+sudo rm -rf /Library/Developer/CommandLineTools
+sudo xcode-select --install
+
+Worked with the following versions (post-install)
+❯ /usr/bin/xcodebuild -version
+Xcode 12.2
+Build version 12B45b
+
+❯ pkgutil --pkg-info=com.apple.pkg.CLTools_Executables
+package-id: com.apple.pkg.CLTools_Executables
+version: 12.2.0.0.1.1603499215
+volume: /
+location: /
+install-time: 1605632122
+groups: com.apple.FindSystemFiles.pkg-group
+
+Big Sur
+11.0.1 (20B29)
+
+**参考链接**: https://apple.stackexchange.com/questions/401899/homebrew-your-clt-does-not-support-macos-11-0
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/401899/homebrew-your-clt-does-not-support-macos-11-0
+
+#### 61. Is there a quick way to lock my Mac?
+
+**故障现象**: Is there a quick way to lock my Mac?
+**标签 / 来源**: Tags: macos, keyboard, security, screen-lock | apple | 👍 186 | 💬 26 answers
+
+**问题描述**:
+Tags: macos, keyboard, security, screen-lock | Score: 186 | Views: 63048 | Answers: 26
+
+**解决方法 / 社区答案**:
+On macOS High Sierra, there is a standard key sequence and Apple menu item to lock your screen. 
+
+
+Control-Command-Q or ^+⌘+Q
+
+
+
+
+
+
+For older OS, ⇧+⌃+⏏ puts the display (only the display, not the whole computer) to sleep and will then prompt you for a password if you have enabled Require password [amount of time] after sleep or screen saver begins under System Preferences &gt; Security.
+
+If your Mac does not have an &#x23CF; (eject) key, you can use ⇧+⌃+⌽ (power).
+
+**参考链接**: https://apple.stackexchange.com/questions/64/is-there-a-quick-way-to-lock-my-mac
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/64/is-there-a-quick-way-to-lock-my-mac
+
+#### 62. How to fix brew after OSX upgrade to Yosemite?
+
+**故障现象**: How to fix brew after OSX upgrade to Yosemite?
+**标签 / 来源**: Tags: macos, homebrew | apple | 👍 183 | 💬 5 answers
+
+**问题描述**:
+Tags: macos, homebrew | Score: 183 | Views: 105182 | Answers: 5
+
+**解决方法 / 社区答案**:
+I decided to look this up and found that there is an issue. The issue is closed but it is not possible to simply run brew update because you will still get the same error.
+
+So here is what you need to do:
+
+cd /usr/local/Library
+git pull origin master
+
+
+In case you have changes in the directory (/usr/local/Library), the git pull will throw an error. In that case, you'll have to fetch the master branch and set it forcibly as master:
+
+git fetch --all
+git reset --hard origin/master
+
+
+This will upgrade your homebrew and you can use brew again.
+
+If you installed Homebrew as a non-root user, you'll need to cd to /Users/yourusername/homebrew/Library instead of /usr/local/Library.
+
+**参考链接**: https://apple.stackexchange.com/questions/153790/how-to-fix-brew-after-osx-upgrade-to-yosemite
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/153790/how-to-fix-brew-after-osx-upgrade-to-yosemite
+
+#### 63. Is there a `lsblk` equivalent for macOS that lists all attached storage devices?
+
+**故障现象**: Is there a `lsblk` equivalent for macOS that lists all attached storage devices?
+**标签 / 来源**: Tags: macos, command-line, hardware, storage | apple | 👍 183 | 💬 6 answers
+
+**问题描述**:
+Tags: macos, command-line, hardware, storage | Score: 183 | Views: 480009 | Answers: 6
+
+**解决方法 / 社区答案**:
+diskutil list will list all disks with their identifiers, even if unmounted.
+
+/dev/disk0
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *251.0 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS Mac SSD                 150.0 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+   4:       Microsoft Basic Data Windows 8               100.1 GB   disk0s4
+/dev/disk1
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *500.1 GB   disk1
+   1:                  Apple_HFS George Garside          300.2 GB   disk1s1
+   2:               Windows_NTFS GRGARSIDE               199.9 GB   disk1s2
+
+
+
+
+For mounted disks only…
+
+To find the raw device name (i.e. /dev/disk0s1) you can run df.
+
+You can limit the results to locally-mounted filesystems, use df -Hl.
+This results in a list of partitions and their raw device names, as shown below:
+
+Filesystem     Size   Used  Avail Capacity  iused    ifree %iused  Mounted on
+/dev/disk0s2   150G   130G    20G    87% 31761475  4859615   87%   /
+/dev/disk0s4   100G    83G    17G    83%   184667 17015601    1%   /Volumes/Windows 8
+/dev/disk1s1   300G   282G    19G    94% 68771109  4529660   94%   /Volumes/George Garside
+/dev/disk1s2   200G   172G    27G    87%   144125 26731127    1%   /Volumes/GRGARSIDE
+
+**参考链接**: https://apple.stackexchange.com/questions/107953/is-there-a-lsblk-equivalent-for-macos-that-lists-all-attached-storage-devices
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/107953/is-there-a-lsblk-equivalent-for-macos-that-lists-all-attached-storage-devices
+
+#### 64. Which OS X Applications do you find indispensable?
+
+**故障现象**: Which OS X Applications do you find indispensable?
+**标签 / 来源**: Tags: macos, software-recommendation | apple | 👍 180 | 💬 239 answers
+
+**问题描述**:
+Tags: macos, software-recommendation | Score: 180 | Views: 49806 | Answers: 239
+
+**解决方法 / 社区答案**:
+Dropbox
+Put your files into your Dropbox on one computer, and they'll be instantly available on any of your other computers that you've installed Dropbox on.
+
+**参考链接**: https://apple.stackexchange.com/questions/82/which-os-x-applications-do-you-find-indispensable
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/82/which-os-x-applications-do-you-find-indispensable
+
+#### 65. What tiny thing in Lion makes you smile or has caught you off guard?
+
+**故障现象**: What tiny thing in Lion makes you smile or has caught you off guard?
+**标签 / 来源**: Tags: macos | apple | 👍 180 | 💬 107 answers
+
+**问题描述**:
+Tags: macos | Score: 180 | Views: 56548 | Answers: 107
+
+**解决方法 / 社区答案**:
+Using the FaceTime camera to add signatures to PDFs in Preview. 
+
+Click the annotations button in the toolbar and use the drop down menu next to the signature icon to grab your signature from a piece of paper you have written it on. Then just click and drag in the document to place it. Haven't really needed it yet, but it's implemented so nicely that I did it just for fun.
+
+**参考链接**: https://apple.stackexchange.com/questions/17759/what-tiny-thing-in-lion-makes-you-smile-or-has-caught-you-off-guard
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/17759/what-tiny-thing-in-lion-makes-you-smile-or-has-caught-you-off-guard
+
+#### 66. Add images to existing PDF with Preview
+
+**故障现象**: Add images to existing PDF with Preview
+**标签 / 来源**: Tags: macos, photos, pdf, preview | apple | 👍 180 | 💬 9 answers
+
+**问题描述**:
+Tags: macos, photos, pdf, preview | Score: 180 | Views: 327358 | Answers: 9
+
+**解决方法 / 社区答案**:
+Do as follows:
+
+Open the image you want to paste in Preview.app
+Select All (Command-A)
+Copy (Command-C)
+Paste (Command-V)
+
+Now you have a copy of your image pasted above your old image. This is apparently meaningless, but the new copy is not just an image, but an object.
+
+Click on the new image (round blue corners appear, no marching ants)
+Copy (Command-C)
+Paste on your PDF document. The image is an object, moveable and resizable. The original PDF is still a PDF, editable and all.
+
+**参考链接**: https://apple.stackexchange.com/questions/378888/add-images-to-existing-pdf-with-preview
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/378888/add-images-to-existing-pdf-with-preview
+
+#### 67. How to arrange two windows easily to left and right side?
+
+**故障现象**: How to arrange two windows easily to left and right side?
+**标签 / 来源**: Tags: macos, mac, windows, window-manager | apple | 👍 180 | 💬 21 answers
+
+**问题描述**:
+Tags: macos, mac, windows, window-manager | Score: 180 | Views: 423807 | Answers: 21
+
+**解决方法 / 社区答案**:
+Original Answer (Update below):
+Apple has provided this functionality as part of its OS X El Capitan. Here are the steps:
+
+Click and hold on the green maximize button of an active window (for example, a Safari window);
+When the window shrinks slightly and the background becomes highlighted, you’re about to enter Split View, while continuing to hold the green button drag the active window into either the left or right panel to place it full screen there;
+As soon as you place the first window into the Split View panel, the other side of the screen turns into a mini-Expose much like Mission Control, simply click the window tile you want to open into Split View for the other side here to immediately send it side by side into Split Full Screen Mode.
+
+The answer has been taken from osxdaily.com website's page.
+
+Update:
+Many people commented that they wish there was a shortcut for it. I figured a way to create a shortcut for that from another answer on AskDifferent which I cannot find the link to. This is how:
+
+Open System Preferences;
+Go to 'Keyboard' settings;
+Go to 'Shortcuts' tab;
+In the left pane, select 'App Shortcuts';
+
+In this section you can add app specific shortcuts, as well as shortcuts that you want available for all apps.
+
+
+Click on the '+' sign below right pane to add a new shortcut;
+A new drop down will open. In this drop-down:
+
+In the 'Application:' keep it for 'All Applications';
+In the 'Menu Title:' type 'Tile Window to Right of Screen'. Better that you copy-paste it because it has to match letter by letter;
+In the 'Keyboard Shortcut:' press the keys you want to use as shortcut for tiling an application window to the right. On my machine, I've set† it to ⎇⌘→.
+Repeat the same for tiling to left by putting 'Tile Window to Left of Screen' in the 'Menu Title:' and adding your desired keys for left-tiling shortcut.
+
+
+
+You should now have the shortcuts available for any application window that supports tiling. Now, you can press your shortcut keys to tile the first window to left or right. Then the other side will turn into a mini-Expose from which you can select the second window using your mouse.
+
+
+†I have a dual monitor setup. So other than the one listed above, I have also set the shortcut to move a window to another monitor. The 'Menu Title's are: 
+1. &quot;Move to Built-in Retina Display&quot;, with shortcut ⌃⎇⌘→;
+2. &quot;Move to LG UltraFine&quot;, with shortcut ⌃⎇⌘←;
+To remember the shortcuts, notice that all they keys, are next to each other. All you do is use arrow keys differently. Further, moving to another monitor has an extra key in the shortcut, while putting the windows in split view is on the same monitor, therefore it has one less key.
+Hint:
+The shortcut name depends on the MacOS system language, e.g.:
+english:
+'Tile Window to Left of Screen'
+german : 'Fenster auf der linken Bildschirmseite anordnen'
+or a different title: 'Fenster auf die linke Seite des Bildschirms bewegen'
+Phrases for left / right can be found on the green &quot;full screen&quot; button:
+
+**参考链接**: https://apple.stackexchange.com/questions/50330/how-to-arrange-two-windows-easily-to-left-and-right-side
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/50330/how-to-arrange-two-windows-easily-to-left-and-right-side
+
+#### 68. What is the `installd` process, and why is it eating my CPU?
+
+**故障现象**: What is the `installd` process, and why is it eating my CPU?
+**标签 / 来源**: Tags: activity-monitor, macos | apple | 👍 179 | 💬 7 answers
+
+**问题描述**:
+Tags: activity-monitor, macos | Score: 179 | Views: 243455 | Answers: 7
+
+**解决方法 / 社区答案**:
+This is a daemon which is part of PackageKit framework and it's usually running as a background process for the "Software Update" GUI application.
+For example, if you open the Software Update application and check for updates, take a look at the Activity Monitor--you'll see the "installd" process doing a bunch of work.
+
+The reason it pegs your CPU is because it must compile the current list of software installed on your computer, and compare with the current version list received from Apple's servers.
+
+You can set the frequency of Software Update checks in System Preferences and Software Update.
+
+The default settings are both to "Check for updates" and "Download updates automatically".
+You may adjust either setting, but I would not recommend turning it off altogether.
+
+There's nothing wicked about this process - it's just set to download updates.
+
+You can solve your CPU problem by lowering the priority of the process or by just killing the process in Activity Monitor.
+
+
+
+Technical information:
+
+The location in Lion OSX is in:
+/System/Library/PrivateFrameworks/PackageKit.framework/Resources/installd
+
+(if you have locate configured correctly, run: locate installd to find the right location).
+
+**参考链接**: https://apple.stackexchange.com/questions/87109/what-is-the-installd-process-and-why-is-it-eating-my-cpu
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/87109/what-is-the-installd-process-and-why-is-it-eating-my-cpu
+
+#### 69. What is this qemu-system-aarch64 process and why is it using almost 3 GB of RAM on my M1 Mac
+
+**故障现象**: What is this qemu-system-aarch64 process and why is it using almost 3 GB of RAM on my M1 Mac
+**标签 / 来源**: Tags: mac-mini, macos, activity-monitor, apple-silicon | apple | 👍 178 | 💬 3 answers
+
+**问题描述**:
+Tags: mac-mini, macos, activity-monitor, apple-silicon | Score: 178 | Views: 155253 | Answers: 3
+
+**解决方法 / 社区答案**:
+This process belongs to an application you've installed yourself.
+To find out more, select the process in Activity Monitor and press Cmd-I to open the Process Information window. You should see the name of the process which started it at the top, and the path to the binary itself near the top of the 3rd tab (open files and ports).
+
+**参考链接**: https://apple.stackexchange.com/questions/420445/what-is-this-qemu-system-aarch64-process-and-why-is-it-using-almost-3-gb-of-ram
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/420445/what-is-this-qemu-system-aarch64-process-and-why-is-it-using-almost-3-gb-of-ram
+
+#### 70. How can I mount an ext4 file system on OS X?
+
+**故障现象**: How can I mount an ext4 file system on OS X?
+**标签 / 来源**: Tags: macos, unix | apple | 👍 178 | 💬 11 answers
+
+**问题描述**:
+Tags: macos, unix | Score: 178 | Views: 372061 | Answers: 11
+
+**解决方法 / 社区答案**:
+The answer depends on you willingness to invest in commercial software:
+If you don’t mind spending some money on a commercial product, Paragon’s extFS for Mac will give you read and write access to ext2 / ext3 / ext4 file systems. The current version supports all versions of OS X / macOS from 10.10 upwards.
+If you are looking for a free solution, you can setup a Linux virtual machine, mount your volume(s) there and share it / them via Samba or (S)FTP. This post has some details on how to achieve this using VirtualBox, a free virtual machine application. Note this is not exactly a lightweight solution, even if using a prebuilt VirtualBox VM will spare you installing and configuring a Linux distro from scratch.
+
+**参考链接**: https://apple.stackexchange.com/questions/29842/how-can-i-mount-an-ext4-file-system-on-os-x
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/29842/how-can-i-mount-an-ext4-file-system-on-os-x
+
+#### 71. Convert .mov to .mp4
+
+**故障现象**: Convert .mov to .mp4
+**标签 / 来源**: Tags: macos, video, imovie, mp4, mov | apple | 👍 177 | 💬 6 answers
+
+**问题描述**:
+Tags: macos, video, imovie, mp4, mov | Score: 177 | Views: 134269 | Answers: 6
+
+**解决方法 / 社区答案**:
+I personally find using ffmpeg shell program (available through Brew using brew install ffmpeg) the most convenient way to do the conversions.
+
+It includes tons of options for nearly any single thing you could possibly do with a movie.
+
+In your case though, for a conversion, you can simply type:
+
+ffmpeg -i /path/to/input/file /path/to/output.mp4
+
+The .mp4 extension in the output path serves as a cue for the program to do the proper conversion -- no more options are necessary.
+
+**参考链接**: https://apple.stackexchange.com/questions/232910/convert-mov-to-mp4
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/232910/convert-mov-to-mp4
+
+#### 72. How can I prevent an SSH session from hanging in OS X Terminal?
+
+**故障现象**: How can I prevent an SSH session from hanging in OS X Terminal?
+**标签 / 来源**: Tags: macos, terminal, wifi, ssh | apple | 👍 175 | 💬 7 answers
+
+**问题描述**:
+Tags: macos, terminal, wifi, ssh | Score: 175 | Views: 189533 | Answers: 7
+
+**解决方法 / 社区答案**:
+For keeping the connection alive, you can check in /etc/ssh/ssh_config the line where it says ServerAliveInterval, that tells you how often (in seconds) your computer is gonna send a null packet to keep the connection alive. If you have a 0 in there that indicates that your computer is not trying to keep the connection alive (it is disabled), otherwise it tells you how often (in seconds) it is sending the aforementioned packet. Try putting in 120 or 240, if it is still killing your connection, you can go lower, maybe to 5, if with that number it doesn't happen, maybe it is your router who is dumping the connection to free memory.
+
+For killing it when it gets hang up, you can use the ssh escape character:
+
+~.
+
+
+That is, press the tilde and then the period, if it doesn't work, press Enter before you press that, that will kill the connection immediately.
+
+**参考链接**: https://apple.stackexchange.com/questions/36690/how-can-i-prevent-an-ssh-session-from-hanging-in-os-x-terminal
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/36690/how-can-i-prevent-an-ssh-session-from-hanging-in-os-x-terminal
+
+#### 73. OS X computer name not matching what shows on terminal
+
+**故障现象**: OS X computer name not matching what shows on terminal
+**标签 / 来源**: Tags: macos, xcode | apple | 👍 174 | 💬 12 answers
+
+**问题描述**:
+Tags: macos, xcode | Score: 174 | Views: 187601 | Answers: 12
+
+**解决方法 / 社区答案**:
+It's perfectly normal for this to occur; when you login Terminal remotely bash does a reverse DNS lookup. It will only be the same if the hostname is not specified on the network you're connecting from and there is no reply from the DHCP server, or the reverse lookup against the remote DNS server fails to resolve.
+You can easily over-ride the default setting by using this command in Terminal:
+sudo scutil --set HostName archos
+
+You can check it by using:
+nslookup nn.nn.nn.nn
+
+( or )
+host nn.nn.nn.nn
+
+(where nn signifies your Mac's ip address)
+
+**参考链接**: https://apple.stackexchange.com/questions/30552/os-x-computer-name-not-matching-what-shows-on-terminal
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/30552/os-x-computer-name-not-matching-what-shows-on-terminal
+
+#### 74. What happens if you plug more than one charger in the new MacBook Pro (2016)?
+
+**故障现象**: What happens if you plug more than one charger in the new MacBook Pro (2016)?
+**标签 / 来源**: Tags: macbook-pro, usb, charger, charging | apple | 👍 173 | 💬 3 answers
+
+**问题描述**:
+Tags: macbook-pro, usb, charger, charging | Score: 173 | Views: 163463 | Answers: 3
+
+**解决方法 / 社区答案**:
+The system will choose the power source that provides the most power, and it will not draw power from the others.
+Apple has released a support article (and another one) describing this:
+
+
+Your MacBook Pro draws power from only one power supply, even if more
+than one is attached—so using multiple power supplies will not speed
+up charging.
+
+If you connect multiple power supplies to your MacBook
+Pro, the one that provides the most power will be used, regardless of
+the order in which you connected them.
+
+You should not connect any
+power supply that exceeds 100W, as it might damage your Mac.
+
+**参考链接**: https://apple.stackexchange.com/questions/259744/what-happens-if-you-plug-more-than-one-charger-in-the-new-macbook-pro-2016
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/259744/what-happens-if-you-plug-more-than-one-charger-in-the-new-macbook-pro-2016
+
+#### 75. How to simulate slow internet connections on the mac
+
+**故障现象**: How to simulate slow internet connections on the mac
+**标签 / 来源**: Tags: macos, mac, network, performance, internet | apple | 👍 172 | 💬 10 answers
+
+**问题描述**:
+Tags: macos, mac, network, performance, internet | Score: 172 | Views: 179944 | Answers: 10
+
+**解决方法 / 社区答案**:
+Apple’s official tool to slow down the network connections on you Mac for testing purposes is Network Link Conditioner
+
+Additional Tools for Xcode [version].
+
+Additionally, iOS has similar function accessible from within Xcode and iOS 6 or later.
+
+Older versions of Xcode before version 4.3.2 embedded a copy of this tool. This SO thread documents some history of the tool in a similar manner to the iOS simulators and developer documentation.
+There are 11 built in profiles from a Lossy Edge network with 400ms delay to a cable modem. If you need other limits, you can create custom profiles with your own settings or you can also use ipfw yourself as described in Craig Hockenberry's article slow ride, make it easy It also mentions the Speed Limit panel by Mike Schrag that is a smaller download than Xcode, but has fewer options than Apple's tool.
+It slows down the entire network stack, so you can't throttle on a per app basis without doing things like install lion in a virtual machine and set that VM with a throttled stack.
+
+**参考链接**: https://apple.stackexchange.com/questions/24066/how-to-simulate-slow-internet-connections-on-the-mac
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/24066/how-to-simulate-slow-internet-connections-on-the-mac
+
+#### 76. Using The Terminal Command to Shutdown, Restart and Sleep My Mac?
+
+**故障现象**: Using The Terminal Command to Shutdown, Restart and Sleep My Mac?
+**标签 / 来源**: Tags: macos, terminal, sleep-wake, shutdown, restart | apple | 👍 172 | 💬 4 answers
+
+**问题描述**:
+Tags: macos, terminal, sleep-wake, shutdown, restart | Score: 172 | Views: 551481 | Answers: 4
+
+**解决方法 / 社区答案**:
+The command you are after is shutdown.
+This  informs all users that the machine is going to be shutdown and tells all apps to close files etc.
+The command takes a parameter -h, -r or -s to shut down, restart or sleep the Mac.
+The command has to be run as root so you need to use sudo.
+e.g. to reboot the machine immediately
+sudo shutdown -r now
+
+e.g. to shutdown the machine in 60 minutes
+sudo shutdown -h +60
+
+From comments there are two things to be addressed
+How shutdown works is by sending a sigterm to all processes which should then deal with that e.g. save open files etc. If they don't exit then they will get sent a SIGKILL which forces them to die with no chance to respond. The signals are not sent via the normal key message queue so Apps have to deal with this separately to the code that gets called from quit on the menu. A good app should call common code from both.
+This other answer shows how to shutdown as if you hit the menu options. But note that apps can cancel this shutdown
+
+**参考链接**: https://apple.stackexchange.com/questions/103571/using-the-terminal-command-to-shutdown-restart-and-sleep-my-mac
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/103571/using-the-terminal-command-to-shutdown-restart-and-sleep-my-mac
+
+#### 77. How to get the chrome tabs to always show when in full screen mode?
+
+**故障现象**: How to get the chrome tabs to always show when in full screen mode?
+**标签 / 来源**: Tags: macos, google-chrome, fullscreen, tabs | apple | 👍 170 | 💬 9 answers
+
+**问题描述**:
+Tags: macos, google-chrome, fullscreen, tabs | Score: 170 | Views: 357321 | Answers: 9
+
+**解决方法 / 社区答案**:
+With latest version of Chrome, there is the option to show the Toolbar (which includes tabs) in the View menu.
+
+**参考链接**: https://apple.stackexchange.com/questions/94737/how-to-get-the-chrome-tabs-to-always-show-when-in-full-screen-mode
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/94737/how-to-get-the-chrome-tabs-to-always-show-when-in-full-screen-mode
+
+#### 78. Task Switcher moves to non-primary display on Mavericks-Catalina
+
+**故障现象**: Task Switcher moves to non-primary display on Mavericks-Catalina
+**标签 / 来源**: Tags: macos, display, application-switcher | apple | 👍 170 | 💬 5 answers
+
+**问题描述**:
+Tags: macos, display, application-switcher | Score: 170 | Views: 46640 | Answers: 5
+
+**解决方法 / 社区答案**:
+I answered a similar question here - cmd-tab behavior on Mavericks with multiple displays
+
+The Task Switcher does follow the Dock.  If the Dock is on screen 1, the Task Switcher will appear on screen 1.  If the Dock is on screen 3, the Task Switcher will appear on screen 3.  Etc.
+
+To make your Dock appear on a screen you can use a couple of methods.
+
+Method 1 - Move your mouse to the bottom of the desired display.  Don't stop once you reach the bottom of the display though, try to move it further down, as if you're pushing down on the bottom of the display with your cursor.  This action tells the Dock to move to this display.  This is temporary however, meaning the Dock will stay on this display until you perform this action on another display or reboot your Mac.
+
+Method 2 - This will change the default starting point for your Dock.  In System Preferences > Displays > Arrangement you can drag the menu bar from one display to another in this windows display icons.  See the attached picture for reference.  This alters the default preference to always show the Dock on the desired display, the one you drag the menu bar to in this preference pane, when you boot and/or login to your user account.  You can still use method 1 to temporarily change the Dock's location but upon a reboot it will return to the display specified here.
+
+**参考链接**: https://apple.stackexchange.com/questions/107419/task-switcher-moves-to-non-primary-display-on-mavericks-catalina
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/107419/task-switcher-moves-to-non-primary-display-on-mavericks-catalina
+
+#### 79. WindowServer high CPU on Yosemite
+
+**故障现象**: WindowServer high CPU on Yosemite
+**标签 / 来源**: Tags: macos, performance | apple | 👍 170 | 💬 11 answers
+
+**问题描述**:
+Tags: macos, performance | Score: 170 | Views: 188761 | Answers: 11
+
+**解决方法 / 社区答案**:
+I had a similar issue with high cpu usage in WindowServer which I managed to get back to something more normal by removing any items in my menu bar that were making high frequency drawing updates. 
+
+In my case it was the Network Monitor from Little Snitch that seemed to be the biggest culprit.
+
+**参考链接**: https://apple.stackexchange.com/questions/153397/windowserver-high-cpu-on-yosemite
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/153397/windowserver-high-cpu-on-yosemite
+
+#### 80. Keyboard shortcut to switch focus between multiple displays on OS X 10.9+
+
+**故障现象**: Keyboard shortcut to switch focus between multiple displays on OS X 10.9+
+**标签 / 来源**: Tags: keyboard, display, macos | apple | 👍 170 | 💬 7 answers
+
+**问题描述**:
+Tags: keyboard, display, macos | Score: 170 | Views: 373483 | Answers: 7
+
+**解决方法 / 社区答案**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接**: https://apple.stackexchange.com/questions/106559/keyboard-shortcut-to-switch-focus-between-multiple-displays-on-os-x-10-9
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/106559/keyboard-shortcut-to-switch-focus-between-multiple-displays-on-os-x-10-9
+
+#### 81. How can I install .pkg with a shell on macOS?
+
+**故障现象**: How can I install .pkg with a shell on macOS?
+**标签 / 来源**: Tags: macos, command-line, install, pkg | apple | 👍 166 | 💬 3 answers
+
+**问题描述**:
+Tags: macos, command-line, install, pkg | Score: 166 | Views: 483177 | Answers: 3
+
+**解决方法 / 社区答案**:
+/usr/sbin/installer
+
+The installer command is used to install Mac OS X installer packages to a specified domain or volume.  The
+installer command installs a single package per invocation, which is specified with the -package parameter ( -pkg
+is accepted as a synonym).  It may be either a single package or a metapackage.  In the case of the metapackage,
+the packages which are part of the default install will be installed unless disqualified by a package's check
+tool(s).
+
+See man installer for the full functionality. Often
+sudo installer -pkg /path/to/package.pkg -target /
+
+is all that's needed. The target is a &quot;device&quot; (see the man page for details or run installer -dominfo). Here / is the main drive, it also accepts devices like &quot;/Volumes/Macintosh HD&quot;, or /dev/disk0.
+
+**参考链接**: https://apple.stackexchange.com/questions/72226/how-can-i-install-pkg-with-a-shell-on-macos
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/72226/how-can-i-install-pkg-with-a-shell-on-macos
+
+#### 82. What directory comparison tools can I use on OS X?
+
+**故障现象**: What directory comparison tools can I use on OS X?
+**标签 / 来源**: Tags: macos, command-line | apple | 👍 164 | 💬 17 answers
+
+**问题描述**:
+Tags: macos, command-line | Score: 164 | Views: 196307 | Answers: 17
+
+**解决方法 / 社区答案**:
+FileMerge (free), shipped with Xcode, offers a directory view.
+A command line version is available through the Terminal application opendiff.
+
+Here's how you can compare two directories with FileMerge:
+
+
+⌘+space, type in "FileMerge" and open it.
+Click the "left" button and choose the folder you would like to move items FROM. (The "old" folder)
+Click the "right" button and choose the folder you would like to move items TO. ("new" folder) and click "Compare" button
+In the right panel, choose to exclude: "identical" and "Changed right". This way you will only see files which are missing in the "new" folder and ignore files your may have added in the "new" folder.
+Move files manually in Finder or let FileMerge do it, by choosing an option in the "Merge" dropdown in the right panel.
+
+**参考链接**: https://apple.stackexchange.com/questions/10252/what-directory-comparison-tools-can-i-use-on-os-x
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/10252/what-directory-comparison-tools-can-i-use-on-os-x
+
+#### 83. Any nice, stable ways to keep a window &#39;Always on top&#39; on the Mac?
+
+**故障现象**: Any nice, stable ways to keep a window &#39;Always on top&#39; on the Mac?
+**标签 / 来源**: Tags: macos, window-manager | apple | 👍 163 | 💬 13 answers
+
+**问题描述**:
+Tags: macos, window-manager | Score: 163 | Views: 276780 | Answers: 13
+
+**解决方法 / 社区答案**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接**: https://apple.stackexchange.com/questions/219116/any-nice-stable-ways-to-keep-a-window-always-on-top-on-the-mac
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/219116/any-nice-stable-ways-to-keep-a-window-always-on-top-on-the-mac
+
+#### 84. Change location of macOS Notification Center alerts?
+
+**故障现象**: Change location of macOS Notification Center alerts?
+**标签 / 来源**: Tags: macos, notifications | apple | 👍 159 | 💬 10 answers
+
+**问题描述**:
+Tags: macos, notifications | Score: 159 | Views: 89318 | Answers: 10
+
+**解决方法 / 社区答案**:
+Unfortunately, you can't change the screen position of the Notification Center Alerts and Banners. This is a huge gripe of mine as well, and I highly encourage you to complain about this issue to Apple here:
+http://www.apple.com/feedback/macos.html
+
+Hopefully they will one day change this. I also have not been able to find or formulate any hacks.
+
+I, too, am annoyed by it covering up controls in my modeling applications, tabs in my browser, etc.
+
+You can move the Notification Center to another screen, however your entire menu bar goes with it. When you have more than one monitor active, open up System Preferences > Displays > Arrangement. Click and drag the white bar inside one of the squares representing your current primary monitor and drag it to another monitor.
+
+For notifications that don't need immediate attention, consider changing the alert style from Alerts to Banners. Banners are automatically dismissed into the notification center where you can find them later.
+
+Good luck, and keep spreading the word that we need to tell Apple to make this experience better.
+
+**参考链接**: https://apple.stackexchange.com/questions/71989/change-location-of-macos-notification-center-alerts
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/71989/change-location-of-macos-notification-center-alerts
+
+#### 85. How to stop OS X from writing Spotlight and Trash files to memory cards and USB sticks?
+
+**故障现象**: How to stop OS X from writing Spotlight and Trash files to memory cards and USB sticks?
+**标签 / 来源**: Tags: macos, photos, usb, spotlight, trash | apple | 👍 158 | 💬 23 answers
+
+**问题描述**:
+Tags: macos, photos, usb, spotlight, trash | Score: 158 | Views: 192282 | Answers: 23
+
+**解决方法 / 社区答案**:
+For just a particular mounted volume - like a flash drive called yourUSBstick in this example - these commands will remove existing cruft, stop Spotlight indexing now and in the future, stop the related fsevents logging, and disable the Trash feature.
+
+mdutil -i off /Volumes/yourUSBstick
+cd /Volumes/yourUSBstick
+rm -rf .{,_.}{fseventsd,Spotlight-V*,Trashes}
+mkdir .fseventsd
+touch .fseventsd/no_log .metadata_never_index .Trashes
+cd -
+
+
+Other unfamiliar stuff you may still see you probably want to keep, like Apple double "._*" files and other Apple DS cruft relating to icons and window placement.
+
+**参考链接**: https://apple.stackexchange.com/questions/6707/how-to-stop-os-x-from-writing-spotlight-and-trash-files-to-memory-cards-and-usb
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/6707/how-to-stop-os-x-from-writing-spotlight-and-trash-files-to-memory-cards-and-usb
+
+#### 86. How to switch or close the new split Terminal pane?
+
+**故障现象**: How to switch or close the new split Terminal pane?
+**标签 / 来源**: Tags: macos, terminal | apple | 👍 158 | 💬 3 answers
+
+**问题描述**:
+Tags: macos, terminal | Score: 158 | Views: 154734 | Answers: 3
+
+**解决方法 / 社区答案**:
+The idea behind splitting is that it allows you to keep a certain part of the shell buffer displayed while continuing to enter new commands. So only the lowest split does allow keyboard input. To position the view on the shell buffer use the scroll bar.
+
+You can un-split by pressing Shift-Cmd-D.
+
+**参考链接**: https://apple.stackexchange.com/questions/87202/how-to-switch-or-close-the-new-split-terminal-pane
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/87202/how-to-switch-or-close-the-new-split-terminal-pane
+
+#### 87. Can home and end keys be mapped when using Terminal?
+
+**故障现象**: Can home and end keys be mapped when using Terminal?
+**标签 / 来源**: Tags: macos, terminal, keyboard, command-line, keybindings | apple | 👍 157 | 💬 11 answers
+
+**问题描述**:
+Tags: macos, terminal, keyboard, command-line, keybindings | Score: 157 | Views: 93737 | Answers: 11
+
+**解决方法 / 社区答案**:
+This can be set in Terminal.app preferences
+Context
+To answer the one about how to get the beginning or end of the line, it appears that by default Terminal maps these keys to it:
+
+shift+home → beginning of line, equivalent to the &quot;home&quot; key in normal terminals
+shift+end → end of line, equivalent to the &quot;end&quot; key in normal terminals
+
+Instructions
+If you want home and end to work the &quot;normal&quot; way (and not require shift), go to the Keyboard tab of the Terminal profile preferences:
+[Terminal menu] → Preferences → Profiles tab (or settings on some versions of OS X) → Keyboard sub-tab
+Then modify/add these keys to be the following &quot;send string to shell&quot;. Use the code for your shell, Bash or Zsh.
+macOS changed the default shell from Bash to Zsh in MacOS Catalina (v10.15) and later versions (BigSur and Monterey). The instructions are different for Bash and Zsh.
+Zsh
+
+home: \001
+end: \005
+
+You can enter these codes in the edit dialog by pressing ctrl-A for \001 and ctrl-E for \005. Thanks to @JW for the Zsh information.
+Another, unrelated, option to map home/end keys for MacOS Catalina (v10.15) and later versions (BigSur and Monterey) is to use bindkey widgets:
+sudo echo 'bindkey &quot;\033[H&quot; beginning-of-line; bindkey &quot;\033[F&quot; end-of-line' &gt;&gt; ~/.zshrc
+
+Bash
+
+home: \033[H
+end:  \033[F
+
+You can get the \033 part by hitting the escape key within the edit dialog input, if you need to add it.
+In later versions of Mac OS X, if the terminal screen shifts up or down when you press the home/end key, the home key may need to be set to \033[1~ and the end key to \033[4~ to get the results you want (no shift needed).
+Conclusion
+Then home and end will work like normal again (phew).
+Also note that alt+← and alt+→ by default in terminal map to word left and word right, another handy combo to remember.
+Feel free to modify this answer to add more useful key bindings, as it is a community wiki.
+
+**参考链接**: https://apple.stackexchange.com/questions/12997/can-home-and-end-keys-be-mapped-when-using-terminal
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/12997/can-home-and-end-keys-be-mapped-when-using-terminal
+
+#### 88. Remember window sizes and placement when unplugging and replugging second monitor
+
+**故障现象**: Remember window sizes and placement when unplugging and replugging second monitor
+**标签 / 来源**: Tags: macos, windows, display, window-manager, productivity | apple | 👍 157 | 💬 13 answers
+
+**问题描述**:
+Tags: macos, windows, display, window-manager, productivity | Score: 157 | Views: 68974 | Answers: 13
+
+**解决方法 / 社区答案**:
+Have a look at Stay by Cordless Dog. I believe it does exactly what you're looking for.
+
+**参考链接**: https://apple.stackexchange.com/questions/126351/remember-window-sizes-and-placement-when-unplugging-and-replugging-second-monito
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/126351/remember-window-sizes-and-placement-when-unplugging-and-replugging-second-monito
+
+#### 89. Is there a way to convert audio files in Mac OS X or the command line without using iTunes?
+
+**故障现象**: Is there a way to convert audio files in Mac OS X or the command line without using iTunes?
+**标签 / 来源**: Tags: macos, audio, unix | apple | 👍 156 | 💬 9 answers
+
+**问题描述**:
+Tags: macos, audio, unix | Score: 156 | Views: 137510 | Answers: 9
+
+**解决方法 / 社区答案**:
+I installed ffmpeg via MacPorts, although it also available via Homebrew (brew install ffmpeg) or download the binary.
+To convert something like that, (without worrying about audio quality, which I know nothing about), I just use:
+ffmpeg -i input.mp4 output.mp3
+
+Here is an example of how you would convert a .wav file to .mp3 from their website:
+ffmpeg -i input.wav -codec:a libmp3lame -qscale:a 2 output.mp3 
+
+Here is an example of how to find all .wav files larger than 50M, convert them to mp3 and then delete the original wav file (aka, batch mode -- alter the find command to create your 'batch')
+find . -size +50M -iname '*.wav' -type f -exec ffmpeg -i {} -codec:a libmp3lame -qscale:a 2 {}.mp3 -y \; -exec /bin/rm {} \;
+
+If you don't want to delete the source file, say in case the conversion fails or you want to have both:
+find . -size +50M -iname '*.wav' -type f -exec ffmpeg -i {} -codec:a libmp3lame -qscale:a 2 {}.mp3 -y \;
+
+Note that the -y overwrites existing files without prompting so if you want to not have that you can remove it.
+
+**参考链接**: https://apple.stackexchange.com/questions/26099/is-there-a-way-to-convert-audio-files-in-mac-os-x-or-the-command-line-without-us
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/26099/is-there-a-way-to-convert-audio-files-in-mac-os-x-or-the-command-line-without-us
+
+#### 90. How do I start the docker daemon on macOS?
+
+**故障现象**: How do I start the docker daemon on macOS?
+**标签 / 来源**: Tags: macos, daemons, docker | apple | 👍 154 | 💬 9 answers
+
+**问题描述**:
+Tags: macos, daemons, docker | Score: 154 | Views: 547378 | Answers: 9
+
+**解决方法 / 社区答案**:
+An alternative solution is to use other runtime for docker. For example
+colima
+brew install colima
+colima start
+docker ps -a
+
+Since docker desktop isn't free for enterprise usage, the alternative runtime is a good option.
+NOTE: if you've previously used Docker Desktop for launching Docker daemon and had an export of DOCKER_HOST defined in your user's shell configuration (.bash_profile, .zsh_profile etc.), you need to re-specify DOCKER_HOST to make sure it points to .colima directory and commands like docker-compose up -d work properly.
+Example:
+export DOCKER_HOST=unix:///$HOME/.colima/docker.sock
+
+**参考链接**: https://apple.stackexchange.com/questions/373888/how-do-i-start-the-docker-daemon-on-macos
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/373888/how-do-i-start-the-docker-daemon-on-macos
+
+#### 91. Update bash to version 4.0 on OSX
+
+**故障现象**: Update bash to version 4.0 on OSX
+**标签 / 来源**: Tags: macos, terminal, bash, command-line | apple | 👍 154 | 💬 6 answers
+
+**问题描述**:
+Tags: macos, terminal, bash, command-line | Score: 154 | Views: 138259 | Answers: 6
+
+**解决方法 / 社区答案**:
+As @William said in his answer, Apple does not provide bash 4 due to GPL restrictions. You can install bash 4+ however and also can make it your default shell (including for Terminal and iTerm2) by doing the following.
+
+Install Bash 4 via Homebrew
+
+First install the newer version of bash. There are various ways of doing that, I prefer Homebrew.
+
+
+Install Homebrew as described at http://brew.sh.  
+Install bash using brew install bash.
+
+
+Bash 4 is now available on your PATH (assuming Homebrew bin is on your path). However, it is not yet your default shell. You can find where it is located by running which bash. In my case it is at /usr/local/bin/bash. 
+
+Using Bash 4
+
+Since it is on your PATH, you can start a Bash 4 session with just bash or it can be used in scripts by using a Shebang.
+
+For example, this will use a specific bash instance.
+
+#!/usr/local/bin/bash
+...your script...
+
+
+This will use the first bash on the PATH.
+
+#!/usr/bin/env bash
+...your script...
+
+
+You can also set the bash path for specific profiles in Terminal/iTerm2 using the steps described in @user136952's answer.
+
+Making Bash 4 the default
+
+As mentioned above, after installing Bash 4 is still not the default shell. To make bash the default you need to do two more steps.
+
+First, add the Bash 4 path to your /etc/shells file so that it is an allowed login shell. As described in /etc/shells, this file has the list of valid login shells. After adding the new bash path my /etc/shells looks like the following:
+
+# List of acceptable shells for chpass(1).
+# Ftpd will not allow users to connect who are not using
+# one of these shells.
+
+/bin/bash
+/bin/csh
+/bin/ksh
+/bin/sh
+/bin/tcsh
+/bin/zsh
+/usr/local/bin/bash
+
+
+Next we use chsh to make it your default shell. So any sessions for that user will use that shell. You can read more about this in Change the Shell in Mac OS X Terminal, but the actual command is very straightforward.
+
+chsh -s /usr/local/bin/bash
+
+
+Now the new bash is our default login shell. If you open Terminal or iTerm2 and run bash --version you should see the new version. Note the "License GPLv3+" which is why Apple doesn't bundle it with macOS.
+
+$ bash --version
+GNU bash, version 4.4.12(1)-release (x86_64-apple-darwin16.6.0)
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later &lt;http://gnu.org/licenses/gpl.html&gt;
+
+**参考链接**: https://apple.stackexchange.com/questions/193411/update-bash-to-version-4-0-on-osx
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/193411/update-bash-to-version-4-0-on-osx
+
+#### 92. cmd-tab behavior on Mavericks with multiple displays
+
+**故障现象**: cmd-tab behavior on Mavericks with multiple displays
+**标签 / 来源**: Tags: macos, display, application-switcher | apple | 👍 153 | 💬 5 answers
+
+**问题描述**:
+Tags: macos, display, application-switcher | Score: 153 | Views: 87913 | Answers: 5
+
+**解决方法 / 社区答案**:
+I believe this coincides with the Dock's location.  Just tested it on my MacBook Air, connected to a non-Apple external display, and whenever I moved the Dock from screen to screen the Application Switcher would follow.
+
+You can summon the Dock on your big display by dragging the cursor to the bottom of it's display, essentially dragging down at the bottom.  After a second the Dock should pop up.  Once the Dock is on the desired display press commandtab to summon the Application Switcher.
+
+**参考链接**: https://apple.stackexchange.com/questions/106405/cmd-tab-behavior-on-mavericks-with-multiple-displays
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/106405/cmd-tab-behavior-on-mavericks-with-multiple-displays
+
+#### 93. macOS notifications on dual monitors: how can I specify which monitor?
+
+**故障现象**: macOS notifications on dual monitors: how can I specify which monitor?
+**标签 / 来源**: Tags: macos, notifications, dual-screen | apple | 👍 152 | 💬 3 answers
+
+**问题描述**:
+Tags: macos, notifications, dual-screen | Score: 152 | Views: 96074 | Answers: 3
+
+**解决方法 / 社区答案**:
+You should be able to do this by choosing the monitor on which the menu bar is active.
+Try:
+
+System Settings -&gt; Displays -&gt; Arrangement
+
+and drag the little white bar to the monitor where you want the notifications to show up.
+In the picture below, the bar is being dragged from the left to the right window.
+
+**参考链接**: https://apple.stackexchange.com/questions/157260/macos-notifications-on-dual-monitors-how-can-i-specify-which-monitor
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/157260/macos-notifications-on-dual-monitors-how-can-i-specify-which-monitor
+
+#### 94. Restricting Command+tab options to only apps that are in the current space
+
+**故障现象**: Restricting Command+tab options to only apps that are in the current space
+**标签 / 来源**: Tags: macos, spaces | apple | 👍 152 | 💬 12 answers
+
+**问题描述**:
+Tags: macos, spaces | Score: 152 | Views: 67784 | Answers: 12
+
+**解决方法 / 社区答案**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接**: https://apple.stackexchange.com/questions/5668/restricting-commandtab-options-to-only-apps-that-are-in-the-current-space
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/5668/restricting-commandtab-options-to-only-apps-that-are-in-the-current-space
+
+#### 95. Is there a command line program for macOS that can access serial ports?
+
+**故障现象**: Is there a command line program for macOS that can access serial ports?
+**标签 / 来源**: Tags: macos, command-line | apple | 👍 151 | 💬 16 answers
+
+**问题描述**:
+Tags: macos, command-line | Score: 151 | Views: 675404 | Answers: 16
+
+**解决方法 / 社区答案**:
+You can use the terminal command screen to do this!!!
+
+As seen on ServerFault:
+
+
+  I love using [screen] for connecting to serial consoles, i.e.
+
+screen /dev/ttyS0 19200
+
+
+
+Or, if you prefer Mac OS X hints...
+
+
+  I often have to do router configuration via a console port, so I use a
+  Keyspan Serial Adapter to get access. Two problems then present
+  themselves: ZTerm is a horrible Mac OS X app. It hasn't been updated
+  in five years or so, and isn't a Universal Binary. The developer
+  doesn't seem in any hurry to rectify the situation. It is not worth
+  the shareware fee in its current form. Minicom requires installation
+  of Fink or MacPorts and is overly complex. Solution: Use screen,
+  Terminal, and a little AppleScripting.
+  
+  First, launch Script Editor and type/paste in the following code:
+
+tell application "Terminal"
+  do script with command "screen /dev/tty.KeySerial1"
+  set number of rows of window 1 to 100
+  set number of columns of window 1 to 80
+  set background color of window 1 to "black"
+  set normal text color of window 1 to "green"
+  set custom title of window 1 to "SerialOut"
+end tell
+
+  
+  Compile and save as an app from within Script Editor, and you have a
+  double-clickable application to launch a serial Terminal session. You
+  may want to customize this slightly -- you can change the screen
+  colors or number of columns or rows. You may also need to customize
+  the screen command with a different device name if you are using
+  something other than the Keyspan Serial Adapter (do an ls tty* of the
+  /dev/ directory to get the right name). 
+  
+  screen uses Control-A to take commands directed to it. So type
+  Control-A followed by Control-\ to exit your screen session. If you
+  fail to do this and exit a Terminal session, you'll leave the screen
+  session alive and the serial resource unavailable until you kill the
+  screen session manually. man screen will show you further commands to
+  send to a screen session. 
+  
+  If anyone can reply with a link to a tutorial on how to wrap an
+  interactive Unix App in Cocoa, that would be the next step -- it would
+  be nice to do this without involving Terminal. If you prefer to use
+  Minicom, you could still use the AppleScript to wrap it into a nice
+  launchable app -- use this older hint to find the right command line
+  commands.
+
+
+Many USB-Serial adapters use the chip from FTDI. Install the "Virtual COM Port" driver and look for the proper TTY name in /dev. For example, on a PowerBook G4 it came up as /dev/tty.usbserial-FTALKY8I.
+
+**参考链接**: https://apple.stackexchange.com/questions/32834/is-there-a-command-line-program-for-macos-that-can-access-serial-ports
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/32834/is-there-a-command-line-program-for-macos-that-can-access-serial-ports
+
+#### 96. How do I sync the Visual Studio Code (vscode) theme to use my OS light/dark color scheme?
+
+**故障现象**: How do I sync the Visual Studio Code (vscode) theme to use my OS light/dark color scheme?
+**标签 / 来源**: Tags: macos, system-settings, visual-studio-code | apple | 👍 151 | 💬 3 answers
+
+**问题描述**:
+Tags: macos, system-settings, visual-studio-code | Score: 151 | Views: 54183 | Answers: 3
+
+**解决方法 / 社区答案**:
+Enable Auto Detect (Search in Settings: window.autoDetectColorScheme)
+Customize Color Themes (Search in Settings: workbench preferred color theme)
+
+
+More Detail (Visual Studio Code Themes):
+
+Auto switch based on OS color scheme Windows and macOS support light and dark color schemes. There is a setting, window.autoDetectColorScheme, that instructs VS Code to listen to changes to the OS's color scheme and switch to a matching theme accordingly.
+To customize the themes that are used when a color scheme changes, you can set the preferred light, dark, and high contrast themes with the settings:
+workbench.preferredLightColorTheme - defaults to &quot;Default Light+&quot;
+workbench.preferredDarkColorTheme - defaults to &quot;Default Dark+&quot;
+workbench.preferredHighContrastColorTheme - defaults to &quot;Default High Contrast&quot;
+workbench.preferredHighContrastLightColorTheme - defaults to &quot;Default High Contrast Light&quot;
+
+**参考链接**: https://apple.stackexchange.com/questions/381962/how-do-i-sync-the-visual-studio-code-vscode-theme-to-use-my-os-light-dark-colo
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/381962/how-do-i-sync-the-visual-studio-code-vscode-theme-to-use-my-os-light-dark-colo
+
+#### 97. How to record both screen and sound with Quicktime on El Capitan?
+
+**故障现象**: How to record both screen and sound with Quicktime on El Capitan?
+**标签 / 来源**: Tags: macos, quicktime, screen-capture | apple | 👍 150 | 💬 12 answers
+
+**问题描述**:
+Tags: macos, quicktime, screen-capture | Score: 150 | Views: 438170 | Answers: 12
+
+**解决方法 / 社区答案**:
+You  need to install Soundflower in order to run it on El Capitan. El Capitan requires kext to be signed in order to load them. This one gets its kext installed in /Library/Extensions/.
+
+This is due to System Integrity Protection
+
+Then, you have to create a multi-output device with: Audio MIDI Setup.app, which is found in /Applications/Utilities/ :
+
+
+
+Finally, when you want to do the actual recording, make sure you use this multi-output device, and capture from the same Soundflower device used in this multi-output device. Otherwise, you can't both listen to and capture the sound, because it goes directly to soundflower without being copied to the built-in output.
+
+alt/option + right clicking on volume gives you this menu:
+
+
+
+and Quicktime now looks like this:
+
+**参考链接**: https://apple.stackexchange.com/questions/212829/how-to-record-both-screen-and-sound-with-quicktime-on-el-capitan
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/212829/how-to-record-both-screen-and-sound-with-quicktime-on-el-capitan
+
+#### 98. Should I disconnect my MacBook Pro&#39;s power cord when the battery is fully charged?
+
+**故障现象**: Should I disconnect my MacBook Pro&#39;s power cord when the battery is fully charged?
+**标签 / 来源**: Tags: macbook-pro, battery, charging | apple | 👍 149 | 💬 12 answers
+
+**问题描述**:
+Tags: macbook-pro, battery, charging | Score: 149 | Views: 263777 | Answers: 12
+
+**解决方法 / 社区答案**:
+You do not need to disconnect your MacBook Pro's battery. Your battery will stop charging once it is full. Apple's modern batteries are much smarter than previous designs.
+
+To get the most out of your MacBook Pro's battery, follow the Notebook Battery advice from Apple: unplug and use your battery until empty about once a month, then charge back up to full.
+
+At the time of answering, Apple's advice read:
+
+
+  For proper maintenance of a lithium-based battery, it’s important to keep the electrons in it moving occasionally. Apple does not recommend leaving your portable plugged in all the time. An ideal use would be a commuter who uses her notebook on the train, then plugs it in at the office to charge. This keeps the battery juices flowing.
+
+
+If you need help following Apple's advice, use Battery Guardian; it is free and will remind you when to deplete your battery.
+
+**参考链接**: https://apple.stackexchange.com/questions/12271/should-i-disconnect-my-macbook-pros-power-cord-when-the-battery-is-fully-charge
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/12271/should-i-disconnect-my-macbook-pros-power-cord-when-the-battery-is-fully-charge
+
+#### 99. Is there a keyboard shortcut to navigate one level up in Finder?
+
+**故障现象**: Is there a keyboard shortcut to navigate one level up in Finder?
+**标签 / 来源**: Tags: macos, finder | apple | 👍 148 | 💬 1 answers
+
+**问题描述**:
+Tags: macos, finder | Score: 148 | Views: 91953 | Answers: 1
+
+**解决方法 / 社区答案**:
+The one you're probably looking for is the command ⬆︎ keyboard shortcut, as this is the one that takes you back to the parent folder. 
+
+To do the same thing, but within a new window, use command control ⬆︎.
+
+However, some views offer additional options. For example, in Columns view you can just use the ⬅︎ key to go back to the parent folder.
+
+In addition, you can use the command [ keyboard shortcut to take you back to the previous folder you were actually in (which may not necessarily be the parent folder).
+
+You can also right-click on the title in the Finder's window to select anywhere in the file's path to go straight to that location.
+
+Finally, you can also customise the Toolbar to add the Path button.
+
+**参考链接**: https://apple.stackexchange.com/questions/307930/is-there-a-keyboard-shortcut-to-navigate-one-level-up-in-finder
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/307930/is-there-a-keyboard-shortcut-to-navigate-one-level-up-in-finder
+
+#### 100. How to investigate high kernel task memory usage?
+
+**故障现象**: How to investigate high kernel task memory usage?
+**标签 / 来源**: Tags: macos, memory, performance, kernel-panic, kernel | apple | 👍 147 | 💬 2 answers
+
+**问题描述**:
+Tags: macos, memory, performance, kernel-panic, kernel | Score: 147 | Views: 233652 | Answers: 2
+
+**解决方法 / 社区答案**:
+There are many things that go wrong with high kernel task usage. Usually this is related to faulty or heavy process which overusing system resources (such as indexing storage, running VMs, too many tabs in the web browser or some other background processes). 
+
+Here are some methods which help to investigate OS X kernel usage issues:
+
+Basic methods
+
+
+Run Console.app and check on 'All Messages' to see if anything unusual currently is happening.
+Use Activity Monitor to read system memory and determine how much CPU, RAM and Disk is being used.
+
+Alternatively run top in Terminal and hold Space to refresh - easier to find the cause problem (swapins/swapouts/disks?).
+Run sudo fs_usage in Terminal to report system calls and page faults related to filesystem activity in real-time (I think this is the best option from all other). Then hit Control-C to stop it.
+
+Action: Consider killing apps which appears frequently on the list, but you're not using them.
+
+Learn more at: How do I debug an out-of-control “kernel_task” process?
+Run sudo syscallbypid.d (or syscallbyproc.d), wait a bit, hit Control-C. Now check which process generated the most system calls in that given time (last column) and if you recognise it, consider kill it. If not, Google it and learn more about it.
+
+
+Advanced methods
+
+
+Use sysdiagnose command (can be triggered by hitting Shift-Control-⌥-⌘-. (period) to quickly gather system-wide diagnostic information helpful in investigating system memory/performance issues (will appear in /var/tmp) either by you or Apple guys. During analysis, try to not do anything, when done - consider uncompressing the generated file and analyse the logs.
+
+See: How do you get system diagnostic files from OS X?
+Run footprint to gather detailed memory information on a per-VM-region type level and swapped bytes:
+
+sudo footprint -a
+
+
+Older version:
+
+sudo footprint -all -categories -swapped -collapseSharing
+
+Use spindump to profile entire system, it'll generate /tmp/spindump.txt file (including kernel and its extensions).
+Use vm_stat to show virtual memory statistics. E.g.
+
+vm_stat 1 # to display every second.
+
+Use zprint to check information about kernel usage, it's possible by:
+
+sudo zprint -t -s | head -n20
+
+
+It'll show the most wasting kernel zones.
+Use newproc.d to snoop new processes as they are executed, creatbyproc.d for files:
+
+sudo newproc.d
+sudo creatbyproc.d
+
+
+Note: On newer OS X (10.11 or above) this may not work when integrity protection is enabled (check by csrutil status). 
+Try sar - system activity reporter which can sample and report various cumulative statistic counters maintained by the operating system.
+
+
+For more useful debugging tools, check for dtrace scripts (grep dtrace /usr/bin/*). If you know the faulty process which causing the problem, you may use dtruss to debug it.
+
+
+
+Actions
+
+Here are some suggestions which can help you with the operating system issues.
+
+
+Free up some inactive memory. In order to do this, you've to flush cache first and force disk cache to be purged:
+
+sync &amp;&amp; sudo purge
+
+
+
+  sync - force completion of pending disk writes (flush cache)
+  
+  purge - force disk cache to be purged (flushed and emptied)
+
+
+Its function is basically to terminate all the I/O pending operations which are using disk cache and then to free all the occupied disk cache, so it should free disk space to ease paging out and swapping out of main memory. It is safe to use, as it does not affect anonymous memory that has been allocated through malloc, vm_allocate, etc.
+Use some 3rd party apps to clear up some overused memory such as iBoostUp, SystemPal, etc.
+You may also disable temporary Spotlight:
+
+sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist 
+
+
+And consider other services by:
+
+sudo launchctl list | grep ^[0-9]
+sudo launchctl bslist | grep ^A
+
+Quit your web browser and check if that helps. For example using Chrome is very resourceful, especially when there is some front-end processing going on in the background (e.g. Javascript) or advert-like animations are constantly rendering the content.
+
+**参考链接**: https://apple.stackexchange.com/questions/178281/how-to-investigate-high-kernel-task-memory-usage
+
+> 📎 来源 / Source: https://apple.stackexchange.com/questions/178281/how-to-investigate-high-kernel-task-memory-usage
 
 
 ---
@@ -1872,7 +3335,7 @@ You may get an error message: &quot;Can't install the software because it is not
 **Tags / Source**: Tags: macos, command-line, homebrew, open-source | apple | 👍 1068 | 💬 11 answers
 
 **Description**:
-Tags: macos, command-line, homebrew, open-source | Score: 1068 | Views: 1439800 | Answers: 11
+Tags: macos, command-line, homebrew, open-source | Score: 1068 | Views: 1439806 | Answers: 11
 
 **Solution / Community Answer**:
 brew list and brew list --cask
@@ -1890,7 +3353,7 @@ If you wish to list casks only, brew list --cask will provide the items installe
 **Tags / Source**: Tags: macos, kernel | apple | 👍 712 | 💬 16 answers
 
 **Description**:
-Tags: macos, kernel | Score: 712 | Views: 615529 | Answers: 16
+Tags: macos, kernel | Score: 712 | Views: 615533 | Answers: 16
 
 **Solution / Community Answer**:
 TLDR; If your MacBook Pro runs hot or shows a high % CPU for the kernel task, try charging on the right and not on the left.
@@ -1934,7 +3397,7 @@ Otherwise guessing and testing is the only way. Of course that leads to false co
 **Tags / Source**: Tags: macos, keyboard, google-chrome | apple | 👍 654 | 💬 15 answers
 
 **Description**:
-Tags: macos, keyboard, google-chrome | Score: 654 | Views: 935235 | Answers: 15
+Tags: macos, keyboard, google-chrome | Score: 654 | Views: 935240 | Answers: 15
 
 **Solution / Community Answer**:
 UK Keyboard
@@ -1969,7 +3432,7 @@ You can use the alternative of  Ctrl ⌃   F4  [visible in the prefs window abov
 **Tags / Source**: Tags: macos | apple | 👍 612 | 💬 159 answers
 
 **Description**:
-Tags: macos | Score: 612 | Views: 346411 | Answers: 159
+Tags: macos | Score: 612 | Views: 346412 | Answers: 159
 
 **Solution / Community Answer**:
 In any Finder window or Open/Save dialog, you can hit ⌘&#x21E7;G (just '/' also works in Open/Save) to get a location bar from which you can directly type in the directory to go to. It even supports ~ for home and tab completion.
@@ -2063,7 +3526,7 @@ This echoes the behaviour of Cmd/Tab or equivalent in most operating systems, so
 **Tags / Source**: Tags: macos, applications, command-line | apple | 👍 508 | 💬 1 answers
 
 **Description**:
-Tags: macos, applications, command-line | Score: 508 | Views: 865919 | Answers: 1
+Tags: macos, applications, command-line | Score: 508 | Views: 865921 | Answers: 1
 
 **Solution / Community Answer**:
 To open your current directory in Finder from Terminal, type open .
@@ -2082,7 +3545,7 @@ And so on.
 **Tags / Source**: Tags: macbook-pro, macos, display, dock | apple | 👍 492 | 💬 8 answers
 
 **Description**:
-Tags: macbook-pro, macos, display, dock | Score: 492 | Views: 525764 | Answers: 8
+Tags: macbook-pro, macos, display, dock | Score: 492 | Views: 525765 | Answers: 8
 
 **Solution / Community Answer**:
 You can summon the Dock on a different display by moving the cursor to the bottom of the desired display, and then continuing moving down. It may be possible that this is occurring when you inadvertently perform that action.
@@ -2143,7 +3606,7 @@ To create a symlink to replace a system directory (e.g. if you want to have /Use
 **Tags / Source**: Tags: macos, network, command-line | apple | 👍 451 | 💬 11 answers
 
 **Description**:
-Tags: macos, network, command-line | Score: 451 | Views: 1668068 | Answers: 11
+Tags: macos, network, command-line | Score: 451 | Views: 1668077 | Answers: 11
 
 **Solution / Community Answer**:
 Local IP address
@@ -2182,7 +3645,7 @@ When you run this command, it queries the ns1.google.com DNS server for the TXT 
 **Tags / Source**: Tags: macbook-pro, spotlight, cpu | apple | 👍 450 | 💬 15 answers
 
 **Description**:
-Tags: macbook-pro, spotlight, cpu | Score: 450 | Views: 679863 | Answers: 15
+Tags: macbook-pro, spotlight, cpu | Score: 450 | Views: 679869 | Answers: 15
 
 **Solution / Community Answer**:
 As you know, the mds and mds_stores are Spotlight activities.
@@ -2351,7 +3814,7 @@ NOTE: If you need help in selecting colors to use you can use this online tool c
 **Tags / Source**: Tags: terminal, bash, zsh, macos | apple | 👍 389 | 💬 4 answers
 
 **Description**:
-Tags: terminal, bash, zsh, macos | Score: 389 | Views: 337244 | Answers: 4
+Tags: terminal, bash, zsh, macos | Score: 389 | Views: 337246 | Answers: 4
 
 **Solution / Community Answer**:
 First, some important things:
@@ -2702,7 +4165,7 @@ Now Apple has released the real fix, though this might still be useful. Because 
 **Tags / Source**: Tags: macos, software-recommendation, image-editing | apple | 👍 365 | 💬 19 answers
 
 **Description**:
-Tags: macos, software-recommendation, image-editing | Score: 365 | Views: 884013 | Answers: 19
+Tags: macos, software-recommendation, image-editing | Score: 365 | Views: 884014 | Answers: 19
 
 **Solution / Community Answer**:
 I often have to do this with images of plots of data.  I use the command line tools that come in the Imagemagick package; I think I installed it on my system with MacPorts. You could also choose to install with brew (brew install imagemagick).
@@ -2826,7 +4289,7 @@ it will work a bit better. From the scutil(8) man page:
 **Tags / Source**: Tags: macos, temperature, command-line, monitoring | apple | 👍 324 | 💬 14 answers
 
 **Description**:
-Tags: macos, temperature, command-line, monitoring | Score: 324 | Views: 574587 | Answers: 14
+Tags: macos, temperature, command-line, monitoring | Score: 324 | Views: 574589 | Answers: 14
 
 **Solution / Community Answer**:
 Option #1) you may consider using inbuilt utility powermetrics to get the cpu and gpu temperature and lot more other details.
@@ -2857,7 +4320,7 @@ Result Screen:
 **Tags / Source**: Tags: macos | apple | 👍 323 | 💬 3 answers
 
 **Description**:
-Tags: macos | Score: 323 | Views: 200602 | Answers: 3
+Tags: macos | Score: 323 | Views: 200603 | Answers: 3
 
 **Solution / Community Answer**:
 ⌘ CMD+⇧ SHIFT+. reveals hidden files in Finder and Open/Save dialogs.
@@ -2880,7 +4343,7 @@ Editing hidden files can be dangerous if you don't know what you're doing.
 **Tags / Source**: Tags: macos, finder, file | apple | 👍 321 | 💬 32 answers
 
 **Description**:
-Tags: macos, finder, file | Score: 321 | Views: 609446 | Answers: 32
+Tags: macos, finder, file | Score: 321 | Views: 609448 | Answers: 32
 
 **Solution / Community Answer**:
 You can also do this in Terminal. Go to the directory where you want to create the file, then run the following:
@@ -3034,7 +4497,7 @@ cd ~/Library/Preferences &amp;&amp; sudo find com.apple.finder.plist* -exec rm {
 **Tags / Source**: Tags: macos, homebrew | apple | 👍 279 | 💬 15 answers
 
 **Description**:
-Tags: macos, homebrew | Score: 279 | Views: 651613 | Answers: 15
+Tags: macos, homebrew | Score: 279 | Views: 651616 | Answers: 15
 
 **Solution / Community Answer**:
 Use the following to show the installation path of a package:
@@ -3063,7 +4526,7 @@ From: https://github.com/Homebrew/homebrew/blob/master/Library/Formula/pcre.rb
 **Tags / Source**: Tags: macos, command-line, unix, utilities | apple | 👍 278 | 💬 7 answers
 
 **Description**:
-Tags: macos, command-line, unix, utilities | Score: 278 | Views: 215462 | Answers: 7
+Tags: macos, command-line, unix, utilities | Score: 278 | Views: 215463 | Answers: 7
 
 **Solution / Community Answer**:
 This adds symlinks for GNU utilities with g prefix to /usr/local/bin/:
@@ -3103,7 +4566,7 @@ the "gnuman" directory to your MANPATH from your bashrc as well:
 **Tags / Source**: Tags: macos, file | apple | 👍 275 | 💬 14 answers
 
 **Description**:
-Tags: macos, file | Score: 275 | Views: 394181 | Answers: 14
+Tags: macos, file | Score: 275 | Views: 394183 | Answers: 14
 
 **Solution / Community Answer**:
 You can't avoid them (but see the dot_clean answer by Saeid Zebardast --they can be removed from a directory if that is what you need).  They're created to store file information that would otherwise go into an extended attribute on HFS+ (Apple native) or Unix/UFS volumes; in earlier Mac OS this would be the resource fork.  Finder file operations will create them automatically to store the icon information, plus Time Machine stores some information in them so if you copy a file backed up via TM it will have that information copied as well.
@@ -3120,7 +4583,7 @@ You can't avoid them (but see the dot_clean answer by Saeid Zebardast --they can
 **Tags / Source**: Tags: macos, command-line, terminal, textedit | apple | 👍 273 | 💬 5 answers
 
 **Description**:
-Tags: macos, command-line, terminal, textedit | Score: 273 | Views: 538174 | Answers: 5
+Tags: macos, command-line, terminal, textedit | Score: 273 | Views: 538175 | Answers: 5
 
 **Solution / Community Answer**:
 open -a TextEdit filename should do the trick.
@@ -3140,7 +4603,7 @@ Other relevant options
 **Tags / Source**: Tags: macos, mac, password, sudo, touch-id | apple | 👍 272 | 💬 14 answers
 
 **Description**:
-Tags: macos, mac, password, sudo, touch-id | Score: 272 | Views: 118530 | Answers: 14
+Tags: macos, mac, password, sudo, touch-id | Score: 272 | Views: 118535 | Answers: 14
 
 **Solution / Community Answer**:
 To allow TouchID on your Mac to authenticate you for sudo access instead of a password you need to do the following.
@@ -3238,7 +4701,7 @@ sudo hdiutil compact /Volumes/drive_name/Backups.backupdb/mac_name.sparsebundle
 **Tags / Source**: Tags: macos, unix, root, sip | apple | 👍 265 | 💬 3 answers
 
 **Description**:
-Tags: macos, unix, root, sip | Score: 265 | Views: 186444 | Answers: 3
+Tags: macos, unix, root, sip | Score: 265 | Views: 186445 | Answers: 3
 
 **Solution / Community Answer**:
 First: the name &quot;rootless&quot; is misleading, since there's still a root account, and you can still access it (the official name, &quot;System Integrity Protection&quot;, is more accurate). What it really does is limit the power of the root account, so that even if you become root, you don't have full control over the system. Essentially, the idea is that it's too easy for malware to get root access (e.g. by presenting an auth dialog to the user, which will cause the user to reflexively enter the admin password). SIP adds another layer of protection, which malware can't penetrate even if it gets root. The bad part of this, of course, it that it must also apply to things you're doing intentionally. But the restrictions it places on root aren't that bad; they don't prevent most &quot;normal&quot; system customization.
@@ -3391,7 +4854,7 @@ On macOS, specifies whether the system should search for passphrases in the user
 **Tags / Source**: Tags: macos, high-sierra, spaces | apple | 👍 229 | 💬 21 answers
 
 **Description**:
-Tags: macos, high-sierra, spaces | Score: 229 | Views: 262531 | Answers: 21
+Tags: macos, high-sierra, spaces | Score: 229 | Views: 262533 | Answers: 21
 
 **Solution / Community Answer**:
 Refer to the original page for detailed solutions and community answers.
@@ -3429,7 +4892,7 @@ Both the Command and left Option keys must be pressed on the same side (left or 
 **Tags / Source**: Tags: macos, terminal, command-line, bash | apple | 👍 224 | 💬 6 answers
 
 **Description**:
-Tags: macos, terminal, command-line, bash | Score: 224 | Views: 1264163 | Answers: 6
+Tags: macos, terminal, command-line, bash | Score: 224 | Views: 1264164 | Answers: 6
 
 **Solution / Community Answer**:
 Open Terminal, type in sh /path/to/file and press enter. 
@@ -3469,7 +4932,7 @@ Then from the &quot;File&quot; menu choose &quot;Export Selected Images&quot; (o
 **Tags / Source**: Tags: terminal, command-line, macos, bash | apple | 👍 216 | 💬 5 answers
 
 **Description**:
-Tags: terminal, command-line, macos, bash | Score: 216 | Views: 100043 | Answers: 5
+Tags: terminal, command-line, macos, bash | Score: 216 | Views: 100044 | Answers: 5
 
 **Solution / Community Answer**:
 I found the solution on reddit. The solution is also mentioned in the &quot;How to use a different shell without changing the default&quot; section of the Apple support article mentioned in the bash warning: https://support.apple.com/en-us/HT208050/.
@@ -3507,7 +4970,7 @@ Other emoji have Unicode hex numbers with 5 characters, such as Grinning Face U+
 **Tags / Source**: Tags: macos, usb | apple | 👍 212 | 💬 2 answers
 
 **Description**:
-Tags: macos, usb | Score: 212 | Views: 565190 | Answers: 2
+Tags: macos, usb | Score: 212 | Views: 565191 | Answers: 2
 
 **Solution / Community Answer**:
 In addition to system_profiler SPUSBDataType (suggested by @kjs), you can also use ioreg -p IOUSB:
@@ -3582,7 +5045,7 @@ Menu method: It's not part of the Apple menu system to 'cut' files.  The menu Cu
 **Tags / Source**: Tags: macos, hard-drive, file | apple | 👍 211 | 💬 6 answers
 
 **Description**:
-Tags: macos, hard-drive, file | Score: 211 | Views: 761133 | Answers: 6
+Tags: macos, hard-drive, file | Score: 211 | Views: 761138 | Answers: 6
 
 **Solution / Community Answer**:
 It's generally safe, though a little dangerous depending, to do it but often not worth the effort.
@@ -3605,7 +5068,7 @@ Of course the best way to clear the caches is to install AppleJack and do it wit
 **Tags / Source**: Tags: macos, zsh, environment-variables | apple | 👍 209 | 💬 1 answers
 
 **Description**:
-Tags: macos, zsh, environment-variables | Score: 209 | Views: 274065 | Answers: 1
+Tags: macos, zsh, environment-variables | Score: 209 | Views: 274066 | Answers: 1
 
 **Solution / Community Answer**:
 This is an attempt to write a canonical QA for this issue, as per the Meta post:  Where is the list of canonical questions stored for Ask Different? I expect it to be periodically edited with the goal of becoming a comprehensive information resource.
@@ -3642,6 +5105,1469 @@ This is the order in which these files get read.  Keep in mind that it reads fir
 **Reference**: https://apple.stackexchange.com/questions/388622/zsh-zprofile-zshrc-zlogin-what-goes-where
 
 > 📎 Source: https://apple.stackexchange.com/questions/388622/zsh-zprofile-zshrc-zlogin-what-goes-where
+
+#### 51. Open Finder window from current Terminal location?
+
+**Issue**: Open Finder window from current Terminal location?
+**Tags / Source**: Tags: macos, terminal, finder, path | apple | 👍 207 | 💬 7 answers
+
+**Description**:
+Tags: macos, terminal, finder, path | Score: 207 | Views: 83985 | Answers: 7
+
+**Solution / Community Answer**:
+Typing open . in Terminal will open the current working directory in a Finder window.
+
+**Reference**: https://apple.stackexchange.com/questions/19375/open-finder-window-from-current-terminal-location
+
+> 📎 Source: https://apple.stackexchange.com/questions/19375/open-finder-window-from-current-terminal-location
+
+#### 52. Need a cli to check the sha256 hash of a file
+
+**Issue**: Need a cli to check the sha256 hash of a file
+**Tags / Source**: Tags: macos, command-line, encryption | apple | 👍 205 | 💬 4 answers
+
+**Description**:
+Tags: macos, command-line, encryption | Score: 205 | Views: 151884 | Answers: 4
+
+**Solution / Community Answer**:
+You can use
+
+openssl dgst -sha256 &lt;file&gt;
+
+
+Tested on LibreSSL 2.6.4 on macOS 10.14 (Mojave).
+
+
+
+Prior to Mojave you can use openssl sha -sha256 &lt;file&gt; or openssl sha256 &lt;file&gt;.
+
+To check command line options for the openssl sha command: openssl sha -help.
+
+**Reference**: https://apple.stackexchange.com/questions/230917/need-a-cli-to-check-the-sha256-hash-of-a-file
+
+> 📎 Source: https://apple.stackexchange.com/questions/230917/need-a-cli-to-check-the-sha256-hash-of-a-file
+
+#### 53. How can I make auto-hide/show for the dock faster?
+
+**Issue**: How can I make auto-hide/show for the dock faster?
+**Tags / Source**: Tags: dock, macos | apple | 👍 204 | 💬 12 answers
+
+**Description**:
+Tags: dock, macos | Score: 204 | Views: 253798 | Answers: 12
+
+**Solution / Community Answer**:
+To make the Dock instantly leap back into view when it’s needed, rather than slide, open a Terminal window and type the following:
+defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock
+
+
+I find this useful, but if you’d like the animation for the dock to reappear to last for a split-second, try the following:
+defaults write com.apple.dock autohide-time-modifier -float 0.15; killall Dock
+
+To explain, changing &quot;0.15&quot; with any number can let you tailor things as it represents the time in seconds taken for the dock to reappear fully.
+
+To revert back to the default sliding effect, open a Terminal window and type the following:
+defaults delete com.apple.dock autohide-time-modifier; killall Dock
+
+**Reference**: https://apple.stackexchange.com/questions/33600/how-can-i-make-auto-hide-show-for-the-dock-faster
+
+> 📎 Source: https://apple.stackexchange.com/questions/33600/how-can-i-make-auto-hide-show-for-the-dock-faster
+
+#### 54. How to move files to trash from command line?
+
+**Issue**: How to move files to trash from command line?
+**Tags / Source**: Tags: macos, command-line | apple | 👍 202 | 💬 17 answers
+
+**Description**:
+Tags: macos, command-line | Score: 202 | Views: 111071 | Answers: 17
+
+**Solution / Community Answer**:
+The trash command line tool can be installed via brew install trash or port install trash.
+It allows you to restore trashed files via command line or the Finder.
+
+**Reference**: https://apple.stackexchange.com/questions/50844/how-to-move-files-to-trash-from-command-line
+
+> 📎 Source: https://apple.stackexchange.com/questions/50844/how-to-move-files-to-trash-from-command-line
+
+#### 55. Restarting sound service?
+
+**Issue**: Restarting sound service?
+**Tags / Source**: Tags: macbook-pro, audio | apple | 👍 202 | 💬 8 answers
+
+**Description**:
+Tags: macbook-pro, audio | Score: 202 | Views: 272560 | Answers: 8
+
+**Solution / Community Answer**:
+sudo pkill coreaudiod
+On older OSes:
+You can kill the CoreAudio process by opening Terminal and running:
+sudo kill -9 `ps ax|grep 'coreaudio[a-z]' | awk '{print $1}'`
+
+It will restart automatically after a couple seconds.
+That fixes some problems my aging MBP has been having, where it sometimes fails to detect headphones or decides the speakers aren't connected. No guarantees it will work for every audio problem, but it's worth a shot.
+Source: zakgreant on macosxhints forums.
+
+**Reference**: https://apple.stackexchange.com/questions/16842/restarting-sound-service
+
+> 📎 Source: https://apple.stackexchange.com/questions/16842/restarting-sound-service
+
+#### 56. How do I disable System Integrity Protection (SIP) AKA &quot;rootless&quot; on macOS?
+
+**Issue**: How do I disable System Integrity Protection (SIP) AKA &quot;rootless&quot; on macOS?
+**Tags / Source**: Tags: macos, sip | apple | 👍 197 | 💬 6 answers
+
+**Description**:
+Tags: macos, sip | Score: 197 | Views: 499215 | Answers: 6
+
+**Solution / Community Answer**:
+Note: disabling System Integrity Protection is dangerous, and makes your system more vulnerable to malware.
+As Apple puts it in the developer documentation about SIP:
+
+Warning
+Disable SIP only temporarily to perform necessary tasks, and reenable it as soon as possible. Failure to reenable SIP when you are done testing leaves your computer vulnerable to malicious code.
+
+If you are simply trying to configure system development tools such as vim, python2, ruby and so on, you almost certainly want to be just installing community-maintained versions from Homebrew and configuring those instead.  The system-provided tools may be convenient to bootstrap, but if you require SIP exceptions for your daily workflow you are almost certainly doing things in a way which will break in a future version of the operating system, and may break applications and other system functionality in the meanwhile.
+Valid reasons to disable SIP yourself might be:
+
+if you're doing research on malware yourself in a disposable environment, such as in a macOS virtual machine
+if you are attempting to modify core operating system functionality for deployment in a highly-specialized environment such as a public-facing kiosk
+if you require a legacy kernel extension such as MacFUSE on an M1 mac
+
+Also important beyond the security implications is the fact that anything you do on a mac with SIP disabled will not work on anyone else's mac unless they also disable it first. If you're developing mac apps, then your system becomes less useful as a testbed because you don't know if your code only works because you hacked your system. If you're developing for another platform such as deployment to a web server, then you can't share your development environment setup with other developers on your team without compromising their security as well.
+Here's how to do it if you really need to:
+Apple's documentation covers disabling SIP, About System Integrity Protection on your Mac and Configuring System Integrity Protection.
+An article on lifehacker.com lists these steps:
+
+
+Reboot your Mac into Recovery Mode by restarting your computer and holding down Command+R until the Apple logo appears on your screen.
+Click Utilities &gt; Terminal.
+In the Terminal window, type in csrutil disable and press Enter.
+Restart your Mac.
+
+
+You can verify whether a file or folder is restricted by issuing this ls command using the capital O (and not zero 0) to modify the long listing flag:
+ls -lO /System /usr 
+
+Look for the restricted text to indicate where SIP is enforced.
+By default (=SIP enabled), the following folders are restricted (see Apple Support page):
+/System
+/usr
+/bin
+/sbin
+Apps that are pre-installed with OS X
+
+... and the following folders are free:
+/Applications
+/Library
+/usr/local
+
+**Reference**: https://apple.stackexchange.com/questions/208478/how-do-i-disable-system-integrity-protection-sip-aka-rootless-on-macos
+
+> 📎 Source: https://apple.stackexchange.com/questions/208478/how-do-i-disable-system-integrity-protection-sip-aka-rootless-on-macos
+
+#### 57. Cmd+Tab does not work on hidden or minimized windows
+
+**Issue**: Cmd+Tab does not work on hidden or minimized windows
+**Tags / Source**: Tags: macos, application-switcher | apple | 👍 192 | 💬 17 answers
+
+**Description**:
+Tags: macos, application-switcher | Score: 192 | Views: 144145 | Answers: 17
+
+**Solution / Community Answer**:
+This one is a bit tricky :
+
+press ⌘ Cmd + ⇥ Tab to show your running apps. Keep holding ⌘ Cmd.
+
+press ⇥ Tab until you've selected the app
+
+press the ⌥ Option, and let go of the ⌘ Cmd. 
+( You must release ⌘ Cmd after pressing ⌥ Option ! )
+( You must release ⌘ Cmd before release ⌥ Option ! )
+
+**Reference**: https://apple.stackexchange.com/questions/112350/cmdtab-does-not-work-on-hidden-or-minimized-windows
+
+> 📎 Source: https://apple.stackexchange.com/questions/112350/cmdtab-does-not-work-on-hidden-or-minimized-windows
+
+#### 58. Move through images in a folder with Preview.app
+
+**Issue**: Move through images in a folder with Preview.app
+**Tags / Source**: Tags: macos, preview | apple | 👍 192 | 💬 12 answers
+
+**Description**:
+Tags: macos, preview | Score: 192 | Views: 200585 | Answers: 12
+
+**Solution / Community Answer**:
+If you are just skimming the pictures do this:
+Instead of opening a picture in Preview.app by double-clicking it, press space to preview the picture in Quick Look when selected in Finder.
+
+Quick Look offers a fast, full-size preview of nearly any kind of file without opening the file. You can rotate photos, trim audio and video clips, and use Markup — directly in the Quick Look window.
+https://support.apple.com/en-gb/guide/mac-help/mh14119/mac
+
+This way you can still use the arrow keys to navigate between the pictures.
+
+↑ and ↓ in list view
+↑,↓,← and → in icon view
+
+You can still open the picture in Preview.app when needed (top right corner).
+
+**Reference**: https://apple.stackexchange.com/questions/37914/move-through-images-in-a-folder-with-preview-app
+
+> 📎 Source: https://apple.stackexchange.com/questions/37914/move-through-images-in-a-folder-with-preview-app
+
+#### 59. How to turn off all animations on OS X
+
+**Issue**: How to turn off all animations on OS X
+**Tags / Source**: Tags: macos | apple | 👍 192 | 💬 6 answers
+
+**Description**:
+Tags: macos | Score: 192 | Views: 194509 | Answers: 6
+
+**Solution / Community Answer**:
+I have only enabled the first four of these, but here are all hidden preferences for disabling animations I have found.
+
+# opening and closing windows and popovers
+defaults write -g NSAutomaticWindowAnimationsEnabled -bool false
+
+# smooth scrolling
+defaults write -g NSScrollAnimationEnabled -bool false
+
+# showing and hiding sheets, resizing preference windows, zooming windows
+# float 0 doesn't work
+defaults write -g NSWindowResizeTime -float 0.001
+
+# opening and closing Quick Look windows
+defaults write -g QLPanelAnimationDuration -float 0
+
+# rubberband scrolling (doesn't affect web views)
+defaults write -g NSScrollViewRubberbanding -bool false
+
+# resizing windows before and after showing the version browser
+# also disabled by NSWindowResizeTime -float 0.001
+defaults write -g NSDocumentRevisionsWindowTransformAnimation -bool false
+
+# showing a toolbar or menu bar in full screen
+defaults write -g NSToolbarFullScreenAnimationDuration -float 0
+
+# scrolling column views
+defaults write -g NSBrowserColumnAnimationSpeedMultiplier -float 0
+
+# showing the Dock
+defaults write com.apple.dock autohide-time-modifier -float 0
+defaults write com.apple.dock autohide-delay -float 0
+
+# showing and hiding Mission Control, command+numbers
+defaults write com.apple.dock expose-animation-duration -float 0
+
+# showing and hiding Launchpad
+defaults write com.apple.dock springboard-show-duration -float 0
+defaults write com.apple.dock springboard-hide-duration -float 0
+
+# changing pages in Launchpad
+defaults write com.apple.dock springboard-page-duration -float 0
+
+# at least AnimateInfoPanes
+defaults write com.apple.finder DisableAllAnimations -bool true
+
+# sending messages and opening windows for replies
+defaults write com.apple.Mail DisableSendAnimations -bool true
+defaults write com.apple.Mail DisableReplyAnimations -bool true
+
+**Reference**: https://apple.stackexchange.com/questions/14001/how-to-turn-off-all-animations-on-os-x
+
+> 📎 Source: https://apple.stackexchange.com/questions/14001/how-to-turn-off-all-animations-on-os-x
+
+#### 60. Homebrew: Your CLT does not support macOS 11.0
+
+**Issue**: Homebrew: Your CLT does not support macOS 11.0
+**Tags / Source**: Tags: command-line, homebrew, macos | apple | 👍 191 | 💬 5 answers
+
+**Description**:
+Tags: command-line, homebrew, macos | Score: 191 | Views: 121880 | Answers: 5
+
+**Solution / Community Answer**:
+Simplest solution that worked when upgrading to Big Sur. A clean install may not require the solution below. There is inconsistency with the way CLT is upgraded to 12.2.
+sudo rm -rf /Library/Developer/CommandLineTools
+sudo xcode-select --install
+
+Worked with the following versions (post-install)
+❯ /usr/bin/xcodebuild -version
+Xcode 12.2
+Build version 12B45b
+
+❯ pkgutil --pkg-info=com.apple.pkg.CLTools_Executables
+package-id: com.apple.pkg.CLTools_Executables
+version: 12.2.0.0.1.1603499215
+volume: /
+location: /
+install-time: 1605632122
+groups: com.apple.FindSystemFiles.pkg-group
+
+Big Sur
+11.0.1 (20B29)
+
+**Reference**: https://apple.stackexchange.com/questions/401899/homebrew-your-clt-does-not-support-macos-11-0
+
+> 📎 Source: https://apple.stackexchange.com/questions/401899/homebrew-your-clt-does-not-support-macos-11-0
+
+#### 61. Is there a quick way to lock my Mac?
+
+**Issue**: Is there a quick way to lock my Mac?
+**Tags / Source**: Tags: macos, keyboard, security, screen-lock | apple | 👍 186 | 💬 26 answers
+
+**Description**:
+Tags: macos, keyboard, security, screen-lock | Score: 186 | Views: 63048 | Answers: 26
+
+**Solution / Community Answer**:
+On macOS High Sierra, there is a standard key sequence and Apple menu item to lock your screen. 
+
+
+Control-Command-Q or ^+⌘+Q
+
+
+
+
+
+
+For older OS, ⇧+⌃+⏏ puts the display (only the display, not the whole computer) to sleep and will then prompt you for a password if you have enabled Require password [amount of time] after sleep or screen saver begins under System Preferences &gt; Security.
+
+If your Mac does not have an &#x23CF; (eject) key, you can use ⇧+⌃+⌽ (power).
+
+**Reference**: https://apple.stackexchange.com/questions/64/is-there-a-quick-way-to-lock-my-mac
+
+> 📎 Source: https://apple.stackexchange.com/questions/64/is-there-a-quick-way-to-lock-my-mac
+
+#### 62. How to fix brew after OSX upgrade to Yosemite?
+
+**Issue**: How to fix brew after OSX upgrade to Yosemite?
+**Tags / Source**: Tags: macos, homebrew | apple | 👍 183 | 💬 5 answers
+
+**Description**:
+Tags: macos, homebrew | Score: 183 | Views: 105182 | Answers: 5
+
+**Solution / Community Answer**:
+I decided to look this up and found that there is an issue. The issue is closed but it is not possible to simply run brew update because you will still get the same error.
+
+So here is what you need to do:
+
+cd /usr/local/Library
+git pull origin master
+
+
+In case you have changes in the directory (/usr/local/Library), the git pull will throw an error. In that case, you'll have to fetch the master branch and set it forcibly as master:
+
+git fetch --all
+git reset --hard origin/master
+
+
+This will upgrade your homebrew and you can use brew again.
+
+If you installed Homebrew as a non-root user, you'll need to cd to /Users/yourusername/homebrew/Library instead of /usr/local/Library.
+
+**Reference**: https://apple.stackexchange.com/questions/153790/how-to-fix-brew-after-osx-upgrade-to-yosemite
+
+> 📎 Source: https://apple.stackexchange.com/questions/153790/how-to-fix-brew-after-osx-upgrade-to-yosemite
+
+#### 63. Is there a `lsblk` equivalent for macOS that lists all attached storage devices?
+
+**Issue**: Is there a `lsblk` equivalent for macOS that lists all attached storage devices?
+**Tags / Source**: Tags: macos, command-line, hardware, storage | apple | 👍 183 | 💬 6 answers
+
+**Description**:
+Tags: macos, command-line, hardware, storage | Score: 183 | Views: 480009 | Answers: 6
+
+**Solution / Community Answer**:
+diskutil list will list all disks with their identifiers, even if unmounted.
+
+/dev/disk0
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *251.0 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS Mac SSD                 150.0 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+   4:       Microsoft Basic Data Windows 8               100.1 GB   disk0s4
+/dev/disk1
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *500.1 GB   disk1
+   1:                  Apple_HFS George Garside          300.2 GB   disk1s1
+   2:               Windows_NTFS GRGARSIDE               199.9 GB   disk1s2
+
+
+
+
+For mounted disks only…
+
+To find the raw device name (i.e. /dev/disk0s1) you can run df.
+
+You can limit the results to locally-mounted filesystems, use df -Hl.
+This results in a list of partitions and their raw device names, as shown below:
+
+Filesystem     Size   Used  Avail Capacity  iused    ifree %iused  Mounted on
+/dev/disk0s2   150G   130G    20G    87% 31761475  4859615   87%   /
+/dev/disk0s4   100G    83G    17G    83%   184667 17015601    1%   /Volumes/Windows 8
+/dev/disk1s1   300G   282G    19G    94% 68771109  4529660   94%   /Volumes/George Garside
+/dev/disk1s2   200G   172G    27G    87%   144125 26731127    1%   /Volumes/GRGARSIDE
+
+**Reference**: https://apple.stackexchange.com/questions/107953/is-there-a-lsblk-equivalent-for-macos-that-lists-all-attached-storage-devices
+
+> 📎 Source: https://apple.stackexchange.com/questions/107953/is-there-a-lsblk-equivalent-for-macos-that-lists-all-attached-storage-devices
+
+#### 64. Which OS X Applications do you find indispensable?
+
+**Issue**: Which OS X Applications do you find indispensable?
+**Tags / Source**: Tags: macos, software-recommendation | apple | 👍 180 | 💬 239 answers
+
+**Description**:
+Tags: macos, software-recommendation | Score: 180 | Views: 49806 | Answers: 239
+
+**Solution / Community Answer**:
+Dropbox
+Put your files into your Dropbox on one computer, and they'll be instantly available on any of your other computers that you've installed Dropbox on.
+
+**Reference**: https://apple.stackexchange.com/questions/82/which-os-x-applications-do-you-find-indispensable
+
+> 📎 Source: https://apple.stackexchange.com/questions/82/which-os-x-applications-do-you-find-indispensable
+
+#### 65. What tiny thing in Lion makes you smile or has caught you off guard?
+
+**Issue**: What tiny thing in Lion makes you smile or has caught you off guard?
+**Tags / Source**: Tags: macos | apple | 👍 180 | 💬 107 answers
+
+**Description**:
+Tags: macos | Score: 180 | Views: 56548 | Answers: 107
+
+**Solution / Community Answer**:
+Using the FaceTime camera to add signatures to PDFs in Preview. 
+
+Click the annotations button in the toolbar and use the drop down menu next to the signature icon to grab your signature from a piece of paper you have written it on. Then just click and drag in the document to place it. Haven't really needed it yet, but it's implemented so nicely that I did it just for fun.
+
+**Reference**: https://apple.stackexchange.com/questions/17759/what-tiny-thing-in-lion-makes-you-smile-or-has-caught-you-off-guard
+
+> 📎 Source: https://apple.stackexchange.com/questions/17759/what-tiny-thing-in-lion-makes-you-smile-or-has-caught-you-off-guard
+
+#### 66. Add images to existing PDF with Preview
+
+**Issue**: Add images to existing PDF with Preview
+**Tags / Source**: Tags: macos, photos, pdf, preview | apple | 👍 180 | 💬 9 answers
+
+**Description**:
+Tags: macos, photos, pdf, preview | Score: 180 | Views: 327358 | Answers: 9
+
+**Solution / Community Answer**:
+Do as follows:
+
+Open the image you want to paste in Preview.app
+Select All (Command-A)
+Copy (Command-C)
+Paste (Command-V)
+
+Now you have a copy of your image pasted above your old image. This is apparently meaningless, but the new copy is not just an image, but an object.
+
+Click on the new image (round blue corners appear, no marching ants)
+Copy (Command-C)
+Paste on your PDF document. The image is an object, moveable and resizable. The original PDF is still a PDF, editable and all.
+
+**Reference**: https://apple.stackexchange.com/questions/378888/add-images-to-existing-pdf-with-preview
+
+> 📎 Source: https://apple.stackexchange.com/questions/378888/add-images-to-existing-pdf-with-preview
+
+#### 67. How to arrange two windows easily to left and right side?
+
+**Issue**: How to arrange two windows easily to left and right side?
+**Tags / Source**: Tags: macos, mac, windows, window-manager | apple | 👍 180 | 💬 21 answers
+
+**Description**:
+Tags: macos, mac, windows, window-manager | Score: 180 | Views: 423807 | Answers: 21
+
+**Solution / Community Answer**:
+Original Answer (Update below):
+Apple has provided this functionality as part of its OS X El Capitan. Here are the steps:
+
+Click and hold on the green maximize button of an active window (for example, a Safari window);
+When the window shrinks slightly and the background becomes highlighted, you’re about to enter Split View, while continuing to hold the green button drag the active window into either the left or right panel to place it full screen there;
+As soon as you place the first window into the Split View panel, the other side of the screen turns into a mini-Expose much like Mission Control, simply click the window tile you want to open into Split View for the other side here to immediately send it side by side into Split Full Screen Mode.
+
+The answer has been taken from osxdaily.com website's page.
+
+Update:
+Many people commented that they wish there was a shortcut for it. I figured a way to create a shortcut for that from another answer on AskDifferent which I cannot find the link to. This is how:
+
+Open System Preferences;
+Go to 'Keyboard' settings;
+Go to 'Shortcuts' tab;
+In the left pane, select 'App Shortcuts';
+
+In this section you can add app specific shortcuts, as well as shortcuts that you want available for all apps.
+
+
+Click on the '+' sign below right pane to add a new shortcut;
+A new drop down will open. In this drop-down:
+
+In the 'Application:' keep it for 'All Applications';
+In the 'Menu Title:' type 'Tile Window to Right of Screen'. Better that you copy-paste it because it has to match letter by letter;
+In the 'Keyboard Shortcut:' press the keys you want to use as shortcut for tiling an application window to the right. On my machine, I've set† it to ⎇⌘→.
+Repeat the same for tiling to left by putting 'Tile Window to Left of Screen' in the 'Menu Title:' and adding your desired keys for left-tiling shortcut.
+
+
+
+You should now have the shortcuts available for any application window that supports tiling. Now, you can press your shortcut keys to tile the first window to left or right. Then the other side will turn into a mini-Expose from which you can select the second window using your mouse.
+
+
+†I have a dual monitor setup. So other than the one listed above, I have also set the shortcut to move a window to another monitor. The 'Menu Title's are: 
+1. &quot;Move to Built-in Retina Display&quot;, with shortcut ⌃⎇⌘→;
+2. &quot;Move to LG UltraFine&quot;, with shortcut ⌃⎇⌘←;
+To remember the shortcuts, notice that all they keys, are next to each other. All you do is use arrow keys differently. Further, moving to another monitor has an extra key in the shortcut, while putting the windows in split view is on the same monitor, therefore it has one less key.
+Hint:
+The shortcut name depends on the MacOS system language, e.g.:
+english:
+'Tile Window to Left of Screen'
+german : 'Fenster auf der linken Bildschirmseite anordnen'
+or a different title: 'Fenster auf die linke Seite des Bildschirms bewegen'
+Phrases for left / right can be found on the green &quot;full screen&quot; button:
+
+**Reference**: https://apple.stackexchange.com/questions/50330/how-to-arrange-two-windows-easily-to-left-and-right-side
+
+> 📎 Source: https://apple.stackexchange.com/questions/50330/how-to-arrange-two-windows-easily-to-left-and-right-side
+
+#### 68. What is the `installd` process, and why is it eating my CPU?
+
+**Issue**: What is the `installd` process, and why is it eating my CPU?
+**Tags / Source**: Tags: activity-monitor, macos | apple | 👍 179 | 💬 7 answers
+
+**Description**:
+Tags: activity-monitor, macos | Score: 179 | Views: 243455 | Answers: 7
+
+**Solution / Community Answer**:
+This is a daemon which is part of PackageKit framework and it's usually running as a background process for the "Software Update" GUI application.
+For example, if you open the Software Update application and check for updates, take a look at the Activity Monitor--you'll see the "installd" process doing a bunch of work.
+
+The reason it pegs your CPU is because it must compile the current list of software installed on your computer, and compare with the current version list received from Apple's servers.
+
+You can set the frequency of Software Update checks in System Preferences and Software Update.
+
+The default settings are both to "Check for updates" and "Download updates automatically".
+You may adjust either setting, but I would not recommend turning it off altogether.
+
+There's nothing wicked about this process - it's just set to download updates.
+
+You can solve your CPU problem by lowering the priority of the process or by just killing the process in Activity Monitor.
+
+
+
+Technical information:
+
+The location in Lion OSX is in:
+/System/Library/PrivateFrameworks/PackageKit.framework/Resources/installd
+
+(if you have locate configured correctly, run: locate installd to find the right location).
+
+**Reference**: https://apple.stackexchange.com/questions/87109/what-is-the-installd-process-and-why-is-it-eating-my-cpu
+
+> 📎 Source: https://apple.stackexchange.com/questions/87109/what-is-the-installd-process-and-why-is-it-eating-my-cpu
+
+#### 69. What is this qemu-system-aarch64 process and why is it using almost 3 GB of RAM on my M1 Mac
+
+**Issue**: What is this qemu-system-aarch64 process and why is it using almost 3 GB of RAM on my M1 Mac
+**Tags / Source**: Tags: mac-mini, macos, activity-monitor, apple-silicon | apple | 👍 178 | 💬 3 answers
+
+**Description**:
+Tags: mac-mini, macos, activity-monitor, apple-silicon | Score: 178 | Views: 155253 | Answers: 3
+
+**Solution / Community Answer**:
+This process belongs to an application you've installed yourself.
+To find out more, select the process in Activity Monitor and press Cmd-I to open the Process Information window. You should see the name of the process which started it at the top, and the path to the binary itself near the top of the 3rd tab (open files and ports).
+
+**Reference**: https://apple.stackexchange.com/questions/420445/what-is-this-qemu-system-aarch64-process-and-why-is-it-using-almost-3-gb-of-ram
+
+> 📎 Source: https://apple.stackexchange.com/questions/420445/what-is-this-qemu-system-aarch64-process-and-why-is-it-using-almost-3-gb-of-ram
+
+#### 70. How can I mount an ext4 file system on OS X?
+
+**Issue**: How can I mount an ext4 file system on OS X?
+**Tags / Source**: Tags: macos, unix | apple | 👍 178 | 💬 11 answers
+
+**Description**:
+Tags: macos, unix | Score: 178 | Views: 372061 | Answers: 11
+
+**Solution / Community Answer**:
+The answer depends on you willingness to invest in commercial software:
+If you don’t mind spending some money on a commercial product, Paragon’s extFS for Mac will give you read and write access to ext2 / ext3 / ext4 file systems. The current version supports all versions of OS X / macOS from 10.10 upwards.
+If you are looking for a free solution, you can setup a Linux virtual machine, mount your volume(s) there and share it / them via Samba or (S)FTP. This post has some details on how to achieve this using VirtualBox, a free virtual machine application. Note this is not exactly a lightweight solution, even if using a prebuilt VirtualBox VM will spare you installing and configuring a Linux distro from scratch.
+
+**Reference**: https://apple.stackexchange.com/questions/29842/how-can-i-mount-an-ext4-file-system-on-os-x
+
+> 📎 Source: https://apple.stackexchange.com/questions/29842/how-can-i-mount-an-ext4-file-system-on-os-x
+
+#### 71. Convert .mov to .mp4
+
+**Issue**: Convert .mov to .mp4
+**Tags / Source**: Tags: macos, video, imovie, mp4, mov | apple | 👍 177 | 💬 6 answers
+
+**Description**:
+Tags: macos, video, imovie, mp4, mov | Score: 177 | Views: 134269 | Answers: 6
+
+**Solution / Community Answer**:
+I personally find using ffmpeg shell program (available through Brew using brew install ffmpeg) the most convenient way to do the conversions.
+
+It includes tons of options for nearly any single thing you could possibly do with a movie.
+
+In your case though, for a conversion, you can simply type:
+
+ffmpeg -i /path/to/input/file /path/to/output.mp4
+
+The .mp4 extension in the output path serves as a cue for the program to do the proper conversion -- no more options are necessary.
+
+**Reference**: https://apple.stackexchange.com/questions/232910/convert-mov-to-mp4
+
+> 📎 Source: https://apple.stackexchange.com/questions/232910/convert-mov-to-mp4
+
+#### 72. How can I prevent an SSH session from hanging in OS X Terminal?
+
+**Issue**: How can I prevent an SSH session from hanging in OS X Terminal?
+**Tags / Source**: Tags: macos, terminal, wifi, ssh | apple | 👍 175 | 💬 7 answers
+
+**Description**:
+Tags: macos, terminal, wifi, ssh | Score: 175 | Views: 189533 | Answers: 7
+
+**Solution / Community Answer**:
+For keeping the connection alive, you can check in /etc/ssh/ssh_config the line where it says ServerAliveInterval, that tells you how often (in seconds) your computer is gonna send a null packet to keep the connection alive. If you have a 0 in there that indicates that your computer is not trying to keep the connection alive (it is disabled), otherwise it tells you how often (in seconds) it is sending the aforementioned packet. Try putting in 120 or 240, if it is still killing your connection, you can go lower, maybe to 5, if with that number it doesn't happen, maybe it is your router who is dumping the connection to free memory.
+
+For killing it when it gets hang up, you can use the ssh escape character:
+
+~.
+
+
+That is, press the tilde and then the period, if it doesn't work, press Enter before you press that, that will kill the connection immediately.
+
+**Reference**: https://apple.stackexchange.com/questions/36690/how-can-i-prevent-an-ssh-session-from-hanging-in-os-x-terminal
+
+> 📎 Source: https://apple.stackexchange.com/questions/36690/how-can-i-prevent-an-ssh-session-from-hanging-in-os-x-terminal
+
+#### 73. OS X computer name not matching what shows on terminal
+
+**Issue**: OS X computer name not matching what shows on terminal
+**Tags / Source**: Tags: macos, xcode | apple | 👍 174 | 💬 12 answers
+
+**Description**:
+Tags: macos, xcode | Score: 174 | Views: 187601 | Answers: 12
+
+**Solution / Community Answer**:
+It's perfectly normal for this to occur; when you login Terminal remotely bash does a reverse DNS lookup. It will only be the same if the hostname is not specified on the network you're connecting from and there is no reply from the DHCP server, or the reverse lookup against the remote DNS server fails to resolve.
+You can easily over-ride the default setting by using this command in Terminal:
+sudo scutil --set HostName archos
+
+You can check it by using:
+nslookup nn.nn.nn.nn
+
+( or )
+host nn.nn.nn.nn
+
+(where nn signifies your Mac's ip address)
+
+**Reference**: https://apple.stackexchange.com/questions/30552/os-x-computer-name-not-matching-what-shows-on-terminal
+
+> 📎 Source: https://apple.stackexchange.com/questions/30552/os-x-computer-name-not-matching-what-shows-on-terminal
+
+#### 74. What happens if you plug more than one charger in the new MacBook Pro (2016)?
+
+**Issue**: What happens if you plug more than one charger in the new MacBook Pro (2016)?
+**Tags / Source**: Tags: macbook-pro, usb, charger, charging | apple | 👍 173 | 💬 3 answers
+
+**Description**:
+Tags: macbook-pro, usb, charger, charging | Score: 173 | Views: 163463 | Answers: 3
+
+**Solution / Community Answer**:
+The system will choose the power source that provides the most power, and it will not draw power from the others.
+Apple has released a support article (and another one) describing this:
+
+
+Your MacBook Pro draws power from only one power supply, even if more
+than one is attached—so using multiple power supplies will not speed
+up charging.
+
+If you connect multiple power supplies to your MacBook
+Pro, the one that provides the most power will be used, regardless of
+the order in which you connected them.
+
+You should not connect any
+power supply that exceeds 100W, as it might damage your Mac.
+
+**Reference**: https://apple.stackexchange.com/questions/259744/what-happens-if-you-plug-more-than-one-charger-in-the-new-macbook-pro-2016
+
+> 📎 Source: https://apple.stackexchange.com/questions/259744/what-happens-if-you-plug-more-than-one-charger-in-the-new-macbook-pro-2016
+
+#### 75. How to simulate slow internet connections on the mac
+
+**Issue**: How to simulate slow internet connections on the mac
+**Tags / Source**: Tags: macos, mac, network, performance, internet | apple | 👍 172 | 💬 10 answers
+
+**Description**:
+Tags: macos, mac, network, performance, internet | Score: 172 | Views: 179944 | Answers: 10
+
+**Solution / Community Answer**:
+Apple’s official tool to slow down the network connections on you Mac for testing purposes is Network Link Conditioner
+
+Additional Tools for Xcode [version].
+
+Additionally, iOS has similar function accessible from within Xcode and iOS 6 or later.
+
+Older versions of Xcode before version 4.3.2 embedded a copy of this tool. This SO thread documents some history of the tool in a similar manner to the iOS simulators and developer documentation.
+There are 11 built in profiles from a Lossy Edge network with 400ms delay to a cable modem. If you need other limits, you can create custom profiles with your own settings or you can also use ipfw yourself as described in Craig Hockenberry's article slow ride, make it easy It also mentions the Speed Limit panel by Mike Schrag that is a smaller download than Xcode, but has fewer options than Apple's tool.
+It slows down the entire network stack, so you can't throttle on a per app basis without doing things like install lion in a virtual machine and set that VM with a throttled stack.
+
+**Reference**: https://apple.stackexchange.com/questions/24066/how-to-simulate-slow-internet-connections-on-the-mac
+
+> 📎 Source: https://apple.stackexchange.com/questions/24066/how-to-simulate-slow-internet-connections-on-the-mac
+
+#### 76. Using The Terminal Command to Shutdown, Restart and Sleep My Mac?
+
+**Issue**: Using The Terminal Command to Shutdown, Restart and Sleep My Mac?
+**Tags / Source**: Tags: macos, terminal, sleep-wake, shutdown, restart | apple | 👍 172 | 💬 4 answers
+
+**Description**:
+Tags: macos, terminal, sleep-wake, shutdown, restart | Score: 172 | Views: 551481 | Answers: 4
+
+**Solution / Community Answer**:
+The command you are after is shutdown.
+This  informs all users that the machine is going to be shutdown and tells all apps to close files etc.
+The command takes a parameter -h, -r or -s to shut down, restart or sleep the Mac.
+The command has to be run as root so you need to use sudo.
+e.g. to reboot the machine immediately
+sudo shutdown -r now
+
+e.g. to shutdown the machine in 60 minutes
+sudo shutdown -h +60
+
+From comments there are two things to be addressed
+How shutdown works is by sending a sigterm to all processes which should then deal with that e.g. save open files etc. If they don't exit then they will get sent a SIGKILL which forces them to die with no chance to respond. The signals are not sent via the normal key message queue so Apps have to deal with this separately to the code that gets called from quit on the menu. A good app should call common code from both.
+This other answer shows how to shutdown as if you hit the menu options. But note that apps can cancel this shutdown
+
+**Reference**: https://apple.stackexchange.com/questions/103571/using-the-terminal-command-to-shutdown-restart-and-sleep-my-mac
+
+> 📎 Source: https://apple.stackexchange.com/questions/103571/using-the-terminal-command-to-shutdown-restart-and-sleep-my-mac
+
+#### 77. How to get the chrome tabs to always show when in full screen mode?
+
+**Issue**: How to get the chrome tabs to always show when in full screen mode?
+**Tags / Source**: Tags: macos, google-chrome, fullscreen, tabs | apple | 👍 170 | 💬 9 answers
+
+**Description**:
+Tags: macos, google-chrome, fullscreen, tabs | Score: 170 | Views: 357321 | Answers: 9
+
+**Solution / Community Answer**:
+With latest version of Chrome, there is the option to show the Toolbar (which includes tabs) in the View menu.
+
+**Reference**: https://apple.stackexchange.com/questions/94737/how-to-get-the-chrome-tabs-to-always-show-when-in-full-screen-mode
+
+> 📎 Source: https://apple.stackexchange.com/questions/94737/how-to-get-the-chrome-tabs-to-always-show-when-in-full-screen-mode
+
+#### 78. Task Switcher moves to non-primary display on Mavericks-Catalina
+
+**Issue**: Task Switcher moves to non-primary display on Mavericks-Catalina
+**Tags / Source**: Tags: macos, display, application-switcher | apple | 👍 170 | 💬 5 answers
+
+**Description**:
+Tags: macos, display, application-switcher | Score: 170 | Views: 46640 | Answers: 5
+
+**Solution / Community Answer**:
+I answered a similar question here - cmd-tab behavior on Mavericks with multiple displays
+
+The Task Switcher does follow the Dock.  If the Dock is on screen 1, the Task Switcher will appear on screen 1.  If the Dock is on screen 3, the Task Switcher will appear on screen 3.  Etc.
+
+To make your Dock appear on a screen you can use a couple of methods.
+
+Method 1 - Move your mouse to the bottom of the desired display.  Don't stop once you reach the bottom of the display though, try to move it further down, as if you're pushing down on the bottom of the display with your cursor.  This action tells the Dock to move to this display.  This is temporary however, meaning the Dock will stay on this display until you perform this action on another display or reboot your Mac.
+
+Method 2 - This will change the default starting point for your Dock.  In System Preferences > Displays > Arrangement you can drag the menu bar from one display to another in this windows display icons.  See the attached picture for reference.  This alters the default preference to always show the Dock on the desired display, the one you drag the menu bar to in this preference pane, when you boot and/or login to your user account.  You can still use method 1 to temporarily change the Dock's location but upon a reboot it will return to the display specified here.
+
+**Reference**: https://apple.stackexchange.com/questions/107419/task-switcher-moves-to-non-primary-display-on-mavericks-catalina
+
+> 📎 Source: https://apple.stackexchange.com/questions/107419/task-switcher-moves-to-non-primary-display-on-mavericks-catalina
+
+#### 79. WindowServer high CPU on Yosemite
+
+**Issue**: WindowServer high CPU on Yosemite
+**Tags / Source**: Tags: macos, performance | apple | 👍 170 | 💬 11 answers
+
+**Description**:
+Tags: macos, performance | Score: 170 | Views: 188761 | Answers: 11
+
+**Solution / Community Answer**:
+I had a similar issue with high cpu usage in WindowServer which I managed to get back to something more normal by removing any items in my menu bar that were making high frequency drawing updates. 
+
+In my case it was the Network Monitor from Little Snitch that seemed to be the biggest culprit.
+
+**Reference**: https://apple.stackexchange.com/questions/153397/windowserver-high-cpu-on-yosemite
+
+> 📎 Source: https://apple.stackexchange.com/questions/153397/windowserver-high-cpu-on-yosemite
+
+#### 80. Keyboard shortcut to switch focus between multiple displays on OS X 10.9+
+
+**Issue**: Keyboard shortcut to switch focus between multiple displays on OS X 10.9+
+**Tags / Source**: Tags: keyboard, display, macos | apple | 👍 170 | 💬 7 answers
+
+**Description**:
+Tags: keyboard, display, macos | Score: 170 | Views: 373483 | Answers: 7
+
+**Solution / Community Answer**:
+Refer to the original page for detailed solutions and community answers.
+
+**Reference**: https://apple.stackexchange.com/questions/106559/keyboard-shortcut-to-switch-focus-between-multiple-displays-on-os-x-10-9
+
+> 📎 Source: https://apple.stackexchange.com/questions/106559/keyboard-shortcut-to-switch-focus-between-multiple-displays-on-os-x-10-9
+
+#### 81. How can I install .pkg with a shell on macOS?
+
+**Issue**: How can I install .pkg with a shell on macOS?
+**Tags / Source**: Tags: macos, command-line, install, pkg | apple | 👍 166 | 💬 3 answers
+
+**Description**:
+Tags: macos, command-line, install, pkg | Score: 166 | Views: 483177 | Answers: 3
+
+**Solution / Community Answer**:
+/usr/sbin/installer
+
+The installer command is used to install Mac OS X installer packages to a specified domain or volume.  The
+installer command installs a single package per invocation, which is specified with the -package parameter ( -pkg
+is accepted as a synonym).  It may be either a single package or a metapackage.  In the case of the metapackage,
+the packages which are part of the default install will be installed unless disqualified by a package's check
+tool(s).
+
+See man installer for the full functionality. Often
+sudo installer -pkg /path/to/package.pkg -target /
+
+is all that's needed. The target is a &quot;device&quot; (see the man page for details or run installer -dominfo). Here / is the main drive, it also accepts devices like &quot;/Volumes/Macintosh HD&quot;, or /dev/disk0.
+
+**Reference**: https://apple.stackexchange.com/questions/72226/how-can-i-install-pkg-with-a-shell-on-macos
+
+> 📎 Source: https://apple.stackexchange.com/questions/72226/how-can-i-install-pkg-with-a-shell-on-macos
+
+#### 82. What directory comparison tools can I use on OS X?
+
+**Issue**: What directory comparison tools can I use on OS X?
+**Tags / Source**: Tags: macos, command-line | apple | 👍 164 | 💬 17 answers
+
+**Description**:
+Tags: macos, command-line | Score: 164 | Views: 196307 | Answers: 17
+
+**Solution / Community Answer**:
+FileMerge (free), shipped with Xcode, offers a directory view.
+A command line version is available through the Terminal application opendiff.
+
+Here's how you can compare two directories with FileMerge:
+
+
+⌘+space, type in "FileMerge" and open it.
+Click the "left" button and choose the folder you would like to move items FROM. (The "old" folder)
+Click the "right" button and choose the folder you would like to move items TO. ("new" folder) and click "Compare" button
+In the right panel, choose to exclude: "identical" and "Changed right". This way you will only see files which are missing in the "new" folder and ignore files your may have added in the "new" folder.
+Move files manually in Finder or let FileMerge do it, by choosing an option in the "Merge" dropdown in the right panel.
+
+**Reference**: https://apple.stackexchange.com/questions/10252/what-directory-comparison-tools-can-i-use-on-os-x
+
+> 📎 Source: https://apple.stackexchange.com/questions/10252/what-directory-comparison-tools-can-i-use-on-os-x
+
+#### 83. Any nice, stable ways to keep a window &#39;Always on top&#39; on the Mac?
+
+**Issue**: Any nice, stable ways to keep a window &#39;Always on top&#39; on the Mac?
+**Tags / Source**: Tags: macos, window-manager | apple | 👍 163 | 💬 13 answers
+
+**Description**:
+Tags: macos, window-manager | Score: 163 | Views: 276780 | Answers: 13
+
+**Solution / Community Answer**:
+Refer to the original page for detailed solutions and community answers.
+
+**Reference**: https://apple.stackexchange.com/questions/219116/any-nice-stable-ways-to-keep-a-window-always-on-top-on-the-mac
+
+> 📎 Source: https://apple.stackexchange.com/questions/219116/any-nice-stable-ways-to-keep-a-window-always-on-top-on-the-mac
+
+#### 84. Change location of macOS Notification Center alerts?
+
+**Issue**: Change location of macOS Notification Center alerts?
+**Tags / Source**: Tags: macos, notifications | apple | 👍 159 | 💬 10 answers
+
+**Description**:
+Tags: macos, notifications | Score: 159 | Views: 89318 | Answers: 10
+
+**Solution / Community Answer**:
+Unfortunately, you can't change the screen position of the Notification Center Alerts and Banners. This is a huge gripe of mine as well, and I highly encourage you to complain about this issue to Apple here:
+http://www.apple.com/feedback/macos.html
+
+Hopefully they will one day change this. I also have not been able to find or formulate any hacks.
+
+I, too, am annoyed by it covering up controls in my modeling applications, tabs in my browser, etc.
+
+You can move the Notification Center to another screen, however your entire menu bar goes with it. When you have more than one monitor active, open up System Preferences > Displays > Arrangement. Click and drag the white bar inside one of the squares representing your current primary monitor and drag it to another monitor.
+
+For notifications that don't need immediate attention, consider changing the alert style from Alerts to Banners. Banners are automatically dismissed into the notification center where you can find them later.
+
+Good luck, and keep spreading the word that we need to tell Apple to make this experience better.
+
+**Reference**: https://apple.stackexchange.com/questions/71989/change-location-of-macos-notification-center-alerts
+
+> 📎 Source: https://apple.stackexchange.com/questions/71989/change-location-of-macos-notification-center-alerts
+
+#### 85. How to stop OS X from writing Spotlight and Trash files to memory cards and USB sticks?
+
+**Issue**: How to stop OS X from writing Spotlight and Trash files to memory cards and USB sticks?
+**Tags / Source**: Tags: macos, photos, usb, spotlight, trash | apple | 👍 158 | 💬 23 answers
+
+**Description**:
+Tags: macos, photos, usb, spotlight, trash | Score: 158 | Views: 192282 | Answers: 23
+
+**Solution / Community Answer**:
+For just a particular mounted volume - like a flash drive called yourUSBstick in this example - these commands will remove existing cruft, stop Spotlight indexing now and in the future, stop the related fsevents logging, and disable the Trash feature.
+
+mdutil -i off /Volumes/yourUSBstick
+cd /Volumes/yourUSBstick
+rm -rf .{,_.}{fseventsd,Spotlight-V*,Trashes}
+mkdir .fseventsd
+touch .fseventsd/no_log .metadata_never_index .Trashes
+cd -
+
+
+Other unfamiliar stuff you may still see you probably want to keep, like Apple double "._*" files and other Apple DS cruft relating to icons and window placement.
+
+**Reference**: https://apple.stackexchange.com/questions/6707/how-to-stop-os-x-from-writing-spotlight-and-trash-files-to-memory-cards-and-usb
+
+> 📎 Source: https://apple.stackexchange.com/questions/6707/how-to-stop-os-x-from-writing-spotlight-and-trash-files-to-memory-cards-and-usb
+
+#### 86. How to switch or close the new split Terminal pane?
+
+**Issue**: How to switch or close the new split Terminal pane?
+**Tags / Source**: Tags: macos, terminal | apple | 👍 158 | 💬 3 answers
+
+**Description**:
+Tags: macos, terminal | Score: 158 | Views: 154734 | Answers: 3
+
+**Solution / Community Answer**:
+The idea behind splitting is that it allows you to keep a certain part of the shell buffer displayed while continuing to enter new commands. So only the lowest split does allow keyboard input. To position the view on the shell buffer use the scroll bar.
+
+You can un-split by pressing Shift-Cmd-D.
+
+**Reference**: https://apple.stackexchange.com/questions/87202/how-to-switch-or-close-the-new-split-terminal-pane
+
+> 📎 Source: https://apple.stackexchange.com/questions/87202/how-to-switch-or-close-the-new-split-terminal-pane
+
+#### 87. Can home and end keys be mapped when using Terminal?
+
+**Issue**: Can home and end keys be mapped when using Terminal?
+**Tags / Source**: Tags: macos, terminal, keyboard, command-line, keybindings | apple | 👍 157 | 💬 11 answers
+
+**Description**:
+Tags: macos, terminal, keyboard, command-line, keybindings | Score: 157 | Views: 93737 | Answers: 11
+
+**Solution / Community Answer**:
+This can be set in Terminal.app preferences
+Context
+To answer the one about how to get the beginning or end of the line, it appears that by default Terminal maps these keys to it:
+
+shift+home → beginning of line, equivalent to the &quot;home&quot; key in normal terminals
+shift+end → end of line, equivalent to the &quot;end&quot; key in normal terminals
+
+Instructions
+If you want home and end to work the &quot;normal&quot; way (and not require shift), go to the Keyboard tab of the Terminal profile preferences:
+[Terminal menu] → Preferences → Profiles tab (or settings on some versions of OS X) → Keyboard sub-tab
+Then modify/add these keys to be the following &quot;send string to shell&quot;. Use the code for your shell, Bash or Zsh.
+macOS changed the default shell from Bash to Zsh in MacOS Catalina (v10.15) and later versions (BigSur and Monterey). The instructions are different for Bash and Zsh.
+Zsh
+
+home: \001
+end: \005
+
+You can enter these codes in the edit dialog by pressing ctrl-A for \001 and ctrl-E for \005. Thanks to @JW for the Zsh information.
+Another, unrelated, option to map home/end keys for MacOS Catalina (v10.15) and later versions (BigSur and Monterey) is to use bindkey widgets:
+sudo echo 'bindkey &quot;\033[H&quot; beginning-of-line; bindkey &quot;\033[F&quot; end-of-line' &gt;&gt; ~/.zshrc
+
+Bash
+
+home: \033[H
+end:  \033[F
+
+You can get the \033 part by hitting the escape key within the edit dialog input, if you need to add it.
+In later versions of Mac OS X, if the terminal screen shifts up or down when you press the home/end key, the home key may need to be set to \033[1~ and the end key to \033[4~ to get the results you want (no shift needed).
+Conclusion
+Then home and end will work like normal again (phew).
+Also note that alt+← and alt+→ by default in terminal map to word left and word right, another handy combo to remember.
+Feel free to modify this answer to add more useful key bindings, as it is a community wiki.
+
+**Reference**: https://apple.stackexchange.com/questions/12997/can-home-and-end-keys-be-mapped-when-using-terminal
+
+> 📎 Source: https://apple.stackexchange.com/questions/12997/can-home-and-end-keys-be-mapped-when-using-terminal
+
+#### 88. Remember window sizes and placement when unplugging and replugging second monitor
+
+**Issue**: Remember window sizes and placement when unplugging and replugging second monitor
+**Tags / Source**: Tags: macos, windows, display, window-manager, productivity | apple | 👍 157 | 💬 13 answers
+
+**Description**:
+Tags: macos, windows, display, window-manager, productivity | Score: 157 | Views: 68974 | Answers: 13
+
+**Solution / Community Answer**:
+Have a look at Stay by Cordless Dog. I believe it does exactly what you're looking for.
+
+**Reference**: https://apple.stackexchange.com/questions/126351/remember-window-sizes-and-placement-when-unplugging-and-replugging-second-monito
+
+> 📎 Source: https://apple.stackexchange.com/questions/126351/remember-window-sizes-and-placement-when-unplugging-and-replugging-second-monito
+
+#### 89. Is there a way to convert audio files in Mac OS X or the command line without using iTunes?
+
+**Issue**: Is there a way to convert audio files in Mac OS X or the command line without using iTunes?
+**Tags / Source**: Tags: macos, audio, unix | apple | 👍 156 | 💬 9 answers
+
+**Description**:
+Tags: macos, audio, unix | Score: 156 | Views: 137510 | Answers: 9
+
+**Solution / Community Answer**:
+I installed ffmpeg via MacPorts, although it also available via Homebrew (brew install ffmpeg) or download the binary.
+To convert something like that, (without worrying about audio quality, which I know nothing about), I just use:
+ffmpeg -i input.mp4 output.mp3
+
+Here is an example of how you would convert a .wav file to .mp3 from their website:
+ffmpeg -i input.wav -codec:a libmp3lame -qscale:a 2 output.mp3 
+
+Here is an example of how to find all .wav files larger than 50M, convert them to mp3 and then delete the original wav file (aka, batch mode -- alter the find command to create your 'batch')
+find . -size +50M -iname '*.wav' -type f -exec ffmpeg -i {} -codec:a libmp3lame -qscale:a 2 {}.mp3 -y \; -exec /bin/rm {} \;
+
+If you don't want to delete the source file, say in case the conversion fails or you want to have both:
+find . -size +50M -iname '*.wav' -type f -exec ffmpeg -i {} -codec:a libmp3lame -qscale:a 2 {}.mp3 -y \;
+
+Note that the -y overwrites existing files without prompting so if you want to not have that you can remove it.
+
+**Reference**: https://apple.stackexchange.com/questions/26099/is-there-a-way-to-convert-audio-files-in-mac-os-x-or-the-command-line-without-us
+
+> 📎 Source: https://apple.stackexchange.com/questions/26099/is-there-a-way-to-convert-audio-files-in-mac-os-x-or-the-command-line-without-us
+
+#### 90. How do I start the docker daemon on macOS?
+
+**Issue**: How do I start the docker daemon on macOS?
+**Tags / Source**: Tags: macos, daemons, docker | apple | 👍 154 | 💬 9 answers
+
+**Description**:
+Tags: macos, daemons, docker | Score: 154 | Views: 547378 | Answers: 9
+
+**Solution / Community Answer**:
+An alternative solution is to use other runtime for docker. For example
+colima
+brew install colima
+colima start
+docker ps -a
+
+Since docker desktop isn't free for enterprise usage, the alternative runtime is a good option.
+NOTE: if you've previously used Docker Desktop for launching Docker daemon and had an export of DOCKER_HOST defined in your user's shell configuration (.bash_profile, .zsh_profile etc.), you need to re-specify DOCKER_HOST to make sure it points to .colima directory and commands like docker-compose up -d work properly.
+Example:
+export DOCKER_HOST=unix:///$HOME/.colima/docker.sock
+
+**Reference**: https://apple.stackexchange.com/questions/373888/how-do-i-start-the-docker-daemon-on-macos
+
+> 📎 Source: https://apple.stackexchange.com/questions/373888/how-do-i-start-the-docker-daemon-on-macos
+
+#### 91. Update bash to version 4.0 on OSX
+
+**Issue**: Update bash to version 4.0 on OSX
+**Tags / Source**: Tags: macos, terminal, bash, command-line | apple | 👍 154 | 💬 6 answers
+
+**Description**:
+Tags: macos, terminal, bash, command-line | Score: 154 | Views: 138259 | Answers: 6
+
+**Solution / Community Answer**:
+As @William said in his answer, Apple does not provide bash 4 due to GPL restrictions. You can install bash 4+ however and also can make it your default shell (including for Terminal and iTerm2) by doing the following.
+
+Install Bash 4 via Homebrew
+
+First install the newer version of bash. There are various ways of doing that, I prefer Homebrew.
+
+
+Install Homebrew as described at http://brew.sh.  
+Install bash using brew install bash.
+
+
+Bash 4 is now available on your PATH (assuming Homebrew bin is on your path). However, it is not yet your default shell. You can find where it is located by running which bash. In my case it is at /usr/local/bin/bash. 
+
+Using Bash 4
+
+Since it is on your PATH, you can start a Bash 4 session with just bash or it can be used in scripts by using a Shebang.
+
+For example, this will use a specific bash instance.
+
+#!/usr/local/bin/bash
+...your script...
+
+
+This will use the first bash on the PATH.
+
+#!/usr/bin/env bash
+...your script...
+
+
+You can also set the bash path for specific profiles in Terminal/iTerm2 using the steps described in @user136952's answer.
+
+Making Bash 4 the default
+
+As mentioned above, after installing Bash 4 is still not the default shell. To make bash the default you need to do two more steps.
+
+First, add the Bash 4 path to your /etc/shells file so that it is an allowed login shell. As described in /etc/shells, this file has the list of valid login shells. After adding the new bash path my /etc/shells looks like the following:
+
+# List of acceptable shells for chpass(1).
+# Ftpd will not allow users to connect who are not using
+# one of these shells.
+
+/bin/bash
+/bin/csh
+/bin/ksh
+/bin/sh
+/bin/tcsh
+/bin/zsh
+/usr/local/bin/bash
+
+
+Next we use chsh to make it your default shell. So any sessions for that user will use that shell. You can read more about this in Change the Shell in Mac OS X Terminal, but the actual command is very straightforward.
+
+chsh -s /usr/local/bin/bash
+
+
+Now the new bash is our default login shell. If you open Terminal or iTerm2 and run bash --version you should see the new version. Note the "License GPLv3+" which is why Apple doesn't bundle it with macOS.
+
+$ bash --version
+GNU bash, version 4.4.12(1)-release (x86_64-apple-darwin16.6.0)
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later &lt;http://gnu.org/licenses/gpl.html&gt;
+
+**Reference**: https://apple.stackexchange.com/questions/193411/update-bash-to-version-4-0-on-osx
+
+> 📎 Source: https://apple.stackexchange.com/questions/193411/update-bash-to-version-4-0-on-osx
+
+#### 92. cmd-tab behavior on Mavericks with multiple displays
+
+**Issue**: cmd-tab behavior on Mavericks with multiple displays
+**Tags / Source**: Tags: macos, display, application-switcher | apple | 👍 153 | 💬 5 answers
+
+**Description**:
+Tags: macos, display, application-switcher | Score: 153 | Views: 87913 | Answers: 5
+
+**Solution / Community Answer**:
+I believe this coincides with the Dock's location.  Just tested it on my MacBook Air, connected to a non-Apple external display, and whenever I moved the Dock from screen to screen the Application Switcher would follow.
+
+You can summon the Dock on your big display by dragging the cursor to the bottom of it's display, essentially dragging down at the bottom.  After a second the Dock should pop up.  Once the Dock is on the desired display press commandtab to summon the Application Switcher.
+
+**Reference**: https://apple.stackexchange.com/questions/106405/cmd-tab-behavior-on-mavericks-with-multiple-displays
+
+> 📎 Source: https://apple.stackexchange.com/questions/106405/cmd-tab-behavior-on-mavericks-with-multiple-displays
+
+#### 93. macOS notifications on dual monitors: how can I specify which monitor?
+
+**Issue**: macOS notifications on dual monitors: how can I specify which monitor?
+**Tags / Source**: Tags: macos, notifications, dual-screen | apple | 👍 152 | 💬 3 answers
+
+**Description**:
+Tags: macos, notifications, dual-screen | Score: 152 | Views: 96074 | Answers: 3
+
+**Solution / Community Answer**:
+You should be able to do this by choosing the monitor on which the menu bar is active.
+Try:
+
+System Settings -&gt; Displays -&gt; Arrangement
+
+and drag the little white bar to the monitor where you want the notifications to show up.
+In the picture below, the bar is being dragged from the left to the right window.
+
+**Reference**: https://apple.stackexchange.com/questions/157260/macos-notifications-on-dual-monitors-how-can-i-specify-which-monitor
+
+> 📎 Source: https://apple.stackexchange.com/questions/157260/macos-notifications-on-dual-monitors-how-can-i-specify-which-monitor
+
+#### 94. Restricting Command+tab options to only apps that are in the current space
+
+**Issue**: Restricting Command+tab options to only apps that are in the current space
+**Tags / Source**: Tags: macos, spaces | apple | 👍 152 | 💬 12 answers
+
+**Description**:
+Tags: macos, spaces | Score: 152 | Views: 67784 | Answers: 12
+
+**Solution / Community Answer**:
+Refer to the original page for detailed solutions and community answers.
+
+**Reference**: https://apple.stackexchange.com/questions/5668/restricting-commandtab-options-to-only-apps-that-are-in-the-current-space
+
+> 📎 Source: https://apple.stackexchange.com/questions/5668/restricting-commandtab-options-to-only-apps-that-are-in-the-current-space
+
+#### 95. Is there a command line program for macOS that can access serial ports?
+
+**Issue**: Is there a command line program for macOS that can access serial ports?
+**Tags / Source**: Tags: macos, command-line | apple | 👍 151 | 💬 16 answers
+
+**Description**:
+Tags: macos, command-line | Score: 151 | Views: 675404 | Answers: 16
+
+**Solution / Community Answer**:
+You can use the terminal command screen to do this!!!
+
+As seen on ServerFault:
+
+
+  I love using [screen] for connecting to serial consoles, i.e.
+
+screen /dev/ttyS0 19200
+
+
+
+Or, if you prefer Mac OS X hints...
+
+
+  I often have to do router configuration via a console port, so I use a
+  Keyspan Serial Adapter to get access. Two problems then present
+  themselves: ZTerm is a horrible Mac OS X app. It hasn't been updated
+  in five years or so, and isn't a Universal Binary. The developer
+  doesn't seem in any hurry to rectify the situation. It is not worth
+  the shareware fee in its current form. Minicom requires installation
+  of Fink or MacPorts and is overly complex. Solution: Use screen,
+  Terminal, and a little AppleScripting.
+  
+  First, launch Script Editor and type/paste in the following code:
+
+tell application "Terminal"
+  do script with command "screen /dev/tty.KeySerial1"
+  set number of rows of window 1 to 100
+  set number of columns of window 1 to 80
+  set background color of window 1 to "black"
+  set normal text color of window 1 to "green"
+  set custom title of window 1 to "SerialOut"
+end tell
+
+  
+  Compile and save as an app from within Script Editor, and you have a
+  double-clickable application to launch a serial Terminal session. You
+  may want to customize this slightly -- you can change the screen
+  colors or number of columns or rows. You may also need to customize
+  the screen command with a different device name if you are using
+  something other than the Keyspan Serial Adapter (do an ls tty* of the
+  /dev/ directory to get the right name). 
+  
+  screen uses Control-A to take commands directed to it. So type
+  Control-A followed by Control-\ to exit your screen session. If you
+  fail to do this and exit a Terminal session, you'll leave the screen
+  session alive and the serial resource unavailable until you kill the
+  screen session manually. man screen will show you further commands to
+  send to a screen session. 
+  
+  If anyone can reply with a link to a tutorial on how to wrap an
+  interactive Unix App in Cocoa, that would be the next step -- it would
+  be nice to do this without involving Terminal. If you prefer to use
+  Minicom, you could still use the AppleScript to wrap it into a nice
+  launchable app -- use this older hint to find the right command line
+  commands.
+
+
+Many USB-Serial adapters use the chip from FTDI. Install the "Virtual COM Port" driver and look for the proper TTY name in /dev. For example, on a PowerBook G4 it came up as /dev/tty.usbserial-FTALKY8I.
+
+**Reference**: https://apple.stackexchange.com/questions/32834/is-there-a-command-line-program-for-macos-that-can-access-serial-ports
+
+> 📎 Source: https://apple.stackexchange.com/questions/32834/is-there-a-command-line-program-for-macos-that-can-access-serial-ports
+
+#### 96. How do I sync the Visual Studio Code (vscode) theme to use my OS light/dark color scheme?
+
+**Issue**: How do I sync the Visual Studio Code (vscode) theme to use my OS light/dark color scheme?
+**Tags / Source**: Tags: macos, system-settings, visual-studio-code | apple | 👍 151 | 💬 3 answers
+
+**Description**:
+Tags: macos, system-settings, visual-studio-code | Score: 151 | Views: 54183 | Answers: 3
+
+**Solution / Community Answer**:
+Enable Auto Detect (Search in Settings: window.autoDetectColorScheme)
+Customize Color Themes (Search in Settings: workbench preferred color theme)
+
+
+More Detail (Visual Studio Code Themes):
+
+Auto switch based on OS color scheme Windows and macOS support light and dark color schemes. There is a setting, window.autoDetectColorScheme, that instructs VS Code to listen to changes to the OS's color scheme and switch to a matching theme accordingly.
+To customize the themes that are used when a color scheme changes, you can set the preferred light, dark, and high contrast themes with the settings:
+workbench.preferredLightColorTheme - defaults to &quot;Default Light+&quot;
+workbench.preferredDarkColorTheme - defaults to &quot;Default Dark+&quot;
+workbench.preferredHighContrastColorTheme - defaults to &quot;Default High Contrast&quot;
+workbench.preferredHighContrastLightColorTheme - defaults to &quot;Default High Contrast Light&quot;
+
+**Reference**: https://apple.stackexchange.com/questions/381962/how-do-i-sync-the-visual-studio-code-vscode-theme-to-use-my-os-light-dark-colo
+
+> 📎 Source: https://apple.stackexchange.com/questions/381962/how-do-i-sync-the-visual-studio-code-vscode-theme-to-use-my-os-light-dark-colo
+
+#### 97. How to record both screen and sound with Quicktime on El Capitan?
+
+**Issue**: How to record both screen and sound with Quicktime on El Capitan?
+**Tags / Source**: Tags: macos, quicktime, screen-capture | apple | 👍 150 | 💬 12 answers
+
+**Description**:
+Tags: macos, quicktime, screen-capture | Score: 150 | Views: 438170 | Answers: 12
+
+**Solution / Community Answer**:
+You  need to install Soundflower in order to run it on El Capitan. El Capitan requires kext to be signed in order to load them. This one gets its kext installed in /Library/Extensions/.
+
+This is due to System Integrity Protection
+
+Then, you have to create a multi-output device with: Audio MIDI Setup.app, which is found in /Applications/Utilities/ :
+
+
+
+Finally, when you want to do the actual recording, make sure you use this multi-output device, and capture from the same Soundflower device used in this multi-output device. Otherwise, you can't both listen to and capture the sound, because it goes directly to soundflower without being copied to the built-in output.
+
+alt/option + right clicking on volume gives you this menu:
+
+
+
+and Quicktime now looks like this:
+
+**Reference**: https://apple.stackexchange.com/questions/212829/how-to-record-both-screen-and-sound-with-quicktime-on-el-capitan
+
+> 📎 Source: https://apple.stackexchange.com/questions/212829/how-to-record-both-screen-and-sound-with-quicktime-on-el-capitan
+
+#### 98. Should I disconnect my MacBook Pro&#39;s power cord when the battery is fully charged?
+
+**Issue**: Should I disconnect my MacBook Pro&#39;s power cord when the battery is fully charged?
+**Tags / Source**: Tags: macbook-pro, battery, charging | apple | 👍 149 | 💬 12 answers
+
+**Description**:
+Tags: macbook-pro, battery, charging | Score: 149 | Views: 263777 | Answers: 12
+
+**Solution / Community Answer**:
+You do not need to disconnect your MacBook Pro's battery. Your battery will stop charging once it is full. Apple's modern batteries are much smarter than previous designs.
+
+To get the most out of your MacBook Pro's battery, follow the Notebook Battery advice from Apple: unplug and use your battery until empty about once a month, then charge back up to full.
+
+At the time of answering, Apple's advice read:
+
+
+  For proper maintenance of a lithium-based battery, it’s important to keep the electrons in it moving occasionally. Apple does not recommend leaving your portable plugged in all the time. An ideal use would be a commuter who uses her notebook on the train, then plugs it in at the office to charge. This keeps the battery juices flowing.
+
+
+If you need help following Apple's advice, use Battery Guardian; it is free and will remind you when to deplete your battery.
+
+**Reference**: https://apple.stackexchange.com/questions/12271/should-i-disconnect-my-macbook-pros-power-cord-when-the-battery-is-fully-charge
+
+> 📎 Source: https://apple.stackexchange.com/questions/12271/should-i-disconnect-my-macbook-pros-power-cord-when-the-battery-is-fully-charge
+
+#### 99. Is there a keyboard shortcut to navigate one level up in Finder?
+
+**Issue**: Is there a keyboard shortcut to navigate one level up in Finder?
+**Tags / Source**: Tags: macos, finder | apple | 👍 148 | 💬 1 answers
+
+**Description**:
+Tags: macos, finder | Score: 148 | Views: 91953 | Answers: 1
+
+**Solution / Community Answer**:
+The one you're probably looking for is the command ⬆︎ keyboard shortcut, as this is the one that takes you back to the parent folder. 
+
+To do the same thing, but within a new window, use command control ⬆︎.
+
+However, some views offer additional options. For example, in Columns view you can just use the ⬅︎ key to go back to the parent folder.
+
+In addition, you can use the command [ keyboard shortcut to take you back to the previous folder you were actually in (which may not necessarily be the parent folder).
+
+You can also right-click on the title in the Finder's window to select anywhere in the file's path to go straight to that location.
+
+Finally, you can also customise the Toolbar to add the Path button.
+
+**Reference**: https://apple.stackexchange.com/questions/307930/is-there-a-keyboard-shortcut-to-navigate-one-level-up-in-finder
+
+> 📎 Source: https://apple.stackexchange.com/questions/307930/is-there-a-keyboard-shortcut-to-navigate-one-level-up-in-finder
+
+#### 100. How to investigate high kernel task memory usage?
+
+**Issue**: How to investigate high kernel task memory usage?
+**Tags / Source**: Tags: macos, memory, performance, kernel-panic, kernel | apple | 👍 147 | 💬 2 answers
+
+**Description**:
+Tags: macos, memory, performance, kernel-panic, kernel | Score: 147 | Views: 233652 | Answers: 2
+
+**Solution / Community Answer**:
+There are many things that go wrong with high kernel task usage. Usually this is related to faulty or heavy process which overusing system resources (such as indexing storage, running VMs, too many tabs in the web browser or some other background processes). 
+
+Here are some methods which help to investigate OS X kernel usage issues:
+
+Basic methods
+
+
+Run Console.app and check on 'All Messages' to see if anything unusual currently is happening.
+Use Activity Monitor to read system memory and determine how much CPU, RAM and Disk is being used.
+
+Alternatively run top in Terminal and hold Space to refresh - easier to find the cause problem (swapins/swapouts/disks?).
+Run sudo fs_usage in Terminal to report system calls and page faults related to filesystem activity in real-time (I think this is the best option from all other). Then hit Control-C to stop it.
+
+Action: Consider killing apps which appears frequently on the list, but you're not using them.
+
+Learn more at: How do I debug an out-of-control “kernel_task” process?
+Run sudo syscallbypid.d (or syscallbyproc.d), wait a bit, hit Control-C. Now check which process generated the most system calls in that given time (last column) and if you recognise it, consider kill it. If not, Google it and learn more about it.
+
+
+Advanced methods
+
+
+Use sysdiagnose command (can be triggered by hitting Shift-Control-⌥-⌘-. (period) to quickly gather system-wide diagnostic information helpful in investigating system memory/performance issues (will appear in /var/tmp) either by you or Apple guys. During analysis, try to not do anything, when done - consider uncompressing the generated file and analyse the logs.
+
+See: How do you get system diagnostic files from OS X?
+Run footprint to gather detailed memory information on a per-VM-region type level and swapped bytes:
+
+sudo footprint -a
+
+
+Older version:
+
+sudo footprint -all -categories -swapped -collapseSharing
+
+Use spindump to profile entire system, it'll generate /tmp/spindump.txt file (including kernel and its extensions).
+Use vm_stat to show virtual memory statistics. E.g.
+
+vm_stat 1 # to display every second.
+
+Use zprint to check information about kernel usage, it's possible by:
+
+sudo zprint -t -s | head -n20
+
+
+It'll show the most wasting kernel zones.
+Use newproc.d to snoop new processes as they are executed, creatbyproc.d for files:
+
+sudo newproc.d
+sudo creatbyproc.d
+
+
+Note: On newer OS X (10.11 or above) this may not work when integrity protection is enabled (check by csrutil status). 
+Try sar - system activity reporter which can sample and report various cumulative statistic counters maintained by the operating system.
+
+
+For more useful debugging tools, check for dtrace scripts (grep dtrace /usr/bin/*). If you know the faulty process which causing the problem, you may use dtruss to debug it.
+
+
+
+Actions
+
+Here are some suggestions which can help you with the operating system issues.
+
+
+Free up some inactive memory. In order to do this, you've to flush cache first and force disk cache to be purged:
+
+sync &amp;&amp; sudo purge
+
+
+
+  sync - force completion of pending disk writes (flush cache)
+  
+  purge - force disk cache to be purged (flushed and emptied)
+
+
+Its function is basically to terminate all the I/O pending operations which are using disk cache and then to free all the occupied disk cache, so it should free disk space to ease paging out and swapping out of main memory. It is safe to use, as it does not affect anonymous memory that has been allocated through malloc, vm_allocate, etc.
+Use some 3rd party apps to clear up some overused memory such as iBoostUp, SystemPal, etc.
+You may also disable temporary Spotlight:
+
+sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist 
+
+
+And consider other services by:
+
+sudo launchctl list | grep ^[0-9]
+sudo launchctl bslist | grep ^A
+
+Quit your web browser and check if that helps. For example using Chrome is very resourceful, especially when there is some front-end processing going on in the background (e.g. Javascript) or advert-like animations are constantly rendering the content.
+
+**Reference**: https://apple.stackexchange.com/questions/178281/how-to-investigate-high-kernel-task-memory-usage
+
+> 📎 Source: https://apple.stackexchange.com/questions/178281/how-to-investigate-high-kernel-task-memory-usage
 
 
 
