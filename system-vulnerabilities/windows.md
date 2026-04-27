@@ -8,18 +8,18 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 07:01:55 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 08:12:30 UTC_
 
 ## 中文 🇨🇳
 **Windows 系统漏洞**
 
-本页面每小时自动抓取 WINDOWS 平台最新系统漏洞及应对措施。
+本页面每6小时自动抓取 WINDOWS 平台最新系统漏洞及应对措施。数据源：NVD、Red Hat、Ubuntu、SUSE、Microsoft、Apple。
 
 ### WINDOWS 漏洞列表
 
 #### 1. CVE-1999-0280 (N/A)
 
-**CVE编号**: CVE-1999-0280
+**CVE编号**: CVE-1999-0280 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: microsoft:internet_explorer
 
@@ -37,9 +37,9 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 2. CVE-1999-0012 (HIGH)
 
-**CVE编号**: CVE-1999-0012
+**CVE编号**: CVE-1999-0012 [NVD]
 **严重程度**: HIGH CVSS: 7.0
-受影响产品: microsoft:frontpage, netscape:enterprise_server, microsoft:personal_web_server, microsoft:internet_information_server, netscape:fasttrack_server
+受影响产品: microsoft:internet_information_server, microsoft:personal_web_server, netscape:enterprise_server, microsoft:frontpage, netscape:fasttrack_server
 
 **漏洞描述**:
 Some web servers under Microsoft Windows allow remote attackers to bypass access restrictions for files with long file names.
@@ -55,7 +55,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 3. CVE-1999-1556 (N/A)
 
-**CVE编号**: CVE-1999-1556
+**CVE编号**: CVE-1999-1556 [NVD]
 **严重程度**: N/A CVSS: 7.2
 受影响产品: microsoft:sql_server
 
@@ -76,7 +76,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=ntbugtraq&m=90222453431645&
 
 #### 4. CVE-1999-0288 (N/A)
 
-**CVE编号**: CVE-1999-0288
+**CVE编号**: CVE-1999-0288 [NVD]
 **严重程度**: N/A CVSS: 5.0
 受影响产品: microsoft:windows_nt
 
@@ -96,9 +96,9 @@ Apply patch from vendor. Monitor http://safenetworks.com/Windows/wins.html.
 
 #### 5. CVE-1999-1291 (N/A)
 
-**CVE编号**: CVE-1999-1291
+**CVE编号**: CVE-1999-1291 [NVD]
 **严重程度**: N/A CVSS: 5.0
-受影响产品: microsoft:windows_nt, microsoft:windows_95
+受影响产品: microsoft:windows_95, microsoft:windows_nt
 
 **漏洞描述**:
 TCP/IP implementation in Microsoft Windows 95, Windows NT 4.0, and possibly others, allows remote attackers to reset connections by forcing a reset (RST) via a PSH ACK or other means, obtaining the target's last sequence number from the resulting packet, then spoofing a reset to the target.
@@ -116,9 +116,9 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/10789.
 
 #### 6. CVE-1999-0364 (N/A)
 
-**CVE编号**: CVE-1999-0364
+**CVE编号**: CVE-1999-0364 [NVD]
 **严重程度**: N/A CVSS: 10.0
-受影响产品: fms_inc.:total_vb_sourcebook, microsoft:access
+受影响产品: microsoft:access, fms_inc.:total_vb_sourcebook
 
 **漏洞描述**:
 Microsoft Access 97 stores a database password as plaintext in a foreign mdb, allowing access to data.
@@ -134,7 +134,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=91816470220259&w=
 
 #### 7. CVE-1999-1544 (N/A)
 
-**CVE编号**: CVE-1999-1544
+**CVE编号**: CVE-1999-1544 [NVD]
 **严重程度**: N/A CVSS: 5.0
 受影响产品: microsoft:internet_information_server
 
@@ -152,7 +152,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=91722115016183&w=
 
 #### 8. CVE-1999-0379 (N/A)
 
-**CVE编号**: CVE-1999-0379
+**CVE编号**: CVE-1999-0379 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: microsoft:backoffice_resource_kit
 
@@ -173,7 +173,7 @@ Apply patch from vendor. Monitor http://www.osvdb.org/1019.
 
 #### 9. CVE-1999-0386 (N/A)
 
-**CVE编号**: CVE-1999-0386
+**CVE编号**: CVE-1999-0386 [NVD]
 **严重程度**: N/A CVSS: 5.0
 受影响产品: microsoft:personal_web_server, microsoft:frontpage
 
@@ -193,7 +193,7 @@ Apply patch from vendor. Monitor http://www.osvdb.org/111.
 
 #### 10. CVE-1999-0419 (N/A)
 
-**CVE编号**: CVE-1999-0419
+**CVE编号**: CVE-1999-0419 [NVD]
 **严重程度**: N/A CVSS: 5.0
 
 
@@ -211,7 +211,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 11. CVE-1999-0468 (HIGH)
 
-**CVE编号**: CVE-1999-0468
+**CVE编号**: CVE-1999-0468 [NVD]
 **严重程度**: HIGH CVSS: 8.2
 受影响产品: microsoft:internet_explorer
 
@@ -229,7 +229,7 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 #### 12. CVE-1999-1097 (N/A)
 
-**CVE编号**: CVE-1999-1097
+**CVE编号**: CVE-1999-1097 [NVD]
 **严重程度**: N/A CVSS: 6.4
 受影响产品: microsoft:netmeeting
 
@@ -249,9 +249,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=92586457816446&w=
 
 #### 13. CVE-1999-0717 (N/A)
 
-**CVE编号**: CVE-1999-0717
+**CVE编号**: CVE-1999-0717 [NVD]
 **严重程度**: N/A CVSS: 2.6
-受影响产品: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_98, microsoft:excel, microsoft:windows_95
+受影响产品: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_95, microsoft:windows_98, microsoft:excel
 
 **漏洞描述**:
 A remote attacker can disable the virus warning mechanism in Microsoft Excel 97.
@@ -269,7 +269,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=
 
 #### 14. CVE-1999-1033 (N/A)
 
-**CVE编号**: CVE-1999-1033
+**CVE编号**: CVE-1999-1033 [NVD]
 **严重程度**: N/A CVSS: 5.0
 受影响产品: microsoft:outlook_express
 
@@ -290,7 +290,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=92647407427342&w=
 
 #### 15. CVE-1999-1520 (N/A)
 
-**CVE编号**: CVE-1999-1520
+**CVE编号**: CVE-1999-1520 [NVD]
 **严重程度**: N/A CVSS: 5.0
 受影响产品: microsoft:site_server
 
@@ -311,7 +311,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=92647407227303&w=
 
 #### 16. CVE-1999-1368 (N/A)
 
-**CVE编号**: CVE-1999-1368
+**CVE编号**: CVE-1999-1368 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: broadcom:inoculateit
 
@@ -331,9 +331,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=ntbugtraq&m=92652152723629&
 
 #### 17. CVE-1999-1164 (N/A)
 
-**CVE编号**: CVE-1999-1164
+**CVE编号**: CVE-1999-1164 [NVD]
 **严重程度**: N/A CVSS: 5.0
-受影响产品: microsoft:outlook_express, microsoft:outlook
+受影响产品: microsoft:outlook, microsoft:outlook_express
 
 **漏洞描述**:
 Microsoft Outlook client allows remote attackers to cause a denial of service by sending multiple email messages with the same X-UIDL headers, which causes Outlook to hang.
@@ -349,9 +349,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93041631215856&w=
 
 #### 18. CVE-1999-1011 (N/A)
 
-**CVE编号**: CVE-1999-1011
+**CVE编号**: CVE-1999-1011 [NVD]
 **严重程度**: N/A CVSS: 10.0
-受影响产品: microsoft:internet_information_server, microsoft:site_server, microsoft:index_server, microsoft:data_access_components
+受影响产品: microsoft:index_server, microsoft:internet_information_server, microsoft:data_access_components, microsoft:site_server
 
 **漏洞描述**:
 The Remote Data Service (RDS) DataFactory component of Microsoft Data Access Components (MDAC) in IIS 3.x and 4.x exposes unsafe methods, which allows remote attackers to execute arbitrary commands.
@@ -370,7 +370,7 @@ Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/j-054.shtml.
 
 #### 19. CVE-2000-0323 (N/A)
 
-**CVE编号**: CVE-2000-0323
+**CVE编号**: CVE-2000-0323 [NVD]
 **严重程度**: N/A CVSS: 7.6
 受影响产品: microsoft:jet
 
@@ -391,7 +391,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/templates/archive.
 
 #### 20. CVE-1999-0700 (N/A)
 
-**CVE编号**: CVE-1999-0700
+**CVE编号**: CVE-1999-0700 [NVD]
 **严重程度**: N/A CVSS: 6.2
 受影响产品: microsoft:windows_nt, microsoft:windows_2000
 
@@ -411,7 +411,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=
 
 #### 21. CVE-1999-0682 (N/A)
 
-**CVE编号**: CVE-1999-0682
+**CVE编号**: CVE-1999-0682 [NVD]
 **严重程度**: N/A CVSS: 5.0
 受影响产品: microsoft:exchange_server
 
@@ -432,9 +432,9 @@ Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=
 
 #### 22. CVE-1999-0749 (N/A)
 
-**CVE编号**: CVE-1999-0749
+**CVE编号**: CVE-1999-0749 [NVD]
 **严重程度**: N/A CVSS: 2.6
-受影响产品: microsoft:windows_98, microsoft:windows_95
+受影响产品: microsoft:windows_95, microsoft:windows_98
 
 **漏洞描述**:
 Buffer overflow in Microsoft Telnet client in Windows 95 and Windows 98 via a malformed Telnet argument.
@@ -452,7 +452,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/586.
 
 #### 23. CVE-2000-0325 (N/A)
 
-**CVE编号**: CVE-2000-0325
+**CVE编号**: CVE-2000-0325 [NVD]
 **严重程度**: N/A CVSS: 7.2
 受影响产品: microsoft:jet
 
@@ -473,7 +473,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/548.
 
 #### 24. CVE-1999-1052 (N/A)
 
-**CVE编号**: CVE-1999-1052
+**CVE编号**: CVE-1999-1052 [NVD]
 **严重程度**: N/A CVSS: 5.0
 受影响产品: microsoft:frontpage
 
@@ -491,9 +491,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93582550911564&w=
 
 #### 25. CVE-1999-1016 (N/A)
 
-**CVE编号**: CVE-1999-1016
+**CVE编号**: CVE-1999-1016 [NVD]
 **严重程度**: N/A CVSS: 5.0
-受影响产品: qualcomm:eudora, microsoft:internet_explorer, microsoft:frontpage, microsoft:outlook_express
+受影响产品: qualcomm:eudora, microsoft:outlook_express, microsoft:frontpage, microsoft:internet_explorer
 
 **漏洞描述**:
 Microsoft HTML control as used in (1) Internet Explorer 5.0, (2) FrontPage Express, (3) Outlook Express 5, and (4) Eudora, and possibly others, allows remote malicious web site or HTML emails to cause a denial of service (100% CPU consumption) via large HTML form fields such as text inputs in a table cell.
@@ -511,9 +511,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=ntbugtraq&m=93578772920970&
 
 #### 26. CVE-1999-0910 (N/A)
 
-**CVE编号**: CVE-1999-0910
+**CVE编号**: CVE-1999-0910 [NVD]
 **严重程度**: N/A CVSS: 5.0
-受影响产品: microsoft:site_server, microsoft:site_server_commerce, microsoft:commercial_internet_system
+受影响产品: microsoft:commercial_internet_system, microsoft:site_server_commerce, microsoft:site_server
 
 **漏洞描述**:
 Microsoft Site Server and Commercial Internet System (MCIS) do not set an expiration for a cookie, which could then be cached by a proxy and inadvertently used by a different user.
@@ -531,7 +531,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/625.
 
 #### 27. CVE-1999-0794 (N/A)
 
-**CVE编号**: CVE-1999-0794
+**CVE编号**: CVE-1999-0794 [NVD]
 **严重程度**: N/A CVSS: 4.6
 受影响产品: microsoft:office, microsoft:excel
 
@@ -552,9 +552,9 @@ Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=
 
 #### 28. CVE-1999-0766 (N/A)
 
-**CVE编号**: CVE-1999-0766
+**CVE编号**: CVE-1999-0766 [NVD]
 **严重程度**: N/A CVSS: 9.3
-受影响产品: microsoft:java_virtual_machine, microsoft:internet_explorer
+受影响产品: microsoft:internet_explorer, microsoft:java_virtual_machine
 
 **漏洞描述**:
 The Microsoft Java Virtual Machine allows a malicious Java applet to execute arbitrary commands outside of the sandbox environment.
@@ -573,7 +573,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=
 
 #### 29. CVE-2000-0327 (N/A)
 
-**CVE编号**: CVE-2000-0327
+**CVE编号**: CVE-2000-0327 [NVD]
 **严重程度**: N/A CVSS: 7.6
 受影响产品: microsoft:virtual_machine
 
@@ -593,9 +593,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93993545118416&w=
 
 #### 30. CVE-2000-0329 (N/A)
 
-**CVE编号**: CVE-2000-0329
+**CVE编号**: CVE-2000-0329 [NVD]
 **严重程度**: N/A CVSS: 5.1
-受影响产品: microsoft:ie, microsoft:outlook_express, microsoft:outlook, microsoft:internet_explorer
+受影响产品: microsoft:outlook, microsoft:outlook_express, microsoft:internet_explorer, microsoft:ie
 
 **漏洞描述**:
 A Microsoft ActiveX control allows a remote attacker to execute a malicious cabinet file via an attachment and an embedded script in an HTML mail, aka the "Active Setup Control" vulnerability.
@@ -611,9 +611,9 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 #### 31. CVE-2000-0073 (N/A)
 
-**CVE编号**: CVE-2000-0073
+**CVE编号**: CVE-2000-0073 [NVD]
 **严重程度**: N/A CVSS: 5.0
-受影响产品: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_98
+受影响产品: microsoft:windows_98, microsoft:windows_nt, microsoft:windows_2000
 
 **漏洞描述**:
 Buffer overflow in Microsoft Rich Text Format (RTF) reader allows attackers to cause a denial of service via a malformed control word.
@@ -632,7 +632,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=
 
 #### 32. CVE-1999-0999 (N/A)
 
-**CVE编号**: CVE-1999-0999
+**CVE编号**: CVE-1999-0999 [NVD]
 **严重程度**: N/A CVSS: 4.3
 受影响产品: microsoft:sql_server
 
@@ -653,7 +653,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=
 
 #### 33. CVE-1999-0993 (N/A)
 
-**CVE编号**: CVE-1999-0993
+**CVE编号**: CVE-1999-0993 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: microsoft:exchange_server
 
@@ -671,7 +671,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 34. CVE-1999-1043 (N/A)
 
-**CVE编号**: CVE-1999-1043
+**CVE编号**: CVE-1999-1043 [NVD]
 **严重程度**: N/A CVSS: 5.0
 受影响产品: microsoft:exchange_server
 
@@ -689,7 +689,7 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 #### 35. CVE-1999-1055 (N/A)
 
-**CVE编号**: CVE-1999-1055
+**CVE编号**: CVE-1999-1055 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: microsoft:excel
 
@@ -710,7 +710,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/179.
 
 #### 36. CVE-1999-1246 (N/A)
 
-**CVE编号**: CVE-1999-1246
+**CVE编号**: CVE-1999-1246 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: microsoft:site_server
 
@@ -730,7 +730,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/support/kb/article
 
 #### 37. CVE-1999-1259 (N/A)
 
-**CVE编号**: CVE-1999-1259
+**CVE编号**: CVE-1999-1259 [NVD]
 **严重程度**: N/A CVSS: 2.1
 受影响产品: microsoft:office
 
@@ -750,7 +750,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/support/kb/article
 
 #### 38. CVE-1999-1279 (N/A)
 
-**CVE编号**: CVE-1999-1279
+**CVE编号**: CVE-1999-1279 [NVD]
 **严重程度**: N/A CVSS: 5.0
 受影响产品: microsoft:sna_server
 
@@ -770,7 +770,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/support/kb/article
 
 #### 39. CVE-1999-1591 (N/A)
 
-**CVE编号**: CVE-1999-1591
+**CVE编号**: CVE-1999-1591 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: microsoft:internet_information_server, microsoft:visual_interdev
 
@@ -791,7 +791,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/ntbugtra
 
 #### 40. CVE-2000-0053 (N/A)
 
-**CVE编号**: CVE-2000-0053
+**CVE编号**: CVE-2000-0053 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: microsoft:commercial_internet_system
 
@@ -812,7 +812,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=
 
 #### 41. CVE-2000-0097 (N/A)
 
-**CVE编号**: CVE-2000-0097
+**CVE编号**: CVE-2000-0097 [NVD]
 **严重程度**: N/A CVSS: 5.0
 受影响产品: microsoft:index_server
 
@@ -833,7 +833,7 @@ Apply patch from vendor. Monitor http://www.osvdb.org/1210.
 
 #### 42. CVE-2000-0098 (N/A)
 
-**CVE编号**: CVE-2000-0098
+**CVE编号**: CVE-2000-0098 [NVD]
 **严重程度**: N/A CVSS: 5.0
 受影响产品: microsoft:index_server
 
@@ -851,7 +851,7 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 #### 43. CVE-2000-0132 (N/A)
 
-**CVE编号**: CVE-2000-0132
+**CVE编号**: CVE-2000-0132 [NVD]
 **严重程度**: N/A CVSS: 2.6
 受影响产品: microsoft:virtual_machine
 
@@ -869,7 +869,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/957.
 
 #### 44. CVE-2000-0089 (N/A)
 
-**CVE编号**: CVE-2000-0089
+**CVE编号**: CVE-2000-0089 [NVD]
 **严重程度**: N/A CVSS: 2.1
 受影响产品: microsoft:windows_nt
 
@@ -890,7 +890,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=
 
 #### 45. CVE-2000-0161 (N/A)
 
-**CVE编号**: CVE-2000-0161
+**CVE编号**: CVE-2000-0161 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: microsoft:site_server
 
@@ -910,9 +910,9 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/994.
 
 #### 46. CVE-2000-0162 (N/A)
 
-**CVE编号**: CVE-2000-0162
+**CVE编号**: CVE-2000-0162 [NVD]
 **严重程度**: N/A CVSS: 5.1
-受影响产品: microsoft:ie, microsoft:visual_studio, microsoft:internet_explorer
+受影响产品: microsoft:visual_studio, microsoft:internet_explorer, microsoft:ie
 
 **漏洞描述**:
 The Microsoft virtual machine (VM) in Internet Explorer 4.x and 5.x allows a remote attacker to read files via a malicious Java applet that escapes the Java sandbox, aka the "VM File Reading" vulnerability.
@@ -928,9 +928,9 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 #### 47. CVE-2000-0160 (N/A)
 
-**CVE编号**: CVE-2000-0160
+**CVE编号**: CVE-2000-0160 [NVD]
 **严重程度**: N/A CVSS: 7.6
-受影响产品: microsoft:ie, microsoft:outlook, microsoft:internet_explorer
+受影响产品: microsoft:outlook, microsoft:internet_explorer, microsoft:ie
 
 **漏洞描述**:
 The Microsoft Active Setup ActiveX component in Internet Explorer 4.x and 5.x allows a remote attacker to install software components without prompting the user by stating that the software's manufacturer is Microsoft.
@@ -946,9 +946,9 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/templates/archive.
 
 #### 48. CVE-2000-0216 (N/A)
 
-**CVE编号**: CVE-2000-0216
+**CVE编号**: CVE-2000-0216 [NVD]
 **严重程度**: N/A CVSS: 5.0
-受影响产品: microsoft:exchange_server, microsoft:outlook, microsoft:windows_messaging
+受影响产品: microsoft:outlook, microsoft:windows_messaging, microsoft:exchange_server
 
 **漏洞描述**:
 Microsoft email clients in Outlook, Exchange, and Windows Messaging automatically respond to Read Receipt and Delivery Receipt tags, which could allow an attacker to flood a mail system with responses by forging a Read Receipt request that is redirected to a large distribution list.
@@ -964,7 +964,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/ntbugtra
 
 #### 49. CVE-2000-0201 (N/A)
 
-**CVE编号**: CVE-2000-0201
+**CVE编号**: CVE-2000-0201 [NVD]
 **严重程度**: N/A CVSS: 5.1
 受影响产品: microsoft:internet_explorer
 
@@ -982,9 +982,9 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1033.
 
 #### 50. CVE-2000-0168 (N/A)
 
-**CVE编号**: CVE-2000-0168
+**CVE编号**: CVE-2000-0168 [NVD]
 **严重程度**: N/A CVSS: 5.0
-受影响产品: microsoft:windows_98se, microsoft:windows_98, microsoft:windows_95
+受影响产品: microsoft:windows_95, microsoft:windows_98, microsoft:windows_98se
 
 **漏洞描述**:
 Microsoft Windows 9x operating systems allow an attacker to cause a denial of service via a pathname that includes file device names, aka the "DOS Device in Path Name" vulnerability.
@@ -1007,13 +1007,13 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1043.
 ## English 🇺🇸
 **Windows System Vulnerabilities**
 
-Auto-updated hourly: latest WINDOWS system vulnerabilities and mitigations.
+Auto-updated every 6 hours: latest WINDOWS system vulnerabilities and mitigations. Sources: NVD, Red Hat, Ubuntu, SUSE, Microsoft, Apple.
 
 ### WINDOWS Vulnerability List
 
 #### 1. CVE-1999-0280 (N/A)
 
-**CVE ID**: CVE-1999-0280
+**CVE ID**: CVE-1999-0280 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: microsoft:internet_explorer
 
@@ -1031,9 +1031,9 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 2. CVE-1999-0012 (HIGH)
 
-**CVE ID**: CVE-1999-0012
+**CVE ID**: CVE-1999-0012 [NVD]
 **Severity**: HIGH CVSS: 7.0
-**Affected Products**: microsoft:frontpage, netscape:enterprise_server, microsoft:personal_web_server, microsoft:internet_information_server, netscape:fasttrack_server
+**Affected Products**: microsoft:internet_information_server, microsoft:personal_web_server, netscape:enterprise_server, microsoft:frontpage, netscape:fasttrack_server
 
 **Description**:
 Some web servers under Microsoft Windows allow remote attackers to bypass access restrictions for files with long file names.
@@ -1049,7 +1049,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 3. CVE-1999-1556 (N/A)
 
-**CVE ID**: CVE-1999-1556
+**CVE ID**: CVE-1999-1556 [NVD]
 **Severity**: N/A CVSS: 7.2
 **Affected Products**: microsoft:sql_server
 
@@ -1070,7 +1070,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=ntbugtraq&m=90222453431645&
 
 #### 4. CVE-1999-0288 (N/A)
 
-**CVE ID**: CVE-1999-0288
+**CVE ID**: CVE-1999-0288 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: microsoft:windows_nt
 
@@ -1090,9 +1090,9 @@ Apply patch from vendor. Monitor http://safenetworks.com/Windows/wins.html.
 
 #### 5. CVE-1999-1291 (N/A)
 
-**CVE ID**: CVE-1999-1291
+**CVE ID**: CVE-1999-1291 [NVD]
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: microsoft:windows_nt, microsoft:windows_95
+**Affected Products**: microsoft:windows_95, microsoft:windows_nt
 
 **Description**:
 TCP/IP implementation in Microsoft Windows 95, Windows NT 4.0, and possibly others, allows remote attackers to reset connections by forcing a reset (RST) via a PSH ACK or other means, obtaining the target's last sequence number from the resulting packet, then spoofing a reset to the target.
@@ -1110,9 +1110,9 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/10789.
 
 #### 6. CVE-1999-0364 (N/A)
 
-**CVE ID**: CVE-1999-0364
+**CVE ID**: CVE-1999-0364 [NVD]
 **Severity**: N/A CVSS: 10.0
-**Affected Products**: fms_inc.:total_vb_sourcebook, microsoft:access
+**Affected Products**: microsoft:access, fms_inc.:total_vb_sourcebook
 
 **Description**:
 Microsoft Access 97 stores a database password as plaintext in a foreign mdb, allowing access to data.
@@ -1128,7 +1128,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=91816470220259&w=
 
 #### 7. CVE-1999-1544 (N/A)
 
-**CVE ID**: CVE-1999-1544
+**CVE ID**: CVE-1999-1544 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: microsoft:internet_information_server
 
@@ -1146,7 +1146,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=91722115016183&w=
 
 #### 8. CVE-1999-0379 (N/A)
 
-**CVE ID**: CVE-1999-0379
+**CVE ID**: CVE-1999-0379 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: microsoft:backoffice_resource_kit
 
@@ -1167,7 +1167,7 @@ Apply patch from vendor. Monitor http://www.osvdb.org/1019.
 
 #### 9. CVE-1999-0386 (N/A)
 
-**CVE ID**: CVE-1999-0386
+**CVE ID**: CVE-1999-0386 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: microsoft:personal_web_server, microsoft:frontpage
 
@@ -1187,7 +1187,7 @@ Apply patch from vendor. Monitor http://www.osvdb.org/111.
 
 #### 10. CVE-1999-0419 (N/A)
 
-**CVE ID**: CVE-1999-0419
+**CVE ID**: CVE-1999-0419 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: N/A
 
@@ -1205,7 +1205,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 11. CVE-1999-0468 (HIGH)
 
-**CVE ID**: CVE-1999-0468
+**CVE ID**: CVE-1999-0468 [NVD]
 **Severity**: HIGH CVSS: 8.2
 **Affected Products**: microsoft:internet_explorer
 
@@ -1223,7 +1223,7 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 #### 12. CVE-1999-1097 (N/A)
 
-**CVE ID**: CVE-1999-1097
+**CVE ID**: CVE-1999-1097 [NVD]
 **Severity**: N/A CVSS: 6.4
 **Affected Products**: microsoft:netmeeting
 
@@ -1243,9 +1243,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=92586457816446&w=
 
 #### 13. CVE-1999-0717 (N/A)
 
-**CVE ID**: CVE-1999-0717
+**CVE ID**: CVE-1999-0717 [NVD]
 **Severity**: N/A CVSS: 2.6
-**Affected Products**: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_98, microsoft:excel, microsoft:windows_95
+**Affected Products**: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_95, microsoft:windows_98, microsoft:excel
 
 **Description**:
 A remote attacker can disable the virus warning mechanism in Microsoft Excel 97.
@@ -1263,7 +1263,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=
 
 #### 14. CVE-1999-1033 (N/A)
 
-**CVE ID**: CVE-1999-1033
+**CVE ID**: CVE-1999-1033 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: microsoft:outlook_express
 
@@ -1284,7 +1284,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=92647407427342&w=
 
 #### 15. CVE-1999-1520 (N/A)
 
-**CVE ID**: CVE-1999-1520
+**CVE ID**: CVE-1999-1520 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: microsoft:site_server
 
@@ -1305,7 +1305,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=92647407227303&w=
 
 #### 16. CVE-1999-1368 (N/A)
 
-**CVE ID**: CVE-1999-1368
+**CVE ID**: CVE-1999-1368 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: broadcom:inoculateit
 
@@ -1325,9 +1325,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=ntbugtraq&m=92652152723629&
 
 #### 17. CVE-1999-1164 (N/A)
 
-**CVE ID**: CVE-1999-1164
+**CVE ID**: CVE-1999-1164 [NVD]
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: microsoft:outlook_express, microsoft:outlook
+**Affected Products**: microsoft:outlook, microsoft:outlook_express
 
 **Description**:
 Microsoft Outlook client allows remote attackers to cause a denial of service by sending multiple email messages with the same X-UIDL headers, which causes Outlook to hang.
@@ -1343,9 +1343,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93041631215856&w=
 
 #### 18. CVE-1999-1011 (N/A)
 
-**CVE ID**: CVE-1999-1011
+**CVE ID**: CVE-1999-1011 [NVD]
 **Severity**: N/A CVSS: 10.0
-**Affected Products**: microsoft:internet_information_server, microsoft:site_server, microsoft:index_server, microsoft:data_access_components
+**Affected Products**: microsoft:index_server, microsoft:internet_information_server, microsoft:data_access_components, microsoft:site_server
 
 **Description**:
 The Remote Data Service (RDS) DataFactory component of Microsoft Data Access Components (MDAC) in IIS 3.x and 4.x exposes unsafe methods, which allows remote attackers to execute arbitrary commands.
@@ -1364,7 +1364,7 @@ Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/j-054.shtml.
 
 #### 19. CVE-2000-0323 (N/A)
 
-**CVE ID**: CVE-2000-0323
+**CVE ID**: CVE-2000-0323 [NVD]
 **Severity**: N/A CVSS: 7.6
 **Affected Products**: microsoft:jet
 
@@ -1385,7 +1385,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/templates/archive.
 
 #### 20. CVE-1999-0700 (N/A)
 
-**CVE ID**: CVE-1999-0700
+**CVE ID**: CVE-1999-0700 [NVD]
 **Severity**: N/A CVSS: 6.2
 **Affected Products**: microsoft:windows_nt, microsoft:windows_2000
 
@@ -1405,7 +1405,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=
 
 #### 21. CVE-1999-0682 (N/A)
 
-**CVE ID**: CVE-1999-0682
+**CVE ID**: CVE-1999-0682 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: microsoft:exchange_server
 
@@ -1426,9 +1426,9 @@ Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=
 
 #### 22. CVE-1999-0749 (N/A)
 
-**CVE ID**: CVE-1999-0749
+**CVE ID**: CVE-1999-0749 [NVD]
 **Severity**: N/A CVSS: 2.6
-**Affected Products**: microsoft:windows_98, microsoft:windows_95
+**Affected Products**: microsoft:windows_95, microsoft:windows_98
 
 **Description**:
 Buffer overflow in Microsoft Telnet client in Windows 95 and Windows 98 via a malformed Telnet argument.
@@ -1446,7 +1446,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/586.
 
 #### 23. CVE-2000-0325 (N/A)
 
-**CVE ID**: CVE-2000-0325
+**CVE ID**: CVE-2000-0325 [NVD]
 **Severity**: N/A CVSS: 7.2
 **Affected Products**: microsoft:jet
 
@@ -1467,7 +1467,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/548.
 
 #### 24. CVE-1999-1052 (N/A)
 
-**CVE ID**: CVE-1999-1052
+**CVE ID**: CVE-1999-1052 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: microsoft:frontpage
 
@@ -1485,9 +1485,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93582550911564&w=
 
 #### 25. CVE-1999-1016 (N/A)
 
-**CVE ID**: CVE-1999-1016
+**CVE ID**: CVE-1999-1016 [NVD]
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: qualcomm:eudora, microsoft:internet_explorer, microsoft:frontpage, microsoft:outlook_express
+**Affected Products**: qualcomm:eudora, microsoft:outlook_express, microsoft:frontpage, microsoft:internet_explorer
 
 **Description**:
 Microsoft HTML control as used in (1) Internet Explorer 5.0, (2) FrontPage Express, (3) Outlook Express 5, and (4) Eudora, and possibly others, allows remote malicious web site or HTML emails to cause a denial of service (100% CPU consumption) via large HTML form fields such as text inputs in a table cell.
@@ -1505,9 +1505,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=ntbugtraq&m=93578772920970&
 
 #### 26. CVE-1999-0910 (N/A)
 
-**CVE ID**: CVE-1999-0910
+**CVE ID**: CVE-1999-0910 [NVD]
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: microsoft:site_server, microsoft:site_server_commerce, microsoft:commercial_internet_system
+**Affected Products**: microsoft:commercial_internet_system, microsoft:site_server_commerce, microsoft:site_server
 
 **Description**:
 Microsoft Site Server and Commercial Internet System (MCIS) do not set an expiration for a cookie, which could then be cached by a proxy and inadvertently used by a different user.
@@ -1525,7 +1525,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/625.
 
 #### 27. CVE-1999-0794 (N/A)
 
-**CVE ID**: CVE-1999-0794
+**CVE ID**: CVE-1999-0794 [NVD]
 **Severity**: N/A CVSS: 4.6
 **Affected Products**: microsoft:office, microsoft:excel
 
@@ -1546,9 +1546,9 @@ Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=
 
 #### 28. CVE-1999-0766 (N/A)
 
-**CVE ID**: CVE-1999-0766
+**CVE ID**: CVE-1999-0766 [NVD]
 **Severity**: N/A CVSS: 9.3
-**Affected Products**: microsoft:java_virtual_machine, microsoft:internet_explorer
+**Affected Products**: microsoft:internet_explorer, microsoft:java_virtual_machine
 
 **Description**:
 The Microsoft Java Virtual Machine allows a malicious Java applet to execute arbitrary commands outside of the sandbox environment.
@@ -1567,7 +1567,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=
 
 #### 29. CVE-2000-0327 (N/A)
 
-**CVE ID**: CVE-2000-0327
+**CVE ID**: CVE-2000-0327 [NVD]
 **Severity**: N/A CVSS: 7.6
 **Affected Products**: microsoft:virtual_machine
 
@@ -1587,9 +1587,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93993545118416&w=
 
 #### 30. CVE-2000-0329 (N/A)
 
-**CVE ID**: CVE-2000-0329
+**CVE ID**: CVE-2000-0329 [NVD]
 **Severity**: N/A CVSS: 5.1
-**Affected Products**: microsoft:ie, microsoft:outlook_express, microsoft:outlook, microsoft:internet_explorer
+**Affected Products**: microsoft:outlook, microsoft:outlook_express, microsoft:internet_explorer, microsoft:ie
 
 **Description**:
 A Microsoft ActiveX control allows a remote attacker to execute a malicious cabinet file via an attachment and an embedded script in an HTML mail, aka the "Active Setup Control" vulnerability.
@@ -1605,9 +1605,9 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 #### 31. CVE-2000-0073 (N/A)
 
-**CVE ID**: CVE-2000-0073
+**CVE ID**: CVE-2000-0073 [NVD]
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_98
+**Affected Products**: microsoft:windows_98, microsoft:windows_nt, microsoft:windows_2000
 
 **Description**:
 Buffer overflow in Microsoft Rich Text Format (RTF) reader allows attackers to cause a denial of service via a malformed control word.
@@ -1626,7 +1626,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=
 
 #### 32. CVE-1999-0999 (N/A)
 
-**CVE ID**: CVE-1999-0999
+**CVE ID**: CVE-1999-0999 [NVD]
 **Severity**: N/A CVSS: 4.3
 **Affected Products**: microsoft:sql_server
 
@@ -1647,7 +1647,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=
 
 #### 33. CVE-1999-0993 (N/A)
 
-**CVE ID**: CVE-1999-0993
+**CVE ID**: CVE-1999-0993 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: microsoft:exchange_server
 
@@ -1665,7 +1665,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 34. CVE-1999-1043 (N/A)
 
-**CVE ID**: CVE-1999-1043
+**CVE ID**: CVE-1999-1043 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: microsoft:exchange_server
 
@@ -1683,7 +1683,7 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 #### 35. CVE-1999-1055 (N/A)
 
-**CVE ID**: CVE-1999-1055
+**CVE ID**: CVE-1999-1055 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: microsoft:excel
 
@@ -1704,7 +1704,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/179.
 
 #### 36. CVE-1999-1246 (N/A)
 
-**CVE ID**: CVE-1999-1246
+**CVE ID**: CVE-1999-1246 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: microsoft:site_server
 
@@ -1724,7 +1724,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/support/kb/article
 
 #### 37. CVE-1999-1259 (N/A)
 
-**CVE ID**: CVE-1999-1259
+**CVE ID**: CVE-1999-1259 [NVD]
 **Severity**: N/A CVSS: 2.1
 **Affected Products**: microsoft:office
 
@@ -1744,7 +1744,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/support/kb/article
 
 #### 38. CVE-1999-1279 (N/A)
 
-**CVE ID**: CVE-1999-1279
+**CVE ID**: CVE-1999-1279 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: microsoft:sna_server
 
@@ -1764,7 +1764,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/support/kb/article
 
 #### 39. CVE-1999-1591 (N/A)
 
-**CVE ID**: CVE-1999-1591
+**CVE ID**: CVE-1999-1591 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: microsoft:internet_information_server, microsoft:visual_interdev
 
@@ -1785,7 +1785,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/ntbugtra
 
 #### 40. CVE-2000-0053 (N/A)
 
-**CVE ID**: CVE-2000-0053
+**CVE ID**: CVE-2000-0053 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: microsoft:commercial_internet_system
 
@@ -1806,7 +1806,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=
 
 #### 41. CVE-2000-0097 (N/A)
 
-**CVE ID**: CVE-2000-0097
+**CVE ID**: CVE-2000-0097 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: microsoft:index_server
 
@@ -1827,7 +1827,7 @@ Apply patch from vendor. Monitor http://www.osvdb.org/1210.
 
 #### 42. CVE-2000-0098 (N/A)
 
-**CVE ID**: CVE-2000-0098
+**CVE ID**: CVE-2000-0098 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: microsoft:index_server
 
@@ -1845,7 +1845,7 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 #### 43. CVE-2000-0132 (N/A)
 
-**CVE ID**: CVE-2000-0132
+**CVE ID**: CVE-2000-0132 [NVD]
 **Severity**: N/A CVSS: 2.6
 **Affected Products**: microsoft:virtual_machine
 
@@ -1863,7 +1863,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/957.
 
 #### 44. CVE-2000-0089 (N/A)
 
-**CVE ID**: CVE-2000-0089
+**CVE ID**: CVE-2000-0089 [NVD]
 **Severity**: N/A CVSS: 2.1
 **Affected Products**: microsoft:windows_nt
 
@@ -1884,7 +1884,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=
 
 #### 45. CVE-2000-0161 (N/A)
 
-**CVE ID**: CVE-2000-0161
+**CVE ID**: CVE-2000-0161 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: microsoft:site_server
 
@@ -1904,9 +1904,9 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/994.
 
 #### 46. CVE-2000-0162 (N/A)
 
-**CVE ID**: CVE-2000-0162
+**CVE ID**: CVE-2000-0162 [NVD]
 **Severity**: N/A CVSS: 5.1
-**Affected Products**: microsoft:ie, microsoft:visual_studio, microsoft:internet_explorer
+**Affected Products**: microsoft:visual_studio, microsoft:internet_explorer, microsoft:ie
 
 **Description**:
 The Microsoft virtual machine (VM) in Internet Explorer 4.x and 5.x allows a remote attacker to read files via a malicious Java applet that escapes the Java sandbox, aka the "VM File Reading" vulnerability.
@@ -1922,9 +1922,9 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 #### 47. CVE-2000-0160 (N/A)
 
-**CVE ID**: CVE-2000-0160
+**CVE ID**: CVE-2000-0160 [NVD]
 **Severity**: N/A CVSS: 7.6
-**Affected Products**: microsoft:ie, microsoft:outlook, microsoft:internet_explorer
+**Affected Products**: microsoft:outlook, microsoft:internet_explorer, microsoft:ie
 
 **Description**:
 The Microsoft Active Setup ActiveX component in Internet Explorer 4.x and 5.x allows a remote attacker to install software components without prompting the user by stating that the software's manufacturer is Microsoft.
@@ -1940,9 +1940,9 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/templates/archive.
 
 #### 48. CVE-2000-0216 (N/A)
 
-**CVE ID**: CVE-2000-0216
+**CVE ID**: CVE-2000-0216 [NVD]
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: microsoft:exchange_server, microsoft:outlook, microsoft:windows_messaging
+**Affected Products**: microsoft:outlook, microsoft:windows_messaging, microsoft:exchange_server
 
 **Description**:
 Microsoft email clients in Outlook, Exchange, and Windows Messaging automatically respond to Read Receipt and Delivery Receipt tags, which could allow an attacker to flood a mail system with responses by forging a Read Receipt request that is redirected to a large distribution list.
@@ -1958,7 +1958,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/ntbugtra
 
 #### 49. CVE-2000-0201 (N/A)
 
-**CVE ID**: CVE-2000-0201
+**CVE ID**: CVE-2000-0201 [NVD]
 **Severity**: N/A CVSS: 5.1
 **Affected Products**: microsoft:internet_explorer
 
@@ -1976,9 +1976,9 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1033.
 
 #### 50. CVE-2000-0168 (N/A)
 
-**CVE ID**: CVE-2000-0168
+**CVE ID**: CVE-2000-0168 [NVD]
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: microsoft:windows_98se, microsoft:windows_98, microsoft:windows_95
+**Affected Products**: microsoft:windows_95, microsoft:windows_98, microsoft:windows_98se
 
 **Description**:
 Microsoft Windows 9x operating systems allow an attacker to cause a denial of service via a pathname that includes file device names, aka the "DOS Device in Path Name" vulnerability.

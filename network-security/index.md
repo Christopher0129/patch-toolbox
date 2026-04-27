@@ -8,12 +8,12 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 07:00:44 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 08:10:15 UTC_
 
 ## 中文 🇨🇳
 **网络安全漏洞知识库**
 
-本页面每小时自动从 NVD、Exploit-DB、GitHub Security Advisories、CISA KEV 等平台抓取最新网络安全漏洞（含0-Day公开利用）、应对措施及补丁信息，自动去重并增量更新。
+本页面每6小时自动从 NVD、Exploit-DB、GitHub Security Advisories、CISA KEV、Packet Storm、FreeBuf、安全客、看雪论坛、Security Tracker 等平台抓取最新网络安全漏洞（含0-Day公开利用）、应对措施及补丁信息，自动去重并增量更新。
 
 ### CVE 漏洞库 (NVD)
 
@@ -7134,12 +7134,791 @@ Apply vendor patch before 2026-03-30. CISA directive enforcement required.
 > 📎 来源 / Source: https://nvd.nist.gov/vuln/detail/CVE-2025-53521
 
 
+### 安全客资讯
+
+#### 1. AQK-5d3064d6 (INFO)
+
+**CVE/编号**: AQK-5d3064d6 [Anquanke]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**参考链接**:
+- https://www.anquanke.com/post/id/315341
+
+> 📎 来源 / Source: https://www.anquanke.com/post/id/315341
+
+#### 2. AQK-051508a0 (INFO)
+
+**CVE/编号**: AQK-051508a0 [Anquanke]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**参考链接**:
+- https://www.anquanke.com/post/id/315337
+
+> 📎 来源 / Source: https://www.anquanke.com/post/id/315337
+
+#### 3. AQK-8487cfcb (INFO)
+
+**CVE/编号**: AQK-8487cfcb [Anquanke]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**参考链接**:
+- https://www.anquanke.com/post/id/315292
+
+> 📎 来源 / Source: https://www.anquanke.com/post/id/315292
+
+#### 4. AQK-71575c62 (INFO)
+
+**CVE/编号**: AQK-71575c62 [Anquanke]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**参考链接**:
+- https://www.anquanke.com/post/id/315277
+
+> 📎 来源 / Source: https://www.anquanke.com/post/id/315277
+
+#### 5. AQK-0649efcc (INFO)
+
+**CVE/编号**: AQK-0649efcc [Anquanke]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**参考链接**:
+- https://www.anquanke.com/post/id/315253
+
+> 📎 来源 / Source: https://www.anquanke.com/post/id/315253
+
+#### 6. AQK-eaf7ae10 (INFO)
+
+**CVE/编号**: AQK-eaf7ae10 [Anquanke]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**参考链接**:
+- https://www.anquanke.com/post/id/315234
+
+> 📎 来源 / Source: https://www.anquanke.com/post/id/315234
+
+#### 7. AQK-ef10f16b (INFO)
+
+**CVE/编号**: AQK-ef10f16b [Anquanke]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**参考链接**:
+- https://www.anquanke.com/post/id/315195
+
+> 📎 来源 / Source: https://www.anquanke.com/post/id/315195
+
+#### 8. AQK-2ecc89bb (INFO)
+
+**CVE/编号**: AQK-2ecc89bb [Anquanke]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**参考链接**:
+- https://www.anquanke.com/post/id/315209
+
+> 📎 来源 / Source: https://www.anquanke.com/post/id/315209
+
+#### 9. AQK-8e9c310e (INFO)
+
+**CVE/编号**: AQK-8e9c310e [Anquanke]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**参考链接**:
+- https://www.anquanke.com/post/id/315197
+
+> 📎 来源 / Source: https://www.anquanke.com/post/id/315197
+
+#### 10. AQK-1d90ab1e (INFO)
+
+**CVE/编号**: AQK-1d90ab1e [Anquanke]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**参考链接**:
+- https://www.anquanke.com/post/id/315140
+
+> 📎 来源 / Source: https://www.anquanke.com/post/id/315140
+
+#### 11. AQK-9dc5cf1d (INFO)
+
+**CVE/编号**: AQK-9dc5cf1d [Anquanke]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**参考链接**:
+- https://www.anquanke.com/post/id/315145
+
+> 📎 来源 / Source: https://www.anquanke.com/post/id/315145
+
+#### 12. AQK-941bbe27 (INFO)
+
+**CVE/编号**: AQK-941bbe27 [Anquanke]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**参考链接**:
+- https://www.anquanke.com/post/id/315148
+
+> 📎 来源 / Source: https://www.anquanke.com/post/id/315148
+
+#### 13. AQK-039e3338 (INFO)
+
+**CVE/编号**: AQK-039e3338 [Anquanke]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**参考链接**:
+- https://www.anquanke.com/post/id/315152
+
+> 📎 来源 / Source: https://www.anquanke.com/post/id/315152
+
+#### 14. AQK-592cec16 (INFO)
+
+**CVE/编号**: AQK-592cec16 [Anquanke]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**参考链接**:
+- https://www.anquanke.com/post/id/315155
+
+> 📎 来源 / Source: https://www.anquanke.com/post/id/315155
+
+#### 15. AQK-6319e27e (INFO)
+
+**CVE/编号**: AQK-6319e27e [Anquanke]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**参考链接**:
+- https://www.anquanke.com/post/id/315158
+
+> 📎 来源 / Source: https://www.anquanke.com/post/id/315158
+
+
+### 看雪论坛技术分析
+
+#### 1. KX-ed01620f (INFO)
+
+**CVE/编号**: KX-ed01620f [Kanxue]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+作者：Matija Franklin, Nenad Tomašev等 译者：知道创宇404实验室翻译组 原文链接：https://blog.qiaomu.ai/api/images/document/2026/04/603f0cae8cd8ab94-ai-agent-trap.pdf 摘要 自主AI智能体日益在网络中自主行动，它们面临一种全新挑战：信息环境本身。由此产生了一个关键安全漏洞，我们称之...
+
+**应对措施 / 缓解方案**:
+Review technical analysis and apply vendor patches accordingly.
+
+**参考链接**:
+- https://paper.seebug.org/3479
+
+> 📎 来源 / Source: https://paper.seebug.org/3479
+
+#### 2. KX-c309ba08 (INFO)
+
+**CVE/编号**: KX-c309ba08 [Kanxue]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+作者：知道创宇高级威胁情报团队 一、事件概述 近期，我们在客户现场应急响应中排查到一起新型攻击事件。攻击者伪造常用工具安装包诱导执行，随即部署一款带有合法数字签名的终端管理软件。经技术溯源确认，该程序具备主机信息收集、远程控制等完整恶意能力，其 C2 基础设施与 “银狐” 高度关联。由于合法数字签名的天然 “免杀” 特性，该恶意程序可轻易绕过主流杀毒软件检测，实现隐蔽入侵与长期控制。 银狐简介 银...
+
+**应对措施 / 缓解方案**:
+Review technical analysis and apply vendor patches accordingly.
+
+**参考链接**:
+- https://paper.seebug.org/3478
+
+> 📎 来源 / Source: https://paper.seebug.org/3478
+
+#### 3. KX-7fd1d7a9 (INFO)
+
+**CVE/编号**: KX-7fd1d7a9 [Kanxue]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+作者：Yunhao Feng, Yifan Ding, Yingshui Tan等 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2604.06811v1/https://arxiv.org/html/2604.06811v1 摘要 基于技能的智能体系统通过组合可复用技能完成复杂任务，在提升模块化与可扩展性的同时，引入了尚未被充分研究的安全攻击面。本文提...
+
+**应对措施 / 缓解方案**:
+Review technical analysis and apply vendor patches accordingly.
+
+**参考链接**:
+- https://paper.seebug.org/3477
+
+> 📎 来源 / Source: https://paper.seebug.org/3477
+
+#### 4. KX-3c1d36e1 (INFO)
+
+**CVE/编号**: KX-3c1d36e1 [Kanxue]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+作者：Md. Jueal Mia1, Joaquin Molto1, Yanzhao Wu1, M. Hadi Amini 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2603.28817v1/https://arxiv.org/html/2603.28817v1 摘要 小语言模型（SLM）正成为大语言模型（LLM）高效且经济可行的替代方案，在计算成本...
+
+**应对措施 / 缓解方案**:
+Review technical analysis and apply vendor patches accordingly.
+
+**参考链接**:
+- https://paper.seebug.org/3476
+
+> 📎 来源 / Source: https://paper.seebug.org/3476
+
+#### 5. KX-f5ce9144 (INFO)
+
+**CVE/编号**: KX-f5ce9144 [Kanxue]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+作者：Jack Vanlyssel, Gruia-Catalin Roman, Afsah Anwar 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2603.10388v1/https://arxiv.org/html/2603.10388v1 摘要 欺骗攻击是地面系统最具破坏性的网络威胁之一，而在太空中这类威胁愈发危险——卫星难以在轨维修，且运营方依...
+
+**应对措施 / 缓解方案**:
+Review technical analysis and apply vendor patches accordingly.
+
+**参考链接**:
+- https://paper.seebug.org/3475
+
+> 📎 来源 / Source: https://paper.seebug.org/3475
+
+#### 6. KX-7dda2859 (INFO)
+
+**CVE/编号**: KX-7dda2859 [Kanxue]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+作者：Nasim Soltani, Shayan Nejadshamsi等 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2603.10413v1/https://arxiv.org/html/2603.10413v1 摘要 对抗样本会对机器学习（ML）算法构成严重威胁。若被用于操控基于机器学习的网络入侵检测系统（NIDS）行为，将危及网络安全。本研究旨...
+
+**应对措施 / 缓解方案**:
+Review technical analysis and apply vendor patches accordingly.
+
+**参考链接**:
+- https://paper.seebug.org/3474
+
+> 📎 来源 / Source: https://paper.seebug.org/3474
+
+#### 7. KX-623db9a3 (INFO)
+
+**CVE/编号**: KX-623db9a3 [Kanxue]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+作者：Weinan Dai, Hanlin Wu, Qiying Yu等 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2602.24286v1/https://arxiv.org/html/2602.24286v1 摘要 GPU内核优化是现代深度学习的基础，但仍是一项高度专业化的任务，需要深厚的硬件专业知识。尽管大语言模型（LLM）在通用编程任务中表现...
+
+**应对措施 / 缓解方案**:
+Review technical analysis and apply vendor patches accordingly.
+
+**参考链接**:
+- https://paper.seebug.org/3473
+
+> 📎 来源 / Source: https://paper.seebug.org/3473
+
+#### 8. KX-07a04ed0 (INFO)
+
+**CVE/编号**: KX-07a04ed0 [Kanxue]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+Author: Knownsec 404 Advanced Threat Intelligence Team I. Introduction SilverFox has become one of the most active cyber threats in recent years, targeting managerial and finance staff in organization...
+
+**应对措施 / 缓解方案**:
+Review technical analysis and apply vendor patches accordingly.
+
+**参考链接**:
+- https://paper.seebug.org/3472
+
+> 📎 来源 / Source: https://paper.seebug.org/3472
+
+#### 9. KX-b70ad75b (INFO)
+
+**CVE/编号**: KX-b70ad75b [Kanxue]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+作者：Neha Nagaraja, Lan Zhang, Zhilong Wang 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2603.03637v1/https://arxiv.org/html/2603.03637v1 摘要：多模态大语言模型（MLLMs）融合视觉与文本能力赋能各类应用，但这种融合也引入了新的安全漏洞。本文研究基于图像的提示注入（...
+
+**应对措施 / 缓解方案**:
+Review technical analysis and apply vendor patches accordingly.
+
+**参考链接**:
+- https://paper.seebug.org/3471
+
+> 📎 来源 / Source: https://paper.seebug.org/3471
+
+#### 10. KX-92ab2f67 (INFO)
+
+**CVE/编号**: KX-92ab2f67 [Kanxue]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+作者：Jai Minton, Ryan Dowd 原文链接：https://www.huntress.com/blog/openclaw-github-ghostsocks-infostealer/https://www.huntress.com/blog/openclaw-github-ghostsocks-infostealer 摘要 信息窃取型恶意软件是针对面向公众系统发起严重攻击的初始访问...
+
+**应对措施 / 缓解方案**:
+Review technical analysis and apply vendor patches accordingly.
+
+**参考链接**:
+- https://paper.seebug.org/3470
+
+> 📎 来源 / Source: https://paper.seebug.org/3470
+
+
+### 先知社区技术分析
+
+#### 1. XZ-61f16a25 (INFO)
+
+**CVE/编号**: XZ-61f16a25 [Xianzhi]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+自动化越狱提示词的生成
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接**:
+- https://xz.aliyun.com/news/92012
+
+> 📎 来源 / Source: https://xz.aliyun.com/news/92012
+
+#### 2. XZ-0585d441 (INFO)
+
+**CVE/编号**: XZ-0585d441 [Xianzhi]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+第一次做这种类型的，大体记录一下过程
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接**:
+- https://xz.aliyun.com/news/92009
+
+> 📎 来源 / Source: https://xz.aliyun.com/news/92009
+
+#### 3. XZ-c3c791fe (INFO)
+
+**CVE/编号**: XZ-c3c791fe [Xianzhi]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+一个自定义的序列化的题目
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接**:
+- https://xz.aliyun.com/news/92004
+
+> 📎 来源 / Source: https://xz.aliyun.com/news/92004
+
+#### 4. CVE-2026-34621 (INFO)
+
+**CVE/编号**: CVE-2026-34621 [Xianzhi]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+模拟构建漏洞 PDF 响应载荷后发现，该载荷可异常驻留并嵌入 Adobe Acrobat Reader 内部，即便关闭 PDF、重启软件乃至操作系统，仍能持续触发恶意代码执行。
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接**:
+- https://xz.aliyun.com/news/92003
+
+> 📎 来源 / Source: https://xz.aliyun.com/news/92003
+
+#### 5. XZ-49ba87b3 (INFO)
+
+**CVE/编号**: XZ-49ba87b3 [Xianzhi]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+这个题目考了花指令，魔改rc4，protobuf，纯字符shellcode，考的很多，这里借此简单的总结一下各个部分
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接**:
+- https://xz.aliyun.com/news/92001
+
+> 📎 来源 / Source: https://xz.aliyun.com/news/92001
+
+#### 6. XZ-8915a9fe (INFO)
+
+**CVE/编号**: XZ-8915a9fe [Xianzhi]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+2026软件安全赛半决赛PWN Robo_admin WP fix&break
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接**:
+- https://xz.aliyun.com/news/91999
+
+> 📎 来源 / Source: https://xz.aliyun.com/news/91999
+
+#### 7. XZ-363468b9 (INFO)
+
+**CVE/编号**: XZ-363468b9 [Xianzhi]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+该文章介绍了一道 Node.js CTF 题目的解题思路：攻击者首先利用 /changepassword 接口的 merge() 函数原型链污染漏洞，注入 isAdmin: true 提权为管理员；随后通过 CVE-2026-22709 绕过 vm2 沙箱执行任意命令；最后利用 root 权限的 /backup.sh 定时脚本，将 /flag 内容写入静态目录实现读取。核心链：原型污染提权 → v
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接**:
+- https://xz.aliyun.com/news/91998
+
+> 📎 来源 / Source: https://xz.aliyun.com/news/91998
+
+#### 8. XZ-fbecc6e1 (INFO)
+
+**CVE/编号**: XZ-fbecc6e1 [Xianzhi]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+在遇到vue框架的时候,使用相关插件进行接口相关的测试，往往更容易找到突破口。
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接**:
+- https://xz.aliyun.com/news/91997
+
+> 📎 来源 / Source: https://xz.aliyun.com/news/91997
+
+#### 9. XZ-f1b7b419 (INFO)
+
+**CVE/编号**: XZ-f1b7b419 [Xianzhi]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+结合简单模型实验，直指漏洞利用
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接**:
+- https://xz.aliyun.com/news/91995
+
+> 📎 来源 / Source: https://xz.aliyun.com/news/91995
+
+#### 10. CVE-2026-1207 (INFO)
+
+**CVE/编号**: CVE-2026-1207 [Xianzhi]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+Django 框架在使用 PostGIS 查询地理栅格（raster）数据时，若将未经验证的用户输入直接作为 band index（波段索引）参数，会引发 SQL 注入
+
+**应对措施 / 缓解方案**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接**:
+- https://xz.aliyun.com/news/91993
+
+> 📎 来源 / Source: https://xz.aliyun.com/news/91993
+
+
+### 嘶吼 RoarTalk
+
+#### 1. SH-d2ad1f16 (INFO)
+
+**CVE/编号**: SH-d2ad1f16 [Sihou]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+当前，工业互联网深度融合发展，关键信息基础设施安全防护需求持续攀升，实战型工业信息安全人才短缺、训练场景稀缺、理论与实践脱节等制约行业发展的核心痛点日益凸显。在此背景下，烽台科技打造的聚焦工业信息安全人才培养与生态共建的纵横网络靶场社区正式发布。该平台依托烽台科技十余年工业靶场技术沉淀，以“虚实融合”技术为核心，整合AI智能体、数字孪生等前沿能力，旨在打造工业安全领域“理论+实战+生态”三位一体的服务体系，为高校、企业、科研院所提供专业化的工业安全实训与技术交流空间。从“竞赛工具”到“生态平台”：网络靶场社区的迭代之路回溯烽台科技网络靶场社区的发展历程，其起点可追溯至2015年——公司成立后其核心产品便是工控网络靶场，由此开启了工业安全领域的深耕之路。早期社区更像“竞赛工具”，聚焦赛事聚人气，而此次全新发布的纵横网络靶场社区则进行了针对性升级：不仅保留竞赛模块，还新增实训专区，计划陆续开放
+
+**应对措施 / 缓解方案**:
+Follow security vendor guidance. Apply recommended patches.
+
+**参考链接**:
+- https://www.4hou.com/posts/nXQ5
+
+> 📎 来源 / Source: https://www.4hou.com/posts/nXQ5
+
+#### 2. SH-c366ccb6 (INFO)
+
+**CVE/编号**: SH-c366ccb6 [Sihou]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+梆梆安全发布《2026年Q1移动应用安全风险报告》。本报告基于梆梆安全移动应用监管平台在2026年一季度的威胁监测数据与深度安全分析成果，系统梳理当前国内移动应用面临的新型攻击技术演进与安全趋势变化，聚焦盗版仿冒、境外数据传输、高危漏洞、个人隐私违规等多个维度，为移动应用安全建设工作提供参考与实践指引。
+当前，我国数字经济与实体经济融合持续深入，移动互联网已演进为支撑社会数字化转型的关键基础设施。根据中国互联网络信息中心（CNNIC）第57次《中国互联网络发展状况统计报告》，截至2025年12月，我国网民规模达11.25亿，互联网普及率突破80%，其中手机网民规模达11.21亿，占比高达99.6%，移动终端在数字接入生态中的核心地位进一步巩固。
+与此同时，用户对移动应用的依赖程度持续加深。数据显示，我国网民人均每周上网时长已达32.5小时，人均使用APP数量接近30款，移动互联网接入流量全
+
+**应对措施 / 缓解方案**:
+Follow security vendor guidance. Apply recommended patches.
+
+**参考链接**:
+- https://www.4hou.com/posts/pKwQ
+
+> 📎 来源 / Source: https://www.4hou.com/posts/pKwQ
+
+#### 3. SH-bf65c18d (INFO)
+
+**CVE/编号**: SH-bf65c18d [Sihou]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+依据《网络安全法》《个人信息保护法》等法律法规，经公安部计算机信息系统安全产品质量监督检验中心检测，37款移动应用存在违法违规收集使用个人信息情况，具体通报如下：1、未公开收集使用规则。涉及21款移动应用如下：《奇峰商城》（支付宝小程序）、《聚优商城》（微信小程序）、《亿秀分期商城》（支付宝小程序）、《鲜范商城》（微信小程序）、《京机数码手机商城》（支付宝小程序）、《创维官方商城》（支付宝小程序）、《万事商城》（支付宝小程序）、《尚至然商城》（支付宝小程序）、《知墨商城》（支付宝小程序）、《领充充电桩商城》（支付宝小程序）、《世有品商城》（支付宝小程序）、《阿京妈会员》（微信小程序）、《仲盛世界SKYMALL》（支付宝小程序）、《衣恋集团商城》（微信小程序）、《快贷分期》（版本4.0.1，应用宝）、《百师商城》（微信小程序）、《松下商城》（微信小程序）、《意尔康官方商城》（微信小程序）、《
+
+**应对措施 / 缓解方案**:
+Follow security vendor guidance. Apply recommended patches.
+
+**参考链接**:
+- https://www.4hou.com/posts/PGXA
+
+> 📎 来源 / Source: https://www.4hou.com/posts/PGXA
+
+#### 4. SH-88674abf (INFO)
+
+**CVE/编号**: SH-88674abf [Sihou]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+最新发现，企业级安全文件传输解决方案 Progress ShareFile 存在两处漏洞，攻击者可将其组合利用，在无需身份认证的情况下从受影响环境中窃取文件。Progress ShareFile 是一款文档共享与协作产品，广泛应用于大中型企业。此类文件传输平台历来是勒索软件团伙的重点攻击目标，此前 Clop 勒索组织就曾利用 Accellion FTA、SolarWinds Serv-U、Gladinet CentreStack、GoAnywhere MFT、MOVEit Transfer、Cleo 等产品中的漏洞实施大规模数据窃取攻击。&nbsp;watchTowr 的研究人员在 Progress ShareFile 5.x 分支的 Storage Zones Controller（SZC，存储区域控制器）组件中，发现了一处认证绕过漏洞（CVE-2026-2699）和一处远程代码执行漏洞
+
+**应对措施 / 缓解方案**:
+Follow security vendor guidance. Apply recommended patches.
+
+**参考链接**:
+- https://www.4hou.com/posts/MXOm
+
+> 📎 来源 / Source: https://www.4hou.com/posts/MXOm
+
+#### 5. SH-88fdaf59 (INFO)
+
+**CVE/编号**: SH-88fdaf59 [Sihou]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+嘶吼安全动态|【国内新闻】八部门联合发布《科技数据安全管理暂行规定》，4月10日起实施摘要：明确科技数据分类分级、算法备案、跨境管控等要求，强化科研与算力设施安全。原文链接：http://m.toutiao.com/group/7626936382984700451/腾讯QClaw V2上线“龙虾管家”，全流程防护AI操作安全摘要：默认开启安全防护，覆盖Prompt、技能与脚本执行，实时拦截恶意指令、技能投毒、文件误删等风险。原文链接：https://www.sohu.com/a/1007377777_115060?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334新型底层木马NoVoice爆发，全球230万设备中招，格式化无法清除摘要：Rootkit级恶意程序深度感染安卓与iOS，国内90万台设备中招，重置后仍复活，窃取隐私并远程控制。原文链接：http
+
+**应对措施 / 缓解方案**:
+Follow security vendor guidance. Apply recommended patches.
+
+**参考链接**:
+- https://www.4hou.com/posts/8gPj
+
+> 📎 来源 / Source: https://www.4hou.com/posts/8gPj
+
+#### 6. SH-16395b52 (INFO)
+
+**CVE/编号**: SH-16395b52 [Sihou]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+一款名为CrystalRAT的新型远程控制木马正在Telegram上以恶意软件即服务（MaaS）模式推广，提供远程控制、数据窃取、键盘记录与剪贴板劫持等核心功能。&nbsp;该恶意软件于今年1月现身，采用分级订阅模式运营。除Telegram频道外，运营者还在YouTube开设专门营销账号，通过功能演示视频进行推广。&nbsp;卡巴斯基研究人员在最近发布的报告中指出，这款木马与WebRAT（Salat窃密木马）高度相似，二者拥有相同的控制面板设计、均使用Go语言编写，且采用类似的机器人销售系统。&nbsp;CrystalX还内置了大量恶作剧功能，用于骚扰用户或干扰其正常工作。尽管带有“娱乐化”外观，该木马仍具备全面且强大的数据窃取能力。Telegram频道推广CrystaX RATCrystalX RAT功能详情卡巴斯基表示，该恶意软件配备了易用的管理后台与自动化生成工具，支持多项自定义配置
+
+**应对措施 / 缓解方案**:
+Follow security vendor guidance. Apply recommended patches.
+
+**参考链接**:
+- https://www.4hou.com/posts/LGMD
+
+> 📎 来源 / Source: https://www.4hou.com/posts/LGMD
+
+#### 7. SH-8b2dd81f (INFO)
+
+**CVE/编号**: SH-8b2dd81f [Sihou]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+嘶吼安全动态【国内新闻】上海人工智能实验室发布“珠穆朗玛计划”，打造AI4S全国中枢摘要：上海AI实验室重磅发布“AGI4S 珠穆朗玛计划”，同步推出DeepLink融合算力平台。该计划旨在通过全维度合作打破算力与数据壁垒，为高能物理、疾病诊断等关键科学领域提供自主受控的智能底座。原文链接：https://www.news.cn/tech/20260408/fe5a61186ceb4582bdcf019c9abe0733/c.html中央网信办召开全国网络法治工作会议，部署 “十五五” 依法治网重点任务摘要：会议明确完善网络法律体系、强化App/SDK个人信息治理、加强网络司法惩戒等五大任务，推进依法治网全面落地。原文链接：https://www.cac.gov.cn/2026-04/08/c_1777384058981550.htm上海警方侦破AI黑稿工厂案，2人操控4000账号抹黑车企
+
+**应对措施 / 缓解方案**:
+Follow security vendor guidance. Apply recommended patches.
+
+**参考链接**:
+- https://www.4hou.com/posts/6MLO
+
+> 📎 来源 / Source: https://www.4hou.com/posts/6MLO
+
+#### 8. SH-20bad01b (INFO)
+
+**CVE/编号**: SH-20bad01b [Sihou]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+2026年开年，OpenClaw（俗称“龙虾”）这款本地优先的 AI Agent 自动化平台以燎原之势席卷全球，凭借自然语言指令实现 PC 全功能自动化的能力，成为开发者追捧的工具。其支持15+通信平台、多模型调用、自主任务执行等特性，让效率提升的同时，也埋下了巨大的安全隐患。工信部于2026年3月8日正式发布openclaw安全风险预警通报。这款看似便捷的工具，正成为企业网络安全的“特洛伊木马”，筑牢其安全防护防线已成为企业的迫切需求。一、OpenClaw 五大核心安全痛点，直击企业网络软肋OpenClaw 的安全风险并非单一漏洞引发的局部问题，而是贯穿系统架构、权限模型、供应链和数据流转的系统性危机，五大核心痛点直指企业网络安全的薄弱环节，带来全方位的威胁。痛点一：高危漏洞频发，远程代码执行（RCE）风险一触即发OpenClaw 从2025年11月发布到首个高危 CVE 漏洞出现仅耗时
+
+**应对措施 / 缓解方案**:
+Follow security vendor guidance. Apply recommended patches.
+
+**参考链接**:
+- https://www.4hou.com/posts/5MJY
+
+> 📎 来源 / Source: https://www.4hou.com/posts/5MJY
+
+#### 9. SH-f2bd889e (INFO)
+
+**CVE/编号**: SH-f2bd889e [Sihou]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+近期，OpenClaw（俗称“小龙虾”）这一开源AI智能体因其强大的自主执行能力而迅速爆火，成为众多企业与开发者的效率神器。然而，就在热度持续攀升之际，国家及行业权威机构接连发布重磅预警：这个看似能干的“AI助手”，正因其模糊的信任边界和脆弱的默认安全配置，成为潜伏在企业内网中的高危风险源。从已披露的CVE-2026-25253、CVE-2026-25157到最新的多个供应链投毒事件，多个已知漏洞正威胁着从个人隐私到关键基础设施的安全防线。面对来势汹汹的“龙虾”漏洞潮，传统“只扫不治”的扫描模式已然失效。企业需要的不是一份简单的风险清单，而是一套可管、可控、可追溯的漏洞治理方案。一、治理之困：为何你的网络成了“坏虾”的养殖场？在与众多企业的交流中，我们听到了两种典型的声音：&nbsp;&nbsp;“影子AI”的恐慌：“员工偷偷部署了OpenClaw，我连它们在哪里都不知道，更别提管控了。这
+
+**应对措施 / 缓解方案**:
+Follow security vendor guidance. Apply recommended patches.
+
+**参考链接**:
+- https://www.4hou.com/posts/42E7
+
+> 📎 来源 / Source: https://www.4hou.com/posts/42E7
+
+#### 10. SH-d9052ee8 (INFO)
+
+**CVE/编号**: SH-d9052ee8 [Sihou]
+**严重程度**: INFO | 
+
+
+**漏洞描述**:
+2026年2月至3月，国家工业和信息化部网络安全威胁和漏洞信息共享平台（NVDB）连续两次发布关于OpenClaw（俗称“龙虾”）的安全预警，明确指出其“信任边界模糊”“配置缺陷易引发网络攻击、信息泄露”，并首次提出针对AI智能体应用的&nbsp;“六要六不要”&nbsp;安全建议。紧接着，国家安全部也发布《“龙虾”安全养殖手册》，警示主机被接管、数据被窃取、供应链投毒等原生风险。官方密集发声的背后，是一组触目惊心的数据：·258个已披露漏洞，其中近期发现的82个漏洞里就有12个超危以及21个高危；·46.9万个公网暴露实例，27.2%的实例存在高危漏洞，面临被直接接管风险；·22%&nbsp;受监控企业存在员工私自部署的“影子AI”；·超820个恶意插件潜伏在ClawHub，伪装成实用工具窃取API密钥、执行任意命令。面对这一新型AI工具带来的系统性风险，企业急需一套既能精准发现、又能深
+
+**应对措施 / 缓解方案**:
+Follow security vendor guidance. Apply recommended patches.
+
+**参考链接**:
+- https://www.4hou.com/posts/33BA
+
+> 📎 来源 / Source: https://www.4hou.com/posts/33BA
+
+
 ---
 
 ## English 🇺🇸
 **Network Security Vulnerability Knowledge Base**
 
-Auto-updated hourly from NVD, Exploit-DB, GitHub Security Advisories, CISA KEV. Covers CVEs, public exploits (0-Day), and mitigation guidance. Deduplicated and incrementally maintained.
+Auto-updated every 6 hours from NVD, Exploit-DB, GitHub Security Advisories, CISA KEV, Packet Storm, FreeBuf, Anquanke, Kanxue, Security Tracker. Covers CVEs, public exploits (0-Day), and mitigation guidance. Deduplicated and incrementally maintained.
 
 ### CVE Database (NVD)
 
@@ -14258,6 +15037,785 @@ Apply vendor patch before 2026-03-30. CISA directive enforcement required.
 - https://nvd.nist.gov/vuln/detail/CVE-2025-53521
 
 > 📎 Source: https://nvd.nist.gov/vuln/detail/CVE-2025-53521
+
+
+### Anquanke Security News
+
+#### 1. AQK-5d3064d6 (INFO)
+
+**CVE/ID**: AQK-5d3064d6 [Anquanke]
+**Severity**: INFO | 
+
+
+**Description**:
+
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**References**:
+- https://www.anquanke.com/post/id/315341
+
+> 📎 Source: https://www.anquanke.com/post/id/315341
+
+#### 2. AQK-051508a0 (INFO)
+
+**CVE/ID**: AQK-051508a0 [Anquanke]
+**Severity**: INFO | 
+
+
+**Description**:
+
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**References**:
+- https://www.anquanke.com/post/id/315337
+
+> 📎 Source: https://www.anquanke.com/post/id/315337
+
+#### 3. AQK-8487cfcb (INFO)
+
+**CVE/ID**: AQK-8487cfcb [Anquanke]
+**Severity**: INFO | 
+
+
+**Description**:
+
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**References**:
+- https://www.anquanke.com/post/id/315292
+
+> 📎 Source: https://www.anquanke.com/post/id/315292
+
+#### 4. AQK-71575c62 (INFO)
+
+**CVE/ID**: AQK-71575c62 [Anquanke]
+**Severity**: INFO | 
+
+
+**Description**:
+
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**References**:
+- https://www.anquanke.com/post/id/315277
+
+> 📎 Source: https://www.anquanke.com/post/id/315277
+
+#### 5. AQK-0649efcc (INFO)
+
+**CVE/ID**: AQK-0649efcc [Anquanke]
+**Severity**: INFO | 
+
+
+**Description**:
+
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**References**:
+- https://www.anquanke.com/post/id/315253
+
+> 📎 Source: https://www.anquanke.com/post/id/315253
+
+#### 6. AQK-eaf7ae10 (INFO)
+
+**CVE/ID**: AQK-eaf7ae10 [Anquanke]
+**Severity**: INFO | 
+
+
+**Description**:
+
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**References**:
+- https://www.anquanke.com/post/id/315234
+
+> 📎 Source: https://www.anquanke.com/post/id/315234
+
+#### 7. AQK-ef10f16b (INFO)
+
+**CVE/ID**: AQK-ef10f16b [Anquanke]
+**Severity**: INFO | 
+
+
+**Description**:
+
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**References**:
+- https://www.anquanke.com/post/id/315195
+
+> 📎 Source: https://www.anquanke.com/post/id/315195
+
+#### 8. AQK-2ecc89bb (INFO)
+
+**CVE/ID**: AQK-2ecc89bb [Anquanke]
+**Severity**: INFO | 
+
+
+**Description**:
+
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**References**:
+- https://www.anquanke.com/post/id/315209
+
+> 📎 Source: https://www.anquanke.com/post/id/315209
+
+#### 9. AQK-8e9c310e (INFO)
+
+**CVE/ID**: AQK-8e9c310e [Anquanke]
+**Severity**: INFO | 
+
+
+**Description**:
+
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**References**:
+- https://www.anquanke.com/post/id/315197
+
+> 📎 Source: https://www.anquanke.com/post/id/315197
+
+#### 10. AQK-1d90ab1e (INFO)
+
+**CVE/ID**: AQK-1d90ab1e [Anquanke]
+**Severity**: INFO | 
+
+
+**Description**:
+
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**References**:
+- https://www.anquanke.com/post/id/315140
+
+> 📎 Source: https://www.anquanke.com/post/id/315140
+
+#### 11. AQK-9dc5cf1d (INFO)
+
+**CVE/ID**: AQK-9dc5cf1d [Anquanke]
+**Severity**: INFO | 
+
+
+**Description**:
+
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**References**:
+- https://www.anquanke.com/post/id/315145
+
+> 📎 Source: https://www.anquanke.com/post/id/315145
+
+#### 12. AQK-941bbe27 (INFO)
+
+**CVE/ID**: AQK-941bbe27 [Anquanke]
+**Severity**: INFO | 
+
+
+**Description**:
+
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**References**:
+- https://www.anquanke.com/post/id/315148
+
+> 📎 Source: https://www.anquanke.com/post/id/315148
+
+#### 13. AQK-039e3338 (INFO)
+
+**CVE/ID**: AQK-039e3338 [Anquanke]
+**Severity**: INFO | 
+
+
+**Description**:
+
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**References**:
+- https://www.anquanke.com/post/id/315152
+
+> 📎 Source: https://www.anquanke.com/post/id/315152
+
+#### 14. AQK-592cec16 (INFO)
+
+**CVE/ID**: AQK-592cec16 [Anquanke]
+**Severity**: INFO | 
+
+
+**Description**:
+
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**References**:
+- https://www.anquanke.com/post/id/315155
+
+> 📎 Source: https://www.anquanke.com/post/id/315155
+
+#### 15. AQK-6319e27e (INFO)
+
+**CVE/ID**: AQK-6319e27e [Anquanke]
+**Severity**: INFO | 
+
+
+**Description**:
+
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation steps and vendor patches.
+
+**References**:
+- https://www.anquanke.com/post/id/315158
+
+> 📎 Source: https://www.anquanke.com/post/id/315158
+
+
+### Kanxue Forum Analysis
+
+#### 1. KX-ed01620f (INFO)
+
+**CVE/ID**: KX-ed01620f [Kanxue]
+**Severity**: INFO | 
+
+
+**Description**:
+作者：Matija Franklin, Nenad Tomašev等 译者：知道创宇404实验室翻译组 原文链接：https://blog.qiaomu.ai/api/images/document/2026/04/603f0cae8cd8ab94-ai-agent-trap.pdf 摘要 自主AI智能体日益在网络中自主行动，它们面临一种全新挑战：信息环境本身。由此产生了一个关键安全漏洞，我们称之...
+
+**Mitigation / Countermeasure**:
+Review technical analysis and apply vendor patches accordingly.
+
+**References**:
+- https://paper.seebug.org/3479
+
+> 📎 Source: https://paper.seebug.org/3479
+
+#### 2. KX-c309ba08 (INFO)
+
+**CVE/ID**: KX-c309ba08 [Kanxue]
+**Severity**: INFO | 
+
+
+**Description**:
+作者：知道创宇高级威胁情报团队 一、事件概述 近期，我们在客户现场应急响应中排查到一起新型攻击事件。攻击者伪造常用工具安装包诱导执行，随即部署一款带有合法数字签名的终端管理软件。经技术溯源确认，该程序具备主机信息收集、远程控制等完整恶意能力，其 C2 基础设施与 “银狐” 高度关联。由于合法数字签名的天然 “免杀” 特性，该恶意程序可轻易绕过主流杀毒软件检测，实现隐蔽入侵与长期控制。 银狐简介 银...
+
+**Mitigation / Countermeasure**:
+Review technical analysis and apply vendor patches accordingly.
+
+**References**:
+- https://paper.seebug.org/3478
+
+> 📎 Source: https://paper.seebug.org/3478
+
+#### 3. KX-7fd1d7a9 (INFO)
+
+**CVE/ID**: KX-7fd1d7a9 [Kanxue]
+**Severity**: INFO | 
+
+
+**Description**:
+作者：Yunhao Feng, Yifan Ding, Yingshui Tan等 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2604.06811v1/https://arxiv.org/html/2604.06811v1 摘要 基于技能的智能体系统通过组合可复用技能完成复杂任务，在提升模块化与可扩展性的同时，引入了尚未被充分研究的安全攻击面。本文提...
+
+**Mitigation / Countermeasure**:
+Review technical analysis and apply vendor patches accordingly.
+
+**References**:
+- https://paper.seebug.org/3477
+
+> 📎 Source: https://paper.seebug.org/3477
+
+#### 4. KX-3c1d36e1 (INFO)
+
+**CVE/ID**: KX-3c1d36e1 [Kanxue]
+**Severity**: INFO | 
+
+
+**Description**:
+作者：Md. Jueal Mia1, Joaquin Molto1, Yanzhao Wu1, M. Hadi Amini 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2603.28817v1/https://arxiv.org/html/2603.28817v1 摘要 小语言模型（SLM）正成为大语言模型（LLM）高效且经济可行的替代方案，在计算成本...
+
+**Mitigation / Countermeasure**:
+Review technical analysis and apply vendor patches accordingly.
+
+**References**:
+- https://paper.seebug.org/3476
+
+> 📎 Source: https://paper.seebug.org/3476
+
+#### 5. KX-f5ce9144 (INFO)
+
+**CVE/ID**: KX-f5ce9144 [Kanxue]
+**Severity**: INFO | 
+
+
+**Description**:
+作者：Jack Vanlyssel, Gruia-Catalin Roman, Afsah Anwar 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2603.10388v1/https://arxiv.org/html/2603.10388v1 摘要 欺骗攻击是地面系统最具破坏性的网络威胁之一，而在太空中这类威胁愈发危险——卫星难以在轨维修，且运营方依...
+
+**Mitigation / Countermeasure**:
+Review technical analysis and apply vendor patches accordingly.
+
+**References**:
+- https://paper.seebug.org/3475
+
+> 📎 Source: https://paper.seebug.org/3475
+
+#### 6. KX-7dda2859 (INFO)
+
+**CVE/ID**: KX-7dda2859 [Kanxue]
+**Severity**: INFO | 
+
+
+**Description**:
+作者：Nasim Soltani, Shayan Nejadshamsi等 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2603.10413v1/https://arxiv.org/html/2603.10413v1 摘要 对抗样本会对机器学习（ML）算法构成严重威胁。若被用于操控基于机器学习的网络入侵检测系统（NIDS）行为，将危及网络安全。本研究旨...
+
+**Mitigation / Countermeasure**:
+Review technical analysis and apply vendor patches accordingly.
+
+**References**:
+- https://paper.seebug.org/3474
+
+> 📎 Source: https://paper.seebug.org/3474
+
+#### 7. KX-623db9a3 (INFO)
+
+**CVE/ID**: KX-623db9a3 [Kanxue]
+**Severity**: INFO | 
+
+
+**Description**:
+作者：Weinan Dai, Hanlin Wu, Qiying Yu等 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2602.24286v1/https://arxiv.org/html/2602.24286v1 摘要 GPU内核优化是现代深度学习的基础，但仍是一项高度专业化的任务，需要深厚的硬件专业知识。尽管大语言模型（LLM）在通用编程任务中表现...
+
+**Mitigation / Countermeasure**:
+Review technical analysis and apply vendor patches accordingly.
+
+**References**:
+- https://paper.seebug.org/3473
+
+> 📎 Source: https://paper.seebug.org/3473
+
+#### 8. KX-07a04ed0 (INFO)
+
+**CVE/ID**: KX-07a04ed0 [Kanxue]
+**Severity**: INFO | 
+
+
+**Description**:
+Author: Knownsec 404 Advanced Threat Intelligence Team I. Introduction SilverFox has become one of the most active cyber threats in recent years, targeting managerial and finance staff in organization...
+
+**Mitigation / Countermeasure**:
+Review technical analysis and apply vendor patches accordingly.
+
+**References**:
+- https://paper.seebug.org/3472
+
+> 📎 Source: https://paper.seebug.org/3472
+
+#### 9. KX-b70ad75b (INFO)
+
+**CVE/ID**: KX-b70ad75b [Kanxue]
+**Severity**: INFO | 
+
+
+**Description**:
+作者：Neha Nagaraja, Lan Zhang, Zhilong Wang 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2603.03637v1/https://arxiv.org/html/2603.03637v1 摘要：多模态大语言模型（MLLMs）融合视觉与文本能力赋能各类应用，但这种融合也引入了新的安全漏洞。本文研究基于图像的提示注入（...
+
+**Mitigation / Countermeasure**:
+Review technical analysis and apply vendor patches accordingly.
+
+**References**:
+- https://paper.seebug.org/3471
+
+> 📎 Source: https://paper.seebug.org/3471
+
+#### 10. KX-92ab2f67 (INFO)
+
+**CVE/ID**: KX-92ab2f67 [Kanxue]
+**Severity**: INFO | 
+
+
+**Description**:
+作者：Jai Minton, Ryan Dowd 原文链接：https://www.huntress.com/blog/openclaw-github-ghostsocks-infostealer/https://www.huntress.com/blog/openclaw-github-ghostsocks-infostealer 摘要 信息窃取型恶意软件是针对面向公众系统发起严重攻击的初始访问...
+
+**Mitigation / Countermeasure**:
+Review technical analysis and apply vendor patches accordingly.
+
+**References**:
+- https://paper.seebug.org/3470
+
+> 📎 Source: https://paper.seebug.org/3470
+
+
+### Xianzhi Community Analysis
+
+#### 1. XZ-61f16a25 (INFO)
+
+**CVE/ID**: XZ-61f16a25 [Xianzhi]
+**Severity**: INFO | 
+
+
+**Description**:
+自动化越狱提示词的生成
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**References**:
+- https://xz.aliyun.com/news/92012
+
+> 📎 Source: https://xz.aliyun.com/news/92012
+
+#### 2. XZ-0585d441 (INFO)
+
+**CVE/ID**: XZ-0585d441 [Xianzhi]
+**Severity**: INFO | 
+
+
+**Description**:
+第一次做这种类型的，大体记录一下过程
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**References**:
+- https://xz.aliyun.com/news/92009
+
+> 📎 Source: https://xz.aliyun.com/news/92009
+
+#### 3. XZ-c3c791fe (INFO)
+
+**CVE/ID**: XZ-c3c791fe [Xianzhi]
+**Severity**: INFO | 
+
+
+**Description**:
+一个自定义的序列化的题目
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**References**:
+- https://xz.aliyun.com/news/92004
+
+> 📎 Source: https://xz.aliyun.com/news/92004
+
+#### 4. CVE-2026-34621 (INFO)
+
+**CVE/ID**: CVE-2026-34621 [Xianzhi]
+**Severity**: INFO | 
+
+
+**Description**:
+模拟构建漏洞 PDF 响应载荷后发现，该载荷可异常驻留并嵌入 Adobe Acrobat Reader 内部，即便关闭 PDF、重启软件乃至操作系统，仍能持续触发恶意代码执行。
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**References**:
+- https://xz.aliyun.com/news/92003
+
+> 📎 Source: https://xz.aliyun.com/news/92003
+
+#### 5. XZ-49ba87b3 (INFO)
+
+**CVE/ID**: XZ-49ba87b3 [Xianzhi]
+**Severity**: INFO | 
+
+
+**Description**:
+这个题目考了花指令，魔改rc4，protobuf，纯字符shellcode，考的很多，这里借此简单的总结一下各个部分
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**References**:
+- https://xz.aliyun.com/news/92001
+
+> 📎 Source: https://xz.aliyun.com/news/92001
+
+#### 6. XZ-8915a9fe (INFO)
+
+**CVE/ID**: XZ-8915a9fe [Xianzhi]
+**Severity**: INFO | 
+
+
+**Description**:
+2026软件安全赛半决赛PWN Robo_admin WP fix&break
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**References**:
+- https://xz.aliyun.com/news/91999
+
+> 📎 Source: https://xz.aliyun.com/news/91999
+
+#### 7. XZ-363468b9 (INFO)
+
+**CVE/ID**: XZ-363468b9 [Xianzhi]
+**Severity**: INFO | 
+
+
+**Description**:
+该文章介绍了一道 Node.js CTF 题目的解题思路：攻击者首先利用 /changepassword 接口的 merge() 函数原型链污染漏洞，注入 isAdmin: true 提权为管理员；随后通过 CVE-2026-22709 绕过 vm2 沙箱执行任意命令；最后利用 root 权限的 /backup.sh 定时脚本，将 /flag 内容写入静态目录实现读取。核心链：原型污染提权 → v
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**References**:
+- https://xz.aliyun.com/news/91998
+
+> 📎 Source: https://xz.aliyun.com/news/91998
+
+#### 8. XZ-fbecc6e1 (INFO)
+
+**CVE/ID**: XZ-fbecc6e1 [Xianzhi]
+**Severity**: INFO | 
+
+
+**Description**:
+在遇到vue框架的时候,使用相关插件进行接口相关的测试，往往更容易找到突破口。
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**References**:
+- https://xz.aliyun.com/news/91997
+
+> 📎 Source: https://xz.aliyun.com/news/91997
+
+#### 9. XZ-f1b7b419 (INFO)
+
+**CVE/ID**: XZ-f1b7b419 [Xianzhi]
+**Severity**: INFO | 
+
+
+**Description**:
+结合简单模型实验，直指漏洞利用
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**References**:
+- https://xz.aliyun.com/news/91995
+
+> 📎 Source: https://xz.aliyun.com/news/91995
+
+#### 10. CVE-2026-1207 (INFO)
+
+**CVE/ID**: CVE-2026-1207 [Xianzhi]
+**Severity**: INFO | 
+
+
+**Description**:
+Django 框架在使用 PostGIS 查询地理栅格（raster）数据时，若将未经验证的用户输入直接作为 band index（波段索引）参数，会引发 SQL 注入
+
+**Mitigation / Countermeasure**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**References**:
+- https://xz.aliyun.com/news/91993
+
+> 📎 Source: https://xz.aliyun.com/news/91993
+
+
+### Sihou RoarTalk
+
+#### 1. SH-d2ad1f16 (INFO)
+
+**CVE/ID**: SH-d2ad1f16 [Sihou]
+**Severity**: INFO | 
+
+
+**Description**:
+当前，工业互联网深度融合发展，关键信息基础设施安全防护需求持续攀升，实战型工业信息安全人才短缺、训练场景稀缺、理论与实践脱节等制约行业发展的核心痛点日益凸显。在此背景下，烽台科技打造的聚焦工业信息安全人才培养与生态共建的纵横网络靶场社区正式发布。该平台依托烽台科技十余年工业靶场技术沉淀，以“虚实融合”技术为核心，整合AI智能体、数字孪生等前沿能力，旨在打造工业安全领域“理论+实战+生态”三位一体的服务体系，为高校、企业、科研院所提供专业化的工业安全实训与技术交流空间。从“竞赛工具”到“生态平台”：网络靶场社区的迭代之路回溯烽台科技网络靶场社区的发展历程，其起点可追溯至2015年——公司成立后其核心产品便是工控网络靶场，由此开启了工业安全领域的深耕之路。早期社区更像“竞赛工具”，聚焦赛事聚人气，而此次全新发布的纵横网络靶场社区则进行了针对性升级：不仅保留竞赛模块，还新增实训专区，计划陆续开放
+
+**Mitigation / Countermeasure**:
+Follow security vendor guidance. Apply recommended patches.
+
+**References**:
+- https://www.4hou.com/posts/nXQ5
+
+> 📎 Source: https://www.4hou.com/posts/nXQ5
+
+#### 2. SH-c366ccb6 (INFO)
+
+**CVE/ID**: SH-c366ccb6 [Sihou]
+**Severity**: INFO | 
+
+
+**Description**:
+梆梆安全发布《2026年Q1移动应用安全风险报告》。本报告基于梆梆安全移动应用监管平台在2026年一季度的威胁监测数据与深度安全分析成果，系统梳理当前国内移动应用面临的新型攻击技术演进与安全趋势变化，聚焦盗版仿冒、境外数据传输、高危漏洞、个人隐私违规等多个维度，为移动应用安全建设工作提供参考与实践指引。
+当前，我国数字经济与实体经济融合持续深入，移动互联网已演进为支撑社会数字化转型的关键基础设施。根据中国互联网络信息中心（CNNIC）第57次《中国互联网络发展状况统计报告》，截至2025年12月，我国网民规模达11.25亿，互联网普及率突破80%，其中手机网民规模达11.21亿，占比高达99.6%，移动终端在数字接入生态中的核心地位进一步巩固。
+与此同时，用户对移动应用的依赖程度持续加深。数据显示，我国网民人均每周上网时长已达32.5小时，人均使用APP数量接近30款，移动互联网接入流量全
+
+**Mitigation / Countermeasure**:
+Follow security vendor guidance. Apply recommended patches.
+
+**References**:
+- https://www.4hou.com/posts/pKwQ
+
+> 📎 Source: https://www.4hou.com/posts/pKwQ
+
+#### 3. SH-bf65c18d (INFO)
+
+**CVE/ID**: SH-bf65c18d [Sihou]
+**Severity**: INFO | 
+
+
+**Description**:
+依据《网络安全法》《个人信息保护法》等法律法规，经公安部计算机信息系统安全产品质量监督检验中心检测，37款移动应用存在违法违规收集使用个人信息情况，具体通报如下：1、未公开收集使用规则。涉及21款移动应用如下：《奇峰商城》（支付宝小程序）、《聚优商城》（微信小程序）、《亿秀分期商城》（支付宝小程序）、《鲜范商城》（微信小程序）、《京机数码手机商城》（支付宝小程序）、《创维官方商城》（支付宝小程序）、《万事商城》（支付宝小程序）、《尚至然商城》（支付宝小程序）、《知墨商城》（支付宝小程序）、《领充充电桩商城》（支付宝小程序）、《世有品商城》（支付宝小程序）、《阿京妈会员》（微信小程序）、《仲盛世界SKYMALL》（支付宝小程序）、《衣恋集团商城》（微信小程序）、《快贷分期》（版本4.0.1，应用宝）、《百师商城》（微信小程序）、《松下商城》（微信小程序）、《意尔康官方商城》（微信小程序）、《
+
+**Mitigation / Countermeasure**:
+Follow security vendor guidance. Apply recommended patches.
+
+**References**:
+- https://www.4hou.com/posts/PGXA
+
+> 📎 Source: https://www.4hou.com/posts/PGXA
+
+#### 4. SH-88674abf (INFO)
+
+**CVE/ID**: SH-88674abf [Sihou]
+**Severity**: INFO | 
+
+
+**Description**:
+最新发现，企业级安全文件传输解决方案 Progress ShareFile 存在两处漏洞，攻击者可将其组合利用，在无需身份认证的情况下从受影响环境中窃取文件。Progress ShareFile 是一款文档共享与协作产品，广泛应用于大中型企业。此类文件传输平台历来是勒索软件团伙的重点攻击目标，此前 Clop 勒索组织就曾利用 Accellion FTA、SolarWinds Serv-U、Gladinet CentreStack、GoAnywhere MFT、MOVEit Transfer、Cleo 等产品中的漏洞实施大规模数据窃取攻击。&nbsp;watchTowr 的研究人员在 Progress ShareFile 5.x 分支的 Storage Zones Controller（SZC，存储区域控制器）组件中，发现了一处认证绕过漏洞（CVE-2026-2699）和一处远程代码执行漏洞
+
+**Mitigation / Countermeasure**:
+Follow security vendor guidance. Apply recommended patches.
+
+**References**:
+- https://www.4hou.com/posts/MXOm
+
+> 📎 Source: https://www.4hou.com/posts/MXOm
+
+#### 5. SH-88fdaf59 (INFO)
+
+**CVE/ID**: SH-88fdaf59 [Sihou]
+**Severity**: INFO | 
+
+
+**Description**:
+嘶吼安全动态|【国内新闻】八部门联合发布《科技数据安全管理暂行规定》，4月10日起实施摘要：明确科技数据分类分级、算法备案、跨境管控等要求，强化科研与算力设施安全。原文链接：http://m.toutiao.com/group/7626936382984700451/腾讯QClaw V2上线“龙虾管家”，全流程防护AI操作安全摘要：默认开启安全防护，覆盖Prompt、技能与脚本执行，实时拦截恶意指令、技能投毒、文件误删等风险。原文链接：https://www.sohu.com/a/1007377777_115060?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334新型底层木马NoVoice爆发，全球230万设备中招，格式化无法清除摘要：Rootkit级恶意程序深度感染安卓与iOS，国内90万台设备中招，重置后仍复活，窃取隐私并远程控制。原文链接：http
+
+**Mitigation / Countermeasure**:
+Follow security vendor guidance. Apply recommended patches.
+
+**References**:
+- https://www.4hou.com/posts/8gPj
+
+> 📎 Source: https://www.4hou.com/posts/8gPj
+
+#### 6. SH-16395b52 (INFO)
+
+**CVE/ID**: SH-16395b52 [Sihou]
+**Severity**: INFO | 
+
+
+**Description**:
+一款名为CrystalRAT的新型远程控制木马正在Telegram上以恶意软件即服务（MaaS）模式推广，提供远程控制、数据窃取、键盘记录与剪贴板劫持等核心功能。&nbsp;该恶意软件于今年1月现身，采用分级订阅模式运营。除Telegram频道外，运营者还在YouTube开设专门营销账号，通过功能演示视频进行推广。&nbsp;卡巴斯基研究人员在最近发布的报告中指出，这款木马与WebRAT（Salat窃密木马）高度相似，二者拥有相同的控制面板设计、均使用Go语言编写，且采用类似的机器人销售系统。&nbsp;CrystalX还内置了大量恶作剧功能，用于骚扰用户或干扰其正常工作。尽管带有“娱乐化”外观，该木马仍具备全面且强大的数据窃取能力。Telegram频道推广CrystaX RATCrystalX RAT功能详情卡巴斯基表示，该恶意软件配备了易用的管理后台与自动化生成工具，支持多项自定义配置
+
+**Mitigation / Countermeasure**:
+Follow security vendor guidance. Apply recommended patches.
+
+**References**:
+- https://www.4hou.com/posts/LGMD
+
+> 📎 Source: https://www.4hou.com/posts/LGMD
+
+#### 7. SH-8b2dd81f (INFO)
+
+**CVE/ID**: SH-8b2dd81f [Sihou]
+**Severity**: INFO | 
+
+
+**Description**:
+嘶吼安全动态【国内新闻】上海人工智能实验室发布“珠穆朗玛计划”，打造AI4S全国中枢摘要：上海AI实验室重磅发布“AGI4S 珠穆朗玛计划”，同步推出DeepLink融合算力平台。该计划旨在通过全维度合作打破算力与数据壁垒，为高能物理、疾病诊断等关键科学领域提供自主受控的智能底座。原文链接：https://www.news.cn/tech/20260408/fe5a61186ceb4582bdcf019c9abe0733/c.html中央网信办召开全国网络法治工作会议，部署 “十五五” 依法治网重点任务摘要：会议明确完善网络法律体系、强化App/SDK个人信息治理、加强网络司法惩戒等五大任务，推进依法治网全面落地。原文链接：https://www.cac.gov.cn/2026-04/08/c_1777384058981550.htm上海警方侦破AI黑稿工厂案，2人操控4000账号抹黑车企
+
+**Mitigation / Countermeasure**:
+Follow security vendor guidance. Apply recommended patches.
+
+**References**:
+- https://www.4hou.com/posts/6MLO
+
+> 📎 Source: https://www.4hou.com/posts/6MLO
+
+#### 8. SH-20bad01b (INFO)
+
+**CVE/ID**: SH-20bad01b [Sihou]
+**Severity**: INFO | 
+
+
+**Description**:
+2026年开年，OpenClaw（俗称“龙虾”）这款本地优先的 AI Agent 自动化平台以燎原之势席卷全球，凭借自然语言指令实现 PC 全功能自动化的能力，成为开发者追捧的工具。其支持15+通信平台、多模型调用、自主任务执行等特性，让效率提升的同时，也埋下了巨大的安全隐患。工信部于2026年3月8日正式发布openclaw安全风险预警通报。这款看似便捷的工具，正成为企业网络安全的“特洛伊木马”，筑牢其安全防护防线已成为企业的迫切需求。一、OpenClaw 五大核心安全痛点，直击企业网络软肋OpenClaw 的安全风险并非单一漏洞引发的局部问题，而是贯穿系统架构、权限模型、供应链和数据流转的系统性危机，五大核心痛点直指企业网络安全的薄弱环节，带来全方位的威胁。痛点一：高危漏洞频发，远程代码执行（RCE）风险一触即发OpenClaw 从2025年11月发布到首个高危 CVE 漏洞出现仅耗时
+
+**Mitigation / Countermeasure**:
+Follow security vendor guidance. Apply recommended patches.
+
+**References**:
+- https://www.4hou.com/posts/5MJY
+
+> 📎 Source: https://www.4hou.com/posts/5MJY
+
+#### 9. SH-f2bd889e (INFO)
+
+**CVE/ID**: SH-f2bd889e [Sihou]
+**Severity**: INFO | 
+
+
+**Description**:
+近期，OpenClaw（俗称“小龙虾”）这一开源AI智能体因其强大的自主执行能力而迅速爆火，成为众多企业与开发者的效率神器。然而，就在热度持续攀升之际，国家及行业权威机构接连发布重磅预警：这个看似能干的“AI助手”，正因其模糊的信任边界和脆弱的默认安全配置，成为潜伏在企业内网中的高危风险源。从已披露的CVE-2026-25253、CVE-2026-25157到最新的多个供应链投毒事件，多个已知漏洞正威胁着从个人隐私到关键基础设施的安全防线。面对来势汹汹的“龙虾”漏洞潮，传统“只扫不治”的扫描模式已然失效。企业需要的不是一份简单的风险清单，而是一套可管、可控、可追溯的漏洞治理方案。一、治理之困：为何你的网络成了“坏虾”的养殖场？在与众多企业的交流中，我们听到了两种典型的声音：&nbsp;&nbsp;“影子AI”的恐慌：“员工偷偷部署了OpenClaw，我连它们在哪里都不知道，更别提管控了。这
+
+**Mitigation / Countermeasure**:
+Follow security vendor guidance. Apply recommended patches.
+
+**References**:
+- https://www.4hou.com/posts/42E7
+
+> 📎 Source: https://www.4hou.com/posts/42E7
+
+#### 10. SH-d9052ee8 (INFO)
+
+**CVE/ID**: SH-d9052ee8 [Sihou]
+**Severity**: INFO | 
+
+
+**Description**:
+2026年2月至3月，国家工业和信息化部网络安全威胁和漏洞信息共享平台（NVDB）连续两次发布关于OpenClaw（俗称“龙虾”）的安全预警，明确指出其“信任边界模糊”“配置缺陷易引发网络攻击、信息泄露”，并首次提出针对AI智能体应用的&nbsp;“六要六不要”&nbsp;安全建议。紧接着，国家安全部也发布《“龙虾”安全养殖手册》，警示主机被接管、数据被窃取、供应链投毒等原生风险。官方密集发声的背后，是一组触目惊心的数据：·258个已披露漏洞，其中近期发现的82个漏洞里就有12个超危以及21个高危；·46.9万个公网暴露实例，27.2%的实例存在高危漏洞，面临被直接接管风险；·22%&nbsp;受监控企业存在员工私自部署的“影子AI”；·超820个恶意插件潜伏在ClawHub，伪装成实用工具窃取API密钥、执行任意命令。面对这一新型AI工具带来的系统性风险，企业急需一套既能精准发现、又能深
+
+**Mitigation / Countermeasure**:
+Follow security vendor guidance. Apply recommended patches.
+
+**References**:
+- https://www.4hou.com/posts/33BA
+
+> 📎 Source: https://www.4hou.com/posts/33BA
 
 
 

@@ -8,20 +8,20 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 07:04:57 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 08:14:46 UTC_
 
 ## 中文 🇨🇳
 **Linux 系统漏洞**
 
-本页面每小时自动抓取 LINUX 平台最新系统漏洞及应对措施。
+本页面每6小时自动抓取 LINUX 平台最新系统漏洞及应对措施。数据源：NVD、Red Hat、Ubuntu、SUSE、Microsoft、Apple。
 
 ### LINUX 漏洞列表
 
 #### 1. CVE-2000-0508 (N/A)
 
-**CVE编号**: CVE-2000-0508
+**CVE编号**: CVE-2000-0508 [NVD]
 **严重程度**: N/A CVSS: 5.0
-受影响产品: debian:debian_linux, mandrakesoft:mandrake_linux, redhat:linux
+受影响产品: mandrakesoft:mandrake_linux, redhat:linux, debian:debian_linux
 
 **漏洞描述**:
 rpc.lockd in Red Hat Linux 6.1 and 6.2 allows remote attackers to cause a denial of service via a malformed request.
@@ -40,7 +40,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/
 
 #### 2. CVE-1999-0242 (N/A)
 
-**CVE编号**: CVE-1999-0242
+**CVE编号**: CVE-1999-0242 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: slackware:slackware_linux
 
@@ -58,7 +58,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 3. CVE-1999-0245 (N/A)
 
-**CVE编号**: CVE-1999-0245
+**CVE编号**: CVE-1999-0245 [NVD]
 **严重程度**: N/A CVSS: 4.6
 受影响产品: linux:linux_kernel
 
@@ -76,7 +76,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 4. CVE-1999-0123 (N/A)
 
-**CVE编号**: CVE-1999-0123
+**CVE编号**: CVE-1999-0123 [NVD]
 **严重程度**: N/A CVSS: 3.7
 受影响产品: slackware:slackware_linux
 
@@ -94,7 +94,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 5. CVE-1999-0316 (N/A)
 
-**CVE编号**: CVE-1999-0316
+**CVE编号**: CVE-1999-0316 [NVD]
 **严重程度**: N/A CVSS: 7.2
 受影响产品: sam_lantinga:splitvt
 
@@ -112,9 +112,9 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 6. CVE-1999-1186 (N/A)
 
-**CVE编号**: CVE-1999-1186
+**CVE编号**: CVE-1999-1186 [NVD]
 **严重程度**: N/A CVSS: 7.2
-受影响产品: rxvt:rxvt, redhat:linux, slackware:slackware_linux
+受影响产品: slackware:slackware_linux, redhat:linux, rxvt:rxvt
 
 **漏洞描述**:
 rxvt, when compiled with the PRINT_PIPE option in various Linux operating systems including Linux Slackware 3.0 and RedHat 2.1, allows local users to gain root privileges by specifying a malicious program using the -print-pipe command line parameter.
@@ -130,7 +130,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602167418966&w=
 
 #### 7. CVE-1999-0137 (N/A)
 
-**CVE编号**: CVE-1999-0137
+**CVE编号**: CVE-1999-0137 [NVD]
 **严重程度**: N/A CVSS: 7.2
 受影响产品: fred_n._van_kempen:dip
 
@@ -148,9 +148,9 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 8. CVE-1999-0032 (N/A)
 
-**CVE编号**: CVE-1999-0032
+**CVE编号**: CVE-1999-0032 [NVD]
 **严重程度**: N/A CVSS: 7.2
-受影响产品: freebsd:freebsd, sun:sunos, bsdi:bsd_os, sgi:irix, next:nextstep
+受影响产品: next:nextstep, bsdi:bsd_os, freebsd:freebsd, sgi:irix, sun:sunos
 
 **漏洞描述**:
 Buffer overflow in lpr, as used in BSD-based systems including Linux, allows local users to execute arbitrary code as root via a long -C (classification) command line option.
@@ -169,9 +169,9 @@ Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/adv
 
 #### 9. CVE-1999-1299 (N/A)
 
-**CVE编号**: CVE-1999-1299
+**CVE编号**: CVE-1999-1299 [NVD]
 **严重程度**: N/A CVSS: 10.0
-受影响产品: redhat:linux, slackware:slackware_linux
+受影响产品: slackware:slackware_linux, redhat:linux
 
 **漏洞描述**:
 rcp on various Linux systems including Red Hat 4.0 allows a "nobody" user or other user with UID of 65535 to overwrite arbitrary files, since 65535 is interpreted as -1 by chown and other system calls, which causes the calls to fail to modify the ownership of the file.
@@ -187,9 +187,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602167420509&w=
 
 #### 10. CVE-1999-0298 (N/A)
 
-**CVE编号**: CVE-1999-0298
+**CVE编号**: CVE-1999-0298 [NVD]
 **严重程度**: N/A CVSS: 7.5
-受影响产品: sun:sunos, slackware:slackware_linux
+受影响产品: slackware:slackware_linux, sun:sunos
 
 **漏洞描述**:
 ypbind with -ypset and -ypsetme options activated in Linux Slackware and SunOS allows local and remote attackers to overwrite files via a .. (dot dot) attack.
@@ -205,7 +205,7 @@ Apply patch from vendor. Monitor http://www.nai.com/nai_labs/asp_set/advisory/06
 
 #### 11. CVE-1999-1489 (N/A)
 
-**CVE编号**: CVE-1999-1489
+**CVE编号**: CVE-1999-1489 [NVD]
 **严重程度**: N/A CVSS: 7.2
 受影响产品: slackware:slackware_linux
 
@@ -225,7 +225,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/6384.
 
 #### 12. CVE-1999-1387 (N/A)
 
-**CVE编号**: CVE-1999-1387
+**CVE编号**: CVE-1999-1387 [NVD]
 **严重程度**: N/A CVSS: 5.0
 受影响产品: microsoft:windows_nt
 
@@ -246,9 +246,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602167420731&w=
 
 #### 13. CVE-1999-1182 (N/A)
 
-**CVE编号**: CVE-1999-1182
+**CVE编号**: CVE-1999-1182 [NVD]
 **严重程度**: N/A CVSS: 7.2
-受影响产品: lst:lst_power_linux, caldera:openlinux_lite, debian:debian_linux, redhat:linux, suse:suse_linux
+受影响产品: delix:dld, suse:suse_linux, caldera:openlinux_lite, redhat:linux, debian:debian_linux
 
 **漏洞描述**:
 Buffer overflow in run-time linkers (1) ld.so or (2) ld-linux.so for Linux systems allows local users to gain privileges by calling a setuid program with a long program name (argv[0]) and forcing ld.so/ld-linux.so to report an error.
@@ -267,9 +267,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602661419318&w=
 
 #### 14. CVE-1999-1225 (N/A)
 
-**CVE编号**: CVE-1999-1225
+**CVE编号**: CVE-1999-1225 [NVD]
 **严重程度**: N/A CVSS: 5.0
-受影响产品: sun:solaris, linux:linux_kernel, digital:ultrix, openbsd:openbsd, netbsd:netbsd
+受影响产品: sun:solaris, openbsd:openbsd, digital:ultrix, netbsd:netbsd, linux:linux_kernel
 
 **漏洞描述**:
 rpc.mountd on Linux, Ultrix, and possibly other operating systems, allows remote attackers to determine the existence of a file on the server by attempting to mount that file, which generates different error messages depending on whether the file exists or not.
@@ -287,9 +287,9 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/7526.
 
 #### 15. CVE-1999-0183 (N/A)
 
-**CVE编号**: CVE-1999-0183
+**CVE编号**: CVE-1999-0183 [NVD]
 **严重程度**: N/A CVSS: 6.4
-受影响产品: tftp:tftp, linux:linux_kernel
+受影响产品: linux:linux_kernel, tftp:tftp
 
 **漏洞描述**:
 Linux implementations of TFTP would allow access to files outside the restricted directory.
@@ -305,9 +305,9 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 16. CVE-1999-0216 (N/A)
 
-**CVE编号**: CVE-1999-0216
+**CVE编号**: CVE-1999-0216 [NVD]
 **严重程度**: N/A CVSS: 5.0
-受影响产品: gnu:inet, linux:linux_kernel, hp:hp-ux
+受影响产品: gnu:inet, hp:hp-ux, linux:linux_kernel
 
 **漏洞描述**:
 Denial of service of inetd on Linux through SYN and RST packets.
@@ -323,7 +323,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 17. CVE-1999-0340 (N/A)
 
-**CVE编号**: CVE-1999-0340
+**CVE编号**: CVE-1999-0340 [NVD]
 **严重程度**: N/A CVSS: 7.2
 受影响产品: slackware:slackware_linux
 
@@ -341,9 +341,9 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 18. CVE-1999-0341 (N/A)
 
-**CVE编号**: CVE-1999-0341
+**CVE编号**: CVE-1999-0341 [NVD]
 **严重程度**: N/A CVSS: 7.2
-受影响产品: debian:debian_linux, slackware:slackware_linux
+受影响产品: slackware:slackware_linux, debian:debian_linux
 
 **漏洞描述**:
 Buffer overflow in the Linux mail program "deliver" allows local users to gain root access.
@@ -359,7 +359,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 19. CVE-1999-1229 (N/A)
 
-**CVE编号**: CVE-1999-1229
+**CVE编号**: CVE-1999-1229 [NVD]
 **严重程度**: N/A CVSS: 2.1
 受影响产品: id_software:quake_2_server
 
@@ -379,7 +379,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/8590.
 
 #### 20. CVE-1999-0330 (N/A)
 
-**CVE编号**: CVE-1999-0330
+**CVE编号**: CVE-1999-0330 [NVD]
 **严重程度**: N/A CVSS: 7.2
 受影响产品: linux:linux_kernel
 
@@ -397,7 +397,7 @@ Apply patch from vendor. Monitor https://marc.info/?l=bugtraq&m=87602558319119&w
 
 #### 21. CVE-1999-1407 (N/A)
 
-**CVE编号**: CVE-1999-1407
+**CVE编号**: CVE-1999-1407 [NVD]
 **严重程度**: N/A CVSS: 2.1
 受影响产品: redhat:linux
 
@@ -418,7 +418,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=88950856416985&w=
 
 #### 22. CVE-1999-1498 (N/A)
 
-**CVE编号**: CVE-1999-1498
+**CVE编号**: CVE-1999-1498 [NVD]
 **严重程度**: N/A CVSS: 3.6
 受影响产品: slackware:slackware_linux
 
@@ -436,7 +436,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/82.
 
 #### 23. CVE-1999-1442 (N/A)
 
-**CVE编号**: CVE-1999-1442
+**CVE编号**: CVE-1999-1442 [NVD]
 **严重程度**: N/A CVSS: 7.2
 受影响产品: linux:linux_kernel
 
@@ -457,7 +457,7 @@ Apply patch from vendor. Monitor http://uwsg.iu.edu/hypermail/linux/kernel/9805.
 
 #### 24. CVE-1999-1441 (N/A)
 
-**CVE编号**: CVE-1999-1441
+**CVE编号**: CVE-1999-1441 [NVD]
 **严重程度**: N/A CVSS: 2.1
 受影响产品: linux:linux_kernel
 
@@ -477,7 +477,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90221103126047&w=
 
 #### 25. CVE-1999-1434 (N/A)
 
-**CVE编号**: CVE-1999-1434
+**CVE编号**: CVE-1999-1434 [NVD]
 **严重程度**: N/A CVSS: 7.2
 受影响产品: slackware:slackware_linux
 
@@ -497,7 +497,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90221104525951&w=
 
 #### 26. CVE-1999-1406 (N/A)
 
-**CVE编号**: CVE-1999-1406
+**CVE编号**: CVE-1999-1406 [NVD]
 **严重程度**: N/A CVSS: 2.1
 受影响产品: redhat:linux
 
@@ -518,7 +518,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90221104526185&w=
 
 #### 27. CVE-1999-0262 (N/A)
 
-**CVE编号**: CVE-1999-0262
+**CVE编号**: CVE-1999-0262 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: renaud_deraison:faxsurvey
 
@@ -538,7 +538,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/2056.
 
 #### 28. CVE-1999-1381 (N/A)
 
-**CVE编号**: CVE-1999-1381
+**CVE编号**: CVE-1999-1381 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: dbadmin:dbadmin
 
@@ -556,9 +556,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90786656409618&w=
 
 #### 29. CVE-1999-0002 (N/A)
 
-**CVE编号**: CVE-1999-0002
+**CVE编号**: CVE-1999-0002 [NVD]
 **严重程度**: N/A CVSS: 10.0
-受影响产品: redhat:linux, caldera:openlinux, bsdi:bsd_os
+受影响产品: bsdi:bsd_os, redhat:linux, caldera:openlinux
 
 **漏洞描述**:
 Buffer overflow in NFS mountd gives root access to remote attackers, mostly in Linux systems.
@@ -577,7 +577,7 @@ Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/adv
 
 #### 30. CVE-1999-0342 (N/A)
 
-**CVE编号**: CVE-1999-0342
+**CVE编号**: CVE-1999-0342 [NVD]
 **严重程度**: N/A CVSS: 6.2
 受影响产品: pam:pam
 
@@ -595,9 +595,9 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 31. CVE-1999-0798 (N/A)
 
-**CVE编号**: CVE-1999-0798
+**CVE编号**: CVE-1999-0798 [NVD]
 **严重程度**: N/A CVSS: 10.0
-受影响产品: sco:openserver, freebsd:freebsd, sco:internet_faststart, redhat:linux, bsdi:bsd_os
+受影响产品: sco:internet_faststart, openbsd:openbsd, sco:unixware, bsdi:bsd_os, freebsd:freebsd
 
 **漏洞描述**:
 Buffer overflow in bootpd on OpenBSD, FreeBSD, and Linux systems via a malformed header type.
@@ -613,7 +613,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=91278867118128&w=
 
 #### 32. CVE-1999-1173 (N/A)
 
-**CVE编号**: CVE-1999-1173
+**CVE编号**: CVE-1999-1173 [NVD]
 **严重程度**: N/A CVSS: 2.1
 受影响产品: corel:wordperfect
 
@@ -631,7 +631,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=91404045014047&w=
 
 #### 33. CVE-1999-1285 (N/A)
 
-**CVE编号**: CVE-1999-1285
+**CVE编号**: CVE-1999-1285 [NVD]
 **严重程度**: N/A CVSS: 2.1
 受影响产品: linux:linux_kernel
 
@@ -651,7 +651,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=91495921611500&w=
 
 #### 34. CVE-1999-0243 (N/A)
 
-**CVE编号**: CVE-1999-0243
+**CVE编号**: CVE-1999-0243 [NVD]
 **严重程度**: N/A CVSS: 10.0
 
 
@@ -669,7 +669,7 @@ Apply patch from vendor. Monitor http://www.geocrawler.com/archives/3/92/1996/9/
 
 #### 35. CVE-1999-0398 (N/A)
 
-**CVE编号**: CVE-1999-0398
+**CVE编号**: CVE-1999-0398 [NVD]
 **严重程度**: N/A CVSS: 4.6
 受影响产品: ssh:ssh, ssh:ssh2
 
@@ -687,7 +687,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 36. CVE-1999-0401 (N/A)
 
-**CVE编号**: CVE-1999-0401
+**CVE编号**: CVE-1999-0401 [NVD]
 **严重程度**: N/A CVSS: 3.7
 受影响产品: linux:linux_kernel
 
@@ -705,7 +705,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 37. CVE-1999-0698 (N/A)
 
-**CVE编号**: CVE-1999-0698
+**CVE编号**: CVE-1999-0698 [NVD]
 **严重程度**: N/A CVSS: 10.0
 
 
@@ -723,7 +723,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 38. CVE-1999-0389 (N/A)
 
-**CVE编号**: CVE-1999-0389
+**CVE编号**: CVE-1999-0389 [NVD]
 **严重程度**: N/A CVSS: 7.2
 受影响产品: debian:debian_linux
 
@@ -741,7 +741,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/324.
 
 #### 39. CVE-1999-0390 (N/A)
 
-**CVE编号**: CVE-1999-0390
+**CVE编号**: CVE-1999-0390 [NVD]
 **严重程度**: N/A CVSS: 7.2
 受影响产品: redhat:linux, suse:suse_linux
 
@@ -761,7 +761,7 @@ Apply patch from vendor. Monitor ftp://ftp.caldera.com/pub/security/OpenLinux/CS
 
 #### 40. CVE-1999-0457 (N/A)
 
-**CVE编号**: CVE-1999-0457
+**CVE编号**: CVE-1999-0457 [NVD]
 **严重程度**: N/A CVSS: 7.2
 受影响产品: debian:debian_linux
 
@@ -779,7 +779,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/317.
 
 #### 41. CVE-1999-0451 (N/A)
 
-**CVE编号**: CVE-1999-0451
+**CVE编号**: CVE-1999-0451 [NVD]
 **严重程度**: N/A CVSS: 2.1
 受影响产品: linux:linux_kernel
 
@@ -797,7 +797,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/343.
 
 #### 42. CVE-1999-0400 (N/A)
 
-**CVE编号**: CVE-1999-0400
+**CVE编号**: CVE-1999-0400 [NVD]
 **严重程度**: N/A CVSS: 4.6
 受影响产品: linux:linux_kernel
 
@@ -815,9 +815,9 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/344.
 
 #### 43. CVE-1999-0461 (N/A)
 
-**CVE编号**: CVE-1999-0461
+**CVE编号**: CVE-1999-0461 [NVD]
 **严重程度**: N/A CVSS: 10.0
-受影响产品: linux:linux_kernel, sgi:irix
+受影响产品: sgi:irix, linux:linux_kernel
 
 **漏洞描述**:
 Versions of rpcbind including Linux, IRIX, and Wietse Venema's rpcbind allow a remote attacker to insert and delete entries by spoofing a source address.
@@ -833,7 +833,7 @@ Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0461.
 
 #### 44. CVE-2000-0370 (N/A)
 
-**CVE编号**: CVE-2000-0370
+**CVE编号**: CVE-2000-0370 [NVD]
 **严重程度**: N/A CVSS: 10.0
 受影响产品: caldera:openlinux
 
@@ -853,7 +853,7 @@ Apply patch from vendor. Monitor ftp://ftp.calderasystems.com/pub/OpenLinux/secu
 
 #### 45. CVE-1999-0403 (N/A)
 
-**CVE编号**: CVE-1999-0403
+**CVE编号**: CVE-1999-0403 [NVD]
 **严重程度**: N/A CVSS: 5.0
 受影响产品: cyrix:linux
 
@@ -871,7 +871,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=91821080015725&w=
 
 #### 46. CVE-1999-0459 (N/A)
 
-**CVE编号**: CVE-1999-0459
+**CVE编号**: CVE-1999-0459 [NVD]
 **严重程度**: N/A CVSS: 4.6
 
 
@@ -889,7 +889,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 47. CVE-1999-1495 (N/A)
 
-**CVE编号**: CVE-1999-1495
+**CVE编号**: CVE-1999-1495 [NVD]
 **严重程度**: N/A CVSS: 2.1
 受影响产品: suse:suse_linux
 
@@ -910,7 +910,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/12580.
 
 #### 48. CVE-1999-0460 (N/A)
 
-**CVE编号**: CVE-1999-0460
+**CVE编号**: CVE-1999-0460 [NVD]
 **严重程度**: N/A CVSS: 2.1
 受影响产品: linux:linux_kernel
 
@@ -928,7 +928,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/312.
 
 #### 49. CVE-1999-1168 (N/A)
 
-**CVE编号**: CVE-1999-1168
+**CVE编号**: CVE-1999-1168 [NVD]
 **严重程度**: N/A CVSS: 7.2
 受影响产品: iss:internet_security_scanner
 
@@ -946,7 +946,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/12640.
 
 #### 50. CVE-1999-0414 (N/A)
 
-**CVE编号**: CVE-1999-0414
+**CVE编号**: CVE-1999-0414 [NVD]
 **严重程度**: N/A CVSS: 5.0
 受影响产品: linux:linux_kernel
 
@@ -968,15 +968,15 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 ## English 🇺🇸
 **Linux System Vulnerabilities**
 
-Auto-updated hourly: latest LINUX system vulnerabilities and mitigations.
+Auto-updated every 6 hours: latest LINUX system vulnerabilities and mitigations. Sources: NVD, Red Hat, Ubuntu, SUSE, Microsoft, Apple.
 
 ### LINUX Vulnerability List
 
 #### 1. CVE-2000-0508 (N/A)
 
-**CVE ID**: CVE-2000-0508
+**CVE ID**: CVE-2000-0508 [NVD]
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: debian:debian_linux, mandrakesoft:mandrake_linux, redhat:linux
+**Affected Products**: mandrakesoft:mandrake_linux, redhat:linux, debian:debian_linux
 
 **Description**:
 rpc.lockd in Red Hat Linux 6.1 and 6.2 allows remote attackers to cause a denial of service via a malformed request.
@@ -995,7 +995,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/
 
 #### 2. CVE-1999-0242 (N/A)
 
-**CVE ID**: CVE-1999-0242
+**CVE ID**: CVE-1999-0242 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: slackware:slackware_linux
 
@@ -1013,7 +1013,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 3. CVE-1999-0245 (N/A)
 
-**CVE ID**: CVE-1999-0245
+**CVE ID**: CVE-1999-0245 [NVD]
 **Severity**: N/A CVSS: 4.6
 **Affected Products**: linux:linux_kernel
 
@@ -1031,7 +1031,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 4. CVE-1999-0123 (N/A)
 
-**CVE ID**: CVE-1999-0123
+**CVE ID**: CVE-1999-0123 [NVD]
 **Severity**: N/A CVSS: 3.7
 **Affected Products**: slackware:slackware_linux
 
@@ -1049,7 +1049,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 5. CVE-1999-0316 (N/A)
 
-**CVE ID**: CVE-1999-0316
+**CVE ID**: CVE-1999-0316 [NVD]
 **Severity**: N/A CVSS: 7.2
 **Affected Products**: sam_lantinga:splitvt
 
@@ -1067,9 +1067,9 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 6. CVE-1999-1186 (N/A)
 
-**CVE ID**: CVE-1999-1186
+**CVE ID**: CVE-1999-1186 [NVD]
 **Severity**: N/A CVSS: 7.2
-**Affected Products**: rxvt:rxvt, redhat:linux, slackware:slackware_linux
+**Affected Products**: slackware:slackware_linux, redhat:linux, rxvt:rxvt
 
 **Description**:
 rxvt, when compiled with the PRINT_PIPE option in various Linux operating systems including Linux Slackware 3.0 and RedHat 2.1, allows local users to gain root privileges by specifying a malicious program using the -print-pipe command line parameter.
@@ -1085,7 +1085,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602167418966&w=
 
 #### 7. CVE-1999-0137 (N/A)
 
-**CVE ID**: CVE-1999-0137
+**CVE ID**: CVE-1999-0137 [NVD]
 **Severity**: N/A CVSS: 7.2
 **Affected Products**: fred_n._van_kempen:dip
 
@@ -1103,9 +1103,9 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 8. CVE-1999-0032 (N/A)
 
-**CVE ID**: CVE-1999-0032
+**CVE ID**: CVE-1999-0032 [NVD]
 **Severity**: N/A CVSS: 7.2
-**Affected Products**: freebsd:freebsd, sun:sunos, bsdi:bsd_os, sgi:irix, next:nextstep
+**Affected Products**: next:nextstep, bsdi:bsd_os, freebsd:freebsd, sgi:irix, sun:sunos
 
 **Description**:
 Buffer overflow in lpr, as used in BSD-based systems including Linux, allows local users to execute arbitrary code as root via a long -C (classification) command line option.
@@ -1124,9 +1124,9 @@ Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/adv
 
 #### 9. CVE-1999-1299 (N/A)
 
-**CVE ID**: CVE-1999-1299
+**CVE ID**: CVE-1999-1299 [NVD]
 **Severity**: N/A CVSS: 10.0
-**Affected Products**: redhat:linux, slackware:slackware_linux
+**Affected Products**: slackware:slackware_linux, redhat:linux
 
 **Description**:
 rcp on various Linux systems including Red Hat 4.0 allows a "nobody" user or other user with UID of 65535 to overwrite arbitrary files, since 65535 is interpreted as -1 by chown and other system calls, which causes the calls to fail to modify the ownership of the file.
@@ -1142,9 +1142,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602167420509&w=
 
 #### 10. CVE-1999-0298 (N/A)
 
-**CVE ID**: CVE-1999-0298
+**CVE ID**: CVE-1999-0298 [NVD]
 **Severity**: N/A CVSS: 7.5
-**Affected Products**: sun:sunos, slackware:slackware_linux
+**Affected Products**: slackware:slackware_linux, sun:sunos
 
 **Description**:
 ypbind with -ypset and -ypsetme options activated in Linux Slackware and SunOS allows local and remote attackers to overwrite files via a .. (dot dot) attack.
@@ -1160,7 +1160,7 @@ Apply patch from vendor. Monitor http://www.nai.com/nai_labs/asp_set/advisory/06
 
 #### 11. CVE-1999-1489 (N/A)
 
-**CVE ID**: CVE-1999-1489
+**CVE ID**: CVE-1999-1489 [NVD]
 **Severity**: N/A CVSS: 7.2
 **Affected Products**: slackware:slackware_linux
 
@@ -1180,7 +1180,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/6384.
 
 #### 12. CVE-1999-1387 (N/A)
 
-**CVE ID**: CVE-1999-1387
+**CVE ID**: CVE-1999-1387 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: microsoft:windows_nt
 
@@ -1201,9 +1201,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602167420731&w=
 
 #### 13. CVE-1999-1182 (N/A)
 
-**CVE ID**: CVE-1999-1182
+**CVE ID**: CVE-1999-1182 [NVD]
 **Severity**: N/A CVSS: 7.2
-**Affected Products**: lst:lst_power_linux, caldera:openlinux_lite, debian:debian_linux, redhat:linux, suse:suse_linux
+**Affected Products**: delix:dld, suse:suse_linux, caldera:openlinux_lite, redhat:linux, debian:debian_linux
 
 **Description**:
 Buffer overflow in run-time linkers (1) ld.so or (2) ld-linux.so for Linux systems allows local users to gain privileges by calling a setuid program with a long program name (argv[0]) and forcing ld.so/ld-linux.so to report an error.
@@ -1222,9 +1222,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602661419318&w=
 
 #### 14. CVE-1999-1225 (N/A)
 
-**CVE ID**: CVE-1999-1225
+**CVE ID**: CVE-1999-1225 [NVD]
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: sun:solaris, linux:linux_kernel, digital:ultrix, openbsd:openbsd, netbsd:netbsd
+**Affected Products**: sun:solaris, openbsd:openbsd, digital:ultrix, netbsd:netbsd, linux:linux_kernel
 
 **Description**:
 rpc.mountd on Linux, Ultrix, and possibly other operating systems, allows remote attackers to determine the existence of a file on the server by attempting to mount that file, which generates different error messages depending on whether the file exists or not.
@@ -1242,9 +1242,9 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/7526.
 
 #### 15. CVE-1999-0183 (N/A)
 
-**CVE ID**: CVE-1999-0183
+**CVE ID**: CVE-1999-0183 [NVD]
 **Severity**: N/A CVSS: 6.4
-**Affected Products**: tftp:tftp, linux:linux_kernel
+**Affected Products**: linux:linux_kernel, tftp:tftp
 
 **Description**:
 Linux implementations of TFTP would allow access to files outside the restricted directory.
@@ -1260,9 +1260,9 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 16. CVE-1999-0216 (N/A)
 
-**CVE ID**: CVE-1999-0216
+**CVE ID**: CVE-1999-0216 [NVD]
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: gnu:inet, linux:linux_kernel, hp:hp-ux
+**Affected Products**: gnu:inet, hp:hp-ux, linux:linux_kernel
 
 **Description**:
 Denial of service of inetd on Linux through SYN and RST packets.
@@ -1278,7 +1278,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 17. CVE-1999-0340 (N/A)
 
-**CVE ID**: CVE-1999-0340
+**CVE ID**: CVE-1999-0340 [NVD]
 **Severity**: N/A CVSS: 7.2
 **Affected Products**: slackware:slackware_linux
 
@@ -1296,9 +1296,9 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 18. CVE-1999-0341 (N/A)
 
-**CVE ID**: CVE-1999-0341
+**CVE ID**: CVE-1999-0341 [NVD]
 **Severity**: N/A CVSS: 7.2
-**Affected Products**: debian:debian_linux, slackware:slackware_linux
+**Affected Products**: slackware:slackware_linux, debian:debian_linux
 
 **Description**:
 Buffer overflow in the Linux mail program "deliver" allows local users to gain root access.
@@ -1314,7 +1314,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 19. CVE-1999-1229 (N/A)
 
-**CVE ID**: CVE-1999-1229
+**CVE ID**: CVE-1999-1229 [NVD]
 **Severity**: N/A CVSS: 2.1
 **Affected Products**: id_software:quake_2_server
 
@@ -1334,7 +1334,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/8590.
 
 #### 20. CVE-1999-0330 (N/A)
 
-**CVE ID**: CVE-1999-0330
+**CVE ID**: CVE-1999-0330 [NVD]
 **Severity**: N/A CVSS: 7.2
 **Affected Products**: linux:linux_kernel
 
@@ -1352,7 +1352,7 @@ Apply patch from vendor. Monitor https://marc.info/?l=bugtraq&m=87602558319119&w
 
 #### 21. CVE-1999-1407 (N/A)
 
-**CVE ID**: CVE-1999-1407
+**CVE ID**: CVE-1999-1407 [NVD]
 **Severity**: N/A CVSS: 2.1
 **Affected Products**: redhat:linux
 
@@ -1373,7 +1373,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=88950856416985&w=
 
 #### 22. CVE-1999-1498 (N/A)
 
-**CVE ID**: CVE-1999-1498
+**CVE ID**: CVE-1999-1498 [NVD]
 **Severity**: N/A CVSS: 3.6
 **Affected Products**: slackware:slackware_linux
 
@@ -1391,7 +1391,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/82.
 
 #### 23. CVE-1999-1442 (N/A)
 
-**CVE ID**: CVE-1999-1442
+**CVE ID**: CVE-1999-1442 [NVD]
 **Severity**: N/A CVSS: 7.2
 **Affected Products**: linux:linux_kernel
 
@@ -1412,7 +1412,7 @@ Apply patch from vendor. Monitor http://uwsg.iu.edu/hypermail/linux/kernel/9805.
 
 #### 24. CVE-1999-1441 (N/A)
 
-**CVE ID**: CVE-1999-1441
+**CVE ID**: CVE-1999-1441 [NVD]
 **Severity**: N/A CVSS: 2.1
 **Affected Products**: linux:linux_kernel
 
@@ -1432,7 +1432,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90221103126047&w=
 
 #### 25. CVE-1999-1434 (N/A)
 
-**CVE ID**: CVE-1999-1434
+**CVE ID**: CVE-1999-1434 [NVD]
 **Severity**: N/A CVSS: 7.2
 **Affected Products**: slackware:slackware_linux
 
@@ -1452,7 +1452,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90221104525951&w=
 
 #### 26. CVE-1999-1406 (N/A)
 
-**CVE ID**: CVE-1999-1406
+**CVE ID**: CVE-1999-1406 [NVD]
 **Severity**: N/A CVSS: 2.1
 **Affected Products**: redhat:linux
 
@@ -1473,7 +1473,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90221104526185&w=
 
 #### 27. CVE-1999-0262 (N/A)
 
-**CVE ID**: CVE-1999-0262
+**CVE ID**: CVE-1999-0262 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: renaud_deraison:faxsurvey
 
@@ -1493,7 +1493,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/2056.
 
 #### 28. CVE-1999-1381 (N/A)
 
-**CVE ID**: CVE-1999-1381
+**CVE ID**: CVE-1999-1381 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: dbadmin:dbadmin
 
@@ -1511,9 +1511,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90786656409618&w=
 
 #### 29. CVE-1999-0002 (N/A)
 
-**CVE ID**: CVE-1999-0002
+**CVE ID**: CVE-1999-0002 [NVD]
 **Severity**: N/A CVSS: 10.0
-**Affected Products**: redhat:linux, caldera:openlinux, bsdi:bsd_os
+**Affected Products**: bsdi:bsd_os, redhat:linux, caldera:openlinux
 
 **Description**:
 Buffer overflow in NFS mountd gives root access to remote attackers, mostly in Linux systems.
@@ -1532,7 +1532,7 @@ Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/adv
 
 #### 30. CVE-1999-0342 (N/A)
 
-**CVE ID**: CVE-1999-0342
+**CVE ID**: CVE-1999-0342 [NVD]
 **Severity**: N/A CVSS: 6.2
 **Affected Products**: pam:pam
 
@@ -1550,9 +1550,9 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 31. CVE-1999-0798 (N/A)
 
-**CVE ID**: CVE-1999-0798
+**CVE ID**: CVE-1999-0798 [NVD]
 **Severity**: N/A CVSS: 10.0
-**Affected Products**: sco:openserver, freebsd:freebsd, sco:internet_faststart, redhat:linux, bsdi:bsd_os
+**Affected Products**: sco:internet_faststart, openbsd:openbsd, sco:unixware, bsdi:bsd_os, freebsd:freebsd
 
 **Description**:
 Buffer overflow in bootpd on OpenBSD, FreeBSD, and Linux systems via a malformed header type.
@@ -1568,7 +1568,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=91278867118128&w=
 
 #### 32. CVE-1999-1173 (N/A)
 
-**CVE ID**: CVE-1999-1173
+**CVE ID**: CVE-1999-1173 [NVD]
 **Severity**: N/A CVSS: 2.1
 **Affected Products**: corel:wordperfect
 
@@ -1586,7 +1586,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=91404045014047&w=
 
 #### 33. CVE-1999-1285 (N/A)
 
-**CVE ID**: CVE-1999-1285
+**CVE ID**: CVE-1999-1285 [NVD]
 **Severity**: N/A CVSS: 2.1
 **Affected Products**: linux:linux_kernel
 
@@ -1606,7 +1606,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=91495921611500&w=
 
 #### 34. CVE-1999-0243 (N/A)
 
-**CVE ID**: CVE-1999-0243
+**CVE ID**: CVE-1999-0243 [NVD]
 **Severity**: N/A CVSS: 10.0
 **Affected Products**: N/A
 
@@ -1624,7 +1624,7 @@ Apply patch from vendor. Monitor http://www.geocrawler.com/archives/3/92/1996/9/
 
 #### 35. CVE-1999-0398 (N/A)
 
-**CVE ID**: CVE-1999-0398
+**CVE ID**: CVE-1999-0398 [NVD]
 **Severity**: N/A CVSS: 4.6
 **Affected Products**: ssh:ssh, ssh:ssh2
 
@@ -1642,7 +1642,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 36. CVE-1999-0401 (N/A)
 
-**CVE ID**: CVE-1999-0401
+**CVE ID**: CVE-1999-0401 [NVD]
 **Severity**: N/A CVSS: 3.7
 **Affected Products**: linux:linux_kernel
 
@@ -1660,7 +1660,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 37. CVE-1999-0698 (N/A)
 
-**CVE ID**: CVE-1999-0698
+**CVE ID**: CVE-1999-0698 [NVD]
 **Severity**: N/A CVSS: 10.0
 **Affected Products**: N/A
 
@@ -1678,7 +1678,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 38. CVE-1999-0389 (N/A)
 
-**CVE ID**: CVE-1999-0389
+**CVE ID**: CVE-1999-0389 [NVD]
 **Severity**: N/A CVSS: 7.2
 **Affected Products**: debian:debian_linux
 
@@ -1696,7 +1696,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/324.
 
 #### 39. CVE-1999-0390 (N/A)
 
-**CVE ID**: CVE-1999-0390
+**CVE ID**: CVE-1999-0390 [NVD]
 **Severity**: N/A CVSS: 7.2
 **Affected Products**: redhat:linux, suse:suse_linux
 
@@ -1716,7 +1716,7 @@ Apply patch from vendor. Monitor ftp://ftp.caldera.com/pub/security/OpenLinux/CS
 
 #### 40. CVE-1999-0457 (N/A)
 
-**CVE ID**: CVE-1999-0457
+**CVE ID**: CVE-1999-0457 [NVD]
 **Severity**: N/A CVSS: 7.2
 **Affected Products**: debian:debian_linux
 
@@ -1734,7 +1734,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/317.
 
 #### 41. CVE-1999-0451 (N/A)
 
-**CVE ID**: CVE-1999-0451
+**CVE ID**: CVE-1999-0451 [NVD]
 **Severity**: N/A CVSS: 2.1
 **Affected Products**: linux:linux_kernel
 
@@ -1752,7 +1752,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/343.
 
 #### 42. CVE-1999-0400 (N/A)
 
-**CVE ID**: CVE-1999-0400
+**CVE ID**: CVE-1999-0400 [NVD]
 **Severity**: N/A CVSS: 4.6
 **Affected Products**: linux:linux_kernel
 
@@ -1770,9 +1770,9 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/344.
 
 #### 43. CVE-1999-0461 (N/A)
 
-**CVE ID**: CVE-1999-0461
+**CVE ID**: CVE-1999-0461 [NVD]
 **Severity**: N/A CVSS: 10.0
-**Affected Products**: linux:linux_kernel, sgi:irix
+**Affected Products**: sgi:irix, linux:linux_kernel
 
 **Description**:
 Versions of rpcbind including Linux, IRIX, and Wietse Venema's rpcbind allow a remote attacker to insert and delete entries by spoofing a source address.
@@ -1788,7 +1788,7 @@ Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0461.
 
 #### 44. CVE-2000-0370 (N/A)
 
-**CVE ID**: CVE-2000-0370
+**CVE ID**: CVE-2000-0370 [NVD]
 **Severity**: N/A CVSS: 10.0
 **Affected Products**: caldera:openlinux
 
@@ -1808,7 +1808,7 @@ Apply patch from vendor. Monitor ftp://ftp.calderasystems.com/pub/OpenLinux/secu
 
 #### 45. CVE-1999-0403 (N/A)
 
-**CVE ID**: CVE-1999-0403
+**CVE ID**: CVE-1999-0403 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: cyrix:linux
 
@@ -1826,7 +1826,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=91821080015725&w=
 
 #### 46. CVE-1999-0459 (N/A)
 
-**CVE ID**: CVE-1999-0459
+**CVE ID**: CVE-1999-0459 [NVD]
 **Severity**: N/A CVSS: 4.6
 **Affected Products**: N/A
 
@@ -1844,7 +1844,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 47. CVE-1999-1495 (N/A)
 
-**CVE ID**: CVE-1999-1495
+**CVE ID**: CVE-1999-1495 [NVD]
 **Severity**: N/A CVSS: 2.1
 **Affected Products**: suse:suse_linux
 
@@ -1865,7 +1865,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/12580.
 
 #### 48. CVE-1999-0460 (N/A)
 
-**CVE ID**: CVE-1999-0460
+**CVE ID**: CVE-1999-0460 [NVD]
 **Severity**: N/A CVSS: 2.1
 **Affected Products**: linux:linux_kernel
 
@@ -1883,7 +1883,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/312.
 
 #### 49. CVE-1999-1168 (N/A)
 
-**CVE ID**: CVE-1999-1168
+**CVE ID**: CVE-1999-1168 [NVD]
 **Severity**: N/A CVSS: 7.2
 **Affected Products**: iss:internet_security_scanner
 
@@ -1901,7 +1901,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/12640.
 
 #### 50. CVE-1999-0414 (N/A)
 
-**CVE ID**: CVE-1999-0414
+**CVE ID**: CVE-1999-0414 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: linux:linux_kernel
 

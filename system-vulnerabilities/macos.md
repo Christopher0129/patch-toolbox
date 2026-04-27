@@ -8,20 +8,20 @@
 ---
 
 
-_自动更新于 / Auto-updated: 2026-04-27 07:06:10 UTC_
+_自动更新于 / Auto-updated: 2026-04-27 08:15:51 UTC_
 
 ## 中文 🇨🇳
 **macOS 系统漏洞**
 
-本页面每小时自动抓取 MACOS 平台最新系统漏洞及应对措施。
+本页面每6小时自动抓取 MACOS 平台最新系统漏洞及应对措施。数据源：NVD、Red Hat、Ubuntu、SUSE、Microsoft、Apple。
 
 ### MACOS 漏洞列表
 
 #### 1. CVE-1999-0142 (N/A)
 
-**CVE编号**: CVE-1999-0142
+**CVE编号**: CVE-1999-0142 [NVD]
 **严重程度**: N/A CVSS: 7.5
-受影响产品: sun:java, netscape:navigator
+受影响产品: netscape:navigator, sun:java
 
 **漏洞描述**:
 The Java Applet Security Manager implementation in Netscape Navigator 2.0 and Java Developer's Kit 1.0 allows an applet to connect to arbitrary hosts.
@@ -37,7 +37,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 2. CVE-1999-0141 (N/A)
 
-**CVE编号**: CVE-1999-0141
+**CVE编号**: CVE-1999-0141 [NVD]
 **严重程度**: N/A CVSS: 3.7
 受影响产品: netscape:navigator
 
@@ -55,7 +55,7 @@ Apply patch from vendor. Monitor http://sunsolve.sun.com/pub-cgi/retrieve.pl?doc
 
 #### 3. CVE-1999-1262 (N/A)
 
-**CVE编号**: CVE-1999-1262
+**CVE编号**: CVE-1999-1262 [NVD]
 **严重程度**: N/A CVSS: 5.1
 受影响产品: netscape:communicator
 
@@ -75,7 +75,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/12231.
 
 #### 4. CVE-1999-1015 (N/A)
 
-**CVE编号**: CVE-1999-1015
+**CVE编号**: CVE-1999-1015 [NVD]
 **严重程度**: N/A CVSS: 5.0
 受影响产品: apple:appleshare_mail_server
 
@@ -95,7 +95,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=89200657216213&w=
 
 #### 5. CVE-1999-1393 (N/A)
 
-**CVE编号**: CVE-1999-1393
+**CVE编号**: CVE-1999-1393 [NVD]
 **严重程度**: N/A CVSS: 4.6
 受影响产品: apple:macos
 
@@ -115,9 +115,9 @@ Apply patch from vendor. Monitor http://freaky.staticusers.net/macsec/data/power
 
 #### 6. CVE-1999-1412 (N/A)
 
-**CVE编号**: CVE-1999-1412
+**CVE编号**: CVE-1999-1412 [NVD]
 **严重程度**: N/A CVSS: 5.0
-受影响产品: apache:http_server, apple:macos
+受影响产品: apple:macos, apache:http_server
 
 **漏洞描述**:
 A possible interaction between Apple MacOS X release 1.0 and Apache HTTP server allows remote attackers to cause a denial of service (crash) via a flood of HTTP GET requests to CGI programs, which generates a large number of processes.
@@ -135,9 +135,9 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/14215.
 
 #### 7. CVE-1999-0766 (N/A)
 
-**CVE编号**: CVE-1999-0766
+**CVE编号**: CVE-1999-0766 [NVD]
 **严重程度**: N/A CVSS: 9.3
-受影响产品: microsoft:java_virtual_machine, microsoft:internet_explorer
+受影响产品: microsoft:internet_explorer, microsoft:java_virtual_machine
 
 **漏洞描述**:
 The Microsoft Java Virtual Machine allows a malicious Java applet to execute arbitrary commands outside of the sandbox environment.
@@ -156,7 +156,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=
 
 #### 8. CVE-2000-0327 (N/A)
 
-**CVE编号**: CVE-2000-0327
+**CVE编号**: CVE-2000-0327 [NVD]
 **严重程度**: N/A CVSS: 7.6
 受影响产品: microsoft:virtual_machine
 
@@ -176,7 +176,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93993545118416&w=
 
 #### 9. CVE-1999-0793 (N/A)
 
-**CVE编号**: CVE-1999-0793
+**CVE编号**: CVE-1999-0793 [NVD]
 **严重程度**: N/A CVSS: 2.6
 受影响产品: microsoft:internet_explorer
 
@@ -194,9 +194,9 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 #### 10. CVE-2000-0162 (N/A)
 
-**CVE编号**: CVE-2000-0162
+**CVE编号**: CVE-2000-0162 [NVD]
 **严重程度**: N/A CVSS: 5.1
-受影响产品: microsoft:ie, microsoft:visual_studio, microsoft:internet_explorer
+受影响产品: microsoft:visual_studio, microsoft:internet_explorer, microsoft:ie
 
 **漏洞描述**:
 The Microsoft virtual machine (VM) in Internet Explorer 4.x and 5.x allows a remote attacker to read files via a malicious Java applet that escapes the Java sandbox, aka the "VM File Reading" vulnerability.
@@ -212,7 +212,7 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 #### 11. CVE-2000-0237 (N/A)
 
-**CVE编号**: CVE-2000-0237
+**CVE编号**: CVE-2000-0237 [NVD]
 **严重程度**: N/A CVSS: 6.4
 受影响产品: netscape:enterprise_server
 
@@ -232,7 +232,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1075.
 
 #### 12. CVE-2000-0265 (N/A)
 
-**CVE编号**: CVE-2000-0265
+**CVE编号**: CVE-2000-0265 [NVD]
 **严重程度**: N/A CVSS: 4.6
 受影响产品: panda:panda_security
 
@@ -253,7 +253,7 @@ Apply patch from vendor. Monitor http://updates.pandasoftware.com/docs/us/Avoidv
 
 #### 13. CVE-2000-0266 (N/A)
 
-**CVE编号**: CVE-2000-0266
+**CVE编号**: CVE-2000-0266 [NVD]
 **严重程度**: N/A CVSS: 2.6
 受影响产品: microsoft:internet_explorer
 
@@ -273,7 +273,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1121.
 
 #### 14. CVE-2000-0346 (N/A)
 
-**CVE编号**: CVE-2000-0346
+**CVE编号**: CVE-2000-0346 [NVD]
 **严重程度**: N/A CVSS: 5.0
 受影响产品: apple:appleshare
 
@@ -294,7 +294,7 @@ Apply patch from vendor. Monitor http://asu.info.apple.com/swupdates.nsf/artnum/
 
 #### 15. CVE-2000-0676 (N/A)
 
-**CVE编号**: CVE-2000-0676
+**CVE编号**: CVE-2000-0676 [NVD]
 **严重程度**: N/A CVSS: 5.0
 受影响产品: netscape:communicator
 
@@ -315,9 +315,9 @@ Apply patch from vendor. Monitor ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisori
 
 #### 16. CVE-2000-0711 (N/A)
 
-**CVE编号**: CVE-2000-0711
+**CVE编号**: CVE-2000-0711 [NVD]
 **严重程度**: N/A CVSS: 7.5
-受影响产品: netscape:communicator, microsoft:virtual_machine
+受影响产品: microsoft:virtual_machine, netscape:communicator
 
 **漏洞描述**:
 Netscape Communicator does not properly prevent a ServerSocket object from being created by untrusted entities, which allows remote attackers to create a server on the victim's system via a malicious applet, as demonstrated by Brown Orifice.
@@ -336,7 +336,7 @@ Apply patch from vendor. Monitor http://www.cert.org/advisories/CA-2000-15.html.
 
 #### 17. CVE-2000-1061 (N/A)
 
-**CVE编号**: CVE-2000-1061
+**CVE编号**: CVE-2000-1061 [NVD]
 **严重程度**: N/A CVSS: 5.1
 受影响产品: microsoft:ie
 
@@ -356,7 +356,7 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 #### 18. CVE-2000-0889 (N/A)
 
-**CVE编号**: CVE-2000-0889
+**CVE编号**: CVE-2000-0889 [NVD]
 **严重程度**: N/A CVSS: 5.1
 
 
@@ -376,7 +376,7 @@ Apply patch from vendor. Monitor http://sunsolve.Sun.COM/pub-cgi/retrieve.pl?doc
 
 #### 19. CVE-2001-0068 (N/A)
 
-**CVE编号**: CVE-2001-0068
+**CVE编号**: CVE-2001-0068 [NVD]
 **严重程度**: N/A CVSS: 2.6
 受影响产品: apple:mac_os_runtime_for_java
 
@@ -396,7 +396,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/
 
 #### 20. CVE-2001-0137 (N/A)
 
-**CVE编号**: CVE-2001-0137
+**CVE编号**: CVE-2001-0137 [NVD]
 **严重程度**: N/A CVSS: 5.1
 受影响产品: microsoft:windows_media_player
 
@@ -417,9 +417,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97958100816503&w=
 
 #### 21. CVE-2001-0324 (N/A)
 
-**CVE编号**: CVE-2001-0324
+**CVE编号**: CVE-2001-0324 [NVD]
 **严重程度**: N/A CVSS: 2.6
-受影响产品: microsoft:windows_2000, microsoft:windows_98
+受影响产品: microsoft:windows_98, microsoft:windows_2000
 
 **漏洞描述**:
 Windows 98 and Windows 2000 Java clients allow remote attackers to cause a denial of service via a Java applet that opens a large number of UDP sockets, which prevents the host from establishing any additional UDP connections, and possibly causes a crash.
@@ -437,7 +437,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/win2ksec
 
 #### 22. CVE-2001-1026 (N/A)
 
-**CVE编号**: CVE-2001-1026
+**CVE编号**: CVE-2001-1026 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: trend_micro:interscan_applettrap
 
@@ -458,7 +458,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/
 
 #### 23. CVE-2001-1008 (N/A)
 
-**CVE编号**: CVE-2001-1008
+**CVE编号**: CVE-2001-1008 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: sun:jre, sun:java_plug-in
 
@@ -479,7 +479,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/
 
 #### 24. CVE-2001-1254 (N/A)
 
-**CVE编号**: CVE-2001-1254
+**CVE编号**: CVE-2001-1254 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: com2001:alexis_server
 
@@ -499,7 +499,7 @@ Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/21720
 
 #### 25. CVE-2001-0806 (N/A)
 
-**CVE编号**: CVE-2001-0806
+**CVE编号**: CVE-2001-0806 [NVD]
 **严重程度**: N/A CVSS: 3.6
 受影响产品: apple:mac_os_x
 
@@ -520,9 +520,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=99358249631139&w=
 
 #### 26. CVE-2001-1480 (N/A)
 
-**CVE编号**: CVE-2001-1480
+**CVE编号**: CVE-2001-1480 [NVD]
 **严重程度**: N/A CVSS: 7.5
-受影响产品: sun:jre, apple:mac_os_runtime_for_java, sun:jdk, sun:sdk
+受影响产品: sun:sdk, sun:jdk, apple:mac_os_runtime_for_java, sun:jre
 
 **漏洞描述**:
 Java Runtime Environment (JRE) and SDK 1.2 through 1.3.0_04 allows untrusted applets to access the system clipboard.
@@ -541,7 +541,7 @@ Apply patch from vendor. Monitor http://cert.uni-stuttgart.de/archive/bugtraq/20
 
 #### 27. CVE-2001-1575 (N/A)
 
-**CVE编号**: CVE-2001-1575
+**CVE编号**: CVE-2001-1575 [NVD]
 **严重程度**: N/A CVSS: 5.0
 受影响产品: apple:personal_web_sharing
 
@@ -562,7 +562,7 @@ Apply patch from vendor. Monitor http://cert.uni-stuttgart.de/archive/bugtraq/20
 
 #### 28. CVE-2002-1601 (N/A)
 
-**CVE编号**: CVE-2002-1601
+**CVE编号**: CVE-2002-1601 [NVD]
 **严重程度**: N/A CVSS: 5.1
 受影响产品: adobe:photodeluxe
 
@@ -583,9 +583,9 @@ Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/116875.
 
 #### 29. CVE-2002-0058 (N/A)
 
-**CVE编号**: CVE-2002-0058
+**CVE编号**: CVE-2002-0058 [NVD]
 **严重程度**: N/A CVSS: 5.0
-受影响产品: sun:jre, sun:jdk, microsoft:virtual_machine, sun:sdk
+受影响产品: sun:sdk, sun:jdk, microsoft:virtual_machine, sun:jre
 
 **漏洞描述**:
 Vulnerability in Java Runtime Environment (JRE) allows remote malicious web sites to hijack or sniff a web client's sessions, when an HTTP proxy is being used, via a Java applet that redirects the session to another server, as seen in (1) Netscape 6.0 through 6.1 and 4.79 and earlier, (2) Microsoft VM build 3802 and earlier as used in Internet Explorer 4.x and 5.x, and possibly other implementations that use vulnerable versions of SDK or JDK.
@@ -604,9 +604,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101534535304228&w
 
 #### 30. CVE-2002-0076 (N/A)
 
-**CVE编号**: CVE-2002-0076
+**CVE编号**: CVE-2002-0076 [NVD]
 **严重程度**: N/A CVSS: 7.5
-受影响产品: microsoft:virtual_machine, sun:sdk, sun:jre, hp:java_jre-jdk, sun:jdk
+受影响产品: sun:jre, hp:java_jre-jdk, sun:sdk, sun:jdk, microsoft:virtual_machine
 
 **漏洞描述**:
 Java Runtime Environment (JRE) Bytecode Verifier allows remote attackers to escape the Java sandbox and execute commands via an applet containing an illegal cast operation, as seen in (1) Microsoft VM build 3802 and earlier as used in Internet Explorer 4.x and 5.x, (2) Netscape 6.2.1 and earlier, and possibly other implementations that use vulnerable versions of SDK or JDK, aka a variant of the "Virtual Machine Verifier" vulnerability.
@@ -625,7 +625,7 @@ Apply patch from vendor. Monitor http://sunsolve.sun.com/pub-cgi/retrieve.pl?doc
 
 #### 31. CVE-2002-0120 (N/A)
 
-**CVE编号**: CVE-2002-0120
+**CVE编号**: CVE-2002-0120 [NVD]
 **严重程度**: N/A CVSS: 2.1
 受影响产品: palm:palm_desktop
 
@@ -646,7 +646,7 @@ Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/25009
 
 #### 32. CVE-2002-0153 (N/A)
 
-**CVE编号**: CVE-2002-0153
+**CVE编号**: CVE-2002-0153 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: microsoft:ie
 
@@ -667,7 +667,7 @@ Apply patch from vendor. Monitor http://www.iss.net/security_center/static/8851.
 
 #### 33. CVE-2002-0252 (N/A)
 
-**CVE编号**: CVE-2002-0252
+**CVE编号**: CVE-2002-0252 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: apple:quicktime
 
@@ -688,7 +688,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101320742616105&w
 
 #### 34. CVE-2002-0676 (N/A)
 
-**CVE编号**: CVE-2002-0676
+**CVE编号**: CVE-2002-0676 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: apple:mac_os_x
 
@@ -709,7 +709,7 @@ Apply patch from vendor. Monitor http://www.cunap.com/~hardingr/projects/osx/exp
 
 #### 35. CVE-2002-0376 (N/A)
 
-**CVE编号**: CVE-2002-0376
+**CVE编号**: CVE-2002-0376 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: apple:quicktime
 
@@ -730,7 +730,7 @@ Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/29309
 
 #### 36. CVE-2002-0976 (N/A)
 
-**CVE编号**: CVE-2002-0976
+**CVE编号**: CVE-2002-0976 [NVD]
 **严重程度**: N/A CVSS: 6.4
 受影响产品: microsoft:internet_explorer
 
@@ -751,7 +751,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=102960731805373&w
 
 #### 37. CVE-2002-0865 (N/A)
 
-**CVE编号**: CVE-2002-0865
+**CVE编号**: CVE-2002-0865 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: microsoft:virtual_machine
 
@@ -772,7 +772,7 @@ Apply patch from vendor. Monitor http://www.iss.net/security_center/static/10135
 
 #### 38. CVE-2002-0866 (N/A)
 
-**CVE编号**: CVE-2002-0866
+**CVE编号**: CVE-2002-0866 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: microsoft:virtual_machine
 
@@ -793,7 +793,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/
 
 #### 39. CVE-2002-0867 (N/A)
 
-**CVE编号**: CVE-2002-0867
+**CVE编号**: CVE-2002-0867 [NVD]
 **严重程度**: N/A CVSS: 5.0
 受影响产品: microsoft:virtual_machine
 
@@ -814,7 +814,7 @@ Apply patch from vendor. Monitor http://www.iss.net/security_center/static/10134
 
 #### 40. CVE-2002-1286 (N/A)
 
-**CVE编号**: CVE-2002-1286
+**CVE编号**: CVE-2002-1286 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: microsoft:java_virtual_machine
 
@@ -835,7 +835,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w
 
 #### 41. CVE-2002-1290 (N/A)
 
-**CVE编号**: CVE-2002-1290
+**CVE编号**: CVE-2002-1290 [NVD]
 **严重程度**: N/A CVSS: 6.4
 受影响产品: microsoft:java_virtual_machine
 
@@ -856,7 +856,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w
 
 #### 42. CVE-2002-1291 (N/A)
 
-**CVE编号**: CVE-2002-1291
+**CVE编号**: CVE-2002-1291 [NVD]
 **严重程度**: N/A CVSS: 5.0
 受影响产品: microsoft:java_virtual_machine
 
@@ -877,7 +877,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w
 
 #### 43. CVE-2002-1292 (N/A)
 
-**CVE编号**: CVE-2002-1292
+**CVE编号**: CVE-2002-1292 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: microsoft:java_virtual_machine
 
@@ -898,7 +898,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w
 
 #### 44. CVE-2002-1294 (N/A)
 
-**CVE编号**: CVE-2002-1294
+**CVE编号**: CVE-2002-1294 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: microsoft:java_virtual_machine
 
@@ -919,7 +919,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w
 
 #### 45. CVE-2002-1295 (N/A)
 
-**CVE编号**: CVE-2002-1295
+**CVE编号**: CVE-2002-1295 [NVD]
 **严重程度**: N/A CVSS: 7.5
 受影响产品: microsoft:java_virtual_machine
 
@@ -940,9 +940,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w
 
 #### 46. CVE-2002-1257 (N/A)
 
-**CVE编号**: CVE-2002-1257
+**CVE编号**: CVE-2002-1257 [NVD]
 **严重程度**: N/A CVSS: 10.0
-受影响产品: microsoft:windows_nt, microsoft:windows_2000_terminal_services, microsoft:windows_me, microsoft:windows_2000, microsoft:windows_98
+受影响产品: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_me, microsoft:windows_95, microsoft:windows_xp
 
 **漏洞描述**:
 Microsoft Virtual Machine (VM) up to and including build 5.0.3805 allows remote attackers to execute arbitrary code by including a Java applet that invokes COM (Component Object Model) objects in a web site or an HTML mail.
@@ -960,9 +960,9 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/6371.
 
 #### 47. CVE-2002-1258 (N/A)
 
-**CVE编号**: CVE-2002-1258
+**CVE编号**: CVE-2002-1258 [NVD]
 **严重程度**: N/A CVSS: 5.0
-受影响产品: microsoft:windows_nt, microsoft:windows_2000_terminal_services, microsoft:windows_me, microsoft:windows_2000, microsoft:windows_98
+受影响产品: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_me, microsoft:windows_95, microsoft:windows_xp
 
 **漏洞描述**:
 Two vulnerabilities in Microsoft Virtual Machine (VM) up to and including build 5.0.3805, as used in Internet Explorer and other applications, allow remote attackers to read files via a Java applet with a spoofed location in the CODEBASE parameter in the APPLET tag, possibly due to a parsing error.
@@ -980,9 +980,9 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 #### 48. CVE-2002-1260 (N/A)
 
-**CVE编号**: CVE-2002-1260
+**CVE编号**: CVE-2002-1260 [NVD]
 **严重程度**: N/A CVSS: 7.5
-受影响产品: microsoft:windows_nt, microsoft:windows_2000_terminal_services, microsoft:windows_me, microsoft:windows_2000, microsoft:windows_98
+受影响产品: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_me, microsoft:windows_95, microsoft:windows_xp
 
 **漏洞描述**:
 The Java Database Connectivity (JDBC) APIs in Microsoft Virtual Machine (VM) 5.0.3805 and earlier allow remote attackers to bypass security checks and access database contents via an untrusted Java applet.
@@ -1001,9 +1001,9 @@ Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/n-026.shtml.
 
 #### 49. CVE-2002-1325 (N/A)
 
-**CVE编号**: CVE-2002-1325
+**CVE编号**: CVE-2002-1325 [NVD]
 **严重程度**: N/A CVSS: 5.0
-受影响产品: microsoft:windows_nt, microsoft:windows_2000_terminal_services, microsoft:windows_me, microsoft:windows_2000, microsoft:windows_98
+受影响产品: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_me, microsoft:windows_95, microsoft:windows_xp
 
 **漏洞描述**:
 Microsoft Virtual Machine (VM) build 5.0.3805 and earlier allows remote attackers to determine a local user's username via a Java applet that accesses the user.dir system property, aka "User.dir Exposure Vulnerability."
@@ -1021,7 +1021,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/6380.
 
 #### 50. CVE-2002-1898 (N/A)
 
-**CVE编号**: CVE-2002-1898
+**CVE编号**: CVE-2002-1898 [NVD]
 **严重程度**: N/A CVSS: 7.2
 受影响产品: apple:terminal, apple:mac_os_x
 
@@ -1046,15 +1046,15 @@ Apply patch from vendor. Monitor http://apple.slashdot.org/apple/02/09/21/122236
 ## English 🇺🇸
 **macOS System Vulnerabilities**
 
-Auto-updated hourly: latest MACOS system vulnerabilities and mitigations.
+Auto-updated every 6 hours: latest MACOS system vulnerabilities and mitigations. Sources: NVD, Red Hat, Ubuntu, SUSE, Microsoft, Apple.
 
 ### MACOS Vulnerability List
 
 #### 1. CVE-1999-0142 (N/A)
 
-**CVE ID**: CVE-1999-0142
+**CVE ID**: CVE-1999-0142 [NVD]
 **Severity**: N/A CVSS: 7.5
-**Affected Products**: sun:java, netscape:navigator
+**Affected Products**: netscape:navigator, sun:java
 
 **Description**:
 The Java Applet Security Manager implementation in Netscape Navigator 2.0 and Java Developer's Kit 1.0 allows an applet to connect to arbitrary hosts.
@@ -1070,7 +1070,7 @@ Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabil
 
 #### 2. CVE-1999-0141 (N/A)
 
-**CVE ID**: CVE-1999-0141
+**CVE ID**: CVE-1999-0141 [NVD]
 **Severity**: N/A CVSS: 3.7
 **Affected Products**: netscape:navigator
 
@@ -1088,7 +1088,7 @@ Apply patch from vendor. Monitor http://sunsolve.sun.com/pub-cgi/retrieve.pl?doc
 
 #### 3. CVE-1999-1262 (N/A)
 
-**CVE ID**: CVE-1999-1262
+**CVE ID**: CVE-1999-1262 [NVD]
 **Severity**: N/A CVSS: 5.1
 **Affected Products**: netscape:communicator
 
@@ -1108,7 +1108,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/12231.
 
 #### 4. CVE-1999-1015 (N/A)
 
-**CVE ID**: CVE-1999-1015
+**CVE ID**: CVE-1999-1015 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: apple:appleshare_mail_server
 
@@ -1128,7 +1128,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=89200657216213&w=
 
 #### 5. CVE-1999-1393 (N/A)
 
-**CVE ID**: CVE-1999-1393
+**CVE ID**: CVE-1999-1393 [NVD]
 **Severity**: N/A CVSS: 4.6
 **Affected Products**: apple:macos
 
@@ -1148,9 +1148,9 @@ Apply patch from vendor. Monitor http://freaky.staticusers.net/macsec/data/power
 
 #### 6. CVE-1999-1412 (N/A)
 
-**CVE ID**: CVE-1999-1412
+**CVE ID**: CVE-1999-1412 [NVD]
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: apache:http_server, apple:macos
+**Affected Products**: apple:macos, apache:http_server
 
 **Description**:
 A possible interaction between Apple MacOS X release 1.0 and Apache HTTP server allows remote attackers to cause a denial of service (crash) via a flood of HTTP GET requests to CGI programs, which generates a large number of processes.
@@ -1168,9 +1168,9 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/14215.
 
 #### 7. CVE-1999-0766 (N/A)
 
-**CVE ID**: CVE-1999-0766
+**CVE ID**: CVE-1999-0766 [NVD]
 **Severity**: N/A CVSS: 9.3
-**Affected Products**: microsoft:java_virtual_machine, microsoft:internet_explorer
+**Affected Products**: microsoft:internet_explorer, microsoft:java_virtual_machine
 
 **Description**:
 The Microsoft Java Virtual Machine allows a malicious Java applet to execute arbitrary commands outside of the sandbox environment.
@@ -1189,7 +1189,7 @@ Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=
 
 #### 8. CVE-2000-0327 (N/A)
 
-**CVE ID**: CVE-2000-0327
+**CVE ID**: CVE-2000-0327 [NVD]
 **Severity**: N/A CVSS: 7.6
 **Affected Products**: microsoft:virtual_machine
 
@@ -1209,7 +1209,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93993545118416&w=
 
 #### 9. CVE-1999-0793 (N/A)
 
-**CVE ID**: CVE-1999-0793
+**CVE ID**: CVE-1999-0793 [NVD]
 **Severity**: N/A CVSS: 2.6
 **Affected Products**: microsoft:internet_explorer
 
@@ -1227,9 +1227,9 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 #### 10. CVE-2000-0162 (N/A)
 
-**CVE ID**: CVE-2000-0162
+**CVE ID**: CVE-2000-0162 [NVD]
 **Severity**: N/A CVSS: 5.1
-**Affected Products**: microsoft:ie, microsoft:visual_studio, microsoft:internet_explorer
+**Affected Products**: microsoft:visual_studio, microsoft:internet_explorer, microsoft:ie
 
 **Description**:
 The Microsoft virtual machine (VM) in Internet Explorer 4.x and 5.x allows a remote attacker to read files via a malicious Java applet that escapes the Java sandbox, aka the "VM File Reading" vulnerability.
@@ -1245,7 +1245,7 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 #### 11. CVE-2000-0237 (N/A)
 
-**CVE ID**: CVE-2000-0237
+**CVE ID**: CVE-2000-0237 [NVD]
 **Severity**: N/A CVSS: 6.4
 **Affected Products**: netscape:enterprise_server
 
@@ -1265,7 +1265,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1075.
 
 #### 12. CVE-2000-0265 (N/A)
 
-**CVE ID**: CVE-2000-0265
+**CVE ID**: CVE-2000-0265 [NVD]
 **Severity**: N/A CVSS: 4.6
 **Affected Products**: panda:panda_security
 
@@ -1286,7 +1286,7 @@ Apply patch from vendor. Monitor http://updates.pandasoftware.com/docs/us/Avoidv
 
 #### 13. CVE-2000-0266 (N/A)
 
-**CVE ID**: CVE-2000-0266
+**CVE ID**: CVE-2000-0266 [NVD]
 **Severity**: N/A CVSS: 2.6
 **Affected Products**: microsoft:internet_explorer
 
@@ -1306,7 +1306,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/1121.
 
 #### 14. CVE-2000-0346 (N/A)
 
-**CVE ID**: CVE-2000-0346
+**CVE ID**: CVE-2000-0346 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: apple:appleshare
 
@@ -1327,7 +1327,7 @@ Apply patch from vendor. Monitor http://asu.info.apple.com/swupdates.nsf/artnum/
 
 #### 15. CVE-2000-0676 (N/A)
 
-**CVE ID**: CVE-2000-0676
+**CVE ID**: CVE-2000-0676 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: netscape:communicator
 
@@ -1348,9 +1348,9 @@ Apply patch from vendor. Monitor ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisori
 
 #### 16. CVE-2000-0711 (N/A)
 
-**CVE ID**: CVE-2000-0711
+**CVE ID**: CVE-2000-0711 [NVD]
 **Severity**: N/A CVSS: 7.5
-**Affected Products**: netscape:communicator, microsoft:virtual_machine
+**Affected Products**: microsoft:virtual_machine, netscape:communicator
 
 **Description**:
 Netscape Communicator does not properly prevent a ServerSocket object from being created by untrusted entities, which allows remote attackers to create a server on the victim's system via a malicious applet, as demonstrated by Brown Orifice.
@@ -1369,7 +1369,7 @@ Apply patch from vendor. Monitor http://www.cert.org/advisories/CA-2000-15.html.
 
 #### 17. CVE-2000-1061 (N/A)
 
-**CVE ID**: CVE-2000-1061
+**CVE ID**: CVE-2000-1061 [NVD]
 **Severity**: N/A CVSS: 5.1
 **Affected Products**: microsoft:ie
 
@@ -1389,7 +1389,7 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 #### 18. CVE-2000-0889 (N/A)
 
-**CVE ID**: CVE-2000-0889
+**CVE ID**: CVE-2000-0889 [NVD]
 **Severity**: N/A CVSS: 5.1
 **Affected Products**: N/A
 
@@ -1409,7 +1409,7 @@ Apply patch from vendor. Monitor http://sunsolve.Sun.COM/pub-cgi/retrieve.pl?doc
 
 #### 19. CVE-2001-0068 (N/A)
 
-**CVE ID**: CVE-2001-0068
+**CVE ID**: CVE-2001-0068 [NVD]
 **Severity**: N/A CVSS: 2.6
 **Affected Products**: apple:mac_os_runtime_for_java
 
@@ -1429,7 +1429,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/
 
 #### 20. CVE-2001-0137 (N/A)
 
-**CVE ID**: CVE-2001-0137
+**CVE ID**: CVE-2001-0137 [NVD]
 **Severity**: N/A CVSS: 5.1
 **Affected Products**: microsoft:windows_media_player
 
@@ -1450,9 +1450,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=97958100816503&w=
 
 #### 21. CVE-2001-0324 (N/A)
 
-**CVE ID**: CVE-2001-0324
+**CVE ID**: CVE-2001-0324 [NVD]
 **Severity**: N/A CVSS: 2.6
-**Affected Products**: microsoft:windows_2000, microsoft:windows_98
+**Affected Products**: microsoft:windows_98, microsoft:windows_2000
 
 **Description**:
 Windows 98 and Windows 2000 Java clients allow remote attackers to cause a denial of service via a Java applet that opens a large number of UDP sockets, which prevents the host from establishing any additional UDP connections, and possibly causes a crash.
@@ -1470,7 +1470,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/win2ksec
 
 #### 22. CVE-2001-1026 (N/A)
 
-**CVE ID**: CVE-2001-1026
+**CVE ID**: CVE-2001-1026 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: trend_micro:interscan_applettrap
 
@@ -1491,7 +1491,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/
 
 #### 23. CVE-2001-1008 (N/A)
 
-**CVE ID**: CVE-2001-1008
+**CVE ID**: CVE-2001-1008 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: sun:jre, sun:java_plug-in
 
@@ -1512,7 +1512,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/
 
 #### 24. CVE-2001-1254 (N/A)
 
-**CVE ID**: CVE-2001-1254
+**CVE ID**: CVE-2001-1254 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: com2001:alexis_server
 
@@ -1532,7 +1532,7 @@ Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/21720
 
 #### 25. CVE-2001-0806 (N/A)
 
-**CVE ID**: CVE-2001-0806
+**CVE ID**: CVE-2001-0806 [NVD]
 **Severity**: N/A CVSS: 3.6
 **Affected Products**: apple:mac_os_x
 
@@ -1553,9 +1553,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=99358249631139&w=
 
 #### 26. CVE-2001-1480 (N/A)
 
-**CVE ID**: CVE-2001-1480
+**CVE ID**: CVE-2001-1480 [NVD]
 **Severity**: N/A CVSS: 7.5
-**Affected Products**: sun:jre, apple:mac_os_runtime_for_java, sun:jdk, sun:sdk
+**Affected Products**: sun:sdk, sun:jdk, apple:mac_os_runtime_for_java, sun:jre
 
 **Description**:
 Java Runtime Environment (JRE) and SDK 1.2 through 1.3.0_04 allows untrusted applets to access the system clipboard.
@@ -1574,7 +1574,7 @@ Apply patch from vendor. Monitor http://cert.uni-stuttgart.de/archive/bugtraq/20
 
 #### 27. CVE-2001-1575 (N/A)
 
-**CVE ID**: CVE-2001-1575
+**CVE ID**: CVE-2001-1575 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: apple:personal_web_sharing
 
@@ -1595,7 +1595,7 @@ Apply patch from vendor. Monitor http://cert.uni-stuttgart.de/archive/bugtraq/20
 
 #### 28. CVE-2002-1601 (N/A)
 
-**CVE ID**: CVE-2002-1601
+**CVE ID**: CVE-2002-1601 [NVD]
 **Severity**: N/A CVSS: 5.1
 **Affected Products**: adobe:photodeluxe
 
@@ -1616,9 +1616,9 @@ Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/116875.
 
 #### 29. CVE-2002-0058 (N/A)
 
-**CVE ID**: CVE-2002-0058
+**CVE ID**: CVE-2002-0058 [NVD]
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: sun:jre, sun:jdk, microsoft:virtual_machine, sun:sdk
+**Affected Products**: sun:sdk, sun:jdk, microsoft:virtual_machine, sun:jre
 
 **Description**:
 Vulnerability in Java Runtime Environment (JRE) allows remote malicious web sites to hijack or sniff a web client's sessions, when an HTTP proxy is being used, via a Java applet that redirects the session to another server, as seen in (1) Netscape 6.0 through 6.1 and 4.79 and earlier, (2) Microsoft VM build 3802 and earlier as used in Internet Explorer 4.x and 5.x, and possibly other implementations that use vulnerable versions of SDK or JDK.
@@ -1637,9 +1637,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101534535304228&w
 
 #### 30. CVE-2002-0076 (N/A)
 
-**CVE ID**: CVE-2002-0076
+**CVE ID**: CVE-2002-0076 [NVD]
 **Severity**: N/A CVSS: 7.5
-**Affected Products**: microsoft:virtual_machine, sun:sdk, sun:jre, hp:java_jre-jdk, sun:jdk
+**Affected Products**: sun:jre, hp:java_jre-jdk, sun:sdk, sun:jdk, microsoft:virtual_machine
 
 **Description**:
 Java Runtime Environment (JRE) Bytecode Verifier allows remote attackers to escape the Java sandbox and execute commands via an applet containing an illegal cast operation, as seen in (1) Microsoft VM build 3802 and earlier as used in Internet Explorer 4.x and 5.x, (2) Netscape 6.2.1 and earlier, and possibly other implementations that use vulnerable versions of SDK or JDK, aka a variant of the "Virtual Machine Verifier" vulnerability.
@@ -1658,7 +1658,7 @@ Apply patch from vendor. Monitor http://sunsolve.sun.com/pub-cgi/retrieve.pl?doc
 
 #### 31. CVE-2002-0120 (N/A)
 
-**CVE ID**: CVE-2002-0120
+**CVE ID**: CVE-2002-0120 [NVD]
 **Severity**: N/A CVSS: 2.1
 **Affected Products**: palm:palm_desktop
 
@@ -1679,7 +1679,7 @@ Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/25009
 
 #### 32. CVE-2002-0153 (N/A)
 
-**CVE ID**: CVE-2002-0153
+**CVE ID**: CVE-2002-0153 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: microsoft:ie
 
@@ -1700,7 +1700,7 @@ Apply patch from vendor. Monitor http://www.iss.net/security_center/static/8851.
 
 #### 33. CVE-2002-0252 (N/A)
 
-**CVE ID**: CVE-2002-0252
+**CVE ID**: CVE-2002-0252 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: apple:quicktime
 
@@ -1721,7 +1721,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101320742616105&w
 
 #### 34. CVE-2002-0676 (N/A)
 
-**CVE ID**: CVE-2002-0676
+**CVE ID**: CVE-2002-0676 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: apple:mac_os_x
 
@@ -1742,7 +1742,7 @@ Apply patch from vendor. Monitor http://www.cunap.com/~hardingr/projects/osx/exp
 
 #### 35. CVE-2002-0376 (N/A)
 
-**CVE ID**: CVE-2002-0376
+**CVE ID**: CVE-2002-0376 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: apple:quicktime
 
@@ -1763,7 +1763,7 @@ Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/29309
 
 #### 36. CVE-2002-0976 (N/A)
 
-**CVE ID**: CVE-2002-0976
+**CVE ID**: CVE-2002-0976 [NVD]
 **Severity**: N/A CVSS: 6.4
 **Affected Products**: microsoft:internet_explorer
 
@@ -1784,7 +1784,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=102960731805373&w
 
 #### 37. CVE-2002-0865 (N/A)
 
-**CVE ID**: CVE-2002-0865
+**CVE ID**: CVE-2002-0865 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: microsoft:virtual_machine
 
@@ -1805,7 +1805,7 @@ Apply patch from vendor. Monitor http://www.iss.net/security_center/static/10135
 
 #### 38. CVE-2002-0866 (N/A)
 
-**CVE ID**: CVE-2002-0866
+**CVE ID**: CVE-2002-0866 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: microsoft:virtual_machine
 
@@ -1826,7 +1826,7 @@ Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/
 
 #### 39. CVE-2002-0867 (N/A)
 
-**CVE ID**: CVE-2002-0867
+**CVE ID**: CVE-2002-0867 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: microsoft:virtual_machine
 
@@ -1847,7 +1847,7 @@ Apply patch from vendor. Monitor http://www.iss.net/security_center/static/10134
 
 #### 40. CVE-2002-1286 (N/A)
 
-**CVE ID**: CVE-2002-1286
+**CVE ID**: CVE-2002-1286 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: microsoft:java_virtual_machine
 
@@ -1868,7 +1868,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w
 
 #### 41. CVE-2002-1290 (N/A)
 
-**CVE ID**: CVE-2002-1290
+**CVE ID**: CVE-2002-1290 [NVD]
 **Severity**: N/A CVSS: 6.4
 **Affected Products**: microsoft:java_virtual_machine
 
@@ -1889,7 +1889,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w
 
 #### 42. CVE-2002-1291 (N/A)
 
-**CVE ID**: CVE-2002-1291
+**CVE ID**: CVE-2002-1291 [NVD]
 **Severity**: N/A CVSS: 5.0
 **Affected Products**: microsoft:java_virtual_machine
 
@@ -1910,7 +1910,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w
 
 #### 43. CVE-2002-1292 (N/A)
 
-**CVE ID**: CVE-2002-1292
+**CVE ID**: CVE-2002-1292 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: microsoft:java_virtual_machine
 
@@ -1931,7 +1931,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w
 
 #### 44. CVE-2002-1294 (N/A)
 
-**CVE ID**: CVE-2002-1294
+**CVE ID**: CVE-2002-1294 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: microsoft:java_virtual_machine
 
@@ -1952,7 +1952,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w
 
 #### 45. CVE-2002-1295 (N/A)
 
-**CVE ID**: CVE-2002-1295
+**CVE ID**: CVE-2002-1295 [NVD]
 **Severity**: N/A CVSS: 7.5
 **Affected Products**: microsoft:java_virtual_machine
 
@@ -1973,9 +1973,9 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103682630823080&w
 
 #### 46. CVE-2002-1257 (N/A)
 
-**CVE ID**: CVE-2002-1257
+**CVE ID**: CVE-2002-1257 [NVD]
 **Severity**: N/A CVSS: 10.0
-**Affected Products**: microsoft:windows_nt, microsoft:windows_2000_terminal_services, microsoft:windows_me, microsoft:windows_2000, microsoft:windows_98
+**Affected Products**: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_me, microsoft:windows_95, microsoft:windows_xp
 
 **Description**:
 Microsoft Virtual Machine (VM) up to and including build 5.0.3805 allows remote attackers to execute arbitrary code by including a Java applet that invokes COM (Component Object Model) objects in a web site or an HTML mail.
@@ -1993,9 +1993,9 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/6371.
 
 #### 47. CVE-2002-1258 (N/A)
 
-**CVE ID**: CVE-2002-1258
+**CVE ID**: CVE-2002-1258 [NVD]
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: microsoft:windows_nt, microsoft:windows_2000_terminal_services, microsoft:windows_me, microsoft:windows_2000, microsoft:windows_98
+**Affected Products**: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_me, microsoft:windows_95, microsoft:windows_xp
 
 **Description**:
 Two vulnerabilities in Microsoft Virtual Machine (VM) up to and including build 5.0.3805, as used in Internet Explorer and other applications, allow remote attackers to read files via a Java applet with a spoofed location in the CODEBASE parameter in the APPLET tag, possibly due to a parsing error.
@@ -2013,9 +2013,9 @@ Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updat
 
 #### 48. CVE-2002-1260 (N/A)
 
-**CVE ID**: CVE-2002-1260
+**CVE ID**: CVE-2002-1260 [NVD]
 **Severity**: N/A CVSS: 7.5
-**Affected Products**: microsoft:windows_nt, microsoft:windows_2000_terminal_services, microsoft:windows_me, microsoft:windows_2000, microsoft:windows_98
+**Affected Products**: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_me, microsoft:windows_95, microsoft:windows_xp
 
 **Description**:
 The Java Database Connectivity (JDBC) APIs in Microsoft Virtual Machine (VM) 5.0.3805 and earlier allow remote attackers to bypass security checks and access database contents via an untrusted Java applet.
@@ -2034,9 +2034,9 @@ Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/n-026.shtml.
 
 #### 49. CVE-2002-1325 (N/A)
 
-**CVE ID**: CVE-2002-1325
+**CVE ID**: CVE-2002-1325 [NVD]
 **Severity**: N/A CVSS: 5.0
-**Affected Products**: microsoft:windows_nt, microsoft:windows_2000_terminal_services, microsoft:windows_me, microsoft:windows_2000, microsoft:windows_98
+**Affected Products**: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_me, microsoft:windows_95, microsoft:windows_xp
 
 **Description**:
 Microsoft Virtual Machine (VM) build 5.0.3805 and earlier allows remote attackers to determine a local user's username via a Java applet that accesses the user.dir system property, aka "User.dir Exposure Vulnerability."
@@ -2054,7 +2054,7 @@ Apply patch from vendor. Monitor http://www.securityfocus.com/bid/6380.
 
 #### 50. CVE-2002-1898 (N/A)
 
-**CVE ID**: CVE-2002-1898
+**CVE ID**: CVE-2002-1898 [NVD]
 **Severity**: N/A CVSS: 7.2
 **Affected Products**: apple:terminal, apple:mac_os_x
 
