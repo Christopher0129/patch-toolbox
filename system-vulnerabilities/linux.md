@@ -3938,7 +3938,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 303. CVE-2026-31681 - kernel: netfilter: xt_multiport: validate range encoding in 
+#### 303. CVE-2026-31681 - kernel: netfilter: xt_multiport: validate range encoding in checkentry
 
 **严重程度 / Severity**: MODERATE
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
@@ -4034,7 +4034,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 309. CVE-2026-31685 - kernel: netfilter: ip6t_eui64: reject invalid MAC header for
+#### 309. CVE-2026-31685 - kernel: netfilter: ip6t_eui64: reject invalid MAC header for all packets
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
@@ -4050,7 +4050,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 310. CVE-2026-31675 - kernel: net/sched: sch_netem: fix out-of-bounds access in pa
+#### 310. CVE-2026-31675 - kernel: net/sched: sch_netem: fix out-of-bounds access in packet corruption
 
 **严重程度 / Severity**: MODERATE
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
@@ -4082,7 +4082,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 312. CVE-2026-31679 - kernel: openvswitch: validate MPLS set/set_masked payload le
+#### 312. CVE-2026-31679 - kernel: openvswitch: validate MPLS set/set_masked payload length
 
 **严重程度 / Severity**: MODERATE
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
@@ -4098,7 +4098,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 313. CVE-2026-31677 - kernel: crypto: af_alg - limit RX SG extraction by receive b
+#### 313. CVE-2026-31677 - kernel: crypto: af_alg - limit RX SG extraction by receive buffer budget
 
 **严重程度 / Severity**: LOW
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
@@ -4114,7 +4114,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 314. CVE-2026-31680 - kernel: net: ipv6: flowlabel: defer exclusive option free un
+#### 314. CVE-2026-31680 - kernel: net: ipv6: flowlabel: defer exclusive option free until RCU teardown
 
 **严重程度 / Severity**: MODERATE
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
@@ -4178,7 +4178,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 318. CVE-2026-41305 - postcss: PostCSS: Cross-Site Scripting (XSS) via improper es
+#### 318. CVE-2026-41305 - postcss: PostCSS: Cross-Site Scripting (XSS) via improper escaping of `</style>` in CSS stringify output
 
 **严重程度 / Severity**: MODERATE
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
