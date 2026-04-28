@@ -9,7 +9,6 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 REQUIRED_DIRS = [
     "db",
-    "docs",
     "scripts",
     "network-security",
     "system-vulnerabilities",
