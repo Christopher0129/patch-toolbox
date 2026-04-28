@@ -19,7 +19,7 @@ from utils import (
     count_entries_sqlite, send_sync_report,
 )
 
-SYNC_NAME = "agent-system-troubleshooting"
+SYNC_NAME = "sync-system-troubleshooting"
 MIN_ITEMS = 50
 MAX_DEEP_PAGES = 5
 

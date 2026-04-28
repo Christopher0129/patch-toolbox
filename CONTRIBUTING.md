@@ -132,9 +132,6 @@ python scripts/validate_bilingual.py
 
 # Verify database sync
 python scripts/verify_db_sync.py
-
-# Validate link accessibility
-python scripts/validate_links.py
 ```
 
 ### Contact
@@ -145,3 +142,4 @@ python scripts/validate_links.py
 ## License
 
 By contributing, you agree to license your contributions under MIT License.
+e.

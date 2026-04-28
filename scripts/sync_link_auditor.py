@@ -149,25 +149,56 @@ def check_and_fix() -> Tuple[int, int, List[str]]:
                 missing.append(expected_link)
 
         if missing:
-            # 修复：在文件末尾添加导航块
             nav = build_nav_section(missing, file_path.parent)
-            # 避免重复插入导航
-            if "**🔗 导航 / Navigation**" not in content and "**🔗 Navigation**" not in content:
+            # 检查是否已有导航块
+            nav_start = -1
+            lines = content.split("\n")
+            for i, line in enumerate(lines):
+                stripped = line.strip()
+                if stripped == "**🔗 导航 / Navigation**" or stripped == "**🔗 Navigation**":
+                    nav_start = i
+                    break
+
+            if nav_start == -1:
+                # 没有导航块，直接追加完整导航
                 new_content = content.rstrip() + "\n\n" + nav
             else:
-                # 已有导航块，在现有导航后追加
-                new_content = content
-                # 简单处理：在最后追加新链接
-                lines = content.split("\n")
+                # 已有导航块，只补充缺失的链接行
+                # 找到导航块结束位置（下一个 --- 或文件末尾）
                 nav_end = len(lines)
-                for i, line in enumerate(lines):
-                    if "---" in line and i > len(lines) - 10:
+                for i in range(nav_start + 1, len(lines)):
+                    if lines[i].strip() == "---":
                         nav_end = i
                         break
-                # 在文件最后重新组织
-                new_content = content.rstrip() + "\n\n" + nav
+                # 提取当前导航块中的链接
+                existing_links = set()
+                for line in lines[nav_start:nav_end]:
+                    m = re.search(r'\[([^\]]+)\]\(([^)]+)\)', line)
+                    if m:
+                        existing_links.add(m.group(2))
+                # 过滤掉已有链接，只取缺失的
+                nav_lines = nav.split("\n")
+                new_link_lines = []
+                for line in nav_lines:
+                    m = re.search(r'\[([^\]]+)\]\(([^)]+)\)', line)
+                    if m and m.group(2) not in existing_links:
+                        new_link_lines.append(line)
+                if new_link_lines:
+                    # 在导航块结束前插入新链接
+                    updated = lines[:nav_end]
+                    if updated and updated[-1].strip():
+                        updated.append("")
+                    updated.extend(new_link_lines)
+                    if nav_end < len(lines) and lines[nav_end].strip() == "---":
+                        updated.append("")
+                    updated.extend(lines[nav_end:])
+                    new_content = "\n".join(updated)
+                else:
+                    # 无新增链接，不改动
+                    new_content = content
 
-            file_path.write_text(new_content, encoding="utf-8")
+            if new_content != content:
+                file_path.write_text(new_content, encoding="utf-8")
             fixed += 1
             details.append(f"FIXED {rel_path}: added links to {missing}")
             log_sync(SYNC_NAME, f"Fixed {rel_path}: added {len(missing)} missing links")

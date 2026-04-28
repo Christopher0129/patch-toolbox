@@ -27,7 +27,7 @@ from utils import (
     strip_html_tags, send_sync_report,
 )
 
-SYNC_NAME = "agent-system-vulnerabilities"
+SYNC_NAME = "sync-system-vulnerabilities"
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "system-vulnerabilities"
 MIN_ITEMS = 50
 MAX_DEEP_PAGES = 5
