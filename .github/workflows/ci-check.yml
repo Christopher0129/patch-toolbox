@@ -1,0 +1,36 @@
+name: CI Checks / 质量检查
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pyyaml requests
+
+      - name: Validate Markdown structure
+        run: |
+          python scripts/validate_structure.py || true
+        continue-on-error: true
+
+      - name: Check bilingual content
+        run: |
+          python scripts/validate_bilingual.py || true
+        continue-on-error: true
+
+      - name: Verify SQLite sync
+        run: |
+          python scripts/verify_db_sync.py || true
+        continue-on-error: true

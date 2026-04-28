@@ -68,7 +68,33 @@ requirements.txt
 # Secrets / credentials (never commit)
 *.asc
 *.key
+*.pem
+*.p12
+*.pfx
+*.crt
 .env
+.env.local
+.env.*.local
 secrets/
 get-secret.sh
 get-token.sh
+config.json
+
+# SSH keys
+.ssh/
+id_rsa*
+id_ed25519*
+
+# GPG
+.gnupg/
+
+# Node.js (if web frontend added later)
+node_modules/
+dist/
+
+# Local scripts and dev files
+local/
+local_scripts/
+private/
+temp/
+.tmp/

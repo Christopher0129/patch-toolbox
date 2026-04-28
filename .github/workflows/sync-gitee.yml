@@ -1,0 +1,31 @@
+name: Sync to Gitee / 同步到Gitee镜像
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync to Gitee
+        uses: wearerequired/git-mirror-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_SSH_KEY }}
+        with:
+          source-repo: "git@github.com:Christopher0129/patch-toolbox.git"
+          destination-repo: "git@gitee.com:liu-ritian/patch-toolbox.git"
+
+      - name: Verify sync
+        if: failure()
+        run: |
+          echo "❌ Gitee同步失败，请检查:"
+          echo "   1. GITEE_SSH_KEY 是否已添加到 GitHub Secrets"
+          echo "   2. Gitee仓库是否存在且可写"
+          echo "   3. SSH公钥是否已添加到Gitee账户"

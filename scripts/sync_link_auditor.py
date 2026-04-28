@@ -11,9 +11,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Set, Tuple
 
-from utils import log_agent, write_report, git_push
+from utils import log_sync, write_report, git_push
 
-AGENT_NAME = "agent-link-auditor"
+SYNC_NAME = "agent-link-auditor"
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 # 预期的链接拓扑: 文件 -> 应该包含的链接目标
@@ -170,31 +170,31 @@ def check_and_fix() -> Tuple[int, int, List[str]]:
             file_path.write_text(new_content, encoding="utf-8")
             fixed += 1
             details.append(f"FIXED {rel_path}: added links to {missing}")
-            log_agent(AGENT_NAME, f"Fixed {rel_path}: added {len(missing)} missing links")
+            log_sync(SYNC_NAME, f"Fixed {rel_path}: added {len(missing)} missing links")
         else:
-            log_agent(AGENT_NAME, f"OK {rel_path}: all links present")
+            log_sync(SYNC_NAME, f"OK {rel_path}: all links present")
 
     return checked, fixed, details
 
 
 def run():
-    log_agent(AGENT_NAME, "=" * 40)
-    log_agent(AGENT_NAME, "Starting link audit")
+    log_sync(SYNC_NAME, "=" * 40)
+    log_sync(SYNC_NAME, "Starting link audit")
 
     checked, fixed, details = check_and_fix()
 
     # 汇报
     report = write_report(
-        AGENT_NAME,
+        SYNC_NAME,
         new_count=fixed,
         total_count=checked,
         errors=[] if fixed == 0 else [f"Fixed {fixed} files"],
     )
     # report写入时用了new_items参数，但我们传的是int，需要调整
     # 直接写自定义报告
-    report_file = PROJECT_ROOT / "agents" / f"{AGENT_NAME}_report.json"
+    report_file = PROJECT_ROOT / "agents" / f"{SYNC_NAME}_report.json"
     custom_report = {
-        "agent": AGENT_NAME,
+        "sync": SYNC_NAME,
         "timestamp": datetime.now(timezone.utc).isoformat(),
         "files_checked": checked,
         "files_fixed": fixed,
@@ -204,14 +204,14 @@ def run():
         import json
         json.dump(custom_report, f, ensure_ascii=False, indent=2)
 
-    log_agent(AGENT_NAME, f"Checked {checked} files, fixed {fixed} files")
+    log_sync(SYNC_NAME, f"Checked {checked} files, fixed {fixed} files")
     
     # 如果修复了文件，推送到GitHub
     if fixed > 0:
         push_ok = git_push(f"link-audit: fixed {fixed} files with missing navigation links")
-        log_agent(AGENT_NAME, f"GitHub push: {'OK' if push_ok else 'FAIL'}")
+        log_sync(SYNC_NAME, f"GitHub push: {'OK' if push_ok else 'FAIL'}")
     
-    log_agent(AGENT_NAME, "Link audit complete")
+    log_sync(SYNC_NAME, "Link audit complete")
     return custom_report
 
 

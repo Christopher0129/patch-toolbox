@@ -21,13 +21,13 @@ from pathlib import Path
 from typing import List, Dict, Any
 
 from utils import (
-    fetch_json, fetch_text, fetch_rss, log_agent, write_report,
+    fetch_json, fetch_text, fetch_rss, log_sync, write_report,
     filter_new_items, make_bilingual_md, write_md_file,
     init_sqlite_db, get_db_path, insert_entries_sqlite, count_entries_sqlite,
-    strip_html_tags, send_agent_report,
+    strip_html_tags, send_sync_report,
 )
 
-AGENT_NAME = "agent-system-vulnerabilities"
+SYNC_NAME = "agent-system-vulnerabilities"
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "system-vulnerabilities"
 MIN_ITEMS = 50
 MAX_DEEP_PAGES = 5
@@ -112,7 +112,7 @@ def fetch_redhat_advisories(limit: int = 20) -> List[Dict[str, Any]]:
     url = f"https://access.redhat.com/hydra/rest/securitydata/cve.json?per_page={limit}"
     data = fetch_json(url, timeout=30)
     if not data or not isinstance(data, list):
-        log_agent(AGENT_NAME, "Red Hat API returned no data")
+        log_sync(SYNC_NAME, "Red Hat API returned no data")
         return []
 
     items = []
@@ -135,7 +135,7 @@ def fetch_redhat_advisories(limit: int = 20) -> List[Dict[str, Any]]:
             "source_tag": "RedHat",
         })
 
-    log_agent(AGENT_NAME, f"Red Hat fetched {len(items)}")
+    log_sync(SYNC_NAME, f"Red Hat fetched {len(items)}")
     return items
 
 
@@ -143,7 +143,7 @@ def fetch_ubuntu_notices(limit: int = 20) -> List[Dict[str, Any]]:
     """Ubuntu Security Notices RSS"""
     entries = fetch_rss("https://ubuntu.com/security/notices/rss.xml", timeout=25)
     if entries is None:
-        log_agent(AGENT_NAME, "Ubuntu notices fetch returned None")
+        log_sync(SYNC_NAME, "Ubuntu notices fetch returned None")
         return []
     entries = entries[:limit]
     items = []
@@ -168,7 +168,7 @@ def fetch_ubuntu_notices(limit: int = 20) -> List[Dict[str, Any]]:
             "source_tag": "Ubuntu",
         })
 
-    log_agent(AGENT_NAME, f"Ubuntu fetched {len(items)}")
+    log_sync(SYNC_NAME, f"Ubuntu fetched {len(items)}")
     return items
 
 
@@ -176,7 +176,7 @@ def fetch_suse_security(limit: int = 15) -> List[Dict[str, Any]]:
     """SUSE Security Announcements RSS"""
     entries = fetch_rss("https://www.suse.com/support/security/rss/announcements.xml", timeout=25)
     if entries is None:
-        log_agent(AGENT_NAME, "SUSE security fetch returned None")
+        log_sync(SYNC_NAME, "SUSE security fetch returned None")
         return []
     entries = entries[:limit]
     items = []
@@ -201,7 +201,7 @@ def fetch_suse_security(limit: int = 15) -> List[Dict[str, Any]]:
             "source_tag": "SUSE",
         })
 
-    log_agent(AGENT_NAME, f"SUSE fetched {len(items)}")
+    log_sync(SYNC_NAME, f"SUSE fetched {len(items)}")
     return items
 
 
@@ -210,7 +210,7 @@ def fetch_microsoft_security(limit: int = 20) -> List[Dict[str, Any]]:
     url = "https://api.msrc.microsoft.com/update-guide/v1.0/updates"
     data = fetch_json(url, timeout=30)
     if not data or not isinstance(data, list):
-        log_agent(AGENT_NAME, "Microsoft Security API returned no data")
+        log_sync(SYNC_NAME, "Microsoft Security API returned no data")
         return []
 
     items = []
@@ -236,7 +236,7 @@ def fetch_microsoft_security(limit: int = 20) -> List[Dict[str, Any]]:
             "source_tag": "Microsoft",
         })
 
-    log_agent(AGENT_NAME, f"Microsoft fetched {len(items)}")
+    log_sync(SYNC_NAME, f"Microsoft fetched {len(items)}")
     return items
 
 
@@ -244,7 +244,7 @@ def fetch_apple_security(limit: int = 15) -> List[Dict[str, Any]]:
     """Apple Security Updates page (scrapling headless)"""
     html = fetch_text("https://support.apple.com/en-us/HT201222", timeout=30)
     if not html:
-        log_agent(AGENT_NAME, "Apple security fetch returned None")
+        log_sync(SYNC_NAME, "Apple security fetch returned None")
         return []
 
     from bs4 import BeautifulSoup
@@ -274,7 +274,7 @@ def fetch_apple_security(limit: int = 15) -> List[Dict[str, Any]]:
             "source_tag": "Apple",
         })
 
-    log_agent(AGENT_NAME, f"Apple fetched {len(items)}")
+    log_sync(SYNC_NAME, f"Apple fetched {len(items)}")
     return items
 
 
@@ -306,7 +306,7 @@ def fetch_os_vulns_deep(os_name: str, min_items: int = 50, max_pages: int = 5) -
             batch = fn()
             all_items.extend(batch)
         except Exception as e:
-            log_agent(AGENT_NAME, f"Extra source error for {os_name}: {e}")
+            log_sync(SYNC_NAME, f"Extra source error for {os_name}: {e}")
 
     seen = set()
     unique = []
@@ -316,7 +316,7 @@ def fetch_os_vulns_deep(os_name: str, min_items: int = 50, max_pages: int = 5) -
             seen.add(key)
             unique.append(item)
 
-    log_agent(AGENT_NAME, f"Fetched {len(unique)} unique items for {os_name}")
+    log_sync(SYNC_NAME, f"Fetched {len(unique)} unique items for {os_name}")
     return unique
 
 
@@ -376,15 +376,15 @@ def build_os_md_items(items: List[dict], os_name: str) -> List[Dict[str, Any]]:
 
 def run():
     start_time = __import__("time").time()
-    log_agent(AGENT_NAME, "=" * 40)
-    log_agent(AGENT_NAME, "Starting scheduled run (A+B deep-paging)")
+    log_sync(SYNC_NAME, "=" * 40)
+    log_sync(SYNC_NAME, "Starting scheduled run (A+B deep-paging)")
 
     all_new = 0
     errors = []
     os_counts = {}
 
     for os_name in ["windows", "linux", "macos"]:
-        log_agent(AGENT_NAME, f"Processing {os_name}...")
+        log_sync(SYNC_NAME, f"Processing {os_name}...")
         category = f"sys-vuln-{os_name}"
         db_path = get_db_path(category)
         conn = init_sqlite_db(db_path)
@@ -394,17 +394,17 @@ def run():
             items = fetch_os_vulns_deep(os_name, min_items=MIN_ITEMS, max_pages=1)
         except Exception as e:
             errors.append(f"{os_name}-A: {e}")
-            log_agent(AGENT_NAME, f"{os_name} fetch-A error: {e}")
+            log_sync(SYNC_NAME, f"{os_name} fetch-A error: {e}")
             items = []
 
         # ---- 写入 SQLite（A阶段） ----
         new_a = insert_entries_sqlite(conn, items, platform=os_name)
-        log_agent(AGENT_NAME, f"{os_name} Phase-A: fetched={len(items)}, new={new_a}")
+        log_sync(SYNC_NAME, f"{os_name} Phase-A: fetched={len(items)}, new={new_a}")
 
         # ---- B: 翻页深挖 ----
         total_new = new_a
         if total_new < MIN_ITEMS:
-            log_agent(AGENT_NAME, f"{os_name} A-phase new ({total_new}) < {MIN_ITEMS}, start deep-paging")
+            log_sync(SYNC_NAME, f"{os_name} A-phase new ({total_new}) < {MIN_ITEMS}, start deep-paging")
             for page in range(1, MAX_DEEP_PAGES + 1):
                 if total_new >= MIN_ITEMS:
                     break
@@ -412,7 +412,7 @@ def run():
                     batch = fetch_os_vulns_deep(os_name, min_items=MIN_ITEMS * (page + 1), max_pages=page + 1)
                     batch_new = insert_entries_sqlite(conn, batch, platform=os_name)
                     total_new += batch_new
-                    log_agent(AGENT_NAME, f"{os_name} Phase-B page={page}: batch_new={batch_new}, total_new={total_new}")
+                    log_sync(SYNC_NAME, f"{os_name} Phase-B page={page}: batch_new={batch_new}, total_new={total_new}")
                 except Exception as e:
                     errors.append(f"{os_name}-B-{page}: {e}")
                     break
@@ -425,11 +425,11 @@ def run():
     elapsed = __import__("time").time() - start_time
     total_all = sum(os_counts.values())
     extra = f"各平台条目: Windows={os_counts.get('windows',0)}, Linux={os_counts.get('linux',0)}, macOS={os_counts.get('macos',0)}"
-    send_agent_report(AGENT_NAME, all_new, total_all, errors, elapsed, extra)
+    send_sync_report(SYNC_NAME, all_new, total_all, errors, elapsed, extra)
 
-    report = write_report(AGENT_NAME, all_new, 0, errors)
-    log_agent(AGENT_NAME, f"Summary: new={all_new}, errors={len(errors)}")
-    log_agent(AGENT_NAME, "Run complete")
+    report = write_report(SYNC_NAME, all_new, 0, errors)
+    log_sync(SYNC_NAME, f"Summary: new={all_new}, errors={len(errors)}")
+    log_sync(SYNC_NAME, "Run complete")
     return report
 
 

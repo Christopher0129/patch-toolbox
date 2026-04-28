@@ -340,18 +340,22 @@ def write_md_file(path: Path, content: str):
 # 日志与汇报
 # ---------------------------------------------------------------------------
 
-def log_agent(agent_name: str, message: str):
+def log_sync(sync_name: str, message: str):
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
-    line = f"[{ts}] [{agent_name}] {message}\n"
-    log_file = AGENTS_DIR / f"{agent_name}.log"
+    line = f"[{ts}] [{sync_name}] {message}\n"
+    log_file = AGENTS_DIR / f"{sync_name}.log"
     with open(log_file, "a", encoding="utf-8") as f:
         f.write(line)
     print(line.strip())
 
 
-def write_report(agent_name: str, new_count: int, total_count: int, errors: List[str] = None):
+# 兼容性别名（旧脚本迁移用）
+log_agent = log_sync
+
+
+def write_report(sync_name: str, new_count: int, total_count: int, errors: List[str] = None):
     report = {
-        "agent": agent_name,
+        "sync": sync_name,
         "timestamp": datetime.now(timezone.utc).isoformat(),
         "new_items": new_count,
         "total_items": total_count,
@@ -636,9 +640,9 @@ def fetch_rss(url: str, timeout: int = 30, retries: int = 3, verify: bool = True
 # 通用格式化
 # ---------------------------------------------------------------------------
 
-def send_agent_report(agent_name: str, new_items: int, total_items: int, errors: list, elapsed_sec: float = None, extra_info: str = "") -> None:
+def send_sync_report(sync_name: str, new_items: int, total_items: int, errors: list, elapsed_sec: float = None, extra_info: str = "") -> None:
     """
-    Agent 执行完成后自动汇报。
+    同步脚本执行完成后自动汇报。
     1. 写入汇报文件 agents/daily_summary.md
     2. 若配置了 WEIXIN_TARGET 环境变量，发送微信消息
     3. 若配置了 KIMI_TARGET 环境变量，发送 Kimi Claw 消息
@@ -650,7 +654,7 @@ def send_agent_report(agent_name: str, new_items: int, total_items: int, errors:
     err_text = "\n".join(f"  - {e}" for e in errors[:5]) if errors else "  无"
 
     report = f"""
-## [{agent_name}] {ts}
+## [{sync_name}] {ts}
 - **新增**: {new_items} 条
 - **累计**: {total_items} 条
 - **错误**: {err_count} 个{elapsed}
