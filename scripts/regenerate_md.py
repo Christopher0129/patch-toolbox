@@ -6,8 +6,8 @@
 import os, re, sqlite3, json
 from pathlib import Path
 
-REPO = Path("/root/.openclaw/workspace/patch-toolbox")
-DB_DIR = REPO / "db"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DB_DIR = PROJECT_ROOT / "db"
 
 def _is_empty(val):
     """判断字段是否为空/N/A/无意义值。"""

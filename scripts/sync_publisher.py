@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Agent: Publisher
-汇总agent结果，从SQLite重新生成MD，推送GitHub+Gitee。
+Sync Script: Publisher
+汇总同步结果，从SQLite重新生成MD，推送GitHub+Gitee。
 """
 import sys
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))

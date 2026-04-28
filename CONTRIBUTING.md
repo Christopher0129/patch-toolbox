@@ -62,7 +62,6 @@ python scripts/validate_bilingual.py
 python scripts/verify_db_sync.py
 
 # 验证链接可访问性
-python scripts/validate_links.py
 ```
 
 ## 联系方式 / Contact
@@ -132,6 +131,8 @@ python scripts/validate_bilingual.py
 
 # Verify database sync
 python scripts/verify_db_sync.py
+
+# External links: no dedicated script currently, validate manually when adding new links
 ```
 
 ### Contact
@@ -142,4 +143,3 @@ python scripts/verify_db_sync.py
 ## License
 
 By contributing, you agree to license your contributions under MIT License.
-e.

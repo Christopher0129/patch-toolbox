@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Agent: System Troubleshooting (Windows / Linux / macOS)
+Sync Script: System Troubleshooting (Windows / Linux / macOS)
 数据源扩充版：Stack Exchange + Reddit + V2EX + 中文技术社区
 写入 SQLite 数据库，MD 文件由 regenerate_md.py 统一生成。
 """

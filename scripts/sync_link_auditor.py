@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Agent: Link Auditor (拓扑链接梳理)
+Sync Script: Link Auditor (拓扑链接梳理)
 每12小时检查所有md文件的内部链接拓扑，自动修复缺失的交叉链接。
 """
 import sys
@@ -13,7 +13,7 @@ from typing import Dict, List, Set, Tuple
 
 from utils import log_sync, write_report, git_push
 
-SYNC_NAME = "agent-link-auditor"
+SYNC_NAME = "sync-link-auditor"
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 # 预期的链接拓扑: 文件 -> 应该包含的链接目标

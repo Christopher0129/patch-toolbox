@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Agent: System Vulnerabilities (Windows / Linux / macOS)
+Sync Script: System Vulnerabilities (Windows / Linux / macOS)
 每6小时按操作系统分类抓取系统漏洞及应对措施，增量更新。
 A+B 方案：A=抓最新，B=翻页深挖补足50条真正新增。
 数据源: NVD API (关键词过滤),

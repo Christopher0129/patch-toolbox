@@ -173,7 +173,7 @@ def insert_entries_sqlite(
         sol = item.get("solution", item.get("mitigation", "N/A"))
         sev = item.get("severity", "")
         cvss = item.get("cvss_score")
-        source = item.get("source", "NVD")
+        source = item.get("source_tag") or item.get("source") or "NVD"
         url = item.get("source_url", item.get("link", item.get("url", "")))
         refs = json.dumps(item.get("references", []), ensure_ascii=False)
         tags = json.dumps(item.get("tags", []), ensure_ascii=False)
@@ -359,7 +359,7 @@ log_agent = log_sync
 
 def _git_push_secure(remote: str, branch: str, token: str, env: dict) -> bool:
     """安全推送：token 不出现在 git remote URL，仅在 push 命令中通过 auth URL 传递。
-    GitHub 已禁用 GIT_ASKPASS 密码认证，因此使用带 token 的完整 URL 进行 push。
+    通过临时 GIT_ASKPASS 脚本向 git 注入凭据，避免把 token 暴露在 push URL 或命令行参数里。
     """
     # 获取当前 remote 的干净 URL
     r = subprocess.run(["git", "remote", "get-url", remote], capture_output=True, text=True, env=env)
@@ -367,17 +367,25 @@ def _git_push_secure(remote: str, branch: str, token: str, env: dict) -> bool:
         return False
     url = r.stdout.strip()
 
-    # 注入 token（GitHub 用任意用户名+token；Gitee 用 oauth2+token）
-    if "gitee.com" in url:
-        auth_url = url.replace("https://", f"https://oauth2:{token}@")
-    else:
-        auth_url = url.replace("https://", f"https://{token}@")
-
-    result = subprocess.run(
-        ["git", "push", auth_url, f"HEAD:{branch}"],
-        capture_output=True, text=True, env=env,
-    )
-    return result.returncode == 0
+    askpass = PROJECT_ROOT / ".git-askpass-patch-toolbox.sh"
+    try:
+        askpass.write_text('#!/bin/sh\ncase "$1" in\n  *Username*) echo "oauth2" ;;\n  *Password*) echo "$PATCH_TOOLBOX_TOKEN" ;;\n  *) echo "" ;;\nesac\n', encoding='utf-8')
+        askpass.chmod(0o700)
+        env_auth = env.copy()
+        env_auth["GIT_ASKPASS"] = str(askpass)
+        env_auth["PATCH_TOOLBOX_TOKEN"] = token
+        env_auth["GIT_TERMINAL_PROMPT"] = "0"
+        push_url = url
+        if "gitee.com" in url:
+            push_url = url.replace("https://", "https://oauth2@gitee.com/") if url.startswith("https://gitee.com/") else url
+        result = subprocess.run(
+            ["git", "push", push_url, f"HEAD:{branch}"],
+            capture_output=True, text=True, env=env_auth,
+        )
+        return result.returncode == 0
+    finally:
+        if askpass.exists():
+            askpass.unlink()
 
 
 def write_report(sync_name: str, new_count: int, total_count: int, errors: List[str] = None):
@@ -458,7 +466,7 @@ def git_push(msg: str = None) -> dict:
     # ---- Gitee push ----
     gitee_ok = False
     if github_ok:
-        if _git_push_secure("gitee", "master", token_gt, env_clean):
+        if _git_push_secure("gitee", "main", token_gt, env_clean):
             gitee_ok = True
             log_agent("publisher", "Gitee push OK")
         else:
@@ -489,264 +497,3 @@ def _read_gitee_token_from_script() -> str:
         result = subprocess.run(["bash", str(script_old)], capture_output=True, text=True)
         return result.stdout.strip()
     raise RuntimeError("GITEE_TOKEN not found")
-def _read_token_from_script() -> str:
-    script = Path.home() / ".github" / "get-token.sh"
-    if script.exists():
-        result = subprocess.run(["bash", str(script)], capture_output=True, text=True)
-        return result.stdout.strip()
-    raise RuntimeError("GITHUB_TOKEN not found")
-
-
-def _read_gitee_token_from_script() -> str:
-    """优先读取 ~/.openclaw/secrets/get-secret.sh，兼容旧路径 ~/.gitee/get-token.sh"""
-    script_new = Path.home() / ".openclaw" / "secrets" / "get-secret.sh"
-    if script_new.exists():
-        result = subprocess.run(["bash", str(script_new), "gitee_token"], capture_output=True, text=True)
-        token = result.stdout.strip()
-        if token:
-            return token
-    # 兼容旧路径
-    script_old = Path.home() / ".gitee" / "get-token.sh"
-    if script_old.exists():
-        result = subprocess.run(["bash", str(script_old)], capture_output=True, text=True)
-        return result.stdout.strip()
-    raise RuntimeError("GITEE_TOKEN not found")
-
-
-# ---------------------------------------------------------------------------
-# 网络请求辅助
-# ---------------------------------------------------------------------------
-
-def fetch_json(url: str, timeout: int = 30, retries: int = 3, verify: bool = True) -> Optional[dict]:
-    """使用 curl_cffi 抓取 JSON（模拟浏览器指纹，绕过 Cloudflare/反爬）
-    
-    GitHub API 不走代理（datacenter IP 被风控）。
-    Reddit 必须走代理 + 完整浏览器 headers。
-    """
-    from curl_cffi import requests
-    
-    is_github = "api.github.com" in url or "github.com" in url
-    is_reddit = "reddit.com" in url
-    
-    proxy = os.environ.get("HTTP_PROXY") or os.environ.get("http_proxy")
-    
-    kwargs = {
-        "timeout": timeout,
-        "verify": verify,
-        "headers": {
-            "Accept": "application/json, text/plain, */*",
-            "Accept-Language": "en-US,en;q=0.9",
-        },
-    }
-    
-    if is_reddit:
-        if not proxy:
-            log_agent("utils", f"fetch_json skip: no proxy for Reddit: {url}")
-            return None
-        # Reddit 用更强的 headers 轮换
-        _REDDIT_UAS = [
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-        ]
-        kwargs["headers"] = {
-            "User-Agent": _REDDIT_UAS[0],
-            "Accept": "application/json, text/plain, */*",
-            "Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8",
-            "Referer": "https://www.google.com/",
-            "Connection": "keep-alive",
-            "DNT": "1",
-        }
-        kwargs["proxies"] = {"http": proxy, "https": proxy}
-    elif not is_github and proxy:
-        # 非 GitHub 非 Reddit，有代理就用
-        kwargs["proxies"] = {"http": proxy, "https": proxy}
-    
-    if not is_reddit:
-        kwargs["impersonate"] = "chrome120"
-    
-    for attempt in range(retries):
-        try:
-            if is_reddit:
-                kwargs["headers"]["User-Agent"] = _REDDIT_UAS[attempt % len(_REDDIT_UAS)]
-                time.sleep(1.5 * attempt)
-            r = requests.get(url, **kwargs)
-            if r.status_code == 429:
-                wait = 5 + (2 ** attempt)
-                log_agent("utils", f"Rate limit 429, waiting {wait}s...")
-                time.sleep(wait)
-                continue
-            if is_reddit and r.status_code in (403, 429):
-                wait = 5 + (3 ** attempt)
-                log_agent("utils", f"Reddit {r.status_code}, waiting {wait}s...")
-                time.sleep(wait)
-                continue
-            r.raise_for_status()
-            log_agent("utils", f"fetch_json OK: {url} (HTTP {r.status_code})")
-            return r.json()
-        except Exception as e:
-            time.sleep(2 ** attempt)
-            if attempt == retries - 1:
-                log_agent("utils", f"fetch_json failed: {url} | {e}")
-    return None
-
-
-def fetch_text(url: str, timeout: int = 30, retries: int = 3, verify: bool = True) -> Optional[str]:
-    """使用 curl_cffi 抓取文本/HTML（模拟浏览器指纹）
-    
-    Reddit 特殊处理：使用完整浏览器 headers 绕过风控。
-    关键 headers：User-Agent、Accept、Accept-Language、Referer、Connection。
-    """
-    from curl_cffi import requests
-    
-    is_reddit = "reddit.com" in url
-    
-    # Reddit 专用完整浏览器请求头轮换（绕过风控）
-    _REDDIT_UAS = [
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-    ]
-    
-    def _reddit_headers(idx: int = 0):
-        return {
-            "User-Agent": _REDDIT_UAS[idx % len(_REDDIT_UAS)],
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
-            "Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7",
-            "Accept-Encoding": "gzip, deflate, br",
-            "Referer": "https://www.google.com/",
-            "Connection": "keep-alive",
-            "Upgrade-Insecure-Requests": "1",
-            "Sec-Fetch-Dest": "document",
-            "Sec-Fetch-Mode": "navigate",
-            "Sec-Fetch-Site": "cross-site",
-            "Sec-Fetch-User": "?1",
-            "Cache-Control": "max-age=0",
-            "DNT": "1",
-        }
-    
-    # 代理配置：Reddit 必须走代理（国内被墙），其他看情况
-    proxy = os.environ.get("HTTP_PROXY") or os.environ.get("http_proxy")
-    if is_reddit and not proxy:
-        log_agent("utils", f"fetch_text skip: no proxy for Reddit: {url}")
-        return None
-    
-    kwargs = {
-        "timeout": timeout,
-        "verify": verify,
-        "headers": _reddit_headers() if is_reddit else {
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            "Accept-Language": "en-US,en;q=0.9",
-        },
-    }
-    if proxy:
-        kwargs["proxies"] = {"http": proxy, "https": proxy}
-    
-    if not is_reddit:
-        kwargs["impersonate"] = "chrome120"
-    
-    for attempt in range(retries):
-        try:
-            if is_reddit:
-                # Reddit 轮换 UA + 增加延迟
-                kwargs["headers"] = _reddit_headers(attempt)
-                time.sleep(1.5 * attempt)  # Reddit 增加退避
-            r = requests.get(url, **kwargs)
-            if is_reddit and r.status_code in (403, 429):
-                wait = 5 + (3 ** attempt)
-                log_agent("utils", f"Reddit {r.status_code}, waiting {wait}s...")
-                time.sleep(wait)
-                continue
-            r.raise_for_status()
-            log_agent("utils", f"fetch_text OK: {url} (HTTP {r.status_code})")
-            return r.text
-        except Exception as e:
-            time.sleep(2 ** attempt)
-            if attempt == retries - 1:
-                log_agent("utils", f"fetch_text failed: {url} | {e}")
-    return None
-
-
-def fetch_rss(url: str, timeout: int = 30, retries: int = 3, verify: bool = True) -> Optional[list]:
-    """使用 curl_cffi 抓取 RSS/Atom feed，返回 feedparser entries"""
-    import feedparser
-    text = fetch_text(url, timeout=timeout, retries=retries, verify=verify)
-    if not text:
-        return None
-    try:
-        feed = feedparser.parse(text)
-        return feed.entries
-    except Exception as e:
-        log_agent("utils", f"fetch_rss parse failed: {url} | {e}")
-    return None
-
-
-# ---------------------------------------------------------------------------
-# 通用格式化
-# ---------------------------------------------------------------------------
-
-def send_sync_report(sync_name: str, new_items: int, total_items: int, errors: list, elapsed_sec: float = None, extra_info: str = "") -> None:
-    """
-    同步脚本执行完成后自动汇报。
-    1. 写入汇报文件 agents/daily_summary.md
-    2. 若配置了 WEIXIN_TARGET 环境变量，发送微信消息
-    3. 若配置了 KIMI_TARGET 环境变量，发送 Kimi Claw 消息
-    """
-    from datetime import datetime, timezone
-    ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
-    elapsed = f" | 耗时: {elapsed_sec:.1f}s" if elapsed_sec else ""
-    err_count = len(errors)
-    err_text = "\n".join(f"  - {e}" for e in errors[:5]) if errors else "  无"
-
-    report = f"""
-## [{sync_name}] {ts}
-- **新增**: {new_items} 条
-- **累计**: {total_items} 条
-- **错误**: {err_count} 个{elapsed}
-{extra_info}
-**错误详情**:
-{err_text}
----
-"""
-    # 追加写入汇报文件
-    summary_path = AGENTS_DIR / "daily_summary.md"
-    with open(summary_path, "a", encoding="utf-8") as f:
-        f.write(report)
-
-    # 微信推送（若配置了 target）
-    weixin_target = os.environ.get("WEIXIN_TARGET", "")
-    if weixin_target:
-        msg = f"📋 {sync_name} 执行汇报\n⏰ {ts}\n🆕 新增: {new_items} 条\n📦 累计: {total_items} 条\n❌ 错误: {err_count} 个{elapsed}\n{extra_info.strip()}"
-        try:
-            subprocess.run(
-                ["openclaw", "message", "send", "--channel", "openclaw-weixin", "--target", weixin_target, "--message", msg],
-                capture_output=True, text=True, timeout=15, check=False
-            )
-        except Exception as e:
-            log_agent("utils", f"Weixin report send failed: {e}")
-
-    # Kimi Claw 推送（当前会话）
-    kimi_target = os.environ.get("KIMI_TARGET", "")
-    if kimi_target:
-        msg = f"📋 {sync_name} 执行汇报\n⏰ {ts}\n🆕 新增: {new_items} 条\n📦 累计: {total_items} 条\n❌ 错误: {err_count} 个{elapsed}\n{extra_info.strip()}"
-        try:
-            subprocess.run(
-                ["openclaw", "message", "send", "--channel", "kimi-claw", "--target", kimi_target, "--message", msg],
-                capture_output=True, text=True, timeout=15, check=False
-            )
-        except Exception as e:
-            log_agent("utils", f"Kimi Claw report send failed: {e}")
-
-
-def strip_html_tags(text: str) -> str:
-    if not text:
-        return ""
-    clean = re.sub(r"<[^>]+>", "", text)
-    return clean.strip()
-
-
-def safe_filename(text: str) -> str:
-    return re.sub(r"[^\w\-\.]", "_", text)[:80]
-
-
-if __name__ == "__main__":
-    print("utils.py - common utilities for patch-toolbox")
