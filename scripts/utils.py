@@ -97,6 +97,10 @@ def get_db_path(category: str) -> Path:
     """根据分类返回 SQLite 数据库路径"""
     mapping = {
         "network-security": DB_DIR / "network-security.db",
+        "netsec-windows": DB_DIR / "network-security.db",
+        "netsec-linux": DB_DIR / "network-security.db",
+        "netsec-macos": DB_DIR / "network-security.db",
+        "netsec-general": DB_DIR / "network-security.db",
         "sys-vuln-windows": DB_DIR / "system-vulnerabilities.db",
         "sys-vuln-linux": DB_DIR / "system-vulnerabilities.db",
         "sys-vuln-macos": DB_DIR / "system-vulnerabilities.db",
@@ -361,7 +365,7 @@ def write_report(sync_name: str, new_count: int, total_count: int, errors: List[
         "total_items": total_count,
         "errors": errors or [],
     }
-    report_file = AGENTS_DIR / f"{agent_name}_report.json"
+    report_file = AGENTS_DIR / f"{sync_name}_report.json"
     with open(report_file, "w", encoding="utf-8") as f:
         json.dump(report, f, ensure_ascii=False, indent=2)
     return report
@@ -671,7 +675,7 @@ def send_sync_report(sync_name: str, new_items: int, total_items: int, errors: l
     # 微信推送（若配置了 target）
     weixin_target = os.environ.get("WEIXIN_TARGET", "")
     if weixin_target:
-        msg = f"📋 {agent_name} 执行汇报\n⏰ {ts}\n🆕 新增: {new_items} 条\n📦 累计: {total_items} 条\n❌ 错误: {err_count} 个{elapsed}\n{extra_info.strip()}"
+        msg = f"📋 {sync_name} 执行汇报\n⏰ {ts}\n🆕 新增: {new_items} 条\n📦 累计: {total_items} 条\n❌ 错误: {err_count} 个{elapsed}\n{extra_info.strip()}"
         try:
             subprocess.run(
                 ["openclaw", "message", "send", "--channel", "openclaw-weixin", "--target", weixin_target, "--message", msg],
@@ -683,7 +687,7 @@ def send_sync_report(sync_name: str, new_items: int, total_items: int, errors: l
     # Kimi Claw 推送（当前会话）
     kimi_target = os.environ.get("KIMI_TARGET", "")
     if kimi_target:
-        msg = f"📋 {agent_name} 执行汇报\n⏰ {ts}\n🆕 新增: {new_items} 条\n📦 累计: {total_items} 条\n❌ 错误: {err_count} 个{elapsed}\n{extra_info.strip()}"
+        msg = f"📋 {sync_name} 执行汇报\n⏰ {ts}\n🆕 新增: {new_items} 条\n📦 累计: {total_items} 条\n❌ 错误: {err_count} 个{elapsed}\n{extra_info.strip()}"
         try:
             subprocess.run(
                 ["openclaw", "message", "send", "--channel", "kimi-claw", "--target", kimi_target, "--message", msg],

@@ -25,12 +25,12 @@ try:
 except Exception:
     _VEC_AVAILABLE = False
 
-SYNC_NAME = "agent-publisher"
+SYNC_NAME = "sync-publisher"
 AGENTS_DIR = Path(__file__).resolve().parent.parent / "agents"
 REPORTS = {
-    "network-security": AGENTS_DIR / "agent-network-security_report.json",
-    "system-vulnerabilities": AGENTS_DIR / "agent-system-vulnerabilities_report.json",
-    "system-troubleshooting": AGENTS_DIR / "agent-system-troubleshooting_report.json",
+    "network-security": AGENTS_DIR / "sync-network-security_report.json",
+    "system-vulnerabilities": AGENTS_DIR / "sync-system-vulnerabilities_report.json",
+    "system-troubleshooting": AGENTS_DIR / "sync-system-troubleshooting_report.json",
 }
 
 

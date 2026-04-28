@@ -183,15 +183,7 @@ def run():
 
     checked, fixed, details = check_and_fix()
 
-    # 汇报
-    report = write_report(
-        SYNC_NAME,
-        new_count=fixed,
-        total_count=checked,
-        errors=[] if fixed == 0 else [f"Fixed {fixed} files"],
-    )
-    # report写入时用了new_items参数，但我们传的是int，需要调整
-    # 直接写自定义报告
+    # 直接写自定义报告（link-auditor 场景特殊，用自定义结构）
     report_file = PROJECT_ROOT / "agents" / f"{SYNC_NAME}_report.json"
     custom_report = {
         "sync": SYNC_NAME,
@@ -206,10 +198,16 @@ def run():
 
     log_sync(SYNC_NAME, f"Checked {checked} files, fixed {fixed} files")
     
-    # 如果修复了文件，推送到GitHub
+    # 如果修复了文件，推送到远端仓库
     if fixed > 0:
         push_ok = git_push(f"link-audit: fixed {fixed} files with missing navigation links")
-        log_sync(SYNC_NAME, f"GitHub push: {'OK' if push_ok else 'FAIL'}")
+        if isinstance(push_ok, dict):
+            github_ok = bool(push_ok.get("github", False))
+            gitee_ok = bool(push_ok.get("gitee", False))
+        else:
+            github_ok = bool(push_ok)
+            gitee_ok = False
+        log_sync(SYNC_NAME, f"GitHub push: {'OK' if github_ok else 'FAIL'}; Gitee push: {'OK' if gitee_ok else 'FAIL'}")
     
     log_sync(SYNC_NAME, "Link audit complete")
     return custom_report

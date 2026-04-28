@@ -643,7 +643,7 @@ def run():
     extra = f"各平台条目: Windows={os_counts.get('windows',0)}, Linux={os_counts.get('linux',0)}, macOS={os_counts.get('macos',0)}, General={os_counts.get('general',0)}"
     send_sync_report(SYNC_NAME, all_new, total_all, errors, elapsed, extra)
 
-    report = write_report(SYNC_NAME, all_new, 0, errors)
+    report = write_report(SYNC_NAME, all_new, total_all, errors)
     log_sync(SYNC_NAME, f"Summary: new={all_new}, errors={len(errors)}")
     log_sync(SYNC_NAME, "Run complete")
     return report

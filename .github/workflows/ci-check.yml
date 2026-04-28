@@ -21,16 +21,10 @@ jobs:
         run: pip install pyyaml requests
 
       - name: Validate Markdown structure
-        run: |
-          python scripts/validate_structure.py || true
-        continue-on-error: true
+        run: python scripts/validate_structure.py
 
       - name: Check bilingual content
-        run: |
-          python scripts/validate_bilingual.py || true
-        continue-on-error: true
+        run: python scripts/validate_bilingual.py
 
       - name: Verify SQLite sync
-        run: |
-          python scripts/verify_db_sync.py || true
-        continue-on-error: true
+        run: python scripts/verify_db_sync.py

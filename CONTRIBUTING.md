@@ -74,7 +74,73 @@ python scripts/validate_links.py
 
 ## English Version
 
-[Same content in English...]
+### Quick Start
+
+1. Fork this repository
+2. Create a branch: `git checkout -b feature/your-feature`
+3. Commit changes: `git commit -am 'Add: new content'`
+4. Push branch: `git push origin feature/your-feature`
+5. Submit a Pull Request
+
+### Content Standards
+
+#### Bilingual Requirement
+
+All new entries must contain **Chinese and English** content:
+
+```markdown
+### 中文版 / Chinese Version
+
+[Chinese content]
+
+### 英文版 / English Version
+
+[English content]
+```
+
+#### Terminology
+
+| English | 中文 | Notes |
+|---------|------|-------|
+| Security Vulnerability | 安全漏洞 | Formal term |
+| Vulnerability Disclosure | 漏洞披露 | Industry term |
+| Remediation / Fix | 修复方案 | Either is acceptable |
+| Mitigation | 缓解措施 | Temporary fix |
+| Affected Versions | 影响版本 | Fixed phrase |
+| References | 参考来源 | Fixed phrase |
+
+### Commit Convention
+
+```
+Add: [category] [CVE-ID/title]
+Update: [category] [CVE-ID/title]
+Fix: [category] [CVE-ID/title] field
+Docs: documentation update
+```
+
+### Security Notes
+
+- **Do not commit secrets**: API keys, tokens, passwords via environment variables only
+- **Do not leak sensitive info**: Internal system details, personal data
+- **Link validation**: Ensure all external links are accessible
+
+### Local Verification
+
+```bash
+# Validate bilingual structure
+python scripts/validate_bilingual.py
+
+# Verify database sync
+python scripts/verify_db_sync.py
+
+# Validate link accessibility
+python scripts/validate_links.py
+```
+
+### Contact
+
+- GitHub Issues: [Submit issue](../../issues)
+- Discussions: [Join discussion](../../discussions)
 
 ## License
 

@@ -3906,7 +3906,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=105621758104242.
 
 ---
 
-#### 301. CVE-2026-3006 - winfsp: winfsp: Local privilege escalation via race conditio
+#### 301. CVE-2026-3006 - winfsp: winfsp: Local privilege escalation via race condition
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
@@ -3922,7 +3922,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 302. CVE-2026-31673 - kernel: af_unix: read UNIX_DIAG_VFS data under unix_state_lo
+#### 302. CVE-2026-31673 - kernel: af_unix: read UNIX_DIAG_VFS data under unix_state_lock
 
 **严重程度 / Severity**: MODERATE
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
@@ -4018,7 +4018,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 308. CVE-2026-31674 - kernel: netfilter: ip6t_rt: reject oversized addrnr in rt_mt
+#### 308. CVE-2026-31674 - kernel: netfilter: ip6t_rt: reject oversized addrnr in rt_mt6_check()
 
 **严重程度 / Severity**: MODERATE
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
