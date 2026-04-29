@@ -411,6 +411,27 @@ def write_report(sync_name: str, new_count: int, total_count: int, errors: List[
 # GitHub 推送
 # ---------------------------------------------------------------------------
 
+def ensure_git_identity(env: dict) -> bool:
+    """确保当前仓库具备可提交的本地 git 身份；缺失时写入兜底值。"""
+    name = subprocess.run(["git", "config", "--get", "user.name"], capture_output=True, text=True, env=env)
+    email = subprocess.run(["git", "config", "--get", "user.email"], capture_output=True, text=True, env=env)
+    current_name = name.stdout.strip() if name.returncode == 0 else ""
+    current_email = email.stdout.strip() if email.returncode == 0 else ""
+
+    fallback_name = os.environ.get("PATCH_TOOLBOX_GIT_NAME", "patch-toolbox-bot")
+    fallback_email = os.environ.get("PATCH_TOOLBOX_GIT_EMAIL", "patch-toolbox-bot@local")
+
+    if not current_name:
+        subprocess.run(["git", "config", "user.name", fallback_name], capture_output=True, text=True, env=env)
+        log_agent("publisher", f"git user.name missing; set local fallback: {fallback_name}")
+    if not current_email:
+        subprocess.run(["git", "config", "user.email", fallback_email], capture_output=True, text=True, env=env)
+        log_agent("publisher", f"git user.email missing; set local fallback: {fallback_email}")
+
+    verify_name = subprocess.run(["git", "config", "--get", "user.name"], capture_output=True, text=True, env=env)
+    verify_email = subprocess.run(["git", "config", "--get", "user.email"], capture_output=True, text=True, env=env)
+    return bool(verify_name.stdout.strip() and verify_email.stdout.strip())
+
 def git_push(msg: str = None) -> dict:
     """推送至 GitHub 与 Gitee，返回 {github: bool, gitee: bool}
 
@@ -439,6 +460,10 @@ def git_push(msg: str = None) -> dict:
     # git add
     result = subprocess.run(["git", "add", "."], capture_output=True, text=True, env=env_clean)
     log_agent("publisher", "Git add OK")
+
+    if not ensure_git_identity(env_clean):
+        log_agent("publisher", "Git identity missing and fallback setup failed")
+        return {"github": False, "gitee": False}
 
     # git commit
     result = subprocess.run(["git", "commit", "-m", msg], capture_output=True, text=True, env=env_clean)
@@ -507,7 +532,11 @@ def fetch_json(url: str, timeout: int = 30, retries: int = 3, verify: bool = Tru
     GitHub API 不走代理（datacenter IP 被风控）。
     Reddit 必须走代理 + 完整浏览器 headers。
     """
-    from curl_cffi import requests
+    try:
+        from curl_cffi import requests
+    except ImportError:
+        log_agent("utils", f"fetch_json skip: curl_cffi not installed: {url}")
+        return None
     
     is_github = "api.github.com" in url or "github.com" in url
     is_reddit = "reddit.com" in url
@@ -579,7 +608,11 @@ def fetch_text(url: str, timeout: int = 30, retries: int = 3, verify: bool = Tru
     Reddit 特殊处理：使用完整浏览器 headers 绕过风控。
     关键 headers：User-Agent、Accept、Accept-Language、Referer、Connection。
     """
-    from curl_cffi import requests
+    try:
+        from curl_cffi import requests
+    except ImportError:
+        log_agent("utils", f"fetch_text skip: curl_cffi not installed: {url}")
+        return None
     
     is_reddit = "reddit.com" in url
     
@@ -650,7 +683,11 @@ def fetch_text(url: str, timeout: int = 30, retries: int = 3, verify: bool = Tru
 
 def fetch_rss(url: str, timeout: int = 30, retries: int = 3, verify: bool = True) -> Optional[list]:
     """使用 curl_cffi 抓取 RSS/Atom feed，返回 feedparser entries"""
-    import feedparser
+    try:
+        import feedparser
+    except ImportError:
+        log_agent("utils", f"fetch_rss skip: feedparser not installed: {url}")
+        return None
     text = fetch_text(url, timeout=timeout, retries=retries, verify=verify)
     if not text:
         return None
