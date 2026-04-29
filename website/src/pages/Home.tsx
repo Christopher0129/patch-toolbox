@@ -14,7 +14,7 @@ import {
   Star,
 } from 'lucide-react';
 import { useTranslation } from '@/i18n/LanguageContext';
-import { loadStats, loadCategories, loadEntries } from '@/lib/content';
+import { loadStats } from '@/lib/content';
 
 /* ------------------------------------------------------------------ */
 /*  Matrix Rain Canvas (isolated, memoized)                            */
@@ -249,7 +249,7 @@ export default function Home() {
   const heroRef = useRef<HTMLDivElement>(null);
 
   // Fetch live stats from generated static data
-  const [liveEntryCount, setLiveEntryCount] = useState(3300);
+  const [, setLiveEntryCount] = useState(3300);
   useEffect(() => {
     loadStats().then((s) => {
       if (s?.totalEntries) setLiveEntryCount(s.totalEntries);

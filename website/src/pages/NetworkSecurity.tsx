@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import {
   Search,
   Database,
+  FileText,
   Calendar,
   X,
   ArrowRight,
@@ -15,7 +16,6 @@ import {
   ChevronDown,
   ExternalLink,
 } from 'lucide-react';
-import { Database, FileText, ExternalLink } from 'lucide-react';
 import { useTranslation } from '@/i18n/LanguageContext';
 import { loadEntries } from '@/lib/content';
 import { cn } from '@/lib/utils';

@@ -10,6 +10,9 @@ import {
   ChevronRight,
   AlertCircle,
   Users,
+  FileText,
+  Database,
+  ExternalLink,
 } from 'lucide-react';
 import { useTranslation } from '@/i18n/LanguageContext';
 import { loadEntries } from '@/lib/content';
@@ -536,6 +539,10 @@ export default function SystemTroubleshooting() {
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState<Platform>('windows');
   const [data, setData] = useState(troubleshooting);
+
+  const markdownUrl = 'https://github.com/Christopher0129/patch-toolbox/blob/main/system-troubleshooting/index.md';
+  const dbUrl = '/patch-toolbox/db/system-troubleshooting.db';
+  const entriesUrl = '/patch-toolbox/data/entries.json';
 
   // Wire to generated static data
   useEffect(() => {

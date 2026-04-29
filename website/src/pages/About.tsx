@@ -1,6 +1,5 @@
-import { Database, FileText, ExternalLink, Shield } from 'lucide-react';
 import { useTranslation } from '@/i18n/LanguageContext';
-import { loadStats, loadEntries } from '@/lib/content';
+import { loadStats } from '@/lib/content';
 import { motion } from 'framer-motion';
 import {
   Shield,

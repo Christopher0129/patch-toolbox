@@ -8,6 +8,9 @@ import {
   ChevronRight,
   Clock,
   CheckCircle2,
+  FileText,
+  Database,
+  ExternalLink,
 } from 'lucide-react';
 import { useTranslation } from '@/i18n/LanguageContext';
 import { loadEntries } from '@/lib/content';

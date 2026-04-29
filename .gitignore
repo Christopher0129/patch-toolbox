@@ -92,6 +92,9 @@ id_ed25519*
 website/node_modules/
 website/dist/
 website/.vite/
+website/*.tsbuildinfo
+website/vite.config.d.ts
+website/vite.config.js
 
 # Local scripts and dev files
 local/
