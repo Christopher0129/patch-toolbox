@@ -34,6 +34,15 @@ def clean_text(val):
 
 
 
+def summarize_title(title: str, limit: int = 100) -> str:
+    title = clean_text(title)
+    if not limit or len(title) <= limit:
+        return title
+    clipped = title[:limit].rsplit(' ', 1)[0].strip()
+    if not clipped:
+        clipped = title[:limit].strip()
+    return clipped + '…'
+
 def trim_dangling_bullets(val: str) -> str:
     val = clean_text(val)
     lines = val.splitlines()
@@ -64,14 +73,19 @@ def sanitize_advisory_block(val: str) -> str:
 def display_title(title: str, desc: str = "", limit: int = 100) -> str:
     title = clean_text(title)
     desc = clean_text(desc)
+    display = title
+    repaired = False
     if desc.startswith('[Red Hat] '):
         redhat_desc = desc[len('[Red Hat] '):].split('. Bugzilla:', 1)[0].strip()
         if title.startswith('CVE-') and ' - ' in title:
             cve, rest = title.split(' - ', 1)
             looks_truncated = title.endswith(' ') or title.endswith('…') or rest.endswith(' ') or len(rest) < len(redhat_desc)
             if looks_truncated:
-                return f"{cve} - {redhat_desc}"
-    return title
+                display = f"{cve} - {redhat_desc}"
+                repaired = True
+    if repaired and limit and len(display) > limit:
+        return summarize_title(display, limit)
+    return display
 
 def generate_ns_md(conn, out_path: Path):
     c = conn.cursor()

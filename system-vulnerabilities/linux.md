@@ -3906,7 +3906,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=105621758104242.
 
 ---
 
-#### 301. CVE-2026-3006 - winfsp: winfsp: Local privilege escalation via race condition and kernel heap overflow
+#### 301. CVE-2026-3006 - winfsp: winfsp: Local privilege escalation via race condition and kernel heap…
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
@@ -4130,7 +4130,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 315. CVE-2026-41140 - poetry: python: Poetry: Path traversal vulnerability allows arbitrary file write via malicious package extraction
+#### 315. CVE-2026-41140 - poetry: python: Poetry: Path traversal vulnerability allows arbitrary file write…
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
@@ -4146,7 +4146,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 316. CVE-2026-41324 - basic-ftp: basic-ftp: Denial of Service via unbounded memory growth from malicious directory listings
+#### 316. CVE-2026-41324 - basic-ftp: basic-ftp: Denial of Service via unbounded memory growth from malicious…
 
 **严重程度 / Severity**: MODERATE
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
@@ -4178,7 +4178,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 318. CVE-2026-41305 - postcss: PostCSS: Cross-Site Scripting (XSS) via improper escaping of style closing tags
+#### 318. CVE-2026-41305 - postcss: PostCSS: Cross-Site Scripting (XSS) via improper escaping of style…
 
 **严重程度 / Severity**: MODERATE
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
@@ -4194,7 +4194,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 319. CVE-2026-40254 - FreeRDP: FreeRDP: Information disclosure and arbitrary file modification via path traversal
+#### 319. CVE-2026-40254 - FreeRDP: FreeRDP: Information disclosure and arbitrary file modification via path…
 
 **严重程度 / Severity**: MODERATE
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
