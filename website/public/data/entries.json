@@ -1,0 +1,1202 @@
+[
+  {
+    "slug": "network-security-1-先知-js原型链污染原理及绕过",
+    "title": "[先知] js原型链污染原理及绕过",
+    "description": "一文讲明js原型链污染原理及概念误区，包含常见绕过思路",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-2-先知-结合代码分析cve-2026-33439-openam-反序列化漏洞",
+    "title": "[先知] 结合代码分析CVE-2026-33439 OpenAM 反序列化漏洞",
+    "description": "结合代码分析CVE-2026-33439 OpenAM 反序列化漏洞",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-3-先知-sglang-gguf-投毒致-rce-漏洞-cve-2026-5760",
+    "title": "[先知] SGLang GGUF 投毒致 RCE 漏洞（CVE-2026-5760）",
+    "description": "该漏洞存在于大模型推理引擎 SGLang 中（影响 v0.5.9 及以下版本）。其核心逻辑非常直接：SGLang 在处理 /v1/rerank 请求时，会读取 GGUF 模型文件中的 tokenizer.chat_template 字段，并将其放入一个无沙箱限制的 Jinja2 环境中进行渲染。",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-4-先知-letta-ai-最新版未修复漏洞",
+    "title": "[先知] Letta AI 最新版未修复漏洞",
+    "description": "该漏洞允许攻击者通过 REST API 提供了一个 /v1/tools/run端点，利用任意 payload 在目标服务器上执行任意 Python 代码或系统命令。",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-5-先知-ai赋能-六阶段ai流水线赋能app安全分析实战",
+    "title": "[先知] 【AI赋能】六阶段AI流水线赋能APP安全分析实战",
+    "description": "面向移动安全分析场景的 6 阶段总控 Skill。用于统一调度 APK 静态侦察、流量与代码对齐、SO/JNI 深度分析、加密与漏洞综合分析、验证设计与报告交付流程。",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-6-先知-slopsquatting供应链投毒",
+    "title": "[先知] Slopsquatting供应链投毒",
+    "description": "Slopsquatting——由 slop（对 AI 低质量输出的俗称）和 squatting（域名/包名抢注）组合而成。大语言模型（LLM）在生成代码时会「幻觉」出实际不存在的第三方包名，而攻击者只需提前在 PyPI、npm 等公共包仓库中注册这些幻觉名称，植入恶意载荷，然后静待开发者按照 AI 的建议执行 pip install。",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-7-先知-漏洞分析-node-tar-hardlink边界绕过问题深度分析",
+    "title": "[先知] 【漏洞分析】Node-tar Hardlink边界绕过问题深度分析",
+    "description": "以 Node-tar 的 CVE-2026-24842 为例，分析 hardlink path traversal 是如何绕过提取目录边界的，以及在常见业务场景下，如何一步步演变成任意文件读取、文件覆盖，甚至进一步的代码执行风险",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-8-嘶吼-绿盟nf防火墙-筑牢openclaw安全防线-构筑ai时代安全基石",
+    "title": "[嘶吼] 绿盟NF防火墙：筑牢OpenClaw安全防线，构筑AI时代安全基石",
+    "description": "2026年2月至3月，国家工业和信息化部网络安全威胁和漏洞信息共享平台（NVDB）连续两次发布关于OpenClaw（俗称“龙虾”）的安全预警，明确指出其“信任边界模糊”“配置缺陷易引发网络攻击、信息泄露”，并首次提出针对AI智能体应用的&nbsp;“六要六不要”&nbsp;安全建议。紧接着，国家安全部也发布《“龙虾”安全养殖手册》，警示主机被接管、数据被窃取、供应链投毒等原生风险。官方密集发声的背后，是一组触目惊心的数据：·258个已披露漏洞，其中近期发现的82个漏洞里就有12个超危以及21个高危；·46.9万个公网暴露实例，27.2%的实例存在高危漏洞，面临被直接接管风险；·22%&nbsp;受监控企业存在员工私自部署的“影子AI”；·超820个恶意插件潜伏在ClawHub，伪装成实用工具窃取API密钥、执行任意命令。面对这一新型AI工具带来的系统性风险，企业急需一套既能精准发现、又能深",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-9-嘶吼-当-小龙虾-潜入内网-如何解决-影子ai-的隐匿危机",
+    "title": "[嘶吼] 当“小龙虾”潜入内网，如何解决“影子AI”的隐匿危机",
+    "description": "近期，OpenClaw（俗称“小龙虾”）这一开源AI智能体因其强大的自主执行能力而迅速爆火，成为众多企业与开发者的效率神器。然而，就在热度持续攀升之际，国家及行业权威机构接连发布重磅预警：这个看似能干的“AI助手”，正因其模糊的信任边界和脆弱的默认安全配置，成为潜伏在企业内网中的高危风险源。从已披露的CVE-2026-25253、CVE-2026-25157到最新的多个供应链投毒事件，多个已知漏洞正威胁着从个人隐私到关键基础设施的安全防线。面对来势汹汹的“龙虾”漏洞潮，传统“只扫不治”的扫描模式已然失效。企业需要的不是一份简单的风险清单，而是一套可管、可控、可追溯的漏洞治理方案。一、治理之困：为何你的网络成了“坏虾”的养殖场？在与众多企业的交流中，我们听到了两种典型的声音：&nbsp;&nbsp;“影子AI”的恐慌：“员工偷偷部署了OpenClaw，我连它们在哪里都不知道，更别提管控了。这",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-10-嘶吼-龙虾-来袭-绿盟科技三位一体防御体系-让网络告别-裸奔-风险",
+    "title": "[嘶吼] “龙虾”来袭，绿盟科技三位一体防御体系，让网络告别 “裸奔” 风险",
+    "description": "2026年开年，OpenClaw（俗称“龙虾”）这款本地优先的 AI Agent 自动化平台以燎原之势席卷全球，凭借自然语言指令实现 PC 全功能自动化的能力，成为开发者追捧的工具。其支持15+通信平台、多模型调用、自主任务执行等特性，让效率提升的同时，也埋下了巨大的安全隐患。工信部于2026年3月8日正式发布openclaw安全风险预警通报。这款看似便捷的工具，正成为企业网络安全的“特洛伊木马”，筑牢其安全防护防线已成为企业的迫切需求。一、OpenClaw 五大核心安全痛点，直击企业网络软肋OpenClaw 的安全风险并非单一漏洞引发的局部问题，而是贯穿系统架构、权限模型、供应链和数据流转的系统性危机，五大核心痛点直指企业网络安全的薄弱环节，带来全方位的威胁。痛点一：高危漏洞频发，远程代码执行（RCE）风险一触即发OpenClaw 从2025年11月发布到首个高危 CVE 漏洞出现仅耗时",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-11-嘶吼-嘶吼安全动态-中央网信办召开全国网络法治工作会议-设备码钓鱼攻击暴增36倍-新型攻击工具在网上大肆扩散",
+    "title": "[嘶吼] 嘶吼安全动态｜中央网信办召开全国网络法治工作会议 设备码钓鱼攻击暴增36倍，新型攻击工具在网上大肆扩散",
+    "description": "嘶吼安全动态【国内新闻】上海人工智能实验室发布“珠穆朗玛计划”，打造AI4S全国中枢摘要：上海AI实验室重磅发布“AGI4S 珠穆朗玛计划”，同步推出DeepLink融合算力平台。该计划旨在通过全维度合作打破算力与数据壁垒，为高能物理、疾病诊断等关键科学领域提供自主受控的智能底座。原文链接：https://www.news.cn/tech/20260408/fe5a61186ceb4582bdcf019c9abe0733/c.html中央网信办召开全国网络法治工作会议，部署 “十五五” 依法治网重点任务摘要：会议明确完善网络法律体系、强化App/SDK个人信息治理、加强网络司法惩戒等五大任务，推进依法治网全面落地。原文链接：https://www.cac.gov.cn/2026-04/08/c_1777384058981550.htm上海警方侦破AI黑稿工厂案，2人操控4000账号抹黑车企",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-12-嘶吼-新型crystalrat恶意软件新增远程控制-数据窃取等功能",
+    "title": "[嘶吼] 新型CrystalRAT恶意软件新增远程控制、数据窃取等功能",
+    "description": "一款名为CrystalRAT的新型远程控制木马正在Telegram上以恶意软件即服务（MaaS）模式推广，提供远程控制、数据窃取、键盘记录与剪贴板劫持等核心功能。&nbsp;该恶意软件于今年1月现身，采用分级订阅模式运营。除Telegram频道外，运营者还在YouTube开设专门营销账号，通过功能演示视频进行推广。&nbsp;卡巴斯基研究人员在最近发布的报告中指出，这款木马与WebRAT（Salat窃密木马）高度相似，二者拥有相同的控制面板设计、均使用Go语言编写，且采用类似的机器人销售系统。&nbsp;CrystalX还内置了大量恶作剧功能，用于骚扰用户或干扰其正常工作。尽管带有“娱乐化”外观，该木马仍具备全面且强大的数据窃取能力。Telegram频道推广CrystaX RATCrystalX RAT功能详情卡巴斯基表示，该恶意软件配备了易用的管理后台与自动化生成工具，支持多项自定义配置",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-13-嘶吼-嘶吼安全动态-八部门联合发布-科技数据安全管理暂行规定-4月10日起实施-黑客利用像素级svg技巧隐藏信用卡窃密代码",
+    "title": "[嘶吼] 嘶吼安全动态|八部门联合发布《 科技数据安全管理暂行规定》，4月10日起实施 黑客利用像素级SVG技巧隐藏信用卡窃密代码",
+    "description": "嘶吼安全动态|【国内新闻】八部门联合发布《科技数据安全管理暂行规定》，4月10日起实施摘要：明确科技数据分类分级、算法备案、跨境管控等要求，强化科研与算力设施安全。原文链接：http://m.toutiao.com/group/7626936382984700451/腾讯QClaw V2上线“龙虾管家”，全流程防护AI操作安全摘要：默认开启安全防护，覆盖Prompt、技能与脚本执行，实时拦截恶意指令、技能投毒、文件误删等风险。原文链接：https://www.sohu.com/a/1007377777_115060?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334新型底层木马NoVoice爆发，全球230万设备中招，格式化无法清除摘要：Rootkit级恶意程序深度感染安卓与iOS，国内90万台设备中招，重置后仍复活，窃取隐私并远程控制。原文链接：http",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-14-嘶吼-progress-sharefile曝新漏洞-可组合实现未认证远程代码执行",
+    "title": "[嘶吼] Progress ShareFile曝新漏洞 可组合实现未认证远程代码执行",
+    "description": "最新发现，企业级安全文件传输解决方案 Progress ShareFile 存在两处漏洞，攻击者可将其组合利用，在无需身份认证的情况下从受影响环境中窃取文件。Progress ShareFile 是一款文档共享与协作产品，广泛应用于大中型企业。此类文件传输平台历来是勒索软件团伙的重点攻击目标，此前 Clop 勒索组织就曾利用 Accellion FTA、SolarWinds Serv-U、Gladinet CentreStack、GoAnywhere MFT、MOVEit Transfer、Cleo 等产品中的漏洞实施大规模数据窃取攻击。&nbsp;watchTowr 的研究人员在 Progress ShareFile 5.x 分支的 Storage Zones Controller（SZC，存储区域控制器）组件中，发现了一处认证绕过漏洞（CVE-2026-2699）和一处远程代码执行漏洞",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-15-嘶吼-公安部通报37款违规应用-电商类占比超七成-小程序不再是-法外之地",
+    "title": "[嘶吼] 公安部通报37款违规应用，电商类占比超七成，小程序不再是 “法外之地”",
+    "description": "依据《网络安全法》《个人信息保护法》等法律法规，经公安部计算机信息系统安全产品质量监督检验中心检测，37款移动应用存在违法违规收集使用个人信息情况，具体通报如下：1、未公开收集使用规则。涉及21款移动应用如下：《奇峰商城》（支付宝小程序）、《聚优商城》（微信小程序）、《亿秀分期商城》（支付宝小程序）、《鲜范商城》（微信小程序）、《京机数码手机商城》（支付宝小程序）、《创维官方商城》（支付宝小程序）、《万事商城》（支付宝小程序）、《尚至然商城》（支付宝小程序）、《知墨商城》（支付宝小程序）、《领充充电桩商城》（支付宝小程序）、《世有品商城》（支付宝小程序）、《阿京妈会员》（微信小程序）、《仲盛世界SKYMALL》（支付宝小程序）、《衣恋集团商城》（微信小程序）、《快贷分期》（版本4.0.1，应用宝）、《百师商城》（微信小程序）、《松下商城》（微信小程序）、《意尔康官方商城》（微信小程序）、《",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-16-嘶吼-梆梆安全发布-2026年q1移动应用安全风险报告-超八成app存隐私违规-数据境外外发风险需高度警惕",
+    "title": "[嘶吼] 梆梆安全发布《2026年Q1移动应用安全风险报告》：超八成APP存隐私违规，数据境外外发风险需高度警惕",
+    "description": "梆梆安全发布《2026年Q1移动应用安全风险报告》。本报告基于梆梆安全移动应用监管平台在2026年一季度的威胁监测数据与深度安全分析成果，系统梳理当前国内移动应用面临的新型攻击技术演进与安全趋势变化，聚焦盗版仿冒、境外数据传输、高危漏洞、个人隐私违规等多个维度，为移动应用安全建设工作提供参考与实践指引。\n当前，我国数字经济与实体经济融合持续深入，移动互联网已演进为支撑社会数字化转型的关键基础设施。根据中国互联网络信息中心（CNNIC）第57次《中国互联网络发展状况统计报告》，截至2025年12月，我国网民规模达11.25亿，互联网普及率突破80%，其中手机网民规模达11.21亿，占比高达99.6%，移动终端在数字接入生态中的核心地位进一步巩固。\n与此同时，用户对移动应用的依赖程度持续加深。数据显示，我国网民人均每周上网时长已达32.5小时，人均使用APP数量接近30款，移动互联网接入流量全",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-17-嘶吼-纵横网络靶场社区正式发布-以虚实融合技术构建工业信息安全实战生态",
+    "title": "[嘶吼] 纵横网络靶场社区正式发布 以虚实融合技术构建工业信息安全实战生态",
+    "description": "当前，工业互联网深度融合发展，关键信息基础设施安全防护需求持续攀升，实战型工业信息安全人才短缺、训练场景稀缺、理论与实践脱节等制约行业发展的核心痛点日益凸显。在此背景下，烽台科技打造的聚焦工业信息安全人才培养与生态共建的纵横网络靶场社区正式发布。该平台依托烽台科技十余年工业靶场技术沉淀，以“虚实融合”技术为核心，整合AI智能体、数字孪生等前沿能力，旨在打造工业安全领域“理论+实战+生态”三位一体的服务体系，为高校、企业、科研院所提供专业化的工业安全实训与技术交流空间。从“竞赛工具”到“生态平台”：网络靶场社区的迭代之路回溯烽台科技网络靶场社区的发展历程，其起点可追溯至2015年——公司成立后其核心产品便是工控网络靶场，由此开启了工业安全领域的深耕之路。早期社区更像“竞赛工具”，聚焦赛事聚人气，而此次全新发布的纵横网络靶场社区则进行了针对性升级：不仅保留竞赛模块，还新增实训专区，计划陆续开放",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-18-先知-cve-2026-1207-django-raster-lookups-on-postgis-sql注入漏洞",
+    "title": "[先知] CVE-2026-1207: Django raster lookups on PostGIS SQL注入漏洞",
+    "description": "Django 框架在使用 PostGIS 查询地理栅格（raster）数据时，若将未经验证的用户输入直接作为 band index（波段索引）参数，会引发 SQL 注入",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-19-先知-pwn核心利用手法归纳总结",
+    "title": "[先知] PWN核心利用手法归纳总结",
+    "description": "结合简单模型实验，直指漏洞利用",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-20-先知-记edusrc的几个未授权案例的挖掘",
+    "title": "[先知] 记edusrc的几个未授权案例的挖掘",
+    "description": "在遇到vue框架的时候,使用相关插件进行接口相关的测试，往往更容易找到突破口。",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-21-先知-软件系统安全赛2026分区赛-web-nodejs",
+    "title": "[先知] 软件系统安全赛2026分区赛 Web NodeJs",
+    "description": "该文章介绍了一道 Node.js CTF 题目的解题思路：攻击者首先利用 /changepassword 接口的 merge() 函数原型链污染漏洞，注入 isAdmin: true 提权为管理员；随后通过 CVE-2026-22709 绕过 vm2 沙箱执行任意命令；最后利用 root 权限的 /backup.sh 定时脚本，将 /flag 内容写入静态目录实现读取。核心链：原型污染提权 → v",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-22-先知-2026软件安全赛半决赛pwn-robo-admin-wp-fix-break",
+    "title": "[先知] 2026软件安全赛半决赛PWN Robo_admin WP fix&break",
+    "description": "2026软件安全赛半决赛PWN Robo_admin WP fix&break",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-23-先知-2025ciscn决赛ez-orw",
+    "title": "[先知] 2025ciscn决赛ez_orw",
+    "description": "这个题目考了花指令，魔改rc4，protobuf，纯字符shellcode，考的很多，这里借此简单的总结一下各个部分",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-24-先知-在野利用cve-2026-34621漏洞pdf样本深度分析",
+    "title": "[先知] 在野利用CVE-2026-34621漏洞PDF样本深度分析",
+    "description": "模拟构建漏洞 PDF 响应载荷后发现，该载荷可异常驻留并嵌入 Adobe Acrobat Reader 内部，即便关闭 PDF、重启软件乃至操作系统，仍能持续触发恶意代码执行。",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-25-先知-2025ccb决赛interpreter",
+    "title": "[先知] 2025ccb决赛interpreter",
+    "description": "一个自定义的序列化的题目",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-26-先知-qemu虚拟化逃逸",
+    "title": "[先知] qemu虚拟化逃逸",
+    "description": "第一次做这种类型的，大体记录一下过程",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-27-先知-用魔法打败魔法-自动化越狱提示词的生成",
+    "title": "[先知] 用魔法打败魔法：自动化越狱提示词的生成",
+    "description": "自动化越狱提示词的生成",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-28-看雪-虚假-openclaw-安装程序如何传播-ghostsocks-恶意软件",
+    "title": "[看雪] 虚假 OpenClaw 安装程序如何传播 GhostSocks 恶意软件",
+    "description": "作者：Jai Minton, Ryan Dowd 原文链接：https://www.huntress.com/blog/openclaw-github-ghostsocks-infostealer/https://www.huntress.com/blog/openclaw-github-ghostsocks-infostealer 摘要 信息窃取型恶意软件是针对面向公众系统发起严重攻击的初始访问...",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-29-看雪-基于图像的提示注入-通过视觉嵌入的对抗性指令劫持多模态大语言模型",
+    "title": "[看雪] 基于图像的提示注入：通过视觉嵌入的对抗性指令劫持多模态大语言模型",
+    "description": "作者：Neha Nagaraja, Lan Zhang, Zhilong Wang 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2603.03637v1/https://arxiv.org/html/2603.03637v1 摘要：多模态大语言模型（MLLMs）融合视觉与文本能力赋能各类应用，但这种融合也引入了新的安全漏洞。本文研究基于图像的提示注入（...",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-30-看雪-unmasking-silverfox-s-new-trends-decoding-evasion-tactics-domain-impersonation-and-mass-generated-fake-software",
+    "title": "[看雪] Unmasking SilverFox’s New Trends: Decoding Evasion Tactics, Domain Impersonation, and Mass-Generated Fake Software",
+    "description": "Author: Knownsec 404 Advanced Threat Intelligence Team I. Introduction SilverFox has become one of the most active cyber threats in recent years, targeting managerial and finance staff in organization...",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-31-看雪-cuda-agent-面向高性能-cuda-内核生成的大规模智能体强化学习",
+    "title": "[看雪] CUDA Agent：面向高性能 CUDA 内核生成的大规模智能体强化学习",
+    "description": "作者：Weinan Dai, Hanlin Wu, Qiying Yu等 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2602.24286v1/https://arxiv.org/html/2602.24286v1 摘要 GPU内核优化是现代深度学习的基础，但仍是一项高度专业化的任务，需要深厚的硬件专业知识。尽管大语言模型（LLM）在通用编程任务中表现...",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-32-看雪-增强网络入侵检测系统-一种抵御对抗攻击的多层集成方法",
+    "title": "[看雪] 增强网络入侵检测系统：一种抵御对抗攻击的多层集成方法",
+    "description": "作者：Nasim Soltani, Shayan Nejadshamsi等 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2603.10413v1/https://arxiv.org/html/2603.10413v1 摘要 对抗样本会对机器学习（ML）算法构成严重威胁。若被用于操控基于机器学习的网络入侵检测系统（NIDS）行为，将危及网络安全。本研究旨...",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-33-看雪-静默颠覆-通过卫星系统供应链植入物实施的传感器欺骗攻击",
+    "title": "[看雪] 静默颠覆：通过卫星系统供应链植入物实施的传感器欺骗攻击",
+    "description": "作者：Jack Vanlyssel, Gruia-Catalin Roman, Afsah Anwar 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2603.10388v1/https://arxiv.org/html/2603.10388v1 摘要 欺骗攻击是地面系统最具破坏性的网络威胁之一，而在太空中这类威胁愈发危险——卫星难以在轨维修，且运营方依...",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-34-看雪-guard-slm-面向小语言模型-基于令牌激活的越狱攻击防御方法",
+    "title": "[看雪] GUARD‑SLM：面向小语言模型、基于令牌激活的越狱攻击防御方法",
+    "description": "作者：Md. Jueal Mia1, Joaquin Molto1, Yanzhao Wu1, M. Hadi Amini 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2603.28817v1/https://arxiv.org/html/2603.28817v1 摘要 小语言模型（SLM）正成为大语言模型（LLM）高效且经济可行的替代方案，在计算成本...",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-35-看雪-skilltrojan-针对基于技能的智能体系统的后门攻击",
+    "title": "[看雪] SkillTrojan：针对基于技能的智能体系统的后门攻击",
+    "description": "作者：Yunhao Feng, Yifan Ding, Yingshui Tan等 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2604.06811v1/https://arxiv.org/html/2604.06811v1 摘要 基于技能的智能体系统通过组合可复用技能完成复杂任务，在提升模块化与可扩展性的同时，引入了尚未被充分研究的安全攻击面。本文提...",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-36-看雪-合法终端管理软件遭滥用-疑似银狐攻击事件分析与溯源",
+    "title": "[看雪] 合法终端管理软件遭滥用：疑似银狐攻击事件分析与溯源",
+    "description": "作者：知道创宇高级威胁情报团队 一、事件概述 近期，我们在客户现场应急响应中排查到一起新型攻击事件。攻击者伪造常用工具安装包诱导执行，随即部署一款带有合法数字签名的终端管理软件。经技术溯源确认，该程序具备主机信息收集、远程控制等完整恶意能力，其 C2 基础设施与 “银狐” 高度关联。由于合法数字签名的天然 “免杀” 特性，该恶意程序可轻易绕过主流杀毒软件检测，实现隐蔽入侵与长期控制。 银狐简介 银...",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-37-看雪-google-deepmind-ai-智能体陷阱",
+    "title": "[看雪] Google DeepMind：AI 智能体陷阱",
+    "description": "作者：Matija Franklin, Nenad Tomašev等 译者：知道创宇404实验室翻译组 原文链接：https://blog.qiaomu.ai/api/images/document/2026/04/603f0cae8cd8ab94-ai-agent-trap.pdf 摘要 自主AI智能体日益在网络中自主行动，它们面临一种全新挑战：信息环境本身。由此产生了一个关键安全漏洞，我们称之...",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-38-安全客-telegram的黑色面-网络罪犯利用机器人api隐秘窃取数据",
+    "title": "[安全客] Telegram的黑色面 网络罪犯利用机器人API隐秘窃取数据",
+    "description": "",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-39-安全客-gitlab发布紧急安全更新-修复高危xss与api拒绝服务漏洞",
+    "title": "[安全客] GitLab发布紧急安全更新 修复高危XSS与API拒绝服务漏洞",
+    "description": "",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-40-安全客-能感知自身正在被测试的ai-anthropic关于claude自我意识的惊人发现",
+    "title": "[安全客] 能感知自身正在被测试的AI Anthropic关于Claude自我意识的惊人发现",
+    "description": "",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-41-安全客-hpe发布aruba-os高危漏洞预警-可未授权重置密码",
+    "title": "[安全客] HPE发布Aruba OS高危漏洞预警 可未授权重置密码",
+    "description": "",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-42-安全客-openai战略调整sora视频ai将直接接入chatgpt",
+    "title": "[安全客] OpenAI战略调整Sora视频AI将直接接入ChatGPT",
+    "description": "",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-43-安全客-ally-wordpress插件高危sql注入漏洞-威胁40万个网站",
+    "title": "[安全客] Ally WordPress插件高危SQL注入漏洞 威胁40万个网站",
+    "description": "",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-44-安全客-2026首届汽车安全白帽黑客大会圆满收官-共筑车联网安全新生态",
+    "title": "[安全客] 2026首届汽车安全白帽黑客大会圆满收官，共筑车联网安全新生态",
+    "description": "",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-45-安全客-瑞数信息入选idc两大ai安全报告-防御openclaw小龙虾裸奔危机",
+    "title": "[安全客] 瑞数信息入选IDC两大AI安全报告，防御OpenClaw小龙虾裸奔危机",
+    "description": "",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-46-安全客-科技云报到-龙虾-openclaw狂欢之下-需要一针清醒剂",
+    "title": "[安全客] 科技云报到：“龙虾”OpenClaw狂欢之下，需要一针清醒剂",
+    "description": "",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-47-安全客-科技云报到-龙虾-入笼-为何金融行业不敢-养",
+    "title": "[安全客] 科技云报到：“龙虾”入笼：为何金融行业不敢“养”？",
+    "description": "",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-48-安全客-科技云报到-ai算力革命-终结云计算20年降价史",
+    "title": "[安全客] 科技云报到：AI算力革命，终结云计算20年降价史",
+    "description": "",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-49-安全客-鸿蒙next应用一键加固-ai-agent助力安全开发",
+    "title": "[安全客] 鸿蒙NEXT应用一键加固——AI Agent助力安全开发",
+    "description": "",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "network-security-50-安全客-工程化实战思维在红队技战术中的应用",
+    "title": "[安全客] 工程化实战思维在红队技战术中的应用",
+    "description": "",
+    "category": "network-security",
+    "markdown_path": "network-security/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-1-ubuntu-usn-8212-1-authd-vulnerability",
+    "title": "[Ubuntu] USN-8212-1: authd vulnerability",
+    "description": "It was discovered that authd incorrectly assigned the primary group ID to\nusers under certain conditions. A local attacker could possibly use this\nissue to achieve privilege escalation, or gain unauthorized access to files\nbelonging to other users.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-2-ubuntu-usn-8202-1-jq-vulnerabilities",
+    "title": "[Ubuntu] USN-8202-1: jq vulnerabilities",
+    "description": "It was discovered that jq did not correctly handle certain string\nconcatenations. An attacker could possibly use this issue to cause a denial\nof service or execute arbitrary code. This issue was addressed in Ubuntu\n16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, Ubuntu\n24.04 LTS and Ubuntu 25.10. (CVE-2026-32316)\n\nIt was discovered that jq did not correctly handle recursion in cer",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-3-ubuntu-usn-8204-1-linux-kernel-raspberry-pi-real-time-vulnerabilities",
+    "title": "[Ubuntu] USN-8204-1: Linux kernel (Raspberry Pi Real-time) vulnerabilities",
+    "description": "Josh Eads, Kristoffer Janke, Eduardo Vela Nava, Tavis Ormandy, and Matteo\nRizzo discovered that some AMD Zen processors did not properly verify the\nsignature of CPU microcode. This flaw is known as EntrySign. A privileged\nattacker could possibly use this issue to cause load malicious CPU\nmicrocode causing loss of integrity and confidentiality.\n(CVE-2024-36347)\n\nSeveral security issues were discove",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-4-ubuntu-usn-8205-1-gstreamer-bad-plugins-vulnerabilities",
+    "title": "[Ubuntu] USN-8205-1: GStreamer Bad Plugins vulnerabilities",
+    "description": "It was discovered that multiple plugins in GStreamer contained arithmetic\noverflows. An attacker could possibly use this issue to cause applications\nusing the plugins to crash, resulting in a denial of service, or possibly\nexecute arbitrary code. (CVE-2023-37329, CVE-2023-40474, CVE-2023-40475,\nCVE-2023-40476)\n\nIt was discovered that the MXF demuxer plugin in GStreamer did not\nproperly manage memo",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-5-ubuntu-usn-8206-1-openmpt-vulnerability",
+    "title": "[Ubuntu] USN-8206-1: OpenMPT vulnerability",
+    "description": "Antonio Morales Maldonado discovered that OpenMPT did not properly limit\nthe length of strings in certain cases, leading to a buffer overflow.\nAn attacker could possibly use this issue to cause OpenMPT to crash,\nresulting in a denial of service.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-6-ubuntu-usn-8180-5-linux-kernel-ibm-vulnerabilities",
+    "title": "[Ubuntu] USN-8180-5: Linux kernel (IBM) vulnerabilities",
+    "description": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - ARM64 architecture;\n  - Block layer subsystem;\n  - Drivers core;\n  - Bluetooth drivers;\n  - DMA engine subsystem;\n  - GPU drivers;\n  - HID subsystem;\n  - Intel Trace Hub HW tracing drivers;\n  - IIO ADC drivers;\n  - I",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-7-cve-2026-31584-kernel-media-mediatek-vcodec-fix-use-after-free-in-encod",
+    "title": "CVE-2026-31584 - kernel: media: mediatek: vcodec: fix use-after-free in encod",
+    "description": "[Red Hat] kernel: media: mediatek: vcodec: fix use-after-free in encoder release path. Bugzilla: 2461436",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-8-cve-2026-40254-freerdp-freerdp-information-disclosure-and-arbitrary-file",
+    "title": "CVE-2026-40254 - FreeRDP: FreeRDP: Information disclosure and arbitrary file ",
+    "description": "[Red Hat] FreeRDP: FreeRDP: Information disclosure and arbitrary file modification via path traversal. Bugzilla: 2461368",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-9-cve-2026-41305-postcss-postcss-cross-site-scripting-xss-via-improper-es",
+    "title": "CVE-2026-41305 - postcss: PostCSS: Cross-Site Scripting (XSS) via improper es",
+    "description": "[Red Hat] postcss: PostCSS: Cross-Site Scripting (XSS) via improper escaping of style closing tags. Bugzilla: 2461366",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-10-cve-2026-41316-erb-erb-arbitrary-code-execution-via-deserialization-bypas",
+    "title": "CVE-2026-41316 - erb: ERB: Arbitrary code execution via deserialization bypas",
+    "description": "[Red Hat] erb: ERB: Arbitrary code execution via deserialization bypass. Bugzilla: 2461369",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-11-cve-2026-41324-basic-ftp-basic-ftp-denial-of-service-via-unbounded-memory",
+    "title": "CVE-2026-41324 - basic-ftp: basic-ftp: Denial of Service via unbounded memory",
+    "description": "[Red Hat] basic-ftp: basic-ftp: Denial of Service via unbounded memory growth from malicious directory listings. Bugzilla: 2461380",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-12-cve-2026-41140-poetry-python-poetry-path-traversal-vulnerability-allows",
+    "title": "CVE-2026-41140 - poetry: python: Poetry: Path traversal vulnerability allows ",
+    "description": "[Red Hat] poetry: python: Poetry: Path traversal vulnerability allows arbitrary file write via malicious package extraction. Bugzilla: 2461604",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-13-cve-2026-31680-kernel-net-ipv6-flowlabel-defer-exclusive-option-free-un",
+    "title": "CVE-2026-31680 - kernel: net: ipv6: flowlabel: defer exclusive option free un",
+    "description": "[Red Hat] kernel: net: ipv6: flowlabel: defer exclusive option free until RCU teardown. Bugzilla: 2461764",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-14-cve-2026-31677-kernel-crypto-af-alg-limit-rx-sg-extraction-by-receive-b",
+    "title": "CVE-2026-31677 - kernel: crypto: af_alg - limit RX SG extraction by receive b",
+    "description": "[Red Hat] kernel: crypto: af_alg - limit RX SG extraction by receive buffer budget. Bugzilla: 2461763",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-15-cve-2026-31679-kernel-openvswitch-validate-mpls-set-set-masked-payload-le",
+    "title": "CVE-2026-31679 - kernel: openvswitch: validate MPLS set/set_masked payload le",
+    "description": "[Red Hat] kernel: openvswitch: validate MPLS set/set_masked payload length. Bugzilla: 2461762",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-16-cve-2026-31678-kernel-openvswitch-defer-tunnel-netdev-put-to-rcu-release",
+    "title": "CVE-2026-31678 - kernel: openvswitch: defer tunnel netdev_put to RCU release",
+    "description": "[Red Hat] kernel: openvswitch: defer tunnel netdev_put to RCU release. Bugzilla: 2461761",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-17-cve-2026-31675-kernel-net-sched-sch-netem-fix-out-of-bounds-access-in-pa",
+    "title": "CVE-2026-31675 - kernel: net/sched: sch_netem: fix out-of-bounds access in pa",
+    "description": "[Red Hat] kernel: net/sched: sch_netem: fix out-of-bounds access in packet corruption. Bugzilla: 2461760",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-18-cve-2026-31685-kernel-netfilter-ip6t-eui64-reject-invalid-mac-header-for",
+    "title": "CVE-2026-31685 - kernel: netfilter: ip6t_eui64: reject invalid MAC header for",
+    "description": "[Red Hat] kernel: netfilter: ip6t_eui64: reject invalid MAC header for all packets. Bugzilla: 2461759",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-19-cve-2026-31674-kernel-netfilter-ip6t-rt-reject-oversized-addrnr-in-rt-mt",
+    "title": "CVE-2026-31674 - kernel: netfilter: ip6t_rt: reject oversized addrnr in rt_mt",
+    "description": "[Red Hat] kernel: netfilter: ip6t_rt: reject oversized addrnr in rt_mt6_check(). Bugzilla: 2461758",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-20-cve-2026-31684-kernel-net-sched-act-csum-validate-nested-vlan-headers",
+    "title": "CVE-2026-31684 - kernel: net: sched: act_csum: validate nested VLAN headers",
+    "description": "[Red Hat] kernel: net: sched: act_csum: validate nested VLAN headers. Bugzilla: 2461757",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-21-cve-2026-31683-kernel-batman-adv-avoid-ogm-aggregation-when-skb-tailroom",
+    "title": "CVE-2026-31683 - kernel: batman-adv: avoid OGM aggregation when skb tailroom ",
+    "description": "[Red Hat] kernel: batman-adv: avoid OGM aggregation when skb tailroom is insufficient. Bugzilla: 2461756",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-22-cve-2026-31676-kernel-rxrpc-only-handle-response-during-service-challenge",
+    "title": "CVE-2026-31676 - kernel: rxrpc: only handle RESPONSE during service challenge",
+    "description": "[Red Hat] kernel: rxrpc: only handle RESPONSE during service challenge. Bugzilla: 2461755",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-23-cve-2026-31682-kernel-bridge-br-nd-send-linearize-skb-before-parsing-nd",
+    "title": "CVE-2026-31682 - kernel: bridge: br_nd_send: linearize skb before parsing ND ",
+    "description": "[Red Hat] kernel: bridge: br_nd_send: linearize skb before parsing ND options. Bugzilla: 2461754",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-24-cve-2026-31681-kernel-netfilter-xt-multiport-validate-range-encoding-in",
+    "title": "CVE-2026-31681 - kernel: netfilter: xt_multiport: validate range encoding in ",
+    "description": "[Red Hat] kernel: netfilter: xt_multiport: validate range encoding in checkentry. Bugzilla: 2461753",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-25-cve-2026-31673-kernel-af-unix-read-unix-diag-vfs-data-under-unix-state-lo",
+    "title": "CVE-2026-31673 - kernel: af_unix: read UNIX_DIAG_VFS data under unix_state_lo",
+    "description": "[Red Hat] kernel: af_unix: read UNIX_DIAG_VFS data under unix_state_lock. Bugzilla: 2461752",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-26-cve-2026-3006-winfsp-winfsp-local-privilege-escalation-via-race-conditio",
+    "title": "CVE-2026-3006 - winfsp: winfsp: Local privilege escalation via race conditio",
+    "description": "[Red Hat] winfsp: winfsp: Local privilege escalation via race condition and kernel heap overflow. Bugzilla: 2463150",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-27-cve-2017-2456",
+    "title": "CVE-2017-2456",
+    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. watchOS before 3.2 is affected. The issue involves the \"Kernel\" component. A race condition allows attackers to execute arbitrary code in a privileged context via a crafted app.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-28-cve-2017-2451",
+    "title": "CVE-2017-2451",
+    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. watchOS before 3.2 is affected. The issue involves the \"Security\" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (buffer overflow) via a crafted app.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-29-cve-2017-2450",
+    "title": "CVE-2017-2450",
+    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. watchOS before 3.2 is affected. The issue involves the \"CoreText\" component. It allows remote attackers to obtain sensitive information or cause a denial of service (out-of-bounds read and application crash) via a crafted font file.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-30-cve-2017-2449",
+    "title": "CVE-2017-2449",
+    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"Bluetooth\" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (use-after-free) via a crafted app.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-31-cve-2017-2448",
+    "title": "CVE-2017-2448",
+    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. The issue involves the \"Keychain\" component. It allows man-in-the-middle attackers to bypass an iCloud Keychain secret protection mechanism by leveraging lack of authentication for OTR packets.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-32-cve-2017-2443",
+    "title": "CVE-2017-2443",
+    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"Intel Graphics Driver\" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-33-cve-2017-2441",
+    "title": "CVE-2017-2441",
+    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. watchOS before 3.2 is affected. The issue involves the \"libc++abi\" component. A use-after-free vulnerability allows remote attackers to execute arbitrary code via a crafted C++ app that is mishandled during demangling.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-34-cve-2017-2440",
+    "title": "CVE-2017-2440",
+    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. watchOS before 3.2 is affected. The issue involves the \"Kernel\" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (integer overflow) via a crafted app.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-35-cve-2017-2439",
+    "title": "CVE-2017-2439",
+    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. watchOS before 3.2 is affected. The issue involves the \"FontParser\" component. It allows remote attackers to obtain sensitive information or cause a denial of service (out-of-bounds read and application crash) via a crafted font file.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-36-cve-2017-2438",
+    "title": "CVE-2017-2438",
+    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"AppleRAID\" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (use-after-free) via a crafted app.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-37-cve-2017-2437",
+    "title": "CVE-2017-2437",
+    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"IOFireWireAVC\" component. It allows local users to gain privileges or cause a denial of service (memory corruption) via unspecified vectors.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-38-cve-2017-2436",
+    "title": "CVE-2017-2436",
+    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"IOFireWireAVC\" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-39-cve-2017-2435",
+    "title": "CVE-2017-2435",
+    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. watchOS before 3.2 is affected. The issue involves the \"CoreText\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted font file.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-40-cve-2017-2432",
+    "title": "CVE-2017-2432",
+    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. watchOS before 3.2 is affected. The issue involves the \"ImageIO\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted JPEG file.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-41-cve-2017-2431",
+    "title": "CVE-2017-2431",
+    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"CoreMedia\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted .mov file.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-42-cve-2017-2430",
+    "title": "CVE-2017-2430",
+    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. watchOS before 3.2 is affected. The issue involves the \"Audio\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted audio file.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-43-cve-2017-2429",
+    "title": "CVE-2017-2429",
+    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"FinderKit\" component. It allows remote attackers to bypass intended access restrictions in opportunistic circumstances by leveraging unexpected permission changes during an iCloud Sharing Send Link action.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-44-cve-2017-2428",
+    "title": "CVE-2017-2428",
+    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. watchOS before 3.2 is affected. The issue involves nghttp2 before 1.17.0 in the \"HTTPProtocol\" component. It allows remote HTTP/2 servers to have an unspecified impact via unknown vectors.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-45-cve-2017-2427",
+    "title": "CVE-2017-2427",
+    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"Bluetooth\" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-46-cve-2017-2426",
+    "title": "CVE-2017-2426",
+    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"iBooks\" component. It allows remote attackers to obtain sensitive information from local files via a file: URL in an iBooks file.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-47-cve-2017-2425",
+    "title": "CVE-2017-2425",
+    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"SecurityFoundation\" component. A double free vulnerability allows remote attackers to execute arbitrary code via a crafted certificate.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-48-cve-2017-2423",
+    "title": "CVE-2017-2423",
+    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. The issue involves the \"Security\" component. It allows remote attackers to bypass intended access restrictions by leveraging a successful result from a SecKeyRawVerify API call with an empty signature.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-49-cve-2017-2422",
+    "title": "CVE-2017-2422",
+    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"Multi-Touch\" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-50-cve-2017-2421",
+    "title": "CVE-2017-2421",
+    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"AppleGraphicsPowerManagement\" component. A race condition allows attackers to execute arbitrary code in a privileged context via a crafted app.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-troubleshooting-1-v2ex-偶然看到一篇文章-文化已死-当绝大多数人听的音乐-读的书都来自-10-年前-给大家推荐一下-非常值得一看",
+    "title": "[V2EX] 偶然看到一篇文章《文化已死：当绝大多数人听的音乐，读的书都来自 10 年前》，给大家推荐一下，非常值得一看",
+    "description": "先说一下我的读后感，就是恍然大悟的感觉，当然，因为我已经奔 50 了，所以听的音乐大概是 2 、30 年前的。\n看的书倒是大部分是新书，因为我经常是在 YouTube 上看到了感兴趣的书的介绍，然后再去看，最近看完的书《制度基因》是 25 年出版的。\n文中最后一句：在这个宣称“文化自信”的国家，文化已经死了。振聋发聩，不知该作何感想。\n原文地址： https://chinadigitaltimes.net/chinese/726807.html",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.v2ex.com/t/1208941#reply3"
+  },
+  {
+    "slug": "system-troubleshooting-2-v2ex-claude-code-的-designs-和-routines-居然是独立额度-我的-claude-pro-订阅又升值了",
+    "title": "[V2EX] Claude code 的 Designs 和 Routines 居然是独立额度，我的 Claude Pro 订阅又升值了",
+    "description": "以前只看 chat 的 Claude Code session ，今天才发现 Design 拿来做原型或者 slides ，Routines 拿来跑周期任务，居然都是独立额度，白赚一个额外的调用池子啊，香。",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.v2ex.com/t/1208965#reply0"
+  },
+  {
+    "slug": "system-troubleshooting-3-v2ex-快连停止了中国大陆地区的业务运营",
+    "title": "[V2EX] 快连停止了中国大陆地区的业务运营",
+    "description": "https://letsvpn.world/blog/c130bd",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.v2ex.com/t/1208980#reply0"
+  },
+  {
+    "slug": "system-troubleshooting-4-v2ex-开源了一个-macos-小工具-betterclicker-把快捷键映射成指定应用里的点击操作",
+    "title": "[V2EX] 开源了一个 macOS 小工具 BetterClicker：把快捷键映射成指定应用里的点击操作",
+    "description": "为了在 macOS 上愉快的刷 iPad 版的小红书，我 Vibe 了这个东西，可以把鼠标点击操作转为快捷键，比如 Esc 映射为返回按钮的位置，如果想用在网页上的话，网页支持 PWA 的话，也是能正确识别 App 实现分应用配置的。比较适合的场景比如：-某些不支持快捷键的 iPhone/iPad App-重复点击返回、确认、切换之类的位置地址： https://github.com/ikanam/BetterClicker",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.v2ex.com/t/1205553#reply0"
+  },
+  {
+    "slug": "system-troubleshooting-5-v2ex-求助-mbp-m1-合盖不熄屏",
+    "title": "[V2EX] 求助： mbp m1 合盖不熄屏",
+    "description": "1. 左上角休眠按钮被禁用2. 天才吧没看出什么问题，让我重装。测试硬件正常3. 新建账号问题依旧有没有遇到过的 v 友指点一下，如需什么细节我再提供",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.v2ex.com/t/1208919#reply7"
+  },
+  {
+    "slug": "system-troubleshooting-6-uploading-backup-to-new-phone-without-the-old-one-around",
+    "title": "Uploading backup to new phone without the old one around.",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sx5byu/uploading_backup_to_new_phone_without_the_old_one/"
+  },
+  {
+    "slug": "system-troubleshooting-7-iphone-16-plus-battery-issue",
+    "title": "iPhone 16 Plus Battery Issue?",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxbtzh/iphone_16_plus_battery_issue/"
+  },
+  {
+    "slug": "system-troubleshooting-8-new-crp-ipad-air-5-can-t-connect-to-wifi-anymore",
+    "title": "New CRP Ipad Air 5 can't connect to wifi anymore",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxc5qc/new_crp_ipad_air_5_cant_connect_to_wifi_anymore/"
+  },
+  {
+    "slug": "system-troubleshooting-9-connector-video-lightning-assistance",
+    "title": "Connector video lightning assistance⚡",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxcbcf/connector_video_lightning_assistance/"
+  },
+  {
+    "slug": "system-troubleshooting-10-are-these-real-i-saw-the-post-about-the-fake-airpods-that-were-wrapped",
+    "title": "Are these real? I saw the post about the fake airpods that were wrapped",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxcnbg/are_these_real_i_saw_the_post_about_the_fake/"
+  },
+  {
+    "slug": "system-troubleshooting-11-need-a-a1706-ssd-with-decent-specs",
+    "title": "Need a A1706 SSD with decent specs",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxczza/need_a_a1706_ssd_with_decent_specs/"
+  },
+  {
+    "slug": "system-troubleshooting-12-selling-used-airpods-pro-1-expected-price",
+    "title": "Selling used AirPods Pro 1. Expected price?",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sx39r3/selling_used_airpods_pro_1_expected_price/"
+  },
+  {
+    "slug": "system-troubleshooting-13-how-do-i-fix-the-screentime-bug-for-every-site-visited-during-downtime",
+    "title": "How do I fix the screentime bug for every site visited during downtime?",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxdsur/how_do_i_fix_the_screentime_bug_for_every_site/"
+  },
+  {
+    "slug": "system-troubleshooting-14-i-m-asking-because-i-m-from-another-country-and-i-m-having-it-shipped-through-a-company",
+    "title": "I'm asking because I'm from another country and I'm having it shipped through a company",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxdx91/im_asking_because_im_from_another_country_and_im/"
+  },
+  {
+    "slug": "system-troubleshooting-15-apple-support-here-apple-id-confirmation-constantly-getting-those-texts-did-anyone-experienced-it",
+    "title": "“Apple Support here – Apple ID confirmation.” constantly getting those texts - did anyone experienced it?",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxe2we/apple_support_here_apple_id_confirmation/"
+  },
+  {
+    "slug": "system-troubleshooting-16-will-this-ram-work-on-my-late-2012-mac-mini-model-a1347",
+    "title": "Will this ram work on my late 2012 mac mini model A1347?",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxe626/will_this_ram_work_on_my_late_2012_mac_mini_model/"
+  },
+  {
+    "slug": "system-troubleshooting-17-what-is-the-recommended-way-to-setup-a-hyperkey-on-capslco",
+    "title": "What is the recommended way to setup a Hyperkey on CapsLco?",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxeugn/what_is_the_recommended_way_to_setup_a_hyperkey/"
+  },
+  {
+    "slug": "system-troubleshooting-18-unable-to-access-mail",
+    "title": "unable to access mail",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxfnf8/unable_to_access_mail/"
+  },
+  {
+    "slug": "system-troubleshooting-19-trying-to-get-a-4-monitor-set-up-going-off-a-single-thunderbolt-dock",
+    "title": "Trying to get a 4 monitor set up going off a single thunderbolt dock",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxfvhd/trying_to_get_a_4_monitor_set_up_going_off_a/"
+  },
+  {
+    "slug": "system-troubleshooting-20-something-wrong-with-battery",
+    "title": "Something wrong with battery?",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxfww5/something_wrong_with_battery/"
+  },
+  {
+    "slug": "system-troubleshooting-21-cloud-status-stuck-on-waiting",
+    "title": "Cloud Status stuck on \"Waiting\"",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxfyrf/cloud_status_stuck_on_waiting/"
+  },
+  {
+    "slug": "system-troubleshooting-22-i-get-repeatedly-signed-off-from-email-accounts-hotmail-and-outlook",
+    "title": "I get repeatedly signed off from email accounts hotmail and outlook",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1swyvax/i_get_repeatedly_signed_off_from_email_accounts/"
+  },
+  {
+    "slug": "system-troubleshooting-23-do-i-have-bad-cases-or-something-else",
+    "title": "Do I have bad cases or something else?",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxgnp6/do_i_have_bad_cases_or_something_else/"
+  },
+  {
+    "slug": "system-troubleshooting-24-iphone-4s-verification-failed-when-putting-in-password",
+    "title": "Iphone 4S Verification failed when putting in password",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxhj3b/iphone_4s_verification_failed_when_putting_in/"
+  },
+  {
+    "slug": "system-troubleshooting-25-issues-playing-some-songs-on-itunes-music-on-macbook-pro",
+    "title": "Issues playing some songs on iTunes/Music on MacBook Pro",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxhw92/issues_playing_some_songs_on_itunesmusic_on/"
+  },
+  {
+    "slug": "system-troubleshooting-26-bought-used-airpod-max-2-s-from-a-friend",
+    "title": "Bought used AirPod Max 2’s from a friend",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxi8p0/bought_used_airpod_max_2s_from_a_friend/"
+  },
+  {
+    "slug": "system-troubleshooting-27-37-gb-systems-storage",
+    "title": "37 gb systems storage",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxigfg/37_gb_systems_storage/"
+  },
+  {
+    "slug": "system-troubleshooting-28-express-return-for-beats-headphones-lost",
+    "title": "express return for beats headphones lost",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxiry2/express_return_for_beats_headphones_lost/"
+  },
+  {
+    "slug": "system-troubleshooting-29-i-have-a-juaupepo-cover-on-my-macbook-is-that-bad",
+    "title": "I have a Juaupepo cover on my macbook, is that bad?",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxdbo0/i_have_a_juaupepo_cover_on_my_macbook_is_that_bad/"
+  },
+  {
+    "slug": "system-troubleshooting-30-apple-account-set-up-with-hotmail-address",
+    "title": "Apple account set up with Hotmail address",
+    "description": "Reddit r/applehelp discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/applehelp/comments/1sx2ef9/apple_account_set_up_with_hotmail_address/"
+  },
+  {
+    "slug": "system-troubleshooting-31-sonoma-help",
+    "title": "Sonoma Help",
+    "description": "Reddit r/MacOSBeta discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1se9qpb/sonoma_help/"
+  },
+  {
+    "slug": "system-troubleshooting-32-wifi-address-constantly-changing-and-kicking-me-off-wifi",
+    "title": "Wifi Address constantly changing and kicking me off wifi",
+    "description": "Reddit r/MacOSBeta discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1sefak2/wifi_address_constantly_changing_and_kicking_me/"
+  },
+  {
+    "slug": "system-troubleshooting-33-issues-force-updating-through-terminal",
+    "title": "Issues force updating through terminal!",
+    "description": "Reddit r/MacOSBeta discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1sg37dj/issues_force_updating_through_terminal/"
+  },
+  {
+    "slug": "system-troubleshooting-34-no-actions-and-clipboard-and-spotlight-settings-forever-loading-screen",
+    "title": "No actions and clipboard and spotlight settings forever loading screen",
+    "description": "Reddit r/MacOSBeta discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1sgxtx7/no_actions_and_clipboard_and_spotlight_settings/"
+  },
+  {
+    "slug": "system-troubleshooting-35-notecalc-notepad-calculator-with-speech-to-text-notes-that-calculate-instantly",
+    "title": "NoteCalc - Notepad Calculator With Speech to Text (Notes that Calculate Instantly)",
+    "description": "Reddit r/MacOSBeta discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1sjgqm0/notecalc_notepad_calculator_with_speech_to_text/"
+  },
+  {
+    "slug": "system-troubleshooting-36-odd-connection-issue-with-macos-26-5",
+    "title": "Odd connection issue with MacOS 26.5",
+    "description": "Reddit r/MacOSBeta discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1sjk2ou/odd_connection_issue_with_macos_265/"
+  },
+  {
+    "slug": "system-troubleshooting-37-second-macos-tahoe-26-5-beta-now-available-for-developers",
+    "title": "Second macOS Tahoe 26.5 Beta Now Available for Developers",
+    "description": "Reddit r/MacOSBeta discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1skhb0h/second_macos_tahoe_265_beta_now_available_for/"
+  },
+  {
+    "slug": "system-troubleshooting-38-mail-on-macos-tahoe-26-5-beta-2-has-issues",
+    "title": "Mail on macOS Tahoe 26.5 Beta 2 has issues",
+    "description": "Reddit r/MacOSBeta discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1skvd44/mail_on_macos_tahoe_265_beta_2_has_issues/"
+  },
+  {
+    "slug": "system-troubleshooting-39-get-lazy-with-lazyvoice",
+    "title": "Get lazy with lazyvoice",
+    "description": "Reddit r/MacOSBeta discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1smptti/get_lazy_with_lazyvoice/"
+  },
+  {
+    "slug": "system-troubleshooting-40-messages-app-crashing-on-macos-26-5-beta-2",
+    "title": "Messages app crashing on macOS 26.5 Beta 2",
+    "description": "Reddit r/MacOSBeta discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1snd1m4/messages_app_crashing_on_macos_265_beta_2/"
+  },
+  {
+    "slug": "system-troubleshooting-41-what-happened-to-mail-in-26-5-2",
+    "title": "What happened to Mail in 26.5.2",
+    "description": "Reddit r/MacOSBeta discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1so6yzl/what_happened_to_mail_in_2652/"
+  },
+  {
+    "slug": "system-troubleshooting-42-if-i-have-a-tm-backup-made-in-26-5-beta-1-can-i-use-it-if-i-want-to-downgrade-to-26-4",
+    "title": "If I have a TM backup made in 26.5 beta 1, can I use it if I want to downgrade to 26.4?",
+    "description": "Reddit r/MacOSBeta discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1softqo/if_i_have_a_tm_backup_made_in_265_beta_1_can_i/"
+  },
+  {
+    "slug": "system-troubleshooting-43-dock-and-auto-hide-and-display-issues",
+    "title": "Dock and “Auto Hide” and display issues",
+    "description": "Reddit r/MacOSBeta discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1so7jpa/dock_and_auto_hide_and_display_issues/"
+  },
+  {
+    "slug": "system-troubleshooting-44-the-rapture-of-the-church-will-take-place-guys-please-repent-your-life-now-after-church-leave-this-world-the-antichrist-will-take-the-power-there-will-be-no-more-peace-chaos-will-begin-all-over-the-world-no-one-will-be-able-to-buy-nor-sell-without-the-microchip-or-mark-of-the-beast-666",
+    "title": "🔥🔥🎤 The rapture of the church will take place guys,👏👏 please repent your life 💥now. After church leave this world the Antichrist will take the power, there will be no more peace, chaos will begin all over the world. No one will be able to buy nor sell without the microchip or mark of the beast 666",
+    "description": "Reddit r/MacOSBeta discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1spfwrk/the_rapture_of_the_church_will_take_place_guys/"
+  },
+  {
+    "slug": "system-troubleshooting-45-trust-chain-trustd-secd-26-5-beta3",
+    "title": "Trust Chain (trustd/secd) 26.5 Beta3",
+    "description": "Reddit r/MacOSBeta discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1srbjb3/trust_chain_trustdsecd_265_beta3/"
+  },
+  {
+    "slug": "system-troubleshooting-46-third-macos-tahoe-26-5-beta-now-available-for-developers",
+    "title": "Third macOS Tahoe 26.5 Beta Now Available for Developers",
+    "description": "Reddit r/MacOSBeta discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1sqw1jy/third_macos_tahoe_265_beta_now_available_for/"
+  },
+  {
+    "slug": "system-troubleshooting-47-macos-26-5-beta-3-mail-is-fixed",
+    "title": "MacOS 26.5 Beta 3 - Mail is fixed",
+    "description": "Reddit r/MacOSBeta discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1sqynjm/macos_265_beta_3_mail_is_fixed/"
+  },
+  {
+    "slug": "system-troubleshooting-48-mac-os-official-apps-not-abble-to-access-internet-on-public-beta-26-5-2",
+    "title": "Mac os official apps not abble to access internet on public beta 26.5.2",
+    "description": "Reddit r/MacOSBeta discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1ssb6r8/mac_os_official_apps_not_abble_to_access_internet/"
+  },
+  {
+    "slug": "system-troubleshooting-49-tahoe-26-5-1-fixes-mail-display-breaks-mail-imap-connections-with-some-3rd-party-security-packages",
+    "title": "Tahoe 26.5.1 - fixes mail display, breaks mail IMAP connections with some 3rd party security packages",
+    "description": "Reddit r/MacOSBeta discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1ssm6e6/tahoe_2651_fixes_mail_display_breaks_mail_imap/"
+  },
+  {
+    "slug": "system-troubleshooting-50-tahoe-26-5-beta-25f5058e-messed-up-safari-app-store-and-mail",
+    "title": "Tahoe 26.5 Beta (25F5058e) messed up Safari, App Store and Mail",
+    "description": "Reddit r/MacOSBeta discussion",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1ssnv01/tahoe_265_beta_25f5058e_messed_up_safari_app/"
+  }
+]
