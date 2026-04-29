@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 602**
+**总计条目 / Total entries: 720**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -12991,5 +12991,2077 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1208877#reply1
+
+---
+
+#### 603. 20+ services get installed automatically and I can't find a way to disable them
+
+**问题描述 / Problem Description**:
+Tags: windows, services | Score: 6 | Views: 1068 | Answers: 1 | Created: 2026-04-02
+
+**解决方案 / Solution**:
+These are legit Per-user services in Windows 10 and upwards. They have a Locally Unique Identifier (LUID) suffix at the end of the name. Their templates are in HKLM\SYSTEM\CurrentControlSet\Services where you can change startup behavior.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936365/20-services-get-installed-automatically-and-i-cant-find-a-way-to-disable-them
+
+---
+
+#### 604. Why is Windows prompting for USB passkey I haven't created?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, security, passkey | Score: 5 | Views: 2795 | Answers: 2 | Created: 2026-02-24
+
+**解决方案 / Solution**:
+I don't know how MS has suddenly decided that I have an active USB passkey. It hasn't. The OS doesn't keep track of any associations with hardware passkeys – they are self-contained devices – so it doesn't really know whether you have one or not. But the OS does know whether you have Windows Hello set up or not. If you don't have Windows Hello, but a program requests to access a passkey, then the only other choice is to prompt you to connect an external key. (On a machine with Bluetooth it would also give you an option between USB and pairing your phone via CaBLE – but on a desktop without Bluetooth it'll directly ask for USB.) More specifically, even if you do have Windows Hello set up, the OS also knows whether it has stored that specific passkey in Hello or not. So if you had some passkeys before, but managed to accidentally reset the Hello storage – as can be guessed from you having to set up a new PIN – then Windows won't be able to satisfy the request by itself and will ask for an external key (because, again, it doesn't know whether you have one). Enabling/disabling "virtualization-based security" (e.g. to use VirtualBox) will reset the Windows Hello passkey storage. Clearing the TPM will also do so (Hello doesn't require a TPM but will use one if available). Note that the use (or non-use) of a USB passkey for Windows itself has no influence on the passkey storage used by other programs. So even if Windows knows that you don't have a USB passkey for the Microsoft Account specifically, it still does not know that you don't have a USB passkey for, say, Discord or whatever website you visited in Vivaldi.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935235/why-is-windows-prompting-for-usb-passkey-i-havent-created
+
+---
+
+#### 605. How to resolve "operation could not be completed because the vhdx is currently in use" for wsl despite prior `wsl.exe --shutdown`?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, wsl2, virtual-disk | Score: 3 | Views: 310 | Answers: 1 | Created: 2026-04-19
+
+**解决方案 / Solution**:
+In my case, I could see that my Virtual Disk was mounted: > Get-Disk | Where-Object Model -match "Virtual Disk" Number Friendly Name Serial Number HealthStatus OperationalStatus Total Size Partition Style ------ ------------- ------------- ------------ ----------------- ---------- ---------- 4 Msft Virtual Disk Healthy Online 1 TB RAW I most likely forgot the detach vdisk after I shrank the virtaul disk with diskpart . One can the dismount that either via: > Dismount-VHD -DiskNumber 4 You could also open diskmgmt.msc via Windows + R, the vdisk will be listed there e.g. as "Disk 4". Right click it and select "Detach VHD". Then: > wsl --manage Debian --set-sparse true --allow-unsafe Conversion in progress, this may take a few minutes. The operation completed successfully.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936864/how-to-resolve-operation-could-not-be-completed-because-the-vhdx-is-currently-i
+
+---
+
+#### 606. With a single window, Firefox quits with CTRL SHIFT Q, but doesn't quit when I close the last window. Is that new and is there a setting?
+
+**问题描述 / Problem Description**:
+Tags: windows, firefox, process | Score: 3 | Views: 496 | Answers: 1 | Created: 2026-04-14
+
+**解决方案 / Solution**:
+What version of Firefox, and for what language, are you using? The Mozilla list for keyboard shortcuts , using English-US language settings , does not list Ctrl Shift Q at all. Ctrl Q is supposed "Quit", but I find that does nothing on my machines running Firefox 149.0.2, neither on Windows nor on Ubuntu 24.04. Your suggestion to use Ctrl Shift Q also does nothing. In the URL bar, type about:config . In the Search bar for the form, enter lastt . Double-click browser.tabs.closeWindowWithLastTab to set it to true . Now, closing the last tab will also close Firefox. However, you state in a comment that Alt F4 , which is listed, does not close Firefox. That key combo is used almost universally in Windows and Linux to end an application. If that fails, then something is seriously wrong. Press Alt , then H and M to restart Firefox in Troubleshooting Mode. If Alt F4 now works to quit the app, look to some extension (perhaps malware) as causing the issue. If Alt F4 still does not work, check in Task Manager to see whether you're the owner of the Firefox process. Also look in Autoruns to see if some automatically started process keeps Firefox running. Perform a thorough check for malware.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936724/with-a-single-window-firefox-quits-with-ctrl-shift-q-but-doesnt-quit-when-i-c
+
+---
+
+#### 607. I want to move taskbar icons on the bar, but they don't stay where I put them. If possible, how do I do this in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, taskbar, icons, shortcuts, user-interface | Score: 2 | Views: 49 | Answers: 1 | Created: 2026-04-05
+
+**解决方案 / Solution**:
+1. Create a new user Open Settings > Accounts > Other User and click Add Account. Note: Windows wants you to use a Microsoft account, but you should be able to choose "Add a user without a Microsoft account" for this test. Reference: Microsoft.Com: Manage User Accounts in Windows 2. Login as the new user and test Sign out of your account and then log in to the account you've just created. Add shortcuts to the taskbar in the new account and rearrange the existing shortcuts, then reboot the computer and few times and see whether the changes you've made revert like they do in your original profile or not. 3. Here's your diagnosis If the taskbar behaves correctly in the new profile and remembers your shortcut movements, the problem is with your profile. Backup your data and transfer it to the new user account. If you have a Microsoft account, consider recreating that Microsoft account user using the same instructions in Step 1 above. If you observe the same incorrect behavior in this new account as you do in your other account, the problem is in your OS and you should follow standard Windows Repair steps. Microsoft.com: Fix issues by reinstalling the current version of Windows
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936460/i-want-to-move-taskbar-icons-on-the-bar-but-they-dont-stay-where-i-put-them-i
+
+---
+
+#### 608. How do I hide the "What's New in Notepad" megaphone icon in Notepad?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, user-interface, notepad | Score: 2 | Views: 115 | Answers: 1 | Created: 2026-03-20
+
+**解决方案 / Solution**:
+There's no official way to remove that icon; it's part of the Microsoft UI. It might be possible to do it with some hack found on internet, but that's probably not a good idea(things like this, sometimes involve change app files manually, and can break it). The best solution is to switch to another app(like the old Notepad, for example).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936034/how-do-i-hide-the-whats-new-in-notepad-megaphone-icon-in-notepad
+
+---
+
+#### 609. Can I use a Windows 10 SSD as an external boot drive without reinstalling?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, ubuntu, ssd, dualboot | Score: 1 | Views: 43 | Answers: 1 | Created: 2026-04-28
+
+**解决方案 / Solution**:
+Your second idea, migrating the existing Win 10 installation to a new SSD, should be simple. Make a full drive image of the existing Win 10 SSD using any convenient tool, such as Macrium Reflect Free or alternative . (BTW, though Windows tools, those apps also can image, though not view, Ubuntu ext4 and other partitions.) Make a bootable USB device with the imaging tool, such as Macrium Rescue Environment . Put the new, larger, internal SSD in place. Remove all partitions, making it all unallocated space. Using the bootable USB device, restore the full image (all partitions) to the new SSD . After the image is restored, the PC should boot Windows 10 just as it had before. The new SSD should also have unallocated space after Windows and its auxiliary partitions. You can use that space for data (e.g., create NTSF partition and move Documents, Music, etc. to it ) or merge that space with the last partition (hopefully, Windows 10 C:). A way to make the new SSD a bootable Win 10 device, whether external or internal, in one step, is to put it in an external enclosure, connect it to the PC, and use Hasleo's WinToUSB . That said, I've not tried mounting the SSD internally to boot automatically, as opposed to selecting it from bootable devices. N.B.: Data stored on SSD is volatile , and, left unpowered , might last six months or a year before starting to fade. If you decide to remove the old SSD but keep data, don't expect archival storage.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937128/can-i-use-a-windows-10-ssd-as-an-external-boot-drive-without-reinstalling
+
+---
+
+#### 610. Some apps resets autostart to "inactive" after new login
+
+**问题描述 / Problem Description**:
+Tags: windows, autostart | Score: 1 | Views: 45 | Answers: 1 | Created: 2026-04-20
+
+**解决方案 / Solution**:
+noshow.exe is a helper application that runs the main f.lux binary with the /noshow argument ( source ). That it is missing indicates a failed install. Given that you've reported there are similar messages and errors from multiple applications installed from the Store, this is more likely an OS issue. Repair Windows using the built-in tools. Settings > System > Recovery Run the first option, "Repair Windows without resetting your PC" first. If that does not resolve the issue, you can try the second option "Fix problems using Windows Update", which completes a full reinstall but keeps your user profile and installed applications untouched.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936880/some-apps-resets-autostart-to-inactive-after-new-login
+
+---
+
+#### 611. What is "QueryOpen" in Sysinternals Process Monitor?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11 | Score: 1 | Views: 64 | Answers: 3 | Created: 2026-04-03
+
+**解决方案 / Solution**:
+It seems to me that this is short for FastIoQueryOpen , one of the FastIo* operations that each filesystem driver implements – i.e. part of the internal Windows API between the kernel and the filesystems, which happens to be exactly where the ProcMon filter driver sits as well. (Or, upon a closer look, it might be specifically a filesystem filter driver API. Not clear to me.) The function is supposed to return a FILE_NETWORK_OPEN_INFORMATION structure containing the file's size and timestamps. In the leaked WinXP source code, several places document implementations of this function as: Routine Description: This routine is the fast I/O "pass through" routine for opening a file and returning network information [on] it. I'm not sure what makes it specific to network filesystems – the internal Windows kernel filesystem interfaces operate very differently from what I'm familiar with – but I am guessing it has something to do with the fact that Windows interfaces generally operate on file handles instead of being path-based (e.g. even to delete a file, internally this involves opening it, marking it as "delete-on-close", then closing) whereas network FS protocols often can retrieve file metadata by path without having to open that file at all, . But that's a wild guess from quickly skimming the source code. https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/ns-wdm-_fast_io_dispatch https://learn.microsoft.com/is-is/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-network-query-open https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_network_open_information
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936389/what-is-queryopen-in-sysinternals-process-monitor
+
+---
+
+#### 612. I used the "nuclear option" to get rid of Windows 11 S mode on HP laptop, network drivers aren't loading nor installable
+
+**问题描述 / Problem Description**:
+Tags: networking, laptop, drivers, windows-11 | Score: 1 | Views: 122 | Answers: 1 | Created: 2026-03-31
+
+**解决方案 / Solution**:
+The OP states the HP laptop is a "14-ep2011wm". HP support states this is either "B5VU3UA" or "B5VU3UAR" (where "R" means refurbished). HP offers product support here or "B5VU3UA" and here for "B5VU3UAR". HP shows the "B5VU3UA" has a Realtek WLAN, while the WLAN manufacturer is not given for the "B5VU3UAR". For WLAN drivers, HP offers the same WLAN downloads for the current Windows 25H2 release. This would be sp155768.exe for Realtek and sp165524.exe for MediaTek. These executables have to first be run to get the WLAN drivers. The default is to write the drivers to the C:\SWSetup folder. Before selecting an folder to search for a WLAN driver, the OP needs to complete one of the the options given below. Option 1: Use another Windows machine. Find another Windows machine where you can run both sp155768.exe and sp165524.exe . Copy the SWSetup folder to the flash drive, then select this folder to search for a WLAN driver. Option 2: Open a Command Prompt window. Press the key combination shift + F10 to open a Command Prompt window. Run both sp155768.exe and sp165524.exe . Select the SWSetup folder to search for a WLAN driver. If Windows is in S mode, then this option will not be available. Option 3: Open a Command Prompt window while booted to Windows Recovery. Press the key combination control + shift + F3 to switch to Audit mode. Once in Audit mode, boot to Windows Recovery by holding down a shift key while rebooting. While in Windows Recovery, open a Command Prompt window and run both sp155768.exe and sp165524.exe . Boot back to Audit mode and press the "OK" button on the System Preparation Tool popup. The computer will boot to the Out-of-Box Experience (OOBE). When asked to install a WLAN driver, select to search the SWSetup folder.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936311/i-used-the-nuclear-option-to-get-rid-of-windows-11-s-mode-on-hp-laptop-networ
+
+---
+
+#### 613. How to work around "Windows cannot find 'ocsetup'."
+
+**问题描述 / Problem Description**:
+Tags: installation, windows-11, compatibility | Score: 1 | Views: 106 | Answers: 1 | Created: 2026-03-23
+
+**解决方案 / Solution**:
+"ocsetup" is the Optional Components utility . It is found on the Windows Server OSes. Looking at the system support matrix for Dell OpenManage, which I am familiar with and have worked with before, it only supports running on Server OSes. You cannot run it on a desktop OS. You could try building a VM of a server OS. They all come with extended trial periods. But, I would step backwards a bit and re-question why you believe OpenManage is the right solution. OpenManage is a pretty complex and extensive network device management toolset, but depending on why you're having trouble updating your printer's firmware, it may not be a solution for you. I recommend asking another question about updating your printer's firmware so we can help you with that problem.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936076/how-to-work-around-windows-cannot-find-ocsetup
+
+---
+
+#### 614. The "Dates modified" of folders synced to OneDrive changed to the syncing time. Can I reverse/stop this without OneDrive just readjusting them again?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, backup, ntfs, microsoft-onedrive, metadata | Score: 1 | Views: 124 | Answers: 1 | Created: 2026-02-26
+
+**解决方案 / Solution**:
+Unless you have some sort of filesystem change logging, there will not be previous values you can restore the Date Modified values to. Date Modified tracks more than just file changes. OneDrive's normal operation updates the folders in ways that triggers this value being updated. You "strongly oppos(ing)" dates being modified by this sync tool (that's what it is, it is not a backup solution) doesn't really register. It is doing what it is intended to do, in the manner it is intended to do it. OneDrive does not present options allowing you to change this behavior while it is carrying out its tasks. If you wish to have a backup tool that does not update the Date Modified values, you'll need to choose a tool that does that and not use OneDrive.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935315/the-dates-modified-of-folders-synced-to-onedrive-changed-to-the-syncing-time
+
+---
+
+#### 615. Why am I unable to activate H&R Block tax software? Some screens are missing
+
+**问题描述 / Problem Description**:
+Tags: windows-10, installation, software-activation | Score: 1 | Views: 329 | Answers: 1 | Created: 2026-01-30
+
+**解决方案 / Solution**:
+After many repeated attempts to download H&R Block Tax software files and install them, I finally noticed that Microsoft Edge is listed as a requirement . Edge is installed on this PC, but was disabled, as well as the associated Edge WebView2 browser component. This application is built on WebView2, and without it, only shows the surrounding window that hosts that browser component, which does all the work. Remedy Enable (or reinstall) Microsoft Edge and WebView2 and then install the application. WebView2 must be enabled while the software is running (though not Edge, per se ), but can safely be disabled, e.g., by Sordum's Edge Blocker after the app is shut down. The screenshot below shows how the app should look. Note to H&R Developers It would save a lot of time for Support staff if the main screen displayed a static image, i.e., served as a splash screen, with text similar to "WebView is starting...". As soon as MS WebView2 starts, that would be hidden, and if WebView2 cannot start, it gives Support a course to remedy the issue.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934352/why-am-i-unable-to-activate-hr-block-tax-software-some-screens-are-missing
+
+---
+
+#### 616. Can I force a user to run a process?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, user-accounts, process | Score: 0 | Views: 23 | Answers: 1 | Created: 2026-04-29
+
+**解决方案 / Solution**:
+You can force a process to always run, but if the user runs the process, the user can stop it . Instead, it appears you want a process running under an operating system user, not the individual's credentials, as shown in Task Manager, below. Notice that dasHost.exe is a Windows Service, run by user LOCAL SERVICE ; dllhost.exe is owned by SYSTEM , etc. Only eplorer.exe , in that screenshot, is owned by local user DrMP . DrMP can stop Explorer, but, unless that user is an administrator, cannot stop the other four shown. If you have the knowledge and ability to implement your own parental control application, one way to make it run without user intervention or user control is to write it as a Windows Service. There are tutorials at flukus , Reintech , ThoughtCo , C# Corner , etc. If you want that service to run only when a particular user is logged in then that might take additional work.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937171/can-i-force-a-user-to-run-a-process
+
+---
+
+#### 617. Windows batch files: popd returns 0 error code but still triggers || conditional execution
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, command-line, batch-file | Score: 0 | Views: 35 | Answers: 1 | Created: 2026-04-21
+
+**解决方案 / Solution**:
+Unless I am doing something wrong, || conditional execution operator is useless for checking the outcome of the popd command You are doing something wrong. popd is failing as you have not pushed a directory, so there is no directory to pop. If you add a directory to push to pushd your script works as expected. Alternatively, use setlocal EnableDelayedExpansion and popd will return an error as per your specific use case. Example: @echo off setlocal EnableDelayedExpansion @pushd || (@echo pushd failed with !errorlevel! & @goto Error) @popd || (@echo popd failed with !errorlevel! & @goto Error) :: ===== Success termination point ===== @echo SUCCESS! @exit /b 0 :: ===== Failure termination point ===== :Error @echo FAILURE @exit /b 1 Output: F:\test>test popd failed with 1 FAILURE Further Reading An A-Z Index of the Windows CMD command line | SS64.com Windows CMD Commands (categorized) - Windows CMD - SS64.com parsing - How does the Windows Command Interpreter (CMD.EXE) parse scripts? - Stack Overflow EnableDelayedExpansion - Windows CMD - SS64.com Pushd - change directory/folder - Windows CMD - SS64.com Popd - Windows CMD - SS64.com
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936942/windows-batch-files-popd-returns-0-error-code-but-still-triggers-conditional
+
+---
+
+#### 618. If any Python process is running, keep the screen on - Windows 11
+
+**问题描述 / Problem Description**:
+Tags: windows-11, python, process, power-management | Score: 12 | Views: 1621 | Answers: 2 | Created: 2026-03-01
+
+**解决方案 / Solution**:
+https://github.com/wakepy/wakepy $ pip install wakepy from wakepy import keep with keep.presenting(): ... It does the same thing @FranckDernoncourt did but is cross-platform and concise. I always use with keep.running(): because I'm not interested in imaging or progress-reporting, just need results of long computation.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935419/if-any-python-process-is-running-keep-the-screen-on-windows-11
+
+---
+
+#### 619. What is the default keyboard shortcut to split a pane in Microsoft Terminal?
+
+**问题描述 / Problem Description**:
+Tags: windows, terminal | Score: 8 | Views: 679 | Answers: 2 | Created: 2026-03-20
+
+**解决方案 / Solution**:
+On my default install there isn't a default keyboard shortcut for any of the Split Pane actions so one would have to be manually assigned. You can open Settings, click on Actions and look in that list. If any of the Split Pane... actions show up then there is a keyboard shortcut for it and you can use it or replace it with a new one of your choice. If not, then you can click Add New at the top and define one. Edit Regarding your edit and screenshot, you have Split Down as Alt Shift - (Alt-Shift-Minus) Split Right as Alt Shift + (Alt-Shift-Plus) With Split Pane, there are multiple options for that command. If you click on the > (which is a sub-menu) then you should see what the options are. For Split Pane, each shell will have different options. Here is what happens in mine when I click the > on Split Pane Edit 2 When I tried adding a keybinding for Split Pane it resulted in an entry under keybindings with "null" as the id. Do you see the same thing with yours?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936032/what-is-the-default-keyboard-shortcut-to-split-a-pane-in-microsoft-terminal
+
+---
+
+#### 620. How to list all saved WiFi profiles in Windows 10? (“netsh wlan show profiles” isn't enough)
+
+**问题描述 / Problem Description**:
+Tags: windows-10, wifi-configuration | Score: 8 | Views: 1291 | Answers: 1 | Created: 2026-01-14
+
+**解决方案 / Solution**:
+You can use the free tool WirelessKeyView from NirSoft to view all Windows 10/11 wifi passwords stored in the wifi profile xml files under C:\ProgramData\Microsoft\Wlansvc\Profiles\Interfaces\{Interface GUID} . It's distributed as a protected wirelesskeyview-x64.zip file with password WKey4567# . Hashes and scan of currently latest v2.23 from 2023. ( via ) You might get warnings from antivirus software and not see passwords stored elsewhere .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933690/how-to-list-all-saved-wifi-profiles-in-windows-10-netsh-wlan-show-profiles-i
+
+---
+
+#### 621. Why is the expected behavior of `Culture` vs. `UICulture` in Windows and Office display languages not consistent?
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, microsoft-office | Score: 7 | Views: 444 | Answers: 3 | Created: 2026-02-25
+
+**解决方案 / Solution**:
+Yes, it's expected behavior since they are two separate things, even though a lot of them share the same name: UICulture : The actual Windows language, used for any wording you see in the OS and on supported software. These require installing a language pack Culture : The default Windows regional formatting rules, mostly used for dates, times, currency, etc. No additional installation is required The "Display Language" is just a defined combo of the two. Users can change individual regional format settings from the defaults (like only changing the short date patterns). Setting a specific culture\region is just easier than changing 100 different rules
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935289/why-is-the-expected-behavior-of-culture-vs-uiculture-in-windows-and-office
+
+---
+
+#### 622. Why does a Plantronics Poly C5200/C5220 drop out a few times a day on Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: usb, audio, windows-11, poly | Score: 6 | Views: 499 | Answers: 1 | Created: 2026-02-26
+
+**解决方案 / Solution**:
+Finally fixed this by having Copilot analyse USB/Services/Audio Endpoint states in a working and non-working state. Based on this and some advice from Gemini, I found that this worked and has been stable a few days. System > Sound > More Sound Settings In both record and playback tabs, find the Plantronics device Properties > Advanced Uncheck "Allow applications to take exclusive control of this device" Sources cited: https://docs.natterbox.com/docs/disable-exclusive-mode-windows-11 https://h30434.www3.hp.com/t5/USB-Headsets/Can-t-hear-myself-during-conversation/td-p/9511489 https://learn.microsoft.com/en-us/answers/questions/4423056/teams-audio-problems-wired-and-wireless-headsets
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935325/why-does-a-plantronics-poly-c5200-c5220-drop-out-a-few-times-a-day-on-windows-11
+
+---
+
+#### 623. How to disable Copilot icons/buttons within a Word document?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, microsoft-word-365, microsoft-copilot | Score: 6 | Views: 1391 | Answers: 1 | Created: 2026-02-21
+
+**解决方案 / Solution**:
+Update : this information was not disclosed at the outset, but only added later. In enterprise environments, even given local admin rights, these settings will be different and consumer options will not always be available to you. Enterprise admins will have control over settings via a variety of tools to set domain-wide policies, and these will supersede or revert contrary actions taken by local admins. Original Answer: Microsoft has not currently made it possible to disable that prompt and icon separate from disabling Copilot in Word. This does not disable Copilot outside Office applications, so if you are running Copilot on your computer that will continue running. To disable Copilot inside Work/Office, go to File > Options > Copilot, and uncheck the only option there: Per Microsoft's Documentation , the Copilot checkbox is currently the supported method of disabling this function, and it is only valid when you are signed in to Word using your Microsoft account. While the phrasing is not perfectly clear, this method supersedes the previous method that involved disabling Copilot via the Privacy settings found in File > Account > Account Privacy: This is Word build 2601 (19628.20204 Click-to-run), Current Channel. This Copilot option has been there for a little while, as I disabled it myself several months ago: Update : I have now completed updates and Word shows build 2602 and the Options dialog shows the same options, and the Copilot switch performs the same:
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935136/how-to-disable-copilot-icons-buttons-within-a-word-document
+
+---
+
+#### 624. Very slow to open videos in VLC 3.0.23 (sometimes 10 to 20s!)
+
+**问题描述 / Problem Description**:
+Tags: windows, performance, vlc-media-player, speed | Score: 4 | Views: 1201 | Answers: 1 | Created: 2026-03-20
+
+**解决方案 / Solution**:
+Try downgrading to an earlier version of VLC. I downgraded back to 3.0.22 (just download the exe file and run it). And now the problem is gone (videos once again almost always start within 1s). Notes Of course, this is far from an ideal solution, but it worked for me without too much work. See also this full list of all versions of VLC. Others have reported the same problem: e.g. at this Videolan forum discussion , this Reddit VLC forum discussion . Other suggested fixes (that I didn't try) At the Videolan forum discussion, one developer Steve Lhomme suggests this fix: take just libqt_plugin.dll from 3.0.21 and put it in the 3.0.23 folder (I didn't try the above fix. And, OP there tried it and it didn't work.) Another fix suggested by Steve Lhomme was this: do you have a plugins.dat file in C:\Program Files\VideoLAN\VLC\plugins (default path for a 64-bit version) ? It is (re)generated by the installer. If you just drop the .zip content in one place you won't have to this file. But you can generate it by calling vlc-cache-gen.exe "C:\Program Files\VideoLAN\VLC\plugins" with admin rights. In non protected folders you can just drag & drop the plugins folder on vlc-cache-gen.exe. (I didn't try the above fix. But, OP there tried it and it worked for him.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936009/very-slow-to-open-videos-in-vlc-3-0-23-sometimes-10-to-20s
+
+---
+
+#### 625. How do I disable "Drop here to share" on Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows-11 | Score: 4 | Views: 450 | Answers: 1 | Created: 2026-02-19
+
+**解决方案 / Solution**:
+This is part of the new "Drag Tray" feature. It was introduced in builds around 23/H2 - 24/H2. You can disable the drag tray by going to Settings > Nearby Sharing and disable the Drag Tray option. Something like this:
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935050/how-do-i-disable-drop-here-to-share-on-windows-11
+
+---
+
+#### 626. How to disable the NetBIOS on the Hyper-V default switch?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, hyper-v, netbios | Score: 4 | Views: 195 | Answers: 1 | Created: 2026-01-09
+
+**解决方案 / Solution**:
+I’ve found online that running the command reg add HKLM\SYSTEM\CurrentControlSet\Services\NetBT\Parameters /v NodeType /t REG_DWORD /d 2 /f Will turn off NetBIOS for all adapters. If you need it disabled for just the vEthernet adapter then I think you need a script that runs on system start, but I’m not sure how exactly to target just the default switch.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933497/how-to-disable-the-netbios-on-the-hyper-v-default-switch
+
+---
+
+#### 627. In WSL2 mirrored mode, how does Linux find out about the network devices?
+
+**问题描述 / Problem Description**:
+Tags: linux, windows, windows-subsystem-for-linux, wsl2 | Score: 3 | Views: 87 | Answers: 2 | Created: 2026-03-20
+
+**解决方案 / Solution**:
+I assume in WSL2 there is a VM running an unmodified Linux kernel (rather than a WSL-specific kernel), It's a lightly-modified Linux kernel. It doesn't have to be very WSL-specific the way e.g. coLinux kernels were, but it still has Microsoft's kconfig (such as enabling 9pfs) and patches (such as the DirectX interface). https://learn.microsoft.com/en-us/windows/wsl/kernel-release-notes https://github.com/microsoft/wsl2-linux-kernel https://learn.microsoft.com/en-us/community/content/wsl-user-msft-kernel-v6 As far as I know, all WSL2 distributions boot the same kernel, which comes with Windows rather than any specific distribution image. Yes, you get Linux via Windows Update. so is the hypervisor simulating a subset of a low level hardware interface (and letting normal Linux device kernel modules and daemons, like NetworkManager, behave naturally)? The hypervisor is regular Hyper-V, however, it first boots a " system distribution " which apparently sets up the network and other things, then starts the real distribution in a container. You can get to the former using wsl --system . As far as I know, it handles all the magic behind the more unusual WSL networking modes, as well as injecting Microsoft's 9pfs file server daemon for accessing WSL2 insides from Explorer, as well as Wayland RDP pass-through . As in regular VMs, software within the guest has direct communication with the host through AF_VSOCK of the Hyper-V flavor, so I assume (haven't really checked though) that the "system distribution" receives network interface parameters from the host and then sets up its virtual interfaces accordingly before it starts the actual distribution container. A large chunk of WSL is open-source and you might find the relevant network services here: https://github.com/microsoft/WSL/tree/master/src
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936003/in-wsl2-mirrored-mode-how-does-linux-find-out-about-the-network-devices
+
+---
+
+#### 628. How can I prevent desktop apps from minimizing when switching to the desktop in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, desktop | Score: 3 | Views: 233 | Answers: 1 | Created: 2026-03-14
+
+**解决方案 / Solution**:
+Update Rainmeter to version 4.5.22 (Revision 3835) or newer. This version includes a fix, as per the change log : Rainmeter: Fixed a problem with Windows 11 version 24H2 or later, that didn't allow Rainmeter skins to remain visible when the WIN-D (Show Desktop) function of Windows was used. Alternative, try using using Win + M (minimize all windows, which is a bit different from Win + D ).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935845/how-can-i-prevent-desktop-apps-from-minimizing-when-switching-to-the-desktop-in
+
+---
+
+#### 629. I cloned Windows onto a smaller drive using Linux tools. Why won't it boot?
+
+**问题描述 / Problem Description**:
+Tags: windows, partitioning, gparted, fdisk | Score: 3 | Views: 135 | Answers: 2 | Created: 2026-03-11
+
+**解决方案 / Solution**:
+David Anderson's comment is the kind of answer I was looking for. Here is his comment: When cloning a partition, a new UUID is saved in the GPT. When UEFI booting from the external disk, the BCD file is read which contains the UUID's from the internal drive. Therefore you boot Windows on the internal drive. You need to reinstall the boot files on external drive. This will rebuild the BCD. Here is how I did it. I booted (from my old drive) into the Windows Recovery Environment using Advanced Startup Options. Once in the recovery, I entered the command line and typed diskpart list volume From there, I could see all the disks inside my laptop, followed by a 260 MB FAT32 volume with the drive letter E: , a 929 GB NTFS volume with the drive letter F: , and a 2000 MB NTFS volume with the drive letter G: . These were the partitions on my new, currently external SSD. To build the BCD on the new drive, I exit ed diskpart, then ran the following command: bcdboot F:\Windows /s E: /f ALL The command reported that it completed successfully. When I tried again to boot from the external drive, this time I got a blue screen with a message saying the boot device is not available. According to this Tom's Hardware post , you won't be able to boot from the external drive; you will have to attach it to the motherboard. So I decided to try putting the new disk inside my laptop, and it booted! One problem currently remains: I can see all of the extra partitions in Explorer: I will update this answer if I can figure out how to hide those. Another problem is that I can no longer boot to the Windows Recovery Environment. I will work on that, too. Update: I have solved both of the problems above. The first problem was that GParted did not do a good job of copying partition types and attributes like I thought it would. To fix this, I booted back into Linux and used fdisk to set the partition types to what they were supposed to be. I then booted into Windows and set the attributes on the WinRE partition from diskpart . I almost certainly could have set this attribute from fdisk instead. Likewise, I could have set the partition types from diskpart instead. The partition types needed to be the following: Partition 1: EFI System (c12a7328-f81f-11d2-ba4b-00a0c93ec93b) Partition 2: Microsoft Reserved (e3c9e316-0b5c-4db8-817d-f92df00215ae) Partition 3: Microsoft Basic Data (ebd0a0a2-b9e5-4433-87c0-68b6b72699c7) (I did not need to change this) Partition 4: Windows recovery environment (de94bba4-06d1-4d40-a16a-bfd50179d6ac) The attributes of the WinRE partition (Partition 4) need to be set to 0x8000000000000001 . [ Source 1 ][ Source 2 ] After that, neither of my two problems had been solved yet, but at least the partition table had been configured correctly. Next, I needed to fix the recovery environment. From Windows, I ran the following commands (where F: is the drive letter the WinRE partition was mounted to): reagentc /setreimage /path F:\Recovery\WindowsRE reagentc /enable After this, I could boot into the recovery environment again. But when I went to exit recovery, the button would say "Exit to Windows 11 (partition 3)" as if there were multiple Windows installations. To fix this, I ran bcdboot /bcdclean full from normal Windows. All that was left to do was to hide the disks. Even though I had set the type and attributes of each partition so that Windows was supposed to hide them, they were still getting drive letters. I tried removing the volumes from diskpart and then running automount scrub ; I also tried removing them and running mountvol /r . Neither of these persisted after reboot. I ended up needing to remove the drive assignments from the registry as in this forum post. Specifically, in the registry editor, I navigated to HKEY_LOCAL_MACHINE\SYSTEM\MountedDevices and deleted the \DosDevices\E: and \DosDevices\F: keys. That solved the problem and made the volumes disappear from explorer. I might not have needed to do this step had I given each partition the proper type and attributes before booting the new SSD for the first time.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935747/i-cloned-windows-onto-a-smaller-drive-using-linux-tools-why-wont-it-boot
+
+---
+
+#### 630. How do I disable keyboard shortcut for root folder in 7-Zip file manager?
+
+**问题描述 / Problem Description**:
+Tags: keyboard-shortcuts, windows-11, 7-zip | Score: 3 | Views: 445 | Answers: 3 | Created: 2026-03-03
+
+**解决方案 / Solution**:
+7zip's keyboard shortcuts appear to be hard-coded, or, there does not appear to be any documentation how to modify them. There is also no direct way to go to your previous location, but... To go up one level , use Backspace . To see your folder history when you've made a mistake in your navigation press ALT + F12 . This opens a dialog with a list of the previous folders in that session. You can use Tab and the arrow keys to navigate around this dialog to select the folder you want to go to, and Enter to navigate to the selected folder.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935483/how-do-i-disable-keyboard-shortcut-for-root-folder-in-7-zip-file-manager
+
+---
+
+#### 631. Options to remove/hide Quick Access' pin icon in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, icons, desktop-customization | Score: 2 | Views: 82 | Answers: 1 | Created: 2026-03-15
+
+**解决方案 / Solution**:
+Here is what I figured out myself. Of course, I am still on the look out for a more refined solution from someone with more expertise. Disclaimer: Trusted Installer carries a lot of risks - I know there are communities who will just uncritically shut down any mention of it to be on the safe side. Do every needed backup procedure before proceeding. Requirement: Transparent .ico file (or transparent icon group saved as .res) Resource Hacker (RH) A way to elevate RH to TrustedInstaller Steps For ways to elevate RH to TrustedInstaller, I used Winaero since they have a pretty good record. There is also this alternative that I saw on Github but never tried. The Quick Access Pin is located in C:\Windows\SystemResources\imageres.dll.mun . Navigate to the folder with the elevated RH and open it, the pin is in Icon Group #5100 and the Icon Group folder is the second to last one in the navigation pane to the left. Right click on the icon group and select "Replace Icon", then select the transparent icon you prepared. If you don't have one on hand, you can export the pin icon file and create a transparent version from that. After replacing the pin. Just save directly to the file. You cannot save it as a separate file elsewhere that you can move and replace the original file later, as that would require Explorer to be elevated to TI too. If it doesnt take effect immediately, rebuild your icon cache.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935870/options-to-remove-hide-quick-access-pin-icon-in-windows-11
+
+---
+
+#### 632. How can I set the default Python version that gets launched when typing python3 (On Windows 11)?
+
+**问题描述 / Problem Description**:
+Tags: windows, command-line, python, python3 | Score: 2 | Views: 379 | Answers: 1 | Created: 2026-03-10
+
+**解决方案 / Solution**:
+How can I ensure that when I enter python3 in a CLI prompt that it launches my preferred version of python (3.13)? By altering the environment variable named PATH so that it includes C:\Users\user\AppData\Local\Python\pythoncore-3.13-64 earlier in the path than the location of any other versions of python. Ideally it would be the only occurrence in PATH of a location of a Python version. The others should be omitted. Or ... By removing any Python locations from PATH and creating a python3.cmd file in a location in PATH . For example, I have a scripts folder in my home directory that I include in my PATH . The python3.cmd can temporarily adjust PATH if python needs it to e.g find libraries etc.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935718/how-can-i-set-the-default-python-version-that-gets-launched-when-typing-python3
+
+---
+
+#### 633. Why can't I install MS Paint on Windows 11? I am getting an error 0x80070005
+
+**问题描述 / Problem Description**:
+Tags: windows, microsoft-paint | Score: 2 | Views: 140 | Answers: 1 | Created: 2026-03-01
+
+**解决方案 / Solution**:
+Error 0x80070005 means access denied, typically because of file permissions or missing files for the Microsoft store. Most often it is because there are corrupted files. Press the Windows key + R and type wsreset.exe . Then reopen the Microsoft Store and try installing Paint again. It could also be missing or broken Store components Re-register the Store with PowerShell (run as Administrator): Get-AppxPackage -allusers Microsoft.WindowsStore | Foreach { Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppxManifest.xml"} The Microsoft forum shows it as a general access denied installation issue. Refer to this post on Microsoft’s site . If the problem persists, additional information will be required.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935438/why-cant-i-install-ms-paint-on-windows-11-i-am-getting-an-error-0x80070005
+
+---
+
+#### 634. Task Manager not showing running apps under “Apps” section (Windows 11)
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, process, task-manager | Score: 2 | Views: 330 | Answers: 2 | Created: 2026-02-28
+
+**解决方案 / Solution**:
+I was running DISM /Online /Cleanup-Image /RestoreHealth to fix some system file issues (related to Task Manager not showing apps in the "Apps" section), but it got stuck at exactly 62.3% for a long time (over 60+ minutes in my case) What finally worked for me: Opened elevated Command Prompt (Run as administrator). Ran these commands one by one: net stop wuauserv net stop cryptSvc net stop bits net stop msiserver ren C:\Windows\SoftwareDistribution SoftwareDistribution.old ren C:\Windows\System32\catroot2 Catroot2.old net start wuauserv net start cryptSvc net start bits net start msiserver Run a disk check (bad sectors or file system issues can stall DISM): chkdsk C: /f /r Type Y and restart when prompted. Let it complete (can take 10–60+ minutes).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935392/task-manager-not-showing-running-apps-under-apps-section-windows-11
+
+---
+
+#### 635. Why does Notepad say "The operation completed successfully", when the disk is full?
+
+**问题描述 / Problem Description**:
+Tags: windows, notepad | Score: 2 | Views: 282 | Answers: 1 | Created: 2026-02-27
+
+**解决方案 / Solution**:
+Notepad says "The operation completed successfully" with a warning icon It probably does some intermediate operation that overwrites the "last error code", without properly saving the original error code beforehand. Many of the Windows 'core' library functions share a single global variable to store their error code result – there is a function GetLastError() in Win32, similar to how many things on Linux use the same global errno variable – and care needs to be taken to retrieve it into a variable before the "display error message" code does something else that would overwrite it. For example (I'm looking at one of the 1000 repositories on GitHub that have the leaked WinXP sources, but Notepad's old source code is messy so I don't understand the code flow all that well) it could be like this: SetCursor(hourglass) WriteFile(...) if (GetLastError() != 0) { SetCursor(normal) ShowMessageBox(GetLastError()) } ...and it could be that the SetCursor(normal) sets exactly the same "last error" as WriteFile() does – since it did successfully set the cursor, it would set "last error" to 0 (success), and the code still goes to display the message box even though it no longer knows the original error code that was set by WriteFile. A more correct version would look like: SetCursor(hourglass) WriteFile(...) if (GetLastError() != 0) { write_err = GetLastError() SetCursor(normal) ShowMessageBox(write_err) } I'm not 100% sure if this is the case (again I don't know Win32 programming all that well), but generally speaking that's how you end up with programs reporting "Error: Success" a lot of the time. (Indeed it is even specifically called out in the GetLastError() documentation .) Another similar situation is when the error code is stored in a different place, e.g. some functions take an explicit parameter for the variable in which they'll put the error code instead of setting the "last error", so a program may need to have several slightly different ways to invoke the error dialog box. (Often there are different kinds of error codes too, like how Windows has Win32 errors and NTSTATUS and HRESULT – e.g. if a program calls a function that returns an NTSTATUS error code, but then displays a GetLastError()-based dialog box, the user will see a message completely unrelated to the NTSTATUS.) On disk, it is shown as 0 KB. Looking at the file with Notepad++, it is empty. So actually, the operation wasn't successful at all. Note also that "create/open a file" and "write data to an opened file" are two separate steps, each with its own error checking. It seems this bug only affects errors that occur when writing contents, while errors during open are reported correctly. (In this case, creation succeeds because the MFT still has enough preallocated space to record the file's existence – the metadata is not stored in the same place as the file's contents.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935349/why-does-notepad-say-the-operation-completed-successfully-when-the-disk-is-fu
+
+---
+
+#### 636. Why am I unable to login using Microsoft password with no WiFi?
+
+**问题描述 / Problem Description**:
+Tags: networking, wireless-networking, windows-11, passwords, login | Score: 2 | Views: 118 | Answers: 2 | Created: 2026-02-05
+
+**解决方案 / Solution**:
+Here are a few ways to recover that data. He can contact someone at his base of operations who does have internet access. WiFi is not required; Ethernet is preferable. Login and create a local account . Move all data to that local account. Ship the laptop and login info (sent separately) to a site that does have internet connectivity, have a local account created , have all data and apps copied to the local account, and have the PC sent back. Obviously, that puts all data on that PC at risk , and allows for installation of malware. If the drive is not encrypted, it is possible to use recovery tools such as Live Ubuntu or Hiren’s BootCD PE to salvage data. Then create a local account and move the data to that account. N.B.: In most cases, this will not work because, by default , Windows 11 now automatically encrypts all drives . Since decryption requires MS login, the data will be, literally, indecipherable.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934597/why-am-i-unable-to-login-using-microsoft-password-with-no-wifi
+
+---
+
+#### 637. How to permanently blacklist sound devices in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: audio, windows-11, hdmi, external-display, docking-station | Score: 2 | Views: 171 | Answers: 1 | Created: 2026-02-03
+
+**解决方案 / Solution**:
+You can get immediate result by: Open device manager (by searching on search-bar) Find Audio inputs and outputs Category Disable the Intel(R) Display Audio which is responsible for audio over hdmi to displays. Relevant links What is Intel Display Audio? - answered on 'community.intel.com' by LeonWaksman : The Intel Display Audio signal is transmitted to monitor/TV trough HDMI or DP port. The HDMI/DP cable transfers both signals: video and audio, therefor this signal is a part of Graphics Driver. Disable unnecessary hardware using Windows Device Manager article by www.gigperformer.com Use the Win key + X combination to open the Quick Access Menu and select Device Manager: Review this list and disable any devices that you do not need, such as the Web camera, Bluetooth, DVD/CD-ROM drives, Ethernet or Wireless network adapters, and any other unneeded devices. To disable a device, right click on the device name and click Disable device. If you need that device later, you can re-enable it by right clicking as before and clicking Enable device.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934489/how-to-permanently-blacklist-sound-devices-in-windows-11
+
+---
+
+#### 638. Where can I find drivers for a GlobalSat BU-353 USB GPS receiver on Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: usb, drivers, windows-11, gps | Score: 2 | Views: 301 | Answers: 2 | Created: 2026-01-31
+
+**解决方案 / Solution**:
+Where can I find drivers for a GlobalSat BU-353 USB GPS receiver on Windows 11? "the BU-353 which works with earlier versions of Windows does not work without an elaborate work around involving preventing automatic update of Prolific USB drivers by the OS. It is far easier and more reliable to simply purchase another Windows 10 compatible GPS Puck (similar to the BU-353 S4) and use the associated drivers." From Windows [OpenCPN] . The above link contains a detailed analysis and 4 methods for you to try and get this working.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934383/where-can-i-find-drivers-for-a-globalsat-bu-353-usb-gps-receiver-on-windows-11
+
+---
+
+#### 639. Why does Windows no longer accept the certificate after changing the encryption level for a strongSwan VPN setup?
+
+**问题描述 / Problem Description**:
+Tags: linux, windows, vpn, certificate, strongswan | Score: 1 | Views: 85 | Answers: 1 | Created: 2026-03-19
+
+**解决方案 / Solution**:
+As per @ecdsa comment's, switching to a ECDSA-256 key for the p12 certificate fixed the issue. I cannot comment with absolute certainty on what exactly was a deal breaker for windows, but @ecdsa suggested that the current windows implementation, for the ipsec client, requires such a key for the selected DH group.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935985/why-does-windows-no-longer-accept-the-certificate-after-changing-the-encryption
+
+---
+
+#### 640. Cannot recover Windows 11 password in normal way
+
+**问题描述 / Problem Description**:
+Tags: windows, password-recovery | Score: 1 | Views: 152 | Answers: 1 | Created: 2026-03-13
+
+**解决方案 / Solution**:
+If you can enter recovery mode (e.g., interrupt boot process three times by holding power button): Access Troubleshoot > Advanced options > Command Prompt , then enter: cd Windows/System32 ren utilman.exe utilman1.exe copy cmd.exe utilman.exe exit Continue booting to Windows. At the login screen, select Accessibility . The previous hack now open CMD, rather than utilman.exe. In CMD, enter control userpasswords2 to open User Accounts , where the password can be changed. Afterwards, open CMD as Admin, run del utilman.exe and ren utilman1.exe utilman.exe to "unhack" those files. Use a third-party utility to remove the password: Hiren's BootCD PE , with directions at Web Carpenter . Trinity Rescue Kit , with directions at Rick's Daily Tips . N.B.: These tools worked for local Windows 10 accounts, but I've not tried them on Win 11 (I've moved to Ubuntu, rather than downgrading to Win 11).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935816/cannot-recover-windows-11-password-in-normal-way
+
+---
+
+#### 641. Why can’t I connect to localhost on Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows, localhost | Score: 1 | Views: 214 | Answers: 1 | Created: 2026-03-11
+
+**解决方案 / Solution**:
+If you run docker ps , you should see something like: 0.0.0.0:8080->80/tcp …which indicates that your container is running and binding ports. You can try using 127.0.0.1:8080 . If you can connect with that address, perhaps Docker is trying to use IPv6 when you use localhost. Another test is to try using a different port, such as 9090: docker run -d -p 9090:80 docker/welcome-to-docker …and try connecting with: localhost:9090 and 127.0.0.1:9090 . If you can connect, it's probably because another service is running on port 8080. Currently, I don't have Docker installed on my Windows machine, but on Windows the firewall sometimes blocks Docker ports. You can try (just for testing) disabling the firewall and trying to connect. If you can connect, you need to add a rule to allow connections on that port.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935783/why-can-t-i-connect-to-localhost-on-windows
+
+---
+
+#### 642. Windows 11 taskbar does not fill bottom of screen on second monitor
+
+**问题描述 / Problem Description**:
+Tags: multiple-monitors, windows-11, taskbar | Score: 1 | Views: 59 | Answers: 1 | Created: 2026-03-05
+
+**解决方案 / Solution**:
+Workaround: Since, you've already found changing scaling to 100% then back to 300% fixes the issue each time, use a script to do so , either automatically on startup (e.g., put it in C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup or in C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup ), or manually with a desktop icon or keyboard shortcut. AutoHotkey and AutoIt also provide such scripts. Using PowerShell script as Administrator: First, install DispayConfig : Install-Module DisplayConfig Set-ExecutionPolicy unrestricted -Scope CurrentUser Then, create PowerShell script, save as .ps1 # Toggle scaling for DisplayId 2 to 100% and back to 300% Set-DisplayScale -DisplayId 2 -Scale 100 Start-Sleep -Milliseconds 200 Set-DisplayScale -DisplayId 2 -Scale 300 Run script when needed.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935555/windows-11-taskbar-does-not-fill-bottom-of-screen-on-second-monitor
+
+---
+
+#### 643. How do I remove "AI actions" from my context menu in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, context-menu | Score: 1 | Views: 230 | Answers: 1 | Created: 2026-03-04
+
+**解决方案 / Solution**:
+Open Settings > Apps > Actions and then disable each item in the list. Searching online I see that other's begin reporting this late 2025, and there is a way to remove it. I didn't dig deep, but it appears the AI Actions item was added and the ability to disable it came later. If you're on a business computer, you may have the the patch level to get the "feature" but not the patch level that allows it to be disabled.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935549/how-do-i-remove-ai-actions-from-my-context-menu-in-windows-11
+
+---
+
+#### 644. Why does a folder exist but won't open on Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, filesystems, ntfs | Score: 1 | Views: 459 | Answers: 2 | Created: 2026-02-28
+
+**解决方案 / Solution**:
+In File Explorer click the 3 dots and open Options: In the Options dialog, go to the View tab, and under Hidden Files and Folders, make sure you've set it to Show these:
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935410/why-does-a-folder-exist-but-wont-open-on-windows-11
+
+---
+
+#### 645. Can't get remote access to a Hyper-V VM by running only the .rdp file (Remote Desktop Connection)
+
+**问题描述 / Problem Description**:
+Tags: windows, remote-desktop, windows-11 | Score: 1 | Views: 108 | Answers: 1 | Created: 2026-02-28
+
+**解决方案 / Solution**:
+You’re mixing up two different things. The .rdp file you created: full address:s:<host> pcb:s:<vm-id> server port:i:2179 Port 2179 + pcb (VM ID) is Hyper-V VMConnect over RDP . That only works when the guest OS supports Hyper-V’s enhanced session / integration services . Your guest is Manjaro KDE (Linux) . Linux does not support Hyper-V enhanced session mode the way Windows guests do. So connecting to the host on port 2179 with a VM ID will fail that’s why you’re getting 0x4 / 0x0. IIS Crypto won’t change anything here; this isn’t a TLS problem. If you want to RDP directly to the VM: Install and enable an RDP server inside Manjaro (e.g. xrdp ). Connect to the VM’s actual IP address on port 3389 : mstsc → <vm-ip>:3389 If you don’t install an RDP server inside the Linux VM, there’s nothing listening on 3389, so RDP can’t work. So nothing is “wrong” with your crypto settings you’re just trying to use a Windows-only Hyper-V feature with a Linux guest.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935394/cant-get-remote-access-to-a-hyper-v-vm-by-running-only-the-rdp-file-remote-de
+
+---
+
+#### 646. Windows UI become very slow randomly
+
+**问题描述 / Problem Description**:
+Tags: windows, graphics-card, windows-11, gpu | Score: 1 | Views: 62 | Answers: 1 | Created: 2026-02-24
+
+**解决方案 / Solution**:
+The issue happened for such a stupid reason. Based on one week of testing, here is what I feel is the problem. Nvidia error: Rolling back to Graphics Driver v581.94 fixed it UI lag issue: I opened my laptop back and cleaned the fan and vents. It seemed to have worked. I am guessing a high temperature rise during normal load triggers some kind of throttling that would not stop even if the temperature falls. So maybe that's why the issue kept happening even with low temperatures.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935250/windows-ui-become-very-slow-randomly
+
+---
+
+#### 647. Why does Windows on ARM fail to boot from USB drive after installing drivers?
+
+**问题描述 / Problem Description**:
+Tags: usb, drivers, windows-11, arm, usb-boot | Score: 1 | Views: 173 | Answers: 1 | Created: 2026-02-22
+
+**解决方案 / Solution**:
+After some trial-and-error, I managed to figure out the problematic drivers among the ones that Windows installed: QcXhciFilter8380.inf: This is the main USB driver for the Qualcomm USB3 Controller qcusbcucsi8380.inf: This is the driver for something called "Qualcomm(R) USB Type-C Device" but I am not sure what it does, as USB-C ports work fine even without this driver Note: The above drivers are for a Snapdragon X Plus processor; other X series processors might have a different driver. By not including the above 2 drivers in the Windows image before the initial boot, Windows completes device setup and launches OOBE normally, then continues to boot normally until Windows re-installs these drivers. The generic USB drivers included with Windows seem to work fine, except that they don't detect the boot drive as removable (maybe it's a feature and not a bug 😉) Solution: Block Windows from installing the above drivers To do this, a device installation restriction group policy setting can be applied as described in another question (with many other examples online) by adding all the hardware IDs mentioned in the driver INF file to the blocklist. This policy setting can be applied using: Local Group Policy Editor: Computer Configuration\Administrative Templates\System\Device Installation\Device Installation Restrictions Registry Editor: HKLM\Software\Policies\Microsoft\Windows\DeviceInstall\Restrictions Note: Make sure to do this only after the initial Windows setup is complete, so that you don't block Windows from installing the generic USB drivers as well. Tip: For an existing windows installation with the drivers installed If you have a Windows installation that is failing to boot from USB because it already contains these drivers, use dism /image:... /remove-driver from another PC to remove these drivers. After removing the drivers, also remember to restore the contents of System\ControlSetXXX\Enum and System\ControlSetXXX\Control\DeviceClasses registry keys to the default values of a fresh Windows installation (extracted from install.wim from the ISO), otherwise Windows will not rediscover devices and continue to fail to boot. Edit: better solution - load the drivers at boot There is no need to remove the drivers or block their installation to allow Windows on ARM to boot from a USB drive. Instead, the drivers can be forced to load at boot time, which fixes the problem: After the above 2 drivers are installed, Windows performs a device setup on the next boot and fails to boot with 0x7B as described in the question Once this is happening, plug the USB drive into another PC (or boot into Windows Recovery (WinRE)) and use the Registry Editor to load the \Windows\System32\config\SYSTEM registry hive (let's call it <SYSTEM> ) from this drive, and find the 2 new registry keys for the above 2 drivers: <SYSTEM>\ControlSetXXX\Services\QcXhciFilter <SYSTEM>\ControlSetXXX\Services\qcusbcucsi Under both of these keys, find the DWORD entry for Start and change it from the default value of 3 (on-demand) to 0 (on-boot). The different possible values for the StartType are documented on Microsoft's website . After this, unload the hive and remove the drive to plug it back into the ARM device and boot from it - it should boot normally without the error. Note: I believe the Start type for qcusbcucsi driver can be left at the default value of 3 but I'm not sure if that would break booting from a USB-C drive (I don't have one to test this).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935161/why-does-windows-on-arm-fail-to-boot-from-usb-drive-after-installing-drivers
+
+---
+
+#### 648. Why is Windows 11 svhost hiding all DLL files after a Windows update?
+
+**问题描述 / Problem Description**:
+Tags: windows | Score: 1 | Views: 76 | Answers: 1 | Created: 2026-02-16
+
+**解决方案 / Solution**:
+Not sure if this would help, but this is one way to find a DLL in svchost.exe on Windows 10 . Open Microsoft/Sysinternals Process Explorer as Administrator. Click on an instance of svchost.exe in the Process pane. On the DLLs tab of the bottom pane, double-click a DLL to open its Properties dialog. Click the Explore button, and Windows Explorer should open to the correct folder with the DLL selected. If that does not work, it might be the update has removed that ability. Wikipedia maintains a list of things removed in Windows 11 . Perhaps this is another?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934956/why-is-windows-11-svhost-hiding-all-dll-files-after-a-windows-update
+
+---
+
+#### 649. Is there an 'easy' way to figure out what architecture a Windows binary is?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, cpu-architecture, binary-files | Score: 1 | Views: 355 | Answers: 2 | Created: 2026-02-09
+
+**解决方案 / Solution**:
+A quick search did not lead me to any easy way to determine the architecture of any program without also starting the program. But once you start the program, Windows Taskmanager will tell you exactly what archtecture any running program is. In order to check it out, either directly go to the details page, or find the program in the processes page first, right-click it and select Go to details . From there, right-click the columnheader, and add the Architecture column. This will tell you what architecture your program is currently running in.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934721/is-there-an-easy-way-to-figure-out-what-architecture-a-windows-binary-is
+
+---
+
+#### 650. One Windows 11 machine connects to a shared printer, another fails to connect
+
+**问题描述 / Problem Description**:
+Tags: networking, windows-11, printer, printing, sharing | Score: 1 | Views: 327 | Answers: 1 | Created: 2026-02-07
+
+**解决方案 / Solution**:
+I recently fixed a similar issue with a networked Brother HL-L2360D on Mac OS 15 and Windows 10. I was able to solve it by removing and re-adding the printer to both OSes, and for Windows 10 I had to choose a different network printing protocol. If you haven't already tried it, and if connecting the printer directly to the network is feasible for you, I would recommend attempting to install the printer using as many different printing protocols as you can from Add Printer ( printui.exe /im ) › "Add a printer using an IP address or hostname". This includes TCP/IP, Internet Printing Protocol (IPP), and Web Services. Also make sure these are all enabled in the printer's administrative web page, under Network › Protocol. I forget which protocol worked for me, but you can just add all of them and try them until one succeeds.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934676/one-windows-11-machine-connects-to-a-shared-printer-another-fails-to-connect
+
+---
+
+#### 651. Why does Greenshot need 10% of the CPU when idle?
+
+**问题描述 / Problem Description**:
+Tags: cpu, windows-11, greenshot | Score: 1 | Views: 152 | Answers: 2 | Created: 2026-02-06
+
+**解决方案 / Solution**:
+You might want to check the latest (unstable) 1.4 release, which includes several optimisations. There is no final release yet, but unstable releases can be downloaded from the Greenshot version history or Github Releases. In this Github issue a user reported constant CPU usage and confirmed that it does not occur with the latest unstable release. If that does not help, you might want to have a look at Greenshot's log file , which might give some hints about what's going on.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934633/why-does-greenshot-need-10-of-the-cpu-when-idle
+
+---
+
+#### 652. Will “Diskpart Clean All” wipe all data on Microsoft Surface?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, microsoft-surface | Score: 1 | Views: 144 | Answers: 1 | Created: 2026-02-04
+
+**解决方案 / Solution**:
+After some reconcideration I used Microsoft Surface Data Eraser . Basically it's a tool that is downloaded and installed on a 4gb USB flash drive. You can start it by using an USB Adapter. Im not 100% shure how rigorous this really is, but its at least an official microsoft software.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934535/will-diskpart-clean-all-wipe-all-data-on-microsoft-surface
+
+---
+
+#### 653. Kill a process without sending a term signal in win11?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, process, tasks | Score: 1 | Views: 166 | Answers: 1 | Created: 2026-02-03
+
+**解决方案 / Solution**:
+Taskkill has an /f paramter that forces a task to end immediately, rather than sending a terminating signal to the program and let it end normally. But if you just quickly want to kill a program during some tests, then note that Task Manager actually can do this too, as was explained by Dave Plummer on his youtube channel, the developer of Windows Task Manager. The processes tab shows the applications by windows title and then background processes. If you use the end application here, the terminate signal is send to the application, as you already found out. But there is also the details tab where you find all the processes with their id. If you end a process there, it will do so forcefully, terminating the process without sending the terminate signal, but instantly killing it instead. Keep in mind that some programs may be multi-threaded, and for each thread, a process is created. If that's the case, terminating one process may make the main program respawn it. Taskkill can kill them all at the same time with /f. Just use tasklist to get a list of all the processes and nothing more, then change tasklist to taskkill with /f to kill them.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934506/kill-a-process-without-sending-a-term-signal-in-win11
+
+---
+
+#### 654. Windows 11 clone from M.2 SATA to M.2 NVMe fails to boot – INACCESSIBLE_BOOT_DEVICE (0x7B)
+
+**问题描述 / Problem Description**:
+Tags: ssd, windows-11, uefi, nvme, mirroring | Score: 1 | Views: 492 | Answers: 2 | Created: 2026-01-29
+
+**解决方案 / Solution**:
+Well, this was a journey! I have some generic takeaways before I go into details of what was wrong. Takeaways for cloning Windows drives Never change Win8/10 Features in UEFI when you want to use an already installed Windows. This might be just a weirdness of Gigabyte motherboard, but it seems that option is affecting the ability to boot Windows. This is also so incredibly poorly documented that it's downright shameful for Gigabyte. There's just no information on when and why you should or shouldn't use the Win8/10 Features option (or at least I haven't found anything useful, not in the manual of my motherboard). I know that this is something used to integrated Windows better and possible improve booting... but again, not that I know this from the manual... So annoying! Disable Secure Boot for RescueUSB (RCD) . So disable SB before you clone. Otherwise USB/RCD will not be accessible. This part is somewhat documented. Remember to enable SB after cloning (and revert the Win8/10 Features value if you changed it). Note that after SB changes, you must reboot, and then you can go into UEFI again to change boot options (if you need to change the boot order or something). Unplug your old disk (the cloned one), as it may clash with your clone. If UEFI doesn't see your new clone, you probably need to unplug the old drive. Try to boot into Safe Mode . Just going into Safe Mode might randomly fix some things. Try going to Safe Mode first, log in, check if your clone works (files on the new drive are accessible), and if it does, just reboot. It might fix your problem. What solved it for me The last part solved it for me. Just going into Safe Mode + reboot. There was no need for messing around in Windows Recovery aka WinRE ( bcdboot etc was not needed). That is the main resolution to my problem. I did also remove some weird extra partition that ddrescue created when cloning, but not sure if that was required. Here's what I had in GParted after cloning (you might notice some trash here): Partition Name File System Label Size Used Unused Flags /dev/nvme0n1p1 ntfs Reserved by system 579.00 MiB 10.49 MiB 568.51 MiB hidden, diag, no_automount /dev/nvme0n1p2 ntfs 929.49 GiB 742.06 GiB 187.44 GiB msftdata /dev/nvme0n1p3 ntfs 885.00 MiB 698.96 MiB 186.04 MiB hidden, diag, no_automount unallocated unallocated 1.00 MiB — — — /dev/nvme0n1p4 fat32 100.00 MiB 37.98 MiB 62.02 MiB boot, esp, no_automount unallocated unallocated 500.00 MiB — — — /dev/nvme0n1p5 ⚠ Microsoft reserved partition unknown 16.00 MiB — — msftres, no_automount unallocated unallocated 931.49 GiB — — — I removed that nvme0n1p5 as it was not in the original drive. At this point, gparted also suggested fixing some GPT records, which I allowed it to do. After that, the "unallocated 500.00 MiB" partition became "Windows RE tools" (see below). This was probably important, but I still needed to go into Safe Mode afterward. I mean, I did also restore from a backup and also got INACCESSIBLE_BOOT_DEVICE so that weird nvme0n1p5 from cloning was not the main problem. Anyway after cleanup this is how the final partitions looked like: Partition File System Label Size Used Unused Flags /dev/nvme0n1p4 fat32 100.00 MiB 37.91 MiB 62.09 MiB boot, esp, no_automount /dev/nvme0n1p5 ntfs Windows RE tools 500.00 MiB 9.96 MiB 490.04 MiB msftdata — unallocated unallocated 931.50 GiB — — — If that's not obvious — I only messed around like that because I also had a recent Windows Image Backup. I wouldn't mess around in gparted like that if I had no other backup or if re-cloning were not an option. I also wasn't too worried because I had disabled WinRE, resized the main partition, and re-enabled WinRE in Windows. So this should at least show if there are some problems. The full resize procedure was as suggested by @mivk here: https://superuser.com/a/1781534/87999
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934313/windows-11-clone-from-m-2-sata-to-m-2-nvme-fails-to-boot-inaccessible-boot-dev
+
+---
+
+#### 655. Why am I experiencing one bar Wi-Fi signal strength on an HP laptop? And what can I do to improve things?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, wireless-networking, 64-bit | Score: 1 | Views: 69 | Answers: 1 | Created: 2026-01-14
+
+**解决方案 / Solution**:
+I opened the laptop but i am able to see the internal wifi card but no antenna are attached to it?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933677/why-am-i-experiencing-one-bar-wi-fi-signal-strength-on-an-hp-laptop-and-what-ca
+
+---
+
+#### 656. Windows MSU Patch Installation Fails at 94% Post-Restart with "Undoing Changes" – No Errors in CBS Logs (Tried DISM Extraction & Step-by-Step Install)
+
+**问题描述 / Problem Description**:
+Tags: windows-10, powershell, windows-update, dism | Score: 1 | Views: 166 | Answers: 1 | Created: 2026-01-12
+
+**解决方案 / Solution**:
+You state, "Note that the system was not patched from a very [em:ed] long time." In 2023, Microsoft issued patches requiring a larger Recovery partition than originally created through Windows 10 installation. There are directions for increasing the size of the Recovery partition , which might resolve your issue. That said, consider some other options, after making and verifying a full disk image , allowing return to the current sates, and preserving data: Download the last Windows 10 ISO , creating installation media. Reinstall that updated Windows 10, keeping files . This should bypass the need for many separate updates. It usually executes without issue in less than an hour. Consider migrating to another operating system that is still supported. If the hardware is capable, there is Windows 11. However, whether or not the latest TPM is available, you can test a Linux distro such as Ubuntu , booting and running from USB flash drive or SSD, without need to install on the internal drive. Why continue using Windows 10 unless you arrange for Extended Security Updates , requiring a Microsoft account, and lasting just nine more months, at this time?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933593/windows-msu-patch-installation-fails-at-94-post-restart-with-undoing-changes
+
+---
+
+#### 657. What does usb hard drive -VendorCoProductCode mean in boot device options?
+
+**问题描述 / Problem Description**:
+Tags: windows-10 | Score: 1 | Views: 1196 | Answers: 1 | Created: 2026-01-12
+
+**解决方案 / Solution**:
+The only thing it means is that the manufacturer of your USB drive was too cheap to program the controller chip with the correct name. All HDDs (or flash drives) report their manufacturer (vendor) name as well as model (product) name. So in this case, the HDD is literally programmed to report VendorCo as the vendor and ProductCode as the model, because that's what the controller manufacturer puts there at first, and the final manufacturer (which assembles the whole thing) doesn't bother to change it. (Or it could be that they do this because they want sell the same USB HDD under 10 different brands – the one I have with this exact VendorCo is a "custom branded" giveaway USB stick.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933590/what-does-usb-hard-drive-vendorcoproductcode-mean-in-boot-device-options
+
+---
+
+#### 658. Cannot use Start Menu and task bar
+
+**问题描述 / Problem Description**:
+Tags: windows-10 | Score: 1 | Views: 83 | Answers: 1 | Created: 2026-01-08
+
+**解决方案 / Solution**:
+This can happen when the %APPDATA% environment variable is misconfigured, like being a symlink to a nonexistant location: C:\Users\username\AppData>dir ... 17.11.2025 14:05 <SYMLINKD> Roaming [C:\Users\username\UserData\AppData\Roaming] I recently encountered this and have no idea who set it to that value. Maybe also %USERPROFILE% got changed from C:\Users\username to C:\Users\username\UserData and %APPDATA% is evaluated from %UserProfile%\AppData\Roaming . Make sure %APPDATA% points to a proper, readable and writable location, the default being the folder C:\Users\username\AppData\Roaming .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933450/cannot-use-start-menu-and-task-bar
+
+---
+
+#### 659. Which updates to Windows 10 are continuing after Oct 14 2025 EOL, in additon to MS Store?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, windows-update, updates | Score: 1 | Views: 185 | Answers: 1 | Created: 2026-01-07
+
+**解决方案 / Solution**:
+What Microsoft has discontinued, per the official document on the matter , are: "technical assistance, feature updates and security updates" for the Windows 10 OS. The parts of the system that are not the Windows 10 Operating System are still functional and are still, currently, receiving updates. Defender and the Store are both not the OS itself, despite their deep integration into it, or even its dependence on them. Note that Windows 10 itself is still supported, under the "Extended Security Updates" program, so there will still be updates to the various deeply integrated systems, and so all you're promised NOT to receive are the "feature... and security updates" for the OS itself.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933417/which-updates-to-windows-10-are-continuing-after-oct-14-2025-eol-in-additon-to
+
+---
+
+#### 660. How to make Windows Explorer show the full path in the Address Bar?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, window, files-folders | Score: 1 | Views: 266 | Answers: 1 | Created: 2025-12-28
+
+**解决方案 / Solution**:
+If you are using the convenient folder listing above the primary, more comprehensive listing, it will not display the full path, at least on my Windows 11 machine. If I bore down through the folder hierarchy under the "This PC" region, selecting the desired folder, then Alt-D does display the full path. When I performed this test, I started in the convenience listing and moved to the deeper version under "This PC" and Alt-D failed. Upon restarting the test, going directly to the deep folder method worked correctly. This also worked with Videos, Pictures, etc. I realize this answer is in response to the comment posted by @silbee but may be helpful to the original posting party.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932984/how-to-make-windows-explorer-show-the-full-path-in-the-address-bar
+
+---
+
+#### 661. VS Code terminal not clearing correctly on windows 10, leading to duplicated output when programming
+
+**问题描述 / Problem Description**:
+Tags: windows-10, terminal, visual-studio-code, visual-studio-code-terminal | Score: 1 | Views: 184 | Answers: 1 | Created: 2025-12-22
+
+**解决方案 / Solution**:
+For a simple vscode project on Windows, I tend to use a batch file, which I run from the integrated terminal. That file issues a series of commands (including compile and run). Near the start of that file (after "@echo off"), I insert the cls command. Jewel, is this a fix that can be made to work in your case?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932744/vs-code-terminal-not-clearing-correctly-on-windows-10-leading-to-duplicated-out
+
+---
+
+#### 662. Why am I experiencing unwanted window resizing in Excel (2007) on Windows 10 Enterprise LTSC?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, microsoft-excel, microsoft-excel-2007 | Score: 1 | Views: 53 | Answers: 1 | Created: 2025-12-11
+
+**解决方案 / Solution**:
+I remember Excel 2007. As far as I know you can't fully make it behave like newer Excel versions. I've heard of one trick though, and can't test since no longer on Excel 2007. Holding ALT when opening Excel should allow to open each file in a different instance, which should mean different taskbar buttons and different minimizing behavior. Again, cannot test, but maybe some other problems will arise that are possible in Excel 2007's MDI behavior that this trick would hinder. Worth a try.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931329/why-am-i-experiencing-unwanted-window-resizing-in-excel-2007-on-windows-10-ent
+
+---
+
+#### 663. How to access the user user account settings GUI in Windows 10
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, passwords, login, password-management | Score: 1 | Views: 199 | Answers: 2 | Created: 2025-11-25
+
+**解决方案 / Solution**:
+Oops.. the password dialog is still there, but craftily hidden. Open User Accounts. Select Manage another account . Why? Left field. Click on your own account. Select Change the password . Also, to quote Ramhound, "You can also change your password on the Ctrl Alt Del secure screen."
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930682/how-to-access-the-user-user-account-settings-gui-in-windows-10
+
+---
+
+#### 664. Canon Printer - Examining the Nozzle Check Pattern
+
+**问题描述 / Problem Description**:
+Tags: windows-10, printing, inkjet-printer, canon-pixma | Score: 1 | Views: 130 | Answers: 1 | Created: 2025-11-25
+
+**解决方案 / Solution**:
+Your printer has four sets of nozzles: black, cyan, magenta and yellow. If just a few of the magenta nozzles were blocked, there likely is dried ink blocking the nozzles, which can be cleaned using the normal or deep self-cleaning cycles . However, you state that there is no magenta at all. Here are a few of the possible causes: The color FINE ink cartridge might be out of magenta ink. The ink cartridge is not properly seated, and connection to the magenta contact is bad. The flex cable to the ink cartridges is damaged.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930674/canon-printer-examining-the-nozzle-check-pattern
+
+---
+
+#### 665. How do I remove "Set Chrome as your default browser" from Chrome's customize menu?
+
+**问题描述 / Problem Description**:
+Tags: windows, google-chrome | Score: 0 | Views: 82 | Answers: 1 | Created: 2026-04-14
+
+**解决方案 / Solution**:
+Click the item in the menu, then dismiss or close out of the following prompt. This should make it go away without setting Chrome as your default. Source: https://www.reddit.com/r/mildlyinfuriating/comments/1i4lhxa/set_chrome_as_your_default_browser/
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936728/how-do-i-remove-set-chrome-as-your-default-browser-from-chromes-customize-men
+
+---
+
+#### 666. How do I change my time zone in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, date-time, time-zone | Score: 1 | Views: 13 | Answers: 1 | Created: 2026-04-29
+
+**解决方案 / Solution**:
+Run secpol.msc, navigate to "Local Policies > User Rights Assignment", make sure you haven't lost half of the rights entries in there:
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937181/how-do-i-change-my-time-zone-in-windows-11
+
+---
+
+#### 667. Can a Windows administrator impersonate a user with lower privileges and execute a command?
+
+**问题描述 / Problem Description**:
+Tags: windows, command-line, powershell | Score: 16 | Views: 3426 | Answers: 4 | Created: 2026-01-28
+
+**解决方案 / Solution**:
+One way to run programs as a different user would be to use the Task Scheduler, which can indeed impersonate users without a full logon.
+Aside from that, Windows doesn't have many standard tools for this, I believe deliberately so – generally the design is that there's a much stronger split between the administrator and the system (or the "trusted computing base" as was a popular term at the time) – only the "System" account (used by services) has direct access to APIs necessary to impersonate users (SeTcbPrivilege), bypass auditing, etc. whereas a regular administrator does not, and administrators are deliberately given fewer ways to bypass the "intended" system security.
+(So basically all methods of becoming a different user – even the built-in runas and the new Win11 sudo and the third-party gsudo – involve going through a system service which uses the "System" privileges to do that.)
+There is a feature request for gsudo to add the ability to become a different user without specifying a password. It's currently not yet implemented.
+I think that the sudo that comes as part of Cygwin is able to do this, but I've not tried.
+But the specific context makes it impossible to satisfy for a completely different reason:
+
+Notably, this must not require the user's credentials, and instead should be checking my ability to impersonate that user
+[…]
+I'm trying to examine network drive mappings
+
+You cannot impersonate a user in a way that allows their network drive mappings to actually work, as network drive (SMB) connections require user credentials to be provided to the target SMB server. There is no mechanism in SMB for the client to say "trust me bro, I am acting as UID 1002 now" like there is in NFS (i.e. SMB works more like NFS with sec=krb5 and no sec=sys).
+
+On a standalone computer, the user's logon credentials are either sent directly (via NTLM) to the target SMB server, or they're locally used to decrypt the user's stored network passwords (via DPAPI).
+
+In an Active Directory environment, the user's logon credentials are necessary to obtain Kerberos tickets on behalf of that user. I think a machine account is allowed to get such impersonated tickets to itself but it is very rare that any random workstation (or even a server for that matter) would be granted privileges in AD to get "impersonated" tickets to other hosts (i.e. to use "constrained delegation" as AD calls it).
+(This is usually granted to machine accounts i.e. 'SYSTEM' – for user accounts the option to assign such impersonation rights is outright hidden from the AD user management GUI so it's even less likely that you would have it, whether you are a Domain Admin or not.)
+
+
+So although you could impersonate users locally and create a logon session where their network drive mappings are set up from the Registry, those mappings will be non-functional – you'd see them in net use but would not be able to do anything beyond that.
+(This applies also to things like SSH servers on Windows; if they accept public-key auth and then impersonate a user without their password, then the SSH session won't have any SMB fileserver access. Bitvise WinSSHd, for example, has two modes: either it impersonates the user without SMB access, or it caches all users' passwords server-side in order to do a full logon with SMB access. Other protocols like RDP or PSRemoting "delegate" the password to the RDP server as a specific step during the remote connection.)
+Since all you're going to see is whether the drive letters exist at all, you could as well just look up the user's Registry settings directly instead (which is the "source" that Windows uses to establish the network-mapped drive letters every time).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934234/can-a-windows-administrator-impersonate-a-user-with-lower-privileges-and-execute
+
+---
+
+#### 668. How to get the detailed context menu from the first time in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-explorer, windows-11, context-menu | Score: 15 | Views: 2469 | Answers: 3 | Created: 2026-01-27
+
+**解决方案 / Solution**:
+I don't see another simple option mentioned. While not exactly what asked for, nevertheless it's a valuable option in case you're on someone else's machine or can't/don't want to make registry modifications.
+Simply holding down the SHIFT key while right-clicking will also open the classic menu immediately.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934206/how-to-get-the-detailed-context-menu-from-the-first-time-in-windows-11
+
+---
+
+#### 669. How can I find out what caused a TPM lockout?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, tpm, lock | Score: 14 | Views: 2240 | Answers: 2 | Created: 2026-01-05
+
+**解决方案 / Solution**:
+Following Chris Woods's answer, I ran
+tpmtool gatherlogs %userprofile%\Desktop
+
+in  cmd.exe, opened TpmEvents.evtx and saw this event:
+
+
+Error: BL_LOG_ERROR_RES_HW_SIGNATURE_MISMATCH: Failed to resume due to hardware configuration changed. Status: {Incorrect Volume}
+The target file of a rename request is located on a different device than the source of the rename request.
+
+Common triggers for BL_LOG_ERROR_RES_HW_SIGNATURE_MISMATCH:
+
+A recent BIOS/Firmware update.
+Changing hardware (RAM, a new docking station, or even a USB drive plugged in during boot).
+A "dirty" shutdown where the battery died during hibernation.
+
+In my case, I suspect it's reason #3 ("dirty" shutdown where the battery died during hibernation).
+I'm guessing BL_LOG_ERROR_RES_HW_SIGNATURE_MISMATCH can trigger a TPM lockout since the TPM (Trusted Platform Module) monitors the "integrity" of the laptop's boot process.
+
+To confirm the battery died, I ran
+powercfg /batteryreport
+
+in cmd.exe and the generated report confirmed the battery died (suddenly went to 1%, which I guess explain why my laptop stopped and needed me to plug the power cable):
+
+To look at the past 10 unexpected restarts, I ran this PowerShell command (need to PowerShell as an Administrator aka "elevated" mode):
+Get-WinEvent -FilterHashtable @{LogName='System'; Id=6008} -MaxEvents 10 | Select-Object TimeCreated, Message | Format-Table -Wrap
+
+The output is:
+TimeCreated            Message
+-----------            -------
+1/4/2026 5:46:51 PM    The previous system shutdown at 9:55:46 PM on ‎1/‎3/‎2026 was unexpected.
+12/28/2025 7:37:58 PM  The previous system shutdown at 7:18:03 PM on ‎12/‎28/‎2025 was unexpected.
+12/22/2025 9:30:09 AM  The previous system shutdown at 1:47:43 PM on ‎12/‎20/‎2025 was unexpected.
+12/6/2025 8:33:17 PM   The previous system shutdown at 8:25:43 PM on ‎12/‎6/‎2025 was unexpected.
+11/30/2025 10:02:53 PM The previous system shutdown at 9:36:23 PM on ‎11/‎30/‎2025 was unexpected.
+11/26/2025 11:37:44 AM The previous system shutdown at 2:59:29 PM on ‎11/‎25/‎2025 was unexpected.
+11/15/2025 11:20:28 AM The previous system shutdown at 8:42:46 AM on ‎11/‎15/‎2025 was unexpected.
+11/14/2025 11:34:01 AM The previous system shutdown at 11:01:43 AM on ‎11/‎14/‎2025 was unexpected.
+11/13/2025 8:32:34 PM  The previous system shutdown at 8:07:26 PM on ‎11/‎13/‎2025 was unexpected.
+11/13/2025 7:42:26 PM  The previous system shutdown at 7:28:26 PM on ‎11/‎13/‎2025 was unexpected.
+
+Interestingly, the past system shutdown is labeled as unexpected so that likely didn't help but I suspect the culprit is a brutal shutdown due to the battery being crap and plunging to 0% without any warning:
+
+Follow-up questions:
+
+How does Get-Tpm's LockoutCount reset to 0?
+How can I view the history (with timestamps) of TPM 2.0 LockoutCount increments on Windows 11 24H2?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933278/how-can-i-find-out-what-caused-a-tpm-lockout
+
+---
+
+#### 670. Why can a Windows Service be started, stopped and restarted through the Services GUI but not through PowerShell?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-7, powershell, services | Score: 13 | Views: 1488 | Answers: 1 | Created: 2026-01-15
+
+**解决方案 / Solution**:
+Some programs are allowed to auto-elevate if the user running the program is an administrator, and the UAC prompt is not at the highest level.
+This only works if the program has autoElevate in its manifest, is signed by Microsoft, and in its original location.
+So if you start services.msc (or compmgmt.msc), even if UAC doesn't prompt, it will still be running elevated.
+This can be verified using the Task Manager: in "Details", right-click the header row, pick "Select columns", enable "Elevated". Still in details, find the row "mmc.exe", and the column "Elevated" should show "Yes" for your services.msc.
+If you want to be able to actually start/stop that service without administrative permissions, you need to change the permissions on your service.
+Here is the Microsoft way, using Group Policy or a security template:
+How to grant users rights to manage services
+https://learn.microsoft.com/en-us/troubleshoot/windows-server/windows-security/grant-users-rights-manage-services
+An alternative is Helge Klein's SetACL (no affiliation, but I've used SetACL.exe before).
+"SetACL Studio" (Freeware) is a GUI based version, requiring installation (though in the FAQ there's also description on how to copy and install it manually from a template machine).
+There's also the stand-alone command line version SetACL.exe, which can just be copied to the target computer.
+SetACL Studio
+https://helgeklein.com/setacl-studio/
+And the CanStop property will only be $true if the service currently can and will accept a Stop command. When you queried the service, it was stopped (see the Status property), so CanStop is $false. When you run Get-Service again while your service is running, CanStop should now show up as $true.
+For a list of running services that will refuse to be stopped, run:
+Get-Service | Where-Object {($_.Status -eq 'Running') -and (-not $_.CanStop)}
+
+ServiceBase.CanStop Property
+https://learn.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase.canstop?view=netframework-4.8.1
+ServiceBase.OnStop Method
+https://learn.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase.onstop?view=net-10.0-pp
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933733/why-can-a-windows-service-be-started-stopped-and-restarted-through-the-services
+
+---
+
+#### 671. In a Windows 10 system how can I clear the stored (cached) credentials used to access a network shared folder?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, samba, smb, shared-folders, credentials-manager | Score: 11 | Views: 2214 | Answers: 3 | Created: 2025-09-22
+
+**解决方案 / Solution**:
+Log out from Windows, then log in again.
+I've also heard that restarting Explorer.exe through Task Manager might work (though I don't recall if this worked for me.)
+To avoid this the next time – if you are just testing the connection, or doing some one-off access – use net use \\server to provide the temporary credentials; that way they aren't cached past net use \\server /d. (You don't need to map a drive letter or specify any additional parameters.) Or run your program through runas /netonly /u:<user> to have it run within a separate LSA context.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1925209/in-a-windows-10-system-how-can-i-clear-the-stored-cached-credentials-used-to-a
+
+---
+
+#### 672. How do I reset file ownership at the command line when the files are owned by users from a dead domain?
+
+**问题描述 / Problem Description**:
+Tags: command-line, file-permissions, windows-server | Score: 10 | Views: 6482 | Answers: 2 | Created: 2023-12-06
+
+**解决方案 / Solution**:
+The issue with using icacls /setowner is that gaining ownership doesn't implicitly grant you any other rights except "Write ACL" – in particular it doesn't actually grant you the rights to list the directory's contents, or even to read its ACL. You need to take ownership of the top directory, then reset its DACL, then take ownership of first-level subdirectories, reset their DACLs, and so on.
+Use takeown /a /r /d y to do this; it'll automatically reset DACLs every time it finds a directory it cannot list.
+Alternatively, install the "PSPrivilege" PowerShell module from PSGallery and use it to activate SeBackupPrivilege and SeRestorePrivilege. These broadly allow you to bypass most DACL restrictions, including being able to write DACLs (it's actually what icacls and Explorer use to be able to set arbitrary owners), but by default they're in "held but inactive" state for administrators. Once the two privileges are active, icacls should be more effective.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1819651/how-do-i-reset-file-ownership-at-the-command-line-when-the-files-are-owned-by-us
+
+---
+
+#### 673. How to remove "All" Programs list from the Start menu in Windows 11 Pro 25H2?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, start-menu, windows-11-25h2 | Score: 7 | Views: 2160 | Answers: 1 | Created: 2026-01-16
+
+**解决方案 / Solution**:
+You can remove the All section in Windows 11 Pro using Local Group Policy Editor (not included in Windows Home editions):
+
+Press Win + R
+Type gpedit.msc
+Press Enter. 
+
+This opens: Local Group Policy Editor
+
+Select:
+
+User Configuration
+Administrative Templates
+Start Menu and Taskbar
+(Double-click) Remove All Programs list from the Start menu
+
+This opens: Remove All Programs list from the Start menu
+
+Select:
+
+Enabled
+Collapse
+Apply / OK
+
+
+Fixed:
+
+ 
+
+
+For Windows 11 Home:
+Since gpedit.msc is not available on Home editions, you can use Policy Plus - a free, open-source Group Policy editor that works on all Windows editions including Home. Apply the same policy setting described above.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933779/how-to-remove-all-programs-list-from-the-start-menu-in-windows-11-pro-25h2
+
+---
+
+#### 674. How to increase the size of the boot partition size on a preinstalled system without data loss?
+
+**问题描述 / Problem Description**:
+Tags: linux, windows, multi-boot, uefi, arch-linux | Score: 5 | Views: 716 | Answers: 2 | Created: 2026-02-04
+
+**解决方案 / Solution**:
+Easiest option: Create a second EFI partition for Arch. There's no requirement that there be only one (neither per system nor per disk).
+Minor downside: This will require you to use the EFI boot menu (and not e.g. the Linux boot menu) to select which OS you want to boot. (If that's inconvenient to access on the Codex, you could still use efibootmgr to directly reboot into a different EFI boot entry.)
+
+Second option: Create a second EFI partition and abandon the first one. Copy the Windows files, copy the GPT PARTUUID using fdisk or gdisk, delete old partition, leaving the empty gap.
+(By PARTUUID, I mean the individual partition GUID that fdisk/gdisk show in their "Expert" submenu – not the generic "type GUID" that you enter when creating a partition.)
+
+Third option: Use GRUB as the boot loader for Linux, which avoids the need to put the large Linux kernel+initramfs in the EFI partition (as GRUB has its own filesystem drivers and can load that from a Linux-dedicated /boot or even from the "/" partition) and can work even with a fairly small EFI partition.
+This used to be the most common method of running Linux for a long time (before systemd-boot gained popularity), and GRUB can handle all sorts of Linux filesystems. Creating a dedicated "/boot" partition might still be a good idea though.
+
+Riskiest option: Shrink the Windows partition, shift it to the right to make some space, then grow the EFI partition using GParted. (I'd do NTFS shrinking from within Windows itself using DiskMgmt.msc, then use "GParted Live" for the other two tasks.)
+Shrinking NTFS by a few GB is usually fast; moving the whole partition is the slow and risky part (it's very unlikely to fail on its own, the risk is a power outage during the move).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934561/how-to-increase-the-size-of-the-boot-partition-size-on-a-preinstalled-system-wit
+
+---
+
+#### 675. How to run a command periodically with precise interval in Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows, command-line, powershell, time | Score: 5 | Views: 210 | Answers: 1 | Created: 2026-02-01
+
+**解决方案 / Solution**:
+Write a program using the .NET library QuickTickLib.  Resolution is 0.5 ms due to the (modern) Windows kernel, and authors claim accuracy as good as plus or minus 0.6 ms.
+This is not yet a program you can call from the shell as simply as watch.  However, it can get better timer resolution than Windows' historic 15 ms, via a simple API. You do not need to write C++ code to make use of CreateWaitableTimerExW.
+Bonus, QuickTickLib programs can be written in a portable way to also work on other .NET platforms. .NET on Linux is already using higher resolution timers and will use that.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934395/how-to-run-a-command-periodically-with-precise-interval-in-windows
+
+---
+
+#### 676. How can I prevent TPM LockoutCount from jumping to 32 due an unexpected battery shutdown?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, shutdown, tpm, windows-11-24h2 | Score: 4 | Views: 933 | Answers: 1 | Created: 2026-01-10
+
+**解决方案 / Solution**:
+TPM is deeply integrated into firmware, as well as Windows, both to protect the PC and to protect against DRM abuse. For that reason, TPM control is intentionally kept beyond the users' access, unless one has the owner password.
+Microsoft states, "If your TPM is in lockout mode... you can reset the lockout value by using the following procedures. Resetting the TPM lockout requires the TPM owner's authorization. This value is no longer retained." So, if you had not, "configured Windows to retain the TPM Owner Password," on installation of Windows, then that option is not available.
+For the future, you can use Group Policy to manage TPM lockout settings. GPO has values for both standard and individual user lockout duration. Note that lockout time is specified in minutes.
+As for incrementing TPM failure count to 32, I assume whatever number you set GPO Lockout Threshold would be exceeded on battery failure, so increasing that number might actually increase timeout for the counter to decrement.
+At least you'll regain use of the machine after a few hours, as opposed to it being bricked entirely.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933545/how-can-i-prevent-tpm-lockoutcount-from-jumping-to-32-due-an-unexpected-battery
+
+---
+
+#### 677. BitLocker without TPM — automatic boot with key on hidden partition of same SSD
+
+**问题描述 / Problem Description**:
+Tags: windows-10, ssd, bitlocker, disk-encryption, tpm | Score: 4 | Views: 1379 | Answers: 2 | Created: 2025-10-13
+
+**解决方案 / Solution**:
+Assuming that you can write your bootloader so it can read a separate partition to recover a key that the Bitlocker can use to unlock things automatically, you'll still do not have the security you need, because...
+That special partition on the drive will have to be unencrypted in order for it to be able to be read by Bitlocker, and so you'll just have stored the Bitlocker key in an insecure location that can be accessed by anyone with access to the system or its drive.
+You could make the "security" more obscure by concealing a USB storage device somewhere on the device and using that to store the key, but it doesn't actually make it more secure, it just protects against cases where the attacker takes the drive and doesn't take the USB key.
+The point of TPM is that there is a trusted secret module that only gives out the right secret if it can validate the system is trustworthy. Without a trusted module to do this, you're working with a variety of "trust something less trustworthy", and that is not the security you want. If you are serious about needing to avoid corporate espionage and theft of ideas, you need to choose a different hardware platform, one that meets your security needs with the required modules for a properly securable system.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926585/bitlocker-without-tpm-automatic-boot-with-key-on-hidden-partition-of-same-ssd
+
+---
+
+#### 678. Why does neither Alt-Tab nor Win-Tab works in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: keyboard, keyboard-shortcuts, windows-11 | Score: 3 | Views: 328 | Answers: 1 | Created: 2026-01-25
+
+**解决方案 / Solution**:
+Fixed by another in-place upgrade to 25H2.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934118/why-does-neither-alt-tab-nor-win-tab-works-in-windows-11
+
+---
+
+#### 679. Notepad "currently not available in my account"
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, notepad | Score: 3 | Views: 705 | Answers: 3 | Created: 2026-01-21
+
+**解决方案 / Solution**:
+Yes, it was an update that caused the error. This was in combination with a server-side issue (Microsoft Store server‑side entitlement/activation failure). Apparently, the server-side issue wouldn't have been a problem without the update.
+Background:
+The Windows Forum (source) gives a thorough explanation of the problem. The incident didn't only relate to Notepad but also to other Store‑serviced AppX/MSIX packages such as Paint, Snipping Tool etc.
+
+Microsoft’s recent January 2026 servicing cycle introduced two parallel stories: a targeted feature rollout for classic inbox apps and a disruptive set of regressions tied to the January cumulative update (KB5074109). The feature rollout added richer Markdown support and streaming AI in Notepad and new generative tools and UI polish in Paint; those application updates are distributed through the Microsoft Store and were announced to Windows Insiders Notepad’s Insider package is identified as version 11.2512.10.0 and Paint’s as version 11.2512.191.0.
+At the same time, the January 13, 2026 cumulative update (KB5074109) began appearing in user environments and was quickly associated with several stability regressions, including:
+
+a Microsoft Store entitlement/activation failure manifest that blocked packaged apps from launching for some users; and
+a separate cloud‑storage I/O regression that could make applications, notably classic Outlook when PSTs are stored inside OneDrive, hang or becupport.microsoft.com])
+
+
+
+Those two failure modes overlapped in time and in community visibility, creating confusion about cause-and-effect and amplifying user frustration across forums and vendor support channels.
+
+The solution(s):
+By now, Microsoft fixed these particular issues, but there are solutions in case similar problems arise again or to prevent those situations altogether:
+
+There were several fixes that helped users, e.g., repair/reset the specific app or run the legacy, Win32 copy of a utility (for example, the System32 notepad.exe).
+
+To run the legacy version, you need to switch off "App execution aliases" for Notepad in the Windows settings. Then just start it from the System32 folder, or execute notepad.exe via the Run dialog.
+
+Since Microsoft introduced a dependency on online services (in this case, the Microsoft Store), Frank Thomas's hint in the comments to install software not dependent on the correct function of an online Microsoft Service might be the better choice.
+
+In case this happens again, remember to check Windows forums / Reddit, usually the problems/solutions are reported there shortly after their occurrence.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933981/notepad-currently-not-available-in-my-account
+
+---
+
+#### 680. Why can’t I connect to a shared printer on a Windows 10 PC?
+
+**问题描述 / Problem Description**:
+Tags: windows, network-printer | Score: 3 | Views: 447 | Answers: 1 | Created: 2026-01-16
+
+**解决方案 / Solution**:
+Adding the credentials to the Credential Manager in the right notation solved my problem. For me, it was admin as the usernet (not .\admin, admin@ or anything else) and the password.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933764/why-can-t-i-connect-to-a-shared-printer-on-a-windows-10-pc
+
+---
+
+#### 681. How to create a reminder that behaves like the auto shutdown warning?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, windows-task-scheduler, popups | Score: 3 | Views: 120 | Answers: 1 | Created: 2026-01-15
+
+**解决方案 / Solution**:
+USE AT YOUR OWN RISK: This PowerShell script will block input for keyboard and mouse for a specific amount of time (5 seconds by default), so you can not interact with anything (even the pop-up). After 5 seconds, you can interact again, though the pop-up will stay modal until you close it.
+Script must be run as administrator (otherwise, mouse/keyboard input won't be blocked)
+Add-Type -AssemblyName System.Windows.Forms
+Add-Type -AssemblyName System.Drawing
+
+# --- Set TimeOut ---
+$setTimeoutInSeconds = 5
+
+# --- Win32 BlockInput API ---
+Add-Type @"
+using System.Runtime.InteropServices;
+public static class InputBlocker {
+    [DllImport("user32.dll")]
+    public static extern bool BlockInput(bool fBlockIt);
+}
+"@
+
+# --- Create Form ---
+$form = New-Object System.Windows.Forms.Form
+$form.Text = "System Modal Window"
+$form.Size = New-Object System.Drawing.Size(400,200)
+$form.StartPosition = "CenterScreen"
+$form.TopMost = $true
+$form.FormBorderStyle = "FixedDialog"
+$form.ControlBox = $true   # user can close after input is restored
+
+# --- Label ---
+$label = New-Object System.Windows.Forms.Label
+$label.Text = "Input is locked for $setTimeoutInSeconds seconds."
+$label.AutoSize = $true
+$label.Location = New-Object System.Drawing.Point(100,60)
+
+$form.Controls.Add($label)
+
+# --- Timer: re-enable input after timeout ---
+$timer = New-Object System.Windows.Forms.Timer
+$timer.Interval = $setTimeoutInSeconds*1000
+
+$timer.Add_Tick({
+    $timer.Stop()
+
+    # Always marshal to UI thread
+    $form.BeginInvoke([Action]{
+        [InputBlocker]::BlockInput($false)
+        $label.Text = "Input restored. You may now interact."
+    })
+})
+
+$timer.Start()
+
+# --- BLOCK INPUT (GLOBAL) ---
+[InputBlocker]::BlockInput($true)
+
+# --- SHOW MODAL WINDOW ---
+$form.ShowDialog()
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933740/how-to-create-a-reminder-that-behaves-like-the-auto-shutdown-warning
+
+---
+
+#### 682. Where does Windows 10 store data for pinned tiles in the “Start” menu?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, start-menu, live-tiles | Score: 3 | Views: 519 | Answers: 1 | Created: 2025-10-18
+
+**解决方案 / Solution**:
+Start layout data is stored under:
+%LocalAppData%\Microsoft\Windows\Shell\DefaultLayouts.xml
+%LocalAppData%\Microsoft\Windows\Shell\LayoutModification.xml
+%LocalAppData%\Microsoft\Windows\Shell\LayoutDB\
+
+Mostly:
+%LocalAppData%\Microsoft\Windows\Shell\LayoutModification.xml
+
+Or in:
+%LocalAppData%\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\LocalState\
+
+where start.bin and related files hold tile positions, groups, and pin states.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926897/where-does-windows-10-store-data-for-pinned-tiles-in-the-start-menu
+
+---
+
+#### 683. Windows 10 NTP client does not accept valid NTP server answer
+
+**问题描述 / Problem Description**:
+Tags: windows-10, networking, ntp | Score: 3 | Views: 284 | Answers: 2 | Created: 2025-09-30
+
+**解决方案 / Solution**:
+The response is most likely ignored because the server reports 143 seconds as its 'root dispersion', which is not OK at all – for a reliable NTP server this value should be milliseconds at most (even my cheap Mikrotik hEX manages to stay within the 0.02–0.04s range), and Windows seems to have a hard maximum of 16s before it discards the response.
+(Which is already larger than some other NTP clients allow, e.g. systemd-timesyncd appears to have a limit of 5s – although in your other thread I see that you've manually raised that limit to bypass the check. So your "works fine on Arch" turns out to mean "you forced it to work even if it was not fine at all".)
+Check your router's /system/ntp/monitor-peers and /system/ntp/client/print. Either the router can't manage to keep time, or its upstream servers are bad, or maybe the network between them is too unreliable.
+I don't understand dispersion and other NTP parameters all that well, but there are better explanations elsewhere:
+
+https://serverfault.com/questions/768280/what-is-ntp-dispersion-and-how-do-i-control-it
+https://blog.meinbergglobal.com/2021/02/25/the-root-of-all-timing-understanding-root-delay-and-root-dispersion-in-ntp/
+https://www.dell.com/support/kbdoc/en-us/000197889/powerstore-time-services-will-not-sync-with-active-directory-ntp-server-since-root-dispersion-is-greater-than-10-seconds
+
+**参考链接 / References**:
+- https://superuser.com/questions/1925862/windows-10-ntp-client-does-not-accept-valid-ntp-server-answer
+
+---
+
+#### 684. Can't hibernate Windows 10 computer after ssd migration
+
+**问题描述 / Problem Description**:
+Tags: windows-10, hard-drive, boot, hibernate | Score: 3 | Views: 153 | Answers: 1 | Created: 2025-09-29
+
+**解决方案 / Solution**:
+I got it fixed doing the same thing as in this answer
+The EFI partition flag was not set, I assume i didn't set it properly after cloning or maybe I did something wrong in the process
+
+**参考链接 / References**:
+- https://superuser.com/questions/1925771/cant-hibernate-windows-10-computer-after-ssd-migration
+
+---
+
+#### 685. Remove/hide One Drive folder in file explorer
+
+**问题描述 / Problem Description**:
+Tags: windows-registry, windows-server, group-policy | Score: 3 | Views: 3714 | Answers: 3 | Created: 2023-09-26
+
+**解决方案 / Solution**:
+I'm on Windows 10 Home, so no access to Group Policy editor, but the registry key:
+
+[HKCU|HKLM]\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\NonEnum
+
+can hide folders nomally displayed in the Navigation Pane.
+The entries under this key are CLSID-named DWORD values. I've successfully hidden This PC, Libraries, OneDrive Personal, etc. A value of 1 hides the folder. A value of zero (or deleting an entry) allows it to show. Here, I've hiddon OneDrive for just my profile:
+
+I don't know where you'll find this in the policy editor, or the CLSID for OneDrive Business, but hopefully this is enough to help.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1810014/remove-hide-one-drive-folder-in-file-explorer
+
+---
+
+#### 686. Can ApplicationPoolIdentity be used to read/write files from/to a folder over network?
+
+**问题描述 / Problem Description**:
+Tags: networking, security, iis, windows-server | Score: 3 | Views: 4724 | Answers: 1 | Created: 2023-05-17
+
+**解决方案 / Solution**:
+The way your IIS server is currently set up is somewhat correct
+in that a custom account is used as the pool identity,
+but the permissions are excessive.
+You should not take the easy route of adding permissions until
+your program works,
+and it's a mistake to assign them to the
+default identity so that all new pools will also have those
+permissions.
+You should read the Microsoft article
+Application Pool Identities.
+Here are some quotes :
+
+What about Application Pool Identities?
+The good news is that application pool identities also use the machine
+account to access network resources. No changes are required.
+
+For making this work then, all you need to do is on the computer
+housing the share, is to right-click the Shared Folder,
+select Properties > security > edit > add > object types >
+Computers, and enter the computer name where your application is working from.
+There is an excellent answer on the post
+IIS AppPoolIdentity and file system write access permissions
+that summarizes the right way for such setup, if you prefer
+avoiding default identities and permissions.
+Below is quoted a part of this answer:
+
+In a shared environment where you possibly have several hundred sites,
+each with their own application pool and Application Pool Identity,
+you would store the site folders in a folder or volume that has had
+the Users group removed and the permissions set such that only
+Administrators and the SYSTEM account have access (with inheritance).
+You would then individually assign the requisite permissions each IIS AppPool\[name] requires on it's site root folder.
+You should also ensure that any folders you create where you store
+potentially sensitive files or data have the Users group removed.
+You should also make sure that any applications that you install don't
+store sensitive data in their c:\program files\[app name] folders
+and that they use the user profile folders instead.
+
+References :
+
+Application Pool Identities
+Understanding identities in IIS
+Permissions for Shared Folder for IIS 7 Application Pool Identity Across Domain
+
+**参考链接 / References**:
+- https://superuser.com/questions/1784495/can-applicationpoolidentity-be-used-to-read-write-files-from-to-a-folder-over-ne
+
+---
+
+#### 687. What determines whether Windows enables CompactOS automatically, and can OEMs control it?
+
+**问题描述 / Problem Description**:
+Tags: windows, compression | Score: 2 | Views: 679 | Answers: 2 | Created: 2026-02-11
+
+**解决方案 / Solution**:
+CompactOS is intended primarily for deployment  of Windows to a new, subpar, PC. It can create an image, such as a WIM file, to install Windows de novo, though it can also be switched on or off after installation. Microsoft states, "Compact OS installs the operating system files as compressed files... Windows update can replace or remove individual files as needed to help maintain the drive footprint size over time." Yes, MS can remove OS files through update.
+Some laptops and tablets are sold with absolutely minimal memory and drive space. Though some modern operating systems such as versions of Linux might run on 4 GB of RAM or less, and with less than 40 GB of storage, Windows now requires far more resources.
+As an example, on one Windows 10 PC, there are 284 services installed (though not all are active at once), from ActiveX Installer (AxInstSV) to Xbox Live Networking Service... and Windows 11 has added many more servies, and some, such as Copilot, are highly resource intensive.
+So, yes, you could enable CompactOS, but Microsoft also warns that even using that technology, an under-powered PC will soon outgrow resources as the updates, history, Restore Points, logs and caches fill up space.
+How much space would be saved? MS states a fresh install of Windows 10 Home on a PC with 4GB RAM uses 15.06GB drive space initially, and implementing CompactOS decreases that to 11.3GB. Saving 3.7GB hardly seems worthwhile, given that the OS size grows with use. But you could experiment, and report back as an answer results on your PC.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934809/what-determines-whether-windows-enables-compactos-automatically-and-can-oems-co
+
+---
+
+#### 688. Why does remote desktop ask the for password again?
+
+**问题描述 / Problem Description**:
+Tags: windows, remote-desktop, credentials, windows-server-2025 | Score: 2 | Views: 300 | Answers: 1 | Created: 2026-02-08
+
+**解决方案 / Solution**:
+@PaulNeralich Found the answer - we had Symantec PGP Desktop installed, and people have reported it causes this issue. Uninstalling fixed it. – wezten
+
+This issue was caused by Symantec PGP Desktop. After uninstalling it, Remote Desktop stopped prompting for credentials repeatedly and began reusing saved credentials as expected.
+If you're experiencing persistent RDP password prompts and standard credential troubleshooting doesn’t resolve it, check for third-party encryption or endpoint security software that may be interfering with authentication behavior.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934706/why-does-remote-desktop-ask-the-for-password-again
+
+---
+
+#### 689. Windows Explorer becomes progressively slower over time at entering any folder; restarting explorer.exe only helps temporarily
+
+**问题描述 / Problem Description**:
+Tags: windows, performance, windows-explorer | Score: 2 | Views: 185 | Answers: 1 | Created: 2026-02-05
+
+**解决方案 / Solution**:
+Is this another “incentive” mechanism to encourage Windows 11 adoption?
+
+No, Explorer already had the issue even before Windows 11 got released, e.g. see Explorer is slow to open new window on Windows 10: what could the issue be?
+
+Operations that are initially instantaneous degrade into noticeable delays after normal day-to-day use.
+
+I've had the exact same issue for years on Windows 10. Only fix was restarting or using some Explorer alternatives such as Explorer++ or OneCommander (both are gratis and have a portable version).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934576/windows-explorer-becomes-progressively-slower-over-time-at-entering-any-folder
+
+---
+
+#### 690. Is there a more precise way to figure out if an architecture's packages are available natively on winget?
+
+**问题描述 / Problem Description**:
+Tags: windows, package-management, winget | Score: 2 | Views: 167 | Answers: 1 | Created: 2026-01-28
+
+**解决方案 / Solution**:
+Did a little bit of digging with the examples I'd tested, and looking at the help options - winget show --help lists the   -a,--architecture option.
+Using that with mp3tag as an example  winget show -a arm64  FlorianHeidenreich.Mp3tag - it shows
+Installer:
+  No applicable installer found; see logs for more details.
+
+While one can run x86 applications with emulation on windows arm, and it shows the x86 installer when there's no other options, the output for tailscale (with its multi-architecture platform) and 7zip are identical if you filter for architecture on winget show.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934247/is-there-a-more-precise-way-to-figure-out-if-an-architectures-packages-are-avai
+
+---
+
+#### 691. How to pipe binary data from Linux to Windows over ssh?
+
+**问题描述 / Problem Description**:
+Tags: linux, windows, ssh, powershell-5.0 | Score: 2 | Views: 60 | Answers: 1 | Created: 2026-01-21
+
+**解决方案 / Solution**:
+This does the trick
+pass secrets/cert.pfx | ssh win_pc "powershell -NoProfile -Command '[Console]::OpenStandardInput().CopyTo([IO.File]::Create(\\\"c:/cert.pfx\\\"))'"
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933979/how-to-pipe-binary-data-from-linux-to-windows-over-ssh
+
+---
+
+#### 692. Replace the administrator account on a used laptop
+
+**问题描述 / Problem Description**:
+Tags: windows | Score: 2 | Views: 95 | Answers: 1 | Created: 2026-01-14
+
+**解决方案 / Solution**:
+With most modern versions of windows, you generally have a very very easy way to do a reset of a machine to a fresh state - aka windows reset
+On windows 11, you could even get the machine to download fresh install files to do an install (aka a cloud install).
+Otherwise, with a digital licence, a fresh install will keep activation states even if you reformat, and this is the best way to remove the existing account.
+As for drivers - you can either dump out old drivers - with powershell or  download it from the OEM.
+Sometimes its just easier and better to start from a fresh slate than struggle with something that's obviously not working
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933709/replace-the-administrator-account-on-a-used-laptop
+
+---
+
+#### 693. Unable to detach Snipping Tool from PrintScreen button
+
+**问题描述 / Problem Description**:
+Tags: windows-11, snipping-tool, print-screen | Score: 2 | Views: 469 | Answers: 1 | Created: 2026-01-09
+
+**解决方案 / Solution**:
+It was a BIOS/UEFI firmware setting.
+After spending a full workday tracking down this issue...
+To detach Snipping Tool from Print Screen on modern Lenovo Win11 machines, you need to go Settings -> System -> Recovery -> Advanced Startup -> Restart Now -> Troubleshooting -> Advanced -> UEFI Firmware Settings -> Restart -> Configuration -> Scroll down until you find "Fool Proof Fn Ctrl" and disable it.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933471/unable-to-detach-snipping-tool-from-printscreen-button
+
+---
+
+#### 694. Why does my new monitor turns back on as soon as it goes into standby?
+
+**问题描述 / Problem Description**:
+Tags: windows, display, windows-11, hdmi, displayport | Score: 2 | Views: 166 | Answers: 1 | Created: 2026-01-07
+
+**解决方案 / Solution**:
+What ended up working was changing the time in power management’s “turn the display off after X minutes” to a value other than 5 minutes. I’ve tried both 3 and 7 minutes, and both have worked perfectly.
+I suspect, as LPChip suggested, that windows and/pr my monitor runs some maintenance task at exactly 5 minutes which was interfering.
+I was able to set 7 minutes as the timer even though it’s not in the drop-down menu by using this command:
+powercfg -change -monitor-timeout-ac 7
+I think there’s also a command for adjusting the timeout duration if your pc is on battery (in the case of a laptop) where the “ac” in the command is changed to a dc. However since I’m using a desktop tower pc, this was not applicable to my case.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933402/why-does-my-new-monitor-turns-back-on-as-soon-as-it-goes-into-standby
+
+---
+
+#### 695. What is causing my HDD to be missing 3 TB of usable space on my Windows 10 Pro machine?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, hard-drive, disk-space | Score: 2 | Views: 137 | Answers: 1 | Created: 2025-10-01
+
+**解决方案 / Solution**:
+Per Ramhound's suggestion I tried WizTree, and found an odd repeating Application Data folder in my backup folder.  This backup folder is maintained using a bat file with a bunch of RoboCopy calls on another computer that backs up my "users" folder, so I'm guessing some kind of oddness was caused by that when it ran across the "Application Data" shortcut:
+ROBOCOPY "c:\Users\Nicholas\AppData" "\#serverName#\Nicholas#backupFolder#\Users\Nicholas\AppData" . /MIR /R:1 /W:1 /NP /xf *.tmp
+I deleted the Application Data folder in my backup folder, and modified my backup script to add " /XJ" to the end of the RoboCopy call.  So far all looks good.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1925945/what-is-causing-my-hdd-to-be-missing-3-tb-of-usable-space-on-my-windows-10-pro-m
+
+---
+
+#### 696. Is my new SSD bad or broken?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, hard-drive, ssd | Score: 2 | Views: 212 | Answers: 2 | Created: 2025-09-28
+
+**解决方案 / Solution**:
+Generally, if you get this sort of behavior on a "new" drive, you should pursue return or exchange through the store you purchased it from, or warranty support through the manufacturer.
+Given that the brand's own utility reports the drive is bad, you now know either or both of two primary things:
+
+This is fake drive masquerading as an ADATA drive, and it's bad.
+This is an ADATA drive and it's DoA (Dead on Arrival).
+
+Regardless, the correct course of action is to go back to the seller, and then to ADATA.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1925707/is-my-new-ssd-bad-or-broken
+
+---
+
+#### 697. Why am I unable to delete a file on Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows-10 | Score: 2 | Views: 168 | Answers: 2 | Created: 2025-09-26
+
+**解决方案 / Solution**:
+Here's the answer version of my comment. I did not have enough time to properly write an answer, but given that you figured it out now, here's the answer.
+Aux is a special name, and windows thinks this is a device, so it tries to communicate with the device, which is where the weird error comes from. You should be able to delete it using: \?\c:/i/aux.c
+Replace the path with the actual path of course.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1925607/why-am-i-unable-to-delete-a-file-on-windows
+
+---
+
+#### 698. Extended Security Updates (ESU) enrollment fails with "it doesn't look like you're connected to the internet"
+
+**问题描述 / Problem Description**:
+Tags: windows-10, networking, esu | Score: 2 | Views: 954 | Answers: 1 | Created: 2025-09-25
+
+**解决方案 / Solution**:
+I have encountered this problem too. It seems to be a problem related to Microsoft account and I solved it by doing these:
+
+Log out the Microsoft account on this Windows 10 PC;
+Check the information under Windows Settings -> Systems -> Shared experiences -> Accounts, make sure all accounts are working correctly, if not, just delete extra Microsoft account;
+Go to Windows Settings -> Update and Security -> Windows Update, click the "Enroll now" button under "Windows 10 support ends in October 2025". You will need to login your Microsoft account and "it doesn't look like you're connected to the internet" won't show up again.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1925489/extended-security-updates-esu-enrollment-fails-with-it-doesnt-look-like-you
+
+---
+
+#### 699. Why a unlocking a locked out local account on a Windows Server immediately gets locked out again?
+
+**问题描述 / Problem Description**:
+Tags: remote-desktop, user-accounts, windows-server, windows-server-2022 | Score: 2 | Views: 5763 | Answers: 1 | Created: 2023-09-30
+
+**解决方案 / Solution**:
+I found this Thread that shows a goup policy that you can disable... worked for me and I can now log into my admin account via RDP.
+https://support.microsoft.com/en-us/topic/kb5020282-account-lockout-available-for-built-in-local-administrators-bce45c4d-f28d-43ad-b6fe-70156cb2dc00
+
+**参考链接 / References**:
+- https://superuser.com/questions/1810650/why-a-unlocking-a-locked-out-local-account-on-a-windows-server-immediately-gets
+
+---
+
+#### 700. How to associate a private key (.key) file to a ssl certificate (from GoDaddy) to install on IIS
+
+**问题描述 / Problem Description**:
+Tags: openssl, iis, windows-server, ssl-certificate | Score: 2 | Views: 27123 | Answers: 1 | Created: 2023-02-16
+
+**解决方案 / Solution**:
+If you've overwritten your original .key file, then you are out of luck.  Unless you have a backup, the certificate is now useless.
+Assuming you have the original...
+You first need to join your original .key file with the .pem received from GoDaddy to create a PKCS#12 file:
+openssl.exe pkcs12 -export -in sslcert.pem -inkey sslcert.key -out sslcert.pfx -passout pass:password 
+
+(Note: if you're using OpenSSL version 3 and/or older versions of Windows, you may need to append -nomac -certpbe PBE-SHA1-3DES -keypbe PBE-SHA1-3DES to the above command)
+Next, double-click on the created .pfx file to import it.  In the import wizard, choose Local Machine and click on Next. On the next page, click Next again.  On the Private key protection page, enter password in the Password box and click on Next.  On the Certificate Store page, select Place all certificates in the following store, click Browse and choose Personal before clicking OK to close the selection dialogue, then clicking Next.  Click Finish.
+You now need to import the intermediate CA certificate into the store.  Double-click on the received .p7b file to open it.  In the certmgr window that appears, double-click on Certificates.  A list of certificates stored in the p7b will appear.  Double-click on the intermediate CA to open it.  The intermediate CA is the one where the Issued To and Issued By differ.  On the one I've just downloaded from GoDaddy, the certificate is issued to Go Daddy Secure Certificate Authority - G2, but yours might be different.  Once the certificate is displayed, click on Install Certificate....  A dialogue, similar to the one used to import the pfx above opens.  On the welcome page, select Local Machine and click Next. On the Certificate Store page, select Place all certificates in the following store, click Browse and choose Intermediate Certification Authorities before clicking OK to close the selection dialogue, then clicking Next.  Click Finish.
+Now, move to IIS Manager and navigate to the site to which this certificate will be bound.  Click on Bindings... in the Actions tab (right-hand pane), select the https binding and click Edit....  In Edit Site Binding dialogue, your imported certificate should be visible under SSL certificate.  Select it, then click OK, then Close.
+Once you've verified everything is working, you need to delete the .key file as it has the private key in clear-text, and the .pfx file as it is protected by the password "password".  Alternatively, create the .pfx with a better password and store it somewhere safe in-case you need it to restore your IIS server at some point.
+For future reference, it would be easier to generate the certification request using Windows native tools.  That way, the private key is already in the Windows store and all you need to do is import the returned certificate, maybe the intermediate CA (if GoDaddy have changed it) and bind the certificate to IIS.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1768953/how-to-associate-a-private-key-key-file-to-a-ssl-certificate-from-godaddy-t
+
+---
+
+#### 701. How to add a user group in the "Shut down the system" group policy in Windows Server by CMD or PowerShell
+
+**问题描述 / Problem Description**:
+Tags: powershell, group-policy, windows-server | Score: 2 | Views: 1445 | Answers: 1 | Created: 2022-11-25
+
+**解决方案 / Solution**:
+Windows provides the secedit.exe tool for this and or custom code, as per the link provided in my comment to you.
+Also, did you check the mspowershellgallery.com site for modules that assist with local user security policy?
+Find-Module -Name '*sec*pol*'
+# Results
+<#
+Version  Name                    Repository Description                                                                                                
+-------  ----                    ---------- -----------                                                                                                
+2.10.0.0 SecurityPolicyDsc       PSGallery  This module is a wrapper around secedit.exe which provides the ability to configure user rights assignments
+1.3.2    Indented.SecurityPolicy PSGallery  Security management functions and resources                                                                
+0.0.12   SecurityPolicy          PSGallery  Module that allows getting, adding and removing User Rights Assignment without using secedit.exe
+#>
+
+and
+Find-Module -Name '*rights*'
+# Results
+<#
+Version Name                        Repository Description
+------- ----                        ---------- -----------
+1.0.2   cUserRightsAssignment       PSGallery  The cUserRightsAssignment module contains the cUserRight DSC resource ...
+1.0.0   UserRightsAssignment        PSGallery  Analyze the effective User Rights Assignments on a computer and compare results
+1.0.1   KMaks.ActiveDirectoryRights PSGallery  This module helps with ActiveDirectory ACL auditing.
+#>
+
+Update as per '@Vomit IT - Chunky Mess Style', suggestion.
+# Doing this with Secedit and Powershell - something I used in the past
+
+#Get SID from current user
+$objUser = New-Object System.Security.Principal.NTAccount("$ENV:userdomain\$ENV:username")
+$strSID = $objUser.Translate([System.Security.Principal.SecurityIdentifier])
+$MySID = $strSID.Value
+
+#Get list of currently used SIDs
+secedit /export /cfg tempexport.inf
+$curSIDs = Select-String .\tempexport.inf -Pattern "SeShutdownPrivilege "
+$Sids = $curSIDs.line
+copy .\LogOnAsAService.inf .\LogOnAsAServiceTemplate.inf
+add-content .\LogOnAsAServiceTemplate.inf "$Sids,*$MySID"
+
+$scriptPath = split-path -parent $MyInvocation.MyCommand.Definition
+secedit /import /db secedit.sdb /cfg "$scriptPath\LogOnAsAServiceTemplate.inf"
+secedit /configure /db secedit.sdb
+
+gpupdate /force
+
+The more succinct/elegant option.
+# Using one of the modules - just replace the right needed.
+Find-Module -Name 'SecurityPolicy' | 
+Install-Module -Force
+
+Get-Command -Module 'SecurityPolicy'
+# Results
+<#
+CommandType Name                        Version Source        
+----------- ----                        ------- ------        
+Function    Add-UserRightsAssignment    0.0.12  SecurityPolicy
+Function    Get-SecurityPolicy          0.0.12  SecurityPolicy
+Function    Get-UserRightsAssignment    0.0.12  SecurityPolicy
+Function    Remove-UserRightsAssignment 0.0.12  SecurityPolicy
+Function    Set-SecurityPolicy          0.0.12  SecurityPolicy
+Function    Set-UserRightsAssignment    0.0.12  SecurityPolicy
+#>
+
+Get-Help -Name 'Add-UserRightsAssignment' -Examples
+# Results
+<#
+    -------------------------- EXAMPLE 1 --------------------------
+    
+    PS C:\>Add-UserRightsAssignment -UserRightsAssignment SeBackupPrivilege -Identity "Evotec\Administrator"
+#>
+
+FYI --- Update for '@Vomit IT - Chunky Mess Style'.
+Using the PS_LSA.Wrapper
+Add-Type @'
+    lots of library code here
+'@
+
+$LocalUserRights = New-Object PS_LSA.LsaWrapper($env:COMPUTERNAME)
+
+$LocalUserRights | 
+Get-Member
+# Results
+<#
+   TypeName: PS_LSA.LsaWrapper
+
+Name                           MemberType   Definition                                                      
+----                           ----------   ----------                                                      
+AddPrivilege                   Method       void AddPrivilege(string account, PS_LSA.Rights privilege)      
+...                     
+EnumerateAccountPrivileges     Method       PS_LSA.Rights[] EnumerateAccountPrivileges(string account)      
+EnumerateAccountsWithUserRight Method       string[] EnumerateAccountsWithUserRight(PS_LSA.Rights privilege)
+...                                                 
+RemovePrivilege                Method       void RemovePrivilege(string account, PS_LSA.Rights privilege)   
+...
+#>
+
+# Examples:
+
+$LocalUserRights = New-Object PS_LSA.LsaWrapper($env:COMPUTERNAME)
+
+$LocalUserRights.AddPrivilege("$env:COMPUTERNAME\$env:USERNAME", "SeBatchLogonRight")
+$LocalUserRights.RemovePrivilege("$env:COMPUTERNAME\$env:USERNAME", "SeBatchLogonRight")
+
+**参考链接 / References**:
+- https://superuser.com/questions/1754682/how-to-add-a-user-group-in-the-shut-down-the-system-group-policy-in-windows-se
+
+---
+
+#### 702. PC gets stuck in a boot loop - stable on BIOS screen
+
+**问题描述 / Problem Description**:
+Tags: windows, boot, troubleshooting, desktop-computer | Score: 1 | Views: 236 | Answers: 3 | Created: 2026-02-03
+
+**解决方案 / Solution**:
+We always start with easy/simple things, and move up towards more difficult/expensive fixes.
+Simple things to check first: Create a "Live USB" using Ubuntu or another Linux distribution and boot to it. If you can boot successfully to a live Linux OS the problem is your OS software or your Hard Drive. Start by trying a Windows Repair, and if that fails, test your drive for errors.
+More complex things: Use a tool such as memtest86 to run a rigorous test on your RAM. Swap your RAM entirely, then your CPU, then your mainboard if you haven't found the problem yet.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934509/pc-gets-stuck-in-a-boot-loop-stable-on-bios-screen
+
+---
+
+#### 703. Users in a cloned system / no access to SMB shares
+
+**问题描述 / Problem Description**:
+Tags: remote-desktop, windows-11, samba, disk-cloning, credentials | Score: 1 | Views: 94 | Answers: 1 | Created: 2026-01-26
+
+**解决方案 / Solution**:
+Resetting the system SID did solve the problem, even though Mark Russinovich himself claims that this should no longer be necessary 'except for domain controllers'. While I only have a local workgroup, perhaps one of the machines is the acting controller for the workgroup and that has a similar effect?
+I did run the last published version of New SID, but either because it is no longer compatible or because I made a mistake, this ended up messing up my system beyond repair. After cloning the system again, I used the trial version of SIDCHG64, which did the job. Now both the shares and the remote desktop connection work.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934170/users-in-a-cloned-system-no-access-to-smb-shares
+
+---
+
+#### 704. Swap Caps Lock and Escape on Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows, keyboard | Score: 1 | Views: 23 | Answers: 2 | Created: 2026-01-23
+
+**解决方案 / Solution**:
+One way is to create the following AutoHotKey 2 script:
+# See https://stackoverflow.com/a/68090565/1719931
+$Capslock::Esc
+$Esc::Capslock
+
+Create a link to the script and move it into shell:startup folder to start it at system login.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934070/swap-caps-lock-and-escape-on-windows
+
+---
+
+#### 705. Why doesn’t my PC fully sleep/hibernate as of recently?
+
+**问题描述 / Problem Description**:
+Tags: windows, sleep, hibernate | Score: 1 | Views: 108 | Answers: 2 | Created: 2026-01-20
+
+**解决方案 / Solution**:
+Have you tried pressing fn-pause-break? If you don't have pause break, set your sleep mode to sleep after a certain amount of idle time. This is  done via settings.
+If that doesn't persist to work, try entering the BIOS and exiting out, I  had the same problem a few years back that fixed it.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933915/why-doesn-t-my-pc-fully-sleep-hibernate-as-of-recently
+
+---
+
+#### 706. Horizontal multi-colored horizontal lines: Is this a failing screen or a cable/GPU issue?
+
+**问题描述 / Problem Description**:
+Tags: laptop, display, windows-11, gpu, cable | Score: 1 | Views: 121 | Answers: 1 | Created: 2026-01-13
+
+**解决方案 / Solution**:
+How can I tell if it is a failing screen or a cable/GPU issue, without having to manually check the hardware myself (i.e., without having to open the laptop)?
+You use the normal methods of isolating software:
+
+Run a different OS, such as a Live distro of Linux.
+Update the graphics drivers and all system firmware.
+Reset Windows.
+
+If the problems remain after any of those, the problem is more likely with your hardware.
+Note that different OSes will utilize the hardware differently, so a problem with the GPU in one OS doesn't always mean you'll see the same symptoms in a different OS. But it can be a tell, a data point. If the problem doesn't happen in a different OS, try a complete refresh of your current OS. If the problem goes away, it was probably the old OS, but if it doesn't, it is probably just some part of the GPU the other OS wasn't utilizing in the same way, and it is still a hardware issue.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933661/horizontal-multi-colored-horizontal-lines-is-this-a-failing-screen-or-a-cable-g
+
+---
+
+#### 707. Do Windows, macOS, or Linux provide built-in ways to draw a persistent colored border around the entire screen?
+
+**问题描述 / Problem Description**:
+Tags: windows, macos, window-manager, secret | Score: 1 | Views: 47 | Answers: 1 | Created: 2026-01-13
+
+**解决方案 / Solution**:
+There are security tool such as SandBoxie that draw borders around apps running inside that virtual environment, but a border proves nothing. Zoom Workplace shared screens also have a border, as shown below.
+
+It is a convention that showing one screen in another application displays a border, but nothing more.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933637/do-windows-macos-or-linux-provide-built-in-ways-to-draw-a-persistent-colored-b
+
+---
+
+#### 708. How can I configure Windows to retain the TPM Owner Password on installation of Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, passwords, tpm, windows-11-24h2 | Score: 1 | Views: 168 | Answers: 1 | Created: 2026-01-11
+
+**解决方案 / Solution**:
+How can I configure Windows to retain the TPM Owner Password on installation of Windows?
+
+You cannot without a complete reinstall of Windows 11. You would also have to also re-initialize the TPM making sure you set a TPM Owner Password.
+A work around would be to set the lockout period with the appropriate Group Policy (Standard User Lockout Duration) to a different value.
+If you know the TPM Owner Password you can reset it with Windows Defender Security Center.
+
+An administrator with the TPM owner password can fully reset the TPM's hardware lockout logic by using the Windows Defender Security Center.
+
+You can change the default behavior by setting the appropriate group policy here but it still requires you to know the TPM Owner Password since it’s not stored in the registry by default.
+In order to change the default configuration you would need to of course know the password to store it. It might be easier to just use the device in a way, to prevent the TPM lockout, and replace the battery at your earliest opportunity.
+The documentation here indicates how to change the default behavior of not storing the TPM Owner Password. If this isn’t your personal device you obviously shouldn’t re-initialize the TPM and reinstall Windows 11.
+
+Although the TPM owner password isn't retained starting with Windows 10, version 1607, you can change a default registry key to retain it. However, we strongly recommend that you don't make this change. To retain the TPM owner password, under the registry key HKLM\Software\Policies\Microsoft\TPM, create a REG_DWORD value of OSManagedAuthLevel and set it to 4.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933548/how-can-i-configure-windows-to-retain-the-tpm-owner-password-on-installation-of
+
+---
+
+#### 709. How to uninstall Snipping tool?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, snipping-tool | Score: 1 | Views: 458 | Answers: 1 | Created: 2026-01-09
+
+**解决方案 / Solution**:
+You should be able to use PowerShell to remove the Snipping Tool.
+
+Press Windows, type powers, select PowerShell, then press CtrlShiftEnter to run it as Administrator.
+
+In PowerShell, enter the following, and press Enter to execute it.
+get-appxpackage *ScreenSketch* | remove-appxpackage
+
+
+Confirm it's gone by entering get-appxpackage *screensk*. Nothing should be returned.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933474/how-to-uninstall-snipping-tool
+
+---
+
+#### 710. Why is my Windows 10 taskbar empty after a restart?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, taskbar | Score: 1 | Views: 228 | Answers: 1 | Created: 2025-11-03
+
+**解决方案 / Solution**:
+Look to Startup processes... something appears to be taking 30 minutes to finish after boot. It could be searching for network drives, external drives, cloud storage or other resources that have been removed, and gives up after 1,800 seconds.
+It could be Windows Search Indexing, CHKDSK, antivirus or other utility waiting to finish, or an application that's set itself to run at startup, and cannot run because of a race condition, i.e., it tries to start immediately, but requires some dependency that it blocks from starting.
+Use Task Manager or Process Explorer to list running processes, but the most valuable tool is Windows/Sysinternals' Autoruns, which shows all trying to run during boot-up and login, and also allows startup of a process to be disabled, without completely deleting it, so it is easy to revert if a process is not at fault.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929634/why-is-my-windows-10-taskbar-empty-after-a-restart
+
+---
+
+#### 711. 10 GB hidden file named "D" in C:/Windows directory
+
+**问题描述 / Problem Description**:
+Tags: windows-10, filesystems, virus, malware | Score: 1 | Views: 453 | Answers: 3 | Created: 2025-10-30
+
+**解决方案 / Solution**:
+Make backup of important files first and then run:
+chkdsk c: /f
+
+from elevated command prompt and restart computer to scan the disk for problems.
+This will fix file system (accept the fixes) and then we will know more to help - if the file still remain on the disk.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929474/10-gb-hidden-file-named-d-in-c-windows-directory
+
+---
+
+#### 712. Restrict a Local Windows 10/11 user from using RDP FROM its localhost
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, remote-desktop, windows-11, user-accounts | Score: 1 | Views: 328 | Answers: 1 | Created: 2025-10-20
+
+**解决方案 / Solution**:
+As a workaround you could restrict access to the RDP client for certain users via NTFS permissions:
+
+locate RDP client: C:\Windows\System32\mstsc.exe
+choose advanced security settings (right click -> Properties -> Security -> Advanced)
+add user or group which you want to exclude
+set Deny for Read & Execute
+
+Note that alternative clients still will be able to run, you can restrict access further by blocking outbound TCP 3389 through the firewall.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926981/restrict-a-local-windows-10-11-user-from-using-rdp-from-its-localhost
+
+---
+
+#### 713. How to remove old Unknown USB devices from the list of COM ports?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, usb, powershell, device-manager, com | Score: 1 | Views: 320 | Answers: 1 | Created: 2025-10-14
+
+**解决方案 / Solution**:
+You can remove any or all USB devices from the list in the Registry, USBSTOR. Two ways to do so:
+
+Open Regedit to HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USB\ and to HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USBSTOR, find the USB device in each and delete its key.
+
+Download Nirsoft's free tool, USBDeview, find the USB device in the list, right-click on it, and select Uninstall Selected Devices.
+
+
+
+What would happen if a vital USB device were to be accidentally removed from that list? In almost all cases, Windows will recognize the device and reinstall it automatically, as soon as the device is connected. (I've never had an issue where a device did not get reinstalled.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926661/how-to-remove-old-unknown-usb-devices-from-the-list-of-com-ports
+
+---
+
+#### 714. Windows 10 Slow Boot - 100% Drive Usage
+
+**问题描述 / Problem Description**:
+Tags: windows-10 | Score: 1 | Views: 167 | Answers: 2 | Created: 2025-10-13
+
+**解决方案 / Solution**:
+Check the S.M.A.R.T. drive diagnostics. This can be done a few ways.
+
+To get a simple go/no go indication, open CMD prompt and enter wmic diskdrive get model,name,serialnumber,status
+
+For a somewhat more detailed report, using Windows Performance  Monitor:
+
+Press Windows, type perfm, and select perfmon.msc or perfmon.exe (either works).
+
+
+Expand Data Collection Sets, System, right-click System Diagnostics, and Start collection. This might take a few minutes to complete.
+
+
+When it finishes, expand Reports, System, System Diagnostics, and <Machine_name> to view not only S.M.A.R.T. data, but other possible issues, as well.
+
+
+
+For a truly detailed report, use a third-party tool such as HWiNFO.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926587/windows-10-slow-boot-100-drive-usage
+
+---
+
+#### 715. include shadowing in rdp file
+
+**问题描述 / Problem Description**:
+Tags: windows-10, remote-desktop, windows-11 | Score: 1 | Views: 251 | Answers: 1 | Created: 2025-10-09
+
+**解决方案 / Solution**:
+Some special trickery may be needed. I don't think Windows 10 or 11 LTSC does this natively. You may find success with another remote tool.
+Shadowing for RDP is when there are multiple RDP users on a Windows Server. Workstations are normally single-user (Console session) so I don't think you can use the mstsc.exe /shadow:0 when the target is not a server. The console (the interactive logon) is also not an RDP session (you can't shadow console even on a server, you just connect to it and it locks the screen on interactive users).
+Second challenge, there are several Firewall rules to enable for RDP shadow including a service (named RdpSa ?)
+Third possible issue, if a UAC prompt opens, it will not show on the shadow.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926420/include-shadowing-in-rdp-file
+
+---
+
+#### 716. Why does my Razer mouse change DPI on boot until unplugging and replugging?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, mouse | Score: 1 | Views: 192 | Answers: 1 | Created: 2025-10-03
+
+**解决方案 / Solution**:
+It turns out a specialized firmware update, which JorgeLuiz recommended checking for, appears to have resolved the issue.  This was not available as a standard driver update and is available on Razer's website, if anyone happens to come across the same issue.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926084/why-does-my-razer-mouse-change-dpi-on-boot-until-unplugging-and-replugging
+
+---
+
+#### 717. Is not there any way to delete the Ethernet adapter in Windows 10?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, network-adapter | Score: 1 | Views: 118 | Answers: 1 | Created: 2025-09-30
+
+**解决方案 / Solution**:
+Nevertheless they said here or there, I see that the Ethernet adapter can't be uninstalled anymore, but it can be disabled. ( it is a part of windows definitions)
+But I wonder once I know at the beginning the ( Cloudflare_WARP) is the program which causes the occurrence of this adapter because in 2023 the same problem happened with me and in that time I returned my pc to such a previous restore point and got rid of.
+This time there is not such a successful restore point in my pc, so I formatted it, but the Ethernet adapter is still seen while troubleshooting the network   ?
+Consider the above just points of my view
+Solution : there is no solution
+
+**参考链接 / References**:
+- https://superuser.com/questions/1925855/is-not-there-any-way-to-delete-the-ethernet-adapter-in-windows-10
+
+---
+
+#### 718. In Windows 10 how I disable the search menu from searching local files?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, windows-search, file-search | Score: 1 | Views: 164 | Answers: 1 | Created: 2025-09-13
+
+**解决方案 / Solution**:
+To search only for apps or programs, click into the search bar, then click on apps on the top of the window. Or type "Apps:" then add your search query.
+You can similarly narrow down your search for Documents, Folders, Emails, Settings, Music and so on.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1924554/in-windows-10-how-i-disable-the-search-menu-from-searching-local-files
+
+---
+
+#### 719. How can I add a timestamp to a monitored command (like "netstat") in Windows commandline?
+
+**问题描述 / Problem Description**:
+Tags: windows, command-line, windows-server, windows-server-2019, netstat | Score: 1 | Views: 856 | Answers: 1 | Created: 2023-11-21
+
+**解决方案 / Solution**:
+Well, in PowerShell, you can literally do what's in your example using a while loop:
+while ($true) {
+    Get-Date
+    netstat -asdfgh
+    Start-Sleep 1
+}
+
+...that being said, I believe that's the entirely wrong approach. Socket listen failure is detectable – the respective functions will return an error – so if your program fails to listen on its configured port, on a server, it should generate its own log messages indicating that it has a problem.
+Those log messages would then include the time and date when the message was output. (If you can send messages to Windows Event Log – or to a Syslog collector – it would usually include the time/date automatically.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1817564/how-can-i-add-a-timestamp-to-a-monitored-command-like-netstat-in-windows-com
+
+---
+
+#### 720. Windows guest OS Power Plan on vmware: is there any real difference?
+
+**问题描述 / Problem Description**:
+Tags: windows, vmware, windows-server | Score: 1 | Views: 1616 | Answers: 2 | Created: 2023-09-26
+
+**解决方案 / Solution**:
+If you're asking whether the power plan in a Windows VM is important,
+then the answer would be that it's of a very minor importance.
+The real power plan is the one of the host. Whatever the VM thinks it's
+doing has not much importance, since not only it's the host's scheduler
+that handles CPU and I/O, but even its virtual CPUs are only processes
+started by VMware that emulate a CPU.
+So you might as well leave the power plan of the VM at High Performance.
+This will not cause any problem for the host.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1810109/windows-guest-os-power-plan-on-vmware-is-there-any-real-difference
 
 ---

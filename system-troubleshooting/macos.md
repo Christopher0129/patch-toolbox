@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 499**
+**总计条目 / Total entries: 560**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -10079,5 +10079,798 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1208941#reply3
+
+---
+
+#### 500. Adding "real" creation date to scanned "old"pictures
+
+**问题描述 / Problem Description**:
+Tags: macos, exif | Score: 9 | Views: 1098 | Answers: 3 | Created: 2026-03-30
+
+**解决方案 / Solution**:
+Unix timestamps (as used by touch ) can go before 1970 (thanks @slingerapp for pointing this out) but this is not relevant here. exiftool can be installed directly from the ExifTool Website as a standard macOS package, or via Homebrew / MacPorts . It allows to change the EXIF metadata of the picture, including the creation date. EXIF stores the same information in different tags, ideally all of them are updated to the same value. exiftool -DateTimeOriginal="2023:01:15 12:34:56" -CreateDate="2023:01:15 12:34:56" -MediaCreateDate="2023:01:15 12:34:56" /path/to/image.jpg PS: You need to do this before loading an image into Photos or similar. If it is already managed by Photos, export/copy it to a temporary folder, delete it in Photos, run exiftool and import it again.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486151/adding-real-creation-date-to-scanned-oldpictures
+
+---
+
+#### 501. What is a reliable way to get "last shutdown" time via shell script in macOS Tahoe 26.4?
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, shutdown, shortcuts-app, tahoe | Score: 6 | Views: 455 | Answers: 2 | Created: 2026-04-03
+
+**解决方案 / Solution**:
+last shutdown fails for me too (macOS 15.7.5 and 26.4). % last shutdown wtmp begins Fri 13 Feb 2026 12:10:07 AEDT However, last reboot | grep 'shutdown' returns all shutdown times. You can use last reboot | grep -m 1 shutdown | cut -c 44- to catch the most recent one. Since, as @Linc Davis says in his answer , this will not return power interruptions, you may prefer to parse last reboot which lists both orderly shutdowns and reboots. Example: % last reboot reboot time Wed 25 Mar 12:09 shutdown time Wed 25 Mar 12:03 reboot time Sat 21 Mar 08:08 reboot time Thu 12 Mar 09:54 shutdown time Thu 12 Mar 09:51 reboot time Fri 13 Feb 12:10 wtmp begins Fri 13 Feb 2026 12:10:07 AEDT Edit: Packaging one of the methods as a Shortcut: Of course, this only the most recent orderly shutdown.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486178/what-is-a-reliable-way-to-get-last-shutdown-time-via-shell-script-in-macos-tah
+
+---
+
+#### 502. After `brew install --cask claude-code` running `claude` fails with "claude not Opened: Apple could not verify claude is free of malware..."
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, homebrew, gatekeeper | Score: 5 | Views: 3980 | Answers: 1 | Created: 2025-08-20
+
+**解决方案 / Solution**:
+Run the following in terminal: xattr -d com.apple.quarantine $(which claude) or via GUI: Go to "Privacy & Security" in the "Settings" app Scroll down to "Security" Hit "Allow Anyway" next to "'claude' was blocked to protect your Mac" In case this problem could be fixed upstream, I've opened a Github issue on homebrew/homebrew-cask: https://github.com/Homebrew/homebrew-cask/issues/224670
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481249/after-brew-install-cask-claude-code-running-claude-fails-with-claude-not
+
+---
+
+#### 503. "topgrade" or "brew" issue? Warning: Calling conflicts_with formula: is deprecated! There is no replacement
+
+**问题描述 / Problem Description**:
+Tags: command-line, homebrew | Score: 4 | Views: 1228 | Answers: 1 | Created: 2025-08-21
+
+**解决方案 / Solution**:
+This is related to homebrew due to deprecation of conflicts_with , a homebrew formula (you can think of it as an api or library function). According to homebrew discussion on github https://github.com/orgs/Homebrew/discussions/6364#discussioncomment-14224257 . Quote from jabenninghoff reply: jabenninghoff It seems like this is the result of this change: Homebrew/brew#20499, which deprecated conflicts_with formula. When it was done, there were still casks using this feature. While the statement was removed from the cask definitions, if it was already installed on your system, conflicts_with formula remained in the json metadata as @WinkelCode discovered. After some testing on my system, it seems that the options for fixing are: Ignore the deprecation warning and wait for all of the offending casks to be updated. Reinstall all of the offending casks. This worked for me with brew reinstall wireshark-app. A brute-force approach of just reinstalling all casks should work as well. Update: running grep -irl '"formula":' "${HOMEBREW_PREFIX}/Caskroom" should find all the offending casks, although there may be some false alarms (for me, this included mactex-no-gui which has a depends_on formula:.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481264/topgrade-or-brew-issue-warning-calling-conflicts-with-formula-is-deprecat
+
+---
+
+#### 504. Getting "“Chromium” is damaged and can’t be opened." after installing with `brew install --cask chromium`
+
+**问题描述 / Problem Description**:
+Tags: install, homebrew, gatekeeper, macos | Score: 3 | Views: 2553 | Answers: 1 | Created: 2025-05-03
+
+**解决方案 / Solution**:
+The Chromium binary isn't code-signed. There's a simple workaround: uninstall Chromium and reinstall with the --no-quarantine flag which tells homebrew to remove the quarantine attribute automatically (do this only if you trust the binary you're installing): brew uninstall chromium brew install --cask chromium --no-quarantine
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/479829/getting-chromium-is-damaged-and-can-t-be-opened-after-installing-with-brew
+
+---
+
+#### 505. How to add date and time instead of "-1" to "duplicate" files (files with names which already exists in the same folder)?
+
+**问题描述 / Problem Description**:
+Tags: macos, finder, filesystem, automation | Score: 2 | Views: 328 | Answers: 1 | Created: 2026-04-21
+
+**解决方案 / Solution**:
+No, but instead of downloading the files in a web browser, you may be able to adapt this solution: Source - https://stackoverflow.com/a/76231090 Posted by l'L'l Retrieved 2026-04-21, License - CC BY-SA 4.0 url="https://example.com/media/document.txt" curl -o "$(basename ${url%.*}-$(date +"%Y-%m-%d").${url##*.})" -s "$url" -C - It will only work if the server allows deep linking.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486275/how-to-add-date-and-time-instead-of-1-to-duplicate-files-files-with-names
+
+---
+
+#### 506. Is it possible to play Chess.app in macOS's Terminal without the graphical interface?
+
+**问题描述 / Problem Description**:
+Tags: terminal | Score: 2 | Views: 399 | Answers: 1 | Created: 2024-10-28
+
+**解决方案 / Solution**:
+Yes, but don't ask me how it works: /System/Applications/Chess.app/Contents/Resources/sjeng.ChessEngine Update: In the same folder as the engine are some data files that appear to be opening books and a sample configuration file. Those need to be copied to your home folder (I assume) in order to use them.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/476383/is-it-possible-to-play-chess-app-in-macoss-terminal-without-the-graphical-inter
+
+---
+
+#### 507. "Command not found: mosh-server" when trying to connect to macOS server running mosh
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, homebrew, ssh, open-source | Score: 2 | Views: 967 | Answers: 2 | Created: 2024-08-19
+
+**解决方案 / Solution**:
+For some reason, homebrew wasn't added to the path in non-interactive shells. To fix it, run on the server: echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshenv or add the following to your ~/.zshenv : # Homebrew path support if command -v /opt/homebrew/bin/brew >/dev/null 2>&1; then eval "$(/opt/homebrew/bin/brew shellenv)" fi Note: This assumes you have an ARM Mac (M1/M2/M3...). On Intel, you need to replace /opt/homebrew with /usr/local .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/474804/command-not-found-mosh-server-when-trying-to-connect-to-macos-server-running
+
+---
+
+#### 508. How to activate screensaver with mouse in corner?
+
+**问题描述 / Problem Description**:
+Tags: macos, screensaver | Score: 1 | Views: 29 | Answers: 1 | Created: 2026-04-27
+
+**解决方案 / Solution**:
+Hot Corners behavior can be set in System Settings. Open System Settings Select "Desktop & Dock" Scroll the "Desktop & Dock" pane all the way down Click on "Hot Corners..."
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486307/how-to-activate-screensaver-with-mouse-in-corner
+
+---
+
+#### 509. Why am I unable to enroll certain MacBooks in Apple Business Essentials? "Enrollment failed. Please try again."
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, mdm, apple-business | Score: 1 | Views: 231 | Answers: 2 | Created: 2025-12-02
+
+**解决方案 / Solution**:
+If you released these devices from the organization (something that happens server side regardless of the state of the device), they are done and can not be managed again. https://support.apple.com/guide/apple-business-manager/release-devices-axmec4d28461/web I would contact Apple to determine the state of these few devices and then the appropriate steps to re-enroll or replace them with devices that can be managed under ABM. They also can explain exactly which log file to look at on the OS in question (or read the server side logs if needed). Those devices that show their serial in your account are likely to be re-enrolled the next time they have to activate, so back up the data on the device, erase all content and settings, see the device get managed (or collect the error logs) and then restore the data once the device is managed and enrolled in the MDM.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484291/why-am-i-unable-to-enroll-certain-macbooks-in-apple-business-essentials-enroll
+
+---
+
+#### 510. Apps won't get removed from dock and show as "running in background" since I updated to macOS 26
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro | Score: 1 | Views: 305 | Answers: 1 | Created: 2025-10-19
+
+**解决方案 / Solution**:
+Issue: MacOS 26.1 Beta bug Fix: Updated to 26.1 Beta (25B5072a) and that fixed the bug!
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481893/apps-wont-get-removed-from-dock-and-show-as-running-in-background-since-i-upd
+
+---
+
+#### 511. How to deal with a “WARNING: connection is not using a post-quantum key exchange algorithm.” when logging into a remote server via SSH on macOS 26.3?
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, ssh | Score: 16 | Views: 6987 | Answers: 2 | Created: 2026-02-12
+
+**解决方案 / Solution**:
+The IgnoreUnknown line should appear above the WarnWeakCrypto entry in case the setting is unsupported. Also suggest limiting to just the post quantum check. Host * IgnoreUnknown WarnWeakCrypto WarnWeakCrypto no-pq-kex WarnWeakCrypto controls whether the user is warned when the cryptographic algorithms negotiated for the connection are weak or otherwise recommended against. Warnings may be disabled by turning off a specific warning or by disabling all warnings. Warnings about connections that don't use a post-quantum key exchange may be disabled using the no-pq-kex flag. no will disable all warnings. The default, equivalent to yes , is to enable all warnings. Reference: https://man.openbsd.org/ssh_config#WarnWeakCrypto
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485851/how-to-deal-with-a-warning-connection-is-not-using-a-post-quantum-key-exchange
+
+---
+
+#### 512. What is ~/LIbrary/Biome?
+
+**问题描述 / Problem Description**:
+Tags: macos, ios, library | Score: 11 | Views: 1606 | Answers: 1 | Created: 2026-01-22
+
+**解决方案 / Solution**:
+"biome" is not, as the name suggests, about biometrics. Rather it is part of the Siri functionality and may be used by multiple applications. I can't really do better than suggesting you read Biome isn’t about biometrics, but suggestions by Howard Oakley. Copying its summary: Biome has nothing to do with biometrics, but is a sub-system responsible for compiling contextual suggestions. It’s almost completely hidden from the user, and only now starting to become accessible to third-party developers. It extracts recognise content from supported apps for use elsewhere, including in suggestions. Content extracted from sources containing potentially private material appears to be encrypted to preserve privacy. Its activity can be traced in the log by the sub-system com.apple.Biome. Problems appear unusual, and most should be rectified by restarting. Regarding turning it off: It is a source of forensic data about your activity, but this is really only an issue if you enter or leave countries which may want access to your phone or Mac. I suggest you don't attempt to remove it or disable processes which may access the folder (either directly or via some macOS API) unless you want to lose some macOS or application functionality.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485695/what-is-library-biome
+
+---
+
+#### 513. How to permanently disable "Secure Keyboard Entry" for terminal
+
+**问题描述 / Problem Description**:
+Tags: terminal, keyboard | Score: 8 | Views: 1527 | Answers: 1 | Created: 2024-04-11
+
+**解决方案 / Solution**:
+This worked for me for Terminal. Perhaps you can adjust it for iTerm. defaults write com.apple.terminal SecureKeyboardEntry -bool false Source: askthedev.com
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471798/how-to-permanently-disable-secure-keyboard-entry-for-terminal
+
+---
+
+#### 514. How can I pin a folder to the top of the file save window in macOS Sequoia (15.7.2)?
+
+**问题描述 / Problem Description**:
+Tags: macos, finder, folders | Score: 4 | Views: 270 | Answers: 1 | Created: 2026-01-28
+
+**解决方案 / Solution**:
+No, the toolbar in the save sheet is not customisable. However, the favorites list on the left is customisable and shared between Finder windows and save/open sheets. You can drag folders into gaps in that list to customise it.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485744/how-can-i-pin-a-folder-to-the-top-of-the-file-save-window-in-macos-sequoia-15-7
+
+---
+
+#### 515. Touch ID for sudo on macOS 15 Sequoia
+
+**问题描述 / Problem Description**:
+Tags: terminal, command-line, sudo, touch-id | Score: 4 | Views: 2128 | Answers: 1 | Created: 2024-09-17
+
+**解决方案 / Solution**:
+Well I decided to test it out anyways and the same line does work. I noticed that all the authentication methods listed in /etc/pam.d/sudo looked the same (with no ".2" in them) despite those files also having different names in /usr/lib/pam. I copied sudo_local.template to sudo_local and uncommented (removed the leading hash mark) the final "pam_tid.so" line. Now touch ID works for sudo again. I only just learned of the sudo_local file today too, so hopefully this means the change will persist across OS updates in the future.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/475400/touch-id-for-sudo-on-macos-15-sequoia
+
+---
+
+#### 516. My one-liner 'delete old files' command finds the right files but will not delete them
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal | Score: 4 | Views: 2578 | Answers: 3 | Created: 2024-09-17
+
+**解决方案 / Solution**:
+find can delete directly. find /Users/[me]/test -type f ! -newermt -1day -delete
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/475380/my-one-liner-delete-old-files-command-finds-the-right-files-but-will-not-delet
+
+---
+
+#### 517. `exit` man page
+
+**问题描述 / Problem Description**:
+Tags: terminal | Score: 4 | Views: 1381 | Answers: 4 | Created: 2024-05-17
+
+**解决方案 / Solution**:
+exit is usually provided by your shell, it is not a separate binary. You will note that there is no exit binary in either of /bin or /usr/bin , and that the man page for exit pulls up builtin(1) , which refers you to the man page for your shell. For example, I use ksh , this is from the ksh man page: exit [ n ] Causes the shell to exit with the exit status specified by n. The value will be the least significant 8 bits of n (if specified) or of the exit status of the last command executed. An end-of-file will also cause the shell to exit, except for an interactive shell that has the ignoreeof option turned on (see set below). The exit builtin in ksh also has its own man page (most builtins in ksh have integrated man pages): NAME exit - exit the current shell SYNOPSIS exit [ options ] [n] DESCRIPTION exit is a shell special built-in that causes the shell that invokes it to exit. Before exiting the shell, if the EXIT trap is set it will be invoked. If n is given, it will be used to set the exit status. EXIT STATUS The exit status is the least significant eight bits of the value of n (if specified) or of the exit status of the preceding command. If exit is invoked inside a trap, the preceding command means the command that invoked the trap. SEE ALSO break(1), return(1) IMPLEMENTATION version exit (ksh 93u+m) 2021-12-08 You can display the integrated man pages for ksh builtins with the --man argument.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472732/exit-man-page
+
+---
+
+#### 518. How can I remove '/Library/Developer'?
+
+**问题描述 / Problem Description**:
+Tags: macos | Score: 3 | Views: 614 | Answers: 1 | Created: 2025-12-29
+
+**解决方案 / Solution**:
+/Library/Developer/CoreSimulator/Volumes/* are mount points for disk images, as seen in Disk Utility (see "Mount Point" path). Unmount the disk images from Disk Utility using the eject button in the sidebar. Removing the disk images would usually be done with Xcode > Settings > Components . However, since you've already deleted Xcode, you should also be able to remove them using System Settings > General > Storage > Developer .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485476/how-can-i-remove-library-developer
+
+---
+
+#### 519. Sound/Audio Suddenly Stopped Working On Older Mac Pro & Macbook Pro
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, audio, high-sierra, mac-pro | Score: 3 | Views: 625 | Answers: 1 | Created: 2025-06-26
+
+**解决方案 / Solution**:
+The ACTUAL Solution coreaudiod (the core audio component on these older Macs) is failing, constantly restarting preventing it from running correctly. The culprit (for reasons that elude me) is Background Music, an app that I had never used or even heard of before but may have been there the entire time. For whatever reason it is causing coreaudiod to fail and for no sound devices to work correctly. Removing all traces of Background Music FINALLY solved all of my problems, the link I used is below but I will post the full text in a comment as well just in case. https://github.com/kyleneideck/BackgroundMusic/blob/master/MANUAL-UNINSTALL.md Here is what to do (taken from the GitHub link posted above): Manual Uninstall Delete Background Music.app from /Applications . Delete Background Music Device.driver from /Library/Audio/Plug-Ins/HAL . Pause apps that are playing audio, if you can. Restart coreaudiod : (Open /Applications/Utilities/Terminal.app and paste the following at the prompt.) sudo killall coreaudiod or, if that fails sudo launchctl kickstart -kp system/com.apple.audio.coreaudiod Go to the Sound section in System Settings and change your default output device at least once. (If you only have one device now, either use Audio MIDI Setup.app to create a temporary aggregate device, restart any audio apps that have stopped working or just restart your system.) Troubleshooting If you still have the Background Music audio device, try using Terminal.app to make sure you've deleted its files: sudo ls /Library/Audio/Plug-Ins/HAL If you see Background Music Device.driver in the output of that command, use this command to actually delete it: sudo rm -rf "/Library/Audio/Plug-Ins/HAL/Background Music Device.driver" Then restart coreaudiod again. If that still doesn't work, restart your computer. If that doesn't work, feel free to open an issue. Include the output of sudo ls /Library/Audio/Plug-Ins/HAL . Optional Delete BGMXPCHelper.xpc from /usr/local/libexec or possibly /Library/Application Support/Background Music . Unregister BGMXPCHelper. If you're using OS X 10.11 or later: sudo launchctl bootout system /Library/LaunchDaemons/com.bearisdriving.BGM.XPCHelper.plist If you're using an earlier version of OS X: sudo launchctl unload /Library/LaunchDaemons/com.bearisdriving.BGM.XPCHelper.plist Delete BGMXPCHelper's launchd.plist. sudo rm /Library/LaunchDaemons/com.bearisdriving.BGM.XPCHelper.plist Delete BGMXPCHelper's user and group. sudo dscl . -delete /Users/_BGMXPCHelper sudo dscl . -delete /Groups/_BGMXPCHelper Thank you so much to kyleneideck for this solution.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480519/sound-audio-suddenly-stopped-working-on-older-mac-pro-macbook-pro
+
+---
+
+#### 520. My MacBook M2 keyboard was dead. How did these keys revive it?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, keyboard, hardware, repair | Score: 3 | Views: 1307 | Answers: 1 | Created: 2025-06-08
+
+**解决方案 / Solution**:
+No cursory key presses will tell you if a M series Mac is good after: wine spilled on it, it subsequently failed to run and needed a repair tech to open, clean and fix things. Especially if it’s working intermittently after the isopropyl cleaning (hopefully they use deionized water on all the water safe parts, alcohol can make salts from wine and the keyboard penetrate even deeper into the electronics and cause corrosion that wouldn’t have happened without the “light cleanup”). Even if this Mac works temporarily, further corrosion or degradation based on the spill or based on “things can fail as they age even without liquid damage” is likely but not guaranteed. Only someone skilled in electronics repair could properly evaluate in detail every single circuit and component inside to estimate how much corrosion has started, how it may progress and at what cost to swap out every damaged part. Hopefully the local tech was such a person and you are in the clear, but your report shows it’s not stable yet after the “cleaning” and capacitor repair. Generally, the cheapest “full repair” in this case is sending it to Apple repair depot for a liquid damage repair. This process is done at scale, as opposed to a smaller shop so better tooling and experience is generally available at a depot. You can get a quote from Apple by opening a support case, telling them what you told us and they will send a box for your Mac and evaluate and fix it at the quoted rate. This results in a warranty and a fully refurbished and/or rebuilt fully tested Mac consisting of properly cleaned and/or non-damaged components.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480291/my-macbook-m2-keyboard-was-dead-how-did-these-keys-revive-it
+
+---
+
+#### 521. Disable terminal switch focus shortcut (Cmd+Left/Right Arrow)
+
+**问题描述 / Problem Description**:
+Tags: terminal, keyboard | Score: 3 | Views: 193 | Answers: 1 | Created: 2024-09-02
+
+**解决方案 / Solution**:
+I could not find a menu item that I could disable in the Terminal app specifically for Cmd+Left or Cmd+Right, so in this case you can just create a Shortcut that does nothing and is triggered by Cmd+Left or Cmd+Right. Here's what I mean: With the above App Shortcut, by assigning it to run with the Cmd+Right Arrow key binding, you essentially override the default behaviour, which in your case is to switch between Terminal windows. Here is also a link to the shortcut: Apple Shortcut
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/475064/disable-terminal-switch-focus-shortcut-cmdleft-right-arrow
+
+---
+
+#### 522. Reset default terminal directory Mac Ventura 13.6.7
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, zsh | Score: 3 | Views: 581 | Answers: 3 | Created: 2024-06-05
+
+**解决方案 / Solution**:
+Terminal's concept of the Default Working Directory is the users home directory ( $HOME ) as setup in Settings | Users and Groups (defaulted to /Users/USER ). This information comes from the help screen for that Terminal settings dialog in the question (press ?). Now, usually when users are setup or modified $HOME is not visible to be modified. But there is an 'Advanced' option to edit the user profile; UID, group, shell, $HOME . This is accessed by Control-Clicking the user in Users and Groups. See https://support.apple.com/en-us/102547 for some background, though this is mostly to rename an account. In that scenario you'd be renaming the $HOME (eg. sudo mv /Users/fred /Users/bob ), then changing the renamed user profile to point at the renamed $HOME . I would imagine that changing the home directory as has been done on your machine would be classed as 'unsupported'. I would suggest that your $HOME has been changed in the past to /Users/USER/Documents/subfolder I have setup a test user on my machine and set $HOME to /Users/USER/Documents , logged on as that user, opened Terminal, and verified that /Users/USER/Documents is the home directory. As an administrator it should be sufficient to change it back to /Users/USER , and logoff / logon. If the affected account is already an admin, it will be safer to create another admin account to do the change with. Changing the affected account with the affected account may cause further problems! However, once changed, there may be some other folders which will require moving from Documents to ensure proper operation of other apps. My test wasn't comprehensive enough beyond checking the home directory. But the change has indeed created new sub-folders for Desktop, Library, Downloads, Documents, .Trash; and the various .zsh* configs. Unpicking this may be tricky for you. Of course, a reliable backup beforehand is essential. Update : Info from the OP (which I'd missed in the question tbf..) shows that $HOME is set correctly, yet the problem persists. This invalidates my answer somewhat, yet is still one way of achieving the problem.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/473188/reset-default-terminal-directory-mac-ventura-13-6-7
+
+---
+
+#### 523. Automator script error -212
+
+**问题描述 / Problem Description**:
+Tags: terminal, bash, automator, error | Score: 3 | Views: 1247 | Answers: 1 | Created: 2024-05-21
+
+**解决方案 / Solution**:
+Have you tried running that script directly from Script Editor? (That's probably the best way to debug (and to write!) AppleScript.) I did, and it stops on the first line with a (different) error message. But after removing the {input, parameters} , it runs fine. (I'm guessing that the documentation you got that from was indicating that you could use either input or parameters — though in fact it's taken as an identifier, so any single word will do. Since it's optional, the simplest thing is to omit it entirely.) So that seems to be the immediate problem. However, that's not the only problem with the script. The activate command brings the Terminal app to the front, along with any windows it has already open. But each do script opens a new window with a new shell, and runs the command there — it does not affect any windows which were already open (which I guess is your intent). To do that, you need to tell it to use an existing window. The simplest way seems to be do script "……" in window 0 , which uses the current tab in the frontmost window. (There are other variations which would let you select other tabs and windows. See the Terminal documentation for more; the simplest way is to run ‘File → Open Dictionary…’ from the Script Editor, and choose ‘Terminal.app’ from the resulting dialog.) (Note: this was tested on macOS 12 Monterey, but I expect it'll apply to some earlier and later versions too.)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472844/automator-script-error-212
+
+---
+
+#### 524. Can a 4GB early 2015 MacBook Air run macOS 10.15 or higher?
+
+**问题描述 / Problem Description**:
+Tags: macos | Score: 2 | Views: 732 | Answers: 2 | Created: 2026-02-20
+
+**解决方案 / Solution**:
+An Early 2015 MacBook Air can run macOS 12. How well it will run with 4 GB of RAM depends on your usage pattern.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485916/can-a-4gb-early-2015-macbook-air-run-macos-10-15-or-higher
+
+---
+
+#### 525. What application could be writing a log file written to documents folder?
+
+**问题描述 / Problem Description**:
+Tags: macos, filesystem | Score: 2 | Views: 61 | Answers: 1 | Created: 2026-01-23
+
+**解决方案 / Solution**:
+From research, it seems that the file is created by the vendor software for a USB input device called a "Stream Deck." I don't use that device and I don't know how to configure it. The developer, or user forums, would be the best source for that information. You should first confirm that the software is at fault by removing it, then logging out and logging back in to see whether the behavior stops. Another option would be to ignore the file and do nothing. As long as you know what it is, I don't see it as a big problem. Just clear it out once in a while to make sure it doesn't get too large.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485703/what-application-could-be-writing-a-log-file-written-to-documents-folder
+
+---
+
+#### 526. How can I remove a phantom/deleted app entry from the Spotlight results for apps in macOS 26?
+
+**问题描述 / Problem Description**:
+Tags: macos, spotlight, system-settings, tahoe | Score: 2 | Views: 402 | Answers: 1 | Created: 2025-12-29
+
+**解决方案 / Solution**:
+I have two apps like yours in that system Settings list "System Settings > Spotlight > Results from Apps”. And like you I have found entries for those apps (by bundle identifier) in ~/Library/Preferences/com.apple.corespotlightui.plist . Unlike you I am not prepared to take the risk of modifying them! Core Spotlight data is in ~/Library/Metadata/CoreSpotlight/ - it is decidedly opaque. Apple developer documentation is here Core Spotlight . But this does not help very much. I use App Cleaner and Uninstaller from Nektony (a paid-for and supported app uninstaller) and I asked its support team. To heavily paraphrase the response: An app which wants to use Core Spotlight registers its bundle identifier (e.g. your com.mr-brightside.ParcelOSX) with Spotlight. This just an entry in a list which is shown by System Settings. This an internal Spotlight list - not part of a plist. Note that the presence of the identifier in the list does not mean that Spotlight is still indexing data for the app. There is no documented or supported way of removing an app from this list. There is also no documented way of deleting index data (if any) after app deletion. macOS manages this internally and there is also no documentation as to how this is done. It is possible that Spotlight cleans this up in the background. A full Spotlight index rebuild (not just file system indexes) may help. In some cases, this helps to refresh the internal list of Spotlight registrations. Nektony suggests their own app MacCleaner Pro for this (I have no experience of using this app). To summarise, what we are seeing is a cosmetic system artefact rather than leftover app data or an incomplete removal. At this time, macOS does not provide a supported way to manually clean this list on a per-app basis. I do have a feeling that there may well be some index data left behind. But, my ~/Library/Metadata/CoreSpotlight/ is only 700 MB and I assume this is mostly for Apple Mail. So I am not going to worry about left over data (if any) for uninstalled apps. I strongly suggest you don't attempt to modify any undocumented features of Spotlight.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485475/how-can-i-remove-a-phantom-deleted-app-entry-from-the-spotlight-results-for-apps
+
+---
+
+#### 527. What does the command 'recoverydiagnose' do?
+
+**问题描述 / Problem Description**:
+Tags: macos, recovery | Score: 2 | Views: 277 | Answers: 1 | Created: 2025-12-27
+
+**解决方案 / Solution**:
+It's a debugging tool, of no use whatever unless you're reporting a bug to Apple. See: Running recoverydiagnose in macOS Recovery (derflounder.wordpress.com).
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485466/what-does-the-command-recoverydiagnose-do
+
+---
+
+#### 528. Using tabs in Apple Maps on macOS
+
+**问题描述 / Problem Description**:
+Tags: macos, tabs, maps, tahoe | Score: 2 | Views: 113 | Answers: 1 | Created: 2025-12-27
+
+**解决方案 / Solution**:
+At least on Tahoe 26.2 the functionality to open additional tabs in Maps seems to be gone. There are still menu entries for tab navigation and merging of windows in the "Window" menu, but they are disabled even if multiple Maps windows are open.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485459/using-tabs-in-apple-maps-on-macos
+
+---
+
+#### 529. Feature or bug? Why did my retail MacBooks arrive with AMFI developer mode force enabled?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, security, developer-program, mobile-device-management | Score: 2 | Views: 1178 | Answers: 1 | Created: 2025-07-12
+
+**解决方案 / Solution**:
+The term "developer mode" can be used in any of the following unrelated senses: Developer Mode on mobile devices (developer.apple.com) Extension Developer Mode (developer.apple.com) Developer settings in Safari (developer.apple.com) Developer Tools security on macOS (stackoverflow.com) The last one is the one you're asking about. That Developer Mode is enabled on a per-user basis when the user is a member of either the admin or _developer group: ➜ ~ dscl . read /Groups/_developer Comment Comment: Standard Users who use advanced Developer Tools So if you log in to a brand-new Mac as the default user, it should be enabled. If you create a standard user, and haven't installed Xcode, it should be disabled. As for the log message AMFI: developer mode is force enabled on this platform , that just means that the macOS kernel runs all the time in what would be a special "developer mode" (in the first sense above) on any of Apple's other platforms. That's not a setting that can be changed.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480701/feature-or-bug-why-did-my-retail-macbooks-arrive-with-amfi-developer-mode-force
+
+---
+
+#### 530. Fn key on Logitech Keyboard not working when connected to MacBook Pro M1
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, keyboard | Score: 2 | Views: 3115 | Answers: 2 | Created: 2025-05-29
+
+**解决方案 / Solution**:
+FINALLY, I got a specific response from Logitech's support: What I've found is that the 'Fn' key on the Logitech MX Keys Mini is designed to function differently from the 'Fn' key on a standard Apple keyboard when used with macOS. Specifically, the 'Fn' key on our Logitech keyboard primarily serves to access the secondary functions printed on the F1 to F12 keys (like media controls, brightness, etc.). You would typically press and hold the 'Fn' key and then press the corresponding F-key to activate these Logitech-specific functions. Dedicated macOS shortcuts that rely on the Mac's native 'Fn' key behavior, such as Ctrl + Fn + C for specific system-level actions, are generally not compatible with the 'Fn' key on third-party keyboards like the Logitech MX Keys Mini. These types of shortcuts are often hardcoded to recognize the specific signal and behavior of the 'Fn' key built into Apple's own keyboards. Therefore, the reason your Ctrl + Fn + C 'center window' command isn't working is likely because macOS isn't interpreting the 'Fn' key press from the Logitech keyboard in the same way it would from an Apple keyboard for that particular shortcut. it's generally necessary to use an actual Apple keyboard to ensure those shortcuts are correctly interpreted by macOS. MX Mini´s are not fully macOS compatible.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480160/fn-key-on-logitech-keyboard-not-working-when-connected-to-macbook-pro-m1
+
+---
+
+#### 531. Macbook restarts after waking from sleep
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, sleep-wake, restart | Score: 2 | Views: 215 | Answers: 2 | Created: 2025-05-26
+
+**解决方案 / Solution**:
+The issue here was spontaneous restarts on wake with no panic log, persisting in Safe Mode. They also persisted across major macOS versions. With an Intel Mac, one could have tried an SMC reset, but this is an Apple Silicon Mac. That leaves only a hardware fault as a possible cause, which in this case turned out to be in the logic board.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480128/macbook-restarts-after-waking-from-sleep
+
+---
+
+#### 532. How to customise too simple black and white terminal UI on macOS
+
+**问题描述 / Problem Description**:
+Tags: terminal, mac | Score: 2 | Views: 218 | Answers: 1 | Created: 2024-10-05
+
+**解决方案 / Solution**:
+You can switch profiles (which include default colors) in Settings, you can also define your own there. PS: Installing another terminal emulator (e.g. iTerm2) will not slow down the performance of OS or shell. PPS: Terminal colors are tricky.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/475879/how-to-customise-too-simple-black-and-white-terminal-ui-on-macos
+
+---
+
+#### 533. Automation via icon on desktop (or dock?) of Terminal function .. ? End goal to differently-color all open Terminal windows
+
+**问题描述 / Problem Description**:
+Tags: terminal, automation | Score: 2 | Views: 150 | Answers: 3 | Created: 2024-07-12
+
+**解决方案 / Solution**:
+An AppleScript can be used, for example: # on run {args, parameters} -- use this declaration for a Run AppleScript action in Automator on run args -- script run from the editor or Script Menu, or app double-clicked set useFinderSelection to false -- set to true to use the Finder selection if no arguments set processedItems to {} if args is not in {{}, missing value, current application, me} then -- command line or Automator arguments? repeat with anItem in args try set anItem to POSIX path of anItem if isDirectory(anItem) then doStuff("cd " & quoted form of anItem) set end of processedItems to anItem end if on error errmess -- oops log errmess end try end repeat else if useFinderSelection is true then set processedItems to doFinderSelection() end if if processedItems is {} then doStuff("") -- just the default working directory end run to doFinderSelection() -- handle folders in the current Finder selection tell application "Finder" to set theSelection to (get selection as alias list) set processedItems to {} repeat with anItem in theSelection if contents of anItem is not (path to me) then -- application will be selected if double-click set anItem to POSIX path of anItem if isDirectory(anItem) then doStuff("cd " & quoted form of anItem) set end of processedItems to anItem end if end if end repeat return processedItems end doFinderSelection to doStuff(theScript) -- open a new Terminal window with random background color, running theScript if application "Terminal" is running then set {r, g, b} to {16383 * (random number from 0 to 4), 16383 * (random number from 0 to 4), 16383 * (random number from 0 to 4)} -- 125 possible colors tell application "Terminal" activate do script theScript -- a script of "" just creates a new window set background color of window 1 to {r, g, b} if (r + g + b) / 3 > 21845 then -- try to make the text color contrast set normal text color of window 1 to {0, 0, 0} -- black else set normal text color of window 1 to {65535, 65535, 65535} -- white end if end tell else tell application "Terminal" launch -- avoid multiple windows do script theScript -- default window activate end tell end if end doStuff on isDirectory(posixPath) -- check if a file item is a directory or bundle set posixPath to quoted form of posixPath set determination to (do shell script "/usr/bin/file -b " & posixPath) if determination contains "directory" then return true return false end isDirectory on open fileItems -- items dropped onto the app (only needed for a droplet) repeat with anItem in fileItems set anItem to POSIX path of anItem if isDirectory(anItem) then doStuff("cd " & quoted form of anItem) end repeat end open Edit: Updated the script to be able to be run from a script editor or the Script Menu*, from the command line via osascript , or saved as a script applet or droplet. With a slight change to the run handler parameters, it can also be run from a Run Script action in Automator . It looks for directories in any file arguments (command line or dropped onto the droplet, otherwise optionally the current Finder selection), and opens a new Terminal window with a random background color for each one found, running a script in the window that changes the working directory to the folder. If there are no arguments or Finder selection, a new window is created at the default working directory. *The Script Menu (enabled according to the Script Editor preference) is a status item menu on the right side of the main menu bar that uses scripts (or aliases to them) that you put in your user's ~/Library/Scripts folder. If a script is placed in the main folder, it will always be in the menu, otherwise it can be placed in a folder named for the application in the Applications subfolder (create folders as needed), where it will only be in the menu when that application is active.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/473999/automation-via-icon-on-desktop-or-dock-of-terminal-function-end-goal-to
+
+---
+
+#### 534. Unable to delete old company OneDrive folder
+
+**问题描述 / Problem Description**:
+Tags: terminal, permission, onedrive | Score: 2 | Views: 2238 | Answers: 1 | Created: 2024-05-25
+
+**解决方案 / Solution**:
+@AVelj had the answer. The link that he provided worked! https://answers.microsoft.com/en-us/msoffice/forum/all/cant-delete-onedrive-working-folder-after/a21414eb-3e0d-40b4-bca7-45a95d3490a6 The posts had this link: https://support.microsoft.com/en-us/office/reset-onedrive-34701e00-bf7b-42db-b960-84905399050c#:~:text=1%20Open%20a%20Run%20dialog%20by%20pressing%20Windows,on%20the%20OneDrive%20desktop%20app.%20Learn%20more%20on...support.microsoft.com The key was using the ResetOneDriveApp.command in the OneDrive bundle! Thank you, @AVelj!
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472932/unable-to-delete-old-company-onedrive-folder
+
+---
+
+#### 535. Relaunch Terminal using a command
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, zsh | Score: 2 | Views: 202 | Answers: 1 | Created: 2024-05-11
+
+**解决方案 / Solution**:
+Usually, installation instructions recommend a restart of Terminal if the installation modified some shell startup files (some probably recommend it even it would not be strictly necessary). Alternative approaches: source (e.g. . ~/.zshrc ) the startup files manually, run exec zsh -l to replace the current shell with a newly initialized version (replace zsh with the shell you are actually using), open a new Terminal tab and close the old one
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472572/relaunch-terminal-using-a-command
+
+---
+
+#### 536. How to change TotalFinder's tab icon (MacOS High Sierra 10.13.6)?
+
+**问题描述 / Problem Description**:
+Tags: macos, finder, high-sierra, icon, trash | Score: 1 | Views: 66 | Answers: 1 | Created: 2026-02-14
+
+**解决方案 / Solution**:
+Those appear to be third-party Finder tabs. Are you using a program which modifies the Finder? Two programs that I know that provide custom Finder tabs are TotalFinder and XtraFinder. If you're using either of those, I suspect you'll have to check their preferences to see if they have an option to display the folder icon in the tab. If they do, you may have to toggle the option and reboot the app and even the computer.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485876/how-to-change-totalfinders-tab-icon-macos-high-sierra-10-13-6
+
+---
+
+#### 537. MacBook Air M2 (A2681) - Error: 21 during restoration, always fails at 66%
+
+**问题描述 / Problem Description**:
+Tags: macos, restore | Score: 1 | Views: 177 | Answers: 1 | Created: 2026-02-03
+
+**解决方案 / Solution**:
+There are two possibilities here: You didn’t exactly follow all the complicated instructions for a DFU, including the selection of the correct USB port and cable ( not a Thunderbolt cable , which will fit but not work.) The machine has a hardware fault and needs to be repaired or replaced. Links to support.apple.com.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485781/macbook-air-m2-a2681-error-21-during-restoration-always-fails-at-66
+
+---
+
+#### 538. How to sort files in a Mac file open dialog by modified date?
+
+**问题描述 / Problem Description**:
+Tags: macos | Score: 1 | Views: 112 | Answers: 1 | Created: 2026-01-22
+
+**解决方案 / Solution**:
+Your right, this is the standard macOS behavior for the NSOpenPanel API. To add a date Modified column in Open dialogs you can: In the Open dialog, make sure your're in List View (⌘2) Right-click or ctrl-click on any column header In the new context menu you should be able to toggle columns on/off, including Date Modified To sort by Date Modified: Once the column is visible, click the "Date Modified" column header to sort by it and click again to reverse the sort order. Persistence Note: macOS should remeber these column choices and sort preferences for subsequent Open dialogs, though this can be a bit incosistent across apps or after system updates. The settings are generally stored per-app in the app's sandbox or preferences. If the context menu doesn't appear: Some older or non-standard Open dialogs may not support this. But any app using standard NSOpenPanel should work. If you're seeing limited options, the app might be using a customized or restricted version of the panel.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485684/how-to-sort-files-in-a-mac-file-open-dialog-by-modified-date
+
+---
+
+#### 539. Why is a new Ubuntu 20 Desktop ARM64 VM guest OS setup in VMWare Fusion not responding to keyboard and mouse?
+
+**问题描述 / Problem Description**:
+Tags: macos, virtualization, vmware | Score: 1 | Views: 50 | Answers: 1 | Created: 2026-01-15
+
+**解决方案 / Solution**:
+Setting the USB compatibility to v3.2 in VMware Fusion resolved the issue.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485606/why-is-a-new-ubuntu-20-desktop-arm64-vm-guest-os-setup-in-vmware-fusion-not-resp
+
+---
+
+#### 540. How to grant access to network folders to my own application?
+
+**问题描述 / Problem Description**:
+Tags: macos, network, applications, security, plist | Score: 1 | Views: 87 | Answers: 1 | Created: 2026-01-06
+
+**解决方案 / Solution**:
+Everything that Apple documents about Local Network Privacy is covered in TN3179: Understanding local network privacy (developer.apple.com) and links within. I'm not a developer, but it seems to me that the most salient points are these: Your program starts in the undetermined state. The first time it performs a local network operation, the system presents the local network alert. The user chooses to either allow or deny the access. The system records the user’s choice and applies it to subsequent operations. The user can change this state at any time in Settings. If your app accesses the local network, add the NSLocalNetworkUsageDescription property to its Info.plist to explain its behavior to the user. ... macOS supports two user defaults (preferences) to configure local network privacy: AllowedEthernetLocalNetworkAddresses applies to networks on wired Ethernet interfaces. AllowedWiFiLocalNetworkAddresses applies to networks on Wi-Fi interfaces. Both are in the com.apple.network.local-network domain and expect an array of strings, with each string denoting an IPv4 or IPv6 network in CIDR format. For example, to denote the 169.254/16 network used by IPv4 link-local addressing, use the string 169.254.0.0/16 . When you add a network to one of these defaults, the system treats every address on that network as if it were not a local network address. Every program can access that address, regardless of its Local Network privilege state. For example, to allow all programs to access the 169.254/16 network on both Ethernet and Wi-Fi, run these commands: sudo defaults write com.apple.network.local-network AllowedEthernetLocalNetworkAddresses -array "169.254.0.0/16" sudo defaults write com.apple.network.local-network AllowedWiFiLocalNetworkAddresses -array "169.254.0.0/16"
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485535/how-to-grant-access-to-network-folders-to-my-own-application
+
+---
+
+#### 541. macOS Automator action "Compress Images in PDF" won't work
+
+**问题描述 / Problem Description**:
+Tags: macos, automator, pdf, image-processing | Score: 1 | Views: 100 | Answers: 1 | Created: 2025-12-20
+
+**解决方案 / Solution**:
+Add Move Finder Item action at the end. The compressed file would then be stored in the specified folder.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485423/macos-automator-action-compress-images-in-pdf-wont-work
+
+---
+
+#### 542. How to tune "optimized battery charging" in macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, battery, charging | Score: 1 | Views: 330 | Answers: 1 | Created: 2025-09-15
+
+**解决方案 / Solution**:
+Put the Mac (or yourself) on a timer and cut off power 2 hours before the earliest wake time should feed a new schedule to tell your Mac finish charging earlier. Or disable that feature if you decide it’s not worth retraining the algorithm with consistent earlier power state changes.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481519/how-to-tune-optimized-battery-charging-in-macos
+
+---
+
+#### 543. Keyboard & trackpad on my 2023 M3 MacBook Pro have stopped working, can't use external input
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, keyboard, trackpad | Score: 1 | Views: 378 | Answers: 1 | Created: 2025-08-09
+
+**解决方案 / Solution**:
+Depending on when you bought it, it may still be under warranty. You can check the warranty status here (apple.com). As for what's causing the faults or how they can be fixed, there's no way of knowing without an inspection. Most likely, Apple would just replace the whole top case. The reference codes (apple.com) mean "There may be an issue with the keyboard" and "There may be an issue with the trackpad," if you find that helpful. It seems a bit too much of a coincidence that both of those components would fail independently at the same time, unless there was a liquid spill that you don't know about. So there might be a loose cable or a fault in the internal USB bus. It seems to be configured not to trust wired peripherals (apple.com) without explicit authorization by the user, so you won't be able to use the USB keyboard. A Bluetooth keyboard and trackpad may work. See also: MacBook Pro keyboard and Trackpad not working. All solutions found have failed
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481096/keyboard-trackpad-on-my-2023-m3-macbook-pro-have-stopped-working-cant-use-ex
+
+---
+
+#### 544. Can I repair my 45W MagSafe 2 power adapter with a worn cable to avoid scrapping it all?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, magsafe | Score: 1 | Views: 211 | Answers: 2 | Created: 2025-08-06
+
+**解决方案 / Solution**:
+There is a detailed guide to repairing the adapter on ifixit.com. If it doesn’t cover all the damage, try asking a question on that site. See also: How to fix a frayed cable on a MagSafe Power Adapter?
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481063/can-i-repair-my-45w-magsafe-2-power-adapter-with-a-worn-cable-to-avoid-scrapping
+
+---
+
+#### 545. Why does my MacBook Pro’s (2015) battery trickle charges for bit, then stops?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, battery, charging | Score: 1 | Views: 72 | Answers: 1 | Created: 2025-07-17
+
+**解决方案 / Solution**:
+If the data from CoconutBattery is to be believed, your battery is over 10 years old -- making it older than the original battery that you replaced! It’s possible a battery that old has been meticulously maintained for long term storage , but the odds are it was left on a box and entered a deep discharge state. If you plan to store your device for longer than six months, charge it to 50% every six months. Either you need to get another replacement battery; or consider whether you would be better off putting the money towards a replacement for the entire laptop.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480755/why-does-my-macbook-pro-s-2015-battery-trickle-charges-for-bit-then-stops
+
+---
+
+#### 546. Changing profiles on Terminal (macOS Mojave 10.14)
+
+**问题描述 / Problem Description**:
+Tags: terminal, bash, color | Score: 1 | Views: 188 | Answers: 2 | Created: 2025-07-09
+
+**解决方案 / Solution**:
+Here's the solution I found: The solution was to change the "Homebrew" profile to default (this can be undone later). Go to Terminal preferences ( Command + , ), then select the "Profiles" tab, and then highlight "Homebrew" and select the "Default" button near the bottom left of the window. Then close all Terminal app windows and quit Terminal. Upon opening again, it should show the "Homebrew" profile theme in a new window. You can change the default back to any other profile.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480650/changing-profiles-on-terminal-macos-mojave-10-14
+
+---
+
+#### 547. Mosh on Mac crashing with SIGSEGV Address Boundary error
+
+**问题描述 / Problem Description**:
+Tags: homebrew, crash, ssh | Score: 1 | Views: 260 | Answers: 1 | Created: 2025-06-27
+
+**解决方案 / Solution**:
+There was an issue with the upgrade and protobuf. The recommended solution is to reinstall protobuf. brew reinstall protobuf
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480538/mosh-on-mac-crashing-with-sigsegv-address-boundary-error
+
+---
+
+#### 548. MacBook Air 2020 Intel T2 stuck with Internet Recovery and possible bad battery
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, battery, recovery, t2 | Score: 1 | Views: 385 | Answers: 2 | Created: 2025-06-16
+
+**解决方案 / Solution**:
+This has been resolved by a new battery which allowed normal performance and restore. Actually the new battery connector was not inserted firmly enough which resulted in slow persistant performance. This seems a common problem with this connector, as found the solution on the net.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480393/macbook-air-2020-intel-t2-stuck-with-internet-recovery-and-possible-bad-battery
+
+---
+
+#### 549. Can't get a Python package installed
+
+**问题描述 / Problem Description**:
+Tags: homebrew, python | Score: 1 | Views: 179 | Answers: 1 | Created: 2025-06-09
+
+**解决方案 / Solution**:
+My son has used Python at work, so he had two suggestions. Neither worked alone, but combined they were successful in running the script. I had to use pip3 rather than just pip, and I had to do it in a virtual environment, and run the script in the same venv. Someone more experienced in Python is welcome to edit this for more detail. (Then the script, created by one of those AI LLMs, did not do what it was supposed to, so I had to learn about the Python pinyin package and fix the script.)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480297/cant-get-a-python-package-installed
+
+---
+
+#### 550. Is there a way to disable builtin functions keys on macOS lock screen?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, keyboard, screen-lock | Score: 1 | Views: 116 | Answers: 1 | Created: 2025-05-28
+
+**解决方案 / Solution**:
+There are apps such as this one (withmarko.com) that purport to lock the keyboard for cleaning. I haven't tested any of them and this is not an endorsement.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480155/is-there-a-way-to-disable-builtin-functions-keys-on-macos-lock-screen
+
+---
+
+#### 551. uninstalled homebrew and can now no longer ssh into my machine!
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, ssh | Score: 1 | Views: 84 | Answers: 1 | Created: 2025-05-18
+
+**解决方案 / Solution**:
+I figured out what was happening by running log stream --level debug | grep sshd and then trying to ssh in, and that's when I saw: sshd: User not allowed because shell /opt/homebrew/bin/bash does not exist so I ran sudo chsh -s /bin/bash for my user, and now I can ssh in again.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480019/uninstalled-homebrew-and-can-now-no-longer-ssh-into-my-machine
+
+---
+
+#### 552. ‘parameter not set’ error in each new Terminal window
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, zsh | Score: 1 | Views: 315 | Answers: 1 | Created: 2025-05-16
+
+**解决方案 / Solution**:
+This command shows all files sourced by zsh at invocation: zsh -o SOURCE_TRACE The OP reports that in his .zshenv file, which is sourced before /etc/zshrc_Apple_Terminal , he had set the shell option no_unset . This option causes an error to print when an unset parameter is expanded. From the zshoptions(1) man page: UNSET (+u, ksh: +u) <K> <S> <Z> Treat unset parameters as if they were empty when substituting, and as if they were zero when reading their values in arithmetic expansion and arithmetic commands. Otherwise they are treated as an error.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480000/parameter-not-set-error-in-each-new-terminal-window
+
+---
+
+#### 553. Why does Migration Assistant get stuck?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, migration-assistant | Score: 1 | Views: 2826 | Answers: 1 | Created: 2025-05-03
+
+**解决方案 / Solution**:
+Solved — with help from Linc Davis. Migration Assistant said there wasn't enough space to transfer from the MacBook Pro (1 TB) to the new MacBook Air (512 GB), even though the MBP was only using 460 GB. However, it only said this when using a Time Machine rather than direct transfer from the MBP. Direct transfers reported the same 460 GB number but then got stuck at the end of the transfer, so the solution was to begin a transfer from Time Machine, wait for it to calculate the size of the transfer and then deselect the Pictures folder which was using up most of the storage (this wasn't an option during a direct transfer.) The transfer then proceeded as normal and only took about twenty minutes.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/479823/why-does-migration-assistant-get-stuck
+
+---
+
+#### 554. Installing clang from LLVM website alongside clang from Xcode command line tools
+
+**问题描述 / Problem Description**:
+Tags: terminal, command-line, xcode | Score: 1 | Views: 172 | Answers: 1 | Created: 2025-04-30
+
+**解决方案 / Solution**:
+I'm wondering if having two different versions will cause problems in Xcode? Manually installing Clang via direct download from LLVM website won't cause any problems with Xcode. Xcode GUI uses tools from its own bundled toolchain and not the ones exposed via PATH variable of shell’s environment. Xcode's own bundled clang binary can be found at the following path: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang You can very well download the desired version of clang from LLVM website, place it at desired location in the filesystem and modify the shell profile files or PATH variable to refer to the downloaded binary when working via command line interface. Does it work that the latest clang version is used on the command line and the Xcode bundled version is used within the Xcode IDE? Following the aforementioned approach, the installed/newer version of clang is used on the command line interface, while Xcode GUI continues to use its own bundled version. The two versions of very-well clang can co-exist. ( P.S. : You can very well install and manage any number of different versions of Clang on your computer as long as you manage via the PATH variable to use absolute path for the relevant version of Clang binary.)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/479773/installing-clang-from-llvm-website-alongside-clang-from-xcode-command-line-tools
+
+---
+
+#### 555. ImageMagick and FFTW working on macOS Sequoia?
+
+**问题描述 / Problem Description**:
+Tags: homebrew, macos | Score: 1 | Views: 255 | Answers: 1 | Created: 2025-04-26
+
+**解决方案 / Solution**:
+This discussion on GitHub is about the same problem on Windows, but answers it for macOS as well. The key points are (emphasis added) When magick -version shows that fftw isn't a built-in delegate, the only way to get it is by rebuilding IM . Merely copying a fftw library from somewhere won't work, because IM contains code that is compiled only when the fftw delegate is enabled. The fftw library is not included because of the license that it uses. They use the GPL license and that is incompatible with our Apache 2.0 license. You will need to build from source if you would want to include this. So, in order to get FFTW support, you need to install from source .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/479708/imagemagick-and-fftw-working-on-macos-sequoia
+
+---
+
+#### 556. SSH is slow and terminates frequently after upgrading to Sonoma 15.3
+
+**问题描述 / Problem Description**:
+Tags: terminal, network, ssh | Score: 1 | Views: 272 | Answers: 1 | Created: 2025-04-14
+
+**解决方案 / Solution**:
+I found the problem. In System Settings on the Mac Pro server, I turned Remote Login off (rebooted) and then I turned it back on and rebooted. ssh logins are now working properly again.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/479545/ssh-is-slow-and-terminates-frequently-after-upgrading-to-sonoma-15-3
+
+---
+
+#### 557. Gtk-Warning "g_rename() failed: Operation not permitted" error
+
+**问题描述 / Problem Description**:
+Tags: command-line, homebrew, permission | Score: 1 | Views: 247 | Answers: 3 | Created: 2025-03-22
+
+**解决方案 / Solution**:
+"Full Disk Access" rights may be missing. To fix, Open System Settings "Privacy & Security" -> Full Disk Access Click on the little "+" at the bottom and add /Applications/Utilities/Terminal.app as well as /opt/homebrew/opt/homebank/bin/homebank Then restart your Terminal (and Homebank).
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/479173/gtk-warning-g-rename-failed-operation-not-permitted-error
+
+---
+
+#### 558. Numeric keypad not working in Python interpreter on Magic Keyboard
+
+**问题描述 / Problem Description**:
+Tags: terminal, keyboard, python | Score: 1 | Views: 143 | Answers: 1 | Created: 2025-03-10
+
+**解决方案 / Solution**:
+After doing some additional Google searches, some commenters suggested hitting the Num Lock key to enable numeric input from the numeric keypad. But my Magic Keyboard didn't have a Num Lock key. Other commenters mentioned that the clear key might function as the Num Lock key. Indeed, I discovered that the clear key served as a toggle to enable and to disable numeric input from the numeric keypad. So this solves the problem.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/478974/numeric-keypad-not-working-in-python-interpreter-on-magic-keyboard
+
+---
+
+#### 559. Home brew cask auto update
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew | Score: 1 | Views: 1032 | Answers: 1 | Created: 2025-02-15
+
+**解决方案 / Solution**:
+Homebrew Casks are used to install pre-compiled applications. A lot of those come with their own update mechanism, so having them update both internally and via brew upgrade leads to issues. There is a section in the Homebrew FAQ covering this. From that section: Anything installed with Homebrew Cask should behave the same as if it were installed manually. But since we also want to support software that doesn’t self-upgrade, we add auto_updates true to casks for software that does, which excludes them from brew upgrade. The formulae for both Discord and Figma have auto_updates true set. This means that any update will be triggered by the application itself. These update mechanisms aren't aware of the changed folder location though (this only impacts Homebrew), so they either get confused or install the update to the default place. The easiest way out of this probably is to install these applications to /Applications (and not onto an external disk). If you are low on disk space, you can also disable auto-update within the applications (or cancel any update attempt) and run brew update discord figma regularly (which will force a Homebrew-driven update even for self-updating applications). PS: As far as I can see, at least Discord doesn't allow to prevent auto-updates. Running brew update discord before starting it may the best option then.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/478653/home-brew-cask-auto-update
+
+---
+
+#### 560. Terminal.app: escape codes for working directory and document?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, command-line, zsh | Score: 1 | Views: 194 | Answers: 1 | Created: 2025-01-31
+
+**解决方案 / Solution**:
+This solution worked for me to show a drop down selection for the current path. Some variables you will need to set yourself. In .zshrc: urlencode_spaceonly () { string=$1 while [ -n "$string" ]; do tail=${string#?} head=${string%$tail} case $head in [[:space:]]) printf %%%02x "'$head";; *) printf %c "$head" esac string=$tail done echo } function cleartitle { printf "\033]0;\007" # icon name and window title printf "\033]1;\007" # icon name printf "\033]2;\007" # window title printf "\033]6;\007" # document printf "\033]7;\007" # working directory } function settitle { _PWD=$(echo $PWD| sed "s;$HOME;~;") # strip home directory # if an interactive session if [[ -t 0 ]]; then if [[ "$TERM_PROGRAM" == "Apple_Terminal" ]]; then PWD_URL="$(urlencode_spaceonly "file://${HOSTNAME}${PWD}")" __SHELL="$(ps -p "$$" | tail -n +2 | tr -s ' ' | cut -d ' ' -f 5-)" # printf "\033]0;${USER}@${HOSTNAME} '${_PWD}' ${__SHELL}\007" printf "\033]7;%s\007" ${PWD_URL} elif [[ "$TERM" == *"xterm"* ]]; then printf "\033]0;$USER@$HOSTNAME '${_PWD}' ${__SHELL}\007" fi fi } cleartitle precmd() { settitle } In Termina.app Preferences->Profiles you will need to click Window and check Working directory of document, path. The problem I had was the entire string doesn't need to be urlencoded, ONLY THE SPACES.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/478339/terminal-app-escape-codes-for-working-directory-and-document
 
 ---

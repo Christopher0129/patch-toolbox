@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 544**
+**总计条目 / Total entries: 651**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -13793,5 +13793,2402 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1208781#reply31
+
+---
+
+#### 545. What knowledge to take from this major upgrade (Debian 12 to 13) where I've faced some troubles?
+
+**问题描述 / Problem Description**:
+Tags: debian, deb, dist-upgrade | Score: 7 | Views: 825 | Answers: 2 | Created: 2026-03-14
+
+**解决方案 / Solution**:
+Without the logs, it’s impossible to know what your first dist-upgrade did. However, with a third-party repository installed it’s not surprising that it didn’t upgrade the system properly. What you should have done is read the Debian 13 release notes . They explain in detail how to prepare for the upgrade (including removing non-Debian packages — while this is often not necessary, it makes for a smoother upgrade), and how to perform the upgrade safely. I also recommend not specifying -y when running upgrades interactively; it’s best to check what apt is going to do (or not do) before letting it proceed. Even --autoremove is best left until later since it can result in unwanted package removals. Regarding dist-upgrade v. full-upgrade , they’re the same. See apt full-upgrade vs apt upgrade redundancy for details of the various upgrade options. In step 3, it’s normal not to get a complete upgrade: apt-get upgrade only upgrades packages that can be upgraded without removing anything, which is usually only a small part of a major upgrade (between releases). That’s why you needed the apt-get dist-upgrade in step 4 to finish the upgrade. See also What is the purpose of running `apt-get upgrade` then `full-upgrade` when upgrading to a new Debian release?
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804994/what-knowledge-to-take-from-this-major-upgrade-debian-12-to-13-where-ive-face
+
+---
+
+#### 546. df with a given filename return a filesystem name which is not in the list of all filesystems given by df without any parameter
+
+**问题描述 / Problem Description**:
+Tags: centos, disk-usage, luks | Score: 7 | Views: 638 | Answers: 2 | Created: 2025-10-16
+
+**解决方案 / Solution**:
+The output you’re seeing with no parameters is the result of special handling of device names ending in UUIDs : if (process_all && has_uuid_suffix (dev_name) && (resolved_dev = canonicalize_filename_mode (dev_name, CAN_EXISTING))) This is explained in the comment just above: On some systems, dev_name is a long-named symlink like /dev/disk/by-uuid/828fc648-9f30-43d8-a0b1-f7196a2edb66 pointing to a much shorter and more useful name like /dev/sda1 . It may also look like /dev/mapper/luks-828fc648-9f30-43d8-a0b1-f7196a2edb66 and point to /dev/dm-0 . When process_all is true and dev_name is a symlink whose name ends with a UUID use the resolved name instead. Device names are processed in this way only when all devices are shown, that it to say when df is invoked without arguments (other than options). Furthermore, this processing can’t be disabled, so you can’t ask df with no arguments to show the longer device name instead of the short one. If you want similar behaviour in both situations, you’d have to post-process the output; something like df . | awk '{ "readlink " $1 " > /dev/null && readlink -f " $1 | getline replacement; if (replacement != "") $1 = sprintf("%-" length($1) "s", replacement) } 1' Another possibility is to use findmnt instead of df : findmnt --df produces results similar to df , but without post-processing UUID-suffixed device names, and findmnt --df -T / works similarly to df / (and works for any kind of file, same as df ).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800511/df-with-a-given-filename-return-a-filesystem-name-which-is-not-in-the-list-of-al
+
+---
+
+#### 547. If a shell runs "exec" to start my graphical session, why do I still see that shell in the process list?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, exec, login-manager | Score: 6 | Views: 582 | Answers: 2 | Created: 2026-04-23
+
+**解决方案 / Solution**:
+exec start-hyprland | systemd-cat -p info -t hyprland is not the same as exec sleep 300 . In exec cmd , cmd is run in the same process as the shell, not a child ( exec should really have been called nofork ). In cmd1 | cmd2 , the shell forks itself twice¹, runs cmd1 in the first child, cmd2 in the second after having instantiated a pipe or socket pair connecting the stdout of the first to the stdin of the second. In any case, since cmd1 and cmd2 are running concurrently, they have to run in separate processes. Here, cmd1 is exec start-hyprland , so that runs start-hyprland without forking, but that's done by the first child mentioned above. exec is superfluous here because that child would not have forked an extra process just to execute that one command anyway. The sh you see in ps output is the main shell that is waiting for the termination of both processes constituting that pipeline². For that sh process started by your session manager to run start-hyprland without a fork, you'd need something like: exec cmd1 > >(cmd2) Where cmd2 is started asynchronously, not waited for, with its stdin connected to a pipe. >(cmd2) expands to a path to the other end of that pipe, which the shells opens in write-only mode ( > ) on the stdout of cmd1 and exec skips the fork. Note that the process running cmd2 in that case will will end up being the child of the one running cmd1 , so when it dies, cmd1 will receive a SIGCHLD signal which might very well confuse it. Example: $ ksh -c 'exec sleep 100 | cat' & $ ps -Hopid,ppid,args PID PPID COMMAND 6074 6072 /bin/zsh 9744 6074 ksh -c exec sleep 100 | cat 9745 9744 sleep 100 9746 9744 cat 9749 6074 ps -Hopid,ppid,args The process running sleep and the one running cat are sister processes both spawned by the process that executed ksh and that process is still there waiting for them (well here it being ksh93, it only waits for the one running cat ² unless you set the pipefail option). $ ksh -c 'exec sleep 100 > >(cat)' & $ ps -Hopid,ppid,args PID PPID COMMAND 6074 6072 /bin/zsh 9229 6074 sleep 100 9230 9229 cat 9238 6074 ps -Hopid,ppid,args This time, ksh is gone and was replace by sleep and cat still a child of that process that used to run ksh but now runs sleep . >(...) ( process substitution ) is not standard sh syntax though. It comes from ksh in the mid-80s though at the time it could not be used as target of redirections. zsh and bash have copied it since (and rc and derivatives have the same feature with a different syntax). The above would work today with ksh93, zsh and bash, but yash has a related feature that is even more relevant here: process redirection : In that shell, >(cmd) is not substituted with the path of a pipe but is short for 1>(cmd) just like >file is short for 1>file and redirects file descriptor 1 (stdout) to a pipe to a process started asynchronously to run cmd , so in yash, you'd just do exec cmd1 >(cmd2) . With standard sh syntax, you'd need to resort to named pipes by hand, something like: mkfifo -m600 some-pipe && { cmd2 <&3 3<&- & } 3< some-pipe && { rm -f some-pipe && exec cmd1; } > some-pipe Though of course you'd want to make sure some-pipe is created unique in some temporary area which with standard sh and utilities is hard to do portably and reliably. As noted by @grawity in comment, in the specific case of systemd-cat , you can also do: systemd-cat -p info start-hyprland Where systemd-cat cmd executes cmd in its own process with both its stdout and stderr ( current versions of the man page say it connects stdin instead of stderr but that's not what I observe and it wouldn't make sense³) directly connected to the journal via a Unix-domain socket instead of forwarding it from a pipe (or socketpair for shells that use them for their | operator like ksh93 on systems where pipes are not seekable, not process substitution which can't use socketpairs) to the command. To avoid touching stderr, you could do: systemcat sh -c 'exec cmd 2>&3 3>&-' 3>&2 ¹ Though some shells skip the fork for cmd2 except of course, down the line, to execute cmd2 if that's an external command and not a builtin or function. ² Some shells only wait for the right-most one, and some shells optimise out an extra fork when running the last command of an inline script so could run cmd2 in the shell process, which is not your case here since ps still shows that process running sh . ³ Fix now committed, so should be included in the next release.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805578/if-a-shell-runs-exec-to-start-my-graphical-session-why-do-i-still-see-that-sh
+
+---
+
+#### 548. How can I tell in software if a very quiet fan isn't spinning?
+
+**问题描述 / Problem Description**:
+Tags: debian, hardware, temperature, fan | Score: 6 | Views: 1673 | Answers: 2 | Created: 2026-03-22
+
+**解决方案 / Solution**:
+The control of the fan speed on the HP EliteBook 845 G7 via the BIOS is only possible to a limited extent. HP business notebooks generally manage fan curves automatically to ensure optimal cooling and hardware integrity. Enter the BIOS, restart your laptop and immediately press the F10 key repeatedly to open the BIOS setup utility. Find fan settings and navigate to the Advanced or Power tabs. Available options: Fan Always On You can enable or disable this option in the BIOS. If it is disabled, the fan may stop completely under low load . Laptop fan to turn on and off at will Solved Start a conversation HP ProBook PCs, EliteBook PCs, and Mobile Workstation PCs - Customized fan control With under low load it is meant that the fan automatically turns on and off, as also described in the manual on page 25. Like with many gaming graphics cards, where the fans only start spinning once a certain load is reached. The computer fan starts up automatically to cool internal components and prevent overheating. It is normal for the internal fan to cycle on and off during routine operation. To reduce the possibility of heat-related injuries or of overheating the computer, do not place the computer directly on your lap or obstruct the computer air vents. Use the computer only on a hard, at surface. Do not allow another hard surface, such as an adjoining optional printer, or a soft surface, such as pillows or rugs or clothing, to block airfow. Also, do not allow the AC adapter to come into contact with the skin or a soft surface, such as pillows or rugs or clothing, during operation. The computer and the AC adapter comply with the user-accessible surface temperature limits dened by applicable safety standards HP EliteBook 845 G7 Maintenance and Service Guide TjMax = 105 °C is the official maximum temperature of the CPU. This is exactly the value that everything refers to (throttling, etc.). AMD Ryzen 5 PRO 4650U Processor International safety standards for IT and AV equipment, relevant for laptops, tablets, monitors, etc. Accessible surfaces shall not reach temperatures that could cause burns to the user under normal operating conditions. CPU Health and Testing Component Tests: Inside the diagnostics menu, navigate to Component Tests to find specific tests for the processor, including a "Processor Check" to verify functionality. System Information: The BIOS "Main" tab displays processor type and speed. Temperature Management: Users have reported high operating temperatures (100°C - 105°C) on the EliteBook 845 G7 during heavy loads , which can be managed by adjusting the Windows Power Plan's "Processor performance boost mode" to disabled if overheating is detected. HP Elitebook 845 g7 overheating? Take a look at your CPU temperature, thermal throttling starts at around 95 °C , and beyond that it can become critical. Dust always builds up in the fans, and if the device previously belonged to a smoker and wasn’t properly cleaned, a lot of grime can accumulate as well. You can try cleaning the laptop again from the outside using a can of compressed air / Anti-dust spray to blow out as much dirt as possible. Otherwise, if it’s possible and you feel confident, open the device and check what’s going on, then clean it from the inside with a brush and a cloth. If the fan is broken, get a replacement on eBay or a similar site, You can find used fans for between €15 and €25. Here’s also a video showing how to open it, otherwise take it to someone who knows how to do it. HP Elitebook 845 G7 parts installation and disassembly
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805113/how-can-i-tell-in-software-if-a-very-quiet-fan-isnt-spinning
+
+---
+
+#### 549. Ubuntu system returns "killed" on nearly all commands
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, nginx, node.js, out-of-memory, deployment | Score: 3 | Views: 173 | Answers: 2 | Created: 2026-02-16
+
+**解决方案 / Solution**:
+It definitely looks like a crypto miner malware, which has arranged a higher priority for itself and is trying to kill any commands that would kill it before they can take effect. │ └─809 /bin/softirq --randomx-1gb-pages -o 45.125.66.100:444 -u react -p 3cthDeQ5 --tls -o 45.94.31.89:443 -u react -p 3cthDeQ5 --tls -B This is clearly a fake name: a real softirq process would have a name like [ksoftirqd/0] and it would have no reason to have IP addresses and ports as parameters. Maybe you're using a weak password (use SSH key authentication for internet-accessible servers) or the software you're running has a vulnerability that allows the attacker to plant malware to the system. In the comments, eyoung100 already identified PeerBlight (CVE-2025-55182) as the possible vulnerability, if the application is using React Server Function endpoints or React Server Components. If you are using the vulnerable versions (anything older than versions 19.0.1, 19.1.2 or 19.2.1), you'll need to update those componets before redeploying your application. Anyway, the link in Robo's answer seems to indicate this malware is part of the RondoDox botnet . Because the malware attempts to protect itself, you may have to stop the VPS, create a new "clean" one, and then connect the disk of the infected VPS as a secondary disk to the clean VPS to recover your data and to possibly inspect the malware. Unless you know how to check, assume any executables on the disk of the infected VPS are contaminated by malware - so don't reuse them. Before redeploying, check if the application (or any components you used in it, if the application is custom-built by yourself) for security notices and update as necessary.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804521/ubuntu-system-returns-killed-on-nearly-all-commands
+
+---
+
+#### 550. Centos maximum CPU frequency discrepancy
+
+**问题描述 / Problem Description**:
+Tags: centos, cpu-frequency | Score: 3 | Views: 181 | Answers: 1 | Created: 2026-01-21
+
+**解决方案 / Solution**:
+You can't. if you read the product page for your processor , you'll notice that 6200 MHz is just the upper end of the turbo range, i.e, not something you can configure as regular clock frequency. (Things get a lot more complicated under the hood; your processor can and does handle frequency scaling itself, and the role of the intel_pstate driver is to tell the processor how to decide which frequencies to use when. For more details, see the kernel documentation . But none of that changes that a Turbo frequency is not something you can just set as frequency. It can only be done for short bursts of time, before parts of your CPU package get too hot. And thus, it will only be activated when the CPU load is briefly high, to get that workload done ASAP, before temperature builds up.) (and yeah, you told me to not ask about CentOS 7, but I can still remark: performance tuning a system frequency-wise, although you're using a software platform that's as old as CentOS 7, that's um, let's say that's a creative way to invest your time. The software compiled for CentOS 7 can only use acceleration and architectural features present in CPUs from ca. 2004. Finding the time to get the software you're depending on CentOS 7 for in a version compiled for RHEL 10, and then running it on AlmaLinux 10 or RockyLinux 10 would very likely increase the performance a lot more than a few percents of processor clock would.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803941/centos-maximum-cpu-frequency-discrepancy
+
+---
+
+#### 551. How to extend a logical volume mounted on /home directory?
+
+**问题描述 / Problem Description**:
+Tags: centos, lvm, disk, fdisk | Score: 3 | Views: 293 | Answers: 1 | Created: 2025-03-19
+
+**解决方案 / Solution**:
+Since I am new to disk management, does it make sense? yes, (my first reaction was, wait there's a fourth mini partition, if this is MSDOS partition tabling, then it might not be possible to create more partitions, but this is GPT!). I'd add a -r to your lvextend command line: if your /home runs on a file system that can be enlarged while mounted, this will automatically do that; otherwise you're missing the step where you make the filesystem actually fill the (now larger) volume.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792697/how-to-extend-a-logical-volume-mounted-on-home-directory
+
+---
+
+#### 552. RAID array reverts to the old disk after reboot
+
+**问题描述 / Problem Description**:
+Tags: centos, storage, raid1 | Score: 3 | Views: 269 | Answers: 2 | Created: 2024-11-27
+
+**解决方案 / Solution**:
+Once a drive is removed from an array, its metadata is no longer updated. So the last metadata state is that of before it was removed, so it "looks good" unless another drive claims a newer update time and the like. So in the case where you remove RAID-1 drives and expect the array to continue on two other drives, can lead to some confusion. Inherently this is a weakness of mdadm metadata format. Furthermore, your mdadm.conf is too verbose . Remove metadata= , name= , and spares= in particular. Such entries might cause your new array to be ignored (in this example, if no spares are present). If you wish to keep both arrays around, at minimum you should change the UUID for one ( mdadm --assemble --update=uuid ) and also change UUIDs of whatever is on that array. You should also consider --update=super-minor and/or --update=name . If you do not wish to keep the array for the old drives around, --stop the wrong array then --zero-superblock its drives. You can also re-create, however, do not expect data on these drives to be available afterwards. This is only the case under the right conditions, see Should I use mdadm --create to recover my RAID?
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/787286/raid-array-reverts-to-the-old-disk-after-reboot
+
+---
+
+#### 553. What is the correct procedure to load a kernel module at boot in RHEL/CentOS 2.1 (kernel 2.4.x)?
+
+**问题描述 / Problem Description**:
+Tags: centos, rhel, kernel-modules, sata | Score: 3 | Views: 435 | Answers: 1 | Created: 2024-10-02
+
+**解决方案 / Solution**:
+I think your /etc/modules.conf file may already have a line like alias scsi_hostadapter ata_piix That covers the controller for your primary disk. To tell the system to load a second storage controller driver, add this line: alias scsi_hostadapter1 sata_sil to the same file. This tells the system to load the sata_sil module automatically very early in the boot process. (If there is no existing alias scsi_hostadapter ... line, omit the 1 from the new line.) Then rebuild your initrd: mkinitrd -f /boot/initrd-$(uname -r).img $(uname -r) After these steps, the sata_sil module should load automatically on boot. Note that with the old 2.4 series kernel, the (P)ATA disks will appear as /dev/hd[a-d] but sata_sil is treated like a SCSI device driver, so the SATA disks should appear as `/dev/sd[a-z]*' RHEL 2.1 might also have a lsscsi command (possibly as a separate package) which might be useful with any "SCSI-like" devices.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/784372/what-is-the-correct-procedure-to-load-a-kernel-module-at-boot-in-rhel-centos-2-1
+
+---
+
+#### 554. Unnecessary error traces after systemd path unit exits
+
+**问题描述 / Problem Description**:
+Tags: debian, systemd, services | Score: 2 | Views: 25 | Answers: 1 | Created: 2026-04-29
+
+**解决方案 / Solution**:
+Do not misuse PathExists= . Add a udev rule that sets SYSTEMD_WANTS=your.service variable for your device(s). You can find examples in the standard rules, like SUBSYSTEM=="leds", KERNEL=="*kbd_backlight*", TAG+="systemd", IMPORT{builtin}="path_id", ENV{SYSTEMD_WANTS}+="systemd-backlight@leds:$name.service" The unit(s) from the SYSTEMD_WANTS will be activated when the device(s) appear. The devices must be tagged with TAG+="systemd" , otherwise systemd will ignore them.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805697/unnecessary-error-traces-after-systemd-path-unit-exits
+
+---
+
+#### 555. Cinnamon - I can't get my laptop to power off when lid is closed
+
+**问题描述 / Problem Description**:
+Tags: debian, systemd, cinnamon | Score: 2 | Views: 48 | Answers: 1 | Created: 2026-04-17
+
+**解决方案 / Solution**:
+The handling of lid switch is blocked by the csd-power which has its own logic. Looking at cinnamon-settings-daemon sources you should be able to disable it with gsettings set org.cinnamon.settings-daemon.plugins.power inhibit-lid-switch false You should also be able to tell csd-power to power off instead of suspending with gsettings set org.cinnamon.settings-daemon.plugins.power lid-close-battery-action shutdown gsettings set org.cinnamon.settings-daemon.plugins.power lid-close-ac-action shutdown
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805509/cinnamon-i-cant-get-my-laptop-to-power-off-when-lid-is-closed
+
+---
+
+#### 556. Debian software RAID1 Over my head: I'm looking for pointers concerning UEFI booting alternate EFI locations if the either one fails
+
+**问题描述 / Problem Description**:
+Tags: debian, uefi, firmware, software-raid | Score: 2 | Views: 190 | Answers: 1 | Created: 2026-03-09
+
+**解决方案 / Solution**:
+The UEFI hard drive media device paths are using partition GUID. It can be shown e.g. with lsblk -o +partuuid . UEFI boot entries are normally managed by the efibootmgr --create . You pass the Linux device node and efibootmgr will compute the necessary GUID, partition offset and partition size for you. For Linux MD RAID1 you will need to create two boot entries, one for each physical partition. I do not think Debian does it automatically in this case. Debian actually supports having two independent copies of ESP (without RAID) and will install bootloader on each of them when updating grub. For this you set grub-efi/install_devices option of the grub-efi-amd64 package: bor@ThinkPad-E16-Gen3:~/tmp$ sudo debconf-show grub-efi-amd64 | grep grub-efi/install_devices: * grub-efi/install_devices: /dev/disk/by-id/nvme-eui.ace42e005580d4a9-part1 bor@ThinkPad-E16-Gen3:~/tmp$
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804885/debian-software-raid1-over-my-head-im-looking-for-pointers-concerning-uefi-boo
+
+---
+
+#### 557. How to use a "grep" result as an input of another grep, resulting in multiple lines?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, command-line, grep, pipe, windows-subsystem-for-linux | Score: 2 | Views: 925 | Answers: 5 | Created: 2025-10-29
+
+**解决方案 / Solution**:
+If you're already using awk , you don't need to use grep . awk can do Extended Regular Expression (ERE) matches like grep -E . And just as importantly, awk can use boolean operators ( ! , && , || , and even parentheses) with conditions/patterns, which grep can't do (although you can make a regex with alternations using | which is an OR operation). For example: awk -F- '/Rebuild All started/ && /: (fatal|error)/ { print $1 }' build_output.txt | sort -n | uniq You could even write the awk script so that it stored the matches in an associative array, then sorted and printed the the output in an END block, avoiding the need for piping to sort -n | uniq . BTW, egrep is deprecated. use grep -E instead for ERE. With GNU grep you also have the option of using -P for PCRE If you're not using awk , then piping the output of grep into another grep is effectively an AND operation. If needed, you can use grep's -v option for negation. e.g. using cut instead of awk . grep 'Rebuild All started' build_output.txt | grep -E ': (fatal|error)/' | cut -d- -f1 | sort -n | uniq This is objectively worse than just using awk . Every program in a pipeline has startup overhead and requires more resources (CPU time, RAM, and I/O bandwidth)...this is not as big a problem as it was a decade or two ago, we have much faster computers and storage devices now, but that's not really a good excuse to be wasteful in how we use them.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800857/how-to-use-a-grep-result-as-an-input-of-another-grep-resulting-in-multiple-li
+
+---
+
+#### 558. Are the historical Linux device namespace limits (e.g. the 15-partition limit per /dev/sdX) still applicable when using GPT on modern Linux kernels?
+
+**问题描述 / Problem Description**:
+Tags: linux, partition, namespace, gpt | Score: 14 | Views: 1304 | Answers: 1 | Created: 2026-01-10
+
+**解决方案 / Solution**:
+include/linux/blkdev.h:53:#define DISK_MAX_PARTS 256 The linked answer is technically correct and describes the new system but is easy to misinterpret. The maximum number of partition sub-devices per block device is 255 regardless of disk type (the main device itself effectively takes up slot 0, which makes a total of 256). A block device driver can provide a major number and interval (maximum minor numbers), in which case the kernel uses the traditional scheme where the initial N partitions will have device numbers within the specified range. But this scheme does not cause any limits, as subsequent partitions starting with Linux 2.6.28 will have minor numbers dynamically allocated from the "extended" 259:xxx major, still up to 256 per disk. For example, the SCSI disk sd driver provides major=8 and minors=16, so the first disk and its partitions get 8:0 to 8:15 and then "overflow" into 259:xxx (this being BLOCK_EXT_MAJOR). The loop driver uses major=7 and minors=0 (as originally it had no partition support) so the main device is 7:0 but all its partitions immediately use 259:xxx. If the driver doesn't provide a major number, then all partitions will be allocated dynamically. For example, nvme uses dynamic allocation and all of its device nodes are 259:xxx (even the "whole disk" device), sharing the major number with my loop partitions in this example. The minor number is an 18-bit value on Linux so the scheme allows up to 262144 "overflow" device nodes, which is 1024 NVMe devices partitioned to the brim (or 1092 SCSI devices). $ sudo partx /dev/loop0 -- directly dumps partition table NR START END SECTORS SIZE NAME UUID 1 2048 4095 2048 1M 8c9066af-375f-41dd-96c3-6c423f756a8e 2 4096 6143 2048 1M 630dac95-e5cd-41f1-a5c7-d2ee3589a8cc [...] 509 1042432 1044479 2048 1M 38e1647b-4bae-4cfd-bf47-7b26bede4d15 510 1044480 1046527 2048 1M 63809e27-8607-4103-ba38-76a1bcf0a9ed 511 1046528 1048575 2048 1M 3804fcf2-c75b-443a-80ea-a0d7b804683c $ lsblk NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINTS loop0 7:0 0 1G 0 loop ├─loop0p1 259:4 0 1M 0 part ├─loop0p2 259:5 0 1M 0 part ├─loop0p3 259:6 0 1M 0 part ├─[...] ├─loop0p253 259:256 0 1M 0 part ├─loop0p254 259:257 0 1M 0 part └─loop0p255 259:258 0 1M 0 part nvme0n1 259:0 0 931.5G 0 disk ├─nvme0n1p1 259:1 0 512M 0 part /boot ├─nvme0n1p2 259:2 0 923G 0 part │ └─sys 253:1 0 923G 0 crypt / └─nvme0n1p3 259:3 0 8G 0 part └─swap 253:0 0 8G 0 crypt [SWAP] Note how the loop device's partitions continue directly after the NVMe partitions, so if I were to add a partition to my NVMe disk, it would get 259:259 instead – the extended minors are not contiguous. (Also note that two devices here are device-mapper devices which use 253:x – the whole major number used by dm is dynamically-allocated. The limit on Linux is 2 14 or 16384 majors if you're curious.) Finally, it is possible to bypass even the 255 partition limit by using device-mapper instead, e.g. using kpartx to read the partition table and set up dm-linear devices that represent individual partitions. This was commonly done in the past for loop devices which originally did not have native support for being partitioned. Since device-mapper has a single major (and doesn't use the overflow system since it is already dynamically-allocated anyway), the theoretical limit would be 262144 total DM-based "partitions" – which can all be configured over the same disk (alongside its 255 native partitions) or spread out across all your 1024 NVMe disks.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803659/are-the-historical-linux-device-namespace-limits-e-g-the-15-partition-limit-pe
+
+---
+
+#### 559. Why can I browse this Windows share using smbclient, but cannot mount it with mount.cifs?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, windows, samba, cifs, smb | Score: 10 | Views: 890 | Answers: 1 | Created: 2025-09-24
+
+**解决方案 / Solution**:
+You're connecting to a domain‑based DFS namespace: \\ad.company.com\Shared\Sites\BLAH smbclient follows DFS referrals in user space, so it happily walks from the DFS root ( \\ad.company.com\Shared ) to the real fileserver that actually hosts Sites\BLAH . The kernel CIFS client used by mount.cifs must follow that DFS referral too, but on Linux it relies on keyutils + cifs.upcall for the DFS DNS resolver/SPNEGO upcalls. When those helpers aren’t available or not configured, you get: mount error(126): Required key not available : the kernel asked the keyring for a dns_resolver /SPNEGO key and none was provided (ENOKEY). mount error(2): No such file or directory : you reached the DFS root on the domain controller, but since the referral wasn’t followed the subpath Sites/BLAH doesn’t exist on that server. That matches your symptoms exactly and also explains why other non‑DFS shares mount fine. Whether you hit (126) or (2) depends on how far the mount got before the missing upcall bit it. With DFS upcalls enabled, the kernel will resolve the referral and both errors should disappear.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799953/why-can-i-browse-this-windows-share-using-smbclient-but-cannot-mount-it-with-mo
+
+---
+
+#### 560. Ubuntu gives the message "You are in emergency mode."
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, boot | Score: 8 | Views: 3381 | Answers: 1 | Created: 2025-07-20
+
+**解决方案 / Solution**:
+The error messages indicate the system has tried and failed to mount a filesystem with UUID 5cb90862-8d25-4ba9-b71b-fa56a76c7ee8 to /home . The mount attempt failed because the pre-requisite of running a filesystem check on it first had also failed. The exit status 4 from the filesystem checker suggests the filesystem is there, but it contained some errors that could not be fixed in a fully automatic way. In this situation, the first thing to do is to run the filesystem check manually: fsck -C UUID=5cb90862-8d25-4ba9-b71b-fa56a76c7ee8 (The -C option tells the checker to display a progress bar/status, if possible.) You can then see the errors the filesystem checker has found, and the checker might ask you questions about what to do with them. In most cases, the questions will be just "yes"(fix it)/"no"(leave it alone), but in some cases, the questions might be about how to fix a particular error: for example, if the checker finds a "lost chain" of blocks (i.e. an incompletely-deleted file), the options might be to either restore it to a normal file again, or to complete the deletion. If you are using Ubuntu's default filesystem type ( ext4 ), the filesystem checker for it is very well-known and reliable. However, if it tells you it would need to perform repairs on a very important file, e.g. /home/syiem/my_thesis_research_data.csv , then you probably should interrupt the checker, mount the /home filesystem manually in read-only mode, and try and make an extra copy of the important file to some other filesystem, just to be safe: <press Control+C to interrupt the filesystem checker> mount -o ro UUID=5cb90862-8d25-4ba9-b71b-fa56a76c7ee8 /home cp /home/syiem/my_thesis_research_data.csv /root/my_thesis_research_data_backup.csv` Once your important file is safely copied to a separate filesystem, you can then unmount the filesystem and re-run the checker: umount /home fsck -C UUID=5cb90862-8d25-4ba9-b71b-fa56a76c7ee8 Once the filesystem check is successfully completed, you can reboot, and the system should again come up normally.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798107/ubuntu-gives-the-message-you-are-in-emergency-mode
+
+---
+
+#### 561. How to convert .HEIC files to jpg or otherwise view on Debian Linux
+
+**问题描述 / Problem Description**:
+Tags: debian, ffmpeg, imagemagick, iphone | Score: 7 | Views: 1288 | Answers: 2 | Created: 2026-02-01
+
+**解决方案 / Solution**:
+There are issues with photos taken on devices running iOS 18: ImageMagick on Fedora will not read HEIC images created with iOS 18 https://askubuntu.com/questions/1531719/how-to-view-iphone-heic-images-after-ios-18-update-in-ubuntu-24-04 You should be able to install libheif-plugin-libde265 from bookworm-backports to get it fixed. As for the viewer itself, I like nomacs for browsing galleries. According to this issue , nomacs can understand image/heic via kimageformat-plugins . I can confirm on Ubuntu 24.04, you can install the plug-ins: sudo apt install kimageformat-plugins qt5-avif-image-plugin Your mileage may vary for Debian, but it should be similar.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804162/how-to-convert-heic-files-to-jpg-or-otherwise-view-on-debian-linux
+
+---
+
+#### 562. Fool a program it has a pty of specific size
+
+**问题描述 / Problem Description**:
+Tags: linux, terminal, tty, serial-console, pty | Score: 6 | Views: 727 | Answers: 1 | Created: 2025-11-27
+
+**解决方案 / Solution**:
+That's script that actively updates the tty size upon receiving the SIGWINCH signal (as sent by the terminal line discipline when the host terminal emulator tells it its new size¹) which in turn causes a SIGWINCH to be delivered to the foreground process group of the slave pty, and nethack in that process group queries that new size upon reception of that signal like full-screen TUI applications typically do. On the system I try it on, script (from util-linux ) installs that handler² on SIGWINCH even when SIGWINCH was ignored on startup, so doing something like (trap '' WINCH && script...) won't work. You could use something else that doesn't have that feature though such as socat : socat stdio,raw,echo=0 \ 'system:"stty rows 24 cols 80; exec nethack",pty,setsid,ctty,stderr' That's doing the same as what script does except for that SIGWINCH handling and the saving of the data into a typescript file (though socat has some options to save the exchanged traffic): puts the host terminal in raw mode with echo disabled forks a process, starts new session ( setsid ), with new pty , gets control of the slave side there ( ctty ) and runs a shell in there (which will be the session leader) to interpret that shell code with stdin, stdout and stderr connected to that slave side. then reads from the host terminal (for what you type) and forward to slave via master side while at the same time, read from master (from what the shell and the applications it runs output) and send that to the host terminal for display. Another option is to run script or your ttyrec in a new session. Then it won't get the SIGWINCH when the host tty is resized since it's no longer controlled by that terminal (so a fortiori not in its foreground process group). setsid -w ttyrec -e 'stty cols 80 rows 24; exec nethack' In the ps output, you'll see that ttyrec no longer has a controlling terminal: $ ps -jp 467606 PID PGID SID TTY TIME CMD 467606 467606 467606 ? 00:00:00 ttyrec Though its stdin/stdout/stderr still go to the host terminal: $ readlink /proc/467606/fd/[0-2] /dev/pts/15 /dev/pts/15 /dev/pts/15 ¹ Via a TIOCSWINSZ ioctl() on the master side of the pseudo-terminal. That terminal size changing kernel API with those ioctls and the SIGWINCH signal was apparently first added in BSDs in late 1984 ; I wonder what sort of terminal from the time could be resized. It might have been for the VT220 which came out in late 1983 and could switch between 80 and 132 columns . ² Technically, in current versions at least, not a traditional signal() handler, as it uses a signalfd() instead, which is processed as part of the pty handling event loop , but the effect is the same.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801678/fool-a-program-it-has-a-pty-of-specific-size
+
+---
+
+#### 563. NeoMutt and incomplete email addresses
+
+**问题描述 / Problem Description**:
+Tags: debian, postfix, neomutt | Score: 5 | Views: 302 | Answers: 1 | Created: 2026-02-01
+
+**解决方案 / Solution**:
+From the manpage for neomuttrc use_domain Type: boolean Default: yes When set , NeoMutt will qualify all local addresses (ones without the "@host" portion) with the value of $hostname. If unset , no addresses will be qualified. So I would suggest trying unset use_domain in your configuration file. Related is the hostname variable where you can specify what hostname gets appended.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804174/neomutt-and-incomplete-email-addresses
+
+---
+
+#### 564. How to check for IPv6 address collisions in Linux
+
+**问题描述 / Problem Description**:
+Tags: linux, ipv6 | Score: 5 | Views: 816 | Answers: 2 | Created: 2025-11-29
+
+**解决方案 / Solution**:
+The kernel automatically performs Duplicate Address Detection any time an IPv6 address is added to an interface. There is nothing special that the program needs to do in order to activate DAD. If I have some software that wants to add an IP to the host, how could that software discover that the IP is taken. Eg using the ip CLI? The same way it adds the IP address: If the program uses Netlink ( rtnl ) as most Linux networking tools do, then after adding the rtnl_addr object it can get (RTM_GETADDR) the same object and check its IFA_FLAGS: having IFA_F_TENTATIVE means it is still undergoing Duplicate Address Detection (and in fact the kernel won't allow you to use it, unless Optimistic DAD is enabled), IFA_F_DADFAILED means DAD finished and found a collision (the tentative flag may remain set as well), absence of both flags means DAD finished and no collisions were found. The program doesn't need to wait for a specific time. The kernel's DAD code already has the necessary timers (which may vary depending on whether the kernel has optimistic_dad or enhanced_dad enabled). The program only needs to keep checking (e.g. every second) until either the 'tentative' flag disappears or 'dadfailed' appears, whichever happens first. Netlink also provides change notifications (like in ip monitor addr ) so the program will automatically keep receiving the address object every time its flags change, without needing any poll interval. If the program uses the ip CLI, then to begin with, it should stop using the ip CLI and start using interfaces meant for machine use, namely Netlink. But if that's not possible then the program should use ip -json to query the addresses, parsing the output as JSON and using the same logic as for Netlink (i.e. wait until .tentative has disappeared and/or .dadfailed has appeared). ip -j -6 addr ls mlx0 | jq '.[].addr_info[] | {local, tentative, dadfailed}' The iproute2 ip CLI itself uses Netlink, so it is not problematic in itself – it has access to all of the same information, and you can run it manually to check the same flags. But it is an interface for human consumption first and foremost. If the program uses the ip CLI on a platform where there's no -json option (either because it's an ancient iproute2 version or because it's the Busybox imitation), then sorry but that's already in the "works on my computer" territory. And if the program uses the old Linux 2.4 era IPv6-specific ioctl and /proc/net interfaces, then AFAIK it has no way to obtain this information, and it should be ported to Netlink – although even ip -json would already be an upgrade. (This specifically includes the net-tools ifconfig , as nobody has ported it to the modern Linux 2.6 ways yet. Avoid net-tools.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801732/how-to-check-for-ipv6-address-collisions-in-linux
+
+---
+
+#### 565. suppress stderr when inputting a file to a variable
+
+**问题描述 / Problem Description**:
+Tags: bash, ubuntu | Score: 5 | Views: 365 | Answers: 2 | Created: 2025-10-24
+
+**解决方案 / Solution**:
+What you can do: { var="$(< no-exists)"; } 2>/dev/null The curly braces { ...; } run the command in the current shell as a group. 2>/dev/null after the group sends the group's STDERR to /dev/null So when < no-exists fails, its error is discarded and var becomes empty (no error shown). Another version closing the STDERR F ile D escriptor: exec 9>&2 # save stderr on FD 9 exec 2>&- # close stderr var="$(< no-exists)" exec 2>&9 # restore stderr from FD 9 exec 9>&- # close FD9 (cleanup) Simplified version: exec 9>&2 2>&- var="$(< no-exists)" exec 2>&9 9>&-
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800732/suppress-stderr-when-inputting-a-file-to-a-variable
+
+---
+
+#### 566. Making `apt-get` read answers from stdin on graphical Ubuntu
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, scripting, apt, stdin | Score: 5 | Views: 384 | Answers: 1 | Created: 2025-09-19
+
+**解决方案 / Solution**:
+This doesn’t answer your question as summarised in the title, but for well-designed packages that use debconf for configuration, the correct way to pick answers non-interactively is to set them ahead of time (“pre-seeding”). For postfix , that’s: debconf-set-selections <<<"postfix postfix/main_mailer_type select No configuration" The parameters are, in order, the package name, the configuration key, the configuration type, and the value. To find the appropriate values to give, you need to install the package or at least extract its contents, and look at /var/lib/dpkg/info/postfix.templates (replacing postfix as appropriate). This will show all the available configuration settings with their types and default values. In this instance: Template: postfix/main_mailer_type Type: select Choices: No configuration, Internet Site, Internet with smarthost, Satellite system, Local only […] Default: Internet Site […] The default value is “Internet Site”, so a non-interactive setup will use that value. Since that isn’t what you want, you need to change the setting ahead of time as described above. For best results, you should also set DEBIAN_FRONTEND=noninteractive , since you want a non-interactive installation anyway. Some packages add a layer on top of debconf ; one example is dbconfig-common , which is the recommended way for packages requiring a database to configure their database connections, but which doesn’t work with debconf pre-seeding. The defaults for dbconfig-common are to use a local database (on localhost ), so if that’s appropriate, DEBIAN_FRONTEND=noninteractive will do the right thing. Otherwise, you need to provide a configuration file in /etc/dbconfig-common , named after the package you want to configure; for example, /etc/dbconfig-common/bacula-director-pgsql.conf . The simplest way to construct this is to install the package once and answer the debconf prompts; dbconfig-common will then write a configuration file that can be re-used elsewhere (possibly removing the password).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799796/making-apt-get-read-answers-from-stdin-on-graphical-ubuntu
+
+---
+
+#### 567. Unable to disconnect pool due to ghost tailscale process
+
+**问题描述 / Problem Description**:
+Tags: linux, mount, docker, nas, freenas | Score: 4 | Views: 328 | Answers: 1 | Created: 2025-12-27
+
+**解决方案 / Solution**:
+TrueNAS these days is a Debian GNU/Linux based system with a custom Linux kernel and like when it was based on FreeBSD leveraging the ZFS file system for storage. Exporting a ZFS pool implies unmounting all its datasets. And to be able to unmount a dataset, like for any filesystem, it must not be in use (no file opened or mmapped by any process or used as loop device backend, etc). The TrueNAS "apps" these days are implemented as docker containers, and like for kubernetes before, those are just a management interface around the Linux container/namespace features. Those complicate things as you have processes running in different and unshared mount namespaces, which means lsof and zpool export / umount won't work properly. So you need to make sure all processes in separate namespaces that may use datasets in a zpool are terminated before you can export that zpool . For TrueNAS apps, that means stopping those apps via their WUI or API. If you have started unmounting datasets and killing random processes under TrueNAS/ docker feet, it's likely the system will be in a bad state hard to recover from and your best bet may be to reboot the appliance. You can try to identify the processes still running in those containers by looking at their mount namespaces (with ps -HAo mntns,pid,args ) and/or /proc/<pid>/mounts for each <pid> . Those processes won't have tailscale in their name but might have in /proc/<pid>/mounts .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803340/unable-to-disconnect-pool-due-to-ghost-tailscale-process
+
+---
+
+#### 568. Asynchronous execution of sudo in parallel breaks terminal
+
+**问题描述 / Problem Description**:
+Tags: linux, sudo | Score: 4 | Views: 217 | Answers: 1 | Created: 2025-12-01
+
+**解决方案 / Solution**:
+Because the authors of sudo take special precautions to ensure that it sends prompts to, and receives input from, an actual interactive terminal. This is sudo functioning as designed. For more information, read man sudo sudoers . For even more information, you can download, and read, the source.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801771/asynchronous-execution-of-sudo-in-parallel-breaks-terminal
+
+---
+
+#### 569. How to achieve persistent quicklaunch behaviour with Gnome on Ubuntu?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, gnome, desktop-environment, desktop, gnome-panel | Score: 4 | Views: 270 | Answers: 1 | Created: 2025-10-03
+
+**解决方案 / Solution**:
+Some things can be changed manually or with add-ons (widgets), while others can’t be changed at all, or only with great difficulty or to a minimal extent. You could also try doing it with custom programming and configuration, but the effort wouldn’t really be worth it. Gnome Desktop Ubuntu with the default GNOME interface works fundamentally differently out of the box. Normally, there is no such permanent, visible quick launch bar in the taskbar. Dash to Panel mixes some of the concepts of Windows and GNOME, combining the Dash and the application bar into a Windows-like taskbar. But even though you now have a Windows-like panel, the behavior of favorites and other elements still follows GNOME’s logic, icons disappear or switch within the running applications area. I’d suggest trying Isolate Favorites , in the Dash to Panel settings under Advanced Settings > Isolate Favorites and see if changing the options there makes any difference. Otherwise, you can try these three other extensions, but you’ll still face some limitations due to the GNOME design. Dash to Panel will probably remain the option that gets you closest to a proper solution. Arc Menu: Replaces the standard menu with a Windows-like start menu Features include: various menu layouts, built in GNOME search, quick access to system shortcuts, and much more! Arc Menu Just Perfection It also allows you to modify dozens of small aspects of GNOME Just Perfection Frippery Applications Menu A simpler alternative to Arc Menu Replace Activities button with an Applications menu Frippery Applications Menu Personally, I liked the implementation and performance of GNOME in Tails the most. However, whether Tails is suitable for everyday use is something everyone has to decide for themselves. Alternative desktop environments Since I do some desktop hardening for client systems used in development and office environments, this is my personal opinion and experience from the past few years with Debian 8–12 . The problem with some desktop environments at the moment is that they only run on X11 , while support for Wayland is still experimental . I’ve already mentioned this in several posts, so I don’t have to repeat it again. Wayland vs. X11 (Part..) Cinnamon Desktop The Cinnamon desktop is, in my opinion, one of the best when it comes to customization options. It allows a lot of adjustments and is also one of the most similar to Windows. The current dilemma, however, is that Wayland support is still experimental, and in the past, I often experienced freezes, hangs, or screen artifacts after various updates, upgrades, and software installations. KDE Desktop A very powerful and excellent desktop environment that I also use, but some settings sometimes don’t work properly or are a bit clunky, especially when it comes to the start menu and the taskbar. Additionally, when using external themes or widgets, they can sometimes slow down the system, the desktop environment itself. XFCE Lightweight and fast, but I miss many of the features that are standard in KDE. Wayland support is still experimental at the moment. You can customize this desktop environment to achieve a Windows-like look and feel, but it can also be a bit finicky at times when trying to change certain settings. Openbox A window manager that lets you build your entire desktop from scratch . You start with a blank canvas, just the background and windows and you place and configure each element manually by adding/installing various components. These are the most common ones, but there are many others like LXDE , LXQt , MATE , etc. Graphical Desktop Environment Three Components Working Together in a Graphical Desktop Environment. Display Server (X11, Wayland, etc.): Handles communication between applications and the graphics card/display Desktop Environment (KDE Plasma, GNOME, XFCE, etc.): Provides the user interface including windows, panels, system menus, etc Display Manager (SDDM, GDM, LightDM, etc.): Is the login screen, graphical login, that authenticates the user and then starts the session, the Desktop Environment ( However, it is not indispensable, as one could also log in via console (TTY) and starts a session ) Some combinations harmonize very well, while others are only experimental and can cause errors in the past and at the moment! If you want to try them all, you can test most of them using live systems, or you can install, for example, Debian with all the available desktop environments and try them out. This takes a lot of time, and in the end, you should consider functionality and security depending on your use case when choosing a desktop environment.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800178/how-to-achieve-persistent-quicklaunch-behaviour-with-gnome-on-ubuntu
+
+---
+
+#### 570. How to check and rerun an apt-upgrade command when you find you're out of disk space?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, apt | Score: 4 | Views: 1524 | Answers: 2 | Created: 2025-10-01
+
+**解决方案 / Solution**:
+apt logs the changes it makes in /var/log/apt/history.log . You should find your upgrade there, with the list of packages involved. However if you suspect that packages may be missing files, a better option is to check package contents using debsums . See apt-get update with https sources broken for details; the command to use is (assuming the default value of $IFS ): sudo apt reinstall $( LC_ALL=C.UTF-8 dpkg -S $(sudo debsums -c) | sed '/^diversion by /d; s/:.*//; s/, /\n/g' | sort -u ) If you have packages that are installed but not configured, run sudo dpkg --configure --pending to configure them. Recent versions of apt now check available disk space before starting an operation, but that doesn’t help if something else uses disk space while apt is running.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800123/how-to-check-and-rerun-an-apt-upgrade-command-when-you-find-youre-out-of-disk-s
+
+---
+
+#### 571. Proper way to power off a Ubuntu 22.04-5 desktop from single user mode
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, shutdown | Score: 4 | Views: 1041 | Answers: 2 | Created: 2025-08-13
+
+**解决方案 / Solution**:
+Try poweroff -f . The -f flag should also work for reboot and halt . Try Alt-SysRq-o Note that either way, you should unmount everything you can first. At the very least, everything you mounted yourself.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798785/proper-way-to-power-off-a-ubuntu-22-04-5-desktop-from-single-user-mode
+
+---
+
+#### 572. How may I install a specific version of a package only if the installed version is not higher
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, apt, software-installation, version | Score: 4 | Views: 417 | Answers: 1 | Created: 2025-07-31
+
+**解决方案 / Solution**:
+Not yet fully tested but it appears that: apt satisfy "percona-server-server (>= 8.4.5-5)" may solve my actual problem. (I don't care what version is installed, I care that at least a min version is installed.) Where this may introduce unexpected behavior: This will not install the required version. It will only try to install the most current version and fail if it cannot do that. To test this, I downgraded to: aptitude install percona-server-server=8.4.0-1-1.noble ( aptitude allows downgrading, apt / apt-get would error on the dependency versions.) If at one point the most current version changes, one may run into an error like this: DEBIAN_FRONTEND=noninteractive apt satisfy -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" "percona-server-server (>= 8.4.0), percona-server-server (<=8.4.4)" Reading package lists... Done Building dependency tree... Done Reading state information... Done Some packages could not be installed. This may mean that you have requested an impossible situation or if you are using the unstable distribution that some required packages have not yet been created or been moved out of Incoming. The following information may help to resolve the situation: The following packages have unmet dependencies: satisfy:command-line : Depends: percona-server-server (<= 8.4.4) but 8.4.5-5-1.noble is to be installed E: Unable to correct problems, you have held broken packages.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798406/how-may-i-install-a-specific-version-of-a-package-only-if-the-installed-version
+
+---
+
+#### 573. How can show the CJK character whose unicode is "02B6A5" in terminal?
+
+**问题描述 / Problem Description**:
+Tags: debian, fonts, unicode | Score: 3 | Views: 119 | Answers: 2 | Created: 2026-02-06
+
+**解决方案 / Solution**:
+Noto Sans Mono CJK SC doesn't have the U+2B6A5 character, which you can confirm with: $ fc-match --format='%{file} [%{fullname}]:\n%{charset}\n' 'Noto Sans Mono CJK SC' /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc [Noto Sans Mono CJK SC]: 20-7e [...] 2b689 2b695-2b696 2b6ad 2b6ed 2b746 [...] You can tell which font on your system covers that codepoint with fc-list :charset=2b6a5 . On my Debian system after installing a few TrueType font packages that have CJK in their description (see aptitude search '^fonts- ~d CJK' ): $ fc-list :charset=2b6a5 /usr/share/fonts/truetype/babelstone/BabelStoneHan.ttf: BabelStone Han:style=Regular You can tell which package it comes from with dpkg -S : $ dpkg -S /usr/share/fonts/truetype/babelstone/BabelStoneHan.ttf fonts-babelstone-han: /usr/share/fonts/truetype/babelstone/BabelStoneHan.ttf lxterminal is VTE based like gnome-terminal , so does support font fallback via pango -> fontconfig. It should just be a matter of installing that fonts-babelstone-han package. Your version of Linux kernel suggests you're using Debian 12. I've installed all the fonts-* packages on a Debian 12 incus container with: apt-get install --mark-auto '^fonts-.' After which I find more fonts with that character: debian-12:~# fc-list :charset=2b6a5 /usr/share/fonts/truetype/cns11643/TW-Sung-Ext-B-98_1.ttf: TW\-Sung\-Ext\-B,全字庫正宋體 Ext\-B:style=Regular /usr/share/fonts/truetype/hanazono/HanaMinB.ttf: HanaMinB,花園明朝B:style=Regular /usr/share/fonts/truetype/cns11643/TW-Kai-Ext-B-98_1.ttf: TW\-Kai\-Ext\-B,全字庫正楷體 Ext\-B:style=Regular /usr/share/fonts/truetype/babelstone/BabelStoneHan.ttf: BabelStone Han:style=Regular That's from these packages: debian-12:~# fc-list :charset=2b6a5 | cut -d: -f1 | xargs dpkg -S fonts-cns11643-sung: /usr/share/fonts/truetype/cns11643/TW-Sung-Ext-B-98_1.ttf fonts-hanazono: /usr/share/fonts/truetype/hanazono/HanaMinB.ttf fonts-cns11643-kai: /usr/share/fonts/truetype/cns11643/TW-Kai-Ext-B-98_1.ttf fonts-babelstone-han: /usr/share/fonts/truetype/babelstone/BabelStoneHan.ttf
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804295/how-can-show-the-cjk-character-whose-unicode-is-02b6a5-in-terminal
+
+---
+
+#### 574. pass-otp fails on second device
+
+**问题描述 / Problem Description**:
+Tags: linux, password-store | Score: 3 | Views: 151 | Answers: 1 | Created: 2025-12-29
+
+**解决方案 / Solution**:
+Usually 6-digit 'TOTP' 2FA codes are generated from the current Unix timestamp divided by 30 (30 seconds being the interval). This relies on the device knowing the correct UTC time. If the device runs Linux, check date -u to make sure the kernel clock is correct; it should show the same UTC time ( not local time) on both devices. (The linked website will also this automatically.) You can also run date +%s to compare the Unix timestamps directly. Normally the kernel clock runs on UTC, and programs use the timezone to offset timestamps into your local time for display purposes. It could be that the second device has it backwards, i.e. had its timezone set to GMT/UTC but the kernel clock directly set to your local time instead, which would cause the Unix timestamps to be off by several hours despite appearing correct in the GUI clock. Install oath-toolkit and run oathtool --totp --base32 with the same secret key taken from pass . It automatically uses the current Unix timestamp. If oathtool shows the correct result but pass-otp is wrong, then the problem is likely with pass-otp.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803376/pass-otp-fails-on-second-device
+
+---
+
+#### 575. Detect if any ping succeeds
+
+**问题描述 / Problem Description**:
+Tags: linux, networking, ping | Score: 3 | Views: 975 | Answers: 6 | Created: 2025-11-26
+
+**解决方案 / Solution**:
+You don't need the separate script (or the bash shell). Shell code can also be given as argument with the -c option (that's what the system("shell code") function of most languages use): if echo host1 host2 host3 | xargs -n1 -P0 sh -c '! "$0" "$@"' ping -c1 -w2 then echo 'They all failed' else echo 'At least one succeeded' fi In: sh -u -ce -o xtrace -- 'shell code' 'script name' 'arg 1' 'arg 2' (here -u , e and -o xtrace to show you can have more options before or after -c ) the first non-option argument (here shell code ) is the code to interpret the second ( script name ) a name you want to give to that inline script (the equivalent of the file name for a script in a file). It has these effects: it's used for instance in error messages that the shell generates to tell the user the error is coming from that script. it's what the $0 special parameter expands to. and the remaining arguments make up the arguments of the inline script, so are available in the shell code as $1 , $2 ... with "$@" the verbatim list of them all. So, here with sh -c '! "$0" "$@"' ping -c1 -w2 , we're creating an inline script which we call ping . xargs will pass -c1 , -w2 and one word read from stdin at a time as arguments to that script, and that script runs the command called ping with those arguments and the exit status reversed with ! . You may argue that shell error messages if any showing as "ping" error messages, may be confusing to the user, so you could change it to sh -c '! "$@"' sh ping -c1 -w2 for the inline script's name to be sh instead. But here I'd argue that to scan networks, you'd rather use things like nmap than ping in a loop.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801633/detect-if-any-ping-succeeds
+
+---
+
+#### 576. How do you get PCI-1 NVMe expansion cards to allow SSD to act as boot device?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, hard-disk, hardware | Score: 3 | Views: 550 | Answers: 1 | Created: 2025-10-25
+
+**解决方案 / Solution**:
+The only thing that is a downer about those adapters is that it says that the SSD you install on them cannot act as a boot device. Why exactly is that? Is there a workaround for that? That's because nothing, because not true: If your system supports booting from an nvme depends on your system's firmware, not on some passive adapter. I used a similar one and it just works fine as boot device; the system bootloader cares not the least to which PCIe complex port the nvme it boots from is connected. If it doesn't work, that's a limitation of your server's firmware, and can at best be worked around by putting the EFI system partition on some other device and just booting from that while keeping the actual data on your nvme. Frankly, I wouldn't see why a server wouldn't boot from an nvme; this isn't exactly a new thing in the server world; I'd expect any server with firmware written in the last 10 years to support nvme SSDs out of the box, on any PCIe port, whether it's directly connected to an on-board M.2 slot, plugged in to a full-size PCIe port, SATA Express, OCuLink, ePCIe…: PCIe is in the end pretty much like Ethernet in that regard: for using any device for any purpose, it really doesn't matter into which port on your switch it's plugged, or whether it's plugged into a second switch attached to your first, and whether the link is 10 Gb/s ethernet or Ethernet-over-Wet-String (DSL).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800762/how-do-you-get-pci-1-nvme-expansion-cards-to-allow-ssd-to-act-as-boot-device
+
+---
+
+#### 577. Why and how were KVM modules unexpectedly enabled in Ubuntu 24.04?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, virtualbox, kernel-modules, kvm | Score: 3 | Views: 3440 | Answers: 3 | Created: 2025-07-21
+
+**解决方案 / Solution**:
+In version 6.12 of the Linux kernel, kvm module initialisation was changed — it now takes place as soon as the modules are loaded, and not the first time they are used. This prevents VirtualBox from working, as you discovered. This is documented in the VirtualBox 7.1.4 release notes . Since your system was upgraded from 6.11 to 6.14, that explains the sudden appearance of the symptoms. To return to the previous situation (where KVM modules can be loaded without preventing VirtualBox from working), you can add kvm.enable_virt_at_load=0 to the kernel boot parameters. If you’re using Grub on a Debian derivative, that’s done by adding the parameter to the GRUB_CMDLINE_LINUX_DEFAULT= line in /etc/default/grub , then running sudo update-grub . After a reboot, this will allow VirtualBox to work, without preventing any other KVM-based tool from working either. The other option is to disable the KVM modules entirely; this is safe, but will prevent any KVM-based tool from working. See cas’ answer for details.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798132/why-and-how-were-kvm-modules-unexpectedly-enabled-in-ubuntu-24-04
+
+---
+
+#### 578. ThinkPad T14 Gen1 - Trackpoint - Wayland - Stops working during usage
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, wayland, thinkpad, trackpoint | Score: 3 | Views: 1100 | Answers: 1 | Created: 2025-07-19
+
+**解决方案 / Solution**:
+Try to solve the problem with psmouse.synaptics_intertouch -- either as a kernel parameter in GRUB or via a config file in /etc/modprobe.d/psmouse.conf as described here. psmouse` failing to initialize after suspend/hibernate - help for possible workaround needed Touchpad Synaptics Try alternative drivers. Install libinput as a replacement for synaptics, or check if you can update the Elan-TrackPoint firmware. libinput libinput Touchpad LibinputTouchpad Elan-TrackPoint TPPS/2 Elan Trackpoint on Thinkpad T495 with Kubuntu 20.04 ThinkPad Elan TrackPoint sensitivity adjustment on Linux (Fedora)? TrackPoint Check this post to: This is solution, that has worked for me: sudo rmmod psmouse sudo modprobe psmouse proto=imps or sudo modprobe -r psmouse && sudo modprobe psmouse proto=imps Make it permanent: sudo gedit /etc/modprobe.d/options Add line: options psmouse proto=imps This fix will make the touchpad be recognized as a mouse instead, which might remove some features specific to touchpads such as disable while typing and scroll gestures. Touchpad stopped working 20.04 VSC and touchpad: Mostly I get it when using VSC or solitaire... If touchpad stops working in VSC on Ubuntu, it's more a general touchpad issue rather than a VSC problem. VS Code touchpad scrolling moving cursor instead of page touch pad randomly stopped working on ubuntu desktop Trackpad stopped working suddenly on Ubuntu and Windows after installing Ubuntu 22.04 LTS Visual Studio Code and Arduino IDE stopped working It's a linux driver issue. In the terminal, find out what hardware you have. Do lshw . Find the touch-pad and see what drivers it is using.... Touchpad isn't working properly
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798083/thinkpad-t14-gen1-trackpoint-wayland-stops-working-during-usage
+
+---
+
+#### 579. How can I resolve a dependency conflict for installing GDB?
+
+**问题描述 / Problem Description**:
+Tags: debian, apt, gdb | Score: 2 | Views: 290 | Answers: 1 | Created: 2026-02-18
+
+**解决方案 / Solution**:
+You’ve installed packages from backports, but you’re trying to install gdb and its missing dependencies from the main release — that’s what’s causing the problems. Assuming you really wanted to install libelf1t64 etc. from backports, you might as well install gdb from backports too: sudo apt install -t trixie-backports gdb Since you’re new (again) to Debian, it would be better to stick to the main release, but fixing that at this stage is likely to be more complex than continuing to pull related packages from backports. Whatever you do though, don’t enable backports for all package installations; only do so when necessary.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804557/how-can-i-resolve-a-dependency-conflict-for-installing-gdb
+
+---
+
+#### 580. apt remove does not fail upon removing a package that is a dependency of another
+
+**问题描述 / Problem Description**:
+Tags: debian, apt, package-management, dependencies | Score: 2 | Views: 306 | Answers: 1 | Created: 2026-02-17
+
+**解决方案 / Solution**:
+APT is a resolver: it does whatever is necessary to achieve the state requested by whatever commands it’s given, while ensuring that the overall state of packages is consistent (all installed packages have their dependencies installed too). So apt remove librsvg2-common means “starting from the current package state of the system, find me a package state such that librsvg2-common is no longer installed”. Achieving that involves removing packages that depend on librsvg2-common , unless another package can be installed to satisfy the dependency. If you want a tool where you can try removing a package to see whether doing so would also remove dependent packages, you need to use the -s option ( --simulate ), as you’ve already found. Even without -s , by default apt will show you what it wants to do, and ask for confirmation before proceeding. I don’t know about many other package managers in detail, but DNF also behaves in this way. There’s a slight difference between APT and DNF however: DNF allows packages to be protected from removal, and it will refuse to remove a package if that would involve removing a protected package. APT has a similar feature, holding a package, but that also prevents the package from being upgraded.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804528/apt-remove-does-not-fail-upon-removing-a-package-that-is-a-dependency-of-another
+
+---
+
+#### 581. GRUB changes don't take effect
+
+**问题描述 / Problem Description**:
+Tags: debian, grub | Score: 2 | Views: 397 | Answers: 1 | Created: 2026-02-10
+
+**解决方案 / Solution**:
+You firmware is configured to first execute grub from the TuxedoOS. Two installed Linux systems each have their own bootloader ( grub ) with independent configuration . You were changing the configuration of Debian grub which is not what TuxedoOS grub is using. The GRUB_DEFAULT refers to the menu entry inside grub.cfg , not to the firmware boot entries. To change firmware boot order and set Debian as the primary boot option either use your BIOS Setup or run from Linux efibootmgr -o 0001,0002,0003,0000,0004,0005,0006 This command reverses the position of Debian and TuxedoOS; you can use any order that suits you. Keep in mind that some systems simply refuse to remember the efibootmgr settings (they appear OK until reboot and then revert to the previous values), so BIOS Setup is usually better option. And yes, if you want to keep TuxedoOS grub as default you can change the default menu entry in the TuxedoOS grub.cfg in the usual way as you have found (setting GRUB_DEFAULT ).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804368/grub-changes-dont-take-effect
+
+---
+
+#### 582. How to migrate xsession/xinitrc sessions to display managers?
+
+**问题描述 / Problem Description**:
+Tags: debian, login, startup, session, display-manager | Score: 2 | Views: 116 | Answers: 1 | Created: 2026-02-06
+
+**解决方案 / Solution**:
+The startx invokes xinit which will start Xserver and run the command you have given. With no command some distribution dependent xinitrc is executed which may perform quite some distribution-dependent initialization before finally calling your ~/.xsession . Invoking ~/.xsession directly will skip all these steps. Using xdm as display manager should behave identically to startx without any explicit setup on your side. While xdm is not integrated with systemd-logind , neither was your solution so far. More modern display managers do use the session definitions you listed. But for the reasons I mentioned it makes sense to find out the "master" xinit script and invoke it instead of ~/.xsession directly. Your session must be in /usr/share/xsessions in this case - it is very unlikely that your ~/.xsession will work under Wayland. If the only thing your ~/.xsession does is starting the window environment of your choice, then it is probably already handled by the distribution. On Debian the i3-wm package installs /usr/share/xsessions/i3.desktop which you can simply chose in your Display Manager greeter. E.g. on Ubuntu 24.04: It does bypass all the scripts in /etc/X11/Xsession.d , but if something is missing compared with statrx it is a topic for a bug report. Actually, no ~/.xsession was needed with startx either. The standard xinit processing will by default start the /usr/bin/x-session-manager which is configured using update-alternatives and i3-wm also installs itself (and if this is the only window manager it will be used without any explicit step): bor@numbat:~$ update-alternatives --display x-session-manager x-session-manager - manual mode link best version is /usr/bin/gnome-session link currently points to /usr/bin/i3 link x-session-manager is /usr/bin/x-session-manager slave x-session-manager.1.gz is /usr/share/man/man1/x-session-manager.1.gz /usr/bin/gnome-session - priority 50 slave x-session-manager.1.gz: /usr/share/man/man1/gnome-session.1.gz /usr/bin/i3 - priority 30 slave x-session-manager.1.gz: /usr/share/man/man1/i3.1.gz bor@numbat:~$ It is also possible to setup session using full processing, like bor@numbat:~$ cat /usr/share/xsessions/xinit.desktop [Desktop Entry] Name=Generic xinit Comment=XDM compatibility Exec=/etc/X11/xinit/xinitrc TryExec=/etc/X11/xinit/xinitrc Type=Application X-LightDM-DesktopName=xinit DesktopNames=xinit Keywords=wm;windowmanager;window;manager; bor@numbat:~$ Specifically on Ubuntu the funny effect is that when x-session-manager is set to GNOME, it starts the vanilla GNOME, while selecting Ubuntu session will start Ubuntu branded.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804296/how-to-migrate-xsession-xinitrc-sessions-to-display-managers
+
+---
+
+#### 583. Is it possible in x11 to make the application border invisible?
+
+**问题描述 / Problem Description**:
+Tags: linux, x11, window-manager, window-decorations, emulators | Score: 2 | Views: 85 | Answers: 2 | Created: 2026-01-31
+
+**解决方案 / Solution**:
+In the X Window System, window borders are usually drawn by window managers. Since you don’t have a window manager, the border you see here is entirely controlled by Mini vMac. You end up seeing it because your display ratio doesn’t match the Mac’s: 512×342 for a Mac Plus, 4:3 for a Mac II (512×384, 640×480 etc.). (I’m only counting pixels here, and ignoring physical aspect ratios.) Given typical widescreen displays nowadays, there isn’t much you can do about this if you want accurate emulation. If you switch to a 4:3 display you’ll be able to set up a Mac II emulation with no lost screen space, but still not a Mac Plus. Mini vMac can emulate arbitrary resolutions, as long as the display fits in VRAM; you could use that to set up an emulated display matching your real display (with magnification), but that could cause issues with Mac software. See the Mini vMac documentation for details .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804157/is-it-possible-in-x11-to-make-the-application-border-invisible
+
+---
+
+#### 584. How to fix /bin/sh: can't access tty; job control turned off .I am building minimal linux os
+
+**问题描述 / Problem Description**:
+Tags: linux, linux-kernel, tty, initramfs, busybox | Score: 2 | Views: 696 | Answers: 1 | Created: 2026-01-17
+
+**解决方案 / Solution**:
+run cttyhack . Or script -c /bin/sh /dev/null , if your system has the script(1) utility[1] (which is simply creating a new pseudoterminal in the same manner as sshd, and so it's a more robust and general solution). [1] most Linux systems, including e.g. my $100 Android phone, my OpenWRT router and my Ubuntu system do include script by default, but YMMV wrt its availability, OK.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803846/how-to-fix-bin-sh-cant-access-tty-job-control-turned-off-i-am-building-mini
+
+---
+
+#### 585. Install minimal gnome in debian 13
+
+**问题描述 / Problem Description**:
+Tags: debian, gnome, gui, desktop-environment, desktop | Score: 2 | Views: 1180 | Answers: 1 | Created: 2026-01-14
+
+**解决方案 / Solution**:
+I don’t know what exactly your goal is, but this here should probably be one of the most minimal GNOME installations. apt install gnome-shell mutter You get these automatically installed: GTK libraries GNOME Settings Daemon GNOME Control Center dependencies Wayland components Graphics driver interfaces D-Bus services 1. gnome-shell This is the actual GNOME interface that you see and use. Top bar Activities overview App overview Workspaces Extensions Controls which GNOME services start at login Appears in the login manager (GDM) as GNOME or GNOME Wayland 2. Mutter GNOME’s window manager and compositor. manages windows (move, maximize, minimize) Provides animations and visual effects Communicates with the graphics card Is also the Wayland compositor If it is not already present and you don’t want to start the desktop session via the shell, but instead through a display manager with a login screen, that would be gdm3 . apt install gdm3 This gives you a minimal installation. If you now also need a file manager such as Dolphin , Thunar , or Nautilus along with the required packages, you can look here. Debian LUKS error with Dolphin, Thunar, and Nautilus: 'bd_crypto_luks_open_blob called but not implemented', cannot open LUKS partition/device Now you can check what you might still need, such as Firefox , Gedit , etc., and install them as well. In my opinion, this is one of the most minimal installations. It also doesn't feel quite complete or adequate when you're used to the standard desktop installation in Debian or Ubuntu. Here is another list, then it fills in better. sudo apt install \ gnome-shell \ mutter \ gnome-control-center \ gnome-terminal \ gdm3 \ nautilus \ network-manager \ gnome-settings-daemon \ xdg-desktop-portal \ xdg-desktop-portal-gnome \ pipewire wireplumber \ firefox-esr \ gedit With this approach, I would then try to harden my system and/or remove additional packages. There will always be packages that other packages need, i.e. dependencies, which you can’t simply uninstall or choose not to install. But you’ll have to experiment with that yourself as well.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803746/install-minimal-gnome-in-debian-13
+
+---
+
+#### 586. Debsums result "dpkg-query: no path found matching pattern /lib/x86_64-linux-gnu/libgcc_s.so.1"
+
+**问题描述 / Problem Description**:
+Tags: debian, security, libraries | Score: 2 | Views: 100 | Answers: 1 | Created: 2026-01-11
+
+**解决方案 / Solution**:
+The message means that debsums has a hash for /lib/x86_64-linux-gnu/libgcc_s.so.1 but that dpkg doesn’t know about it, probably because it knows it as /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 . This shouldn’t happen since both sources of information are maintained by dpkg , but it’s possible that you have an old .md5sums file left over. grep -F lib/x86_64-linux-gnu/libgcc_s.so.1 /var/lib/dpkg/info/*.md5sums will find all files referencing the library in either of its paths ( /lib or /usr/lib ). To fix this, remove obsolete .md5sums file(s) (if any) and reinstall libgcc-s1 .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803674/debsums-result-dpkg-query-no-path-found-matching-pattern-lib-x86-64-linux-gnu
+
+---
+
+#### 587. Trying to install MinGW means I can no longer install GCC
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, gcc, mingw | Score: 2 | Views: 238 | Answers: 1 | Created: 2025-09-16
+
+**解决方案 / Solution**:
+Running ../configure --host=x86_64-w64-mingw32 isn’t sufficient; as indicated in the build instructions , you need to specify the target triplet in the prefix: ../configure --host=x86_64-w64-mingw32 --prefix=/usr/local/x86_64-w64-mingw32 Otherwise the header files end up being installed in /usr/local/include , as you found, and pulled in by the regular C compiler. To fix this, you should uninstall the MinGW-w64 headers; in your existing build tree, run sudo make uninstall or, if that doesn’t work, delete the contents of /usr/local/include . If you end up having to do that you’ll also have to reinstall whatever was previously installed there.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799718/trying-to-install-mingw-means-i-can-no-longer-install-gcc
+
+---
+
+#### 588. Monitor continuous blanking issue on Ubuntu 20.04
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, xorg, nvidia, multi-monitor | Score: 2 | Views: 424 | Answers: 2 | Created: 2025-08-27
+
+**解决方案 / Solution**:
+Try connecting the second monitor with a direct DisplayPort-to-HDMI or DP-to-DP cable instead of using the HDMI-to-DP adapter. Often the problem lies in the signal conversion in the adapter, which can become unstable, especially with KVM switches or older GPUs. My guess would be, the KVM is a purely passive device that supports and supports only the DP standard (including dual-mode, a.k.a. DP++), therefore it will work with: connection involve DP and DP only (obviously) a DP++ source (PC) and a TMDS sink (Monitor), i.e. [PC]DP->DP[KVM]DP->HDMI/DVI[Monitor] Displayport KVM switch not passing signal if Adaptive HDMI to Displayport Cable/Adapter and Displayport to DVI cable used Problems with second monitor with HDMI to DisplayPort converter What could be the reason that my "Displayport To HDMI Adapter" does not work? DisplayPort vs HDMI: Which Cable Is Best for Your Setup? If that doesn’t help, a firmware update for the KVM switch or a newer GPU driver might also improve stability. Or, if possible, try a different switch. Some switches have problems with certain resolutions, refresh rates, or signal conversions (e.g., from DP to HDMI). Otherwise, you'll have to accept it as is.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799212/monitor-continuous-blanking-issue-on-ubuntu-20-04
+
+---
+
+#### 589. Do special (language specific) characters keep a hidden trace when deleted in a physical tty? Looking for explanation of failed logins into tty
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, tty, keyboard-layout | Score: 2 | Views: 150 | Answers: 1 | Created: 2025-08-20
+
+**解决方案 / Solution**:
+It sounds like your Virtual Console (VC) keymap is not set correctly, since your localectl status says that the value is (unset) . This will cause Linux to use the default keymap , which probably doesn't match your physical keyboard, and can result in regular keys sending anything imaginable including Ctrl-C . For a US keyboard, you should be able to localectl set-keymap us or localectl set-keymap us-intl . There is also a de-us you could try, which might be what you're referring to from the installation process. If those don't work, you can see all available keymaps with localectl list-keymaps . DEBIAN EDIT: It seems that while Debian does package and install localectl by default, they want you to use dpkg to set these settings. All of the other below technical concepts still apply, just not using localectl to change the settings. Background info There are 3 pieces of information that can change depending on where you are in the world: 1. LANG LANG is known as the "locale" (hence localectl ). This controls what language is used for multi-lingual ("internationalized") apps, and also controls things like how money and dates are formatted. LANG can be set with localectl set-locale , and the list of options is at localectl list-locales . Under the hood, localectl set-locale is calling setlocale(3) . See also: locale(7) . Note that technically a locale has many different pieces of information which can be configured independently (for example, you could use USA dates but DE money formats). localectl treats them as one big setting since that's what most people want. 2. The Virtual Console ("VC") keymap At the hardware level, a keyboard just sends messages like "button number 83 was pressed." A keymap is how the kernel translates these button presses into characters that match what's printed on the keys. The VC keymap is used for Linux's "text mode". This is what you're using when you Ctrl-Alt-F3 . The VC keymap is set with localectl set-keymap , and the list of options is at localectl list-keymaps . Under the hood, localectl set-keymap is calling loadkeys(1) . See also: keymaps(5) . 3. The X11 keymap Way back in history, X11 was the "graphical mode" of Linux and it too needed a keymap, but the VC and X11 keymaps couldn't be shared so they are completely separate settings. (You can, for example, use "us-dvorak" on the virtual console and "de" in X11.) This is because the X11 keymap can store several additional pieces of information such as the keyboard model to determine the final keymap. Note that the X11 setting is also referenced by most Wayland systems, so it's still relevant. To set the X11 keymap, you can use localectl set-x11-keymap <LAYOUT> <MODEL> <VARIANT> <OPTIONS> . Only the LAYOUT is mandatory - everything else can be omitted unless needed. Note on keymap translation In modern times, localectl can usually translate from a VC keymap to an X11 keymap, or vice-versa. So setting one will attempt to set the other at the same time so they match. (You can disable this by passing the --no-convert flag to set only one or the other.) Since it might be a part of your story here, note that this conversion can fail, and they are in fact two separate settings. localectl will tell you if this conversion fails. DEBIAN EDIT : According to keyboard(5) , there is only a single setting in the config file but it is applied separately to X11 and VC by two different programs. How to fix your locale if you can't log into the console There are several ways to get around being unable to use the virtual console. The VC Keymap is a system-wide setting, meaning that even if you set this setting from the GUI or other places, it will take effect on the virtual console ("physical" text mode). Here are some options, roughly in increasing levels of difficulty: 1. Use the GUI Your GUI might have the correct keyboard settings while the text terminal does not. If you can log into the GUI and open a terminal window, you should be able to issue these commands. 2. Use a keyboard that matches the existing keymap This one might be obvious, but if you have a physical keyboard that does work correctly, just use that long enough to set the settings to match the other keyboard. 3. Use SSH If you can ssh into the machine from another machine, you very likely have the necessary permissions to run setlocale from an SSH session. 4. Set kernel options at boot time When you turn on your computer, a "boot loader" helps get Linux started. Just like a regular program on the CLI, the Linux kernal can take command-line options, and it's your boot loader's job to set these up. There are many different boot loaders, and they all operate differently, but perhaps one of the most-common is grub2. See: " How do I add a kernel boot parameter? ". The option you need to set is vconsole.keymap=de or similar. 5. Boot into single-user mode You might need to combine this with option 2 and/or 4. In short, getting past login is often the hardest part. Depending on your system config, it may be possible to tell your boot loader to boot in "single-user" mode and bypass the login process. You'll find yourself at a bash terminal as root, as though you had logged in. You then might be able to issue enough commands to fully correct the problem. See: boot into single user mode . 6. Boot a live distro and edit the config file Your system almost certainly sets the VC settings at boot time by looking at /etc/vconsole.conf(5) . If you can boot a live distro (probably from USB stick) then you should be able to mount your root volume and edit this file. For reference, here is a default US config: KEYMAP=us FONT=eurlatgr XKBLAYOUT=us DEBIAN EDIT: On Debian systems this is /etc/default/keyboard(5) Finding the right keymap If you manage to set keymaps but are unsure as to the correct one, you can use showkey(1) to see what keycodes are being emitted by your keyboard. You can then look at the keymap files (typically in /usr/lib/kbd/keymaps ) to see how each map translates these into characters.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799021/do-special-language-specific-characters-keep-a-hidden-trace-when-deleted-in-a
+
+---
+
+#### 590. SSH from Windows into Linux using Pubkey, getting Permission Denied (publickey)
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, ssh, windows | Score: 2 | Views: 252 | Answers: 1 | Created: 2025-08-13
+
+**解决方案 / Solution**:
+As steeldriver stated, I needed to have the Private key on the Windows side. The reason it kept working locally on the Raspberry Pi was because both files were in there. A classic "works on my machine" situation. :D
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798816/ssh-from-windows-into-linux-using-pubkey-getting-permission-denied-publickey
+
+---
+
+#### 591. How to disable Journald's ForwardToSyslog=yes on Ubuntu 24.04?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, systemd, rsyslog, syslog, systemd-journald | Score: 2 | Views: 182 | Answers: 1 | Created: 2025-08-13
+
+**解决方案 / Solution**:
+After reading more Systemd docs I found the answer. https://www.freedesktop.org/software/systemd/man/latest/systemd-system.conf.html In addition to the main configuration file, drop-in configuration snippets are read from /usr/lib/systemd/ .conf.d/, /usr/local/lib/systemd/ .conf.d/, and /etc/systemd/*.conf.d/. Those drop-ins have higher precedence and override the main configuration file. Files in the *.conf.d/ configuration subdirectories are sorted by their filename in lexicographic order, regardless of in which of the subdirectories they reside. When multiple files specify the same option, for options which accept just a single value, the entry in the file sorted last takes precedence, and for options which accept a list of values, entries are collected as they occur in the sorted files. The default syslog.conf was sorted after my override.conf so it took precedence. After renaming my file to x-override.conf it took effect after restaring systemd-journald.service .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798801/how-to-disable-journalds-forwardtosyslog-yes-on-ubuntu-24-04
+
+---
+
+#### 592. Ubuntu server keeps shutting down after 15 minutes
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, shutdown | Score: 2 | Views: 557 | Answers: 2 | Created: 2025-08-05
+
+**解决方案 / Solution**:
+Repeated the failure Having installed AlmaLinux 10.1 on a Dell Optiplex XE4 desktop I started having the same problem. When switched the PC on and connected remotely using ssh -X , then after 15 minutes of up-time the PC was suspended. The first thing I tried was when logged onto the console as a normal user under Settings -> Power -> Power Saving was to set Automatic Suspend to Off . The following, when run as my normal user, confirmed that sleep-inactive-ac-type was 'nothing' : $ gsettings list-recursively org.gnome.settings-daemon.plugins.power org.gnome.settings-daemon.plugins.power ambient-enabled true org.gnome.settings-daemon.plugins.power idle-brightness 30 org.gnome.settings-daemon.plugins.power idle-dim true org.gnome.settings-daemon.plugins.power power-button-action 'suspend' org.gnome.settings-daemon.plugins.power power-saver-profile-on-low-battery true org.gnome.settings-daemon.plugins.power sleep-inactive-ac-timeout 900 org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing' org.gnome.settings-daemon.plugins.power sleep-inactive-battery-timeout 900 org.gnome.settings-daemon.plugins.power sleep-inactive-battery-type 'suspend' However, when not logged in remotely via ssh, with no console login, after 15 minutes of up-time the PC was still suspended. Just prior to the PC suspending a message of the following form was seen on the the ssh sessions: Broadcast message from gdm@alder-lake-alma on tty1 (Sat 2025-12-27 10:08:44 GMT): The system will suspend now! Initial work-around attempt to mask the sleep and suspend services As suggested by the answer Ubuntu 22.04 is sleeping even though I changed the power settings so it shouldn't sleep masked the following sleep / suspend related services: $ sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target Created symlink '/etc/systemd/system/sleep.target' → '/dev/null'. Created symlink '/etc/systemd/system/suspend.target' → '/dev/null'. Created symlink '/etc/systemd/system/hibernate.target' → '/dev/null'. Created symlink '/etc/systemd/system/hybrid-sleep.target' → '/dev/null'. That did stop the PC from actually suspending after 15 minutes of up time with no console login. However, after 15 minutes of up time the following was broadcast on the ssh sessions: Broadcast message from gdm@alder-lake-alma on tty1 (Sat 2025-12-27 21:05:36 GMT): The system will suspend now! Therefore, while masking the services did prevent the PC from actually suspending it didn't prevent gdm from attempting to suspend. I.e. still resulted in confusing broadcast message. Reverted the masking of the services, to look for a different solution: $ sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target [sudo] password for mr_halfword: Removed '/etc/systemd/system/sleep.target'. Removed '/etc/systemd/system/suspend.target'. Removed '/etc/systemd/system/hibernate.target'. Removed '/etc/systemd/system/hybrid-sleep.target' Applying power settings for the user which runs the display manager The Reddit how to disable automatic suspend on GDM gave the idea to look for the power settings used by the gdm user, since AlmaLinux 10.1 is using the gdm display manager. For the gdm user sleep-inactive-ac-type was 'suspend' : $ sudo -u gdm gsettings list-recursively org.gnome.settings-daemon.plugins.power org.gnome.settings-daemon.plugins.power ambient-enabled true org.gnome.settings-daemon.plugins.power idle-brightness 30 org.gnome.settings-daemon.plugins.power idle-dim true org.gnome.settings-daemon.plugins.power power-button-action 'suspend' org.gnome.settings-daemon.plugins.power power-saver-profile-on-low-battery true org.gnome.settings-daemon.plugins.power sleep-inactive-ac-timeout 900 org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'suspend' org.gnome.settings-daemon.plugins.power sleep-inactive-battery-timeout 900 org.gnome.settings-daemon.plugins.power sleep-inactive-battery-type 'suspend' For the gdm user changed sleep-inactive-ac-type from 'suspend' to nothing : $ sudo -u gdm gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type nothing The above needs to be run when logged into the console, otherwise got a Failed to execute child process “dbus-launch” (No such file or directory) error. Rebooted after the above change, and checked for the gdm user sleep-inactive-ac-type was still 'nothing' : $ sudo -u gdm gsettings list-recursively org.gnome.settings-daemon.plugins.power [sudo] password for mr_halfword: org.gnome.settings-daemon.plugins.power ambient-enabled true org.gnome.settings-daemon.plugins.power idle-brightness 30 org.gnome.settings-daemon.plugins.power idle-dim true org.gnome.settings-daemon.plugins.power power-button-action 'suspend' org.gnome.settings-daemon.plugins.power power-saver-profile-on-low-battery true org.gnome.settings-daemon.plugins.power sleep-inactive-ac-timeout 900 org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing' org.gnome.settings-daemon.plugins.power sleep-inactive-battery-timeout 900 org.gnome.settings-daemon.plugins.power sleep-inactive-battery-type 'suspend' This has fixed the issue for the AlmaLinux 10.1 installation. Are now at 1 hour of up time with no console login and: Without the PC suspending. There have been no The system will suspend now! broadcast messages on the ssh sessions. Different user to apply the power settings to for the lightdm display manager The self-answer by the original poster says they are using the lightdm display manager with Ubuntu server 24.04. For lightdm the command to disable the suspend should be: $ sudo -u lightdm gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type nothing
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798542/ubuntu-server-keeps-shutting-down-after-15-minutes
+
+---
+
+#### 593. List all members of a group, where the group is primary?
+
+**问题描述 / Problem Description**:
+Tags: bash, debian, users, group | Score: 1 | Views: 121 | Answers: 1 | Created: 2026-02-18
+
+**解决方案 / Solution**:
+Yes, the primary group ID is a property of the user from the passwd database, while the group database gives names to gids (and several groups can have the same gid like several users can have the same uids) as well as listing additional users, so there's no other way than to: query group database for the gid for the group name, which you can do with getent -- group "$groupname" | cut -d: -f3 ¹ or: perl -le ' $name = shift; $gid = getgrnam $name or die "Cannot find group $name\n"; print $gid' -- "$groupname" both being interfaces to the standard getgrnam() function. query the passwd database for users with the corresponding gid as their primary gid. There is no standard getpw???() function to do that query, so you're left with listing all DB entries and filter by fourth field: getent passwd | awk -v gid="$gid" -F: '$4 == gid {print $1}' Or: perl -le ' $gid = shift; while (@user = getpwent) { print $user[0] if $user[3] == $gid }' -- "$gid" Both being interfaces to the standard getpwent() function. If you know what database is being used in the backend, you could query it directly, but there's no standard interface for doing that. That only works for passwd database backends that can be enumerated. That will be the case if it's file based, like with /etc/passwd but not necessarily for networked ones like LDAP/SQL-backed ones. Put together, that becomes: #! /bin/sh - set -o pipefail # needs a sh compliant to POSIX2024 die() { [ "$#" -eq 0 ] || printf>&2 '%s\n' "$@" exit 1 } [ "$#" -eq 1 ] || die "Usage: $0 <groupname>" groupname=$1 gid=$(getent -- group "$groupname" | cut -d: -f3) || die "Can't find group $groupname" getent passwd | awk -v gid="$gid" '$4 == gid {print $1}' Or: #! /usr/bin/perl @ARGV == 1 or die "Usage: $0 <groupname>"; $groupname = $ARGV[0]; $gid = getgrnam $groupname or die "Cannot find group $groupname\n"; while (@user = getpwent) { print "$user[0]\n" if $user[3] == $gid; } If you run members -p users under ltrace -e 'getpw*' -e 'getgr*' , you'll see it's exactly what it does: $ ltrace -e 'getpw*' -e 'getgr*' members -p users members->getgrnam("users") = 0x7f296a1fee00 members->getpwent(0, 0, -128, 0x7f296a1ff380) = 0x7f296a1ff380 members->getpwent(0, 0, -128, 0x7f296a1ff380) = 0x7f296a1ff380 members->getpwent(0, 0, -128, 0x7f296a1ff380) = 0x7f296a1ff380 members->getpwent(0, 0, -128, 0x7f296a1ff380) = 0x7f296a1ff380 [...] members->getpwent(0x55860a626188, 0x7f296a1f3790, 0x7f296a46c2f0, 2) = 0x7f296a1ff380 members->getpwent(0x55860a626188, 0x7f296a1f3790, 0x7f296a46c2f0, 2) = 0x7f296a1ff380 members->getpwent(0x55860a626188, 0x7f296a1f3790, 0x7f296a46c2f0, 2) = 0 user1 user2 user3 ¹ with the caveat that for all-numeric group names, that gives you the entry for the group by the given id, so returning the same number. But it would be a very bad idea to have all-numeric group names especially if the number is different from their gid.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804559/list-all-members-of-a-group-where-the-group-is-primary
+
+---
+
+#### 594. Additional integration of FUSE in Debian for the file managers Dolphin, Thunar, and Nautilus
+
+**问题描述 / Problem Description**:
+Tags: debian, nautilus, fuse, dolphin, thunar | Score: 1 | Views: 94 | Answers: 1 | Created: 2026-02-13
+
+**解决方案 / Solution**:
+In addition to the standard packages mentioned in that answer , install the additional packages kio-fuse for Dolphin and gvfs-fuse for Nautilus and Thunar . They expose KIO and GVFS mounts as FUSE filesystems, based on libfuse3 , which improves compatibility with external applications. For Dolphin apt install kio-fuse For Nautilus and Thunar apt install gvfs-fuse
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804438/additional-integration-of-fuse-in-debian-for-the-file-managers-dolphin-thunar
+
+---
+
+#### 595. What is the difference between GPU reset modes in amdgpu?
+
+**问题描述 / Problem Description**:
+Tags: linux, amd-graphics | Score: 1 | Views: 107 | Answers: 1 | Created: 2026-02-11
+
+**解决方案 / Solution**:
+Here's a link to the comment in amdgpu.h of the current master branch of the linux source that describes the amd_reset_method enum. It says /** * enum amd_reset_method - Methods for resetting AMD GPU devices * * @AMD_RESET_METHOD_NONE: The device will not be reset. * @AMD_RESET_LEGACY: Method reserved for SI, CIK and VI ASICs. * @AMD_RESET_MODE0: Reset the entire ASIC. Not currently available for the * any device. * @AMD_RESET_MODE1: Resets all IP blocks on the ASIC (SDMA, GFX, VCN, etc.) * individually. Suitable only for some discrete GPU, not * available for all ASICs. * @AMD_RESET_MODE2: Resets a lesser level of IPs compared to MODE1. Which IPs * are reset depends on the ASIC. Notably doesn't reset IPs * shared with the CPU on APUs or the memory controllers (so * VRAM is not lost). Not available on all ASICs. * @AMD_RESET_LINK: Triggers SW-UP link reset on other GPUs * @AMD_RESET_BACO: BACO (Bus Alive, Chip Off) method powers off and on the card * but without powering off the PCI bus. Suitable only for * discrete GPUs. * @AMD_RESET_PCI: Does a full bus reset using core Linux subsystem PCI reset * and does a secondary bus reset or FLR, depending on what the * underlying hardware supports. * * Methods available for AMD GPU driver for resetting the device. Not all * methods are suitable for every device. User can override the method using * module parameter `reset_method`. */
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804404/what-is-the-difference-between-gpu-reset-modes-in-amdgpu
+
+---
+
+#### 596. live-build - How to remove the superfluous /boot directory from the squashFS?
+
+**问题描述 / Problem Description**:
+Tags: debian, initrd, live-build | Score: 1 | Views: 131 | Answers: 2 | Created: 2026-02-11
+
+**解决方案 / Solution**:
+To omit files in chroot from the resulting filesystem.squashfs create the file config/rootfs/excludes and list files there (each file name on separate line): bor@ThinkPad-E16-Gen3:~/tmp/lb$ cat config/binary_rootfs/excludes boot/initrd.img boot/initrd.img-6.8.0-100-generic boot/initrd.img.old boot/vmlinuz boot/vmlinuz-6.8.0-100-generic boot/vmlinuz.old bor@ThinkPad-E16-Gen3:~/tmp/lb$ The live-build scripts call mksquashfs with -wildcards option, so you can also use wildcards, see mksquashfs documentation. EDIT: In the past the exclude file was called config/binary_rootfs/excludes and some Debian derivatives may include versions still using this name. According to GIT log, the change happened in the version 3.0.0 and e.g. Ubuntu 24.04 still has 3.0~a57 . Of course, alternative is to add chroot hook script that can do anything and remove any file you want form the root filesystem before live-build will pack it into SquashFS. live-build comes with a couple of examples, one of them removes some packages to free up space.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804389/live-build-how-to-remove-the-superfluous-boot-directory-from-the-squashfs
+
+---
+
+#### 597. Connecting Joy-Con 2 Controllers to Debian via Bluetooth
+
+**问题描述 / Problem Description**:
+Tags: debian, bluetooth | Score: 1 | Views: 664 | Answers: 1 | Created: 2026-02-10
+
+**解决方案 / Solution**:
+Joy-Con You can connect the Joy-Cons via Bluetooth on Debian. Enable Bluetooth (BlueZ), put the Joy-Con into pairing mode (Sync button), and pair it using bluetoothctl. Also check out the hid-nintendo , kms-hid-nintendo driver or the joycond tool. After that, most emulators should work without any problems. On Windows, I paired and used Joy-Cons and PS4 controllers with DS4Windows, see if there’s a similar solution available on Linux. emilyst / hid-nx-dkms nicman23 / dkms-hid-nintendo DanielOgorchock / joycond Using Nintendo Switch controllers on Linux Nintendo Joy-Con, NSO, and Pro Controller support Using Nintendo Switch controllers on Linux Joy-Con 2 So it’s still in development, but it seems that a solution will be available soon. Check the various posts about manual udev rules or the Steam Beta 2. As soon as a final solution for Debian is available, I will update the answer. An official driver for the Linux kernel is currently in the review phase. Without it, they are often recognized only as generic input devices. Features such as HD Rumble or the full combination of both Joy-Cons into a single controller pair only work reliably under Debian once the next version of the hid-nintendo driver is included in the kernel. Device init and polling works, but I haven't translated the packets yet since the public code doesn't line up with the automatic mappings and I'm intentionally avoiding doing any further reverse engineering myself. Happy to add patches to get this PR working though! udev rule for Linux: SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="2073", MODE="0666" CC @Nohzockt: If you have a preferred name/email for Co-authored-by I'll apply it to the patch that implements the init/polling work. Switch 2 Controller Support #13327 As far as I can tell, they are actively working on it. Review Switch2 linux Kernel Any Switch 2 Pro Controller support on linux yet? I've really been enjoying my Switch 2 Pro Controller and wanted to use it on steam but it doesn't seem to have good support right now. < Apperently Steam added support for it in the steam beta via a USB connection but I haven't been able to get it working other than using ProCon2. Has anyone else got it working? Or is it just a windows feature right now. I'm on Debian 13 if thats useful SOLVED: First apply udev rules in terminal: sudo sh -c 'echo "SUBSYSTEM==\"usb\", ATTR{idVendor}==\"057e\", ATTR{idProduct}==\"2069\", MODE=\"0666\"" > /etc/udev/rules.d/99-nintendo-pro-controller.rules' sudo udevadm control --reload-rules sudo udevadm trigger Then in terminal launch steam with -enablepro2 or steam -enablepro2 option, You must be on the steam beta for it to work at the moment as of December 27th, 2025. Any Switch 2 Pro Controller support on linux yet? Steam Beta It looks like the currently simplest way is through the Steam Beta. Valve has already added initial udev rules and support for the Joy-Con 2 and the Switch 2 Pro Controller. Valve temporarily disabled support for the Pro 2 and Joy-Con 2 in December 2025 due to crashes. Currently, you need to use the launch parameter -enablepro2 in the Steam beta so that inputs are processed correctly. If you’re using the Joy-Con 2 with emulators, set the API to SDL2 in the settings (e.g., Ryujinx or Cemu), as this is the most stable interface for the new Nintendo controllers on Debian. It seems as though Nintendo Switch 2 Pro Controller support has been temporarily disabled on all versions of SteamOS and the Steam Client as of today, December 24th, 2025. I just received one as a Christmas present, as was looking forward to using it, and now have found that it's useless until an update comes out. Not even the beta branches allow use of this feature. I understand that it was causing crashes with other controllers, but I'd like to accept the risks to be able to use my new controller. It seems that the Stable branch was updated to disable this on December 19th, and the Beta branch was updated on December 24th to disable this feature. I am unable to switch to the Preview branch on Steam Deck to check if that would change anything, due to another issue that's already been listed on this GitHub. Nintendo Switch 2 Pro Controller Support #12585 Steam Beta Update Adds Switch 2 Controller Support with New Gyro Defaults How To Use Nintendo Switch 2 Pro Controller on Steam (PC Setup Guide) The Steam Client Beta has been updated with the following changes: Note: This update was re-released December 28th to fix a Steam client crash on macOS and Linux when playing some games. Steam Input Add launch option to conditionally enable Nintendo Switch 2 and GameCube adapter support. To use, launch Steam with the -enablepro2 option. Steam Client Beta - December 26th They have just updated it. You can enable the pro controller by launching steam client through a terminal with -enablepro2 as a option Switch 2 Pro Controller not connecting to steam.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804363/connecting-joy-con-2-controllers-to-debian-via-bluetooth
+
+---
+
+#### 598. SSH 8.9 disables ssh-rsa but breaks connections to Cisco routers
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, openssh | Score: 1 | Views: 85 | Answers: 1 | Created: 2026-02-05
+
+**解决方案 / Solution**:
+sshd.conf is the wrong file, it seems you edited the config file for the ssh daemon , not the ssh client (although the actual filename for that is /etc/ssh/sshd_config not sshd.conf in some unspecified directory). You need to edit the config for the ssh client , e.g. either /etc/ssh/ssh_config (global, for all users) or ~/.ssh/config (for the user running the ssh client). BTW, it would be best to add Host entries to change the encryption algorithms for your cisco routers ONLY rather than as the default for all hosts. Also worth noting, 8.9 is not the latest version of ssh. That's from February 2022. The most recent version is 10.2p1 from October 2025.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804282/ssh-8-9-disables-ssh-rsa-but-breaks-connections-to-cisco-routers
+
+---
+
+#### 599. What calls mkinitramfs on Debian on a kernel upgrade?
+
+**问题描述 / Problem Description**:
+Tags: debian, initramfs | Score: 1 | Views: 79 | Answers: 1 | Created: 2026-02-05
+
+**解决方案 / Solution**:
+When you update the Linux kernel on Debian GNU/Linux, the postinst script of the new linux-image-<version>-<arch> package (with possible variants) generally pulled as a dependency of a new version of the linux-image-<arch> package calls: linux-run-hooks image postinst $version $image_path -- "$@" This call to /usr/bin/linux-run-hooks is a shorthand to call all the "hooks" in /etc/kernel/postinst.d/ . One of those hooks, if the initramfs-tools package (as opposed to the dracut or tiny-initramfs alternatives) is installed, /etc/kernel/postinst.d/initramfs-tools calls update-initramfs -c -k "${version}" ${bootopt} >&2 And, /usr/sbin/update-initramfs is a shell script which calls mkinitramfs in its generate_initramfs() .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804270/what-calls-mkinitramfs-on-debian-on-a-kernel-upgrade
+
+---
+
+#### 600. Trouble installing software through terminal on Debian
+
+**问题描述 / Problem Description**:
+Tags: debian, terminal, apt, software-installation, command-not-found | Score: 1 | Views: 305 | Answers: 3 | Created: 2026-02-03
+
+**解决方案 / Solution**:
+To replicate the behaviour you see on Ubuntu etc., you need to install command-not-found : sudo apt install command-not-found Then restart your shell, and you’ll get information about packages providing missing commands (if any) when you try to run them. Even without that, you can install packages, as you noticed for Wine. The difficulty is finding the package name; to do that, you can either search package descriptions using apt search , or install apt-file and search package contents. As the other answers explain, neofetch isn’t available in Debian.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804203/trouble-installing-software-through-terminal-on-debian
+
+---
+
+#### 601. How Insecure is allow-discards on LUKS
+
+**问题描述 / Problem Description**:
+Tags: linux, security, encryption, luks | Score: 1 | Views: 130 | Answers: 1 | Created: 2026-01-31
+
+**解决方案 / Solution**:
+Discard commands the drive that certain blocks are free and can be erased. Even if the OS encrypts the volume, the size and offsets of erased blocks could provide hints as to how much data is stored and what the file system type could be. Let us assume someone wants to recover a LUKS encrypted drive, for your benefit or theirs. And they can get professional data recovery services. At a minimum, I would expect recovery to have access to low level reads that allow access to blocks that have been discarded but not yet erased. For data that was only written to the encrypted volume, it should not be readable without the secrets. Discarding the blocks is not security critical, the cipher text is unreadable anyway because of LUKS. Even though TRIM doesn't guarantee the data is gone to even regular reads, unless the drive supports some kind of Deterministic read ZEROs after TRIM feature. If most of a physical drive has been discarded, the file system on top is presumably empty space, and the drive can start erasing. Recovery will be very difficult, or there was little data stored on it to begin with. For a lot of people, revealing this with discard on is not a big deal. An attacker knows a LUKS volume is half empty but may have say an ext4 file system given some block sizes and offsets. But without the key its modern encryption and is not likely to be cracked. Worth appreciating that there may be people with far more stringent security requirements that don't want even this revealed, even if that is not you. Of course without disk encryption, LUKS in this case, writes leave plain text blocks everywhere. Discarding blocks will eventually be deleted, but unclear as to when the drive will actually erase them. Before disposing of or encrypting a drive with unencrypted data on it, consider a secure erase command.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804143/how-insecure-is-allow-discards-on-luks
+
+---
+
+#### 602. Why does "seq 1000000 | tee /dev/stdout" produce more single-digit numbers than expected?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, stdout, tee, seq | Score: 15 | Views: 1693 | Answers: 2 | Created: 2025-10-08
+
+**解决方案 / Solution**:
+Having both of tee's outputs going to the same pipe creates tearing within lines because they don't start/end at the boundaries of read/write blocks.
+
+tee, reads its input and writes its output by blocks of usually some amount of bytes that is a power of 2, though could read and write fewer if that's all there was to read from the pipe on its stdin at a given time.
+Here:
+$ seq 10000 | strace -e read,write tee /dev/stdout | cat > /dev/null
+read(0, "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14"..., 8192) = 8192
+write(1, "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14"..., 8192) = 8192
+write(3, "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14"..., 8192) = 8192
+read(0, "\n1861\n1862\n1863\n1864\n1865\n1866\n1"..., 8192) = 8192
+write(1, "\n1861\n1862\n1863\n1864\n1865\n1866\n1"..., 8192) = 8192
+write(3, "\n1861\n1862\n1863\n1864\n1865\n1866\n1"..., 8192) = 8192
+read(0, "499\n3500\n3501\n3502\n3503\n3504\n350"..., 8192) = 8192
+write(1, "499\n3500\n3501\n3502\n3503\n3504\n350"..., 8192) = 8192
+write(3, "499\n3500\n3501\n3502\n3503\n3504\n350"..., 8192) = 8192
+read(0, "7\n5138\n5139\n5140\n5141\n5142\n5143\n"..., 8192) = 8192
+write(1, "7\n5138\n5139\n5140\n5141\n5142\n5143\n"..., 8192) = 8192
+write(3, "7\n5138\n5139\n5140\n5141\n5142\n5143\n"..., 8192) = 8192
+read(0, "6776\n6777\n6778\n6779\n6780\n6781\n67"..., 8192) = 8192
+write(1, "6776\n6777\n6778\n6779\n6780\n6781\n67"..., 8192) = 8192
+write(3, "6776\n6777\n6778\n6779\n6780\n6781\n67"..., 8192) = 8192
+read(0, "14\n8415\n8416\n8417\n8418\n8419\n8420"..., 8192) = 7934
+write(1, "14\n8415\n8416\n8417\n8418\n8419\n8420"..., 7934) = 7934
+write(3, "14\n8415\n8416\n8417\n8418\n8419\n8420"..., 7934) = 7934
+
+Where fd 1 is stdout (the pipe to cat > /dev/null) and fd 3 the one opened on /dev/stdout, which in this particular case of stdout being a pipe is equivalent to being a duplicate of fd 1¹
+Here, you can see it making read()s and write()s of 8KiB. The second block ended in ...3498\n3 which you can infer from the third starting with 499\n3500....
+It outputs it twice which means you get \n1861\n1862...3498\n3\n1861\n1862...3498\n3, and thus a line containing 3 between those 2 blocks even though that's for numbers ranging from 1861 to 6776.
+You could avoid that if you could convince tee to output one line at a time on each of those fds, but I find that using stdbuf -oL (which injects code into applications to change stdio buffering) doesn't work for GNU tee at least (presumably because it doesn't use stdio for output), and GNU tee has no equivalent of GNU grep's --line-buffered option.
+To force line-based output, you could replace seq which something that outputs one line at a time and does it slowly enough that tee would read() them one at a time.
+A shell loop might be enough:
+i=0
+while [ "$i" -lt 10000 ]; do
+  /bin/echo "$(( i += 1 ))"
+done | tee /dev/stdout | grep -x .
+
+Does it for me, where running the external echo command in a separate process for each line slows it down enough that I see:
+1
+1
+2
+2
+3
+3
+4
+4
+5
+5
+6
+6
+7
+7
+8
+8
+9
+9
+
+If I strace tee, I see:
+read(0, "1\n2\n3\n", 8192)              = 6
+write(1, "1\n2\n3\n", 6)                = 6
+write(3, "1\n2\n3\n", 6)                = 6
+read(0, "4\n", 8192)                    = 2
+write(1, "4\n", 2)                      = 2
+write(3, "4\n", 2)                      = 2
+read(0, "5\n", 8192)                    = 2
+write(1, "5\n", 2)                      = 2
+write(3, "5\n", 2)                      = 2
+read(0, "6\n", 8192)                    = 2
+write(1, "6\n", 2)                      = 2
+
+It did read 3 lines at once the first time (it took it more time to get to the point of doing the first read() than it took for the shell to run 3 echos), but then subsequent read()s read one line at a time.
+Though if it's just about duplicating each line of the input, you can just use sed p instead.
+Making sure that all lines have the same size (including the line delimiter) that is a power of 2 (like with seq -f %07g 10000) would also reduce the risk of any being broken in the middle at a block boundary.
+$ seq -f %07g 10000 | tee /dev/stdout | grep  '000000[0-9]' | sort | uniq -c
+      2 0000001
+      2 0000002
+      2 0000003
+      2 0000004
+      2 0000005
+      2 0000006
+      2 0000007
+      2 0000008
+      2 0000009
+
+
+¹ but in general isn't on Cygwin or systems using Linux as their kernel where opening /dev/stdout is not like doing a dup(1) like it is on other systems.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800331/why-does-seq-1000000-tee-dev-stdout-produce-more-single-digit-numbers-than
+
+---
+
+#### 603. How can I make sudo apt install warn me that I'm about to pull from Debian Unstable?
+
+**问题描述 / Problem Description**:
+Tags: debian, apt, virtualbox | Score: 10 | Views: 735 | Answers: 3 | Created: 2025-12-27
+
+**解决方案 / Solution**:
+Pin unstable to a negative priority, which will prevent apt from installing anything from that source unless manually overridden with -t.
+It would be interesting to review the output of apt-cache policy virtualbox to see if your pinning configuration is correct.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803343/how-can-i-make-sudo-apt-install-warn-me-that-im-about-to-pull-from-debian-unsta
+
+---
+
+#### 604. Which Linux file system should I use for compatibility with Windows programs?
+
+**问题描述 / Problem Description**:
+Tags: linux, filesystems, ext4, ntfs | Score: 9 | Views: 2295 | Answers: 2 | Created: 2025-10-31
+
+**解决方案 / Solution**:
+I suspect the tool that you need on your Linux-based server will be "Samba", which presents part(s) of the filesystem as Windows SMB Network Shares. Do not be tempted to share /, but instead take a section of the filesystem and share that.
+In my experience Samba works best (reliability, efficiency) when underpinned by a native Linux filesystem rather than NTFS.
+If your Windows applications can work with files being saved to a Windows SMB Network filesystem they will work with Samba, and therefore can be saved on your Linux-based system. This is the decision that underpins the whole migration process, so it's important that you satisfy yourself that your applications can work in this way (most can, but I've encountered a few - particularly in the professional Language Translation segment - that cannot).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800919/which-linux-file-system-should-i-use-for-compatibility-with-windows-programs
+
+---
+
+#### 605. How do I add a text editor to my (debian-based) initramfs?
+
+**问题描述 / Problem Description**:
+Tags: debian, initramfs, debugging | Score: 7 | Views: 475 | Answers: 1 | Created: 2025-12-05
+
+**解决方案 / Solution**:
+Debian-based distributions including Ubuntu and Mint use initramfs-tools to generate their initramfs'es. To add an executable such as nano and some terminfo database entries, place the following script in /etc/initramfs-tools/hooks/nano.sh:
+#!/bin/sh    
+# See `man initramfs-tools` for details
+
+PREREQ=""
+prereqs()
+{
+        echo "$PREREQ"
+}
+case $1 in
+prereqs)
+        prereqs
+        exit 0
+        ;;
+esac
+. /usr/share/initramfs-tools/hook-functions
+
+# Begin real processing below this line
+copy_exec /usr/bin/nano /usr/bin/nano
+
+# copy_exec includes library dependencies, but not the terminfo database, so we need to add that manually
+# The "terminfo_db" argument is just for logging.
+# These entries are just the most common ones, with vt220 as fallback. See the $TERM
+# variable (in the terminal where your initramfs runs in, which is usually not an xterm).
+copy_file terminfo_db /usr/share/terminfo/x/xterm-256color
+copy_file terminfo_db /usr/share/terminfo/x/xterm
+copy_file terminfo_db /usr/share/terminfo/l/linux
+copy_file terminfo_db /usr/share/terminfo/v/vt220
+
+Make the script executable:
+sudo chmod +x /etc/initramfs-tools/hooks/nano.sh
+
+And rebuild your initramfs:
+sudo update-initramfs -u
+
+nano and most other terminal-based editors need a terminfo database with the right description of your terminal. In the above hook script I've added the most common ones, and vt220 is a fallback with which most terminals are compatible. If your editor complains about not being able to open your terminal, print the TERM environment variable: echo $TERM, and add the matching terminfo entry to the hook script. Note that you need to check the TERM in the actual terminal the initramfs runs in, that is usually not the xterm on your desktop. Usually this will be the Linux framebuffer which has linux  as $TERM.
+To add any other executable to the initramfs, change the line with copy_exec in the hook script to point to it. The copy_exec helper function automatically includes any necessary libraries.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801855/how-do-i-add-a-text-editor-to-my-debian-based-initramfs
+
+---
+
+#### 606. after Debian 13 upgrade sshd not starting after reboot
+
+**问题描述 / Problem Description**:
+Tags: debian, sshd, ipv6 | Score: 6 | Views: 913 | Answers: 3 | Created: 2025-12-24
+
+**解决方案 / Solution**:
+Unless specified otherwise, all services under systemd start in parallel. On Debian, 'ssh.service' has After=network.target and ifupdown's 'ifup@.service' has Before=network.target… but those are "passive" parameters which only become effective if 'network.target' is already part of the whole boot process, i.e. something needs to actively depend on 'network.target' using Wants=.
+It seems to me that neither sshd nor ifupdown have such a dependency, and as a result, both processes are run in parallel. Since IPv6 address configuration is not instant due to mandatory Duplicate Address Detection, it always takes longer for ifupdown to configure the interface than it takes for sshd to run.
+(By convention, the network "provider" like ifupdown is the side that should have both Before + Wants for network.target, while the "consumer" like sshd should only need After.)
+You have several options:
+
+Bind to :: instead. This covers all IPv6 addresses, current and future.
+ListenAddress ::
+
+I would generally choose this option, as binding to a specific address does not actually mean incoming connections will be limited to only through that interface, i.e. it is not very effective at all as a security measure. (That is to say, you'd need iptables/nft rules to make it work – and once you have iptables/nft rules, you don't need the specific ListenAddress anymore.)
+
+Use "socket activation" with ssh.socket. This takes over socket configuration from sshd, but it can have the additional option FreeBind= which allows it to bind to not-yet-available local addresses.
+systemctl edit --full ssh.socket
+  [Socket]
+  ListenStream=[2XXX:XXXX:0:10a::1]:22
+  FreeBind=true
+systemctl enable ssh.socket
+
+
+Add a dependency Wants=network.target to ifup@.service + networking.service so that the .target will be able to do its job as a barrier.
+systemctl add-wants ifup@.service network.target
+systemctl add-wants networking.service network.target
+
+
+Add a direct dependency on ifupdown to ssh.service, as it indeed depends on ifupdown having done its job:
+Edit: I had forgotten that systemctl add-wants doesn't imply After unless the first unit is a target. For the previous suggestion with network.target that is fine as the relevant units already have a Before or After for it. For this case however you need to define both Wants/Requires and Before/After, so systemctl edit is more suitable.
+systemctl edit ssh.service
+  [Unit]
+  Requires=ifup@ens192.service
+  After=ifup@ens192.service
+  -or (see note)-
+  Requires=networking.service
+  After=networking.service
+
+
+systemctl add-wants ssh.service ifup@ens192.service
+-or (see note)-
+systemctl add-wants ssh.service networking.service
+
+
+Note: I don't remember whether auto interfaces are all handled by networking.service or whether they are split into ifup@ services. Check the active services on your system.
+Note: If you use Requires=, then restarting networking will also restart sshd. In this case that might be useful. If you don't want that, use Wants=.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803277/after-debian-13-upgrade-sshd-not-starting-after-reboot
+
+---
+
+#### 607. Encrypted swap with FDE?
+
+**问题描述 / Problem Description**:
+Tags: debian, security, encryption, swap, disk-encryption | Score: 6 | Views: 708 | Answers: 3 | Created: 2025-12-17
+
+**解决方案 / Solution**:
+The Debian installation manual documents this, albeit indirectly. See the section on partitioning, in particular the section on guided partitioning. It says
+
+When using LVM or encrypted LVM, the installer will create most partitions inside one big partition; the advantage of this method is that partitions inside this big partition can be resized relatively easily later. In the case of encrypted LVM the big partition will not be readable without knowing a special key phrase, thus providing extra security of your (personal) data.
+
+and further down,
+
+The other partitions, including the swap partition, will be created inside the LVM partition.
+
+Your lsblk output confirms that you’re using LVM and that your swap partition is inside the encrypted LVM partition.
+I don’t know how far back your “years ago” goes, but as far as I’m aware the above has always been true when using encrypted LVM.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803076/encrypted-swap-with-fde
+
+---
+
+#### 608. X11 forwarding cannot type single or double quotes
+
+**问题描述 / Problem Description**:
+Tags: debian, x11, windows, xforwarding | Score: 5 | Views: 440 | Answers: 1 | Created: 2025-12-30
+
+**解决方案 / Solution**:
+You're probably using a keyboard layout with dead keys which are used to type diacritics, the first key press is "dead" which means nothing will be shown, but the key will modify the character on the second key press, for example ^+e → ê. It has nothing to do with X11 or Windows. The " and ' dead keys are used to type umlaut and acute accent respectively, similar to how  ` is used for the grave accent
+To solve this you have 2 ways
+
+Change to keyboard layout to one that doesn't use dead keys. For example from US International to US
+
+Or type space after the dead key if you have to use that layout. "+Space → ", and '+Space → '
+When you press the dead keys twice many systems will interpret as "the user wants the accent mark itself" and give you ¨ or ´.
+
+
+See also https://kbdlayout.info/features/deadkeys
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803391/x11-forwarding-cannot-type-single-or-double-quotes
+
+---
+
+#### 609. NVMe: Unable to change power state from D3cold to D0, device inaccessible
+
+**问题描述 / Problem Description**:
+Tags: linux, drivers, pci, nvme | Score: 5 | Views: 893 | Answers: 1 | Created: 2025-10-16
+
+**解决方案 / Solution**:
+I found a solution. By removing the device from the PCIe tree and then rescanning the bus, it comes back up:
+root@rtrbox:~# lsblk
+NAME              MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTS
+loop0               7:0    0   4.1G  1 loop  /rtr/primary/squashfs/root
+zram0             253:0    0  16.8G  0 disk  [SWAP]
+root@rtrbox:~# rmmod nvme
+root@rtrbox:~# rmmod nvme-core
+root@rtrbox:~# echo 1 > /sys/devices/pci0000:00/0000:00:03.0/remove
+root@rtrbox:~# echo 1 > /sys/bus/pci/rescan
+root@rtrbox:~# lsblk
+NAME              MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTS
+loop0               7:0    0   4.1G  1 loop  /rtr/primary/squashfs/root
+zram0             253:0    0  16.8G  0 disk  [SWAP]
+nvme0n1           259:0    0 931.5G  0 disk
+└─nvme0n1p1       259:1    0    64G  0 part
+
+From the kernel logs:
+[138759.380378] pci 0000:03:00.0: [144d:a80c] type 00 class 0x010802 PCIe Endpoint
+[138759.381686] pci 0000:03:00.0: BAR 0 [mem 0xffffffffffffc000-0xffffffffffffffff 64bit]
+[138759.382215] pci 0000:03:00.0: Max Payload Size set to 256 (was 16384, max 512)
+[138759.383176] pci 0000:03:00.0: Adding to iommu group 15
+[138759.383824] pcieport 0000:00:02.4: ASPM: current common clock configuration is inconsistent, reconfiguring
+[138759.391544] pci 0000:03:00.0: BAR 0 [mem 0xfce00000-0xfce03fff 64bit]: assigned
+[138759.392408] nvme 0000:03:00.0: platform quirk: setting simple suspend
+[138759.393216] nvme nvme0: pci function 0000:03:00.0
+[138759.395956] nvme nvme0: D3 entry latency set to 10 seconds
+[138759.401342] nvme nvme0: 16/0/0 default/read/poll queues
+[138759.407779]  nvme0n1: p1
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800501/nvme-unable-to-change-power-state-from-d3cold-to-d0-device-inaccessible
+
+---
+
+#### 610. Which Linux distributions bind TTYs to Control + Alt + F13 to F24 keys?
+
+**问题描述 / Problem Description**:
+Tags: linux, tty | Score: 5 | Views: 601 | Answers: 1 | Created: 2025-10-02
+
+**解决方案 / Solution**:
+In Linux, if the kernel supports VTs, they are allocated as necessary, up to the maximum number of supported VTs (MAX_NR_CONSOLES, which is 63). In most systems there is always at least one allocated VT.
+So you’ll find a VT allocated for a given function key if something has caused one to be allocated! Your display server is capable of allocating VTs, as are various other tools including openvt. Function keys, with CtrlAlt, can be used to access VTs directly, up to at least F20, if there is a corresponding VT. On some systems you can also use CtrlAlt← and CtrlAlt→ to move from one VT to the next.
+It is also possible to deallocate unused VTs, using deallocvt. The VT_OPENQRY ioctl gives the first available (unused) VT, but I’m not aware of a user program which gives that information — programs using that ioctl do so because they want to open a VT.
+Linux distributions using sysvinit typically start gettys on the first six VTs; X or Wayland then get VT 7 and onwards, or in some setups, take over the VT they’re started from (with startx). This is configured in /etc/inittab. Distributions using systemd spawn gettys on demand on the first six VTs, but apart from VT 6, any unused VT can be requisitioned instead by a graphical display. Thus in a typical desktop setup with a display manager, VT 1 is used for the display manager (the component that displays the login screen), and VTs 2 and onwards are used for login sessions. Without a display manager, VT 1 is used for the first getty. This is configured in logind.conf (see in particular NAutoVTs= and ReserveVT=) and with the getty@ service.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800146/which-linux-distributions-bind-ttys-to-control-alt-f13-to-f24-keys
+
+---
+
+#### 611. Can someone explain this apparent btrfs confusion?
+
+**问题描述 / Problem Description**:
+Tags: debian, btrfs, snapshot, snapper, raspberry-pi-os | Score: 4 | Views: 504 | Answers: 2 | Created: 2025-12-22
+
+**解决方案 / Solution**:
+The output and path selection of btrfs subvolume list can be quite confusing. You might also be interested in this answer: https://unix.stackexchange.com/a/752374/573555
+Relevant part for your question is, that an btrfs filesystem can have multiple independent directory hierarchies in the form of subvolume and is flexible in what is mounted as root fs. In contrast the path parameter to the list command is merely a selector for what filesystem to inspect.
+You should also try the -a option as btrfs subvolume list -a /.
+I'm not using snapper myself but in your case it is likely that one of the snapshots is mounted as rootfs. You can check what subvolume is mounted by default with btrfs subvolume get-default / and see what is currently mounted as root with findmnt -o SOURCE /.
+For the second you will get the device path followed by square brackets which contain the subvolume path which is in your case most likely more than a single /.
+So you can have a directory hierarchy outside your mounted root which btrfs list will show like regular paths but is not directly accessible through your mounted root fs.
+As a side note you might be interested, that btrfs has an option to in-place convert an existing filesystem into btrfs. (as usual you should still have an backup of your files) https://btrfs.readthedocs.io/en/latest/Convert.html
+Also at least one variant of the Debian installer also supports installing to btrfs directly.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803216/can-someone-explain-this-apparent-btrfs-confusion
+
+---
+
+#### 612. Hardware encryption on Samsung SSD using Debian
+
+**问题描述 / Problem Description**:
+Tags: linux, dual-boot, encryption, ssd | Score: 4 | Views: 935 | Answers: 1 | Created: 2025-11-12
+
+**解决方案 / Solution**:
+Set up debian installation with LVM and encryption.
+
+That "encryption" there means software-side encryption :)
+Which you can at least verify works; hardware encryption is the drive firmware telling "trust me bro, I've encrypted that safely" with no information on how it did that whatsoever. That goes about as well as you'd expect, i.e., not at all.
+Oh, and usually these drives remain unlocked until their power is cut. Which practically means you need a diode and a supercapacitor to be put in your SSD's power supply lines (no protections against that on the hardware side), and then I have a couple of hours to days between the point where you think you've turned off your PC and when your drive cannot simply be removed and put in a different PC. This happening might not be within your threat model, but "attacker enters office and removes storage device or thief steals whole PC" is why I am encrypting my desktop SSDs.
+So, you got the safe option there. I'm not sure whether you need anything else!
+
+During installation, SSD gets written with random data.
+
+Hm? no.
+You could probably have done all this without the Samsung specific tools just by enabling hardware encryption; that stuff's standardized (imagine a datacenter person having to go and do what you do on the shipment of 10000 SSDs they just received. They'd just buy some other SSDs).
+Your vendor tool seems to have enabled self-encryption capabilities (I bet it didn't need to do that, that's just really really standard these days, it just wanted you to take a backup, and helps you prepare a bootable stick to do the encryption dance, and didn't want to explain the finer parts of the procedure, but make sure that users follow a reproducible path). Then, it enabled locking (which is dangerous, and hence a separate step: locking and forgetting the key means your drive is toast; which is the point).
+Quick check: Install sedutil and run
+sudo sedutil-cli --isValidSED /dev/nvme0n1
+
+(replace nvme0n1 with the device name (not partition name!) of your drive, check lsblk's top level entries if in doubt)
+This should print the device name.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801276/hardware-encryption-on-samsung-ssd-using-debian
+
+---
+
+#### 613. Are there any options for the nmcli command that outputs the SSID of a wifi including, if present, trailing spaces?
+
+**问题描述 / Problem Description**:
+Tags: linux, wifi, nmcli | Score: 4 | Views: 416 | Answers: 3 | Created: 2025-10-08
+
+**解决方案 / Solution**:
+By this post I have found the option --get-value of the command nmcli. For an explanation of the option see the documentation of the command nmcli.
+By this option I can specify what fields must be present in the output, and each field value is separated from the others by a colon character (':'). In this way, the command output shows the Wi-Fi network SSID complete with all leading and trailing spaces.
+So the command nmcli can be used as showed below:
+> nmcli --get-value SSID,SECURITY dev wifi list
+
+An example of the output of the command is the followed (there are 2 columns SSID and SECURITY seprated by : char):
+TPLINK-8853:WPA2
+TPLINK-9910 :WPA2
+GUESTS:
+:WPA2 802.1X
+...
+
+The second line of the output is TPLINK-9910 :WPA2 and it is easy to get the SSID of the Wifi because it is located between the beginning of the line and the character :.
+In the output the fourth line (:WPA2 802.1X) shows an hidden wifi network (the SSID is empty).
+This method solve also the problem of the leading spaces.
+
+EDIT
+As suggested by @Hans-Martin Mosner It is necessary to handle the case where the : character is contained in the SSID.
+On my project the output of the nmcli command is processed by a script Python so by the split(':') method it is not difficult to get the SSID containing the character : possibly present.
+Thank you to all
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800304/are-there-any-options-for-the-nmcli-command-that-outputs-the-ssid-of-a-wifi-incl
+
+---
+
+#### 614. How can I find common prefixes in file names to group them?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, text-processing, find, filenames | Score: 4 | Views: 561 | Answers: 4 | Created: 2025-10-07
+
+**解决方案 / Solution**:
+With perl:
+$ find . -print0 | perl -C -l -0ne '
+  if (m{/([^/]{4,}?\w)\b[^/]*\z}) {
+    push @{$list{$1}}, $_;
+  }
+  END {
+    while (($part, $list) = each(%list)) {
+      if (($count = @$list) > 1) {
+        print "There are $count files with \"$part\" in common at the start:";
+        print " - \"$_\"" for @$list;
+        print "";
+      }
+    }
+  }'
+There are 2 files with "small" in common at the start:
+ - "./subdir/small picture.jpg"
+ - "./small video.mp4"
+
+There are 2 files with "very big" in common at the start:
+ - "./very big picture.jpg"
+ - "./subdir/very big video.mkv"
+
+
+Where [^/]{4,}?\w\b matches at least 4 non-/ characters, as few as possible followed by a word character (alnum or underscore) followed by a word boundary (here same as (?!\w)), so a list of at least 5 characters ending in a delimited word.
+In this case, that \w also matches on underscore (and \b matches boundary of such words) is unfortunate as it's common to separate words in filenames with underscore. You could however change it to: m{/([^/]{4,}?[[:alnum:]])(?![[:alnum:]])[^/]*\z} to work around it.
+To match on the first two words instead of 1 or more words making up at least 5 characters, use:
+m{/([^\w/]*\w+[^\w/]+\w+)[^/]*\z}
+
+Or excluding _ from the definition of word:
+m{/([^[:alnum:]/]*[[:alnum:]]+[^[:alnum:]/]+[[:alnum:]]+)[^/]*\z}
+
+Add ! -type d before -print0 to exclude files of type directory, or ! -xtype d (assuming GNU find) to also exclude symlinks to directories, or -type f for regular files only or -xtype f to also include symlinks to regular files.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800287/how-can-i-find-common-prefixes-in-file-names-to-group-them
+
+---
+
+#### 615. How can I list all supported architectures of a package by apt command?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, apt, architecture | Score: 4 | Views: 1359 | Answers: 2 | Created: 2025-05-12
+
+**解决方案 / Solution**:
+With a few exceptions (apt update of course, and in recent years apt changelog), apt only operates on information available locally (local copies of repository catalogs, which are published separately for each architecture). To limit the amount of information it needs to download and process, apt only retrieves repository indexes for architectures dpkg cares about: the system’s main architecture and any foreign architectures that have been enabled. So the only way to determine all the architectures a given package is available for, using only apt, is to enable all architectures (with dpkg --add-architecture, then apt update). Then apt list will show all available architectures:
+$ apt list stress-ng
+stress-ng/noble 0.17.06-1build1 amd64
+stress-ng/noble 0.17.06-1build1 arm64
+stress-ng/noble 0.17.06-1build1 armhf
+stress-ng/noble 0.17.06-1build1 ppc64el
+stress-ng/noble 0.17.06-1build1 riscv64
+stress-ng/noble 0.17.06-1build1 s390x
+
+In any case, if you want to use apt download for a given architecture, you need to enable that architecture.
+A simpler option is to use rmadison from the devscripts package:
+$ sudo apt install --no-install-recommends devscripts
+[…]
+$ rmadison stress-ng
+ stress-ng | 0.03.15-1~ubuntu14.04.1 | trusty-backports/universe | source, amd64, arm64, armhf, i386, powerpc, ppc64el
+ stress-ng | 0.05.23-1               | xenial/universe           | source, amd64, arm64, armhf, i386, powerpc, ppc64el, s390x
+ stress-ng | 0.05.23-1ubuntu2        | xenial-updates/universe   | source, amd64, arm64, armhf, i386, powerpc, ppc64el, s390x
+ stress-ng | 0.09.25-1               | bionic/universe           | source, amd64, arm64, armhf, i386, ppc64el, s390x
+ stress-ng | 0.09.25-1ubuntu9        | bionic-updates/universe   | source, amd64, arm64, armhf, i386, ppc64el, s390x
+ stress-ng | 0.11.07-1               | focal/universe            | source, amd64, arm64, armhf, ppc64el, riscv64, s390x
+ stress-ng | 0.11.07-1ubuntu2        | focal-updates/universe    | source, amd64, arm64, armhf, ppc64el, riscv64, s390x
+ stress-ng | 0.13.12-2               | jammy/universe            | source, amd64, arm64, armhf, ppc64el, riscv64, s390x
+ stress-ng | 0.13.12-2ubuntu1        | jammy-updates/universe    | source, amd64, arm64, armhf, ppc64el, riscv64, s390x
+ stress-ng | 0.17.06-1build1         | noble/universe            | source, amd64, arm64, armhf, ppc64el, riscv64, s390x
+ stress-ng | 0.18.04-1               | oracular/universe         | source, amd64, arm64, armhf, ppc64el, riscv64, s390x
+ stress-ng | 0.18.11-1               | plucky/universe           | source, amd64, arm64, armhf, ppc64el, riscv64, s390x
+ stress-ng | 0.19.00-1               | questing/universe         | source, amd64, arm64, armhf, ppc64el, riscv64, s390x
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794756/how-can-i-list-all-supported-architectures-of-a-package-by-apt-command
+
+---
+
+#### 616. Deleted all partitions in a drive, now the drive won't show up in Dolphin
+
+**问题描述 / Problem Description**:
+Tags: debian, partition, kde, dolphin | Score: 3 | Views: 611 | Answers: 1 | Created: 2025-12-24
+
+**解决方案 / Solution**:
+how to access the drive to create the partition, since it doesn't show up anymore in Dolphin
+
+Use the "KDE Partition Manager" program that's in your screenshot. It's available in the KDE application list. It might also be named partitionmanager. Open the program and select the device, then add a maximum size partition. Probably choose "ext4" or "btrfs" as the filesystem.
+There are many other partitioning tools, such as GParted, gnome-disks, or fdisk. Some of them will offer to make a filesystem within the newly created partition, others (like fdisk) require you to separately use mkfs.<type> (mkfs.ext4, mkfs.btrfs, etc) to do so.
+Meanwhile Dolphin is ultimately a file manager so it only shows partitions that contain a recognized filesystem – it doesn't really care about disks in themselves. (Which isn't any different from Windows, where Explorer also won't show an unpartitioned disk; you'd have to open DiskMgmt to create a partition first.)
+(As a side note, it's technically possible to just directly format (mkfs) an unpartitioned disk, but in most cases I would not recommend doing so. It can make sense for virtual machines, but no advantage in doing that for a physical HDD/SSD. Create a partition and let it take 100% of the unallocated space, and format that.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803290/deleted-all-partitions-in-a-drive-now-the-drive-wont-show-up-in-dolphin
+
+---
+
+#### 617. Syntax Error on ssed for Regex Subroutine definitions
+
+**问题描述 / Problem Description**:
+Tags: linux, sed, regular-expression, perl, pcre | Score: 3 | Views: 229 | Answers: 2 | Created: 2025-10-26
+
+**解决方案 / Solution**:
+tl;dr: Forget about ssed. Use perl.
+Here's why:
+
+ssed is abandonware.  It was last updated in Oct 2005.  Its home page on sourceforge is gone (and I can't find any replacement on github or gitlab).
+Various distros have kept on packaging it and making minor patches (mostly packaging related or to ensure it actually compiles with modern libraries & tools), but the program itself hasn't been updated for 20 years.
+
+ssed doesn't use perl regular expressions, it uses Perl Compatible Regular Expressions (PCRE) which are based on and very similar to perl REs but have some significant differences.
+
+It doesn't even use a recent version of PCRE.  The ssed source code bundles an ancient version of PCRE from August 2000.  It can't use any perlre features implemented since around that time, so you'll have to find and install an ancient copy of the perlre and related man pages if you want documentation (but don't forget that ancient PCRE wasn't 100% compatible with ancient perlre either).
+
+If you can install and use an ancient abandoned software package from 20 years ago to do perlish sed search & replace operations, there's no reason you can't use perl for the same tasks (but note that anything that uses other sed language features like branching, conditionals, hold space, append, insert, delete, etc will have to be re-written to use perl equivalents.  This isn't terribly difficult.  If all you use ssed for is s/// operations then they'll work without a problem).
+If you have lots of scripts which use ssed and don't want to have to edit them, write a wrapper script (e.g. /usr/local/bin/ssed) that first processes all options to:
+
+Remove or replace any ssed options that are incompatible with perl (-l/--line-length, -r/--regexp-extended, -R/--regexp-perl, --posix, -s/--separate and -u/--unbuffered need attention).
+
+-r, -R, and --posix aren't needed and can just be removed from the args
+
+-l is incompatible with perl's -l option (which turns on automatic handling of line-endings, e.g. \n).  Either remove it from the args or get used to it having the perl meaning.  If you need to limit the line length, then pipe the output into fmt or fold or par to re-format it. Or add a rule like s/(^.{80}).*/$1/; or $_ = substr($_,0,79); to remove excess characters from each input line.
+
+-u is unlikely to be needed. If you really need unbuffered output for some reason, add something like BEGIN { $| = 1 }; to the beginning of your ssed-but-really-perl script. See $| in perldoc perlvar
+
+-s is the only ssed option that presents any difficulty.  Perl's -n and -p options treat all input as a single continuous stream unless you're using -i (in which case, it edits each file individually).
+If you need to emulate --separate for other purposes, it's probably easiest to just write a perl one-liner without using either -n or -p but with its own while (<<>>) { ... } loop and a continue { if eof { do something here }; ... } block for that loop.
+There are many possible uses for and things you can do in a continue block, but the main reason I ever use one is to reset perl's input line counter variable ($. - see $. in perldoc perlvar) after each file by close-ing the current file when it reaches eof, e.g. while (<<>>) { ... } continue { close ARGV if eof };.   See perldoc -f continue
+
+
+
+Execute perl with either -n or -p depending on how ssed was called, and pass all other args on to perl.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800772/syntax-error-on-ssed-for-regex-subroutine-definitions
+
+---
+
+#### 618. What is the best way to detect busy CPU cores for blk-mq request steering in Linux kernel?
+
+**问题描述 / Problem Description**:
+Tags: linux, filesystems, linux-kernel, io, storage | Score: 3 | Views: 91 | Answers: 1 | Created: 2025-10-16
+
+**解决方案 / Solution**:
+Disclaimer: I am not familiar with this kind of problem.
+It seems that the number of I/O requests per CPU core is not the only influence on I/O perfomance. Having more on the same core may be advantageous up to some point (cache hits).
+Another influence is the overall load of that core. There is no point in having fewer I/O requests on a core if these have to wait longer for being processed on a core with high load.
+You could assign all I/O to just one core (unless you really need several hardware queues for the full device performance) and use this core mainly for I/O (block it for userspace processes). Or add the overall load of the cores to your assignment algorithm. Of course, checking this must be very quick.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800527/what-is-the-best-way-to-detect-busy-cpu-cores-for-blk-mq-request-steering-in-lin
+
+---
+
+#### 619. How do I autosource path and venvs in /bin/sh (posix sh) for docker pods
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, shell, docker | Score: 3 | Views: 222 | Answers: 2 | Created: 2025-07-01
+
+**解决方案 / Solution**:
+I've added the source to ~$HOME/.profile but it does not autorun.
+
+you probably mean $HOME/.profile. That is never autorun. It is read by your shell when you start an interactive login shell.
+You don't start a login shell, but simply a shell.
+multiple approaches here:
+
+if you just want environment variables to be set for any process you launch the container with (not only /bin/sh, but also python, which seems to be what you actually need), then use the ENV directive in your Dockerfile. This is very likely the correct thing to do.
+if you want sh to act as if it was a login shell, append  --login to your /bin/sh invocation.
+if you want to specify an arbitrary file to be sourced at shell initializtation, add  --rcfile /path/to/file -i to /bin/sh.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797577/how-do-i-autosource-path-and-venvs-in-bin-sh-posix-sh-for-docker-pods
+
+---
+
+#### 620. unattended-upgrades uses wrong hostname after switching from msmtp to Postfix
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, postfix, unattended-upgrades | Score: 3 | Views: 174 | Answers: 1 | Created: 2025-05-05
+
+**解决方案 / Solution**:
+Found the answer after reading this answer to a similar question: I recently created reverse DNS entries for the server, which contained the base domain, and Python's socket.getfqdn() function used these instead of the hostname configured locally.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794523/unattended-upgrades-uses-wrong-hostname-after-switching-from-msmtp-to-postfix
+
+---
+
+#### 621. What out-of-the-box options exist for quickly shutting down KDE Plasma, using only the keyboard?
+
+**问题描述 / Problem Description**:
+Tags: debian, kde, keyboard-shortcuts, shutdown, plasma | Score: 2 | Views: 1430 | Answers: 5 | Created: 2025-12-26
+
+**解决方案 / Solution**:
+By default, CTRL + ALT + DEL brings up the How do you want to end your session popup?, from which point you can use the arrow keys and ENTER to select your option (which in this case is Shutdown).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803307/what-out-of-the-box-options-exist-for-quickly-shutting-down-kde-plasma-using-on
+
+---
+
+#### 622. LibreOffice looks old and ugly in Debian/KDE - how to make it use the proper dark breeze theme and look normal again?
+
+**问题描述 / Problem Description**:
+Tags: debian, kde, gui, theme, libreoffice | Score: 2 | Views: 577 | Answers: 1 | Created: 2025-12-10
+
+**解决方案 / Solution**:
+You most likely lack the appropriate QT integration package. Install libreoffice-kf6 if you are on Debian 13 or libreoffice-kf5 if you still use Debian 12. This problem likely happened because you installed a very minimal KDE installation. On my system I see that the libreoffice-kf6 package is installed through recommended packages of task-kde-desktop.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801955/libreoffice-looks-old-and-ugly-in-debian-kde-how-to-make-it-use-the-proper-dar
+
+---
+
+#### 623. Inadvertently installed texlive-base and texlive-binaries while a TeX Live installation is already present on my system
+
+**问题描述 / Problem Description**:
+Tags: debian, apt, latex | Score: 2 | Views: 252 | Answers: 2 | Created: 2025-11-26
+
+**解决方案 / Solution**:
+The xournalpp package does not Depend on or even Recommend either the texlive-base or texlive-binaries packages.  It only Suggests them.
+Have you configured apt on your system to auto-install Suggested packages?  apt normally won't install Suggested packages.
+Anyway, it should be safe to just remove the texlive packages, and you shouldn't need to remove xournalpp if you don't want to. e.g. with:
+sudo apt purge texlive-base texlive-binaries
+
+You may need to regenerate any .dvi, .pdf etc output files you've generated while the Debian texlive packages were installed....but probably not, it depends on your PATH and other environment variables (which I presume you had configured correctly for your /usr/local install of texlive)
+
+If you want to prevent the Debian texlive packages from being auto-installed in future, you can use the equivs package to create a dummy package to satisfy package dependencies via Provides: lines. From the package description:
+
+Description-en: Circumvent Debian package dependencies
+This package provides a tool to create trivial Debian packages.
+Typically these packages contain only dependency information, but they
+can also include normal installed files like other packages do.
+One use for this is to create a metapackage: a package whose sole
+purpose is to declare dependencies and conflicts on other packages so
+that these will be automatically installed, upgraded, or removed.
+Another use is to circumvent dependency checking: by letting dpkg
+think a particular package name and version is installed when it
+isn't, you can work around bugs in other packages' dependencies.
+(Please do still file such bugs, though.)
+
+
+Alternatively, you might want to consider using the Debian packages and not bothering to install it yourself in /usr/local - but that really depends on your reason for doing that in the first place.
+Unless you have a good reason (i.e. something more specific than just wanting the latest, shiniest version number without having a need or problem that's solved by a newer version), that's what I'd recommend.
+I'm not even remotely close to an expert with texlive (just a not-completely-incompetent amateur who can usually make it do what I want with some effort and a lot of RTFM-ing) but I do use it every so often to produce documentation. I've never run into any problem with the Debian packages that would make me consider compiling and installing it myself.  Or using a non-packaged version of it.  Which is a fancy way of saying "It works for me".  YMMV.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801618/inadvertently-installed-texlive-base-and-texlive-binaries-while-a-tex-live-insta
+
+---
+
+#### 624. Find laptop internal keyboard Controller model/vendor/Product #
+
+**问题描述 / Problem Description**:
+Tags: linux, keyboard, input | Score: 2 | Views: 182 | Answers: 2 | Created: 2025-10-20
+
+**解决方案 / Solution**:
+Is internal keyboard controller sitting on pci or usb bus?
+
+No, as the anachronistic labeling as "i8042" (intel i8042, the keyboard controller of the IBM PC-AT, from 41 years ago) says, this is an emulated peripheral. It's almost certainly emulated by the "Advanced Integrated Peripheral", which on a laptop CPU might be part of a the CPU or one of its directly attached peripheral chips, I'm not too sure; I'd tend towards it being in the platform controller. In any case, no, it does not directly nor indirectly sit on USB, and at best indirectly reside within the PCI hierarchy (but probably not; these are the things that you addressed with special IO instructions directly from the CPU, and CPUs, forty years ago, had their own port just for this controller!). What might be the case is that your system's firmware has been told to emulate a PS/2 peripheral, and could be told to not do that and instead present the keyboard as USB device. Some laptops have such an option in their firmware setups. Look for "legacy OS support" or something and disable it.
+Your output points to this being an ACPI-PnP-connected peripheral. That won't help you at all, because that just means status information is literally exchanged using the x86 inb operation; what that does internally to the CPU: not of Linux' concern. It just means it doesn't fall under the categories "PCI device" nor "attached to a USB bus (which typically is attached via a PCI device)" at all.
+There's no specific driver code in Linux to drive that (emulated) keyboard controller; this is all quite standard.
+Experience also tells me that the things that laptop keyboards do are often extremely quirky. I had to do with one acer laptop whose keyboard controller would send duplicate reports; that was solved in software in a acer-provided driver for windows (on a DVD, no less!); so you had a maximum typing speed for words with consecutive letters on this machine. So, I would not preemptively blame Linux here. The same driver works beautifully on thousands of other, standards-compliant keyboards.
+Note that if you look into the Linux kernel's i8042-acpipnpio.h, you'll find a table with 157 entries for "i8042 implementation quirks". In other words, this is so very common for mainboard firmware suppliers to mess up (and frankly, i8042 is one of the least complex legacy peripherals), that there's 157 hotfixes in the Linux kernel for mainboards that just don't work with a correct implementation. Great!
+Anyways, you ask how
+
+to find internal keyboard controller model/vendor/Product
+
+and that's easy: look up your laptop's platform controller and CPU. That's where the controller lives. It's not its own chip (and hasn't been for > 30 years).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800614/find-laptop-internal-keyboard-controller-model-vendor-product
+
+---
+
+#### 625. How to forget running but canceled transactions in a btrfs recovery?
+
+**问题描述 / Problem Description**:
+Tags: linux, data-recovery, btrfs, journaling | Score: 2 | Views: 212 | Answers: 1 | Created: 2025-10-11
+
+**解决方案 / Solution**:
+To forget a running transaction in btrfs you need to need to zero the log.
+To do so:
+sudo btrfs rescue zero-log path/to/partition
+From man pages:
+
+zero-log: Clear the filesystem log tree.
+
+
+This command will clear the filesystem log tree. This may fix a specific set of problem when the filesystem mount fails during log replay. See below for sample stack traces that may show up in system log.
+
+
+NOTE:
+Clearing the log may lead to loss of changes that were made since the last transaction commit. This may be up to 30 seconds (default commit period) or less if the commit was implied by other filesystem activity.
+
+Note: Be sure to run this on a image of the damaged drive/partition!
+Edit: based on new information
+You could try try to rebalance the data block groups:
+
+To rebalance data block groups which are less than 85% utilized, running the operation in the background:
+
+sudo btrfs balance start --bg -dusage=85 <path_to_btrfs_fs>
+This will free up the "eaten" space and you will have rebalanced the FS.  Also the disbalanced FS is more prone to data corruption.
+You could also try to mount the broken btrfs FS (again, do that on a copy of the original FS)
+
+mount -t btrfs -o recovery,nospace_cache,clear_cache <device> <mount point>
+
+If it gives you a bad fs message you can try to do a restore
+
+btrfs restore <device> <dir_to_dump_data_to>
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800394/how-to-forget-running-but-canceled-transactions-in-a-btrfs-recovery
+
+---
+
+#### 626. Tool to display DDR5 RAM SPD timings/MT profiles
+
+**问题描述 / Problem Description**:
+Tags: linux, software-rec, ram | Score: 2 | Views: 918 | Answers: 1 | Created: 2025-10-06
+
+**解决方案 / Solution**:
+To access the SPD timings, you'll first need the i2c bus driver for your chipset. For AMD Ryzen chipsets, it is (perhaps surprisingly) i2c-piix4.
+Once that is loaded, the ee1004 module for DDR4 or spd5118 for DDR5 should automatically find the DIMM SPDs if they are using the usual i2c addresses for SPDs. (With DDR4, you'll need the additional jc42 module for memory temperature info if your memory modules have the sensor for it; with DDR5, the spd5118 will handle both the temperature and the SPD information.)
+The Ryzen chipsets may also include a i2c-designware-platform i2c bus, but that is apparently not SMBus compliant and so not easily autoprobeable.
+On DDR5 memory modules, the SPD data format differs from older memory types. As of this writing, the decode-dimms tool needs this patch set applied to it to interpret DDR5 SPDs.
+To apply, create a work directory somewhere convenient, and move to it.
+Then, download the patches in text form. For some reason, the raw links in that mail archive output each mail twice (with & without full headers), so a bit of sed magic to remove the extra copy:
+curl -s https://lore.kernel.org/all/20241114-decode-ddr5-v1-1-0ed2db8ef30f@outlook.com.au/raw \
+  | sed -n '/^-- $/q;p' > 1.patch
+curl -s https://lore.kernel.org/all/20241114-decode-ddr5-v1-2-0ed2db8ef30f@outlook.com.au/raw \
+  | sed -n '/^-- $/q;p' > 2.patch
+curl -s https://lore.kernel.org/all/20241114-decode-ddr5-v1-3-0ed2db8ef30f@outlook.com.au/raw \
+  | sed -n '/^-- $/q;p' > 3.patch
+curl -s https://lore.kernel.org/all/20241114-decode-ddr5-v1-4-0ed2db8ef30f@outlook.com.au/raw \
+  | sed -n '/^-- $/q;p' > 4.patch
+curl -s https://lore.kernel.org/all/20241114-decode-ddr5-v1-5-0ed2db8ef30f@outlook.com.au/raw \
+  | sed -n '/^-- $/q;p' > 5.patch
+curl -s https://lore.kernel.org/all/20241114-decode-ddr5-v1-6-0ed2db8ef30f@outlook.com.au/raw \
+  | sed -n '/^-- $/q;p' > 6.patch
+
+Then get the source code for i2c-tools:
+git clone git://git.kernel.org/pub/scm/utils/i2c-tools/i2c-tools.git
+
+(Alternatively, if you are reading this much later and i2c-tools has received other changes to make the patches incompatible with the latest version, get the i2c-tools-4.4.tar.gz release package, extract it, and follow the next steps.)
+Move to the i2c-tools sub-directory, and apply the patches:
+cd i2c-tools
+patch -p1 < ../1.patch
+patch -p1 < ../2.patch
+patch -p1 < ../3.patch
+patch -p1 < ../4.patch
+patch -p1 < ../5.patch
+patch -p1 < ../6.patch
+
+Ideally, the patch commands should produce just one line of output each: patching file eeprom/decode-dimms. If patch indicates that a patch is applied with an offset, that is probably fine too. But if it says that a patch is being rejected or that "reversed (or already applied) patch is detected", stop; in that case, something is wrong, or the patches have finally been applied to the Git repository.
+Build the i2c-tools:
+make
+
+And now you should have a DDR5-capable eeprom/decode-dimms. Test it:
+sudo eeprom/decode-dimms
+
+If it works to your satisfaction, copy it to /usr/local/sbin or wherever you want:
+sudo cp eeprom/decode-dimms /usr/local/sbin/
+
+And you are done.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800257/tool-to-display-ddr5-ram-spd-timings-mt-profiles
+
+---
+
+#### 627. Disable wakeup on plugging in USB-C power
+
+**问题描述 / Problem Description**:
+Tags: linux, usb, power-management, suspend, acpi | Score: 2 | Views: 262 | Answers: 1 | Created: 2025-10-03
+
+**解决方案 / Solution**:
+It seems that writing a 1 to /sys/module/acpi/parameters/ec_no_wakeup fixes the issue, which makes me think that maybe the kernel parameter I tried, acpi.ec_no_wake=1 is a typo I found in some documentation, and should actually be acpi.ec_no_wakeup=1.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800189/disable-wakeup-on-plugging-in-usb-c-power
+
+---
+
+#### 628. How can I get Linux console output on both iGPU (HDMI) and IPMI (AST) simultaneously?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, grub2, tty, console, framebuffer | Score: 2 | Views: 473 | Answers: 2 | Created: 2025-06-19
+
+**解决方案 / Solution**:
+GRUB_CMDLINE_LINUX_DEFAULT="fbcon=map:1,0 console=tty1 console=tty2"
+→ Only IPMI (fb1) works, HDMI stays black.
+
+GRUB_CMDLINE_LINUX_DEFAULT="fbcon=map:0,1 console=tty1 console=tty2"
+→ Only HDMI (fb0) works, IPMI stays black.
+
+GRUB_CMDLINE_LINUX_DEFAULT="fbcon=map:both console=tty1 console=tty2"
+→ Nothing appears on either display.
+
+
+
+In configurations 1) and 2), I think the active display might switch as you switch from one virtual console to another (e.g. Ctrl-Alt-F1 / Ctrl-Alt-F2). But this won't help you achieve what you want, and you would have to wait a few seconds for the new display to wake up and sync each time you switch between the two.
+In configuration 3), both  does not seem to be a valid parameter for fbcon=map: (in function fb_console_setup() located in drivers/video/fbdev/core/fbcon.c).
+Also, Documentation/admin-guide/serial-console.rst goes into detail on various console= option values and tells me "The behavior is well defined when each device type (i.e. virtual console, serial port, parallel port,... USB serial?) is mentioned only once" and further explains that specifying two virtual consoles (tty1 and tty2) as consoles simultaneously is likely to not behave as expected.
+
+What I Want
+Ideally: Same console output mirrored on both HDMI and IPMI
+Acceptable: Separate virtual terminals (e.g., tty1 on IPMI, tty2 on HDMI)
+
+As far as I know, the Linux kernel's virtual console subsystem is designed to use just one display device (either a framebuffer or a classic VGA text mode) at a time. There seems to be no abstraction layer that would allow sending the console output to two different video devices simultaneously, or even making the console extend to two video displays usable in parallel using just kernel functionality.
+You might get the kernel's virtual console on one framebuffer display, and a separate user-space terminal emulator like fbterm on another, but it seems to me that what you want to do is simply not possible using just the kernel's current virtual console and framebuffer functionalities. Sorry.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797204/how-can-i-get-linux-console-output-on-both-igpu-hdmi-and-ipmi-ast-simultaneo
+
+---
+
+#### 629. Try netconsole in single machine, but not working
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, kernel, kernel-modules, udp | Score: 2 | Views: 259 | Answers: 1 | Created: 2025-06-09
+
+**解决方案 / Solution**:
+You're running netconsole on a single machine and directing messages to 127.0.0.1, but netconsole doesn’t transmit logs over the loopback interface (lo), even when targeting localhost.
+Assign a proper IP address to your device if not already done, and try using that IP instead.
+Also check if your firewall, if active is blocking traffic to the port. You can also use socat or tcpdump to test whether the traffic is getting through/reaching its destination.
+
+Linux Configure Netconsole To Log Messages Over UDP Network
+
+Netconsole | Wiki Ubuntu
+
+Netconsole set but no udp packet seen
+
+Netconsole won't start, says "wlan0 doesn't exist, aborting"
+
+11.9. Configuring netconsole
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796825/try-netconsole-in-single-machine-but-not-working
+
+---
+
+#### 630. docker can't access to some tagged images
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, docker, repository, docker-compose, tagging | Score: 2 | Views: 230 | Answers: 1 | Created: 2025-05-24
+
+**解决方案 / Solution**:
+This typically happens when there is a mismatch between how the image is stored locally and how you're trying to reference it.
+That's why  Docker can't find it when you try to inspect it with ios-xr/xrd-control-plane.
+For me, the same thing happens with some images, when I try to execute a command on an image using only the repository stored name, without the tag. There are two possible solutions.
+Include the tag in your inspect
+docker inspect ios-xr/xrd-control-plane:7.11.2
+Using the image ID
+docker inspect 58b64211c345
+
+docker image tag
+
+Three Ways to Check a Docker Image Exists In Registry
+
+Docker Inspect Explained: The Essential Guide
+
+
+
+docker inspect command was resulting into failure as I hadn't completed docker pull completely. In order to succeed docker inspect, you first need to pull image completely.
+
+
+docker inspect results into Error: No such object even if image exists
+
+Update
+
+As far as I can tell, ios-xr/xrd-control-plane is a "combined" repository name split into iox-xr namespace and xrd-control-plane repository. The default registry location should be docker.io since nothing else was told. ios-xr/xrd-control-plane:7.11:2 image is not pulled from docker hub but using docker load -i <filename.tgz>. Could this be the root cause of the problem seen ?
+
+The info would have been good to include in the question :) | Yes, that could very well be the root cause of the problem.
+Since the image was loaded manually via docker load -i <namefile.tgz> rather than pulled from Docker Hub (docker.io), there might be inconsistencies in how Docker is handling the image metadata, particularly with the repository name and tag.
+Docker might list the image under its original repository name (ios-xr/xrd-control-plane) in docker images, but the internal metadata could be incomplete or misconfigured.
+Inspect the image by id instead of the repository name. If this works, the issue is specifically with the repository tag.
+If the image is accessible by ID, retag it and try inspecting it again by name.
+
+What is the difference between import and load in Docker?
+
+Should I use save/load or export/import for my application using Docker? And an additional uncertainty
+
+How to load a Docker image from a tar file
+
+Docker image load vs. import
+
+
+
+Sorry, from the output of docker images is the content of the first column REPOSITORY actually relevant w.r.t. the Docker Hub (docker.io) registry ?
+
+No, the REPOSITORY column in docker images does not mean that the image is from docker Hub/docker.io. It just shows the image name + tag, regardless of origin, loaded via docker load, built locally, or pulled from any registry.
+Since you loaded it via docker load, the name lists it but can’t fully track it like a pulled image.
+The IMAGE ID is always the real key, it uniquely identifies the image.
+
+The image ID is a unique identifier for each Docker image, similar to the container ID for containers. You can use this ID to reference and interact with the image.
+
+
+The Challenges of Uniquely Identifying Your Images
+
+What's the difference between a Docker image's Image ID and its Digest?
+
+
+
+
+Tagging Docker Images Explained
+
+How to identify Docker container IDs, images, and names?
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796234/docker-cant-access-to-some-tagged-images
+
+---
+
+#### 631. Cannot set valid_lft to forever in Ubuntu 24.04 with diskless network boot, causes freeze
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, freeze, netboot | Score: 2 | Views: 176 | Answers: 1 | Created: 2025-04-25
+
+**解决方案 / Solution**:
+/etc/netplan/00-installer-config.yaml or /etc/netplan/*.yaml
+change
+use-lifetime: false
+sudo netplan apply
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794181/cannot-set-valid-lft-to-forever-in-ubuntu-24-04-with-diskless-network-boot-caus
+
+---
+
+#### 632. How do you fix "no protocol specified" during wake from sleep in Linux?
+
+**问题描述 / Problem Description**:
+Tags: linux, xrandr, suspend | Score: 1 | Views: 49 | Answers: 1 | Created: 2026-01-29
+
+**解决方案 / Solution**:
+X server normally requires authentication and the necessary information is not easily available outside of the user's login session. On a modern system reasonably portable way for root to run commands in the user's session context is
+systemd-run --user -M user@.host xrandr --output eDP-1 --off
+
+here user is your logged in user's name, .host is the literal string.
+It will work only if user is logged in in GUI session using X11. Also, on suspend systemd attempts to freeze user's sessions, so it may be the next problem.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804111/how-do-you-fix-no-protocol-specified-during-wake-from-sleep-in-linux
+
+---
+
+#### 633. How can I exclude a single BSSID from a wireless network while allowing multiple others?
+
+**问题描述 / Problem Description**:
+Tags: linux, networking, wifi, mac-address, netplan | Score: 1 | Views: 99 | Answers: 1 | Created: 2026-01-21
+
+**解决方案 / Solution**:
+Based on "netplan" I assume you are using Ubuntu. I see two possibilities.
+
+Use NetworkManager and create several connections with the same SSID bound to a different BSSID each. It can be done using netplan or (at least on Ubuntu 24.04 and above) by configuring directly in NetworkManager. Ubuntu now stores NetworkManager configuration in netplan instead of in the default keyfile format. Like
+
+root@quokka:/etc/netplan# cat 02-conn-1.yaml 
+network:
+  version: 2
+  wifis:
+    connection-1:
+      renderer: NetworkManager
+      match: {}
+      access-points:
+        "SSID-foo":
+          bssid: "11:11:11:11:11:11"
+root@quokka:/etc/netplan# cat 02-conn-2.yaml 
+network:
+  version: 2
+  wifis:
+    connection-2:
+      renderer: NetworkManager
+      match: {}
+      access-points:
+        "SSID-foo":
+          bssid: "22:22:22:22:22:22"
+root@quokka:/etc/netplan# 
+
+which ends up in
+bor@quokka:~$ nmcli connection  | cat
+NAME                           UUID                                  TYPE    DEVICE 
+netplan-enp0s2                 d0ec664b-1176-38d1-abd4-71d76a4c1087  ethernet  enp0s2 
+lo                             fc60ea63-4b78-4a3d-a48f-1b22a00e70e4  loopback  lo     
+netplan-connection-1-SSID-foo  d943b426-b377-3d61-8516-ba562a71fb34  wifi      --     
+netplan-connection-2-SSID-foo  41cacf27-378f-3989-a158-6090266cf074  wifi      --     
+bor@quokka:~$ 
+
+
+Use systemd-networkd and set bssid_ignore in the wpa_supplicant.conf. The systemd-networkd does not handle WiFi directly, you need to configure wpa_supplicant manually. Like
+
+network={
+        ssid="example"
+        psk="very secret passphrase"
+        bssid_ignore=02:11:22:33:44:55 02:22:aa:44:55:66
+}
+
+The heavily commented example wpa_supplicant.conf is installed as /usr/share/doc/wpa_supplicant/examples/wpa_supplicant.conf.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803933/how-can-i-exclude-a-single-bssid-from-a-wireless-network-while-allowing-multiple
+
+---
+
+#### 634. Systemd `greetd` service being replaced with masked `gdm3` service after every update
+
+**问题描述 / Problem Description**:
+Tags: debian, systemd, gnome, display-manager | Score: 1 | Views: 121 | Answers: 1 | Created: 2026-01-19
+
+**解决方案 / Solution**:
+The display-manager.service points to the package that owns shared/default-x-display-manager debconf key
+bor@ThinkPad-E16-Gen3:~$ sudo debconf-show gdm3
+  gdm3/daemon_name: /usr/sbin/gdm3
+* shared/default-x-display-manager: gdm3
+bor@ThinkPad-E16-Gen3:~$ echo metaget shared/default-x-display-manager owners | sudo debconf-communicate
+0 gdm3, lightdm
+bor@ThinkPad-E16-Gen3:~$ 
+
+You can only select one of packages that owns this key. The display-manager.service is also statically WantedBy the graphical.target:
+bor@ThinkPad-E16-Gen3:~$ systemctl cat graphical.target 
+# /usr/lib/systemd/system/graphical.target
+#  SPDX-License-Identifier: LGPL-2.1-or-later
+#
+#  This file is part of systemd.
+#
+#  systemd is free software; you can redistribute it and/or modify it
+#  under the terms of the GNU Lesser General Public License as published by
+#  the Free Software Foundation; either version 2.1 of the License, or
+#  (at your option) any later version.
+
+[Unit]
+Description=Graphical Interface
+Documentation=man:systemd.special(7)
+Requires=multi-user.target
+Wants=display-manager.service
+...
+
+What you could do, is to mask the display-manager.service
+systemctl mask --force display-manager.service
+
+It will link it to the /dev/null and the gdm3 and lightdm scripts will not attempt to link it.
+I believe systemd will log on startup about attempt to activate masked unit, but is as best as you can get.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803886/systemd-greetd-service-being-replaced-with-masked-gdm3-service-after-every-u
+
+---
+
+#### 635. upower: how to enforce charging start & end thresholds?
+
+**问题描述 / Problem Description**:
+Tags: debian, power-management, laptop, battery | Score: 1 | Views: 360 | Answers: 1 | Created: 2026-01-18
+
+**解决方案 / Solution**:
+The thresholds are taken from the CHARGE_LIMIT device udev property. It is by default initialized form the hwdb. The default settings are in the file 60-upower-battery.hwdb:
+battery:*:*:dmi:*
+ CHARGE_LIMIT=75,80
+
+upowerd always reads these values, but it only actually applies them if charging thresholds are enabled. The only way to enable thresholds is via D-Bus method EnableChargeThreshold on the org.freedesktop.UPower.Device interface. See D-Bus API reference.
+GNOME as of version 48 adds the UI to enable thresholds via upowerd.
+You only need to enable it once, the setting is remembered by the upowerd. You could try to
+
+stop upowerd
+edit (or create) the file /var/lib/upower/charging-threshold-status with the content 1 (single digit without new line)
+start upowerd
+
+Note that at least on iPhone even if you limit charging to 80% iPhone will still perform full charge every now and then.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803869/upower-how-to-enforce-charging-start-end-thresholds
+
+---
+
+#### 636. How can I require a password before allowing USB flash drives on Ubuntu?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, mount, security, usb, usb-drive | Score: 1 | Views: 175 | Answers: 1 | Created: 2026-01-17
+
+**解决方案 / Solution**:
+On modern distributions the most simple solution is udev rule:
+bor@ThinkPad-E16-Gen3:~$ cat /etc/udev/rules.d/99-usb-mount-auth.rules 
+ACTION!="remove", SUBSYSTEM=="block", DRIVERS=="usb-storage|uas", ENV{UDISKS_SYSTEM}="1"
+bor@ThinkPad-E16-Gen3:~$ 
+
+It sets HintSystem for any mass storage device and the default policy for mounting "system" devices requires authentication as administrator.
+On Ubuntu 24.04 the default polkit rules allow mouting of "system" devices without explicit authentication for users in the sudo group. But such users can run mount as root anyway, so I do not think it conflicts with your requirement.
+This approach will require authorization for all actions related to this drive. The full list is
+bor@ThinkPad-E16-Gen3:~$ pkaction | grep udisks2 | grep system\$
+org.freedesktop.udisks2.ata-standby-system
+org.freedesktop.udisks2.eject-media-system
+org.freedesktop.udisks2.encrypted-change-passphrase-system
+org.freedesktop.udisks2.encrypted-unlock-system
+org.freedesktop.udisks2.filesystem-mount-system
+org.freedesktop.udisks2.modify-device-system
+org.freedesktop.udisks2.open-device-system
+org.freedesktop.udisks2.power-off-drive-system
+bor@ThinkPad-E16-Gen3:~$ 
+
+If you only want to restrict some of them, you would need need to remove the udev rule and write a polkit rule. Rules are in JavaScript. Here is the example for mounting:
+bor@ThinkPad-E16-Gen3:~$ sudo cat /etc/polkit-1/rules.d/00-usb-mount-auth.rules
+// Mounting of removable drives
+polkit.addRule(function(action, subject) {
+    if (action.id == "org.freedesktop.udisks2.filesystem-mount" ) {
+            return polkit.Result.AUTH_SELF;
+    }
+});
+bor@ThinkPad-E16-Gen3:~$ 
+
+This rule requires that all users enter their own password when mounting removable drives. All other actions remain on their default settings, so ejecting will be allowed.
+AUTH_SELF means that user needs to enter own password. You may consider AUTH_ADMIN which will require users to authenticate as administrator (root or other user(s) configured in polkit as administrative users. On Ubuntu the first user created during installation is the administrative user. Technically it is user in the sudo or admin groups).
+More details on the rule syntax is in man polkit. The full list of actions for UDisks2 (which performs the actual mounting) can be listed with
+pkaction | grep -F org.freedesktop.udisks2.
+
+and you can get some description including the default policy with
+bor@ThinkPad-E16-Gen3:~$ pkaction --action-id org.freedesktop.udisks2.filesystem-mount --verbose
+org.freedesktop.udisks2.filesystem-mount:
+  description:       Mount a filesystem
+  message:           Authentication is required to mount the filesystem
+  vendor:            The Udisks Project
+  vendor_url:        https://github.com/storaged-project/udisks
+  icon:              drive-removable-media
+  implicit any:      auth_admin
+  implicit inactive: auth_admin
+  implicit active:   yes
+
+bor@ThinkPad-E16-Gen3:~$ 
+
+Actions with -system suffix are used when device is marked with HintSystem achieved by setting the UDISKS_SYSTEM udev property. The rules provided by distribution are installed in the /usr/share/polkit-1/rules.d and can be used as examples.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803833/how-can-i-require-a-password-before-allowing-usb-flash-drives-on-ubuntu
+
+---
+
+#### 637. Bluetooth Audio Device Not Recognized in Playback Devices
+
+**问题描述 / Problem Description**:
+Tags: debian, pulseaudio, bluetooth, jack | Score: 1 | Views: 194 | Answers: 2 | Created: 2026-01-15
+
+**解决方案 / Solution**:
+Check this post for more solutions:
+
+Bluetooth speaker/headphones stop playing when Bluetooth keyboard is connected
+
+
+Try to disabling the internal bluetooth and restarting the bluetooth.service.
+sudo /sbin/modprobe -r btusb
+sudo /sbin/modprobe btusb disable_ertm=1
+sudo systemctl restart bluetooth.service
+
+
+Bluetooth Inactive (dead) Module btusb not found in directory /lib/modules/5.15.0-56
+
+And/or try creating a new /etc/bluetooth/main.conf.
+
+Bluetooth main.conf is ignored – no way to apply settings
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803757/bluetooth-audio-device-not-recognized-in-playback-devices
+
+---
+
+#### 638. Ubuntu 24.04.3 - no audio on Gigabyte GA-720-US3
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, audio | Score: 1 | Views: 40 | Answers: 1 | Created: 2026-01-14
+
+**解决方案 / Solution**:
+A later reboot fixed it. Why the previous reboots didn’t work, I really don’t know.
+The only difference was that the later reboot happened after an overnight break, when everything was completely powered off, whereas the previous ones were just restarts.
+There may be a clue there.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803743/ubuntu-24-04-3-no-audio-on-gigabyte-ga-720-us3
+
+---
+
+#### 639. Intel AX211 Wi-Fi repeatedly soft-blocked on Linux with iwlwifi firmware crashes after long period of inactivity
+
+**问题描述 / Problem Description**:
+Tags: linux, kernel, wifi, intel | Score: 1 | Views: 110 | Answers: 1 | Created: 2026-01-13
+
+**解决方案 / Solution**:
+I've had the exact same issue with both the AX210 card that I bought first, then assuming a defect, replaced with one with an AX211. So,
+
+Does this pattern indicate a kernel + iwlwifi firmware regression for AX211 rather than faulty hardware?
+
+I think it's a multi-device affecting firmware issue, and the fact that it had been like that for a year suggests intel doesn't have the resources or priority to fix that, because if it also fails for you in a HP (first-tier OEM to intel) laptop means that they're very very likely aware.
+There's only been the temporarily fix to remove the device from the PCIe bus, wait a moment, then re-initialize it. It usually failed a few minutes after again, but it gave enough time to warn conference partners that I'll be offline for a minute while my system does a full reboot.
+sudo sh -c "echo 1 > /sys/bus/pci/devices/0000:06:00.0/remove; sleep 0.5; echo 1 > /sys/bus/pci/rescan"
+
+(adjust 06:00.0 for what lspci says)
+Tried to debug how much of that is driver, and how much is firmware, but had to ration my time, and at the point debugging my wokrstation kernel via serial didn't suffice, I gave up; I need this computer to just work.
+Bought a mediatek MT7925-based card instead; drivers for these are upstream in modern kernels. Has been running stably so far.
+
+Is it plausible that a firmware update (e.g. linux-firmware) or cold reinitialization after long inactivity could trigger this without an explicit kernel upgrade?
+
+I've not seen a firmware update yet, and while I saw the same as you, i.e., crashes during inactivity, I also lost the device suddenly during video calls occasionally. So, no, I don't think so.
+
+downgrading / pinning the kernel (e.g. 6.5 LTS), or
+
+depends on whether that is a viable option for you and actually fixes the issue, I'd say!
+
+waiting for an upstream fix?
+
+I waited for more than a year. My crystal ball is quite cloudy on this one, but I'd not assume it'd get fixed soon.
+
+want to understand whether this is expected behavior for a bad kernel/firmware combination.
+
+the firmware you're loading is the one supplied by intel for exactly your kernel version, so I don't think it's "worse" than any other.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803720/intel-ax211-wi-fi-repeatedly-soft-blocked-on-linux-with-iwlwifi-firmware-crashes
+
+---
+
+#### 640. How to see all debsums results that are not OK and not about files in /opt/?
+
+**问题描述 / Problem Description**:
+Tags: debian, grep, security | Score: 1 | Views: 81 | Answers: 2 | Created: 2026-01-08
+
+**解决方案 / Solution**:
+Those errors are sent on stderr (fd 2), not stdout (fd 1), so you need something like:
+debsums -s 2>&1 | grep -v /opt/
+
+-s to skip printing anything for OK files, 2>&1 so the fd 2 goes to the same as fd 1 (the pipe to grep).
+With (t)csh, zsh or recent versions of bash, you can also write it:
+debsums -s |& grep -v /opt/
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803625/how-to-see-all-debsums-results-that-are-not-ok-and-not-about-files-in-opt
+
+---
+
+#### 641. additional steps required to send synology btrfs snapshots to debian?
+
+**问题描述 / Problem Description**:
+Tags: debian, btrfs, synology | Score: 1 | Views: 131 | Answers: 1 | Created: 2026-01-07
+
+**解决方案 / Solution**:
+Adding the -v option to btrfs receive shows many error messages like:
+ERROR: lsetxattr  [...] failed: Operation not supported
+
+which led me to a Reddit post which suggests that the attribute 15 error is due to Synology using a proprietary ACL implementation which debian does not support.
+The suggested workaround is to use an undocumented option btrfs send --without-syno-features. This does not work on my DSM version but may be useful to people running more recent versions.
+
+Another suggestion I found was to add -E0 to the receive command.
+Although this seems to allow the receive to complete, the "Received UUID"
+is not set and the subvolume is not marked as readonly (presumably because of the errors), which then makes subsequent incremental sends fail. It is possible to do btrfs property set DST-SNAP ro true to set the property; and then find the appropriate Received UUID with btrfs subvolume show SRC-SNAP and set it on the destination subvolume using a python script
+but personally I would not trust this as part of a disaster recovery system.
+
+It looks like the rsync failure I was seeing can be avoided by not using -i (or by using an --out-format that does not include %L). Since I was only using -i for debugging, as long as the system has enough memory to let -H work, using rsync may be the reliable approach.
+
+pro: portable backups - no Synology lock-in;
+con: Synology ACLs are lost (not important in my case); incremental rsync is extremely inefficient compared to incremental btrfs snapshot
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803598/additional-steps-required-to-send-synology-btrfs-snapshots-to-debian
+
+---
+
+#### 642. Stuck troubleshooting ALSA and pipewire on Debian 13 (Trixie) - "Host is Down"; pipewire likely not running
+
+**问题描述 / Problem Description**:
+Tags: debian, audio, alsa, pipewire | Score: 1 | Views: 1099 | Answers: 1 | Created: 2026-01-05
+
+**解决方案 / Solution**:
+Based on the error message by running pipewire as root:
+[E][15:30:19.465626] mod.protocol-native | [module-protocol-:  756 init_socket_name()] server 0x5593821ee280: name pipewire-0 is not an absolute path and no runtime dir found. Set one of PIPEWIRE_RUNTIME_DIR, XDG_RUNTIME_DIR or USERPROFILE in the environment
+
+The solution is to run pipewire as a regular user since XDG_RUNTIME_DIR should be set there.
+The same error can be easily reproduced with sudo pipewire.
+Alternatively, if a user environment is not available, setting XDG_RUNTIME_DIR manually should fix the issue:
+export XDG_RUNTIME_DIR=/run/user/$UID
+
+Reference: https://voidforums.com/viewtopic.php?t=796
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803534/stuck-troubleshooting-alsa-and-pipewire-on-debian-13-trixie-host-is-down
+
+---
+
+#### 643. Why is my userID 1001 instead of 1000 on my new system
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, passwd, uid | Score: 1 | Views: 347 | Answers: 2 | Created: 2026-01-02
+
+**解决方案 / Solution**:
+By default, Ubuntu and a few other distros define the starting user ID as 1000, and it has not changed in some time.  Defined as UID_MIN in file /etc/login.defs.  As distinct from a system user ID, a service account for software, not a human.
+Most things do not care what your UID is and look up by name. However yes file ownership gets annoying when UIDs are not consistent.
+id 1000  is another way to query the name of UID 1000. The program also takes names to go the other way.
+Possible reasons another user may have existed at some point:
+
+The system was installed by copying in an image that already had some user 1000.
+Some software created a service user without doing the equivalent of  useradd --system
+You have some other user directory other than  /etc/passwd file, unlikely but id or getent program will resolve user names however it is set up.
+
+As to changing this:
+ usermod --uid 1000 stephen
+
+usermod program from shadow-utils can change a UID, and so  take over 1000 that does not exist.  Substitute your actual user name to select the login, that part does not take numeric IDs.
+  find "$HOME" /var/mail -uid 1001
+  find "$HOME" /var/mail -uid 1001 -print0 | xargs -r0 chown 1000
+
+usermod --uid fixes file permissions in your home directory.  Review any files with the wrong owner, before changing their ownership.  Also run this on your external drive volumes.
+Or, change owner to the new UID and use that going forward.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803454/why-is-my-userid-1001-instead-of-1000-on-my-new-system
+
+---
+
+#### 644. Is there a way to tell if a Mac connected via USB (in device mode) is itself in "Device Firmware Update" (DFU) mode?
+
+**问题描述 / Problem Description**:
+Tags: debian, macos | Score: 1 | Views: 109 | Answers: 2 | Created: 2025-12-31
+
+**解决方案 / Solution**:
+If you have a Mac available then I'd strongly urge people to follow the official documentation. That workflow is supported, where other options are not supported by apple themselves.
+According to this, you should see the DFU window in the Finder on the attached machine.
+There is further information available on how to identify the DFU port.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803417/is-there-a-way-to-tell-if-a-mac-connected-via-usb-in-device-mode-is-itself-in
+
+---
+
+#### 645. idevicerestore: never completes "Sending filesystem now"
+
+**问题描述 / Problem Description**:
+Tags: debian, macos, libimobiledevice | Score: 1 | Views: 158 | Answers: 1 | Created: 2025-12-31
+
+**解决方案 / Solution**:
+Build idevicerestore from git
+This is unfortunately a lot more work.
+For me after already building usbmuxd it required,
+
+libimobiledevice
+libirecovery
+libtatsu
+
+Then I could build,
+
+idevicerestore
+
+
+After you upgrade idevicerestore, you'll get,
+Done sending SystemVolume
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Sealing System Volume (77)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Got status message
+Status: Restore Finished
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803415/idevicerestore-never-completes-sending-filesystem-now
+
+---
+
+#### 646. Debian preseed partman-auto: expert_recipe with dynamic early_command is ignored / rebalanced (dynamic partition sizing based on hdd sda size)
+
+**问题描述 / Problem Description**:
+Tags: debian, partition, system-installation, debian-installer, preseed | Score: 1 | Views: 190 | Answers: 1 | Created: 2025-12-31
+
+**解决方案 / Solution**:
+For those who are wondering about automatic resizes I have used this modified version that actually works:
+d-i partman/early_command string \
+  set -e; \
+  LOG="/var/log/partman-early.log"; \
+  mkdir -p /var/log; \
+  : > "$LOG"; \
+  exec >>"$LOG" 2>&1; \
+  \
+  echo "=== partman early_command start ==="; \
+  date; \
+  \
+  DISK=""; \
+  for d in /sys/block/sd[a-z] /sys/block/vd[a-z] /sys/block/xvd[a-z] /sys/block/nvme*n1; do \
+    [ -e "$d/size" ] || continue; \
+    DISK="/dev/${d##*/}"; break; \
+  done; \
+  [ -z "$DISK" ] && DISK="/dev/sda"; \
+  echo "DISK=$DISK"; \
+  echo "partman-auto/disk string $DISK" | debconf-set-selections; \
+  \
+  b="${DISK##*/}"; \
+  read SECTORS < "/sys/block/$b/size"; \
+  HDD_MB=$((SECTORS * 512 / 1000000)); \
+  echo "SECTORS=$SECTORS HDD_MB=$HDD_MB"; \
+  \
+  if   [ "$HDD_MB" -lt 17179 ]; then SWAP_MB=537; \
+  elif [ "$HDD_MB" -lt 25769 ]; then SWAP_MB=805; \
+  elif [ "$HDD_MB" -lt 34359 ]; then SWAP_MB=1074; \
+  elif [ "$HDD_MB" -lt 45779 ]; then SWAP_MB=1611; \
+  elif [ "$HDD_MB" -lt 68719 ]; then SWAP_MB=2147; \
+  elif [ "$HDD_MB" -lt 137438 ]; then SWAP_MB=4295; \
+  else SWAP_MB=4295; fi; \
+  echo "SWAP_MB=$SWAP_MB"; \
+  \
+  EXTRA=""; \
+  if [ "$HDD_MB" -lt 137440 ]; then \
+    ROOT_MB=$((HDD_MB - SWAP_MB)); \
+    ROOT_MAX=$ROOT_MB; \
+  else \
+    ROOT_MB=137439; \
+    ROOT_MAX=137439; \
+    EXTRA=" \
+      1 1 1000000000 ext4 \
+        \$primary{ } \
+        method{ format } format{ } \
+        use_filesystem{ } filesystem{ ext4 } \
+        mountpoint{ /storage } ."; \
+  fi; \
+  echo "ROOT_MB=$ROOT_MB ROOT_MAX=$ROOT_MAX"; \
+  echo "EXTRA=$EXTRA"; \
+  \
+  RECIPE="custom :: \
+    ${ROOT_MB} ${ROOT_MB} ${ROOT_MAX} ext4 \
+      \$primary{ } \$bootable{ } \
+      method{ format } format{ } \
+      use_filesystem{ } filesystem{ ext4 } \
+      mountpoint{ / } . \
+    ${SWAP_MB} ${SWAP_MB} ${SWAP_MB} linux-swap \
+      \$primary{ } \
+      method{ swap } format{ } . \
+    $EXTRA"; \
+  \
+  echo "FINAL RECIPE:"; \
+  echo "$RECIPE"; \
+  debconf-set partman-auto/expert_recipe "$RECIPE"; \
+  echo "=== partman early_command end ==="
+
+d-i partman-auto/method string regular
+d-i partman-auto/choose_recipe select custom
+d-i partman-partitioning/confirm_write_new_label boolean true
+d-i partman/confirm boolean true
+d-i partman/confirm_nooverwrite boolean true
+d-i partman/choose_partition select finish
+
+What it does:
+if the HDD size is:
+<= 16 GiB - SWAP is 512 MiB
+>= 24 GiB - SWAP is 768 MiB
+>= 32 GiB - SWAP is 1024 MiB
+>= 48 GiB - SWAP is 1536 MiB
+>= 64 GiB - SWAP is 2048 MiB
+>= 128 GiB - SWAP is 4096 MiB and also a /storage partition is added aswell the root size is capped to 128 GiB
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803408/debian-preseed-partman-auto-expert-recipe-with-dynamic-early-command-is-ignored
+
+---
+
+#### 647. What does Gnome notification that app is ready mean?
+
+**问题描述 / Problem Description**:
+Tags: linux, gnome, window-switching | Score: 1 | Views: 190 | Answers: 2 | Created: 2025-12-30
+
+**解决方案 / Solution**:
+The notification is part of the startup notification and indicates that an application is ready for use. It’s intended for cases where an application takes time to start and/or does so in a way that’s not obvious (without a new window taking the focus).
+In the scenarios you describe, this happens because the desktop entry referenced by an icon in the dock corresponds to an application that detaches itself from the process that starts it. The “dock” doesn’t always work as an application switcher; if a running application doesn’t have a dot next to its icon, the dock isn’t aware that it’s running and will start it again instead of switching to it. So when you click on the VS Code icon, a new VS Code process starts, finds the existing VS Code instance, and completes the startup notification process; that’s why there’s a delay, and then the notification.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803389/what-does-gnome-notification-that-app-is-ready-mean
+
+---
+
+#### 648. Spotify client window style is like old Windows on Debian 13
+
+**问题描述 / Problem Description**:
+Tags: debian, window | Score: 1 | Views: 578 | Answers: 1 | Created: 2025-12-27
+
+**解决方案 / Solution**:
+I had the same issue with Ubuntu 25.10 + Wayland. It looks like Spotify use the wrong theme when running on Wayland (it’s very likely related to Electron).
+I found the solution from Hypixely on Reddit.
+We need to change the options passed when launching Spotify.
+
+Copy the .desktop file in the home directory:
+cp -v /usr/share/spotify/spotify.desktop ~/.local/share/applications/spotify.desktop
+
+
+Open the file ~/.local/share/applications/spotify.desktop and replace Exec=spotify %U with this:
+Exec=spotify --enable-features=UseOzonePlatform --ozone-platform=x11 %U
+
+
+
+Now launch Spotify from GNOME Shell and it should use the theme of your desktop.
+
+Here are the commands to do it directly:
+cp -v /usr/share/spotify/spotify.desktop ~/.local/share/applications/spotify.desktop
+sed --in-place \
+'s/Exec=spotify %U/Exec=spotify --enable-features=UseOzonePlatform --ozone-platform=x11 %U/' \
+~/.local/share/applications/spotify.desktop
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803332/spotify-client-window-style-is-like-old-windows-on-debian-13
+
+---
+
+#### 649. Suspending sometimes does not turn off the system and freezes
+
+**问题描述 / Problem Description**:
+Tags: debian, suspend | Score: 1 | Views: 271 | Answers: 1 | Created: 2025-12-22
+
+**解决方案 / Solution**:
+Suspending, sleep, and freezing are, in my opinion, still things that have never worked consistently, everywhere, and 100% reliably with Linux on laptops for as long as I can remember. So, buggy and laggy. I've already written this in several answers, but many people disagree. That's why it's only a comment ^^
+
+My comment was too general but too accurate for certain setups.
+Suspend/Sleep under Linux can indeed be very problematic, and this is due to the complexity of the components involved.
+For many users and hardware combinations, suspend/hibernate under Linux has been working flawlessly for years. The community and kernel developers are constantly working on improvements for specific hardware, but for much old and new hardware, it still doesn't work because of this complexity of the involved components.
+Unfortunately, Windows does this better in this regard because it is better supported by hardware manufacturers. They usually test ACPI and Modern Standby primarily with Windows, and bugs are more often fixed for Windows, while Linux is often left unaddressed.
+
+Involved Components:
+
+Kernel (PM-Subsystem, Freezer, s2idle vs. S3)
+
+Hardware and driver support, particularly on consumer laptops (NVMe, GPU, WLAN, USB, ACPI). Here, a single non-cooperative driver can block or cause the entire suspend process to fail.
+
+Firmware / BIOS / UEFI (often Windows-centric)
+
+Userspace (systemd, cryptsetup, running processes)
+
+The ACPI implementations (Advanced Configuration and Power Interface) from many manufacturers, especially on laptops are often buggy or not fully documented. Linux has to work around or correct this firmware, which doesn't always work perfectly.
+
+
+If one of these layers doesn't cooperate properly, the suspend process hangs.
+
+S2idle vs. S3 (Deep Sleep):
+A key sticking point is s2idle (Modern Standby).
+Many current Lenovo Ideapads no longer support true S3 (deep sleep) and force s2idle.
+Modern laptops (like your Lenovo) often use the very shallow s2idle state instead of the deep S3 (Suspend-to-RAM). s2idle is less energy-efficient (higher battery drain) and more prone to disruptions from background processes or hardware that doesn't enter the sleep state correctly.
+
+Hybrid sleep w/ S2idle/S0 instead of S3
+
+Changing suspend method
+
+System Sleep States
+
+Support suspend modes "s2idle", "shallow", and "deep" #13451
+
+The only issue is that s2idle drains the battery like crazy compared to S3
+
+Do other linux distros have the same quality sleep function as what's on Steam OS? Is it proton that provides this functionality, or is there something specific to Steam OS? 
+
+
+
+Here are further sources of error:
+
+Processes that do not respond to the freeze signal in time. The suspend procedure freezes processes and I/O. If a process is in a kernel context waiting for slow I/O, performing heavy I/O, or has blocked I/O waits, this can delay or block the freeze step.
+
+cryptsetup/LUKS, which waits for open block devices, or cryptsetup-suspend adds another, potentially critical layer. Unlocking the LUKS container on wake-up can be another point of failure.
+
+The hanging state during suspend entry strongly suggests that the kernel may be waiting for a hardware event specifically, for a component to signal it is ready for sleep, which never occurs.
+
+
+
+Personally, I've gotten into the habit of disabling it completely on certain hardware setups because the process is always buggy, and I've had the same problems as you on those systems and couldn't fix them.
+
+Keep the PC in low power, but not sleeping, disable sleep, disable suspend, disable lid close, disable monitor sleep
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803237/suspending-sometimes-does-not-turn-off-the-system-and-freezes
+
+---
+
+#### 650. How to best protect against bit rot on a frequently powered-on SSD?
+
+**问题描述 / Problem Description**:
+Tags: linux, raid, storage, ssd, data-recovery | Score: 1 | Views: 350 | Answers: 2 | Created: 2025-12-21
+
+**解决方案 / Solution**:
+The solution you're looking for has nothing to do with what filesystem you use, or RAID, or LVM.  It's called backup your data regularly.
+Software
+You'll need to use appropriate backup software, there are dozens to choose from starting from basic tools like tar or rsync, to incremental snapshot-like tools like rdiff-backup or backuppc.
+The exact software you use doesn't matter much as long as a) it's easy to restore to bare metal in case of disaster where you don't have your usual system & environment & notes etc available (practice restores to make sure it works and so that you are familiar with the procedure), and b) you use it regularly or set it up to run regularly with cron.
+Search your distro's package database for backup software and experiment with a few to find out which ones suit your needs and you feel comfortably using.
+IMO, simplest is best.  The more complicated and fancy the backup software, the more things can go wrong and the less likely it is to be useful during an emergency.
+Make a "Live" system on a USB flash drive with all the software and information (e.g. remote login passwords, encryption keys, personal notes on how to perform the restore, etc) you need to successfully restore.  Start with an existing Live USB like Clonezilla, gparted or System Rescue and add whatever you need.  Test that you are able to successfully restore your backups using it. Make several copies of it, and keep at least one of them off-site.
+BTW, Clonezilla ("CZ") makes a great image backup system, and you should consider using it in addition to regular file-based backups. It can image your entire drive, including partition tables, and store compressed and minimised (i.e. skipping empty/unused space in your filesystems) images to either another drive (e.g. USB) or to a file-server/NAS via NFS or Samba.  If you make, say, a monthly CZ image of your system then you can restore that in case of emergency and only need to do a file restore of whatever changed since the last CZ backup.
+Worth noting: a backup you haven't tested is a backup in theory only. It may fail you when you need it.
+Every so often, perform test restores to make sure that a) the process works and you're familiar with it, and b) you're backing up everything you need to backup - realising that you forgot to backup an important directory or you changed something on your system but didn't update your backup configuration to match is a terrible thing to discover when you need to recover from disaster.
+Hardware
+Unfortunately tape backup isn't practical for most people these days (tape drives and tape media are both too expensive, and there's not enough storage capacity on the tapes to cope with modern drive sizes), so your best bet is either:
+
+Another machine on the LAN (or somewhere on the internet) to send backups to. If you backup to "the cloud" (i.e. computers not owned by you), you'll need to use backup software which can encrypt your backups.  Note that restoring from remote backups will be more difficult as you'll need a working network AND a copy of your remote logins and passwords and the decryption key, as well as a bootable system with the restore software on it.
+
+Two or more (preferably many more) external drives, plugged in to USB.  Preferably use an external drive dock which allows you to swap standalone SATA drives rather than pre-made brand-name external drives.   Read up on backup rotation strategies, but the gist is that you should cycle through whatever number of backup drives you have, so you always have multiple backups (some of which should be offsite).
+
+a combination of both - e.g. a NAS (pre-built name-brand ones are fine but you will get much better value for money by DIY-ing it with an old PC with lots of drives) for local backups and some USB drives for offsite backups.
+
+
+
+BTW, there's no reason NOT to use either btrfs or zfs.
+
+I personally don't use btrfs because I don't trust it (it still has occasional fs-destroying bugs which can not be attributed to faulty hardware or user-error) but most people consider btrfs to be safe enough for single-drive or RAID-1 like mirroring.
+
+ZFS being "out-of-tree" is no big deal.  Most distros have dkms packages for it, which automate the process of compiling the kernel module - installing and updating it is trivial.
+
+
+However, even if you use one of them, you will still need to backup regularly.
+NEITHER BTRFS, ZFS, OR RAID ARE A SUBSTITUTE FOR REGULAR BACKUPS.
+Both btrfs and zfs have features (snapshot, send, and receive) which make backing up easy and fast....much faster than any file or image based backup because the snapshots tell zfs send or btrfs send exactly which blocks have changed, so it doesn't need to compare file timestamps or checksums.  BTW, many DIY "NAS" solutions like FreeNAS use ZFS so you can zfs send backups to them.
+Running btrfs scrub or zfs scrub regularly will protect against bit-rot (although with only one drive in the pool, they can only detect errors, not correct them)....but bit-rot is nowhere near the huge problem you imagine it is.  Yes, it happens, but it's extremely rare - far more rare than drives dying, fire, flood, earthquakes, theft, sabotage, or user-error accidentally deleting or overwriting important files.
+They also offer features which are useful in day-to-day usage, including transparent compression.
+My recommendation: get over your worry about "out-of-tree" kernel modules and just use ZFS.
+You can use it for your data partitions like /home (or "datasets" in zfs terminology) AND you can use it for the root filesystem.  You can even start with using zfs for your data partitions, and optionally convert the rootfs to zfs later.
+With rootfs on ZFS, I recommend either a) having an ext4 or xfs /boot partition that's big enough to boot a rescue image via grub's memdisk or b) setting up a tftp server on your LAN so you can netboot a rescue image or c) as I do, both a and b.  The more ways you prepare in advance to recover from disaster, the better.
+
+Finally, I can only second what Marcus said about using LVM (or any form of RAID or RAID-like software) on multiple partitions on the same drive: DON'T DO IT.   Performance will suck and you'll massively increase the write wear on your drive, reducing its lifetime.
+It really is a terrible idea.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803202/how-to-best-protect-against-bit-rot-on-a-frequently-powered-on-ssd
+
+---
+
+#### 651. Nat prerouting rule not working for WiFi builtin module
+
+**问题描述 / Problem Description**:
+Tags: linux, networking, vpn, nftables, tor | Score: 1 | Views: 43 | Answers: 1 | Created: 2025-12-20
+
+**解决方案 / Solution**:
+iif $LAN_IF tcp dport 1-65535 redirect to 9040
+
+does change the destination address but NOT the ingress interface. Nothing from the outside can be moved to lo – that is part of the IP definition.
+As iif is still wlan0
+iif "lo" accept
+
+does not catch the packets, they run into policy drop.
+These can never work:
+iif $LAN_IF oif "lo" accept
+iif "lo" oif $VPN_IF accept
+
+There is no forwarding from or to lo.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803182/nat-prerouting-rule-not-working-for-wifi-builtin-module
 
 ---
