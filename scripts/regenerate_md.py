@@ -3,11 +3,11 @@
 重新生成所有 MD 文件（从 SQLite 数据库）。
 纯资源风格，无自动化痕迹，双语标签。
 """
-import os, re, sqlite3, json
+import os, re, sqlite3, json, html
 from pathlib import Path
 
-REPO = Path("/root/.openclaw/workspace/patch-toolbox")
-DB_DIR = REPO / "db"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DB_DIR = PROJECT_ROOT / "db"
 
 def _is_empty(val):
     """判断字段是否为空/N/A/无意义值。"""
@@ -20,6 +20,72 @@ def _is_empty(val):
         return len(val) == 0
     return False
 
+
+
+
+def clean_text(val):
+    if val is None:
+        return ""
+    if not isinstance(val, str):
+        return val
+    return html.unescape(val).strip()
+
+
+
+
+
+def summarize_title(title: str, limit: int = 100) -> str:
+    title = clean_text(title)
+    if not limit or len(title) <= limit:
+        return title
+    clipped = title[:limit].rsplit(' ', 1)[0].strip()
+    if not clipped:
+        clipped = title[:limit].strip()
+    return clipped + '…'
+
+def trim_dangling_bullets(val: str) -> str:
+    val = clean_text(val)
+    lines = val.splitlines()
+    while lines:
+        last = lines[-1].rstrip()
+        if re.match(r'^\s*[-*]\s+[A-Za-z]?$' , last):
+            lines.pop()
+            continue
+        break
+    return '\n'.join(lines).strip()
+
+
+
+def sanitize_advisory_block(val: str) -> str:
+    val = trim_dangling_bullets(val)
+    known_truncated_lines = {
+        'OpenClaw now blocks `MINIMAX_API_HOST` from',
+        '`DELETE /api/books/{bookID}` sets `books.deleted_at` to the current time. The book-level endpoint starts',
+    }
+    lines = []
+    for line in val.splitlines():
+        stripped = line.strip()
+        if stripped in known_truncated_lines:
+            continue
+        lines.append(line)
+    return '\n'.join(lines).strip()
+
+def display_title(title: str, desc: str = "", limit: int = 100) -> str:
+    title = clean_text(title)
+    desc = clean_text(desc)
+    display = title
+    repaired = False
+    if desc.startswith('[Red Hat] '):
+        redhat_desc = desc[len('[Red Hat] '):].split('. Bugzilla:', 1)[0].strip()
+        if title.startswith('CVE-') and ' - ' in title:
+            cve, rest = title.split(' - ', 1)
+            looks_truncated = title.endswith(' ') or title.endswith('…') or rest.endswith(' ') or len(rest) < len(redhat_desc)
+            if looks_truncated:
+                display = f"{cve} - {redhat_desc}"
+                repaired = True
+    if repaired and limit and len(display) > limit:
+        return summarize_title(display, limit)
+    return display
 
 def generate_ns_md(conn, out_path: Path):
     c = conn.cursor()
@@ -41,16 +107,16 @@ def generate_ns_md(conn, out_path: Path):
     
     for i, (title, desc, sol, sev, cvss, url, refs_json) in enumerate(rows, 1):
         sev_display = f"{sev or 'N/A'} | CVSS: {cvss}" if cvss else (sev or 'N/A')
-        lines.append(f"#### {i}. {title}")
+        lines.append(f"#### {i}. {display_title(title, desc)}")
         lines.append("")
         lines.append(f"**严重程度 / Severity**: {sev_display}")
         lines.append("")
         lines.append("**漏洞描述 / Description**:")
-        lines.append(desc or "N/A")
+        lines.append(sanitize_advisory_block(desc) or "N/A")
         lines.append("")
         if not _is_empty(sol):
             lines.append("**缓解方案 / Mitigation**:")
-            lines.append(sol)
+            lines.append(clean_text(sol))
             lines.append("")
         ref_list = json.loads(refs_json) if refs_json else []
         has_refs = ref_list and not _is_empty(ref_list)
@@ -58,9 +124,9 @@ def generate_ns_md(conn, out_path: Path):
             lines.append("**参考链接 / References**:")
             if has_refs:
                 for r in ref_list[:5]:
-                    lines.append(f"- {r}")
+                    lines.append(f"- {clean_text(r)}")
             elif not _is_empty(url):
-                lines.append(f"- {url}")
+                lines.append(f"- {clean_text(url)}")
             lines.append("")
         lines.append("---")
         lines.append("")
@@ -118,7 +184,7 @@ def generate_sv_md(conn, out_dir: Path):
         
         for i, (title, desc, sol, sev, cvss, url, refs_json, prods_json) in enumerate(rows, 1):
             sev_display = f"{sev or 'N/A'} | CVSS: {cvss}" if cvss else (sev or 'N/A')
-            plines.append(f"#### {i}. {title}")
+            plines.append(f"#### {i}. {display_title(title, desc)}")
             plines.append("")
             plines.append(f"**严重程度 / Severity**: {sev_display}")
             if prods_json:
@@ -130,11 +196,11 @@ def generate_sv_md(conn, out_dir: Path):
                     pass
             plines.append("")
             plines.append("**漏洞描述 / Description**:")
-            plines.append(desc or "N/A")
+            plines.append(sanitize_advisory_block(desc) or "N/A")
             plines.append("")
             if not _is_empty(sol):
                 plines.append("**补丁信息 / Patch Info**:")
-                plines.append(sol)
+                plines.append(clean_text(sol))
                 plines.append("")
             ref_list = json.loads(refs_json) if refs_json else []
             has_refs = ref_list and not _is_empty(ref_list)
@@ -142,9 +208,9 @@ def generate_sv_md(conn, out_dir: Path):
                 plines.append("**参考链接 / References**:")
                 if has_refs:
                     for r in ref_list[:5]:
-                        plines.append(f"- {r}")
+                        plines.append(f"- {clean_text(r)}")
                 elif not _is_empty(url):
-                    plines.append(f"- {url}")
+                    plines.append(f"- {clean_text(url)}")
                 plines.append("")
             plines.append("---")
             plines.append("")
@@ -201,18 +267,18 @@ def generate_st_md(conn, out_dir: Path):
         ]
         
         for i, (title, desc, sol, url) in enumerate(rows, 1):
-            plines.append(f"#### {i}. {title}")
+            plines.append(f"#### {i}. {display_title(title, desc)}")
             plines.append("")
             plines.append("**问题描述 / Problem Description**:")
-            plines.append(desc or "N/A")
+            plines.append(sanitize_advisory_block(desc) or "N/A")
             plines.append("")
             if not _is_empty(sol):
                 plines.append("**解决方案 / Solution**:")
-                plines.append(sol)
+                plines.append(clean_text(sol))
                 plines.append("")
             if not _is_empty(url):
                 plines.append("**参考链接 / References**:")
-                plines.append(f"- {url}")
+                plines.append(f"- {clean_text(url)}")
                 plines.append("")
             plines.append("---")
             plines.append("")
@@ -223,17 +289,17 @@ def generate_st_md(conn, out_dir: Path):
 def main():
     print("[1/3] Generating network-security/index.md ...")
     conn_ns = sqlite3.connect(DB_DIR / "network-security.db")
-    generate_ns_md(conn_ns, REPO / "network-security" / "index.md")
+    generate_ns_md(conn_ns, PROJECT_ROOT / "network-security" / "index.md")
     conn_ns.close()
     
     print("[2/3] Generating system-vulnerabilities/ ...")
     conn_sv = sqlite3.connect(DB_DIR / "system-vulnerabilities.db")
-    generate_sv_md(conn_sv, REPO / "system-vulnerabilities")
+    generate_sv_md(conn_sv, PROJECT_ROOT / "system-vulnerabilities")
     conn_sv.close()
     
     print("[3/3] Generating system-troubleshooting/ ...")
     conn_st = sqlite3.connect(DB_DIR / "system-troubleshooting.db")
-    generate_st_md(conn_st, REPO / "system-troubleshooting")
+    generate_st_md(conn_st, PROJECT_ROOT / "system-troubleshooting")
     conn_st.close()
     
     print("\n✅ All MD files regenerated from SQLite.")

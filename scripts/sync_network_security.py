@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Agent: Network Security Vulnerabilities (OS分类版)
+Sync Script: Network Security Vulnerabilities (OS分类版)
 每6小时按操作系统分类抓取网络漏洞，增量更新。
 A+B 方案：A=抓最新，B=翻页深挖补足50条真正新增。
 
@@ -21,12 +21,12 @@ from pathlib import Path
 from typing import List, Dict, Any
 
 from utils import (
-    fetch_json, fetch_text, fetch_rss, log_agent, write_report,
+    fetch_json, fetch_text, fetch_rss, log_sync, write_report,
     strip_html_tags, insert_entries_sqlite, init_sqlite_db, get_db_path,
-    count_entries_sqlite, send_agent_report,
+    count_entries_sqlite, summarize_title, send_sync_report,
 )
 
-AGENT_NAME = "agent-network-security"
+SYNC_NAME = "sync-network-security"
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "network-security"
 MIN_ITEMS = 50
 MAX_DEEP_PAGES = 5
@@ -168,7 +168,7 @@ def fetch_exploit_db(limit: int = 30, offset: int = 0) -> List[Dict[str, Any]]:
             "last_modified": entry.get("updated", ""),
             "source_tag": "Exploit-DB",
         })
-    log_agent(AGENT_NAME, f"Exploit-DB fetched {len(items)} (offset={offset})")
+    log_sync(SYNC_NAME, f"Exploit-DB fetched {len(items)} (offset={offset})")
     return items
 
 
@@ -177,7 +177,7 @@ def fetch_github_advisories(limit: int = 20) -> List[Dict[str, Any]]:
     url = f"https://api.github.com/advisories?per_page={limit}"
     data = fetch_json(url, timeout=20)
     if not data or not isinstance(data, list):
-        log_agent(AGENT_NAME, "GitHub Advisories returned no data")
+        log_sync(SYNC_NAME, "GitHub Advisories returned no data")
         return []
 
     items = []
@@ -202,7 +202,7 @@ def fetch_github_advisories(limit: int = 20) -> List[Dict[str, Any]]:
             "last_modified": adv.get("updated_at", ""),
             "source_tag": "GitHub",
         })
-    log_agent(AGENT_NAME, f"GitHub Advisories fetched {len(items)}")
+    log_sync(SYNC_NAME, f"GitHub Advisories fetched {len(items)}")
     return items
 
 
@@ -211,7 +211,7 @@ def fetch_cisa_kev() -> List[Dict[str, Any]]:
     url = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
     data = fetch_json(url, timeout=30)
     if not data or "vulnerabilities" not in data:
-        log_agent(AGENT_NAME, "CISA KEV returned no data")
+        log_sync(SYNC_NAME, "CISA KEV returned no data")
         return []
 
     items = []
@@ -234,7 +234,7 @@ def fetch_cisa_kev() -> List[Dict[str, Any]]:
             "last_modified": v.get("dateAdded", ""),
             "source_tag": "CISA-KEV",
         })
-    log_agent(AGENT_NAME, f"CISA KEV fetched {len(items)}")
+    log_sync(SYNC_NAME, f"CISA KEV fetched {len(items)}")
     return items
 
 
@@ -247,7 +247,7 @@ def fetch_redhat_advisories(limit: int = 20) -> List[Dict[str, Any]]:
     url = f"https://access.redhat.com/hydra/rest/securitydata/cve.json?per_page={limit}"
     data = fetch_json(url, timeout=30)
     if not data or not isinstance(data, list):
-        log_agent(AGENT_NAME, "Red Hat API returned no data")
+        log_sync(SYNC_NAME, "Red Hat API returned no data")
         return []
 
     items = []
@@ -259,7 +259,7 @@ def fetch_redhat_advisories(limit: int = 20) -> List[Dict[str, Any]]:
 
         items.append({
             "cve_id": cve_id,
-            "title": f"{cve_id} - {description[:60]}",
+            "title": f"{cve_id} - {summarize_title(strip_html_tags(description), 80)}",
             "description": f"[Red Hat] {description}. Bugzilla: {bugzilla}",
             "cvss_score": None,
             "severity": severity,
@@ -269,7 +269,7 @@ def fetch_redhat_advisories(limit: int = 20) -> List[Dict[str, Any]]:
             "source_tag": "RedHat",
             "platform": "linux",
         })
-    log_agent(AGENT_NAME, f"Red Hat fetched {len(items)}")
+    log_sync(SYNC_NAME, f"Red Hat fetched {len(items)}")
     return items
 
 
@@ -299,7 +299,7 @@ def fetch_ubuntu_notices(limit: int = 20) -> List[Dict[str, Any]]:
             "source_tag": "Ubuntu",
             "platform": "linux",
         })
-    log_agent(AGENT_NAME, f"Ubuntu fetched {len(items)}")
+    log_sync(SYNC_NAME, f"Ubuntu fetched {len(items)}")
     return items
 
 
@@ -329,7 +329,7 @@ def fetch_suse_security(limit: int = 15) -> List[Dict[str, Any]]:
             "source_tag": "SUSE",
             "platform": "linux",
         })
-    log_agent(AGENT_NAME, f"SUSE fetched {len(items)}")
+    log_sync(SYNC_NAME, f"SUSE fetched {len(items)}")
     return items
 
 
@@ -338,7 +338,7 @@ def fetch_arch_security() -> List[Dict[str, Any]]:
     url = "https://security.archlinux.org/issues.json"
     data = fetch_json(url, timeout=25)
     if not data or not isinstance(data, list):
-        log_agent(AGENT_NAME, "Arch Security returned no data")
+        log_sync(SYNC_NAME, "Arch Security returned no data")
         return []
 
     items = []
@@ -360,7 +360,7 @@ def fetch_arch_security() -> List[Dict[str, Any]]:
             "source_tag": "Arch",
             "platform": "linux",
         })
-    log_agent(AGENT_NAME, f"Arch fetched {len(items)}")
+    log_sync(SYNC_NAME, f"Arch fetched {len(items)}")
     return items
 
 
@@ -390,7 +390,7 @@ def fetch_gentoo_glsa(limit: int = 15) -> List[Dict[str, Any]]:
             "source_tag": "Gentoo",
             "platform": "linux",
         })
-    log_agent(AGENT_NAME, f"Gentoo fetched {len(items)}")
+    log_sync(SYNC_NAME, f"Gentoo fetched {len(items)}")
     return items
 
 
@@ -424,7 +424,7 @@ def fetch_apple_security(limit: int = 15) -> List[Dict[str, Any]]:
             "source_tag": "Apple",
             "platform": "macos",
         })
-    log_agent(AGENT_NAME, f"Apple fetched {len(items)}")
+    log_sync(SYNC_NAME, f"Apple fetched {len(items)}")
     return items
 
 
@@ -434,7 +434,7 @@ def fetch_osv_vulns(limit: int = 30) -> List[Dict[str, Any]]:
     items = []
     # OSV 需要逐个查询，这里简化处理，只测试 API 连通性
     # 实际使用需要完整的查询逻辑
-    log_agent(AGENT_NAME, f"OSV.dev API configured (to be implemented)")
+    log_sync(SYNC_NAME, f"OSV.dev API configured (to be implemented)")
     return items
 
 
@@ -463,7 +463,7 @@ def fetch_anquanke(limit: int = 15) -> List[Dict[str, Any]]:
             "last_modified": entry.get("updated", ""),
             "source_tag": "Anquanke",
         })
-    log_agent(AGENT_NAME, f"Anquanke fetched {len(items)}")
+    log_sync(SYNC_NAME, f"Anquanke fetched {len(items)}")
     return items
 
 
@@ -487,7 +487,7 @@ def fetch_kanxue(limit: int = 10) -> List[Dict[str, Any]]:
             "last_modified": entry.get("updated", ""),
             "source_tag": "Kanxue",
         })
-    log_agent(AGENT_NAME, f"Kanxue fetched {len(items)}")
+    log_sync(SYNC_NAME, f"Kanxue fetched {len(items)}")
     return items
 
 
@@ -511,7 +511,7 @@ def fetch_xianzhi(limit: int = 10) -> List[Dict[str, Any]]:
             "last_modified": entry.get("updated", ""),
             "source_tag": "Xianzhi",
         })
-    log_agent(AGENT_NAME, f"Xianzhi fetched {len(items)}")
+    log_sync(SYNC_NAME, f"Xianzhi fetched {len(items)}")
     return items
 
 
@@ -535,7 +535,7 @@ def fetch_sihou(limit: int = 10) -> List[Dict[str, Any]]:
             "last_modified": entry.get("updated", ""),
             "source_tag": "Sihou",
         })
-    log_agent(AGENT_NAME, f"Sihou fetched {len(items)}")
+    log_sync(SYNC_NAME, f"Sihou fetched {len(items)}")
     return items
 
 
@@ -575,7 +575,7 @@ def fetch_os_vulns_deep(os_name: str, min_items: int = 50, max_pages: int = 5) -
             batch = fn()
             all_items.extend(batch)
         except Exception as e:
-            log_agent(AGENT_NAME, f"Extra source error for {os_name}: {e}")
+            log_sync(SYNC_NAME, f"Extra source error for {os_name}: {e}")
 
     # 去重
     seen = set()
@@ -586,21 +586,21 @@ def fetch_os_vulns_deep(os_name: str, min_items: int = 50, max_pages: int = 5) -
             seen.add(key)
             unique.append(item)
 
-    log_agent(AGENT_NAME, f"Fetched {len(unique)} unique items for {os_name}")
+    log_sync(SYNC_NAME, f"Fetched {len(unique)} unique items for {os_name}")
     return unique
 
 
 def run():
     start_time = time.time()
-    log_agent(AGENT_NAME, "=" * 40)
-    log_agent(AGENT_NAME, "Starting OS-classified run (A+B deep-paging)")
+    log_sync(SYNC_NAME, "=" * 40)
+    log_sync(SYNC_NAME, "Starting OS-classified run (A+B deep-paging)")
 
     all_new = 0
     errors = []
     os_counts = {}
 
     for os_name in ["windows", "linux", "macos", "general"]:
-        log_agent(AGENT_NAME, f"Processing {os_name}...")
+        log_sync(SYNC_NAME, f"Processing {os_name}...")
         category = f"netsec-{os_name}"
         db_path = get_db_path(category)
         conn = init_sqlite_db(db_path)
@@ -610,17 +610,17 @@ def run():
             items = fetch_os_vulns_deep(os_name, min_items=MIN_ITEMS, max_pages=1)
         except Exception as e:
             errors.append(f"{os_name}-A: {e}")
-            log_agent(AGENT_NAME, f"{os_name} fetch-A error: {e}")
+            log_sync(SYNC_NAME, f"{os_name} fetch-A error: {e}")
             items = []
 
         # 写入 SQLite
         new_a = insert_entries_sqlite(conn, items, platform=os_name)
-        log_agent(AGENT_NAME, f"{os_name} Phase-A: fetched={len(items)}, new={new_a}")
+        log_sync(SYNC_NAME, f"{os_name} Phase-A: fetched={len(items)}, new={new_a}")
 
         # B 阶段：翻页深挖
         total_new = new_a
         if total_new < MIN_ITEMS:
-            log_agent(AGENT_NAME, f"{os_name} A-phase new ({total_new}) < {MIN_ITEMS}, start deep-paging")
+            log_sync(SYNC_NAME, f"{os_name} A-phase new ({total_new}) < {MIN_ITEMS}, start deep-paging")
             for page in range(1, MAX_DEEP_PAGES + 1):
                 if total_new >= MIN_ITEMS:
                     break
@@ -628,7 +628,7 @@ def run():
                     batch = fetch_os_vulns_deep(os_name, min_items=MIN_ITEMS * (page + 1), max_pages=page + 1)
                     batch_new = insert_entries_sqlite(conn, batch, platform=os_name)
                     total_new += batch_new
-                    log_agent(AGENT_NAME, f"{os_name} Phase-B page={page}: batch_new={batch_new}, total_new={total_new}")
+                    log_sync(SYNC_NAME, f"{os_name} Phase-B page={page}: batch_new={batch_new}, total_new={total_new}")
                 except Exception as e:
                     errors.append(f"{os_name}-B-{page}: {e}")
                     break
@@ -641,11 +641,11 @@ def run():
     elapsed = time.time() - start_time
     total_all = sum(os_counts.values())
     extra = f"各平台条目: Windows={os_counts.get('windows',0)}, Linux={os_counts.get('linux',0)}, macOS={os_counts.get('macos',0)}, General={os_counts.get('general',0)}"
-    send_agent_report(AGENT_NAME, all_new, total_all, errors, elapsed, extra)
+    send_sync_report(SYNC_NAME, all_new, total_all, errors, elapsed, extra)
 
-    report = write_report(AGENT_NAME, all_new, 0, errors)
-    log_agent(AGENT_NAME, f"Summary: new={all_new}, errors={len(errors)}")
-    log_agent(AGENT_NAME, "Run complete")
+    report = write_report(SYNC_NAME, all_new, total_all, errors)
+    log_sync(SYNC_NAME, f"Summary: new={all_new}, errors={len(errors)}")
+    log_sync(SYNC_NAME, "Run complete")
     return report
 
 

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 316**
+**总计条目 / Total entries: 602**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -24,7 +24,7 @@ As a button on the Performance tab in your Task Manager
 
 
 Go to the CPU tab
-In the Processes section, select all processes by clicking the checkbox next to &quot;Image&quot; in the headers.
+In the Processes section, select all processes by clicking the checkbox next to "Image" in the headers.
 Use the search field in the Associated Handles section
 
 See blue arrow in screen shot below
@@ -42,7 +42,7 @@ You can then try to close the application as you normally would, or, if that's n
 Tags: windows, hard-drive | Score: 1006 | Views: 531717 | Answers: 20
 
 **解决方案 / Solution**:
-Short Version: A: &amp; B: are reserved by floppy disk drives, so C: is used by hard drives for backwards compatibility reasons.
+Short Version: A: & B: are reserved by floppy disk drives, so C: is used by hard drives for backwards compatibility reasons.
 
 
 
@@ -73,7 +73,7 @@ Tags: windows-7, windows, command-line, environment-variables | Score: 833 | Vie
 **解决方案 / Solution**:
 In Windows Command-Prompt the syntax is echo %PATH%
 To get a list of all environment variables enter the command set without any parameters.
-To send those variables to a text file enter the command set &gt; filename.txt
+To send those variables to a text file enter the command set > filename.txt
 
 Related
 
@@ -148,7 +148,7 @@ Windows will nag you with Toasts, Action Center alerts and banners across your s
 
 ---
 
-#### 5. &quot;directory junction&quot; vs &quot;directory symbolic link&quot;?
+#### 5. "directory junction" vs "directory symbolic link"?
 
 **问题描述 / Problem Description**:
 Tags: windows, filesystems, ntfs, symbolic-link | Score: 609 | Views: 462513 | Answers: 3
@@ -236,15 +236,15 @@ Tags: windows-10, bash, windows-subsystem-for-linux | Score: 526 | Views: 149842
 
 **解决方案 / Solution**:
 In the latest versions [2025 WSL2], the file system is accessed from:
-# \\wsl.localhost\&lt;distro name&gt;
+# \\wsl.localhost\<distro name>
 shortcut:
-# \\wsl$\&lt;Distribution&gt;:
+# \\wsl$\<Distribution>:
 ex:
 \\wsl$\Ubuntu
 
 You can also find this path by starting the distro then running $ wslpath -w $HOME
 The files themselves seem to be stored within a .vhdx file in a similar location to 2020's solution.
-%LOCALAPPDATA%\wsl\&lt;a unique uuid&gt;\ext4.vhdx
+%LOCALAPPDATA%\wsl\<a unique uuid>\ext4.vhdx
 
 For older WSL2 installs [2020] it would be a file like:
 %LOCALAPPDATA%\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\ext4.vhdx
@@ -295,7 +295,7 @@ code is not running.
 
 
 Solution/Work-Around:#
-If you need to reclaim this space, your safest bet is to avoid &quot;deleting&quot; anything, but to instead, move this folder and all it's files.  You can safely do this following the instructions below to any local/live, online, near-line, or offline storage as long as that storage system that can be mounted to a drive letter or any mount point on the NTFS file system.  Any of the following will work:
+If you need to reclaim this space, your safest bet is to avoid "deleting" anything, but to instead, move this folder and all it's files.  You can safely do this following the instructions below to any local/live, online, near-line, or offline storage as long as that storage system that can be mounted to a drive letter or any mount point on the NTFS file system.  Any of the following will work:
 
 another live (mounted) partition
 an optical disc (CD, DVD, etc.) with a live filesystem like FAT, or NTFS
@@ -304,7 +304,7 @@ a USB drive
 a network drive
 
 Whenever you are prompted for the media/receive any errors about missing files/missing location, you simply make sure to remount/reinsert your drive/media if it's not already a live partition.
-Once moved, in order to &quot;link&quot; the old mount point/location (in most cases C:\ProgramData\Package Cache\), you simply create a directory junction to it.
+Once moved, in order to "link" the old mount point/location (in most cases C:\ProgramData\Package Cache\), you simply create a directory junction to it.
 Junctions are recognized at the file system level as an alias entry in the FSTAB.  Therefore, it's transparent to all programs, including the OS itself.  In other words, it is NOT seen as a file that simply points to another location (like a shortcut) and therefore always works without incident.
 
 You would move the folder(s) in question to its new location
@@ -318,7 +318,7 @@ Option 1. (natively): Just issue the built-in Windows Vista / 7 / 8 command and 
 
 NOTE:  If you make the newpath absolute, you'll be able to move link without breaking the pointer to the newpath. If you make the newpath relative, you'll be able prevent breaking the link, as long as you move BOTH the link and target TOGETHER and maintain their relative paths.
 
-Option 2. (using a tool):  Another GREAT alternative is a free handy utility I've been using for years called &quot;Link Shell Extension&quot;.  LSE is free and you can find it here (or Google for it): http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html
+Option 2. (using a tool):  Another GREAT alternative is a free handy utility I've been using for years called "Link Shell Extension".  LSE is free and you can find it here (or Google for it): http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html
 LSE allows you to create symlinks, hardlinks, junctions, smartcopies, smartclones, smart mirrors, smart moves, splices, multiple sources, and bunch of other stuff I found too confusing to read, frankly.  But, it's a brilliant free product that creates a Windows Explorer context menu that allows you right-click on your LINK-TARGET folder then drag it to where you'd like to create the actual link. You can of course rename the link to anything you'd like.
 
 ---
@@ -347,7 +347,7 @@ PE  d†
 A word of warning: using default Notepad on big files can be very slow, so better not use it for files larger than a megabyte or a few. In my case, it took about 30 seconds to display a 12 MiB file. Notepad++, however, was able to display a 120 MiB executable almost instantly.
 This is solution might be useful in case you need to inspect a file on a machine you can't install any additional software on.
 Additional info:
-If you have a HEX-Editor available, the location of PE Signature is located at offset 0x3C. The signature is PE\0\0 (letters &quot;P&quot; and &quot;E&quot; followed by two null bytes), followed by a two-byte Machine Type in Little Endian.
+If you have a HEX-Editor available, the location of PE Signature is located at offset 0x3C. The signature is PE\0\0 (letters "P" and "E" followed by two null bytes), followed by a two-byte Machine Type in Little Endian.
 The signature is usually further ahead in MZ files.
 The relevant values are 0x8664 for a 64-bit executable and 0x014c for a 32-bit one (64 86 and 4c 01 respectively when adjusted for endianness, but any decent hex editor will automatically handle endianness when you search for a hex value). There are a lot more possible values, but you probably won't ever encounter any of these, or be able to run such executables on your Windows PC.
 Full list of machine types, along with the rest of .exe specifications, can be found in Microsoft PE and COFF Specification Machine Types section.
@@ -364,11 +364,11 @@ To create/rename on windows explorer, just rename to .name. - The additional dot
 
 To create a new file begins with a dot, on command prompt:
 
-echo testing &gt; .name
+echo testing > .name
 
 ---
 
-#### 12. Is there any &#39;sudo&#39; command for Windows?
+#### 12. Is there any 'sudo' command for Windows?
 
 **问题描述 / Problem Description**:
 Tags: windows, command-line, privileges | Score: 518 | Views: 916657 | Answers: 19
@@ -405,7 +405,7 @@ You should then enter the telnet console, where you can enter quit to leave teln
 
 ---
 
-#### 14. Windows SSH: Permissions for &#39;private-key&#39; are too open
+#### 14. Windows SSH: Permissions for 'private-key' are too open
 
 **问题描述 / Problem Description**:
 Tags: windows, ssh, permissions, openssh, private-key | Score: 498 | Views: 1047404 | Answers: 18
@@ -479,12 +479,12 @@ Nastier, in that it won't just show ads, install a toolbar, or use your computer
 
 Put these two factors together, and it's no longer worthwhile to even attempt to remove malware from an installed operating system. I used to be very good at removing this stuff, to the point where I made a significant part of my living that way, and I no longer even make the attempt. I'm not saying it can't be done, but I am saying that the cost/benefit and risk analysis results have changed: it's just not worth it anymore. There's too much at stake, and it's too easy to get results that only seem to be effective.
 Lots of people will disagree with me on this, but I challenge they are not weighing consequences of failure strongly enough. Are you willing to wager your life savings, your good credit, even your identity, that you're better at this than crooks who make millions doing it every day?  If you try to remove malware and then keep running the old system, that's exactly what you're doing.
-I know there are people out there reading this thinking, &quot;Hey, I've removed several infections from various machines and nothing bad ever happened.&quot; Me too, friend. Me too. In days past I have cleaned my share of infected systems. Nevertheless, I suggest we now need to add &quot;yet&quot; to the end of that statement. You might be 99% effective, but you only have to be wrong one time, and the consequences of failure are much higher than they once were; the cost of just one failure can easily outweigh all of the other successes. You might even have a machine already out there that still has a ticking time bomb inside, just waiting to be activated or to collect the right information before reporting it back. Even if you have a 100% effective process now, this stuff changes all the time. Remember: you have to be perfect every time; the bad guys only have to get lucky once.
+I know there are people out there reading this thinking, "Hey, I've removed several infections from various machines and nothing bad ever happened." Me too, friend. Me too. In days past I have cleaned my share of infected systems. Nevertheless, I suggest we now need to add "yet" to the end of that statement. You might be 99% effective, but you only have to be wrong one time, and the consequences of failure are much higher than they once were; the cost of just one failure can easily outweigh all of the other successes. You might even have a machine already out there that still has a ticking time bomb inside, just waiting to be activated or to collect the right information before reporting it back. Even if you have a 100% effective process now, this stuff changes all the time. Remember: you have to be perfect every time; the bad guys only have to get lucky once.
 In summary, it's unfortunate, but if you have a confirmed malware infection, a complete re-pave of the computer should be the first place you turn instead of the last.
 
 Here's how to accomplish that:
 Before you're infected, make sure you have a way to re-install any purchased software, including the operating system, that does not depend on anything stored on your internal hard disk. For this purpose, that normally just means hanging onto cd/dvds or product keys, but the operating system may require you to create recovery disks yourself.1 Don't rely on a recovery partition for this. If you wait until after an infection to ensure you have what you need to re-install, you may find yourself paying for the same software again. With the rise of ransomware, it's also extremely important to take regular backups of your data (plus, you know, regular non-malicious things like hard drive failure).
-When you suspect you have malware, look to other answers here. There are a lot of good tools suggested. My only issue is the best way to use them: I only rely on them for the detection. Install and run the tool, but as soon as it finds evidence of a real infection (more than just &quot;tracking cookies&quot;) just stop the scan: the tool has done its job and confirmed your infection.2
+When you suspect you have malware, look to other answers here. There are a lot of good tools suggested. My only issue is the best way to use them: I only rely on them for the detection. Install and run the tool, but as soon as it finds evidence of a real infection (more than just "tracking cookies") just stop the scan: the tool has done its job and confirmed your infection.2
 At the time of a confirmed infection, take the following steps:
 
 Check your credit and bank accounts. By the time you find out about the infection, real damage may have already been done. Take any steps necessary to secure your cards, bank account, and identity.
@@ -511,15 +511,15 @@ Under no circumstances should you try to clean an infected operating system usin
 
 Of course, the best way to fix an infection is to avoid it in the first place, and there are some things you can do to help with that:
 
-Keep your system patched. Make sure you promptly install Windows Updates, Adobe Updates, Java Updates, Apple Updates, etc. This is far more important even than anti-virus software, and for the most part it's not that hard, as long as you keep current. Most of those companies have informally settled on all releasing new patches on the same day each month, so if you keep current it doesn't interrupt you that often. Forced Windows Update reboots typically only happen when you ignore the notices for too long. If this happens to you often, it's on you to change your behavior. These are important, and it's not okay to continually just choose the &quot;install later&quot; option, even if it's easier in the moment.
+Keep your system patched. Make sure you promptly install Windows Updates, Adobe Updates, Java Updates, Apple Updates, etc. This is far more important even than anti-virus software, and for the most part it's not that hard, as long as you keep current. Most of those companies have informally settled on all releasing new patches on the same day each month, so if you keep current it doesn't interrupt you that often. Forced Windows Update reboots typically only happen when you ignore the notices for too long. If this happens to you often, it's on you to change your behavior. These are important, and it's not okay to continually just choose the "install later" option, even if it's easier in the moment.
 
 Do not run as administrator by default. In recent versions of Windows, it's as simple as leaving the UAC feature turned on. Keeping an second administrator account distinct from your normal day to day account is even better.
 
 Use a good firewall tool. These days the default firewall in Windows is actually good enough. You may want to supplement this layer with something like WinPatrol that helps stop malicious activity on the front end. Windows Defender works in this capacity to some extent as well. Basic Ad-Blocker browser plugins are also becoming increasingly useful at this level as a security tool.
 
-Set most browser plug-ins (especially Flash and Java) to &quot;Ask to Activate&quot;.
+Set most browser plug-ins (especially Flash and Java) to "Ask to Activate".
 
-Run current anti-virus software. This is a distant fifth to the other options, as traditional A/V software often just isn't that effective anymore. It's also important to emphasize the &quot;current&quot;. You could have the best antivirus software in the world, but if it's not up to date, you may just as well uninstall it.
+Run current anti-virus software. This is a distant fifth to the other options, as traditional A/V software often just isn't that effective anymore. It's also important to emphasize the "current". You could have the best antivirus software in the world, but if it's not up to date, you may just as well uninstall it.
 For this reason, I currently recommend Microsoft Defender. There are likely far better scanning engines out there, but Microsoft Defender is built into Windows and will keep itself up to date via the normal Windows Update mechanism, without ever risking an expired registration. AVG and Avast also work well in this way. I just can't recommend any anti-virus software you have to actually pay for, because it's just far too common a paid subscription lapses and you end up with out-of-date definitions.
 It's also worth noting here that Mac users now need to run antivirus software, too. The days when they could get away without it are long gone. As an aside, I think it's hilarious I now must recommend Mac users buy anti-virus software, but advise Windows users against it.
 
@@ -531,7 +531,7 @@ Also, prefer to download the software and updates/upgrades directly from vendor 
 
 
 1 Microsoft now publishes the Windows 10 install media so you can legally download and write to an 8GB or larger flash drive for free. You still need a valid license, but you don't need a separate recovery disk for the basic operating system any more.
-2 This is a good time to point out I have softened my approach somewhat. Today, most &quot;infections&quot; fall under the category of PUPs (Potentially Unwanted Programs) and browser extensions included with other downloads. Often these PUPs/extensions can safely be removed through traditional means, and they are now a large enough percentage of malware that I may stop at this point and simply try the Add/Remove Programs feature or normal browser option to remove an extension. However, at the first sign of something deeper — any hint the software won't just uninstall normally — and it's back to repaving the machine.
+2 This is a good time to point out I have softened my approach somewhat. Today, most "infections" fall under the category of PUPs (Potentially Unwanted Programs) and browser extensions included with other downloads. Often these PUPs/extensions can safely be removed through traditional means, and they are now a large enough percentage of malware that I may stop at this point and simply try the Add/Remove Programs feature or normal browser option to remove an extension. However, at the first sign of something deeper — any hint the software won't just uninstall normally — and it's back to repaving the machine.
 
 ---
 
@@ -551,17 +551,17 @@ Log in by using another administrative account.
 Note. You may need to create a new Administrative account at first.
 
 Go to the C:\users\ folder and rename the subfolder with the original user name to the new user name.
-Go to the registry and modify the registry value ProfileImagePath to the new path name.HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList\&lt;User SID&gt;\
+Go to the registry and modify the registry value ProfileImagePath to the new path name.HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList\<User SID>\
 
 
 That's it!
 The procedure quoted above was provided by Microsoft (here) in relation to a perceived issue with Windows 7, and continues to work in Windows 10.
 
 Notes
-&lt;User SID&gt;
+<User SID>
 The ProfileList registry key contains a number of sub-keys. To find out which one to change, click on each sub-key and examine the values, to find the sub-key with the right ProfileImagePath:
 
-For example, let's say we want to get rid of the space in a user profile folder name. So in step 2, we use File Explorer to navigate to C:\Users and rename the John Smith subfolder JohnSmith. And in step 3, we click on the &lt;User SID&gt; sub-keys until we find the one with ProfileImagePath C:\Users\John Smith, and change it to C:\Users\JohnSmith.
+For example, let's say we want to get rid of the space in a user profile folder name. So in step 2, we use File Explorer to navigate to C:\Users and rename the John Smith subfolder JohnSmith. And in step 3, we click on the <User SID> sub-keys until we find the one with ProfileImagePath C:\Users\John Smith, and change it to C:\Users\JohnSmith.
 Administrative login
 You may find you have to restart instead of just logging out and logging back in. Otherwise, when you try to rename the folder, Windows may report that it is being used by another program.
 Environment variables (info)
@@ -575,7 +575,7 @@ Some applications create env vars with the user profile path fully expanded, so 
 Tags: windows-10, windows-subsystem-for-linux | Score: 453 | Views: 990460 | Answers: 9
 
 **解决方案 / Solution**:
-You cannot reboot a distro with a single command. You must shut down and boot up the distro with two commands. If you run wsl.exe instead of wsl, then it works both in WSL Bash &amp; CMD.
+You cannot reboot a distro with a single command. You must shut down and boot up the distro with two commands. If you run wsl.exe instead of wsl, then it works both in WSL Bash & CMD.
 View the list of distros and their current state:
 wsl.exe -l -v
 
@@ -583,13 +583,13 @@ Shutdown everything: Build 18917+
 wsl.exe --shutdown
 
 Terminate a specific distro: Windows 1903+
-wsl.exe -t &lt;DistroName&gt;
+wsl.exe -t <DistroName>
 
 Boot up the default distro (marked with *):
 wsl.exe
 
 Boot up a specific distro:
-wsl.exe -d &lt;DistroName&gt;
+wsl.exe -d <DistroName>
 
 
 Older versions
@@ -638,10 +638,10 @@ From the Wikipedia article (emphasis mine):
 
 In computing, type is a command in various VMS. AmigaDOS, CP/M, DOS, OS/2 and Microsoft Windows command line interpreters (shells) such as COMMAND.COM, cmd.exe, 4DOS/4NT and Windows PowerShell. It is used to display the contents of specified files. It is analogous to the Unix cat command.
 
-C:\&gt;echo hi &gt; a.txt
-C:\&gt;echo bye &gt; b.txt
-C:\&gt;type a.txt b.txt &gt; c.txt
-C:\&gt;type c.txt
+C:\>echo hi > a.txt
+C:\>echo bye > b.txt
+C:\>type a.txt b.txt > c.txt
+C:\>type c.txt
 hi
 bye
 
@@ -657,11 +657,11 @@ Tried killing all running processes on my PC till the problem went away and I ca
 Microsoft Paint
 (classic Win32 one)
 Apparently it's got a feature that allows moving the mouse pointer using arrow keys, and for some reason sometimes it doesn't stop listening when the window loses focus, so Paint was running in the background since I often use it and it was still doing its job of moving the mouse.
-This also explains why the problem can persist after a reboot: when you reboot Windows while Paint is running, Windows will automatically &quot;save your work&quot; and reopen Paint at system boot, causing the bug again!
+This also explains why the problem can persist after a reboot: when you reboot Windows while Paint is running, Windows will automatically "save your work" and reopen Paint at system boot, causing the bug again!
 
 ---
 
-#### 24. How to disable the &quot;Get Windows 10&quot; icon shown in the notification area (tray)?
+#### 24. How to disable the "Get Windows 10" icon shown in the notification area (tray)?
 
 **问题描述 / Problem Description**:
 Tags: windows, windows-10-upgrade | Score: 394 | Views: 552674 | Answers: 14
@@ -669,7 +669,7 @@ Tags: windows, windows-10-upgrade | Score: 394 | Views: 552674 | Answers: 14
 **解决方案 / Solution**:
 If you just want to remove the tray icon until the next restart you can terminate the GWX.exe process using Task Manager.
 To get rid of the icon permanently, uninstall KB3035583 which is responsible for these notifications:
-Control panel, windows update, installed updates, sort by name, &quot;Update for Microsoft Windows KB3035583&quot; (not a Security Update), uninstall, reboot.
+Control panel, windows update, installed updates, sort by name, "Update for Microsoft Windows KB3035583" (not a Security Update), uninstall, reboot.
 (Alternative: open CMD and enter wusa /uninstall /KB:3035583)
 When you're offered the same again via Windows Update remember to hide it.
 After uninstalling, if remnants of the update's files are still in Windows\System32\GWX, just delete that directory, although first you may need to take ownership of it.
@@ -737,7 +737,7 @@ rmdir c:\test /s /q
 Tags: windows, filesystems, ext4 | Score: 377 | Views: 1033426 | Answers: 12
 
 **解决方案 / Solution**:
-Ext2Read works well. It can also open &amp; read disk images ( eg: Wubi disk images)
+Ext2Read works well. It can also open & read disk images ( eg: Wubi disk images)
 
 
   Ext2Read is an explorer like utility
@@ -773,10 +773,10 @@ wget http://blog.stackexchange.com/ -UseBasicParsing -OutFile out.html
 
 Prior to Sep 20 2014, I suggested
 
-(wget http://blog.stackexchange.com/).Content &gt;out.html
+(wget http://blog.stackexchange.com/).Content >out.html
 
 
-as an answer.  However, this doesn't work in all cases, as the &gt; operator (which is an alias for Out-File) converts the input to Unicode.
+as an answer.  However, this doesn't work in all cases, as the > operator (which is an alias for Out-File) converts the input to Unicode.
 
 
 If you are using Windows 7, you will need to install version 4 or newer of the Windows Management Framework.
@@ -797,8 +797,8 @@ If you keep pressing CTRL+SHIFT (or whatever you might have changed it to) then 
 
 (Updated Aug 2019) You can change/disable this by
 
-&gt; Settings &gt; search for 'typing' &gt; Advanced keyboard settings &gt; Language
-&gt; Bar options &gt; Advanced Key Settings (tab) &gt; Change Key Sequence
+> Settings > search for 'typing' > Advanced keyboard settings > Language
+> Bar options > Advanced Key Settings (tab) > Change Key Sequence
 
 
 Be warned, the above doesn't always work - Restarts and Sleep mode can both change keyboard default (usually to US) - I've found no cast-iron solution though creating a new profile can help, though not a particularly satisfactory answer IMHO.
@@ -867,7 +867,7 @@ Lazy tech-bloggers would have you believe this is the end of your search. While 
 Thanks to StackExchange user olee22 for the image.
 On Windows 10, it is strongly recommended you fix this setting for all power profiles, not just the one you have chosen to use. Various Windows faculties will use different profiles; this improves your chances of not being woken up.
 Step 2: Disable the unruly reboot scheduled task
-Windows 10's UpdateOrchestrator scheduled task folder contains a task called &quot;reboot&quot;. This task will wake your computer up to install updates regardless of whether or not any are available. Simply removing its permission to wake the computer is not sufficient; Windows will just edit it to give itself permission again after you leave the Task Scheduler.
+Windows 10's UpdateOrchestrator scheduled task folder contains a task called "reboot". This task will wake your computer up to install updates regardless of whether or not any are available. Simply removing its permission to wake the computer is not sufficient; Windows will just edit it to give itself permission again after you leave the Task Scheduler.
 From your Control Panel, enter Administrative Tools, then view your Task Scheduler.
 
 
@@ -941,7 +941,7 @@ WinDirStat is a port of KDirStat for Linux. It's free, lightweight, small (650kb
 
 ---
 
-#### 35. Equivalent of cmd&#39;s &quot;where&quot; in powershell
+#### 35. Equivalent of cmd's "where" in powershell
 
 **问题描述 / Problem Description**:
 Tags: windows, powershell | Score: 318 | Views: 257705 | Answers: 6
@@ -949,7 +949,7 @@ Tags: windows, powershell | Score: 318 | Views: 257705 | Answers: 6
 **解决方案 / Solution**:
 Use the Get-Command commandlet passing it the name of the executable. It populates the Path property of the returned object (of type ApplicationInfo) with the fully resolved path to the executable. 
 
-# ~&gt; (get-command notepad.exe).Path
+# ~> (get-command notepad.exe).Path
 C:\WINDOWS\system32\notepad.exe
 
 ---
@@ -1022,7 +1022,7 @@ Control - Displays Control Panel
 Dcomcnfg - DCOM user security
 Debug - Assembly language programming tool
 Defrag - Defragmentation tool
-Drwatson - Records programs crash &amp; snapshots
+Drwatson - Records programs crash & snapshots
 Dxdiag - DirectX Diagnostic Utility
 Explorer - Windows Explorer
 Fontview - Graphical font viewer
@@ -1074,7 +1074,7 @@ dfrg.msc - Defragment
 diskmgmt.msc - Disk Management
 fsmgmt.msc - Folder Sharing Management
 eventvwr.msc - Event Viewer
-gpedit.msc - Group Policy (&lt; XP Pro)
+gpedit.msc - Group Policy (< XP Pro)
 iis.msc - Internet Information Services
 lusrmgr.msc - Local Users and Groups
 mscorcfg.msc - Net configurations
@@ -1198,7 +1198,7 @@ Further resource: Delete Windows 10 Apps and Restore Default Windows 10 Apps
 
 ---
 
-#### 39. Using cd command in Windows command line, can&#39;t navigate to D:\
+#### 39. Using cd command in Windows command line, can't navigate to D:\
 
 **问题描述 / Problem Description**:
 Tags: windows, command-line, path, cd | Score: 311 | Views: 1488445 | Answers: 9
@@ -1213,15 +1213,15 @@ D:
 
 Here you can see how the "separate current directory for each drive" thing works:
 
-C:\Users\coneslayer&gt;e:
+C:\Users\coneslayer>e:
 
-E:\&gt;c:
+E:\>c:
 
-C:\Users\coneslayer&gt;cd e:\software
+C:\Users\coneslayer>cd e:\software
 
-C:\Users\coneslayer&gt;e:
+C:\Users\coneslayer>e:
 
-e:\Software&gt;
+e:\Software>
 
 ---
 
@@ -1314,7 +1314,7 @@ Tags: windows, notepad++, text-editors | Score: 295 | Views: 247822 | Answers: 6
 **解决方案 / Solution**:
 You can disable the confirmation in the settings:
 
-Settings -&gt; Preferences -&gt; MISC. -&gt; Update silently
+Settings -> Preferences -> MISC. -> Update silently
 
 ---
 
@@ -1326,11 +1326,11 @@ Tags: windows, windows-8, powershell, powershell-3.0 | Score: 293 | Views: 42004
 **解决方案 / Solution**:
 Using the append redirector ">>" resolves the issue where an existing file is deleted:
 
-echo $null &gt;&gt; filename
+echo $null >> filename
 
 ---
 
-#### 45. How do I make Windows 10&#39;s File Explorer open &quot;This PC&quot; by default?
+#### 45. How do I make Windows 10's File Explorer open "This PC" by default?
 
 **问题描述 / Problem Description**:
 Tags: windows, windows-10, windows-explorer, windows-10-preview | Score: 291 | Views: 256077 | Answers: 5
@@ -1365,18 +1365,18 @@ START /B program
 
 which, on Windows, is the closest to the Linux command:
 
-program &amp;
+program &
 
 
 From the console HELP system:
 
-C:\&gt;HELP START
+C:\>HELP START
 
 Starts a separate window to run a specified program or command.
 
 START ["title"] [/D path] [/I] [/MIN] [/MAX] [/SEPARATE | /SHARED]
       [/LOW | /NORMAL | /HIGH | /REALTIME | /ABOVENORMAL | /BELOWNORMAL]
-      [/NODE &lt;NUMA node&gt;] [/AFFINITY &lt;hex affinity mask&gt;] [/WAIT] [/B]
+      [/NODE <NUMA node>] [/AFFINITY <hex affinity mask>] [/WAIT] [/B]
       [command/program] [parameters]
 
     "title"     Title to display in window title bar.
@@ -1391,7 +1391,7 @@ One problem I saw with it is that  you have more than one program writing to the
 
 To make it not interact with the user, you can redirect the output to a file:
 
-START /B program &gt; somefile.txt
+START /B program > somefile.txt
 
 ---
 
@@ -1493,25 +1493,25 @@ Tags: windows, command-line | Score: 259 | Views: 243680 | Answers: 11
 **解决方案 / Solution**:
 The where command does what you want and goes back at least to the resource kit for Windows 98, and is included by default in Server 2003, Vista, and newer:
 
-C:\&gt;where csc
+C:\>where csc
 C:\Windows\Microsoft.NET\Framework\v3.5\csc.exe
 C:\Windows\Microsoft.NET\Framework\v2.0.50727\csc.exe
 
 
 If executed with no arguments (on Vista), it results in one of my favorite messages:
 
-C:\&gt;where
+C:\>where
 ERROR: The operation completed successfully.
 
 
 If executing in PowerShell, be sure to include '.exe' to distinguish from any 'where' aliases or scripts along the path. ('where' is a typical alias for Where-Object.ps1)
 
-C:\&gt; where.exe where.exe
+C:\> where.exe where.exe
 C:\Windows\System32\where.exe
 
 ---
 
-#### 53. Windows equivalent of the Linux command &#39;touch&#39;?
+#### 53. Windows equivalent of the Linux command 'touch'?
 
 **问题描述 / Problem Description**:
 Tags: windows, file-attributes, touch | Score: 257 | Views: 532320 | Answers: 32
@@ -1580,7 +1580,7 @@ Check this video for a demo.
 
 ---
 
-#### 56. Kill a process which says &quot;Access denied&quot;
+#### 56. Kill a process which says "Access denied"
 
 **问题描述 / Problem Description**:
 Tags: windows-7, windows, 64-bit | Score: 251 | Views: 1111843 | Answers: 11
@@ -1594,14 +1594,14 @@ Works on Windows Server without admin rights! Yammie! :)
 
 ---
 
-#### 57. Troubleshoot High CPU usage by the &quot;System&quot; process
+#### 57. Troubleshoot High CPU usage by the "System" process
 
 **问题描述 / Problem Description**:
 Tags: windows, windows-8, performance, troubleshooting, cpu-usage | Score: 243 | Views: 753727 | Answers: 6
 
 **解决方案 / Solution**:
 Introduction
-High CPU usage by the &quot;System&quot; process can often be caused by a hardware driver issue (bug, old version, incompatility etc).
+High CPU usage by the "System" process can often be caused by a hardware driver issue (bug, old version, incompatility etc).
 The System process loads (or hosts) multiple hardware drivers from different vendors that require higher level of memory access.   This is why diagnosing the specific culprit can require a bit of detective work as described below.
 Diagnosing the issue
 To diagnose the CPU usage issues, you should use Event Tracing for Windows (ETW) to capture CPU Sampling data / Profile.
@@ -1642,7 +1642,7 @@ When you see those ntoskrnl.exe!RtlpGenericRandomPatternWorker, ntoskrnl.exe!Rtl
 
 the CPU usage comes from the Kernel to test memory for issues (memtest). This usage is triggered via the idle maintenance task of Windows 8.1/10. You can use Task Scheduler to disable the idle task.
 
-In Windows 10, the task is called RunFullMemoryDiagnostics under Microsoft &gt; Windows &gt; MemoryDiagnostic &gt; RunFullMemoryDiagnostic.
+In Windows 10, the task is called RunFullMemoryDiagnostics under Microsoft > Windows > MemoryDiagnostic > RunFullMemoryDiagnostic.
 
 
 In this case, the CPU usage seems to come from the Data Deduplication Feature (dedup.sys!DdpPostCreate) of Windows Server:
@@ -1732,7 +1732,7 @@ change jumper on HDD caddy if you have replaced the DVD/Blue-Ray Drive with a Ca
 
 disable some devices as advised by this user
 if you use an Intel chipset, try to install Intel Rapid storage Technology (RST) to replace the standard AHCI driver from Windows. This also seems to helped.
-the user Shayna figured out, that using Process Hacker (started as admin) to suspend the threads of the ACPI.sys issues &quot;fixes&quot; the issue for him. So try his workaround if all other steps don't fix it for you.
+the user Shayna figured out, that using Process Hacker (started as admin) to suspend the threads of the ACPI.sys issues "fixes" the issue for him. So try his workaround if all other steps don't fix it for you.
 
 
 In the following demo, the Intel HD driver igdkmd64.sys in version .4574 for the Intel HD 630 causes the issue:
@@ -1776,7 +1776,7 @@ Note: After seeing lots of comments about setting environment variables without 
 PowerShell method
 You can list all environment variables with: Get-ChildItem Env:.
 To get the value of a specific variable: $Env:PATH, where PATH is the name of the variable.
-To set a variable: [Environment]::SetEnvironmentVariable(&quot;PATH&quot;, &quot;C:\TestPath&quot;, &quot;User&quot;), the first parameter is the name of the variable, the second is the value, the third is the level of.
+To set a variable: [Environment]::SetEnvironmentVariable("PATH", "C:\TestPath", "User"), the first parameter is the name of the variable, the second is the value, the third is the level of.
 There are different ways to work with environment variables and certain quirks with them in PowerShell so consult the link for details.
 Old method (no longer available in newer Windows 10 updates, use PowerShell or see other answers)
 Go into Settings and click on System.
@@ -1789,7 +1789,7 @@ Now in the new window that comes up, select Environment Variables... at the bott
 
 ---
 
-#### 59. How to supress &quot;Terminate batch job (Y/N)&quot; confirmation?
+#### 59. How to supress "Terminate batch job (Y/N)" confirmation?
 
 **问题描述 / Problem Description**:
 Tags: windows, command-line, batch | Score: 236 | Views: 199305 | Answers: 21
@@ -1797,7 +1797,7 @@ Tags: windows, command-line, batch | Score: 236 | Views: 199305 | Answers: 21
 **解决方案 / Solution**:
 At this site, I found an effective solution:
 
-script2.cmd &lt; nul
+script2.cmd < nul
 
 
 To not have to type this out every time I made a second script called script.cmd in the same folder with the line above.  I've tested this technique on XP only, but others have confirmed it on Win 7.
@@ -1809,8 +1809,8 @@ if "%~1"=="-FIXED_CTRL_C" (
    REM Remove the -FIXED_CTRL_C parameter
    SHIFT
 ) ELSE (
-   REM Run the batch with &lt;NUL and -FIXED_CTRL_C
-   CALL &lt;NUL %0 -FIXED_CTRL_C %*
+   REM Run the batch with <NUL and -FIXED_CTRL_C
+   CALL <NUL %0 -FIXED_CTRL_C %*
    GOTO :EOF
 )
 
@@ -1845,7 +1845,7 @@ Tags: windows, subst | Score: 232 | Views: 287015 | Answers: 11
 **解决方案 / Solution**:
 Well Wikipedia mentions:
 
-C:\&gt;SUBST /?
+C:\>SUBST /?
 Associates a path with a drive letter.
 
 SUBST [drive1: [drive2:]path]
@@ -1871,7 +1871,7 @@ registry:
 REGEDIT4 
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\DOS Devices] 
-&quot;Z:&quot;=&quot;\\??\\C:\\Documents and Settings\\All Users\\Shared Documents&quot;
+"Z:"="\\??\\C:\\Documents and Settings\\All Users\\Shared Documents"
 
 It is enough to create a text file with the extension .REG and run
 it. When the next starting up of a system, the virtual disk will be
@@ -1882,7 +1882,7 @@ In Windows, you can run the registry editor as follows:
 
 Start » Run... (or hit Win+R)
 Type: regedit
-In Windows Vista and above, UAC will pop up, click &quot;Yes&quot;.
+In Windows Vista and above, UAC will pop up, click "Yes".
 
 ---
 
@@ -1914,22 +1914,22 @@ Tags: windows, command-line, network-drive, unc | Score: 230 | Views: 521023 | A
 
 **解决方案 / Solution**:
 If you use pushd and popd instead of cd you won't get that UNC error.
-pushd &lt;UNC path&gt; will create a temporary virtual drive and get into it.
+pushd <UNC path> will create a temporary virtual drive and get into it.
 popd will delete the temporary drive and get you back to the path you were when you entered pushd.
 Example:
-C:\a\local\path&gt; pushd \\network_host\a\network\path
+C:\a\local\path> pushd \\network_host\a\network\path
 
-U:\a\network\path&gt; REM a temporary U: virtual drive has been created
+U:\a\network\path> REM a temporary U: virtual drive has been created
 
-U:\a\network\path&gt; popd
+U:\a\network\path> popd
 
-C:\a\local\path&gt; REM the U: drive has been deleted
+C:\a\local\path> REM the U: drive has been deleted
 
-C:\a\local\path&gt;
+C:\a\local\path>
 
 ---
 
-#### 64. How do I know what proxy server I&#39;m using?
+#### 64. How do I know what proxy server I'm using?
 
 **问题描述 / Problem Description**:
 Tags: windows, windows-xp, networking, proxy | Score: 229 | Views: 1026134 | Answers: 15
@@ -1949,14 +1949,14 @@ You should see a Primary DNS Suffix and a DNS Suffix Search List
 
 Try appending each of these with a . to wpad:
 
-ping wpad.&lt;primary dns suffix&gt;
+ping wpad.<primary dns suffix>
 
 
-If any of these work, then in your browser enter http://wpad.&lt;suffix&gt;/wpad.dat.  This will download the proxy auto configuration file you can open in notepad.exe
+If any of these work, then in your browser enter http://wpad.<suffix>/wpad.dat.  This will download the proxy auto configuration file you can open in notepad.exe
 
 Toward the bottom of this file, you should see a line saying 
 
-PROXY &lt;host:port&gt;;
+PROXY <host:port>;
 
 
 It might be repeated if you have multiple proxies available.  The host and port are what you need.
@@ -2004,9 +2004,9 @@ I am running the latest 1903 update.
 Tags: windows, windows-10, boot | Score: 228 | Views: 347803 | Answers: 7
 
 **解决方案 / Solution**:
-Good news! It has been somewhat &quot;fixed.&quot;
+Good news! It has been somewhat "fixed."
 I was interested in clickbangdead's solution, but unfortunately I could not make it work no matter what I tried. Then I went back to the Microsoft Answers thread where he originally posted his solution, because maybe someone could have found a new solution in the subsequent pages. And voilà, indeed. Navigate to the following location:
-Settings &gt; Accounts &gt; Sign-In Options
+Settings > Accounts > Sign-In Options
 Scroll down to Privacy on the right and then set the following to Off:
 
 Use my sign-in info to automatically finish setting up my device after an update or restart.
@@ -2014,7 +2014,7 @@ Use my sign-in info to automatically finish setting up my device after an update
 
 I was skeptical, because that doesn't seem like it has much to do with reopening my Google Chrome upon restart, but I tested and it (finally) works!
 
-Update:  with the release of Windows 10 version 1803 (the April 2018 Update), Microsoft modified the wording within that Privacy option to emphasize that it will &quot;reopen my apps&quot; if it is configured to be On.
+Update:  with the release of Windows 10 version 1803 (the April 2018 Update), Microsoft modified the wording within that Privacy option to emphasize that it will "reopen my apps" if it is configured to be On.
 
 Use my sign-in info to automatically finish setting up my device and reopen my apps after an update or restart.
 
@@ -2028,9 +2028,9 @@ Tags: windows-7, windows, encoding, console | Score: 226 | Views: 563116 | Answe
 **解决方案 / Solution**:
 To change the codepage for the console only, do the following:
 
-Start -&gt; Run -&gt; regedit
+Start -> Run -> regedit
 Go to [HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\Autorun]
-Change the value to @chcp 65001&gt;nul
+Change the value to @chcp 65001>nul
 
 If Autorun is not present, you can add a New String
 
@@ -2075,13 +2075,13 @@ To use this, save it in a text file and change the extension from .txt to .reg. 
 
 ---
 
-#### 70. Disable &quot;These files might be harmful to your computer&quot; warning?
+#### 70. Disable "These files might be harmful to your computer" warning?
 
 **问题描述 / Problem Description**:
 Tags: windows, networking, windows-explorer | Score: 223 | Views: 365744 | Answers: 14
 
 **解决方案 / Solution**:
-I found a fix by changing &quot;internet options&quot; -- so I guess Windows is detecting the &quot;internet&quot; as my own network.. sigh.
+I found a fix by changing "internet options" -- so I guess Windows is detecting the "internet" as my own network.. sigh.
 
 Click Start / Control Panel / Internet Options
 Click Security tab.
@@ -2093,7 +2093,7 @@ Click Close, then OK, then OK again.
 Disconnect, and reconnect the network drive
 
 
-This worked for me, but it's a bummer I have to manually enter IPs here.. it would be nice if Windows could detect this is a local network file copy and skip the irritating (and pointless) warning about &quot;dangerous&quot; files.
+This worked for me, but it's a bummer I have to manually enter IPs here.. it would be nice if Windows could detect this is a local network file copy and skip the irritating (and pointless) warning about "dangerous" files.
 Sidenotes:
 
 If you are using a DNS name (i.e. FQDN) to map the network drive, adding the IP address of the server to the zone will not work. You will need to add the DNS name (i.e. FQDN), and vice-versa.
@@ -2214,15 +2214,15 @@ DllMain(
   ) {
   switch( ul_reason_for_call ) {
     case DLL_PROCESS_ATTACH:
-      Mhook_SetHook( (PVOID*)&amp;OriginalFlashWindow,         HookedFlashWindow );
-      Mhook_SetHook( (PVOID*)&amp;OriginalFlashWindowEx,       HookedFlashWindowEx );
-      Mhook_SetHook( (PVOID*)&amp;OriginalSetForegroundWindow, HookedSetForegroundWindow );
+      Mhook_SetHook( (PVOID*)&OriginalFlashWindow,         HookedFlashWindow );
+      Mhook_SetHook( (PVOID*)&OriginalFlashWindowEx,       HookedFlashWindowEx );
+      Mhook_SetHook( (PVOID*)&OriginalSetForegroundWindow, HookedSetForegroundWindow );
       break;
 
     case DLL_PROCESS_DETACH:
-      Mhook_Unhook( (PVOID*)&amp;OriginalFlashWindow );
-      Mhook_Unhook( (PVOID*)&amp;OriginalFlashWindowEx );
-      Mhook_Unhook( (PVOID*)&amp;OriginalSetForegroundWindow );
+      Mhook_Unhook( (PVOID*)&OriginalFlashWindow );
+      Mhook_Unhook( (PVOID*)&OriginalFlashWindowEx );
+      Mhook_Unhook( (PVOID*)&OriginalSetForegroundWindow );
       break;
   }
   return TRUE;
@@ -2237,7 +2237,7 @@ In addition to the DLL injection problem, there is also a focus-stealing method 
 
 ---
 
-#### 73. Why are there directories called Local, LocalLow, and Roaming under \Users\&lt;username&gt;\AppData?
+#### 73. Why are there directories called Local, LocalLow, and Roaming under \Users\<username>\AppData?
 
 **问题描述 / Problem Description**:
 Tags: windows, thunderbird, user-profiles | Score: 213 | Views: 134967 | Answers: 3
@@ -2246,7 +2246,7 @@ Tags: windows, thunderbird, user-profiles | Score: 213 | Views: 134967 | Answers
 Roaming is the folder that would be synchronized with a server if you logged into a domain with a roaming profile (enabling you to log into any computer in a domain and access your favorites, documents, etc. Firefox stores its information here, so you could even have the same bookmarks between computers with a roaming profile.
 Local is the folder that is specific to that computer - any information here would not be synchronized with a server. This folder is equivalent in Windows XP to C:\Documents and Settings\User\Local Settings\Application Data.
 LocalLow is the same folder as local, but it has a lower integrity level. For example, Internet Explorer 8 can only write to the LocalLow folder (when protected mode is on).
-This document from Microsoft (&quot;Managing Roaming User Data Deployment Guide&quot;) has a long explanation for what these three folder areas are and how they are used, as well as the changes implemented between Windows XP and Vista (Windows 7 retains the Vista structure).
+This document from Microsoft ("Managing Roaming User Data Deployment Guide") has a long explanation for what these three folder areas are and how they are used, as well as the changes implemented between Windows XP and Vista (Windows 7 retains the Vista structure).
 
 ---
 
@@ -2261,13 +2261,13 @@ The Windows 10 spring update no longer lets you disable web search in Start - wo
 is required in Windows 10 version 1803 :
 Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search]
-&quot;BingSearchEnabled&quot;=dword:00000000
-&quot;AllowSearchToUseLocation&quot;=dword:00000000
-&quot;CortanaConsent&quot;=dword:00000000
+"BingSearchEnabled"=dword:00000000
+"AllowSearchToUseLocation"=dword:00000000
+"CortanaConsent"=dword:00000000
 
 It remarks :
 
-those entries are completely missing from the &quot;Search&quot; registry key, so you can safely delete them should you want to revert.
+those entries are completely missing from the "Search" registry key, so you can safely delete them should you want to revert.
 
 I would still recommend to at least create a system restore point before doing
 any registry modifications.
@@ -2366,10 +2366,10 @@ So how do I create junctions or directory symbolic links in Windows 10?
 Download junction as instructed above.
 Now you can use the following commands.
 Create a junction:
-junction &quot;C:\Documents and Settings\UserName\My Documents\My Dropbox\My Games&quot; &quot;C:\Documents and Settings\UserName\My Documents\My Games&quot;
+junction "C:\Documents and Settings\UserName\My Documents\My Dropbox\My Games" "C:\Documents and Settings\UserName\My Documents\My Games"
 
 Create a directory symbolic link:
-mklink /D &quot;C:\Documents and Settings\UserName\My Documents\My Dropbox\My Games&quot; &quot;C:\Documents and Settings\UserName\My Documents\My Games&quot;
+mklink /D "C:\Documents and Settings\UserName\My Documents\My Dropbox\My Games" "C:\Documents and Settings\UserName\My Documents\My Games"
 
 You can use either mklink /j or junction in Windows 10 and upwards to create junctions.
 You can use mklink /d in Windows 10 and upwards to create directory symbolic links.
@@ -2380,7 +2380,7 @@ junction can also list junctions and determine if a file is a junction unlike mk
 mklink is an internal command only available within a cmd shell.
 
 By default Administrator privileges are required to create symbolic links.
-It can also be granted to other users. The security setting &quot;Create symbolic links&quot; can be granted at:
+It can also be granted to other users. The security setting "Create symbolic links" can be granted at:
   Configuration\Windows Settings\Security Settings\Local Policies\User Rights Assignment\
 
 
@@ -2388,15 +2388,15 @@ It can also be granted to other users. The security setting &quot;Create symboli
 
 Examples
 Using mklink to create a directory symbolic link:
-F:\test&gt;mklink /d test-dir-sym-link test
-symbolic link created for test-dir-sym-link &lt;&lt;===&gt;&gt; test
+F:\test>mklink /d test-dir-sym-link test
+symbolic link created for test-dir-sym-link <<===>> test
 
 Using mklink to create a junction:
-F:\test&gt;mklink /j test-junction test
-Junction created for test-junction &lt;&lt;===&gt;&gt; test
+F:\test>mklink /j test-junction test
+Junction created for test-junction <<===>> test
 
 Using junction to create a junction:
-F:\test&gt;C:\apps\NirSoft\SysinternalsSuite\junction.exe test-junction test
+F:\test>C:\apps\NirSoft\SysinternalsSuite\junction.exe test-junction test
 
 Junction v1.06 - Windows junction creator and reparse point viewer
 Copyright (C) 2000-2010 Mark Russinovich
@@ -2413,7 +2413,7 @@ mklink - Create a symbolic link to a directory or a file, or create a hard file 
 
 ---
 
-#### 78. &quot;This file came from another computer...&quot; - how can I unblock all the files in a folder without having to unblock them individually?
+#### 78. "This file came from another computer..." - how can I unblock all the files in a folder without having to unblock them individually?
 
 **问题描述 / Problem Description**:
 Tags: windows, security, ntfs | Score: 209 | Views: 301626 | Answers: 15
@@ -2433,7 +2433,7 @@ Tags: windows, command-line, ssh, text-editors | Score: 209 | Views: 1380568 | A
 **解决方案 / Solution**:
 The simplest solution on all versions of Windows is:
 
-C:\&gt; notepad somefile.txt
+C:\> notepad somefile.txt
 
 
 And, no extra software required.
@@ -2484,8 +2484,8 @@ Tags: windows, security, certificate, client-certificate | Score: 206 | Views: 4
 Some options to view PFX file details:
 
 
-Open a command prompt and type: certutil -dump &lt;path to cert&gt;
-Install OpenSSL and use the commands to view the details, such as: openssl pkcs12 -info -in &lt;path to cert&gt;
+Open a command prompt and type: certutil -dump <path to cert>
+Install OpenSSL and use the commands to view the details, such as: openssl pkcs12 -info -in <path to cert>
 
 ---
 
@@ -2507,7 +2507,7 @@ Therefore, my Documents folder is at /mnt/c/Users/Ben/Documents/.
 Tags: windows, software-rec, screen-capture, animated-gif | Score: 201 | Views: 161751 | Answers: 10
 
 **解决方案 / Solution**:
-I've been using licecap in various Super&nbsp;User answers. It's dead simple to use as you can see from this animated GIF image - just extend it over your recording area, hit record, set a save file, do your thing and hit stop. It's free, works pretty well, and seems simpler than most of the alternatives. It's entirely free and has Windows and OS X ports.
+I've been using licecap in various Super User answers. It's dead simple to use as you can see from this animated GIF image - just extend it over your recording area, hit record, set a save file, do your thing and hit stop. It's free, works pretty well, and seems simpler than most of the alternatives. It's entirely free and has Windows and OS X ports.
 
 
 
@@ -2515,7 +2515,7 @@ On Windows 8.1 and hdpi displays, you'll need to turn off per app display scalin
 
 ---
 
-#### 84. Windows 10 Search can&#39;t find ANY applications. Even calculator
+#### 84. Windows 10 Search can't find ANY applications. Even calculator
 
 **问题描述 / Problem Description**:
 Tags: windows, search, windows-10 | Score: 201 | Views: 390409 | Answers: 13
@@ -2567,7 +2567,7 @@ More about this at http://technet.microsoft.com/en-us/library/bb878117.aspx
 
 ---
 
-#### 86. Why is &#39;ping&#39; unable to resolve a name when &#39;nslookup&#39; works fine?
+#### 86. Why is 'ping' unable to resolve a name when 'nslookup' works fine?
 
 **问题描述 / Problem Description**:
 Tags: windows, networking, dns | Score: 200 | Views: 453478 | Answers: 24
@@ -2584,7 +2584,7 @@ Flush routing table : route /f
 
 ---
 
-#### 87. Hyper-V VM won&#39;t boot from Cd, error: &quot;unsigned image&#39;s hash is not allowed&quot;
+#### 87. Hyper-V VM won't boot from Cd, error: "unsigned image's hash is not allowed"
 
 **问题描述 / Problem Description**:
 Tags: windows-10, hyper-v, bootable-media | Score: 200 | Views: 169855 | Answers: 5
@@ -2612,8 +2612,8 @@ I also ran into this issue since July 2019 on a Windows 10 1903 acting as the cl
 
 Start an elevated command prompt (run cmd.exe as administrator), and
 then run:
-reg add &quot;HKLM\software\policies\microsoft\windows nt\Terminal
-Services\Client&quot; /v fClientDisableUDP /d 1 /t REG_DWORD
+reg add "HKLM\software\policies\microsoft\windows nt\Terminal
+Services\Client" /v fClientDisableUDP /d 1 /t REG_DWORD
 
 After that, close and reopen all your RDP sessions on your client computer to restart the Remote Desktop Client (mstsc.exe, aka Microsoft Terminal Services Client) application.
 I'm waiting for a final fix to this issue.
@@ -2632,7 +2632,7 @@ Is there a way to disable the telemetry through some setting(s)?
 Some telemetry can be disabled through settings.
 
 This can be done manually.
-There are also 3rd-party utilities such as Windows 10 Privacy Fixer and O&amp;O ShutUp10 which fix these settings in Windows 10.
+There are also 3rd-party utilities such as Windows 10 Privacy Fixer and O&O ShutUp10 which fix these settings in Windows 10.
 
 Is it necessary to dig up which update patches are involved in the data gathering, and remove those?
 
@@ -2648,7 +2648,7 @@ Disabling CEIP and the  related Task Scheduler tasks that control this program c
 
 
 
-Start &quot;Control Panel&quot; &gt; &quot;Action Center&quot; &gt; &quot;Change Action Center settings&quot;.
+Start "Control Panel" > "Action Center" > "Change Action Center settings".
 
 
 
@@ -2656,7 +2656,7 @@ Start &quot;Control Panel&quot; &gt; &quot;Action Center&quot; &gt; &quot;Change
 
 
 
-Click &quot;Customer Experience Improvement Program settings&quot;.
+Click "Customer Experience Improvement Program settings".
 
 
 
@@ -2664,7 +2664,7 @@ Click &quot;Customer Experience Improvement Program settings&quot;.
 
 
 
-Select &quot;No, I don't want to participate in the program&quot; then click &quot;Save changes&quot;.
+Select "No, I don't want to participate in the program" then click "Save changes".
 
 
 
@@ -2672,15 +2672,15 @@ Select &quot;No, I don't want to participate in the program&quot; then click &qu
 
 
 
-Start &gt; &quot;Control Panel&quot; &gt; &quot;Administrative Tools&quot; &gt; &quot;Task Scheduler&quot;.
+Start > "Control Panel" > "Administrative Tools" > "Task Scheduler".
 
-In the Task Scheduler (Local) pane of the Task Scheduler dialog box,  expand &quot;Task Scheduler Library&quot; &gt; &quot;Microsoft&quot; &gt; &quot;Windows&quot; and open  the &quot;Application Experience&quot; folder.
+In the Task Scheduler (Local) pane of the Task Scheduler dialog box,  expand "Task Scheduler Library" > "Microsoft" > "Windows" and open  the "Application Experience" folder.
 
-Disable the &quot;AITAgent&quot; and &quot;ProgramDataUpdater&quot; tasks.
+Disable the "AITAgent" and "ProgramDataUpdater" tasks.
 
-In &quot;Task Scheduler Library&quot; &gt; &quot;Microsoft&quot; &gt; &quot;Windows&quot;, open the  &quot;Customer Experience Improvement Program&quot; folder.
+In "Task Scheduler Library" > "Microsoft" > "Windows", open the  "Customer Experience Improvement Program" folder.
 
-Disable the &quot;Consolidator&quot;, &quot;KernelCeipTask&quot;, and &quot;UsbCeip&quot; tasks.
+Disable the "Consolidator", "KernelCeipTask", and "UsbCeip" tasks.
 
 
 
@@ -2801,32 +2801,32 @@ sc stop DiagTrack
 sc stop dmwappushservice
 sc delete DiagTrack
 sc delete dmwappushservice
-echo &quot;&quot; &gt; C:\ProgramData\Microsoft\Diagnosis\ETLLogs\AutoLogger\AutoLogger-Diagtrack-Listener.etl
+echo "" > C:\ProgramData\Microsoft\Diagnosis\ETLLogs\AutoLogger\AutoLogger-Diagtrack-Listener.etl
 
 
 
 
-Open the Task Scheduler (Win key then type &quot;sched&quot;). Under Task Scheduler Library -&gt; Microsoft -&gt; Windows delete the following items:
+Open the Task Scheduler (Win key then type "sched"). Under Task Scheduler Library -> Microsoft -> Windows delete the following items:
 
 
-Everything under &quot;Application Experience&quot;
+Everything under "Application Experience"
 
-Everything under &quot;Autochk&quot;
+Everything under "Autochk"
 
-Everything under &quot;Customer Experience Improvement Program&quot;
+Everything under "Customer Experience Improvement Program"
 
-Under &quot;Disk Diagnostic&quot; delete only the &quot;Microsoft-Windows-DiskDiagnosticDataCollector&quot;
+Under "Disk Diagnostic" delete only the "Microsoft-Windows-DiskDiagnosticDataCollector"
 
-Under &quot;Maintenance&quot; &quot;WinSAT&quot; &quot;Media Center&quot; and click the &quot;status&quot; column, then select all non-disabled entries and disable them.
+Under "Maintenance" "WinSAT" "Media Center" and click the "status" column, then select all non-disabled entries and disable them.
 
-Now you can reboot. When you open Windows Update again it will ask to install whichever updates above were removed. Right-click on each one and select &quot;hide&quot;.
-
-
-
+Now you can reboot. When you open Windows Update again it will ask to install whichever updates above were removed. Right-click on each one and select "hide".
 
 
 
-Finally, log in to your broadband router and look for an option like &quot;content filtering&quot; or &quot;block sites&quot;.
+
+
+
+Finally, log in to your broadband router and look for an option like "content filtering" or "block sites".
 
 
 
@@ -2896,9 +2896,9 @@ Windows 10 Privacy Fixer provides a privacy check with options to fix a number o
 
 
 Source Windows 10 Privacy Fixer.
-O&amp;O ShutUp10
+O&O ShutUp10
 
-O&amp;O ShutUp10 is a tiny portable tool which makes it easy to tweak
+O&O ShutUp10 is a tiny portable tool which makes it easy to tweak
 Windows 10's many privacy settings.
 Launching the program displays almost 50 options, organised into
 various categories: Security (telemetry, wifi sense, DRM), Privacy
@@ -2911,19 +2911,19 @@ telemetry, peer-to-peer updates, keep Windows Update and SmartScreen),
 turn off everything, or tweak individual settings.
 ShutUp10 offers to create a system restore point before it makes any
 changes, useful if your tweaking breaks something important and you
-need an &quot;undo&quot;.
+need an "undo".
 There's also a separate option to restore Windows 10's default privacy
 settings, which might also be handy if they're generally messed up and
 you'd like to start again.
 
-Source O&amp;O ShutUp10.
+Source O&O ShutUp10.
 
 
 
 Image source Windows 10 Is Watching: Should You Be Worried?
 
 Disclaimer
-I am not affiliated with 10 Privacy Fixer or O&amp;O ShutUp10.
+I am not affiliated with 10 Privacy Fixer or O&O ShutUp10.
 
 ---
 
@@ -3018,7 +3018,7 @@ If Windows Media Player is still installed, you can play a video on loop and min
 
 ---
 
-#### 94. How do I delete a folder that&#39;s in use?
+#### 94. How do I delete a folder that's in use?
 
 **问题描述 / Problem Description**:
 Tags: windows, file-management | Score: 191 | Views: 655536 | Answers: 18
@@ -3071,21 +3071,21 @@ Tags: windows, command-line, batch-file | Score: 189 | Views: 809378 | Answers: 
 **解决方案 / Solution**:
 Solution 1:
 Save this one line of text as file invisible.vbs:
-CreateObject(&quot;Wscript.Shell&quot;).Run &quot;&quot;&quot;&quot; &amp; WScript.Arguments(0) &amp; &quot;&quot;&quot;&quot;, 0, False
+CreateObject("Wscript.Shell").Run """" & WScript.Arguments(0) & """", 0, False
 
 To run any program or batch file invisibly, use it like this:
-wscript.exe &quot;C:\Wherever\invisible.vbs&quot; &quot;C:\Some Other Place\MyBatchFile.bat&quot;
+wscript.exe "C:\Wherever\invisible.vbs" "C:\Some Other Place\MyBatchFile.bat"
 
 To also be able to pass-on/relay a list of arguments use only two double quotes
-CreateObject(&quot;Wscript.Shell&quot;).Run &quot;&quot; &amp; WScript.Arguments(0) &amp; &quot;&quot;, 0, False
+CreateObject("Wscript.Shell").Run "" & WScript.Arguments(0) & "", 0, False
 
-Example: Invisible.vbs &quot;Kill.vbs ME.exe&quot;
+Example: Invisible.vbs "Kill.vbs ME.exe"
 Solution 2:
 Use a command line tool to silently launch a process : Quiet, hidecon or hideexec.
 
 ---
 
-#### 97. Apostrophes and double quotes don&#39;t show up until I type the next letter
+#### 97. Apostrophes and double quotes don't show up until I type the next letter
 
 **问题描述 / Problem Description**:
 Tags: windows, windows-xp, keyboard | Score: 188 | Views: 407550 | Answers: 12
@@ -3103,7 +3103,7 @@ AT THIS POINT MAKE SURE YOU ARE USING "English (United Kingdom) - US" as the def
 
 ---
 
-#### 98. Why does 64-bit Windows need a separate &quot;Program Files (x86)&quot; folder?
+#### 98. Why does 64-bit Windows need a separate "Program Files (x86)" folder?
 
 **问题描述 / Problem Description**:
 Tags: windows, 64-bit | Score: 184 | Views: 106592 | Answers: 11
@@ -3125,7 +3125,7 @@ The simplest solution to this is consistently separate directories. Really the o
 Tags: windows, disk-space, winsxs | Score: 183 | Views: 128714 | Answers: 12
 
 **解决方案 / Solution**:
-There is a nice command that cleans up after a Windows 7 SP1 installation (it saved me around 3&nbsp;GB):
+There is a nice command that cleans up after a Windows 7 SP1 installation (it saved me around 3 GB):
 
 DISM /online /cleanup-Image /spsuperseded
 
@@ -3145,7 +3145,7 @@ DriveImage XML will do the job.  It runs from within Windows and it can copy dir
 
 
 DriveImage XML is an easy to use and reliable program for imaging and backing up partitions and logical drives.
-Image creation uses Microsoft's Volume Shadow Services (VSS), allowing you to create safe &quot;hot images&quot; even from drives currently in use. Images are stored in XML files, allowing you to process them with 3rd party tools. Never again be stuck with a useless backup! Restore images to drives without having to reboot. DriveImage XML is now faster than ever, offering two different compression levels.
+Image creation uses Microsoft's Volume Shadow Services (VSS), allowing you to create safe "hot images" even from drives currently in use. Images are stored in XML files, allowing you to process them with 3rd party tools. Never again be stuck with a useless backup! Restore images to drives without having to reboot. DriveImage XML is now faster than ever, offering two different compression levels.
 
 
 EASEUS Disk Copy
@@ -3217,7 +3217,7 @@ There is also NotMyFault
 
 ---
 
-#### 103. How can I clear the output from Window&#39;s Command Prompt using a keyboard shortcut?
+#### 103. How can I clear the output from Window's Command Prompt using a keyboard shortcut?
 
 **问题描述 / Problem Description**:
 Tags: windows, command-line, keyboard-shortcuts | Score: 179 | Views: 692160 | Answers: 3
@@ -3228,7 +3228,7 @@ In addition, pressing Ctrl + C will move the cursor to a new blank line.
 
 ---
 
-#### 104. What is the purpose/function of &quot;.&#223;&#223;&#223;&quot; files?
+#### 104. What is the purpose/function of ".ßßß" files?
 
 **问题描述 / Problem Description**:
 Tags: windows, file-transfer | Score: 177 | Views: 22594 | Answers: 1
@@ -3238,10 +3238,10 @@ Most likely these aren't actual files but the result of filesystem corruption.
 
 
 It is normally not possible to have multiple identically named files.
-Their names (ßßßßßßßß.ßßß) correspond to hexadecimal bytes E1 E1 E1&hellip; in code page 437 (which was the default MS-DOS code page, and therefore the default FAT/FAT32 code page when long file names aren't in use).
+Their names (ßßßßßßßß.ßßß) correspond to hexadecimal bytes E1 E1 E1… in code page 437 (which was the default MS-DOS code page, and therefore the default FAT/FAT32 code page when long file names aren't in use).
 (The character is not the Greek beta but the German lowercase sharp S. The dot isn't actually stored in the FAT, but added by the OS when reading, so it doesn't get corrupted.)
-Their sizes are close to 3&thinsp;789&thinsp;677&thinsp;025 bytes, which is again 0xE1&thinsp;E1&thinsp;E1&thinsp;E1 in hex.
-(That's approximately 3&thinsp;700&thinsp;856.469 kilobytes; Windows probably rounds up.)
+Their sizes are close to 3 789 677 025 bytes, which is again 0xE1 E1 E1 E1 in hex.
+(That's approximately 3 700 856.469 kilobytes; Windows probably rounds up.)
 
 
 All signs point to part of your filesystem's master file table being filled with the byte 0xE1, which may be caused by software (such as unplugging mid-write),  but may also indicate that the flash memory itself is dying.
@@ -3260,7 +3260,7 @@ Tags: windows, keyboard-shortcuts, keyboard-layout | Score: 177 | Views: 393524 
 **解决方案 / Solution**:
 You were very close to the solution of your problem ;)
 In Windows XP, Vista or 7:
-Control Panel -&gt; Regional and Language Options -&gt; Languages tab -&gt; Details...
+Control Panel -> Regional and Language Options -> Languages tab -> Details...
 There, you can edit the hotkeys to change input languages. If you press the Change Key Sequence... button, you will be able to change (disable) the hotkey which switches keyboard layouts (that Ctrl+Shift combination you mentioned).
 
 ---
@@ -3357,7 +3357,7 @@ To remove a keyboard under Windows 10 is done this way :
 Method 1 : Settings
 
 Select the Start button
-Go to Settings &gt; Time &amp; Language &gt; Region &amp; language
+Go to Settings > Time & Language > Region & language
 Under Languages, click your language
 
 Click Options
@@ -3386,7 +3386,7 @@ Delete the key.
 
 Update January 2022:
 The language settings are now found in
-Settings &gt; Time &amp; Language &gt; Language.
+Settings > Time & Language > Language.
 
 ---
 
@@ -3423,8 +3423,8 @@ There is also the older (but still useful) and more light-weight Path Editor. (N
 Tags: windows-10, windows-subsystem-for-linux, disk-space, wsl2, ubuntu-20.04 | Score: 173 | Views: 338315 | Answers: 10
 
 **解决方案 / Solution**:
-There are a few options here, but I'm moving things around in this edit. My &quot;original&quot; answer is back to being the preferred method.  See the bottom of this answer for an alternative, experimental method.
-&quot;Original&quot; Answer (Preferred)
+There are a few options here, but I'm moving things around in this edit. My "original" answer is back to being the preferred method.  See the bottom of this answer for an alternative, experimental method.
+"Original" Answer (Preferred)
 There's a WSL Github issue open on this topic.  WSL will automatically grow the virtual disk (ext4.vhdx), but shrinking it to reclaim unused space is something that must currently be done manually.
 The first thing you'll need to do is know the location of your ext4.vhdx.  For a default Ubuntu installation, it should be in something like %USERPROFILE%\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\
 Then there are several techniques that you can use to remove the unused space.  I recommend you start with a wsl --shutdown and copy the vhdx as a backup to start.  If you are running Docker Desktop, also shut it down, otherwise it may inadvertently attempt to restart WSL after your --shutdown.
@@ -3440,11 +3440,11 @@ Exporting the WSL distro and re-importing it into a new WSL instance (as in this
 I have tested and confirmed both the second and third techniques personally.
 
 Alternative (Warning)
-The following feature remains in &quot;Experimental&quot; status a year after its appearance, and while I'm sure it works well for many, too many users continue to report corruption of their WSL Distributions and sometimes even the Windows host filesystem when using it.
+The following feature remains in "Experimental" status a year after its appearance, and while I'm sure it works well for many, too many users continue to report corruption of their WSL Distributions and sometimes even the Windows host filesystem when using it.
 Thanks to comments from @MarkCh and @willnode, I've edited the answer to both move this method under the original answer as well as highlight this warning.
-In September, 2023, a pre-release of WSL (2.0.0) enabled a new &quot;sparse&quot; mode for disk images which is intended to automatically shrink the image when files are removed. (Especially given the warning above) Always maintain good backups, especially when using newer features that affect the entire virtual drive. I have not tested this personally yet.
+In September, 2023, a pre-release of WSL (2.0.0) enabled a new "sparse" mode for disk images which is intended to automatically shrink the image when files are removed. (Especially given the warning above) Always maintain good backups, especially when using newer features that affect the entire virtual drive. I have not tested this personally yet.
 While that said, from the DevBlog announcement, you can convert an existing disk image to sparse with the following command from PowerShell:
-wsl --manage &lt;distro&gt; --set-sparse true
+wsl --manage <distro> --set-sparse true
 
 You can also add the following to your .wslconfig (located in your Windows profile directory, not inside WSL) to have any newly created distro image be sparse:
 [experimental]
@@ -3452,7 +3452,7 @@ sparseVhd=true
 
 ---
 
-#### 113. How to run a batch file without launching a &quot;command window&quot;?
+#### 113. How to run a batch file without launching a "command window"?
 
 **问题描述 / Problem Description**:
 Tags: windows, command-line, batch-file, shortcuts | Score: 172 | Views: 638958 | Answers: 9
@@ -3508,24 +3508,24 @@ Tags: windows, windows-10, display, multiple-monitors, visual-studio | Score: 17
 A similar case on Microsoft Community mentioned a workaround, have a try.
 
 
-Start Control Panel --&gt; Device Manager
-Select View --&gt; Show hidden devices
-Expand Computer --&gt; Monitors*
+Start Control Panel --> Device Manager
+Select View --> Show hidden devices
+Expand Computer --> Monitors*
 
-When you expand the Monitors you will see your current monitor (highlighted) and all the disconnected monitors (greyed out).   You may see monitors with &quot;non-PNP&quot; and &quot;PNP&quot; listed as well.  I believe these are aliases to your current monitor (at a lower resolution) before Windows installed drivers for it.
+When you expand the Monitors you will see your current monitor (highlighted) and all the disconnected monitors (greyed out).   You may see monitors with "non-PNP" and "PNP" listed as well.  I believe these are aliases to your current monitor (at a lower resolution) before Windows installed drivers for it.
 I uninstalled ALL the greyed out monitors.  Right-click on these monitors and select uninstall.  Keep only the highlighted monitor you are currently using.
 
 Uninstall all greyed out monitors (even non-PNP and PNP monitors)
 Reboot your system.
 
 After doing this my windows don't resize after my monitor goes to sleep.  You can quickly test this by temporarily setting your monitor sleep time to 1 minute.
-Settings --&gt; System --&gt; Power &amp; Sleep --&gt; Screen [1 minute]
+Settings --> System --> Power & Sleep --> Screen [1 minute]
 
 Source: https://answers.microsoft.com/en-us/windows/forum/windows_10-hardware-winpc/windows-10-multiple-display-windows-are-moved-and/2b9d5a18-45cc-4c50-b16e-fd95dbf27ff3
 
 ---
 
-#### 117. What is a &quot;Magic Packet&quot; for waking a computer?
+#### 117. What is a "Magic Packet" for waking a computer?
 
 **问题描述 / Problem Description**:
 Tags: windows, networking, wireless-networking, wake-on-lan | Score: 168 | Views: 129708 | Answers: 2
@@ -3567,7 +3567,7 @@ One possible way is to use the Visual Studio tool Spy++.
 Give this a try:
 
 Run the tool (for me, it's at C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\Tools\spyxx_amd64.exe, or use spyxx.exe to monitor 32-bit processes)
-In the menu bar, select Spy -&gt; Log messages... (or hit Ctrl + M)
+In the menu bar, select Spy -> Log messages... (or hit Ctrl + M)
 Check All Windows in System in the Additional Windows frame
 Switch to the Messages tab
 Click the Clear All button
@@ -3590,8 +3590,8 @@ Tags: windows, windows-10, multiple-monitors, keyboard-shortcuts | Score: 168 | 
 **解决方案 / Solution**:
 I solved it by unchecking the box which you can see in the following screenshot.
 
-Go to Control Panel &gt; Ease of Access Center &gt; Make the Keyboard Easier to Use
-Then search for the setting &quot;Make it easier to manage windows&quot; and un-check the option &quot;Prevent windows from being automatically arranged when moved to the edge of the screen&quot;
+Go to Control Panel > Ease of Access Center > Make the Keyboard Easier to Use
+Then search for the setting "Make it easier to manage windows" and un-check the option "Prevent windows from being automatically arranged when moved to the edge of the screen"
 After unchecking this option, it works again.
 
 ---
@@ -3611,14 +3611,14 @@ Finally, I found the XML file in my profile:
 
 The items were listed here in this section:
 
-  &lt;/DefaultLayoutOverride&gt;
-    &lt;CustomTaskbarLayoutCollection PinListPlacement="Replace"&gt;
-    &lt;defaultlayout:TaskbarLayout&gt;
-      &lt;taskbar:TaskbarPinList&gt;
+  </DefaultLayoutOverride>
+    <CustomTaskbarLayoutCollection PinListPlacement="Replace">
+    <defaultlayout:TaskbarLayout>
+      <taskbar:TaskbarPinList>
 -- items were here - removed
-      &lt;/taskbar:TaskbarPinList&gt;
-    &lt;/defaultlayout:TaskbarLayout&gt;
-  &lt;/CustomTaskbarLayoutCollection&gt;
+      </taskbar:TaskbarPinList>
+    </defaultlayout:TaskbarLayout>
+  </CustomTaskbarLayoutCollection>
 
 
 Maybe this will help someone.
@@ -3636,8 +3636,8 @@ Size on disk is the actual amount of space being taken up on the disk. They diff
 For a more detailed explanation, see this text which I copied from another site:
 
 We know that a disk is made up of Tracks and Sectors. In Windows that
-means the OS allocates space for files in &quot;clusters&quot; or &quot;allocation
-units&quot;.
+means the OS allocates space for files in "clusters" or "allocation
+units".
 The size of a cluster can vary, but typical ranges are from 512 bytes
 to 32K or more. For example, on my C:\ drive, the allocation unit is
 4096 bytes. This means that Windows will allocate 4096 bytes for any
@@ -3696,10 +3696,10 @@ Windows Registry Editor Version 5.00
 @="Run without privilege elevation"
 
 [HKEY_CLASSES_ROOT\*\shell\forcerunasinvoker\command]
-@="cmd /min /C \"set __COMPAT_LAYER=RUNASINVOKER &amp;&amp; start \"\" \"%1\"\""
+@="cmd /min /C \"set __COMPAT_LAYER=RUNASINVOKER && start \"\" \"%1\"\""
 
 
-Save this text in &lt;name_of_file&gt;.reg and add it to the Windows Registry. (Double-clicking on it should do the trick.)
+Save this text in <name_of_file>.reg and add it to the Windows Registry. (Double-clicking on it should do the trick.)
 
 Afterwards, right-click the app you'd like to run without administrative privileges and select "Run without privilege elevation".
 
@@ -3751,7 +3751,7 @@ en-us because 100% of primary development on Windows is done in
 Redmond.
 Running non-US locales on insider builds, especially in Skip Ahead and
 Fast Ring, are only shipped with en-US and Pseudoloc'd locales. OP is
-definitely using en-UK (&quot;programme&quot;) which means that a large number
+definitely using en-UK ("programme") which means that a large number
 of strings are probably pseudoloc'd. This helps identify non-localized
 strings
 it's weird enough that it won't make it into retail through an
@@ -3814,11 +3814,11 @@ Path 2 -
 Note: TranscodedWallpaper does not have a file extension, even though it is a JPEG image file.
 To view the image in a imager viewer,
 
-Right click on the file and use &quot;Open With&quot; option
+Right click on the file and use "Open With" option
 (or)
 select the image and press Enter
-This will bring up the &quot;Select an app to open...&quot; or &quot;How do you want to open this file?&quot; dialogue box.
-Any popular image viewer should work - such as the &quot;Windows Photo Viewer&quot; (built-in), Microsoft Photos app, PicView, qView, etc..
+This will bring up the "Select an app to open..." or "How do you want to open this file?" dialogue box.
+Any popular image viewer should work - such as the "Windows Photo Viewer" (built-in), Microsoft Photos app, PicView, qView, etc..
 
 Alternatively, drag and drop the file into a Firefox tab or mspaint window to view/edit.
 Note for Windows 10/11: The above wallpaper paths comes with limitations.
@@ -3828,10 +3828,10 @@ Path 3: Default Windows wallpapers -
 %SystemRoot%\Web
 Check in one of the below folders  -
 
-&quot;4K&quot; for 4K wallpapers
-&quot;Screen&quot; for lock screen backgrounds
-&quot;touchkeyboard&quot; for colorful abstract backdrops in Windows 11 [2]
-&quot;Wallpapers&quot; for default Windows wallpapers
+"4K" for 4K wallpapers
+"Screen" for lock screen backgrounds
+"touchkeyboard" for colorful abstract backdrops in Windows 11 [2]
+"Wallpapers" for default Windows wallpapers
 
 
 Path 4: Wallpapers from installed themes (Aero, etc.) -
@@ -3852,7 +3852,7 @@ Key Name: HKEY_CURRENT_USER\Control Panel\Desktop
 Value Name: TranscodedImageCache
 Windows Slideshow -
 
-Manually set wallpaper - e.g., right click on image file and select &quot;Set as desktop background&quot;
+Manually set wallpaper - e.g., right click on image file and select "Set as desktop background"
 
 
 Script 1 - VBScript
@@ -3864,28 +3864,28 @@ Open Notepad to save below code in a .vbs file and run it.
 Only ASCII compatible.
 Read the warning written below the code for more information.
 The contents of .vbs file - [5]
-Const HKCU = &amp;H80000001 'HKEY_CURRENT_USER
+Const HKCU = &H80000001 'HKEY_CURRENT_USER
 
-sComputer = &quot;.&quot;  
+sComputer = "."  
 
-Set oReg=GetObject(&quot;winmgmts:{impersonationLevel=impersonate}!\\&quot; _
-            &amp; sComputer &amp; &quot;\root\default:StdRegProv&quot;)
+Set oReg=GetObject("winmgmts:{impersonationLevel=impersonate}!\\" _
+            & sComputer & "\root\default:StdRegProv")
 
-sKeyPath = &quot;Control Panel\Desktop\&quot;
-sValueName = &quot;TranscodedImageCache&quot;
+sKeyPath = "Control Panel\Desktop\"
+sValueName = "TranscodedImageCache"
 oReg.GetBinaryValue HKCU, sKeyPath, sValueName, sValue
 
 
-sContents = &quot;&quot;
+sContents = ""
 
 For i = 24 To UBound(sValue)
   vByte = sValue(i)
-  If vByte &lt;&gt; 0 And vByte &lt;&gt; &quot;&quot; Then
-    sContents = sContents &amp; Chr(vByte)
+  If vByte <> 0 And vByte <> "" Then
+    sContents = sContents & Chr(vByte)
   End If
 Next
 
-CreateObject(&quot;Wscript.Shell&quot;).Run &quot;explorer.exe /select,&quot;&quot;&quot; &amp; sContents &amp; &quot;&quot;&quot;&quot;
+CreateObject("Wscript.Shell").Run "explorer.exe /select,""" & sContents & """"
 
 Note: The vbs didn't work for me when I first set up the Slideshow, but it worked after changing to the next image in the Slideshow.
 Warning: This vbs code does not work if the file name contains non-ASCII characters, i.e., if Unicode characters (like Δ, Й, ק ,م, ๗, あ, 叶, 葉, 말) are present in the file name, then the vbs code above will fail to locate the image in Windows Explorer.
@@ -3913,8 +3913,8 @@ Save below code as .ps1 file and run
 
 Open Notepad and paste the three lines of code mentioned below.
 Save the new document as Wallpaper_path.ps1 file.
-Note: Under 'Save as type:' option, select &quot;All types&quot; (see screenshot below).
-Go to the file, right click on the file and select &quot;Run with PowerShell&quot;
+Note: Under 'Save as type:' option, select "All types" (see screenshot below).
+Go to the file, right click on the file and select "Run with PowerShell"
 
 Location of the wallpaper will be generated and copied to clipboard.
 
@@ -3939,11 +3939,11 @@ Press Win + W and the location of the wallpaper will be displayed in a message b
 #Requires AutoHotkey v2.0
 #SingleInstance force
 
-; #HotIf WinActive(&quot;ahk_class WorkerW ahk_exe explorer.exe&quot;)
+; #HotIf WinActive("ahk_class WorkerW ahk_exe explorer.exe")
 ; commented out - enable shortcut on desktop only
 
 #W::{ ; Win + W
-MsgBox &quot;WallpaperPath_v5`n&quot; WallpaperPath_v5(ThisHotkey),, 262144 ; 262144 = Always-on-top
+MsgBox "WallpaperPath_v5`n" WallpaperPath_v5(ThisHotkey),, 262144 ; 262144 = Always-on-top
 }
 
 ; #HotIf
@@ -3954,49 +3954,49 @@ MsgBox &quot;WallpaperPath_v5`n&quot; WallpaperPath_v5(ThisHotkey),, 262144 ; 26
 WallpaperPath_v5(key := A_ThisHotkey) {
 
 ; modified from https://www.autohotkey.com/docs/v2/lib/ComObject.htm#ExWallpaper
-AD := ComObject(&quot;{75048700-EF1F-11D0-9888-006097DEACF9}&quot;, &quot;{F490EB00-1240-11D1-9888-006097DEACF9}&quot;)
+AD := ComObject("{75048700-EF1F-11D0-9888-006097DEACF9}", "{F490EB00-1240-11D1-9888-006097DEACF9}")
 wszWallpaper := Buffer(260 * 2)
-ComCall(4, AD, &quot;ptr&quot;, wszWallpaper, &quot;uint&quot;, 260, &quot;uint&quot;, 0x00000002)
-wallpaperPath := StrGet(wszWallpaper, &quot;UTF-16&quot;)
-If wallpaperPath != A_AppData &quot;\Microsoft\Windows\Themes\TranscodedWallpaper&quot; {
+ComCall(4, AD, "ptr", wszWallpaper, "uint", 260, "uint", 0x00000002)
+wallpaperPath := StrGet(wszWallpaper, "UTF-16")
+If wallpaperPath != A_AppData "\Microsoft\Windows\Themes\TranscodedWallpaper" {
     If FileExist(wallpaperPath)
         Return wallpaperPath
     ; Else ; invalid path ; proceed to get correct path from the registry
     }
-; Else ; path = C:\Users\&lt;UserName&gt;\AppData\Roaming\Microsoft\Windows\Themes\TranscodedWallpaper
+; Else ; path = C:\Users\<UserName>\AppData\Roaming\Microsoft\Windows\Themes\TranscodedWallpaper
 ; proceed to get correct path from the registry
 
-wallpaperPath := &quot;&quot; ; clear variable that stores path
+wallpaperPath := "" ; clear variable that stores path
 
 ; modified from AHK v1 code - https://gist.github.com/raveren/bac5196d2063665d2154#file-aio-ahk-L741
 ; This source has code for multi-monitor setups that is not included here.
 ; Look for `openWallpaperUnderMouse()` and `getMonitorUnderMouse()` functions over there if you need it.
 
 ; Read the binary value from the registry
-regBinary := RegRead(&quot;HKEY_CURRENT_USER\Control Panel\Desktop&quot;, &quot;TranscodedImageCache&quot;) ; 1600 characters
-; alternative: regBinary := RegRead(&quot;HKEY_CURRENT_USER\Control Panel\Desktop&quot;, &quot;TranscodedImageCache_000&quot;)
+regBinary := RegRead("HKEY_CURRENT_USER\Control Panel\Desktop", "TranscodedImageCache") ; 1600 characters
+; alternative: regBinary := RegRead("HKEY_CURRENT_USER\Control Panel\Desktop", "TranscodedImageCache_000")
 
 ; remove first 48 characters and create array
 regArr := StrSplit(SubStr(regBinary, 49))
 
 Loop regArr.Length {
-    char := Chr(&quot;0x&quot; regArr[A_Index + 2] regArr[A_Index + 3] regArr[A_Index] regArr[A_Index + 1])
-            ; &quot;Word&quot; format = 4 numbers per character
-            ; use &quot;0x&quot; [] [] [] [] instead of &quot;0x00&quot; [] [] to allow for converting Unicode characters
+    char := Chr("0x" regArr[A_Index + 2] regArr[A_Index + 3] regArr[A_Index] regArr[A_Index + 1])
+            ; "Word" format = 4 numbers per character
+            ; use "0x" [] [] [] [] instead of "0x00" [] [] to allow for converting Unicode characters
 
-    If char = &quot;&quot;                ; char := Chr(&quot;0x&quot; 0 0 0 0) consecutive zeroes results in empty string
+    If char = ""                ; char := Chr("0x" 0 0 0 0) consecutive zeroes results in empty string
         Break                   ; End Loop
     Else {
         A_Index += 3            ; skip 3 subsequent characters - Loop A_Index 2 3 4, (not 5) 6 7 8, (not 9)…
-        wallpaperPath .= char   ; add generated string to path - Chr(&quot;0x&quot; [3] [4] [1] [2]), Chr(&quot;0x&quot; [7] [8] [5] [6])… and so on
+        wallpaperPath .= char   ; add generated string to path - Chr("0x" [3] [4] [1] [2]), Chr("0x" [7] [8] [5] [6])… and so on
         }
     }
 If FileExist(wallpaperPath)
     Return wallpaperPath        ; Return path to desktop wallpaper
 Else {
-    MsgBox( key &quot;:: WallpaperPath_v5() is not valid!&quot;   &quot;`n&quot;
-        .   &quot;wallpaperPath: &quot; wallpaperPath             &quot;`n`n&quot;
-        .   &quot;TranscodedImageCache:`n&quot; regBinary             ,, 262144) ; 262144 = Always-on-top
+    MsgBox( key ":: WallpaperPath_v5() is not valid!"   "`n"
+        .   "wallpaperPath: " wallpaperPath             "`n`n"
+        .   "TranscodedImageCache:`n" regBinary             ,, 262144) ; 262144 = Always-on-top
     Exit
     }
 }
@@ -4046,7 +4046,7 @@ Desktop tools (free)
 
 Booklet Creater. Merges files to create a booklet. Rearranges pages to that you can print and fold to create a simple booklet.
 
-PDF Sam. Also known as &quot;PDF Split &amp; Merge&quot;. FOSS tool for splitting and merging PDFs. Windows &amp; Mac. Console and GUI interfaces. On Windows, the installer by default installs Ad-Aware Security Toolbar, sets Lavasoft SecureSearch as homepage, new tabs, and default search provider.
+PDF Sam. Also known as "PDF Split & Merge". FOSS tool for splitting and merging PDFs. Windows & Mac. Console and GUI interfaces. On Windows, the installer by default installs Ad-Aware Security Toolbar, sets Lavasoft SecureSearch as homepage, new tabs, and default search provider.
 
 Swift PDF. Combines multiple images (JPG, GIF, etc.) into a single PDF.
 Editor's note, 5/1/2017: Swift PDF was last updated in 2006 and was compatible with Windows 95.  The original link is dead and the product appears to no longer be supported.  However, it is still downloadable at https://swift-pdf.en.softonic.com/
@@ -4069,34 +4069,34 @@ https://technet.microsoft.com/library/354e5163-f388-4354-984c-ea4e4206694c
 You aren't able to delete the recovery partition because it EFI protected. You should be able to force by using the override command.
 https://technet.microsoft.com/en-us/library/cc766465(v=ws.10).aspx
 I would try using diskpart (from an elevated command prompt) to delete the partition.
-DISKPART&gt; list disk
-DISKPART&gt; select disk 4
+DISKPART> list disk
+DISKPART> select disk 4
 
 Disk 4 is now the selected disk.
 
-DISKPART&gt; list partition
+DISKPART> list partition
 
   Partition ###  Type              Size     Offset
   -------------  ----------------  -------  -------
   Partition 1    Primary            223 GB  1024 KB
   Partition 3    Recovery           450 MB   223 GB
   
-DISKPART&gt; select partition 3
+DISKPART> select partition 3
 
 Partition 3 is now the selected partition.
 
-DISKPART&gt; list partition
+DISKPART> list partition
 
   Partition ###  Type              Size     Offset
   -------------  ----------------  -------  -------
   Partition 1    Primary            223 GB  1024 KB
 * Partition 3    Recovery           450 MB   223 GB
   
-DISKPART&gt; delete partition override
+DISKPART> delete partition override
 
 DiskPart successfully deleted the selected partition.
 
-DISKPART&gt; list partition
+DISKPART> list partition
 
   Partition ###  Type              Size     Offset
   -------------  ----------------  -------  -------
@@ -4157,7 +4157,7 @@ Customer Experience Improvement Program states
 Tags: windows, process | Score: 161 | Views: 20929 | Answers: 1
 
 **解决方案 / Solution**:
-&quot;Why are there no odd Windows process Ids?&quot;
+"Why are there no odd Windows process Ids?"
 
 The same code that allocates kernel handles is also used to
 allocate process and thread IDs. Since kernel handles are a multiple
@@ -4225,7 +4225,7 @@ The Old New Thing: Practical Development Throughout the Evolution of Windows by 
 Tags: windows, command-line | Score: 160 | Views: 761513 | Answers: 12
 
 **解决方案 / Solution**:
-&gt; wmic logicaldisk get caption
+> wmic logicaldisk get caption
 
 Caption
 C:
@@ -4248,32 +4248,32 @@ Tags: windows, file-management | Score: 159 | Views: 121995 | Answers: 11
 
 **解决方案 / Solution**:
 With the command line:
-assoc .=&quot;No_Extension&quot;
-ftype &quot;No_Extension&quot;=&quot;C:\path\to\my editor.exe&quot; &quot;%1&quot;
+assoc .="No_Extension"
+ftype "No_Extension"="C:\path\to\my editor.exe" "%1"
 
 Restart the computer for the changes to take effect.
 To give credit, I learned this from the vim wikia here and here
 Extra info:
-Instead of &quot;C:\path\to\...&quot;, the following macros may be useful:
+Instead of "C:\path\to\...", the following macros may be useful:
 
 %SystemDrive% - drive windows is installed on, i.e. C:\
-%ProgramFiles% - e.g. &quot;C:\Program Files\&quot;
-%ProgramFiles(x86)% - e.g. &quot;C:\Program Files (x86)\&quot;
+%ProgramFiles% - e.g. "C:\Program Files\"
+%ProgramFiles(x86)% - e.g. "C:\Program Files (x86)\"
 
 You will need to properly escape them though:
-ftype &quot;No_Extension&quot;=^&quot;^%ProgramFiles(x86)^%\Notepad++\notepad++.exe^&quot; &quot;%1&quot;
+ftype "No_Extension"=^"^%ProgramFiles(x86)^%\Notepad++\notepad++.exe^" "%1"
 
 To set the icon to be the same as .txt files (I didn't do this, since it automatically made the files' icons display as Notepad++ files):
-assoc &quot;No_Extension&quot;\DefaultIcon=%SystemRoot%\System32\imageres.dll,-102
+assoc "No_Extension"\DefaultIcon=%SystemRoot%\System32\imageres.dll,-102
 
 To undo, you can read the assoc /? or ftype /? information, e.g.:
-ftype &quot;No_Extension&quot;=
-assoc &quot;No_Extension&quot;\DefaultIcon=
+ftype "No_Extension"=
+assoc "No_Extension"\DefaultIcon=
 assoc .=
 
 ---
 
-#### 137. What is Windows&#39; equivalent of the &quot;which&quot; command in Unix? Is there an equivalent PowerShell command?
+#### 137. What is Windows' equivalent of the "which" command in Unix? Is there an equivalent PowerShell command?
 
 **问题描述 / Problem Description**:
 Tags: windows, command-line, powershell, which | Score: 159 | Views: 119758 | Answers: 6
@@ -4281,13 +4281,13 @@ Tags: windows, command-line, powershell, which | Score: 159 | Views: 119758 | An
 **解决方案 / Solution**:
 Newer versions of Windows (I think Windows 2003 and up) have the where command:
 
-C:\&gt;where ping
+C:\>where ping
 C:\Windows\System32\PING.EXE
 
 
 And for PowerShell, explicitly add the .exe suffix:
 
-PS C:\&gt;where.exe ping
+PS C:\>where.exe ping
 C:\Windows\System32\PING.EXE
 
 ---
@@ -4341,7 +4341,7 @@ rmdir /s/q foldername
 
 Method 2 has a first pass to delete files and outputs to nul to avoid the overhead of writing to screen for every singe file. A second pass then cleans up the remaining directory structure: 
 
-del /f/s/q foldername &gt; nul
+del /f/s/q foldername > nul
 rmdir /s/q foldername
 
 
@@ -4400,7 +4400,7 @@ bug.n is nice, and Open Source. :-)
 
 ---
 
-#### 143. Is there a shortcut command in Windows command prompt to get to the current user&#39;s home directory like there is in Linux?
+#### 143. Is there a shortcut command in Windows command prompt to get to the current user's home directory like there is in Linux?
 
 **问题描述 / Problem Description**:
 Tags: windows, windows-vista, command-line | Score: 154 | Views: 299074 | Answers: 14
@@ -4490,24 +4490,24 @@ This application does not read or write to any drive, it does not
 access the registry or connect to the Internet.
 
 Warning: It has been noted in the comments that
-virustotal finds malware in the latest version of &quot;non stick mouse&quot;.
+virustotal finds malware in the latest version of "non stick mouse".
 [EDIT2]
 I have found a
 source
 that gives a solution for Windows 10 (which I'm unable to test now):
 
 Disable Snap
-In Settings &gt; System &gt; Multitasking, set Snap to Off.
+In Settings > System > Multitasking, set Snap to Off.
 
 Registry modification
 Create and execute the following .reg file:
  Windows Registry Editor Version 5.00
 
  [HKEY_CURRENT_USER\Control Panel\Desktop]
- &quot;MouseMonitorEscapeSpeed&quot;=dword:00000001
+ "MouseMonitorEscapeSpeed"=dword:00000001
 
  [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ImmersiveShell\EdgeUI]
- &quot;MouseMonitorEscapeSpeed&quot;=-
+ "MouseMonitorEscapeSpeed"=-
 
 
 
@@ -4595,13 +4595,13 @@ Since Windows Update can also deploy Windows Installer patches, you could also p
 
 ---
 
-#### 150. Windows 10 &quot;Enable NTFS long paths policy&quot; option missing
+#### 150. Windows 10 "Enable NTFS long paths policy" option missing
 
 **问题描述 / Problem Description**:
 Tags: windows, windows-10, ntfs, filenames, windows-10-v1607 | Score: 149 | Views: 319508 | Answers: 2
 
 **解决方案 / Solution**:
-The value has moved from NTFS directly into Local Computer Policy &gt; Computer Configuration &gt; Administrative Templates &gt; System &gt; Filesystem in the RTM version of the Version 1607.
+The value has moved from NTFS directly into Local Computer Policy > Computer Configuration > Administrative Templates > System > Filesystem in the RTM version of the Version 1607.
 
 ---
 
@@ -4651,18 +4651,18 @@ Usage (from command line or script)
 Tags: windows, command-line, shell | Score: 148 | Views: 178646 | Answers: 5
 
 **解决方案 / Solution**:
-Note that cmd /C &quot;set &quot;EDITOR=vim&quot; &amp;&amp; echo %EDITOR%&quot; would not work.
-Nor would cmd /C &quot;setlocal ENABLEDELAYEDEXPANSION &amp;&amp; set &quot;EDITOR=vim&quot; &amp;&amp; echo !EDITOR!&quot;
+Note that cmd /C "set "EDITOR=vim" && echo %EDITOR%" would not work.
+Nor would cmd /C "setlocal ENABLEDELAYEDEXPANSION && set "EDITOR=vim" && echo !EDITOR!"
 You would need:
 
 the /V option, to enable delayed environment variable expansion using ! as delimiter.
-no space between a command and the &amp;&amp; (or add quotes)
+no space between a command and the && (or add quotes)
 
 That is:
-C:\&gt; cmd /V /C &quot;set EDITOR=vim&amp;&amp; echo '!EDITOR!'&quot;
+C:\> cmd /V /C "set EDITOR=vim&& echo '!EDITOR!'"
 'vim'
 # or
-C:\&gt; cmd /V /C &quot;set &quot;EDITOR=vim&quot; &amp;&amp; echo '!EDITOR!'&quot;
+C:\> cmd /V /C "set "EDITOR=vim" && echo '!EDITOR!'"
 'vim'
 
 As noted below by maoizm, it is cmd /V /C, not cmd /C /V (which would not work)
@@ -4672,11 +4672,11 @@ I can't think of any practical reason you'd ever actually want this within the c
 
 Typically, you need this when you have to replace a value used multiple times in a long command line.
 For instance, to deploy a file to Nexus (in multiple lines for readability):
-cmd /v /c &quot;set g=com.agroup&amp;&amp; set a=anArtifact&amp;&amp; set v=1.1.0&amp;&amp; \
+cmd /v /c "set g=com.agroup&& set a=anArtifact&& set v=1.1.0&& \
            mvn deploy:deploy-file -Dfile=C:\path\!a!-!v!.jar \
            -Dpackaging=jar -DgroupId=!g! -DartifactId=!a! -Dversion=!v! \
            -DrepositoryId=nexus 
-           -Durl=http://myserver/nexus/content/repositories/my-repo/&quot;
+           -Durl=http://myserver/nexus/content/repositories/my-repo/"
 
 Instead of having to replace group, artifact (used 2 times) and version in a long and complex command line, you can edit them at the beginning of said command. It is clearer/easier to manipulate and change the parameter values.
 
@@ -4694,7 +4694,7 @@ wsl --update
 
 ---
 
-#### 154. How can I add an item to the &#39;new&#39; context menu?
+#### 154. How can I add an item to the 'new' context menu?
 
 **问题描述 / Problem Description**:
 Tags: windows, context-menu | Score: 145 | Views: 171286 | Answers: 11
@@ -4744,13 +4744,13 @@ shutdown /s /t 0
 
 ---
 
-#### 156. What is the Windows equivalent of &quot;wc -l&quot;?
+#### 156. What is the Windows equivalent of "wc -l"?
 
 **问题描述 / Problem Description**:
 Tags: windows, command-line | Score: 143 | Views: 254623 | Answers: 4
 
 **解决方案 / Solution**:
-The Linux/Unix &quot;line count&quot; command, wc -l, has a Windows equivalent find /c /v &quot;&quot;.
+The Linux/Unix "line count" command, wc -l, has a Windows equivalent find /c /v "".
 How does this work?
 According to Raymond Chen of the The Old New Thing, this functions as such since
 
@@ -4760,13 +4760,13 @@ The inverted (/v) count (/c) thus effectively counts all the lines;
 hence, the line count.
 Example usage
 To count the number of modified files in a subversion working copy:
-svn status -q | find /c /v &quot;&quot;
+svn status -q | find /c /v ""
 
-Such a command can be used to mark a build as &quot;dirty&quot; if the count is not 0, i.e. there are uncommitted changes in the working copy.
+Such a command can be used to mark a build as "dirty" if the count is not 0, i.e. there are uncommitted changes in the working copy.
 To obtain a line count of all your Java files:
-(for /r %f in (*.java) do @type &quot;%f&quot;) | find /c /v &quot;&quot;
+(for /r %f in (*.java) do @type "%f") | find /c /v ""
 
-The command find /c /v &quot;&quot; can also be added to a batch file if required. 
+The command find /c /v "" can also be added to a batch file if required. 
 Remember to duplicate the % characters (%%f) in batch files.
 
 PowerShell
@@ -4814,15 +4814,15 @@ Tags: keyboard-layout, windows-10, remapping, key-binding, capslock | Score: 143
 
 **解决方案 / Solution**:
 In case anyone needed this done via PowerShell:
-$hexified = &quot;00,00,00,00,00,00,00,00,02,00,00,00,1d,00,3a,00,00,00,00,00&quot;.Split(',') | % { &quot;0x$_&quot;};
+$hexified = "00,00,00,00,00,00,00,00,02,00,00,00,1d,00,3a,00,00,00,00,00".Split(',') | % { "0x$_"};
 $kbLayout = 'HKLM:\System\CurrentControlSet\Control\Keyboard Layout';    
-New-ItemProperty -Path $kbLayout -Name &quot;Scancode Map&quot; -PropertyType Binary -Value ([byte[]]$hexified);
+New-ItemProperty -Path $kbLayout -Name "Scancode Map" -PropertyType Binary -Value ([byte[]]$hexified);
 
 Run it as Administrator and reboot.
 
 ---
 
-#### 159. Can you zip a file from the command prompt using ONLY Windows&#39; built-in capability to zip files?
+#### 159. Can you zip a file from the command prompt using ONLY Windows' built-in capability to zip files?
 
 **问题描述 / Problem Description**:
 Tags: windows, command-line, batch, zip | Score: 142 | Views: 499677 | Answers: 12
@@ -4837,14 +4837,14 @@ rmdir %TEMPDIR%
 mkdir %TEMPDIR%
 xcopy /s %FILETOZIP% %TEMPDIR%
 
-echo Set objArgs = WScript.Arguments &gt; _zipIt.vbs
-echo InputFolder = objArgs(0) &gt;&gt; _zipIt.vbs
-echo ZipFile = objArgs(1) &gt;&gt; _zipIt.vbs
-echo CreateObject("Scripting.FileSystemObject").CreateTextFile(ZipFile, True).Write "PK" ^&amp; Chr(5) ^&amp; Chr(6) ^&amp; String(18, vbNullChar) &gt;&gt; _zipIt.vbs
-echo Set objShell = CreateObject("Shell.Application") &gt;&gt; _zipIt.vbs
-echo Set source = objShell.NameSpace(InputFolder).Items &gt;&gt; _zipIt.vbs
-echo objShell.NameSpace(ZipFile).CopyHere(source) &gt;&gt; _zipIt.vbs
-echo wScript.Sleep 2000 &gt;&gt; _zipIt.vbs
+echo Set objArgs = WScript.Arguments > _zipIt.vbs
+echo InputFolder = objArgs(0) >> _zipIt.vbs
+echo ZipFile = objArgs(1) >> _zipIt.vbs
+echo CreateObject("Scripting.FileSystemObject").CreateTextFile(ZipFile, True).Write "PK" ^& Chr(5) ^& Chr(6) ^& String(18, vbNullChar) >> _zipIt.vbs
+echo Set objShell = CreateObject("Shell.Application") >> _zipIt.vbs
+echo Set source = objShell.NameSpace(InputFolder).Items >> _zipIt.vbs
+echo objShell.NameSpace(ZipFile).CopyHere(source) >> _zipIt.vbs
+echo wScript.Sleep 2000 >> _zipIt.vbs
 
 CScript  _zipIt.vbs  %TEMPDIR%  C:\someArchive.zip
 
@@ -4887,7 +4887,7 @@ Tags: windows-7, windows, command-line | Score: 140 | Views: 754896 | Answers: 6
 **解决方案 / Solution**:
 You can use net stop [service name] to stop it and net start [service name] to start it up again basically restarting the service.
 
-To combine them just do this - net stop [service name] &amp;&amp; net start [service name].
+To combine them just do this - net stop [service name] && net start [service name].
 
 
 
@@ -5044,7 +5044,7 @@ Now you should be able to change the permissions of the file, this is where we r
 Right-click the Narrator file again and choose Properties and Security
 Press Advanced
 Now that you are the owner you can change permissions for other users. Choose your own user and press Edit
-Remove the Read &amp; Execute and Read permissions and press OK
+Remove the Read & Execute and Read permissions and press OK
 Now press Change in the top under Owner and write system in the text field
 Press OK to all dialogs
 
@@ -5064,16 +5064,16 @@ Warning 2: Check disk numbers, partition numbers and volume letters carefully be
 
 Use diskpart to find current recovery partition and assign a driver letter(eg. O) to it:
 
-DISKPART&gt; list disk
-DISKPART&gt; select disk &lt;the-number-of-disk-where-current-recovery-partition-locate&gt;
-DISKPART&gt; list partition
-DISKPART&gt; select partition &lt;the-number-of-current-recovery-partition&gt;
-DISKPART&gt; assign letter=O
+DISKPART> list disk
+DISKPART> select disk <the-number-of-disk-where-current-recovery-partition-locate>
+DISKPART> list partition
+DISKPART> select partition <the-number-of-current-recovery-partition>
+DISKPART> assign letter=O
 
 
 Create an image file from current recovery partition:
 
-Dism /Capture-Image /ImageFile:C:\recovery-partition.wim /CaptureDir:O:\ /Name:&quot;Recovery&quot;
+Dism /Capture-Image /ImageFile:C:\recovery-partition.wim /CaptureDir:O:\ /Name:"Recovery"
 
 
 Apply the created image file to another partition(eg. N) that will become the new recovery partition:
@@ -5092,24 +5092,24 @@ Use diskpart to hide the recovery partition:
 
 For UEFI:
 
-DISKPART&gt; select volume N
-DISKPART&gt; set id=&quot;de94bba4-06d1-4d40-a16a-bfd50179d6ac&quot;
-DISKPART&gt; gpt attributes=0x8000000000000001
-DISKPART&gt; remove
+DISKPART> select volume N
+DISKPART> set id="de94bba4-06d1-4d40-a16a-bfd50179d6ac"
+DISKPART> gpt attributes=0x8000000000000001
+DISKPART> remove
 
 
 For BIOS:
 
-DISKPART&gt; select volume N
-DISKPART&gt; set id=27
-DISKPART&gt; remove
+DISKPART> select volume N
+DISKPART> set id=27
+DISKPART> remove
 
 
 Reboot the computer, now the new recovery partition should be working
 (Optional) Delete the old recovery partition:
 
-DISKPART&gt; select volume O
-DISKPART&gt; delete partition override
+DISKPART> select volume O
+DISKPART> delete partition override
 
 
 (Optional) Check if the recovery partition is working:
@@ -5136,7 +5136,7 @@ Putty stores known hosts under a registry key:  HKEY_CURRENT_USER\SoftWare\Simon
 
 ---
 
-#### 168. Why can&#39;t VirtualBox or VMware run with Hyper-V enabled on Windows 10?
+#### 168. Why can't VirtualBox or VMware run with Hyper-V enabled on Windows 10?
 
 **问题描述 / Problem Description**:
 Tags: windows-10, virtualbox, virtual-machine, virtualization, vmware | Score: 137 | Views: 170569 | Answers: 4
@@ -5270,15 +5270,15 @@ Tags: windows-10, sleep, hibernate, windows-task-scheduler | Score: 133 | Views:
 **解决方案 / Solution**:
 This has worked for me so far. Go to:
 Control Panel\Hardware and Sound\Power Options\Edit Plan Settings
-Click &quot;Change advanced power settings&quot;
-Go to &quot;Sleep-&gt;Allow wake timers&quot; and change the setting to Disable.
+Click "Change advanced power settings"
+Go to "Sleep->Allow wake timers" and change the setting to Disable.
 
 UPDATE: As Erik pointed out, there can be two options:
 
 Disable them both.
 UPDATE #2:
 In addition to wake timers, peripheral devices can also wake your computer. See Rosdi's answer for network interfaces. It reminded me of something I had to change recently as my computer was waking again when peripherals were attached. First I disconnected the mouse, but it turned out to be the keyboard.
-Open the Device Manager and expand Keyboards - or whatever your problematic device category is - and find the suspect, e.g. &quot;HID Keyboard Device&quot;. Right-click that and select Properties, then go to the Power Management tab and uncheck &quot;Allow this device to wake the computer&quot;.
+Open the Device Manager and expand Keyboards - or whatever your problematic device category is - and find the suspect, e.g. "HID Keyboard Device". Right-click that and select Properties, then go to the Power Management tab and uncheck "Allow this device to wake the computer".
 
 ---
 
@@ -5312,22 +5312,22 @@ You can't display the clock on both taskbar. It is possible to drag your primary
 Tags: linux, windows, user-accounts, windows-subsystem-for-linux | Score: 131 | Views: 257638 | Answers: 8
 
 **解决方案 / Solution**:
-There are a few possible methods of changing/setting the default user in an imported WSL instance.  While the two that were mentioned in other answers still work, there are two &quot;official&quot; ways now.
+There are a few possible methods of changing/setting the default user in an imported WSL instance.  While the two that were mentioned in other answers still work, there are two "official" ways now.
 Method 1 - wsl --manage --set-default-user (WSL 2.4.10 and later)
 As of February 2025, the latest release of WSL (2.4.10.0) includes a built-in flag for setting the default user. If needed, you can (assuming you are running on a release in the last few years) update via:
 wsl --update
 
 And then:
-wsl --manage &lt;distro&gt; --set-default-user &lt;username&gt;
+wsl --manage <distro> --set-default-user <username>
 
-This queries the user id (via usr/bin/id and perhaps other methods) in the distribution and then sets the returned UID in the registry as in Method #3 below.  It does require that the username/id already exists. See the &quot;For readers who need to create a new user&quot; section below if needed.
+This queries the user id (via usr/bin/id and perhaps other methods) in the distribution and then sets the returned UID in the registry as in Method #3 below.  It does require that the username/id already exists. See the "For readers who need to create a new user" section below if needed.
 Method 2 - /etc/wsl.conf
 The current Microsoft recommended way of setting the username in an instance is to create a /etc/wsl.conf in the instance with the following setting:
 [user]
 default=username
 
 Changing, of course, username to be your default username.
-Exit your distro/instance, then issue a wsl --terminate &lt;distroname&gt; from PowerShell or CMD.  When you restart, the default user should be set.
+Exit your distro/instance, then issue a wsl --terminate <distroname> from PowerShell or CMD.  When you restart, the default user should be set.
 This is safer and less error-prone than the registry-based methods.
 Method 3 - Registry Key
 Setting the registry key per @harrymc's answer.
@@ -5340,12 +5340,12 @@ For instance, wsl -d Ubuntu -u root.
 
 Side Note: This question was specifically about setting the default username in an imported instance.
 However, for completeness, you can also set the default username for a distro that was installed from the Store (or wsl --install) with:
-&lt;distro&gt;.exe config --default-user &lt;username&gt;
+<distro>.exe config --default-user <username>
 
-For instance, if you installed &quot;Ubuntu 20.04&quot; from the Store, you would use:
-ubuntu2004.exe config --default-user &lt;username&gt;
+For instance, if you installed "Ubuntu 20.04" from the Store, you would use:
+ubuntu2004.exe config --default-user <username>
 
-The .exe here is an &quot;App Execution Alias&quot; in Windows.  You can check the name by going to &quot;Manage app execution aliases&quot; in the Windows System Settings.
+The .exe here is an "App Execution Alias" in Windows.  You can check the name by going to "Manage app execution aliases" in the Windows System Settings.
 
 For readers who need to create a new user
 @ndemou made a good point in the comments last year that I, in hindsight, dismissed improperly.  Two other users have now mentioned in the comments that @ndemou's information was helpful.  My belated apologies!  Here's the additional information based on @ndemou's advice ...
@@ -5353,9 +5353,9 @@ Some users who find this answer may be starting up as root not because they --im
 Under Ubuntu, the default distribution for WSL, you can create your user by starting with:
 wsl ~ -u root
 
-If you need to, add the -d &lt;distribution&gt; option.
+If you need to, add the -d <distribution> option.
 Then run:
-NEWUSER=&lt;your_username&gt;
+NEWUSER=<your_username>
 useradd --create-home --shell /usr/bin/bash --user-group --groups  adm,dialout,cdrom,floppy,sudo,audio,dip,video,plugdev,netdev --password $(read -sp Password: pw ; echo $pw | openssl passwd -1 -stdin) $NEWUSER
 
 Then set the user as the default using the /etc/wsl.conf as mentioned above.
@@ -5450,8 +5450,8 @@ ByVal hwnd As Long, ByVal hWndInsertAfter As Long, _
 ByVal X As Long, ByVal Y As Long, ByVal cx As Long, _
 ByVal cy As Long, ByVal wFlags As Long) As Long
 
-Private Const SWP_NOSIZE = &amp;H1
-Private Const SWP_NOMOVE = &amp;H2
+Private Const SWP_NOSIZE = &H1
+Private Const SWP_NOMOVE = &H2
 Private Const FLAGS As Long = SWP_NOMOVE Or SWP_NOSIZE
 Private Const HWND_TOPMOST = -1
 
@@ -5495,7 +5495,7 @@ Update: It appears that some applications will additionally add events into the 
 
 Open Event Viewer 
 Expand Applications and Services Logs 
-Drill down to the app or service you are interested in, e.g. for Windows Defender you might go to: Microsoft -&gt; Windows -&gt; Windows Defender -&gt; Operational log. 
+Drill down to the app or service you are interested in, e.g. for Windows Defender you might go to: Microsoft -> Windows -> Windows Defender -> Operational log. 
 Review the log and look for the notification you were interested in.
 
 
@@ -5555,7 +5555,7 @@ Key that’s been marked with red border. It’s a dead key by default.
 
 This also applies to the Slovak QWERTZ layout.
 
-QWERTZ Germany &amp; Austria
+QWERTZ Germany & Austria
 Shift + Key that's been marked with red border
 
 
@@ -5613,7 +5613,7 @@ Unicode Character 'ACUTE ACCENT'
 
 ---
 
-#### 187. What does &quot;delayed start&quot; do in startup type for a Windows service?
+#### 187. What does "delayed start" do in startup type for a Windows service?
 
 **问题描述 / Problem Description**:
 Tags: windows, boot, windows-services | Score: 128 | Views: 321771 | Answers: 5
@@ -5629,7 +5629,7 @@ If you have a few services that are critical, then you may want to set those few
 
 ---
 
-#### 188. How can I SSH into &quot;Bash on Ubuntu on Windows 10&quot;?
+#### 188. How can I SSH into "Bash on Ubuntu on Windows 10"?
 
 **问题描述 / Problem Description**:
 Tags: windows-10, bash, ssh, windows-10-v1607, windows-subsystem-for-linux | Score: 128 | Views: 232533 | Answers: 5
@@ -5766,7 +5766,7 @@ Tags: windows, bashrc, .bash-profile, git-bash | Score: 125 | Views: 331804 | An
 
 **解决方案 / Solution**:
 When you open up your Git Bash, you should be in your home directory by default.
-Now create the .bashrc file (if on Windows&nbsp;7 the file should be named .bashrc.).
+Now create the .bashrc file (if on Windows 7 the file should be named .bashrc.).
 
 If you're not in the home directory, change into it by typing:
 
@@ -5819,7 +5819,7 @@ Tags: windows, sleep, power | Score: 125 | Views: 176449 | Answers: 7
 **解决方案 / Solution**:
 After running PowerCfg /q and reviewing this page, I believe I have determined the solution to this problem.
 
-There appear to be many power settings that just don't show up in my advanced power options window.  One is Sleep &rarr; System unattended sleep timeout.
+There appear to be many power settings that just don't show up in my advanced power options window.  One is Sleep → System unattended sleep timeout.
 To make it visible, I opened regedit.exe and found this key:
 
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238C9FA8-0AAD-41ED-83F4-97BE242C8F20\7bc4a2f9-d8fc-4469-b07b-33eb785aaca0
@@ -5884,7 +5884,7 @@ Try it. You may read some comments on StackOverflow.
 Tags: windows | Score: 124 | Views: 363926 | Answers: 2
 
 **解决方案 / Solution**:
-This seems to be Windows update logs &amp; files.
+This seems to be Windows update logs & files.
 It includes files to upgrade Windows, and also, once you do upgrade, the old OS goes into that folder
 It should be perfectly safe to delete it, as long as you don't want to upgrade or downgrade Windows.
 However, you can't do it the normal way.
@@ -5970,7 +5970,7 @@ Tags: windows, multitasking | Score: 123 | Views: 31469 | Answers: 7
 
 **解决方案 / Solution**:
 Windows 95
-Windows 95 was far more than &quot;just a wrapper&quot; for MS-DOS. Quoting Raymond Chen:
+Windows 95 was far more than "just a wrapper" for MS-DOS. Quoting Raymond Chen:
 
 MS-DOS served two purposes in Windows 95.
 
@@ -5981,7 +5981,7 @@ It acted as the 16-bit legacy device driver layer.
 Windows 95 actually hooked/overrode just about all of MS-DOS, keeping it as a compatibility layer while doing all the heavy lifting itself. It also implemented preemptive multitasking for 32-bit programs.
 
 Pre-Windows 95
-Windows 3.x and older were mostly 16-bit (with the exception of Win32s, a kinda compatibility layer that bridges 16 and 32, but we'll ignore that here), were more dependent on DOS, and used only cooperative multitasking - that's the one where they don't force a running program to switch out; they wait for the running program to yield control (basically, say &quot;I'm done&quot; by telling the OS to run the next program that's waiting).
+Windows 3.x and older were mostly 16-bit (with the exception of Win32s, a kinda compatibility layer that bridges 16 and 32, but we'll ignore that here), were more dependent on DOS, and used only cooperative multitasking - that's the one where they don't force a running program to switch out; they wait for the running program to yield control (basically, say "I'm done" by telling the OS to run the next program that's waiting).
 
 Multitasking was cooperative, just like in old versions of MacOS (though unlike Multitasking DOS 4.x, which sported preemptive multitasking). A task had to yield to the OS in order to schedule a different task. The yields were built into certain API calls, notably message processing. As long as a task processed messages in a timely manner, everything was great. If a task stopped processing messages and was busy executing some processing loop, multitasking was no more.
 
@@ -6014,7 +6014,7 @@ Also, I wanted to correct your assumption that Windows 95 was jsut a wrapper for
 Tags: windows, unix, path | Score: 122 | Views: 83967 | Answers: 2
 
 **解决方案 / Solution**:
-Unix introduced / as the directory separator sometime around 1970. I don't know why exactly this character was chosen; the ancestor system Multics used &gt;, but the designers of Unix had already used &gt; together with &lt; for redirection in the shell (see Why is the root directory denoted by a / sign?).
+Unix introduced / as the directory separator sometime around 1970. I don't know why exactly this character was chosen; the ancestor system Multics used >, but the designers of Unix had already used > together with < for redirection in the shell (see Why is the root directory denoted by a / sign?).
 MS-DOS 2.0 introduced \ as the directory separator in the early 1980s. The reason / was not used is that MS-DOS 1.0 (which did not support directories at all) was already using / to introduce command-line options. It probably took this usage of / from VMS (which had a more complicated syntax for directories). You can read a more detailed explanation of why that choice was made on Larry Osterman's blog. MS-DOS even briefly had an option to change the option character to - and the directory separator to /, but it didn't stick.
 / it is recognized by most programmer-level APIs (in all versions of DOS and Windows). So you can often, but not always get away with using / as a directory separator under Windows. A notable exception is that you can't use / as a separator after the \\? prefix which (even in Windows 7) is the only way to specify a path using Unicode or containing more than 260 characters.
 Some user interface elements support / as a directory separator under Windows, but not all. Some programs just pass filenames through to the underlying API, so they support / and \ indifferently. In the command interpreter (in command.com or cmd), you can use / in many cases, but not always; this is partly dependent on the version of Windows (for example, cd /windows works in XP and 7 but did not in Windows 9x). The Explorer path entry box accepts / (at least from XP up; probably because it also accepts URLs). On the other hand, the standard file open dialog rejects slashes.
@@ -6041,7 +6041,7 @@ cp -r share/git* /MINGW/share
 
 ---
 
-#### 202. Diskpart - Can&#39;t delete a partition without the force protected parameter set
+#### 202. Diskpart - Can't delete a partition without the force protected parameter set
 
 **问题描述 / Problem Description**:
 Tags: windows, windows-10, partitioning, diskpart | Score: 121 | Views: 628650 | Answers: 2
@@ -6130,7 +6130,7 @@ How to use
 
 
 Create a new text file 
-Copy &amp; paste the above code
+Copy & paste the above code
 Change the following settings to your own needs: 
 
 
@@ -6188,7 +6188,7 @@ $ file winrar-x64-392b1.exe
 winrar-x64-392b1.exe: PE32+ executable for MS Windows (GUI)
 
 $ file display.exe
-display.exe: PE32 executable for MS Windows (GUI) Intel 80386 32-bit&lt;/pre&gt;
+display.exe: PE32 executable for MS Windows (GUI) Intel 80386 32-bit</pre>
 
 
 As you can see, the 64-bit WinRAR installer is classified as PE32+, which signifies a 64-bit executable. The 32-bit application is simply PE32, a 32-bit executable.
@@ -6210,9 +6210,9 @@ What does each setting do exactly?
 
 Hyper-V is Microsoft's Hypervisor.
 
-Virtual Machine Platform - &quot;Enables platform support for virtual machines&quot; and is required for WSL2.  Virtual Machine Platform can be used to create MSIX Application packages for an App-V or MSI.
+Virtual Machine Platform - "Enables platform support for virtual machines" and is required for WSL2.  Virtual Machine Platform can be used to create MSIX Application packages for an App-V or MSI.
 
-Windows Hypervisor Platform - &quot;Enables virtualization software to run on the Windows hypervisor&quot; and at one time was required for Docker on Windows.  The Hypervisor platform is an API that third-party developers can use in order to use Hyper-V.  Oracle VirtualBox, Docker, and QEMU are examples of these projects.
+Windows Hypervisor Platform - "Enables virtualization software to run on the Windows hypervisor" and at one time was required for Docker on Windows.  The Hypervisor platform is an API that third-party developers can use in order to use Hyper-V.  Oracle VirtualBox, Docker, and QEMU are examples of these projects.
 
 
 
@@ -6242,7 +6242,7 @@ You can use:
 wget --no-verbose ...
 wget -nv ...
 
-to make wget less verbose. When I saw &quot;less verbose&quot; I mean that you get:
+to make wget less verbose. When I saw "less verbose" I mean that you get:
 
 one printed line of text with the file name for each download
 no progress bar
@@ -6288,7 +6288,7 @@ You can find it here :
 which, in a standard installation, refer to
 
 C:\ProgramData\Microsoft\Windows\Start Menu\Programs
-C:\Users\&lt;User&gt;\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+C:\Users\<User>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
 
 
 To me that includes all folders and files in the start screen. 
@@ -6312,25 +6312,25 @@ But you can do it from a VB script:
 
 Optional sections in the VBscript below are commented out:
 
-Set oWS = WScript.CreateObject(&quot;WScript.Shell&quot;)
-sLinkFile = &quot;C:\MyShortcut.LNK&quot;
+Set oWS = WScript.CreateObject("WScript.Shell")
+sLinkFile = "C:\MyShortcut.LNK"
 Set oLink = oWS.CreateShortcut(sLinkFile)
-    oLink.TargetPath = &quot;C:\Program Files\MyApp\MyProgram.EXE&quot;
- '  oLink.Arguments = &quot;&quot;
- '  oLink.Description = &quot;MyProgram&quot;   
- '  oLink.HotKey = &quot;ALT+CTRL+F&quot;
- '  oLink.IconLocation = &quot;C:\Program Files\MyApp\MyProgram.EXE, 2&quot;
- '  oLink.WindowStyle = &quot;1&quot;   
- '  oLink.WorkingDirectory = &quot;C:\Program Files\MyApp&quot;
+    oLink.TargetPath = "C:\Program Files\MyApp\MyProgram.EXE"
+ '  oLink.Arguments = ""
+ '  oLink.Description = "MyProgram"   
+ '  oLink.HotKey = "ALT+CTRL+F"
+ '  oLink.IconLocation = "C:\Program Files\MyApp\MyProgram.EXE, 2"
+ '  oLink.WindowStyle = "1"   
+ '  oLink.WorkingDirectory = "C:\Program Files\MyApp"
 oLink.Save
 
 So, if you really must do it, then you could make your batch file write the VB script to disk, invoke it and then remove it again. For example, like so:
 @echo off
-echo Set oWS = WScript.CreateObject(&quot;WScript.Shell&quot;) &gt; CreateShortcut.vbs
-echo sLinkFile = &quot;%HOMEDRIVE%%HOMEPATH%\Desktop\Hello.lnk&quot; &gt;&gt; CreateShortcut.vbs
-echo Set oLink = oWS.CreateShortcut(sLinkFile) &gt;&gt; CreateShortcut.vbs
-echo oLink.TargetPath = &quot;C:\Windows\notepad.exe&quot; &gt;&gt; CreateShortcut.vbs
-echo oLink.Save &gt;&gt; CreateShortcut.vbs
+echo Set oWS = WScript.CreateObject("WScript.Shell") > CreateShortcut.vbs
+echo sLinkFile = "%HOMEDRIVE%%HOMEPATH%\Desktop\Hello.lnk" >> CreateShortcut.vbs
+echo Set oLink = oWS.CreateShortcut(sLinkFile) >> CreateShortcut.vbs
+echo oLink.TargetPath = "C:\Windows\notepad.exe" >> CreateShortcut.vbs
+echo oLink.Save >> CreateShortcut.vbs
 cscript CreateShortcut.vbs
 del CreateShortcut.vbs
 
@@ -6343,17 +6343,17 @@ SET LinkName=Hello
 SET Esc_LinkDest=%%HOMEDRIVE%%%%HOMEPATH%%\Desktop\!LinkName!.lnk
 SET Esc_LinkTarget=%%SYSTEMROOT%%\notepad.exe
 SET cSctVBS=CreateShortcut.vbs
-SET LOG=&quot;.\%~N0_runtime.log&quot;
+SET LOG=".\%~N0_runtime.log"
 ((
-  echo Set oWS = WScript.CreateObject^(&quot;WScript.Shell&quot;^) 
-  echo sLinkFile = oWS.ExpandEnvironmentStrings^(&quot;!Esc_LinkDest!&quot;^)
+  echo Set oWS = WScript.CreateObject^("WScript.Shell"^) 
+  echo sLinkFile = oWS.ExpandEnvironmentStrings^("!Esc_LinkDest!"^)
   echo Set oLink = oWS.CreateShortcut^(sLinkFile^) 
-  echo oLink.TargetPath = oWS.ExpandEnvironmentStrings^(&quot;!Esc_LinkTarget!&quot;^)
+  echo oLink.TargetPath = oWS.ExpandEnvironmentStrings^("!Esc_LinkTarget!"^)
   echo oLink.Save
-)1&gt;!cSctVBS!
+)1>!cSctVBS!
 cscript //nologo .\!cSctVBS!
 DEL !cSctVBS! /f /q
-)1&gt;&gt;!LOG! 2&gt;&gt;&amp;1
+)1>>!LOG! 2>>&1
 
 ---
 
@@ -6371,12 +6371,12 @@ Now open a cmd prompt and run the findstr command. To do this, open cmd prompt a
 Do this to see which driver uses this tag:
 
 Now, go to the drivers folder (C:\Windows\System32\drivers) and right-click the driver in question (intmsd.sys in the above image example). Click Properties, go to the details tab to find the Product Name. Look for an update for that product.
-If the pooltag only shows Windows drivers or is listed in the pooltag.txt (&quot;C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\triage\pooltag.txt&quot;)
+If the pooltag only shows Windows drivers or is listed in the pooltag.txt ("C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\triage\pooltag.txt")
 you have use xperf to trace what causes the usage. Install the WPT from the Windows SDK, open a cmd.exe as admin and run this:
 
 xperf -on PROC_THREAD+LOADER+POOL -stackwalk
 PoolAlloc+PoolFree+PoolAllocSession+PoolFreeSession -BufferSize 2048
--MaxFile 1024 -FileMode Circular &amp;&amp; timeout -1 &amp;&amp; xperf -d C:\pool.etl
+-MaxFile 1024 -FileMode Circular && timeout -1 && xperf -d C:\pool.etl
 
 capture 30 -60s of the grow. Open the ETL with WPA.exe, add the Pool graphs to the analysis pane.
 Put the pooltag column at first place and add the stack column. Now load the symbols inside WPA.exe and expand the stack of the tag that you saw in poolmon.
@@ -6385,7 +6385,7 @@ Now find other 3rd party drivers which you can see in the stack. Here the Thre t
 
 The user Hristo Hristov provided a trace with a high FMfn usage during unzipping files:
 
-The tag is used by the driver WiseFs64.sys which is part of the &quot;Wise Folder Hider&quot; program. Removing it fixes the leak.
+The tag is used by the driver WiseFs64.sys which is part of the "Wise Folder Hider" program. Removing it fixes the leak.
 
 The user Samuil Dichev provided a trace with a high FMic and Irp usage
 
@@ -6484,7 +6484,7 @@ Along with this unique feature, Netlimiter offers comprehensive set of internet 
 Tags: windows-10, utc | Score: 116 | Views: 183249 | Answers: 2
 
 **解决方案 / Solution**:
-Yep, I had success. Don't forget disabling the &quot;internet update&quot; for the time!
+Yep, I had success. Don't forget disabling the "internet update" for the time!
 I used the way described in the ArchWiki using a QWORD on a 64bit Win10.
 The NTP is done on Arch and not on Windows, but the latter isnt getting booted so often anyway.
 Here's the .reg file:
@@ -6492,7 +6492,7 @@ RealTimeIsUniversal.reg
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]
-     &quot;RealTimeIsUniversal&quot;=hex(b):01,00,00,00,00,00,00,00
+     "RealTimeIsUniversal"=hex(b):01,00,00,00,00,00,00,00
 
 From ArchWiki: UTC in Windows
 
@@ -6505,7 +6505,7 @@ content and double-click it to import it into registry:
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]
- &quot;RealTimeIsUniversal&quot;=dword:00000001
+ "RealTimeIsUniversal"=dword:00000001
 
 If the above appears to have no affect, and a 64-bit variant of
 Windows is being used, using a QWORD value instead of a DWORD value
@@ -6513,7 +6513,7 @@ may resolve the issue.
 
 ---
 
-#### 219. How to stop jucheck from running? Java won&#39;t remember &quot;Check for Updates Automatically&quot; setting
+#### 219. How to stop jucheck from running? Java won't remember "Check for Updates Automatically" setting
 
 **问题描述 / Problem Description**:
 Tags: windows-7, windows, windows-vista, java | Score: 115 | Views: 259895 | Answers: 10
@@ -6548,11 +6548,11 @@ C:\Program Files (x86)\Java\jre6\bin\javacpl.exe
 
 Update: For Java 7 (32-bit), look instead for:
 
-C:\Program Files (x86)\Java\jre7\bin\javacpl.exe .. and yes, Java 7 still has this problem &ndash; after all these years they didn't fix it to work properly, so this workaround is still required.
+C:\Program Files (x86)\Java\jre7\bin\javacpl.exe .. and yes, Java 7 still has this problem – after all these years they didn't fix it to work properly, so this workaround is still required.
 
 ---
 
-#### 220. Windows 10: Rename pinned items in Windows Explorer&#39;s Quick Access
+#### 220. Windows 10: Rename pinned items in Windows Explorer's Quick Access
 
 **问题描述 / Problem Description**:
 Tags: windows-explorer, windows-10 | Score: 115 | Views: 50685 | Answers: 6
@@ -6793,7 +6793,7 @@ In other words, Skype UWP users simply need to logoff from within the app to pre
 
 As a potentially viable alternative to the Skype Community Moderator's advice, you can turn off the background app functionality for Skype. Navigate to the following location:  
 
-Start &gt; Settings &gt; Privacy  
+Start > Settings > Privacy  
 
 
 Ensure that you have selected Background apps on the left-hand side, scroll down on the right until you find the entry for Skype and change the slider to Off.  
@@ -6829,10 +6829,10 @@ Uninstalling Skype for Windows 10 (Skype UWP)
 
 In contrast, the Skype UWP app won't be found in Programs and Features. As a result, if you want remove that particular version, navigate to the following location:  
 
-Start &gt; Settings &gt; Apps  
+Start > Settings > Apps  
 
 
-Ensure that you have selected Apps &amp; features on the upper-left, scroll down on the right and left-click Skype to select Uninstall.  
+Ensure that you have selected Apps & features on the upper-left, scroll down on the right and left-click Skype to select Uninstall.  
 
 Notably, if the Skype UWP application is already running, before attempting the Uninstall you may need to first select Advanced options, then choose Terminate to "Immediately terminate this app and its related processes." After that, select Uninstall as desired.
 
@@ -6964,7 +6964,7 @@ Tags: windows-10, ubuntu, dns, windows-subsystem-for-linux | Score: 110 | Views:
 **解决方案 / Solution**:
 The process I documented above is correct - this is how you change the DNS settings under WSL2.
 
-My mistake was in using the well known public DNS Servers for CloudFlare (1.1.1.1) and Google (8.8.8.8 &amp; 8.8.4.4) for testing purposes. It turns out that my local network blocks me from using public DNS. 
+My mistake was in using the well known public DNS Servers for CloudFlare (1.1.1.1) and Google (8.8.8.8 & 8.8.4.4) for testing purposes. It turns out that my local network blocks me from using public DNS. 
 
 When I tested the above process with the correct internal DNS server IP address, everything worked properly.
 
@@ -7071,7 +7071,7 @@ when I start cmd and enter echo %TEST_VAR% it says something. So it works :)
 
 ---
 
-#### 243. Windows equivalent to UNIX &quot;time&quot; command
+#### 243. Windows equivalent to UNIX "time" command
 
 **问题描述 / Problem Description**:
 Tags: windows, command-line | Score: 108 | Views: 144396 | Answers: 13
@@ -7096,50 +7096,50 @@ Tags: windows, command-line, escape-characters | Score: 108 | Views: 379548 | An
 **解决方案 / Solution**:
 It almost all works for me, but have you perhaps tried line5..  escaping the space with a caret symbol (^)
 
-1 C:\Documents and Settings\user&gt;cd ..
+1 C:\Documents and Settings\user>cd ..
 
-2 C:\Documents and Settings&gt;cd ..
+2 C:\Documents and Settings>cd ..
 
-3 C:\&gt;cd Documents and Settings
+3 C:\>cd Documents and Settings
 
-4 C:\Documents and Settings&gt;cd..
+4 C:\Documents and Settings>cd..
 
-5 C:\&gt;cd Documents^ and^ Settings
+5 C:\>cd Documents^ and^ Settings
 
-6 C:\Documents and Settings&gt;cd..
+6 C:\Documents and Settings>cd..
 
-7 C:\&gt;cd C:\documents and settings
+7 C:\>cd C:\documents and settings
 
-8 C:\Documents and Settings&gt;cd..
+8 C:\Documents and Settings>cd..
 
-9 C:\&gt;
+9 C:\>
 
 
 Or e.g. below where the caret really makes all the difference.
 
 Looks from below like the caret symbol may be your answer, see line 3 below.
 
-1 C:\&gt;"c:\Documents and Settings\a.bat"
+1 C:\>"c:\Documents and Settings\a.bat"
 gaga
 
-2 C:\&gt;c:\Documents and Settings\a.bat
+2 C:\>c:\Documents and Settings\a.bat
 'c:\Documents' is not recognized as an internal or external command,
 operable program or batch file.
 
-3 C:\&gt;c:\Documents^ and^ Settings\a.bat
+3 C:\>c:\Documents^ and^ Settings\a.bat
 gaga
 
-C:\&gt;
+C:\>
 
 ---
 
-#### 245. Can&#39;t copy and paste in Remote Desktop Connection session
+#### 245. Can't copy and paste in Remote Desktop Connection session
 
 **问题描述 / Problem Description**:
 Tags: windows, remote-desktop, copy-paste | Score: 107 | Views: 377423 | Answers: 9
 
 **解决方案 / Solution**:
-Even when you have the &quot;Clipboard&quot; option enabled, you may still have problems!
+Even when you have the "Clipboard" option enabled, you may still have problems!
 If that's the case, use Task Manager to kill and restart the rdpclip.exe process on local and remote machines.
 More details on this blog post …
 
@@ -7147,7 +7147,7 @@ The only way I really knew to fix the clipboard transfer was to close my session
 Use Task Manager to kill the rdpclip.exe process
 Run rdpclip.exe to restart it
 
-… and a pretty ridculous &quot;explanation&quot; from Microsoft.
+… and a pretty ridculous "explanation" from Microsoft.
 
 Summary
 If you have a shared clipboard problem, see if the following troubleshooting guide helps:
@@ -7180,7 +7180,7 @@ Alternative:
   net use x: \\localhost\c$\Folder\Example
 
 
-The difference between net use &amp; subst below break
+The difference between net use & subst below break
 
 
 
@@ -7196,7 +7196,7 @@ net use was introduced in win2k/xp to provide an alternative to this. When net u
 
 For more information on both commands you can query via the command line with /?
 
-net use /? &amp; subst /?
+net use /? & subst /?
 
 ---
 
@@ -7257,7 +7257,7 @@ Tags: windows, command-line, batch-file, cmd.exe, rename | Score: 106 | Views: 2
 **解决方案 / Solution**:
 These rules were discovered after extensive testing on a Vista machine. No tests were done with unicode in file names.
 RENAME requires 2 parameters - a sourceMask, followed by a targetMask. Both the sourceMask and targetMask can contain * and/or ? wildcards. The behavior of the wildcards changes slightly between source and target masks.
-Note - REN can be used to rename a folder, but wildcards are not allowed in either the sourceMask or targetMask when renaming a folder. If the sourceMask matches at least one file, then the file(s) will be renamed and folders will be ignored. If the sourceMask matches only folders and not files, then a syntax error is generated if wildcards appear in source or target. If the sourceMask does not match anything, then a &quot;file not found&quot; error results.
+Note - REN can be used to rename a folder, but wildcards are not allowed in either the sourceMask or targetMask when renaming a folder. If the sourceMask matches at least one file, then the file(s) will be renamed and folders will be ignored. If the sourceMask matches only folders and not files, then a syntax error is generated if wildcards appear in source or target. If the sourceMask does not match anything, then a "file not found" error results.
 Also, when renaming files, wildcards are only allowed in the file name portion of the sourceMask. Wildcards are not allowed in the path leading up to the file name.
 sourceMask
 The sourceMask works as a filter to determine which files are renamed. The wildcards work here the same as with any other command that filters file names.
@@ -7304,78 +7304,78 @@ After the targetMask has been exhausted, any trailing . and {space} are trimmed 
 Some practical examples
 Substitute a character in the 1st and 3rd positions prior to any extension (adds a 2nd or 3rd character if it doesn't exist yet)
 ren  *  A?Z*
-  1        -&gt; AZ
-  12       -&gt; A2Z
-  1.txt    -&gt; AZ.txt
-  12.txt   -&gt; A2Z.txt
-  123      -&gt; A2Z
-  123.txt  -&gt; A2Z.txt
-  1234     -&gt; A2Z4
-  1234.txt -&gt; A2Z4.txt
+  1        -> AZ
+  12       -> A2Z
+  1.txt    -> AZ.txt
+  12.txt   -> A2Z.txt
+  123      -> A2Z
+  123.txt  -> A2Z.txt
+  1234     -> A2Z4
+  1234.txt -> A2Z4.txt
 
 Change the (final) extension of every file
 ren  *  *.txt
-  a     -&gt; a.txt
-  b.dat -&gt; b.txt
-  c.x.y -&gt; c.x.txt
+  a     -> a.txt
+  b.dat -> b.txt
+  c.x.y -> c.x.txt
 
 Append an extension to every file
 ren  *  *?.bak
-  a     -&gt; a.bak
-  b.dat -&gt; b.dat.bak
-  c.x.y -&gt; c.x.y.bak
+  a     -> a.bak
+  b.dat -> b.dat.bak
+  c.x.y -> c.x.y.bak
 
 Remove any extra extension after the initial extension. Note that adequate ? must be used to preserve the full existing name and initial extension.
 ren  *  ?????.?????
-  a     -&gt; a
-  a.b   -&gt; a.b
-  a.b.c -&gt; a.b
-  part1.part2.part3    -&gt; part1.part2
-  123456.123456.123456 -&gt; 12345.12345   (note truncated name and extension because not enough `?` were used)
+  a     -> a
+  a.b   -> a.b
+  a.b.c -> a.b
+  part1.part2.part3    -> part1.part2
+  123456.123456.123456 -> 12345.12345   (note truncated name and extension because not enough `?` were used)
 
 Same as above, but filter out files with initial name and/or extension longer than 5 chars so that they are not truncated. (Obviously could add an additional ? on either end of targetMask to preserve names and extensions up to 6 chars long)
 ren  ?????.?????.*  ?????.?????
-  a      -&gt;  a
-  a.b    -&gt;  a.b
-  a.b.c  -&gt;  a.b
-  part1.part2.part3  -&gt;  part1.part2
+  a      ->  a
+  a.b    ->  a.b
+  a.b.c  ->  a.b
+  part1.part2.part3  ->  part1.part2
   123456.123456.123456  (Not renamed because doesn't match sourceMask)
 
 Change characters after last _ in name and attempt to preserve extension. (Doesn't work properly if _ appears in extension)
 ren  *_*  *_NEW.*
-  abcd_12345.txt  -&gt;  abcd_NEW.txt
-  abc_newt_1.dat  -&gt;  abc_newt_NEW.dat
+  abcd_12345.txt  ->  abcd_NEW.txt
+  abc_newt_1.dat  ->  abc_newt_NEW.dat
   abcdef.jpg          (Not renamed because doesn't match sourceMask)
-  abcd_123.a_b    -&gt;  abcd_123.a_NEW  (not desired, but no simple RENAME form will work in this case)
+  abcd_123.a_b    ->  abcd_123.a_NEW  (not desired, but no simple RENAME form will work in this case)
 
 Any name can be broken up into components that are delimited by .  Characters may only be appended to or deleted from the end of each component. Characters cannot be deleted from or added to the beginning or middle of a component while preserving the remainder with wildcards. Substitutions are allowed anywhere.
 ren  ??????.??????.??????  ?x.????999.*rForTheCourse
-  part1.part2            -&gt;  px.part999.rForTheCourse
-  part1.part2.part3      -&gt;  px.part999.parForTheCourse
+  part1.part2            ->  px.part999.rForTheCourse
+  part1.part2.part3      ->  px.part999.parForTheCourse
   part1.part2.part3.part4   (Not renamed because doesn't match sourceMask)
-  a.b.c                  -&gt;  ax.b999.crForTheCourse
-  a.b.CarPart3BEER       -&gt;  ax.b999.CarParForTheCourse
+  a.b.c                  ->  ax.b999.crForTheCourse
+  a.b.CarPart3BEER       ->  ax.b999.CarParForTheCourse
 
 If short names are enabled, then a sourceMask with at least 8 ? for the name and at least 3 ? for the extension will match all files because it will always match the short 8.3 name.
 ren ????????.???  ?x.????999.*rForTheCourse
-  part1.part2.part3.part4  -&gt;  px.part999.part3.parForTheCourse
+  part1.part2.part3.part4  ->  px.part999.part3.parForTheCourse
 
 
 Useful quirk/bug? for deleting name prefixes
 This SuperUser post describes how a set of forward slashes (/) can be used to delete leading characters (except .) from a file name. One slash is required for each character to be deleted. I've confirmed the behavior on a Windows 10 machine.
-ren &quot;abc-*.txt&quot; &quot;////*.txt&quot;
-  abc-123.txt        --&gt; 123.txt
-  abc-HelloWorld.txt --&gt; HelloWorld.txt
+ren "abc-*.txt" "////*.txt"
+  abc-123.txt        --> 123.txt
+  abc-HelloWorld.txt --> HelloWorld.txt
 
 Unfortunately leading / cannot remove . in a name. So the technique cannot be used to remove a prefix that contains .. For example:
-ren &quot;abc.xyz.*.txt&quot; &quot;////////*.txt&quot;
-  abc.xyz.123.txt        --&gt; .xyz.123.txt
-  abc.xyz.HelloWorld.txt --&gt; .xyz.HelloWorld.txt
+ren "abc.xyz.*.txt" "////////*.txt"
+  abc.xyz.123.txt        --> .xyz.123.txt
+  abc.xyz.HelloWorld.txt --> .xyz.HelloWorld.txt
 
 This technique only works if both the source and target masks are enclosed in double quotes. All of the following forms without the requisite quotes fail with this error: The syntax of the command is incorrect
 REM - All of these forms fail with a syntax error.
-ren abc-*.txt &quot;////*.txt&quot;
-ren &quot;abc-*.txt&quot; ////*.txt
+ren abc-*.txt "////*.txt"
+ren "abc-*.txt" ////*.txt
 ren abc-*.txt ////*.txt
 
 The / cannot be used to remove any characters in the middle or end of a file name. It can only remove leading (prefix) characters. Also note this technique does not work with folder names.
@@ -7383,31 +7383,31 @@ Technically the / is not functioning as a wildcard. Rather it is doing a simple 
 
 Possible RENAME bug - a single command may rename the same file twice!
 Starting in an empty test folder:
-C:\test&gt;copy nul 123456789.123
+C:\test>copy nul 123456789.123
         1 file(s) copied.
 
-C:\test&gt;dir /x
+C:\test>dir /x
  Volume in drive C is OS
  Volume Serial Number is EE2C-5A11
 
  Directory of C:\test
 
-09/15/2012  07:42 PM    &lt;DIR&gt;                       .
-09/15/2012  07:42 PM    &lt;DIR&gt;                       ..
+09/15/2012  07:42 PM    <DIR>                       .
+09/15/2012  07:42 PM    <DIR>                       ..
 09/15/2012  07:42 PM                 0 123456~1.123 123456789.123
                1 File(s)              0 bytes
                2 Dir(s)  327,237,562,368 bytes free
 
-C:\test&gt;ren *1* 2*3.?x
+C:\test>ren *1* 2*3.?x
 
-C:\test&gt;dir /x
+C:\test>dir /x
  Volume in drive C is OS
  Volume Serial Number is EE2C-5A11
 
  Directory of C:\test
 
-09/15/2012  07:42 PM    &lt;DIR&gt;                       .
-09/15/2012  07:42 PM    &lt;DIR&gt;                       ..
+09/15/2012  07:42 PM    <DIR>                       .
+09/15/2012  07:42 PM    <DIR>                       ..
 09/15/2012  07:42 PM                 0 223456~1.XX  223456789.123.xx
                1 File(s)              0 bytes
                2 Dir(s)  327,237,562,368 bytes free
@@ -7459,7 +7459,7 @@ Write your own. Let's say file watch.bat contains :
 :loop
   cls
   %*
-  timeout /t 5 &gt; NUL
+  timeout /t 5 > NUL
 goto loop
 
 
@@ -7485,7 +7485,7 @@ It should be noted that the instruction stops the beep globally on windows and n
 
 ---
 
-#### 254. What is the equivalent of Linux&#39;s &quot;~&quot; (tilde) shell expansion to home directory in Windows?
+#### 254. What is the equivalent of Linux's "~" (tilde) shell expansion to home directory in Windows?
 
 **问题描述 / Problem Description**:
 Tags: windows, linux, command-line | Score: 105 | Views: 69083 | Answers: 9
@@ -7567,7 +7567,7 @@ For one IP only (192.168.0.1):
 route-nopull 
 route 192.168.0.1 255.255.255.255
 
-BTW: route-nopull means &quot;don't pull routes from the server&quot;
+BTW: route-nopull means "don't pull routes from the server"
 
 ---
 
@@ -7590,11 +7590,11 @@ The documentation says that it copies all files and subdirectories from the sour
 Tags: windows, video, display | Score: 104 | Views: 18449 | Answers: 6
 
 **解决方案 / Solution**:
-That's not even a fake broken pixel. It's a 1&times;1px window &ndash; it even has the same Windows&nbsp;10-style shadow that windows usually have.
+That's not even a fake broken pixel. It's a 1×1px window – it even has the same Windows 10-style shadow that windows usually have.
 
-It might be a window that is supposed to remain hidden (programs often use invisible windows because that's required for receiving e.g. global keyboard shortcuts or other system events), yet sometimes &ndash; due to bugs in the software &ndash; such windows end up being listed in Alt+Tab or even shown on-screen anyway.
+It might be a window that is supposed to remain hidden (programs often use invisible windows because that's required for receiving e.g. global keyboard shortcuts or other system events), yet sometimes – due to bugs in the software – such windows end up being listed in Alt+Tab or even shown on-screen anyway.
 
-Various "Task Manager replacement" tools (such as Process&nbsp;Explorer) have a function  where you can just point at a window and the corresponding process will be highlighted. This will narrow it down to a specific program.
+Various "Task Manager replacement" tools (such as Process Explorer) have a function  where you can just point at a window and the corresponding process will be highlighted. This will narrow it down to a specific program.
 
 The regular Windows 10 Task Manager also has a "Startup" tab where all the startup programs can be disabled. Try disabling them all; if the pixel disappears, re-enable one, or half of them¹, repeating until you find the one that's showing the window. (Although there is a small chance that it's launched by a service and not by a startup program.)
 
@@ -7723,17 +7723,17 @@ Well, yes. There are two ways of doing this.
 One is described in many places (here, for one) and goes like this:
 
 In regedit, navigate to HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Common
-If there's no Graphics key under that Common key, right-click on the Common key and select New &gt; Key. Type in Graphics for the key name.
+If there's no Graphics key under that Common key, right-click on the Common key and select New > Key. Type in Graphics for the key name.
 With the Graphics key selected, right-click on the right side of the editor and create a new DWORD value. Name it DisableAnimation.
 Finally, double-click the DisableAnimation value and change the value to 1. Hit OK and exit the editor, then restart Windows for it to take effect.
 
 Note that for Office 2016, the DWORD key is under HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\Graphics and it should be called DisableAnimations (plural).
 The other way is through the System Performance Settings.
 
-Open &quot;System&quot; (by typing Win+Pause)
-Click the &quot;Advanced system settings&quot; in the top left.
-In the &quot;System Properties&quot; window (don't you just love consistency?), go to the &quot;Advanced&quot; tab and click the &quot;Settings&quot; button in the first section, &quot;Performance&quot;.
-In the &quot;Performance Options&quot; window, on the &quot;Visual Effects&quot; tab, deselect the first option, &quot;Animate controls and elements inside windows&quot;. You may want to disable a bunch of other useless animations here, too, but don't disable the &quot;Smooth edges of screen fonts&quot;. Curiously, you don't have to restart Windows if you do it this way.
+Open "System" (by typing Win+Pause)
+Click the "Advanced system settings" in the top left.
+In the "System Properties" window (don't you just love consistency?), go to the "Advanced" tab and click the "Settings" button in the first section, "Performance".
+In the "Performance Options" window, on the "Visual Effects" tab, deselect the first option, "Animate controls and elements inside windows". You may want to disable a bunch of other useless animations here, too, but don't disable the "Smooth edges of screen fonts". Curiously, you don't have to restart Windows if you do it this way.
 
 Edit: The latter method may look very different on Windows 10, sorry I missed that part.
 
@@ -7850,10 +7850,10 @@ Tags: windows, command-line, zip | Score: 101 | Views: 615492 | Answers: 6
 
 **解决方案 / Solution**:
 On Windows 10 build 17063 or later you can use tar.exe (similar to the *nix one). This is also available in the nanoserver docker container
-C:\&gt; tar -xf archive.zip
+C:\> tar -xf archive.zip
 
 Note: zip support is not well documented
-ref: https://www.freebsd.org/cgi/man.cgi?query=bsdtar&amp;sektion=1&amp;manpath=FreeBSD+5.3-stable
+ref: https://www.freebsd.org/cgi/man.cgi?query=bsdtar&sektion=1&manpath=FreeBSD+5.3-stable
 
 ---
 
@@ -7874,11 +7874,11 @@ inside these quotes you have to work with ' otherwise it will interrupt your com
 
 Edit: Additional Information:
 
-quite often you will encounter this: powershell -command "&amp; 'somestuff'" 
+quite often you will encounter this: powershell -command "& 'somestuff'" 
 
-the &amp; is used to call a File. when you're only using a command &amp; is unnessecary, when you want to call a script, you should use it. 
+the & is used to call a File. when you're only using a command & is unnessecary, when you want to call a script, you should use it. 
 
-powershell -command "&amp; 'C:\foobar.ps1'" 
+powershell -command "& 'C:\foobar.ps1'" 
 
 You could also use powershell -file C:\file.ps1 to call a script
 
@@ -7989,7 +7989,7 @@ You may also want to disable automatic detection of languages in Word (Tools/Lan
 
 ---
 
-#### 274. Why can&#39;t you uninstall multiple programs at once in Windows?
+#### 274. Why can't you uninstall multiple programs at once in Windows?
 
 **问题描述 / Problem Description**:
 Tags: windows-7, windows, uninstall | Score: 100 | Views: 28508 | Answers: 4
@@ -8012,18 +8012,18 @@ Tags: windows, chmod, file-attributes | Score: 100 | Views: 655210 | Answers: 9
 
 **解决方案 / Solution**:
 Greg mentions attrib - but attrib  isn't anywhere close to chmod - attrib can set Read-only/Hidden attributes of a single file - it doesn't provide fine-grained controls like icacls does.
-icacls sets/resets the access control lists, so you can grant/deny rights for individual SIDs &amp; groups. It is fairly complicated though.
-Here's an example I have saved in my github gist; it resets the ownership and access control list for all files in a folder and is particularly useful to fix those annoying &quot;You need permissions from .. to perform this action&quot; especially when moving files over from a previous install:
+icacls sets/resets the access control lists, so you can grant/deny rights for individual SIDs & groups. It is fairly complicated though.
+Here's an example I have saved in my github gist; it resets the ownership and access control list for all files in a folder and is particularly useful to fix those annoying "You need permissions from .. to perform this action" especially when moving files over from a previous install:
 icacls * /reset /t /c /q 
 
 Here, we have that
 
 /reset replaces the existing one with the default list. 
-/t acts recursively on all files, folders &amp; subfolders 
+/t acts recursively on all files, folders & subfolders 
 /q doesn't display any success messages 
 /c continues with remaining files even in an error occurs.
 
-You can also do things like backup the existing ACLs &amp; apply them across all. Have a look at ss64 which explains the different options &amp; switches very well.
+You can also do things like backup the existing ACLs & apply them across all. Have a look at ss64 which explains the different options & switches very well.
 
 ---
 
@@ -8124,8 +8124,8 @@ https://github.com/git/git/commit/ac6b03cb4197311b055dc5f46ab10bf37c591ae6
 
 Here is the list from the commit description:
 
---command=&lt;command-line&gt;::
-    Executes `&lt;command-line&gt;` instead of the embedded string resource
+--command=<command-line>::
+    Executes `<command-line>` instead of the embedded string resource
 
 --[no-]minimal-search-path::
     Ensures that only `/cmd/` is added to the `PATH` instead of
@@ -8156,7 +8156,7 @@ The feature has now been released as one of several "Virtual Desktop Improvement
 
 ---
 
-#### 281. What&#39;s the difference between stereo and hands free?
+#### 281. What's the difference between stereo and hands free?
 
 **问题描述 / Problem Description**:
 Tags: windows-10, audio, bluetooth | Score: 99 | Views: 501110 | Answers: 3
@@ -8201,7 +8201,7 @@ From an elevated command prompt, type wmic os get osarchitecture.  The output is
 
 ---
 
-#### 284. How can I check a system&#39;s current NTP configuration?
+#### 284. How can I check a system's current NTP configuration?
 
 **问题描述 / Problem Description**:
 Tags: windows, command-line, batch-file, date-time, ntp | Score: 98 | Views: 1811121 | Answers: 6
@@ -8291,7 +8291,7 @@ Tags: windows, windows-11 | Score: 97 | Views: 127173 | Answers: 5
 You can disable automatic restart after installing updates in the Group Policy Editor.
 
 Open the Group Policy Editor (gpedit.msc).
-Go to Administrative Templates &gt; Windows Components &gt; Windows Update &gt; Manage end user experience.
+Go to Administrative Templates > Windows Components > Windows Update > Manage end user experience.
 Double-click on “No auto-restart with logged on users for scheduled automatic updates installations”.
 Select Enabled, and then select OK.
 
@@ -8299,7 +8299,7 @@ Note: See comments, you also need to enable 'Configure Automatic Updates'
 
 ---
 
-#### 289. Why is DNS apparently involved in issuing &quot;dir&quot; on Windows 10?
+#### 289. Why is DNS apparently involved in issuing "dir" on Windows 10?
 
 **问题描述 / Problem Description**:
 Tags: windows-10, command-line, dns, cmd.exe, dir | Score: 97 | Views: 10740 | Answers: 2
@@ -8337,13 +8337,13 @@ Tags: windows, uninstall | Score: 96 | Views: 15067 | Answers: 13
 **解决方案 / Solution**:
 No extra hardware required:
 
-The &quot;probably good enough&quot; approach would be to make a System Restore point before installing the software and rollback to it later. Some configuration and temporary files etc. can remain after this, as System Restore is preserving user files and only restoring executables to the earlier state, but without anything to make use of them these files will be harmless. They can take up a (probably insignificant) amount of disk space, but they won't make a difference security- and privacy-wise.
+The "probably good enough" approach would be to make a System Restore point before installing the software and rollback to it later. Some configuration and temporary files etc. can remain after this, as System Restore is preserving user files and only restoring executables to the earlier state, but without anything to make use of them these files will be harmless. They can take up a (probably insignificant) amount of disk space, but they won't make a difference security- and privacy-wise.
 
 Extra disk required:
 
 You can take a full disk image (or OS partition image) to an external drive before installing software in question and restore the image later. This will undo everything that happened on that disk in the meantime, including changes in user files, so if you're using a password manager etc. make sure you have an independent copy on another media.
 
-If you have a second internal disk of at least the same size and without anything important on it, you can clone the system disk to that one, swap them and install the software on the cloned disk. Once you're done just repartition &amp; format the clone. Your original disk stays untouched the entire time.
+If you have a second internal disk of at least the same size and without anything important on it, you can clone the system disk to that one, swap them and install the software on the cloned disk. Once you're done just repartition & format the clone. Your original disk stays untouched the entire time.
 
 
 Some extra disk space required:
@@ -8352,7 +8352,7 @@ The ultimate approach would be to install a throwaway OS just for this purpose. 
 
 USB flash drive or external drive required:
 
-A variant of the &quot;throwaway OS&quot; approach is to use a live system on a USB flash drive/external drive, namely the Windows To Go feature. You could use Rufus to create a Windows To Go flash drive from an official ISO downloaded from Microsoft (also possible with Rufus). You can then boot from that USB media to a clean Windows install without affecting your main OS. Make sure that your disk partitions are not mounted for privacy. (Thanks to @MechMK1 and @Akeo for suggesting this in the comments!)
+A variant of the "throwaway OS" approach is to use a live system on a USB flash drive/external drive, namely the Windows To Go feature. You could use Rufus to create a Windows To Go flash drive from an official ISO downloaded from Microsoft (also possible with Rufus). You can then boot from that USB media to a clean Windows install without affecting your main OS. Make sure that your disk partitions are not mounted for privacy. (Thanks to @MechMK1 and @Akeo for suggesting this in the comments!)
 
 Possible alternatives:
 
@@ -8402,7 +8402,7 @@ The additions are as follows:
 
 
 /Z allows the job to be restarted
-/LOG:&lt;logfile path&gt; is pretty self-explanatory.
+/LOG:<logfile path> is pretty self-explanatory.
 /XF is being used to exclude certain filetypes so it doesn't take so long
 
 ---
@@ -8448,7 +8448,7 @@ Mount the VDI as a hard disk.
 
 ---
 
-#### 295. What&#39;s the difference between &#39;C&#39; and &#39;CE&#39; functions on Windows calculator?
+#### 295. What's the difference between 'C' and 'CE' functions on Windows calculator?
 
 **问题描述 / Problem Description**:
 Tags: windows, windows-7, terminology, calculator | Score: 95 | Views: 246950 | Answers: 2
@@ -8829,8 +8829,8 @@ See V2EX thread for community solutions.
 在 Windows API 中，路径的最大长度为 MAX_PATH ，为 260 个字符。
 系统按以下顺序构建本地路径：驱动器号、冒号、反斜杠、用反斜杠分隔的路径和终止 null 字符。
 例如，驱动器 D 上的最大路径为：
-D:\某个 256 个字符的路径字符串&lt;NUL&gt;
-其中 &lt;NUL&gt; 表示当前系统代码页的不可见终止 null 字符。（&lt;&gt; 字符在此用于醒目用途，不能作为有效路径字符串的一部分。）  
+D:\某个 256 个字符的路径字符串<NUL>
+其中 <NUL> 表示当前系统代码页的不可见终止 null 字符。（<> 字符在此用于醒目用途，不能作为有效路径字符串的一部分。）  
 文档到这里的意思是：路
 
 **解决方案 / Solution**:
@@ -8845,5 +8845,4151 @@ See V2EX thread for community solutions.
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
+
+---
+
+#### 317. How do I disable a physical CoPilot button?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, microsoft-copilot | Score: 21 | Views: 2049 | Answers: 2 | Created: 2026-04-04
+
+**解决方案 / Solution**:
+Microsoft PowerToys Keyboard Manager can do it, but instead of "Remap a key", use "Remap a Shortcut", and remap Win (Left)+Shift (Left)+F23 to "Disable":
+
+Can also be remapped to left-arrow.
+(Found the solution like 40 minutes after posting the question)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936426/how-do-i-disable-a-physical-copilot-button
+
+---
+
+#### 318. Why can’t I kill a process under Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, process, kill | Score: 7 | Views: 2051 | Answers: 2 | Created: 2026-03-25
+
+**解决方案 / Solution**:
+You state, "a stuck process... [that] survives powering off the system." If the PC was completely shut down, with no power and nothing running, then the only way that process could "survive" is by starting up each time the machine boots.
+
+Check the the machine is truly completely shut down:
+
+Press Windows, type cmd, and press CtrlShiftEnter to open a CMD prompt as administrator.
+Type powercfg /h off and press Enter to turn off hibernation.
+Type shutdown /s /t 00 and press Enter to fully shut down.
+
+
+If the process is still running after rebooting, use Microsoft/Sysinternals Autoruns to determine how that process is launched, whether VirusTotal deems it safe (last column, below) and other information. Note that just one or two negative votes from the 60 or so VirusTotal engines may not indicate an issue. You can use Autoruns to prevent a process from starting automatically by unchecking the box in the first column.
+
+
+One way to forcefully delete a file is to use a third-party tool such as LockHunter or an alternative. If the file has open handles or is a running application, these tools can schedule. its deletion during reboot, before the app can start.
+
+
+Finally, perform a full malware scan. You can use Windows built-in Defender, or try a standalone offline antimalware scan, such as
+Microsoft Defender Offline, ESET SysRescue Live or an alternative.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936151/why-can-t-i-kill-a-process-under-windows-11
+
+---
+
+#### 319. What can I do to run “Microsoft Picture! Digital Image Pro” on a modern, 64 Bit Windows 11 computer?
+
+**问题描述 / Problem Description**:
+Tags: windows-7, windows-10, windows-xp-mode | Score: 7 | Views: 1568 | Answers: 1 | Created: 2026-01-26
+
+**解决方案 / Solution**:
+To install Microsoft Digital Image Pro (versions 7 and 10 tested) on 64 bit Windows:
+Start the installer normally.
+When you see this message click OK:
+
+When you see this message do NOT click OK:
+
+Leave everything alone and sign out of Windows (right-click Windows icon > Shut down or sign out > Sign out). Do not restart. Do not shutdown.
+You will then see a screen that shows that the installer is preventing sign out. That's good. Wait a few seconds and then click the Cancel button that is on that screen.
+That will take you back to the desktop.
+Now you can click OK on that second dialog.
+The install will continue. Let it finish. It may pause for a bit, but just be patient. It should finish up correctly.
+Source:
+https://www.elevenforum.com/t/microsoft-digital-image-pro-10-wont-install.11480/#post-369327
+Alternative solution: Start the installation and open task manager. Watch for msiexec processes that have your user name (i.e. NOT System). There will initially be one, then two, and then three when the IE install runs. Kill the third one and the install will proceed and complete successfully.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934182/what-can-i-do-to-run-microsoft-picture-digital-image-pro-on-a-modern-64-bit
+
+---
+
+#### 320. How to reduce memory/CPU usage during build by Visual Studio build?
+
+**问题描述 / Problem Description**:
+Tags: windows, performance, visual-studio, blocking, build | Score: 6 | Views: 1017 | Answers: 1 | Created: 2026-04-14
+
+**解决方案 / Solution**:
+First of all, @Grawity, I'd like to thank you for your comment, but I believe I've found the key issue:
+I mentioned the maximum number of concurrent threads per build to be 14, but apparently that seems to be wrong: it was set to 28 ("Tools" menu, "Options", "Build and Run"):
+
+I've modified this to 12 (first I'd modified it to 14, but due to a comment from Criggie I decided to go for 12.)
+Important remark:
+If you have different Visual Studio sessions opened, your modification will be spread over the others too, except if one of those others has that particular option (Build and Run) opened. As a rule of thumb, I'd advise you to close all VS sessions, just to be sure.
+That 28 corresponds with the amount of logical cores, as you can see in this screenshot of the Task Manager, Performance tab, CPU page:
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936726/how-to-reduce-memory-cpu-usage-during-build-by-visual-studio-build
+
+---
+
+#### 321. How can I prevent Microsoft Edge from restoring tab groups on startup?
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, microsoft-edge | Score: 6 | Views: 435 | Answers: 1 | Created: 2026-04-08
+
+**解决方案 / Solution**:
+There is no built-in Edge setting to suppress tab group restoration. The workaround is a PowerShell script that runs in the background and cleans up after Edge closes.
+How Edge stores tab groups
+Edge persists tab groups in two places:
+
+%LOCALAPPDATA%\Microsoft\Edge\User Data\Default\Preferences — JSON key tab_groups (group definitions with titles, colors, tab URLs)
+%LOCALAPPDATA%\Microsoft\Edge\User Data\Default\Sessions\Session_* and Tabs_* — binary session files
+
+Clearing both prevents Edge from restoring groups on the next launch. Your startup pages setting ("Open specific pages") is stored separately and is not affected.
+Solution: Background PowerShell script + scheduled task
+The script watches for msedge.exe to exit, then clears tab_groups in Preferences and deletes the session files.
+Full script on GitHub Gist: https://gist.github.com/Der-Mischa-mit-sch/10f9ee2806657b8775363eee57528e1b
+Setup (one time):
+
+Save Clear-EdgeTabGroups.ps1 to any folder (e.g. C:\Scripts\)
+Register the scheduled task to run it at login:
+
+$action  = New-ScheduledTaskAction `
+    -Execute 'powershell.exe' `
+    -Argument '-NonInteractive -WindowStyle Hidden -ExecutionPolicy Bypass -File "C:\Scripts\Clear-EdgeTabGroups.ps1"'
+$trigger  = New-ScheduledTaskTrigger -AtLogOn -User $env:USERNAME
+$settings = New-ScheduledTaskSettingsSet -ExecutionTimeLimit (New-TimeSpan -Days 365) -MultipleInstances IgnoreNew
+Register-ScheduledTask -TaskName 'ClearEdgeTabGroupsOnClose' `
+    -Action $action -Trigger $trigger -Settings $settings -Force
+
+The script requires no admin rights — it only modifies files in your own user profile.
+What the script does on each Edge close:
+
+Sets tab_groups to [] in Preferences
+Deletes Session_* and Tabs_* files from the Sessions\ folder
+Logs each cleanup to Clear-EdgeTabGroups.log next to the script
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936539/how-can-i-prevent-microsoft-edge-from-restoring-tab-groups-on-startup
+
+---
+
+#### 322. 20+ services get installed automatically and I can't find a way to disable them
+
+**问题描述 / Problem Description**:
+Tags: windows, services | Score: 6 | Views: 1066 | Answers: 1 | Created: 2026-04-02
+
+**解决方案 / Solution**:
+These are legit Per-user services in Windows 10 and upwards. They have a Locally Unique Identifier (LUID) suffix at the end of the name.
+Their templates are in HKLM\SYSTEM\CurrentControlSet\Services where you can change startup behavior.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936365/20-services-get-installed-automatically-and-i-cant-find-a-way-to-disable-them
+
+---
+
+#### 323. Disk usage at 100% when any single program runs
+
+**问题描述 / Problem Description**:
+Tags: hard-drive, windows-11 | Score: 5 | Views: 83 | Answers: 1 | Created: 2026-04-04
+
+**解决方案 / Solution**:
+Determine if the issue is due to hardware or software.
+
+Use a tool such as free CrystalDiskMark or an alternative to establish a baseline for speed with the current operating system (OS) on existing hardware.
+Create a bootable USB drive with its own OS, such as Hiren's BootCD PE or an alternative, boot from it, and run the same speed test app.
+If there is a drastic difference in speed, then you've determined the issue is with Windows OS and/or software on the HDD; if there is little difference, then you ascertained it's a hardware issue, such as bad controller on the PCB or bad connector.
+
+
+If the issue is OS/software, look At Task Manager's Details tab. Add columns I/O reads, I/O writes, I/O read bytes, and I/O write bytes by clicking on the column header and selecting them. Look for any process with excessive I/O and high priority that might be causing the issue. In particular, look to Windows OS apps that might be checking files, such as Defender or third-party AV, and Search Indexer. Also check for malware with a thorough scan.
+
+
+
+
+If it's a hardware issue, check for broken wires and bad connections, or take it in for professional help.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936427/disk-usage-at-100-when-any-single-program-runs
+
+---
+
+#### 324. Why is Windows prompting for USB passkey I haven't created?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, security, passkey | Score: 5 | Views: 2708 | Answers: 2 | Created: 2026-02-24
+
+**解决方案 / Solution**:
+I don't know how MS has suddenly decided that I have an active USB passkey.
+
+It hasn't. The OS doesn't keep track of any associations with hardware passkeys – they are self-contained devices – so it doesn't really know whether you have one or not.
+But the OS does know whether you have Windows Hello set up or not. If you don't have Windows Hello, but a program requests to access a passkey, then the only other choice is to prompt you to connect an external key.
+(On a machine with Bluetooth it would also give you an option between USB and pairing your phone via CaBLE – but on a desktop without Bluetooth it'll directly ask for USB.)
+More specifically, even if you do have Windows Hello set up, the OS also knows whether it has stored that specific passkey in Hello or not. So if you had some passkeys before, but managed to accidentally reset the Hello storage – as can be guessed from you having to set up a new PIN – then Windows won't be able to satisfy the request by itself and will ask for an external key (because, again, it doesn't know whether you have one).
+Enabling/disabling "virtualization-based security" (e.g. to use VirtualBox) will reset the Windows Hello passkey storage. Clearing the TPM will also do so (Hello doesn't require a TPM but will use one if available).
+Note that the use (or non-use) of a USB passkey for Windows itself has no influence on the passkey storage used by other programs. So even if Windows knows that you don't have a USB passkey for the Microsoft Account specifically, it still does not know that you don't have a USB passkey for, say, Discord or whatever website you visited in Vivaldi.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935235/why-is-windows-prompting-for-usb-passkey-i-havent-created
+
+---
+
+#### 325. Windows 10 lost about 60 GB after two System Restore operations, but shadow storage shows minimal usage – where did the space go?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, ntfs, storage, disk-space, vss | Score: 5 | Views: 448 | Answers: 1 | Created: 2026-02-22
+
+**解决方案 / Solution**:
+Solution:
+After running System Restore twice, I lost about 60 GB of free space. VSS, shadow copies, WinSxS and normal cleanup tools showed nothing unusual.
+I used WinDirStat (run as Administrator) and discovered that the space was taken by the hidden NTFS metadata structure:
+$Extend → $RmMetadata → $Txf (~60 GB)
+
+This is the Transactional NTFS (TxF) journal, which had grown and was not automatically cleaned after System Restore.
+I fixed it by resetting the NTFS transaction log in PowerShell (run as Administrator):
+fsutil resource setautoreset true C:\
+chkdsk C: /f
+
+After rebooting, NTFS rebuilt the transaction log, $Txf shrank, and the ~60 GB of free space was restored.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935174/windows-10-lost-about-60-gb-after-two-system-restore-operations-but-shadow-stor
+
+---
+
+#### 326. How can I reload a command prompt after modifying an environment variable in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows, command-line, windows-11, environment-variables, refresh | Score: 4 | Views: 279 | Answers: 2 | Created: 2026-04-17
+
+**解决方案 / Solution**:
+Explanation: why doesn't it work?
+
+In order for that environment variable to be taken into account, I need to restart my command prompt.
+
+GUI
+If you permanently set environment variables using the GUI tools, those only apply to a new cmd.exe session, not to the cmd.exe sessions already in progress.
+
+CMD
+If you temporarily set environment variables using the set command, those apply to the remainder of the current cmd.exe session
+C:\> ver
+
+Microsoft Windows [Version 10.0.19045.6466]
+
+C:\> echo %example%
+%example%
+
+C:\> set example=lorem
+
+C:\> echo %example%
+lorem
+
+C:\>
+
+You can make permanent changes from the command line using the setx command. See setx /?
+CMD2
+Command prompt sessions started within  an existing session just inherit variables from the parent session
+
+
+See also
+The workings of environment variables and command-prompt sessions (cmd.exe) is also touched on in the following
+
+How to list global environment variables separately from user-specific environment variables?
+
+Solution: how to make it work?
+In order for the request to be possible (loading modified environment variables into a command prompt), the best solution is to define those environment variables inside the command prompt, but this comes with a major thing to think about: you need to start up your command prompt under administrator privileges!
+Once this is done, you can do the following:
+setx /M zwam_var zwam_value
+
+(The /M switch is needed for setting a machine-wide environment variable.)
+Hereby the result:
+
+Obviously, as you are creating/modifying environment variables inside your prompt, no history gets lost.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936809/how-can-i-reload-a-command-prompt-after-modifying-an-environment-variable-in-win
+
+---
+
+#### 327. How to get rid of a “Untrusted theme files have been blocked by the system administrator” message on Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows, desktop-customization, themes | Score: 4 | Views: 320 | Answers: 1 | Created: 2026-04-02
+
+**解决方案 / Solution**:
+The problem is related to the fact that the Desktop folder is now on a network location, but it’s not that alone.
+I suppose this is the subject of another question, but I’ve found that Windows doesn’t treat network locations the same as maps to these locations.
+If I move the Desktop to say:
+S:\shared\Desktop
+
+I get the behaviour as above.
+If I move it to, say:
+\\SERVER\shared\Desktop
+
+Everything’s OK.
+It seems Windows treats the map as more remote than the simple share.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936366/how-to-get-rid-of-a-untrusted-theme-files-have-been-blocked-by-the-system-admin
+
+---
+
+#### 328. How to resolve "operation could not be completed because the vhdx is currently in use" for wsl despite prior `wsl.exe --shutdown`?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, wsl2, virtual-disk | Score: 3 | Views: 297 | Answers: 1 | Created: 2026-04-19
+
+**解决方案 / Solution**:
+In my case, I could see that my Virtual Disk was mounted:
+> Get-Disk | Where-Object Model -match "Virtual Disk"
+
+Number Friendly Name                                                                                           Serial Number                    HealthStatus         OperationalStatus      Total Size Partition
+                                                                                                                                                                                                       Style
+------ -------------                                                                                           -------------                    ------------         -----------------      ---------- ----------
+4      Msft Virtual Disk                                                                                                                        Healthy              Online                       1 TB RAW
+
+I most likely forgot the detach vdisk after I shrank the virtaul disk with diskpart.
+One can the dismount that either via:
+> Dismount-VHD -DiskNumber 4
+
+You could also open diskmgmt.msc via Windows + R, the vdisk will be listed there e.g. as "Disk 4".
+Right click it and select "Detach VHD".
+Then:
+> wsl --manage Debian --set-sparse true --allow-unsafe
+Conversion in progress, this may take a few minutes.
+The operation completed successfully.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936864/how-to-resolve-operation-could-not-be-completed-because-the-vhdx-is-currently-i
+
+---
+
+#### 329. With a single window, Firefox quits with CTRL SHIFT Q, but doesn't quit when I close the last window. Is that new and is there a setting?
+
+**问题描述 / Problem Description**:
+Tags: windows, firefox, process | Score: 3 | Views: 491 | Answers: 1 | Created: 2026-04-14
+
+**解决方案 / Solution**:
+What version of Firefox, and for what language, are you using? The Mozilla list for keyboard shortcuts, using English-US language settings, does not list CtrlShiftQ at all. CtrlQ is supposed "Quit", but I find that does nothing on my machines running Firefox 149.0.2, neither on Windows nor on Ubuntu 24.04. Your suggestion to use CtrlShiftQ also does nothing.
+
+In the URL bar, type about:config.
+In the Search bar for the form, enter lastt.
+Double-click browser.tabs.closeWindowWithLastTab to set it to true.
+
+Now, closing the last tab will also close Firefox.
+However, you state in a comment that AltF4, which is listed, does not close Firefox. That key combo is used almost universally in Windows and Linux to end an application. If that fails, then something is seriously wrong.
+
+Press Alt, then H and M to restart Firefox in Troubleshooting Mode. If AltF4 now works to quit the app, look to some extension (perhaps malware) as causing the issue.
+If AltF4 still does not work, check in Task Manager to see whether you're the owner of the Firefox process.
+Also look in Autoruns to see if some automatically started process keeps Firefox running.
+Perform a thorough check for malware.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936724/with-a-single-window-firefox-quits-with-ctrl-shift-q-but-doesnt-quit-when-i-c
+
+---
+
+#### 330. How to isolate a Standard User in Windows 11 with specific drive restrictions and a 10GB disk quota?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, guest-account | Score: 3 | Views: 52 | Answers: 1 | Created: 2026-04-12
+
+**解决方案 / Solution**:
+For the disk quota, you need to go into quota settings.
+
+Open file explorer
+Right click on the disk, select Properties
+Click on Quot Tab
+Show Quota Settings (you will need admin access)
+Enable quota management
+Deny disk space to users exceeding quota limit
+Set your disk space limit
+Apply
+
+To deny the use of D: drive
+
+Add yourself
+Remove authenticated users
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936660/how-to-isolate-a-standard-user-in-windows-11-with-specific-drive-restrictions-an
+
+---
+
+#### 331. Microsoft Store (and Xbox app) say that they are not available in my country/region (Canada) - user account issue
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, user-accounts, language, microsoft-store | Score: 3 | Views: 77 | Answers: 1 | Created: 2026-03-25
+
+**解决方案 / Solution**:
+Ok, so after a bunch of searching, I eventually installed ProcMon, and started looking at the failing processes (for me it was GameBar, Microsoft Store, and Xbox)
+I went Filter->Filter, and filtered to the process name, as well as Result is ACCESS DENIED.
+I went to regedit, in regedit, I right-clicked on one of the keys that had ACCESS DENIED, and selected Permissions.
+I noticed that these keys had an object named ALL APPLICATION PACKAGES given read rights in my local account, but this object was missing in my main account.
+I bulk edited every key to give ALL APPLICATION PACKAGES permissions. You can grab the list from ProcMon by Saving as a csv file, then using your favourite language of choice to grab the unique entries that start with HK (I only had to change the registry keys, not any of the other folders).
+I started with GameBar, then went to Microsoft Store. The xbox app didn't launch, so I search for the xboxinstaller to reinstall that, and it seems like give ALL APPLICATION PACKAGES access rights fixed it automatically.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936180/microsoft-store-and-xbox-app-say-that-they-are-not-available-in-my-country-reg
+
+---
+
+#### 332. Why does network jitter increase with computer uptime? How to fix?
+
+**问题描述 / Problem Description**:
+Tags: windows, wireless-networking, jitter | Score: 2 | Views: 75 | Answers: 1 | Created: 2026-04-21
+
+**解决方案 / Solution**:
+This is how I'd troubleshoot this:
+
+A different device connected to the same network, connecting to the same VPN endpoints:
+
+
+If this different device has the same symptoms, the problem is with the network or the VPN endpoints.
+If this different device does not have problems, the problem is with your computer.
+
+
+Use different software (OS) on the problem computer. A "Linux Live" drive is probably the easiest way to do this. Then, connect to the same network and to the same VPN endpoints.
+
+
+If the different OS has does not have any problems, the problem is with the OS/software on your computer.
+If the different OS does have the problems, the problem is with your computer hardware.
+
+These two tests will isolate where the problem is occurring.
+I would also make sure you're running the latest available drivers and firmware for your computer, just as a general recommendation, to maximize the chances of successful function.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936924/why-does-network-jitter-increase-with-computer-uptime-how-to-fix
+
+---
+
+#### 333. Windows has a broken passkey for Microsoft account - but I cannot delete the passkey
+
+**问题描述 / Problem Description**:
+Tags: windows, microsoft-account, passkey | Score: 2 | Views: 169 | Answers: 2 | Created: 2026-04-11
+
+**解决方案 / Solution**:
+You can delete all passkeys together with Windows Hello's PIN, fingerprint and face data using
+certutil.exe -DeleteHelloContainer -v
+
+and signing out.
+It will list deleted passkeys one by one. You'll lose the aforementioned biometric and PIN data also used for passwordless sign-in to Windows. On business devices you might be required to enter them again at next login. Or you just want that yourself to regain that option.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936645/windows-has-a-broken-passkey-for-microsoft-account-but-i-cannot-delete-the-pas
+
+---
+
+#### 334. Did Microsoft force-install Copilot during a recent (2026 April) Microsoft Edge update?
+
+**问题描述 / Problem Description**:
+Tags: windows, installation, windows-11, microsoft-edge, microsoft-copilot | Score: 2 | Views: 663 | Answers: 1 | Created: 2026-04-08
+
+**解决方案 / Solution**:
+I have Windows 10 Home with MS365. Event Viewer shows it installed Copilot as a new service on 2026 April 07. This was about an hour after it updated Defender Antivirus - KB2267602 (Version 1.447.207.0) but the event log shows that was successfully installed the day before! Following that, the log shows literally thousands of DCOM errors (I counted over 80 in one randomly chosen second period). Some of these mention trying to run C:\Program Files (x86)\Microsoft\Copilot\Application\mscopilot_proxy.exe. The PC crashed this morning prompting me to look for reasons. I have a new directory, C:\Program Files (x86)\Microsoft\Copilot with 0.87GB of files. (Time) correlation doesn’t prove causality but this seems suspicious.
+There are plenty of articles online from 2024 October stating MS forcefully installed Copilot on Windows 10/11 outside the European Economic Area (EEA). Have they just sussed out that another Brexit benefit is they can now also force unwanted software on those living in the UK?
+(Edited - I'm new to this. I presented the evidence but no conclusion.) I believe Microsoft installed Copilot on customers' computers without asking their permission or giving notification in 2026 April. This recent push may be restricted to just customers in the UK following its exit from the European Economic Area which was spared in 2024.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936543/did-microsoft-force-install-copilot-during-a-recent-2026-april-microsoft-edge
+
+---
+
+#### 335. I want to move taskbar icons on the bar, but they don't stay where I put them. If possible, how do I do this in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, taskbar, icons, shortcuts, user-interface | Score: 2 | Views: 48 | Answers: 1 | Created: 2026-04-05
+
+**解决方案 / Solution**:
+1. Create a new user
+Open Settings > Accounts > Other User and click Add Account.
+Note: Windows wants you to use a Microsoft account, but you should be able to choose "Add a user without a Microsoft account" for this test.
+Reference: Microsoft.Com: Manage User Accounts in Windows
+2. Login as the new user and test
+Sign out of your account and then log in to the account you've just created.
+Add shortcuts to the taskbar in the new account and rearrange the existing shortcuts, then reboot the computer and few times and see whether the changes you've made revert like they do in your original profile or not.
+3. Here's your diagnosis
+
+If the taskbar behaves correctly in the new profile and remembers your shortcut movements, the problem is with your profile. Backup your data and transfer it to the new user account. If you have a Microsoft account, consider recreating that Microsoft account user using the same instructions in Step 1 above.
+
+If you observe the same incorrect behavior in this new account as you do in your other account, the problem is in your OS and you should follow standard Windows Repair steps. Microsoft.com: Fix issues by reinstalling the current version of Windows
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936460/i-want-to-move-taskbar-icons-on-the-bar-but-they-dont-stay-where-i-put-them-i
+
+---
+
+#### 336. How do I hide the "What's New in Notepad" megaphone icon in Notepad?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, user-interface, notepad | Score: 2 | Views: 114 | Answers: 1 | Created: 2026-03-20
+
+**解决方案 / Solution**:
+There's no official way to remove that icon; it's part of the Microsoft UI.
+It might be  possible to do it with some hack found on internet, but that's probably not a good idea(things like this, sometimes involve change app files manually, and can break it). The best solution is to switch to another app(like the old Notepad, for example).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936034/how-do-i-hide-the-whats-new-in-notepad-megaphone-icon-in-notepad
+
+---
+
+#### 337. Options to remove/hide Quick Access' pin icon in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, icons, desktop-customization | Score: 2 | Views: 80 | Answers: 1 | Created: 2026-03-15
+
+**解决方案 / Solution**:
+Here is what I figured out myself. Of course, I am still on the look out for a more refined solution from someone with more expertise.
+Disclaimer: Trusted Installer carries a lot of risks - I know there are communities who will just uncritically shut down any mention of it to be on the safe side. Do every needed backup procedure before proceeding.
+Requirement:
+
+Transparent .ico file (or transparent icon group saved as .res)
+Resource Hacker (RH)
+A way to elevate RH to TrustedInstaller
+
+Steps
+
+For ways to elevate RH to TrustedInstaller, I used Winaero since they have a pretty good record. There is also this alternative that I saw on Github but never tried.
+The Quick Access Pin is located in C:\Windows\SystemResources\imageres.dll.mun.
+Navigate to the folder with the elevated RH and open it, the pin is in Icon Group #5100 and the Icon Group folder is the second to last one in the navigation pane to the left.
+Right click on the icon group and select "Replace Icon", then select the transparent icon you prepared. If you don't have one on hand, you can export the pin icon file and create a transparent version from that.
+After replacing the pin. Just save directly to the file. You cannot save it as a separate file elsewhere that you can move and replace the original file later, as that would require Explorer to be elevated to TI too.
+If it doesnt take effect immediately, rebuild your icon cache.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935870/options-to-remove-hide-quick-access-pin-icon-in-windows-11
+
+---
+
+#### 338. Why am I experiencing drive failure after opening a folder from IDE?
+
+**问题描述 / Problem Description**:
+Tags: linux, windows-10, ubuntu, hard-drive, mount | Score: 2 | Views: 80 | Answers: 1 | Created: 2026-01-25
+
+**解决方案 / Solution**:
+This usually happens when the NTFS partition was left in hibernated / fast-startup state by Windows. ntfsfix clears it temporarily, but it comes back after reboot.
+Best fix: boot back into Windows, disable Fast Startup, do a full shutdown, then mount again in Ubuntu.
+If you want it auto-mounted every boot, add it properly in /etc/fstab instead of mounting manually. Data itself is usually fine, it’s just NTFS being NTFS 😅
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934124/why-am-i-experiencing-drive-failure-after-opening-a-folder-from-ide
+
+---
+
+#### 339. Add an existing Active Directory domain to DNS
+
+**问题描述 / Problem Description**:
+Tags: dns, active-directory, windows-server | Score: 2 | Views: 333 | Answers: 1 | Created: 2025-08-11
+
+**解决方案 / Solution**:
+According to Microsoft docs, AD DC provisioning is nowadays done through the same Server Manager. (Previously it was done using dcpromo.exe but that has been removed.) Either the 'notifications' popup, or the 'AD DS' section on the left side menu, should have an option to promote the server.
+
+The "Promote this server" link will start the process. You will be asked to enter the domain name; the tool will automatically join the server to AD as a member, set up the AD services (including DNS), and replicate data from an existing DC.
+In your case, you'll want to select Add a domain controller to an existing domain.
+
+AD DNS cannot be set up without AD DC, so promoting the server to DC needs to be done first. (All of your non-AD DNS zones will remain configured.)
+On the other hand, DHCP is not part of AD and not needed for AD operations.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1917222/add-an-existing-active-directory-domain-to-dns
+
+---
+
+#### 340. IIS + Windows Authentication - how to make the MSA account launch a browser (edge/chrome)?
+
+**问题描述 / Problem Description**:
+Tags: iis, windows-server | Score: 2 | Views: 618 | Answers: 1 | Created: 2024-12-17
+
+**解决方案 / Solution**:
+From what I understand, the issue is that accepting Windows Authentication in IIS also by default performs impersonation on behalf of that user – making the app run with that user's privileges – and switching privileges via impersonation (as opposed to a full 'logon') is likely incompatible with the various security hardening and sandboxing features that modern browsers (Chrome in particular?) want to use.
+So the first thing I'd try, if possible, is to disable impersonation – e.g. maybe:
+
+https://stackoverflow.com/questions/65266848/force-iis-not-to-impersonate-user
+
+If that doesn't work... split the project into two sites – a frontend that accepts Windows Authentication, and which talks over an internal API (using some other form of authentication, e.g. static API key) to a backend that uses Puppeteer. At some point in the future, you might end up needing to do so anyway.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1865888/iis-windows-authentication-how-to-make-the-msa-account-launch-a-browser-edg
+
+---
+
+#### 341. point a domain name to a vm with internal IP
+
+**问题描述 / Problem Description**:
+Tags: dns, hyper-v, windows-server | Score: 2 | Views: 619 | Answers: 1 | Created: 2024-12-01
+
+**解决方案 / Solution**:
+When a local pc needs to be accessible from the internet using IPv4, one always needs to use the public IP address. There are simply too few IP addresses available to be able to use the LAN IP address.
+So in order to get the VM accessible from the internet, first, find out what the public IP address is by going to https://www.whatsmyip.com and note it down. I'm going to assume here that you are not behind a CGNAT.
+Next, Change the DNS of the domain and set the A record to this IP address.
+It can take up to 48 hours for DNS changes to be active everywhere.
+Next, change the network adapter settings and set it to bridge or NAT. If you use NAT, add port 80 and 443 in the NAT table and test it from your pc first.
+Next, In the router, allow port 80 and 443 to be forwarded to your PC if you use NAT or directly to the VM if you use bridge.
+Next, make sure the firewall is setup correctly.
+Lastly, Most routers will not support NAT hairpinning, which means that accessing domain.com will work from outside the network, but not from inside. To fix this, in the local DNS server, add an entry for your domain.com and set its A record to the LAN IP address.
+Now domain.com will work from both outside the network and inside.
+And before you say: But I only want to use the LAN IP because I can't access the router, then that means it will only work from inside the network. If IPv6 is possible, you don't need to setup NAT rules, but it will severely limit access to your server.
+Also, if port 80 and/or 443 are not available, you can use a different port, but then the domain will become https://mydomain:4443, assuming we changed the port to 4443. The NAT rule on the router would then become 4443 -> 443 and the VM still uses 443.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1863339/point-a-domain-name-to-a-vm-with-internal-ip
+
+---
+
+#### 342. How to set the password expiring date for a local user remotely?
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, windows-server | Score: 2 | Views: 632 | Answers: 1 | Created: 2024-07-12
+
+**解决方案 / Solution**:
+You cannot set a specific password expiration date for local accounts in Windows. You can...
+
+Set an ACCOUNT expiration date.
+Set a Maximum Password Age.
+
+Together with the tip Vomit IT gave in their comment, you could do maths and effectively create a specific expiration date, by arbitrarily setting a date in the past as the -PasswordLastSet value which, together with the Maximum Password Age, would allow you to set a specific expiration date. To do this you'd need to know the maximum amount of time you'd want one of these accounts to remain active, and then set a Maximum Password Age longer than that. Next, you'd choose the date you want the specific password to expire on, find the difference between the Maximum Password Age and the number of days before you want THIS password to expire, and set -PasswordLastSet that number of days in the past.
+So, if the maximum amount of time one of these accounts would need to remain active would be 31 (one month), you set the Maximum Password Age to something like 35. Then, for this specific account you want to expire in one week's time, you'd subtract 7 from 35 to get 28, calculate the date 28 days ago (on July 15th, that would be June 17th, and set THAT date as the -PasswordLastSet value. With this combination of values, the password for this account will expire in 7 days, on July 22nd in our example.
+This can all be done pretty simply and automatically in a scripting language of your choice, such as PowerShell.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1848885/how-to-set-the-password-expiring-date-for-a-local-user-remotely
+
+---
+
+#### 343. W11 Change what path taken by softlink
+
+**问题描述 / Problem Description**:
+Tags: windows-11, network-printer | Score: 1 | Views: 23 | Answers: 1 | Created: 2026-04-26
+
+**解决方案 / Solution**:
+Context menu
+The easiest way to still get to all classic Control Panel places is to right-click and then use 'Open' from the context menu.
+3rd party software
+Alternatively use the file manager explorerplusplus, which can still open 'Devices and Printers' by clicking on it  in the files pane of the 'Hardware and Sound' 'folder', or directly expand to the available printers.
+Or try mods like Restoring Control Panel Pages (video) or ms-settings: URI Redirector, but they are tedious to set up and originally intended only for Windows 10.
+Specific items via CLSID
+For the specific case of 'Devices and Printers' you can create a shortcut to explorer.exe shell:::{A8A91A66-3A7D-4424-8D24-04E180695C7A}, with three semicolons in a row after 'shell'.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937072/w11-change-what-path-taken-by-softlink
+
+---
+
+#### 344. How to remove a printer with no Remove device button
+
+**问题描述 / Problem Description**:
+Tags: windows-10, network-printer | Score: 1 | Views: 26 | Answers: 2 | Created: 2026-04-25
+
+**解决方案 / Solution**:
+not sure if you tried but if this helps but you can try to remove printer via cmd.
+rundll32 printui.dll,PrintUIEntry /dl /n "printer_name" /c\computer_name
+
+where replace variable
+printer_name=> exact name of the printer you want to remove
+computer_name=> name of the computer or server from which the named printer should be removed
+here's the microsoft official kb
+https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/rundll32-printui
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937056/how-to-remove-a-printer-with-no-remove-device-button
+
+---
+
+#### 345. Some apps resets autostart to "inactive" after new login
+
+**问题描述 / Problem Description**:
+Tags: windows, autostart | Score: 1 | Views: 44 | Answers: 1 | Created: 2026-04-20
+
+**解决方案 / Solution**:
+noshow.exe is a helper application that runs the main f.lux binary with the /noshow argument (source). That it is missing indicates a failed install.
+Given that you've reported there are similar messages and errors from multiple applications installed from the Store, this is more likely an OS issue. Repair Windows using the built-in tools.
+Settings > System > Recovery
+Run the first option, "Repair Windows without resetting your PC" first. If that does not resolve the issue, you can try the second option "Fix problems using Windows Update", which completes a full reinstall but keeps your user profile and installed applications untouched.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936880/some-apps-resets-autostart-to-inactive-after-new-login
+
+---
+
+#### 346. Why does Windows group applications in the taskbar even though with they have different AUMIDs?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, taskbar, portable-apps, aumid | Score: 1 | Views: 72 | Answers: 2 | Created: 2026-04-15
+
+**解决方案 / Solution**:
+That may be a bug in Win 11.
+Try modifying the Registry value, \HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\TaskbarGlomLevel Set it to 2, but if that does not work, try values 0 or 1.
+
+Also try changing the value of TaskbarBadges` in the same key.
+
+If that fails, configure User Configuration\Administrative Templates\Start Menu and Taskbar with the Group Policy Editor. For Windows Home, see Major Geeks.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936769/why-does-windows-group-applications-in-the-taskbar-even-though-with-they-have-di
+
+---
+
+#### 347. How to save my current environment on Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11 | Score: 1 | Views: 45 | Answers: 1 | Created: 2026-04-13
+
+**解决方案 / Solution**:
+There are a number of tools available for deployment and migration of Windows; corporate environments depend on them to create standard releases for all machines, yet still have individual identifiers and licenses.
+See Windows deployment scenarios and tools and the many alternatives.
+That said, by the time you're ready to move to a new machine, a new version of Windows may be available, and existing settings for Win 11 might not apply to v. 12. For that reason, as well as to provide for more complete customization, I prefer to use third-party tools such as Open Shell Menu and WinSetView, to provide consistent look-and-feel though MS might make inconsistent changes from one version (or even update) to the next. The settings for each of those tools are easily exported and imported.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936690/how-to-save-my-current-environment-on-windows-11
+
+---
+
+#### 348. Can Windows 10 be activated with a Windows 11 product key?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, windows-11, license, product-key | Score: 1 | Views: 196 | Answers: 3 | Created: 2026-04-11
+
+**解决方案 / Solution**:
+If I bought a Windows 11 Home retail license, could I use the product key to activate a freshly installed Windows 10 Home?
+
+Windows 10 can only be upgraded to Windows 11, Windows 10 cannot be even activated with a Windows 11 license key, your system likely supports Windows 11 even if you have to bypass the compatibility checks
+
+I've read different opinions on whether a Windows 11 product key would activate a copy of Windows 10.
+
+It does not.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936654/can-windows-10-be-activated-with-a-windows-11-product-key
+
+---
+
+#### 349. How to allow Firefox to connect to Python-spawned localhost server?
+
+**问题描述 / Problem Description**:
+Tags: firefox, windows-11, webserver, http, localhost | Score: 1 | Views: 56 | Answers: 1 | Created: 2026-04-08
+
+**解决方案 / Solution**:
+Yes, I do get a loop if I visit http://127.0.0.1:8000 or http://0.0.0.0:8000.
+Aren't those IPv4 IP addresses?
+
+They are indeed IPv4 addresses. And your http.server is listening only on an IPv6 address.¹
+But the name localhost maps to both the IPv4 address 127.0.0.1 and an IPv6 address ::1, and it is the browser's choice as to which one to use.
+This most likely means that you have a different program listening on the same port 8000 but on IPv4, and for some reason Firefox is preferring IPv4 when translating localhost, so instead of connecting to the Python http.server at [::1]:8000 it reaches some entirely different program at 127.0.0.1:8000.
+
+Run netstat -a -o -n -p tcp as administrator to check what might be listening on that (the listening socket you're looking for may be either 127.0.0.1:8000 or 0.0.0.0:8000).
+
+Check Firefox's network.dns.disableIPv6 parameter in about:config to make sure IPv6 is not disabled (which might be why it is giving you a different result).
+
+
+¹ Note that only Linux has the feature where listening on IPv6 [::] automagically listens also on IPv4 0.0.0.0 and therefore a single socket is enough to handle both. When Python http.server does the same on Windows (and I think also on macOS), its [::] listener remains only for IPv6 connections – handling both protocols would require two sockets and an event loop.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936530/how-to-allow-firefox-to-connect-to-python-spawned-localhost-server
+
+---
+
+#### 350. Why is Firefox requesting the Windows (login) password?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, firefox, security | Score: 1 | Views: 135 | Answers: 1 | Created: 2026-04-05
+
+**解决方案 / Solution**:
+The Firefox source browser aboutLogins.ftl file has the following message which is from the dialog shown in the question:
+# This message can be seen when attempting to edit a login in about:logins on Windows.
+about-logins-edit-login-os-auth-dialog-message2-win = To edit your password, enter your Windows login credentials. This helps protect the security of your accounts.
+
+Using git blame on the above line shows the text was last changed by commit ef3afc6a in response to bug 1636032 Some users are confused about which password/PIN to enter in the OS re-auth dialog from about:logins in May 2020.
+I.e. the dialog message for Windows about needing to enter your Windows login credentials has been present in Firefox for almost 6 years before the change in behaviour mentioned in the question was reported.
+Therefore, appears a recent update for some reason caused an existing dialog about needing Windows login credentials to change Firefox Passwords settings to be triggered.
+While haven't yet completely answered the why in the question, it does show the dialog message text isn't a recent addition.
+Also, I can't rule out that some Windows change related to security isn't the cause.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936455/why-is-firefox-requesting-the-windows-login-password
+
+---
+
+#### 351. Why does my Windows behave as if the up arrow key was constantly pressed?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, keyboard, start-menu, input | Score: 1 | Views: 255 | Answers: 1 | Created: 2026-04-03
+
+**解决方案 / Solution**:
+I couldn't pinpoint what is causing it but found out that restarting DWM fixes it (must be run in elevated cmd):
+taskkill /f /im dwm.exe
+
+Also here's one line which will just ask for elevation (can be used as a button in Stream Deck or so ^^):
+powershell -Command "Start-Process cmd -ArgumentList '/c taskkill /f /im dwm.exe' -Verb RunAs"
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936410/why-does-my-windows-behave-as-if-the-up-arrow-key-was-constantly-pressed
+
+---
+
+#### 352. What is "QueryOpen" in Sysinternals Process Monitor?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11 | Score: 1 | Views: 62 | Answers: 3 | Created: 2026-04-03
+
+**解决方案 / Solution**:
+It seems to me that this is short for FastIoQueryOpen, one of the FastIo* operations that each filesystem driver implements – i.e. part of the internal Windows API between the kernel and the filesystems, which happens to be exactly where the ProcMon filter driver sits as well.
+(Or, upon a closer look, it might be specifically a filesystem filter driver API. Not clear to me.)
+The function is supposed to return a FILE_NETWORK_OPEN_INFORMATION structure containing the file's size and timestamps.  In the leaked WinXP source code, several places document implementations of this function as:
+Routine Description:
+
+    This routine is the fast I/O "pass through" routine for opening a file
+    and returning network information [on] it.
+
+I'm not sure what makes it specific to network filesystems – the internal Windows kernel filesystem interfaces operate very differently from what I'm familiar with – but I am guessing it has something to do with the fact that Windows interfaces generally operate on file handles instead of being path-based (e.g. even to delete a file, internally this involves opening it, marking it as "delete-on-close", then closing) whereas network FS protocols often can retrieve file metadata by path without having to open that file at all, . But that's a wild guess from quickly skimming the source code.
+
+https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/ns-wdm-_fast_io_dispatch
+https://learn.microsoft.com/is-is/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-network-query-open
+https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_network_open_information
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936389/what-is-queryopen-in-sysinternals-process-monitor
+
+---
+
+#### 353. How to convert a PowerShell command into a batch file?
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell | Score: 1 | Views: 120 | Answers: 1 | Created: 2026-04-01
+
+**解决方案 / Solution**:
+learn.microsoft.com/en-us/powershell:
+
+To execute an inline script block defined inside a string, the call operator & can be used:
+powershell.exe -Command "& {Get-WinEvent -LogName Security}"
+
+
+So in your case, you can use:
+powershell.exe -NoProfile -Command "& { .\bcs.ps1 -sites 'a.com','b.guide','c.com' }"
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936359/how-to-convert-a-powershell-command-into-a-batch-file
+
+---
+
+#### 354. I used the "nuclear option" to get rid of Windows 11 S mode on HP laptop, network drivers aren't loading nor installable
+
+**问题描述 / Problem Description**:
+Tags: networking, laptop, drivers, windows-11 | Score: 1 | Views: 122 | Answers: 1 | Created: 2026-03-31
+
+**解决方案 / Solution**:
+The OP states the HP laptop is a "14-ep2011wm". HP support states this is either "B5VU3UA" or "B5VU3UAR" (where "R" means refurbished).  HP offers product support here or "B5VU3UA" and here for "B5VU3UAR". HP shows the "B5VU3UA" has a Realtek WLAN, while the WLAN manufacturer is not given for the "B5VU3UAR". For WLAN drivers, HP offers the same WLAN downloads for the current Windows 25H2 release. This would be sp155768.exe for Realtek and sp165524.exe for MediaTek. These executables have to first be run to get the WLAN drivers. The default is to write the drivers to the C:\SWSetup folder.
+Before selecting an folder to search for a WLAN driver, the OP needs to complete one of the the options given below.
+
+Option 1: Use another Windows machine.
+Find another Windows machine where you can run both sp155768.exe and sp165524.exe. Copy the SWSetup folder to the flash drive, then select this folder to search for a WLAN driver.
+
+Option 2: Open a Command Prompt window.
+Press the key combination shift+F10 to open a Command Prompt window. Run both sp155768.exe and sp165524.exe. Select the SWSetup folder to search for a WLAN driver. If Windows is in S mode, then this option will not be available.
+
+Option 3: Open a Command Prompt window while booted to Windows Recovery.
+Press the key combination control+shift+F3 to switch to Audit mode. Once in Audit mode, boot to Windows Recovery by holding down a shift key while rebooting. While in Windows Recovery, open a Command Prompt window and run both sp155768.exe and sp165524.exe. Boot back to Audit mode and press the "OK" button on the System Preparation Tool popup. The computer will boot to the Out-of-Box Experience (OOBE). When asked to install a WLAN driver, select to search the SWSetup folder.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936311/i-used-the-nuclear-option-to-get-rid-of-windows-11-s-mode-on-hp-laptop-networ
+
+---
+
+#### 355. Why is Windows Hello data becoming invalid once booted with secure boot off?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, secure-boot, fingerprint, windows-hello | Score: 1 | Views: 160 | Answers: 2 | Created: 2026-03-23
+
+**解决方案 / Solution**:
+When your computer has a TPM and is using Secure Boot, at least part of the data required for the trusted chain the security system uses for login is stored in the TPM.
+When you disabled Secure Boot Windows Hello is now missing a key part of the trust chain and so logins will fail.
+If you do not want Secure Boot, you should disable it before setting up Windows Hello, however, because of how Windows Hello functions, it may not actually work, and even if it does, it will not be as secure.
+In general, you should consider Windows Hello as a feature that requires TPM and Secure Boot, and if you do not wish to use Secure Boot, you should not use Windows Hello.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936095/why-is-windows-hello-data-becoming-invalid-once-booted-with-secure-boot-off
+
+---
+
+#### 356. How to work around "Windows cannot find 'ocsetup'."
+
+**问题描述 / Problem Description**:
+Tags: installation, windows-11, compatibility | Score: 1 | Views: 105 | Answers: 1 | Created: 2026-03-23
+
+**解决方案 / Solution**:
+"ocsetup" is the Optional Components utility. It is found on the Windows Server OSes.
+Looking at the system support matrix for Dell OpenManage, which I am familiar with and have worked with before, it only supports running on Server OSes. You cannot run it on a desktop OS.
+You could try building a VM of a server OS. They all come with extended trial periods. But, I would step backwards a bit and re-question why you believe OpenManage is the right solution. OpenManage is a pretty complex and extensive network device management toolset, but depending on why you're having trouble updating your printer's firmware, it may not be a solution for you.
+I recommend asking another question about updating your printer's firmware so we can help you with that problem.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936076/how-to-work-around-windows-cannot-find-ocsetup
+
+---
+
+#### 357. How to force Windows File Explorer to forget the OMV NAS credentials and ask for a NAS password every time?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, nas, openmediavault | Score: 1 | Views: 60 | Answers: 1 | Created: 2026-03-16
+
+**解决方案 / Solution**:
+You can still clear those by restarting the workstation service (LanmanWorkstation) as mentioned in the answer here: serverfault.com/a/486506/411612 or try the other listed services. It will probably affect all logged in users though
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935894/how-to-force-windows-file-explorer-to-forget-the-omv-nas-credentials-and-ask-for
+
+---
+
+#### 358. FFMpeg streaming - Unknown Error
+
+**问题描述 / Problem Description**:
+Tags: windows-10, ffmpeg, streaming | Score: 1 | Views: 219 | Answers: 1 | Created: 2026-03-08
+
+**解决方案 / Solution**:
+Thank you all for the input and help understanding the commands for FFMpeg.
+As it turns out, the power supply to the network switch was failing, and the switch kept blipping off very briefly.  It just so happened to do it while I was in the cabinet looking.  This minor blip was enough to disrupt the stream, but not enough to cause anyone on site issues with anything else IT related, so it went un-noticed until I was there again.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935657/ffmpeg-streaming-unknown-error
+
+---
+
+#### 359. On Windows 10, how to allow regular user to create symbolic links via the command line?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, symbolic-link, user, privileges | Score: 1 | Views: 87 | Answers: 1 | Created: 2026-03-05
+
+**解决方案 / Solution**:
+The last missing piece was this ...
+You have to reboot after, creating a new session is not enough !
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935570/on-windows-10-how-to-allow-regular-user-to-create-symbolic-links-via-the-comman
+
+---
+
+#### 360. The "Dates modified" of folders synced to OneDrive changed to the syncing time. Can I reverse/stop this without OneDrive just readjusting them again?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, backup, ntfs, microsoft-onedrive, metadata | Score: 1 | Views: 121 | Answers: 1 | Created: 2026-02-26
+
+**解决方案 / Solution**:
+Unless you have some sort of filesystem change logging, there will not be previous values you can restore the Date Modified values to.
+Date Modified tracks more than just file changes. OneDrive's normal operation updates the folders in ways that triggers this value being updated.
+You "strongly oppos(ing)" dates being modified by this sync tool (that's what it is, it is not a backup solution) doesn't really register. It is doing what it is intended to do, in the manner it is intended to do it. OneDrive does not present options allowing you to change this behavior while it is carrying out its tasks. If you wish to have a backup tool that does not update the Date Modified values, you'll need to choose a tool that does that and not use OneDrive.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935315/the-dates-modified-of-folders-synced-to-onedrive-changed-to-the-syncing-time
+
+---
+
+#### 361. Why am I unable to activate H&R Block tax software? Some screens are missing
+
+**问题描述 / Problem Description**:
+Tags: windows-10, installation, software-activation | Score: 1 | Views: 328 | Answers: 1 | Created: 2026-01-30
+
+**解决方案 / Solution**:
+After many repeated attempts to download H&R Block Tax software files and install them, I finally noticed that Microsoft Edge is listed as a requirement. Edge is installed on this PC, but was disabled, as well as the associated Edge WebView2 browser component.
+This application is built on WebView2, and without it, only shows the surrounding window that hosts that browser component, which does all the work.
+Remedy
+Enable (or reinstall) Microsoft Edge and WebView2 and then install the application. WebView2 must be enabled while the software is running (though not Edge, per se), but can safely be disabled, e.g., by Sordum's Edge Blocker after the app is shut down. The screenshot below shows how the app should look.
+
+Note to H&R Developers
+It would save a lot of time for Support staff if the main screen displayed a static image, i.e., served as a splash screen, with text similar to "WebView is starting...". As soon as MS WebView2 starts, that would be hidden, and if WebView2  cannot start, it gives Support a course to remedy the issue.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934352/why-am-i-unable-to-activate-hr-block-tax-software-some-screens-are-missing
+
+---
+
+#### 362. How to cycle between taskbar buttons with mouse wheel in Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows-10 | Score: 1 | Views: 27 | Answers: 1 | Created: 2026-01-24
+
+**解决方案 / Solution**:
+I found out it's possible with 7+ Taskbar Tweaker.
+Just open the utility and click "Cycle between taskbar buttons" checkbox.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934092/how-to-cycle-between-taskbar-buttons-with-mouse-wheel-in-windows
+
+---
+
+#### 363. How to install AMD display (graphics) drivers on Windows Server 2019 standard?
+
+**问题描述 / Problem Description**:
+Tags: windows, drivers, graphics-card, windows-server, amd-ryzen | Score: 1 | Views: 17514 | Answers: 1 | Created: 2024-01-20
+
+**解决方案 / Solution**:
+A "unsupported OS" error is strange if the driver is for Windows.
+I suppose that you used
+this driver.
+In case that the problem is with the driver's refusal
+to install is because this is a Windows Server edition,
+the post
+AMD Drivers installation - Error 184 on Windows Server 2022
+has this method of forcing the installation which worked for more
+than one person:
+
+I just finished installing the Windows10/11 drivers on Windows Server
+2022. Run the amd-software-adrenalin-edition-22.5.2-win10-win11-may23 and let it unpack and fail with the message that it cannot continue.
+Go into device manager and select your graphic device and manually
+install the drivers by pointing it to the folder that the amd install
+put them in, mine was D:\AMD. It will just install the drivers and not
+the software but that is all I wanted.
+
+You may download the software from the post
+AMD Software: Adrenalin Edition 22.5.2 Release Notes.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1826612/how-to-install-amd-display-graphics-drivers-on-windows-server-2019-standard
+
+---
+
+#### 364. How to migrate a Windows 7 user home folder to a new Windows 11 system?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-7, windows-11, migration | Score: 0 | Views: 34 | Answers: 2 | Created: 2026-04-26
+
+**解决方案 / Solution**:
+All permissions and settings have been preserved.
+
+The permissions need to be changed to match the new system. Each freshly installed Windows system has a different machine SID, which leads to your user accounts having two different user SIDs and being two separate entities as far as the permission system is concerned.
+Windows 7 fortunately predates AppX, so it should be enough to:
+
+Assign ownership of the folder, recursively, to the new user (e.g. using icacls /setowner on the Windows 11 system).
+icacls Win7User /setowner Gabriel /t
+
+
+Grant full control of the folder, with inheritance enabled, to the new user (e.g. using icacls /grant on the Windows 11 system).
+icacls Win7user /grant "Gabriel:(OI)(CI)(F)"
+
+
+Manually load the user's "HKEY_CURRENT_USER" registry hive ntuser.dat through regedit, then grant full control of the entire hive, recursively, to the new user.
+(Select HKEY_USERS in regedit, then "File > Load hive" will become active. Don't forget to unload it after.)
+
+Repeat for the user's usrclass.dat registry hive.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937078/how-to-migrate-a-windows-7-user-home-folder-to-a-new-windows-11-system
+
+---
+
+#### 365. uvx ocrmypdf tells me file not found
+
+**问题描述 / Problem Description**:
+Tags: windows, ocr, tesseract-ocr | Score: 0 | Views: 29 | Answers: 1 | Created: 2026-04-24
+
+**解决方案 / Solution**:
+They're warnings about missing dependencies for features you're not using. The features are in the optimisation, so the simple fix is to add --optimize 0 into your command to supress the optional optimisations.
+uvx ocrmypdf --language ita --force-ocr --optimize 0 19940809_185_SO_113.pdf ocred.pdf would be your full command.
+If you want compression or optimisation, you need to install the missing dependancies jbig2enc and pngquant by using something like chocolatey with choco install pngquant and choco install jbig2enc, or sudo apt install ocrmypdf jbig2enc pngquant in WSL.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937022/uvx-ocrmypdf-tells-me-file-not-found
+
+---
+
+#### 366. How to fix application icon on Windows 11 to not show the default icon?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, taskbar, icons | Score: 0 | Views: 38 | Answers: 1 | Created: 2026-04-24
+
+**解决方案 / Solution**:
+You should try changing the icon on the Properties.
+Right-click the problem icon, select Properties, go to the Shortcut tab, and click Change Icon. Next, select the icon and click OK.
+If you don't find the icon here, click Browse, go to the app installation folder, select the .exe file, and click Open. Now, select the icon, click Apply, and OK.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937011/how-to-fix-application-icon-on-windows-11-to-not-show-the-default-icon
+
+---
+
+#### 367. [V2EX] 求 Windows UWP 软件大佬实现一个 terminal 功能
+
+**问题描述 / Problem Description**:
+个人觉得 Windows 自带的 terminal 工具很好用，手感很好渲染也不错，可惜不支持侧边栏显示 tabs/workspace ，现在 claude code/codex 用得多，经常要开很多个 tabs ，导致 tabs 超出了横向显示空间，如果能支持垂直标签页外加工作区，那将是非常好用的一个功能，可惜我不擅长 Windows 软件开发，Visual Studio 开发对于 Agent 来说不友好，求大佬帮忙实现这个功能，我给你 stars ！
+https://github.com/microsoft/terminal
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208936#reply7
+
+---
+
+#### 368. [V2EX] 各位大佬们，你们 win 系统安装了什么杀毒软件？
+
+**问题描述 / Problem Description**:
+是微软自带的还是第三方的？免费的还是付费的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208722#reply57
+
+---
+
+#### 369. [V2EX] 稀疏文件（sparse file）如何在不同分区移动后保持稀疏性呢
+
+**问题描述 / Problem Description**:
+我找过很多办法，问过多个 AI ，给出的方法都是无效的，但还是自己尝试找到一个办法：
+稀疏（ sparse file ）文件通过 ghost 的备份还原可以在不同分区继续保持稀疏状态，
+不知道还有没其它办法
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1200599#reply4
+
+---
+
+#### 370. [V2EX] 告别“强制重启”：微软承诺用户可无限期暂停安装 Win11 补丁
+
+**问题描述 / Problem Description**:
+https://www.ithome.com/0/931/201.htm
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1199981#reply5
+
+---
+
+#### 371. [V2EX] 增强的语音识别下载失败求助
+
+**问题描述 / Problem Description**:
+增强的语音识别简中一直下载失败，日语就很快下载了，试了 gemini 给的各种办法也不行。求助！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1198200#reply1
+
+---
+
+#### 372. [V2EX] Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址
+
+**问题描述 / Problem Description**:
+Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址
+公司之前购买的 50 多套正版微软系统，买的早还是批量授权许可的，现在都是订阅制了。
+从 Microsoft 365  admin center 管理员后台给大家直接获取的正版镜像下载地址，
+所有镜像都自带 3 种版本：专业版、企业版、专业工作站版。
+作为企业系统母版(比如域控系统母版、超融合云桌面 vdi 系统母版等~)、自己电脑安装正版稳定版系统非常合适，微软直链，没有任何第三方再封装，微软企业直供，每次微软封装更新都会提供更新下载地址：（仅是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1196147#reply44
+
+---
+
+#### 373. [V2EX] V2 魔怔人为什么这么多？
+
+**问题描述 / Problem Description**:
+今天有个热帖，讨论鸿蒙智行的，现已经到水深火热了，我不过就是在里面感叹一句，华为手机从当年使用火龙 888 ，到 2026 年目前为止出货量国内第一，就这都要被喷？是不是在 V 社说起华为，必须要喷华为才行，其他任何行为都是禁止的？是不是有点魔怔了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208960#reply8
+
+---
+
+#### 374. [V2EX] 咨询 paypal 绑卡失效问题，您的卡已被拒绝。请尝试使用其他付款方式。
+
+**问题描述 / Problem Description**:
+前提:绑卡目的为 gpt plus 的日区白嫖。过程：paypal 大号白嫖过 3 次，均为日封，第一次时候不懂订阅了 plus 立马就点击了取消续费。所以怀疑是这个操作导致 paypal 黑号而造成 plus 封号过快。注销了原先的 paypal 账号然后注册新号，绑卡的时候就提示您的卡已被拒绝。请尝试使用其他付款方式。试过招商跟农商的 visa 卡都不行，借记卡也不行，不清楚是新号风控了还是我的实名制风控了。询问客服账号没有问题。客服回复如下：我仔细查看了您的账户，看到您在 4 月 27 日尝试添加尾号为 84 的银行卡，是无法添加的状态。我帮您检查过账户的状态良好，因为加卡的功能也是正常
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208950#reply1
+
+---
+
+#### 375. [V2EX] 电子产品 填缝 防水 胶 胶泥，有推荐吗？
+
+**问题描述 / Problem Description**:
+很多电子产品需要防水，怎么说呢？就是防止水通过它的缝儿渗透进去。这种有什么好的推荐？我问了一下 AI ，没太满意，我比较菜。我其实就这个简单的需求，只要能满足这个就好，但是我跟 AI 分析了半天，那就只能是瞎猜，下面就是我找到的弯路：这些个东西可能全都是错的，可以不用看。感觉它可以像水或者是油脂一样的这种的胶泥，然后它可以渗进 0.1mm 这样的缝隙，它可以堵住这个缝，这样的话就避免水进去。填入水或者油，可以让它更好的渗进缝隙来，更密封嘛，对吧？水或油蒸发完毕后，它就变成具有一定能力的胶泥，也有大概的可固定形状。不会牢固的附着在塑料的表面，也不会太紧密的把塑料粘合起来。就好像我可以把这个东西抹
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208949#reply8
+
+---
+
+#### 376. [V2EX] 上车后 iPhone 自动连到车内蓝牙汽水音乐会跳出来自动播放
+
+**问题描述 / Problem Description**:
+除非点暂停，划掉退出后还会自动播放，老版本的汽水音乐里有个选项“连蓝牙唤醒自动播放”，现在没有了，真恶心啊！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208940#reply1
+
+---
+
+#### 377. [V2EX] 员工注册了个体户，裁员的时候是正常走 n+1 吗？
+
+**问题描述 / Problem Description**:
+现在 AI 浪潮下想自己做点事情，但是有同事说如果注册了个体户，裁员的时候拿不到赔偿，不知道是不是这样
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208929#reply6
+
+---
+
+#### 378. [V2EX] 现在官网买 codex 要 Sales Tax 的吗？
+
+**问题描述 / Problem Description**:
+curosr 好像没要啊。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208918#reply1
+
+---
+
+#### 379. [V2EX] 提问远程控制软件/组网软件推荐
+
+**问题描述 / Problem Description**:
+最近 tailscale 被公司 ban 了，想寻找替代品op 从 24 年开始用 tailscale ，配置简单，也解决了安全的困扰（毕竟要加入组需要我授权），公司电脑 win 笔记本，家里电脑 win 台式机，手机🍎17Pro ，iPad 安装，方便偶尔异地运维（登录数据库）或者远程摸鱼（家里电脑国际冲浪和 moonlight 串流），后来 25 年学会 exit node ，手机使用家里电脑/公司电脑作为流量出口，访问国际网络/内网 OA难道是我高强度使用 rustdesk 远程回家摸鱼被网络组发现了？🤔但是这几天公司网络封禁了 tailscale ，上个周只是 ban 了登录页面，这个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208917#reply1
+
+---
+
+#### 380. [V2EX] 局域网内 ping 电视丢包。这个一般啥原因啊？
+
+**问题描述 / Problem Description**:
+猫 - 软路由 - 交换机 - 路由 (tp-XDR6070)路由器就在电视和小爱音响下面放着但是从电脑 ping 电视。200ms 的延迟。。来回波动。ping 小爱音响是 5ms 左右距离 10 米的样子，没有墙电视是索尼的 75x9000h ，5G 频段。我以前是可以用 moonlight 投屏到电视玩极品飞车、玩双人成行的。。。是路由器老化了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208911#reply5
+
+---
+
+#### 381. [V2EX] 有没有比较好的 agent 开发的学习社区、资料、教程推荐？
+
+**问题描述 / Problem Description**:
+最近发现招聘风向全都倾向 AI agent 开发了，所以也想与时俱进一下，希望哪怕前端不幸失业了可以转到 agent 开发去，希望大家有比较好的资源可以一起共享一下~感谢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208908#reply3
+
+---
+
+#### 382. [V2EX] 想问问各位大佬们的公司都有哪些 ai 应用落地的？
+
+**问题描述 / Problem Description**:
+如题，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208887#reply7
+
+---
+
+#### 383. [V2EX] Manus 收购案被禁， Meta 是不是开心死了？
+
+**问题描述 / Problem Description**:
+https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20623 外商投资安全审查工作机制办公室（国家发展改革委）依法依规对外资收购 Manus 项目作出禁止投资决定，要求当事人撤销该收购交易。 manus 能干的小龙虾都能了吧，怎么感觉 Meta 更加开心？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208883#reply0
+
+---
+
+#### 384. [V2EX] 为什么现在网上都没有 114 抢号相关的开源脚本了？
+
+**问题描述 / Problem Description**:
+北京专家号太难挂了，基本被黄牛垄断！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208879#reply1
+
+---
+
+#### 385. [V2EX] 咸鱼卖京东家政，买家要我的订单号，有没有坑
+
+**问题描述 / Problem Description**:
+不清楚是不是中间商拍的，让我下单后，给他京东的订单号，然后说服务完后确认收货，有坑吗？我很少咸鱼交易
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208877#reply0
+
+---
+
+#### 386. [V2EX] 在 agent 中， mcp 和 skill+cli 是“互补”还是“竞争”关系
+
+**问题描述 / Problem Description**:
+有些场景是不是两个都能做，那有啥场景是彼此无法取代对方的吗。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208867#reply10
+
+---
+
+#### 387. [V2EX] 挑战孩子的试题，自己也没解出来😂
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208865#reply2
+
+---
+
+#### 388. [V2EX] 请 xdm 推荐一下脚宽人士友好的一脚蹬
+
+**问题描述 / Problem Description**:
+脚宽穿鞋老是挤脚趾，之前买的合适的鞋都坏了。最近试了下 keen 的脚感挺不错，就是有点贵，而我穿鞋又比较费。想问一下有没有兄弟能推荐一下平替啥的，500 上下能穿 2 年左右
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208843#reply3
+
+---
+
+#### 389. [V2EX] 关于睡前听书的问题
+
+**问题描述 / Problem Description**:
+现在睡前必须听点东西才能入睡，前段时间在喜马拉雅听完了日本近代史和货币战争，最近开始听凡人修仙传，但是我发现了一个问题，长篇小说相比于之前的短篇，有很多人名会在后文重复出现，听书一听漏后面就不知道这人是干啥的了，大家听小说也会有这个问题吗？有其他的睡前助眠节目推荐吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208835#reply8
+
+---
+
+#### 390. [V2EX] 最不容易 429 的 provider+模型组合是什么？
+
+**问题描述 / Problem Description**:
+没什么正经业务，就是自己玩玩，用的 hermes ，xiaomi 的薅完了，nvidia ，gemini ，chatgpt 的免费 tier 一个事情干不完就 429 了没有可以白嫖而且不怎么 429 的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208822#reply0
+
+---
+
+#### 391. [V2EX] CloudFlare 的 ai gatewey 能够干掉 OpenRouter 吗
+
+**问题描述 / Problem Description**:
+一直不能够理解 OpenRouter 的盈利模式，在官方模型价格的基础上再额外加收一定的手续费。
+如果价格不比官方的 API 便宜还要额外加收手续费，我能够想到的使用 OpenRouter 的唯一好处就是方便聚合多个大模型，不需要测试一个模型就绑定一个信用卡。
+但是现在 CloudFlare 的 ai gatewey 也聚合了大量的模型，并且可以统一走 CloudFlare 支付，是否能够干掉 OpenRouter ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208819#reply7
+
+---
+
+#### 392. [V2EX] 一个连接数的问题求助
+
+**问题描述 / Problem Description**:
+情况：公网 ip ，有动态 dns ，映射群晖业务。
+问题：
+爱快 wan 口信息显示有 4 千多的连接数。图 1 。实际只有 1 百多的连接，请问这个是什么问题，给人攻击了？可以怎样防御？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208764#reply5
+
+---
+
+#### 393. Recommended wiki articles (including malware removal)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/oroick/recommended_wiki_articles_including_malware/
+
+---
+
+#### 394. PC won’t turn on for hours at a time. Randomly will turn on later
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxbh7e/pc_wont_turn_on_for_hours_at_a_time_randomly_will/
+
+---
+
+#### 395. my pc shuts off randomly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxbw22/my_pc_shuts_off_randomly/
+
+---
+
+#### 396. Webcam suddenly broken or...?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxgdt0/webcam_suddenly_broken_or/
+
+---
+
+#### 397. Laptop Overheating
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxg7cz/laptop_overheating/
+
+---
+
+#### 398. Found a drive filled with dir00000 folders
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sx1ehg/found_a_drive_filled_with_dir00000_folders/
+
+---
+
+#### 399. PC disconnects from wifi, no other devices have issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxcjm9/pc_disconnects_from_wifi_no_other_devices_have/
+
+---
+
+#### 400. Windows denying permission to copy/open files even though I have access
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxif5q/windows_denying_permission_to_copyopen_files_even/
+
+---
+
+#### 401. Ethernet in bedroom only getting 95 Mbps instead of 940 Mbps - wall jack issue?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxidxz/ethernet_in_bedroom_only_getting_95_mbps_instead/
+
+---
+
+#### 402. keyboard isn't working properly after i dropped it. can i fix it?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxibvd/keyboard_isnt_working_properly_after_i_dropped_it/
+
+---
+
+#### 403. External Hard Drive Trouble
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxiaac/external_hard_drive_trouble/
+
+---
+
+#### 404. ssd 100%
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxi7o3/ssd_100/
+
+---
+
+#### 405. used a vpn on netflix and now a show won’t show up
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxi7n5/used_a_vpn_on_netflix_and_now_a_show_wont_show_up/
+
+---
+
+#### 406. Secure Boot change broke Windows Hello (PIN & fingerprint gone)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxi6mr/secure_boot_change_broke_windows_hello_pin/
+
+---
+
+#### 407. My microphone isn't being detected
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxi5hk/my_microphone_isnt_being_detected/
+
+---
+
+#### 408. Windows CMD: converting audio files via batch file
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxbsti/windows_cmd_converting_audio_files_via_batch_file/
+
+---
+
+#### 409. Windows Time Service Won't Auto Sync Time
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxi4qq/windows_time_service_wont_auto_sync_time/
+
+---
+
+#### 410. Laptop not charging when plugged in
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxi1vt/laptop_not_charging_when_plugged_in/
+
+---
+
+#### 411. Potential issue with graphics card
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxhz6f/potential_issue_with_graphics_card/
+
+---
+
+#### 412. Is there a way to add letter-based highlighting to File Explorer search so that when I search within the current folder it uses fuzzy matching and highlights the matched characters, similar to how text editors display matches in yellow?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxhvfy/is_there_a_way_to_add_letterbased_highlighting_to/
+
+---
+
+#### 413. Help random Torjan virus found.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxhhks/help_random_torjan_virus_found/
+
+---
+
+#### 414. Computer (especially Chrome) noticeably sluggish after waking up from sleep
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxh4ry/computer_especially_chrome_noticeably_sluggish/
+
+---
+
+#### 415. Problema con cargadores
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxgt9o/problema_con_cargadores/
+
+---
+
+#### 416. Hdd issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxgpk2/hdd_issues/
+
+---
+
+#### 417. Wired headphones and wired CarPlay not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1sxgmrc/wired_headphones_and_wired_carplay_not_working/
+
+---
+
+#### 418. Weekly 'I made a useful thing' Thread - April 24, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1su99v4/weekly_i_made_a_useful_thing_thread_april_24_2026/
+
+---
+
+#### 419. Patch Tuesday Megathread - (April 14, 2026)
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1sl9kpd/patch_tuesday_megathread_april_14_2026/
+
+---
+
+#### 420. I know how to do the job, I just can't aswer questions about it
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1sxfxjv/i_know_how_to_do_the_job_i_just_cant_aswer/
+
+---
+
+#### 421. Kaspersky recently disclosed PhantomRPC, a privilege escalation technique affecting all Windows versions (tested on Server 2022/2025)
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1sxa2np/kaspersky_recently_disclosed_phantomrpc_a/
+
+---
+
+#### 422. Does anyone get real bad ADHD with slow moving SaaS portals?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1sxc8un/does_anyone_get_real_bad_adhd_with_slow_moving/
+
+---
+
+#### 423. Running equipment past end of life - what's the oldest in your environment?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1sxfg99/running_equipment_past_end_of_life_whats_the/
+
+---
+
+#### 424. How do you handle employee onboarding across HR and IT systems?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1sxbfbe/how_do_you_handle_employee_onboarding_across_hr/
+
+---
+
+#### 425. 20+ years time for a change
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1sx2cbs/20_years_time_for_a_change/
+
+---
+
+#### 426. Gmail: Bringing easy end-to-end encryption to all businesses - I'm not sure how I feel about this and its implementation?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1swxjdb/gmail_bringing_easy_endtoend_encryption_to_all/
+
+---
+
+#### 427. Tool for looking for duplicate files in a file system via hash.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1sx1u59/tool_for_looking_for_duplicate_files_in_a_file/
+
+---
+
+#### 428. What equipment do you give to your creative professionals?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1sx915p/what_equipment_do_you_give_to_your_creative/
+
+---
+
+#### 429. Outlook Outage?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1swykvq/outlook_outage/
+
+---
+
+#### 430. Need help revamping a poorly managed infrastructure as a student
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1sx4fn8/need_help_revamping_a_poorly_managed/
+
+---
+
+#### 431. Defender Notification and CVE-2026-28387
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1sxg560/defender_notification_and_cve202628387/
+
+---
+
+#### 432. GoDaddy gave a domain to a stranger without any documentation xpost from HN
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1swjuym/godaddy_gave_a_domain_to_a_stranger_without_any/
+
+---
+
+#### 433. Deciding whether to renew Arctic Wolf or cut losses and move to another MDR
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1sx9sc8/deciding_whether_to_renew_arctic_wolf_or_cut/
+
+---
+
+#### 434. Seasonal workers and identity automation. Pick one.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1swwxvh/seasonal_workers_and_identity_automation_pick_one/
+
+---
+
+#### 435. mail.mil issues
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1sx28l3/mailmil_issues/
+
+---
+
+#### 436. Local AD password expiry not blocking Office 365 login (PHS + Writeback)
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1sxbfyu/local_ad_password_expiry_not_blocking_office_365/
+
+---
+
+#### 437. 8 months post-acquisition and we still have 200 people with active accounts in both tenants. Anyone actually finished one of these cleanly?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1swwto6/8_months_postacquisition_and_we_still_have_200/
+
+---
+
+#### 438. Fax is killing me
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1swri5e/fax_is_killing_me/
+
+---
+
+#### 439. Clean install on Dell hardware, fails reset.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1sxid7h/clean_install_on_dell_hardware_fails_reset/
+
+---
+
+#### 440. Migration IMAP to M365
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1sx4w2p/migration_imap_to_m365/
+
+---
+
+#### 441. Solutions to systemd sessions not existing for non-logged in users to leverage rootless podman in CICD
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1sx1hm1/solutions_to_systemd_sessions_not_existing_for/
+
+---
+
+#### 442. SysAdmin can't do his job right.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1sw8f1d/sysadmin_cant_do_his_job_right/
+
+---
+
+#### 443. Simple questions and Help thread - Month of April
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1s9iioi/simple_questions_and_help_thread_month_of_april/
+
+---
+
+#### 444. Cumulative Updates: April 14th, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1slf8iy/cumulative_updates_april_14th_2026/
+
+---
+
+#### 445. List of the best free apps
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1snqu7h/list_of_the_best_free_apps/
+
+---
+
+#### 446. Servy 7.9 Available Now (major milestone) - Run Any App as a Windows Service
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1sn89t5/servy_79_available_now_major_milestone_run_any/
+
+---
+
+#### 447. Microsoft releases Windows 10 KB5082200 extended security update
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1slj862/microsoft_releases_windows_10_kb5082200_extended/
+
+---
+
+#### 448. Claude Desktop install breaks Windows Task Manager on Windows 10 (reproducible, root cause identified)
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1sliyet/claude_desktop_install_breaks_windows_task/
+
+---
+
+#### 449. Windows 10 ASCII Art for no reason
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1sm80n2/windows_10_ascii_art_for_no_reason/
+
+---
+
+#### 450. I built a Windows tool that actually closes everything and resets your screen (not just minimize)
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1sljpb6/i_built_a_windows_tool_that_actually_closes/
+
+---
+
+#### 451. I made a new app for looking up/tracking movies and tv shows. It's called Star-Studded
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1sdyli7/i_made_a_new_app_for_looking_uptracking_movies/
+
+---
+
+#### 452. Servy 7.3 now available - Turn Any App into a Native Windows Service
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1s47hex/servy_73_now_available_turn_any_app_into_a_native/
+
+---
+
+#### 453. Using Windows 10 Mobile on a Lumia 640 XL in 2026!
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1s1qjwq/using_windows_10_mobile_on_a_lumia_640_xl_in_2026/
+
+---
+
+#### 454. I built Flow: A lightweight, always-on-top Windows teleprompter (Tauri + Rust)
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1rxh3tp/i_built_flow_a_lightweight_alwaysontop_windows/
+
+---
+
+#### 455. Servy 6.9 now available - Turn Any App into a Native Windows Service
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1rsnnf2/servy_69_now_available_turn_any_app_into_a_native/
+
+---
+
+#### 456. [FOLLOW-UP] Windows 10 stability suddenly tanked in the last ~6 weeks; hardware ruled out. Repeated SFC/DISM repairs.
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1rrjee4/followup_windows_10_stability_suddenly_tanked_in/
+
+---
+
+#### 457. Windows 10 KB5078885 ESU is out with fixes for a stability issue affecting certain GPU configurations
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1rq5gnm/windows_10_kb5078885_esu_is_out_with_fixes_for_a/
+
+---
+
+#### 458. Cumulative Updates: March 10th, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1rq3l24/cumulative_updates_march_10th_2026/
+
+---
+
+#### 459. [Open Source] NeoDLP - Modern Video/Audio Downloader based on YT-DLP with Browser Integration
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1roqw6m/open_source_neodlp_modern_videoaudio_downloader/
+
+---
+
+#### 460. [QuickView] A blazing fast image viewer built for Geeks & Designers. Opens almost any format instantly. (Only 7MB!)
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1rmd7tr/quickview_a_blazing_fast_image_viewer_built_for/
+
+---
+
+#### 461. SuperPOS: A free POS software for USA based shop owners and retailers
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1rlp03j/superpos_a_free_pos_software_for_usa_based_shop/
+
+---
+
+#### 462. Where Multi-Factor Authentication Stops and Credential Abuse Starts
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1rlkiao/where_multifactor_authentication_stops_and/
+
+---
+
+#### 463. Simple questions and Help thread - Month of March
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1rhwq8v/simple_questions_and_help_thread_month_of_march/
+
+---
+
+#### 464. DISMTools 0.7.3 - Now available
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1rgwwvi/dismtools_073_now_available/
+
+---
+
+#### 465. Servy 6.8 Now available - Turn Any App into a Windows Service with Advanced Features!
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1rf3mpa/servy_68_now_available_turn_any_app_into_a/
+
+---
+
+#### 466. Stylify: A clean, ad-free list of trusted Windows customization apps
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1r6nyx4/stylify_a_clean_adfree_list_of_trusted_windows/
+
+---
+
+#### 467. Another thing to worry about - Security certificates expiring in June 2026
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1r2qyny/another_thing_to_worry_about_security/
+
+---
+
+#### 468. Simple questions and Help thread - Month of April
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1s9iio8/simple_questions_and_help_thread_month_of_april/
+
+---
+
+#### 469. Cumulative Updates: April 14th, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1slf4ho/cumulative_updates_april_14th_2026/
+
+---
+
+#### 470. Polished version with video demo
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1swyc19/polished_version_with_video_demo/
+
+---
+
+#### 471. Flow v1.6.1 is out: It's actually reliable now and resource usage dropped by 50-75%.
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1swkpza/flow_v161_is_out_its_actually_reliable_now_and/
+
+---
+
+#### 472. Has anyone noticed this about the Windows Calculator?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1swhnm3/has_anyone_noticed_this_about_the_windows/
+
+---
+
+#### 473. Tip of the Week: If you find you lose place of where the text cursor is when editing text, you can enable the text cursor indicator to make it stand out more
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1swflp4/tip_of_the_week_if_you_find_you_lose_place_of/
+
+---
+
+#### 474. What is Windows K2? Inside Microsoft’s big plan to SAVE Windows 11 and win back trust from users.
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1sw46ub/what_is_windows_k2_inside_microsofts_big_plan_to/
+
+---
+
+#### 475. GameServices 10.0.26100.7827
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1swgdad/gameservices_100261007827/
+
+---
+
+#### 476. Here's my take on refining Windows
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1svyx41/heres_my_take_on_refining_windows/
+
+---
+
+#### 477. Microsoft explains why Windows 11 File Explorer scrolls smoothly in some places, but not everywhere
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1svq3e2/microsoft_explains_why_windows_11_file_explorer/
+
+---
+
+#### 478. Does the new windows photo app use ai to make pictures look better?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1swguah/does_the_new_windows_photo_app_use_ai_to_make/
+
+---
+
+#### 479. Please add the name of the current output device below the volume bar.
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1suz68f/please_add_the_name_of_the_current_output_device/
+
+---
+
+#### 480. Your Windows update experience just got updated
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1sune1y/your_windows_update_experience_just_got_updated/
+
+---
+
+#### 481. Microsoft just confirmed major Windows Update improvements for Windows 11 – here's what's changing
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1sus46d/microsoft_just_confirmed_major_windows_update/
+
+---
+
+#### 482. Taskbar Windows Logo
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1svnkwq/taskbar_windows_logo/
+
+---
+
+#### 483. Microsoft will let you pause Windows Updates indefinitely, 35 days at a time
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1surw76/microsoft_will_let_you_pause_windows_updates/
+
+---
+
+#### 484. How much would you rate it out of 10?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1svw3uj/how_much_would_you_rate_it_out_of_10/
+
+---
+
+#### 485. I got an inside look at the plan to bring the soul back to Windows 11 — Microsoft’s bet on quality, community, and making the OS feel human again
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1sugyt7/i_got_an_inside_look_at_the_plan_to_bring_the/
+
+---
+
+#### 486. Announcing Windows Insider Program Experimental (26H1) Preview Build 28200.1873
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1sumx30/announcing_windows_insider_program_experimental/
+
+---
+
+#### 487. Announcing Windows Insider Program Experimental Preview Build 26300.8289
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1sumu49/announcing_windows_insider_program_experimental/
+
+---
+
+#### 488. Insider channels now moving to Experimental and Beta + Announcing new builds for 24 April 2026
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1sumf5d/insider_channels_now_moving_to_experimental_and/
+
+---
+
+#### 489. Announcing Windows Insider Program Experimental (Future Platforms) Preview Build 29576.1000
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1sun23d/announcing_windows_insider_program_experimental/
+
+---
+
+#### 490. Announcing Windows Insider Program Beta Preview Build 26220.8283
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1sunaq6/announcing_windows_insider_program_beta_preview/
+
+---
+
+#### 491. Is it possible to have pinned apps in the taskbar launch separatly like (File Explorer and Teamspeak) without customization tools or apps.
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1susf6g/is_it_possible_to_have_pinned_apps_in_the_taskbar/
+
+---
+
+#### 492. Microsoft says it’s rebuilding Windows 11 around what users actually want: performance, reliability, quality and craft
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1stquy6/microsoft_says_its_rebuilding_windows_11_around/
+
+---
+
+#### 493. Windows 10 End of Support, what it means for you and what you can do.
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1o6ov2j/windows_10_end_of_support_what_it_means_for_you/
+
+---
+
+#### 494. Welcome to /r/WindowsHelp, here are some guidelines for requesting assistance
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/lxt0j3/welcome_to_rwindowshelp_here_are_some_guidelines/
+
+---
+
+#### 495. python randomly turning camera on? is this normal?
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1sokyid/python_randomly_turning_camera_on_is_this_normal/
+
+---
+
+#### 496. System Files over 100GB: How do I get this down?
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1soieyh/system_files_over_100gb_how_do_i_get_this_down/
+
+---
+
+#### 497. Application setting greyed checkmark
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1sowcge/application_setting_greyed_checkmark/
+
+---
+
+#### 498. Running Windows 10 through October and getting this prompt.
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1sougzn/running_windows_10_through_october_and_getting/
+
+---
+
+#### 499. How the hell does this work???
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1sop8zg/how_the_hell_does_this_work/
+
+---
+
+#### 500. Can't Install Windows 11 Repair Version
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1sowj1o/cant_install_windows_11_repair_version/
+
+---
+
+#### 501. Bluetooth audio keeps breaking
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1sovqdy/bluetooth_audio_keeps_breaking/
+
+---
+
+#### 502. Windows Defender task bar icon displays a red cross, but there is no action required/threats whatsoever.
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1sodt70/windows_defender_task_bar_icon_displays_a_red/
+
+---
+
+#### 503. Black screen background and no applications on it
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1soupha/black_screen_background_and_no_applications_on_it/
+
+---
+
+#### 504. Windows stuck on spinning circles booting screen, doesn't boot into Automatic Repair mode
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1souu6v/windows_stuck_on_spinning_circles_booting_screen/
+
+---
+
+#### 505. Time resets randomly after long shut downs
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1sowd7m/time_resets_randomly_after_long_shut_downs/
+
+---
+
+#### 506. My PC gets stuck in a weird "in-between" state when I press the power button
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1sou7gv/my_pc_gets_stuck_in_a_weird_inbetween_state_when/
+
+---
+
+#### 507. Internet not working after windows 11 update
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1sod6s3/internet_not_working_after_windows_11_update/
+
+---
+
+#### 508. cannot sign into passed mom's laptop
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1som3s3/cannot_sign_into_passed_moms_laptop/
+
+---
+
+#### 509. Every time I restart my pc, the WiFi on it just does not work for a few minutes.
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1soqcwm/every_time_i_restart_my_pc_the_wifi_on_it_just/
+
+---
+
+#### 510. Laptop black screens before allowing me to type my password
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1soqc4c/laptop_black_screens_before_allowing_me_to_type/
+
+---
+
+#### 511. Make all folders extra large by default
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1soq097/make_all_folders_extra_large_by_default/
+
+---
+
+#### 512. Windows 11 Window Translucency Issues
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1sopmsf/windows_11_window_translucency_issues/
+
+---
+
+#### 513. macros recorder search for windows 10
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1somcv8/macros_recorder_search_for_windows_10/
+
+---
+
+#### 514. Dead Rising 4 in WindowsApps folder
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1som10j/dead_rising_4_in_windowsapps_folder/
+
+---
+
+#### 515. How to share files between two Windows 11 computers
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1solzam/how_to_share_files_between_two_windows_11/
+
+---
+
+#### 516. PC freezes when focusing on other monitors while fullscreen application is running
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1sogo3p/pc_freezes_when_focusing_on_other_monitors_while/
+
+---
+
+#### 517. Increased RAM usage because of tool???
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1sol13u/increased_ram_usage_because_of_tool/
+
+---
+
+#### 518. Simple Questions - April 26, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1swnou5/simple_questions_april_26_2026/
+
+---
+
+#### 519. [User-Trial] Looking for 3 builders to field-test the new LG UltraGear 27" (Hyper Mini-LED / HDR 1000)
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1skvphe/usertrial_looking_for_3_builders_to_fieldtest_the/
+
+---
+
+#### 520. 9800x3d with 5070 or 7800x3d with 5070ti?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1sxamvd/9800x3d_with_5070_or_7800x3d_with_5070ti/
+
+---
+
+#### 521. Why does FurMark have a “GPU killer” reputation, but playing heavy games with 100% load for hours is totally fine?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1swsl55/why_does_furmark_have_a_gpu_killer_reputation_but/
+
+---
+
+#### 522. Ryzen 5 9600x vs 7 7800x3D
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1sxaycg/ryzen_5_9600x_vs_7_7800x3d/
+
+---
+
+#### 523. Best $300-350 gpu?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1sx9npw/best_300350_gpu/
+
+---
+
+#### 524. Thermal paste on MOBO
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1sxaaiu/thermal_paste_on_mobo/
+
+---
+
+#### 525. After 16 years I switch from PlayStation to PC-Gaming
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1swwu8v/after_16_years_i_switch_from_playstation_to/
+
+---
+
+#### 526. Best CPU + GPU for 1440p PUBG (144Hz) + light streaming? Budget-friendly & future-proof
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1sx1c6m/best_cpu_gpu_for_1440p_pubg_144hz_light_streaming/
+
+---
+
+#### 527. What's the best graphics card for $200? Used cards count, too.
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1sxei56/whats_the_best_graphics_card_for_200_used_cards/
+
+---
+
+#### 528. Should I Upgrade, or buy new
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1sx59ed/should_i_upgrade_or_buy_new/
+
+---
+
+#### 529. RTX5070 3dmark score
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1sxfoli/rtx5070_3dmark_score/
+
+---
+
+#### 530. should i buy a CPU now?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1sxhu48/should_i_buy_a_cpu_now/
+
+---
+
+#### 531. Take 2: high-end gaming build (~$10k, mostly FF14 + AAA titles). Did I actually fix what was wrong last time?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1sxb7a6/take_2_highend_gaming_build_10k_mostly_ff14_aaa/
+
+---
+
+#### 532. HDMI cutting out
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1sxds6a/hdmi_cutting_out/
+
+---
+
+#### 533. Best GPU for around $150, or natively VR compatible for $200?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1sx4r8s/best_gpu_for_around_150_or_natively_vr_compatible/
+
+---
+
+#### 534. 9070xt vs 5070 for friend
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1sx9nnm/9070xt_vs_5070_for_friend/
+
+---
+
+#### 535. If I give this computer to a family member, is it powerful enough to run games through a Meta quest 3 pretty well?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1sxb2fl/if_i_give_this_computer_to_a_family_member_is_it/
+
+---
+
+#### 536. Bt headphones help choosing and options
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1sxazep/bt_headphones_help_choosing_and_options/
+
+---
+
+#### 537. what gpu i need to get
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1swzi28/what_gpu_i_need_to_get/
+
+---
+
+#### 538. ISO best keyboard for FPS gaming
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1sxa9eu/iso_best_keyboard_for_fps_gaming/
+
+---
+
+#### 539. £1000 Uk parts list, any improvements…. help?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1sx7jyn/1000_uk_parts_list_any_improvements_help/
+
+---
+
+#### 540. Montech Century II pinout - Help!
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1sxdwng/montech_century_ii_pinout_help/
+
+---
+
+#### 541. Should I upgrade from my ryzen 7 2700x
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1sxdtxm/should_i_upgrade_from_my_ryzen_7_2700x/
+
+---
+
+#### 542. Time to Build a Pc again
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1sx55v3/time_to_build_a_pc_again/
+
+---
+
+#### 543. Reminder: Please do not submit tech support or build questions to /r/hardware
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/3n9tky/reminder_please_do_not_submit_tech_support_or/
+
+---
+
+#### 544. [Gamers Nexus] Valve Steam Controller Review | Latency Benchmarks, Battery Life, Repairability
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sx9tt0/gamers_nexus_valve_steam_controller_review/
+
+---
+
+#### 545. Noctua releases 3D fan models for CAD users and renderers
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sxcswu/noctua_releases_3d_fan_models_for_cad_users_and/
+
+---
+
+#### 546. Electronic devices based on gallium oxide can operate at temperatures even colder than deep space, researchers have found
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sx0x3a/electronic_devices_based_on_gallium_oxide_can/
+
+---
+
+#### 547. Lenovo Completes Acquisition of Phoenix Technologies’ Firmware Business
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sxcsld/lenovo_completes_acquisition_of_phoenix/
+
+---
+
+#### 548. (Chipwise | @Reptalicant) Annotated Die Shot of Samsung's Exynos 2600
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sxgkc8/chipwise_reptalicant_annotated_die_shot_of/
+
+---
+
+#### 549. [Monitors Unboxed] 1440p 500Hz QD-OLED Monitor Round-Up: What Model Is Best?
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1swhn3n/monitors_unboxed_1440p_500hz_qdoled_monitor/
+
+---
+
+#### 550. Is a 360mm AIO enough for a 9950X3D with PBO + X3D Turbo Max Performance under heavy load?
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sxe0q9/is_a_360mm_aio_enough_for_a_9950x3d_with_pbo_x3d/
+
+---
+
+#### 551. Intel's upcoming Xeon 7 "Diamond Rapids" server CPUs reportedly delayed to 2027 — Next-gen Coral Rapids lineup lands 2028 but can be accelerated, according to new leak
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1svkfdn/intels_upcoming_xeon_7_diamond_rapids_server_cpus/
+
+---
+
+#### 552. Intel reportedly has no Xe3P “Celestial” Arc Gaming GPUs planned, Xe4 "Druid" up in the air - VideoCardz.com
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sv7sgg/intel_reportedly_has_no_xe3p_celestial_arc_gaming/
+
+---
+
+#### 553. Windows on Snapdragon X2 Elite Extreme is finally what Arm laptops should have been
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sv5yj2/windows_on_snapdragon_x2_elite_extreme_is_finally/
+
+---
+
+#### 554. [News] Japan Photoresist Suppliers Flag Shortage Amid >40% Middle East Naphtha Reliance, Risks for Chipmakers
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sufzw2/news_japan_photoresist_suppliers_flag_shortage/
+
+---
+
+#### 555. Goodbye Sony, hello Gpixel – Leica’s future cameras will have a bespoke ‘true Leica sensor’ made by Gpixel, says CEO
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sujgy1/goodbye_sony_hello_gpixel_leicas_future_cameras/
+
+---
+
+#### 556. Making RAM at Home
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1strjkk/making_ram_at_home/
+
+---
+
+#### 557. Why do Apple and NVIDIA GPUs with similar transistor counts (≈90B) have such different ALU lane counts and performance?
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1stnp3j/why_do_apple_and_nvidia_gpus_with_similar/
+
+---
+
+#### 558. Intel lands Tesla as first major customer for 14A chip technology
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1st87dg/intel_lands_tesla_as_first_major_customer_for_14a/
+
+---
+
+#### 559. Google TPU 8i for Inference and TPU 8t for Training Announced
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sthf9z/google_tpu_8i_for_inference_and_tpu_8t_for/
+
+---
+
+#### 560. What would it actually take to build a modular, upgradeable GPU: packaged chiplet modules, swappable VRAM, standardized base board?
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sum3ok/what_would_it_actually_take_to_build_a_modular/
+
+---
+
+#### 561. The switch that quantum networking has been waiting for
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1su9iaf/the_switch_that_quantum_networking_has_been/
+
+---
+
+#### 562. 2026 - Bluetooth is still awful, it's incredible
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1ssuzuu/2026_bluetooth_is_still_awful_its_incredible/
+
+---
+
+#### 563. DO NOT BUY: AMD Ryzen 9 9950X3D2 CPU Review & Benchmarks | 24 Charts in 24 Hours
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1std35q/do_not_buy_amd_ryzen_9_9950x3d2_cpu_review/
+
+---
+
+#### 564. TSMC unveils process technology roadmap through 2029: A12, A13, N2U announced, A16 slips to 2027
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sszw7t/tsmc_unveils_process_technology_roadmap_through/
+
+---
+
+#### 565. [Linus Tech Tips] AMD Ryzen 9950X3D2 Review - confirms they did not recieve a review sample - Youtube
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sstb1c/linus_tech_tips_amd_ryzen_9950x3d2_review/
+
+---
+
+#### 566. CPU shortage is reportedly 'more acute' than memory but shorter, as the industry banks on Intel 18A
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1ssjd0p/cpu_shortage_is_reportedly_more_acute_than_memory/
+
+---
+
+#### 567. Introducing Framework Laptop 13 Pro
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1srw7qu/introducing_framework_laptop_13_pro/
+
+---
+
+#### 568. Weekly Discovery Thread - April 24, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sucg6p/weekly_discovery_thread_april_24_2026/
+
+---
+
+#### 569. What is a piece of "niche" software that you use every day but most people have never heard of?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sxf90t/what_is_a_piece_of_niche_software_that_you_use/
+
+---
+
+#### 570. Windows Explorer Ram Usage!
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1swv0jz/windows_explorer_ram_usage/
+
+---
+
+#### 571. Is it just me, or has software quality tanked since the AI boom?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sxe6nf/is_it_just_me_or_has_software_quality_tanked/
+
+---
+
+#### 572. Please recommend video editing softwares that don't have any hidden paywalls once you download them after advertising them as "free", no subscription based bs, NO AI, and no watermark ruining the whole video
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sxa39d/please_recommend_video_editing_softwares_that/
+
+---
+
+#### 573. QB Support? That’s a joke!
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sxcug2/qb_support_thats_a_joke/
+
+---
+
+#### 574. An open source tool for developers using git in daily life.
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sxhv5b/an_open_source_tool_for_developers_using_git_in/
+
+---
+
+#### 575. App IPTV multiplataforma problemas con codecs
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sxherg/app_iptv_multiplataforma_problemas_con_codecs/
+
+---
+
+#### 576. Revenue of my second SaaS: now looking for beta testers for my new SaaS Project
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sxglpc/revenue_of_my_second_saas_now_looking_for_beta/
+
+---
+
+#### 577. Remember the absolute chaos of using Download Accelerator Plus (DAP) or Winamp in the early 2000s?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sxfkn1/remember_the_absolute_chaos_of_using_download/
+
+---
+
+#### 578. See stats similar to Windows Task Manager on my phone
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sx8q66/see_stats_similar_to_windows_task_manager_on_my/
+
+---
+
+#### 579. what is the best flowchart tool/software for teams? im looking for options, any recommendations?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sx7g7f/what_is_the_best_flowchart_toolsoftware_for_teams/
+
+---
+
+#### 580. Free tool to streamline punchlist distribution, bid requests, takeoffs, pdf markups.
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sxcnwm/free_tool_to_streamline_punchlist_distribution/
+
+---
+
+#### 581. Why are my textures bugging?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sxc9cr/why_are_my_textures_bugging/
+
+---
+
+#### 582. A guided econometrics app for iOS and macOS, looking for feedback from r/econometrics
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sxbyh9/a_guided_econometrics_app_for_ios_and_macos/
+
+---
+
+#### 583. Any programs to recover long deleted stuff like music projects? Im on a 2017 MacBook Pro BTW.
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sx4xj6/any_programs_to_recover_long_deleted_stuff_like/
+
+---
+
+#### 584. Everything (Voidtools) not finding all files on mapped network drive (worked before)
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1swwabe/everything_voidtools_not_finding_all_files_on/
+
+---
+
+#### 585. Building an app to get your group chat off of the group chat
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sx9e44/building_an_app_to_get_your_group_chat_off_of_the/
+
+---
+
+#### 586. Built Sentinall, an AI code reviewer, would love your feedback
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sx9b84/built_sentinall_an_ai_code_reviewer_would_love/
+
+---
+
+#### 587. Care doesn’t happen on just one phone.
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sx7jtb/care_doesnt_happen_on_just_one_phone/
+
+---
+
+#### 588. What I learned building 75+ free tools without a signup wall
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sx775e/what_i_learned_building_75_free_tools_without_a/
+
+---
+
+#### 589. Is the program EMDB still being actively developed?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sx64wb/is_the_program_emdb_still_being_actively_developed/
+
+---
+
+#### 590. como crear una scrip de capturas de pantallas con lockdown
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sx5ybm/como_crear_una_scrip_de_capturas_de_pantallas_con/
+
+---
+
+#### 591. Recurring glitches which get fixed after few mins of restarts
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1sx5y4e/recurring_glitches_which_get_fixed_after_few_mins/
+
+---
+
+#### 592. Best markdown tools everyone needs to know about?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1swqrt5/best_markdown_tools_everyone_needs_to_know_about/
+
+---
+
+#### 593. [V2EX] 求 Windows UWP 软件大佬实现一个 terminal 功能
+
+**问题描述 / Problem Description**:
+个人觉得 Windows 自带的 terminal 工具很好用，手感很好渲染也不错，可惜不支持侧边栏显示 tabs/workspace ，现在 claude code/codex 用得多，经常要开很多个 tabs ，导致 tabs 超出了横向显示空间，如果能支持垂直标签页外加工作区，那将是非常好用的一个功能，可惜我不擅长 Windows 软件开发，Visual Studio 开发对于 Agent 来说不友好，求大佬帮忙实现这个功能，我给你 stars ！
+https://github.com/microsoft/terminal
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208936#reply14
+
+---
+
+#### 594. [V2EX] 各位大佬们，你们 win 系统安装了什么杀毒软件？
+
+**问题描述 / Problem Description**:
+是微软自带的还是第三方的？免费的还是付费的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208722#reply59
+
+---
+
+#### 595. [V2EX] 求助万能的 v2，想用强大模型进行 10 万+次调用目前的最合适的方案是什么？
+
+**问题描述 / Problem Description**:
+写论文有大量 LLM 任务需要调用，希望对基于描述性语言的非结构化数据进行分析，
+目前估算了一下大概需要 10 万次左右的调用，每次输入 token 数量在 20-50K 之间（中型任务），输出大概在 20K 左右。
+粗略估算了一下大概是需要 3000M 的输入+2000M 的输出这样的数量级
+因为是分析自然语言，希望模型的性能非常高，想用顶尖大模型（ claude/gpt/gemini 等等），感觉 glm5.1 和 deepseekV4pro 似乎是这个基线的守门员？低于这个性能水平的不考虑
+用 deepseekv4 的价格粗略算了一下，似乎如果按照目前价格调用的话（官网 2.5 折）要花
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208978#reply3
+
+---
+
+#### 596. [V2EX] 电子产品 填缝 防水 胶 胶泥，有推荐吗？
+
+**问题描述 / Problem Description**:
+很多电子产品需要防水，怎么说呢？就是防止水通过它的缝儿渗透进去。这种有什么好的推荐？我问了一下 AI ，没太满意，我比较菜。我其实就这个简单的需求，只要能满足这个就好，但是我跟 AI 分析了半天，那就只能是瞎猜，下面就是我找到的弯路：这些个东西可能全都是错的，可以不用看。感觉它可以像水或者是油脂一样的这种的胶泥，然后它可以渗进 0.1mm 这样的缝隙，它可以堵住这个缝，这样的话就避免水进去。填入水或者油，可以让它更好的渗进缝隙来，更密封嘛，对吧？水或油蒸发完毕后，它就变成具有一定能力的胶泥，也有大概的可固定形状。不会牢固的附着在塑料的表面，也不会太紧密的把塑料粘合起来。就好像我可以把这个东西抹
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208949#reply10
+
+---
+
+#### 597. [V2EX] 员工注册了个体户，裁员的时候是正常走 n+1 吗？
+
+**问题描述 / Problem Description**:
+现在 AI 浪潮下想自己做点事情，但是有同事说如果注册了个体户，裁员的时候拿不到赔偿，不知道是不是这样
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208929#reply10
+
+---
+
+#### 598. [V2EX] 有没有比较好的 agent 开发的学习社区、资料、教程推荐？
+
+**问题描述 / Problem Description**:
+最近发现招聘风向全都倾向 AI agent 开发了，所以也想与时俱进一下，希望哪怕前端不幸失业了可以转到 agent 开发去，希望大家有比较好的资源可以一起共享一下~感谢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208908#reply4
+
+---
+
+#### 599. [V2EX] 想问问各位大佬们的公司都有哪些 ai 应用落地的？
+
+**问题描述 / Problem Description**:
+如题，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208887#reply8
+
+---
+
+#### 600. [V2EX] Manus 收购案被禁， Meta 是不是开心死了？
+
+**问题描述 / Problem Description**:
+https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20623 外商投资安全审查工作机制办公室（国家发展改革委）依法依规对外资收购 Manus 项目作出禁止投资决定，要求当事人撤销该收购交易。 manus 能干的小龙虾都能了吧，怎么感觉 Meta 更加开心？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208883#reply1
+
+---
+
+#### 601. [V2EX] 为什么现在网上都没有 114 抢号相关的开源脚本了？
+
+**问题描述 / Problem Description**:
+北京专家号太难挂了，基本被黄牛垄断！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208879#reply2
+
+---
+
+#### 602. [V2EX] 咸鱼卖京东家政，买家要我的订单号，有没有坑
+
+**问题描述 / Problem Description**:
+不清楚是不是中间商拍的，让我下单后，给他京东的订单号，然后说服务完后确认收货，有坑吗？我很少咸鱼交易
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208877#reply1
 
 ---

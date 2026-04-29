@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Agent: System Troubleshooting (Windows / Linux / macOS)
+Sync Script: System Troubleshooting (Windows / Linux / macOS)
 数据源扩充版：Stack Exchange + Reddit + V2EX + 中文技术社区
 写入 SQLite 数据库，MD 文件由 regenerate_md.py 统一生成。
 """
@@ -14,12 +14,12 @@ from pathlib import Path
 from typing import List, Dict, Any, Optional
 
 from utils import (
-    fetch_json, fetch_text, fetch_rss, log_agent, write_report,
+    fetch_json, fetch_text, fetch_rss, log_sync, write_report,
     strip_html_tags, insert_entries_sqlite, init_sqlite_db, get_db_path,
-    count_entries_sqlite, send_agent_report,
+    count_entries_sqlite, send_sync_report,
 )
 
-AGENT_NAME = "agent-system-troubleshooting"
+SYNC_NAME = "sync-system-troubleshooting"
 MIN_ITEMS = 50
 MAX_DEEP_PAGES = 5
 
@@ -125,7 +125,7 @@ def fetch_stackexchange_deep(os_name: str, min_items: int = 50, max_pages: int =
                     break
                 if not questions:
                     break
-                log_agent(AGENT_NAME, f"SE site={site} tag={tag} page={page}: got {len(questions)} questions")
+                log_sync(SYNC_NAME, f"SE site={site} tag={tag} page={page}: got {len(questions)} questions")
 
                 with_answers = [q for q in questions if q.get("answer_count", 0) > 0]
                 qids = [q["question_id"] for q in with_answers]
@@ -135,7 +135,7 @@ def fetch_stackexchange_deep(os_name: str, min_items: int = 50, max_pages: int =
                     try:
                         answers_map = se_fetch_answers(qids[:100], site)
                     except Exception as e:
-                        log_agent(AGENT_NAME, f"Answers fetch error for {site}/{tag}: {e}")
+                        log_sync(SYNC_NAME, f"Answers fetch error for {site}/{tag}: {e}")
 
                 for q in with_answers:
                     qid = q["question_id"]
@@ -194,7 +194,7 @@ def fetch_stackexchange_deep(os_name: str, min_items: int = 50, max_pages: int =
         if len(unique) >= min_items:
             break
 
-    log_agent(AGENT_NAME, f"{os_name} StackExchange: final unique items={len(unique)}")
+    log_sync(SYNC_NAME, f"{os_name} StackExchange: final unique items={len(unique)}")
     return unique
 
 
@@ -240,7 +240,7 @@ def fetch_reddit(os_name: str, limit: int = 25) -> List[Dict[str, Any]]:
                 "answer_count": 0,
                 "creation_date": 0,
             })
-    log_agent(AGENT_NAME, f"{os_name} Reddit: fetched {len(all_items)}")
+    log_sync(SYNC_NAME, f"{os_name} Reddit: fetched {len(all_items)}")
     return all_items
 
 
@@ -278,7 +278,7 @@ def fetch_v2ex(os_name: str, limit: int = 20) -> List[Dict[str, Any]]:
                 "answer_count": 0,
                 "creation_date": 0,
             })
-    log_agent(AGENT_NAME, f"{os_name} V2EX: fetched {len(all_items)}")
+    log_sync(SYNC_NAME, f"{os_name} V2EX: fetched {len(all_items)}")
     return all_items
 
 
@@ -288,15 +288,15 @@ def fetch_v2ex(os_name: str, limit: int = 20) -> List[Dict[str, Any]]:
 
 def run():
     start_time = __import__("time").time()
-    log_agent(AGENT_NAME, "=" * 40)
-    log_agent(AGENT_NAME, "Starting scheduled run")
+    log_sync(SYNC_NAME, "=" * 40)
+    log_sync(SYNC_NAME, "Starting scheduled run")
 
     all_new = 0
     errors = []
     os_counts = {}
 
     for os_name in ["windows", "linux", "macos"]:
-        log_agent(AGENT_NAME, f"Processing {os_name}...")
+        log_sync(SYNC_NAME, f"Processing {os_name}...")
         category = f"sys-trouble-{os_name}"
         db_path = get_db_path(category)
         conn = init_sqlite_db(db_path)
@@ -306,7 +306,7 @@ def run():
             items = fetch_stackexchange_deep(os_name, min_items=MIN_ITEMS, max_pages=1, sort="creation")
         except Exception as e:
             errors.append(f"{os_name}-SE-A: {e}")
-            log_agent(AGENT_NAME, f"{os_name} SE fetch-A error: {e}")
+            log_sync(SYNC_NAME, f"{os_name} SE fetch-A error: {e}")
             items = []
 
         # 补充 Reddit + V2EX
@@ -323,12 +323,12 @@ def run():
 
         # ---- 写入 SQLite（A阶段） ----
         new_a = insert_entries_sqlite(conn, items, platform=os_name)
-        log_agent(AGENT_NAME, f"{os_name} Phase-A: fetched={len(items)}, new={new_a}")
+        log_sync(SYNC_NAME, f"{os_name} Phase-A: fetched={len(items)}, new={new_a}")
 
         # ---- B: 翻页深挖 ----
         total_new = new_a
         if total_new < MIN_ITEMS:
-            log_agent(AGENT_NAME, f"{os_name} A-phase new ({total_new}) < {MIN_ITEMS}, start deep-paging")
+            log_sync(SYNC_NAME, f"{os_name} A-phase new ({total_new}) < {MIN_ITEMS}, start deep-paging")
             for page_depth in range(2, MAX_DEEP_PAGES + 2):
                 if total_new >= MIN_ITEMS:
                     break
@@ -336,7 +336,7 @@ def run():
                     batch = fetch_stackexchange_deep(os_name, min_items=MIN_ITEMS * page_depth, max_pages=page_depth, sort="creation")
                     batch_new = insert_entries_sqlite(conn, batch, platform=os_name)
                     total_new += batch_new
-                    log_agent(AGENT_NAME, f"{os_name} Phase-B depth={page_depth}: batch_new={batch_new}, total_new={total_new}")
+                    log_sync(SYNC_NAME, f"{os_name} Phase-B depth={page_depth}: batch_new={batch_new}, total_new={total_new}")
                 except Exception as e:
                     errors.append(f"{os_name}-B-{page_depth}: {e}")
                     break
@@ -349,11 +349,11 @@ def run():
     elapsed = __import__("time").time() - start_time
     total_all = sum(os_counts.values())
     extra = f"各平台条目: Windows={os_counts.get('windows',0)}, Linux={os_counts.get('linux',0)}, macOS={os_counts.get('macos',0)}"
-    send_agent_report(AGENT_NAME, all_new, total_all, errors, elapsed, extra)
+    send_sync_report(SYNC_NAME, all_new, total_all, errors, elapsed, extra)
 
-    report = write_report(AGENT_NAME, all_new, 0, errors)
-    log_agent(AGENT_NAME, f"Summary: new={all_new}, errors={len(errors)}")
-    log_agent(AGENT_NAME, "Run complete")
+    report = write_report(SYNC_NAME, all_new, total_all, errors)
+    log_sync(SYNC_NAME, f"Summary: new={all_new}, errors={len(errors)}")
+    log_sync(SYNC_NAME, "Run complete")
     return report
 
 

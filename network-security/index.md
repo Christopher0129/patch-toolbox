@@ -4,7 +4,7 @@
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > This knowledge base aggregates publicly disclosed network security vulnerabilities. Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
 
-**总计条目 / Total entries: 445**
+**总计条目 / Total entries: 452**
 
 ---
 
@@ -517,8 +517,6 @@ This requires running OpenClaw from an attacker-controlled workspace. Severity i
 
 ## Fix
 
-OpenClaw now blocks `MINIMAX_API_HOST` from 
-
 **缓解方案 / Mitigation**:
 See GitHub Security Advisory GHSA-h2vw-ph2c-jvwf for affected packages and patched versions.
 
@@ -772,8 +770,6 @@ See GitHub Security Advisory GHSA-x2qx-6953-8485 for affected packages and patch
 After a note-mark owner soft-deletes a public book, its notes and uploaded assets stay readable at `/api/notes/{id}`, `/api/notes/{id}/content`, the slug URL, and the asset endpoints. Unauthenticated callers who hold the note ID or the slug path retain access. GORM's soft-delete scope does not reach the raw `JOIN books ...` clauses used by the note and asset queries.
 
 ## Details
-
-`DELETE /api/books/{bookID}` sets `books.deleted_at` to the current time. The book-level endpoint starts 
 
 **缓解方案 / Mitigation**:
 See GitHub Security Advisory GHSA-3gr9-485j-v4xf for affected packages and patched versions.
@@ -4534,7 +4530,7 @@ Follow security vendor guidance. Apply recommended patches.
 **严重程度 / Severity**: INFO
 
 **漏洞描述 / Description**:
-最新发现，企业级安全文件传输解决方案 Progress ShareFile 存在两处漏洞，攻击者可将其组合利用，在无需身份认证的情况下从受影响环境中窃取文件。Progress ShareFile 是一款文档共享与协作产品，广泛应用于大中型企业。此类文件传输平台历来是勒索软件团伙的重点攻击目标，此前 Clop 勒索组织就曾利用 Accellion FTA、SolarWinds Serv-U、Gladinet CentreStack、GoAnywhere MFT、MOVEit Transfer、Cleo 等产品中的漏洞实施大规模数据窃取攻击。&nbsp;watchTowr 的研究人员在 Progress ShareFile 5.x 分支的 Storage Zones Controller（SZC，存储区域控制器）组件中，发现了一处认证绕过漏洞（CVE-2026-2699）和一处远程代码执行漏洞
+最新发现，企业级安全文件传输解决方案 Progress ShareFile 存在两处漏洞，攻击者可将其组合利用，在无需身份认证的情况下从受影响环境中窃取文件。Progress ShareFile 是一款文档共享与协作产品，广泛应用于大中型企业。此类文件传输平台历来是勒索软件团伙的重点攻击目标，此前 Clop 勒索组织就曾利用 Accellion FTA、SolarWinds Serv-U、Gladinet CentreStack、GoAnywhere MFT、MOVEit Transfer、Cleo 等产品中的漏洞实施大规模数据窃取攻击。 watchTowr 的研究人员在 Progress ShareFile 5.x 分支的 Storage Zones Controller（SZC，存储区域控制器）组件中，发现了一处认证绕过漏洞（CVE-2026-2699）和一处远程代码执行漏洞
 
 **缓解方案 / Mitigation**:
 Follow security vendor guidance. Apply recommended patches.
@@ -4558,7 +4554,7 @@ Follow security vendor guidance. Apply recommended patches.
 **严重程度 / Severity**: INFO
 
 **漏洞描述 / Description**:
-一款名为CrystalRAT的新型远程控制木马正在Telegram上以恶意软件即服务（MaaS）模式推广，提供远程控制、数据窃取、键盘记录与剪贴板劫持等核心功能。&nbsp;该恶意软件于今年1月现身，采用分级订阅模式运营。除Telegram频道外，运营者还在YouTube开设专门营销账号，通过功能演示视频进行推广。&nbsp;卡巴斯基研究人员在最近发布的报告中指出，这款木马与WebRAT（Salat窃密木马）高度相似，二者拥有相同的控制面板设计、均使用Go语言编写，且采用类似的机器人销售系统。&nbsp;CrystalX还内置了大量恶作剧功能，用于骚扰用户或干扰其正常工作。尽管带有“娱乐化”外观，该木马仍具备全面且强大的数据窃取能力。Telegram频道推广CrystaX RATCrystalX RAT功能详情卡巴斯基表示，该恶意软件配备了易用的管理后台与自动化生成工具，支持多项自定义配置
+一款名为CrystalRAT的新型远程控制木马正在Telegram上以恶意软件即服务（MaaS）模式推广，提供远程控制、数据窃取、键盘记录与剪贴板劫持等核心功能。 该恶意软件于今年1月现身，采用分级订阅模式运营。除Telegram频道外，运营者还在YouTube开设专门营销账号，通过功能演示视频进行推广。 卡巴斯基研究人员在最近发布的报告中指出，这款木马与WebRAT（Salat窃密木马）高度相似，二者拥有相同的控制面板设计、均使用Go语言编写，且采用类似的机器人销售系统。 CrystalX还内置了大量恶作剧功能，用于骚扰用户或干扰其正常工作。尽管带有“娱乐化”外观，该木马仍具备全面且强大的数据窃取能力。Telegram频道推广CrystaX RATCrystalX RAT功能详情卡巴斯基表示，该恶意软件配备了易用的管理后台与自动化生成工具，支持多项自定义配置
 
 **缓解方案 / Mitigation**:
 Follow security vendor guidance. Apply recommended patches.
@@ -4594,7 +4590,7 @@ Follow security vendor guidance. Apply recommended patches.
 **严重程度 / Severity**: INFO
 
 **漏洞描述 / Description**:
-近期，OpenClaw（俗称“小龙虾”）这一开源AI智能体因其强大的自主执行能力而迅速爆火，成为众多企业与开发者的效率神器。然而，就在热度持续攀升之际，国家及行业权威机构接连发布重磅预警：这个看似能干的“AI助手”，正因其模糊的信任边界和脆弱的默认安全配置，成为潜伏在企业内网中的高危风险源。从已披露的CVE-2026-25253、CVE-2026-25157到最新的多个供应链投毒事件，多个已知漏洞正威胁着从个人隐私到关键基础设施的安全防线。面对来势汹汹的“龙虾”漏洞潮，传统“只扫不治”的扫描模式已然失效。企业需要的不是一份简单的风险清单，而是一套可管、可控、可追溯的漏洞治理方案。一、治理之困：为何你的网络成了“坏虾”的养殖场？在与众多企业的交流中，我们听到了两种典型的声音：&nbsp;&nbsp;“影子AI”的恐慌：“员工偷偷部署了OpenClaw，我连它们在哪里都不知道，更别提管控了。这
+近期，OpenClaw（俗称“小龙虾”）这一开源AI智能体因其强大的自主执行能力而迅速爆火，成为众多企业与开发者的效率神器。然而，就在热度持续攀升之际，国家及行业权威机构接连发布重磅预警：这个看似能干的“AI助手”，正因其模糊的信任边界和脆弱的默认安全配置，成为潜伏在企业内网中的高危风险源。从已披露的CVE-2026-25253、CVE-2026-25157到最新的多个供应链投毒事件，多个已知漏洞正威胁着从个人隐私到关键基础设施的安全防线。面对来势汹汹的“龙虾”漏洞潮，传统“只扫不治”的扫描模式已然失效。企业需要的不是一份简单的风险清单，而是一套可管、可控、可追溯的漏洞治理方案。一、治理之困：为何你的网络成了“坏虾”的养殖场？在与众多企业的交流中，我们听到了两种典型的声音：  “影子AI”的恐慌：“员工偷偷部署了OpenClaw，我连它们在哪里都不知道，更别提管控了。这
 
 **缓解方案 / Mitigation**:
 Follow security vendor guidance. Apply recommended patches.
@@ -4606,9 +4602,114 @@ Follow security vendor guidance. Apply recommended patches.
 **严重程度 / Severity**: INFO
 
 **漏洞描述 / Description**:
-2026年2月至3月，国家工业和信息化部网络安全威胁和漏洞信息共享平台（NVDB）连续两次发布关于OpenClaw（俗称“龙虾”）的安全预警，明确指出其“信任边界模糊”“配置缺陷易引发网络攻击、信息泄露”，并首次提出针对AI智能体应用的&nbsp;“六要六不要”&nbsp;安全建议。紧接着，国家安全部也发布《“龙虾”安全养殖手册》，警示主机被接管、数据被窃取、供应链投毒等原生风险。官方密集发声的背后，是一组触目惊心的数据：·258个已披露漏洞，其中近期发现的82个漏洞里就有12个超危以及21个高危；·46.9万个公网暴露实例，27.2%的实例存在高危漏洞，面临被直接接管风险；·22%&nbsp;受监控企业存在员工私自部署的“影子AI”；·超820个恶意插件潜伏在ClawHub，伪装成实用工具窃取API密钥、执行任意命令。面对这一新型AI工具带来的系统性风险，企业急需一套既能精准发现、又能深
+2026年2月至3月，国家工业和信息化部网络安全威胁和漏洞信息共享平台（NVDB）连续两次发布关于OpenClaw（俗称“龙虾”）的安全预警，明确指出其“信任边界模糊”“配置缺陷易引发网络攻击、信息泄露”，并首次提出针对AI智能体应用的 “六要六不要” 安全建议。紧接着，国家安全部也发布《“龙虾”安全养殖手册》，警示主机被接管、数据被窃取、供应链投毒等原生风险。官方密集发声的背后，是一组触目惊心的数据：·258个已披露漏洞，其中近期发现的82个漏洞里就有12个超危以及21个高危；·46.9万个公网暴露实例，27.2%的实例存在高危漏洞，面临被直接接管风险；·22% 受监控企业存在员工私自部署的“影子AI”；·超820个恶意插件潜伏在ClawHub，伪装成实用工具窃取API密钥、执行任意命令。面对这一新型AI工具带来的系统性风险，企业急需一套既能精准发现、又能深
 
 **缓解方案 / Mitigation**:
 Follow security vendor guidance. Apply recommended patches.
+
+---
+
+#### 446. [先知] 【漏洞分析】Node-tar Hardlink边界绕过问题深度分析
+
+**严重程度 / Severity**: INFO
+
+**漏洞描述 / Description**:
+以 Node-tar 的 CVE-2026-24842 为例，分析 hardlink path traversal 是如何绕过提取目录边界的，以及在常见业务场景下，如何一步步演变成任意文件读取、文件覆盖，甚至进一步的代码执行风险
+
+**缓解方案 / Mitigation**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接 / References**:
+- https://xz.aliyun.com/news/92025
+
+---
+
+#### 447. [先知] Slopsquatting供应链投毒
+
+**严重程度 / Severity**: INFO
+
+**漏洞描述 / Description**:
+Slopsquatting——由 slop（对 AI 低质量输出的俗称）和 squatting（域名/包名抢注）组合而成。大语言模型（LLM）在生成代码时会「幻觉」出实际不存在的第三方包名，而攻击者只需提前在 PyPI、npm 等公共包仓库中注册这些幻觉名称，植入恶意载荷，然后静待开发者按照 AI 的建议执行 pip install。
+
+**缓解方案 / Mitigation**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接 / References**:
+- https://xz.aliyun.com/news/92021
+
+---
+
+#### 448. [先知] 【AI赋能】六阶段AI流水线赋能APP安全分析实战
+
+**严重程度 / Severity**: INFO
+
+**漏洞描述 / Description**:
+面向移动安全分析场景的 6 阶段总控 Skill。用于统一调度 APK 静态侦察、流量与代码对齐、SO/JNI 深度分析、加密与漏洞综合分析、验证设计与报告交付流程。
+
+**缓解方案 / Mitigation**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接 / References**:
+- https://xz.aliyun.com/news/92020
+
+---
+
+#### 449. [先知] Letta AI 最新版未修复漏洞
+
+**严重程度 / Severity**: INFO
+
+**漏洞描述 / Description**:
+该漏洞允许攻击者通过 REST API 提供了一个 /v1/tools/run端点，利用任意 payload 在目标服务器上执行任意 Python 代码或系统命令。
+
+**缓解方案 / Mitigation**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接 / References**:
+- https://xz.aliyun.com/news/92018
+
+---
+
+#### 450. [先知] SGLang GGUF 投毒致 RCE 漏洞（CVE-2026-5760）
+
+**严重程度 / Severity**: INFO
+
+**漏洞描述 / Description**:
+该漏洞存在于大模型推理引擎 SGLang 中（影响 v0.5.9 及以下版本）。其核心逻辑非常直接：SGLang 在处理 /v1/rerank 请求时，会读取 GGUF 模型文件中的 tokenizer.chat_template 字段，并将其放入一个无沙箱限制的 Jinja2 环境中进行渲染。
+
+**缓解方案 / Mitigation**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接 / References**:
+- https://xz.aliyun.com/news/92017
+
+---
+
+#### 451. [先知] 结合代码分析CVE-2026-33439 OpenAM 反序列化漏洞
+
+**严重程度 / Severity**: INFO
+
+**漏洞描述 / Description**:
+结合代码分析CVE-2026-33439 OpenAM 反序列化漏洞
+
+**缓解方案 / Mitigation**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接 / References**:
+- https://xz.aliyun.com/news/92015
+
+---
+
+#### 452. [先知] js原型链污染原理及绕过
+
+**严重程度 / Severity**: INFO
+
+**漏洞描述 / Description**:
+一文讲明js原型链污染原理及概念误区，包含常见绕过思路
+
+**缓解方案 / Mitigation**:
+Refer to original article for detailed remediation and PoC analysis.
+
+**参考链接 / References**:
+- https://xz.aliyun.com/news/92013
 
 ---

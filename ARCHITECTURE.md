@@ -10,16 +10,16 @@ patch-toolbox/
 ├── 📄 requirements.txt               # Python 依赖清单
 ├── 📄 .gitignore                     # 排除 logs/state 不上传
 │
-├── 📁 agents/                        # Agent 运行时日志 & 报告（不上传GitHub）
-│   ├── agent-network-security.log
-│   ├── agent-network-security_report.json
-│   ├── agent-system-vulnerabilities.log
-│   ├── agent-system-vulnerabilities_report.json
-│   ├── agent-system-troubleshooting.log
-│   ├── agent-system-troubleshooting_report.json
-│   ├── agent-publisher.log
-│   ├── agent-link-auditor.log
-│   ├── agent-link-auditor_report.json
+├── 📁 agents/                        # Sync 运行时日志与报告目录（历史命名，目录名保留）
+│   ├── sync-network-security.log
+│   ├── sync-network-security_report.json
+│   ├── sync-system-vulnerabilities.log
+│   ├── sync-system-vulnerabilities_report.json
+│   ├── sync-system-troubleshooting.log
+│   ├── sync-system-troubleshooting_report.json
+│   ├── sync-publisher.log
+│   ├── sync-link-auditor.log
+│   ├── sync-link-auditor_report.json
 │   ├── report_latest.md              # 最新一次汇总汇报（中英双语）
 │   ├── summary.txt                   # 简短文字汇报
 │   └── cron.log                      # cron 运行日志
@@ -50,31 +50,28 @@ patch-toolbox/
 │   │                                   #   - GitHub 推送封装
 │   │                                   #   - 日志 & 汇报
 │   │
-│   ├── agent_network_security.py     # 🤖 Agent 1: 网络安全漏洞
+│   ├── sync_network_security.py     # 🔄 Sync 1: 网络安全漏洞同步脚本
 │   │                                   #   数据源: NVD API, Exploit-DB RSS,
 │   │                                   #           GitHub Security Advisories, CISA KEV
 │   │
-│   ├── agent_system_vulnerabilities.py  # 🤖 Agent 2: 系统漏洞
+│   ├── sync_system_vulnerabilities.py  # 🔄 Sync 2: 系统漏洞同步脚本
 │   │                                      #   数据源: NVD API（按厂商关键词过滤）
 │   │                                      #   分类: Windows / Linux / macOS
 │   │
-│   ├── agent_system_troubleshooting.py  # 🤖 Agent 3: 系统故障
+│   ├── sync_system_troubleshooting.py  # 🔄 Sync 3: 系统故障同步脚本
 │   │                                      #   数据源: Stack Exchange API
 │   │                                      #   站点: Super User, Ask Ubuntu, Ask Different
 │   │                                      #   分类: Windows / Linux / macOS
 │   │
-│   ├── agent_publisher.py            # 🤖 Agent 4: 汇总推送
-│   │                                   #   - 读取三个agent报告
+│   ├── sync_publisher.py            # 🔄 Sync 4: 汇总发布脚本
+│   │                                   #   - 读取三个 sync 报告
 │   │                                   #   - 生成中英双语汇报
 │   │                                   #   - GitHub 推送
 │   │
-│   ├── agent_link_auditor.py         # 🤖 Agent 5: 链接拓扑梳理（每12小时）
+│   ├── sync_link_auditor.py         # 🔄 Sync 5: 链接拓扑梳理（每12小时）
 │   │                                   #   - 检查所有md的交叉链接
 │   │                                   #   - 自动修复缺失导航
 │   │
-│   ├── run_all.py                    # 🔁 主调度器（串行运行3+1 agent）
-│   ├── cron_wrapper.sh               # 🕐 Cron包装器（每小时）
-│   └── cron_link_auditor.sh          # 🕐 Cron包装器（每12小时）
 │
 └── 📄 state.json                     # 去重数据库（本地，不上传GitHub）
 ```
@@ -117,8 +114,8 @@ README.md
        │               │                   │                    │
        ▼               ▼                   ▼                    ▼
 ┌─────────────────────────────────────────────────────────────────────────┐
-│  Agent 1        Agent 1           Agent 1         Agent 2 & 3          │
-│  50条CVE        30条Exploit      20条Advisory    各50条/系统           │
+│  Sync 1         Sync 1            Sync 1          Sync 2 & 3            │
+│  50条CVE        30条Exploit      20条Advisory    各50条/系统同步           │
 └──────┬──────────────────────────────────────────────────────────────────┘
        │
        ▼
@@ -149,8 +146,8 @@ README.md
 
 | 频率 | 执行内容 | Cron |
 |------|---------|------|
-| 每小时整点 | 运行 `run_all.py` (3抓取agent + publisher) | `0 * * * *` |
-| 每12小时 | 运行 `agent_link_auditor.py` (链接梳理) | `0 */12 * * *` |
+| 每小时整点 | 按需串行运行实际存在的 `sync_*` 脚本（不要再配置 `run_all.py`） | `0 * * * *` |
+| 每12小时 | 运行 `sync_link_auditor.py` (链接梳理) | `0 */12 * * *` |
 
 ---
 
