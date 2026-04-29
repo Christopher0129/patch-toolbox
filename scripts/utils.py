@@ -702,7 +702,7 @@ def send_sync_report(sync_name: str, new_items: int, total_items: int, errors: l
     # 微信推送（若配置了 target）
     weixin_target = os.environ.get("WEIXIN_TARGET", "")
     if weixin_target:
-        msg = f"📋 {agent_name} 执行汇报\n⏰ {ts}\n🆕 新增: {new_items} 条\n📦 累计: {total_items} 条\n❌ 错误: {err_count} 个{elapsed}\n{extra_info.strip()}"
+        msg = f"📋 {sync_name} 执行汇报\n⏰ {ts}\n🆕 新增: {new_items} 条\n📦 累计: {total_items} 条\n❌ 错误: {err_count} 个{elapsed}\n{extra_info.strip()}"
         try:
             subprocess.run(
                 ["openclaw", "message", "send", "--channel", "openclaw-weixin", "--target", weixin_target, "--message", msg],
@@ -714,7 +714,7 @@ def send_sync_report(sync_name: str, new_items: int, total_items: int, errors: l
     # Kimi Claw 推送（当前会话）
     kimi_target = os.environ.get("KIMI_TARGET", "")
     if kimi_target:
-        msg = f"📋 {agent_name} 执行汇报\n⏰ {ts}\n🆕 新增: {new_items} 条\n📦 累计: {total_items} 条\n❌ 错误: {err_count} 个{elapsed}\n{extra_info.strip()}"
+        msg = f"📋 {sync_name} 执行汇报\n⏰ {ts}\n🆕 新增: {new_items} 条\n📦 累计: {total_items} 条\n❌ 错误: {err_count} 个{elapsed}\n{extra_info.strip()}"
         try:
             subprocess.run(
                 ["openclaw", "message", "send", "--channel", "kimi-claw", "--target", kimi_target, "--message", msg],

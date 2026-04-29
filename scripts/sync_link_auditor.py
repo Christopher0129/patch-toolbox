@@ -199,9 +199,11 @@ def check_and_fix() -> Tuple[int, int, List[str]]:
 
             if new_content != content:
                 file_path.write_text(new_content, encoding="utf-8")
-            fixed += 1
-            details.append(f"FIXED {rel_path}: added links to {missing}")
-            log_sync(SYNC_NAME, f"Fixed {rel_path}: added {len(missing)} missing links")
+                fixed += 1
+                details.append(f"FIXED {rel_path}: added links to {missing}")
+                log_sync(SYNC_NAME, f"Fixed {rel_path}: added {len(missing)} missing links")
+            else:
+                log_sync(SYNC_NAME, f"OK {rel_path}: links already present after nav merge check")
         else:
             log_sync(SYNC_NAME, f"OK {rel_path}: all links present")
 

@@ -61,7 +61,7 @@ python scripts/validate_bilingual.py
 # 验证数据库同步
 python scripts/verify_db_sync.py
 
-# 验证链接可访问性
+# 验证链接可访问性（当前无专门脚本；新增外链时请手动验证）
 ```
 
 ## 联系方式 / Contact

@@ -223,17 +223,17 @@ def generate_st_md(conn, out_dir: Path):
 def main():
     print("[1/3] Generating network-security/index.md ...")
     conn_ns = sqlite3.connect(DB_DIR / "network-security.db")
-    generate_ns_md(conn_ns, REPO / "network-security" / "index.md")
+    generate_ns_md(conn_ns, PROJECT_ROOT / "network-security" / "index.md")
     conn_ns.close()
     
     print("[2/3] Generating system-vulnerabilities/ ...")
     conn_sv = sqlite3.connect(DB_DIR / "system-vulnerabilities.db")
-    generate_sv_md(conn_sv, REPO / "system-vulnerabilities")
+    generate_sv_md(conn_sv, PROJECT_ROOT / "system-vulnerabilities")
     conn_sv.close()
     
     print("[3/3] Generating system-troubleshooting/ ...")
     conn_st = sqlite3.connect(DB_DIR / "system-troubleshooting.db")
-    generate_st_md(conn_st, REPO / "system-troubleshooting")
+    generate_st_md(conn_st, PROJECT_ROOT / "system-troubleshooting")
     conn_st.close()
     
     print("\n✅ All MD files regenerated from SQLite.")
