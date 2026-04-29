@@ -28,3 +28,9 @@ jobs:
 
       - name: Verify SQLite sync
         run: python scripts/verify_db_sync.py
+
+      - name: Build website data smoke test
+        run: |
+          python scripts/export_website_data.py --output-dir /tmp/website-data
+          python scripts/build_website_stats.py --output /tmp/website-stats.json
+          python scripts/build_search_index.py --output /tmp/website-search-index.json
