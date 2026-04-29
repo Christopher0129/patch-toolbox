@@ -2,11 +2,11 @@ name: Sync to Gitee / 同步到Gitee镜像
 
 on:
   push:
-    branches: [main]
   workflow_dispatch:
 
 jobs:
   sync:
+    if: github.event_name == 'workflow_dispatch' || github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source
@@ -20,7 +20,7 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_SSH_KEY }}
         with:
           source-repo: "git@github.com:${{ github.repository }}.git"
-          destination-repo: "${{ vars.GITEE_MIRROR_REPO || "git@gitee.com:liu-ritian/patch-toolbox.git" }}"
+          destination-repo: "${{ vars.GITEE_MIRROR_REPO || 'git@gitee.com:liu-ritian/patch-toolbox.git' }}"
 
       - name: Verify sync
         if: failure()
@@ -29,3 +29,10 @@ jobs:
           echo "   1. GITEE_SSH_KEY 是否已添加到 GitHub Secrets"
           echo "   2. Gitee仓库是否存在且可写"
           echo "   3. SSH公钥是否已添加到Gitee账户"
+
+  skip-non-main:
+    if: github.event_name != 'workflow_dispatch' && github.ref != 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Skip mirror on non-main branches
+        run: echo "Skipping Gitee mirror for ${GITHUB_REF}; only main and manual runs perform sync."
