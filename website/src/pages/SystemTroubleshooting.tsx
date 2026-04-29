@@ -603,6 +603,42 @@ export default function SystemTroubleshooting() {
             {t('systemTroubleshooting.communityBadge') as string}
           </motion.div>
 
+          {/* Mixed-mode Access Links */}
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.35 }}
+            className="mt-6 flex flex-wrap items-center gap-3"
+          >
+            <a
+              href={markdownUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-md bg-accent-green/10 px-3 py-1.5 text-xs font-medium text-accent-green transition-colors hover:bg-accent-green/20"
+            >
+              <FileText className="h-3.5 w-3.5" />
+              Markdown 原文
+            </a>
+            <a
+              href={dbUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-md bg-accent-blue/10 px-3 py-1.5 text-xs font-medium text-accent-blue transition-colors hover:bg-accent-blue/20"
+            >
+              <Database className="h-3.5 w-3.5" />
+              SQLite 下载
+            </a>
+            <a
+              href={entriesUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-md bg-accent-cyan/10 px-3 py-1.5 text-xs font-medium text-accent-cyan transition-colors hover:bg-accent-cyan/20"
+            >
+              <ExternalLink className="h-3.5 w-3.5" />
+              前端数据
+            </a>
+          </motion.div>
+
           {/* Platform Summary Cards */}
           <motion.div
             initial="hidden"

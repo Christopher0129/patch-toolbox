@@ -1,3 +1,4 @@
+import { Database, FileText, ExternalLink, Shield } from 'lucide-react';
 import { useTranslation } from '@/i18n/LanguageContext';
 import { loadStats, loadEntries } from '@/lib/content';
 import { motion } from 'framer-motion';
@@ -329,11 +330,12 @@ export default function About() {
   const { t } = useTranslation();
 
   // Wire to generated static data stats
-  const [stats, setStats] = useState({ stars: 21, forks: 1, contributors: 3, commits: 63 });
+  const [stats, setStats] = useState({ stars: 21, forks: 1, contributors: 3, commits: 63, entries: 3154 });
   useEffect(() => {
     loadStats().then((s) => {
       if (s?.githubStars) setStats(prev => ({ ...prev, stars: s.githubStars }));
       if (s?.githubForks) setStats(prev => ({ ...prev, forks: s.githubForks }));
+      if (s?.totalEntries) setStats(prev => ({ ...prev, entries: s.totalEntries }));
     }).catch(() => {});
   }, []);
 
@@ -683,6 +685,49 @@ export default function About() {
               </a>
             </DataCard>
           </motion.div>
+        </div>
+      </section>
+
+      {/* ── Mixed-Mode Access Section ──────────────────────── */}
+      <section className="border-t border-border-subtle bg-bg-surface px-6 py-16">
+        <div className="mx-auto max-w-[800px]">
+          <SectionHeader
+            label={t('formats.label') as string}
+            title={t('formats.title') as string}
+            description="patch-toolbox 采用混合模式 (mixed-mode) 发布内容：前端阅读 / Markdown 原文 / SQLite 下载，三种方式均可获取全部数据。"
+          />
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
+            <a
+              href="/patch-toolbox/data/entries.json"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center gap-3 rounded-xl border border-border-subtle bg-bg-elevated p-6 transition-all hover:-translate-y-0.5 hover:border-accent-blue"
+            >
+              <Database className="h-8 w-8 text-accent-cyan" />
+              <span className="font-heading text-lg font-medium text-text-primary">前端阅读</span>
+              <span className="text-center text-xs text-text-muted">Front-end reading via entries.json</span>
+            </a>
+            <a
+              href="https://github.com/Christopher0129/patch-toolbox/blob/main/network-security/index.md"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center gap-3 rounded-xl border border-border-subtle bg-bg-elevated p-6 transition-all hover:-translate-y-0.5 hover:border-accent-green"
+            >
+              <FileText className="h-8 w-8 text-accent-green" />
+              <span className="font-heading text-lg font-medium text-text-primary">Markdown 原文</span>
+              <span className="text-center text-xs text-text-muted">markdown_path · 原文链接</span>
+            </a>
+            <a
+              href="/patch-toolbox/db/network-security.db"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center gap-3 rounded-xl border border-border-subtle bg-bg-elevated p-6 transition-all hover:-translate-y-0.5 hover:border-accent-amber"
+            >
+              <Shield className="h-8 w-8 text-accent-amber" />
+              <span className="font-heading text-lg font-medium text-text-primary">SQLite 下载</span>
+              <span className="text-center text-xs text-text-muted">SQLite .db · 结构可查</span>
+            </a>
+          </div>
         </div>
       </section>
 

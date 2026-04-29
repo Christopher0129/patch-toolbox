@@ -769,6 +769,27 @@ export default function Home() {
               >
                 {t('formats.sqlite.cta') as string}
               </a>
+              {/* Mixed-mode: SQLite download + structured data link */}
+              <div className="mt-4 flex flex-wrap gap-3 border-t border-border-subtle pt-4">
+                <a
+                  href="/patch-toolbox/db/network-security.db"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 rounded-md bg-accent-blue/10 px-3 py-1.5 text-xs font-medium text-accent-blue transition-colors hover:bg-accent-blue/20"
+                >
+                  <Database className="h-3.5 w-3.5" />
+                  Download SQLite .db
+                </a>
+                <a
+                  href="/patch-toolbox/data/entries.json"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 rounded-md bg-accent-cyan/10 px-3 py-1.5 text-xs font-medium text-accent-cyan transition-colors hover:bg-accent-cyan/20"
+                >
+                  <FileText className="h-3.5 w-3.5" />
+                  Browse entries.json
+                </a>
+              </div>
             </motion.div>
 
             {/* Markdown Card */}
@@ -815,6 +836,27 @@ export default function Home() {
               >
                 {t('formats.markdown.cta') as string}
               </a>
+              {/* Mixed-mode: Markdown source + structured data link */}
+              <div className="mt-4 flex flex-wrap gap-3 border-t border-border-subtle pt-4">
+                <a
+                  href="https://github.com/Christopher0129/patch-toolbox/blob/main/network-security/index.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 rounded-md bg-accent-green/10 px-3 py-1.5 text-xs font-medium text-accent-green transition-colors hover:bg-accent-green/20"
+                >
+                  <FileText className="h-3.5 w-3.5" />
+                  View Markdown (GitHub)
+                </a>
+                <a
+                  href="/patch-toolbox/data/categories.json"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 rounded-md bg-accent-amber/10 px-3 py-1.5 text-xs font-medium text-accent-amber transition-colors hover:bg-accent-amber/20"
+                >
+                  <FileText className="h-3.5 w-3.5" />
+                  Browse categories.json
+                </a>
+              </div>
             </motion.div>
           </div>
         </div>

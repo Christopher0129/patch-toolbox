@@ -341,6 +341,11 @@ export default function SystemVulnerabilities() {
     }).catch(() => {});
   }, []);
 
+  // Mixed-mode access URLs
+  const markdownUrl = 'https://github.com/Christopher0129/patch-toolbox/blob/main/system-vulnerabilities/index.md';
+  const dbUrl = '/patch-toolbox/db/system-vulnerabilities.db';
+  const entriesUrl = '/patch-toolbox/data/entries.json';
+
   const tabs: Platform[] = ['windows', 'linux', 'macos'];
   const currentData = data[activeTab];
   const meta = platformMeta[activeTab];
@@ -476,6 +481,37 @@ export default function SystemVulnerabilities() {
                 {t(`systemVulnerabilities.platform.${meta.labelKey}`) as string}{' '}
                 {t('systemVulnerabilities.vulnerabilities') as string}
               </h2>
+            </div>
+
+            {/* Mixed-mode Access Links */}
+            <div className="mb-4 flex flex-wrap items-center gap-3">
+              <a
+                href={markdownUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 rounded-md bg-accent-green/10 px-3 py-1.5 text-xs font-medium text-accent-green transition-colors hover:bg-accent-green/20"
+              >
+                <FileText className="h-3.5 w-3.5" />
+                Markdown 原文
+              </a>
+              <a
+                href={dbUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 rounded-md bg-accent-blue/10 px-3 py-1.5 text-xs font-medium text-accent-blue transition-colors hover:bg-accent-blue/20"
+              >
+                <Database className="h-3.5 w-3.5" />
+                SQLite 下载
+              </a>
+              <a
+                href={entriesUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 rounded-md bg-accent-cyan/10 px-3 py-1.5 text-xs font-medium text-accent-cyan transition-colors hover:bg-accent-cyan/20"
+              >
+                <ExternalLink className="h-3.5 w-3.5" />
+                前端数据
+              </a>
             </div>
 
             {/* Stats Row */}
