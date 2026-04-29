@@ -10,6 +10,7 @@ import sqlite3
 import subprocess
 import sys
 import time
+import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -367,9 +368,11 @@ def _git_push_secure(remote: str, branch: str, token: str, env: dict) -> bool:
         return False
     url = r.stdout.strip()
 
-    askpass = PROJECT_ROOT / ".git-askpass-patch-toolbox.sh"
+    askpass = None
     try:
-        askpass.write_text('#!/bin/sh\ncase "$1" in\n  *Username*) echo "oauth2" ;;\n  *Password*) echo "$PATCH_TOOLBOX_TOKEN" ;;\n  *) echo "" ;;\nesac\n', encoding='utf-8')
+        with tempfile.NamedTemporaryFile("w", encoding="utf-8", prefix="patch-toolbox-askpass-", suffix=".sh", delete=False) as tmp:
+            tmp.write('#!/bin/sh\ncase "$1" in\n  *Username*) echo "oauth2" ;;\n  *Password*) echo "$PATCH_TOOLBOX_TOKEN" ;;\n  *) echo "" ;;\nesac\n')
+            askpass = Path(tmp.name)
         askpass.chmod(0o700)
         env_auth = env.copy()
         env_auth["GIT_ASKPASS"] = str(askpass)
@@ -384,7 +387,7 @@ def _git_push_secure(remote: str, branch: str, token: str, env: dict) -> bool:
         )
         return result.returncode == 0
     finally:
-        if askpass.exists():
+        if askpass and askpass.exists():
             askpass.unlink()
 
 

@@ -34,11 +34,18 @@ REPORTS = {
 }
 
 
+def _fallback_sync_name(path: Path) -> str:
+    stem = path.stem
+    if stem.endswith("_report"):
+        stem = stem[:-7]
+    return stem
+
+
 def read_report(path: Path) -> dict:
     if path.exists():
         with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
-    return {"sync": path.stem, "new_items": 0, "total_items": 0, "errors": [], "timestamp": None}
+    return {"sync": _fallback_sync_name(path), "new_items": 0, "total_items": 0, "errors": [], "timestamp": None}
 
 
 def count_from_sqlite() -> dict:
