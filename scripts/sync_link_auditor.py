@@ -58,19 +58,6 @@ EXPECTED_LINKS: Dict[str, List[str]] = {
     ],
 }
 
-NAV_BLOCK_ZH = """
----
-
-**🔗 导航 / Navigation**
-
-"""
-
-NAV_BLOCK_EN = """
----
-
-**🔗 Navigation**
-
-"""
 
 
 def extract_links(md_content: str) -> Set[str]:
@@ -85,13 +72,8 @@ def extract_links(md_content: str) -> Set[str]:
     return links
 
 
-def find_nav_position(content: str) -> int:
-    """找到文件末尾合适位置插入导航（在最后一个heading之后）"""
-    # 在文件最后插入
-    return len(content)
 
-
-def build_nav_section(links: List[str], file_dir: Path) -> str:
+def build_nav_section(links: List[str]) -> str:
     """为缺失的链接构建导航块"""
     lines = ["---", "", "**🔗 导航 / Navigation**", ""]
     for link in links:
@@ -149,7 +131,7 @@ def check_and_fix() -> Tuple[int, int, List[str]]:
                 missing.append(expected_link)
 
         if missing:
-            nav = build_nav_section(missing, file_path.parent)
+            nav = build_nav_section(missing)
             # 检查是否已有导航块
             nav_start = -1
             lines = content.split("\n")

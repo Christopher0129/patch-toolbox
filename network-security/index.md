@@ -517,8 +517,6 @@ This requires running OpenClaw from an attacker-controlled workspace. Severity i
 
 ## Fix
 
-OpenClaw now blocks `MINIMAX_API_HOST` from
-
 **缓解方案 / Mitigation**:
 See GitHub Security Advisory GHSA-h2vw-ph2c-jvwf for affected packages and patched versions.
 
@@ -772,8 +770,6 @@ See GitHub Security Advisory GHSA-x2qx-6953-8485 for affected packages and patch
 After a note-mark owner soft-deletes a public book, its notes and uploaded assets stay readable at `/api/notes/{id}`, `/api/notes/{id}/content`, the slug URL, and the asset endpoints. Unauthenticated callers who hold the note ID or the slug path retain access. GORM's soft-delete scope does not reach the raw `JOIN books ...` clauses used by the note and asset queries.
 
 ## Details
-
-`DELETE /api/books/{bookID}` sets `books.deleted_at` to the current time. The book-level endpoint starts
 
 **缓解方案 / Mitigation**:
 See GitHub Security Advisory GHSA-3gr9-485j-v4xf for affected packages and patched versions.

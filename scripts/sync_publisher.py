@@ -52,11 +52,10 @@ def count_from_sqlite() -> dict:
     for name, db_path in dbs.items():
         if db_path.exists():
             try:
-                conn = sqlite3.connect(db_path)
-                c = conn.cursor()
-                c.execute("SELECT COUNT(*) FROM entries")
-                counts[name] = c.fetchone()[0]
-                conn.close()
+                with sqlite3.connect(db_path) as conn:
+                    c = conn.cursor()
+                    c.execute("SELECT COUNT(*) FROM entries")
+                    counts[name] = c.fetchone()[0]
             except Exception as e:
                 log_sync(SYNC_NAME, f"SQLite count error for {name}: {e}")
                 counts[name] = 0
@@ -69,7 +68,7 @@ def run():
     log_sync(SYNC_NAME, "=" * 40)
     log_sync(SYNC_NAME, "Starting publisher run")
 
-    # 1. 读取三个agent报告
+    # 1. 读取三个 sync 报告
     reports = {}
     for key, path in REPORTS.items():
         reports[key] = read_report(path)

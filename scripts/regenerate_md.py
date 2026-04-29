@@ -30,11 +30,6 @@ def clean_text(val):
         return val
     return html.unescape(val).strip()
 
-    clipped = val[:limit].rsplit(' ', 1)[0].strip()
-    if not clipped:
-        clipped = val[:limit].strip()
-    return clipped + '…'
-
 
 
 
@@ -48,6 +43,23 @@ def trim_dangling_bullets(val: str) -> str:
             lines.pop()
             continue
         break
+    return '\n'.join(lines).strip()
+
+
+
+def sanitize_advisory_block(val: str) -> str:
+    val = trim_dangling_bullets(val)
+    bad_endings = (
+        ' from',
+        ' starts',
+        ' starts ',
+    )
+    lines = []
+    for line in val.splitlines():
+        stripped = line.rstrip()
+        if stripped.endswith(bad_endings):
+            continue
+        lines.append(line)
     return '\n'.join(lines).strip()
 
 def display_title(title: str, desc: str = "", limit: int = 100) -> str:
@@ -87,7 +99,7 @@ def generate_ns_md(conn, out_path: Path):
         lines.append(f"**严重程度 / Severity**: {sev_display}")
         lines.append("")
         lines.append("**漏洞描述 / Description**:")
-        lines.append(trim_dangling_bullets(desc) or "N/A")
+        lines.append(sanitize_advisory_block(desc) or "N/A")
         lines.append("")
         if not _is_empty(sol):
             lines.append("**缓解方案 / Mitigation**:")
@@ -171,7 +183,7 @@ def generate_sv_md(conn, out_dir: Path):
                     pass
             plines.append("")
             plines.append("**漏洞描述 / Description**:")
-            plines.append(trim_dangling_bullets(desc) or "N/A")
+            plines.append(sanitize_advisory_block(desc) or "N/A")
             plines.append("")
             if not _is_empty(sol):
                 plines.append("**补丁信息 / Patch Info**:")
@@ -245,7 +257,7 @@ def generate_st_md(conn, out_dir: Path):
             plines.append(f"#### {i}. {display_title(title, desc)}")
             plines.append("")
             plines.append("**问题描述 / Problem Description**:")
-            plines.append(trim_dangling_bullets(desc) or "N/A")
+            plines.append(sanitize_advisory_block(desc) or "N/A")
             plines.append("")
             if not _is_empty(sol):
                 plines.append("**解决方案 / Solution**:")
