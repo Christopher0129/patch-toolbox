@@ -88,9 +88,10 @@ id_ed25519*
 # GPG
 .gnupg/
 
-# Node.js (if web frontend added later)
-node_modules/
-dist/
+# Node.js (website frontend)
+website/node_modules/
+website/dist/
+website/.vite/
 
 # Local scripts and dev files
 local/
