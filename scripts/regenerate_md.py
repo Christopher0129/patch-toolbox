@@ -30,11 +30,6 @@ def clean_text(val):
         return val
     return html.unescape(val).strip()
 
-
-def normalize_title(val: str, limit: int = 100) -> str:
-    val = clean_text(val)
-    if len(val) <= limit:
-        return val
     clipped = val[:limit].rsplit(' ', 1)[0].strip()
     if not clipped:
         clipped = val[:limit].strip()
