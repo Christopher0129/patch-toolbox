@@ -24,7 +24,7 @@ from utils import (
     fetch_json, fetch_text, fetch_rss, log_sync, write_report,
     filter_new_items, make_bilingual_md, write_md_file,
     init_sqlite_db, get_db_path, insert_entries_sqlite, count_entries_sqlite,
-    strip_html_tags, send_sync_report,
+    strip_html_tags, summarize_title, send_sync_report,
 )
 
 SYNC_NAME = "sync-system-vulnerabilities"

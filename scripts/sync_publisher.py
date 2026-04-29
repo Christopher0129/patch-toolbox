@@ -7,9 +7,7 @@ import sys
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
 
 import json
-import os
 import sqlite3
-import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 

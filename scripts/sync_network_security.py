@@ -23,7 +23,7 @@ from typing import List, Dict, Any
 from utils import (
     fetch_json, fetch_text, fetch_rss, log_sync, write_report,
     strip_html_tags, insert_entries_sqlite, init_sqlite_db, get_db_path,
-    count_entries_sqlite, send_sync_report,
+    count_entries_sqlite, summarize_title, send_sync_report,
 )
 
 SYNC_NAME = "sync-network-security"
@@ -259,7 +259,7 @@ def fetch_redhat_advisories(limit: int = 20) -> List[Dict[str, Any]]:
 
         items.append({
             "cve_id": cve_id,
-            "title": f"{cve_id} - {strip_html_tags(description)}",
+            "title": f"{cve_id} - {summarize_title(strip_html_tags(description), 80)}",
             "description": f"[Red Hat] {description}. Bugzilla: {bugzilla}",
             "cvss_score": None,
             "severity": severity,

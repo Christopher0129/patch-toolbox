@@ -14,16 +14,16 @@
 
 ### 双语要求 / Bilingual Requirement
 
-所有新增条目必须包含 **中文和英文** 内容：
+所有新增条目必须包含 **中英双语字段标签**，与仓库当前生成格式保持一致：
 
 ```markdown
-### 中文版 / Chinese Version
+**严重程度 / Severity**: HIGH
 
-[中文内容]
+**漏洞描述 / Description**:
+[保留原始语言内容]
 
-### 英文版 / English Version
-
-[English content]
+**缓解方案 / Mitigation**:
+[修复或缓解说明]
 ```
 
 ### 术语规范 / Terminology
@@ -85,16 +85,16 @@ python scripts/verify_db_sync.py
 
 #### Bilingual Requirement
 
-All new entries must contain **Chinese and English** content:
+All new entries must use **field-level bilingual labels**, matching the repository's generated Markdown format:
 
 ```markdown
-### 中文版 / Chinese Version
+**严重程度 / Severity**: HIGH
 
-[Chinese content]
+**漏洞描述 / Description**:
+[keep the source text in its original language]
 
-### 英文版 / English Version
-
-[English content]
+**缓解方案 / Mitigation**:
+[remediation or mitigation details]
 ```
 
 #### Terminology

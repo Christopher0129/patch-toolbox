@@ -19,8 +19,8 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_SSH_KEY }}
         with:
-          source-repo: "git@github.com:Christopher0129/patch-toolbox.git"
-          destination-repo: "git@gitee.com:liu-ritian/patch-toolbox.git"
+          source-repo: "git@github.com:${{ github.repository }}.git"
+          destination-repo: "${{ vars.GITEE_MIRROR_REPO || "git@gitee.com:liu-ritian/patch-toolbox.git" }}"
 
       - name: Verify sync
         if: failure()

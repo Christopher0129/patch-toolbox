@@ -227,7 +227,7 @@ def regenerate_all_md():
 
 MD_LANG_SWITCHER = """<!-- 语言切换 / Language Switch -->
 <p align="center">
-  <a href="#-中文-zh">中文 🇨🇳</a> &nbsp;|&nbsp; <a href="#-english-en">English 🇺🇸</a>
+  <a href="#中文-zh">中文 🇨🇳</a> &nbsp;|&nbsp; <a href="#english-en">English 🇺🇸</a>
 </p>
 
 ---
@@ -270,6 +270,7 @@ def make_bilingual_md(
     lines.append("")
 
     # 中文部分
+    lines.append('<a id="中文-zh"></a>')
     lines.append(f"## 中文 🇨🇳")
     lines.append(f"**{title_zh}**")
     lines.append("")
@@ -296,6 +297,7 @@ def make_bilingual_md(
     lines.append("")
 
     # 英文部分
+    lines.append('<a id="english-en"></a>')
     lines.append(f"## English 🇺🇸")
     lines.append(f"**{title_en}**")
     lines.append("")
