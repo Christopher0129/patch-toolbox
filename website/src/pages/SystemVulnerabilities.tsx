@@ -342,7 +342,7 @@ export default function SystemVulnerabilities() {
   }, []);
 
   const tabs: Platform[] = ['windows', 'linux', 'macos'];
-  const currentData = vulnerabilities[activeTab];
+  const currentData = data[activeTab];
   const meta = platformMeta[activeTab];
 
   return (

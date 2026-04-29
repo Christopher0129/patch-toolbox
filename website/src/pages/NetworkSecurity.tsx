@@ -383,6 +383,15 @@ export default function NetworkSecurity() {
   const { t, lang } = useTranslation();
 
   const [search, setSearch] = useState('');
+  const [data, setData] = useState<Vulnerability[]>(FALLBACK_DATA);
+
+  useEffect(() => {
+    loadEntries().then((entries) => {
+      if (Array.isArray(entries) && entries.length > 0) {
+        setData(entries as Vulnerability[]);
+      }
+    }).catch(() => {});
+  }, []);
   const [severityFilter, setSeverityFilter] = useState<Severity | 'All'>('All');
   const [sourceFilter, setSourceFilter] = useState<Source | 'All'>('All');
   const [sortBy, setSortBy] = useState<SortOption>('newest');
