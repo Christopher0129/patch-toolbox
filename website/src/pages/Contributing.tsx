@@ -17,7 +17,8 @@ import {
   Check,
   Play,
 } from 'lucide-react';
-import { useState, type ReactNode } from 'react';
+import { useState, useEffect, type ReactNode } from 'react';
+import { loadStats } from '@/lib/content';
 
 /* ── Animation variants ────────────────────────────────────── */
 /* const fadeUp = {
@@ -328,6 +329,14 @@ function BadgePill({ icon, label }: { icon: ReactNode; label: string }) {
 export default function Contributing() {
   const { t } = useTranslation();
   const [copied, setCopied] = useState(false);
+  const [commits, setCommits] = useState('63');
+
+  // Wire to generated static data
+  useEffect(() => {
+    loadStats().then((s) => {
+      if (s?.githubCommits) setCommits(String(s.githubCommits));
+    }).catch(() => {});
+  }, []);
 
   const exampleContent = `#### 1. CVE-2024-XXXX
 
@@ -390,7 +399,7 @@ Apply vendor patch v2.1.0 or disable affected module.
           >
             {[
               { icon: <Users className="h-5 w-5" />, value: '3', label: t('contributing.statContributors') as string },
-              { icon: <GitCommit className="h-5 w-5" />, value: '63', label: t('contributing.statCommits') as string },
+              { icon: <GitCommit className="h-5 w-5" />, value: commits, label: t('contributing.statCommits') as string },
               { icon: <MessageCircle className="h-5 w-5" />, value: t('contributing.statIssuesValue') as string, label: t('contributing.statIssues') as string },
             ].map((stat) => (
               <div key={stat.label} className="flex items-center gap-3">

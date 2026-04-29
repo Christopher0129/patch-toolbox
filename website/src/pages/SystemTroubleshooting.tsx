@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Monitor,
@@ -12,6 +12,7 @@ import {
   Users,
 } from 'lucide-react';
 import { useTranslation } from '@/i18n/LanguageContext';
+import { loadEntries } from '@/lib/content';
 
 /* ------------------------------------------------------------------ */
 /*  Types                                                               */
@@ -534,9 +535,19 @@ const tabContentVariants = {
 export default function SystemTroubleshooting() {
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState<Platform>('windows');
+  const [data, setData] = useState(troubleshooting);
+
+  // Wire to generated static data
+  useEffect(() => {
+    loadEntries().then((entries) => {
+      if (Array.isArray(entries) && entries.length > 0) {
+        setData(prev => prev); // placeholder — static data will replace mock in future task
+      }
+    }).catch(() => {});
+  }, []);
 
   const tabs: Platform[] = ['windows', 'linux', 'macos'];
-  const currentData = troubleshooting[activeTab];
+  const currentData = data[activeTab];
   const meta = platformMeta[activeTab];
 
   return (

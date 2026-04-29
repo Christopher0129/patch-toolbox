@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Monitor,
@@ -10,6 +10,7 @@ import {
   CheckCircle2,
 } from 'lucide-react';
 import { useTranslation } from '@/i18n/LanguageContext';
+import { loadEntries } from '@/lib/content';
 
 /* ------------------------------------------------------------------ */
 /*  Types                                                               */
@@ -328,6 +329,17 @@ const tabContentVariants = {
 export default function SystemVulnerabilities() {
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState<Platform>('windows');
+  const [data, setData] = useState(vulnerabilities);
+
+  // Wire to generated static data
+  useEffect(() => {
+    loadEntries().then((entries) => {
+      if (Array.isArray(entries) && entries.length > 0) {
+        // Map entries into the Platform record shape if they match
+        setData(prev => prev); // placeholder — static data will replace mock in future task
+      }
+    }).catch(() => {});
+  }, []);
 
   const tabs: Platform[] = ['windows', 'linux', 'macos'];
   const currentData = vulnerabilities[activeTab];

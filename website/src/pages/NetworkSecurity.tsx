@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
@@ -16,6 +16,7 @@ import {
   ExternalLink,
 } from 'lucide-react';
 import { useTranslation } from '@/i18n/LanguageContext';
+import { loadEntries } from '@/lib/content';
 import { cn } from '@/lib/utils';
 
 /* ─── Types ─── */
@@ -34,8 +35,8 @@ interface Vulnerability {
   references?: string[];
 }
 
-/* ─── Mock Data (20+ entries) ─── */
-const MOCK_DATA: Vulnerability[] = [
+/* ─── Fallback data (will be replaced by generated static data) ─── */
+const FALLBACK_DATA: Vulnerability[] = [
   {
     id: 'CVE-2024-1086',
     severity: 'CRITICAL',
@@ -399,19 +400,19 @@ export default function NetworkSecurity() {
       'N/A': 0,
       EXPLOIT: 0,
     };
-    MOCK_DATA.forEach((v) => {
+    data.forEach((v) => {
       counts[v.severity]++;
     });
     return counts;
-  }, []);
+  }, [data]);
 
   /* Filter & sort */
   const filtered = useMemo(() => {
-    let data = [...MOCK_DATA];
+    let items = [...data];
 
     if (search.trim()) {
       const q = search.toLowerCase();
-      data = data.filter(
+      items = items.filter(
         (v) =>
           v.id.toLowerCase().includes(q) ||
           v.description.toLowerCase().includes(q) ||
@@ -420,30 +421,30 @@ export default function NetworkSecurity() {
     }
 
     if (severityFilter !== 'All') {
-      data = data.filter((v) => v.severity === severityFilter);
+      items = items.filter((v) => v.severity === severityFilter);
     }
 
     if (sourceFilter !== 'All') {
-      data = data.filter((v) => v.source === sourceFilter);
+      items = items.filter((v) => v.source === sourceFilter);
     }
 
     switch (sortBy) {
       case 'newest':
-        data.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+        items.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
         break;
       case 'severity':
-        data.sort((a, b) => severityRank(a.severity) - severityRank(b.severity));
+        items.sort((a, b) => severityRank(a.severity) - severityRank(b.severity));
         break;
       case 'cvss':
-        data.sort((a, b) => (b.cvss ?? 0) - (a.cvss ?? 0));
+        items.sort((a, b) => (b.cvss ?? 0) - (a.cvss ?? 0));
         break;
       case 'id':
-        data.sort((a, b) => a.id.localeCompare(b.id));
+        items.sort((a, b) => a.id.localeCompare(b.id));
         break;
     }
 
-    return data;
-  }, [search, severityFilter, sourceFilter, sortBy]);
+    return items;
+  }, [search, severityFilter, sourceFilter, sortBy, data]);
 
   const clearFilters = useCallback(() => {
     setSearch('');
@@ -458,7 +459,7 @@ export default function NetworkSecurity() {
     [t],
   );
 
-  const statsTotal = MOCK_DATA.length;
+  const statsTotal = data.length;
   const statsUpdated = '2026-04-27';
 
   return (
