@@ -3906,7 +3906,7 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=105621758104242.
 
 ---
 
-#### 301. CVE-2026-3006 - winfsp: winfsp: Local privilege escalation via race condition
+#### 301. CVE-2026-3006 - winfsp: winfsp: Local privilege escalation via race condition and kernel heap overflow
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
@@ -3954,7 +3954,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 304. CVE-2026-31682 - kernel: bridge: br_nd_send: linearize skb before parsing ND 
+#### 304. CVE-2026-31682 - kernel: bridge: br_nd_send: linearize skb before parsing ND options
 
 **严重程度 / Severity**: MODERATE
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
@@ -3986,7 +3986,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 306. CVE-2026-31683 - kernel: batman-adv: avoid OGM aggregation when skb tailroom 
+#### 306. CVE-2026-31683 - kernel: batman-adv: avoid OGM aggregation when skb tailroom is insufficient
 
 **严重程度 / Severity**: N/A
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
@@ -4130,7 +4130,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 315. CVE-2026-41140 - poetry: python: Poetry: Path traversal vulnerability allows 
+#### 315. CVE-2026-41140 - poetry: python: Poetry: Path traversal vulnerability allows arbitrary file write via malicious package extraction
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
@@ -4146,7 +4146,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 316. CVE-2026-41324 - basic-ftp: basic-ftp: Denial of Service via unbounded memory
+#### 316. CVE-2026-41324 - basic-ftp: basic-ftp: Denial of Service via unbounded memory growth from malicious directory listings
 
 **严重程度 / Severity**: MODERATE
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
@@ -4162,7 +4162,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 317. CVE-2026-41316 - erb: ERB: Arbitrary code execution via deserialization bypas
+#### 317. CVE-2026-41316 - erb: ERB: Arbitrary code execution via deserialization bypass
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
@@ -4178,7 +4178,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 318. CVE-2026-41305 - postcss: PostCSS: Cross-Site Scripting (XSS) via improper escaping of `</style>` in CSS stringify output
+#### 318. CVE-2026-41305 - postcss: PostCSS: Cross-Site Scripting (XSS) via improper escaping of style closing tags
 
 **严重程度 / Severity**: MODERATE
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
@@ -4194,7 +4194,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 319. CVE-2026-40254 - FreeRDP: FreeRDP: Information disclosure and arbitrary file 
+#### 319. CVE-2026-40254 - FreeRDP: FreeRDP: Information disclosure and arbitrary file modification via path traversal
 
 **严重程度 / Severity**: MODERATE
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux
@@ -4210,7 +4210,7 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 ---
 
-#### 320. CVE-2026-31584 - kernel: media: mediatek: vcodec: fix use-after-free in encod
+#### 320. CVE-2026-31584 - kernel: media: mediatek: vcodec: fix use-after-free in encoder release path
 
 **严重程度 / Severity**: N/A
 **受影响产品 / Affected Products**: Red Hat Enterprise Linux

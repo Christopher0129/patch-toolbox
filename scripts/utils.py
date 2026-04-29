@@ -668,8 +668,21 @@ def fetch_rss(url: str, timeout: int = 30, retries: int = 3, verify: bool = True
 def strip_html_tags(text: str) -> str:
     if not text:
         return ""
+    import html
     clean = re.sub(r"<[^>]+>", "", text)
+    clean = html.unescape(clean)
     return clean.strip()
+
+
+
+def summarize_title(text: str, limit: int = 80) -> str:
+    text = strip_html_tags(text)
+    if len(text) <= limit:
+        return text
+    clipped = text[:limit].rsplit(' ', 1)[0].strip()
+    if not clipped:
+        clipped = text[:limit].strip()
+    return clipped + '…'
 
 def send_sync_report(sync_name: str, new_items: int, total_items: int, errors: list, elapsed_sec: float = None, extra_info: str = "") -> None:
     """

@@ -39,8 +39,8 @@ Your existing command doesn't work because Linux requires you to either be root 
 On modern systems, ss is the appropriate tool to use to get this information:
 $ sudo ss -lptn 'sport = :80'
 State   Local Address:Port  Peer Address:Port              
-LISTEN  127.0.0.1:80        *:*                users:((&quot;nginx&quot;,pid=125004,fd=12))
-LISTEN  ::1:80              :::*               users:((&quot;nginx&quot;,pid=125004,fd=11))
+LISTEN  127.0.0.1:80        *:*                users:(("nginx",pid=125004,fd=12))
+LISTEN  ::1:80              :::*               users:(("nginx",pid=125004,fd=11))
 
 You can also use the same invocation you're currently using, but you must first elevate with sudo:
 $ sudo netstat -nlp | grep :80
@@ -138,10 +138,10 @@ SESSION  UID USER          SEAT  TTY
 
 In that example, c2 is the session ID.
 Then:
-loginctl show-session &lt;SESSION_ID&gt; -p Type
+loginctl show-session <SESSION_ID> -p Type
 
 If you want all this on a single command:
-loginctl show-session $(awk '/tty/ {print $1}' &lt;(loginctl)) -p Type | awk -F= '{print $2}'
+loginctl show-session $(awk '/tty/ {print $1}' <(loginctl)) -p Type | awk -F= '{print $2}'
 
 Use the one corresponding to your user name.
 Refer to:
@@ -169,7 +169,7 @@ z — filter archive through gzip (remove this option to create a .tar file)
 
 If you want to tar the current directory, use . to designate that.
 To construct filenames dynamically, use the date utility (look at its man page for the available format options). For example:
-cd /var/www &amp;&amp;
+cd /var/www &&
 tar czf ~/www_backups/$(date +%Y%m%d-%H%M%S).tar.gz .
 
 This will create a file named something like 20120902-185558.tar.gz.
@@ -197,7 +197,7 @@ Tags: linux, kernel, performance, cache, ram | Score: 419 | Views: 985957 | Answ
 **解决方案 / Solution**:
 Emptying the buffers cache
 If you ever want to empty it you can use this chain of commands.
-# free &amp;&amp; sync &amp;&amp; echo 3 &gt; /proc/sys/vm/drop_caches &amp;&amp; free
+# free && sync && echo 3 > /proc/sys/vm/drop_caches && free
 
              total       used       free     shared    buffers     cached
 Mem:       1018916     980832      38084          0      46924     355764
@@ -211,29 +211,29 @@ Swap:      2064376        128    2064248
 You can signal the Linux Kernel to drop various aspects of cached items by changing the numeric argument to the above command.
 
 To free pagecache:
-# echo 1 &gt; /proc/sys/vm/drop_caches
+# echo 1 > /proc/sys/vm/drop_caches
 
 
 To free dentries and inodes:
-# echo 2 &gt; /proc/sys/vm/drop_caches
+# echo 2 > /proc/sys/vm/drop_caches
 
 
 To free pagecache, dentries and inodes:
-# echo 3 &gt; /proc/sys/vm/drop_caches
+# echo 3 > /proc/sys/vm/drop_caches
 
 
 
 The above are meant to be run as root. If you're trying to do them using sudo then you'll need to change the syntax slightly to something like these:
-$ sudo sh -c 'echo 1 &gt;/proc/sys/vm/drop_caches'
-$ sudo sh -c 'echo 2 &gt;/proc/sys/vm/drop_caches'
-$ sudo sh -c 'echo 3 &gt;/proc/sys/vm/drop_caches'
+$ sudo sh -c 'echo 1 >/proc/sys/vm/drop_caches'
+$ sudo sh -c 'echo 2 >/proc/sys/vm/drop_caches'
+$ sudo sh -c 'echo 3 >/proc/sys/vm/drop_caches'
 
 NOTE: There's a more esoteric version of the above command if you're into that:
-$ echo &quot;echo 1 &gt; /proc/sys/vm/drop_caches&quot; | sudo sh
+$ echo "echo 1 > /proc/sys/vm/drop_caches" | sudo sh
 
 Why the change in syntax? The /bin/echo program is running as root, because of sudo, but the shell that's redirecting echo's output to the root-only file is still running as you. Your current shell does the redirection before sudo starts.
 Seeing what's in the buffers and cache
-Take a look at linux-ftools if you'd like to analyze the contents of the buffers &amp; cache. Specifically if you'd like to see what files are currently being cached.
+Take a look at linux-ftools if you'd like to analyze the contents of the buffers & cache. Specifically if you'd like to see what files are currently being cached.
 fincore
 With this tool you can see what files are being cached within a give directory.
 fincore [options] files...
@@ -514,22 +514,22 @@ Tags: linux, permissions, directory | Score: 379 | Views: 714955 | Answers: 5
 I found it: Applying default permissions
 From the article:
 
-Set the setgid bit, so that files/folder under &lt;directory&gt; will be created with the same group as &lt;directory&gt;
-chmod g+s &lt;directory&gt;
+Set the setgid bit, so that files/folder under <directory> will be created with the same group as <directory>
+chmod g+s <directory>
 
 
 Set the default ACLs for the group and other
-setfacl -d -m g::rwx /&lt;directory&gt;
-setfacl -d -m o::rx /&lt;directory&gt;
+setfacl -d -m g::rwx /<directory>
+setfacl -d -m o::rx /<directory>
 
 
 
 Next we can verify:
-getfacl /&lt;directory&gt;
+getfacl /<directory>
 
 Output:
-# file: ../&lt;directory&gt;/
-# owner: &lt;user&gt;
+# file: ../<directory>/
+# owner: <user>
 # group: media
 # flags: -s-
 user::rwx
@@ -659,7 +659,7 @@ $ wanip # wanip4, or wanip6
 How it works
 The dig command.
 (Abbreviated from https://ss64.com/bash/dig.html. You can read this anytime via man dig):
-usage:  dig [@global-dnsserver] [q-type] &lt;hostname&gt; &lt;d-opt&gt; [q-opt]
+usage:  dig [@global-dnsserver] [q-type] <hostname> <d-opt> [q-opt]
 
     q-type   one of (A, ANY, AAAA, TXT, MX, ...). Default: A.
 
@@ -693,12 +693,12 @@ $ dig @ns1-1.akamaitech.net ANY whoami.akamai.net +short
 # NOTE: This returns only an approximate IP from your block,
 # but has the benefit of working even when behind private DNS proxies.
 $ dig +short TXT whoami.ds.akahelp.net
-&quot;ip&quot; &quot;80.100.192.160&quot;
+"ip" "80.100.192.160"
 
 # Google (since 2010)
 # Supports IPv6 + IPv4, use -4 or -6 to force one.
 $ dig @ns1.google.com TXT o-o.myaddr.l.google.com +short
-&quot;80.100.192.168&quot;
+"80.100.192.168"
 
 Example alias that specifically requests an IPv4 address:
 # https://unix.stackexchange.com/a/81699/37512
@@ -712,14 +712,14 @@ And for your IPv6 address:
 alias wanip6='dig @ns1.google.com TXT o-o.myaddr.l.google.com +short -6'
 
 $ wanip6
-&quot;2606:4700:4700::1111&quot;
+"2606:4700:4700::1111"
 
 Troubleshooting
 If the command is not working for some reason, there may be a network problem. Try one of the alternatives above first.
 If you suspect a different issue (with the upstream provider, the command-line tool, or something else) then run the command without the +short option to reveal the details of the DNS query. For example:
 $ dig @resolver4.opendns.com myip.opendns.com
 
-;; Got answer: -&gt;&gt;HEADER&lt;&lt;- opcode: QUERY, status: NOERROR
+;; Got answer: ->>HEADER<<- opcode: QUERY, status: NOERROR
 
 ;; QUESTION SECTION:
 ;myip.opendns.com.      IN  A
@@ -844,18 +844,18 @@ rsync -a --delete empty_dir/    yourdirectory/
 @sarath's answer mentioned another fast choice: Perl! 
 Its benchmarks are faster than rsync -a --delete.
 cd yourdirectory
-perl -e 'for(&lt;*&gt;){((stat)[9]&lt;(unlink))}'
+perl -e 'for(<*>){((stat)[9]<(unlink))}'
 
 or, without the stat (it's debatable whether it is needed;
 some say that may be faster with it, and others say it's faster without it):
 cd yourdirectory
-perl -e 'for(&lt;*&gt;){unlink}'
+perl -e 'for(<*>){unlink}'
 
 Sources:
 
 https://stackoverflow.com/questions/1795370/unix-fast-remove-directory-for-cleaning-up-daily-builds
 http://www.slashroot.in/which-is-the-fastest-method-to-delete-files-in-linux
-https://www.quora.com/Linux-why-stat+unlink-can-be-faster-than-a-single-unlink/answer/Kent-Fredric?srid=O9EW&amp;share=1
+https://www.quora.com/Linux-why-stat+unlink-can-be-faster-than-a-single-unlink/answer/Kent-Fredric?srid=O9EW&share=1
 
 ---
 
@@ -909,7 +909,7 @@ sse2: SSE2
 ss: CPU self snoop
 ht: Hyper-Threading and/or multi-core
 tm: Automatic clock control (Thermal Monitor)
-ia64: Intel Itanium Architecture 64-bit (not to be confused with Intel's 64-bit x86 architecture with flag x86-64 or &quot;AMD64&quot; bit indicated by flag lm)
+ia64: Intel Itanium Architecture 64-bit (not to be confused with Intel's 64-bit x86 architecture with flag x86-64 or "AMD64" bit indicated by flag lm)
 pbe: Pending Break Enable (PBE# pin) wakeup support
 
 AMD-defined CPU features, CPUID level 0x80000001
@@ -1182,7 +1182,7 @@ amd_apic_c1e: apic_c1e AMD Erratum 400
 fxsave_leak: FXSAVE leaks FOP/FIP/FOP
 clflush_monitor: AAI65, CLFLUSH required before MONITOR
 sysret_ss_attrs: SYSRET doesn't fix up SS attrs
-espfix: &quot;&quot; IRET to 16-bit SS corrupts ESP/RSP high bits
+espfix: "" IRET to 16-bit SS corrupts ESP/RSP high bits
 null_seg: Nulling a selector preserves the base
 swapgs_fence: SWAPGS without input dep on GS
 monitor: IPI required to wake up remote CPU
@@ -1276,7 +1276,7 @@ The -a option means -R and -p, plus a few other preservation options. It attempt
 
 ---
 
-#### 27. Linux &quot;top&quot; command: What are us, sy, ni, id, wa, hi, si and st (for CPU usage)?
+#### 27. Linux "top" command: What are us, sy, ni, id, wa, hi, si and st (for CPU usage)?
 
 **问题描述 / Problem Description**:
 Tags: linux, cpu, top | Score: 273 | Views: 460224 | Answers: 3
@@ -1328,8 +1328,8 @@ Tags: linux, memory, ulimit | Score: 263 | Views: 436682 | Answers: 12
 **解决方案 / Solution**:
 Another way to limit this is to use Linux's control groups.  This is especially useful if you want to limit a process's (or group of processes') allocation of physical memory distinctly from virtual memory.  For example:
 cgcreate -g memory:myGroup
-echo 500M &gt; /sys/fs/cgroup/memory/myGroup/memory.limit_in_bytes
-echo 5G &gt; /sys/fs/cgroup/memory/myGroup/memory.memsw.limit_in_bytes
+echo 500M > /sys/fs/cgroup/memory/myGroup/memory.limit_in_bytes
+echo 5G > /sys/fs/cgroup/memory/myGroup/memory.memsw.limit_in_bytes
 
 will create a control group named myGroup, cap the set of processes run under myGroup up to 500 MB of physical memory with memory.limit_in_bytes and up to 5000 MB of physical and swap memory together with memory.memsw.limit_in_bytes.
 More info about these options can be found here: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/sec-memory
@@ -1340,7 +1340,7 @@ Note that on a modern Ubuntu distribution this example requires installing the c
 sudo apt install cgroup-tools
 
 and editing /etc/default/grub to change GRUB_CMDLINE_LINUX_DEFAULT to:
-GRUB_CMDLINE_LINUX_DEFAULT=&quot;cgroup_enable=memory swapaccount=1&quot;
+GRUB_CMDLINE_LINUX_DEFAULT="cgroup_enable=memory swapaccount=1"
 
 and then running sudo update-grub and rebooting to boot with the new kernel boot parameters.
 
@@ -1358,11 +1358,11 @@ x = also show processes not attached to a terminal
 
 By the way, man ps is a good resource.
 
-Historically, BSD and AT&amp;T developed incompatible versions of ps.  The options without a leading dash (as per the question) are the BSD style while those with a leading dash are AT&amp;T Unix style.  On top of this, Linux developed a version which supports both styles and then adds to it a third style with options that begin with double dashes.
+Historically, BSD and AT&T developed incompatible versions of ps.  The options without a leading dash (as per the question) are the BSD style while those with a leading dash are AT&T Unix style.  On top of this, Linux developed a version which supports both styles and then adds to it a third style with options that begin with double dashes.
 
 All (or nearly all) non-embedded Linux distributions use a variant of the procps suite.  The above options are as defined in the procps ps man page.
 
-In the comments, you say you are using Apple MacOS (OSX, I presume).  The OSX man page for ps is here and it shows support only for AT&amp;T style.
+In the comments, you say you are using Apple MacOS (OSX, I presume).  The OSX man page for ps is here and it shows support only for AT&T style.
 
 ---
 
@@ -1374,7 +1374,7 @@ Tags: ubuntu, mount, fdisk | Score: 259 | Views: 1622620 | Answers: 21
 **解决方案 / Solution**:
 WARNING: This will wipe out your drive!
 
-You still need to create a (new) file system (aka &quot;format the partition&quot;). 
+You still need to create a (new) file system (aka "format the partition"). 
 Double-check that you really want to overwrite the current content of the specified partition! Replace XY accordingly, but double check that you are specifying the correct partition, e.g., sda2, sdb1:
 
 mkfs.ext4 /dev/sdXY
@@ -1407,7 +1407,7 @@ if [ -f /etc/os-release ]; then
     . /etc/os-release
     OS=$NAME
     VER=$VERSION_ID
-elif type lsb_release &gt;/dev/null 2&gt;&amp;1; then
+elif type lsb_release >/dev/null 2>&1; then
     # linuxbase.org
     OS=$(lsb_release -si)
     VER=$(lsb_release -sr)
@@ -1427,7 +1427,7 @@ elif [ -f /etc/redhat-release ]; then
     # Older Red Hat, CentOS, etc.
     ...
 else
-    # Fall back to uname, e.g. "Linux &lt;version&gt;", also works for BSD, etc.
+    # Fall back to uname, e.g. "Linux <version>", also works for BSD, etc.
     OS=$(uname -s)
     VER=$(uname -r)
 fi
@@ -1576,7 +1576,7 @@ An alternative to issuing the list-timers command is to search for timer unit fi
 $ find /usr/lib/systemd/ /etc/systemd -name '*.timer'
 $ find /home '(' -path '/home/*/.local/share/systemd/user/*' \
               -o -path '/home/*/.config/systemd/*' ')' \
-      -name '*.timer'  2&gt; /dev/null
+      -name '*.timer'  2> /dev/null
 
 
 (As with normal service units, a timer unit is enabled via creating a symbolic link in the right systemd config directory.)
@@ -1679,11 +1679,11 @@ If you want to move the files from /images2, with rsync, you can pass the option
 Tags: linux, files, diff | Score: 228 | Views: 325424 | Answers: 6
 
 **解决方案 / Solution**:
-In your first diff output (so called &quot;normal diff&quot;) the meaning is as follows:
-&lt; - denotes lines in file1.txt
-&gt; - denotes lines in file2.txt
+In your first diff output (so called "normal diff") the meaning is as follows:
+< - denotes lines in file1.txt
+> - denotes lines in file2.txt
 3d2 and 5a5 denote line numbers affected and which actions were performed. d stands for deletion, a stands for adding (and c stands for changing). the number on the left of the character is the line number in file1.txt, the number on the right is the line number in file2.txt. So 3d2 tells you that the 3rd line in file1.txt was deleted and has the line number 2 in file2.txt (or better to say that after deletion the line counter went back to line number 2). 5a5 tells you that the we started from line number 5 in file1.txt (which was actually empty after we deleted a line in previous action), added the line and this added line is the number 5 in file2.txt.
-The output of diff -u command is formatted a bit differently (so called &quot;unified diff&quot; format). Here diff shows us a single piece of the text, instead of two separate texts. In the line @@ -1,5 +1,5 @@ the part -1,5 relates to file1.txt and the part +1,5 to file2.txt. They tell us that diff will show a piece of text, which is 5 lines long starting from line number 1 in file1.txt. And the same about the file2.txt - diff shows us 5 lines starting from line 1.
+The output of diff -u command is formatted a bit differently (so called "unified diff" format). Here diff shows us a single piece of the text, instead of two separate texts. In the line @@ -1,5 +1,5 @@ the part -1,5 relates to file1.txt and the part +1,5 to file2.txt. They tell us that diff will show a piece of text, which is 5 lines long starting from line number 1 in file1.txt. And the same about the file2.txt - diff shows us 5 lines starting from line 1.
 As I have already said, the lines from both files are shown together
  this is the original text  
  line2  
@@ -1696,7 +1696,7 @@ Here - denotes the lines which were deleted from file1.txt, and + denotes the li
 
 ---
 
-#### 41. How to skip &quot;permission denied&quot; errors when running find in Linux?
+#### 41. How to skip "permission denied" errors when running find in Linux?
 
 **问题描述 / Problem Description**:
 Tags: linux, permissions, files, find | Score: 226 | Views: 353310 | Answers: 1
@@ -1704,7 +1704,7 @@ Tags: linux, permissions, files, find | Score: 226 | Views: 353310 | Answers: 1
 **解决方案 / Solution**:
 you can filter out messages to stderr. I prefer to redirect them to stdout like this.
 
- find / -name art  2&gt;&amp;1 | grep -v "Permission denied"
+ find / -name art  2>&1 | grep -v "Permission denied"
 
 
 
@@ -1719,7 +1719,7 @@ This assumes you are using the bash/sh shell.
 
 Under tcsh/csh you would use  
 
- find / -name art |&amp; grep ....
+ find / -name art |& grep ....
 
 ---
 
@@ -1738,8 +1738,8 @@ Imagine, you're a software developer with normal user access to a machine and yo
 $ mkdir /tmp/evil_bin
 $ vi /tmp/evil_bin/cat
 #!/bin/bash
-test $UID != 0 &amp;&amp; { echo "/bin/cat: Permission denied!"; exit 1; }
-/bin/cat /etc/shadow &amp;&gt;/tmp/shadow_copy
+test $UID != 0 && { echo "/bin/cat: Permission denied!"; exit 1; }
+/bin/cat /etc/shadow &>/tmp/shadow_copy
 /bin/cat "$@"
 exit 0
 
@@ -1809,7 +1809,7 @@ Tags: linux, bash, shell-script, date | Score: 210 | Views: 475824 | Answers: 5
 You can just use the -d switch and provide a date to be calculated
 date
 Sun Sep 23 08:19:56 BST 2012
-NEW_expration_DATE=$(date -d &quot;+10 days&quot;)
+NEW_expration_DATE=$(date -d "+10 days")
 echo $NEW_expration_DATE
 Wed Oct 3 08:12:33 BST 2012 
 
@@ -1820,15 +1820,15 @@ Wed Oct 3 08:12:33 BST 2012
           display time described by STRING, not ‘now’
 
 This is quite a powerful tool as you can do things like
-date -d &quot;Sun Sep 11 07:59:16 IST 2012+10 days&quot;
+date -d "Sun Sep 11 07:59:16 IST 2012+10 days"
 Fri Sep 21 03:29:16 BST 2012
 
 or
-TZ=IST date -d &quot;Sun Sep 11 07:59:16 IST 2012+10 days&quot;
+TZ=IST date -d "Sun Sep 11 07:59:16 IST 2012+10 days"
 Fri Sep 21 07:59:16 IST 2012
 
 or
-prog_end_date=`date '+%C%y%m%d' -d &quot;$end_date+10 days&quot;`
+prog_end_date=`date '+%C%y%m%d' -d "$end_date+10 days"`
 
 So if $end_date = 20131001 then $prog_end_date = 20131011.
 
@@ -1859,12 +1859,12 @@ As Dubu points out in a comment, the issue lies in your relative paths. I had a 
 cd /usr/local/etc
 ln -s nginx/ /etc/nginx
 
-You will in fact make the link /etc/nginx -&gt; /etc/nginx, because the source path is relative to the link's path. The solution is as simple as using absolute paths:
+You will in fact make the link /etc/nginx -> /etc/nginx, because the source path is relative to the link's path. The solution is as simple as using absolute paths:
 ln -s /usr/local/etc/nginx /etc/nginx
 
 If you want to use relative paths and have them behave the way you probably expect them to, you can use the $PWD variable to easily add in the path to the current working directory path, like so:
 cd /usr/local/etc
-ln -s &quot;$PWD/nginx/&quot; /etc/nginx
+ln -s "$PWD/nginx/" /etc/nginx
 
 Make sure that the path is in double quotes, to make sure things like spaces in your current path are escaped. Note that you must use double quotes when doing this, as $PWD will not be substituted if you use single quotes.
 
@@ -1920,7 +1920,7 @@ Sample output
 
 
 Run the command in debugfs
- debugfs: logdump -i &lt;7536655&gt;
+ debugfs: logdump -i <7536655>
 
 
 Determine files inode
@@ -2018,15 +2018,15 @@ System Information
 Tags: linux, networking, udev, ethernet | Score: 189 | Views: 292794 | Answers: 5
 
 **解决方案 / Solution**:
-Answer on &quot;What does enp0s10 means?&quot; question:
+Answer on "What does enp0s10 means?" question:
 enp0s10:
 | | |
 v | |
-en| |   --&gt; ethernet
+en| |   --> ethernet
   v |
-  p0|   --&gt; bus number (0)
+  p0|   --> bus number (0)
     v
-    s10 --&gt; slot number (10)
+    s10 --> slot number (10)
 
 Source: udev-builtin-net_id.c on GitHub
 
@@ -2049,13 +2049,13 @@ mkpasswd --method=SHA-512 --stdin
 The option --method accepts md5, sha-256 and sha-512
 Method 3 (des, md5, sha256, sha512)
 As @tink suggested, we can update the password using chpasswd using:
-echo &quot;username:password&quot; | chpasswd 
+echo "username:password" | chpasswd 
 
 Or you can use the encrypted password with chpasswd. First generate it using this:
-perl -e 'print crypt(&quot;YourPasswd&quot;, &quot;salt&quot;, &quot;sha512&quot;),&quot;\n&quot;'
+perl -e 'print crypt("YourPasswd", "salt", "sha512"),"\n"'
 
 Then later you can use the generated password to update /etc/shadow:
-echo &quot;username:encryptedPassWd&quot; | chpasswd -e
+echo "username:encryptedPassWd" | chpasswd -e
 
 The encrypted password we can also use to create a new user with this password, for example:
 useradd -p 'encryptedPassWd'  username
@@ -2076,8 +2076,8 @@ From the Linux Kernel documentation on Kernel.org:
 In the good old days /dev/console was System Administrator console. And TTYs were users' serial devices attached to a server.
 Now /dev/console and /dev/tty0 represent current display and usually are the same. You can override it for example by adding console=ttyS0 to grub.conf. After that your /dev/tty0 is a monitor and /dev/console is /dev/ttyS0.
 An exercise to show the difference between /dev/tty and /dev/tty0:
-Switch to the 2nd console by pressing Ctrl+Alt+F2. Login as root. Type sleep 5; echo tty0 &gt; /dev/tty0. Press Enter and switch to the 3rd console by pressing Alt+F3.
-Now switch back to the 2nd console by pressing Alt+F2. Type sleep 5; echo tty &gt; /dev/tty, press Enter and switch to the 3rd console.
+Switch to the 2nd console by pressing Ctrl+Alt+F2. Login as root. Type sleep 5; echo tty0 > /dev/tty0. Press Enter and switch to the 3rd console by pressing Alt+F3.
+Now switch back to the 2nd console by pressing Alt+F2. Type sleep 5; echo tty > /dev/tty, press Enter and switch to the 3rd console.
 You can see that tty is the console where process starts, and tty0 is a always current console.
 
 ---
@@ -2130,7 +2130,7 @@ To change the timezone on either of these distros you can use this command:
 $ sudo dpkg-reconfigure tzdata
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+    
 
 $ sudo dpkg-reconfigure tzdata
 
@@ -2172,7 +2172,7 @@ Tags: linux, permissions, mount, chown, cifs | Score: 184 | Views: 550029 | Answ
 **解决方案 / Solution**:
 You are mounting the CIFS share as root (because you used sudo), so you cannot write as normal user. If your Linux Distribution and its kernel are recent enough that you could mount the network share as a normal user (but under a folder that the user own), you will have the proper credentials to write file (e.g. mount the shared folder somewhere under your home directory, like for instance $HOME/netshare/. Obviously, you would need to create the folder before mounting it).
 
-An alternative is to specify the user and group ID that the mounted network share should used, this would allow that particular user and potentially group to write to the share. Add the following options to your mount: uid=&lt;user&gt;,gid=&lt;group&gt; and replace &lt;user&gt; and &lt;group&gt; respectively by your own user and default group, which you can find automatically with the id command.
+An alternative is to specify the user and group ID that the mounted network share should used, this would allow that particular user and potentially group to write to the share. Add the following options to your mount: uid=<user>,gid=<group> and replace <user> and <group> respectively by your own user and default group, which you can find automatically with the id command.
 
 sudo mount -t cifs -o username=${USER},password=${PASSWORD},uid=$(id -u),gid=$(id -g) //server-address/folder /mount/path/on/ubuntu
 
@@ -2219,10 +2219,10 @@ Tags: linux, files, file-copy, synchronization | Score: 182 | Views: 338370 | An
 
 **解决方案 / Solution**:
 This puts folder A into folder B:
-rsync -avu --delete &quot;/home/user/A&quot; &quot;/home/user/B&quot;
+rsync -avu --delete "/home/user/A" "/home/user/B"
 
 If you want the contents of folders A and B to be the same, put /home/user/A/ (with the slash) as the source. This takes not the folder A but all of its content and puts it into folder B. Like this:
-rsync -avu --delete &quot;/home/user/A/&quot; &quot;/home/user/B&quot;
+rsync -avu --delete "/home/user/A/" "/home/user/B"
 
 
 -a archive mode; equals -rlptgoD (no -H, -A, -X)
@@ -2269,11 +2269,11 @@ $ ls -l test*
 $ sudo ln -s test test1
 $ ls -l test*
 -rw-r--r-- 1 mj   mj   0 Jul 27 08:47 test
-lrwxrwxrwx 1 root root 4 Jul 27 08:47 test1 -&gt; test
+lrwxrwxrwx 1 root root 4 Jul 27 08:47 test1 -> test
 $ sudo chown root:root test1
 $ ls -l test*
 -rw-r--r-- 1 root root 0 Jul 27 08:47 test
-lrwxrwxrwx 1 root root 4 Jul 27 08:47 test1 -&gt; test
+lrwxrwxrwx 1 root root 4 Jul 27 08:47 test1 -> test
 
 
 Note that the target of the link is now owned by root.
@@ -2281,7 +2281,7 @@ Note that the target of the link is now owned by root.
 $ sudo chown mj:mj test1
 $ ls -l test*
 -rw-r--r-- 1 mj   mj   0 Jul 27 08:47 test
-lrwxrwxrwx 1 root root 4 Jul 27 08:47 test1 -&gt; test
+lrwxrwxrwx 1 root root 4 Jul 27 08:47 test1 -> test
 
 
 And again, the link test1 is still owned by root, even though test has changed.
@@ -2289,7 +2289,7 @@ And again, the link test1 is still owned by root, even though test has changed.
 $ sudo chown -h mj:mj test1
 $ ls -l test*
 -rw-r--r-- 1 mj mj 0 Jul 27 08:47 test
-lrwxrwxrwx 1 mj mj 4 Jul 27 08:47 test1 -&gt; test
+lrwxrwxrwx 1 mj mj 4 Jul 27 08:47 test1 -> test
 
 
 And finally we change the ownership of the link using the -h option.
@@ -2312,9 +2312,9 @@ The first two numbers are the boundaries of the region (addresses of the first b
 Here's a proof-of-concept script that dumps the contents of its own memory.
 #! /usr/bin/env python
 import re
-maps_file = open(&quot;/proc/self/maps&quot;, 'r')
-mem_file = open(&quot;/proc/self/mem&quot;, 'rb', 0)
-output_file = open(&quot;self.dump&quot;, 'wb')
+maps_file = open("/proc/self/maps", 'r')
+mem_file = open("/proc/self/mem", 'rb', 0)
+output_file = open("self.dump", 'wb')
 for line in maps_file.readlines():  # for each mapped region
     m = re.match(r'([0-9A-Fa-f]+)-([0-9A-Fa-f]+) ([-r])', line)
     if m.group(3) == 'r':  # if this is a readable region
@@ -2340,7 +2340,7 @@ The observed process must not be running. Normally calling ptrace(PTRACE_ATTACH,
 A process running as root can read any process's memory, without needing to call ptrace, but the observed process must be stopped, or the read will still return ESRCH.
 In the Linux kernel source, the code providing per-process entries in /proc is in fs/proc/base.c, and the function to read from /proc/$pid/mem is mem_read. The additional check is performed by check_mem_permission.
 Here's some sample C code to attach to a process and read a chunk its of mem file (error checking omitted):
-sprintf(mem_file_name, &quot;/proc/%d/mem&quot;, pid);
+sprintf(mem_file_name, "/proc/%d/mem", pid);
 mem_fd = open(mem_file_name, O_RDONLY);
 ptrace(PTRACE_ATTACH, pid, NULL, NULL);
 waitpid(pid, NULL, 0);
@@ -2410,13 +2410,13 @@ Tags: linux, freebsd, chmod | Score: 172 | Views: 269466 | Answers: 4
 **解决方案 / Solution**:
 You can get the value directly using a stat output format, e.g.
 Linux:
-stat --format '%a' &lt;file&gt;
+stat --format '%a' <file>
 
 BSD/OS X:
-stat -f &quot;%OLp&quot; &lt;file&gt;
+stat -f "%OLp" <file>
 
 Busybox:
- stat -c '%a' &lt;file&gt;
+ stat -c '%a' <file>
 
 ---
 
@@ -2478,7 +2478,7 @@ Then close stdin: call close (0); and open it again: call open ("/tmp/fifo", 060
 
 Finally, write away (from a different terminal, as gdb will probably hang):
 
-echo blah &gt; /tmp/fifo
+echo blah > /tmp/fifo
 
 ---
 
@@ -2492,60 +2492,60 @@ Improving disk cache performance in general is more than just increasing the fil
 You didn't tell if your storage device is SSD or HDD. Here's what I've found to work for me (in my case sda is a HDD mounted at /home and sdb is SSD mounted at /).
 First optimize the load-stuff-from-storage-to-cache part:
 Here is my setup for HDD (make sure AHCI+NCQ is enabled in BIOS if you have toggles):
-    echo cfq &gt; /sys/block/sda/queue/scheduler
-    echo 10000 &gt; /sys/block/sda/queue/iosched/fifo_expire_async
-    echo 250 &gt; /sys/block/sda/queue/iosched/fifo_expire_sync
-    echo 80 &gt; /sys/block/sda/queue/iosched/slice_async
-    echo 1 &gt; /sys/block/sda/queue/iosched/low_latency
-    echo 6 &gt; /sys/block/sda/queue/iosched/quantum
-    echo 5 &gt; /sys/block/sda/queue/iosched/slice_async_rq
-    echo 3 &gt; /sys/block/sda/queue/iosched/slice_idle
-    echo 100 &gt; /sys/block/sda/queue/iosched/slice_sync
+    echo cfq > /sys/block/sda/queue/scheduler
+    echo 10000 > /sys/block/sda/queue/iosched/fifo_expire_async
+    echo 250 > /sys/block/sda/queue/iosched/fifo_expire_sync
+    echo 80 > /sys/block/sda/queue/iosched/slice_async
+    echo 1 > /sys/block/sda/queue/iosched/low_latency
+    echo 6 > /sys/block/sda/queue/iosched/quantum
+    echo 5 > /sys/block/sda/queue/iosched/slice_async_rq
+    echo 3 > /sys/block/sda/queue/iosched/slice_idle
+    echo 100 > /sys/block/sda/queue/iosched/slice_sync
     hdparm -q -M 254 /dev/sda
 
 Worth noting for the HDD case is high fifo_expire_async (usually write) and long slice_sync to allow a single process to get high throughput (set slice_sync to lower number if you hit situations where multiple processes are waiting for some data from the disk in parallel). The slice_idle is always a compromise for HDDs but setting it somewhere in range 3-20 should be okay depending on disk usage and disk firmware. I prefer to target for low values but setting it too low will destroy your throughput. The quantum setting seems to affect throughput a lot but try to keep this as low as possible to keep latency on sensible level. Setting quantum too low will destroy throughput. Values in range 3-8 seem to work well with HDDs. The worst case latency for a read is (quantum * slice_sync) + (slice_async_rq * slice_async) ms if I've understood the kernel behavior correctly. The async is mostly used by writes and since you're willing to delay writing to disk, set both slice_async_rq and slice_async to very low numbers. However, setting slice_async_rq too low value may stall reads because writes cannot be delayed after reads any more. My config will try to write data to disk at most after 10 seconds after data has been passed to kernel but since you can tolerate loss of data on power loss also set fifo_expire_async to 3600000 to tell that 1 hour is okay for the delay to disk. Just keep the slice_async low, though, because otherwise you can get high read latency.
 The hdparm command is required to prevent AAM from killing much of the performance that AHCI+NCQ allows. If your disk makes too much noise, then skip this.
 Here is my setup for SSD (Intel 320 series):
-    echo cfq &gt; /sys/block/sdb/queue/scheduler
-    echo 1 &gt; /sys/block/sdb/queue/iosched/back_seek_penalty
-    echo 10000 &gt; /sys/block/sdb/queue/iosched/fifo_expire_async
-    echo 20 &gt; /sys/block/sdb/queue/iosched/fifo_expire_sync
-    echo 1 &gt; /sys/block/sdb/queue/iosched/low_latency
-    echo 6 &gt; /sys/block/sdb/queue/iosched/quantum
-    echo 2 &gt; /sys/block/sdb/queue/iosched/slice_async
-    echo 10 &gt; /sys/block/sdb/queue/iosched/slice_async_rq
-    echo 1 &gt; /sys/block/sdb/queue/iosched/slice_idle
-    echo 20 &gt; /sys/block/sdb/queue/iosched/slice_sync
+    echo cfq > /sys/block/sdb/queue/scheduler
+    echo 1 > /sys/block/sdb/queue/iosched/back_seek_penalty
+    echo 10000 > /sys/block/sdb/queue/iosched/fifo_expire_async
+    echo 20 > /sys/block/sdb/queue/iosched/fifo_expire_sync
+    echo 1 > /sys/block/sdb/queue/iosched/low_latency
+    echo 6 > /sys/block/sdb/queue/iosched/quantum
+    echo 2 > /sys/block/sdb/queue/iosched/slice_async
+    echo 10 > /sys/block/sdb/queue/iosched/slice_async_rq
+    echo 1 > /sys/block/sdb/queue/iosched/slice_idle
+    echo 20 > /sys/block/sdb/queue/iosched/slice_sync
 
-Here it's worth noting the low values for different slice settings. The most important setting for an SSD is slice_idle which must be set to 0-1. Setting it to zero moves all ordering decisions to native NCQ while setting it to 1 allows kernel to order requests (but if the NCQ is active, the hardware may override kernel ordering partially). Test both values to see if you can see the difference. For Intel 320 series, it seems that setting slide_idle to 0 gives the best throughput but setting it to 1 gives best (lowest) overall latency. If you have recent enough kernel, you can use slide_idle_us to set the value in microseconds instead of milliseconds and you could use something like echo 14 &gt; slice_idle_us instead. Suitable value seems to be close to 700000 divided by max practical IOPS your storage device can support so 14 is okay for pretty fast SSD devices.
+Here it's worth noting the low values for different slice settings. The most important setting for an SSD is slice_idle which must be set to 0-1. Setting it to zero moves all ordering decisions to native NCQ while setting it to 1 allows kernel to order requests (but if the NCQ is active, the hardware may override kernel ordering partially). Test both values to see if you can see the difference. For Intel 320 series, it seems that setting slide_idle to 0 gives the best throughput but setting it to 1 gives best (lowest) overall latency. If you have recent enough kernel, you can use slide_idle_us to set the value in microseconds instead of milliseconds and you could use something like echo 14 > slice_idle_us instead. Suitable value seems to be close to 700000 divided by max practical IOPS your storage device can support so 14 is okay for pretty fast SSD devices.
 For more information about these tunables, see https://www.kernel.org/doc/Documentation/block/cfq-iosched.txt .
 Update in year 2020 and kernel version 5.3 (cfq is dead):
 #!/bin/bash
 modprobe bfq
 for d in /sys/block/sd?; do
   # HDD (tuned for Seagate SMR drive)
-  echo bfq &gt;&quot;$d/queue/scheduler&quot;
-  echo 4 &gt;&quot;$d/queue/nr_requests&quot;
-  echo 32000 &gt;&quot;$d/queue/iosched/back_seek_max&quot;
-  echo 3 &gt;&quot;$d/queue/iosched/back_seek_penalty&quot;
-  echo 80 &gt;&quot;$d/queue/iosched/fifo_expire_sync&quot;
-  echo 1000 &gt;&quot;$d/queue/iosched/fifo_expire_async&quot;
-  echo 5300 &gt;&quot;$d/queue/iosched/slice_idle_us&quot;
-  echo 1 &gt;&quot;$d/queue/iosched/low_latency&quot;
-  echo 200 &gt;&quot;$d/queue/iosched/timeout_sync&quot;
-  echo 0 &gt;&quot;$d/queue/iosched/max_budget&quot;
-  echo 1 &gt;&quot;$d/queue/iosched/strict_guarantees&quot;
+  echo bfq >"$d/queue/scheduler"
+  echo 4 >"$d/queue/nr_requests"
+  echo 32000 >"$d/queue/iosched/back_seek_max"
+  echo 3 >"$d/queue/iosched/back_seek_penalty"
+  echo 80 >"$d/queue/iosched/fifo_expire_sync"
+  echo 1000 >"$d/queue/iosched/fifo_expire_async"
+  echo 5300 >"$d/queue/iosched/slice_idle_us"
+  echo 1 >"$d/queue/iosched/low_latency"
+  echo 200 >"$d/queue/iosched/timeout_sync"
+  echo 0 >"$d/queue/iosched/max_budget"
+  echo 1 >"$d/queue/iosched/strict_guarantees"
 
   # additional tweaks for SSD (tuned for Samsung EVO 850):
-  if test $(cat &quot;$d/queue/rotational&quot;) = &quot;0&quot;; then
-    echo 36 &gt;&quot;$d/queue/nr_requests&quot;
-    echo 1 &gt;&quot;$d/queue/iosched/back_seek_penalty&quot;
+  if test $(cat "$d/queue/rotational") = "0"; then
+    echo 36 >"$d/queue/nr_requests"
+    echo 1 >"$d/queue/iosched/back_seek_penalty"
     # slice_idle_us should be ~ 0.7/IOPS in µs
-    echo 16 &gt;&quot;$d/queue/iosched/slice_idle_us&quot;
-    echo 10 &gt;&quot;$d/queue/iosched/fifo_expire_sync&quot;
-    echo 250 &gt;&quot;$d/queue/iosched/fifo_expire_async&quot;
-    echo 10 &gt;&quot;$d/queue/iosched/timeout_sync&quot;
-    echo 0 &gt;&quot;$d/queue/iosched/strict_guarantees&quot;
+    echo 16 >"$d/queue/iosched/slice_idle_us"
+    echo 10 >"$d/queue/iosched/fifo_expire_sync"
+    echo 250 >"$d/queue/iosched/fifo_expire_async"
+    echo 10 >"$d/queue/iosched/timeout_sync"
+    echo 0 >"$d/queue/iosched/strict_guarantees"
   fi
 done
 
@@ -2556,35 +2556,35 @@ I also nowadays also use zram but I only use 5% of RAM for zram. This allows Lin
 Now that we have configured kernel to load stuff from disk to cache with sensible performance, it's time to adjust the cache behavior:
 According to benchmarks I've done, I wouldn't bother setting read ahead via blockdev at all. Kernel default settings are fine.
 Set system to prefer swapping file data over application code (this does not matter if you have enough RAM to keep whole filesystem and all the application code and all virtual memory allocated by applications in RAM). This reduces latency for swapping between different applications over latency for accessing big files from a single application:
-echo 15 &gt; /proc/sys/vm/swappiness
+echo 15 > /proc/sys/vm/swappiness
 
 If you prefer to keep applications nearly always in RAM you could set this to 1. If you set this to zero, kernel will not swap at all unless absolutely necessary to avoid OOM. If you were memory limited and working with big files (e.g. HD video editing), then it might make sense to set this close to 100.
 I nowadays (2017) prefer to have no swap at all if you have enough RAM. Having no swap will usually lose 200-1000 MB of RAM on long running desktop machine. I'm willing to sacrifice that much to avoid worst case scenario latency (swapping application code in when RAM is full). In practice, this means that I prefer OOM Killer to swapping. If you allow/need swapping, you might want to increase /proc/sys/vm/watermark_scale_factor, too, to avoid some latency. I would suggest values between 100 and 500. You can consider this setting as trading CPU usage for lower swap latency. The default is 10 and the maximum possible is 1000. Higher value should (according to kernel documentation) result in higher CPU usage for kswapd processes and lower overall swapping latency.
 Next, tell kernel to prefer keeping directory hierarchy in memory over file contents and the rest of the page cache in case some RAM needs to be freed (again, if everything fits in RAM, this setting does nothing):
-echo 10 &gt; /proc/sys/vm/vfs_cache_pressure # kernel 5.3 or older
+echo 10 > /proc/sys/vm/vfs_cache_pressure # kernel 5.3 or older
 
-echo 120 &gt; /proc/sys/vm/vfs_cache_pressure # kernel 5.4 or newer
+echo 120 > /proc/sys/vm/vfs_cache_pressure # kernel 5.4 or newer
 
-Setting vfs_cache_pressure to a low value makes sense because in most cases, the kernel needs to know the directory structure and other filesystem metadata before it can use file contents from the cache and flushing the directory cache too soon will make the file cache next to worthless. However, page cache contains also other data but just the file contents so this setting should be considered like the overall importance of metadata caching vs rest of the system. Consider going all the way down to 1 with this setting if you have lots of small files (my system has around 150K 10 megapixel photos and counts as a &quot;lots of small files&quot; system).
+Setting vfs_cache_pressure to a low value makes sense because in most cases, the kernel needs to know the directory structure and other filesystem metadata before it can use file contents from the cache and flushing the directory cache too soon will make the file cache next to worthless. However, page cache contains also other data but just the file contents so this setting should be considered like the overall importance of metadata caching vs rest of the system. Consider going all the way down to 1 with this setting if you have lots of small files (my system has around 150K 10 megapixel photos and counts as a "lots of small files" system).
 Never set it to zero or the directory structure is always kept in memory even if the system runs out of memory.
-Setting this to a big value is sensible only if you have only a few big files that are constantly being re-read (again, HD video editing without enough RAM would be an example case). Official kernel documentation says that &quot;increasing vfs_cache_pressure significantly beyond 100 may have negative performance impact&quot;.
+Setting this to a big value is sensible only if you have only a few big files that are constantly being re-read (again, HD video editing without enough RAM would be an example case). Official kernel documentation says that "increasing vfs_cache_pressure significantly beyond 100 may have negative performance impact".
 Year 2021 update: After running with kernel version 5.4 for long enough, I've come to the conclusion that the very low vfs_cache_pressure setting (I used to run with 1 for years) may now be causing long stalls / bad latency when memory pressure gets high enough. However, I never noticed such behavior with kernel version 5.3 or lesser.
 Year 2022 update: I've been running kernel 5.4.x series for another year and I've come to the conclusion that vfs_cache_pressure has changed permanently. The kernel memory manager behavior that I used to get with kernel version 5.3 or older with values in range 1..5 seems to match real world behavior with 5.4 values in range 100..120. The newer kernels make this adjustment matter more so I'd recommend the value vfs_cache_pressure=120 nowadays for low latency overall. Kernel version 5.3 or older should use a very low but non-zero value here in my opinion.
 Exception: if you have a truly massive amount of files and directories and you rarely touch/read/list all files setting vfs_cache_pressure higher than 100 may be wise. This only applies if you do not have enough RAM and cannot keep the whole directory structure in RAM and still have enough RAM for normal file cache and processes (e.g. company wide file server with lots of archival content). If you feel that you need to increase vfs_cache_pressure way above 100 you're running without enough RAM (I have 64 GB RAM on my workstation and 120 seems to be a good setting for minimum latency overall). Increasing vfs_cache_pressure may help a bit but the only real fix is to get more RAM. Having vfs_cache_pressure set to high number sacrifices average performance for having a more stable performance overall (that is, you can avoid really bad worst case behavior but have to deal with worse overall performance).
 Finally, tell the kernel to use up to 99% of the RAM as cache for writes and instruct kernel to use up to 50% of RAM before slowing down the process that's writing (default for dirty_background_ratio is 10). Warning: I personally would not do this but you claimed to have enough RAM and are willing to lose the data.
-echo 99 &gt; /proc/sys/vm/dirty_ratio
-echo 50 &gt; /proc/sys/vm/dirty_background_ratio
+echo 99 > /proc/sys/vm/dirty_ratio
+echo 50 > /proc/sys/vm/dirty_background_ratio
 
 And tell that 1h write delay is ok to even start writing stuff on the disk (again, I would not do this):
-echo 360000 &gt; /proc/sys/vm/dirty_expire_centisecs
-echo 360000 &gt; /proc/sys/vm/dirty_writeback_centisecs
+echo 360000 > /proc/sys/vm/dirty_expire_centisecs
+echo 360000 > /proc/sys/vm/dirty_writeback_centisecs
 
 For more information about these tunables, see https://www.kernel.org/doc/Documentation/sysctl/vm.txt
 If you put all of those to /etc/rc.local and include following at the end, everything will be in cache as soon as possible after boot (only do this if your filesystem really fits in the RAM):
-(nice find / -type f -and -not -path '/sys/*' -and -not -path '/proc/*' -print0 2&gt;/dev/null | nice ionice -c 3 wc -l --files0-from - &gt; /dev/null)&amp;
+(nice find / -type f -and -not -path '/sys/*' -and -not -path '/proc/*' -print0 2>/dev/null | nice ionice -c 3 wc -l --files0-from - > /dev/null)&
 
 Or a bit simpler alternative which might work better (cache only /home and /usr, only do this if your /home and /usr really fit in RAM):
-(nice find /home /usr -type f -print0 | nice ionice -c 3 wc -l --files0-from - &gt; /dev/null)&amp;
+(nice find /home /usr -type f -print0 | nice ionice -c 3 wc -l --files0-from - > /dev/null)&
 
 ---
 
@@ -2598,7 +2598,7 @@ Tags: linux, fedora, filesystems, directory-structure | Score: 167 | Views: 1953
 
 Prior to systemd, these applications typically stored their files in /tmp. They couldn't use a location in /home/$user as home directories are often mounted over network filesystems, and these files should not be shared among hosts. /tmp was the only location specified by the FHS which is local, and writable by all users.
 
-However storing all these files in /tmp is problematic as /tmp is writable by everyone, and while you can change the ownership &amp; mode on the files being created, it's more difficult to work with.
+However storing all these files in /tmp is problematic as /tmp is writable by everyone, and while you can change the ownership & mode on the files being created, it's more difficult to work with.
 
 So systemd came along and created /run/user/$uid. This directory is local to the system and only accessible by the target user. So applications looking to store their files locally no longer have to worry about access control.
 It also keeps things nice and organized. When a user logs out, and no active sessions remain, pam_systemd will wipe the /run/user/$uid directory out. With various files scattered around /tmp, you couldn't do this.
@@ -2676,13 +2676,13 @@ Tags: linux, dynamic-linking | Score: 163 | Views: 123963 | Answers: 4
 Binaries themselves know which version of a shared library they depend on, and request it specifically. You can use ldd to show the dependencies; mine for ls are:
 
 $ ldd /bin/ls
-    linux-gate.so.1 =&gt;  (0xb784e000)
-    librt.so.1 =&gt; /lib/librt.so.1 (0xb782c000)
-    libacl.so.1 =&gt; /lib/libacl.so.1 (0xb7824000)
-    libc.so.6 =&gt; /lib/libc.so.6 (0xb76dc000)
-    libpthread.so.0 =&gt; /lib/libpthread.so.0 (0xb76c3000)
+    linux-gate.so.1 =>  (0xb784e000)
+    librt.so.1 => /lib/librt.so.1 (0xb782c000)
+    libacl.so.1 => /lib/libacl.so.1 (0xb7824000)
+    libc.so.6 => /lib/libc.so.6 (0xb76dc000)
+    libpthread.so.0 => /lib/libpthread.so.0 (0xb76c3000)
     /lib/ld-linux.so.2 (0xb784f000)
-    libattr.so.1 =&gt; /lib/libattr.so.1 (0xb76bd000)
+    libattr.so.1 => /lib/libattr.so.1 (0xb76bd000)
 
 
 As you can see, it points to e.g. libpthread.so.0, not just libpthread.so.
@@ -2750,12 +2750,12 @@ ps -u [username]
 
 OR
 
- ps -ef | grep &lt;username&gt;
+ ps -ef | grep <username>
 
 
 OR
 
-ps -efl | grep &lt;username&gt;
+ps -efl | grep <username>
 
 
 for the extended listing
@@ -2764,7 +2764,7 @@ Check out the man ps page for options
 
 Another alternative is to use pstree wchich prints the process tree of the user
 
-pstree &lt;username or pid&gt;
+pstree <username or pid>
 
 ---
 
@@ -2960,10 +2960,10 @@ How is the OOM_Score calculated?
 In David's patch set, the old badness() heuristics are almost entirely
 gone. Instead, the calculation turns into a simple question of what
 percentage of the available memory is being used by the process. If
-the system as a whole is short of memory, then &quot;available memory&quot; is
+the system as a whole is short of memory, then "available memory" is
 the sum of all RAM and swap space available to the system.
 If instead, the OOM situation is caused by exhausting the memory allowed
-to a given cpuset/control group, then &quot;available memory&quot; is the total
+to a given cpuset/control group, then "available memory" is the total
 amount allocated to that control group. A similar calculation is made
 if limits imposed by a memory policy have been exceeded. In each case,
 the memory use of the process is deemed to be the sum of its resident
@@ -3100,7 +3100,7 @@ You must run this command as root, because ordinary users may not read disk part
 
 ---
 
-#### 85. How can I tell what version of Linux I&#39;m using?
+#### 85. How can I tell what version of Linux I'm using?
 
 **问题描述 / Problem Description**:
 Tags: linux, ssh, version, info, system-information | Score: 142 | Views: 175458 | Answers: 13
@@ -3135,7 +3135,7 @@ There is no difference in them. Internally they do exactly the same thing:
 
 
 reboot uses the shutdown command (with the -r switch). The shutdown command used to kill all the running processes, unmount all the file systems and finally tells the kernel to issue the ACPI power command. The source can be found here.
-In older distros the reboot command was forcing the processes to exit by issuing the SIGKILL signal (still found in sources, can be invoked with -f option), in most recent distros it defaults to the more graceful and init friendly init 1 -&gt; shutdown -r. This ensures that daemons clean up themselves before shutdown.
+In older distros the reboot command was forcing the processes to exit by issuing the SIGKILL signal (still found in sources, can be invoked with -f option), in most recent distros it defaults to the more graceful and init friendly init 1 -> shutdown -r. This ensures that daemons clean up themselves before shutdown.
 init 6 tells the init process to shutdown all of the spawned processes/daemons as written in the init files (in the inverse order they started) and lastly invoke the shutdown -r now command to reboot the machine
 
 
@@ -3161,17 +3161,17 @@ Tags: linux, command-line, files, ls | Score: 141 | Views: 248431 | Answers: 15
 
 **解决方案 / Solution**:
 Try stat instead of ls. Here with the GNU implementation of stat (beware the BSDs and zsh also have a stat command but with a completely different API):
-stat -c &quot;%y %s %n&quot; -- *
+stat -c "%y %s %n" -- *
 
 To output in columnar format (assuming none of the file names contain comma or newline characters):
-stat -c &quot;%n,%s&quot; -- * | column -t -s,
+stat -c "%n,%s" -- * | column -t -s,
 
 Beware that if there's a file called - in the current working directory, GNU stat will report information about the file opened on stdin instead of for that file.
 If you run into a Argument list too long error, with shells where printf is builtin, you can change it to:
-printf '%s\0' * | xargs -0 stat -c &quot;%y %s %n&quot; --
+printf '%s\0' * | xargs -0 stat -c "%y %s %n" --
 
 Or in ksh93:
-command -x stat -c &quot;%y %s %n&quot; -- *
+command -x stat -c "%y %s %n" -- *
 
 Which will run as many invocations of stat as necessary to work around the limit on the size of the arguments.
 
@@ -3185,12 +3185,12 @@ Tags: ubuntu, permissions, virtualbox, virtual-machine | Score: 141 | Views: 333
 **解决方案 / Solution**:
 The regular way of getting access to the files now, is to allow VirtualBox to automount the shared folder (which will make it show up under /media/sf_directory_name) and then to add your regular Ubuntu user to the vboxsf group (as root #).
 
-# usermod -aG vboxsf &lt;youruser&gt;
+# usermod -aG vboxsf <youruser>
 
 
 By default, without manual action, the mounts look like this,
 
-drwxrwx--- 1 root vboxsf 40960 Oct 23 10:42 sf_&lt;name&gt;
+drwxrwx--- 1 root vboxsf 40960 Oct 23 10:42 sf_<name>
 
 
 so the vboxsf group has full access.  By adding your user to that group, you gain full access.  So you wouldn't worry about changing their permissions (which don't make sense on the Windows host), you just give yourself access.
@@ -3363,7 +3363,7 @@ How to detect virtualization at dmo.ca
 
 ---
 
-#### 93. What&#39;s the best way to join files again after splitting them?
+#### 93. What's the best way to join files again after splitting them?
 
 **问题描述 / Problem Description**:
 Tags: linux, command-line, files, iso, split | Score: 135 | Views: 214610 | Answers: 6
@@ -3450,7 +3450,7 @@ Certain serious bugs in the BIOS, UEFI, or other system firmware which the kerne
 
 ---
 
-#### 98. ssh-add returns with: &quot;Error connecting to agent: No such file or directory&quot;
+#### 98. ssh-add returns with: "Error connecting to agent: No such file or directory"
 
 **问题描述 / Problem Description**:
 Tags: linux, ssh, ssh-agent | Score: 133 | Views: 264530 | Answers: 5
@@ -3462,7 +3462,7 @@ Either by starting a new shell
 ssh-agent bash
 
 or by evaluating the script returned by ssh-agent in your current shell.
-eval &quot;$(ssh-agent)&quot;
+eval "$(ssh-agent)"
 
 I suggest using the second method, because you keep all your history and variables.
 
@@ -3480,7 +3480,7 @@ and answering this question was constantly a challenge,
 since the lspci method mentioned earlier
 can sometimes say that both are [VGA controller].
 I think the following command should give you an indication of your active chip:
-$ glxinfo | grep -E &quot;OpenGL vendor|OpenGL renderer&quot;
+$ glxinfo | grep -E "OpenGL vendor|OpenGL renderer"
 OpenGL vendor string: Intel Open Source Technology Center
 OpenGL renderer string: Mesa DRI Intel(R) Sandybridge Mobile
 
@@ -3496,7 +3496,7 @@ and it should tell you that you're running the NVIDIA chip
 (optirun is basically telling the computer
 to use the discrete chip to run whatever command follows,
 but everything else is still using the integrated chip).
-$ optirun glxinfo | grep -E &quot;OpenGL vendor|OpenGL renderer&quot;
+$ optirun glxinfo | grep -E "OpenGL vendor|OpenGL renderer"
 OpenGL vendor string: NVIDIA Corporation
 OpenGL renderer string: GeForce GT 555M/PCIe/SSE2
 
@@ -3507,7 +3507,7 @@ and it gives you a nice rendering of a rotating triangle.
 
 ---
 
-#### 100. What&#39;s the difference between /usr/lib/systemd/system and /etc/systemd/system?
+#### 100. What's the difference between /usr/lib/systemd/system and /etc/systemd/system?
 
 **问题描述 / Problem Description**:
 Tags: debian, ubuntu, centos, systemd | Score: 133 | Views: 116937 | Answers: 3
@@ -3614,17 +3614,17 @@ Though this is by no means foolproof as the vendor could use anything they want.
 
 Linux version 2.6.32.12-0.7-default (geeko@buildhost) (gcc version 4.3.4 [gcc-4_3-branch revision 152973] (SUSE Linux) ) #1 SMP 2010-05-20 11:14:20 +0200
 
-pretty much the same information as cat /proc/version &amp; uname
+pretty much the same information as cat /proc/version & uname
 
 ---
 
-#### 103. How are &quot;/dev&quot; Linux files created?
+#### 103. How are "/dev" Linux files created?
 
 **问题描述 / Problem Description**:
 Tags: linux, files, devices | Score: 129 | Views: 69630 | Answers: 7
 
 **解决方案 / Solution**:
-/dev/zero is an example of a "special file" &mdash; particularly, a "device node". Normally these get created by the distro installation process, but you can totally create them yourself if you want to.
+/dev/zero is an example of a "special file" — particularly, a "device node". Normally these get created by the distro installation process, but you can totally create them yourself if you want to.
 
 If you ask ls about /dev/zero:
 
@@ -3641,7 +3641,7 @@ With this information, we can use the mknod command to make our very own device 
 # mknod foobar c 1 5
 
 
-This creates a new file named foobar, in the current folder, which does exactly the same thing as /dev/zero. (You can of course set different permissions on it if you want.) All this "file" really contains is the three items above &mdash; device type, major number, minor number. You can use ls to look up the codes for other devices and recreate those too. When you get bored, just use rm to remove the device nodes you just created.
+This creates a new file named foobar, in the current folder, which does exactly the same thing as /dev/zero. (You can of course set different permissions on it if you want.) All this "file" really contains is the three items above — device type, major number, minor number. You can use ls to look up the codes for other devices and recreate those too. When you get bored, just use rm to remove the device nodes you just created.
 
 Basically the major number tells the Linux kernel which device driver to talk to, and the minor number tells the device driver which device you're talking about. (E.g., you probably have one SATA controller, but maybe multiple harddisks plugged into it.)
 
@@ -3652,7 +3652,7 @@ There are still other kinds of special files:
 
 Linux considers a directory to be a special kind of file. (Usually you can't directly open a directory, but if you could, you'd find it's a normal file that contains data in a special format, and tells the kernel where to find all the files in that directory.)
 A symlink is a special file. (But a hard link isn't.) You can create symlinks using the ln -s command. (Look up the manpage for it.)
-There's also a thing called a "named pipe" or "FIFO" (first-in, first-out queue). You can create one with mkfifo. A FIFO is a magical file that can be opened by two programs at once &mdash; one reading, one writing. When this happens, it works like a normal shell pipe. But you can start each program separately...
+There's also a thing called a "named pipe" or "FIFO" (first-in, first-out queue). You can create one with mkfifo. A FIFO is a magical file that can be opened by two programs at once — one reading, one writing. When this happens, it works like a normal shell pipe. But you can start each program separately...
 
 
 A file that isn't "special" in any way is called a "regular file". You will occasionally see mention of this in Unix documentation. That's what it means; a file that isn't a device node or a symlink or whatever. Just a normal, every day file with no magical properties.
@@ -3673,64 +3673,64 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o 
 sudo chmod a+r /etc/apt/keyrings/docker.gpg
 
 Ubuntu 24.04 (Noble Numbat)
-echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu noble stable&quot; | \
-sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu noble stable" | \
+sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 Ubuntu 23.10 (Mantic Minotaur)
-echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu mantic stable&quot; | \
-sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu mantic stable" | \
+sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 Ubuntu 23.04 (Lunar Lobster)
-echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu lunar stable&quot; | \
-sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu lunar stable" | \
+sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 Ubuntu 22.10 (Kinetic)
-echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu kinetic stable&quot; | \
-sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu kinetic stable" | \
+sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 Ubuntu 22.04 (Jammy)
-echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu jammy stable&quot; | \
-sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu jammy stable" | \
+sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 Ubuntu 21.10 (Impish)
-echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu impish stable&quot; | \
-sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu impish stable" | \
+sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 Ubuntu 21.04 (hirsute)
-echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu hirsute stable&quot; | \
-sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu hirsute stable" | \
+sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 Ubuntu 20.10 (Groovy)
-echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu groovy stable&quot; | \
-sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu groovy stable" | \
+sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 Ubuntu 20.04 (Focal)
-echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu focal stable&quot; | \
-sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu focal stable" | \
+sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 Ubuntu 19.10 (Eoan)
-echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu eoan stable&quot; | \
-sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu eoan stable" | \
+sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 Ubuntu 19.04 (Disco)
-echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu disco stable&quot; | \
-sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu disco stable" | \
+sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 Ubuntu 18.10 (Cosmic)
-echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu cosmic stable&quot; | \
-sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu cosmic stable" | \
+sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 Ubuntu 18.04 (bionic)
-echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu bionic stable&quot; | \
-sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu bionic stable" | \
+sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 Ubuntu 17.10
-echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu artful stable&quot; | \
-sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu artful stable" | \
+sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 Ubuntu 16.04
-echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu xenial stable&quot; | \
-sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu xenial stable" | \
+sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 Run the following:
 sudo apt update
@@ -3743,7 +3743,7 @@ Install docker-ce:
 sudo apt install docker-ce
 
 To check the available and permitted Ubuntu codenames:
-curl -sSL  https://download.docker.com/linux/ubuntu/dists/ |awk -F'&quot;' 'FNR &gt;7 {print $2}'
+curl -sSL  https://download.docker.com/linux/ubuntu/dists/ |awk -F'"' 'FNR >7 {print $2}'
 
 sample output (Results may be different after the directory updates):
 ../
@@ -3790,8 +3790,8 @@ Tags: linux, ssh, sftp | Score: 126 | Views: 309988 | Answers: 11
 **解决方案 / Solution**:
 I don't know why sftp does this but you can only recursive copy if the destination directory already exists. So do this...
 
-sftp&gt; mkdir bin
-sftp&gt; put -r bin
+sftp> mkdir bin
+sftp> put -r bin
 
 ---
 
@@ -3916,7 +3916,7 @@ rtt min/avg/max/mdev = 134.621/136.028/139.848/2.252 ms
 
 ---
 
-#### 112. How do I kill all a user&#39;s processes using their UID
+#### 112. How do I kill all a user's processes using their UID
 
 **问题描述 / Problem Description**:
 Tags: c, linux, proc | Score: 121 | Views: 499467 | Answers: 6
@@ -3965,7 +3965,7 @@ I think, any utility used to find process in Linux/Solaris style /proc (procfs) 
 
 To get list of users, use getpwent (it will get one user per call).
 
-skill (procps &amp; procps-ng) and killall (psmisc) tools both uses getpwnam library call to parse argument of -u option, and only username will be parsed. pkill (procps &amp; procps-ng) uses both atol and getpwnam to parse -u/-U argument and allow both numeric and textual user specifier.
+skill (procps & procps-ng) and killall (psmisc) tools both uses getpwnam library call to parse argument of -u option, and only username will be parsed. pkill (procps & procps-ng) uses both atol and getpwnam to parse -u/-U argument and allow both numeric and textual user specifier.
 
 ---
 
@@ -4058,7 +4058,7 @@ The user space, which is a set of locations where normal user processes run (i.e
 The kernel space, which is the location where the code and data of the kernel is stored, and executes under.
 
 Processes running under the user space have access only to a limited part of memory, whereas the kernel has access to all of the memory. Processes running in user space also don't have access to the kernel space. User space processes can only access a small part of the kernel via an interface exposed by the kernel - the system calls. If a process performs a system call, a software interrupt is sent to the kernel, which then dispatches the appropriate interrupt handler and continues its work after the handler has finished.
-Kernel space code has the property to run in &quot;kernel mode&quot;, which (in your typical desktop -x86- computer) is what you call code that executes under ring 0. Typically in x86 architecture, there are 4 rings of protection. Ring 0 (kernel mode), Ring 1 (may be used by virtual machine hypervisors or drivers), Ring 2 (may be used by drivers, I am not so sure about that though). Ring 3 is what typical applications run under. It is the least privileged ring, and applications running on it have access to a subset of the processor's instructions. Ring 0 (kernel space) is the most privileged ring, and has access to all of the machine's instructions. For an example of this, a &quot;plain&quot; application (like a browser) can not use x86 assembly instructions lgdt to load the global descriptor table, nor hlt to halt a processor.
+Kernel space code has the property to run in "kernel mode", which (in your typical desktop -x86- computer) is what you call code that executes under ring 0. Typically in x86 architecture, there are 4 rings of protection. Ring 0 (kernel mode), Ring 1 (may be used by virtual machine hypervisors or drivers), Ring 2 (may be used by drivers, I am not so sure about that though). Ring 3 is what typical applications run under. It is the least privileged ring, and applications running on it have access to a subset of the processor's instructions. Ring 0 (kernel space) is the most privileged ring, and has access to all of the machine's instructions. For an example of this, a "plain" application (like a browser) can not use x86 assembly instructions lgdt to load the global descriptor table, nor hlt to halt a processor.
 
 If it is the first one, than does it mean that normal user program cannot have more than 3GB of memory (if the division is 3GB + 1GB)? Also, in that case how can kernel use High Memory, because to what virtual memory address will the pages from high memory be mapped to, as 1GB of kernel space will be logically mapped?
 
@@ -4066,7 +4066,7 @@ For an answer to this, please refer to the excellent answer by wag to What are h
 
 ---
 
-#### 116. What is &quot;mail&quot;, and how is it navigated?
+#### 116. What is "mail", and how is it navigated?
 
 **问题描述 / Problem Description**:
 Tags: linux, mail-command | Score: 120 | Views: 182106 | Answers: 3
@@ -4094,7 +4094,7 @@ From: torvalds@klaava.Helsinki.FI (Linus Benedict Torvalds)
 Newsgroups: comp.os.minix
 Subject: What would you like to see most in minix?
 Summary: small poll for my new operating system  
-Message-ID: &lt;1991Aug25.205708.9541@klaava.Helsinki.FI&gt;
+Message-ID: <1991Aug25.205708.9541@klaava.Helsinki.FI>
 Date: 25 Aug 91 20:57:08 GMT
 Organization: University of Helsinki
 
@@ -4166,7 +4166,7 @@ Image credits:
 
 ---
 
-#### 118. &quot;Input/output error&quot; when accessing a directory
+#### 118. "Input/output error" when accessing a directory
 
 **问题描述 / Problem Description**:
 Tags: ubuntu, directory, ntfs | Score: 117 | Views: 855860 | Answers: 8
@@ -4202,7 +4202,7 @@ If a program opens a terminal for writing, the output from that program appears 
 
 If a program opens a terminal for reading, the input from the user is passed to that program. If multiple programs are reading from the same terminal, each character is routed independently to one of the programs; this is not recommended. Normally there is only a single program actively reading from the terminal at a given time; programs that try to read from their controlling terminal while they are not in the foreground are automatically suspended by a SIGTTIN signal.
 
-To experiment, run tty in a terminal to see what the terminal device is. Let's say it's /dev/pts/42. In a shell in another terminal, run echo hello &gt;/dev/pts/42: the string hello will be displayed on the other terminal. Now run cat /dev/pts/42 and type in the other terminal. To kill that cat command (which will make the other terminal hard to use), press Ctrl+C.
+To experiment, run tty in a terminal to see what the terminal device is. Let's say it's /dev/pts/42. In a shell in another terminal, run echo hello >/dev/pts/42: the string hello will be displayed on the other terminal. Now run cat /dev/pts/42 and type in the other terminal. To kill that cat command (which will make the other terminal hard to use), press Ctrl+C.
 
 Writing to another terminal is occasionally useful to display a notification; for example the write command does that. Reading from another terminal is not normally done.
 
@@ -4263,7 +4263,7 @@ USB devices are usually vfat and Linux are usually ext.
 
 ---
 
-#### 122. Shell script fails: Syntax error: &quot;(&quot; unexpected
+#### 122. Shell script fails: Syntax error: "(" unexpected
 
 **问题描述 / Problem Description**:
 Tags: bash, shell, ubuntu, shell-script | Score: 116 | Views: 485044 | Answers: 7
@@ -4310,7 +4310,7 @@ which fluidpoint
 
 to see where it is executing from (if it's in your $PATH). Or:
 
-find / -name fluidpoint 2&gt; /dev/null
+find / -name fluidpoint 2> /dev/null
 
 
 to look for a file named fluipoint and redirect errors on virtual filesystems.
@@ -4410,14 +4410,14 @@ So it can be said with a high degree of certainty the trueand false executable f
 From now on, the answer will focus on the /bin/true binary from the coreutilspackage in Debian 9 / 64 bits. (/usr/bin/true running RedHat. RedHat and Debian use both the  coreutils package, analysed the compiled version of the latter having it more at hand).
 As it can be seen in the source file false.c, /bin/false is compiled with (almost) the same source code as /bin/true, just returning EXIT_FAILURE (1) instead, so this answer can be applied for both binaries.
 #define EXIT_STATUS EXIT_FAILURE
-#include &quot;true.c&quot;
+#include "true.c"
 
 As it also can be confirmed by both executables having the same size:
 $ ls -l /bin/true /bin/false
 -rwxr-xr-x 1 root root 31464 Feb 22  2017 /bin/false
 -rwxr-xr-x 1 root root 31464 Feb 22  2017 /bin/true
 
-Alas, the direct answer to the question &quot;why are true and false so large?&quot; could be, because there are not anymore so pressing reasons to care about their top performance. They are not essential to bash performance, not being used anymore by bash (scripting).
+Alas, the direct answer to the question "why are true and false so large?" could be, because there are not anymore so pressing reasons to care about their top performance. They are not essential to bash performance, not being used anymore by bash (scripting).
 Similar comments apply to their size, 26KB for the kind of hardware we have nowadays is insignificant. Space is not at premium for the typical server/desktop anymore, and they do not even bother anymore to use the same binary for false and true, as it is just deployed twice in distributions using coreutils.
 Focusing, however, in the real spirit of the question, why something that should be so simple and small, gets so large?
 The real distribution of the sections of /bin/true is as these charts shows; the main code+data amounts to roughly 3KB out of a 26KB binary, which amounts to 12% of the size of /bin/true.
@@ -4471,19 +4471,19 @@ main (int argc, char **argv)
      argument.  */
   if (argc == 2)
     {
-      initialize_main (&amp;argc, &amp;argv);
-      set_program_name (argv[0]);           &lt;-----------
-      setlocale (LC_ALL, &quot;&quot;);
+      initialize_main (&argc, &argv);
+      set_program_name (argv[0]);           <-----------
+      setlocale (LC_ALL, "");
       bindtextdomain (PACKAGE, LOCALEDIR);
       textdomain (PACKAGE);
 
-      atexit (close_stdout);             &lt;-----
+      atexit (close_stdout);             <-----
 
-      if (STREQ (argv[1], &quot;--help&quot;))
+      if (STREQ (argv[1], "--help"))
         usage (EXIT_STATUS);
 
-      if (STREQ (argv[1], &quot;--version&quot;))
-        version_etc (stdout, PROGRAM_NAME, PACKAGE_NAME, Version,  AUTHORS,  &lt;------
+      if (STREQ (argv[1], "--version"))
+        version_etc (stdout, PROGRAM_NAME, PACKAGE_NAME, Version,  AUTHORS,  <------
                      (char *) NULL);
     }
 
@@ -4809,7 +4809,7 @@ sudo systemctl restart NetworkManager
 
 ---
 
-#### 136. Execute a specific command in a given directory without cd&#39;ing to it?
+#### 136. Execute a specific command in a given directory without cd'ing to it?
 
 **问题描述 / Problem Description**:
 Tags: linux, bash, cd-command | Score: 109 | Views: 147345 | Answers: 11
@@ -4817,14 +4817,14 @@ Tags: linux, bash, cd-command | Score: 109 | Views: 147345 | Answers: 11
 **解决方案 / Solution**:
 I don't know if this counts, but you can make a subshell:
 
-$ (cd /var/log &amp;&amp; cp -- *.log ~/Desktop)
+$ (cd /var/log && cp -- *.log ~/Desktop)
 
 
 The directory is only changed for that subshell, so you avoid the work of needing to cd - afterwards.
 
 ---
 
-#### 137. Is there a way to stop having to write &#39;sudo&#39; for every little thing in Linux?
+#### 137. Is there a way to stop having to write 'sudo' for every little thing in Linux?
 
 **问题描述 / Problem Description**:
 Tags: linux, permissions, sudo | Score: 109 | Views: 371243 | Answers: 11
@@ -4899,21 +4899,21 @@ The init process is always assigned PID 1. The /proc filesystem provides a way t
 In other words:
 
 nathan@nathan-desktop:~$ sudo stat /proc/1/exe
-  File: '/proc/1/exe' -&gt; '/sbin/upstart'
+  File: '/proc/1/exe' -> '/sbin/upstart'
 
 
 As you can see, the init process on my Ubuntu 14.10 box is Upstart. Ubuntu 15.04 uses systemd, so running that command instead yields:
 
 nathan@nathan-gnome:~$ sudo stat /proc/1/exe
-  File: '/proc/1/exe' -&gt; '/lib/systemd/systemd'
+  File: '/proc/1/exe' -> '/lib/systemd/systemd'
 
 
 If the system you're on gives /sbin/init as a result, then you'll want to try statting that file:
 
 nathan@nathan-gnome:~$ sudo stat /proc/1/exe
-  File: '/proc/1/exe' -&gt; '/sbin/init'
+  File: '/proc/1/exe' -> '/sbin/init'
 nathan@nathan-gnome:~$ stat /sbin/init
-  File: ‘/sbin/init’ -&gt; ‘/lib/systemd/systemd’
+  File: ‘/sbin/init’ -> ‘/lib/systemd/systemd’
 
 
 You can also execute it to find out more:
@@ -4971,7 +4971,7 @@ Then edit the configuration file in /etc/ssmtp/ssmtp.conf
 
 A sample configuration to use your gmail for sending e-mails:
 
-# root is the person who gets all mail for userids &lt; 1000
+# root is the person who gets all mail for userids < 1000
 root=your@email.com
 
 # Here is the gmail configuration (or change it to your private smtp server)
@@ -5026,7 +5026,7 @@ First I need to find coordinates of the device using lspci; then I find driver t
 
 ---
 
-#### 144. Is there a whoami to find the current group I&#39;m logged in as?
+#### 144. Is there a whoami to find the current group I'm logged in as?
 
 **问题描述 / Problem Description**:
 Tags: linux, users, group | Score: 107 | Views: 114828 | Answers: 2
@@ -5143,16 +5143,16 @@ Tags: linux, openssl | Score: 104 | Views: 581877 | Answers: 8
 It's not SSL keys you want, it's certificate authorities, and more precisely their certificates.
 You could try:
 awk -v cmd='openssl x509 -noout -subject' '
-    /BEGIN/{close(cmd)};{print | cmd}' &lt; /etc/ssl/certs/ca-certificates.crt
+    /BEGIN/{close(cmd)};{print | cmd}' < /etc/ssl/certs/ca-certificates.crt
 
-To get the &quot;subject&quot; of every CA certificate in /etc/ssl/certs/ca-certificates.crt (this works because openssl exits after reading an individual cert block, but awk relaunches openssl on the next print | cmd call).
+To get the "subject" of every CA certificate in /etc/ssl/certs/ca-certificates.crt (this works because openssl exits after reading an individual cert block, but awk relaunches openssl on the next print | cmd call).
 Beware that sometimes, you get that error when SSL servers forget to provide the intermediate certificates.
 Use openssl s_client -showcerts -connect the-git-server:443 to get the list of certificates  being sent.
 Note that the pathname of the certificates bundle may differ depending on operating system. The directory holding the certs sub-directory is given by the command openssl version -d. The actual certificates file in that directory may additionally have a different name.
 
 ---
 
-#### 148. What does status &quot;active (exited)&quot; mean for a systemd service?
+#### 148. What does status "active (exited)" mean for a systemd service?
 
 **问题描述 / Problem Description**:
 Tags: linux, systemd, services, sysvinit | Score: 104 | Views: 221266 | Answers: 3
@@ -5168,7 +5168,7 @@ Check the different systemd man pages or update your question and post the unit 
 
 ---
 
-#### 149. What do the &quot;buff/cache&quot; and &quot;avail mem&quot; fields in top mean?
+#### 149. What do the "buff/cache" and "avail mem" fields in top mean?
 
 **问题描述 / Problem Description**:
 Tags: linux, memory, top | Score: 102 | Views: 185264 | Answers: 3
@@ -5268,8 +5268,8 @@ If you're still having problems, running ldd [executable name] will show you the
 Tags: linux, networking, routing | Score: 101 | Views: 205460 | Answers: 4
 
 **解决方案 / Solution**:
-0.0.0.0 has the specific meaning &quot;unspecified&quot;.  This roughly translates to &quot;there is none&quot; in the context of a gateway.  Of course, this assumes that the network is locally connected, as there is no intermediate hop.  The machine will send the packet out that interface as though to a machine connected to that segment, which in Ethernet means the MAC address of the destination host will be used instead of the MAC address of the next hop gateway.
-As a destination, 0.0.0.0/0 is special: if there are no network bits, there can't be anything in the network number either.  So, it's naturally unspecified.  For prefix matching it masks off all bits, so all addresses are within 0.0.0.0/0; for this reason it's used to mean &quot;default gateway&quot; in routing tables.  It is also the least-specific possible route, so selections that prioritize specificity will choose anything else available and match 0.0.0.0/0 as a last resort.
+0.0.0.0 has the specific meaning "unspecified".  This roughly translates to "there is none" in the context of a gateway.  Of course, this assumes that the network is locally connected, as there is no intermediate hop.  The machine will send the packet out that interface as though to a machine connected to that segment, which in Ethernet means the MAC address of the destination host will be used instead of the MAC address of the next hop gateway.
+As a destination, 0.0.0.0/0 is special: if there are no network bits, there can't be anything in the network number either.  So, it's naturally unspecified.  For prefix matching it masks off all bits, so all addresses are within 0.0.0.0/0; for this reason it's used to mean "default gateway" in routing tables.  It is also the least-specific possible route, so selections that prioritize specificity will choose anything else available and match 0.0.0.0/0 as a last resort.
 However, sticking to your question, yes, it does have a special meaning.  It means that the network is locally connected on that interface and no more hops are needed to get to it.
 
 ---
@@ -5368,7 +5368,7 @@ Description=...
 [Service]
 Type=oneshot
 RemainAfterExit=true
-ExecStop=&lt;your script/program&gt;
+ExecStop=<your script/program>
 
 [Install]
 WantedBy=multi-user.target
@@ -5382,7 +5382,7 @@ I just got it from systemd IRC, credits are going to mezcalero.
 
 ---
 
-#### 156. What does the letter &#39;u&#39; mean in /dev/urandom?
+#### 156. What does the letter 'u' mean in /dev/urandom?
 
 **问题描述 / Problem Description**:
 Tags: linux, devices, history, random | Score: 98 | Views: 16971 | Answers: 3
@@ -5411,7 +5411,7 @@ Regarding which came first for Linux, /dev/random or /dev/urandom, @Stéphane Ch
 Tags: linux, directory-structure, history | Score: 97 | Views: 23188 | Answers: 3
 
 **解决方案 / Solution**:
-The forward slash / is the delimiting character which separates directories in paths in Unix-like operating systems. This character seems to have been chosen sometime in the 1970's, and according to anecdotal sources, the reasons might be related to that the predecessor to Unix, the Multics operating system, used the &gt; character as path separator, but the designers of Unix had already reserved the characters &gt; and &lt; to signify I/O redirection on the shell command line well before they had a multi-level file system. So when the time came to design the filesystem, they had to find another character to signify pathname element separation.
+The forward slash / is the delimiting character which separates directories in paths in Unix-like operating systems. This character seems to have been chosen sometime in the 1970's, and according to anecdotal sources, the reasons might be related to that the predecessor to Unix, the Multics operating system, used the > character as path separator, but the designers of Unix had already reserved the characters > and < to signify I/O redirection on the shell command line well before they had a multi-level file system. So when the time came to design the filesystem, they had to find another character to signify pathname element separation.
 
 A thing to note here is that in the Lear-Siegler ADM-3A terminal in common use during the 1970's, from which amongst other things the practice of using the ~ character to represent the home directory originates, the / key is next to the > key:
 
@@ -5476,7 +5476,7 @@ $
 
 ---
 
-#### 161. Ubuntu update error: &quot;waiting for unattended-upgr to exit&quot;
+#### 161. Ubuntu update error: "waiting for unattended-upgr to exit"
 
 **问题描述 / Problem Description**:
 Tags: ubuntu, upgrade | Score: 96 | Views: 281007 | Answers: 8
@@ -5497,7 +5497,7 @@ Make sure any packages in an unclean state are installed correctly:
 
 
 Get your system up-to-date:
- sudo apt update &amp;&amp; sudo apt -f install &amp;&amp; sudo apt full-upgrade
+ sudo apt update && sudo apt -f install && sudo apt full-upgrade
 
 
 Turn the automatic updater back on, now that the blockage is cleared:
@@ -5518,7 +5518,7 @@ To format a partition, use mkexfatfs / mkfs.exfat like with most filesystems, e.
 mkfs.exfat /dev/sdX1
 
 As for creating the partition in the first place, this is the same as for any other filesystem. Create a partition in your favourite partition manager. If you have an MBR partition table, set the partition type to NTFS (that is, code 7).
-Newer fdisk versions identify the partition type as &quot;Microsoft basic data&quot; (EBD0A0A2-B9E5-4433-87C0-68B6B72699C7, code 11.
+Newer fdisk versions identify the partition type as "Microsoft basic data" (EBD0A0A2-B9E5-4433-87C0-68B6B72699C7, code 11.
 Note, that some distributions only package the fuse module, so you may have to build it yourself.
 
 ---
@@ -5613,7 +5613,7 @@ ping - for validating if the target host is accessible from my machine. ping cou
 dig - diagnose everything DNS
 dmesg | less or dmesg | tail or dmesg | grep -i error - for understanding what the Linux kernel thinks about some trouble.
 netstat -antp + | grep smth - my most popular usage of the netstat command, which shows information about TCP connections. Often I perform some filtering using grep. See also the new ss command (from iproute2 the new standard suite of Linux networking tools) and lsof as in lsof -ai tcp -c some-cmd.
-telnet &lt;host&gt; &lt;port&gt; - is very useful for communicating with various TCP services (e.g. on SMTP, HTTP protocols), also we could check general opportunity to connect to some TCP port.
+telnet <host> <port> - is very useful for communicating with various TCP services (e.g. on SMTP, HTTP protocols), also we could check general opportunity to connect to some TCP port.
 iptables-save (on Linux) - to dump the full iptables tables
 ethtool - get all the network interface card parameters (status of the link, speed, offload parameters...)
 socat - the Swiss army tool to test all network protocols (UDP, multicast, SCTP...). Especially useful (more so than telnet) with a few -d options.
@@ -5629,7 +5629,7 @@ to investigate firewall issues on Linux: iptables -nvL shows how many packets ar
 
 ---
 
-#### 167. What&#39;s the difference between pkill and killall?
+#### 167. What's the difference between pkill and killall?
 
 **问题描述 / Problem Description**:
 Tags: linux, process, kill, process-management | Score: 91 | Views: 47958 | Answers: 5
@@ -5664,7 +5664,7 @@ Alternatively
 
 Find and open the key from the key server.
 Copy it's contents into a text file.
-Go to System Tool &gt; Preferences &gt; Software Sources &gt; Authentication &gt; Add key, and select the text file created. Ubuntu 14.04 and later try: Software Center -&gt; Edit -&gt; Software Sources -&gt; Authentication -&gt; Import key file
+Go to System Tool > Preferences > Software Sources > Authentication > Add key, and select the text file created. Ubuntu 14.04 and later try: Software Center -> Edit -> Software Sources -> Authentication -> Import key file
 
 ---
 
@@ -5749,11 +5749,11 @@ Tags: linux, bash, file-descriptors, open-files | Score: 90 | Views: 256830 | An
 Yes, this will list all open file descriptors:
 $ ls -l /proc/$$/fd
 total 0
-lrwx------ 1 isaac isaac 64 Dec 28 00:56 0 -&gt; /dev/pts/6
-lrwx------ 1 isaac isaac 64 Dec 28 00:56 1 -&gt; /dev/pts/6
-lrwx------ 1 isaac isaac 64 Dec 28 00:56 2 -&gt; /dev/pts/6
-lrwx------ 1 isaac isaac 64 Dec 28 00:56 255 -&gt; /dev/pts/6
-l-wx------ 1 isaac isaac 64 Dec 28 00:56 4 -&gt; /home/isaac/testfile.txt
+lrwx------ 1 isaac isaac 64 Dec 28 00:56 0 -> /dev/pts/6
+lrwx------ 1 isaac isaac 64 Dec 28 00:56 1 -> /dev/pts/6
+lrwx------ 1 isaac isaac 64 Dec 28 00:56 2 -> /dev/pts/6
+lrwx------ 1 isaac isaac 64 Dec 28 00:56 255 -> /dev/pts/6
+l-wx------ 1 isaac isaac 64 Dec 28 00:56 4 -> /home/isaac/testfile.txt
 
 Of course, as usual: 0 is stdin, 1 is stdout and 2 is stderr.
 The 4th is an open file (to write) in this case.
@@ -5784,7 +5784,7 @@ Use Ctrl-a a, or change screen's escape keystroke (option -e).
 
 ---
 
-#### 175. What does adduser do that useradd doesn&#39;t?
+#### 175. What does adduser do that useradd doesn't?
 
 **问题描述 / Problem Description**:
 Tags: debian, ubuntu, users, useradd | Score: 90 | Views: 79330 | Answers: 4
@@ -5835,7 +5835,7 @@ usermod -a -G newgroup username
 
 The main drawback from usermod in this case is that forgetting to pass the
 append option (i.e.: -a) would end up removing the user from all groups
-before adding them to &quot;newgroup&quot; (i.e.: -G alone means &quot;replace with&quot;).
+before adding them to "newgroup" (i.e.: -G alone means "replace with").
 One downside to using adduser here though is that you can only specify one group at a time.
 
 ---
@@ -5926,7 +5926,7 @@ Tags: ubuntu, rm, data-recovery | Score: 89 | Views: 586070 | Answers: 2
 
 **解决方案 / Solution**:
 If a running program still has the deleted file open, you can recover the file through the open file descriptor in /proc/[pid]/fd/[num]. To determine if this is the case, you can attempt the following:
-$ lsof | grep &quot;/path/to/file&quot;
+$ lsof | grep "/path/to/file"
 
 If the above gives output of the form:
 progname 5383 user 22r REG 8,1 16791251 265368 /path/to/file               
@@ -5950,13 +5950,13 @@ With older versions:
 $ extundelete /path/to/backup --restore-all 
 
 With newer versions (e.g. 0.2.4), don't mount the device you're trying to recover from (thanks to Ryan Lue) :
-$ extundelete /dev/&lt;device-file&gt; --restore-all
+$ extundelete /dev/<device-file> --restore-all
 
-Instead of --restore-all, you can try options like --restore-file &lt;path&gt; or --restore-directory &lt;path&gt;
+Instead of --restore-all, you can try options like --restore-file <path> or --restore-directory <path>
 
 ---
 
-#### 179. Why can&#39;t Linux usernames begin with numbers?
+#### 179. Why can't Linux usernames begin with numbers?
 
 **问题描述 / Problem Description**:
 Tags: linux, users, history | Score: 88 | Views: 33968 | Answers: 6
@@ -5994,16 +5994,16 @@ Tags: linux, cpu | Score: 88 | Views: 345987 | Answers: 6
 
 **解决方案 / Solution**:
 To see the current speed of each core I do this:
-watch -n.1 &quot;grep \&quot;^[c]pu MHz\&quot; /proc/cpuinfo&quot;
+watch -n.1 "grep \"^[c]pu MHz\" /proc/cpuinfo"
 
 Notes:
 This does not work on server CPUs such as the Intel Xeon series. On such machines it will show the base frequency only. To show the turbo frequency, you'll need cpupower or turbostat. See @Maxim Egorushkin's answer.
 If your watch command does not work with intervals smaller than one second, modify the interval like so:
-watch -n1 &quot;grep \&quot;^[c]pu MHz\&quot; /proc/cpuinfo&quot;
+watch -n1 "grep \"^[c]pu MHz\" /proc/cpuinfo"
 
 This displays the cpu speed of each core in real time.
 By running the following command, one or more times, from another terminal one can see the speed change with the above watch command, assuming SpeedStep is enabled (Cool'n'Quiet for AMD).
-echo &quot;scale=10000; 4*a(1)&quot; | bc -l &amp;
+echo "scale=10000; 4*a(1)" | bc -l &
 
 (This command uses bc to calculate pi to 10000 places.)
 
@@ -6034,13 +6034,13 @@ Now that high-CPU-count systems are common, and thus the amount of memory availa
 Tags: linux, partition, system-installation | Score: 88 | Views: 73794 | Answers: 11
 
 **解决方案 / Solution**:
-This is a holdover from &quot;ye olde tymes&quot; when machines had trouble addressing large hard drives.  The idea behind the /boot partition was to make the partition always accessible to any machine that the drive was plugged into.  If the machine could get to the start of the drive (lower cylinder numbers) then it could bootstrap the system; from there the linux kernel would be able to bypass the BIOS boot restriction and work around the problem.  As modern machines have lifted that restriction, there is no longer a fixed need for /boot to be separate, unless you require additional processing of the other partitions, such as encryption or file systems that are not natively recognized by the bootloader.
+This is a holdover from "ye olde tymes" when machines had trouble addressing large hard drives.  The idea behind the /boot partition was to make the partition always accessible to any machine that the drive was plugged into.  If the machine could get to the start of the drive (lower cylinder numbers) then it could bootstrap the system; from there the linux kernel would be able to bypass the BIOS boot restriction and work around the problem.  As modern machines have lifted that restriction, there is no longer a fixed need for /boot to be separate, unless you require additional processing of the other partitions, such as encryption or file systems that are not natively recognized by the bootloader.
 Technically, you can get away with a single partition and be just fine, provided that you are not using really really old hardware (pre-1998 or so).
 If you do decide to use a separate partition, just be sure to give it adequate room, say 200mb of space.  That will be more than enough for several kernel upgrades (which consume several megs each time).  If /boot starts to fill up, remove older kernels that you don't use and adjust your bootloader to recognize this fact.
 
 ---
 
-#### 183. What is the significance of the &quot;wheel&quot; group?
+#### 183. What is the significance of the "wheel" group?
 
 **问题描述 / Problem Description**:
 Tags: linux, group | Score: 88 | Views: 212071 | Answers: 2
@@ -6052,7 +6052,7 @@ Rather than have to dole out individual permissions on a system, you can add use
 %wheel  ALL=(ALL)   ALL
 
 
-Which means you can do anything on the system with sudo &lt;cmd&gt;.
+Which means you can do anything on the system with sudo <cmd>.
 
 Previously you needed to be in the wheel group if you wanted to have access to use certain commands, such as su.
 
@@ -6127,7 +6127,7 @@ I have always just used the following and looked at 'Thread(s) per core:'.
 hostname:~ # lscpu
 Architecture:          x86_64
 CPU(s):                24
-Thread(s) per core:    2                &lt;-- here
+Thread(s) per core:    2                <-- here
 Core(s) per socket:    6
 CPU socket(s):         2
 NUMA node(s):          2
@@ -6145,7 +6145,7 @@ L3 cache:              12288K
 
 Note, however, this technique will fail if any logical processor has been turned off with a simple
 
-echo 0 &gt; /sys/devices/system/cpu/cpuX/online
+echo 0 > /sys/devices/system/cpu/cpuX/online
 
 ---
 
@@ -6157,7 +6157,7 @@ Tags: linux, keyboard, keyboard-layout, apple | Score: 86 | Views: 65643 | Answe
 **解决方案 / Solution**:
 You need to add 0 or 2 into /sys/module/hid_apple/parameters/fnmode.
 i.e.:
-echo 2 &gt; /sys/module/hid_apple/parameters/fnmode
+echo 2 > /sys/module/hid_apple/parameters/fnmode
 
 There seems to be some confusion regarding what the difference between the two values might be. Quoting the Ubuntu documentation:
 
@@ -6215,7 +6215,7 @@ and
      10      82     857
 
 And to make it persists across reboots, simply save it as conf file:
-$ echo kernel.dmesg_restrict = 0 | sudo tee -a /etc/sysctl.d/10-local.conf &gt;/dev/null
+$ echo kernel.dmesg_restrict = 0 | sudo tee -a /etc/sysctl.d/10-local.conf >/dev/null
 $ cat /etc/sysctl.d/10-local.conf 
 kernel.dmesg_restrict = 0
 
@@ -6351,7 +6351,7 @@ add the consoleblank=0 kernel parameter to the kernel command line (i.e. edit an
 add the setterm -blank 0 command to an rc-local or equivalent startup script
 
 add the setterm output to /etc/issue since /etc/issue is output on every virtual console:
-# setterm -blank 0 &gt;&gt; /etc/issue
+# setterm -blank 0 >> /etc/issue
 
 
 Choose one alternative from the above.
@@ -6423,7 +6423,7 @@ showmount
 
 The other thing I'll often do is from other machines I'll check any machine that's exporting NFS shares to the network using the showmount command.
 
-$ showmount -e &lt;NFS server name&gt;
+$ showmount -e <NFS server name>
 
 
 Example
@@ -6459,17 +6459,17 @@ References
 
 ---
 
-#### 196. What is a &quot;loop device&quot; when mounting?
+#### 196. What is a "loop device" when mounting?
 
 **问题描述 / Problem Description**:
 Tags: linux, grep, mount, loop-device | Score: 82 | Views: 106713 | Answers: 3
 
 **解决方案 / Solution**:
-A loop device is a pseudo (&quot;fake&quot;) device (actually just a file) that acts as a block-based device. You want to mount a file disk1.iso that will act as an entire filesystem, so you use loop.
+A loop device is a pseudo ("fake") device (actually just a file) that acts as a block-based device. You want to mount a file disk1.iso that will act as an entire filesystem, so you use loop.
 The -o is short for --options.
-And the last thing, if you want to search for &quot;-o&quot; you need to escape the '-'.
+And the last thing, if you want to search for "-o" you need to escape the '-'.
 Try:
-man mount | grep &quot;\-o&quot;
+man mount | grep "\-o"
 
 ---
 
@@ -6487,7 +6487,7 @@ Here's another in an answer to a similar question on S.O, which I'll shamelessly
 
 First, source for our example library, test.c:
 
-#include &lt;stdio.h&gt;                  
+#include <stdio.h>                  
 
 void sayHello (char *tag) {         
     printf("%s: Hello!\n", tag);    
@@ -6508,13 +6508,13 @@ Here, we are compiling a shared library (-fPIC), but telling the linker that it'
 
 And, although file will say it's a shared object, it does work as an executable:
 
-&gt; ./libtest.so 
+> ./libtest.so 
 ./libtest.so: Hello!
 
 
 Now we need to see if it can really be dynamically linked.  An example program, program.c:
 
-#include &lt;stdio.h&gt;
+#include <stdio.h>
 
 extern void sayHello (char*);
 
@@ -6537,7 +6537,7 @@ export LD_LIBRARY_PATH=./
 
 Now:
 
-&gt; ./a.out
+> ./a.out
 Test program.
 ./a.out: Hello!
 
@@ -6548,7 +6548,7 @@ Note that I doubt this is how glibc is actually compiled, since it is probably n
 
 ---
 
-#### 198. Changing a file&#39;s &quot;Date Created&quot; and &quot;Last Modified&quot; attributes to another file&#39;s
+#### 198. Changing a file's "Date Created" and "Last Modified" attributes to another file's
 
 **问题描述 / Problem Description**:
 Tags: linux, bash, files, samba | Score: 81 | Views: 381004 | Answers: 3
@@ -6556,7 +6556,7 @@ Tags: linux, bash, files, samba | Score: 81 | Views: 381004 | Answers: 3
 **解决方案 / Solution**:
 You can use the touch command along with the -r switch to apply another file's attributes to a file.
 
-NOTE: There is no such thing as creation date in Unix, there are only access, modify, and change. See this U&amp;L Q&amp;A titled: get age of given file for further details.
+NOTE: There is no such thing as creation date in Unix, there are only access, modify, and change. See this U&L Q&A titled: get age of given file for further details.
 
 $ touch -r goldenfile newfile
 
@@ -6642,7 +6642,7 @@ wlan0     IEEE 802.11bgn  ESSID:"EvanCarroll"
           Tx excessive retries:1  Invalid misc:80   Missed beacon:0
 
 
-In this case it is wlan0, then run iwlist &lt;interface&gt; freq,
+In this case it is wlan0, then run iwlist <interface> freq,
 
 $ iwlist wlan0 freq
 wlan0     13 channels in total; available frequencies :
@@ -6672,9 +6672,9 @@ None of these channels are outside of 2.4 GHz. It does not support 5 GHz.
 Tags: linux, iptables, routing | Score: 81 | Views: 115256 | Answers: 4
 
 **解决方案 / Solution**:
-echo 200 isp2 &gt;&gt; /etc/iproute2/rt_tables
-ip rule add from &lt;interface_IP&gt; table isp2 prio 1
-ip route add default via &lt;gateway_IP&gt; dev &lt;interface&gt; table isp2
+echo 200 isp2 >> /etc/iproute2/rt_tables
+ip rule add from <interface_IP> table isp2 prio 1
+ip route add default via <gateway_IP> dev <interface> table isp2
 
 The above doesn't require any packet marking with ipfilter.  It works because the outgoing (reply) packets will have the IP address that was originally used to connect to the 2nd interface as the source (from) address on the outgoing packet.
 
@@ -6693,14 +6693,14 @@ cat /dev/ttyS0
 
 Or:
 
-cat &lt; /dev/ttyS0
+cat < /dev/ttyS0
 
 
 The first example is an app that opens the serial port and relays what it reads from it to its stdout (your console).  The second is the shell directing the serial port traffic to any app that you like; this particular app then just relays its stdin to its stdout.
 
 To get better visibility into the traffic, you may prefer a hex dump:
 
-od -x &lt; /dev/ttyS0
+od -x < /dev/ttyS0
 
 ---
 
@@ -6768,7 +6768,7 @@ On Debian and Ubuntu, services start automatically on installation. To avoid thi
 #!/bin/sh
 ## Don't start any service if running in a chroot.
 ## See /usr/share/doc/sysv-rc/README.policy-rc.d.gz
-if [ &quot;$(stat -c %d:%i /)&quot; != &quot;$(stat -c %d:%i /proc/1/root/.)&quot; ]; then
+if [ "$(stat -c %d:%i /)" != "$(stat -c %d:%i /proc/1/root/.)" ]; then
   exit 101
 fi
 
@@ -6811,7 +6811,7 @@ There is a more in depth guide you can read on http://www.reactivated.net/writin
 
 ---
 
-#### 206. How can I reliably get the operating system&#39;s name?
+#### 206. How can I reliably get the operating system's name?
 
 **问题描述 / Problem Description**:
 Tags: linux, distributions | Score: 80 | Views: 90644 | Answers: 11
@@ -6874,7 +6874,7 @@ ubuntu              /etc/lsb-release
 
 This same page also includes a handy script which attempts to codify for the above using just vanilla uname commands, and the presence of one of the above files.
 
-NOTE: This list is dated but you could easily drop the dated distros such as Mandrake from the list and replace them with alternatives. This type of a script might be one approach if you're attempting to support a large swath of Solaris &amp; Linux variants.
+NOTE: This list is dated but you could easily drop the dated distros such as Mandrake from the list and replace them with alternatives. This type of a script might be one approach if you're attempting to support a large swath of Solaris & Linux variants.
 
 Linux Mafia
 
@@ -6951,7 +6951,7 @@ if [ "$UNAME" == "linux" ]; then
     fi
 fi
 # For everything else (or if above failed), just use generic identifier
-[ "$DISTRO" == "" ] &amp;&amp; export DISTRO=$UNAME
+[ "$DISTRO" == "" ] && export DISTRO=$UNAME
 unset UNAME
 
 
@@ -7005,7 +7005,7 @@ Hi Rob,
 
 I hope you don't mind me contacting you directly but I found your info here: 
 https://en.opensuse.org/User:Rjschwei. I participate on one of the StackExchange 
-sites, Unix &amp; Linux and a question recently came up regarding the best option 
+sites, Unix & Linux and a question recently came up regarding the best option 
 for determining the underlying OS.
 
 http://unix.stackexchange.com/questions/92199/how-can-i-reliably-get-the-operating-systems-name/92218?noredirect=1#comment140840_92218
@@ -7105,11 +7105,11 @@ If you don't have it installed, you may do so; afterwards run the previous comma
 
 Choose your drive from top-right menu.
 
-As the GParted reactivates the swap partition upon launch, you will have to right-click the particular swap partition and click Swapoff -&gt; This will be applied immediately.
+As the GParted reactivates the swap partition upon launch, you will have to right-click the particular swap partition and click Swapoff -> This will be applied immediately.
 
-Delete the swap partition with right click -&gt; Delete. You must apply the change now.
+Delete the swap partition with right click -> Delete. You must apply the change now.
 
-Resize your main / other partition with right click -&gt; Resize/Move. You must apply the change now.
+Resize your main / other partition with right click -> Resize/Move. You must apply the change now.
 
 Back to the terminal, let's recreate the boot images:
  update-initramfs -u -k all
@@ -7212,7 +7212,7 @@ pgrep/pkill take a -f flag. From the man page:
 
 For example:
 
-$ sleep 30&amp; sleep 60&amp;
+$ sleep 30& sleep 60&
 [1] 8007
 [2] 8008
 
@@ -7252,7 +7252,7 @@ I used the -r and -p switches for xxd:
 $ echo '0006303030304e43' | xxd -r -p | nc -l localhost 8181
 
 Thanks to inspiration from @Gilles' answer, here's a Perl version:
-$ echo '0006303030304e43' | perl -e 'print pack &quot;H*&quot;, &lt;STDIN&gt;' | nc -l localhost 8181
+$ echo '0006303030304e43' | perl -e 'print pack "H*", <STDIN>' | nc -l localhost 8181
 
 ---
 
@@ -7370,7 +7370,7 @@ If you aren't planning on playing 3D games, either the Intel or AMD drivers are 
 
 ---
 
-#### 215. Bluetooth won&#39;t turn On on Ubuntu 20.04
+#### 215. Bluetooth won't turn On on Ubuntu 20.04
 
 **问题描述 / Problem Description**:
 Tags: ubuntu, drivers, bluetooth | Score: 78 | Views: 149204 | Answers: 13
@@ -7388,7 +7388,7 @@ Just shutting down and having the motherboard LEDs on didn't work.
 Tags: linux, process, environment-variables | Score: 77 | Views: 122276 | Answers: 7
 
 **解决方案 / Solution**:
-You can read the initial environment of a process from /proc/&lt;pid&gt;/environ.
+You can read the initial environment of a process from /proc/<pid>/environ.
 
 If a process changes its environment, then in order to read the environment you must have the symbol table for the process and use the ptrace system call (for example by using gdb) to read the environment from the global char **__environ variable. There isn't any other way to get the value of any variable from a running Linux process.
 
@@ -7523,7 +7523,7 @@ In sum, ls -l counts the . and .. directories as separate hard links but find . 
 
 ---
 
-#### 223. What&#39;s the difference between poweroff and halt?
+#### 223. What's the difference between poweroff and halt?
 
 **问题描述 / Problem Description**:
 Tags: linux | Score: 76 | Views: 102406 | Answers: 1
@@ -7546,8 +7546,8 @@ Tags: linux, bash, rename | Score: 75 | Views: 155244 | Answers: 9
 
 **解决方案 / Solution**:
 In any shell, you can loop over the files whose name contains a space. Replacing the spaces with underscores is easy in bash, ksh and zsh with the ${VARIABLE//PATTERN/REPLACEMENT} construct.
-for x in *&quot; &quot;*; do
-  mv -- &quot;$x&quot; &quot;${x// /_}&quot;
+for x in *" "*; do
+  mv -- "$x" "${x// /_}"
 done
 
 On Debian, Ubuntu and derivatives, you can use the Perl rename (other distributions ship a different program as rename, and that program isn't helpful here).
@@ -7562,9 +7562,9 @@ autoload zmv
 zmv '*' '${f// /_}'
 
 An obligatory POSIX solution:
-for x in *&quot; &quot;*; do
-  y=$(printf %s/ &quot;$x&quot; | tr &quot; &quot; &quot;_&quot;)
-  mv -- &quot;$x&quot; &quot;${y%/}&quot;
+for x in *" "*; do
+  y=$(printf %s/ "$x" | tr " " "_")
+  mv -- "$x" "${y%/}"
 done
 
 ---
@@ -7594,42 +7594,42 @@ $ readlink /sys/block/sda/device/driver
 
 Note that the existence of various directories in /sys may change depending on the kernel configuration. Also not all devices have a device subfolder. For example, this is the case for partition device files like /dev/sda1. Here you have to access the device for the whole disk (unfortunately there are no sys links for this).
 A final thing which can be useful to do is to list the drivers for all devices for which they are available. For this you can use globs to select all the directories in which the driver links are present. Eg:
-$ ls -l /sys/dev/*/*/device/driver &amp;&amp; ls -l /sys/dev/*/*/driver 
-lrwxrwxrwx 1 root root 0 Apr 17 12:27 /sys/dev/block/11:0/device/driver -&gt; ../../../../../../../bus/scsi/drivers/sr
-lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/block/8:0/device/driver -&gt; ../../../../../../../bus/scsi/drivers/sd
-lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/block/8:16/device/driver -&gt; ../../../../../../../bus/scsi/drivers/sd
-lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/block/8:32/device/driver -&gt; ../../../../../../../../../bus/scsi/drivers/sd
-lrwxrwxrwx 1 root root 0 Apr 17 20:38 /sys/dev/char/189:0/driver -&gt; ../../../../bus/usb/drivers/usb
-lrwxrwxrwx 1 root root 0 Apr 17 20:38 /sys/dev/char/189:1024/driver -&gt; ../../../../bus/usb/drivers/usb
-lrwxrwxrwx 1 root root 0 Apr 17 20:38 /sys/dev/char/189:128/driver -&gt; ../../../../bus/usb/drivers/usb
-lrwxrwxrwx 1 root root 0 Apr 17 20:38 /sys/dev/char/189:256/driver -&gt; ../../../../bus/usb/drivers/usb
-lrwxrwxrwx 1 root root 0 Apr 17 20:38 /sys/dev/char/189:384/driver -&gt; ../../../../bus/usb/drivers/usb
-lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/189:512/driver -&gt; ../../../../bus/usb/drivers/usb
-lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/189:513/driver -&gt; ../../../../../bus/usb/drivers/usb
-lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/189:514/driver -&gt; ../../../../../bus/usb/drivers/usb
-lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/189:640/driver -&gt; ../../../../bus/usb/drivers/usb
-lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/189:643/driver -&gt; ../../../../../bus/usb/drivers/usb
-lrwxrwxrwx 1 root root 0 Apr 17 20:38 /sys/dev/char/189:768/driver -&gt; ../../../../bus/usb/drivers/usb
-lrwxrwxrwx 1 root root 0 Apr 17 20:38 /sys/dev/char/189:896/driver -&gt; ../../../../bus/usb/drivers/usb
-lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/21:0/device/driver -&gt; ../../../../../../../bus/scsi/drivers/sd
-lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/21:1/device/driver -&gt; ../../../../../../../bus/scsi/drivers/sd
-lrwxrwxrwx 1 root root 0 Apr 17 12:27 /sys/dev/char/21:2/device/driver -&gt; ../../../../../../../bus/scsi/drivers/sr
-lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/21:3/device/driver -&gt; ../../../../../../../../../bus/scsi/drivers/sd
-lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/250:0/device/driver -&gt; ../../../../../../../bus/hid/drivers/hid-generic
-lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/250:1/device/driver -&gt; ../../../../../../../bus/hid/drivers/hid-generic
-lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/250:2/device/driver -&gt; ../../../../../../../bus/hid/drivers/hid-generic
-lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/252:0/device/driver -&gt; ../../../../../../../bus/scsi/drivers/sd
-lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/252:1/device/driver -&gt; ../../../../../../../bus/scsi/drivers/sd
-lrwxrwxrwx 1 root root 0 Apr 17 12:27 /sys/dev/char/252:2/device/driver -&gt; ../../../../../../../bus/scsi/drivers/sr
-lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/252:3/device/driver -&gt; ../../../../../../../../../bus/scsi/drivers/sd
-lrwxrwxrwx 1 root root 0 Apr 17 19:53 /sys/dev/char/254:0/device/driver -&gt; ../../../bus/pnp/drivers/rtc_cmos
-lrwxrwxrwx 1 root root 0 Apr 17 19:53 /sys/dev/char/29:0/device/driver -&gt; ../../../bus/platform/drivers/simple-framebuffer
-lrwxrwxrwx 1 root root 0 Apr 17 19:53 /sys/dev/char/4:64/device/driver -&gt; ../../../bus/pnp/drivers/serial
-lrwxrwxrwx 1 root root 0 Apr 17 19:53 /sys/dev/char/4:65/device/driver -&gt; ../../../bus/platform/drivers/serial8250
-lrwxrwxrwx 1 root root 0 Apr 17 19:53 /sys/dev/char/4:66/device/driver -&gt; ../../../bus/platform/drivers/serial8250
-lrwxrwxrwx 1 root root 0 Apr 17 19:53 /sys/dev/char/4:67/device/driver -&gt; ../../../bus/platform/drivers/serial8250
-lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/6:0/device/driver -&gt; ../../../bus/pnp/drivers/parport_pc
-lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/99:0/device/driver -&gt; ../../../bus/pnp/drivers/parport_pc
+$ ls -l /sys/dev/*/*/device/driver && ls -l /sys/dev/*/*/driver 
+lrwxrwxrwx 1 root root 0 Apr 17 12:27 /sys/dev/block/11:0/device/driver -> ../../../../../../../bus/scsi/drivers/sr
+lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/block/8:0/device/driver -> ../../../../../../../bus/scsi/drivers/sd
+lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/block/8:16/device/driver -> ../../../../../../../bus/scsi/drivers/sd
+lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/block/8:32/device/driver -> ../../../../../../../../../bus/scsi/drivers/sd
+lrwxrwxrwx 1 root root 0 Apr 17 20:38 /sys/dev/char/189:0/driver -> ../../../../bus/usb/drivers/usb
+lrwxrwxrwx 1 root root 0 Apr 17 20:38 /sys/dev/char/189:1024/driver -> ../../../../bus/usb/drivers/usb
+lrwxrwxrwx 1 root root 0 Apr 17 20:38 /sys/dev/char/189:128/driver -> ../../../../bus/usb/drivers/usb
+lrwxrwxrwx 1 root root 0 Apr 17 20:38 /sys/dev/char/189:256/driver -> ../../../../bus/usb/drivers/usb
+lrwxrwxrwx 1 root root 0 Apr 17 20:38 /sys/dev/char/189:384/driver -> ../../../../bus/usb/drivers/usb
+lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/189:512/driver -> ../../../../bus/usb/drivers/usb
+lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/189:513/driver -> ../../../../../bus/usb/drivers/usb
+lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/189:514/driver -> ../../../../../bus/usb/drivers/usb
+lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/189:640/driver -> ../../../../bus/usb/drivers/usb
+lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/189:643/driver -> ../../../../../bus/usb/drivers/usb
+lrwxrwxrwx 1 root root 0 Apr 17 20:38 /sys/dev/char/189:768/driver -> ../../../../bus/usb/drivers/usb
+lrwxrwxrwx 1 root root 0 Apr 17 20:38 /sys/dev/char/189:896/driver -> ../../../../bus/usb/drivers/usb
+lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/21:0/device/driver -> ../../../../../../../bus/scsi/drivers/sd
+lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/21:1/device/driver -> ../../../../../../../bus/scsi/drivers/sd
+lrwxrwxrwx 1 root root 0 Apr 17 12:27 /sys/dev/char/21:2/device/driver -> ../../../../../../../bus/scsi/drivers/sr
+lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/21:3/device/driver -> ../../../../../../../../../bus/scsi/drivers/sd
+lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/250:0/device/driver -> ../../../../../../../bus/hid/drivers/hid-generic
+lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/250:1/device/driver -> ../../../../../../../bus/hid/drivers/hid-generic
+lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/250:2/device/driver -> ../../../../../../../bus/hid/drivers/hid-generic
+lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/252:0/device/driver -> ../../../../../../../bus/scsi/drivers/sd
+lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/252:1/device/driver -> ../../../../../../../bus/scsi/drivers/sd
+lrwxrwxrwx 1 root root 0 Apr 17 12:27 /sys/dev/char/252:2/device/driver -> ../../../../../../../bus/scsi/drivers/sr
+lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/252:3/device/driver -> ../../../../../../../../../bus/scsi/drivers/sd
+lrwxrwxrwx 1 root root 0 Apr 17 19:53 /sys/dev/char/254:0/device/driver -> ../../../bus/pnp/drivers/rtc_cmos
+lrwxrwxrwx 1 root root 0 Apr 17 19:53 /sys/dev/char/29:0/device/driver -> ../../../bus/platform/drivers/simple-framebuffer
+lrwxrwxrwx 1 root root 0 Apr 17 19:53 /sys/dev/char/4:64/device/driver -> ../../../bus/pnp/drivers/serial
+lrwxrwxrwx 1 root root 0 Apr 17 19:53 /sys/dev/char/4:65/device/driver -> ../../../bus/platform/drivers/serial8250
+lrwxrwxrwx 1 root root 0 Apr 17 19:53 /sys/dev/char/4:66/device/driver -> ../../../bus/platform/drivers/serial8250
+lrwxrwxrwx 1 root root 0 Apr 17 19:53 /sys/dev/char/4:67/device/driver -> ../../../bus/platform/drivers/serial8250
+lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/6:0/device/driver -> ../../../bus/pnp/drivers/parport_pc
+lrwxrwxrwx 1 root root 0 Apr 17 12:26 /sys/dev/char/99:0/device/driver -> ../../../bus/pnp/drivers/parport_pc
 
 Finally, to diverge from the question a bit, I will add another /sys glob trick to get a much broader perspective on which drivers are being used by which devices (though not necessarily those with a device file):
 find /sys/bus/*/drivers/* -maxdepth 1 -lname '*devices*' -ls
@@ -7642,12 +7642,12 @@ To experiment with this I wrote the script below to walk up the directory tree a
 dev=$(readlink -m $1)
 
 # test for block/character device
-if [ -b &quot;$dev&quot; ]; then
+if [ -b "$dev" ]; then
   mode=block
-elif [ -c &quot;$dev&quot; ]; then
+elif [ -c "$dev" ]; then
   mode=char
 else
-  echo &quot;$dev is not a device file&quot; &gt;&amp;2
+  echo "$dev is not a device file" >&2
   exit 1
 fi
 
@@ -7656,15 +7656,15 @@ data=( $(stat -c '%t %T' $dev) ) || exit 2
 major=$(( 0x${data[0]} ))
 minor=$(( 0x${data[1]} ))
 
-echo -e &quot;Given device:     $1&quot;
-echo -e &quot;Canonical device: $dev&quot;
-echo -e &quot;Major: $major&quot;
-echo -e &quot;Minor: $minor\n&quot;
+echo -e "Given device:     $1"
+echo -e "Canonical device: $dev"
+echo -e "Major: $major"
+echo -e "Minor: $minor\n"
 
 # sometimes nodes have been created for devices that are not present
 dir=$(readlink -f /sys/dev/$mode/$major\:$minor)
-if ! [ -e &quot;$dir&quot; ]; then
-  echo &quot;No /sys entry for $dev&quot; &gt;&amp;2
+if ! [ -e "$dir" ]; then
+  echo "No /sys entry for $dev" >&2
   exit 3
 fi
 
@@ -7673,15 +7673,15 @@ fi
 while [[ $dir == /*/*/* ]]; do
 
   # it seems the directory is only of interest if there is a 'uevent' file
-  if [ -e &quot;$dir/uevent&quot; ]; then
-    echo &quot;$dir:&quot;
-    echo &quot;  Uevent:&quot;
-    sed 's/^/    /' &quot;$dir/uevent&quot;
+  if [ -e "$dir/uevent" ]; then
+    echo "$dir:"
+    echo "  Uevent:"
+    sed 's/^/    /' "$dir/uevent"
 
     # check for subsystem link
-    if [ -d &quot;$dir/subsystem&quot; ]; then
-        subsystem=$(readlink -f &quot;$dir/subsystem&quot;)
-        echo -e &quot;\n  Subsystem:\n    ${subsystem##*/}&quot;
+    if [ -d "$dir/subsystem" ]; then
+        subsystem=$(readlink -f "$dir/subsystem")
+        echo -e "\n  Subsystem:\n    ${subsystem##*/}"
     fi
 
     echo
@@ -7693,7 +7693,7 @@ done
 
 ---
 
-#### 226. What is the difference between the following kernel Makefile terms: vmLinux, vmlinuz, vmlinux.bin, zimage &amp; bzimage?
+#### 226. What is the difference between the following kernel Makefile terms: vmLinux, vmlinuz, vmlinux.bin, zimage & bzimage?
 
 **问题描述 / Problem Description**:
 Tags: linux, kernel, file-format | Score: 75 | Views: 64077 | Answers: 5
@@ -7783,7 +7783,7 @@ Tags: linux, bash, shell-script, kill | Score: 75 | Views: 85342 | Answers: 4
 **解决方案 / Solution**:
 The kill command is a very simple wrapper to the kill system call, which knows only about process IDs (PIDs). pkill and killall are also wrappers to the kill system call, (actually, to the libc library which directly invokes the system call), but can determine the PIDs for you, based on things like, process name, owner of the process, session id, etc. 
 
-How pkill and killall work can be seen using ltrace or strace on them. On Linux, they both read through the /proc filesystem, and for each pid (directory) found, traverses the path in a way to identify a process by its name or other attributes. How this is done is technically speaking, kernel and system specific. In general, they read from /proc/&lt;PID&gt;/stat which contains the command name as the 2nd field. For pkill -f and pgrep examine the /cmdline entry for each PID's proc entry.
+How pkill and killall work can be seen using ltrace or strace on them. On Linux, they both read through the /proc filesystem, and for each pid (directory) found, traverses the path in a way to identify a process by its name or other attributes. How this is done is technically speaking, kernel and system specific. In general, they read from /proc/<PID>/stat which contains the command name as the 2nd field. For pkill -f and pgrep examine the /cmdline entry for each PID's proc entry.
 
 pkill and pgrep use the readproc system call, whereas killall does not. I couldn't say if there's a performance difference: you'll have to benchmark that on your own.
 
@@ -7916,10 +7916,10 @@ excerpt
 Alternatively you can add the command to your /etc/rc.local file.
 
 if test -f /sys/kernel/mm/transparent_hugepage/enabled; then
-   echo never &gt; /sys/kernel/mm/transparent_hugepage/enabled
+   echo never > /sys/kernel/mm/transparent_hugepage/enabled
 fi
 if test -f /sys/kernel/mm/transparent_hugepage/defrag; then
-   echo never &gt; /sys/kernel/mm/transparent_hugepage/defrag
+   echo never > /sys/kernel/mm/transparent_hugepage/defrag
 fi
 
 
@@ -7944,7 +7944,7 @@ There are two types of device files: block devices (indicated by b as the first 
 
 The meaning of a device file is determined by its number, not by its name (the name matters to applications, but not to the kernel). The number is actually two numbers: the major number indicates which driver is responsible for this device, and the minor number allows a driver to drive several devices¹. These numbers appear in the ls -l listing, where you would normally find the file size. E.g. brw-rw---- 1 root disk 8, 0 Jul 12 15:54 /dev/sda → this device is major 8, minor 0.
 
-Some device files under /dev don't correspond to hardware devices. One that exists on every unix system is /dev/null; writing to it has no effect, and reading from it never returns any data. It's often convenient in shell scripts, when you want to ignore the output from a command (&gt;/dev/null) or run a command with no input (&lt;/dev/null). Other common examples are /dev/zero (which returns null bytes ad infinitum) /dev/urandom (which returns random bytes ad infinitum).
+Some device files under /dev don't correspond to hardware devices. One that exists on every unix system is /dev/null; writing to it has no effect, and reading from it never returns any data. It's often convenient in shell scripts, when you want to ignore the output from a command (>/dev/null) or run a command with no input (</dev/null). Other common examples are /dev/zero (which returns null bytes ad infinitum) /dev/urandom (which returns random bytes ad infinitum).
 
 A few device files have a meaning that depends on the process that accesses it. For example, /dev/stdin designates the standard input of the current process; opening from has approximately the same effect as opening the original file that was opened as the process's standard input. Somewhat similarly, /dev/tty designates the terminal to which the process is connected. Under Linux, nowadays, /dev/stdin and friends are not implemented as character devices, but instead as symbolic links to a more general mechanism that allows every file descriptor to be referenced (as opposed to only 0, 1 and 2 under the traditional method); for example /dev/stdin is a symbolic link to /proc/self/fd/0. See How does /dev/fd relate to /proc/self/fd/?.
 
@@ -7979,7 +7979,7 @@ More info at:
 Default exit code when process is terminated?
 
 
-That Q&amp;A should hopefully answer most of your other questions and clarify what is meant by exit status. I'll add a few more things:
+That Q&A should hopefully answer most of your other questions and clarify what is meant by exit status. I'll add a few more things:
 
 A process cannot terminate unless it's killed or calls the _exit()/exit_group() system calls. When you return from main() in C, the libc calls that system call with the return value.
 
@@ -8042,7 +8042,7 @@ exec perl -e 'exit(-12345)'
 
 
 That is execute another command in the same process that can call the system call with the value you want.
-as mentioned at that other Q&amp;A, ksh93 has the weirdest behaviour for exit values from 257 to 256+max_signal_number where instead of calling exit_group(), it kills itself with the corresponding signal¹.
+as mentioned at that other Q&A, ksh93 has the weirdest behaviour for exit values from 257 to 256+max_signal_number where instead of calling exit_group(), it kills itself with the corresponding signal¹.
 
 $ ksh -c 'exit "$((256 + $(kill -l STOP)))"'
 zsh: suspended (signal)  ksh -c 'exit "$((256 + $(kill -l STOP)))"'
@@ -8053,7 +8053,7 @@ and otherwise truncates the number like bash/mksh.
 
 
 
-¹ That's likely to change in the next version though. Now that the development of ksh93 has been taken over as a community effort outside of AT&amp;T, that behaviour, even though encouraged somehow by POSIX, is being reverted
+¹ That's likely to change in the next version though. Now that the development of ksh93 has been taken over as a community effort outside of AT&T, that behaviour, even though encouraged somehow by POSIX, is being reverted
 
 ---
 
@@ -8131,7 +8131,7 @@ Did you tried to examin what programs like iotop is showing? It will tell you ex
 example output:
 
 Total DISK READ: 0.00 B/s | Total DISK WRITE: 0.00 B/s
-  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN     IO&gt;    COMMAND
+  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN     IO>    COMMAND
     1 be/4 root        0.00 B/s    0.00 B/s  0.00 %  0.00 % init
     2 be/4 root        0.00 B/s    0.00 B/s  0.00 %  0.00 % [kthreadd]
     3 be/4 root        0.00 B/s    0.00 B/s  0.00 %  0.00 % [ksoftirqd/0]
@@ -8167,8 +8167,8 @@ Tags: linux, usb, usb-drive | Score: 73 | Views: 122263 | Answers: 10
 **解决方案 / Solution**:
 It is sometimes possible to do a power cycle on branch of the USB bus where the device is plugged :
 
-# echo suspend &gt; /sys/bus/usb/devices/1-1/power/level
-# echo auto &gt; /sys/bus/usb/devices/1-1/power/level
+# echo suspend > /sys/bus/usb/devices/1-1/power/level
+# echo auto > /sys/bus/usb/devices/1-1/power/level
 
 
 The 1-1 should be adjusted to your configuration. You can see to which part of the USB tree your device is plugged by running lsusb -t before ejecting it.
@@ -8177,7 +8177,7 @@ You can find detailed information on the linux-usb mailing-list, this thread for
 
 ---
 
-#### 241. Will a Linux executable compiled on one &quot;flavor&quot; of Linux run on a different one?
+#### 241. Will a Linux executable compiled on one "flavor" of Linux run on a different one?
 
 **问题描述 / Problem Description**:
 Tags: linux, compiling, architecture, compatibility | Score: 72 | Views: 29471 | Answers: 6
@@ -8186,8 +8186,8 @@ Tags: linux, compiling, architecture, compatibility | Score: 72 | Views: 29471 |
 In short:  If you're taking a compiled binary from one host to another using the same (or a compatible) architecture, you may be perfectly fine taking it to another distribution.  However as complexity of the code increases, the likelihood of being linked against a library that is not installed; installed in another location; or installed at a different version, increases.  Taking for instance your code, for which ldd reports the following dependencies when compiled with gcc -o exit-test exit-test.c on a (Debian-derived) Ubuntu Linux host:
 
 $ ldd exit-test
-    linux-gate.so.1 =&gt;  (0xb7748000)
-    libc.so.6 =&gt; /lib/i386-linux-gnu/libc.so.6 (0xb757b000)
+    linux-gate.so.1 =>  (0xb7748000)
+    libc.so.6 => /lib/i386-linux-gnu/libc.so.6 (0xb757b000)
     /lib/ld-linux.so.2 (0x8005a000)
 
 
@@ -8214,7 +8214,7 @@ $ ls -l ./exit-test{,-static}
 
 Another viable solution would be to install the requisite libraries on the new host.  
 
-As with many things in the U&amp;L universe, this is a cat with many skins, two of which are outlined above.
+As with many things in the U&L universe, this is a cat with many skins, two of which are outlined above.
 
 ---
 
@@ -8302,14 +8302,14 @@ There are three ways of giving a command to at:
 
 Pipe it:
 
-$ echo "ls &gt; a.txt" | at now + 1 min
+$ echo "ls > a.txt" | at now + 1 min
 warning: commands will be executed using /bin/sh
 job 3 at Thu Apr  4 20:16:00 2013
 
 Save the command you want to run in a text file, and then pass that file to at:
 
-$ echo "ls &gt; a.txt" &gt; cmd.txt
-$ at now + 1 min &lt; cmd.txt
+$ echo "ls > a.txt" > cmd.txt
+$ at now + 1 min < cmd.txt
 warning: commands will be executed using /bin/sh
 job 3 at Thu Apr  4 20:16:00 2013
 
@@ -8317,7 +8317,7 @@ You can also pass at commands from STDIN:
 
 $ at now + 1 min
 warning: commands will be executed using /bin/sh
-at&gt; ls
+at> ls
 
 
 Then, press CtrlD to exit the at shell. The ls command will be run in one minute. 
@@ -8325,7 +8325,7 @@ Then, press CtrlD to exit the at shell. The ls command will be run in one minute
 
 You can give very precise times in the format of [[CC]YY]MMDDhhmm[.ss], as in 
 
-$ at -t 201403142134.12 &lt; script.sh
+$ at -t 201403142134.12 < script.sh
 
 
 This will run the script script.sh at 21:34 and 12 seconds on the 14th of March 2014.
@@ -8382,7 +8382,7 @@ Saying that -H "preserves its nature" is not a contradiction.  Consider the alte
 Consider
 
 $ mkdir subdir
-$ echo "some contents" &gt; subdir/file
+$ echo "some contents" > subdir/file
 $ ln -s file subdir/link
 
 # definition of "list", the abbreviated ls -l output used below
@@ -8391,12 +8391,12 @@ $ list() { ls -l "$@" | \
 
 $ list subdir
 -rw-rw-r-- 14   file  
-lrwxrwxrwx 4    link -&gt; file
+lrwxrwxrwx 4    link -> file
 
 $ cp -rH subdir subdir-with-H
 $ list subdir-with-H
 -rw-rw-r-- 14   file  
-lrwxrwxrwx 4    link -&gt; file
+lrwxrwxrwx 4    link -> file
 
 $ cp -rL subdir subdir-with-L
 $ list subdir-with-L
@@ -8405,7 +8405,7 @@ $ list subdir-with-L
 
 ---
 
-#### 246. &quot;WannaCry&quot; on Linux systems: How do you protect yourself?
+#### 246. "WannaCry" on Linux systems: How do you protect yourself?
 
 **问题描述 / Problem Description**:
 Tags: linux, security, linux-kernel, samba | Score: 72 | Views: 23779 | Answers: 2
@@ -8470,7 +8470,7 @@ To verify in if the vulnerability is corrected in Centos/RHEL/Fedora and derivat
 
 There is now an nmap detection script :samba-vuln-cve-2017-7494.nse  for detecting Samba versions, or a much better nmap script that checks if the service is vulnerable at http://seclists.org/nmap-dev/2017/q2/att-110/samba-vuln-cve-2017-7494.nse , copy it to /usr/share/nmap/scripts and then update the nmap database , or run it as follows:
 
-nmap --script /path/to/samba-vuln-cve-2017-7494.nse -p 445 &lt;target&gt;
+nmap --script /path/to/samba-vuln-cve-2017-7494.nse -p 445 <target>
 
 
 About long term measures to protect the SAMBA service:  The SMB protocol should never be offered directly to the Internet at large.
@@ -8716,7 +8716,7 @@ See V2EX thread for community solutions.
 **问题描述 / Problem Description**:
 网卡是 rtl8127, 用 iperf3 测速，在 host 上测速可以达到 9.42 Gbits/sec ，在 lxc 里测速只有 3.25 Gbits/sec ，造成这么大差异的原因是在 lxc 里发送的数据包被拆成了 1.5KB 的小包（也就是 mtu 的大小），而在 host 上发送的数据包是几十 KB 的大包，我想知道如何让 lxc 里发送的数据包也是几十 KB 的大包，有 v 友对这个问题感兴趣愿意一起研究一下吗？
 在 host 上运行 iperf3 发包时 sar 的输出如下：
-d@develop:~/test$ sar -n DEV 1 | awk '/IFACE/ &amp
+d@develop:~/test$ sar -n DEV 1 | awk '/IFACE/ &
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.
@@ -9289,7 +9289,7 @@ home@...:~$ machinectl shell
 Connected to the local host. Press ^] three times within 1s to exit session.
 root@...:~# rm -rf /usr/prefixexample
 root@...:~# mkdir /usr/prefixexample
-root@...:~# echo foo &gt; /usr/prefixexample/a
+root@...:~# echo foo > /usr/prefixexample/a
 root@...:~# chmod a+rwX -R /usr/prefixexample
 root@...:~# systemd-run -t -p DynamicUser=true -p ReadWritePaths=/usr/prefixexample bash
 Running as unit: run-p239224-i239225.service; invocation ID: d90bd6100a0a424dabbd72baea481f13
@@ -9310,14 +9310,14 @@ run-p239224-i239225@...:/usr/prefixexample$ # Reading in the prefix works
 run-p239224-i239225@...:/usr/prefixexample$ cat a
 foo
 run-p239224-i239225@...:/usr/prefixexample$ # Writing in the prefix works
-run-p239224-i239225@...:/usr/prefixexample$ echo bar &gt; b
+run-p239224-i239225@...:/usr/prefixexample$ echo bar > b
 run-p239224-i239225@...:/usr/prefixexample$ cat b
 bar
 run-p239224-i239225@...:/usr/prefixexample$ # Ensure emphemeral UID's files don't remain
 run-p239224-i239225@...:/usr/prefixexample$ rm -rf /usr/prefixexample/*
 
 This basically is a container. Imagine Docker -v /:/:ro i.e. the root directory not the usual subdirectory. DynamicUser implies ProtectSystem which implies PrivateUsers. PrivateUsers creates a user namespace, which is the basis of all containerization technologies. ProtectSystem et al create a mount namespace, which are safer and more capable than chroot, which still works but is replaceable with pivot_root inside.
-If you don't have root to execute systemd-run, you'll have to skip the &quot;ephemeral user&quot; part, expand its implied options, and use the systemd user instance instead. Skipping it should be safe since you can only write to one path.
+If you don't have root to execute systemd-run, you'll have to skip the "ephemeral user" part, expand its implied options, and use the systemd user instance instead. Skipping it should be safe since you can only write to one path.
 systemd-run --user -t \
     -p ProtectSystem=strict \
     -p ProtectHome=read-only \
@@ -9330,7 +9330,7 @@ systemd-run --user -t \
 what if I want the prefix directory to be under a more deeply nested path. e.g. /home/me/projects/myproject/testprefix. In the above example if they try to cd to that directory they aren't allowed. I'm guessing there's some way to add it to the paths?
 
 To allow that, replace ReadWritePaths=/usr/prefixexample with BindPaths=/usr/prefixexample:/mnt. Then the simplest way is to update your code to use /mnt.
-There's no way to access any subdirectory of the real /home/me if your home directory is properly world-unreadable. If your absolute paths are unavoidably hardcoded, then in the dynamic user, run unshare -cm --keep-caps bash . Then inside that unshared namespace, run mount -t tmpfs tmpfs /home/me &amp;&amp; mkdir -p /home/me/projects/myproject/testprefix &amp;&amp; mount --bind /mnt /home/me/projects/myproject/testprefix .
+There's no way to access any subdirectory of the real /home/me if your home directory is properly world-unreadable. If your absolute paths are unavoidably hardcoded, then in the dynamic user, run unshare -cm --keep-caps bash . Then inside that unshared namespace, run mount -t tmpfs tmpfs /home/me && mkdir -p /home/me/projects/myproject/testprefix && mount --bind /mnt /home/me/projects/myproject/testprefix .
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/804923/creating-temporary-ephemeral-user-account-on-linux
@@ -9378,19 +9378,19 @@ To actually parse the keys:
 shopt -s nullglob
 echo '-----deb822 keys-----'
 for x in /etc/apt/sources.list.d/*.sources; do
-  echo &quot;$x&quot;
-  signedby=&quot;$(sed -n '/^Signed-[Bb]y:/{:again;p;n;/^[^ ]/b;b again}' &quot;$x&quot;)&quot;
+  echo "$x"
+  signedby="$(sed -n '/^Signed-[Bb]y:/{:again;p;n;/^[^ ]/b;b again}' "$x")"
   if [[ $signedby =~ ^Signed-[Bb]y:\ (/.*)$ ]]; then
-    echo References &quot;${BASH_REMATCH[1]}&quot;
-    gpg --show-keys &quot;${BASH_REMATCH[1]}&quot;
-  elif [ -z &quot;$signedby&quot; ]; then
+    echo References "${BASH_REMATCH[1]}"
+    gpg --show-keys "${BASH_REMATCH[1]}"
+  elif [ -z "$signedby" ]; then
     echo 'Warning: No Signed-By found'
   else
     echo Inline
     {
       echo '-----BEGIN PGP PUBLIC KEY BLOCK-----'
       echo
-      echo &quot;$signedby&quot; | grep -v 'PGP PUBLIC\|\.' | sed 's/^ //'
+      echo "$signedby" | grep -v 'PGP PUBLIC\|\.' | sed 's/^ //'
       echo '-----END PGP PUBLIC KEY BLOCK-----'
     } | gpg --show-keys
   fi
@@ -9408,14 +9408,14 @@ uid                      Launchpad PPA for apt-fast
 Inline
 pub   rsa4096 2017-02-22 [SCEA]
       9DC858229FC7DD38854AE2D88D81803C0EBFCD88
-uid                      Docker Release (CE deb) &lt;docker@docker.com&gt;
+uid                      Docker Release (CE deb) <docker@docker.com>
 sub   rsa4096 2017-02-22 [S]
 
 /etc/apt/sources.list.d/google-chrome.sources
 Inline
 pub   rsa4096 2016-04-12 [SC]
       EB4C1BFD4F042F6DDDCCEC917721F63BD38B4796
-uid                      Google Inc. (Linux Packages Signing Authority) &lt;linux-packages-keymaster@google.com&gt;
+uid                      Google Inc. (Linux Packages Signing Authority) <linux-packages-keymaster@google.com>
 sub   rsa4096 2016-04-12 [S] [expired: 2019-04-12]
 sub   rsa4096 2017-01-24 [S] [expired: 2020-01-24]
 sub   rsa4096 2019-07-22 [S] [expired: 2022-07-21]
@@ -9448,7 +9448,7 @@ uid                      Launchpad PPA for Kubuntu Package Archives
 Inline
 pub   rsa2048 2021-05-04 [SC]
       35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3
-uid                      Artifact Registry Repository Signer &lt;artifact-registry-repository-signer@google.com&gt;
+uid                      Artifact Registry Repository Signer <artifact-registry-repository-signer@google.com>
 
 /etc/apt/sources.list.d/neovim.sources
 Inline
@@ -9460,41 +9460,41 @@ uid                      Launchpad PPA for Neovim PPA Team
 Inline
 pub   rsa4096 2016-08-01 [SC] [expires: 2027-02-02]
       CA8BB4727A47B4D09B4EE8969386B48A1A693C5C
-uid                      AMD MLSE DevOps &lt;dl.MLSE.DevOps@amd.com&gt;
+uid                      AMD MLSE DevOps <dl.MLSE.DevOps@amd.com>
 sub   rsa4096 2016-08-01 [E] [expires: 2027-02-02]
 
 /etc/apt/sources.list.d/signal.sources
 Inline
 pub   rsa4096 2017-04-05 [SC]
       DBA36B5181D0C816F630E889D980A17457F6FB06
-uid                      Open Whisper Systems &lt;support@whispersystems.org&gt;
+uid                      Open Whisper Systems <support@whispersystems.org>
 sub   rsa4096 2017-04-05 [E]
 
 /etc/apt/sources.list.d/tradingview-desktop.sources
 Inline
 pub   rsa2048 2024-04-05 [SC] [expires: 2027-04-05]
       BB7B63DFD37F1D386191797AC5DE37BA63861F9F
-uid                      TradingView &lt;desktop@tradingview.com&gt;
+uid                      TradingView <desktop@tradingview.com>
 
 /etc/apt/sources.list.d/ubuntu.sources
 References /usr/share/keyrings/ubuntu-archive-keyring.gpg
 pub   rsa4096 2012-05-11 [SC]
       790BC7277767219C42C86F933B4FE6ACC0B21F32
-uid                      Ubuntu Archive Automatic Signing Key (2012) &lt;ftpmaster@ubuntu.com&gt;
+uid                      Ubuntu Archive Automatic Signing Key (2012) <ftpmaster@ubuntu.com>
 
 pub   rsa4096 2012-05-11 [SC]
       843938DF228D22F7B3742BC0D94AA3F0EFE21092
-uid                      Ubuntu CD Image Automatic Signing Key (2012) &lt;cdimage@ubuntu.com&gt;
+uid                      Ubuntu CD Image Automatic Signing Key (2012) <cdimage@ubuntu.com>
 
 pub   rsa4096 2018-09-17 [SC]
       F6ECB3762474EDA9D21B7022871920D1991BC93C
-uid                      Ubuntu Archive Automatic Signing Key (2018) &lt;ftpmaster@ubuntu.com&gt;
+uid                      Ubuntu Archive Automatic Signing Key (2018) <ftpmaster@ubuntu.com>
 
 /etc/apt/sources.list.d/vscode.sources
 References /usr/share/keyrings/microsoft.gpg
 pub   rsa2048 2015-10-28 [SC]
       BC528686B50D79E339D3721CEB3E94ADBE1229CF
-uid                      Microsoft (Release signing) &lt;gpgsecurity@microsoft.com&gt;
+uid                      Microsoft (Release signing) <gpgsecurity@microsoft.com>
 
 Displaying old keys
 To display keys that should be migrated:
@@ -9502,11 +9502,11 @@ To display keys that should be migrated:
 shopt -s nullglob
 echo '-----/etc/apt/trusted.gpg.d-----'
 paths=(/etc/apt/trusted.gpg.d/*.gpg)
-for x in &quot;${paths[@]}&quot;; do
-  echo &quot;$x&quot;
-  gpg --show-keys &quot;$x&quot;
+for x in "${paths[@]}"; do
+  echo "$x"
+  gpg --show-keys "$x"
 done
-if [ &quot;${#paths}&quot; -eq 0 ]; then
+if [ "${#paths}" -eq 0 ]; then
   echo None
 else
   echo 'On newer systems, this folder is deleteable if e.g. /etc/apt/sources.list.d/ubuntu.sources references /usr/share/keyrings'
@@ -9524,19 +9524,19 @@ fi
 shopt -s nullglob
 echo '-----/etc/apt/sources.list.d/*.list-----'
 paths=(/etc/apt/sources.list.d/*.list)
-for x in &quot;${paths[@]}&quot;; do
-  echo &quot;$x&quot;
+for x in "${paths[@]}"; do
+  echo "$x"
   found=''
-  refs=&quot;$(grep -io 'signed-by=/[^] ]\+' &quot;$x&quot; | cut -f2- -d=)&quot;
+  refs="$(grep -io 'signed-by=/[^] ]\+' "$x" | cut -f2- -d=)"
   for ref in $refs; do
-    echo References &quot;$ref&quot;
-    gpg --show-keys &quot;$ref&quot; 
+    echo References "$ref"
+    gpg --show-keys "$ref" 
   done
-  if [ -z &quot;$refs&quot; ]; then
+  if [ -z "$refs" ]; then
     echo 'Warning: no signed-by found'
   fi
 done
-if [ &quot;${#paths}&quot; -eq 0 ]; then
+if [ "${#paths}" -eq 0 ]; then
   echo None
 else
   echo 'On newer systems, run ` sudo apt modernize-sources `'
@@ -9548,7 +9548,7 @@ echo 'Anything here is not trusted until referenced'
 
 Output:
 $ docker run --rm -it ubuntu:24.04
-# apt update &amp;&amp; apt install gpg
+# apt update && apt install gpg
 [...]
 # ./myscript2.sh
 -----/etc/apt/trusted.gpg.d-----
@@ -9557,12 +9557,12 @@ gpg: directory '/root/.gnupg' created
 gpg: keybox '/root/.gnupg/pubring.kbx' created
 pub   rsa4096 2012-05-11 [SC]
       843938DF228D22F7B3742BC0D94AA3F0EFE21092
-uid                      Ubuntu CD Image Automatic Signing Key (2012) &lt;cdimage@ubuntu.com&gt;
+uid                      Ubuntu CD Image Automatic Signing Key (2012) <cdimage@ubuntu.com>
 
 /etc/apt/trusted.gpg.d/ubuntu-keyring-2018-archive.gpg
 pub   rsa4096 2018-09-17 [SC]
       F6ECB3762474EDA9D21B7022871920D1991BC93C
-uid                      Ubuntu Archive Automatic Signing Key (2018) &lt;ftpmaster@ubuntu.com&gt;
+uid                      Ubuntu Archive Automatic Signing Key (2018) <ftpmaster@ubuntu.com>
 
 On newer systems, this folder is deleteable if e.g. /etc/apt/sources.list.d/ubuntu.sources references /usr/share/keyrings
 -----/etc/apt/sources.list-----
@@ -9601,13 +9601,13 @@ Tags: linux, bash, devices, eject | Score: 8 | Views: 863 | Answers: 3 | Created
 **解决方案 / Solution**:
 Then I eject the device and sda ceases to exist in /dev/
 
-No! Otherwise my answer wouldn't work: you need to be able to open that device node as read-write to be able to issue the &quot;close CDROM drive&quot; ioctl, which causes Linux to re-scan the USB mass storage device. If it ceased to exist, there'd be nothing to open!
-This happens, for example, if the device gets the &quot;power off&quot; command via USB. In that case, all you could do is reset the whole USB bus (I'm sure there's answers on here that explain how to), and hope that suffices for the device to power back on (USB devices are supposed to, but, USB device firmware was Dante Alighieri's main inspiration when he wrote his Inferno, so I wouldn't rely on it with every possible device).
+No! Otherwise my answer wouldn't work: you need to be able to open that device node as read-write to be able to issue the "close CDROM drive" ioctl, which causes Linux to re-scan the USB mass storage device. If it ceased to exist, there'd be nothing to open!
+This happens, for example, if the device gets the "power off" command via USB. In that case, all you could do is reset the whole USB bus (I'm sure there's answers on here that explain how to), and hope that suffices for the device to power back on (USB devices are supposed to, but, USB device firmware was Dante Alighieri's main inspiration when he wrote his Inferno, so I wouldn't rely on it with every possible device).
 
 Is it possible to validate a device path of an unmounted device? How?
 
 Check its existence. That's basically the same as trying to open it, so you might as well use eject for the validation. In a shell script, you can [ -e /dev/sda ] to check for existence.
-In my answer I didn't go into detail on how to figure out the device name, recognizing that the asker there had just had his drive &quot;ejected&quot;, and thus things should be pretty unambigous at the end of the log.
+In my answer I didn't go into detail on how to figure out the device name, recognizing that the asker there had just had his drive "ejected", and thus things should be pretty unambigous at the end of the log.
 If you need to figure out which /dev/sd? is your USB thumb drive, you might have to look at the numbered symlinked directories in /sys/bus/usb/drivers/usb-storage/ and compare these to the symlinks in /sys/block/sd?.
 
 **参考链接 / References**:
@@ -9649,13 +9649,13 @@ Tags: debian, ssh, tar | Score: 7 | Views: 472 | Answers: 1 | Created: 2026-03-3
 Fixed by explicit closing of stdin channel in paramiko after sending the archive bytes.
 channels = client.exec_command(...)
 stdin = channels[0]
-with open(archive_path, &quot;rb&quot;) as pca:
+with open(archive_path, "rb") as pca:
     while True:
         block = pca.read(BLOCKSIZE)
         if not block:
             break
         stdin.write(block)
-stdin.close() ## &lt;-- added this
+stdin.close() ## <-- added this
 
 It seems tar is postponing finalization of some details to end of the whole input processing, and the channel object was hanging in Python memory.
 
@@ -9664,7 +9664,7 @@ It seems tar is postponing finalization of some details to end of the whole inpu
 
 ---
 
-#### 303. What knowledge to take from this major upgrade (Debian 12 to 13) where I&#39;ve faced some troubles?
+#### 303. What knowledge to take from this major upgrade (Debian 12 to 13) where I've faced some troubles?
 
 **问题描述 / Problem Description**:
 Tags: debian, deb, dist-upgrade | Score: 7 | Views: 823 | Answers: 2 | Created: 2026-03-14
@@ -9697,7 +9697,7 @@ The only reliable solution to that is to align your working set size with your a
 
 ---
 
-#### 305. If a shell runs &quot;exec&quot; to start my graphical session, why do I still see that shell in the process list?
+#### 305. If a shell runs "exec" to start my graphical session, why do I still see that shell in the process list?
 
 **问题描述 / Problem Description**:
 Tags: linux, shell, exec, login-manager | Score: 6 | Views: 574 | Answers: 2 | Created: 2026-04-23
@@ -9710,12 +9710,12 @@ In any case, since cmd1 and cmd2 are running concurrently, they have to run in s
 Here, cmd1 is exec start-hyprland, so that runs start-hyprland without forking, but that's done by the first child mentioned above. exec is superfluous here because that child would not have forked an extra process just to execute that one command anyway.
 The sh you see in ps output is the main shell that is waiting for the termination of both processes constituting that pipeline².
 For that sh process started by your session manager to run start-hyprland without a fork, you'd need something like:
-exec cmd1 &gt; &gt;(cmd2)
+exec cmd1 > >(cmd2)
 
-Where cmd2 is started asynchronously, not waited for, with its stdin connected to a pipe. &gt;(cmd2) expands to a path to the other end of that pipe, which the shells opens in write-only mode (&gt;) on the stdout of cmd1 and exec skips the fork.
+Where cmd2 is started asynchronously, not waited for, with its stdin connected to a pipe. >(cmd2) expands to a path to the other end of that pipe, which the shells opens in write-only mode (>) on the stdout of cmd1 and exec skips the fork.
 Note that the process running cmd2 in that case will will end up being the child of the one running cmd1, so when it dies, cmd1 will receive a SIGCHLD signal which might very well confuse it.
 Example:
-$ ksh -c 'exec sleep 100 | cat' &amp;
+$ ksh -c 'exec sleep 100 | cat' &
 $ ps -Hopid,ppid,args
     PID    PPID COMMAND
    6074    6072 /bin/zsh
@@ -9725,7 +9725,7 @@ $ ps -Hopid,ppid,args
    9749    6074   ps -Hopid,ppid,args
 
 The process running sleep and the one running cat are sister processes both spawned by the process that executed ksh and that process is still there waiting for them (well here it being ksh93, it only waits for the one running cat² unless you set the pipefail option).
-$ ksh -c 'exec sleep 100 &gt; &gt;(cat)' &amp;
+$ ksh -c 'exec sleep 100 > >(cat)' &
 $ ps -Hopid,ppid,args
     PID    PPID COMMAND
    6074    6072 /bin/zsh
@@ -9734,12 +9734,12 @@ $ ps -Hopid,ppid,args
    9238    6074   ps -Hopid,ppid,args
 
 This time, ksh is gone and was replace by sleep and cat still a child of that process that used to run ksh but now runs sleep.
-&gt;(...) (process substitution) is not standard sh syntax though. It comes from ksh in the mid-80s though at the time it could not be used as target of redirections. zsh and bash have copied it since (and rc and derivatives have the same feature with a different syntax). The above would work today with ksh93, zsh and bash, but yash has a related feature that is even more relevant here: process redirection:
-In that shell, &gt;(cmd) is not substituted with the path of a pipe but is short for 1&gt;(cmd) just like &gt;file is short for 1&gt;file and redirects file descriptor 1 (stdout) to a pipe to a process started asynchronously to run cmd, so in yash, you'd just do exec cmd1 &gt;(cmd2).
+>(...) (process substitution) is not standard sh syntax though. It comes from ksh in the mid-80s though at the time it could not be used as target of redirections. zsh and bash have copied it since (and rc and derivatives have the same feature with a different syntax). The above would work today with ksh93, zsh and bash, but yash has a related feature that is even more relevant here: process redirection:
+In that shell, >(cmd) is not substituted with the path of a pipe but is short for 1>(cmd) just like >file is short for 1>file and redirects file descriptor 1 (stdout) to a pipe to a process started asynchronously to run cmd, so in yash, you'd just do exec cmd1 >(cmd2).
 With standard sh syntax, you'd need to resort to named pipes by hand, something like:
-mkfifo -m600 some-pipe &amp;&amp;
-  { cmd2 &lt;&amp;3 3&lt;&amp;- &amp; } 3&lt; some-pipe &amp;&amp;
-  { rm -f some-pipe &amp;&amp; exec cmd1; } &gt; some-pipe
+mkfifo -m600 some-pipe &&
+  { cmd2 <&3 3<&- & } 3< some-pipe &&
+  { rm -f some-pipe && exec cmd1; } > some-pipe
 
 Though of course you'd want to make sure some-pipe is created unique in some temporary area which with standard sh and utilities is hard to do portably and reliably.
 As noted by @grawity in comment, in the specific case of systemd-cat, you can also do:
@@ -9747,7 +9747,7 @@ systemd-cat -p info start-hyprland
 
 Where systemd-cat cmd executes cmd in its own process with both its stdout and stderr (current versions of the man page say it connects stdin instead of stderr but that's not what I observe and it wouldn't make sense³) directly connected to the journal via a Unix-domain socket instead of forwarding it from a pipe (or socketpair for shells that use them for their | operator like ksh93 on systems where pipes are not seekable, not process substitution which can't use socketpairs) to the command.
 To avoid touching stderr, you could do:
-systemcat sh -c 'exec cmd 2&gt;&amp;3 3&gt;&amp;-' 3&gt;&amp;2
+systemcat sh -c 'exec cmd 2>&3 3>&-' 3>&2
 
 
 ¹ Though some shells skip the fork for cmd2 except of course, down the line, to execute cmd2 if that's an external command and not a builtin or function.
@@ -9759,7 +9759,7 @@ systemcat sh -c 'exec cmd 2&gt;&amp;3 3&gt;&amp;-' 3&gt;&amp;2
 
 ---
 
-#### 306. How can I tell in software if a very quiet fan isn&#39;t spinning?
+#### 306. How can I tell in software if a very quiet fan isn't spinning?
 
 **问题描述 / Problem Description**:
 Tags: debian, hardware, temperature, fan | Score: 6 | Views: 1673 | Answers: 2 | Created: 2026-03-22
@@ -9805,9 +9805,9 @@ Accessible surfaces shall not reach temperatures that could cause burns to the u
 
 
 CPU Health and Testing
-Component Tests: Inside the diagnostics menu, navigate to Component Tests to find specific tests for the processor, including a &quot;Processor Check&quot; to verify functionality.
-System Information: The BIOS &quot;Main&quot; tab displays processor type and speed.
-Temperature Management: Users have reported high operating temperatures (100°C - 105°C) on the EliteBook 845 G7 during heavy loads, which can be managed by adjusting the Windows Power Plan's &quot;Processor performance boost mode&quot; to disabled if overheating is detected.
+Component Tests: Inside the diagnostics menu, navigate to Component Tests to find specific tests for the processor, including a "Processor Check" to verify functionality.
+System Information: The BIOS "Main" tab displays processor type and speed.
+Temperature Management: Users have reported high operating temperatures (100°C - 105°C) on the EliteBook 845 G7 during heavy loads, which can be managed by adjusting the Windows Power Plan's "Processor performance boost mode" to disabled if overheating is detected.
 
 
 HP Elitebook 845 g7 overheating? 
@@ -9833,11 +9833,11 @@ HP Elitebook 845 G7 parts installation and disassembly
 Tags: ubuntu, audio, pulseaudio, bluetooth, pipewire | Score: 6 | Views: 360 | Answers: 1 | Created: 2026-02-20
 
 **解决方案 / Solution**:
-I can tell you where these names come from: the Bluetooth standards' profile names. Maybe knowing that &quot;handsfree&quot; comes from the time that phones with bluetooth were new, and refers to making phone calls while driving a car helps make remembering easier? That's not calling for a lot of audio quality, but for things like &quot;hangup&quot; and &quot;louder&quot; buttons and low latency. (Background often helps me remember stuff.) Headset Profile, on the other hand, is call-center headset centric (monoaural headsets for people with hands on keyboards and a strained smile on their face).
-(By the way, neither is &quot;hifi&quot;, so I'm a bit confused: You would want to listen to music using the &quot;advanced audio distribution&quot; profile (A2DP).)
+I can tell you where these names come from: the Bluetooth standards' profile names. Maybe knowing that "handsfree" comes from the time that phones with bluetooth were new, and refers to making phone calls while driving a car helps make remembering easier? That's not calling for a lot of audio quality, but for things like "hangup" and "louder" buttons and low latency. (Background often helps me remember stuff.) Headset Profile, on the other hand, is call-center headset centric (monoaural headsets for people with hands on keyboards and a strained smile on their face).
+(By the way, neither is "hifi", so I'm a bit confused: You would want to listen to music using the "advanced audio distribution" profile (A2DP).)
 Both Pulseaudio and Pipewire use GNU Gettext to allow for strings to be translated to other languages than the software was written in. So, to change these strings for, say, German, you'd just need to change the .po file, listing the translations of the English texts, to contain a better translation; then, rebuild the machine-readable translation file (.mo) and replace the old one with it. (you'll find these in /usr/share/local/{LANGUAGE}/LC_MESSAGES/pipewire.mo, and the originals on Freedesktop's git repository)
-However, in your case, just guessing from the location you state in your profile, you're probably at odds with the untranslated &quot;original&quot;, you'll probably have to change to original source code, recompile, reinstall.
-I suspect the specific occurrence is of https://gitlab.freedesktop.org/pipewire/pipewire/-/blob/master/spa/plugins/bluez5/bluez5-device.c (and if you change e.g. _(&quot;Handsfree&quot;) there, you will have to change all the .po files for other languages, as well, because that's the &quot;key&quot; to lookup the translations!)
+However, in your case, just guessing from the location you state in your profile, you're probably at odds with the untranslated "original", you'll probably have to change to original source code, recompile, reinstall.
+I suspect the specific occurrence is of https://gitlab.freedesktop.org/pipewire/pipewire/-/blob/master/spa/plugins/bluez5/bluez5-device.c (and if you change e.g. _("Handsfree") there, you will have to change all the .po files for other languages, as well, because that's the "key" to lookup the translations!)
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/804603/how-can-i-change-the-bluetooth-sound-profiles-for-my-headset-so-they-are-easy-to
@@ -9850,11 +9850,11 @@ I suspect the specific occurrence is of https://gitlab.freedesktop.org/pipewire/
 Tags: linux, keyboard-layout, compose-key | Score: 6 | Views: 791 | Answers: 2 | Created: 2026-02-11
 
 **解决方案 / Solution**:
-There is none. Compose processing happens in the layer above keycodes. You use loadkeys to map any keycode (or a combination of keycode and modifiers) to a Compose &quot;character&quot;.
+There is none. Compose processing happens in the layer above keycodes. You use loadkeys to map any keycode (or a combination of keycode and modifiers) to a Compose "character".
 So, you would need to find out the correct keycode for the physical key and use loadkeys to assign Compose to it. Like:
 echo 'alt keycode 52 = Compose' | loadkeys -
 
-There is keycode with the name KEY_COMPOSE; it is 127. But it is just a name; you still need to explicitly assign to it the meaning of &quot;compose character&quot; using loadkeys.
+There is keycode with the name KEY_COMPOSE; it is 127. But it is just a name; you still need to explicitly assign to it the meaning of "compose character" using loadkeys.
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/804397/what-is-the-keycode-of-the-compose-key-in-linux-kernel
@@ -9880,7 +9880,7 @@ $UDPServerRun 514
 and in my other machines:
 if $fromhost-ip == '127.0.0.1' and $syslogfacility-text == 'kern' then @logserver
 
-(where &quot;logserver&quot; is the hostname of my log server)
+(where "logserver" is the hostname of my log server)
 Actually, I have it set up so that each machine sends kernel logs to at least one other machine on my LAN, and receives log messages from at least one machine.  i.e. they all log to each other, which is why the if $fromhost-ip == '127.0.0.1' test is required, so they don't forward received messages in a never-ending loop.
 
 **参考链接 / References**:
@@ -9897,8 +9897,8 @@ Tags: debian, partition, system-installation, debian-installer, partition-table 
 Agreeing with John: put your personal data on the SSD; that's where the speed at which you can access random bytes and store data really makes a difference.
 And: a fully set-up debian system comes nowhere close to filling 256 GB, so you'll be fine, completely without the HDD, which you can add to your storage if needed, later.
 Contrary to what John says, there's not really any flexibility won by having /home on its own partition. You can always just copy or move the files contained in a directory, just as easily as you clone the full partition, with the difference that in the file case, you'll not be copying empty space on a partition. So. There's that.
-Frankly, I'd approach this differently. You are (probably) using the graphical debian installer. Go back to the step where you decide how to partition your hard drive (misnomer in the installer, most systems don't even have a hard drive anymore): Select, &quot;guided – whole disk with LVM&quot; instead of &quot;manual&quot;, do that on your SSD, and from there on, just defaults. (You can also use the &quot;encrypted + LVM&quot; option, which is what I'd recommend, especially if this is for a laptop that might get lost.)
-That's it, and it's pretty future-proof: With an LVM setup, you can always just plug in more storage, extend the LVM volume group (in other storage management systems, that'd be called a &quot;pool&quot;), increase the size of the volumes on that, do things like move volumes off aging disks to new disks … while in use. So, if you later find yourself short on space, you can just add the HDD to your LVM volume group, say, hey, I want to simply enlargen my single volume-for-everything, do that, or, you can say, hey, I have a lot of movies on my /home/leonardo/Videos directory, let me just make a new volume on the HDD, move all the movies there and mount it automatically at /home/leonardo/Videos. Same with anything else – you don't need to decide this now forever, it's possible, with little effort, to change later. (You can also do much fancier stuff, if you need the space, like using your HDD as &quot;large&quot; storage and using the SSD as &quot;hot&quot; cache, if you do use LVM here. It's not something I'd recommend in your case, though: your HDD is not very large compared to the SSD, and you get data loss if any of these two fail, and your HDD might already be 10 years old, just guessing from the name? That'd make it both very slow and rather likely to fail, compared to the SSD.)
+Frankly, I'd approach this differently. You are (probably) using the graphical debian installer. Go back to the step where you decide how to partition your hard drive (misnomer in the installer, most systems don't even have a hard drive anymore): Select, "guided – whole disk with LVM" instead of "manual", do that on your SSD, and from there on, just defaults. (You can also use the "encrypted + LVM" option, which is what I'd recommend, especially if this is for a laptop that might get lost.)
+That's it, and it's pretty future-proof: With an LVM setup, you can always just plug in more storage, extend the LVM volume group (in other storage management systems, that'd be called a "pool"), increase the size of the volumes on that, do things like move volumes off aging disks to new disks … while in use. So, if you later find yourself short on space, you can just add the HDD to your LVM volume group, say, hey, I want to simply enlargen my single volume-for-everything, do that, or, you can say, hey, I have a lot of movies on my /home/leonardo/Videos directory, let me just make a new volume on the HDD, move all the movies there and mount it automatically at /home/leonardo/Videos. Same with anything else – you don't need to decide this now forever, it's possible, with little effort, to change later. (You can also do much fancier stuff, if you need the space, like using your HDD as "large" storage and using the SSD as "hot" cache, if you do use LVM here. It's not something I'd recommend in your case, though: your HDD is not very large compared to the SSD, and you get data loss if any of these two fail, and your HDD might already be 10 years old, just guessing from the name? That'd make it both very slow and rather likely to fail, compared to the SSD.)
 In that light, the less you use physical partitions now the more flexible you are. Your approach is one that I'd have done in the year 2000 – and I would have misestimated how much space my system and my /home need, to the effect that one would be running full while the other still had space on it.
 Don't do that to yourself. Putting everything on the SSD will be fine until you amass massive amounts of data, and with LVM, you can then, very flexibly, just shift data to additional storage. At that point in time, storage prices are quite likely to have normalized a bit, too. So, start with the SSD, and then when things get full, do decisions on the data you then actually have vs the one you project you might have at some point.
 
@@ -9925,7 +9925,7 @@ ave the USB use VFAT instead of iso9660
 
 sound like you don't really want to have something like a Live CD image that just happens to also be bootable from a thumb drive and might or might not also have a volume for persistent storage.
 You just want to install a Linux distro on a USB drive, make sure everything inside is portable (e.g. UUIDs in fstab, not device names), and set it up in a way that the USB drive both has a valid MBR as well as a UEFI system partition. (doing both can be tricky, but I think installers still try to do both on most distros)
-Note that USB booting on pre-64 bit system was (in my memory) always fickle. The &quot;ISO 9660-on-USB-with-isolinux&quot; trickery was mostly owed to the fact that systems were very varied in what they'd do when faced with a thumb drive, while distros still wanted to maintain only one installation image for both optical media and USB thumb drives; Matthew Garrett has written more about booting in the EFI-switchover era. My memory from that time is more varied, motherboard firmwares would decide to boot or not boot, sometimes based on whatever the motherboard vendor thought Seemed Like A Good Idea At The TimeTM.
+Note that USB booting on pre-64 bit system was (in my memory) always fickle. The "ISO 9660-on-USB-with-isolinux" trickery was mostly owed to the fact that systems were very varied in what they'd do when faced with a thumb drive, while distros still wanted to maintain only one installation image for both optical media and USB thumb drives; Matthew Garrett has written more about booting in the EFI-switchover era. My memory from that time is more varied, motherboard firmwares would decide to boot or not boot, sometimes based on whatever the motherboard vendor thought Seemed Like A Good Idea At The TimeTM.
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/804878/build-a-minimal-i686-ubuntu-live-image-no-gui-with-hardware-detection-similar
@@ -9957,7 +9957,7 @@ Tags: linux, hashsum, parallelism | Score: 5 | Views: 609 | Answers: 3 | Created
 Most hashing algorithms these days are not bound by how much CPU you can throw at them - but by how much memory bandwidth you have. Your md5 implementation might be an outlier in its slowness. Something's wrong there; it's really slow.
 Hashes like the xxHash family will saturate your 3Gb/s link easily. Once you've saturated that, no way to get faster, especially not with parallelism.
 So, just go and install xxhash's xxhsum. In its xxhsum -H3 implementation it reaches 15914.4 MB/s – that's nearly 64 Gb/s – single-threadedly on my phone (on which im typing this) (as installed via Termux's pkg). (You can benchmark with xxhsum -b.)
-Note that &quot;splitting a file and hashing its parts with md5&quot; is not at all the same as &quot;calculating the md5 hash of the full file&quot;, so you'll need to do something custom anyways. This is a clear case for just not doing md5, then.
+Note that "splitting a file and hashing its parts with md5" is not at all the same as "calculating the md5 hash of the full file", so you'll need to do something custom anyways. This is a clear case for just not doing md5, then.
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/804535/create-and-verify-a-large-single-file-in-parallel-mode
@@ -10075,21 +10075,21 @@ Of course, security aspects and hardening must be considered if you want to use 
 Tags: linux, unix-sockets | Score: 4 | Views: 104 | Answers: 1 | Created: 2026-02-20
 
 **解决方案 / Solution**:
-Educated guess is file descriptor passing (SCM_RIGHTS message). It creates the copy of file descriptor (which now remains open), but until the destination consumed the SCM_RIGHTS message it will not appear in the destination's file table. Consider the example of /tmp/scm simply creating a sink socket where /tmp/server can send its created &quot;production&quot; socket:
+Educated guess is file descriptor passing (SCM_RIGHTS message). It creates the copy of file descriptor (which now remains open), but until the destination consumed the SCM_RIGHTS message it will not appear in the destination's file table. Consider the example of /tmp/scm simply creating a sink socket where /tmp/server can send its created "production" socket:
 
 Launch /tmp/scm that creates @SCM socket that is used as a sink for passing file descriptor:
 
 
-bor@ThinkPad-E16-Gen3:~$ /tmp/scm &amp;
+bor@ThinkPad-E16-Gen3:~$ /tmp/scm &
 [3] 24854
 bor@ThinkPad-E16-Gen3:~$ sudo netstat -pax | grep SCM
 unix  2      [ ]         DGRAM                    293467   24854/scm            @SCM
 bor@ThinkPad-E16-Gen3:~$ LANG=C ls -l /proc/24854/fd
 total 0
-lrwx------ 1 bor bor 64 Feb 21 17:53 0 -&gt; /dev/pts/1
-lrwx------ 1 bor bor 64 Feb 21 17:53 1 -&gt; /dev/pts/1
-lrwx------ 1 bor bor 64 Feb 21 17:53 2 -&gt; /dev/pts/1
-lrwx------ 1 bor bor 64 Feb 21 17:53 3 -&gt; 'socket:[293467]'
+lrwx------ 1 bor bor 64 Feb 21 17:53 0 -> /dev/pts/1
+lrwx------ 1 bor bor 64 Feb 21 17:53 1 -> /dev/pts/1
+lrwx------ 1 bor bor 64 Feb 21 17:53 2 -> /dev/pts/1
+lrwx------ 1 bor bor 64 Feb 21 17:53 3 -> 'socket:[293467]'
 bor@ThinkPad-E16-Gen3:~$ 
 
 
@@ -10101,17 +10101,17 @@ bor@ThinkPad-E16-Gen3:~$ sudo netstat -pax | grep SOCKET
 unix  2      [ ]         DGRAM                    304790   24870/server         @SOCKET
 bor@ThinkPad-E16-Gen3:~$ LANG=C ls -l /proc/24870/fd
 total 0
-lrwx------ 1 bor bor 64 Feb 21 17:55 0 -&gt; /dev/pts/0
-lrwx------ 1 bor bor 64 Feb 21 17:55 1 -&gt; /dev/pts/0
-lrwx------ 1 bor bor 64 Feb 21 17:55 2 -&gt; /dev/pts/0
-lrwx------ 1 bor bor 64 Feb 21 17:55 3 -&gt; 'socket:[304790]'
-lrwx------ 1 bor bor 64 Feb 21 17:55 4 -&gt; 'socket:[304791]'
+lrwx------ 1 bor bor 64 Feb 21 17:55 0 -> /dev/pts/0
+lrwx------ 1 bor bor 64 Feb 21 17:55 1 -> /dev/pts/0
+lrwx------ 1 bor bor 64 Feb 21 17:55 2 -> /dev/pts/0
+lrwx------ 1 bor bor 64 Feb 21 17:55 3 -> 'socket:[304790]'
+lrwx------ 1 bor bor 64 Feb 21 17:55 4 -> 'socket:[304791]'
 bor@ThinkPad-E16-Gen3:~$ LANG=C ls -l /proc/24854/fd
 итого 0
-lrwx------ 1 bor bor 64 Feb 21 17:53 0 -&gt; /dev/pts/1
-lrwx------ 1 bor bor 64 Feb 21 17:53 1 -&gt; /dev/pts/1
-lrwx------ 1 bor bor 64 Feb 21 17:53 2 -&gt; /dev/pts/1
-lrwx------ 1 bor bor 64 фев 21 17:53 3 -&gt; 'socket:[293467]'
+lrwx------ 1 bor bor 64 Feb 21 17:53 0 -> /dev/pts/1
+lrwx------ 1 bor bor 64 Feb 21 17:53 1 -> /dev/pts/1
+lrwx------ 1 bor bor 64 Feb 21 17:53 2 -> /dev/pts/1
+lrwx------ 1 bor bor 64 фев 21 17:53 3 -> 'socket:[293467]'
 bor@ThinkPad-E16-Gen3:~$ 
 
 Notice that although the /tmp/server has sent the file descriptor, it is not visible in the /tmp/scm file table.
@@ -10132,15 +10132,15 @@ bor@ThinkPad-E16-Gen3:~$
 
 For the sake of completeness, the code.
 The /tmp/scm.c:
-       #define SOCKET_NAME &quot;\0SCM&quot;
+       #define SOCKET_NAME "\0SCM"
        #define BUFFER_SIZE 12
 
-       #include &lt;stdio.h&gt;
-       #include &lt;stdlib.h&gt;
-       #include &lt;string.h&gt;
-       #include &lt;sys/socket.h&gt;
-       #include &lt;sys/un.h&gt;
-       #include &lt;unistd.h&gt;
+       #include <stdio.h>
+       #include <stdlib.h>
+       #include <string.h>
+       #include <sys/socket.h>
+       #include <sys/un.h>
+       #include <unistd.h>
 
        int
        main(void)
@@ -10158,7 +10158,7 @@ The /tmp/scm.c:
 
            connection_socket = socket(AF_UNIX, SOCK_DGRAM, 0);
            if (connection_socket == -1) {
-               perror(&quot;socket&quot;);
+               perror("socket");
                exit(EXIT_FAILURE);
            }
 
@@ -10168,17 +10168,17 @@ The /tmp/scm.c:
             * the structure.
             */
 
-           memset(&amp;name, 0, sizeof(name));
+           memset(&name, 0, sizeof(name));
 
            /* Bind socket to socket name. */
 
            name.sun_family = AF_UNIX;
            memcpy(name.sun_path, SOCKET_NAME, sizeof(SOCKET_NAME));
 
-           ret = bind(connection_socket, (const struct sockaddr *) &amp;name,
+           ret = bind(connection_socket, (const struct sockaddr *) &name,
                       sizeof(name) - (sizeof(name.sun_path) - sizeof(SOCKET_NAME) + 1));
            if (ret == -1) {
-               perror(&quot;bind&quot;);
+               perror("bind");
                exit(EXIT_FAILURE);
            }
 
@@ -10188,16 +10188,16 @@ The /tmp/scm.c:
        }
 
 The /tmp/server.c:
-       #define SOCKET_NAME &quot;\0SOCKET&quot;
-       #define SCM_SOCKET_NAME &quot;\0SCM&quot;
+       #define SOCKET_NAME "\0SOCKET"
+       #define SCM_SOCKET_NAME "\0SCM"
 
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
-#include &lt;string.h&gt;
-#include &lt;sys/socket.h&gt;
-#include &lt;sys/types.h&gt;
-#include &lt;sys/un.h&gt;
-#include &lt;unistd.h&gt;
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <unistd.h>
 
 ssize_t
 sock_fd_write(int sock, void *buf, ssize_t buflen, int fd)
@@ -10216,30 +10216,30 @@ sock_fd_write(int sock, void *buf, ssize_t buflen, int fd)
 
     msg.msg_name = NULL;
     msg.msg_namelen = 0;
-    msg.msg_iov = &amp;iov;
+    msg.msg_iov = &iov;
     msg.msg_iovlen = 1;
 
     if (fd != -1) {
         msg.msg_control = cmsgu.control;
         msg.msg_controllen = sizeof(cmsgu.control);
 
-        cmsg = CMSG_FIRSTHDR(&amp;msg);
-        cmsg-&gt;cmsg_len = CMSG_LEN(sizeof (int));
-        cmsg-&gt;cmsg_level = SOL_SOCKET;
-        cmsg-&gt;cmsg_type = SCM_RIGHTS;
+        cmsg = CMSG_FIRSTHDR(&msg);
+        cmsg->cmsg_len = CMSG_LEN(sizeof (int));
+        cmsg->cmsg_level = SOL_SOCKET;
+        cmsg->cmsg_type = SCM_RIGHTS;
 
-        printf (&quot;passing fd %d\n&quot;, fd);
+        printf ("passing fd %d\n", fd);
         *((int *) CMSG_DATA(cmsg)) = fd;
     } else {
         msg.msg_control = NULL;
         msg.msg_controllen = 0;
-        printf (&quot;not passing fd\n&quot;);
+        printf ("not passing fd\n");
     }
 
-    size = sendmsg(sock, &amp;msg, 0);
+    size = sendmsg(sock, &msg, 0);
 
-    if (size &lt; 0)
-        perror (&quot;sendmsg&quot;);
+    if (size < 0)
+        perror ("sendmsg");
     return size;
 }
 
@@ -10255,7 +10255,7 @@ sock_fd_write(int sock, void *buf, ssize_t buflen, int fd)
 
            connection_socket = socket(AF_UNIX, SOCK_DGRAM, 0);
            if (connection_socket == -1) {
-               perror(&quot;socket&quot;);
+               perror("socket");
                exit(EXIT_FAILURE);
            }
 
@@ -10265,17 +10265,17 @@ sock_fd_write(int sock, void *buf, ssize_t buflen, int fd)
             * the structure.
             */
 
-           memset(&amp;name, 0, sizeof(name));
+           memset(&name, 0, sizeof(name));
 
            /* Bind socket to socket name.  */
 
            name.sun_family = AF_UNIX;
            memcpy(name.sun_path, SOCKET_NAME, sizeof(SOCKET_NAME));
 
-           ret = bind(connection_socket, (const struct sockaddr *) &amp;name,
+           ret = bind(connection_socket, (const struct sockaddr *) &name,
                       sizeof(name) - (sizeof(name.sun_path) - sizeof(SOCKET_NAME) + 1));
            if (ret == -1) {
-               perror(&quot;bind&quot;);
+               perror("bind");
                exit(EXIT_FAILURE);
            }
 
@@ -10283,7 +10283,7 @@ sock_fd_write(int sock, void *buf, ssize_t buflen, int fd)
 
            scm_socket = socket(AF_UNIX, SOCK_DGRAM, 0);
            if (scm_socket == -1) {
-               perror(&quot;socket scm&quot;);
+               perror("socket scm");
                exit(EXIT_FAILURE);
            }
 
@@ -10293,17 +10293,17 @@ sock_fd_write(int sock, void *buf, ssize_t buflen, int fd)
             * the structure.
             */
 
-           memset(&amp;name, 0, sizeof(name));
+           memset(&name, 0, sizeof(name));
 
            /* Bind socket to socket name.  */
 
            name.sun_family = AF_UNIX;
            memcpy(name.sun_path, SCM_SOCKET_NAME, sizeof(SCM_SOCKET_NAME));
 
-           ret = connect(scm_socket, (const struct sockaddr *) &amp;name,
+           ret = connect(scm_socket, (const struct sockaddr *) &name,
                       sizeof(name) - (sizeof(name.sun_path) - sizeof(SCM_SOCKET_NAME) + 1));
            if (ret == -1) {
-               perror(&quot;connect scm&quot;);
+               perror("connect scm");
                exit(EXIT_FAILURE);
            }
 
@@ -10348,12 +10348,12 @@ sda6
 
 AFAICT, it's only documented in the output of lsblk -H aka --list-columns:
 $ lsblk -H | grep -i parent
-      PKNAME &lt;string&gt;        internal parent kernel device name
+      PKNAME <string>        internal parent kernel device name
 
 With zsh:
 $ zmodload zsh/stat
-$ stat -A d +rdev foo &amp;&amp;
-    print -r -- /sys/dev/block/$(( d &gt;&gt; 8 )):$(( d &amp; 0xff ))(:P:h:t)
+$ stat -A d +rdev foo &&
+    print -r -- /sys/dev/block/$(( d >> 8 )):$(( d & 0xff ))(:P:h:t)
 sda
 
 Where we do it by hand by extracting the major:minor from the rdev field of the stat structure, locate the device in /sys via the /sys/dev/block/major:minor symlink (assuming it's a block device in the first place), then use modifiers in glob qualifiers, to get its real Path, then the head (dirname, so parent) of that path (assuming it is a partition in the first place), then the tail (basename).
@@ -10419,7 +10419,7 @@ Consider reporting it to the grub developers.
 
 ---
 
-#### 321. Ubuntu system returns &quot;killed&quot; on nearly all commands
+#### 321. Ubuntu system returns "killed" on nearly all commands
 
 **问题描述 / Problem Description**:
 Tags: ubuntu, nginx, node.js, out-of-memory, deployment | Score: 3 | Views: 170 | Answers: 2 | Created: 2026-02-16
@@ -10432,7 +10432,7 @@ This is clearly a fake name: a real softirq process would have a name like [ksof
 Maybe you're using a weak password (use SSH key authentication for internet-accessible servers) or the software you're running has a vulnerability that allows the attacker to plant malware to the system.
 In the comments, eyoung100 already identified PeerBlight (CVE-2025-55182) as the possible vulnerability, if the application is using React Server Function endpoints or React Server Components. If you are using the vulnerable versions (anything older than versions 19.0.1, 19.1.2 or 19.2.1), you'll need to update those componets before redeploying your application.
 Anyway, the link in Robo's answer seems to indicate this malware is part of the RondoDox botnet.
-Because the malware attempts to protect itself, you may have to stop the VPS, create a new &quot;clean&quot; one, and then connect the disk of the infected VPS as a secondary disk to the clean VPS to recover your data and to possibly inspect the malware. Unless you know how to check, assume any executables on the disk of the infected VPS are contaminated by malware - so don't reuse them. Before redeploying, check if the application (or any components you used in it, if the application is custom-built by yourself) for security notices and update as necessary.
+Because the malware attempts to protect itself, you may have to stop the VPS, create a new "clean" one, and then connect the disk of the infected VPS as a secondary disk to the clean VPS to recover your data and to possibly inspect the malware. Unless you know how to check, assume any executables on the disk of the infected VPS are contaminated by malware - so don't reuse them. Before redeploying, check if the application (or any components you used in it, if the application is custom-built by yourself) for security notices and update as necessary.
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/804521/ubuntu-system-returns-killed-on-nearly-all-commands
@@ -10472,9 +10472,9 @@ Tags: linux, startup | Score: 2 | Views: 81 | Answers: 1 | Created: 2026-04-26
 Thanks for all the comments. I am confident that the email originated from an at command, but I am unable to find any details of which command or what, in more detail, went wrong.
 There does not seem to be much error processing capability in at. The solution I devised is to create a file, called, say, at.script containing:
 
-echo &quot;First comment”
+echo "First comment”
 Command
-echo &quot;Ending comment”
+echo "Ending comment”
 
 and use it like:
 at -f at.script HH:mm
@@ -10511,7 +10511,7 @@ $ file /usr/lib/debug/boot/vmlinux-6.17.0-19-generic
 
 ---
 
-#### 325. Cinnamon - I can&#39;t get my laptop to power off when lid is closed
+#### 325. Cinnamon - I can't get my laptop to power off when lid is closed
 
 **问题描述 / Problem Description**:
 Tags: debian, systemd, cinnamon | Score: 2 | Views: 46 | Answers: 1 | Created: 2026-04-17
@@ -10599,16 +10599,16 @@ Tags: linux, configuration, block-device, data-cd | Score: 2 | Views: 125 | Answ
 
 **解决方案 / Solution**:
 The interval at which Linux kernel polls removable block devices is set by the events_dfl_poll_msecs setting. You can set it by e.g.
-echo 60000 &gt; /sys/module/block/parameters/events_dfl_poll_msecs
+echo 60000 > /sys/module/block/parameters/events_dfl_poll_msecs
 
 to increase the interval to 60 seconds. Setting it to 0 will disable polling entirely and newly inserted discs will only be detected when you try to access the drive.
 There is also per-device setting events_poll_msecs. When set to -1, the device uses the global setting above.
-echo -1 &gt; /sys/block/sr0/events_poll_msecs
+echo -1 > /sys/block/sr0/events_poll_msecs
 
 The kernel default is actually 0 (polling disabled), but on most distributions udev rule in /usr/lib/udev/rules.d/60-block.rules overrides this:
 # enable in-kernel media-presence polling
-ACTION==&quot;add&quot;, SUBSYSTEM==&quot;module&quot;, KERNEL==&quot;block&quot;, ATTR{parameters/events_dfl_poll_msecs}==&quot;0&quot;, \
-   ATTR{parameters/events_dfl_poll_msecs}=&quot;2000&quot;
+ACTION=="add", SUBSYSTEM=="module", KERNEL=="block", ATTR{parameters/events_dfl_poll_msecs}=="0", \
+   ATTR{parameters/events_dfl_poll_msecs}="2000"
 
 If you wanted to permanently modify the setting (rather than just for testing), creating an override file in /etc/udev/rules.d would be the cleanest way.
 
@@ -10680,7 +10680,7 @@ Changing the mount  namespace  requires  that  the  caller  possess  both  CAP_S
 So the setns probably performs a chroot internally.
 
 
-Are you saying that chdir(&quot;..&quot;) doesn't get resolved to the root directory?
+Are you saying that chdir("..") doesn't get resolved to the root directory?
 
 .. means ./.. which grabs the cwd and resolves to /... Linux prevents escaping the root directory, so /.. still resolves to the old /. Since .. is usually not the current directory, Linux takes the time to check whether there's a mountpoint i.e. DCACHE_MOUNTED. Now the mountpoint code replaces the old / with the new /.
 You can replace ls /.. with ls /usr/...
@@ -10766,7 +10766,7 @@ x264 encoding succeeds but x265 is dropped due to Main10 not being available whi
 
 ---
 
-#### 331. Debian software RAID1 Over my head: I&#39;m looking for pointers concerning UEFI booting alternate EFI locations if the either one fails
+#### 331. Debian software RAID1 Over my head: I'm looking for pointers concerning UEFI booting alternate EFI locations if the either one fails
 
 **问题描述 / Problem Description**:
 Tags: debian, uefi, firmware, software-raid | Score: 2 | Views: 190 | Answers: 1 | Created: 2026-03-09
@@ -10790,38 +10790,38 @@ bor@ThinkPad-E16-Gen3:~/tmp$
 Tags: ubuntu, cups, printing | Score: 2 | Views: 55 | Answers: 1 | Created: 2026-02-20
 
 **解决方案 / Solution**:
-As default, CUPS would listen only to local host. If you want CUPS to listen to your static IP, you must configure it in /etc/cups/cupsd.conf. Make sure that the lines marked with &lt;---- are in there (remove the arrows of course..)
+As default, CUPS would listen only to local host. If you want CUPS to listen to your static IP, you must configure it in /etc/cups/cupsd.conf. Make sure that the lines marked with <---- are in there (remove the arrows of course..)
 # Listen on external interfaces for connections
-Listen &lt;dnsnameofyourserver&gt;:631    &lt;--------
+Listen <dnsnameofyourserver>:631    <--------
 Listen /var/run/cups/cups.sock
 
 # Show shared printers on the local network.
 Browsing On
 BrowseOrder allow,deny
 BrowseAllow all
-BrowseAddress All         &lt;-------
+BrowseAddress All         <-------
 
 # Restrict access to the server...
-&lt;Location /&gt;
+<Location />
   Order allow,deny
   Allow localhost
-  Allow All               &lt;---------
-&lt;/Location&gt;
+  Allow All               <---------
+</Location>
 
 # Restrict access to the admin pages...
-&lt;Location /admin&gt;
+<Location /admin>
   Order allow,deny
-  Allow All                &lt;---------
-&lt;/Location&gt;
+  Allow All                <---------
+</Location>
 
 
 # Restrict access to configuration files...
-&lt;Location /admin/conf&gt;
+<Location /admin/conf>
   AuthType Default
   Require user @SYSTEM
   Order allow,deny
-  Allow All                       &lt;---------
-&lt;/Location&gt;
+  Allow All                       <---------
+</Location>
 
 and restart cups.
 
@@ -10869,16 +10869,16 @@ Using both tools keeps CLI and desktop state consistent
 
 ---
 
-#### 334. How to use a &quot;grep&quot; result as an input of another grep, resulting in multiple lines?
+#### 334. How to use a "grep" result as an input of another grep, resulting in multiple lines?
 
 **问题描述 / Problem Description**:
 Tags: ubuntu, command-line, grep, pipe, windows-subsystem-for-linux | Score: 2 | Views: 924 | Answers: 5 | Created: 2025-10-29
 
 **解决方案 / Solution**:
 If you're already using awk, you don't need to use grep.  awk can do Extended Regular Expression (ERE) matches like grep -E.
-And just as importantly, awk can use boolean operators (!, &amp;&amp;, ||, and even parentheses) with conditions/patterns, which grep can't do (although you can make a regex with alternations using | which is an OR operation).
+And just as importantly, awk can use boolean operators (!, &&, ||, and even parentheses) with conditions/patterns, which grep can't do (although you can make a regex with alternations using | which is an OR operation).
 For example:
-awk -F- '/Rebuild All started/ &amp;&amp; 
+awk -F- '/Rebuild All started/ && 
          /: (fatal|error)/ { print $1 }' build_output.txt | 
   sort -n |
   uniq
@@ -10949,9 +10949,9 @@ although the files themselves have very different sizes.
 In some cases, file can show an embedded timestamp (along with other information):
 $ file /usr/share/color/icc/colord/AdobeRGB1998.icc /usr/share/color/icc/compatibleWithAdobeRGB1998.icc /usr/share/color/icc/ghostscript/default_gray.icc /usr/share/color/icc/ghostscript/sgray.icc
 /usr/share/color/icc/colord/AdobeRGB1998.icc:        ColorSync color profile 4.4, type lcms, RGB/XYZ-mntr device by lcms, 3196 bytes, 3-3-2025 17:37:57, 0xf18a476c271ccdb3 MD5 'r'
-/usr/share/color/icc/compatibleWithAdobeRGB1998.icc: Microsoft color profile 2.2, type argl, RGB/XYZ-mntr device by argl, 580 bytes, 8-7-2006 3:28:47 &quot;Compatible with Adobe RGB (1998)&quot;
-/usr/share/color/icc/ghostscript/default_gray.icc:   ColorSync color profile 2.1, GRAY/XYZ-mntr device, 2460 bytes &quot;Artifex Software sGray ICC Profile&quot;
-/usr/share/color/icc/ghostscript/sgray.icc:          ColorSync color profile 2.1, GRAY/XYZ-mntr device, 416 bytes &quot;Artifex Software sGray ICC Profile&quot;
+/usr/share/color/icc/compatibleWithAdobeRGB1998.icc: Microsoft color profile 2.2, type argl, RGB/XYZ-mntr device by argl, 580 bytes, 8-7-2006 3:28:47 "Compatible with Adobe RGB (1998)"
+/usr/share/color/icc/ghostscript/default_gray.icc:   ColorSync color profile 2.1, GRAY/XYZ-mntr device, 2460 bytes "Artifex Software sGray ICC Profile"
+/usr/share/color/icc/ghostscript/sgray.icc:          ColorSync color profile 2.1, GRAY/XYZ-mntr device, 416 bytes "Artifex Software sGray ICC Profile"
 
 So AdobeRGB1998.icc is newer than compatibleWithAdobeRGB1998.icc; as its name suggests, the latter is a free re-implementation of the Adobe profile, but the Adobe profile has been updated since.
 Some ICC v2 profiles can be viewed using tools in the argyll package. Copy the profiles to a directory where you can write, then run iccgamut to convert them to gamut files, and viewgam to produce an HTML file allowing them to be explored.
@@ -10969,7 +10969,7 @@ In any case you shouldn’t rename files shipped by packages, the renamed files 
 Tags: debian, docker, gitlab | Score: 1 | Views: 74 | Answers: 2 | Created: 2026-03-31
 
 **解决方案 / Solution**:
-Perhaps there's a caching problem as apt-get update works locally and Docker doesn't pull newer images unless necessary. You can use the digest of your apache/airflow:slim-2.11.2-python3.10 to ensure both computers have the same version. It's surprising that your sudo apt-get update works because I get &quot;sudo: a terminal is required to read the password&quot; on the latest version. You can use the Dockerfile command USER to switch to root and back:
+Perhaps there's a caching problem as apt-get update works locally and Docker doesn't pull newer images unless necessary. You can use the digest of your apache/airflow:slim-2.11.2-python3.10 to ensure both computers have the same version. It's surprising that your sudo apt-get update works because I get "sudo: a terminal is required to read the password" on the latest version. You can use the Dockerfile command USER to switch to root and back:
 FROM apache/airflow@sha256:32ef1c1927c47e55fd05f65e7da7b60ff7c431d0cca5c27972c7f436fff9cb56
 USER root
 
@@ -10984,7 +10984,7 @@ RUN curl http://deb.debian.org/debian/dists/bookworm/InRelease
 # Then check that the PGP SIGNATURE section printed in the GitLab Runner
 # is the same as the one you see in a broswser
 
-RUN apt-get update &amp;&amp; \
+RUN apt-get update && \
     apt-get install -y neofetch # example
 USER airflow
 
@@ -10997,7 +10997,7 @@ default:
   before_script:
     - docker info
 variables:
-  DOCKER_TLS_CERTDIR: &quot;/certs&quot;
+  DOCKER_TLS_CERTDIR: "/certs"
 
 build:
   stage: build
@@ -11024,7 +11024,7 @@ As Andrei answered above: start-tor-browser.desktop is using a relative path so 
 The app launcher needs to be changed like so:
 
 Program: sh
-Arguments: -c 'cd /home/dir/tor-browser &amp;&amp; /usr/bin/firejail --profile=/etc/firejail/start-tor-browser.profile /home/dir/tor-browser/start-tor-browser.desktop'
+Arguments: -c 'cd /home/dir/tor-browser && /usr/bin/firejail --profile=/etc/firejail/start-tor-browser.profile /home/dir/tor-browser/start-tor-browser.desktop'
 
 This solved my problem. If you know of a better one or find this has a problem, write an answer or a comment instead of downvoting.
 
@@ -11055,7 +11055,7 @@ Tags: debian, audio, modprobe | Score: 1 | Views: 80 | Answers: 1 | Created: 202
 **解决方案 / Solution**:
 No, I don't think there's such a log.
 Have you checked if there is a fire alarm with a low battery somewhere nearby?
-And an external hard drive can indeed make a beep-like sound if it moves its read/write heads around violently enough... like if it encounters a low-level read error and its firmware tells it to recalibrate its head positioning subsystem. There are even projects to make music using floppy &amp; hard drives (and other electromechanical devices): see The Floppotron 3.0 for a very extravagant example.
+And an external hard drive can indeed make a beep-like sound if it moves its read/write heads around violently enough... like if it encounters a low-level read error and its firmware tells it to recalibrate its head positioning subsystem. There are even projects to make music using floppy & hard drives (and other electromechanical devices): see The Floppotron 3.0 for a very extravagant example.
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/804970/how-do-i-find-out-when-my-system-last-beeped
@@ -11125,10 +11125,10 @@ To change the screen scaling in Openbox to something more readable on the GPD's 
 Start a terminal emulator in Openbox and run xranadr -q | head, which will give you the display name on the start of the second line of output. On my GPD Pocket 2, the name is eDP-1.
 
 Edit the ~/.config/openbox/autostart file to include the following line at the start:
-xrandr --output &lt;display-name&gt; --scale 0.6
+xrandr --output <display-name> --scale 0.6
 
 
-Replace &lt;display-name&gt; with the name of your display.
+Replace <display-name> with the name of your display.
 I found a scaling of 0.6 to be right for me, but you can adjust this to your liking. The lower the value, the larger everything will appear.
 
 Close and restart Openbox.

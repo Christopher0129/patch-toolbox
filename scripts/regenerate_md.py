@@ -3,7 +3,7 @@
 重新生成所有 MD 文件（从 SQLite 数据库）。
 纯资源风格，无自动化痕迹，双语标签。
 """
-import os, re, sqlite3, json
+import os, re, sqlite3, json, html
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -20,6 +20,39 @@ def _is_empty(val):
         return len(val) == 0
     return False
 
+
+
+
+def clean_text(val):
+    if val is None:
+        return ""
+    if not isinstance(val, str):
+        return val
+    return html.unescape(val).strip()
+
+
+def normalize_title(val: str, limit: int = 100) -> str:
+    val = clean_text(val)
+    if len(val) <= limit:
+        return val
+    clipped = val[:limit].rsplit(' ', 1)[0].strip()
+    if not clipped:
+        clipped = val[:limit].strip()
+    return clipped + '…'
+
+
+
+def display_title(title: str, desc: str = "", limit: int = 100) -> str:
+    title = clean_text(title)
+    desc = clean_text(desc)
+    if desc.startswith('[Red Hat] '):
+        redhat_desc = desc[len('[Red Hat] '):].split('. Bugzilla:', 1)[0].strip()
+        if title.startswith('CVE-') and ' - ' in title:
+            cve, rest = title.split(' - ', 1)
+            looks_truncated = title.endswith(' ') or title.endswith('…') or rest.endswith(' ') or len(rest) < len(redhat_desc)
+            if looks_truncated:
+                return f"{cve} - {redhat_desc}"
+    return title
 
 def generate_ns_md(conn, out_path: Path):
     c = conn.cursor()
@@ -41,16 +74,16 @@ def generate_ns_md(conn, out_path: Path):
     
     for i, (title, desc, sol, sev, cvss, url, refs_json) in enumerate(rows, 1):
         sev_display = f"{sev or 'N/A'} | CVSS: {cvss}" if cvss else (sev or 'N/A')
-        lines.append(f"#### {i}. {title}")
+        lines.append(f"#### {i}. {display_title(title, desc)}")
         lines.append("")
         lines.append(f"**严重程度 / Severity**: {sev_display}")
         lines.append("")
         lines.append("**漏洞描述 / Description**:")
-        lines.append(desc or "N/A")
+        lines.append(clean_text(desc) or "N/A")
         lines.append("")
         if not _is_empty(sol):
             lines.append("**缓解方案 / Mitigation**:")
-            lines.append(sol)
+            lines.append(clean_text(sol))
             lines.append("")
         ref_list = json.loads(refs_json) if refs_json else []
         has_refs = ref_list and not _is_empty(ref_list)
@@ -58,9 +91,9 @@ def generate_ns_md(conn, out_path: Path):
             lines.append("**参考链接 / References**:")
             if has_refs:
                 for r in ref_list[:5]:
-                    lines.append(f"- {r}")
+                    lines.append(f"- {clean_text(r)}")
             elif not _is_empty(url):
-                lines.append(f"- {url}")
+                lines.append(f"- {clean_text(url)}")
             lines.append("")
         lines.append("---")
         lines.append("")
@@ -118,7 +151,7 @@ def generate_sv_md(conn, out_dir: Path):
         
         for i, (title, desc, sol, sev, cvss, url, refs_json, prods_json) in enumerate(rows, 1):
             sev_display = f"{sev or 'N/A'} | CVSS: {cvss}" if cvss else (sev or 'N/A')
-            plines.append(f"#### {i}. {title}")
+            plines.append(f"#### {i}. {display_title(title, desc)}")
             plines.append("")
             plines.append(f"**严重程度 / Severity**: {sev_display}")
             if prods_json:
@@ -130,11 +163,11 @@ def generate_sv_md(conn, out_dir: Path):
                     pass
             plines.append("")
             plines.append("**漏洞描述 / Description**:")
-            plines.append(desc or "N/A")
+            plines.append(clean_text(desc) or "N/A")
             plines.append("")
             if not _is_empty(sol):
                 plines.append("**补丁信息 / Patch Info**:")
-                plines.append(sol)
+                plines.append(clean_text(sol))
                 plines.append("")
             ref_list = json.loads(refs_json) if refs_json else []
             has_refs = ref_list and not _is_empty(ref_list)
@@ -142,9 +175,9 @@ def generate_sv_md(conn, out_dir: Path):
                 plines.append("**参考链接 / References**:")
                 if has_refs:
                     for r in ref_list[:5]:
-                        plines.append(f"- {r}")
+                        plines.append(f"- {clean_text(r)}")
                 elif not _is_empty(url):
-                    plines.append(f"- {url}")
+                    plines.append(f"- {clean_text(url)}")
                 plines.append("")
             plines.append("---")
             plines.append("")
@@ -201,18 +234,18 @@ def generate_st_md(conn, out_dir: Path):
         ]
         
         for i, (title, desc, sol, url) in enumerate(rows, 1):
-            plines.append(f"#### {i}. {title}")
+            plines.append(f"#### {i}. {display_title(title, desc)}")
             plines.append("")
             plines.append("**问题描述 / Problem Description**:")
-            plines.append(desc or "N/A")
+            plines.append(clean_text(desc) or "N/A")
             plines.append("")
             if not _is_empty(sol):
                 plines.append("**解决方案 / Solution**:")
-                plines.append(sol)
+                plines.append(clean_text(sol))
                 plines.append("")
             if not _is_empty(url):
                 plines.append("**参考链接 / References**:")
-                plines.append(f"- {url}")
+                plines.append(f"- {clean_text(url)}")
                 plines.append("")
             plines.append("---")
             plines.append("")
