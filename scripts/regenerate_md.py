@@ -49,15 +49,14 @@ def trim_dangling_bullets(val: str) -> str:
 
 def sanitize_advisory_block(val: str) -> str:
     val = trim_dangling_bullets(val)
-    bad_endings = (
-        ' from',
-        ' starts',
-        ' starts ',
-    )
+    known_truncated_lines = {
+        'OpenClaw now blocks `MINIMAX_API_HOST` from',
+        '`DELETE /api/books/{bookID}` sets `books.deleted_at` to the current time. The book-level endpoint starts',
+    }
     lines = []
     for line in val.splitlines():
-        stripped = line.rstrip()
-        if stripped.endswith(bad_endings):
+        stripped = line.strip()
+        if stripped in known_truncated_lines:
             continue
         lines.append(line)
     return '\n'.join(lines).strip()

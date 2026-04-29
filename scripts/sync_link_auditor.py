@@ -11,7 +11,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Set, Tuple
 
-from utils import log_sync, write_report, git_push
+from utils import log_sync, git_push
 
 SYNC_NAME = "sync-link-auditor"
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
