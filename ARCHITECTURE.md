@@ -50,30 +50,30 @@ patch-toolbox/
 │   │                                   #   - GitHub 推送封装
 │   │                                   #   - 日志 & 汇报
 │   │
-│   ├── agent_network_security.py     # 🤖 Agent 1: 网络安全漏洞
+│   ├── sync_network_security.py     # 🤖 Agent 1: 网络安全漏洞
 │   │                                   #   数据源: NVD API, Exploit-DB RSS,
 │   │                                   #           GitHub Security Advisories, CISA KEV
 │   │
-│   ├── agent_system_vulnerabilities.py  # 🤖 Agent 2: 系统漏洞
+│   ├── sync_system_vulnerabilities.py  # 🤖 Agent 2: 系统漏洞
 │   │                                      #   数据源: NVD API（按厂商关键词过滤）
 │   │                                      #   分类: Windows / Linux / macOS
 │   │
-│   ├── agent_system_troubleshooting.py  # 🤖 Agent 3: 系统故障
+│   ├── sync_system_troubleshooting.py  # 🤖 Agent 3: 系统故障
 │   │                                      #   数据源: Stack Exchange API
 │   │                                      #   站点: Super User, Ask Ubuntu, Ask Different
 │   │                                      #   分类: Windows / Linux / macOS
 │   │
-│   ├── agent_publisher.py            # 🤖 Agent 4: 汇总推送
+│   ├── sync_publisher.py            # 🤖 Agent 4: 汇总推送
 │   │                                   #   - 读取三个agent报告
 │   │                                   #   - 生成中英双语汇报
 │   │                                   #   - GitHub 推送
 │   │
-│   ├── agent_link_auditor.py         # 🤖 Agent 5: 链接拓扑梳理（每12小时）
+│   ├── sync_link_auditor.py         # 🤖 Agent 5: 链接拓扑梳理（每12小时）
 │   │                                   #   - 检查所有md的交叉链接
 │   │                                   #   - 自动修复缺失导航
 │   │
-│   ├── run_all.py                    # 🔁 主调度器（串行运行3+1 agent）
-│   ├── cron_wrapper.sh               # 🕐 Cron包装器（每小时）
+│   ├── run_all.py                    # 🔁 旧主调度器（legacy，本轮 PR 仅保留兼容说明）
+│   ├── cron_wrapper.sh               # 🕐 旧 Cron 包装器（legacy）
 │   └── cron_link_auditor.sh          # 🕐 Cron包装器（每12小时）
 │
 └── 📄 state.json                     # 去重数据库（本地，不上传GitHub）
@@ -149,8 +149,8 @@ README.md
 
 | 频率 | 执行内容 | Cron |
 |------|---------|------|
-| 每小时整点 | 运行 `run_all.py` (3抓取agent + publisher) | `0 * * * *` |
-| 每12小时 | 运行 `agent_link_auditor.py` (链接梳理) | `0 */12 * * *` |
+| 每小时整点 | 运行 `run_all.py` (legacy 入口，当前迁移中) | `0 * * * *` |
+| 每12小时 | 运行 `sync_link_auditor.py` (链接梳理) | `0 */12 * * *` |
 
 ---
 

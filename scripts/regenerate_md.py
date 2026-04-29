@@ -42,6 +42,19 @@ def normalize_title(val: str, limit: int = 100) -> str:
 
 
 
+
+
+def trim_dangling_bullets(val: str) -> str:
+    val = clean_text(val)
+    lines = val.splitlines()
+    while lines:
+        last = lines[-1].rstrip()
+        if re.match(r'^\s*[-*]\s+[A-Za-z]?$' , last):
+            lines.pop()
+            continue
+        break
+    return '\n'.join(lines).strip()
+
 def display_title(title: str, desc: str = "", limit: int = 100) -> str:
     title = clean_text(title)
     desc = clean_text(desc)
@@ -79,7 +92,7 @@ def generate_ns_md(conn, out_path: Path):
         lines.append(f"**严重程度 / Severity**: {sev_display}")
         lines.append("")
         lines.append("**漏洞描述 / Description**:")
-        lines.append(clean_text(desc) or "N/A")
+        lines.append(trim_dangling_bullets(desc) or "N/A")
         lines.append("")
         if not _is_empty(sol):
             lines.append("**缓解方案 / Mitigation**:")
@@ -163,7 +176,7 @@ def generate_sv_md(conn, out_dir: Path):
                     pass
             plines.append("")
             plines.append("**漏洞描述 / Description**:")
-            plines.append(clean_text(desc) or "N/A")
+            plines.append(trim_dangling_bullets(desc) or "N/A")
             plines.append("")
             if not _is_empty(sol):
                 plines.append("**补丁信息 / Patch Info**:")
@@ -237,7 +250,7 @@ def generate_st_md(conn, out_dir: Path):
             plines.append(f"#### {i}. {display_title(title, desc)}")
             plines.append("")
             plines.append("**问题描述 / Problem Description**:")
-            plines.append(clean_text(desc) or "N/A")
+            plines.append(trim_dangling_bullets(desc) or "N/A")
             plines.append("")
             if not _is_empty(sol):
                 plines.append("**解决方案 / Solution**:")

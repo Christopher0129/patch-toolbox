@@ -4244,7 +4244,6 @@ This update corrects flaws in the following subsystems:
   - HID subsystem;
   - Intel Trace Hub HW tracing drivers;
   - IIO ADC drivers;
-  - I
 
 **补丁信息 / Patch Info**:
 Run 'apt update && apt upgrade' to apply security patches.

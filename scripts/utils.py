@@ -377,7 +377,7 @@ def _git_push_secure(remote: str, branch: str, token: str, env: dict) -> bool:
         env_auth["GIT_TERMINAL_PROMPT"] = "0"
         push_url = url
         if "gitee.com" in url:
-            push_url = url.replace("https://", "https://oauth2@gitee.com/") if url.startswith("https://gitee.com/") else url
+            push_url = url.replace("https://gitee.com/", "https://oauth2@gitee.com/", 1) if url.startswith("https://gitee.com/") else url
         result = subprocess.run(
             ["git", "push", push_url, f"HEAD:{branch}"],
             capture_output=True, text=True, env=env_auth,
