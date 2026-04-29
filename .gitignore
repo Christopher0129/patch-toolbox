@@ -32,6 +32,9 @@ env/
 *.log
 logs/
 
+# Git worktrees
+.worktrees/
+
 # OS
 .DS_Store
 Thumbs.db
