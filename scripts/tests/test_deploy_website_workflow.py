@@ -8,6 +8,6 @@ def test_deploy_workflow_exists_and_runs_build_transform_steps():
     assert 'export_website_data.py' in workflow
     assert 'build_website_stats.py' in workflow
     assert 'build_search_index.py' in workflow
-    assert 'npm ci' in workflow
+    assert 'npm ci --legacy-peer-deps' in workflow
     assert 'npm run build' in workflow
     assert 'actions/deploy-pages' in workflow
