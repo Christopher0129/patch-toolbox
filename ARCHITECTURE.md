@@ -72,9 +72,6 @@ patch-toolbox/
 │   │                                   #   - 检查所有md的交叉链接
 │   │                                   #   - 自动修复缺失导航
 │   │
-│   ├── run_all.py                    # 🔁 旧主调度器（legacy，本轮 PR 仅保留兼容说明）
-│   ├── cron_wrapper.sh               # 🕐 旧 Cron 包装器（legacy）
-│   └── cron_link_auditor.sh          # 🕐 Cron包装器（每12小时）
 │
 └── 📄 state.json                     # 去重数据库（本地，不上传GitHub）
 ```
@@ -149,7 +146,7 @@ README.md
 
 | 频率 | 执行内容 | Cron |
 |------|---------|------|
-| 每小时整点 | 运行 `run_all.py` (legacy 入口，当前迁移中，串行调度 sync 脚本) | `0 * * * *` |
+| 每小时整点 | 按需串行运行实际存在的 `sync_*` 脚本（不要再配置 `run_all.py`） | `0 * * * *` |
 | 每12小时 | 运行 `sync_link_auditor.py` (链接梳理) | `0 */12 * * *` |
 
 ---

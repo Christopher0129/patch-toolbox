@@ -123,7 +123,7 @@ def fetch_redhat_advisories(limit: int = 20) -> List[Dict[str, Any]]:
         description = adv.get("bugzilla_description", "")
         items.append({
             "cve_id": cve_id,
-            "title": f"{cve_id} - {strip_html_tags(description)}",
+            "title": f"{cve_id} - {summarize_title(strip_html_tags(description), 80)}",
             "description": f"[Red Hat] {description}. Bugzilla: {bugzilla}",
             "cvss_score": None,
             "severity": severity,
