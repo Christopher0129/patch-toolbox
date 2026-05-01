@@ -12,6 +12,20 @@ CATEGORY_MAP = {
         'db': ROOT / 'db' / 'network-security.db',
         'markdown': ROOT / 'network-security' / 'index.md',
         'label': 'Network Security',
+        'platforms': {
+            'windows': {
+                'db': ROOT / 'db' / 'netsec-windows.db',
+                'markdown': ROOT / 'network-security' / 'windows.md',
+            },
+            'linux': {
+                'db': ROOT / 'db' / 'netsec-linux.db',
+                'markdown': ROOT / 'network-security' / 'linux.md',
+            },
+            'macos': {
+                'db': ROOT / 'db' / 'netsec-macos.db',
+                'markdown': ROOT / 'network-security' / 'macos.md',
+            },
+        },
     },
     'system-vulnerabilities': {
         'db': ROOT / 'db' / 'system-vulnerabilities.db',
@@ -32,7 +46,14 @@ def slugify(text: str) -> str:
     return text.strip('-') or 'entry'
 
 
-def load_entries(category_key: str, db_path: Path, markdown_path: Path):
+def _friendly_md_path(markdown_path: Path) -> str:
+    try:
+        return str(markdown_path.relative_to(ROOT))
+    except ValueError:
+        return str(markdown_path)
+
+
+def load_entries(category_key: str, db_path: Path, markdown_path: Path, platform: str | None = None):
     conn = sqlite3.connect(db_path)
     cur = conn.cursor()
     cur.execute('SELECT title, description, source_url FROM entries ORDER BY id DESC LIMIT 50')
@@ -40,14 +61,17 @@ def load_entries(category_key: str, db_path: Path, markdown_path: Path):
     conn.close()
     entries = []
     for idx, (title, description, source_url) in enumerate(rows, start=1):
-        entries.append({
+        entry = {
             'slug': f'{category_key}-{idx}-{slugify(title)}',
             'title': title,
             'description': description or '',
             'category': category_key,
-            'markdown_path': str(markdown_path.relative_to(ROOT)),
+            'markdown_path': _friendly_md_path(markdown_path),
             'source_url': source_url or '',
-        })
+        }
+        if platform:
+            entry['platform'] = platform
+        entries.append(entry)
     return entries
 
 
@@ -62,14 +86,29 @@ def main():
     categories = []
     all_entries = []
     for key, cfg in CATEGORY_MAP.items():
-        entries = load_entries(key, cfg['db'], cfg['markdown'])
-        categories.append({
-            'key': key,
-            'label': cfg['label'],
-            'entry_count': len(entries),
-            'markdown_path': str(cfg['markdown'].relative_to(ROOT)),
-        })
-        all_entries.extend(entries)
+        platforms_cfg = cfg.get('platforms')
+        if platforms_cfg:
+            platform_labels = []
+            for plat_key, plat_cfg in platforms_cfg.items():
+                entries = load_entries(key, plat_cfg['db'], plat_cfg['markdown'], platform=plat_key)
+                platform_labels.append(plat_key)
+                all_entries.extend(entries)
+            categories.append({
+                'key': key,
+                'label': cfg['label'],
+                'entry_count': len(all_entries),
+                'markdown_path': str(cfg['markdown'].relative_to(ROOT)),
+                'platforms': platform_labels,
+            })
+        else:
+            entries = load_entries(key, cfg['db'], cfg['markdown'])
+            categories.append({
+                'key': key,
+                'label': cfg['label'],
+                'entry_count': len(entries),
+                'markdown_path': str(cfg['markdown'].relative_to(ROOT)),
+            })
+            all_entries.extend(entries)
 
     (out_dir / 'categories.json').write_text(
         json.dumps(categories, ensure_ascii=False, indent=2),

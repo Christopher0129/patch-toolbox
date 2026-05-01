@@ -135,7 +135,13 @@
     "mitigationLabel": "완화 방안 / Mitigation",
     "referencesLabel": "참조 링크 / References",
     "added": "추가일",
-    "databaseInfo": "network-security.db 에서도 확인 가능"
+    "databaseInfo": "network-security.db 에서도 확인 가능",
+    "platforms": {
+      "windows": "Windows",
+      "linux": "Linux",
+      "macos": "macOS"
+    },
+    "emptyForPlatform": "이 플랫폼에 대한 항목이 없습니다."
   },
   "systemVulnerabilities": {
     "breadcrumb": "홈 / 카테고리 / 시스템 취약점",

@@ -1,0 +1,2152 @@
+[
+  {
+    "slug": "network-security-1-cve-2001-0538",
+    "title": "CVE-2001-0538",
+    "description": "Microsoft Outlook View ActiveX Control in Microsoft Outlook 2002 and earlier allows remote attackers to execute arbitrary commands via a malicious HTML e-mail message or web page.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-2-cve-2001-0504",
+    "title": "CVE-2001-0504",
+    "description": "Vulnerability in authentication process for SMTP service in Microsoft Windows 2000 allows remote attackers to use incorrect credentials to gain privileges and conduct activities such as mail relaying.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-3-cve-2001-1055",
+    "title": "CVE-2001-1055",
+    "description": "The Microsoft Windows network stack allows remote attackers to cause a denial of service (CPU consumption) via a flood of malformed ARP request packets with random source IP and MAC addresses, as demonstrated by ARPNuke.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-4-cve-2001-0503",
+    "title": "CVE-2001-0503",
+    "description": "Microsoft NetMeeting 3.01 with Remote Desktop Sharing enabled allows remote attackers to cause a denial of service via a malformed string to the NetMeeting service port, aka a variant of the \"NetMeeting Desktop Sharing\" vulnerability.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-5-cve-2001-0501",
+    "title": "CVE-2001-0501",
+    "description": "Microsoft Word 2002 and earlier allows attackers to automatically execute macros without warning the user by embedding the macros in a manner that escapes detection by the security scanner.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-6-cve-2001-0351",
+    "title": "CVE-2001-0351",
+    "description": "Microsoft Windows 2000 telnet service allows a local user to make a certain system call that allows the user to terminate a Telnet session and cause a denial of service.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-7-cve-2001-0350",
+    "title": "CVE-2001-0350",
+    "description": "Microsoft Windows 2000 telnet service creates named pipes with predictable names and does not properly verify them, which allows local users to execute arbitrary commands by creating a named pipe with the predictable name and associating a malicious program with it, the second of two variants of this vulnerability.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-8-cve-2001-0349",
+    "title": "CVE-2001-0349",
+    "description": "Microsoft Windows 2000 telnet service creates named pipes with predictable names and does not properly verify them, which allows local users to execute arbitrary commands by creating a named pipe with the predictable name and associating a malicious program with it, the first of two variants of this vulnerability.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-9-cve-2001-0348",
+    "title": "CVE-2001-0348",
+    "description": "Microsoft Windows 2000 telnet service allows attackers to cause a denial of service (crash) via a long logon command that contains a backspace.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-10-cve-2001-0347",
+    "title": "CVE-2001-0347",
+    "description": "Information disclosure vulnerability in Microsoft Windows 2000 telnet service allows remote attackers to determine the existence of user accounts such as Guest, or log in to the server without specifying the domain name, via a malformed userid.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-11-cve-2001-0346",
+    "title": "CVE-2001-0346",
+    "description": "Handle leak in Microsoft Windows 2000 telnet service allows attackers to cause a denial of service by starting a large number of sessions and terminating them.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-12-cve-2001-0345",
+    "title": "CVE-2001-0345",
+    "description": "Microsoft Windows 2000 telnet service allows attackers to prevent idle Telnet sessions from timing out, causing a denial of service by creating a large number of idle sessions.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-13-cve-2001-0344",
+    "title": "CVE-2001-0344",
+    "description": "An SQL query method in Microsoft SQL Server 2000 Gold and 7.0 using Mixed Mode allows local database users to gain privileges by reusing a cached connection of the sa administrator account.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-14-cve-2001-0341",
+    "title": "CVE-2001-0341",
+    "description": "Buffer overflow in Microsoft Visual Studio RAD Support sub-component of FrontPage Server Extensions allows remote attackers to execute arbitrary commands via a long registration request (URL) to fp30reg.dll.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-15-cve-2001-0340",
+    "title": "CVE-2001-0340",
+    "description": "An interaction between the Outlook Web Access (OWA) service in Microsoft Exchange 2000 Server and Internet Explorer allows attackers to execute malicious script code against a user's mailbox via a message attachment that contains HTML code, which is executed automatically.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-16-cve-2001-1319",
+    "title": "CVE-2001-1319",
+    "description": "Microsoft Exchange 5.5 2000 allows remote attackers to cause a denial of service (hang) via exceptional BER encodings for the LDAP filter type field, as demonstrated by the PROTOS LDAPv3 test suite.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-17-cve-2001-1243",
+    "title": "CVE-2001-1243",
+    "description": "Scripting.FileSystemObject in asp.dll for Microsoft IIS 4.0 and 5.0 allows local or remote attackers to cause a denial of service (crash) via (1) creating an ASP program that uses Scripting.FileSystemObject to open a file with an MS-DOS device name, or (2) remotely injecting the device name into ASP programs that internally use Scripting.FileSystemObject.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-18-cve-2001-0239",
+    "title": "CVE-2001-0239",
+    "description": "Microsoft Internet Security and Acceleration (ISA) Server 2000 Web Proxy allows remote attackers to cause a denial of service via a long web request with a specific type.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-19-cve-2001-0238",
+    "title": "CVE-2001-0238",
+    "description": "Microsoft Data Access Component Internet Publishing Provider 8.103.2519.0 and earlier allows remote attackers to bypass Security Zone restrictions via WebDAV requests.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-20-cve-2001-0365",
+    "title": "CVE-2001-0365",
+    "description": "Eudora before 5.1 allows a remote attacker to execute arbitrary code, when the 'Use Microsoft Viewer' and 'allow executables in HTML content' options are enabled, via an HTML email message containing Javascript, with ActiveX controls and malicious code within IMG tags.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-21-cve-2001-0337",
+    "title": "CVE-2001-0337",
+    "description": "The Microsoft MS01-014 and MS01-016 patches for IIS 5.0 and earlier introduce a memory leak which allows attackers to cause a denial of service via a series of requests.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-22-cve-2001-0336",
+    "title": "CVE-2001-0336",
+    "description": "The Microsoft MS00-060 patch for IIS 5.0 and earlier introduces an error which allows attackers to cause a denial of service via a malformed request.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-23-cve-2001-0245",
+    "title": "CVE-2001-0245",
+    "description": "Microsoft Index Server 2.0 in Windows NT 4.0, and Indexing Service in Windows 2000, allows remote attackers to read server-side include files via a malformed search request, aka a new variant of the \"Malformed Hit-Highlighting\" vulnerability.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-24-cve-2001-0244",
+    "title": "CVE-2001-0244",
+    "description": "Buffer overflow in Microsoft Index Server 2.0 allows remote attackers to execute arbitrary commands via a long search parameter.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-25-cve-2001-0242",
+    "title": "CVE-2001-0242",
+    "description": "Buffer overflows in Microsoft Windows Media Player 7 and earlier allow remote attackers to execute arbitrary commands via (1) a long version tag in an .ASX file, or (2) a long banner tag, a variant of the \".ASX Buffer Overrun\" vulnerability as discussed in MS:MS00-090.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-26-cve-2001-0240",
+    "title": "CVE-2001-0240",
+    "description": "Microsoft Word before Word 2002 allows attackers to automatically execute macros without warning the user via a Rich Text Format (RTF) document that links to a template with the embedded macro.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-27-cve-2001-0237",
+    "title": "CVE-2001-0237",
+    "description": "Memory leak in Microsoft 2000 domain controller allows remote attackers to cause a denial of service by repeatedly connecting to the Kerberos service and then disconnecting without sending any data.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-28-cve-2001-1088",
+    "title": "CVE-2001-1088",
+    "description": "Microsoft Outlook 8.5 and earlier, and Outlook Express 5 and earlier, with the \"Automatically put people I reply to in my address book\" option enabled, do not notify the user when the \"Reply-To\" address is different than the \"From\" address, which could allow an untrusted remote attacker to spoof legitimate addresses and intercept email from the client that is intended for another user.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-29-cve-2001-0261",
+    "title": "CVE-2001-0261",
+    "description": "Microsoft Windows 2000 Encrypted File System does not properly destroy backups of files that are encrypted, which allows a local attacker to recover the text of encrypted files.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-30-cve-2001-0146",
+    "title": "CVE-2001-0146",
+    "description": "IIS 5.0 and Microsoft Exchange 2000 allow remote attackers to cause a denial of service (memory allocation error) by repeatedly sending a series of specially formatted URL's.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-31-cve-2001-1326",
+    "title": "CVE-2001-1326",
+    "description": "Eudora 5.1 allows remote attackers to execute arbitrary code when the \"Use Microsoft Viewer\" option is enabled and the \"allow executables in HTML content\" option is disabled, via an HTML email with a form that is activated from an image that the attacker spoofs as a link, which causes the user to execute the form and access embedded attachments.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-32-cve-2001-1450",
+    "title": "CVE-2001-1450",
+    "description": "Microsoft Internet Explorer 5.0 through 6.0 allows attackers to cause a denial of service (browser crash) via a crafted FTP URL such as \"/.#./\".",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-33-cve-1999-0945",
+    "title": "CVE-1999-0945",
+    "description": "Buffer overflow in Internet Mail Service (IMS) for Microsoft Exchange 5.5 and 5.0 allows remote attackers to conduct a denial of service via AUTH or AUTHINFO commands.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-34-cve-1999-0681",
+    "title": "CVE-1999-0681",
+    "description": "Buffer overflow in Microsoft FrontPage Server Extensions (PWS) 3.0.2.926 on Windows 95, and possibly other versions, allows remote attackers to cause a denial of service via a long URL.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-35-cve-2001-0047",
+    "title": "CVE-2001-0047",
+    "description": "The default permissions for the MTS Package Administration registry key in Windows NT 4.0 allows local users to install or modify arbitrary Microsoft Transaction Server (MTS) packages and gain privileges, aka one of the \"Registry Permissions\" vulnerabilities.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-36-cve-2001-0048",
+    "title": "CVE-2001-0048",
+    "description": "The \"Configure Your Server\" tool in Microsoft 2000 domain controllers installs a blank password for the Directory Service Restore Mode, which allows attackers with physical access to the controller to install malicious programs, aka the \"Directory Service Restore Mode Password\" vulnerability.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-37-cve-2001-0005",
+    "title": "CVE-2001-0005",
+    "description": "Buffer overflow in the parsing mechanism of the file loader in Microsoft PowerPoint 2000 allows attackers to execute arbitrary commands.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-38-cve-2001-0003",
+    "title": "CVE-2001-0003",
+    "description": "Web Extender Client (WEC) in Microsoft Office 2000, Windows 2000, and Windows Me does not properly process Internet Explorer security settings for NTLM authentication, which allows attackers to obtain NTLM credentials and possibly obtain the password, aka the \"Web Client NTLM Authentication\" vulnerability.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-39-cve-2000-1090",
+    "title": "CVE-2000-1090",
+    "description": "Microsoft IIS for Far East editions 4.0 and 5.0 allows remote attackers to read source code for parsed pages via a malformed URL that uses the lead-byte of a double-byte character.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-40-cve-2000-1139",
+    "title": "CVE-2000-1139",
+    "description": "The installation of Microsoft Exchange 2000 before Rev. A creates a user account with a known password, which could allow attackers to gain privileges, aka the \"Exchange User Account\" vulnerability.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-41-cve-2000-1113",
+    "title": "CVE-2000-1113",
+    "description": "Buffer overflow in Microsoft Windows Media Player allows remote attackers to execute arbitrary commands via a malformed Active Stream Redirector (.ASX) file, aka the \".ASX Buffer Overrun\" vulnerability.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-42-cve-2000-1112",
+    "title": "CVE-2000-1112",
+    "description": "Microsoft Windows Media Player 7 executes scripts in custom skin (.WMS) files, which could allow remote attackers to gain privileges via a skin that contains a malicious script, aka the \".WMS Script Execution\" vulnerability.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-43-cve-2000-1089",
+    "title": "CVE-2000-1089",
+    "description": "Buffer overflow in Microsoft Phone Book Service allows local users to execute arbitrary commands, aka the \"Phone Book Service Buffer Overflow\" vulnerability.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-44-cve-2000-1088",
+    "title": "CVE-2000-1088",
+    "description": "The xp_SetSQLSecurity function in Microsoft SQL Server 2000 and SQL Server Desktop Engine (MSDE) does not properly restrict the length of a buffer before calling the srv_paraminfo function in the SQL Server API for Extended Stored Procedures (XP), which allows an attacker to cause a denial of service or execute arbitrary commands, aka the \"Extended Stored Procedure Parameter Parsing\" vulnerability.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-45-cve-2000-1087",
+    "title": "CVE-2000-1087",
+    "description": "The xp_proxiedmetadata function in Microsoft SQL Server 2000 and SQL Server Desktop Engine (MSDE) does not properly restrict the length of a buffer before calling the srv_paraminfo function in the SQL Server API for Extended Stored Procedures (XP), which allows an attacker to cause a denial of service or execute arbitrary commands, aka the \"Extended Stored Procedure Parameter Parsing\" vulnerability.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-46-cve-2000-1086",
+    "title": "CVE-2000-1086",
+    "description": "The xp_printstatements function in Microsoft SQL Server 2000 and SQL Server Desktop Engine (MSDE) does not properly restrict the length of a buffer before calling the srv_paraminfo function in the SQL Server API for Extended Stored Procedures (XP), which allows an attacker to cause a denial of service or execute arbitrary commands, aka the \"Extended Stored Procedure Parameter Parsing\" vulnerability.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-47-cve-2000-1085",
+    "title": "CVE-2000-1085",
+    "description": "The xp_peekqueue function in Microsoft SQL Server 2000 and SQL Server Desktop Engine (MSDE) does not properly restrict the length of a buffer before calling the srv_paraminfo function in the SQL Server API for Extended Stored Procedures (XP), which allows an attacker to cause a denial of service or execute arbitrary commands, aka the \"Extended Stored Procedure Parameter Parsing\" vulnerability.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-48-cve-2000-1084",
+    "title": "CVE-2000-1084",
+    "description": "The xp_updatecolvbm function in SQL Server and Microsoft SQL Server Desktop Engine (MSDE) does not properly restrict the length of a buffer before calling the srv_paraminfo function in the SQL Server API for Extended Stored Procedures (XP), which allows an attacker to cause a denial of service or execute arbitrary commands, aka the \"Extended Stored Procedure Parameter Parsing\" vulnerability.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-49-cve-2000-1083",
+    "title": "CVE-2000-1083",
+    "description": "The xp_showcolv function in SQL Server and Microsoft SQL Server Desktop Engine (MSDE) does not properly restrict the length of a buffer before calling the srv_paraminfo function in the SQL Server API for Extended Stored Procedures (XP), which allows an attacker to cause a denial of service or execute arbitrary commands, aka the \"Extended Stored Procedure Parameter Parsing\" vulnerability.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-50-cve-2000-1082",
+    "title": "CVE-2000-1082",
+    "description": "The xp_enumresultset function in SQL Server and Microsoft SQL Server Desktop Engine (MSDE) does not properly restrict the length of a buffer before calling the srv_paraminfo function in the SQL Server API for Extended Stored Procedures (XP), which allows an attacker to cause a denial of service or execute arbitrary commands, aka the \"Extended Stored Procedure Parameter Parsing\" vulnerability.",
+    "category": "network-security",
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
+  },
+  {
+    "slug": "network-security-1-cve-2000-0714",
+    "title": "CVE-2000-0714",
+    "description": "umb-scheme 3.2-11 for Red Hat Linux is installed with world-writeable files.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-2-cve-2000-0712",
+    "title": "CVE-2000-0712",
+    "description": "Linux Intrusion Detection System (LIDS) 0.9.7 allows local users to gain root privileges when LIDS is disabled via the security=0 boot option.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-3-cve-2000-0698",
+    "title": "CVE-2000-0698",
+    "description": "Minicom 1.82.1 and earlier on some Linux systems allows local users to create arbitrary files owned by the uucp user via a symlink attack.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-4-cve-2000-0031",
+    "title": "CVE-2000-0031",
+    "description": "The initscripts package in Red Hat Linux allows local users to gain privileges via a symlink attack.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-5-cve-2000-1214",
+    "title": "CVE-2000-1214",
+    "description": "Buffer overflows in the (1) outpack or (2) buf variables of ping in iputils before 20001010, as distributed on Red Hat Linux 6.2 through 7J and other operating systems, may allow local users to gain privileges.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-6-cve-2000-1213",
+    "title": "CVE-2000-1213",
+    "description": "ping in iputils before 20001010, as distributed on Red Hat Linux 6.2 through 7J and other operating systems, does not drop privileges after acquiring a raw socket, which increases ping's exposure to bugs that otherwise would occur at lower privileges.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-7-cve-2000-0816",
+    "title": "CVE-2000-0816",
+    "description": "Linux tmpwatch --fuser option allows local users to execute arbitrary commands by creating files whose names contain shell metacharacters.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-8-cve-2000-1207",
+    "title": "CVE-2000-1207",
+    "description": "userhelper in the usermode package on Red Hat Linux executes non-setuid programs as root, which does not activate the security measures in glibc and allows the programs to be exploited via format string vulnerabilities in glibc via the LANG or LC_ALL environment variables (CVE-2000-0844).",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-9-cve-2000-0354",
+    "title": "CVE-2000-0354",
+    "description": "mirror 2.8.x in Linux systems allows remote attackers to create files one level above the local target directory.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-10-cve-2000-0545",
+    "title": "CVE-2000-0545",
+    "description": "Buffer overflow in mailx mail command (aka Mail) on Linux systems allows local users to gain privileges via a long -c (carbon copy) parameter.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-11-cve-2000-0668",
+    "title": "CVE-2000-0668",
+    "description": "pam_console PAM module in Linux systems allows a user to access the system console and reboot the system when a display manager such as gdm or kdm has XDMCP enabled.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-12-cve-2000-0667",
+    "title": "CVE-2000-0667",
+    "description": "Vulnerability in gpm in Caldera Linux allows local users to delete arbitrary files or conduct a denial of service.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-13-cve-2000-0633",
+    "title": "CVE-2000-0633",
+    "description": "Vulnerability in Mandrake Linux usermode package allows local users to to reboot or halt the system.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-14-cve-2000-0666",
+    "title": "CVE-2000-0666",
+    "description": "rpc.statd in the nfs-utils package in various Linux distributions does not properly cleanse untrusted format strings, which allows remote attackers to gain root privileges.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-15-cve-2000-0614",
+    "title": "CVE-2000-0614",
+    "description": "Tnef program in Linux systems allows remote attackers to overwrite arbitrary files via TNEF encoded compressed attachments which specify absolute path names for the decompressed output.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-16-cve-2000-0566",
+    "title": "CVE-2000-0566",
+    "description": "makewhatis in Linux man package allows local users to overwrite files via a symlink attack.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-17-cve-2000-0618",
+    "title": "CVE-2000-0618",
+    "description": "Buffer overflow in xconq and cconq game programs on Red Hat Linux allows local users to gain additional privileges via long DISPLAY environmental variable.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-18-cve-2000-0617",
+    "title": "CVE-2000-0617",
+    "description": "Buffer overflow in xconq and cconq game programs on Red Hat Linux allows local users to gain additional privileges via long USER environmental variable.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-19-cve-2000-0607",
+    "title": "CVE-2000-0607",
+    "description": "Buffer overflow in fld program in Kanji on Console (KON) package on Linux may allow local users to gain root privileges via an input file containing long CHARSET_REGISTRY or CHARSET_ENCODING settings.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-20-cve-2000-0606",
+    "title": "CVE-2000-0606",
+    "description": "Buffer overflow in kon program in Kanji on Console (KON) package on Linux may allow local users to gain root privileges via a long -StartupMessage parameter.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-21-cve-2000-0604",
+    "title": "CVE-2000-0604",
+    "description": "gkermit in Red Hat Linux is improperly installed with setgid uucp, which allows local users to modify files owned by uucp.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-22-cve-2000-0602",
+    "title": "CVE-2000-0602",
+    "description": "Secure Locate (slocate) in Red Hat Linux allows local users to gain privileges via a malformed configuration file that is specified in the LOCATE_PATH environmental variable.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-23-cve-2000-0506",
+    "title": "CVE-2000-0506",
+    "description": "The \"capabilities\" feature in Linux before 2.2.16 allows local users to cause a denial of service or gain privileges by setting the capabilities to prevent a setuid program from dropping privileges, aka the \"Linux kernel setuid/setcap vulnerability.\"",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-24-cve-2000-0467",
+    "title": "CVE-2000-0467",
+    "description": "Buffer overflow in Linux splitvt 1.6.3 and earlier allows local users to gain root privileges via a long password in the screen locking function.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-25-cve-2000-0454",
+    "title": "CVE-2000-0454",
+    "description": "Buffer overflow in Linux cdrecord allows local users to gain privileges via the dev parameter.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-26-cve-2000-0460",
+    "title": "CVE-2000-0460",
+    "description": "Buffer overflow in KDE kdesud on Linux allows local uses to gain privileges via a long DISPLAY environmental variable.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-27-cve-2000-0438",
+    "title": "CVE-2000-0438",
+    "description": "Buffer overflow in fdmount on Linux systems allows local users in the \"floppy\" group to execute arbitrary commands via a long mountpoint parameter.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-28-cve-2000-0378",
+    "title": "CVE-2000-0378",
+    "description": "The pam_console PAM module in Linux systems performs a chown on various devices upon a user login, but an open file descriptor for those devices can be maintained after the user logs out, which allows that user to sniff activity on these devices when subsequent users log in.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-29-cve-2000-0293",
+    "title": "CVE-2000-0293",
+    "description": "aaa_base in SuSE Linux 6.3, and cron.daily in earlier versions, allow local users to delete arbitrary files by creating files whose names include spaces, which are then incorrectly interpreted by aaa_base when it deletes expired files from the /tmp directory.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-30-cve-2000-0344",
+    "title": "CVE-2000-0344",
+    "description": "The knfsd NFS server in Linux kernel 2.2.x allows remote attackers to cause a denial of service via a negative size value.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-31-cve-2000-0340",
+    "title": "CVE-2000-0340",
+    "description": "Buffer overflow in Gnomelib in SuSE Linux 6.3 allows local users to execute arbitrary commands via the DISPLAY environmental variable.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-32-cve-1999-0706",
+    "title": "CVE-1999-0706",
+    "description": "Linux xmonisdn package allows local users to gain root privileges by modifying the IFS or PATH environmental variables.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-33-cve-2000-0248",
+    "title": "CVE-2000-0248",
+    "description": "The web GUI for the Linux Virtual Server (LVS) software in the Red Hat Linux Piranha package has a backdoor password that allows remote attackers to execute arbitrary commands.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-34-cve-2000-0336",
+    "title": "CVE-2000-0336",
+    "description": "Linux OpenLDAP server allows local users to modify arbitrary files via a symlink attack.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-35-cve-2000-0263",
+    "title": "CVE-2000-0263",
+    "description": "The X font server xfs in Red Hat Linux 6.x allows an attacker to cause a denial of service via a malformed request.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-36-cve-2000-0274",
+    "title": "CVE-2000-0274",
+    "description": "The Linux trustees kernel patch allows attackers to cause a denial of service by accessing a file or directory with a long name.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-37-cve-2000-0289",
+    "title": "CVE-2000-0289",
+    "description": "IP masquerading in Linux 2.2.x allows remote attackers to route UDP packets through the internal interface by modifying the external source IP address and port number to match those of an established connection.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-38-cve-2000-0227",
+    "title": "CVE-2000-0227",
+    "description": "The Linux 2.2.x kernel does not restrict the number of Unix domain sockets as defined by the wmem_max parameter, which allows local users to cause a denial of service by requesting a large number of sockets.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-39-cve-2000-0231",
+    "title": "CVE-2000-0231",
+    "description": "Linux kreatecd trusts a user-supplied path that is used to find the cdrecord program, allowing local users to gain root privileges.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-40-cve-2000-0233",
+    "title": "CVE-2000-0233",
+    "description": "SuSE Linux IMAP server allows remote attackers to bypass IMAP authentication and gain privileges.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-41-cve-2000-0171",
+    "title": "CVE-2000-0171",
+    "description": "atsadc in the atsar package for Linux does not properly check the permissions of an output file, which allows local users to gain root privileges.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-42-cve-2000-0184",
+    "title": "CVE-2000-0184",
+    "description": "Linux printtool sets the permissions of printer configuration files to be world-readable, which allows local attackers to obtain printer share passwords.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-43-cve-2000-0206",
+    "title": "CVE-2000-0206",
+    "description": "The installation of Oracle 8.1.5.x on Linux follows symlinks and creates the orainstRoot.sh file with world-writeable permissions, which allows local users to gain privileges.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-44-cve-2000-0193",
+    "title": "CVE-2000-0193",
+    "description": "The default configuration of Dosemu in Corel Linux 1.0 allows local users to execute the system.com program and gain privileges.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-45-cve-2000-0196",
+    "title": "CVE-2000-0196",
+    "description": "Buffer overflow in mhshow in the Linux nmh package allows remote attackers to execute commands via malformed MIME headers in an email message.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-46-cve-2000-0186",
+    "title": "CVE-2000-0186",
+    "description": "Buffer overflow in the dump utility in the Linux ext2fs backup package allows local users to gain privileges via a long command line argument.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-47-cve-2000-0170",
+    "title": "CVE-2000-0170",
+    "description": "Buffer overflow in the man program in Linux allows local users to gain privileges via the MANPAGER environmental variable.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-48-cve-2000-0195",
+    "title": "CVE-2000-0195",
+    "description": "setxconf in Corel Linux allows local users to gain root access via the -T parameter, which executes the user's .xserverrc file.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-49-cve-2000-0194",
+    "title": "CVE-2000-0194",
+    "description": "buildxconf in Corel Linux allows local users to modify or create arbitrary files via the -x or -f parameters.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-50-cve-2000-0218",
+    "title": "CVE-2000-0218",
+    "description": "Buffer overflow in Linux mount and umount allows local users to gain root privileges via a long relative pathname.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-1-cve-2005-2741",
+    "title": "CVE-2005-2741",
+    "description": "Authorization Services in securityd for Apple Mac OS X 10.3.9 allows local users to gain privileges by granting themselves certain rights that should be restricted to administrators.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-2-cve-2005-2524",
+    "title": "CVE-2005-2524",
+    "description": "Safari after 2.0 in Apple Mac OS X 10.3.9 allows remote attackers to bypass domain restrictions via crafted web archives that cause Safari to render them as if they came from a different site.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-3-cve-2005-2748",
+    "title": "CVE-2005-2748",
+    "description": "The malloc function in the libSystem library in Apple Mac OS X 10.3.9 and 10.4.2 allows local users to overwrite arbitrary files by setting the MallocLogFile environment variable to the target file before running a setuid application.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-4-cve-2005-2747",
+    "title": "CVE-2005-2747",
+    "description": "Buffer overflow in ImageIO for Apple Mac OS X 10.4.2, as used by applications such as WebCore and Safari, allows remote attackers to execute arbitrary code via a crafted GIF file.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-5-cve-2005-2744",
+    "title": "CVE-2005-2744",
+    "description": "Buffer overflow in QuickDraw Manager for Apple OS X 10.3.9 and 10.4.2, as used by applications such as Safari, Mail, and Finder, allows remote attackers to execute arbitrary code via a crafted PICT file.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-6-cve-2005-3018",
+    "title": "CVE-2005-3018",
+    "description": "Apple Safari allows remote attackers to cause a denial of service (application crash) via a crafted data:// URL.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-7-cve-2005-2594",
+    "title": "CVE-2005-2594",
+    "description": "Apple Safari 1.3 (132) on Mac OS X 1.3.9 allows remote attackers to cause a denial of service (crash) via certain Javascript, possibly involving a function that defines a handler for itself within the function body.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-8-cve-2005-2196",
+    "title": "CVE-2005-2196",
+    "description": "The Apple AirPort card uses a default WEP key when not connected to a known or trusted network, which can cause it to automatically connect to a malicious network.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-9-cve-2005-2195",
+    "title": "CVE-2005-2195",
+    "description": "Apple Darwin Streaming Server 5.5 and earlier allows remote attackers to cause a denial of service (application crash) via a URL with a filename containing a .cgi extension and an MS-DOS device name such as AUX, CON, PRN, COM1, or LPT1, a different vulnerability than CVE-2003-0421 and CVE-2003-0502.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-10-cve-2005-1933",
+    "title": "CVE-2005-1933",
+    "description": "Dashboard in Apple Mac OS X Tiger 10.4 allows attackers to execute arbitrary commands by overriding the behavior of system widgets via a user widget with the same bundle identifier (CFBundleIdentifier), a different vulnerability than CVE-2005-1474.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-11-cve-2005-1474",
+    "title": "CVE-2005-1474",
+    "description": "Dashboard in Apple Mac OS X 10.4.1 allows remote attackers to install widgets via Safari without prompting the user, a different vulnerability than CVE-2005-1933.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-12-cve-2005-1473",
+    "title": "CVE-2005-1473",
+    "description": "SecurityAgent in Apple Mac OS X 10.4.1 allows attackers with physical access to bypass the locked screensaver and launch background applications by opening a URL from a text input field.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-13-cve-2005-1728",
+    "title": "CVE-2005-1728",
+    "description": "MCX Client for Apple Mac OS X 10.4.x up to 10.4.1 insecurely logs Portable Home Directory credentials, which allows local users to obtain the credentials.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-14-cve-2005-1727",
+    "title": "CVE-2005-1727",
+    "description": "Apple Mac OS X 10.4.x up to 10.4.1 sets insecure world- and group-writable permissions for the (1) system cache folder and (2) Dashboard system widgets, which allows local users to conduct unauthorized file operations via \"file race conditions.\"",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-15-cve-2005-1725",
+    "title": "CVE-2005-1725",
+    "description": "launchd 106 in Apple Mac OS X 10.4.x up to 10.4.1 allows local users to overwrite arbitrary files via a symlink attack on the socket file in an insecure temporary directory.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-16-cve-2005-1724",
+    "title": "CVE-2005-1724",
+    "description": "NFS on Apple Mac OS X 10.4.x up to 10.4.1 does not properly obey the -network or -mask flags for a filesystem and exports it to everyone, which allows remote attackers to bypass intended access restrictions.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-17-cve-2005-1723",
+    "title": "CVE-2005-1723",
+    "description": "LaunchServices in Apple Mac OS X 10.4.x up to 10.4.1 does not properly mark file extensions and MIME types as unsafe if an Apple Uniform Type Identifier (UTI) is not created when the type is added to the database of unsafe types, which could allow attackers to bypass intended restrictions.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-18-cve-2005-1408",
+    "title": "CVE-2005-1408",
+    "description": "Apple Keynote 2.0 and 2.0.1 allows remote attackers to read arbitrary files via the keynote: URI handler in a crafted Keynote presentation.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-19-cve-2005-1472",
+    "title": "CVE-2005-1472",
+    "description": "Certain system calls in Apple Mac OS X 10.4.1 do not properly enforce the permissions of certain directories without the POSIX read bit set, but with the execute bits set for group or other, which allows local users to list files in otherwise restricted directories.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-20-cve-2005-1248",
+    "title": "CVE-2005-1248",
+    "description": "Buffer overflow in Apple iTunes before 4.8 allows remote attackers to execute arbitrary code via a crafted MPEG4 file.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-21-cve-2005-1193",
+    "title": "CVE-2005-1193",
+    "description": "The bbencode_second_pass and make_clickable functions in bbcode.php for phpBB before 2.0.15, as used in viewtopic.php, privmsg.php, and other scripts, allow remote attackers to execute arbitrary script via a BBcode tag with a (1) javascript:, (2) applet:, (3) about:, (4) activex:, (5) chrome:, or (6) script: URI scheme, as demonstrated using the URL tag.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-22-cve-2005-1579",
+    "title": "CVE-2005-1579",
+    "description": "Apple QuickTime Player 7.0 on Mac OS X 10.4 allows remote attackers to obtain sensitive information via a .mov file with a Quartz Composer composition (.qtz) file that uses certain patches to read local information, then other patches to send the information to the attacker.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-23-cve-2005-1342",
+    "title": "CVE-2005-1342",
+    "description": "The x-man-page: URI handler for Apple Terminal 1.4.4 in Mac OS X 10.3.9 does not cleanse terminal escape sequences, which allows remote attackers to execute arbitrary commands.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-24-cve-2005-1341",
+    "title": "CVE-2005-1341",
+    "description": "Apple Terminal 1.4.4 allows attackers to execute arbitrary commands via terminal escape sequences.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-25-cve-2005-1337",
+    "title": "CVE-2005-1337",
+    "description": "Apple Help Viewer 2.0.7 and 3.0.0 in Mac OS X 10.3.9 allows remote attackers to read and execute arbitrary scrpts with less restrictive privileges via a help:// URI.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-26-cve-2005-1331",
+    "title": "CVE-2005-1331",
+    "description": "The AppleScript Editor in Mac OS X 10.3.9 does not properly display script code for an applescript: URI, which can result in code that is different than the actual code that would be run, which could allow remote attackers to trick users into executing malicious code via certain URI characters such as NULL, control characters, and homographs.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-27-cve-2005-0976",
+    "title": "CVE-2005-0976",
+    "description": "AppleWebKit (WebCore and WebKit), as used in multiple products such as Safari 1.2 and OmniGroup OmniWeb 5.1, allows remote attackers to read arbitrary files via the XMLHttpRequest Javascript component, as demonstrated using automatically mounted disk images and file:// URLs.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-28-cve-2005-0341",
+    "title": "CVE-2005-0341",
+    "description": "Apple Safari 1.2.4 does not obey the Content-type field in the HTTP header and renders text as HTML, which allows remote attackers to inject arbitrary web script or HTML and perform cross-site scripting (XSS) attacks.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-29-cve-2005-0340",
+    "title": "CVE-2005-0340",
+    "description": "Integer signedness error in Apple File Service (AFP Server) allows remote attackers to cause a denial of service (application crash) via a negative UAM string length in a FPLoginExt packet.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-30-cve-2005-0289",
+    "title": "CVE-2005-0289",
+    "description": "Apple AirPort Express prior to 6.1.1 and Extreme prior to 5.5.1, configured as a Wireless Data Service (WDS), allows remote attackers to cause a denial of service (device freeze) by connecting to UDP port 161 and before link-state change occurs.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-31-cve-2005-0043",
+    "title": "CVE-2005-0043",
+    "description": "Buffer overflow in Apple iTunes 4.7 allows remote attackers to execute arbitrary code via a long URL in (1) .m3u or (2) .pls playlist files.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-32-cve-2004-1029",
+    "title": "CVE-2004-1029",
+    "description": "The Sun Java Plugin capability in Java 2 Runtime Environment (JRE) 1.4.2_01, 1.4.2_04, and possibly earlier versions, does not properly restrict access between Javascript and Java applets during data transfer, which allows remote attackers to load unsafe classes and execute arbitrary code by using the reflection API to access private Java packages.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-33-cve-2004-0988",
+    "title": "CVE-2004-0988",
+    "description": "Integer overflow on Apple QuickTime before 6.5.2, when running on Windows systems, allows remote attackers to cause a denial of service (memory consumption) via certain inputs that cause a large memory operation.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-34-cve-2004-0962",
+    "title": "CVE-2004-0962",
+    "description": "Apple Remote Desktop Client 1.2.4 executes a GUI application as root when it is started by an Apple Remote Desktop Administrator application, which allows remote authenticated users to execute arbitrary code when loginwindow is active via Fast User Switching.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-35-cve-2004-0926",
+    "title": "CVE-2004-0926",
+    "description": "Heap-based buffer overflow in Apple QuickTime on Mac OS 10.2.8 through 10.3.5 may allow remote attackers to execute arbitrary code via a certain BMP image.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-36-cve-2004-2367",
+    "title": "CVE-2004-2367",
+    "description": "The Control Panel applet in WFTPD and WFTPD Pro 3.21 R1 and R2 allows remote authenticated users to cause a denial of service (crash) via a long FTP command.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-37-cve-2004-2359",
+    "title": "CVE-2004-2359",
+    "description": "Dell TrueMobile 1300 WLAN Mini-PCI Card Util TrayApplet 3.10.39.0 does not properly drop SYSTEM privileges when started from the systray applet, which allows local users to gain privileges by accessing the Help functionality.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-38-cve-2004-2281",
+    "title": "CVE-2004-2281",
+    "description": "Multiple unknown vulnerabilities in IBM Lotus Notes 6.5.x before 6.5.4 and 6.0.x before 6.0.5 have unknown impact and attack vectors, related to Java applets, as identified by (1) KSPR5YS6GR and (2) KSPR62F4D3.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-39-cve-2004-2280",
+    "title": "CVE-2004-2280",
+    "description": "Buffer overflow in IBM Lotus Notes 6.5.x before 6.5.3 and 6.0.x before 6.0.5 allows remote attackers to cause a denial of service (crash) via unknown vectors related to Java applets, as identified by KSPR62F4KN.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-40-cve-2004-1753",
+    "title": "CVE-2004-1753",
+    "description": "The Apple Java plugin, as used in Netscape 7.1 and 7.2, Mozilla 1.7.2, and Firefox 0.9.3 on MacOS X 10.3.5, when tabbed browsing is enabled, does not properly handle SetWindow(NULL) calls, which allows Java applets from one tab to draw to other tabs and facilitates phishing attacks that spoof tabs.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-41-cve-2004-1489",
+    "title": "CVE-2004-1489",
+    "description": "Opera 7.54 and earlier does not properly limit an applet's access to internal Java packages from Sun, which allows remote attackers to gain sensitive information, such as user names and the installation directory.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-42-cve-2004-1398",
+    "title": "CVE-2004-1398",
+    "description": "Format string vulnerability in prelink.c in kextload in Apple OS X, as used by TDIXSupport in Roxio Toast Titanium and possibly other products, allows local users to execute arbitrary code via format string specifiers in the extension argument.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-43-cve-2004-0429",
+    "title": "CVE-2004-0429",
+    "description": "Unknown vulnerability related to \"the handling of large requests\" in RAdmin for Apple Mac OS X 10.3.3 and Mac OS X 10.2.8 may allow attackers to have unknown impact via unknown attack vectors.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-44-cve-2004-0873",
+    "title": "CVE-2004-0873",
+    "description": "Apple iChat AV 2.1, AV 2.0, and 1.0.1 allows remote attackers to execute arbitrary programs via a \"link\" that references the program.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-45-cve-2004-1145",
+    "title": "CVE-2004-1145",
+    "description": "Multiple vulnerabilities in Konqueror in KDE 3.3.1 and earlier (1) allow access to restricted Java classes via JavaScript and (2) do not properly restrict access to certain Java classes from the Java applet, which allows remote attackers to bypass sandbox restrictions and read or write arbitrary files.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-46-cve-2004-0622",
+    "title": "CVE-2004-0622",
+    "description": "Apple Mac OS X 10.3.4, 10.4, 10.5, and possibly other versions does not properly clear memory for login (aka Loginwindow.app), Keychain, or FileVault passwords, which could allow the root user or an attacker with physical access to obtain sensitive information by reading memory.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-47-cve-2004-1083",
+    "title": "CVE-2004-1083",
+    "description": "Apache for Apple Mac OS X 10.2.8 and 10.3.6 restricts access to files in a case sensitive manner, but the Apple HFS+ filesystem accesses files in a case insensitive manner, which allows remote attackers to read .DS_Store files and files beginning with \".ht\" using alternate capitalization.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-48-cve-2004-1089",
+    "title": "CVE-2004-1089",
+    "description": "Unknown vulnerability in Apple Mac OS X 10.3.6 server, when using Kerberos authentication and Cyrus IMAP allows local users to access mailboxes of other users.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-49-cve-2004-1088",
+    "title": "CVE-2004-1088",
+    "description": "Postfix server for Apple Mac OS X 10.3.6, when using CRAM-MD5, allows remote attackers to send mail without authentication by replaying authentication information.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-50-cve-2004-1087",
+    "title": "CVE-2004-1087",
+    "description": "Terminal for Apple Mac OS X 10.3.6 may indicate that \"Secure Keyboard Entry\" is enabled even when it is not, which could result in a false sense of security for the user.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "system-vulnerabilities-1-cve-2026-7360-chromium-browser-insufficient-validation-of-untrusted-input-in-compositing",
+    "title": "CVE-2026-7360 - chromium-browser: Insufficient validation of untrusted input in Compositing",
+    "description": "[Red Hat] chromium-browser: Insufficient validation of untrusted input in Compositing. Bugzilla: 2463677",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-2-cve-2026-7309-openshift-controller-manager-openshift-container-platform-information",
+    "title": "CVE-2026-7309 - openshift-controller-manager: OpenShift Container Platform: Information…",
+    "description": "[Red Hat] openshift-controller-manager: OpenShift Container Platform: Information disclosure via environment variable injection. Bugzilla: 2463451",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-3-cve-2026-40355-krb5-mit-kerberos-5-denial-of-service-via-null-pointer-dereference-in-negoex",
+    "title": "CVE-2026-40355 - krb5: MIT Kerberos 5: Denial of Service via NULL pointer dereference in NegoEx…",
+    "description": "[Red Hat] krb5: MIT Kerberos 5: Denial of Service via NULL pointer dereference in NegoEx mechanism. Bugzilla: 2463370",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-4-cve-2026-40356-krb5-mit-kerberos-5-krb5-denial-of-service-via-integer-underflow-and",
+    "title": "CVE-2026-40356 - krb5: MIT Kerberos 5 (krb5): Denial of Service via integer underflow and…",
+    "description": "[Red Hat] krb5: MIT Kerberos 5 (krb5): Denial of Service via integer underflow and out-of-bounds read. Bugzilla: 2463368",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-5-cve-2026-42510-openstack-ironic-ipmitool-openstack-ironic-arbitrary-code-execution-via",
+    "title": "CVE-2026-42510 - OpenStack Ironic: ipmitool: OpenStack Ironic: Arbitrary Code Execution via…",
+    "description": "[Red Hat] OpenStack Ironic: ipmitool: OpenStack Ironic: Arbitrary Code Execution via Remote Hardware Management. Bugzilla: 2463371",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-6-cve-2026-7233-mupdf-artifex-mupdf-information-disclosure-due-to-out-of-bounds-read",
+    "title": "CVE-2026-7233 - mupdf: Artifex MuPDF: Information disclosure due to out-of-bounds read",
+    "description": "[Red Hat] mupdf: Artifex MuPDF: Information disclosure due to out-of-bounds read. Bugzilla: 2463367",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-7-ubuntu-usn-8190-2-rack-session-vulnerability",
+    "title": "[Ubuntu] USN-8190-2: Rack::Session vulnerability",
+    "description": "USN-8190-1 fixed a vulnerability in Rack::Session. This update provides the corresponding update for Ubuntu 26.04 LTS. Original advisory details: SeungMyung Lee discovered that Rack::Session did not properly reject cookies upon decryption failure. A remote attacker could use this issue to manipulate session contents and possibly gain unauthorized access.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-8-ubuntu-usn-8217-1-follow-redirects-vulnerabilities",
+    "title": "[Ubuntu] USN-8217-1: follow-redirects vulnerabilities",
+    "description": "It was discovered that follow-redirects did not properly protect sensitive user information during redirects. An attacker could possibly use this issue to expose sensitive information. This issue only affected Ubuntu 18.04 LTS and Ubuntu 20.04 LTS. (CVE-2022-0155) It was discovered that follow-redirects did not properly remove sensitive information before storage or transfer. An attacker could pos",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-9-ubuntu-usn-8185-2-linux-kernel-low-latency-nvidia-vulnerabilities",
+    "title": "[Ubuntu] USN-8185-2: Linux kernel (Low Latency NVIDIA) vulnerabilities",
+    "description": "Josh Eads, Kristoffer Janke, Eduardo Vela Nava, Tavis Ormandy, and Matteo Rizzo discovered that some AMD Zen processors did not properly verify the signature of CPU microcode. This flaw is known as EntrySign. A privileged attacker could possibly use this issue to cause load malicious CPU microcode causing loss of integrity and confidentiality. (CVE-2024-36347) Several security issues were discover",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-10-ubuntu-usn-8219-1-ultrajson-vulnerabilities",
+    "title": "[Ubuntu] USN-8219-1: UltraJSON vulnerabilities",
+    "description": "Cameron Criswell discovered that UltraJSON contained a memory leak that would occur when parsing large integers. An attacker could possibly use this issue to cause UltraJSON to crash, resulting in a denial of service. This issue only affected Ubuntu 24.04 LTS, Ubuntu 25.10, and Ubuntu 26.04 LTS. (CVE-2026-32874) It was discovered that UltraJSON contained integer overflow/underflow issues when calc",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-11-ubuntu-usn-8198-2-tornado-vulnerabilities",
+    "title": "[Ubuntu] USN-8198-2: Tornado vulnerabilities",
+    "description": "USN-8198-1 fixed vulnerabilities in Tornado. This update provides the corresponding updates for Ubuntu 26.04 LTS. Original advisory details: It was discovered that Tornado incorrectly handled parsing of large multipart request bodies. An attacker could possibly use this issue to cause a denial of service. (CVE-2026-31958) It was discovered that Tornado did not properly validate characters in cooki",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-12-ubuntu-usn-8221-1-wheel-vulnerability",
+    "title": "[Ubuntu] USN-8221-1: wheel vulnerability",
+    "description": "It was discovered that wheel did not correctly handle certain file paths. If a user or automated system were tricked into opening a specially crafted file, an attacker could possibly use this issue to execute arbitrary code.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-13-ubuntu-usn-8195-3-packagekit-vulnerability",
+    "title": "[Ubuntu] USN-8195-3: PackageKit vulnerability",
+    "description": "USN-8195-1 fixed a vulnerability in PackageKit. This update provides the corresponding fix to Ubuntu 16.04 LTS, Ubuntu 18.04 LTS and Ubuntu 20.04 LTS. Original advisory details: It was discovered that PackageKit incorrectly handled certain transactions. A local attacker could use this issue to install arbitrary packages as root, possibly resulting in privilege escalation.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-14-ubuntu-usn-8222-1-openssh-vulnerabilities",
+    "title": "[Ubuntu] USN-8222-1: OpenSSH vulnerabilities",
+    "description": "Christos Papakonstantinou discovered that the OpenSSH scp tool incorrectly handled the legacy scp protocol (-O) option. This could result in certain files being installed setuid or setgid, contrary to expectations. (CVE-2026-35385) Florian Kohnhäuser discovered that OpenSSH incorrectly handled shell metacharacters in usernames within a command line. When untrusted usernames and non-default configu",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-15-ubuntu-usn-8224-1-linux-kernel-bluefield-vulnerabilities",
+    "title": "[Ubuntu] USN-8224-1: Linux kernel (BlueField) vulnerabilities",
+    "description": "Qualys discovered that several vulnerabilities existed in the AppArmor Linux kernel Security Module (LSM). An unprivileged local attacker could use these issues to load, replace, and remove arbitrary AppArmor profiles causing denial of service, exposure of sensitive information (kernel memory), local privilege escalation, or possibly escape a container. (LP: #2143853, CVE-2026-23268, CVE-2026-2326",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-16-ubuntu-usn-8223-1-roundcube-webmail-vulnerabilities",
+    "title": "[Ubuntu] USN-8223-1: Roundcube Webmail vulnerabilities",
+    "description": "It was discovered that Roundcube Webmail mishandled Punycode xn-- domain names. An attacker could possibly use this issue to cause a homograph attack. (CVE-2019-15237) It was discovered that Roundcube Webmail did not properly sanitize certain attributes when handling CSS within HTML messages and certain SVG attributes. An attacker could possibly use this issue to cause a cross-site scripting attac",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-17-cve-2026-7360-chromium-browser-insufficient-validation-of-untrusted-input",
+    "title": "CVE-2026-7360 - chromium-browser: Insufficient validation of untrusted input",
+    "description": "[Red Hat] chromium-browser: Insufficient validation of untrusted input in Compositing. Bugzilla: 2463677",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-18-cve-2026-7336-chromium-browser-use-after-free-in-webrtc",
+    "title": "CVE-2026-7336 - chromium-browser: Use after free in WebRTC",
+    "description": "[Red Hat] chromium-browser: Use after free in WebRTC. Bugzilla: 2463676",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-19-cve-2026-7348-chromium-browser-use-after-free-in-codecs",
+    "title": "CVE-2026-7348 - chromium-browser: Use after free in Codecs",
+    "description": "[Red Hat] chromium-browser: Use after free in Codecs. Bugzilla: 2463671",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-20-cve-2026-7359-chromium-browser-use-after-free-in-angle",
+    "title": "CVE-2026-7359 - chromium-browser: Use after free in ANGLE",
+    "description": "[Red Hat] chromium-browser: Use after free in ANGLE. Bugzilla: 2463670",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-21-cve-2026-7352-chromium-browser-use-after-free-in-media",
+    "title": "CVE-2026-7352 - chromium-browser: Use after free in Media",
+    "description": "[Red Hat] chromium-browser: Use after free in Media. Bugzilla: 2463669",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-22-cve-2026-7356-chromium-browser-use-after-free-in-navigation",
+    "title": "CVE-2026-7356 - chromium-browser: Use after free in Navigation",
+    "description": "[Red Hat] chromium-browser: Use after free in Navigation. Bugzilla: 2463667",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-23-cve-2026-7358-chromium-browser-use-after-free-in-animation",
+    "title": "CVE-2026-7358 - chromium-browser: Use after free in Animation",
+    "description": "[Red Hat] chromium-browser: Use after free in Animation. Bugzilla: 2463665",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-24-cve-2026-7340-chromium-browser-integer-overflow-in-angle",
+    "title": "CVE-2026-7340 - chromium-browser: Integer overflow in ANGLE",
+    "description": "[Red Hat] chromium-browser: Integer overflow in ANGLE. Bugzilla: 2463664",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-25-cve-2026-7334-chromium-browser-use-after-free-in-views",
+    "title": "CVE-2026-7334 - chromium-browser: Use after free in Views",
+    "description": "[Red Hat] chromium-browser: Use after free in Views. Bugzilla: 2463663",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-26-cve-2026-7338-chromium-browser-use-after-free-in-cast",
+    "title": "CVE-2026-7338 - chromium-browser: Use after free in Cast",
+    "description": "[Red Hat] chromium-browser: Use after free in Cast. Bugzilla: 2463660",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-27-cve-2026-7341-chromium-browser-use-after-free-in-webrtc",
+    "title": "CVE-2026-7341 - chromium-browser: Use after free in WebRTC",
+    "description": "[Red Hat] chromium-browser: Use after free in WebRTC. Bugzilla: 2463659",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-28-cve-2026-7339-chromium-browser-heap-buffer-overflow-in-webrtc",
+    "title": "CVE-2026-7339 - chromium-browser: Heap buffer overflow in WebRTC",
+    "description": "[Red Hat] chromium-browser: Heap buffer overflow in WebRTC. Bugzilla: 2463658",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-29-cve-2026-7353-chromium-browser-heap-buffer-overflow-in-skia",
+    "title": "CVE-2026-7353 - chromium-browser: Heap buffer overflow in Skia",
+    "description": "[Red Hat] chromium-browser: Heap buffer overflow in Skia. Bugzilla: 2463657",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-30-cve-2026-7351-chromium-browser-race-in-mhtml",
+    "title": "CVE-2026-7351 - chromium-browser: Race in MHTML",
+    "description": "[Red Hat] chromium-browser: Race in MHTML. Bugzilla: 2463656",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-31-cve-2026-7309-openshift-controller-manager-openshift-container-platform",
+    "title": "CVE-2026-7309 - openshift-controller-manager: OpenShift Container Platform: ",
+    "description": "[Red Hat] openshift-controller-manager: OpenShift Container Platform: Information disclosure via environment variable injection. Bugzilla: 2463451",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-32-cve-2026-40355-krb5-mit-kerberos-5-denial-of-service-via-null-pointer-der",
+    "title": "CVE-2026-40355 - krb5: MIT Kerberos 5: Denial of Service via NULL pointer der",
+    "description": "[Red Hat] krb5: MIT Kerberos 5: Denial of Service via NULL pointer dereference in NegoEx mechanism. Bugzilla: 2463370",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-33-cve-2026-40356-krb5-mit-kerberos-5-krb5-denial-of-service-via-integer-u",
+    "title": "CVE-2026-40356 - krb5: MIT Kerberos 5 (krb5): Denial of Service via integer u",
+    "description": "[Red Hat] krb5: MIT Kerberos 5 (krb5): Denial of Service via integer underflow and out-of-bounds read. Bugzilla: 2463368",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-34-cve-2026-42510-openstack-ironic-ipmitool-openstack-ironic-arbitrary-code",
+    "title": "CVE-2026-42510 - OpenStack Ironic: ipmitool: OpenStack Ironic: Arbitrary Code",
+    "description": "[Red Hat] OpenStack Ironic: ipmitool: OpenStack Ironic: Arbitrary Code Execution via Remote Hardware Management. Bugzilla: 2463371",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-35-cve-2026-7233-mupdf-artifex-mupdf-information-disclosure-due-to-out-of-b",
+    "title": "CVE-2026-7233 - mupdf: Artifex MuPDF: Information disclosure due to out-of-b",
+    "description": "[Red Hat] mupdf: Artifex MuPDF: Information disclosure due to out-of-bounds read. Bugzilla: 2463367",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-36-cve-2026-5435-glibc-glibc-out-of-bounds-write-via-tsig-record-processing",
+    "title": "CVE-2026-5435 - glibc: glibc: Out-of-bounds write via TSIG record processing",
+    "description": "[Red Hat] glibc: glibc: Out-of-bounds write via TSIG record processing. Bugzilla: 2463465",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-37-cve-1999-0987",
+    "title": "CVE-1999-0987",
+    "description": "Windows NT does not properly download a system policy if the domain user logs into the domain with a space at the end of the domain name.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-38-cve-1999-1110",
+    "title": "CVE-1999-1110",
+    "description": "Windows Media Player ActiveX object as used in Internet Explorer 5.0 returns a specific error code when a file does not exist, which allows remote malicious web sites to determine the existence of files on the client.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-39-cve-2000-0330",
+    "title": "CVE-2000-0330",
+    "description": "The networking software in Windows 95 and Windows 98 allows remote attackers to execute commands via a long file name string, aka the \"File Access URL\" vulnerability.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-40-cve-1999-1065",
+    "title": "CVE-1999-1065",
+    "description": "Palm Pilot HotSync Manager 3.0.4 in Windows 98 allows remote attackers to cause a denial of service, and possibly execute arbitrary commands, via a long string to port 14238 while the manager is in network mode.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-41-cve-1999-0899",
+    "title": "CVE-1999-0899",
+    "description": "The Windows NT 4.0 print spooler allows a local user to execute arbitrary commands due to inappropriate permissions that allow the user to specify an alternate print provider.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-42-cve-1999-0898",
+    "title": "CVE-1999-0898",
+    "description": "Buffer overflows in Windows NT 4.0 print spooler allow remote attackers to gain privileges or cause a denial of service via a malformed spooler request.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-43-cve-1999-1531",
+    "title": "CVE-1999-1531",
+    "description": "Buffer overflow in IBM HomePagePrint 1.0.7 for Windows98J allows a malicious Web site to execute arbitrary code on a viewer's system via a long IMG_SRC HTML tag.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-44-cve-1999-1234",
+    "title": "CVE-1999-1234",
+    "description": "LSA (LSASS.EXE) in Windows NT 4.0 allows remote attackers to cause a denial of service via a NULL policy handle in a call to (1) SamrOpenDomain, (2) SamrEnumDomainUsers, and (3) SamrQueryDomainInfo.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-45-cve-1999-1454",
+    "title": "CVE-1999-1454",
+    "description": "Macromedia \"The Matrix\" screen saver on Windows 95 with the \"Password protected\" option enabled allows attackers with physical access to the machine to bypass the password prompt by pressing the ESC (Escape) key.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-46-cve-1999-0909",
+    "title": "CVE-1999-0909",
+    "description": "Multihomed Windows systems allow a remote attacker to bypass IP source routing restrictions via a malformed packet with IP options, aka the \"Spoofed Route Pointer\" vulnerability.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-47-cve-1999-0886",
+    "title": "CVE-1999-0886",
+    "description": "The security descriptor for RASMAN allows users to point to an alternate location via the Windows NT Service Control Manager.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-48-cve-1999-1356",
+    "title": "CVE-1999-1356",
+    "description": "Compaq Integration Maintenance Utility as used in Compaq Insight Manager agent before SmartStart 4.50 modifies the legal notice caption (LegalNoticeCaption) and text (LegalNoticeText) in Windows NT, which could produce a legal notice that is in violation of the security policy.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-49-cve-2000-0328",
+    "title": "CVE-2000-0328",
+    "description": "Windows NT 4.0 generates predictable random TCP initial sequence numbers (ISN), which allows remote attackers to perform spoofing and session hijacking.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-vulnerabilities-50-cve-1999-0680",
+    "title": "CVE-1999-0680",
+    "description": "Windows NT Terminal Server performs extra work when a client opens a new connection but before it is authenticated, allowing for a denial of service.",
+    "category": "system-vulnerabilities",
+    "markdown_path": "system-vulnerabilities/index.md",
+    "source_url": ""
+  },
+  {
+    "slug": "system-troubleshooting-1-nat-prerouting-rule-not-working-for-wifi-builtin-module",
+    "title": "Nat prerouting rule not working for WiFi builtin module",
+    "description": "Tags: linux, networking, vpn, nftables, tor | Score: 1 | Views: 43 | Answers: 1 | Created: 2025-12-20",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803182/nat-prerouting-rule-not-working-for-wifi-builtin-module"
+  },
+  {
+    "slug": "system-troubleshooting-2-how-to-best-protect-against-bit-rot-on-a-frequently-powered-on-ssd",
+    "title": "How to best protect against bit rot on a frequently powered-on SSD?",
+    "description": "Tags: linux, raid, storage, ssd, data-recovery | Score: 1 | Views: 350 | Answers: 2 | Created: 2025-12-21",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803202/how-to-best-protect-against-bit-rot-on-a-frequently-powered-on-ssd"
+  },
+  {
+    "slug": "system-troubleshooting-3-suspending-sometimes-does-not-turn-off-the-system-and-freezes",
+    "title": "Suspending sometimes does not turn off the system and freezes",
+    "description": "Tags: debian, suspend | Score: 1 | Views: 271 | Answers: 1 | Created: 2025-12-22",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803237/suspending-sometimes-does-not-turn-off-the-system-and-freezes"
+  },
+  {
+    "slug": "system-troubleshooting-4-spotify-client-window-style-is-like-old-windows-on-debian-13",
+    "title": "Spotify client window style is like old Windows on Debian 13",
+    "description": "Tags: debian, window | Score: 1 | Views: 578 | Answers: 1 | Created: 2025-12-27",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803332/spotify-client-window-style-is-like-old-windows-on-debian-13"
+  },
+  {
+    "slug": "system-troubleshooting-5-what-does-gnome-notification-that-app-is-ready-mean",
+    "title": "What does Gnome notification that app is ready mean?",
+    "description": "Tags: linux, gnome, window-switching | Score: 1 | Views: 190 | Answers: 2 | Created: 2025-12-30",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803389/what-does-gnome-notification-that-app-is-ready-mean"
+  },
+  {
+    "slug": "system-troubleshooting-6-debian-preseed-partman-auto-expert-recipe-with-dynamic-early-command-is-ignored-rebalanced-dynamic-partition-sizing-based-on-hdd-sda-size",
+    "title": "Debian preseed partman-auto: expert_recipe with dynamic early_command is ignored / rebalanced (dynamic partition sizing based on hdd sda size)",
+    "description": "Tags: debian, partition, system-installation, debian-installer, preseed | Score: 1 | Views: 190 | Answers: 1 | Created: 2025-12-31",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803408/debian-preseed-partman-auto-expert-recipe-with-dynamic-early-command-is-ignored"
+  },
+  {
+    "slug": "system-troubleshooting-7-idevicerestore-never-completes-sending-filesystem-now",
+    "title": "idevicerestore: never completes \"Sending filesystem now\"",
+    "description": "Tags: debian, macos, libimobiledevice | Score: 1 | Views: 158 | Answers: 1 | Created: 2025-12-31",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803415/idevicerestore-never-completes-sending-filesystem-now"
+  },
+  {
+    "slug": "system-troubleshooting-8-is-there-a-way-to-tell-if-a-mac-connected-via-usb-in-device-mode-is-itself-in-device-firmware-update-dfu-mode",
+    "title": "Is there a way to tell if a Mac connected via USB (in device mode) is itself in \"Device Firmware Update\" (DFU) mode?",
+    "description": "Tags: debian, macos | Score: 1 | Views: 109 | Answers: 2 | Created: 2025-12-31",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803417/is-there-a-way-to-tell-if-a-mac-connected-via-usb-in-device-mode-is-itself-in"
+  },
+  {
+    "slug": "system-troubleshooting-9-why-is-my-userid-1001-instead-of-1000-on-my-new-system",
+    "title": "Why is my userID 1001 instead of 1000 on my new system",
+    "description": "Tags: ubuntu, passwd, uid | Score: 1 | Views: 347 | Answers: 2 | Created: 2026-01-02",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803454/why-is-my-userid-1001-instead-of-1000-on-my-new-system"
+  },
+  {
+    "slug": "system-troubleshooting-10-stuck-troubleshooting-alsa-and-pipewire-on-debian-13-trixie-host-is-down-pipewire-likely-not-running",
+    "title": "Stuck troubleshooting ALSA and pipewire on Debian 13 (Trixie) - \"Host is Down\"; pipewire likely not running",
+    "description": "Tags: debian, audio, alsa, pipewire | Score: 1 | Views: 1099 | Answers: 1 | Created: 2026-01-05",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803534/stuck-troubleshooting-alsa-and-pipewire-on-debian-13-trixie-host-is-down"
+  },
+  {
+    "slug": "system-troubleshooting-11-additional-steps-required-to-send-synology-btrfs-snapshots-to-debian",
+    "title": "additional steps required to send synology btrfs snapshots to debian?",
+    "description": "Tags: debian, btrfs, synology | Score: 1 | Views: 131 | Answers: 1 | Created: 2026-01-07",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803598/additional-steps-required-to-send-synology-btrfs-snapshots-to-debian"
+  },
+  {
+    "slug": "system-troubleshooting-12-how-to-see-all-debsums-results-that-are-not-ok-and-not-about-files-in-opt",
+    "title": "How to see all debsums results that are not OK and not about files in /opt/?",
+    "description": "Tags: debian, grep, security | Score: 1 | Views: 81 | Answers: 2 | Created: 2026-01-08",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803625/how-to-see-all-debsums-results-that-are-not-ok-and-not-about-files-in-opt"
+  },
+  {
+    "slug": "system-troubleshooting-13-intel-ax211-wi-fi-repeatedly-soft-blocked-on-linux-with-iwlwifi-firmware-crashes-after-long-period-of-inactivity",
+    "title": "Intel AX211 Wi-Fi repeatedly soft-blocked on Linux with iwlwifi firmware crashes after long period of inactivity",
+    "description": "Tags: linux, kernel, wifi, intel | Score: 1 | Views: 110 | Answers: 1 | Created: 2026-01-13",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803720/intel-ax211-wi-fi-repeatedly-soft-blocked-on-linux-with-iwlwifi-firmware-crashes"
+  },
+  {
+    "slug": "system-troubleshooting-14-ubuntu-24-04-3-no-audio-on-gigabyte-ga-720-us3",
+    "title": "Ubuntu 24.04.3 - no audio on Gigabyte GA-720-US3",
+    "description": "Tags: ubuntu, audio | Score: 1 | Views: 40 | Answers: 1 | Created: 2026-01-14",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803743/ubuntu-24-04-3-no-audio-on-gigabyte-ga-720-us3"
+  },
+  {
+    "slug": "system-troubleshooting-15-bluetooth-audio-device-not-recognized-in-playback-devices",
+    "title": "Bluetooth Audio Device Not Recognized in Playback Devices",
+    "description": "Tags: debian, pulseaudio, bluetooth, jack | Score: 1 | Views: 194 | Answers: 2 | Created: 2026-01-15",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803757/bluetooth-audio-device-not-recognized-in-playback-devices"
+  },
+  {
+    "slug": "system-troubleshooting-16-how-can-i-require-a-password-before-allowing-usb-flash-drives-on-ubuntu",
+    "title": "How can I require a password before allowing USB flash drives on Ubuntu?",
+    "description": "Tags: ubuntu, mount, security, usb, usb-drive | Score: 1 | Views: 175 | Answers: 1 | Created: 2026-01-17",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803833/how-can-i-require-a-password-before-allowing-usb-flash-drives-on-ubuntu"
+  },
+  {
+    "slug": "system-troubleshooting-17-upower-how-to-enforce-charging-start-end-thresholds",
+    "title": "upower: how to enforce charging start & end thresholds?",
+    "description": "Tags: debian, power-management, laptop, battery | Score: 1 | Views: 360 | Answers: 1 | Created: 2026-01-18",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803869/upower-how-to-enforce-charging-start-end-thresholds"
+  },
+  {
+    "slug": "system-troubleshooting-18-systemd-greetd-service-being-replaced-with-masked-gdm3-service-after-every-update",
+    "title": "Systemd `greetd` service being replaced with masked `gdm3` service after every update",
+    "description": "Tags: debian, systemd, gnome, display-manager | Score: 1 | Views: 121 | Answers: 1 | Created: 2026-01-19",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803886/systemd-greetd-service-being-replaced-with-masked-gdm3-service-after-every-u"
+  },
+  {
+    "slug": "system-troubleshooting-19-how-can-i-exclude-a-single-bssid-from-a-wireless-network-while-allowing-multiple-others",
+    "title": "How can I exclude a single BSSID from a wireless network while allowing multiple others?",
+    "description": "Tags: linux, networking, wifi, mac-address, netplan | Score: 1 | Views: 99 | Answers: 1 | Created: 2026-01-21",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803933/how-can-i-exclude-a-single-bssid-from-a-wireless-network-while-allowing-multiple"
+  },
+  {
+    "slug": "system-troubleshooting-20-how-do-you-fix-no-protocol-specified-during-wake-from-sleep-in-linux",
+    "title": "How do you fix \"no protocol specified\" during wake from sleep in Linux?",
+    "description": "Tags: linux, xrandr, suspend | Score: 1 | Views: 49 | Answers: 1 | Created: 2026-01-29",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/804111/how-do-you-fix-no-protocol-specified-during-wake-from-sleep-in-linux"
+  },
+  {
+    "slug": "system-troubleshooting-21-cannot-set-valid-lft-to-forever-in-ubuntu-24-04-with-diskless-network-boot-causes-freeze",
+    "title": "Cannot set valid_lft to forever in Ubuntu 24.04 with diskless network boot, causes freeze",
+    "description": "Tags: ubuntu, freeze, netboot | Score: 2 | Views: 176 | Answers: 1 | Created: 2025-04-25",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/794181/cannot-set-valid-lft-to-forever-in-ubuntu-24-04-with-diskless-network-boot-caus"
+  },
+  {
+    "slug": "system-troubleshooting-22-docker-can-t-access-to-some-tagged-images",
+    "title": "docker can't access to some tagged images",
+    "description": "Tags: ubuntu, docker, repository, docker-compose, tagging | Score: 2 | Views: 230 | Answers: 1 | Created: 2025-05-24",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/796234/docker-cant-access-to-some-tagged-images"
+  },
+  {
+    "slug": "system-troubleshooting-23-try-netconsole-in-single-machine-but-not-working",
+    "title": "Try netconsole in single machine, but not working",
+    "description": "Tags: ubuntu, kernel, kernel-modules, udp | Score: 2 | Views: 259 | Answers: 1 | Created: 2025-06-09",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/796825/try-netconsole-in-single-machine-but-not-working"
+  },
+  {
+    "slug": "system-troubleshooting-24-how-can-i-get-linux-console-output-on-both-igpu-hdmi-and-ipmi-ast-simultaneously",
+    "title": "How can I get Linux console output on both iGPU (HDMI) and IPMI (AST) simultaneously?",
+    "description": "Tags: ubuntu, grub2, tty, console, framebuffer | Score: 2 | Views: 473 | Answers: 2 | Created: 2025-06-19",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/797204/how-can-i-get-linux-console-output-on-both-igpu-hdmi-and-ipmi-ast-simultaneo"
+  },
+  {
+    "slug": "system-troubleshooting-25-disable-wakeup-on-plugging-in-usb-c-power",
+    "title": "Disable wakeup on plugging in USB-C power",
+    "description": "Tags: linux, usb, power-management, suspend, acpi | Score: 2 | Views: 262 | Answers: 1 | Created: 2025-10-03",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/800189/disable-wakeup-on-plugging-in-usb-c-power"
+  },
+  {
+    "slug": "system-troubleshooting-26-tool-to-display-ddr5-ram-spd-timings-mt-profiles",
+    "title": "Tool to display DDR5 RAM SPD timings/MT profiles",
+    "description": "Tags: linux, software-rec, ram | Score: 2 | Views: 918 | Answers: 1 | Created: 2025-10-06",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/800257/tool-to-display-ddr5-ram-spd-timings-mt-profiles"
+  },
+  {
+    "slug": "system-troubleshooting-27-how-to-forget-running-but-canceled-transactions-in-a-btrfs-recovery",
+    "title": "How to forget running but canceled transactions in a btrfs recovery?",
+    "description": "Tags: linux, data-recovery, btrfs, journaling | Score: 2 | Views: 212 | Answers: 1 | Created: 2025-10-11",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/800394/how-to-forget-running-but-canceled-transactions-in-a-btrfs-recovery"
+  },
+  {
+    "slug": "system-troubleshooting-28-find-laptop-internal-keyboard-controller-model-vendor-product",
+    "title": "Find laptop internal keyboard Controller model/vendor/Product #",
+    "description": "Tags: linux, keyboard, input | Score: 2 | Views: 182 | Answers: 2 | Created: 2025-10-20",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/800614/find-laptop-internal-keyboard-controller-model-vendor-product"
+  },
+  {
+    "slug": "system-troubleshooting-29-inadvertently-installed-texlive-base-and-texlive-binaries-while-a-tex-live-installation-is-already-present-on-my-system",
+    "title": "Inadvertently installed texlive-base and texlive-binaries while a TeX Live installation is already present on my system",
+    "description": "Tags: debian, apt, latex | Score: 2 | Views: 252 | Answers: 2 | Created: 2025-11-26",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/801618/inadvertently-installed-texlive-base-and-texlive-binaries-while-a-tex-live-insta"
+  },
+  {
+    "slug": "system-troubleshooting-30-libreoffice-looks-old-and-ugly-in-debian-kde-how-to-make-it-use-the-proper-dark-breeze-theme-and-look-normal-again",
+    "title": "LibreOffice looks old and ugly in Debian/KDE - how to make it use the proper dark breeze theme and look normal again?",
+    "description": "Tags: debian, kde, gui, theme, libreoffice | Score: 2 | Views: 577 | Answers: 1 | Created: 2025-12-10",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/801955/libreoffice-looks-old-and-ugly-in-debian-kde-how-to-make-it-use-the-proper-dar"
+  },
+  {
+    "slug": "system-troubleshooting-31-what-out-of-the-box-options-exist-for-quickly-shutting-down-kde-plasma-using-only-the-keyboard",
+    "title": "What out-of-the-box options exist for quickly shutting down KDE Plasma, using only the keyboard?",
+    "description": "Tags: debian, kde, keyboard-shortcuts, shutdown, plasma | Score: 2 | Views: 1430 | Answers: 5 | Created: 2025-12-26",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803307/what-out-of-the-box-options-exist-for-quickly-shutting-down-kde-plasma-using-on"
+  },
+  {
+    "slug": "system-troubleshooting-32-unattended-upgrades-uses-wrong-hostname-after-switching-from-msmtp-to-postfix",
+    "title": "unattended-upgrades uses wrong hostname after switching from msmtp to Postfix",
+    "description": "Tags: ubuntu, postfix, unattended-upgrades | Score: 3 | Views: 174 | Answers: 1 | Created: 2025-05-05",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/794523/unattended-upgrades-uses-wrong-hostname-after-switching-from-msmtp-to-postfix"
+  },
+  {
+    "slug": "system-troubleshooting-33-how-do-i-autosource-path-and-venvs-in-bin-sh-posix-sh-for-docker-pods",
+    "title": "How do I autosource path and venvs in /bin/sh (posix sh) for docker pods",
+    "description": "Tags: ubuntu, shell, docker | Score: 3 | Views: 222 | Answers: 2 | Created: 2025-07-01",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/797577/how-do-i-autosource-path-and-venvs-in-bin-sh-posix-sh-for-docker-pods"
+  },
+  {
+    "slug": "system-troubleshooting-34-what-is-the-best-way-to-detect-busy-cpu-cores-for-blk-mq-request-steering-in-linux-kernel",
+    "title": "What is the best way to detect busy CPU cores for blk-mq request steering in Linux kernel?",
+    "description": "Tags: linux, filesystems, linux-kernel, io, storage | Score: 3 | Views: 91 | Answers: 1 | Created: 2025-10-16",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/800527/what-is-the-best-way-to-detect-busy-cpu-cores-for-blk-mq-request-steering-in-lin"
+  },
+  {
+    "slug": "system-troubleshooting-35-syntax-error-on-ssed-for-regex-subroutine-definitions",
+    "title": "Syntax Error on ssed for Regex Subroutine definitions",
+    "description": "Tags: linux, sed, regular-expression, perl, pcre | Score: 3 | Views: 229 | Answers: 2 | Created: 2025-10-26",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/800772/syntax-error-on-ssed-for-regex-subroutine-definitions"
+  },
+  {
+    "slug": "system-troubleshooting-36-deleted-all-partitions-in-a-drive-now-the-drive-won-t-show-up-in-dolphin",
+    "title": "Deleted all partitions in a drive, now the drive won't show up in Dolphin",
+    "description": "Tags: debian, partition, kde, dolphin | Score: 3 | Views: 611 | Answers: 1 | Created: 2025-12-24",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803290/deleted-all-partitions-in-a-drive-now-the-drive-wont-show-up-in-dolphin"
+  },
+  {
+    "slug": "system-troubleshooting-37-how-can-i-list-all-supported-architectures-of-a-package-by-apt-command",
+    "title": "How can I list all supported architectures of a package by apt command?",
+    "description": "Tags: ubuntu, apt, architecture | Score: 4 | Views: 1359 | Answers: 2 | Created: 2025-05-12",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/794756/how-can-i-list-all-supported-architectures-of-a-package-by-apt-command"
+  },
+  {
+    "slug": "system-troubleshooting-38-how-can-i-find-common-prefixes-in-file-names-to-group-them",
+    "title": "How can I find common prefixes in file names to group them?",
+    "description": "Tags: linux, bash, text-processing, find, filenames | Score: 4 | Views: 561 | Answers: 4 | Created: 2025-10-07",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/800287/how-can-i-find-common-prefixes-in-file-names-to-group-them"
+  },
+  {
+    "slug": "system-troubleshooting-39-are-there-any-options-for-the-nmcli-command-that-outputs-the-ssid-of-a-wifi-including-if-present-trailing-spaces",
+    "title": "Are there any options for the nmcli command that outputs the SSID of a wifi including, if present, trailing spaces?",
+    "description": "Tags: linux, wifi, nmcli | Score: 4 | Views: 416 | Answers: 3 | Created: 2025-10-08",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/800304/are-there-any-options-for-the-nmcli-command-that-outputs-the-ssid-of-a-wifi-incl"
+  },
+  {
+    "slug": "system-troubleshooting-40-hardware-encryption-on-samsung-ssd-using-debian",
+    "title": "Hardware encryption on Samsung SSD using Debian",
+    "description": "Tags: linux, dual-boot, encryption, ssd | Score: 4 | Views: 935 | Answers: 1 | Created: 2025-11-12",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/801276/hardware-encryption-on-samsung-ssd-using-debian"
+  },
+  {
+    "slug": "system-troubleshooting-41-can-someone-explain-this-apparent-btrfs-confusion",
+    "title": "Can someone explain this apparent btrfs confusion?",
+    "description": "Tags: debian, btrfs, snapshot, snapper, raspberry-pi-os | Score: 4 | Views: 504 | Answers: 2 | Created: 2025-12-22",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803216/can-someone-explain-this-apparent-btrfs-confusion"
+  },
+  {
+    "slug": "system-troubleshooting-42-which-linux-distributions-bind-ttys-to-control-alt-f13-to-f24-keys",
+    "title": "Which Linux distributions bind TTYs to Control + Alt + F13 to F24 keys?",
+    "description": "Tags: linux, tty | Score: 5 | Views: 601 | Answers: 1 | Created: 2025-10-02",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/800146/which-linux-distributions-bind-ttys-to-control-alt-f13-to-f24-keys"
+  },
+  {
+    "slug": "system-troubleshooting-43-nvme-unable-to-change-power-state-from-d3cold-to-d0-device-inaccessible",
+    "title": "NVMe: Unable to change power state from D3cold to D0, device inaccessible",
+    "description": "Tags: linux, drivers, pci, nvme | Score: 5 | Views: 893 | Answers: 1 | Created: 2025-10-16",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/800501/nvme-unable-to-change-power-state-from-d3cold-to-d0-device-inaccessible"
+  },
+  {
+    "slug": "system-troubleshooting-44-x11-forwarding-cannot-type-single-or-double-quotes",
+    "title": "X11 forwarding cannot type single or double quotes",
+    "description": "Tags: debian, x11, windows, xforwarding | Score: 5 | Views: 440 | Answers: 1 | Created: 2025-12-30",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803391/x11-forwarding-cannot-type-single-or-double-quotes"
+  },
+  {
+    "slug": "system-troubleshooting-45-encrypted-swap-with-fde",
+    "title": "Encrypted swap with FDE?",
+    "description": "Tags: debian, security, encryption, swap, disk-encryption | Score: 6 | Views: 708 | Answers: 3 | Created: 2025-12-17",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803076/encrypted-swap-with-fde"
+  },
+  {
+    "slug": "system-troubleshooting-46-after-debian-13-upgrade-sshd-not-starting-after-reboot",
+    "title": "after Debian 13 upgrade sshd not starting after reboot",
+    "description": "Tags: debian, sshd, ipv6 | Score: 6 | Views: 913 | Answers: 3 | Created: 2025-12-24",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803277/after-debian-13-upgrade-sshd-not-starting-after-reboot"
+  },
+  {
+    "slug": "system-troubleshooting-47-how-do-i-add-a-text-editor-to-my-debian-based-initramfs",
+    "title": "How do I add a text editor to my (debian-based) initramfs?",
+    "description": "Tags: debian, initramfs, debugging | Score: 7 | Views: 475 | Answers: 1 | Created: 2025-12-05",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/801855/how-do-i-add-a-text-editor-to-my-debian-based-initramfs"
+  },
+  {
+    "slug": "system-troubleshooting-48-which-linux-file-system-should-i-use-for-compatibility-with-windows-programs",
+    "title": "Which Linux file system should I use for compatibility with Windows programs?",
+    "description": "Tags: linux, filesystems, ext4, ntfs | Score: 9 | Views: 2295 | Answers: 2 | Created: 2025-10-31",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/800919/which-linux-file-system-should-i-use-for-compatibility-with-windows-programs"
+  },
+  {
+    "slug": "system-troubleshooting-49-how-can-i-make-sudo-apt-install-warn-me-that-i-m-about-to-pull-from-debian-unstable",
+    "title": "How can I make sudo apt install warn me that I'm about to pull from Debian Unstable?",
+    "description": "Tags: debian, apt, virtualbox | Score: 10 | Views: 735 | Answers: 3 | Created: 2025-12-27",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/803343/how-can-i-make-sudo-apt-install-warn-me-that-im-about-to-pull-from-debian-unsta"
+  },
+  {
+    "slug": "system-troubleshooting-50-why-does-seq-1000000-tee-dev-stdout-produce-more-single-digit-numbers-than-expected",
+    "title": "Why does \"seq 1000000 | tee /dev/stdout\" produce more single-digit numbers than expected?",
+    "description": "Tags: linux, bash, stdout, tee, seq | Score: 15 | Views: 1693 | Answers: 2 | Created: 2025-10-08",
+    "category": "system-troubleshooting",
+    "markdown_path": "system-troubleshooting/index.md",
+    "source_url": "https://unix.stackexchange.com/questions/800331/why-does-seq-1000000-tee-dev-stdout-produce-more-single-digit-numbers-than"
+  }
+]

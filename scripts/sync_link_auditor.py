@@ -25,6 +25,18 @@ EXPECTED_LINKS: Dict[str, List[str]] = {
     ],
     "network-security/index.md": [
         "../README.md",
+        "windows.md",
+        "linux.md",
+        "macos.md",
+    ],
+    "network-security/windows.md": [
+        "index.md",
+    ],
+    "network-security/linux.md": [
+        "index.md",
+    ],
+    "network-security/macos.md": [
+        "index.md",
     ],
     "system-vulnerabilities/index.md": [
         "../README.md",

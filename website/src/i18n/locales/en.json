@@ -135,7 +135,13 @@
     "mitigationLabel": "Mitigation / Mitigation",
     "referencesLabel": "References / References",
     "added": "Added",
-    "databaseInfo": "Also available in network-security.db"
+    "databaseInfo": "Also available in network-security.db",
+    "platforms": {
+      "windows": "Windows",
+      "linux": "Linux",
+      "macos": "macOS"
+    },
+    "emptyForPlatform": "No entries found for this platform."
   },
   "systemVulnerabilities": {
     "breadcrumb": "Home / Categories / System Vulnerabilities",

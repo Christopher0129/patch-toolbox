@@ -12,7 +12,7 @@
 
 | 分类 | 入口 | 说明 |
 |------|------|------|
-| 网络安全漏洞 | [network-security/index.md](network-security/index.md) | CVE 漏洞库、公开利用、GitHub 安全公告、CISA 紧急漏洞 |
+| 网络安全漏洞 | [network-security/index.md](network-security/index.md) | Windows / Linux / macOS 平台化网络漏洞知识库 |
 | 系统漏洞 | [system-vulnerabilities/index.md](system-vulnerabilities/index.md) | Windows / Linux / macOS 系统级漏洞及补丁信息 |
 | 系统故障排障 | [system-troubleshooting/index.md](system-troubleshooting/index.md) | Windows / Linux / macOS 常见故障及社区验证方案 |
 
@@ -36,7 +36,7 @@ A long-term maintained security knowledge base collecting network vulnerabilitie
 
 | Category | Entry | Description |
 |----------|-------|-------------|
-| Network Security | [network-security/index.md](network-security/index.md) | CVE database, public exploits, GitHub security advisories, CISA emergency vulnerabilities |
+| Network Security | [network-security/index.md](network-security/index.md) | Platform-split network security knowledge base for Windows / Linux / macOS |
 | System Vulnerabilities | [system-vulnerabilities/index.md](system-vulnerabilities/index.md) | OS-level vulnerabilities and patch info for Windows / Linux / macOS |
 | System Troubleshooting | [system-troubleshooting/index.md](system-troubleshooting/index.md) | Common system issues and community-verified solutions for Windows / Linux / macOS |
 

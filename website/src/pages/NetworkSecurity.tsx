@@ -23,6 +23,8 @@ import { cn } from '@/lib/utils';
 /* ─── Types ─── */
 type Severity = 'CRITICAL' | 'HIGH' | 'MEDIUM' | 'LOW' | 'N/A' | 'EXPLOIT';
 type Source = 'NVD' | 'Exploit-DB' | 'GitHub' | 'CISA';
+type Platform = 'windows' | 'linux' | 'macos';
+const PLATFORM_ORDER: Platform[] = ['windows', 'linux', 'macos'];
 
 interface Vulnerability {
   id: string;
@@ -34,6 +36,7 @@ interface Vulnerability {
   affected: string[];
   mitigation?: string;
   references?: string[];
+  platform?: Platform | null;
 }
 
 /* ─── Fallback data (will be replaced by generated static data) ─── */
@@ -385,6 +388,7 @@ export default function NetworkSecurity() {
 
   const [search, setSearch] = useState('');
   const [data, setData] = useState<Vulnerability[]>(FALLBACK_DATA);
+  const [activeTab, setActiveTab] = useState<Platform>('windows');
 
   useEffect(() => {
     loadEntries().then((entries) => {
@@ -398,6 +402,7 @@ export default function NetworkSecurity() {
   const [sortBy, setSortBy] = useState<SortOption>('newest');
   const [sourceDropdownOpen, setSourceDropdownOpen] = useState(false);
   const [sortDropdownOpen, setSortDropdownOpen] = useState(false);
+
   const [selectedVuln, setSelectedVuln] = useState<Vulnerability | null>(null);
 
   /* Derived counts for stats */
@@ -419,6 +424,9 @@ export default function NetworkSecurity() {
   /* Filter & sort */
   const filtered = useMemo(() => {
     let items = [...data];
+
+    // Platform filter first — pure 3-tab design (no 'all' tab)
+    items = items.filter((v) => v.platform === activeTab);
 
     if (search.trim()) {
       const q = search.toLowerCase();
@@ -454,7 +462,7 @@ export default function NetworkSecurity() {
     }
 
     return items;
-  }, [search, severityFilter, sourceFilter, sortBy, data]);
+  }, [search, severityFilter, sourceFilter, sortBy, data, activeTab]);
 
   const clearFilters = useCallback(() => {
     setSearch('');
@@ -578,12 +586,47 @@ export default function NetworkSecurity() {
             </a>
           </motion.div>
 
+          {/* Platform Tab Bar — pure 3-tab design */}
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.38 }}
+            className="mt-6 flex flex-wrap gap-2"
+          >
+            {PLATFORM_ORDER.map((platform) => {
+              const isActive = activeTab === platform;
+              return (
+                <button
+                  key={platform}
+                  type="button"
+                  onClick={() => setActiveTab(platform)}
+                  className={cn(
+                    'relative rounded-lg border px-5 py-2 text-sm font-medium transition-all',
+                    isActive
+                      ? 'border-accent-blue bg-bg-elevated text-text-primary'
+                      : 'border-border-subtle text-text-muted hover:border-border-active hover:text-text-primary',
+                  )}
+                >
+                  {tx(`platforms.${platform}`)}
+                  {isActive && (
+                    <motion.div
+                      layoutId="ns-active-tab"
+                      className="absolute bottom-0 left-0 right-0 mx-auto h-0.5 w-8 rounded-full"
+                      style={{ backgroundColor: '#3B82F6' }}
+                      transition={{ type: 'spring', stiffness: 400, damping: 30 }}
+                    />
+                  )}
+                </button>
+              );
+            })}
+          </motion.div>
+
           {/* Stats Row */}
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="mt-2 flex flex-wrap items-center gap-6 md:gap-8"
+            className="mt-4 flex flex-wrap items-center gap-6 md:gap-8"
           >
             <div className="flex items-center gap-2">
               <Database className="h-5 w-5 text-text-muted" />
@@ -787,7 +830,9 @@ export default function NetworkSecurity() {
           >
             <SearchX className="h-16 w-16 text-text-muted" />
             <h2 className="mt-6 font-heading text-2xl font-medium text-text-primary">{tx('noResults')}</h2>
-            <p className="mt-2 text-text-secondary">{tx('noResultsDesc')}</p>
+            <p className="mt-2 text-text-secondary">
+              {tx('emptyForPlatform')} {tx('noResultsDesc')}
+            </p>
             <button
               onClick={clearFilters}
               className="mt-6 rounded-md border border-border-active px-4 py-2 text-sm font-medium text-text-secondary transition-all hover:border-text-muted hover:text-text-primary"
@@ -800,19 +845,12 @@ export default function NetworkSecurity() {
             layout
             className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3"
           >
-            <AnimatePresence mode="popLayout">
-              {filtered.map((vuln, i) => (
-                <motion.article
-                  key={vuln.id}
-                  layout
-                  initial={{ opacity: 0, y: 30 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, scale: 0.95 }}
-                  transition={{
-                    duration: 0.4,
-                    delay: i * 0.06,
-                    ease: [0.16, 1, 0.3, 1] as [number, number, number, number],
-                  }}
+            {filtered.map((vuln) => (
+              <motion.article
+                key={vuln.id}
+                layout
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
                   className="group cursor-pointer"
                   onClick={() => setSelectedVuln(vuln)}
                 >
@@ -876,7 +914,6 @@ export default function NetworkSecurity() {
                   </div>
                 </motion.article>
               ))}
-            </AnimatePresence>
           </motion.div>
         )}
       </section>
