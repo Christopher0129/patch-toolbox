@@ -94,7 +94,7 @@ def generate_ns_md(conn, out_dir: Path):
     rows = c.fetchall()
     
     all_rows = rows
-    
+
     # Bucket by platform
     buckets = {"windows": [], "linux": [], "macos": []}
     for row in all_rows:
@@ -102,6 +102,8 @@ def generate_ns_md(conn, out_dir: Path):
         pf = (platform or "").strip().lower()
         if pf in buckets:
             buckets[pf].append((title, desc, sol, sev, cvss, url, refs_json))
+
+    visible_total = sum(len(buckets[platform]) for platform in ["windows", "linux", "macos"])
     
     # --- index.md ---
     index_lines = [
@@ -111,7 +113,7 @@ def generate_ns_md(conn, out_dir: Path):
         "> 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。",
         "> This knowledge base aggregates publicly disclosed network security vulnerabilities. Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.",
         "",
-        f"**总计条目 / Total entries: {len(all_rows)}**",
+        f"**总计条目 / Total entries: {visible_total}**",
         "",
         "**🔗 导航 / Navigation**",
         "",
@@ -126,7 +128,7 @@ def generate_ns_md(conn, out_dir: Path):
     index_lines.append("")
     
     (out_dir / "index.md").write_text("\n".join(index_lines), encoding="utf-8")
-    print(f"  Written: {out_dir / 'index.md'} ({len(all_rows)} total entries)")
+    print(f"  Written: {out_dir / 'index.md'} ({visible_total} total entries)")
     
     # --- Platform files ---
     for platform in ["windows", "linux", "macos"]:

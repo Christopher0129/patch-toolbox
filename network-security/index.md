@@ -4,7 +4,7 @@
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > This knowledge base aggregates publicly disclosed network security vulnerabilities. Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
 
-**总计条目 / Total entries: 1120**
+**总计条目 / Total entries: 521**
 
 **🔗 导航 / Navigation**
 
