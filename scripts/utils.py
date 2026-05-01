@@ -53,7 +53,8 @@ def dedup_key(item: dict) -> str:
 def filter_new_items(category: str, items: List[dict], keep_old_methods: bool = True) -> List[dict]:
     """
     增量过滤：保留全新条目，同一key的不同方法追加记录。
-    category 示例: "network-security", "sys-vuln-windows", "sys-trouble-linux"
+    category 示例: "network-security", "netsec-windows", "netsec-linux", "netsec-macos",
+                  "sys-vuln-windows", "sys-trouble-linux"
     """
     state = load_state()
     seen = state.get(category, {})

@@ -135,7 +135,13 @@
     "mitigationLabel": "緩和策 / Mitigation",
     "referencesLabel": "参考リンク / References",
     "added": "追加日",
-    "databaseInfo": "network-security.db でも利用可能"
+    "databaseInfo": "network-security.db でも利用可能",
+    "platforms": {
+      "windows": "Windows",
+      "linux": "Linux",
+      "macos": "macOS"
+    },
+    "emptyForPlatform": "このプラットフォームのエントリはありません。"
   },
   "systemVulnerabilities": {
     "breadcrumb": "ホーム / カテゴリー / システム脆弱性",

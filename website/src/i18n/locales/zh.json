@@ -135,7 +135,13 @@
     "mitigationLabel": "缓解方案 / Mitigation",
     "referencesLabel": "参考链接 / References",
     "added": "添加于",
-    "databaseInfo": "亦见于 network-security.db"
+    "databaseInfo": "亦见于 network-security.db",
+    "platforms": {
+      "windows": "Windows",
+      "linux": "Linux",
+      "macos": "macOS"
+    },
+    "emptyForPlatform": "当前平台暂无符合条件的安全漏洞条目。"
   },
   "systemVulnerabilities": {
     "breadcrumb": "首页 / 分类 / 系统漏洞",

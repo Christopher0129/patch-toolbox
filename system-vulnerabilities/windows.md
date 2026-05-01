@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 306**
+**总计条目 / Total entries: 400**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -4127,5 +4127,1661 @@ still valid.
 
 **补丁信息 / Patch Info**:
 Apply patch from vendor. Monitor https://git.kernel.org/stable/c/0d4d6b083da9b033ddccef72d77f373c819ae3ea.
+
+---
+
+#### 307. CVE-1999-0241
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: sun:solaris, xfree86_project:x11r6, sun:sunos, sgi:irix
+
+**漏洞描述 / Description**:
+Guessable magic cookies in X Windows allows remote attackers to execute commands, e.g. through xterm.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0241.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0241
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0241
+
+---
+
+#### 308. CVE-1999-0179
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_nt, microsoft:windows_95
+
+**漏洞描述 / Description**:
+Windows NT crashes or locks up when a Samba client executes a "cd .." command on a file share.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ140818.
+
+**参考链接 / References**:
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ140818
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ140818
+
+---
+
+#### 309. CVE-1999-0249
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Windows NT RSHSVC program allows remote users to execute arbitrary commands.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0249.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-1999-0249
+- https://www.cve.org/CVERecord?id=CVE-1999-0249
+
+---
+
+#### 310. CVE-1999-0274
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Denial of service in Windows NT DNS servers through malicious packet which contains a response to a query that wasn't made.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0274.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0274
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0274
+
+---
+
+#### 311. CVE-1999-0345
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: ibm:aix, sun:sunos, freebsd:freebsd, sco:open_desktop, sco:internet_faststart
+
+**漏洞描述 / Description**:
+Jolt ICMP attack causes a denial of service in Windows 95 and Windows NT systems.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/62170.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/archive/1/62170
+- http://www.securityfocus.com/archive/1/62170
+
+---
+
+#### 312. CVE-1999-0496
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+A Windows NT 4.0 user can gain administrative rights by forcing NtOpenProcessToken to succeed regardless of the user's permissions, aka GetAdmin.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ146965.
+
+**参考链接 / References**:
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ146965
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ146965
+
+---
+
+#### 313. CVE-1999-0503
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+A Windows NT local user or administrator account has a guessable password.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0503.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0503
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0503
+
+---
+
+#### 314. CVE-1999-0504
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+A Windows NT local user or administrator account has a default, null, blank, or missing password.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0504.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0504
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0504
+
+---
+
+#### 315. CVE-1999-0534
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+A Windows NT user has inappropriate rights or privileges, e.g. Act as System, Add Workstation, Backup, Change System Time, Create Pagefile, Create Permanent Object, Create Token Name, Debug, Generate Security Audit, Increase Priority, Increase Quota, Load Driver, Lock Memory, Profile Single Process, Remote Shutdown, Replace Process Token, Restore, System Environment, Take Ownership, or Unsolicited Input.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0534.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-1999-0534
+- https://www.cve.org/CVERecord?id=CVE-1999-0534
+
+---
+
+#### 316. CVE-1999-0535
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+A Windows NT account policy for passwords has inappropriate, security-critical settings, e.g. for password length, password age, or uniqueness.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0535.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0535
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0535
+
+---
+
+#### 317. CVE-1999-0562
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+The registry in Windows NT can be accessed remotely by users who are not administrators.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A1023.
+
+**参考链接 / References**:
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A1023
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A1023
+
+---
+
+#### 318. CVE-1999-0572
+
+**严重程度 / Severity**: N/A | CVSS: 9.3
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+.reg files are associated with the Windows NT registry editor (regedit), making the registry susceptible to Trojan Horse attacks.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/178.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/178
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/178
+
+---
+
+#### 319. CVE-1999-0575
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+A Windows NT system's user audit policy does not log an event success or failure, e.g. for Logon and Logoff, File and Object Access, Use of User Rights, User and Group Management, Security Policy Changes, Restart, Shutdown, and System, and Process Tracking.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0575.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-1999-0575
+- https://www.cve.org/CVERecord?id=CVE-1999-0575
+
+---
+
+#### 320. CVE-1999-0576
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+A Windows NT system's file audit policy does not log an event success or failure for security-critical files or directories.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0576.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-1999-0576
+- https://www.cve.org/CVERecord?id=CVE-1999-0576
+
+---
+
+#### 321. CVE-1999-0582
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+A Windows NT account policy has inappropriate, security-critical settings for lockout, e.g. lockout duration, lockout after bad logon attempts, etc.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0582.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-1999-0582
+- https://www.cve.org/CVERecord?id=CVE-1999-0582
+
+---
+
+#### 322. CVE-1999-0228
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Denial of service in RPCSS.EXE program (RPC Locator) in Windows NT.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ162567.
+
+**参考链接 / References**:
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ162567
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ162567
+
+---
+
+#### 323. CVE-1999-1128
+
+**严重程度 / Severity**: N/A | CVSS: 5.1
+**受影响产品 / Affected Products**: microsoft:internet_explorer
+
+**漏洞描述 / Description**:
+Internet Explorer 3.01 on Windows 95 allows remote malicious web sites to execute arbitrary commands via a .isp file, which is automatically downloaded and executed without prompting the user.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://members.tripod.com/~unibyte/iebug3.htm.
+
+**参考链接 / References**:
+- http://members.tripod.com/~unibyte/iebug3.htm
+- http://oliver.efri.hr/~crv/security/bugs/NT/ie3.html
+- http://members.tripod.com/~unibyte/iebug3.htm
+- http://oliver.efri.hr/~crv/security/bugs/NT/ie3.html
+
+---
+
+#### 324. CVE-1999-1380
+
+**严重程度 / Severity**: N/A | CVSS: 5.1
+**受影响产品 / Affected Products**: symantec:norton_utilities
+
+**漏洞描述 / Description**:
+Symantec Norton Utilities 2.0 for Windows 95 marks the TUNEOCX.OCX ActiveX control as safe for scripting, which allows remote attackers to execute arbitrary commands via the run option through malicious web pages that are accessed by browsers such as Internet Explorer 3.0.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://mlarchive.ima.com/win95/1997/May/0342.html.
+
+**参考链接 / References**:
+- http://mlarchive.ima.com/win95/1997/May/0342.html
+- http://news.zdnet.co.uk/story/0%2C%2Cs2065518%2C00.html
+- http://www.iss.net/security_center/static/7188.php
+- http://www.net-security.sk/bugs/NT/nu20.html
+- http://mlarchive.ima.com/win95/1997/May/0342.html
+
+---
+
+#### 325. CVE-1999-0227
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Access violation in LSASS.EXE (LSA/LSARPC) program in Windows NT allows a denial of service.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ154087.
+
+**参考链接 / References**:
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ154087
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ154087
+
+---
+
+#### 326. CVE-1999-0275
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Denial of service in Windows NT DNS servers by flooding port 53 with too many characters.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0275.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0275
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0275
+
+---
+
+#### 327. CVE-1999-0153
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_95, sco:openserver, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Windows 95/NT out of band (OOB) data denial of service through NETBIOS port, aka WinNuke.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.osvdb.org/1666.
+
+**参考链接 / References**:
+- http://www.osvdb.org/1666
+- http://www.osvdb.org/1666
+
+---
+
+#### 328. CVE-1999-1463
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Windows NT 4.0 before SP3 allows remote attackers to bypass firewall restrictions or cause a denial of service (crash) by sending improperly fragmented IP packets without the first fragment, which the TCP/IP stack incorrectly reassembles into a valid session.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/7219.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/archive/1/7219
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/528
+- http://www.securityfocus.com/archive/1/7219
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/528
+
+---
+
+#### 329. CVE-1999-1217
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+The PATH in Windows NT includes the current working directory (.), which could allow local users to gain privileges by placing Trojan horse programs with the same name as commonly used system programs into certain directories.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=ntbugtraq&m=87602726319426&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=ntbugtraq&m=87602726319426&w=2
+- http://marc.info/?l=ntbugtraq&m=87602726319435&w=2
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/526
+- http://marc.info/?l=ntbugtraq&m=87602726319426&w=2
+- http://marc.info/?l=ntbugtraq&m=87602726319435&w=2
+
+---
+
+#### 330. CVE-1999-1133
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: hp:hp-ux
+
+**漏洞描述 / Description**:
+HP-UX 9.x and 10.x running X windows may allow local attackers to gain privileges via (1) vuefile, (2) vuepad, (3) dtfile, or (4) dtpad, which do not authenticate users.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=87602880019776&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=87602880019776&w=2
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/499
+- http://marc.info/?l=bugtraq&m=87602880019776&w=2
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/499
+
+---
+
+#### 331. CVE-1999-0967
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: microsoft:outlook_express, microsoft:internet_explorer, microsoft:windows_explorer
+
+**漏洞描述 / Description**:
+Buffer overflow in the HTML library used by Internet Explorer, Outlook Express, and Windows Explorer via the res: local resource protocol.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0967.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0967
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0967
+
+---
+
+#### 332. CVE-1999-1581
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Memory leak in Simple Network Management Protocol (SNMP) agent (snmp.exe) for Windows NT 4.0 before Service Pack 4 allows remote attackers to cause a denial of service (memory consumption) via a large number of SNMP packets with Object Identifiers (OIDs) that cannot be decoded.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/kb/q178381/.
+
+**参考链接 / References**:
+- http://support.microsoft.com/kb/q178381/
+- http://www.kb.cert.org/vuls/id/4923
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/8231
+- http://support.microsoft.com/kb/q178381/
+- http://www.kb.cert.org/vuls/id/4923
+
+---
+
+#### 333. CVE-1999-0225
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Windows NT 4.0 allows remote attackers to cause a denial of service via a malformed SMB logon request in which the actual data size does not match the specified size.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.microsoft.com/technet/support/kb.asp?ID=180963.
+
+**参考链接 / References**:
+- http://www.microsoft.com/technet/support/kb.asp?ID=180963
+- http://www.nai.com/nai_labs/asp_set/advisory/25_windows_nt_dos_adv.asp
+- http://www.microsoft.com/technet/support/kb.asp?ID=180963
+- http://www.nai.com/nai_labs/asp_set/advisory/25_windows_nt_dos_adv.asp
+
+---
+
+#### 334. CVE-1999-1361
+
+**严重程度 / Severity**: N/A | CVSS: 6.4
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Windows NT 3.51 and 4.0 running WINS (Windows Internet Name Service) allows remote attackers to cause a denial of service (resource exhaustion) via a flood of malformed packets, which causes the server to slow down and fill the event logs with error messages.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=90221101925891&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=90221101925891&w=2
+- http://marc.info/?l=bugtraq&m=90221101925891&w=2
+
+---
+
+#### 335. CVE-1999-0158
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: cisco:pix_firewall_software
+
+**漏洞描述 / Description**:
+Cisco PIX firewall manager (PFM) on Windows NT allows attackers to connect to port 8080 on the PFM server and retrieve any file whose name and location is known.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.cisco.com/warp/public/770/pixmgrfile-pub.shtml.
+
+**参考链接 / References**:
+- http://www.cisco.com/warp/public/770/pixmgrfile-pub.shtml
+- http://www.osvdb.org/685
+- http://www.cisco.com/warp/public/770/pixmgrfile-pub.shtml
+- http://www.osvdb.org/685
+
+---
+
+#### 336. CVE-1999-0969
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+The Windows NT RPC service allows remote attackers to conduct a denial of service using spoofed malformed RPC packets which generate an error message that is sent to the spoofed host, potentially setting up a loop, aka Snork.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ193233.
+
+**参考链接 / References**:
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ193233
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1998/ms98-014
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ193233
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1998/ms98-014
+
+---
+
+#### 337. CVE-1999-0505
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+A Windows NT domain user or administrator account has a guessable password.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0505.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-1999-0505
+- https://www.cve.org/CVERecord?id=CVE-1999-0505
+
+---
+
+#### 338. CVE-1999-0506
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+A Windows NT domain user or administrator account has a default, null, blank, or missing password.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0506.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-1999-0506
+- https://www.cve.org/CVERecord?id=CVE-1999-0506
+
+---
+
+#### 339. CVE-1999-0546
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+The Windows NT guest account is enabled.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0546.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-1999-0546
+- https://www.cve.org/CVERecord?id=CVE-1999-0546
+
+---
+
+#### 340. CVE-1999-1289
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: mirabilis:icq
+
+**漏洞描述 / Description**:
+ICQ 98 beta on Windows NT leaks the internal IP address of a client in the TCP data segment of an ICQ packet instead of the public address (e.g. through NAT), which provides remote attackers with potentially sensitive information about the client or the internal network configuration.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/11233.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/archive/1/11233
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/1398
+- http://www.securityfocus.com/archive/1/11233
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/1398
+
+---
+
+#### 341. CVE-1999-0200
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+Windows NT FTP server (WFTP) with the guest account enabled without a password allows an attacker to log into the FTP server using any username and password.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.microsoft.com/technet/support/kb.asp?ID=137853.
+
+**参考链接 / References**:
+- http://www.microsoft.com/technet/support/kb.asp?ID=137853
+- http://www.microsoft.com/technet/support/kb.asp?ID=137853
+
+---
+
+#### 342. CVE-1999-0226
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Windows NT TCP/IP processes fragmented IP packets improperly, causing a denial of service.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0226.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0226
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0226
+
+---
+
+#### 343. CVE-1999-0285
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Denial of service in telnet from the Windows NT Resource Kit, by opening then immediately closing a connection.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0285.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-1999-0285
+- https://www.cve.org/CVERecord?id=CVE-1999-0285
+
+---
+
+#### 344. CVE-1999-0549
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Windows NT automatically logs in an administrator upon rebooting.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0549.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0549
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0549
+
+---
+
+#### 345. CVE-1999-0560
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+A system-critical Windows NT file or directory has inappropriate permissions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0560.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-1999-0560
+- https://www.cve.org/CVERecord?id=CVE-1999-0560
+
+---
+
+#### 346. CVE-1999-0570
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Windows NT is not using a password filter utility, e.g. PASSFILT.DLL.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0570.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0570
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0570
+
+---
+
+#### 347. CVE-1999-0577
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+A Windows NT system's file audit policy does not log an event success or failure for non-critical files or directories.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0577.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-1999-0577
+- https://www.cve.org/CVERecord?id=CVE-1999-0577
+
+---
+
+#### 348. CVE-1999-0578
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+A Windows NT system's registry audit policy does not log an event success or failure for security-critical registry keys.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/228.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/228
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/228
+
+---
+
+#### 349. CVE-1999-0579
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+A Windows NT system's registry audit policy does not log an event success or failure for non-critical registry keys.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/228.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/228
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/228
+
+---
+
+#### 350. CVE-1999-0580
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+The HKEY_LOCAL_MACHINE key in a Windows NT system has inappropriate, system-critical permissions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0580.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-1999-0580
+- https://www.cve.org/CVERecord?id=CVE-1999-0580
+
+---
+
+#### 351. CVE-1999-0581
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+The HKEY_CLASSES_ROOT key in a Windows NT system has inappropriate, system-critical permissions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0581.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-1999-0581
+- https://www.cve.org/CVERecord?id=CVE-1999-0581
+
+---
+
+#### 352. CVE-1999-0583
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+There is a one-way or two-way trust relationship between Windows NT domains.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/1284.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/1284
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/1284
+
+---
+
+#### 353. CVE-1999-0584
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+A Windows NT file system is not NTFS.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/195.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/195
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/195
+
+---
+
+#### 354. CVE-1999-0589
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+A system-critical Windows NT registry key has inappropriate permissions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0589.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-1999-0589
+- https://www.cve.org/CVERecord?id=CVE-1999-0589
+
+---
+
+#### 355. CVE-1999-0591
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+An event log in Windows NT has inappropriate access permissions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0591.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-1999-0591
+- https://www.cve.org/CVERecord?id=CVE-1999-0591
+
+---
+
+#### 356. CVE-1999-0592
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+The Logon box of a Windows NT system displays the name of the last user who logged in.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/1353.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/1353
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/1353
+
+---
+
+#### 357. CVE-1999-0593
+
+**严重程度 / Severity**: N/A | CVSS: 4.9
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+The default setting for the Winlogon key entry ShutdownWithoutLogon in Windows NT allows users with physical access to shut down a Windows NT system without logging in.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/59333.
+
+**参考链接 / References**:
+- http://osvdb.org/59333
+- http://technet.microsoft.com/en-us/library/cc722469.aspx
+- http://www.microsoft.com/technet/archive/winntas/deploy/confeat/06wntpcc.mspx?mfr=true
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/1291
+- http://osvdb.org/59333
+
+---
+
+#### 358. CVE-1999-0594
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+A Windows NT system does not restrict access to removable media drives such as a floppy disk drive or CDROM drive.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/1294.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/1294
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/1294
+
+---
+
+#### 359. CVE-1999-0596
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+A Windows NT log file has an inappropriate maximum size or retention period.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/2577.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/2577
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/2577
+
+---
+
+#### 360. CVE-1999-0597
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+A Windows NT account policy does not forcibly disconnect remote users from the server when their logon hours expire.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/1343.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/1343
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/1343
+
+---
+
+#### 361. CVE-1999-0603
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+In Windows NT, an inappropriate user is a member of a group, e.g. Administrator, Backup Operators, Domain Admins, Domain Guests, Power Users, Print Operators, Replicators, System Operators, etc.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0603.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-1999-0603
+- https://www.cve.org/CVERecord?id=CVE-1999-0603
+
+---
+
+#### 362. CVE-1999-0611
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+A system-critical Windows NT registry key has an inappropriate value.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0611.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-1999-0611
+- https://www.cve.org/CVERecord?id=CVE-1999-0611
+
+---
+
+#### 363. CVE-1999-0623
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: "The X Windows service is running.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor vendor advisory.
+
+---
+
+#### 364. CVE-1999-0659
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: "A Windows NT Primary Domain Controller (PDC) or Backup Domain Controller (BDC) is present.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor vendor advisory.
+
+---
+
+#### 365. CVE-1999-0664
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+An application-critical Windows NT registry key has inappropriate permissions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0664.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-1999-0664
+- https://www.cve.org/CVERecord?id=CVE-1999-0664
+
+---
+
+#### 366. CVE-1999-0665
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+An application-critical Windows NT registry key has an inappropriate value.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0665.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-1999-0665
+- https://www.cve.org/CVERecord?id=CVE-1999-0665
+
+---
+
+#### 367. CVE-1999-0391
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt, microsoft:terminal_server
+
+**漏洞描述 / Description**:
+The cryptographic challenge of SMB authentication in Windows 95 and Windows 98 can be reused, allowing an attacker to replay the response and impersonate a user.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://marc.info/?l=bugtraq&m=91552769809542&w=2.
+
+**参考链接 / References**:
+- https://marc.info/?l=bugtraq&m=91552769809542&w=2
+- https://marc.info/?l=bugtraq&m=91552769809542&w=2
+
+---
+
+#### 368. CVE-1999-0119
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Windows NT 4.0 beta allows users to read and delete shares.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/11.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/11
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/11
+
+---
+
+#### 369. CVE-1999-0357
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_98
+
+**漏洞描述 / Description**:
+Windows 98 and other operating systems allows remote attackers to cause a denial of service via crafted "oshare" packets, possibly involving invalid fragmentation offsets.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0357.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0357
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0357
+
+---
+
+#### 370. CVE-1999-1201
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_95, microsoft:windows_98
+
+**漏洞描述 / Description**:
+Windows 95 and Windows 98 systems, when configured with multiple TCP/IP stacks bound to the same MAC address, allow remote attackers to cause a denial of service (traffic amplification) via a certain ICMP echo (ping) packet, which causes all stacks to send a ping response, aka TCP Chorusing.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=ntbugtraq&m=91849617221319&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=ntbugtraq&m=91849617221319&w=2
+- http://www.securityfocus.com/bid/225
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/7542
+- http://marc.info/?l=ntbugtraq&m=91849617221319&w=2
+- http://www.securityfocus.com/bid/225
+
+---
+
+#### 371. CVE-1999-0366
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+In some cases, Service Pack 4 for Windows NT 4.0 can allow access to network shares using a blank password, through a problem with a null NT hash value.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ214840.
+
+**参考链接 / References**:
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ214840
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-004
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ214840
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-004
+
+---
+
+#### 372. CVE-1999-0404
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: smartmax_software:mailmax
+
+**漏洞描述 / Description**:
+Buffer overflow in the Mail-Max SMTP server for Windows systems allows remote command execution.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0404.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0404
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0404
+
+---
+
+#### 373. CVE-1999-0376
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Local users in Windows NT can obtain administrator privileges by changing the KnownDLLs list to reference malicious programs.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-006.
+
+**参考链接 / References**:
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-006
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-006
+
+---
+
+#### 374. CVE-1999-1254
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_nt, microsoft:windows_95, microsoft:windows_98
+
+**漏洞描述 / Description**:
+Windows 95, 98, and NT 4.0 allow remote attackers to cause a denial of service by spoofing ICMP redirect messages from a router, which causes Windows to change its routing tables.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=ntbugtraq&m=92099515709467&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=ntbugtraq&m=92099515709467&w=2
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/1947
+- http://marc.info/?l=ntbugtraq&m=92099515709467&w=2
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/1947
+
+---
+
+#### 375. CVE-1999-0382
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+The screen saver in Windows NT does not verify that its security context has been changed properly, allowing attackers to run programs with elevated privileges.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-008.
+
+**参考链接 / References**:
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-008
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-008
+
+---
+
+#### 376. CVE-1999-0444
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_nt, microsoft:windows_95, microsoft:windows_98
+
+**漏洞描述 / Description**:
+Remote attackers can perform a denial of service in Windows machines using malicious ARP packets, forcing a message box display for each packet or filling up log files.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://marc.info/?l=bugtraq&m=92394891221029&w=2.
+
+**参考链接 / References**:
+- https://marc.info/?l=bugtraq&m=92394891221029&w=2
+- https://marc.info/?l=bugtraq&m=92394891221029&w=2
+
+---
+
+#### 377. CVE-1999-0229
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:internet_information_server
+
+**漏洞描述 / Description**:
+Denial of service in Windows NT IIS server using ..\..
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0229.
+
+**参考链接 / References**:
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0229
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0229
+
+---
+
+#### 378. CVE-1999-0716
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Buffer overflow in Windows NT 4.0 help file utility via a malformed help file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ231605.
+
+**参考链接 / References**:
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ231605
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-015
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ231605
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-015
+
+---
+
+#### 379. CVE-1999-0755
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Windows NT RRAS and RAS clients cache a user's password even if the user has not selected the "Save password" option.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ230681.
+
+**参考链接 / References**:
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ230681
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-017
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ230681
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-017
+
+---
+
+#### 380. CVE-1999-0723
+
+**严重程度 / Severity**: N/A | CVSS: 7.1
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+The Windows NT Client Server Runtime Subsystem (CSRSS) can be subjected to a denial of service when all worker threads are waiting for user input.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ233323.
+
+**参考链接 / References**:
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ233323
+- http://www.ciac.org/ciac/bulletins/j-049.shtml
+- http://www.securityfocus.com/bid/478
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-021
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ233323
+
+---
+
+#### 381. CVE-1999-1365
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Windows NT searches a user's home directory (%systemroot% by default) before other directories to find critical programs such as NDDEAGNT.EXE, EXPLORER.EXE, USERINIT.EXE or TASKMGR.EXE, which could allow local users to bypass access restrictions or gain privileges by placing a Trojan horse program into the root directory, which is writable by default.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=ntbugtraq&m=93069418400856&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=ntbugtraq&m=93069418400856&w=2
+- http://marc.info/?l=ntbugtraq&m=93127894731200&w=2
+- http://www.securityfocus.com/bid/515
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/2336
+- http://marc.info/?l=ntbugtraq&m=93069418400856&w=2
+
+---
+
+#### 382. CVE-1999-0726
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+An attacker can conduct a denial of service in Windows NT by executing a program with a malformed file image header.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ234557.
+
+**参考链接 / References**:
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ234557
+- http://www.securityfocus.com/bid/499
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-023
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ234557
+- http://www.securityfocus.com/bid/499
+
+---
+
+#### 383. CVE-1999-0918
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt, microsoft:windows_95, microsoft:windows_98
+
+**漏洞描述 / Description**:
+Denial of service in various Windows systems via malformed, fragmented IGMP packets.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ238329.
+
+**参考链接 / References**:
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ238329
+- http://www.securityfocus.com/bid/514
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-034
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ238329
+- http://www.securityfocus.com/bid/514
+
+---
+
+#### 384. CVE-1999-0728
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+A Windows NT user can disable the keyboard or mouse by directly calling the IOCTLs which control them.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ236359.
+
+**参考链接 / References**:
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ236359
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-024
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ236359
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-024
+
+---
+
+#### 385. CVE-1999-0721
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Denial of service in Windows NT Local Security Authority (LSA) through a malformed LSA request.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ231457.
+
+**参考链接 / References**:
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ231457
+- http://www.ciac.org/ciac/bulletins/j-049.shtml
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-020
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ231457
+- http://www.ciac.org/ciac/bulletins/j-049.shtml
+
+---
+
+#### 386. CVE-1999-0224
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Denial of service in Windows NT messenger service through a long username.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cve.org/CVERecord?id=CVE-1999-0224.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-1999-0224
+- https://www.cve.org/CVERecord?id=CVE-1999-0224
+
+---
+
+#### 387. CVE-1999-0680
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:terminal_server
+
+**漏洞描述 / Description**:
+Windows NT Terminal Server performs extra work when a client opens a new connection but before it is authenticated, allowing for a denial of service.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ238600.
+
+**参考链接 / References**:
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ238600
+- http://www.ciac.org/ciac/bulletins/j-057.shtml
+- http://www.securityfocus.com/bid/571
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-028
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ238600
+
+---
+
+#### 388. CVE-2000-0328
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Windows NT 4.0 generates predictable random TCP initial sequence numbers (ISN), which allows remote attackers to perform spoofing and session hijacking.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/604.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/604
+- http://www.securityfocus.com/templates/archive.pike?list=1&msg=4.1.19990824165629.00abcb40%40192.168.124.1
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-046
+- http://www.securityfocus.com/bid/604
+- http://www.securityfocus.com/templates/archive.pike?list=1&msg=4.1.19990824165629.00abcb40%40192.168.124.1
+
+---
+
+#### 389. CVE-1999-1356
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: compaq:smartstart
+
+**漏洞描述 / Description**:
+Compaq Integration Maintenance Utility as used in Compaq Insight Manager agent before SmartStart 4.50 modifies the legal notice caption (LegalNoticeCaption) and text (LegalNoticeText) in Windows NT, which could produce a legal notice that is in violation of the security policy.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93646669500991&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=93646669500991&w=2
+- http://marc.info/?l=ntbugtraq&m=93637792706047&w=2
+- http://marc.info/?l=ntbugtraq&m=93759822830815&w=2
+- http://www.iss.net/security_center/static/7763.php
+- http://marc.info/?l=bugtraq&m=93646669500991&w=2
+
+---
+
+#### 390. CVE-1999-0886
+
+**严重程度 / Severity**: N/A | CVSS: 9.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+The security descriptor for RASMAN allows users to point to an alternate location via the Windows NT Service Control Manager.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ242294.
+
+**参考链接 / References**:
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ242294
+- http://www.securityfocus.com/bid/645
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-041
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ242294
+- http://www.securityfocus.com/bid/645
+
+---
+
+#### 391. CVE-1999-0909
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: microsoft:windows_nt, microsoft:windows_95, microsoft:windows_98se, microsoft:terminal_server
+
+**漏洞描述 / Description**:
+Multihomed Windows systems allow a remote attacker to bypass IP source routing restrictions via a malformed packet with IP options, aka the "Spoofed Route Pointer" vulnerability.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ238453.
+
+**参考链接 / References**:
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ238453
+- http://www.securityfocus.com/bid/646
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-038
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ238453
+- http://www.securityfocus.com/bid/646
+
+---
+
+#### 392. CVE-1999-1454
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: macromedia:matrix_screen_saver
+
+**漏洞描述 / Description**:
+Macromedia "The Matrix" screen saver on Windows 95 with the "Password protected" option enabled allows attackers with physical access to the machine to bypass the password prompt by pressing the ESC (Escape) key.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=93915027622690&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=93915027622690&w=2
+- http://marc.info/?l=bugtraq&m=93915027622690&w=2
+
+---
+
+#### 393. CVE-1999-1234
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+LSA (LSASS.EXE) in Windows NT 4.0 allows remote attackers to cause a denial of service via a NULL policy handle in a call to (1) SamrOpenDomain, (2) SamrEnumDomainUsers, and (3) SamrQueryDomainInfo.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=ntbugtraq&m=94096671308565&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=ntbugtraq&m=94096671308565&w=2
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/3293
+- http://marc.info/?l=ntbugtraq&m=94096671308565&w=2
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/3293
+
+---
+
+#### 394. CVE-1999-1531
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: ibm:homepageprint
+
+**漏洞描述 / Description**:
+Buffer overflow in IBM HomePagePrint 1.0.7 for Windows98J allows a malicious Web site to execute arbitrary code on a viewer's system via a long IMG_SRC HTML tag.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=94157187815629&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=94157187815629&w=2
+- http://www.iss.net/security_center/static/7767.php
+- http://www.securityfocus.com/bid/763
+- http://marc.info/?l=bugtraq&m=94157187815629&w=2
+- http://www.iss.net/security_center/static/7767.php
+
+---
+
+#### 395. CVE-1999-0898
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Buffer overflows in Windows NT 4.0 print spooler allow remote attackers to gain privileges or cause a denial of service via a malformed spooler request.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ243649.
+
+**参考链接 / References**:
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ243649
+- http://www.securityfocus.com/bid/768
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-047
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ243649
+- http://www.securityfocus.com/bid/768
+
+---
+
+#### 396. CVE-1999-0899
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+The Windows NT 4.0 print spooler allows a local user to execute arbitrary commands due to inappropriate permissions that allow the user to specify an alternate print provider.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ243649.
+
+**参考链接 / References**:
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ243649
+- http://www.securityfocus.com/bid/769
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-047
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ243649
+- http://www.securityfocus.com/bid/769
+
+---
+
+#### 397. CVE-1999-1065
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: palm_pilot:hotsync_manager
+
+**漏洞描述 / Description**:
+Palm Pilot HotSync Manager 3.0.4 in Windows 98 allows remote attackers to cause a denial of service, and possibly execute arbitrary commands, via a long string to port 14238 while the manager is in network mode.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=94175465525422&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=94175465525422&w=2
+- http://marc.info/?l=bugtraq&m=94175465525422&w=2
+
+---
+
+#### 398. CVE-2000-0330
+
+**严重程度 / Severity**: N/A | CVSS: 7.6
+**受影响产品 / Affected Products**: microsoft:windows_95, microsoft:windows_98
+
+**漏洞描述 / Description**:
+The networking software in Windows 95 and Windows 98 allows remote attackers to execute commands via a long file name string, aka the "File Access URL" vulnerability.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-049.
+
+**参考链接 / References**:
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-049
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-049
+
+---
+
+#### 399. CVE-1999-1110
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:internet_explorer
+
+**漏洞描述 / Description**:
+Windows Media Player ActiveX object as used in Internet Explorer 5.0 returns a specific error code when a file does not exist, which allows remote malicious web sites to determine the existence of files on the client.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/34675.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/archive/1/34675
+- http://www.securityfocus.com/bid/793
+- http://www.securityfocus.com/archive/1/34675
+- http://www.securityfocus.com/bid/793
+
+---
+
+#### 400. CVE-1999-0987
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Windows NT does not properly download a system policy if the domain user logs into the domain with a space at the end of the domain name.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ237923.
+
+**参考链接 / References**:
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ237923
+- http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ237923
 
 ---

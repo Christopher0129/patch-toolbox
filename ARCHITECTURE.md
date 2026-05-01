@@ -1,156 +1,177 @@
-# patch-toolbox Architecture
+# patch-toolbox 仓库架构总览
 
-## Overview
+## 🗂️ 文件树（实际）
 
-`patch-toolbox` is a public security knowledge repository.
-
-Its public-facing responsibility is to provide:
-- curated security and troubleshooting content
-- SQLite datasets for programmatic use
-- Markdown documents for direct reading
-- lightweight repository-local validation/build helpers
-
-This document describes the repository itself.
-It does **not** define private automation, host-local paths, cron wiring, mirror publishing, or operations workflows.
-
----
-
-## Repository Scope
-
-The repository is organized around three content domains:
-- `network-security/`
-- `system-vulnerabilities/`
-- `system-troubleshooting/`
-
-Those domains are published in two parallel forms:
-- **SQLite databases** in `db/`
-- **Markdown documents** in the category directories
-
-The goal is simple:
-- humans can browse Markdown directly
-- tools can query SQLite directly
-
----
-
-## Top-Level Structure
-
-```text
+```
 patch-toolbox/
-├── README.md
-├── LICENSE
-├── CONTRIBUTING.md
-├── ARCHITECTURE.md
-├── db/
+│
+├── 📄 README.md                      # 中英双语项目说明
+├── 📄 LICENSE                        # MIT 许可证
+├── 📄 CONTRIBUTING.md                # 贡献指南
+├── 📄 .gitignore                     # 排除 logs/state 不上传
+│
+├── 📁 network-security/              # 网络安全漏洞（按 OS 分类）
+│   ├── index.md                      # 总索引 + 导航到三个子文件
+│   ├── windows.md                    # Windows 网络漏洞
+│   ├── linux.md                      # Linux 网络漏洞
+│   └── macos.md                      # macOS 网络漏洞
+│
+├── 📁 system-vulnerabilities/        # 系统漏洞（按 OS 分类）
+│   ├── index.md                      # 总索引 + 导航到三个子文件
+│   ├── windows.md                    # Windows 漏洞（50+条，中英双语）
+│   ├── linux.md                      # Linux 漏洞（50+条，中英双语）
+│   └── macos.md                      # macOS 漏洞（50+条，中英双语）
+│
+├── 📁 system-troubleshooting/        # 系统故障与解决（按 OS 分类）
+│   ├── index.md                      # 总索引 + 导航到三个子文件
+│   ├── windows.md                    # Windows 故障（50+条，中英双语）
+│   ├── linux.md                      # Linux 故障（50+条，中英双语）
+│   └── macos.md                      # macOS 故障（50+条，中英双语）
+│
+├── 📁 scripts/                       # [本地脚本，不上传GitHub] 全部 Python 自动化脚本
+│   ├── utils.py                      # 🔧 通用工具库
+│   │                                   #   - 去重状态管理 (state.json)
+│   │                                   #   - 中英双语 Markdown 生成器
+│   │                                   #   - GitHub 推送封装
+│   │                                   #   - 日志 & 汇报
+│   │
+│   ├── sync_network_security.py     # 🔄 Sync 1: 网络安全漏洞同步脚本
+│   │                                   #   数据源: NVD API, Exploit-DB RSS,
+│   │                                   #           GitHub Security Advisories, CISA KEV
+│   │
+│   ├── sync_system_vulnerabilities.py  # 🔄 Sync 2: 系统漏洞同步脚本
+│   │                                      #   数据源: NVD API（按厂商关键词过滤）
+│   │                                      #   分类: Windows / Linux / macOS
+│   │
+│   ├── sync_system_troubleshooting.py  # 🔄 Sync 3: 系统故障同步脚本
+│   │                                      #   数据源: Stack Exchange API
+│   │                                      #   站点: Super User, Ask Ubuntu, Ask Different
+│   │                                      #   分类: Windows / Linux / macOS
+│   │
+│   ├── sync_publisher.py            # 🔄 Sync 4: 汇总发布脚本
+│   │                                   #   - 读取三个 sync 报告
+│   │                                   #   - 生成中英双语汇报
+│   │                                   #   - GitHub 推送
+│   │
+│   ├── sync_link_auditor.py         # 🔄 Sync 5: 链接拓扑梳理（每12小时）
+│   │                                   #   - 检查所有md的交叉链接
+│   │                                   #   - 自动修复缺失导航
+│   │
+│
+├── 📁 agents/                        # Sync 运行时日志与报告目录
+│   ├── sync-network-security.log
+│   ├── sync-network-security_report.json
+│   ├── sync-system-vulnerabilities.log
+│   ├── sync-system-vulnerabilities_report.json
+│   ├── sync-system-troubleshooting.log
+│   ├── sync-system-troubleshooting_report.json
+│   ├── sync-publisher.log
+│   ├── sync-link-auditor.log
+│   ├── sync-link-auditor_report.json
+│   ├── report_latest.md              # 最新一次汇总汇报（中英双语）
+│   ├── summary.txt                   # 简短文字汇报
+│   └── cron.log                      # cron 运行日志
+│
+├── 📁 db/                            # SQLite 数据文件
 │   ├── network-security.db
 │   ├── system-vulnerabilities.db
 │   └── system-troubleshooting.db
-├── network-security/
-│   └── index.md
-├── system-vulnerabilities/
-│   ├── index.md
-│   ├── windows.md
-│   ├── linux.md
-│   └── macos.md
-├── system-troubleshooting/
-│   ├── index.md
-│   ├── windows.md
-│   ├── linux.md
-│   └── macos.md
-├── scripts/
-│   ├── regenerate_md.py
-│   ├── validate_structure.py
-│   ├── validate_bilingual.py
-│   ├── verify_db_sync.py
-│   └── ...
-└── .github/
-    └── workflows/
-        └── ci-check.yml
+│
+├── 📁 .github/
+│   └── workflows/
+│       └── ci-check.yml
+│
+└── 📄 state.json                     # 去重数据库（本地，不上传GitHub）
 ```
 
 ---
 
-## Content Layers
+## 🔗 链接拓扑（MD文件间导航）
 
-### 1. SQLite layer
-
-The `db/` directory stores the structured datasets.
-These databases are the canonical machine-readable form used for querying, verification, and regeneration.
-
-### 2. Markdown layer
-
-The category directories provide the reader-facing form.
-They preserve repository readability, Git diff visibility, and direct browsing on code hosting platforms.
-
-### 3. Repository-local helper scripts
-
-The `scripts/` directory contains helper scripts for tasks such as:
-- Markdown regeneration
-- structure validation
-- bilingual format validation
-- dataset consistency checks
-
-These scripts support repository maintenance, but they are not the public architecture themselves.
-
----
-
-## Category Model
-
-### `network-security/`
-General network and ecosystem security advisories, exploit references, and related security disclosures.
-
-### `system-vulnerabilities/`
-OS-level vulnerability content grouped by platform:
-- Windows
-- Linux
-- macOS
-
-### `system-troubleshooting/`
-Operational troubleshooting knowledge grouped by platform:
-- Windows
-- Linux
-- macOS
-
----
-
-## Data and Document Relationship
-
-The expected relationship is:
-
-```text
-SQLite data -> generated/maintained Markdown views -> repository readers/tools
+```
+README.md
+    │
+    ├──► network-security/index.md  ──► ../README.md
+    │       │
+    │       ├──► windows.md  ──► index.md
+    │       ├──► linux.md    ──► index.md
+    │       └──► macos.md    ──► index.md
+    │
+    ├──► system-vulnerabilities/index.md  ──► ../README.md
+    │       │
+    │       ├──► windows.md  ──► index.md
+    │       ├──► linux.md    ──► index.md
+    │       └──► macos.md    ──► index.md
+    │
+    └──► system-troubleshooting/index.md  ──► ../README.md
+            │
+            ├──► windows.md  ──► index.md
+            ├──► linux.md    ──► index.md
+            └──► macos.md    ──► index.md
 ```
 
-In practice:
-- SQLite stores structured entries
-- Markdown exposes stable, readable category pages
-- validation scripts help keep both representations aligned
+每个 `.md` 文件底部自带 **🔗 导航 / Navigation** 区块。
 
 ---
 
-## Documentation Conventions
+## 🔄 数据流向
 
-The repository uses a bilingual structural style:
-- headings and field labels are presented in Chinese / English form when appropriate
-- source technical content may remain in its original language for accuracy
-
-Examples include fields such as:
-- `严重程度 / Severity`
-- `漏洞描述 / Description`
-- `缓解方案 / Mitigation`
-- `参考链接 / References`
-
-This keeps the repository readable for both Chinese-speaking and English-speaking readers without rewriting source technical details unnecessarily.
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                            外部数据源                                    │
+├─────────────┬─────────────────┬─────────────────────┬───────────────────┤
+│ NVD API     │ Exploit-DB RSS  │ GitHub Advisories   │ Stack Exchange    │
+│ (CVE库)     │ (0-Day/Exploit) │ (安全公告)           │ (故障问答)        │
+└──────┬──────┴────────┬────────┴──────────┬──────────┴─────────┬─────────┘
+       │               │                   │                    │
+       ▼               ▼                   ▼                    ▼
+┌─────────────────────────────────────────────────────────────────────────┐
+│  Sync 1         Sync 1            Sync 1          Sync 2 & 3            │
+│  50条CVE        30条Exploit      20条Advisory    各50条/系统同步           │
+└──────┬──────────────────────────────────────────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────────────────────────────────────────┐
+│                         去重过滤 (state.json)                            │
+│  - SHA256哈希键 (CVE ID / URL + 标题)                                    │
+│  - 同一漏洞保留最新，不同方法增量追加                                     │
+└──────┬──────────────────────────────────────────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────────────────────────────────────────┐
+│                         生成中英双语 MD                                   │
+│  network-security/{index,windows,linux,macos}.md                        │
+│  system-vulnerabilities/{windows,linux,macos}.md                        │
+│  system-troubleshooting/{windows,linux,macos}.md                        │
+└──────┬──────────────────────────────────────────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────────────────────────────────────────┐
+│  Agent 4 (Publisher)                                                    │
+│  - 读取报告 → 生成 report_latest.md → GitHub Push                        │
+└─────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## What This Document Intentionally Excludes
+## 分类体系
 
-The following are intentionally **out of scope** for this public architecture document:
-- host-local absolute paths
-- cron schedules and runner topology
-- mirror publishing strategy between hosting platforms
-- private deployment or operations notes
-- local agent/session orchestration details
-- internal review or maintenance playbooks
+所有公开内容严格按照 **Windows / Linux / macOS** 三分栏组织：
 
-If such automation exists, it belongs to external or private operations material rather than the public repository definition.
+| 分类 | Windows | Linux | macOS |
+|------|---------|-------|-------|
+| 网络安全漏洞 | network-security/windows.md | network-security/linux.md | network-security/macos.md |
+| 系统漏洞 | system-vulnerabilities/windows.md | system-vulnerabilities/linux.md | system-vulnerabilities/macos.md |
+| 系统故障排障 | system-troubleshooting/windows.md | system-troubleshooting/linux.md | system-troubleshooting/macos.md |
+
+- **跨平台条目**：可明确归类到多个 OS 的条目，重复写入对应多个栏目。
+- **无法归类条目**：不进入公开三分栏，转人工确认处理。
+
+---
+
+## 📦 GitHub 仓库状态
+
+- **仓库**: https://github.com/Christopher0129/patch-toolbox
+- **协议**: MIT
+- **公开/私有**: 公开
+- **本地路径**: `/root/.openclaw/workspace/patch-toolbox`

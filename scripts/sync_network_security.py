@@ -9,7 +9,29 @@ A+B 方案：A=抓最新，B=翻页深挖补足50条真正新增。
 - Linux: NVD(keyword), RedHat, Ubuntu, Debian, SUSE, Arch, Gentoo, Kernel.org
 - macOS: NVD(keyword), Apple Security, Objective-See, Intego, OpenCVE
 - 通用: NVD, Exploit-DB, GitHub, CISA, PacketStorm, FreeBuf, Anquanke, Kanxue, Xianzhi, Sihou, OSV.dev, Vulners
+
+# ---------------------------------------------------------------------------
+# Automation Handoff Rules — 输出目标定义
+# ---------------------------------------------------------------------------
+# 此脚本只负责抓取数据并写入 SQLite。Markdown 生成由 regenerate_md.py 完成。
+# 但以下规则定义了生成的 markdown 文件预期目标，供自动化流程参考：
+#
+# NETWORK_SECURITY_OUTPUT_RULES = """
+# Write Windows-related network security entries to network-security/windows.md.
+# Write Linux-related network security entries to network-security/linux.md.
+# Write macOS-related network security entries to network-security/macos.md.
+# If an entry applies to multiple platforms, write it to each matching platform file.
+# Do not append full entry bodies to network-security/index.md; keep index.md as
+# category navigation only (links to the three platform files).
+# """
+#
+# regenerate_md.py 中的 generate_ns_md() 函数读取 SQLite 的 platform 字段，
+# 按平台分桶后写入对应的 windows.md / linux.md / macos.md。
+# index.md 只包含导航链接和条数统计，不包含完整条目正文。
+# 跨平台条目（同一 CVE 关联多个 OS）自动重复出现在各平台文件中。
+#
 """
+
 import sys
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
 
@@ -563,14 +585,16 @@ def fetch_os_vulns_deep(os_name: str, min_items: int = 50, max_pages: int = 5) -
             break
 
     # OS 专属源
+    # Platform-specific data sources only — cross-platform sources (Exploit-DB,
+    # GitHub, CISA, Chinese community) are distributed to each platform via NVD
+    # keyword search and shared fetch functions.
     extra_sources = {
         "windows": [lambda: fetch_exploit_db(20)],
         "linux": [fetch_redhat_advisories, fetch_ubuntu_notices, fetch_suse_security, fetch_arch_security, fetch_gentoo_glsa],
         "macos": [fetch_apple_security],
-        "general": [fetch_exploit_db, fetch_github_advisories, fetch_cisa_kev, fetch_anquanke, fetch_kanxue, fetch_xianzhi, fetch_sihou],
     }
 
-    for fn in extra_sources.get(os_name, extra_sources["general"]):
+    for fn in extra_sources.get(os_name, []):
         try:
             batch = fn()
             all_items.extend(batch)
@@ -599,7 +623,11 @@ def run():
     errors = []
     os_counts = {}
 
-    for os_name in ["windows", "linux", "macos", "general"]:
+    # Pure 3-platform split: no "general" / "all" bucket.
+    # Generic (cross-platform) data sources are redistributed to each
+    # platform during fetch; entries without a clear platform signal
+    # are logged but not discarded — see fetch_os_vulns_deep().
+    for os_name in ["windows", "linux", "macos"]:
         log_sync(SYNC_NAME, f"Processing {os_name}...")
         category = f"netsec-{os_name}"
         db_path = get_db_path(category)
@@ -640,7 +668,7 @@ def run():
     # 汇报
     elapsed = time.time() - start_time
     total_all = sum(os_counts.values())
-    extra = f"各平台条目: Windows={os_counts.get('windows',0)}, Linux={os_counts.get('linux',0)}, macOS={os_counts.get('macos',0)}, General={os_counts.get('general',0)}"
+    extra = f"各平台条目: Windows={os_counts.get('windows',0)}, Linux={os_counts.get('linux',0)}, macOS={os_counts.get('macos',0)}"
     send_sync_report(SYNC_NAME, all_new, total_all, errors, elapsed, extra)
 
     report = write_report(SYNC_NAME, all_new, total_all, errors)

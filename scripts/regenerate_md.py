@@ -87,52 +87,92 @@ def display_title(title: str, desc: str = "", limit: int = 100) -> str:
         return summarize_title(display, limit)
     return display
 
-def generate_ns_md(conn, out_path: Path):
+def generate_ns_md(conn, out_dir: Path):
+    out_dir.mkdir(parents=True, exist_ok=True)
     c = conn.cursor()
-    c.execute("SELECT title, description, solution, severity, cvss_score, source_url, refs FROM entries ORDER BY id")
+    c.execute("SELECT title, description, solution, severity, cvss_score, source_url, refs, platform FROM entries ORDER BY id")
     rows = c.fetchall()
     
-    lines = [
+    all_rows = rows
+
+    # Bucket by platform
+    buckets = {"windows": [], "linux": [], "macos": []}
+    for row in all_rows:
+        title, desc, sol, sev, cvss, url, refs_json, platform = row
+        pf = (platform or "").strip().lower()
+        if pf in buckets:
+            buckets[pf].append((title, desc, sol, sev, cvss, url, refs_json))
+
+    visible_total = sum(len(buckets[platform]) for platform in ["windows", "linux", "macos"])
+    
+    # --- index.md ---
+    index_lines = [
         "# 网络安全漏洞知识库 | Network Security Vulnerability Knowledge Base",
         "",
         "> 本知识库汇总公开披露的网络安全漏洞信息，包含 CVE 编号、严重程度、漏洞描述及缓解方案。",
         "> 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。",
         "> This knowledge base aggregates publicly disclosed network security vulnerabilities. Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.",
         "",
-        f"**总计条目 / Total entries: {len(rows)}**",
+        f"**总计条目 / Total entries: {visible_total}**",
         "",
-        "---",
+        "**🔗 导航 / Navigation**",
         "",
+        "| 平台 / Platform | 条目数 / Entries | 链接 / Link |",
+        "|---|---|---|",
     ]
+    for platform in ["windows", "linux", "macos"]:
+        count = len(buckets[platform])
+        index_lines.append(f"| {platform.title()} | {count} | [{platform}.md]({platform}.md) |")
+    index_lines.append("")
+    index_lines.append("---")
+    index_lines.append("")
     
-    for i, (title, desc, sol, sev, cvss, url, refs_json) in enumerate(rows, 1):
-        sev_display = f"{sev or 'N/A'} | CVSS: {cvss}" if cvss else (sev or 'N/A')
-        lines.append(f"#### {i}. {display_title(title, desc)}")
-        lines.append("")
-        lines.append(f"**严重程度 / Severity**: {sev_display}")
-        lines.append("")
-        lines.append("**漏洞描述 / Description**:")
-        lines.append(sanitize_advisory_block(desc) or "N/A")
-        lines.append("")
-        if not _is_empty(sol):
-            lines.append("**缓解方案 / Mitigation**:")
-            lines.append(clean_text(sol))
-            lines.append("")
-        ref_list = json.loads(refs_json) if refs_json else []
-        has_refs = ref_list and not _is_empty(ref_list)
-        if not _is_empty(url) or has_refs:
-            lines.append("**参考链接 / References**:")
-            if has_refs:
-                for r in ref_list[:5]:
-                    lines.append(f"- {clean_text(r)}")
-            elif not _is_empty(url):
-                lines.append(f"- {clean_text(url)}")
-            lines.append("")
-        lines.append("---")
-        lines.append("")
+    (out_dir / "index.md").write_text("\n".join(index_lines), encoding="utf-8")
+    print(f"  Written: {out_dir / 'index.md'} ({visible_total} total entries)")
     
-    out_path.write_text("\n".join(lines), encoding="utf-8")
-    print(f"  Written: {out_path} ({len(lines)} lines)")
+    # --- Platform files ---
+    for platform in ["windows", "linux", "macos"]:
+        rows_platform = buckets[platform]
+        plines = [
+            f"# {platform.title()} 网络安全漏洞 | {platform.title()} Network Security",
+            "",
+            f"**🔙 [返回总索引](index.md) | [Back to Index](index.md)**",
+            "",
+            f"**总计条目 / Total entries: {len(rows_platform)}**",
+            "",
+            "> 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。",
+            "> Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.",
+            "",
+            "---",
+            "",
+        ]
+        for i, (title, desc, sol, sev, cvss, url, refs_json) in enumerate(rows_platform, 1):
+            sev_display = f"{sev or 'N/A'} | CVSS: {cvss}" if cvss else (sev or 'N/A')
+            plines.append(f"#### {i}. {display_title(title, desc)}")
+            plines.append("")
+            plines.append(f"**严重程度 / Severity**: {sev_display}")
+            plines.append("")
+            plines.append("**漏洞描述 / Description**:")
+            plines.append(sanitize_advisory_block(desc) or "N/A")
+            plines.append("")
+            if not _is_empty(sol):
+                plines.append("**缓解方案 / Mitigation**:")
+                plines.append(clean_text(sol))
+                plines.append("")
+            ref_list = json.loads(refs_json) if refs_json else []
+            has_refs = ref_list and not _is_empty(ref_list)
+            if not _is_empty(url) or has_refs:
+                plines.append("**参考链接 / References**:")
+                if has_refs:
+                    for r in ref_list[:5]:
+                        plines.append(f"- {clean_text(r)}")
+                elif not _is_empty(url):
+                    plines.append(f"- {clean_text(url)}")
+                plines.append("")
+            plines.append("---")
+            plines.append("")
+        (out_dir / f"{platform}.md").write_text("\n".join(plines), encoding="utf-8")
+        print(f"  Written: {out_dir / f'{platform}.md'} ({len(rows_platform)} entries)")
 
 def generate_sv_md(conn, out_dir: Path):
     c = conn.cursor()
@@ -287,9 +327,9 @@ def generate_st_md(conn, out_dir: Path):
         print(f"  Written: {out_dir / f'{platform}.md'} ({len(rows)} entries)")
 
 def main():
-    print("[1/3] Generating network-security/index.md ...")
+    print("[1/3] Generating network-security/ ...")
     conn_ns = sqlite3.connect(DB_DIR / "network-security.db")
-    generate_ns_md(conn_ns, PROJECT_ROOT / "network-security" / "index.md")
+    generate_ns_md(conn_ns, PROJECT_ROOT / "network-security")
     conn_ns.close()
     
     print("[2/3] Generating system-vulnerabilities/ ...")
