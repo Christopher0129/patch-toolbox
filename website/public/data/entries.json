@@ -1,1202 +1,2152 @@
 [
   {
-    "slug": "network-security-1-先知-js原型链污染原理及绕过",
-    "title": "[先知] js原型链污染原理及绕过",
-    "description": "一文讲明js原型链污染原理及概念误区，包含常见绕过思路",
+    "slug": "network-security-1-cve-2001-0538",
+    "title": "CVE-2001-0538",
+    "description": "Microsoft Outlook View ActiveX Control in Microsoft Outlook 2002 and earlier allows remote attackers to execute arbitrary commands via a malicious HTML e-mail message or web page.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-2-先知-结合代码分析cve-2026-33439-openam-反序列化漏洞",
-    "title": "[先知] 结合代码分析CVE-2026-33439 OpenAM 反序列化漏洞",
-    "description": "结合代码分析CVE-2026-33439 OpenAM 反序列化漏洞",
+    "slug": "network-security-2-cve-2001-0504",
+    "title": "CVE-2001-0504",
+    "description": "Vulnerability in authentication process for SMTP service in Microsoft Windows 2000 allows remote attackers to use incorrect credentials to gain privileges and conduct activities such as mail relaying.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-3-先知-sglang-gguf-投毒致-rce-漏洞-cve-2026-5760",
-    "title": "[先知] SGLang GGUF 投毒致 RCE 漏洞（CVE-2026-5760）",
-    "description": "该漏洞存在于大模型推理引擎 SGLang 中（影响 v0.5.9 及以下版本）。其核心逻辑非常直接：SGLang 在处理 /v1/rerank 请求时，会读取 GGUF 模型文件中的 tokenizer.chat_template 字段，并将其放入一个无沙箱限制的 Jinja2 环境中进行渲染。",
+    "slug": "network-security-3-cve-2001-1055",
+    "title": "CVE-2001-1055",
+    "description": "The Microsoft Windows network stack allows remote attackers to cause a denial of service (CPU consumption) via a flood of malformed ARP request packets with random source IP and MAC addresses, as demonstrated by ARPNuke.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-4-先知-letta-ai-最新版未修复漏洞",
-    "title": "[先知] Letta AI 最新版未修复漏洞",
-    "description": "该漏洞允许攻击者通过 REST API 提供了一个 /v1/tools/run端点，利用任意 payload 在目标服务器上执行任意 Python 代码或系统命令。",
+    "slug": "network-security-4-cve-2001-0503",
+    "title": "CVE-2001-0503",
+    "description": "Microsoft NetMeeting 3.01 with Remote Desktop Sharing enabled allows remote attackers to cause a denial of service via a malformed string to the NetMeeting service port, aka a variant of the \"NetMeeting Desktop Sharing\" vulnerability.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-5-先知-ai赋能-六阶段ai流水线赋能app安全分析实战",
-    "title": "[先知] 【AI赋能】六阶段AI流水线赋能APP安全分析实战",
-    "description": "面向移动安全分析场景的 6 阶段总控 Skill。用于统一调度 APK 静态侦察、流量与代码对齐、SO/JNI 深度分析、加密与漏洞综合分析、验证设计与报告交付流程。",
+    "slug": "network-security-5-cve-2001-0501",
+    "title": "CVE-2001-0501",
+    "description": "Microsoft Word 2002 and earlier allows attackers to automatically execute macros without warning the user by embedding the macros in a manner that escapes detection by the security scanner.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-6-先知-slopsquatting供应链投毒",
-    "title": "[先知] Slopsquatting供应链投毒",
-    "description": "Slopsquatting——由 slop（对 AI 低质量输出的俗称）和 squatting（域名/包名抢注）组合而成。大语言模型（LLM）在生成代码时会「幻觉」出实际不存在的第三方包名，而攻击者只需提前在 PyPI、npm 等公共包仓库中注册这些幻觉名称，植入恶意载荷，然后静待开发者按照 AI 的建议执行 pip install。",
+    "slug": "network-security-6-cve-2001-0351",
+    "title": "CVE-2001-0351",
+    "description": "Microsoft Windows 2000 telnet service allows a local user to make a certain system call that allows the user to terminate a Telnet session and cause a denial of service.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-7-先知-漏洞分析-node-tar-hardlink边界绕过问题深度分析",
-    "title": "[先知] 【漏洞分析】Node-tar Hardlink边界绕过问题深度分析",
-    "description": "以 Node-tar 的 CVE-2026-24842 为例，分析 hardlink path traversal 是如何绕过提取目录边界的，以及在常见业务场景下，如何一步步演变成任意文件读取、文件覆盖，甚至进一步的代码执行风险",
+    "slug": "network-security-7-cve-2001-0350",
+    "title": "CVE-2001-0350",
+    "description": "Microsoft Windows 2000 telnet service creates named pipes with predictable names and does not properly verify them, which allows local users to execute arbitrary commands by creating a named pipe with the predictable name and associating a malicious program with it, the second of two variants of this vulnerability.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-8-嘶吼-绿盟nf防火墙-筑牢openclaw安全防线-构筑ai时代安全基石",
-    "title": "[嘶吼] 绿盟NF防火墙：筑牢OpenClaw安全防线，构筑AI时代安全基石",
-    "description": "2026年2月至3月，国家工业和信息化部网络安全威胁和漏洞信息共享平台（NVDB）连续两次发布关于OpenClaw（俗称“龙虾”）的安全预警，明确指出其“信任边界模糊”“配置缺陷易引发网络攻击、信息泄露”，并首次提出针对AI智能体应用的&nbsp;“六要六不要”&nbsp;安全建议。紧接着，国家安全部也发布《“龙虾”安全养殖手册》，警示主机被接管、数据被窃取、供应链投毒等原生风险。官方密集发声的背后，是一组触目惊心的数据：·258个已披露漏洞，其中近期发现的82个漏洞里就有12个超危以及21个高危；·46.9万个公网暴露实例，27.2%的实例存在高危漏洞，面临被直接接管风险；·22%&nbsp;受监控企业存在员工私自部署的“影子AI”；·超820个恶意插件潜伏在ClawHub，伪装成实用工具窃取API密钥、执行任意命令。面对这一新型AI工具带来的系统性风险，企业急需一套既能精准发现、又能深",
+    "slug": "network-security-8-cve-2001-0349",
+    "title": "CVE-2001-0349",
+    "description": "Microsoft Windows 2000 telnet service creates named pipes with predictable names and does not properly verify them, which allows local users to execute arbitrary commands by creating a named pipe with the predictable name and associating a malicious program with it, the first of two variants of this vulnerability.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-9-嘶吼-当-小龙虾-潜入内网-如何解决-影子ai-的隐匿危机",
-    "title": "[嘶吼] 当“小龙虾”潜入内网，如何解决“影子AI”的隐匿危机",
-    "description": "近期，OpenClaw（俗称“小龙虾”）这一开源AI智能体因其强大的自主执行能力而迅速爆火，成为众多企业与开发者的效率神器。然而，就在热度持续攀升之际，国家及行业权威机构接连发布重磅预警：这个看似能干的“AI助手”，正因其模糊的信任边界和脆弱的默认安全配置，成为潜伏在企业内网中的高危风险源。从已披露的CVE-2026-25253、CVE-2026-25157到最新的多个供应链投毒事件，多个已知漏洞正威胁着从个人隐私到关键基础设施的安全防线。面对来势汹汹的“龙虾”漏洞潮，传统“只扫不治”的扫描模式已然失效。企业需要的不是一份简单的风险清单，而是一套可管、可控、可追溯的漏洞治理方案。一、治理之困：为何你的网络成了“坏虾”的养殖场？在与众多企业的交流中，我们听到了两种典型的声音：&nbsp;&nbsp;“影子AI”的恐慌：“员工偷偷部署了OpenClaw，我连它们在哪里都不知道，更别提管控了。这",
+    "slug": "network-security-9-cve-2001-0348",
+    "title": "CVE-2001-0348",
+    "description": "Microsoft Windows 2000 telnet service allows attackers to cause a denial of service (crash) via a long logon command that contains a backspace.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-10-嘶吼-龙虾-来袭-绿盟科技三位一体防御体系-让网络告别-裸奔-风险",
-    "title": "[嘶吼] “龙虾”来袭，绿盟科技三位一体防御体系，让网络告别 “裸奔” 风险",
-    "description": "2026年开年，OpenClaw（俗称“龙虾”）这款本地优先的 AI Agent 自动化平台以燎原之势席卷全球，凭借自然语言指令实现 PC 全功能自动化的能力，成为开发者追捧的工具。其支持15+通信平台、多模型调用、自主任务执行等特性，让效率提升的同时，也埋下了巨大的安全隐患。工信部于2026年3月8日正式发布openclaw安全风险预警通报。这款看似便捷的工具，正成为企业网络安全的“特洛伊木马”，筑牢其安全防护防线已成为企业的迫切需求。一、OpenClaw 五大核心安全痛点，直击企业网络软肋OpenClaw 的安全风险并非单一漏洞引发的局部问题，而是贯穿系统架构、权限模型、供应链和数据流转的系统性危机，五大核心痛点直指企业网络安全的薄弱环节，带来全方位的威胁。痛点一：高危漏洞频发，远程代码执行（RCE）风险一触即发OpenClaw 从2025年11月发布到首个高危 CVE 漏洞出现仅耗时",
+    "slug": "network-security-10-cve-2001-0347",
+    "title": "CVE-2001-0347",
+    "description": "Information disclosure vulnerability in Microsoft Windows 2000 telnet service allows remote attackers to determine the existence of user accounts such as Guest, or log in to the server without specifying the domain name, via a malformed userid.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-11-嘶吼-嘶吼安全动态-中央网信办召开全国网络法治工作会议-设备码钓鱼攻击暴增36倍-新型攻击工具在网上大肆扩散",
-    "title": "[嘶吼] 嘶吼安全动态｜中央网信办召开全国网络法治工作会议 设备码钓鱼攻击暴增36倍，新型攻击工具在网上大肆扩散",
-    "description": "嘶吼安全动态【国内新闻】上海人工智能实验室发布“珠穆朗玛计划”，打造AI4S全国中枢摘要：上海AI实验室重磅发布“AGI4S 珠穆朗玛计划”，同步推出DeepLink融合算力平台。该计划旨在通过全维度合作打破算力与数据壁垒，为高能物理、疾病诊断等关键科学领域提供自主受控的智能底座。原文链接：https://www.news.cn/tech/20260408/fe5a61186ceb4582bdcf019c9abe0733/c.html中央网信办召开全国网络法治工作会议，部署 “十五五” 依法治网重点任务摘要：会议明确完善网络法律体系、强化App/SDK个人信息治理、加强网络司法惩戒等五大任务，推进依法治网全面落地。原文链接：https://www.cac.gov.cn/2026-04/08/c_1777384058981550.htm上海警方侦破AI黑稿工厂案，2人操控4000账号抹黑车企",
+    "slug": "network-security-11-cve-2001-0346",
+    "title": "CVE-2001-0346",
+    "description": "Handle leak in Microsoft Windows 2000 telnet service allows attackers to cause a denial of service by starting a large number of sessions and terminating them.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-12-嘶吼-新型crystalrat恶意软件新增远程控制-数据窃取等功能",
-    "title": "[嘶吼] 新型CrystalRAT恶意软件新增远程控制、数据窃取等功能",
-    "description": "一款名为CrystalRAT的新型远程控制木马正在Telegram上以恶意软件即服务（MaaS）模式推广，提供远程控制、数据窃取、键盘记录与剪贴板劫持等核心功能。&nbsp;该恶意软件于今年1月现身，采用分级订阅模式运营。除Telegram频道外，运营者还在YouTube开设专门营销账号，通过功能演示视频进行推广。&nbsp;卡巴斯基研究人员在最近发布的报告中指出，这款木马与WebRAT（Salat窃密木马）高度相似，二者拥有相同的控制面板设计、均使用Go语言编写，且采用类似的机器人销售系统。&nbsp;CrystalX还内置了大量恶作剧功能，用于骚扰用户或干扰其正常工作。尽管带有“娱乐化”外观，该木马仍具备全面且强大的数据窃取能力。Telegram频道推广CrystaX RATCrystalX RAT功能详情卡巴斯基表示，该恶意软件配备了易用的管理后台与自动化生成工具，支持多项自定义配置",
+    "slug": "network-security-12-cve-2001-0345",
+    "title": "CVE-2001-0345",
+    "description": "Microsoft Windows 2000 telnet service allows attackers to prevent idle Telnet sessions from timing out, causing a denial of service by creating a large number of idle sessions.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-13-嘶吼-嘶吼安全动态-八部门联合发布-科技数据安全管理暂行规定-4月10日起实施-黑客利用像素级svg技巧隐藏信用卡窃密代码",
-    "title": "[嘶吼] 嘶吼安全动态|八部门联合发布《 科技数据安全管理暂行规定》，4月10日起实施 黑客利用像素级SVG技巧隐藏信用卡窃密代码",
-    "description": "嘶吼安全动态|【国内新闻】八部门联合发布《科技数据安全管理暂行规定》，4月10日起实施摘要：明确科技数据分类分级、算法备案、跨境管控等要求，强化科研与算力设施安全。原文链接：http://m.toutiao.com/group/7626936382984700451/腾讯QClaw V2上线“龙虾管家”，全流程防护AI操作安全摘要：默认开启安全防护，覆盖Prompt、技能与脚本执行，实时拦截恶意指令、技能投毒、文件误删等风险。原文链接：https://www.sohu.com/a/1007377777_115060?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334新型底层木马NoVoice爆发，全球230万设备中招，格式化无法清除摘要：Rootkit级恶意程序深度感染安卓与iOS，国内90万台设备中招，重置后仍复活，窃取隐私并远程控制。原文链接：http",
+    "slug": "network-security-13-cve-2001-0344",
+    "title": "CVE-2001-0344",
+    "description": "An SQL query method in Microsoft SQL Server 2000 Gold and 7.0 using Mixed Mode allows local database users to gain privileges by reusing a cached connection of the sa administrator account.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-14-嘶吼-progress-sharefile曝新漏洞-可组合实现未认证远程代码执行",
-    "title": "[嘶吼] Progress ShareFile曝新漏洞 可组合实现未认证远程代码执行",
-    "description": "最新发现，企业级安全文件传输解决方案 Progress ShareFile 存在两处漏洞，攻击者可将其组合利用，在无需身份认证的情况下从受影响环境中窃取文件。Progress ShareFile 是一款文档共享与协作产品，广泛应用于大中型企业。此类文件传输平台历来是勒索软件团伙的重点攻击目标，此前 Clop 勒索组织就曾利用 Accellion FTA、SolarWinds Serv-U、Gladinet CentreStack、GoAnywhere MFT、MOVEit Transfer、Cleo 等产品中的漏洞实施大规模数据窃取攻击。&nbsp;watchTowr 的研究人员在 Progress ShareFile 5.x 分支的 Storage Zones Controller（SZC，存储区域控制器）组件中，发现了一处认证绕过漏洞（CVE-2026-2699）和一处远程代码执行漏洞",
+    "slug": "network-security-14-cve-2001-0341",
+    "title": "CVE-2001-0341",
+    "description": "Buffer overflow in Microsoft Visual Studio RAD Support sub-component of FrontPage Server Extensions allows remote attackers to execute arbitrary commands via a long registration request (URL) to fp30reg.dll.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-15-嘶吼-公安部通报37款违规应用-电商类占比超七成-小程序不再是-法外之地",
-    "title": "[嘶吼] 公安部通报37款违规应用，电商类占比超七成，小程序不再是 “法外之地”",
-    "description": "依据《网络安全法》《个人信息保护法》等法律法规，经公安部计算机信息系统安全产品质量监督检验中心检测，37款移动应用存在违法违规收集使用个人信息情况，具体通报如下：1、未公开收集使用规则。涉及21款移动应用如下：《奇峰商城》（支付宝小程序）、《聚优商城》（微信小程序）、《亿秀分期商城》（支付宝小程序）、《鲜范商城》（微信小程序）、《京机数码手机商城》（支付宝小程序）、《创维官方商城》（支付宝小程序）、《万事商城》（支付宝小程序）、《尚至然商城》（支付宝小程序）、《知墨商城》（支付宝小程序）、《领充充电桩商城》（支付宝小程序）、《世有品商城》（支付宝小程序）、《阿京妈会员》（微信小程序）、《仲盛世界SKYMALL》（支付宝小程序）、《衣恋集团商城》（微信小程序）、《快贷分期》（版本4.0.1，应用宝）、《百师商城》（微信小程序）、《松下商城》（微信小程序）、《意尔康官方商城》（微信小程序）、《",
+    "slug": "network-security-15-cve-2001-0340",
+    "title": "CVE-2001-0340",
+    "description": "An interaction between the Outlook Web Access (OWA) service in Microsoft Exchange 2000 Server and Internet Explorer allows attackers to execute malicious script code against a user's mailbox via a message attachment that contains HTML code, which is executed automatically.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-16-嘶吼-梆梆安全发布-2026年q1移动应用安全风险报告-超八成app存隐私违规-数据境外外发风险需高度警惕",
-    "title": "[嘶吼] 梆梆安全发布《2026年Q1移动应用安全风险报告》：超八成APP存隐私违规，数据境外外发风险需高度警惕",
-    "description": "梆梆安全发布《2026年Q1移动应用安全风险报告》。本报告基于梆梆安全移动应用监管平台在2026年一季度的威胁监测数据与深度安全分析成果，系统梳理当前国内移动应用面临的新型攻击技术演进与安全趋势变化，聚焦盗版仿冒、境外数据传输、高危漏洞、个人隐私违规等多个维度，为移动应用安全建设工作提供参考与实践指引。\n当前，我国数字经济与实体经济融合持续深入，移动互联网已演进为支撑社会数字化转型的关键基础设施。根据中国互联网络信息中心（CNNIC）第57次《中国互联网络发展状况统计报告》，截至2025年12月，我国网民规模达11.25亿，互联网普及率突破80%，其中手机网民规模达11.21亿，占比高达99.6%，移动终端在数字接入生态中的核心地位进一步巩固。\n与此同时，用户对移动应用的依赖程度持续加深。数据显示，我国网民人均每周上网时长已达32.5小时，人均使用APP数量接近30款，移动互联网接入流量全",
+    "slug": "network-security-16-cve-2001-1319",
+    "title": "CVE-2001-1319",
+    "description": "Microsoft Exchange 5.5 2000 allows remote attackers to cause a denial of service (hang) via exceptional BER encodings for the LDAP filter type field, as demonstrated by the PROTOS LDAPv3 test suite.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-17-嘶吼-纵横网络靶场社区正式发布-以虚实融合技术构建工业信息安全实战生态",
-    "title": "[嘶吼] 纵横网络靶场社区正式发布 以虚实融合技术构建工业信息安全实战生态",
-    "description": "当前，工业互联网深度融合发展，关键信息基础设施安全防护需求持续攀升，实战型工业信息安全人才短缺、训练场景稀缺、理论与实践脱节等制约行业发展的核心痛点日益凸显。在此背景下，烽台科技打造的聚焦工业信息安全人才培养与生态共建的纵横网络靶场社区正式发布。该平台依托烽台科技十余年工业靶场技术沉淀，以“虚实融合”技术为核心，整合AI智能体、数字孪生等前沿能力，旨在打造工业安全领域“理论+实战+生态”三位一体的服务体系，为高校、企业、科研院所提供专业化的工业安全实训与技术交流空间。从“竞赛工具”到“生态平台”：网络靶场社区的迭代之路回溯烽台科技网络靶场社区的发展历程，其起点可追溯至2015年——公司成立后其核心产品便是工控网络靶场，由此开启了工业安全领域的深耕之路。早期社区更像“竞赛工具”，聚焦赛事聚人气，而此次全新发布的纵横网络靶场社区则进行了针对性升级：不仅保留竞赛模块，还新增实训专区，计划陆续开放",
+    "slug": "network-security-17-cve-2001-1243",
+    "title": "CVE-2001-1243",
+    "description": "Scripting.FileSystemObject in asp.dll for Microsoft IIS 4.0 and 5.0 allows local or remote attackers to cause a denial of service (crash) via (1) creating an ASP program that uses Scripting.FileSystemObject to open a file with an MS-DOS device name, or (2) remotely injecting the device name into ASP programs that internally use Scripting.FileSystemObject.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-18-先知-cve-2026-1207-django-raster-lookups-on-postgis-sql注入漏洞",
-    "title": "[先知] CVE-2026-1207: Django raster lookups on PostGIS SQL注入漏洞",
-    "description": "Django 框架在使用 PostGIS 查询地理栅格（raster）数据时，若将未经验证的用户输入直接作为 band index（波段索引）参数，会引发 SQL 注入",
+    "slug": "network-security-18-cve-2001-0239",
+    "title": "CVE-2001-0239",
+    "description": "Microsoft Internet Security and Acceleration (ISA) Server 2000 Web Proxy allows remote attackers to cause a denial of service via a long web request with a specific type.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-19-先知-pwn核心利用手法归纳总结",
-    "title": "[先知] PWN核心利用手法归纳总结",
-    "description": "结合简单模型实验，直指漏洞利用",
+    "slug": "network-security-19-cve-2001-0238",
+    "title": "CVE-2001-0238",
+    "description": "Microsoft Data Access Component Internet Publishing Provider 8.103.2519.0 and earlier allows remote attackers to bypass Security Zone restrictions via WebDAV requests.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-20-先知-记edusrc的几个未授权案例的挖掘",
-    "title": "[先知] 记edusrc的几个未授权案例的挖掘",
-    "description": "在遇到vue框架的时候,使用相关插件进行接口相关的测试，往往更容易找到突破口。",
+    "slug": "network-security-20-cve-2001-0365",
+    "title": "CVE-2001-0365",
+    "description": "Eudora before 5.1 allows a remote attacker to execute arbitrary code, when the 'Use Microsoft Viewer' and 'allow executables in HTML content' options are enabled, via an HTML email message containing Javascript, with ActiveX controls and malicious code within IMG tags.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-21-先知-软件系统安全赛2026分区赛-web-nodejs",
-    "title": "[先知] 软件系统安全赛2026分区赛 Web NodeJs",
-    "description": "该文章介绍了一道 Node.js CTF 题目的解题思路：攻击者首先利用 /changepassword 接口的 merge() 函数原型链污染漏洞，注入 isAdmin: true 提权为管理员；随后通过 CVE-2026-22709 绕过 vm2 沙箱执行任意命令；最后利用 root 权限的 /backup.sh 定时脚本，将 /flag 内容写入静态目录实现读取。核心链：原型污染提权 → v",
+    "slug": "network-security-21-cve-2001-0337",
+    "title": "CVE-2001-0337",
+    "description": "The Microsoft MS01-014 and MS01-016 patches for IIS 5.0 and earlier introduce a memory leak which allows attackers to cause a denial of service via a series of requests.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-22-先知-2026软件安全赛半决赛pwn-robo-admin-wp-fix-break",
-    "title": "[先知] 2026软件安全赛半决赛PWN Robo_admin WP fix&break",
-    "description": "2026软件安全赛半决赛PWN Robo_admin WP fix&break",
+    "slug": "network-security-22-cve-2001-0336",
+    "title": "CVE-2001-0336",
+    "description": "The Microsoft MS00-060 patch for IIS 5.0 and earlier introduces an error which allows attackers to cause a denial of service via a malformed request.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-23-先知-2025ciscn决赛ez-orw",
-    "title": "[先知] 2025ciscn决赛ez_orw",
-    "description": "这个题目考了花指令，魔改rc4，protobuf，纯字符shellcode，考的很多，这里借此简单的总结一下各个部分",
+    "slug": "network-security-23-cve-2001-0245",
+    "title": "CVE-2001-0245",
+    "description": "Microsoft Index Server 2.0 in Windows NT 4.0, and Indexing Service in Windows 2000, allows remote attackers to read server-side include files via a malformed search request, aka a new variant of the \"Malformed Hit-Highlighting\" vulnerability.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-24-先知-在野利用cve-2026-34621漏洞pdf样本深度分析",
-    "title": "[先知] 在野利用CVE-2026-34621漏洞PDF样本深度分析",
-    "description": "模拟构建漏洞 PDF 响应载荷后发现，该载荷可异常驻留并嵌入 Adobe Acrobat Reader 内部，即便关闭 PDF、重启软件乃至操作系统，仍能持续触发恶意代码执行。",
+    "slug": "network-security-24-cve-2001-0244",
+    "title": "CVE-2001-0244",
+    "description": "Buffer overflow in Microsoft Index Server 2.0 allows remote attackers to execute arbitrary commands via a long search parameter.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-25-先知-2025ccb决赛interpreter",
-    "title": "[先知] 2025ccb决赛interpreter",
-    "description": "一个自定义的序列化的题目",
+    "slug": "network-security-25-cve-2001-0242",
+    "title": "CVE-2001-0242",
+    "description": "Buffer overflows in Microsoft Windows Media Player 7 and earlier allow remote attackers to execute arbitrary commands via (1) a long version tag in an .ASX file, or (2) a long banner tag, a variant of the \".ASX Buffer Overrun\" vulnerability as discussed in MS:MS00-090.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-26-先知-qemu虚拟化逃逸",
-    "title": "[先知] qemu虚拟化逃逸",
-    "description": "第一次做这种类型的，大体记录一下过程",
+    "slug": "network-security-26-cve-2001-0240",
+    "title": "CVE-2001-0240",
+    "description": "Microsoft Word before Word 2002 allows attackers to automatically execute macros without warning the user via a Rich Text Format (RTF) document that links to a template with the embedded macro.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-27-先知-用魔法打败魔法-自动化越狱提示词的生成",
-    "title": "[先知] 用魔法打败魔法：自动化越狱提示词的生成",
-    "description": "自动化越狱提示词的生成",
+    "slug": "network-security-27-cve-2001-0237",
+    "title": "CVE-2001-0237",
+    "description": "Memory leak in Microsoft 2000 domain controller allows remote attackers to cause a denial of service by repeatedly connecting to the Kerberos service and then disconnecting without sending any data.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-28-看雪-虚假-openclaw-安装程序如何传播-ghostsocks-恶意软件",
-    "title": "[看雪] 虚假 OpenClaw 安装程序如何传播 GhostSocks 恶意软件",
-    "description": "作者：Jai Minton, Ryan Dowd 原文链接：https://www.huntress.com/blog/openclaw-github-ghostsocks-infostealer/https://www.huntress.com/blog/openclaw-github-ghostsocks-infostealer 摘要 信息窃取型恶意软件是针对面向公众系统发起严重攻击的初始访问...",
+    "slug": "network-security-28-cve-2001-1088",
+    "title": "CVE-2001-1088",
+    "description": "Microsoft Outlook 8.5 and earlier, and Outlook Express 5 and earlier, with the \"Automatically put people I reply to in my address book\" option enabled, do not notify the user when the \"Reply-To\" address is different than the \"From\" address, which could allow an untrusted remote attacker to spoof legitimate addresses and intercept email from the client that is intended for another user.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-29-看雪-基于图像的提示注入-通过视觉嵌入的对抗性指令劫持多模态大语言模型",
-    "title": "[看雪] 基于图像的提示注入：通过视觉嵌入的对抗性指令劫持多模态大语言模型",
-    "description": "作者：Neha Nagaraja, Lan Zhang, Zhilong Wang 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2603.03637v1/https://arxiv.org/html/2603.03637v1 摘要：多模态大语言模型（MLLMs）融合视觉与文本能力赋能各类应用，但这种融合也引入了新的安全漏洞。本文研究基于图像的提示注入（...",
+    "slug": "network-security-29-cve-2001-0261",
+    "title": "CVE-2001-0261",
+    "description": "Microsoft Windows 2000 Encrypted File System does not properly destroy backups of files that are encrypted, which allows a local attacker to recover the text of encrypted files.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-30-看雪-unmasking-silverfox-s-new-trends-decoding-evasion-tactics-domain-impersonation-and-mass-generated-fake-software",
-    "title": "[看雪] Unmasking SilverFox’s New Trends: Decoding Evasion Tactics, Domain Impersonation, and Mass-Generated Fake Software",
-    "description": "Author: Knownsec 404 Advanced Threat Intelligence Team I. Introduction SilverFox has become one of the most active cyber threats in recent years, targeting managerial and finance staff in organization...",
+    "slug": "network-security-30-cve-2001-0146",
+    "title": "CVE-2001-0146",
+    "description": "IIS 5.0 and Microsoft Exchange 2000 allow remote attackers to cause a denial of service (memory allocation error) by repeatedly sending a series of specially formatted URL's.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-31-看雪-cuda-agent-面向高性能-cuda-内核生成的大规模智能体强化学习",
-    "title": "[看雪] CUDA Agent：面向高性能 CUDA 内核生成的大规模智能体强化学习",
-    "description": "作者：Weinan Dai, Hanlin Wu, Qiying Yu等 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2602.24286v1/https://arxiv.org/html/2602.24286v1 摘要 GPU内核优化是现代深度学习的基础，但仍是一项高度专业化的任务，需要深厚的硬件专业知识。尽管大语言模型（LLM）在通用编程任务中表现...",
+    "slug": "network-security-31-cve-2001-1326",
+    "title": "CVE-2001-1326",
+    "description": "Eudora 5.1 allows remote attackers to execute arbitrary code when the \"Use Microsoft Viewer\" option is enabled and the \"allow executables in HTML content\" option is disabled, via an HTML email with a form that is activated from an image that the attacker spoofs as a link, which causes the user to execute the form and access embedded attachments.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-32-看雪-增强网络入侵检测系统-一种抵御对抗攻击的多层集成方法",
-    "title": "[看雪] 增强网络入侵检测系统：一种抵御对抗攻击的多层集成方法",
-    "description": "作者：Nasim Soltani, Shayan Nejadshamsi等 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2603.10413v1/https://arxiv.org/html/2603.10413v1 摘要 对抗样本会对机器学习（ML）算法构成严重威胁。若被用于操控基于机器学习的网络入侵检测系统（NIDS）行为，将危及网络安全。本研究旨...",
+    "slug": "network-security-32-cve-2001-1450",
+    "title": "CVE-2001-1450",
+    "description": "Microsoft Internet Explorer 5.0 through 6.0 allows attackers to cause a denial of service (browser crash) via a crafted FTP URL such as \"/.#./\".",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-33-看雪-静默颠覆-通过卫星系统供应链植入物实施的传感器欺骗攻击",
-    "title": "[看雪] 静默颠覆：通过卫星系统供应链植入物实施的传感器欺骗攻击",
-    "description": "作者：Jack Vanlyssel, Gruia-Catalin Roman, Afsah Anwar 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2603.10388v1/https://arxiv.org/html/2603.10388v1 摘要 欺骗攻击是地面系统最具破坏性的网络威胁之一，而在太空中这类威胁愈发危险——卫星难以在轨维修，且运营方依...",
+    "slug": "network-security-33-cve-1999-0945",
+    "title": "CVE-1999-0945",
+    "description": "Buffer overflow in Internet Mail Service (IMS) for Microsoft Exchange 5.5 and 5.0 allows remote attackers to conduct a denial of service via AUTH or AUTHINFO commands.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-34-看雪-guard-slm-面向小语言模型-基于令牌激活的越狱攻击防御方法",
-    "title": "[看雪] GUARD‑SLM：面向小语言模型、基于令牌激活的越狱攻击防御方法",
-    "description": "作者：Md. Jueal Mia1, Joaquin Molto1, Yanzhao Wu1, M. Hadi Amini 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2603.28817v1/https://arxiv.org/html/2603.28817v1 摘要 小语言模型（SLM）正成为大语言模型（LLM）高效且经济可行的替代方案，在计算成本...",
+    "slug": "network-security-34-cve-1999-0681",
+    "title": "CVE-1999-0681",
+    "description": "Buffer overflow in Microsoft FrontPage Server Extensions (PWS) 3.0.2.926 on Windows 95, and possibly other versions, allows remote attackers to cause a denial of service via a long URL.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-35-看雪-skilltrojan-针对基于技能的智能体系统的后门攻击",
-    "title": "[看雪] SkillTrojan：针对基于技能的智能体系统的后门攻击",
-    "description": "作者：Yunhao Feng, Yifan Ding, Yingshui Tan等 译者：知道创宇404实验室翻译组 原文链接：https://arxiv.org/html/2604.06811v1/https://arxiv.org/html/2604.06811v1 摘要 基于技能的智能体系统通过组合可复用技能完成复杂任务，在提升模块化与可扩展性的同时，引入了尚未被充分研究的安全攻击面。本文提...",
+    "slug": "network-security-35-cve-2001-0047",
+    "title": "CVE-2001-0047",
+    "description": "The default permissions for the MTS Package Administration registry key in Windows NT 4.0 allows local users to install or modify arbitrary Microsoft Transaction Server (MTS) packages and gain privileges, aka one of the \"Registry Permissions\" vulnerabilities.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-36-看雪-合法终端管理软件遭滥用-疑似银狐攻击事件分析与溯源",
-    "title": "[看雪] 合法终端管理软件遭滥用：疑似银狐攻击事件分析与溯源",
-    "description": "作者：知道创宇高级威胁情报团队 一、事件概述 近期，我们在客户现场应急响应中排查到一起新型攻击事件。攻击者伪造常用工具安装包诱导执行，随即部署一款带有合法数字签名的终端管理软件。经技术溯源确认，该程序具备主机信息收集、远程控制等完整恶意能力，其 C2 基础设施与 “银狐” 高度关联。由于合法数字签名的天然 “免杀” 特性，该恶意程序可轻易绕过主流杀毒软件检测，实现隐蔽入侵与长期控制。 银狐简介 银...",
+    "slug": "network-security-36-cve-2001-0048",
+    "title": "CVE-2001-0048",
+    "description": "The \"Configure Your Server\" tool in Microsoft 2000 domain controllers installs a blank password for the Directory Service Restore Mode, which allows attackers with physical access to the controller to install malicious programs, aka the \"Directory Service Restore Mode Password\" vulnerability.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-37-看雪-google-deepmind-ai-智能体陷阱",
-    "title": "[看雪] Google DeepMind：AI 智能体陷阱",
-    "description": "作者：Matija Franklin, Nenad Tomašev等 译者：知道创宇404实验室翻译组 原文链接：https://blog.qiaomu.ai/api/images/document/2026/04/603f0cae8cd8ab94-ai-agent-trap.pdf 摘要 自主AI智能体日益在网络中自主行动，它们面临一种全新挑战：信息环境本身。由此产生了一个关键安全漏洞，我们称之...",
+    "slug": "network-security-37-cve-2001-0005",
+    "title": "CVE-2001-0005",
+    "description": "Buffer overflow in the parsing mechanism of the file loader in Microsoft PowerPoint 2000 allows attackers to execute arbitrary commands.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-38-安全客-telegram的黑色面-网络罪犯利用机器人api隐秘窃取数据",
-    "title": "[安全客] Telegram的黑色面 网络罪犯利用机器人API隐秘窃取数据",
-    "description": "",
+    "slug": "network-security-38-cve-2001-0003",
+    "title": "CVE-2001-0003",
+    "description": "Web Extender Client (WEC) in Microsoft Office 2000, Windows 2000, and Windows Me does not properly process Internet Explorer security settings for NTLM authentication, which allows attackers to obtain NTLM credentials and possibly obtain the password, aka the \"Web Client NTLM Authentication\" vulnerability.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-39-安全客-gitlab发布紧急安全更新-修复高危xss与api拒绝服务漏洞",
-    "title": "[安全客] GitLab发布紧急安全更新 修复高危XSS与API拒绝服务漏洞",
-    "description": "",
+    "slug": "network-security-39-cve-2000-1090",
+    "title": "CVE-2000-1090",
+    "description": "Microsoft IIS for Far East editions 4.0 and 5.0 allows remote attackers to read source code for parsed pages via a malformed URL that uses the lead-byte of a double-byte character.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-40-安全客-能感知自身正在被测试的ai-anthropic关于claude自我意识的惊人发现",
-    "title": "[安全客] 能感知自身正在被测试的AI Anthropic关于Claude自我意识的惊人发现",
-    "description": "",
+    "slug": "network-security-40-cve-2000-1139",
+    "title": "CVE-2000-1139",
+    "description": "The installation of Microsoft Exchange 2000 before Rev. A creates a user account with a known password, which could allow attackers to gain privileges, aka the \"Exchange User Account\" vulnerability.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-41-安全客-hpe发布aruba-os高危漏洞预警-可未授权重置密码",
-    "title": "[安全客] HPE发布Aruba OS高危漏洞预警 可未授权重置密码",
-    "description": "",
+    "slug": "network-security-41-cve-2000-1113",
+    "title": "CVE-2000-1113",
+    "description": "Buffer overflow in Microsoft Windows Media Player allows remote attackers to execute arbitrary commands via a malformed Active Stream Redirector (.ASX) file, aka the \".ASX Buffer Overrun\" vulnerability.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-42-安全客-openai战略调整sora视频ai将直接接入chatgpt",
-    "title": "[安全客] OpenAI战略调整Sora视频AI将直接接入ChatGPT",
-    "description": "",
+    "slug": "network-security-42-cve-2000-1112",
+    "title": "CVE-2000-1112",
+    "description": "Microsoft Windows Media Player 7 executes scripts in custom skin (.WMS) files, which could allow remote attackers to gain privileges via a skin that contains a malicious script, aka the \".WMS Script Execution\" vulnerability.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-43-安全客-ally-wordpress插件高危sql注入漏洞-威胁40万个网站",
-    "title": "[安全客] Ally WordPress插件高危SQL注入漏洞 威胁40万个网站",
-    "description": "",
+    "slug": "network-security-43-cve-2000-1089",
+    "title": "CVE-2000-1089",
+    "description": "Buffer overflow in Microsoft Phone Book Service allows local users to execute arbitrary commands, aka the \"Phone Book Service Buffer Overflow\" vulnerability.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-44-安全客-2026首届汽车安全白帽黑客大会圆满收官-共筑车联网安全新生态",
-    "title": "[安全客] 2026首届汽车安全白帽黑客大会圆满收官，共筑车联网安全新生态",
-    "description": "",
+    "slug": "network-security-44-cve-2000-1088",
+    "title": "CVE-2000-1088",
+    "description": "The xp_SetSQLSecurity function in Microsoft SQL Server 2000 and SQL Server Desktop Engine (MSDE) does not properly restrict the length of a buffer before calling the srv_paraminfo function in the SQL Server API for Extended Stored Procedures (XP), which allows an attacker to cause a denial of service or execute arbitrary commands, aka the \"Extended Stored Procedure Parameter Parsing\" vulnerability.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-45-安全客-瑞数信息入选idc两大ai安全报告-防御openclaw小龙虾裸奔危机",
-    "title": "[安全客] 瑞数信息入选IDC两大AI安全报告，防御OpenClaw小龙虾裸奔危机",
-    "description": "",
+    "slug": "network-security-45-cve-2000-1087",
+    "title": "CVE-2000-1087",
+    "description": "The xp_proxiedmetadata function in Microsoft SQL Server 2000 and SQL Server Desktop Engine (MSDE) does not properly restrict the length of a buffer before calling the srv_paraminfo function in the SQL Server API for Extended Stored Procedures (XP), which allows an attacker to cause a denial of service or execute arbitrary commands, aka the \"Extended Stored Procedure Parameter Parsing\" vulnerability.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-46-安全客-科技云报到-龙虾-openclaw狂欢之下-需要一针清醒剂",
-    "title": "[安全客] 科技云报到：“龙虾”OpenClaw狂欢之下，需要一针清醒剂",
-    "description": "",
+    "slug": "network-security-46-cve-2000-1086",
+    "title": "CVE-2000-1086",
+    "description": "The xp_printstatements function in Microsoft SQL Server 2000 and SQL Server Desktop Engine (MSDE) does not properly restrict the length of a buffer before calling the srv_paraminfo function in the SQL Server API for Extended Stored Procedures (XP), which allows an attacker to cause a denial of service or execute arbitrary commands, aka the \"Extended Stored Procedure Parameter Parsing\" vulnerability.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-47-安全客-科技云报到-龙虾-入笼-为何金融行业不敢-养",
-    "title": "[安全客] 科技云报到：“龙虾”入笼：为何金融行业不敢“养”？",
-    "description": "",
+    "slug": "network-security-47-cve-2000-1085",
+    "title": "CVE-2000-1085",
+    "description": "The xp_peekqueue function in Microsoft SQL Server 2000 and SQL Server Desktop Engine (MSDE) does not properly restrict the length of a buffer before calling the srv_paraminfo function in the SQL Server API for Extended Stored Procedures (XP), which allows an attacker to cause a denial of service or execute arbitrary commands, aka the \"Extended Stored Procedure Parameter Parsing\" vulnerability.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-48-安全客-科技云报到-ai算力革命-终结云计算20年降价史",
-    "title": "[安全客] 科技云报到：AI算力革命，终结云计算20年降价史",
-    "description": "",
+    "slug": "network-security-48-cve-2000-1084",
+    "title": "CVE-2000-1084",
+    "description": "The xp_updatecolvbm function in SQL Server and Microsoft SQL Server Desktop Engine (MSDE) does not properly restrict the length of a buffer before calling the srv_paraminfo function in the SQL Server API for Extended Stored Procedures (XP), which allows an attacker to cause a denial of service or execute arbitrary commands, aka the \"Extended Stored Procedure Parameter Parsing\" vulnerability.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-49-安全客-鸿蒙next应用一键加固-ai-agent助力安全开发",
-    "title": "[安全客] 鸿蒙NEXT应用一键加固——AI Agent助力安全开发",
-    "description": "",
+    "slug": "network-security-49-cve-2000-1083",
+    "title": "CVE-2000-1083",
+    "description": "The xp_showcolv function in SQL Server and Microsoft SQL Server Desktop Engine (MSDE) does not properly restrict the length of a buffer before calling the srv_paraminfo function in the SQL Server API for Extended Stored Procedures (XP), which allows an attacker to cause a denial of service or execute arbitrary commands, aka the \"Extended Stored Procedure Parameter Parsing\" vulnerability.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "network-security-50-安全客-工程化实战思维在红队技战术中的应用",
-    "title": "[安全客] 工程化实战思维在红队技战术中的应用",
-    "description": "",
+    "slug": "network-security-50-cve-2000-1082",
+    "title": "CVE-2000-1082",
+    "description": "The xp_enumresultset function in SQL Server and Microsoft SQL Server Desktop Engine (MSDE) does not properly restrict the length of a buffer before calling the srv_paraminfo function in the SQL Server API for Extended Stored Procedures (XP), which allows an attacker to cause a denial of service or execute arbitrary commands, aka the \"Extended Stored Procedure Parameter Parsing\" vulnerability.",
     "category": "network-security",
-    "markdown_path": "network-security/index.md",
-    "source_url": ""
+    "markdown_path": "network-security/windows.md",
+    "source_url": "",
+    "platform": "windows"
   },
   {
-    "slug": "system-vulnerabilities-1-ubuntu-usn-8212-1-authd-vulnerability",
-    "title": "[Ubuntu] USN-8212-1: authd vulnerability",
-    "description": "It was discovered that authd incorrectly assigned the primary group ID to\nusers under certain conditions. A local attacker could possibly use this\nissue to achieve privilege escalation, or gain unauthorized access to files\nbelonging to other users.",
+    "slug": "network-security-1-cve-2000-0714",
+    "title": "CVE-2000-0714",
+    "description": "umb-scheme 3.2-11 for Red Hat Linux is installed with world-writeable files.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-2-cve-2000-0712",
+    "title": "CVE-2000-0712",
+    "description": "Linux Intrusion Detection System (LIDS) 0.9.7 allows local users to gain root privileges when LIDS is disabled via the security=0 boot option.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-3-cve-2000-0698",
+    "title": "CVE-2000-0698",
+    "description": "Minicom 1.82.1 and earlier on some Linux systems allows local users to create arbitrary files owned by the uucp user via a symlink attack.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-4-cve-2000-0031",
+    "title": "CVE-2000-0031",
+    "description": "The initscripts package in Red Hat Linux allows local users to gain privileges via a symlink attack.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-5-cve-2000-1214",
+    "title": "CVE-2000-1214",
+    "description": "Buffer overflows in the (1) outpack or (2) buf variables of ping in iputils before 20001010, as distributed on Red Hat Linux 6.2 through 7J and other operating systems, may allow local users to gain privileges.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-6-cve-2000-1213",
+    "title": "CVE-2000-1213",
+    "description": "ping in iputils before 20001010, as distributed on Red Hat Linux 6.2 through 7J and other operating systems, does not drop privileges after acquiring a raw socket, which increases ping's exposure to bugs that otherwise would occur at lower privileges.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-7-cve-2000-0816",
+    "title": "CVE-2000-0816",
+    "description": "Linux tmpwatch --fuser option allows local users to execute arbitrary commands by creating files whose names contain shell metacharacters.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-8-cve-2000-1207",
+    "title": "CVE-2000-1207",
+    "description": "userhelper in the usermode package on Red Hat Linux executes non-setuid programs as root, which does not activate the security measures in glibc and allows the programs to be exploited via format string vulnerabilities in glibc via the LANG or LC_ALL environment variables (CVE-2000-0844).",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-9-cve-2000-0354",
+    "title": "CVE-2000-0354",
+    "description": "mirror 2.8.x in Linux systems allows remote attackers to create files one level above the local target directory.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-10-cve-2000-0545",
+    "title": "CVE-2000-0545",
+    "description": "Buffer overflow in mailx mail command (aka Mail) on Linux systems allows local users to gain privileges via a long -c (carbon copy) parameter.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-11-cve-2000-0668",
+    "title": "CVE-2000-0668",
+    "description": "pam_console PAM module in Linux systems allows a user to access the system console and reboot the system when a display manager such as gdm or kdm has XDMCP enabled.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-12-cve-2000-0667",
+    "title": "CVE-2000-0667",
+    "description": "Vulnerability in gpm in Caldera Linux allows local users to delete arbitrary files or conduct a denial of service.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-13-cve-2000-0633",
+    "title": "CVE-2000-0633",
+    "description": "Vulnerability in Mandrake Linux usermode package allows local users to to reboot or halt the system.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-14-cve-2000-0666",
+    "title": "CVE-2000-0666",
+    "description": "rpc.statd in the nfs-utils package in various Linux distributions does not properly cleanse untrusted format strings, which allows remote attackers to gain root privileges.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-15-cve-2000-0614",
+    "title": "CVE-2000-0614",
+    "description": "Tnef program in Linux systems allows remote attackers to overwrite arbitrary files via TNEF encoded compressed attachments which specify absolute path names for the decompressed output.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-16-cve-2000-0566",
+    "title": "CVE-2000-0566",
+    "description": "makewhatis in Linux man package allows local users to overwrite files via a symlink attack.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-17-cve-2000-0618",
+    "title": "CVE-2000-0618",
+    "description": "Buffer overflow in xconq and cconq game programs on Red Hat Linux allows local users to gain additional privileges via long DISPLAY environmental variable.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-18-cve-2000-0617",
+    "title": "CVE-2000-0617",
+    "description": "Buffer overflow in xconq and cconq game programs on Red Hat Linux allows local users to gain additional privileges via long USER environmental variable.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-19-cve-2000-0607",
+    "title": "CVE-2000-0607",
+    "description": "Buffer overflow in fld program in Kanji on Console (KON) package on Linux may allow local users to gain root privileges via an input file containing long CHARSET_REGISTRY or CHARSET_ENCODING settings.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-20-cve-2000-0606",
+    "title": "CVE-2000-0606",
+    "description": "Buffer overflow in kon program in Kanji on Console (KON) package on Linux may allow local users to gain root privileges via a long -StartupMessage parameter.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-21-cve-2000-0604",
+    "title": "CVE-2000-0604",
+    "description": "gkermit in Red Hat Linux is improperly installed with setgid uucp, which allows local users to modify files owned by uucp.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-22-cve-2000-0602",
+    "title": "CVE-2000-0602",
+    "description": "Secure Locate (slocate) in Red Hat Linux allows local users to gain privileges via a malformed configuration file that is specified in the LOCATE_PATH environmental variable.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-23-cve-2000-0506",
+    "title": "CVE-2000-0506",
+    "description": "The \"capabilities\" feature in Linux before 2.2.16 allows local users to cause a denial of service or gain privileges by setting the capabilities to prevent a setuid program from dropping privileges, aka the \"Linux kernel setuid/setcap vulnerability.\"",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-24-cve-2000-0467",
+    "title": "CVE-2000-0467",
+    "description": "Buffer overflow in Linux splitvt 1.6.3 and earlier allows local users to gain root privileges via a long password in the screen locking function.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-25-cve-2000-0454",
+    "title": "CVE-2000-0454",
+    "description": "Buffer overflow in Linux cdrecord allows local users to gain privileges via the dev parameter.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-26-cve-2000-0460",
+    "title": "CVE-2000-0460",
+    "description": "Buffer overflow in KDE kdesud on Linux allows local uses to gain privileges via a long DISPLAY environmental variable.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-27-cve-2000-0438",
+    "title": "CVE-2000-0438",
+    "description": "Buffer overflow in fdmount on Linux systems allows local users in the \"floppy\" group to execute arbitrary commands via a long mountpoint parameter.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-28-cve-2000-0378",
+    "title": "CVE-2000-0378",
+    "description": "The pam_console PAM module in Linux systems performs a chown on various devices upon a user login, but an open file descriptor for those devices can be maintained after the user logs out, which allows that user to sniff activity on these devices when subsequent users log in.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-29-cve-2000-0293",
+    "title": "CVE-2000-0293",
+    "description": "aaa_base in SuSE Linux 6.3, and cron.daily in earlier versions, allow local users to delete arbitrary files by creating files whose names include spaces, which are then incorrectly interpreted by aaa_base when it deletes expired files from the /tmp directory.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-30-cve-2000-0344",
+    "title": "CVE-2000-0344",
+    "description": "The knfsd NFS server in Linux kernel 2.2.x allows remote attackers to cause a denial of service via a negative size value.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-31-cve-2000-0340",
+    "title": "CVE-2000-0340",
+    "description": "Buffer overflow in Gnomelib in SuSE Linux 6.3 allows local users to execute arbitrary commands via the DISPLAY environmental variable.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-32-cve-1999-0706",
+    "title": "CVE-1999-0706",
+    "description": "Linux xmonisdn package allows local users to gain root privileges by modifying the IFS or PATH environmental variables.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-33-cve-2000-0248",
+    "title": "CVE-2000-0248",
+    "description": "The web GUI for the Linux Virtual Server (LVS) software in the Red Hat Linux Piranha package has a backdoor password that allows remote attackers to execute arbitrary commands.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-34-cve-2000-0336",
+    "title": "CVE-2000-0336",
+    "description": "Linux OpenLDAP server allows local users to modify arbitrary files via a symlink attack.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-35-cve-2000-0263",
+    "title": "CVE-2000-0263",
+    "description": "The X font server xfs in Red Hat Linux 6.x allows an attacker to cause a denial of service via a malformed request.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-36-cve-2000-0274",
+    "title": "CVE-2000-0274",
+    "description": "The Linux trustees kernel patch allows attackers to cause a denial of service by accessing a file or directory with a long name.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-37-cve-2000-0289",
+    "title": "CVE-2000-0289",
+    "description": "IP masquerading in Linux 2.2.x allows remote attackers to route UDP packets through the internal interface by modifying the external source IP address and port number to match those of an established connection.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-38-cve-2000-0227",
+    "title": "CVE-2000-0227",
+    "description": "The Linux 2.2.x kernel does not restrict the number of Unix domain sockets as defined by the wmem_max parameter, which allows local users to cause a denial of service by requesting a large number of sockets.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-39-cve-2000-0231",
+    "title": "CVE-2000-0231",
+    "description": "Linux kreatecd trusts a user-supplied path that is used to find the cdrecord program, allowing local users to gain root privileges.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-40-cve-2000-0233",
+    "title": "CVE-2000-0233",
+    "description": "SuSE Linux IMAP server allows remote attackers to bypass IMAP authentication and gain privileges.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-41-cve-2000-0171",
+    "title": "CVE-2000-0171",
+    "description": "atsadc in the atsar package for Linux does not properly check the permissions of an output file, which allows local users to gain root privileges.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-42-cve-2000-0184",
+    "title": "CVE-2000-0184",
+    "description": "Linux printtool sets the permissions of printer configuration files to be world-readable, which allows local attackers to obtain printer share passwords.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-43-cve-2000-0206",
+    "title": "CVE-2000-0206",
+    "description": "The installation of Oracle 8.1.5.x on Linux follows symlinks and creates the orainstRoot.sh file with world-writeable permissions, which allows local users to gain privileges.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-44-cve-2000-0193",
+    "title": "CVE-2000-0193",
+    "description": "The default configuration of Dosemu in Corel Linux 1.0 allows local users to execute the system.com program and gain privileges.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-45-cve-2000-0196",
+    "title": "CVE-2000-0196",
+    "description": "Buffer overflow in mhshow in the Linux nmh package allows remote attackers to execute commands via malformed MIME headers in an email message.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-46-cve-2000-0186",
+    "title": "CVE-2000-0186",
+    "description": "Buffer overflow in the dump utility in the Linux ext2fs backup package allows local users to gain privileges via a long command line argument.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-47-cve-2000-0170",
+    "title": "CVE-2000-0170",
+    "description": "Buffer overflow in the man program in Linux allows local users to gain privileges via the MANPAGER environmental variable.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-48-cve-2000-0195",
+    "title": "CVE-2000-0195",
+    "description": "setxconf in Corel Linux allows local users to gain root access via the -T parameter, which executes the user's .xserverrc file.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-49-cve-2000-0194",
+    "title": "CVE-2000-0194",
+    "description": "buildxconf in Corel Linux allows local users to modify or create arbitrary files via the -x or -f parameters.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-50-cve-2000-0218",
+    "title": "CVE-2000-0218",
+    "description": "Buffer overflow in Linux mount and umount allows local users to gain root privileges via a long relative pathname.",
+    "category": "network-security",
+    "markdown_path": "network-security/linux.md",
+    "source_url": "",
+    "platform": "linux"
+  },
+  {
+    "slug": "network-security-1-cve-2005-2741",
+    "title": "CVE-2005-2741",
+    "description": "Authorization Services in securityd for Apple Mac OS X 10.3.9 allows local users to gain privileges by granting themselves certain rights that should be restricted to administrators.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-2-cve-2005-2524",
+    "title": "CVE-2005-2524",
+    "description": "Safari after 2.0 in Apple Mac OS X 10.3.9 allows remote attackers to bypass domain restrictions via crafted web archives that cause Safari to render them as if they came from a different site.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-3-cve-2005-2748",
+    "title": "CVE-2005-2748",
+    "description": "The malloc function in the libSystem library in Apple Mac OS X 10.3.9 and 10.4.2 allows local users to overwrite arbitrary files by setting the MallocLogFile environment variable to the target file before running a setuid application.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-4-cve-2005-2747",
+    "title": "CVE-2005-2747",
+    "description": "Buffer overflow in ImageIO for Apple Mac OS X 10.4.2, as used by applications such as WebCore and Safari, allows remote attackers to execute arbitrary code via a crafted GIF file.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-5-cve-2005-2744",
+    "title": "CVE-2005-2744",
+    "description": "Buffer overflow in QuickDraw Manager for Apple OS X 10.3.9 and 10.4.2, as used by applications such as Safari, Mail, and Finder, allows remote attackers to execute arbitrary code via a crafted PICT file.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-6-cve-2005-3018",
+    "title": "CVE-2005-3018",
+    "description": "Apple Safari allows remote attackers to cause a denial of service (application crash) via a crafted data:// URL.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-7-cve-2005-2594",
+    "title": "CVE-2005-2594",
+    "description": "Apple Safari 1.3 (132) on Mac OS X 1.3.9 allows remote attackers to cause a denial of service (crash) via certain Javascript, possibly involving a function that defines a handler for itself within the function body.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-8-cve-2005-2196",
+    "title": "CVE-2005-2196",
+    "description": "The Apple AirPort card uses a default WEP key when not connected to a known or trusted network, which can cause it to automatically connect to a malicious network.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-9-cve-2005-2195",
+    "title": "CVE-2005-2195",
+    "description": "Apple Darwin Streaming Server 5.5 and earlier allows remote attackers to cause a denial of service (application crash) via a URL with a filename containing a .cgi extension and an MS-DOS device name such as AUX, CON, PRN, COM1, or LPT1, a different vulnerability than CVE-2003-0421 and CVE-2003-0502.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-10-cve-2005-1933",
+    "title": "CVE-2005-1933",
+    "description": "Dashboard in Apple Mac OS X Tiger 10.4 allows attackers to execute arbitrary commands by overriding the behavior of system widgets via a user widget with the same bundle identifier (CFBundleIdentifier), a different vulnerability than CVE-2005-1474.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-11-cve-2005-1474",
+    "title": "CVE-2005-1474",
+    "description": "Dashboard in Apple Mac OS X 10.4.1 allows remote attackers to install widgets via Safari without prompting the user, a different vulnerability than CVE-2005-1933.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-12-cve-2005-1473",
+    "title": "CVE-2005-1473",
+    "description": "SecurityAgent in Apple Mac OS X 10.4.1 allows attackers with physical access to bypass the locked screensaver and launch background applications by opening a URL from a text input field.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-13-cve-2005-1728",
+    "title": "CVE-2005-1728",
+    "description": "MCX Client for Apple Mac OS X 10.4.x up to 10.4.1 insecurely logs Portable Home Directory credentials, which allows local users to obtain the credentials.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-14-cve-2005-1727",
+    "title": "CVE-2005-1727",
+    "description": "Apple Mac OS X 10.4.x up to 10.4.1 sets insecure world- and group-writable permissions for the (1) system cache folder and (2) Dashboard system widgets, which allows local users to conduct unauthorized file operations via \"file race conditions.\"",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-15-cve-2005-1725",
+    "title": "CVE-2005-1725",
+    "description": "launchd 106 in Apple Mac OS X 10.4.x up to 10.4.1 allows local users to overwrite arbitrary files via a symlink attack on the socket file in an insecure temporary directory.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-16-cve-2005-1724",
+    "title": "CVE-2005-1724",
+    "description": "NFS on Apple Mac OS X 10.4.x up to 10.4.1 does not properly obey the -network or -mask flags for a filesystem and exports it to everyone, which allows remote attackers to bypass intended access restrictions.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-17-cve-2005-1723",
+    "title": "CVE-2005-1723",
+    "description": "LaunchServices in Apple Mac OS X 10.4.x up to 10.4.1 does not properly mark file extensions and MIME types as unsafe if an Apple Uniform Type Identifier (UTI) is not created when the type is added to the database of unsafe types, which could allow attackers to bypass intended restrictions.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-18-cve-2005-1408",
+    "title": "CVE-2005-1408",
+    "description": "Apple Keynote 2.0 and 2.0.1 allows remote attackers to read arbitrary files via the keynote: URI handler in a crafted Keynote presentation.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-19-cve-2005-1472",
+    "title": "CVE-2005-1472",
+    "description": "Certain system calls in Apple Mac OS X 10.4.1 do not properly enforce the permissions of certain directories without the POSIX read bit set, but with the execute bits set for group or other, which allows local users to list files in otherwise restricted directories.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-20-cve-2005-1248",
+    "title": "CVE-2005-1248",
+    "description": "Buffer overflow in Apple iTunes before 4.8 allows remote attackers to execute arbitrary code via a crafted MPEG4 file.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-21-cve-2005-1193",
+    "title": "CVE-2005-1193",
+    "description": "The bbencode_second_pass and make_clickable functions in bbcode.php for phpBB before 2.0.15, as used in viewtopic.php, privmsg.php, and other scripts, allow remote attackers to execute arbitrary script via a BBcode tag with a (1) javascript:, (2) applet:, (3) about:, (4) activex:, (5) chrome:, or (6) script: URI scheme, as demonstrated using the URL tag.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-22-cve-2005-1579",
+    "title": "CVE-2005-1579",
+    "description": "Apple QuickTime Player 7.0 on Mac OS X 10.4 allows remote attackers to obtain sensitive information via a .mov file with a Quartz Composer composition (.qtz) file that uses certain patches to read local information, then other patches to send the information to the attacker.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-23-cve-2005-1342",
+    "title": "CVE-2005-1342",
+    "description": "The x-man-page: URI handler for Apple Terminal 1.4.4 in Mac OS X 10.3.9 does not cleanse terminal escape sequences, which allows remote attackers to execute arbitrary commands.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-24-cve-2005-1341",
+    "title": "CVE-2005-1341",
+    "description": "Apple Terminal 1.4.4 allows attackers to execute arbitrary commands via terminal escape sequences.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-25-cve-2005-1337",
+    "title": "CVE-2005-1337",
+    "description": "Apple Help Viewer 2.0.7 and 3.0.0 in Mac OS X 10.3.9 allows remote attackers to read and execute arbitrary scrpts with less restrictive privileges via a help:// URI.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-26-cve-2005-1331",
+    "title": "CVE-2005-1331",
+    "description": "The AppleScript Editor in Mac OS X 10.3.9 does not properly display script code for an applescript: URI, which can result in code that is different than the actual code that would be run, which could allow remote attackers to trick users into executing malicious code via certain URI characters such as NULL, control characters, and homographs.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-27-cve-2005-0976",
+    "title": "CVE-2005-0976",
+    "description": "AppleWebKit (WebCore and WebKit), as used in multiple products such as Safari 1.2 and OmniGroup OmniWeb 5.1, allows remote attackers to read arbitrary files via the XMLHttpRequest Javascript component, as demonstrated using automatically mounted disk images and file:// URLs.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-28-cve-2005-0341",
+    "title": "CVE-2005-0341",
+    "description": "Apple Safari 1.2.4 does not obey the Content-type field in the HTTP header and renders text as HTML, which allows remote attackers to inject arbitrary web script or HTML and perform cross-site scripting (XSS) attacks.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-29-cve-2005-0340",
+    "title": "CVE-2005-0340",
+    "description": "Integer signedness error in Apple File Service (AFP Server) allows remote attackers to cause a denial of service (application crash) via a negative UAM string length in a FPLoginExt packet.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-30-cve-2005-0289",
+    "title": "CVE-2005-0289",
+    "description": "Apple AirPort Express prior to 6.1.1 and Extreme prior to 5.5.1, configured as a Wireless Data Service (WDS), allows remote attackers to cause a denial of service (device freeze) by connecting to UDP port 161 and before link-state change occurs.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-31-cve-2005-0043",
+    "title": "CVE-2005-0043",
+    "description": "Buffer overflow in Apple iTunes 4.7 allows remote attackers to execute arbitrary code via a long URL in (1) .m3u or (2) .pls playlist files.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-32-cve-2004-1029",
+    "title": "CVE-2004-1029",
+    "description": "The Sun Java Plugin capability in Java 2 Runtime Environment (JRE) 1.4.2_01, 1.4.2_04, and possibly earlier versions, does not properly restrict access between Javascript and Java applets during data transfer, which allows remote attackers to load unsafe classes and execute arbitrary code by using the reflection API to access private Java packages.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-33-cve-2004-0988",
+    "title": "CVE-2004-0988",
+    "description": "Integer overflow on Apple QuickTime before 6.5.2, when running on Windows systems, allows remote attackers to cause a denial of service (memory consumption) via certain inputs that cause a large memory operation.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-34-cve-2004-0962",
+    "title": "CVE-2004-0962",
+    "description": "Apple Remote Desktop Client 1.2.4 executes a GUI application as root when it is started by an Apple Remote Desktop Administrator application, which allows remote authenticated users to execute arbitrary code when loginwindow is active via Fast User Switching.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-35-cve-2004-0926",
+    "title": "CVE-2004-0926",
+    "description": "Heap-based buffer overflow in Apple QuickTime on Mac OS 10.2.8 through 10.3.5 may allow remote attackers to execute arbitrary code via a certain BMP image.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-36-cve-2004-2367",
+    "title": "CVE-2004-2367",
+    "description": "The Control Panel applet in WFTPD and WFTPD Pro 3.21 R1 and R2 allows remote authenticated users to cause a denial of service (crash) via a long FTP command.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-37-cve-2004-2359",
+    "title": "CVE-2004-2359",
+    "description": "Dell TrueMobile 1300 WLAN Mini-PCI Card Util TrayApplet 3.10.39.0 does not properly drop SYSTEM privileges when started from the systray applet, which allows local users to gain privileges by accessing the Help functionality.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-38-cve-2004-2281",
+    "title": "CVE-2004-2281",
+    "description": "Multiple unknown vulnerabilities in IBM Lotus Notes 6.5.x before 6.5.4 and 6.0.x before 6.0.5 have unknown impact and attack vectors, related to Java applets, as identified by (1) KSPR5YS6GR and (2) KSPR62F4D3.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-39-cve-2004-2280",
+    "title": "CVE-2004-2280",
+    "description": "Buffer overflow in IBM Lotus Notes 6.5.x before 6.5.3 and 6.0.x before 6.0.5 allows remote attackers to cause a denial of service (crash) via unknown vectors related to Java applets, as identified by KSPR62F4KN.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-40-cve-2004-1753",
+    "title": "CVE-2004-1753",
+    "description": "The Apple Java plugin, as used in Netscape 7.1 and 7.2, Mozilla 1.7.2, and Firefox 0.9.3 on MacOS X 10.3.5, when tabbed browsing is enabled, does not properly handle SetWindow(NULL) calls, which allows Java applets from one tab to draw to other tabs and facilitates phishing attacks that spoof tabs.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-41-cve-2004-1489",
+    "title": "CVE-2004-1489",
+    "description": "Opera 7.54 and earlier does not properly limit an applet's access to internal Java packages from Sun, which allows remote attackers to gain sensitive information, such as user names and the installation directory.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-42-cve-2004-1398",
+    "title": "CVE-2004-1398",
+    "description": "Format string vulnerability in prelink.c in kextload in Apple OS X, as used by TDIXSupport in Roxio Toast Titanium and possibly other products, allows local users to execute arbitrary code via format string specifiers in the extension argument.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-43-cve-2004-0429",
+    "title": "CVE-2004-0429",
+    "description": "Unknown vulnerability related to \"the handling of large requests\" in RAdmin for Apple Mac OS X 10.3.3 and Mac OS X 10.2.8 may allow attackers to have unknown impact via unknown attack vectors.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-44-cve-2004-0873",
+    "title": "CVE-2004-0873",
+    "description": "Apple iChat AV 2.1, AV 2.0, and 1.0.1 allows remote attackers to execute arbitrary programs via a \"link\" that references the program.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-45-cve-2004-1145",
+    "title": "CVE-2004-1145",
+    "description": "Multiple vulnerabilities in Konqueror in KDE 3.3.1 and earlier (1) allow access to restricted Java classes via JavaScript and (2) do not properly restrict access to certain Java classes from the Java applet, which allows remote attackers to bypass sandbox restrictions and read or write arbitrary files.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-46-cve-2004-0622",
+    "title": "CVE-2004-0622",
+    "description": "Apple Mac OS X 10.3.4, 10.4, 10.5, and possibly other versions does not properly clear memory for login (aka Loginwindow.app), Keychain, or FileVault passwords, which could allow the root user or an attacker with physical access to obtain sensitive information by reading memory.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-47-cve-2004-1083",
+    "title": "CVE-2004-1083",
+    "description": "Apache for Apple Mac OS X 10.2.8 and 10.3.6 restricts access to files in a case sensitive manner, but the Apple HFS+ filesystem accesses files in a case insensitive manner, which allows remote attackers to read .DS_Store files and files beginning with \".ht\" using alternate capitalization.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-48-cve-2004-1089",
+    "title": "CVE-2004-1089",
+    "description": "Unknown vulnerability in Apple Mac OS X 10.3.6 server, when using Kerberos authentication and Cyrus IMAP allows local users to access mailboxes of other users.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-49-cve-2004-1088",
+    "title": "CVE-2004-1088",
+    "description": "Postfix server for Apple Mac OS X 10.3.6, when using CRAM-MD5, allows remote attackers to send mail without authentication by replaying authentication information.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "network-security-50-cve-2004-1087",
+    "title": "CVE-2004-1087",
+    "description": "Terminal for Apple Mac OS X 10.3.6 may indicate that \"Secure Keyboard Entry\" is enabled even when it is not, which could result in a false sense of security for the user.",
+    "category": "network-security",
+    "markdown_path": "network-security/macos.md",
+    "source_url": "",
+    "platform": "macos"
+  },
+  {
+    "slug": "system-vulnerabilities-1-cve-2026-7360-chromium-browser-insufficient-validation-of-untrusted-input-in-compositing",
+    "title": "CVE-2026-7360 - chromium-browser: Insufficient validation of untrusted input in Compositing",
+    "description": "[Red Hat] chromium-browser: Insufficient validation of untrusted input in Compositing. Bugzilla: 2463677",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-2-ubuntu-usn-8202-1-jq-vulnerabilities",
-    "title": "[Ubuntu] USN-8202-1: jq vulnerabilities",
-    "description": "It was discovered that jq did not correctly handle certain string\nconcatenations. An attacker could possibly use this issue to cause a denial\nof service or execute arbitrary code. This issue was addressed in Ubuntu\n16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, Ubuntu\n24.04 LTS and Ubuntu 25.10. (CVE-2026-32316)\n\nIt was discovered that jq did not correctly handle recursion in cer",
+    "slug": "system-vulnerabilities-2-cve-2026-7309-openshift-controller-manager-openshift-container-platform-information",
+    "title": "CVE-2026-7309 - openshift-controller-manager: OpenShift Container Platform: Information…",
+    "description": "[Red Hat] openshift-controller-manager: OpenShift Container Platform: Information disclosure via environment variable injection. Bugzilla: 2463451",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-3-ubuntu-usn-8204-1-linux-kernel-raspberry-pi-real-time-vulnerabilities",
-    "title": "[Ubuntu] USN-8204-1: Linux kernel (Raspberry Pi Real-time) vulnerabilities",
-    "description": "Josh Eads, Kristoffer Janke, Eduardo Vela Nava, Tavis Ormandy, and Matteo\nRizzo discovered that some AMD Zen processors did not properly verify the\nsignature of CPU microcode. This flaw is known as EntrySign. A privileged\nattacker could possibly use this issue to cause load malicious CPU\nmicrocode causing loss of integrity and confidentiality.\n(CVE-2024-36347)\n\nSeveral security issues were discove",
+    "slug": "system-vulnerabilities-3-cve-2026-40355-krb5-mit-kerberos-5-denial-of-service-via-null-pointer-dereference-in-negoex",
+    "title": "CVE-2026-40355 - krb5: MIT Kerberos 5: Denial of Service via NULL pointer dereference in NegoEx…",
+    "description": "[Red Hat] krb5: MIT Kerberos 5: Denial of Service via NULL pointer dereference in NegoEx mechanism. Bugzilla: 2463370",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-4-ubuntu-usn-8205-1-gstreamer-bad-plugins-vulnerabilities",
-    "title": "[Ubuntu] USN-8205-1: GStreamer Bad Plugins vulnerabilities",
-    "description": "It was discovered that multiple plugins in GStreamer contained arithmetic\noverflows. An attacker could possibly use this issue to cause applications\nusing the plugins to crash, resulting in a denial of service, or possibly\nexecute arbitrary code. (CVE-2023-37329, CVE-2023-40474, CVE-2023-40475,\nCVE-2023-40476)\n\nIt was discovered that the MXF demuxer plugin in GStreamer did not\nproperly manage memo",
+    "slug": "system-vulnerabilities-4-cve-2026-40356-krb5-mit-kerberos-5-krb5-denial-of-service-via-integer-underflow-and",
+    "title": "CVE-2026-40356 - krb5: MIT Kerberos 5 (krb5): Denial of Service via integer underflow and…",
+    "description": "[Red Hat] krb5: MIT Kerberos 5 (krb5): Denial of Service via integer underflow and out-of-bounds read. Bugzilla: 2463368",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-5-ubuntu-usn-8206-1-openmpt-vulnerability",
-    "title": "[Ubuntu] USN-8206-1: OpenMPT vulnerability",
-    "description": "Antonio Morales Maldonado discovered that OpenMPT did not properly limit\nthe length of strings in certain cases, leading to a buffer overflow.\nAn attacker could possibly use this issue to cause OpenMPT to crash,\nresulting in a denial of service.",
+    "slug": "system-vulnerabilities-5-cve-2026-42510-openstack-ironic-ipmitool-openstack-ironic-arbitrary-code-execution-via",
+    "title": "CVE-2026-42510 - OpenStack Ironic: ipmitool: OpenStack Ironic: Arbitrary Code Execution via…",
+    "description": "[Red Hat] OpenStack Ironic: ipmitool: OpenStack Ironic: Arbitrary Code Execution via Remote Hardware Management. Bugzilla: 2463371",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-6-ubuntu-usn-8180-5-linux-kernel-ibm-vulnerabilities",
-    "title": "[Ubuntu] USN-8180-5: Linux kernel (IBM) vulnerabilities",
-    "description": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - ARM64 architecture;\n  - Block layer subsystem;\n  - Drivers core;\n  - Bluetooth drivers;\n  - DMA engine subsystem;\n  - GPU drivers;\n  - HID subsystem;\n  - Intel Trace Hub HW tracing drivers;\n  - IIO ADC drivers;\n  - I",
+    "slug": "system-vulnerabilities-6-cve-2026-7233-mupdf-artifex-mupdf-information-disclosure-due-to-out-of-bounds-read",
+    "title": "CVE-2026-7233 - mupdf: Artifex MuPDF: Information disclosure due to out-of-bounds read",
+    "description": "[Red Hat] mupdf: Artifex MuPDF: Information disclosure due to out-of-bounds read. Bugzilla: 2463367",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-7-cve-2026-31584-kernel-media-mediatek-vcodec-fix-use-after-free-in-encod",
-    "title": "CVE-2026-31584 - kernel: media: mediatek: vcodec: fix use-after-free in encod",
-    "description": "[Red Hat] kernel: media: mediatek: vcodec: fix use-after-free in encoder release path. Bugzilla: 2461436",
+    "slug": "system-vulnerabilities-7-ubuntu-usn-8190-2-rack-session-vulnerability",
+    "title": "[Ubuntu] USN-8190-2: Rack::Session vulnerability",
+    "description": "USN-8190-1 fixed a vulnerability in Rack::Session. This update provides the corresponding update for Ubuntu 26.04 LTS. Original advisory details: SeungMyung Lee discovered that Rack::Session did not properly reject cookies upon decryption failure. A remote attacker could use this issue to manipulate session contents and possibly gain unauthorized access.",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-8-cve-2026-40254-freerdp-freerdp-information-disclosure-and-arbitrary-file",
-    "title": "CVE-2026-40254 - FreeRDP: FreeRDP: Information disclosure and arbitrary file ",
-    "description": "[Red Hat] FreeRDP: FreeRDP: Information disclosure and arbitrary file modification via path traversal. Bugzilla: 2461368",
+    "slug": "system-vulnerabilities-8-ubuntu-usn-8217-1-follow-redirects-vulnerabilities",
+    "title": "[Ubuntu] USN-8217-1: follow-redirects vulnerabilities",
+    "description": "It was discovered that follow-redirects did not properly protect sensitive user information during redirects. An attacker could possibly use this issue to expose sensitive information. This issue only affected Ubuntu 18.04 LTS and Ubuntu 20.04 LTS. (CVE-2022-0155) It was discovered that follow-redirects did not properly remove sensitive information before storage or transfer. An attacker could pos",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-9-cve-2026-41305-postcss-postcss-cross-site-scripting-xss-via-improper-es",
-    "title": "CVE-2026-41305 - postcss: PostCSS: Cross-Site Scripting (XSS) via improper es",
-    "description": "[Red Hat] postcss: PostCSS: Cross-Site Scripting (XSS) via improper escaping of style closing tags. Bugzilla: 2461366",
+    "slug": "system-vulnerabilities-9-ubuntu-usn-8185-2-linux-kernel-low-latency-nvidia-vulnerabilities",
+    "title": "[Ubuntu] USN-8185-2: Linux kernel (Low Latency NVIDIA) vulnerabilities",
+    "description": "Josh Eads, Kristoffer Janke, Eduardo Vela Nava, Tavis Ormandy, and Matteo Rizzo discovered that some AMD Zen processors did not properly verify the signature of CPU microcode. This flaw is known as EntrySign. A privileged attacker could possibly use this issue to cause load malicious CPU microcode causing loss of integrity and confidentiality. (CVE-2024-36347) Several security issues were discover",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-10-cve-2026-41316-erb-erb-arbitrary-code-execution-via-deserialization-bypas",
-    "title": "CVE-2026-41316 - erb: ERB: Arbitrary code execution via deserialization bypas",
-    "description": "[Red Hat] erb: ERB: Arbitrary code execution via deserialization bypass. Bugzilla: 2461369",
+    "slug": "system-vulnerabilities-10-ubuntu-usn-8219-1-ultrajson-vulnerabilities",
+    "title": "[Ubuntu] USN-8219-1: UltraJSON vulnerabilities",
+    "description": "Cameron Criswell discovered that UltraJSON contained a memory leak that would occur when parsing large integers. An attacker could possibly use this issue to cause UltraJSON to crash, resulting in a denial of service. This issue only affected Ubuntu 24.04 LTS, Ubuntu 25.10, and Ubuntu 26.04 LTS. (CVE-2026-32874) It was discovered that UltraJSON contained integer overflow/underflow issues when calc",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-11-cve-2026-41324-basic-ftp-basic-ftp-denial-of-service-via-unbounded-memory",
-    "title": "CVE-2026-41324 - basic-ftp: basic-ftp: Denial of Service via unbounded memory",
-    "description": "[Red Hat] basic-ftp: basic-ftp: Denial of Service via unbounded memory growth from malicious directory listings. Bugzilla: 2461380",
+    "slug": "system-vulnerabilities-11-ubuntu-usn-8198-2-tornado-vulnerabilities",
+    "title": "[Ubuntu] USN-8198-2: Tornado vulnerabilities",
+    "description": "USN-8198-1 fixed vulnerabilities in Tornado. This update provides the corresponding updates for Ubuntu 26.04 LTS. Original advisory details: It was discovered that Tornado incorrectly handled parsing of large multipart request bodies. An attacker could possibly use this issue to cause a denial of service. (CVE-2026-31958) It was discovered that Tornado did not properly validate characters in cooki",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-12-cve-2026-41140-poetry-python-poetry-path-traversal-vulnerability-allows",
-    "title": "CVE-2026-41140 - poetry: python: Poetry: Path traversal vulnerability allows ",
-    "description": "[Red Hat] poetry: python: Poetry: Path traversal vulnerability allows arbitrary file write via malicious package extraction. Bugzilla: 2461604",
+    "slug": "system-vulnerabilities-12-ubuntu-usn-8221-1-wheel-vulnerability",
+    "title": "[Ubuntu] USN-8221-1: wheel vulnerability",
+    "description": "It was discovered that wheel did not correctly handle certain file paths. If a user or automated system were tricked into opening a specially crafted file, an attacker could possibly use this issue to execute arbitrary code.",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-13-cve-2026-31680-kernel-net-ipv6-flowlabel-defer-exclusive-option-free-un",
-    "title": "CVE-2026-31680 - kernel: net: ipv6: flowlabel: defer exclusive option free un",
-    "description": "[Red Hat] kernel: net: ipv6: flowlabel: defer exclusive option free until RCU teardown. Bugzilla: 2461764",
+    "slug": "system-vulnerabilities-13-ubuntu-usn-8195-3-packagekit-vulnerability",
+    "title": "[Ubuntu] USN-8195-3: PackageKit vulnerability",
+    "description": "USN-8195-1 fixed a vulnerability in PackageKit. This update provides the corresponding fix to Ubuntu 16.04 LTS, Ubuntu 18.04 LTS and Ubuntu 20.04 LTS. Original advisory details: It was discovered that PackageKit incorrectly handled certain transactions. A local attacker could use this issue to install arbitrary packages as root, possibly resulting in privilege escalation.",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-14-cve-2026-31677-kernel-crypto-af-alg-limit-rx-sg-extraction-by-receive-b",
-    "title": "CVE-2026-31677 - kernel: crypto: af_alg - limit RX SG extraction by receive b",
-    "description": "[Red Hat] kernel: crypto: af_alg - limit RX SG extraction by receive buffer budget. Bugzilla: 2461763",
+    "slug": "system-vulnerabilities-14-ubuntu-usn-8222-1-openssh-vulnerabilities",
+    "title": "[Ubuntu] USN-8222-1: OpenSSH vulnerabilities",
+    "description": "Christos Papakonstantinou discovered that the OpenSSH scp tool incorrectly handled the legacy scp protocol (-O) option. This could result in certain files being installed setuid or setgid, contrary to expectations. (CVE-2026-35385) Florian Kohnhäuser discovered that OpenSSH incorrectly handled shell metacharacters in usernames within a command line. When untrusted usernames and non-default configu",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-15-cve-2026-31679-kernel-openvswitch-validate-mpls-set-set-masked-payload-le",
-    "title": "CVE-2026-31679 - kernel: openvswitch: validate MPLS set/set_masked payload le",
-    "description": "[Red Hat] kernel: openvswitch: validate MPLS set/set_masked payload length. Bugzilla: 2461762",
+    "slug": "system-vulnerabilities-15-ubuntu-usn-8224-1-linux-kernel-bluefield-vulnerabilities",
+    "title": "[Ubuntu] USN-8224-1: Linux kernel (BlueField) vulnerabilities",
+    "description": "Qualys discovered that several vulnerabilities existed in the AppArmor Linux kernel Security Module (LSM). An unprivileged local attacker could use these issues to load, replace, and remove arbitrary AppArmor profiles causing denial of service, exposure of sensitive information (kernel memory), local privilege escalation, or possibly escape a container. (LP: #2143853, CVE-2026-23268, CVE-2026-2326",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-16-cve-2026-31678-kernel-openvswitch-defer-tunnel-netdev-put-to-rcu-release",
-    "title": "CVE-2026-31678 - kernel: openvswitch: defer tunnel netdev_put to RCU release",
-    "description": "[Red Hat] kernel: openvswitch: defer tunnel netdev_put to RCU release. Bugzilla: 2461761",
+    "slug": "system-vulnerabilities-16-ubuntu-usn-8223-1-roundcube-webmail-vulnerabilities",
+    "title": "[Ubuntu] USN-8223-1: Roundcube Webmail vulnerabilities",
+    "description": "It was discovered that Roundcube Webmail mishandled Punycode xn-- domain names. An attacker could possibly use this issue to cause a homograph attack. (CVE-2019-15237) It was discovered that Roundcube Webmail did not properly sanitize certain attributes when handling CSS within HTML messages and certain SVG attributes. An attacker could possibly use this issue to cause a cross-site scripting attac",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-17-cve-2026-31675-kernel-net-sched-sch-netem-fix-out-of-bounds-access-in-pa",
-    "title": "CVE-2026-31675 - kernel: net/sched: sch_netem: fix out-of-bounds access in pa",
-    "description": "[Red Hat] kernel: net/sched: sch_netem: fix out-of-bounds access in packet corruption. Bugzilla: 2461760",
+    "slug": "system-vulnerabilities-17-cve-2026-7360-chromium-browser-insufficient-validation-of-untrusted-input",
+    "title": "CVE-2026-7360 - chromium-browser: Insufficient validation of untrusted input",
+    "description": "[Red Hat] chromium-browser: Insufficient validation of untrusted input in Compositing. Bugzilla: 2463677",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-18-cve-2026-31685-kernel-netfilter-ip6t-eui64-reject-invalid-mac-header-for",
-    "title": "CVE-2026-31685 - kernel: netfilter: ip6t_eui64: reject invalid MAC header for",
-    "description": "[Red Hat] kernel: netfilter: ip6t_eui64: reject invalid MAC header for all packets. Bugzilla: 2461759",
+    "slug": "system-vulnerabilities-18-cve-2026-7336-chromium-browser-use-after-free-in-webrtc",
+    "title": "CVE-2026-7336 - chromium-browser: Use after free in WebRTC",
+    "description": "[Red Hat] chromium-browser: Use after free in WebRTC. Bugzilla: 2463676",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-19-cve-2026-31674-kernel-netfilter-ip6t-rt-reject-oversized-addrnr-in-rt-mt",
-    "title": "CVE-2026-31674 - kernel: netfilter: ip6t_rt: reject oversized addrnr in rt_mt",
-    "description": "[Red Hat] kernel: netfilter: ip6t_rt: reject oversized addrnr in rt_mt6_check(). Bugzilla: 2461758",
+    "slug": "system-vulnerabilities-19-cve-2026-7348-chromium-browser-use-after-free-in-codecs",
+    "title": "CVE-2026-7348 - chromium-browser: Use after free in Codecs",
+    "description": "[Red Hat] chromium-browser: Use after free in Codecs. Bugzilla: 2463671",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-20-cve-2026-31684-kernel-net-sched-act-csum-validate-nested-vlan-headers",
-    "title": "CVE-2026-31684 - kernel: net: sched: act_csum: validate nested VLAN headers",
-    "description": "[Red Hat] kernel: net: sched: act_csum: validate nested VLAN headers. Bugzilla: 2461757",
+    "slug": "system-vulnerabilities-20-cve-2026-7359-chromium-browser-use-after-free-in-angle",
+    "title": "CVE-2026-7359 - chromium-browser: Use after free in ANGLE",
+    "description": "[Red Hat] chromium-browser: Use after free in ANGLE. Bugzilla: 2463670",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-21-cve-2026-31683-kernel-batman-adv-avoid-ogm-aggregation-when-skb-tailroom",
-    "title": "CVE-2026-31683 - kernel: batman-adv: avoid OGM aggregation when skb tailroom ",
-    "description": "[Red Hat] kernel: batman-adv: avoid OGM aggregation when skb tailroom is insufficient. Bugzilla: 2461756",
+    "slug": "system-vulnerabilities-21-cve-2026-7352-chromium-browser-use-after-free-in-media",
+    "title": "CVE-2026-7352 - chromium-browser: Use after free in Media",
+    "description": "[Red Hat] chromium-browser: Use after free in Media. Bugzilla: 2463669",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-22-cve-2026-31676-kernel-rxrpc-only-handle-response-during-service-challenge",
-    "title": "CVE-2026-31676 - kernel: rxrpc: only handle RESPONSE during service challenge",
-    "description": "[Red Hat] kernel: rxrpc: only handle RESPONSE during service challenge. Bugzilla: 2461755",
+    "slug": "system-vulnerabilities-22-cve-2026-7356-chromium-browser-use-after-free-in-navigation",
+    "title": "CVE-2026-7356 - chromium-browser: Use after free in Navigation",
+    "description": "[Red Hat] chromium-browser: Use after free in Navigation. Bugzilla: 2463667",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-23-cve-2026-31682-kernel-bridge-br-nd-send-linearize-skb-before-parsing-nd",
-    "title": "CVE-2026-31682 - kernel: bridge: br_nd_send: linearize skb before parsing ND ",
-    "description": "[Red Hat] kernel: bridge: br_nd_send: linearize skb before parsing ND options. Bugzilla: 2461754",
+    "slug": "system-vulnerabilities-23-cve-2026-7358-chromium-browser-use-after-free-in-animation",
+    "title": "CVE-2026-7358 - chromium-browser: Use after free in Animation",
+    "description": "[Red Hat] chromium-browser: Use after free in Animation. Bugzilla: 2463665",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-24-cve-2026-31681-kernel-netfilter-xt-multiport-validate-range-encoding-in",
-    "title": "CVE-2026-31681 - kernel: netfilter: xt_multiport: validate range encoding in ",
-    "description": "[Red Hat] kernel: netfilter: xt_multiport: validate range encoding in checkentry. Bugzilla: 2461753",
+    "slug": "system-vulnerabilities-24-cve-2026-7340-chromium-browser-integer-overflow-in-angle",
+    "title": "CVE-2026-7340 - chromium-browser: Integer overflow in ANGLE",
+    "description": "[Red Hat] chromium-browser: Integer overflow in ANGLE. Bugzilla: 2463664",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-25-cve-2026-31673-kernel-af-unix-read-unix-diag-vfs-data-under-unix-state-lo",
-    "title": "CVE-2026-31673 - kernel: af_unix: read UNIX_DIAG_VFS data under unix_state_lo",
-    "description": "[Red Hat] kernel: af_unix: read UNIX_DIAG_VFS data under unix_state_lock. Bugzilla: 2461752",
+    "slug": "system-vulnerabilities-25-cve-2026-7334-chromium-browser-use-after-free-in-views",
+    "title": "CVE-2026-7334 - chromium-browser: Use after free in Views",
+    "description": "[Red Hat] chromium-browser: Use after free in Views. Bugzilla: 2463663",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-26-cve-2026-3006-winfsp-winfsp-local-privilege-escalation-via-race-conditio",
-    "title": "CVE-2026-3006 - winfsp: winfsp: Local privilege escalation via race conditio",
-    "description": "[Red Hat] winfsp: winfsp: Local privilege escalation via race condition and kernel heap overflow. Bugzilla: 2463150",
+    "slug": "system-vulnerabilities-26-cve-2026-7338-chromium-browser-use-after-free-in-cast",
+    "title": "CVE-2026-7338 - chromium-browser: Use after free in Cast",
+    "description": "[Red Hat] chromium-browser: Use after free in Cast. Bugzilla: 2463660",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-27-cve-2017-2456",
-    "title": "CVE-2017-2456",
-    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. watchOS before 3.2 is affected. The issue involves the \"Kernel\" component. A race condition allows attackers to execute arbitrary code in a privileged context via a crafted app.",
+    "slug": "system-vulnerabilities-27-cve-2026-7341-chromium-browser-use-after-free-in-webrtc",
+    "title": "CVE-2026-7341 - chromium-browser: Use after free in WebRTC",
+    "description": "[Red Hat] chromium-browser: Use after free in WebRTC. Bugzilla: 2463659",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-28-cve-2017-2451",
-    "title": "CVE-2017-2451",
-    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. watchOS before 3.2 is affected. The issue involves the \"Security\" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (buffer overflow) via a crafted app.",
+    "slug": "system-vulnerabilities-28-cve-2026-7339-chromium-browser-heap-buffer-overflow-in-webrtc",
+    "title": "CVE-2026-7339 - chromium-browser: Heap buffer overflow in WebRTC",
+    "description": "[Red Hat] chromium-browser: Heap buffer overflow in WebRTC. Bugzilla: 2463658",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-29-cve-2017-2450",
-    "title": "CVE-2017-2450",
-    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. watchOS before 3.2 is affected. The issue involves the \"CoreText\" component. It allows remote attackers to obtain sensitive information or cause a denial of service (out-of-bounds read and application crash) via a crafted font file.",
+    "slug": "system-vulnerabilities-29-cve-2026-7353-chromium-browser-heap-buffer-overflow-in-skia",
+    "title": "CVE-2026-7353 - chromium-browser: Heap buffer overflow in Skia",
+    "description": "[Red Hat] chromium-browser: Heap buffer overflow in Skia. Bugzilla: 2463657",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-30-cve-2017-2449",
-    "title": "CVE-2017-2449",
-    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"Bluetooth\" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (use-after-free) via a crafted app.",
+    "slug": "system-vulnerabilities-30-cve-2026-7351-chromium-browser-race-in-mhtml",
+    "title": "CVE-2026-7351 - chromium-browser: Race in MHTML",
+    "description": "[Red Hat] chromium-browser: Race in MHTML. Bugzilla: 2463656",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-31-cve-2017-2448",
-    "title": "CVE-2017-2448",
-    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. The issue involves the \"Keychain\" component. It allows man-in-the-middle attackers to bypass an iCloud Keychain secret protection mechanism by leveraging lack of authentication for OTR packets.",
+    "slug": "system-vulnerabilities-31-cve-2026-7309-openshift-controller-manager-openshift-container-platform",
+    "title": "CVE-2026-7309 - openshift-controller-manager: OpenShift Container Platform: ",
+    "description": "[Red Hat] openshift-controller-manager: OpenShift Container Platform: Information disclosure via environment variable injection. Bugzilla: 2463451",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-32-cve-2017-2443",
-    "title": "CVE-2017-2443",
-    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"Intel Graphics Driver\" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.",
+    "slug": "system-vulnerabilities-32-cve-2026-40355-krb5-mit-kerberos-5-denial-of-service-via-null-pointer-der",
+    "title": "CVE-2026-40355 - krb5: MIT Kerberos 5: Denial of Service via NULL pointer der",
+    "description": "[Red Hat] krb5: MIT Kerberos 5: Denial of Service via NULL pointer dereference in NegoEx mechanism. Bugzilla: 2463370",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-33-cve-2017-2441",
-    "title": "CVE-2017-2441",
-    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. watchOS before 3.2 is affected. The issue involves the \"libc++abi\" component. A use-after-free vulnerability allows remote attackers to execute arbitrary code via a crafted C++ app that is mishandled during demangling.",
+    "slug": "system-vulnerabilities-33-cve-2026-40356-krb5-mit-kerberos-5-krb5-denial-of-service-via-integer-u",
+    "title": "CVE-2026-40356 - krb5: MIT Kerberos 5 (krb5): Denial of Service via integer u",
+    "description": "[Red Hat] krb5: MIT Kerberos 5 (krb5): Denial of Service via integer underflow and out-of-bounds read. Bugzilla: 2463368",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-34-cve-2017-2440",
-    "title": "CVE-2017-2440",
-    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. watchOS before 3.2 is affected. The issue involves the \"Kernel\" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (integer overflow) via a crafted app.",
+    "slug": "system-vulnerabilities-34-cve-2026-42510-openstack-ironic-ipmitool-openstack-ironic-arbitrary-code",
+    "title": "CVE-2026-42510 - OpenStack Ironic: ipmitool: OpenStack Ironic: Arbitrary Code",
+    "description": "[Red Hat] OpenStack Ironic: ipmitool: OpenStack Ironic: Arbitrary Code Execution via Remote Hardware Management. Bugzilla: 2463371",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-35-cve-2017-2439",
-    "title": "CVE-2017-2439",
-    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. watchOS before 3.2 is affected. The issue involves the \"FontParser\" component. It allows remote attackers to obtain sensitive information or cause a denial of service (out-of-bounds read and application crash) via a crafted font file.",
+    "slug": "system-vulnerabilities-35-cve-2026-7233-mupdf-artifex-mupdf-information-disclosure-due-to-out-of-b",
+    "title": "CVE-2026-7233 - mupdf: Artifex MuPDF: Information disclosure due to out-of-b",
+    "description": "[Red Hat] mupdf: Artifex MuPDF: Information disclosure due to out-of-bounds read. Bugzilla: 2463367",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-36-cve-2017-2438",
-    "title": "CVE-2017-2438",
-    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"AppleRAID\" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (use-after-free) via a crafted app.",
+    "slug": "system-vulnerabilities-36-cve-2026-5435-glibc-glibc-out-of-bounds-write-via-tsig-record-processing",
+    "title": "CVE-2026-5435 - glibc: glibc: Out-of-bounds write via TSIG record processing",
+    "description": "[Red Hat] glibc: glibc: Out-of-bounds write via TSIG record processing. Bugzilla: 2463465",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-37-cve-2017-2437",
-    "title": "CVE-2017-2437",
-    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"IOFireWireAVC\" component. It allows local users to gain privileges or cause a denial of service (memory corruption) via unspecified vectors.",
+    "slug": "system-vulnerabilities-37-cve-1999-0987",
+    "title": "CVE-1999-0987",
+    "description": "Windows NT does not properly download a system policy if the domain user logs into the domain with a space at the end of the domain name.",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-38-cve-2017-2436",
-    "title": "CVE-2017-2436",
-    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"IOFireWireAVC\" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.",
+    "slug": "system-vulnerabilities-38-cve-1999-1110",
+    "title": "CVE-1999-1110",
+    "description": "Windows Media Player ActiveX object as used in Internet Explorer 5.0 returns a specific error code when a file does not exist, which allows remote malicious web sites to determine the existence of files on the client.",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-39-cve-2017-2435",
-    "title": "CVE-2017-2435",
-    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. watchOS before 3.2 is affected. The issue involves the \"CoreText\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted font file.",
+    "slug": "system-vulnerabilities-39-cve-2000-0330",
+    "title": "CVE-2000-0330",
+    "description": "The networking software in Windows 95 and Windows 98 allows remote attackers to execute commands via a long file name string, aka the \"File Access URL\" vulnerability.",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-40-cve-2017-2432",
-    "title": "CVE-2017-2432",
-    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. watchOS before 3.2 is affected. The issue involves the \"ImageIO\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted JPEG file.",
+    "slug": "system-vulnerabilities-40-cve-1999-1065",
+    "title": "CVE-1999-1065",
+    "description": "Palm Pilot HotSync Manager 3.0.4 in Windows 98 allows remote attackers to cause a denial of service, and possibly execute arbitrary commands, via a long string to port 14238 while the manager is in network mode.",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-41-cve-2017-2431",
-    "title": "CVE-2017-2431",
-    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"CoreMedia\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted .mov file.",
+    "slug": "system-vulnerabilities-41-cve-1999-0899",
+    "title": "CVE-1999-0899",
+    "description": "The Windows NT 4.0 print spooler allows a local user to execute arbitrary commands due to inappropriate permissions that allow the user to specify an alternate print provider.",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-42-cve-2017-2430",
-    "title": "CVE-2017-2430",
-    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. watchOS before 3.2 is affected. The issue involves the \"Audio\" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted audio file.",
+    "slug": "system-vulnerabilities-42-cve-1999-0898",
+    "title": "CVE-1999-0898",
+    "description": "Buffer overflows in Windows NT 4.0 print spooler allow remote attackers to gain privileges or cause a denial of service via a malformed spooler request.",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-43-cve-2017-2429",
-    "title": "CVE-2017-2429",
-    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"FinderKit\" component. It allows remote attackers to bypass intended access restrictions in opportunistic circumstances by leveraging unexpected permission changes during an iCloud Sharing Send Link action.",
+    "slug": "system-vulnerabilities-43-cve-1999-1531",
+    "title": "CVE-1999-1531",
+    "description": "Buffer overflow in IBM HomePagePrint 1.0.7 for Windows98J allows a malicious Web site to execute arbitrary code on a viewer's system via a long IMG_SRC HTML tag.",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-44-cve-2017-2428",
-    "title": "CVE-2017-2428",
-    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. tvOS before 10.2 is affected. watchOS before 3.2 is affected. The issue involves nghttp2 before 1.17.0 in the \"HTTPProtocol\" component. It allows remote HTTP/2 servers to have an unspecified impact via unknown vectors.",
+    "slug": "system-vulnerabilities-44-cve-1999-1234",
+    "title": "CVE-1999-1234",
+    "description": "LSA (LSASS.EXE) in Windows NT 4.0 allows remote attackers to cause a denial of service via a NULL policy handle in a call to (1) SamrOpenDomain, (2) SamrEnumDomainUsers, and (3) SamrQueryDomainInfo.",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-45-cve-2017-2427",
-    "title": "CVE-2017-2427",
-    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"Bluetooth\" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.",
+    "slug": "system-vulnerabilities-45-cve-1999-1454",
+    "title": "CVE-1999-1454",
+    "description": "Macromedia \"The Matrix\" screen saver on Windows 95 with the \"Password protected\" option enabled allows attackers with physical access to the machine to bypass the password prompt by pressing the ESC (Escape) key.",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-46-cve-2017-2426",
-    "title": "CVE-2017-2426",
-    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"iBooks\" component. It allows remote attackers to obtain sensitive information from local files via a file: URL in an iBooks file.",
+    "slug": "system-vulnerabilities-46-cve-1999-0909",
+    "title": "CVE-1999-0909",
+    "description": "Multihomed Windows systems allow a remote attacker to bypass IP source routing restrictions via a malformed packet with IP options, aka the \"Spoofed Route Pointer\" vulnerability.",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-47-cve-2017-2425",
-    "title": "CVE-2017-2425",
-    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"SecurityFoundation\" component. A double free vulnerability allows remote attackers to execute arbitrary code via a crafted certificate.",
+    "slug": "system-vulnerabilities-47-cve-1999-0886",
+    "title": "CVE-1999-0886",
+    "description": "The security descriptor for RASMAN allows users to point to an alternate location via the Windows NT Service Control Manager.",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-48-cve-2017-2423",
-    "title": "CVE-2017-2423",
-    "description": "An issue was discovered in certain Apple products. iOS before 10.3 is affected. macOS before 10.12.4 is affected. The issue involves the \"Security\" component. It allows remote attackers to bypass intended access restrictions by leveraging a successful result from a SecKeyRawVerify API call with an empty signature.",
+    "slug": "system-vulnerabilities-48-cve-1999-1356",
+    "title": "CVE-1999-1356",
+    "description": "Compaq Integration Maintenance Utility as used in Compaq Insight Manager agent before SmartStart 4.50 modifies the legal notice caption (LegalNoticeCaption) and text (LegalNoticeText) in Windows NT, which could produce a legal notice that is in violation of the security policy.",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-49-cve-2017-2422",
-    "title": "CVE-2017-2422",
-    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"Multi-Touch\" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.",
+    "slug": "system-vulnerabilities-49-cve-2000-0328",
+    "title": "CVE-2000-0328",
+    "description": "Windows NT 4.0 generates predictable random TCP initial sequence numbers (ISN), which allows remote attackers to perform spoofing and session hijacking.",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-vulnerabilities-50-cve-2017-2421",
-    "title": "CVE-2017-2421",
-    "description": "An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the \"AppleGraphicsPowerManagement\" component. A race condition allows attackers to execute arbitrary code in a privileged context via a crafted app.",
+    "slug": "system-vulnerabilities-50-cve-1999-0680",
+    "title": "CVE-1999-0680",
+    "description": "Windows NT Terminal Server performs extra work when a client opens a new connection but before it is authenticated, allowing for a denial of service.",
     "category": "system-vulnerabilities",
     "markdown_path": "system-vulnerabilities/index.md",
     "source_url": ""
   },
   {
-    "slug": "system-troubleshooting-1-v2ex-偶然看到一篇文章-文化已死-当绝大多数人听的音乐-读的书都来自-10-年前-给大家推荐一下-非常值得一看",
-    "title": "[V2EX] 偶然看到一篇文章《文化已死：当绝大多数人听的音乐，读的书都来自 10 年前》，给大家推荐一下，非常值得一看",
-    "description": "先说一下我的读后感，就是恍然大悟的感觉，当然，因为我已经奔 50 了，所以听的音乐大概是 2 、30 年前的。\n看的书倒是大部分是新书，因为我经常是在 YouTube 上看到了感兴趣的书的介绍，然后再去看，最近看完的书《制度基因》是 25 年出版的。\n文中最后一句：在这个宣称“文化自信”的国家，文化已经死了。振聋发聩，不知该作何感想。\n原文地址： https://chinadigitaltimes.net/chinese/726807.html",
+    "slug": "system-troubleshooting-1-nat-prerouting-rule-not-working-for-wifi-builtin-module",
+    "title": "Nat prerouting rule not working for WiFi builtin module",
+    "description": "Tags: linux, networking, vpn, nftables, tor | Score: 1 | Views: 43 | Answers: 1 | Created: 2025-12-20",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.v2ex.com/t/1208941#reply3"
+    "source_url": "https://unix.stackexchange.com/questions/803182/nat-prerouting-rule-not-working-for-wifi-builtin-module"
   },
   {
-    "slug": "system-troubleshooting-2-v2ex-claude-code-的-designs-和-routines-居然是独立额度-我的-claude-pro-订阅又升值了",
-    "title": "[V2EX] Claude code 的 Designs 和 Routines 居然是独立额度，我的 Claude Pro 订阅又升值了",
-    "description": "以前只看 chat 的 Claude Code session ，今天才发现 Design 拿来做原型或者 slides ，Routines 拿来跑周期任务，居然都是独立额度，白赚一个额外的调用池子啊，香。",
+    "slug": "system-troubleshooting-2-how-to-best-protect-against-bit-rot-on-a-frequently-powered-on-ssd",
+    "title": "How to best protect against bit rot on a frequently powered-on SSD?",
+    "description": "Tags: linux, raid, storage, ssd, data-recovery | Score: 1 | Views: 350 | Answers: 2 | Created: 2025-12-21",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.v2ex.com/t/1208965#reply0"
+    "source_url": "https://unix.stackexchange.com/questions/803202/how-to-best-protect-against-bit-rot-on-a-frequently-powered-on-ssd"
   },
   {
-    "slug": "system-troubleshooting-3-v2ex-快连停止了中国大陆地区的业务运营",
-    "title": "[V2EX] 快连停止了中国大陆地区的业务运营",
-    "description": "https://letsvpn.world/blog/c130bd",
+    "slug": "system-troubleshooting-3-suspending-sometimes-does-not-turn-off-the-system-and-freezes",
+    "title": "Suspending sometimes does not turn off the system and freezes",
+    "description": "Tags: debian, suspend | Score: 1 | Views: 271 | Answers: 1 | Created: 2025-12-22",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.v2ex.com/t/1208980#reply0"
+    "source_url": "https://unix.stackexchange.com/questions/803237/suspending-sometimes-does-not-turn-off-the-system-and-freezes"
   },
   {
-    "slug": "system-troubleshooting-4-v2ex-开源了一个-macos-小工具-betterclicker-把快捷键映射成指定应用里的点击操作",
-    "title": "[V2EX] 开源了一个 macOS 小工具 BetterClicker：把快捷键映射成指定应用里的点击操作",
-    "description": "为了在 macOS 上愉快的刷 iPad 版的小红书，我 Vibe 了这个东西，可以把鼠标点击操作转为快捷键，比如 Esc 映射为返回按钮的位置，如果想用在网页上的话，网页支持 PWA 的话，也是能正确识别 App 实现分应用配置的。比较适合的场景比如：-某些不支持快捷键的 iPhone/iPad App-重复点击返回、确认、切换之类的位置地址： https://github.com/ikanam/BetterClicker",
+    "slug": "system-troubleshooting-4-spotify-client-window-style-is-like-old-windows-on-debian-13",
+    "title": "Spotify client window style is like old Windows on Debian 13",
+    "description": "Tags: debian, window | Score: 1 | Views: 578 | Answers: 1 | Created: 2025-12-27",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.v2ex.com/t/1205553#reply0"
+    "source_url": "https://unix.stackexchange.com/questions/803332/spotify-client-window-style-is-like-old-windows-on-debian-13"
   },
   {
-    "slug": "system-troubleshooting-5-v2ex-求助-mbp-m1-合盖不熄屏",
-    "title": "[V2EX] 求助： mbp m1 合盖不熄屏",
-    "description": "1. 左上角休眠按钮被禁用2. 天才吧没看出什么问题，让我重装。测试硬件正常3. 新建账号问题依旧有没有遇到过的 v 友指点一下，如需什么细节我再提供",
+    "slug": "system-troubleshooting-5-what-does-gnome-notification-that-app-is-ready-mean",
+    "title": "What does Gnome notification that app is ready mean?",
+    "description": "Tags: linux, gnome, window-switching | Score: 1 | Views: 190 | Answers: 2 | Created: 2025-12-30",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.v2ex.com/t/1208919#reply7"
+    "source_url": "https://unix.stackexchange.com/questions/803389/what-does-gnome-notification-that-app-is-ready-mean"
   },
   {
-    "slug": "system-troubleshooting-6-uploading-backup-to-new-phone-without-the-old-one-around",
-    "title": "Uploading backup to new phone without the old one around.",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-6-debian-preseed-partman-auto-expert-recipe-with-dynamic-early-command-is-ignored-rebalanced-dynamic-partition-sizing-based-on-hdd-sda-size",
+    "title": "Debian preseed partman-auto: expert_recipe with dynamic early_command is ignored / rebalanced (dynamic partition sizing based on hdd sda size)",
+    "description": "Tags: debian, partition, system-installation, debian-installer, preseed | Score: 1 | Views: 190 | Answers: 1 | Created: 2025-12-31",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sx5byu/uploading_backup_to_new_phone_without_the_old_one/"
+    "source_url": "https://unix.stackexchange.com/questions/803408/debian-preseed-partman-auto-expert-recipe-with-dynamic-early-command-is-ignored"
   },
   {
-    "slug": "system-troubleshooting-7-iphone-16-plus-battery-issue",
-    "title": "iPhone 16 Plus Battery Issue?",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-7-idevicerestore-never-completes-sending-filesystem-now",
+    "title": "idevicerestore: never completes \"Sending filesystem now\"",
+    "description": "Tags: debian, macos, libimobiledevice | Score: 1 | Views: 158 | Answers: 1 | Created: 2025-12-31",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxbtzh/iphone_16_plus_battery_issue/"
+    "source_url": "https://unix.stackexchange.com/questions/803415/idevicerestore-never-completes-sending-filesystem-now"
   },
   {
-    "slug": "system-troubleshooting-8-new-crp-ipad-air-5-can-t-connect-to-wifi-anymore",
-    "title": "New CRP Ipad Air 5 can't connect to wifi anymore",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-8-is-there-a-way-to-tell-if-a-mac-connected-via-usb-in-device-mode-is-itself-in-device-firmware-update-dfu-mode",
+    "title": "Is there a way to tell if a Mac connected via USB (in device mode) is itself in \"Device Firmware Update\" (DFU) mode?",
+    "description": "Tags: debian, macos | Score: 1 | Views: 109 | Answers: 2 | Created: 2025-12-31",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxc5qc/new_crp_ipad_air_5_cant_connect_to_wifi_anymore/"
+    "source_url": "https://unix.stackexchange.com/questions/803417/is-there-a-way-to-tell-if-a-mac-connected-via-usb-in-device-mode-is-itself-in"
   },
   {
-    "slug": "system-troubleshooting-9-connector-video-lightning-assistance",
-    "title": "Connector video lightning assistance⚡",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-9-why-is-my-userid-1001-instead-of-1000-on-my-new-system",
+    "title": "Why is my userID 1001 instead of 1000 on my new system",
+    "description": "Tags: ubuntu, passwd, uid | Score: 1 | Views: 347 | Answers: 2 | Created: 2026-01-02",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxcbcf/connector_video_lightning_assistance/"
+    "source_url": "https://unix.stackexchange.com/questions/803454/why-is-my-userid-1001-instead-of-1000-on-my-new-system"
   },
   {
-    "slug": "system-troubleshooting-10-are-these-real-i-saw-the-post-about-the-fake-airpods-that-were-wrapped",
-    "title": "Are these real? I saw the post about the fake airpods that were wrapped",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-10-stuck-troubleshooting-alsa-and-pipewire-on-debian-13-trixie-host-is-down-pipewire-likely-not-running",
+    "title": "Stuck troubleshooting ALSA and pipewire on Debian 13 (Trixie) - \"Host is Down\"; pipewire likely not running",
+    "description": "Tags: debian, audio, alsa, pipewire | Score: 1 | Views: 1099 | Answers: 1 | Created: 2026-01-05",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxcnbg/are_these_real_i_saw_the_post_about_the_fake/"
+    "source_url": "https://unix.stackexchange.com/questions/803534/stuck-troubleshooting-alsa-and-pipewire-on-debian-13-trixie-host-is-down"
   },
   {
-    "slug": "system-troubleshooting-11-need-a-a1706-ssd-with-decent-specs",
-    "title": "Need a A1706 SSD with decent specs",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-11-additional-steps-required-to-send-synology-btrfs-snapshots-to-debian",
+    "title": "additional steps required to send synology btrfs snapshots to debian?",
+    "description": "Tags: debian, btrfs, synology | Score: 1 | Views: 131 | Answers: 1 | Created: 2026-01-07",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxczza/need_a_a1706_ssd_with_decent_specs/"
+    "source_url": "https://unix.stackexchange.com/questions/803598/additional-steps-required-to-send-synology-btrfs-snapshots-to-debian"
   },
   {
-    "slug": "system-troubleshooting-12-selling-used-airpods-pro-1-expected-price",
-    "title": "Selling used AirPods Pro 1. Expected price?",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-12-how-to-see-all-debsums-results-that-are-not-ok-and-not-about-files-in-opt",
+    "title": "How to see all debsums results that are not OK and not about files in /opt/?",
+    "description": "Tags: debian, grep, security | Score: 1 | Views: 81 | Answers: 2 | Created: 2026-01-08",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sx39r3/selling_used_airpods_pro_1_expected_price/"
+    "source_url": "https://unix.stackexchange.com/questions/803625/how-to-see-all-debsums-results-that-are-not-ok-and-not-about-files-in-opt"
   },
   {
-    "slug": "system-troubleshooting-13-how-do-i-fix-the-screentime-bug-for-every-site-visited-during-downtime",
-    "title": "How do I fix the screentime bug for every site visited during downtime?",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-13-intel-ax211-wi-fi-repeatedly-soft-blocked-on-linux-with-iwlwifi-firmware-crashes-after-long-period-of-inactivity",
+    "title": "Intel AX211 Wi-Fi repeatedly soft-blocked on Linux with iwlwifi firmware crashes after long period of inactivity",
+    "description": "Tags: linux, kernel, wifi, intel | Score: 1 | Views: 110 | Answers: 1 | Created: 2026-01-13",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxdsur/how_do_i_fix_the_screentime_bug_for_every_site/"
+    "source_url": "https://unix.stackexchange.com/questions/803720/intel-ax211-wi-fi-repeatedly-soft-blocked-on-linux-with-iwlwifi-firmware-crashes"
   },
   {
-    "slug": "system-troubleshooting-14-i-m-asking-because-i-m-from-another-country-and-i-m-having-it-shipped-through-a-company",
-    "title": "I'm asking because I'm from another country and I'm having it shipped through a company",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-14-ubuntu-24-04-3-no-audio-on-gigabyte-ga-720-us3",
+    "title": "Ubuntu 24.04.3 - no audio on Gigabyte GA-720-US3",
+    "description": "Tags: ubuntu, audio | Score: 1 | Views: 40 | Answers: 1 | Created: 2026-01-14",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxdx91/im_asking_because_im_from_another_country_and_im/"
+    "source_url": "https://unix.stackexchange.com/questions/803743/ubuntu-24-04-3-no-audio-on-gigabyte-ga-720-us3"
   },
   {
-    "slug": "system-troubleshooting-15-apple-support-here-apple-id-confirmation-constantly-getting-those-texts-did-anyone-experienced-it",
-    "title": "“Apple Support here – Apple ID confirmation.” constantly getting those texts - did anyone experienced it?",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-15-bluetooth-audio-device-not-recognized-in-playback-devices",
+    "title": "Bluetooth Audio Device Not Recognized in Playback Devices",
+    "description": "Tags: debian, pulseaudio, bluetooth, jack | Score: 1 | Views: 194 | Answers: 2 | Created: 2026-01-15",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxe2we/apple_support_here_apple_id_confirmation/"
+    "source_url": "https://unix.stackexchange.com/questions/803757/bluetooth-audio-device-not-recognized-in-playback-devices"
   },
   {
-    "slug": "system-troubleshooting-16-will-this-ram-work-on-my-late-2012-mac-mini-model-a1347",
-    "title": "Will this ram work on my late 2012 mac mini model A1347?",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-16-how-can-i-require-a-password-before-allowing-usb-flash-drives-on-ubuntu",
+    "title": "How can I require a password before allowing USB flash drives on Ubuntu?",
+    "description": "Tags: ubuntu, mount, security, usb, usb-drive | Score: 1 | Views: 175 | Answers: 1 | Created: 2026-01-17",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxe626/will_this_ram_work_on_my_late_2012_mac_mini_model/"
+    "source_url": "https://unix.stackexchange.com/questions/803833/how-can-i-require-a-password-before-allowing-usb-flash-drives-on-ubuntu"
   },
   {
-    "slug": "system-troubleshooting-17-what-is-the-recommended-way-to-setup-a-hyperkey-on-capslco",
-    "title": "What is the recommended way to setup a Hyperkey on CapsLco?",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-17-upower-how-to-enforce-charging-start-end-thresholds",
+    "title": "upower: how to enforce charging start & end thresholds?",
+    "description": "Tags: debian, power-management, laptop, battery | Score: 1 | Views: 360 | Answers: 1 | Created: 2026-01-18",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxeugn/what_is_the_recommended_way_to_setup_a_hyperkey/"
+    "source_url": "https://unix.stackexchange.com/questions/803869/upower-how-to-enforce-charging-start-end-thresholds"
   },
   {
-    "slug": "system-troubleshooting-18-unable-to-access-mail",
-    "title": "unable to access mail",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-18-systemd-greetd-service-being-replaced-with-masked-gdm3-service-after-every-update",
+    "title": "Systemd `greetd` service being replaced with masked `gdm3` service after every update",
+    "description": "Tags: debian, systemd, gnome, display-manager | Score: 1 | Views: 121 | Answers: 1 | Created: 2026-01-19",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxfnf8/unable_to_access_mail/"
+    "source_url": "https://unix.stackexchange.com/questions/803886/systemd-greetd-service-being-replaced-with-masked-gdm3-service-after-every-u"
   },
   {
-    "slug": "system-troubleshooting-19-trying-to-get-a-4-monitor-set-up-going-off-a-single-thunderbolt-dock",
-    "title": "Trying to get a 4 monitor set up going off a single thunderbolt dock",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-19-how-can-i-exclude-a-single-bssid-from-a-wireless-network-while-allowing-multiple-others",
+    "title": "How can I exclude a single BSSID from a wireless network while allowing multiple others?",
+    "description": "Tags: linux, networking, wifi, mac-address, netplan | Score: 1 | Views: 99 | Answers: 1 | Created: 2026-01-21",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxfvhd/trying_to_get_a_4_monitor_set_up_going_off_a/"
+    "source_url": "https://unix.stackexchange.com/questions/803933/how-can-i-exclude-a-single-bssid-from-a-wireless-network-while-allowing-multiple"
   },
   {
-    "slug": "system-troubleshooting-20-something-wrong-with-battery",
-    "title": "Something wrong with battery?",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-20-how-do-you-fix-no-protocol-specified-during-wake-from-sleep-in-linux",
+    "title": "How do you fix \"no protocol specified\" during wake from sleep in Linux?",
+    "description": "Tags: linux, xrandr, suspend | Score: 1 | Views: 49 | Answers: 1 | Created: 2026-01-29",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxfww5/something_wrong_with_battery/"
+    "source_url": "https://unix.stackexchange.com/questions/804111/how-do-you-fix-no-protocol-specified-during-wake-from-sleep-in-linux"
   },
   {
-    "slug": "system-troubleshooting-21-cloud-status-stuck-on-waiting",
-    "title": "Cloud Status stuck on \"Waiting\"",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-21-cannot-set-valid-lft-to-forever-in-ubuntu-24-04-with-diskless-network-boot-causes-freeze",
+    "title": "Cannot set valid_lft to forever in Ubuntu 24.04 with diskless network boot, causes freeze",
+    "description": "Tags: ubuntu, freeze, netboot | Score: 2 | Views: 176 | Answers: 1 | Created: 2025-04-25",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxfyrf/cloud_status_stuck_on_waiting/"
+    "source_url": "https://unix.stackexchange.com/questions/794181/cannot-set-valid-lft-to-forever-in-ubuntu-24-04-with-diskless-network-boot-caus"
   },
   {
-    "slug": "system-troubleshooting-22-i-get-repeatedly-signed-off-from-email-accounts-hotmail-and-outlook",
-    "title": "I get repeatedly signed off from email accounts hotmail and outlook",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-22-docker-can-t-access-to-some-tagged-images",
+    "title": "docker can't access to some tagged images",
+    "description": "Tags: ubuntu, docker, repository, docker-compose, tagging | Score: 2 | Views: 230 | Answers: 1 | Created: 2025-05-24",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1swyvax/i_get_repeatedly_signed_off_from_email_accounts/"
+    "source_url": "https://unix.stackexchange.com/questions/796234/docker-cant-access-to-some-tagged-images"
   },
   {
-    "slug": "system-troubleshooting-23-do-i-have-bad-cases-or-something-else",
-    "title": "Do I have bad cases or something else?",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-23-try-netconsole-in-single-machine-but-not-working",
+    "title": "Try netconsole in single machine, but not working",
+    "description": "Tags: ubuntu, kernel, kernel-modules, udp | Score: 2 | Views: 259 | Answers: 1 | Created: 2025-06-09",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxgnp6/do_i_have_bad_cases_or_something_else/"
+    "source_url": "https://unix.stackexchange.com/questions/796825/try-netconsole-in-single-machine-but-not-working"
   },
   {
-    "slug": "system-troubleshooting-24-iphone-4s-verification-failed-when-putting-in-password",
-    "title": "Iphone 4S Verification failed when putting in password",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-24-how-can-i-get-linux-console-output-on-both-igpu-hdmi-and-ipmi-ast-simultaneously",
+    "title": "How can I get Linux console output on both iGPU (HDMI) and IPMI (AST) simultaneously?",
+    "description": "Tags: ubuntu, grub2, tty, console, framebuffer | Score: 2 | Views: 473 | Answers: 2 | Created: 2025-06-19",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxhj3b/iphone_4s_verification_failed_when_putting_in/"
+    "source_url": "https://unix.stackexchange.com/questions/797204/how-can-i-get-linux-console-output-on-both-igpu-hdmi-and-ipmi-ast-simultaneo"
   },
   {
-    "slug": "system-troubleshooting-25-issues-playing-some-songs-on-itunes-music-on-macbook-pro",
-    "title": "Issues playing some songs on iTunes/Music on MacBook Pro",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-25-disable-wakeup-on-plugging-in-usb-c-power",
+    "title": "Disable wakeup on plugging in USB-C power",
+    "description": "Tags: linux, usb, power-management, suspend, acpi | Score: 2 | Views: 262 | Answers: 1 | Created: 2025-10-03",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxhw92/issues_playing_some_songs_on_itunesmusic_on/"
+    "source_url": "https://unix.stackexchange.com/questions/800189/disable-wakeup-on-plugging-in-usb-c-power"
   },
   {
-    "slug": "system-troubleshooting-26-bought-used-airpod-max-2-s-from-a-friend",
-    "title": "Bought used AirPod Max 2’s from a friend",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-26-tool-to-display-ddr5-ram-spd-timings-mt-profiles",
+    "title": "Tool to display DDR5 RAM SPD timings/MT profiles",
+    "description": "Tags: linux, software-rec, ram | Score: 2 | Views: 918 | Answers: 1 | Created: 2025-10-06",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxi8p0/bought_used_airpod_max_2s_from_a_friend/"
+    "source_url": "https://unix.stackexchange.com/questions/800257/tool-to-display-ddr5-ram-spd-timings-mt-profiles"
   },
   {
-    "slug": "system-troubleshooting-27-37-gb-systems-storage",
-    "title": "37 gb systems storage",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-27-how-to-forget-running-but-canceled-transactions-in-a-btrfs-recovery",
+    "title": "How to forget running but canceled transactions in a btrfs recovery?",
+    "description": "Tags: linux, data-recovery, btrfs, journaling | Score: 2 | Views: 212 | Answers: 1 | Created: 2025-10-11",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxigfg/37_gb_systems_storage/"
+    "source_url": "https://unix.stackexchange.com/questions/800394/how-to-forget-running-but-canceled-transactions-in-a-btrfs-recovery"
   },
   {
-    "slug": "system-troubleshooting-28-express-return-for-beats-headphones-lost",
-    "title": "express return for beats headphones lost",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-28-find-laptop-internal-keyboard-controller-model-vendor-product",
+    "title": "Find laptop internal keyboard Controller model/vendor/Product #",
+    "description": "Tags: linux, keyboard, input | Score: 2 | Views: 182 | Answers: 2 | Created: 2025-10-20",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxiry2/express_return_for_beats_headphones_lost/"
+    "source_url": "https://unix.stackexchange.com/questions/800614/find-laptop-internal-keyboard-controller-model-vendor-product"
   },
   {
-    "slug": "system-troubleshooting-29-i-have-a-juaupepo-cover-on-my-macbook-is-that-bad",
-    "title": "I have a Juaupepo cover on my macbook, is that bad?",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-29-inadvertently-installed-texlive-base-and-texlive-binaries-while-a-tex-live-installation-is-already-present-on-my-system",
+    "title": "Inadvertently installed texlive-base and texlive-binaries while a TeX Live installation is already present on my system",
+    "description": "Tags: debian, apt, latex | Score: 2 | Views: 252 | Answers: 2 | Created: 2025-11-26",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sxdbo0/i_have_a_juaupepo_cover_on_my_macbook_is_that_bad/"
+    "source_url": "https://unix.stackexchange.com/questions/801618/inadvertently-installed-texlive-base-and-texlive-binaries-while-a-tex-live-insta"
   },
   {
-    "slug": "system-troubleshooting-30-apple-account-set-up-with-hotmail-address",
-    "title": "Apple account set up with Hotmail address",
-    "description": "Reddit r/applehelp discussion",
+    "slug": "system-troubleshooting-30-libreoffice-looks-old-and-ugly-in-debian-kde-how-to-make-it-use-the-proper-dark-breeze-theme-and-look-normal-again",
+    "title": "LibreOffice looks old and ugly in Debian/KDE - how to make it use the proper dark breeze theme and look normal again?",
+    "description": "Tags: debian, kde, gui, theme, libreoffice | Score: 2 | Views: 577 | Answers: 1 | Created: 2025-12-10",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/applehelp/comments/1sx2ef9/apple_account_set_up_with_hotmail_address/"
+    "source_url": "https://unix.stackexchange.com/questions/801955/libreoffice-looks-old-and-ugly-in-debian-kde-how-to-make-it-use-the-proper-dar"
   },
   {
-    "slug": "system-troubleshooting-31-sonoma-help",
-    "title": "Sonoma Help",
-    "description": "Reddit r/MacOSBeta discussion",
+    "slug": "system-troubleshooting-31-what-out-of-the-box-options-exist-for-quickly-shutting-down-kde-plasma-using-only-the-keyboard",
+    "title": "What out-of-the-box options exist for quickly shutting down KDE Plasma, using only the keyboard?",
+    "description": "Tags: debian, kde, keyboard-shortcuts, shutdown, plasma | Score: 2 | Views: 1430 | Answers: 5 | Created: 2025-12-26",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1se9qpb/sonoma_help/"
+    "source_url": "https://unix.stackexchange.com/questions/803307/what-out-of-the-box-options-exist-for-quickly-shutting-down-kde-plasma-using-on"
   },
   {
-    "slug": "system-troubleshooting-32-wifi-address-constantly-changing-and-kicking-me-off-wifi",
-    "title": "Wifi Address constantly changing and kicking me off wifi",
-    "description": "Reddit r/MacOSBeta discussion",
+    "slug": "system-troubleshooting-32-unattended-upgrades-uses-wrong-hostname-after-switching-from-msmtp-to-postfix",
+    "title": "unattended-upgrades uses wrong hostname after switching from msmtp to Postfix",
+    "description": "Tags: ubuntu, postfix, unattended-upgrades | Score: 3 | Views: 174 | Answers: 1 | Created: 2025-05-05",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1sefak2/wifi_address_constantly_changing_and_kicking_me/"
+    "source_url": "https://unix.stackexchange.com/questions/794523/unattended-upgrades-uses-wrong-hostname-after-switching-from-msmtp-to-postfix"
   },
   {
-    "slug": "system-troubleshooting-33-issues-force-updating-through-terminal",
-    "title": "Issues force updating through terminal!",
-    "description": "Reddit r/MacOSBeta discussion",
+    "slug": "system-troubleshooting-33-how-do-i-autosource-path-and-venvs-in-bin-sh-posix-sh-for-docker-pods",
+    "title": "How do I autosource path and venvs in /bin/sh (posix sh) for docker pods",
+    "description": "Tags: ubuntu, shell, docker | Score: 3 | Views: 222 | Answers: 2 | Created: 2025-07-01",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1sg37dj/issues_force_updating_through_terminal/"
+    "source_url": "https://unix.stackexchange.com/questions/797577/how-do-i-autosource-path-and-venvs-in-bin-sh-posix-sh-for-docker-pods"
   },
   {
-    "slug": "system-troubleshooting-34-no-actions-and-clipboard-and-spotlight-settings-forever-loading-screen",
-    "title": "No actions and clipboard and spotlight settings forever loading screen",
-    "description": "Reddit r/MacOSBeta discussion",
+    "slug": "system-troubleshooting-34-what-is-the-best-way-to-detect-busy-cpu-cores-for-blk-mq-request-steering-in-linux-kernel",
+    "title": "What is the best way to detect busy CPU cores for blk-mq request steering in Linux kernel?",
+    "description": "Tags: linux, filesystems, linux-kernel, io, storage | Score: 3 | Views: 91 | Answers: 1 | Created: 2025-10-16",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1sgxtx7/no_actions_and_clipboard_and_spotlight_settings/"
+    "source_url": "https://unix.stackexchange.com/questions/800527/what-is-the-best-way-to-detect-busy-cpu-cores-for-blk-mq-request-steering-in-lin"
   },
   {
-    "slug": "system-troubleshooting-35-notecalc-notepad-calculator-with-speech-to-text-notes-that-calculate-instantly",
-    "title": "NoteCalc - Notepad Calculator With Speech to Text (Notes that Calculate Instantly)",
-    "description": "Reddit r/MacOSBeta discussion",
+    "slug": "system-troubleshooting-35-syntax-error-on-ssed-for-regex-subroutine-definitions",
+    "title": "Syntax Error on ssed for Regex Subroutine definitions",
+    "description": "Tags: linux, sed, regular-expression, perl, pcre | Score: 3 | Views: 229 | Answers: 2 | Created: 2025-10-26",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1sjgqm0/notecalc_notepad_calculator_with_speech_to_text/"
+    "source_url": "https://unix.stackexchange.com/questions/800772/syntax-error-on-ssed-for-regex-subroutine-definitions"
   },
   {
-    "slug": "system-troubleshooting-36-odd-connection-issue-with-macos-26-5",
-    "title": "Odd connection issue with MacOS 26.5",
-    "description": "Reddit r/MacOSBeta discussion",
+    "slug": "system-troubleshooting-36-deleted-all-partitions-in-a-drive-now-the-drive-won-t-show-up-in-dolphin",
+    "title": "Deleted all partitions in a drive, now the drive won't show up in Dolphin",
+    "description": "Tags: debian, partition, kde, dolphin | Score: 3 | Views: 611 | Answers: 1 | Created: 2025-12-24",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1sjk2ou/odd_connection_issue_with_macos_265/"
+    "source_url": "https://unix.stackexchange.com/questions/803290/deleted-all-partitions-in-a-drive-now-the-drive-wont-show-up-in-dolphin"
   },
   {
-    "slug": "system-troubleshooting-37-second-macos-tahoe-26-5-beta-now-available-for-developers",
-    "title": "Second macOS Tahoe 26.5 Beta Now Available for Developers",
-    "description": "Reddit r/MacOSBeta discussion",
+    "slug": "system-troubleshooting-37-how-can-i-list-all-supported-architectures-of-a-package-by-apt-command",
+    "title": "How can I list all supported architectures of a package by apt command?",
+    "description": "Tags: ubuntu, apt, architecture | Score: 4 | Views: 1359 | Answers: 2 | Created: 2025-05-12",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1skhb0h/second_macos_tahoe_265_beta_now_available_for/"
+    "source_url": "https://unix.stackexchange.com/questions/794756/how-can-i-list-all-supported-architectures-of-a-package-by-apt-command"
   },
   {
-    "slug": "system-troubleshooting-38-mail-on-macos-tahoe-26-5-beta-2-has-issues",
-    "title": "Mail on macOS Tahoe 26.5 Beta 2 has issues",
-    "description": "Reddit r/MacOSBeta discussion",
+    "slug": "system-troubleshooting-38-how-can-i-find-common-prefixes-in-file-names-to-group-them",
+    "title": "How can I find common prefixes in file names to group them?",
+    "description": "Tags: linux, bash, text-processing, find, filenames | Score: 4 | Views: 561 | Answers: 4 | Created: 2025-10-07",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1skvd44/mail_on_macos_tahoe_265_beta_2_has_issues/"
+    "source_url": "https://unix.stackexchange.com/questions/800287/how-can-i-find-common-prefixes-in-file-names-to-group-them"
   },
   {
-    "slug": "system-troubleshooting-39-get-lazy-with-lazyvoice",
-    "title": "Get lazy with lazyvoice",
-    "description": "Reddit r/MacOSBeta discussion",
+    "slug": "system-troubleshooting-39-are-there-any-options-for-the-nmcli-command-that-outputs-the-ssid-of-a-wifi-including-if-present-trailing-spaces",
+    "title": "Are there any options for the nmcli command that outputs the SSID of a wifi including, if present, trailing spaces?",
+    "description": "Tags: linux, wifi, nmcli | Score: 4 | Views: 416 | Answers: 3 | Created: 2025-10-08",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1smptti/get_lazy_with_lazyvoice/"
+    "source_url": "https://unix.stackexchange.com/questions/800304/are-there-any-options-for-the-nmcli-command-that-outputs-the-ssid-of-a-wifi-incl"
   },
   {
-    "slug": "system-troubleshooting-40-messages-app-crashing-on-macos-26-5-beta-2",
-    "title": "Messages app crashing on macOS 26.5 Beta 2",
-    "description": "Reddit r/MacOSBeta discussion",
+    "slug": "system-troubleshooting-40-hardware-encryption-on-samsung-ssd-using-debian",
+    "title": "Hardware encryption on Samsung SSD using Debian",
+    "description": "Tags: linux, dual-boot, encryption, ssd | Score: 4 | Views: 935 | Answers: 1 | Created: 2025-11-12",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1snd1m4/messages_app_crashing_on_macos_265_beta_2/"
+    "source_url": "https://unix.stackexchange.com/questions/801276/hardware-encryption-on-samsung-ssd-using-debian"
   },
   {
-    "slug": "system-troubleshooting-41-what-happened-to-mail-in-26-5-2",
-    "title": "What happened to Mail in 26.5.2",
-    "description": "Reddit r/MacOSBeta discussion",
+    "slug": "system-troubleshooting-41-can-someone-explain-this-apparent-btrfs-confusion",
+    "title": "Can someone explain this apparent btrfs confusion?",
+    "description": "Tags: debian, btrfs, snapshot, snapper, raspberry-pi-os | Score: 4 | Views: 504 | Answers: 2 | Created: 2025-12-22",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1so6yzl/what_happened_to_mail_in_2652/"
+    "source_url": "https://unix.stackexchange.com/questions/803216/can-someone-explain-this-apparent-btrfs-confusion"
   },
   {
-    "slug": "system-troubleshooting-42-if-i-have-a-tm-backup-made-in-26-5-beta-1-can-i-use-it-if-i-want-to-downgrade-to-26-4",
-    "title": "If I have a TM backup made in 26.5 beta 1, can I use it if I want to downgrade to 26.4?",
-    "description": "Reddit r/MacOSBeta discussion",
+    "slug": "system-troubleshooting-42-which-linux-distributions-bind-ttys-to-control-alt-f13-to-f24-keys",
+    "title": "Which Linux distributions bind TTYs to Control + Alt + F13 to F24 keys?",
+    "description": "Tags: linux, tty | Score: 5 | Views: 601 | Answers: 1 | Created: 2025-10-02",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1softqo/if_i_have_a_tm_backup_made_in_265_beta_1_can_i/"
+    "source_url": "https://unix.stackexchange.com/questions/800146/which-linux-distributions-bind-ttys-to-control-alt-f13-to-f24-keys"
   },
   {
-    "slug": "system-troubleshooting-43-dock-and-auto-hide-and-display-issues",
-    "title": "Dock and “Auto Hide” and display issues",
-    "description": "Reddit r/MacOSBeta discussion",
+    "slug": "system-troubleshooting-43-nvme-unable-to-change-power-state-from-d3cold-to-d0-device-inaccessible",
+    "title": "NVMe: Unable to change power state from D3cold to D0, device inaccessible",
+    "description": "Tags: linux, drivers, pci, nvme | Score: 5 | Views: 893 | Answers: 1 | Created: 2025-10-16",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1so7jpa/dock_and_auto_hide_and_display_issues/"
+    "source_url": "https://unix.stackexchange.com/questions/800501/nvme-unable-to-change-power-state-from-d3cold-to-d0-device-inaccessible"
   },
   {
-    "slug": "system-troubleshooting-44-the-rapture-of-the-church-will-take-place-guys-please-repent-your-life-now-after-church-leave-this-world-the-antichrist-will-take-the-power-there-will-be-no-more-peace-chaos-will-begin-all-over-the-world-no-one-will-be-able-to-buy-nor-sell-without-the-microchip-or-mark-of-the-beast-666",
-    "title": "🔥🔥🎤 The rapture of the church will take place guys,👏👏 please repent your life 💥now. After church leave this world the Antichrist will take the power, there will be no more peace, chaos will begin all over the world. No one will be able to buy nor sell without the microchip or mark of the beast 666",
-    "description": "Reddit r/MacOSBeta discussion",
+    "slug": "system-troubleshooting-44-x11-forwarding-cannot-type-single-or-double-quotes",
+    "title": "X11 forwarding cannot type single or double quotes",
+    "description": "Tags: debian, x11, windows, xforwarding | Score: 5 | Views: 440 | Answers: 1 | Created: 2025-12-30",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1spfwrk/the_rapture_of_the_church_will_take_place_guys/"
+    "source_url": "https://unix.stackexchange.com/questions/803391/x11-forwarding-cannot-type-single-or-double-quotes"
   },
   {
-    "slug": "system-troubleshooting-45-trust-chain-trustd-secd-26-5-beta3",
-    "title": "Trust Chain (trustd/secd) 26.5 Beta3",
-    "description": "Reddit r/MacOSBeta discussion",
+    "slug": "system-troubleshooting-45-encrypted-swap-with-fde",
+    "title": "Encrypted swap with FDE?",
+    "description": "Tags: debian, security, encryption, swap, disk-encryption | Score: 6 | Views: 708 | Answers: 3 | Created: 2025-12-17",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1srbjb3/trust_chain_trustdsecd_265_beta3/"
+    "source_url": "https://unix.stackexchange.com/questions/803076/encrypted-swap-with-fde"
   },
   {
-    "slug": "system-troubleshooting-46-third-macos-tahoe-26-5-beta-now-available-for-developers",
-    "title": "Third macOS Tahoe 26.5 Beta Now Available for Developers",
-    "description": "Reddit r/MacOSBeta discussion",
+    "slug": "system-troubleshooting-46-after-debian-13-upgrade-sshd-not-starting-after-reboot",
+    "title": "after Debian 13 upgrade sshd not starting after reboot",
+    "description": "Tags: debian, sshd, ipv6 | Score: 6 | Views: 913 | Answers: 3 | Created: 2025-12-24",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1sqw1jy/third_macos_tahoe_265_beta_now_available_for/"
+    "source_url": "https://unix.stackexchange.com/questions/803277/after-debian-13-upgrade-sshd-not-starting-after-reboot"
   },
   {
-    "slug": "system-troubleshooting-47-macos-26-5-beta-3-mail-is-fixed",
-    "title": "MacOS 26.5 Beta 3 - Mail is fixed",
-    "description": "Reddit r/MacOSBeta discussion",
+    "slug": "system-troubleshooting-47-how-do-i-add-a-text-editor-to-my-debian-based-initramfs",
+    "title": "How do I add a text editor to my (debian-based) initramfs?",
+    "description": "Tags: debian, initramfs, debugging | Score: 7 | Views: 475 | Answers: 1 | Created: 2025-12-05",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1sqynjm/macos_265_beta_3_mail_is_fixed/"
+    "source_url": "https://unix.stackexchange.com/questions/801855/how-do-i-add-a-text-editor-to-my-debian-based-initramfs"
   },
   {
-    "slug": "system-troubleshooting-48-mac-os-official-apps-not-abble-to-access-internet-on-public-beta-26-5-2",
-    "title": "Mac os official apps not abble to access internet on public beta 26.5.2",
-    "description": "Reddit r/MacOSBeta discussion",
+    "slug": "system-troubleshooting-48-which-linux-file-system-should-i-use-for-compatibility-with-windows-programs",
+    "title": "Which Linux file system should I use for compatibility with Windows programs?",
+    "description": "Tags: linux, filesystems, ext4, ntfs | Score: 9 | Views: 2295 | Answers: 2 | Created: 2025-10-31",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1ssb6r8/mac_os_official_apps_not_abble_to_access_internet/"
+    "source_url": "https://unix.stackexchange.com/questions/800919/which-linux-file-system-should-i-use-for-compatibility-with-windows-programs"
   },
   {
-    "slug": "system-troubleshooting-49-tahoe-26-5-1-fixes-mail-display-breaks-mail-imap-connections-with-some-3rd-party-security-packages",
-    "title": "Tahoe 26.5.1 - fixes mail display, breaks mail IMAP connections with some 3rd party security packages",
-    "description": "Reddit r/MacOSBeta discussion",
+    "slug": "system-troubleshooting-49-how-can-i-make-sudo-apt-install-warn-me-that-i-m-about-to-pull-from-debian-unstable",
+    "title": "How can I make sudo apt install warn me that I'm about to pull from Debian Unstable?",
+    "description": "Tags: debian, apt, virtualbox | Score: 10 | Views: 735 | Answers: 3 | Created: 2025-12-27",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1ssm6e6/tahoe_2651_fixes_mail_display_breaks_mail_imap/"
+    "source_url": "https://unix.stackexchange.com/questions/803343/how-can-i-make-sudo-apt-install-warn-me-that-im-about-to-pull-from-debian-unsta"
   },
   {
-    "slug": "system-troubleshooting-50-tahoe-26-5-beta-25f5058e-messed-up-safari-app-store-and-mail",
-    "title": "Tahoe 26.5 Beta (25F5058e) messed up Safari, App Store and Mail",
-    "description": "Reddit r/MacOSBeta discussion",
+    "slug": "system-troubleshooting-50-why-does-seq-1000000-tee-dev-stdout-produce-more-single-digit-numbers-than-expected",
+    "title": "Why does \"seq 1000000 | tee /dev/stdout\" produce more single-digit numbers than expected?",
+    "description": "Tags: linux, bash, stdout, tee, seq | Score: 15 | Views: 1693 | Answers: 2 | Created: 2025-10-08",
     "category": "system-troubleshooting",
     "markdown_path": "system-troubleshooting/index.md",
-    "source_url": "https://www.reddit.com/r/MacOSBeta/comments/1ssnv01/tahoe_265_beta_25f5058e_messed_up_safari_app/"
+    "source_url": "https://unix.stackexchange.com/questions/800331/why-does-seq-1000000-tee-dev-stdout-produce-more-single-digit-numbers-than"
   }
 ]

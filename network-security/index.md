@@ -14,6 +14,4 @@
 | Linux | 169 | [linux.md](linux.md) |
 | Macos | 191 | [macos.md](macos.md) |
 
-- [返回首页 / Back to Home](../README.md)
-
 ---

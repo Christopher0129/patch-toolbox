@@ -1,8 +1,8 @@
 {
-  "total_entries": 3154,
+  "total_entries": 4238,
   "categories": {
-    "network_security": 452,
-    "system_vulnerabilities": 1057,
-    "system_troubleshooting": 1645
+    "network_security": 1120,
+    "system_vulnerabilities": 1187,
+    "system_troubleshooting": 1931
   }
 }

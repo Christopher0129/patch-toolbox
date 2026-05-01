@@ -2,8 +2,13 @@
   {
     "key": "network-security",
     "label": "Network Security",
-    "entry_count": 50,
-    "markdown_path": "network-security/index.md"
+    "entry_count": 150,
+    "markdown_path": "network-security/index.md",
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ]
   },
   {
     "key": "system-vulnerabilities",
