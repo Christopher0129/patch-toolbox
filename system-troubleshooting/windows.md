@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1759**
+**总计条目 / Total entries: 1810**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -28630,5 +28630,668 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1209933#reply22
+
+---
+
+#### 1760. Where can I obtain install media for obsolete Windows versions?
+
+**问题描述 / Problem Description**:
+Tags: windows, installation, windows-installation | Score: 0 | Views: 5 | Answers: 1 | Created: 2026-05-02
+
+**解决方案 / Solution**:
+Microsoft has moved the previously free, legacy Windows ISO versions behind the Visual Studio (formerly MSDN) paywall, meaning there is currently no official, free way to get access to obsolete Windows install media. Community mirrors There are plenty of unofficial ways to get access to Windows install media, but they come with a "buyer beware": anyone can upload anything to the net. Ensure you verify your download against a known-good checksum before running it on your hardware/VM* How to generate a checksum (Windows) After downloading a file, run the following Powershell command to generate a SHA-1 checksum. (Change the algorithm to SHA-256 if you plan to compare against it): Get-FileHash "C:\path\to\iso" -Algorithm SHA1 Compare it to known good checksums Microsoft didn't just gate the files, they hid the metadata too. Fortunately, the Heidoc.net SHA1 Hash Archive provides an indexed database of official MSDN/MVS entries, as pulled from the new downloads repository. Search your generated hash in this archive. If it finds a match, you can confirm your file is a bit-for-bit match with the original. Windows on Archive.org You can find most versions of Windows on archive.org . this is a non-exhaustive list, but please feel free to add to it: Operating System Checksum Metadata Windows XP Professional 66AC289AE27724C5AE17139227CBE78C01EEFE40 (SHA-1, x86, EN) x86 Metadata Windows 7 Professional SP1 0BCFC54019EA175B1EE51F6D2B207A3D14DD2B58 (SHA-1, x64, EN) x64 Metadata Windows 8.1 Update 3 (x86-x64) e46f44cd74f812ec3fe2e854317a088e85322a68 (SHA-1, x86, EN) 962a1d890987b5877469433928b8c8b8a3e945cd (SHA-1, x64, EN) x86 Metadata x64 Metadata Hopefully, Microsoft will eventually make these freely accessible again soon. * Most Windows ISOs have associated SHA-1 checksums, which has been proven to be broken , though unfeasible to do with any practiality. For checking old Windows ISOs, a SHA-1 match against a reputable database is generally considered "safe enough," but for modern security, SHA-256 is the standard.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937279/where-can-i-obtain-install-media-for-obsolete-windows-versions
+
+---
+
+#### 1761. Odd request for Zoom meeting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1y64d/odd_request_for_zoom_meeting/
+
+---
+
+#### 1762. Is it safe to use a laptop charger with lower amperage than the original?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t208l2/is_it_safe_to_use_a_laptop_charger_with_lower/
+
+---
+
+#### 1763. 2 near identical pc's (same MoBo), different speed test results
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t21agr/2_near_identical_pcs_same_mobo_different_speed/
+
+---
+
+#### 1764. Computer frequently crashing, bug check 0x0000003b
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t205qi/computer_frequently_crashing_bug_check_0x0000003b/
+
+---
+
+#### 1765. Updated to 25H2, GPU power draw doubled
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1z8cc/updated_to_25h2_gpu_power_draw_doubled/
+
+---
+
+#### 1766. Help transferring files from broken phone
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1z3mt/help_transferring_files_from_broken_phone/
+
+---
+
+#### 1767. SoundCloud track suddenly won’t play - “There was a problem playing this track.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1y47p/soundcloud_track_suddenly_wont_play_there_was_a/
+
+---
+
+#### 1768. why my screens blink so much when turning the monitors on
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t23770/why_my_screens_blink_so_much_when_turning_the/
+
+---
+
+#### 1769. Enabling Microsoft Sandbox destroyed system in my PC😭
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t2344u/enabling_microsoft_sandbox_destroyed_system_in_my/
+
+---
+
+#### 1770. Installed Bazzite Linux OS on one SSD, now my other separate Windows SSD doesn't show up in the BIOS
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t233au/installed_bazzite_linux_os_on_one_ssd_now_my/
+
+---
+
+#### 1771. Help with BSOD Error
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t2327r/help_with_bsod_error/
+
+---
+
+#### 1772. Google maps location sharing issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t22ti8/google_maps_location_sharing_issues/
+
+---
+
+#### 1773. Black screen after I updated W11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t22okc/black_screen_after_i_updated_w11/
+
+---
+
+#### 1774. Ps5 hdmi port broken
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t22nb9/ps5_hdmi_port_broken/
+
+---
+
+#### 1775. tips to fix 1% lows
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t22mk1/tips_to_fix_1_lows/
+
+---
+
+#### 1776. How to Download Patreon Content I Have Already Paid For
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t22feb/how_to_download_patreon_content_i_have_already/
+
+---
+
+#### 1777. .json no longer letting notepad be the default app
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t2249t/json_no_longer_letting_notepad_be_the_default_app/
+
+---
+
+#### 1778. HP Printer Problems
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1w60g/hp_printer_problems/
+
+---
+
+#### 1779. Can malware on one device infect my main PC through my Microsoft account?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t220gl/can_malware_on_one_device_infect_my_main_pc/
+
+---
+
+#### 1780. LG G5 sound problem
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t21xuu/lg_g5_sound_problem/
+
+---
+
+#### 1781. The cursor just disappears in the text field while writing even if i move the cursor.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t21sl4/the_cursor_just_disappears_in_the_text_field/
+
+---
+
+#### 1782. 3ds error i don't know how to fix
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t21rux/3ds_error_i_dont_know_how_to_fix/
+
+---
+
+#### 1783. How to remove a PDF from Windows 11 desktop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t21kue/how_to_remove_a_pdf_from_windows_11_desktop/
+
+---
+
+#### 1784. Root SSH with keys only 👍 or 👎? Why as opposed to another user with sudo without password ability?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t1zyr9/root_ssh_with_keys_only_or_why_as_opposed_to/
+
+---
+
+#### 1785. Followup to: SysAdmin can't do his job right
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t22ay0/followup_to_sysadmin_cant_do_his_job_right/
+
+---
+
+#### 1786. winget - is this awesome as it seems
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t22xqy/winget_is_this_awesome_as_it_seems/
+
+---
+
+#### 1787. How do I stop laptops using dock MAC address?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t230kr/how_do_i_stop_laptops_using_dock_mac_address/
+
+---
+
+#### 1788. Does a known MAC keep its original router entry?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t229xb/does_a_known_mac_keep_its_original_router_entry/
+
+---
+
+#### 1789. I have 134 unfinished GitHub repos. So I built an app to fix that.
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1t22fpv/i_have_134_unfinished_github_repos_so_i_built_an/
+
+---
+
+#### 1790. script to search over and over?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t22thk/script_to_search_over_and_over/
+
+---
+
+#### 1791. Free screenshot software specifically for accountants
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t22dyi/free_screenshot_software_specifically_for/
+
+---
+
+#### 1792. An alternative for logitech options + on linux
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t1wg4e/an_alternative_for_logitech_options_on_linux/
+
+---
+
+#### 1793. [ Removed by Reddit ]
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t22ane/removed_by_reddit/
+
+---
+
+#### 1794. Vibecoded - INZONE: run multiple agents side-by-side in one window (FREE)
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t21hnx/vibecoded_inzone_run_multiple_agents_sidebyside/
+
+---
+
+#### 1795. AI filter for YouTube
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t21g58/ai_filter_for_youtube/
+
+---
+
+#### 1796. Animation app with face recognition
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t213l0/animation_app_with_face_recognition/
+
+---
+
+#### 1797. Wtf is wrong with it ?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t1y7mb/wtf_is_wrong_with_it/
+
+---
+
+#### 1798. Context menu and title bar colours mismatch
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t1x271/context_menu_and_title_bar_colours_mismatch/
+
+---
+
+#### 1799. Free Windows Visualizer
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t1wstq/free_windows_visualizer/
+
+---
+
+#### 1800. Why don’t reading apps reflect how we actually read?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t2281l/why_dont_reading_apps_reflect_how_we_actually_read/
+
+---
+
+#### 1801. I built a small open-source Windows tool for versioned folder and savegame backups
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t1w3vp/i_built_a_small_opensource_windows_tool_for/
+
+---
+
+#### 1802. RRADIO online radio recorder
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t1vz5i/rradio_online_radio_recorder/
+
+---
+
+#### 1803. XAutoclicker
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t1utli/xautoclicker/
+
+---
+
+#### 1804. NoteDiscovery, quick sketches in-app + sidebar for everything you’ve shared publicly
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t1uqk1/notediscovery_quick_sketches_inapp_sidebar_for/
+
+---
+
+#### 1805. Text detection software for scanned PDF
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t1ujxq/text_detection_software_for_scanned_pdf/
+
+---
+
+#### 1806. [V2EX] 请问大家的操作系统如果安装在 C 盘的话，都给 C 盘分配多少磁盘空间呢？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210020#reply6
+
+---
+
+#### 1807. [V2EX] 想给小车买机油，但怕买到假的
+
+**问题描述 / Problem Description**:
+平时买的是壳牌的，但去官网看了眼， https://zhaoshang.tmall.com/ownerchange/detail.htm?checkCode=EFU2&xid=b40435bd9d611a2ce9bdbd9fb8a9a7f0&_tb_token_+=733b3610bea57 “本店铺经营者在 2026 年 04 月 09 日已由上海枫泊电子商务有限公司变更为上海凯滋漫电子商务有限公司。” 这玩意好像经常卖假东西的，已经不敢买了，求 v 友推荐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210003#reply7
+
+---
+
+#### 1808. [V2EX] 生成壁纸
+
+**问题描述 / Problem Description**:
+有没有老哥帮我生成一张壁纸，要高清的，内容是“物质低配 认知高配 心态顶配”书法作品或者能让人静下心的壁纸，现代互联网太浮躁了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210001#reply2
+
+---
+
+#### 1809. [V2EX] 哪些 AI 网关适配 DeepSeek V4 的 reasoning_content 回传？
+
+**问题描述 / Problem Description**:
+目前 DeepSeek v4 OpenAI-compatible API 会返回： reasoning_content 和 content 后续请求需保留并回传 reasoning_content ，否则出 400 错误。 目前只看到 axonhub 有相关适配： issues/1468 。 以下项目目前还没有看到适配： litellm newapi sub2api cliproxyapi 想知道还有哪些 AI 网关已经支持这个逻辑？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209957#reply8
+
+---
+
+#### 1810. [V2EX] 上下班 单程 70 分钟 能做点什么?
+
+**问题描述 / Problem Description**:
+全程地铁, 无座, 但是不算特别拥挤(2/3 线城市), 倒 1 次车. 想做点有意义的事情. 本来时间就不多, 这两个多小时算是我一天中最宝贵的"个人"时间了. 提前感谢.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209914#reply16
 
 ---

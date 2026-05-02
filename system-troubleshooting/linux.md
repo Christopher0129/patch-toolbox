@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1564**
+**总计条目 / Total entries: 1588**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -28113,5 +28113,317 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1209869#reply25
+
+---
+
+#### 1565. LUKS device reported invalid when trying to open/mount
+
+**问题描述 / Problem Description**:
+Tags: linux, hard-disk, encryption, luks, disk-encryption | Score: 1 | Views: 23 | Answers: 1 | Created: 2026-05-02
+
+**解决方案 / Solution**:
+At minimum, something mysteriously zeroed your checksums: # LUKS2 header version 2 of size 16384 bytes, checksum sha256. # Checksum:0000000000000000000000000000000000000000000000000000000000000000 (on-disk) # Checksum:079643dc3e458ab48b268cd4469723d4e16af7878908c458434162e2cf492c29 (in-memory) To work around that, you can use cryptsetup repair - Checksum recovery step . echo 079643dc3e458ab48b268cd4469723d4e16af7878908c458434162e2cf492c29 | xxd -r -p | dd conv=notrunc bs=1 seek=$((0x1c0)) of=/dev/sda ( At your own risk ! Better dump the header and work on that.) That fixes things enough to get luksDump operational: LUKS header information Version: 2 Epoch: 4 Metadata area: 16384 [bytes] Keyslots area: 16744448 [bytes] UUID: c37b30ae-a6b9-4787-99f5-f6836bdd525c Label: (no label) Subsystem: (no subsystem) Flags: (no flags) Data segments: 0: crypt offset: 16777216 [bytes] length: (whole device) cipher: aes-xts-plain64 sector: 512 [bytes] Keyslots: 0: luks2 Key: 512 bits Priority: normal Cipher: aes-xts-plain64 Cipher key: 512 bits PBKDF: argon2id Time cost: 5 Memory: 1048576 Threads: 4 Salt: 1b fc f7 da 12 f9 9b 0b 6d 05 9c 7f 4d 43 8e 6a a8 97 a8 9f d4 91 b2 7f a8 76 38 5e bd eb 17 cd AF stripes: 4000 AF hash: sha256 Area offset:32768 [bytes] Area length:258048 [bytes] Digest ID: 0 1: luks2 Key: 512 bits Priority: normal Cipher: aes-xts-plain64 Cipher key: 512 bits PBKDF: argon2id Time cost: 5 Memory: 1048576 Threads: 4 Salt: 9f 5b 4f f7 35 97 65 76 56 12 80 d9 1a b6 79 b0 d8 c1 6e 8b 98 a9 43 b1 96 00 c2 48 30 d8 24 dd AF stripes: 4000 AF hash: sha256 Area offset:290816 [bytes] Area length:258048 [bytes] Digest ID: 0 Tokens: Digests: 0: pbkdf2 Hash: sha256 Iterations: 183574 Salt: 86 2d 3c 97 4c a2 c4 c9 54 72 47 3f 9c 15 1c 71 26 c6 7b 23 de c0 01 0d 45 b3 3f 4e ee 65 fd 8e Digest: 77 28 a0 a4 a0 fd 72 5f 99 fb ec 8a b8 d9 f9 cf 09 3c 6e 4d cc 0d 90 15 2d a6 93 a3 9c 34 0c f1 Whether the header actually works after that remains to be seen. Note that as the volume contains only backups that can be recreated, it is more essential to prevent the problem from reoccurring in the future than to recover the data. Unpartitioned devices are more likely to get wiped / damaged in unexpected ways. Consider migrating to a partition in the future. However, whether that was actually the issue here or not, is difficult to say.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805762/luks-device-reported-invalid-when-trying-to-open-mount
+
+---
+
+#### 1566. Linux Distro Recommendations
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t20ce3/linux_distro_recommendations/
+
+---
+
+#### 1567. Updated Linux Mint from Kernel 5.15.0-174 and ..175&176 Blank display
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t20tds/updated_linux_mint_from_kernel_5150174_and_175176/
+
+---
+
+#### 1568. archinstall hangs on Keyboard Layout
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1z53m/archinstall_hangs_on_keyboard_layout/
+
+---
+
+#### 1569. WiFi adapters unrecognized with Windows/Ubuntu dual boot
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1z0c1/wifi_adapters_unrecognized_with_windowsubuntu/
+
+---
+
+#### 1570. Can I dual boot two linux distros on the same laptop?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t22x8i/can_i_dual_boot_two_linux_distros_on_the_same/
+
+---
+
+#### 1571. Is there a better option than syncthing?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t22tc1/is_there_a_better_option_than_syncthing/
+
+---
+
+#### 1572. Updated from Nvidia 580 to 595 only showing boot terminal and ttyd's
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t22pqn/updated_from_nvidia_580_to_595_only_showing_boot/
+
+---
+
+#### 1573. Kali Display Resolution issue
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t22k4z/kali_display_resolution_issue/
+
+---
+
+#### 1574. 5.1 Audio Not Working
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t22fta/51_audio_not_working/
+
+---
+
+#### 1575. Resolve Studio 20.3 Crash on Launch - Nobara 43 - Signal 6 (fusionscript.so / libtbbmalloc)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t22f0e/resolve_studio_203_crash_on_launch_nobara_43/
+
+---
+
+#### 1576. How do i instalan apps on Termux?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t222ue/how_do_i_instalan_apps_on_termux/
+
+---
+
+#### 1577. Debounce time settings aren’t honoured on cachyos on MCHOSE K7 Ultra
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t213td/debounce_time_settings_arent_honoured_on_cachyos/
+
+---
+
+#### 1578. How do i make a app like PlexAMP move into system tray or hide it until i need it if it isnt natively supported
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t20qlj/how_do_i_make_a_app_like_plexamp_move_into_system/
+
+---
+
+#### 1579. Cannot reach VA.gov
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t20ftn/cannot_reach_vagov/
+
+---
+
+#### 1580. Can I use MS files on Linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1xjxe/can_i_use_ms_files_on_linux/
+
+---
+
+#### 1581. Mirroring
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1w1mm/mirroring/
+
+---
+
+#### 1582. plasmashell crashes on login
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1vszp/plasmashell_crashes_on_login/
+
+---
+
+#### 1583. Oh yeah, Ubuntu 26.04, whcih requires more RAM than Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/linuxmasterrace discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxmasterrace/comments/1t1xrc6/oh_yeah_ubuntu_2604_whcih_requires_more_ram_than/
+
+---
+
+#### 1584. [V2EX] 推荐一个 GPU 推理速度计算器, 可能方便买配件自建本地大模型的人用上
+
+**问题描述 / Problem Description**:
+https://tps.bunai.cc/ranking?gpu=apple_m5_32g&ic=nvlink5
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210041#reply0
+
+---
+
+#### 1585. [V2EX] 未曾设想自己会买一把一万的椅子
+
+**问题描述 / Problem Description**:
+去年公司搬家并且配套的椅子换了赫曼米勒的 Aeron 后, 开始腰痛(后面发现是自己比较高, 没调节好导致的, 但是调好后也还是觉得有点勒蛋), 最终检查确诊轻微腰突. 加上要经常在家久坐, 于是开始物色人体工学椅子 TvT 然后就开始不断调高预算的过程. 首先物色了广告响亮的西昊, 但是我坐过 Aeron, 没有被他的浮夸外观唬住, 反而发现很多设计的不好的地方, 最核心的就是支撑远远不够. 然后物色了 v 站推荐最多的保友, 试用期感觉不错, 但是买回来坐了几个月, 发现久坐特别痛, 感觉还是支撑设计有问题. 后面实在受不了, 就去专门卖椅子的地方到处试, 意外发现 steelcase 的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210035#reply2
+
+---
+
+#### 1586. [V2EX] 买了一台 256G 显存, 96G 内存电脑放家里, 如何对外出租出售剩余算力?
+
+**问题描述 / Problem Description**:
+打算通过 ddns 搞一个出租页面, 可以在平时不用的时候把算力出租出去回点血, 请问这个方案可行吗?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210021#reply15
+
+---
+
+#### 1587. [V2EX] 2026 年了， Notepad++ 对比 VSCode ，优势在哪？
+
+**问题描述 / Problem Description**:
+讨论如题，优势在哪？ 身边的同事，不少人还在用着 Notepad++,刚微信文章也在说 Notepad++有 Mac 版本了，然后想到了这个问题。 用过一段时间的 Notepad ，并没有感觉有非用不可得地步。 本着工作流做减法的原则，然后就卸载了，统一用 VSCode 了。 在我看来，Notepad 已经是上一代的产品了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210012#reply41
+
+---
+
+#### 1588. [V2EX] 有没有稳定 GPT 不降智的机场？
+
+**问题描述 / Problem Description**:
+开了 gpt pro ，但是号经常降智只输出 mini 。有没有 codex 比较稳定，而且 Pro 不会降智的机场？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209869#reply26
 
 ---
