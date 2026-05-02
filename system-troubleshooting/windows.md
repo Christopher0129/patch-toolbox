@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 720**
+**总计条目 / Total entries: 1581**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -15063,5 +15063,11198 @@ This will not cause any problem for the host.
 
 **参考链接 / References**:
 - https://superuser.com/questions/1810109/windows-guest-os-power-plan-on-vmware-is-there-any-real-difference
+
+---
+
+#### 721. Windows cannot delete extremely deep/corrupted folder structure
+
+**问题描述 / Problem Description**:
+Tags: windows, filesystems, directory, path, deleting | Score: 16 | Views: 3362 | Answers: 3 | Created: 2025-10-01
+
+**解决方案 / Solution**:
+There's a very similar question that even mentions that it was caused by a Java based IDE. The remedy is to use the rm command that ships with Git for Windows, or to write a script that moves the second layer directory to the first, and then deletes the now-empty directory: cd C:\target_cursed :LoopStart move linux\javastics javastics if errorlevel 1 goto LoopEnd rd linux move javastics\app app if errorlevel 1 goto LoopEnd rd javastics move app\linux linux if errorlevel 1 goto LoopEnd rd app goto LoopStart :LoopEnd
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1193141/windows-cannot-delete-extremely-deep-corrupted-folder-structure
+
+---
+
+#### 722. OpenSSH SSH Server won't start on Windows Server 2019 after Windows Updates
+
+**问题描述 / Problem Description**:
+Tags: windows, ssh, windows-server-2019, windows-update | Score: 13 | Views: 31159 | Answers: 10 | Created: 2024-10-09
+
+**解决方案 / Solution**:
+The permissions on the LOG directory was wrong. I removed the LOG folder, restarted the service and everything started working again. The LOG folder was automatically re-created. But.. if you enter the logfile (as admin user), and after accepting "you need admin permissions to access this folder", your username end up in the list op users with read permissions. after that, the deamon won't start again. removing the user from the security list of the LOG folder solves this, and the service starts again. :( From Microsoft December 2024 monthly update, known issues section: https://support.microsoft.com/kb/5048661 Following the installation of the October 2024 security update, some customers report that the OpenSSH (Open Secure Shell) service fails to start, preventing SSH connections. The service fails with no detailed logging, and manual intervention is required to run the sshd.exe process. Workaround: Customers can temporarily resolve the issue by updating permissions (ACLs) on the affected directories. Follow these steps: Open PowerShell as an Administrator. Update the permissions for C:\ProgramData\ssh and C:\ProgramData\ssh\logs to allow full control for SYSTEM and the Administrators group, while allowing read access for Authenticated Users. You can restrict read access to specific users or groups by modifying the permissions string if needed. Use the following commands to update the permissions: $directoryPath = "C:\ProgramData\ssh" $acl = Get-Acl -Path $directoryPath $sddlString = "O:BAD:PAI(A;OICI;FA;;;SY)(A;OICI;FA;;;BA)(A;OICI;0x1200a9;;;AU)" $securityDescriptor = New-Object System.Security.AccessControl.RawSecurityDescriptor $sddlString $acl.SetSecurityDescriptorSddlForm($securityDescriptor.GetSddlForm("All")) Set-Acl -Path $directoryPath -AclObject $acl Repeat the above steps for C:\ProgramData\ssh\logs. The issue was resolved in the KB5053596 March 2025 Windows cumulative monthly update. Background: Win32 OpenSSH Issue #2282 Opened October 8, 2024, indicating the issue began with version 9.4: v9.4.0.0p1 and later enforce permissions on the logs folder, leading to undiagnosable crashes of the service after Windows Update #2282 https://github.com/PowerShell/Win32-OpenSSH/issues/2282 Linked to this pull request: add check for prog data folder permissions during sshd service startup #686 https://github.com/PowerShell/openssh-portable/pull/686
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166382/openssh-ssh-server-wont-start-on-windows-server-2019-after-windows-updates
+
+---
+
+#### 723. Access denied attempting to delete file on Windows Server
+
+**问题描述 / Problem Description**:
+Tags: windows, filesystems, access-control-list, malware, edr | Score: 12 | Views: 2729 | Answers: 8 | Created: 2025-07-23
+
+**解决方案 / Solution**:
+PendMove and MoveFile from SysInternals could help, they queue up the delete for the next reboot, so Windows won't fight you on it. https://learn.microsoft.com/en-us/sysinternals/downloads/pendmoves
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1189477/access-denied-attempting-to-delete-file-on-windows-server
+
+---
+
+#### 724. How to identify a process occasionally calling a suspicious IP address?
+
+**问题描述 / Problem Description**:
+Tags: windows, packet-capture | Score: 9 | Views: 2092 | Answers: 2 | Created: 2026-03-03
+
+**解决方案 / Solution**:
+A packet capture is a good start, but Wireshark never added the capability to show process id. Microsoft Netmon that can show the process id and works reasonably well. https://www.microsoft.com/en-us/download/details.aspx?id=4865 Most malware may be able to egress using the system process, and a capture will not help there. In that case, you may need to use Sysmon, and filter it for recording connection to specific addresses or networks, or exclude connections for known addresses or networks. That will provide a viable long term measurement tool that will not consume excess resources. https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon Sysmon records include a correlation id that is useful for linking to other process and thread activity. Note that starting February 2026, optional update ( KB5077241 ) for Windows 11 4H2 and 25H2 has integrated native Sysmon functionality. Separate installation not required. It is not active by default, but can be enabled as an optional feature to monitor and log system activity directly to the Windows event log. Native Sysmon functionality coming to Windows 11 and Windows Server 2025
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1198342/how-to-identify-a-process-occasionally-calling-a-suspicious-ip-address
+
+---
+
+#### 725. VMWare, SAN, SSD, Influence of the fill level on the performance of a virtual hard disk
+
+**问题描述 / Problem Description**:
+Tags: windows, performance, storage-area-network | Score: 7 | Views: 641 | Answers: 3 | Created: 2025-07-29
+
+**解决方案 / Solution**:
+It’s always the I/O that either makes or breaks the system. If you don’t have enough RAM, the machine starts paging heavily, and in your case, that means I/O has to go over the network, since there’s no local NVMe to bail you out. Physical memory runs at 20–30 GB/sec with nanosecond latency. Dual 10GbE gives you, what, maybe 2 GB/sec max with microsecond latency? That’s a one or two order of magnitude gap. Pretty significant, I’d say.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1189694/vmware-san-ssd-influence-of-the-fill-level-on-the-performance-of-a-virtual-ha
+
+---
+
+#### 726. Can I move disks from one HP DL160 Gen9 Server to another DL160 Gen9 on a RAID 5 setup without data loss?
+
+**问题描述 / Problem Description**:
+Tags: windows, raid, hp, sas | Score: 7 | Views: 157 | Answers: 2 | Created: 2024-08-21
+
+**解决方案 / Solution**:
+Yes, you’ll be fine! Just make sure to run a backup and test the restore process before experimenting with your live data migration. P.S. When you have the ability to, of course…
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164142/can-i-move-disks-from-one-hp-dl160-gen9-server-to-another-dl160-gen9-on-a-raid-5
+
+---
+
+#### 727. How to make Windows 10/11 USB flash install media from Linux?
+
+**问题描述 / Problem Description**:
+Tags: linux, windows, installation | Score: 6 | Views: 17991 | Answers: 3 | Created: 2025-08-29
+
+**解决方案 / Solution**:
+This one catches a lot of people! What’s happening is actually pretty simple, see… Linux ISOs are usually so-called “hybrid” images, meaning the ISO is also a valid disk image. That’s why you can dd them straight onto a USB stick and they just work. Windows ISOs are another story, they are not hybrid the way we want them, as they got old-school DVD layouts. Yes, they have both ISO9660 and UDF file system structures also called “hybrid”, but that’s just another type of the hybrid FS adding even more confusion. At the end of the day, if you simply dd them, the resulting USB stick will usually boot, but the installer won’t find any drives because the boot media is missing the proper partition table, boot code, and filesystem layout Windows expects from the “real” bootable disk image. There’s another caveat, and it’s the fact that install.wim file inside newer Windows ISOs is often larger than 4GB in size. FAT32 can’t handle that, so you end up needing NTFS or a split WIM file. Tools like Rufus and WoeUSB handle this automatically, but a straight dd obviously does not… How to do it right? Good question! Linux WoeUSB https://github.com/WoeUSB/WoeUSB-ng sudo woeusb --target-filesystem NTFS --device Win10.iso /dev/sdX Ventoy https://www.ventoy.net You install Ventoy on the USB stick once, then just copy/paste ISOs to it, and no more re-flashing every time you want a different version. I’d personally go with Ventoy, but it’s just lazy me. Windows Rufus is kinda “de facto” standard here. You pick your ISO, you select that USB stick, click “Start”, and it does all the voodoo behind the screen. Rufus handles all the quirks automatically, no questions asked. Bottom line is, dd works great for Linux ISOs, but not for Windows ones. Use WoeUSB, Ventoy, or Rufus, depending on what OS you run, and you’ll have an installer that boots cleanly and sees your disks, which is exactly what you want!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1191017/how-to-make-windows-10-11-usb-flash-install-media-from-linux
+
+---
+
+#### 728. Unexpected Double Network Traffic on Writes in a 2-Node S2D Cluster with Nested Mirror-Accelerated Parity
+
+**问题描述 / Problem Description**:
+Tags: windows, failovercluster, storage-spaces-direct | Score: 6 | Views: 201 | Answers: 1 | Created: 2024-11-20
+
+**解决方案 / Solution**:
+You set up your test VM to write a specific data pattern which is easy to do with FIO tweaks. Install WireShark from the link below and analyze the traffic, whether it’s incoming (destination) or outgoing (source). If you spot the same pattern appearing twice but with different timestamps, it means Microsoft isn’t optimizing things on the source side. Instead of calculating hashes and sending minimal metadata, it’s pushing the same data twice. This not only hammers your network bandwidth but also forces the destination CPU to compare the two streams to ensure they match. Honestly, I’d file a bug report with Microsoft—looks like someone over there isn’t taking their job seriously. Just my $0.02, of course! P.S. WireShark is here: https://www.wireshark.org
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167969/unexpected-double-network-traffic-on-writes-in-a-2-node-s2d-cluster-with-nested
+
+---
+
+#### 729. Windows programming against HW drivers and compatibility
+
+**问题描述 / Problem Description**:
+Tags: windows, hardware, audio, executable | Score: 6 | Views: 531 | Answers: 4 | Created: 2024-10-27
+
+**解决方案 / Solution**:
+Short answer: No! Long answer: An app that works with any version of any operating system and never needs updates? What could possibly go wrong?! Dude, if it looks like a scam, it probably is!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167110/windows-programming-against-hw-drivers-and-compatibility
+
+---
+
+#### 730. Why does two disk system with windows mirroring fail to boot when primary disk removed?
+
+**问题描述 / Problem Description**:
+Tags: windows, hard-drive, mirroring | Score: 6 | Views: 706 | Answers: 2 | Created: 2024-10-16
+
+**解决方案 / Solution**:
+Windows RAID1, in the context of OS booting, isn’t a true RAID1 and shouldn’t even be called that! What Windows actually does, it creates a second copy of your boot drive and adds an option to the boot menu to let you boot from the second copy if your primary copy is damaged. However, if your first drive fails so badly that you can’t reach the boot menu, you’re out of luck! The second copy is essentially useless since it’s not independently bootable. One alternative is to use pseudo-hardware RAID solutions like Intel’s vROC (Virtual RAID-on-Chip). Although it’s technically still software RAID because it uses the SATA/SAS ports on your motherboard and doesn’t include dedicated RAID controller hardware (like CPUs to handle firmware and offload parity calculations, dedicated PCI buses for internal XOR traffic, etc.), it has two advantages: a) It’s OS-independent (as long as your OS has a compatible driver, of course), and b) It remains bootable even if one of the disks in your RAID1 set fails. Another option is to use a dedicated boot device like the Dell BOSS card, which is essentially a mini-RAID controller designed for a couple of flash drives. It’s built specifically for safe booting and serves no other purpose. Hope this helps. Good luck!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166691/why-does-two-disk-system-with-windows-mirroring-fail-to-boot-when-primary-disk-r
+
+---
+
+#### 731. Group Policy overview on Windows Server?
+
+**问题描述 / Problem Description**:
+Tags: windows, group-policy, uac | Score: 5 | Views: 409 | Answers: 3 | Created: 2025-08-15
+
+**解决方案 / Solution**:
+You don’t really need to click through every single GPO manually because PowerShell can dump them all in one pass. If you just want a single searchable report with everything: Get-GPOReport -All -ReportType Html -Path C:\AllMyGPOs.html Open resulting C:\AllMyGPOs.html in a browser and use Ctrl+F to find the setting you’re after. If you’d rather search directly in the raw data: Get-GPOReport -All -ReportType Xml | Out-File C:\AllMyGPOs.xml Select-String -Path C:\AllMyGPOs.xml -Pattern "MySearchStringGoesHere" That tells you exactly which GPOs define the setting. No third-party tools required because everything is built into Windows Server, GroupPolicy module.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1190580/group-policy-overview-on-windows-server
+
+---
+
+#### 732. View Encrypted LDAP Content
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, ldap | Score: 5 | Views: 988 | Answers: 3 | Created: 2025-07-02
+
+**解决方案 / Solution**:
+Try enabling the expensive query logging. You can set the thresholds lower to log more queries. https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/configure-ad-and-lds-event-logging https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/how-to-find-expensive-inefficient-and-long-running-ldap-queries-in-active-direct/257859 Key: HKLM\SYSTEM\CurrentControlSet\Services\NTDS\Parameters\ Value: Expensive Search Results Threshold Value: Inefficient Search Results Threshold Update: Found the following logman command that enables LDAP client logging. How to turn on debug logging of the LDAP client (Wldap32.dll) https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/turn-on-debug-logging-ldap-client Create the registry subkey: HKLM\System\CurrentControlSet\Services\ldap\Tracing\<ProcessName> In this subkey, is the full name of the process that you want to trace, including its extension. For example: "ldp.exe." Inside this subkey, you can place an optional entry that is named "PID" and that has a DWORD value. If you set the value to a process ID, only the instance of the application that has this process ID will be traced. If you don't have such a registry subkey for at least one process, the trace file will not contain data. To start a tracing session, run the following command at a command prompt: logman create trace "ds_ds" -ow -o c:\ds_ds.etl -p "Microsoft-Windows-LDAP-Client" 0x1a59afa3 0xff -nb 16 16 -bs 1024 -mode Circular -f bincirc -max 4096 -ets Reproduce the behavior that you want to investigate. To stop the tracing session, run the following command: logman stop "ds_ds" -ets To view the trace as text, use the netsh tool to decode the ETL file as a .txt file, as follows: netsh trace convert input=c:\ds_ds.etl output=LDAP_CLIENT-formatted.txt
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1188120/view-encrypted-ldap-content
+
+---
+
+#### 733. WinRM Certificate authentication fails with 401 error on Windows Server 2022
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, ssl-certificate, windows-event-log, winrm | Score: 5 | Views: 615 | Answers: 2 | Created: 2025-04-09
+
+**解决方案 / Solution**:
+I think there is a missing a step. The certificate crt without private key (aka public key pem) for the client that is authenticating needs to be present in the Trusted People store on the server. Use the following as a general guide and comparison: https://docs.ansible.com/ansible/latest/os_guide/windows_winrm_certificate.html#import-certificate-to-the-certificate-store Then you need to map the client certificate to the LOCAL account: https://docs.ansible.com/ansible/latest/os_guide/windows_winrm_certificate.html#mapping-certificate-to-a-local-account # Will prompt for the password of the user. $credential = Get-Credential local-user $cert = [System.Security.Cryptography.X509Certificates.X509Certificate2]::new("cert.pem") $certChain = [System.Security.Cryptography.X509Certificates.X509Chain]::new() [void]$certChain.Build($cert) $caThumbprint = $certChain.ChainElements.Certificate[-1].Thumbprint $certMapping = @{ Path = 'WSMan:\localhost\ClientCertificate' Subject = $cert.GetNameInfo('UpnName', $false) Issuer = $caThumbprint Credential = $credential Force = $true } New-Item @certMapping "The Subject is the value of the userPrincipalName in the certificate SAN entry. The Issuer is the thumbprint of the CA certificate that issued our certificate. The Credential is the username and password of the local user we are mapping the certificate to."
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1178758/winrm-certificate-authentication-fails-with-401-error-on-windows-server-2022
+
+---
+
+#### 734. How can I troubleshoot the difference between SMB connectivity across servers?
+
+**问题描述 / Problem Description**:
+Tags: windows, network-share, windows-server-2019, server-message-block | Score: 5 | Views: 655 | Answers: 2 | Created: 2025-03-19
+
+**解决方案 / Solution**:
+Members of the administrators group are subject to restrictions when accessing a share remotely. You should be able to easily test this by disabling that restriction. See: https://learn.microsoft.com/en-us/troubleshoot/windows-server/windows-security/user-account-control-and-remote-restriction How UAC remote restrictions work To better protect those users who are members of the local Administrators group, we implement UAC restrictions on the network. This mechanism helps prevent against loopback attacks. This mechanism also helps prevent local malicious software from running remotely with administrative rights. Local user accounts (Security Account Manager user account) When a user who is a member of the local Administrators group on the target remote computer establishes a remote administrative connection by using the net use * \\remotecomputer\Share$ command, for example, they won't connect as a full administrator. The user has no elevation potential on the remote computer, and the user cannot perform administrative tasks. How to disable UAC remote restrictions On the host unable to connect, add the following registry value: reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v LocalAccountTokenFilterPolicy /t REG_DWORD /d 1 /f The LocalAccountTokenFilterPolicy registry value can have a value of 0 or 1. 0 builds a filtered token. It's the default value. The administrator credentials are removed. 1 builds an elevated token.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1175835/how-can-i-troubleshoot-the-difference-between-smb-connectivity-across-servers
+
+---
+
+#### 735. Will moving Windows VM's from VMware ESXi to RH9 KVM cause Windows activation?
+
+**问题描述 / Problem Description**:
+Tags: windows, vmware-esxi, kvm-virtualization, qemu, activation | Score: 5 | Views: 419 | Answers: 1 | Created: 2024-09-12
+
+**解决方案 / Solution**:
+You will absolutely need to do that. Even a moderate hardware change triggers the need in Windows re-activation. https://support.microsoft.com/en-us/windows/reactivating-windows-after-a-hardware-change-2c0e962a-f04c-145b-6ead-fb3fc72b6665
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1165171/will-moving-windows-vms-from-vmware-esxi-to-rh9-kvm-cause-windows-activation
+
+---
+
+#### 736. LDAP and HTTP CDP locations work, but UNC network locations fail
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, certificate-authority, pki | Score: 4 | Views: 491 | Answers: 1 | Created: 2025-10-17
+
+**解决方案 / Solution**:
+file:// and UNC paths are not supported for CRL retrieval. This was deprecated starting with Windows Server 2003. You can use file:// or UNC paths for CRL file publication, but not for retrieval from CDP extension. That is, your CDP extension should contain HTTP and (if really needed) LDAP URLs. I would recommend to read my blog post article on CDP/AIA extension recommendations: Designing CRL Distribution Points and Authority Information Access locations
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1193454/ldap-and-http-cdp-locations-work-but-unc-network-locations-fail
+
+---
+
+#### 737. Windows Server risky default permissions for Users on C:\
+
+**问题描述 / Problem Description**:
+Tags: windows, security, permissions, defaults | Score: 4 | Views: 1213 | Answers: 2 | Created: 2025-08-09
+
+**解决方案 / Solution**:
+That's the default permissions that have existed for 25 years. If you don't want it, change it.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1190343/windows-server-risky-default-permissions-for-users-on-c
+
+---
+
+#### 738. Windows Drive Encryption when dual booting Debian 12 and Windows 10
+
+**问题描述 / Problem Description**:
+Tags: windows, debian, grub2, bitlocker, boot-loader | Score: 4 | Views: 523 | Answers: 1 | Created: 2024-10-28
+
+**解决方案 / Solution**:
+From what I understand there are five states for bitlocker: Off , no encryption is present Encrypting , a drive is currently in the process of encrypting Decrypting , a drive is currently being decrypted Suspended . The drive is encrypted (or partially encrypted) but the encryption key is stored unencrypted on the bootloader partition. This is not a recommended state but is necessary temporary state for some actions such as BIOS updates. Encrypted . The drive is fully encrypted and the key is protected. The bitlocker key is stored in TPM, remote network boot server, a USB drive, or a user's head. This is the normal bitlocker state. I haven't messed with multi-OS boot but I would guess the recommended state is encrypting your Windows partition and using a separate partition for your Debian OS. However Bitlocker may not be happy with GRUB being the primary bootloader.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167134/windows-drive-encryption-when-dual-booting-debian-12-and-windows-10
+
+---
+
+#### 739. Windows Server Failover Cluster - Roles vs Client Access Points
+
+**问题描述 / Problem Description**:
+Tags: windows, network-share, failovercluster, windows-cluster | Score: 4 | Views: 927 | Answers: 1 | Created: 2024-10-09
+
+**解决方案 / Solution**:
+There is no official best practices I am aware off. It actually depends on your needs. In any case, you can have multiple file server roles in a single Failover cluster. You should consider deploying DFS-N to structure your file shares and make future scale-out easier. https://learn.microsoft.com/en-us/windows-server/storage/dfs-namespaces/dfs-overview The following guides should help with Failover Cluster configuration: https://learn.microsoft.com/en-us/windows-server/failover-clustering/deploy-two-node-clustered-file-server?tabs=server-manager https://www.starwindsoftware.com/resource-library/starwind-virtual-san-for-hyper-v-2-node-hyperconverged-scenario-with-windows-server-2016/
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166356/windows-server-failover-cluster-roles-vs-client-access-points
+
+---
+
+#### 740. Is it Possible to Install Print Server Role Inside a Windows Server Core 2019 Container?
+
+**问题描述 / Problem Description**:
+Tags: windows, docker, powershell, containers, devops | Score: 4 | Views: 683 | Answers: 1 | Created: 2024-08-22
+
+**解决方案 / Solution**:
+The Print Server role is available on Server Core editions: https://learn.microsoft.com/en-us/windows-server/administration/server-core/server-core-roles-and-services . However, it's not available in Server Core containers : https://learn.microsoft.com/en-us/windows-server/administration/server-core/server-core-container-removed-roles . N.B. Chocolatey has nothing to do at all with Windows built-in roles and services; it's used to install additional packages, not system features.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164202/is-it-possible-to-install-print-server-role-inside-a-windows-server-core-2019-co
+
+---
+
+#### 741. Requirement of Active Directory in Windows Server Hyper-V Failover Cluster on Windows Server 2022
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, cluster, failover | Score: 3 | Views: 674 | Answers: 3 | Created: 2025-11-13
+
+**解决方案 / Solution**:
+Short answer: No, you really don’t want your only writable Domain Controller running as a VM inside the same Hyper-V cluster that depends on it. The cluster needs a reachable writable DC to start, validate the CNO/VCO, and perform failover. If the DC is inside the cluster and all hosts reboot, the cluster can’t start → the DC VM can’t start → deadlock. Long answer: Windows Failover Clustering relies on AD for node membership, CNO/VCO updates, DNS registration, and general cluster startup. These operations require a writable DC, not an RODC. If no writable DC is available when the nodes boot, the cluster service won’t start, which means none of the cluster VMs (including your DC) can start either. That’s why Microsoft’s guidance has always been that you can virtualize AD, but at least one writable DC must be outside the cluster dependency chain. You have a few supported options: a) Put one DC on separate hardware (doesn’t need much). b) Run a DC directly on each Hyper-V host (host OS DC is fully supported). c) Use a tiny Azure (?) VM as an extra DC. ...or just keep the DC VM on storage that does not require the cluster to be online and call it a day! Any of these breaks the 'chicken-and-egg' loop, while running the only DC inside the cluster obviously does not.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1195890/requirement-of-active-directory-in-windows-server-hyper-v-failover-cluster-on-wi
+
+---
+
+#### 742. Prevent Microsoft 365 Companion applications from starting automatically on Windows 11
+
+**问题描述 / Problem Description**:
+Tags: windows, microsoft-office-365, configuration-management, sysadmin, windows-11 | Score: 3 | Views: 474 | Answers: 1 | Created: 2025-10-07
+
+**解决方案 / Solution**:
+The issue is that Microsoft 365 Companion Apps don't use the standard autostart mechanisms you checked (Run keys, Startup folders, Scheduled Tasks). They register as AppX background tasks , which is why they don't show up in the usual places. Here are three approaches that should work for your scenario: Option 1 Group Policy (recommended for bulk deployment) Deploy the following registry key via GPO: Path: HKLM\SOFTWARE\Policies\Microsoft\Windows\AppPrivacy Value: LetAppsRunInBackground_UserInControlOfTheseApps Type: REG_MULTI_SZ Data: Microsoft.People_8wekyb3d8bbwe Microsoft.OutlookForWindows_8wekyb3d8bbwe Alternatively, use the built-in GPO setting under: Computer Configuration → Administrative Templates → Windows Components → App Privacy → Let Windows apps run in the background and set it to Force Deny for the specific package names. Option 2 PowerShell for already-installed devices The reason Remove-AppxPackage didn't work is that it only targets the current user. Use Remove-AppxProvisionedPackage instead, which affects all users including future profiles: powershell $apps = @( "Microsoft.People", "Microsoft.OutlookForWindows", "Microsoft.WindowsFileSearch" ) foreach ($app in $apps) { Get-AppxProvisionedPackage -Online | Where-Object DisplayName -like " $app " | Remove-AppxProvisionedPackage -Online -AllUsers } Option 3 Office Deployment Tool Even on devices where the apps are already installed, you can push a configuration update via the Office Deployment Tool using a configuration.xml` that excludes the companion apps. This became reliable from Microsoft 365 Apps version 2309 onwards. Hope this helps.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1193265/prevent-microsoft-365-companion-applications-from-starting-automatically-on-wind
+
+---
+
+#### 743. Error saving Excel files on network share
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, microsoft-excel, procmon | Score: 3 | Views: 574 | Answers: 1 | Created: 2025-09-03
+
+**解决方案 / Solution**:
+Well, Excel app ain't stupid, it doesn’t save anything "in place", basically overwriting the original content, rather it writes any new commits to a temp file, flushes file system cache for it, closes it, deletes the old file, then renames the temp. Anything that blocks that rename(...) API call, like SMB protocol hiccup, AV filter driver mishaps, Offline Files cache, signing mismatch et cetera, results in you getting the “document not saved” nonsense. Things to check: ProcMon on the client. Filter for "filename.xlsx" and watch out where the SetRenameInformationFile(...) Win32 API call fails. That’ll tell you who’s guilty. Offline Files / CSC. You just disable it, Excel and CSC don’t mix! AV. You don’t just “disable,” the filter driver still sits in the stack and interferes with anything you do with your files. Nuke BitDefender, reboot, and retest. Don't worry, you can of course get your AV back when you're done with your investigation! SMB config. You align signing on client/server, or test with SMB MultiChannel feature turned off. Profile Vs box. Same user on another PC / another user on same PC. That's done to narrow down the situation if it’s profile corruption or something machine-side. My bloody bet, it's like nine times out of ten it’s AV or Offline Files tripping over Excel’s rename dance.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1191587/error-saving-excel-files-on-network-share
+
+---
+
+#### 744. How do you remotely monitor server pools raid for failed or failing harddrives
+
+**问题描述 / Problem Description**:
+Tags: windows, software-raid | Score: 3 | Views: 98 | Answers: 1 | Created: 2025-07-16
+
+**解决方案 / Solution**:
+Plenty of ways to skin this cat! You can start with the built-in Event Viewer and watch for specific events like physical disk failure (1001, 1011), degraded pool (106, 107), or virtual disk issues (2001, 2002). You could also go with SCVMM or Azure Monitor (but that'll cost you extra). Still, the most "Microsoft-blessed" way is hands down the PowerShell route, which is super-scriptable and easy to work with, BTW. Quick and dirty health check: $badDisks = Get-PhysicalDisk | Where-Object HealthStatus -ne 'Healthy' $badPools = Get-StoragePool | Where-Object HealthStatus -ne 'Healthy' if ($badDisks -or $badPools) { # Alert logic here (email, logging, etc.) } Just drop that into Task Scheduler to run hourly or whatever cadence works for you. Easy win! If you're feeling fancy, you can also hook into third-party tools like Nagios or PRTG, but only if you're already running them. Good luck! P.S. The complete lack of out-of-the-box health monitoring is probably one of the biggest issues with Storage Spaces / Storage Spaces Direct, and a major reason they never saw wide adoption. You basically have to babysit your setup, which gets pretty annoying, to say the least. Just my two cents, of course!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1189168/how-do-you-remotely-monitor-server-pools-raid-for-failed-or-failing-harddrives
+
+---
+
+#### 745. Challenge Managing disk in Hyper
+
+**问题描述 / Problem Description**:
+Tags: windows, hyper-v | Score: 3 | Views: 400 | Answers: 2 | Created: 2025-03-20
+
+**解决方案 / Solution**:
+File with ".avhdx" extension are differencing disks, i.e. they are based on a normal disk (".vhdx") and they only record the differences from the disk they are based on. They will grow larger over time, as more disk changes happen (it looks like yours have been active for two years ). Differencing disks are usually created during checkpoints, and they are automatically deleted when checkpoints are removed. If a VM has multiple checkpoints, each one will create a new ".avhdx" file for each disk, recording the changes from the previous one. You should delete the VM checkpoints; this will merge the differencing disks back into the main disks and remove the .avhdx files. You should NOT delete them manually. Documentation here: https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/checkpoints . Edit: To see and manage (create/remove/delete) checkpoints, you have to do it from the main Hyper-V Manager console, not from the VM settings; see image below.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1176031/challenge-managing-disk-in-hyper
+
+---
+
+#### 746. NTFS 64k cluster size
+
+**问题描述 / Problem Description**:
+Tags: windows, ntfs | Score: 3 | Views: 341 | Answers: 2 | Created: 2025-03-19
+
+**解决方案 / Solution**:
+Are they any known compatibility issues with the larger cluster size? Some apps, like backup tools, especially those dealing with VSS, may have never been tested with cluster sizes larger than 4K. So, while 64K should work, sticking with a smaller volume size and 4K clusters is the safer option.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1175755/ntfs-64k-cluster-size
+
+---
+
+#### 747. DFS replication takes 3-4 minutes to show up
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-server-2019, dfs | Score: 3 | Views: 539 | Answers: 1 | Created: 2024-08-08
+
+**解决方案 / Solution**:
+Looks like the problem is caused by SMB client-side caching , which can cause behaviours like the one experienced by the OP and like the one described here: https://tachytelic.net/2019/12/disable-smb-client-side-caching . This caching can be disabled by creating a Registry value of type DWORD called DirectoryCacheLifetime in HKLM\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters and setting it to zero. Also documented here: https://learn.microsoft.com/en-us/windows-server/administration/performance-tuning/role/file-server .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163643/dfs-replication-takes-3-4-minutes-to-show-up
+
+---
+
+#### 748. Enable the Settings icon on Windows 11 Start Menu with GPO
+
+**问题描述 / Problem Description**:
+Tags: group-policy, windows-11 | Score: 3 | Views: 4984 | Answers: 4 | Created: 2023-02-04
+
+**解决方案 / Solution**:
+It seems that settings application visibility policy is located within the control panel GPO: Computer Configuration > Administrative Templates > Control Panel > Settings Page Visibility User Configuration > Administrative Templates > Control Panel > Settings Page Visibility It is not a part of Start button and Taskbar policy. More information can be found here .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1121938/enable-the-settings-icon-on-windows-11-start-menu-with-gpo
+
+---
+
+#### 749. Error: unable to connect to terminal server, RDS broker not distributing
+
+**问题描述 / Problem Description**:
+Tags: windows, rds | Score: 2 | Views: 263 | Answers: 2 | Created: 2026-03-06
+
+**解决方案 / Solution**:
+I solved it simply because the broker in Windows 2016 works somewhat differently than Windows 2008, we need to connect through the host server.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1198376/error-unable-to-connect-to-terminal-server-rds-broker-not-distributing
+
+---
+
+#### 750. Windows clients connect to Samba shares using machine identity rather than user identity
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, samba | Score: 2 | Views: 182 | Answers: 1 | Created: 2026-01-20
+
+**解决方案 / Solution**:
+It's not a Samba “setting” or whatever, it’s the Windows Server itself choosing to auth with the machine account ( HOSTNAME$ ) because Kerberos/SPN doesn’t line up. Some possible fixes would be... Don’t use IPs. See, these \\192.168.x.x\YouShare names often can’t do Kerberos properly, so stick with \\YourFileServer.domain.tld\YourShare instead. Verify SPNs for the name clients use, including any CNAME/alias. setspn -L SAMBA-SERVER$ You should have CIFS/YourFileServer , CIFS/YourFileServer.domain.tld , and the alias too, if used, so add missing ones in case they're not there. setspn -A CIFS/YourFileServer SAMBA-SERVER$ setspn -A CIFS/YourFileServer.domain.tld SAMBA-SERVER$ Purge cached tickets on an affected client. klist purge net use \\YourFileServer\YourShare /delete Once SPNs+DNS names match what users connect to, Windows Server will present the user Kerberos ticket, and Samba will map the user SID normally.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1197827/windows-clients-connect-to-samba-shares-using-machine-identity-rather-than-user
+
+---
+
+#### 751. Trying to Save Powershell Command Result Into a Batch Script Variable
+
+**问题描述 / Problem Description**:
+Tags: windows, batch-file, windows-batch | Score: 2 | Views: 153 | Answers: 2 | Created: 2025-12-19
+
+**解决方案 / Solution**:
+Just get rid of the quotes in SET : FOR /F "usebackq delims=" %%A IN (`powershell.exe -NoProfile -Command "Get-CimInstance Win32_BIOS | Select-Object -ExpandProperty SerialNumber"`) DO SET serial=%%A In plain Powershell it would be much simpler: Get-CimInstance Win32_BIOS | Select-Object -ExpandProperty SerialNumber | Set-Item -Path ENV:serial
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1197417/trying-to-save-powershell-command-result-into-a-batch-script-variable
+
+---
+
+#### 752. Windows 11 installation has failed
+
+**问题描述 / Problem Description**:
+Tags: windows-10, windows-11, secure-boot | Score: 2 | Views: 1773 | Answers: 1 | Created: 2025-10-09
+
+**解决方案 / Solution**:
+DEBUGGING Action 1 open regedit browse to HKEY_LOCAL_MACHINE\SYSTEM\Setup\MoSetup in right pane create AllowUpgradesWithUnsupportedTPMOrCPU (DWORD) entry and set value to 1 Note that this bypasses TPM 2.0, Secure Boot, CPU model checks on install BUT disabling Secure Boot reduces protection against boot-level malware. execute windows 11 pro setup again follow same exe / install steps as noted above again get the "windows 11 installation has failed" message checking "event viewer" "admin events" i can see the detail is now "The driver detected a controller error on \device\harddisk2\DR6" Action 2 open CMD and enter "wmic diskdrive list brief" to list my drives result set shows me my USB windows 11 image and 2 physical drives (1 with 1 partition D drive) (another with 3 partitions C drive included with OS) i copy the image from my USB drive to D drive and attempt to execute setup from there (as administrator) follow same exe / install steps as noted above again get the "windows 11 installation has failed" message checking "event viewer" "admin events" there is no row / no addition information in "admin events" section , or any additional information in any other log i can see. Action 3 follow same exe / install steps as noted above again (but not as admin user this time) confirming "windows 11 installation as failed" confirming no additional info in Event log Ok so far: Bypassed TPM/Secure Boot error with Regedit entry resolved error ""the secure boot updated filed to update a secure boot variable with error secure boost ins not enabled on this machine" Copy image to local drive resolved error ""The driver detected a controller error on \device\harddisk2\DR6". But now the install fails with no addition information in the event log indicating maybe software rather than hardware issue. Action 4 I executed the following from CMD as ADMIN (during with there were a number of "access denied" responses) to remove previous install related files: rd /s /q C:$WINDOWS.~BT rd /s /q C:$WINDOWS.~WS rd /s /q C:\Windows\Panther rd /s /q C:\Windows\SoftwareDistribution\Download rebooted machine follow same exe / install steps as noted above again as admin user confirming "windows 11 installation as failed" confirming no additional info in Event log Action 5 execute the following run setup from cmd as admin including setup parameters with logging in an attempt to get additional information: D:\win\setup.exe /auto upgrade /dynamicupdate disable /compat ignorewarning /showoobe none /copylogs C:\UpgradeLogs i.e params do the following: Skips dynamic updates (so it doesn’t try to download compatibility data) Ignores TPM/Secure Boot warnings Copies all logs to C:\UpgradeLogs for analysis On the plus side the "skip" param saves a wee bit of waiting and clicking during a test re-run which is time consuming enough already. confirming "windows 11 installation as failed" confirming no additional info in Event log Looking at C:\UpgradeLogs\Panther\Settuperr.txt log file I can see: Error SP pSPDoMainGather: Engine initialization failed with error: 0x00000004 Error SP CGatherData: Migration phase failed. Status: 4 Error SP ExecuteOperations: Failed execution phase Finalize. Error: 0x8007000D Error MOUPG CDlpActionFinalize::ExecuteSetupPlatformFinalize: Result = 0xC1900101 These correspond to: 0x8007000D → “The data is invalid.” 0xC1900101 → "Generic driver or compatibility error". Together, that combination means the setup successfully started the upgrade, but during the migration phase, a driver or service that loads early in boot caused the process to fail integrity checks or data gathering. DEBUGGING SETUPERR.TXT Steps to try next in subsequent actions: Software common culprits for 0xC1900101: Antivirus (Avast, AVG, McAfee, BitDefender, etc.) Disk or SSD utilities (Samsung Magician, Intel RST, Acronis, Paragon) Older chipset or storage drivers RGB/fan/overclock utilities (Asus AI Suite, MSI Afterburner, etc.) Note to Uninstall or disable these before retrying, reboot after uninstalling. Hardware sources: remove usb hardware or other peripheral hardware (mouse only in my case) Note to Uninstall or disable these before retrying, reboot after uninstalling. Drivers Ensure all drivers are up to date for internal components cmd as admin pnputil /enum-drivers > C:\drivers.txt Note to Uninstall or disable these before retrying, reboot after uninstalling. Cleanup windows update cmd as admin DISM /Online /Cleanup-Image /RestoreHealth sfc /scannow Note to Uninstall or disable these before retrying, reboot after uninstalling. Boot from my USB source device instead Action 6 stop AV real-time protection test unplug USB mouse (unlikely this is related) uninstall anything related to BIOS or lower level components (i.e killer nw adapter , fan monitoring, keyboard led software etc). forgot to reboot (hence repeated note above !) execute the following run setup from cmd as admin including setup parameters with logging in an attempt to get additional information: D:\win\setup.exe /auto upgrade /dynamicupdate disable /compat ignorewarning /showoobe none /copylogs C:\UpgradeLogs confirming "windows 11 installation as failed" confirming no additional info in Event log Action 7 cmd as admin DISM /Online /Cleanup-Image /RestoreHealth 100% completed successfully response execute the following run setup from cmd as admin including setup parameters with logging in an attempt to get additional information: D:\win\setup.exe /auto upgrade /dynamicupdate disable /compat ignorewarning /showoobe none /copylogs C:\UpgradeLogs confirming "windows 11 installation as failed" confirming no additional info in Event log Action 8 cmd as admin pnputil /enum-drivers > C:\drivers.txt or use DeviceManager to check storage controllers, network adapters, display adapters are up to date best drivers already installed execute the following run setup from cmd as admin including setup parameters with logging in an attempt to get additional information: D:\win\setup.exe /auto upgrade /dynamicupdate disable /compat ignorewarning /showoobe none /copylogs C:\UpgradeLogs confirming "windows 11 installation as failed" confirming no additional info in Event log Action 9 F1 go into BIOS and select enabled Secure Boot move image from d:\win to c:\win cmd as admin execute the following run setup from cmd as admin including setup parameters with logging in an attempt to get additional information: c:\win\setup.exe /auto upgrade /dynamicupdate disable /compat ignorewarning /showoobe none /copylogs C:\UpgradeLogs confirming "windows 11 installation as failed" confirming no additional info in Event log Action 10 F1 go into BIOS and remove BIOS password cmd as admin execute the following run setup from cmd as admin including setup parameters with logging in an attempt to get additional information: c:\win\setup.exe /auto upgrade /dynamicupdate disable /compat ignorewarning /showoobe none /copylogs C:\UpgradeLogs confirming "windows 11 installation as failed" confirming no additional info in Event log DEBUGGING SETUPERR.TXT Looking at the latest setuperr.txt log file in more detail: "Duplicate profile detected" "User does not have a valid profile [0x000004E5]" "Failed to delete reg tree HKLM\SYSTEM\Setup\Upgrade[gle=0x00000005] (access denied)" "Can't retrieve group information for NT SERVICE\SQLTELEMETRY" Windows Setup during an in-place upgrade runs: Downlevel – run setup from within Windows 10 Gather / Migration – inventory apps, drivers, users Offline Install / SafeOS Phase First boot / Post-install / OOBE The log shows the failure is happening during Gather Data — specifically when the Migration Engine (MIG) is trying to enumerate user profiles and services. The errors above appear to be mean that setup is stuck on: A corrupted or duplicate user profile registry key SQL Server service accounts (NT SERVICE\MSSQLSERVER, SQLTELEMETRY) that don’t have valid local group mappings Possibly locked or orphaned upgrade registry entries from previous failed attempts These trigger the migration engine (migcore.dll) to abort, cascading into the 0xC1900101 error. Action 11 Open Services Locate MSSQL services Open LOG AS tab in properties for each Change to LOCAL SYSTEM ACCOUNT option (top of form) Reboot cmd as admin execute the following run setup from cmd as admin including setup parameters with logging in an attempt to get additional information: c:\win\setup.exe /auto upgrade /dynamicupdate disable /compat ignorewarning /showoobe none /copylogs C:\UpgradeLogs confirming "windows 11 installation as failed" confirming no additional info in Event log Action 12 add remove progrems remove any SQL related service Open LOG AS tab in properties for each Reboot cmd as admin execute the following run setup from cmd as admin including setup parameters with logging in an attempt to get additional information: c:\win\setup.exe /auto upgrade /dynamicupdate disable /compat ignorewarning /showoobe none /copylogs C:\UpgradeLogs confirming "windows 11 installation as failed" confirming no additional info in Event log Action 13 In REGEDIT remove: HKEY_LOCAL_MACHINE\SYSTEM\Setup\Upgrade HKEY_LOCAL_MACHINE\SYSTEM\Setup\Status\Upgrade HKEY_LOCAL_MACHINE\SYSTEM\Setup\Migration If access is denied: Right-click → Permissions → grant Administrators full control Then delete Reboot cmd as admin execute the following run setup from cmd as admin including setup parameters with logging in an attempt to get additional information: c:\win\setup.exe /auto upgrade /dynamicupdate disable /compat ignorewarning /showoobe none /copylogs C:\UpgradeLogs confirming "windows 11 installation as failed" confirming no additional info in Event log Action 14 In REGEDIT HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList Look for duplicates — e.g., one ending in .bak or two with the same ProfileImagePath. If you see duplicates Delete the one with .bak (Or rename) Ensure ProfileImagePath points to a valid user folder (e.g. C:\Users<YourName>) Be sure not to delete system accounts like S-1-5-18, S-1-5-19, S-1-5-20. If SQL uninstalled delete the SQL user profile Note here I deleted the SQL user following SQL uninstall , also had a duplicate of my user, deleted the newest one, kept first one in place. This maybe related to having a local user on the client but also an AAD user which is hooked up to my AAD IDP identity (i.e office 365) as it was used for AAD auth on the client as opposed to a local user. Figured this out by looking at setuperr.txt error log and matching the error profile ID to the ID in regedit Reboot cmd as admin execute the following run setup from cmd as admin including setup parameters with logging in an attempt to get additional information: c:\win\setup.exe /auto upgrade /dynamicupdate disable /compat ignorewarning /showoobe none /copylogs C:\UpgradeLogs "working on updated 0% please keep your computer on" 10 hours later ... 🚀 Hope that helps someone Scott Update Quick update to this thread as the below sequence is a super simple time saver compared to the time consuming actions above. When working over a number of additional older windows 10 client machines I have had 100% success using the following steps: From the Windows 11 USB boot image that contains the setup.exe on the root, browse to directory E:\source\ locate file appraiserres.dll rename the file to appraiserres.bak i.e amend the file extension so not its not a dll. then open a windows cmd prompt as admin execute E:\setup.exe /auto upgrade /dynamicupdate disable /compat ignorewarning /showoobe none /copylogs C:\UpgradeLogs the windows 11 installation will complete with no issues 100% of the time (to date) Received the following error on a new client install: We couldnt install windows 11 We've set your PC back to the way it was right before you started installing Windows 11. 0xC1900101 - 0x2000D The installation failed in the SAFE_OS phase with an error during MIGRATE_DATA operation Responded with: free up space on the C drive copy the USB files to a local drive and run install cmd from there Issue resolved.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1193305/windows-11-installation-has-failed
+
+---
+
+#### 753. IIS not showing management icons
+
+**问题描述 / Problem Description**:
+Tags: iis, iis-10, windows-11 | Score: 2 | Views: 319 | Answers: 2 | Created: 2025-09-10
+
+**解决方案 / Solution**:
+Please try to uninstall KB5064081 There was similar question here few days ago and resolution was mentioned on this forum
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1192485/iis-not-showing-management-icons
+
+---
+
+#### 754. Weird Windows copy / paste issues - leading spaces
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, windows-command-prompt, robocopy | Score: 2 | Views: 241 | Answers: 1 | Created: 2025-06-06
+
+**解决方案 / Solution**:
+You're creating the commands by pasting strings into Excel and munging them in Notepad++. This is not great, as you're finding. You would do better to use a scripting language. You're already using Powershell as a console; it's a full-featured scripting language as well. You can easily put your folder names into an array and append/transform as needed; using Join-Path instead of simple string concatenations should do a lot to improve delimiter handling (slashes). 30 years experience as a sysadmin: this is definitely a good time to learn the force-multiplication that scripting can give you.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1185371/weird-windows-copy-paste-issues-leading-spaces
+
+---
+
+#### 755. Rescue Redo Clone from small HDD to larger HDD Windows 10
+
+**问题描述 / Problem Description**:
+Tags: windows, partition, gparted, rescue-disk | Score: 2 | Views: 252 | Answers: 1 | Created: 2025-02-17
+
+**解决方案 / Solution**:
+Typically in this scenario, you need to move the p3 partition to between p1 and p2. Then you will be able to extend the p2 partition with the empty space, as it is contiguous. (YouTube) Move or Rearrange Your Hard Drive Partitions in Windows (NIUBI) NIUBI Partition Editor Free Edition
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1172860/rescue-redo-clone-from-small-hdd-to-larger-hdd-windows-10
+
+---
+
+#### 756. What's a proper WMI Filter Query for Computers without a TPM?
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, group-policy, wmi, tpm | Score: 2 | Views: 590 | Answers: 2 | Created: 2024-10-16
+
+**解决方案 / Solution**:
+What are you trying to configure on the non-TPM machines? If it's something relatively simple like a couple of registry keys or similar, you might want to try using Preferences and item-level targeting. In the Targeting Editor window, you can select the WMI Query item and enter the query that'll return a result if TPM is installed. Then in the Item Options menu, you can select the Is Not option (or press F8). I haven't done much with TPM, but if there's some registry item you can test for using the "Registry Match" instead of a WMI query, that tends to be faster. The same Is Not option is there as for WMI and the other items available in Targeting Editor. If it's a complex set of policies you want to apply to the non-TPM machines via a specific GPO, you might need to scope it to an AD group and add your non-TPM machines to that. Obviously there's some way that you're moving TPM and non-TPM machines to different OUs - a similar process could be done to add them to a security group. Unfortunately, though, I believe that you need to match something for a WMI filter to work at the GPO level.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166685/whats-a-proper-wmi-filter-query-for-computers-without-a-tpm
+
+---
+
+#### 757. How to restrict printers to specific users on a Remote Desktop Terminal Server?
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, windows-server-2016, remote-desktop, printing | Score: 2 | Views: 845 | Answers: 1 | Created: 2024-10-04
+
+**解决方案 / Solution**:
+You have a faulty print driver inside one of your terminal server. Thats your problem. As you did the correct method by removing the Everyone security group from the printers and add a security for both printer. Add peoples you want to use them by assigning the security group. I do the same method on TS I manage, even with over 50+ printers. I install the printmanagement console if you want to import/export your printer correctly between your TS.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166144/how-to-restrict-printers-to-specific-users-on-a-remote-desktop-terminal-server
+
+---
+
+#### 758. Tomcat 9.x: Alias name does not identify a key entry for Windows-MY keystore (Windows Sever 2019)
+
+**问题描述 / Problem Description**:
+Tags: windows, ssl-certificate, tomcat, windows-server-2019, keytool | Score: 2 | Views: 1499 | Answers: 1 | Created: 2024-09-24
+
+**解决方案 / Solution**:
+Windows services have a separate My/Personal store. You should be able to select it by running mmc, loading certificates and selecting service when prompted.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1165672/tomcat-9-x-alias-name-does-not-identify-a-key-entry-for-windows-my-keystore-wi
+
+---
+
+#### 759. What does the error message ""No internal type for both IPv4 and IPv6 Addresses" (A+AAAA) records available for <address.domain>" mean?
+
+**问题描述 / Problem Description**:
+Tags: windows, domain-name-system | Score: 2 | Views: 2975 | Answers: 1 | Created: 2024-09-18
+
+**解决方案 / Solution**:
+I don't know what error message means exactly. But by the sound of situation you describe, I'd say I had quite similar problem recently. In my case I had two routers in the same network, one was running DHCP, and the other DNS. And when I tried to forward dns requests from second to first one for local names I got this error. Cause for the error was a "Rebind protection" of OpenWrt, which prevents upstream DNS servers resolving into RFC1918 addresses (your 192.168s, 172.16s, etc). Since in my case it was exactly what was needed I simply disabled this option at Network > DHCP and DNS > Filter > Rebind protection.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1165383/what-does-the-error-message-no-internal-type-for-both-ipv4-and-ipv6-addresses
+
+---
+
+#### 760. Citrix published app asks for credentials
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, citrix, microsoft-excel | Score: 2 | Views: 637 | Answers: 1 | Created: 2024-09-04
+
+**解决方案 / Solution**:
+There is three thing that need to be done to have that work with SSO. First; The Receiver need to be installed with the Run As Admin command, with the PassThrought configuration. The option to select it would not be there if you run the setup with a admin account but if the run as was not used. That one is probably done right, as changing the GPO work Secondly; The StoreFront URI need to be inside the thrusted site. There is the correct GPO to set it; I know IE is no longer there, but the site need to be set with that option nonetheless. This is the option you need to set: Add the Storefront FQDN with its http/https protocol to the Trusted sites as follows: Open up your Internet Explorer browser and go to Tools > Internet Options. Then go to Security > Trusted Sites > Sites. Reference Thirdly; Not noted inside the CTX I referenced, but the certificate if homemade must be deployed to the computer too if using HTTPS (as you can still use HTTP store too, I dont know your case)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164777/citrix-published-app-asks-for-credentials
+
+---
+
+#### 761. Network issues with Windows 11 and WSL2 on wildfly container server
+
+**问题描述 / Problem Description**:
+Tags: windows, vpn, docker, docker-compose, windows-subsystem-for-linux | Score: 2 | Views: 738 | Answers: 1 | Created: 2024-08-30
+
+**解决方案 / Solution**:
+Problem solved, the issue was MTU size: vpn MTU: 1300 wsl2 eth0 MTU: 1280 wsl2 docker0 MTU: 1500 wsl2 br-ecf9804545ca MTU: 1500 (docker subnet) Because this wsl2 works fine(1280mtu < 1300mtu vpn) and docker containers doesn't work (1500mtu > 1300mtu vpn), this was a really annoying problem, difficult to debug but luckily it was resolved. Bad part is config docker mtu on wsl2 change mtu to clients of my docker compose. Are there some easy way to config this?
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164580/network-issues-with-windows-11-and-wsl2-on-wildfly-container-server
+
+---
+
+#### 762. Migrate SBS 2008 to 2019
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, windows-server-2019, windows-sbs-2008 | Score: 2 | Views: 376 | Answers: 1 | Created: 2024-08-28
+
+**解决方案 / Solution**:
+The process is basically the same: Join your 2019 server to the domain Promote your 2019 server to a domain controller Make sure that DNS from anything with a static IP is switched to the new DC Demote your 2008 server (this can be fun with SBS 2008 because there's a LOT of other crap jammed onto those servers. Truly a product of their time). Turn off your SBS 2008 server Raise your domain functional level to something from the last decade Note that you really want your DC to be a dedicated standalone machine that doesn't do anything except DC stuff. If you are running virtualisation on your server, just make a second small VM for your DC. You are entitled to 4 virtual instances with your 2019 license.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164482/migrate-sbs-2008-to-2019
+
+---
+
+#### 763. Increase useable size of logical drive in ADAPTEC 6405E RAID 1 array using ARCCONF, after increasing physical disk size
+
+**问题描述 / Problem Description**:
+Tags: windows, raid, adaptec | Score: 2 | Views: 343 | Answers: 1 | Created: 2024-07-25
+
+**解决方案 / Solution**:
+Ok so the answer is : arcconf modify 1 from 0 to 851936 1 0 0 0 1 where i wanted the revised logical device to be 851936MB which left me about 10% unallocated space which will hopefully prevent slow write speed when the logical device ( drive exposed to windows ) gets full. The syntax is therfor : arcconf modify <adapterid> from <logicaldevice> to <size> <raidlevel> <physicaldev1channel> <physicaldev1id> <physicaldev2channel> <physicaldev2id> However it took several hours which was unexpected, and once ARCCONF had finished applying the change, in order to see the changes in windows disk management, i had to rescan devices. there was no outage to service while it took place.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163042/increase-useable-size-of-logical-drive-in-adaptec-6405e-raid-1-array-using-arcco
+
+---
+
+#### 764. My Win 11 Pro VPN client for IKEv2 is perpetually broken
+
+**问题描述 / Problem Description**:
+Tags: vpn, remote-access, ipsec, ikev2, windows-11 | Score: 2 | Views: 2062 | Answers: 1 | Created: 2023-05-15
+
+**解决方案 / Solution**:
+It's not a problem with the signature in the certificate but the one used during IKEv2. The classic signature scheme for RSA defined in RFC 7296 is generally limited to SHA-1. Only with the extension defined in RFC 7427 are stronger signature schemes (e.g. RSASSA-PSS with SHA-256) possible in an interoperable way. However, Windows currently doesn't support that extension, so until it does, you have to allow SHA-1 signatures for IKEv2 on the server.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1131149/my-win-11-pro-vpn-client-for-ikev2-is-perpetually-broken
+
+---
+
+#### 765. how to install OpenSSH Server windows 11 OFFINE, without internet connection with powershell
+
+**问题描述 / Problem Description**:
+Tags: windows, ssh, powershell, windows-11 | Score: 2 | Views: 17362 | Answers: 1 | Created: 2023-01-27
+
+**解决方案 / Solution**:
+Not sure what your goal is in detail but I think this information will help you to achieve it. Get the latest Version from as zip https://github.com/PowerShell/Win32-OpenSSH/releases unpack it where you want to install it, like C:\Program Files\ Open CMD as Admin, move to this directory and run powershell.exe -ExecutionPolicy Bypass -File install-sshd.ps1 These Services will be installed. You can chnage them to starttype automatic if you want: Start these services. If you need to change anything the configuration will be placed at C:\ProgramData\ssh\sshd_config
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1121293/how-to-install-openssh-server-windows-11-offine-without-internet-connection-wit
+
+---
+
+#### 766. Is it safe to change system regional settings on a production DC to alter DNS log timestamps?
+
+**问题描述 / Problem Description**:
+Tags: windows, domain-name-system, active-directory, domain-controller, timestamp | Score: 1 | Views: 205 | Answers: 2 | Created: 2026-02-21
+
+**解决方案 / Solution**:
+Regional settings have absolutely no impact on the functionality of a Domain Controller.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1198240/is-it-safe-to-change-system-regional-settings-on-a-production-dc-to-alter-dns-lo
+
+---
+
+#### 767. How to enable shutdown PowerShell script on Windows 2022 without using GUI
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, windows-server-2022 | Score: 1 | Views: 229 | Answers: 1 | Created: 2025-12-04
+
+**解决方案 / Solution**:
+The issue is that Local Group Policy scripts are not registered only through the registry. Windows also expects the scripts.ini configuration file to exist inside the policy folder. gpedit.msc reads scripts.ini, not just the registry entries. Because your code only writes registry keys, the script executes if Windows reads the registry at runtime, but it does not appear in the GUI. On Windows Server the correct structure for shutdown scripts is: C:\Windows\System32\GroupPolicy\ └── Machine ├── Scripts │ └── Shutdown │ └── BackupOnShutdown.ps1 └── Scripts\scripts.ini Example of a correct scripts.ini: [Shutdown] 0CmdLine=BackupOnShutdown.ps1 0Parameters=
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1196185/how-to-enable-shutdown-powershell-script-on-windows-2022-without-using-gui
+
+---
+
+#### 768. All copy and paste functions on my computer are blocked while RDP is connected to a particular server, how to correct this?
+
+**问题描述 / Problem Description**:
+Tags: windows-server-2016, remote-desktop, windows-11, data-loss-prevention | Score: 1 | Views: 592 | Answers: 2 | Created: 2025-11-19
+
+**解决方案 / Solution**:
+After a Reboot, I no longer had this issue, as stated in a comment. It being a Production-Server that many people use and work, it rarely gets a reboot. (Rebooted on a holiday) That does not explain what actually caused the issue, nor how the reboot actually fixed it, because of the affect on client RDP computers. Except to repeat an old Windows adage: "When in doubt, Reboot." So if anyone has something to add it would still be appreciated, and by anyone else that finds this helpful.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1195984/all-copy-and-paste-functions-on-my-computer-are-blocked-while-rdp-is-connected-t
+
+---
+
+#### 769. Winrm cannot complete the operation from one server to another, but can connect to others
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, powershell, kerberos, packet-capture | Score: 1 | Views: 242 | Answers: 1 | Created: 2025-10-13
+
+**解决方案 / Solution**:
+Well, here we are 2 months later. So far, it seems to be an MTU size issue. We finally got a Wireshark capture and we could only see things like packet size and such, but couldn't see much more because our DCs have IPSec enabled and in use. But we could see different packet sizes for the same tasks, so that's what prompted us to look there. The sister DC of Server2 had a much lower MTU size (~1200), whereas the Server2 had the standard 1500 size. We're going to look into why these servers have a lower MTU size, but this does seem to be the culprit.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1193371/winrm-cannot-complete-the-operation-from-one-server-to-another-but-can-connect
+
+---
+
+#### 770. Force a specific default lock screen image setting is not available in GPO
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-server-2012-r2, group-policy | Score: 1 | Views: 245 | Answers: 1 | Created: 2025-09-26
+
+**解决方案 / Solution**:
+Did you read this article: How to Manage the Lock Screen Image on Windows 8 and Windows Server 2012 Please check if the mentioned update is installed. Important: Mainstream and Extended support for Windows Server 2012 has been extended You should take care of updating your systems as soon as possible.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1193039/force-a-specific-default-lock-screen-image-setting-is-not-available-in-gpo
+
+---
+
+#### 771. How to share a folder on Windows Server 2022
+
+**问题描述 / Problem Description**:
+Tags: linux, windows, server-message-block | Score: 1 | Views: 230 | Answers: 1 | Created: 2025-09-24
+
+**解决方案 / Solution**:
+You share a folder in Windows Server 2022 exactly in the same way as any other Windows system. The button "Share" doesn't actually do much and oversimplifies the process, often not working as expected. You need to go to Properties -> Sharing -> Advanced Sharing. Also, you need to add the "File Server" role to the server, in order to open the required ports in Windows Firewall.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1193010/how-to-share-a-folder-on-windows-server-2022
+
+---
+
+#### 772. How can I uninstall/remove these services from some of the domain devices using automation?
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, powershell, group-policy, configuration-management | Score: 1 | Views: 195 | Answers: 1 | Created: 2025-09-08
+
+**解决方案 / Solution**:
+Deploy a domain-wide PowerShell Script that ... Trys to uninstall the related software This maybe tricky, since it looks to that you don't know the name(s) of the tools you want to get rid of. But there is no "clean" way around this. If you got your names (or at least part of it) properly, try something like: $app = Get-ChildItem -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall, HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall | Get-ItemProperty | Where-Object {$_.DisplayName -eq "YOUR_APP_NAME_OR_STRING_MATCH" } | Select-Object -Property DisplayName,UninstallString $Uninstall = $app.UninstallString cmd /c $Uninstall /x /quiet Especially in the case of AV/EDR solutions (like Avast), this may not be an easy option. Those uninstallers are designed not to be removed easily. In most cases, uninstallation has to be initiated through the management interface or by the local admin user. I have seen captcha's in the process, fake silent uninstall commands (that result in fake 'exit 0' success) and many more annoyances. For KMSAuto tools (like TunMirror), be advised that KMS is an integral part of the Microsoft Key Management Services (KMS) and removal is often not supported - like on (older) OEM pre-activated systems. Removal can cause loss of the Windows actiation. Stop and delete these services. If uninstall completes, this step is no longer necessary. Remove residual files if possible. If uninstall completes, this step is also not really necessary. Do no try to remove "just" the services. This will very likely cause a lot more support tickets than the "supported" removal procedure.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1192380/how-can-i-uninstall-remove-these-services-from-some-of-the-domain-devices-using
+
+---
+
+#### 773. Windows proxy for applications use integrated authentication
+
+**问题描述 / Problem Description**:
+Tags: windows, proxy, kerberos, curl, ntlm | Score: 1 | Views: 278 | Answers: 1 | Created: 2025-08-11
+
+**解决方案 / Solution**:
+Windows only tells browsers which proxy to use, but in most cases it does not handle the actual HTTP communications (neither via proxy nor without). Each browser has its own HTTP client, all of them independently implementing the same request and proxy handling; they only call to Windows for the actual user credentials. Other applications sometimes do use the system-provided 'WinHTTP' library, but many again bring their own, for various reasons – and that especially goes for curl.exe as the entire point of this program is to be an interface over the libcurl HTTP client specifically, so of course it won't be using WinHTTP. libcurl has support for most kinds of (proxy and regular) HTTP authentication, but the calling program needs to explicitly enable the features. When using curl.exe, use --negotiate to enable "logged-in user" authentication of the actual requests, and --proxy-negotiate to enable it for the proxy server. curl -x proxyhost:port --proxy-negotiate http://echo.opera.com Note that Kerberos authentication requires the proxyhost to be accurate (an IP address won't work), similar to how TLS certificates require a matching hostname. If your proxy does not support Kerberos, then "logged-in user" authentication can also be done using the obsolete NTLM – the options are --ntlm and --proxy-ntlm for server auth and proxy auth respectively. curl -x proxyhost:port --proxy-ntlm http://example.com Both are opt-in – Kerberos cannot be active-by-default due to the extra network requests to your KDC that it would cause for each and every domain, and NTLM due to its sheer insecurity (sending an NTLM token to untrusted hosts is as bad as sending everyone your password; see e.g. ntlmrelayx). For all other programs, search their documentation for 'Negotiate' or 'Kerberos' or 'SPNEGO' or 'SSPI' or 'GSSAPI'. Many basic HTTP clients simply don't implement anything except 'Basic' authentication with manually specified password, if that.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1190420/windows-proxy-for-applications-use-integrated-authentication
+
+---
+
+#### 774. Azure "Run Command Script" Invoke SQL on new SQL Server VM using "NT AUTHORITY\SYSTEM"
+
+**问题描述 / Problem Description**:
+Tags: windows, sql-server, powershell, azure, configuration-management | Score: 1 | Views: 283 | Answers: 2 | Created: 2025-07-31
+
+**解决方案 / Solution**:
+You can't grant rights on a SQL Server instance using a user account which doesn't have them in the first place; as you already know, NT AUTHORITY\SYSTEM is not an administrative user in SQL Server by default, thus it can't grant itself additional access rights (if it was, it wouldn't even need to do so). If you want to grant access rights to NT AUTHORITY\SYSTEM (or to anyone alse), you need to do that using an actual user account which does have them.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1189910/azure-run-command-script-invoke-sql-on-new-sql-server-vm-using-nt-authority-s
+
+---
+
+#### 775. Why after upgrading to Windows 11 24H2 WPA3 Enterprise does not work anymore?
+
+**问题描述 / Problem Description**:
+Tags: windows, wifi, wlan | Score: 1 | Views: 1998 | Answers: 1 | Created: 2025-07-02
+
+**解决方案 / Solution**:
+I really don't think this is helpful but I noticed the signal bands are 0mhz - 0mhz.. That should have no impact on WP2 working vs WP3 not working, but I wanted to point it out. Number of supported bands : 3 2.4 GHz [ 0 MHz - 0 MHz] 5 GHz [ 0 MHz - 0 MHz] 6 GHz [ 0 MHz - 0 MHz]
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1188121/why-after-upgrading-to-windows-11-24h2-wpa3-enterprise-does-not-work-anymore
+
+---
+
+#### 776. Unusual TCP connection issue and Windows Server 2022 strange behavior
+
+**问题描述 / Problem Description**:
+Tags: windows, tcp, .net | Score: 1 | Views: 589 | Answers: 1 | Created: 2025-06-24
+
+**解决方案 / Solution**:
+If you have a host that initiates a lot of connections, you need to specify the range start and end for the RPC "high ports". By default it is 49152-65535, which may be insufficient for what you are doing. Typically this is configured and displayed using netsh. netsh int ipv4 show dynamicport tcp netsh int ipv4 show dynamicport udp netsh int ipv6 show dynamicport tcp netsh int ipv6 show dynamicport udp Sample command syntax to modify: netsh int <ipv4|ipv6> set dynamic <tcp|udp> start=number num=range Examples: netsh int ipv4 set dynamicport tcp start=10000 num=55535 netsh int ipv4 set dynamicport udp start=10000 num=55535 https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/default-dynamic-port-range-tcpip-chang
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1187170/unusual-tcp-connection-issue-and-windows-server-2022-strange-behavior
+
+---
+
+#### 777. Windows 11 folder access through Administrators group is denied
+
+**问题描述 / Problem Description**:
+Tags: windows, file-permissions, uac | Score: 1 | Views: 557 | Answers: 1 | Created: 2025-05-01
+
+**解决方案 / Solution**:
+The Administrators group is especially protected by Windows's UAC protection scheme. Practically, membership is only latent until a process elevates its UAC protection level. Windows Explorer cannot be elevated, so you can't use any privileges gained from the Administrators membership there. You don't state your use case, but for most purposes it's the simplest solution to create and assign another group with the required privileges (e.g. Python script administrators ). That way, you can also assign more granular rights and don't use the general, omnipotent Administrators group.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1180398/windows-11-folder-access-through-administrators-group-is-denied
+
+---
+
+#### 778. Network Profile empty on domain controller
+
+**问题描述 / Problem Description**:
+Tags: windows, domain-controller, windows-server-2019 | Score: 1 | Views: 305 | Answers: 1 | Created: 2025-03-20
+
+**解决方案 / Solution**:
+If Is there any way to manually trigger the network profile creation? Yes, through adding a (new) NIC. You can also set/change the profile on existing interfaces with: Set-NetConnectionProfile -InterfaceIndex <INDEX> -NetworkCategory Private The can be taken from Get-NetRoute Get-NetRoute | Select InterfaceAlias,InterfaceIndex | fl Is there any any way to check if netlogon and NLA files are corrupted? DISM.exe /Online /Cleanup-image /Restorehealth
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1176089/network-profile-empty-on-domain-controller
+
+---
+
+#### 779. How do I Upgrade PowerShellGet Behind a Corporate Firewall?
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, nexus | Score: 1 | Views: 216 | Answers: 1 | Created: 2025-03-05
+
+**解决方案 / Solution**:
+In the end, I copied the modules from a PC with newer versions of Windows to the target machine. C:\Program Files\PackageManagement\ProviderAssemblies\NuGet C:\Program Files\WindowsPowerShell\Modules\PowerShellGet I then registered the NuGet provider as follows: [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::Security Protocol -bor 3072 $cred = Get-Credential Register-PackageSource -Name InternalNugetOrg -ProviderName Nuget -Location https://example.com/repository/nugetorg-proxy/ -Trusted -Credential $cred And enabled the Powershell Gallery mirror: Register-PSRepository -Name InternalPSGallery -SourceLocation https://example.com/repository/psgallery-proxy/ -InstallationPolicy Trusted -Credential $cred
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1174309/how-do-i-upgrade-powershellget-behind-a-corporate-firewall
+
+---
+
+#### 780. Windows Server 2025 can't add disk to storage pool, physical sector size not supported by the storage pool
+
+**问题描述 / Problem Description**:
+Tags: windows, hard-drive, windows-server-2025 | Score: 1 | Views: 2276 | Answers: 2 | Created: 2025-02-14
+
+**解决方案 / Solution**:
+New-StoragePool has a logical sector size default of 512 and doesn't like the physical sectors of members to be larger. Add -LogicalSectorSizeDefault 4096 to your pool creation.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1172781/windows-server-2025-cant-add-disk-to-storage-pool-physical-sector-size-not-sup
+
+---
+
+#### 781. Qemu cannot start VM with Win11 after version upgrade 6.2 to 9.0
+
+**问题描述 / Problem Description**:
+Tags: windows, qemu, tpm | Score: 1 | Views: 961 | Answers: 1 | Created: 2025-01-31
+
+**解决方案 / Solution**:
+There were 3 steps to upgrade: use ppa:canonical-server/server-backports for qemu 9.0 use ppa:stefanberger/swtpm-jammy for swtpm 0.10 get and install package virtiofsd 1.10 for Ubuntu 24.04
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1171996/qemu-cannot-start-vm-with-win11-after-version-upgrade-6-2-to-9-0
+
+---
+
+#### 782. Managing files/folders permissions inside a shared folder on Samba AD-DC server using Windows Explorer
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, samba4 | Score: 1 | Views: 195 | Answers: 1 | Created: 2025-01-14
+
+**解决方案 / Solution**:
+You have to join machine(s) to the domain and reboot. Only machines joined to the domain are enabled to use domain resources as outlined here: https://wiki.samba.org/index.php/Joining_a_Windows_Client_or_Server_to_a_Domain
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1170124/managing-files-folders-permissions-inside-a-shared-folder-on-samba-ad-dc-server
+
+---
+
+#### 783. Windows Server 2019 Hyper-V install Ubuntu guest
+
+**问题描述 / Problem Description**:
+Tags: windows, ubuntu, windows-server-2019 | Score: 1 | Views: 627 | Answers: 2 | Created: 2025-01-09
+
+**解决方案 / Solution**:
+I run Ubuntu 24.04 on Windows Server 2019 Hyper-V, so it can definately be done. Make sure that you are creating a Generation 2 VM and that you disable secure boot.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1169962/windows-server-2019-hyper-v-install-ubuntu-guest
+
+---
+
+#### 784. WSL distributions do not install on Windows Server Core 2025
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-server-2022, windows-server-core, windows-subsystem-for-linux, windows-server-2025 | Score: 1 | Views: 1432 | Answers: 1 | Created: 2025-01-02
+
+**解决方案 / Solution**:
+The error messages are much better if you install a VM in Hyper-V. For example. in 2003 on a local Hpper-V instance you get: PS C:\Users\Administrator> wsl --install -d debian wsl.exe --install is not supported on ServerCore and NanoServer. Please visit https://aka.ms/wslinstallservercore to learn more. PS C:\Users\Administrator> The way to manually install a WSL package is to install the appx file. For example: curl.exe -L https://aka.ms/wsl-debian-gnulinux -o debian.app downloads the debian apps file that could be installed with Add-AppxPackage . See the complete list . Unfortunately Add-AppxPackage doesn't work on server core. > Add-AppPackage .\debian.appx Add-AppPackage : Deployment failed with HRESULT: 0x80073CF9, Install failed. Please contact your software vendor. Deployment Add operation with target volume C: on Package TheDebianProject.DebianGNULinux_1.12.2.0_neutral_~_76v4gfsz19hv4 from: (debian.appx) failed with error 0x8007007F. See http://go.microsoft.com/fwlink/?LinkId=235160 for help diagnosing app deployment issues. NOTE: For additional information, look for [ActivityId] aee7e124-6172-0000-f658-e8ae7261db01 in the Event Log or use the command line Get-AppPackageLog -ActivityID aee7e124-6172-0000-f658-e8ae7261db01 At line:1 char:1 + Add-AppPackage .\debian.appx + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ + CategoryInfo : WriteError: (C:\Users\Administrator\debian.appx:String) [Add-AppxPackage], IOException + FullyQualifiedErrorId : DeploymentError,Microsoft.Windows.Appx.PackageManager.Commands.AddAppxPackageCommand However, an appx package is just a zip file, which can be unzipped with the version of tar.exe that ships with windows. In the case of the WSL packages it is a nested appx file. You want to unzip the x64 appx file inside the appx file somewhere like %USERPROFILE%\AppData\Local\DebianWSL Then you can look for the exe in that directory you just created, in this case debian.exe, and run it. And then you have WSL.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1169719/wsl-distributions-do-not-install-on-windows-server-core-2025
+
+---
+
+#### 785. Is there a way to set OpenSSH and MIT Kerberos on windows without PuTTY?
+
+**问题描述 / Problem Description**:
+Tags: windows, ssh, kerberos, ssh-keys, mitkerberos | Score: 1 | Views: 761 | Answers: 1 | Created: 2024-12-29
+
+**解决方案 / Solution**:
+Secondary answers (My server website asks me to include the kerberos5 config file to add to etc, but there is no such folder in windows.) MIT Kerberos always has a krb5.conf, although it is in a different location on Windows (and I think it may also look for the same settings in the Windows Registry instead of the .conf file). If the website asks you to manually specify the KDC server address, 1) use the Network Identity Manager GUI to edit the configuration (sorry, I don't know whether the 'new' Leash32 GUI can do the same) and 2) tell your website's admins to set up proper DNS SRV records for automatic discovery (which FNAL.GOV realm already has, so manual configuration might not be needed). Their Cygwin64 method works but seems to be incompatible with VSCode VSCode doesn't use Kerberos directly; it only runs the ssh command, which ends up being the official Windows OpenSSH by default. You can trick it into using the Cygwin OpenSSH by changing the remote.SSH.path setting in VSCode and that might work. What are keys and tickets? "Keys" can refer to several different things. In this case you are probably referring to SSH authentication keys – RSA or ECDSA keypairs that SSH can use as your login credentials (as a very popular alternative to both Kerberos and traditional passwords). The server would have your 'public' key listed in the user account's .ssh/authorized_keys file, and the client would use the corresponding 'private' key to prove its identity. "Tickets" are roughly what the name suggests – a temporary pass/permit/access token issued by Kerberos to let you access some server. With Kerberos, you never send your password to the SSH server itself; your password is only used to authenticate to the realm's KDC, which then provides you with a ticket that the SSH server will accept. (Most likely, FNAL.GOV doesn't support key-based authentication because they keep user home directories on AFS so their cluster head nodes require a copy of your Kerberos credentials in order to access any of your files – at least, I believe that used to be the case in the past, but the linked webpage says that AFS is being phased out.) Primary answer debug1: Local version string SSH-2.0-OpenSSH_for_Windows_9.5 The "official" Windows OpenSSH build is ignoring your ticket cache because it has not been built to look for the MIT Kerberos libgssapi.dll – instead, being a Windows component, it has been built to use SSPI (i.e. Windows native Kerberos ). So if you specifically want to use MIT Kerberos, then you'll need a completely different OpenSSH build – such as that from Cygwin. As mentioned, you should be able to make VSCode use the Cygwin OpenSSH by changing the remote.SSH.path setting. But if you only need Kerberos in general, then Windows can use in fact Kerberos for non-Active-Directory clients and servers, but it takes slightly more configuration compared to AD. Note one major difference between Windows Kerberos and MIT Kerberos: Whereas MIT Krb5 will "canonicalize" the server name in a few different ways (applying both forward DNS canonicalization and rDNS canonicalization), Windows Kerberos does neither of those and will exactly use your provided hostname for obtaining the Kerberos ticket. That is to say, while MIT Kerberos will automatically expand box to box.example.com , Windows Kerberos will not. Check your MIT Kerberos klist output to see what tickets it has actually obtained so that you'll know which is the correct server name to SSH to. Actually enable Kerberos authentication in your SSH client configuration (independent of the other steps): ~\.ssh\config Host *.example.com GSSAPIAuthentication yes # Delegation is somewhat risky, but FNAL's setup likely requires it, # so enable it separately. GSSAPIDelegateCredentials yes Add Host sections that would match the actual server names that you're planning on using in the command line. For example, if you just do ssh web1 then you would need Host web1 (or maybe Host * ). The webpage you've linked actually has a more fleshed out example – scroll back up to the "SSH configuration file" section. IF the Kerberos realm is a non -Active-Directory realm, mark it as such so that Windows will know to not try contacting the AD Netlogon service: sudo ksetup /AddRealmFlags EXAMPLE.COM The presence of the entry (not any specific flag) marks the realm as "MIT realm" to Windows (which really means "non-AD realm"). You might need to reboot after making the change, as Windows caches lookup results or failures for a few hours. The FNAL.GOV realm in your webpage has DNS SRV records for the Kerberos KDCs, so Windows will be able to discover them automatically. If for some reason you need to specify them manually, use ksetup /AddKdc for that. (likely not needed) sudo ksetup /AddKdc EXAMPLE.COM i-krb-7.fnal.gov Finally, FNAL.GOV might want Kerberos delegation enabled (i.e. sending a copy of your Kerberos credentials to the server, so that it could use them for further connections). This is risky so by default Windows limits which servers may ask for it, requiring a special flag set by realm admin. But if you find that ssh refuses to do it even with GSSAPI­Delegate­Credentials enabled, you may need to tell Windows to "trust all servers": (might or might not be needed) sudo ksetup /AddRealmFlags EXAMPLE.COM Delegate From what I remember, FNAL.GOV used to require delegation as they kept user home directories on AFS so their cluster head nodes required a copy of your Kerberos credentials in order to access any of your files – but the linked webpage says that AFS is being phased out, so delegation might not be necessary anymore. If you're doing this from a local Windows account (i.e. currently logged in as a non-Active-Directory account), then you will need to store your Kerberos password in the Windows Credential Manager, so that SSPI would be able to obtain Kerberos tickets for programs which don't do Windows-style interactive password prompting (such as OpenSSH-for-Windows). cmdkey /add:*.example.com /user:fred@EXAMPLE.COM /pass The password is stored for specific names. As with the ssh client, you need to /add it for the actual server name you're connecting to – if you SSH to blah.example.com, then add *.example.com , but if you SSH to just 'blah' then use /add:blah . With GSSAPIAuthentication enabled and Windows Kerberos set up, you should be able to just ssh to the server. The setup will also be recognized by PuTTY and Firefox (though you have set those to use MIT libgssapi, but they both can also use Windows SSPI).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1169586/is-there-a-way-to-set-openssh-and-mit-kerberos-on-windows-without-putty
+
+---
+
+#### 786. NVIDIA L4 GPU Not Detected in Linux Hyper-V VM After DDA
+
+**问题描述 / Problem Description**:
+Tags: windows, hyper-v, passthrough, nvidia | Score: 1 | Views: 157 | Answers: 1 | Created: 2024-12-26
+
+**解决方案 / Solution**:
+I wanted to provide an update regarding the issue I faced with NVIDIA L4 GPUs on Windows Server Hyper-V VMs using Discrete Device Assignment (DDA). I was able to resolve this issue successfully by following the guidance provided in the NVIDIA documentation: Bug #2812853: Microsoft DDA not working with some GPUs . The problem occurred because GPUs with more than 16 GB of memory require additional MMIO (Memory-Mapped Input/Output) space for proper mapping in the guest VM. Without this configuration, the GPU wouldn't be detected properly in the VM. Solution: The workaround involves allocating sufficient HighMemoryMappedIoSpace for the VM based on the GPU's BAR1 memory size and the number of GPUs assigned to the VM. Here's the step-by-step process: Use the following formula to calculate the required MMIO space: MMIO space=2×gpu-bar1-memory×assigned-gpus Where: gpu-bar1-memory : The amount of BAR1 memory for one GPU (equal to total GPU memory if not specified). assigned-gpus : The number of GPUs assigned to the VM. Assign the calculated MMIO space to the VM using the Set-VM PowerShell command on the Hyper-V host. Example: NVIDIA L4 GPU with 23 GB Memory For a VM with 1 GPU assigned, where each GPU has 23 GB of BAR1 memory : MMIO space=2×23 GB×1=46 GB PowerShell Command: Run the following on the Hyper-V host to set the required MMIO space: Set-VM –HighMemoryMappedIoSpace 46GB –VMName <VM_Name> Example: Multiple GPUs Assigned For 3 NVIDIA L4 GPUs , each with 23 GB of memory assigned to a single VM: MMIO space=2×23 GB×3=138 GB PowerShell Command: Run the following to set the MMIO space for the VM: Set-VM –HighMemoryMappedIoSpace 138GB –VMName <VM_Name> Verification: Once the MMIO space is configured, reboot the VM and check that the GPU is recognized correctly in the guest VM using tools like nvidia-smi or lspci (for Linux VMs). I hope this helps anyone facing similar issues. If you have additional questions, feel free to ask!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1169502/nvidia-l4-gpu-not-detected-in-linux-hyper-v-vm-after-dda
+
+---
+
+#### 787. Where are events related to certificates logged in Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows, certificate, windows-event-log, eventviewer | Score: 1 | Views: 4074 | Answers: 1 | Created: 2024-12-16
+
+**解决方案 / Solution**:
+For the host, check event log Microsoft-Windows-CertificateServicesClient-Lifecycle-System/Operational . Event Id 1006 will be present when a certificate is installed. Event Id 1004 will be present when a certificate is deleted. Event Id 1003 will be present when a certificate is approaching expiration. https://learn.microsoft.com/en-us/archive/technet-wiki/14250.certificate-services-lifecycle-notifications
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168924/where-are-events-related-to-certificates-logged-in-windows
+
+---
+
+#### 788. slow ssh connection when enabling x11 forwarding (in local network from selected machines)
+
+**问题描述 / Problem Description**:
+Tags: windows, ssh, linux-networking, x11forwarding | Score: 1 | Views: 792 | Answers: 1 | Created: 2024-11-02
+
+**解决方案 / Solution**:
+I was able to return to normal latency with ssh -Y -o ObscureKeystrokeTiming=no <server> Found answer in this reply: https://serverfault.com/a/1159925/276240
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167333/slow-ssh-connection-when-enabling-x11-forwarding-in-local-network-from-selected
+
+---
+
+#### 789. Script to upgrade Windows 10 to Windows 11
+
+**问题描述 / Problem Description**:
+Tags: windows, scripting, upgrade | Score: 1 | Views: 11626 | Answers: 2 | Created: 2024-10-23
+
+**解决方案 / Solution**:
+So this is probably best accomplished with a two-step process: Upgrade your workstations Remove the things you don't want Step 1 can be achieved in a lot of ways A powershell script ( https://christitus.com/install-windows-update-powershell/ ) An MDT or SCCM Task sequence An internal WSUS server and GPO to push the Win 11 update Any other automation tool like Puppet, Chef, Ansible, etc. Step 2 is similar. Most of the above tools have capabilities to remove feature sets like xbox. Or if you have the appropriate Microsoft licenses you could also try a non-standard windows install like Windows 11 N which removes those features. Unfortunately ServerFault isn't going to write your script for you but you could search GitHub or Powershell Gallery to see if someone else has already posted one.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166955/script-to-upgrade-windows-10-to-windows-11
+
+---
+
+#### 790. Which security policy disables "when should Windows require you to sign in again"?
+
+**问题描述 / Problem Description**:
+Tags: group-policy, windows-11 | Score: 1 | Views: 3439 | Answers: 1 | Created: 2024-10-22
+
+**解决方案 / Solution**:
+This is the related policy: Administrative Templates -> System -> Power Management -> Sleep Settings -> Require a password when a computer wakes The corresponding registry value is: HKLM\SOFTWARE\Policies\Microsoft\Power\PowerSettings\0e796bdb-100d-47d6-a2d5-f7d2daa51f51\ACIndex (or DCIndex depending on which one is set)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166912/which-security-policy-disables-when-should-windows-require-you-to-sign-in-again
+
+---
+
+#### 791. Need to set Buffer values on Windows Security Event Log
+
+**问题描述 / Problem Description**:
+Tags: windows, log-files, windows-event-log, eventviewer | Score: 1 | Views: 1681 | Answers: 2 | Created: 2024-10-16
+
+**解决方案 / Solution**:
+It appears as if the correct registry location to adjust these values is HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\Security . There you would add REG_DWORD values for BufferSize (in kb) and MaxBuffers (# of buffers). The default for BufferSize appears to be 64 , and for MaxBuffers 20 . There isn't much information on this available, so I can't guarantee that this works. I've never had to configure this on Windows, and I've been working with it for 25+ years. You'll definitely have to reboot after setting this, I don't think you need to clear the event log or anything like that. Let us know if that helps.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166683/need-to-set-buffer-values-on-windows-security-event-log
+
+---
+
+#### 792. Hello for Business fails to validate KDC certificate. Resolved after reissuing certificate revocation list. Trying to understand why
+
+**问题描述 / Problem Description**:
+Tags: windows, entra-id, ad-certificate-services, active-directory-adcs | Score: 1 | Views: 6711 | Answers: 2 | Created: 2024-10-09
+
+**解决方案 / Solution**:
+The most apparent cause is expired CRL. You have offline root CA (which cannot automatically publish CRLs to distribution points) Things started to work after booting offline CA and publishing CRL This suggests that previous CRL was expired. Expired CRLs render the same error message (revocation is offline). In order to avoid this issue in future, you have to establish offline CA CRL monitoring and alerting, so you get notifications on about to expire CRLs in advance and implement a process that you execute in order to renew CRL in distribution points.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166354/hello-for-business-fails-to-validate-kdc-certificate-resolved-after-reissuing-c
+
+---
+
+#### 793. Windows local non-admin user account password change thru script
+
+**问题描述 / Problem Description**:
+Tags: windows, password, users, accounts | Score: 1 | Views: 528 | Answers: 1 | Created: 2024-10-04
+
+**解决方案 / Solution**:
+You would need to use NetAPI32.NetUserChangePassword from the Win32 API I used to use passwd.exe from 1997, but I'm not sure you can still download it anywhere. It seems I wrote a PowerShell script a while ago that does the same thing. It's on GitHub: https://github.com/hahndorf/hacops/blob/master/Set-Password.ps1 either use: Set-Password.ps1 and fill in the prompts, or Set-Password.ps1 -userName "Peter" -oldPassword "foo" -NewPassword "bar"
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166166/windows-local-non-admin-user-account-password-change-thru-script
+
+---
+
+#### 794. MicroK8s Windows Worker Node - Ingress Returns 504 Gateway Time-out
+
+**问题描述 / Problem Description**:
+Tags: windows, kubernetes | Score: 1 | Views: 137 | Answers: 2 | Created: 2024-09-24
+
+**解决方案 / Solution**:
+Was finally caused by a Windows Bug: https://github.com/microsoft/Windows-Containers/issues/516 .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1165640/microk8s-windows-worker-node-ingress-returns-504-gateway-time-out
+
+---
+
+#### 795. Linux Samba share is logging a lot of failed logins because it's using the VPN creds instead of Active Directory
+
+**问题描述 / Problem Description**:
+Tags: active-directory, samba4, credentials, windows-11 | Score: 1 | Views: 224 | Answers: 1 | Created: 2024-09-06
+
+**解决方案 / Solution**:
+Just as I was finishing up this question, I found the answer here: https://community.spiceworks.com/t/prompted-for-credentials-accessing-mapped-drive-on-vpn/768119/7?u=spiceuser-jx1ik By default, my VPN connection was configured to "UseRasCredentials". This did not affect Windows shares, but did affect my Linux Samba shares, resulting in trying to connect to the Samba share using the VPN credentials. I found two ways to fix this. I could Enable NPS on Windows Server and authenticate with the VPN through it, or modify a character in the settings of the VPN connection file. The latter has lower overhead. The file can be found at: User: %AppData%\Microsoft\Network\Connections\Pbk\rasphone.pbk System: %ProgramData%\Microsoft\Network\Connections\Pbk\rasphone.pbk simply open in notepad and modify UseRasCredentials=1 to 0 I wrote a script to automate this, but you need to edit this file for each user with a VPN connection. This PS script is written to be run in the user context, but request admin creds if not found to access the system path. <# Block the VPN Credentials from being used for network resources i.e. Linux Samba share to keep the server logs clean First checks if the VPN connection settings file is in the user's profile, otherwise checks the system. Then replaces UseRasCredentials=1 with a 0. Requests admin creds if a system file. AUTHOR: TheCodeGeek #> $pbkpath = Join-Path $env:APPDATA 'Microsoft\Network\Connections\Pbk\rasphone.pbk' if ((Test-Path -Path $pbkpath) -ne $true) { $pbkpath = Join-Path $env:PROGRAMDATA "Microsoft\Network\Connections\Pbk\rasphone.pbk" } try { (Get-Content -path $pbkpath -Raw) -Replace 'UseRasCredentials=1','UseRasCredentials=0' | Set-Content -path $pbkpath -ErrorAction Stop } catch { Start-Process Powershell -ArgumentList "-ExecutionPolicy Bypass -NoProfile -File $PSCommandPath" -Verb RunAs }
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164899/linux-samba-share-is-logging-a-lot-of-failed-logins-because-its-using-the-vpn-c
+
+---
+
+#### 796. "inaccessible boot device" on Windows Server 2019 after Windows Update: known fixes?
+
+**问题描述 / Problem Description**:
+Tags: windows, vmware-esxi, windows-server-2019, windows-update, backup-restoration | Score: 1 | Views: 3696 | Answers: 1 | Created: 2024-09-05
+
+**解决方案 / Solution**:
+Expand the disk to 300GB. We had this same issue where the updates couldn't install due to lack of space needed.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164847/inaccessible-boot-device-on-windows-server-2019-after-windows-update-known-fi
+
+---
+
+#### 797. Revert Windows state after GPO application
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, group-policy | Score: 1 | Views: 88 | Answers: 1 | Created: 2024-09-04
+
+**解决方案 / Solution**:
+No. A Group Policy can have many settings that are far beyond the reversible administrative template settings. There isn't a mechanism to reverse or undo these settings, or even know what settings may have been changed.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164790/revert-windows-state-after-gpo-application
+
+---
+
+#### 798. How to install older curl versions on windows with vcpkg
+
+**问题描述 / Problem Description**:
+Tags: windows, openssl, curl | Score: 1 | Views: 371 | Answers: 1 | Created: 2024-08-27
+
+**解决方案 / Solution**:
+Actually it seems if I checkout the right commit from vcpkg then I'll be getting the right ports for the library versions I want. Just gotta make sure to find the commits at which each library version was updated to the version i want. Then get a matching vcpkg commit that will contain those ports or simply get the ports themselves.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164372/how-to-install-older-curl-versions-on-windows-with-vcpkg
+
+---
+
+#### 799. kvm/libvirt Windows 11 guest cannot shutdown after logout
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, libvirt-guests | Score: 1 | Views: 702 | Answers: 1 | Created: 2024-08-11
+
+**解决方案 / Solution**:
+That's because after logging out via RDP, the session is remaining active or holding resources that prevent virsh shutdown from working properly. This is common in virtual environments with remote sessions. Fix: Configure Windows to end disconnected RDP sessions immediately. Go to Local Group Policy Editor (gpedit.msc). Navigate to: Computer Configuration > Administrative Templates > Windows Components > Remote Desktop Services > Remote Desktop Session Host > Session Time Limits. Enable Set time limit for disconnected sessions and set it to 0 minutes. This forces the session to end, allowing virsh shutdown to work as expected. ELSE If the previous fails, you can try by disabling "Sign-in info is used to automatically finish setting up after an update" in Settings > Accounts > Sign-in options. This setting can prevent the shutdown command from working as expected post-logout.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163769/kvm-libvirt-windows-11-guest-cannot-shutdown-after-logout
+
+---
+
+#### 800. Does the Machine GUID change when cloning a VM?
+
+**问题描述 / Problem Description**:
+Tags: windows | Score: 1 | Views: 349 | Answers: 1 | Created: 2024-08-10
+
+**解决方案 / Solution**:
+When cloning a VM, does the registry value change? HKLM\SOFTWARE\Microsoft\Cryptography!MachineGuid No, the value is copied as-is.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163727/does-the-machine-guid-change-when-cloning-a-vm
+
+---
+
+#### 801. Excel Interop automation through IIS
+
+**问题描述 / Problem Description**:
+Tags: windows, iis, .net, windows-server-2022, dcom | Score: 1 | Views: 1718 | Answers: 2 | Created: 2024-08-02
+
+**解决方案 / Solution**:
+I solved this issue with making sure of these things. First in 2025, you probably need to install Office-365, and make sure that it is activated. Next go into dcomcnfg in the run box a) Component Services --> My Computer --> Click on DCOM Config b) Then click on detail view c) {After that you'll want to expand it out a bit. } Look for "Microsoft Excel Application" d) Right-Click on properties Change authentication level to 'NONE' e) go to security screen... f) Click Edit --> Add the [YOUR-MACHINE-NAME]\IIS_IUSRS Be sure you got that right, and that the check-name button works. Click the boxes for all permissions. Make sure 'Customize' is checked g) Access-Permissions --> Do the same instructions and for the 'configuration permissions'. I did, but may not be necessary. Next go to the Identity tab: Switch to 'The interactive user' Ok now the other issue that we both had was '00024500-0000-0000-C000-000000000046'. I couldn't find this in DCOM Config. I'm not sure it was necessary to do this, because I didn't check it first. I solved it backwards. Let me know if the above solves it already. So here's the rest of what I did, but in my case I did this part first: Regedit I Found every instance of 00024500-0000-0000-C000-000000000046 (keys only) Every time, I right-clicked... (Permissions) Added the user [YOUR-MACHINE-NAME]\IIS_IUSRS then gave that user Full-Control. As I said above make sure that when you add the IIS user that the 'check-name' button works, and it finds the user.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163390/excel-interop-automation-through-iis
+
+---
+
+#### 802. Someone on the network is trying to log in to the Windows Server
+
+**问题描述 / Problem Description**:
+Tags: windows, packet-capture | Score: 1 | Views: 194 | Answers: 1 | Created: 2024-08-01
+
+**解决方案 / Solution**:
+Some event logs show the hostname of the user device. Check the event logs for the host or computer name of the local administrator with the event ID 4625 for unknown user name or incorrect password. https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/auditing/event-4625 Once you have the host name, see if you can ping it through the command line. If successful, the command should return the ComputerName IP address. I hope that helps!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163359/someone-on-the-network-is-trying-to-log-in-to-the-windows-server
+
+---
+
+#### 803. Remote desktop licensing mode is not configured
+
+**问题描述 / Problem Description**:
+Tags: windows, rdp, licensing, rds | Score: 1 | Views: 3063 | Answers: 1 | Created: 2024-07-31
+
+**解决方案 / Solution**:
+Use GPEDITS.MSC, and select it there on the two hosts; Computer Configuration > Administrative Templates > Windows Components > Remote Desktop Services > Remote Desktop Session Host > Licensing. Set it to Users mode in your case. NOTE: Running without licence is breaching the agreement with Microsoft.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163317/remote-desktop-licensing-mode-is-not-configured
+
+---
+
+#### 804. How to Secure Database Credentials in a Windows Desktop App Without a Service Layer: Preventing Unauthorized Access to DBMS?
+
+**问题描述 / Problem Description**:
+Tags: windows, security, permissions, database, access-control-list | Score: 1 | Views: 101 | Answers: 1 | Created: 2024-07-19
+
+**解决方案 / Solution**:
+You could use integrated authentication, and make sure all your users are granted permissions on your database, probably via group membership. This would only work in an active directory environment.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162785/how-to-secure-database-credentials-in-a-windows-desktop-app-without-a-service-la
+
+---
+
+#### 805. Unusual printer deployment
+
+**问题描述 / Problem Description**:
+Tags: windows, group-policy, printing, printer | Score: 1 | Views: 248 | Answers: 2 | Created: 2024-07-18
+
+**解决方案 / Solution**:
+It feels as though you're putting in a lot of manual effort when you could be implementing a system that can largely run itself once you've set it up. If you don't have identifiers in the computer names, you can use AD security groups and a GPO. Create an AD Security Group for each location a given user could work in. Create a GPO pushing printer(s) (and not changing the default) for each location. These can all be in a single GPO, with printers deployed using Targeting filtering on the user's Security Group memberships. Assign groups to appropriate users. Profit. Going forward, the helpdesk would handle subsequent requests by simply assigning security groups for the not-yet-assigned locations to users as they report they are missing the printers they need. This makes the system handle itself going forward. Exceptions are handled as exceptions, and most people, most of the time, just find their printers installed on their computers and ready for them to use as soon as they need.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162742/unusual-printer-deployment
+
+---
+
+#### 806. Windows 11 install via SCCM fails with INACCESSIBLE_BOOT_DEVICE on HP 860G10 laptops
+
+**问题描述 / Problem Description**:
+Tags: pxe-boot, sccm, bsod, windows-11 | Score: 1 | Views: 1187 | Answers: 1 | Created: 2024-07-09
+
+**解决方案 / Solution**:
+I've managed to find out what went wrong during the installation via SCCM, so if anyone is ever faced with the same issue, here is what solved it for me. After a lot of trial and error I decided to start again from scratch, by first removing all additional drivers from the task sequence. As soon as I tried to run the task sequence without drivers, the installation succeeded. Prior to this, I had added the entire driver package for the HP 865 G10 laptops, and some additional drivers (for the USB-to-RJ45 dongle and some Intel drivers). I had configured SCCM to find the best matching driver for each device, so it is my guess that the installation process found a driver that was a better match, yet didn't work as expected. As soon as all (additional) drivers were removed from the task sequence, the Windows 11 installation worked again. I'll be adding the HP drivers later on after Windows 11 is installed.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162256/windows-11-install-via-sccm-fails-with-inaccessible-boot-device-on-hp-860g10-lap
+
+---
+
+#### 807. Permissions error in directories used by Docker and application I am developing
+
+**问题描述 / Problem Description**:
+Tags: mysql, docker, powershell, permissions, windows-11 | Score: 1 | Views: 1523 | Answers: 1 | Created: 2024-04-15
+
+**解决方案 / Solution**:
+It looks like you're using Docker Desktop. This runs a VM which in turn hosts your containers. The VM runs Linux. The docker images you load are Linux binaries compiled for Linux and X86_64. However, you hand it a NTFS filesystem! And not only that, there's a translation layer in there, translating from NTFS to something that the Linux VM (WSL2) can understand. WSL2 is not meant for server and multiuser deployments, but development, so some things break. The solution to your problem is to use Docker volumes . They are faster, less fragile, and in addition behave in the way the software you're running expects things to work. Regarding the read only attribute, please read this .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1157961/permissions-error-in-directories-used-by-docker-and-application-i-am-developing
+
+---
+
+#### 808. Using autounattend.xml to automate a Windows installation with Ventoy bootloader
+
+**问题描述 / Problem Description**:
+Tags: sysprep, xml, unattended, boot-loader, windows-11 | Score: 1 | Views: 6364 | Answers: 1 | Created: 2023-05-22
+
+**解决方案 / Solution**:
+Well, I found a solution that works and essentially answered my own question. I took a deeper dive into Ventoy's documentation and found that they have support for unattended installations ( https://www.ventoy.net/en/plugin_autoinstall.html ) As opposed to recreating a new ISO with the unattend file inside, this only involved importing the .xml file into a directory within the USB specified in the ventoy.json config and pairing it to the desired .iso image. Very straightforward and, in all honesty, much easier than the standard method which apparently doesn't work well in tandem with Ventoy.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1131689/using-autounattend-xml-to-automate-a-windows-installation-with-ventoy-bootloader
+
+---
+
+#### 809. Encryption type requested is not supported by the KDC
+
+**问题描述 / Problem Description**:
+Tags: windows, security, authentication, kerberos, windows-11 | Score: 1 | Views: 18511 | Answers: 1 | Created: 2022-12-07
+
+**解决方案 / Solution**:
+The november security updates introduced bugs in kerberos that may be the reason for this behavior. You should install the out-of-band updates on your DCs that are meant to correct those. I had similar RDP problems that were solved by installing the updates. See https://techcommunity.microsoft.com/t5/ask-the-directory-services-team/november-2022-out-of-band-update-released-take-action/ba-p/3680144
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1117506/encryption-type-requested-is-not-supported-by-the-kdc
+
+---
+
+#### 810. Changing owner and managing permissions on an NTFS directory
+
+**问题描述 / Problem Description**:
+Tags: windows, directory, ntfs, icacls | Score: 0 | Views: 257 | Answers: 1 | Created: 2026-02-16
+
+**解决方案 / Solution**:
+Please try takeown (use elevated command prompt) takeown /F "D:\Folder" /R /A /D Y where : /R recurse /A give ownership to admins (if you don't add this it will grant ownership to your current account) /D Y answers yes on popups where you don't have permissions /F is for full control Or use icacls (worse option to my experience, as it does not enforce change of ownership). Also requires command prompt elevation icacls "D:\Folder" /setowner "YourUsername" /T /C /setowner - sets owner /T - basically recurse /C - continue on error You will still need to adjust ACLs afterwards.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1198193/changing-owner-and-managing-permissions-on-an-ntfs-directory
+
+---
+
+#### 811. Copy Scheduled Tasks to another server
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, windows-server-2016 | Score: 0 | Views: 86 | Answers: 1 | Created: 2026-02-03
+
+**解决方案 / Solution**:
+Do not use LLM's for Technical things. They don't know anything; they just try to make text that looks OK. Go over to the fine documentation : This command exports the UpdateDrivers scheduled task in the \UpdateTasks\ folder into an XML string. The command lists the XML string as its output. It doesn't have a parameter -OutputFile , and this is what the error message says as well. The Export-ScheduledTask cmdlet outputs XML as a string. And yes, Microsoft' documentation of Powershell is excellent , far beyond what any other operating system can show for itself.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1198036/copy-scheduled-tasks-to-another-server
+
+---
+
+#### 812. Unable to connect to C socket server via public IP on Windows (Tenda D301 router, PPPoE)
+
+**问题描述 / Problem Description**:
+Tags: windows, firewall, nat, packet-capture, pppoe | Score: 0 | Views: 127 | Answers: 1 | Created: 2026-01-23
+
+**解决方案 / Solution**:
+I want to say that There is something you want to know as NAT Network Address Translation. Specifically NAT-One-to-Many Translation where many private IP Addresses are mapped to a single public IP Address, almost all ISP and even many service providers like hosting providers for websites do this. They have the networking using DNS to route the packet for a particular Domain Address which is sharing the IP Address within their network. My Company and bigger corporate clients have few Public IPv4 Addresses for our Systems, we pay for it in Thousands of US Dollars Yearly contracts. The works Systems Stuff, Websites, Apps (Mobile Apps too) with more than thousands of users all are linked to those IP Addresses like existential for those corporate so they keep paying. You should be using Dynamic DNS from companies like noip which you would be updating with their Dynamic Update Client or there are options within the router itself for Dynamic DNS (bear with me i am calling this from Memory the last times i really was living in those stuffs are in 2012 to 2016). Like your User account will link the DNS of the website to your Public IP and from there the routing of network will take care to make your router receive the packets. Also there are other Dynamic DNS Options which are available if your website is hosted on a server which has a cPanel Dynamic DNS I am just 30 yrs old but have been working from my late teens onward and tinkering since earlier, from what I have seen in my about 14 yrs of working is ISPs have made it harder and harder for you to be able to network back into your devices. If your not having this as a production server or always on type of thing then the best option on windows will be to use some sort of Microsoft Dev Tunnel thingy it will allow you to open ports and bypass all this Port Forwarding, Routing and Dynamic DNS Setup that is needed to connect on specific ports for you to test a system druing development scenario. Personally haven't used Dev tunnels much, also its free of cost as its more for development testing purposes. I believe Cloudflare is also having something similar. Do Check them out as well. Good luck on your networking endeavours. P.S.: If you want to know how easy it was back in the days Chris Jean Accessing Network via Dynamic DNS when all we needed was a DynDNS and router many of them even used to offer very cheaply like we could get 30 Dynamic DNS Hostnames for a high-priced Spanish Latte here in the Middle East.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1197891/unable-to-connect-to-c-socket-server-via-public-ip-on-windows-tenda-d301-router
+
+---
+
+#### 813. Zebra GK420d shared on the network. Printing ZPL files. Works proper on clients. Prints wonky on host itself
+
+**问题描述 / Problem Description**:
+Tags: windows, shared-printers | Score: 0 | Views: 156 | Answers: 1 | Created: 2025-12-09
+
+**解决方案 / Solution**:
+You need to add two printers on the host. The existing printer, using the Generic Text printer driver, shared for remote endpoints to print. And a second printer, using the Windows printer driver, for the host to print. https://www.zebra.com/us/en/support-downloads/printers/desktop/gk420d.html?downloadId=ebcda1a6-5360-4a59-90e9-9e85c2c95ff1#drivers
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1196235/zebra-gk420d-shared-on-the-network-printing-zpl-files-works-proper-on-clients
+
+---
+
+#### 814. Insufficient memory copying large files with Robocopy
+
+**问题描述 / Problem Description**:
+Tags: windows, memory-usage, robocopy, perfmon | Score: 0 | Views: 551 | Answers: 2 | Created: 2025-11-26
+
+**解决方案 / Solution**:
+"Robocopy uses the /J switch to enable unbuffered I/O mode, which is a specialized buffer mode recommended for copying large files. By default, Robocopy (and most Windows copy operations) uses buffered I/O." https://superuser.com/questions/1114311/are-there-any-pros-cons-to-the-j-robocopy-option-unbuffered-copying As a workaround, utilities such as 7-zip may be used to compress and split a file before copying, and the reverse performed on the destination.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1196084/insufficient-memory-copying-large-files-with-robocopy
+
+---
+
+#### 815. Poor Windows device performance across the organisation
+
+**问题描述 / Problem Description**:
+Tags: windows, microsoft-office-365, performance-monitoring, performance-tuning, laptop | Score: 0 | Views: 306 | Answers: 2 | Created: 2025-11-12
+
+**解决方案 / Solution**:
+To answer your particular questions and focus on what you asked rather than your symptoms: In 2025 is 16 GB RAM enough for a Windows environment running Outlook, Teams, Word, Chrome, Excel etc) A1. Yes, this is acceptable and fine, assuming your "etc" isn't a bunch of high memory intensive apps. For a typical generic "technology worker", a laptop with 16GB RAM should be sufficient in most workplaces. But subjective questions will get subjective answers. What tools can we use to quickly discover differences in the high and low performing devices including configuration, installed applications, application usage and high resource consumption processes A2. One thing to note up front is that "high memory utilization" isn't exactly a bad thing...you want the laptops to perform using the resources at its disposal. But to answer your question as phrased, again subjectively as tool recommendations are typically off-topic here...MS tools like Perfmon, Reliability Monitor, and Process Explorer can help. In general your questions as posed won't lead to black and white on-topic answers here. If you run tools like the above, gather the analysis data, and post those here as part of your question, that could lead to better answers.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1195885/poor-windows-device-performance-across-the-organisation
+
+---
+
+#### 816. How to clone Windows Dynamic Volumes for use in a VM?
+
+**问题描述 / Problem Description**:
+Tags: windows, virtualization, cloning, qcow2, vhdx | Score: 0 | Views: 110 | Answers: 1 | Created: 2025-11-05
+
+**解决方案 / Solution**:
+Resolution is multi-step: Open Windows Disk Management tool, from dropdown use "Actions -> Create VHD". You should create the image on a drive that you will not be imaging. Initialize the new disk and format the partition (probably with NTFS). You don't have to assign drive letter. Install disk cloning software - for me, Disk Genius worked fine, but there are others for sure. Use the software to clone the partition you need to the VHDX one. Transfer the resulting image to your VM software (in my case, Proxmox). Convert VHDX to qcow2 (e.g. qemu-img convert -m 3 -C -p -f vhdx -O qcow2 <src> <dst> ) Attach the disk to your VM in Proxmox (e.g. by editing /etc/pve/qemu/.conf). If you cloned system drive, attach ISO with Windows installer and boot from it, then fix whatever boot issues you may have (outside of scope of this advice). Hope that helps someone.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1195765/how-to-clone-windows-dynamic-volumes-for-use-in-a-vm
+
+---
+
+#### 817. BitLocker encrypted removable USB storage is write-protected
+
+**问题描述 / Problem Description**:
+Tags: group-policy, windows-server-2019, encryption, bitlocker, windows-11 | Score: 0 | Views: 978 | Answers: 1 | Created: 2025-10-29
+
+**解决方案 / Solution**:
+After a lot of messing with things I found the issue. When inputting the USB on my machine it did not display a red message. I took it out, restarted and put it back in and found the following message. "Group policy requires that for this drive to be writable, either auto-unlock must be set or a smart card must be used. A password alone is not sufficient." After putting in the password and clicking " More Options: Automatically unlock on this PC" I am able to write to the drive again! Also need to include the registry key: HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Policies\Microsoft\FVE\RDVDenyCrossOrg (DWORD: 0) Though in the GPO the setting Computer Configurations > Administrative Templates > Windows Components > Removable Data Drives Do not allow write access to devices configured in another organization is set it does not drop the registry key into the registry to make this work when it is set to Disabled.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1195658/bitlocker-encrypted-removable-usb-storage-is-write-protected
+
+---
+
+#### 818. Connection refused from Windows Docker container with process isolation on Windows Server 2025
+
+**问题描述 / Problem Description**:
+Tags: windows, networking, docker, containers | Score: 0 | Views: 171 | Answers: 1 | Created: 2025-10-29
+
+**解决方案 / Solution**:
+In the end it was an antivirus interference.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1195647/connection-refused-from-windows-docker-container-with-process-isolation-on-windo
+
+---
+
+#### 819. Ubuntu 25.04 as host and Windows 10 as guest on VirtualBox
+
+**问题描述 / Problem Description**:
+Tags: windows, ubuntu, virtualbox | Score: 0 | Views: 194 | Answers: 1 | Created: 2025-10-01
+
+**解决方案 / Solution**:
+After running sudo modprobe -r kvm_amd kvm I could launch VirtualBox and start the Windows guest.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1193137/ubuntu-25-04-as-host-and-windows-10-as-guest-on-virtualbox
+
+---
+
+#### 820. Kerberos single sign on authentication across external trust
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, migration, kerberos | Score: 0 | Views: 417 | Answers: 1 | Created: 2025-08-15
+
+**解决方案 / Solution**:
+Please chk https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/kfso-not-work-in-external-trust-event-is-17 "To use a Kerberos trust between forests, create a forest trust instead." You should have forest trust between root domains of different forests to use Kerberos authentication. This will correctly route Kerberos requests and SPN resolution requests to the correct forest domain controller. The SPN resolution requests should include FQDNs of the host that offers the desired service if KFSO is not configured.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1190574/kerberos-single-sign-on-authentication-across-external-trust
+
+---
+
+#### 821. Intel Xeon E5 v3 chipset drivers for Windows PC
+
+**问题描述 / Problem Description**:
+Tags: windows, drivers, intel, windows-11 | Score: 0 | Views: 497 | Answers: 1 | Created: 2025-08-12
+
+**解决方案 / Solution**:
+I was able to fix it with the same instructions from Scott Hanselman: WIN11 - Windows Update > Advanced Options > Optional Updates WIN10 - Windows Update > Optional Updates Reference: https://www.hanselman.com/blog/how-to-fix-base-system-device-driver-issue-in-windows-10-and-windows-11
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1190459/intel-xeon-e5-v3-chipset-drivers-for-windows-pc
+
+---
+
+#### 822. IIS unable to read web.config despite ASP.NET Hosting installed
+
+**问题描述 / Problem Description**:
+Tags: windows, iis, asp.net-mvc | Score: 0 | Views: 350 | Answers: 1 | Created: 2025-08-01
+
+**解决方案 / Solution**:
+Win32 error 0x80070003 means: ERROR_PATH_NOT_FOUND , so ASP.NET Core module might not have been installed properly. You might want to reinstall .NET hosting bundle and see if that helps, or use Jexus Manager to analyze further.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1189995/iis-unable-to-read-web-config-despite-asp-net-hosting-installed
+
+---
+
+#### 823. How to host the same folder in IIS using two different PHP versions?
+
+**问题描述 / Problem Description**:
+Tags: windows, php, iis, fastcgi | Score: 0 | Views: 158 | Answers: 1 | Created: 2025-07-22
+
+**解决方案 / Solution**:
+"How to host the same folder in IIS using two different PHP versions?" IIS shows "Virtual folders" or "Applications". when you say "Same folder" I think you do mean same folder in Windows, but different Application under IIS. I created a second handler that looks like this under "Handler Mappings", just for the second application: Do note that from the webroot, and below the php81 is available, and the `PHP8.4``, which has an "Entry type" of "Local", is only available in the application where it is defined (which is not the "Default website" The Module Mapping of PHP8.4 look like this: P.S. "PHP8.4" and "php81" are just local names which do not (necessarily) refer to any specific PHP version.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1189417/how-to-host-the-same-folder-in-iis-using-two-different-php-versions
+
+---
+
+#### 824. How can I limit the number of accepted sessions on a specific port in Windows server?
+
+**问题描述 / Problem Description**:
+Tags: windows, tcp | Score: 0 | Views: 173 | Answers: 1 | Created: 2025-07-03
+
+**解决方案 / Solution**:
+Quality of service parameters can be set at port level such as below cmdlet New-NetQosPolicy -Name "HTTP" -IPPort 80 -IPProtocol TCP -ThrottleRateActionBitsPerSecond 10MB Name : HTTP Owner : Group Policy (Machine) NetworkProfile : All Precedence : 127 IPProtocol : TCP IPPort : 80 ThrottleRate : 10.486 MBits/sec (Ref: Example taken from Microsoft Learn) You can define related actions in the same cmdlet. Using the TcpNumConnections registry seting,max no.of TCP connections may be limited as a whole on the OS level.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1188210/how-can-i-limit-the-number-of-accepted-sessions-on-a-specific-port-in-windows-se
+
+---
+
+#### 825. Migrate Windows File server keeping NTFS and share permissions (not robocopy or xcopy)
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, permissions, file-server | Score: 0 | Views: 729 | Answers: 4 | Created: 2025-07-03
+
+**解决方案 / Solution**:
+No ideas which script it was, but nowadays Windows 2025 has nice Windows Storage Migration service which does all you require with a GUI and just a few buttons click
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1188205/migrate-windows-file-server-keeping-ntfs-and-share-permissions-not-robocopy-or
+
+---
+
+#### 826. Bginfo with active directory attributes
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, group-policy, workgroup | Score: 0 | Views: 173 | Answers: 1 | Created: 2025-06-14
+
+**解决方案 / Solution**:
+Not natively -- in that BGinfo will not call AD to get this information for you. And this information is not normally available or retrieved during a normal user logon. But, you could use a logon script at user login that retrieves and periodically updates some custom user environment variables. Adding custom environment variables to the information that bginfo displays is relatively trivial.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1185973/bginfo-with-active-directory-attributes
+
+---
+
+#### 827. Convert Windows ETL file to text logs
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell | Score: 0 | Views: 727 | Answers: 1 | Created: 2025-05-28
+
+**解决方案 / Solution**:
+The missing text in the event files does not come from symbol files, but from resource strings in the program / DLL that generated the events. It does, in fact, matter that the ETL file was produced on another PC; the log extraction tools are looking for the DLL that created the events, not finding it, and returning a "no string" response. You might have better luck if the computer you were trying this on had the Microsoft Windows Bluetooth package and the same set of providers installed; then, the DLLs would be readable and the messages would be available.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1184772/convert-windows-etl-file-to-text-logs
+
+---
+
+#### 828. Why doesn't a plain DNSClientNrpt configuration for DNS Split-Brain work?
+
+**问题描述 / Problem Description**:
+Tags: windows, split-dns | Score: 0 | Views: 286 | Answers: 1 | Created: 2025-05-27
+
+**解决方案 / Solution**:
+As far as I can tell, DNS NRPT (Name Resolution Policy Tables) does not work out of the box. It was primarily created for use with Direct Access or IPSec VPN Tunnels. But the NRPT configuration doesn't "require" VPN. I.e. NRPT rules can be created, but the DNS Client only triggers NRPT if it's used with an IPSec Policy.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1184599/why-doesnt-a-plain-dnsclientnrpt-configuration-for-dns-split-brain-work
+
+---
+
+#### 829. How do I save credentials for a server with a backslash (\) in Windows Credential Manager?
+
+**问题描述 / Problem Description**:
+Tags: windows, sql-server, login, credentials | Score: 0 | Views: 178 | Answers: 1 | Created: 2025-05-23
+
+**解决方案 / Solution**:
+Try without it just <server>:<port> because a named instance maps to one port anyway. Kindly report back if it works!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1184275/how-do-i-save-credentials-for-a-server-with-a-backslash-in-windows-credentia
+
+---
+
+#### 830. How to audit network file share permission changes?
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, network-share | Score: 0 | Views: 178 | Answers: 1 | Created: 2025-05-20
+
+**解决方案 / Solution**:
+The host where the share is located can have file share auditing enabled using the following: auditpol /set /subcategory:"Detailed File Share" /success:enable /failure:enable Note that auditing is usually specified in the Default Domain Policy. If so, it should be changed there or it may be reset when policy applies. https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol-set Current policy settings can be viewed with: auditpol.exe /get /category:*
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1181993/how-to-audit-network-file-share-permission-changes
+
+---
+
+#### 831. Copy Windows certificates between stores
+
+**问题描述 / Problem Description**:
+Tags: windows, certificate, winrm | Score: 0 | Views: 212 | Answers: 1 | Created: 2025-05-16
+
+**解决方案 / Solution**:
+Export-PfxCertificate (as indicated by @dave_thompson_085 in the comments). But you are correct, it will not be able to export key unless "Mark this key as exportable" was selected while importing the certificate you are trying to export, as can be seen from the following screenshot:
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1181453/copy-windows-certificates-between-stores
+
+---
+
+#### 832. Is it possible to disallow all interactive PowerShell usage, but still allow script execution?
+
+**问题描述 / Problem Description**:
+Tags: windows, security, powershell | Score: 0 | Views: 495 | Answers: 1 | Created: 2025-05-15
+
+**解决方案 / Solution**:
+There's no way to allow logon scripts (runnnig as user) and at the same time block interactive usage of powershell. There are some tricks I can think of to achieve almost the same: you could use scripts that get triggered by user logon but run as system account and execute certain things based on which user logged on (i.e. write to that very users profile folder or HKU registry branch) or install a scheduled task that will get triggered whenever powershell.exe is started (audit file access using ntfs auditing then trigger the task from the event that ntfs auditing generates) and simply kill any window with powershell as part of its window title. TASKKILL /FI "windowtitle eq windows powershell" and TASKKILL /FI "windowtitle eq c:\windows\system32\cmd.exe - powershell". I hope that when logon scripts run (which run windowless, by default), no windowtitle will be accessible so they won't get killed, too.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1181401/is-it-possible-to-disallow-all-interactive-powershell-usage-but-still-allow-scr
+
+---
+
+#### 833. Windows RDP client pulling credentials from mystery location
+
+**问题描述 / Problem Description**:
+Tags: windows, remote-desktop, rdp, login | Score: 0 | Views: 935 | Answers: 1 | Created: 2025-04-30
+
+**解决方案 / Solution**:
+Normally the one that shows up initially is in the hidden default.rdp file in the users' Documents folder. Every RDP server you've ever touched, along with the username you last used to connect to it, is stored in the registry at HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Servers , so of course it's good to have dumped that. It would appear you've simply missed the Most Recently Used list. The last 10 you've visited are also stored, although without the UsernameHint which gives the last username, at HKCU\Software\Microsoft\Terminal Server Client\Default , values MRU0 - MRU9 .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1180328/windows-rdp-client-pulling-credentials-from-mystery-location
+
+---
+
+#### 834. How to kill process based on arguments used to initiallize it on Windows
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-command-prompt, windows-batch | Score: 0 | Views: 210 | Answers: 1 | Created: 2025-04-26
+
+**解决方案 / Solution**:
+You can query WMI in Powershell to find the process ID: Get-CimInstance Win32_Process -Filter "commandline LIKE '%perfil-chrome-automatizacao%'" | Select ProcessId, CommandLine | format-list and then kill that.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1180037/how-to-kill-process-based-on-arguments-used-to-initiallize-it-on-windows
+
+---
+
+#### 835. Running diskpart on startup using GPO startup script throws COM service error on Windows Server 2025
+
+**问题描述 / Problem Description**:
+Tags: windows | Score: 0 | Views: 96 | Answers: 1 | Created: 2025-04-26
+
+**解决方案 / Solution**:
+I have achieved my approach to expand the system volume (drive C:) using diskpart to the available disk space on server startup by creating a scheduled task that runs 1 minute after startup, under "nt authority\system" so the task doesn't require login credential of any account. Also, I have created the task with "Run with highest privilege" option checked.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1180021/running-diskpart-on-startup-using-gpo-startup-script-throws-com-service-error-on
+
+---
+
+#### 836. Runtime Error SWbem Object Set: invalid Class
+
+**问题描述 / Problem Description**:
+Tags: windows, installation, uninstall | Score: 0 | Views: 299 | Answers: 1 | Created: 2025-04-23
+
+**解决方案 / Solution**:
+Okay I've figured it out: I simply had to convert the command to a powershell syntax: cd C:\Windows\System32\wbem for /f %s in ('dir /b *.mof') do mofcomp %s
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1179686/runtime-error-swbem-object-set-invalid-class
+
+---
+
+#### 837. GPO network security: Restrict NTLM: Add server exceptions in this domain - not having any effect
+
+**问题描述 / Problem Description**:
+Tags: windows, synology, ntlm | Score: 0 | Views: 1041 | Answers: 1 | Created: 2025-04-22
+
+**解决方案 / Solution**:
+There are two exception policy settings, Network security: Restrict NTLM: Add server exceptions in this domain you mentioned in your question, and Network security: Restrict NTLM: Add remote server exceptions for NTLM authentication . The former applies to the domain controllers. With NTLM blocking enabled, the DCs will block all NTLM authentications attempted by clients using domain accounts, if the target server is not on this list. The latter applies to the clients. With NTLM blocking enabled, the clients will refuse NTLM authentications using any account, if the target server is not on the list. Observing that your NAS is a Synology, it is possible that the NAS is not domain-joined, or that you are using NAS local accounts instead of domain accounts. If so, the authentication is handled by the NAS itself instead of the DC, so the former setting does not apply. Try the latter to see if it works (don't forget to gpupdate on the client). Or if possible, domain-join your NAS and use domain accounts so you can authenticate with the Kerberos protocol instead.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1179608/gpo-network-security-restrict-ntlm-add-server-exceptions-in-this-domain-not
+
+---
+
+#### 838. Generate Wildcard cert using Windows CA
+
+**问题描述 / Problem Description**:
+Tags: windows, certificate-authority, ad-certificate-services | Score: 0 | Views: 1884 | Answers: 1 | Created: 2025-04-21
+
+**解决方案 / Solution**:
+There is nothing wrong with the certificate, but the browser does not allow wildcard certificates for top-level domains nor public/ICANN registry controlled domains. For Chromium, the current approach was added in d5dd7dd7 on May 17, 2013: // Do not allow wildcards for public/ICANN registry controlled domains - // that is, prevent *.com or *.co.uk as valid presented names, but do not // prevent *.appspot.com (a private registry controlled domain). // In addition, unknown top-level domains (such as 'intranet' domains or // new TLDs/gTLDs not yet added to the registry controlled domain dataset) // are also implicitly prevented. Even before that, too broad wildcard certificates were blocked by requiring at least two dots in the FQDN, but that did not work well for, e.g., *.co.uk . // We required at least 3 components (i.e. 2 dots) as a basic protection // against too-broad wild-carding. // Also we don't attempt wildcard matching on a purely numerical hostname. allow_wildcards = reference_domain.rfind('.') != 0 &&
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1179553/generate-wildcard-cert-using-windows-ca
+
+---
+
+#### 839. Can't save modifed file on network mapped folder, receiving "File being used by another process"
+
+**问题描述 / Problem Description**:
+Tags: windows, network-share, drive | Score: 0 | Views: 76 | Answers: 1 | Created: 2025-04-20
+
+**解决方案 / Solution**:
+After hours of testing it happened to be the Windows file explorer preview panel, when you click a text file, it shows its content on side resulting in a "process accessing your file" avoiding any update. This behaviour only happens with text or html files which content was showed in the preview panel, this does not happens with files in the local computer.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1179524/cant-save-modifed-file-on-network-mapped-folder-receiving-file-being-used-by
+
+---
+
+#### 840. A Windows 10 PC which is in the US seems to think it is in China, despite correct region setting
+
+**问题描述 / Problem Description**:
+Tags: windows, vpn | Score: 0 | Views: 195 | Answers: 1 | Created: 2025-04-15
+
+**解决方案 / Solution**:
+You can use sites such as https://www.whatismyip.com or https://whatismyipaddress.com to check your public-facing IP address (to be sure you are not unknowingly using any VPN). If your IP address appears to actually be in the US, then check out your browser's preferred languages; a web browser can be configured to prefer a given language if available, regardless of the system regional settings.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1179189/a-windows-10-pc-which-is-in-the-us-seems-to-think-it-is-in-china-despite-correc
+
+---
+
+#### 841. How can clients connect to an SMB shared printer UNC with Powershell?
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, shared-printers | Score: 0 | Views: 365 | Answers: 1 | Created: 2025-04-14
+
+**解决方案 / Solution**:
+For the Add-Printer command to work it first needs credentials. Currently the only Powershell command that accepts and stores credentials is New-PSDrive . In this case on this particular server there is no PSProvider Filesystem for this user. So New-PSDrive will not be possible. The only way to get this working is with net use \\server\ /SAVECRED first. This will store the credentials in the credential manager and after that the Add-Printer command will work.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1179078/how-can-clients-connect-to-an-smb-shared-printer-unc-with-powershell
+
+---
+
+#### 842. GPO to run User Logon script only on Windows 11 Machines
+
+**问题描述 / Problem Description**:
+Tags: windows-server-2012-r2, group-policy, windows-11 | Score: 0 | Views: 444 | Answers: 1 | Created: 2025-03-28
+
+**解决方案 / Solution**:
+The WMI filter should look like that: select * from Win32_OperatingSystem where Caption like "%Windows 11%" and ProductType="1"
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1177873/gpo-to-run-user-logon-script-only-on-windows-11-machines
+
+---
+
+#### 843. Setting "boot from network first" in Windows 10/11 on UEFI machines
+
+**问题描述 / Problem Description**:
+Tags: windows, pxe-boot, uefi | Score: 0 | Views: 250 | Answers: 1 | Created: 2025-03-26
+
+**解决方案 / Solution**:
+OK, I figured it out: bcdedit /enum firmware will print the description and id for all UEFI boot manager entries. With the help of this: https://stackoverflow.com/questions/78076491/create-an-array-from-bcdedit-firmware-output I was able to create a script setting the first preferred boot entry according to string matches on its description, like so (PowerShell): function FWList { $FWStore = bcdedit /enum firmware $FWOS = ($FWStore | select-string Bezeichner,device,path,description) -notmatch '{fwbootmgr}' for ( $n=0; $n -lt $FWOS.count; $n++ ) { if ( $FWOS[$n] -match 'Bezeichner' ) { if ( $FWOS[$($n + 1 )] -match 'device' ) { [PsCustomObject]@{ des = $FWOS[$($n + 3)].line.TrimStart('description').Trim() id = $FWOS[$n].line.Split()[-1] path = $FWOS[$($n + 2)].line.Split()[-1] dev = $FWOS[$($n + 1)].line.Split()[-1] } } else { [PsCustomObject]@{ des = $FWOS[$($n + 1)].line.TrimStart('description').Trim() id = $FWOS[$n].line.Split()[-1] } } } } } (FWList) | ForEach-Object { # Fujitsu D3220-B1 if ($_.des.StartsWith("UEFI: IP4")) { bcdedit /set '{fwbootmgr}' displayorder $_.id /addfirst break } # Lenovo P16v Gen1 21FC if ($_.des -eq "PXE BOOT") { bcdedit /set '{fwbootmgr}' displayorder $_.id /addfirst break } # QEmu VM if ($_.des.StartsWith("UEFI PXEv4")) { bcdedit /set '{fwbootmgr}' displayorder $_.id /addfirst break } } Caution: The Bezeichner is localized in bcdedit 's output, for English it would be identifier . Other languages, you will have to figure it out.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1177736/setting-boot-from-network-first-in-windows-10-11-on-uefi-machines
+
+---
+
+#### 844. After a database restore, SQL server 2022 instance refuses to accept commands from sqlcmd
+
+**问题描述 / Problem Description**:
+Tags: windows, sql-server, sql | Score: 0 | Views: 285 | Answers: 1 | Created: 2025-03-21
+
+**解决方案 / Solution**:
+I managed to fix this by manually enabling the SQL Server Browser service.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1176389/after-a-database-restore-sql-server-2022-instance-refuses-to-accept-commands-fr
+
+---
+
+#### 845. Task scheduler did not launch because user X was not logged on
+
+**问题描述 / Problem Description**:
+Tags: windows, scheduled-task | Score: 0 | Views: 650 | Answers: 1 | Created: 2025-03-17
+
+**解决方案 / Solution**:
+Try by changing this option, so it can be run weather user is logged on or not: Note: Don't for got to change scheduler's trigger time to future time if you imported scheduler or make any changes as else it will not execute if contains past time.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1175362/task-scheduler-did-not-launch-because-user-x-was-not-logged-on
+
+---
+
+#### 846. Windows 11 pro Group permission level changes
+
+**问题描述 / Problem Description**:
+Tags: permissions, groups, windows-11 | Score: 0 | Views: 491 | Answers: 1 | Created: 2025-03-14
+
+**解决方案 / Solution**:
+If you want to change or remove a Windows Privilege / Right, that is done using the Local Policy Editor, gpedit.msc. Navigate to: Computer Configuration\Windows Settings\Security Settings\Local Policies\User Rights Assignment Identify privileges that have Power Users assigned, and remove Power Users from the assignment. https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/user-rights-assignment To verify the enabled privileges / rights, use the command: whoami /priv . Other objects, such as files, folders, and registry keys, may have permissions assigned to Power Users. In that scenario, you need to edit the permissions using the graphical interface or a command line or PowerShell command. Note that the Power Users group was provided for backwards compatibility 20 years ago, and not intended to be used in this way due to the objects that have granted permission to that group are poorly documented, and it's a better approach to create and use your own group and start with the principle of least privilege.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1175099/windows-11-pro-group-permission-level-changes
+
+---
+
+#### 847. Script to update applications through WinGet is not running through GPO
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, group-policy, update | Score: 0 | Views: 575 | Answers: 1 | Created: 2025-03-05
+
+**解决方案 / Solution**:
+It turns out the issue was not with the Group Policy, but with the script. There were two issues: WinGet commands are not available in the System context: https://github.com/microsoft/winget-cli/issues/3049 The Powershell WinGet Client Module must be run in Powershell 7, and Startup scripts are run in Powershell 5.1 by default: https://github.com/microsoft/winget-cli/issues/4820 I fixed this by creating a helper script to download Powershell 7 and then launch the first script using it: # Check if Powershell version 7 exists $powershellSevenPath = "C:\Program Files\PowerShell\7\pwsh.exe" $powershellSeven = Test-Path -Path $powershellSevenPath if (!$powershellSeven) { # If it doesn't exist, install it. msiexec.exe /package PowerShell-7.5.0-win-x64.msi /quiet ADD_EXPLORER_CONTEXT_MENU_OPENPOWERSHELL=1 ADD_FILE_CONTEXT_MENU_RUNPOWERSHELL=1 ENABLE_PSREMOTING=1 REGISTER_MANIFEST=1 USE_MU=1 ENABLE_MU=1 ADD_PATH=1 } # Run script with Powershell 7. Start-Process -FilePath $powershellSevenPath -Verb RunAs -ArgumentList ".\Update-WinGet-Applications.ps1" I also had to change all WinGet commands in the original script to use the WinGet Client Module: <# .SYNOPSIS Installs the Powershell WinGet client module. .DESCRIPTION Checks to see if the Powershell WinGet client module is installed. If it isn't, attempts to install it. If the install fails, exits the program. .NOTES The module can be found here: https://www.powershellgallery.com/packages/Microsoft.WinGet.Client/1.10.320. #> function Install-WinGetClientModule { # Check if official Powershell WinGet client is installed. if (Get-Module -ListAvailable -Name Microsoft.WinGet.Client) { Write-Host "Powershell Module for the Windows Package Manager Client is installed." } else { # Install NuGet package provider, which is a requirement to install the module. Write-Host "Installing NuGet..." Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force # Check if NuGet installed successfully. if ($?) { Write-Host "Successfully installed." -ForegroundColor Green } else { # If install could not be completed, exit script. Write-Host "Could not install NuGet." -ForegroundColor Red exit } # Set PSGallery as a trusted repository to install from. Set-PSRepository -Name "PSGallery" -InstallationPolicy Trusted # Install the module. Write-Host "Installing the Powershell Module for the Windows Package Manager Client..." Install-Module -Name Microsoft.WinGet.Client # Check if the module installed successfully. if ($?) { Write-Host "Successfully installed." -ForegroundColor Green } else { # If install could not be completed, exit script. Write-Host "Could not install the Powershell Module for the Windows Package Manager Client." -ForegroundColor Red exit } } } <# .SYNOPSIS Get WinGet applications that require updates. #> function Get-ApplicationsWithUpdates { # Store the applications with updates available through WinGet $applicationsWithUpdates = Get-WinGetPackage | Where-Object IsUpdateAvailable return $applicationsWithUpdates } <# .SYNOPSIS Update applications though WinGet. #> function Update-Applications { param ( [Parameter(Mandatory = $true)] [Array]$applicationsToUpdate ) # Update each application provided. foreach ($app in $applicationsToUpdate) { $appName = $app.Name $appId = $app.Id Write-Host "Updating $appName..." # Update the application Update-WinGetPackage -Id $appId -Scope Any -Mode Silent -Force # Check if the application was successfully updated. if ($?) { Write-Host "$appName updated to the latest version." -ForegroundColor Green } else { # If the update failed, attempt to reinstall. Write-Host "Failed to update $appName. Attempting to reinstall..." Uninstall-WinGetPackage -Id $appId -Scope Any -Mode Silent -Force Install-WinGetPackage -Id $appId -Scope Any -Mode Silent -Force # Check if the application reinstalled successfully. if ($?) { Write-Host "$appName updated to the latest version." -ForegroundColor Green } else { Write-Host "Failed to update $appName." -ForegroundColor Red } } } } function Main { # Start logging. $logDate = Get-Date -Format FileDateTime Start-Transcript -Path C:\Users\$env:USERNAME\Documents\Update-WinGetApplicationsLogs\log-$logDate.txt # Get Powershell WinGet client. Install-WinGetClientModule # Check for application updates through WinGet. $applicationsToUpdate = Get-ApplicationsWithUpdates Write-Host $applicationsToUpdate # Check that the number of applications to update isn't 0. if ($applicationsToUpdate.Count -gt 0) { # Update applications. Update-Applications -ApplicationsToUpdate $applicationsToUpdate } else { Write-Host "All applications are up to date." } # Stop logging. Stop-Transcript } # Run the script. Main
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1174342/script-to-update-applications-through-winget-is-not-running-through-gpo
+
+---
+
+#### 848. How to Monitor Log File Creation on a Windows VM in Real-Time
+
+**问题描述 / Problem Description**:
+Tags: windows, logging, virtual-machines, grafana, visualization | Score: 0 | Views: 166 | Answers: 1 | Created: 2025-03-04
+
+**解决方案 / Solution**:
+A powershell script using .NET's file system watcher can do that. I agree centralized logging is a better option, but I also assume you may have your reasons... In each of these events (the ones you choose to subscribe to like change/create) you can have it fire other tasks such as send an email, or anything really. Tis script is designed to test and let you see how it works, obviously you can rework it to whatever works best for your use case. $pathToWatch = "C:\temp" # Change to your target directory $filter = "*" # Monitor all files # Create the FileSystemWatcher object $watcher = New-Object System.IO.FileSystemWatcher $watcher.Path = $pathToWatch $watcher.Filter = $filter $watcher.IncludeSubdirectories = $true $watcher.EnableRaisingEvents = $true # Define event handlers Register-ObjectEvent $watcher "Changed" -Action { Write-Host "File Changed: $($EventArgs.FullPath)" } Register-ObjectEvent $watcher "Created" -Action { Write-Host "File Created: $($EventArgs.FullPath)" } Register-ObjectEvent $watcher "Deleted" -Action { Write-Host "File Deleted: $($EventArgs.FullPath)" } Register-ObjectEvent $watcher "Renamed" -Action { Write-Host "File Renamed: $($EventArgs.OldFullPath) -> $($EventArgs.FullPath)" } Write-Host "Watching for changes in $pathToWatch. Press Ctrl+C to stop." # Infinite loop to keep processing events while ($true) { Start-Sleep -Seconds 1 }
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1174245/how-to-monitor-log-file-creation-on-a-windows-vm-in-real-time
+
+---
+
+#### 849. RDP works upon reboot, then stops working after an hour or so, then will start working again
+
+**问题描述 / Problem Description**:
+Tags: windows, remote-desktop, kerberos, windows-server-2019 | Score: 0 | Views: 1331 | Answers: 1 | Created: 2025-02-27
+
+**解决方案 / Solution**:
+Turns out the answer was closer to #3 in my post. It was a Kerberos issue caused by a script we had running that would roll the password hash (by setting the account to NOT require SmartCard Logon, then setting it to be required) of the krbtgt account EVERY HOUR. Not only did we stop the script from running every hour, we also excluded that account from the script. We had this going because we had a pentesting team that would use password hashes to gain access to our domain.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1173786/rdp-works-upon-reboot-then-stops-working-after-an-hour-or-so-then-will-start-w
+
+---
+
+#### 850. NetSuite ODBC driver installation
+
+**问题描述 / Problem Description**:
+Tags: windows, odbc, dsn | Score: 0 | Views: 387 | Answers: 1 | Created: 2025-02-24
+
+**解决方案 / Solution**:
+I have had to try and work around this too for Intune deployment for multiple users. I have come up with a powershell script which completes the below steps Adds the logged on user as local admin Completes the install Grants access to the registry and system folder Removes the user from local admins
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1173645/netsuite-odbc-driver-installation
+
+---
+
+#### 851. Mirrored/Inverted TCP connections between local processes
+
+**问题描述 / Problem Description**:
+Tags: windows, reverse-proxy, windows-server-2019, netstat, caddy | Score: 0 | Views: 210 | Answers: 1 | Created: 2025-02-19
+
+**解决方案 / Solution**:
+Netstat doesn't show connections – it shows sockets. A socket is one end of a connection (a 'handle' on Windows or a 'file descriptor' on Linux) held by a program. So if you have two programs communicating over 'localhost' on the same machine, then there will be two entries in netstat for every TCP connection – the "outgoing" socket held by one program and the "incoming" socket held by the other. Adding -b (or -p for Linux) would show you the corresponding process. The 'Local' and 'Remote' columns are from the perspective of each program, thus the socket held by IIS (accepted incoming connection) will have 127.0.0.1:8082 as the 'Local' address whereas the socket created by Caddy (outgoing connection) will have the same as remote.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1173151/mirrored-inverted-tcp-connections-between-local-processes
+
+---
+
+#### 852. Windows Server 2025: Can't mount Linux NFS share
+
+**问题描述 / Problem Description**:
+Tags: windows, network-share | Score: 0 | Views: 687 | Answers: 1 | Created: 2025-02-14
+
+**解决方案 / Solution**:
+The answer is quite simple. The NFS client was not installed. Run the following command in the Powershell as Administrator: Install-WindowsFeature NFS-Client And then you can use mount \\foo W:
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1172763/windows-server-2025-cant-mount-linux-nfs-share
+
+---
+
+#### 853. Unable To Connect To Hyper-V Server 2019 - CredSSP
+
+**问题描述 / Problem Description**:
+Tags: windows, hyper-v, windows-server-2019 | Score: 0 | Views: 399 | Answers: 1 | Created: 2025-02-12
+
+**解决方案 / Solution**:
+Fixed the error by doing the following on the Client computer. Start-Service -Name WinRM Set-Item WSMan:\localhost\Client\TrustedHosts -Value * Get-Service -Name WinRM Local Computer Policy -> Computer Configuration -> Administrative Templates -> System -> Credentials Delegation
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1172615/unable-to-connect-to-hyper-v-server-2019-credssp
+
+---
+
+#### 854. Hosting only a single URL to the internet
+
+**问题描述 / Problem Description**:
+Tags: windows, iis, reverse-proxy, hosting | Score: 0 | Views: 112 | Answers: 2 | Created: 2025-02-11
+
+**解决方案 / Solution**:
+All my googling refers back to using a reverse proxy via IIS, but it's not an IIS app Well, the whole point of a reverse proxy is that it forwards incoming HTTP requests to another HTTP server – it wouldn't make sense for a proxy to be forwarding to itself, anyway. So whether the app is hosted by IIS or not isn't all that relevant; you can still put an HTTP proxy in front of it. (Though I've never used IIS as a reverse proxy myself, but the general concept applies regardless. There are probably other reverse proxies available for Windows, e.g. Apache2 is also an option – though keeping it up-to-date on Windows would be its own issue...)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1172593/hosting-only-a-single-url-to-the-internet
+
+---
+
+#### 855. How to run sysprep /generalize + dism /optimize-image?
+
+**问题描述 / Problem Description**:
+Tags: windows, sysprep, dism | Score: 0 | Views: 892 | Answers: 1 | Created: 2025-02-05
+
+**解决方案 / Solution**:
+Found my own answer. My dilemma results from a process that has evolved over the years back from before we could do this with virtual machines, and has not fully adapted to take advantage of the capabilities provided by a VM. If I'm building the template on a physical computer, then yes, I must do the tedious process of copying the large wim file from the captured image to an installed system to mount, optimize, and commit/dismount. On a VM, though, when the VM shuts down after sysprep /generalize I can mount the vhd/vhdx file on the host system before capturing a wim file, and use that host system's DISM tool to both do the optimize image step and capture the wim file while the virtual drive is mounted on the host. This improves our process for both steps, since I no longer need a WinPE bootable media to capture the image at all.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1172313/how-to-run-sysprep-generalize-dism-optimize-image
+
+---
+
+#### 856. Mysql 8 on Windows: any change to my.ini breaks the startup sequence
+
+**问题描述 / Problem Description**:
+Tags: windows, mysql | Score: 0 | Views: 352 | Answers: 1 | Created: 2025-02-05
+
+**解决方案 / Solution**:
+Well, it turns out it was the character encoding of my.ini . MySQL doesn't check, and certainly doesn't let you know. It just fails with increasingly bizarre error codes as you try and fail different solutions. UTF8 will work, UTF8-BOM will break it.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1172273/mysql-8-on-windows-any-change-to-my-ini-breaks-the-startup-sequence
+
+---
+
+#### 857. Detect what applications call MD5 in SCHANNEL on Windows
+
+**问题描述 / Problem Description**:
+Tags: windows, hardening, md5 | Score: 0 | Views: 214 | Answers: 2 | Created: 2025-02-04
+
+**解决方案 / Solution**:
+There's no really good way to answer the general question "which programs call function X in library Y with parameter Z?". It's possible, via excessive use of debug functionality to hook or break on the relevant function and check the parameters, but that requires making changes to every program that gets run, which has performance and stability implications. Logger.exe (part of the Windows debugging tools) is one tool for doing this, though I haven't checked if it specifically supports Schannel APIs. You can also shim the library itself - replace the actual library with one that exposes the same API via wrappers around the actual library but logs the desired behavior before passing it down to the wrapper - but I don't know of any tool that automates creating such shims. There are some tools that will monitor programmatic access to specific file or registry locations, though. Process Monitor (part of the Sysinternals suite) is great for this. By specifically logging access to Schannel-specific registry keys, you can identify programs that use the library. This won't inherently tell you which cipher suites are being used, but it would at least inform you which programs might be affected by the change. You could then focus on those programs for configuring with tools like logger , or manual testing using things like Qualys' SSL Labs tools. Since you're specifically looking for information in the TLS handshake, one other option would be to use a network traffic logging tool, like Wireshark. Filtering to TLS handshakes and then checking them for MD5-using cipher suites, or checking server (and, if relevant, client) certificates for MD5-based signatures, might take some manual effort - I'm not aware of any easy way to extract that information, though a script could parse the packet captures - but should tell you whether any of your clients are expecting/depending on MD5. As a side note, you can't count on monitoring Schannel usage specifically to catch all TLS clients (or servers). While Schannel is the standard TLS library on Windows, it's certainly not the only option. Lots of programs, both proprietary and open-source, bundle their own TLS library, such as OpenSSL, GnuTLS, NSS, and more. While these libraries - like Schannel - have all long ago disabled the use of MD5, [very] old or custom-configured versions might still support or even require it.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1172220/detect-what-applications-call-md5-in-schannel-on-windows
+
+---
+
+#### 858. Issues connecting to shared printers from Windows Server 2022
+
+**问题描述 / Problem Description**:
+Tags: windows, server-message-block, windows-server-2022, shared-printers | Score: 0 | Views: 935 | Answers: 1 | Created: 2025-01-29
+
+**解决方案 / Solution**:
+This ended up resolving the issue: Step 1. Rename 3 folder Press Windows Key + R and type services.msc Look for Print Spooler and click on Stop Service Press Windows Key + R and type spool Open spool folder and click Continue on the prompt Go to drivers > x64 and look for "3" folder Rename 3 folder to 3.old Start print spooler service in services.msc Step 2: Uninstall and Reinstall Driver Press Windows Key + R and type control printers to open Devices and Printers Right-click on the Offline printer and choose Remove Device Press Windows Key + R and type appwiz.cpl then hit OK to open Programs and Features Look for the printer software that is installed and uninstall it Restart if prompted
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1171877/issues-connecting-to-shared-printers-from-windows-server-2022
+
+---
+
+#### 859. URL rewriting (reverse proxy) not working in IIS when using specific URL (only works with wild card)
+
+**问题描述 / Problem Description**:
+Tags: windows, iis, rewrite, regex, wildcard | Score: 0 | Views: 410 | Answers: 1 | Created: 2025-01-28
+
+**解决方案 / Solution**:
+Here is the code that you need to use: <configuration> <system.webServer> <rewrite> <rules> <rule name="ReverseProxyToBackend" stopProcessing="true"> <match url="(.*)" /> <conditions> <add input="{HTTP_HOST}" pattern="^subdomain\.maindomain\.com$" /> </conditions> <action type="Rewrite" url="http://10.0.11.45:15155/{R:1}" /> </rule> </rules> </rewrite> </system.webServer> </configuration>
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1171811/url-rewriting-reverse-proxy-not-working-in-iis-when-using-specific-url-only-w
+
+---
+
+#### 860. Unable to run Windows dockerd container as HostProcess
+
+**问题描述 / Problem Description**:
+Tags: windows, docker, kubernetes, containers | Score: 0 | Views: 118 | Answers: 1 | Created: 2025-01-21
+
+**解决方案 / Solution**:
+This eventually started working with a few changes . Correct the working directory for the dockerd container - workingDir: "C:\\hpc\\docker" Update to Win Server 2022 based images such as "mcr.microsoft.com/windows/nanoserver:ltsc2022" and "ghcr.io/kenmuse/arc-windows-runner:v2.321.0".
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1171397/unable-to-run-windows-dockerd-container-as-hostprocess
+
+---
+
+#### 861. DHCP Entries in ADSI Edit
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, dhcp | Score: 0 | Views: 531 | Answers: 2 | Created: 2025-01-21
+
+**解决方案 / Solution**:
+CNF is the "conflict" flag. This usually occurs due to a flaw in the provisioning process/creation of objects, sometimes the failure to maintain an affinity with a specific domain controller during the provisioning process.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1171375/dhcp-entries-in-adsi-edit
+
+---
+
+#### 862. Windows Server 2016 DHCP Server with multiple DNS servers priority?
+
+**问题描述 / Problem Description**:
+Tags: windows, domain-name-system, active-directory, dns-zone, dhcp-server | Score: 0 | Views: 122 | Answers: 1 | Created: 2025-01-20
+
+**解决方案 / Solution**:
+When I check with ipconfig on the client, the DNS order will be like this, right? Just check that - yes, it is. But the displayed order is more of a cosmetic thing, it doesn't necessarly has to do anything with the DNS used by windows. At boot time, the DNS Client service queries the DNS servers in the following order: The DNS Client service sends the name query to the first DNS server on the preferred adapter's list of DNS servers and waits one second for a response. If the DNS Client service does not receive a response from the first DNS server within one second, it sends the name query to the first DNS servers on all adapters that are still under consideration and waits two seconds for a response. If the DNS Client service does not receive a response from any DNS server within two seconds, the DNS Client service sends the query to all DNS servers on all adapters that are still under consideration and waits another two seconds for a response. That is why your clients hesitate to boot quickly when DNS is down. If the DNS Client service still does not receive a response from any DNS server, it sends the name query to all DNS servers on all adapters that are still under consideration and waits four seconds for a response. If it the DNS Client service does not receive a response from any DNS server, the DNS client sends the query to all DNS servers on all adapters that are still under consideration and waits eight seconds for a response.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1171245/windows-server-2016-dhcp-server-with-multiple-dns-servers-priority
+
+---
+
+#### 863. Which configuration I should enable so I can install openSSH server via WSUS on Windows server 2019 and up
+
+**问题描述 / Problem Description**:
+Tags: windows, wsus, windows-server-2022 | Score: 0 | Views: 1117 | Answers: 1 | Created: 2025-01-14
+
+**解决方案 / Solution**:
+When I have the error 0x800F0954, I usually go around WSUS by using the Powershell code below. It will check if it is using WSUS, disables it and restarts the Windows Updates Service. Then installs the application and reverts the change. It also works for .NET Framework 3.5 (NetFx3~~~~) $UseWUServer = Get-ItemPropertyValue -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" -Name "UseWUServer" If ($UseWUServer -eq "1") { Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" -Name "UseWUServer" -Value 0 Get-service wuauserv | Restart-Service } Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0 If ($UseWUServer -eq "1") { Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" -Name "UseWUServer" -Value 1 Get-service wuauserv | Restart-Service }
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1170111/which-configuration-i-should-enable-so-i-can-install-openssh-server-via-wsus-on
+
+---
+
+#### 864. Why computer restarts early after Windows updates?
+
+**问题描述 / Problem Description**:
+Tags: windows, group-policy, automatic-updates | Score: 0 | Views: 147 | Answers: 1 | Created: 2025-01-13
+
+**解决方案 / Solution**:
+I would suggest reviewing the Windows Updates Event log to see what's occurring or remove the Group Policy folder from the affected computer (if it unable to retrieve the new parameters you specified in the GPO) and do a GPUpdate /force to rebuild the Group Policy folder.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1170056/why-computer-restarts-early-after-windows-updates
+
+---
+
+#### 865. Systems Management Container SCCM
+
+**问题描述 / Problem Description**:
+Tags: windows, sccm, windows-patching | Score: 0 | Views: 331 | Answers: 1 | Created: 2025-01-09
+
+**解决方案 / Solution**:
+The AD Forest Discovery will not automatically use your new "Systems Management New" container out of the box. You'll need to configure this manually after the installation is complete. In the Configuration Manager console, go to: Administration > Hierarchy Configuration > Discovery Methods Right-click on "Active Directory Forest Discovery" and select "Properties" You'll need to configure: Enable Active Directory Forest Discovery Specify the container location ("Systems Management New") Set up your discovery settings (full vs. delta discovery) What you've done so far is correct - creating the new container and setting permissions. However, SCCM needs to be explicitly told which containers to discover and manage. Regarding your note about having two SCCM servers - your approach is actually quite prudent. Running the new server in parallel while keeping the old one operational is a good practice for testing and verification. The separate container approach will help keep things clean and prevent potential conflicts.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1169953/systems-management-container-sccm
+
+---
+
+#### 866. Windows update selective install
+
+**问题描述 / Problem Description**:
+Tags: windows | Score: 0 | Views: 121 | Answers: 1 | Created: 2025-01-08
+
+**解决方案 / Solution**:
+No, Windows used to provide the capability to install individual updates. Publishing individual updates for Windows was discontinued around 2013.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1169903/windows-update-selective-install
+
+---
+
+#### 867. How to allocate a tcp port orphaned by a non-existent process without restarting Windows
+
+**问题描述 / Problem Description**:
+Tags: windows, socket | Score: 0 | Views: 500 | Answers: 1 | Created: 2025-01-07
+
+**解决方案 / Solution**:
+This can be caused by an application failing to properly close a listening socket; see f.e. here: https://superuser.com/questions/215351/how-do-i-kill-a-process-that-is-dead-but-listening https://stackoverflow.com/questions/9024090/winsock-tcp-listener-stays-in-listening-state-after-successful-closesocket-cal Since you mention this happens after my application crashes or is forcibly terminated , this seems indeed to be the case. You should investigate why your application fails to properly release a socket when it terminates.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1169871/how-to-allocate-a-tcp-port-orphaned-by-a-non-existent-process-without-restarting
+
+---
+
+#### 868. When running CertUtil -hashfile filename SHA256 is there a way to show the progress?
+
+**问题描述 / Problem Description**:
+Tags: windows | Score: 0 | Views: 310 | Answers: 2 | Created: 2025-01-02
+
+**解决方案 / Solution**:
+No, neither CertUtil nor PowerShell Get-FileHash has a progress indicator.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1169716/when-running-certutil-hashfile-filename-sha256-is-there-a-way-to-show-the-progr
+
+---
+
+#### 869. PsExec launch remote program as same user name without a domain
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, powershell, psexec, sysinternals | Score: 0 | Views: 602 | Answers: 1 | Created: 2024-12-26
+
+**解决方案 / Solution**:
+Unfortunately, what you are attempting to accomplish doesn't appear to be possible, since PsExec is a Microsoft Product, after all. As a result, it's fairly safe to assume that Microsoft probably isn't going to make a tool freely available to the public, if it can be used to circumvent security measures in their own Operating Systems, etc. On the other hand, if you want to specify a Local User Account without a Domain, I would try the PC Name, first. psexec -u PC-NAME\localaccount -d -i 2 notepad.exe If that doesn't work, you can give Dot Notation a try. psexec -u .\localaccount -d -i 2 notepad.exe
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1169495/psexec-launch-remote-program-as-same-user-name-without-a-domain
+
+---
+
+#### 870. Guacamole how to ignore RDP certificates
+
+**问题描述 / Problem Description**:
+Tags: windows, ubuntu, certificate, rdp | Score: 0 | Views: 1104 | Answers: 1 | Created: 2024-12-22
+
+**解决方案 / Solution**:
+Is it a typo? I notice an incorrect greater than sign after true <param name="ignore-cert">true></param> ^
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1169172/guacamole-how-to-ignore-rdp-certificates
+
+---
+
+#### 871. Get list of last logged users from AD OU
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell | Score: 0 | Views: 172 | Answers: 1 | Created: 2024-12-16
+
+**解决方案 / Solution**:
+Try something like: # Import the Active Directory module Import-Module ActiveDirectory # Define the OU and domain $OU = "OU=YourOU,DC=YourDomain,DC=com" # Replace with your OU $Domain = "YourDomain.com" # Replace with your domain # Get all users in the specified OU and their last logon timestamps $users = Get-ADUser -Filter * -SearchBase $OU -Properties LastLogonDate | ` Where-Object { $_.LastLogonDate -ne $null } | ` Select-Object Name, SamAccountName, LastLogonDate | ` Sort-Object LastLogonDate -Descending | ` Select-Object -First 10 # Check if users were found if ($users) { # Display the last 10 users to log in Write-Host "Last 10 users to log in from the OU: $OU" -ForegroundColor Green $users | Format-Table -AutoSize # Optionally export the results to a CSV $outputPath = "C:\Temp\Last10Logins.csv" # Change path if needed $users | Export-Csv -Path $outputPath -NoTypeInformation -Force Write-Host "Results exported to $outputPath" -ForegroundColor Yellow } else { Write-Host "No users found in the specified OU or no logon data available." -ForegroundColor Red }
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168942/get-list-of-last-logged-users-from-ad-ou
+
+---
+
+#### 872. Windows: elevated command prompt with normal user environment
+
+**问题描述 / Problem Description**:
+Tags: windows, uac, administrative-privileges | Score: 0 | Views: 638 | Answers: 2 | Created: 2024-12-12
+
+**解决方案 / Solution**:
+As far as I know, no. Elevation via UAC doesn't ever grant privileges – it only allows the account to regain its "full" privileges that it would normally have without UAC. So if the user is not an Admin then the user is not an Admin and switching to a different user for that process becomes necessary. Your easiest approach might be to split the script into two parts and have the non-elevated part do HKCU edits – or if absolutely necessary, pass your SID to the elevated part so that it may access your HKCU via HKEY_USERS\$sid\ instead. (Depending on the language the elevated script is written in, it might use Terminal Services API to determine the username and SID of the logged-in user.)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168779/windows-elevated-command-prompt-with-normal-user-environment
+
+---
+
+#### 873. How to make Edge and Chrome trust self-signed certificate?
+
+**问题描述 / Problem Description**:
+Tags: windows, nginx, ubuntu, ssl, docker | Score: 0 | Views: 3244 | Answers: 2 | Created: 2024-12-11
+
+**解决方案 / Solution**:
+The wildcard certificates do not work on this way. You create certificate for *.domain.tld . Which mean this will work for all hosts in form something.domain.tld , it expect to have hostname before the domain. And will not server domain.tld because here domain is the hostname and .tld is the domain. You can try to add SAN (Subject Alternative Name). But in your case (with wildcard certificate) IMHO this may not work (depend of the settings of CA). Warning: Do not try to create certificate for *.tld because this will not work for something. domain.tld , will work for something.tld only. The only solution is to explicitly list all the hosts in certificate via SAN
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168748/how-to-make-edge-and-chrome-trust-self-signed-certificate
+
+---
+
+#### 874. Offline dotNet Framework Update
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-server-2019, configuration-management, dotnet-framework | Score: 0 | Views: 751 | Answers: 1 | Created: 2024-12-05
+
+**解决方案 / Solution**:
+Release 528049 is .NET 4.8 installed. You need to download and install the December 2024 cumulative update KB5046265. https://learn.microsoft.com/en-us/dotnet/framework/migration-guide/versions-and-dependencies https://learn.microsoft.com/en-us/dotnet/framework/release-notes/2024/11-12-november-security-and-quality-rollup https://support.microsoft.com/en-us/topic/november-12-2024-kb5046265-cumulative-update-for-net-framework-3-5-and-4-8-for-windows-server-2022-738751c7-84fb-49f0-9c02-11e29b629b81
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168564/offline-dotnet-framework-update
+
+---
+
+#### 875. How to copy/transfer tasks from one Windows 10 machine to another
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, task-scheduler, copy, transfer | Score: 0 | Views: 405 | Answers: 1 | Created: 2024-11-30
+
+**解决方案 / Solution**:
+While I'm still waiting for an answer but here's some information that helped me partially: Use a script like this to manually create each task from an Administrative command prompt given the directory which contains all the tasks copied from Machine B (in the c:\tmp\Tasks directory). This worked partially but I guess my task database was so corrupted that it kept giving me an Access denied issue when trying to create the task (I couldn't even import the task manually from the Task scheduler at this point). @echo off set d=C:\tmp\Tasks chcp 65001>nul for /f "usebackq delims=|" %%f in (`dir /b /s /a-d "%d%"`) do ( schtasks /create /tn "%%~nxf" /xml "%%~f" ) I use this tool called Repair Tasks version 3.3 from here . I opened this tool with Administrative access, did a Scan on my tasks and it gave me a whole bunch of missing tasks. Then I selected Repair with Take tasks from backup option selected, it prompted me for the directory which the tasks and I pointed it to the folder of tasks I had copied from machine B. This also wasn't perfect, at first it gave me a whole bunch of Access is denied errors (similar to option 1 above). But then I re-ran the tool a bunch of times and eventually it recreated the missing tasks from the backup folder. Now this didn't get me what I wanted, create all the copied tasks, it only recreated those tasks in it's database that were missing from the Tasks folder. So partial success again.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168344/how-to-copy-transfer-tasks-from-one-windows-10-machine-to-another
+
+---
+
+#### 876. Output from computer info Powershell script: convert from columns to rows in csv
+
+**问题描述 / Problem Description**:
+Tags: powershell, windows-10, sysadmin, windows-11 | Score: 0 | Views: 124 | Answers: 1 | Created: 2024-11-26
+
+**解决方案 / Solution**:
+Omit intermediary $computerinfohastable = [ordered]@{ … } , use $computerinforows = [PSCustomObject]@{ Timestamp = $timestamp Hostname = hostname OSName = (Get-WmiObject Win32_OperatingSystem).Caption OSVer = (Get-WmiObject Win32_OperatingSystem).Version IPAddress = ($ipaddress -replace "ipaddress : ").Trim() } If you insist on intermediary $computerinfohastable = [ordered]@{ … } , use a simple casting as follows: $computerinforows = [PSCustomObject]$computerinfohastable In both variants, you should get $computerinforows | ConvertTo-Csv -NoTypeInformation "Timestamp","Hostname","OSName","OSVer","IPAddress" "11/25/2024 14:23","hostname","Microsoft Windows 11 Enterprise","10.0.26100","nnn.nnn.nnn.nnn"
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168197/output-from-computer-info-powershell-script-convert-from-columns-to-rows-in-csv
+
+---
+
+#### 877. Account suddenly cannot perform NTLM logins over VPN
+
+**问题描述 / Problem Description**:
+Tags: windows, authentication, windows-authentication, ntlm | Score: 0 | Views: 489 | Answers: 1 | Created: 2024-11-25
+
+**解决方案 / Solution**:
+HKLM\System\CurrentControlSet\Control\Lsa\LmCompatibilityLevel was incorrectly set to 1. I changed it to 3 and everything works as normal.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168129/account-suddenly-cannot-perform-ntlm-logins-over-vpn
+
+---
+
+#### 878. Windows DNS server list all records all zones containing CIDR
+
+**问题描述 / Problem Description**:
+Tags: windows, domain-name-system, powershell, dns-zone | Score: 0 | Views: 1187 | Answers: 1 | Created: 2024-11-05
+
+**解决方案 / Solution**:
+The first thing to note is that when querying DNS, each type of DNS record has a different property to query, so there is no way to just query a record for anything matching "mydomain.foo" and get back all the CNAME, MX, TXT, NS records that might have that string. So the query below is specifically for finding IPv4 addresses in A records. Since you're searching for a /24 the simplest option is to simply search for the first 3 octets. So : $searchIP="10.10.10." $zonelist=get-dnsserverzone ForEach ($zone in $zonelist) { get-dnsserverresourcerecord -zonename $Zone.zonename | Where-Object {$_.RecordData.ipv4address -match $searchIP} | select @{N="ZoneName";E={$Zone.zonename}},HostName,RecordType,@{N="IPv4 Address";E={$_.RecordData.ipv4address}} | Format-Table } You could with some string wrangling search for a subset of the /24, but since the IP addresses are strings not numbers, it gets complicated. Note, the query bit itself is : Where-Object {$_.RecordData.ipv4address -match $searchIP} where the critical element is : RecordData.ipv4address You can similarly query other record types using the other properties found within RecordData , some examples of which are : RecordData.HostNameAlias RecordData.MailExchange RecordData.DomainName RecordData.DescriptiveText RecordData.PrimaryServer RecordData.NameServer RecordData.IPv6Address RecordData.PtrDomainName
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167461/windows-dns-server-list-all-records-all-zones-containing-cidr
+
+---
+
+#### 879. Reenable deprecated by Microsoft Windows Photo Viewer (WPV) in Windows 2022 Server
+
+**问题描述 / Problem Description**:
+Tags: windows | Score: 0 | Views: 2821 | Answers: 1 | Created: 2024-11-01
+
+**解决方案 / Solution**:
+I did a bit of research and it appears there's only one way recommended by a lot of websites to restore WPV namely to reenable it via the following command in CMD as Administrator: 32-bit applications on a 64-bit Windows system: regsvr32 "C:\Program Files (x86)\Windows Photo Viewer\PhotoViewer.dll" 64-bit applications: regsvr32 "C:\Program Files\Windows Photo Viewer\PhotoViewer.dll" Then run the below registry from a file (save this code in e.g. WindowsPhotoViewer.reg file using Notepad with 'All files' selected as type + UTF8): Windows Registry Editor Version 5.00 [HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\open] "MuiVerb"="@photoviewer.dll,-3043" [HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\open\command] @=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\ 00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\ 6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,\ 00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,00,65,00,73,00,\ 25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,50,00,68,00,6f,\ 00,74,00,6f,00,20,00,56,00,69,00,65,00,77,00,65,00,72,00,5c,00,50,00,68,00,\ 6f,00,74,00,6f,00,56,00,69,00,65,00,77,00,65,00,72,00,2e,00,64,00,6c,00,6c,\ 00,22,00,2c,00,20,00,49,00,6d,00,61,00,67,00,65,00,56,00,69,00,65,00,77,00,\ 5f,00,46,00,75,00,6c,00,6c,00,73,00,63,00,72,00,65,00,65,00,6e,00,20,00,25,\ 00,31,00,00,00 [HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\open\DropTarget] "Clsid"="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Bitmap] "ImageOptionFlags"=dword:00000001 "FriendlyTypeName"=hex(2):40,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,\ 00,46,00,69,00,6c,00,65,00,73,00,25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,\ 77,00,73,00,20,00,50,00,68,00,6f,00,74,00,6f,00,20,00,56,00,69,00,65,00,77,\ 00,65,00,72,00,5c,00,50,00,68,00,6f,00,74,00,6f,00,56,00,69,00,65,00,77,00,\ 65,00,72,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,33,00,30,00,35,00,36,00,00,\ 00 [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Bitmap\DefaultIcon] @="%SystemRoot%\\System32\\imageres.dll,-70" [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Bitmap\shell\open\command] @=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\ 00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\ 6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,\ 00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,00,65,00,73,00,\ 25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,50,00,68,00,6f,\ 00,74,00,6f,00,20,00,56,00,69,00,65,00,77,00,65,00,72,00,5c,00,50,00,68,00,\ 6f,00,74,00,6f,00,56,00,69,00,65,00,77,00,65,00,72,00,2e,00,64,00,6c,00,6c,\ 00,22,00,2c,00,20,00,49,00,6d,00,61,00,67,00,65,00,56,00,69,00,65,00,77,00,\ 5f,00,46,00,75,00,6c,00,6c,00,73,00,63,00,72,00,65,00,65,00,6e,00,20,00,25,\ 00,31,00,00,00 [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Bitmap\shell\open\DropTarget] "Clsid"="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.JFIF] "EditFlags"=dword:00010000 "ImageOptionFlags"=dword:00000001 "FriendlyTypeName"=hex(2):40,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,\ 00,46,00,69,00,6c,00,65,00,73,00,25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,\ 77,00,73,00,20,00,50,00,68,00,6f,00,74,00,6f,00,20,00,56,00,69,00,65,00,77,\ 00,65,00,72,00,5c,00,50,00,68,00,6f,00,74,00,6f,00,56,00,69,00,65,00,77,00,\ 65,00,72,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,33,00,30,00,35,00,35,00,00,\ 00 [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.JFIF\DefaultIcon] @="%SystemRoot%\\System32\\imageres.dll,-72" [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.JFIF\shell\open] "MuiVerb"=hex(2):40,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,\ 69,00,6c,00,65,00,73,00,25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,\ 00,20,00,50,00,68,00,6f,00,74,00,6f,00,20,00,56,00,69,00,65,00,77,00,65,00,\ 72,00,5c,00,70,00,68,00,6f,00,74,00,6f,00,76,00,69,00,65,00,77,00,65,00,72,\ 00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,33,00,30,00,34,00,33,00,00,00 [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.JFIF\shell\open\command] @=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\ 00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\ 6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,\ 00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,00,65,00,73,00,\ 25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,50,00,68,00,6f,\ 00,74,00,6f,00,20,00,56,00,69,00,65,00,77,00,65,00,72,00,5c,00,50,00,68,00,\ 6f,00,74,00,6f,00,56,00,69,00,65,00,77,00,65,00,72,00,2e,00,64,00,6c,00,6c,\ 00,22,00,2c,00,20,00,49,00,6d,00,61,00,67,00,65,00,56,00,69,00,65,00,77,00,\ 5f,00,46,00,75,00,6c,00,6c,00,73,00,63,00,72,00,65,00,65,00,6e,00,20,00,25,\ 00,31,00,00,00 [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.JFIF\shell\open\DropTarget] "Clsid"="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Jpeg] "EditFlags"=dword:00010000 "ImageOptionFlags"=dword:00000001 "FriendlyTypeName"=hex(2):40,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,\ 00,46,00,69,00,6c,00,65,00,73,00,25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,\ 77,00,73,00,20,00,50,00,68,00,6f,00,74,00,6f,00,20,00,56,00,69,00,65,00,77,\ 00,65,00,72,00,5c,00,50,00,68,00,6f,00,74,00,6f,00,56,00,69,00,65,00,77,00,\ 65,00,72,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,33,00,30,00,35,00,35,00,00,\ 00 [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Jpeg\DefaultIcon] @="%SystemRoot%\\System32\\imageres.dll,-72" [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Jpeg\shell\open] "MuiVerb"=hex(2):40,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,\ 69,00,6c,00,65,00,73,00,25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,\ 00,20,00,50,00,68,00,6f,00,74,00,6f,00,20,00,56,00,69,00,65,00,77,00,65,00,\ 72,00,5c,00,70,00,68,00,6f,00,74,00,6f,00,76,00,69,00,65,00,77,00,65,00,72,\ 00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,33,00,30,00,34,00,33,00,00,00 [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Jpeg\shell\open\command] @=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\ 00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\ 6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,\ 00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,00,65,00,73,00,\ 25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,50,00,68,00,6f,\ 00,74,00,6f,00,20,00,56,00,69,00,65,00,77,00,65,00,72,00,5c,00,50,00,68,00,\ 6f,00,74,00,6f,00,56,00,69,00,65,00,77,00,65,00,72,00,2e,00,64,00,6c,00,6c,\ 00,22,00,2c,00,20,00,49,00,6d,00,61,00,67,00,65,00,56,00,69,00,65,00,77,00,\ 5f,00,46,00,75,00,6c,00,6c,00,73,00,63,00,72,00,65,00,65,00,6e,00,20,00,25,\ 00,31,00,00,00 [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Jpeg\shell\open\DropTarget] "Clsid"="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Gif] "ImageOptionFlags"=dword:00000001 "FriendlyTypeName"=hex(2):40,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,\ 00,46,00,69,00,6c,00,65,00,73,00,25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,\ 77,00,73,00,20,00,50,00,68,00,6f,00,74,00,6f,00,20,00,56,00,69,00,65,00,77,\ 00,65,00,72,00,5c,00,50,00,68,00,6f,00,74,00,6f,00,56,00,69,00,65,00,77,00,\ 65,00,72,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,33,00,30,00,35,00,37,00,00,\ 00 [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Gif\DefaultIcon] @="%SystemRoot%\\System32\\imageres.dll,-83" [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Gif\shell\open\command] @=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\ 00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\ 6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,\ 00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,00,65,00,73,00,\ 25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,50,00,68,00,6f,\ 00,74,00,6f,00,20,00,56,00,69,00,65,00,77,00,65,00,72,00,5c,00,50,00,68,00,\ 6f,00,74,00,6f,00,56,00,69,00,65,00,77,00,65,00,72,00,2e,00,64,00,6c,00,6c,\ 00,22,00,2c,00,20,00,49,00,6d,00,61,00,67,00,65,00,56,00,69,00,65,00,77,00,\ 5f,00,46,00,75,00,6c,00,6c,00,73,00,63,00,72,00,65,00,65,00,6e,00,20,00,25,\ 00,31,00,00,00 [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Gif\shell\open\DropTarget] "Clsid"="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Png] "ImageOptionFlags"=dword:00000001 "FriendlyTypeName"=hex(2):40,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,\ 00,46,00,69,00,6c,00,65,00,73,00,25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,\ 77,00,73,00,20,00,50,00,68,00,6f,00,74,00,6f,00,20,00,56,00,69,00,65,00,77,\ 00,65,00,72,00,5c,00,50,00,68,00,6f,00,74,00,6f,00,56,00,69,00,65,00,77,00,\ 65,00,72,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,33,00,30,00,35,00,37,00,00,\ 00 [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Png\DefaultIcon] @="%SystemRoot%\\System32\\imageres.dll,-71" [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Png\shell\open\command] @=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\ 00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\ 6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,\ 00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,00,65,00,73,00,\ 25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,50,00,68,00,6f,\ 00,74,00,6f,00,20,00,56,00,69,00,65,00,77,00,65,00,72,00,5c,00,50,00,68,00,\ 6f,00,74,00,6f,00,56,00,69,00,65,00,77,00,65,00,72,00,2e,00,64,00,6c,00,6c,\ 00,22,00,2c,00,20,00,49,00,6d,00,61,00,67,00,65,00,56,00,69,00,65,00,77,00,\ 5f,00,46,00,75,00,6c,00,6c,00,73,00,63,00,72,00,65,00,65,00,6e,00,20,00,25,\ 00,31,00,00,00 [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Png\shell\open\DropTarget] "Clsid"="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Wdp] "EditFlags"=dword:00010000 "ImageOptionFlags"=dword:00000001 [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Wdp\DefaultIcon] @="%SystemRoot%\\System32\\wmphoto.dll,-400" [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Wdp\shell\open] "MuiVerb"=hex(2):40,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,\ 69,00,6c,00,65,00,73,00,25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,\ 00,20,00,50,00,68,00,6f,00,74,00,6f,00,20,00,56,00,69,00,65,00,77,00,65,00,\ 72,00,5c,00,70,00,68,00,6f,00,74,00,6f,00,76,00,69,00,65,00,77,00,65,00,72,\ 00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,33,00,30,00,34,00,33,00,00,00 [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Wdp\shell\open\command] @=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\ 00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\ 6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,\ 00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,00,65,00,73,00,\ 25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,50,00,68,00,6f,\ 00,74,00,6f,00,20,00,56,00,69,00,65,00,77,00,65,00,72,00,5c,00,50,00,68,00,\ 6f,00,74,00,6f,00,56,00,69,00,65,00,77,00,65,00,72,00,2e,00,64,00,6c,00,6c,\ 00,22,00,2c,00,20,00,49,00,6d,00,61,00,67,00,65,00,56,00,69,00,65,00,77,00,\ 5f,00,46,00,75,00,6c,00,6c,00,73,00,63,00,72,00,65,00,65,00,6e,00,20,00,25,\ 00,31,00,00,00 [HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Wdp\shell\open\DropTarget] "Clsid"="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities] "ApplicationDescription"="@%ProgramFiles%\\Windows Photo Viewer\\photoviewer.dll,-3069" "ApplicationName"="@%ProgramFiles%\\Windows Photo Viewer\\photoviewer.dll,-3009" [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations] ".jpg"="PhotoViewer.FileAssoc.Jpeg" ".wdp"="PhotoViewer.FileAssoc.Wdp" ".jfif"="PhotoViewer.FileAssoc.JFIF" ".dib"="PhotoViewer.FileAssoc.Bitmap" ".png"="PhotoViewer.FileAssoc.Png" ".jxr"="PhotoViewer.FileAssoc.Wdp" ".bmp"="PhotoViewer.FileAssoc.Bitmap" ".jpe"="PhotoViewer.FileAssoc.Jpeg" ".jpeg"="PhotoViewer.FileAssoc.Jpeg" ".gif"="PhotoViewer.FileAssoc.Gif" ".tif"="PhotoViewer.FileAssoc.Tiff" ".tiff"="PhotoViewer.FileAssoc.Tiff" Now the next problem to tackle is how to change file associations for new and existing Windows 2022 Server users that log in via RDP. Apparently this isn't easy and requires use of third-party apps such as SetUserFTA (requires a licence for commercial use) or if your server is an AD domain controller via rather complex GPO policies. However, I'm not keen on running third-party apps and decided that we will ask users to reassociate File Type Associations (FTA) manually by right clicking on image files, then 'Open with' then 'Choose another app' and in the pop up window select now available Windows Photo Viewer and tick 'Always use this app to open .XXX file' checkbox. However, in order to ensure new users don't have to do this I have found a simple way of solving this problem namely changing global FTAs by doing the following as Administrator: Export file associations by running the following command in CMD as Administrator: Dism.exe /Online /Export-DefaultAppAssociations:C:\AppAssociations.xml Edit the AppAssociations.xml using Notepad and replace corresponding lines that have Identifier set to .bmp , .gif , .jpe , .jpeg , .jpg , .png Paint in them then Save your changes: <Association Identifier=".bmp" ProgId="PhotoViewer.FileAssoc.Bitmap" ApplicationName="Windows Photo Viewer" /> <Association Identifier=".gif" ProgId="PhotoViewer.FileAssoc.Gif" ApplicationName="Windows Photo Viewer" /> <Association Identifier=".jpe" ProgId="PhotoViewer.FileAssoc.Jpeg" ApplicationName="Windows Photo Viewer" /> <Association Identifier=".jpeg" ProgId="PhotoViewer.FileAssoc.Jpeg" ApplicationName="Windows Photo Viewer" /> <Association Identifier=".jpg" ProgId="PhotoViewer.FileAssoc.Jpeg" ApplicationName="Windows Photo Viewer" /> <Association Identifier=".png" ProgId="PhotoViewer.FileAssoc.Png" ApplicationName="Windows Photo Viewer" /> Reimport the amended AppAssociations.xml: Dism.exe /Online /Import-DefaultAppAssociations:C:\AppAssociations.xml The above will apply correct file associations for any newly created user account and they will now be able to open up image files with the above extensions using Windows Photo Viewer as defaul app. I have omitted the file types .wdp , .jfif , .dib , and .jxr as they haven’t been encountered in our use, but you can add them if necessary. To do so, simply check the last lines of the .reg file for PhotoViewer.FileAssoc.XXX entries and adjust the relevant lines in the exported AppAssociations.xml. Does anyone have a better solution and knows how to amend files associations for all existing user accounts without running third-party apps please add your answer below.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167301/reenable-deprecated-by-microsoft-windows-photo-viewer-wpv-in-windows-2022-serv
+
+---
+
+#### 880. Kerberos authentication with GSSAPI on Windows 11 LTSC fails with [An unsupported mechanism was requested (Unknown error)]
+
+**问题描述 / Problem Description**:
+Tags: linux, apache-2.4, kerberos, gssapi, windows-11 | Score: 0 | Views: 778 | Answers: 1 | Created: 2024-10-30
+
+**解决方案 / Solution**:
+Thank you so much, my problem is solved ! "Does the web server's AD account have the "Supports AES 256" option set on it?" Forget to check this box in account settings ... Thank you
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167238/kerberos-authentication-with-gssapi-on-windows-11-ltsc-fails-with-an-unsupporte
+
+---
+
+#### 881. Transferred Enrollment Agent Certificate not showing when Enrolling
+
+**问题描述 / Problem Description**:
+Tags: windows, certificate, windows-server-2022 | Score: 0 | Views: 225 | Answers: 1 | Created: 2024-10-29
+
+**解决方案 / Solution**:
+Based on your comments it sounds like the private key is protected. This is probably set in the enrollment template to prevent exporting the private key. The easiest solution would be to enroll a second certificate for the second computer.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167193/transferred-enrollment-agent-certificate-not-showing-when-enrolling
+
+---
+
+#### 882. Grant permission to SQL database
+
+**问题描述 / Problem Description**:
+Tags: windows, sql-server, rdp | Score: 0 | Views: 794 | Answers: 1 | Created: 2024-10-29
+
+**解决方案 / Solution**:
+Though I think there is a better answers, but this is how I have done it: Using admin login, Go to SSMS > Object Explorer > Server > Databases > [myDB] Expand Security > Users > New User... Under Select a Page General: In the main window, User Type: Windows User Username: Type or Select the user, eg, AD\User1. Back to Select a page Securables In the main window Search... > Add Objects > All Objects of Types. Click Ok Dialog of Select Object Types, Select Databases Under Permissions for [DatabaseName], be sure to select at least: Select Insert Delete Connect Execute Update Click Ok to finish I'll be glad for this to be improved, especially if it can be done for an entire group. When I tried grouped users, I got the error that the login name is invalid
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167171/grant-permission-to-sql-database
+
+---
+
+#### 883. MSSQL Extremely Slow on Dev Laptop
+
+**问题描述 / Problem Description**:
+Tags: windows, sql-server, windows-11 | Score: 0 | Views: 350 | Answers: 2 | Created: 2024-10-23
+
+**解决方案 / Solution**:
+I'm not sure what I could be missing memory. a lot of it. MSSQL is a big mem eater and will eat everything from your machine, and we don't even talk your other dev tool, if visual studio or such that is not the best for memory management too.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166989/mssql-extremely-slow-on-dev-laptop
+
+---
+
+#### 884. AD account not unlocking
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, user-accounts | Score: 0 | Views: 258 | Answers: 1 | Created: 2024-10-18
+
+**解决方案 / Solution**:
+The test account's password is expired according to the policy configured. Update the password so it satisfies the 45 day maximum, and then try the lockout timer again.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166777/ad-account-not-unlocking
+
+---
+
+#### 885. What does "LogonCredsAvailable" value 0x2 mean?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-registry | Score: 0 | Views: 518 | Answers: 1 | Created: 2024-10-16
+
+**解决方案 / Solution**:
+I'm not sure I understand your question. Here's what I think you are asking: "Which Credential Provider was used on this computer when it was still running?" You can take a look at this registry value: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\LastLoggedOnProvider This will provide the GUID of the most recently used Credential Provider on this device. Then you can match this GUID with the ones you find at this location: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166672/what-does-logoncredsavailable-value-0x2-mean
+
+---
+
+#### 886. Openssh server on add feature on system32 won't uninstall successfully
+
+**问题描述 / Problem Description**:
+Tags: windows, ssh, windows-update, windows-server-2022 | Score: 0 | Views: 784 | Answers: 1 | Created: 2024-10-16
+
+**解决方案 / Solution**:
+I resolve this with reinstall and fix programdata/ssh permission as well as logs folder. this reinstall was using new 9.8.1.0p1 patch 64. also thought I needed to add more permission did a "net user root" on ssh but I remove to fix it. Permission got changed based on new patch. Security Update for Microsoft Windows (KB5044281) 10/12/2024 Update for Microsoft Windows (KB5044025) 10/12/2024 was able to fix by rerunning ./fixhostfilepermiision PS1 file
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166666/openssh-server-on-add-feature-on-system32-wont-uninstall-successfully
+
+---
+
+#### 887. Is it possible to create a Windows usergroup that has basic Admin Privileges for a tech support worker to carry out repairs?
+
+**问题描述 / Problem Description**:
+Tags: windows, security, user-management, user-permissions, windows-server-2022 | Score: 0 | Views: 138 | Answers: 2 | Created: 2024-10-09
+
+**解决方案 / Solution**:
+Just create a separate admin user for them and tell them the credentials, so that you can track who did what and if/when they logged in. If you don't trust your hosting provider, you have worse problems. They could boot your server from a live CD and change your admin password, or pull out the disks and read whatever they want, or just really do anything which requires physical access to the server (which they have, and you don't).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166375/is-it-possible-to-create-a-windows-usergroup-that-has-basic-admin-privileges-for
+
+---
+
+#### 888. Intermittent file_get_contents errors on VMs connected via NAT
+
+**问题描述 / Problem Description**:
+Tags: windows, php, hyper-v | Score: 0 | Views: 127 | Answers: 1 | Created: 2024-10-03
+
+**解决方案 / Solution**:
+This turned out to be port exhaustion, I ran the following command netsh int ipv4 set dynamicport tcp start=xxxxx num=xxxx It was set to 16384 ports which was not enough, so I allowed a further 10000 ports and the errors started disappearing. I'll need to look into the script/code/server settings to see why they're not being closed in a timely fashion, but it resolved the problem.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166099/intermittent-file-get-contents-errors-on-vms-connected-via-nat
+
+---
+
+#### 889. Should KCC remove automatically-created connection Objects after I manually delete a SITELINK?
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, windows-server-2016, replication | Score: 0 | Views: 596 | Answers: 1 | Created: 2024-09-24
+
+**解决方案 / Solution**:
+Is the Bridge All Site Links option checked in the IP properties under Inter-Site Transports ? It's enabled by default, and if there are no explicitly configured site link bridges, ISTG (intersite topology generator) will create the bridges itself according to site link costing and any sites linking to a common site. This article shows what the option looks like in Sites and Services and explains how it works, with diagrams. Note: KCC runs at 15 minute intervals by default, including calculating the bridgehead servers, so replication topology changes will show up then. Or if you don't care about extra replication, you run it immediately with repadmin /kcc * (note this will run against all DCs - you can target a site with repadmin /kcc site:MYSITE ). The ISTG runs every 30 minutes. There is one ISTG generator DC per site. If the other DCs detect there's been no ISTG activity over 60 minutes, they assign a new DC to the role. Lots of info on topology generation here: https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc961781(v=technet.10)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1165654/should-kcc-remove-automatically-created-connection-objects-after-i-manually-dele
+
+---
+
+#### 890. Windows 11: DISM Error 0x800f081f - Source Files Could Not Be Found During Offline Repair
+
+**问题描述 / Problem Description**:
+Tags: windows, troubleshooting, windows-11 | Score: 0 | Views: 1469 | Answers: 1 | Created: 2024-09-23
+
+**解决方案 / Solution**:
+Generate an ISO for the latest build of Windows using UUP Dump and perform an in-place upgrade. After the system has finished upgrading, clean up the component store (WinSxS Folder) of your Windows installation using the /ResetBase switch with the /StartComponentCleanup parameter: Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase After the command completes, check the component store's health and verify that no corruptions are detected: Dism.exe /Online /Cleanup-Image /ScanHealth Now run the SFC command tool to repair your Windows installation.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1165582/windows-11-dism-error-0x800f081f-source-files-could-not-be-found-during-offli
+
+---
+
+#### 891. Huge discrepancy between file size and size on disk. Reduce block size?
+
+**问题描述 / Problem Description**:
+Tags: windows | Score: 0 | Views: 274 | Answers: 1 | Created: 2024-09-16
+
+**解决方案 / Solution**:
+It's not the sector size that matters, it's the cluster size - that's the granularity storage blocks get allocated by the file system. As @JoramandaX commented, use fsutil fsinfo ntfsinfo c: to find out the current cluster size. The default is 4K which is good for small files. A volume with significantly larger files should use a larger cluster size though (I tend to use 64K for compatibility). With a random file length, you lose half a cluster for each file stored. The larger the cluster size, the larger the total loss. However, smaller clusters mean more overhead and more potential fragmentation. Files with "a few KBs" should be fine with the default 4K clusters. 2.1 million files statistically cause 4 GB to become unusable. At the absolute maximum, you could lose 4095 bytes * 2.1 M = appr. 8 GB. Since you're reporting a much larger amount, that loss must be due to another reason. Investigate inaccessible (by ACL) or otherwise hidden files, also shadow copies present on the volume.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1165321/huge-discrepancy-between-file-size-and-size-on-disk-reduce-block-size
+
+---
+
+#### 892. Windows nginx as proxy passing to https://localhost - Certificate issues
+
+**问题描述 / Problem Description**:
+Tags: windows, nginx, ssl-certificate, https, nginx-reverse-proxy | Score: 0 | Views: 717 | Answers: 1 | Created: 2024-09-13
+
+**解决方案 / Solution**:
+Did you try to disable upstream server certificate check with proxy_ssl_verify off; ? Though it should be off by default, location / { proxy_set_header Host $host; proxy_set_header X-Real-IP $remote_addr; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_set_header X-Forwarded-Proto $scheme; proxy_pass https://localhost:8080; proxy_read_timeout 90; proxy_ssl_verify off; } Reference But your upstream server hosting https://localhost:8080 must be configured with a server certificate, valid or not, to ensure SSL/TLS handshake can happen properly. You can run openssl s_client -connect localhost:8080 to validate if it has been configured already.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1165192/windows-nginx-as-proxy-passing-to-https-localhost-certificate-issues
+
+---
+
+#### 893. windows server DHCP multiple scope relay trouble
+
+**问题描述 / Problem Description**:
+Tags: windows, dhcp, agent, relay | Score: 0 | Views: 190 | Answers: 1 | Created: 2024-09-12
+
+**解决方案 / Solution**:
+The fault was caused by missing IP-helper address on the "core" switch. (I had to setup interface based relay, vlan based was apparently not enough). works as intended now.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1165140/windows-server-dhcp-multiple-scope-relay-trouble
+
+---
+
+#### 894. Can Windows Server Backup automatically change the configuration?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-server-backup | Score: 0 | Views: 93 | Answers: 1 | Created: 2024-09-12
+
+**解决方案 / Solution**:
+No. The configuration will not change if the storage becomes less. Changing from full backup to incremental backup requires manual intervention only
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1165136/can-windows-server-backup-automatically-change-the-configuration
+
+---
+
+#### 895. Apache on Windows slow file upload via browser
+
+**问题描述 / Problem Description**:
+Tags: windows, apache-2.4, performance-tuning, upload | Score: 0 | Views: 613 | Answers: 1 | Created: 2024-09-10
+
+**解决方案 / Solution**:
+Issue was down to enabled HTTP2 protocol. Switching back to HTTP/1.1 solved the upload speeds (which were only evident with larger files). Answered here: https://serverfault.com/a/932702/345337 Edit: 2024-11-19 SOLUTION! Our IT support provider came up with a solution. We needed to increase the [H2WindowSize directive] from 65535 to 512000 1 . <IfModule http2_module> ProtocolsHonorOrder On Protocols h2 h2c http/1.1 # Set H2WindowSize accordingly 128000/512000/1024000 H2WindowSize 512000 </IfModule> Now the upload performance is super fast and much more comparable to HTTP/1.1; it can also be tweaked to suit the server/network speeds. This is specifically for Apache on Windows OS. I hope this helps others facing the same problem on Windows.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1165056/apache-on-windows-slow-file-upload-via-browser
+
+---
+
+#### 896. Share drive with Windows 11 inside LXC
+
+**问题描述 / Problem Description**:
+Tags: windows, ubuntu, containers, lxc, lxd | Score: 0 | Views: 690 | Answers: 1 | Created: 2024-08-30
+
+**解决方案 / Solution**:
+You can solve this as follows: Run lxc config device add win11 itunes disk source=/home/johndoe/Music/iTunes path=itunes on the host. On the guest system (Windows VM) install the latest virtIO win guest-tools from here . These guest-tools are referenced in this GitHub project itself referenced here: Fedora project: Creating Windows virtual machines using virtIO drivers Installing these guest-tools will creates a new service on your guest system, which you should add to start-up type Automatic and start: This service will translate the path of the device you added in the first step to something windows understands resulting in the following drive appearing in your explorer: which is the drive you shared with your guest system/Windows VM. On your host system lxc config show should show: architecture: x86_64 config: limits.cpu: "4" limits.memory: 8GiB volatile.cloud-init.instance-id: xxx volatile.eth0.host_name: xxx volatile.eth0.hwaddr: xxx volatile.last_state.power: RUNNING volatile.last_state.ready: "false" volatile.uuid: xxx volatile.uuid.generation: xxx volatile.vsock_id: "xxx" devices: itunes: path: itunes source: /home/johndoe/Music/iTunes type: disk root: path: / pool: default size: 80GiB type: disk vtpm: path: /dev/tpm0 type: tpm ephemeral: false profiles: - default stateful: false description: "" EDIT: It seems as if for a windows guest system this only works for one mount. I, thus, only share one directory with the guest and move all files I need to that directory. Additional sources I used: https://discuss.linuxcontainers.org/t/help-me-setup-a-host-directory-sharing-with-windows-vm/19192 https://virtio-fs.gitlab.io/howto-windows.html
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164551/share-drive-with-windows-11-inside-lxc
+
+---
+
+#### 897. Task Scheduler jobs not visible
+
+**问题描述 / Problem Description**:
+Tags: windows, task-scheduler | Score: 0 | Views: 1339 | Answers: 1 | Created: 2024-08-27
+
+**解决方案 / Solution**:
+Users must be administrators to view or edit tasks that are not owned by them. The correct resolution is to Export the task, delete the current task, then import it as the required user account. Note that this was a significant behavior change introduced in Windows 10 from previous versions, due to it was a known attack vector. It's also possible to code this, but that is approaching beyond the scope of the forum and the capability may be defeated in a future update. https://learn.microsoft.com/en-us/windows/win32/taskschd/what-s-new-in-task-scheduler "For security reasons, a non-administrator user cannot view nor manage a Windows Task Scheduler task that was created by another user". https://www.osdeploy.com/blog/2021/scheduled-tasks/task-permissions https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/schtasks-change
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164391/task-scheduler-jobs-not-visible
+
+---
+
+#### 898. Why is the Windows routing registry value IPEnableRouter = 1 no longer working?
+
+**问题描述 / Problem Description**:
+Tags: routing, windows-registry, windows-11 | Score: 0 | Views: 2545 | Answers: 2 | Created: 2024-08-27
+
+**解决方案 / Solution**:
+the same issue is on our end here. We did some digging and we found that the Host Network Service was/is removing it from the registry. As a test, I turned off the service and manually entered the key and, surprise-surprise the key stayed after reboot. I'm not too fond of the fix, but it works for now. I didn't see any mention of IPEnableRouter in the last Windows release notes, but I also didn't read too much into it.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164386/why-is-the-windows-routing-registry-value-ipenablerouter-1-no-longer-working
+
+---
+
+#### 899. DNS resolving - different results
+
+**问题描述 / Problem Description**:
+Tags: windows, domain-name-system, internal-dns, nameserver, windows-server-2022 | Score: 0 | Views: 182 | Answers: 1 | Created: 2024-08-23
+
+**解决方案 / Solution**:
+Seems that some servers had IPv6 disabled, others enabled, and others enabled with manual DNS setting to ::1 Setting them all to auto+enabled fixed the issue. Now, I have a different situation regarding DFS, but will open a new post. Thank you.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164233/dns-resolving-different-results
+
+---
+
+#### 900. Which system store and store location do I use?
+
+**问题描述 / Problem Description**:
+Tags: windows, certificate | Score: 0 | Views: 259 | Answers: 1 | Created: 2024-08-22
+
+**解决方案 / Solution**:
+You can see the system store I am using is CERT_SYSTEM_STORE_LOCAL_MACHINE and the store location is "Root". When running this, it saves it to Local Computer\Trusted Root Certification Authorities\Certificates, which I don't want. That is what you want. The "console root" you're concerned about is an artifact of using MMC.exe and has nothing to do with your certificates.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164201/which-system-store-and-store-location-do-i-use
+
+---
+
+#### 901. What are the implications of removing SYSTEM permissions in Active Directory Users and Computers?
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory | Score: 0 | Views: 137 | Answers: 1 | Created: 2024-08-22
+
+**解决方案 / Solution**:
+System is the System User , the OS on the Domain Controller (DC). The implications of removing from the DC OS full control permissions of the domain are significant and System user on the Domain are the default permissions: Full Control.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164167/what-are-the-implications-of-removing-system-permissions-in-active-directory-use
+
+---
+
+#### 902. Folder Redirection does not create Documents Folder
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-server-2016, folder-redirection | Score: 0 | Views: 726 | Answers: 1 | Created: 2024-08-20
+
+**解决方案 / Solution**:
+Here is what I found to solve this: The GPO must be linked to the domain. It cannot be linked to the OU of the session host servers, or any other similar OU. Evidently Windows does not consider the policy applicable only to the session host servers. When experimenting with user accounts login, before testing any change, you must not only delete the folders that got created by the login, but also the entire user profile disk (VHDX file). In Server 2016 and later, user profile disks are created by default, no matter whether folder redirection is used or not. Some settings related to these shell folders apparently get persisted there, in some way. Not removing the profile VHDX makes a change in the GPO not even apply. With those two things out of the way, all of the folders were created properly for every user newly created.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164113/folder-redirection-does-not-create-documents-folder
+
+---
+
+#### 903. Nginx basic_auth is skipped and login prompt not shown due to redirect loop
+
+**问题描述 / Problem Description**:
+Tags: windows, nginx, 301-redirect, http-basic-authentication | Score: 0 | Views: 639 | Answers: 1 | Created: 2024-08-18
+
+**解决方案 / Solution**:
+You could use try_files "hack" to make an internal redirect that will be executed after checking authorization. location /login { # authentication (issue in here, it is skipped) auth_basic "Login Required"; auth_basic_user_file /etc/nginx/.htpasswd; try_files NON_EXISTENT @login; } location @login { # Only set cookie if authenticated if ($cookie_openhab_cookie != "loggedin") { add_header Set-Cookie "openhab_cookie=loggedin; Max-Age=300; Path=/; HttpOnly"; } return 302 http://localhost:80/; }
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164016/nginx-basic-auth-is-skipped-and-login-prompt-not-shown-due-to-redirect-loop
+
+---
+
+#### 904. VM authenticating on its host machine with incorrect credentials causing the lockout of a local account
+
+**问题描述 / Problem Description**:
+Tags: security, virtual-machines, windows-11 | Score: 0 | Views: 121 | Answers: 1 | Created: 2024-08-15
+
+**解决方案 / Solution**:
+Is this expected behaviour? Yes, it is. Windows transparently attempts to use "pass-through" authentication in many activities. Is it necessary for accounts with the same name on a VM and its host machine to also have the same password to avoid an account lockout situation? This is dependent on what is occurring. If one host is accessing resources on another host, yes.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163910/vm-authenticating-on-its-host-machine-with-incorrect-credentials-causing-the-loc
+
+---
+
+#### 905. Any issues with changing IP address on newly configured domain controller?
+
+**问题描述 / Problem Description**:
+Tags: windows, ip, domain-controller | Score: 0 | Views: 314 | Answers: 1 | Created: 2024-08-06
+
+**解决方案 / Solution**:
+As long as DNS is updated, changing IP is no problem with AD. AD is heavily reliant on DNS for discovery, but it does not rely on IP's staying constant.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163572/any-issues-with-changing-ip-address-on-newly-configured-domain-controller
+
+---
+
+#### 906. Can we RDP to a second IP address on a second server network adapter?
+
+**问题描述 / Problem Description**:
+Tags: windows, vmware-server | Score: 0 | Views: 109 | Answers: 1 | Created: 2024-08-06
+
+**解决方案 / Solution**:
+As long as the 2nd NIC is routable from where you are RDP'ing from (eg vLan / Subnet / network / switch / firewall / etc), then yes, you should be able to RDP to the 2nd NIC You may just want to be aware though that you will either need a separate DNS entry or use the IP address for the 2nd NIC, if you only have one dns entry for the server (pointing to the 1st NIC)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163548/can-we-rdp-to-a-second-ip-address-on-a-second-server-network-adapter
+
+---
+
+#### 907. 24 hours needed to transfer domains between servers?
+
+**问题描述 / Problem Description**:
+Tags: windows, domain-name-system, iis | Score: 0 | Views: 228 | Answers: 2 | Created: 2024-08-01
+
+**解决方案 / Solution**:
+If this is only a web server switching, then you shouldn't change anything on the old web server side (don't remove any domain mapping from there, or you break many end users). Just change your DNS records to point to the new web server, so that end users are served by the new web server gradually during DNS propagation (~48 hours). You can monitor the traffic to the old web server and shut it down when no one is using it any more.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163366/24-hours-needed-to-transfer-domains-between-servers
+
+---
+
+#### 908. Windows DNS. Can you have the same primary zone on multiple DNS servers?
+
+**问题描述 / Problem Description**:
+Tags: windows, domain-name-system | Score: 0 | Views: 724 | Answers: 2 | Created: 2024-07-24
+
+**解决方案 / Solution**:
+I would simply use a conditional's forwarder. So if a request got asked for a name inside your domain, those DNS outside your AD will ask your AD's DNS for the entry. My reasoning is possibly those remote computers are not inside your domain, as they would need more AD service if yes, so that way with a conditionial forwarder it will limit the access (no sync, but a cache will exist) and will make their DNS work for ressources needed for them. A printscreen of the windows where to set it;
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163009/windows-dns-can-you-have-the-same-primary-zone-on-multiple-dns-servers
+
+---
+
+#### 909. LogOff script runs with administrator privileges?
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, group-policy, onedrive-for-business | Score: 0 | Views: 158 | Answers: 1 | Created: 2024-07-23
+
+**解决方案 / Solution**:
+TLDR; You should consider locking the user session instead of logging out so the OneDrive app continues running as the previously logged on user. This will not work as you are attempting to start a service as a user during the log off process. I assume that you want to do this so the OneDrive app continues to sync data for that user even after they logout. There is no supported way to do this as part of a log off workflow since the OneDrive app needs to run as the specific user (since there can be multiple users on a single computer each with different OneDrive synchronized folders).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162962/logoff-script-runs-with-administrator-privileges
+
+---
+
+#### 910. FreeRadius EAP-TLS with Windows Client looping request
+
+**问题描述 / Problem Description**:
+Tags: windows, networking, freeradius, eap, 802.1x | Score: 0 | Views: 471 | Answers: 1 | Created: 2024-07-18
+
+**解决方案 / Solution**:
+Judging by the log you have an issue with the challenge-response part of opening a session. Freeradius is sending a challenge to be passed on by the access point to the client, but does not get a response the other way. And since there is no response, then the WiFi connection cannot be established. But without you telling how you have configured Freeradius and the access point, then we have no way of telling why challenge-response does not work.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162749/freeradius-eap-tls-with-windows-client-looping-request
+
+---
+
+#### 911. can't add active directory users intermittently
+
+**问题描述 / Problem Description**:
+Tags: windows-11, active-directory, windows-server-2019 | Score: 0 | Views: 393 | Answers: 1 | Created: 2024-07-17
+
+**解决方案 / Solution**:
+Error code -2147023878 is a generic COM error generated when software tries to do something illegal on a registry key (like change it after it's been marked for deletion). It's most likely a bug with the wizard doing things in the wrong order, if it's related at all. Something else you can try is using powershell to do what the wizard is failing on, which should at least generate a better error message. Open powershell as administrator, and run these commands, updating the names: # join the computer to the domain (everything other than -DomainName is optional): Add-Computer -DomainName 'my.domain.name' -Credential 'MYDOMAIN\AdminUser' -OUPath 'OU=Laptops,DC=my,DC=domain,DC=com' # add a domain user as a local administrator Add-LocalGroupMember -Group 'Administrators' -Member 'MYDOMAIN\AdminUser' Since you're running a windows domain, you can also try using Group Policy to add that domain user automatically to computers in the domain. You can find that option under: Computer Configuration -> Policies -> Windows Settings -> Security Settings -> Restricted Groups
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162820/cant-add-active-directory-users-intermittently
+
+---
+
+#### 912. Windows Event Viewer Not Showing Recent Events
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11 | Score: 0 | Views: 308 | Answers: 1 | Created: 2024-03-02
+
+**解决方案 / Solution**:
+check your log size and the behavior once log is full. You see those settings on event log's properties window
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1155557/windows-event-viewer-not-showing-recent-events
+
+---
+
+#### 913. Shared folder accessible from Windows 11 but not from Windows 10
+
+**问题描述 / Problem Description**:
+Tags: network-share, windows-10, windows-server-2022, windows-11 | Score: 0 | Views: 588 | Answers: 1 | Created: 2024-02-01
+
+**解决方案 / Solution**:
+For anyone who's interested, I didn't know why but I should activate smb 1.0 on the 2022 server, now everything works.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1152743/shared-folder-accessible-from-windows-11-but-not-from-windows-10
+
+---
+
+#### 914. DNS resolution error when using OpenVPN v3 on Windows 11
+
+**问题描述 / Problem Description**:
+Tags: windows, openvpn, windows-11 | Score: 0 | Views: 917 | Answers: 1 | Created: 2024-01-18
+
+**解决方案 / Solution**:
+It works after downgrading the version to 3.2.3, maybe the server didn't accept the newest version
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1151754/dns-resolution-error-when-using-openvpn-v3-on-windows-11
+
+---
+
+#### 915. amd keyid microsoftaik.azure.net does not exist
+
+**问题描述 / Problem Description**:
+Tags: windows, drivers, windows-11, amd | Score: 0 | Views: 9309 | Answers: 1 | Created: 2023-10-12
+
+**解决方案 / Solution**:
+I was finally able to fix this messy problem of EVENT ID 86 or SCEP Certificate enrollment initialization. This fix has nothing to do with MICROSOFT servers and AMD fTPM. The error pops up because your CPU is struggling and beyond a certain percentage usage it will give up. System will restart either randomly when it is in the idle state or instantly when you run some apps or games which utilize 60-70% cpu during the start. I was getting this problem when I was trying to play online multiplayer games on steam. Ex- Apex legends or Rainbow Six Siege. (I was able to play offline mode games initially like "shadow of the tomb raider"). My pc always froze in the menu of the games and restarted everytime I launched the game. I did every possible thing (software wise) to sort this out. The following I tried:- I reinstalled the games I reinstalled the steam I disabled the fTPM module in BIOS I updated the BIOS to the latest version I removed the RAM, cleaned the slots , reinserted the RAM I updated/ Reinstalled the chipset drivers. Even the GPU. I reverted back to windows 10 ( was on windows 11 pro) with fTPM disabled. But still got the same error and same freezing/restarting Not a single thing above helped. Because the problem lied somewhere else entirely. When on 15th may 2024, after trying everything, I tried to play "Shadow of the tomb raider". It froze just like APEX LEGEND and gave me BSOD. Thereafter it restarted itself. It was then that hit me. Either my cpu is CHOKING or my connections are lose somewhere inside. And boy oh boy, I was bleep right! Yesterday I disassembled my entire cabinet. Disconnected every cable on the motherboard. Removed the gpu, NVMEs, Rams . When I was removing the HEAT SINK over the CPU , I found my CPU to be stuck to the Heat Sink. Thermal paste was long gone. So now I was sure my CPU was overheating while launching CPU intensive apps. It was a matter of couple of months before it would start freezing in idle state. I used a hair dryer and gently seperated the HEAT SINK and CPU. Cleaned the old thermal paste using alcohol. Cleaned the dust on the motherboard with a new/unused artist brush. I even removed the dust from the fan of HEAT SINK. After all the cleaning , I applied the new thermal paste properly on the cpu and re fit all the components on the motherboard. This time I ensured all the cable connections are tight and nothing is lose. Even after completing the hardware installations, I was skeptic. I wasn't sure that it will work. I connected the power cord, Hdmi cable, keyboard and mouse. I switched it on. And I ran into an error in the boot menu screen. b1 initialize library failed 0xc0000001. I thought I wrecked my PC. I searched it on google and someone pointed out that it happens whenever the motherboard is reset. Solution was to remove the CMOS battery for 20-30 seconds and reinsert it. I was good to go. System booted up. Reached the home screen. Quickly launched every game installed on my steam account. And My miseries were gone. Finally no more freezing and restarting. System is good as new before. On event viewer I no longer get EVENT ID - 86. I think it does happen whenever the system is restarting because of the CPU failure. For people who made it worked by replacing the CPU entirely, I think they should have disassembled, cleaned, applied new thermal paste and reassembled the entire components first ensuring tight connections. Of course new CPU will fix the problem, because it is new. It won't fail up on heating cause the heat sink will work properly on it. But same is not the case with 6months 8months or 1 year old systems. Old systems are riddled with dust and dried thermal paste. CPU failure are bound to happen. If you are facing such a problem, do this before throwing your system and buying a new one. I hope it helps whoever is getting the problem of system freeze. SCEP certification authentication failure has nothing to do with your system freeze. Its just a report generated following your CPU failure. I was cursing AMD and MICROSOFT all this time when the problem was poor maintenance on my side. I live in tropical region where temperature in summers go higher and there is a lot of dust around. Kindly try the solution before completely giving up.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1145734/amd-keyid-microsoftaik-azure-net-does-not-exist
+
+---
+
+#### 916. How to disable interactive login of local admin user on win11
+
+**问题描述 / Problem Description**:
+Tags: security, windows-11 | Score: 0 | Views: 962 | Answers: 1 | Created: 2023-05-25
+
+**解决方案 / Solution**:
+Yes, there is a way and I have written an article about it. The described method in short: use scheduled tasks to trigger admin account enabling only when selected users logon, so that at the logon mask, these admin accounts can't be found. https://www.experts-exchange.com/articles/24599/Free-yourself-of-your-administrative-account.html
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1131911/how-to-disable-interactive-login-of-local-admin-user-on-win11
+
+---
+
+#### 917. What effect does LPIM have on virtual memory
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, pagefile, client-server, windows-11 | Score: 0 | Views: 71 | Answers: 1 | Created: 2023-02-05
+
+**解决方案 / Solution**:
+When you enable Lock Pages in Memory only specific apps can use it. And most of the apps should not be pinned in memory because you need it for OS, caching, etc. So AFAIK you should not disable paging file. And you should not enable Lock Pages in Memory if you are not 100% sure you need this and you will benefit from it.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1122016/what-effect-does-lpim-have-on-virtual-memory
+
+---
+
+#### 918. Cannot access MySQL in container from Windows host
+
+**问题描述 / Problem Description**:
+Tags: networking, mysql, docker, containers, windows-11 | Score: 0 | Views: 1420 | Answers: 1 | Created: 2023-02-03
+
+**解决方案 / Solution**:
+After deciphering the comments below, it seems you are adding docker run arguments AFTER the image name. These args will be passed to the process inside the container - likely why you are seeing mysqld errors, because you are passing Docker flags to mysqld. The below answer still applies. I'm not on Windows but this should be platform independent if you're using the standard client to connect and running the server in Docker. You have the Docker commands right, this is a valid Docker command and works fine, exposing port 3306: docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3306:3306 -d mysql:latest Docker logs for the container that is started show: [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.32' socket: '/var/run/mysqld/mysqld.sock' port: 3306 MySQL Community Server - GPL. The problem likely exists somewhere else in your setup, not related to running the container with the -p argument. Are you sure you're using mysql client to connect with? (not mysqld ) ?? Example connection after starting the server: >> mysql -u root -p -h 127.0.0.1 -P 3306 Enter password: Welcome to the MySQL monitor. Commands end with ; or \g. Your MySQL connection id is 8 Server version: 8.0.32 MySQL Community Server - GPL Copyright (c) 2000, 2023, Oracle and/or its affiliates. Oracle is a registered trademark of Oracle Corporation and/or its affiliates. Other names may be trademarks of their respective owners. Type 'help;' or '\h' for help. Type '\c' to clear the current input statement. mysql>
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1121831/cannot-access-mysql-in-container-from-windows-host
+
+---
+
+#### 919. Print Access Across Parent-Child Domains
+
+**问题描述 / Problem Description**:
+Tags: windows-10, network-printer, print-server, window-server-2019, windows-11 | Score: 0 | Views: 154 | Answers: 1 | Created: 2023-01-27
+
+**解决方案 / Solution**:
+Found the issue. Our device control software did not have the permission on the print server to pass the print jobs. Gave it that permission and now it works!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1121289/print-access-across-parent-child-domains
+
+---
+
+#### 920. Where is Defender CSP in Windows configuration designer?
+
+**问题描述 / Problem Description**:
+Tags: configuration, microsoft-intune, mdm, windows-defender, windows-11 | Score: 0 | Views: 603 | Answers: 2 | Created: 2023-01-24
+
+**解决方案 / Solution**:
+You have to start a new "Provision desktop devices" Project. After starting click on "Switch to advanced editor" on the bottom left. Under "Runtime settings" -> "Policies" -> "Defender" you can configure the Defender options. If you start a new Project with "Advanced Provisioning" you will not see all the options.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1121018/where-is-defender-csp-in-windows-configuration-designer
+
+---
+
+#### 921. How to Disable off site mail relaying
+
+**问题描述 / Problem Description**:
+Tags: windows, smtp, iis-6, windows-server-2019 | Score: -1 | Views: 208 | Answers: 2 | Created: 2026-03-11
+
+**解决方案 / Solution**:
+With Windows Server 2019 SMTP, remediation scanners sometimes still flag “Disable offsite mail relaying” even after the basic IIS settings are configured, so I’d double-check a couple of things. First, in IIS 6.0 Manager → SMTP Virtual Server → Properties → Access → Relay, make sure “Only the list below” is selected and that the “Allow all computers which successfully authenticate to relay” option is unchecked, leaving only trusted IPs like 127.0.0.1 if needed. I would also review the Connection control settings to confirm that external IP ranges are not implicitly allowed, and verify that there aren’t multiple SMTP virtual servers configured where one might still allow relay. Another thing I’ve seen is the scanner detecting open relay because port 25 is accessible externally, so it’s worth checking the Windows Firewall or network firewall rules to ensure SMTP is restricted to the systems that actually need it. If everything looks correct, try running a quick SMTP relay test (such as with telnet or an open relay test tool) to confirm the server really rejects external relay attempts, because sometimes the remediation tool reports a false positive even though the configuration is already secure.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1198436/how-to-disable-off-site-mail-relaying
+
+---
+
+#### 922. Failed to logon using RDP due to "The system administrator has restricted the types of logon (network or interactive) that you may use"
+
+**问题描述 / Problem Description**:
+Tags: group-policy, remote-desktop, windows-11 | Score: -1 | Views: 2326 | Answers: 1 | Created: 2025-08-12
+
+**解决方案 / Solution**:
+The system administrator has restricted the types of logon (network or interactive) that you may use. That means you need to run gpedit.msc and confirm the security principals that have the Windows privilege for logon over the network and logon using Remote Desktop. You may also want to check if there are other mechanisms in place. For example, PowerShell has Desired State Configuration. A Configuration Management solution such as SCCM could do the same.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1190456/failed-to-logon-using-rdp-due-to-the-system-administrator-has-restricted-the-ty
+
+---
+
+#### 923. iSCSI share mounted on many windows machines
+
+**问题描述 / Problem Description**:
+Tags: windows, storage-area-network, iscsi | Score: -1 | Views: 93 | Answers: 1 | Created: 2025-06-22
+
+**解决方案 / Solution**:
+(This is really a comment, but doesn't fit in the wee box). I MUST use iSCSI as my thecus only supports iSCSI and isnt a NAS Interesting statement. I presume you mean "thesis", however "Thecus" is a Taiwan based company which (predominantly) makes NAS. This is a very arbitrary constraint. And FUNDAMENTAL to achieving your qualification. You might consider explaining EXACTLY what you really mean/the reasons for this constraint if you want any sensible help. iSCSI i cant do what i want unless i use clustered file system. But you asked anyway? The magic words you need to type into google or Wikipedia are "shared disk" filesystem MS-Windows Microsoft CSV is a shared-disk filesystem but only works in a failover model. Product recommendations are EXPLICITLY off-topic here. OCFS and GFS are available on Linux (and possibly other POSIX OS). You might be able to port one of these to MS-Windows in a couple of years (but only if you are really good at systems programming already).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1186990/iscsi-share-mounted-on-many-windows-machines
+
+---
+
+#### 924. Windows 2012 R2 Fails to Validate SSL Certificate with IP in SAN Field
+
+**问题描述 / Problem Description**:
+Tags: windows, ssl, windows-server-2012-r2, ssl-certificate | Score: -1 | Views: 175 | Answers: 2 | Created: 2025-02-12
+
+**解决方案 / Solution**:
+Internet Explorer doesn't support ipAddress name type in SAN extension. If you want to securely connect to server using IP address (which is not really recommended), then you need to put this IP address as dnsName name type.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1172626/windows-2012-r2-fails-to-validate-ssl-certificate-with-ip-in-san-field
+
+---
+
+#### 925. Windows 11 setup seeing SSD drive as "Offline" / "No Media"
+
+**问题描述 / Problem Description**:
+Tags: bitlocker, windows-11 | Score: -1 | Views: 1894 | Answers: 1 | Created: 2025-02-10
+
+**解决方案 / Solution**:
+Finally fixed. Putting what solved it so the next guy won't have to spend a week figuring it out: Problem was Windows 11 doesn't include Intel VMD driver. Without it the setup lists the drive but can't do any data access. To fix this download the proper driver, which in my case was: iaStorF6.inf / iaStorF6.sys . Note, many sources claim you should use " SetupRST.exe -extractdrivers C:\tmp " but that did not do it for me. Finally, in my case I simply disabled VMD support from BIOS. It seems it is useful for high end workstations with RAID. With my laptop some posts claim speed and NVM/SSD data optimization would be the same if not worse. Cross-checking with the Inter notes no benefit becomes apparent.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1172545/windows-11-setup-seeing-ssd-drive-as-offline-no-media
+
+---
+
+#### 926. Windows print server on AD: frequent error 315, users can't print
+
+**问题描述 / Problem Description**:
+Tags: windows, print-server | Score: -1 | Views: 345 | Answers: 1 | Created: 2025-02-01
+
+**解决方案 / Solution**:
+I don't know if this applies, but I found someone reporting the same issue ten years ago, and since one of your servers is of that vintage it might yet apply. From https://www.sevenforums.com/bsod-help-support/277060-error-code-315-spooler-operation-failed.html : The solution is to make the Print Spooler service dependent on the Server service, so it will not start until after the Server service is started. In the registry key HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Spooler either add or edit the DependOnService (type REG_MULTI_SZ) value, and either set it to LanmanServer or add LanmanServer on a new line if the value exists. You will need to restart the server.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1172075/windows-print-server-on-ad-frequent-error-315-users-cant-print
+
+---
+
+#### 927. OpenVPN blocking SSL traffic for single users in certain environments
+
+**问题描述 / Problem Description**:
+Tags: windows, openvpn, windows-10 | Score: -1 | Views: 383 | Answers: 1 | Created: 2025-01-27
+
+**解决方案 / Solution**:
+Now I forced a colleague to help me with client side tests. We were able to get it working, but I still cannot understand the problem. The fix was to either set mssfix 1430(which is logged by the client as mssfix 1366!) or tun-mtu 1400 (which is logged as mssfix 1360, but still tun-mtu 1500?!). Higher values (multiple of ten) don't work. What happens is essentially that Path MTU discovery is blocked, by something misbehaving by e.g. dropping ICMP. The common end to end MTU is 1500B, and you can never assume larger. To transport a 1500B packet over VPN it has to be encapsulated, so it ends up bigger than 1500B, and thus has to be split up. A router will drop such a packet, and reply with a ICMP package telling the sender to fragment. The reason this affects SSL is probably that SSL uses a large packet with the certificates.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1171742/openvpn-blocking-ssl-traffic-for-single-users-in-certain-environments
+
+---
+
+#### 928. Error during cab file installation in windows server 2019
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-server-2019, packages, custom-errors, dism | Score: -1 | Views: 190 | Answers: 2 | Created: 2024-12-11
+
+**解决方案 / Solution**:
+The error message completely explains what is wrong... once you understand that KBs actually come in different flavors for different platforms. If you try to install KB5003282 for Windows 10 on Server 2019 you'll get this error. Go back to where you got the KB from and retrieve the specific version of this patch for your OS.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168768/error-during-cab-file-installation-in-windows-server-2019
+
+---
+
+#### 929. Windows user and machine credentials
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, local-area-network | Score: -1 | Views: 81 | Answers: 1 | Created: 2024-11-23
+
+**解决方案 / Solution**:
+Credential secrets are stored in the registry: HKLM\SECURITY\Policy\Secrets A number of tools exist for extracting this information. This is also the location used by the shutdown command to automatically logon the previous user and restart applications that were open. Note that the default permissions do not allow read or list except for system. https://attack.mitre.org/techniques/T1003/004/
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168062/windows-user-and-machine-credentials
+
+---
+
+#### 930. IIS 404 file not found
+
+**问题描述 / Problem Description**:
+Tags: windows, https, wordpress | Score: -1 | Views: 586 | Answers: 1 | Created: 2024-11-07
+
+**解决方案 / Solution**:
+What do you see in the IIS logs when those connection attempts are made, including when you try reaching that URL yourself? While I've gotten this working in IIS myself, all our WP sites are on Linux rather than our IIS boxes. However, on Linux at least I know that WordPress uses various redirect rules to display the URL path that's different to the actual folder path on the server, such that if you tried to directly link to a file at a known folder location you'll often find it gets a 404, as the redirection gets in the way. So I wonder is the same happening under IIS. If that is the case, then I imagine you have rewrite rules in place in IIS / web.config, so you need to add some additional rules / exceptions to those to exclude the /.well-known/acme-challenge/ folders from being changed. Couple of examples can be found here : Rewriting a url in iis from a subdomain so letsencrypt will find the challenge key https://stackoverflow.com/questions/47366877/url-rewrite-http-to-https-and-lets-encrypt
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167515/iis-404-file-not-found
+
+---
+
+#### 931. How to add Trusted Sites using GPO in Windows Server 2022
+
+**问题描述 / Problem Description**:
+Tags: windows, group-policy, internet-explorer, windows-server-2022 | Score: -1 | Views: 3005 | Answers: 1 | Created: 2024-11-06
+
+**解决方案 / Solution**:
+Internet Explorer is end of life, however, the version of IE that uses those Group Policy administrative templates were obsolete many years ago. Internet Explorer 10 and 11 used a more modern Group Policy Preference settings. See: https://learn.microsoft.com/en-us/previous-versions/troubleshoot/browsers/administration/how-to-configure-group-policy-preference-settings https://techcommunity.microsoft.com/blog/windows-itpro-blog/internet-explorer-11-desktop-app-retirement-faq/2366549
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167488/how-to-add-trusted-sites-using-gpo-in-windows-server-2022
+
+---
+
+#### 932. Start/stop apps on windows lock screen
+
+**问题描述 / Problem Description**:
+Tags: windows | Score: -1 | Views: 225 | Answers: 1 | Created: 2024-10-25
+
+**解决方案 / Solution**:
+Of course it is. All that's needed is access to the Windows API that reports when a user gains or loses access to the screen, to catch lock / unlock, and the app simply gets started at login, and shut down (with the ability to report its shutdown time) on log out. However, that's a matter of programming and so more suited to a different area of these boards. Edit: As per Greg Askew's comment: an app can be set to start running at login either via start script or as a scheduled task triggered at logon; and a scheduled task can also be triggered at lock and unlock to stop (or pause) and start (or unpause) the app. Logoff stops all apps associated with that user ID, so if the app records its stop time you should be good. You'd have to set a policy that would arm the scheduled tasks, and then it would be automatic on that station from then on.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167059/start-stop-apps-on-windows-lock-screen
+
+---
+
+#### 933. Unable to delete folder on a network share from Windows 10
+
+**问题描述 / Problem Description**:
+Tags: windows, network-share | Score: -1 | Views: 364 | Answers: 1 | Created: 2024-09-19
+
+**解决方案 / Solution**:
+Since it's a network share, the file could be locked by anyone in the network who has access to it, not necessarily by the user who is complaining. I do not have direct access to the servers because policy. This is a really big problem, because only on the server itself you can look up who or what is actually locking the file (and you can also close open connections to it, thus removing the lock).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1165470/unable-to-delete-folder-on-a-network-share-from-windows-10
+
+---
+
+#### 934. How can critical errors (not other types) in event viewer be deleted from powershell?
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, logging, scheduled-task, windows-event-log | Score: -1 | Views: 94 | Answers: 1 | Created: 2024-09-06
+
+**解决方案 / Solution**:
+Windows does not provide a mechanism to remove or delete individual events.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164865/how-can-critical-errors-not-other-types-in-event-viewer-be-deleted-from-powers
+
+---
+
+#### 935. Time synchronization between Ubuntu (America/New_York) and Windows (SGT) using w32tm
+
+**问题描述 / Problem Description**:
+Tags: windows, networking, ntp, ntpd, w32time | Score: -1 | Views: 154 | Answers: 1 | Created: 2024-08-15
+
+**解决方案 / Solution**:
+NTP has no concept of time zones. It distributes time in UTC. The time zone config is furthermore not global on even a single computer. Each process can define it's own time zone, and different users can have different settings. As an quick example: [~]$ TZ=UTC date; TZ=Europe/Oslo date; TZ=Asia/Singapore date Thu Aug 15 14:18:52 UTC 2024 Thu Aug 15 16:18:52 CEST 2024 Thu Aug 15 22:18:52 +08 2024 In less than 10ms three commands was spawned with different time zones. By the same user. On the same computer.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163919/time-synchronization-between-ubuntu-america-new-york-and-windows-sgt-using-w
+
+---
+
+#### 936. ODBC connection to local Db2 database on Windows 10 fails with message "Data source name not found and no default driver specified"
+
+**问题描述 / Problem Description**:
+Tags: windows, odbc, db2, diagnostic | Score: -1 | Views: 572 | Answers: 2 | Created: 2024-08-14
+
+**解决方案 / Solution**:
+Did you install the exact version needed? IBM sometimes misses beeing backwards compatible Try to use your "new" ODBC connection with another database client (like Excel) Triple check the data source name AND the driver name ("IBM DB2 ODBC DRIVER"). The name does have to match exactly Test your username/pwd agains the ODBC datasource DBALIAS is the alias for your (DB2) database, not the Alias fpr your datasource (documentation: https://www.connectionstrings.com/ibm-db2/ ) If this does not help, contact software vendor.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163887/odbc-connection-to-local-db2-database-on-windows-10-fails-with-message-data-sou
+
+---
+
+#### 937. How to restrict file size in a specified folder?
+
+**问题描述 / Problem Description**:
+Tags: windows, filesystems, quota, fsrm | Score: -1 | Views: 1235 | Answers: 1 | Created: 2024-08-06
+
+**解决方案 / Solution**:
+No, FSRM or the old Disk Quota's windows are per users or per volume only. You will have to relay on a third party tool to achieve that, but I don't know if one exist. As seen here you are not the only one that ask that, like to that question , but it's un-answered for more than one year.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163558/how-to-restrict-file-size-in-a-specified-folder
+
+---
+
+#### 938. Windows Server DNS failure
+
+**问题描述 / Problem Description**:
+Tags: windows, domain-name-system | Score: -1 | Views: 332 | Answers: 1 | Created: 2024-07-31
+
+**解决方案 / Solution**:
+Shut down the server, unplug it from the wall, let it sit until all of the LED status lights go out (about 20 seconds), plug it back in, turn it on. Network cards are always powered, even when the machine is nominally turned off, specifically to support Wake On LAN - bring a machine up from hibernation if network activity is directed at it. Even a powered-down machine will show network carrier and traffic lights. The problem is that many network cards get into an internal state where certain types of packets cannot be transferred; sometimes, for instance, a machine becomes unavailable to RDP even though it's still exposing its network file shares. And sometimes it just stops handling network traffic at all. I've never gotten a complete explanation for this, my best guess is that the internal memory of the card has gotten fragmented with use to the point that overlong packets can no longer be reassembled. When this happens, my experience is that it cannot be cleared so long as the net card retains power; restart, hard reset, none of that does any good. And network diagnostics typically fail to find anything wrong... except that certain types of network traffic simply disappear. Hence the wall reboot. Getting the card to a completely cold state, without the 5V standby power, seems to be the only thing that will reliably clear the problem. As a side note, I've seen this happen on every variant of Windows from XP on up to 10 and every variant of Windows Server from 2000 to 2023. It seems less frequent on server-grade hardware, and I've never yet seen it on Linux systems, though that last may simply be that I haven't got anywhere near as many Linux systems in service yet.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163336/windows-server-dns-failure
+
+---
+
+#### 939. Can SentinelOne act in a different way on a Windows 10 than on Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, anti-virus, windows-11 | Score: -1 | Views: 358 | Answers: 1 | Created: 2024-07-10
+
+**解决方案 / Solution**:
+I figured out what causes SentinelOne to treat shell commands as threats. This is WindHawk software used to Tweak the Windows UI. Although S1 allows for installation of WindHawk and doesn't report it as a threat, when WH is installed, certain shell commands are treated by S1 as suspicious. WH is an excellent software, but it causes problems with S1.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162325/can-sentinelone-act-in-a-different-way-on-a-windows-10-than-on-windows-11
+
+---
+
+#### 940. Behavior of longest prefix matching in Windows routing
+
+**问题描述 / Problem Description**:
+Tags: ip-routing, windows-11 | Score: -1 | Views: 374 | Answers: 1 | Created: 2023-08-19
+
+**解决方案 / Solution**:
+Since the IP stack was rewritten in Vista to provide feature-parity between IPv4 and IPv6, Windows uses RFC 3484 for both IPv4 and IPv6. The problem you're seeing here is probably due to source address selection. As you don't provide a source address yourself, the system needs to choose one. In IPv4 this should always select the address matching the interface belonging to the route determined from the longest-prefix-match. However, in RFC 3484 near the end of section 5 ("Source Address Selection") there is the following paragraph: Rule 8 may be superseded if the implementation has other means of choosing among source addresses. For example, if the implementation somehow knows which source address will result in the "best" communications performance. (Rule 8 is longest prefix match) As neighbor discovery (or ARP as we say in IPv4) failed for the destination address the router knows that direct contact will fail. Thus the default route is the best match and the address of its associated interface will be used as source address. In your case, if you provide the source address to ping using -s , that should overrule the source address selection and thus the default route should not be tried. (I'm sorry that I have almost no references, but as that change happended about 15 years ago it is hard to find articles of reasonable credibility)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1141927/behavior-of-longest-prefix-matching-in-windows-routing
+
+---
+
+#### 941. Lengthy login delay for Windows 10/11 when not connected to domain
+
+**问题描述 / Problem Description**:
+Tags: domain, windows-10, login, timeout, windows-11 | Score: -1 | Views: 13750 | Answers: 1 | Created: 2023-02-09
+
+**解决方案 / Solution**:
+I was able to fix. In Group Policy on the PC, find this setting: Computer Configuration > Administrative Templates > System > User Profiles > Set maximum wait time for the network if the user has a roaming user profile or remote home directory . I set this to 0. Now, the timeout is brief when I am not on my corporate network.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1122415/lengthy-login-delay-for-windows-10-11-when-not-connected-to-domain
+
+---
+
+#### 942. Server showing a root certificate in the chain that it shouldn't be
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-server-2019, ad-certificate-services | Score: -2 | Views: 233 | Answers: 1 | Created: 2025-04-16
+
+**解决方案 / Solution**:
+My guess: what you think of as the "root" certificate has been actually issued by an upper level CA. In most servers, this "root" certificate has been placed in the trusted root CA store, thus it's considered trustworthy even if they have no clue about who issued it. In that specific server, the actual upper level root certificate has also been added to the trusted root CA store, thus the server is able to follow the whole chain. You should compare the trusted root CA stores of the servers and check whether this "mysterious" ultra-root certificate is present or not.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1179240/server-showing-a-root-certificate-in-the-chain-that-it-shouldnt-be
+
+---
+
+#### 943. Running Windows 11 virtualised on incompatible hardware
+
+**问题描述 / Problem Description**:
+Tags: windows, proxmox | Score: -2 | Views: 614 | Answers: 1 | Created: 2025-04-06
+
+**解决方案 / Solution**:
+I have a perfectly good Dell Precision R5500 (192GB RAM, Dual X5670, 3 x Quadro GPUs) This system is unfit to run Windows 11. The processor is 15 years old and is not supported. "Reliability: Devices that do not meet the minimum system requirements had 52% more kernel mode crashes. Devices that do meet the minimum system requirements had a 99.8% crash free experience." The system should continue to run the existing operating system platform until it can be replaced. Windows 11 supported Intel processors Windows 11 Reliability Design Goals
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1178316/running-windows-11-virtualised-on-incompatible-hardware
+
+---
+
+#### 944. Cannot connect with Outlook 2024 SBS 2010
+
+**问题描述 / Problem Description**:
+Tags: windows, exchange-2010, outlook, windows-sbs-2011, activesync | Score: -2 | Views: 491 | Answers: 2 | Created: 2025-01-31
+
+**解决方案 / Solution**:
+Outlook 2024 requires at least Windows 10 or Windows Server 20221. It also needs a 2-core processor with at least 2.4 GHz clock speed, 4 GB of RAM, and 4 GB of available disk space2. Ensure your system meets these requirements. Since you're using a self-signed certificate, the Certificate Warning is expected. However, this shouldn't prevent the connection if you click "Yes" to continue. Server Not Found Error could be due to several reasons: Exchange 2010 requires RPC encryption by default. If Outlook 2024 is not configured to use RPC encryption, it might fail to connect. Ensure that the Autodiscover service is correctly configured on your Exchange server. This service helps Outlook clients find the Exchange server settings automatically. Verify that the DNS settings are correct and that the Exchange server can be resolved by its hostname. The difference in error messages when using the email address versus Domain\Username suggests that the server is reachable but might not be correctly resolving the mailbox. Double-check the format and accuracy of the credentials.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1172033/cannot-connect-with-outlook-2024-sbs-2010
+
+---
+
+#### 945. Server restore issue
+
+**问题描述 / Problem Description**:
+Tags: windows, backup-restoration | Score: -2 | Views: 65 | Answers: 1 | Created: 2024-12-01
+
+**解决方案 / Solution**:
+Start the server to the Recovery Environment and initiate a System Image Restore from there. https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-recovery-environment--windows-re--technical-reference https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc755163(v=ws.11)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168362/server-restore-issue
+
+---
+
+#### 946. WSL apt install jdk results in 404 Not Found
+
+**问题描述 / Problem Description**:
+Tags: apt, ubuntu-22.04, windows-subsystem-for-linux, windows-11 | Score: -2 | Views: 526 | Answers: 1 | Created: 2024-02-24
+
+**解决方案 / Solution**:
+Apt uses a local cache to speed up fetching new packages. This package could get stale. Location of lists /var/lib/apt/lists what update do Manpage Says about it: update (apt-get(8)) update is used to download package information from all configured sources. Other commands operate on this data to e.g. perform package upgrades or search in and display details about all packages available for installation. Mostly, when using different sources or changed it, then is it recommended running a clean before clean clean clears out the local repository of retrieved package files. It removes everything but the lock file from /var/cache/apt/archives/ and /var/cache/apt/archives/partial/. Why did it solve now an 404 error? We have to look into an Packages to keep confusion low, i use one of the packges: Package: libasound2-data Source: alsa-lib Version: 1.2.8-1 Installed-Size: 200 Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org> Architecture: all Replaces: libasound2 (<< 1.2.8-1) Recommends: alsa-ucm-conf, alsa-topology-conf Suggests: alsa-utils Breaks: libasound2 (<< 1.2.8-1) Description: Configuration files and profiles for ALSA drivers Multi-Arch: foreign Homepage: https://www.alsa-project.org/ Description-md5: 41f916f1c1cbcf480b3b7fe38fbcef23 Tag: role::shared-lib Section: libs Priority: optional Filename: pool/main/a/alsa-lib/libasound2-data_1.2.8-1_all.deb Size: 20488 MD5sum: 8cdd32445982638bf5d024453da19673 SHA256: fe0780d2d3674b2977e0acb0d48b448ad72ba1642564b7dc537f55e839984c2d It tells apt, that the file is located in pool/main/a/alsa-lib/libasound2-data_1.2.8-1_all.deb But it could happen, that the file has been replaced by another version and may now unavailable. That is the reason, why it is so important to execute apt update regularly before installing packages.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1155216/wsl-apt-install-jdk-results-in-404-not-found
+
+---
+
+#### 947. IIS Windows 11 problems / alternative
+
+**问题描述 / Problem Description**:
+Tags: iis, web-hosting, local-area-network, windows-11 | Score: -2 | Views: 1037 | Answers: 1 | Created: 2023-10-05
+
+**解决方案 / Solution**:
+If you're facing issues with IIS on Windows 11 and want a more stable and reliable alternative for hosting .NET web applications on Windows desktop systems, you can consider using the IIS Express or Kestrel web servers, which are lightweight and designed for development and hosting on Windows desktop environments. These alternatives can provide a smoother experience compared to the full IIS on Windows 11 desktop systems. IIS Express : IIS Express is a lightweight, self-contained version of IIS that is designed for developers and is suitable for hosting .NET web applications on Windows desktop systems. It's easy to install and can be configured to work with Visual Studio, allowing you to develop and test web applications locally. IIS Express doesn't require administrative privileges and can be used for development without the need for server-grade configurations. To use IIS Express, you can configure your .NET project in Visual Studio to use it as the development server. Visual Studio provides built-in support for IIS Express, making it easy to develop and test web applications. Kestrel : Kestrel is a cross-platform, open-source web server developed by Microsoft and is the default web server for ASP.NET Core applications. While it's primarily designed for ASP.NET Core applications, Kestrel can also host other .NET applications. Kestrel can run as a standalone server or be reverse-proxied behind a web server like Nginx or Apache if needed. To use Kestrel, you can create and configure an ASP.NET Core project in Visual Studio or use the .NET CLI to create and run web applications. These alternatives should provide a more stable experience for hosting .NET web applications on Windows 11 desktop systems. They are well-suited for development and testing scenarios and do not require the complexities of full IIS installations. However, keep in mind that for production environments or scenarios with more extensive hosting needs, you may still want to consider Windows Server and full IIS.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1145180/iis-windows-11-problems-alternative
+
+---
+
+#### 948. How to convert large web browsable xml files to pdf or html on a 32 bits Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, 32-bit, xml | Score: 0 | Views: 27 | Answers: 1 | Created: 2026-04-29
+
+**解决方案 / Solution**:
+I'm running into address space limitation when I try to open the file in a web browser like Firefox. If the XLS style sheet can be simplified, that might reduce the memory requirements a little. How can I convert this file to HTML or PDF format? There are probably many tools that will do this (e.g. xmllint ) but there is no guarantee that doing this conversion will result in a single HTML or PDF file that can be viewed using less memory than the original. If a plain text view is usable, that is likely to have more viewing tools available that don't load the whole file into RAM. I'm thinking of tools like less applied to some pretty-printed form of the data from the XML file (or even to the raw XML if that is at all readable) I would suggest processing the XML to create one or more indexes and smaller files of each data object. This might be achieved by importing into a DBMS or by using or creating simpler tools. It is hard to say more without seeing some example XML (with sensitive data sanitised in some way).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937150/how-to-convert-large-web-browsable-xml-files-to-pdf-or-html-on-a-32-bits-windows
+
+---
+
+#### 949. Unknown Close Window key combination that is NOT Alt+F4
+
+**问题描述 / Problem Description**:
+Tags: windows-10, keyboard-shortcuts, notepad++ | Score: 15 | Views: 3441 | Answers: 4 | Created: 2025-08-20
+
+**解决方案 / Solution**:
+It will not close the Notepad++ program, but CTRL+W will close the current file (tab); CTRL+Shift+W will close all open files. You can bring back closed files in order with CTRL+Shift+T
+
+**参考链接 / References**:
+- https://superuser.com/questions/1919674/unknown-close-window-key-combination-that-is-not-altf4
+
+---
+
+#### 950. Why is Discord picking up internal PC audio when on a headset?
+
+**问题描述 / Problem Description**:
+Tags: windows, audio, discord | Score: 14 | Views: 3884 | Answers: 1 | Created: 2025-12-31
+
+**解决方案 / Solution**:
+To ensure no sound is picked up by any device, no matter if you know what Discord uses or not, you can also simply globally mute yourself in the main menu bar: which you can also toggle with Ctrl + Shift + M . Of course this is, logically, mainly an advice for when you don't know what kind of device Discord uses (with e.g. Windows Default left in settings) and want to mute that, not when you want to use an actual microphone, which you should set up as audio device in Discord Voice & Video settings in that case.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933113/why-is-discord-picking-up-internal-pc-audio-when-on-a-headset
+
+---
+
+#### 951. How to replace Windows 11 Explorer breadcrumbs with classic full path textbox?
+
+**问题描述 / Problem Description**:
+Tags: windows-explorer, windows-11, path, navigation | Score: 9 | Views: 1588 | Answers: 2 | Created: 2025-12-17
+
+**解决方案 / Solution**:
+Consider enabling the option "Display the full path in the title bar": It won't affect the location/address bar, but it will change what is shown in the top title/tab bar: This should at least help you with the problem of not seeing what drive you are on. As an aside, I don't seem to get the same behaviour you show; the 'breadcrumbs' don't get collapsed until there is no longer any free space to show the leaf of the path.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932568/how-to-replace-windows-11-explorer-breadcrumbs-with-classic-full-path-textbox
+
+---
+
+#### 952. What is constantly taking space on my computer?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, disk-space | Score: 7 | Views: 1801 | Answers: 3 | Created: 2025-11-24
+
+**解决方案 / Solution**:
+If the C: drive shows only 207 GB, check Computer Management > Disk Management to see if there’s any unformatted or unallocated space on the disk. Regarding the MB you’re getting back: If it’s only a small amount up or down, that can happen because of normal system activity, different apps, the OS, temp files, and so on. To track where the space is being used, check which files or folders were recently modified and look for anything growing unexpectedly. If none of the above explains it, I’d dig deeper to look for other disk attributes or signs of a failing or broken drive.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930565/what-is-constantly-taking-space-on-my-computer
+
+---
+
+#### 953. Which "audio software" displays this message about a restart?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, audio, drivers | Score: 7 | Views: 1642 | Answers: 3 | Created: 2025-08-14
+
+**解决方案 / Solution**:
+As mentioned in a comment, it is the Nahimic software. The text appears in NahimicService.exe . It can be verified using the SysInternals Strings utility, e.g. strings "C:\Windows\System32\NahimicService.exe" | findstr installation The output is Please note a computer restart is needed to complete your audio software installation. installation. Do you want to restart now? Nahimic describes itself as a premium audio driver and app built into the heart of select PCs. Given that it operates at highest privileges within CSRSS, "into the heart" is probably true.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1918196/which-audio-software-displays-this-message-about-a-restart
+
+---
+
+#### 954. Is it possible to scroll past the bottom / have empty space below the cursor with Windows Terminal?
+
+**问题描述 / Problem Description**:
+Tags: windows, command-line, terminal, scrolling | Score: 6 | Views: 993 | Answers: 3 | Created: 2025-12-29
+
+**解决方案 / Solution**:
+Set your shell prompt to a sequence that outputs multiple lines, then moves the cursor back up the same amount of lines. Both Conhost and Windows Terminal support the 'ANSI' or 'ECMA' terminal control codes now. set PROMPT=$_$_$_$_$_$e[5A$P$G $_ outputs a newline, $e[5A moves the cursor five lines up. The Bash equivalent is PS1='\n\n\n\n\n\e[5A\u@\h \w\$ ' . does Windows Terminal support "scroll past bottom" like classic [conhost] I couldn't find any setting to allow that. If not, is this a known design limitation of Windows Terminal? Conhost and the Windows Console API was designed for a fixed-size 'display' buffer. If it's 300 lines tall then it's 300 lines tall (meaning that – from what I remember – you stop being able to scroll past the bottom if you fill up those 300 lines). Windows Terminal was created as part of Microsoft's effort to switch away from the Console API and towards the Unix-style "tty" API. Due to their roots in a paper-based teletype (versus a fixed-size CRT), Unix-style terminals are more stream-oriented, and the dynamically-growing scrollback in terminal emulators kind of reflects that. Most terminal emulators don't support forward scrolling (unless they implement 'jump scroll').
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933051/is-it-possible-to-scroll-past-the-bottom-have-empty-space-below-the-cursor-wit
+
+---
+
+#### 955. How to prepare an encrypted Linux document to be opened on Windows 11
+
+**问题描述 / Problem Description**:
+Tags: windows, linux | Score: 5 | Views: 884 | Answers: 1 | Created: 2026-01-05
+
+**解决方案 / Solution**:
+Office 2019 cannot open encrypted .odt documents, but it can open encrypted .docx documents produced by LibreOffice 25. Both the "Word 2010+" and "Word 2007" formats seem to use strong encryption. Encrypted PDFs can be opened with Microsoft Edge. Encrypted Zip/RAR/7z archives can be opened through Explorer. Windows 10 was unsuitable in this regard (only supporting .zip with ZipCrypto), but modern Windows 11 has replaced its ancient .zip archive support with libarchive – which means it should be able to open typical password-protected zip/rar/7z archives without issues, and without requiring any separately-installed third-party software. (Libarchive is third-party but it's bundled so it doesn't count.) (When creating a Zip archive make sure to choose AES encryption, not the trivially crackable ZipCrypto! For the other two formats I think AES is always the default.) In all cases, keep in mind that although the encryption is the same AES, the strength of the key derivation process (how the password is converted to a key) is usually not prominently advertised by any of these document formats – a weak KDF makes password-guessing much faster – so you should always use a decently long password to compensate. Some 12–15 characters should be fine.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933318/how-to-prepare-an-encrypted-linux-document-to-be-opened-on-windows-11
+
+---
+
+#### 956. How to get a Windows ARM64 native version of Firefox?
+
+**问题描述 / Problem Description**:
+Tags: windows, firefox, arm | Score: 5 | Views: 1593 | Answers: 2 | Created: 2025-12-29
+
+**解决方案 / Solution**:
+You can get the ARM64 builds directly from Firefox’s download page for current releases which offers ARM64 variants It is listed under windows ARM64/AArch64
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933059/how-to-get-a-windows-arm64-native-version-of-firefox
+
+---
+
+#### 957. How to make a symbolic link from Windows Explorer?
+
+**问题描述 / Problem Description**:
+Tags: windows, symbolic-link | Score: 5 | Views: 926 | Answers: 3 | Created: 2025-12-19
+
+**解决方案 / Solution**:
+Based on the post by @Danijel, if I create a cmd file (links.cmd) in include with mklink xxx.h ..\include\xxx.h mklink yyy.h ..\include\yyy.h And then from windows explorer, navigate to project1 and in the address bar, type ..\include\links.cmd the symbolic link is created. Haven't found a way of doing this without the intermediate file. Still searching
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932653/how-to-make-a-symbolic-link-from-windows-explorer
+
+---
+
+#### 958. In Windows 11 firewall default setting, why are there two identical rules for ICMP, and what does (restrictive) in rule names mean?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, firewall, windows-firewall, windows-11-25h2 | Score: 5 | Views: 1093 | Answers: 2 | Created: 2025-12-14
+
+**解决方案 / Solution**:
+In case you still wonder what the "restrictive" tag means, it means this new rule no longer allows inbound ports 137-139, which was used for the legacy SMB 1 protocol. SMB 1 has no longer been enabled by default for quite some time, and this recent firewall ruleset change reflects that. The old ruleset is preserved for backward compatibility if you somehow still need the old, insecure protocol. This was explained in a Microsoft Tech Community blogpost by Ned Pyle. To quote directly: Before Previously, creating a share automatically configured the firewall to enable the rules in the “File and Printer Sharing” group for the given firewall profiles. This began in Windows XP SP2 with the introduction of the then-new built in firewall, and the rule was designed for both SMB1 and ease of deployment of a wide array of SMB-using technology, including printing, legacy group policy, and others. Now Windows now automatically configures the new “File and Printer Sharing (Restrictive)” group when you create an SMB share, which no longer contains inbound NetBIOS ports 137-139. Those ports are not used by SMB2 or later and are an artifact of SMB1. If you reinstall SMB1 server for some legacy compatibility reason, you will need to ensure that those firewall ports are reopened. This change enforces a higher degree of default of network security as well as bringing SMB firewall rules closer to the Windows Server “File Server” role behavior, which only opens the minimum ports needed to connect and manage sharing. Administrators can still configure the “File and Printer Sharing” group if necessary as well as modify this new firewall group, these are just default behaviors.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932444/in-windows-11-firewall-default-setting-why-are-there-two-identical-rules-for-ic
+
+---
+
+#### 959. Extract Metadata "comment" from MP4 using ffmpeg
+
+**问题描述 / Problem Description**:
+Tags: windows, ffmpeg, video, metadata | Score: 5 | Views: 277 | Answers: 1 | Created: 2025-12-11
+
+**解决方案 / Solution**:
+After some struggles with metadata tags, I managed to do it like this with some help from Reddit ffprobe -show_entries format_tags=synopsis -of default=nw=1:nk=1 "Episode 1.mp4" > description.txt The idea is to loop through all MP4 files in the \files directory and for each one, extract the synopsis metadata and the thumbnail metadata into seperate files. And this is my final script: Dim sName ' As String Dim fso ' As New Scripting.FileSystemObject Dim WshShell, oExec Set WshShell = WScript.CreateObject("WScript.Shell") Dim fol ' As Scripting.Folder Dim sFolder ' As String Dim Cmd Dim fil ' As Scripting.File ' create the filesystem object Set fso = CreateObject("Scripting.FileSystemObject") ' sFolder = "C:\files" ' get current folder Set fol = fso.GetFolder(sFolder) ' GET thumbnail and comment metadata for each mp4 file For Each fil In fol.Files if right(fil.Name, 3)="mp4" then ' sanity check - we're creating files in the same directory! sName= Replace(fil.Name, ".mp4", ".jpg") ' output filename ' WScript.Echo sName ' Extract thumbnail from mp4 into jpg file Cmd = "cmd.exe /K ""ffmpeg"" -i files\" & fil.Name & " -map 0:v -map -0:V -c copy files\" & sName 'WScript.Echo Cmd WshShell.Run Cmd, 0, False ' Description/synopsis metadata sName= Replace(fil.Name, ".mp4", ".txt") ' output filename 'WScript.Echo sName ' extract comment/synopsis from mp4 into text file Cmd = "cmd.exe /K ""ffprobe -show_entries format_tags=synopsis -of default=nw=1:nk=1 files\" & fil.Name & " > files\" & sName 'WScript.Echo Cmd WshShell.Run Cmd, 0, False end if Next
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931305/extract-metadata-comment-from-mp4-using-ffmpeg
+
+---
+
+#### 960. How can I paste without formatting but while keeping links on Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows, copy-paste, hyperlink | Score: 4 | Views: 1415 | Answers: 2 | Created: 2025-12-13
+
+**解决方案 / Solution**:
+For me, the easiest is to use an app such as LibreOffice Writer (though I presume MS Word can do the same): In browser, select the area, or press Ctrl A to select everything. Press Ctrl C to copy to clipboard. In word processor, press Ctrl V to paste as formatted. In Style toolbar, select Clear formatting .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932414/how-can-i-paste-without-formatting-but-while-keeping-links-on-windows
+
+---
+
+#### 961. How to get rid of a 'WindowsPowerShell' folder in my 'Documents' folder
+
+**问题描述 / Problem Description**:
+Tags: powershell, windows-11 | Score: 4 | Views: 1151 | Answers: 2 | Created: 2025-12-09
+
+**解决方案 / Solution**:
+While the WindowsPowerShell subfolder [1] of the well-known Documents folder: [2] is used by Windows PowerShell (the legacy, ships-with-Windows, Windows-only edition of PowerShell whose latest and final version is 5.1), namely to store optional user-level profile files and modules , its existence is not necessary for Windows PowerShell to function, and Windows PowerShell does not create it on demand (it is created only through deliberate user action). [3] The above implies that in your case some process that runs on login must be recreating said folder, so you'll have to investigate which one that is. The Sysinternals Autoruns utility can help you with that. Specifically, given that, as you state in a later comment, subfolders Scripts\InstalledScriptInfos are created inside the undesired WindowsPowerShell folder, look for a PowerShell startup task that calls Install-Module and/or Install-Script . Update : You report that the culprit turned out to be the GUI-based meta package manager UniGetUI ... ... and that the unexpected creation of the folder has been reported before, in GitHub issue #2098 , which, however, was closed, due to the misconception that the folder is an integral and necessary part of Windows PowerShell. (As an aside: The above may indicate that it wasn't necessarily a reboot / logging back on per se that caused creation of the folder, but the launching of the UniGetUI application - unless this launch happens as a startup task.) [1] Note that PowerShell (Core) 7 , the modern, cross-platform, install-on-demand successor edition, uses the PowerShell subfolder instead. The rest of this answer applies analogously. [2] Its default location is $env:USERPROFILE\Documents , but it may be redirected to a different location on a given machine, often to OneDrive; use [Environment]::GetFolderPath('MyDocuments') to determine the actual location. [3] Deliberate actions such as force-creating the file that $PROFILE points to with New-Item -Force $PROFILE , which implicitly creates its hosting folder, i.e. WindowsPowerShell under Documents (CAVEAT: if you run this and there's a preexisting file at that location, it will be truncated ) or such as installing a module or script with Install-Module or Install-Script . Conversely, you can verify that the folder is not (re)created on demand as follows: If necessary (only if you see the unexpected creation of the folder), create a new user and log in as that. If the folder exists on your system, temporarily rename it. Then restart your system and run Windows PowerShell: it will start normally, without complaint, and the folder won't be (re)created.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931254/how-to-get-rid-of-a-windowspowershell-folder-in-my-documents-folder
+
+---
+
+#### 962. How do I connect to Active Directory to see Users and Computers?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, active-directory | Score: 4 | Views: 3114 | Answers: 3 | Created: 2025-08-06
+
+**解决方案 / Solution**:
+First, that's the wrong console – "Users and Computers" is dsa.msc . (Though all of them use the same credentials. You can also run mmc.exe and build a custom AD mega-console.) Second, if all you have is an IP address, then that's not enough for a secure connection. Both Kerberos and TLS generally require a full domain name of the system you're connecting to (i.e. the domain controller in this case). Without that, the AD clients will only be able to use NTLM security – probably okay if it's used over some kind of corporate VPN, but really bad practice in general. If the program doesn't ask you for credentials, there are still two ways to run it with different network credentials than the default ones: The easiest way is to store the credentials in your Windows Credential Manager: cmdkey /add:dc01.ad.example.com /user:you@ad.example.com /p -or- cmdkey /add:*.ad.example.com /user:you@ad.example.com /p The parameter to /add: is the server name you're connecting to. When connecting to an IP address, specify that IP address. When connecting to a hostname, specify that hostname, e.g. dc1.example.com (wildcards like *.example.com also work). You can also do this through the "Credential Manager" GUI; make sure to create it as a "Windows" credential and not a "Generic" one. The other way is to use runas /netonly , but this can conflict with UAC (depending on your UAC level) due to mmc.exe being marked as requiring elevation whereas the result of runas is non-elevated. runas /netonly /u:you@ad.example.com cmd (Not 'full' runas as your system doesn't have the account in question, and the Active Directory consoles actually refuse being run under runas anyway, but /netonly will suffice.) In both cases, it is strongly preferred to specify the username as user@domain or user@REALM – e.g. fred@ad.example.com or fred@AD.EXAMPLE.COM – not as the legacy DOM\user syntax. Domain-joined machines still recognize the latter format as equivalent, but a non-joined one wouldn't be able to discover the domain controllers for Kerberos if it doesn't know the full domain name, therefore limiting you to insecure NTLM authentication. (Though at the moment, using raw IP addresses already limits you to NTLM anyway...) Another note: Connecting from a non-joined machine can result in connections being somewhat slow, as Windows often does not properly cache the Kerberos tickets and will keep re-acquiring them anew for every connection (even though they remain valid for several hours).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1916064/how-do-i-connect-to-active-directory-to-see-users-and-computers
+
+---
+
+#### 963. How to use an app from Microsoft Store as Git editor?
+
+**问题描述 / Problem Description**:
+Tags: windows, bash, git, git-bash, microsoft-store | Score: 3 | Views: 721 | Answers: 2 | Created: 2026-01-06
+
+**解决方案 / Solution**:
+The Store package for Kate already defines an app execution alias kate.exe , which Windows publishes at $LOCALAPPDATA/Microsoft/WindowsApps/kate.exe . The location is in $PATH by default, so change your configuration to: editor = kate.exe --startanon --new --block If you don't have a kate.exe in that location, check if you have manually disabled the alias in Settings → Apps → App Execution Aliases .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933351/how-to-use-an-app-from-microsoft-store-as-git-editor
+
+---
+
+#### 964. .cda music files on commercial audio CD are not recognized with their media information
+
+**问题描述 / Problem Description**:
+Tags: windows, audio, windows-media-player, compact-disc, music | Score: 3 | Views: 5105 | Answers: 6 | Created: 2025-12-26
+
+**解决方案 / Solution**:
+First, ignore what Explorer shows. CD-Audio discs do not actually contain the tracks as files – the .cda files are just something Windows made up, and it always uses names in the format Track##.cda . (Some Windows media players recognize those as stand-ins for the actual audio tracks, but that's all they are.) As for what Windows Media Player shows – the second issue is that many commercial CDs simply don't have track names at all. The "CD-Text" extension was a later addition to the audio CD format, and never quite became universally adopted. I've owned far more CDs didn't have CD-Text than ones which did. (I am also not sure whether WMP supported reading CD-Text at all.) Instead, many CD player apps try to retrieve track information from some online database, like FreeDB or Gracenote CDDB or similar. Those databases don't always have data for all CDs (e.g. for FreeDB, another CD owner had to submit the data first) – and it's also possible that whichever database Windows Media Player uses might not be online anymore, given that it is effectively a Windows 7 era app that hasn't really seen updates for 15 years now. (And even when CD-Text is present, it contains nothing more but text. Specifically, it cannot store album artwork – the cover art always has to be obtained from online databases.) It used to be common to just rip the "unnamed" tracks first, tag them later once they're in regular 'file' format (e.g. using MusicBrainz or Discogs tools). Suggestions: For WMP, make sure "Options > Privacy > Display media information from the Internet" is enabled. Then right-click the CD in the tree and select "Find album info": Audio CDs have no real unique ID, so the program will ask you to choose between several "close" matches. However, like all others, the database used by WMP is incomplete: At the moment I only have one audio CD to test with (a release from 2012) and WMP doesn't know about it. Try using a different media player, e.g. DBPoweramp, Foobar2000, Winamp (or WACUP) – e.g. FB2k uses its own FreeDB server. Rip all the tracks into regular files (.mp3 or other format), then tag those files (either manually or using the aforementioned MusicBrainz). (You can even use WMP itself for ripping, but make sure to select a high-quality format under "Rip settings". Avoid the "Windows Media Audio" formats. Generally I would say MP3 (320k CBR) is good enough for most listening – especially since you have the physical CDs anyway – but it seems WMP can actually do FLAC if you want lossless.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932900/cda-music-files-on-commercial-audio-cd-are-not-recognized-with-their-media-info
+
+---
+
+#### 965. Why doesn’t sleep mode (S3) turn on in the BIOS on my Lecoo Pro 14 laptop (N155A, Lenovo sub-brand) with Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: bios, windows-11, sleep, lenovo-laptop | Score: 3 | Views: 599 | Answers: 1 | Created: 2025-12-04
+
+**解决方案 / Solution**:
+Microsoft has decreed stated , "Switching between S3 and Modern Standby cannot be done by changing a setting in the BIOS. Switching the power model is not supported in Windows without a complete OS re-install. " So your choices appear to be: Reinstall Windows 11 de novo , losing all data, customization and settings. Use another OS, e.g., Linux . Don't use S3 sleep.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931049/why-doesn-t-sleep-mode-s3-turn-on-in-the-bios-on-my-lecoo-pro-14-laptop-n155a
+
+---
+
+#### 966. How do I reinstate the ability to combine Windows commands in my WSL command with WSL directories?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, filesystems, windows-subsystem-for-linux, windows-11-24h2 | Score: 3 | Views: 261 | Answers: 2 | Created: 2025-11-28
+
+**解决方案 / Solution**:
+The utility sigcheck.exe is a Windows utility, and cannot find the file on your linux partition /mnt/c/Development/.... When leaving out the grep and doing: find /mnt/c/Development -name "abseil_dll.dll" -exec /mnt/c/Development/util/sigcheck.exe {} \; You will probably see something like: Sigcheck v2.90 - File version and signature viewer Copyright (C) 2004-2022 Mark Russinovich Sysinternals - www.sysinternals.com usage: sigcheck [-a][-h][-i][-e][-l][-n][[-s]|[-c|-ct]|[-m]][-q][-p <policy GUID>][-r][-u][-vt][-v[r][s]][-f catalog file] [-w file] <file or directory> usage: sigcheck -d [-c|-ct] [-w file] <file or directory> usage: sigcheck -o [-vt][-v[r]] [-w file] <sigcheck csv file> usage: sigcheck -t[u][v] [-i] [-c|-ct] [-w file] <certificate store name|*> -a Show extended version information. The entropy measure reported is the bits per byte of information of the file's contents. -c CSV output with comma deli........ Which is the output when no parameters, or invalid parameters, are given.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930779/how-do-i-reinstate-the-ability-to-combine-windows-commands-in-my-wsl-command-wit
+
+---
+
+#### 967. Why is my Bash script terminating in WSL?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, wsl2 | Score: 3 | Views: 489 | Answers: 1 | Created: 2025-08-27
+
+**解决方案 / Solution**:
+This is a issue with insufficient amount of RAM. It appears you figured that out
+
+**参考链接 / References**:
+- https://superuser.com/questions/1921822/why-is-my-bash-script-terminating-in-wsl
+
+---
+
+#### 968. How should I format a USB 2.0 flash drive? The only option is exFAT(default) and NTFS
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, usb, filesystems, usb-flash-drive | Score: 3 | Views: 513 | Answers: 1 | Created: 2025-07-20
+
+**解决方案 / Solution**:
+Windows will not let you format drives lager than 32GB as FAT32, even though this is technically possible. For such drives Windows wil only allow ExFAT and NTFS. Your phone will probably not be able to handle NTFS at all and the TV may have issues with it as well. (Depending on how Windows did the NTFS format: there are 2 ways to do it and since this is an external hardrive Windows may have picked the wrong one.) FAT32 seems to be the best option for compatibility reasons, as all 3 devices can use it, but you need to have the drive formatted by other software than the default Microsoft format utility. (Windows will use an already formatted FAT32 drive without issues. The limitation only exist if the Windows build-in format utility needs to do the formatting.) If the phone or the TV is able to do the formatting themselves have 1 of them do the FAT32 format. If that option isn't available you will need a 3rd party "partition and format" tool for Windows that will do FAT32 on >32GB drives. ("Minitool Partition Wizard" is already mentioned in the comments by patkim. There are countless others.) Please note: FAT32 is limited to a maximum size of a individual file of 4 GB. This may be problematic with some movies.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1911810/how-should-i-format-a-usb-2-0-flash-drive-the-only-option-is-exfatdefault-and
+
+---
+
+#### 969. CD metadata not retrievable with WMP
+
+**问题描述 / Problem Description**:
+Tags: windows, metadata, compact-disc | Score: 2 | Views: 363 | Answers: 1 | Created: 2026-01-06
+
+**解决方案 / Solution**:
+Both Exact Audio Copy (EAC) and MP3Tag should still work for sourcing and downloading metadata for ripped (or ripping) CDs. Both apps source from multiple music metadata services (MusicBrainz, freedb, Discogs, etc), so any single service going down will not cause the apps to stop working. The difference between them is that EAC is about ripping CDs, while MP3Tag is about finding and adding Metadata to digital audio files you've already stored on your computer, so you'd run it after you have ripped the files. So, we'll look at EAC as the "total" package solution. Note that I have sourced these instructions from Ardakilic's documentation on Github . Please visit those links for more detailed instructions. But note that they have not been updated in some time. EAC does not appear to publish any documentation of its own. Once you've installed EAC, you'll want to review the various Options... in the EAC menu to confirm things like compression, metadata, and other relevant ripping options are set as you prefer. After that, insert your CD and you should get a prompt from EAC with the various albums that match the CD's identification. Because EAC sources from multiple sources, you should expect duplicates here. Choose the album that best matches, and click OK. The EAC window should now populate with the track info from the source you've selected and you can change or correct any info before you proceed with ripping. In the Database menu you'll also find some bulk editing options, which you may find helpful. Note that because EAC is about very precise and high-fidelity duplication, its default rip speeds may appear quite a bit slower than more consumer-focused products. You may wish to adjust settings to find something that meets your specific needs.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933364/cd-metadata-not-retrievable-with-wmp
+
+---
+
+#### 970. How to open Windows snipping tool (snippingtool.exe) in Python?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, python, clipboard, screenshot | Score: 2 | Views: 277 | Answers: 1 | Created: 2025-12-30
+
+**解决方案 / Solution**:
+As Dr_Xunil suggested in the comment, you can achieve this using the below import os os.startfile("ms-screenclip:") This launches the same snip overlay as Win + Shift + S , without opening the Snipping Tool window. This will work with Windows 10 and 11.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933082/how-to-open-windows-snipping-tool-snippingtool-exe-in-python
+
+---
+
+#### 971. NTFS volume on Windows 10 is not journaling changed ranges
+
+**问题描述 / Problem Description**:
+Tags: windows, ntfs | Score: 2 | Views: 166 | Answers: 1 | Created: 2025-12-21
+
+**解决方案 / Solution**:
+The answer appears to be that certain Windows builds have journaling logic that differs from what's documented. In particular, LTSC 2019 and LTSC 2021 versions won't log changed ranges for files that were created before the range tracking was enabled . For files created after modified ranges are logged. Remounting the volume appears to reset this behavior, as does a system reboot. There are no traces of this behavior in the documentation, nor on the Microsoft support forums or elsewhere. So if you are hitting this issue, please leave a comment to help aggregating some evidence.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932799/ntfs-volume-on-windows-10-is-not-journaling-changed-ranges
+
+---
+
+#### 972. How to make an ISO of a Windows 7 system partition?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-7, partitioning, iso-image | Score: 2 | Views: 135 | Answers: 1 | Created: 2025-12-16
+
+**解决方案 / Solution**:
+There are a number of utilities that can make an ISO file of an entire drive: Using native Windows DISM Command (which might or might not work for Windows 7) Using AOMEI Backupper Using EaseUS Todo Backup That said, do you want to make an image of a drive which is likely to have logins, passwords, and other PII data on it, and hand it to a customer ?? Perhaps it makes more sense to have that customer send you the drive, and for you to set up (deprecatd) Windows 7 and the software.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932537/how-to-make-an-iso-of-a-windows-7-system-partition
+
+---
+
+#### 973. Can I disable the swipe-up of auto-hidden taskbar in Windows 11 touchscreen?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, gestures | Score: 2 | Views: 350 | Answers: 1 | Created: 2025-12-10
+
+**解决方案 / Solution**:
+While it is possible to remap or reconfigure "edge swipe" in Windows 11, that only impacts the left- and right-edge swipe actions. There is no method currently known to remap the bottom-edge swipe that brings up the taskbar.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931282/can-i-disable-the-swipe-up-of-auto-hidden-taskbar-in-windows-11-touchscreen
+
+---
+
+#### 974. How can I configure Windows 11 so that one installation can access the files of the other installation on the same laptop?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, file-permissions, dualboot, windows-11-24h2 | Score: 2 | Views: 508 | Answers: 1 | Created: 2025-11-23
+
+**解决方案 / Solution**:
+First decide on the location: If possible, start by creating a dedicated folder for the shared files, e.g. C:\Shared . If that's not an option, give yourself access to just specific subfolders within your user profile, e.g. Documents or Desktop . Even though you don't have access to the profile's base directory, you will be able to reach subdirectories by full path (e.g. E:\Users\Franck\Desktop ), while still avoiding the risk of messing up the whole user profile. If that's still not an option, you can try adding yourself access to your other profile directory – I recall this used to work without issues in the past, but that was before the Appx/Msix era. I believe it should still be safe to add a different user to your user profile directory's ACL, as long as you don't use the heavyweight methods that fully reset the ACL (or worse, take ownership). That is, absolutely do not let Explorer "fix" your access when it shows the dialog box. For example, if you're on installation B and logged in as OtherFranck , you could open Cmd or PowerShell "as Administrator" and use: icacls E:\Users\Franck /grant "OtherFranck:(OI)(CI)(F)" (But again, preferably, do this either on a subdirectory like Desktop , or on a whole separate directory like C:\Shared files .) Note: Internally all ACL entries refer to users by their SID, not name. It is normal that the "other" user will show up as a raw SID without a name, because the current Windows installation has no way of looking up names for SIDs that belong to some other installation – that doesn't mean the entry is broken. There are "common" SIDs, e.g. the Administrators group or the special Everyone SID are identical across all installations. (The former already has access to your files, but UAC is preventing that from being effective. The latter is a good choice for NTFS USB sticks or dedicated shared folders, but I would not use it on your 'user profile' folder.) Alternative approach: Use a third-party file manager that can be run "as Administrator", such as Total Commander or its 1000 clones. (The Administrators group SID is the same across all installations, so it can access a different installation's user files by default.) Such a file manager would let you copy out files from the other installation.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930560/how-can-i-configure-windows-11-so-that-one-installation-can-access-the-files-of
+
+---
+
+#### 975. Why am I getting a catastrophic failure in WSL?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, wsl2 | Score: 2 | Views: 6142 | Answers: 1 | Created: 2025-08-27
+
+**解决方案 / Solution**:
+It's because of insufficient amount of RAM. This is a known issue with WSL. See this http://github.com/microsoft/WSL/issues/13263/
+
+**参考链接 / References**:
+- https://superuser.com/questions/1921809/why-am-i-getting-a-catastrophic-failure-in-wsl
+
+---
+
+#### 976. These Group policies look wrong to me
+
+**问题描述 / Problem Description**:
+Tags: windows-10, windows-update, group-policy | Score: 2 | Views: 199 | Answers: 1 | Created: 2025-08-11
+
+**解决方案 / Solution**:
+This is what I have had to do. In gpedit.msc, : Computer Configuration → Administrative Templates → Windows Components → Windows Update , None of the policies were configured. The registry had these entries [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate] "DoNotConnectToWindowsUpdateInternetLocations"=dword:00000001 "WUServer"="localserver.localdomain.wsus" "WUStatusServer"="localserver.localdomain.wsus" "UpdateServiceUrlAlternate"="wsus.localdomain.localserver" [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU] "NoAutoRebootWithLoggedOnUsers"=dword:00000001 "UseWUServer"=dword:00000001 I deleted them and rebooted, the Update Section came up with 4 new policies. I did not find them in the policy editor, registry or files. I ran SFC /SCANNOW , nothing I ran DISM /Online /Cleanup-Image /RestoreHealth , nothing I found some strange entries in the registry starting kup... . I removed them. I ran Kaspersky's KVRT and tdskiller . They didnt find anything. I have Malware Bytes running permanently, ran it manually - nothing. I ran this batch file, that I had downloaded in 2015. It did the trick. @echo off cls REM ================================================================================== REM DESCRIPTION : This script resets all of Windows Update Agent settings. REM AUTHOR : Luca Fabbri REM VERSION HISTORY: 2.0 - Start REM ================================================================================== @echo 1. Stopping Windows Update, BITS, Application Identity, Cryptographic Services and SMS Host Agent services... net stop wuauserv net stop bits net stop appidsvc net stop cryptsvc net stop ccmexec @echo 2. Checking if services were stopped successfully... sc query wuauserv | findstr /I /C:"STOPPED" if %errorlevel% NEQ 0 goto END sc query bits | findstr /I /C:"STOPPED" if %errorlevel% NEQ 0 goto END sc query appidsvc | findstr /I /C:"STOPPED" if %errorlevel% NEQ 0 sc query appidsvc | findstr /I /C:"OpenService FAILED 1060" if %errorlevel% NEQ 0 goto END sc query cryptsvc | findstr /I /C:"STOPPED" if %errorlevel% NEQ 0 goto END sc query ccmexec | findstr /I /C:"STOPPED" if %errorlevel% NEQ 0 sc query ccmexec | findstr /I /C:"OpenService FAILED 1060" if %errorlevel% NEQ 0 goto END @echo 3. Deleting AU cache folder and log file... del /f /q "%ALLUSERSPROFILE%\Application Data\Microsoft\Network\Downloader\qmgr*.dat" del /f /s /q %SystemRoot%\SoftwareDistribution\*.* del /f /s /q %SystemRoot%\system32\catroot2\*.* del /f /q %SystemRoot%\WindowsUpdate.log REM @echo 3. Renaming AU cache folder and log file... REM del /f /q "%ALLUSERSPROFILE%\Application Data\Microsoft\Network\Downloader\qmgr*.dat" REM ren %SystemRoot%\SoftwareDistribution *.bak REM ren %SystemRoot%\system32\catroot2 *.bak REM ren %SystemRoot%\WindowsUpdate.log *.bak REM sc.exe sdset bits D:(A;;CCLCSWRPWPDTLOCRRC;;;SY)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)(A;;CCLCSWLOCRRC;;;AU)(A;;CCLCSWRPWPDTLOCRRC;;;PU) REM sc.exe sdset wuauserv D:(A;;CCLCSWRPWPDTLOCRRC;;;SY)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)(A;;CCLCSWLOCRRC;;;AU)(A;;CCLCSWRPWPDTLOCRRC;;;PU) @echo 4. Re-registering DLL files... cd /d %WinDir%\system32 regsvr32.exe /s atl.dll regsvr32.exe /s urlmon.dll regsvr32.exe /s mshtml.dll regsvr32.exe /s shdocvw.dll regsvr32.exe /s browseui.dll regsvr32.exe /s jscript.dll regsvr32.exe /s vbscript.dll regsvr32.exe /s scrrun.dll regsvr32.exe /s msxml.dll regsvr32.exe /s msxml3.dll regsvr32.exe /s msxml6.dll regsvr32.exe /s actxprxy.dll regsvr32.exe /s softpub.dll regsvr32.exe /s wintrust.dll regsvr32.exe /s dssenh.dll regsvr32.exe /s rsaenh.dll regsvr32.exe /s gpkcsp.dll regsvr32.exe /s sccbase.dll regsvr32.exe /s slbcsp.dll regsvr32.exe /s cryptdlg.dll regsvr32.exe /s oleaut32.dll regsvr32.exe /s ole32.dll regsvr32.exe /s shell32.dll regsvr32.exe /s initpki.dll regsvr32.exe /s wuapi.dll regsvr32.exe /s wuaueng.dll regsvr32.exe /s wuaueng1.dll regsvr32.exe /s wucltui.dll regsvr32.exe /s wups.dll regsvr32.exe /s wups2.dll regsvr32.exe /s wuweb.dll regsvr32.exe /s qmgr.dll regsvr32.exe /s qmgrprxy.dll regsvr32.exe /s wucltux.dll regsvr32.exe /s muweb.dll regsvr32.exe /s wuwebv.dll @echo 5. Removing WSUS Client Id... REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate" /v AccountDomainSid /f REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate" /v PingID /f REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate" /v SusClientId /f @echo 6. Resetting Winsock and WinHTTP Proxy... netsh winsock reset proxycfg.exe -d netsh winhttp reset proxy @echo 7. Starting SMS Host Agent, Cryptographic Services, Application Identity, BITS, Windows Update services... net start ccmexec net start cryptsvc net start appidsvc net start bits net start wuauserv @echo 8. Deleting all BITS jobs... bitsadmin.exe /reset /allusers @echo 9. Forcing AU discovery... wuauclt /resetauthorization /detectnow :END
+
+**参考链接 / References**:
+- https://superuser.com/questions/1917189/these-group-policies-look-wrong-to-me
+
+---
+
+#### 977. How to right click symlink selected folder to predetermined folder in Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, batch, context-menu | Score: 2 | Views: 92 | Answers: 1 | Created: 2025-08-10
+
+**解决方案 / Solution**:
+As long as both paths are local on your PC, then you could try using a junction instead of a symlink, with mklink /j . They don't need admin permissions, but there are some subtle differences like requiring full path names. More details in the answer here: https://stackoverflow.com/questions/9042542
+
+**参考链接 / References**:
+- https://superuser.com/questions/1917016/how-to-right-click-symlink-selected-folder-to-predetermined-folder-in-windows
+
+---
+
+#### 978. Trying to understand Linux Mint and Windows 10 partitions on same HD; 4 (four) partitions and 75% is just unallocated space
+
+**问题描述 / Problem Description**:
+Tags: windows-10, partitioning, linux-mint | Score: 2 | Views: 639 | Answers: 4 | Created: 2025-07-31
+
+**解决方案 / Solution**:
+Rather than try to extend the Linux ext4 partition, which might be difficult, I'd suggest better use of space on the drive. It seems odd that Linux is using 176 GB. Is there a known reason so much space is in use? On multiple PC's, after years of use, with many native Linux and Windows-in- wine apps installed, I find less than 50 GB used on each machine. Clean up system files. Remove old versions of the Linux kernel. It's good practice to keep perhaps three versions. Try cleaning up caches with a tool such as Stacer or an alternative from MakeTechEasier or AlternativeTo . N.B. Know what is being removed! For example, deleting the Search Index cache is safe, but it likely will be refilled, if indexing is on. Other cleanup items might not be safe. Most likely, data , such as a databases, documents, downloads, music, pictures and videos are using up room. Use that 1.5 TB of free space to make a new partition, perhaps formatted ext4 for Linux-only storage. If another partition cannot be added, then extend the 530 MB NTSF partition (likely a Windows Recovery partition) into that free space, and make a separate folder or sub-partition for Linux data. If NTSF, that data can be shared with Windows, too.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1914242/trying-to-understand-linux-mint-and-windows-10-partitions-on-same-hd-4-four-p
+
+---
+
+#### 979. How does Get-Tpm's LockoutCount reset to 0?
+
+**问题描述 / Problem Description**:
+Tags: windows, tpm | Score: 1 | Views: 224 | Answers: 2 | Created: 2026-01-06
+
+**解决方案 / Solution**:
+Dell's document notes that TPM2.0 LockoutCount resets itself after 24 hours, but only so long as the TPM's power cell is powered during that entire period. Microsoft and Dell (same doc as above) both note you can also reset this count by entering the correct TPM admin password in tpm.msc IF you have configured Windows to store the TPM admin password, but Microsoft notes this is no longer stored, by default, beginning with Windows 10, build 1607. I am not sure if this just means that in prior versions it stored this value by default, or if it is not an option at all in Windows versions after that. Update: Windows 11 PowerShell supports the TrustedPlatformModule Module which has the Unblock-Tpm cmdlet that resets TPM lockouts . From the cmdlet's documentation: The Unblock-Tpm cmdlet resets a Trusted Platform Module (TPM) lockout. TPM locks itself to prevent tampering or attack. This is called a lockout. To end a TPM lockout, you must provide a valid owner authorization value. You can enter an owner authorization value or specify a file that contains the value. If you do not provide a value, the cmdlet attempts to use a value stored in the registry. As I noted in a comment above, I was not able to determine the exact connection between LockoutHealTime and resetting a Lockout. While it feels as though it should indicate the time it takes the lockout to reset itself, I was not able to find any info that confirms this, nor was I able to find any connection between the value in that field and the other Lockout Reset info I found.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933372/how-does-get-tpms-lockoutcount-reset-to-0
+
+---
+
+#### 980. How can I setup a Batch file to recurse 2 levels of a directory and run a command?
+
+**问题描述 / Problem Description**:
+Tags: windows, batch | Score: 1 | Views: 277 | Answers: 3 | Created: 2025-12-28
+
+**解决方案 / Solution**:
+To execute commands for only a level of directories, you can use this template: @echo off setlocal enableextensions enabledelayedexpansion (set lf=^ %= Don't remove this line =% ) for /f delims^=^ eol^= %%a in ('robocopy . . /l /s /njh /njs /ns /lev:4') do ( set "dir=%%a" set "dir=!dir:*%cd%\=!" rem Replace backslashes with newlines for %%l in ("!lf!") do set "dirLf=!dir:\=%%~l!" if defined dir for /f %%i in ('cmd /d /v:on /c echo ^^^!dirLf^^^!^| find /c /v ""') do ( rem %%i is the number of lines if "%%i"=="3" ( pushd !dir! echo Currently in: !cd! popd ) ) ) Firstly, to recurse to a certain level, I used robocopy as seen in this StackOverflow answer . The command is explained by dbenham as follows: /L :: List only - don't copy, timestamp or delete any files. /S :: copy Subdirectories, but not empty ones. /NJH :: No Job Header. /NJS :: No Job Summary. /NS :: No Size - don't log file sizes. /LEV:n :: only copy the top n LEVels of the source directory tree. The /lev:n option includes the root in the count, and you want 3 subdirectory levels, which is why I added 1 to the value. String substitution is then used to remove %CD%\ (the current directory plus the backslash) and all whitespaces before it by specifying the asterisk. This would leave behind only the path relative to the current directory. Because there are directories of other levels in robocopy 's output, they are checked for their level. This is achieved by replacing backslashes with newlines and see how many lines there are (i.e. how many subdirectories). The concept is realized as follows: cmd /d /v:on /c echo ^^^!dirLf^^^!^| find /c /v "" find /c /v "" - "" is treated as matching nothing. The /v flag reverses the test, so now it matches everything and /c returns the count. cmd /d /v:on /c echo ^^^!dirLf^^^! - echo alone is not sufficient since the parser would complain or produces defective results. A new instance of cmd should be spawned to read the variable. For demonstration, I tested the script against this directory tree: C:. └───t ├───a │ ├───a │ │ ├───a │ │ └───b │ └───b │ ├───a │ └───b └───b ├───a │ ├───a │ └───b └───b ├───a └───b Which produces: Currently in: C:\Users\Lenovo\test\t\a\a Currently in: C:\Users\Lenovo\test\t\a\b Currently in: C:\Users\Lenovo\test\t\b\a Currently in: C:\Users\Lenovo\test\t\b\b
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933017/how-can-i-setup-a-batch-file-to-recurse-2-levels-of-a-directory-and-run-a-comman
+
+---
+
+#### 981. Is there a way not to have to remember pin and sign in using fingerprint only (and password when fail)?
+
+**问题描述 / Problem Description**:
+Tags: windows, security, pin | Score: 1 | Views: 54 | Answers: 1 | Created: 2025-12-27
+
+**解决方案 / Solution**:
+You can set your PIN to be alpha-numeric so it "feels" like a password and is long enough that your worries about others learning your security info by looking over your shoulder should be soothed. In the Start Menu search for "hello" and open Sign-in options . Under PIN click Change PIN and then check the box " Include letters and symbols ". Now you can create a "complex PIN" that feels, to you, more like a full password, while still being the PIN Windows wants. If you do not see these options, you'll need to add more info to your question, including the specific Windows version, whether this is a work-owned/managed computer or a personal computer you own yourself, what you've tried, other settings you've applied to the system that may relate to this (modifying Group Policy, for instance).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932939/is-there-a-way-not-to-have-to-remember-pin-and-sign-in-using-fingerprint-only-a
+
+---
+
+#### 982. Windows Media Player (Legacy) - Missing Artist/Title etc. when ripping
+
+**问题描述 / Problem Description**:
+Tags: windows-11, windows-media-player | Score: 1 | Views: 4455 | Answers: 2 | Created: 2025-12-26
+
+**解决方案 / Solution**:
+This function (retrieving media data from the web) was working just fine as of November 26th, 2025, on both Media Player Legacy and the new Media Player--my machine is running W11 and has been for some time. The next time I tried ripping some CDs was on December 23rd, 2025, and the function was broken on both MPL and current MP. Any CDs played or attempted to rip show up as Unknown Artist, Unknown Song Name, etc. I have manually run an update, but to no avail. Very frustrating, and, as of this posting, Microsoft does not have a fix.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932886/windows-media-player-legacy-missing-artist-title-etc-when-ripping
+
+---
+
+#### 983. How can I bulk allow "Download insecure file" in Chrome?
+
+**问题描述 / Problem Description**:
+Tags: windows, google-chrome, security, file-download | Score: 1 | Views: 113 | Answers: 1 | Created: 2025-12-23
+
+**解决方案 / Solution**:
+How can I bulk allow "Download insecure file" in Chrome? Based on the comments received here and elsewhere, it seems the answer is a clear: not possible.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932801/how-can-i-bulk-allow-download-insecure-file-in-chrome
+
+---
+
+#### 984. How to format an M2 SSD that had its Windows registry wiped by a registry cleaner?
+
+**问题描述 / Problem Description**:
+Tags: windows, ssd, windows-registry, formatting, ccleaner | Score: 1 | Views: 84 | Answers: 1 | Created: 2025-12-16
+
+**解决方案 / Solution**:
+You have two different issues that are very unlikely to be related: You messed up the Registry. That can make booting hard. But messing up the Registry does not damage the SSD. You probably have a failing SSD. This is the more immediate problem, and one that is making recovering from the Registry goof-up more challenging, but they are not related. Recommendation: Back up your data and replace the SSD. For a lab or test-only device, you can do a clean Windows install and you may need to use diskpart and clean the disk prior to use, and then fdisk to format the drive outside the OS, prior to continuing with that install. But, given the symptoms, you should no longer trust this SSD for normal computer use. Regarding Registry Cleaners: The problem isn't that there isn't a purpose to them; the problem is that for most people, most of the time, they are just unnecessary. I've used CCleaner myself, but it has been decades since I did. It's fine; it's just unnecessary. You just have to know what it is doing, and make sure you take a backup of the registry before you use it. It's possible that your use of it damaged your computer's boot capability, but it's also possible that the process of your SSD aging and dying happened to coincide with that event.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932530/how-to-format-an-m2-ssd-that-had-its-windows-registry-wiped-by-a-registry-cleane
+
+---
+
+#### 985. What is the lowest level in the system outside the GUI where the sound sub-system's volume balance be adjusted?
+
+**问题描述 / Problem Description**:
+Tags: audio, windows-11, windows-registry, volume-mixer, volume-balance | Score: 1 | Views: 49 | Answers: 1 | Created: 2025-12-16
+
+**解决方案 / Solution**:
+The "lowest level" would be the audio driver that controls the output device, but that's unlikely to be the same across the entire range of devices you've tested. Before that you have APOs . However, these are still typically enabled on a per-device basis, so it's unexpected that this would affect multiple devices without something configuring them as such. If you've ever installed Equalizer APO, this is how it operates. APOs appear as "Enhancements" in the audio device properties window. The easiest way to get there is: Open the old sound control panel ( mmsys.cpl , or alternatively Settings => System => Sound => Advanced => More sound settings) Select your sound device Right click => Properties Go to the Enhancements tab (or possibly the Advanced tab) At this point you can see if you have any enhancements enabled, or forcibly disable them all Alternatively, some enhancements options may also be available via Settings => System => Sound => [your device] => Advanced settings => Audio enhancements. Useful further reading: A complete write-up of how APOs work and how they are configured: https://github.com/dechamps/APO This includes the registry entries you were interested in. The Microsoft documentation: https://learn.microsoft.com/en-us/windows-hardware/drivers/audio/audio-processing-object-architecture
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932498/what-is-the-lowest-level-in-the-system-outside-the-gui-where-the-sound-sub-syste
+
+---
+
+#### 986. Why is AppData\Local\Microsoft\WindowsApps sometime replaced with (nowa) in my path?
+
+**问题描述 / Problem Description**:
+Tags: windows, command-line | Score: 1 | Views: 256 | Answers: 1 | Created: 2025-12-14
+
+**解决方案 / Solution**:
+Silly me: on the affected machines a custom install procedure added a file cmd.lnk with target %windir%\system32\cmd.exe /K C:\onlaunch.bat , and script C:\onlaunch.bat . And when I do cmd in the trash that causes C:\onlaunch.bat to be run. And that contains :: neutralize %USERPROFILE%\AppData\Local\Microsoft\WindowsApps which is toxic for python @set "Path=%Path:\AppData\Local\Microsoft\WindowsApps=\(nowa)%" Apologies for the self-generated noise.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932437/why-is-appdata-local-microsoft-windowsapps-sometime-replaced-with-nowa-in-my-p
+
+---
+
+#### 987. How can I view old backup files on Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows, backup | Score: 1 | Views: 175 | Answers: 2 | Created: 2025-12-12
+
+**解决方案 / Solution**:
+WSI is likely Windows System Image and similar DSI posibly a Disk data file these were often used by proprietary apps supplied with the hardware was it Lenovo? Often an EaseUS variant "OneKey Recovery" or "ToDo" https://www.easeus.com/backup-utility/lenovo-system-restore-without-data-loss.html But the use of encryption in such custom types was often the case and may make recovery totally dependent only with that software. For a generic tool that can ATTEMPT to read common archival formats there is 7-Zip. So, if you want a SIMPLE portable Windows GUI viewer (you can delete if no use) . I wrote ListArc.cmd which simply downloads unpacks and calls 7z.exe list command as a Window. So you could then easily sendto or drag and drop any file, To see if it reports the first of each file type as "known". The link is https://github.com/GitHubRulesOK/MyNotes/blob/master/C%23/listarc.cmd Select the down arrow top right of content to get the CMD it should on any modern 10/11 compile an exe but does either download 7-Zip or expect 7z.exe in the same folder. For your case just COPY one each of those file types such as 000.wsi to same folder and drag and drop onto ListArc.exe. If the file is a recognised type it will attempt to show content or report not recognised as a standard archive.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931342/how-can-i-view-old-backup-files-on-windows-11
+
+---
+
+#### 988. Clicking on a Windows 11 Task Bar icon results in a 2nd icon
+
+**问题描述 / Problem Description**:
+Tags: windows-11, taskbar, shortcuts | Score: 1 | Views: 187 | Answers: 1 | Created: 2025-12-09
+
+**解决方案 / Solution**:
+The most common reason this happens is that the path to the actual running executable has changed, usually due to something like an application update. Applications that have launchers that run a different path from the application itself are prone to this happening to them. Also, updating applications sometimes triggers this as well as the path to their executables may change. The most common resolution to this is to unpin the current icon, start the application, then pin the running application's icon, as that will be the pin of the correct running path.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931253/clicking-on-a-windows-11-task-bar-icon-results-in-a-2nd-icon
+
+---
+
+#### 989. How to recover from Acronis True Image corrupting backups?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, raid, data-recovery, file-corruption, acronis-trueimage | Score: 1 | Views: 308 | Answers: 1 | Created: 2025-12-03
+
+**解决方案 / Solution**:
+Restore some files at least I failed to restore or repair the affected backups as a whole at another computer, but I found out that I can recover some files or directories when using the "Files" variant of recovery. You must walk through directory by directory and select those you want. However I cannot mount the TIBX image in another machine! So I restored some of the most important files (when possible) into a temporary directory (The Windows installation still has to be restored from somewhere). Unfortunately when the restore succeeds or aborts, Acronis True Image does not offer a "Back" button to re-adjust the changes; instead you must restart from the beginning each time. If it did, it would be easier to select the items you didn't select so far (if you select too many, the restore may abort very soon, but if you select only a few you may be lucky and be able to restore all of them)-
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930994/how-to-recover-from-acronis-true-image-corrupting-backups
+
+---
+
+#### 990. How can I tell whether Intel VMD (Volume Management Device) was enabled when Windows was installed, without booting that Windows install?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, intel-vmd | Score: 1 | Views: 182 | Answers: 2 | Created: 2025-12-01
+
+**解决方案 / Solution**:
+The only way I know is to search for the iaStorVD.sys file on the Windows partition. If that file exists, so it's probably a signal that Windows was installed with Intel VMD enabled . IaStorVD.sys is one of Driver's files.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930878/how-can-i-tell-whether-intel-vmd-volume-management-device-was-enabled-when-win
+
+---
+
+#### 991. Microsoft EPM Agent installer files being created repeatedly in System32
+
+**问题描述 / Problem Description**:
+Tags: windows-11, windows-installer, intune | Score: 1 | Views: 219 | Answers: 1 | Created: 2025-11-26
+
+**解决方案 / Solution**:
+You state, "I restart Windows but still see these files being added." If this is a personal PC, use Sysinternals (Microsoft) Autoruns to see what is being sun at Startup, and as Scheduled Tasks. Some categories of items likely to harbor that installer include Registry keys HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run and HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce , Scheduled Tasks , and Services , but you can search in Everything for EPM to cover all at once. However, that particular application, Endpoint Privilege Management (EPM) seems much more likely to be of use in a corporate environment. If the PC is in corporate use, check with IT staff. -
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930684/microsoft-epm-agent-installer-files-being-created-repeatedly-in-system32
+
+---
+
+#### 992. Remote Desktop restore down button on multiscreen setup no longer restores size of windowed screen
+
+**问题描述 / Problem Description**:
+Tags: multiple-monitors, remote-desktop, windows-11 | Score: 1 | Views: 147 | Answers: 1 | Created: 2025-11-25
+
+**解决方案 / Solution**:
+I was finally able to find an acceptable compromise by pressing the "Restore Down" button, moving it to one of the lower-resolution monitors and resizing it to fit inside the bounds of this monitor. The issue is that performing this action on a multi-screen configuration with different resolutions, and pressing "Restore Down" on the high-resolution monitor, RDP (now) tries to be intelligent and ends up spanning it across all 3 displays instead of remembering the last size. I suspect this might be a bug in Windows 11 24H2 update.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930661/remote-desktop-restore-down-button-on-multiscreen-setup-no-longer-restores-size
+
+---
+
+#### 993. Why can’t I install any Movavi Programs?
+
+**问题描述 / Problem Description**:
+Tags: installation, windows-11, intel-graphics | Score: 1 | Views: 162 | Answers: 1 | Created: 2025-11-24
+
+**解决方案 / Solution**:
+Basically I was nagging Movavi customer support enough that they offered to do a remote support session. The tech from Russia connects to my computer, downloads Movavi, double clicks it, And Lo and behold the program runs flawlessly! I was floored (and angry!). They literally did not one thing different than what I did before, so now I really had to get to the bottom of this… I had been playing around with some Android emulators the night before so I thought maybe it was because I disabled Windows hypervisor platform Or virtual machine platform. A whole bunch of restarting my computer later, I realized those weren't the culprit. Rather it was a different program that I had running in the background previously, that I had stopped when I was trying to get my emulator to run smoothly. And the answer is Windhawk . Great nifty like program for small things "Modernize Folder Picker Dialog" and "Better file sizes in Explorer details", But apparently it injects itself into every process so all it needed was a program exclusion and Voila Movavi running again. [Now I just found someone that had reported this on github]
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930600/why-can-t-i-install-any-movavi-programs
+
+---
+
+#### 994. I'm trying to make Windows 10 installation media on a USB flash drive but the My devices internal storage is small and it won't allow me to make USB
+
+**问题描述 / Problem Description**:
+Tags: windows-10, hard-drive, usb, usb-flash-drive | Score: 1 | Views: 645 | Answers: 1 | Created: 2025-08-26
+
+**解决方案 / Solution**:
+Here I assume you trying to create a Windows 10 installer on a USB flash drive and you wish to save the temporary files on the 500 GB external storage device. The question Where are the Windows 10 Media Creation Tool temp files located? covers where the temporary files are located. In testing, I was able to move the C:\ESD folder to a external drive, which saves about 4 GB of space on drive C: . However, the Media Creation Tool is unaware of this change and therefore still requires 8 GB of free space on drive C: before proceeding. So basically, you have the following three choices: Temporarily move files from drive C: to the 500 GB external storage device to free up at least 8 GB on drive C: . Do not use the Media Creation Tool and instead manually create the Windows 10 USB flash drive installer. Download Rufus Portable . Use Rufus to download the Windows ISO file to the 500 GB external storage device. Rufus and the downloaded ISO file can then be used to create a Windows 10 installer on the USB flash drive. Steps for the second choice follow. Note Here I assume the 500 GB external storage device is either ExFAT or NTFS formatted. If not, then post a comment and I will update my answer. Open Microsoft Edge settings. Under "Download", the default is to save to your Download folder. Below is what is shown for my computer. Change this to be 500 GB external storage device. For me, this was drive E: , so I changed to what is shown below. Using Microsoft Edge, goto Download Windows 10 . (The URL is https://www.microsoft.com/en-us/software-download/windows10 ). Below is an image of this website. Do either of the following. Press the F12 key, then select the "Open DevTools" button in the popup. Press the Ctrl + Shift + I key combination). Under the available tools, select "Network Conditions", as shown below. Under "User agent", make the selections shown below. Press the F5 key to refresh the webpage. The URL should change to https://www.microsoft.com/en-us/software-download/windows10ISO and the webpage should appear as shown below. Follow the instructions given on the webpage and download the Windows 10 ISO file. In this example, I downloaded 64-bit Windows 10 for US English. The filename is given below. Win10_22H2_English_x64v1.iso When finished downloading, close the "DevTools" window. If desired, set the default download location back to your Downloads folder. Close the Microsoft Edge application. Initialize the USB flash drive. Open a Administrator Command Prompt window and enter the commands given below. I my case, the flash drive was disk 1. If your flash drive is assigned a different number, then make the appropriate substitution when entering the the select disk command. diskpart list disk select disk 1 clean create partition primary format fs=fat32 label=W106422H2V1 quick assign letter=w active exit Use the File Explorer application to mount the downloaded ISO file. In my case, the mount was assigned the drive letter F: . Copy all the files to the flash drive ( W: ). When the following popup appears, select the "Skip" button. Split the install.wim file into smaller files by entering the command below in an Administrator Command Prompt window. If the drive letter for your mounted ISO is not F: , then make the appropriate replacement for f: when entering the command. dism /split-image /imagefile:f:\sources\install.wim /swmfile:w:\sources\install.swm /filesize:4000 Appendix Output from Step 4 Microsoft Windows [Version 10.0.19045.2965] (c) Microsoft Corporation. All rights reserved. C:\Windows\system32>diskpart Microsoft DiskPart version 10.0.19041.964 Copyright (C) Microsoft Corporation. On computer: DESKTOP-S8CAHHB DISKPART> list disk Disk ### Status Size Free Dyn Gpt -------- ------------- ------- ------- --- --- Disk 0 Online 1022 GB 1001 GB Disk 1 Online 14 GB 1024 KB Disk 2 Online 500 GB 1024 KB DISKPART> select disk 1 Disk 1 is now the selected disk. DISKPART> clean DiskPart succeeded in cleaning the disk. DISKPART> create partition primary DiskPart succeeded in creating the specified partition. DISKPART> format fs=fat32 label=W106422H2V1 quick 100 percent completed DiskPart successfully formatted the volume. DISKPART> assign letter=w DiskPart successfully assigned the drive letter or mount point. DISKPART> active DiskPart marked the current partition as active. DISKPART> exit Leaving DiskPart... C:\Windows\system32> Output from Step 6 C:\Windows\system32>dism /split-image /imagefile:f:\sources\install.wim /swmfile:w:\sources\install.swm /filesize:4000 Deployment Image Servicing and Management tool Version: 10.0.19041.844 The operation completed successfully. C:\Windows\system32>
+
+**参考链接 / References**:
+- https://superuser.com/questions/1921625/im-trying-to-make-windows-10-installation-media-on-a-usb-flash-drive-but-the-my
+
+---
+
+#### 995. Why does a 20 year old DVD-RW disk show no data?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, dvd | Score: 1 | Views: 247 | Answers: 2 | Created: 2025-08-20
+
+**解决方案 / Solution**:
+First, some recommended reading: What medium should be used for long term, high volume, data storage (archival)? CLIR.org: How Long Can You Store CDs and DVDs And Use Them Again Quoting from the CLIR.org article: ...the three basic types of CD and DVD discs-ROM, R, and RW and RAM-each use a different data layer material (molded aluminum, organic dye, or phase-changing film, respectively). Deterioration of this material is the primary cause for disc degradation and, ultimately, “end of life” for the disc, assuming proper physical handling. From the section specifically on -R media in order to set baseline expectations: Manufacturers claim that CD-R and DVD-R discs have a shelf life of 5 to 10 years before recording, but no expiration dates are indicated on CD-R, DVD-R, or DVD+R packaging, nor are there published reports of tests to verify these claims. So expected life for -R media is 5-10 years. Now what about -RW media? RW and RAM discs are generally not considered for long-term or archival use, and life expectancy tests are seldom done for this medium. Rewritable discs use a phase-changing metal alloy film for recording data and aluminum for the reflective layer. The alloy film is not as stable as the dye used in R discs because the material normally degrades at a faster rate... To summarize: -RW media, in order to BE REwritable (rather than the write-once -R Recordable disks) uses materials that degrade more quickly than -R, and even longer-lasting -R media are only noted to be good for between 5 and 10 years. You're obviously well past that now, and that's sad, but it's also far too late to do much about it. The articles contain more helpful information about HOW to store various media in order to prolong their lives and maximize data stability, which may be nice to know for your own long-term data storage needs, but is not going to help you or your friend now. A professional data recovery service may be able to use specialized tools and equipment to have a better chance at recovering the data, but there is never a guarantee of this, and the costs are often high.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1919545/why-does-a-20-year-old-dvd-rw-disk-show-no-data
+
+---
+
+#### 996. Why can’t a member of Administrators Group set system time using WMI Win32_OperatingSystem.SetDateTime?
+
+**问题描述 / Problem Description**:
+Tags: permissions, windows-10, wmi, uac | Score: 1 | Views: 185 | Answers: 1 | Created: 2025-08-15
+
+**解决方案 / Solution**:
+In Windows, an account with administrative privileges has two tokens - one normal user token, and one administrative token. Most processes, including explorer, are run with the normal user token. Only when you elevate a program, which normally will include the UAC screen, will that program run using the elevated token - and be able to access features requiring administrative account. This is explained in the article about UAC on Microsofts website . In addition, as you have discovered, accounts can have specific privileges such as set system time, that can be invoked without elevating the process with the administrative access token.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1918425/why-can-t-a-member-of-administrators-group-set-system-time-using-wmi-win32-opera
+
+---
+
+#### 997. Win10 2025-26 "final" ESU availability?
+
+**问题描述 / Problem Description**:
+Tags: windows-10 | Score: 1 | Views: 352 | Answers: 1 | Created: 2025-08-04
+
+**解决方案 / Solution**:
+KB5062649 is a C-Release update, which means it was released the week after a B-Release update, KB5062649 is the the preview update for the August 2025 B-Release update. I would wait until the August 2025 B-Release update is released . Once that update is installed I would run Check-Win10ESUPrereq.ps1 to validate your system validates the ESU requirements. Until the August 2025 update is released, the enrollment like the majority Windows features at least initially, are rolled out to eligible clients over time. In July 2025, the software giant expanded the enrollment to consumers outside of the Insider Program. However, it will not be available to every device until mid-August 2025. This is likely the reason you do not see the wizard. It's simply not available to your device at this time. The August 2025 B-release update according to the typically scheduled would be released by August 19th 2025. Source: Monthly security update release Enable Extended Security Updates (ESU) How to enroll to get free Extended Security Updates (ESU) after Windows 10 support ends
+
+**参考链接 / References**:
+- https://superuser.com/questions/1915331/win10-2025-26-final-esu-availability
+
+---
+
+#### 998. Setting up a whitelist for proxy on Windows 10
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, networking, proxy | Score: 1 | Views: 276 | Answers: 1 | Created: 2025-07-27
+
+**解决方案 / Solution**:
+You need to write a Proxy Auto-Configuration (PAC) file, which is a javascript function executed on every request. https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Proxy_servers_and_tunneling/Proxy_Auto-Configuration_PAC_file
+
+**参考链接 / References**:
+- https://superuser.com/questions/1913234/setting-up-a-whitelist-for-proxy-on-windows-10
+
+---
+
+#### 999. Setting Registry to automatically opening specific key/folder fails when set by batch program
+
+**问题描述 / Problem Description**:
+Tags: windows-10, batch-file, windows-registry, windows-10-v22h2 | Score: 1 | Views: 131 | Answers: 1 | Created: 2025-07-24
+
+**解决方案 / Solution**:
+Your batch file should look something like this: @setlocal @set __COMPAT_LAYER=RunAsInvoker @reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Applets\Regedit /v LastKey /d "Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /f @start regedit Note that the /t flag defaults to REG_SZ (using REG_EXPAND_SZ was wrong) so I have omitted it and you do need to include the Computer\ prefix for the value. I have added the environment variable which disables Regedit's automatic elevation; if you're editing your own HKEY_CURRENT_USER this shouldn't be necessary, and I find it annoying. I have also suggested the use of start so that the batch file can close once Regedit has started, rather than having to wait around for it to finish.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1912582/setting-registry-to-automatically-opening-specific-key-folder-fails-when-set-by
+
+---
+
+#### 1000. How to make a schedule task visible for all users
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, powershell, scheduled-tasks | Score: 1 | Views: 646 | Answers: 1 | Created: 2025-07-23
+
+**解决方案 / Solution**:
+Starting with Windows 10, Microsoft has removed GUI elements (namely the security tab of task elements) that allowed admins to grant restricted user to see and use other tasks but their own. This decision has led to many discussions... Lately, I have written an article that covers all that and provides solutions. Abstract: these scripted solutions change the security descriptor of the tasks accordingly, so that named users will either see the tasks or even be entitled to start them. See https://administrator.de/tutorial/task-berechtigungen-via-powershell-vergeben-672750.html I also link a GUI tool that someone else has coded for the same purpose.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1912346/how-to-make-a-schedule-task-visible-for-all-users
+
+---
+
+#### 1001. How to easily lower screen brightness beyond minimum in Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows, display, brightness | Score: 2 | Views: 127 | Answers: 1 | Created: 2026-04-30
+
+**解决方案 / Solution**:
+I use a lightweight workflow using two small tools that are ~1 MB combined, and uses <10 MB of RAM combined. This setup gives you instant control via your mouse scroll and keyboard, without much clicking. Install ClickMonitorDDC and f.lux . 1. Hardware Control: ClickMonitorDDC - controls the actual monitor backlight via DDC/CI. In the image, blue icon displays volume which is at 60, pink one displays hardware brightness which is at 0. Both can be controlled via mouse scroll. The Shortcut: Drag the icons to your system tray (next to the clock). You can then simply hover over the brightness or volume icon and use your mouse scroll wheel to change levels. Why it's better: No need to touch your monitor’s physical buttons and no clicking anything. Just scroll from any window. 2. Software Dimming: f.lux When your monitor is already at 0% and you still need it darker, use f.lux . The Shortcut: Press Alt + PgDown to dim the screen beyond the hardware minimum. How it works: While this doesn't lower the actual backlight power, it adjusts the colors to simulate a dimmer screen, effectively reducing eye strain. This combo is the fastest way I've found to manage light levels without adding any bloat to your system.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937216/how-to-easily-lower-screen-brightness-beyond-minimum-in-windows
+
+---
+
+#### 1002. How can I quickly and easily check for duplicate files on my machine?
+
+**问题描述 / Problem Description**:
+Tags: powershell, windows-11, cmd.exe | Score: 0 | Views: 19 | Answers: 1 | Created: 2026-05-01
+
+**解决方案 / Solution**:
+You could achieve this by checking file properties (size on disk) and the file hash. This is more resilient than just looking for files with matching properties $files = Get-ChildItem -Path C:\,D:\,E:\ -Recurse -File -ErrorAction SilentlyContinue $dupes = $files | Group-Object Length | Where-Object { $_.Count -gt 1 } | ForEach-Object { $_.Group | Get-FileHash | Group-Object Hash | Where-Object { $_.Count -gt 1 } } $dupes | ForEach-Object { $_.Group } Obviously change the drive letters accordingly. You might also want to exclude some folders, like ..\Windows\* or Program Files , where you have system files which could be spec'd to the SYSTEM variables. -Exclude "Windows","Program Files","Program Files (x86)"` To make it quicker, you can also pass in a file extension filter, for example -Include *.jpg, *.mp4, *.zip The full PowerShell with the exclude for specified folders, and include for extensions would be something like this $files = Get-ChildItem ` -Path C:\,D:\,E:\ ` -Recurse ` -File ` -Include *.jpg, *.png, *.mp4, *.zip ` -Exclude "Windows","Program Files","Program Files (x86)" ` -ErrorAction SilentlyContinue $dupes = $files | Group-Object Length | Where-Object { $_.Count -gt 1 } | ForEach-Object { $_.Group | Get-FileHash | Group-Object Hash | Where-Object { $_.Count -gt 1 } } $dupes | ForEach-Object { $_.Group }
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937234/how-can-i-quickly-and-easily-check-for-duplicate-files-on-my-machine
+
+---
+
+#### 1003. I accidentally sat on my keyboard and pressed some buttons, and now my color settings are way off. What could I have possibly changed???
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0uucb/i_accidentally_sat_on_my_keyboard_and_pressed/
+
+---
+
+#### 1004. Google Drive not downloading all files
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0qx3l/google_drive_not_downloading_all_files/
+
+---
+
+#### 1005. Powering the 5070 Ti SLIM with 2x 8-pin PCIe connectors
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0vtil/powering_the_5070_ti_slim_with_2x_8pin_pcie/
+
+---
+
+#### 1006. What are the cause of these error codes
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0vfqv/what_are_the_cause_of_these_error_codes/
+
+---
+
+#### 1007. My old iPhone, which doesn’t have a provider or a phone number anymore, is receiving texts from presumably the person who now has my old phone number. More info inside.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0k9ax/my_old_iphone_which_doesnt_have_a_provider_or_a/
+
+---
+
+#### 1008. Did I break my PC or am I hacked.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0uk0l/did_i_break_my_pc_or_am_i_hacked/
+
+---
+
+#### 1009. My pc is being weird haah
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0r7wj/my_pc_is_being_weird_haah/
+
+---
+
+#### 1010. Phone fell in the toilet
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0r4qx/phone_fell_in_the_toilet/
+
+---
+
+#### 1011. Non-admin workaround for Windows 11 April 2026 rdp security pop up, select options before connecting annoyance.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0ws7n/nonadmin_workaround_for_windows_11_april_2026_rdp/
+
+---
+
+#### 1012. Lenovo power laptop (P16 Gen 1) making loud noises
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0wp8u/lenovo_power_laptop_p16_gen_1_making_loud_noises/
+
+---
+
+#### 1013. My pc is stuck and saying "undoing changes made to your computer"
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0r0ql/my_pc_is_stuck_and_saying_undoing_changes_made_to/
+
+---
+
+#### 1014. Best way to check and know?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0wh0d/best_way_to_check_and_know/
+
+---
+
+#### 1015. FPS drops fixed on low-end PC (worked for me)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0wc51/fps_drops_fixed_on_lowend_pc_worked_for_me/
+
+---
+
+#### 1016. How in the world are we suppose to upload iPhone content to PC?! I've tried nearly everything. Also Photo Legacy's Consumer Heath & Data Privacy Policy is preposterous.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0qmd9/how_in_the_world_are_we_suppose_to_upload_iphone/
+
+---
+
+#### 1017. Bluetooth speaker is silent for the first second after playing audio
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0w1xf/bluetooth_speaker_is_silent_for_the_first_second/
+
+---
+
+#### 1018. My C: drive is increasinhly losing free space
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0o4be/my_c_drive_is_increasinhly_losing_free_space/
+
+---
+
+#### 1019. Screens black and wont show anything
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0vw2r/screens_black_and_wont_show_anything/
+
+---
+
+#### 1020. So, I noticed that my Windows Defender is literally unavailable. I do not know what to do, this is my only antivirus on my computer. If anyone knows what's going on, tell us how to turn it on.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0vv9h/so_i_noticed_that_my_windows_defender_is/
+
+---
+
+#### 1021. Laptop dell inspiron not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0vo15/laptop_dell_inspiron_not_working/
+
+---
+
+#### 1022. Laptop Issues with Windows
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0vn6l/laptop_issues_with_windows/
+
+---
+
+#### 1023. How to enable Secure Boot on windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0vg2y/how_to_enable_secure_boot_on_windows_11/
+
+---
+
+#### 1024. MS Outlook setup name
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0vdqm/ms_outlook_setup_name/
+
+---
+
+#### 1025. Wi-Fi not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0v7rm/wifi_not_working/
+
+---
+
+#### 1026. Windows 11 cannot Access notification/callendar on taskbar
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0v7hr/windows_11_cannot_access_notificationcallendar_on/
+
+---
+
+#### 1027. Weekly 'I made a useful thing' Thread - May 01, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0my42/weekly_i_made_a_useful_thing_thread_may_01_2026/
+
+---
+
+#### 1028. Frustrated with new guy
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0t4no/frustrated_with_new_guy/
+
+---
+
+#### 1029. I think people should include their country of origin when posting/responding here
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0qzfh/i_think_people_should_include_their_country_of/
+
+---
+
+#### 1030. I Pushed Out Ublock Origin Across The Org & Stopped (some) Phishing
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t07hoa/i_pushed_out_ublock_origin_across_the_org_stopped/
+
+---
+
+#### 1031. Feeling Defeated - Deleted Something Important Today
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0bnga/feeling_defeated_deleted_something_important_today/
+
+---
+
+#### 1032. Disabling RDP in your environment for security purposes
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0g2jq/disabling_rdp_in_your_environment_for_security/
+
+---
+
+#### 1033. Microsoft: Perform in-place upgrades to Windows Server 2025 with one reg key.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0bliv/microsoft_perform_inplace_upgrades_to_windows/
+
+---
+
+#### 1034. HP laptop pricing is so out of control, management wants us to look at deploying Mac
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0157x/hp_laptop_pricing_is_so_out_of_control_management/
+
+---
+
+#### 1035. Change In Life Circumstances - Thoughts?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0tuf6/change_in_life_circumstances_thoughts/
+
+---
+
+#### 1036. Has anyone actually read the CoPilot terms of service?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t01ulk/has_anyone_actually_read_the_copilot_terms_of/
+
+---
+
+#### 1037. CVE-2026-41940 cPanel/WHM CVSS 9.8 auth bypass — was a zero-day for 60 days before patching. Anyone seeing active exploitation evidence in their logs?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0l3xr/cve202641940_cpanelwhm_cvss_98_auth_bypass_was_a/
+
+---
+
+#### 1038. Oh well, our MSP got acquired, how cooked am I
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0wew6/oh_well_our_msp_got_acquired_how_cooked_am_i/
+
+---
+
+#### 1039. What should I invest time learning these days?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0hq70/what_should_i_invest_time_learning_these_days/
+
+---
+
+#### 1040. ProfWiz is not what I think it is?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0rz18/profwiz_is_not_what_i_think_it_is/
+
+---
+
+#### 1041. No audit log enabled. Someone deletes files. What do you do?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t05x21/no_audit_log_enabled_someone_deletes_files_what/
+
+---
+
+#### 1042. PDU plug woes - Plugs not staying seated - Thoughts?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0vcdn/pdu_plug_woes_plugs_not_staying_seated_thoughts/
+
+---
+
+#### 1043. Anyone else seeing fake helpdesk calls through Microsoft Teams? Attacker showed up as "Help Desk"
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t038fx/anyone_else_seeing_fake_helpdesk_calls_through/
+
+---
+
+#### 1044. HPE VME install fails - VM not obtaining network settings
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0u13q/hpe_vme_install_fails_vm_not_obtaining_network/
+
+---
+
+#### 1045. Apps installed in user context
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0txjc/apps_installed_in_user_context/
+
+---
+
+#### 1046. RDP is broken and I think it's unrelated to the April 2026 update
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0ad4z/rdp_is_broken_and_i_think_its_unrelated_to_the/
+
+---
+
+#### 1047. Conditional Access restrictions on break glass accounts
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t08g85/conditional_access_restrictions_on_break_glass/
+
+---
+
+#### 1048. Dell Precision 3500 series Audio Input Issue
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0wsyt/dell_precision_3500_series_audio_input_issue/
+
+---
+
+#### 1049. Using BigFix to secure inherently insecure Android devices?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0wouy/using_bigfix_to_secure_inherently_insecure/
+
+---
+
+#### 1050. Device procurement - do you all have rapport with vendors and VARs?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0qv3l/device_procurement_do_you_all_have_rapport_with/
+
+---
+
+#### 1051. Simple questions and Help thread - Month of May
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1t0rf45/simple_questions_and_help_thread_month_of_may/
+
+---
+
+#### 1052. Resumy – Offline CV & Resume Builder with ATS Check - Free download and install on Windows
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1t0crke/resumy_offline_cv_resume_builder_with_ats_check/
+
+---
+
+#### 1053. Looking for a lightweight clock like Hatysa Conky.
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1sznop5/looking_for_a_lightweight_clock_like_hatysa_conky/
+
+---
+
+#### 1054. Simple questions and Help thread - Month of May
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t0rf3t/simple_questions_and_help_thread_month_of_may/
+
+---
+
+#### 1055. April 30, 2026—KB5083631 (OS Builds 26200.8328 and 26100.8328) Preview
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t0c1x7/april_30_2026kb5083631_os_builds_262008328_and/
+
+---
+
+#### 1056. Windows 11 KB5083631 update released with major explorer.exe reliability upgrades, AI agent support, and more
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t0e0i4/windows_11_kb5083631_update_released_with_major/
+
+---
+
+#### 1057. Microsoft engineer says native apps are back, and it could finally revive Windows 11’s fight against web apps
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1szuo0b/microsoft_engineer_says_native_apps_are_back_and/
+
+---
+
+#### 1058. I built a tool to replace the Windows system-wide font (that's also works with UWP Apps, Start Menu and Welcome Screen)
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t0757a/i_built_a_tool_to_replace_the_windows_systemwide/
+
+---
+
+#### 1059. Microsoft’s Xbox mode is now available for all Windows 11 PCs
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t07ylv/microsofts_xbox_mode_is_now_available_for_all/
+
+---
+
+#### 1060. Satya Nadella admits Microsoft needs to "win back" Windows 11 fans, improve performance for low RAM PCs
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1szrxo2/satya_nadella_admits_microsoft_needs_to_win_back/
+
+---
+
+#### 1061. The Polish version mistranslates the word "second" in Defender
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t02rpl/the_polish_version_mistranslates_the_word_second/
+
+---
+
+#### 1062. "We're doing the work required to win back fans across Windows and Xbox": Microsoft CEO Satya Nadella says the company is making foundational changes to fix Windows 11 and Xbox
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1szgvb7/were_doing_the_work_required_to_win_back_fans/
+
+---
+
+#### 1063. Start Menu's start2.bin File Format Explained
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1szspqx/start_menus_start2bin_file_format_explained/
+
+---
+
+#### 1064. Win+Shift+S, then Ctrl+V — straight into your terminal
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t0ls2k/winshifts_then_ctrlv_straight_into_your_terminal/
+
+---
+
+#### 1065. Nilesoft shell context menu animator
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1szenqy/nilesoft_shell_context_menu_animator/
+
+---
+
+#### 1066. you can actually update from Windows 8.1 to Windows 11 by using WU in 2026 =1
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1sz6v9m/you_can_actually_update_from_windows_81_to/
+
+---
+
+#### 1067. Windows 11 file 'Share' does not have an option for Bluetooth in it (forces user to use classic right-click to access Bluetooth context menu). Microsoft please add Bluetooth to the options for Share too!
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1syztpb/windows_11_file_share_does_not_have_an_option_for/
+
+---
+
+#### 1068. How am I supposed to move the window properly?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1systbj/how_am_i_supposed_to_move_the_window_properly/
+
+---
+
+#### 1069. AI may be coming to Windows 11’s Clock app as Microsoft turns it into a focus tool
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1syyv3o/ai_may_be_coming_to_windows_11s_clock_app_as/
+
+---
+
+#### 1070. For any gaming laptop user: Check if your dGPU is lock at base clock when idle in the latest windows update 8246.
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1szk817/for_any_gaming_laptop_user_check_if_your_dgpu_is/
+
+---
+
+#### 1071. For the people who are using Translucent TB with dark wallpaper and cant see clock as it's in black font. Here is the fix
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1syr2i8/for_the_people_who_are_using_translucent_tb_with/
+
+---
+
+#### 1072. Lockscreen typo "through" to "thorough" <THIS IS NOT A TECH SUPPORT POST> I only want to know if others have seen the same thing
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1syw0iz/lockscreen_typo_through_to_thorough_this_is_not_a/
+
+---
+
+#### 1073. Allow the short context menu to be edited
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1sxg9k7/allow_the_short_context_menu_to_be_edited/
+
+---
+
+#### 1074. Windows 11’s hidden Screen Tint feature lets you soften your display with amber, blue, green, and more colors
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1sxn8yk/windows_11s_hidden_screen_tint_feature_lets_you/
+
+---
+
+#### 1075. Tasket++ - Lightweight no‑code automation for Windows
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1sxtowb/tasket_lightweight_nocode_automation_for_windows/
+
+---
+
+#### 1076. Display settings enhancer app (see photo)
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1sxzysj/display_settings_enhancer_app_see_photo/
+
+---
+
+#### 1077. My Windows 11 Desktop Interface
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1sysg2b/my_windows_11_desktop_interface/
+
+---
+
+#### 1078. Repeatedly getting the same error when I try to install a new keyboard/language package
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1sokyv5/repeatedly_getting_the_same_error_when_i_try_to/
+
+---
+
+#### 1079. Simple Questions - April 30, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0d8j5/simple_questions_april_30_2026/
+
+---
+
+#### 1080. Gaming computer for one game? (Counter strike 2)
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0qlg7/gaming_computer_for_one_game_counter_strike_2/
+
+---
+
+#### 1081. 4070s or 9070xt
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0tx3a/4070s_or_9070xt/
+
+---
+
+#### 1082. first pc, need help
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0um24/first_pc_need_help/
+
+---
+
+#### 1083. 7800x3d vs 9800x3d
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0ccmq/7800x3d_vs_9800x3d/
+
+---
+
+#### 1084. Gpu upgrades that are worth it?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0r1ko/gpu_upgrades_that_are_worth_it/
+
+---
+
+#### 1085. Need help figuring out how best to use KVM/USB Switch/Power Delivery Hubs for my laptop/PC setup. This stuff is confusing ...
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0tw6d/need_help_figuring_out_how_best_to_use_kvmusb/
+
+---
+
+#### 1086. 14700k, 5080, and 32GB DR5
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0oa1f/14700k_5080_and_32gb_dr5/
+
+---
+
+#### 1087. How much of a difference does cl38 to cl30 make
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0w641/how_much_of_a_difference_does_cl38_to_cl30_make/
+
+---
+
+#### 1088. 5070's actual performance in 2026
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1szzqc5/5070s_actual_performance_in_2026/
+
+---
+
+#### 1089. (UK) £1200 9060xt 16gb build Help
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0vgqv/uk_1200_9060xt_16gb_build_help/
+
+---
+
+#### 1090. PC build for my son
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0v1r1/pc_build_for_my_son/
+
+---
+
+#### 1091. £2000-£2200 budget pc
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0ucqy/20002200_budget_pc/
+
+---
+
+#### 1092. Just got my first pc :P
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0l3nt/just_got_my_first_pc_p/
+
+---
+
+#### 1093. How to clean PC
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0qoyr/how_to_clean_pc/
+
+---
+
+#### 1094. Help me decide if This GPU is a good Fit
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0obtl/help_me_decide_if_this_gpu_is_a_good_fit/
+
+---
+
+#### 1095. Help me build my new PC.
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0mu7q/help_me_build_my_new_pc/
+
+---
+
+#### 1096. Ryzen 7 9850X3D high temps (85–95°C gaming) — normal or is something wrong?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0gcjt/ryzen_7_9850x3d_high_temps_8595c_gaming_normal_or/
+
+---
+
+#### 1097. Ethernet working a lot worse than wifi
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0p4yj/ethernet_working_a_lot_worse_than_wifi/
+
+---
+
+#### 1098. Help me build a PC for £900
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0n9ef/help_me_build_a_pc_for_900/
+
+---
+
+#### 1099. PC won’t boot unless I clear CMOS every time
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0wnuq/pc_wont_boot_unless_i_clear_cmos_every_time/
+
+---
+
+#### 1100. Need help choosing better buy for gaming pc
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0wmbz/need_help_choosing_better_buy_for_gaming_pc/
+
+---
+
+#### 1101. HDD Installation question
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0wjjl/hdd_installation_question/
+
+---
+
+#### 1102. Best way to check and know?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0wfwd/best_way_to_check_and_know/
+
+---
+
+#### 1103. PSA: AMD is locking ECC UDIMM frequency on consumer AM5
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t0l4h6/psa_amd_is_locking_ecc_udimm_frequency_on/
+
+---
+
+#### 1104. Homebrew PlayStation DualSense controller adapter for PC can be built for just $20 with a Raspberry Pi Pico — wireless dongle delivers adaptive triggers and haptic feedback to gamers
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t0oywb/homebrew_playstation_dualsense_controller_adapter/
+
+---
+
+#### 1105. Samsung and SK hynix warn AI-driven memory shortages could last until 2027 and beyond, as HBM demand explodes — customers already reserving supply years ahead, while the wider DRAM market begins to tighten
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t0r552/samsung_and_sk_hynix_warn_aidriven_memory/
+
+---
+
+#### 1106. Rtings.com is now testing wireless latency to find the best Wi-Fi "gaming" router!
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1szyas3/rtingscom_is_now_testing_wireless_latency_to_find/
+
+---
+
+#### 1107. Surface Pro 12: New Microsoft Surface 2-in-1 revealed with up to 32 GB RAM and Intel Panther Lake
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t02q2t/surface_pro_12_new_microsoft_surface_2in1/
+
+---
+
+#### 1108. Chinese GPU maker Lisuan Tech becomes only the fourth GPU maker ever to earn Microsoft WHQL certification — LX 7G100 GPU joins Nvidia, AMD, and Intel as it crosses the WHQL driver finish line, first Chinese firm to earn certification
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1szpup7/chinese_gpu_maker_lisuan_tech_becomes_only_the/
+
+---
+
+#### 1109. Apple Has Given Up on the Vision Pro After M5 Refresh Flop
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sz8579/apple_has_given_up_on_the_vision_pro_after_m5/
+
+---
+
+#### 1110. ASUS Equalizer - The 12VHPWR Solution? - YouTube
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1szkltc/asus_equalizer_the_12vhpwr_solution_youtube/
+
+---
+
+#### 1111. PS5 Linux loader goes public, turning console into full Linux PCs — build script includes bootable Ubuntu 24.04 image, can output 4K games at 60 FPS
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1syy6zw/ps5_linux_loader_goes_public_turning_console_into/
+
+---
+
+#### 1112. Intel 18A-P Node Delivers 9% Performance Increase and 18% Power Savings
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sz6css/intel_18ap_node_delivers_9_performance_increase/
+
+---
+
+#### 1113. [Gamers Nexus] $90 Fractal Pop 2 Vision Case Review & Benchmarks: Cable Management, Thermals, Build Quality
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sz9dn1/gamers_nexus_90_fractal_pop_2_vision_case_review/
+
+---
+
+#### 1114. Meta will beam sunlight from space to power AI data centers, solar-collecting satellites will orbit 22,000 miles above Earth — firm reserves 1 Gigawatt of orbital solar energy and 100 Gigawatt-hours of long-duration storage
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sywvhc/meta_will_beam_sunlight_from_space_to_power_ai/
+
+---
+
+#### 1115. Framework Laptop 16 Gets NVIDIA RTX 5070 12 GB Upgrade Module for Eyewatering Price of $1,199
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sygoyt/framework_laptop_16_gets_nvidia_rtx_5070_12_gb/
+
+---
+
+#### 1116. Apple Set to Become Third-Biggest Laptop Maker This Year
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1syhiej/apple_set_to_become_thirdbiggest_laptop_maker/
+
+---
+
+#### 1117. End of an era: the Lenovo ThinkPad P16 Gen 3 doesn’t have a Magnesium structure frame
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1syoqqp/end_of_an_era_the_lenovo_thinkpad_p16_gen_3/
+
+---
+
+#### 1118. China Unveils 2 Exaflop, All-CPU 'LineShine' Supercomputer
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1syja0g/china_unveils_2_exaflop_allcpu_lineshine/
+
+---
+
+#### 1119. Ubuntu 26.04 LTS Leads Over Windows 11 In Creator Workstation Performance
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sy4iuy/ubuntu_2604_lts_leads_over_windows_11_in_creator/
+
+---
+
+#### 1120. Exclusive: US orders multiple chip equipment companies to halt some shipments to China's No. 2 chipmaker Hua Hong
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1syc5qu/exclusive_us_orders_multiple_chip_equipment/
+
+---
+
+#### 1121. [Gamers Nexus] Impressive Repairability: Valve Steam Controller Tear-Down & Disassembly
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sy4s1v/gamers_nexus_impressive_repairability_valve_steam/
+
+---
+
+#### 1122. TSMC Hits Pause on ASML’s Newest Lithography for A13 Process
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sxz79h/tsmc_hits_pause_on_asmls_newest_lithography_for/
+
+---
+
+#### 1123. Corsair ThermalProtect Cable for Graphics Cards Review: Between 12V2x6 Cables, Protection Promises, and the Laws of Physics
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sy32o6/corsair_thermalprotect_cable_for_graphics_cards/
+
+---
+
+#### 1124. Announcing Shader Model 6.10 Preview, Including Batched Asynchronous Command List APIs
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sxpfin/announcing_shader_model_610_preview_including/
+
+---
+
+#### 1125. DRAM Crunch: Lessons for System Design
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1sxzhm8/dram_crunch_lessons_for_system_design/
+
+---
+
+#### 1126. Weekly Discovery Thread - May 01, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0q6l9/weekly_discovery_thread_may_01_2026/
+
+---
+
+#### 1127. Is there an uninstaller that actually cleans everything (registry, drivers, AppData)?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0rvoe/is_there_an_uninstaller_that_actually_cleans/
+
+---
+
+#### 1128. [Mod post] Software regrets anyone?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0rgli/mod_post_software_regrets_anyone/
+
+---
+
+#### 1129. Are people overpaying for software, or is it just me?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0woow/are_people_overpaying_for_software_or_is_it_just/
+
+---
+
+#### 1130. AutoRewarder v3.2 is here! Now with Multi-Account Support, Mobile Point Collection, and a Brand New UI.
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0wme9/autorewarder_v32_is_here_now_with_multiaccount/
+
+---
+
+#### 1131. Made free satisfying photo delete app, no login, no ads to free up the device storage
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0qnah/made_free_satisfying_photo_delete_app_no_login_no/
+
+---
+
+#### 1132. Advice on my career
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0vnue/advice_on_my_career/
+
+---
+
+#### 1133. What are the cause of these error codes
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0vg7b/what_are_the_cause_of_these_error_codes/
+
+---
+
+#### 1134. What program made this?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0vcza/what_program_made_this/
+
+---
+
+#### 1135. Referrals at Microsoft
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0vcid/referrals_at_microsoft/
+
+---
+
+#### 1136. I need help with computer arror code 0x1A
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0pf89/i_need_help_with_computer_arror_code_0x1a/
+
+---
+
+#### 1137. I run a commercial flooring company and am looking for a way to manage our bidding process. Is there a software out there for this side of construction? So much attention is paid to sales using CRMs and project management during installation. How do people manage their bidding process efficiently?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0u1kx/i_run_a_commercial_flooring_company_and_am/
+
+---
+
+#### 1138. Screen‑Level AI Assistant – Translate, Screenshot, Ask Questions
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0p4ot/screenlevel_ai_assistant_translate_screenshot_ask/
+
+---
+
+#### 1139. I found a way to get expensive software for way cheaper (not sketchy)
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0tzf3/i_found_a_way_to_get_expensive_software_for_way/
+
+---
+
+#### 1140. Made DevGuessr
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t08cu8/made_devguessr/
+
+---
+
+#### 1141. Windows backup shareware
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0j7da/windows_backup_shareware/
+
+---
+
+#### 1142. I built a local AI voice assistant for my PC inspired by Jarvis, it runs 100% offline on my GPU, opens apps, orders food, and reads my screen.
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0b9fq/i_built_a_local_ai_voice_assistant_for_my_pc/
+
+---
+
+#### 1143. How to download adobe premiere pro pc for free
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0rw0e/how_to_download_adobe_premiere_pro_pc_for_free/
+
+---
+
+#### 1144. How Cloudflare rebuilt Next.js in a weekend
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0nqew/how_cloudflare_rebuilt_nextjs_in_a_weekend/
+
+---
+
+#### 1145. Software to edit multiple songs pitch and bass at once
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0d2ci/software_to_edit_multiple_songs_pitch_and_bass_at/
+
+---
+
+#### 1146. Video editor for trimming/cutting movies without losing quality
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1szsv4f/video_editor_for_trimmingcutting_movies_without/
+
+---
+
+#### 1147. I can't use browsers
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t08u3s/i_cant_use_browsers/
+
+---
+
+#### 1148. Best software for building and updating flowcharts (with lots of sources/links)?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t060es/best_software_for_building_and_updating/
+
+---
+
+#### 1149. Is there a local photo management software that doesn't use AI?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t03sk6/is_there_a_local_photo_management_software_that/
+
+---
+
+#### 1150. Professional Dental Software Setup & Sales
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t08x0r/professional_dental_software_setup_sales/
+
+---
+
+#### 1151. [V2EX] 用 WoA， Python 和 nodejs 还是得老老实实装 x64 版（即使有原生 ARM64）
+
+**问题描述 / Problem Description**:
+虽然 Python 和 nodejs 都有原生 for Windows ARM64 支持，但是还有相当一部分的第三方包没有 win32-arm64 这个组合。 也许一直用着 ARM64 版的都没问题，直到某一天突然碰壁，某个包没有 于是你就要浪费人生中 N 分钟卸载 ARM64 版 python/node ，重装 x64 版，重配环境... 还不如一开始就装 x64 版 其实转译性能也很不错，至少体感上感觉不出来
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209151#reply4
+
+---
+
+#### 1152. [V2EX] 求 Windows UWP 软件大佬实现一个 terminal 功能
+
+**问题描述 / Problem Description**:
+个人觉得 Windows 自带的 terminal 工具很好用，手感很好渲染也不错，可惜不支持侧边栏显示 tabs/workspace ，现在 claude code/codex 用得多，经常要开很多个 tabs ，导致 tabs 超出了横向显示空间，如果能支持垂直标签页外加工作区，那将是非常好用的一个功能，可惜我不擅长 Windows 软件开发，Visual Studio 开发对于 Agent 来说不友好，求大佬帮忙实现这个功能，我给你 stars ！ https://github.com/microsoft/terminal
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208936#reply20
+
+---
+
+#### 1153. [V2EX] 各位大佬们，你们 win 系统安装了什么杀毒软件？
+
+**问题描述 / Problem Description**:
+是微软自带的还是第三方的？免费的还是付费的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208722#reply80
+
+---
+
+#### 1154. [V2EX] 上下班 单程 70 分钟 能做点什么?
+
+**问题描述 / Problem Description**:
+全程地铁, 无座, 但是不算特别拥挤(2/3 线城市), 倒 1 次车. 想做点有意义的事情. 本来时间就不多, 这两个多小时算是我一天中最宝贵的"个人"时间了. 提前感谢.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209914#reply0
+
+---
+
+#### 1155. [V2EX] 境内不可用
+
+**问题描述 / Problem Description**:
+想买个 ultra mobike paygo 实体卡， 我看飞猪所有店铺都写了 境内不可用 但是我看不得贴着还推荐这个卡，是真的不可用？ 是不是得特殊操作？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209913#reply0
+
+---
+
+#### 1156. [V2EX] chatgpt 自己开通会被封号吗？
+
+**问题描述 / Problem Description**:
+从 Google play 开通，自己一个人用，一般会被封号吗？封号还退款吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209896#reply0
+
+---
+
+#### 1157. [V2EX] 老哥们，有没有一直能正常用 Gemini 的机场？
+
+**问题描述 / Problem Description**:
+之前用过的不少机场，体验都还可以，比如良心云，价格是真便宜，看视频都很好，唯独就是用 Gemini 的时候，时不时遇到无法正常使用的情况。 想问问老哥们，有没有什么机场，一直都可以正常访问 Gemini 的？不会提示“该地区暂时无法使用 gemini”
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209870#reply5
+
+---
+
+#### 1158. [V2EX] 现在用 Kagi 帮助还大么，准备入一年
+
+**问题描述 / Problem Description**:
+https://kagi.com/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209865#reply0
+
+---
+
+#### 1159. [V2EX] 为什么现在的机场都自研客户端了啊？
+
+**问题描述 / Problem Description**:
+之前直接导入 clash 客户端就能用，现在怎么都是自己的客户端，问题是不是那么好用啊？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209864#reply18
+
+---
+
+#### 1160. [V2EX] 中银 hk 汇丰众安等港卡对通行证效期有要求吗？
+
+**问题描述 / Problem Description**:
+知道都要求至少有 6 个月效期，但是通行证还有一年半到期，会不会像国内银行一样证件到期后要求你再去那边更新资料？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209863#reply5
+
+---
+
+#### 1161. [V2EX] 除了沉浸式翻译，有什么别的浏览器字幕翻译扩展能自接 api 的
+
+**问题描述 / Problem Description**:
+如题 目前在用沉浸式翻译，开双语字幕，接的官方 api 的 deepseek-v4-flash 。 大部分情况都还好，但是一到翻译长句，原文译文就很割裂。 比如： 原文在字幕里分了三段显示，译文就只显示在前两段，第二段译文会带上第三段的译文，导致第三段显示时就只有原文。也不是经常会出现，但是出现了又确实很奇怪。 细看下来其实译文的意思也没有错，我认为应该不是 api 的问题，可能只是因为字幕断句断的不好。 扩展的设置里倒是有 AI 智能分句开关，但是仅限会员才能打开就非常的 emmm 。如果我自接 api 的话，对他们而言我应该不会有什么算力上的消耗；但我如果开会员了，那我还自接 api 干嘛
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209859#reply7
+
+---
+
+#### 1162. [V2EX] 谁有没有可以用来记账的工作流或者 AI 智能体分享一下
+
+**问题描述 / Problem Description**:
+谁有没有可以用来记账的工作流或者 AI 智能体分享一下， 或者类似的 app 我之前用扣子空间做了一个， 发布到豆包智能体， 现在应该有更多解决方案了吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209782#reply2
+
+---
+
+#### 1163. [V2EX] [续] 求大佬分析，要不要在国内报驾校考驾照了
+
+**问题描述 / Problem Description**:
+原帖： https://v2ex.com/t/1195888 后面去报了驾校，但是最近发现好像被坑了...求有类似经验的朋友指教一下。 1.似乎被中介套路：在家附近的一个线下门店报名的，报名时门头是 A 驾校，签合同是个人（门店老板，自称驾校校长），结果学籍被卖到了几十公里外的 B 驾校。交费 2500 ，平台备案只有 2250 ，这个人吃了 250 差价。这个问题不是特别大，至少能正常约考试，不算纯骗子。 2.效率极低且学时卡死，从 3 月初签合同到实际预约成功科目一就花了一个月，4 月初才考完科目一。考完科目一后过了一周，在我感觉效率太低闹了一次的情况下，才安排去场地录了代打学时需要的练车
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209777#reply0
+
+---
+
+#### 1164. [V2EX] 避免造轮子，我想找这样一款工具
+
+**问题描述 / Problem Description**:
+可以创建不同的列表，列表里是自己添加的软件项， 可以从不同的源获取软件，比如 winget 、choco 之类的。 也可以设置这个软件不从 winget 一类的获取，而是打开自定义的官网去下载软件包。 unigetui 就算了，实现不了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209769#reply3
+
+---
+
+#### 1165. [V2EX] VIDDA C1 桌面问题
+
+**问题描述 / Problem Description**:
+自带的聚好看通过 ADB 禁用后,断电重启因为这个桌面被禁用了会黑屏,此时只能通过语音控制间接启动桌面(呼叫语音助手后切换信号源再按 home 键可以启动第三方桌面),但是这个时候的语音控制只能呼出窗口,和他说启动什么 app 是完全没反应的,有没有什么办法能解决这个问题呢,让这个投影仪可以直接启动第三方桌面,SOC 是 MT9669,系统是安卓 9.0(有偿求助一杯星巴克)
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209765#reply0
+
+---
+
+#### 1166. [V2EX] 现在有什么好用的 cc 中转站推荐吗？
+
+**问题描述 / Problem Description**:
+我最近想订阅 claudecode ，但是大陆的信用卡不能订阅而且如果不能保持代理干净也会被封号，听同事说更推荐的方式还是使用中转站会比较好，但是我对这方面不太了解，所以想问问各位有什么中转站推荐下吗？ 小弟我先谢谢各位了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209732#reply2
+
+---
+
+#### 1167. [V2EX] 请问 v2 各位 100w 的小目标是炒股炒的还是打工打的啊
+
+**问题描述 / Problem Description**:
+如题，感觉光打工攒到 100w 不知道得多久，大家的 100w 都是打工攒的吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209680#reply29
+
+---
+
+#### 1168. [V2EX] 洗板水如何长期保存
+
+**问题描述 / Problem Description**:
+买了 2 次，都漏光了，没用几次
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209648#reply1
+
+---
+
+#### 1169. [V2EX] 国内 Ai 查重和降重的原理是啥？纯手写 70% Ai 率，纯生图 0% Ai 率，有啥降重好办法？
+
+**问题描述 / Problem Description**:
+论文基本是参考文献原文拼凑，几乎整篇在聊案例咋样，70% Ai 率 效果图完全是底图 + 透明图层丢给 AI 进行叠加，最后我看隐水印都有，0 % Ai 率
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209646#reply0
+
+---
+
+#### 1170. [V2EX] 求大家推荐一些言论自由的日记网站或者软件
+
+**问题描述 / Problem Description**:
+求大家推荐一些言论自由的日记网站或者软件。 不知道大家有没有写日记的习惯呢？我感觉传统纸质的日记虽然隐私性够好，但是不方便迁移，而且容易损坏，加上一些场景光用文字是无法描述清晰的，就需要插图，类似博客那种，但是博客管控非常严格，各种文字不让发，各种违规，还要提交各种证据去证明这个博客是你的，非常麻烦。 我的需求是要绝对的言论自由，不受任何限制，也不会动不动就因为敏感导致无法阅览、下载这种问题，所以国内的产品全部都可以排除了，毕竟大家都懂得。 想过找开源的项目搞，但是都做的很囊肿，我并不需要那么多内容，也考虑过自己写一个，但是那样又有点脱裤子放屁了，所以还是来问一下大家，看看有没有更好的选择？毕
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209626#reply36
+
+---
+
+#### 1171. [V2EX] 现在有支持企业微信外部群的智能客服方案么
+
+**问题描述 / Problem Description**:
+官方不支持
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209616#reply0
+
+---
+
+#### 1172. [V2EX] 在 cf 上跑 edgetunnel，感觉一点都不好用啊
+
+**问题描述 / Problem Description**:
+经典看油管还不错，其他的网站就随缘，有时候很快，有时候很慢，有时候甚至打不开，感觉还没机场好用，目前只能当个备胎用，是要做额外的优化，还是说就是这个样子，没辙
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209615#reply1
+
+---
+
+#### 1173. [V2EX] 有没有地方能看到 2000 年以前的卫星地图的，可能年纪大了想看看以前的样子
+
+**问题描述 / Problem Description**:
+看了谷歌地图，arcgis ，最早只到 2014 年。坐标湖南
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209604#reply23
+
+---
+
+#### 1174. Headphones audio suddenly rises and becomes super distorted
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0xmzi/headphones_audio_suddenly_rises_and_becomes_super/
+
+---
+
+#### 1175. Ayuda con mi tarjeta grafica
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0xlxx/ayuda_con_mi_tarjeta_grafica/
+
+---
+
+#### 1176. Clock rate dropping - fix needed
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0xj18/clock_rate_dropping_fix_needed/
+
+---
+
+#### 1177. SSD running 100% and not responsive - how do I backup data
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0x3he/ssd_running_100_and_not_responsive_how_do_i/
+
+---
+
+#### 1178. Need help enabling Resizable BAR on PNY XLR8 RTX 3070
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0x2kv/need_help_enabling_resizable_bar_on_pny_xlr8_rtx/
+
+---
+
+#### 1179. raspberry pi zero 2 w not booting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0x1kx/raspberry_pi_zero_2_w_not_booting/
+
+---
+
+#### 1180. Windows Preview Update (Windows 11 24H2)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0x1jh/windows_preview_update_windows_11_24h2/
+
+---
+
+#### 1181. I start philosophy classes next week at a University
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0xeju/i_start_philosophy_classes_next_week_at_a/
+
+---
+
+#### 1182. Help me choose budget IEMs for Shooters
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0xizo/help_me_choose_budget_iems_for_shooters/
+
+---
+
+#### 1183. How to Upgrade Existing Rig
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0xbrq/how_to_upgrade_existing_rig/
+
+---
+
+#### 1184. Is this good?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0x783/is_this_good/
+
+---
+
+#### 1185. Graphics card broken, is it fixable or will I need to get a whole new one?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0x3mg/graphics_card_broken_is_it_fixable_or_will_i_need/
+
+---
+
+#### 1186. [Geekerwan] - Apple M5 Pro & M5 Max Review: The Most Powerful MacBooks Ever
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t0xfqf/geekerwan_apple_m5_pro_m5_max_review_the_most/
+
+---
+
+#### 1187. [V2EX] 上下班 单程 70 分钟 能做点什么?
+
+**问题描述 / Problem Description**:
+全程地铁, 无座, 但是不算特别拥挤(2/3 线城市), 倒 1 次车. 想做点有意义的事情. 本来时间就不多, 这两个多小时算是我一天中最宝贵的"个人"时间了. 提前感谢.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209914#reply4
+
+---
+
+#### 1188. [V2EX] 为什么现在的机场都自研客户端了啊？
+
+**问题描述 / Problem Description**:
+之前直接导入 clash 客户端就能用，现在怎么都是自己的客户端，问题是不是那么好用啊？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209864#reply19
+
+---
+
+#### 1189. [V2EX] 除了沉浸式翻译，有什么别的浏览器字幕翻译扩展能自接 api 的
+
+**问题描述 / Problem Description**:
+如题 目前在用沉浸式翻译，开双语字幕，接的官方 api 的 deepseek-v4-flash 。 大部分情况都还好，但是一到翻译长句，原文译文就很割裂。 比如： 原文在字幕里分了三段显示，译文就只显示在前两段，第二段译文会带上第三段的译文，导致第三段显示时就只有原文。也不是经常会出现，但是出现了又确实很奇怪。 细看下来其实译文的意思也没有错，我认为应该不是 api 的问题，可能只是因为字幕断句断的不好。 扩展的设置里倒是有 AI 智能分句开关，但是仅限会员才能打开就非常的 emmm 。如果我自接 api 的话，对他们而言我应该不会有什么算力上的消耗；但我如果开会员了，那我还自接 api 干嘛
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209859#reply8
+
+---
+
+#### 1190. How To Expand Ubuntu 20.04 LTS Filesystem Volume on Hyper-V
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, filesystems, hyper-v, windows-server | Score: 29 | Views: 81136 | Answers: 8 | Created: 2022-04-13
+
+**解决方案 / Solution**:
+I tried existing solutions on 18.04 and found it doesn't work with a 'nothing to do' output. Some further searching had similar-but-slightly-different steps and needing to merge a few different bits-and-pieces from other solutions on the web to make work. Setup: Hyper-V; VHDX file as hard disk; Ubuntu-18.04 Steps: Expand the VDHX file via Hyper-V as mentioned in existing solutions and then inside the VM: fdisk -l See which partition is the current Ubuntu setup - should be obvious based on size (in my case was sda3) growpart /dev/sda 3 Note the space as mentioned. pvresize /dev/sda3 This is the step which isn't mentioned in a lot of places; its the intemediate step that allows the logical volume extension step work. lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv The /dev/ part can seen in the fdisk output from step 1. resize2fs /dev/mapper/ubuntu--vg-ubuntu--lv After the prep above, this step now works. Takes a couple of moments and afterwards can verify with df -h that the partition is expanded.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1716141/how-to-expand-ubuntu-20-04-lts-filesystem-volume-on-hyper-v
+
+---
+
+#### 1191. Staggered monitors: Mouse moving to other monitor where not abutting
+
+**问题描述 / Problem Description**:
+Tags: windows, multiple-monitors, external-display | Score: 21 | Views: 1385 | Answers: 1 | Created: 2025-11-19
+
+**解决方案 / Solution**:
+The solution is to uncheck "Ease cursor movement between displays" With this unchecked, there's a good barrier at most of the top of screen #1 that prevents the jump to screen #2, and same for bottom of screen #2.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930394/staggered-monitors-mouse-moving-to-other-monitor-where-not-abutting
+
+---
+
+#### 1192. Is Codepage 1252 guaranteed to be available on all Windows systems?
+
+**问题描述 / Problem Description**:
+Tags: windows, code-page | Score: 14 | Views: 2104 | Answers: 2 | Created: 2025-12-03
+
+**解决方案 / Solution**:
+Microsoft does not explicitly state that code page 1252 is guaranteed on every Windows installation. However, they do include 1252 in its official list of supported code pages. The following table shows all the supported codepages by Windows. [..] Source: Supported Codepage in Windows (learn.microsoft.com)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930962/is-codepage-1252-guaranteed-to-be-available-on-all-windows-systems
+
+---
+
+#### 1193. How to prevent a batch file call from escaping a caret character?
+
+**问题描述 / Problem Description**:
+Tags: windows, batch, escape-characters | Score: 7 | Views: 646 | Answers: 2 | Created: 2025-12-05
+
+**解决方案 / Solution**:
+How do I prevent call from doubling the caret? The doubling is due to a bug in Call - Windows CMD - SS64.com : If the CALL command contains a caret character within a quoted string "test^ing" , the carets will be doubled . See Phase 6) CALL processing/Caret doubling for all the gory details. A messy solution Use a variable to store the problem string (1) . first.cmd: @echo off echo first.cmd set var=psr/log:^^test3.0 echo parameter to pass is "%var%" echo calling second.cmd call second.cmd "%%var%%" second.cmd: @echo off echo second.cmd echo parameter 1 is %1 output: G:\test>first first.cmd parameter to pass is "psr/log:^test3.0" calling second.cmd second.cmd parameter 1 is "psr/log:^test3.0" G:\test> (1) https://stackoverflow.com/a/41770230 (2) https://stackoverflow.com/a/41770988 has a few other workarounds
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931096/how-to-prevent-a-batch-file-call-from-escaping-a-caret-character
+
+---
+
+#### 1194. Why does my PC sporadically restart multiple times per day?
+
+**问题描述 / Problem Description**:
+Tags: windows, hardware-failure | Score: 6 | Views: 541 | Answers: 3 | Created: 2025-11-25
+
+**解决方案 / Solution**:
+Based on the symptoms after reading all current content including comments, this strongly points to a power delivery issue. Even if your PSU is rated for your build specs, it can fail due to internal degradation, transient power spikes from a GPU, or "dirty" power from the wall. Rule out simple items Before swapping hardware , check the physical connections: Reseat all cables from motherboard to PSU, and ensure they are fully and properly connected. Plug the PC directly into a wall outlet and confirm a snug non-loose fit. Surge protectors, power strips, and faulty UPS units could be points of failure. Ensure the power cable is pushed all the way into the PSU. Location swap test To rule out your home's electrical wiring (grounding issues, voltage sags, or "noisy" lines), try running the PC at a different location entirely (a friend’s house or your office). If it still crashes elsewhere , the issue is definitely internal to the PC. The PSU is the primary suspect. If it’s stable elsewhere , the original location's power is likely "dirty". Try a high quality UPS that protects the PC side from being affected by the power events that cause the problem. Or inquire an electrician on costs and ways to measure those metrics and to keep the power clean at other levels. Note: Remember though, even if the PC has issues at a new location, your PSU may already be damaged. Prolonged exposure to bad electrical conditions at the original location could have degraded internal capacitors. The dirty power was the cause, but a sporadic failing PSU is now a result. Known-good PSU swap The most definitive diagnostic is to swap in a known-good sufficient PSU keeping all other aforementioned items in mind protecting it accordingly at the same time. Protect damaging known — good PSU's by not introducing them to currently unknown power events — I know someone this happened to. PSU faults don't always occur with full stress tests, they can be triggered by rapid power-state changes (like a GPU suddenly boosting). If the system becomes stable with a different PSU, that likely confirms the original PSU is the root cause of the sporadic reboots.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930623/why-does-my-pc-sporadically-restart-multiple-times-per-day
+
+---
+
+#### 1195. cmd - how to show completion time of a command?
+
+**问题描述 / Problem Description**:
+Tags: windows, cmd.exe | Score: 6 | Views: 1679 | Answers: 7 | Created: 2025-11-18
+
+**解决方案 / Solution**:
+Command Line (cmd) You can wrap the command in a quoted string, enable delayed variable expansion , and use ! so the variable expands at execution time rather than when the line is parsed. cmd /V:ON /C "echo !DATE! !TIME! & timeout 5 & echo !DATE! !TIME!" Output Wed 11/19/2025 0:03:00.45 Waiting for 0 seconds, press a key to continue ... Wed 11/19/2025 0:03:05.19 Supporting Help cmd /? /C Carries out the command specified by string and then terminate /V:ON Enable delayed environment variable expansion using ! as the delimiter. For example, /V:ON would allow !var! to expand the variable var at execution time. The var syntax expands variables at input time, which is quite a different thing when inside of a FOR loop.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930344/cmd-how-to-show-completion-time-of-a-command
+
+---
+
+#### 1196. How do I enable File and Printer sharing in the latest Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, ntfs, smb, shared-folders | Score: 6 | Views: 1383 | Answers: 1 | Created: 2025-11-09
+
+**解决方案 / Solution**:
+I got it. The way I debugged it was this. (All this is from an administrator PowerShell window.) Run netsh advfirewall firewall set rule group="Network Discovery" new enable=Yes Mine came back saying that was not found for some reason. It should come back as some thing similar to Updated 52 rule(s). I ran netsh advfirewall reset After it was done, I restarted. Once it came back up, I reran netsh advfirewall firewall set rule group="Network Discovery" new enable=Yes netsh advfirewall firewall set rule group="File and Printer Sharing" new enable=Yes And now everything seems to work.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929937/how-do-i-enable-file-and-printer-sharing-in-the-latest-windows-11
+
+---
+
+#### 1197. How to copy (in clipboard) detailed information of a file?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, file-management, clipboard, windows-server | Score: 6 | Views: 2320 | Answers: 5 | Created: 2022-06-03
+
+**解决方案 / Solution**:
+You can get the file details using PowerShell; it works on Windows 10 as well: For example, to get the file info for Autoruns64.exe , run: (Get-Item "D:\tools\Autoruns64.exe").VersionInfo | format-list * | Clip Regarding the context menu addition, user SimonS seems to have addressed that part.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1724553/how-to-copy-in-clipboard-detailed-information-of-a-file
+
+---
+
+#### 1198. How do I fix the "turned off for managed browsers" error when trying to enable secure DNS in Edge?
+
+**问题描述 / Problem Description**:
+Tags: windows, microsoft-edge | Score: 5 | Views: 3325 | Answers: 1 | Created: 2025-11-24
+
+**解决方案 / Solution**:
+This likely happened because you used a tool such as O&O ShutUp10++ and/or Chris Titus Tech's Windows Utility to tweak some Edge telemetry or privacy settings. When these tools modify Edge's behavior, they create registry policies (which you can see at edge://policy ) that cause Edge to behave as if it's managed by an organization. To remove the "This setting is turned off for managed browsers" notification and enable secure DNS configuration in Edge, you'll need to delete the policy entries from the Registry Editor: Press Win + R , type regedit , and hit Enter. Navigate to the following registry paths: HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge Delete both "Edge" keys (right-click → Delete). Restart Edge. The notification should no longer appear, and you can enable secure DNS. You can configure the specific security/privacy settings you previously tweaked directly in Edge settings instead. I found this solution by looking at these bug reports for Chris Titus Tech's Windows Utility: Fix Edge being managed by organization and Undo tweaks not working .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930571/how-do-i-fix-the-turned-off-for-managed-browsers-error-when-trying-to-enable-s
+
+---
+
+#### 1199. Alt+Tab is not doing anything at all
+
+**问题描述 / Problem Description**:
+Tags: windows, alt-tab | Score: 4 | Views: 2154 | Answers: 1 | Created: 2025-12-10
+
+**解决方案 / Solution**:
+tldr; Long story short, a cable kept the ESC key pressed. I removed the cable, the ESC key got released, everything is fine now. I can ALT + TAB now without problems. I managed to reproduce this behaviour: I had a heavy object (a cable) sitting on my keyboard at the time which was holding down the Esc key. The reboot didn't actually do anything, but I must have tugged on the cable at some point and moved it. While the Esc key is held down, the Alt+Tab combination doesn't do anything. Perhaps this is to avoid conflicts with some other key combination involving Esc. As noted, Win+E still opens an Explorer window. Win+Tab does seem to work with only Esc held down, but not with the adjacent* § key held down instead so I guess the heavy cable might have moved while I was troubleshooting. * I'm using a Swiss keyboard so this is the layout https://en.wikipedia.org/wiki/File:KB_Swiss.svg
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931273/alttab-is-not-doing-anything-at-all
+
+---
+
+#### 1200. Slow CPU processing when windows update is pending
+
+**问题描述 / Problem Description**:
+Tags: windows-10, windows-11, windows-update, windows-server | Score: 4 | Views: 3398 | Answers: 1 | Created: 2021-11-07
+
+**解决方案 / Solution**:
+I can confirm OP's experience. Whenever I get updates alerts, the overall performance suffers for as long as the updates are not installed. The CPU usage spikes to well over 90%, even after a Sleep or Hybernation. After the update is installed everything runs smoothly again.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1686159/slow-cpu-processing-when-windows-update-is-pending
+
+---
+
+#### 1201. Why am I getting a strange account that is only showing on startup on Windows 10?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, login | Score: 3 | Views: 387 | Answers: 1 | Created: 2025-06-05
+
+**解决方案 / Solution**:
+How to Identify and Remove Unwanted Accounts in Windows To identify and remove unwanted accounts appearing on your Windows login screen, PowerShell can be used. 1. Identify Local Accounts First, let's list all local accounts and determine if they're visible on the login screen. Open a PowerShell terminal as an administrator. Execute the following code: Get-LocalUser | Select-Object -Property Name, FullName, Enabled, @{ Name = 'Visible' Expression = { $UserName = $PSItem.Name $IsEnabled = $PSItem.Enabled $UserSID = $PSItem.SID.Value # Gets the string value of the SID $IsVisible = $true # Assumes it's visible by default # --- Visibility Checks --- # 1. Checks if account is disabled if (-not $IsEnabled) { $IsVisible = $false } # 2. Checks if account name ends with '$' (machine/service accounts) elseif ($UserName.EndsWith('$')) { $IsVisible = $false } # 3. Checks if it's the Guest account using known SID 'S-1-5-32-546' elseif ($UserSID -eq 'S-1-5-32-546') { $IsVisible = $false } # 4. Checks the SpecialAccounts\UserList registry key for hidden accounts else { $RegPath = 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList' # Checks if registry key exists if (Test-Path $RegPath) { # Gets the registry key $SpecialAccountsKey = Get-Item -Path $RegPath # Gets the property value. GetValue() returns $null if property doesn't exist $RegValue = $SpecialAccountsKey.GetValue($UserName) # If property exists and value is 0, account is hidden if ($null -ne $RegValue -and $RegValue -eq 0) { $IsVisible = $false } # Releases the registry key handle $SpecialAccountsKey.Dispose() } } # Returns final visibility result $IsVisible } } Look at the FullName column in the results to identify the unwanted account you see at startup. Then note down its Name (actual username). 2. Remove the Unwanted Account With the Name of the unwanted account noted, you can remove it using the Remove-LocalUser cmdlet. Execute the following command, replacing UnwantedAccountName with the actual name you identified in the previous step: Get-LocalUser -Name 'UnwantedAccountName' | Remove-LocalUser 3. Verify Deletion To confirm the account has been removed, run the identification code from Step 1 again. The unwanted account should no longer appear in the list. If the account still appears after removal or if you encounter any issues, it might be being recreated by specific software or there may be another configuration activating it.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1903860/why-am-i-getting-a-strange-account-that-is-only-showing-on-startup-on-windows-10
+
+---
+
+#### 1202. Without modifying security, allow any user to launch any WindowsApps executable directly?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, security, windows-11, modern-ui | Score: 3 | Views: 122 | Answers: 1 | Created: 2025-05-30
+
+**解决方案 / Solution**:
+Windows Apps use the UWP framework, and launching goes through its launcher. While they are .exe files, they don't work the same way, as you found out. Permissions should not be edited as that will break the app. You can drag a shortcut out from the start menu to a local folder to create a shortcut to that icon. If you can figure out what it targets, you can use start "" <insert string here> to start the app from commandline. Using start "" <path to shortcut you created> should also be possible. You mentioned that although you were unable to use the first method, the second method worked. Its possible Microsoft changed something so the first method no longer works. I only once tried it and it worked then, but that's not a guarantee. I got help from DavidPostill for mentioning about the first parameter being the title. Thanks man.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1903010/without-modifying-security-allow-any-user-to-launch-any-windowsapps-executable
+
+---
+
+#### 1203. Why one server is able to ping the other but not vice versa?
+
+**问题描述 / Problem Description**:
+Tags: networking, windows-server, windows-server-2019 | Score: 3 | Views: 18360 | Answers: 1 | Created: 2022-03-19
+
+**解决方案 / Solution**:
+The Windows Server 2019 might block inbound pings: Run : Windows Defender Firewall with Advanced Security On the left pane click Inbound Rules Click the Name column to sort the rules for easier access Find the two rules titled "File and Printer Sharing (Echo Request - ICMPv4-In)", right-click each rule and choose "Enable Rule". This should enable ping to this server.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1711743/why-one-server-is-able-to-ping-the-other-but-not-vice-versa
+
+---
+
+#### 1204. windows: Is the term "basic disk" the same as "Simple Volume"?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, hard-drive, windows-server, disk-management | Score: 3 | Views: 5377 | Answers: 2 | Created: 2022-01-13
+
+**解决方案 / Solution**:
+"Basic disk" refers to the whole disk – it means the disk uses standard MBR or GPT partitioning (as opposed to Microsoft LDM), and therefore can only contain simple volumes. The opposite is "Dynamic disk" which uses the LDM partitioning style (Logical Disk Manager; the Windows equivalent of LVM for Linux) and can contain spanned/mirrored/striped volumes in addition to simple volumes. However, if you only have simple volumes, that doesn't automatically mean they're on a "Basic" MBR/GPT disk – it could still be in "Dynamic" LDM format. As this is a disk-level property, not a volume-level one, it will be shown in disk information to the left of physical partitions: Right-clicking that area will offer you an option to convert a Basic MBR disk to Dynamic LDM, or the other way around (as long as it has Simple volumes only).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1698936/windows-is-the-term-basic-disk-the-same-as-simple-volume
+
+---
+
+#### 1205. Windows Server 2016 datetime switching between two values repeatedly
+
+**问题描述 / Problem Description**:
+Tags: time, windows-server | Score: 3 | Views: 733 | Answers: 1 | Created: 2021-12-17
+
+**解决方案 / Solution**:
+To find which process changed the date/time, consult Event ID 4616 : The system time was changed : Run the Event Viewer Position to Windows Logs > Security Right-click Security and select "Filter Current Log..." In the dialog Filter Current Log, Filter tab, enter the Event ID 4616 Click OK In the displayed events list, click on an event to see its details, and especially under "Process Information" see the "Name" field.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1694564/windows-server-2016-datetime-switching-between-two-values-repeatedly
+
+---
+
+#### 1206. What is the windows apppatch directory purpose and contents?
+
+**问题描述 / Problem Description**:
+Tags: windows-server | Score: 3 | Views: 9001 | Answers: 1 | Created: 2021-11-17
+
+**解决方案 / Solution**:
+The directory c:\windows\apppatch is used by the Microsoft Application Compatibility Toolkit From How to use the Compatibility Administrator utility in Windows You can use the Compatibility Administrator tool to quickly apply various program fixes (AppFixes, also known as "shims") to a program to determine their effectiveness. Compatibility Administrator reads the %SystemRoot%\AppPatch\Sysmain.sdb database file to produce a list of available fixes. When you select an AppFix, you can start the program executable (.exe) file, and the AppFix is applied. If a suitable AppFix is found, the tool eventually helps you generate and test matching file information. So basically that directory contains details of application compatibility usable to seamlessly fix or patch applications that may be designed for older versions of Windows.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1688054/what-is-the-windows-apppatch-directory-purpose-and-contents
+
+---
+
+#### 1207. Windows 11 dialog box is opening consistently off screen
+
+**问题描述 / Problem Description**:
+Tags: display, windows-11 | Score: 2 | Views: 904 | Answers: 2 | Created: 2025-11-19
+
+**解决方案 / Solution**:
+It looks like your system "remembers" a previous monitor configuration. The following two approaches might work to remove old information from the system. I would use first A, then B: A - first approach open device manager by clicking on start, and searching for it in the search box. In the "view" menu item, activate "show hidden devices" open the "monitors" drop-down. Remove any old monitor information by right-clicking on the greyed-out items and selecting "uninstall device". restart your system B - second approach connect an external monitor in display settings, choose "extend displays" set your laptop display as your main display (click on "multiple displays", select your laptop's display on the graphic, then make sure "make this my main display" is checked). restart your system disconnect the external monitor restart again.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930388/windows-11-dialog-box-is-opening-consistently-off-screen
+
+---
+
+#### 1208. Why am I experiencing no sound or second display after an MS Teams meeting?
+
+**问题描述 / Problem Description**:
+Tags: windows, multiple-monitors, hdmi | Score: 2 | Views: 172 | Answers: 1 | Created: 2025-11-19
+
+**解决方案 / Solution**:
+The HDMI wire is also used for the sound. So when the wire is loose\broken both the display AND the sound will stop. Since you mentioned that your dad has been using it for a long time, check the port on computer or TV screen if it's loose. and\or change the HDMI cable
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930352/why-am-i-experiencing-no-sound-or-second-display-after-an-ms-teams-meeting
+
+---
+
+#### 1209. How to update from Windows 11 22H2 to 25H2 without TPM-2.0?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, windows-update, tpm | Score: 2 | Views: 6796 | Answers: 1 | Created: 2025-11-17
+
+**解决方案 / Solution**:
+When you boot from the Windows 11 installation media, the install.wim in the sources folder is loaded into memory to create drive X: . The setup.exe file on this drive X: is executed when the UI is used to install Windows. This setup.exe reads the registry hacks you made to enable you to do a clean install of Windows 11. You are now trying to upgrade to Windows 11 25H2 without losing your data. In such cases, you do not boot from the installation media. The normal procedure would be to run the setup.exe file in the root directory of the installation media while booted to your existing Windows 11. This setup.exe is not the same as the one stored in install.wim and will ignore such registry hacks. Note Registry hacks are documented in this answer . A clean installation method with no registry hacks, which only uses Microsoft and Apple software is covered by this question and accepted answer. I have yet to test the procedure given below on my 2018 Mac mini. However, the procedure should be the same as on other Windows machines. The procedure upgrades Windows 11 to 25H2 instead of doing a clean install. Use Rufus to create the installer from the Windows 11 25H2 ISO. (I use the portable type.) Rufus replaces the setup.exe that comes on the ISO with its own version. From Windows 11, run setup.exe on the drive created by Rufus to upgrade to Windows 11 25H2. In the past, instead of using a USB flash drive, I used a mounted VHD file that was created using the Windows Disk Management application. However, if internal drive space is limited, then try using a flash drive. (My Mac mini only has a 250 GB internal drive that is shared with macOS.) Note this answer is similar to one of my previous answers . The major difference is that your Mac UEFI boots Windows. Update I decided to test both Rufus and FlyOOBE (formally FlyBy11) for upgrading Windows 11 22H2 to Windows 11 25H2. I did this by first creating a Windows 11 Pro 22H2 (with all available updates installed) VMware Fusion Player (version 12.1.2) virtual machine. Windows was installed to UEFI boot without secure boot or a TPM. The host is a 2013 iMac (iMac14,3) with macOS Catalina (version 10.16.7) installed. The processor is an Intel i5-4570S. Using Rufus The steps are given below. Download Win11_25H2_English_x64.iso from this Microsoft website . Download rufus-4.11p.exe from the Rufus website . Use the Windows Disk Management application to create a mounted 8 GB VHD file. Use Rufus (after it updates itself) to select the ISO file, then write to the mounted VHD file. The default Rufus settings were used. Run setup.exe in the root folder on the mounted VHD file and upgrade to Windows 25H2. Using FlyOOBE The steps are given below. Download Win11_25H2_English_x64.iso from this Microsoft website . Download FlyOOBE 2.1 ( FlyoobeApp.zip ) from this GitHub website . Use the Windows File Explorer to "Extract All..." from the FlyoobeApp.zip file. Open the FlyOOBE application. If you get the following pop-up, select "More info" The pop-up will now appear as shown below. Select "Run anyway". When the window shown below appears, select "Details" under "Upgrade to Windows 11". When the window shown below appears, select "Run". If the following pop-up appears, select "Run". When the window shown below appears, drag and drop the ISO file into the box labeled "Drag & drop ISO here or click to import from local file". If the following pop-up appears, select "Yes". You can ignore the following pop-up. Upgrade to Windows 25H2. When the following window appears, select "Next", then proceed with the upgrade. Note: In my case, I am upgrading Windows 11 Pro even though the window below states "Install Windows Server".
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930282/how-to-update-from-windows-11-22h2-to-25h2-without-tpm-2-0
+
+---
+
+#### 1210. How to differentiate Office in remote machine by color?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, microsoft-office, colors | Score: 2 | Views: 92 | Answers: 1 | Created: 2025-11-14
+
+**解决方案 / Solution**:
+You can’t assign a custom color to an Office installation based on the remote machine. Office doesn’t support machine-level color tagging, and the interface theme is tied to the user profile rather than the host system. However, there are a few practical ways to distinguish Office instances when you connect to multiple remote environments. The most straightforward method is to use different Office themes. Office only offers a limited set (Colorful, Dark Gray, White, Black), but if each remote machine is using a separate Windows user profile or a different Microsoft 365 login, you can set a different theme in File → Account → Office Theme. That theme will persist only for that profile, so it becomes an easy visual indicator of where you are working. You can also change the Office background (the pattern in the title bar) from the same menu. It’s subtle, but people often use different backgrounds across remote sessions for quick identification. Another reliable approach is to differentiate Windows itself. Office inherits certain UI elements, such as the accent color and the account information shown in the top-right corner. If each remote machine has its own Windows user account with a different profile picture, display name, wallpaper, or accent color, Office will reflect that. In many RDP or VM setups this ends up being the most dependable way to tell environments apart. What you cannot do is force Office to load a unique color scheme or skin based strictly on the remote host. Microsoft doesn’t expose a setting for that, and there’s no supported registry or configuration workaround. Any visual difference must come from the user profile or Windows settings, not the Office installation itself.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930182/how-to-differentiate-office-in-remote-machine-by-color
+
+---
+
+#### 1211. How do I make an app the default for all its file types in Windows 11, version 25H2
+
+**问题描述 / Problem Description**:
+Tags: windows-11, vlc-media-player, file-association | Score: 2 | Views: 1593 | Answers: 2 | Created: 2025-11-06
+
+**解决方案 / Solution**:
+Windows 11 does not (currently) have a feature that allows you to assign all file types handled by an application to that application in one click**. Windows 11 protects certain file extensions and prevents them from being re-configured by anything other than the DefaultApps settings page, and this requires you to choose for every file type. File extensions that are not protected by the UserChoice feature can be bulk assigned, but only if the application (or its installer) provides this feature. There may be third-party tools, you could script something to automate it for yourself or manually edit the registry but none of these are "one click solutions". ** for the builds/versions am using or have access to. Older versions may have this feature, newer versions are less likely to.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929838/how-do-i-make-an-app-the-default-for-all-its-file-types-in-windows-11-version-2
+
+---
+
+#### 1212. How to install two missing media DLLs on Windows 11 Home?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, dll, windows-11-24h2 | Score: 2 | Views: 146 | Answers: 1 | Created: 2025-11-04
+
+**解决方案 / Solution**:
+I did finally find a fix. As @Ramhound pointed out, these DLLs should be installed on my machine and shouldn't be missing. They turn out to be part of the Media Foundation. After asking around a bit I learned that one way to get them back would be to deinstall and reinstall any optional media features. In my case this was the Windows Media Player Legacy, and Media Features and then reinstall them. I went to Settings > System > Optional Features. The Windows Media Player legacy was listed under "View or edit optional features" and Media Features was in the checklist pop-up brought up by "More Windows features". I removed both one at a time between restarts so that all media optional features were gone, and then reinstalled them one at a time between restarts. The DLLs are now no longer missing.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929725/how-to-install-two-missing-media-dlls-on-windows-11-home
+
+---
+
+#### 1213. How to add a second "Open With..." entry for Firefox in private mode on Windows 10?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, firefox, context-menu | Score: 2 | Views: 187 | Answers: 1 | Created: 2025-07-09
+
+**解决方案 / Solution**:
+The REG fix outlined in this article can be helpful. Add “Firefox (Private browsing)” to Default Apps https://gist.github.com/winhelponline/2f39276cdb1872304f72ecd843476d71#file-firefox_private-reg (GitHub) After applying that REG file, you'll see "Firefox Private" entry in the Open with menu.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1909529/how-to-add-a-second-open-with-entry-for-firefox-in-private-mode-on-windows
+
+---
+
+#### 1214. How to override the application window size in Windows 10?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, window | Score: 2 | Views: 1859 | Answers: 1 | Created: 2025-06-28
+
+**解决方案 / Solution**:
+there is no way to get to the edge Open the Alt + Space menu, select "Size", then press arrows → and/or ↓ to choose the edge or corner you want to resize, then use the arrow keys to "drag" that edge or corner. This only works if the program doesn't refuse being resized. (The "Move" option behaves similarly; use arrow keys to position the window.) The article here on fixing programs that are too small say to change the DPI scaling setting with the application properties. I have tried that, and it doesn't help: it apparently only enlarges programs and does not reduce them It isn't supposed to reduce them; it is supposed to change the way the contents are scaled, i.e. instead of Windows forcefully scaling widgets before rendering them (and potentially resulting in them overlapping) you can choose to have Windows scale the final rendered image (which makes it blurry but retains all proportions). The program appears to be deliberately designed to never allow scaling or reducing the size of the displayed window. I use an AutoHotkey script "Super Window Drag.ahk" which allows moving and resizing windows with Win +drag (this is custom version cobbled together from three different scripts found in AutoHotkey forums). I'm using it for convenient moving-around, but as a side effect, the mechanism it uses seems to bypass some of the resizing restrictions imposed by programs – it successfully shrinks the Bulk Rename Utility window. Doing so makes the window's contents overlap, however. Sometimes the program just isn't designed to be shrunk beyond a certain size. (It also moves windows that you wouldn't expect to move, like accidentally Win+dragging the Start menu.) I'm not sure if AltSnap would have the same effect of bypassing resize limits, but it at least is another option for resizing windows without having to grab the edge exactly.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1907375/how-to-override-the-application-window-size-in-windows-10
+
+---
+
+#### 1215. Drivers requested for installing Tiny 11 on a mini pc
+
+**问题描述 / Problem Description**:
+Tags: windows-10, command-line | Score: 2 | Views: 2568 | Answers: 1 | Created: 2025-06-13
+
+**解决方案 / Solution**:
+In theory windows should have basic enough drivers to get a PC mostly running. If you have the original windows install available - you might be able to dump out the drivers from the existing windows 10 install and try to use those to bootstrap the windows 11 install. My guess would be tiny 11 might have dumped those out, or windows 11 misses the ones needed for your storage controller. Essentially what I did was dump out the existing drivers with the Export-WindowsDriver commandlet from windows 10 into a USB drive Run this command on a powershell terminal Export-WindowsDriver -Online -Destination d:\drivers Where d: is your USB drive. This will give you many folders each with a driver. Insert the driver USB into the system that you're trying to install on, and try each of the folders when windows prompts for drivers till windows accepts it. In my case it matched the codename of the architecture - so yours might be something starting with geminilake
+
+**参考链接 / References**:
+- https://superuser.com/questions/1904933/drivers-requested-for-installing-tiny-11-on-a-mini-pc
+
+---
+
+#### 1216. How to block all outbound connections except web browser using Windows Firewall?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, networking, firewall, windows-firewall | Score: 2 | Views: 1336 | Answers: 2 | Created: 2025-05-30
+
+**解决方案 / Solution**:
+I made some tests in my computer through a Win VM and I managed only allowing Firefox and ping applications access the internet. I suggest you to make some tests in a VM if you can. How did I make this? Well, I simply disabled all the firewall rules located in Outbound Rules apart from all the ones related to Core Networking . I enabled all the firewall rules located in Outbound Rules related to Core Networking not enabled yet. I modified all the firewall rules located in Outbound Rules related to Core Networking Diagnostics - ICMP Echo Request* to allow any Local and Remote Address . I created specific firewall rule in Outbound Rules for the Firefox application (Program path: %ProgramFiles%\Mozilla Firefox\firefox.exe) applied to the profiles (Domain, Private, Public) allowing any Protocol and any Local and Remote Address . Ready! Now only Firefox and Ping are accessing the internet. Futher Information In a Windows 10 VM created from scratch and totally upgraded today (05/31/2025 - 01:11PM) . The only application I installed was Firefox . Windows version: Windows 10 Enterprise 22H2 (OS Build 19045.59.17)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1903035/how-to-block-all-outbound-connections-except-web-browser-using-windows-firewall
+
+---
+
+#### 1217. How do I allow technicians without an admin role to shadow a windows server 2022 RDP?
+
+**问题描述 / Problem Description**:
+Tags: remote-desktop, windows-server, administration, windows-server-2019 | Score: 2 | Views: 6693 | Answers: 1 | Created: 2022-05-09
+
+**解决方案 / Solution**:
+On the server with the RDS role, you can configure permissions on a per-connection basis following the steps here: Configure Permissions for Remote Desktop Services Connections . To configure permissions for a connection On the RD Session Host server, open Remote Desktop Session Host Configuration. To open Remote Desktop Session Host Configuration, click Start, point to Administrative Tools, point to Remote Desktop Services, and then click Remote Desktop Session Host Configuration. Under Connections, right-click the name of the connection, and then click Properties. In the Properties dialog box for the connection, on the Security tab, configure the permissions as appropriate for your environment, and then click OK. You could also apply to the whole host by adding users/groups to the terminal-services permissions settings via the AddAccount(AccountName,PermissionPreSet) method described here : # cmd wmic /namespace:\\root\CIMV2\TerminalServices PATH Win32_TSPermissionsSetting WHERE (TerminalName ="RDP-Tcp") CALL AddAccount "domain\group",2 # or powershell $group = 'DOMAIN\groupname' Get-CimInstance -Namespace root\CIMV2\TerminalServices -ClassName Win32_TSPermissionsSetting -Filter 'TerminalName ="RDP-Tcp"' | Invoke-CimMethod -MethodName AddAccount -Arguments @($group,2) There are three settings you can assign with this method: 0 The account has logon permission (same as remote desktop users group by default) 1 Logon, Query Information, Send Message, and Connect permissions. (basically view-only shadow permission) 2 full control
+
+**参考链接 / References**:
+- https://superuser.com/questions/1720149/how-do-i-allow-technicians-without-an-admin-role-to-shadow-a-windows-server-2022
+
+---
+
+#### 1218. How do I get "crypto shell extensions" back in to open with in windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, windows-server, regedit, windows-server-2019 | Score: 2 | Views: 9003 | Answers: 2 | Created: 2022-04-22
+
+**解决方案 / Solution**:
+Examine the (Default) registry value for: HKCR\P7SFile\shell\open\command It can be changed back to: %SystemRoot%\system32\rundll32.exe cryptext.dll,CryptExtOpenPKCS7 %1 Note: P7SFile is the (Default) value for the HKCR\.p7s file extension. If necessary, repeat the steps above for any other 'stolen' file extensions.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1717450/how-do-i-get-crypto-shell-extensions-back-in-to-open-with-in-windows-11
+
+---
+
+#### 1219. Windows server: letting a user use a desktop app without accessing the app's files
+
+**问题描述 / Problem Description**:
+Tags: remote-desktop, windows-server, windows-server-2019 | Score: 2 | Views: 2411 | Answers: 2 | Created: 2022-03-25
+
+**解决方案 / Solution**:
+Anything the app has to access while running as that user is, by necessity, also accessible by the user. Your option is to implement additional security protection through some type of data loss prevention. For instance, you may: Prevent copying and pasting files from the server Prevent accessing the files over the network Prevent access to internet browsers or other application which could provide an avenue for the user to upload a file offsite. Prevent access to the windows clipboard so they cannot copy and paste the code. Block internet access on the server. Configure your terminal services settings so the application automatically runs when the user logs in and does not receive access to a desktop. More information here: https://stackoverflow.com/questions/63022048/how-do-i-restrict-a-remote-desktop-user-to-a-single-application-on-windows-serve Etc. You’ll have to think about and block any avenue a user may use to copy or modify the code even though they have at least read access to the files. The fact it is running in Remote Desktop makes this much easier.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1712789/windows-server-letting-a-user-use-a-desktop-app-without-accessing-the-apps-fil
+
+---
+
+#### 1220. $ps -ax shows long-running "windows server"
+
+**问题描述 / Problem Description**:
+Tags: macos, windows-server, pid, macos-monterey | Score: 2 | Views: 3232 | Answers: 2 | Created: 2022-03-18
+
+**解决方案 / Solution**:
+That doesn't say "Windows Server" – it says " Window Server". A window server is the OS component which handles the display of application windows on your screen – such as their stacking order, positioning, focus (i.e. delivering input to the right window), and composing individual windows into the single final image. Here's a longer explanation of the macOS 'WindowServer' specifically: https://eclecticlight.co/2020/06/08/windowserver-display-compositor-and-input-event-router/ It is also known as "Quartz Compositor" (Quartz being the entire macOS GUI environment): https://web.archive.org/web/20040925095929/http://developer.apple.com/documentation/MacOSX/COnceptual/SystemOverview/SystemArchitecture/chapter_3_section_4.html Similarly, Xorg on Linux would be "window server" for the X Window System aka X11 (though it does leave quite a few tasks to a separate window manager program), and dwm.exe may be the closest equivalent in Windows.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1711549/ps-ax-shows-long-running-windows-server
+
+---
+
+#### 1221. How to intercept/modify keystrokes before the Microsoft Chinese IME processes them on Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows, keyboard, keyboard-shortcuts, keyboard-layout, autohotkey | Score: 1 | Views: 117 | Answers: 1 | Created: 2025-12-07
+
+**解决方案 / Solution**:
+Using AHK v2's Text mode of Send : #Requires AutoHotkey v2.0 $\::Send "{Text}\" Works on my computer, where pressing \ key with Microsoft Pinyin IME (Chinese Simplified) produces "\" instead of "、". However, please note that my physical keyboard only has a \ key (no 、 key). Also, on my computer, my AHK script seems to be receiving the keystroke before the IME. So please test if it works on your computer or not. A caveat is that my solution ignores the IME, and just replaces \ key with "\" character always, regardless of whether it is English or Chinese. Maybe there is a way to check the IME in AHK but I didn't find a way to do so.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931134/how-to-intercept-modify-keystrokes-before-the-microsoft-chinese-ime-processes-th
+
+---
+
+#### 1222. DNS suffixes vs DNS zones on Windows DNS
+
+**问题描述 / Problem Description**:
+Tags: windows, networking, dns | Score: 1 | Views: 82 | Answers: 1 | Created: 2025-11-25
+
+**解决方案 / Solution**:
+SOA records can only be at the top of a zone. So if the tool requires specifying the top of a zone (for whatever reason – maybe the design of the tool is already outside "best practices"?) then you have no other choice but to create a zone. (NS records don't necessarily have to be at the top, but of course they have a different meaning when placed elsewhere than the apex: that's how one creates a zone delegation. Placing NS records at srv.prd therefore implies that the specified servers have a separate zone under that name...) Zones are mostly free; your custom zones will be AD-replicated just like the standard ones are. Some kind of "overlay" trickery is technically possible but way too much of administrative overhead in comparison to the direct method. prd doesn't need to be a separate zone if the tool doesn't require that. Delegations can occur at any depth, i.e. you can "skip" a level or two.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930640/dns-suffixes-vs-dns-zones-on-windows-dns
+
+---
+
+#### 1223. Windows LDM on partitioned disk
+
+**问题描述 / Problem Description**:
+Tags: windows, partitioning, multi-boot, logical-drive | Score: 1 | Views: 165 | Answers: 1 | Created: 2025-11-23
+
+**解决方案 / Solution**:
+Okay, found the solution. The partition table needs to be created with 128 MB of space at the end, a single large partition that Windows understands as a placeholder for the LDM data area, and partitions that Windows either doesn't understand or knows to leave alone for space that should not go into the data area. So: Windows Recovery ( DE94BBA4-06D1-4D40-A16A-BFD50179D6AC ) ESP ( C12A7328-F81F-11D2-BA4B-00A0C93EC93B ) Windows basic data partition ( EBD0A0A2-B9E5-4433-87C0-68B6B72699C7 ) Linux LVM ( E6D6D379-F507-44C2-A23C-238F2A3DF928 ) 128 MB free This can then be converted to a "dynamic" disk, which will turn the Windows basic data partition into the LDM data partition and the free space into the "LDM meta" and "reserved" partitions. The conversion knows to leave the recovery and ESP partitions in place and doesn't dare touch the LVM partition. The LDM starts with a single large volume spanning the entire area, which can be subsequently deleted. It does not work to leave this space free, because if the disk is not empty, the conversion needs something it can convert to LDM -- if there is nothing, just free space, it will complain about a lack of space.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930558/windows-ldm-on-partitioned-disk
+
+---
+
+#### 1224. How to prevent Azure from prompting for credentials on opening in a new tab
+
+**问题描述 / Problem Description**:
+Tags: google-chrome, windows-11, azure-activedirectory, windows-hello | Score: 1 | Views: 283 | Answers: 1 | Created: 2025-11-20
+
+**解决方案 / Solution**:
+From the Chrome support Entra Conditional access docs: Use the Microsoft Single Sign On chrome extension Set the CloudAPAuthEnabled registry DWORD value to 1 (required for Chrome 111+) reg.exe add "HKCU\Software\Policies\Google\Chrome" /v CloudAPAuthEnabled /t REG_DWORD /d 1 /f Check the chrome://policy URL before and after. Also try HKLM if you have admin access. If you have no access, ask IT to have a look at it. Alternatively sign into Edge and enable Automatically sign in to sites with your current work or school account - This setting hides the option of selecting an account when multiple work or school accounts are signed in on this device
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930429/how-to-prevent-azure-from-prompting-for-credentials-on-opening-in-a-new-tab
+
+---
+
+#### 1225. Windows 11 25H2 freezes when idle (random times)
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, crash, amd-ryzen | Score: 1 | Views: 1537 | Answers: 1 | Created: 2025-11-08
+
+**解决方案 / Solution**:
+There are a number of Sleep states, and you can experiment with turning off S3, S4 or S5 states , as well as allowing power to USB ports when in Sleep mode. Power down completely (don't Sleep or Hibernate). Hold Delete or F2 before pressing power button, and keep that key held, to enter BIOS. Under Advanced settings, select APM Configuration . On the ErP (Energy-related Product), disable both S4 and S5 as a first test. Press F10 to save changes and click OK . Now see if that fixes the issue... with the caveat that some Sleep states will not be available, requiring more power when idle, and that USB ports will not be powered in Sleep.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929900/windows-11-25h2-freezes-when-idle-random-times
+
+---
+
+#### 1226. How to make notifications in Windows 11 appear only on the primary screen?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11 | Score: 1 | Views: 433 | Answers: 1 | Created: 2025-10-30
+
+**解决方案 / Solution**:
+Apparently, it's not possible on Windows 11. At least not without any external software. Windhawk 's mod "Customize Windows notifications placement" enables positioning notifications in any place of the two screens.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929503/how-to-make-notifications-in-windows-11-appear-only-on-the-primary-screen
+
+---
+
+#### 1227. Unable to create system image windows 10
+
+**问题描述 / Problem Description**:
+Tags: windows-10, windows-system-image | Score: 1 | Views: 79 | Answers: 1 | Created: 2025-07-17
+
+**解决方案 / Solution**:
+Found the solution, increased partition size on original drive. and that fixed issue. Makes no sense, but it worked
+
+**参考链接 / References**:
+- https://superuser.com/questions/1911147/unable-to-create-system-image-windows-10
+
+---
+
+#### 1228. How to prevent Windows SearchProtocolHost from accessing drive unchecked in Indexed Locations?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, windows-search | Score: 1 | Views: 243 | Answers: 1 | Created: 2025-07-15
+
+**解决方案 / Solution**:
+Press Windows and type index . Select Exlcude folders from being indexes . Be sure Classic is selected, since Enhanced searches (indexes) the entire PC. Add X: in Excluded Folders. Yes, an entire drive can be added. For a belt- and -suspenders approach, also do the following. Right-click on your X: drive in Explorer and select Properties . On the General tab, remove check mark from Allow files on this drive to have contents indexed...
+
+**参考链接 / References**:
+- https://superuser.com/questions/1910804/how-to-prevent-windows-searchprotocolhost-from-accessing-drive-unchecked-in-inde
+
+---
+
+#### 1229. Why am I experiencing an error with MBRtoGPT for a UEFI Windows 10 boot drive?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, boot, partitioning, uefi, gpt | Score: 1 | Views: 631 | Answers: 1 | Created: 2025-07-15
+
+**解决方案 / Solution**:
+Your disk has two partitions marked 'Active' (corresponds to 'Boot: Yes' in the log – yes, the terminology is a mess). Only the 'System' partition should be marked that. Right-click the C:\ partition and the menu should have an option to un-mark it as active. Alternatively, in diskpart : list disk sel disk 0 list part sel part 1 inactive
+
+**参考链接 / References**:
+- https://superuser.com/questions/1910802/why-am-i-experiencing-an-error-with-mbrtogpt-for-a-uefi-windows-10-boot-drive
+
+---
+
+#### 1230. Troubleshooting simple script for sending keypresses to top-most window
+
+**问题描述 / Problem Description**:
+Tags: windows-10, powershell, automation | Score: 1 | Views: 124 | Answers: 1 | Created: 2025-07-15
+
+**解决方案 / Solution**:
+This type of issue might be something involving your run as admin settings, or incorrect ps syntax. I have several ps scripts I run daily in task scheduler, although mine are monitoring scripts such as this # Restarts PC at 6 AM if system has been inactive for specified duration # Save as: C:\Scripts\AutoRestart-IfIdle.ps1 # Configuration $RestartTime = "06:00" # 6:00 AM $IdleThresholdMinutes = 30 # Must be idle for 30 minutes before restart $LogFile = "C:\Scripts\AutoRestart.log" # Function to write log entries function Write-Log { param($Message) $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss" $logEntry = "[$timestamp] $Message" Add-Content -Path $LogFile -Value $logEntry Write-Host $logEntry } # Function to check if user is active function Test-UserActivity { Add-Type @' using System; using System.Diagnostics; using System.Runtime.InteropServices; public class UserActivityChecker { [DllImport("user32.dll")] public static extern bool GetLastInputInfo(ref LASTINPUTINFO plii); public struct LASTINPUTINFO { public uint cbSize; public uint dwTime; } public static TimeSpan GetIdleTime() { LASTINPUTINFO lastInputInfo = new LASTINPUTINFO(); lastInputInfo.cbSize = (uint)Marshal.SizeOf(lastInputInfo); if (GetLastInputInfo(ref lastInputInfo)) { uint idleTime = (uint)Environment.TickCount - lastInputInfo.dwTime; return TimeSpan.FromMilliseconds(idleTime); } return TimeSpan.Zero; } } '@ $idleTime = [UserActivityChecker]::GetIdleTime() return $idleTime } # Main execution logic Write-Log "=== Auto Restart Check Started ===" # Check if it's the right time (6 AM window) $currentTime = Get-Date $targetTime = Get-Date $RestartTime $timeWindow = 15 # 15-minute window around 6 AM if (($currentTime.Hour -eq $targetTime.Hour) -and ($currentTime.Minute -ge ($targetTime.Minute - $timeWindow)) -and ($currentTime.Minute -le ($targetTime.Minute + $timeWindow))) { Write-Log "Within restart time window (6:00 AM ± 15 minutes)" # Check user idle time $idleTime = Test-UserActivity Write-Log "System idle time: $($idleTime.TotalMinutes.ToString('F1')) minutes" if ($idleTime.TotalMinutes -ge $IdleThresholdMinutes) { Write-Log "System has been idle for sufficient time" # Give 60 seconds warning and allow cancellation $countdown = 60 while ($countdown -gt 0) { $title = "Automatic System Restart" $message = "System will restart in $countdown seconds for maintenance.`n`nClick Cancel to abort restart." # Show warning dialog (non-blocking) Add-Type -AssemblyName System.Windows.Forms $result = [System.Windows.Forms.MessageBox]::Show($message, $title, [System.Windows.Forms.MessageBoxButtons]::OKCancel, [System.Windows.Forms.MessageBoxIcon]::Information) if ($result -eq [System.Windows.Forms.DialogResult]::Cancel) { Write-Log "Restart cancelled by user" exit 0 } Start-Sleep -Seconds 10 $countdown -= 10 } Write-Log "Executing restart command" Restart-Computer -Force
+
+**参考链接 / References**:
+- https://superuser.com/questions/1910789/troubleshooting-simple-script-for-sending-keypresses-to-top-most-window
+
+---
+
+#### 1231. How to determine which file has a particular file number in Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, filesystems | Score: 1 | Views: 167 | Answers: 1 | Created: 2025-07-09
+
+**解决方案 / Solution**:
+I don't have a generalized solution. (It may be fsutil file queryFileNameById but I don't really know whether it is the same ID "namespace" or a different one.) But file 9 (that is, MFT entry #9) is fixed across all NTFS filesystems – it is \$Secure , one of the internal files where NTFS stores its own metadata. \$Secure contains deduplicated "security descriptors" of all files. A security descriptor is the full set of a file's security parameters – ownership, access entries (DACL), and audit entries (SACL). This is technically part of an individual file's properties, but typically you will have many files with identical security descriptors (and they aren't small either), so in order to avoid unnecessarily bloating the MFT they are deduplicated and stored in a separate table, with a reference count for each entry that indicates how many files are "using" that descriptor. If all files that were using a given security descriptor are deleted (or just have their security parameters changed to something else), the corresponding entry in \$Secure becomes unused and should be automatically removed by NTFS. Since that's a separate step – the system might e.g. crash before it gets to doing that – it could be that you end up with useless extra entries in \$Secure and chkdsk removes them on the next boot.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1909617/how-to-determine-which-file-has-a-particular-file-number-in-windows
+
+---
+
+#### 1232. How to set some taskbar apps to always hide labels and set some to only combine when full
+
+**问题描述 / Problem Description**:
+Tags: windows-10, user-interface | Score: 1 | Views: 111 | Answers: 1 | Created: 2025-06-30
+
+**解决方案 / Solution**:
+You cant do that with standard windows. There are many applications that will allow you to configure this on a replacement task bar. RocketDock - This I have used in the past, its very flexible. TaskbarX Cairo Desktop
+
+**参考链接 / References**:
+- https://superuser.com/questions/1907797/how-to-set-some-taskbar-apps-to-always-hide-labels-and-set-some-to-only-combine
+
+---
+
+#### 1233. What “memory” does this error refer to?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, memory, video-editing, kdenlive | Score: 1 | Views: 1146 | Answers: 2 | Created: 2025-06-12
+
+**解决方案 / Solution**:
+When you see "Memory" in an application, it almost never refers to available storage disk space on a computer. That is more likely to be called "space" or "disk space". On a computer, memory is nearly always RAM , fast and temporary storage for data currently being worked on, though it could mean any of a few different types of RAM, depending on your system and the application. When you see a message that mentions "memory", the safest assumption, unless the message includes other details that change this, is that it is referring to the main RAM in the computer. Even when you're buying computers these days the system information will more often than not refer to "memory" instead of RAM. In KDE you can use htop or System Monitor to view the currently available RAM. Video editing tends to be a RAM-intensive operation in many cases. In Windows, Task Manager is a good place to start to see how much memory you have left and what is using it.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1904786/what-memory-does-this-error-refer-to
+
+---
+
+#### 1234. How do I update the .NET release number in the registry without a reboot?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, powershell, windows-registry, script, .net-framework | Score: 1 | Views: 456 | Answers: 1 | Created: 2025-05-30
+
+**解决方案 / Solution**:
+To change the Registry key, one can change owner (it's now TrustedInstaller) and permissions... but that's not a good idea on a production machine. However, why not script a restart after installing the correct .NET framework, with the remainder of the script set as a RunOnce Registry entry ? That is how Microsoft Update and other multipart installers work. If you're continuing installation as Administrator, the likely case, then use HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce . See Mission Impossible Code or CMatskas for more information on setting up a script.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1903014/how-do-i-update-the-net-release-number-in-the-registry-without-a-reboot
+
+---
+
+#### 1235. When is a Windows-Server more vulnerable
+
+**问题描述 / Problem Description**:
+Tags: windows-update, windows-server | Score: 1 | Views: 72 | Answers: 1 | Created: 2023-07-12
+
+**解决方案 / Solution**:
+I think you're between a rock & a hard place, because to my mind your peak danger zone is after the updates have been installed, but the services not yet moved into place & activated. At that point, a hang or power outage could wreck that handover. It shouldn't happen, the update procedure ought to be robust enough to survive that, but there's always a small possibility. …but your machine has a possibility of hanging anyway at reboot. So, even though you have the potential of it hanging, like the Sword of Damocles over you, you're still marginally safer to not start the update until you can be there to supervise the entire process.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1795657/when-is-a-windows-server-more-vulnerable
+
+---
+
+#### 1236. How to launch process through SSM command as a non-background process?
+
+**问题描述 / Problem Description**:
+Tags: powershell, amazon-web-services, amazon-ec2, windows-server | Score: 1 | Views: 739 | Answers: 1 | Created: 2023-03-29
+
+**解决方案 / Solution**:
+SSM runs in a background Session . If you had multiple RDP sessions, then how would you choose which one to start chrome in? If there is no active RDP session, then should it fail? SSM also runs as a specific user by default: ssm-user . Only SYSTEM can start processes in another session, so SSM won't have permission anyways. You can work around these limitations with other tools like PSExec or a scheduled task , but SSM is not ideal for this.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1776283/how-to-launch-process-through-ssm-command-as-a-non-background-process
+
+---
+
+#### 1237. No signal / no display issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0xvza/no_signal_no_display_issue/
+
+---
+
+#### 1238. Windows Update/download issues?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0v6we/windows_updatedownload_issues/
+
+---
+
+#### 1239. Replacing a Macbook Air A2337 speaker and the screw on the speaker mount has ground down!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0ygep/replacing_a_macbook_air_a2337_speaker_and_the/
+
+---
+
+#### 1240. HELLO PLS HELP GUYS MY DLSS FRAME GENERATION NOT WORKING
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0y6uy/hello_pls_help_guys_my_dlss_frame_generation_not/
+
+---
+
+#### 1241. Problema con mis audífonos
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0xzum/problema_con_mis_audífonos/
+
+---
+
+#### 1242. Way forward with Outlook's broken autocomplete?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0y0va/way_forward_with_outlooks_broken_autocomplete/
+
+---
+
+#### 1243. Hoxhunt alternatives
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0xz6b/hoxhunt_alternatives/
+
+---
+
+#### 1244. Am I Getting Fucked Friday, May 1st 2026
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0xwq3/am_i_getting_fucked_friday_may_1st_2026/
+
+---
+
+#### 1245. Remove all local servers - move AD domain controllers to Azure?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0yhe4/remove_all_local_servers_move_ad_domain/
+
+---
+
+#### 1246. Windows PIN Error: Something went wrong, and your PIN isn't available
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0y82a/windows_pin_error_something_went_wrong_and_your/
+
+---
+
+#### 1247. Can I get an opinion(s) on my first build?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0y9ri/can_i_get_an_opinions_on_my_first_build/
+
+---
+
+#### 1248. Asus rog Strix or Swift ?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0y6ap/asus_rog_strix_or_swift/
+
+---
+
+#### 1249. New build, 9850X3D hitting 95°C on CCD #0 under load. Is this normal?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0y1sy/new_build_9850x3d_hitting_95c_on_ccd_0_under_load/
+
+---
+
+#### 1250. Gpu manufacturer help
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0xwyr/gpu_manufacturer_help/
+
+---
+
+#### 1251. Gpu less expensive in a week?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0xs7w/gpu_less_expensive_in_a_week/
+
+---
+
+#### 1252. CPU Cooler fan does not fit.
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0xq8a/cpu_cooler_fan_does_not_fit/
+
+---
+
+#### 1253. I built a simple temporary email tool to avoid spam signups
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0yao5/i_built_a_simple_temporary_email_tool_to_avoid/
+
+---
+
+#### 1254. Skopx: The Missing Integration Layer for Business Software
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0y6v1/skopx_the_missing_integration_layer_for_business/
+
+---
+
+#### 1255. [V2EX] 请问 v2 各位 100w 的小目标是炒股炒的还是打工打的啊
+
+**问题描述 / Problem Description**:
+如题，感觉光打工攒到 100w 不知道得多久，大家的 100w 都是打工攒的吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209680#reply30
+
+---
+
+#### 1256. How do I remove the Copilot button from Notepad?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, notepad, microsoft-copilot | Score: 44 | Views: 5206 | Answers: 1 | Created: 2025-10-20
+
+**解决方案 / Solution**:
+Click the Settings gear in the top right corner of Notepad, then scroll to the bottom and switch Copilot to Off.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926990/how-do-i-remove-the-copilot-button-from-notepad
+
+---
+
+#### 1257. All of my Win+[Key] keyboard shortcuts are broken
+
+**问题描述 / Problem Description**:
+Tags: windows, keyboard, keyboard-shortcuts, asus-laptop, key-binding | Score: 18 | Views: 1929 | Answers: 1 | Created: 2025-10-26
+
+**解决方案 / Solution**:
+Hold Fn + ⊞ Win and then release. Windows key unlocked! (After much troubleshooting, I noticed there's a little padlock symbol printed on the ⊞ Win key on this Asus laptop. Embarrassing, I know; but I'm posting this here in the hope that it helps some poor reader Googling the same thing as me!)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1927258/all-of-my-winkey-keyboard-shortcuts-are-broken
+
+---
+
+#### 1258. How do I remove items from the Windows 11 right-click menu?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, context-menu | Score: 18 | Views: 8138 | Answers: 4 | Created: 2025-10-24
+
+**解决方案 / Solution**:
+Create a new String key called {8BCF599D-B158-450F-B4C2-430932F2AF2F} under HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked you will have to create the folder called Blocked for this to work. Sources: https://windowsloop.com/how-to-remove-edit-with-clipchamp-from-the-right-click-context-menu/ https://www.elevenforum.com/t/add-or-remove-ask-copilot-context-menu-in-windows-11-and-10.35985/ https://www.elevenforum.com/t/add-or-remove-edit-in-notepad-context-menu-in-windows-11.20485/ https://www.elevenforum.com/t/add-or-remove-send-to-my-phone-context-menu-in-windows-11.36440/ This will get rid of ClipChamp, I suspect that {8BCF599D-B158-450F-B4C2-430932F2AF2F} , is simply a GUID for ClipChamp which means there should also be one for CoPilot. You can use {CB3B0003-8088-4EDE-8769-8B354AB2FF8C} to get rid of “Ask Copilot”, {2F788D0F-1317-441B-86D2-4725301BD49D} is “Send to my Phone”, and {CA6CC9F1-867A-481E-951E-A28C5E4F01EA} is “Edit with Notepad”.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1927177/how-do-i-remove-items-from-the-windows-11-right-click-menu
+
+---
+
+#### 1259. Why can I create a file with a name containing a reserved device name in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows, naming | Score: 17 | Views: 3137 | Answers: 1 | Created: 2025-11-03
+
+**解决方案 / Solution**:
+Did something change recently? Are the docs outdated? It's a recent change in Windows 11 (starting with the first release, aka RTM aka 11.21H2 aka build 22000.3260). I can no longer find the post where it was originally listed among Win11 changes, but managed to find a mention in the .NET docs . A related dotnet-runtime pull request also says that "recent versions of Win10" already have relaxed this restriction, though in my quick tests 1 that didn't seem to have been the case in a fairly recent 10.22H2 ISO. It may have depended on some other components – like how the NTFS ability to mark specific directories as case-sensitive 2 was originally tied to having WSL1 installed in Windows 10 (but no longer in Windows 11). As I understand it, the docs still strongly discourage usage of such names because this still isn't 100% guaranteed to work throughout the whole stack – the Windows developers can only fix the Win32 API itself but have no control over anything built "above" Win32 that might have been imitating the same processing at a higher layer. For example, .NET-provided APIs care about such special paths a little too much (specifically refusing to open these 'device' names), as a result PowerShell 7.4 (running on .NET 9.x) can fully handle nul.txt whereas Windows PowerShell 5.0 (running on .NET 4.0) cannot, although it can create or delete it. Similarly there are plenty of "reserved filename" checks that may be hardcoded in other language runtimes. Finally, this restriction only ever applied to paths that undergo the full Win32 name processing. The Windows NT core has no such restriction (and neither does NTFS), and e.g. the \\?\ prefix (which is documented as disabling Win32 API name parsing in NT) has always allowed usage of such names from Win32 programs. Likewise the raw NT API or the POSIX subsystem never treated the DOS names as special. 1 (I booted the ISO, hit Shift-F10, then did echo hello > x:\nul.txt in the WinPE environment. Didn't actually install the whole OS.) 2 ( fsutil file setCaseSensitiveInfo )
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929654/why-can-i-create-a-file-with-a-name-containing-a-reserved-device-name-in-windows
+
+---
+
+#### 1260. Why is "echo off" command hanging in cmd console?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, cmd.exe | Score: 16 | Views: 3672 | Answers: 2 | Created: 2025-05-25
+
+**解决方案 / Solution**:
+This command echo off stop from displaying the prompt. Just try to exec dir and you will see the result. The opposite command is echo on . And better use it in script, not in command prompt. P.S. To display on and off strings you can use for example commands like echo\on and echo\off
+
+**参考链接 / References**:
+- https://superuser.com/questions/1902197/why-is-echo-off-command-hanging-in-cmd-console
+
+---
+
+#### 1261. How to remove the “Store” results from the Start Menu?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, start-menu, windows-search | Score: 13 | Views: 10784 | Answers: 7 | Created: 2025-10-25
+
+**解决方案 / Solution**:
+These specific Microsoft Store app ads in the Windows 11 Start Menu search results were added in May 2025 . Unlike the many previous iterations of Start Menu ads, they cannot currently be blocked by O&O ShutUp10 2.1.1015, Winaero Tweaker 1.64, Group Policies, registry edits such as disabling web search or recommended apps in the Start Menu ( DisableSearchBoxSuggestions or Start_IrisRecommendations ), or any other techniques anyone else has posted on the Internet that I've been able to find so far. Instead, what you can do is delete the state on disk and try to prevent it from being repopulated. Download DB Browser for SQLite (the x64 .zip file is sufficient) Run DB Browser for SQLite.exe Open the SQLite database file %LOCALAPPDATA%\Packages\Microsoft.WindowsStore_8wekyb3d8bbwe\LocalState\store.db In the Execute SQL tab, run the following query by pasting it into the text editor and then pressing the ▶️ button DELETE FROM SearchProducts Save the database by clicking the 💾 Write Changes button Use filesystem ACLs to set the database file to read-only Right-click store.db and go to Properties › Security › Advanced Disable permissions inheritance, and choose to convert inheritable permissions to explicit ones Edit each principal, removing the Write permission Changes take effect immediately, without restarting the computer or killing any processes. The Microsoft Store app is still functional with this change, and it can still do things like download new apps and auto-update installed apps in the background. Caveat: I don't know when Windows tries to update the database file, and I can't trigger an update to test the effectiveness of this read-only technique. It's working for me so far on 3 computers as of 2025-12-05 2026-03-31, and I will update this answer if it breaks, but this fix will need more time to tell how durable it is. I'm currently running Windows 11 25H2 26200.7171 26200.8117.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1927207/how-to-remove-the-store-results-from-the-start-menu
+
+---
+
+#### 1262. How can I install all program files into one place?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, installation, add-and-remove-programs | Score: 10 | Views: 2722 | Answers: 5 | Created: 2025-05-19
+
+**解决方案 / Solution**:
+You cannot force all Windows programs to put all files into a specific folder. Windows has some specific folders designs that many ( but not all ) software developers respect, such as: Software installed for all user accounts should be located in %ProgramFiles% Data for a specific user account should be stored in that user's %APPDATA% folder Data for system services should go to %ProgramData% etc... I use the environment variable names like %name% , because the actual folder locations and names may change, depending on your install settings or language for example. Ultimately, each software developer decides where files get saved to, and whether you are allowed to change those paths is up to them.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1899000/how-can-i-install-all-program-files-into-one-place
+
+---
+
+#### 1263. How to disable the shortcut of pressing and releasing Ctrl+Alt+Shift+Winkey that launches M365 Copilot?
+
+**问题描述 / Problem Description**:
+Tags: keyboard-shortcuts, windows-11 | Score: 9 | Views: 2181 | Answers: 3 | Created: 2025-10-25
+
+**解决方案 / Solution**:
+The first program that launches and registers the keyboard shortcut will claim it, and knowing Microsoft, these shortcut keys are baked in and cannot be changed. The same is true for shortcut keys for MS Office that no one asks for. The only way this can be mitigated that I know of, is by uninstalling the co pilot app. With thanks to Ramhound for providing the powershell command to remove the co-pilot app, here is the code: Get-AppxPackage -AllUsers -Name "Microsoft.Copilot" | Remove-AppxPackage -AllUsers
+
+**参考链接 / References**:
+- https://superuser.com/questions/1927220/how-to-disable-the-shortcut-of-pressing-and-releasing-ctrlaltshiftwinkey-that
+
+---
+
+#### 1264. Windows 11 installs wrong MTP driver every time a new device is connected. Any way to uninstall/remove it?
+
+**问题描述 / Problem Description**:
+Tags: windows, usb, drivers, mtp | Score: 5 | Views: 4095 | Answers: 2 | Created: 2025-11-10
+
+**解决方案 / Solution**:
+Use pnputil /enum-devices /connected /drivers as admin to get the driver name in use. Append > drivers.txt to get a searchable text file. Then pnputil /delete-driver oem987.inf /force to delete it. Maybe back it up before with pnputil /export-driver oem987.inf C:\FaultyMTPDriver , directory must exist. More examples: English , auto-translated . For a GUI tool check out Driver Store Explorer (RAPR) . Other options might be AutoRuns or devcon
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929963/windows-11-installs-wrong-mtp-driver-every-time-a-new-device-is-connected-any-w
+
+---
+
+#### 1265. The mouse cursor flickers in my VM, how can I fix it?
+
+**问题描述 / Problem Description**:
+Tags: windows, virtualbox, mouse-cursor | Score: 5 | Views: 314 | Answers: 1 | Created: 2025-11-07
+
+**解决方案 / Solution**:
+I eventually simply changed the mouse cursor for "Text Select" to this one below, and that fixed the issue: The other custom mouse cursors I tried also fixed the issue. I have no idea why the default mouse cursor for "Text Select" is flickering (and slightly lagging too I believe, unless the flickering is somehow making it appearing as laggy). I used the beam_rl.cur cursor:
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929890/the-mouse-cursor-flickers-in-my-vm-how-can-i-fix-it
+
+---
+
+#### 1266. Windows 11: Can I get a tiny popup when I hit Ctrl+C (like the Caps-Lock thing)?
+
+**问题描述 / Problem Description**:
+Tags: windows, keyboard-shortcuts, windows-11, clipboard, notifications | Score: 5 | Views: 330 | Answers: 1 | Created: 2025-10-15
+
+**解决方案 / Solution**:
+I have the same requirement, you can use Autohotkey to indicate a Ctrl + C key action or a clipboard action. While I was writing the answer music2myyear and DrMoishe Pippik added two helpful links in the comments regarding different solutions via Autohotkey. But I'm using these workarounds to avoid 3rd party software: You can activate the clipbard manager and press Win + v to see if the copy function worked (you'll see a list with the clipboard entries by pressing Win + v without immediately pasting it) Use Ctrl + x and press Ctrl + v afterwards (cut and paste immediately into the same location, with editable documents) Select as you would for copying, but instead of using the keyboard copy, use the mouse right-click and select copy from the context menu (more reliable than Ctrl + c )
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926731/windows-11-can-i-get-a-tiny-popup-when-i-hit-ctrlc-like-the-caps-lock-thing
+
+---
+
+#### 1267. How to stop CMD from printing the code in each iteration of a for loop?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, cmd.exe | Score: 5 | Views: 1639 | Answers: 2 | Created: 2025-05-25
+
+**解决方案 / Solution**:
+Place the @ character in the do clause: for %f in (*.mov) do @( … ) This will prevent the echo from occurring on each iteration. The output of the commands will not be affected. The echo off Command The echo off command is used in batch files ( .bat or .cmd ) to disable the display of commands as they are executed. This means that, from the point where echo off is activated, the commands themselves won't appear on the screen; only the output generated by them will. When you type echo off directly into the console, it stops displaying the commands you type from that moment on. Your observation that the prompt stopped showing up is a consequence, as the prompt is also a form of echo from the environment. When you type echo off in CMD interactively, you're telling CMD itself not to echo any command you type from then on, and this includes the display of the prompt that precedes your input. The @ avoids this because it acts before the command is passed to the shell, suppressing its own echo. For this reason, it's more appropriate to use echo off at the beginning of batch files rather than directly on the command line. The output of the commands you execute is not affected by echo off . Reactivating Display with echo on It's important to note that after using echo off to suppress the display of commands, you can reactivate it at any point in your script by using the echo on command. This is useful if you want to debug or check the behavior of a specific section of your batch file, while keeping the rest of the output cleaner. The @ (At sign) Modifier In the context of batch files, the @ (at sign) functions as an echo suppression modifier when placed at the beginning of a command line. It's not a mathematical operator like + or - , but rather a control symbol that changes the behavior of only that specific command it prefixes. With @ , you gain granular control over what gets echoed . Unlike echo off , which affects all subsequent commands, @ suppresses the echo of only a single command line. Practical Examples: Let's look at the difference with some examples in a batch script: 1. Simple Commands: dir @dir echo Hello @echo Hello Console Output: C:\YourPath>dir (list of files from 'dir' command - echoed) (list of files from 'dir' command - NOT echoed) C:\YourPath>echo Hello Hello Hello 2. Common Usage in Scripts: Starting a script with @echo off is standard practice to ensure clean output from the start: @echo off rem The rest of your script… dir echo Finished! Output: (list of files from 'dir' command) Finished! 3. Conditional Commands ( if ): The position of @ in if commands is crucial for understanding what will be suppressed. if "2"=="1" (echo A yes) else (echo A no) if "2"=="1" @(echo B yes) else (echo B no) if "2"=="1" (echo C yes) else @(echo C no) if "2"=="1" @(echo D yes) else @(echo D no) @if "2"=="1" (echo E yes) else (echo E no) Output (2 is not equal to 1, so the else part is executed): C:\YourPath>if "2" == "1" (echo A yes ) else (echo A no ) A no C:\YourPath>if "2" == "1" else (echo B no ) B no C:\YourPath>if "2" == "1" (echo C yes ) else C no C:\YourPath>if "2" == "1" else D no E no Note: To prevent the entire if command from being echoed, place @ at the very beginning of the line: @if … To only echo the output of echo within the if (or else ) block, place @ before the (echo …) block. 4. Loops ( for ): The @ can be applied to the entire for loop or within its iterations. for /l %%z in (1,1,3) do ( echo A %%z ) @for /l %%z in (1,1,3) do ( echo B %%z ) for /l %%z in (1,1,3) do @( echo C %%z ) @for /l %%z in (1,1,3) do @( echo D %%z ) Output: C:\YourPath>for /L %z in (1 1 3) do (echo A %z ) C:\YourPath>(echo A 1 ) A 1 C:\YourPath>(echo A 2 ) A 2 C:\YourPath>(echo A 3 ) A 3 (here, the main for was not echoed, but the internal iterations were) C:\YourPath>(echo B 1 ) B 1 C:\YourPath>(echo B 2 ) B 2 C:\YourPath>(echo B 3 ) B 3 (here, the main for was echoed, but the internal iterations were not) C:\YourPath>for /L %z in (1 1 3) do @(echo C %z ) C 1 C 2 C 3 (here, the main for was not echoed, and the internal iterations were not either) D 1 D 2 D 3 Note: @for prevents the for command itself from being echoed. do @(command block) prevents each internal iteration of the for loop from being echoed. The for command variable must be used with a double % (e.g., %%z ) when written in a batch file. In summary For batch scripts, @echo off is the most common and recommended combination for clean output. In the console, to avoid the echo of a specific command you're typing, @ is your best friend to prevent surprises with the prompt. I hope this detailed explanation, with examples, helps clarify all your doubts about @ and echo off !
+
+**参考链接 / References**:
+- https://superuser.com/questions/1902195/how-to-stop-cmd-from-printing-the-code-in-each-iteration-of-a-for-loop
+
+---
+
+#### 1268. Accessing the user's Kerberos ticket from inside a VM?
+
+**问题描述 / Problem Description**:
+Tags: windows, virtualbox, virtual-machine, kerberos | Score: 4 | Views: 628 | Answers: 1 | Created: 2025-11-17
+
+**解决方案 / Solution**:
+Generally, no. Inside the VM, it is not the same user – they're two identically-named but otherwise separate users (which in this case don't even share the same kind of security identifier, not that users on different hosts sharing a SID means anything to Windows anyway). As far as Kerberos is concerned, you'd still be transferring the tickets between two different hosts. But with 'Credential Guard' enabled (as is likely on a corp workstation), programs on Windows have no access to the TGT; they can only use Windows SSPI API to request individual service tickets, but cannot export the whole TGT to do further ticket handling by themselves. (For that matter, I'm not sure whether the hidden API to retrieve the TGT's session key still exists at all on modern Windows versions – even without Credential Guard. Even back in the days of Windows XP, one had to enable it manually through the Registry; it was certainly not meant for normal use.) MIT Kerberos on Linux/BSD supports an "interposer" plugin which would allow redirecting the necessary function calls, e.g. to have a system service handle ticket requests on the application's behalf (making programs behave similarly to the above Windows description). Typically this is used with the 'gss-proxy' daemon. It would be in theory possible to use this to map Linux GSS-API functions, through a socket, to the corresponding Windows SSPI functions – e.g. when a Linux program needs to make an authenticator, that request is forwarded to the Windows host. This would be similar to what Windows' RDP already does with 'Remote Guard' (forwarding the Kerberos SSPI calls to the local host), and also similar to what SSH "agent forwarding" does for keys. Unfortunately I don't think I've seen any current implementations of this kind of program. FreeRDP has some support for 'Remote Credential Guard' when connecting from Linux to Windows, but not the other way around (and of course it would still tie you to RDP either way). (On top of that, FreeBSD has only just switched to MIT Kerberos; until recently they were using Heimdal which has no such "interposer" feature anyway.) For now, your best option might be to kinit once and then scp the ticket file from one host to all the others.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930278/accessing-the-users-kerberos-ticket-from-inside-a-vm
+
+---
+
+#### 1269. Is there a shortcut in Windows 11 to enter Emoji Modifier Sequence characters using Unicode codepoint values?
+
+**问题描述 / Problem Description**:
+Tags: keyboard-shortcuts, windows-11, unicode, input | Score: 4 | Views: 275 | Answers: 1 | Created: 2025-10-09
+
+**解决方案 / Solution**:
+In Notepad, I can enter the 2-characters sequence by doing them sequentially (eg, 1f596 followed by Alt-X, then 1f3fd followed by another Alt-X to get your vulcan salute example). For anything longer, such as the 🏴‍☠️ and 👩🏽‍❤️‍👨🏽, Notepad render them as multiple characters with a separator, but if I copy them and paste anywhere else (including Notepad itself in other tab, pasting in the same tab doesn't seem to work) it get rendered as one. Actually even the title (which use the text if I'm creating new file) also immediately render it as one character.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926389/is-there-a-shortcut-in-windows-11-to-enter-emoji-modifier-sequence-characters-us
+
+---
+
+#### 1270. How do I block A-Volute (Nahimic) related Windows Updates on Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, windows-update | Score: 4 | Views: 740 | Answers: 1 | Created: 2025-10-08
+
+**解决方案 / Solution**:
+I created a PowerShell script that hides the Windows Updates based on search terms. The script needs to be executed with Administrator privileges. $terms = @( "nahimic", "volute" ) $updateSession = New-Object -ComObject Microsoft.Update.Session $updateSearcher = $updateSession.CreateUpdateSearcher() $searchResult = $updateSearcher.Search("IsInstalled=0") foreach ($term in $terms) { foreach ($update in $searchResult.Updates) { if ($update.Title -match $term) { $isHidden = $update.IsHidden if ($isHidden) { Write-Host "Found update '$($update.Title)' which is already hidden" -ForegroundColor DarkGray } else { $update.IsHidden = $true Write-Host "Update '$($update.Title)' has been marked as hidden successfully" -ForegroundColor Green } } } } Note, I'm assuming this is similar to what the Microsoft "Show or hide updates" troubleshooter ( wushowhide.diagcab ) would do if it had detected the updates in the first place.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926379/how-do-i-block-a-volute-nahimic-related-windows-updates-on-windows-11
+
+---
+
+#### 1271. Is there a way to reduce free space over the Windows 11 taskbar?
+
+**问题描述 / Problem Description**:
+Tags: windows-11 | Score: 4 | Views: 1086 | Answers: 1 | Created: 2025-10-06
+
+**解决方案 / Solution**:
+The amount of unusable space there is determined by the vertical icon spacing and your vertical resolution (minus the size of the taskbar). Windows will only allow you to place an icon in a complete row, and it apparently considers that that space doesn't quite make a complete row. You can adjust the vertical icon spacing by editing the IconVerticalSpacing value in the HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics key of the registry. The default is -1128. Decreasing the magnitude will make the icons closer together vertically, which (depending on the other variables) may result in less extra space at the bottom. You'll need to restart, or sign out and back in, to see the effect of a change.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926233/is-there-a-way-to-reduce-free-space-over-the-windows-11-taskbar
+
+---
+
+#### 1272. Is there a Windows command or script to delete the last file in a ZIP archive?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, zip | Score: 4 | Views: 927 | Answers: 3 | Created: 2025-05-26
+
+**解决方案 / Solution**:
+In Windows 10 command prompt you can use command like this: for %f in (*.zip) do (7z.exe d "%f" file_to_be_deleted) This command (assume zip files are in current directory) will remove the file from all the zips in current directory.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1902239/is-there-a-windows-command-or-script-to-delete-the-last-file-in-a-zip-archive
+
+---
+
+#### 1273. How to alias vi to vim without full vim package in WSL?
+
+**问题描述 / Problem Description**:
+Tags: debian, windows-11, vim, windows-subsystem-for-linux | Score: 3 | Views: 97 | Answers: 1 | Created: 2025-10-26
+
+**解决方案 / Solution**:
+Well, you are explicitly calling vi , so you want "vi compatibility", right Backward compatibility with vi is the whole point of vim.tiny . Also, what you call "vi compatible mode" doesn't disable any command, it only sets a few options to annoying defaults. Anyway, you can… issue the following command manually when you are in Vim: :set nocp start Vim with the -N flag: $ vi -N filename create an empty vimrc in your $HOME directory: $ touch ~/.vimrc
+
+**参考链接 / References**:
+- https://superuser.com/questions/1927308/how-to-alias-vi-to-vim-without-full-vim-package-in-wsl
+
+---
+
+#### 1274. Why are restore points missing after performing a backup on Windows 10?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, backup, system-restore | Score: 3 | Views: 520 | Answers: 1 | Created: 2025-05-29
+
+**解决方案 / Solution**:
+Windows 10 and 11 automatically delete restore points after updates: because they can be incompaible with the updates. They can also be deleted because of disk space. And they also age out. In Windows 7 it was 90 days. In 10 and 11 it is less. In other words: System Restore Points were a great feature that saved so many PC's of friend's i know. And can people please stop voting to close perfectly valid questions. Microsoft has basically killed it and it replace it with nothing. It's no longer on by default (like it was in XP), so Microsoft wants to kill it, and doesn't care about it.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1902922/why-are-restore-points-missing-after-performing-a-backup-on-windows-10
+
+---
+
+#### 1275. How to make icon files bigger and clearer?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, icons, file-conversion | Score: 3 | Views: 731 | Answers: 1 | Created: 2025-05-19
+
+**解决方案 / Solution**:
+It might be easiest to start from scratch, using the desired images and icon editing software , such as free Greenfish Icon Editor Pro or an alternative . These tools give you the option, when importing the image, to specify the size of the icon in pixels and the color depth. You can specify multiple formats, generating all the icons in one step, and then decide which looks best for your purposes. This avoids having a third-party online tool arbitrarily decide how to transform those PNG images into icons. In Greenfish Icon Editor Pro, for example, In File , select an image to load. PNG images are among the file formats accepted, as well as BMP, JPG and others. Under Icon , select whether to create icons for Windows, Mac or Android. Specify the icon format. Edit the icons, if needed. Save the icons.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1899014/how-to-make-icon-files-bigger-and-clearer
+
+---
+
+#### 1276. AutoHotkey keyboard shortcut not captured when a software ran as administrator has the focus - how to make it work?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, boot, autohotkey, administrator, uac | Score: 3 | Views: 555 | Answers: 2 | Created: 2025-04-29
+
+**解决方案 / Solution**:
+Is it needed to run AutoHotkey as admin on startup? You don't run AutoHotkey as admin on startup, you run the script as admin. Scripts are standalone processes that interact with the system. And it's the best solution by far due to how UAC works. Lower elevation programs have much harder time interacting with higher elevation ones. I read about enabling/disabling Admin Approval Mode, but I don't see exactly how to apply this here. Could this be an alternative solution? It's a bad idea regardless. Disabling a security measure just to get one script running is not a recommendation I'd give at all. AHK devs don't recommend it either. is there another way than having to create a TaskScheduler task? Yes. If you want for it to also work with some reload keyboard shortcut, which you haven't mentioned initially, then the script itself can attempt to relaunch itself with admin priviledges. First, use A_IsAdmin condition around the top of the script to check if it was ran as admin. Then, as the variable description says: To have the script restart itself as admin (or show a prompt to the user requesting admin), use Run *RunAs . However, note that running the script as admin causes all programs launched by the script to also run as admin. For a possible alternative, see the FAQ . So basically relaunch itself elevated and exit. With something like: Run *RunAs "%A_ScriptFullPath%" /restart The FAQ linked above also lists another workaround: Enable the Add 'Run with UI Access' to context menus option in AutoHotkey Setup. This option can be enabled or disabled without reinstalling AutoHotkey by re-running AutoHotkey Setup from the Start menu. Once it is enabled, launch your script file by right-clicking it and selecting Run with UI Access, or use a command line like "AutoHotkeyU32_UIA.exe" "Your script.ahk" (but include full paths). You can use that executable with Run instead - it has the benefit of avoiding UAC popups, in case you got them enabled.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1894844/autohotkey-keyboard-shortcut-not-captured-when-a-software-ran-as-administrator-h
+
+---
+
+#### 1277. Why can't I delete 10GB fake system file in Windows 10?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, malware, virus-removal | Score: 3 | Views: 214 | Answers: 2 | Created: 2025-04-27
+
+**解决方案 / Solution**:
+It is possible the file is fake or corrupted. However, there is another possibility. The file is tagged Plik system . Googling tells me that it is a self hosted file upload system. In which case, either change it settings to use a small file or uninstall Plik . Plik is a self-hosted Temporary File Upload System Alternative to WeTransfer
+
+**参考链接 / References**:
+- https://superuser.com/questions/1894444/why-cant-i-delete-10gb-fake-system-file-in-windows-10
+
+---
+
+#### 1278. Why doesn't a clone of an SSD (using Disk Genius) work as C: drive?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, ssd, disk-cloning | Score: 3 | Views: 1804 | Answers: 1 | Created: 2025-04-26
+
+**解决方案 / Solution**:
+The majority of M.2 SSDs use the PCIe/NVMe interface rather than SATA. That requires an NVMe driver in the OS. Windows 10 has one built-in, but it's not configured to start at boot time unless the OS was installed on NVMe in the beginning. In theory it should be possible to fix this after cloning – someone said in an earlier thread that just booting Windows in Safe Mode should do this automatically. But so far I've had to manually prepare the OS before cloning: Boot Windows from the original SATA SSD. Run sc.exe config stornvme start= boot to configure the driver in "boot start" mode. Clone the Windows partition of SATA SSD to NVMe. Make sure the SATA SSD is disconnected during the first NVMe Windows boot.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1894277/why-doesnt-a-clone-of-an-ssd-using-disk-genius-work-as-c-drive
+
+---
+
+#### 1279. How to download Windows 10 ISO for Linux USB creation in 2025?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, download, iso-image | Score: 3 | Views: 4283 | Answers: 1 | Created: 2025-04-23
+
+**解决方案 / Solution**:
+This answer is summarized below. The Firefox application included with Ubuntu can download the Windows 10 ISO file from Microsoft. In this case, no settings changes or extensions are needed when using Firefox to download from Microsoft. Instructions are given for creating an UEFI bootable Windows 10 installation USB flash drive from the ISO file downloaded from Microsoft. How to download a Windows 10 ISO file from Microsoft I have Ubuntu 24.04.2 LTS installed. From Firefox, I entered the URL given below. https://www.microsoft.com/en-us/software-download/windows10ISO Below is an image taken from this website. From the website, I can download a Windows 10 ISO file. In my case, I chose 64-bit English (United States), which resulted in the following file being downloaded to my Downloads folder. Win10_22H2_English_x64v1.iso I can recreate the situation described in your question by going to the website below and adding the User-Agent Switcher extension. https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/ Now, if I go to the Microsoft website given above and use the extension to change from the "Default" to "Windows / Firefox 136" and reload the current page, then I am redirected to the following URL. https://www.microsoft.com/en-us/software-download/windows10 Here, I get the same as given in your question, as shown below. You no not need to do this. You should use the Firefox default to download the Widows 10 ISO file. How to create UEFI bootable USB Flash Drive Windows 10 Installer Format a 16 GB or larger USB flash drive. Enter the lsblk command in a Terminal application window. Use the output to determine device associated with the flash drive. In this answer, the device will be identified by sdX . Make the appropriate substitutions when you enter your commands. Next, enter the following commands to create an approximately 8 GB FAT32 partition labeled MYFAT32 . sudo umount /dev/sdX?* sudo parted /dev/sdX mklabel msdos sudo parted /dev/sdX mkpart primary fat32 1MB 8GB sudo mkfs.vfat -F 32 -n MYFAT32 /dev/sdX1 Copy all files smaller than 4 GB from the ISO to the flash drive. Use the Files application to mount the Windows ISO file. Note the label given to the mounted ISO file. In my case this was CCCOMA_X64FRE_EN-US_DV9 . If your label is different, then make the appropriate substitutions when you enter your commands. From the Dock, mount the MYFAT32 volume. Enter the commands below to copy the files to the flash drive. cd /media/$USER/CCCOMA_X64FRE_EN-US_DV9 find . -type d -exec mkdir -p ../MYFAT32/{} \; find . -size -4G -type f -exec cp {} ../MYFAT32/{} \; Split the install.wim file into an install.swm file and an install2.swm file. The install.wim file, stored on the ISO, is larger than 4 GiB and therefore needs to be split, when copying to the FAT32 volume on the flash drive. Below are two methods which can be used to split this file. Choose one of the two. Method 1: Use third a party tool This method requires the use of the wimsplit command, which I needed to install by entering the commands below. sudo apt update sudo apt install wimtools Enter the command below to split the install.wim file. wimsplit sources/install.wim ../MYFAT32/sources/install.swm 3800 Close all Files application and Terminal application windows, then use the dock to eject the flash drive. Method 2: Use Microsoft's tool Microsoft has a dism command which can split the install.wim file. First, enter the commands below to create a NTFS volume labeled MyNTFS on the flash drive. sudo parted /dev/sdX -- mkpart primary ntfs 8GB -1s sudo mkfs.ntfs -L MyNTFS -Q /dev/sdX2 From the Dock, mount the MyNTFS volume. Enter the commands below to copy the install.wim file to the flash drive. cd /media/$USER/CCCOMA_X64FRE_EN-US_DV9 cp sources/install.wim ../MyNTFS chmod 644 ../MyNTFS/install.wim Close all Files application and Terminal application windows, then use the dock to eject the flash drive. Using the computer where Windows is to be installed, UEFI boot from the flash drive. You should get a window similar to the one shown below. Execute step 4 from this answer . Note that you will need to substitute MyNTFS for MyExFAT . When finished, click on the following: Next > Repair your computer > Turn off your PC .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1893676/how-to-download-windows-10-iso-for-linux-usb-creation-in-2025
+
+---
+
+#### 1280. Windows Update is stuck. How can I permanently disable it?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-update, updates | Score: 2 | Views: 3484 | Answers: 2 | Created: 2025-11-11
+
+**解决方案 / Solution**:
+First, try to fix the issue. Use the Windows Update Troubleshooter . If that fails, use SFC and DISM to repair Windows . If those didn't work, download the last Windows 10 ISO (useful to have, anyway), using the MS media creation tool, which puts it on USB drive, then perform update, keeping files . Before doing so, make a complete disk image, lest something go wrong. After the issue is resolved, one convenient, and reversible, way to disable Windows Updates is to use a third-party tool, such as ShutUp10 or alternative . ShutUp10 settings for stopping Windows Update no longer persist. See this old answer or this for deferring updates . Also, this is a good time to consider an alternate operating system. You can keep Win 10 and dual-boot into another OS that provides vital security updates , such as Linux. Test your use of the OS, and avoid using Windows 10 on the internet or for other places it's likely to be attacked.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930036/windows-update-is-stuck-how-can-i-permanently-disable-it
+
+---
+
+#### 1281. How does my laptop know my timezone despite hardware VPN?
+
+**问题描述 / Problem Description**:
+Tags: windows, vpn, security, geolocation | Score: 2 | Views: 292 | Answers: 1 | Created: 2025-11-05
+
+**解决方案 / Solution**:
+I think I have figured this out empirically, and the root cause is that Windows ignores my configured settings and attempts to geolocate the device using nearby WiFi devices even though I have Location Services disabled . The key section from https://support.microsoft.com/en-us/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088#WindowsVersion=Windows_11&windowsversion=windows_11 : If location services is turned on , your device sends location information along with nearby wireless access points, routers, cellular towers, and IP address to Microsoft after removing any data identifying the person or device from which it was collected. This de-identified location information is used to improve Microsoft location services and may be shared with our location service provider partners, currently HERE and Skyhook, to improve the location services of the provider. I tested this by disabling the WiFi NIC on one of the laptops while travelling, and leaving it enabled on the other laptop. Only the laptop with WiFi enabled (but not being used, only ever connected via ethernet) updated the timezone as I travelled. I further tested this once back at home, and the issue of the wandering timezone popped up again (this time the laptop decided it was in West Central Africa Time, WAT), and I was able to resolve it by just disabling WiFi and now my timezone is not changing anymore.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929774/how-does-my-laptop-know-my-timezone-despite-hardware-vpn
+
+---
+
+#### 1282. Why can't I access network shares on host network inside VMWare Windows 11 Evaluation VM?
+
+**问题描述 / Problem Description**:
+Tags: windows, vmware, network-shares, vmware-workstation | Score: 2 | Views: 303 | Answers: 1 | Created: 2025-11-03
+
+**解决方案 / Solution**:
+You said you don't even have internet access. This makes me think it is a local machine issue. Did you install the guest drivers? You need to install the guest drivers by going to VM > Guest > Install/Upgrade VMware Tools . This will mount a virtual CD in a virtual CD drive in the guest, from which you can run setup.exe Is your guest sending DHCP requests? Your guest should by default be asking for an IP from a DHCP server. You could try to reconfigure your network adapter to set a static IP appropriate to the same subnet as your local machine to test. Are you doing this in a live work environment? There may be security services detecting multiple MAC/IP addresses on one port, and company policy may be blocking this. You should be talking with your IT team about this. NAT mode will allow ONE IP to be shared among both host and guest, and would likely bypass these restrictions, but seriously: you should have IT in the loop here. Once you confirm you have network connectivity: Your DNS client must be configured to use the DNS server of your organization, which should be automatic if DHCP is working. Active Directory uses the Kerberos protocol, which requires DNS to function. Your environment may use NTLM, which would bypass this requirement, but NTLM is deprecated and much less secure. Also, as your evaluation edition won't be domain joined, you should use FQDN (fully qualified domain name) formats and NOT NetBIOS names for the most trouble free operation. FQDN names tell the fileshare client to use kerberos and not NTLM, AND what domain to look up in DNS to find the kerberos key distributon center for authentication. Usernames: AD\user is the NetBIOS format user@domain.company.tld is the FQDN format. UNC Paths: \\foo\ is the NetBIOS format. \\foo.domain.company.tld\ is the FQDN format.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929646/why-cant-i-access-network-shares-on-host-network-inside-vmware-windows-11-evalu
+
+---
+
+#### 1283. How to remove system folders created by third-party programs?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-explorer, windows-registry, special-locations | Score: 2 | Views: 389 | Answers: 1 | Created: 2025-10-22
+
+**解决方案 / Solution**:
+I found it. It's under HKEY_USERS\{SID}\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1927071/how-to-remove-system-folders-created-by-third-party-programs
+
+---
+
+#### 1284. Is there a tool like HTOP for Windows that shows all processes, with nothing hidden?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11 | Score: 2 | Views: 420 | Answers: 3 | Created: 2025-10-21
+
+**解决方案 / Solution**:
+After doing some research on Windows' process management apps, I have discovered several tools that may help you with using HTOP in windows. If you prefer GUI, you might want process explorer: https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer However, if you prefer open source software, your best bet is NTOP, which does pretty much the same thing HTOP does in *nix. Here's a link to it: https://github.com/gsass1/NTop
+
+**参考链接 / References**:
+- https://superuser.com/questions/1927019/is-there-a-tool-like-htop-for-windows-that-shows-all-processes-with-nothing-hid
+
+---
+
+#### 1285. How to ungroup prompts on a Windows 11 machine?
+
+**问题描述 / Problem Description**:
+Tags: command-line, windows-11, windows-subsystem-for-linux, taskbar, windows-11-24h2 | Score: 2 | Views: 203 | Answers: 1 | Created: 2025-10-17
+
+**解决方案 / Solution**:
+In principle, use conhost.exe and add the name of the executable of the CLI interpreter. E.g. conhost.exe powershell.exe for powershell or conhost.exe cmd.exe for CMD to open a command line window outside of the Terminal window. You can do it by e.g. using the Windows Terminal window itself or via the Run window (Crtl+R) (preferably the Terminal to see possible error messages). Note that for some CLIs you might need admin rights. Also note that not all "simple" executables/commands which work via the command line will work together with conhost, you might need to expand the command (see example with WLS below). Addition : Use conhost.exe wsl -d LINUXDISTRO for WSL (e.g. conhost.exe wsl -d kali-linux for Kali Linux Distro in it's "simplest form") Be aware there might be additional aspects to consider depending on your system configuration e.g. if you have multiple versions of Kali Linux installed) for Ubuntu it might be wsl -d Ubuntu or wsl -d Ubuntu-22.04 ... again, this depends on your individual setup, if you have difficulties, this should be a separate question (see explanation below). I think the principle is clear on how to open CLI windows outside of the Windows Terminal window. Use the full command (not a shortcut/alias such as ubuntu ) and add conhost.exe before the command. If you have additional questions on how to open a specific command interface via the command line, especially when it comes to more "complicated" CLIs (as explained for the WSL) I would recommend starting a new question, since it is not a good practice to bundle multiple questions into one. Every user will have a different subset of CLI windows he or she wants to run outside the Windows Terminal window and clearifiy multiple individual CLIs will overcrowd this question, especially if the start command is more complicated.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926827/how-to-ungroup-prompts-on-a-windows-11-machine
+
+---
+
+#### 1286. Autohotkey: launch viewer, then also focus it
+
+**问题描述 / Problem Description**:
+Tags: windows-explorer, windows-11, autohotkey | Score: 2 | Views: 250 | Answers: 2 | Created: 2025-10-16
+
+**解决方案 / Solution**:
+A couple of things here: Firstly, if you want to launch the program associated with the file, you don't need to include C:\Windows\explorer.exe in your Run command - just call the file directly. Secondly, you don't need to resort to the workarounds you've mentioned to ensure that the called program always has focus. Simply bring the focus to the desktop by calling: WinActivate('ahk_class Progman') immediately before you call the Run command. Finally, if you really want to figure out what viewer was launched, then you should use the fourth argument of Run to store the unique process ID of the viewer that was launched and then use that to look up the process name: WinActivate('ahk_class Progman') Run('d:\videos\film.mp4', , , &pid) proc := "" for p in ComObjGet("winmgmts:").ExecQuery("Select * from Win32_Process Where ProcessId=" pid) proc := p.Name MsgBox "The process ID is " pid " and the process name is " proc On my computer this returns " The process ID is 14884 and the process name is vlc.exe "
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926807/autohotkey-launch-viewer-then-also-focus-it
+
+---
+
+#### 1287. How to adapt the taskbar color according to a user?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, taskbar, desktop-customization, display-settings | Score: 2 | Views: 594 | Answers: 1 | Created: 2025-10-13
+
+**解决方案 / Solution**:
+Well kind of . You can only set accent colours for dark themes but windows and applications don't need the same mode In personalisation -> colours set the mode to custom, set the default windows mode to dark, and application mode to light. Select an accent colour to your liking (I've already done so). Turn on the "Show accent colour on Start and taskbar" I did a cursory check and apps like file explorer and edge are in light mode This will generally keep you in light mode, and the only thing really affected is the taskbar and windows menu. This is about as close as what you want that can be done with stock windows as far as I know.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926575/how-to-adapt-the-taskbar-color-according-to-a-user
+
+---
+
+#### 1288. How to turn off promotional/marketing notifications in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, microsoft-edge | Score: 2 | Views: 1068 | Answers: 1 | Created: 2025-10-11
+
+**解决方案 / Solution**:
+Not 100% sure this is the source but try to disable Edge's "Feature and Service" suggestions: Open Microsoft Edge. Click the three dots (⋯) → Settings. Go to Privacy, Search, and Services. Scroll down to Services and disable: "Show me suggestions from Microsoft Edge" "Save time and money with Shopping in Microsoft Edge" "Get notifications of related things you can do in Microsoft Edge" There are some other "features" you might want to turn off as well: Edge Start-up Promotions In Edge Settings, go to System and performance. Disable: "Startup boost" (optional) "Continue running background apps when Microsoft Edge is closed" Site Suggestion Prompts In Edge, go to Settings → Start, home, and new tabs. Scroll down and disable any setting that suggests content or sites on the new tab page
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926523/how-to-turn-off-promotional-marketing-notifications-in-windows-11
+
+---
+
+#### 1289. How can I transfer all Thunderbird accounts and emails from one profile to another?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, thunderbird, windows-profile | Score: 2 | Views: 2877 | Answers: 1 | Created: 2025-05-23
+
+**解决方案 / Solution**:
+You can back up your Thunderbird profile. Copy the folder %AppData%\Thunderbird , which is usually located at C:\Users\<your Windows username>\AppData\Roaming\Thunderbird , to a USB drive. Then, restore the folder to %AppData% . Just be careful to have the same version of the application. If it's not the same version when restoring the backup, remove the compatibility.ini file.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1901926/how-can-i-transfer-all-thunderbird-accounts-and-emails-from-one-profile-to-anoth
+
+---
+
+#### 1290. Is using the local group policy more "resilient" than using the registry?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, windows-registry, group-policy, regedit, gpedit | Score: 2 | Views: 585 | Answers: 3 | Created: 2025-05-11
+
+**解决方案 / Solution**:
+Neither, they are related but different tools with different purposes. Group Policy is primarily intended for enterprise environments and is a catalog of settings whose default state is "Not Set" and which has mechanisms for retrieving Set settings from a trusted authoritative catalog (the domain controllers) in an enterprise environment, and a mechanism for applying the Set settings to the system, primarily by adjusting Registry settings. The Registry is a database of settings driving many aspects of the Windows environment. It used to control far more of the OS than it does now, but with each recent generation of Windows more and more of it becomes becomes vestigial and ignored by the OS. A setting still existing in the Registry in Windows 11 does not mean it will apply or be effective in the same way it might have in Windows XP or 7. Which to use? It doesn't really matter, though I prefer adjusting the Registry. Group policy has the benefit of some description and a friendlier UI with multi-selects or drop-downs. Things you definitely won't find in the Registry. A setting set in the Registry will typically be overwritten by settings set in the Group Policies, but if you're not consistent in using one or the other, you may then be adjusting things in the registry and wondering why they keep reverting. This highlights the reasons I prefer the Registry: It is direct. It is THE place the system polls for settings information. Group Policy catalogs are a once-removed settings source that have their purpose, but they are a step away from where the settings are actually read from. When I've made a change and the expected changes don't happen, I have fewer things to inspect and diagnose, and it's usually just more clear "Oh, Windows doesn't check or apply that setting any longer".
+
+**参考链接 / References**:
+- https://superuser.com/questions/1897083/is-using-the-local-group-policy-more-resilient-than-using-the-registry
+
+---
+
+#### 1291. Network hostname ping through VPN
+
+**问题描述 / Problem Description**:
+Tags: windows | Score: 1 | Views: 139 | Answers: 1 | Created: 2025-11-14
+
+**解决方案 / Solution**:
+It depends on what protocol is used to resolve those names. Install Wireshark to see what packets are involved – it could be DNS, or mDNS, or LLMNR (rarely), or even NBNS (NetBIOS). If the protocol is DNS, then usually 1) the names have a specific suffix such as .corp or .home and 2) there is a specific DNS server. The VPN server should be configured to advertise both parameters (DNS server and the common suffix) as part of the VPN configuration that the server automatically pushes to clients. Pretty much all competent 'client-server' VPN protocols 1 support sending DNS configuration, so that as soon as the client connects it automatically knows that e.g. thathost means a DNS lookup for thathost.example.corp . If you can't fix the server configuration and have to do it locally on your client, then it might work if you manually set both parameters on the VPN interface, but it somewhat depends on the VPN software (and will likely disappear once you disconnect). If the protocol is mDNS or LLMNR or NBNS, then most likely you will not be able to make this work. (I think it's technically doable but I can't think of any reasonably simple way.) 1 (plain WireGuard isn't a full "client-server" VPN protocol and cannot do this)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930173/network-hostname-ping-through-vpn
+
+---
+
+#### 1292. How to log the duration of a large copying event in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, file-transfer, copy-paste | Score: 1 | Views: 147 | Answers: 1 | Created: 2025-10-27
+
+**解决方案 / Solution**:
+File Explorer does not log the copying process time. Some 3rd party tools log the time. I tried SyncBackFree (I had it already installed) and Teracopy. They log the time and also do verification. I did a test with a folder (1.4GB, 2858 Files, 20 Folders). Explorer (checked with stopwatch): 6hr:30min SyncBack: 5hr:7min Teracopy: 2hr:30min The SyncBack time is close enough to the Explorer time for my tests.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929336/how-to-log-the-duration-of-a-large-copying-event-in-windows-11
+
+---
+
+#### 1293. How to remove Windows Update status from taskbar?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, windows-update, taskbar, icons | Score: 1 | Views: 834 | Answers: 2 | Created: 2025-10-22
+
+**解决方案 / Solution**:
+If you are willing to take responsibility of managing the updates that your computer receives/installs, consider to install Gibson Research InControl. It effectively halts/pauses windows automatic updates until you decide to allow them. This will also prevent the task bar icon from appearing, as the system no longer recognizes that an update(s) is due. Images from linked site.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1927098/how-to-remove-windows-update-status-from-taskbar
+
+---
+
+#### 1294. How can I create a shortcut from a parent real machine towards a child virtual machine?
+
+**问题描述 / Problem Description**:
+Tags: virtual-machine, windows-11, shared-folders, hyper-v-manager, user-management | Score: 1 | Views: 92 | Answers: 1 | Created: 2025-10-15
+
+**解决方案 / Solution**:
+How can I explain to the real computer that the username, needed for logging into the virtual computer, is to be known by the network of the real computer? a) Literally create a user account with such a username (and matching password). You can create local user accounts through lusrmgr.msc or through net user (technically also through the Settings app where it's hidden behind probably 5 different "use a Microsoft account instead" prompts). b) Don't do anything. If the "client" OS cannot log in to the SMB server with the client user's current credentials, then it will prompt for credentials, at which point you can enter any username and password that the "server" computer recognizes. c) Both of the above: Create a dedicated user account on the host, but still manually specify its credentials within the VM. Within the VM, you can also use "Manage Windows Credentials" or cmdkey to store the username and password to be used for connecting to specific SMB servers. In some cases you will need to enter the username in DOMAIN\user syntax, where the "domain" (for PCs which aren't actually joined to an Active Directory domain) would be the server PC's own "computer name". (The user@domain syntax likely will not work with non-AD accounts; it requests Kerberos, which only works within AD.) Note that by default, Windows does not accept network logins with an empty password. If your account on the "real" OS has an empty password, you will have to create a separate account for SMB connections. (Or disable the restriction through Group Policy, but it's probably better to not do that.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926728/how-can-i-create-a-shortcut-from-a-parent-real-machine-towards-a-child-virtual-m
+
+---
+
+#### 1295. How to disable 'Caps Lock' on-screen notification in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: keyboard, windows-11, lenovo | Score: 1 | Views: 5921 | Answers: 1 | Created: 2025-10-06
+
+**解决方案 / Solution**:
+I have the same popups, and a quick web search informed me this is a "feature" of the Logi+ Options utility. Open Logi+ Options and click the Gear icon in the upper right to open Settings. Scroll down to Notifications, and disable the Caps Lock... Notification option.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926260/how-to-disable-caps-lock-on-screen-notification-in-windows-11
+
+---
+
+#### 1296. Can you split Window Explorer window into 2 side-by-side views?
+
+**问题描述 / Problem Description**:
+Tags: windows-explorer, windows-11, window, tabs | Score: 1 | Views: 912 | Answers: 1 | Created: 2025-10-06
+
+**解决方案 / Solution**:
+You could try using QTTabBar - either the official beta version, which might be partially broken in Windows 11, or the more up-to-date fork , which was adapted more for Windows 11 and has some instructions for it, but could have some mistranslations from Chinese. It's a little bit clunky even on Windows 10 and might have some more serious bugs on Windows 11. This Explorer extension adds a toolbar with this button: that can split the window into main view and side view. Example: It also has a bottom split, if needed. Note for future readers: the extension or any of its features might break with any Windows 11 patch.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926216/can-you-split-window-explorer-window-into-2-side-by-side-views
+
+---
+
+#### 1297. Cant extend C drive or delete the partition on the same drive
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, partitioning, ssd | Score: 1 | Views: 172 | Answers: 1 | Created: 2025-05-22
+
+**解决方案 / Solution**:
+You seem to have 48 GB of unallocated space left. You could join that with your C: partition to have some more space. However, in order to join this space with a partition, you need to move around your partitions, since you can only join adjacent partitions. Windows disk manager isn't able to do that, so you would need to download third-party software capable of doing that. Two free examples are: GParted NIUBI Partition Editor Use this software to move your C: partition and the unallocated space next to each other, then join them. I'd like you to question why you need these to be separate partitions in the first place, though. It leads to problems like the one you have right now and I'm doubtful it has any benefits for you. Don't just partition your hard drive willy-nilly for that exact reason. If they weren't separate partitions, you wouldn't have to move stuff across your disk and could just use all the space from the beginning, instead of having to move a partition across the entire drive to the opposite end. You could use the software I recommended to just move the Windows recovery partition to the end and join the other two to save you future hassle. This might cause issues with your current configuration though, for example file paths being set to the X: drive. It would've been easier if they weren't separate from the beginning. Hope you can get it solved.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1901728/cant-extend-c-drive-or-delete-the-partition-on-the-same-drive
+
+---
+
+#### 1298. How to install missing Windows System Apps distributed through the Microsoft Store or as App Packages?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, windows-installation, windows-store-app, microsoft-store, windows-packagemanagement | Score: 1 | Views: 1232 | Answers: 1 | Created: 2025-05-18
+
+**解决方案 / Solution**:
+What could have caused these apps to not be preinstalled on my machine? Even if they weren't preinstalled, these apps can usually be acquired through individual downloads. If you want to download the latest version, use the page https://store.rg-adguard.net/ . Select "ProductID - 9nzkpstsnw4p - slow or fast or rp or retail". Click on the "check" button. Click on the dependencies link: "Microsoft.UI.Xaml.2.8_8.2501.31001.0_x64__8wekyb3d8bbwe.appx" "Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x64__8wekyb3d8bbwe.appx" "Microsoft.VCLibs.140.00_14.0.33519.0_x64__8wekyb3d8bbwe.appx" Then use the command: Add-AppxPackage -Path [PathFullName] Click on the link: "Microsoft.XboxGamingOverlay_7.225.4081.0_neutral_~_8wekyb3d8bbwe.appxbundle" Then use the command: Add-AppxProvisionedPackage -SkipLicense -Online -PackagePath [PathFullName]
+
+**参考链接 / References**:
+- https://superuser.com/questions/1898788/how-to-install-missing-windows-system-apps-distributed-through-the-microsoft-sto
+
+---
+
+#### 1299. Check whether SSD was recently swapped
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, ssd, laptop-repair | Score: 1 | Views: 182 | Answers: 1 | Created: 2025-05-11
+
+**解决方案 / Solution**:
+I had to ask ChatGPT since nobody here provided me the right answer. Though, below text is not generated and the solution is verified by myself. You should check this registry section: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\SCSI . You will see all previously connected disks. For me, it only shows a single drive, which means that it was not replaced. Also another option is if you have a backup, you can use something like Macrium viBoot to boot a virtual machine with that backup and check drivers and registry there to find out the serial numbers of installed devices. Mind that virtual machine always adds its virtual disk device by itself. You can also check this log file for serial numbers and timestamps: C:\Windows\INF\setupapi.dev.log .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1897069/check-whether-ssd-was-recently-swapped
+
+---
+
+#### 1300. How to have both "Open window command here" and "Open window command here as admin" in Windows 10 Context menu?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, cmd.exe, context-menu | Score: 1 | Views: 101 | Answers: 1 | Created: 2025-05-06
+
+**解决方案 / Solution**:
+"Open window command here" is hidden by default in Win10, so you can start regedit.exe as TrustedInstaller with the third party freeware tool AdvancedRun , and go in HKEY_CLASSES_ROOT\Directory\background\shell\cmd Rename HideBasedOnVelocityId to HideBasedOnVelocityId_Old and Extended to Extended_Old . An alternative to doing this is to create a totally new key Computer\HKEY_CLASSES_ROOT\Directory\background\shell\cmd2 with Default = "Open cmd here" and Computer\HKEY_CLASSES_ROOT\Directory\background\shell\cmd2\command with Default = cmd.exe /s /k pushd "%V" To have an elevated "Open window command here as admin" , create Computer\HKEY_CLASSES_ROOT\Directory\background\shell\cmd3 with Default = "Open cmd here as admin" and Computer\HKEY_CLASSES_ROOT\Directory\background\shell\cmd3\command with Default = "C:\Python311\pythonw.exe" "C:\path\to\main.py" "%V" and main.py being: import os, sys, ctypes path = sys.argv[1] ctypes.windll.shell32.ShellExecuteW(None, "runas", "cmd.exe", f'/s /k pushd "{path}"', None, 1) (the elevate-launcher is here Python 3.11) An alternative is using How do I change "Open with Powershell" to "Open with Command Prompt" when shift-rightclicking in Explorer? (see main answer), but this requires to have context menu submenus (to be able to use multiple specific runas shell registry subkey)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1896302/how-to-have-both-open-window-command-here-and-open-window-command-here-as-adm
+
+---
+
+#### 1301. Explorer context menu: start a tool with admin rights
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, windows-explorer, windows-registry, context-menu | Score: 1 | Views: 384 | Answers: 1 | Created: 2025-05-02
+
+**解决方案 / Solution**:
+As mentioned by @Cpt.Whale, the answer is to do the elevation in the target program itself , rather than in the Windows Explorer context menu. (This can be done in various languages, such as with this in Python). Remark about: it works if we explicitely name it runas: [HKEY_CLASSES_ROOT\Directory\shell\runas\command] but then this means that we would not be able do it for a second context menu action , because there is just one runas See main answer of How do I change "Open with Powershell" to "Open with Command Prompt" when shift-rightclicking in Explorer? , they use sub-menus (Command Prompts, PowerShell Prompts) to have multiple runas keys that automatically trigger elevation.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1895640/explorer-context-menu-start-a-tool-with-admin-rights
+
+---
+
+#### 1302. Shortcut Properties: difference between Shortcut > Advanced > Run as administrator, and Compatibility > Run this program as an administrator
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, administrator, uac | Score: 1 | Views: 125 | Answers: 1 | Created: 2025-04-29
+
+**解决方案 / Solution**:
+The shortcut Run as administrator applies only to the specific instance of the application started through that shortcut . If you create two shortcuts, the first one with that property checked, the second, not, then only the first runs with Admin credentials. If you change the application to Run this program as an administrator through the Compatibility dialog, that applies to all instances of the application,
+
+**参考链接 / References**:
+- https://superuser.com/questions/1894866/shortcut-properties-difference-between-shortcut-advanced-run-as-administrat
+
+---
+
+#### 1303. How to find a USB drive via blkid in Cygwin? It suddenly stopped working the way it used to
+
+**问题描述 / Problem Description**:
+Tags: windows-10, external-hard-drive, cygwin, usb-storage | Score: 1 | Views: 117 | Answers: 1 | Created: 2025-04-27
+
+**解决方案 / Solution**:
+It is possible that there was a change upstream and not specific of the Cygwin package. Running in a Admistrator shell, it seems to require the devices: $ /sbin/blkid /dev/sd* /dev/sda: PTUUID="2e267d37-4135-44b2-8c10-58e74736c802" PTTYPE="gpt" /dev/sda1: UUID="12A6-E1B9" BLOCK_SIZE="512" TYPE="vfat" /dev/sda3: BLOCK_SIZE="512" UUID="D49CADA09CAD7E1C" TYPE="ntfs" /dev/sda4: BLOCK_SIZE="512" UUID="186E74986E746FFC" TYPE="ntfs" /dev/sdb: PTUUID="25ebfa55" PTTYPE="dos" /dev/sdb1: LABEL="SSDCRUC" BLOCK_SIZE="512" UUID="987482EF7482D004" TYPE="ntfs" As normal user the output is reduced $ /sbin/blkid /dev/sd* /dev/sdb1: LABEL="SSDCRUC" BLOCK_SIZE="512" UUID="987482EF7482D004" TYPE="ntfs"
+
+**参考链接 / References**:
+- https://superuser.com/questions/1894403/how-to-find-a-usb-drive-via-blkid-in-cygwin-it-suddenly-stopped-working-the-way
+
+---
+
+#### 1304. Is there a way of finding out what reboot flag is causing a pending reboot
+
+**问题描述 / Problem Description**:
+Tags: windows-server | Score: 1 | Views: 4559 | Answers: 1 | Created: 2023-01-10
+
+**解决方案 / Solution**:
+Maybe this is what you mean Computer\HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager PendingFileRenameOperations
+
+**参考链接 / References**:
+- https://superuser.com/questions/1762073/is-there-a-way-of-finding-out-what-reboot-flag-is-causing-a-pending-reboot
+
+---
+
+#### 1305. Running Windows Server 2022 install from within Windows 10
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-server | Score: 1 | Views: 2264 | Answers: 1 | Created: 2022-09-30
+
+**解决方案 / Solution**:
+You did what is called "in-place upgrade", which means installing one Windows version from within another, which is why this is called "upgrade" and not installation. This is different from installing on an empty disk, because you keep many objects from the previous version : User accounts, installed applications, user data, many Windows settings and almost all drivers. This includes any applications installed by the manufacturer. Installing by booting from USB would have had the same effect, as the installation would have detected the installed Windows version and would have attempted to upgrade it. For doing a truly cold install from USB, you should format the disk before installing. This will install standard Windows with its generic drivers, which might require searching for the missing drivers on the manufacturer's website.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1745185/running-windows-server-2022-install-from-within-windows-10
+
+---
+
+#### 1306. My pc turned off incorrectly and now it’s super slow
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0zcvs/my_pc_turned_off_incorrectly_and_now_its_super/
+
+---
+
+#### 1307. I can't get Ace AI off my computer
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t10zyw/i_cant_get_ace_ai_off_my_computer/
+
+---
+
+#### 1308. WINDOWS 11 instalation
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0zpkc/windows_11_instalation/
+
+---
+
+#### 1309. Samsung Galaxy J4 (SM-J400F/DS) dead after sitting on a shelf
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0z2vq/samsung_galaxy_j4_smj400fds_dead_after_sitting_on/
+
+---
+
+#### 1310. powerbank opening
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t0yzx0/powerbank_opening/
+
+---
+
+#### 1311. Showing 0x8031004a -0x4002f during installation
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t128sy/showing_0x8031004a_0x4002f_during_installation/
+
+---
+
+#### 1312. When should you stop worrying about malware?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t127pz/when_should_you_stop_worrying_about_malware/
+
+---
+
+#### 1313. Thinkpad X1 Yoga keyboard don't work in Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t11zig/thinkpad_x1_yoga_keyboard_dont_work_in_windows_11/
+
+---
+
+#### 1314. My Computer Disk is Offline? How do I bring it back online?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t11x9f/my_computer_disk_is_offline_how_do_i_bring_it/
+
+---
+
+#### 1315. Steam games show a blank screen unless in borderless fullscreen.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t11wk1/steam_games_show_a_blank_screen_unless_in/
+
+---
+
+#### 1316. Screen time issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t11qn8/screen_time_issue/
+
+---
+
+#### 1317. Monitor disappears from pc when running more than 60 Hz refresh rate
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t11lyx/monitor_disappears_from_pc_when_running_more_than/
+
+---
+
+#### 1318. I keep hitting 100% disk usage randomly, ive tried everything i can think of
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t11kwo/i_keep_hitting_100_disk_usage_randomly_ive_tried/
+
+---
+
+#### 1319. Sudden "Insert" key pop-up on Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t11k7r/sudden_insert_key_popup_on_windows_11/
+
+---
+
+#### 1320. need help about oem unlock on one ui 8 (v9) for sm-s911b
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t11isc/need_help_about_oem_unlock_on_one_ui_8_v9_for/
+
+---
+
+#### 1321. Ethernet only works after power cycling my PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t119bv/ethernet_only_works_after_power_cycling_my_pc/
+
+---
+
+#### 1322. Windows11 Taskbar Randomly Crashes
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1171t/windows11_taskbar_randomly_crashes/
+
+---
+
+#### 1323. Formal Petition for the Restoration of GIF Privileges (a.k.a. Operation: Bring Back the Vibes)
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t10i3d/formal_petition_for_the_restoration_of_gif/
+
+---
+
+#### 1324. So, the local office is closing down and we're moving to permanent wfh
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t113p8/so_the_local_office_is_closing_down_and_were/
+
+---
+
+#### 1325. ProfWiz Files Missing After Transfer
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t0z3fv/profwiz_files_missing_after_transfer/
+
+---
+
+#### 1326. Hyper-V storage migration
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t11zjr/hyperv_storage_migration/
+
+---
+
+#### 1327. Microsoft will hide Windows 11's annoying MSN feed by default as it moves to reduce ads and noise across the OS
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t0zpbh/microsoft_will_hide_windows_11s_annoying_msn_feed/
+
+---
+
+#### 1328. Announcing Beta Preview Build 26220.8340 - Windows Insider Program
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t0zi6u/announcing_beta_preview_build_262208340_windows/
+
+---
+
+#### 1329. Announcing Experimental Preview Build 26300.8346 - Windows Insider Program
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t0zhrr/announcing_experimental_preview_build_263008346/
+
+---
+
+#### 1330. Announcing Experimental (Future Platforms) Preview Build 29580.1000 - Windows Insider Program
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t0zfxk/announcing_experimental_future_platforms_preview/
+
+---
+
+#### 1331. Announcing Experimental (26H1) Preview Build 28020.1921 - Windows Insider Program
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t0zhcp/announcing_experimental_26h1_preview_build/
+
+---
+
+#### 1332. ı made another costum windows 11 wallpaper
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t0nn81/ı_made_another_costum_windows_11_wallpaper/
+
+---
+
+#### 1333. How bad is OLED flicker, really?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0z6ej/how_bad_is_oled_flicker_really/
+
+---
+
+#### 1334. Can anyone suggest me good gpu to pair with i7 3770s
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t0zzow/can_anyone_suggest_me_good_gpu_to_pair_with_i7/
+
+---
+
+#### 1335. Is this pc good for 1250euros?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t11ch6/is_this_pc_good_for_1250euros/
+
+---
+
+#### 1336. What GPU with i9 10th gen
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t10jtj/what_gpu_with_i9_10th_gen/
+
+---
+
+#### 1337. Upgrading Pc - stay with am4 (5700x3d) or upgrade to am5
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t123oh/upgrading_pc_stay_with_am4_5700x3d_or_upgrade_to/
+
+---
+
+#### 1338. (UK) Tiny M-ATX case recommendations
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t122sd/uk_tiny_matx_case_recommendations/
+
+---
+
+#### 1339. The RTX 3090
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t11uxx/the_rtx_3090/
+
+---
+
+#### 1340. Which motherboard for my pc build
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t11re1/which_motherboard_for_my_pc_build/
+
+---
+
+#### 1341. Reusing old PSU for office computer?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t11n9c/reusing_old_psu_for_office_computer/
+
+---
+
+#### 1342. Switch from a ps5 slim to a desktop
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t11lvs/switch_from_a_ps5_slim_to_a_desktop/
+
+---
+
+#### 1343. Is this PC buold good for around 1500$/1300€?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t11kc9/is_this_pc_buold_good_for_around_15001300/
+
+---
+
+#### 1344. best pc recommendation (UK)
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t11ddm/best_pc_recommendation_uk/
+
+---
+
+#### 1345. Help with Undervolting GPU?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t11b05/help_with_undervolting_gpu/
+
+---
+
+#### 1346. Anyone know what these are?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0yo2t/anyone_know_what_these_are/
+
+---
+
+#### 1347. why do my downloads on chrome download as websites
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t10mgx/why_do_my_downloads_on_chrome_download_as_websites/
+
+---
+
+#### 1348. Apple EULA Quiz
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t10epo/apple_eula_quiz/
+
+---
+
+#### 1349. Cant open microsoft store and spotify.
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0z9oy/cant_open_microsoft_store_and_spotify/
+
+---
+
+#### 1350. Blockchain Observability and cross chain analysis SDK
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t0z3hl/blockchain_observability_and_cross_chain_analysis/
+
+---
+
+#### 1351. [V2EX] 上下班 单程 70 分钟 能做点什么?
+
+**问题描述 / Problem Description**:
+全程地铁, 无座, 但是不算特别拥挤(2/3 线城市), 倒 1 次车. 想做点有意义的事情. 本来时间就不多, 这两个多小时算是我一天中最宝贵的"个人"时间了. 提前感谢.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209914#reply8
+
+---
+
+#### 1352. [V2EX] 境内不可用
+
+**问题描述 / Problem Description**:
+想买个 ultra mobike paygo 实体卡， 我看飞猪所有店铺都写了 境内不可用 但是我看不得贴着还推荐这个卡，是真的不可用？ 是不是得特殊操作？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209913#reply2
+
+---
+
+#### 1353. [V2EX] chatgpt 自己开通会被封号吗？
+
+**问题描述 / Problem Description**:
+从 Google play 开通，自己一个人用，一般会被封号吗？封号还退款吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209896#reply1
+
+---
+
+#### 1354. [V2EX] 老哥们，有没有一直能正常用 Gemini 的机场？
+
+**问题描述 / Problem Description**:
+之前用过的不少机场，体验都还可以，比如良心云，价格是真便宜，看视频都很好，唯独就是用 Gemini 的时候，时不时遇到无法正常使用的情况。 想问问老哥们，有没有什么机场，一直都可以正常访问 Gemini 的？不会提示“该地区暂时无法使用 gemini”
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209870#reply6
+
+---
+
+#### 1355. [V2EX] 为什么现在的机场都自研客户端了啊？
+
+**问题描述 / Problem Description**:
+之前直接导入 clash 客户端就能用，现在怎么都是自己的客户端，问题是不是那么好用啊？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209864#reply21
+
+---
+
+#### 1356. [V2EX] 求大家推荐一些言论自由的日记网站或者软件
+
+**问题描述 / Problem Description**:
+求大家推荐一些言论自由的日记网站或者软件。 不知道大家有没有写日记的习惯呢？我感觉传统纸质的日记虽然隐私性够好，但是不方便迁移，而且容易损坏，加上一些场景光用文字是无法描述清晰的，就需要插图，类似博客那种，但是博客管控非常严格，各种文字不让发，各种违规，还要提交各种证据去证明这个博客是你的，非常麻烦。 我的需求是要绝对的言论自由，不受任何限制，也不会动不动就因为敏感导致无法阅览、下载这种问题，所以国内的产品全部都可以排除了，毕竟大家都懂得。 想过找开源的项目搞，但是都做的很囊肿，我并不需要那么多内容，也考虑过自己写一个，但是那样又有点脱裤子放屁了，所以还是来问一下大家，看看有没有更好的选择？毕
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209626#reply37
+
+---
+
+#### 1357. PC will only turn on sometimes.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1364x/pc_will_only_turn_on_sometimes/
+
+---
+
+#### 1358. Call volume randomly drops on TWO phones even after getting a new phone (Boost Mobile)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t132vr/call_volume_randomly_drops_on_two_phones_even/
+
+---
+
+#### 1359. 3070 keeps crashing in certain games.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t12q2l/3070_keeps_crashing_in_certain_games/
+
+---
+
+#### 1360. My pc reset itself and i had to roll it back to fix it
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t12paq/my_pc_reset_itself_and_i_had_to_roll_it_back_to/
+
+---
+
+#### 1361. الجهاز بيزمر
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t12olb/الجهاز_بيزمر/
+
+---
+
+#### 1362. iphone brightness rapidly changing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t12o5n/iphone_brightness_rapidly_changing/
+
+---
+
+#### 1363. Audio in video games cutting off abruptly when I turn the camera away from the source of the sound. Happens when I'm wearing a headset. What could be causing this and how do I fix it?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t12iyl/audio_in_video_games_cutting_off_abruptly_when_i/
+
+---
+
+#### 1364. Need a GPU/Display Bandwidth calculator
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t12iyi/need_a_gpudisplay_bandwidth_calculator/
+
+---
+
+#### 1365. My supa retron HD won't turn on any advice
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t12iit/my_supa_retron_hd_wont_turn_on_any_advice/
+
+---
+
+#### 1366. Spilled smoothie all over my laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t12h88/spilled_smoothie_all_over_my_laptop/
+
+---
+
+#### 1367. Need help with very choppy games
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t12ecv/need_help_with_very_choppy_games/
+
+---
+
+#### 1368. Windows quality update: Progress we’ve made since March
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t12qcj/windows_quality_update_progress_weve_made_since/
+
+---
+
+#### 1369. Any obvious bottlenecks here?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t12c4h/any_obvious_bottlenecks_here/
+
+---
+
+#### 1370. build help
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t12b02/build_help/
+
+---
+
+#### 1371. Is the Intel Core Ultra 7 265K a good match to Radeon RX 9069 XT?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t134y0/is_the_intel_core_ultra_7_265k_a_good_match_to/
+
+---
+
+#### 1372. first time building a pc, asking for your insights.
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t134nl/first_time_building_a_pc_asking_for_your_insights/
+
+---
+
+#### 1373. Are any of my current parts salvageable for a modern build
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t133az/are_any_of_my_current_parts_salvageable_for_a/
+
+---
+
+#### 1374. Advice on building a shitbox gaming pc
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1311x/advice_on_building_a_shitbox_gaming_pc/
+
+---
+
+#### 1375. PC restarts when booting up OS almost every time: PSU dying or something else?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t12x2y/pc_restarts_when_booting_up_os_almost_every_time/
+
+---
+
+#### 1376. PC not staying on please help
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t12u0a/pc_not_staying_on_please_help/
+
+---
+
+#### 1377. CableMod 12v-2x6 pin cable vs psu native 12v-2x6 cable from the box
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t12jkz/cablemod_12v2x6_pin_cable_vs_psu_native_12v2x6/
+
+---
+
+#### 1378. PSU mod 2023 Dell Optiplex 7010 Tower - 13th gen intel modding
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t12fbn/psu_mod_2023_dell_optiplex_7010_tower_13th_gen/
+
+---
+
+#### 1379. [V2EX] 为什么现在的机场都自研客户端了啊？
+
+**问题描述 / Problem Description**:
+之前直接导入 clash 客户端就能用，现在怎么都是自己的客户端，问题是不是那么好用啊？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209864#reply22
+
+---
+
+#### 1380. Ducky One 3 keyboard won't connect to its configuration web app on Windows and Chrome
+
+**问题描述 / Problem Description**:
+Tags: usb, keyboard, windows-11 | Score: 0 | Views: 58 | Answers: 1 | Created: 2026-04-10
+
+**解决方案 / Solution**:
+I was under wrong impression that their web page is for all of their keyboards. It is only for the One X . Their other models are per default to be configured by the keyboard itsself. The shortcuts vary from model to model, I have the 100% ISO (German Layout) version of the One 3, so e.g. for my model I can cycle the LED light modes via Fn + F10 So I have to study my manual further to configure it to my needs. I have created a cheat sheet: Profile Management Fn + Alt + 1 : Switch to Profile 1 (Factory Default). Fn + Alt + 2 through 6 : Switch to Profiles 2 through 6 (Required for recording macros). RGB Lighting Controls Fn + Alt + T : Cycle through RGB backlit modes: Wave mode (Default) Color Cycle mode Raindrop mode Ripple mode Random Reactive mode Reactive mode Halo mode Breathing mode 100% Full Backlit mode Radar mode Laser mode All RGB Off Fn + Alt + Z / X / C : Adjust Red / Green / Blue brightness across 10 levels. Fn + Alt + V : Erase all custom RGB color settings. Fn + Alt + Spacebar : Open the Color Palette. The keyboard will display various colors; pressing any lit key applies that color globally. Key Swap Configuration One can swap the physical layout of modifier keys at the hardware level: Hold Fn + Alt + K for 5 seconds. The Esc , L_Ctrl , L_Win , L_Alt , R_Alt , R_Win , Fn , R_Ctrl , and Caps Lock keys will illuminate. Press any two of these keys simultaneously to swap their functions. Press Esc to save and exit configuration mode. Mouse and Multimedia Integration Fn + Windows + A / B / C : Mute / Volume Up / Volume Down. Fn + Windows + D / E : Play/Pause / Stop. Fn + Windows + P / Q / R : Mouse Left Click / Right Click / Middle Click. Fn + Windows + S / T / U / V : Move Mouse Cursor Up / Down / Left / Right. DIP Switches (Bottom of the Keyboard) The four physical DIP switches on the underside alter hardware-level behavior. Disconnect and reconnect the keyboard after changing a switch for the new setting to take effect. DIP 1 (Layout / Lock Toggle): Mini (60%) Models: OFF disables the F-Row toggle. ON enables the F-Row toggle ( Fn + </kbd>). Full-size/TKL Models: OFF allows normal Windows Key function. ON enables Windows Key Lock. DIP 2 (Key Rollover): OFF (Default): N-Key Rollover (NKRO). Allows unlimited simultaneous key presses. ON: 6-Key Rollover (6KRO). Limits simultaneous inputs to 6 keys, strictly for compatibility with legacy BIOS or strict KVM switches. DIP 3 (Vendor ID): OFF (Default): Uses the standard Ducky USB Vendor ID. ON: Enables a user-definable Vendor ID. DIP 4 (Menu Key Toggle): OFF (Default): The right Windows key acts as a standard Windows key. ON: Changes the right Windows key into a Context Menu key. You can find your Ducky model via: https://ducky.global/pages/downloads
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936621/ducky-one-3-keyboard-wont-connect-to-its-configuration-web-app-on-windows-and-c
+
+---
+
+#### 1381. Why doesn't "/B" in "findstr" command show me the entire directory structure? (Well, it shows nothing anymore 😳)
+
+**问题描述 / Problem Description**:
+Tags: windows-11, path, grep, findstr, find-in-files | Score: 0 | Views: 96 | Answers: 1 | Created: 2026-04-09
+
+**解决方案 / Solution**:
+Why doesn't "/B" in "findstr" command show me the entire directory structure? because that use of /B only applies to dir , not to findstr where /B means " Matches the text pattern if it is at the beginning of a line. " To get the full absolute pathname instead of a relative pathname, use C:\Development\workarea>findstr /S /I "patch" "C:\Development\workarea\Training*.md" This should seem surprising and unlikely, but it works.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936570/why-doesnt-b-in-findstr-command-show-me-the-entire-directory-structure-w
+
+---
+
+#### 1382. How can I access a previous version of a page visited with Chrome?
+
+**问题描述 / Problem Description**:
+Tags: windows, google-chrome, cache, browser-cache | Score: 0 | Views: 190 | Answers: 2 | Created: 2026-04-09
+
+**解决方案 / Solution**:
+Unfortunately this is not possible unless the website was cached by a server, which archives websites. The moment you refreshed the page your local cache of the website was replaced with the current state of the website
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936562/how-can-i-access-a-previous-version-of-a-page-visited-with-chrome
+
+---
+
+#### 1383. How many folders can I put in one Windows folder?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-explorer, filesystems, windows-server, file-organization | Score: 28 | Views: 30394 | Answers: 3 | Created: 2021-02-07
+
+**解决方案 / Solution**:
+This may be an X/Y problem . Perhaps what you are doing is better suited for a database rather than a filesystem. With a database, you can easily store and access many millions of records quickly and efficiently. The accepted answer is correct in saying NTFS is theoretically able to store this many records, but it won't be very fast. This is true for essentially all filesystems (e.g. NTFS, exFAT, ext4, HFS...). They simply aren't designed to be sufficiently scalable for what you're trying to do. One of the main reasons for this is that most operating systems' filesystem API can only return the entire list of directory entries at once. There is no way to retrieve only directories that match a certain pattern in typical filesystems, for example. It would have to retrieve them all and then parse the (massive) output for the names you want. The same is true with other file/directory attributes in addition to name like size, creation and modification time, etc. This isn't the case with databases. Another reason is that filesystems make assumptions about data locality. For example, ext4 will try to put all inodes (corresponding to files or directories) in the same block group as the directory, ensuring so-called data locality . This can often improve performance under the assumption that files in the same directory are related. That is, if you access a file in directory A, you're far more likely to subsequently access another file in directory A than in directory B. Assumptions about data locality, and other assumptions filesystems make, may not work when (ab)using a filesystem as a database.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1624192/how-many-folders-can-i-put-in-one-windows-folder
+
+---
+
+#### 1384. Domain computer account trust relationship failed after connecting system with old hard drive to network
+
+**问题描述 / Problem Description**:
+Tags: active-directory, domain, windows-server-2016, domain-controller, windows-10 | Score: 5 | Views: 5721 | Answers: 3 | Created: 2022-08-29
+
+**解决方案 / Solution**:
+Same name? Then yes, it is the same computer account and you just overwrite the keys for the trust relationship as they are stored under the computer in AD. There is nothing you can do now - really. The old trust is gone. History. Only way to access things on the HD now are basically adding it as second hard disc.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1109403/domain-computer-account-trust-relationship-failed-after-connecting-system-with-o
+
+---
+
+#### 1385. Set up Wireguard Tunnel in Windows 10 With IP Forwarding
+
+**问题描述 / Problem Description**:
+Tags: windows-10, wireguard | Score: 4 | Views: 12396 | Answers: 1 | Created: 2022-06-20
+
+**解决方案 / Solution**:
+As it turns out, enabling the forwarding on both interfaces involved using Set-NetIPInterface -ifindex <interface index> -Forwarding Enabled from the above-mentioned article suffices, as I could find out using the excellent Wireshark. I had a messed up the AllowedIPs setting which leaded to packets in one direction being discarded by WireGuard. (Subnet 172.16.0.0/20 instead of /23)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1103674/set-up-wireguard-tunnel-in-windows-10-with-ip-forwarding
+
+---
+
+#### 1386. How can I create a "Virtual Smart Card" on my TPM without joining my Windows computer to a Domain?
+
+**问题描述 / Problem Description**:
+Tags: windows, openvpn, certificate, windows-server, smartcard | Score: 4 | Views: 5473 | Answers: 1 | Created: 2020-12-21
+
+**解决方案 / Solution**:
+So to answer my own question: I didn't find a way to create a keypair on the smartcard directly. But you can import one. And it will be locked in the Virtual Smartcard from that point on (keys will be neverExtract ). First create the smartcard (reader) as per the question with tpmvscmgr.exe create /name OpenVPN1 /pin prompt /pinpolicy minlen 4 maxlen 8 /adminkey random /generate as Admin. Now certutil -scinfo will show the virtual reader, but will fail showing the certificate, because there is none yet. In order to proceed you need a combined pkcs12 file. You can create your client keypair off TPM and sign them as usual by your CA e.g. with openssl. If you have the resulting files as separte .key and .crt you may combine them with OpenSSL using e.g. “C:\Program Files\OpenSSL-Win64\bin\openssl" pkcs12 -export -out client.pfx -inkey client.key -in client.crt Be sure to securely wipe those files off your storage once you have them imported into your Virtual Smartcard. Then you can import it into the Virtual Smartcard with certutil . Run certutil -csp "Microsoft Base Smart Card Crypto Provider" -importpfx client.pfx Be aware that the order of arguments matters: -importpfx has to be provided last. Now certutil -scinfo will show the certificate. PS: OpenVPN for Windows is by default compiled without PKCS11 support. But it works directly with CAPI. Remove cert client.crt and key client.key and instead provide cryptoapicert "THUMB:371f180ba80234845a93b116ea02e5222dffad1e" in your OpenVPN client.conf . Where 371f180ba80234845a93b116ea02e5222dffad1e should be replaced with the fingerprint of your own client certificate. You find your certificate fingerprint in the output of certutil -scinfo after Cert: . Unfortunately Microsoft's Virtual Smartcard does not support RSA-PSS yet which is required for TLS 1.3 and used by recent OpenVPN with TLS 1.2 too. OpenVPN currently does not detect that it is not available and fails ( https://community.openvpn.net/openvpn/ticket/1296 ) when trying to use it. If this is still unpatched by either MS or OpenVPN you have to use an older OpenVPN version 2.4.8 as a workaround.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1611572/how-can-i-create-a-virtual-smart-card-on-my-tpm-without-joining-my-windows-com
+
+---
+
+#### 1387. Stuck with 15 mins login-in message "Please wait for the User Profile Service" or "Welcome" on Windows 10
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, login | Score: 3 | Views: 29831 | Answers: 4 | Created: 2022-06-28
+
+**解决方案 / Solution**:
+Deleting the files & folders in 'C:\Users\Username\AppData\Local\Temp' worked for me. Give it a try; you don't need those files anyway. For more info: https://answers.microsoft.com/en-us/windows/forum/all/users-file-is-taking-up-all-the-space-on-my-c/92161513-6182-46ad-877a-912e90cc0b40
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1104349/stuck-with-15-mins-login-in-message-please-wait-for-the-user-profile-service-o
+
+---
+
+#### 1388. How does the random delay option work?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, task-scheduler | Score: 3 | Views: 7185 | Answers: 2 | Created: 2022-06-22
+
+**解决方案 / Solution**:
+Your understanding of the random delay is correct, you can find more details in the documentation: Task Scheduler - get_RandomDelay says: The specified random delay time is the upper bound for the random interval. The trigger will fire at random during the period specified by the randomDelay parameter, which doesn't begin until the specified start time of the trigger. For example, if the task trigger is set to every seventh day, and the randomDelay parameter is set to P2DT5S (2 day, 5 second time span), then once the seventh day is reached, the trigger will fire once randomly during the next 2 days, 5 seconds. And MS-TSCH 3.2.5.4.2 SchRpcRegisterTask : TimeTrigger's RandomDelay: The server MUST choose a delay value randomly and delay starting the task after the time trigger fires by the random delay value. The random delay value MUST be chosen from the interval from zero to RandomDelay, inclusive. If not present, the server MUST NOT delay starting the task. However, it's possible that a scheduled task configured to run every 5 hours starts 5 times a day, for example: Base start time: 00:00 + 2 minutes => Started at 00:02 Next: 05:02 + 10 minutes => Started at 05:12 Next: 10:12 + 1 hour => Started at 11:12 Next: 16:12 + 2 hours => Started at 18:12 Next: 23:12 + 45 minutes => started at 23:57 About the Next Run Time: No, with a random delay you can't predict the next run time because the random value is computed just before "starting" the task (then, if the random value is 0 the task is immediately started). This is not documented, consider this as an implementation detail: it may or may not change in future versions.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1103900/how-does-the-random-delay-option-work
+
+---
+
+#### 1389. Windows SMB and NIC RSS
+
+**问题描述 / Problem Description**:
+Tags: networking, windows-10, server-message-block | Score: 2 | Views: 904 | Answers: 1 | Created: 2024-10-16
+
+**解决方案 / Solution**:
+Offloading is a hardware and driver feature. If the driver supports it you can configure it on the Advanced tab in the NIC properties. As @GregAskew commented, Receive Side Scaling is ancient and pretty much a given. If SMB says it's not supported (by asking the driver) it's most likely been deactivated in the NIC properties. My previous setup used two 1Gbit NICs and SMB nicely utilized both of them That is NOT RSS. Receive Side Scaling distributes TCP processing for a particular connection to multiple CPUs/cores. Distributing traffic across multiple NICs is called multipathing or SMB3 Multichannel. 130 MB/s maximum throughput might also indicate a 1 Gbit/s link on the server, the client or somewhere in between.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166665/windows-smb-and-nic-rss
+
+---
+
+#### 1390. Event id 4625 does not have Remote Network Information on Windows 10 Pro
+
+**问题描述 / Problem Description**:
+Tags: ssh, windows-10, windows-event-log, intrusion-prevention | Score: 2 | Views: 840 | Answers: 1 | Created: 2024-08-16
+
+**解决方案 / Solution**:
+The reason why Windows event id 4625 does not log the source IP, is because Windows does not know the source address. The process which is authenticating to Windows (via clear text login - type 8) is OpenSSH with the sshd.exe process. More info on 4625 is here: https://system32.eventsentry.com/security/event/4625 . It is this process that actually receives the incoming network connection and then passes the username & password on to Windows, verifying the provided credentials. I'm afraid this is just how Windows works. Like Greg said, you'd have to get this information from the SSH logs. Only the SSH service would know all the information you want: Source IP / Port Username I would recommend that you look through the OpenSSH documentation to see where the log file is located (should be C:\ProgramData\ssh\sshd_config ) and set the logging level to VERBOSE ( LogLevel VERBOSE ). Apparently OpenSSH on Windows has its own event log ( Applications and Services Logs > OpenSSH ) where you can see this information, but I can't verify this since I've never used OpenSSH on Windows.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163977/event-id-4625-does-not-have-remote-network-information-on-windows-10-pro
+
+---
+
+#### 1391. Debian installer screen not shown in Hyper-V Virtual machine at Windows 10
+
+**问题描述 / Problem Description**:
+Tags: debian, hyper-v, windows-10 | Score: 2 | Views: 1953 | Answers: 1 | Created: 2022-08-22
+
+**解决方案 / Solution**:
+Reboot the running VM ( by sending CTRL+ALT+DEL ) and you see (perhaps only for a a second) a ISOLINUX - prompt Press TAB during this time to see a list of possible boot-options. I used "install" to start the Debian-Installer in textmode.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1108784/debian-installer-screen-not-shown-in-hyper-v-virtual-machine-at-windows-10
+
+---
+
+#### 1392. How do I connect to a tumbleweed file server with just a URL and a public key?
+
+**问题描述 / Problem Description**:
+Tags: ssh, putty, sftp, windows-server | Score: 2 | Views: 1424 | Answers: 1 | Created: 2021-08-03
+
+**解决方案 / Solution**:
+I honestly have no idea if tumbleweed can even be accessed like an SFTP using FileZilla or if I need a special SSH file server tool or something. SFTP is the standard method for transferring files over SSH. If you've been told to upload files over SSH, they most likely mean SFTP, in which case FileZilla or WinSCP would do the job. (PuTTY itself doesn't have a graphical SFTP client, only a command-line one), but WinSCP is based on the PuTTY core – any server and any key format that PuTTY supports, so does WinSCP.) From what little information I've been able to find about Axway Tumbleweed, it has a web interface but also accepts SFTP connections via SSH. Apparently it can also act as an SFTP client, pulling files from another SFTP server. I've been staring at the information they gave us for days and scouring the internet and can't seem to find if what I've been asked to do is even possible. Some articles and answers seem to say "FileZilla and PuTTY are compatible with public keys" and some say "You have to have the PPK file to connect to a remote server". Those articles and answers (or at least the part you've quoted) conflate quite a few different things, to the point of being useless and misleading. Compatibility with the SSH "public-key" authentication mechanism in general. Yes, practically all SSH clients support key-based user authentication. Compatibility with the file format used by OpenSSH software to store public and private keys (which usually produces two files, "foo" and "foo.pub"). Yes, FileZilla and PuTTY can either use the OpenSSH-format key files directly, or convert them into a format that can be used (e.g. PuTTYgen can import them into .ppk files). However, out of the two files that OpenSSH's ssh-keygen produces ("somekey" and "somekey.pub"), only the former contains all necessary data – the .pub file alone is not enough. Finally, being able to use only a public key to perform SSH "public-key" authentication and log into the server. No – despite its name, the authentication mechanism fundamentally requires the use of both the public and private parts of a keypair, and different clients cannot get around this. So it would make no sense to interpret your article quote as saying that a .pub file alone can be used as a full replacement of a .ppk file – it doesn't contain the necessary data for that; it only happens to usually come with another file that does. From my understanding of cryptography, sending me their public key makes sense, so my side can encrypt communications using the given key and send it to them and they use their private key to decrypt it, but how do I actually do it? While this makes sense in theory, that's not how public keys are used in SSH at all. They are not used to encrypt actual communications; they're only used to make digital signatures. At first, SSH uses the DH/ECDH algorithm to establish the encryption key, with the server using its "host key" only to sign the results as well as prove its identity. Later during the login/authentication stage, your client uses your own keypair to prove your identity by signing some random data that the server verifies; at this point encryption has already been enabled and your keypair doesn't affect it in any way. Can anyone explain to me how I can go about connecting to a server and depositing a file with just this information? Or why my understanding of the situation is flawed and not actually possible? Or both for that matter? I'm going to say that you cannot connect to the server as you haven't been given enough information. But there could be a few possibilities: They gave you the wrong file. For example, the sysadmin created a SSH keypair for you using ssh-keygen , got the "jrud_key" and "jrud_key.pub" files, and meant to email you the former – but accidentally attached the latter. This is quite possible, especially if you haven't used SSH keypairs before and the admin wanted to make the process faster by creating a keypair for you. They gave you the server's public key, so that you could verify that you're connecting to the real server. While possible, this is unlikely. Most sysadmins would either give you the key's fingerprint instead (as that's what your client is going to show you for verification), or wouldn't bother giving anything at all. Additionally, if this was the case, they would still have given you some user authentication details – if not a private-key file, then a password, or a request for you to send your own .pub file to them instead. They want you to use something else than SSH/SFTP.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1667195/how-do-i-connect-to-a-tumbleweed-file-server-with-just-a-url-and-a-public-key
+
+---
+
+#### 1393. ROBOCOPY command gives me error if owner is set to group instead of user
+
+**问题描述 / Problem Description**:
+Tags: permissions, script, windows-server, robocopy | Score: 2 | Views: 5095 | Answers: 1 | Created: 2021-07-01
+
+**解决方案 / Solution**:
+I managed so solve this problem by removing O option from robocopy command ROBOCOPY "source" "destination" /E /copy:DATSO /NP /M . So it's ROBOCOPY "source" "destination" /E /copy:DATS /NP /MT . Now any user with "Change permissions" permission can use my script that I have written.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1660249/robocopy-command-gives-me-error-if-owner-is-set-to-group-instead-of-user
+
+---
+
+#### 1394. Automatically run commands after SSH login to Windows server
+
+**问题描述 / Problem Description**:
+Tags: ssh, openssh, windows-server, sshd | Score: 2 | Views: 3420 | Answers: 1 | Created: 2021-04-21
+
+**解决方案 / Solution**:
+You should be able to configure the default shell to be your script and have it execute the real shell at the end. echo Welcome to my server %COMSPEC% See Configure default shell initialized by OpenSSH on Windows 7 .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1643494/automatically-run-commands-after-ssh-login-to-windows-server
+
+---
+
+#### 1395. Connect to Remote Desktop using a different network interface
+
+**问题描述 / Problem Description**:
+Tags: windows, networking, remote-desktop, ethernet, windows-server | Score: 2 | Views: 4548 | Answers: 1 | Created: 2021-04-08
+
+**解决方案 / Solution**:
+From the command line, if you type mstsc /? it will list a whole bunch of options. mstsc is the command line name for remote desktop (Microsoft Terminal Server Client). The ones you are interested in are /v and /g. So if you wish to connect to soci it would be mstsc /v:soci /g:192.168.31.254
+
+**参考链接 / References**:
+- https://superuser.com/questions/1640244/connect-to-remote-desktop-using-a-different-network-interface
+
+---
+
+#### 1396. Grant "Read all properties” and “Create Computer objects” permissions to a Computer object
+
+**问题描述 / Problem Description**:
+Tags: active-directory, windows-server, powershell | Score: 2 | Views: 2674 | Answers: 1 | Created: 2021-02-17
+
+**解决方案 / Solution**:
+Managed to figure it out: /* Get the GUID that corresponds to Computer objects */ $ComputerGUID = [GUID](Get-ADObject -Filter 'DistinguishedName -eq "CN=Computer,CN=Schema,CN=Configuration,DC=mylab,DC=com"' -SearchBase (Get-ADRootDSE).schemaNamingContext -prop schemaIDGUID).schemaIDGUID $Path = [ADSI]"LDAP://CN=Computers,DC=mylab,DC=com" $ntaccount = New-Object System.Security.Principal.NTAccount("mylab\cluster1$") $IdentityReference = $ntaccount.Translate([System.Security.Principal.SecurityIdentifier]) $Perms = New-Object System.DirectoryServices.ActiveDirectoryAccessRule($IdentityReference,"CreateChild","Allow",$ComputerGUID,"All",$([GUID]::Empty)) $Path.psbase.ObjectSecurity.AddAccessRule($Perms) $Perms = New-Object System.DirectoryServices.ActiveDirectoryAccessRule($IdentityReference,"ReadProperty","Allow",$([GUID]::Empty),"All",$([GUID]::Empty)) $Path.psbase.ObjectSecurity.AddAccessRule($Perms) $Path.psbase.commitchanges() /* Check the results */ (Get-Acl "ad:\CN=Computers,DC=mylab,DC=com").Access | where-object { $_.IdentityReference -eq 'MYLAB\Cluster1$' } /* Check the returned ObjectType GUID is Computer */ $RawGuid = ([guid]'bf967a86-0de6-11d0-a285-00aa003049e2').toByteArray(); Get-ADObject -Filter {schemaIDGUID -eq $rawGuid} -SearchBase (Get-ADRootDSE).schemaNamingContext -prop schemaIDGUID | Select-Object Name,@{Name='schemaIDGUID';Expression={[guid]$_.schemaIDGUID}}
+
+**参考链接 / References**:
+- https://superuser.com/questions/1626914/grant-read-all-properties-and-create-computer-objects-permissions-to-a-compu
+
+---
+
+#### 1397. Intermittent VPN/Routing Issues Led to Machine Trust Failure — DC Health Appears Normal. Root Cause?
+
+**问题描述 / Problem Description**:
+Tags: active-directory, vpn, domain-controller, kerberos, windows-10 | Score: 1 | Views: 237 | Answers: 4 | Created: 2025-11-21
+
+**解决方案 / Solution**:
+VPN or network problems do not cause the problem. It is usually caused by a "previous version" of the host attempting to authenticate with stale credentials, possibly from restoring a checkpoint or System Restore Point, or System State Backup. It may also be caused by other hosts or devices attempting to authenticate with the disabled computer account identity. When this occurs, there are events on the domain controller and the source host that can provide more information, such as date time and the IP address of the source. To view attribute details of the computer account in AD, use the command: repadmin /showobjmeta <DC Name> <ObjectDN> repadmin /showobjmeta HQDC1 CN=Hostname,OU=Computers OU=HQ,DC=Acme,DC=com Hosts change their password every 30 days, so it is common for this issue to occur at or around that time, although the password change process design is robust enough to confirm the password has been changed correctly on the domain before assuming it succeeded and using the new password. Active Directory has excellent auditing, so it is likely that there is a trail of bread crumbs in the AD event logs and SIEM that show what happened. The device password change process is smart enough to not change the local password if unable to communicate with a DC Local password change will not occur if unable to communicate with a DC Windows 11 Image Rollback Detection detects and logs reverting to a previous image version Using SAMR protocol for computer account password change or reset Controlling Legacy Security Account Manager (SAM) remote procedure call (RPC) password change behavior Minutiae impertinente on computer account passwords
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1196020/intermittent-vpn-routing-issues-led-to-machine-trust-failure-dc-health-appears
+
+---
+
+#### 1398. OU / GPO and Windows Defender Firewall - settings not permanent
+
+**问题描述 / Problem Description**:
+Tags: active-directory, firewall, group-policy, windows-10, windows-server-2019 | Score: 1 | Views: 894 | Answers: 2 | Created: 2024-10-08
+
+**解决方案 / Solution**:
+Dell Wyse ThinClients Windows 10 Enterprise LTSC are configured to use Microsoft Unified Write Filter by default, make sure it's not on. Such overlay is like deepfreeze, and will revert back any change done to the operating system. Events related to overlay consumption are sent by UWF kernel mode components and are logged in the Windows Logs\System event log. Make sure the service is not up and running, desactivate it in worst case to test out; uwfmgr.exe filter disable
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166329/ou-gpo-and-windows-defender-firewall-settings-not-permanent
+
+---
+
+#### 1399. GPO "Administratively assigned offline files" is applied but files are not available offline
+
+**问题描述 / Problem Description**:
+Tags: active-directory, group-policy, samba, windows-10 | Score: 1 | Views: 600 | Answers: 1 | Created: 2023-09-08
+
+**解决方案 / Solution**:
+The issue was related to the Server (Samba). After switching to a Fileshare hosted by a Windows Server everything worked flawlessly.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1143361/gpo-administratively-assigned-offline-files-is-applied-but-files-are-not-avail
+
+---
+
+#### 1400. Is Bitlocker automatic unlock not safe?
+
+**问题描述 / Problem Description**:
+Tags: security, windows-10, bitlocker | Score: 1 | Views: 2644 | Answers: 1 | Created: 2023-07-29
+
+**解决方案 / Solution**:
+Does this then mean that i can put my data drive on another PC using bitlocker (on the main OS drive) and it will again automatically unlock there too? No, because the other PC can't guess the decryption key. In fact, when you enable auto-unlock, BitLocker will store a key specifically for this Data drive somewhere in the main OS volume, Windows will use this key later to unlock the Data drive. Windows is able to auto-unlock the Data Drive because the key it needs to unlock this Data drive is stored on the main OS volume. So, a random computer will not be able to auto-unlock your Data drive because this computer will not have the key it needs to auto-unlock the drive on its OS volume. That's what the documentation says: You can configure BitLocker to unlock mounted data volumes automatically during startup, without human interaction. BitLocker accomplishes this by encrypting a data volume's volume master key with an external wrapping key, and then storing a plaintext copy of the external wrapping key in the registry of the encrypted operating system volume
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1139846/is-bitlocker-automatic-unlock-not-safe
+
+---
+
+#### 1401. How do I mark the only Windows (10) disk as NOT bootable?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10 | Score: 1 | Views: 216 | Answers: 1 | Created: 2023-07-28
+
+**解决方案 / Solution**:
+If you need to change to boot order on a Windows Server HyperV Virtual Machine (VM): Launch HyperV Click on your VM to select it Click SETTINGS in the menu on the right Click BIOS Make your change and save it https://www.urtech.ca/2016/03/solved-how-to-configure-the-boot-order-on-a-hyperv-virtual-machine/
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1139709/how-do-i-mark-the-only-windows-10-disk-as-not-bootable
+
+---
+
+#### 1402. How to manage remote IIS instances from Windows 10 Professional?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-server-2008, iis, windows-10 | Score: 1 | Views: 2592 | Answers: 1 | Created: 2023-06-09
+
+**解决方案 / Solution**:
+Installing IIS itself only configures your machine to allow it to run websites etc locally, not remotely manage servers. To remotely manage a server you need to install the RSAT (Remote Server Administration Tools). There's a complete guide to the process here https://learn.microsoft.com/en-us/windows-server/remote/remote-server-administration-tools but on Windows 10 you basically need to go into Settings > Apps > Optional Features > Add, and then install the relevant RSAT features, which in your case is probably just RSAT: Server Manager . Then once Server Manager is installed you'll be able to use that to connect to and manage the remote server. To quote directly from that guide, "The tools installed as part of Remote Server Administration Tools for Windows 10 cannot be used to manage the local client computer. Regardless of the tool you run, you must specify a remote server, or multiple remote servers, on which to run the tool. Because most tools are integrated with Server Manager, you add remote servers that you want to manage to the Server Manager server pool before managing the server by using the tools in the Tools menu."
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1132980/how-to-manage-remote-iis-instances-from-windows-10-professional
+
+---
+
+#### 1403. Connecting from windows to debian Samba share
+
+**问题描述 / Problem Description**:
+Tags: samba, zfs, windows-10, proxmox | Score: 1 | Views: 1163 | Answers: 1 | Created: 2023-03-06
+
+**解决方案 / Solution**:
+valid users = @samba-peter specifies that users belonging to the group samba-peter are allowed. Either drop the @ or make sure that peter belongs to the group samba-peter
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1125462/connecting-from-windows-to-debian-samba-share
+
+---
+
+#### 1404. .NET Framwork 3.5 Offline Unattended Install
+
+**问题描述 / Problem Description**:
+Tags: windows-10, .net, unattended, dotnet-framework | Score: 1 | Views: 3204 | Answers: 2 | Created: 2023-01-09
+
+**解决方案 / Solution**:
+I managed to solve it with: Extract or mount a Windows 10 ISO on your host Copy the file microsoft-windows-netfx3-ondemand-package~31bf3856ad364e35~amd64~~.cab from ISO\sources\sxs onto the target Install with dism.exe /online /add-package /packagepath:microsoft-windows-netfx3-ondemand-package~31bf3856ad364e35~amd64~~.cab
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1119777/net-framwork-3-5-offline-unattended-install
+
+---
+
+#### 1405. Clone a domain machine, rename the PC, join to the domain error
+
+**问题描述 / Problem Description**:
+Tags: active-directory, domain, windows-10 | Score: 1 | Views: 6705 | Answers: 1 | Created: 2023-01-03
+
+**解决方案 / Solution**:
+Windows is using machine IDs (the "SID") to join other security contexts, not (only) the name. Windows uses SIDs to represent not just machines, but all security principals. Security principals include machines, domain computer accounts, users and security groups. Names are simply user-friendly "representations" for SIDs, allowing you to rename an account and not have to update access control lists (ACLs) that reference the account to reflect the change. A SID is a variable-length numeric value that consists of a structure revision number, a 48-bit identifier authority value, and a variable number of 32-bit subauthority or relative identifier (RID) values. The supported way to create a "unique" Windows installation from a clone (or restore) is to prepare the system by running the \Windows\System32\Sysprep\sysprep.exe tool. This is called "generalizing" the image, because when you boot an image created using this process, Sysprep specializes the installation by generating a new machine SID , triggering plug-and-play hardware detection, resetting the product activation clock, and setting other configuration data like the new computer name. One upon a time there was a tool namend newsid to "just" update the machine SID, but it has been retired.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1119377/clone-a-domain-machine-rename-the-pc-join-to-the-domain-error
+
+---
+
+#### 1406. How can I get the scheduled shutdown time in Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10 | Score: 1 | Views: 9760 | Answers: 2 | Created: 2022-12-06
+
+**解决方案 / Solution**:
+https://superuser.com/questions/317051/in-windows-7-how-do-i-know-when-a-computer-is-scheduled-to-be-shutdown https://superuser.com/questions/1028374/determine-whether-a-shutdown-is-pending Check out the above links for reference. I did some google FU, and there does not a appear to be a direct way to get the information you want. You ether have to some querying with power-shell or look in the event logs.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1117383/how-can-i-get-the-scheduled-shutdown-time-in-windows
+
+---
+
+#### 1407. How to restrict Outlook users not to modify rules
+
+**问题描述 / Problem Description**:
+Tags: windows-10, outlook | Score: 1 | Views: 2069 | Answers: 1 | Created: 2022-09-02
+
+**解决方案 / Solution**:
+You can use Group policy for each users to disable users to modify/create the rules.(Because there isn't AD in your enviroment, it means you need to add it the GPO on each computer manually.) Following below steps. Open your Group Policy Editor Navigate to: User Configuration>Administrative Templates>Microsoft Outlook 2016>Disable Items in User Interface>Custom>Disable command bar buttons and menu items Enable this option. Then command ID 10012 and 721 Then the rules in outlook should be blank. If YOU DO NOT HAVE “User Configuration>Administrative Templates>Microsoft Outlook 2016>Disable Items in User Interface> “ path under the GPO. Refer to the link for your reference. https://www.microsoft.com/en-us/download/details.aspx?id=49030
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1109770/how-to-restrict-outlook-users-not-to-modify-rules
+
+---
+
+#### 1408. Blocking Powershell with GPO
+
+**问题描述 / Problem Description**:
+Tags: powershell, group-policy, windows-server-2012, windows-server, windows-server-2016 | Score: 1 | Views: 6046 | Answers: 1 | Created: 2022-08-29
+
+**解决方案 / Solution**:
+The Short Answer The short answer to your question is not to try to prevent users from opening PowerShell. Why? PowerShell is a program, not a security boundary. For details, read on. Preventing PowerShell from Running Does Not Increase Security Blocking PowerShell, or preventing PowerShell scripts from running, does not increase security. In Windows, the user's account is the security boundary, not programs a user runs . The fact that a user can open PowerShell or run PowerShell scripts does not allow the user to bypass whatever security controls are present for their account. PowerShell Execution Policy Is A Safety Feature, Not A Security Boundary PowerShell's execution policy is a widely misunderstood feature that tends to be (ab)used to try to stop users from running PowerShell scripts under the mistaken notion that this somehow increases security. PowerShell's execution policy is a safety feature that was designed to prevent accidental execution of unsigned scripts. Bruce Payette, one of the principal PowerShell designers, says exactly this in the accepted answer to this question on StackOverflow. ExecutionPolicy is not a security boundary. As someone opined elsewhere in a comment 1 , it is a safety feature. Think seat belt not door lock. But seat belts mitigate risk so it's better to use them than not. ExecutionPolicy mitigates the risk of unintentionally running malicious code. The generally recommended minimum policy is RemoteSigned . 1 The "someone" he was referring to is yours truly.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1739548/blocking-powershell-with-gpo
+
+---
+
+#### 1409. How to host a Proxy Server on Windows Server?
+
+**问题描述 / Problem Description**:
+Tags: proxy, http, windows-server | Score: 1 | Views: 10996 | Answers: 2 | Created: 2022-08-23
+
+**解决方案 / Solution**:
+I don't know if Microsoft have a product (it seems likely) but my first choice might be Squid Having said that, last time I needed a dedicated low-throughput single-purpose proxy, I wrote one in Go. Obviously this is probably more work that you want but configuring a sophisticated proxy may not be your idea of fun either.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1738562/how-to-host-a-proxy-server-on-windows-server
+
+---
+
+#### 1410. Windows-10 shared folder permission
+
+**问题描述 / Problem Description**:
+Tags: windows-10, file-permissions, file-sharing | Score: 1 | Views: 924 | Answers: 2 | Created: 2022-08-23
+
+**解决方案 / Solution**:
+Since you do not have a DC or you do not have any account manager implemented on your network, use the local SAM of that Windows that hosts the network share folder ("file server"). Create groups and users according your necessitates. e.g. johndoe, janedoe, ceastwood, cnorthwood, cwestwood, Sales-Group, Accountants, Managers Train your users to use these accounts when connect to the "file server". Create Folders under the shared folder and navigate to the Security tab of the folder. Define the permissions of each users and groups. (Better to operate with groups).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1108845/windows-10-shared-folder-permission
+
+---
+
+#### 1411. Windows 10 safely delete recovery partition
+
+**问题描述 / Problem Description**:
+Tags: windows-10, partition, data-recovery, diskpart | Score: 1 | Views: 9969 | Answers: 1 | Created: 2022-08-04
+
+**解决方案 / Solution**:
+This answer is intended for Windows version 2004 and newer, where the recovery partition (if exists) is after system partition . In 1909 and older the partition may be located before the system partition, requiring a more complicated solution. reagentc /disable diskpart list disk select dis [diskNumber] list partition sel part [partitionNumber] del par override Then expand the disk all the way if you don't want to recreate the recovery partition. You can shrink it if you decide to recreate the partition later (use DISM to mount a WinRE WIM from a source ISO, then copy WinRE to the recovery partition that you create, for example). Windows might already move the recovery partition to a hidden directory at C:\Recovery when you do reagentc /disable . You should read more about the topics to make sure. Update on REAgentC: I recently had to extend a sandwiched partition by deleting the recovery partition, and bookmarking the process with REAgentC /enable and /disable worked without any extra steps: Further reading: Partition samples REAgentC
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1107411/windows-10-safely-delete-recovery-partition
+
+---
+
+#### 1412. When Would I Need Windows "Remote Desktop Session Host"
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-server | Score: 1 | Views: 637 | Answers: 1 | Created: 2022-07-16
+
+**解决方案 / Solution**:
+Windows Server comes with the possibility of doing two administrative remote desktop connections. To have more than two client sessions open at the same time, each user and device that connects to a Remote Desktop Session host needs a client access license (CAL), which you can buy from Microsoft and install on Windows Server. References : License your RDS deployment with client access licenses (CALs) Remote Desktop Services roles
+
+**参考链接 / References**:
+- https://superuser.com/questions/1732015/when-would-i-need-windows-remote-desktop-session-host
+
+---
+
+#### 1413. Creating Zip Using Foreach in PS Produces Nothing
+
+**问题描述 / Problem Description**:
+Tags: powershell, windows-10 | Score: 1 | Views: 415 | Answers: 1 | Created: 2022-07-11
+
+**解决方案 / Solution**:
+Answer to my particular use case was that Compress-Archive needed to use the -LiteralPath argument rather than the -Path argument.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1105248/creating-zip-using-foreach-in-ps-produces-nothing
+
+---
+
+#### 1414. How can I pull Minimum Password Length policy from Windows 10 registry?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, windows-registry | Score: 1 | Views: 1704 | Answers: 1 | Created: 2022-06-20
+
+**解决方案 / Solution**:
+Windows does not use the registry for storing and managing security policies. Security policies are stored in the security database. You can export them with the below command, and search for the line that starts with: MinimumPasswordLength = secedit /export /areas SECURITYPOLICY /cfg C:\DirName\FileName.txt
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1103692/how-can-i-pull-minimum-password-length-policy-from-windows-10-registry
+
+---
+
+#### 1415. SFTP connection getting reset by client server
+
+**问题描述 / Problem Description**:
+Tags: sftp, windows-server, winscp | Score: 1 | Views: 2575 | Answers: 1 | Created: 2022-06-18
+
+**解决方案 / Solution**:
+Issue is fixed by updating the MTU value. I have used below link for details related to how we can update MTU value. https://iponwire.com/tcp-mss/
+
+**参考链接 / References**:
+- https://superuser.com/questions/1727174/sftp-connection-getting-reset-by-client-server
+
+---
+
+#### 1416. RDP into Windows Server 2019 stuck on "Unlock the PC" screen
+
+**问题描述 / Problem Description**:
+Tags: remote-desktop, windows-server, lock-screen, windows-server-2019 | Score: 1 | Views: 12527 | Answers: 1 | Created: 2022-06-07
+
+**解决方案 / Solution**:
+I noticed that when I connect to a PC with this issue, sometimes the credentials inputs would blink for a split second. I have now managed to fix this ("Unlock the PC" message and there's no way to input anything, no keycombo does anything) issue twice by spamming Ctrl+Alt+Delete when connecting. As soon as I click connect, I start spamming Ctrl+Alt+Delete. Both times I had to try like 5 times but it worked. Note that I did this using Remmina on Linux. I'm not a 100% sure how the Windows application handles grabbing keystrokes, you might have to be more precise about when starting to spam ctrl+alt+del so you don't close the connection window.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1725197/rdp-into-windows-server-2019-stuck-on-unlock-the-pc-screen
+
+---
+
+#### 1417. Backup / Mirror a drive to JBOD storage pool
+
+**问题描述 / Problem Description**:
+Tags: nas, windows-server, storage-spaces | Score: 1 | Views: 396 | Answers: 1 | Created: 2022-05-21
+
+**解决方案 / Solution**:
+RAID 10? Personally I would copy everything off JBOD and junk those drives. Then buy another drive to backup to as well. Unless you don't care about your data, but then there's no point in RAID. Hard drives are cheap. Data loss may not be.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1722247/backup-mirror-a-drive-to-jbod-storage-pool
+
+---
+
+#### 1418. Windows Server 2019 extremely slow lately, can't figure out why
+
+**问题描述 / Problem Description**:
+Tags: hard-drive, performance, sata, windows-server | Score: 1 | Views: 5057 | Answers: 1 | Created: 2022-03-24
+
+**解决方案 / Solution**:
+The problem was likely a dying disk. When the disk was replaced, the problem was solved.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1712604/windows-server-2019-extremely-slow-lately-cant-figure-out-why
+
+---
+
+#### 1419. "If the task is already running..." setting in Windows Task Scheduler
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-task-scheduler, windows-server | Score: 1 | Views: 6841 | Answers: 1 | Created: 2022-03-09
+
+**解决方案 / Solution**:
+The Help says: Do not start a new instance : The Task Scheduler service will not run the new instance of the task and will not stop the instance that is already running. This is about the scheduled task itself, not about what it does. So, as in your case you have two different tasks , although they run the same executable, both will execute in parallel starting at 2:10PM.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1708988/if-the-task-is-already-running-setting-in-windows-task-scheduler
+
+---
+
+#### 1420. Rsync always failing at the same point
+
+**问题描述 / Problem Description**:
+Tags: linux, backup, rsync, nfs, windows-server | Score: 1 | Views: 2510 | Answers: 1 | Created: 2022-01-30
+
+**解决方案 / Solution**:
+How I solved it: I've discovered this forgotten post on the ArchLinux forum, and tried the solution: It seemed to be a cache problem or something related. To have it working, I just added -o fg,noac,lookupcache=none to the mount command.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1702286/rsync-always-failing-at-the-same-point
+
+---
+
+#### 1421. Automate Uninstall .Net SDK Framework Using msiexec /x
+
+**问题描述 / Problem Description**:
+Tags: powershell, .net-framework, windows-server, windows-installer | Score: 1 | Views: 1230 | Answers: 1 | Created: 2021-11-10
+
+**解决方案 / Solution**:
+I'm going to use in my answer the free AutoHotkey . The following AutoHotkey script will wait for a dialog to appear with the title of "Microsoft .NET Framework 4.7 SDK" and will click the "Yes" button: SetTitleMatchMode, 2 WinWait, Microsoft .NET Framework 4.7 SDK ControlGet, ControlHwnd, Hwnd,, Yes, Microsoft .NET Framework 4.7 SDK ControlClick,, ahk_id %ControlHwnd% ExitApp After installing AutoHotKey, put the script in a .ahk file and double-click it to test. You may stop the script by right-click on the green H icon in the traybar and choosing Exit. Once the script is verified as working, you can compile it by right-click in Explorer on the .ahk file and selecting Compile script . This will produce an .exe file that is stand-alone, so AutoHotkey doesn't need to be installed on the target computer. Note that this script will wait forever for the dialog to appear. You may improve it by adding a timer that will terminate the script (ExitApp) after a reasonable time. If you include this script in a batch file, it needs to be called in a non-blocking way, as by using the start command . I have tested the script on my own test-case, which is not identical to yours, so I blindly used values from your screenshot. You may need to correct errors in it.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1686645/automate-uninstall-net-sdk-framework-using-msiexec-x
+
+---
+
+#### 1422. Windows Server 2022 Security Center Issue
+
+**问题描述 / Problem Description**:
+Tags: windows, security, windows-server | Score: 1 | Views: 1044 | Answers: 1 | Created: 2021-10-17
+
+**解决方案 / Solution**:
+Problem solved! Execute with privilige in PowerShell Add-AppxPackage -Register -DisableDevelopmentMode "C:\Windows\SystemApps\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy\AppXManifest.xml"
+
+**参考链接 / References**:
+- https://superuser.com/questions/1682187/windows-server-2022-security-center-issue
+
+---
+
+#### 1423. Given a virtual disk, get the pool it belongs to
+
+**问题描述 / Problem Description**:
+Tags: powershell, amazon-ec2, windows-server, windows-server-2019 | Score: 1 | Views: 858 | Answers: 1 | Created: 2021-07-18
+
+**解决方案 / Solution**:
+The following helped the poster with his problem: Get-VirtualDisk -FriendlyName "VDisk01" | Get-StoragePool References: Get-StoragePool Get-VirtualDisk
+
+**参考链接 / References**:
+- https://superuser.com/questions/1663311/given-a-virtual-disk-get-the-pool-it-belongs-to
+
+---
+
+#### 1424. User Logon Script - Display additional network information
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, group-policy, windows-server, event-viewer | Score: 1 | Views: 838 | Answers: 2 | Created: 2021-05-20
+
+**解决方案 / Solution**:
+Another method is to us PSTermialServices: ( https://github.com/imseandavis/PSTerminalServices ) Run command: Get-TSSession -ComputerName PC01 or Get-TSSession -ComputerName localhost You will get the following values: This can tell you both ways, what computer a user is remoted into and where, as well as, who is remoted into the local machine and from where.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1650418/user-logon-script-display-additional-network-information
+
+---
+
+#### 1425. Windows server backup in bare metal recovery mode fails on hidden partition with message "the system cannot find the file specified"
+
+**问题描述 / Problem Description**:
+Tags: backup, windows-server | Score: 1 | Views: 3406 | Answers: 1 | Created: 2021-05-19
+
+**解决方案 / Solution**:
+None of the search hits I found applied to my specific case, nor did any one answer get me to the fix on its own, hence this self-answered question which will hopefully help anyone else with the same issue. For me, the solution was as follows, and thankfully does not require a reboot: Mount the hidden volume and assign a drive letter - in my case this was not possible from Disk Manager (all menu entries except 'Help' were missing from the right-click menu for the problem partition, and even that was greyed out) but ymmv so you might want to try it that way first. Open an elevated command shell DISKPART LIST DISK to get disk number d which hosts the problem partition SELECT DISK d LIST PARTITION and identify your problem partition number p from the list SELECT PARTITION p ASSIGN to mount the volume and assign next available drive letter EXIT to leave DISKPART (keep elevated command shell open) Run CHKDSK "offline scan and fix" on the newly-mounted volume e.g. if your assigned drive letter is H, then CHKDSK H: /OFFLINESCANANDFIX Note: In my case, CHKDSK output reported no problems with the volume or its file system, however running the scan did fix the backup issue. Unmount the volume DISKPART SELECT DISK d SELECT PARTITION p REMOVE to unassign the drive letter EXIT to leave DiskPart EXIT again to close the command shell Delete backup target Use Windows Explorer or whatever to browse to your backup target volume, wherever that is (e.g. removable drive) Go into directory "WindowsImageBackup" Delete the entire subdirectory which matches the hostname of the computer you are backing up. If you don't do this, the backup will fail with "The mounted backup volume is inaccessible." Run backup
+
+**参考链接 / References**:
+- https://superuser.com/questions/1650259/windows-server-backup-in-bare-metal-recovery-mode-fails-on-hidden-partition-with
+
+---
+
+#### 1426. Windows Server network card transferring files at 100 Mb/s on the LAN
+
+**问题描述 / Problem Description**:
+Tags: networking, file-transfer, windows-server | Score: 1 | Views: 865 | Answers: 1 | Created: 2021-04-20
+
+**解决方案 / Solution**:
+Other network equipment, such as router, hub or switch in between 2 computers should also support Gigabit Ethernet or higher speeds, otherwise it is limiting network speed down to the highest it supports.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1643227/windows-server-network-card-transferring-files-at-100-mb-s-on-the-lan
+
+---
+
+#### 1427. How to limit inbound SMB bandwidth?
+
+**问题描述 / Problem Description**:
+Tags: bandwidth, smb, windows-server, qos | Score: 1 | Views: 2334 | Answers: 1 | Created: 2021-04-10
+
+**解决方案 / Solution**:
+I agree that Windows has traffic shaping only for outbound connection or for inbound TCP (but not SMB). You will need to do the QoS traffic shaping in the router, which might require getting a suitably advanced router.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1640718/how-to-limit-inbound-smb-bandwidth
+
+---
+
+#### 1428. Is bad memory an issue for Windows Server Software Raid 5 resync?
+
+**问题描述 / Problem Description**:
+Tags: windows, memory, raid, software-raid, windows-server | Score: 1 | Views: 225 | Answers: 1 | Created: 2021-02-18
+
+**解决方案 / Solution**:
+And yes, I have up to date backups of everything with history. That's really amazing! I thought I'll have to give you the standard lecture about backups. You may need them. Maybe there are checks in place that would actually detect and prevent this from being an issue? That's what ECC RAM does. ECC modules can correct one erroneous bit flip per byte and detect all 2 bit errors (and some 2+). It will crash the machine in the latter case because that's safer than progressing with known-bad data. ECC is very important in servers because without it, the system must blindly trust that the data in memory is correct. DDR5 spec even requires ECC for all modules. It sounds like you didn't have ECC memory though, so you can't be sure your data is fine. I would generally assume the RAID cannot be trusted, because RAID5 can only detect errors, but not correct them properly (unless the filesystem can do that, which NTFS can't AFAIK). Scrubbing the array will make it consistent, but it's not guaranteed that the adjustments made will be correct. You can either: Destroy the array, create a new one and restore from backup, or Scrub the array and compare hashes with known-good copies. That's assuming that you know your backups are fine. That may not be the case if the source system was silently corrupting data. Consider switching to ECC memory to prevent this in the future.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1627055/is-bad-memory-an-issue-for-windows-server-software-raid-5-resync
+
+---
+
+#### 1429. Server 2019 OpenSSH SFTP server only allows Admin group
+
+**问题描述 / Problem Description**:
+Tags: openssh, sftp, windows-server | Score: 1 | Views: 600 | Answers: 1 | Created: 2020-10-02
+
+**解决方案 / Solution**:
+Ok here is my stab at this and hopes this works for the ones that have been at this for a while. Add your sftp windows box to the "RAS and IAS Servers" group in the domain. This was an issue when I was bringing up RDG.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1590345/server-2019-openssh-sftp-server-only-allows-admin-group
+
+---
+
+#### 1430. How to catch the data, sent to a printer?
+
+**问题描述 / Problem Description**:
+Tags: printer, windows-server, event-log, sniffing, gdi | Score: 0 | Views: 45 | Answers: 1 | Created: 2026-04-03
+
+**解决方案 / Solution**:
+It seems like those *.prn files don't show the actual data, but the result of the actual printing task, meaning that if the printer refuses to perform the printing, the corresponding *.prn file is empty. Is this correct and is there a way to intercept the data, sent to the printer? Not quite – the *.prn files are the data that would have been sent to the printer. So if the file is empty, that implies no data would've been sent to the printer either; that is, the printer driver failed to produce the print job. As far as I know, the job of the "printer driver" is to take input in a Windows native format (WMF/GDI) and convert it to the printer's native format (e.g. PS/PCL/proprietary raster formats), but not to actually send it to the printer. Instead it returns the generated job to the Spooler service, which handles sending it through the assigned 'port' – at which point here, instead of being sent through the port, the job is written to the *.prn file. That is to say, generating the .prn file does not involve the printer, so the .prn file cannot be empty due to "the printer refusing the data" – only the other way around (the printer refuses to print because there was no data in the print job). (Sending jobs through the 'port' and monitoring the printer's status is handled by a separate class of driver. The two are decoupled, since the job format doesn't really depend on how that job will be delivered – e.g. a "printer driver" for a USB printer can still be used to send that job through LAN to a print server where the actual USB connection is.) I don't know if there is any way to save the input for the print job (i.e. the GDI data), although if other drivers like "print to PDF" are producing output then I'd assume the program is providing the input data more-or-less correctly. One of my approaches indeed is the interception of the data, sent to the printer. I've used "sniffing" as an example of doing that, but I really hope I don't need sniffing as in using Wireshark in order to perform that interception. Wireshark would work, if it were a network printer... and if Windows actually had any print job data to send in the first place. (It can also technically work for USB as well, but deciphering the various USB printer port protocols would be much more of a headache than extracting the print job out of a TCP port 9100 connection.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936392/how-to-catch-the-data-sent-to-a-printer
+
+---
+
+#### 1431. Is there a way only to see the drivers that are compatible with my PDF24 printer on Windows Server 2022?
+
+**问题描述 / Problem Description**:
+Tags: drivers, printer, compatibility, windows-server, windows-server-2022 | Score: 0 | Views: 54 | Answers: 1 | Created: 2026-04-02
+
+**解决方案 / Solution**:
+You're assuming too much. The presence of a combobox does NOT mean that every item in that combobox is valid or compatible. Yes, for end-user software it is good for a dev to make sure the items populating such controls are all valid, or use some format to indicate compatibility, but in a system-level box the assumption is more "you may know better", and unless it is absolutely necessary, such filtering may not be applied. For physical printers, there are usually multiple possible compatible drivers, and these will have different capabilities and purposes. Because many of the better printers use specific standards for their communication, the drives don't even necessarily have to come from the printer's manufacturer. However, you're dealing with a software product and not a physical printer. PDF is, technically, an encapsulation of PostScript data (PS), which is an alternative to PrinterControlLanguage (PCL). It's possible that a PS driver may be a valid alternative in your case, but it also depends on how much of the function of this software is off-loaded to the driver and what the application expects as input. So, to answer your specific question: Drivers being listed in that combobox does not even imply that they are all valid and compatible, though it may be reasonable to assume so in a different product. Knowing more about the context in which you were advised of this instruction may help us better solve your root problem, but that should be a different question if you want that info.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936368/is-there-a-way-only-to-see-the-drivers-that-are-compatible-with-my-pdf24-printer
+
+---
+
+#### 1432. How to calibrate a screen for HDR content on Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: display, windows-11, hdr | Score: 0 | Views: 32 | Answers: 1 | Created: 2026-03-31
+
+**解决方案 / Solution**:
+There is a Microsoft tool to calibrate a screen: Windows HDR Calibration ( Windows Store , help page ). Just install and run the program, then there are a few steps to perform the calibration. Adjust the sliders as shown on the examples, then stop as soon as it looks as intended. Pushing the values too far would result in a burned image later. Finely tuning the brightness and contrast of the screen itself will also improve the final result.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936328/how-to-calibrate-a-screen-for-hdr-content-on-windows-11
+
+---
+
+#### 1433. I'm so confused
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t13nu2/im_so_confused/
+
+---
+
+#### 1434. Hilarious followup on the stolen laptop debacle
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t13hr2/hilarious_followup_on_the_stolen_laptop_debacle/
+
+---
+
+#### 1435. Is there a way to connect existing domain join laptops to entrana AD without formatting the device.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t13p3q/is_there_a_way_to_connect_existing_domain_join/
+
+---
+
+#### 1436. First pc build! Please let me know if I did anything wrong.
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t13mr3/first_pc_build_please_let_me_know_if_i_did/
+
+---
+
+#### 1437. Hardware issue detected
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t13ir4/hardware_issue_detected/
+
+---
+
+#### 1438. Pc build rating
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t13a85/pc_build_rating/
+
+---
+
+#### 1439. Phoronix: "AMD Posts HDMI 2.1 FRL Patches For Their AMDGPU Linux Driver"
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t13bcs/phoronix_amd_posts_hdmi_21_frl_patches_for_their/
+
+---
+
+#### 1440. [V2EX] 境内不可用
+
+**问题描述 / Problem Description**:
+想买个 ultra mobike paygo 实体卡， 我看飞猪所有店铺都写了 境内不可用 但是我看不得贴着还推荐这个卡，是真的不可用？ 是不是得特殊操作？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209913#reply3
+
+---
+
+#### 1441. I went to the repair shop to get my AIO replaced and to update my BIOS. Now it won't boot.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t15tnf/i_went_to_the_repair_shop_to_get_my_aio_replaced/
+
+---
+
+#### 1442. Ingenico Move 5000 stuck on "waiting for transactions" screen immediately after booting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t17efl/ingenico_move_5000_stuck_on_waiting_for/
+
+---
+
+#### 1443. Persistent GPU crashes when running over 70% usage
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t171ga/persistent_gpu_crashes_when_running_over_70_usage/
+
+---
+
+#### 1444. Lenovo IdeaPad 3 – Screen goes black at login, then “repairing disk errors” + glitchy screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t16w3s/lenovo_ideapad_3_screen_goes_black_at_login_then/
+
+---
+
+#### 1445. software not fitting in screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t16n6m/software_not_fitting_in_screen/
+
+---
+
+#### 1446. Lan cable plug not reading
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t16n1d/lan_cable_plug_not_reading/
+
+---
+
+#### 1447. top of the screen flicker in videogames
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t16hlj/top_of_the_screen_flicker_in_videogames/
+
+---
+
+#### 1448. How would I connect my PC, PS2 and WII U to same speaker
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t16fmv/how_would_i_connect_my_pc_ps2_and_wii_u_to_same/
+
+---
+
+#### 1449. Microphone always low volume when pc starts up
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t16fij/microphone_always_low_volume_when_pc_starts_up/
+
+---
+
+#### 1450. Can someone help me with the settings
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t16eys/can_someone_help_me_with_the_settings/
+
+---
+
+#### 1451. vga light on motherboard lights monthly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t161bq/vga_light_on_motherboard_lights_monthly/
+
+---
+
+#### 1452. Alt-Tab bricks my PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t15x3q/alttab_bricks_my_pc/
+
+---
+
+#### 1453. Google search bar keep showing history.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t15s6r/google_search_bar_keep_showing_history/
+
+---
+
+#### 1454. Question on potential of losing data switching from SIM to eSIM with a different carrier
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t153pb/question_on_potential_of_losing_data_switching/
+
+---
+
+#### 1455. ah the beloved bootloop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t14un4/ah_the_beloved_bootloop/
+
+---
+
+#### 1456. Windows update
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t14n1d/windows_update/
+
+---
+
+#### 1457. pc keeps randomly turning off
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t14ks9/pc_keeps_randomly_turning_off/
+
+---
+
+#### 1458. System stability issue/crashes, first build
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t14h3g/system_stability_issuecrashes_first_build/
+
+---
+
+#### 1459. SIEM for a company that has Sophos MDR w/1 year retention.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t148lp/siem_for_a_company_that_has_sophos_mdr_w1_year/
+
+---
+
+#### 1460. Multi-tenant organization - confusing documentation
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t169wh/multitenant_organization_confusing_documentation/
+
+---
+
+#### 1461. HR wants a rewards platform. how do I evaluate the API and security without over-engineering it?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t156ed/hr_wants_a_rewards_platform_how_do_i_evaluate_the/
+
+---
+
+#### 1462. Windows 11 Security Fix KB5083769 breaks causing backup failures - VSS fails
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t14npl/windows_11_security_fix_kb5083769_breaks_causing/
+
+---
+
+#### 1463. Anyone have a good low-voltage cabling guy in Los Angeles?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t178mo/anyone_have_a_good_lowvoltage_cabling_guy_in_los/
+
+---
+
+#### 1464. Which GPU should I upgrade to
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t165ys/which_gpu_should_i_upgrade_to/
+
+---
+
+#### 1465. Is there a too much when building?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t15psj/is_there_a_too_much_when_building/
+
+---
+
+#### 1466. Difference between cpus
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t14bth/difference_between_cpus/
+
+---
+
+#### 1467. upgrading from my ryzen 5 2600
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t140rd/upgrading_from_my_ryzen_5_2600/
+
+---
+
+#### 1468. 12vhpwr cables
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t176il/12vhpwr_cables/
+
+---
+
+#### 1469. Asrock X870 Pro Rs wifi + Ryzen 7 9800x3D green led
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t16xzf/asrock_x870_pro_rs_wifi_ryzen_7_9800x3d_green_led/
+
+---
+
+#### 1470. Good key remapper for games (NOT AUTOHOTKEY)
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t15xpd/good_key_remapper_for_games_not_autohotkey/
+
+---
+
+#### 1471. I built an app to track pain + hydration for sickle cell… would anyone actually use this?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t167r9/i_built_an_app_to_track_pain_hydration_for_sickle/
+
+---
+
+#### 1472. [V2EX] 三个月极速结婚答应吗？女方不要房不要车要彩礼要五金
+
+**问题描述 / Problem Description**:
+订婚结婚婚纱旅游该有的流程都要 女，刚毕业一年左右 女提的结婚 女定的日子 女有姐有弟
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209925#reply0
+
+---
+
+#### 1473. [V2EX] 老哥们，有没有一直能正常用 Gemini 的机场？
+
+**问题描述 / Problem Description**:
+之前用过的不少机场，体验都还可以，比如良心云，价格是真便宜，看视频都很好，唯独就是用 Gemini 的时候，时不时遇到无法正常使用的情况。 想问问老哥们，有没有什么机场，一直都可以正常访问 Gemini 的？不会提示“该地区暂时无法使用 gemini”
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209870#reply7
+
+---
+
+#### 1474. How can I disable Efficiency mode for all chrome.exe processes at once on Windows?
+
+**问题描述 / Problem Description**:
+Tags: google-chrome, windows-11, task-manager, windows-efficiency-mode | Score: 1 | Views: 2114 | Answers: 1 | Created: 2025-11-30
+
+**解决方案 / Solution**:
+Reddit user OkMany3232 pointed me to: add --disable-features=UseEcoQoSForBackgroundProcess to the shortcut That works for me! In the event that solution stops working, Reddit user TheSpixxyQ pointed me to https://github.com/victorelec14/windows-browser-efficiency-mode-disabler : A PowerShell script that continuously monitors and disables Windows Efficiency Mode for web browsers, ensuring optimal performance even when running in the background. As an alternative, Reddit user adsyuk1991 pointed me to: It can be worked around with Process Lasso . Go to Options -> CPU -> Efficiency Modes. Add process match on chrome.exe, set efficiency mode to off and add rule. You can set process lasso to strt with windows under Options -> General -> Configure Startup. This will actively catch existing and new processes.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930867/how-can-i-disable-efficiency-mode-for-all-chrome-exe-processes-at-once-on-window
+
+---
+
+#### 1475. Phone is acting wierd help
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1astv/phone_is_acting_wierd_help/
+
+---
+
+#### 1476. DISM messed up and corrupted
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1acmp/dism_messed_up_and_corrupted/
+
+---
+
+#### 1477. pc issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1b6d8/pc_issues/
+
+---
+
+#### 1478. Can not find my SSD while trying to reinstall windows 11 to my laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1et7i/can_not_find_my_ssd_while_trying_to_reinstall/
+
+---
+
+#### 1479. My PC keeps turning off
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1enj2/my_pc_keeps_turning_off/
+
+---
+
+#### 1480. Ando buscando gente de hardware y software no encuentro unos drivers de audio para una PC Philco notebook de Argentina!!!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1ei57/ando_buscando_gente_de_hardware_y_software_no/
+
+---
+
+#### 1481. Pavilion 20 doesn’t POST. only flashes HP then blank screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1efoq/pavilion_20_doesnt_post_only_flashes_hp_then/
+
+---
+
+#### 1482. BSOD with Kmode_Exception_Not_Handled Error
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1edq3/bsod_with_kmode_exception_not_handled_error/
+
+---
+
+#### 1483. dell r730 boot hault amd pro v340l
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1ec7u/dell_r730_boot_hault_amd_pro_v340l/
+
+---
+
+#### 1484. Uhhh guys...
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1e9ca/uhhh_guys/
+
+---
+
+#### 1485. weird browser admin
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1e4gp/weird_browser_admin/
+
+---
+
+#### 1486. Ethernet shows not connected but cable works on other PCs (tried everything)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1961u/ethernet_shows_not_connected_but_cable_works_on/
+
+---
+
+#### 1487. No matter what I try it wont let me connect to my VPN
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t194t6/no_matter_what_i_try_it_wont_let_me_connect_to_my/
+
+---
+
+#### 1488. PC WiFi + Bluetooth Disconnting issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1dvf5/pc_wifi_bluetooth_disconnting_issue/
+
+---
+
+#### 1489. My Pc does not recognize mic from my bluetooth earbuds
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1dt0s/my_pc_does_not_recognize_mic_from_my_bluetooth/
+
+---
+
+#### 1490. hvci issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1dp97/hvci_issues/
+
+---
+
+#### 1491. Phone keyboard pasting errors
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1dogb/phone_keyboard_pasting_errors/
+
+---
+
+#### 1492. Why Did MY New Ps5 Make A Ticking Sound On Startup?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t18l5d/why_did_my_new_ps5_make_a_ticking_sound_on_startup/
+
+---
+
+#### 1493. Computer flashed random colors then shut off.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1dja5/computer_flashed_random_colors_then_shut_off/
+
+---
+
+#### 1494. For a few days I have not been able to use the xbox game bar party feature on my Windows 11.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1dikw/for_a_few_days_i_have_not_been_able_to_use_the/
+
+---
+
+#### 1495. My whole pc stutters when i have discord open in the background
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t18ges/my_whole_pc_stutters_when_i_have_discord_open_in/
+
+---
+
+#### 1496. WD Nas HDD dead out of Box
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t17v3u/wd_nas_hdd_dead_out_of_box/
+
+---
+
+#### 1497. Mic isn't picking up voice
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1cr1t/mic_isnt_picking_up_voice/
+
+---
+
+#### 1498. Atlassian Outage Coming?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t1bdqm/atlassian_outage_coming/
+
+---
+
+#### 1499. Thank you for your interest
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t1er23/thank_you_for_your_interest/
+
+---
+
+#### 1500. Enclosed wall racks for a production floor?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t18y31/enclosed_wall_racks_for_a_production_floor/
+
+---
+
+#### 1501. Laptop prices
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t16ilo/laptop_prices/
+
+---
+
+#### 1502. Has anyone used Network Glue by Kaseya?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t169q2/has_anyone_used_network_glue_by_kaseya/
+
+---
+
+#### 1503. How to force-enable Xbox Mode in Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t18tvt/how_to_forceenable_xbox_mode_in_windows_11/
+
+---
+
+#### 1504. Simple Questions - May 01, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1a4n4/simple_questions_may_01_2026/
+
+---
+
+#### 1505. About 9060xt, i feel like i waste cards vram potential
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t18s9x/about_9060xt_i_feel_like_i_waste_cards_vram/
+
+---
+
+#### 1506. Building a $950-1000 USD pc
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1axal/building_a_9501000_usd_pc/
+
+---
+
+#### 1507. Is a Ryzen 7 5700x paired with an RTX 5060 Ti 16GB a good combination for 1080p gaming in the coming years?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1d4xx/is_a_ryzen_7_5700x_paired_with_an_rtx_5060_ti/
+
+---
+
+#### 1508. Chances of putting an old tiny discrete GPU in a ProDesk 405 G4?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1evfm/chances_of_putting_an_old_tiny_discrete_gpu_in_a/
+
+---
+
+#### 1509. Help me find a pet/hair friendly Case.
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1cy10/help_me_find_a_pethair_friendly_case/
+
+---
+
+#### 1510. Ryzen 5900x or upgrade to 7800x3D? Or 5060ti to 5070ti?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1cw6q/ryzen_5900x_or_upgrade_to_7800x3d_or_5060ti_to/
+
+---
+
+#### 1511. What case, CPU cooler, and PSU to optimally reduce noise for Pro 6000 Blackwell?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1cakh/what_case_cpu_cooler_and_psu_to_optimally_reduce/
+
+---
+
+#### 1512. Help me decide on my modest upgrade
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1c9gu/help_me_decide_on_my_modest_upgrade/
+
+---
+
+#### 1513. Received faulty RAM twice in a row or is it something else?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t19c0b/received_faulty_ram_twice_in_a_row_or_is_it/
+
+---
+
+#### 1514. My PC keeps crashing on startup, even in safe mode
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1c3bn/my_pc_keeps_crashing_on_startup_even_in_safe_mode/
+
+---
+
+#### 1515. 7800X3D / ASUS B650E-PLUS: System died 2 hours after enabling EXPO. Still no POST after 3 RAM kits & ASUS RMA.
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t16axv/7800x3d_asus_b650eplus_system_died_2_hours_after/
+
+---
+
+#### 1516. help! completely clueless but want to build a gaming PC
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t19x0i/help_completely_clueless_but_want_to_build_a/
+
+---
+
+#### 1517. What parts should I upgrade next?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1ep0g/what_parts_should_i_upgrade_next/
+
+---
+
+#### 1518. Uh oh… No Power Now
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1eej5/uh_oh_no_power_now/
+
+---
+
+#### 1519. Recommended parts and case for Asus motherboard?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1edvg/recommended_parts_and_case_for_asus_motherboard/
+
+---
+
+#### 1520. This is crazy for a first time launch on PH, without any monetary investment!
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t1b78n/this_is_crazy_for_a_first_time_launch_on_ph/
+
+---
+
+#### 1521. We've just crossed 150 users
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t1a2sk/weve_just_crossed_150_users/
+
+---
+
+#### 1522. I need help searching for duplicate files that OneDrive messed up so I can delete them, but there's a problem
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t1a2qz/i_need_help_searching_for_duplicate_files_that/
+
+---
+
+#### 1523. [V2EX] 这是不是现在性价比最高的 codex pro 付费方式了？
+
+**问题描述 / Problem Description**:
+昨天找代理充的 pro 炸了，去找了一下更高性价比的方式。 找到一个路子是这么说的： 梯子挂到菲律宾，订阅 pro 20x 不到 1000 块。 然后跟一个人拼，两个人人均不到 500 。 ---------> 想问一下有试过这个路子的朋友吗？ 稳吗 多谢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209946#reply2
+
+---
+
+#### 1524. [V2EX] 2026 年 5 月，最新的穷鬼 AI 套餐有哪些？
+
+**问题描述 / Problem Description**:
+月租 50 人民币以内，之前有 codex plus ， 现在已经没法开通了。 还有没有其他的平替呢？天才程序员已经陨落了两天了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209933#reply5
+
+---
+
+#### 1525. [V2EX] 上下班 单程 70 分钟 能做点什么?
+
+**问题描述 / Problem Description**:
+全程地铁, 无座, 但是不算特别拥挤(2/3 线城市), 倒 1 次车. 想做点有意义的事情. 本来时间就不多, 这两个多小时算是我一天中最宝贵的"个人"时间了. 提前感谢.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209914#reply10
+
+---
+
+#### 1526. [V2EX] 境内不可用
+
+**问题描述 / Problem Description**:
+想买个 ultra mobike paygo 实体卡， 我看飞猪所有店铺都写了 境内不可用 但是我看不得贴着还推荐这个卡，是真的不可用？ 是不是得特殊操作？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209913#reply6
+
+---
+
+#### 1527. [V2EX] 老哥们，有没有一直能正常用 Gemini 的机场？
+
+**问题描述 / Problem Description**:
+之前用过的不少机场，体验都还可以，比如良心云，价格是真便宜，看视频都很好，唯独就是用 Gemini 的时候，时不时遇到无法正常使用的情况。 想问问老哥们，有没有什么机场，一直都可以正常访问 Gemini 的？不会提示“该地区暂时无法使用 gemini”
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209870#reply8
+
+---
+
+#### 1528. [V2EX] 现在用 Kagi 帮助还大么，准备入一年
+
+**问题描述 / Problem Description**:
+https://kagi.com/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209865#reply1
+
+---
+
+#### 1529. [V2EX] 为什么现在的机场都自研客户端了啊？
+
+**问题描述 / Problem Description**:
+之前直接导入 clash 客户端就能用，现在怎么都是自己的客户端，问题是不是那么好用啊？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209864#reply27
+
+---
+
+#### 1530. [V2EX] 除了沉浸式翻译，有什么别的浏览器字幕翻译扩展能自接 api 的
+
+**问题描述 / Problem Description**:
+如题 目前在用沉浸式翻译，开双语字幕，接的官方 api 的 deepseek-v4-flash 。 大部分情况都还好，但是一到翻译长句，原文译文就很割裂。 比如： 原文在字幕里分了三段显示，译文就只显示在前两段，第二段译文会带上第三段的译文，导致第三段显示时就只有原文。也不是经常会出现，但是出现了又确实很奇怪。 细看下来其实译文的意思也没有错，我认为应该不是 api 的问题，可能只是因为字幕断句断的不好。 扩展的设置里倒是有 AI 智能分句开关，但是仅限会员才能打开就非常的 emmm 。如果我自接 api 的话，对他们而言我应该不会有什么算力上的消耗；但我如果开会员了，那我还自接 api 干嘛
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209859#reply9
+
+---
+
+#### 1531. [V2EX] 求大家推荐一些言论自由的日记网站或者软件
+
+**问题描述 / Problem Description**:
+求大家推荐一些言论自由的日记网站或者软件。 不知道大家有没有写日记的习惯呢？我感觉传统纸质的日记虽然隐私性够好，但是不方便迁移，而且容易损坏，加上一些场景光用文字是无法描述清晰的，就需要插图，类似博客那种，但是博客管控非常严格，各种文字不让发，各种违规，还要提交各种证据去证明这个博客是你的，非常麻烦。 我的需求是要绝对的言论自由，不受任何限制，也不会动不动就因为敏感导致无法阅览、下载这种问题，所以国内的产品全部都可以排除了，毕竟大家都懂得。 想过找开源的项目搞，但是都做的很囊肿，我并不需要那么多内容，也考虑过自己写一个，但是那样又有点脱裤子放屁了，所以还是来问一下大家，看看有没有更好的选择？毕
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209626#reply38
+
+---
+
+#### 1532. Get Title of Windows From Other Sessions
+
+**问题描述 / Problem Description**:
+Tags: windows, administrator, windows-server | Score: 0 | Views: 39 | Answers: 1 | Created: 2026-03-11
+
+**解决方案 / Solution**:
+The windows are confined into a window station, of which there is one per session. If your PowerShell process is running in session 1 (and attached to session 1's window station), then it can only see windows that exist within the same window station, no matter the account it is running as. Sysinternals' psexec has the -i option to run a process within some other session. Use qwinsta to get a list of sessions (or quser to get a list of users, same thing) then pass each session's ID to psexec: psexec -i 2 tasklist /v
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935765/get-title-of-windows-from-other-sessions
+
+---
+
+#### 1533. Windows Ghost Environment variable
+
+**问题描述 / Problem Description**:
+Tags: windows-10, environment-variables | Score: 0 | Views: 136 | Answers: 1 | Created: 2025-04-25
+
+**解决方案 / Solution**:
+Environment variables are set per process, so, the processes can alter their environments variables at runtime for example. By default, a new process inherits the env variables set in its parent (so, if you start cmd.exe from Explorer.exe then cmd will spawn with the env variables in effect in Explorer.exe at that time). But if you start cmd.exe from, say, a powershell script, then the cmd.exe env variables will be inherited from the powershell.exe environment variables). The thing is that if a powershell scripts runs, sets a few environement variables for its own use, and then spawns a cmd.exe window, then this cmd window will inherit the environement variables set at this point of time. So, you'll have to investigate the whole chain: Identify how do you start the command line interpreter that shows the ORACLE_HOME variable, and inspect the parent's env variables with Process Explorer . Process Explorer can show the process list as a tree, this facilitates the identification of the parent (if the parent process is still running).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1179890/windows-ghost-environment-variable
+
+---
+
+#### 1534. Drives in JBOD show under Get-Disk but not Get-PhysicalDisk, trying to narrow down hardware vs software
+
+**问题描述 / Problem Description**:
+Tags: windows-server, storage-spaces, qnap, jbod | Score: 0 | Views: 131 | Answers: 1 | Created: 2025-03-10
+
+**解决方案 / Solution**:
+I swapped the controller card and all the weird problems went away. I can't in any way explain how the controller card was causing this weird issue. Oh well.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1885337/drives-in-jbod-show-under-get-disk-but-not-get-physicaldisk-trying-to-narrow-do
+
+---
+
+#### 1535. My Asus laptop isn't charging
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1hekx/my_asus_laptop_isnt_charging/
+
+---
+
+#### 1536. i cant connect to our wifi but other people on my household can
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1gmlb/i_cant_connect_to_our_wifi_but_other_people_on_my/
+
+---
+
+#### 1537. PC power cycles multiple times before POST, but passes stress tests — PSU or motherboard?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1gifd/pc_power_cycles_multiple_times_before_post_but/
+
+---
+
+#### 1538. Sd card photos and videos corrupting.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1jzqy/sd_card_photos_and_videos_corrupting/
+
+---
+
+#### 1539. Chat conversation not reloading
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1jqc3/chat_conversation_not_reloading/
+
+---
+
+#### 1540. проблема с електро питанием на виндовс 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1jhze/проблема_с_електро_питанием_на_виндовс_11/
+
+---
+
+#### 1541. Company laptop stolen after mu notice period ended already filed FIR what should I do now?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1jdmt/company_laptop_stolen_after_mu_notice_period/
+
+---
+
+#### 1542. Constant DPC Watchdog errors.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1iv52/constant_dpc_watchdog_errors/
+
+---
+
+#### 1543. wifi virus
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1itcv/wifi_virus/
+
+---
+
+#### 1544. MacBook M5 overnight battery drain
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1isvv/macbook_m5_overnight_battery_drain/
+
+---
+
+#### 1545. My Motorola edge 60 pro device is showing "crisis' alerts isn't available: you're offline." How to fix this?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1is41/my_motorola_edge_60_pro_device_is_showing_crisis/
+
+---
+
+#### 1546. Camera Not Detected - HP Victus (Windows 11)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1iplw/camera_not_detected_hp_victus_windows_11/
+
+---
+
+#### 1547. Help me with my F75 aula not changing colors
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1ijgo/help_me_with_my_f75_aula_not_changing_colors/
+
+---
+
+#### 1548. Issue with connecting Bluetooth
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1ifbv/issue_with_connecting_bluetooth/
+
+---
+
+#### 1549. Clean installed Windows 11 is failing to copy an ISO which was fine before
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1iel1/clean_installed_windows_11_is_failing_to_copy_an/
+
+---
+
+#### 1550. why does my windows updates always say it didnt go as planned and it so annoying idk how to fix
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1i9ht/why_does_my_windows_updates_always_say_it_didnt/
+
+---
+
+#### 1551. Laptop only starts charging at 0% / after shutdown – inconsistent charging behavior
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1i7ms/laptop_only_starts_charging_at_0_after_shutdown/
+
+---
+
+#### 1552. 📌 Title Moto G34 suddenly freezing, random reboots + touchscreen dying (no damage) – motherboard issue?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1i62t/title_moto_g34_suddenly_freezing_random_reboots/
+
+---
+
+#### 1553. MSI Aegis RS 11TE-206US intermittent DRAM POST failures – red/orange light on boot regardless of RAM configuration
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1hyhj/msi_aegis_rs_11te206us_intermittent_dram_post/
+
+---
+
+#### 1554. White text selection highlight in Chrome and Edge on Windows 11 — how do I fix it? (almost invisible text selection)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1h8rd/white_text_selection_highlight_in_chrome_and_edge/
+
+---
+
+#### 1555. CVE-2026-31431 (Copy Fail) PHP PoC
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t1ikja/cve202631431_copy_fail_php_poc/
+
+---
+
+#### 1556. Rate upcoming build for my friend
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1j4v9/rate_upcoming_build_for_my_friend/
+
+---
+
+#### 1557. Need help building a PC under₹1.2 lakh — what would you recommend in 2026?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1jprj/need_help_building_a_pc_under12_lakh_what_would/
+
+---
+
+#### 1558. First PC Build - Part List
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1fh2g/first_pc_build_part_list/
+
+---
+
+#### 1559. CL 36 vs CL 26 DDR5 6000mhz
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1jszo/cl_36_vs_cl_26_ddr5_6000mhz/
+
+---
+
+#### 1560. need help finding a reliable hard drive
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1jse0/need_help_finding_a_reliable_hard_drive/
+
+---
+
+#### 1561. Confusing Micro Stutter Issue
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1jmr9/confusing_micro_stutter_issue/
+
+---
+
+#### 1562. 2018 pre built to modern specs and first build, anything to optimize before i pull the trigger?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1fgnc/2018_pre_built_to_modern_specs_and_first_build/
+
+---
+
+#### 1563. Built my first rig
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1fdj0/built_my_first_rig/
+
+---
+
+#### 1564. Quitest PC case?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1j4xv/quitest_pc_case/
+
+---
+
+#### 1565. 5090D V2 pc build - gaming purposes + longevity
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1j00s/5090d_v2_pc_build_gaming_purposes_longevity/
+
+---
+
+#### 1566. Lack of foresight has screwed over either GPU or mobo, wanna know what to do
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1iz53/lack_of_foresight_has_screwed_over_either_gpu_or/
+
+---
+
+#### 1567. SF850 all custom cables, but one?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1iwhl/sf850_all_custom_cables_but_one/
+
+---
+
+#### 1568. [App] AdSkipper: A 100% Free lightweight, privacy-first App to auto-skip video ads
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t1i3pp/app_adskipper_a_100_free_lightweight_privacyfirst/
+
+---
+
+#### 1569. [V2EX] 切换 ChatGPT 从美区到土耳其有无风险？
+
+**问题描述 / Problem Description**:
+基本情况： 通过 Google play 付款订阅了美区 ChatGPT plus ，目前正常使用（虽然只有两个月），但每个月 20$还是有些超出预算。 我的 YouTube Premium 是通过土耳其区 apple id 订阅的，已经超过一年，都是购买充值卡。 问题： 之前不知道土耳其 ChatGPT 便宜，现在想切换过去（保持账号不变），请问会不会有风险？有没有 V 有操作过？害怕鸡飞蛋打。 ChatGPT 账号需要转区、修改号码之类操作么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209982#reply0
+
+---
+
+#### 1570. [V2EX] 大家现在都是用什么办法订阅 gpt pro 的？
+
+**问题描述 / Problem Description**:
+这两天 plus 过期了，之前是找代充的，最近这几天有点封得太狠了。不太敢找代充买 pro 。 现在什么办法可以稳定买 pro 啊，早上研究了一圈，太麻烦了，想花钱都这么难。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209979#reply2
+
+---
+
+#### 1571. [V2EX] 好奇大家为什么选择现在这份职业？
+
+**问题描述 / Problem Description**:
+360 行，怎么就做现在这行呢？ 上周面试被问到，有什么职业规划，我说相比之下只会这个😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209975#reply1
+
+---
+
+#### 1572. [V2EX] v 站有没有喜欢赛车游戏的朋友，想买个方向盘
+
+**问题描述 / Problem Description**:
+个人是比较喜欢赛车的，虽然不是真正的硬核玩家，平时也不太有时间开，地平线 5 大概 500 小时左右。 现在地平线 6 快发了，之前都是手柄，现在想搞个方向盘开。 需求就是，能玩地平线这种休闲游戏就行，并不追求拟真的赛车模拟，但是希望方向盘手感不要过于拉稀。 因为是娱乐需求，不准备花太多钱。我看有上万元的模拟方向盘，实在是买不起这种。 希望买那种技术上说得过去（不太清楚方向盘都有哪些驱动技术），的入门产品。 不知道有没有熟悉的 v 友推荐个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209972#reply5
+
+---
+
+#### 1573. [V2EX] 有没有一个聚合平台，比如说想订阅 deepseek v4 模型，看看哪家平台便宜好用？
+
+**问题描述 / Problem Description**:
+另外为啥火山引擎平台没有上架 deepseek v4
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209968#reply7
+
+---
+
+#### 1574. [V2EX] 有多少人遇到 Claude 的身份验证请求了啊？
+
+**问题描述 / Problem Description**:
+正在犹豫要不要续订
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209959#reply1
+
+---
+
+#### 1575. [V2EX] Google Play Ponints 兑换的 Google Play 抵用金能不能用于 内购 或者 Google 活动的 $2 优惠券上叠加使用
+
+**问题描述 / Problem Description**:
+攒了 200 Google Play Ponints ，账号里还有一个 $2 的优惠券
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209958#reply2
+
+---
+
+#### 1576. [V2EX] 哪些 AI 网关适配 DeepSeek V4 的 reasoning_content 回传？
+
+**问题描述 / Problem Description**:
+目前 DeepSeek v4 OpenAI-compatible API 会返回： reasoning_content 和 content 后续请求需保留并回传 reasoning_content ，否则出 400 错误。 目前只看到 axonhub 有相关适配： issues/1468 。 以下项目目前还没有看到适配： litellm newapi sub2api cliproxyapi 想知道还有哪些 AI 网关已经支持这个逻辑？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209957#reply4
+
+---
+
+#### 1577. [V2EX] 这是不是现在性价比最高的 codex pro 付费方式了？
+
+**问题描述 / Problem Description**:
+昨天找代理充的 pro 炸了，去找了一下更高性价比的方式。 找到一个路子是这么说的： 梯子挂到菲律宾，订阅 pro 20x 不到 1000 块。 然后跟一个人拼，两个人人均不到 500 。 ---------> 想问一下有试过这个路子的朋友吗？ 稳吗 多谢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209946#reply7
+
+---
+
+#### 1578. [V2EX] 2026 年 5 月，最新的穷鬼 AI 套餐有哪些？
+
+**问题描述 / Problem Description**:
+月租 50 人民币以内，之前有 codex plus ， 现在已经没法开通了。 还有没有其他的平替呢？天才程序员已经陨落了两天了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209933#reply17
+
+---
+
+#### 1579. [V2EX] 上下班 单程 70 分钟 能做点什么?
+
+**问题描述 / Problem Description**:
+全程地铁, 无座, 但是不算特别拥挤(2/3 线城市), 倒 1 次车. 想做点有意义的事情. 本来时间就不多, 这两个多小时算是我一天中最宝贵的"个人"时间了. 提前感谢.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209914#reply14
+
+---
+
+#### 1580. [V2EX] 境内不可用
+
+**问题描述 / Problem Description**:
+想买个 ultra mobike paygo 实体卡， 我看飞猪所有店铺都写了 境内不可用 但是我看不得贴着还推荐这个卡，是真的不可用？ 是不是得特殊操作？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209913#reply7
+
+---
+
+#### 1581. [V2EX] 除了沉浸式翻译，有什么别的浏览器字幕翻译扩展能自接 api 的
+
+**问题描述 / Problem Description**:
+如题 目前在用沉浸式翻译，开双语字幕，接的官方 api 的 deepseek-v4-flash 。 大部分情况都还好，但是一到翻译长句，原文译文就很割裂。 比如： 原文在字幕里分了三段显示，译文就只显示在前两段，第二段译文会带上第三段的译文，导致第三段显示时就只有原文。也不是经常会出现，但是出现了又确实很奇怪。 细看下来其实译文的意思也没有错，我认为应该不是 api 的问题，可能只是因为字幕断句断的不好。 扩展的设置里倒是有 AI 智能分句开关，但是仅限会员才能打开就非常的 emmm 。如果我自接 api 的话，对他们而言我应该不会有什么算力上的消耗；但我如果开会员了，那我还自接 api 干嘛
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209859#reply10
 
 ---
