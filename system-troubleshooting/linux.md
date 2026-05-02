@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1448**
+**总计条目 / Total entries: 1564**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -26605,5 +26605,1513 @@ I would create another VM and migrate site-by-site. To reduce the DNS update lag
 
 **参考链接 / References**:
 - https://serverfault.com/questions/1198313/best-strategy-to-upgrade-an-ubuntu-18-04-vm-on-google-cloud-with-multiple-websit
+
+---
+
+#### 1449. My prediction: Linux market share on Steam hits 10% by early 2028
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t1ky6b/my_prediction_linux_market_share_on_steam_hits_10/
+
+---
+
+#### 1450. PSA: DO NOT try to mount an NTFS drive on Linux that's accelerated by Intel Optane
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t1laoz/psa_do_not_try_to_mount_an_ntfs_drive_on_linux/
+
+---
+
+#### 1451. NVIDIA Vulkan Developer beta - Linux 595.44.06
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t1k324/nvidia_vulkan_developer_beta_linux_5954406/
+
+---
+
+#### 1452. Weird bash alias issue
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1lc2e/weird_bash_alias_issue/
+
+---
+
+#### 1453. Kali Linux On USB??
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1lefx/kali_linux_on_usb/
+
+---
+
+#### 1454. I successfully installed mint and dual booting it with windows for the time, any advices for what should I do next? (Beside shooting windows down)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1l046/i_successfully_installed_mint_and_dual_booting_it/
+
+---
+
+#### 1455. I get this problem when I try run sudo pacman -Syu
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1kv9e/i_get_this_problem_when_i_try_run_sudo_pacman_syu/
+
+---
+
+#### 1456. 26.04 fresh install: is Gstreamer broken for .mkv video?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t1l9v2/2604_fresh_install_is_gstreamer_broken_for_mkv/
+
+---
+
+#### 1457. QCN9274 Ath12k problem @Ubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t1knrh/qcn9274_ath12k_problem_ubuntu/
+
+---
+
+#### 1458. Ubuntu version on my computer
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t1k5k2/ubuntu_version_on_my_computer/
+
+---
+
+#### 1459. What would be the best version of Linux for me?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t1ltn1/what_would_be_the_best_version_of_linux_for_me/
+
+---
+
+#### 1460. Native photo/vector editing software with same UI/UX as photoshop/illustrator
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t1l4f9/native_photovector_editing_software_with_same/
+
+---
+
+#### 1461. TL;Der: terminal-themed daily developer news digest, vim keybindings
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t1l6ga/tlder_terminalthemed_daily_developer_news_digest/
+
+---
+
+#### 1462. [V2EX] 求推荐对 claude code, chatgpt 友好的联网方法
+
+**问题描述 / Problem Description**:
+安装 claude code 返回不支持的区域，chatgpt 也经常访问不了。有比较稳定的机场或上网方式吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209995#reply3
+
+---
+
+#### 1463. [V2EX] 如何在国内受限网络环境下使用官方 claude 或 codex 等模型？
+
+**问题描述 / Problem Description**:
+单位环境不能装 vpn ，但我自己账户还是订阅了 codex 等服务。想问下有没有什么优雅的方式使用原版服务呢？我目前有两种想法： 海外搞个服务器，上面跑一个 CLI ，本地通过 ssh 连接 海外服务器上部署 CLIProxyAPI 把 codex 转成 api 然后本地 codex 修改供应商到这个 api 这两种办法有尝试过吗？感觉第二个更方便但第一个更安全？大佬们有什么经验吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209960#reply21
+
+---
+
+#### 1464. [V2EX] glm-5.1, kimi-k2.6 在 code arena React 项目上排名 5 和 6，是不是真的好用？
+
+**问题描述 / Problem Description**:
+真的假的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209926#reply18
+
+---
+
+#### 1465. [V2EX] 是我打开方式不对吗， mimomo 模型
+
+**问题描述 / Problem Description**:
+怎么感觉 codex 加个功能很快，mimomo 一小时都没处理完（用的 claude cli 对接）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209924#reply1
+
+---
+
+#### 1466. [V2EX] 有没有稳定 GPT 不降智的机场？
+
+**问题描述 / Problem Description**:
+开了 gpt pro ，但是号经常降智只输出 mini 。有没有 codex 比较稳定，而且 Pro 不会降智的机场？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209869#reply20
+
+---
+
+#### 1467. Which Linux Distro to choose?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1mki1/which_linux_distro_to_choose/
+
+---
+
+#### 1468. Problem upgrading and installing Ubuntu 26.04 LTS in Windows Hyper-V
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t1m3yq/problem_upgrading_and_installing_ubuntu_2604_lts/
+
+---
+
+#### 1469. Problem during installation / Проблема во время установки Ubuntu Ubuntu_26.04_LTS
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t1mb06/problem_during_installation_проблема_во_время/
+
+---
+
+#### 1470. Keyval - A simple CLI for key-value data, no login (curl / npx / scripts)
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t1lzmr/keyval_a_simple_cli_for_keyvalue_data_no_login/
+
+---
+
+#### 1471. [V2EX] chatgpt 代充这是常规操作 还是我被坑了
+
+**问题描述 / Problem Description**:
+在 https://www.naifeistation.com/ （星际放映厅） 充值的 三个月的 chatgpt pro 账号代充 价格是 2600+ 只用了一个星期就停了 客服说他们是一个月一个月的充值，只是今天官方风控的原因， 这是常规操作还是我被坑了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209887#reply42
+
+---
+
+#### 1472. [V2EX] 有没有稳定 GPT 不降智的机场？
+
+**问题描述 / Problem Description**:
+开了 gpt pro ，但是号经常降智只输出 mini 。有没有 codex 比较稳定，而且 Pro 不会降智的机场？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209869#reply22
+
+---
+
+#### 1473. [V2EX] 领到小米 MIMO 的额度了，大家领了多少？
+
+**问题描述 / Problem Description**:
+真“大方”
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209799#reply61
+
+---
+
+#### 1474. [V2EX] codex 需要 7 个 pro 5 个 plus，要求真实充值+发票，有啥方案啊？
+
+**问题描述 / Problem Description**:
+求教求教
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209718#reply15
+
+---
+
+#### 1475. Fastest way to make thousands of files
+
+**问题描述 / Problem Description**:
+Tags: bash, files | Score: 19 | Views: 2574 | Answers: 6 | Created: 2026-01-02
+
+**解决方案 / Solution**:
+Another performance item to keep in mind is the use of bash builtins vs the use of additional binaries; consider: Using the touch and /usr/bin/echo binaries: time for i in {1..10000}; do touch $i.txt; done real 0m33.224s user 0m1.999s sys 0m31.437s time for i in {1..10000}; do /usr/bin/echo '' > $i.txt real 0m42.382s user 0m2.622s sys 0m39.917s Using the bash builtin echo : time for i in {1..10000}; do echo '' > $i.txt; done real 0m0.109s user 0m0.016s sys 0m0.093s The bash builtin echo is 300x-400x times faster than the binaries ( touch , /usr/bin/echo ), and that's just for 10,000 iterations ... assume a 100x times multiplier for running 1,000,000 iterations. NOTES: touch creates a file of size 0 while echo '' will create a file of size 1; use echo -n '' or echo -n to create a file of size 0 if you prefer to use printf then you should see a similar performance difference between the binary /usr/bin/printf vs the bash builtin printf ; printf '' will generate a file of size 0 as discussed in comments, another method for creating a file of size 0, without the use of binaries: > file.name My preference would be a top-level for loop that calls a custom function X number of times, with each function call being put into the background thus facilitating parallel operations. the function provides an easy method for customizing the resulting files the for loop (+ backgrounding the function calls) is an easy method of parallelization One simple example: gen_file() { local id=$1 count=$2 i for ((i=1;i<=${count};i++)) do echo '0000' > "file_${id}_${i}.txt" done } Spawning 1,000,000 files with 4x backgrounded function calls: $ find . -type f -delete $ find . -type f | wc -l 0 $ time { for ((i=1;i<=4;i++)); do gen_file "$i" 250000 & done; wait; } real 0m7.211s user 0m4.958s sys 0m23.038s $ find . -type f | wc -l 1000000 $ ls -l | head -4 -rw-rw-r-- 1 username username 5 Jan 2 15:24 file_1_100000.txt -rw-rw-r-- 1 username username 5 Jan 2 15:24 file_1_100001.txt -rw-rw-r-- 1 username username 5 Jan 2 15:24 file_1_100002.txt -rw-rw-r-- 1 username username 5 Jan 2 15:24 file_1_100003.txt $ head file_1_10000{0..3}.txt ==> file_1_100000.txt <== 0000 ==> file_1_100001.txt <== 0000 ==> file_1_100002.txt <== 0000 ==> file_1_100003.txt <== 0000 NOTE: test case run under Ubuntu 22.04 on an Intel i7-1260P host with a Gen 4 nvme drive.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803457/fastest-way-to-make-thousands-of-files
+
+---
+
+#### 1476. Changes in a Samba share on Fedora Linux are not reflected in Windows client
+
+**问题描述 / Problem Description**:
+Tags: fedora, windows, samba | Score: 12 | Views: 1365 | Answers: 1 | Created: 2025-08-12
+
+**解决方案 / Solution**:
+Samba now issues directory leases, i.e. promises to the client that nothing has changed and the directory listing can be safely cached client-side without the need to re-check (until there is a change and the server recalls the lease). This is mostly equivalent to "directory delegations" in NFSv4. The advantage is that instead of clients caching metadata for a fixed period of time (which needs to be balanced between too long and/or too short), leases allow caching indefinitely by providing instant cache flush on change. But Samba doesn't support monitoring for external changes, so the only time leases get recalled is when the change is made through the same SMB (by some other client). Without smbd monitoring the filesystem for changes, after you rename something the client still holds the lease and (by design) assumes that it doesn't need to refresh the cached contents. Configure smb3 directory leases = no to disable this feature. If you frequently edit SMB-shared files directly, see also the description of the kernel oplocks option.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798772/changes-in-a-samba-share-on-fedora-linux-are-not-reflected-in-windows-client
+
+---
+
+#### 1477. How do 'sudo' permission bits influence (e)uid and (e)gid?
+
+**问题描述 / Problem Description**:
+Tags: bash, sudo | Score: 10 | Views: 525 | Answers: 2 | Created: 2026-01-16
+
+**解决方案 / Solution**:
+One thing to try: $ sudo cp /bin/id /bin/id-but-setuid $ sudo chmod ug+s /bin/id-but-setuid $ id-but-setuid Answers in reverse: After all, why the sudo executable does not need the set-group-ID bit but does need the set-user-ID bit? UID 0 is what grants all of the "root" privileges, whereas GID 0 grants nothing special, it is just arbitrary group membership. So as long as the program is set-uid to UID 0 it already has the ability to call the whole setXid() family of functions. Indeed when a root process is switching to a non-root user, that's not a single atomic operation – instead the process 1) sets its auxiliary group memberships (initgroup/setgroups), 2) sets its primary group (setregid), and then 3) finally sets its UID (setreuid). Note how after step 2 the process no longer has GID 0 but still has the rights to perform step 3, meaning that GID 0 isn't really all that important. How is it possible sudo and ps both have their uids changed? Should not the set-user-ID bit result in only the effective user id (euid) changing and should not a sudo program execution result in the same manner to this program? That is true, but because sudo is set-uid to root, it can arbitrarily make further UID or GID changes – that's a privilege UID 0 has – so after it starts, it calls setreuid() &c. to fix both the EUID and RUID to the target user. Indeed sudo has the -u option to switch to other UIDs besides root, which implies it has to do manual UID changing anyway. As long as there is no the set-group-ID bit, how is it possible sudo and ps, being executed by it, are running under the root gid and egid? Same answer as #2. Before it spawns 'ps', Sudo uses its superuser privileges to switch its RGID/EGID to the 'target' user's group ID in addition to UID. Incidentally, why can we see two instances of sudo in the ps output? (I can ask another question if it is a long story.) Having not yet checked the 'sudo' source code, my first guess was that one of them is responsible for handling PAM – i.e. waiting to call pam_close_session() after the grandchild exits. But that's a weak guess as in theory just the single parent process should be sufficient, and indeed OpenBSD's doas (or rather its Linux port opendoas ) doesn't seem to do this. But it could also be related to any other of sudo's various "enterprise" features (like for example its tty I/O logging mode) – even if those features are inactive at the moment. Frankly, sudo as a program has a ton of such auxiliary features, so it may not be the most suitable program for studying basic behaviors. Instead (or in addition to), study similar but less complex programs like su or doas or pkexec – all of them are equally "setuid", so the above answers apply to all of them too.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803817/how-do-sudo-permission-bits-influence-euid-and-egid
+
+---
+
+#### 1478. How to find the apropriate font-file for a certain special character using bash terminal
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, unicode, character-encoding, special-characters | Score: 8 | Views: 569 | Answers: 4 | Created: 2026-03-18
+
+**解决方案 / Solution**:
+On systems with fontconfig installed and configured (most nowadays), fc-list :charset=410 Should list the fonts that have the U+0410 character. For the fonts that have all of a list of code points, give a comma or whitespace delimited list of single codepoints or first-last for a range. So for Cyrillic letters, ♭, ♯, € and ASCII characters for instance: fc-list :charset=410-44f,266d,266f,20ac,20-7e To search with the literal character rather than its code point in Unicode in hex, with zsh , you can do: $ echo $(([##16] ##🧚)) 1F9DA $ fc-list :charset=$(([##16] ##🧚)) /usr/share/fonts/truetype/ancient-scripts/Symbola_hint.ttf: Symbola:style=Regular /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: Noto Color Emoji:style=Regular Where ##X in an arithmetic expression gives you the code point of X (Unicode code point if in a UTF-8 locale) same as using 'X' in ksh¹, and [##16] causes the expansion to be in base 16 without the 16# or 0x prefix. POSIXly: $ fc-list :charset="$(printf %x \''🧚')" /usr/share/fonts/truetype/ancient-scripts/Symbola_hint.ttf: Symbola:style=Regular /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: Noto Color Emoji:style=Regular Where ksh's treating 'X' as the value of X in arithmetic expressions has been specified for printf even though POSIX printf doesn't allow operands to be treated as arithmetic expressions². ¹ Where those arithmetic expressions, shaped after the C language, come from. ² printf %d 2+2 is required to print 2 and output an error, making the printf builtin of ksh93, zsh (and bash for different reasons) non-compliant. For POSIX printf , the closing ' is not required (and the printf implementation in GNU coreutils gives you a warning if there's a closing ' which is why I omitted it here), and "X" can also be used even though in C "X" would give you the value of a pointer to a C string rather than the value of the X character.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805065/how-to-find-the-apropriate-font-file-for-a-certain-special-character-using-bash
+
+---
+
+#### 1479. Save and restore bash RETURN traps within functions
+
+**问题描述 / Problem Description**:
+Tags: bash, trap | Score: 8 | Views: 472 | Answers: 2 | Created: 2026-02-09
+
+**解决方案 / Solution**:
+bash resets the RETURN handler when it enters functions. The command substitution ( $(trap -p RETURN) ) is evaluated when bash executes the trap command, not when it executes the RETURN handler, which means no trap is yet defined. So, your first example becomes trap "echo A; " RETURN The same happens in the second example which becomes trap -- RETURN In this case there is empty handler command which causes bash to reset handler "to its original disposition" before entering the function. Documentation only mentions "when the shell was started" (formerly "upon entrance to the shell" ), but that obviously is not the case here: If action is absent (and there is a single sigspec ) or equal to - , each specified sigspec ’s disposition is reset to the value it had when the shell was started. IOW you can simplify your code to bor@ThinkPad-E16-Gen3:~$ cat /tmp/bar.sh #!/bin/bash A() { trap "echo A; trap - RETURN" RETURN; } B() { trap 'echo B' RETURN; A; } B bor@ThinkPad-E16-Gen3:~$ with the result bor@ThinkPad-E16-Gen3:~$ /tmp/bar.sh A B bor@ThinkPad-E16-Gen3:~$ The effect of trap - RETURN inside the functions does not appear to be actually documented (at least I could not find anything in bash sources either). It is also sort of contradicting because the "original" in this case is empty (function starts with no RETURN trap). EDIT: looking more closely, the trap - RETURN behaves this way only in the RETURN handler (i.e. when RETURN trap is being executed). Consider: andrei@tumbleweed:~> cat /tmp/foo.sh #!/bin/bash A() { trap "echo A; trap - RETURN" RETURN; } B() { trap "echo B; trap - RETURN" RETURN; trap - RETURN; } C() { trap 'echo C' RETURN; B; A; } C andrei@tumbleweed:~> /tmp/foo.sh A C andrei@tumbleweed:~> The trap - RETURN in the B resets the RETURN handler to the value it had when function execution started - empty, not the value defined in the function C . OTOH the RETURN handler is executed after the function execution completes, so the previous value is whatever was defined before function was called. Looking at it this way, it makes sense. Another consideration is that you cannot really use the result of $(trap -p RETURN) as command. The output is properly quoted, but bash does not interpret quotes in this case: bor@ThinkPad-E16-Gen3:~/tmp$ trap -- 'echo A; $(trap -p RETURN)' RETURN bor@ThinkPad-E16-Gen3:~/tmp$ $(trap -p RETURN) bash: trap: A;: invalid signal specification bash: trap: $(trap: invalid signal specification bash: trap: -p: invalid signal specification bash: trap: RETURN)': invalid signal specification bor@ThinkPad-E16-Gen3:~/tmp$ You would need to use eval , but that does not matter because you do not have the original value of RETURN trap anyway.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804341/save-and-restore-bash-return-traps-within-functions
+
+---
+
+#### 1480. Msys2 bash rejects empty subexpression in regular expression
+
+**问题描述 / Problem Description**:
+Tags: bash, regular-expression, cygwin | Score: 7 | Views: 286 | Answers: 2 | Created: 2026-02-26
+
+**解决方案 / Solution**:
+That's not standard extended regular expression syntax. bash defers regexp evaluation to the system's regcomp() / regexec() regexp interface so all you can count on portably is the common denominator which should be the POSIX standard (not the latest (2024) edition yet as the new perl-like *? and co operators have not made it to many implementations yet). Quoting the standard (emphasis mine). | The <vertical-line> is special except when used in a bracket expression (see RE Bracket Expression). A <vertical-line> appearing first or last in an ERE, or immediately following a <vertical-line> or a <left-parenthesis>, or immediately preceding a <right-parenthesis>, produces undefined results . If you had to use regexp, you'd use: [[ $var =~ ^0?$ ]] but you might as well use ksh-style glob operators (which are enabled by default inside [[...]] in later versions of bash regardless of the setting of the extglob option): [[ $var = ?(0) ]] Contrary to regexp matching, bash does its glob pattern matching internally, but may defer to the system's fnmatch() for some of it (such as for things like [[=equiv=][.collating-element.]] ), not for ?(0) here. With POSIX sh syntax: [ "${var:-0}" = 0 ] Or more legibly: case $var in (0 | '') ... esac Or: [ -z "$var" ] || [ "$var" = 0 ] See also [ "$var" -eq 0 ] which does a numeric decimal integer¹ comparison, so would also return true if $var contained 000 , -0 , +0 , some implementations allowing whitespace around the number. For completeness, the zsh glob syntax would actually be (0|) . That's the way you do the regexp ? there (though with extendedglob enabled you could also do 0(#c0,1) as equivalent of ERE 0{0,1} ). zsh 's =~ uses either the system's extended regexps or PCRE2 (formerly PCRE) if the rematchpcre option is enabled. [[ $var =~ '^(0|)$' ]] will work with PCRE but with ERE, like for bash, whether that will work will depend on the system's regexp implementation. Obviously, with rematchpcre , you can use *? and all other PCRE operators. ¹ Except in ksh/mksh which accept arithmetic expressions there causing the same kind of vulnerabilities as with the equivalent [[...]] and ((...)) operators.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804730/msys2-bash-rejects-empty-subexpression-in-regular-expression
+
+---
+
+#### 1481. How is the current job appointed by Bash?
+
+**问题描述 / Problem Description**:
+Tags: bash, job-control | Score: 7 | Views: 377 | Answers: 1 | Created: 2025-12-19
+
+**解决方案 / Solution**:
+That documentation is incorrect or at best misleading, bash implements job control like POSIX specifies (which it claims is based on the Korn shell behaviour , but that's not what I observe. Its specification seems closer to the behaviour of the C shell where job control was first introduced in 4BSD in the early 80s). POSIX defines the current job as: In the context of job control, the job that will be used as the default for the fg or bg utilities. And the fg specification states: If no job_id operand is given, the job_id for the job that was most recently suspended, placed in the background, or run as a background job shall be used. Suspended jobs take precedence over jobs running in background. That's further clarified in the specification of the jobs utility (emphasis mine): <current> The character '+' identifies the job that would be used as a default for the fg or bg utilities; this job can also be specified using the job_id %+ or "%%". The character '-' identifies the job that would become the default if the current default job were to exit; this job can also be specified using the job_id %-. For other jobs, this field is a <space>. At most one job can be identified with '+' and at most one job can be identified with '-'. If there is any suspended job, then the current job shall be a suspended job. If there are at least two suspended jobs, then the previous job also shall be a suspended job. I've had a look at the manual of other shells, and most of them are either not detailed enough to figure out which the current job is meant to be or also plain incorrect. Even the yash man page which seems to have the most detailed description: The current job and previous job are jobs selected by the shell according to the following rules: When there is one or more suspended jobs, the current job is selected from them. When there is one or more suspended jobs other than the current job, the previous job is selected from them. The current and previous jobs are always different. When the shell has only one job, it is the current job and there is no previous job. When the current job finished, the previous job becomes the current job. When the current job is changed, the old current job becomes the previous job except when the old job finished. When the foreground job is suspended, the job becomes the current job. Yash has some options to modify the rules of the current/previous job selection. (The rules above have priority over the options below.) cur-async When a new asynchronous command is started, it becomes the current job. cur-bg When a job is resumed by the bg built-in, the job becomes the current job. cur-stop When a job is suspended, it becomes the current job. The current and previous jobs are not changed as long as the rules above are met. The rules of the current/previous job selection defined in the POSIX standard are looser than yash’s rules above. Other POSIX-compliant shells may select the current and previous jobs differently. Doesn't fully tell us how the current and previous jobs are selected. Except on the point of suspended jobs taking precedence, the POSIX specification is still rather ambiguous about how current/previous jobs are appointed. I've now raised a request for clarification on the matter .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803147/how-is-the-current-job-appointed-by-bash
+
+---
+
+#### 1482. Are some bash ambiguous job specs impossible to differentiate?
+
+**问题描述 / Problem Description**:
+Tags: bash, background-process, job-control, pattern-matching, jobs | Score: 7 | Views: 788 | Answers: 2 | Created: 2025-12-07
+
+**解决方案 / Solution**:
+That syntax comes from csh along with job control in 4BSD in 1980, and has been copied by ksh circa 1983¹, the Bourne shell in 1989 ( SVR4 ), Almquist shell in 1989, bash in 1989, zsh in 1990, and was specified in XPG4 in 1992 (which later became the Single UNIX Specification later merged with POSIX) and so supported by all modern sh implementations. That %something as a shorthand for fg %something is not in ksh/POSIX, only in (t)csh, bash, zsh. The job specification syntax is described in the csh manual starting with 4BSD's or in the XPG/POSIX/SUS specification , and the manual of each shell that supports it. For instance in bash's there . In all, it's the same: %something where something is not a number and doesn't start with ? looks for jobs whose text starts with something %?something (where in POSIX-like shells including bash, but not zsh², the ? must be quoted/escaped to prevent globbing) looks for jobs whose text contains something . So as @AndyDalton said , in bash and most other shells, there's no way to distinguish sleep 1234 from sleep 123456 . %'sleep 1234' or %'?sleep 1234' would match both. Depending on the shell, if there's more than one match, either an error is returned ((t)csh, bash, ash, pdksh, bosh, yash), or the latest matching job is selected (ksh, zsh). POSIX is silent on the matter. In ksh93 however, if you started sleep 1234 as sleep 1234 & instead of sleep 1234& , you'll be able to refer to it as %'sleep 1234 ' with the trailing space, and disambiguate it from the one started as sleep 12345 & or sleep 12345& . In zsh , information about the job table is exposed via a set of special associative arrays: jobdirs , jobtexts and jobstates which map job number to the corresponding information. For example: $ sleep 1234 & cd /tmp; sleep 12345 & sleep 12 | sleep 1234 & [1] 18016 [2] 18017 [3] 18018 18019 $ printf '%s => %s\n' ${(kv)jobdirs} 1 => /home/chazelas 2 => /tmp 3 => /tmp $ printf '%s => %s\n' ${(kv)jobtexts} 1 => sleep 1234 2 => sleep 12345 3 => sleep 12 | sleep 1234 $ printf '%s => %s\n' ${(kv)jobstates} 1 => running::18016=running 2 => running:-:18017=running 3 => running:+:18018=done:18019=running So you could derive the job number from the text by doing reverse subscripting on the $jobtexts associative array. To put the job running sleep 1234 in foreground: fg %${(k)^jobtexts[(R)sleep 1234]} Where the R array subscript flag selects all elements for which the value if sleep 1234 , the k parameter expansion flag causes the k ey instead of value to be expanded, ^ is so that if there are several matching jobs (x, y...), it becomes %x %y... instead of %x y... . If there are several matching jobs, they will be brought to foreground one after the other. You could even hijack the dynamic named directory feature to have ~[%pattern] expand to the first matching job number (and raise an exception if there's no match) by defining: job_handler() if [[ $1$2 = n%* ]] reply=(%${(k)^jobtexts[(R)${2#%}]}) zsh_directory_name_functions+=( job_handler ) Then in your example: fg ~[%*1234] Would foreground the first job whose text ends in 1234 for instance. Or wrap the bg , fg , jobs , disown , wait , kill builtins so that if any argument starts with %@ , the rest is taken as a pattern and expanded to the matching job numbers: bg fg jobs disown wait kill() { local i matches pattern for (( i = 1; i <= $#; i++ )); do if [[ $argv[i] = %@* ]]; then pattern=${argv[i]#%@} matches=( ${(k)jobtexts[(R)$pattern]} ) if (( $#matches )); then argv[i]=( %$^matches ) else print -ru2 No job matching $pattern return 1 fi fi done builtin $0 "$@" } Then fg '%@*1234' would foreground all the jobs whose text ends in 1234 , one after the other. ¹ See this usenet article confirming it in early 1984 ² In zsh, %? at the start of a word is special-cased so that particular ? is not treated as a glob operator. If you really wanted to expand a %?something glob (expand to filenames in current working directory that start with % , followed by any single character and something ), you'd need to write it [%]?something for instance.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801892/are-some-bash-ambiguous-job-specs-impossible-to-differentiate
+
+---
+
+#### 1483. Shortcut to make a binary executable and then launch it
+
+**问题描述 / Problem Description**:
+Tags: bash, kde, command, desktop-shortcuts | Score: 6 | Views: 930 | Answers: 2 | Created: 2026-03-23
+
+**解决方案 / Solution**:
+As cas says, it would be easier to do this with a pair of shell scripts that you’d invoke from your shortcuts. I imagine the real question is how to invoke chmod with pkexec (as root) and then kdeconnect-app as yourself. This should work: pkexec chmod +x /usr/bin/kdeconnectd && kdeconnect-app From a shortcut, set sh as the program and -c 'pkexec chmod +x /usr/bin/kdeconnectd && kdeconnect-app' as the arguments. If manually starting kdeconnectd itself works before starting kdeconnect-app , you could avoid having to use pkexec by permanently removing the executable bit (on Debian derivatives, use dpkg-statoverride ) and then using ld.so to run kdeconnectd . This would still involve the shell, to run /lib64/ld-linux-x86-64.so.2 /usr/bin/kdeconnectd (on x86-64) followed by kdeconnect-app . To determine the correct interpreter path, run readelf -p .interp /usr/bin/kdeconnectd | grep -o '/.*$' (if /usr/bin/kdeconnectd isn’t dynamically-linked, this won’t output anything, but the trick still works using the default dynamic linker).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805118/shortcut-to-make-a-binary-executable-and-then-launch-it
+
+---
+
+#### 1484. move files to directory according to prefix
+
+**问题描述 / Problem Description**:
+Tags: bash, files, directory | Score: 6 | Views: 784 | Answers: 3 | Created: 2025-12-09
+
+**解决方案 / Solution**:
+Assuming the directories exist already and that you simply want to remove the first underscore and everything following it from the file name, the shell can do all that without find and basename : for file in *_*.list; do mv -- "$file" "${file%%_*}/"; done
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801933/move-files-to-directory-according-to-prefix
+
+---
+
+#### 1485. POSIX sh alternative for bash's regexp matching
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, shell, posix | Score: 5 | Views: 1072 | Answers: 3 | Created: 2025-11-24
+
+**解决方案 / Solution**:
+Most people use case statements for option processing because it's simple and easy and it works. There are countless examples using either built-in getopts or /usr/bin/getopt or custom/hand-crafted. It often IS the better method, and certainly better/more-readable than a bunch of if/elif/else statements. POSIX sh does not support regex tests. For that, you need a shell like bash, ksh, or zsh, it's one of the reasons why the [[ ... ]] built-in was invented - to do stuff that [ aka test can't do without breaking compatibility. Or you could use awk to do your matching but (like most external programs) it's not something you'd want to fork repeatedly in a shell loop - the advantage of a built-in is that it IS built-in. Or you could use perl , but in that case it would make more sense to just write the entire script in perl. If you're not going to use nocasematch then at least use tr '[:upper:]' '[:lower:]' or similar to convert $action to all lower-case (or upper, it doesn't matter) before trying to match it against something. Then you wouldn't need all those ugly and unreadable and tedious to type & edit bracket expressions just to match mixed-case. That all looks like you're going out of your way to make things harder for yourself when you should be trying to make things easier and simpler. Converting to all lower or all upper case would also benefit matching with a case statement as well as regex. BTW, those [upper:] and [:lower:] classes work with at least GNU and BSD tr , maybe others too. As @Stephane mentions, GNU tr doesn't support multi-byte characters, so tr A-Z a-z works too. It's not unreasonable to expect that it, or some other version of tr, will one day work correctly for multi-byte unicode characters. If handling unicode options is important to you, use a unicode-capable tool like perl (which has a built-in lc function for case conversion) to do the case conversion. You should use a heredoc rather than multiple printf statements for long sequences of text. It's not like you're actually using any of printf's formatting options (and if needed, you can use heredocs with printf). Also, all that embedded whitespace at the end of each line will annoy users, as it will end up in the selection or clipboard if copied. e.g. cat <<__EOF__ Usage: pocsag [ACTION] [INPUTMETHOD/REDACTION] [OUTPUTMETHOD/PATHTOFILE/SERVICEACTION] Examples: pocsag decode rtlsdr cli pocsag decode netcat file pocsag redact medical ~/media/signals/pocsag/decoded/POCSAG* pocsag service rtlsdr start Actions: decode Envoke the usage of the input tuner, sox and multimon-ng to decode the signals. redact Copy file but redact regex matching lines of a file. For example: Removing medical TXs. service Used to start/stop the systemd service in user's ~/.config. Relies on rtlsdr_pager_rx Input Methods: rtlsdr Use an RTLSDR device plugged into the local computer. netcat Listen to localhost:7355 using netcat, then process and output locally. __EOF__ This is more readable, easier to edit, and easier to re-format if/when needed with fmt , fold , par , or similar. It's just text, with no embedded code. Put your usage message in a function called, e.g. usage . And same for other if or case clauses with multiple lines of code or long strings of text to print. You don't want to embed lots of text or code in a case statement or a long if/else/elif/then/fi statement - something like that should be readable at a glance without needing to page forwards and backwards just to get an overview of what the entire statement is doing. PS: I mention readability a lot here - that's because for any code where performance isn't critical (e.g. shell scripts - any performance-critical parts of the task should be done by external programs, not by shell itself) it's always better to choose readability over "clever tricks" or performance, especially if the trick or "optimisation" adds nothing of any real, practical value. Code needs to be maintained and readable code is easier to maintain, and easier to understand when you need to update it in six months (or six years). As a general rule, an unreadable mess will require at least as much time and effort to understand by future you or somebody else as it took to write in the first place....probably a lot more, because it's much easier to write something new than to decipher obfuscated cruft.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801562/posix-sh-alternative-for-bashs-regexp-matching
+
+---
+
+#### 1486. Corrupt terminal output when piping or redirecting a sudo Bash script that calls ssh?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, ssh, io-redirection, tty | Score: 4 | Views: 453 | Answers: 2 | Created: 2026-03-25
+
+**解决方案 / Solution**:
+Ubuntu 22.04 still has a broken sudo. The fix was to stty opost onlcr . To do that, you need to allocate a new PTY inside the sudo 'd command, which is setting up its PTY wrong. Your command would look like: sudo -E script /dev/null -c test-ssh.sh | tee /dev/null . Edit: An earlier version of this answer recommended putting stty opost onlcr inside the test-ssh.sh , but that did nothing when used alone, and script /dev/null does it a better way. Details The Linux script program allocates a PTY inside. Its first argument is the logfile (which is script 's primary purpose), but we don't need it, so we assign its output file to be stored into the trash can of Linux, /dev/null . stty opost onlcr then uses an ioctl to enable those two options ( opost , onlcr ). The ioctl can be performed on /dev/tty (the currently used/active terminal), but some programs instead perform the ioctl adjustments on stdout, which is why piping commands may prevent those programs from seeing the terminal. If you ran tty inside the script /dev/null [...] and outside (i.e., not using the script program at all), you'll find that it shows a different PTY. Looking in stty -a , all those options are all the conversion magic it is capable of (e.g., intr = ^C; stop = ^S; eol = <undef> ). The command inside script /dev/null -c YourCommandGoesHere reads input (somehow necessary for the problem to occur) from, and writes differently-formatted line endings to, the slave side of the PTY. Then, the Linux kernel insulates the master side from that formatting, and converts newlines, tabs, and other characters to a format compatible for the broken sudo . opost must be enabled, otherwise all the other o[...] settings will be treated as disabled. onlcr (Option for converting to NewLine CarriageReturn) enables support for Linux-type line endings that only have \n . Without it, the terminal expects Windows-type line endings where \n (NL) only moves (~vertically) to the next line while \r (CR) moves (horizontally) back to the start of the line. This is how the staircase problem occurred: \n in the output was interpreted as NewLineOnly, no CR. With it, \n performs both newline and CR. See man termios ( online reference ) for a list of similar settings.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805160/corrupt-terminal-output-when-piping-or-redirecting-a-sudo-bash-script-that-calls
+
+---
+
+#### 1487. Explanation about difference in error handling in sub-shells between bash and posix-sh
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, shell, posix, subshell | Score: 3 | Views: 170 | Answers: 1 | Created: 2026-04-28
+
+**解决方案 / Solution**:
+The command substitution being an exception is explicitly documented in the bash manual and man page ( man bash , emphasis mine): Command substitution, commands grouped with parentheses, and asynchronous commands are invoked in a subshell environment that is a duplicate of the shell environment, except that traps caught by the shell are reset to the values that the shell inherited from its parent at invocation. Builtin commands that are invoked as part of a pipeline are also executed in a subshell environment. Changes made to the subshell environment cannot affect the shell's execution environment. Subshells spawned to execute command substitutions inherit the value of the -e option from the parent shell. When not in posix mode, bash clears the -e option in such subshells. Shell execution environment includes the shell options set by set builtin.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805683/explanation-about-difference-in-error-handling-in-sub-shells-between-bash-and-po
+
+---
+
+#### 1488. Thorough error handling and reporting in BASH
+
+**问题描述 / Problem Description**:
+Tags: bash, error-handling | Score: 3 | Views: 200 | Answers: 2 | Created: 2026-03-07
+
+**解决方案 / Solution**:
+FWIW I usually write my scripts with error, etc. printing functions something like this (if you do want to print the function name instead of the script name from the error message): $ cat is_int #!/usr/bin/env bash prtMsg() { local type="$1" local text="${@:2}" printf '%s[%d]: %s: %s\n' "${FUNCNAME[2]}" "${BASH_LINENO[1]}" "$type" "$text" >&2 } prtError() { prtMsg "Error" "$@"; exit 1; } prtWarning() { prtMsg "Warning" "$@"; } prtTrace() { (( doTrace )) && prtMsg "Trace" "$@"; } is_int() { prtTrace "Function entered" if (( "$#" != 1 )); then prtError "Expected exactly one argument to test for an integer, but $# args given." fi case "${1#[+-]}" in (*[!0123456789]*) return 1 ;; ('') return 1 ;; (*) return 0 ;; esac } is_int "$@" $ ./is_int 1 2 3 is_int[17] Error: Expected exactly one argument to test for an integer, but 3 args given. $ doTrace=1 ./is_int 1 2 3 is_int[14]: Trace: Function entered is_int[17]: Error: Expected exactly one argument to test for an integer, but 3 args given. Massage the logic to suit your preferences of course. In reality I usually print the script name instead of the function name from prtMsg() and I often name my top level function, if I have one, main() : $ cat is_int #!/usr/bin/env bash toolname="${0##*/}" prtMsg() { local type="$1" local text="${@:2}" printf '%s[%d]: %s: %s\n' "$toolname" "${BASH_LINENO[1]}" "$type" "$text" >&2 } prtError() { prtMsg "Error" "$@"; exit 1; } prtWarning() { prtMsg "Warning" "$@"; } prtTrace() { (( doTrace )) && prtMsg "Trace" "${FUNCNAME[1]}(): $@"; } main() { prtTrace "Function entered" (( "$#" == 1 )) || prtError "Expected exactly one argument to test for an integer, but $# args given." case "${1#[+-]}" in (*[!0123456789]*) return 1 ;; ('') return 1 ;; (*) return 0 ;; esac } main "$@" $ ./is_int 1 2 3 is_int[18]: Error: Expected exactly one argument to test for an integer, but 3 args given. $ doTrace=1 ./is_int 1 2 3 is_int[16]: Trace: main(): Function entered is_int[18]: Error: Expected exactly one argument to test for an integer, but 3 args given.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804861/thorough-error-handling-and-reporting-in-bash
+
+---
+
+#### 1489. Can I use extglob to exclude some/path/ from find's first argument?
+
+**问题描述 / Problem Description**:
+Tags: bash, find, wildcards, pattern-matching | Score: 3 | Views: 218 | Answers: 1 | Created: 2026-03-01
+
+**解决方案 / Solution**:
+In find !(bar) The shell expands !(bar) to all the names of all non-hidden files in the current working directory except bar and runs find with that list of files as separate arguments. To do something similar for find to skip bar/baz , you'd need to pass it all the files other than bar in the current working directory, plus all the files other than bar/baz in the bar directory. Besides the skipping of hidden files, those approaches fail if there are file names that start with - or are find predicates or if those shell globs expand to a large number of files. Here, you might as well let find do the skipping. To skip bar : find . -path ./bar -prune -o -print To skip bar/baz : find . -path ./bar/baz -prune -o -print With globbing alone, with zsh -o extendedglob -o globstarshort , you could do something like: print -rC1 -- **~bar/baz(|/*)(ND) But the bar/baz and bar/baz/* exclusion done with the filtering ~ operator is done after the fact, so won't prevent zsh from descending into bar/baz . print -rC1 -- {^bar,bar/^baz}{,/**}(ND) Would avoid that but note: it affects the order as files in bar end up being listed last (here with print , you could add the -o option to re-order the list though). if any of the files in the current working directory or those other than baz in bar are symlinks eventually resolving to a file of type directory , those links will be followed and the files found in them reported, while ** itself never follows symlinks when traversing the directory tree. The latter can be done with ksh or other shells with support for some of ksh's extended glob operators such as bash with the extglob option enabled. With bash specifically: # for an equivalent of of zsh's print -rC1: println() { [ "$#" -eq 0 ] || printf '%s\n' "$@"; } ( shopt -s nullglob extglob globstar; shopt -u failglob println {!(bar),bar/!(baz)}{,/**} )
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804767/can-i-use-extglob-to-exclude-some-path-from-finds-first-argument
+
+---
+
+#### 1490. Selective writing of selected lines from the ping command to a file
+
+**问题描述 / Problem Description**:
+Tags: bash, command-line, terminal, ping | Score: 3 | Views: 428 | Answers: 3 | Created: 2026-02-15
+
+**解决方案 / Solution**:
+You can use awk to filter the output of ping | ts . First, examine the output of ping ... | ts '[%F %T]' $ ping -c 3600 1.1.1.1 | ts '[%F %T]' [2026-02-15 19:34:33] 64 bytes from 1.1.1.1: icmp_seq=1 ttl=59 time=4.43 ms [2026-02-15 19:34:34] 64 bytes from 1.1.1.1: icmp_seq=2 ttl=59 time=4.81 ms [2026-02-15 19:34:35] 64 bytes from 1.1.1.1: icmp_seq=3 ttl=59 time=4.76 ms [2026-02-15 19:34:36] 64 bytes from 1.1.1.1: icmp_seq=4 ttl=59 time=4.77 ms [2026-02-15 19:34:37] 64 bytes from 1.1.1.1: icmp_seq=5 ttl=59 time=4.79 ms [2026-02-15 19:34:38] 64 bytes from 1.1.1.1: icmp_seq=6 ttl=59 time=4.76 ms ^C We can see that the response time is immediately after the third = symbol. If we use [= ] (equals signs and spaces) as awk's input field separator, that makes field 12 ( $12 ) the response time: [2026-02-15 19:34:33] 64 bytes from 1.1.1.1: icmp_seq=1 ttl=59 time=4.43 ms $1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 $12 $13 Then, say we want only the lines where the response time is above 4.7 ms. First example: stdout is unfiltered, testping.txt only has filtered output, using process substitution for tee 's output file: ping -c 3600 1.1.1.1 | ts '[%F %T]' | tee >(awk -F'[= ]' '$12 > 4.7' >> /tmp/testping.txt) Second example: filtering output to both stdout and testping.txt: ping -c 3600 1.1.1.1 | ts '[%F %T]' | awk -F'[= ]' '$12 > 4.7' | tee -a /home/user/testping.txt Note: if there's a chance you might abort the ping (e.g. with Ctrl-C) before the full count of 3600 pings, you should put an explicit fflush() in the awk script to force all output to be flushed to disk, otherwise some or all of the output may not be saved to testping.text. To do that, replace the awk part of the one-liner with: awk -F'[= ]' '$12 > 4.7 { print ; fflush() }' This does effectively the same thing as grep 's --line-buffered option. As with grep (or any other program), unbuffered output incurs a small performance penalty because each line is flushed immediately to disk as it is written, rather than batched until the output buffer is full. Given that ping isn't exactly fast and you're not writing huge amounts of data to disk, you probably won't notice it. All up, that's: ping -c 3600 1.1.1.1 | ts '[%F %T]' | tee >(awk -F'[= ]' '$12 > 4.7 { print ; fflush() }' >> /home/user/testping.txt)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804471/selective-writing-of-selected-lines-from-the-ping-command-to-a-file
+
+---
+
+#### 1491. Tabs in the insert option of sed command
+
+**问题描述 / Problem Description**:
+Tags: bash, sed | Score: 3 | Views: 354 | Answers: 5 | Created: 2026-01-15
+
+**解决方案 / Solution**:
+Although terdon beat me to the main point, I had already drafted some other points that I think are worth keeping. Note this is for GNU sed only; other seds are not required to allow escape sequences in text or text immediately after the command. GNU sed is likely to be present where bash is used, but not necessarily. The standard syntax for the i a c commands has a backslashed newline preceding the text; although GNU sed allows skipping this as an extension, it apparently discards any initial backslash (even not followed by newline). (It also discards leading whitespace when using the extension, which is why your $(printf) didn't work; for that you could more easily use $'\t\t' for a long time in bash and recently in POSIX.) You need to pass the script as 1i\\t\t==BLAH== . But you're using bash with " instead of ' (probably because it's a pain to nest ' plus it allows $( ) to work naturally) and within " bash replaces \\ with \ , so you need to actually specify | xargs -I {} sh -c 'sed "1i\\\t\t==>$(basename "$0")<==" "$0"' {} For this very simple edit you could instead do | xargs -I {} sh -c 'printf "\t\t==>%s<==\n" "$(basename "$0")"; cat "$0"' {} In either case using the 'arg0' feature in sh -c is somewhat confusing; I would prefer e.g. | xargs -I {} sh -c 'commands-using-$1' xarged-sh {} Or since you're not really using xargs functionality, more basic: | while read -r f; do sed '1i\\t\t'"==>$(basename "$f")<==" $f; done # with ' we only need one discarded \ and one to become tab # or | while read -r f; do printf "\t\t==>%s<==\n" "$(basename "$f")"; cat "$f"; done # in general ' is safer for printf format but here it doesn't matter Also instead of running basename every time, you could use ${0##*/} or ${f##*/} .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803784/tabs-in-the-insert-option-of-sed-command
+
+---
+
+#### 1492. Bash/Dash - Catching the error when calling set
+
+**问题描述 / Problem Description**:
+Tags: bash, dash | Score: 3 | Views: 450 | Answers: 2 | Created: 2025-12-01
+
+**解决方案 / Solution**:
+set is a special built-in, and per POSIX, errors in special built-ins shall cause an interactive shell to exit. But you can use command to "de-specialize" it. (this is straight up mentioned in the footnote under the table in 2.8.1 Consequences of Shell Errors ) So, command set -o pipefail seems to do what you want in most shells I tried. But zsh made an exception in that command set just didn't work in the default mode. (It did seem to work if executed in sh mode.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801760/bash-dash-catching-the-error-when-calling-set
+
+---
+
+#### 1493. "Input/output error" on wake from suspend
+
+**问题描述 / Problem Description**:
+Tags: fedora, filesystems, suspend, nvme, gdm3 | Score: 3 | Views: 579 | Answers: 1 | Created: 2025-09-23
+
+**解决方案 / Solution**:
+nvme 0000:56:00.0: Unable to change power state from D3cold to D0, device inaccessible Oh, a nvme device with a suspend bug… fun. Not much your Linux can do without being aware of these "quirks", I'm afraid. Windows might be dealing with it better simply by trying longer, and doing resets and waiting until things start working again (or it might just have a driver that knows how this particular nvme misbehaves and has just the right sequence to reset it). If this is the same issue as reported here , instead of nvme_core.default_ps_max_latency_us=5500 you might want to try nvme_core.default_ps_max_latency_us=0 to disable all automatic power saving handling on the nvme device. If that doesn't help and sudo fwupdmgr refresh; sudo fwupdmgr update doesn't list any firmware updates specifically for the nvme, I'm a bit out of recommendations; the fact that the nvme also delivers bogus namespace reports is not a good omen, to be quite honest. Had something similar with a bargain-bin Lexar drive, which I ended up replacing.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799912/input-output-error-on-wake-from-suspend
+
+---
+
+#### 1494. Fedora 43 and Secure Boot... Motherboard firmware update seems to have messed up Secure Boot
+
+**问题描述 / Problem Description**:
+Tags: fedora, uefi, firmware, secure-boot | Score: 2 | Views: 242 | Answers: 1 | Created: 2026-04-10
+
+**解决方案 / Solution**:
+The password on your 4TB secondary SSD was forgotten by the motherboard, but you were still able to type it in. This is why "it asks for the password again ". Motherboard firmware updates can sometimes reset the TPM, causing that message, of which, see the "corrupted"/"changed" part not the "CPU" part. The TPM is currently already broken. You will be able to boot like just now, even if you reset the TPM. To be safe, run sudo cryptsetup luksDump /dev/nvme... --dump-volume-key on both SSDs and write them down on paper. Then you can reset the broken TPM and reboot to get a new working TPM. You can readd the password to the TPM to get rid of the extra second password prompt.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805385/fedora-43-and-secure-boot-motherboard-firmware-update-seems-to-have-messed-up
+
+---
+
+#### 1495. System updates (DNF) keep breaking boot-loader on systemd-boot
+
+**问题描述 / Problem Description**:
+Tags: fedora, grub, upgrade, systemd-boot | Score: 2 | Views: 90 | Answers: 1 | Created: 2026-03-17
+
+**解决方案 / Solution**:
+After having spent some additional time poking-around and trying a few different things, I managed to successfully identify, and therefore correct, the issue at-hand. It turns-out that both the manual- and automatic-update processes were causing issues with Secure-Boot. I quickly discovered that the correct method involved going-into my system's UEFI-firmware (BIOS) settings, via a reboot immediately after the update process had concluded, temporarily disabling Secure-Boot and clearing all secure keys (signatures) from BIOS, and then rebooting. To my pleasant surprise, the system then started normally. However, I then had to manually-sign all of the newly-added kernels and initram images through the sbctl utility. Immediately afterwards, I then had to perform a reboot from a Bash-shell, because my system would NOT properly restart from the desktop when I clicked-on "Restart" from the GUI-based menu. Upon performing this last restart, I then immediately booted-into BIOS and re-enabled Secure-Boot; now my system starts properly. Once again, GUI-based system restarts occur properly. However, I found that I must repeat all of these steps after every system update or upgrade. But obviously, having to do-so every time is an inconvenience that I really would rather avoid.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805054/system-updates-dnf-keep-breaking-boot-loader-on-systemd-boot
+
+---
+
+#### 1496. bash syntax: what does '[@]+' mean?
+
+**问题描述 / Problem Description**:
+Tags: bash, syntax | Score: 2 | Views: 243 | Answers: 3 | Created: 2025-11-22
+
+**解决方案 / Solution**:
+Your script contains a parameter expansion ( ${args[@]+"${args[@]}"} ) that fits into the following definition : ${parameter:+word} If parameter is null or unset, nothing is substituted, otherwise the expansion of word is substituted. The value of parameter is not used. The + operator is much like the following JavaScript: parameter == null ? null : word The colon can be omitted: [If] the colon is included, the operator tests for both parameter’s existence and that its value is not null; if the colon is omitted, the operator tests only for existence. parameter is args[@] , which is obviously not null or unset as it contains the entire array. This means that the following "${args[@]}" shall be substituted. This is, however, redundant as no matter what args[@] is, null, unset, or not, it will be substituted with that array or have nothing, always corresponding with the args array. Therefore, the script is unnecessarily complicated and can be reduced to: for arg in "${args[@]}"; do Quotes need to be kept to prevent re-splitting the elements in the array.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801534/bash-syntax-what-does-mean
+
+---
+
+#### 1497. Problem mounting btrfs Luks-encrypted Fedora 42 system on Live-USB
+
+**问题描述 / Problem Description**:
+Tags: fedora, boot, mount, luks, btrfs | Score: 2 | Views: 495 | Answers: 1 | Created: 2025-10-22
+
+**解决方案 / Solution**:
+Try this: unmount the home subvolume remount it as /mnt/sysroot/root/home bind-mount some essential directories under /mnt/sysroot/root: for i in proc dev sys sys/firmware/efi/efivars dev/pts ; do mount -o bind "/$i" "/mnt/sysroot/root/$i" ; done chroot /mnt/sysroot/root If you don't need to access your home directory while booted on the Live USB, you can skip steps 1 & 2. BTW, I'm not sure why you're mounting everything under /mnt/sysroot instead of just /mnt - sure, it works but there'd be less typing if the root and home subvols were mount as /mnt and /mnt/home , then you could chroot /mnt
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800667/problem-mounting-btrfs-luks-encrypted-fedora-42-system-on-live-usb
+
+---
+
+#### 1498. Opening Two Firefox Instances from Custom Desktop Launchers?
+
+**问题描述 / Problem Description**:
+Tags: fedora, firefox, plasma | Score: 1 | Views: 47 | Answers: 1 | Created: 2026-04-16
+
+**解决方案 / Solution**:
+So, evidently I figured out the issue all thanks to @terdon's suggestion, interestingly. The only thing I changed was the ICON, and this evidently seems to have behaved exactly how I want it to. Evidently the sharing of the icon on the Task Manager is linked to the icon used. Which actually makes entire sense, but was a bit frustrating trying to determine how to get it to work. Giving each instance a dedicated icon "M" for "Main" and "W" for "Wife" - along with the structure of the Desktop Entry in my original post - worked just fine. Thank you!
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805489/opening-two-firefox-instances-from-custom-desktop-launchers
+
+---
+
+#### 1499. Fedora 43. I can read BluRays but I can’t read DVDs?! I *DO* have libdvdcss installed from rpmfusion
+
+**问题描述 / Problem Description**:
+Tags: fedora, dvd | Score: 1 | Views: 108 | Answers: 1 | Created: 2026-03-27
+
+**解决方案 / Solution**:
+I'm currently on a Windows machine, but this screenshot should explain my comment, as the boxed setting is identical in all Linux'es. I believe VLC defaults to /dev/dvd for DVD/BlueRay and /dev/cdrom for audio. In your case, since Fedora didn't create the soft link, just point the Disk Device to /dev/sr1 . It also sounds like you may need to install VLC from Fedora's app store. From the Media Menu in VLC choose Open Disc to be presented with: Update From Requested Information Using the provided pastebin, I found: *-cdrom description: DVD reader product: Virtual Media vendor: JetKVM physical id: 0.0.0 bus info: scsi@6:0.0.0 logical name: /dev/cdrom logical name: /dev/cdrom0 logical name: /dev/dvd0 logical name: /dev/sr0 capabilities: removable audio dvd configuration: ansiversion=2 status=nodisc How are you using an IP Based KVM to access the LG WH14NS40?
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805186/fedora-43-i-can-read-blurays-but-i-can-t-read-dvds-i-do-have-libdvdcss-inst
+
+---
+
+#### 1500. iterating through 'binary array' and getting invalid variable name
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, array | Score: 1 | Views: 82 | Answers: 1 | Created: 2026-03-15
+
+**解决方案 / Solution**:
+There's an obvious typo in your code which explains your error: "$columnAll[@]}" should have been "${columnAll[@]}" . Also note that [...] is a glob operator, so in list contexts must be quoted for them to be taken literally. Your: columnAll=(column1[@] column2[@]) Would become columnAll=(column1[@] column2@) for instance if there was a file called column2@ in the current working directory (or columnAll=(column2@) if nullglob was enabled or you'd get an error with failglob ). column1=( 12 11 10 9 8 7 6 5 4 3 2 1 0 ) column2=( 25 24 23 22 21 20 19 18 17 16 15 14 13 ) column3=( a 'b c' '*' '' ) columnAll=( column{1..3}'[@]' ) column=0; for columnX in "${columnAll[@]}"; do columnStack=("${!columnX}") printf '%s\n' "${#columnStack[@]} elements in column $column ($columnX)" (( ++column )) done Which gives: 13 elements in column 0 (column1[@]) 13 elements in column 1 (column2[@]) 4 elements in column 2 (column3[@]) With recent versions of bash, you could also use namerefs (copied from ksh93) instead of ${!var} : column1=( 12 11 10 9 8 7 6 5 4 3 2 1 0 ) column2=( 25 24 23 22 21 20 19 18 17 16 15 14 13 ) column3=( a 'b c' '*' '' ) typeset -n columnX column=0; for columnX in column{1..3}; do printf '%s\n' "${#columnX[@]} elements in column $column (${!columnX} variable)" (( ++column )) done Which gives: 13 elements in column 0 (column1 variable) 13 elements in column 1 (column2 variable) 4 elements in column 2 (column3 variable) But if you want to use multi-dimensional arrays, ksh (the shell bash has been trying to emulate for decades) would be a better choice. typeset -a elements=( ( 12 11 10 9 8 7 6 5 4 3 2 1 0 ) ( 25 24 23 22 21 20 19 18 17 16 15 14 13 ) ( a 'b c' '*' '' ) ) for (( column = 0; column < ${#elements[@]}; column++ )) { printf '%s\n' "${#elements[column][@]} elements in column $column" } Which gives: 13 elements in column 0 13 elements in column 1 4 elements in column 2 While bash has copied ksh's plain one-dimensional array design, it hasn't copied its multidimensional arrays (introduced in ksh93) yet.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805008/iterating-through-binary-array-and-getting-invalid-variable-name
+
+---
+
+#### 1501. Dealing with stale mounts in shell scripts
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, mount, rclone | Score: 1 | Views: 102 | Answers: 2 | Created: 2026-02-05
+
+**解决方案 / Solution**:
+Since the problem is in another process (the onedrive mount) you probably have to: Monitor (cronjob? service?) the onedrive mounting process logs. If they log something unique when the mount is stale, then you can simply restart the onedrive mount process. Hopefully it can now mount it and your mountpoint is always live, and ready when you start your archive script. Also, add logging/alerting to your archive script if something goes wrong: # Send SIGTERM, then SIGKILL after 5s if still running timeout --kill-after=5s 30s some-command if [ $? -eq 124 ]; then echo "WARNING: Command timed out and was killed" >&2 fi Timeout exit codes: 0 - Command completed successfully 124 - Command timed out 125 - timeout itself failed 126-127 - Command couldn't be executed Other - Command's own exit code Workaround/other "solution": In the beginning of your archive script, touch a file in each mount and then check for success. If not, then bail the entire script.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804274/dealing-with-stale-mounts-in-shell-scripts
+
+---
+
+#### 1502. Inserting a multi line variable with other variables in it into a file at a specific line number with sed
+
+**问题描述 / Problem Description**:
+Tags: bash, sed, wordpress | Score: 1 | Views: 92 | Answers: 4 | Created: 2026-02-04
+
+**解决方案 / Solution**:
+No point in using read -s if you're going to pass the secrets in the arguments to an executed command which on most systems is public information. Basically, if you're passing secrets as arguments to a non-builtin command, you're doing something wrong. Also note that for read to read a line verbatim, you need the -r option and an empty IFS . Here you could do: #! /bin/bash - IFS= read -rsp 'Enter your IAM Access Key: ' accesskey || exit IFS= read -rsp 'Enter your IAM Secret Key: ' secretkey || exit config=" define( 'AS3CF_SETTINGS', serialize( array( 'provider' => 'aws', 'access-key-id' => '$accesskey', 'secret-access-key' => '$secretkey', ) ) ); " printf '%s\n' "$config" | sed -i '75r/dev/stdin' wp-config.php The r command r eads the file in after the current line has been printed while i i nserts the text before so I've changed the 76 to 75. printf is builtin in bash, so there's no execution so no leakage of command line arguments. Note that it assumes the $acesskey and $secretkey don't contain \ or ' characters. If they may, you'd need to escape them in the PHP syntax.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804230/inserting-a-multi-line-variable-with-other-variables-in-it-into-a-file-at-a-spec
+
+---
+
+#### 1503. Calling a function through command substitution
+
+**问题描述 / Problem Description**:
+Tags: bash, function, command-substitution | Score: 1 | Views: 288 | Answers: 2 | Created: 2026-01-22
+
+**解决方案 / Solution**:
+Your $X isn't a local variable. Shell variables are global by default, which is why your $X is available to your function. You can define a local one using the local builtin, but that only makes sense (and only works) inside a function. For example: #!/bin/bash f() { local X="bar" echo "$X" } X="foo" echo "f returns $(f), but X is $X" Running the script above returns: $ foo.sh f returns bar, but X is foo Even within a function, simply setting a variable doesn't make it local in bash : #!/bin/bash f() { X="bar" } echo "X was $X" f echo "And is now $X" Running that gives: $ foo.sh X was And is now bar As you can see, the variable declaration inside the function changed the variable. Finally, even if your variable were local, that wouldn't stop it from being inherited in a subshell if that subshell were running in the same scope as the variable: #!/bin/bash f() { local X="bar" echo "Outer function $BASHPID == $$" ( echo "In the function's subshell ($BASHPID != $$), X is $X" ) } f echo "And is now '$X' because it is local to the function" Which returns (see here for what the $BASHPID thing shows): $ foo.sh Outer function 800813 == 800813 In the function's subshell (800814 != 800813), X is bar And is now '' because it is local to the function A clarification on subshells vs child processes. While subshells are child processes, not all child processes are subshells. Variables don't need to be exported in order to be available in subshells, which is why you see the behavior you are seeing. They do need to be exported in order to be inherited by other kinds of child processes. For example, if I start a new bash instance, that is a child process, but it isn't a subshell, and so does not inherit unexported variables, and only gets variables if they have been exported: $ echo $$ 860946 $ var="foo" $ bash ## We are now in a new bash instance, a child process with ## different PID $ echo $$ 861361 ## This isn't a subshell $ echo "$BASHPID == $$" 861361 == 861361 ## the unexported variable isn't available $ echo "$var" $ exit ## We are back in the original bash instance $ export var ## We now start a new one again $ bash ## now that we exported it, it can be seen $ echo "$var" foo So, subshells inherit variables. See section 3.2.3 in the GNU bash manual: Each command in a multi-command pipeline, where pipes are created, is executed in its own subshell, which is a separate process (see Command Execution Environment ). Clicking on the "Command Execution Environment" takes you to section 3.7.3 which explains: Shell parameters that are set by variable assignment or with set or inherited from the shell’s parent in the environment. [ ... ] A subshell is a copy of the shell process. And also mentions (emphasis mine): When a simple command other than a builtin or shell function is to be executed, it is invoked in a separate execution environment that consists of the following. Unless otherwise noted, the values are inherited from the shell. The shell’s open files, plus any modifications and additions specified by redirections to the command. The current working directory. The file creation mode mask. Shell variables and functions marked for export , along with variables exported for the command, passed in the environment (see Environment). Traps caught by the shell are reset to the values inherited from the shell’s parent, and traps ignored by the shell are ignored. A command invoked in this separate environment cannot affect the shell’s execution environment. This all boils down to: you don't need to export variables for them to be available in a subshell because subshells get an exact copy of their parent execution environment. You do need to export if you want them available in other child processes. Such as a bash -c invocation.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803962/calling-a-function-through-command-substitution
+
+---
+
+#### 1504. Does the .bash extension exist?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script | Score: 1 | Views: 147 | Answers: 1 | Created: 2026-01-14
+
+**解决方案 / Solution**:
+File extensions are important to Windows platform program associations, and to editors guessing syntax highlighting and other features. And a hint to humans too, I think shell script immediately on seeing such a file name. On Linux and most other Unix, file extension is irrelevant to execution, it can be anything or nothing. Try it. The #! line specifies the interpreter to run the script with. man execve bash, ksh, ash, dash are all supersets of Bourne sh shell and have very similar syntax. By some conventions, scripts for any of these could end in .sh. Although differing features exist , so unless the script was written in portable POSIX shell, you should specify the interpreter you tested with. See for example Debian's removal of Bashisms. csh or zsh are each their own thing. Significantly different syntax, to the point of needing a different script to do the same task. Makes it more likely to see a .csh or .zsh as distinct from a .sh. Note that Fedora drops in some shell to be sourced in /etc/profile.d/, several of which have a .csh and a .sh implementation. (These do not have an interpreter line, they are sourced rather than executed.) And on the topic of interpreter line, abusing env program to run something on PATH is not the most reproducible behavior. You the script author may not control what the user puts first in PATH. Better to default to the system location, #!/usr/bin/bash is bash on a lot of distros.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803729/does-the-bash-extension-exist
+
+---
+
+#### 1505. .desktop Exec with environment variables breaks Gnome search
+
+**问题描述 / Problem Description**:
+Tags: fedora, gnome, .desktop | Score: 1 | Views: 62 | Answers: 1 | Created: 2026-01-04
+
+**解决方案 / Solution**:
+I have no idea what desktop-file-validate does or how it does it, but the reason why you need to use env in the .desktop file is that the Exec= line is not a shell, and does not behave exactly the same as a shell. Most shells, (including bash, ksh, sh, zsh) will export variables defined on the command-line immediately before executing a command on the same line. For example, A=1 B=2 C=3 someprogram will have those three variables exported into the environment for someprogram (but only for that instance of the program, they are not exported into the shell's environment for future programs). Exec= in a .desktop file does not do that, so you have to use env to export variables into a program's environment. env is a program that, as the first line of its man page says: env - run a program in a modified environment BTW, the synopsis in the man page also tells you that you don't need to run env more than once. It can handle multiple variable assignments: env [OPTION]... [-] [NAME=VALUE]... [COMMAND [ARG]...] Exec=env WEBKIT_DISABLE_COMPOSITING_MODE=0 env WEBKIT_DISABLE_DMABUF_RENDERER=0 prusa-slicer can be reduced to: Exec=env WEBKIT_DISABLE_COMPOSITING_MODE=0 WEBKIT_DISABLE_DMABUF_RENDERER=0 prusa-slicer Another alternative would be to create a shell script, e.g. /usr/local/bin/run-prusa with the following contents (and made executable with chmod +x /usr/local/bin/run-prusa ): #!/bin/bash export WEBKIT_DISABLE_COMPOSITING_MODE=0 export WEBKIT_DISABLE_DMABUF_RENDERER=0 # The "$@" arg will pass on whatever args, if any, are given to the # script by the .desktop file. exec prusa-slicer "$@" and then run that script from the Exec= line of your .desktop file. IMO that gives a lot more flexibility in what you can do, you can put whatever you need in the script before running prusa-slicer instead of just the single Exec= line. You could do this with a #!/bin/sh script instead of #!/bin/bash , but then you'd have to assign the variables and export them separately. bash and some other bourne-like shells allow assignment and exporting with one command ( export A=1 ), while ash , dash , and other minimalist, small and fast bourne-like shells require that the variable assignment and the export be two separate commands ( A=1; export A ). #!/bin/sh WEBKIT_DISABLE_COMPOSITING_MODE=0 WEBKIT_DISABLE_DMABUF_RENDERER=0 export WEBKIT_DISABLE_COMPOSITING_MODE WEBKIT_DISABLE_DMABUF_RENDERER # The "$@" arg will pass on whatever args, if any, are given to the # script by the .desktop file. exec prusa-slicer "$@" For a script as trivial as this, the difference in speed between bash and sh is irrelevant so, IMO, convenience and the general principle of "Don't Repeat Yourself" wins....you're more likely to make a typing error if you have to repeat the variable names in a separate command, especially if they're long variable names.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803518/desktop-exec-with-environment-variables-breaks-gnome-search
+
+---
+
+#### 1506. Cancel just second command of bash logical AND operator
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, command | Score: 1 | Views: 62 | Answers: 1 | Created: 2025-11-29
+
+**解决方案 / Solution**:
+Just do Ctrl + z upon which fg will return with an exit code of 128+SIGTSTP, so not 0/success, so shutdown won't be run, and then fg again without a && shutdown this time. Example: bash-5.3$ sleep 10 ^Z [1]+ Stopped sleep 10 bash-5.3$ fg && echo would shutdown sleep 10 ^Z [1]+ Stopped sleep 10 bash-5.3$ fg sleep 10 bash-5.3$
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801730/cancel-just-second-command-of-bash-logical-and-operator
+
+---
+
+#### 1507. disable bash job control warning "job specification requires leading `%'"?
+
+**问题描述 / Problem Description**:
+Tags: bash, job-control | Score: 1 | Views: 154 | Answers: 1 | Created: 2025-11-23
+
+**解决方案 / Solution**:
+Nobody has jumped the gun, the old syntax still works. But you're getting a deprecation warning: from 5.4 on, you'll be getting a failure instead. You can fix both the future versions with a function similar to the following one: fg () { if [[ $1 =~ ^[0-9]+$ ]] ; then builtin fg "%$1" else builtin fg "$@" fi }
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801546/disable-bash-job-control-warning-job-specification-requires-leading
+
+---
+
+#### 1508. Invalid characters in ssh sessions
+
+**问题描述 / Problem Description**:
+Tags: ssh, fedora, locale, character-encoding | Score: 1 | Views: 287 | Answers: 1 | Created: 2025-08-28
+
+**解决方案 / Solution**:
+If locale -k charmap reports ISO-8859-15 on the remote system, that means either the LC_ALL environment variable or LC_CTYPE if LC_ALL is not set or LANG if both are unset, is set to a locale that uses ISO-8859-15 as charmap. Using locale without argument will give a summary of the locale settings. The reason you don't see that locale in the output of systemd 's localctl is that since that commit , by default it only lists locales whose name ends in .UTF-8 or contain .UTF-8@ (whether or not they use UTF-8 as charmap, but it would be misleading to name a locale with .UTF-8 if it didn't). Use locale -a or SYSTEMD_LIST_NON_UTF8_LOCALES=1 localectl list-locales ¹ to list all locales regardless of their name. $ localectl list-locales C.UTF-8 da_DK.UTF-8 en_DK.UTF-8 [...] $ SYSTEMD_LIST_NON_UTF8_LOCALES=1 localectl list-locales C.UTF-8 C.iso88591 da_DK.UTF-8 el_GR el_GR.iso88597 [...] $ locale -a C C.iso88591 C.utf8 da_DK.utf8 el_GR el_GR.iso88597 [...] The system's default locale is one thing, but any process can use a different locale. Different users on a system can typically very well use different locales depending on which region/culture they're from, what language they speak, etc. If the locale in use in your environment on the client machine is one that uses the UTF-8 charmap (such as en_GB.UTF-8 ), then it's also most likely the charmap in use in your terminal emulator. For instance, when you type é , it will send bytes 0xc3 and 0xa9 which is the UTF-8 encoding of the é character, and if it receives those 2 bytes, it will display a é . So you should not use a locale that uses another charmap, locally or remotely over ssh as that won't work properly. For instance, software running in a locale where the charmap is ISO-8859-15 would interpret those two 0xc3 0xa9 bytes sent upon pressing é as the Ã and © characters, as those bytes are the encoding of those characters in that charmap . So you should update the locale settings in your ssh session so at least the LC_CTYPE category be assigned a locale that uses UTF-8. Using the SendEnv LANG LC_* ssh client configuration directive is one way to achieve it, but the server must be configured to have the corresponding AcceptEnv LANG LC_* if it's also an openssh implementation (usually in /etc/sshd_config or /etc/ssh/sshd_config or files in a directory with a .d suffix), and the locale settings not been overridden by session initialisation files such as /etc/profile and ~/.profile for Bourne-like shells. Here, it looks like the remote system supports a C.UTF-8 locale, so you can do: export LC_CTYPE=C.UTF-8; unset -v LC_ALL (assuming a Korn/POSIX-like shell, you may need to adapt to the syntax of the login shell of the remote user) in the ssh session to update the locale to use the UTF-8 charmap. If it didn't, another approach would be to either reconfigure your terminal to use ISO-8859-15 instead of UTF-8 for its encoding or use luit which can transcode characters on the fly. That is call: luit -encoding ISO-8859-15 -- ssh user@host (or call luit in a locale that uses ISO-8859-15 as the charmap matching that of the remote system). Example (here simulating your ssh with a new shell in which I set the locale to en_GB.iso885915 ) $ luit -encoding ISO-8859-15 -- zsh $ export LANG=en_GB.iso885915 $ printf %s 'é' | od -An -vtx1 e9 Upon pressing é , my terminal sent 0xc3 0xa9, which luit translated to 0xe9, the shell line editor printed its echo as 0xe9 which luit translated back to 0xc3 0xa9 for it to display as é , but you can see od correctly received the 0xe9 byte which is the correct encoding of é in the ISO8859-15 charmap. In any case, the value of $TERM is not relevant, it's set by terminal emulators to tell applications what kind of emulation the terminal implements. xterm-256color would mean your terminal emulator claims to implement an emulation compatible with that of xterm when supporting 256 colours. It doesn't say anything about character encoding. The ssh client will pass $TERM to the server when in interactive mode (like when in rlogin mode when not specifying a remote command to run or with -t ), and the ssh server will propagate it to the remote shell or command then regardless of AcceptEnv . ¹ with that SYSTEMD_LIST_NON_UTF8_LOCALES environment variable only documented in doc/ENVIRONMENT.md in the code on Debian-based systems included in /usr/share/doc/systemd/ENVIRONMENT.md.gz
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799265/invalid-characters-in-ssh-sessions
+
+---
+
+#### 1509. Stuck on boot loading screen when booting from external SSD
+
+**问题描述 / Problem Description**:
+Tags: fedora, grub2, uefi, bios | Score: 1 | Views: 652 | Answers: 1 | Created: 2025-08-03
+
+**解决方案 / Solution**:
+Fixed it. I had to enable thunderbolt in grub configuration. As I mentioned earlier, my external SSD was using thunderbolt port. I was under the false assumption that enabling thunderbolt boot support in Dell's UEFI was enough. But despite Dell's UEFI/BIOS successfully finding/mounting the SSD, grub wasn't able to find it. So I had to enable thunderbolt in grub config as well. Steps to enable thunderbolt in grub configuration At the grub menu, use the arrow keys to select the Fedora entry you normally boot into. Press e to edit the boot parameters. User the arrow keys to find the line starting with linux (which contains the boot parameters). Add thunderbolt.host_reset=0 at the end of the line. Example: linux /boot/vmlinus-5.x.x-xx-generic root=UUID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx ro quiet splash thunderbolt.host_reset=0 Once you've added the parameter, press Ctrl + X (or F10) to boot with these parameters for this session. This will only apply to this boot session. The next time you boot, you'll need to repeat these steps unless you make the changes permanent (explained below). Permanent change to grub configuration To make the change permanent, you'll need to modify the grub configuration file after you've booted into Fedora. So, boot into Fedora, open a terminal and run: sudo nano /etc/default/grub Find the line that starts with GRUB_CMDLINE_LINUX, for example: GRUB_CMDLINE_LINUX="quiet splash" (for Fedora) OR GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" (for Ubuntu) Add thunderbolt.host_reset=0 at the end of the quoted section, like this: GRUB_CMDLINE_LINUX="quiet splash thunderbolt.host_reset=0" (for Fedora) GRUB_CMDLINE_LINUX_DEFAULT="quiet splash thunderbolt.host_reset=0" (for Ubuntu) Save and exit the file. Update grub: sudo grub2-mkconfig -o /boot/grub2/grub.cfg (for Fedora) OR sudo update-grub (for Ubuntu) Reboot your system to apply the changes permanently. sudo reboot Side story: I had actually given up on Fedora and installed Ubuntu, then run into the same booting issue. But in Ubuntu, when it failed to boot, it took me to Busybox screen where I could run commands like blkid and such to diagnose the problem. So thank god for that. Now I can run Fedora thanks to Ubuntu. I would like to extend a special thank you to me for solving this issue. And a big shoutout to me. I think I'm gonna make myself blush.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798479/stuck-on-boot-loading-screen-when-booting-from-external-ssd
+
+---
+
+#### 1510. How to run node v20.x on CentOs 7.9?
+
+**问题描述 / Problem Description**:
+Tags: centos, gcc, libraries, glibc, node.js | Score: 1 | Views: 2818 | Answers: 3 | Created: 2024-11-22
+
+**解决方案 / Solution**:
+I decided to go around this issue using Docker. Actually it suits my case quite well!
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/787053/how-to-run-node-v20-x-on-centos-7-9
+
+---
+
+#### 1511. cgroups user slice directory is not getting recognized under /sys/fs/cgroups on Centos 7. 3
+
+**问题描述 / Problem Description**:
+Tags: centos, systemd, cgroups | Score: 1 | Views: 362 | Answers: 1 | Created: 2024-11-21
+
+**解决方案 / Solution**:
+I am using the concept of Dropin files by creating the directory /etc/systemd/system/user-.slice.d/ The ability to place drop-ins in "prefix" directories was only implemented in systemd v239 (which came out ~3 years after the release of v219). Before that, only "exact match" drop-in directories were considered. systemd/NEWS CHANGES WITH 239: [...] * When loading unit files, systemd will now look for drop-in unit files extensions in additional places. Previously, for a unit file name "foo-bar-baz.service" it would look for dropin files in "foo-bar-baz.service.d/*.conf". Now, it will also look in "foo-bar-.service.d/*.conf" and "foo-.service.d/", i.e. at the service name truncated after all inner dashes. This scheme allows writing drop-ins easily that apply to a whole set of unit files at once. It's particularly useful for mount and slice units (as their naming is prefix based), but is also useful for service and other units, for packages that install multiple unit files at once, following a strict naming regime of beginning the unit file name with the package's name. Two new specifiers are now supported in unit files to match this: %j and %J are replaced by the part of the unit name following the last dash. Either upgrade your system, or configure PAM to auto-generate individual drop-ins for each slice whenever a new UID logs in. You can use pam_exec.so for this – add it to the session section above pam_systemd (the latter is what registers the user slices), and make it call a script that creates drop-ins under /run/systemd . #!/bin/bash if [ "${PAM_TYPE?}" = open_session ]; then uid=$(id -u "${PAM_USER?}") cat > "/run/systemd/system/user-$uid.slice.d/limits.conf" <<-EOF ... EOF fi Same is working with Alma 8 / 9 . Those have a newer systemd version.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/786995/cgroups-user-slice-directory-is-not-getting-recognized-under-sys-fs-cgroups-on
+
+---
+
+#### 1512. How to restore title bar?
+
+**问题描述 / Problem Description**:
+Tags: centos, firefox, gui | Score: 1 | Views: 86 | Answers: 1 | Created: 2024-11-20
+
+**解决方案 / Solution**:
+Right click on the Menu bar → Customize Toolbar and on the bottom make sure that Title Bar is checked.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/786896/how-to-restore-title-bar
+
+---
+
+#### 1513. How to disable TLSv1.2 in my CENTOS based system
+
+**问题描述 / Problem Description**:
+Tags: centos, apache-httpd, ssl | Score: 1 | Views: 462 | Answers: 1 | Created: 2024-10-09
+
+**解决方案 / Solution**:
+TLS 1.2 is not deprecated by any major players that I know of. Based on over half a million log records, for web the current breakdown is 80/20 (1.3/1.2) and for email it is 75/25. So if you disallow 1.2 you will cut off a quarter to a fifth of the world. You can check TLS versions at https://www.checktls.com/TestReceiver . For web, open the More Options and change the port to 443 (HTTPS).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/784805/how-to-disable-tlsv1-2-in-my-centos-based-system
+
+---
+
+#### 1514. Compling kernel in CentOS 9
+
+**问题描述 / Problem Description**:
+Tags: centos, linux-kernel, compiling | Score: 1 | Views: 793 | Answers: 1 | Created: 2024-07-13
+
+**解决方案 / Solution**:
+You need the linux-kernel-headers libraries installed since the readahead.h library is part of the. Install the kernel-devel & kernel-headers packages for your centos kernel. To make sure the correct devel & header versions are installed use the following command: yum install "kernel-devel-uname-r == $(uname -r)" yum install "kernel-headers-uname-r == $(uname -r)" Make sure to remove the old ones first and reinstall them again with the above flags.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/780077/compling-kernel-in-centos-9
+
+---
+
+#### 1515. How to execute a command only once (so the second+ time it produces an error)?
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 129 | Answers: 2 | Created: 2026-04-15
+
+**解决方案 / Solution**:
+your mindset of prevention of an accidental execution of (one of) the previous command from the history... Such a command may overwrite files I believe is in vain. what will you do about the accidental once rm -rf /* ? I have accidentally (as an admin) mistyped in haste a rm -rf /usr/* for which a ctrl-c was not quick enough to prevent reinstalling linux. Totally my fault for not being responsible. so i would offer up focusing more on responsibility rather than worrying about "accidental" execution of a previous command in bash history (as you've described it) in addition to chattr and immutability, look at the sticky bit, and rm -i and cp -i for interactive yes/no prompt on those commands which can mitigate such things. And maybe use rsync instead of cp . your problem seems to be the focus on re-executing commands in bash history rather than programmatically within bash doing operations to reach some end goal reliably without fault... i.e. programming 101. And then if it's simply about losing or overwriting data, then data management 101 and having backups and proper file/folder permissions. AS an XFS guy it hurts me to say: the BTRFS file system can do periodic snapshots... instantaneous, space-efficient, point-in-time copies of subvolumes that allow for immediate file recovery or system rollback . So look into how to make use of that.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805462/how-to-execute-a-command-only-once-so-the-second-time-it-produces-an-error
+
+---
+
+#### 1516. ifconfig -a not showing NICs
+
+**问题描述 / Problem Description**:
+Tags: centos, network-interface, kernel-modules, intel, ifconfig | Score: 0 | Views: 91 | Answers: 1 | Created: 2026-04-01
+
+**解决方案 / Solution**:
+It does seem like your kernel’s e1000e is too old for this device. Support for Alder Lake was added to the kernel in 2020 (v5.7) but it’s possible it was never backported to CentOS 7’s kernel. As Stéphane Chazelas suggests , you may be able to install the last release of the external e1000e module; it knows about Alder Lake devices and should work on your system. To do this, download the e1000e archive , build the driver RPM and install it: yum install rpm-build kernel-headers rpmbuild -tb e1000e-3.8.7.tar.gz You may need to install other packages to get the build to complete successfully. At the end of the output from a successful build, you’ll see the name of the resulting RPM; install that with (as root) rpm -Uvh … Once that’s done, unload the current e1000e driver if necessary and load the new one (also as root): rmmod e1000e modprobe e1000e The module will automatically be used for future boots. Since CentOS is EOL you won’t have to rebuild the module for updated kernels in the future. If you’re comfortable enough patching code, you’ll want to apply the kernel fix too (it applies to the external module).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805246/ifconfig-a-not-showing-nics
+
+---
+
+#### 1517. VideoLAN publishes Dav2d for open-source AV2 decoder
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t1mxma/videolan_publishes_dav2d_for_opensource_av2/
+
+---
+
+#### 1518. Migrated a server at work from Windows Server 2016 to Debian yesterday
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t1qx20/migrated_a_server_at_work_from_windows_server/
+
+---
+
+#### 1519. [Copy-Fail] Debunking owLSM CVE-2026-31431 Mitigation: 90 upvotes and no security
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t1qqb5/copyfail_debunking_owlsm_cve202631431_mitigation/
+
+---
+
+#### 1520. Keyboard-Key-stickers? (Germany)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t1u2hs/keyboardkeystickers_germany/
+
+---
+
+#### 1521. ArkOS is underrated if you want to undergo severe levels of ptsd
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t1t6hw/arkos_is_underrated_if_you_want_to_undergo_severe/
+
+---
+
+#### 1522. Best firewall for Linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1snyy/best_firewall_for_linux/
+
+---
+
+#### 1523. Is a dual boot system reasonable and are there anything specific to take note of when trying?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1qm0w/is_a_dual_boot_system_reasonable_and_are_there/
+
+---
+
+#### 1524. need help cloning drive
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1omtd/need_help_cloning_drive/
+
+---
+
+#### 1525. Controlling front panel of HP Victus Desktop PC?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1ntni/controlling_front_panel_of_hp_victus_desktop_pc/
+
+---
+
+#### 1526. [HELP PLZ] Original home folder encrypted(?) so mint uses a backup please help
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1p0c9/help_plz_original_home_folder_encrypted_so_mint/
+
+---
+
+#### 1527. GEMTEk mini computer sleep and hibernate not waking up properly
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1oa1a/gemtek_mini_computer_sleep_and_hibernate_not/
+
+---
+
+#### 1528. Deciding first distro
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1tp84/deciding_first_distro/
+
+---
+
+#### 1529. I need some help (debian 13)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1tlx8/i_need_some_help_debian_13/
+
+---
+
+#### 1530. Showing Dpkg and Apt lock
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1tdt8/showing_dpkg_and_apt_lock/
+
+---
+
+#### 1531. Steam doesn't open any games and I don't know what's wrong or how to fix it PLEASE HELP
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1t9fe/steam_doesnt_open_any_games_and_i_dont_know_whats/
+
+---
+
+#### 1532. Best PDF reader for Linux? (read description)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1t9a8/best_pdf_reader_for_linux_read_description/
+
+---
+
+#### 1533. OneNotes for Linux Elementary OS
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1t65o/onenotes_for_linux_elementary_os/
+
+---
+
+#### 1534. How can i make macOS look more like... linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1syxv/how_can_i_make_macos_look_more_like_linux/
+
+---
+
+#### 1535. Im about to dualboot Windows and Arch, but im worried about a step in the installation process of Arch.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1sx0g/im_about_to_dualboot_windows_and_arch_but_im/
+
+---
+
+#### 1536. Which distro for development?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1r1te/which_distro_for_development/
+
+---
+
+#### 1537. My hyprland not working
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1pahg/my_hyprland_not_working/
+
+---
+
+#### 1538. How to temporarily disable "ppa.launchpadcontent.net" without manually commenting out ".list" files ?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1ov5m/how_to_temporarily_disable_ppalaunchpadcontentnet/
+
+---
+
+#### 1539. Kali dual boot
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1tefr/kali_dual_boot/
+
+---
+
+#### 1540. Can I also install windows on my pc?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1nr97/can_i_also_install_windows_on_my_pc/
+
+---
+
+#### 1541. The major Ubuntu server outage is over.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t1ov6s/the_major_ubuntu_server_outage_is_over/
+
+---
+
+#### 1542. Ubunutu 22.04 asking for a password on live cd ?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t1oqfi/ubunutu_2204_asking_for_a_password_on_live_cd/
+
+---
+
+#### 1543. I have dual boot window 11 with ubuntu on the same msi laptop, but why does the picture quality look better on linux than on windows 11 with the same desktop settings.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t1srfa/i_have_dual_boot_window_11_with_ubuntu_on_the/
+
+---
+
+#### 1544. is it possible to change password on lock window?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t1p4ak/is_it_possible_to_change_password_on_lock_window/
+
+---
+
+#### 1545. Vorrei personalizzare il mio desktop
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t1tj53/vorrei_personalizzare_il_mio_desktop/
+
+---
+
+#### 1546. Ubuntu working slower than windows for me
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t1rxzi/ubuntu_working_slower_than_windows_for_me/
+
+---
+
+#### 1547. Bootloader cant find windows after reinstalling to a different drive
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t1rxkw/bootloader_cant_find_windows_after_reinstalling/
+
+---
+
+#### 1548. Can't Download 24.04 LTS
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t1rtpn/cant_download_2404_lts/
+
+---
+
+#### 1549. Understanding partitioning
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t1p6ex/understanding_partitioning/
+
+---
+
+#### 1550. Video capture apps having a hard time recording audio.
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t1o46q/video_capture_apps_having_a_hard_time_recording/
+
+---
+
+#### 1551. whats the best way to keep all my files from win11
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t1r0o7/whats_the_best_way_to_keep_all_my_files_from_win11/
+
+---
+
+#### 1552. Proton Tricks Not Saving Changes
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t1pq3y/proton_tricks_not_saving_changes/
+
+---
+
+#### 1553. Calling scripts
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t1ppr3/calling_scripts/
+
+---
+
+#### 1554. Laptop Battery Completely Drained After Hours of Being Shut Down
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t1nyv2/laptop_battery_completely_drained_after_hours_of/
+
+---
+
+#### 1555. How can I use VNC to login remotely from GDM?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t1r0rc/how_can_i_use_vnc_to_login_remotely_from_gdm/
+
+---
+
+#### 1556. [V2EX] 目前可托管到 Cloudflare 公开注册的免费二级域名， Stackryze， DigitalPlat， DNSHE
+
+**问题描述 / Problem Description**:
+一、Stackryze 网站： domain.stackryze.com 后缀：.indevs.in 注册方式：GitHub （一个免费账户仅一个免费域名） 有效期：1 年，可续 二、DigitalPlat 网站： domain.digitalplat.org 后缀：.dpdns.org / .us.kg / .qzz.io / .xx.kg （部分需要赞助） 注册方式：邮箱 + GitHub （一个免费账户仅一个免费域名） 有效期：每年续 三、DNSHE （ SLA 较差） 网站： www.dnshe.com 后缀：.ccwu.cc 注册方式：邮箱 有效期写的十年 DNSHE 以前的 cc.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210029#reply0
+
+---
+
+#### 1557. [V2EX] 开了梯子之后 Apple id 登陆很慢或者直接连不上，有没有大佬能分享下 Apple 域名的 clash 分流规则
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210023#reply2
+
+---
+
+#### 1558. [V2EX] 买了一台 256G 显存, 96G 内存电脑放家里, 如何对外出租出售剩余算力?
+
+**问题描述 / Problem Description**:
+打算通过 ddns 搞一个出租页面, 可以在平时不用的时候把算力出租出去回点血, 请问这个方案可行吗?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210021#reply9
+
+---
+
+#### 1559. [V2EX] 有没有必要开个 claude code 体验下呢
+
+**问题描述 / Problem Description**:
+之前是做测试的，一直没正经用过 claude code 。本来也不是啥正经码农，就是最近会没事玩玩 github 项目，改改代码之类的。之前一直在白嫖腾讯家的那俩龙虾，最好的模型就是 glm5.1 吧。用起来有时候也觉得一般，在我不看代码的情况下有可能会卡在一个问题上反复修改，体验挺差的。所以在想要不要试试高级的到底啥样，都说现在封号厉害，还有靠谱的渠道吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210019#reply3
+
+---
+
+#### 1560. [V2EX] 2026 年了， Notepad++ 对比 VSCode ，优势在哪？
+
+**问题描述 / Problem Description**:
+讨论如题，优势在哪？ 身边的同事，不少人还在用着 Notepad++,刚微信文章也在说 Notepad++有 Mac 版本了，然后想到了这个问题。 用过一段时间的 Notepad ，并没有感觉有非用不可得地步。 本着工作流做减法的原则，然后就卸载了，统一用 VSCode 了。 在我看来，Notepad 已经是上一代的产品了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210012#reply27
+
+---
+
+#### 1561. [V2EX] cc 用 mimo2.5pro 和 deepseekv4pro 哪个好一点呀，用得快嘛
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209956#reply2
+
+---
+
+#### 1562. [V2EX] glm-5.1, kimi-k2.6 在 code arena React 项目上排名 5 和 6，是不是真的好用？
+
+**问题描述 / Problem Description**:
+真的假的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209926#reply20
+
+---
+
+#### 1563. [V2EX] 联通云 coding plan 的 deepseek v4 系列被强行关闭思考模式了，用户无法强行开启
+
+**问题描述 / Problem Description**:
+用了一堆的参数覆盖，没有任何的思考输出： { "reasoning_effort": "max", "reasoning": "true", "enable_thinking": true, "thinking_budget": 16384, "thinking": { "type": "enabled" } } 然后我让 gpt5.5 设计了一个难题，结果回答错误，而且回答速度过于快了 大家可以自己问问 问题： 请只给最终答案，不要解释过程。 有 8 个盒子，标签分别是 1 到 8 。初始时，标签 i 的盒子里有 i 颗糖。 现在依次执行三步： 第一步：标签为奇数的盒子，里面糖数翻倍。 第二
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209908#reply8
+
+---
+
+#### 1564. [V2EX] 有没有稳定 GPT 不降智的机场？
+
+**问题描述 / Problem Description**:
+开了 gpt pro ，但是号经常降智只输出 mini 。有没有 codex 比较稳定，而且 Pro 不会降智的机场？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209869#reply25
 
 ---
