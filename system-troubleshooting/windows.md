@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1581**
+**总计条目 / Total entries: 1693**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -26256,5 +26256,1521 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1209859#reply10
+
+---
+
+#### 1582. Random mouse lag/choppiness in game lobbies (Marvel Rivals & Roblox) — Fixed by setting Hz to 60?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1lozq/random_mouse_lagchoppiness_in_game_lobbies_marvel/
+
+---
+
+#### 1583. GUYS PLEASE HELP ME WITH MY HP COMPUTER
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1lnen/guys_please_help_me_with_my_hp_computer/
+
+---
+
+#### 1584. Random shutdowns on $1800,- PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1lene/random_shutdowns_on_1800_pc/
+
+---
+
+#### 1585. Can't find drivers for Xi400DE-HDMI gen 1 quad HDMI Magewell PCIE capture card
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1lbi9/cant_find_drivers_for_xi400dehdmi_gen_1_quad_hdmi/
+
+---
+
+#### 1586. Laptops charger cable for a different country's plug type.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1lbbc/laptops_charger_cable_for_a_different_countrys/
+
+---
+
+#### 1587. Help, can’t install Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1l54k/help_cant_install_windows_11/
+
+---
+
+#### 1588. Loading subfolders in Pix
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1l0y3/loading_subfolders_in_pix/
+
+---
+
+#### 1589. Phone loses connection after few hours
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1krz3/phone_loses_connection_after_few_hours/
+
+---
+
+#### 1590. GPU fan clicking noise at a very specific moment
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1kpix/gpu_fan_clicking_noise_at_a_very_specific_moment/
+
+---
+
+#### 1591. I want to know what files are affected on my corrupted hard drive.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1kklc/i_want_to_know_what_files_are_affected_on_my/
+
+---
+
+#### 1592. Low GPU power and battery drain while gaming
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1ked7/low_gpu_power_and_battery_drain_while_gaming/
+
+---
+
+#### 1593. USB device not recognized
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1ke3y/usb_device_not_recognized/
+
+---
+
+#### 1594. Ram error(?)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1kb1m/ram_error/
+
+---
+
+#### 1595. Black screen switch lite
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1k6eg/black_screen_switch_lite/
+
+---
+
+#### 1596. Windows 11 color banding/weird lines on images
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1k4ft/windows_11_color_bandingweird_lines_on_images/
+
+---
+
+#### 1597. How to Uninstall Program.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1k311/how_to_uninstall_program/
+
+---
+
+#### 1598. Info
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t1l4t3/info/
+
+---
+
+#### 1599. Help me choose between these monitors!
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1ljgp/help_me_choose_between_these_monitors/
+
+---
+
+#### 1600. Rtx 5070 recommendation along with compatibility of current PSU
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1ktuq/rtx_5070_recommendation_along_with_compatibility/
+
+---
+
+#### 1601. Suggestion (finally i get a 5070ti?)
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1lp7u/suggestion_finally_i_get_a_5070ti/
+
+---
+
+#### 1602. Aio fan ticking
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1lnq5/aio_fan_ticking/
+
+---
+
+#### 1603. PC not posting, tried everything. NEED HELP!
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1lmoh/pc_not_posting_tried_everything_need_help/
+
+---
+
+#### 1604. 6 year old build - looking to downsize and upgrade
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1ljzk/6_year_old_build_looking_to_downsize_and_upgrade/
+
+---
+
+#### 1605. Fake or genuine?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1le8o/fake_or_genuine/
+
+---
+
+#### 1606. I want to build a pc but I don't know what to use
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1ld9c/i_want_to_build_a_pc_but_i_dont_know_what_to_use/
+
+---
+
+#### 1607. Case Fan Power Issues
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1kgd0/case_fan_power_issues/
+
+---
+
+#### 1608. First pc build, any reccomendations?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1kdh7/first_pc_build_any_reccomendations/
+
+---
+
+#### 1609. Loading subfolders in Pix
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t1l2k2/loading_subfolders_in_pix/
+
+---
+
+#### 1610. Loading subfolders in Pix
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t1kz7x/loading_subfolders_in_pix/
+
+---
+
+#### 1611. [V2EX] 求推荐对 claude code, chatgpt 友好的联网方法
+
+**问题描述 / Problem Description**:
+安装 claude code 返回不支持的区域，chatgpt 也经常访问不了。有比较稳定的机场或上网方式吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209995#reply0
+
+---
+
+#### 1612. [V2EX] 大家现在在企业使用 AI 开发一个新需求的时候，是告诉 AI 做什么，还是告诉 AI 怎么做？
+
+**问题描述 / Problem Description**:
+前提：非 VB CODING 的小玩具，企业已有的大型项目，迭代了很多年的那种。 比如一个新的产品需求过来，大家使用 AI ，一般是告诉 AI 做什么，比如告诉 AI 我要实现一个绑定多张银行卡的逻辑 还是告诉 AI ，我要实现一个绑定多张银行卡的逻辑，你第一步去 A 服务查询用户可绑定的银行卡 ，第二步去 B 服务调用 xxx ，第三步去 C 服务等等，比较细节告诉 AI ，AI 只管实现就行 第二种 AI 生成的代码可用率基本在 90%+，但是很多细节需要告诉 AI 怎么做 第一种就是 AI 自有发挥，能实现这个功能就行，具体怎么实现就像一个黑盒子。 我现在一直尝试使用第一种，使用 ope
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209993#reply0
+
+---
+
+#### 1613. [V2EX] 有没有阿里云的同学？？出现问题 ：连接到 img.alicdn.com 时发生错误。SSL 接收到一个异常的证书握手信息。
+
+**问题描述 / Problem Description**:
+从 2026 年 04 月 28 日下午开始，阿里云的一些图片就无法展示出来 。浏览器也一直提示不安全 blabla……。等大半天了 到现在还这样 地区：广州电信 今天 2026 年 05 月 02 日，测试了大半天，发现有可能是这个 CDN 节点有问题：14.29.63.X 换了武汉节点目前正常。暂时没发现问题。 ``` Firefox 打开 就会出现这个提示 连接到 img.alicdn.com 时发生错误。SSL 接收到一个异常的证书握手信息。 错误代码：SSL_ERROR_RX_MALFORMED_CERTIFICATE 由于不能验证所收到的数据是否可信，无法显示您想要查看的页面。 建
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209992#reply0
+
+---
+
+#### 1614. [V2EX] 最近微信老是退出
+
+**问题描述 / Problem Description**:
+如题所示，mac 和 ipad 的微信最近不知道为什么老是会退出登录提示风险，有无大佬也遇到了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209990#reply0
+
+---
+
+#### 1615. [V2EX] 大家现在都是用什么办法订阅 gpt pro 的？
+
+**问题描述 / Problem Description**:
+这两天 plus 过期了，之前是找代充的，最近这几天有点封得太狠了。不太敢找代充买 pro 。 现在什么办法可以稳定买 pro 啊，早上研究了一圈，太麻烦了，想花钱都这么难。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209979#reply4
+
+---
+
+#### 1616. [V2EX] v 站有没有喜欢赛车游戏的朋友，想买个方向盘
+
+**问题描述 / Problem Description**:
+个人是比较喜欢赛车的，虽然不是真正的硬核玩家，平时也不太有时间开，地平线 5 大概 500 小时左右。 现在地平线 6 快发了，之前都是手柄，现在想搞个方向盘开。 需求就是，能玩地平线这种休闲游戏就行，并不追求拟真的赛车模拟，但是希望方向盘手感不要过于拉稀。 因为是娱乐需求，不准备花太多钱。我看有上万元的模拟方向盘，实在是买不起这种。 希望买那种技术上说得过去（不太清楚方向盘都有哪些驱动技术），的入门产品。 不知道有没有熟悉的 v 友推荐个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209972#reply6
+
+---
+
+#### 1617. [V2EX] 有没有一个聚合平台，比如说想订阅 deepseek v4 模型，看看哪家平台便宜好用？
+
+**问题描述 / Problem Description**:
+另外为啥火山引擎平台没有上架 deepseek v4
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209968#reply8
+
+---
+
+#### 1618. [V2EX] 2026 年 5 月，最新的穷鬼 AI 套餐有哪些？
+
+**问题描述 / Problem Description**:
+月租 50 人民币以内，之前有 codex plus ， 现在已经没法开通了。 还有没有其他的平替呢？天才程序员已经陨落了两天了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209933#reply19
+
+---
+
+#### 1619. [V2EX] 上下班 单程 70 分钟 能做点什么?
+
+**问题描述 / Problem Description**:
+全程地铁, 无座, 但是不算特别拥挤(2/3 线城市), 倒 1 次车. 想做点有意义的事情. 本来时间就不多, 这两个多小时算是我一天中最宝贵的"个人"时间了. 提前感谢.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209914#reply15
+
+---
+
+#### 1620. Laptop does not boot when plugged in, but boots in fine when on battery
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1m9eo/laptop_does_not_boot_when_plugged_in_but_boots_in/
+
+---
+
+#### 1621. Why is this option "automatic lock" on Windows not working?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1m7u6/why_is_this_option_automatic_lock_on_windows_not/
+
+---
+
+#### 1622. My laptop doesn’t properly turn off
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1m794/my_laptop_doesnt_properly_turn_off/
+
+---
+
+#### 1623. My Laptop keeps shutting down while i play video games.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1mjvj/my_laptop_keeps_shutting_down_while_i_play_video/
+
+---
+
+#### 1624. I am asking questions and joining a thread and all my posts and comments get automatically removed for not having karma orwhatever that means? i have always lurked on reddit and never posted and because of that i cant ask questions? any moderator that can help out??? my question was about stereo mix
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1mhmd/i_am_asking_questions_and_joining_a_thread_and/
+
+---
+
+#### 1625. Phone screen becomes unresponsive or freaking out a little when connected to a mini power amp through aux
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1mhdq/phone_screen_becomes_unresponsive_or_freaking_out/
+
+---
+
+#### 1626. Minisforum M1 pro 285H proxmox oculink issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1mcap/minisforum_m1_pro_285h_proxmox_oculink_issues/
+
+---
+
+#### 1627. cloning and changing SSD of the same slot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1mbg5/cloning_and_changing_ssd_of_the_same_slot/
+
+---
+
+#### 1628. Microsoft brings a Linux-style window trick to Windows 11 via PowerToys, and I can't go back
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t1hyzk/microsoft_brings_a_linuxstyle_window_trick_to/
+
+---
+
+#### 1629. What is the cheapest 1440p GPU?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1lx31/what_is_the_cheapest_1440p_gpu/
+
+---
+
+#### 1630. Question about Palit 5080 GamingPro thickness
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1mffq/question_about_palit_5080_gamingpro_thickness/
+
+---
+
+#### 1631. Cpu change from i510400F
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1mes5/cpu_change_from_i510400f/
+
+---
+
+#### 1632. Ram Upgrade to 3200mhz
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1mcxc/ram_upgrade_to_3200mhz/
+
+---
+
+#### 1633. RX 6700 XT Shootdown in heavy games
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1m604/rx_6700_xt_shootdown_in_heavy_games/
+
+---
+
+#### 1634. Help me build my first gaming PC
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1m0vv/help_me_build_my_first_gaming_pc/
+
+---
+
+#### 1635. Ryzen 5 5500 to 5600x or 5700x?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t1lzkj/ryzen_5_5500_to_5600x_or_5700x/
+
+---
+
+#### 1636. How I Solved Scattered Product Documentation with Executable Workflows
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t1ma73/how_i_solved_scattered_product_documentation_with/
+
+---
+
+#### 1637. Q-Dir users: Do you know a way to overcome this glitch?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t1mb33/qdir_users_do_you_know_a_way_to_overcome_this/
+
+---
+
+#### 1638. Cant open microsoft store and spotify.
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t1m73f/cant_open_microsoft_store_and_spotify/
+
+---
+
+#### 1639. swf exports from Newgrounds Swivel display different colours
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t1m15s/swf_exports_from_newgrounds_swivel_display/
+
+---
+
+#### 1640. [V2EX] 大家现在都是用什么办法订阅 gpt pro 的？
+
+**问题描述 / Problem Description**:
+这两天 plus 过期了，之前是找代充的，最近这几天有点封得太狠了。不太敢找代充买 pro 。 现在什么办法可以稳定买 pro 啊，早上研究了一圈，太麻烦了，想花钱都这么难。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209979#reply7
+
+---
+
+#### 1641. [V2EX] 这是不是现在性价比最高的 codex pro 付费方式了？
+
+**问题描述 / Problem Description**:
+昨天找代理充的 pro 炸了，去找了一下更高性价比的方式。 找到一个路子是这么说的： 梯子挂到菲律宾，订阅 pro 20x 不到 1000 块。 然后跟一个人拼，两个人人均不到 500 。 ---------> 想问一下有试过这个路子的朋友吗？ 稳吗 多谢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209946#reply8
+
+---
+
+#### 1642. How to add custom Windows Search provider to Windows 10/11?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, search | Score: 0 | Views: 39 | Answers: 1 | Created: 2026-04-05
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936461/how-to-add-custom-windows-search-provider-to-windows-10-11
+
+---
+
+#### 1643. How to get "pwsh.exe" to exist and to work on my Windows-11 machine?
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, windows-11 | Score: 0 | Views: 393 | Answers: 1 | Created: 2026-03-23
+
+**解决方案 / Solution**:
+pwsh.exe is the newer PowerShell executable (or "PowerShell Core"), i.e. currently the 7.x series. It installs separately from the built-in "Windows PowerShell" 5.x, so that you end up having both. There are at least five "global" installation methods listed in its documentation at: https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell-on-windows such as winget winget install --id Microsoft.PowerShell --source winget or a direct MSI download from the website. Once installed, it will get updated through Windows Update / Microsoft Update – or at least if you install through MSI (I'm not sure whether that applies to Winget installations or not).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936087/how-to-get-pwsh-exe-to-exist-and-to-work-on-my-windows-11-machine
+
+---
+
+#### 1644. My "Custom" TCP template has vanished and TCP stack reset isnt bringing it back. How do I remedy this?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, windows-registry, windows-networking | Score: 0 | Views: 32 | Answers: 1 | Created: 2026-03-20
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936004/my-custom-tcp-template-has-vanished-and-tcp-stack-reset-isnt-bringing-it-back
+
+---
+
+#### 1645. Windows 11 Dell XPS 14 Network Connection Lost
+
+**问题描述 / Problem Description**:
+Tags: windows, dhcp, dell-xps | Score: 0 | Views: 58 | Answers: 1 | Created: 2026-03-17
+
+**解决方案 / Solution**:
+You correctly point out three changes: "switching to Windows 11, the second docking station, and the Dell XPS laptop," The issue could be due to any or all of those three variables, and a way to narrow down the cause would be to deal with them one at a time . Test if Windows 11 is at fault by booting and running the Dell from USB using another operating system . Use WinToUSB or an alternative to make Windows 10 bootable media, and test using that OS for a while. If the system performs flawlessly, then you need to make changes to the Windows 11 OS on the Dell. Test if the Dell Pro Smart Dock SD25 docking station is at fault by running without that for a while. If the system performs flawlessly, then the dock is at fault. If the other tests don't identify the culprit, then test if the Dell XPS 14 9440 is at fault by substituting a similar laptop that can use the dock. Admittedly, this means the customer would need to find another PC, and substitute it for the 9440... a nuisance.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935911/windows-11-dell-xps-14-network-connection-lost
+
+---
+
+#### 1646. Get Title of Remote Desktop Connection
+
+**问题描述 / Problem Description**:
+Tags: windows, remote-desktop, windows-11 | Score: 0 | Views: 44 | Answers: 1 | Created: 2026-03-11
+
+**解决方案 / Solution**:
+Get-Process | Select MainWindowTitle This command on my workstation, in both Windows PowerShell and PowerShell (7), shows the RDC window title with the preceding connection name. You can get just the RD window info using Where-Object : get-process | where ProcessName -like "mstsc" | select MainWindowTitle
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935763/get-title-of-remote-desktop-connection
+
+---
+
+#### 1647. Where is my current Windows SDK installed?
+
+**问题描述 / Problem Description**:
+Tags: windows, installation, windows-11, windows-registry, sdk | Score: 0 | Views: 115 | Answers: 1 | Created: 2026-03-10
+
+**解决方案 / Solution**:
+Download the Windows installer cleanup utility: https://www.majorgeeks.com/files/details/windows_installer_cleanup_utility.html Should find something SDK named in it, clean it up and then you should be able to install the new version.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935716/where-is-my-current-windows-sdk-installed
+
+---
+
+#### 1648. How do I install Tidyp for HTML::Tidy (Perl) on Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows, html, github, perl, packages | Score: 0 | Views: 85 | Answers: 1 | Created: 2026-03-08
+
+**解决方案 / Solution**:
+Installing Perl packages on Windows You ask for a complete set of instructions on how to download, build and install Perl packages from GitHub on Windows? In my experience, one does not normally install Perl packages by downloading from Github and compiling anything. Most Perl packages are pure Perl and can be installed without compilation. I believe the exceptions are much more complex and not the norm. I always prefer and seek pure Perl packages precisely because of cross-platform issues. The way I normally installed Perl packages on Windows in the past was by using Perl's package manager cpan either as a command or as a module invocation. In my experience, Non-Perl dependencies are not typically installed by a Perl oriented package installation process such as cpan . They have to be installed by a separate process tailored to each project. Installing tidyp on Windows tidyp is available at https://github.com/petdance/tidyp . It was last updated 16 years ago. The INSTALL instructions are for Linux $ ./configure $ make $ sudo make install Adapting this for Windows may be non-trivial though it was obviously done in the past. As others say, you need at least a c compiler and a good understanding of using it. Generally I would advise using a package manager but it seems probable that this program might not be available through a Microsoft Windows package manager. Alternatives to tidyp It seems tidyp is no longer maintained and HTML::Tidy therefore not usable for you. I read tidyp was a fork of an earlier project HTML-tidy , so you might be able to use that instead. You would probably have to invoke it from Perl directly rather than through a Perl module. Alternatives to HTML::Tidy Others have mentioned HTML::Lint Other tools for extracting text from HTML There must be many many ways to extract plain-text from HTML. The first that springs to mind is Pandoc . $ echo "<p>This is a test</p>" | pandoc -f html -t markdown Parsing HTML or web-scraping There is also a lot to be found by a web search for "perl web scraper" or "perl html parser" that might be useful in your use case even if not web-scraping. You can use an HTML parser to process an HTML document as a tree and print the text content of the leaf nodes. Other languages than Perl I used to do all this kind of work in Perl but now I use go $ cat html2text.go package main import ( "golang.org/x/net/html" "io" "strings" ) // extract plain text from HTML func HTML2Text(h io.Reader) string { var sb strings.Builder tokenizer := html.NewTokenizer(h) previousToken := tokenizer.Token() priorSpace := false loop: for { token := tokenizer.Next() switch token { case html.ErrorToken: break loop // End of the document, done case html.StartTagToken: previousToken = tokenizer.Token() case html.TextToken: if previousToken.Data == "script" || previousToken.Data == "style" { continue } text := strings.TrimSpace(html.UnescapeString(string(tokenizer.Text()))) // replace control characters with space and condense spaces. for _, r := range text { if r > 32 { sb.WriteRune(r) priorSpace = false } else { if !priorSpace { sb.WriteRune(' ') priorSpace = true } } } } } return sb.String() }
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935652/how-do-i-install-tidyp-for-htmltidy-perl-on-windows
+
+---
+
+#### 1649. What are the Windows 10 and Windows 11 taskbar heights at standard 4k resolution with default scaling? I need the screen.availHeight JS browser values
+
+**问题描述 / Problem Description**:
+Tags: windows-10, windows-11, resolution, taskbar, 4k-resolution | Score: 0 | Views: 177 | Answers: 1 | Created: 2026-03-01
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935439/what-are-the-windows-10-and-windows-11-taskbar-heights-at-standard-4k-resolution
+
+---
+
+#### 1650. Where to list technical Windows users such as SYSTEM, DWM-1, UMFD-0, etc?
+
+**问题描述 / Problem Description**:
+Tags: windows, user-accounts | Score: 0 | Views: 158 | Answers: 1 | Created: 2026-02-27
+
+**解决方案 / Solution**:
+Each generic (pseudo) user or group in Windows has a specific well-known security identifier (SID). This is important because system user accounts can have different names in other languages, but they'll always have the same SID in all OS versions. For example, NT-AUTORITÄT\SYSTEM in German Windows still has SID S-1-5-18 . Most software and documentation only refers to the SID for this reason. Here are the documented full lists of these users and groups: Well-known SID structures: https://learn.microsoft.com/en-en/openspecs/windows_protocols/ms-dtyp/81d92bba-d22b-4a8c-908a-554ab29148ab Well-known SIDs: https://learn.microsoft.com/en-us/windows/win32/secauthz/well-known-sids Wikipedia for Security Identifier: https://en.wikipedia.org/wiki/Security_Identifier You can list these for running processes with Powershell like so: # NOTE: requires running as administrator to see all process owner info # Option 1: show the display name for the process owners like in Task Manager Get-Process -IncludeUserName # Option 2: show the SID for a process: Get-CimInstance -ClassName Win32_Process | Where Name -Like "Notepad*" | ## edit this! Select ProcessId, Name, @{l='OwnerSid';e={(Invoke-CimMethod $PSItem -MethodName GetOwnerSid).Sid}} | Format-Table -AutoSize
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935367/where-to-list-technical-windows-users-such-as-system-dwm-1-umfd-0-etc
+
+---
+
+#### 1651. Why does the audio on my Bose headphones stop working when I select the Bose microphone? How can I fix this?
+
+**问题描述 / Problem Description**:
+Tags: windows, audio, windows-11, microphone, bose | Score: 0 | Views: 56 | Answers: 1 | Created: 2026-02-25
+
+**解决方案 / Solution**:
+Re-pairing the headphones fixed the issue. I have no clue why. The issue had been present for over 1 week. Steps to re-pair the headphones (which resolved the issue): Go to Settings -> Bluetooth & devices Remove the Bose QC35 II device Put the Bose headphones into pairing mode Re-pair them with Windows Now I see the same audio info in MS Teams, but it works:
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935291/why-does-the-audio-on-my-bose-headphones-stop-working-when-i-select-the-bose-mic
+
+---
+
+#### 1652. How can I restore the Excel window title bar?
+
+**问题描述 / Problem Description**:
+Tags: windows, microsoft-excel | Score: 0 | Views: 84 | Answers: 1 | Created: 2026-02-20
+
+**解决方案 / Solution**:
+The title bar hasn't disappeared. It's still there in your screenshot: It has only shrunk because the "quick access toolbar" has had lots of buttons added to it, pushing the titlebar's contents to the side: Right-click those buttons and either remove some of them, or choose "Show Quick Access Toolbar below the ribbon". Excel 2013 doesn't have a "fully standard" title bar – this has been the layout of the main Microsoft Office apps since Office 2007, with the Quick Access Toolbar having been added at the same time as the Ribbon. (By default it only has Undo/Redo/Save buttons.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935116/how-can-i-restore-the-excel-window-title-bar
+
+---
+
+#### 1653. How to convert a USB flash drive to NTFS from exFAT on Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows, formatting, usb, file-format, ntfs | Score: 0 | Views: 209 | Answers: 1 | Created: 2026-02-18
+
+**解决方案 / Solution**:
+On Windows 10, I had absolutely no trouble changing a 64GB drive, reformatting to NTFS from exFAT, and then back again. Try formatting another USB flash (or SSD) drive as NTFS. If you cannot do so, then there are issues with Windows 11. If you can format the other drive, then the one that fails formatting is likely defective. You can examine the drive with diskmgmt.msc to see if it is healthy and has been partitioned, as below.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935043/how-to-convert-a-usb-flash-drive-to-ntfs-from-exfat-on-windows-11
+
+---
+
+#### 1654. Powershell opens briefly, then disappears. It had been working fine
+
+**问题描述 / Problem Description**:
+Tags: windows, command-line, powershell | Score: 0 | Views: 176 | Answers: 2 | Created: 2026-02-15
+
+**解决方案 / Solution**:
+It is possible that by taking ownership, or attempting to take ownership either the user profile or Windows OS was damaged. Create a new user with Administrator rights and test PowerShell as that user. If it works, your profile is damaged. Repair it or create a new profile . Check if Windows 10 OS was damaged. Though you can try SFC and DISM to repair the OS, reinstalling from Windows 10 ISO , keeping files, is more likely to succeed. As others have stated, without knowing which file's ownership was changed , it's hard to be more specific.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934933/powershell-opens-briefly-then-disappears-it-had-been-working-fine
+
+---
+
+#### 1655. Why is the system tray icon gone for Tobii Horizon Eye Tracker?
+
+**问题描述 / Problem Description**:
+Tags: windows, tobii-experience | Score: 0 | Views: 40 | Answers: 1 | Created: 2026-02-07
+
+**解决方案 / Solution**:
+The system tray icon for Tobii Horizon Experience is tied to the service Tobii Service . Restart that service, and the system tray icon will reappear.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934679/why-is-the-system-tray-icon-gone-for-tobii-horizon-eye-tracker
+
+---
+
+#### 1656. What is Windows Default partition sizes for System Reserved?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, partitioning, mbr, system-reserved-partition | Score: 0 | Views: 67 | Answers: 1 | Created: 2026-02-07
+
+**解决方案 / Solution**:
+There is no single fixed size. Search the first several gigabytes for NTFS markers (this is what Testdisk does) until you find the start sector of your main C: partition that follows. This will establish the maximum boundary of the preceding "system reserved" partition. Recovering the main C: partition first might be safer, as it'll cause your tools to warn about overlap if you accidentally make the boot/system/reserved partition too large. You don't need to recover the "system reserved" partition itself. Create an empty one, format it, then fill it using bcdboot and write the VBR (boot code) using bootsect .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934658/what-is-windows-default-partition-sizes-for-system-reserved
+
+---
+
+#### 1657. Why is my volume label missing on a drive letter pointing to a local folder containing symlinks to shared folders on servers?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, windows-explorer, windows-registry | Score: 0 | Views: 109 | Answers: 1 | Created: 2026-02-02
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934456/why-is-my-volume-label-missing-on-a-drive-letter-pointing-to-a-local-folder-cont
+
+---
+
+#### 1658. How can I remap a single letter key, to trigger 2 letter keys on a Windows PC?
+
+**问题描述 / Problem Description**:
+Tags: windows, keyboard, keyboard-shortcuts, desktop-computer, remapping | Score: 0 | Views: 146 | Answers: 2 | Created: 2026-01-31
+
+**解决方案 / Solution**:
+AutoHotKey worked perfectly for this. Sample Script (AHK v2) #Requires AutoHotkey v2.0 HoldChord(k1, k2) { Send "{" k1 " down}{" k2 " down}" } ReleaseChord(k1, k2) { Send "{" k2 " up}{" k1 " up}" } #HotIf WinActive("ahk_exe Hollow Knight Silksong.exe") ;;;;;;;;;;;;;;;;;;;;;;; ;; q => w+d (tool 1) ;; ;;;;;;;;;;;;;;;;;;;;;;; q:: { HoldChord("w", "d") } q up:: { ReleaseChord("w", "d") } ;;;;;;;;;;;;;;;;;;;;;;; ;; e => s+d (tool 2) ;; ;;;;;;;;;;;;;;;;;;;;;;; e:: { HoldChord("s", "d") } e up:: { ReleaseChord("s", "d") } #HotIf
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934384/how-can-i-remap-a-single-letter-key-to-trigger-2-letter-keys-on-a-windows-pc
+
+---
+
+#### 1659. Why are my VMWare Workstation Host-Only Virtual Networks not working?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, networking, redhat-enterprise-linux, vmware-workstation | Score: 0 | Views: 121 | Answers: 1 | Created: 2026-01-29
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934290/why-are-my-vmware-workstation-host-only-virtual-networks-not-working
+
+---
+
+#### 1660. How can I create an alias in Windows for the "DIR" command?
+
+**问题描述 / Problem Description**:
+Tags: windows, ubuntu, windows-subsystem-for-linux, alias, dir | Score: 0 | Views: 311 | Answers: 1 | Created: 2026-01-27
+
+**解决方案 / Solution**:
+Normally I would tell you how to make an alias which creates a new command with a slightly altered name such that /a is always used. Dir, however, is a special case, because it actually supports setting paramters to always on using the system variable DIRCMD. See command: dir /? for more help. In your case, you want to type in the following: set DIRCMD=/a Then run your DIR command to test if it works. If it works, run the following: setx DIRCMD "%DIRCMD%" This command will write the setting in your windows profile, so that it remains active if you close cmd and reopen it. If you can't get setx to work, or want an alternative way of making the change, you might run the env command in order to be able to modify the environment variables of your computer, and add the mentioned one. This can be done as follows:
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934209/how-can-i-create-an-alias-in-windows-for-the-dir-command
+
+---
+
+#### 1661. how to set system-wide proxy automatically using the current manual proxy?
+
+**问题描述 / Problem Description**:
+Tags: windows, networking, proxy, internet-connection | Score: 0 | Views: 74 | Answers: 1 | Created: 2026-01-26
+
+**解决方案 / Solution**:
+Oh I got part of my answer! netsh winhttp import proxy source=ie makes the current manual proxy as system-wide! but how to make that always happen? maybe a CMD in a task scheduler? or a batch file? I guess I got my answer completely!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934156/how-to-set-system-wide-proxy-automatically-using-the-current-manual-proxy
+
+---
+
+#### 1662. How to use Proxifier on WSL 2?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, proxy, windows-subsystem-for-linux, wsl2 | Score: 0 | Views: 232 | Answers: 1 | Created: 2026-01-23
+
+**解决方案 / Solution**:
+I got an official response from Proxifier support Proxifier Standard Edition v4 supports WSL. You need to enable both options at Profile->Advanced->Services_and_Other_Users in Proxifier. Proxifier supports WSL1 by default, but to work with WSL2 you need to install wsl-vpnkit: https://github.com/sakai135/wsl-vpnkit
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934064/how-to-use-proxifier-on-wsl-2
+
+---
+
+#### 1663. Is there a way to allow unprivileged users to create a scheduled task that runs on Windows startup?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-task-scheduler, task-scheduler | Score: 0 | Views: 245 | Answers: 3 | Created: 2026-01-18
+
+**解决方案 / Solution**:
+not really — this is by design. An On Startup task runs before any user logs in, so Windows treats it as a system-level action. Regular users are intentionally blocked from creating those tasks, even if you grant folder permissions or SeBatchLogonRight. Allowing this would be an easy privilege-escalation path. If something truly needs to run at boot without login, an admin has to create it (scheduled task or Windows service). For unprivileged users, On Logon is basically the only supported option.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933865/is-there-a-way-to-allow-unprivileged-users-to-create-a-scheduled-task-that-runs
+
+---
+
+#### 1664. Sleep power option is not available for my mining motherboard
+
+**问题描述 / Problem Description**:
+Tags: windows, bios, motherboard, sleep, power-options | Score: 0 | Views: 27 | Answers: 1 | Created: 2026-01-13
+
+**解决方案 / Solution**:
+Since this motherboard was designed for 24/7 use as a cryptominer, apparently, they did not include enabling any sleep state in BIOS/UEFI setup, neither S0, S1, S2 nor S3. That said, it should still be quite useful, since full Hibernation is available, and even full cold boot time should be just a few seconds with a moderately fast SSD. There are advantages to avoiding sleep: Should power be interrupted in sleep, work is lost, and the drive might be marked "dirty". Complete shutdown is more secure, since data is not in RAM. BTW, since I've switched to Linux/Windows dual boot and Linux-only machines, I've come to prefer doing a clean boot each time. That leaves the Windows partition clean, enabling mounting it RW in Linux, and booting into Linux OS is even faster... less than 20 seconds from hitting the power button, entering password, until fully booted and operational... on a 10 year old laptop! Any apps I want to start automatically can be added to Windows or Linux startup list, and most can reopen to same files or same web page as when closed.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933656/sleep-power-option-is-not-available-for-my-mining-motherboard
+
+---
+
+#### 1665. Installation Blocked: System Interference Preventing Npcap Setup
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, wireshark, capture | Score: 0 | Views: 42 | Answers: 1 | Created: 2026-01-07
+
+**解决方案 / Solution**:
+First, make sure you're downloading the npcap installer from the correct source . The link in WireShark should be a good source. Second, if you did download the file from that valid source and the installer file actually disappears, you need to check your Security Software logs to see if it has removed the installer. This will vary depending on your security software. Once you've confirmed that your security software is removing the file, do the following: BEFORE you whitelist the file, download the same installer file again and submit it to VirusTotal just to make sure you've got a valid file and there isn't some hidden malware. If VirusTotal reports the file is clean... Whitelist the file in your security software. Run the installer. Note: If you are on a company-owned computer, they may have separate whitelists or software rules, and you really should be asking them to assist you.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933376/installation-blocked-system-interference-preventing-npcap-setup
+
+---
+
+#### 1666. I spilled coffee on my WD My Passport Drive Plus (4TB, WDBZCD0080BBK-0B) external hard drive. Is it okay to plug it in after drying for a few weeks?
+
+**问题描述 / Problem Description**:
+Tags: windows, hard-drive, external-hard-drive, data-recovery | Score: 0 | Views: 71 | Answers: 1 | Created: 2026-01-04
+
+**解决方案 / Solution**:
+After a few weeks of drying, you should be safe. What is the exact model of WD My Passport external hard drive? My guess is you are safe since most models of WD My Passport external hard drives are sealed except for the USB access port. Did anything spill in there? I highly doubt that any liquid got in via the USB connector area since, if it was plugged in, an inserted USB cable would block anything from getting inside. If the drive mounts! Great! Life goes on. But what if the drive doesn’t mount? If the drive does not mount, don’t panic! It could just mean the internal USB to SATA bridge board is damaged. In that case, you would have to open up the case to extract the actual hard drive. Again, this should not be hard to do on most WD My Passport external hard drive models. Once the drive is extracted, you would need to connect it to your PC with a universal USB-to-SATA cable/converter. These are fairly easy to find, and can cost anywhere from $9.99 to $35.99 depending on capabilities. Like here is a simple Sabrent SATA to USB cable that is good for 2.5" inch drives; smaller laptop drives for around $9.99 (U.S.). My bet is your WD My Passport external hard drive is a smaller 2.5" inch drive so this should work fine. Or you can purchase a Unitek SATA and IDE to USB converter that can handle lots of different drive types such as 2.5" inches as well as 3.5" inch SATA and IDE drives for around $35.99 (U.S.). This is only relevant to you if your drive uses the larger/desktop form factor of 3.5" inches which would also require external power; which this converter provides. I wouldn’t use either cable or converter as a permanent new drive setup. If you want to use the same drive in a new USB hard drive enclosure, you can buy a new external case like this Sabrent 2.5 Inch SATA to USB 3.0 hard drive enclosure and use that instead. Heck, you could use this new hard drive enclosure instead of that first Sabrent SATA to USB cable I recommended. But let’s hope all is well with the external hard drive and you don’t have to resort to external hard drive “surgery.”
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933249/i-spilled-coffee-on-my-wd-my-passport-drive-plus-4tb-wdbzcd0080bbk-0b-externa
+
+---
+
+#### 1667. Is the "Maximize/Restore" shortcut still possible on Logitech MX Master 4 "Logi Options+"?
+
+**问题描述 / Problem Description**:
+Tags: windows, shortcuts, logitech-mouse | Score: 0 | Views: 133 | Answers: 2 | Created: 2025-12-30
+
+**解决方案 / Solution**:
+Thanks @music2myear Went into Logi Options+ made the mouse button I wanted to change activate an obscure a keyboard shortcut (ctrl+alt+shift+f12). Used autohotkey to generate a blank .ahk file Opened the blank .ahk file with notepad++ Pasted the following: ; ^ is Ctrl, ! is Alt, + is Shift ^!+F12:: { ; Get the MinMax state of the Active window ("A") ; 1 = Maximized, 0 = Restored/Normal if WinGetMinMax("A") == 1 { WinRestore("A") } else { WinMaximize("A") } } Save the .ahk in notepad++, exit notepad++ To make it work for the current windows session, Double click the .ahk file To make it work every time windows starts up, create a shortcut to the .ahk file and paste shortcut into your "C:\Users<user>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" this is a Windows 10 directory.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933103/is-the-maximize-restore-shortcut-still-possible-on-logitech-mx-master-4-logi
+
+---
+
+#### 1668. FFMPEG 2 pass vs single pass output seems to be idential. Is my 2 pass command missing something?
+
+**问题描述 / Problem Description**:
+Tags: windows, ffmpeg, video-encoding | Score: 0 | Views: 72 | Answers: 1 | Created: 2025-12-28
+
+**解决方案 / Solution**:
+This ended up being a situation where writing the question helped answer it. When I added the final line in my question I was just throwing out potential things that could be the issue but didn't think about earlier. So I decided to double check that and yep, it was the issue. I now see that for hevc_nvenc specifically 2 pass encoding is handled internally via setting the preset to 1 (slow) as that seems to be the only one that does 2 passes. Leaving this up in case anyone else runs in to the same issue.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932980/ffmpeg-2-pass-vs-single-pass-output-seems-to-be-idential-is-my-2-pass-command-m
+
+---
+
+#### 1669. Why can’t I access a local web server on computer 1 from local client on computer 2 without disabling the (public) Windows Firewall?
+
+**问题描述 / Problem Description**:
+Tags: windows, firewall, webserver | Score: 0 | Views: 84 | Answers: 1 | Created: 2025-12-28
+
+**解决方案 / Solution**:
+Okay. I figured it out. I was misinterpreting the firewall rules. There was indeed a rule for python.exe on Computer 1 that was blocking incoming requests on the "Public" profile. I was looking for a firewall rule using the name of the remote program (Chrome or similar) and not the local program name ( python.exe ). By allowing incoming requests, the problem is fixed. Lesson learned: The firewall program name is the local program name catching the request, not the remote program name making the request. Duh.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932968/why-can-t-i-access-a-local-web-server-on-computer-1-from-local-client-on-compute
+
+---
+
+#### 1670. Does Windows 11 "Voice Typing" use the same automated speech recognition engine as "Voice Access"?
+
+**问题描述 / Problem Description**:
+Tags: windows, speech-recognition, speech-to-text, windows-speech-recognition, windows-voice-access | Score: 0 | Views: 189 | Answers: 1 | Created: 2025-12-24
+
+**解决方案 / Solution**:
+Voice Access is on-device while Voice Typing is in the cloud. Therefore they likely use different speech recognition engines. Sources: https://support.microsoft.com/en-us/topic/set-up-voice-access-9fc44e29-12bf-4d86-bc4e-e9bb69df9a0e : Voice access is a feature in Windows 11 that enables everyone to control their PC and author text using only their voice and without an internet connection. https://support.microsoft.com/en-us/windows/use-voice-typing-to-talk-instead-of-type-on-your-pc-fec94565-c4bd-329d-e59a-af033fa5689f : With voice typing, you can enter text on your PC by speaking. Voice typing uses online speech recognition, which is powered by Azure Speech services.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932844/does-windows-11-voice-typing-use-the-same-automated-speech-recognition-engine
+
+---
+
+#### 1671. How does VirtualBox configure network without creating visible adapters in Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows, virtualbox, network-adapter | Score: 0 | Views: 72 | Answers: 1 | Created: 2025-12-17
+
+**解决方案 / Solution**:
+Neither of those actually configure a network as far as Windows knows. These are not "invisible adapters"; they don't have corresponding network adapters. 'NAT' mode uses SLiRP, a whole separate IP stack built into VirtualBox, to recognize and intercept TCP connections made by the VM. Whenever VirtualBox processes packets that look like the TCP connection handshake, it simply makes a corresponding outbound TCP connection like any normal app would. (So there always are two connections: one from the guest OS to the SLiRP "virtual router" on the host, and one from the host OS (VirtualBox.exe) to the real destination.) 'Bridge' mode uses a filter driver to directly attach ("tap") to one of the existing Ethernet interfaces. It switches that interface to promisc mode (allowing it to receive frames for any MAC address), then either redirects certain Ethernet frames to VirtualBox or injects them from VirtualBox to the physical interface. All bridging (including L2NAT for Wi-Fi) is implemented by the VirtualBox network driver. (If you open the "Properties" dialog for your physical adapter in ncpa.cpl you will see the VirtualBox driver attached there.) To create a network with a real interface (adapter) seen by Windows, use the 'Host-Only' networking mode. Despite the name it is not strictly host-only – you can have the host OS route packets from/to this adapter by enabling standard Windows IP forwarding (and possibly also have Windows NAT them if required) – but you will need to edit VirtualBox.xml so that its built-in DHCP server actually advertises the host's IP as the "default gateway" (by default it does not).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932544/how-does-virtualbox-configure-network-without-creating-visible-adapters-in-windo
+
+---
+
+#### 1672. What sneaky trick is Razor software using to start up, even after I have disabled all of the obvious services, and all the obvious tasks?
+
+**问题描述 / Problem Description**:
+Tags: windows | Score: -1 | Views: 40 | Answers: 1 | Created: 2026-04-10
+
+**解决方案 / Solution**:
+I found RzSynapse.exe in the Startup tab in the Windows Task Manager. It starts independently from the other Razor services and tasks.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936599/what-sneaky-trick-is-razor-software-using-to-start-up-even-after-i-have-disable
+
+---
+
+#### 1673. How can I configure Cursor IDE to show more than 5 recent projects on the welcome screen by default?
+
+**问题描述 / Problem Description**:
+Tags: windows, recent-items, cursor-ide | Score: -1 | Views: 44 | Answers: 1 | Created: 2026-04-09
+
+**解决方案 / Solution**:
+I would like to know whether there is any setting, configuration file, command-line option, or UI customization that allows Cursor to show more than 5 recent projects by default on that screen. Since Cursor IDE is a fork of Visual Studio Code, what you want would require you modify the source code of Cursor IDE, and rebuild the project yourself. Without modifying the source code to Cursor IDE what you want isn’t possible.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936596/how-can-i-configure-cursor-ide-to-show-more-than-5-recent-projects-on-the-welcom
+
+---
+
+#### 1674. Why has my screen saver stopped working in Windows 7?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-7, screensaver | Score: -1 | Views: 127 | Answers: 1 | Created: 2026-04-05
+
+**解决方案 / Solution**:
+There are some basic things to check. I'm assuming you have tried the good old reboot and test again steps. Sometimes video programs like VLC or media player will prevent the PC from sleeping. Since Covid there are popular mouse mover devices that try to prevent the PC from being locked, focus on putting your mouse in one spot on the screen, like on a period in a sentence then let it sit there for a few minutes, most mouse movers will act in 2-3 mins and you'll see the arrow in a different spot (if your mouse cursor is set to hide after a few seconds then you'll need to watch the screen intently to see if the mouse reappears without you touching the mouse.) Additionally I've had desks at home and work where people walking by would bounce the floor enough to move the mouse a tiny bit and prevent the screen saver, you can flip the mouse upside down in those busy areas just to check if that's the problem. Finally some keys can test if the PC can lock itself, use the Windows key + L to lock the screen, that might work in a pinch if you're needing to lock your PC at work and go to a meeting or the bathroom. One other type of device can prevent screen savers from kicking in, I've not seen this in person but some USB-C virtual monitors (sometimes called a 4K HDMI dummy plug) can prevent the automatic screen lock, it's a feature on those devices as they are usually used to keep a PC without a real screen active and keep its GPU awake so remote and robot tasks work at normal speed.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936452/why-has-my-screen-saver-stopped-working-in-windows-7
+
+---
+
+#### 1675. How can I configure Cursor IDE to open new windows in a maximized state?
+
+**问题描述 / Problem Description**:
+Tags: windows, window-maximization, cursor-ide | Score: -1 | Views: 115 | Answers: 1 | Created: 2026-04-04
+
+**解决方案 / Solution**:
+Go to cursor://settings/window.newWindowDimensions and set to maximized Thanks Reddit user Zayadur for pointing me to that information.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936442/how-can-i-configure-cursor-ide-to-open-new-windows-in-a-maximized-state
+
+---
+
+#### 1676. Cursor IDE uses a lot of GPU: How can I find out from which window that comes from, and what causes that use in that window (e.g. rogue extension)?
+
+**问题描述 / Problem Description**:
+Tags: windows, performance, windows-11-25h2, cursor-ide | Score: -1 | Views: 61 | Answers: 1 | Created: 2026-04-01
+
+**解决方案 / Solution**:
+I found someone having a similar issue , which pointed me to the GitHub issue for the xterm.js project titled GPU usage so high it makes whole computer lag . The exact issue I had is that the Cursor AI chat in one Cursor window is stuck on that step: and the visual effect eats my GPU. As a side note, Cursor (or rather VS Code, which it’s based on) has its own Process Explorer: Focus any Cursor window. Open the Command Palette ( Ctrl + Shift + P ). Type Developer: Open Process Explorer and press Enter . This opens a window listing every process, its PID, CPU, and Memory usage. But it does not show GPU:
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936358/cursor-ide-uses-a-lot-of-gpu-how-can-i-find-out-from-which-window-that-comes-fr
+
+---
+
+#### 1677. I can't repair my windows 11, how should I do a system reset/reinstall?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, reinstall, reset | Score: -1 | Views: 103 | Answers: 1 | Created: 2026-03-27
+
+**解决方案 / Solution**:
+Skip “Reset this PC” since your update components are already failing it often relies on the same broken services so using a fresh Windows 11 ISO is the safer route. Download the ISO from Microsoft, mount it, and run setup.exe from inside Windows, choosing “Keep personal files”. During setup you can still create or keep a local account by disconnecting internet when prompted, so you won’t be forced into a Microsoft account.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936236/i-cant-repair-my-windows-11-how-should-i-do-a-system-reset-reinstall
+
+---
+
+#### 1678. How to prevent Chrome from pausing file uploads when a tab loses focus?
+
+**问题描述 / Problem Description**:
+Tags: windows, google-chrome, tabs, upload, focus | Score: -1 | Views: 65 | Answers: 1 | Created: 2026-03-20
+
+**解决方案 / Solution**:
+Google Chrome doesn't do this by default (pause uploads), and I didn't find anything in the documentation to simulate focusing on the page. It is probably the website mentioned that has some implementation (by its own design decision) to pause the upload when the tab is not visible. The most common way I know of to do something like this is using the Page Visibility API but it's typically more used to pause animations or processing that are only interesting if the user has been looking at the page. The best solution is to keep this tab visible, but in another window. This way you can continue using the browser in other tabs. Maybe I'm wrong, but analyzing the question, what you're apparently looking for is a workaround for this specific website, which has a specific implementation to pause uploads , not for Chrome.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936040/how-to-prevent-chrome-from-pausing-file-uploads-when-a-tab-loses-focus
+
+---
+
+#### 1679. Can I make Windows 10 installer only update the bootloader on the existing EFI partition, not create the second EFI partition?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, windows-11, uefi, bootloader, efi | Score: -1 | Views: 109 | Answers: 2 | Created: 2026-03-18
+
+**解决方案 / Solution**:
+2 Answers
+2
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935954/can-i-make-windows-10-installer-only-update-the-bootloader-on-the-existing-efi-p
+
+---
+
+#### 1680. My computer was noisy; ended Windows Shell Experience Host – did I break anything?
+
+**问题描述 / Problem Description**:
+Tags: windows-10 | Score: -1 | Views: 131 | Answers: 1 | Created: 2026-03-11
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935750/my-computer-was-noisy-ended-windows-shell-experience-host-did-i-break-anythin
+
+---
+
+#### 1681. Trying to change folder permissions using icacls
+
+**问题描述 / Problem Description**:
+Tags: windows, file-permissions, file-attributes | Score: -1 | Views: 71 | Answers: 1 | Created: 2026-03-09
+
+**解决方案 / Solution**:
+When run from PowerShell, you need to quote the entire parameter: icacls foo /grant "Authenticated Users:F" In theory mixed quoting should give the exact same result, but on Windows (unlike Linux) traditionally quoting is processed by the program itself, so you get a bit of complexity with PowerShell parsing the quotes and then re-adding them again for icacls.exe to consume. To grant permissions recursively, set the "Object Inherit" and "Container Inherit" flags: icacls foo /grant "Authenticated Users:(OI)(CI)F" You can technically do it the Unix way by using /t to add the ACE to each and every item, but Windows has supported inheritable permissions since NT4 and it's generally better to use those.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935701/trying-to-change-folder-permissions-using-icacls
+
+---
+
+#### 1682. bitlocker key recovery email hint or key from cmd
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, encryption, bitlocker, disk-encryption | Score: -1 | Views: 110 | Answers: 1 | Created: 2026-03-04
+
+**解决方案 / Solution**:
+Is there a way to at least know what the email address where the key is at? A hint? As far as I know, no. The Microsoft account is treated as merely one of several potential backup locations for the recovery key (alongside USB stick, paper printout, Active Directory…), and the BitLocker volume doesn't keep track of where exactly the recovery key was stored – and I'm not aware of Microsoft having any website letting you search "which account has this key ID". Is there a way to find the .bek or txt file where the key is probably saved through the cmd from the bitlocker screen? No. The key for the system volume won't be saved as a plain file on the same computer – that would defeat the point of BitLocker. With BitLocker on modern PCs, the unlock key for the system disk is only stored within the computer's TPM chip, which releases it only under certain conditions (automatic unlock). For example, if Secure Boot was originally enabled, then having it enabled becomes one of the conditions for the automatic unlock to work (this is to prevent someone from booting off a USB stick to bypass the Windows logon screen). Only keys for additional data disks might be stored as .bek files within the system disk, but the key for the system disk itself – either a .txt "recovery key" or a .bek "startup key" – would be saved on some USB stick, and Windows does not keep track of where you chose to save it (assuming it asked you to store it at all ). Since the computer is new, if it doesn't yet have much data in it, you might have to accept the loss and reinstall the OS...
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935524/bitlocker-key-recovery-email-hint-or-key-from-cmd
+
+---
+
+#### 1683. Why is my path variable not working in Windows 10?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, path | Score: -1 | Views: 82 | Answers: 1 | Created: 2026-02-22
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935151/why-is-my-path-variable-not-working-in-windows-10
+
+---
+
+#### 1684. How to remove unused entry from Network - Computer in Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-explorer, ftp | Score: -1 | Views: 33 | Answers: 1 | Created: 2026-02-14
+
+**解决方案 / Solution**:
+Run SystemPropertiesComputerName.exe , change your computer's workgroup, then restart. You can change it back after that if you want.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934892/how-to-remove-unused-entry-from-network-computer-in-windows
+
+---
+
+#### 1685. How to install Windows features from a CD or ISO image?
+
+**问题描述 / Problem Description**:
+Tags: windows, installation, windows-11, iso-image, dism | Score: -1 | Views: 357 | Answers: 2 | Created: 2026-01-21
+
+**解决方案 / Solution**:
+There might be several causes for the error; you need to narrow them down first. Try the following: Make sure you use a reputable download site for the ISO e.g. directly from Microsoft: https://www.microsoft.com/de-de/software-download/windows11 Mount the ISO file: Mount-DiskImage -ImagePath "C:\path\to\your\Windows11.iso" Confirm that D:\sources\install.wim exists (the drive letter for the mounted ISO file might be different depending on your system setup). Verify the Index Number you need to use: Get-CimInstance -ClassName Win32_OperatingSystem | Select-Object Caption dism /get-wiminfo /wimfile:D:\sources\install.wim Mount the WIM File (Note: make sure the target folder exists and replace the index number, currently 6, with the Windows version you installed): dism /Mount-Image /ImageFile:"D:\sources\install.wim" /Index:6 /MountDir:"C:\WIM_Mount" /ReadOnly Install the TelnetClient Feature: dism /online /enable-feature /featurename:TelnetClient /All /Source:C:\WIM_Mount\Windows\WinSxS /LimitAccess Let us know in the comments if the steps can not be executed or if the error persists. Note : You can use wmic os get caption to show the current Windows version, for Windows 11 you need add the wmic tools first. Add them via "optional features" through Windows Settings or via command line DISM /Online /Add-Capability /CapabilityName:WMIC~~~~ - once you get DISM to work
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933947/how-to-install-windows-features-from-a-cd-or-iso-image
+
+---
+
+#### 1686. How to add an external library to Immich in Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows, docker-for-windows | Score: -1 | Views: 676 | Answers: 1 | Created: 2025-12-30
+
+**解决方案 / Solution**:
+Well, in this case the problem was simply the unnecessary \ in "M:/My\ Documents/..." and probably also that I needed to share the M drive in the Docker Desktop settings.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933064/how-to-add-an-external-library-to-immich-in-windows
+
+---
+
+#### 1687. How do I remove the default printer in Windows 10?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, printer | Score: -1 | Views: 122 | Answers: 1 | Created: 2025-12-18
+
+**解决方案 / Solution**:
+Should I remove it? I saved and removed the registry entry I performed my tests I added the saved value back after testing
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932616/how-do-i-remove-the-default-printer-in-windows-10
+
+---
+
+#### 1688. How to check domain user password in Windows password?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-server | Score: -2 | Views: 40 | Answers: 1 | Created: 2026-04-23
+
+**解决方案 / Solution**:
+The correct way to do this is to verify the person's identity and then reset their AD Domain password, making sure to set the option forcing them to change it immediately. This gets them back into their account and makes sure that only they ever know their active password. As an admin, you should never know user passwords.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936989/how-to-check-domain-user-password-in-windows-password
+
+---
+
+#### 1689. Facing SmartScreen error while installing app on Windows 10
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, microsoft-smartscreen | Score: -2 | Views: 122 | Answers: 1 | Created: 2026-02-10
+
+**解决方案 / Solution**:
+That is a valid question, "Is it safe?" While not an absolute guarantee, VirusTotal , or a similar online antimalware analysis tool such as MetaDefender Cloud or PolySwarm , submits a sample file to multiple antimalware engines and presents a summary, as shown below. After going to the upload submission page, a checksum for the app in question (here, Calibre v. 9.2.1) is created. That checksum is compared with their database of previously vetted files, and in this case, showed no issues noted by 54 AV engines, a pretty good recommendation. If the app has not yet been tested yet, then you'll have to wait a minute or two for results while it is submitted to the AV engines. Note that there is a size limit, so a large file that does not have a checksum listed in their database cannot be checked. Also, check the reputation of the AV scanning service itself , as you're trusting it to be honest.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934768/facing-smartscreen-error-while-installing-app-on-windows-10
+
+---
+
+#### 1690. Ubuntu - Directory exists but does not exist simultaneously
+
+**问题描述 / Problem Description**:
+Tags: windows, ubuntu, docker, windows-subsystem-for-linux, wsl2 | Score: -2 | Views: 83 | Answers: 1 | Created: 2026-02-02
+
+**解决方案 / Solution**:
+The solution is to run the following command: wsl --shutdown Then, relaunch your WSL distro and do whatever you need to do with your directory, quickly, before Windows messes it up again. For some reason, the above command works better than restarting PC.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934450/ubuntu-directory-exists-but-does-not-exist-simultaneously
+
+---
+
+#### 1691. What can I do to deal with this type of hard drive failure? I don’t mind losing data if I can make my disk alive again
+
+**问题描述 / Problem Description**:
+Tags: linux, windows-10, hard-drive, partitioning, hard-drive-failure | Score: -2 | Views: 128 | Answers: 1 | Created: 2026-01-29
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934302/what-can-i-do-to-deal-with-this-type-of-hard-drive-failure-i-don-t-mind-losing
+
+---
+
+#### 1692. Is "OS Support" for AMD Ryzen CPUs list, a hard cutoff or just telling people that it works with the currently newest OS-es?
+
+**问题描述 / Problem Description**:
+Tags: windows, operating-systems, amd-ryzen | Score: -2 | Views: 106 | Answers: 2 | Created: 2025-12-16
+
+**解决方案 / Solution**:
+There isn't an official list noting whether this will work or not, and if it works, whether it will work in a meaningful way, or just POST but be otherwise unusable. Because of that, the only way we can know is by testing. I don't have this CPU or a Vista image or a Virtual Machine I can test this on myself, but the actual answer it: "Test it".
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932493/is-os-support-for-amd-ryzen-cpus-list-a-hard-cutoff-or-just-telling-people-th
+
+---
+
+#### 1693. I need to configure a laptop to multi-boot and haven't a clue
+
+**问题描述 / Problem Description**:
+Tags: windows-7, windows-10, boot, multi-boot | Score: -4 | Views: 99 | Answers: 1 | Created: 2026-02-11
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934797/i-need-to-configure-a-laptop-to-multi-boot-and-havent-a-clue
 
 ---

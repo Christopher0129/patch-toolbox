@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1027**
+**总计条目 / Total entries: 1060**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -17480,5 +17480,434 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1209866#reply23
+
+---
+
+#### 1028. PingPlace: Customize notification position - now on Tahoe!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1lxsl/pingplace_customize_notification_position_now_on/
+
+---
+
+#### 1029. Whatsapp buggy on MacOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1lze0/whatsapp_buggy_on_macos/
+
+---
+
+#### 1030. Can't have access to my deskop (but by finder), what's going on?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1leke/cant_have_access_to_my_deskop_but_by_finder_whats/
+
+---
+
+#### 1031. User avatar
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1k3qw/user_avatar/
+
+---
+
+#### 1032. Question on macbook pro
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1l0s5/question_on_macbook_pro/
+
+---
+
+#### 1033. Restarting pc or waking from sleep mode sometimes causes red/yellow mb lights
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1lzp0/restarting_pc_or_waking_from_sleep_mode_sometimes/
+
+---
+
+#### 1034. Boot delay after deleting AppData files Hi everyone, I’m facing a boot delay issue on my laptop. Recently, I accidentally deleted most of the AppData folder (some files were skipped). After that, my laptop startup time increased.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1lxvo/boot_delay_after_deleting_appdata_files_hi/
+
+---
+
+#### 1035. USB new files not showing on USB after it gets removed and put into another or the same device
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1lxp6/usb_new_files_not_showing_on_usb_after_it_gets/
+
+---
+
+#### 1036. What’s this thing?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1kfq8/whats_this_thing/
+
+---
+
+#### 1037. Delete an old Apple ID, I have the email but not the phone number anymore
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1m4d2/delete_an_old_apple_id_i_have_the_email_but_not/
+
+---
+
+#### 1038. are these earpods fake?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1m0m1/are_these_earpods_fake/
+
+---
+
+#### 1039. Unable to renew applecare mandate for my airpods
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1lcyz/unable_to_renew_applecare_mandate_for_my_airpods/
+
+---
+
+#### 1040. Airpods 2 right ear bud shuts down
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1kutf/airpods_2_right_ear_bud_shuts_down/
+
+---
+
+#### 1041. AirPlay Issues with Financial Times app
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1ku2g/airplay_issues_with_financial_times_app/
+
+---
+
+#### 1042. Mac disk problem!!
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1kpd5/mac_disk_problem/
+
+---
+
+#### 1043. [V2EX] 发现以前 Windows 下最喜欢的代码编辑软件 notepad++出 macOS 版了
+
+**问题描述 / Problem Description**:
+之前快速编辑时用 CotEditor 但是感觉不支持 tab VSCode + Claude 等等
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209507#reply8
+
+---
+
+#### 1044. [V2EX] 外区 iCloud 最近同步很慢
+
+**问题描述 / Problem Description**:
+我是美区，以前觉得速度跟国区没区别，无感状态。 但最近发现同步很慢，甚至有时候根本没有速度。 刚才在 mb 上挂了小火箭，点击同步的时候小火箭显示下载流量，同步在走翻墙的流量。关了小火箭，同步又卡住了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209994#reply0
+
+---
+
+#### 1045. [V2EX] Apple ID 国区转美区技巧
+
+**问题描述 / Problem Description**:
+摸索了很久，每次都被提示“此时无法创建账户”。 后来用了这个办法，很轻松就改成美区了。分享出来，供大家参考 1.把设置中的“语言与地区”中的国家改成美国 2.把 App Store 已有的账号退出来 3.关闭 VPN 3. “媒体与购买项目”-“查看账户”-“国家/地区”修改为美国，地址改成免税地址（具体可以问 Gemini 之类的），账单付款方式选择 None （无） 就可以了。简单的有点难以置信。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209565#reply12
+
+---
+
+#### 1046. [V2EX] dnshe 域名可永久了
+
+**问题描述 / Problem Description**:
+现在有个活动 每个域名互助 5 次可永久使用 今年注册的可以互相互助一下 有需要互助的私信联系 就不在此贴回复 选择您的域名并创建助力任务，达到 5 次好友助力后将自动升级为永久有效。 每位用户最多可为好友助力 10 次。 AK2VLWATZH LZ7LJ9R9Q ASKVR85QBP SDF5BEYDPL 5LLH2D9JTE 谢谢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209884#reply26
+
+---
+
+#### 1047. [V2EX] MiMo-V2.5-Pro，一句提问掉了 90000000（千万）token
+
+**问题描述 / Problem Description**:
+今天也是人傻了，前天领额度，昨天刚配置上，一共提问了七八次，今天下午随口问了句火车区间能中途上车吗，然后 mimo 就开始无限搜索，一开始没在意，手机屏幕一关去忙别的了，再一开软件人傻了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209866#reply25
+
+---
+
+#### 1048. [V2EX] 深圳房地产放开限购的一些思考
+
+**问题描述 / Problem Description**:
+昨晚被朋友圈里 100 多个中介刷屏了，在深圳 10 多年，买过 3 套房子，卖过 3 套房子，算是吃到了房子的红利,24 年 6 月卖了最后一套，目前租房住，刚看最后这套房子最新成交，比我 24 年卖的低了 120 多 w 。屁股决定脑袋，看空房地产市场。 深圳的限购出来，个人预测，短时间会虹吸一波外地的有钱人，看好豪宅大平层之类的房子，刚需和刚改个人预测大概率不会有啥大的波动，因为能买的，想买的大概率早就买了。 政策挤牙膏似的出现，符合房地产软着陆的思路，举个极端例子：1000w 的房子，砸一个人手里亏 600w,大概率要压垮一个家庭，但如果 1000w->800w(成交）->600w(成
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209651#reply30
+
+---
+
+#### 1049. Extract videos from an Quick time Player file
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1m5wp/extract_videos_from_an_quick_time_player_file/
+
+---
+
+#### 1050. Got my MacBook Air M5 (16/512) for under 1L 😳🔥
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1mwc4/got_my_macbook_air_m5_16512_for_under_1l/
+
+---
+
+#### 1051. There is a Few Seconds Silence in the Beginning when I Play any Audio with my Bluetooth Headphones Connected.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1n02x/there_is_a_few_seconds_silence_in_the_beginning/
+
+---
+
+#### 1052. YouTube videos not playing in private window on college WiFi (works fine in normal mode) -any fix?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1mvzb/youtube_videos_not_playing_in_private_window_on/
+
+---
+
+#### 1053. laptop says no audio device is present
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t1moh6/laptop_says_no_audio_device_is_present/
+
+---
+
+#### 1054. iPad gets warm while drawing and shows temporary orange spot
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1mx74/ipad_gets_warm_while_drawing_and_shows_temporary/
+
+---
+
+#### 1055. Possible icloud hack? Something else? Weird things happening on multiple devices
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1mwov/possible_icloud_hack_something_else_weird_things/
+
+---
+
+#### 1056. Apple Watch account options
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1ma1v/apple_watch_account_options/
+
+---
+
+#### 1057. activation lock
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1m8iw/activation_lock/
+
+---
+
+#### 1058. [V2EX] 发现以前 Windows 下最喜欢的代码编辑软件 notepad++出 macOS 版了
+
+**问题描述 / Problem Description**:
+之前快速编辑时用 CotEditor 但是感觉不支持 tab VSCode + Claude 等等
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209507#reply9
+
+---
+
+#### 1059. [V2EX] 求助： mbp m1 合盖不熄屏
+
+**问题描述 / Problem Description**:
+1. 左上角休眠按钮被禁用 2. 天才吧没看出什么问题，让我重装。测试硬件正常 3. 新建账号问题依旧 有没有遇到过的 v 友指点一下，如需什么细节我再提供
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208919#reply13
+
+---
+
+#### 1060. [V2EX] 国区应用更新如何不输入密码
+
+**问题描述 / Problem Description**:
+国区下载的抖音，转到美区后原来一直可以正常更新。最近突然发现已购项目里抖音没了，无法更新了。现在必须用国区账户下载了，那么不切换账号的情况下如何不输入密码更新呢。邮件里登录国区的 qq 邮箱可以么（国区 qq 邮箱注册的账号）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210000#reply0
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1448**
+**总计条目 / Total entries: 1474**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -26605,5 +26605,343 @@ I would create another VM and migrate site-by-site. To reduce the DNS update lag
 
 **参考链接 / References**:
 - https://serverfault.com/questions/1198313/best-strategy-to-upgrade-an-ubuntu-18-04-vm-on-google-cloud-with-multiple-websit
+
+---
+
+#### 1449. My prediction: Linux market share on Steam hits 10% by early 2028
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t1ky6b/my_prediction_linux_market_share_on_steam_hits_10/
+
+---
+
+#### 1450. PSA: DO NOT try to mount an NTFS drive on Linux that's accelerated by Intel Optane
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t1laoz/psa_do_not_try_to_mount_an_ntfs_drive_on_linux/
+
+---
+
+#### 1451. NVIDIA Vulkan Developer beta - Linux 595.44.06
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t1k324/nvidia_vulkan_developer_beta_linux_5954406/
+
+---
+
+#### 1452. Weird bash alias issue
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1lc2e/weird_bash_alias_issue/
+
+---
+
+#### 1453. Kali Linux On USB??
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1lefx/kali_linux_on_usb/
+
+---
+
+#### 1454. I successfully installed mint and dual booting it with windows for the time, any advices for what should I do next? (Beside shooting windows down)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1l046/i_successfully_installed_mint_and_dual_booting_it/
+
+---
+
+#### 1455. I get this problem when I try run sudo pacman -Syu
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1kv9e/i_get_this_problem_when_i_try_run_sudo_pacman_syu/
+
+---
+
+#### 1456. 26.04 fresh install: is Gstreamer broken for .mkv video?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t1l9v2/2604_fresh_install_is_gstreamer_broken_for_mkv/
+
+---
+
+#### 1457. QCN9274 Ath12k problem @Ubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t1knrh/qcn9274_ath12k_problem_ubuntu/
+
+---
+
+#### 1458. Ubuntu version on my computer
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t1k5k2/ubuntu_version_on_my_computer/
+
+---
+
+#### 1459. What would be the best version of Linux for me?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t1ltn1/what_would_be_the_best_version_of_linux_for_me/
+
+---
+
+#### 1460. Native photo/vector editing software with same UI/UX as photoshop/illustrator
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t1l4f9/native_photovector_editing_software_with_same/
+
+---
+
+#### 1461. TL;Der: terminal-themed daily developer news digest, vim keybindings
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t1l6ga/tlder_terminalthemed_daily_developer_news_digest/
+
+---
+
+#### 1462. [V2EX] 求推荐对 claude code, chatgpt 友好的联网方法
+
+**问题描述 / Problem Description**:
+安装 claude code 返回不支持的区域，chatgpt 也经常访问不了。有比较稳定的机场或上网方式吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209995#reply3
+
+---
+
+#### 1463. [V2EX] 如何在国内受限网络环境下使用官方 claude 或 codex 等模型？
+
+**问题描述 / Problem Description**:
+单位环境不能装 vpn ，但我自己账户还是订阅了 codex 等服务。想问下有没有什么优雅的方式使用原版服务呢？我目前有两种想法： 海外搞个服务器，上面跑一个 CLI ，本地通过 ssh 连接 海外服务器上部署 CLIProxyAPI 把 codex 转成 api 然后本地 codex 修改供应商到这个 api 这两种办法有尝试过吗？感觉第二个更方便但第一个更安全？大佬们有什么经验吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209960#reply21
+
+---
+
+#### 1464. [V2EX] glm-5.1, kimi-k2.6 在 code arena React 项目上排名 5 和 6，是不是真的好用？
+
+**问题描述 / Problem Description**:
+真的假的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209926#reply18
+
+---
+
+#### 1465. [V2EX] 是我打开方式不对吗， mimomo 模型
+
+**问题描述 / Problem Description**:
+怎么感觉 codex 加个功能很快，mimomo 一小时都没处理完（用的 claude cli 对接）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209924#reply1
+
+---
+
+#### 1466. [V2EX] 有没有稳定 GPT 不降智的机场？
+
+**问题描述 / Problem Description**:
+开了 gpt pro ，但是号经常降智只输出 mini 。有没有 codex 比较稳定，而且 Pro 不会降智的机场？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209869#reply20
+
+---
+
+#### 1467. Which Linux Distro to choose?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t1mki1/which_linux_distro_to_choose/
+
+---
+
+#### 1468. Problem upgrading and installing Ubuntu 26.04 LTS in Windows Hyper-V
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t1m3yq/problem_upgrading_and_installing_ubuntu_2604_lts/
+
+---
+
+#### 1469. Problem during installation / Проблема во время установки Ubuntu Ubuntu_26.04_LTS
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t1mb06/problem_during_installation_проблема_во_время/
+
+---
+
+#### 1470. Keyval - A simple CLI for key-value data, no login (curl / npx / scripts)
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t1lzmr/keyval_a_simple_cli_for_keyvalue_data_no_login/
+
+---
+
+#### 1471. [V2EX] chatgpt 代充这是常规操作 还是我被坑了
+
+**问题描述 / Problem Description**:
+在 https://www.naifeistation.com/ （星际放映厅） 充值的 三个月的 chatgpt pro 账号代充 价格是 2600+ 只用了一个星期就停了 客服说他们是一个月一个月的充值，只是今天官方风控的原因， 这是常规操作还是我被坑了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209887#reply42
+
+---
+
+#### 1472. [V2EX] 有没有稳定 GPT 不降智的机场？
+
+**问题描述 / Problem Description**:
+开了 gpt pro ，但是号经常降智只输出 mini 。有没有 codex 比较稳定，而且 Pro 不会降智的机场？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209869#reply22
+
+---
+
+#### 1473. [V2EX] 领到小米 MIMO 的额度了，大家领了多少？
+
+**问题描述 / Problem Description**:
+真“大方”
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209799#reply61
+
+---
+
+#### 1474. [V2EX] codex 需要 7 个 pro 5 个 plus，要求真实充值+发票，有啥方案啊？
+
+**问题描述 / Problem Description**:
+求教求教
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209718#reply15
 
 ---
