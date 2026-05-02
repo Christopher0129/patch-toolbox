@@ -155,3 +155,22 @@ def test_generate_ns_md_platform_files_contain_backlinks(tmp_path: Path):
         assert pf_path.exists(), f"{platform}.md should exist"
         text = pf_path.read_text(encoding="utf-8")
         assert "index.md" in text, f"{platform}.md should contain backlink to index.md"
+
+
+def test_generate_ns_md_index_total_includes_general_and_legacy_entries(tmp_path: Path):
+    db_path = tmp_path / "network-security.db"
+    conn = _create_ns_db(db_path)
+
+    _insert_entry(conn, "hash-win-1", "Windows TCP/IP RCE", platform="windows")
+    _insert_entry(conn, "hash-linux-1", "OpenSSH Remote Issue", platform="linux")
+    _insert_entry(conn, "hash-macos-1", "Safari Network Stack Bug", platform="macos")
+    _insert_entry(conn, "hash-general-1", "Generic Advisory", platform="general")
+    _insert_entry(conn, "hash-legacy-1", "Legacy Imported Item", platform=None)
+
+    out_dir = tmp_path / "network-security"
+    out_dir.mkdir()
+
+    generate_ns_md(conn, out_dir)
+
+    index_text = (out_dir / "index.md").read_text(encoding="utf-8")
+    assert "**总计条目 / Total entries: 5**" in index_text
