@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1060**
+**总计条目 / Total entries: 1158**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -17909,5 +17909,1279 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210000#reply0
+
+---
+
+#### 1061. Docky is live, and updated after some rocky start.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1u83s/docky_is_live_and_updated_after_some_rocky_start/
+
+---
+
+#### 1062. Is it possible to define what apps show up in the suggestions for "Open With..."
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1toz5/is_it_possible_to_define_what_apps_show_up_in_the/
+
+---
+
+#### 1063. Captain's Deck — Dual-Pane File Manager with Vim Navigation & Remote Connections
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1qslv/captains_deck_dualpane_file_manager_with_vim/
+
+---
+
+#### 1064. Mac quicklook viewer for GPX and geojson files
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1nab4/mac_quicklook_viewer_for_gpx_and_geojson_files/
+
+---
+
+#### 1065. Looking for a good compatible keyboard at a reasonable price.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1u64e/looking_for_a_good_compatible_keyboard_at_a/
+
+---
+
+#### 1066. OSX manual reinstall
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1u3db/osx_manual_reinstall/
+
+---
+
+#### 1067. Can someone help me download these games
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1ss9i/can_someone_help_me_download_these_games/
+
+---
+
+#### 1068. ‎I wrote an app to record your adventures
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1rixe/i_wrote_an_app_to_record_your_adventures/
+
+---
+
+#### 1069. Why don’t we have system wide Airplay 2 on macOS like we have on iPadOS in 2026?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1qa8z/why_dont_we_have_system_wide_airplay_2_on_macos/
+
+---
+
+#### 1070. Scene v0.6.1 — my free macOS window manager now pins Workspaces to Desktops, plus a one-click "pause everything" mode
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1p5qk/scene_v061_my_free_macos_window_manager_now_pins/
+
+---
+
+#### 1071. New to Mac here, what's the difference between minimize and the close button of memory management?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1qtll/new_to_mac_here_whats_the_difference_between/
+
+---
+
+#### 1072. Apple warns Mac mini and Mac Studio shortages could last for months — local AI boom and memory crunch drive demand beyond Apple’s manufacturing capacity
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t1nmae/apple_warns_mac_mini_and_mac_studio_shortages/
+
+---
+
+#### 1073. Apple's 2026 MacBook Pro Hits New Record Low Prices on Amazon
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t1qhqs/apples_2026_macbook_pro_hits_new_record_low/
+
+---
+
+#### 1074. iOS 27 Will Add These New Features to Your iPhone
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t1tenu/ios_27_will_add_these_new_features_to_your_iphone/
+
+---
+
+#### 1075. Picked up a steal today
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1ot5b/picked_up_a_steal_today/
+
+---
+
+#### 1076. It’s weird that the MacBook Air M5 is cheaper in China
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1n5hs/its_weird_that_the_macbook_air_m5_is_cheaper_in/
+
+---
+
+#### 1077. Chill
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1th0f/chill/
+
+---
+
+#### 1078. MacBook owners how much you spend on subscriptions in a year? Do you pay to Apple for using apps or updates?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1t3k2/macbook_owners_how_much_you_spend_on/
+
+---
+
+#### 1079. What the fuck is happening????
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1t4pn/what_the_fuck_is_happening/
+
+---
+
+#### 1080. Will I Regret Buying a MacBook Air M5 for Video Editing?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1t1eq/will_i_regret_buying_a_macbook_air_m5_for_video/
+
+---
+
+#### 1081. What would you do here?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1u7c5/what_would_you_do_here/
+
+---
+
+#### 1082. Dropped an ownership today
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1tg8p/dropped_an_ownership_today/
+
+---
+
+#### 1083. MacBook Pro M1 - A2338 Not Detecting Charger / Not Charging
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1rar8/macbook_pro_m1_a2338_not_detecting_charger_not/
+
+---
+
+#### 1084. Which MacBook should I buy Neo or Air?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1qy6s/which_macbook_should_i_buy_neo_or_air/
+
+---
+
+#### 1085. macbook neo case
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1q8ev/macbook_neo_case/
+
+---
+
+#### 1086. MacBook Pro M3 Pro keyboard protection
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1q13u/macbook_pro_m3_pro_keyboard_protection/
+
+---
+
+#### 1087. WhatsApp from Android to iPhone
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1owr1/whatsapp_from_android_to_iphone/
+
+---
+
+#### 1088. Migrating data from old imac to new - migration assistant keeps stalling
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1ts7b/migrating_data_from_old_imac_to_new_migration/
+
+---
+
+#### 1089. How to delete Apple Maps data?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1td8v/how_to_delete_apple_maps_data/
+
+---
+
+#### 1090. Can I use the AppStore credit to get apps suscriptions ?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1tbwz/can_i_use_the_appstore_credit_to_get_apps/
+
+---
+
+#### 1091. iPhone 17 Pro Max — internal condensation → camera failure, Apple denied warranty (no external damage)
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1t5qg/iphone_17_pro_max_internal_condensation_camera/
+
+---
+
+#### 1092. Is there a way to change or disable 2FA?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1t4e0/is_there_a_way_to_change_or_disable_2fa/
+
+---
+
+#### 1093. MacBook - m5 Pro Chip and KVM Switch
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1t1p7/macbook_m5_pro_chip_and_kvm_switch/
+
+---
+
+#### 1094. My Apple ID account has been hacked
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1sqzn/my_apple_id_account_has_been_hacked/
+
+---
+
+#### 1095. Should I get my mother a macbook neo or used macbook air
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1sf4o/should_i_get_my_mother_a_macbook_neo_or_used/
+
+---
+
+#### 1096. Is this normal for iphone 15 ?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1sbyw/is_this_normal_for_iphone_15/
+
+---
+
+#### 1097. Game crashing after iOS 26.4.2 update
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1s9ug/game_crashing_after_ios_2642_update/
+
+---
+
+#### 1098. Calls Not Coming Through
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1rxw2/calls_not_coming_through/
+
+---
+
+#### 1099. Fully switching from old Apple ID to new one (need clean migration advice)
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1rnc5/fully_switching_from_old_apple_id_to_new_one_need/
+
+---
+
+#### 1100. AirPods keep disconnecting from calls even though I’ve replaced them
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1qh21/airpods_keep_disconnecting_from_calls_even_though/
+
+---
+
+#### 1101. What would happen if I press this button?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1q242/what_would_happen_if_i_press_this_button/
+
+---
+
+#### 1102. Can I get a replacement for a Mac within 14 days of purchase?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1nyx8/can_i_get_a_replacement_for_a_mac_within_14_days/
+
+---
+
+#### 1103. [V2EX] 国区应用更新如何不输入密码
+
+**问题描述 / Problem Description**:
+国区下载的抖音，转到美区后原来一直可以正常更新。最近突然发现已购项目里抖音没了，无法更新了。现在必须用国区账户下载了，那么不切换账号的情况下如何不输入密码更新呢。邮件里登录国区的 qq 邮箱可以么（国区 qq 邮箱注册的账号）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210000#reply5
+
+---
+
+#### 1104. [V2EX] 外区 iCloud 最近同步很慢
+
+**问题描述 / Problem Description**:
+我是美区，以前觉得速度跟国区没区别，无感状态。 但最近发现同步很慢，甚至有时候根本没有速度。 刚才在 mb 上挂了小火箭，点击同步的时候小火箭显示下载流量，同步在走翻墙的流量。关了小火箭，同步又卡住了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209994#reply2
+
+---
+
+#### 1105. [V2EX] Apple ID 国区转美区技巧
+
+**问题描述 / Problem Description**:
+摸索了很久，每次都被提示“此时无法创建账户”。 后来用了这个办法，很轻松就改成美区了。分享出来，供大家参考 1.把设置中的“语言与地区”中的国家改成美国 2.把 App Store 已有的账号退出来 3.关闭 VPN 3. “媒体与购买项目”-“查看账户”-“国家/地区”修改为美国，地址改成免税地址（具体可以问 Gemini 之类的），账单付款方式选择 None （无） 就可以了。简单的有点难以置信。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209565#reply13
+
+---
+
+#### 1106. [V2EX] 开虚拟机用 openclaw 整理 Anki 卡，已完成
+
+**问题描述 / Problem Description**:
+这事已亲自做完。整理了约 5000 张卡，生成了约 3000 张卡。简单验收，暂没发什么大问题。但小问题是依然是有一点，凑合用。自用算够了吧。 搜了下本站，还没人说这事。就开帖说下：这事可做。 虚拟机，有存/回档功能，做砸了回档。里面不放多余的个人信息。 安装 openclaw 。 Anki 卡组放进虚拟机。下 AnkiConnect 插件。 说需求。 我的需求是：我现在要对我手上的牌组按 [最小信息原则] 作整理。你可以参考我最近三天修改过的牌看规律。大意是，现在一张卡里我已经有比如 10 个词，那创建 9 个副本，每个副本只保留一个词，并在卡正面加粗对应的词，取消加粗别的词。然后生成 10
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210024#reply0
+
+---
+
+#### 1107. [V2EX] 尝试纯 vibe coding 编写一个复杂前端项目， 功能实现了但是代码是一坨屎
+
+**问题描述 / Problem Description**:
+语言 Typescript 框架用的 Vue3+Threejs 编辑器用的 Cursor 大部分都是 auto 模式，少部分指定模型（指定模型没感觉太大区别） 基本上只通过对话，对 AI 提需求，没有手写代码 断断续续开发了几天，目前功能实现了 10%不到，代码感觉一片混乱，人力基本维护不了 不敢想再往后，剩下的功能都开发玩 会怎么样
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209986#reply1
+
+---
+
+#### 1108. [V2EX] MiMo-V2.5-Pro，一句提问掉了 90000000（千万）token
+
+**问题描述 / Problem Description**:
+今天也是人傻了，前天领额度，昨天刚配置上，一共提问了七八次，今天下午随口问了句火车区间能中途上车吗，然后 mimo 就开始无限搜索，一开始没在意，手机屏幕一关去忙别的了，再一开软件人傻了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209866#reply26
+
+---
+
+#### 1109. [V2EX] 深圳房地产放开限购的一些思考
+
+**问题描述 / Problem Description**:
+昨晚被朋友圈里 100 多个中介刷屏了，在深圳 10 多年，买过 3 套房子，卖过 3 套房子，算是吃到了房子的红利,24 年 6 月卖了最后一套，目前租房住，刚看最后这套房子最新成交，比我 24 年卖的低了 120 多 w 。屁股决定脑袋，看空房地产市场。 深圳的限购出来，个人预测，短时间会虹吸一波外地的有钱人，看好豪宅大平层之类的房子，刚需和刚改个人预测大概率不会有啥大的波动，因为能买的，想买的大概率早就买了。 政策挤牙膏似的出现，符合房地产软着陆的思路，举个极端例子：1000w 的房子，砸一个人手里亏 600w,大概率要压垮一个家庭，但如果 1000w->800w(成交）->600w(成
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209651#reply31
+
+---
+
+#### 1110. Convert PS file to PDF using macOS Ventura?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, command-line, ventura | Score: 6 | Views: 4534 | Answers: 4 | Created: 2023-06-10
+
+**解决方案 / Solution**:
+According to Apple , starting with macOS Ventura, Preview no longer supports PostScript and Encapsulated PostScript. You can convert PS to PDF using the standard command-line tool pstopdf , which resides in /usr/bin: pstopdf foo.ps to produce foo.pdf or pstopdf foo.ps -o bar.pdf to produce bar.pdf. There are no switches for controlling this conversion. In particular, pstopdf seems to output uncompressed PDF 1.3. For other options, see man pstopdf If you happen to have MacTeX installed, then it includes other command-line tools based on Ghostscript , which gives you full control on the conversion. (partially adapted from this question )
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/460868/convert-ps-file-to-pdf-using-macos-ventura
+
+---
+
+#### 1111. man command, and output decoration (bold/underline/...)
+
+**问题描述 / Problem Description**:
+Tags: terminal, command-line | Score: 6 | Views: 786 | Answers: 2 | Created: 2023-05-15
+
+**解决方案 / Solution**:
+The theory The man program itself, doesn't talk directly to the terminal. It produces output which is text with a small amount of formatting. Another program, a pager , generally less , handles the user interaction (scrolling, searching, etc.) and applies some basic formatting. In addition to basic pagination (breaking lines, indenting, etc.), man can use three ways to make text stand out: capital letters, bold and underline. Capital letters are just different characters from lowercase letters. For bold and underline, man uses the backspace (BS) control character : The three-character sequence c BS c indicates that the character c should be displayed in bold. The three-character sequence _ BS c (where _ is the underscore character) indicates that the character c should be displayed underlined. (There is no provision for bold underscore, and I don't know offhand which way _ BS _ would be interpreted.) These sequences are inspired from what you could do with a typewriter , and in particular with a teletype which was a common interface to computers when the man program was originally written: if you print a character, then use the BS control to move back left and print that character again, you get a bolder character. If you use BS to overstrike a _ with another character, that other character is underlined. Character-oriented video terminals don't overstrike characters in this way, and modern terminal emulator programs present a similar interface. Terminals interpret the BS character as an instruction to move left by one position. When displaying a character at a position, the terminal completely overwrites whatever was previously there. So it's the job of the pager to interpret convert c BS c and _ BS c to instructions for the terminal to display c in bold or underline. The way to do this depends on the terminal capabilities , although in practice all modern terminals use the same escape sequences for basic functionality like bold and underline. The practice When you run man zsh , the man command invokes less . less converts BS-based bold/underline into formatting escape sequences that the terminal understands. So you see the text formatted as intended. When you run man zsh | cat , the man program detects that its output is not a terminal , so it doesn't run less : it just prints the output that it would have passed to less . cat just passes its input through unchanged. The terminal sees sequences like c BS c and _ BS c , and in either case, BS erases the previous character so the visual effect is just like a plain c . When you run man zsh | less or man zsh | cat | less , the less command receives the same input that it would receive if man had invoked less directly. However, the behavior may be different because man can invoke less with some non-default command options. (From a quick check, this doesn't appear to happen on macOS.) You can disable less's handling of backspace by passing the -u command line option . Run either LESS=-u man man or man man | less -u to see what happens if less just passes the BS character unchanged to the terminal: the visual effect is the same as when not running less (but less still does pagination). Run LESS=-U man man or man man | less -U to see a visual rendering of the BS character as ^H in reverse video. Other ways to see the BS characters include: man man | cat -v which translates each BS character into the two-character sequence ^H . man man | hd which shows a hex dump of the text. You'll see sequences like 4e 08 4e 41 08 41 4d 08 4d 45 08 — 08 =backspace, 4e =N, 41 =A, 4d =M, 45 =E so this is NAME in bold. man man >out.txt and open out.txt in an editor. How the editor shows control characters depends on the editor and possibly on its configuration. If you want to print your own, you can pass \b or \010 in the first argument of the printf terminal command to print a backspace character. Try these: printf 'Normal\nB\bBo\bol\bld\bd\n_\bU_\bn_\bd_\be_\br_\bl_\bi_\bn_\be\n' printf 'Normal\nB\bBo\bol\bld\bd\n_\bU_\bn_\bd_\be_\br_\bl_\bi_\bn_\be\n' | cat printf 'Normal\nB\bBo\bol\bld\bd\n_\bU_\bn_\bd_\be_\br_\bl_\bi_\bn_\be\n' | cat -v printf 'Normal\nB\bBo\bol\bld\bd\n_\bU_\bn_\bd_\be_\br_\bl_\bi_\bn_\be\n' | hd printf 'Normal\nB\bBo\bol\bld\bd\n_\bU_\bn_\bd_\be_\br_\bl_\bi_\bn_\be\n' | less printf 'Normal\nB\bBo\bol\bld\bd\n_\bU_\bn_\bd_\be_\br_\bl_\bi_\bn_\be\n' | less -u printf 'Normal\nB\bBo\bol\bld\bd\n_\bU_\bn_\bd_\be_\br_\bl_\bi_\bn_\be\n' | less -U
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/459884/man-command-and-output-decoration-bold-underline
+
+---
+
+#### 1112. Why am I experiencing these problems updating LibreOffice?
+
+**问题描述 / Problem Description**:
+Tags: macos, libreoffice | Score: 5 | Views: 1243 | Answers: 2 | Created: 2025-08-11
+
+**解决方案 / Solution**:
+I found the answer: Drag the LibreOffice application from the Applications folder to the trash. Download and install the latest version of LibreOffice for your Mac Once you are sure the new version works, empty your trash.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481138/why-am-i-experiencing-these-problems-updating-libreoffice
+
+---
+
+#### 1113. For the last day my M1 MBA always has a battery warning icon ⚠️, only on the lockscreen
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, battery, lockscreen | Score: 5 | Views: 1510 | Answers: 1 | Created: 2024-02-23
+
+**解决方案 / Solution**:
+According to this page : Your battery is designed to retain up to 80% of its original capacity at 1000 complete charge cycles. Apple will replace the battery when it holds less than 80% of original capacity. Your battery is just 'on the cusp' of meeting the criteria for a service. You can always request a remote diagnostic from online support or book a service appointment at an Apple Store (or other service provider) and see what they say. They'll either agree to replace it already, or tell you to wait until it's got a bit worse. The cost for a battery is A$265. If you have AppleCare, it'll likely be a covered repair at no cost. As to why it's vacillating between "Normal" and "Service Required", I can't say.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/469528/for-the-last-day-my-m1-mba-always-has-a-battery-warning-icon-%ef%b8%8f-only-on-the-loc
+
+---
+
+#### 1114. What does Cmd + K do in the Terminal?
+
+**问题描述 / Problem Description**:
+Tags: terminal, command-line, shortcut | Score: 5 | Views: 3432 | Answers: 1 | Created: 2023-05-13
+
+**解决方案 / Solution**:
+Look at all the menus in an application to see the shortcuts. For Terminal.app look in the Edit menu. ⌘ K Says clear to start. This clears all the text of the buffer just leaving the current prompt and command you are typing. In my quick test it seems to do the same as ^ L The shortcuts are all given in an Apple Support Guide https://support.apple.com/en-gb/guide/terminal/trmlshtcts/mac I suspect the confusion that is because Apple menu says Clear to Start to differentiate it to the other clear commands e.g. clear to bookmark. As backing for that view iTerm does just call it clear and uses ⌘ ⌥ L based shortcuts for dealing with clear to mark. As to getting the command back - well they have not been undone so the effects are there. Getting them back depends on your shell and its setup. The default zsh (and bash) setup will show the last commands when you press up arrow, you won't get the results that used to be shown back. There are shells that can store the results as well as the commands, xonsh for example. There are also terminal emulators that can show the command you have entered, e.g. iTerm iTerm also when it clears the screen does not delete the previously shown results so you can get those back.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/459823/what-does-cmd-k-do-in-the-terminal
+
+---
+
+#### 1115. When I am presenting from macOS, can I temporarily freeze content on the external display while I set up the next scene?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, display | Score: 4 | Views: 2685 | Answers: 1 | Created: 2024-05-02
+
+**解决方案 / Solution**:
+Let’s say you could take a screen shot of the display and then insert that into a program called Desktop Curtain which specializes in automating a setup to present an uncluttered screen. Would that work? I suggest third party tools I know work well since I think Apple only has a Screen Curtain function to blank a screen and not freeze the contents. Also, how would the person preparing know what was going to be on the screen?
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472358/when-i-am-presenting-from-macos-can-i-temporarily-freeze-content-on-the-externa
+
+---
+
+#### 1116. OSC 8 styled hyperlinks in the Terminal
+
+**问题描述 / Problem Description**:
+Tags: terminal | Score: 4 | Views: 1972 | Answers: 1 | Created: 2023-05-22
+
+**解决方案 / Solution**:
+This has come up before (see Is there a way to make a link clickable in the OSX Terminal? , Configure OS X Terminal to detect URLs and make them clickable? ), and it seems not to be possible to use OSC 8 in macOS Terminal. It also isn't required. You can just double-click with Cmd pressed on any URL shown in a Terminal window to have it open in the default browser. You can use Terminal capabilities to underline text with tput tput smul; echo https://apple.stackexchance.com/; tput rmul but this might be confusing because the click behavior is not the same as in a browser.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/460189/osc-8-styled-hyperlinks-in-the-terminal
+
+---
+
+#### 1117. How can I force macOS to use AirPrint instead of a Generic PostScript Printer driver?
+
+**问题描述 / Problem Description**:
+Tags: macos, printing, driver, airprint | Score: 3 | Views: 652 | Answers: 1 | Created: 2025-09-03
+
+**解决方案 / Solution**:
+Instead of setting up the printer via System Settings, set it up via the system print menu. Open a document in Preview Open the print menu Select the automatically discovered printer from the menu The printer will set up and then open in System Settings, showing as printing via AirPrint You can now print as normal to this printer, and it will succeed
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481399/how-can-i-force-macos-to-use-airprint-instead-of-a-generic-postscript-printer-dr
+
+---
+
+#### 1118. Why does the upper left hot corner change and is set to enable screen saver in macOS 15.6?
+
+**问题描述 / Problem Description**:
+Tags: macos | Score: 3 | Views: 144 | Answers: 1 | Created: 2025-08-11
+
+**解决方案 / Solution**:
+So one thing I was able to do to stop this behaviour is the following. Set the upper left hot corner manually to Option + Start Screen Saver. You can do this by having the Option button pressed while setting that hot corner. It doesn't exactly fix the issue but at least now the screen saver will not be activated unless I am pressing the Option button and take the cursor in the upper left corner at the same time (Which will never happen).
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481137/why-does-the-upper-left-hot-corner-change-and-is-set-to-enable-screen-saver-in-m
+
+---
+
+#### 1119. Why does Apple add a key for §
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, keyboard | Score: 3 | Views: 767 | Answers: 1 | Created: 2024-04-12
+
+**解决方案 / Solution**:
+The silcrow § and pilcrow ¶ are important typographic elements for legal writing. Why they are included in computer layouts for certain countries are banal and likely totally unrelated to Apple decisions at all since key layouts are often common to many vendors of computer hardware and not just uniquely macOS and Apple keyboard decisions. https://en.wikipedia.org/wiki/Silcrow https://en.wikipedia.org/wiki/Plus%E2%80%93minus_sign A little research in general drives an easy conclusion that the use of many keys on macOS is clearly to generate a symbol that some portion of the population uses regularly. Another easy conclusion is that different regions prioritize different character sets and that within those regions, a standard layout is highly beneficial and traditional but not always achieved across all keys and keyboard visual and physical layouts. For your specific region and this specific section character, it could easily be ranked more common for legal use and that subset of the population has enough representation and/or influence for those two punctuation being most important over other alternatives.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471832/why-does-apple-add-a-key-for
+
+---
+
+#### 1120. How to prevent a Mac from switching Desktops/Spaces around monitors/displays
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, display, desktop | Score: 3 | Views: 3749 | Answers: 1 | Created: 2024-04-02
+
+**解决方案 / Solution**:
+This appears to be a long standing issue, with many users complaining. From this post on Desktop arrangement lost after waking from sleep I had a long call with Apple Support yesterday. They recommended un-checking the "Automatically rearrange Spaces based on most recent use" (Number 1 below) and checking the "Displays have separate Spaces" (Number 2 below) under the Mission Control in the System Preferences. Below is a screenshot of what I've done by following their advise. There is another potential solution that involves creating a new user, from this post , but it sounds a bit dubious to me: Looks like I have a fix, after 1h call with support and some experimenting. Step 1: create different local user and check if problem occurs again. For me, it didn't. Option with new user is nor really good for me, as it means another onboarding process with my corporate, means new device ID, certificates, blahblah. Step 2: shut down Mac, ten tap and hold power button for Startup options, choose options -> disk utility, and check Macintosh HD for errors -> "health check". For me, it didn't find anything. Step 3: (being logged into your user) Finder -> Go-> Library -> LaunchAgents, delete everything inside, not the folder itself. Step 4: go to Macintosh HD -> Library -> LaunchDaemons, delete everything inside, not the folder itself. Restart Mac. Now sleeping and waking, unplugging and plugging back - all app windows are back where I left off. Finally. There is another option, which seems more of a workaround, rather than a fix, of making your laptop monitor the main screen, (which may be a sub-optimal solution for you). From this post I may have found a solution. It's as simple as setting your built-in screen as the Main display instead of the external screen. It might not resolve the issue 100% but at least I haven't had to rearrange my windows every time the screen goes to sleep mode. That thread has a number of other suggestions and potential solutions (there are 121 answers, at the time of writing).
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471544/how-to-prevent-a-mac-from-switching-desktops-spaces-around-monitors-displays
+
+---
+
+#### 1121. How can I change my terminal prompt name?
+
+**问题描述 / Problem Description**:
+Tags: terminal, command-line | Score: 3 | Views: 13193 | Answers: 2 | Created: 2023-06-13
+
+**解决方案 / Solution**:
+Here are some examples of what I use at different times, in my .zshrc file: PS1=" %n @%m %1~ ⚡ " which gives me (when in my ~/Documents directory): bw @Redwood Documents ⚡ Or: PS1=" me here now: %1~ ⚡ " which shows as: me here now: Documents ⚡ (I use a colored lightning bolt so it's easy to spot.) Remember to exit your current shell and start a new one to see the change. If you don't find a .zshrc file in your home directory, create it as a text file.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/461003/how-can-i-change-my-terminal-prompt-name
+
+---
+
+#### 1122. Can not change "Open in Terminal" default back to Terminal from iterm2
+
+**问题描述 / Problem Description**:
+Tags: terminal, finder | Score: 3 | Views: 175 | Answers: 1 | Created: 2023-06-08
+
+**解决方案 / Solution**:
+TL;DR The file you are looking for is: ~/Library/Application\ Support/iTerm2 Move or remove it with sudo mv -r ~/Library/Application\ Support/iTerm2 ~/Library/Application\ Support/old.iTerm2 or sudo rm -r ~/Library/Application\ Support/iTerm2 respectively. Long version To fix the Finder context menu, in order to change the "Open with Terminal" back to the default, there seem to be two main options: Rebuild Launch Services database Delete the Application Support plist Rebuild Launch Services database One answer (or rather, workaround ) seems to be to rebuild the Launch Services database . This is mentioned/discussed in this post under the Gitlab issue Does not uninstall completely The iTerm context menu items pictured -- along with MEGA, but I don't really care -- disappeared as soon as I attempted to rebuild Launch services using some copypasta scripting from here: https://eclecticlight.co/2017/08/11/launch-services-database-problems-correcting-and-rebuilding/ I ran one of the script which ends with apps u, saw some of the same errors mentioned in the comments and then had to wait a few moments with an unresponsive Finder while stuff happened in the background. So, following the link to Launch Services database problems: correcting and rebuilding , there are three (or four) options to rebuild the Launch Services database, in increasing order of "blast radius": Option 1 Just the user domain - as suggested in the workaround posted under the Gitlab issue /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -v -apps u Option 2 Three domains – system , local , and user /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -v -apps u,s,l Option 3 The whole database /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -v -all u,s,l Option 4 Older syntax ( user domain only): /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -v -domain u Additional reference lsregister Syntax lsregister: [Options] [path...] [-apps domain[,domain]...] [-libs domain[,domain]...] [-all domain[,domain]...] lsregister is not on the system path so run it using the full path as shown in the examples below. Options -delete Delete the Launch Services database file. You must then reboot! -kill Reset the Launch Services database before doing anything else. -seed If database isn't seeded, scan default locations for applications and libraries to register. -lint Print information about plist errors while registering bundles. -lazy n Sleep for n seconds before registering/scanning. -r Recursive directory scan, do not recurse into packages or invisible directories. -R Recursive directory scan, descending into packages and invisible directories. -f force-update registration even if mod date is unchanged. -u unregister instead of register. -v Display progress information. -gc Garbage collect old data and compact the database. -dump [table] Display full database contents after registration. -h Display help. -convert Register apps found in older LS database files Delete the Application Support plist From this answer (and looking at what AppCleaner also recommends in this answer ) to How to uninstall iTerm2 , and judging by this comment , if the iTerm2 application bundle has already been removed, but the Finder context menus still remain, then this command alone should remove them: sudo rm -r ~/Library/Application\ Support/iTerm2 Failing that, to manually delete all the context menus and application bundle, then the three commands required are: sudo rm ~/Library/Preferences/com.googlecode.iterm2.plist sudo rm -r ~/Library/Application\ Support/iTerm2 sudo rm -r /Applications/iTerm.app
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/460793/can-not-change-open-in-terminal-default-back-to-terminal-from-iterm2
+
+---
+
+#### 1123. What are the directories I see when I hit tab on `cd ~` that are not seen in `ls ~`
+
+**问题描述 / Problem Description**:
+Tags: terminal, mac, command-line, unix, zsh | Score: 3 | Views: 446 | Answers: 2 | Created: 2023-05-27
+
+**解决方案 / Solution**:
+~ alone expands to your own home directory. There is also a syntax ~username that expands to the home directory of a given username. So if myUsername is my username, then ~myUsername is the same as ~ , and expands to /Users/myUsername . Meanwhile, ~root expands to root 's home directory, which (on my system) is /var/root . Most of the other possibilities, like ~nobody , seem to go to /var/empty . The big list of names you are seeing are when you press Tab after cd ~ is simply a list of usernames on your system. You can complete the line with any of the usernames and the resulting cd command will (try to) take you to that user's home directory. Since the directories ~root , ~nobody etc. are not in your ~ , it is no surprise that ls ~ doesn't show them. Note that it is typical for there to be many more "users" on a system than actual human users, since, for security reasons, it is often beneficial to run programs or services as their own user. Since programs can't access things their users don't have permissions for, this keeps programs from touching things they shouldn't.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/460390/what-are-the-directories-i-see-when-i-hit-tab-on-cd-that-are-not-seen-in-ls
+
+---
+
+#### 1124. How can I disable spelling suggestions pop-up while still showing misspelled words?
+
+**问题描述 / Problem Description**:
+Tags: macos, spellcheck | Score: 2 | Views: 499 | Answers: 2 | Created: 2025-08-23
+
+**解决方案 / Solution**:
+The relevant settings are in System Settings > Keyboards > Text Input > Edit. You need to turn off "Correct spelling automatically". You should find that you still get the red underlining nonetheless, if "Check Spelling While Typing" is checked in Edit > Spelling & Grammar.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481279/how-can-i-disable-spelling-suggestions-pop-up-while-still-showing-misspelled-wor
+
+---
+
+#### 1125. How can I be notified when the current user changes?
+
+**问题描述 / Problem Description**:
+Tags: macos | Score: 2 | Views: 209 | Answers: 2 | Created: 2025-08-11
+
+**解决方案 / Solution**:
+There has always been a need for this while managing Macs and the best way is an open source package outset. https://github.com/macadmins/outset You probably need most of what it allows, but if you wanted to dig into how it worked and extract that, the code is licensed as Apache 2.0 . If you haven’t already joined the MacAdmins slack , you will find good support there in using and creating tools in the admin realm.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481135/how-can-i-be-notified-when-the-current-user-changes
+
+---
+
+#### 1126. How to mount a drive that can be accessed only by the current user?
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, ssd, mount, accounts | Score: 2 | Views: 296 | Answers: 1 | Created: 2025-08-11
+
+**解决方案 / Solution**:
+The problem can be solved as follows : Create a "Volumes" directory in the user home directory. Create a mount point directory in the "Volumes" directory. Remove the permissions of the "Volumes" directory for the other users. Pass the mount point directory to the "diskutil mount" command. The script is updated accordingly as follows : ... mount_point="/Users/$(id -un)/Volumes/volume-name" mkdir -p "${mount_point}" chmod go-rwx "${mount_point}/.." diskutil umount force "${volume_uuid}" diskutil apfs unlockVolume "${volume_uuid}" -nomount -passphrase "${volume_password}" diskutil mount nobrowse -mountPoint "${mount_point}" "${volume_uuid}" ...
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481134/how-to-mount-a-drive-that-can-be-accessed-only-by-the-current-user
+
+---
+
+#### 1127. How to disallow camera sync from Mac to iPhone
+
+**问题描述 / Problem Description**:
+Tags: iphone, macbook-pro, camera | Score: 2 | Views: 2172 | Answers: 1 | Created: 2024-05-02
+
+**解决方案 / Solution**:
+That feature you are referring to is called Continuity Camera . You can easily disable it from your iPhone by: Go to Settings Scroll down and tap on General Find and tap on AirPlay & Handoff Find the option Continuity Camera and toggle it off. This should disable it and you won't receive the prompts again.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472347/how-to-disallow-camera-sync-from-mac-to-iphone
+
+---
+
+#### 1128. Macbook Pro 2013 - Unable to boot after attempting to remove Kali Linux partition
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, command-line, macos, partition, internet-recovery | Score: 2 | Views: 106 | Answers: 1 | Created: 2024-04-23
+
+**解决方案 / Solution**:
+You entered the following commands. gpt -r show disk0 diskutil umountDisk disk0 gpt remove -i 2 disk0 gpt add -i 2 -b 409640 -s 431203056 -t 7C3457EF-0000-11AA-AA11-00306543ECAC disk0 You should have entered the following commands. gpt -r show disk0 diskutil umountDisk disk0 gpt remove -i 2 disk0 diskutil umountDisk disk0 gpt add -i 2 -b 409640 -s 820312496 -t 7C3457EF-0000-11AA-AA11-00306543ECAC disk0 Try entering these commands. Removing Linux partition by use of the diskutil command or the Disk Utility application can result in an APFS partition's type being changed to FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF , which basically is the integer value of -1 . I mention this because you still have a Linux partition on disk0 . If you wanted to remove the Linux partition at disk0s3 , you could do the following from Internet Recovery. Here, I assume the command gpt -r show disk0 still produces the following line. 820723712 154380288 3 GPT - 0FC63DAF-8483-4772-8E79-3D69D8477DE4 The commands below change the Linux partition to an ExFAT formatted Windows partition. diskutil unmountdisk disk0 gpt remove -i 3 disk0 diskutil unmountdisk disk0 gpt add -i 3 -b 820723712 -s 154380288 -t windows disk0 diskutil umountDisk disk0 newfs_exfat -v MyExFAT /dev/disk0s3 The command below should remove the partition. This should include writing zeros to the start of the partition and sorting the GPT in ascending order. diskutil erasevolume free none disk0s3
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472122/macbook-pro-2013-unable-to-boot-after-attempting-to-remove-kali-linux-partitio
+
+---
+
+#### 1129. MacBook Pro screen went out, have an external monitor
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, display | Score: 2 | Views: 86 | Answers: 1 | Created: 2024-03-28
+
+**解决方案 / Solution**:
+Open the lid of your Macbook Pro, connect the external monitor, power on and then wait untill load login screen. Close the lid and it should switch the display to the external monitor.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471410/macbook-pro-screen-went-out-have-an-external-monitor
+
+---
+
+#### 1130. Why is my MacBook is draining the battery way too quickly, especially when it's off?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, mac, battery | Score: 2 | Views: 338 | Answers: 1 | Created: 2024-03-18
+
+**解决方案 / Solution**:
+ahh the Vampire or the Insomnia mode. It waits for you to go to sleep then it ravages around. User friendly method. In Activity Monitor look for "Preventing Sleep". How to >>Right click on the menu bar and select preventing sleep that will show you a new coulomb with who is preventing sleep. In System preferences select battery or Power saver and disable all Look deeper: In Terminal use pmset -g assertions If you do not know what you are looking at, publish the screen shots here so we can help
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471155/why-is-my-macbook-is-draining-the-battery-way-too-quickly-especially-when-its
+
+---
+
+#### 1131. MacBook Pro (M1 2020, Sonoma) keeps restarting after sleep or inactivity
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, sleep-wake, restart, sonoma | Score: 2 | Views: 8263 | Answers: 4 | Created: 2024-03-02
+
+**解决方案 / Solution**:
+First, even though the warranty has expired, you can still take it to an Apple Store for a free diagnosis. They should be able to determine whether it's a hardware or software fault, at least. And you should always (in any case) back up your data regularly to another device, to avoid any data loss. I don't see any reference to third-party software, but I would maybe check what you have installed, particularly under System Settings > General > Login Items > "Allow in the background" . You could also try a Safe Boot (boot while holding down SHIFT), and see if the problem occurs there, and then restart normally. Try creating a new user account, and see if the problem occurs when you log into that. If not, then you know the problem relates to some software in use in your original account. If it still happens, then the problem is at the system level, which could still be software-related, or a hardware issue.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/470739/macbook-pro-m1-2020-sonoma-keeps-restarting-after-sleep-or-inactivity
+
+---
+
+#### 1132. Disable the Notification Centre on a Mac running Ventura 13.4
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, notifications | Score: 2 | Views: 1509 | Answers: 1 | Created: 2023-06-15
+
+**解决方案 / Solution**:
+You can’t disable the entire Notification Center, but you can allow/disallow notifications: Change Notifications settings on Mac Allow notifications: Turn notifications on or off. When you turn notifications off, the alert style and other notification options are dimmed. Use Focus instead That said, I do not recommend turning off notifications. They are there to alert you to timely/important things. Instead, I highly suggest your configure and enable a/some Focus schedules. I have several configured: Head Down (intensive work), Work (less intensive), and Open. Some are scheduled while others are manually activated. It will silence notifications during that focus time.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/461104/disable-the-notification-centre-on-a-mac-running-ventura-13-4
+
+---
+
+#### 1133. Why are all my new installations on my M1 Mac (zsh terminal) not being installed to my PATH and instead to /Users/myusername/Library/?
+
+**问题描述 / Problem Description**:
+Tags: terminal, command-line, zsh, path, apple-silicon | Score: 2 | Views: 1053 | Answers: 1 | Created: 2023-06-14
+
+**解决方案 / Solution**:
+Install directory ≠ PATH. Your path (environment variable) is an ordered listing of directories your shell will go through to find a command/resource. Your install directory is where the binaries, libraries, configuration files, etc. get installed. To put it another way, your PATH can reference you install directory, but you can’t install something to your PATH. Could not find dependency… WARNING: The script is installed in... which is not on PATH. Consider adding this directory to PATH... That error message is telling you that a binary you just executed, expects certain files to be found in your PATH but it’s not finding them. How to add items to PATH You can find out what’s in your PATH by executing the command: echo $PATH You should get output similar to the following: /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin You can add a directory immediately (temporarily) to the PATH variable by simply setting it with the directory you want to include: % PATH=$PATH:/foo/bar:/foobar/foobar Note that each directory is separated with a colon ( : ). We also reference the existing PATH variable with the $PATH . † To make it permanent, you would put this command in either your .zprofile or .zshrc (whichever one has your existing PATH set). These files are located in your home directory referenced by $HOME or the tilde ~/ . To edit it, use and editor like nano or vi (I prefer nano, but it might not be included in Ventura anymore) % nano ~/.zprofile Simply add/edit the file to include the PATH command shown above, save, then restart terminal. † You might hear that you need to EXPORT your path. I deliberately left that out here as to not overwhelm you with info. EXPORTing a variable in a shell makes it available to subshells. You can experiment with this by setting the PATH as shown above, then open a new shell by typing zsh and then echo $PATH again. Try it with EXPORT and without.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/461046/why-are-all-my-new-installations-on-my-m1-mac-zsh-terminal-not-being-installed
+
+---
+
+#### 1134. How to unset a variable which is previously set somewhere in Mac OS I don't know?
+
+**问题描述 / Problem Description**:
+Tags: terminal, environment-variables | Score: 2 | Views: 2802 | Answers: 1 | Created: 2023-06-10
+
+**解决方案 / Solution**:
+This variable can be set in any of the files zsh reads at startup, or in any command called from one of these files. According to the man page, these are (with ZDOTDIR defaulting to HOME ) $ZDOTDIR/.zshenv $ZDOTDIR/.zprofile $ZDOTDIR/.zshrc $ZDOTDIR/.zlogin /etc/zshenv /etc/zprofile /etc/zshrc /etc/zlogin So as a first attempt, run grep JWT_SECRET {~/.z,/etc/z}{shenv,profile,shrc,login} Ignore any "file not found" errors, and check whether it returns a match. If it doesn't, you need to manually look at each of these files (if they exist) and check for any commands which could actually set the variable.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/460856/how-to-unset-a-variable-which-is-previously-set-somewhere-in-mac-os-i-dont-know
+
+---
+
+#### 1135. Where does macOS save new Preview window geometry?
+
+**问题描述 / Problem Description**:
+Tags: macos, preview, window-manager | Score: 1 | Views: 134 | Answers: 1 | Created: 2025-08-29
+
+**解决方案 / Solution**:
+Preview on macOS will remember the location and the size of the window when exiting. Position the Preview window as required. Quit Preview by pressing Cmd + Q . Depending on settings and app design on macOS, closing the last window may not terminate the program.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481354/where-does-macos-save-new-preview-window-geometry
+
+---
+
+#### 1136. Prevent automatic window resizing after using window tiling
+
+**问题描述 / Problem Description**:
+Tags: macos, window-manager | Score: 1 | Views: 156 | Answers: 1 | Created: 2025-08-27
+
+**解决方案 / Solution**:
+Some of the tips in this Apple Support document may help you to configure your experience: https://support.apple.com/guide/mac-help/change-window-tiling-settings-on-mac-mchl118087b0/mac Excerpt from this page: On your Mac, choose Apple menu  > System Settings, then click Desktop & Dock in the sidebar. (You may need to scroll down.) Go to Windows. Turn any of the following options on or off: • “Drag windows to screen edges to tile” • “Drag windows to menu bar to fill screen” • “Hold ⌥ key while dragging windows to tile” • “Tiled windows have margins”
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481324/prevent-automatic-window-resizing-after-using-window-tiling
+
+---
+
+#### 1137. How to find only folders that container specific type of item
+
+**问题描述 / Problem Description**:
+Tags: macos, spotlight, folders, search | Score: 1 | Views: 282 | Answers: 1 | Created: 2025-08-27
+
+**解决方案 / Solution**:
+There are probably several ways to do this in the Terminal. Here’s one, which calls find to search for .jpg files, then dirname on each filename to extract the full directory name, and finally uniq to remove duplicates. find 'pathToLookUnder' -iname '*.jpg' -print0 | xargs -0 dirname | uniq (Obviously, replace pathToLookUnder with the path to the folder you want to search in. Or cd to it first, and use . instead.) This is structured as a pipeline: the filenames that find lists are passed on to dirname (using xargs to call it for each one) and the results then passed to uniq . The ‘-print0’ and ‘-0’ flags work around problems with special characters. If any of the filenames contains a quote or similar, xargs would normally try to split there. To work around that, ‘-print0’ tells find to separate filenames with a zero byte; and ‘-0’ tells xargs to split only on zero bytes. So this should work for any filenames (that don’t contain newlines). This will return the folder names in an unspecified order. If you want them ordered, you can of course append | sort (or replace the uniq with sort -u ). The results are listed on the terminal. You can instead save them to a file, by appending >filename.txt . Or you can copy them to the clipboard by appending | pbcopy (so they can then be pasted into other apps). UPDATE: -iname '*.jpg' will find all files ending in ‘.jpg’ (or ‘.JPG’, or any combination). To search for multiple extensions, you can instead use a condition like: '(' -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' ')' (The parens ensure that the following ‘-print0’ will apply to them all. And the quotes prevent what's in the parens being interpreted as commands for a subshell, or file attributes, depending on the shell.)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481319/how-to-find-only-folders-that-container-specific-type-of-item
+
+---
+
+#### 1138. Trying to figure out if Mac is being hacked
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, login, hacking | Score: 1 | Views: 3275 | Answers: 4 | Created: 2025-08-18
+
+**解决方案 / Solution**:
+You are utterly not being hacked. There might be hacking attempts , but as the log entry says “Authentication failed…” I would chalk this up to attempts to hack any IP address in the world by armies of bots and/or script kiddies. Any and every IP address that is exposed to the Internet gets scanned by armies of bots and/or script kiddies daily. That they are getting past your router to begin with is a concern, but they are not logged in. The TTY000 and console logins are just normal logins via your user on macOS. Here, look at the similar last output from my system; real username redacted to nope for example’s sake: nope ttys000 Mon Aug 18 08:45 still logged in nope ttys000 Mon Aug 18 08:40 - 08:40 (00:00) nope ttys000 Mon Aug 18 08:40 - 08:40 (00:00) nope ttys000 Mon Aug 18 08:22 - 08:22 (00:00) nope ttys000 Mon Aug 18 08:21 - 08:21 (00:00) [Repeated lines removed] nope ttys000 Sat Aug 2 22:21 - 22:21 (00:00) nope ttys000 Sat Aug 2 21:37 - 21:37 (00:00) nope ttys004 Sat Aug 2 21:36 - 21:36 (00:00) nope ttys003 Sat Aug 2 21:33 - 21:33 (00:00) nope ttys002 Sat Aug 2 21:31 - 21:31 (00:00) nope ttys001 Sat Aug 2 21:29 - 21:29 (00:00) nope ttys000 Sat Aug 2 21:29 - 21:29 (00:00) nope ttys000 Sat Aug 2 21:28 - 21:28 (00:00) nope ttys000 Sat Aug 2 21:28 - 21:28 (00:00) nope ttys000 Sat Aug 2 21:09 - 21:09 (00:00) nope ttys000 Sat Aug 2 21:07 - 21:07 (00:00) nope ttys001 Sat Aug 2 20:49 - 20:49 (00:00) nope ttys000 Sat Aug 2 20:47 - 20:47 (00:00) nope ttys003 Sat Aug 2 20:30 - 20:30 (00:00) nope ttys004 Sat Aug 2 20:27 - 20:27 (00:00) nope ttys006 Sat Aug 2 20:24 - 20:24 (00:00) nope ttys005 Sat Aug 2 20:23 - 20:23 (00:00) nope ttys004 Sat Aug 2 20:23 - 20:23 (00:00) nope ttys003 Sat Aug 2 20:23 - 20:23 (00:00) nope ttys002 Sat Aug 2 20:23 - 20:23 (00:00) nope ttys001 Sat Aug 2 20:22 - 20:22 (00:00) nope ttys000 Sat Aug 2 20:17 - 20:17 (00:00) nope ttys000 Sat Aug 2 20:17 - 20:17 (00:00) nope ttys000 Sat Aug 2 20:16 - 20:16 (00:00) nope ttys000 Sat Aug 2 20:16 - 20:16 (00:00) nope console Sat Aug 2 20:10 still logged in The line from Aug 18 that reads: nope ttys000 Mon Aug 18 08:45 still logged in …is me currently logged in to the Terminal. And the Aug 2 line: nope console Sat Aug 2 20:10 still logged in …is when I rebooted my MacBook Air completely. Meaning, console is for macOS as a whole and stays the same until restart/reboot. The other ttys000 entries are when you are actually logged in. The console session relates to the OS state and the ttys000 relates to the user state when the user is in the Terminal. Reboot your machine to see this in action. When you do you should see a console and ttys000 on the same exact date. What you are seeing is normal macOS behavior that you are misinterpreting in the context of you being supposedly a “target of a harassment and doxxing campaign.” Update : In response to your recent edit that asks: “How to I figure out what thing is causing that???” The issue you are asking about are unsuccessfully login attempts like this: opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Authentication failed for <private> (#): ODErrorCredentialsInvalid To restate what I state above. “There might be hacking attempts , but as the log entry says “Authentication failed…” I would chalk this up to attempts to hack any IP address in the world by armies of bots and/or script kiddies. Any and every IP address that is exposed to the Internet gets scanned by armies of bots and/or script kiddies daily. That they are getting past your router to begin with is a concern, but they are not logged in.” The reason those login attempts (100% unsuccessful) is because you are connecting to a network or a router that is no properly blocking such attempt. Questions only you can answer are: Is your macOS firewall active? Is the firewall on your router active? Are you connecting to a Wi-Fi hotspot that has questionable security practices? If any/all of these are in play that would create log entries with tons of unsuccessful login attempts. Again… You are utterly not being hacked or targeted in any way, shape or form. You are simply overanalyzing things you (honestly) barely understand and are projecting your fears onto them. Please wind that down; you are 100% safe. Update : You say in this comment on the original question ; bold emphasis is mine: “I went to the Apple store because yesterday someone tried to hack into my Apple ID has attested by the Apple Genius...the information we got as far as -this- occurence and information goes is that it's actually a local file that is trying to access those files. Also when someone tried to hack into my Apple ID a weird process of the name AKFollowUpServerExtension asked for my user and login.” The key word here is “tried.” Someone tried to hack into your Apple ID. They were not successful. It is not hard to see how someone can attempt to hack an Apple ID since most often your Apple ID is a very publicly known email address. But just because someone tried to hack into your Apple ID does not mean it is related to any other logs and activity you have noticed. Again, you are projecting your worst fears onto system activity that is fairly boring at best. Please take a step back and realize you have not been successfully hacked in any way, shape or form. Utterly nobody is gaslighting you.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481214/trying-to-figure-out-if-mac-is-being-hacked
+
+---
+
+#### 1139. How to clone internal disk of MacBook M1 for data recovery?
+
+**问题描述 / Problem Description**:
+Tags: macos, filesystem, data-recovery | Score: 1 | Views: 304 | Answers: 1 | Created: 2025-08-14
+
+**解决方案 / Solution**:
+Check for APFS snapshots and you may have the data in a format you can mount and extract to a backup or back to the current filesystem. Boot to recovery OS Start Disk Utility In the View menu - show all devices and show snapshots Mount your Data volume Attach your external drive and mount it in Disk Utility Find the earliest snapshot (or the one most likely to contain the data before deletion) Mount that snapshot Quit Disk Utility and start Terminal.app All the mounts will exist - copy the files from /Volumes/Data@snap-123456789 to /Volumes/external_drive If you can't find a snapshot, you may have to run dd on non-synthesized disk - I get either Permission denied or Invalid argument when I attempt to have dd read from any synthesized devices. bash-3.2# dd if=/dev/disk0s2 of=/Volumes/bmike/recovery/foo512.dd bs=1m count=512 512+0 recordsin 512+0 recordsout 536870912 bytes transferred in 45.095041 secs (11905320 bytes/sec) Unless you can bring a different tool compiled and that runs from an attached disk in recovery mode, you are limited by design to access this "storage" off device. Apple Secure Enclave and AES engine prevent external access to the data stored on the internal storage. Any recovery software needs to request the drive be unlocked and the data to be decrypted between the storage and the processor. For your plan to work, you will have to defeat the data protection hardware to get at the storage even in DFU mode.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481171/how-to-clone-internal-disk-of-macbook-m1-for-data-recovery
+
+---
+
+#### 1140. MacBook Pro: can't type login password with wireless USB keyboard (only built-in kbd works)
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, keyboard, usb, sleep-wake | Score: 1 | Views: 910 | Answers: 1 | Created: 2024-07-29
+
+**解决方案 / Solution**:
+On MacBooks, but not desktop Macs, there is a menu System Settings > Security and Privacy > Security > Allow accessories to connect For third-party USB keyboards, if this setting is set to Ask for New Accessories or Ask Every Time , the USB keyboard can't be used to log in by default. Select Ask for New Accessories , disconnect the USB keyboard, log in with the built-in keyboard, and then connect the USB keyboard again. A dialog will prompt you to approve the accessory. Be aware, though, that in general, USB devices can't be identified uniquely. They can only be identified by vendor and product ID, which are the same for all devices with the same characteristics. A malicious USB device, such as a hardware keylogger, could have the same identifiers as a legitimate one. So you can't just assume that the keyboard you approved is actually the same one that is connected later. Use caution when connecting unknown USB devices.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/474326/macbook-pro-cant-type-login-password-with-wireless-usb-keyboard-only-built-in
+
+---
+
+#### 1141. How to identify installed software on MacBook?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, software, sonoma | Score: 1 | Views: 144 | Answers: 1 | Created: 2024-07-23
+
+**解决方案 / Solution**:
+Live Text OCR on the Chinese characters and a web search show that it's an application called "Bear Markdown Notes" in the App Store.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/474214/how-to-identify-installed-software-on-macbook
+
+---
+
+#### 1142. Python installation broken after Homebrew auto updated
+
+**问题描述 / Problem Description**:
+Tags: mac, homebrew, python, sonoma | Score: 1 | Views: 663 | Answers: 1 | Created: 2024-07-18
+
+**解决方案 / Solution**:
+Apparently solved with brew link --overwrite pillow .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/474118/python-installation-broken-after-homebrew-auto-updated
+
+---
+
+#### 1143. Why is the camera not detected on MacBook M1?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, camera, sonoma | Score: 1 | Views: 332 | Answers: 1 | Created: 2024-07-18
+
+**解决方案 / Solution**:
+Open System Information app On the left is a section for Camera. If you want remote assistance, open a support case with Apple on the web or app or by phone. They will let you know if you should use that app to send your configuration information to Apple. The hardware detection by the OS should be easy to check. Then you can decide if you need a repair or its software (restart, safe mode, backup, erase install, etc…) once you are sure it’s not just OS permissions and privacy blocking the apps from seeing the camera that system information shows as connected, you would then need to check the connectors or get hardware repair for the display.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/474103/why-is-the-camera-not-detected-on-macbook-m1
+
+---
+
+#### 1144. how to prevent alt+arrows from moving cursor to end/begin of a word
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, keyboard, emacs | Score: 1 | Views: 56 | Answers: 1 | Created: 2024-07-13
+
+**解决方案 / Solution**:
+You can do it in terminal Settings under Profiles -> Keyboard. Just remove those two shortcuts. Alt + arrows correspond to \033f and \033b .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/474012/how-to-prevent-altarrows-from-moving-cursor-to-end-begin-of-a-word
+
+---
+
+#### 1145. MacBook Pro M1 Pro - Internal monitor removed but still shows in System Prefences
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, display | Score: 1 | Views: 1074 | Answers: 1 | Created: 2024-07-04
+
+**解决方案 / Solution**:
+Your MacBook Pro likely still detects the internal display because the display's logic board connection remains intact even after removing the physical screen. This causes macOS to believe the internal display is still present. To address this, you can use software solutions like DisableMonitor or SwitchResX to manage and disable the ghost display. These tools allow you to control and disable the phantom screen, preventing windows from opening on the nonexistent display and enabling easier management of your external monitor setup.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/473801/macbook-pro-m1-pro-internal-monitor-removed-but-still-shows-in-system-prefence
+
+---
+
+#### 1146. How to bindkey page up/page down in macOS terminal?
+
+**问题描述 / Problem Description**:
+Tags: terminal, zsh | Score: 1 | Views: 800 | Answers: 1 | Created: 2024-07-03
+
+**解决方案 / Solution**:
+By default, the Page Up and Page Down keystrokes are intercepted and interpreted by Terminal.app , so they never make it to the shell running in the terminal window. Therefore there's no way to assign a key sequence via bindkey . However, Terminal can be customized to pass those keys to zsh . The menu selection Terminal -> Settings... -> Profiles -> Basic (or another profile) -> Keyboard will bring up the dialog for adding key sequences: Click on + , set Key to Page Up , Modifier to None , Action to Send Text: , and enter esc [ 5 ~ in the text box: Similarly, Page Down can be set to esc [ 6 ~ . The key sequences are from a list here , although almost any unique sequence will work. Now we can pair the keys and commands via bindkey : bindkey $'\e[5~' history-search-backward bindkey $'\e[6~' history-search-forward
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/473784/how-to-bindkey-page-up-page-down-in-macos-terminal
+
+---
+
+#### 1147. Corrupt Storyboard rendering in Xcode 15 on OCLP Ventura and Sonoma on Kepler graphics (MBP mid 2014)
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, xcode, graphics, gpu | Score: 1 | Views: 176 | Answers: 1 | Created: 2024-07-03
+
+**解决方案 / Solution**:
+I've learned that the issue only occurs if the storyboard is opened while there is an external monitor connected , and I've also learned that external monitors are handled by the discrete GPU on this machine. From this, combined with OpenCore Legacy Patcher's note about how Storyboard rendering can become corrupt on Kepler graphics, and combined with that the issue is not present on Macbooks that only have Intel integrated graphics, I conclude that this is only an issue when Xcode uses the discrete GPU for rendering work. Unfortunately, the discrete GPU's involvment is required since I want to use an external monitor. The next discovery was that Storyboards not only worked fine as long as I opened them while no external monitor was connected, but also continued working after I plugged it back in . Clearly the render surfaces acquired and retained some sort of affinity for one of the two GPUs at creation time. I thought about it some more, because I don't want to constantly unplug monitors, and asked myself if there isn't another system state that will also force apps to use the integrated GPU instead of the discrete one. What about power saving? After unplugging the power cable and launching Xcode/opening storyboards on an external monitor, on battery power, I indeed get the same result as when no monitor is plugged in. This is much better than unplugging and plugging two monitors back in every time. In conclusion: if you can accept working around this problem on an individual basis, you can force Xcode's storyboards to prefer the iGPU during their lifetimes simply by unplugging the charger before opening them. I imagine you'd need to enable the system's power saving setting to dynamically switch GPUs for this to work. If you could somehow programmatically force the system into its power saving state, or to always pick the integrated GPU some other way, then I suppose that you could theoretically automate this.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/473777/corrupt-storyboard-rendering-in-xcode-15-on-oclp-ventura-and-sonoma-on-kepler-gr
+
+---
+
+#### 1148. My MacBook stopped charging after I reset the SMC
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, battery, charging, power, magsafe | Score: 1 | Views: 210 | Answers: 1 | Created: 2024-06-29
+
+**解决方案 / Solution**:
+The problem was solved by itself after the MacBook had been lying in a hot car for two whole days. When I took the MacBook out of the car, it was so hot that it hurt to even touch it. I let it cool down, and when I pressed the battery indicator, it was working properly. After that, when I connected the same Chinese charger, the charging started and the MacBook turned on itself. I didn't see any problems after that.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/473703/my-macbook-stopped-charging-after-i-reset-the-smc
+
+---
+
+#### 1149. Can any of the MacBook Pro computers with Apple Silicon drive an external monitor at higher than 60 hertz refresh rates?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, display, graphics | Score: 1 | Views: 247 | Answers: 1 | Created: 2024-06-25
+
+**解决方案 / Solution**:
+Yes, the refresh rate can be greater than 60 Hz for an external monitor. For example, everymac.com shows the following for the 2023 Apple MacBook Pro "M2 Pro" 12 CPU/19 GPU 14". This model supports full native resolution on the interior display in addition to up to two external displays up to 6016x3384 (6K) at 60 Hz over Thunderbolt; one external display up to 6016x3384 (6K) resolution at 60 Hz over Thunderbolt and one external display with up to 3840x2160 (4K) resolution at 144 Hz over HDMI (2.1); one external display up to 7680x4320 (8K) at 60 Hz or one external display up to 3840x2160 (4K) resolution at 240 Hz over HDMI.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/473627/can-any-of-the-macbook-pro-computers-with-apple-silicon-drive-an-external-monito
+
+---
+
+#### 1150. MacBook Air battery slows everything down after visiting service for diagnostics
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, battery | Score: 1 | Views: 79 | Answers: 1 | Created: 2024-06-25
+
+**解决方案 / Solution**:
+Zero FCC and zero cycles sounds like the controller has failed or is grey market. I would get a recommendation direct from Apple with remote battery service diagnostics without knowing a lot of details about who is sourcing the parts and who is opening this Mac to repair it. If you’re putting good batteries in that are known good, it’s not the battery that’s failing. But uncertain quality refurbished batteries mean it could just need one solid battery to work. It’s very hard for us to guess which. You’ll need a repair shop that has access to Apple diagnostics and a known good battery to test this properly.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/473621/macbook-air-battery-slows-everything-down-after-visiting-service-for-diagnostics
+
+---
+
+#### 1151. WiFi Advanced Settings replacement command for airport
+
+**问题描述 / Problem Description**:
+Tags: terminal, network, wifi, airport | Score: 1 | Views: 262 | Answers: 1 | Created: 2024-06-24
+
+**解决方案 / Solution**:
+The solution was that the new way is with a config profile. Apple has the profile documented here: https://developer.apple.com/documentation/devicemanagement/wifimanagedsettings
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/473608/wifi-advanced-settings-replacement-command-for-airport
+
+---
+
+#### 1152. Webcam connector and socket ripped off. Can I do anything to repair it?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, webcam | Score: 1 | Views: 96 | Answers: 1 | Created: 2024-06-16
+
+**解决方案 / Solution**:
+I’m sorry this happened. It looks like the connector was corroded, perhaps liquid and salt. What happened is the connector ripped the trace off the logic board (and that connector itself was ripped off, but sometimes it’s a cleaner break), so you will need micro type soldering tools and skills to attempt a repair. That part wss designed to stay mounted to the surface and only the cable slide out with a small connector moving parallel to the board and not lifted off perpendicular. A good repair manual or more training is a must do step before trying anything else. Apple will fix this in a flat rate repair and possibly cover it under Apple Care plus for a deductible (which would be generous since this looks to be a clear cut technician mistake or accidental damage). We would need to understand why you chose to remove this as part of cleaning but I’m going to assume you need a professional opinion as most cleaners would stop before removing this part if there’s visible corrosion or you know why it needed cleaning. I would be disinclined to power up this Mac until it’s inspected since the traces look like there could be an electrical short on the board that would be powered even if you left the web camera cable detached.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/473449/webcam-connector-and-socket-ripped-off-can-i-do-anything-to-repair-it
+
+---
+
+#### 1153. Copy file from terminal into clipboard and paste in Finder
+
+**问题描述 / Problem Description**:
+Tags: terminal, finder, copy-paste | Score: 1 | Views: 328 | Answers: 1 | Created: 2024-06-13
+
+**解决方案 / Solution**:
+There are different types of data in the clipboard. (See NSPasteboard Type documentation ) Observe it yourself in "clipboard viewer" in Xcode additional tools. One type of data can be converted to many others, and they may have a different format. Hence your experience of pasting in different programs. You will likely need to use the AppKit framework to write to the clipboard and simultaneously set the data type in your clipboard. See documentation for NSPasteboard .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/473364/copy-file-from-terminal-into-clipboard-and-paste-in-finder
+
+---
+
+#### 1154. 2023 Mac M2 Chip RAM not using all physical memory available 32GB to 8GB
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, memory, ventura | Score: 1 | Views: 402 | Answers: 2 | Created: 2024-06-11
+
+**解决方案 / Solution**:
+The comments and discussion following the question showed that the issue is that Activity Monitor is showing incorrect RAM usage for just one account/user. How this happened is not clear, but the solution is this: Exit Activity Monitor, Delete Activity Monitor's preference file ~/Library/Preferences/com.apple.ActivityMonitor.plist , Delete the saved state ~/Library/Saved Application State/com.apple.ActivityMonitor.savedState , and Logout and login again. Next time Activity Monitor is run, the preference file and saved state will be recreated with default settings and again show the correct RAM usage.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/473310/2023-mac-m2-chip-ram-not-using-all-physical-memory-available-32gb-to-8gb
+
+---
+
+#### 1155. Make backslash \ in terminal (Danish keyboard)
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, bash, keybindings, internationalization | Score: 1 | Views: 2553 | Answers: 2 | Created: 2024-06-05
+
+**解决方案 / Solution**:
+Below is an image of a Danish Magic Keyboard with Touch ID and Numeric Keypad for Mac models with Apple silicon. Under the Terminal Application preferences, you can set ⇧ (shift) + option + / to produce the \ character, where / is the key on the numeric keypad shown above. See image below. You may choose a difference key and modifier, if you wish. If you do not have a numeric keypad, then see below. Below is an image of a Danish Magic Keyboard with Touch ID for Mac models with Apple silicon. Under the Terminal Application preferences, you can set ⇧ (shift) + fn + F4 to produce the \ character. See image below. You may choose a difference key and modifier, if you wish.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/473175/make-backslash-in-terminal-danish-keyboard
+
+---
+
+#### 1156. How can I solve display dim then system sounds the charge chime once per minute while charging?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, charging, error, backlight | Score: 1 | Views: 795 | Answers: 3 | Created: 2024-05-28
+
+**解决方案 / Solution**:
+Ok, so to disable the screen dimming, uncheck "Slightly dim the display on battery" in settings. To disable the power chime, in a terminal run: killall PowerChime defaults write com.apple.PowerChime ChimeOnNoHardware 1 defaults write com.apple.PowerChime ChimeOnAllHardware 0 As for why this cable causes macOS to think the power has been reconnected every minute...who knows.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472985/how-can-i-solve-display-dim-then-system-sounds-the-charge-chime-once-per-minute
+
+---
+
+#### 1157. MacBook Pro 2011 is not charging
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, power-management | Score: 1 | Views: 119 | Answers: 1 | Created: 2024-05-23
+
+**解决方案 / Solution**:
+have a MacBook Pro late 2011. It all started when my dog chewed through the magsafe charging cord. Then I wrapped the affected area with duct tape. I hope you didn't just wrap the affected area with duct tape. First, electrical tape is much better as its nonconductive. Duct tape can contain metalic/conductive fibers depending on the manufacturer. Secondly, you didn't mention the state of the internal wires. There are two shielded wires wrapped by a wire mesh that in addition to being the charger's ground/earthed conductor it acts as a noise filter. If the insulation on the wire has been chewed off, it's very possible you shorted 18V to ground which can destroy components. One such component is the DC-in Board or MagSafe connector. What you should do is remove the duct tape, photograph the damaged are and post it to your question so we can accurately diagnose the issue.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472886/macbook-pro-2011-is-not-charging
+
+---
+
+#### 1158. Move chromium config to new computer
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, open-source | Score: 1 | Views: 193 | Answers: 1 | Created: 2024-05-22
+
+**解决方案 / Solution**:
+On macOS it looks like Chromium's state is saved in the following files/directories: ~/Library/Application Support/Chromium/ ~/Library/Preferences/org.chromium.Chromium.plist ~/Library/Saved Application State/org.chromium.Chromium.savedState (That should be independent of how or where Chromium was installed.) So if you were moving from one Mac to another, you could try copying those across. (I've not tried this, but it seems very likely to work.) Moving between a Mac and another OS is less clear. It may be that the contents of ~/Library/Application Support/Chromium/ (e.g. AutofillStates , ChromeFeatureState , Profile 1 …) is common to other platforms, and so you could trying copy files to/from there. (The other two locations are probably less important.) However, I've not tried this either.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472852/move-chromium-config-to-new-computer
 
 ---
