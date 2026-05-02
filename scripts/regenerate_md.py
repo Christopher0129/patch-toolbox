@@ -103,7 +103,7 @@ def generate_ns_md(conn, out_dir: Path):
         if pf in buckets:
             buckets[pf].append((title, desc, sol, sev, cvss, url, refs_json))
 
-    visible_total = sum(len(buckets[platform]) for platform in ["windows", "linux", "macos"])
+    visible_total = len(all_rows)
     
     # --- index.md ---
     index_lines = [

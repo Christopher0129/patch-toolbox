@@ -56,7 +56,7 @@ def _friendly_md_path(markdown_path: Path) -> str:
 def load_entries(category_key: str, db_path: Path, markdown_path: Path, platform: str | None = None):
     conn = sqlite3.connect(db_path)
     cur = conn.cursor()
-    cur.execute('SELECT title, description, source_url FROM entries ORDER BY id DESC LIMIT 50')
+    cur.execute('SELECT title, description, source_url FROM entries ORDER BY id DESC')
     rows = cur.fetchall()
     conn.close()
     entries = []
