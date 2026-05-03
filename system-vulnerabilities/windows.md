@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 498**
+**总计条目 / Total entries: 532**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -7614,5 +7614,669 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 **参考链接 / References**:
 - https://www.cve.org/CVERecord?id=CVE-2026-31533
+
+---
+
+#### 499. CVE-2001-0015
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: microsoft:windows_2000
+
+**漏洞描述 / Description**:
+Network Dynamic Data Exchange (DDE) in Windows 2000 allows local users to gain SYSTEM privileges via a "WM_COPYDATA" message to an invisible window that is running with the privileges of the WINLOGON process.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.atstake.com/research/advisories/2001/a020501-1.txt.
+
+**参考链接 / References**:
+- http://www.atstake.com/research/advisories/2001/a020501-1.txt
+- http://www.securityfocus.com/bid/2341
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-007
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6062
+- http://www.atstake.com/research/advisories/2001/a020501-1.txt
+
+---
+
+#### 500. CVE-2001-0017
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Memory leak in PPTP server in Windows NT 4.0 allows remote attackers to cause a denial of service via a malformed data packet, aka the "Malformed PPTP Packet Stream" vulnerability.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/2368.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/2368
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-009
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6103
+- http://www.securityfocus.com/bid/2368
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-009
+
+---
+
+#### 501. CVE-2001-1325
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: microsoft:outlook_express, microsoft:internet_explorer
+
+**漏洞描述 / Description**:
+Internet Explorer 5.0 and 5.5, and Outlook Express 5.0 and 5.5, allow remote attackers to execute scripts when Active Scripting is disabled by including the scripts in XML stylesheets (XSL) that are referenced using an IFRAME tag, possibly due to a vulnerability in Windows Scripting Host (WSH).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/3AE02004.57FDF958%40guninski.com.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/archive/1/3AE02004.57FDF958%40guninski.com
+- http://www.securityfocus.com/bid/2633
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6448
+- http://www.securityfocus.com/archive/1/3AE02004.57FDF958%40guninski.com
+- http://www.securityfocus.com/bid/2633
+
+---
+
+#### 502. CVE-2001-0147
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: microsoft:windows_2000
+
+**漏洞描述 / Description**:
+Buffer overflow in Windows 2000 event viewer snap-in allows attackers to execute arbitrary commands via a malformed field that is improperly handled during the detailed view of event records.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-013.
+
+**参考链接 / References**:
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-013
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-013
+
+---
+
+#### 503. CVE-2001-0152
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: microsoft:plus
+
+**漏洞描述 / Description**:
+The password protection option for the Compressed Folders feature in Plus! for Windows 98 and Windows Me writes password information to a file, which allows local users to recover the passwords and read the compressed folders.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-019.
+
+**参考链接 / References**:
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-019
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-019
+
+---
+
+#### 504. CVE-2001-0191
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: andynorman:gnuserv, gnu:xemacs
+
+**漏洞描述 / Description**:
+gnuserv before 3.12, as shipped with XEmacs, does not properly check the specified length of an X Windows MIT-MAGIC-COOKIE cookie, which allows remote attackers to execute arbitrary commands via a buffer overflow, or brute force authentication by using a short cookie length.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-02/0030.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2001-02/0030.html
+- http://www.linux-mandrake.com/en/security/2001/MDKSA-2001-019.php3
+- http://www.redhat.com/support/errata/RHSA-2001-010.html
+- http://www.redhat.com/support/errata/RHSA-2001-011.html
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6056
+
+---
+
+#### 505. CVE-2001-0281
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Format string vulnerability in DbgPrint function, used in debug messages for some Windows NT drivers (possibly when called through DebugMessage), may allow local users to gain privileges.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-02/0379.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2001-02/0379.html
+- http://archives.neohapsis.com/archives/bugtraq/2001-02/0379.html
+
+---
+
+#### 506. CVE-2001-1342
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: apache:http_server
+
+**漏洞描述 / Description**:
+Apache before 1.3.20 on Windows and OS/2 systems allows remote attackers to cause a denial of service (GPF) via an HTTP request for a URI that contains a large number of / (slash) or other characters, which causes certain functions to dereference a null pointer.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.apache.org/index.cgi/full/7522.
+
+**参考链接 / References**:
+- http://bugs.apache.org/index.cgi/full/7522
+- http://marc.info/?l=bugtraq&m=99054258728748&w=2
+- http://online.securityfocus.com/archive/1/176144
+- http://www.apacheweek.com/issues/01-05-25
+- http://www.iss.net/security_center/static/6527.php
+
+---
+
+#### 507. CVE-2001-1347
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: microsoft:windows_2000
+
+**漏洞描述 / Description**:
+Windows 2000 allows local users to cause a denial of service and possibly gain privileges by setting a hardware breakpoint that is handled using global debug registers, which could cause other processes to terminate due to an exception, and allow hijacking of resources such as named pipes.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-05/0232.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2001-05/0232.html
+- http://www.iss.net/security_center/static/6590.php
+- http://www.securityfocus.com/bid/2764
+- http://archives.neohapsis.com/archives/bugtraq/2001-05/0232.html
+- http://www.iss.net/security_center/static/6590.php
+
+---
+
+#### 508. CVE-2001-0148
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: microsoft:windows_media_player
+
+**漏洞描述 / Description**:
+The WMP ActiveX Control in Windows Media Player 7 allows remote attackers to execute commands in Internet Explorer via javascript URLs, a variant of the "Frame Domain Verification" vulnerability.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-01/0000.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2001-01/0000.html
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-015
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6227
+- http://archives.neohapsis.com/archives/bugtraq/2001-01/0000.html
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-015
+
+---
+
+#### 509. CVE-2001-0149
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:internet_explorer
+
+**漏洞描述 / Description**:
+Windows Scripting Host in Internet Explorer 5.5 and earlier allows remote attackers to read arbitrary files via the GetObject Javascript function and the htmlfile ActiveX object.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2000-09/0305.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2000-09/0305.html
+- http://marc.info/?l=ntbugtraq&m=96999020527583&w=2
+- http://www.securityfocus.com/bid/1718
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-015
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/5293
+
+---
+
+#### 510. CVE-2001-0265
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: pgp:pgp
+
+**漏洞描述 / Description**:
+ASCII Armor parser in Windows PGP 7.0.3 and earlier allows attackers to create files in arbitrary locations via a malformed ASCII armored file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.atstake.com/research/advisories/2001/a040901-1.txt.
+
+**参考链接 / References**:
+- http://www.atstake.com/research/advisories/2001/a040901-1.txt
+- http://www.osvdb.org/1782
+- http://www.securityfocus.com/bid/2556
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6643
+- http://www.atstake.com/research/advisories/2001/a040901-1.txt
+
+---
+
+#### 511. CVE-2001-0373
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+The default configuration of the Dr. Watson program in Windows NT and Windows 2000 generates user.dmp crash dump files with world-readable permissions, which could allow a local user to gain access to sensitive information.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-03/0336.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2001-03/0336.html
+- http://www.osvdb.org/5683
+- http://www.securityfocus.com/bid/2501
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6275
+- http://archives.neohapsis.com/archives/bugtraq/2001-03/0336.html
+
+---
+
+#### 512. CVE-2001-0382
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: broadcom:ccc_harvest
+
+**漏洞描述 / Description**:
+Computer Associates CCC\Harvest 5.0 for Windows NT/2000 uses weak encryption for passwords, which allows a remote attacker to gain privileges on the application.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/ntbugtraq/2001-q2/0001.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/ntbugtraq/2001-q2/0001.html
+- http://archives.neohapsis.com/archives/ntbugtraq/2001-q2/0001.html
+
+---
+
+#### 513. CVE-2001-0241
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: microsoft:windows_2000
+
+**漏洞描述 / Description**:
+Buffer overflow in Internet Printing ISAPI extension in Windows 2000 allows remote attackers to gain root privileges via a long print request that is passed to the extension through IIS 5.0.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=98874912915948&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=98874912915948&w=2
+- http://www.cert.org/advisories/CA-2001-10.html
+- http://www.osvdb.org/3323
+- http://www.securityfocus.com/bid/2674
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-023
+
+---
+
+#### 514. CVE-2001-0243
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_media_player
+
+**漏洞描述 / Description**:
+Windows Media Player 7 and earlier stores Internet shortcuts in a user's Temporary Files folder with a fixed filename instead of in the Internet Explorer cache, which causes the HTML in those shortcuts to run in the Local Computer Zone instead of the Internet Zone, which allows remote attackers to read certain files.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/2765.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/2765
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-029
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6584
+- http://www.securityfocus.com/bid/2765
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-029
+
+---
+
+#### 515. CVE-2001-0364
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: ssh:ssh2
+
+**漏洞描述 / Description**:
+SSH Communications Security sshd 2.4 for Windows allows remote attackers to create a denial of service via a large number of simultaneous connections.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=98467799732241&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=98467799732241&w=2
+- http://www.securityfocus.com/bid/2477
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6241
+- http://marc.info/?l=bugtraq&m=98467799732241&w=2
+- http://www.securityfocus.com/bid/2477
+
+---
+
+#### 516. CVE-2001-1238
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: microsoft:windows_2000
+
+**漏洞描述 / Description**:
+Task Manager in Windows 2000 does not allow local users to end processes with uppercase letters named (1) winlogon.exe, (2) csrss.exe, (3) smss.exe and (4) services.exe via the Process tab which could allow local users to install Trojan horses that cannot be stopped with the Task Manager.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/197195.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/archive/1/197195
+- http://www.securityfocus.com/bid/3033
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6919
+- http://www.securityfocus.com/archive/1/197195
+- http://www.securityfocus.com/bid/3033
+
+---
+
+#### 517. CVE-2001-1302
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: microsoft:windows_2000
+
+**漏洞描述 / Description**:
+The change password option in the Windows Security interface for Windows 2000 allows attackers to use the option to attempt to change passwords of other users on other systems or identify valid accounts by monitoring error messages, possibly due to a problem in the NetuserChangePassword function.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.ntbugtraq.com/default.asp?pid=36&sid=1&A2=ind0107&L=ntbugtraq&F=P&S=&P=1911.
+
+**参考链接 / References**:
+- http://www.ntbugtraq.com/default.asp?pid=36&sid=1&A2=ind0107&L=ntbugtraq&F=P&S=&P=1911
+- http://www.securityfocus.com/bid/3063
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6876
+- http://www.ntbugtraq.com/default.asp?pid=36&sid=1&A2=ind0107&L=ntbugtraq&F=P&S=&P=1911
+- http://www.securityfocus.com/bid/3063
+
+---
+
+#### 518. CVE-2001-0018
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_2000
+
+**漏洞描述 / Description**:
+Windows 2000 domain controller in Windows 2000 Server, Advanced Server, or Datacenter Server allows remote attackers to cause a denial of service via a flood of malformed service requests.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://online.securityfocus.com/archive/82/148411.
+
+**参考链接 / References**:
+- http://online.securityfocus.com/archive/82/148411
+- http://www.ciac.org/ciac/bulletins/l-049.shtml
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-011
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6136
+- http://online.securityfocus.com/archive/82/148411
+
+---
+
+#### 519. CVE-2001-0502
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: microsoft:windows_2000
+
+**漏洞描述 / Description**:
+Running Windows 2000 LDAP Server over SSL, a function does not properly check the permissions of a user request when the directory principal is a domain user and the data attribute is the domain password, which allows local users to modify the login password of other users.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/l-101.shtml.
+
+**参考链接 / References**:
+- http://www.ciac.org/ciac/bulletins/l-101.shtml
+- http://www.securityfocus.com/bid/2929
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-036
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6745
+- http://www.ciac.org/ciac/bulletins/l-101.shtml
+
+---
+
+#### 520. CVE-2001-0513
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: oracle:oracle9i
+
+**漏洞描述 / Description**:
+Oracle listener process on Windows NT redirects connection requests to another port and creates a separate thread to process the request, which allows remote attackers to cause a denial of service by repeatedly connecting to the Oracle listener but not connecting to the redirected port.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/105259.
+
+**参考链接 / References**:
+- http://www.kb.cert.org/vuls/id/105259
+- http://www.osvdb.org/5600
+- http://xforce.iss.net/alerts/advise81.php
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6717
+- http://www.kb.cert.org/vuls/id/105259
+
+---
+
+#### 521. CVE-2001-1288
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Windows 2000 and Windows NT allows local users to cause a denial of service (reboot) by executing a command at the command prompt and pressing the F7 and enter keys several times while the command is executing, possibly related to an exception handling error in csrss.exe.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=99640583014377&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=99640583014377&w=2
+- http://marc.info/?l=vuln-dev&m=99651044701417&w=2
+- http://online.securityfocus.com/archive/1/200118
+- http://online.securityfocus.com/archive/1/200985
+- http://online.securityfocus.com/archive/1/201151
+
+---
+
+#### 522. CVE-2001-1116
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: identix:biologon
+
+**漏洞描述 / Description**:
+Identix BioLogon 2.03 and earlier does not lock secondary displays on a multi-monitor system running Windows 98 or ME, which allows an attacker with physical access to the system to bypass authentication through a secondary display.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://ntbugtraq.ntadvice.com/default.asp?pid=36&sid=1&A2=IND0108&L=NTBUGTRAQ&F=P&S=&P=71.
+
+**参考链接 / References**:
+- http://ntbugtraq.ntadvice.com/default.asp?pid=36&sid=1&A2=IND0108&L=NTBUGTRAQ&F=P&S=&P=71
+- http://ntbugtraq.ntadvice.com/default.asp?pid=36&sid=1&A2=ind0108&L=ntbugtraq&F=P&S=&P=724
+- http://www.osvdb.org/5453
+- http://www.securityfocus.com/bid/3140
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6948
+
+---
+
+#### 523. CVE-2001-1122
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Windows NT 4.0 SP 6a allows a local user with write access to winnt/system32 to cause a denial of service (crash in lsass.exe) by running the NT4ALL exploit program in 'SPECIAL' mode.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/201722.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/archive/1/201722
+- http://www.securityfocus.com/bid/3144
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6943
+- http://www.securityfocus.com/archive/1/201722
+- http://www.securityfocus.com/bid/3144
+
+---
+
+#### 524. CVE-2000-1200
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Windows NT allows remote attackers to list all users in a domain by obtaining the domain SID with the LsaQueryInformationPolicy policy function via a null session and using the SID to list the users.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/44430.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/archive/1/44430
+- http://www.securityfocus.com/bid/959
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/4015
+- http://www.securityfocus.com/archive/1/44430
+- http://www.securityfocus.com/bid/959
+
+---
+
+#### 525. CVE-2001-1452
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+By default, DNS servers on Windows NT 4.0 and Windows 2000 Server cache glue records received from non-delegated name servers, which allows remote attackers to poison the DNS cache via spoofed DNS responses.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.microsoft.com/default.aspx?scid=KB%3Ben-us%3Bq241352.
+
+**参考链接 / References**:
+- http://support.microsoft.com/default.aspx?scid=KB%3Ben-us%3Bq241352
+- http://www.kb.cert.org/vuls/id/109475
+- http://www.securityfocus.com/bid/6791
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/3675
+- http://support.microsoft.com/default.aspx?scid=KB%3Ben-us%3Bq241352
+
+---
+
+#### 526. CVE-2001-0543
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:exchange_server, microsoft:windows_2000, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Memory leak in NNTP service in Windows NT 4.0 and Windows 2000 allows remote attackers to cause a denial of service (memory exhaustion) via a large number of malformed posts.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/3183.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/3183
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-043
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6977
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A334
+- http://www.securityfocus.com/bid/3183
+
+---
+
+#### 527. CVE-2001-0659
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:windows_2000
+
+**漏洞描述 / Description**:
+Buffer overflow in IrDA driver providing infrared data exchange on Windows 2000 allows attackers who are physically close to the machine to cause a denial of service (reboot) via a malformed IrDA packet.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/209385.
+
+**参考链接 / References**:
+- http://online.securityfocus.com/archive/1/209385
+- http://www.securityfocus.com/bid/3215
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-046
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/7008
+- http://online.securityfocus.com/archive/1/209385
+
+---
+
+#### 528. CVE-2001-0675
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: ritlabs:the_bat
+
+**漏洞描述 / Description**:
+Rit Research Labs The Bat! 1.51 for Windows allows a remote attacker to cause a denial of service by sending an email to a user's account containing a carriage return <CR> that is not followed by a line feed <LF>.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-04/0345.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2001-04/0345.html
+- http://archives.neohapsis.com/archives/bugtraq/2001-04/0381.html
+- http://archives.neohapsis.com/archives/bugtraq/2001-04/0410.html
+- http://www.securityfocus.com/bid/2636
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6423
+
+---
+
+#### 529. CVE-2001-0678
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: trend_micro:interscan_viruswall, trend_micro:interscan_webmanager
+
+**漏洞描述 / Description**:
+A buffer overflow in reggo.dll file used by Trend Micro InterScan VirusWall prior to 3.51 build 1349 for Windows NT 3.5 and InterScan WebManager 1.2 allows a local attacker to execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/185383.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/archive/1/185383
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6575
+- http://www.securityfocus.com/archive/1/185383
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6575
+
+---
+
+#### 530. CVE-2001-0687
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: transsoft:broker_ftp_server
+
+**漏洞描述 / Description**:
+Broker FTP server 5.9.5 for Windows NT and 9x allows a remote attacker to retrieve privileged web server system information by (1) issuing a CD command (CD C:) followed by the LS command, (2) specifying arbitrary paths in the UNC format (\\computername\sharename).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/190032.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/archive/1/190032
+- http://www.securityfocus.com/bid/2853
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6674
+- http://www.securityfocus.com/archive/1/190032
+- http://www.securityfocus.com/bid/2853
+
+---
+
+#### 531. CVE-2001-0791
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: trend_micro:interscan_viruswall
+
+**漏洞描述 / Description**:
+Trend Micro InterScan VirusWall for Windows NT allows remote attackers to make configuration changes by directly calling certain CGI programs, which do not restrict access.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://cert.uni-stuttgart.de/archive/bugtraq/2001/06/msg00006.html.
+
+**参考链接 / References**:
+- http://cert.uni-stuttgart.de/archive/bugtraq/2001/06/msg00006.html
+- http://cert.uni-stuttgart.de/archive/bugtraq/2001/06/msg00006.html
+
+---
+
+#### 532. CVE-2001-1461
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: rsa:securid
+
+**漏洞描述 / Description**:
+Directory traversal vulnerability in WebID in RSA Security SecurID 5.0 as used by ACE/Agent for Windows, Windows NT and Windows 2000 allows attackers to access restricted resources via URL-encoded (1) /.. or (2) \.. sequences.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/348040.
+
+**参考链接 / References**:
+- http://www.kb.cert.org/vuls/id/348040
+- http://www.securityfocus.com/bid/3461
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/7397
+- http://www.kb.cert.org/vuls/id/348040
+- http://www.securityfocus.com/bid/3461
 
 ---

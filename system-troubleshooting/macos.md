@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1158**
+**总计条目 / Total entries: 1255**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -19183,5 +19183,1266 @@ On macOS it looks like Chromium's state is saved in the following files/director
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/472852/move-chromium-config-to-new-computer
+
+---
+
+#### 1159. I got tired of opening Apple's calculator for simple things, so I did Numsy
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1xwbo/i_got_tired_of_opening_apples_calculator_for/
+
+---
+
+#### 1160. Lattix 2.0 - Launch apps and window layouts across multiple spaces and monitors with a single click!! [Now with space naming and ultrafast space switching]
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1upu4/lattix_20_launch_apps_and_window_layouts_across/
+
+---
+
+#### 1161. Are we keeping all our AI apps in the dock?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t23emu/are_we_keeping_all_our_ai_apps_in_the_dock/
+
+---
+
+#### 1162. Gmail and notes from google keep on MacOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t23bb1/gmail_and_notes_from_google_keep_on_macos/
+
+---
+
+#### 1163. iCloud or OneDrive for photos?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t22zgq/icloud_or_onedrive_for_photos/
+
+---
+
+#### 1164. Trying to reset my MacBook
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t22fie/trying_to_reset_my_macbook/
+
+---
+
+#### 1165. Shortcuts created in Shortcut app just stop working when jumping between macs
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1zp5o/shortcuts_created_in_shortcut_app_just_stop/
+
+---
+
+#### 1166. Google Drive "Offline Mode" broken on new Mac. Settings synced via Chrome, but files won't actually download
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1z7mt/google_drive_offline_mode_broken_on_new_mac/
+
+---
+
+#### 1167. why does sleep keep getting interrupted? MacBook Neo, latest Tahoe
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1w2t8/why_does_sleep_keep_getting_interrupted_macbook/
+
+---
+
+#### 1168. Apple Support Quality Downgrade
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t1vqba/apple_support_quality_downgrade/
+
+---
+
+#### 1169. Epic Games Store Launches on iPhones in Japan Despite Apple’s Non-Compliance
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t1xm4y/epic_games_store_launches_on_iphones_in_japan/
+
+---
+
+#### 1170. My first MacBook :)
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1ugln/my_first_macbook/
+
+---
+
+#### 1171. Macbook Air M3 completely dead
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1w2yp/macbook_air_m3_completely_dead/
+
+---
+
+#### 1172. What macbook is this?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t20vjh/what_macbook_is_this/
+
+---
+
+#### 1173. First MacBook tips
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t2395j/first_macbook_tips/
+
+---
+
+#### 1174. MacBook Pro M4 or MacBook Air M5?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1zmqu/macbook_pro_m4_or_macbook_air_m5/
+
+---
+
+#### 1175. MacBook Pro M5 thermal throttling
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t22gc7/macbook_pro_m5_thermal_throttling/
+
+---
+
+#### 1176. MBA
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t21foh/mba/
+
+---
+
+#### 1177. M5 Base vs M5Pro
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1zyrr/m5_base_vs_m5pro/
+
+---
+
+#### 1178. Something tells me this Macbook isn't any good
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t22gbm/something_tells_me_this_macbook_isnt_any_good/
+
+---
+
+#### 1179. worry about ssd's and storage
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t20pp7/worry_about_ssds_and_storage/
+
+---
+
+#### 1180. Help ( m1 air ) !!
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t2029o/help_m1_air/
+
+---
+
+#### 1181. My 16” M3 Max screen was babied since 12/16/2023 lol. Anti reflective coating circles and keyboard impression line.
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1yftj/my_16_m3_max_screen_was_babied_since_12162023_lol/
+
+---
+
+#### 1182. Gmail and notes from Google keep on MacBook
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1xlmo/gmail_and_notes_from_google_keep_on_macbook/
+
+---
+
+#### 1183. Why so much System Data?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1x8xf/why_so_much_system_data/
+
+---
+
+#### 1184. What is the best option for video editing?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t1wqt6/what_is_the_best_option_for_video_editing/
+
+---
+
+#### 1185. PC Shutting Down Unexpectedly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t21g83/pc_shutting_down_unexpectedly/
+
+---
+
+#### 1186. [UNRESOLVED] High peaks of 3D stuttering
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t23gtg/unresolved_high_peaks_of_3d_stuttering/
+
+---
+
+#### 1187. The "Secure application blocks desktop capture" issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t23d1j/the_secure_application_blocks_desktop_capture/
+
+---
+
+#### 1188. Massive Drop in Performance Overnight
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t23c2y/massive_drop_in_performance_overnight/
+
+---
+
+#### 1189. When watching videos, the video fades dark and then gradually gets brighter again
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1z32z/when_watching_videos_the_video_fades_dark_and/
+
+---
+
+#### 1190. What to do with an abandoned iPhone?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t23fl9/what_to_do_with_an_abandoned_iphone/
+
+---
+
+#### 1191. iPhone 16 Pro Max Notes Wiped Out (iCloud and Gmail)
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t22tb1/iphone_16_pro_max_notes_wiped_out_icloud_and_gmail/
+
+---
+
+#### 1192. iPhone 11 Pro issues related to recent upgrade to IOS 26.4.2
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t22q8z/iphone_11_pro_issues_related_to_recent_upgrade_to/
+
+---
+
+#### 1193. How to disable Spatial Audio on AirPods Pro 2 when using AirPlay from iPhone 17 to MacBook Air?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t22dqh/how_to_disable_spatial_audio_on_airpods_pro_2/
+
+---
+
+#### 1194. Child account iMessage activation
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t22cwg/child_account_imessage_activation/
+
+---
+
+#### 1195. Airpods Pro 3, Legit or Fake?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t221hh/airpods_pro_3_legit_or_fake/
+
+---
+
+#### 1196. Can you back up only iMessages?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t21svi/can_you_back_up_only_imessages/
+
+---
+
+#### 1197. Can't find any way to reset my old apple id
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t21k5u/cant_find_any_way_to_reset_my_old_apple_id/
+
+---
+
+#### 1198. Apple repair on a MacBook Pro taking 3+ weeks with no timeline (Apple Amsterdam) – how to proceed
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t218nf/apple_repair_on_a_macbook_pro_taking_3_weeks_with/
+
+---
+
+#### 1199. Controller problems
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t20xkq/controller_problems/
+
+---
+
+#### 1200. Airdrop with code sharing reveals full name
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t20bkd/airdrop_with_code_sharing_reveals_full_name/
+
+---
+
+#### 1201. can't create apple id
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t208z6/cant_create_apple_id/
+
+---
+
+#### 1202. 🔊 iPhone audio randomly switching to ear speaker? (REAL FIX — not the usual nonsense)
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1zzln/iphone_audio_randomly_switching_to_ear_speaker/
+
+---
+
+#### 1203. Apple Developer Enrollment asking for "Employment Verification" as sole director of UK Ltd company — what counts?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1ztm0/apple_developer_enrollment_asking_for_employment/
+
+---
+
+#### 1204. Location under name disappeared but didn’t send in text “etc stopped sharing location with you”
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1zn2j/location_under_name_disappeared_but_didnt_send_in/
+
+---
+
+#### 1205. I am trying to set up an old iPod Touch, which has worked before. Any advice?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1yz37/i_am_trying_to_set_up_an_old_ipod_touch_which_has/
+
+---
+
+#### 1206. Cant reinstall MacOS on a mac a1312
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1yst4/cant_reinstall_macos_on_a_mac_a1312/
+
+---
+
+#### 1207. locked out of ipad
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1ykif/locked_out_of_ipad/
+
+---
+
+#### 1208. Tried getting free trial was charged instead
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1y7pg/tried_getting_free_trial_was_charged_instead/
+
+---
+
+#### 1209. Do Apple devices automatically enable Low Data mode when connected to a Personal Hotspot?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1x37o/do_apple_devices_automatically_enable_low_data/
+
+---
+
+#### 1210. iPhone 15 pro at 87%
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1w55y/iphone_15_pro_at_87/
+
+---
+
+#### 1211. trouble sending texts to one specific person
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1vpop/trouble_sending_texts_to_one_specific_person/
+
+---
+
+#### 1212. How to solve macbook pro screen flickering?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t1vd1o/how_to_solve_macbook_pro_screen_flickering/
+
+---
+
+#### 1213. [V2EX] macOS 下的 QQ 一直读写硬盘怎么办
+
+**问题描述 / Problem Description**:
+macOS 下的 QQ 一直读写硬盘，它在干什么？怎么解决这个问题
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209080#reply26
+
+---
+
+#### 1214. [V2EX] 国区应用更新如何不输入密码
+
+**问题描述 / Problem Description**:
+国区下载的抖音，转到美区后原来一直可以正常更新。最近突然发现已购项目里抖音没了，无法更新了。现在必须用国区账户下载了，那么不切换账号的情况下如何不输入密码更新呢。邮件里登录国区的 qq 邮箱可以么（国区 qq 邮箱注册的账号）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210000#reply7
+
+---
+
+#### 1215. [V2EX] 外区 iCloud 最近同步很慢
+
+**问题描述 / Problem Description**:
+我是美区，以前觉得速度跟国区没区别，无感状态。 但最近发现同步很慢，甚至有时候根本没有速度。 刚才在 mb 上挂了小火箭，点击同步的时候小火箭显示下载流量，同步在走翻墙的流量。关了小火箭，同步又卡住了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209994#reply3
+
+---
+
+#### 1216. Made a Mac app that captures everything you say onto an old-school vinyl. Local-only. (sound on)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t2583d/made_a_mac_app_that_captures_everything_you_say/
+
+---
+
+#### 1217. Why are there so many hidden layers to Apple account lock on MacOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t287n8/why_are_there_so_many_hidden_layers_to_apple/
+
+---
+
+#### 1218. M4 Mac mini Wireless Continuity Camera Fixed
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t2axhy/m4_mac_mini_wireless_continuity_camera_fixed/
+
+---
+
+#### 1219. Can anyone help me?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t23kxv/can_anyone_help_me/
+
+---
+
+#### 1220. Safari tabs randomly crashing w/ blank page
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t25dsb/safari_tabs_randomly_crashing_w_blank_page/
+
+---
+
+#### 1221. Safari unable to load because of tab/windows overload - help possible or lost cause?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t24n8s/safari_unable_to_load_because_of_tabwindows/
+
+---
+
+#### 1222. Warren Buffett praises Apple CEO Tim Cook’s tenure after Steve Jobs: "He succeeded a legend"
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t284iv/warren_buffett_praises_apple_ceo_tim_cooks_tenure/
+
+---
+
+#### 1223. Price war: Apple's 1TB M5 MacBook Pro with 24GB RAM plunges to $1,699
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t2akud/price_war_apples_1tb_m5_macbook_pro_with_24gb_ram/
+
+---
+
+#### 1224. First time MacBook user with custom background
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t24w8g/first_time_macbook_user_with_custom_background/
+
+---
+
+#### 1225. Laptop stand owners: what would you fix about yours if you could?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t275xz/laptop_stand_owners_what_would_you_fix_about/
+
+---
+
+#### 1226. My first ever Macbook.
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t2au7v/my_first_ever_macbook/
+
+---
+
+#### 1227. New to the club
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t290tv/new_to_the_club/
+
+---
+
+#### 1228. How do you guys keep your keyboard clean?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t24jim/how_do_you_guys_keep_your_keyboard_clean/
+
+---
+
+#### 1229. Are either the A1278 or A1466 still usable these days?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t2aweb/are_either_the_a1278_or_a1466_still_usable_these/
+
+---
+
+#### 1230. Hi! I’m a student choosing between two secondhand MacBook Air M3 (16GB/512GB) units and need some advice.
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t2a25d/hi_im_a_student_choosing_between_two_secondhand/
+
+---
+
+#### 1231. Shutdown nightly?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t29r65/shutdown_nightly/
+
+---
+
+#### 1232. New to MacBook
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t29he6/new_to_macbook/
+
+---
+
+#### 1233. Hi! I’m a student planning to buy a secondhand MacBook Air M3 (16GB/512GB)
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t29ajc/hi_im_a_student_planning_to_buy_a_secondhand/
+
+---
+
+#### 1234. MacBook Neo for music making?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t23r0q/macbook_neo_for_music_making/
+
+---
+
+#### 1235. MacBook Air won’t sync iTunes with my iPhone
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t283tx/macbook_air_wont_sync_itunes_with_my_iphone/
+
+---
+
+#### 1236. Is it worth replacing the logic board on my Macbook Pro M1 Max (2021)?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t27dfr/is_it_worth_replacing_the_logic_board_on_my/
+
+---
+
+#### 1237. iOS 26.4.2 Bug - No internet (esim or wifi)
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t28zsb/ios_2642_bug_no_internet_esim_or_wifi/
+
+---
+
+#### 1238. My key switch broke, how should I fix it?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t2aw8d/my_key_switch_broke_how_should_i_fix_it/
+
+---
+
+#### 1239. Cognitive Glitch Muscle Memory Failure Passcode
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t2ajtl/cognitive_glitch_muscle_memory_failure_passcode/
+
+---
+
+#### 1240. Transferring backup AFTER phone setup
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t2abra/transferring_backup_after_phone_setup/
+
+---
+
+#### 1241. Is there a reason my audio book series isn’t grouped together correctly?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t2a7fq/is_there_a_reason_my_audio_book_series_isnt/
+
+---
+
+#### 1242. Very confusing issue
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t2a36y/very_confusing_issue/
+
+---
+
+#### 1243. Voice memos stuck on “downloading” but never download.
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t2a337/voice_memos_stuck_on_downloading_but_never/
+
+---
+
+#### 1244. boyfriend spilled beer on macbook air
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t29v1e/boyfriend_spilled_beer_on_macbook_air/
+
+---
+
+#### 1245. Macbook M3 Pro unexpectedly crash & no longer charges
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t28teo/macbook_m3_pro_unexpectedly_crash_no_longer/
+
+---
+
+#### 1246. What is “Cannot Verify Phone Number This phone number is already in use with another account.” and how do I add my phone number
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t28rf2/what_is_cannot_verify_phone_number_this_phone/
+
+---
+
+#### 1247. Sometimes when my usb-c earphones aren’t playing audio they sound like breathing how do I fix it
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t28d37/sometimes_when_my_usbc_earphones_arent_playing/
+
+---
+
+#### 1248. Trade in options
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t26gji/trade_in_options/
+
+---
+
+#### 1249. Can I use a gift card to update storage? (I don’t want to lose all of my memories of my friend who passed away)
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t2611q/can_i_use_a_gift_card_to_update_storage_i_dont/
+
+---
+
+#### 1250. Imessage Sending Issues
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t24yfe/imessage_sending_issues/
+
+---
+
+#### 1251. Apple ID problems
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t23xdv/apple_id_problems/
+
+---
+
+#### 1252. [V2EX] Mac mini 配显示器，上 5K 还是高刷更重要？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210057#reply4
+
+---
+
+#### 1253. [V2EX] 国区应用更新如何不输入密码
+
+**问题描述 / Problem Description**:
+国区下载的抖音，转到美区后原来一直可以正常更新。最近突然发现已购项目里抖音没了，无法更新了。现在必须用国区账户下载了，那么不切换账号的情况下如何不输入密码更新呢。邮件里登录国区的 qq 邮箱可以么（国区 qq 邮箱注册的账号）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210000#reply8
+
+---
+
+#### 1254. [V2EX] 随便 vibe 出了一个音频元数据编辑器
+
+**问题描述 / Problem Description**:
+一直觉得 MP3Tag 在 macOS 上卖得好贵，其他开源的项目（和 Setapp 里的 Meta ）都缺点意思，(要么太丑，要么缺少一些刚需的功能)所以就自己捯饬出来一个 macOS 原生的元数据编辑器。 目前大概支持： 1. 常见元数据字段的读写（覆盖多种音频格式） 2. 根据文件名解析并写入标签 / 根据标签批量重命名文件 3. 自动分配 track number 4. 从 MusicBrainz 上拉取元数据并写入文件 5. … （其实还另外做了一版 iPadOS 的🤣） 这是我第一次做这类项目，如果有人感兴趣的话，可以下载下来玩玩，我将不胜感激。但是这个项目并没有经过非常完善的测试
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209861#reply4
+
+---
+
+#### 1255. [V2EX] 薅到 AWS 5000 刀 Credit ，不过想了一天也不知道有什么用
+
+**问题描述 / Problem Description**:
+前段时间在推上看到有人说美国初创公司可以申请 AWS / Azure 的羊毛，我刚好有一个，就申请了。 Azure 只拿到了 1000 刀，后面的审核没能过。Azure 可以抵扣 OpenAI ，就还好。 AWS 给了 5000 刀，但是因为我是新注册的原因，好像都是最低配额。 Amazon Bedrock 也用不了，得申请，更关键的是查了一下就算申请成功了也不抵扣 Claude ，这算是 Marketplace 。 大家 AWS Credit 都是怎么花的呀
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210052#reply5
 
 ---
