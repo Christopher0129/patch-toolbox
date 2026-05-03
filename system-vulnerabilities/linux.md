@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 669**
+**总计条目 / Total entries: 769**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -10716,5 +10716,2983 @@ Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZD
 **参考链接 / References**:
 - https://www.zerodayinitiative.com/advisories/ZDI-20-741/
 - https://www.zerodayinitiative.com/advisories/ZDI-20-741/
+
+---
+
+#### 670. CVE-2018-4220
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+**受影响产品 / Affected Products**: apple:swift
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. Swift before 4.1.1 Security Update 2018-001 is affected. The issue involves the "Swift for Ubuntu" component. It allows attackers to execute arbitrary code in a privileged context because write and execute permissions are enabled during library loading.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/104085.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/104085
+- https://support.apple.com/HT208804
+- http://www.securityfocus.com/bid/104085
+- https://support.apple.com/HT208804
+
+---
+
+#### 671. CVE-2018-6553
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+**受影响产品 / Affected Products**: cups:cups, debian:debian_linux, canonical:ubuntu_linux
+
+**漏洞描述 / Description**:
+The CUPS AppArmor profile incorrectly confined the dnssd backend due to use of hard links. A local attacker could possibly use this issue to escape confinement. This flaw affects versions prior to 2.2.7-1ubuntu2.1 in Ubuntu 18.04 LTS, prior to 2.2.4-7ubuntu3.1 in Ubuntu 17.10, prior to 2.1.3-4ubuntu0.5 in Ubuntu 16.04 LTS, and prior to 1.7.2-0ubuntu1.10 in Ubuntu 14.04 LTS.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://lists.debian.org/debian-lts-announce/2018/07/msg00014.html.
+
+**参考链接 / References**:
+- https://lists.debian.org/debian-lts-announce/2018/07/msg00014.html
+- https://security.gentoo.org/glsa/201908-08
+- https://usn.ubuntu.com/usn/usn-3713-1
+- https://www.debian.org/security/2018/dsa-4243
+- https://lists.debian.org/debian-lts-announce/2018/07/msg00014.html
+
+---
+
+#### 672. CVE-2018-6557
+
+**严重程度 / Severity**: HIGH | CVSS: 7.0
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, base-files_project:base-files
+
+**漏洞描述 / Description**:
+The MOTD update script in the base-files package in Ubuntu 18.04 LTS before 10.1ubuntu2.2, and Ubuntu 18.10 before 10.1ubuntu6 incorrectly handled temporary files. A local attacker could use this issue to cause a denial of service, or possibly escalate privileges if kernel symlink restrictions were disabled.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/105148.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/105148
+- http://www.securitytracker.com/id/1041530
+- https://usn.ubuntu.com/3748-1/
+- http://www.securityfocus.com/bid/105148
+- http://www.securitytracker.com/id/1041530
+
+---
+
+#### 673. CVE-2018-0643
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.6
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, orcamo:online_receipt_computer_advantage
+
+**漏洞描述 / Description**:
+Ubuntu14.04 ORCA (Online Receipt Computer Advantage) 4.8.0 (panda-server) 1:1.4.9+p41-u4jma1 and earlier allows attacker with administrator rights to execute arbitrary OS commands via unspecified vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://jvn.jp/en/jp/JVN37376131/index.html.
+
+**参考链接 / References**:
+- http://jvn.jp/en/jp/JVN37376131/index.html
+- https://www.orca.med.or.jp/news/vulnerability_2018-07-18-1.html
+- http://jvn.jp/en/jp/JVN37376131/index.html
+- https://www.orca.med.or.jp/news/vulnerability_2018-07-18-1.html
+
+---
+
+#### 674. CVE-2018-0644
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+**受影响产品 / Affected Products**: canonical:ubuntu_linux
+
+**漏洞描述 / Description**:
+Buffer overflow in Ubuntu14.04 ORCA (Online Receipt Computer Advantage) 4.8.0 (panda-client2) 1:1.4.9+p41-u4jma1 and earlier, Ubuntu14.04 ORCA (Online Receipt Computer Advantage) 5.0.0 (panda-client2) 1:2.0.0+p48-u4jma1 and earlier, and Ubuntu16.04 ORCA (Online Receipt Computer Advantage) 5.0.0 (panda-client2) 1:2.0.0+p48-u5jma1 and earlier allows authenticated attackers to cause denial-of-service (DoS) condition via unspecified vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://jvn.jp/en/jp/JVN37376131/index.html.
+
+**参考链接 / References**:
+- http://jvn.jp/en/jp/JVN37376131/index.html
+- https://www.orca.med.or.jp/news/vulnerability_2018-07-18-1.html
+- http://jvn.jp/en/jp/JVN37376131/index.html
+- https://www.orca.med.or.jp/news/vulnerability_2018-07-18-1.html
+
+---
+
+#### 675. CVE-2018-18653
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: canonical:ubuntu_linux
+
+**漏洞描述 / Description**:
+The Linux kernel, as used in Ubuntu 18.10 and when booted with UEFI Secure Boot enabled, allows privileged local users to bypass intended Secure Boot restrictions and execute untrusted code by loading arbitrary kernel modules. This occurs because a modified kernel/module.c, in conjunction with certain configuration options, leads to mishandling of the result of signature verification.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://launchpad.net/bugs/1798863.
+
+**参考链接 / References**:
+- https://launchpad.net/bugs/1798863
+- https://usn.ubuntu.com/3832-1/
+- https://usn.ubuntu.com/3835-1/
+- https://launchpad.net/bugs/1798863
+- https://usn.ubuntu.com/3832-1/
+
+---
+
+#### 676. CVE-2018-6559
+
+**严重程度 / Severity**: LOW | CVSS: 3.3
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, linux:linux_kernel
+
+**漏洞描述 / Description**:
+The Linux kernel, as used in Ubuntu 18.04 LTS and Ubuntu 18.10, allows local users to obtain names of files in which they would not normally be able to access via an overlayfs mount inside of a user namespace.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/105752.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/105752
+- https://launchpad.net/bugs/1793458
+- https://lists.ubuntu.com/archives/kernel-team/2018-October/096172.html
+- https://people.canonical.com/~ubuntu-security/cve/2018/CVE-2018-6559.html
+- https://usn.ubuntu.com/3832-1/
+
+---
+
+#### 677. CVE-2018-19518
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, php:php, uw-imap_project:uw-imap, debian:debian_linux
+
+**漏洞描述 / Description**:
+University of Washington IMAP Toolkit 2007f on UNIX, as used in imap_open() in PHP and other products, launches an rsh command (by means of the imap_rimap function in c-client/imap4r1.c and the tcp_aopen function in osdep/unix/tcp_unix.c) without preventing argument injection, which might allow remote attackers to execute arbitrary OS commands if the IMAP server name is untrusted input (e.g., entered by a user of a web application) and if rsh has been replaced by a program with different argument semantics. For example, if rsh is a link to ssh (as seen on Debian and Ubuntu systems), then the attack can use an IMAP server name containing a "-oProxyCommand" argument.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/106018.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/106018
+- http://www.securitytracker.com/id/1042157
+- https://antichat.com/threads/463395/#post-4254681
+- https://bugs.debian.org/913775
+- https://bugs.debian.org/913835
+
+---
+
+#### 678. CVE-2017-12447
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: gnome:gdk-pixbuf, canonical:ubuntu_linux, gnome:nautilus
+
+**漏洞描述 / Description**:
+GdkPixBuf (aka gdk-pixbuf), possibly 2.32.2, as used by GNOME Nautilus 3.14.3 on Ubuntu 16.04, allows attackers to cause a denial of service (stack corruption) or possibly have unspecified other impact via a crafted file folder.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.gnome.org/show_bug.cgi?id=785979.
+
+**参考链接 / References**:
+- https://bugzilla.gnome.org/show_bug.cgi?id=785979
+- https://github.com/hackerlib/hackerlib-vul/tree/master/gnome
+- https://usn.ubuntu.com/3912-1/
+- https://bugzilla.gnome.org/show_bug.cgi?id=785979
+- https://github.com/hackerlib/hackerlib-vul/tree/master/gnome
+
+---
+
+#### 679. CVE-2018-3979
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+**受影响产品 / Affected Products**: nvidia:geforce_gtx_750, nvidia:quadro_k620_firmware, nvidia:geforce_gtx_750_firmware, nvidia:quadro_k2200, nvidia:geforce_gtx_845m
+
+**漏洞描述 / Description**:
+A remote denial-of-service vulnerability exists in the way the Nouveau Display Driver (the default Ubuntu Nvidia display driver) handles GPU shader execution. A specially crafted pixel shader can cause remote denial-of-service issues. An attacker can provide a specially crafted website to trigger this vulnerability. This vulnerability can be triggered remotely after the user visits a malformed website. No further user interaction is required. Vulnerable versions include Ubuntu 18.04 LTS (linux 4.15.0-29-generic x86_64), Nouveau Display Driver NV117 (vermagic: 4.15.0-29-generic SMP mod_unload).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://talosintelligence.com/vulnerability_reports/TALOS-2018-0647.
+
+**参考链接 / References**:
+- https://talosintelligence.com/vulnerability_reports/TALOS-2018-0647
+- https://talosintelligence.com/vulnerability_reports/TALOS-2018-0647
+
+---
+
+#### 680. CVE-2011-3151
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.2
+**受影响产品 / Affected Products**: canonical:selinux
+
+**漏洞描述 / Description**:
+The Ubuntu SELinux initscript before version 1:0.10 used touch to create a lockfile in a world-writable directory. If the OS kernel does not have symlink protections then an attacker can cause a zero byte file to be allocated on any writable filesystem.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://launchpadlibrarian.net/88098106/selinux_0.10~10.04.1.debdiff.
+
+**参考链接 / References**:
+- https://launchpadlibrarian.net/88098106/selinux_0.10~10.04.1.debdiff
+- https://launchpadlibrarian.net/88098106/selinux_0.10~10.04.1.debdiff
+
+---
+
+#### 681. CVE-2014-1426
+
+**严重程度 / Severity**: HIGH | CVSS: 8.6
+**受影响产品 / Affected Products**: canonical:metal_as_a_service
+
+**漏洞描述 / Description**:
+A vulnerability in maasserver.api.get_file_by_name of Ubuntu MAAS allows unauthenticated network clients to download any file. This issue affects: Ubuntu MAAS versions prior to 1.9.2.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://launchpad.net/maas/+milestone/1.9.2.
+
+**参考链接 / References**:
+- https://launchpad.net/maas/+milestone/1.9.2
+- https://launchpad.net/maas/+milestone/1.9.2
+
+---
+
+#### 682. CVE-2014-1427
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.6
+**受影响产品 / Affected Products**: canonical:metal_as_a_service
+
+**漏洞描述 / Description**:
+A vulnerability in the REST API of Ubuntu MAAS allows an attacker to cause a logged-in user to execute commands via cross-site scripting. This issue affects MAAS versions prior to 1.9.2.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://launchpad.net/maas/+milestone/1.9.2.
+
+**参考链接 / References**:
+- https://launchpad.net/maas/+milestone/1.9.2
+- https://launchpad.net/maas/+milestone/1.9.2
+
+---
+
+#### 683. CVE-2014-1428
+
+**严重程度 / Severity**: LOW | CVSS: 2.0
+**受影响产品 / Affected Products**: canonical:metal_as_a_service
+
+**漏洞描述 / Description**:
+A vulnerability in generate_filestorage_key of Ubuntu MAAS allows an attacker to brute-force filenames. This issue affects Ubuntu MAAS versions prior to 1.9.2.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://launchpad.net/maas/+milestone/1.9.2.
+
+**参考链接 / References**:
+- https://launchpad.net/maas/+milestone/1.9.2
+- https://launchpad.net/maas/+milestone/1.9.2
+
+---
+
+#### 684. CVE-2015-1320
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: canonical:metal_as_a_service
+
+**漏洞描述 / Description**:
+The SeaMicro provisioning of Ubuntu MAAS logs credentials, including username and password, for the management interface. This issue affects Ubuntu MAAS versions prior to 1.9.2.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://launchpad.net/maas/+milestone/1.9.2.
+
+**参考链接 / References**:
+- https://launchpad.net/maas/+milestone/1.9.2
+- https://launchpad.net/maas/+milestone/1.9.2
+
+---
+
+#### 685. CVE-2018-6634
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, parsecgaming:parsec, microsoft:windows
+
+**漏洞描述 / Description**:
+A vulnerability in Parsec Windows 142-0 and Parsec 'Linux Ubuntu 16.04 LTS Desktop' Build 142-1 allows unauthorized users to maintain access to an account.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://twitter.com/VixusFoxy/status/1125697484498583553.
+
+**参考链接 / References**:
+- https://twitter.com/VixusFoxy/status/1125697484498583553
+- https://twitter.com/VixusFoxy/status/1125697484498583553
+
+---
+
+#### 686. CVE-2019-12301
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: percona:percona_server
+
+**漏洞描述 / Description**:
+The Percona Server 5.6.44-85.0-1 packages for Debian and Ubuntu suffered an issue where the server would reset the root password to a blank value upon an upgrade. This was fixed in 5.6.44-85.0-2.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://jira.percona.com/browse/PS-5640.
+
+**参考链接 / References**:
+- https://jira.percona.com/browse/PS-5640
+- https://www.percona.com/blog/2019/05/17/percona-server-for-mysql-5-6-44-85-0-is-now-available/
+- https://jira.percona.com/browse/PS-5640
+- https://www.percona.com/blog/2019/05/17/percona-server-for-mysql-5-6-44-85-0-is-now-available/
+
+---
+
+#### 687. CVE-2019-12749
+
+**严重程度 / Severity**: HIGH | CVSS: 7.1
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, freedesktop:dbus
+
+**漏洞描述 / Description**:
+dbus before 1.10.28, 1.12.x before 1.12.16, and 1.13.x before 1.13.12, as used in DBusServer in Canonical Upstart in Ubuntu 14.04 (and in some, less common, uses of dbus-daemon), allows cookie spoofing because of symlink mishandling in the reference implementation of DBUS_COOKIE_SHA1 in the libdbus library. (This only affects the DBUS_COOKIE_SHA1 authentication mechanism.) A malicious client with write access to its own home directory could manipulate a ~/.dbus-keyrings symlink to cause a DBusServer with a different uid to read and write in unintended locations. In the worst case, this could result in the DBusServer reusing a cookie that is known to the malicious client, and treating that cookie as evidence that a subsequent client connection came from an attacker-chosen uid, allowing authentication bypass.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2019-06/msg00059.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2019-06/msg00059.html
+- http://lists.opensuse.org/opensuse-security-announce/2019-06/msg00092.html
+- http://lists.opensuse.org/opensuse-security-announce/2019-07/msg00026.html
+- http://www.openwall.com/lists/oss-security/2019/06/11/2
+- http://www.securityfocus.com/bid/108751
+
+---
+
+#### 688. CVE-2019-12881
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, linux:linux_kernel
+
+**漏洞描述 / Description**:
+i915_gem_userptr_get_pages in drivers/gpu/drm/i915/i915_gem_userptr.c in the Linux kernel 4.15.0 on Ubuntu 18.04.2 allows local users to cause a denial of service (NULL pointer dereference and BUG) or possibly have unspecified other impact via crafted ioctl calls to /dev/dri/card0.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/108873.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/108873
+- https://gist.github.com/oxagast/472866fb2c3d439e10499d7141d0a520
+- https://security.netapp.com/advisory/ntap-20190710-0002/
+- http://www.securityfocus.com/bid/108873
+- https://gist.github.com/oxagast/472866fb2c3d439e10499d7141d0a520
+
+---
+
+#### 689. CVE-2019-12164
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: status:react_native_desktop
+
+**漏洞描述 / Description**:
+ubuntu-server.js in Status React Native Desktop before v0.57.8_mobile_ui allows Remote Code Execution.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/status-im/react-native-desktop/compare/e77167f...7477eef.
+
+**参考链接 / References**:
+- https://github.com/status-im/react-native-desktop/compare/e77167f...7477eef
+- https://github.com/status-im/react-native-desktop/pull/475
+- https://github.com/status-im/react-native-desktop/pull/475/commits/f6945f1e4b157c69e414cd94fe5cde1876aabcc1
+- https://github.com/status-im/react-native-desktop/compare/e77167f...7477eef
+- https://github.com/status-im/react-native-desktop/pull/475
+
+---
+
+#### 690. CVE-2012-2092
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.9
+**受影响产品 / Affected Products**: canonical:ubuntu_cobbler
+
+**漏洞描述 / Description**:
+A Security Bypass vulnerability exists in Ubuntu Cobbler before 2,2,2 in the cobbler-ubuntu-import script due to an error when verifying the GPG signature.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.openwall.com/lists/oss-security/2012/04/10/14.
+
+**参考链接 / References**:
+- http://www.openwall.com/lists/oss-security/2012/04/10/14
+- http://www.securityfocus.com/bid/52971
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/74789
+- https://security-tracker.debian.org/tracker/CVE-2012-2092
+- http://www.openwall.com/lists/oss-security/2012/04/10/14
+
+---
+
+#### 691. CVE-2019-19141
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+**受影响产品 / Affected Products**: plex:media_server
+
+**漏洞描述 / Description**:
+The Camera Upload functionality in Plex Media Server through 1.18.2.2029 allows remote authenticated users to write files anywhere the user account running the Plex Media Server has permissions. This allows remote code execution via a variety of methods, such as (on a default Ubuntu installation) creating a .ssh folder in the plex user's home directory via directory traversal, uploading an SSH authorized_keys file there, and logging into the host as the Plex user via SSH.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://forums.plex.tv/t/security-camera-upload/507289.
+
+**参考链接 / References**:
+- https://forums.plex.tv/t/security-camera-upload/507289
+- https://forums.plex.tv/t/security-camera-upload/507289
+
+---
+
+#### 692. CVE-2019-19927
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.0
+**受影响产品 / Affected Products**: linux:linux_kernel, opensuse:leap
+
+**漏洞描述 / Description**:
+In the Linux kernel 5.0.0-rc7 (as distributed in ubuntu/linux.git on kernel.ubuntu.com), mounting a crafted f2fs filesystem image and performing some operations can lead to slab-out-of-bounds read access in ttm_put_pages in drivers/gpu/drm/ttm/ttm_page_alloc.c. This is related to the vmwgfx or ttm module.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00021.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00021.html
+- https://github.com/bobfuzzer/CVE/tree/master/CVE-2019-19927
+- https://github.com/torvalds/linux/commit/453393369dc9806d2455151e329c599684762428
+- https://github.com/torvalds/linux/commit/a66477b0efe511d98dde3e4aaeb189790e6f0a39
+- https://github.com/torvalds/linux/commit/ac1e516d5a4c56bf0cb4a3dfc0672f689131cfd4
+
+---
+
+#### 693. CVE-2012-0055
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, linux:linux_kernel
+
+**漏洞描述 / Description**:
+OverlayFS in the Linux kernel before 3.0.0-16.28, as used in Ubuntu 10.0.4 LTS and 11.10, is missing inode security checks which could allow attackers to bypass security restrictions and perform unauthorized actions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.openwall.com/lists/oss-security/2012/01/17/11.
+
+**参考链接 / References**:
+- http://www.openwall.com/lists/oss-security/2012/01/17/11
+- http://www.ubuntu.com/usn/USN-1363-1
+- http://www.ubuntu.com/usn/USN-1364-1
+- http://www.ubuntu.com/usn/USN-1384-1
+- https://access.redhat.com/security/cve/cve-2012-0055
+
+---
+
+#### 694. CVE-2019-7305
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.8
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, extplorer:extplorer, debian:debian_linux
+
+**漏洞描述 / Description**:
+Information Exposure vulnerability in eXtplorer makes the /usr/ and /etc/extplorer/ system directories world-accessible over HTTP. Introduced in the Makefile patch file debian/patches/debian-changes-2.1.0b6+dfsg-1 or debian/patches/adds-a-makefile.patch, this can lead to data leakage, information disclosure and potentially remote code execution on the web server. This issue affects all versions of eXtplorer in Ubuntu and Debian
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://launchpad.net/bugs/1822013.
+
+**参考链接 / References**:
+- https://launchpad.net/bugs/1822013
+- https://launchpad.net/bugs/1822013
+
+---
+
+#### 695. CVE-2020-8832
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: netapp:aff_8300, netapp:fas_baseboard_management_controller_a400, netapp:h410c_firmware, netapp:fas_baseboard_management_controller_c190, netapp:h610s
+
+**漏洞描述 / Description**:
+The fix for the Linux kernel in Ubuntu 18.04 LTS for CVE-2019-14615 ("The Linux kernel did not properly clear data structures on context switches for certain Intel graphics processors.") was discovered to be incomplete, meaning that in versions of the kernel before 4.15.0-91.92, an attacker could use this vulnerability to expose sensitive information.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1862840.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1862840
+- https://security.netapp.com/advisory/ntap-20200430-0004/
+- https://usn.ubuntu.com/usn/usn-4302-1
+- https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1862840
+- https://security.netapp.com/advisory/ntap-20200430-0004/
+
+---
+
+#### 696. CVE-2019-11480
+
+**严重程度 / Severity**: HIGH | CVSS: 8.4
+**受影响产品 / Affected Products**: canonical:c-kernel
+
+**漏洞描述 / Description**:
+The pc-kernel snap build process hardcoded the --allow-insecure-repositories and --allow-unauthenticated apt options when creating the build chroot environment. This could allow an attacker who is able to perform a MITM attack between the build environment and the Ubuntu archive to install a malicious package within the build chroot. This issue affects pc-kernel versions prior to and including 2019-07-16
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.launchpad.net/bugs/1836041.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/bugs/1836041
+- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11480
+- https://bugs.launchpad.net/bugs/1836041
+- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11480
+
+---
+
+#### 697. CVE-2019-15791
+
+**严重程度 / Severity**: HIGH | CVSS: 7.1
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, linux:linux_kernel
+
+**漏洞描述 / Description**:
+In shiftfs, a non-upstream patch to the Linux kernel included in the Ubuntu 5.0 and 5.3 kernel series, shiftfs_btrfs_ioctl_fd_replace() installs an fd referencing a file from the lower filesystem without taking an additional reference to that file. After the btrfs ioctl completes this fd is closed, which then puts a reference to that file, leading to a refcount underflow.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/eoan/commit/?id=601a64857b3d7040ca15c39c929e6b9db3373ec1.
+
+**参考链接 / References**:
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/eoan/commit/?id=601a64857b3d7040ca15c39c929e6b9db3373ec1
+- https://usn.ubuntu.com/usn/usn-4183-1
+- https://usn.ubuntu.com/usn/usn-4184-1
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/eoan/commit/?id=601a64857b3d7040ca15c39c929e6b9db3373ec1
+- https://usn.ubuntu.com/usn/usn-4183-1
+
+---
+
+#### 698. CVE-2019-15792
+
+**严重程度 / Severity**: HIGH | CVSS: 7.1
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, linux:linux_kernel
+
+**漏洞描述 / Description**:
+In shiftfs, a non-upstream patch to the Linux kernel included in the Ubuntu 5.0 and 5.3 kernel series, shiftfs_btrfs_ioctl_fd_replace() calls fdget(oldfd), then without further checks passes the resulting file* into shiftfs_real_fdget(), which casts file->private_data, a void* that points to a filesystem-dependent type, to a "struct shiftfs_file_info *". As the private_data is not required to be a pointer, an attacker can use this to cause a denial of service or possibly execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/eoan/commit/?id=5df147c8140efc71ac0879ae3b0057f577226d4c.
+
+**参考链接 / References**:
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/eoan/commit/?id=5df147c8140efc71ac0879ae3b0057f577226d4c
+- https://usn.ubuntu.com/usn/usn-4183-1
+- https://usn.ubuntu.com/usn/usn-4184-1
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/eoan/commit/?id=5df147c8140efc71ac0879ae3b0057f577226d4c
+- https://usn.ubuntu.com/usn/usn-4183-1
+
+---
+
+#### 699. CVE-2019-15793
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, linux:linux_kernel
+
+**漏洞描述 / Description**:
+In shiftfs, a non-upstream patch to the Linux kernel included in the Ubuntu 5.0 and 5.3 kernel series, several locations which shift ids translate user/group ids before performing operations in the lower filesystem were translating them into init_user_ns, whereas they should have been translated into the s_user_ns for the lower filesystem. This resulted in using ids other than the intended ones in the lower fs, which likely did not map into the shifts s_user_ns. A local attacker could use this to possibly bypass discretionary access control permissions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/eoan/commit/?id=3644b9d5688da86f18e017c9c580b75cf52927bb.
+
+**参考链接 / References**:
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/eoan/commit/?id=3644b9d5688da86f18e017c9c580b75cf52927bb
+- https://usn.ubuntu.com/usn/usn-4183-1
+- https://usn.ubuntu.com/usn/usn-4184-1
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/eoan/commit/?id=3644b9d5688da86f18e017c9c580b75cf52927bb
+- https://usn.ubuntu.com/usn/usn-4183-1
+
+---
+
+#### 700. CVE-2019-15794
+
+**严重程度 / Severity**: HIGH | CVSS: 7.1
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, linux:linux_kernel
+
+**漏洞描述 / Description**:
+Overlayfs in the Linux kernel and shiftfs, a non-upstream patch to the Linux kernel included in the Ubuntu 5.0 and 5.3 kernel series, both replace vma->vm_file in their mmap handlers. On error the original value is not restored, and the reference is put for the file to which vm_file points. On upstream kernels this is not an issue, as no callers dereference vm_file following after call_mmap() returns an error. However, the aufs patchs change mmap_region() to replace the fput() using a local variable with vma_fput(), which will fput() vm_file, leading to a refcount underflow.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/eoan/commit/?id=270d16ae48a4dbf1c7e25e94cc3e38b4bea37635.
+
+**参考链接 / References**:
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/eoan/commit/?id=270d16ae48a4dbf1c7e25e94cc3e38b4bea37635
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/eoan/commit/?id=ef81780548d20a786cc77ed4203fca146fd81ce3
+- https://usn.ubuntu.com/usn/usn-4208-1
+- https://usn.ubuntu.com/usn/usn-4209-1
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/eoan/commit/?id=270d16ae48a4dbf1c7e25e94cc3e38b4bea37635
+
+---
+
+#### 701. CVE-2014-1423
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.9
+**受影响产品 / Affected Products**: ubports:ubuntu_touch, signond_project:signond
+
+**漏洞描述 / Description**:
+signond before 8.57+15.04.20141127.1-0ubuntu1, as used in Ubuntu Touch, did not properly restrict applications from querying oath tokens due to incorrect checks and the missing installation of the signon-apparmor-extension. An attacker could use this create a malicious click app that collects oauth tokens for other applications, exposing sensitive information.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bazaar.launchpad.net/~online-accounts/signon/upstream/revision/644.
+
+**参考链接 / References**:
+- http://bazaar.launchpad.net/~online-accounts/signon/upstream/revision/644
+- http://bazaar.launchpad.net/~online-accounts/signon/upstream/revision/645
+- https://bugs.launchpad.net/ubuntu/+source/signon/+bug/1392380
+- http://bazaar.launchpad.net/~online-accounts/signon/upstream/revision/644
+- http://bazaar.launchpad.net/~online-accounts/signon/upstream/revision/645
+
+---
+
+#### 702. CVE-2015-7946
+
+**严重程度 / Severity**: HIGH | CVSS: 7.3
+**受影响产品 / Affected Products**: ubports:unity8
+
+**漏洞描述 / Description**:
+Information Exposure vulnerability in Unity8 as used on the Ubuntu phone and possibly also in Unity8 shipped elsewhere. This allows an attacker to enable the MTP service by opening the emergency dialer. Fixed in 8.11+16.04.20160111.1-0ubuntu1 and 8.11+15.04.20160122-0ubuntu1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://launchpad.net/bugs/1525981.
+
+**参考链接 / References**:
+- https://launchpad.net/bugs/1525981
+- https://launchpad.net/bugs/1525981
+
+---
+
+#### 703. CVE-2020-11932
+
+**严重程度 / Severity**: LOW | CVSS: 2.3
+**受影响产品 / Affected Products**: canonical:subiquity
+
+**漏洞描述 / Description**:
+It was discovered that the Subiquity installer for Ubuntu Server logged the LUKS full disk encryption password if one was entered.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://aliceandbob.company/the-human-factor-in-an-economy-of-scale/.
+
+**参考链接 / References**:
+- https://aliceandbob.company/the-human-factor-in-an-economy-of-scale/
+- https://github.com/CanonicalLtd/subiquity/commit/7db70650feaf513d7fb6f1ca07f2d670a0890613
+- https://aliceandbob.company/the-human-factor-in-an-economy-of-scale/
+- https://github.com/CanonicalLtd/subiquity/commit/7db70650feaf513d7fb6f1ca07f2d670a0890613
+
+---
+
+#### 704. CVE-2020-11931
+
+**严重程度 / Severity**: LOW | CVSS: 3.3
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, pulseaudio:pulseaudio
+
+**漏洞描述 / Description**:
+An Ubuntu-specific modification to Pulseaudio to provide security mediation for Snap-packaged applications was found to have a bypass of intended access restriction for snaps which plugs any of pulseaudio, audio-playback or audio-record via unloading the pulseaudio snap policy module. This issue affects: pulseaudio 1:8.0 versions prior to 1:8.0-0ubuntu3.12; 1:11.1 versions prior to 1:11.1-1ubuntu7.7; 1:13.0 versions prior to 1:13.0-1ubuntu1.2; 1:13.99.1 versions prior to 1:13.99.1-1ubuntu3.2;
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://forum.snapcraft.io/t/audio-switcher-pulseaudio-interface-auto-connect-request/16648/3.
+
+**参考链接 / References**:
+- https://forum.snapcraft.io/t/audio-switcher-pulseaudio-interface-auto-connect-request/16648/3
+- https://usn.ubuntu.com/4355-1/
+- https://forum.snapcraft.io/t/audio-switcher-pulseaudio-interface-auto-connect-request/16648/3
+- https://usn.ubuntu.com/4355-1/
+
+---
+
+#### 705. CVE-2020-10279
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: aliasrobotics:mir200_firmware, aliasrobotics:mir1000_firmware, enabled-robotics:er-one, aliasrobotics:mir200, mobile-industrial-robotics:er200_firmware
+
+**漏洞描述 / Description**:
+MiR robot controllers (central computation unit) makes use of Ubuntu 16.04.2 an operating system, Thought for desktop uses, this operating system presents insecure defaults for robots. These insecurities include a way for users to escalate their access beyond what they were granted via file creation, access race conditions, insecure home directory configurations and defaults that facilitate Denial of Service (DoS) attacks.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/aliasrobotics/RVD/issues/2569.
+
+**参考链接 / References**:
+- https://github.com/aliasrobotics/RVD/issues/2569
+- https://github.com/aliasrobotics/RVD/issues/2569
+
+---
+
+#### 706. CVE-2014-1422
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.0
+**受影响产品 / Affected Products**: canonical:trust-store_\(ubuntu_rtm\), canonical:trust-store_\(ubuntu\)
+
+**漏洞描述 / Description**:
+In Ubuntu's trust-store, if a user revokes location access from an application, the location is still available to the application because the application will honour incorrect, cached permissions. This is because the cache was not ordered by creation time by the Select struct in src/core/trust/impl/sqlite3/store.cpp. Fixed in trust-store (Ubuntu) version 1.1.0+15.04.20150123-0ubuntu1 and trust-store (Ubuntu RTM) version 1.1.0+15.04.20150123~rtm-0ubuntu1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bazaar.launchpad.net/~phablet-team/trust-store/trunk/revision/82.
+
+**参考链接 / References**:
+- https://bazaar.launchpad.net/~phablet-team/trust-store/trunk/revision/82
+- https://launchpad.net/bugs/1387734
+- https://bazaar.launchpad.net/~phablet-team/trust-store/trunk/revision/82
+- https://launchpad.net/bugs/1387734
+
+---
+
+#### 707. CVE-2020-11933
+
+**严重程度 / Severity**: HIGH | CVSS: 7.3
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, canonical:snapd
+
+**漏洞描述 / Description**:
+cloud-init as managed by snapd on Ubuntu Core 16 and Ubuntu Core 18 devices was run without restrictions on every boot, which a physical attacker could exploit by crafting cloud-init user-data/meta-data via external media to perform arbitrary changes on the device to bypass intended security mechanisms such as full disk encryption. This issue did not affect traditional Ubuntu systems. Fixed in snapd version 2.45.2, revision 8539 and core version 2.45.2, revision 9659.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://launchpad.net/bugs/1879530.
+
+**参考链接 / References**:
+- https://launchpad.net/bugs/1879530
+- https://ubuntu.com/USN-4424-1
+- https://launchpad.net/bugs/1879530
+- https://ubuntu.com/USN-4424-1
+
+---
+
+#### 708. CVE-2020-11934
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.9
+**受影响产品 / Affected Products**: canonical:ubuntu_linux
+
+**漏洞描述 / Description**:
+It was discovered that snapctl user-open allowed altering the $XDG_DATA_DIRS environment variable when calling the system xdg-open. OpenURL() in usersession/userd/launcher.go would alter $XDG_DATA_DIRS to append a path to a directory controlled by the calling snap. A malicious snap could exploit this to bypass intended access restrictions to control how the host system xdg-open script opens the URL and, for example, execute a script shipped with the snap without confinement. This issue did not affect Ubuntu Core systems. Fixed in snapd versions 2.45.1ubuntu0.2, 2.45.1+18.04.2 and 2.45.1+20.04.2.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://launchpad.net/bugs/1880085.
+
+**参考链接 / References**:
+- https://launchpad.net/bugs/1880085
+- https://ubuntu.com/USN-4424-1
+- https://launchpad.net/bugs/1880085
+- https://ubuntu.com/USN-4424-1
+
+---
+
+#### 709. CVE-2020-15707
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.7
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, redhat:openshift_container_platform, netapp:active_iq_unified_manager, opensuse:leap, debian:debian_linux
+
+**漏洞描述 / Description**:
+Integer overflows were discovered in the functions grub_cmd_initrd and grub_initrd_init in the efilinux component of GRUB2, as shipped in Debian, Red Hat, and Ubuntu (the functionality is not included in GRUB2 upstream), leading to a heap-based buffer overflow. These could be triggered by an extremely large number of arguments to the initrd command on 32-bit architectures, or a crafted filesystem with very large files on any architecture. An attacker could use this to execute arbitrary code and bypass UEFI Secure Boot restrictions. This issue affects GRUB2 version 2.04 and prior versions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2020-08/msg00016.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-08/msg00016.html
+- http://lists.opensuse.org/opensuse-security-announce/2020-08/msg00017.html
+- http://ubuntu.com/security/notices/USN-4432-1
+- http://www.openwall.com/lists/oss-security/2020/07/29/3
+- https://access.redhat.com/security/vulnerabilities/grub2bootloader
+
+---
+
+#### 710. CVE-2014-1420
+
+**严重程度 / Severity**: LOW | CVSS: 3.8
+**受影响产品 / Affected Products**: canonical:ubuntu-ui-toolkit
+
+**漏洞描述 / Description**:
+On desktop, Ubuntu UI Toolkit's StateSaver would serialise data on tmp/ files which an attacker could use to expose potentially sensitive data. StateSaver would also open files without the O_EXCL flag. An attacker could exploit this to launch a symlink attack, though this is partially mitigated by symlink and hardlink restrictions in Ubuntu. Fixed in 1.1.1188+14.10.20140813.4-0ubuntu1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bazaar.launchpad.net/~ubuntu-sdk-team/ubuntu-ui-toolkit/staging/revision/1182.
+
+**参考链接 / References**:
+- http://bazaar.launchpad.net/~ubuntu-sdk-team/ubuntu-ui-toolkit/staging/revision/1182
+- https://launchpad.net/bugs/1348241
+- http://bazaar.launchpad.net/~ubuntu-sdk-team/ubuntu-ui-toolkit/staging/revision/1182
+- https://launchpad.net/bugs/1348241
+
+---
+
+#### 711. CVE-2019-8790
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: apple:swift
+
+**漏洞描述 / Description**:
+This issue was addresses by updating incorrect URLSession file descriptors management logic to match Swift 5.0. This issue is fixed in Swift 5.1.1 for Ubuntu. Incorrect management of file descriptors in URLSession could lead to inadvertent data disclosure.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://support.apple.com/en-us/HT210647.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/HT210647
+- https://support.apple.com/en-us/HT210647
+
+---
+
+#### 712. CVE-2020-15708
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.3
+**受影响产品 / Affected Products**: canonical:ubuntu_linux
+
+**漏洞描述 / Description**:
+Ubuntu's packaging of libvirt in 20.04 LTS created a control socket with world read and write permissions. An attacker could use this to overwrite arbitrary files or execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://usn.ubuntu.com/usn/usn-4452-1.
+
+**参考链接 / References**:
+- https://usn.ubuntu.com/usn/usn-4452-1
+- https://usn.ubuntu.com/usn/usn-4452-1
+
+---
+
+#### 713. CVE-2020-16125
+
+**严重程度 / Severity**: HIGH | CVSS: 7.2
+**受影响产品 / Affected Products**: gnome:gnome_display_manager
+
+**漏洞描述 / Description**:
+gdm3 versions before 3.36.2 or 3.38.2 would start gnome-initial-setup if gdm3 can't contact the accountservice service via dbus in a timely manner; on Ubuntu (and potentially derivatives) this could be be chained with an additional issue that could allow a local user to create a new privileged account.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.launchpad.net/ubuntu/+source/gdm3/+bug/1900314.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/ubuntu/+source/gdm3/+bug/1900314
+- https://gitlab.gnome.org/GNOME/gdm/-/issues/642
+- https://securitylab.github.com/advisories/GHSL-2020-202-gdm3-LPE-unresponsive-accounts-daemon
+- https://bugs.launchpad.net/ubuntu/+source/gdm3/+bug/1900314
+- https://gitlab.gnome.org/GNOME/gdm/-/issues/642
+
+---
+
+#### 714. CVE-2020-16126
+
+**严重程度 / Severity**: LOW | CVSS: 3.3
+**受影响产品 / Affected Products**: freedesktop:accountsservice
+
+**漏洞描述 / Description**:
+An Ubuntu-specific modification to AccountsService in versions before 0.6.55-0ubuntu13.2, among other earlier versions, improperly dropped the ruid, allowing untrusted users to send signals to AccountService, thus stopping it from handling D-Bus messages in a timely fashion.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://securitylab.github.com/advisories/GHSL-2020-187-accountsservice-drop-privs-DOS.
+
+**参考链接 / References**:
+- https://securitylab.github.com/advisories/GHSL-2020-187-accountsservice-drop-privs-DOS
+- https://securitylab.github.com/advisories/GHSL-2020-187-accountsservice-drop-privs-DOS
+
+---
+
+#### 715. CVE-2020-16127
+
+**严重程度 / Severity**: LOW | CVSS: 2.8
+**受影响产品 / Affected Products**: freedesktop:accountsservice
+
+**漏洞描述 / Description**:
+An Ubuntu-specific modification to AccountsService in versions before 0.6.55-0ubuntu13.2, among other earlier versions, would perform unbounded read operations on user-controlled ~/.pam_environment files, allowing an infinite loop if /dev/zero is symlinked to this location.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://securitylab.github.com/advisories/GHSL-2020-187-accountsservice-drop-privs-DOS.
+
+**参考链接 / References**:
+- https://securitylab.github.com/advisories/GHSL-2020-187-accountsservice-drop-privs-DOS
+- https://securitylab.github.com/advisories/GHSL-2020-187-accountsservice-drop-privs-DOS
+
+---
+
+#### 716. CVE-2020-16123
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.4
+**受影响产品 / Affected Products**: canonical:ubuntu_linux
+
+**漏洞描述 / Description**:
+An Ubuntu-specific patch in PulseAudio created a race condition where the snap policy module would fail to identify a client connection from a snap as coming from a snap if SCM_CREDENTIALS were missing, allowing the snap to connect to PulseAudio without proper confinement. This could be exploited by an attacker to expose sensitive information. Fixed in 1:13.99.3-1ubuntu2, 1:13.99.2-1ubuntu2.1, 1:13.99.1-1ubuntu3.8, 1:11.1-1ubuntu7.11, and 1:8.0-0ubuntu3.15.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://launchpad.net/bugs/1895928.
+
+**参考链接 / References**:
+- https://launchpad.net/bugs/1895928
+- https://ubuntu.com/USN-4640-1
+- https://launchpad.net/bugs/1895928
+- https://ubuntu.com/USN-4640-1
+
+---
+
+#### 717. CVE-2020-16119
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.3
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, linux:linux_kernel, debian:debian_linux
+
+**漏洞描述 / Description**:
+Use-after-free vulnerability in the Linux kernel exploitable by a local attacker due to reuse of a DCCP socket with an attached dccps_hc_tx_ccid object as a listener after being released. Fixed in Ubuntu Linux kernel 5.4.0-51.56, 5.3.0-68.63, 4.15.0-121.123, 4.4.0-193.224, 3.13.0.182.191 and 3.2.0-149.196.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/focal/commit/?id=01872cb896c76cedeabe93a08456976ab55ad695.
+
+**参考链接 / References**:
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/focal/commit/?id=01872cb896c76cedeabe93a08456976ab55ad695
+- https://launchpad.net/bugs/1883840
+- https://lists.debian.org/debian-lts-announce/2021/10/msg00010.html
+- https://lists.debian.org/debian-lts-announce/2021/12/msg00012.html
+- https://lore.kernel.org/netdev/20201013171849.236025-1-kleber.souza%40canonical.com/T/
+
+---
+
+#### 718. CVE-2021-3492
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+**受影响产品 / Affected Products**: canonical:ubuntu_linux
+
+**漏洞描述 / Description**:
+Shiftfs, an out-of-tree stacking file system included in Ubuntu Linux kernels, did not properly handle faults occurring during copy_from_user() correctly. These could lead to either a double-free situation or memory not being freed at all. An attacker could use this to cause a denial of service (kernel memory exhaustion) or gain privileges via executing arbitrary code. AKA ZDI-CAN-13562.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://packetstormsecurity.com/files/162614/Kernel-Live-Patch-Security-Notice-LSN-0077-1.html.
+
+**参考链接 / References**:
+- http://packetstormsecurity.com/files/162614/Kernel-Live-Patch-Security-Notice-LSN-0077-1.html
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/focal/commit/?id=25c891a949bf918b59cbc6e4932015ba4c35c333
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/focal/commit/?id=8fee52ab9da87d82bc6de9ebb3480fff9b4d53e6
+- https://ubuntu.com/security/notices/USN-4917-1
+- https://www.openwall.com/lists/oss-security/2021/04/16/2
+
+---
+
+#### 719. CVE-2021-3493
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+**受影响产品 / Affected Products**: canonical:ubuntu_linux
+
+**漏洞描述 / Description**:
+The overlayfs implementation in the linux kernel did not properly validate with respect to user namespaces the setting of file capabilities on files in an underlying file system. Due to the combination of unprivileged user namespaces along with a patch carried in the Ubuntu kernel to allow unprivileged overlay mounts, an attacker could use this to gain elevated privileges.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://packetstormsecurity.com/files/162434/Kernel-Live-Patch-Security-Notice-LSN-0076-1.html.
+
+**参考链接 / References**:
+- http://packetstormsecurity.com/files/162434/Kernel-Live-Patch-Security-Notice-LSN-0076-1.html
+- http://packetstormsecurity.com/files/162866/Ubuntu-OverlayFS-Local-Privilege-Escalation.html
+- http://packetstormsecurity.com/files/165151/Ubuntu-Overlayfs-Local-Privilege-Escalation.html
+- https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=7c03e2cda4a584cadc398e8f6641ca9988a39d52
+- https://ubuntu.com/security/notices/USN-4917-1
+
+---
+
+#### 720. CVE-2021-34419
+
+**严重程度 / Severity**: LOW | CVSS: 3.7
+**受影响产品 / Affected Products**: zoom:zoom_client_for_meetings
+
+**漏洞描述 / Description**:
+In the Zoom Client for Meetings for Ubuntu Linux before version 5.1.0, there is an HTML injection flaw when sending a remote control request to a user in the process of in-meeting screen sharing. This could allow meeting participants to be targeted for social engineering attacks.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://explore.zoom.us/en/trust/security/security-bulletin.
+
+**参考链接 / References**:
+- https://explore.zoom.us/en/trust/security/security-bulletin
+- https://explore.zoom.us/en/trust/security/security-bulletin
+
+---
+
+#### 721. CVE-2021-3939
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: canonical:accountsservice, canonical:ubuntu_linux
+
+**漏洞描述 / Description**:
+Ubuntu-specific modifications to accountsservice (in patch file debian/patches/0010-set-language.patch) caused the fallback_locale variable, pointing to static storage, to be freed, in the user_change_language_authorized_cb function. This is reachable via the SetLanguage dbus function. This is fixed in versions 0.6.55-0ubuntu12~20.04.5, 0.6.55-0ubuntu13.3, 0.6.55-0ubuntu14.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://packetstormsecurity.com/files/172848/Ubuntu-accountsservice-Double-Free-Memory-Corruption.html.
+
+**参考链接 / References**:
+- http://packetstormsecurity.com/files/172848/Ubuntu-accountsservice-Double-Free-Memory-Corruption.html
+- https://bugs.launchpad.net/ubuntu/+source/accountsservice/+bug/1950149
+- https://ubuntu.com/security/notices/USN-5149-1
+- http://packetstormsecurity.com/files/172848/Ubuntu-accountsservice-Double-Free-Memory-Corruption.html
+- https://bugs.launchpad.net/ubuntu/+source/accountsservice/+bug/1950149
+
+---
+
+#### 722. CVE-2021-34423
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: zoom:zoom_on-premise_meeting_connector_controller, zoom:windows_video_sdk, zoom:controllers_for_zoom_rooms, zoom:macos_meeting_sdk, linux:linux_kernel
+
+**漏洞描述 / Description**:
+A buffer overflow vulnerability was discovered in Zoom Client for Meetings (for Android, iOS, Linux, macOS, and Windows) before version 5.8.4, Zoom Client for Meetings for Blackberry (for Android and iOS) before version 5.8.1, Zoom Client for Meetings for intune (for Android and iOS) before version 5.8.4, Zoom Client for Meetings for Chrome OS before version 5.0.1, Zoom Rooms for Conference Room (for Android, AndroidBali, macOS, and Windows) before version 5.8.3, Controllers for Zoom Rooms (for Android, iOS, and Windows) before version 5.8.3, Zoom VDI Windows Meeting Client before version 5.8.4, Zoom VDI Azure Virtual Desktop Plugins (for Windows x86 or x64, IGEL x64, Ubuntu x64, HP ThinPro OS x64) before version 5.8.4.21112, Zoom VDI Citrix Plugins (for Windows x86 or x64, Mac Universal Installer & Uninstaller, IGEL x64, eLux RP6 x64, HP ThinPro OS x64, Ubuntu x64, CentOS x 64, Dell ThinOS) before version 5.8.4.21112, Zoom VDI VMware Plugins (for Windows x86 or x64, Mac Universal Installer & Uninstaller, IGEL x64, eLux RP6 x64, HP ThinPro OS x64, Ubuntu x64, CentOS x 64, Dell ThinOS) before version 5.8.4.21112, Zoom Meeting SDK for Android before version 5.7.6.1922, Zoom Meeting SDK for iOS before version 5.7.6.1082, Zoom Meeting SDK for macOS before version 5.7.6.1340, Zoom Meeting SDK for Windows before version 5.7.6.1081, Zoom Video SDK (for Android, iOS, macOS, and Windows) before version 1.1.2, Zoom On-Premise Meeting Connector Controller before version 4.8.12.20211115, Zoom On-Premise Meeting Connector MMR before version 4.8.12.20211115, Zoom On-Premise Recording Connector before version 5.1.0.65.20211116, Zoom On-Premise Virtual Room Connector before version 4.4.7266.20211117, Zoom On-Premise Virtual Room Connector Load Balancer before version 2.5.5692.20211117, Zoom Hybrid Zproxy before version 1.0.1058.20211116, and Zoom Hybrid MMR before version 4.6.20211116.131_x86-64. This can potentially allow a malicious actor to crash the service or application, or leverage this vulnerability to execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://packetstormsecurity.com/files/165417/Zoom-Chat-Message-Processing-Buffer-Overflow.html.
+
+**参考链接 / References**:
+- http://packetstormsecurity.com/files/165417/Zoom-Chat-Message-Processing-Buffer-Overflow.html
+- https://explore.zoom.us/en/trust/security/security-bulletin
+- http://packetstormsecurity.com/files/165417/Zoom-Chat-Message-Processing-Buffer-Overflow.html
+- https://explore.zoom.us/en/trust/security/security-bulletin
+
+---
+
+#### 723. CVE-2021-34424
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: zoom:zoom_on-premise_meeting_connector_controller, zoom:windows_video_sdk, zoom:controllers_for_zoom_rooms, zoom:macos_meeting_sdk, linux:linux_kernel
+
+**漏洞描述 / Description**:
+A vulnerability was discovered in the Zoom Client for Meetings (for Android, iOS, Linux, macOS, and Windows) before version 5.8.4, Zoom Client for Meetings for Blackberry (for Android and iOS) before version 5.8.1, Zoom Client for Meetings for intune (for Android and iOS) before version 5.8.4, Zoom Client for Meetings for Chrome OS before version 5.0.1, Zoom Rooms for Conference Room (for Android, AndroidBali, macOS, and Windows) before version 5.8.3, Controllers for Zoom Rooms (for Android, iOS, and Windows) before version 5.8.3, Zoom VDI Windows Meeting Client before version 5.8.4, Zoom VDI Azure Virtual Desktop Plugins (for Windows x86 or x64, IGEL x64, Ubuntu x64, HP ThinPro OS x64) before version 5.8.4.21112, Zoom VDI Citrix Plugins (for Windows x86 or x64, Mac Universal Installer & Uninstaller, IGEL x64, eLux RP6 x64, HP ThinPro OS x64, Ubuntu x64, CentOS x 64, Dell ThinOS) before version 5.8.4.21112, Zoom VDI VMware Plugins (for Windows x86 or x64, Mac Universal Installer & Uninstaller, IGEL x64, eLux RP6 x64, HP ThinPro OS x64, Ubuntu x64, CentOS x 64, Dell ThinOS) before version 5.8.4.21112, Zoom Meeting SDK for Android before version 5.7.6.1922, Zoom Meeting SDK for iOS before version 5.7.6.1082, Zoom Meeting SDK for macOS before version 5.7.6.1340, Zoom Meeting SDK for Windows before version 5.7.6.1081, Zoom Video SDK (for Android, iOS, macOS, and Windows) before version 1.1.2, Zoom on-premise Meeting Connector before version 4.8.12.20211115, Zoom on-premise Meeting Connector MMR before version 4.8.12.20211115, Zoom on-premise Recording Connector before version 5.1.0.65.20211116, Zoom on-premise Virtual Room Connector before version 4.4.7266.20211117, Zoom on-premise Virtual Room Connector Load Balancer before version 2.5.5692.20211117, Zoom Hybrid Zproxy before version 1.0.1058.20211116, and Zoom Hybrid MMR before version 4.6.20211116.131_x86-64 which potentially allowed for the exposure of the state of process memory. This issue could be used to potentially gain insight into arbitrary areas of the product's memory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://packetstormsecurity.com/files/165419/Zoom-MMR-Server-Information-Leak.html.
+
+**参考链接 / References**:
+- http://packetstormsecurity.com/files/165419/Zoom-MMR-Server-Information-Leak.html
+- https://explore.zoom.us/en/trust/security/security-bulletin
+- http://packetstormsecurity.com/files/165419/Zoom-MMR-Server-Information-Leak.html
+- https://explore.zoom.us/en/trust/security/security-bulletin
+
+---
+
+#### 724. CVE-2022-23220
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, usbview_project:usbview, gentoo:linux, debian:debian_linux
+
+**漏洞描述 / Description**:
+USBView 2.1 before 2.2 allows some local users (e.g., ones logged in via SSH) to execute arbitrary code as root because certain Polkit settings (e.g., allow_any=yes) for pkexec disable the authentication requirement. Code execution can, for example, use the --gtk-module option. This affects Ubuntu, Debian, and Gentoo.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.openwall.com/lists/oss-security/2022/01/22/1.
+
+**参考链接 / References**:
+- http://www.openwall.com/lists/oss-security/2022/01/22/1
+- https://github.com/gregkh/usbview/commit/bf374fa4e5b9a756789dfd88efa93806a395463b
+- https://security.gentoo.org/glsa/202310-15
+- https://www.debian.org/security/2022/dsa-5052
+- https://www.openwall.com/lists/oss-security/2022/01/21/1
+
+---
+
+#### 725. CVE-2022-40297
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: ubports:ubuntu_touch
+
+**漏洞描述 / Description**:
+UBports Ubuntu Touch 16.04 allows the screen-unlock passcode to be used for a privileged shell via Sudo. This passcode is only four digits, far below typical length/complexity for a user account's password. NOTE: a third party states "The described attack cannot be executed as demonstrated.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc.
+
+**参考链接 / References**:
+- https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc
+- https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc
+
+---
+
+#### 726. CVE-2022-41352
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: synacor:zimbra_collaboration_suite
+
+**漏洞描述 / Description**:
+An issue was discovered in Zimbra Collaboration (ZCS) 8.8.15 and 9.0. An attacker can upload arbitrary files through amavis via a cpio loophole (extraction to /opt/zimbra/jetty/webapps/zimbra/public) that can lead to incorrect access to any other user accounts. Zimbra recommends pax over cpio. Also, pax is in the prerequisites of Zimbra on Ubuntu; however, pax is no longer part of a default Red Hat installation after RHEL 6 (or CentOS 6). Once pax is installed, amavis automatically prefers it over cpio.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://packetstormsecurity.com/files/169458/Zimbra-Collaboration-Suite-TAR-Path-Traversal.html.
+
+**参考链接 / References**:
+- http://packetstormsecurity.com/files/169458/Zimbra-Collaboration-Suite-TAR-Path-Traversal.html
+- https://forums.zimbra.org/viewtopic.php?t=71153&p=306532
+- https://wiki.zimbra.com/wiki/Security_Center
+- https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories
+- https://www.secpod.com/blog/unpatched-rce-bug-in-zimbra-collaboration-suite-exploited-in-wild/
+
+---
+
+#### 727. CVE-2022-44544
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, mahara:mahara
+
+**漏洞描述 / Description**:
+Mahara 21.04 before 21.04.7, 21.10 before 21.10.5, 22.04 before 22.04.3, and 22.10 before 22.10.0 potentially allow a PDF export to trigger a remote shell if the site is running on Ubuntu and the flag -dSAFER is not set with Ghostscript.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.launchpad.net/mahara/+bug/1979575.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/mahara/+bug/1979575
+- https://mahara.org/interaction/forum/topic.php?id=9198
+- https://bugs.launchpad.net/mahara/+bug/1979575
+- https://mahara.org/interaction/forum/topic.php?id=9198
+
+---
+
+#### 728. CVE-2023-1277
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: ubuntukylin:kylin-system-updater
+
+**漏洞描述 / Description**:
+A vulnerability, which was classified as critical, was found in kylin-system-updater up to 1.4.20kord on Ubuntu Kylin. Affected is the function InstallSnap of the component Update Handler. The manipulation leads to command injection. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-222600.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/cn-lwj/vuldb/blob/master/kylin-system-updater_vuln.md.
+
+**参考链接 / References**:
+- https://github.com/cn-lwj/vuldb/blob/master/kylin-system-updater_vuln.md
+- https://vuldb.com/?ctiid.222600
+- https://vuldb.com/?id.222600
+- https://github.com/cn-lwj/vuldb/blob/master/kylin-system-updater_vuln.md
+- https://vuldb.com/?ctiid.222600
+
+---
+
+#### 729. CVE-2023-25595
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: arubanetworks:clearpass_policy_manager
+
+**漏洞描述 / Description**:
+A vulnerability exists in the ClearPass OnGuard Ubuntu agent that allows for an attacker with local Ubuntu instance access to potentially obtain sensitive information. Successful Exploitation of this vulnerability allows an attacker to retrieve information that is of a sensitive nature to the ClearPass/OnGuard environment.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.arubanetworks.com/assets/alert/ARUBA-PSA-2023-003.txt.
+
+**参考链接 / References**:
+- https://www.arubanetworks.com/assets/alert/ARUBA-PSA-2023-003.txt
+- https://www.arubanetworks.com/assets/alert/ARUBA-PSA-2023-003.txt
+
+---
+
+#### 730. CVE-2023-30549
+
+**严重程度 / Severity**: HIGH | CVSS: 7.1
+**受影响产品 / Affected Products**: lfprojects:apptainer, sylabs:singularity, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+Apptainer is an open source container platform for Linux. There is an ext4 use-after-free flaw that is exploitable through versions of Apptainer < 1.1.0 and installations that include apptainer-suid < 1.1.8 on older operating systems where that CVE has not been patched. That includes Red Hat Enterprise Linux 7, Debian 10 buster (unless the linux-5.10 package is installed), Ubuntu 18.04 bionic and Ubuntu 20.04 focal. Use-after-free flaws in the kernel can be used to attack the kernel for denial of service and potentially for privilege escalation.
+
+Apptainer 1.1.8 includes a patch that by default disables mounting of extfs filesystem types in setuid-root mode, while continuing to allow mounting of extfs filesystems in non-setuid "rootless" mode using fuse2fs.
+
+Some workarounds are possible. Either do not install apptainer-suid (for versions 1.1.0 through 1.1.7) or set `allow setuid = no` in apptainer.conf.  This requires having unprivileged user namespaces enabled and except for apptainer 1.1.x versions will disallow mounting of sif files, extfs files, and squashfs files in addition to other, less significant impacts.  (Encrypted sif files are also not supported unprivileged in apptainer 1.1.x.). Alternatively, use the `limit containers` options in apptainer.conf/singularity.conf to limit sif files to trusted users, groups, and/or paths, and set `allow container extfs = no` to disallow mounting of extfs overlay files.  The latter option by itself does not disallow mounting of extfs overlay partitions inside SIF files, so that's why the former options are also needed.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://access.redhat.com/security/cve/cve-2022-1184.
+
+**参考链接 / References**:
+- https://access.redhat.com/security/cve/cve-2022-1184
+- https://github.com/apptainer/apptainer/commit/5a4964f5ba9c8d89a0e353b97f51fd607670a9f7
+- https://github.com/apptainer/apptainer/releases/tag/v1.1.8
+- https://github.com/apptainer/apptainer/security/advisories/GHSA-j4rf-7357-f4cg
+- https://github.com/torvalds/linux/commit/2220eaf90992c11d888fe771055d4de3303
+
+---
+
+#### 731. CVE-2023-2612
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.4
+**受影响产品 / Affected Products**: canonical:ubuntu_linux
+
+**漏洞描述 / Description**:
+Jean-Baptiste Cayrou discovered that the shiftfs file system in the Ubuntu Linux kernel contained a race condition when handling inode locking in some situations. A local attacker could use this to cause a denial of service (kernel deadlock).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://packetstormsecurity.com/files/173087/Kernel-Live-Patch-Security-Notice-LSN-0095-1.html.
+
+**参考链接 / References**:
+- http://packetstormsecurity.com/files/173087/Kernel-Live-Patch-Security-Notice-LSN-0095-1.html
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/kinetic/commit/?id=02b47547824b1cd0d55c6744f91886f04de8947e
+- https://ubuntu.com/security/CVE-2023-2612
+- https://ubuntu.com/security/notices/USN-6122-1
+- https://ubuntu.com/security/notices/USN-6123-1
+
+---
+
+#### 732. CVE-2023-24492
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.6
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, citrix:secure_access_client
+
+**漏洞描述 / Description**:
+A vulnerability has been discovered in the Citrix Secure Access client for Ubuntu which, if exploited, could allow an attacker to remotely execute code if a victim user opens an attacker-crafted link and accepts further prompts.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://support.citrix.com/article/CTX564169/citrix-secure-access-client-for-ubuntu-security-bulletin-for-cve202324492.
+
+**参考链接 / References**:
+- https://support.citrix.com/article/CTX564169/citrix-secure-access-client-for-ubuntu-security-bulletin-for-cve202324492
+- https://support.citrix.com/article/CTX564169/citrix-secure-access-client-for-ubuntu-security-bulletin-for-cve202324492
+
+---
+
+#### 733. CVE-2023-2640
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: canonical:ubuntu_linux
+
+**漏洞描述 / Description**:
+On Ubuntu kernels carrying both c914c0e27eb0 and "UBUNTU: SAUCE: overlayfs: Skip permission checking for trusted.overlayfs.* xattrs", an unprivileged user may set privileged extended attributes on the mounted files, leading them to be set on the upper files without the appropriate security checks.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2640.
+
+**参考链接 / References**:
+- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2640
+- https://lists.ubuntu.com/archives/kernel-team/2023-July/140923.html
+- https://ubuntu.com/security/notices/USN-6250-1
+- https://wiz.io/blog/ubuntu-overlayfs-vulnerability
+- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2640
+
+---
+
+#### 734. CVE-2023-32629
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: canonical:ubuntu_linux
+
+**漏洞描述 / Description**:
+Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up_meta_inode_data skip permission checks when calling ovl_do_setxattr on Ubuntu kernels
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://packetstormsecurity.com/files/174577/Kernel-Live-Patch-Security-Notice-LSN-0097-1.html.
+
+**参考链接 / References**:
+- http://packetstormsecurity.com/files/174577/Kernel-Live-Patch-Security-Notice-LSN-0097-1.html
+- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32629
+- https://lists.ubuntu.com/archives/kernel-team/2023-July/140920.html
+- https://ubuntu.com/security/notices/USN-6250-1
+- https://wiz.io/blog/ubuntu-overlayfs-vulnerability
+
+---
+
+#### 735. CVE-2023-3297
+
+**严重程度 / Severity**: HIGH | CVSS: 8.1
+**受影响产品 / Affected Products**: canonical:accountsservice, canonical:ubuntu_linux, linux:linux_kernel
+
+**漏洞描述 / Description**:
+In Ubuntu's accountsservice an unprivileged local attacker can trigger a use-after-free vulnerability in accountsservice by sending a D-Bus message to the accounts-daemon process.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.launchpad.net/ubuntu/+source/accountsservice/+bug/2024182.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/ubuntu/+source/accountsservice/+bug/2024182
+- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3297
+- https://securitylab.github.com/advisories/GHSL-2023-139_accountsservice/
+- https://ubuntu.com/security/notices/USN-6190-1
+- https://bugs.launchpad.net/ubuntu/+source/accountsservice/+bug/2024182
+
+---
+
+#### 736. CVE-2023-45866
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.3
+**受影响产品 / Affected Products**: google:nexus_5, canonical:ubuntu_linux, apple:macos, google:pixel_4a, fedoraproject:fedora
+
+**漏洞描述 / Description**:
+Bluetooth HID Hosts in BlueZ may permit an unauthenticated Peripheral role HID Device to initiate and establish an encrypted connection, and accept HID keyboard reports, potentially permitting injection of HID messages when no user interaction has occurred in the Central role to authorize such access. An example affected package is bluez 5.64-0ubuntu1 in Ubuntu 22.04LTS. NOTE: in some cases, a CVE-2020-0556 mitigation would have already addressed this Bluetooth HID Hosts issue.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://changelogs.ubuntu.com/changelogs/pool/main/b/bluez/bluez_5.64-0ubuntu1/changelog.
+
+**参考链接 / References**:
+- http://changelogs.ubuntu.com/changelogs/pool/main/b/bluez/bluez_5.64-0ubuntu1/changelog
+- http://seclists.org/fulldisclosure/2023/Dec/7
+- http://seclists.org/fulldisclosure/2023/Dec/9
+- https://bluetooth.com
+- https://git.kernel.org/pub/scm/bluetooth/bluez.git/commit/profiles/input?id=25a471a83e02e1effb15d5a488b3f0085eaeb675
+
+---
+
+#### 737. CVE-2023-5536
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.0
+**受影响产品 / Affected Products**: canonical:ubuntu_linux
+
+**漏洞描述 / Description**:
+A feature in LXD (LP#1829071), affects the default configuration of Ubuntu Server which allows privileged users in the lxd group to escalate their privilege to root without requiring a sudo password.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.launchpad.net/ubuntu/+source/lxd/+bug/1829071.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/ubuntu/+source/lxd/+bug/1829071
+- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5536
+- https://discourse.ubuntu.com/t/easy-multi-user-lxd-setup/26215/4
+- https://ubuntu.com/security/CVE-2023-5536
+- https://bugs.launchpad.net/ubuntu/+source/lxd/+bug/1829071
+
+---
+
+#### 738. CVE-2022-4964
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: canonical:ubuntu_pipewire-pulse
+
+**漏洞描述 / Description**:
+Ubuntu's pipewire-pulse in snap grants microphone access even when the snap interface for audio-record is not set.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.launchpad.net/ubuntu/+source/pipewire/+bug/1995707/.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/ubuntu/+source/pipewire/+bug/1995707/
+- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4964
+- https://gitlab.freedesktop.org/pipewire/pipewire/-/merge_requests/1779
+- https://gitlab.freedesktop.org/pipewire/wireplumber/-/merge_requests/567
+- https://bugs.launchpad.net/ubuntu/+source/pipewire/+bug/1995707/
+
+---
+
+#### 739. CVE-2023-48733
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.7
+**受影响产品 / Affected Products**: tianocore:edk2, canonical:lxd, debian:debian_linux
+
+**漏洞描述 / Description**:
+An insecure default to allow UEFI Shell in EDK2 was left enabled in Ubuntu's EDK2. This allows an OS-resident attacker to bypass Secure Boot.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.launchpad.net/ubuntu/+source/edk2/+bug/2040137.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/ubuntu/+source/edk2/+bug/2040137
+- https://bugs.launchpad.net/ubuntu/+source/lxd/+bug/2040139
+- https://lists.debian.org/debian-lts-announce/2024/06/msg00028.html
+- https://nvd.nist.gov/vuln/detail/CVE-2023-48733
+- https://www.openwall.com/lists/oss-security/2024/02/14/4
+
+---
+
+#### 740. CVE-2024-0081
+
+**严重程度 / Severity**: HIGH | CVSS: 8.6
+**受影响产品 / Affected Products**: nvidia:nemo
+
+**漏洞描述 / Description**:
+NVIDIA NeMo framework for Ubuntu contains a vulnerability in tools/asr_webapp where an attacker may cause an allocation of resources without limits or throttling. A successful exploit of this vulnerability may lead to a server-side denial of service.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/NVIDIA/NeMo/security/advisories/GHSA-x392-p65g-4rxx.
+
+**参考链接 / References**:
+- https://github.com/NVIDIA/NeMo/security/advisories/GHSA-x392-p65g-4rxx
+- https://github.com/NVIDIA/NeMo/security/advisories/GHSA-x392-p65g-4rxx
+
+---
+
+#### 741. CVE-2024-35235
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.4
+**受影响产品 / Affected Products**: openprinting:cups, debian:debian_linux
+
+**漏洞描述 / Description**:
+OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. In versions 2.4.8 and earlier, when starting the cupsd server with a Listen configuration item pointing to a symbolic link, the cupsd process can be caused to perform an arbitrary chmod of the provided argument, providing world-writable access to the target. Given that cupsd is often running as root, this can result in the change of permission of any user or system files to be world writable. Given the aforementioned Ubuntu AppArmor context, on such systems this vulnerability is limited to those files modifiable by the cupsd process. In that specific case it was found to be possible to turn the configuration of the Listen argument into full control over the cupsd.conf and cups-files.conf configuration files. By later setting the User and Group arguments in cups-files.conf, and printing with a printer configured by PPD with a `FoomaticRIPCommandLine` argument, arbitrary user and group (not root) command execution could be achieved, which can further be used on Ubuntu systems to achieve full root command execution. Commit ff1f8a623e090dee8a8aadf12a6a4b25efac143d contains a patch for the issue.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.openwall.com/lists/oss-security/2024/06/11/1.
+
+**参考链接 / References**:
+- http://www.openwall.com/lists/oss-security/2024/06/11/1
+- http://www.openwall.com/lists/oss-security/2024/06/12/4
+- http://www.openwall.com/lists/oss-security/2024/06/12/5
+- https://git.launchpad.net/ubuntu/+source/apparmor/tree/profiles/apparmor.d/abstractions/user-tmp#n21
+- https://github.com/OpenPrinting/cups/blob/aba917003c8de55e5bf85010f0ecf1f1ddd1408e/cups/http-addr.c#L229-L240
+
+---
+
+#### 742. CVE-2024-6388
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.9
+**受影响产品 / Affected Products**: canonical:ubuntu_advantage_desktop_daemon
+
+**漏洞描述 / Description**:
+Marco Trevisan discovered that the Ubuntu Advantage Desktop Daemon, before version 1.12, leaks the Pro token to unprivileged users by passing the token as an argument in plaintext.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.launchpad.net/ubuntu/+source/ubuntu-advantage-tools/+bug/2068944.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/ubuntu/+source/ubuntu-advantage-tools/+bug/2068944
+- https://github.com/canonical/ubuntu-advantage-desktop-daemon/pull/24
+- https://www.cve.org/CVERecord?id=CVE-2024-6388
+- https://bugs.launchpad.net/ubuntu/+source/ubuntu-advantage-tools/+bug/2068944
+- https://github.com/canonical/ubuntu-advantage-desktop-daemon/pull/24
+
+---
+
+#### 743. CVE-2024-1724
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.3
+**受影响产品 / Affected Products**: canonical:snapd
+
+**漏洞描述 / Description**:
+In snapd versions prior to 2.62, when using AppArmor for enforcement of 
+sandbox permissions, snapd failed to restrict writes to the $HOME/bin
+path. In Ubuntu, when this path exists, it is automatically added to
+the users PATH. An attacker who could convince a user to install a
+malicious snap which used the 'home' plug could use this vulnerability
+to install arbitrary scripts into the users PATH which may then be run
+by the user outside of the expected snap sandbox and hence allow them
+to escape confinement.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/snapcore/snapd/commit/aa191f97713de8dc3ce3ac818539f0b976eb8ef6.
+
+**参考链接 / References**:
+- https://github.com/snapcore/snapd/commit/aa191f97713de8dc3ce3ac818539f0b976eb8ef6
+- https://github.com/snapcore/snapd/pull/13689
+- https://gld.mcphail.uk/posts/explaining-cve-2024-1724/
+- https://github.com/snapcore/snapd/commit/aa191f97713de8dc3ce3ac818539f0b976eb8ef6
+- https://github.com/snapcore/snapd/pull/13689
+
+---
+
+#### 744. CVE-2024-5290
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, w1.fi:wpa_supplicant
+
+**漏洞描述 / Description**:
+An issue was discovered in Ubuntu wpa_supplicant that resulted in loading of arbitrary shared objects, which allows a local unprivileged attacker to escalate privileges to the user that wpa_supplicant runs as (usually root).
+
+
+
+
+Membership in the netdev group or access to the dbus interface of wpa_supplicant allow an unprivileged user to specify an arbitrary path to a module to be loaded by the wpa_supplicant process; other escalation paths might exist.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.launchpad.net/ubuntu/+source/wpa/+bug/2067613.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/ubuntu/+source/wpa/+bug/2067613
+- https://snyk.io/blog/abusing-ubuntu-root-privilege-escalation/
+- https://ubuntu.com/security/notices/USN-6945-1
+
+---
+
+#### 745. CVE-2024-0115
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.1
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, nvidia:jetpack_software_development_kit, nvidia:cv-cuda
+
+**漏洞描述 / Description**:
+NVIDIA CV-CUDA for Ubuntu 20.04, Ubuntu 22.04, and Jetpack contains a vulnerability in Python APIs where a user may cause an uncontrolled resource consumption issue by a long running CV-CUDA Python process. A successful exploit of this vulnerability may lead to denial of service and data loss.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://nvidia.custhelp.com/app/answers/detail/a_id/5560.
+
+**参考链接 / References**:
+- https://nvidia.custhelp.com/app/answers/detail/a_id/5560
+
+---
+
+#### 746. CVE-2024-47684
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+tcp: check skb is non-NULL in tcp_rto_delta_us()
+
+We have some machines running stock Ubuntu 20.04.6 which is their 5.4.0-174-generic
+kernel that are running ceph and recently hit a null ptr dereference in
+tcp_rearm_rto(). Initially hitting it from the TLP path, but then later we also
+saw it getting hit from the RACK case as well. Here are examples of the oops
+messages we saw in each of those cases:
+
+Jul 26 15:05:02 rx [11061395.780353] BUG: kernel NULL pointer dereference, address: 0000000000000020
+Jul 26 15:05:02 rx [11061395.787572] #PF: supervisor read access in kernel mode
+Jul 26 15:05:02 rx [11061395.792971] #PF: error_code(0x0000) - not-present page
+Jul 26 15:05:02 rx [11061395.798362] PGD 0 P4D 0
+Jul 26 15:05:02 rx [11061395.801164] Oops: 0000 [#1] SMP NOPTI
+Jul 26 15:05:02 rx [11061395.805091] CPU: 0 PID: 9180 Comm: msgr-worker-1 Tainted: G W 5.4.0-174-generic #193-Ubuntu
+Jul 26 15:05:02 rx [11061395.814996] Hardware name: Supermicro SMC 2x26 os-gen8 64C NVME-Y 256G/H12SSW-NTR, BIOS 2.5.V1.2U.NVMe.UEFI 05/09/2023
+Jul 26 15:05:02 rx [11061395.825952] RIP: 0010:tcp_rearm_rto+0xe4/0x160
+Jul 26 15:05:02 rx [11061395.830656] Code: 87 ca 04 00 00 00 5b 41 5c 41 5d 5d c3 c3 49 8b bc 24 40 06 00 00 eb 8d 48 bb cf f7 53 e3 a5 9b c4 20 4c 89 ef e8 0c fe 0e 00 <48> 8b 78 20 48 c1 ef 03 48 89 f8 41 8b bc 24 80 04 00 00 48 f7 e3
+Jul 26 15:05:02 rx [11061395.849665] RSP: 0018:ffffb75d40003e08 EFLAGS: 00010246
+Jul 26 15:05:02 rx [11061395.855149] RAX: 0000000000000000 RBX: 20c49ba5e353f7cf RCX: 0000000000000000
+Jul 26 15:05:02 rx [11061395.862542] RDX: 0000000062177c30 RSI: 000000000000231c RDI: ffff9874ad283a60
+Jul 26 15:05:02 rx [11061395.869933] RBP: ffffb75d40003e20 R08: 0000000000000000 R09: ffff987605e20aa8
+Jul 26 15:05:02 rx [11061395.877318] R10: ffffb75d40003f00 R11: ffffb75d4460f740 R12: ffff9874ad283900
+Jul 26 15:05:02 rx [11061395.884710] R13: ffff9874ad283a60 R14: ffff9874ad283980 R15: ffff9874ad283d30
+Jul 26 15:05:02 rx [11061395.892095] FS: 00007f1ef4a2e700(0000) GS:ffff987605e00000(0000) knlGS:0000000000000000
+Jul 26 15:05:02 rx [11061395.900438] CS: 0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+Jul 26 15:05:02 rx [11061395.906435] CR2: 0000000000000020 CR3: 0000003e450ba003 CR4: 0000000000760ef0
+Jul 26 15:05:02 rx [11061395.913822] PKRU: 55555554
+Jul 26 15:05:02 rx [11061395.916786] Call Trace:
+Jul 26 15:05:02 rx [11061395.919488]
+Jul 26 15:05:02 rx [11061395.921765] ? show_regs.cold+0x1a/0x1f
+Jul 26 15:05:02 rx [11061395.925859] ? __die+0x90/0xd9
+Jul 26 15:05:02 rx [11061395.929169] ? no_context+0x196/0x380
+Jul 26 15:05:02 rx [11061395.933088] ? ip6_protocol_deliver_rcu+0x4e0/0x4e0
+Jul 26 15:05:02 rx [11061395.938216] ? ip6_sublist_rcv_finish+0x3d/0x50
+Jul 26 15:05:02 rx [11061395.943000] ? __bad_area_nosemaphore+0x50/0x1a0
+Jul 26 15:05:02 rx [11061395.947873] ? bad_area_nosemaphore+0x16/0x20
+Jul 26 15:05:02 rx [11061395.952486] ? do_user_addr_fault+0x267/0x450
+Jul 26 15:05:02 rx [11061395.957104] ? ipv6_list_rcv+0x112/0x140
+Jul 26 15:05:02 rx [11061395.961279] ? __do_page_fault+0x58/0x90
+Jul 26 15:05:02 rx [11061395.965458] ? do_page_fault+0x2c/0xe0
+Jul 26 15:05:02 rx [11061395.969465] ? page_fault+0x34/0x40
+Jul 26 15:05:02 rx [11061395.973217] ? tcp_rearm_rto+0xe4/0x160
+Jul 26 15:05:02 rx [11061395.977313] ? tcp_rearm_rto+0xe4/0x160
+Jul 26 15:05:02 rx [11061395.981408] tcp_send_loss_probe+0x10b/0x220
+Jul 26 15:05:02 rx [11061395.985937] tcp_write_timer_handler+0x1b4/0x240
+Jul 26 15:05:02 rx [11061395.990809] tcp_write_timer+0x9e/0xe0
+Jul 26 15:05:02 rx [11061395.994814] ? tcp_write_timer_handler+0x240/0x240
+Jul 26 15:05:02 rx [11061395.999866] call_timer_fn+0x32/0x130
+Jul 26 15:05:02 rx [11061396.003782] __run_timers.part.0+0x180/0x280
+Jul 26 15:05:02 rx [11061396.008309] ? recalibrate_cpu_khz+0x10/0x10
+Jul 26 15:05:02 rx [11061396.012841] ? native_x2apic_icr_write+0x30/0x30
+Jul 26 15:05:02 rx [11061396.017718] ? lapic_next_even
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/09aea49fbc7e755a915c405644f347137cdb62b0.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/09aea49fbc7e755a915c405644f347137cdb62b0
+- https://git.kernel.org/stable/c/16e0387d87fc858e34449fdf2b14ed5837f761db
+- https://git.kernel.org/stable/c/570f7d8c9bf14f041152ba8353d4330ef7575915
+- https://git.kernel.org/stable/c/5c4c03288a4aea705e36aa44119c13d7ee4dce99
+- https://git.kernel.org/stable/c/81d18c152e3f82bacadf83bc0a471b2363b9cc18
+
+---
+
+#### 747. CVE-2024-49863
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+vhost/scsi: null-ptr-dereference in vhost_scsi_get_req()
+
+Since commit 3f8ca2e115e5 ("vhost/scsi: Extract common handling code
+from control queue handler") a null pointer dereference bug can be
+triggered when guest sends an SCSI AN request.
+
+In vhost_scsi_ctl_handle_vq(), `vc.target` is assigned with
+`&v_req.tmf.lun[1]` within a switch-case block and is then passed to
+vhost_scsi_get_req() which extracts `vc->req` and `tpg`. However, for
+a `VIRTIO_SCSI_T_AN_*` request, tpg is not required, so `vc.target` is
+set to NULL in this branch. Later, in vhost_scsi_get_req(),
+`vc->target` is dereferenced without being checked, leading to a null
+pointer dereference bug. This bug can be triggered from guest.
+
+When this bug occurs, the vhost_worker process is killed while holding
+`vq->mutex` and the corresponding tpg will remain occupied
+indefinitely.
+
+Below is the KASAN report:
+Oops: general protection fault, probably for non-canonical address
+0xdffffc0000000000: 0000 [#1] PREEMPT SMP KASAN NOPTI
+KASAN: null-ptr-deref in range [0x0000000000000000-0x0000000000000007]
+CPU: 1 PID: 840 Comm: poc Not tainted 6.10.0+ #1
+Hardware name: QEMU Ubuntu 24.04 PC (i440FX + PIIX, 1996), BIOS
+1.16.3-debian-1.16.3-2 04/01/2014
+RIP: 0010:vhost_scsi_get_req+0x165/0x3a0
+Code: 00 fc ff df 48 89 fa 48 c1 ea 03 80 3c 02 00 0f 85 2b 02 00 00
+48 b8 00 00 00 00 00 fc ff df 4d 8b 65 30 4c 89 e2 48 c1 ea 03 <0f> b6
+04 02 4c 89 e2 83 e2 07 38 d0 7f 08 84 c0 0f 85 be 01 00 00
+RSP: 0018:ffff888017affb50 EFLAGS: 00010246
+RAX: dffffc0000000000 RBX: ffff88801b000000 RCX: 0000000000000000
+RDX: 0000000000000000 RSI: 0000000000000000 RDI: ffff888017affcb8
+RBP: ffff888017affb80 R08: 0000000000000000 R09: 0000000000000000
+R10: 0000000000000000 R11: 0000000000000000 R12: 0000000000000000
+R13: ffff888017affc88 R14: ffff888017affd1c R15: ffff888017993000
+FS:  000055556e076500(0000) GS:ffff88806b100000(0000) knlGS:0000000000000000
+CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+CR2: 00000000200027c0 CR3: 0000000010ed0004 CR4: 0000000000370ef0
+Call Trace:
+ <TASK>
+ ? show_regs+0x86/0xa0
+ ? die_addr+0x4b/0xd0
+ ? exc_general_protection+0x163/0x260
+ ? asm_exc_general_protection+0x27/0x30
+ ? vhost_scsi_get_req+0x165/0x3a0
+ vhost_scsi_ctl_handle_vq+0x2a4/0xca0
+ ? __pfx_vhost_scsi_ctl_handle_vq+0x10/0x10
+ ? __switch_to+0x721/0xeb0
+ ? __schedule+0xda5/0x5710
+ ? __kasan_check_write+0x14/0x30
+ ? _raw_spin_lock+0x82/0xf0
+ vhost_scsi_ctl_handle_kick+0x52/0x90
+ vhost_run_work_list+0x134/0x1b0
+ vhost_task_fn+0x121/0x350
+...
+ </TASK>
+---[ end trace 0000000000000000 ]---
+
+Let's add a check in vhost_scsi_get_req.
+
+[whitespace fixes]
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/00fb5b23e1c9cdbe496f5cd6b40367cb895f6c93.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/00fb5b23e1c9cdbe496f5cd6b40367cb895f6c93
+- https://git.kernel.org/stable/c/221af82f606d928ccef19a16d35633c63026f1be
+- https://git.kernel.org/stable/c/25613e6d9841a1f9fb985be90df921fa99f800de
+- https://git.kernel.org/stable/c/46128370a72c431df733af5ebb065c4d48c9ad39
+- https://git.kernel.org/stable/c/61517f33e76d2c5247c1e61e668693afe5b67e6f
+
+---
+
+#### 748. CVE-2024-11586
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.0
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, pulseaudio:pulseaudio
+
+**漏洞描述 / Description**:
+Ubuntu's implementation of pulseaudio can be crashed by a malicious program if a bluetooth headset is connected.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.launchpad.net/ubuntu/+source/pulseaudio/+bug/2078822.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/ubuntu/+source/pulseaudio/+bug/2078822
+- https://www.cve.org/CVERecord?id=CVE-2024-11586
+
+---
+
+#### 749. CVE-2022-1736
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, gnome:gnome-remote-desktop
+
+**漏洞描述 / Description**:
+Ubuntu's configuration of gnome-control-center allowed Remote Desktop Sharing to be enabled by default.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.launchpad.net/ubuntu/+source/gnome-remote-desktop/+bug/1973028.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/ubuntu/+source/gnome-remote-desktop/+bug/1973028
+- https://ubuntu.com/security/CVE-2022-1736
+- https://ubuntu.com/security/notices/USN-5430-1
+
+---
+
+#### 750. CVE-2022-49666
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+powerpc/memhotplug: Add add_pages override for PPC
+
+With commit ffa0b64e3be5 ("powerpc: Fix virt_addr_valid() for 64-bit Book3E & 32-bit")
+the kernel now validate the addr against high_memory value. This results
+in the below BUG_ON with dax pfns.
+
+[  635.798741][T26531] kernel BUG at mm/page_alloc.c:5521!
+1:mon> e
+cpu 0x1: Vector: 700 (Program Check) at [c000000007287630]
+    pc: c00000000055ed48: free_pages.part.0+0x48/0x110
+    lr: c00000000053ca70: tlb_finish_mmu+0x80/0xd0
+    sp: c0000000072878d0
+   msr: 800000000282b033
+  current = 0xc00000000afabe00
+  paca    = 0xc00000037ffff300   irqmask: 0x03   irq_happened: 0x05
+    pid   = 26531, comm = 50-landscape-sy
+kernel BUG at :5521!
+Linux version 5.19.0-rc3-14659-g4ec05be7c2e1 (kvaneesh@ltc-boston8) (gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #625 SMP Thu Jun 23 00:35:43 CDT 2022
+1:mon> t
+[link register   ] c00000000053ca70 tlb_finish_mmu+0x80/0xd0
+[c0000000072878d0] c00000000053ca54 tlb_finish_mmu+0x64/0xd0 (unreliable)
+[c000000007287900] c000000000539424 exit_mmap+0xe4/0x2a0
+[c0000000072879e0] c00000000019fc1c mmput+0xcc/0x210
+[c000000007287a20] c000000000629230 begin_new_exec+0x5e0/0xf40
+[c000000007287ae0] c00000000070b3cc load_elf_binary+0x3ac/0x1e00
+[c000000007287c10] c000000000627af0 bprm_execve+0x3b0/0xaf0
+[c000000007287cd0] c000000000628414 do_execveat_common.isra.0+0x1e4/0x310
+[c000000007287d80] c00000000062858c sys_execve+0x4c/0x60
+[c000000007287db0] c00000000002c1b0 system_call_exception+0x160/0x2c0
+[c000000007287e10] c00000000000c53c system_call_common+0xec/0x250
+
+The fix is to make sure we update high_memory on memory hotplug.
+This is similar to what x86 does in commit 3072e413e305 ("mm/memory_hotplug: introduce add_pages")
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/84d146fd35a01b08e9515041de60f0f915a417d5.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/84d146fd35a01b08e9515041de60f0f915a417d5
+- https://git.kernel.org/stable/c/89296ac435e2cf8a5101f7fab8f0c7b754b92052
+- https://git.kernel.org/stable/c/ac790d09885d36143076e7e02825c541e8eee899
+
+---
+
+#### 751. CVE-2023-5616
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.9
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, gnome:control_center
+
+**漏洞描述 / Description**:
+In Ubuntu, gnome-control-center did not properly reflect SSH remote login status when the system was configured to use systemd socket activation for openssh-server. This could unknowingly leave the local machine exposed to remote SSH access contrary to expectation of the user.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.launchpad.net/ubuntu/+source/gnome-control-center/+bug/2039577.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/ubuntu/+source/gnome-control-center/+bug/2039577
+- https://ubuntu.com/security/CVE-2023-5616
+- https://ubuntu.com/security/notices/USN-6554-1
+
+---
+
+#### 752. CVE-2025-37904
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+btrfs: fix the inode leak in btrfs_iget()
+
+[BUG]
+There is a bug report that a syzbot reproducer can lead to the following
+busy inode at unmount time:
+
+  BTRFS info (device loop1): last unmount of filesystem 1680000e-3c1e-4c46-84b6-56bd3909af50
+  VFS: Busy inodes after unmount of loop1 (btrfs)
+  ------------[ cut here ]------------
+  kernel BUG at fs/super.c:650!
+  Oops: invalid opcode: 0000 [#1] SMP KASAN NOPTI
+  CPU: 0 UID: 0 PID: 48168 Comm: syz-executor Not tainted 6.15.0-rc2-00471-g119009db2674 #2 PREEMPT(full)
+  Hardware name: QEMU Ubuntu 24.04 PC (i440FX + PIIX, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+  RIP: 0010:generic_shutdown_super+0x2e9/0x390 fs/super.c:650
+  Call Trace:
+   <TASK>
+   kill_anon_super+0x3a/0x60 fs/super.c:1237
+   btrfs_kill_super+0x3b/0x50 fs/btrfs/super.c:2099
+   deactivate_locked_super+0xbe/0x1a0 fs/super.c:473
+   deactivate_super fs/super.c:506 [inline]
+   deactivate_super+0xe2/0x100 fs/super.c:502
+   cleanup_mnt+0x21f/0x440 fs/namespace.c:1435
+   task_work_run+0x14d/0x240 kernel/task_work.c:227
+   resume_user_mode_work include/linux/resume_user_mode.h:50 [inline]
+   exit_to_user_mode_loop kernel/entry/common.c:114 [inline]
+   exit_to_user_mode_prepare include/linux/entry-common.h:329 [inline]
+   __syscall_exit_to_user_mode_work kernel/entry/common.c:207 [inline]
+   syscall_exit_to_user_mode+0x269/0x290 kernel/entry/common.c:218
+   do_syscall_64+0xd4/0x250 arch/x86/entry/syscall_64.c:100
+   entry_SYSCALL_64_after_hwframe+0x77/0x7f
+   </TASK>
+
+[CAUSE]
+When btrfs_alloc_path() failed, btrfs_iget() directly returned without
+releasing the inode already allocated by btrfs_iget_locked().
+
+This results the above busy inode and trigger the kernel BUG.
+
+[FIX]
+Fix it by calling iget_failed() if btrfs_alloc_path() failed.
+
+If we hit error inside btrfs_read_locked_inode(), it will properly call
+iget_failed(), so nothing to worry about.
+
+Although the iget_failed() cleanup inside btrfs_read_locked_inode() is a
+break of the normal error handling scheme, let's fix the obvious bug
+and backport first, then rework the error handling later.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/30a339bece3a44ab0a821477139e84fb86af9761.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/30a339bece3a44ab0a821477139e84fb86af9761
+- https://git.kernel.org/stable/c/48c1d1bb525b1c44b8bdc8e7ec5629cb6c2b9fc4
+
+---
+
+#### 753. CVE-2025-38032
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+mr: consolidate the ipmr_can_free_table() checks.
+
+Guoyu Yin reported a splat in the ipmr netns cleanup path:
+
+WARNING: CPU: 2 PID: 14564 at net/ipv4/ipmr.c:440 ipmr_free_table net/ipv4/ipmr.c:440 [inline]
+WARNING: CPU: 2 PID: 14564 at net/ipv4/ipmr.c:440 ipmr_rules_exit+0x135/0x1c0 net/ipv4/ipmr.c:361
+Modules linked in:
+CPU: 2 UID: 0 PID: 14564 Comm: syz.4.838 Not tainted 6.14.0 #1
+Hardware name: QEMU Ubuntu 24.04 PC (i440FX + PIIX, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+RIP: 0010:ipmr_free_table net/ipv4/ipmr.c:440 [inline]
+RIP: 0010:ipmr_rules_exit+0x135/0x1c0 net/ipv4/ipmr.c:361
+Code: ff df 48 c1 ea 03 80 3c 02 00 75 7d 48 c7 83 60 05 00 00 00 00 00 00 5b 5d 41 5c 41 5d 41 5e e9 71 67 7f 00 e8 4c 2d 8a fd 90 <0f> 0b 90 eb 93 e8 41 2d 8a fd 0f b6 2d 80 54 ea 01 31 ff 89 ee e8
+RSP: 0018:ffff888109547c58 EFLAGS: 00010293
+RAX: 0000000000000000 RBX: ffff888108c12dc0 RCX: ffffffff83e09868
+RDX: ffff8881022b3300 RSI: ffffffff83e098d4 RDI: 0000000000000005
+RBP: ffff888104288000 R08: 0000000000000000 R09: ffffed10211825c9
+R10: 0000000000000001 R11: ffff88801816c4a0 R12: 0000000000000001
+R13: ffff888108c13320 R14: ffff888108c12dc0 R15: fffffbfff0b74058
+FS:  00007f84f39316c0(0000) GS:ffff88811b100000(0000) knlGS:0000000000000000
+CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+CR2: 00007f84f3930f98 CR3: 0000000113b56000 CR4: 0000000000350ef0
+Call Trace:
+ <TASK>
+ ipmr_net_exit_batch+0x50/0x90 net/ipv4/ipmr.c:3160
+ ops_exit_list+0x10c/0x160 net/core/net_namespace.c:177
+ setup_net+0x47d/0x8e0 net/core/net_namespace.c:394
+ copy_net_ns+0x25d/0x410 net/core/net_namespace.c:516
+ create_new_namespaces+0x3f6/0xaf0 kernel/nsproxy.c:110
+ unshare_nsproxy_namespaces+0xc3/0x180 kernel/nsproxy.c:228
+ ksys_unshare+0x78d/0x9a0 kernel/fork.c:3342
+ __do_sys_unshare kernel/fork.c:3413 [inline]
+ __se_sys_unshare kernel/fork.c:3411 [inline]
+ __x64_sys_unshare+0x31/0x40 kernel/fork.c:3411
+ do_syscall_x64 arch/x86/entry/common.c:52 [inline]
+ do_syscall_64+0xa6/0x1a0 arch/x86/entry/common.c:83
+ entry_SYSCALL_64_after_hwframe+0x77/0x7f
+RIP: 0033:0x7f84f532cc29
+Code: ff ff c3 66 2e 0f 1f 84 00 00 00 00 00 0f 1f 40 00 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 c7 c1 a8 ff ff ff f7 d8 64 89 01 48
+RSP: 002b:00007f84f3931038 EFLAGS: 00000246 ORIG_RAX: 0000000000000110
+RAX: ffffffffffffffda RBX: 00007f84f5615fa0 RCX: 00007f84f532cc29
+RDX: 0000000000000000 RSI: 0000000000000000 RDI: 0000000040000400
+RBP: 00007f84f53fba18 R08: 0000000000000000 R09: 0000000000000000
+R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000000
+R13: 0000000000000000 R14: 00007f84f5615fa0 R15: 00007fff51c5f328
+ </TASK>
+
+The running kernel has CONFIG_IP_MROUTE_MULTIPLE_TABLES disabled, and
+the sanity check for such build is still too loose.
+
+Address the issue consolidating the relevant sanity check in a single
+helper regardless of the kernel configuration. Also share it between
+the ipv4 and ipv6 code.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/1c518ae98302ab37786d5ba5d43e9ac6d6f894e3.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/1c518ae98302ab37786d5ba5d43e9ac6d6f894e3
+- https://git.kernel.org/stable/c/c46286fdd6aa1d0e33c245bcffe9ff2428a777bd
+
+---
+
+#### 754. CVE-2025-38106
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+io_uring: fix use-after-free of sq->thread in __io_uring_show_fdinfo()
+
+syzbot reports:
+
+BUG: KASAN: slab-use-after-free in getrusage+0x1109/0x1a60
+Read of size 8 at addr ffff88810de2d2c8 by task a.out/304
+
+CPU: 0 UID: 0 PID: 304 Comm: a.out Not tainted 6.16.0-rc1 #1 PREEMPT(voluntary)
+Hardware name: QEMU Ubuntu 24.04 PC (i440FX + PIIX, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+Call Trace:
+ <TASK>
+ dump_stack_lvl+0x53/0x70
+ print_report+0xd0/0x670
+ ? __pfx__raw_spin_lock_irqsave+0x10/0x10
+ ? getrusage+0x1109/0x1a60
+ kasan_report+0xce/0x100
+ ? getrusage+0x1109/0x1a60
+ getrusage+0x1109/0x1a60
+ ? __pfx_getrusage+0x10/0x10
+ __io_uring_show_fdinfo+0x9fe/0x1790
+ ? ksys_read+0xf7/0x1c0
+ ? do_syscall_64+0xa4/0x260
+ ? vsnprintf+0x591/0x1100
+ ? __pfx___io_uring_show_fdinfo+0x10/0x10
+ ? __pfx_vsnprintf+0x10/0x10
+ ? mutex_trylock+0xcf/0x130
+ ? __pfx_mutex_trylock+0x10/0x10
+ ? __pfx_show_fd_locks+0x10/0x10
+ ? io_uring_show_fdinfo+0x57/0x80
+ io_uring_show_fdinfo+0x57/0x80
+ seq_show+0x38c/0x690
+ seq_read_iter+0x3f7/0x1180
+ ? inode_set_ctime_current+0x160/0x4b0
+ seq_read+0x271/0x3e0
+ ? __pfx_seq_read+0x10/0x10
+ ? __pfx__raw_spin_lock+0x10/0x10
+ ? __mark_inode_dirty+0x402/0x810
+ ? selinux_file_permission+0x368/0x500
+ ? file_update_time+0x10f/0x160
+ vfs_read+0x177/0xa40
+ ? __pfx___handle_mm_fault+0x10/0x10
+ ? __pfx_vfs_read+0x10/0x10
+ ? mutex_lock+0x81/0xe0
+ ? __pfx_mutex_lock+0x10/0x10
+ ? fdget_pos+0x24d/0x4b0
+ ksys_read+0xf7/0x1c0
+ ? __pfx_ksys_read+0x10/0x10
+ ? do_user_addr_fault+0x43b/0x9c0
+ do_syscall_64+0xa4/0x260
+ entry_SYSCALL_64_after_hwframe+0x77/0x7f
+RIP: 0033:0x7f0f74170fc9
+Code: 00 c3 66 2e 0f 1f 84 00 00 00 00 00 0f 1f 44 00 00 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 8
+RSP: 002b:00007fffece049e8 EFLAGS: 00000206 ORIG_RAX: 0000000000000000
+RAX: ffffffffffffffda RBX: 0000000000000000 RCX: 00007f0f74170fc9
+RDX: 0000000000001000 RSI: 00007fffece049f0 RDI: 0000000000000004
+RBP: 00007fffece05ad0 R08: 0000000000000000 R09: 00007fffece04d90
+R10: 0000000000000000 R11: 0000000000000206 R12: 00005651720a1100
+R13: 0000000000000000 R14: 0000000000000000 R15: 0000000000000000
+ </TASK>
+
+Allocated by task 298:
+ kasan_save_stack+0x33/0x60
+ kasan_save_track+0x14/0x30
+ __kasan_slab_alloc+0x6e/0x70
+ kmem_cache_alloc_node_noprof+0xe8/0x330
+ copy_process+0x376/0x5e00
+ create_io_thread+0xab/0xf0
+ io_sq_offload_create+0x9ed/0xf20
+ io_uring_setup+0x12b0/0x1cc0
+ do_syscall_64+0xa4/0x260
+ entry_SYSCALL_64_after_hwframe+0x77/0x7f
+
+Freed by task 22:
+ kasan_save_stack+0x33/0x60
+ kasan_save_track+0x14/0x30
+ kasan_save_free_info+0x3b/0x60
+ __kasan_slab_free+0x37/0x50
+ kmem_cache_free+0xc4/0x360
+ rcu_core+0x5ff/0x19f0
+ handle_softirqs+0x18c/0x530
+ run_ksoftirqd+0x20/0x30
+ smpboot_thread_fn+0x287/0x6c0
+ kthread+0x30d/0x630
+ ret_from_fork+0xef/0x1a0
+ ret_from_fork_asm+0x1a/0x30
+
+Last potentially related work creation:
+ kasan_save_stack+0x33/0x60
+ kasan_record_aux_stack+0x8c/0xa0
+ __call_rcu_common.constprop.0+0x68/0x940
+ __schedule+0xff2/0x2930
+ __cond_resched+0x4c/0x80
+ mutex_lock+0x5c/0xe0
+ io_uring_del_tctx_node+0xe1/0x2b0
+ io_uring_clean_tctx+0xb7/0x160
+ io_uring_cancel_generic+0x34e/0x760
+ do_exit+0x240/0x2350
+ do_group_exit+0xab/0x220
+ __x64_sys_exit_group+0x39/0x40
+ x64_sys_call+0x1243/0x1840
+ do_syscall_64+0xa4/0x260
+ entry_SYSCALL_64_after_hwframe+0x77/0x7f
+
+The buggy address belongs to the object at ffff88810de2cb00
+ which belongs to the cache task_struct of size 3712
+The buggy address is located 1992 bytes inside of
+ freed 3712-byte region [ffff88810de2cb00, ffff88810de2d980)
+
+which is caused by the task_struct pointed to by sq->thread being
+released while it is being used in the function
+__io_uring_show_fdinfo(). Holding ctx->uring_lock does not prevent ehre
+relase or exit of sq->thread.
+
+Fix this by assigning and looking up ->thread under RCU, and grabbing a
+reference to the task_struct. This e
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/ac0b8b327a5677dc6fecdf353d808161525b1ff0.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/ac0b8b327a5677dc6fecdf353d808161525b1ff0
+- https://git.kernel.org/stable/c/af8c13f9ee040b9a287ba246cf0055f7c77b7cc8
+- https://git.kernel.org/stable/c/d0932758a0a77b38ba1b39564f3b7aba12407061
+
+---
+
+#### 755. CVE-2025-38184
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: linux:linux_kernel, debian:debian_linux
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+tipc: fix null-ptr-deref when acquiring remote ip of ethernet bearer
+
+The reproduction steps:
+1. create a tun interface
+2. enable l2 bearer
+3. TIPC_NL_UDP_GET_REMOTEIP with media name set to tun
+
+tipc: Started in network mode
+tipc: Node identity 8af312d38a21, cluster identity 4711
+tipc: Enabled bearer <eth:syz_tun>, priority 1
+Oops: general protection fault
+KASAN: null-ptr-deref in range
+CPU: 1 UID: 1000 PID: 559 Comm: poc Not tainted 6.16.0-rc1+ #117 PREEMPT
+Hardware name: QEMU Ubuntu 24.04 PC
+RIP: 0010:tipc_udp_nl_dump_remoteip+0x4a4/0x8f0
+
+the ub was in fact a struct dev.
+
+when bid != 0 && skip_cnt != 0, bearer_list[bid] may be NULL or
+other media when other thread changes it.
+
+fix this by checking media_id.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/05d332ba075753d569d66333d62d60fff5f57ad8.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/05d332ba075753d569d66333d62d60fff5f57ad8
+- https://git.kernel.org/stable/c/0d3d91c3500f0c480e016faa4e2259c588616e59
+- https://git.kernel.org/stable/c/0f4a72fb266e48dbe928e1d936eab149e4ac3e1b
+- https://git.kernel.org/stable/c/3998283e4c32c0fe69edd59b0876c193f50abce6
+- https://git.kernel.org/stable/c/8595350615f952fcf8bc861464a6bf6b1129af50
+
+---
+
+#### 756. CVE-2025-38491
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: linux:linux_kernel, debian:debian_linux
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+mptcp: make fallback action and fallback decision atomic
+
+Syzkaller reported the following splat:
+
+  WARNING: CPU: 1 PID: 7704 at net/mptcp/protocol.h:1223 __mptcp_do_fallback net/mptcp/protocol.h:1223 [inline]
+  WARNING: CPU: 1 PID: 7704 at net/mptcp/protocol.h:1223 mptcp_do_fallback net/mptcp/protocol.h:1244 [inline]
+  WARNING: CPU: 1 PID: 7704 at net/mptcp/protocol.h:1223 check_fully_established net/mptcp/options.c:982 [inline]
+  WARNING: CPU: 1 PID: 7704 at net/mptcp/protocol.h:1223 mptcp_incoming_options+0x21a8/0x2510 net/mptcp/options.c:1153
+  Modules linked in:
+  CPU: 1 UID: 0 PID: 7704 Comm: syz.3.1419 Not tainted 6.16.0-rc3-gbd5ce2324dba #20 PREEMPT(voluntary)
+  Hardware name: QEMU Ubuntu 24.04 PC (i440FX + PIIX, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+  RIP: 0010:__mptcp_do_fallback net/mptcp/protocol.h:1223 [inline]
+  RIP: 0010:mptcp_do_fallback net/mptcp/protocol.h:1244 [inline]
+  RIP: 0010:check_fully_established net/mptcp/options.c:982 [inline]
+  RIP: 0010:mptcp_incoming_options+0x21a8/0x2510 net/mptcp/options.c:1153
+  Code: 24 18 e8 bb 2a 00 fd e9 1b df ff ff e8 b1 21 0f 00 e8 ec 5f c4 fc 44 0f b7 ac 24 b0 00 00 00 e9 54 f1 ff ff e8 d9 5f c4 fc 90 <0f> 0b 90 e9 b8 f4 ff ff e8 8b 2a 00 fd e9 8d e6 ff ff e8 81 2a 00
+  RSP: 0018:ffff8880a3f08448 EFLAGS: 00010246
+  RAX: 0000000000000000 RBX: ffff8880180a8000 RCX: ffffffff84afcf45
+  RDX: ffff888090223700 RSI: ffffffff84afdaa7 RDI: 0000000000000001
+  RBP: ffff888017955780 R08: 0000000000000001 R09: 0000000000000000
+  R10: 0000000000000000 R11: 0000000000000000 R12: 0000000000000000
+  R13: ffff8880180a8910 R14: ffff8880a3e9d058 R15: 0000000000000000
+  FS:  00005555791b8500(0000) GS:ffff88811c495000(0000) knlGS:0000000000000000
+  CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+  CR2: 000000110c2800b7 CR3: 0000000058e44000 CR4: 0000000000350ef0
+  Call Trace:
+   <IRQ>
+   tcp_reset+0x26f/0x2b0 net/ipv4/tcp_input.c:4432
+   tcp_validate_incoming+0x1057/0x1b60 net/ipv4/tcp_input.c:5975
+   tcp_rcv_established+0x5b5/0x21f0 net/ipv4/tcp_input.c:6166
+   tcp_v4_do_rcv+0x5dc/0xa70 net/ipv4/tcp_ipv4.c:1925
+   tcp_v4_rcv+0x3473/0x44a0 net/ipv4/tcp_ipv4.c:2363
+   ip_protocol_deliver_rcu+0xba/0x480 net/ipv4/ip_input.c:205
+   ip_local_deliver_finish+0x2f1/0x500 net/ipv4/ip_input.c:233
+   NF_HOOK include/linux/netfilter.h:317 [inline]
+   NF_HOOK include/linux/netfilter.h:311 [inline]
+   ip_local_deliver+0x1be/0x560 net/ipv4/ip_input.c:254
+   dst_input include/net/dst.h:469 [inline]
+   ip_rcv_finish net/ipv4/ip_input.c:447 [inline]
+   NF_HOOK include/linux/netfilter.h:317 [inline]
+   NF_HOOK include/linux/netfilter.h:311 [inline]
+   ip_rcv+0x514/0x810 net/ipv4/ip_input.c:567
+   __netif_receive_skb_one_core+0x197/0x1e0 net/core/dev.c:5975
+   __netif_receive_skb+0x1f/0x120 net/core/dev.c:6088
+   process_backlog+0x301/0x1360 net/core/dev.c:6440
+   __napi_poll.constprop.0+0xba/0x550 net/core/dev.c:7453
+   napi_poll net/core/dev.c:7517 [inline]
+   net_rx_action+0xb44/0x1010 net/core/dev.c:7644
+   handle_softirqs+0x1d0/0x770 kernel/softirq.c:579
+   do_softirq+0x3f/0x90 kernel/softirq.c:480
+   </IRQ>
+   <TASK>
+   __local_bh_enable_ip+0xed/0x110 kernel/softirq.c:407
+   local_bh_enable include/linux/bottom_half.h:33 [inline]
+   inet_csk_listen_stop+0x2c5/0x1070 net/ipv4/inet_connection_sock.c:1524
+   mptcp_check_listen_stop.part.0+0x1cc/0x220 net/mptcp/protocol.c:2985
+   mptcp_check_listen_stop net/mptcp/mib.h:118 [inline]
+   __mptcp_close+0x9b9/0xbd0 net/mptcp/protocol.c:3000
+   mptcp_close+0x2f/0x140 net/mptcp/protocol.c:3066
+   inet_release+0xed/0x200 net/ipv4/af_inet.c:435
+   inet6_release+0x4f/0x70 net/ipv6/af_inet6.c:487
+   __sock_release+0xb3/0x270 net/socket.c:649
+   sock_close+0x1c/0x30 net/socket.c:1439
+   __fput+0x402/0xb70 fs/file_table.c:465
+   task_work_run+0x150/0x240 kernel/task_work.c:227
+   resume_user_mode_work include/linux/resume_user_mode.h:50 [inline]
+   exit_to_user_mode_loop+0xd4
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/1d82a8fe6ee4afdc92f4e8808c9dad2a6095bbc5.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/1d82a8fe6ee4afdc92f4e8808c9dad2a6095bbc5
+- https://git.kernel.org/stable/c/54999dea879fecb761225e28f274b40662918c30
+- https://git.kernel.org/stable/c/5586518bec27666c747cd52aabb62d485686d0bf
+- https://git.kernel.org/stable/c/75a4c9ab8a7af0d76b31ccd1188ed178c38b35d2
+- https://git.kernel.org/stable/c/f8a1d9b18c5efc76784f5a326e905f641f839894
+
+---
+
+#### 757. CVE-2025-38500
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: linux:linux_kernel, debian:debian_linux
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+xfrm: interface: fix use-after-free after changing collect_md xfrm interface
+
+collect_md property on xfrm interfaces can only be set on device creation,
+thus xfrmi_changelink() should fail when called on such interfaces.
+
+The check to enforce this was done only in the case where the xi was
+returned from xfrmi_locate() which doesn't look for the collect_md
+interface, and thus the validation was never reached.
+
+Calling changelink would thus errornously place the special interface xi
+in the xfrmi_net->xfrmi hash, but since it also exists in the
+xfrmi_net->collect_md_xfrmi pointer it would lead to a double free when
+the net namespace was taken down [1].
+
+Change the check to use the xi from netdev_priv which is available earlier
+in the function to prevent changes in xfrm collect_md interfaces.
+
+[1] resulting oops:
+[    8.516540] kernel BUG at net/core/dev.c:12029!
+[    8.516552] Oops: invalid opcode: 0000 [#1] SMP NOPTI
+[    8.516559] CPU: 0 UID: 0 PID: 12 Comm: kworker/u80:0 Not tainted 6.15.0-virtme #5 PREEMPT(voluntary)
+[    8.516565] Hardware name: QEMU Ubuntu 24.04 PC (i440FX + PIIX, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+[    8.516569] Workqueue: netns cleanup_net
+[    8.516579] RIP: 0010:unregister_netdevice_many_notify+0x101/0xab0
+[    8.516590] Code: 90 0f 0b 90 48 8b b0 78 01 00 00 48 8b 90 80 01 00 00 48 89 56 08 48 89 32 4c 89 80 78 01 00 00 48 89 b8 80 01 00 00 eb ac 90 <0f> 0b 48 8b 45 00 4c 8d a0 88 fe ff ff 48 39 c5 74 5c 41 80 bc 24
+[    8.516593] RSP: 0018:ffffa93b8006bd30 EFLAGS: 00010206
+[    8.516598] RAX: ffff98fe4226e000 RBX: ffffa93b8006bd58 RCX: ffffa93b8006bc60
+[    8.516601] RDX: 0000000000000004 RSI: 0000000000000000 RDI: dead000000000122
+[    8.516603] RBP: ffffa93b8006bdd8 R08: dead000000000100 R09: ffff98fe4133c100
+[    8.516605] R10: 0000000000000000 R11: 00000000000003d2 R12: ffffa93b8006be00
+[    8.516608] R13: ffffffff96c1a510 R14: ffffffff96c1a510 R15: ffffa93b8006be00
+[    8.516615] FS:  0000000000000000(0000) GS:ffff98fee73b7000(0000) knlGS:0000000000000000
+[    8.516619] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[    8.516622] CR2: 00007fcd2abd0700 CR3: 000000003aa40000 CR4: 0000000000752ef0
+[    8.516625] PKRU: 55555554
+[    8.516627] Call Trace:
+[    8.516632]  <TASK>
+[    8.516635]  ? rtnl_is_locked+0x15/0x20
+[    8.516641]  ? unregister_netdevice_queue+0x29/0xf0
+[    8.516650]  ops_undo_list+0x1f2/0x220
+[    8.516659]  cleanup_net+0x1ad/0x2e0
+[    8.516664]  process_one_work+0x160/0x380
+[    8.516673]  worker_thread+0x2aa/0x3c0
+[    8.516679]  ? __pfx_worker_thread+0x10/0x10
+[    8.516686]  kthread+0xfb/0x200
+[    8.516690]  ? __pfx_kthread+0x10/0x10
+[    8.516693]  ? __pfx_kthread+0x10/0x10
+[    8.516697]  ret_from_fork+0x82/0xf0
+[    8.516705]  ? __pfx_kthread+0x10/0x10
+[    8.516709]  ret_from_fork_asm+0x1a/0x30
+[    8.516718]  </TASK>
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/5918c3f4800a3aef2173865e5903370f21e24f47.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/5918c3f4800a3aef2173865e5903370f21e24f47
+- https://git.kernel.org/stable/c/69a31f7a6a81f5ffd3812c442e09ff0be22960f1
+- https://git.kernel.org/stable/c/a8d4748b954584ab7bd800f1a4e46d5b0eeb5ce4
+- https://git.kernel.org/stable/c/a90b2a1aaacbcf0f91d7e4868ad6c51c5dee814b
+- https://git.kernel.org/stable/c/bfebdb85496e1da21d3cf05de099210915c3e706
+
+---
+
+#### 758. CVE-2025-38713
+
+**严重程度 / Severity**: HIGH | CVSS: 7.1
+**受影响产品 / Affected Products**: linux:linux_kernel, debian:debian_linux
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+hfsplus: fix slab-out-of-bounds read in hfsplus_uni2asc()
+
+The hfsplus_readdir() method is capable to crash by calling
+hfsplus_uni2asc():
+
+[  667.121659][ T9805] ==================================================================
+[  667.122651][ T9805] BUG: KASAN: slab-out-of-bounds in hfsplus_uni2asc+0x902/0xa10
+[  667.123627][ T9805] Read of size 2 at addr ffff88802592f40c by task repro/9805
+[  667.124578][ T9805]
+[  667.124876][ T9805] CPU: 3 UID: 0 PID: 9805 Comm: repro Not tainted 6.16.0-rc3 #1 PREEMPT(full)
+[  667.124886][ T9805] Hardware name: QEMU Ubuntu 24.04 PC (i440FX + PIIX, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+[  667.124890][ T9805] Call Trace:
+[  667.124893][ T9805]  <TASK>
+[  667.124896][ T9805]  dump_stack_lvl+0x10e/0x1f0
+[  667.124911][ T9805]  print_report+0xd0/0x660
+[  667.124920][ T9805]  ? __virt_addr_valid+0x81/0x610
+[  667.124928][ T9805]  ? __phys_addr+0xe8/0x180
+[  667.124934][ T9805]  ? hfsplus_uni2asc+0x902/0xa10
+[  667.124942][ T9805]  kasan_report+0xc6/0x100
+[  667.124950][ T9805]  ? hfsplus_uni2asc+0x902/0xa10
+[  667.124959][ T9805]  hfsplus_uni2asc+0x902/0xa10
+[  667.124966][ T9805]  ? hfsplus_bnode_read+0x14b/0x360
+[  667.124974][ T9805]  hfsplus_readdir+0x845/0xfc0
+[  667.124984][ T9805]  ? __pfx_hfsplus_readdir+0x10/0x10
+[  667.124994][ T9805]  ? stack_trace_save+0x8e/0xc0
+[  667.125008][ T9805]  ? iterate_dir+0x18b/0xb20
+[  667.125015][ T9805]  ? trace_lock_acquire+0x85/0xd0
+[  667.125022][ T9805]  ? lock_acquire+0x30/0x80
+[  667.125029][ T9805]  ? iterate_dir+0x18b/0xb20
+[  667.125037][ T9805]  ? down_read_killable+0x1ed/0x4c0
+[  667.125044][ T9805]  ? putname+0x154/0x1a0
+[  667.125051][ T9805]  ? __pfx_down_read_killable+0x10/0x10
+[  667.125058][ T9805]  ? apparmor_file_permission+0x239/0x3e0
+[  667.125069][ T9805]  iterate_dir+0x296/0xb20
+[  667.125076][ T9805]  __x64_sys_getdents64+0x13c/0x2c0
+[  667.125084][ T9805]  ? __pfx___x64_sys_getdents64+0x10/0x10
+[  667.125091][ T9805]  ? __x64_sys_openat+0x141/0x200
+[  667.125126][ T9805]  ? __pfx_filldir64+0x10/0x10
+[  667.125134][ T9805]  ? do_user_addr_fault+0x7fe/0x12f0
+[  667.125143][ T9805]  do_syscall_64+0xc9/0x480
+[  667.125151][ T9805]  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+[  667.125158][ T9805] RIP: 0033:0x7fa8753b2fc9
+[  667.125164][ T9805] Code: 00 c3 66 2e 0f 1f 84 00 00 00 00 00 0f 1f 44 00 00 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 48
+[  667.125172][ T9805] RSP: 002b:00007ffe96f8e0f8 EFLAGS: 00000217 ORIG_RAX: 00000000000000d9
+[  667.125181][ T9805] RAX: ffffffffffffffda RBX: 0000000000000000 RCX: 00007fa8753b2fc9
+[  667.125185][ T9805] RDX: 0000000000000400 RSI: 00002000000063c0 RDI: 0000000000000004
+[  667.125190][ T9805] RBP: 00007ffe96f8e110 R08: 00007ffe96f8e110 R09: 00007ffe96f8e110
+[  667.125195][ T9805] R10: 0000000000000000 R11: 0000000000000217 R12: 0000556b1e3b4260
+[  667.125199][ T9805] R13: 0000000000000000 R14: 0000000000000000 R15: 0000000000000000
+[  667.125207][ T9805]  </TASK>
+[  667.125210][ T9805]
+[  667.145632][ T9805] Allocated by task 9805:
+[  667.145991][ T9805]  kasan_save_stack+0x20/0x40
+[  667.146352][ T9805]  kasan_save_track+0x14/0x30
+[  667.146717][ T9805]  __kasan_kmalloc+0xaa/0xb0
+[  667.147065][ T9805]  __kmalloc_noprof+0x205/0x550
+[  667.147448][ T9805]  hfsplus_find_init+0x95/0x1f0
+[  667.147813][ T9805]  hfsplus_readdir+0x220/0xfc0
+[  667.148174][ T9805]  iterate_dir+0x296/0xb20
+[  667.148549][ T9805]  __x64_sys_getdents64+0x13c/0x2c0
+[  667.148937][ T9805]  do_syscall_64+0xc9/0x480
+[  667.149291][ T9805]  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+[  667.149809][ T9805]
+[  667.150030][ T9805] The buggy address belongs to the object at ffff88802592f000
+[  667.150030][ T9805]  which belongs to the cache kmalloc-2k of size 2048
+[  667.151282][ T9805] The buggy address is located 0 bytes to the right of
+[  667.151282][ T9805]  allocated 1036-byte region [ffff88802592f000, ffff88802592f40c)
+[  667.1
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/13604b1d7e7b125fb428cddbec6b8d92baad25d5.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/13604b1d7e7b125fb428cddbec6b8d92baad25d5
+- https://git.kernel.org/stable/c/1ca69007e52a73bd8b84b988b61b319816ca8b01
+- https://git.kernel.org/stable/c/291bb5d931c6f3cd7227b913302a17be21cf53b0
+- https://git.kernel.org/stable/c/6f93694bcbc2c2ab3e01cd8fba2f296faf34e6b9
+- https://git.kernel.org/stable/c/73f7da507d787b489761a0fa280716f84fa32b2f
+
+---
+
+#### 759. CVE-2025-38714
+
+**严重程度 / Severity**: HIGH | CVSS: 7.1
+**受影响产品 / Affected Products**: linux:linux_kernel, debian:debian_linux
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+hfsplus: fix slab-out-of-bounds in hfsplus_bnode_read()
+
+The hfsplus_bnode_read() method can trigger the issue:
+
+[  174.852007][ T9784] ==================================================================
+[  174.852709][ T9784] BUG: KASAN: slab-out-of-bounds in hfsplus_bnode_read+0x2f4/0x360
+[  174.853412][ T9784] Read of size 8 at addr ffff88810b5fc6c0 by task repro/9784
+[  174.854059][ T9784]
+[  174.854272][ T9784] CPU: 1 UID: 0 PID: 9784 Comm: repro Not tainted 6.16.0-rc3 #7 PREEMPT(full)
+[  174.854281][ T9784] Hardware name: QEMU Ubuntu 24.04 PC (i440FX + PIIX, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+[  174.854286][ T9784] Call Trace:
+[  174.854289][ T9784]  <TASK>
+[  174.854292][ T9784]  dump_stack_lvl+0x10e/0x1f0
+[  174.854305][ T9784]  print_report+0xd0/0x660
+[  174.854315][ T9784]  ? __virt_addr_valid+0x81/0x610
+[  174.854323][ T9784]  ? __phys_addr+0xe8/0x180
+[  174.854330][ T9784]  ? hfsplus_bnode_read+0x2f4/0x360
+[  174.854337][ T9784]  kasan_report+0xc6/0x100
+[  174.854346][ T9784]  ? hfsplus_bnode_read+0x2f4/0x360
+[  174.854354][ T9784]  hfsplus_bnode_read+0x2f4/0x360
+[  174.854362][ T9784]  hfsplus_bnode_dump+0x2ec/0x380
+[  174.854370][ T9784]  ? __pfx_hfsplus_bnode_dump+0x10/0x10
+[  174.854377][ T9784]  ? hfsplus_bnode_write_u16+0x83/0xb0
+[  174.854385][ T9784]  ? srcu_gp_start+0xd0/0x310
+[  174.854393][ T9784]  ? __mark_inode_dirty+0x29e/0xe40
+[  174.854402][ T9784]  hfsplus_brec_remove+0x3d2/0x4e0
+[  174.854411][ T9784]  __hfsplus_delete_attr+0x290/0x3a0
+[  174.854419][ T9784]  ? __pfx_hfs_find_1st_rec_by_cnid+0x10/0x10
+[  174.854427][ T9784]  ? __pfx___hfsplus_delete_attr+0x10/0x10
+[  174.854436][ T9784]  ? __asan_memset+0x23/0x50
+[  174.854450][ T9784]  hfsplus_delete_all_attrs+0x262/0x320
+[  174.854459][ T9784]  ? __pfx_hfsplus_delete_all_attrs+0x10/0x10
+[  174.854469][ T9784]  ? rcu_is_watching+0x12/0xc0
+[  174.854476][ T9784]  ? __mark_inode_dirty+0x29e/0xe40
+[  174.854483][ T9784]  hfsplus_delete_cat+0x845/0xde0
+[  174.854493][ T9784]  ? __pfx_hfsplus_delete_cat+0x10/0x10
+[  174.854507][ T9784]  hfsplus_unlink+0x1ca/0x7c0
+[  174.854516][ T9784]  ? __pfx_hfsplus_unlink+0x10/0x10
+[  174.854525][ T9784]  ? down_write+0x148/0x200
+[  174.854532][ T9784]  ? __pfx_down_write+0x10/0x10
+[  174.854540][ T9784]  vfs_unlink+0x2fe/0x9b0
+[  174.854549][ T9784]  do_unlinkat+0x490/0x670
+[  174.854557][ T9784]  ? __pfx_do_unlinkat+0x10/0x10
+[  174.854565][ T9784]  ? __might_fault+0xbc/0x130
+[  174.854576][ T9784]  ? getname_flags.part.0+0x1c5/0x550
+[  174.854584][ T9784]  __x64_sys_unlink+0xc5/0x110
+[  174.854592][ T9784]  do_syscall_64+0xc9/0x480
+[  174.854600][ T9784]  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+[  174.854608][ T9784] RIP: 0033:0x7f6fdf4c3167
+[  174.854614][ T9784] Code: f0 ff ff 73 01 c3 48 8b 0d 26 0d 0e 00 f7 d8 64 89 01 48 83 c8 ff c3 66 2e 0f 1f 84 00 00 00 00 08
+[  174.854622][ T9784] RSP: 002b:00007ffcb948bca8 EFLAGS: 00000206 ORIG_RAX: 0000000000000057
+[  174.854630][ T9784] RAX: ffffffffffffffda RBX: 0000000000000000 RCX: 00007f6fdf4c3167
+[  174.854636][ T9784] RDX: 00007ffcb948bcc0 RSI: 00007ffcb948bcc0 RDI: 00007ffcb948bd50
+[  174.854641][ T9784] RBP: 00007ffcb948cd90 R08: 0000000000000001 R09: 00007ffcb948bb40
+[  174.854645][ T9784] R10: 00007f6fdf564fc0 R11: 0000000000000206 R12: 0000561e1bc9c2d0
+[  174.854650][ T9784] R13: 0000000000000000 R14: 0000000000000000 R15: 0000000000000000
+[  174.854658][ T9784]  </TASK>
+[  174.854661][ T9784]
+[  174.879281][ T9784] Allocated by task 9784:
+[  174.879664][ T9784]  kasan_save_stack+0x20/0x40
+[  174.880082][ T9784]  kasan_save_track+0x14/0x30
+[  174.880500][ T9784]  __kasan_kmalloc+0xaa/0xb0
+[  174.880908][ T9784]  __kmalloc_noprof+0x205/0x550
+[  174.881337][ T9784]  __hfs_bnode_create+0x107/0x890
+[  174.881779][ T9784]  hfsplus_bnode_find+0x2d0/0xd10
+[  174.882222][ T9784]  hfsplus_brec_find+0x2b0/0x520
+[  174.882659][ T9784]  hfsplus_delete_all_attrs+0x23b/0x3
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/032f7ed6717a4cd3714f9801be39fdfc7f1c7644.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/032f7ed6717a4cd3714f9801be39fdfc7f1c7644
+- https://git.kernel.org/stable/c/291b7f2538920aa229500dbdd6c5f0927a51bc8b
+- https://git.kernel.org/stable/c/475d770c19929082aab43337e6c077d0e2043df3
+- https://git.kernel.org/stable/c/5ab59229bef6063edf3a6fc2e3e3fd7cd2181b29
+- https://git.kernel.org/stable/c/7fa4cef8ea13b37811287ef60674c5fd1dd02ee6
+
+---
+
+#### 760. CVE-2025-38716
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+hfs: fix general protection fault in hfs_find_init()
+
+The hfs_find_init() method can trigger the crash
+if tree pointer is NULL:
+
+[   45.746290][ T9787] Oops: general protection fault, probably for non-canonical address 0xdffffc0000000008: 0000 [#1] SMP KAI
+[   45.747287][ T9787] KASAN: null-ptr-deref in range [0x0000000000000040-0x0000000000000047]
+[   45.748716][ T9787] CPU: 2 UID: 0 PID: 9787 Comm: repro Not tainted 6.16.0-rc3 #10 PREEMPT(full)
+[   45.750250][ T9787] Hardware name: QEMU Ubuntu 24.04 PC (i440FX + PIIX, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+[   45.751983][ T9787] RIP: 0010:hfs_find_init+0x86/0x230
+[   45.752834][ T9787] Code: c1 ea 03 80 3c 02 00 0f 85 9a 01 00 00 4c 8d 6b 40 48 c7 45 18 00 00 00 00 48 b8 00 00 00 00 00 fc
+[   45.755574][ T9787] RSP: 0018:ffffc90015157668 EFLAGS: 00010202
+[   45.756432][ T9787] RAX: dffffc0000000000 RBX: 0000000000000000 RCX: ffffffff819a4d09
+[   45.757457][ T9787] RDX: 0000000000000008 RSI: ffffffff819acd3a RDI: ffffc900151576e8
+[   45.758282][ T9787] RBP: ffffc900151576d0 R08: 0000000000000005 R09: 0000000000000000
+[   45.758943][ T9787] R10: 0000000080000000 R11: 0000000000000001 R12: 0000000000000004
+[   45.759619][ T9787] R13: 0000000000000040 R14: ffff88802c50814a R15: 0000000000000000
+[   45.760293][ T9787] FS:  00007ffb72734540(0000) GS:ffff8880cec64000(0000) knlGS:0000000000000000
+[   45.761050][ T9787] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   45.761606][ T9787] CR2: 00007f9bd8225000 CR3: 000000010979a000 CR4: 00000000000006f0
+[   45.762286][ T9787] Call Trace:
+[   45.762570][ T9787]  <TASK>
+[   45.762824][ T9787]  hfs_ext_read_extent+0x190/0x9d0
+[   45.763269][ T9787]  ? submit_bio_noacct_nocheck+0x2dd/0xce0
+[   45.763766][ T9787]  ? __pfx_hfs_ext_read_extent+0x10/0x10
+[   45.764250][ T9787]  hfs_get_block+0x55f/0x830
+[   45.764646][ T9787]  block_read_full_folio+0x36d/0x850
+[   45.765105][ T9787]  ? __pfx_hfs_get_block+0x10/0x10
+[   45.765541][ T9787]  ? const_folio_flags+0x5b/0x100
+[   45.765972][ T9787]  ? __pfx_hfs_read_folio+0x10/0x10
+[   45.766415][ T9787]  filemap_read_folio+0xbe/0x290
+[   45.766840][ T9787]  ? __pfx_filemap_read_folio+0x10/0x10
+[   45.767325][ T9787]  ? __filemap_get_folio+0x32b/0xbf0
+[   45.767780][ T9787]  do_read_cache_folio+0x263/0x5c0
+[   45.768223][ T9787]  ? __pfx_hfs_read_folio+0x10/0x10
+[   45.768666][ T9787]  read_cache_page+0x5b/0x160
+[   45.769070][ T9787]  hfs_btree_open+0x491/0x1740
+[   45.769481][ T9787]  hfs_mdb_get+0x15e2/0x1fb0
+[   45.769877][ T9787]  ? __pfx_hfs_mdb_get+0x10/0x10
+[   45.770316][ T9787]  ? find_held_lock+0x2b/0x80
+[   45.770731][ T9787]  ? lockdep_init_map_type+0x5c/0x280
+[   45.771200][ T9787]  ? lockdep_init_map_type+0x5c/0x280
+[   45.771674][ T9787]  hfs_fill_super+0x38e/0x720
+[   45.772092][ T9787]  ? __pfx_hfs_fill_super+0x10/0x10
+[   45.772549][ T9787]  ? snprintf+0xbe/0x100
+[   45.772931][ T9787]  ? __pfx_snprintf+0x10/0x10
+[   45.773350][ T9787]  ? do_raw_spin_lock+0x129/0x2b0
+[   45.773796][ T9787]  ? find_held_lock+0x2b/0x80
+[   45.774215][ T9787]  ? set_blocksize+0x40a/0x510
+[   45.774636][ T9787]  ? sb_set_blocksize+0x176/0x1d0
+[   45.775087][ T9787]  ? setup_bdev_super+0x369/0x730
+[   45.775533][ T9787]  get_tree_bdev_flags+0x384/0x620
+[   45.775985][ T9787]  ? __pfx_hfs_fill_super+0x10/0x10
+[   45.776453][ T9787]  ? __pfx_get_tree_bdev_flags+0x10/0x10
+[   45.776950][ T9787]  ? bpf_lsm_capable+0x9/0x10
+[   45.777365][ T9787]  ? security_capable+0x80/0x260
+[   45.777803][ T9787]  vfs_get_tree+0x8e/0x340
+[   45.778203][ T9787]  path_mount+0x13de/0x2010
+[   45.778604][ T9787]  ? kmem_cache_free+0x2b0/0x4c0
+[   45.779052][ T9787]  ? __pfx_path_mount+0x10/0x10
+[   45.779480][ T9787]  ? getname_flags.part.0+0x1c5/0x550
+[   45.779954][ T9787]  ? putname+0x154/0x1a0
+[   45.780335][ T9787]  __x64_sys_mount+0x27b/0x300
+[   45.780758][ T9787]  ? __pfx___x64_sys_mount+0x10/0x10
+[   45.781232][ T9787] 
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/4f032979b63ad52e08aadf0faeac34ed35133ec0.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/4f032979b63ad52e08aadf0faeac34ed35133ec0
+- https://git.kernel.org/stable/c/5d8b249527362e0ccafcaf76b3bec2a0d2aa1498
+- https://git.kernel.org/stable/c/6e20e10064fdc43231636fca519c15c013a8e3d6
+- https://git.kernel.org/stable/c/736a0516a16268995f4898eded49bfef077af709
+- https://git.kernel.org/stable/c/b918c17a1934ac6309b0083f41d4e9d8fb3bb46c
+
+---
+
+#### 761. CVE-2025-38734
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+net/smc: fix UAF on smcsk after smc_listen_out()
+
+BPF CI testing report a UAF issue:
+
+  [   16.446633] BUG: kernel NULL pointer dereference, address: 000000000000003  0
+  [   16.447134] #PF: supervisor read access in kernel mod  e
+  [   16.447516] #PF: error_code(0x0000) - not-present pag  e
+  [   16.447878] PGD 0 P4D   0
+  [   16.448063] Oops: Oops: 0000 [#1] PREEMPT SMP NOPT  I
+  [   16.448409] CPU: 0 UID: 0 PID: 9 Comm: kworker/0:1 Tainted: G           OE      6.13.0-rc3-g89e8a75fda73-dirty #4  2
+  [   16.449124] Tainted: [O]=OOT_MODULE, [E]=UNSIGNED_MODUL  E
+  [   16.449502] Hardware name: QEMU Ubuntu 24.04 PC (i440FX + PIIX, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/201  4
+  [   16.450201] Workqueue: smc_hs_wq smc_listen_wor  k
+  [   16.450531] RIP: 0010:smc_listen_work+0xc02/0x159  0
+  [   16.452158] RSP: 0018:ffffb5ab40053d98 EFLAGS: 0001024  6
+  [   16.452526] RAX: 0000000000000001 RBX: 0000000000000002 RCX: 000000000000030  0
+  [   16.452994] RDX: 0000000000000280 RSI: 00003513840053f0 RDI: 000000000000000  0
+  [   16.453492] RBP: ffffa097808e3800 R08: ffffa09782dba1e0 R09: 000000000000000  5
+  [   16.453987] R10: 0000000000000000 R11: 0000000000000000 R12: ffffa0978274640  0
+  [   16.454497] R13: 0000000000000000 R14: 0000000000000000 R15: ffffa09782d4092  0
+  [   16.454996] FS:  0000000000000000(0000) GS:ffffa097bbc00000(0000) knlGS:000000000000000  0
+  [   16.455557] CS:  0010 DS: 0000 ES: 0000 CR0: 000000008005003  3
+  [   16.455961] CR2: 0000000000000030 CR3: 0000000102788004 CR4: 0000000000770ef  0
+  [   16.456459] PKRU: 5555555  4
+  [   16.456654] Call Trace  :
+  [   16.456832]  <TASK  >
+  [   16.456989]  ? __die+0x23/0x7  0
+  [   16.457215]  ? page_fault_oops+0x180/0x4c  0
+  [   16.457508]  ? __lock_acquire+0x3e6/0x249  0
+  [   16.457801]  ? exc_page_fault+0x68/0x20  0
+  [   16.458080]  ? asm_exc_page_fault+0x26/0x3  0
+  [   16.458389]  ? smc_listen_work+0xc02/0x159  0
+  [   16.458689]  ? smc_listen_work+0xc02/0x159  0
+  [   16.458987]  ? lock_is_held_type+0x8f/0x10  0
+  [   16.459284]  process_one_work+0x1ea/0x6d  0
+  [   16.459570]  worker_thread+0x1c3/0x38  0
+  [   16.459839]  ? __pfx_worker_thread+0x10/0x1  0
+  [   16.460144]  kthread+0xe0/0x11  0
+  [   16.460372]  ? __pfx_kthread+0x10/0x1  0
+  [   16.460640]  ret_from_fork+0x31/0x5  0
+  [   16.460896]  ? __pfx_kthread+0x10/0x1  0
+  [   16.461166]  ret_from_fork_asm+0x1a/0x3  0
+  [   16.461453]  </TASK  >
+  [   16.461616] Modules linked in: bpf_testmod(OE) [last unloaded: bpf_testmod(OE)  ]
+  [   16.462134] CR2: 000000000000003  0
+  [   16.462380] ---[ end trace 0000000000000000 ]---
+  [   16.462710] RIP: 0010:smc_listen_work+0xc02/0x1590
+
+The direct cause of this issue is that after smc_listen_out_connected(),
+newclcsock->sk may be NULL since it will releases the smcsk. Therefore,
+if the application closes the socket immediately after accept,
+newclcsock->sk can be NULL. A possible execution order could be as
+follows:
+
+smc_listen_work                                 | userspace
+-----------------------------------------------------------------
+lock_sock(sk)                                   |
+smc_listen_out_connected()                      |
+| \- smc_listen_out                             |
+|    | \- release_sock                          |
+     | |- sk->sk_data_ready()                   |
+                                                | fd = accept();
+                                                | close(fd);
+                                                |  \- socket->sk = NULL;
+/* newclcsock->sk is NULL now */
+SMC_STAT_SERV_SUCC_INC(sock_net(newclcsock->sk))
+
+Since smc_listen_out_connected() will not fail, simply swapping the order
+of the code can easily fix this issue.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/070b4af44c4b6e4c35fb1ca7001a6a88fd2d318f.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/070b4af44c4b6e4c35fb1ca7001a6a88fd2d318f
+- https://git.kernel.org/stable/c/2e765ba0ee0eae35688b443e97108308a716773e
+- https://git.kernel.org/stable/c/85545f1525f9fa9bf44fec77ba011024f15da342
+- https://git.kernel.org/stable/c/d9cef55ed49117bd63695446fb84b4b91815c0b4
+
+---
+
+#### 762. CVE-2025-39833
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+mISDN: hfcpci: Fix warning when deleting uninitialized timer
+
+With CONFIG_DEBUG_OBJECTS_TIMERS unloading hfcpci module leads
+to the following splat:
+
+[  250.215892] ODEBUG: assert_init not available (active state 0) object: ffffffffc01a3dc0 object type: timer_list hint: 0x0
+[  250.217520] WARNING: CPU: 0 PID: 233 at lib/debugobjects.c:612 debug_print_object+0x1b6/0x2c0
+[  250.218775] Modules linked in: hfcpci(-) mISDN_core
+[  250.219537] CPU: 0 UID: 0 PID: 233 Comm: rmmod Not tainted 6.17.0-rc2-g6f713187ac98 #2 PREEMPT(voluntary)
+[  250.220940] Hardware name: QEMU Ubuntu 24.04 PC (i440FX + PIIX, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+[  250.222377] RIP: 0010:debug_print_object+0x1b6/0x2c0
+[  250.223131] Code: fc ff df 48 89 fa 48 c1 ea 03 80 3c 02 00 75 4f 41 56 48 8b 14 dd a0 4e 01 9f 48 89 ee 48 c7 c7 20 46 01 9f e8 cb 84d
+[  250.225805] RSP: 0018:ffff888015ea7c08 EFLAGS: 00010286
+[  250.226608] RAX: 0000000000000000 RBX: 0000000000000005 RCX: ffffffff9be93a95
+[  250.227708] RDX: 1ffff1100d945138 RSI: 0000000000000008 RDI: ffff88806ca289c0
+[  250.228993] RBP: ffffffff9f014a00 R08: 0000000000000001 R09: ffffed1002bd4f39
+[  250.230043] R10: ffff888015ea79cf R11: 0000000000000001 R12: 0000000000000001
+[  250.231185] R13: ffffffff9eea0520 R14: 0000000000000000 R15: ffff888015ea7cc8
+[  250.232454] FS:  00007f3208f01540(0000) GS:ffff8880caf5a000(0000) knlGS:0000000000000000
+[  250.233851] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[  250.234856] CR2: 00007f32090a7421 CR3: 0000000004d63000 CR4: 00000000000006f0
+[  250.236117] Call Trace:
+[  250.236599]  <TASK>
+[  250.236967]  ? trace_irq_enable.constprop.0+0xd4/0x130
+[  250.237920]  debug_object_assert_init+0x1f6/0x310
+[  250.238762]  ? __pfx_debug_object_assert_init+0x10/0x10
+[  250.239658]  ? __lock_acquire+0xdea/0x1c70
+[  250.240369]  __try_to_del_timer_sync+0x69/0x140
+[  250.241172]  ? __pfx___try_to_del_timer_sync+0x10/0x10
+[  250.242058]  ? __timer_delete_sync+0xc6/0x120
+[  250.242842]  ? lock_acquire+0x30/0x80
+[  250.243474]  ? __timer_delete_sync+0xc6/0x120
+[  250.244262]  __timer_delete_sync+0x98/0x120
+[  250.245015]  HFC_cleanup+0x10/0x20 [hfcpci]
+[  250.245704]  __do_sys_delete_module+0x348/0x510
+[  250.246461]  ? __pfx___do_sys_delete_module+0x10/0x10
+[  250.247338]  do_syscall_64+0xc1/0x360
+[  250.247924]  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+
+Fix this by initializing hfc_tl timer with DEFINE_TIMER macro.
+Also, use mod_timer instead of manual timeout update.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/43fc5da8133badf17f5df250ba03b9d882254845.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/43fc5da8133badf17f5df250ba03b9d882254845
+- https://git.kernel.org/stable/c/97766512a9951b9fd6fc97f1b93211642bb0b220
+
+---
+
+#### 763. CVE-2025-34197
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: vasion:virtual_appliance_host, vasion:virtual_appliance_application
+
+**漏洞描述 / Description**:
+Vasion Print (formerly PrinterLogic) Virtual Appliance Host versions prior to 22.0.951, Application prior to 20.0.2368 (VA and SaaS deployments) contain an undocumented local user account named ubuntu with a preset password and a sudoers entry granting that account passwordless root privileges (ubuntu ALL=(ALL) NOPASSWD: ALL). Anyone who knows the hardcoded password can obtain root privileges via local console or equivalent administrative access, enabling local privilege escalation. This vulnerability has been identified by the vendor as: V-2024-010 — Hardcoded Linux Password. NOTE: The patch for this vulnerability is reported to be incomplete: /etc/shadow was remediated but /etc/sudoers remains vulnerable.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://help.printerlogic.com/saas/Print/Security/Security-Bulletins.htm.
+
+**参考链接 / References**:
+- https://help.printerlogic.com/saas/Print/Security/Security-Bulletins.htm
+- https://help.printerlogic.com/va/Print/Security/Security-Bulletins.htm
+- https://pierrekim.github.io/blog/2025-04-08-vasion-printerlogic-83-vulnerabilities.html#va-hardcoded-password-ubuntu
+- https://www.vulncheck.com/advisories/vasion-print-printerlogic-undocumented-local-account-with-hardcoded-password-and-passwordless-sudo
+
+---
+
+#### 764. CVE-2025-43914
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: dell:data_domain_operating_system
+
+**漏洞描述 / Description**:
+Dell PowerProtect Data Domain BoostFS for Linux Ubuntu systems of Feature Release versions 7.7.1.0 through 8.3.0.15, LTS2025 release version 8.3.1.0, LTS2024 release versions 7.13.1.0 through 7.13.1.30, LTS 2023 release versions 7.10.1.0 through 7.10.1.60, contain an Incorrect Privilege Assignment vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Unauthorized access.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.dell.com/support/kbdoc/en-us/000376224/dsa-2025-333-security-update-for-dell-powerprotect-data-domain-multiple-vulnerabilities.
+
+**参考链接 / References**:
+- https://www.dell.com/support/kbdoc/en-us/000376224/dsa-2025-333-security-update-for-dell-powerprotect-data-domain-multiple-vulnerabilities
+
+---
+
+#### 765. CVE-2025-40006
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+mm/hugetlb: fix folio is still mapped when deleted
+
+Migration may be raced with fallocating hole.  remove_inode_single_folio
+will unmap the folio if the folio is still mapped.  However, it's called
+without folio lock.  If the folio is migrated and the mapped pte has been
+converted to migration entry, folio_mapped() returns false, and won't
+unmap it.  Due to extra refcount held by remove_inode_single_folio,
+migration fails, restores migration entry to normal pte, and the folio is
+mapped again.  As a result, we triggered BUG in filemap_unaccount_folio.
+
+The log is as follows:
+ BUG: Bad page cache in process hugetlb  pfn:156c00
+ page: refcount:515 mapcount:0 mapping:0000000099fef6e1 index:0x0 pfn:0x156c00
+ head: order:9 mapcount:1 entire_mapcount:1 nr_pages_mapped:0 pincount:0
+ aops:hugetlbfs_aops ino:dcc dentry name(?):"my_hugepage_file"
+ flags: 0x17ffffc00000c1(locked|waiters|head|node=0|zone=2|lastcpupid=0x1fffff)
+ page_type: f4(hugetlb)
+ page dumped because: still mapped when deleted
+ CPU: 1 UID: 0 PID: 395 Comm: hugetlb Not tainted 6.17.0-rc5-00044-g7aac71907bde-dirty #484 NONE
+ Hardware name: QEMU Ubuntu 24.04 PC (i440FX + PIIX, 1996), BIOS 0.0.0 02/06/2015
+ Call Trace:
+  <TASK>
+  dump_stack_lvl+0x4f/0x70
+  filemap_unaccount_folio+0xc4/0x1c0
+  __filemap_remove_folio+0x38/0x1c0
+  filemap_remove_folio+0x41/0xd0
+  remove_inode_hugepages+0x142/0x250
+  hugetlbfs_fallocate+0x471/0x5a0
+  vfs_fallocate+0x149/0x380
+
+Hold folio lock before checking if the folio is mapped to avold race with
+migration.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/21ee79ce938127f88fe07e409c1817f477dbe7ea.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/21ee79ce938127f88fe07e409c1817f477dbe7ea
+- https://git.kernel.org/stable/c/3e851448078f5b01f6264915df3cfef75e323a12
+- https://git.kernel.org/stable/c/7b7387650dcf2881fd8bb55bcf3c8bd6c9542dd7
+- https://git.kernel.org/stable/c/910d7749346c4b0acdc6e4adfdc4a9984281a206
+- https://git.kernel.org/stable/c/91f548e920fbf8be3f285bfa3fa045ae017e836d
+
+---
+
+#### 766. CVE-2025-40088
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+hfsplus: fix slab-out-of-bounds read in hfsplus_strcasecmp()
+
+The hfsplus_strcasecmp() logic can trigger the issue:
+
+[  117.317703][ T9855] ==================================================================
+[  117.318353][ T9855] BUG: KASAN: slab-out-of-bounds in hfsplus_strcasecmp+0x1bc/0x490
+[  117.318991][ T9855] Read of size 2 at addr ffff88802160f40c by task repro/9855
+[  117.319577][ T9855]
+[  117.319773][ T9855] CPU: 0 UID: 0 PID: 9855 Comm: repro Not tainted 6.17.0-rc6 #33 PREEMPT(full)
+[  117.319780][ T9855] Hardware name: QEMU Ubuntu 24.04 PC (i440FX + PIIX, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+[  117.319783][ T9855] Call Trace:
+[  117.319785][ T9855]  <TASK>
+[  117.319788][ T9855]  dump_stack_lvl+0x1c1/0x2a0
+[  117.319795][ T9855]  ? __virt_addr_valid+0x1c8/0x5c0
+[  117.319803][ T9855]  ? __pfx_dump_stack_lvl+0x10/0x10
+[  117.319808][ T9855]  ? rcu_is_watching+0x15/0xb0
+[  117.319816][ T9855]  ? lock_release+0x4b/0x3e0
+[  117.319821][ T9855]  ? __kasan_check_byte+0x12/0x40
+[  117.319828][ T9855]  ? __virt_addr_valid+0x1c8/0x5c0
+[  117.319835][ T9855]  ? __virt_addr_valid+0x4a5/0x5c0
+[  117.319842][ T9855]  print_report+0x17e/0x7e0
+[  117.319848][ T9855]  ? __virt_addr_valid+0x1c8/0x5c0
+[  117.319855][ T9855]  ? __virt_addr_valid+0x4a5/0x5c0
+[  117.319862][ T9855]  ? __phys_addr+0xd3/0x180
+[  117.319869][ T9855]  ? hfsplus_strcasecmp+0x1bc/0x490
+[  117.319876][ T9855]  kasan_report+0x147/0x180
+[  117.319882][ T9855]  ? hfsplus_strcasecmp+0x1bc/0x490
+[  117.319891][ T9855]  hfsplus_strcasecmp+0x1bc/0x490
+[  117.319900][ T9855]  ? __pfx_hfsplus_cat_case_cmp_key+0x10/0x10
+[  117.319906][ T9855]  hfs_find_rec_by_key+0xa9/0x1e0
+[  117.319913][ T9855]  __hfsplus_brec_find+0x18e/0x470
+[  117.319920][ T9855]  ? __pfx_hfsplus_bnode_find+0x10/0x10
+[  117.319926][ T9855]  ? __pfx_hfs_find_rec_by_key+0x10/0x10
+[  117.319933][ T9855]  ? __pfx___hfsplus_brec_find+0x10/0x10
+[  117.319942][ T9855]  hfsplus_brec_find+0x28f/0x510
+[  117.319949][ T9855]  ? __pfx_hfs_find_rec_by_key+0x10/0x10
+[  117.319956][ T9855]  ? __pfx_hfsplus_brec_find+0x10/0x10
+[  117.319963][ T9855]  ? __kmalloc_noprof+0x2a9/0x510
+[  117.319969][ T9855]  ? hfsplus_find_init+0x8c/0x1d0
+[  117.319976][ T9855]  hfsplus_brec_read+0x2b/0x120
+[  117.319983][ T9855]  hfsplus_lookup+0x2aa/0x890
+[  117.319990][ T9855]  ? __pfx_hfsplus_lookup+0x10/0x10
+[  117.320003][ T9855]  ? d_alloc_parallel+0x2f0/0x15e0
+[  117.320008][ T9855]  ? __lock_acquire+0xaec/0xd80
+[  117.320013][ T9855]  ? __pfx_d_alloc_parallel+0x10/0x10
+[  117.320019][ T9855]  ? __raw_spin_lock_init+0x45/0x100
+[  117.320026][ T9855]  ? __init_waitqueue_head+0xa9/0x150
+[  117.320034][ T9855]  __lookup_slow+0x297/0x3d0
+[  117.320039][ T9855]  ? __pfx___lookup_slow+0x10/0x10
+[  117.320045][ T9855]  ? down_read+0x1ad/0x2e0
+[  117.320055][ T9855]  lookup_slow+0x53/0x70
+[  117.320065][ T9855]  walk_component+0x2f0/0x430
+[  117.320073][ T9855]  path_lookupat+0x169/0x440
+[  117.320081][ T9855]  filename_lookup+0x212/0x590
+[  117.320089][ T9855]  ? __pfx_filename_lookup+0x10/0x10
+[  117.320098][ T9855]  ? strncpy_from_user+0x150/0x290
+[  117.320105][ T9855]  ? getname_flags+0x1e5/0x540
+[  117.320112][ T9855]  user_path_at+0x3a/0x60
+[  117.320117][ T9855]  __x64_sys_umount+0xee/0x160
+[  117.320123][ T9855]  ? __pfx___x64_sys_umount+0x10/0x10
+[  117.320129][ T9855]  ? do_syscall_64+0xb7/0x3a0
+[  117.320135][ T9855]  ? entry_SYSCALL_64_after_hwframe+0x77/0x7f
+[  117.320141][ T9855]  ? entry_SYSCALL_64_after_hwframe+0x77/0x7f
+[  117.320145][ T9855]  do_syscall_64+0xf3/0x3a0
+[  117.320150][ T9855]  ? exc_page_fault+0x9f/0xf0
+[  117.320154][ T9855]  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+[  117.320158][ T9855] RIP: 0033:0x7f7dd7908b07
+[  117.320163][ T9855] Code: 23 0d 00 f7 d8 64 89 01 48 83 c8 ff c3 66 0f 1f 44 00 00 31 f6 e9 09 00 00 00 66 0f 1f 84 00 00 08
+[  117.320167][ T9855] RSP: 002b:00007ffd5ebd9698 EFLAGS: 00000202 
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/42520df65bf67189541a425f7d36b0b3e7bd7844.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/42520df65bf67189541a425f7d36b0b3e7bd7844
+- https://git.kernel.org/stable/c/4bc081ba6c52b0c88c92701e3fbc33c7e2277afb
+- https://git.kernel.org/stable/c/4f5ab4a9c6abd8b0d713cc2b7b041bc10d70f241
+- https://git.kernel.org/stable/c/586c75dfd1d265c4150f6529debb85c9d62e101f
+- https://git.kernel.org/stable/c/603158d4efa98a13a746bd586c20f194f4a31ec8
+
+---
+
+#### 767. CVE-2025-2486
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+**受影响产品 / Affected Products**: tianocore:edk2
+
+**漏洞描述 / Description**:
+The Ubuntu edk2 UEFI firmware packages accidentally allowed the UEFI Shell to be accessed in Secure Boot environments, possibly allowing bypass of Secure Boot constraints. Versions 2024.05-2ubuntu0.3 and 2024.02-2ubuntu0.3 disable the Shell. Some previous versions inserted a secure-boot-based decision to continue running inside the Shell itself, which is believed to be sufficient to enforce Secure Boot restrictions. This is an additional repair on top of the incomplete fix for CVE-2023-48733.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.launchpad.net/ubuntu/+source/edk2/+bug/2101797.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/ubuntu/+source/edk2/+bug/2101797
+
+---
+
+#### 768. CVE-2025-40244
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+hfsplus: fix KMSAN uninit-value issue in __hfsplus_ext_cache_extent()
+
+The syzbot reported issue in __hfsplus_ext_cache_extent():
+
+[   70.194323][ T9350] BUG: KMSAN: uninit-value in __hfsplus_ext_cache_extent+0x7d0/0x990
+[   70.195022][ T9350]  __hfsplus_ext_cache_extent+0x7d0/0x990
+[   70.195530][ T9350]  hfsplus_file_extend+0x74f/0x1cf0
+[   70.195998][ T9350]  hfsplus_get_block+0xe16/0x17b0
+[   70.196458][ T9350]  __block_write_begin_int+0x962/0x2ce0
+[   70.196959][ T9350]  cont_write_begin+0x1000/0x1950
+[   70.197416][ T9350]  hfsplus_write_begin+0x85/0x130
+[   70.197873][ T9350]  generic_perform_write+0x3e8/0x1060
+[   70.198374][ T9350]  __generic_file_write_iter+0x215/0x460
+[   70.198892][ T9350]  generic_file_write_iter+0x109/0x5e0
+[   70.199393][ T9350]  vfs_write+0xb0f/0x14e0
+[   70.199771][ T9350]  ksys_write+0x23e/0x490
+[   70.200149][ T9350]  __x64_sys_write+0x97/0xf0
+[   70.200570][ T9350]  x64_sys_call+0x3015/0x3cf0
+[   70.201065][ T9350]  do_syscall_64+0xd9/0x1d0
+[   70.201506][ T9350]  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+[   70.202054][ T9350]
+[   70.202279][ T9350] Uninit was created at:
+[   70.202693][ T9350]  __kmalloc_noprof+0x621/0xf80
+[   70.203149][ T9350]  hfsplus_find_init+0x8d/0x1d0
+[   70.203602][ T9350]  hfsplus_file_extend+0x6ca/0x1cf0
+[   70.204087][ T9350]  hfsplus_get_block+0xe16/0x17b0
+[   70.204561][ T9350]  __block_write_begin_int+0x962/0x2ce0
+[   70.205074][ T9350]  cont_write_begin+0x1000/0x1950
+[   70.205547][ T9350]  hfsplus_write_begin+0x85/0x130
+[   70.206017][ T9350]  generic_perform_write+0x3e8/0x1060
+[   70.206519][ T9350]  __generic_file_write_iter+0x215/0x460
+[   70.207042][ T9350]  generic_file_write_iter+0x109/0x5e0
+[   70.207552][ T9350]  vfs_write+0xb0f/0x14e0
+[   70.207961][ T9350]  ksys_write+0x23e/0x490
+[   70.208375][ T9350]  __x64_sys_write+0x97/0xf0
+[   70.208810][ T9350]  x64_sys_call+0x3015/0x3cf0
+[   70.209255][ T9350]  do_syscall_64+0xd9/0x1d0
+[   70.209680][ T9350]  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+[   70.210230][ T9350]
+[   70.210454][ T9350] CPU: 2 UID: 0 PID: 9350 Comm: repro Not tainted 6.12.0-rc5 #5
+[   70.211174][ T9350] Hardware name: QEMU Ubuntu 24.04 PC (i440FX + PIIX, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+[   70.212115][ T9350] =====================================================
+[   70.212734][ T9350] Disabling lock debugging due to kernel taint
+[   70.213284][ T9350] Kernel panic - not syncing: kmsan.panic set ...
+[   70.213858][ T9350] CPU: 2 UID: 0 PID: 9350 Comm: repro Tainted: G    B              6.12.0-rc5 #5
+[   70.214679][ T9350] Tainted: [B]=BAD_PAGE
+[   70.215057][ T9350] Hardware name: QEMU Ubuntu 24.04 PC (i440FX + PIIX, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+[   70.215999][ T9350] Call Trace:
+[   70.216309][ T9350]  <TASK>
+[   70.216585][ T9350]  dump_stack_lvl+0x1fd/0x2b0
+[   70.217025][ T9350]  dump_stack+0x1e/0x30
+[   70.217421][ T9350]  panic+0x502/0xca0
+[   70.217803][ T9350]  ? kmsan_get_metadata+0x13e/0x1c0
+
+[   70.218294][ Message fromT sy9350]  kmsan_report+0x296/slogd@syzkaller 0x2aat Aug 18 22:11:058 ...
+ kernel
+:[   70.213284][ T9350] Kernel panic - not syncing: kmsan.panic [   70.220179][ T9350]  ? kmsan_get_metadata+0x13e/0x1c0
+set ...
+[   70.221254][ T9350]  ? __msan_warning+0x96/0x120
+[   70.222066][ T9350]  ? __hfsplus_ext_cache_extent+0x7d0/0x990
+[   70.223023][ T9350]  ? hfsplus_file_extend+0x74f/0x1cf0
+[   70.224120][ T9350]  ? hfsplus_get_block+0xe16/0x17b0
+[   70.224946][ T9350]  ? __block_write_begin_int+0x962/0x2ce0
+[   70.225756][ T9350]  ? cont_write_begin+0x1000/0x1950
+[   70.226337][ T9350]  ? hfsplus_write_begin+0x85/0x130
+[   70.226852][ T9350]  ? generic_perform_write+0x3e8/0x1060
+[   70.227405][ T9350]  ? __generic_file_write_iter+0x215/0x460
+[   70.227979][ T9350]  ? generic_file_write_iter+0x109/0x5e0
+[   70.228540][ T9350]  ? vfs_write+0xb0f/0x14e0
+[   70.228997][ T9350]  ? ksys_write+0x23e/0x490
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/14c673a2f3ecf650b694a52a88688f1d71849899.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/14c673a2f3ecf650b694a52a88688f1d71849899
+- https://git.kernel.org/stable/c/4840ceadef4290c56cc422f0fc697655f3cbf070
+- https://git.kernel.org/stable/c/99202d94909d323a30d154ab0261c0a07166daec
+- https://git.kernel.org/stable/c/a5bfb13b4f406aef1a450f99d22d3e48df01528c
+- https://git.kernel.org/stable/c/b8a72692aa42b7dcd179a96b90bc2763ac74576a
+
+---
+
+#### 769. CVE-2025-40349
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+hfs: validate record offset in hfsplus_bmap_alloc
+
+hfsplus_bmap_alloc can trigger a crash if a
+record offset or length is larger than node_size
+
+[   15.264282] BUG: KASAN: slab-out-of-bounds in hfsplus_bmap_alloc+0x887/0x8b0
+[   15.265192] Read of size 8 at addr ffff8881085ca188 by task test/183
+[   15.265949]
+[   15.266163] CPU: 0 UID: 0 PID: 183 Comm: test Not tainted 6.17.0-rc2-gc17b750b3ad9 #14 PREEMPT(voluntary)
+[   15.266165] Hardware name: QEMU Ubuntu 24.04 PC (i440FX + PIIX, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+[   15.266167] Call Trace:
+[   15.266168]  <TASK>
+[   15.266169]  dump_stack_lvl+0x53/0x70
+[   15.266173]  print_report+0xd0/0x660
+[   15.266181]  kasan_report+0xce/0x100
+[   15.266185]  hfsplus_bmap_alloc+0x887/0x8b0
+[   15.266208]  hfs_btree_inc_height.isra.0+0xd5/0x7c0
+[   15.266217]  hfsplus_brec_insert+0x870/0xb00
+[   15.266222]  __hfsplus_ext_write_extent+0x428/0x570
+[   15.266225]  __hfsplus_ext_cache_extent+0x5e/0x910
+[   15.266227]  hfsplus_ext_read_extent+0x1b2/0x200
+[   15.266233]  hfsplus_file_extend+0x5a7/0x1000
+[   15.266237]  hfsplus_get_block+0x12b/0x8c0
+[   15.266238]  __block_write_begin_int+0x36b/0x12c0
+[   15.266251]  block_write_begin+0x77/0x110
+[   15.266252]  cont_write_begin+0x428/0x720
+[   15.266259]  hfsplus_write_begin+0x51/0x100
+[   15.266262]  cont_write_begin+0x272/0x720
+[   15.266270]  hfsplus_write_begin+0x51/0x100
+[   15.266274]  generic_perform_write+0x321/0x750
+[   15.266285]  generic_file_write_iter+0xc3/0x310
+[   15.266289]  __kernel_write_iter+0x2fd/0x800
+[   15.266296]  dump_user_range+0x2ea/0x910
+[   15.266301]  elf_core_dump+0x2a94/0x2ed0
+[   15.266320]  vfs_coredump+0x1d85/0x45e0
+[   15.266349]  get_signal+0x12e3/0x1990
+[   15.266357]  arch_do_signal_or_restart+0x89/0x580
+[   15.266362]  irqentry_exit_to_user_mode+0xab/0x110
+[   15.266364]  asm_exc_page_fault+0x26/0x30
+[   15.266366] RIP: 0033:0x41bd35
+[   15.266367] Code: bc d1 f3 0f 7f 27 f3 0f 7f 6f 10 f3 0f 7f 77 20 f3 0f 7f 7f 30 49 83 c0 0f 49 29 d0 48 8d 7c 17 31 e9 9f 0b 00 00 66 0f ef c0 <f3> 0f 6f 0e f3 0f 6f 56 10 66 0f 74 c1 66 0f d7 d0 49 83 f8f
+[   15.266369] RSP: 002b:00007ffc9e62d078 EFLAGS: 00010283
+[   15.266371] RAX: 00007ffc9e62d100 RBX: 0000000000000000 RCX: 0000000000000000
+[   15.266372] RDX: 00000000000000e0 RSI: 0000000000000000 RDI: 00007ffc9e62d100
+[   15.266373] RBP: 0000400000000040 R08: 00000000000000e0 R09: 0000000000000000
+[   15.266374] R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000000
+[   15.266375] R13: 0000000000000000 R14: 0000000000000000 R15: 0000400000000000
+[   15.266376]  </TASK>
+
+When calling hfsplus_bmap_alloc to allocate a free node, this function
+first retrieves the bitmap from header node and map node using node->page
+together with the offset and length from hfs_brec_lenoff
+
+```
+len = hfs_brec_lenoff(node, 2, &off16);
+off = off16;
+
+off += node->page_offset;
+pagep = node->page + (off >> PAGE_SHIFT);
+data = kmap_local_page(*pagep);
+```
+
+However, if the retrieved offset or length is invalid(i.e. exceeds
+node_size), the code may end up accessing pages outside the allocated
+range for this node.
+
+This patch adds proper validation of both offset and length before use,
+preventing out-of-bounds page access. Move is_bnode_offset_valid and
+check_and_correct_requested_length to hfsplus_fs.h, as they may be
+required by other functions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/0058d20d76182861dbdd8fd6e2dd8d18d6d3becf.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/0058d20d76182861dbdd8fd6e2dd8d18d6d3becf
+- https://git.kernel.org/stable/c/068a46df3e6acc68fb9db0a6313ab379a11ecd6f
+- https://git.kernel.org/stable/c/17ed51cfce6c62cffb97059ef392ad2e0245806e
+- https://git.kernel.org/stable/c/40dfe7a4215a1f20842561ffaf5a6f83a987e75b
+- https://git.kernel.org/stable/c/418e48cab99c52c1760636a4dbe464bf6db2018b
 
 ---
