@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-通用工具库 - 去重、SQLite 数据层、Markdown 生成、GitHub/Gitee 推送、日志记录
+通用工具库 - 去重、SQLite 数据层、Markdown 生成、GitHub 推送、日志记录
 """
 import hashlib
 import json
@@ -53,8 +53,7 @@ def dedup_key(item: dict) -> str:
 def filter_new_items(category: str, items: List[dict], keep_old_methods: bool = True) -> List[dict]:
     """
     增量过滤：保留全新条目，同一key的不同方法追加记录。
-    category 示例: "network-security", "netsec-windows", "netsec-linux", "netsec-macos",
-                  "sys-vuln-windows", "sys-trouble-linux"
+    category 示例: "network-security", "sys-vuln-windows", "sys-trouble-linux"
     """
     state = load_state()
     seen = state.get(category, {})
@@ -381,11 +380,8 @@ def _git_push_secure(remote: str, branch: str, token: str, env: dict) -> bool:
         env_auth["GIT_ASKPASS"] = str(askpass)
         env_auth["PATCH_TOOLBOX_TOKEN"] = token
         env_auth["GIT_TERMINAL_PROMPT"] = "0"
-        push_url = url
-        if "gitee.com" in url:
-            push_url = url.replace("https://gitee.com/", "https://oauth2@gitee.com/", 1) if url.startswith("https://gitee.com/") else url
         result = subprocess.run(
-            ["git", "push", push_url, f"HEAD:{branch}"],
+            ["git", "push", url, f"HEAD:{branch}"],
             capture_output=True, text=True, env=env_auth,
         )
         return result.returncode == 0
@@ -434,7 +430,7 @@ def ensure_git_identity(env: dict) -> bool:
     return bool(verify_name.stdout.strip() and verify_email.stdout.strip())
 
 def git_push(msg: str = None) -> dict:
-    """推送至 GitHub 与 Gitee，返回 {github: bool, gitee: bool}
+    """推送至 GitHub，返回 {github: bool}。
 
     GitHub 操作不走代理（proxy IP 被风控），Git 环境变量自动处理。
     Token 通过 GIT_ASKPASS 临时脚本注入，避免出现在命令行或 remote URL。
@@ -450,7 +446,6 @@ def git_push(msg: str = None) -> dict:
     env_clean.pop("https_proxy", None)
 
     token_gh = os.environ.get("GITHUB_TOKEN") or _read_token_from_script()
-    token_gt = os.environ.get("GITEE_TOKEN") or _read_gitee_token_from_script()
 
     os.chdir(PROJECT_ROOT)
     subprocess.run(["git", "branch", "-M", "main"], capture_output=True, env=env_clean)
@@ -464,16 +459,16 @@ def git_push(msg: str = None) -> dict:
 
     if not ensure_git_identity(env_clean):
         log_agent("publisher", "Git identity missing and fallback setup failed")
-        return {"github": False, "gitee": False}
+        return {"github": False}
 
     # git commit
     result = subprocess.run(["git", "commit", "-m", msg], capture_output=True, text=True, env=env_clean)
     if result.returncode != 0:
         if "nothing to commit" in result.stdout or "nothing to commit" in result.stderr:
             log_agent("publisher", "Nothing to commit")
-            return {"github": True, "gitee": True}
+            return {"github": True}
         log_agent("publisher", f"Git commit failed: {result.stderr}")
-        return {"github": False, "gitee": False}
+        return {"github": False}
 
     # ---- GitHub push ----
     github_ok = False
@@ -490,16 +485,7 @@ def git_push(msg: str = None) -> dict:
         else:
             log_agent("publisher", "GitHub push failed")
 
-    # ---- Gitee push ----
-    gitee_ok = False
-    if github_ok:
-        if _git_push_secure("gitee", "main", token_gt, env_clean):
-            gitee_ok = True
-            log_agent("publisher", "Gitee push OK")
-        else:
-            log_agent("publisher", "Gitee push failed")
-
-    return {"github": github_ok, "gitee": gitee_ok}
+    return {"github": github_ok}
 
 
 def _read_token_from_script() -> str:
@@ -509,21 +495,6 @@ def _read_token_from_script() -> str:
         return result.stdout.strip()
     raise RuntimeError("GITHUB_TOKEN not found")
 
-
-def _read_gitee_token_from_script() -> str:
-    """优先读取 ~/.openclaw/secrets/get-secret.sh，兼容旧路径 ~/.gitee/get-token.sh"""
-    script_new = Path.home() / ".openclaw" / "secrets" / "get-secret.sh"
-    if script_new.exists():
-        result = subprocess.run(["bash", str(script_new), "gitee_token"], capture_output=True, text=True)
-        token = result.stdout.strip()
-        if token:
-            return token
-    # 兼容旧路径
-    script_old = Path.home() / ".gitee" / "get-token.sh"
-    if script_old.exists():
-        result = subprocess.run(["bash", str(script_old)], capture_output=True, text=True)
-        return result.stdout.strip()
-    raise RuntimeError("GITEE_TOKEN not found")
 
 # ---- Restored helper functions required by sync scripts ----
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Sync Script: Publisher
-汇总同步结果，从SQLite重新生成MD，推送GitHub+Gitee。
+汇总同步结果，从SQLite重新生成MD，推送GitHub。
 """
 import sys
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
@@ -151,21 +151,16 @@ def run():
     write_md_file(AGENTS_DIR / f"report_{today}.md", report_md)
     log_sync(SYNC_NAME, "Report generated")
 
-    # 5. GitHub + Gitee 双推
+    # 5. GitHub 推送
     push_result = git_push(f"update: {today} — {total_new} new, {total_all} total")
     gh_ok = push_result.get("github", False)
-    gt_ok = push_result.get("gitee", False)
     if gh_ok:
         log_sync(SYNC_NAME, "GitHub push successful")
     else:
         log_sync(SYNC_NAME, "GitHub push failed or nothing to commit")
-    if gt_ok:
-        log_sync(SYNC_NAME, "Gitee push successful")
-    else:
-        log_sync(SYNC_NAME, "Gitee push failed")
 
     # 6. 简短文字汇报
-    push_status = "✅ GitHub+Gitee" if (gh_ok and gt_ok) else ("✅ GitHub ❌ Gitee" if gh_ok else ("❌ GitHub ✅ Gitee" if gt_ok else "❌ 全部失败"))
+    push_status = "✅ GitHub" if gh_ok else "❌ GitHub"
     summary = f"""📋 汇报 | Report
 ━━━━━━━━━━━━━━━━━━━━━
 🛡️ 网络安全漏洞: +{reports['network-security']['new_items']} (累计 {sqlite_counts.get('network-security', 0)})
@@ -182,7 +177,7 @@ def run():
         f.write(summary)
 
     log_sync(SYNC_NAME, "Publisher run complete")
-    return {"total_new": total_new, "total_all": total_all, "github_ok": gh_ok, "gitee_ok": gt_ok, "errors": len(all_errors)}
+    return {"total_new": total_new, "total_all": total_all, "github_ok": gh_ok, "errors": len(all_errors)}
 
 
 if __name__ == "__main__":

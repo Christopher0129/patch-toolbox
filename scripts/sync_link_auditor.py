@@ -230,11 +230,9 @@ def run():
         push_ok = git_push(f"link-audit: fixed {fixed} files with missing navigation links")
         if isinstance(push_ok, dict):
             github_ok = bool(push_ok.get("github", False))
-            gitee_ok = bool(push_ok.get("gitee", False))
         else:
             github_ok = bool(push_ok)
-            gitee_ok = False
-        log_sync(SYNC_NAME, f"GitHub push: {'OK' if github_ok else 'FAIL'}; Gitee push: {'OK' if gitee_ok else 'FAIL'}")
+        log_sync(SYNC_NAME, f"GitHub push: {'OK' if github_ok else 'FAIL'}")
     
     log_sync(SYNC_NAME, "Link audit complete")
     return custom_report
