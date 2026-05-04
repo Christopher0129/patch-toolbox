@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1413**
+**总计条目 / Total entries: 1431**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -22498,5 +22498,239 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210112#reply8
+
+---
+
+#### 1414. Do 3rd party apps (eg shottr) significantly slow down a mac?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t36opb/do_3rd_party_apps_eg_shottr_significantly_slow/
+
+---
+
+#### 1415. Bing Randomly Became Default Browser for Safari
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t34vu7/bing_randomly_became_default_browser_for_safari/
+
+---
+
+#### 1416. M5 MacBook Air 15-inch" (2026): 13 games tested - Andrew Tsai
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t34m13/m5_macbook_air_15inch_2026_13_games_tested_andrew/
+
+---
+
+#### 1417. I created an app to make on device AI accessible to everyone. Meet Perspective Intelligence!
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t35q78/i_created_an_app_to_make_on_device_ai_accessible/
+
+---
+
+#### 1418. How to globally block an IMEI number.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t374oz/how_to_globally_block_an_imei_number/
+
+---
+
+#### 1419. photos lost after apple ID change
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t3788s/photos_lost_after_apple_id_change/
+
+---
+
+#### 1420. Clicked a link and tried to sign in but couldn’t, am I ok?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t3706p/clicked_a_link_and_tried_to_sign_in_but_couldnt/
+
+---
+
+#### 1421. Why is it telling me to setup a voicemail when I’m already able to record my greeting?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t36j6h/why_is_it_telling_me_to_setup_a_voicemail_when_im/
+
+---
+
+#### 1422. ¿A alguien más le pasa esto en el iPhone 17 base, además de los pro y pro Max? (creo que es bastante común)
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t35p32/a_alguien_más_le_pasa_esto_en_el_iphone_17_base/
+
+---
+
+#### 1423. iCloud was unable to fully sync after migration assistant from a Windows PC. Issue fixed
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t353zt/icloud_was_unable_to_fully_sync_after_migration/
+
+---
+
+#### 1424. [V2EX] apns（苹果消息服务）推送异常后目前所做的努力
+
+**问题描述 / Problem Description**:
+按照 https://support.apple.com/zh-cn/102266 信息，以及论坛上大佬们提供的域名，做了个 rule-set ，方便工具接入使用 地址： https://raw.githubusercontent.com/mrbruce516/apns-fix/refs/heads/main/Apple_APNs.list 指向外面的节. 即可 目前测试下来，最近并非所有海外 app 都受限制，我的 PlayStation app 、gemini 等可以正常收到消息，所以猜测是苹果针对部分 app 的 Bundle ID 结合设备终端 *.push.apple.com 请求头
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210130#reply18
+
+---
+
+#### 1425. [V2EX] 苹果的信号是我误解了吗
+
+**问题描述 / Problem Description**:
+昨天去大运看演唱会，我隔壁的一个香港大姐全程都在发视频，无任何卡顿，而且我看她微信从来没有转圈圈过。看信号是全球通，双卡，手机 pin 是四位的，这个是不是意味着她的手机是比较旧款的 iPhone 。我自己的是 iPhone 15 PRO MAX 联通流量，一张图都发不出去。 突然深深的怀疑我过去十来年对 iPhone 信号差的观点是错的，问题出在哪里？我也想像她一样在高峰期有好的网络体验。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210120#reply44
+
+---
+
+#### 1426. [V2EX] Mac mini 配显示器，上 5K 还是高刷更重要？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210057#reply36
+
+---
+
+#### 1427. [V2EX] 大疆 Pocket 4 好难抢，是饥饿营销还是真缺货？
+
+**问题描述 / Problem Description**:
+每天都是秒没，比我 24 年抢 Mac mini 还难……难道只能加价从第三方商家购买了么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210171#reply3
+
+---
+
+#### 1428. [V2EX] 虽然是老生常谈，但还是求教 2026 年笔记软件如何选择
+
+**问题描述 / Problem Description**:
+脱离需求的提问是空洞的。 我需要： 目录结构清晰 + 权限控制 + 分页面享 内容格式支持性好 国内方便同步 有 AI 相关功能 不臃肿 能剪切网页 写完才意识到，我似乎需要的是独立的飞书文档
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210148#reply28
+
+---
+
+#### 1429. [V2EX] deepseek v4，实际写代码，跟 opus4.6 和 gpt5.4 相比怎么样
+
+**问题描述 / Problem Description**:
+成本，效果
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210126#reply9
+
+---
+
+#### 1430. [V2EX] 你们怎么看待律师这个群体？
+
+**问题描述 / Problem Description**:
+最近一个朋友被公司单方面解聘，不给赔偿，于是请了律师，交了钱几乎不管了，仲裁那边，也没什么用。 我自己也用过两次律师 一次是老家土地纠纷 一次是房子质量问题告开发商 也是同样情况，律师事务所的律师收钱不办事 我自己是对这个群体非常厌恶。可以说是痛恨。 心里对这个群体非常反感，有一种想用锤子敲开他们脑袋的冲动
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210099#reply16
+
+---
+
+#### 1431. [V2EX] vibe coding 了一个 AI API 测速工具
+
+**问题描述 / Problem Description**:
+https://github.com/qingmuhy744/TokenMeter 纯用 AI 写了个用于测速的工具，还在 demo 阶段，用途是显示搁家 API 的输出速度。 这个是我用的 coding plan 的测速结果 https://code.yangyangx.top/status 比较简陋，也没有仔细是做 code review ，所以仅供娱乐。 速度是个很好量化的指标，质量啥的怎么检测，我也在研究。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210087#reply3
 
 ---

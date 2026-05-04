@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1828**
+**总计条目 / Total entries: 1845**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -31545,5 +31545,226 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210021#reply41
+
+---
+
+#### 1829. How easy is it to install Linux dual boot on a dell laptop with Windows 11? What are the steps and options?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t36atp/how_easy_is_it_to_install_linux_dual_boot_on_a/
+
+---
+
+#### 1830. Every distro fails to install to HDD
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t36nu4/every_distro_fails_to_install_to_hdd/
+
+---
+
+#### 1831. Switching from Windows to Linux, Need advice on files.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t36ey3/switching_from_windows_to_linux_need_advice_on/
+
+---
+
+#### 1832. Help installing bottles
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t35azi/help_installing_bottles/
+
+---
+
+#### 1833. Mice and Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3586m/mice_and_linux/
+
+---
+
+#### 1834. https://status.canonical.com/ lies since yesterday
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t35yxy/httpsstatuscanonicalcom_lies_since_yesterday/
+
+---
+
+#### 1835. Caffeine not working on 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t35iuo/caffeine_not_working_on_2604/
+
+---
+
+#### 1836. Kernel upgrade required: 6.8.0.55.57-generic
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t359gz/kernel_upgrade_required_6805557generic/
+
+---
+
+#### 1837. Currently working in tech support. Considering moving to Linux. Any suggestions?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t36z1w/currently_working_in_tech_support_considering/
+
+---
+
+#### 1838. Guide me for optimal versions for 3D and video games
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t34f23/guide_me_for_optimal_versions_for_3d_and_video/
+
+---
+
+#### 1839. [V2EX] ubuntu 24.04 今天点击更新后，蓝牙鼠标不能用了。
+
+**问题描述 / Problem Description**:
+如题，更新完右上角的蓝牙图标和其他图标不断闪烁，蓝牙模式不能用，2.4G 可以，这是啥问题，是自动更新内核导致蓝牙驱动崩溃了吗，这时候 V2EX 怎么能发图片呢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210138#reply7
+
+---
+
+#### 1840. [V2EX] Claude Code 怎么使用 openai 兼容接口啊
+
+**问题描述 / Problem Description**:
+就是以前那种 v1/chat/completions 的接口 这玩意 curl 调用是 ok 的,但是怎么都配置不好,有没有大佬能给点帮助,配置起来让 claude code 可以用 直接修改 json 文件是不行的吧 ccswitch 配置了,开启了代理模式,也不行,一直报错 不知道怎么回事? 附大模型如下: curl --request POST --url https://api.edgefn.net/v1/chat/completions --header 'Authorization: Bearer sk-ua0Ck8DmT7foGf2u22685eAf65D04b3eBd571c7
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210115#reply6
+
+---
+
+#### 1841. [V2EX] 都说 Anthropic 不做人，现在国产模型厂也不做人
+
+**问题描述 / Problem Description**:
+潜水老玩意冒出来…首帖没想到竟是吐槽 事情是这样的… 某 G 开头的模型厂的 coding plan, 4/22 号改了用户协议，4/30 号老 plan 下架。 我今天 （ 5/3 ）登陆控制台才看到弹窗。 老 plan 每 5 小时 600 次调用，没有 weekly cap ，新 plan 每五小时 400 次，weekly cap 2000. 说是送两个月“同等级”套餐，首先上面的五小时调用就不是“同等级”了。另外我前面猛猛写的时候一天写 12 小时…老套餐理论 cap 是每周 19800 次，就算我按 10 小时的 cap 算，就算一周写 6 天，那是 600 * 2 * 6 = 7
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210113#reply38
+
+---
+
+#### 1842. [V2EX] 嘚瑟一下，有一个 gmail 账号可以改用户名了
+
+**问题描述 / Problem Description**:
+之前试了一个账号，更新成功了，又尝试了另一个账号，依然可以，但我就是不修改，气不气人！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210089#reply21
+
+---
+
+#### 1843. [V2EX] 封号丢了 Claude 对话数据？曲线救国系列之让 Copilot 达到 Claude 网页对话的效果
+
+**问题描述 / Problem Description**:
+为 GitHub Copilot 网页版补上 SVG 显示能力：一个不成熟的油猴脚本 我最常用的网页 AI 是 ChatGPT 。 但前段时间因为有 giffgaff 的卡，就尝试着使用了 Claude 网页版。结果顿时惊为天人： 用 ChatGPT 的时候，原来过的是苦日子啊。 然后我就用着 Claude Free 版本和 Claude 网页彻夜长谈。 不是付不起 Claude Pro ，只是一直听大家说 Claude 封号封得厉害，所以我就先观望一下，看看是不是真的能封到我。 不出所料，大概五天不到，账号就被封了。 哇，真的很难受。 倒不是说号没了有多严重，而是： 对话记录没了。 这个很伤
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210085#reply7
+
+---
+
+#### 1844. [V2EX] 买了一台 256G 显存, 96G 内存电脑放家里, 如何对外出租出售剩余算力?
+
+**问题描述 / Problem Description**:
+打算通过 ddns 搞一个出租页面, 可以在平时不用的时候把算力出租出去回点血, 请问这个方案可行吗?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210021#reply42
+
+---
+
+#### 1845. [V2EX] 有没有必要开个 claude code 体验下呢
+
+**问题描述 / Problem Description**:
+之前是做测试的，一直没正经用过 claude code 。本来也不是啥正经码农，就是最近会没事玩玩 github 项目，改改代码之类的。之前一直在白嫖腾讯家的那俩龙虾，最好的模型就是 glm5.1 吧。用起来有时候也觉得一般，在我不看代码的情况下有可能会卡在一个问题上反复修改，体验挺差的。所以在想要不要试试高级的到底啥样，都说现在封号厉害，还有靠谱的渠道吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210019#reply10
 
 ---
