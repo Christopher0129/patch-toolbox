@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 834**
+**总计条目 / Total entries: 840**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -12398,5 +12398,77 @@ Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability
 **参考链接 / References**:
 - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29332
 - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29332
+
+---
+
+#### 835. [local] Linux Kernel proc_readdir_de() 6.18-rc5 - Local Privilege Escalation
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Linux Kernel proc_readdir_de() 6.18-rc5 - Local Privilege Escalation
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52550
+
+---
+
+#### 836. [local] Linux nf_tables 6.19.3 - Local Privilege Escalation
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Linux nf_tables 6.19.3 - Local Privilege Escalation
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52549
+
+---
+
+#### 837. [hardware] Linksys E1200 2.0.04 - Authenticated Stack Buffer Overflow (RCE)
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Linksys E1200 2.0.04 - Authenticated Stack Buffer Overflow (RCE)
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52548
+
+---
+
+#### 838. [webapps] MindsDB  25.9.1.1 - Path Traversal
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] MindsDB 25.9.1.1 - Path Traversal
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52547
+
+---
+
+#### 839. [local] Windows 11 24H2 - Local Privilege Escalation
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Windows 11 24H2 - Local Privilege Escalation
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52546
+
+---
+
+#### 840. [webapps] Traccar GPS Tracking System 6.11.1 - Cross-Site WebSocket Hijacking (CSWSH)
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Traccar GPS Tracking System 6.11.1 - Cross-Site WebSocket Hijacking (CSWSH)
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52545
 
 ---

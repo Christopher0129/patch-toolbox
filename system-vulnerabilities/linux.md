@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 959**
+**总计条目 / Total entries: 962**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -17312,5 +17312,53 @@ Apply SUSE security patch via zypper or YaST Online Update.
 
 **参考链接 / References**:
 - https://lists.suse.com/pipermail/sle-security-updates/2026-May.txt
+
+---
+
+#### 960. [Ubuntu] USN-8229-1: sed vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Michał Majchrowicz and Marcin Wyczechowski discovered that sed incorrectly handled symbolic links when performing in-place edits. A local attacker could possibly use this issue to overwrite arbitrary files.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8229-1
+
+---
+
+#### 961. [Ubuntu] USN-8228-1: Exim vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Exim incorrectly handled parsing malformed JSON in message headers. A remote attacker could possibly use this issue to execute arbitrary code. (CVE-2026-40685) It was discovered that Exim incorrectly handled processing of UTF-8 trailing characters. A remote attacker could possibly use this issue to obtain sensitive information. (CVE-2026-40686) It was discovered that Exim in
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8228-1
+
+---
+
+#### 962. [Ubuntu] USN-8227-1: curl vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that curl incorrectly reused non-TLS connections when TLS was required in some STARTTLS configurations. A remote attacker could possibly use this issue to obtain sensitive information. (CVE-2026-4873) It was discovered that curl incorrectly reused certain HTTP Negotiate connections. A remote attacker could possibly use this issue to obtain sensitive information. (CVE-2026-5545) I
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8227-1
 
 ---
