@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2005**
+**总计条目 / Total entries: 2056**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -33846,5 +33846,668 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1209966#reply2
+
+---
+
+#### 2006. Do you contribute to a Linux project regularly? Do you consider yourself part of a community?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t3pmxl/do_you_contribute_to_a_linux_project_regularly_do/
+
+---
+
+#### 2007. Chawan, light terminal-based browser with some CSS and JS (it is not mine, but I think it is very interesting)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t3n7ow/chawan_light_terminalbased_browser_with_some_css/
+
+---
+
+#### 2008. Distro Hopper's Rejoice - Home Directory Migration Script
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t3w1t9/distro_hoppers_rejoice_home_directory_migration/
+
+---
+
+#### 2009. Lost the spark tbh
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t3oqo9/lost_the_spark_tbh/
+
+---
+
+#### 2010. Dual boot broke after Windows update. How do I fix GRUB without reinstalling Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3qnsp/dual_boot_broke_after_windows_update_how_do_i_fix/
+
+---
+
+#### 2011. Looking for temporary "linux on a stick" solution; a user-friendly one that'll let my friend check her email and browse a bit while we sort out her hardware problem. Bonus points if it helps me do hardware diagnostics.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3mcqf/looking_for_temporary_linux_on_a_stick_solution_a/
+
+---
+
+#### 2012. Wayland alternatives to driftwm?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3vaou/wayland_alternatives_to_driftwm/
+
+---
+
+#### 2013. Atomic distros for devs: (How) do you maintain shared utils?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3uzfj/atomic_distros_for_devs_how_do_you_maintain/
+
+---
+
+#### 2014. Need help desperately, wifi issues
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3tadf/need_help_desperately_wifi_issues/
+
+---
+
+#### 2015. I need some help installing linux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3t988/i_need_some_help_installing_linux/
+
+---
+
+#### 2016. Do you recommend Pop!OS?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3t942/do_you_recommend_popos/
+
+---
+
+#### 2017. Seeking advice on cross-compiling Windows PEs (EXE/DLL) natively on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3rp8c/seeking_advice_on_crosscompiling_windows_pes/
+
+---
+
+#### 2018. Distro Hopper's Rejoice - Home Directory Migration Script
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3w8xd/distro_hoppers_rejoice_home_directory_migration/
+
+---
+
+#### 2019. Linux Mint not showing my Windows To Go boot option.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3w5af/linux_mint_not_showing_my_windows_to_go_boot/
+
+---
+
+#### 2020. Doesn’t identify WiFi or Bluetooth
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3v53e/doesnt_identify_wifi_or_bluetooth/
+
+---
+
+#### 2021. XP-Pen Deco 03 on Linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3v1x8/xppen_deco_03_on_linux/
+
+---
+
+#### 2022. Is there a already customized Niri to install?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3oe6c/is_there_a_already_customized_niri_to_install/
+
+---
+
+#### 2023. Linux Mint Cinnamon cursor blinking
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3sy7g/linux_mint_cinnamon_cursor_blinking/
+
+---
+
+#### 2024. Problems with The Binding of Isaac in Linux Ubuntu 24.04
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3svoj/problems_with_the_binding_of_isaac_in_linux/
+
+---
+
+#### 2025. [KDE Neon Plasma] Unable to mount M2 disk with NTFS file system
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3s8mf/kde_neon_plasma_unable_to_mount_m2_disk_with_ntfs/
+
+---
+
+#### 2026. Should I reformat my external drives to exFat to prevent Linux files from disappearing?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3s6yy/should_i_reformat_my_external_drives_to_exfat_to/
+
+---
+
+#### 2027. Minimal Debian install on Thinkpad X1 Extreme quite laggy. HW issue or misconfigured?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3rej0/minimal_debian_install_on_thinkpad_x1_extreme/
+
+---
+
+#### 2028. Linux on portable ssd
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3qu4l/linux_on_portable_ssd/
+
+---
+
+#### 2029. Is launchpad down again?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3njhi/is_launchpad_down_again/
+
+---
+
+#### 2030. UFW on Ubuntu Server 24.04 LTS
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3s65z/ufw_on_ubuntu_server_2404_lts/
+
+---
+
+#### 2031. is there any way to download gameloop on ubuntu 25.4?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3nnyw/is_there_any_way_to_download_gameloop_on_ubuntu/
+
+---
+
+#### 2032. Help installing Ubuntu 26LTS
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3ni8p/help_installing_ubuntu_26lts/
+
+---
+
+#### 2033. Stuck on fetching headers
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3q4qo/stuck_on_fetching_headers/
+
+---
+
+#### 2034. Could not upgrade my Ubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3ujb4/could_not_upgrade_my_ubuntu/
+
+---
+
+#### 2035. Ubuntu Performance Issues: 100% Disk Usage and No NVIDIA GPU Support
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3tg0n/ubuntu_performance_issues_100_disk_usage_and_no/
+
+---
+
+#### 2036. U26.04 virtualization performance feedback request
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3t6r9/u2604_virtualization_performance_feedback_request/
+
+---
+
+#### 2037. Help
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3oo6e/help/
+
+---
+
+#### 2038. Can't get Iriun Webcam to start
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3ncjf/cant_get_iriun_webcam_to_start/
+
+---
+
+#### 2039. Should I switch the Ubuntu partition of my dual boot to CachyOS?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t3nnl7/should_i_switch_the_ubuntu_partition_of_my_dual/
+
+---
+
+#### 2040. Installed Bazzite OS on one SSD, now my other separate Windows SSD doesn't show up in the BIOS
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t3slxf/installed_bazzite_os_on_one_ssd_now_my_other/
+
+---
+
+#### 2041. Laptops with free DOS
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t3rxfo/laptops_with_free_dos/
+
+---
+
+#### 2042. Debian 13: blank screen
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t3ok9m/debian_13_blank_screen/
+
+---
+
+#### 2043. Matcha, a modern, secure terminal email client
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t3mkso/matcha_a_modern_secure_terminal_email_client/
+
+---
+
+#### 2044. eilmeldung (TUI RSS reader) is now available on Windows, NetBSD, Linux and macOS
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t3nmtw/eilmeldung_tui_rss_reader_is_now_available_on/
+
+---
+
+#### 2045. Gloss - a local-first command glossary for your terminal.
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t3uqc5/gloss_a_localfirst_command_glossary_for_your/
+
+---
+
+#### 2046. Tide: a clean TUI RSS reader made with Bubble Tea/Lipgloss.
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t3vfje/tide_a_clean_tui_rss_reader_made_with_bubble/
+
+---
+
+#### 2047. Zero Dependency TUI Library for TypeScript
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t3rylh/zero_dependency_tui_library_for_typescript/
+
+---
+
+#### 2048. argrelay - a CLI args search and input server
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t3otdj/argrelay_a_cli_args_search_and_input_server/
+
+---
+
+#### 2049. spectrum: audio visualizer in your terminal for windows (zero dependencies)
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t3ogxc/spectrum_audio_visualizer_in_your_terminal_for/
+
+---
+
+#### 2050. [V2EX] ubuntu 24.04 今天点击更新后，蓝牙鼠标不能用了。
+
+**问题描述 / Problem Description**:
+如题，更新完右上角的蓝牙图标和其他图标不断闪烁，蓝牙模式不能用，2.4G 可以，这是啥问题，是自动更新内核导致蓝牙驱动崩溃了吗，这时候 V2EX 怎么能发图片呢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210138#reply12
+
+---
+
+#### 2051. [V2EX] 使用 auto-cpufreq 平衡 Linux 性能功耗
+
+**问题描述 / Problem Description**:
+在 Fedora Linux 下，调整系统使用 auto-cpufreq 速度和功耗优化器。 搭载 Intel Core Ultra 7 255H 处理器的设备，离电状态进行日常网页浏览、写作和听音乐等轻度任务时的功耗表现，基本维持在 10W 左右。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1206814#reply7
+
+---
+
+#### 2052. [V2EX] 之前分享的临时文件分享平台更新了一版，支持星签口令、更短的链接，欢迎大家体验新版
+
+**问题描述 / Problem Description**:
+前情提要： https://www.v2ex.com/t/1208698 http://share.dedyn.io/ 这次比较明显的变化： 1.新增「星签口令」 上传完成后，除了普通分享链接，也可以复制一段星签口令文案。对方打开口令页后，直接粘贴整段内容就能跳到对应下载页。 适合在聊天软件里转发，不一定非要贴完整 URL 。 示例： ✨ AURASHARE 星签 我给你留了一份文件：《一剪即现》.mp4 （ 7.0 MB ） 口令：悲挨篡焕 囊愁也僳 闰廉甄外 专无绵这 谅蒸幌俱 毕流髓私 膏艺捣竣 爱叠罕拆 痔差莫菩 维她奄拐 耐棘哭挠 阂擂钩酉 坊缔位欠 皿巴砂购 剐伸延涣 熄捻区宋 覆
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210253#reply0
+
+---
+
+#### 2053. [V2EX] Vibe Coding 手搓了个 macos 的用量查看应用
+
+**问题描述 / Problem Description**:
+平时用 codex 和 cc + glm ，订阅了一堆服务，每天都要到各个网站查看很多次用量。 于是干脆手搓了一个 UsageBoard App ，用来查看所有订阅的用量。 目前支持 Codex 、智谱（ ZAI ）、DeepSeek 、MiniMax 、Tavily ，全部基于官方 API 。 其中 Codex 和智谱支持查看 token 用量统计图表，智谱用的官方 API ，Codex 基于本地会话分析。 功能特性 菜单栏常驻，点击图标打开快速预览。 支持分组展示和标签页展示。 支持手动刷新、定时刷新、单卡片刷新、退出按钮。 插件化用量查询，插件可独立配置刷新间隔和参数。 插件图标支持，从
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210246#reply1
+
+---
+
+#### 2054. [V2EX] 大疆 action6 如何拍片加上 action 6 的水印?
+
+**问题描述 / Problem Description**:
+折腾了好久, 还是不会.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210242#reply2
+
+---
+
+#### 2055. [V2EX] gpt 网页端和 codex 不同账号的内容可以合并吗？
+
+**问题描述 / Problem Description**:
+之前的主号付款遇到了一些问题。想开一个 ios 或者安卓的新号付款。 1 想请教下是否有工具可以实现网页端聊天记录的迁移？看网上的意思好像只能整个导出记忆？并不能迁移对话？ 2 另外 codex 的对话好像是在本地？如果是切了账号之后，可以直接读取之前的会话吗？还是需要其他操作？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210225#reply5
+
+---
+
+#### 2056. [V2EX] 当我 VIbeing 的时候遇到了一些问题
+
+**问题描述 / Problem Description**:
+我以前很享受写代码带来的心流状态。当我尝试使用 Vibe 的时候，我遇到了 AI 几乎把原来我心流夺走的情况。原来调试 bug 让我烦躁，现在也是一样的。 我现在无法享受 VIBE 带来的快感，一直都停在调试 bug 的烦躁状态。当我想要去修改功能的时候，ai 在操作，我就会不受控制的去分神，去做一些其他的事情（刷网页）然后再回来点击 ok ，然后再去分神，再去回来。一直在这种状态切换中。 我想问一下大家都是怎么做的，如何使用 vibe 编程提高效率的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210222#reply4
 
 ---
