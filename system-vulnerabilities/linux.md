@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 769**
+**总计条目 / Total entries: 922**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -13694,5 +13694,2910 @@ Apply patch from vendor. Monitor https://git.kernel.org/stable/c/0058d20d7618286
 - https://git.kernel.org/stable/c/17ed51cfce6c62cffb97059ef392ad2e0245806e
 - https://git.kernel.org/stable/c/40dfe7a4215a1f20842561ffaf5a6f83a987e75b
 - https://git.kernel.org/stable/c/418e48cab99c52c1760636a4dbe464bf6db2018b
+
+---
+
+#### 770. CVE-2020-15425
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_mod_security.php. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9742.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-742/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-742/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-742/
+
+---
+
+#### 771. CVE-2020-15426
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_migration_cpanel.php. When parsing the serverip parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9709.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-743/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-743/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-743/
+
+---
+
+#### 772. CVE-2020-15427
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_disk_usage.php. When parsing the folderName parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9713.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-744/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-744/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-744/
+
+---
+
+#### 773. CVE-2020-15428
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_crons.php. When parsing the line parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9714.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-745/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-745/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-745/
+
+---
+
+#### 774. CVE-2020-15429
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_crons.php. When parsing the user parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9716.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-746/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-746/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-746/
+
+---
+
+#### 775. CVE-2020-15430
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_list_accounts.php. When parsing the username parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9736.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-747/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-747/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-747/
+
+---
+
+#### 776. CVE-2020-15431
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_crons.php. When parsing the user parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9740.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-748/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-748/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-748/
+
+---
+
+#### 777. CVE-2020-15432
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_migration_cpanel.php. When parsing the filespace parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9743.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-749/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-749/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-749/
+
+---
+
+#### 778. CVE-2020-15433
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_php_pecl.php. When parsing the phpversion parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9715.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-750/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-750/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-750/
+
+---
+
+#### 779. CVE-2020-15434
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_php_pecl.php. When parsing the canal parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9745.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-751/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-751/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-751/
+
+---
+
+#### 780. CVE-2020-15435
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_dashboard.php. When parsing the service_start parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9719.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-752/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-752/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-752/
+
+---
+
+#### 781. CVE-2020-15606
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_admin_apis.php. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9720.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-753/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-753/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-753/
+
+---
+
+#### 782. CVE-2020-15607
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_admin_apis.php. When parsing the line parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9721.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-754/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-754/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-754/
+
+---
+
+#### 783. CVE-2020-15608
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_dashboard.php. When parsing the ai_service parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9724.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-755/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-755/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-755/
+
+---
+
+#### 784. CVE-2020-15609
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: centos-webpanel:centos_web_panel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_dashboard.php. When parsing the service_stop parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9726.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-756/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-756/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-756/
+
+---
+
+#### 785. CVE-2020-15610
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_php_pecl.php. When parsing the modulo parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9728.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-757/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-757/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-757/
+
+---
+
+#### 786. CVE-2020-15611
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_dashboard.php. When parsing the service_restart parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9734.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-758/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-758/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-758/
+
+---
+
+#### 787. CVE-2020-15612
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_ftp_manager.php. When parsing the userLogin parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9737.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-759/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-759/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-759/
+
+---
+
+#### 788. CVE-2020-15613
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_admin_apis.php. When parsing the line parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9739.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-760/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-760/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-760/
+
+---
+
+#### 789. CVE-2020-15614
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_php_pecl.php. When parsing the cha parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9718.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-761/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-761/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-761/
+
+---
+
+#### 790. CVE-2020-15615
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_ftp_manager.php. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9746.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-762/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-762/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-762/
+
+---
+
+#### 791. CVE-2020-15616
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_list_accounts.php. When parsing the package parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9706.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-763/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-763/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-763/
+
+---
+
+#### 792. CVE-2020-15617
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_list_accounts.php. When parsing the status parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9708.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-764/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-764/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-764/
+
+---
+
+#### 793. CVE-2020-15618
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_list_accounts.php. When parsing the username parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9717.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-765/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-765/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-765/
+
+---
+
+#### 794. CVE-2020-15619
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_list_accounts.php. When parsing the type parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9723.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-766/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-766/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-766/
+
+---
+
+#### 795. CVE-2020-15620
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_list_accounts.php. When parsing the id parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9741.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-767/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-767/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-767/
+
+---
+
+#### 796. CVE-2020-15621
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_mail_autoreply.php. When parsing the email parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9711.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-768/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-768/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-768/
+
+---
+
+#### 797. CVE-2020-15622
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_mail_autoreply.php. When parsing the search parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9712.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-769/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-769/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-769/
+
+---
+
+#### 798. CVE-2020-15623
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to write arbitrary files on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_mod_security.php. When parsing the archivo parameter, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9722.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-770/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-770/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-770/
+
+---
+
+#### 799. CVE-2020-15624
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_new_account.php. When parsing the domain parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9727.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-771/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-771/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-771/
+
+---
+
+#### 800. CVE-2020-15625
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_add_mailbox.php. When parsing the username parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9729.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-772/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-772/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-772/
+
+---
+
+#### 801. CVE-2020-15626
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_dashboard.php. When parsing the term parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9730.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-773/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-773/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-773/
+
+---
+
+#### 802. CVE-2020-15627
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_mail_autoreply.php. When parsing the account parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9738.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-774/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-774/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-774/
+
+---
+
+#### 803. CVE-2020-15628
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_mail_autoreply.php. When parsing the user parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9710.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.zerodayinitiative.com/advisories/ZDI-20-775/.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-775/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-775/
+
+---
+
+#### 804. CVE-2021-31316
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+The unprivileged user portal part of CentOS Web Panel is affected by a SQL Injection via the 'idsession' HTTP POST parameter.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.shielder.it/advisories/centos-web-panel-idsession-root-rce/.
+
+**参考链接 / References**:
+- https://www.shielder.it/advisories/centos-web-panel-idsession-root-rce/
+- https://www.shielder.it/advisories/centos-web-panel-idsession-root-rce/
+
+---
+
+#### 805. CVE-2021-31324
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+The unprivileged user portal part of CentOS Web Panel is affected by a Command Injection vulnerability leading to root Remote Code Execution.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.shielder.it/advisories/centos-web-panel-idsession-root-rce/.
+
+**参考链接 / References**:
+- https://www.shielder.it/advisories/centos-web-panel-idsession-root-rce/
+- https://www.shielder.it/advisories/centos-web-panel-idsession-root-rce/
+
+---
+
+#### 806. CVE-2021-41034
+
+**严重程度 / Severity**: HIGH | CVSS: 8.1
+**受影响产品 / Affected Products**: eclipse:che
+
+**漏洞描述 / Description**:
+The build of some language stacks of Eclipse Che version 6 includes pulling some binaries from an unsecured HTTP endpoint. As a consequence the builds of such stacks are vulnerable to MITM attacks that allow the replacement of the original binaries with arbitrary ones. The stacks involved are Java 8 (alpine and centos), Android and PHP. The vulnerability is not exploitable at runtime but only when building Che.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.eclipse.org/bugs/show_bug.cgi?id=540989.
+
+**参考链接 / References**:
+- https://bugs.eclipse.org/bugs/show_bug.cgi?id=540989
+- https://bugs.eclipse.org/bugs/show_bug.cgi?id=540989
+
+---
+
+#### 807. CVE-2021-20315
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.1
+**受影响产品 / Affected Products**: gnome:gnome-shell, centos:stream
+
+**漏洞描述 / Description**:
+A locking protection bypass flaw was found in some versions of gnome-shell as shipped within CentOS Stream 8, when the "Application menu" or "Window list" GNOME extensions are enabled. This flaw allows a physical attacker who has access to a locked system to kill existing applications and start new ones as the locked user, even if the session is still locked.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.redhat.com/show_bug.cgi?id=2006285.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2006285
+- https://bugzilla.redhat.com/show_bug.cgi?id=2006285
+
+---
+
+#### 808. CVE-2021-4218
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+A flaw was found in the Linux kernel’s implementation of reading the SVC RDMA counters. Reading the counter sysctl panics the system. This flaw allows a local attacker with local access to cause a denial of service while the system reboots. The issue is specific to CentOS/RHEL.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://access.redhat.com/security/cve/CVE-2021-4218.
+
+**参考链接 / References**:
+- https://access.redhat.com/security/cve/CVE-2021-4218
+- https://bugs.centos.org/view.php?id=18395
+- https://bugzilla.redhat.com/show_bug.cgi?id=2048359
+- https://access.redhat.com/security/cve/CVE-2021-4218
+- https://bugs.centos.org/view.php?id=18395
+
+---
+
+#### 809. CVE-2021-45466
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+In CWP (aka Control Web Panel or CentOS Web Panel) before 0.9.8.1107, attackers can make a crafted request to api/?api=add_server&DHCP= to add an authorized_keys text file in the /resources/ folder.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://control-webpanel.com/changelog.
+
+**参考链接 / References**:
+- https://control-webpanel.com/changelog
+- https://octagon.net/blog/2022/01/22/cve-2021-45467-cwp-centos-web-panel-preauth-rce/
+- https://control-webpanel.com/changelog
+- https://octagon.net/blog/2022/01/22/cve-2021-45467-cwp-centos-web-panel-preauth-rce/
+
+---
+
+#### 810. CVE-2021-45467
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+In CWP (aka Control Web Panel or CentOS Web Panel) before 0.9.8.1107, an unauthenticated attacker can use %00 bytes to cause /user/loader.php to register an arbitrary API key, as demonstrated by a /user/loader.php?api=1&scripts= .%00./.%00./api/account_new_create&acc=guadaapi URI. Any number of %00 instances can be used, e.g., .%00%00%00./.%00%00%00./api/account_new_create could also be used for the scripts parameter.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://control-webpanel.com/changelog.
+
+**参考链接 / References**:
+- https://control-webpanel.com/changelog
+- https://octagon.net/blog/2022/01/22/cve-2021-45467-cwp-centos-web-panel-preauth-rce/
+- https://control-webpanel.com/changelog
+- https://octagon.net/blog/2022/01/22/cve-2021-45467-cwp-centos-web-panel-preauth-rce/
+
+---
+
+#### 811. CVE-2022-44877
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+login/index.php in CWP (aka Control Web Panel or CentOS Web Panel) 7 before 0.9.8.1147 allows remote attackers to execute arbitrary OS commands via shell metacharacters in the login parameter.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://packetstormsecurity.com/files/170388/Control-Web-Panel-7-Remote-Code-Execution.html.
+
+**参考链接 / References**:
+- http://packetstormsecurity.com/files/170388/Control-Web-Panel-7-Remote-Code-Execution.html
+- http://packetstormsecurity.com/files/170820/Control-Web-Panel-Unauthenticated-Remote-Command-Execution.html
+- http://packetstormsecurity.com/files/171725/Control-Web-Panel-7-CWP7-0.9.8.1147-Remote-Code-Execution.html
+- http://seclists.org/fulldisclosure/2023/Jan/1
+- https://gist.github.com/numanturle/c1e82c47f4cba24cff214e904c227386
+
+---
+
+#### 812. CVE-2025-48703
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.0
+**受影响产品 / Affected Products**: control-webpanel:webpanel
+
+**漏洞描述 / Description**:
+CWP (aka Control Web Panel or CentOS Web Panel) before 0.9.8.1205 allows unauthenticated remote code execution via shell metacharacters in the t_total parameter in a filemanager changePerm request. A valid non-root username must be known.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://fenrisk.com/rce-centos-webpanel.
+
+**参考链接 / References**:
+- https://fenrisk.com/rce-centos-webpanel
+- https://control-webpanel.com/changelog
+- https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-48703
+
+---
+
+#### 813. CVE-1999-0363
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: suse:suse_linux, plp:line_printer_control
+
+**漏洞描述 / Description**:
+SuSE 5.2 PLP lpc program has a buffer overflow that leads to root compromise.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/328.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/328
+- http://www.securityfocus.com/bid/328
+
+---
+
+#### 814. CVE-2000-0355
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: suse:suse_linux, bent_bagger:pbpg, redhat:linux
+
+**漏洞描述 / Description**:
+pg and pb in SuSE pbpg 1.x package allows an attacker to read arbitrary files.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.novell.com/linux/security/advisories/suse_security_announce_21.html.
+
+**参考链接 / References**:
+- http://www.novell.com/linux/security/advisories/suse_security_announce_21.html
+- http://www.novell.com/linux/security/advisories/suse_security_announce_21.html
+
+---
+
+#### 815. CVE-2000-0433
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+The SuSE aaa_base package installs some system accounts with home directories set to /tmp, which allows local users to gain privileges to those accounts by creating standard user startup scripts such as profiles.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.novell.com/linux/security/advisories/suse_security_announce_47.html.
+
+**参考链接 / References**:
+- http://www.novell.com/linux/security/advisories/suse_security_announce_47.html
+- http://www.novell.com/linux/security/advisories/suse_security_announce_47.html
+
+---
+
+#### 816. CVE-2000-1016
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+The default configuration of Apache (httpd.conf) on SuSE 6.4 includes an alias for the /usr/doc directory, which allows remote attackers to read package documentation and obtain system configuration information via an HTTP request for the /doc/packages URL.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/84360.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/archive/1/84360
+- http://www.securityfocus.com/bid/1707
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/5276
+- http://www.securityfocus.com/archive/1/84360
+- http://www.securityfocus.com/bid/1707
+
+---
+
+#### 817. CVE-2001-0109
+
+**严重程度 / Severity**: N/A | CVSS: 1.2
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+rctab in SuSE 7.0 and earlier allows local users to create or overwrite arbitrary files via a symlink attack on the rctmp temporary file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-01/0226.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2001-01/0226.html
+- http://archives.neohapsis.com/archives/bugtraq/2001-01/0272.html
+- http://www.securityfocus.com/bid/2207
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/5945
+- http://archives.neohapsis.com/archives/bugtraq/2001-01/0226.html
+
+---
+
+#### 818. CVE-2001-0918
+
+**严重程度 / Severity**: N/A | CVSS: 5.1
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+Vulnerabilities in CGI scripts in susehelp in SuSE 7.2 and 7.3 allow remote attackers to execute arbitrary commands by not opening files securely.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.novell.com/linux/security/advisories/2001_041_susehelp_txt.html.
+
+**参考链接 / References**:
+- http://www.novell.com/linux/security/advisories/2001_041_susehelp_txt.html
+- http://www.securityfocus.com/bid/3576
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/7583
+- http://www.novell.com/linux/security/advisories/2001_041_susehelp_txt.html
+- http://www.securityfocus.com/bid/3576
+
+---
+
+#### 819. CVE-2002-0758
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+ifup-dhcp script in the sysconfig package for SuSE 8.0 allows remote attackers to execute arbitrary commands via spoofed DHCP responses, which are stored and executed in a file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.iss.net/security_center/static/9040.php.
+
+**参考链接 / References**:
+- http://www.iss.net/security_center/static/9040.php
+- http://www.novell.com/linux/security/advisories/2002_016_sysconfig_txt.html
+- http://www.securityfocus.com/bid/4695
+- http://www.iss.net/security_center/static/9040.php
+- http://www.novell.com/linux/security/advisories/2002_016_sysconfig_txt.html
+
+---
+
+#### 820. CVE-2002-0762
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+shadow package in SuSE 8.0 allows local users to destroy the /etc/passwd and /etc/shadow files or assign extra group privileges to some users by changing filesize limits before calling programs that modify the files.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.iss.net/security_center/static/9102.php.
+
+**参考链接 / References**:
+- http://www.iss.net/security_center/static/9102.php
+- http://www.novell.com/linux/security/advisories/2002_17_shadow.html
+- http://www.securityfocus.com/bid/4757
+- http://www.iss.net/security_center/static/9102.php
+- http://www.novell.com/linux/security/advisories/2002_17_shadow.html
+
+---
+
+#### 821. CVE-2002-0768
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: suse:suse_linux, luke_mewburn:lukemftp
+
+**漏洞描述 / Description**:
+Buffer overflow in lukemftp FTP client in SuSE 6.4 through 8.0, and possibly other operating systems, allows a malicious FTP server to execute arbitrary code via a long PASV command.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.iss.net/security_center/static/9130.php.
+
+**参考链接 / References**:
+- http://www.iss.net/security_center/static/9130.php
+- http://www.novell.com/linux/security/advisories/2002_18_lukemftp.html
+- http://www.iss.net/security_center/static/9130.php
+- http://www.novell.com/linux/security/advisories/2002_18_lukemftp.html
+
+---
+
+#### 822. CVE-2002-0854
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+Buffer overflows in ISDN Point to Point Protocol (PPP) daemon (ipppd) in the i4l package on SuSE 7.3, 8.0, and possibly other operating systems, may allow local users to gain privileges.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://lists.opensuse.org/opensuse-security-announce/2002-08/msg00006.html.
+
+**参考链接 / References**:
+- https://lists.opensuse.org/opensuse-security-announce/2002-08/msg00006.html
+- https://lists.opensuse.org/opensuse-security-announce/2002-08/msg00006.html
+
+---
+
+#### 823. CVE-2003-0144
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: openbsd:openbsd, bsd:lpr, lprold:lprold, freebsd:freebsd
+
+**漏洞描述 / Description**:
+Buffer overflow in the lprm command in the lprold lpr package on SuSE 7.1 through 7.3, OpenBSD 3.2 and earlier, and possibly other operating systems, allows local users to gain root privileges via long command line arguments such as (1) request ID or (2) user name.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor ftp://ftp.openbsd.org/pub/OpenBSD/patches/3.2/common/010_lprm.patch.
+
+**参考链接 / References**:
+- ftp://ftp.openbsd.org/pub/OpenBSD/patches/3.2/common/010_lprm.patch
+- ftp://patches.sgi.com/support/free/security/advisories/20030406-02-P
+- http://marc.info/?l=bugtraq&m=104690434504429&w=2
+- http://marc.info/?l=bugtraq&m=104714441925019&w=2
+- http://secunia.com/advisories/8293
+
+---
+
+#### 824. CVE-2003-0846
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+SuSEconfig.javarunt in the javarunt package on SuSE Linux 7.3Pro allows local users to overwrite arbitrary files via a symlink attack on the .java_wrapper temporary file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=106546177518140&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=106546177518140&w=2
+- http://marc.info/?l=bugtraq&m=106546531922379&w=2
+- http://marc.info/?l=bugtraq&m=106546177518140&w=2
+- http://marc.info/?l=bugtraq&m=106546531922379&w=2
+
+---
+
+#### 825. CVE-2003-0847
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+SuSEconfig.susewm in the susewm package on SuSE Linux 8.2Pro allows local users to overwrite arbitrary files via a symlink attack on the susewm.$$ temporary file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=106545972615578&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=106545972615578&w=2
+- http://marc.info/?l=bugtraq&m=106546531922379&w=2
+- http://marc.info/?l=bugtraq&m=106545972615578&w=2
+- http://marc.info/?l=bugtraq&m=106546531922379&w=2
+
+---
+
+#### 826. CVE-2003-1399
+
+**严重程度 / Severity**: N/A | CVSS: 1.9
+**受影响产品 / Affected Products**: eject:eject
+
+**漏洞描述 / Description**:
+eject 2.0.10, when installed setuid on systems such as SuSE Linux 7.3, generates different error messages depending on whether a specified file exists or not, which allows local users to obtain sensitive information.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2003-02/0278.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2003-02/0278.html
+- http://www.securityfocus.com/bid/6914
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/11380
+- http://archives.neohapsis.com/archives/bugtraq/2003-02/0278.html
+- http://www.securityfocus.com/bid/6914
+
+---
+
+#### 827. CVE-2003-1538
+
+**严重程度 / Severity**: N/A | CVSS: 6.4
+**受影响产品 / Affected Products**: suse:suse_linux, suse:office_server, suse:suse_linux_openexchange_server
+
+**漏洞描述 / Description**:
+susehelp in SuSE Linux 8.1, Enterprise Server 8, Office Server, and Openexchange Server 4 does not properly filter shell metacharacters, which allows remote attackers to execute arbitrary commands via CGI queries.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/7906.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/7906
+- http://www.novell.com/linux/security/advisories/2003_005_susehelp.html
+- http://www.securitytracker.com/id?1005954
+- http://secunia.com/advisories/7906
+- http://www.novell.com/linux/security/advisories/2003_005_susehelp.html
+
+---
+
+#### 828. CVE-2004-2133
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: cvsup:cvsup
+
+**漏洞描述 / Description**:
+Certain third-party packages for CVSup 16.1h, such as SuSE Linux, contain untrusted paths in the ELF RPATH fields of certain executables, which could allow local users to execute arbitrary code by causing cvsup to link against malicious libraries that are created in world-writable directories such as /usr/src/packages.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2004-q1/0025.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/vulnwatch/2004-q1/0025.html
+- http://marc.info/?l=bugtraq&m=107539776002450&w=2
+- http://www.securityfocus.com/bid/9523
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/14994
+- http://archives.neohapsis.com/archives/vulnwatch/2004-q1/0025.html
+
+---
+
+#### 829. CVE-2004-0064
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+The SuSEconfig.gnome-filesystem script for YaST in SuSE 9.0 allows local users to overwrite arbitrary files via a symlink attack on files within the tmp.SuSEconfig.gnome-filesystem.$RANDOM temporary directory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=107402658600437&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=107402658600437&w=2
+- http://secunia.com/advisories/10623
+- http://www.osvdb.org/3460
+- http://www.securityfocus.com/bid/9411
+- http://www.securitytracker.com/id?1008703
+
+---
+
+#### 830. CVE-2004-2004
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+The Live CD in SUSE LINUX 9.1 Personal edition is configured without a password for root, which allows remote attackers to gain privileges via SSH.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/10297.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/10297
+- http://www.suse.de/de/security/2004_11_live_cd_91.html
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/16084
+- http://www.securityfocus.com/bid/10297
+- http://www.suse.de/de/security/2004_11_live_cd_91.html
+
+---
+
+#### 831. CVE-2004-0592
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+The tcp_find_option function of the netfilter subsystem for IPv6 in the SUSE Linux 2.6.5 kernel with USAGI patches, when using iptables and TCP options rules, allows remote attackers to cause a denial of service (CPU consumption by infinite loop) via a large option length that produces a negative integer after a casting operation to the char type, a similar flaw to CVE-2004-0626.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.grok.org.uk/pipermail/full-disclosure/2004-July/023408.html.
+
+**参考链接 / References**:
+- http://lists.grok.org.uk/pipermail/full-disclosure/2004-July/023408.html
+- http://www.novell.com/linux/security/advisories/2004_20_kernel.html
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/43137
+- http://lists.grok.org.uk/pipermail/full-disclosure/2004-July/023408.html
+- http://www.novell.com/linux/security/advisories/2004_20_kernel.html
+
+---
+
+#### 832. CVE-2004-1895
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+YaST Online Update (YOU) in SuSE 8.2 and 9.0 allows local users to overwrite arbitrary files via a symlink attack on you-$USER/cookies.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2004-04/0058.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2004-04/0058.html
+- http://marc.info/?l=bugtraq&m=108118395519164&w=2
+- http://secunia.com/advisories/11300
+- http://securitytracker.com/id?1009668
+- http://www.osvdb.org/4985
+
+---
+
+#### 833. CVE-2004-2097
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+Multiple scripts on SuSE Linux 9.0 allow local users to overwrite arbitrary files via a symlink attack on (1) /tmp/fvwm-bug created by fvwm-bug, (2) /tmp/wmmenu created by wm-oldmenu2new, (3) /tmp/rates created by x11perfcomp, (4) /tmp/xf86debug.1.log created by xf86debug, (5) /tmp/.winpopup-new created by winpopup-send.sh, or (6) /tmp/initrd created by lvmcreate_initrd.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=107461582413923&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=107461582413923&w=2
+- http://marc.info/?l=bugtraq&m=107478920006258&w=2
+- http://securitytracker.com/id?1008781
+- http://www.securityfocus.com/bid/9457
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/14963
+
+---
+
+#### 834. CVE-2004-2658
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+resmgr in SUSE CORE 9 does not properly identify terminal names, which allows local users to spoof terminals and login types.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.novell.com/techcenter/psdb/fa6c6a3e792bf79b1d85821c689ea578.html.
+
+**参考链接 / References**:
+- http://support.novell.com/techcenter/psdb/fa6c6a3e792bf79b1d85821c689ea578.html
+- http://support.novell.com/techcenter/psdb/fa6c6a3e792bf79b1d85821c689ea578.html
+
+---
+
+#### 835. CVE-2004-1190
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+SUSE Linux before 9.1 and SUSE Linux Enterprise Server before 9 do not properly check commands sent to CD devices that have been opened read-only, which could allow local users to conduct unauthorized write activities to modify the firmware of associated SCSI devices.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/18510.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/18510
+- http://www.novell.com/linux/security/advisories/2004_42_kernel.html
+- http://www.redhat.com/support/errata/RHSA-2006-0101.html
+- http://www.securityfocus.com/bid/11784
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18370
+
+---
+
+#### 836. CVE-2004-1191
+
+**严重程度 / Severity**: N/A | CVSS: 1.2
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+Race condition in SuSE Linux 8.1 through 9.2, when run on SMP systems that have more than 4GB of memory, could allow local users to read unauthorized memory from "foreign memory pages."
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.novell.com/linux/security/advisories/2004_42_kernel.html.
+
+**参考链接 / References**:
+- http://www.novell.com/linux/security/advisories/2004_42_kernel.html
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18137
+- http://www.novell.com/linux/security/advisories/2004_42_kernel.html
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18137
+
+---
+
+#### 837. CVE-2004-0887
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: suse:suse_linux, linux:linux_kernel
+
+**漏洞描述 / Description**:
+SUSE Linux Enterprise Server 9 on the S/390 platform does not properly handle a certain privileged instruction, which allows local users to gain root privileges.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/19369.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/19369
+- http://www.debian.org/security/2006/dsa-1018
+- http://www.novell.com/linux/security/advisories/2004_37_kernel.html
+- http://www.securityfocus.com/bid/11489
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/17801
+
+---
+
+#### 838. CVE-2005-1831
+
+**严重程度 / Severity**: HIGH | CVSS: 8.4
+**受影响产品 / Affected Products**: todd_miller:sudo
+
+**漏洞描述 / Description**:
+Sudo 1.6.8p7 on SuSE Linux 9.3, and possibly other Linux distributions, allows local users to gain privileges by using sudo to call su, then entering a blank password and hitting CTRL-C. NOTE: SuSE and multiple third-party researchers have not been able to replicate this issue, stating "Sudo catches SIGINT and returns an empty string for the password so I don't see how this could happen unless the user's actual password was empty.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2005-05/0349.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2005-05/0349.html
+- http://archives.neohapsis.com/archives/bugtraq/2005-05/0359.html
+- http://marc.info/?l=bugtraq&m=111755694008928&w=2
+- http://www.osvdb.org/20417
+- http://archives.neohapsis.com/archives/bugtraq/2005-05/0349.html
+
+---
+
+#### 839. CVE-2005-0488
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: microsoft:telnet_client, mit:kerberos_5, sun:sunos
+
+**漏洞描述 / Description**:
+Certain BSD-based Telnet clients, including those used on Solaris and SuSE Linux, allow remote malicious Telnet servers to read sensitive environment variables via the NEW-ENVIRON option with a SEND ENV_USERVAR command.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://idefense.com/application/poi/display?id=260&type=vulnerabilities.
+
+**参考链接 / References**:
+- http://idefense.com/application/poi/display?id=260&type=vulnerabilities
+- http://lists.apple.com/archives/security-announce/2006//Aug/msg00000.html
+- http://secunia.com/advisories/17135
+- http://secunia.com/advisories/21253
+- http://securitytracker.com/id?1014203
+
+---
+
+#### 840. CVE-2005-2023
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+The send_pinentry_environment function in asshelp.c in gpg2 on SUSE Linux 9.3 does not properly handle certain options, which can prevent pinentry from being found and causes S/MIME signing to fail.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.gnupg.org/pipermail/gpa-dev/2005-June/002291.html.
+
+**参考链接 / References**:
+- http://lists.gnupg.org/pipermail/gpa-dev/2005-June/002291.html
+- http://lists.gnupg.org/pipermail/gpa-dev/2005-June/002294.html
+- http://www.novell.com/linux/security/advisories/2005_16_sr.html
+- https://lists.gnupg.org/pipermail/gpa-dev/2005-May/002284.html
+- http://lists.gnupg.org/pipermail/gpa-dev/2005-June/002291.html
+
+---
+
+#### 841. CVE-2005-2500
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+Buffer overflow in the xdr_xcode_array2 function in xdr.c in Linux kernel 2.6.12, as used in SuSE Linux Enterprise Server 9, might allow remote attackers to cause a denial of service and possibly execute arbitrary code via crafted XDR data for the nfsacl protocol.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://linux.bkbits.net:8080/linux-2.6/cset%4042b9c4fdYUuaq0joRUZi8W0Q-2hA1A.
+
+**参考链接 / References**:
+- http://linux.bkbits.net:8080/linux-2.6/cset%4042b9c4fdYUuaq0joRUZi8W0Q-2hA1A
+- http://lkml.org/lkml/2005/6/23/126
+- http://lkml.org/lkml/2005/6/23/19
+- http://secunia.com/advisories/16406
+- http://www.novell.com/linux/security/advisories/2005_44_kernel.html
+
+---
+
+#### 842. CVE-2005-3013
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+Buffer overflow in liby2util in Yet another Setup Tool (YaST) for SuSE Linux 9.3 allows local users to execute arbitrary code via a long Loc entry.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.novell.com/linux/security/advisories/2005_22_sr.html.
+
+**参考链接 / References**:
+- http://www.novell.com/linux/security/advisories/2005_22_sr.html
+- http://www.securityfocus.com/bid/14861
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/24323
+- http://www.novell.com/linux/security/advisories/2005_22_sr.html
+- http://www.securityfocus.com/bid/14861
+
+---
+
+#### 843. CVE-2005-3297
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+Multiple integer overflows in OpenWBEM on SuSE Linux 9 allow remote attackers to execute arbitrary code via unknown vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/17176.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/17176
+- http://secunia.com/advisories/17244
+- http://www.novell.com/linux/security/advisories/2005_60_OpenWBEM.html
+- http://www.osvdb.org/20062
+- http://www.securityfocus.com/bid/15121
+
+---
+
+#### 844. CVE-2005-3298
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: suse:suse_linux
+
+**漏洞描述 / Description**:
+Multiple buffer overflows in OpenWBEM on SuSE Linux 9 allow remote attackers to execute arbitrary code via unknown vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/17176.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/17176
+- http://secunia.com/advisories/17244
+- http://www.novell.com/linux/security/advisories/2005_60_OpenWBEM.html
+- http://www.osvdb.org/20062
+- http://www.securityfocus.com/bid/15121
+
+---
+
+#### 845. CVE-2005-3321
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: suse:suse_linux, novell:suse_linux
+
+**漏洞描述 / Description**:
+chkstat in SuSE Linux 9.0 through 10.0 allows local users to modify permissions of files by creating a hardlink to a file from a world-writable directory, which can cause the link count to drop to 1 when the file is deleted or replaced, which is then modified by chkstat to use weaker permissions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/17290/.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/17290/
+- http://www.novell.com/linux/security/advisories/2005_62_permissions.html
+- http://www.osvdb.org/20263
+- http://www.securityfocus.com/bid/15182
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/22853
+
+---
+
+#### 846. CVE-2005-3322
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: suse:suse_linux, squid:squid
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Squid on SUSE Linux 9.0 allows remote attackers to cause a denial of service (crash) via HTTPs (SSL).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.novell.com/linux/security/advisories/2005_24_sr.html.
+
+**参考链接 / References**:
+- http://www.novell.com/linux/security/advisories/2005_24_sr.html
+- http://www.novell.com/linux/security/advisories/2005_28_sr.html
+- http://www.securityfocus.com/bid/15165
+- http://www.novell.com/linux/security/advisories/2005_24_sr.html
+- http://www.novell.com/linux/security/advisories/2005_28_sr.html
+
+---
+
+#### 847. CVE-2005-3503
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: pwdutils:pwdutils
+
+**漏洞描述 / Description**:
+chfn in pwdutils 3.0.4 and earlier on SuSE Linux, and possibly other operating systems, does not properly check arguments for the GECOS field, which allows local users to gain privileges.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/17469.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/17469
+- http://www.osvdb.org/20525
+- http://www.securityfocus.com/archive/1/415725/30/0/threaded
+- http://www.securityfocus.com/bid/15314
+- http://secunia.com/advisories/17469
+
+---
+
+#### 848. CVE-2005-4728
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: debian:amaya
+
+**漏洞描述 / Description**:
+Untrusted search path vulnerability (RPATH) in amaya 9.2.1 on Debian GNU/Linux allows local users to gain privileges via a malicious Mesa library in the /home/anand directory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=341424.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=341424
+- http://www.securityfocus.com/bid/16945
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=341424
+- http://www.securityfocus.com/bid/16945
+
+---
+
+#### 849. CVE-2006-1244
+
+**严重程度 / Severity**: N/A | CVSS: 7.6
+**受影响产品 / Affected Products**: xpdf:xpdf, debian:debian_linux, libextractor:libextractor, gnome:gpdf
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in certain versions of xpdf after 3.00, as used in various products including (a) pdfkit.framework, (b) gpdf, (c) pdftohtml, and (d) libextractor, has unknown impact and user-assisted attack vectors, possibly involving errors in (1) gmem.c, (2) SplashXPathScanner.cc, (3) JBIG2Stream.cc, (4) JPXStream.cc, and/or (5) Stream.cc.  NOTE: this description is based on Debian advisory DSA 979, which is based on changes that were made after other vulnerabilities such as CVE-2006-0301 and CVE-2005-3624 through CVE-2005-3628 were fixed.  Some of these newer fixes appear to be security-relevant, although it is not clear if they fix specific issues or are defensive in nature.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/18948.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/18948
+- http://secunia.com/advisories/19021
+- http://secunia.com/advisories/19065
+- http://secunia.com/advisories/19091
+- http://secunia.com/advisories/19164
+
+---
+
+#### 850. CVE-2006-1319
+
+**严重程度 / Severity**: N/A | CVSS: 6.2
+**受影响产品 / Affected Products**: runit:runit
+
+**漏洞描述 / Description**:
+chpst in runit 1.3.3-1 for Debian GNU/Linux, when compiled on little endian i386 machines against dietlibc, does not properly handle when multiple groups are specified in the -u option, which causes chpst to assign permissions for the root group due to inconsistent bit sizes for the gid_t type.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=356016.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=356016
+- http://secunia.com/advisories/19323
+- http://www.securityfocus.com/bid/17179
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/25419
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=356016
+
+---
+
+#### 851. CVE-2006-1320
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: rssh:rssh
+
+**漏洞描述 / Description**:
+util.c in rssh 2.3.0 in Debian GNU/Linux does not use braces to make a block, which causes a check for CVS to always succeed and allows rsync and rdist to bypass intended access restrictions in rssh.conf.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=346322.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=346322
+- http://secunia.com/advisories/21087
+- http://www.debian.org/security/2006/dsa-1109
+- http://www.securityfocus.com/bid/18999
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/25424
+
+---
+
+#### 852. CVE-2006-0050
+
+**严重程度 / Severity**: N/A | CVSS: 1.2
+**受影响产品 / Affected Products**: debian:debian_linux
+
+**漏洞描述 / Description**:
+snmptrapfmt in Debian 3.0 allows local users to overwrite arbitrary files via a symlink attack on a temporary log file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/19318.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/19318
+- http://www.debian.org/security/2006/dsa-1013
+- http://www.securityfocus.com/bid/17182
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/25442
+- http://secunia.com/advisories/19318
+
+---
+
+#### 853. CVE-2006-1376
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: debian:debian_linux
+
+**漏洞描述 / Description**:
+The installation of Debian GNU/Linux 3.1r1 from the network install CD creates /var/log/debian-installer/cdebconf with world writable permissions, which allows local users to cause a denial of service (disk consumption).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=358210.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=358210
+- http://secunia.com/advisories/19331
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/25526
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=358210
+- http://secunia.com/advisories/19331
+
+---
+
+#### 854. CVE-2006-1564
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: debian:debian_linux
+
+**漏洞描述 / Description**:
+Untrusted search path vulnerability in libapache2-svn 1.3.0-4 for Subversion in Debian GNU/Linux includes RPATH values under the /tmp/svn directory for the (1) mod_authz_svn.so and (2) mod_dav_svn.so modules, which might allow local users to gain privileges by installing malicious libraries in that directory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=359234.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=359234
+- http://www.securityfocus.com/bid/17288
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/25680
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=359234
+- http://www.securityfocus.com/bid/17288
+
+---
+
+#### 855. CVE-2006-1565
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: debian:debian_linux
+
+**漏洞描述 / Description**:
+Untrusted search path vulnerability in libgpib-perl 3.2.06-2 in Debian GNU/Linux includes an RPATH value under the /tmp/buildd directory for the LinuxGpib.so module, which might allow local users to gain privileges by installing malicious libraries in that directory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=359239.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=359239
+- http://www.securityfocus.com/bid/17288
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/25681
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=359239
+- http://www.securityfocus.com/bid/17288
+
+---
+
+#### 856. CVE-2006-1566
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: debian:debian_linux
+
+**漏洞描述 / Description**:
+Untrusted search path vulnerability in libtunepimp-perl 0.4.2-1 in Debian GNU/Linux includes an RPATH value under the /tmp/buildd directory for the tunepimp.so module, which might allow local users to gain privileges by installing malicious libraries in that directory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=359241.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=359241
+- http://www.securityfocus.com/bid/17288
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/25682
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=359241
+- http://www.securityfocus.com/bid/17288
+
+---
+
+#### 857. CVE-2006-1772
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: debian:debian_linux
+
+**漏洞描述 / Description**:
+debconf in Debian GNU/Linux, when configuring mnogosearch in the mnogosearch-common 3.2.31-1 package, uses the world-readable config.dat file instead of the restricted passwords.dat for storing the cleartext database administrator password in the mnogosearch-common/database_admin_pass record, which allows local users to view the password.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=361775.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=361775
+- http://secunia.com/advisories/19589
+- http://www.securityfocus.com/bid/17477
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=361775
+- http://secunia.com/advisories/19589
+
+---
+
+#### 858. CVE-2006-1844
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: debian:base-config, debian:shadow
+
+**漏洞描述 / Description**:
+The Debian installer for the (1) shadow 4.0.14 and (2) base-config 2.53.10 packages includes sensitive information in world-readable log files, including preseeded passwords and pppoeconf passwords, which might allow local users to gain privileges.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=356939.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=356939
+- http://secunia.com/advisories/19170
+- http://www.osvdb.org/23922
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=356939
+- http://secunia.com/advisories/19170
+
+---
+
+#### 859. CVE-2006-2443
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: knowledgetree:knowledgetree
+
+**漏洞描述 / Description**:
+The Debian package of knowledgetree 2.0.7 creates environment.php with world-readable permissions, which allows local users to obtain sensitive information such as the username and password for the KnowledgeTree database.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=348306.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=348306
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=348306
+
+---
+
+#### 860. CVE-2006-2542
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: ti_kan:xmcd
+
+**漏洞描述 / Description**:
+xmcdconfig in xmcd for Debian GNU/Linux 2.6-17.1 creates /var/lib/cddb and /var/lib/xmcd/discog with world writable permissions, which allows local users to cause a denial of service (disk consumption).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=366816.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=366816
+- http://secunia.com/advisories/20078
+- http://www.debian.org/security/2006/dsa-1086
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/26452
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=366816
+
+---
+
+#### 861. CVE-2006-3123
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: matt_blaze:cryptographic_file_system
+
+**漏洞描述 / Description**:
+Multiple integer overflows in the (1) dodecrypt and (2) doencrypt functions in cfs_fh.c in cfsd in Matt Blaze Cryptographic File System (CFS) 1.4.1 before Debian GNU/Linux package 1.4.1-17 allow local users to cause a denial of service (daemon crash) by appending data to a file that is larger than 2 Gb.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=371076.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=371076
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=371076
+- http://secunia.com/advisories/21310
+- http://secunia.com/advisories/21341
+- http://www.debian.org/security/2006/dsa-1138
+
+---
+
+#### 862. CVE-2006-4248
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: acme_labs:thttpd
+
+**漏洞描述 / Description**:
+thttpd on Debian GNU/Linux, and possibly other distributions, allows local users to create or touch arbitrary files via a symlink attack on the start_thttpd temporary file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=396277.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=396277
+- http://secunia.com/advisories/22712
+- http://www.debian.org/security/2006/dsa-1205
+- http://www.securityfocus.com/bid/20891
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=396277
+
+---
+
+#### 863. CVE-2006-7094
+
+**严重程度 / Severity**: N/A | CVSS: 8.5
+**受影响产品 / Affected Products**: gentoo:linux, ftpd:ftpd, debian:debian_linux
+
+**漏洞描述 / Description**:
+ftpd, as used by Gentoo and Debian Linux, sets the gid to the effective uid instead of the effective group id before executing /bin/ls, which allows remote authenticated users to list arbitrary directories with the privileges of gid 0 and possibly enable additional attack vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/384454.
+
+**参考链接 / References**:
+- http://bugs.debian.org/384454
+- http://bugs.gentoo.org/show_bug.cgi?id=155317
+- http://osvdb.org/34242
+- http://packages.qa.debian.org/l/linux-ftpd/news/20061125T181702Z.html
+- http://securityreason.com/securityalert/2330
+
+---
+
+#### 864. CVE-2006-7098
+
+**严重程度 / Severity**: N/A | CVSS: 6.6
+**受影响产品 / Affected Products**: debian:apache
+
+**漏洞描述 / Description**:
+The Debian GNU/Linux 033_-F_NO_SETSID patch for the Apache HTTP Server 1.3.34-4 does not properly disassociate httpd from a controlling tty when httpd is started interactively, which allows local users to gain privileges to that tty via a CGI program that calls the TIOCSTI ioctl.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/fulldisclosure/2007-02/0579.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/fulldisclosure/2007-02/0579.html
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=357561
+- http://osvdb.org/33816
+- http://secunia.com/advisories/24324
+- http://www.securityfocus.com/bid/22732
+
+---
+
+#### 865. CVE-2007-2524
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+**受影响产品 / Affected Products**: otrs:otrs
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in index.pl in Open Ticket Request System (OTRS) 2.0.x allows remote attackers to inject arbitrary web script or HTML via the Subaction parameter in an AgentTicketMailbox Action.  NOTE: DEBIAN:DSA-1299 originally used this identifier for an ipsec-tools issue, but the proper identifier for the ipsec-tools issue is CVE-2007-1841.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/35821.
+
+**参考链接 / References**:
+- http://osvdb.org/35821
+- http://osvdb.org/35822
+- http://secunia.com/advisories/25205
+- http://secunia.com/advisories/25419
+- http://secunia.com/advisories/25787
+
+---
+
+#### 866. CVE-2007-1663
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: ekg:ekg, debian:debian_linux
+
+**漏洞描述 / Description**:
+Memory leak in the image message functionality in ekg before 1:1.7~rc2-1etch1 on Debian GNU/Linux Etch allows remote attackers to cause a denial of service.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/45377.
+
+**参考链接 / References**:
+- http://osvdb.org/45377
+- http://www.debian.org/security/2007/dsa-1318
+- http://www.securityfocus.com/bid/24600
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/35134
+- http://osvdb.org/45377
+
+---
+
+#### 867. CVE-2007-1664
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: ekg:ekg, debian:debian_linux
+
+**漏洞描述 / Description**:
+ekg before 1:1.7~rc2-1etch1 on Debian GNU/Linux Etch allows remote attackers to cause a denial of service (NULL pointer dereference) via a vector related to the token OCR functionality.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/45378.
+
+**参考链接 / References**:
+- http://osvdb.org/45378
+- http://www.debian.org/security/2007/dsa-1318
+- http://www.securityfocus.com/bid/24600
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/35135
+- http://osvdb.org/45378
+
+---
+
+#### 868. CVE-2007-1665
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: ekg:ekg, debian:debian_linux
+
+**漏洞描述 / Description**:
+Memory leak in the token OCR functionality in ekg before 1:1.7~rc2-1etch1 on Debian GNU/Linux Etch allows remote attackers to cause a denial of service.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/45379.
+
+**参考链接 / References**:
+- http://osvdb.org/45379
+- http://www.debian.org/security/2007/dsa-1318
+- http://www.securityfocus.com/bid/24600
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/35136
+- http://osvdb.org/45379
+
+---
+
+#### 869. CVE-2007-2797
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: debian:debian_linux, xterm:xterm, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+xterm, including 192-7.el4 in Red Hat Enterprise Linux and 208-3.1 in Debian GNU/Linux, sets the wrong group ownership of tty devices, which allows local users to write data to other users' terminals.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=349924.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=349924
+- http://secunia.com/advisories/26562
+- http://secunia.com/advisories/27617
+- http://secunia.com/advisories/27921
+- http://securityreason.com/securityalert/3066
+
+---
+
+#### 870. CVE-2007-3912
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: debian:debian-goodies
+
+**漏洞描述 / Description**:
+checkrestart in debian-goodies before 0.34 allows local users to gain privileges via shell metacharacters in the name of the executable file for a running process.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=440411.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=440411
+- http://osvdb.org/40483
+- http://secunia.com/advisories/26675
+- http://secunia.com/advisories/27079
+- http://www.debian.org/security/2008/dsa-1527
+
+---
+
+#### 871. CVE-2007-5193
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: twiki:twiki, debian:debian_linux
+
+**漏洞描述 / Description**:
+The default configuration for twiki 4.1.2 on Debian GNU/Linux, and possibly other operating systems, specifies the work area directory (cfg{RCS}{WorkAreaDir}) under the web document root, which might allow remote attackers to obtain sensitive information when .htaccess restrictions are not applied.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=444982.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=444982
+- http://osvdb.org/42338
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=444982
+- http://osvdb.org/42338
+
+---
+
+#### 872. CVE-2007-5469
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: openser:openser
+
+**漏洞描述 / Description**:
+OpenSER 1.2.2 does not verify the Digest authentication header URI against the Request URI in SIP messages, which allows remote attackers to use sniffed Digest authentication credentials to call arbitrary telephone numbers or spoof caller ID (aka "toll fraud and authentication forward attack").  NOTE: Debian disputes this issue, stating that "having the two URIs mismatch is allowed by the standard and happens in some setups for valid reasons.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=446956.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=446956
+- http://lists.grok.org.uk/pipermail/full-disclosure/2007-October/066581.html
+- http://lists.grok.org.uk/pipermail/full-disclosure/2007-October/066691.html
+- http://lists.grok.org.uk/pipermail/full-disclosure/2007-October/066694.html
+- http://secunia.com/advisories/27204
+
+---
+
+#### 873. CVE-2007-5828
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+**受影响产品 / Affected Products**: django_project:django
+
+**漏洞描述 / Description**:
+Cross-site request forgery (CSRF) vulnerability in the admin panel in Django 0.96 allows remote attackers to change passwords of arbitrary users via a request to admin/auth/user/1/password/.  NOTE: this issue has been disputed by Debian, since product documentation includes a recommendation for a CSRF protection module that is included with the product.  However, CVE considers this an issue because the default configuration does not use this module
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/45285.
+
+**参考链接 / References**:
+- http://osvdb.org/45285
+- http://securityreason.com/securityalert/3338
+- http://www.securityfocus.com/archive/1/482983/100/0/threaded
+- http://osvdb.org/45285
+- http://securityreason.com/securityalert/3338
+
+---
+
+#### 874. CVE-2007-6211
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: sing:sing, debian:debian_linux
+
+**漏洞描述 / Description**:
+Send ICMP Nasty Garbage (sing) on Debian GNU/Linux allows local users to append to arbitrary files and gain privileges via the -L (output log file) option.  NOTE: this issue is only a vulnerability in limited environments, since sing is not installed setuid, and the administrator would need to override a non-setuid default during installation.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/44157.
+
+**参考链接 / References**:
+- http://osvdb.org/44157
+- http://securityreason.com/securityalert/3412
+- http://www.securityfocus.com/archive/1/484472/100/0/threaded
+- http://www.securityfocus.com/archive/1/484591/100/200/threaded
+- http://www.securityfocus.com/bid/26679
+
+---
+
+#### 875. CVE-2007-6418
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: debian:debian_linux
+
+**漏洞描述 / Description**:
+The libdspam7-drv-mysql cron job in Debian GNU/Linux includes the MySQL dspam database password in a command line argument, which might allow local users to read the password by listing the process and its arguments.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=448519.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=448519
+- http://osvdb.org/44138
+- http://secunia.com/advisories/29059
+- http://www.debian.org/security/2008/dsa-1501
+- http://www.securityfocus.com/bid/27938
+
+---
+
+#### 876. CVE-2008-0930
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: freshmeat:xwine, debian:debian_linux
+
+**漏洞描述 / Description**:
+w_editeur.c in XWine 1.0.1 for Debian GNU/Linux allows local users to overwrite or print arbitrary files via a symlink attack on the temporaire temporary file.  NOTE: some of these details are obtained from third party information.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=468050.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=468050
+- http://secunia.com/advisories/29125
+- http://secunia.com/advisories/29452
+- http://www.debian.org/security/2008/dsa-1526
+- http://www.securityfocus.com/bid/28049
+
+---
+
+#### 877. CVE-2008-0931
+
+**严重程度 / Severity**: N/A | CVSS: 6.3
+**受影响产品 / Affected Products**: xwine:xwine, debian:debian_linux
+
+**漏洞描述 / Description**:
+w_export.c in XWine 1.0.1 on Debian GNU/Linux sets insecure permissions (0666) for /etc/wine/config, which might allow local users to execute arbitrary commands or cause a denial of service by modifying the file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=468050.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=468050
+- http://secunia.com/advisories/29125
+- http://secunia.com/advisories/29452
+- http://www.debian.org/security/2008/dsa-1526
+- http://www.securityfocus.com/bid/28369
+
+---
+
+#### 878. CVE-2008-1771
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: fireflymediaserver:fireflymediaserver
+
+**漏洞描述 / Description**:
+Integer overflow in the ws_getpostvars function in Firefly Media Server (formerly mt-daapd) 0.2.4.1 (0.9~r1696-1.2 on Debian) allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via an HTTP POST request with a large Content-Length.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=476241.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=476241
+- http://secunia.com/advisories/29917
+- http://secunia.com/advisories/29919
+- http://secunia.com/advisories/30661
+- http://sourceforge.net/project/shownotes.php?release_id=593465&group_id=98211
+
+---
+
+#### 879. CVE-2008-0166
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, debian:debian_linux, openssl:openssl
+
+**漏洞描述 / Description**:
+OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating systems uses a random number generator that generates predictable numbers, which makes it easier for remote attackers to conduct brute force guessing attacks against cryptographic keys.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://metasploit.com/users/hdm/tools/debian-openssl/.
+
+**参考链接 / References**:
+- http://metasploit.com/users/hdm/tools/debian-openssl/
+- http://secunia.com/advisories/30136
+- http://secunia.com/advisories/30220
+- http://secunia.com/advisories/30221
+- http://secunia.com/advisories/30231
+
+---
+
+#### 880. CVE-2008-3234
+
+**严重程度 / Severity**: N/A | CVSS: 6.5
+**受影响产品 / Affected Products**: openbsd:openssh, debian:debian_linux
+
+**漏洞描述 / Description**:
+sshd in OpenSSH 4 on Debian GNU/Linux, and the 20070303 OpenSSH snapshot, allows remote authenticated users to obtain access to arbitrary SELinux roles by appending a :/ (colon slash) sequence, followed by the role name, to the username.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/30276.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/30276
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/44037
+- https://www.exploit-db.com/exploits/6094
+- http://www.securityfocus.com/bid/30276
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/44037
+
+---
+
+#### 881. CVE-2008-4109
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: openbsd:openssh, debian:linux
+
+**漏洞描述 / Description**:
+A certain Debian patch for OpenSSH before 4.3p2-9etch3 on etch; before 4.6p1-1 on sid and lenny; and on other distributions such as SUSE uses functions that are not async-signal-safe in the signal handler for login timeouts, which allows remote attackers to cause a denial of service (connection slot exhaustion) via multiple login attempts. NOTE: this issue exists because of an incorrect fix for CVE-2006-5051.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=498678.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=498678
+- http://lists.opensuse.org/opensuse-security-announce/2008-10/msg00004.html
+- http://secunia.com/advisories/31885
+- http://secunia.com/advisories/32080
+- http://secunia.com/advisories/32181
+
+---
+
+#### 882. CVE-2008-4099
+
+**严重程度 / Severity**: N/A | CVSS: 6.4
+**受影响产品 / Affected Products**: debian:linux, debian:python-dns
+
+**漏洞描述 / Description**:
+PyDNS (aka python-dns) before 2.3.1-4 in Debian GNU/Linux does not use random source ports or transaction IDs for DNS requests, which makes it easier for remote attackers to spoof DNS responses, a different vulnerability than CVE-2008-1447.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=490217.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=490217
+- http://packages.debian.org/changelogs/pool/main/p/python-dns/python-dns_2.3.3-1/changelog
+- http://www.openwall.com/lists/oss-security/2008/09/11/1
+- http://www.openwall.com/lists/oss-security/2008/09/16/4
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=490217
+
+---
+
+#### 883. CVE-2008-4126
+
+**严重程度 / Severity**: N/A | CVSS: 6.4
+**受影响产品 / Affected Products**: debian:linux, debian:python-dns
+
+**漏洞描述 / Description**:
+PyDNS (aka python-dns) before 2.3.1-5 in Debian GNU/Linux does not use random source ports for DNS requests and does not use random transaction IDs for DNS retries, which makes it easier for remote attackers to spoof DNS responses, a different vulnerability than CVE-2008-1447.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2008-4099.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=490217.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=490217
+- http://packages.debian.org/changelogs/pool/main/p/python-dns/python-dns_2.3.3-1/changelog
+- http://www.openwall.com/lists/oss-security/2008/09/11/1
+- http://www.openwall.com/lists/oss-security/2008/09/16/4
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=490217
+
+---
+
+#### 884. CVE-2008-4406
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: debian:xsabre
+
+**漏洞描述 / Description**:
+A certain Debian patch to the run scripts for sabre (aka xsabre) 0.2.4b allows local users to delete or overwrite arbitrary files via a symlink attack on unspecified .tmp files.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/433996.
+
+**参考链接 / References**:
+- http://bugs.debian.org/433996
+- http://openwall.com/lists/oss-security/2008/10/01/1
+- http://osvdb.org/48895
+- http://www.securityfocus.com/bid/31512
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/45609
+
+---
+
+#### 885. CVE-2008-4553
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: qemu:qemu, debian:debian_linux
+
+**漏洞描述 / Description**:
+qemu-make-debian-root in qemu 0.9.1-5 on Debian GNU/Linux allows local users to overwrite arbitrary files via a symlink attack on temporary files and directories.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=496394.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=496394
+- http://dev.gentoo.org/~rbu/security/debiantemp/qemu
+- http://secunia.com/advisories/32335
+- http://uvw.ru/report.lenny.txt
+- http://www.debian.org/security/2008/dsa-1657
+
+---
+
+#### 886. CVE-2008-3831
+
+**严重程度 / Severity**: N/A | CVSS: 4.7
+**受影响产品 / Affected Products**: linux:linux_kernel, openbsd:linux, debian:linux
+
+**漏洞描述 / Description**:
+The i915 driver in (1) drivers/char/drm/i915_dma.c in the Linux kernel 2.6.24 on Debian GNU/Linux and (2) sys/dev/pci/drm/i915_drv.c in OpenBSD does not restrict the DRM_I915_HWS_ADDR ioctl to the Direct Rendering Manager (DRM) master, which allows local users to cause a denial of service (memory corruption) via a crafted ioctl call, related to absence of the DRM_MASTER and DRM_ROOT_ONLY flags in the ioctl's configuration.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/openbsd/cvs/2008-10/0365.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/openbsd/cvs/2008-10/0365.html
+- http://secunia.com/advisories/32315
+- http://secunia.com/advisories/32386
+- http://secunia.com/advisories/32709
+- http://secunia.com/advisories/32918
+
+---
+
+#### 887. CVE-2008-5142
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+**受影响产品 / Affected Products**: freebsd:freebsd-sendpr
+
+**漏洞描述 / Description**:
+sendbug in freebsd-sendpr 3.113+5.3 on Debian GNU/Linux allows local users to overwrite arbitrary files via a symlink attack on a /tmp/pr.##### temporary file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.debian.org/debian-devel/2008/08/msg00285.html.
+
+**参考链接 / References**:
+- http://lists.debian.org/debian-devel/2008/08/msg00285.html
+- http://www.securityfocus.com/bid/32381
+- http://lists.debian.org/debian-devel/2008/08/msg00285.html
+- http://www.securityfocus.com/bid/32381
+
+---
+
+#### 888. CVE-2008-5366
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+**受影响产品 / Affected Products**: marco_d\'itri:ppp
+
+**漏洞描述 / Description**:
+The postinst script in ppp 2.4.4rel on Debian GNU/Linux allows local users to overwrite arbitrary files via a symlink attack on the (1) /tmp/probe-finished or (2) /tmp/ppp-errors temporary file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.debian.org/debian-devel/2008/08/msg00283.html.
+
+**参考链接 / References**:
+- http://lists.debian.org/debian-devel/2008/08/msg00283.html
+- http://www.securityfocus.com/bid/32740
+- http://lists.debian.org/debian-devel/2008/08/msg00283.html
+- http://www.securityfocus.com/bid/32740
+
+---
+
+#### 889. CVE-2008-5367
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+**受影响产品 / Affected Products**: marco_d\'itri:ppp-udeb
+
+**漏洞描述 / Description**:
+ip-up in ppp-udeb 2.4.4rel on Debian GNU/Linux allows local users to overwrite arbitrary files via a symlink attack on the /tmp/resolv.conf.tmp temporary file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.debian.org/debian-devel/2008/08/msg00283.html.
+
+**参考链接 / References**:
+- http://lists.debian.org/debian-devel/2008/08/msg00283.html
+- http://lists.debian.org/debian-devel/2008/08/msg00283.html
+
+---
+
+#### 890. CVE-2008-5394
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: debian:shadow
+
+**漏洞描述 / Description**:
+/bin/login in shadow 4.0.18.1 in Debian GNU/Linux, and probably other Linux distributions, allows local users in the utmp group to overwrite arbitrary files via a symlink attack on a temporary file referenced in a line (aka ut_line) field in a utmp entry.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/332198.
+
+**参考链接 / References**:
+- http://bugs.debian.org/332198
+- http://bugs.debian.org/505071
+- http://bugs.debian.org/505271
+- http://osvdb.org/52200
+- http://security.gentoo.org/glsa/glsa-200903-24.xml
+
+---
+
+#### 891. CVE-2009-1381
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+**受影响产品 / Affected Products**: squirrelmail:imap_general.php, squirrelmail:squirrelmail1.4.19-1, squirrelmail:squirrelmail
+
+**漏洞描述 / Description**:
+The map_yp_alias function in functions/imap_general.php in SquirrelMail before 1.4.19-1 on Debian GNU/Linux, and possibly other operating systems and versions, allows remote attackers to execute arbitrary commands via shell metacharacters in a username string that is used by the ypmatch program.  NOTE: this issue exists because of an incomplete fix for CVE-2009-1579.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://release.debian.org/proposed-updates/stable_diffs/squirrelmail_1.4.15-4+lenny2.debdiff.
+
+**参考链接 / References**:
+- http://release.debian.org/proposed-updates/stable_diffs/squirrelmail_1.4.15-4+lenny2.debdiff
+- http://secunia.com/advisories/35140
+- http://www.debian.org/security/2009/dsa-1802
+- http://www.mandriva.com/security/advisories?name=MDVSA-2009:122
+- http://www.securityfocus.com/archive/1/503718/100/0/threaded
+
+---
+
+#### 892. CVE-2009-2946
+
+**严重程度 / Severity**: N/A | CVSS: 9.3
+**受影响产品 / Affected Products**: devscripts_devel_team:devscripts, debian:linux
+
+**漏洞描述 / Description**:
+Eval injection vulnerability in scripts/uscan.pl before Rev 1984 in devscripts allows remote attackers to execute arbitrary Perl code via crafted pathnames on distribution servers for upstream source code used in Debian GNU/Linux packages.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=515209.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=515209
+- http://svn.debian.org/wsvn/devscripts/trunk/scripts/uscan.pl?op=diff&rev=1984&sc=1
+- http://svn.debian.org/wsvn/devscripts/trunk/scripts/uscan.pl?op=log&rev=0&sc=1&isdir=0
+- http://www.debian.org/security/2009/dsa-1878
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=515209
+
+---
+
+#### 893. CVE-2001-0309
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: redhat:linux
+
+**漏洞描述 / Description**:
+inetd in Red Hat 6.2 does not properly close sockets for internal services such as chargen, daytime, echo, etc., which allows remote attackers to cause a denial of service via a series of connections to the internal services.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.redhat.com/support/errata/RHSA-2001-006.html.
+
+**参考链接 / References**:
+- http://www.redhat.com/support/errata/RHSA-2001-006.html
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6380
+- http://www.redhat.com/support/errata/RHSA-2001-006.html
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6380
+
+---
+
+#### 894. CVE-2001-1068
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: qualcomm:qpopper
+
+**漏洞描述 / Description**:
+qpopper 4.01 with PAM based authentication on Red Hat systems generates different error messages when an invalid username is provided instead of a valid name, which allows remote attackers to determine valid usernames on the system.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-08/0363.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2001-08/0363.html
+- http://www.securityfocus.com/bid/3242
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/7047
+- http://archives.neohapsis.com/archives/bugtraq/2001-08/0363.html
+- http://www.securityfocus.com/bid/3242
+
+---
+
+#### 895. CVE-2001-0868
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: redhat:stronghold
+
+**漏洞描述 / Description**:
+Red Hat Stronghold 2.3 to 3.0 allows remote attackers to retrieve system information via an HTTP GET request to (1) stronghold-info or (2) stronghold-status.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=100654958131854&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=100654958131854&w=2
+- http://www.securityfocus.com/bid/3577
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/51950
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/51951
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/7582
+
+---
+
+#### 896. CVE-2001-0946
+
+**严重程度 / Severity**: N/A | CVSS: 3.6
+**受影响产品 / Affected Products**: redhat:linux
+
+**漏洞描述 / Description**:
+apmscript in Apmd in Red Hat 7.2 "Enigma" allows local users to create or change the modification dates of arbitrary files via a symlink attack on the LOW_POWER temporary file, which could be used to cause a denial of service, e.g. by creating /etc/nologin and disabling logins.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=100743394701962&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=100743394701962&w=2
+- http://www.osvdb.org/5493
+- https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=56389
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/8268
+- http://marc.info/?l=bugtraq&m=100743394701962&w=2
+
+---
+
+#### 897. CVE-2003-0546
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: redhat:up2date
+
+**漏洞描述 / Description**:
+up2date 3.0.7 and 3.1.23 does not properly verify RPM GPG signatures, which could allow remote attackers to cause unsigned packages to be installed from the Red Hat Network, if that network is compromised.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=106036724315539&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=106036724315539&w=2
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A631
+- http://marc.info/?l=bugtraq&m=106036724315539&w=2
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A631
+
+---
+
+#### 898. CVE-2003-1138
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: redhat:interchange
+
+**漏洞描述 / Description**:
+The default configuration of Apache 2.0.40, as shipped with Red Hat Linux 9.0, allows remote attackers to list directory contents, even if auto indexing is turned off and there is a default web page configured, via a GET request containing a double slash (//).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/342578.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/archive/1/342578
+- http://www.securityfocus.com/bid/8898
+- http://www.securityfocus.com/archive/1/342578
+- http://www.securityfocus.com/bid/8898
+
+---
+
+#### 899. CVE-2004-0217
+
+**严重程度 / Severity**: HIGH | CVSS: 7.0
+**受影响产品 / Affected Products**: redhat:linux, symantec:antivirus_scan_engine
+
+**漏洞描述 / Description**:
+The LiveUpdate capability (liveupdate.sh) in Symantec AntiVirus Scan Engine 4.0 and 4.3 for Red Hat Linux allows local users to create or append to arbitrary files via a symlink attack on /tmp/LiveUpdate.log.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=107694800908164&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=107694800908164&w=2
+- http://www.securityfocus.com/bid/9662
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/15215
+- http://marc.info/?l=bugtraq&m=107694800908164&w=2
+- http://www.securityfocus.com/bid/9662
+
+---
+
+#### 900. CVE-2004-0491
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The linux-2.4.21-mlock.patch in Red Hat Enterprise Linux 3 does not properly maintain the mlock page count when one process unlocks pages that belong to another process, which allows local users to mlock more memory than specified by the rlimit.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/advisories/20060402-01-U.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20060402-01-U
+- http://marc.info/?l=linux-kernel&m=108087017610947&w=2
+- http://secunia.com/advisories/19607
+- http://www.redhat.com/support/errata/RHSA-2005-472.html
+- http://www.securityfocus.com/bid/13769
+
+---
+
+#### 901. CVE-2005-0092
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: redhat:enterprise_linux_desktop, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+Unknown vulnerability in the Red Hat Enterprise Linux 4 kernel 4GB/4GB split patch, when running on x86 with the hugemem kernel, allows local users to cause a denial of service (crash).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.redhat.com/support/errata/RHSA-2005-092.html.
+
+**参考链接 / References**:
+- http://www.redhat.com/support/errata/RHSA-2005-092.html
+- http://www.securityfocus.com/bid/12599
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/20620
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A11647
+- http://www.redhat.com/support/errata/RHSA-2005-092.html
+
+---
+
+#### 902. CVE-2004-1237
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: linux:linux_kernel, redhat:enterprise_linux_desktop, suse:suse_linux, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+Unknown vulnerability in the system call filtering code in the audit subsystem for Red Hat Enterprise Linux 3 allows local users to cause a denial of service (system crash) via unknown vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.redhat.com/support/errata/RHSA-2005-043.html.
+
+**参考链接 / References**:
+- http://www.redhat.com/support/errata/RHSA-2005-043.html
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A11282
+- http://www.redhat.com/support/errata/RHSA-2005-043.html
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A11282
+
+---
+
+#### 903. CVE-2005-0087
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: alsa-project:alsa-lib, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The alsa-lib package in Red Hat Linux 4 disables stack protection for the libasound.so library, which makes it easier for attackers to execute arbitrary code if there are other vulnerabilities in the library.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.redhat.com/support/errata/RHSA-2005-033.html.
+
+**参考链接 / References**:
+- http://www.redhat.com/support/errata/RHSA-2005-033.html
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A10355
+- http://www.redhat.com/support/errata/RHSA-2005-033.html
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A10355
+
+---
+
+#### 904. CVE-2005-0206
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: tetex:tetex, redhat:linux, cstex:cstetex, ubuntu:ubuntu_linux, xpdf:xpdf
+
+**漏洞描述 / Description**:
+The patch for integer overflow vulnerabilities in Xpdf 2.0 and 3.0 (CVE-2004-0888) is incomplete for 64-bit architectures on certain Linux distributions such as Red Hat, which could leave Xpdf users exposed to the original vulnerabilities.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.mandriva.com/security/advisories?name=MDKSA-2005:041.
+
+**参考链接 / References**:
+- http://www.mandriva.com/security/advisories?name=MDKSA-2005:041
+- http://www.mandriva.com/security/advisories?name=MDKSA-2005:042
+- http://www.mandriva.com/security/advisories?name=MDKSA-2005:043
+- http://www.mandriva.com/security/advisories?name=MDKSA-2005:044
+- http://www.mandriva.com/security/advisories?name=MDKSA-2005:052
+
+---
+
+#### 905. CVE-2005-0086
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: redhat:enterprise_linux_desktop, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+Heap-based buffer overflow in less in Red Hat Enterprise Linux 3 allows attackers to cause a denial of service (application crash) or possibly execute arbitrary code via a crafted file, as demonstrated using the UTF-8 locale.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.redhat.com/support/errata/RHSA-2005-068.html.
+
+**参考链接 / References**:
+- http://www.redhat.com/support/errata/RHSA-2005-068.html
+- https://bugzilla.fedora.us/show_bug.cgi?id=2404
+- https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=145527
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/19131
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A11027
+
+---
+
+#### 906. CVE-2005-0090
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: redhat:enterprise_linux_desktop, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+A regression error in the Red Hat Enterprise Linux 4 kernel 4GB/4GB split patch omits an "access check," which allows local users to cause a denial of service (crash).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.redhat.com/support/errata/RHSA-2005-092.html.
+
+**参考链接 / References**:
+- http://www.redhat.com/support/errata/RHSA-2005-092.html
+- http://www.securityfocus.com/bid/12599
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/20618
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A10425
+- http://www.redhat.com/support/errata/RHSA-2005-092.html
+
+---
+
+#### 907. CVE-2005-0091
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: redhat:enterprise_linux_desktop, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+Unknown vulnerability in the Red Hat Enterprise Linux 4 kernel 4GB/4GB split patch, when using the hugemem kernel, allows local users to read and write to arbitrary kernel memory and gain privileges via certain syscalls.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.redhat.com/support/errata/RHSA-2005-092.html.
+
+**参考链接 / References**:
+- http://www.redhat.com/support/errata/RHSA-2005-092.html
+- http://www.securityfocus.com/bid/12599
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/20619
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A11249
+- http://www.redhat.com/support/errata/RHSA-2005-092.html
+
+---
+
+#### 908. CVE-2005-0757
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: redhat:enterprise_linux_desktop, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The xattr file system code, as backported in Red Hat Enterprise Linux 3 on 64-bit systems, does not properly handle certain offsets, which allows local users to cause a denial of service (system crash) via certain actions on an ext3 file system with extended attributes enabled.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/18056.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/18056
+- http://secunia.com/advisories/18059
+- http://www.debian.org/security/2005/dsa-921
+- http://www.debian.org/security/2005/dsa-922
+- http://www.redhat.com/support/errata/RHSA-2005-294.html
+
+---
+
+#### 909. CVE-2005-0403
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: redhat:enterprise_linux_desktop, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+init_dev in tty_io.c in the Red Hat backport of NPTL to Red Hat Enterprise Linux 3 does not properly clear controlling tty's in multi-threaded applications, which allows local users to cause a denial of service (crash) and possibly gain tty access via unknown attack vectors that trigger an access of a pointer to a freed structure.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.redhat.com/support/errata/RHSA-2005-293.html.
+
+**参考链接 / References**:
+- http://www.redhat.com/support/errata/RHSA-2005-293.html
+- https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=144059
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9435
+- http://www.redhat.com/support/errata/RHSA-2005-293.html
+- https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=144059
+
+---
+
+#### 910. CVE-2005-3269
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: sun:java_system_directory_server, sun:one_administration_server, sun:java_system_directory_proxy_server, sun:one_directory_server
+
+**漏洞描述 / Description**:
+Stack-based buffer overflow in help.cgi in the HTTP administrative interface for (1) Sun Java System Directory Server 5.2 2003Q4, 2004Q2, and 2005Q1, (2) Red Hat Directory Server and (3) Certificate Server before 7.1 SP1, (4) Sun ONE Directory Server 5.1 SP4 and earlier, and (5) Sun ONE Administration Server 5.2 allows remote attackers to cause a denial of service (admin server crash), or local users to gain root privileges.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=112862037500012&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=112862037500012&w=2
+- http://marc.info/?l=bugtraq&m=113815459026080&w=2
+- http://secunia.com/advisories/17092
+- http://secunia.com/advisories/18590
+- http://securityreason.com/securityalert/367
+
+---
+
+#### 911. CVE-2005-2100
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: redhat:enterprise_linux_desktop, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The rw_vm function in usercopy.c in the 4GB split patch for the Linux kernel in Red Hat Enterprise Linux 4 does not perform proper bounds checking, which allows local users to cause a denial of service (crash).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/17073.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/17073
+- http://www.redhat.com/support/errata/RHSA-2005-514.html
+- https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=165547
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A11556
+- http://secunia.com/advisories/17073
+
+---
+
+#### 912. CVE-2005-1918
+
+**严重程度 / Severity**: N/A | CVSS: 2.6
+**受影响产品 / Affected Products**: redhat:linux_advanced_workstation, redhat:enterprise_linux_desktop, gnu:tar, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The original patch for a GNU tar directory traversal vulnerability (CVE-2002-0399) in Red Hat Enterprise Linux 3 and 2.1 uses an "incorrect optimization" that allows user-assisted attackers to overwrite arbitrary files via a crafted tar file, probably involving "/../" sequences with a leading "/".
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/advisories/20060301-01.U.asc.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20060301-01.U.asc
+- http://secunia.com/advisories/18988
+- http://secunia.com/advisories/19130
+- http://secunia.com/advisories/19183
+- http://secunia.com/advisories/20397
+
+---
+
+#### 913. CVE-2005-3629
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+initscripts in Red Hat Enterprise Linux 4 does not properly handle certain environment variables when /sbin/service is executed, which allows local users with sudo permissions for /sbin/service to gain root privileges via unknown vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/advisories/20060401-01-U.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20060401-01-U
+- http://secunia.com/advisories/19162
+- http://secunia.com/advisories/19532
+- http://securitytracker.com/id?1015732
+- http://www.redhat.com/support/errata/RHSA-2006-0015.html
+
+---
+
+#### 914. CVE-2006-1273
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+**受影响产品 / Affected Products**: mozilla:firefox
+
+**漏洞描述 / Description**:
+Mozilla Firefox 1.0.7 and 1.5.0.1 allows remote attackers to cause a denial of service (crash) via an HTML tag with a large number of script action handlers such as onload and onmouseover, which triggers the crash when the user views the page source.  NOTE: Red Hat has disputed this issue, suggesting that "It is likely the reporter was running the IE Tab extension," and Mozilla also confirmed that this is not an issue in Firefox itself
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/31833.
+
+**参考链接 / References**:
+- http://osvdb.org/31833
+- http://securityreason.com/securityalert/593
+- http://www.securityfocus.com/archive/1/427977/100/0/threaded
+- http://www.securityfocus.com/archive/1/428159/100/0/threaded
+- http://osvdb.org/31833
+
+---
+
+#### 915. CVE-2006-3467
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: freetype:freetype
+
+**漏洞描述 / Description**:
+Integer overflow in FreeType before 2.2 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a crafted PCF file, as demonstrated by the Red Hat bad1.pcf test file, due to a partial fix of CVE-2006-1861.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/advisories/20060701-01-U.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20060701-01-U
+- http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=190593
+- http://lists.apple.com/archives/security-announce/2009/Feb/msg00000.html
+- http://lists.opensuse.org/opensuse-security-announce/2007-10/msg00006.html
+- http://lists.suse.com/archive/suse-security-announce/2006-Aug/0002.html
+
+---
+
+#### 916. CVE-2006-2933
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: kde:kde, redhat:enterprise_linux_desktop, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+kdesktop_lock in kdebase before 3.1.3-5.11 for KDE in Red Hat Enterprise Linux (RHEL) 3 does not properly terminate, which can prevent the screensaver from activating or prevent users from manually locking the desktop.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=177755.
+
+**参考链接 / References**:
+- http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=177755
+- http://secunia.com/advisories/21203
+- http://securitytracker.com/id?1016571
+- http://www.redhat.com/support/errata/RHSA-2006-0576.html
+- http://www.securityfocus.com/bid/19152
+
+---
+
+#### 917. CVE-2006-3813
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+A regression error in the Perl package for Red Hat Enterprise Linux 4 omits the patch for CVE-2005-0155, which allows local users to overwrite arbitrary files with debugging information.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2006-0605.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2006-0605.html
+- http://secunia.com/advisories/21646
+- http://support.avaya.com/elmodocs2/security/ASA-2006-163.htm
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9456
+- http://rhn.redhat.com/errata/RHSA-2006-0605.html
+
+---
+
+#### 918. CVE-2006-2932
+
+**严重程度 / Severity**: N/A | CVSS: 4.9
+**受影响产品 / Affected Products**: linux:linux_kernel, redhat:enterprise_linux_desktop
+
+**漏洞描述 / Description**:
+A regression error in the restore_all code path of the 4/4GB split support for non-hugemem Linux kernels on Red Hat Linux Desktop and Enterprise Linux 4 allows local users to cause a denial of service (panic) via unspecified vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/21605.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/21605
+- http://secunia.com/advisories/22174
+- http://support.avaya.com/elmodocs2/security/ASA-2006-203.htm
+- http://www.osvdb.org/28120
+- http://www.redhat.com/support/errata/RHSA-2006-0617.html
+
+---
+
+#### 919. CVE-2006-4342
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The kernel in Red Hat Enterprise Linux 3, when running on SMP systems, allows local users to cause a denial of service (deadlock) by running the shmat function on an shm at the same time that shmctl is removing that shm (IPC_RMID), which prevents a spinlock from being unlocked.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/22497.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/22497
+- http://secunia.com/advisories/23064
+- http://support.avaya.com/elmodocs2/security/ASA-2006-254.htm
+- http://www.kb.cert.org/vuls/id/245984
+- http://www.redhat.com/support/errata/RHSA-2006-0710.html
+
+---
+
+#### 920. CVE-2007-0980
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: suse:suse_united_linux, hp:serviceguard_for_linux, suse:suse_linux, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in HP Serviceguard for Linux; packaged for SuSE SLES8 and United Linux 1.0 before SG A.11.15.07, SuSE SLES9 and SLES10 before SG A.11.16.10, and Red Hat Enterprise Linux (RHEL) before SG A.11.16.10; allows remote attackers to obtain unauthorized access via unspecified vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c00860750.
+
+**参考链接 / References**:
+- http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c00860750
+- http://osvdb.org/33201
+- http://secunia.com/advisories/24134
+- http://www.securityfocus.com/bid/22574
+- http://www.securitytracker.com/id?1017655
+
+---
+
+#### 921. CVE-2007-0001
+
+**严重程度 / Severity**: N/A | CVSS: 4.7
+**受影响产品 / Affected Products**: redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The file watch implementation in the audit subsystem (auditctl -w) in the Red Hat Enterprise Linux (RHEL) 4 kernel 2.6.9 allows local users to cause a denial of service (kernel panic) by replacing a watched file, which does not cause the watch on the old inode to be dropped.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=223129.
+
+**参考链接 / References**:
+- http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=223129
+- http://osvdb.org/33031
+- http://secunia.com/advisories/24300
+- http://www.redhat.com/support/errata/RHSA-2007-0085.html
+- http://www.securityfocus.com/bid/22737
+
+---
+
+#### 922. CVE-2006-7175
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: sendmail:sendmail, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The version of Sendmail 8.13.1-2 on Red Hat Enterprise Linux 4 Update 4 and earlier does not allow the administrator to disable SSLv2 encryption, which could cause less secure channels to be used than desired.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=172352.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=172352
+- https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=172352
 
 ---

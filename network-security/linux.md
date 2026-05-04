@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1179**
+**总计条目 / Total entries: 1257**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -19552,5 +19552,1132 @@ The binary compatibility mode for FreeBSD 4.x and 5.x does not properly handle c
 - https://exchange.xforce.ibmcloud.com/vulnerabilities/16558
 - ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-04:13.linux.asc
 - http://www.securityfocus.com/bid/10643
+
+---
+
+#### 1180. CVE-2003-0354
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Unknown vulnerability in GNU Ghostscript before 7.07 allows attackers to execute arbitrary commands, even when -dSAFER is enabled, via a PostScript file that causes the commands to be executed from a malicious print job.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=105465818929172&w=2
+- http://www.mandriva.com/security/advisories?name=MDKSA-2003:065
+- http://www.redhat.com/support/errata/RHSA-2003-181.html
+- http://www.redhat.com/support/errata/RHSA-2003-182.html
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A133
+
+---
+
+#### 1181. CVE-2003-0689
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+The getgrouplist function in GNU libc (glibc) 2.2.4 and earlier allows attackers to cause a denial of service (segmentation fault) and execute arbitrary code when a user is a member of a large number of groups, which can cause a buffer overflow.
+
+**参考链接 / References**:
+- http://www.redhat.com/support/errata/RHSA-2003-249.html
+- http://www.redhat.com/support/errata/RHSA-2003-325.html
+- http://www.redhat.com/support/errata/RHSA-2003-249.html
+- http://www.redhat.com/support/errata/RHSA-2003-325.html
+
+---
+
+#### 1182. CVE-2003-0971
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+GnuPG (GPG) 1.0.2, and other versions up to 1.2.3, creates ElGamal type 20 (sign+encrypt) keys using the same key component for encryption as for signing, which allows attackers to determine the private key from a signature.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20040202-01-U.asc
+- http://distro.conectiva.com.br/atualizacoes/?id=a&anuncio=000798
+- http://lists.gnupg.org/pipermail/gnupg-announce/2003q4/000276.html
+- http://lists.gnupg.org/pipermail/gnupg-announce/2003q4/000277.html
+- http://marc.info/?l=bugtraq&m=106995769213221&w=2
+
+---
+
+#### 1183. CVE-2003-0972
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+Integer signedness error in ansi.c for GNU screen 4.0.1 and earlier, and 3.9.15 and earlier, allows local users to execute arbitrary code via a large number of ";" (semicolon) characters in escape sequences, which leads to a buffer overflow.
+
+**参考链接 / References**:
+- http://distro.conectiva.com.br/atualizacoes/?id=a&anuncio=000809
+- http://groups.yahoo.com/group/gnu-screen/message/3118
+- http://marc.info/?l=bugtraq&m=106995837813873&w=2
+- http://secunia.com/advisories/10539
+- http://www.debian.org/security/2004/dsa-408
+
+---
+
+#### 1184. CVE-2003-0978
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Format string vulnerability in gpgkeys_hkp (experimental HKP interface) for the GnuPG (gpg) client 1.2.3 and earlier, and 1.3.3 and earlier, allows remote attackers or a malicious keyserver to cause a denial of service (crash) and possibly execute arbitrary code during key retrieval.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=107047470625214&w=2
+- http://www.novell.com/linux/security/advisories/2003_048_gpg.html
+- http://www.s-quadra.com/advisories/Adv-20031203.txt
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/13892
+- http://marc.info/?l=bugtraq&m=107047470625214&w=2
+
+---
+
+#### 1185. CVE-2004-0131
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+The rad_print_request function in logger.c for GNU Radius daemon (radiusd) before 1.2 allows remote attackers to cause a denial of service (crash) via a UDP packet with an Acct-Status-Type attribute without a value and no Acct-Session-Id attribute, which causes a null dereference.
+
+**参考链接 / References**:
+- http://ftp.gnu.org/gnu/radius/radius-1.2.tar.gz
+- http://secunia.com/advisories/10799
+- http://www.idefense.com/application/poi/display?id=71&type=vulnerabilities&flashstatus=true
+- http://www.kb.cert.org/vuls/id/277396
+- http://www.osvdb.org/3824
+
+---
+
+#### 1186. CVE-2004-0256
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+GNU libtool before 1.5.2, during compile time, allows local users to overwrite arbitrary files via a symlink attack on libtool directories in /tmp.
+
+**参考链接 / References**:
+- http://distro.conectiva.com.br/atualizacoes/?id=a&anuncio=000811
+- http://secunia.com/advisories/10777
+- http://www.geocrawler.com/mail/msg.php3?msg_id=3438808&list=405
+- http://www.osvdb.org/3795
+- http://www.securityfocus.com/archive/1/352333
+
+---
+
+#### 1187. CVE-2004-0353
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+Multiple buffer overflows in auth_ident() function in auth.c for GNU Anubis 3.6.0 through 3.6.2, 3.9.92 and 3.9.93 allow remote attackers to gain privileges via a long string.
+
+**参考链接 / References**:
+- http://mail.gnu.org/archive/html/bug-anubis/2004-02/msg00000.html
+- http://marc.info/?l=bugtraq&m=107843915424588&w=2
+- http://marc.info/?l=bugtraq&m=107894315012081&w=2
+- http://www.securityfocus.com/bid/9772
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/15345
+
+---
+
+#### 1188. CVE-2004-0354
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+Multiple format string vulnerabilities in GNU Anubis 3.6.0 through 3.6.2, 3.9.92 and 3.9.93 allow remote attackers to execute arbitrary code via format string specifiers in strings passed to (1) the info function in log.c, (2) the anubis_error function in errs.c, or (3) the ssl_error function in ssl.c.
+
+**参考链接 / References**:
+- http://mail.gnu.org/archive/html/bug-anubis/2004-02/msg00000.html
+- http://marc.info/?l=bugtraq&m=107843915424588&w=2
+- http://www.securityfocus.com/bid/9772
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/15346
+- http://mail.gnu.org/archive/html/bug-anubis/2004-02/msg00000.html
+
+---
+
+#### 1189. CVE-2004-0576
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+The radius daemon (radiusd) for GNU Radius 1.1, when compiled with the -enable-snmp option, allows remote attackers to cause a denial of service (server crash) via malformed SNMP messages containing an invalid OID.
+
+**参考链接 / References**:
+- http://marc.info/?l=full-disclosure&m=108785242716726&w=2
+- http://www.idefense.com/application/poi/display?id=110&type=vulnerabilities
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/16466
+- http://marc.info/?l=full-disclosure&m=108785242716726&w=2
+- http://www.idefense.com/application/poi/display?id=110&type=vulnerabilities
+
+---
+
+#### 1190. CVE-2004-0623
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+Format string vulnerability in misc.c in GNU GNATS 4.00 may allow remote attackers to execute arbitrary code via format string specifiers in a string that gets logged by syslog.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=108820000823191&w=2
+- http://www.securityfocus.com/bid/10609
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/16517
+- http://marc.info/?l=bugtraq&m=108820000823191&w=2
+- http://www.securityfocus.com/bid/10609
+
+---
+
+#### 1191. CVE-2004-0849
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Integer overflow in the asn_decode_string() function defined in asn1.c in radiusd for GNU Radius 1.1 and 1.2 before 1.2.94, when compiled with the --enable-snmp option, allows remote attackers to cause a denial of service (daemon crash) via certain SNMP requests.
+
+**参考链接 / References**:
+- http://lists.gnu.org/archive/html/info-gnu-radius/2004-09/msg00000.html
+- http://www.idefense.com/application/poi/display?id=141&type=vulnerabilities
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/17391
+- http://lists.gnu.org/archive/html/info-gnu-radius/2004-09/msg00000.html
+- http://www.idefense.com/application/poi/display?id=141&type=vulnerabilities
+
+---
+
+#### 1192. CVE-2004-1403
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+PHP remote file inclusion vulnerability in index.php in GNUBoard 3.39 and earlier allows remote attackers to execute arbitrary PHP code by modifying the doc parameter to reference a URL on a remote web server that contains the code.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=110313585810712&w=2
+- http://secunia.com/advisories/13479/
+- http://sir.co.kr/?doc=bbs/gnuboard.php&bo_table=pds&page=1&wr_id=1871
+- http://www.securityfocus.com/bid/11948
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18494
+
+---
+
+#### 1193. CVE-2004-1453
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+GNU glibc 2.3.4 before 2.3.4.20040619, 2.3.3 before 2.3.3.20040420, and 2.3.2 before 2.3.2-r10 does not restrict the use of LD_DEBUG for a setuid program, which allows local users to gain sensitive information, such as the list of symbols used by the program.
+
+**参考链接 / References**:
+- http://bugs.gentoo.org/show_bug.cgi?id=59526
+- http://secunia.com/advisories/12306
+- http://www.gentoo.org/security/en/glsa/glsa-200408-16.xml
+- http://www.redhat.com/support/errata/RHSA-2005-256.html
+- http://www.redhat.com/support/errata/RHSA-2005-261.html
+
+---
+
+#### 1194. CVE-2004-1772
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+
+**漏洞描述 / Description**:
+Stack-based buffer overflow in shar in GNU sharutils 4.2.1 allows local users to execute arbitrary code via a long -o command line argument.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=108137386310299&w=2
+- http://www.redhat.com/support/errata/RHSA-2005-377.html
+- http://www.securityfocus.com/archive/1/359639
+- http://www.securityfocus.com/bid/10066
+- https://bugzilla.fedora.us/show_bug.cgi?id=2155
+
+---
+
+#### 1195. CVE-2004-2264
+
+**严重程度 / Severity**: N/A | CVSS: 6.4
+
+**漏洞描述 / Description**:
+Format string bug in the open_altfile function in filename.c for GNU less 382, 381, and 358 might allow local users to cause a denial of service or possibly execute arbitrary code via format strings in the LESSOPEN environment variable. NOTE: since less is not setuid or setgid, then this is not a vulnerability unless there are plausible scenarios under which privilege boundaries could be crossed
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/fulldisclosure/2004-08/0794.html
+- http://archives.neohapsis.com/archives/fulldisclosure/2004-08/0811.html
+- http://securitytracker.com/id?1010988
+- http://www.osvdb.org/9014
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/17032
+
+---
+
+#### 1196. CVE-2004-2312
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+
+**漏洞描述 / Description**:
+Buffer overflow in GNU make for IBM AIX 4.3.3, when installed setgid, allows local users to gain privileges via a long CC argument.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/fulldisclosure/2004-03/0997.html
+- http://archives.neohapsis.com/archives/fulldisclosure/2004-03/1124.html
+- http://secunia.com/advisories/11158/
+- http://www.osvdb.org/4391
+- http://www.securityfocus.com/bid/9903
+
+---
+
+#### 1197. CVE-2004-2459
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+Unknown vulnerability in gnubiff 1.2.0 and earlier allows local users to obtain passwords, related to the password table.
+
+**参考链接 / References**:
+- http://sourceforge.net/project/shownotes.php?group_id=94176&release_id=248016
+- http://www.osvdb.org/7250
+- http://sourceforge.net/project/shownotes.php?group_id=94176&release_id=248016
+- http://www.osvdb.org/7250
+
+---
+
+#### 1198. CVE-2004-2460
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Unknown vulnerability in POP3 in gnubiff before 2.0.0 allows remote attackers to cause a denial of service (application crash) via an "infinite" Unique IDentification Listing (UIDL) list.
+
+**参考链接 / References**:
+- http://gnubiff.sourceforge.net/changelog.php
+- http://secunia.com/advisories/12445
+- http://www.osvdb.org/9731
+- http://www.securityfocus.com/bid/11123
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/17282
+
+---
+
+#### 1199. CVE-2004-2461
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Buffer overflow in pop3.c in gnubiff before 2.0.0 allows attackers to cause a denial of service (crash) and possibly execute arbitrary code.
+
+**参考链接 / References**:
+- http://gnubiff.sourceforge.net/changelog.php
+- http://secunia.com/advisories/12445
+- http://www.osvdb.org/9731
+- http://www.securityfocus.com/bid/11123
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/17282
+
+---
+
+#### 1200. CVE-2004-1286
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+Buffer overflow in the auto_filter_extern function in auto.c for NapShare 1.2, with the extern filter enabled, allows remote attackers to execute arbitrary code via a crafted gnutella response.
+
+**参考链接 / References**:
+- http://tigger.uic.edu/~jlongs2/holes/napshare.txt
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18630
+- http://tigger.uic.edu/~jlongs2/holes/napshare.txt
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18630
+
+---
+
+#### 1201. CVE-2004-0966
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+The (1) autopoint and (2) gettextize scripts in the GNU gettext package 1.14 and later versions, as used in Trustix Secure Linux 1.5 through 2.1 and other operating systems, allows local users to overwrite files via a symlink attack on temporary files.
+
+**参考链接 / References**:
+- http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=136323
+- http://marc.info/?l=bugtraq&m=110382652226638&w=2
+- http://www.gentoo.org/security/en/glsa/glsa-200410-10.xml
+- http://www.redhat.com/archives/fedora-legacy-announce/2006-January/msg00000.html
+- http://www.securityfocus.com/bid/11282
+
+---
+
+#### 1202. CVE-2005-0788
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+LimeWire 4.1.2 through 4.5.6 allows remote attackers to read arbitrary files by specifying the full pathname in a Gnutella GET request.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=111082448213238&w=2
+- http://secunia.com/advisories/14555/
+- http://www.gentoo.org/security/en/glsa/glsa-200503-37.xml
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/19693
+- http://marc.info/?l=bugtraq&m=111082448213238&w=2
+
+---
+
+#### 1203. CVE-2005-0009
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Unknown vulnerability in the Gnutella dissector in Ethereal 0.10.6 through 0.10.8 allows remote attackers to cause a denial of service (application crash).
+
+**参考链接 / References**:
+- http://secunia.com/advisories/13946/
+- http://www.ciac.org/ciac/bulletins/p-106.shtml
+- http://www.ethereal.com/appnotes/enpa-sa-00017.html
+- http://www.gentoo.org/security/en/glsa/glsa-200501-27.xml
+- http://www.mandriva.com/security/advisories?name=MDKSA-2005:013
+
+---
+
+#### 1204. CVE-2005-0269
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+The file extension check in GNUBoard 3.40 and earlier only verifies extensions that contain all lowercase letters, which allows remote attackers to upload arbitrary files via file extensions that include uppercase letters.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=110477648219738&w=2
+- http://secunia.com/advisories/13711
+- http://www.securityfocus.com/bid/12149
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18729
+- http://marc.info/?l=bugtraq&m=110477648219738&w=2
+
+---
+
+#### 1205. CVE-2005-1431
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+The "record packet parsing" in GnuTLS 1.2 before 1.2.3 and 1.0 before 1.0.25 allows remote attackers to cause a denial of service, possibly related to padding bytes in gnutils_cipher.c.
+
+**参考链接 / References**:
+- http://lists.gnupg.org/pipermail/gnutls-dev/2005-April/000858.html
+- http://secunia.com/advisories/15193
+- http://securitytracker.com/id?1013861
+- http://www.osvdb.org/16054
+- http://www.redhat.com/support/errata/RHSA-2005-430.html
+
+---
+
+#### 1206. CVE-2005-1520
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Buffer overflow in the header_get_field_name function in header.c for GNU Mailutils 0.5 and 0.6, and other versions before 0.6.90, allows remote attackers to execute arbitrary code via a crafted e-mail.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/15442
+- http://securitytracker.com/id?1014052
+- http://www.debian.org/security/2005/dsa-732
+- http://www.idefense.com/application/poi/display?id=249&type=vulnerabilities
+- http://www.securityfocus.com/bid/13766
+
+---
+
+#### 1207. CVE-2005-1521
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Integer overflow in the fetch_io function of the imap4d server in GNU Mailutils 0.5 and 0.6, and other versions before 0.6.90, allows remote attackers to execute arbitrary code via a partial message request with a large value in the END parameter, which leads to a heap-based buffer overflow.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/15442
+- http://securitytracker.com/id?1014052
+- http://www.debian.org/security/2005/dsa-732
+- http://www.idefense.com/application/poi/display?id=248&type=vulnerabilities
+- http://www.securityfocus.com/bid/13763
+
+---
+
+#### 1208. CVE-2005-1522
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+The imap4d server for GNU Mailutils 0.5 and 0.6, and other versions before 0.6.90, allows authenticated remote users to cause a denial of service (CPU consumption) via a large range value in the FETCH command.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/15442
+- http://securitytracker.com/id?1014052
+- http://www.debian.org/security/2005/dsa-732
+- http://www.idefense.com/application/poi/display?id=247&type=vulnerabilities
+- http://www.securityfocus.com/bid/13765
+
+---
+
+#### 1209. CVE-2005-1523
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Format string vulnerability in imap4d server in GNU Mailutils 0.5 and 0.6, and other versions before 0.6.90, allows remote attackers to execute arbitrary code via format string specifiers in the command tag for IMAP commands.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/15442
+- http://securitytracker.com/id?1014052
+- http://www.debian.org/security/2005/dsa-732
+- http://www.idefense.com/application/poi/display?id=246&type=vulnerabilities
+- http://www.securityfocus.com/bid/13764
+
+---
+
+#### 1210. CVE-2005-1852
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Multiple integer overflows in libgadu, as used in Kopete in KDE 3.2.3 to 3.4.1, ekg before 1.6rc3, GNU Gadu, CenterICQ, Kadu, and other packages, allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via an incoming message.
+
+**参考链接 / References**:
+- http://lwn.net/Articles/144724/
+- http://marc.info/?l=bugtraq&m=112198499417250&w=2
+- http://secunia.com/advisories/16140
+- http://secunia.com/advisories/16155
+- http://secunia.com/advisories/16211
+
+---
+
+#### 1211. CVE-2005-2878
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Format string vulnerability in search.c in the imap4d server in GNU Mailutils 0.6 allows remote authenticated users to execute arbitrary code via format string specifiers in the SEARCH command.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=112785181316043&w=2
+- http://savannah.gnu.org/patch/index.php?func=detailitem&item_id=4407
+- http://secunia.com/advisories/16783
+- http://secunia.com/advisories/17020
+- http://www.debian.org/security/2005/dsa-841
+
+---
+
+#### 1212. CVE-2005-3123
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Directory traversal vulnerability in GNUMP3D before 2.9.6 allows remote attackers to read arbitrary files via crafted sequences such as "/.//..//////././", which is collapsed into "/.././" after ".." and "//" sequences are removed.
+
+**参考链接 / References**:
+- http://lists.gnu.org/archive/html/gnump3d-users/2005-10/msg00013.html
+- http://secunia.com/advisories/17351
+- http://secunia.com/advisories/17559
+- http://securityreason.com/securityalert/127
+- http://securitytracker.com/id?1015118
+
+---
+
+#### 1213. CVE-2005-3424
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in GNUMP3D before 2.9.5 allows remote attackers to inject arbitrary web script or HTML via 404 error pages, a different vulnerability than CVE-2005-3425.
+
+**参考链接 / References**:
+- http://lists.gnu.org/archive/html/gnump3d-users/2005-10/msg00013.html
+- http://secunia.com/advisories/17351
+- http://www.debian.org/security/2005/dsa-877
+- http://www.gnu.org/software/gnump3d/ChangeLog
+- http://www.novell.com/linux/security/advisories/2005_28_sr.html
+
+---
+
+#### 1214. CVE-2005-3425
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in GNUMP3D before 2.9.6 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors, a different vulnerability than CVE-2005-3424.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/17351
+- http://secunia.com/advisories/17355
+- http://secunia.com/advisories/17449
+- http://secunia.com/advisories/17831
+- http://securitytracker.com/id?1015118
+
+---
+
+#### 1215. CVE-2020-15425
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_mod_security.php. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9742.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-742/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-742/
+
+---
+
+#### 1216. CVE-2020-15426
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_migration_cpanel.php. When parsing the serverip parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9709.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-743/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-743/
+
+---
+
+#### 1217. CVE-2020-15427
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_disk_usage.php. When parsing the folderName parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9713.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-744/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-744/
+
+---
+
+#### 1218. CVE-2020-15428
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_crons.php. When parsing the line parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9714.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-745/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-745/
+
+---
+
+#### 1219. CVE-2020-15429
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_crons.php. When parsing the user parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9716.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-746/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-746/
+
+---
+
+#### 1220. CVE-2020-15430
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_list_accounts.php. When parsing the username parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9736.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-747/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-747/
+
+---
+
+#### 1221. CVE-2020-15431
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_crons.php. When parsing the user parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9740.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-748/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-748/
+
+---
+
+#### 1222. CVE-2020-15432
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_migration_cpanel.php. When parsing the filespace parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9743.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-749/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-749/
+
+---
+
+#### 1223. CVE-2020-15433
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_php_pecl.php. When parsing the phpversion parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9715.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-750/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-750/
+
+---
+
+#### 1224. CVE-2020-15434
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_php_pecl.php. When parsing the canal parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9745.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-751/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-751/
+
+---
+
+#### 1225. CVE-2020-15435
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_dashboard.php. When parsing the service_start parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9719.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-752/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-752/
+
+---
+
+#### 1226. CVE-2020-15606
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_admin_apis.php. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9720.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-753/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-753/
+
+---
+
+#### 1227. CVE-2020-15607
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_admin_apis.php. When parsing the line parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9721.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-754/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-754/
+
+---
+
+#### 1228. CVE-2020-15608
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_dashboard.php. When parsing the ai_service parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9724.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-755/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-755/
+
+---
+
+#### 1229. CVE-2020-15609
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_dashboard.php. When parsing the service_stop parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9726.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-756/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-756/
+
+---
+
+#### 1230. CVE-2020-15610
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_php_pecl.php. When parsing the modulo parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9728.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-757/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-757/
+
+---
+
+#### 1231. CVE-2020-15611
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_dashboard.php. When parsing the service_restart parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9734.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-758/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-758/
+
+---
+
+#### 1232. CVE-2020-15612
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_ftp_manager.php. When parsing the userLogin parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9737.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-759/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-759/
+
+---
+
+#### 1233. CVE-2020-15613
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_admin_apis.php. When parsing the line parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9739.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-760/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-760/
+
+---
+
+#### 1234. CVE-2020-15614
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_php_pecl.php. When parsing the cha parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9718.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-761/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-761/
+
+---
+
+#### 1235. CVE-2020-15615
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_ftp_manager.php. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9746.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-762/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-762/
+
+---
+
+#### 1236. CVE-2020-15616
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_list_accounts.php. When parsing the package parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9706.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-763/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-763/
+
+---
+
+#### 1237. CVE-2020-15617
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_list_accounts.php. When parsing the status parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9708.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-764/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-764/
+
+---
+
+#### 1238. CVE-2020-15618
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_list_accounts.php. When parsing the username parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9717.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-765/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-765/
+
+---
+
+#### 1239. CVE-2020-15619
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_list_accounts.php. When parsing the type parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9723.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-766/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-766/
+
+---
+
+#### 1240. CVE-2020-15620
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_list_accounts.php. When parsing the id parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9741.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-767/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-767/
+
+---
+
+#### 1241. CVE-2020-15621
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_mail_autoreply.php. When parsing the email parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9711.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-768/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-768/
+
+---
+
+#### 1242. CVE-2020-15622
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_mail_autoreply.php. When parsing the search parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9712.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-769/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-769/
+
+---
+
+#### 1243. CVE-2020-15623
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to write arbitrary files on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_mod_security.php. When parsing the archivo parameter, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9722.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-770/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-770/
+
+---
+
+#### 1244. CVE-2020-15624
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_new_account.php. When parsing the domain parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9727.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-771/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-771/
+
+---
+
+#### 1245. CVE-2020-15625
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_add_mailbox.php. When parsing the username parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9729.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-772/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-772/
+
+---
+
+#### 1246. CVE-2020-15626
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_dashboard.php. When parsing the term parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9730.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-773/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-773/
+
+---
+
+#### 1247. CVE-2020-15627
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_mail_autoreply.php. When parsing the account parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9738.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-774/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-774/
+
+---
+
+#### 1248. CVE-2020-15628
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of CentOS Web Panel cwp-e17.0.9.8.923. Authentication is not required to exploit this vulnerability. The specific flaw exists within ajax_mail_autoreply.php. When parsing the user parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of root. Was ZDI-CAN-9710.
+
+**参考链接 / References**:
+- https://www.zerodayinitiative.com/advisories/ZDI-20-775/
+- https://www.zerodayinitiative.com/advisories/ZDI-20-775/
+
+---
+
+#### 1249. CVE-2021-31316
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+The unprivileged user portal part of CentOS Web Panel is affected by a SQL Injection via the 'idsession' HTTP POST parameter.
+
+**参考链接 / References**:
+- https://www.shielder.it/advisories/centos-web-panel-idsession-root-rce/
+- https://www.shielder.it/advisories/centos-web-panel-idsession-root-rce/
+
+---
+
+#### 1250. CVE-2021-31324
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+The unprivileged user portal part of CentOS Web Panel is affected by a Command Injection vulnerability leading to root Remote Code Execution.
+
+**参考链接 / References**:
+- https://www.shielder.it/advisories/centos-web-panel-idsession-root-rce/
+- https://www.shielder.it/advisories/centos-web-panel-idsession-root-rce/
+
+---
+
+#### 1251. CVE-2021-41034
+
+**严重程度 / Severity**: HIGH | CVSS: 8.1
+
+**漏洞描述 / Description**:
+The build of some language stacks of Eclipse Che version 6 includes pulling some binaries from an unsecured HTTP endpoint. As a consequence the builds of such stacks are vulnerable to MITM attacks that allow the replacement of the original binaries with arbitrary ones. The stacks involved are Java 8 (alpine and centos), Android and PHP. The vulnerability is not exploitable at runtime but only when building Che.
+
+**参考链接 / References**:
+- https://bugs.eclipse.org/bugs/show_bug.cgi?id=540989
+- https://bugs.eclipse.org/bugs/show_bug.cgi?id=540989
+
+---
+
+#### 1252. CVE-2021-20315
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.1
+
+**漏洞描述 / Description**:
+A locking protection bypass flaw was found in some versions of gnome-shell as shipped within CentOS Stream 8, when the "Application menu" or "Window list" GNOME extensions are enabled. This flaw allows a physical attacker who has access to a locked system to kill existing applications and start new ones as the locked user, even if the session is still locked.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2006285
+- https://bugzilla.redhat.com/show_bug.cgi?id=2006285
+
+---
+
+#### 1253. CVE-2021-4218
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+
+**漏洞描述 / Description**:
+A flaw was found in the Linux kernel’s implementation of reading the SVC RDMA counters. Reading the counter sysctl panics the system. This flaw allows a local attacker with local access to cause a denial of service while the system reboots. The issue is specific to CentOS/RHEL.
+
+**参考链接 / References**:
+- https://access.redhat.com/security/cve/CVE-2021-4218
+- https://bugs.centos.org/view.php?id=18395
+- https://bugzilla.redhat.com/show_bug.cgi?id=2048359
+- https://access.redhat.com/security/cve/CVE-2021-4218
+- https://bugs.centos.org/view.php?id=18395
+
+---
+
+#### 1254. CVE-2021-45466
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+In CWP (aka Control Web Panel or CentOS Web Panel) before 0.9.8.1107, attackers can make a crafted request to api/?api=add_server&DHCP= to add an authorized_keys text file in the /resources/ folder.
+
+**参考链接 / References**:
+- https://control-webpanel.com/changelog
+- https://octagon.net/blog/2022/01/22/cve-2021-45467-cwp-centos-web-panel-preauth-rce/
+- https://control-webpanel.com/changelog
+- https://octagon.net/blog/2022/01/22/cve-2021-45467-cwp-centos-web-panel-preauth-rce/
+
+---
+
+#### 1255. CVE-2021-45467
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+In CWP (aka Control Web Panel or CentOS Web Panel) before 0.9.8.1107, an unauthenticated attacker can use %00 bytes to cause /user/loader.php to register an arbitrary API key, as demonstrated by a /user/loader.php?api=1&scripts= .%00./.%00./api/account_new_create&acc=guadaapi URI. Any number of %00 instances can be used, e.g., .%00%00%00./.%00%00%00./api/account_new_create could also be used for the scripts parameter.
+
+**参考链接 / References**:
+- https://control-webpanel.com/changelog
+- https://octagon.net/blog/2022/01/22/cve-2021-45467-cwp-centos-web-panel-preauth-rce/
+- https://control-webpanel.com/changelog
+- https://octagon.net/blog/2022/01/22/cve-2021-45467-cwp-centos-web-panel-preauth-rce/
+
+---
+
+#### 1256. CVE-2022-44877
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+login/index.php in CWP (aka Control Web Panel or CentOS Web Panel) 7 before 0.9.8.1147 allows remote attackers to execute arbitrary OS commands via shell metacharacters in the login parameter.
+
+**参考链接 / References**:
+- http://packetstormsecurity.com/files/170388/Control-Web-Panel-7-Remote-Code-Execution.html
+- http://packetstormsecurity.com/files/170820/Control-Web-Panel-Unauthenticated-Remote-Command-Execution.html
+- http://packetstormsecurity.com/files/171725/Control-Web-Panel-7-CWP7-0.9.8.1147-Remote-Code-Execution.html
+- http://seclists.org/fulldisclosure/2023/Jan/1
+- https://gist.github.com/numanturle/c1e82c47f4cba24cff214e904c227386
+
+---
+
+#### 1257. CVE-2025-48703
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.0
+
+**漏洞描述 / Description**:
+CWP (aka Control Web Panel or CentOS Web Panel) before 0.9.8.1205 allows unauthenticated remote code execution via shell metacharacters in the t_total parameter in a filemanager changePerm request. A valid non-root username must be known.
+
+**参考链接 / References**:
+- https://fenrisk.com/rce-centos-webpanel
+- https://control-webpanel.com/changelog
+- https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-48703
 
 ---
