@@ -14,7 +14,7 @@ import {
   Star,
 } from 'lucide-react';
 import { useTranslation } from '@/i18n/LanguageContext';
-import { loadStats } from '@/lib/content';
+import { loadCategories, loadStats } from '@/lib/content';
 
 /* ------------------------------------------------------------------ */
 /*  Matrix Rain Canvas (isolated, memoized)                            */
@@ -249,11 +249,32 @@ export default function Home() {
   const heroRef = useRef<HTMLDivElement>(null);
 
   // Fetch live stats from generated static data
-  const [, setLiveEntryCount] = useState(3300);
+  const [liveStats, setLiveStats] = useState({
+    totalEntries: 0,
+    networkSecurity: 0,
+  });
   useEffect(() => {
-    loadStats().then((s) => {
-      if (s?.totalEntries) setLiveEntryCount(s.totalEntries);
-    }).catch(() => {});
+    loadStats()
+      .then((s) => {
+        setLiveStats({
+          totalEntries: s?.totalEntries ?? 0,
+          networkSecurity: s?.categories?.network_security ?? 0,
+        });
+      })
+      .catch(() => {});
+  }, []);
+
+  const [categoryCounts, setCategoryCounts] = useState<Record<string, number>>({});
+  useEffect(() => {
+    loadCategories()
+      .then((items) => {
+        if (Array.isArray(items)) {
+          setCategoryCounts(
+            Object.fromEntries(items.map((item: { key: string; entry_count: number }) => [item.key, item.entry_count])),
+          );
+        }
+      })
+      .catch(() => {});
   }, []);
   const statsRef = useRef<HTMLDivElement>(null);
   const categoriesRef = useRef<HTMLDivElement>(null);
@@ -285,14 +306,14 @@ export default function Home() {
 
   const subtitleText =
     lang === 'zh'
-      ? '3000+ 精选漏洞 · SQLite + Markdown · 每日从 NVD、Exploit-DB、GitHub 安全公告等更新'
+      ? '持续更新的安全漏洞与系统故障知识库 · SQLite + Markdown · 每日从 NVD、Exploit-DB、GitHub 安全公告等更新'
       : lang === 'fr'
-        ? "3000+ vulnérabilités sélectionnées · SQLite + Markdown · Mises à jour quotidiennes depuis NVD, Exploit-DB, GitHub Advisories, et plus"
+        ? 'Base de connaissances sécurité continuellement mise à jour · SQLite + Markdown · Mises à jour quotidiennes depuis NVD, Exploit-DB, GitHub Advisories, et plus'
         : lang === 'ja'
-          ? '3000+ 厳選脆弱性 · SQLite + Markdown · NVD、Exploit-DB、GitHub Advisories などから毎日更新'
+          ? '継続更新されるセキュリティ脆弱性・障害ナレッジベース · SQLite + Markdown · NVD、Exploit-DB、GitHub Advisories などから毎日更新'
           : lang === 'ko'
-            ? '3000+ 선별된 취약점 · SQLite + Markdown · NVD, Exploit-DB, GitHub Advisories 등에서 매일 업데이트'
-            : '3,000+ curated vulnerabilities · SQLite + Markdown · Daily updated from NVD, Exploit-DB, GitHub Advisories, and more';
+            ? '지속적으로 업데이트되는 보안 취약점 및 장애 지식 베이스 · SQLite + Markdown · NVD, Exploit-DB, GitHub Advisories 등에서 매일 업데이트'
+            : 'Continuously updated security vulnerability and troubleshooting knowledge base · SQLite + Markdown · Daily updated from NVD, Exploit-DB, GitHub Advisories, and more';
 
   const badgeText =
     lang === 'zh'
@@ -431,14 +452,14 @@ export default function Home() {
           >
             <StatItem
               icon={<Database className="h-5 w-5" />}
-              value={3154}
+              value={liveStats.totalEntries}
               label={t('hero.stats.totalEntries') as string}
               start={statsInView}
             />
             <div className="hidden h-10 w-px bg-border-subtle md:block" />
             <StatItem
               icon={<Shield className="h-5 w-5" />}
-              value={452}
+              value={liveStats.networkSecurity}
               label={t('hero.stats.networkSecurity') as string}
               start={statsInView}
             />
@@ -539,7 +560,7 @@ export default function Home() {
                   {t('categories.networkSecurity.description') as string}
                 </p>
                 <p className="mt-4 text-xs text-text-muted">
-                  452 {t('categories.networkSecurity.stats') as string}
+                  {(categoryCounts['network-security'] ?? liveStats.networkSecurity).toLocaleString()} {t('categories.networkSecurity.stats') as string}
                 </p>
                 <span className="mt-auto inline-flex items-center gap-1 pt-6 text-sm text-text-muted transition-colors group-hover:text-accent-blue">
                   {t('categories.networkSecurity.cta') as string}
