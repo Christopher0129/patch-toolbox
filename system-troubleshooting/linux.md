@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1845**
+**总计条目 / Total entries: 1937**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -31766,5 +31766,1201 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210019#reply10
+
+---
+
+#### 1846. Meet Drawy, KDE’s first infinite whiteboard app
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t39ya1/meet_drawy_kdes_first_infinite_whiteboard_app/
+
+---
+
+#### 1847. LibreOffice project and community recap: April 2026 - Software updates, events, new docs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t3be8c/libreoffice_project_and_community_recap_april/
+
+---
+
+#### 1848. Fooyin (a FOSS music player similar to Foobar2k but for Linux) v0.10.4 release notes discussion thread (in the crosspost)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t3cl11/fooyin_a_foss_music_player_similar_to_foobar2k/
+
+---
+
+#### 1849. Would Canonical considering a better ubuntu touch support be an idea
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t3bhk5/would_canonical_considering_a_better_ubuntu_touch/
+
+---
+
+#### 1850. PAID online training labs - not free
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t3dbgo/paid_online_training_labs_not_free/
+
+---
+
+#### 1851. Which desktop environments can make inactive foreground windows translucent?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3c1st/which_desktop_environments_can_make_inactive/
+
+---
+
+#### 1852. Moving to Linux Desktop - hoping I can get some direction
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t37pe2/moving_to_linux_desktop_hoping_i_can_get_some/
+
+---
+
+#### 1853. Which Linux distro is best for me?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3d6jq/which_linux_distro_is_best_for_me/
+
+---
+
+#### 1854. PDF editing
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3d4sy/pdf_editing/
+
+---
+
+#### 1855. Why is my Fedora 44 display in dark mode but the display is still bright white?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3ce9p/why_is_my_fedora_44_display_in_dark_mode_but_the/
+
+---
+
+#### 1856. Frugal install via unetboot.ubndlr isn't real
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3bsla/frugal_install_via_unetbootubndlr_isnt_real/
+
+---
+
+#### 1857. Videoproblem booting Linux on a Lenovo Thinkcentre M625q CPU AMD A9-9420
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3avzz/videoproblem_booting_linux_on_a_lenovo/
+
+---
+
+#### 1858. Insync, the cloud sync tool, has become less and less reliable. What are viable alternatives to sync your Google Drive, Dropbox, etc?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3aut9/insync_the_cloud_sync_tool_has_become_less_and/
+
+---
+
+#### 1859. Does Fedora work well with Nvidia cards?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3997z/does_fedora_work_well_with_nvidia_cards/
+
+---
+
+#### 1860. Question regarding Virtual Onscreen Keyboard (onboard), Ctrl key not working?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t38lnn/question_regarding_virtual_onscreen_keyboard/
+
+---
+
+#### 1861. gaming help
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t378yg/gaming_help/
+
+---
+
+#### 1862. Ubuntu 26.04 LTS: Security, AI, Gaming, and Kernel 7.0 | A Change of Era
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t38034/ubuntu_2604_lts_security_ai_gaming_and_kernel_70/
+
+---
+
+#### 1863. Would Canonical considering a better ubuntu touch support be an idea
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3bi2b/would_canonical_considering_a_better_ubuntu_touch/
+
+---
+
+#### 1864. CVE-2026-31431 (Copy Fail) Kernel Patch for Ubuntu 24.04 (1025)
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3da4h/cve202631431_copy_fail_kernel_patch_for_ubuntu/
+
+---
+
+#### 1865. Using 26.04. Why is soft-reboot no longer working?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3d720/using_2604_why_is_softreboot_no_longer_working/
+
+---
+
+#### 1866. Ubuntu 26 trackpad guestures issues
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3d4g2/ubuntu_26_trackpad_guestures_issues/
+
+---
+
+#### 1867. Stuck on flash screen when trying to install (Dual Boot)
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3c928/stuck_on_flash_screen_when_trying_to_install_dual/
+
+---
+
+#### 1868. Hello i have a problem my internet speed is really slow on Ubuntu compared to Windows 11 and my other devices
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3c83p/hello_i_have_a_problem_my_internet_speed_is/
+
+---
+
+#### 1869. Need help with installing Ubuntu 26
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t388w3/need_help_with_installing_ubuntu_26/
+
+---
+
+#### 1870. launchpad account creation going smoothly
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3853b/launchpad_account_creation_going_smoothly/
+
+---
+
+#### 1871. Ubuntu backups taking up too much space on google drive.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3a2a3/ubuntu_backups_taking_up_too_much_space_on_google/
+
+---
+
+#### 1872. Looking for something to fit my needs as a bonehead
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t3a7fi/looking_for_something_to_fit_my_needs_as_a/
+
+---
+
+#### 1873. I'm highly considering moving over to Linux, which distro should I use?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t3d7fi/im_highly_considering_moving_over_to_linux_which/
+
+---
+
+#### 1874. Titan Neo with some fixes and upstream updates is available
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t3cr81/titan_neo_with_some_fixes_and_upstream_updates_is/
+
+---
+
+#### 1875. I want to escape W11
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t3c6ws/i_want_to_escape_w11/
+
+---
+
+#### 1876. Site interactive but "invisible" across multiple Linux distros and devices
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t39ju7/site_interactive_but_invisible_across_multiple/
+
+---
+
+#### 1877. Something breaks constantly
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t38vdf/something_breaks_constantly/
+
+---
+
+#### 1878. Question regarding Virtual Onscreen Keyboard (onboard), Ctrl key not working?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t38l7y/question_regarding_virtual_onscreen_keyboard/
+
+---
+
+#### 1879. If everything works in the short term when it comes with linux agreeing with the hardware but in the long term things mess up because linux does not fully agree with the hardware does that mean I can fix it and make where it fully agrees with the hardware?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t37tav/if_everything_works_in_the_short_term_when_it/
+
+---
+
+#### 1880. how can I change my trash icon?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t37a9l/how_can_i_change_my_trash_icon/
+
+---
+
+#### 1881. vettel: a cli tool to get A LOT of information about formula 1
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t37w9t/vettel_a_cli_tool_to_get_a_lot_of_information/
+
+---
+
+#### 1882. [V2EX] ubuntu 24.04 今天点击更新后，蓝牙鼠标不能用了。
+
+**问题描述 / Problem Description**:
+如题，更新完右上角的蓝牙图标和其他图标不断闪烁，蓝牙模式不能用，2.4G 可以，这是啥问题，是自动更新内核导致蓝牙驱动崩溃了吗，这时候 V2EX 怎么能发图片呢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210138#reply9
+
+---
+
+#### 1883. [V2EX] 专注非标制造业 AI Agent 开发，寻找技术合伙人，已有行业资源和种子客户方向
+
+**问题描述 / Problem Description**:
+背景 我们在做非标工业齿轮箱这个细分行业，这类企业几乎都是单件定制生产，每台产品都不一样，生产管理靠微信群+Excel ，订单进度全靠老板脑子记。 传统 MES 工具对这类企业完全不适用——配置成本太高、逻辑不匹配。但这个问题用 AI Agent 可以用很轻的方式解决：工人自然语言更新进度，系统自动追踪交期风险、采购瓶颈，老板看一张看板就够了。 我能带来什么 · 对非标制造业有较深的行业理解，能准确定义产品场景 · 正在推进种子客户访谈，已有初步目标客户池 · 负责产品定义、客户开发、商务拓展 · 愿意以股权换技术，认真对待，不是来白嫖的 需要什么样的技术伙伴 · 有 Python 或全栈开发
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210188#reply3
+
+---
+
+#### 1884. [V2EX] Agent 开发实际在做什么？
+
+**问题描述 / Problem Description**:
+貌似 Agent 开发比较火。 我理解 Agent 开发就是围绕大模型（作为智能引擎），弥补大模型的不足（上下文限制，稳定性，不懂行业知识）。 感觉还是有点抽象，希望业内人士介绍一下。 在打造 AI 产品？ 在流程上引入 AI 为公司降本增效？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210142#reply5
+
+---
+
+#### 1885. [V2EX] Claude Code 怎么使用 openai 兼容接口啊
+
+**问题描述 / Problem Description**:
+就是以前那种 v1/chat/completions 的接口 这玩意 curl 调用是 ok 的,但是怎么都配置不好,有没有大佬能给点帮助,配置起来让 claude code 可以用 直接修改 json 文件是不行的吧 ccswitch 配置了,开启了代理模式,也不行,一直报错 不知道怎么回事? 附大模型如下: curl --request POST --url https://api.edgefn.net/v1/chat/completions --header 'Authorization: Bearer sk-ua0Ck8DmT7foGf2u22685eAf65D04b3eBd571c7
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210115#reply8
+
+---
+
+#### 1886. [V2EX] 都说 Anthropic 不做人，现在国产模型厂也不做人
+
+**问题描述 / Problem Description**:
+潜水老玩意冒出来…首帖没想到竟是吐槽 事情是这样的… 某 G 开头的模型厂的 coding plan, 4/22 号改了用户协议，4/30 号老 plan 下架。 我今天 （ 5/3 ）登陆控制台才看到弹窗。 老 plan 每 5 小时 600 次调用，没有 weekly cap ，新 plan 每五小时 400 次，weekly cap 2000. 说是送两个月“同等级”套餐，首先上面的五小时调用就不是“同等级”了。另外我前面猛猛写的时候一天写 12 小时…老套餐理论 cap 是每周 19800 次，就算我按 10 小时的 cap 算，就算一周写 6 天，那是 600 * 2 * 6 = 7
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210113#reply43
+
+---
+
+#### 1887. [V2EX] 嘚瑟一下，有一个 gmail 账号可以改用户名了
+
+**问题描述 / Problem Description**:
+之前试了一个账号，更新成功了，又尝试了另一个账号，依然可以，但我就是不修改，气不气人！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210089#reply27
+
+---
+
+#### 1888. [V2EX] 封号丢了 Claude 对话数据？曲线救国系列之让 Copilot 达到 Claude 网页对话的效果
+
+**问题描述 / Problem Description**:
+为 GitHub Copilot 网页版补上 SVG 显示能力：一个不成熟的油猴脚本 我最常用的网页 AI 是 ChatGPT 。 但前段时间因为有 giffgaff 的卡，就尝试着使用了 Claude 网页版。结果顿时惊为天人： 用 ChatGPT 的时候，原来过的是苦日子啊。 然后我就用着 Claude Free 版本和 Claude 网页彻夜长谈。 不是付不起 Claude Pro ，只是一直听大家说 Claude 封号封得厉害，所以我就先观望一下，看看是不是真的能封到我。 不出所料，大概五天不到，账号就被封了。 哇，真的很难受。 倒不是说号没了有多严重，而是： 对话记录没了。 这个很伤
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210085#reply9
+
+---
+
+#### 1889. [V2EX] 买了一台 256G 显存, 96G 内存电脑放家里, 如何对外出租出售剩余算力?
+
+**问题描述 / Problem Description**:
+打算通过 ddns 搞一个出租页面, 可以在平时不用的时候把算力出租出去回点血, 请问这个方案可行吗?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210021#reply43
+
+---
+
+#### 1890. [V2EX] cc 用 mimo2.5pro 和 deepseekv4pro 哪个好一点呀，用得快嘛
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209956#reply4
+
+---
+
+#### 1891. [V2EX] 是我打开方式不对吗， mimomo 模型
+
+**问题描述 / Problem Description**:
+怎么感觉 codex 加个功能很快，mimomo 一小时都没处理完（用的 claude cli 对接）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209924#reply3
+
+---
+
+#### 1892. Why do shell control statement have that syntax (semicolon/newline+then/do)
+
+**问题描述 / Problem Description**:
+Tags: shell, history, syntax | Score: 14 | Views: 1288 | Answers: 2 | Created: 2025-11-05
+
+**解决方案 / Solution**:
+You have to separate the list of condition commands from the then keyword in some way which can be a newline or a semicolon (not only, see below) but you don't have to use both. In: if echo fi; echo then; then echo echo then succeeded, I do not know about echo fi; fi Same as: if echo fi; echo then then echo echo then succeeded, I do not know about echo fi fi There are then and fi words passed as arguments to echo commands¹ and only the ones that are delimited from the previous command with ; or newline are recognised as the respective keywords in the shell syntax. In the POSIX/Bourne syntax, you do need a then to separate the list of condition commands from the list of action commands. Remember the syntax is: if list of commands then list of commands [elif list of commands then list of commands] [else list of commands] fi ( [...] here marking optional parts). Where list of commands can be any number² of commands which may be simple commands or compound commands including other if constructs. if (echo A) then (echo B) fi Also works in most shells. Normally the shell doesn't expect anything after a (...) subshell, it doesn't harm accepting the then or fi keywords there. In other words, you need something to delimit a command, tell the shell where it ends, and that's where ; , newline or that ) come into play (you wouldn't want the then in echo what then not to be passed to echo ), and something to delimit the list of condition commands, and that's where then (or do for while / until loops; see also What is the purpose of the "do" keyword in Bash for loops? ) comes into place. Note that POSIX also requires the then and fi keywords to be recognised as such after some other keywords as in: if if true; then echo A; fi then if { true; } then echo B; fi fi ( then straight after fi or } , fi straight after fi ), though in practice it doesn't work in zsh even in sh emulation. zsh has some short forms for the if construct which allows omitting the then , when the condition command list ends in one of a few special compound commands such as: if [[ condition ]] echo yes Reminiscent of the if ( condition ) cmd short form in csh or the original if command (of if construct of the PWB shell). As a historical note. In early versions of Unix, sh (nowadays referred to as the Thompson shell as then written by Ken Thompson) had no if construct, but there was a if standalone command which could be used to perform a few tests (later moved to the test command) and execute a command if successful. There was no then at that point. Only: if $1 = $2 echo yes (which BTW fell apart in that rudimentary shell if $1 or $2 contained spaces or any character special to the shell). In the Mashey shell from PWB Unix, that if command was made builtin and extended to allow a then part and else part. The condition part was still a set of builtin tests, like in: if $1 = $2 then list of commands else list of commands endif There, the then is necessary not to delimit conditions from commands but to introduce that then block and disambiguate from the simple if $1 = $2 cmd case of the original if command which is still supported. csh and the Bourne shell (both from the late 70s) built on that in their own different way. In csh , it's still very similar to what the Mashey shell did. They just made it slightly more C-like by wrapping the condition in (...) , and have a similar (though extended) set of tests there including the same {...} to run commands and check the status. The Bourne shell changed the endif to fi à la ALGOL 68 , and the condition part to just be a list of commands to check the status of, and a separate test command³ to perform the same kind of tests the if command was doing before. while / until structures were also added following the same concept. Allowing more than one command is useful in cases like: if cmd1 && cmd2 then ... fi It's less useful for the if construct in: if cmd1 cmd2 then ... fi Which we could have written: cmd1 if cmd2 then ... fi (an exception to that would be when the construct has redirections⁴). But it's more useful in the while / until case for things like: while action-command test-command do ... done Such as: while n=`expr "$n" - 1` test "$n" -ge 42 do something done (which in Korn-like shells you could change to while (( (n -= 1) >= 42 )) do ...; done ; see how the Korn shell introduced those [[ ... ]] (( ... )) constructs which somehow bring back features of the C-shell to Bourne-like shells and sort of close a loop) ² don't be fooled by the stackexchange syntax highlighting that incorrectly highlights all if , fi , then , do words as keywords even in contexts where they are not treated as such by the shell; some syntax highlighters such as vim 's one are smarter than that and highlight based on context. ² Greater than 0 except in zsh which allows an empty list here. You'll find that if then elif then else fi works there even if not tremendously useful. ³ not builtin at the time, though you can find some unfinished and commented out code in there for a [ builtin suggesting they had already envisioned it. ⁴ Though note that in early versions of the Bourne shell, only non-builtin simple commands could be redirected reliably.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801056/why-do-shell-control-statement-have-that-syntax-semicolon-newlinethen-do
+
+---
+
+#### 1893. Why doesn’t `sudo -E` preserve `PERL5LIB`?
+
+**问题描述 / Problem Description**:
+Tags: shell, sudo, macos | Score: 12 | Views: 1070 | Answers: 1 | Created: 2025-04-13
+
+**解决方案 / Solution**:
+Variables matched by the env_delete list are removed from the environment with sudo -E a.k.a. sudo --preserve-env . Passing the variable to --preserve-env= re-adds it with its original value, which effectively negates its presence in the env_delete list. (When --preserve-env is not in effect, the env_delete list does not apply, but environment variables are removed unless they are in the env_keep list, with a few additional conditions.) The default list of “bad” environment variables includes PATH -like settings for various scripting languages, including PERL5LIB for Perl, PYTHONPATH for Python, RUBYLIB for Ruby, etc. (But not PATH itself, which is handled specially.) That list is OS-specific and can be obtained by running sudo -V as root. Quoting the sudoers(5) man page : The complete list of environment variables that are preserved or removed, as modified by global Defaults parameters in sudoers , is displayed when sudo is run by root with the -V option. The list of environment variables to remove varies based on the operating system sudo is running on. Use sudo --preserve-env=PERL5LIB if you specifically want to preserve PERL5LIB . You can change the env_delete option on a rule-by-rule basis in the sudoers file. If you add a specific rule, keep in mind that the last match applies , so put it after the generic rule for I-can-become-root, if that's relevant.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793683/why-doesn-t-sudo-e-preserve-perl5lib
+
+---
+
+#### 1894. Why can't sed change /dev/zero's output characters to something else?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, sed, arch-linux, devices | Score: 12 | Views: 2108 | Answers: 3 | Created: 2025-02-02
+
+**解决方案 / Solution**:
+As it happens, by writing the question, I think I've maybe come up with the answer. I'll delete it if somebody else actually proves I'm wrong and gives the correct answer. I suppose the problem is that sed is line-oriented, whether the line separators are \n or \x0 (the latter is the case when passing the -z option, I understand), so an infinite stream consisting of repetitions of one character is just not a valid input to sed , because it means one of two things: if that infinitely repeated character is \n (resp. \x0 ), and sed was launched without (resp. with) the -z option, then the input stream is an infinite number of empty lines, otherwise, the input stream is a single, infinitely long line composed of an infinite number of repetitions of that character.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790485/why-cant-sed-change-dev-zeros-output-characters-to-something-else
+
+---
+
+#### 1895. Using `find` to find a file in PATH
+
+**问题描述 / Problem Description**:
+Tags: shell, find | Score: 11 | Views: 1875 | Answers: 6 | Created: 2025-07-30
+
+**解决方案 / Solution**:
+find ${PATH} -name "gcc-*" Is actually a good start, as by leaving $PATH unquoted in sh / bash and other POSIX-like shells (not zsh unless in sh / ksh emulation), you're asking it to split it. However, the splitting is done based on the value of the $IFS special parameter which by default doesn't contain : . You also need the -H option to find for find to follow symlinks passed as arguments. So you'd need: IFS=:; find -H $PATH -name 'gcc-*' There's a second unwanted side effect to leaving $PATH unquoted: filename generation aka globbing. That can be disabled with set -o noglob , but it's unlikely to make any difference as it's unlikely that $PATH components will contain glob operators ( *?[...] and more if extglob is enabled). Note it will also look into subdirectories of $PATH components if any (files at depth 2 or deeper) and would return $PATH components themselves if they matched the pattern (such as /opt/gcc-latest ) (depth 0) which it doesn't look like you want. With GNU find or compatible, you could add -mindepth 1 -maxdepth 1 , or you could use your shell globs. With bash : println() { [ "$#" -eq 0 ] || printf '%s\n' "$@" } IFS=: set -- $PATH shopt -s nullglob shopt -u failglob println ${@/%/\/gcc-*} If switching to zsh is an option, then it becomes a lot simpler: There $PATH is tied to the $path array à la csh , so you can just to: find $path -name 'gcc-*' Using globs: print -rC1 -- $^path/gcc-*(N) Where print -rC1 -- ( print r aw on 1 C olumn) does the equivalent of our println function from above, $^path enables rc -like (or fish -like) array expansion, and the N glob qualifier does the equivalent of nullglob . Or you can just use type / whence / which ... with the -m option to list commands (executable ones, not restricted to the ones in $path / $PATH , functions, builtins... will also be included) that match a pattern. $ type -m 'gcc-*' gcc-11 is /usr/bin/gcc-11 gcc-12 is /usr/bin/gcc-12 gcc-9 is /usr/bin/gcc-9 gcc-ar is /usr/bin/gcc-ar gcc-ar-11 is /usr/bin/gcc-ar-11 gcc-ar-12 is /usr/bin/gcc-ar-12 gcc-ar-9 is /usr/bin/gcc-ar-9 gcc-nm is /usr/bin/gcc-nm gcc-nm-11 is /usr/bin/gcc-nm-11 gcc-nm-12 is /usr/bin/gcc-nm-12 gcc-nm-9 is /usr/bin/gcc-nm-9 gcc-ranlib is /usr/bin/gcc-ranlib gcc-ranlib-11 is /usr/bin/gcc-ranlib-11 gcc-ranlib-12 is /usr/bin/gcc-ranlib-12 gcc-ranlib-9 is /usr/bin/gcc-ranlib-9 type being short for whence -v . Without -v : $ whence -m 'gcc-*' /usr/bin/gcc-11 /usr/bin/gcc-12 /usr/bin/gcc-9 /usr/bin/gcc-ar /usr/bin/gcc-ar-11 /usr/bin/gcc-ar-12 /usr/bin/gcc-ar-9 /usr/bin/gcc-nm /usr/bin/gcc-nm-11 /usr/bin/gcc-nm-12 /usr/bin/gcc-nm-9 /usr/bin/gcc-ranlib /usr/bin/gcc-ranlib-11 /usr/bin/gcc-ranlib-12 /usr/bin/gcc-ranlib-9 Some notes on corner cases: empty $PATH components (like when $PATH is /bin:/usr/bin: which has a trailing empty component) means the current working directory (same as /bin:/usr/bin:. ), but find $path (zsh) would skip them and find $PATH (sh/bash) would skip the last and find would complain about empty arguments. ${@/%/\/gcc-*} or $^path/gcc-* would try and expand /gcc-* instead of ./gcc-* . Having relative paths in $PATH is very bad practice though, so unlikely to happen in practice. an unset $PATH means a default search path will be used, but which it is can depend on what does the command lookup. It's hard to get that default value reliably. a set but empty $PATH means search the current working directory only (same as PATH=. ). So that's similar to the first point above with the added caveat that the behaviour for find -H -name 'gcc-*' is unspecified and varying with the find implementation.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798374/using-find-to-find-a-file-in-path
+
+---
+
+#### 1896. Why doesn't visudo, like sudoedit, spawn a text editor as a regular user?
+
+**问题描述 / Problem Description**:
+Tags: shell, sudo, root, non-root-user, editors | Score: 11 | Views: 1367 | Answers: 1 | Created: 2025-05-20
+
+**解决方案 / Solution**:
+The entire purpose of visudo is to edit sudo configuration. If you have the ability to edit sudo configuration, then trying to keep you from getting a root shell is pointless - you could just edit the sudo config to give yourself whatever privileges you want and then run shells as root to your heart's content. If you're not editing sudo configuration, then there's no reason to run it. On the other hand, sudoedit is for general editing of files. You might give sudoedit privileges to some specific set of files which do not include sudoers and family, so preventing privilege escalation via shell scapes and such is needed there.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/795100/why-doesnt-visudo-like-sudoedit-spawn-a-text-editor-as-a-regular-user
+
+---
+
+#### 1897. With `#!/bin/sh`, what is the closest to `;;&` (`bash`'s fallthrough)?
+
+**问题描述 / Problem Description**:
+Tags: shell-script, shell, posix, syntax, control-flow | Score: 10 | Views: 1015 | Answers: 4 | Created: 2025-09-10
+
+**解决方案 / Solution**:
+Note that bash's ;;& (added in 4.0 in 2009) is the equivalent of zsh's ;| ( from 2007 ; also in mksh since 2011), it's not a fall through in the sense of C 's fallthrough when you omit the break in a switch statement in that the next pattern will still be checked. As in bash's case a in (a) echo a;;& (b) echo b esac Or zsh's / mksh's case a in (a) echo a;| (b) echo b esac Won't output both a and b like a switch('a') { case 'a': puts("a"); /* fall through */ case 'b': puts("b"); } would in C . For that, you'd need ;& instead (itself from ksh93 and found in all of bash, zsh and mksh; while ;; and the whole case ... esac structure is from the Bourne shell from the late 70s). Also, in bash's case $string in (a*) echo starts with a;;& (*b) echo ends with b;; (*c*) echo neither starts with a nor ends in b but contains c esac That is if you mix ;;& and ;; , then you can't just do pattern matching in sequence independently as a standard equivalent. In that example, the *c* case will only be reached if the string matches neither a* not *b . One approach can be to do all 3 checks and then consider all combinations: test1=0 test2=0 test3=0 case $string in (a*) test1=1 esac case $string in (*b) test2=1 esac case $string in (*c*) test3=1 esac case $test1$test2$test3 in (11?) echo starts with a echo ends in b;; (10?) echo start with a;; (01?) echo ends in b;; (??1) echo neither starts with a nor ends in b but contains c esac Or adapt on a case by case basis, using a combination of case and if and/or && / || , like here: flag=false case $string in (a*) echo starts with a flag=true esac case $string in (*b) echo ends in b flag=true esac "$flag" || case $string in (*c*) echo neither starts with a nor ends in b but contains c esac Or do it all with if / then / else , using flags or repeating the checks like in: match() case $1 in ($2) true;; (*) false; esac if match "$string" 'a*'; then echo starts with a fi if match "$string" '*b'; then echo ends in a fi if ! match "$string" 'a*' && ! match "$string" '*b' && match "$string" '*c*' then echo neither starts with a nor ends in b but contains c fi Which may make it easier to follow. With the use-case you've now added: case $5 in (C | C++) export CXXFLAGS="${CXXFLAGS} ${1}${SUSUWU_DEPENDENCY_INCLUDE_PATH}" esac case $5 in (C) export CFLAGS="${CFLAGS} ${1}${SUSUWU_DEPENDENCY_INCLUDE_PATH}";; (C++) ;; (*) export FLAGS_USER="${FLAGS_USER} ${1}${SUSUWU_DEPENDENCY_INCLUDE_PATH}" esac Or: c_or_cxx=false case $5 in (C) export CFLAGS="${CFLAGS} ${1}${SUSUWU_DEPENDENCY_INCLUDE_PATH}" c_or_cxx=true;; (C++) c_or_cxx=true;; (*) export FLAGS_USER="${FLAGS_USER} ${1}${SUSUWU_DEPENDENCY_INCLUDE_PATH}" esac if "$c_or_cxx"; then export CXXFLAGS="${CXXFLAGS} ${1}${SUSUWU_DEPENDENCY_INCLUDE_PATH}" fi You can also include the common code in a function or variable to eval (variable may be preferable here as the code includes references to $1 ): for_c_and_cxx=' export CXXFLAGS="${CXXFLAGS} ${1}${SUSUWU_DEPENDENCY_INCLUDE_PATH}" ' case $5 in (C) export CFLAGS="${CFLAGS} ${1}${SUSUWU_DEPENDENCY_INCLUDE_PATH}" eval "$for_c_and_cxx";; (C++) eval "$for_c_and_cxx";; (*) export FLAGS_USER="${FLAGS_USER} {1}${SUSUWU_DEPENDENCY_INCLUDE_PATH}" esac Note that it's only the Bourne shell that required you omitted the opening ( s (the Bourne shell also did not support export var=value and in any case was not a POSIX compliant shell). In modern/standard sh implementations, you can include it which IMO makes for more readable code and lets you use your editors ability to check for matching parenthesis for instance.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799611/with-bin-sh-what-is-the-closest-to-bashs-fallthrough
+
+---
+
+#### 1898. Why does /bin/echo cause SIGPIPE, while Bash's built-in echo does not?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, echo | Score: 10 | Views: 1263 | Answers: 1 | Created: 2025-03-03
+
+**解决方案 / Solution**:
+In { echo 1 || >&2 echo "[ $? ]" ; } | echo { echo 1 || >&2 echo "[ $? ]" ; } and echo have to run concurrently, so in separate processes. The echo 1 || >&2 echo "[ $? ]" code is being evaluated and run by a child shell process. As echo is builtin, when it does its write(1, "1\n", 2) whilst fd 1 is open on a broken pipe, it's the shell process that is killed by a SIGPIPE, so it cannot carry on with the >&2 echo... part as it's dead. If you change it to: bash-5.2$ { trap '' PIPE; sleep 1; echo 1 || >&2 echo "[ $? ]"; } | true bash: echo: write error: Broken pipe [ 1 ] (also adding a sleep 1 to make sure the pipe is already broken at the time of the echo 1 ), then because SIGPIPE is ignored in the subshell to the left of the pipe, the write() returns with a EPIPE error instead, which echo reports and reports a 1 exit status. In { /bin/echo 1 || >&2 echo "[ $? ]" ; } | /bin/echo The subshell running /bin/echo 1 || >&2 echo "[ $? ]" forks a child process in which is executes echo (and then waits for its termination), and that's that process that does the write(1, "1\n", 2) and gets killed. Then the wait returns with an indication that the process that executed /bin/echo was killed with a SIGPIPE (which results in $? being 141¹) and the subshell runs >&2 echo... . ¹ as bash like most (but not all) other shells adds 128 to the signal number (SIGPIPE being 13 on most systems) to represent the exit status of processes killed by signals in $? .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791914/why-does-bin-echo-cause-sigpipe-while-bashs-built-in-echo-does-not
+
+---
+
+#### 1899. Invoke a command from a variable on the left side while passing an argument on the right
+
+**问题描述 / Problem Description**:
+Tags: shell-script, shell, syntax | Score: 9 | Views: 558 | Answers: 2 | Created: 2026-04-12
+
+**解决方案 / Solution**:
+To fix LD , replace sh with perl , which allows omitting spaces: LD='perl -e exec"c99",@ARGV,"-lm" --' The "Unterminated quoted string" wording of that error suggests a sh implementation derived from the Almquist shell such as FreeBSD's, NetBSD's, busybox' or dash found as sh on most Debian-derived systems, while bash (still used for sh on most other GNU systems and macOS) has "unexpected EOF while looking for matching" . The behavior is similar, so quoting the Bash man page: Parameter Expansion [...] Quote Removal After the preceding expansions, all unquoted occurrences of the characters \, ', and " that did not result from one of the above expansions are removed. Your ${LD} was "one of the above expansions", namely parameter expansion. So, when the expansion as shown by echo ${LD} produced sh -c 'c99 "$@" -lm' , none of the remaining single or double quotes worked. To illustrate this, I replaced the sh -c part, and ran the command LD="perl -E \$,=x;say@ARGV 'c99 \"\$@\" -lm'"; ${LD} , which printed 'c99x"$@"x-lm' . The remaining quotes are shown to be unprocessed, and the "x"s means the outer Bash shell was previously invoking the inner Dash shell with 5 arguments, instead of how you wanted to suppress word splitting using quotes to keep it 3 arguments. You said you wanted to "defer changing it", so I used Perl as a workaround. It would be better to change it to an actual Bash function. So your LD="sh -c 'c99 \"\$@\" -lm'" ${LD} $ld_opts $ldflags_common $ldflags "$@" -o $bin should become: my_ld() { c99 "$@" -lm } my_ld $ld_opts $ldflags_common $ldflags "$@" -o $bin
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805399/invoke-a-command-from-a-variable-on-the-left-side-while-passing-an-argument-on-t
+
+---
+
+#### 1900. How to delete buffered text written to terminal during script execution
+
+**问题描述 / Problem Description**:
+Tags: shell, terminal, escape-characters | Score: 9 | Views: 967 | Answers: 3 | Created: 2025-04-23
+
+**解决方案 / Solution**:
+No. You can use Ctrl u to cancel the input buffer so that you don't accidentally enter it as a command with Enter . But you cannot remove text that's been pasted into a line above the current one. Yes. If you have access to another terminal session on the same machine you could conceivably send the appropriate character sequences to the offending terminal session to overwrite the unintended text. Or if course if the application has already finished you can just run it directly. For example tput sc # Save current cursor position tput cup 3 0 # Fourth line, first column printf '%s' 'hello, world' # Overwrite tput rc # Restore saved cursor position If necessary redirect all of that as a single block to your offending terminal ( tput… ) >/dev/tty/12345
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794105/how-to-delete-buffered-text-written-to-terminal-during-script-execution
+
+---
+
+#### 1901. What is this icon (dots over a gray curving line) that momentarily appears in my GNOME status bar?
+
+**问题描述 / Problem Description**:
+Tags: shell, fedora, gnome, audio, bluetooth | Score: 9 | Views: 1577 | Answers: 2 | Created: 2025-04-15
+
+**解决方案 / Solution**:
+This icon generally appears when you plug something on a computer running Gnome Desktop and when your system is trying to configure it. For example it appears when you plug a wired ethernet connection (directly or using an usb/thunderbolt dongle) on a laptop and when this connection is going up (often it replace the current wireless connection as wired connections are generally preferred) From my understanding of the issue you describe, it seems that your laptop is trying to take control of your bluetooth headset while it's used by your phone but it don't get the exclusive access to the headset because it's already in-use with another paired device. I think (but I'm not sure) that the CPU included inside the headset is not fast/strong enough to support a working stream and in the mean time some connection tries from another device (to be confirmed but it can explane this behavior)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793763/what-is-this-icon-dots-over-a-gray-curving-line-that-momentarily-appears-in-my
+
+---
+
+#### 1902. Run command on each line of CSV file, using fields in different places of the command
+
+**问题描述 / Problem Description**:
+Tags: shell, text-processing, csv, xargs | Score: 9 | Views: 1727 | Answers: 5 | Created: 2025-02-25
+
+**解决方案 / Solution**:
+GNU parallel can read csv directly, and has item replacement built in. More or less directly taken from man parallel : parallel --csv 'my_cmd --arg1 {2} --arg2 {1} --arg3 {3}' :::: file.csv Add -j1 before my_cmd to these invocations be executed one-after-the-other. Or don't, and have them be executed in parallel. (on debian and fedora, it's in the package called parallel , not in moreutils or moreutils-parallel ) Thank you, Ole Tange!
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791622/run-command-on-each-line-of-csv-file-using-fields-in-different-places-of-the-co
+
+---
+
+#### 1903. bash or ksh 'vi' mode - How to jump to end of history (most recent command)?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, ksh, history, vi | Score: 8 | Views: 375 | Answers: 1 | Created: 2025-03-21
+
+**解决方案 / Solution**:
+bash-5.2$ bind -m vi-command -p | grep -w G "G": vi-fetch-history info bash vi-fetch-history or info readline vi-fetch-history tell us nothing as many of the vi widgets are missing from the bash/readline documentation, but you can infer what it does from the similar emacs widget (not bound by default there): fetch-history With a numeric argument, fetch that entry from the history list and make it the current line. Without an argument, move back to the first entry in the history list. So 123G brings you the history event 123 (see output of history ), same as would !123 using csh-style history expansion. Now: bash-5.2$ bind -l | grep history beginning-of-history dynamic-complete-history end-of-history fetch-history forward-search-history history-and-alias-expand-line history-expand-line history-search-backward history-search-forward history-substring-search-backward history-substring-search-forward next-history non-incremental-forward-search-history non-incremental-forward-search-history-again non-incremental-reverse-search-history non-incremental-reverse-search-history-again previous-history reverse-search-history vi-fetch-history reveals beginning-of-history and end-of-history widgets. You could bind end-of-history to G or g : bind -m vi-command ' "G": end-of-history '
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792793/bash-or-ksh-vi-mode-how-to-jump-to-end-of-history-most-recent-command
+
+---
+
+#### 1904. Are there filesystem "tricks" that may make `rm -rf /dir/*` accidentally delete things outside of `/dir`?
+
+**问题描述 / Problem Description**:
+Tags: shell, security, rm | Score: 7 | Views: 857 | Answers: 4 | Created: 2026-01-15
+
+**解决方案 / Solution**:
+Avoid running or parsing any unknown data as a privileged user. That is a good instinct. It might be malicious in ways you are not expecting, including being creative in running already installed programs . Per request in comments, an example about why this is a problem if the remove program is good and has safeguards. A malicious archive might attempt to escape where it should be extracted, and overwrite a security sensitive file. Say ../../../../etc/sudoers and then drop in a file into cron to run and escalate privilege. Naturally avoid extracting or parsing unknown files as root. Which archive software used for extract matters for how battle-tested its path sanitation is, Python tarfile was vulnerable per CVE-2025-4517. This is a category of software weaknesses: CWE-22 : Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') A good layered defense would consider how practical it is to deny unnecessary features, implementing the concept of least privilege. In addition to not running any of this as root, what if it were isolated such that any mounts could not affect the host? Or not allow the mount system call at all? But I am getting ahead of myself. There are choices of how sophisticated you want to go. File Permissions Unprivileged applications can be granted file permissions to write exactly where they need to. Why sudo -u root when a more targeted chmod or setfacl would do the job. Create service accounts, named extractor or whatever. No extra privileges, no sudo rules allowing switch to privileged users. Run the download validate and copy steps as this user. On systems with sane file permissions, by default they could get a unique temp directory with mktemp -d -p /var/tmp extractor.XXXXXXXXXX and copy any output back to say their own home directory, but not alter the system software. Cleanup script can be as cautious as you like. If you start with a unique temporary directory, that entire tree can be removed without needing globs. Programs like GNU coreutils have some options to increase safety some: rm -r --one-file-system will attempt to not follow different mount points. Note that rm --one-file-system is not infallible. It is possible to mount the same source device in multiple places. Which is what GNU rm is going by, not the mount point. Note in the below example that 2.txt was removed only because b was mounted into a's tree. $ mkdir -p a/c b ; touch a/1.txt b/2.txt $ find a a a/c a/1.txt $ doas mount --bind b a/c/ $ rm -v -r --one-file-system a removed 'a/c/2.txt' rm: cannot remove 'a/c': Device or resource busy removed 'a/1.txt' You have no reason to do something silly like leave the system mounted in this temporary directory, but also don't allow unprivilaged users to make strange mounts. Beware ways to escalate privilege and mount. If you do not use fuse on Linux, consider uninstalling fuse and its fusermount helper. Extracting some archive could result in symlinks. Let's say the cleanup script somehow tried to follow one and unlink /usr/bin/sh . Permission denied, system programs should not be alterable by regular users. chroot Perhaps hiding all irrelevant files would isolate them more. chroot or jail can do this, limiting this operation to a tree with just the data in question and the programs to run. A privileged process can escape a chroot. Switch to an unprivileged user before entering one. Container A container is a fancy chroot that allows isolation of more features. Linux in particular has many namespaces and security hooks to choose from. It is possible to deny the process system calls it does not need, such as forbidding mount entirely. A container integrated way to do this exists as oci-seccomp-bpf-hook . Run your download and analyze workflow as a container, record its system calls. Then going forward allow only that list of system calls, with seccomp. Service Manager On Linux, systemd has picked up many isolation features, its possible to add them à la carte to a unit to harden it. Run systemd-analyze security on a unit to see a list. And also you may find summaries of the hardening related options for ideas. Here is a trivial unit that downloads some random software to a temporary location, then copies it to a permanent location. A number of security features are enabled. The user cannot add new privileges, write to /usr or /etc or /home, create suid files, or load kernel modules. Not a perfect sandbox, but a lot more limited than many environments. [Unit] Description=Hardened unit example Documentation=https://unix.stackexchange.com/questions/803759 [Service] Type=oneshot # switch to unprivilaged user if run as a system unit User=extractor ### File locations StateDirectory=extractor # runtime tmpfs might not be needed given use of the usual temp mounts, but it is an option RuntimeDirectory=extactor RuntimeDirectoryPreserve=no ExecStartPre=mkdir -p /var/tmp/extractor # get some arbitary archive from the internet ExecStartPre=curl --remote-name --output-dir /var/tmp/extractor/ https://ftp.wayne.edu/gnu/hello/hello-2.12.tar.gz # extract it. replace with a script to do actual validation. ExecStart=tar -C /var/tmp/extractor/ -xvf /var/tmp/extractor/hello-2.12.tar.gz # success based on return code. copy to a persistant directory. ExecStart=cp -v /var/tmp/extractor/hello-2.12.tar.gz $STATE_DIRECTORY ### Hardening NoNewPrivileges=yes # /var/tmp and /tmp will be run in a seperate namespace, and also removed after PrivateTmp=yes PrivateDevices=yes DevicePolicy=closed # prohibit write to /usr and more ProtectSystem=strict ProtectHome=read-only ProtectControlGroups=yes ProtectKernelModules=yes ProtectKernelTunables=yes # only allow IP and unix sockets nothing exotic RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6 RestrictNamespaces=yes RestrictRealtime=yes # no new suid files RestrictSUIDSGID=yes MemoryDenyWriteExecute=yes LockPersonality=yes
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803759/are-there-filesystem-tricks-that-may-make-rm-rf-dir-accidentally-delete
+
+---
+
+#### 1905. Newlines in environment variable names under POSIX sh
+
+**问题描述 / Problem Description**:
+Tags: shell, environment-variables, posix | Score: 7 | Views: 373 | Answers: 1 | Created: 2025-09-06
+
+**解决方案 / Solution**:
+could an implementation of POSIX sh keep invalid names in the environment that it executes utilities under Well, based on a simple test with env , Bash, ksh and yash seem to pass through env vars with funny names: % env $'%%foo * bar\nsecond line=foo' ksh -c 'echo $KSH_VERSION; env |grep -A1 %%' Version AJM 93u+ 2012-08-01 %%foo * bar second line=foo % env $'%%foo * bar\nsecond line=foo' ./bash -c 'echo $BASH_VERSION; env |grep -A1 %%' 5.3.0(1)-release %%foo * bar second line=foo $ env $'%%foo * bar\nsecond line=foo' yash -c 'echo $YASH_VERSION; env |grep -A1 %%' 2.55 %%foo * bar second line=foo $ env $'%%foo * bar\nsecond line=foo' zsh -c 'echo $ZSH_VERSION; env |grep -A1 %%' 5.9 %%foo * bar second line=foo I don't know if those four are breaking the spec and you can decide how far you count them as "POSIX shells" anyway, but at least some POSIX-like implementations that do pass envvars through do exist. As far as I tested, Busybox and Dash dropped that odd var, as did zsh on macOS for some reason.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799517/newlines-in-environment-variable-names-under-posix-sh
+
+---
+
+#### 1906. `rsync`: trailing slash vs wildcard
+
+**问题描述 / Problem Description**:
+Tags: shell, rsync | Score: 6 | Views: 608 | Answers: 1 | Created: 2025-07-07
+
+**解决方案 / Solution**:
+You are correct. If you're using a shell such as bash you can tell it to have * match on dot files as well as usual ones: shopt -s dotglob rsync -rt source_dir/* target_dir/ I've added a trailing slash to the target so that it's always considered as a directory - even if the wildcard expands only to a single item. At the other end of the scale, you may encounter problems with the shell enumerating the results if * matches a (very) large number of files. Possibly a better solution would be use find to generate the set of files, having it exclude the root of the directory tree: find source_dir -mindepth 1 -print0 | rsync -t --files-from=- --from0 . target-dir/ (If source_dir is an absolute path then replace the . with / .)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797718/rsync-trailing-slash-vs-wildcard
+
+---
+
+#### 1907. Why are there so many shell scripts using "x$var" = "xabc" instead of "$var" = "abc"?
+
+**问题描述 / Problem Description**:
+Tags: shell, test | Score: 5 | Views: 319 | Answers: 2 | Created: 2025-10-20
+
+**解决方案 / Solution**:
+Even if empty vars and quotes work, some pre-POSIX implementations of test / [ have issues with values that look like operators, like ! . E.g. with heirloom-sh : Empty vars are fine (when quoted, of course): $ var= $ [ "$var" = "" ] && echo yes yes But a ! breaks it: $ var="!" $ [ "$var" = "foo" ] && echo yes test: argument expected Adding the x to the front prevents that: $ var="!" $ [ "x$var" = "xfoo" ] && echo yes || echo no no The POSIX specification says that the implementation must check the number of arguments (apart from the final ] ), and use that to determine which arguments can be operators and which ones are values. With three arguments, they must always be value-operator-value , so a ! would not be special in the first or last position. (In the middle it would be an invalid binary operator.) You can still get a similar issue with longer expressions involving -a or -o (which is pretty much why they shouldn't be used). E.g. with Bash 5.2: $ [ 'x' = x -a 1 = 1 ] && echo yes yes $ [ '!' = x -a 1 = 1 ] && echo yes bash: [: too many arguments See the answer by Stéphane Chazelas on the duplicate question for more background and corner cases.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800620/why-are-there-so-many-shell-scripts-using-xvar-xabc-instead-of-var
+
+---
+
+#### 1908. How to wait for subshells to finish from the outer shell?
+
+**问题描述 / Problem Description**:
+Tags: shell, subshell, wait | Score: 5 | Views: 463 | Answers: 1 | Created: 2025-09-08
+
+**解决方案 / Solution**:
+While I said I don't want to change the content of the subshell, I was able to make it work by injecting a trap 'wait' EXIT at the beginning of each subshell. That way, I am not changing the script, and its behavior per se, but I ensure it waits until the end: ( trap 'wait' EXIT ( trap 'wait' EXIT sleep 0.5 && echo 'first command, second result' & ) & ( trap 'wait' EXIT echo 'second command, first result' & ) & ) second command, first result first command, second result So in my dynamic script generation script, I basically now inject trap 'wait' EXIT at the start of each subshell, and for existing subshells, I inject trap 'wait' EXIT at the very beginning. It seems to work alright, though I am unsure if there may be some unwanted side effects. One such side effect: Error state may be lost and command may be reported as successful. Note, be careful that this is not the same, as this will produce the output in the wrong order: ( trap 'wait' EXIT; (trap 'wait' EXIT;sleep 0.5 && echo 'first command, second result' &) (trap 'wait' EXIT;echo 'second command, first result' &) ) first command, second result second command, first result
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799561/how-to-wait-for-subshells-to-finish-from-the-outer-shell
+
+---
+
+#### 1909. What is an embedded parameter expansion?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell | Score: 5 | Views: 383 | Answers: 1 | Created: 2025-05-16
+
+**解决方案 / Solution**:
+Various forms of parameter expansion have additional content beyond the parameter name, for example ${parameter_name-"fallback if unset"} , ${parameter_name#"prefix to remove"} , etc. These forms are documented just below in the bash manual. The parts after the parameter name can have any syntactic construct that can appear in a word, including quoting, nested expansions, etc. # Quoting examples unset foo echo ${foo-a\}b"c}d"}e ↑ ↑ ^ends the parameter substitution | quoted by double quotes quoted by a backslash → a}bc}de # Nested examples w=world expr=7+3 echo ${foo-hello${w#??}$(echo {a,b})$((2*${expr}))} ↑ ↑ ^in a nested arithmetic substitution | in a nested command substitution in a nested parameter substitution → hellorlda b17
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794975/what-is-an-embedded-parameter-expansion
+
+---
+
+#### 1910. How (internally) does fd3>&fd1 after { fd1>&fd3 } put back (or not) original fd into fd1? ("bad file descriptor")
+
+**问题描述 / Problem Description**:
+Tags: shell, io-redirection, file-descriptors | Score: 5 | Views: 483 | Answers: 2 | Created: 2025-04-19
+
+**解决方案 / Solution**:
+So, simplified a bit, you have { a 2>&1 1>&3 | b; } 3>&1 Now, the redirections outside the brace group need to be treated separately from the ones inside; they need to be set before anything in the bracket group runs. So, the bracket group sees fds 1 and 3 pointing to the same place (the original stdout). Then, the pipe redirects the stdout of the left-hand side to the stdin on the right-hand process. This also happens before either side, or their redirections, runs. Let's rewrite that with the process substitution syntax, just to show the redirections in a left-to-right order. ( >(b) runs b , makes its stdin available as a filename , and expands to that name. So 1> >(b) redirects stdout to that "file" and b 's stdin.) { a 1> >(b) 2>&1 1>&3; } 3>&1 or even, a 3>&1 1> >(b) 2>&1 1>&3 So, a first gets the original stdout(1) copied to fd 3 (the redirection that was outside the brace group). Then, b is launched, with a 's stdout(1) redirected to b 's stdin. a 's stderr(2) is redirected to the same. Now fds 1 and 2 go to b , and fd 3 goes to the original stdout. And finally, a 's stdout(1) is redirected to where fd 3 goes, which is copy of the original stdout, in effect undoing the earlier redirection of stdout to b . Now fd 1 goes to the original stdout again, while fd 2 goes to b . As mentioned in another answer , you could now also close fd 3 with 3>&- since it's no longer needed. Written like that, one could ask if it makes any sense, why not just do this instead: a 2> >(b) And you could, but the pipe syntax doesn't allow for specifying which fd or fds to redirect to the pipe, it's always just stdout. And process substitution isn't a POSIX feature, so not all shells support it, and there's the annoying feature that processes started from process substitution can be left running in the background when the main shell continues, unlike with pipes where the shell waits for all parts of a pipeline. The 1>&2 that was there also "undoes" the 2>&1 in that when the stderr of a was redirected to the pipe, the stdout from the pipe (the whole brace group) is redirected back to the script's stderr.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793927/how-internally-does-fd3fd1-after-fd1fd3-put-back-or-not-original-fd
+
+---
+
+#### 1911. Choice of field separator affects sort's ordering
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, sort | Score: 4 | Views: 278 | Answers: 1 | Created: 2025-11-17
+
+**解决方案 / Solution**:
+Using a field separator with sort only makes sense if you sort on specific fields. If not, then the field separator is irrelevant. And that's why you get different sorting. So you're not seeing the field separator affect the sorting order, you are seeing the different letters in a string affect the sorting order. In the first case, you sort these two strings: axyb ayxb Since x comes before y , axyb is sorted before ayxb . Next, you sort ayzb azyb and here, since y comes before z , ayzb is sorted first. Now, if you change your script to actually do something with the field separator, for instance if you only sort on the first field, then you will see what I am guessing you were expecting: #!/bin/bash echo_text() { printf -- "%s\n" "$fc$oc$fs$lc" printf -- "%s\n" "$fc$fs$oc$lc" } # first character fc="$1" # last character lc="$2" # other character oc="$3" # field separator fs="$4" echo_text | LC_ALL=C sort -k1,1 -t "$fs" Running on the two examples you show returns the same ordering: $ foo.sh a b y x axyb ayxb $ foo.sh a b y z azyb ayzb This is because now, you are sorting a vs ay in the first example and a vs ay in the second, so since they're identical, they are sorted in the same way.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801388/choice-of-field-separator-affects-sorts-ordering
+
+---
+
+#### 1912. Shell (.exp) script only sending 1 of 2 files
+
+**问题描述 / Problem Description**:
+Tags: shell, sftp, expect | Score: 4 | Views: 560 | Answers: 3 | Created: 2025-08-11
+
+**解决方案 / Solution**:
+I am not a expert in expect, but maybe you can use this code to send files to the desired destination: scp "$dataFILE" "$LOGINstring":/inbound/ach scp "$controlFILE" "$LOGINstring":/inbound/ach You must use ssh keys to make the connection automatic (not sure how you deal with authentication in expect )
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798729/shell-exp-script-only-sending-1-of-2-files
+
+---
+
+#### 1913. Parse console output and audibly say error
+
+**问题描述 / Problem Description**:
+Tags: shell, grep, linux-mint, zsh | Score: 4 | Views: 670 | Answers: 3 | Created: 2025-04-21
+
+**解决方案 / Solution**:
+For mint/ubuntu you could use espeak ( apt install espeak ). The command would simply be: espeak "ERROR: Fatal signal! Attach debugger with:" for macos users there is a native say command that has similar functionality. If you don't want to install any additional packages and are satisfied with just an alert noise you could use the bell character \a : echo -e "\a" If you wanted to parse the commands output while also alerting for the presence of the ERROR string you could do: mycommand 2>&1 | tee /dev/tty | grep -q "ERROR" && espeak "ERROR: Fatal signal! Attach debugger with:"
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793982/parse-console-output-and-audibly-say-error
+
+---
+
+#### 1914. Run in background avoiding any job control message from the shell
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, function, job-control | Score: 4 | Views: 382 | Answers: 1 | Created: 2025-04-17
+
+**解决方案 / Solution**:
+One approach is to wrap the call in a subshell effectively forcing all the unwanted job control output to be handled by a headless subshell. The key is to insure the & is inside the subshell wrapper, eg: $ s () { ( xterm -e sleep 5 & ) } $ s $
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793867/run-in-background-avoiding-any-job-control-message-from-the-shell
+
+---
+
+#### 1915. Print out bash color codes in order of color hue
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, colors | Score: 4 | Views: 282 | Answers: 2 | Created: 2025-01-31
+
+**解决方案 / Solution**:
+I think this is what you are looking for: #!/bin/bash hsltorgb () { local hue=$1 local light=$2 local c x m read c x m < <(awk -v H="$hue" -v L="$light" ' function abs(v) { return (v < 0) ? -v : v } # Define abs() BEGIN { C = (1 - abs(2*L/100 - 1)) * 1; # S=1 (full saturation) X = C * (1 - abs((H/60) % 2 - 1)); m = L/100 - C/2; print C, X, m; }' ) local r=0 g=0 b=0 if (( hue < 60 )); then r=$c; g=$x; b=0 elif (( hue < 120 )); then r=$x; g=$c; b=0 elif (( hue < 180 )); then r=0; g=$c; b=$x elif (( hue < 240 )); then r=0; g=$x; b=$c elif (( hue < 300 )); then r=$x; g=0; b=$c else r=$c; g=0; b=$x fi printf "%d;%d;%d" $(awk -v r=$r -v g=$g -v b=$b -v m=$m \ 'BEGIN { printf "%d %d %d", (r+m)*255, (g+m)*255, (b+m)*255 }') } huegrid () { local width=80 # Number of colors per row local height=20 # Number of rows for ((y=0; y<height; y++)); do for ((x=0; x<width; x++)); do hue=$((360 * x / width)) # Hue from 0 to 360 light=$((100 - (y * 100 / height))) # Lightness from 100% to 0% rgb=$(hsltorgb "$hue" "$light") printf "\033[48;2;%sm " "$rgb" done echo -e "\033[0m" done } huegrid This works by using HSL to determine the next color as it's a more linear representation of the color matrix. We then convert HSL to RGB in order to print in the terminal. height and width can be adjusted to get more or less granularity in the resulting color matrix. Sample output:
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790414/print-out-bash-color-codes-in-order-of-color-hue
+
+---
+
+#### 1916. Handling of Single Quotes inside a Here-Document
+
+**问题描述 / Problem Description**:
+Tags: shell, quoting, posix, here-document | Score: 3 | Views: 175 | Answers: 1 | Created: 2026-02-18
+
+**解决方案 / Solution**:
+The clarification about the double-quote character refers to the following statement in the 2.2.3 Double-Quotes : the <backslash> shall retain its special meaning as an escape character ... only when immediately followed by ... a double-quote character that would otherwise be considered special Inside a here-document the double-quote is not special and \ loses its meaning as escape character: andrei@leap160:/tmp> cat << EOF \$\" > EOF $\" andrei@leap160:/tmp> The $ is special character which is escaped by the \ . The " is not a special character in a here-document and \ loses its meaning as escape character. The clarification is not related to the overall quoting rules. The whole here-document is one word and so is implicitly quoted.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804568/handling-of-single-quotes-inside-a-here-document
+
+---
+
+#### 1917. Wine cmd automatically escapes quotes, adds backslash
+
+**问题描述 / Problem Description**:
+Tags: shell, command-line, windows, quoting, wine | Score: 3 | Views: 157 | Answers: 1 | Created: 2025-11-17
+
+**解决方案 / Solution**:
+There are a few things to consider here: single quotes are meaningless for cmd double quotes have less impact than in Unix-style shells, and are preserved the escape character in cmd is ^ , not \ The backslashes come from Wine’s command line processing. Windows command lines are handled as a unit, not as separate “words”. To preserve 'echo "hello world"' as a unit, it has to be quoted, and any double quotes inside it have to be escaped: "echo \"hello world\"" (yes, they are escaped using backslashes, not carets). Essentially, when Wine sees a command line argument containing spaces (in this case, echo "hello world" , which is how wine sees the argument), it quotes it, using double quotes since that’s all it has available. If the argument contains quotes of its own, those need to be escaped, resulting in "echo \"hello world\"" . cmd then handles this as-is and outputs \"hello world\" . You can get the same behaviour inside cmd : c:\>echo "hello world" "hello world" c:\>echo \"hello world\" \"hello world\" And the other way round, $ wine cmd /c echo "hello world" "hello world" Note that arguments with no spaces don’t get this treatment: $ wine cmd /c echo "hello" hello You can see how cmd handles its command line by tracing it: $ WINEDEBUG=+cmd wine cmd /c 'echo "hello world"' 0104:trace:cmd:wmain Full commandline 'L"\"C:\\windows\\system32\\cmd.exe\" /c \"echo \\\"hello world\\\"\""' 0104:trace:cmd:wmain /c command line: 'L"\"echo \\\"hello world\\\"\""' […] 0104:trace:cmd:WCMD_ReadAndParseLine About to parse line (echo \"hello world\") 0104:trace:cmd:node_builder_parse 0/2) CMD {{L"echo \\\"hello world\\\""}} 0104:trace:cmd:node_builder_parse 1/2) EOL 0104:trace:cmd:execute_single_command command on entry:L"echo \\\"hello world\\\"" 0104:trace:cmd:execute_single_command Command: 'L"echo \\\"hello world\\\""' 0104:trace:cmd:WCMD_run_builtin_command param1: L"\\\"hello", param2: L"world\\\"" \"hello world\"
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801401/wine-cmd-automatically-escapes-quotes-adds-backslash
+
+---
+
+#### 1918. Localising variables in /bin/sh functions
+
+**问题描述 / Problem Description**:
+Tags: shell, posix, function | Score: 3 | Views: 253 | Answers: 2 | Created: 2025-07-30
+
+**解决方案 / Solution**:
+I think the missing detail is in this section of the bash man page: Compound Commands A compound command is one of the following. In most cases a list in a command's description may be separated from the rest of the command by one or more newlines, and may be followed by a newline in place of a semicolon. (list) list is executed in a subshell (see COMMAND EXECUTION ENVIRON‐ MENT below for a description of a subshell environment). Vari‐ able assignments and builtin commands that affect the shell's environment do not remain in effect after the command completes. The return status is the exit status of list. { list; } list is simply executed in the current shell environment. list must be terminated with a newline or semicolon. This is known as a group command. The return status is the exit status of list. Note that unlike the metacharacters ( and ), { and } are reserved words and must occur where a reserved word is permitted to be recognized. Since they do not cause a word break, they must be separated from list by whitespace or another shell metacharacter. So, if your code is running in a subshell, any variables set can never affect the parent, so "local" is not needed as all variables are totally separated from those of the parent. As for why one might prefer ( whatever ) over { whatever } or vice versa, it's going to boil down to if you want a subshell or not. A subshell will use a little bit of additional memory and will be a bit slower to start (in practice, the difference is tiny) -- but it also isolates what happens in the subshell from the parent shell. And using {} will be a bit faster and use a bit less memory, but the code inside the function can change variables outside the function (which may or may not be what you want.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798383/localising-variables-in-bin-sh-functions
+
+---
+
+#### 1919. Replacing ./ with an alias
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, terminal | Score: 3 | Views: 288 | Answers: 1 | Created: 2025-05-06
+
+**解决方案 / Solution**:
+Got it working thanks to waltinator. Working code is: run() { nohup "$@" & } And the tab autocomplete is working too, Thanks!
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794582/replacing-with-an-alias
+
+---
+
+#### 1920. Bash redirections - handling several filenames specially (man pages)
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, io-redirection, file-descriptors | Score: 3 | Views: 204 | Answers: 1 | Created: 2025-04-11
+
+**解决方案 / Solution**:
+The special handling is the emulation. If Bash is built on a system that provides working /dev/fd/X files (or /proc/self/fd/X files), then Bash uses those directly; otherwise, redirections to or from /dev/fd/X are handled by Bash. The same goes for /dev/stdin etc. In more detail, if you write a script relying on /dev/fd/X : if Bash was built on a system with its own functional /dev/fd/X files, then Bash will just use those like “regular” files; if Bash was built on a system without these files, then Bash will duplicate the corresponding file descriptor ( X ) and use that instead of trying to access the file directly. All this is determined at compile time; look for DEV_ in aclocal.m4 . I don’t think there’s special handling in scenarios where Bash is built on a system with the special files and run in a context where they’re not available. Note that on Linux and Cygwin, opening /dev/stdin etc. is not the same as duplicating the expected file descriptors; this can lead to difference in behaviour compared to other Unix-style systems with those files or systems where Bash provides the emulation.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793591/bash-redirections-handling-several-filenames-specially-man-pages
+
+---
+
+#### 1921. zsh: History is skipping commands and integers+, how to correct this?
+
+**问题描述 / Problem Description**:
+Tags: shell, zsh, macos, ksh | Score: 3 | Views: 305 | Answers: 1 | Created: 2025-01-30
+
+**解决方案 / Solution**:
+You likely have the histignorealldups (aka HIST_IGNORE_ALL_DUPS , case and underscores are ignored in option names¹) option set, which deduplicates entries in the history. Check the output of setopt . With that option set, when you enter a history command line, the previous occurrence of that command line in the history is removed. Those were commands 1, 3 and 5 in your example. From info zsh histignorealldups : HIST_IGNORE_ALL_DUPS If a new command line being added to the history list duplicates an older one, the older command is removed from the list (even if it is not the previous event). (see also histignoredups which only deduplicates consecutive history entries). There are similar features in tcsh : histdup (+) Controls handling of duplicate entries in the history list. If set to all only unique history events are entered in the history list. If set to prev and the last history event is the same as the current command, then the current command is not entered in the history. If set to erase and the same event is found in the history list, that old event gets erased and the current one gets inserted. Note that the prev and all options renumber history events so there are no gaps. and yash : HISTRMDUP This variable specifies the number of command history items to be checked for duplication. When the shell is adding a new history item to the command history, if some of the most recent n items have the same contents as the new one, then the duplicate existing items are removed from the history before the new one is added, where n is the value of this variable. If the value of this variable is 1, for example, the most recent item is removed when a new item that have the same contents is added. Items older than the nth recent item are not removed. No items are removed if the value of this variable is 0. All items are subject to removal if the variable value is greater than or equal to the value of the HISTSIZE variable. And AFAICT, fish does it by default, but AFAIK bash and the various implementations/variants of ksh have no equivalent. ¹ Which can make it difficult to find where that option is set in your config files. grep -ri 'hist_*ignore_*all_*dups' ~/.zsh* would likely work even if it wouldn't catch a set -o hi_stig_no_REAL_LD_UPs . Or you could use a findopt function defined as findopt() grep -ri -e${^argv///'_*'} ~/.zsh* to catch everything.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790346/zsh-history-is-skipping-commands-and-integers-how-to-correct-this
+
+---
+
+#### 1922. What is the purpose of using && at the end of a sh script line?
+
+**问题描述 / Problem Description**:
+Tags: shell | Score: 2 | Views: 672 | Answers: 1 | Created: 2025-09-17
+
+**解决方案 / Solution**:
+From a syntax parsing point of view, && , like ; , & , | , || , separates commands and like in all of them, the following command doesn't have to be on the same line, you can have any number of blank lines (or lines containing only comments) in the interval: if cmd1 && # also checking this 2-command pipeline: cmd2 | # piped # to the command 2 lines below cmd3 then echo yes & echo not no at the same time wait fi For && , || and | it's good practice to indent-out the following line to remind that its not independent from the previous one. In all shells, ; and & don't have to be followed by another command. | does. For && and || , that depends on the shell. Most shells require a following command (would error out if followed by the end of the script or of a compound command), zsh does not (and often allows commands to be omitted in positions where other shells don't, such as in { } or if cmd; then else echo else; fi (between then and else ) or while echo forever; do done (between do and done )). Even in zsh though, having && and || not followed by another command is not useful. $ bash -c '(true &&)' bash: -c: line 1: syntax error near unexpected token `)' bash: -c: line 1: `(true &&)' $ bash -c 'if true && then echo x; fi' bash: -c: line 1: syntax error near unexpected token `then' bash: -c: line 1: `if true && then echo x; fi' $ zsh -c '(true &&)' $ zsh -c 'if true && then echo x; fi' x There are not that many places that require a line-continuation (a \<newline> which is removed unless inside single quotes of here-document with quoted delimiter). You can usually use a newline in place of a space except in cases where that would change the meaning. Obviously, you can't replace: echo foo \ bar With: echo foo bar As the former runs echo foo bar and the latter echo foo and bar . But in Korn-like shells, you can do: if a=$( echo "` uname `" ) && (( 2 > 1 )) then a=( x "$(( 1 + 1 ))" ) for i in a b do echo "$i" done case a in (a) echo a esac fi For instance. There are a few instances, where newlines are not allowed in place of space, and it's not always clear why. For instance, shells other than zsh complain about the newlines marked as ⚠️ below for no good reason: [[⚠️ alpha⚠️ <⚠️ zulu⚠️ ]] In: for⚠️ i in⚠️ a⚠️ b do ... done The second and following ⚠️ can be explained by the fact that one can do: for word in for in do done do echo "$word is part of for loop constructs" done And to allow that unquoted do in the list of words to loop on, that list has to be separated from the do keyword with a newline or ; . In zsh, for i in a b Would be taken as for i in <empty-list>; a b , short for for i in <empty-list>; do a b; done . There, to break down long lists of loop iterations without having to resort to line continuations, you can do: for var ( val1 val2 ... ) something with $var (here short form, but you can also use do ... done if you prefer). I can't think of any reason why one couldn't do: cmd >⚠️ file (other than it would look silly) but all shells I tried report a syntax error. Also note that you can't do echo foo && echo bar The shell works one line at a time and tries to interpret the code as soon as it can after it's read it and it's syntactically valid. After reading: echo foo && The shell can't execute that yet, it needs the rest of the code that would make it syntactically valid. If interactive, it issues a $PS2 prompt to ask for more. After reading: echo foo it runs echo foo , and forgets about it, ready to read, parse and runs whatever you feed it (remember shells were primarily designed to be run interactively). Then, if you feed && echo bar , it won't know what to do with it, and errors out. That's in contrast with the and / or keywords of the fish shell. There, you can do: echo foo and echo bar In fish , and is still syntax in that for instance, you can do: cmd1 and begin cmd2 cmd3 end Which you couldn't if and was a regular builtin. But the and is not syntactically connected to what's before. Note you can't do: cmd1 and cmd2 Though.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799751/what-is-the-purpose-of-using-at-the-end-of-a-sh-script-line
+
+---
+
+#### 1923. Using a literal asterisk (*) in a filename within command substitution in bash
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, command-substitution | Score: 2 | Views: 607 | Answers: 1 | Created: 2025-06-29
+
+**解决方案 / Solution**:
+You need to escape or quote the asterisk in the command substitution, and quote the expansion itself (with double quotes which still allow expansions to be performed within but prevent split+glob to be performed over the result): echo "$(ls -d 'test*')" Thus ls will only list test* (and with -d , not its contents if that file happens to be of type directory ), and the result won’t undergo word splitting + pathname expansion (where test* is split on characters of $IFS , here staying test* with the default value of $IFS and each resulting word processed as a glob, resulting in test and test* passed to echo which it prints space separated).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797495/using-a-literal-asterisk-in-a-filename-within-command-substitution-in-bash
+
+---
+
+#### 1924. Grep (BRE) on surrounding delimiters w/o consuming the delimiter? Counting delimiter-separated strings between filename and extension
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, grep, regular-expression | Score: 2 | Views: 229 | Answers: 4 | Created: 2025-06-03
+
+**解决方案 / Solution**:
+Don't use grep for this. Use something like awk or perl. For example, the following perl script finds and counts the tags, sorts them by count, and prints them in a format similar to uniq -c but using a tab to separate the count from the tag: #!/usr/bin/perl use strict; my %allowed; # hash to hold the allowed tags my %tags; # hash to hold a counter for each found tag # array containing the allowed tags my @a = qw(black white grey red orange yellow green blue reddish-purple teal grey-brown indigo violet); # convert to a hash for quick lookup map { $allowed{$_} = 1 } @a; # main loop, read stdin and increment counter for each tag found while(<<>>) { chomp; # find all matches by splitting on _ or . and store # in local array @t my @t = split /[_.]/; # increment count (in %tags hash) for each match if in allowed list map { $tags{$_}++ if exists $allowed{$_} } @t ; }; # sort the %tags array by value and print foreach my $k (sort { $tags{$b} <=> $tags{$a} } keys %tags) { printf "%5i\t%s\n", $tags{$k}, $k }; Save it as, e.g. count-tags.pl and make it executable with chmod +x count-tags.pl and run it like so: $ find . | ./count-tags.pl 4 red 4 yellow 4 orange 3 green 3 blue 2 white 1 grey-brown 1 teal 1 reddish-purple 1 grey 1 violet 1 black 1 indigo PS: to re-iterate and emphasise what @ilkkachu said in his answer, don't use a delimiter that might be in the filename, that's just making things more difficult for yourself. e.g. my first attempt at this tried to avoid listing all the allowed tags, but that incorrectly made false tags out of filename components like Heights , Hotel , 1977-first-prod , ErnoRubik- , and Bird . If you really must use a delimiter that's in the filename, use another delimiter to separate the filename from the tags - e.g. @ as suggested by ilkkachu or __ (two underscores) or anything else that you can guarantee will not be in either the filename or any of the tags. In other words, make the filenames easy to process.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796558/grep-bre-on-surrounding-delimiters-w-o-consuming-the-delimiter-counting-delim
+
+---
+
+#### 1925. Unix or Linux command to compare binary files
+
+**问题描述 / Problem Description**:
+Tags: shell, command-line, command, diff, binary | Score: 2 | Views: 528 | Answers: 1 | Created: 2025-05-09
+
+**解决方案 / Solution**:
+To compare binary files and identify the exact positions where they differ, you can use cmp , radiff2 , vimdiff and more... How do I compare binary files in Linux? cmp You can use cmp to compare two files. By default, a byte for byte binary comparison is done. If no differences are found, no output is written. If no option flags are specified, cmp writes a message with the byte and line number of the first difference and exits with an error. cmp - Compare two files cmp -l file1 file2 How to use "cmp" to compare two binaries and find all the byte offsets where they differ? radiff2 radiff2 is a powerful tool within the radare2 suite designed for binary diffing. It can be somehow compared to the well known diff utility from UNIX, but with focus on comparing binary files. It supports several types of diffing, including 1:1 binary diffing, delta diffing, code analysis diffing, and binary data (bindata) diffing. radiff2 bin1 bin2 The Official Radare2 Book For diffing binaries with the intent of counting the differences, you might use radiff2 , which you could search for in your Linux repository (might be found in the package radare2). radiff2 has the parameter -c to count binary differences. Compare two binary files of different sizes Levenshtein distance vimdiff What is vimdiff? Vimdiff is a Linux command that can edit two, three, or four versions of a file with Vim and show their differences. vimdiff file1 file2 How do I use Vim as a diff tool? Linux Vimdiff Command – How to Compare Two Files in the Command Line Other Possible Methods and Tool Combinations for Information We’ll talk about different ways to compare binary files in Linux. We may need this when investigating different files for data recovery, reverse engineering, and other programming problems. colordiff + xxd If you've colordiff , it can colorize diff output, e.g.: colordiff -y <(xxd foo1.bin) <(xxd foo2.bin) Otherwise install via: sudo apt-get install colordiff Sample output: colordiff + xxd | diff + xxd | vimdiff + xxd colordiff is a wrapper for diff and produces the same output as diff but with coloured syntax highlighting at the command line to improve readability. od with diff hexdump with diff xxd with diff % xxd b1 > b1.hex % xxd b2 > b2.hex And then % diff b1.hex b2.hex or % vimdiff b1.hex b2.hex cmp with gawk As we’ve seen, the results from the different solutions are equivalent and return similar results. Therefore, we should choose based on two main factors: if we have the required tools installed in our system or not and the desired formatting of the output. Comparing Binary Files Under Linux They are all commands for dumping files and they can all dump it in various formats such as hexadecimal, octal or binary What is the difference between the od, hd, hexdump and xxd commands? binwalk The firmware analysis tool binwalk also has this as a feature through its -W / --hexdump command line option which offers options such as to only show the differing bytes Man pages od(1) - Linux man page xxd(1) - Linux man page hexdump(1) - Linux man page gawk(1) — Linux manual page colordiff(1) - Linux man page
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794694/unix-or-linux-command-to-compare-binary-files
+
+---
+
+#### 1926. What do programs use to read their environment?
+
+**问题描述 / Problem Description**:
+Tags: shell-script, shell, process, environment-variables, init-script | Score: 2 | Views: 956 | Answers: 1 | Created: 2025-03-16
+
+**解决方案 / Solution**:
+programs get their environment from the third argument of the execve(program_path, argv, envp) system call that executed them. envp , like argv is an array of strings, except for envp by convention the strings are in var=value format. What programs do with those strings is up to them, but generally they take those var=value strings and interpret what's to the left of the first = as the name of an environment variable and what's to the right as its value. They usually store that list aside and when they, in the same process or a child processes execute other commands, they pass that same list in the third argument to the corresponding execve() system call. The C library has helpers for that. That stored-aside-list is the environ variable there, and putenv() / setenv() / unsetenv() functions can be used to add/modifiy/remove variables there and functions such as execlp() are wrappers for the execve() system call that pass that environ along automatically as envp . The idea is that the environment is meant to be something that is inherited automatically across execution¹. Most shells map environment variables to shell variables. In POSIX-like shells, variables from envp that have a name compatible with that of a shell variable get converted into a shell variable which is marked with the export attribute. And the export special builtin utility can be used to promote a shell variable to an environment variable so it be passed in the envp of every command executed thereafter. ~/.profile is a session initialisation file that is interpreted by most Bourne-like shells when they are invoked as login shells (which login does by prepending a - to argv[0] ). The equivalent for csh-like shells would be ~/.login , see also ~/.zprofile / ~/.zlogin for zsh. These days, that's typically read when logging in over ssh (with ssh host alone the rlogin mode, not ssh host 'shell code' , the rsh mode which does not log you in) or in a virtual terminal or sudo -i , rarely by terminal emulators started within a graphical login session. Some graphical environments do attempt to start the user's login shell as a non-interactive login shell invocations that interprets those session environment files upon login in an attempt to get the same environment variables there, but not all. Other mechanisms are sometimes used there to define environment variables. If upon login, your login shell was started as a login shell and it's Bourne-like (and not zsh), it will have interpreted the code in ~/.profile . Upon interpreting PATH="~/.local/bin${PATH:+":$PATH"}" it will have updated the $PATH shell variable. As that variable will have been found in the envp that was passed to that shell, that variable will be marked for export and the variable with its modified value² will be included in the envp passed to every command executed thereafter including git . If git does a getenv("PATH") , it should get that modified value. But for that to happen, the ~/.profile must have been interpreted by a shell in the ancestry of the process that executed git . ¹ Not to be confused with parent/child relationship. A child inherits everything from its parent, but execution wipes the whole memory and is where you need a mechanism such as the environment to pass information across. ² Except in the Bourne shell where modification of the shell variable is not reflected in the environment variable unless you call export . But you won't find the Bourne shell in Fedora nor any modern system.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792546/what-do-programs-use-to-read-their-environment
+
+---
+
+#### 1927. What is the origin of the -E option of the `realpath` command in POSIX issue 8?
+
+**问题描述 / Problem Description**:
+Tags: shell, posix | Score: 2 | Views: 221 | Answers: 1 | Created: 2025-03-14
+
+**解决方案 / Solution**:
+It is indeed a POSIX invention, added to reconcile incompatible behaviour in different implementations: coreutils realpath doesn’t require the file to exist, unless -e is specified, whereas NetBSD realpath requires the file to exist. To resolve this, the -E option was invented; it has since been implemented in NetBSD realpath : With the E option (the default) it is not an error for the final component of the resolved pathname to reference a file which does not exist. (See the corresponding change for details.) The -E option first appears in this question : Would you (or whoever maintains realpath for NetBSD) be willing to add a -E option that makes your version behave like the coreutils default? Then POSIX could specify it with -e and -E options, and say it is unspecified which is the default. The alternative would be to go back to the original plan of just adding readlink (with the -f option for canonicalisation). and with the possible ways forward described as follows : So my preferences are (in descending order): POSIX adds realpath with -e and -E , and readlink without -f . Unspecified which of -e or -E is the default. GNU adds a no-op -E to realpath . NetBSD/FreeBSD adds -E and a no-op -e to realpath . POSIX adds readlink with -f (whose behaviour is the same for both implementations). No realpath . POSIX adds realpath without -e and -E , and readlink without -f . Unspecified whether realpath needs last component to exist. You can see the history of the POSIX entry in Austin Group issue 1457 .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792456/what-is-the-origin-of-the-e-option-of-the-realpath-command-in-posix-issue-8
+
+---
+
+#### 1928. When using the ls command, what rules affect the sequence of names containing numbers
+
+**问题描述 / Problem Description**:
+Tags: shell, terminal, ls | Score: 2 | Views: 248 | Answers: 2 | Created: 2025-02-22
+
+**解决方案 / Solution**:
+ls by default sorts files based on the locale collation order of their name as if by using the standard strcoll() function ¹. On GNU systems or any system using the GNU libc, the source definition of the en_US locales can be seen in $prefix/share/i18n/locales/en_US ². In there, in the LC_COLLATE section that defines collation order, you'll see: copy "iso14651_t1" (itself having a copy "iso14651_t1_common" ). That's based on (an older version of) table 1 found in appendix of the ISO 14651 international standard . Most other locales use that, that's not limited to en_US . In there (see here for the one found in the recently released glibc 2.41, though the file hasn't changed since 2018), you'll find: % Third-level weight assignments [...] <MIN> [...] <CAP> [...] % First-level weight assignments [...] <S0030> % DIGIT ZERO <S0031> % DIGIT ONE <S0032> % DIGIT TWO [...] <S0067> % LATIN SMALL LETTER G [...] order_start <SPECIAL>;forward;backward;forward;forward,position [...] <U002D> IGNORE;IGNORE;IGNORE;<U002D> % HYPHEN-MINUS <U002E> IGNORE;IGNORE;IGNORE;<U002E> % FULL STOP [...] <U0030> <S0030>;<BASE>;<MIN>;<U0030> % DIGIT ZERO [...] <U0031> <S0031>;<BASE>;<MIN>;<U0031> % DIGIT ONE [...] <U0032> <S0032>;<BASE>;<MIN>;<U0032> % DIGIT TWO [...] <U0047> <S0067>;<BASE>;<CAP>;<U0047> % LATIN CAPITAL LETTER G [...] <U0067> <S0067>;<BASE>;<MIN>;<U0067> % LATIN SMALL LETTER G In that order. Those last few lines define the weight for each collating element: <collating-element> <weight1>;<weight2>;<weight3>;<weight4> % comment You'll notice that hyphen and full stop , like most punctuation characters have IGNORE as the primary, secondary, ternary weights, only the fourth last-resort one is defined, while ASCII decimal digits and letters have all of them. When comparing abc.zml-1.gz against abc.zml-12.gz , the comparison will be first done based on the primary weights. As that of - and . is IGNORE , that will be as if comparing abczml1gz to abczml12gz , and the primary weight of 2 comes before that of g . If we were comparing abc.zml-1.gz to abc.zml-1Gz , all the primary and secondary weights would be the same, so the determination would be done based on the ternary weight comparing <MIN><MIN><MIN><MIN><MIN><MIN><MIN><MIN><MIN> to <MIN><MIN><MIN><MIN><MIN><MIN><MIN><CAP><MIN> (taking the ternary weights of each character where . 's and - 's are still IGNORED so removed), and <MIN> coming before <CAP> , the one with a lowercase g coming first. When comparing abc.zml-1.gz to abc-zml-1.gz , we'd have to go up to the fourth weight. That's meant to mimic the ordering done in the user's locale as done for instance in a dictionary, where punctuations, case, diacritics are generally ignored in the first instance, but can be used to refine the order the rest being equal (in which case, some locales prefer lower case before small caps and before uppercase, some acute accents before grave accents...) With LC_COLLATE=C , on GNU systems, regardless of the value of LC_CTYPE , strcoll() resorts to strcmp() ³ that is it sorts based on the byte value of the encoding of the text, without bothering to decode the bytes into characters. UTF-8 has that property that its encoding sorts by byte value the same as the characters it encodes by code point, but that's generally not the case for other multibyte encodings 4 . With LC_COLLATE=C , the relative order of two characters can be different between locales. In a locale using the UTF-8 charmap: $ mkdir UTF-8 ISO8859-15 GB18030 $ locale charmap UTF-8 $ touch UTF-8/{é,€} $ locale | grep COLLATE LC_COLLATE="en_US.UTF-8" $ ls UTF-8 € é € like all currency symbols comes before digits and letters in iso14651_t1_common . $ LC_COLLATE=C ls UTF-8 é € The UTF-8 encoding of é (U+00E9) is 0xc3 0xa9 and those byte values sort before those of € (U+20AC) whose encoding is 0xe2 0x82 0xac. But if you do the same in a locale that uses ISO8859-15 where the encoding of é is 0xe9 and that of € 0xa4 or GB18030 where it's 0xa8 0xa6 and 0xa2 0xe3: $ LANG=en_US.iso885915 luit $ locale charmap ISO-8859-15 $ touch ISO8859-15/{é,€} $ ls ISO8859-15 € é Still based on ISO14651, but: $ LC_COLLATE=C ls ISO8859-15 € é Same in GB18030: $ LANG=zh_CN.gb18030 luit $ locale charmap GB18030 $ touch GB1803{é,€} $ ls GB18030 € é $ LC_COLLATE=C ls GB18030 € é Note that the GNU implementation of ls has a -v / --sort=version that performs a version sort and the GNU implementation of sort -V / --version-sort which can help to order things numerically. See also the n glob qualifier of zsh . For example, in zsh: print -rC1 -- *.gz(n) Will print r aw on 1 C olumn the list of non-hidden file names ending in .gz n umerically sorted (sequences of decimal digits are compared numerically and the reset based on collation order). 0-padding all numbers to the same width ensures things sort lexically any numerically the same regardless of the locale. In zsh 0-pad all numbers in all file names in the current working directory to a length of 3 digits (beware it also truncates longer numbers to 3 digits) can be done with: autoload zmv zmv '*' '${f//<->/${(l[3][0])MATCH}}' ¹ And in the case of the GNU implementation of ls , it does call strcoll() . ² and a en_US.UTF-8 or en_US.iso885915 locale for instance if enabled on a system will have been compiled with something like localedef -i "$prefix/share/i18n/locales/en_US" -f "$prefix/usr/share/i18n/charmaps/UTF-8.gz" or localedef -i "$prefix/share/i18n/locales/en_US" -f "$prefix/usr/share/i18n/charmaps/UTF-8.gz" . ³ See it in the code when _NL_COLLATE_NRULES is 0 , which it is for the C locale . 4 Even though in general in the GNU C library, the wchar_t values for characters in locales using multibyte encoding is chosen to be the Unicode code point.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791466/when-using-the-ls-command-what-rules-affect-the-sequence-of-names-containing-nu
+
+---
+
+#### 1929. Sorting output from find more like tree --dirsfirst -F
+
+**问题描述 / Problem Description**:
+Tags: shell-script, shell | Score: 1 | Views: 109 | Answers: 2 | Created: 2025-11-17
+
+**解决方案 / Solution**:
+Not without either: a) writing a custom sorting script to pipe find 's output into, e.g. with awk or perl, and preferably using a natural sort method so that filenames with numbers are sorted correctly. or b) writing a custom find script that sorts and formats output exactly as you want it to, e.g. with perl's File::Find module, which is included with perl as part of its standard library. This is not at all unusual, and nothing to be surprised about - when you need to do something "non-standard", i.e. not already covered by the standard tools, you really only have 3 choices: Accept the situation as it is, Submit a wishlist bug report and hope that the devs think it's worth spending their time on, Write your own. Or, alternatively, downloading, modifying, and compiling the source for the relevant tool(s) and then maintaining & updating your custom version(s) afterwards.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801382/sorting-output-from-find-more-like-tree-dirsfirst-f
+
+---
+
+#### 1930. How to send SIGQUIT or SIGINT using bash shell to a shell script
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, shell, kill, sigkill | Score: 1 | Views: 458 | Answers: 1 | Created: 2025-06-03
+
+**解决方案 / Solution**:
+The documentation I have (Debian, man bash for GNU bash, version 5.2.15(1)-release ) states it slightly differently, When bash is running without job control enabled and receives SIGINT while waiting for a foreground command, it waits until that foreground command terminates and then decides what to do about the SIGINT: If the command terminates due to the SIGINT, bash concludes that the user meant to end the entire script, and acts on the SIGINT (e.g., by running a SIGINT trap or exiting itself); If the command does not terminate due to SIGINT, the program handled the SIGINT itself and did not treat it as a fatal signal. In that case, bash does not treat SIGINT as a fatal signal, either, instead assuming that the SIGINT was used as part of the program's normal operation […] So, when you send the bash interpreter a SIGINT it ignores it. But if you send one of its processes the SIGINT, bash uses that process's behaviour to decide what to do. Now, you get easily get the PID for the bash interpreter, but getting PIDs for its children is harder (as in, they are more likely to complete faster than you can obtain them). Fortunately you can use the process group to hit them, and the process group just happens to be the same as the PID for the bash interpreter. For example, assuming you have a script running under bash as PID 1234. You can then send a signal to the corresponding process group with kill -INT -1234 . Notice the PID is negative: that tells kill to signal the process group rather than a single process id. Worked example Create this file as pid.sh and make it executable ( chmod a+rx pid.sh ): #!/bin/bash # echo "This is ${0##*/} running as PID $$" sleep 8 for i in 1 2 3 do echo "$i - in loop" sleep 8 done echo "Out of loop" sleep 8 echo "Done" exit 0 Now run it ( ./pid.sh ) in one window: This is pid.sh running as PID 15263 1 - in loop 2 - in loop 3 - in loop Out of loop Done and while it's running (repeatedly if necessary), experiment with your equivalent of kill -INT 15263 and kill -INT -15263 , swapping INT for QUIT and maybe even HUP as you prefer. What's happening here is that it's most likely your signal will reach sleep , which exits happily if poked, and its decision will inform bash 's own decision
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796567/how-to-send-sigquit-or-sigint-using-bash-shell-to-a-shell-script
+
+---
+
+#### 1931. Issue with `BASH_LINENO` in bash function which get debugging information
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, windows-subsystem-for-linux, visual-studio-code | Score: 1 | Views: 149 | Answers: 1 | Created: 2025-05-17
+
+**解决方案 / Solution**:
+You could say that the source of the problem is the positive indexing in local caller_func="${FUNCNAME[2]}" local caller_file="$(basename "${BASH_SOURCE[2]}")" local caller_line="${BASH_LINENO[1]}" You could replace 2 with -1 and 1 with -2 . That may solve the problem. Even safer (as sourcing files adds entries to these stacks) when you want to know what is happening in Main() at that moment, add this to Main() : FUNC_MAIN_LEVEL=${#FUNCNAME[@]} And use that variable in ErrorReport() : local caller_func="${FUNCNAME[-FUNC_MAIN_LEVEL]}" local caller_file="$(basename "${BASH_SOURCE[-FUNC_MAIN_LEVEL]}")" local caller_line="${BASH_LINENO[-FUNC_MAIN_LEVEL-1]}"
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794990/issue-with-bash-lineno-in-bash-function-which-get-debugging-information
+
+---
+
+#### 1932. Why is the logic handled differently in rsync '--delete src/*', '--delete src/' and '--delete src/.'
+
+**问题描述 / Problem Description**:
+Tags: bash, debian, shell, rsync | Score: 1 | Views: 173 | Answers: 1 | Created: 2025-03-26
+
+**解决方案 / Solution**:
+Consider this: $ mkdir -p src/a dst/b $ touch src/a/a src/c src/d With this setup, $ rsync -avr src/* dst/ --delete is expanded by the shell to $ rsync -avr src/a src/c src/d dst/ --delete With this, rsync can’t determine what the user really meant, so it doesn’t delete anything from the target. The other two options are unambiguous, rsync knows exactly what to do. But logically, I am providing the main directory, right? I think I just made a mistake in my thinking. When I run the commands individually, it does it correctly. like rsync -avr src/a dst/ --delete and rsync -avr src/b dst/ --delete That works as well rsync -avr src/a src/c src/d dst/ --delete or did I misunderstand? From @ilkkachu: And furthermore, if you then do rm src/c , and rsync -avr src/* dst/ --delete again, it gets expanded by the shell to rsync -avr src/a src/d dst/ --delete , and rsync sees no mention of src/c in particular, or the whole directory src/ , so it doesn't know you wanted to consider the fact that src/c is now missing. Think about a slightly different case where one source had src1/a and another had src2/b and you rsynced them into a single destination. Now rsync src2/b dst/ probably shouldn't remove dst/a , even if src2/a doesn't exist.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792986/why-is-the-logic-handled-differently-in-rsync-delete-src-delete-src
+
+---
+
+#### 1933. How can a bash script determine how it was started?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, debian, shell, scripting | Score: 1 | Views: 135 | Answers: 1 | Created: 2025-03-24
+
+**解决方案 / Solution**:
+How to define a shell script to be sourced not run addresses the salient part of your question — I’m not closing it as a duplicate however because it doesn’t address it literally. In Bash, you can distinguish between running and sourcing a script by comparing the BASH_SOURCE array and $0 : if [ "${BASH_SOURCE[0]}" -ef "$0" ] then # The script is executed else # The script is sourced fi Assuming your script specifies Bash in its shebang, I don’t think there’s a way to distinguish ./script from bash script , but since both behave the same as far as your table is concerned, it shouldn’t be a problem.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792906/how-can-a-bash-script-determine-how-it-was-started
+
+---
+
+#### 1934. Filter for arbitrary AND patterns
+
+**问题描述 / Problem Description**:
+Tags: shell, text-processing, awk, grep | Score: 1 | Views: 162 | Answers: 2 | Created: 2025-03-19
+
+**解决方案 / Solution**:
+Here's a filter like that in Perl, if I gather your idea correctly: % cat test.txt 1 asdf 2 foo 3 foo bar 4 bar % <test.txt perl -e 'LINE: while(<STDIN>) { for $p (@ARGV) { next LINE unless /$p/ }; print }' -- foo bar 3 foo bar
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792688/filter-for-arbitrary-and-patterns
+
+---
+
+#### 1935. How to find the python command in a shell script?
+
+**问题描述 / Problem Description**:
+Tags: shell, python, command, portability | Score: 1 | Views: 247 | Answers: 3 | Created: 2025-03-11
+
+**解决方案 / Solution**:
+If switching to zsh is an option #! /bin/zsh - die() { print -ru2 -- "$@"; exit 1; } python_cmd=( ${(MOnk)commands:#python(|<2-3>(|.<->))} ) (( $#python_cmd )) || die No python hash python=$commands[$python_cmd[1]] python -c 'print("Hello world!")' In zsh , $commands is a special associative array that maps commands (those found in $path ) to their path (an interface to the command hash table as managed by the standard hash builtin utility ). ${(k)commands} expands to the k eys of that associative array. With ${(M)array:#pattern} , that's restricted to the ones that M atch the pattern (here python optionally followed by 2 or 3 and optional .subversion ). With n and O that's O rdered n umerically in reverse so newer versions are preferred. You can change the last line to exec python "$@" to make that script a python wrapper that runs the latest python 2 or 3 with the supplied arguments (and python as argv[0] ), though beware that not all systems support using scripts as she-bang so using #! /path/to/that/script may not work on all.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792308/how-to-find-the-python-command-in-a-shell-script
+
+---
+
+#### 1936. How to run a command on all ZFS snapshot outputs in FreeBSD?
+
+**问题描述 / Problem Description**:
+Tags: shell, freebsd, zfs | Score: 1 | Views: 151 | Answers: 3 | Created: 2025-02-25
+
+**解决方案 / Solution**:
+Use either a simple while loop, as in zfs list -H -t snapshot -o name | grep '@xfcedesktop$' | while IFS= read -r snapshot; do zfs rollback "$snapshot" done ... or use xargs zfs list -H -t snapshot -o name | grep '@xfcedesktop$' | xargs -r -I {} zfs rollback {} The -r option to xargs is supported but unnecessary on FreeBSD. With GNU's xargs , the option prevents the utility from trying to run the utility if the input is empty. This is the default behaviour of FreeBSD's xargs . I've also been more careful with the regular expression used with grep to ensure we only get the expected snapshots (the ones ending in exactly @xfcedesktop ).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791593/how-to-run-a-command-on-all-zfs-snapshot-outputs-in-freebsd
+
+---
+
+#### 1937. Bash/macOS: Getting a variable by its name, inside of a function
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, variable, macos | Score: 1 | Views: 199 | Answers: 3 | Created: 2025-02-03
+
+**解决方案 / Solution**:
+In pretty much all versions of Bash (including 3.2), you can use the ${!var} form of indirect expansion, which expands to the contents of the variable named in the variable $var . E.g. foo=hello p=foo echo "${!p}" prints hello . In Bash 4.3 and later, you can also use namerefs, i.e. variables declared with typeset -n p=foo or declare -n p=foo . This also prints hello . foo=hello declare -n p=foo echo "$p" Namerefs also work in ksh, and have somewhat more useful behaviour when referring to arrays, i.e. indexing the nameref indexes the named array: a=(zero one two) typeset -n p=a echo "${a[1]}" prints one . With ${!p} you need to put the index inside the indirectly expanded variable: a=(zero one two) p='a[1]' echo "${!p}" ( ${!p[1]} would treat p as an array, pick index 1 from it, and use the contents of that as the final variable to expand. The difference is similar to an array of pointers vs. a pointer to an array in something like C.) In a lot of cases where one thinks of using indirect expansion, it's probably worth considering if associative arrays would be a better fit, see e.g. Bash's manual on Arrays or Does bash provide support for using pointers?
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790538/bash-macos-getting-a-variable-by-its-name-inside-of-a-function
 
 ---

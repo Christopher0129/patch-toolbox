@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1431**
+**总计条目 / Total entries: 1544**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -22732,5 +22732,1552 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210087#reply3
+
+---
+
+#### 1432. Love the new Screen Time keyboard
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t388o9/love_the_new_screen_time_keyboard/
+
+---
+
+#### 1433. Dear fellow mac users, from your perspective, why do you think its better for app to stay open after last window is closed?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t3ackc/dear_fellow_mac_users_from_your_perspective_why/
+
+---
+
+#### 1434. Migration Assistant, transfers everything?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t3c0ei/migration_assistant_transfers_everything/
+
+---
+
+#### 1435. How can I remove facebook from here?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t3bsgf/how_can_i_remove_facebook_from_here/
+
+---
+
+#### 1436. Why is the Inbox Not Showing Me All New Emails?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t3bpai/why_is_the_inbox_not_showing_me_all_new_emails/
+
+---
+
+#### 1437. Daisy chaining two Dell 4k monitors with M4 Pro
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t38urj/daisy_chaining_two_dell_4k_monitors_with_m4_pro/
+
+---
+
+#### 1438. Why do people hate macOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t3buob/why_do_people_hate_macos/
+
+---
+
+#### 1439. M2 pro macbook pro or M3 macbook pro
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t39u9i/m2_pro_macbook_pro_or_m3_macbook_pro/
+
+---
+
+#### 1440. Would you swap an old m1 air for a new neo?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t3c9d7/would_you_swap_an_old_m1_air_for_a_new_neo/
+
+---
+
+#### 1441. MacBook Air M5 16GB RAM 512SSD Vs M4 24GB RAM 512SSD?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t3b6r2/macbook_air_m5_16gb_ram_512ssd_vs_m4_24gb_ram/
+
+---
+
+#### 1442. MacBook doesn't seem that snappy....am I doing something wrong?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t389zo/macbook_doesnt_seem_that_snappyam_i_doing/
+
+---
+
+#### 1443. New mac usee
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t3cwkh/new_mac_usee/
+
+---
+
+#### 1444. M1 2020 laptop can't hook up to tv
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t3bzjm/m1_2020_laptop_cant_hook_up_to_tv/
+
+---
+
+#### 1445. Is this a good price?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t3b73e/is_this_a_good_price/
+
+---
+
+#### 1446. RTX HDR, all sliders bar peak brightness reset to default on any game launching
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t3dcut/rtx_hdr_all_sliders_bar_peak_brightness_reset_to/
+
+---
+
+#### 1447. My keyboard backlight is blinking and I don’t know what to do
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t3dcfi/my_keyboard_backlight_is_blinking_and_i_dont_know/
+
+---
+
+#### 1448. Something wrong with my cable?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t3c55t/something_wrong_with_my_cable/
+
+---
+
+#### 1449. Issues with my ipad, a critical alert window appeared and it won’t disappear
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t3d53q/issues_with_my_ipad_a_critical_alert_window/
+
+---
+
+#### 1450. How to claim AppleCare+ for AirPods Pro 2 (USB-C) before it expires?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t3d3qf/how_to_claim_applecare_for_airpods_pro_2_usbc/
+
+---
+
+#### 1451. Không thể đăng nhập vào icloud
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t3d1p7/không_thể_đăng_nhập_vào_icloud/
+
+---
+
+#### 1452. New update locked me out of features
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t38owp/new_update_locked_me_out_of_features/
+
+---
+
+#### 1453. M3Pro stuck on an infinite restarting loop. Any suggestions?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t3c9ct/m3pro_stuck_on_an_infinite_restarting_loop_any/
+
+---
+
+#### 1454. iphone 14 wont turn on, wont force restart, wont update or restore.
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t3c2jp/iphone_14_wont_turn_on_wont_force_restart_wont/
+
+---
+
+#### 1455. My card is used on someone else's Apple ID
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t3bz3h/my_card_is_used_on_someone_elses_apple_id/
+
+---
+
+#### 1456. My sons birthday keeps changing by one day
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t3bpel/my_sons_birthday_keeps_changing_by_one_day/
+
+---
+
+#### 1457. How to fix cellular block on iPhone
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t3attd/how_to_fix_cellular_block_on_iphone/
+
+---
+
+#### 1458. PearCleaner deleted Mail folder from Application Support.
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t3agf5/pearcleaner_deleted_mail_folder_from_application/
+
+---
+
+#### 1459. Icloud in limbo
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t3a3ou/icloud_in_limbo/
+
+---
+
+#### 1460. A fast way to cancel the iCloud subscription?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t3a2na/a_fast_way_to_cancel_the_icloud_subscription/
+
+---
+
+#### 1461. My iPad is stuck in safari
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t38nbg/my_ipad_is_stuck_in_safari/
+
+---
+
+#### 1462. Apple Pencil USB-C wont connect without being plugged in for ~10secs first
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t382e8/apple_pencil_usbc_wont_connect_without_being/
+
+---
+
+#### 1463. Need ideas for getting back an acount
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t3820s/need_ideas_for_getting_back_an_acount/
+
+---
+
+#### 1464. Right click mouse and option+click not working on Intel Mac Sequoia
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t37xmh/right_click_mouse_and_optionclick_not_working_on/
+
+---
+
+#### 1465. Why is the weekly average number lower?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t37jw2/why_is_the_weekly_average_number_lower/
+
+---
+
+#### 1466. [V2EX] apns（苹果消息服务）推送异常后目前所做的努力
+
+**问题描述 / Problem Description**:
+按照 https://support.apple.com/zh-cn/102266 信息，以及论坛上大佬们提供的域名，做了个 rule-set ，方便工具接入使用 地址： https://raw.githubusercontent.com/mrbruce516/apns-fix/refs/heads/main/Apple_APNs.list 指向外面的节. 即可 目前测试下来，最近并非所有海外 app 都受限制，我的 PlayStation app 、gemini 等可以正常收到消息，所以猜测是苹果针对部分 app 的 Bundle ID 结合设备终端 *.push.apple.com 请求头
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210130#reply21
+
+---
+
+#### 1467. [V2EX] 苹果的信号是我误解了吗
+
+**问题描述 / Problem Description**:
+昨天去大运看演唱会，我隔壁的一个香港大姐全程都在发视频，无任何卡顿，而且我看她微信从来没有转圈圈过。看信号是全球通，双卡，手机 pin 是四位的，这个是不是意味着她的手机是比较旧款的 iPhone 。我自己的是 iPhone 15 PRO MAX 联通流量，一张图都发不出去。 突然深深的怀疑我过去十来年对 iPhone 信号差的观点是错的，问题出在哪里？我也想像她一样在高峰期有好的网络体验。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210120#reply64
+
+---
+
+#### 1468. [V2EX] Mac mini 配显示器，上 5K 还是高刷更重要？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210057#reply38
+
+---
+
+#### 1469. [V2EX] NIST 的测试要比各家自己吹的口径靠谱吧
+
+**问题描述 / Problem Description**:
+https://www.nist.gov/news-events/news/2026/05/caisi-evaluation-deepseek-v4-pro
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210200#reply5
+
+---
+
+#### 1470. [V2EX] 现在这个形势，推荐备一个 CMHK 的流量卡
+
+**问题描述 / Problem Description**:
+10GB 流量，68 HKD 可以用半年，后续还能充值 是个 eSIM 卡，我测过速度还行，当备用以防失联 官网就能直接购买: esim.cmlink.com
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210180#reply22
+
+---
+
+#### 1471. [V2EX] 一些常用的无需登录的临时网盘服务
+
+**问题描述 / Problem Description**:
+https://gofile.io/uploadFiles https://www.sendgb.com/ https://www.file.io/ https://www.transfernow.net/en https://ufile.io/ https://www.filemail.com/ https://file.pizza/ https://justbeamit.com/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210147#reply3
+
+---
+
+#### 1472. How to prevent command-plus or command-minus from resizing desktop icons?
+
+**问题描述 / Problem Description**:
+Tags: macos, finder, tahoe | Score: 0 | Views: 113 | Answers: 1 | Created: 2026-04-29
+
+**解决方案 / Solution**:
+Your question was asked and answered on the Super User SE: Changing the mac desktop icon resize shortcut in finder The contributor in that thread, @Bob, ingeniously figured out that the menu equivalents are Increase Icon Size and Decrease Icon Size , even though no such menu commands actually exist. Change the shortcuts as shown in the linked answer to some key combinations you'll never use.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486332/how-to-prevent-command-plus-or-command-minus-from-resizing-desktop-icons
+
+---
+
+#### 1473. Cannot open HEIC file
+
+**问题描述 / Problem Description**:
+Tags: macos, preview, heic | Score: 0 | Views: 84 | Answers: 2 | Created: 2026-04-25
+
+**解决方案 / Solution**:
+The problem is caused by two conflicting attributes attached to the file, OpenWith and com.apple.quarantine . Please open the Info window and set Preview as the default app to open the file, then click the Change all button and close the window. All files of that type should then open in Preview when double-clicked in the Finder. If you want to open one in another app, do so from the Open menu in that app, or use the Open With… contextual menu. If you prefer to keep Gimp as the default opener, then you can do the reverse of the above procedure. What you can't do is change the default for individual files. Apple hasn't documented the reason for this behavior in recent version of macOS, but I think it's a security measure to prevent a rogue app from hijacking files.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486292/cannot-open-heic-file
+
+---
+
+#### 1474. Is there a way to make Image Capture load the previews for newer photos first?
+
+**问题描述 / Problem Description**:
+Tags: macos, image-capture | Score: 0 | Views: 34 | Answers: 1 | Created: 2026-04-12
+
+**解决方案 / Solution**:
+You can't change the order in which previews are loaded. What you should do is remove images from the camera when you connect it.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486215/is-there-a-way-to-make-image-capture-load-the-previews-for-newer-photos-first
+
+---
+
+#### 1475. How to set a new "favorite" mailbox/folder/whatever with the macOS Mail app?
+
+**问题描述 / Problem Description**:
+Tags: mail.app, macos | Score: 0 | Views: 57 | Answers: 1 | Created: 2026-04-05
+
+**解决方案 / Solution**:
+Move the mouse over the "Favorites" title in the sidebar and click on the "Add Favorite" icon which appears. Then select whatever folder(s) you want to add to Favorites (or remove by deselecting).
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486184/how-to-set-a-new-favorite-mailbox-folder-whatever-with-the-macos-mail-app
+
+---
+
+#### 1476. Why is macOS creating thousands of .isdata files?
+
+**问题描述 / Problem Description**:
+Tags: macos, filesystem | Score: 0 | Views: 74 | Answers: 1 | Created: 2026-04-01
+
+**解决方案 / Solution**:
+The files are created by the process iconservicesd , which seems to be running away. You should start by killing it in Activity Monitor. It will restart automatically. If the problem isn't solved, boot in Safe Mode to rebuild system caches, then reboot normally and see what happens.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486164/why-is-macos-creating-thousands-of-isdata-files
+
+---
+
+#### 1477. Should I remove this dyld_shared_cache_arm64e.01 file? Apparently Avast security tells me that I should
+
+**问题描述 / Problem Description**:
+Tags: macos, mac | Score: 0 | Views: 55 | Answers: 1 | Created: 2026-04-01
+
+**解决方案 / Solution**:
+See Infected file: dyld_shared_cache_arm64e : Oh no. It is most definitely, absolutely certainly, a false positive. Just look at the words "Cryptexes" in the path. Those are files on Apple's cryptographically signed, read-only boot partition. The idea that 3rd party antivirus apps are scanning these read-only Apple volumes is just hilarious. People in the "security" industry work overtime to tell a story about Apple incompetence and risk. It's non-stop, 24/7. And people really do fall for it. Things like this show the charade for what it is. The people who are supposed to protect you from these "zero-day" threats literally have no clue how the operating system works - no clue whatsoever.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486162/should-i-remove-this-dyld-shared-cache-arm64e-01-file-apparently-avast-security
+
+---
+
+#### 1478. How to uninstall MS Word and Excel on macOS without admin password?
+
+**问题描述 / Problem Description**:
+Tags: macos, ms-office, tahoe | Score: 0 | Views: 106 | Answers: 1 | Created: 2026-03-26
+
+**解决方案 / Solution**:
+Before Tahoe, you could use Launchpad to delete App Store products without admin privileges, but that no longer exists. Now you have to use a procedure that Apple doesn't seem to have documented. Launch the App Store and open the Account page by clicking on the icon in the lower left corner, labeled with your name. A grid shows the apps you've installed. Hover the cursor over the one you want to delete, and a button labeled with an ellipsis ( ... ) appears next to the Open button. Click that button and a menu pops up: Select Delete App... from that menu, and you get a confirmation dialog: Click Delete App to confirm.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486130/how-to-uninstall-ms-word-and-excel-on-macos-without-admin-password
+
+---
+
+#### 1479. 2 apps opening on startup don't display any content/window
+
+**问题描述 / Problem Description**:
+Tags: macos, login-items, ms-teams | Score: 0 | Views: 40 | Answers: 1 | Created: 2026-03-25
+
+**解决方案 / Solution**:
+Some applications don't open a window when launched in the background. They only show a window when brought to the foreground. You could try this. Quit Teams. Open Script Editor and enter: tell application "Microsoft Teams" to activate Compile the script, test it, and if it works, save it somewhere as an application. Remove Teams from the login items and add the app you created.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486124/2-apps-opening-on-startup-dont-display-any-content-window
+
+---
+
+#### 1480. Powerd causes Mac Mini to not sleep; CleanMyMac issue?
+
+**问题描述 / Problem Description**:
+Tags: macos, apple-silicon, tahoe | Score: 0 | Views: 69 | Answers: 2 | Created: 2026-03-23
+
+**解决方案 / Solution**:
+I've never used CMM, but I get the same output on my Mac Mini from that command as you do; so CMM may not be to blame; and that response may be perfectly harmless or standard. TBH, I'm not worried about sleep on a desktop machine with a power cable. I can always manually initiate sleep from the Apple menu, if I want to.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486107/powerd-causes-mac-mini-to-not-sleep-cleanmymac-issue
+
+---
+
+#### 1481. How to disable notification while screening calls?
+
+**问题描述 / Problem Description**:
+Tags: macos, iphone, notifications | Score: 0 | Views: 64 | Answers: 2 | Created: 2026-03-10
+
+**解决方案 / Solution**:
+That's why it's called "screening," which is, by definition, what you might call a "live" . . . um, action. (Can't think of a better word.) I'm glad you're getting good results with RoboKiller. I used it for three or four months, then got rid of it. It thought quite a few really good calls were spam, but a call from a hospital was the last straw. That would be one thing, but there was no way that (I could see) to tell Robokiller that it was a good number. That was a while ago, and maybe things have changed.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486027/how-to-disable-notification-while-screening-calls
+
+---
+
+#### 1482. My macos firewall is blocking airplay
+
+**问题描述 / Problem Description**:
+Tags: macos, network, audio, airplay, firewall | Score: 0 | Views: 142 | Answers: 1 | Created: 2026-02-18
+
+**解决方案 / Solution**:
+For me, AirPlay does work with the firewall active and with the default settings. But I never use the firewall, because it serves no purpose on a private network behind NAT. You are blocking everything. What is the point of that? You're also running a Norton security product, which like all such products is much worse than useless, whether it's causing this problem or not. The easy solution to your problem is to turn off the firewall and enjoy life. Also, get rid of Norton. If you're determined not to do that, for reasons known only to you, then you'll have to experiment with the configuration until you figure out which rule is sabotaging you. For reference, the application firewall has only one valid use case. A MacBook has several sharing services active that you want to expose on a trusted network. Sometimes it's connected to an untrusted network where you don't want those services exposed. Rather than turning them off individually, you activate the firewall with a configuration that blocks all those services. When you're back on the trusted network, you turn it off.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485903/my-macos-firewall-is-blocking-airplay
+
+---
+
+#### 1483. On macOS how to make the command-tab to show apps in vertical order?
+
+**问题描述 / Problem Description**:
+Tags: macos, mac | Score: 0 | Views: 58 | Answers: 1 | Created: 2026-02-16
+
+**解决方案 / Solution**:
+This is not possible without installing 3rd-party software. One such option could be AltTab , which includes an option to cycle through a vertical list of open window titles.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485884/on-macos-how-to-make-the-command-tab-to-show-apps-in-vertical-order
+
+---
+
+#### 1484. What does the `kern.willuserspacereboot` sysctl do?
+
+**问题描述 / Problem Description**:
+Tags: macos, tahoe | Score: 0 | Views: 49 | Answers: 1 | Created: 2026-02-07
+
+**解决方案 / Solution**:
+kern.willuserspacereboot is a macOS kernel flag (a sysctl) that indicates whether the system is going to perform a userspace-only reboot instead of a full reboot. In practical terms: A userspace reboot means everything above the kernel is torn down and restarted (launchd, daemons, apps, most system services), but the kernel itself stays running . When kern.willuserspacereboot is set, it’s used by the system to coordinate that kind of reboot path, so parts of the OS can behave differently knowing only userland is being restarted. This is related to mechanisms like launchctl reboot userspace and is used internally; you generally don’t need to (and shouldn’t) change it yourself.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485818/what-does-the-kern-willuserspacereboot-sysctl-do
+
+---
+
+#### 1485. Trying to better understand how drag to copy/move works in macOS compared to the way it works in Windows?
+
+**问题描述 / Problem Description**:
+Tags: macos, finder | Score: 0 | Views: 195 | Answers: 2 | Created: 2026-02-03
+
+**解决方案 / Solution**:
+By default: Drag and drop to a folder in the same volume/disk is a move. Drag and drop to a folder in a different volume/disk is a copy. There is a reason for this. If a disk becomes disconnected whilst moving, there is a small risk that the file will be lost. A copy and subsequent delete is safer. Change the behaviour by pressing and holding Command or Option key whilst dragging (before dropping): Cmd ⌘ to force a move. Opt ⌥ to force a copy. When a copy is going to happen the dragged file will have a little plus next to it. No little plus means to move. Tips: If you get a bit lost whilst dragging (or hit the edge of the trackpad), don't drop the file - hit the escape key to cancel the whole action. If you make a mistake (drop in the wrong place), Cmd + Z will undo.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485790/trying-to-better-understand-how-drag-to-copy-move-works-in-macos-compared-to-the
+
+---
+
+#### 1486. Workaround for 1Password 7 password autofill breaking on Firefox 147.0.1?
+
+**问题描述 / Problem Description**:
+Tags: macos, password, bug, firefox | Score: 0 | Views: 239 | Answers: 1 | Created: 2026-01-30
+
+**解决方案 / Solution**:
+In the companion Firefox support forum post , a well-informed answer links to Mozilla bug report #2013772 . Reading that, here is what I understand. Firefox 147 did have a change in behaviour. It was intentional, though the rollout of the change appears to have stumbled a little. It is possible, for now, to reverse the change. In the long term, the change will likely be harder to evade. The way to reverse that change in behaviour is to: In a browser tab, visit about:config . A "Proceed with Caution" warning appears. Click the "Accept the Risk and Continue" button. An empty preferences page, with the warning, "Changing these preferences can impact Firefox performance or security.", appears. In the text box at the top of the page, enter dom.keyboardevent.init_key_event.enabled_in_addons . A row with the same name appears below the text box. In the centre of the row is a word, either true or false . At the right is a double-arrow icon. Firefox 147 initially has the word false in this row. Click the double-arrow icon. The word false changes to true . Close the browser tab. Firefox immediately has the pre-147 behaviour. The details on the issue and the work-around are at https://bugzilla.mozilla.org/show_bug.cgi?id=2013772#c15 . The bug discussion brings up two important points. First, a crucial piece of this behaviour is a Firefox extension named onepassword4@agilebits.com.xpi (122,878 bytes, Version 4.7.5.90, Last Updated May 5, 2022). This lets the 1Password application communicate with the Firefox browser. The current version of this extension, published on addons.mozilla.org as "1Password: Password Manager" by the makers of 1Password, works only with version 8 of the 1Password application. I am using 1Password version 7, which uses the older extension, which is confusingly named onepassword4 . The distinction between the Firefox extension and the 1Password app is important. Second, this 2022-vintage extension is written for older versions of Firefox. Current Firefox has stopped supporting some technical interfaces which the extension uses. This is reasonable, but it is a problem for those of us using the old extension. The Firefox team's position is that we should use the most recent version of the 1Password extension. The 1Password team's position is that we should move to the most recent version of the 1Password app in order to use the most recent extension. But this version of 1Password takes away a capability which I value. Someone had a clever idea: modify the old extension, without the help of the 1Password team, so that it works with the current versions of Firefox. The bug ticket has a link to a modified extension published on addons.mozilla.org. I love the idea, but I don't love the way the people behind the modified extension published it. They did not provide enough transparency to confidently recommend it to others. For now, I have configured my copy of Firefox 147.0.1 to set dom.keyboardevent.init_key_event.enabled_in_addons to true . That is good enough for me.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485754/workaround-for-1password-7-password-autofill-breaking-on-firefox-147-0-1
+
+---
+
+#### 1487. "USB Accessory Need Power" - can't use dvd drive while on battery?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, optical-drive | Score: 0 | Views: 126 | Answers: 1 | Created: 2026-01-21
+
+**解决方案 / Solution**:
+OK, my mistake... This was not true: "through a hub that is known to work". Indeed, the DVD player doesn't work with this hub, regardless of the Mac being on a power adapter or battery. When I use the USB-C-to-USB adapter, it works even when on battery. Sorry about the confusion!
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485676/usb-accessory-need-power-cant-use-dvd-drive-while-on-battery
+
+---
+
+#### 1488. AirTag chiming, although MacBook M4 is with me and open
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, airtag | Score: 0 | Views: 41 | Answers: 1 | Created: 2026-01-14
+
+**解决方案 / Solution**:
+An AirTag has to be paired with a mobile device; in your case, an iPad. It will alert you when separated from that device and from a paired Apple Watch, if any (except in a trusted location.) Having your MacBook with you won't suppress the alerts. If you don't want the alerts at all, disable Notify When Left Behind in the AirTag settings in the Find My app. See: Set separation alerts in case you leave an AirTag or item behind in Find My on iPhone (support.apple.com) The instructions also apply to an iPad.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485597/airtag-chiming-although-macbook-m4-is-with-me-and-open
+
+---
+
+#### 1489. How do I setup Windows server (64-bit) virtual machines on Parallels running on MacBook Pro M4?
+
+**问题描述 / Problem Description**:
+Tags: macos, windows, virtualization, parallels-desktop, vmware | Score: 0 | Views: 251 | Answers: 2 | Created: 2026-01-08
+
+**解决方案 / Solution**:
+Fusion and Parallels virtualise the host system architecture. On an M4 Mac, the architecture is ARM and so you can only virtualise ARM operating systems. You should install ARM versions of Windows and Ubuntu in your Fusion or Parallels virtual machines. ARM Windows includes Rosetta-like translation of X86-64 applications so your X86-64 Windows applications will run on ARM Windows in a virtual machine. Emulation of the X86-64 chipset is very slow and is not really useful for most purposes. Fusion and Parallels virtualise a client operating. On the other hand, UTM can do both virtualisation and emulation - the virtualisation is not as polished as Fusion or Parallels, but its emulation of old chipsets provides a practical way to run old operating systems. In the comments you say "The goal is to setup Windows Server 2022 with Microsoft SQL Server and a Fortigate VM in the middle to test replication." It not possible to virtualise this on an ARM Mac as there is no ARM based Windows Server 2022. You need an Intel based Mac (or a Windows PC) as the host. Using UTM (or another emulation product) will be excruciating slow.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485554/how-do-i-setup-windows-server-64-bit-virtual-machines-on-parallels-running-on
+
+---
+
+#### 1490. Can I share a symlink files mounted on macOS using Samba?
+
+**问题描述 / Problem Description**:
+Tags: macos, smb | Score: 0 | Views: 90 | Answers: 1 | Created: 2026-01-08
+
+**解决方案 / Solution**:
+I "solved" my problem in a different way. I would delete the question but thought others may benefit as I discovered that the actual symlink is shared (as pointed out in a Comment) not the symlinked file.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485545/can-i-share-a-symlink-files-mounted-on-macos-using-samba
+
+---
+
+#### 1491. How to add escape characters to a text string in AppleScript?
+
+**问题描述 / Problem Description**:
+Tags: macos, applescript | Score: 0 | Views: 151 | Answers: 1 | Created: 2026-01-04
+
+**解决方案 / Solution**:
+If you are going to use the escape character in a string, it also needs to be escaped. The easiest would probably be to use the quoted form property, for example: do shell script "afplay " & quoted form of sfil2
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485517/how-to-add-escape-characters-to-a-text-string-in-applescript
+
+---
+
+#### 1492. Will iCloud make a full backup of a symlinked directory?
+
+**问题描述 / Problem Description**:
+Tags: macos, icloud, symlink | Score: 0 | Views: 53 | Answers: 1 | Created: 2026-01-04
+
+**解决方案 / Solution**:
+iCloud Drive doesn’t back up anything; it synchronizes. And no, it doesn’t follow symbolic links.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485516/will-icloud-make-a-full-backup-of-a-symlinked-directory
+
+---
+
+#### 1493. When attempting to revive a Macbook Air a1932 with Apple Configurator I get "gave up waiting for device to transition from DFU state to DFU state."
+
+**问题描述 / Problem Description**:
+Tags: macos, unix | Score: 0 | Views: 745 | Answers: 1 | Created: 2026-01-04
+
+**解决方案 / Solution**:
+Make sure you're using the right kind of cable connected to the correct USB port (both links to support.apple.com). If you are, then the logic board is faulty.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485510/when-attempting-to-revive-a-macbook-air-a1932-with-apple-configurator-i-get-gav
+
+---
+
+#### 1494. How can I blur the background and desktop icons when in application windows?
+
+**问题描述 / Problem Description**:
+Tags: macos, application-switcher | Score: 0 | Views: 50 | Answers: 1 | Created: 2025-12-27
+
+**解决方案 / Solution**:
+There's no built-in means to do this, but there are several 3rd-party utilities, such as Blurred , that are available on the App Store.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485461/how-can-i-blur-the-background-and-desktop-icons-when-in-application-windows
+
+---
+
+#### 1495. Why am I having issues with some, but not all, external HDDs on a MacBook Pro 16" (M4 Pro)?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, hard-drive, usb, external-disk | Score: 0 | Views: 144 | Answers: 1 | Created: 2025-12-22
+
+**解决方案 / Solution**:
+Both the adapters you're using are active devices that consume power, and one of them is rated for USB-1 speed only. Try connecting the drives to a built-in USB-C port with a passive C-to-A adapter. They cost about $5.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485437/why-am-i-having-issues-with-some-but-not-all-external-hdds-on-a-macbook-pro-16
+
+---
+
+#### 1496. Locate Malfuncting kext that Causes Hang 30" in Middle of Login MacOS 13.7.8 Ventura on MBP M2 Max
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, ventura, kernel-extensions, apple-diagnostics | Score: 0 | Views: 29 | Answers: 1 | Created: 2025-12-12
+
+**解决方案 / Solution**:
+I took advice from the comments and upgraded to Sequoia. Things are much improved as it allowed me to prohibit installation of 3rd party kernel extensions. Thanks for the comments.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484378/locate-malfuncting-kext-that-causes-hang-30-in-middle-of-login-macos-13-7-8-ven
+
+---
+
+#### 1497. How can I block incoming TCP and UDP ports under Sequoia 15.7.2?
+
+**问题描述 / Problem Description**:
+Tags: macos, network, firewall, tcp | Score: 0 | Views: 227 | Answers: 2 | Created: 2025-12-10
+
+**解决方案 / Solution**:
+Yes, you have to use something like the built-in packet filter pf . Although it’s fully functional in macOS, no graphical user interface is provided (unlike the socket-filtering firewall, which is completely separate.) There is at least one third-party GUI for pf , called Murus (murusfirewall.com). I used it for a while, years ago, and it worked OK. I am not affiliated with the developer, and this is not an endorsement.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484358/how-can-i-block-incoming-tcp-and-udp-ports-under-sequoia-15-7-2
+
+---
+
+#### 1498. Why does my iMac M4 with macOS 15 never go inactive and the display never turns off?
+
+**问题描述 / Problem Description**:
+Tags: macos, sleep-wake, screen-lock | Score: 0 | Views: 75 | Answers: 1 | Created: 2025-12-09
+
+**解决方案 / Solution**:
+The account B had no password. Setting a password for it fixed the problem, the screen turns off and the Mac goes inactive after a while. EDIT: the problem of the display that periodically turns on has been fixed by the upgrade to macOS 26.2
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484353/why-does-my-imac-m4-with-macos-15-never-go-inactive-and-the-display-never-turns
+
+---
+
+#### 1499. How can I stop my Mac screen dimming noticeably for some but not all fullscreen video content?
+
+**问题描述 / Problem Description**:
+Tags: macos, display, accessibility, fullscreen, auto-brightness | Score: 0 | Views: 830 | Answers: 1 | Created: 2025-12-07
+
+**解决方案 / Solution**:
+The issue was the Dim flashing lights setting. On macOS 26 this is located in System Settings > Accessibility > Motion On earlier versions (confirmed on macOS 15), this is found under System Settings > Accessibility > Display . Turn off that to fix this problem. The way I discovered this was: rsync /Library/Preferences and ~/Library/Preferences into a folder, then using the plutil command to convert the plist files to XML Repeat this on the new user account Save both to git to make it easier to diff and find the cause
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484334/how-can-i-stop-my-mac-screen-dimming-noticeably-for-some-but-not-all-fullscreen
+
+---
+
+#### 1500. How to repair a hard drive in recovery mode?
+
+**问题描述 / Problem Description**:
+Tags: macos, hard-drive, filesystem, recovery | Score: 0 | Views: 286 | Answers: 1 | Created: 2025-12-06
+
+**解决方案 / Solution**:
+The hard drive is likely defective in some way -- which is not surprising for a 14-year-old mechanical drive. Your options are: use your backup copy instead ( because you have a backup of this drive, don't you....? ); use some disk repair software, like Data Rescue; see if you can manually copy the files that you need without error.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484331/how-to-repair-a-hard-drive-in-recovery-mode
+
+---
+
+#### 1501. How can I change the fn + C shortcut in macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, keyboard, shortcut, software | Score: 0 | Views: 315 | Answers: 1 | Created: 2025-12-06
+
+**解决方案 / Solution**:
+As far as I can tell, the only way to do this is disable the requirement of fn while speedrunning and require it again after a session.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484324/how-can-i-change-the-fn-c-shortcut-in-macos
+
+---
+
+#### 1502. How to create a "Learn Spelling" shortcut for words where it's not available in the context menu due to predictive text?
+
+**问题描述 / Problem Description**:
+Tags: macos, automator, spelling | Score: 0 | Views: 111 | Answers: 1 | Created: 2025-12-05
+
+**解决方案 / Solution**:
+I use double click to highlight the word, then use Learn Spelling in the pop up. Obviously the spellcheck has to identify the word as spelling error first on Sequoia 15.6.1 It adds the word directly to your user dictionary that you can modify if you want to. Turn off the predictive spelling
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484319/how-to-create-a-learn-spelling-shortcut-for-words-where-its-not-available-in
+
+---
+
+#### 1503. Difficulties moving MS Office LTSC License —> new Mac
+
+**问题描述 / Problem Description**:
+Tags: macos, ms-office, migration, migration-assistant, license | Score: 0 | Views: 152 | Answers: 1 | Created: 2025-12-04
+
+**解决方案 / Solution**:
+The LTSC license is a volume license issued only to institutions, not to individuals. Each seat is allocated to a specific device. The licensee would have to arrange, through its Microsoft account, to transfer a seat to the new device. See: Migrate Office 2021 LTSC to new computer, old computer dead (microsoft.com).
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484315/difficulties-moving-ms-office-ltsc-license-new-mac
+
+---
+
+#### 1504. Why is Safari forgetting my activity (history, bookmarks, etc.) after every session?
+
+**问题描述 / Problem Description**:
+Tags: macos, safari, bookmarks, library, browser-history | Score: 0 | Views: 142 | Answers: 1 | Created: 2025-12-04
+
+**解决方案 / Solution**:
+You may have lost write privileges on your own home directory. If this is the case, Safari will no longer be able to write to ~/Library/Safari , so it won't be able edit your browsing history ( History.db ), bookmarks ( Bookmarks.plist ), per-site preferences ( PerSitePreferences.db ), or anything like that. As such, it'll only remember your changes as long as they remain in RAM (that is, within the session); as soon as you quit the app, they'll be lost. You can test this using the touch command. Open a new terminal window and try the following: touch ~/Documents/test.txt If it fails and asks you to run as a superuser, you've lost write privileges on ~ . For me, repairing disk permissions fixed the issue: diskutil resetUserPermissions / $(id -u)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484307/why-is-safari-forgetting-my-activity-history-bookmarks-etc-after-every-sess
+
+---
+
+#### 1505. Auto Log Dictionary searches
+
+**问题描述 / Problem Description**:
+Tags: macos, applescript, automator, automation, dictionary | Score: 0 | Views: 90 | Answers: 2 | Created: 2025-11-27
+
+**解决方案 / Solution**:
+As the @red_menace suggests, the nature of how this script is called is unclear. I've made the assumption that it will be called using an Automator workflow that is accessed via the script menu (ie in the User's Library > Scripts folder. Of course, adjustments can be made for different approaches. The following should be placed inside a Run Applescript action. use scripting additions on run {input, parameters} tell application "System Events" set frontApp to name of first application process whose frontmost is true end tell set oldClipboard to the clipboard tell application frontApp activate tell application "System Events" tell application process frontApp keystroke "c" using command down delay 0.1 end tell end tell set theWord to first word of (the clipboard as «class utf8») delay 0.1 end tell -- Log file path set logPath to (POSIX path of (path to desktop)) & "dictionary_log" do shell script "touch " & quoted form of logPath -- Append the word to the log do shell script "echo " & quoted form of theWord & " >> " & quoted form of logPath -- Open Dictionary to that word do shell script "open dict://" & quoted form of theWord -- Restore clipboard set the clipboard to oldClipboard end run The additions to the OP script are as follows: Includes use scripting additions as the clipboard is a focus here Gets and activates the front application so that the command-c keystroke has something to work on Truncates after first word so that the log file doesn't collect extraneous verbiage Explicitly use utf-8 I tested it on a few apps, including Firefox and Dictionary itself, without issue.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484232/auto-log-dictionary-searches
+
+---
+
+#### 1506. Restrict Safari Autocomplete To Just Home Pages
+
+**问题描述 / Problem Description**:
+Tags: macos, ios, safari, ipados, auto-complete | Score: 0 | Views: 102 | Answers: 1 | Created: 2025-11-23
+
+**解决方案 / Solution**:
+Try adding forward slash after the website name. Amazon/
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484200/restrict-safari-autocomplete-to-just-home-pages
+
+---
+
+#### 1507. Why is macOS Tahoe firewall suddenly blocking all network access?
+
+**问题描述 / Problem Description**:
+Tags: macos, network, firewall, tahoe | Score: 0 | Views: 1829 | Answers: 2 | Created: 2025-11-21
+
+**解决方案 / Solution**:
+It looks like the issue was somehow related to having files in /nix/store/.links included in my firewall settings. Discovered this after finding that /nix/store/.links appeared in the "Open Files and Ports" section for socketfilterfw for exactly the duration of time that network connectivity was broken after disabling and reenabling the firewall; I have a video and some nix-specific details posted on the NixOS GitHub . It was particularly tricky to sort this out because Tailscale seems to make the situation worse; the referenced video was taken with tailscaled disabled via launchd and all related processes killed, and on my M4 it still takes several minutes to process /nix/store/.links ; with tailscale running, /nix/store/.links appears multiple times in this list and it doesn't seem to ever finish and restore network connectivity (I waited about 15 minutes). I noted that I had several /nix/store/.links/... paths listed in my firewall rules: # /usr/libexec/ApplicationFirewall/socketfilterfw --listapps | grep nix 2 : /nix/store/xzyam9r236k9xcd2zmhbg6addyqn47n6-syncthing-2.0.10/bin/syncthing 3 : /nix/store/.links/0lz9zb153xgvr414l21vny5b2f5xg463kx116dw3qsv3y18wzcij 5 : /nix/store/v6h1p7ix7z6ny0k1lxhywfhbkv5pil7j-iperf-3.19.1/bin/iperf3 6 : /nix/store/.links/0smwkdqph1qm7abnz1v8wl29c4varw0c6505x62kjf5pm8gmdmdx 7 : /nix/store/.links/1zcf76s3wglg836rzq8iylsch73i2mxpwdp95ibiklwljlm0fjlw 15 : /nix/store/35zdlh430rvcz1j9jhpisvac0l6ldi43-source/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/133.0.6943.16/Helpers/Chromium Helper.app 28 : /nix/store/zyak8iqzh1ww83qa4sqwwz3qax0lrky7-python3-3.12.7/bin/python3.12 29 : /nix/store/65w3sp6ayrnr5zvl1wkdksg1zxi7r5c6-mosquitto-2.0.20/bin/mosquitto 70 : /nix/store/z08amhddp96p35xrgjwnafr2k4mbwfjv-inetutils-2.5/bin/ping 71 : /nix/store/8cvin5x16wciygasfjw1nvvq8c4awpgz-syncthing-1.27.9/bin/syncthing I was able to remove them all by running: /usr/libexec/ApplicationFirewall/socketfilterfw --listapps | awk '/\/nix\/store\/.links/ { print $NF }' | xargs -n1 /usr/libexec/ApplicationFirewall/socketfilterfw --remove After running this command, turning the firewall off and then on again is nearly instant, I don't see the high socketfilterfw CPU usage demonstrated in that video, and /nix/store/.links doesn't appear in the Open Files and Ports . In short, removing those /nix/store/.links paths from the firewall rules seems to have resolved the issue.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484180/why-is-macos-tahoe-firewall-suddenly-blocking-all-network-access
+
+---
+
+#### 1508. How can I ssh to macOS from an X Windows machine, and run a browser to display on X Windows, sort of like XTerm?
+
+**问题描述 / Problem Description**:
+Tags: macos, ssh, web-browser | Score: 0 | Views: 158 | Answers: 1 | Created: 2025-11-20
+
+**解决方案 / Solution**:
+To answer your clarified question, you need to install X11 on the Mac. It’s available from open-source repositories such as “MacPorts” and “Homebrew,” or as a standalone download called “XQuartz.” It should work the same as on Linux, but perhaps not as smoothly. Then you can install an X11-based file browser on the Mac and forward its UI to the Linux host. I don't have a specific recommendation, but for example, there is one called filebrowser (github.com) that is distributed as a MacPorts (macports.org) package. I haven't tested it.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484160/how-can-i-ssh-to-macos-from-an-x-windows-machine-and-run-a-browser-to-display-o
+
+---
+
+#### 1509. Whole system freezing / stuttering at regular intervals in macOS Tahoe 26.1
+
+**问题描述 / Problem Description**:
+Tags: macos, battery, performance, memory, tahoe | Score: 0 | Views: 459 | Answers: 2 | Created: 2025-11-19
+
+**解决方案 / Solution**:
+I have searched a lot for this issue, which in my case was already present randomly on Sequoia as well. Something I have tried which didn't work: Kill all spotlight process Restart/Shutdown the device Start and stop Spotlight In the end, I have resolved (or so it seems) by excluding the ~/Library/Caches folder from Spotlight Privacy configuration within the preferences panel. Magically, all the process 'corespotlightd like' which was taking 100% CPU disappeared.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484158/whole-system-freezing-stuttering-at-regular-intervals-in-macos-tahoe-26-1
+
+---
+
+#### 1510. Why http://linux/ gets redirect to linux.com in Safari
+
+**问题描述 / Problem Description**:
+Tags: macos, safari | Score: 0 | Views: 82 | Answers: 2 | Created: 2025-11-19
+
+**解决方案 / Solution**:
+The "address" bar is also a "search" bar. I suspect that Safari is trying to interpret which usage you intend and then getting it wrong! You started the question with "Today I was trying to google the header file linux/cleanup.h". I take that to mean you wanted to search the web for the phrase linux/cleanup.h . The sure way to force a web search (with your default search engine) is to enclose the linux/cleanup.h in quotation marks. So type "linux/cleanup.h" . Then you will go to the search engine results. When entering something in the address/search bar, keep an eye on the icon displayed there - is it a "globe" or is it a magnifying glass. Safari seems to switch to the globe if it is something which is at least partially in your history or is structurally like a URL. I was able to reproduce your redirect to www.linux.com , but only after I had visited that site.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484157/why-http-linux-gets-redirect-to-linux-com-in-safari
+
+---
+
+#### 1511. MacOS app for github projects
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, applications | Score: 0 | Views: 119 | Answers: 2 | Created: 2025-11-19
+
+**解决方案 / Solution**:
+Create a Safari web app for the GitHub project page: Starting with macOS Sonoma 14, you can use Safari to save any webpage as a web app, so that you can use it independently of Safari. Web apps offer a streamlined, app-like experience and easy access from the Dock. … In Safari, open the webpage that you want to use as a web app. From the menu bar, choose File > Add to Dock. Or click the Share buttonShare button in the Safari toolbar, then choose Add to Dock. Type the name that you want to use for the web app, then click Add. The web app is saved to the Applications folder of your home folder, and you can also open it from the Dock or Spotlight.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484152/macos-app-for-github-projects
+
+---
+
+#### 1512. Adjust the Vim color scheme in the terminal of macOS Tahoe 26.1
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line | Score: 0 | Views: 150 | Answers: 1 | Created: 2025-11-17
+
+**解决方案 / Solution**:
+If the vim versions are compatible (likely), then you should be able to get the effect you want by copying the .vimrc file from your home directory on a Linux host. You can also set the color scheme for a running session by entering the :colorscheme command followed by the name of the desired color scheme. The built-in schemes are in the directory /usr/share/vim/vim91/colors . You can't modify that directory, but you can add more schemes in ~/.vim/colors . To enable syntax highlighting, add the directive syntax on to the .vimrc file. See, for example, Color Schemes in Vim: How to Change and Use Them (linuxhandbook.com).
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484138/adjust-the-vim-color-scheme-in-the-terminal-of-macos-tahoe-26-1
+
+---
+
+#### 1513. Is it possible to force the Sketch function in Preview.app to draw straight lines (instead of smoothed freehand) by default?
+
+**问题描述 / Problem Description**:
+Tags: macos, preview | Score: 0 | Views: 147 | Answers: 2 | Created: 2025-11-17
+
+**解决方案 / Solution**:
+This picture is an example of a hand-made line with shift key down while dragging, that snaps to straight when I let up the mouse. See my comment to the OP (couldn't post an image in a comment.)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484137/is-it-possible-to-force-the-sketch-function-in-preview-app-to-draw-straight-line
+
+---
+
+#### 1514. Installed font not in some apps?
+
+**问题描述 / Problem Description**:
+Tags: macos, font | Score: 0 | Views: 55 | Answers: 1 | Created: 2025-11-15
+
+**解决方案 / Solution**:
+Thanks to comment by @agarza, I looked and found that it was in ~/Library/Fonts. I moved it to /Library/Fonts and it was then available in GraphicConverter. Apparently GraphicConverter does not check the user's font folder. Interestingly, the font name is "Cowboy Movie" but the font contains no lower case letters. Since font menus try to preview the font, the name in the menu is C M
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484125/installed-font-not-in-some-apps
+
+---
+
+#### 1515. How do I get through the setup procedure on an M4 Mac mini so that I can get my Bluetooth mouse to work?
+
+**问题描述 / Problem Description**:
+Tags: macos, bluetooth, mouse, setup, setup-assistant | Score: 0 | Views: 450 | Answers: 2 | Created: 2025-11-07
+
+**解决方案 / Solution**:
+Apple supports Bluetooth pairing as part of the setup assistant that runs out of the box. https://support.apple.com/guide/mac-mini/set-up-your-mac-apd831707cb3/mac Apple includes information about third party devices - if they are in pairing mode, you should be able to follow the manufacturer pairing steps. I believe some devices need a pairing code of 0000 if you don’t know what the manufacturer implemented. https://support.apple.com/en-us/108797 I’m not aware of any sort of MDM or other way to get around having a functioning pointing device (trackpad or mouse) and keyboard to complete the setup. There is also a pairing method in macOS recovery, but you would need a keyboard I think to enter recovery but you could try the power button method documented here .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484056/how-do-i-get-through-the-setup-procedure-on-an-m4-mac-mini-so-that-i-can-get-my
+
+---
+
+#### 1516. Apple Messages hangs after MacOS update
+
+**问题描述 / Problem Description**:
+Tags: macos, messages | Score: 0 | Views: 182 | Answers: 1 | Created: 2025-11-05
+
+**解决方案 / Solution**:
+The OP reports success by launching Messages with the shift key held down, in order to prevent the saved window state from loading. This action works for all applications that save their window state on quitting, which is almost all of them.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/484033/apple-messages-hangs-after-macos-update
+
+---
+
+#### 1517. How to disable clear-screen escape codes in Terminal?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal | Score: 0 | Views: 157 | Answers: 2 | Created: 2025-10-27
+
+**解决方案 / Solution**:
+You could set TERM to an unknown value, e.g. export TERM=xyzzy . This will not disable the escape codes (so your printf would still clear the screen), but it would prevent well-written programs from looking up the proper escape code to clear the screen ( clear doesn't clear the screen any longer for instance). But these escape codes are part of the emulation a Terminal application provides (it basically emulates a hardware terminal like the VT 220 ). Part of the emulation consists of escape codes which give any binary running in a terminal full control over the terminal screen. These codes are also used by other binaries (any editor, less , top and probably more), so removing or disabling them will have quite a few side effects. PS: Maybe you can work around the problem by running the troublesome command in a different Terminal tab/window.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/482942/how-to-disable-clear-screen-escape-codes-in-terminal
+
+---
+
+#### 1518. How to forget connected monitors?
+
+**问题描述 / Problem Description**:
+Tags: macos, display, hdmi | Score: 0 | Views: 107 | Answers: 1 | Created: 2025-10-22
+
+**解决方案 / Solution**:
+Try deleting this file: ~/Library/Preferences/ByHost/com.apple.windowserver.*.plist You may need to log out to make the change effective.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481913/how-to-forget-connected-monitors
+
+---
+
+#### 1519. What is wrong with the Clock app (on Sequoia first, even worse now on Tahoe)?
+
+**问题描述 / Problem Description**:
+Tags: macos, bug, clock, tahoe | Score: 0 | Views: 369 | Answers: 1 | Created: 2025-10-20
+
+**解决方案 / Solution**:
+I would like to post here an update, after almost one month of intense testing, troubleshooting, calls with Apple Support and incredible help from generous users. Introduction: every app that runs on the Mac has at least one .plist file (property list) in the user library ( ~Library/Preferences ). The Clock app has several and one of them was the culprit: ~/Library/Preferences/com.apple.mobiletimerd.plist It seems that this plist, due to an obscure bug in the app, was not performing its regular housekeeping. Over the almost 2 years of life of this M3 Max MacBook Pro, that plist grew from 1 KB in size and ~300 lines of code to 6.8 MB and 900.000 lines! This caused the timer process to crash because it was running out of memory (!). All this was proven by a careful analysis of the log extracted with the LogUI app. I have now set a Reminder to check back with this plist in 4 months to see where it is. The good thing is that my user account is in robust health, despite what all advisors wanted me to believe (according to them, I had to Erase the Mac and start fresh). Moving this plist to the desktop made macOS recreate it and the Clock app is now working perfectly! We will see how much it lasts!
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481902/what-is-wrong-with-the-clock-app-on-sequoia-first-even-worse-now-on-tahoe
+
+---
+
+#### 1520. Use macOS to do currency conversion in Python
+
+**问题描述 / Problem Description**:
+Tags: macos, spotlight, python | Score: 0 | Views: 190 | Answers: 3 | Created: 2025-10-15
+
+**解决方案 / Solution**:
+Apple does not provide a macOS Application Programming Interface (API) for currency conversion. Apple's Spotlight implementation is private.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481854/use-macos-to-do-currency-conversion-in-python
+
+---
+
+#### 1521. How to restore a deleted alarm which had some important text on iOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, ios, icloud, backup | Score: 0 | Views: 273 | Answers: 1 | Created: 2025-10-14
+
+**解决方案 / Solution**:
+If you’re referring to a Calendar item, and you sync the Calendar with iCloud, then you should be able to recover it on the iCloud website (support.apple.com). Otherwise, if the third-party tool you’re using isn’t working out, you could try one called “iMazing.” I’ve never used it myself, and I’m not sure it can do what you want, but many people seem to like it. Failing all that, your only option is indeed to back up the phone, then restore from a previous backup and extract the information you need, and finally restore again from the latest backup. Just make sure, when backing up, that you don’t overwrite the older backup you need. To be sure, back up locally (support.apple.com) in the Finder instead of iCloud. You’ll have to connect the phone with a cable.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481849/how-to-restore-a-deleted-alarm-which-had-some-important-text-on-ios
+
+---
+
+#### 1522. how to prevent image from expanding outside display
+
+**问题描述 / Problem Description**:
+Tags: macos, display | Score: 0 | Views: 98 | Answers: 1 | Created: 2025-10-12
+
+**解决方案 / Solution**:
+I don’t know of a way to stop this from happening, but there is a way to recover from it pretty easily. In my experience, it only happens when switching a MacBook from using an external display in clamshell mode to the built-in display alone, when the latter has a lower resolution than the former. Even then, it doesn’t always happen. Open the Displays panel in System Settings. You can get to it via Spotlight by pressing command space and then starting to type the name of the panel in the search box. In the Displays settings, the “Default” resolution will probably be selected. Select any other option, then select “Default” again. The display should go back to normal.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481829/how-to-prevent-image-from-expanding-outside-display
+
+---
+
+#### 1523. Why does my 2013 MacBook Air used as server keeps disconnecting from the network and my Time Machine backups keep failing?
+
+**问题描述 / Problem Description**:
+Tags: macos, network, time-machine, sleep-wake | Score: 0 | Views: 104 | Answers: 1 | Created: 2025-10-09
+
+**解决方案 / Solution**:
+I have fixed my issue! It turns out it was a Big Sur problem. I used OCLP and installed Ventura and all my issues were solved. It's been working flawlessly for 10 days or so. Thought it may help someone else!
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481802/why-does-my-2013-macbook-air-used-as-server-keeps-disconnecting-from-the-network
+
+---
+
+#### 1524. MacBook 2015 12 Retina has graphic glitches in anything but 10.10 and 10.11
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, hardware, unix, graphics | Score: 0 | Views: 60 | Answers: 1 | Created: 2025-09-27
+
+**解决方案 / Solution**:
+Turned out my assumption of it being rockstable under 10.11 was wrong. Apparently I bought a broken machine even though the Apple Hardware test was happy.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481660/macbook-2015-12-retina-has-graphic-glitches-in-anything-but-10-10-and-10-11
+
+---
+
+#### 1525. How do I remove inaccessible Synced Folder on iPad Readdle Documents?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, ipad, applications, data-synchronization | Score: 0 | Views: 203 | Answers: 2 | Created: 2025-09-24
+
+**解决方案 / Solution**:
+You say you're using iPadOS, but I assume you mean macOS, since you're asking about a MacBook. The Documents app should have prompted you for permission to access "Files and Folders." Open the Privacy & Security panel in System Settings and select Files & Folders from the list of permissions. If Documents appears in the list of permitted apps, ensure that the the switch is in the right-hand position. Otherwise, add Documents to the permitted list for Full Disk Access in the same settings panel. Then quit and relaunch the app.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481642/how-do-i-remove-inaccessible-synced-folder-on-ipad-readdle-documents
+
+---
+
+#### 1526. MacBook Pro 2020 4TB stuck in internet recovery after macOS update failure
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, internet-recovery | Score: 0 | Views: 194 | Answers: 1 | Created: 2025-08-25
+
+**解决方案 / Solution**:
+Internet Recovery will not work on 2020 13" MacBook Pro 4TB (and probably other Macs) unless the battery is connected.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481295/macbook-pro-2020-4tb-stuck-in-internet-recovery-after-macos-update-failure
+
+---
+
+#### 1527. Why does my M1 MacBook Pro's screen flicker to black occasionally after system wiping?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, screen, sonoma | Score: 0 | Views: 126 | Answers: 1 | Created: 2025-08-23
+
+**解决方案 / Solution**:
+I found this was because the Lid Angle Sensor (LAS) that detects if the laptop lid is open or closed was faulty. Apple were able to replace it for around $100USD.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481282/why-does-my-m1-macbook-pros-screen-flicker-to-black-occasionally-after-system-w
+
+---
+
+#### 1528. How to get files off a geriatric MacBook (circa 2015)?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, performance, file-transfer | Score: 0 | Views: 126 | Answers: 1 | Created: 2025-08-10
+
+**解决方案 / Solution**:
+If you hare equipped with: another (functioning) mac of a newer or similar generation a USB C to USB C cable , then you should be able to access your friend's macbook's hard drive and all its files directly thanks to a long standing feature of macOS's: " Target Disk Mode " To enable target disk mode: Shutdown your friend's macbook Connect both macs using your USB C cable (firewire and thunderbolt interfaces work too if you have older macs) Restart your friend macbook holding the "T" key until startup is finished. Her macbook's screen should show a hard drive icon (If I remember correctly the HD icon shows type of connection: a "trident" for USB, etc.) Your friends' macbook HD should now be mounted on your own mac Desktop giving you full access to all her files Caveat if she had enabled full HD encryption (" FileVault " in Applespeak) then Target Disk Mode may be disabled... in such a case I would suggest to try access her filesystem via ssh using the Terminal app on your macbook (if " remote access " is " on " of course on her macbook) and do any file cleaning directly from the command line: e.g. "rm -Rf ~/Library/Caches/" This is a relatively more complex procedure and hopefully it will not need detailing here. Let's hope " Target Disk Mode " works!
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481123/how-to-get-files-off-a-geriatric-macbook-circa-2015
+
+---
+
+#### 1529. For one PDF file, command-F opens an unusual "Find" window
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, pdf, preview | Score: 0 | Views: 86 | Answers: 1 | Created: 2025-08-07
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481079/for-one-pdf-file-command-f-opens-an-unusual-find-window
+
+---
+
+#### 1530. MacBook Pro black display after water damage
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, hardware, screen, damage | Score: 0 | Views: 205 | Answers: 1 | Created: 2025-07-26
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480912/macbook-pro-black-display-after-water-damage
+
+---
+
+#### 1531. Running Disk Utility app’s First Aid feature fails on SDXC card: "lacks the proper privileges"
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, external-disk | Score: 0 | Views: 189 | Answers: 1 | Created: 2025-07-24
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480892/running-disk-utility-app-s-first-aid-feature-fails-on-sdxc-card-lacks-the-prop
+
+---
+
+#### 1532. Option key repeats next key in some apps after OS update
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, terminal, keyboard | Score: 0 | Views: 139 | Answers: 1 | Created: 2025-07-23
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480852/option-key-repeats-next-key-in-some-apps-after-os-update
+
+---
+
+#### 1533. How to restore my programs from my User Applications folder on Macbook Pro?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, applications, time-machine | Score: 0 | Views: 91 | Answers: 1 | Created: 2025-07-22
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480842/how-to-restore-my-programs-from-my-user-applications-folder-on-macbook-pro
+
+---
+
+#### 1534. What kind of product should I use to clean a MacBookPro M4 with anti-glare screen?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, screen, maintenance | Score: 0 | Views: 270 | Answers: 1 | Created: 2025-07-14
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480718/what-kind-of-product-should-i-use-to-clean-a-macbookpro-m4-with-anti-glare-scree
+
+---
+
+#### 1535. Non-metal GarageBand crashing on a Mac Sequoia (How to solve the issue!)
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, crash, garageband, code-signing | Score: 0 | Views: 288 | Answers: 1 | Created: 2025-06-27
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480542/non-metal-garageband-crashing-on-a-mac-sequoia-how-to-solve-the-issue
+
+---
+
+#### 1536. MacBook Pro M1 not charging, showing implausible Instant Amperage
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, battery, charging | Score: 0 | Views: 222 | Answers: 1 | Created: 2025-06-24
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480491/macbook-pro-m1-not-charging-showing-implausible-instant-amperage
+
+---
+
+#### 1537. People can't hear me on FaceTime for Mac
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, audio, facetime | Score: 0 | Views: 726 | Answers: 1 | Created: 2025-06-15
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480384/people-cant-hear-me-on-facetime-for-mac
+
+---
+
+#### 1538. Kernel task using unmeasured amounts of CPU (Not connected to power)
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, performance, kernel | Score: 0 | Views: 110 | Answers: 1 | Created: 2025-05-18
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480030/kernel-task-using-unmeasured-amounts-of-cpu-not-connected-to-power
+
+---
+
+#### 1539. Can't connect two displays to MacBook with M4 pro
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro | Score: 0 | Views: 1582 | Answers: 2 | Created: 2025-05-11
+
+**解决方案 / Solution**:
+2 Answers
+2
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/479936/cant-connect-two-displays-to-macbook-with-m4-pro
+
+---
+
+#### 1540. Why does my MacBook Pro 2012 not turn on but the battery indicator is on and fades out abnormally?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, battery | Score: 0 | Views: 71 | Answers: 1 | Created: 2025-05-05
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/479860/why-does-my-macbook-pro-2012-not-turn-on-but-the-battery-indicator-is-on-and-fad
+
+---
+
+#### 1541. Dell 1320c laser printer with an Apple Mac M2 mini running mac OS Sequoia 15.6.1
+
+**问题描述 / Problem Description**:
+Tags: macos, printing | Score: -1 | Views: 97 | Answers: 1 | Created: 2025-10-18
+
+**解决方案 / Solution**:
+Use Dell 1320C Laser Printer Catalina Fix (2019) to get printer working on Apple Mac M2 mini running macOS Sequoia 15.6.1 (2025) There is a Dell Community thread about this: Dell 1320C Laser Printer 64-bit driver for MacOS Catalina 10.15 .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481880/dell-1320c-laser-printer-with-an-apple-mac-m2-mini-running-mac-os-sequoia-15-6-1
+
+---
+
+#### 1542. How can I get a warning notification BEFORE my AirTag or other Find My tracker runs out of battery?
+
+**问题描述 / Problem Description**:
+Tags: iphone, macbook-pro, find-my, airtag | Score: -1 | Views: 344 | Answers: 1 | Created: 2025-10-01
+
+**解决方案 / Solution**:
+This works out of the box for me with notifications on iOS, macOS, and iPadOS. I only use AirTags and not “other” trackers. With AirTags, you should get a warning for weeks (like a month and a half in my experience) before the AirTag drops offline due to insufficient voltage in the battery. Be sure you are checking the life from the iPhone, notifications enabled. On the Mac, ensure notifications are on as well for Find My. Unless your AirTags are in an unusual setting where they are playing sounds many times a day and being constantly identified and checked on by multiple phones, get better batteries. If that fails, seek hardware support from Apple, as the AirTag itself might be failing. Also, you could switch to AA batteries, which have more than 10x the power that a coin battery is capable of providing. (See 10-Year Battery ) https://www.elevationlab.com/products/timecapsule Apple support can help validate the notifications settings on each of your OS they support if this isn’t sufficient details, or you just can’t re-enable all notifications to test.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481724/how-can-i-get-a-warning-notification-before-my-airtag-or-other-find-my-tracker-r
+
+---
+
+#### 1543. Can my MacBook Pro from 2011 burn to DVD’s?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, dvd-burning | Score: -2 | Views: 80 | Answers: 1 | Created: 2025-06-12
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480335/can-my-macbook-pro-from-2011-burn-to-dvd-s
+
+---
+
+#### 1544. What is this unwanted new feature in macOS 15.7.5 and how can I disable it?
+
+**问题描述 / Problem Description**:
+Tags: macos, system-settings, ui | Score: -3 | Views: 111 | Answers: 1 | Created: 2026-04-10
+
+**解决方案 / Solution**:
+Stage Manager is not a new feature. You have turned it on, where it was not on before. In System Settings, go to Desktop and Dock, and turn it off.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486208/what-is-this-unwanted-new-feature-in-macos-15-7-5-and-how-can-i-disable-it
 
 ---

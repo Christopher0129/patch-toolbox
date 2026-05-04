@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 955**
+**总计条目 / Total entries: 959**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -17248,5 +17248,69 @@ Apply patch from vendor. Monitor http://hmarco.org/bugs/CVE-2016-4484/CVE-2016-4
 - http://www.openwall.com/lists/oss-security/2016/11/15/1
 - http://www.openwall.com/lists/oss-security/2016/11/15/4
 - http://www.openwall.com/lists/oss-security/2016/11/16/6
+
+---
+
+#### 956. [SUSE] SUSE-SU-2026:21465-1: important: Security update for the Linux Kernel
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: SUSE Linux Enterprise
+
+**漏洞描述 / Description**:
+# Security update for the Linux Kernel Announcement ID: SUSE-SU-2026:21465-1 Release Date: 2026-05-01T23:16:53Z Rating: important References: * bsc#1262573 Cross-References: * CVE-2026-31431 CVSS scores: * CVE-2026-31431 ( SUSE ): 7.8 CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H * CVE-2026-31431 ( NVD ): 7.8 CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H Affected Products: * SUSE Linux Micro 6.1 * S
+
+**补丁信息 / Patch Info**:
+Apply SUSE security patch via zypper or YaST Online Update.
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-May.txt
+
+---
+
+#### 957. [SUSE] SUSE-SU-2026:21464-1: moderate: Security update for vim
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: SUSE Linux Enterprise
+
+**漏洞描述 / Description**:
+# Security update for vim Announcement ID: SUSE-SU-2026:21464-1 Release Date: 2026-04-29T11:29:57Z Rating: moderate References: * bsc#1261833 Cross-References: * CVE-2026-39881 CVSS scores: * CVE-2026-39881 ( SUSE ): 5.3 CVSS:4.0/AV:L/AC:H/AT:N/PR:L/UI:A/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N * CVE-2026-39881 ( SUSE ): 6.0 CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:N * CVE-2026-39881 ( NVD ): 5.0 CVSS:3.1/
+
+**补丁信息 / Patch Info**:
+Apply SUSE security patch via zypper or YaST Online Update.
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-May.txt
+
+---
+
+#### 958. [SUSE] SUSE-SU-2026:21461-1: moderate: Security update for helm
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: SUSE Linux Enterprise
+
+**漏洞描述 / Description**:
+# Security update for helm Announcement ID: SUSE-SU-2026:21461-1 Release Date: 2026-04-30T13:26:15Z Rating: moderate References: * bsc#1248093 * bsc#1261938 Cross-References: * CVE-2025-55199 * CVE-2026-35206 CVSS scores: * CVE-2025-55199 ( SUSE ): 6.9 CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N * CVE-2025-55199 ( SUSE ): 6.5 CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H * CVE-2
+
+**补丁信息 / Patch Info**:
+Apply SUSE security patch via zypper or YaST Online Update.
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-May.txt
+
+---
+
+#### 959. [SUSE] SUSE-SU-2026:21455-1: moderate: Security update for openCryptoki
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: SUSE Linux Enterprise
+
+**漏洞描述 / Description**:
+# Security update for openCryptoki Announcement ID: SUSE-SU-2026:21455-1 Release Date: 2026-04-27T12:00:49Z Rating: moderate References: * bsc#1248002 * bsc#1257116 * bsc#1262283 Cross-References: * CVE-2026-23893 * CVE-2026-40253 CVSS scores: * CVE-2026-23893 ( SUSE ): 6.8 CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:L * CVE-2026-23893 ( NVD ): 6.8 CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:L * CVE
+
+**补丁信息 / Patch Info**:
+Apply SUSE security patch via zypper or YaST Online Update.
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-May.txt
 
 ---
