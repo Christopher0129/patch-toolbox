@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1261**
+**总计条目 / Total entries: 1264**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -20727,5 +20727,41 @@ CWP (aka Control Web Panel or CentOS Web Panel) before 0.9.8.1205 allows unauthe
 
 **参考链接 / References**:
 - https://lists.suse.com/pipermail/sle-security-updates/2026-May.txt
+
+---
+
+#### 1262. [Ubuntu] USN-8229-1: sed vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Michał Majchrowicz and Marcin Wyczechowski discovered that sed incorrectly handled symbolic links when performing in-place edits. A local attacker could possibly use this issue to overwrite arbitrary files.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8229-1
+
+---
+
+#### 1263. [Ubuntu] USN-8228-1: Exim vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Exim incorrectly handled parsing malformed JSON in message headers. A remote attacker could possibly use this issue to execute arbitrary code. (CVE-2026-40685) It was discovered that Exim incorrectly handled processing of UTF-8 trailing characters. A remote attacker could possibly use this issue to obtain sensitive information. (CVE-2026-40686) It was discovered that Exim in
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8228-1
+
+---
+
+#### 1264. [Ubuntu] USN-8227-1: curl vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that curl incorrectly reused non-TLS connections when TLS was required in some STARTTLS configurations. A remote attacker could possibly use this issue to obtain sensitive information. (CVE-2026-4873) It was discovered that curl incorrectly reused certain HTTP Negotiate connections. A remote attacker could possibly use this issue to obtain sensitive information. (CVE-2026-5545) I
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8227-1
 
 ---

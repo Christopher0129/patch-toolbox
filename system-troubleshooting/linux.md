@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1937**
+**总计条目 / Total entries: 2005**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -32962,5 +32962,889 @@ In pretty much all versions of Bash (including 3.2), you can use the ${!var} for
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/790538/bash-macos-getting-a-variable-by-its-name-inside-of-a-function
+
+---
+
+#### 1938. How to modernize sources.list to the deb822 style in the older debian releases?
+
+**问题描述 / Problem Description**:
+Tags: debian, apt, repository | Score: 1 | Views: 9 | Answers: 1 | Created: 2026-05-04
+
+**解决方案 / Solution**:
+Debian doesn’t provide such a tool before apt modernize-sources , but there is a third-party tool, apt-deb822-tool , which can convert back and forth. To convert all .list files under /etc/apt/sources.list.d to Deb822-style, run apt-deb822-tool to-deb822 -W /etc/apt/sources.list.d The old format is effectively deprecated, but existing releases won’t lose support for it so there is no particular rush there.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805796/how-to-modernize-sources-list-to-the-deb822-style-in-the-older-debian-releases
+
+---
+
+#### 1939. Pluton - Open source backup solution with End-to-End encryption with replication & Nice UI
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t3gf6i/pluton_open_source_backup_solution_with_endtoend/
+
+---
+
+#### 1940. Linux File-System Proliferation A Burden: Requirements Laid Out For Any Future File-Systems
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t3l7u6/linux_filesystem_proliferation_a_burden/
+
+---
+
+#### 1941. New puzzle game just dropped on Linux!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t3k25b/new_puzzle_game_just_dropped_on_linux/
+
+---
+
+#### 1942. obs-kmscap - fast, super low overhead, display server agnostic, zero copy GPU screen capture for OBS
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t3l0hq/obskmscap_fast_super_low_overhead_display_server/
+
+---
+
+#### 1943. [Df] ps5 vs ps5 running linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t3ltdb/df_ps5_vs_ps5_running_linux/
+
+---
+
+#### 1944. Chemnitzer Linux Tage
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t3lp13/chemnitzer_linux_tage/
+
+---
+
+#### 1945. wflow 1.0: keyboard-trigger automation for Wayland (Plasma 6, GNOME 46+, Hyprland, Sway)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t3kdd0/wflow_10_keyboardtrigger_automation_for_wayland/
+
+---
+
+#### 1946. Network Performance Regression on Kernel 6.19.13
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t3k790/network_performance_regression_on_kernel_61913/
+
+---
+
+#### 1947. Conference schedule for the Linux App Summit (LAS) 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t3ehxs/conference_schedule_for_the_linux_app_summit_las/
+
+---
+
+#### 1948. Cron job only running if I set it to every minute.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3g8zr/cron_job_only_running_if_i_set_it_to_every_minute/
+
+---
+
+#### 1949. Should I switch to Linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3i324/should_i_switch_to_linux/
+
+---
+
+#### 1950. migrating from windows to linux in microsoft surface go 1 without keyboard
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3dmkl/migrating_from_windows_to_linux_in_microsoft/
+
+---
+
+#### 1951. Port Windows batch scripts to linux, which code language should I choose?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3g901/port_windows_batch_scripts_to_linux_which_code/
+
+---
+
+#### 1952. Need help daily driving Linux (cachyos)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3lgsb/need_help_daily_driving_linux_cachyos/
+
+---
+
+#### 1953. Key Capture Issue on 1 Machine on 1 Specific Desktop
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3kxba/key_capture_issue_on_1_machine_on_1_specific/
+
+---
+
+#### 1954. Ricoh SP111 DDST printer on Linux (any workaround?)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3kwzp/ricoh_sp111_ddst_printer_on_linux_any_workaround/
+
+---
+
+#### 1955. ThinkPad T490: Touchpad jittery and unresponsive without external HDMI monitor connected
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3ku4v/thinkpad_t490_touchpad_jittery_and_unresponsive/
+
+---
+
+#### 1956. mic error in Ubuntu (Lenovo legion)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3kp5x/mic_error_in_ubuntu_lenovo_legion/
+
+---
+
+#### 1957. TigerVNC offline install advice
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3k9be/tigervnc_offline_install_advice/
+
+---
+
+#### 1958. Please help me install the Hannah Montana theme
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3k2lr/please_help_me_install_the_hannah_montana_theme/
+
+---
+
+#### 1959. I seem to have completely destroyed my install
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3jfrq/i_seem_to_have_completely_destroyed_my_install/
+
+---
+
+#### 1960. Issues installing Linux mint 22.3 (cinnamon) ?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3ixf3/issues_installing_linux_mint_223_cinnamon/
+
+---
+
+#### 1961. Asus soundwave drivers on linux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3hulg/asus_soundwave_drivers_on_linux/
+
+---
+
+#### 1962. Nobara: boot problem
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3h7tk/nobara_boot_problem/
+
+---
+
+#### 1963. Wi-Fi Speed Drop off
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3ernm/wifi_speed_drop_off/
+
+---
+
+#### 1964. How do I resolve my boot issue?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3epre/how_do_i_resolve_my_boot_issue/
+
+---
+
+#### 1965. Programa De Edición De Video Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3e5kr/programa_de_edición_de_video_linux/
+
+---
+
+#### 1966. Linux gaming on CachyOS: which Proton versions should I use for these games?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t3dbra/linux_gaming_on_cachyos_which_proton_versions/
+
+---
+
+#### 1967. Why is it whenever I want to update Ubuntu, their systems are always down /s
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3k3wc/why_is_it_whenever_i_want_to_update_ubuntu_their/
+
+---
+
+#### 1968. Unreliability of repos recently
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3hstb/unreliability_of_repos_recently/
+
+---
+
+#### 1969. Official feedback regarding recent outage?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3l16m/official_feedback_regarding_recent_outage/
+
+---
+
+#### 1970. Problem. Help pls
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3kvz1/problem_help_pls/
+
+---
+
+#### 1971. installing ubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3luiq/installing_ubuntu/
+
+---
+
+#### 1972. Ha senso passare a Ubuntu dopo più di 5 anni di windows 11?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3lsgi/ha_senso_passare_a_ubuntu_dopo_più_di_5_anni_di/
+
+---
+
+#### 1973. Does anyone know why only some picture thumbnails are displaying in Nautilus while others are not?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3lb51/does_anyone_know_why_only_some_picture_thumbnails/
+
+---
+
+#### 1974. Why is it the old logo?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3kjz9/why_is_it_the_old_logo/
+
+---
+
+#### 1975. some quick questions to help out a linux newbie
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3jofw/some_quick_questions_to_help_out_a_linux_newbie/
+
+---
+
+#### 1976. help with uninstalling software
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3ilvf/help_with_uninstalling_software/
+
+---
+
+#### 1977. help with uninstalling software
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3ilah/help_with_uninstalling_software/
+
+---
+
+#### 1978. Update: I added some new features and apps to my self-hosting guide site
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3ihja/update_i_added_some_new_features_and_apps_to_my/
+
+---
+
+#### 1979. Configuring Logitech MX Master 2S with Wayland
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t3eetf/configuring_logitech_mx_master_2s_with_wayland/
+
+---
+
+#### 1980. In anticipation of Windows 11 forced update, I wish to switch from W10 to a linux distro, which should I take? And how to do it?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t3fy4o/in_anticipation_of_windows_11_forced_update_i/
+
+---
+
+#### 1981. I want to switch to linux and the planned os is Fedora
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t3gnuy/i_want_to_switch_to_linux_and_the_planned_os_is/
+
+---
+
+#### 1982. Need help daily driving Linux (cachyos)
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t3lbod/need_help_daily_driving_linux_cachyos/
+
+---
+
+#### 1983. Key Capture Issue on 1 System on 1 Specific Desktop
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t3kzxm/key_capture_issue_on_1_system_on_1_specific/
+
+---
+
+#### 1984. Archlinux Node conflicts
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t3j4g3/archlinux_node_conflicts/
+
+---
+
+#### 1985. Another post about gaming
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t3gmuv/another_post_about_gaming/
+
+---
+
+#### 1986. Questions, is nix good for beginner with 0 experience? i am installing it in external hard disk
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t3gih5/questions_is_nix_good_for_beginner_with_0/
+
+---
+
+#### 1987. zypper dup / snapper problems
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t3fzap/zypper_dup_snapper_problems/
+
+---
+
+#### 1988. Boot Chime from Mac possible on Linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t3jtwf/boot_chime_from_mac_possible_on_linux/
+
+---
+
+#### 1989. Settings -> Online Acc. "Google" does not contain "Files"
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t3dw75/settings_online_acc_google_does_not_contain_files/
+
+---
+
+#### 1990. Files created/edited on Linux keep disappearing, how can I prevent this from happening and restore files that have disappeared?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t3dvmm/files_creatededited_on_linux_keep_disappearing/
+
+---
+
+#### 1991. I cannot boot back into Linux no matter what.
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t3elrj/i_cannot_boot_back_into_linux_no_matter_what/
+
+---
+
+#### 1992. git-workspace: local environments with zero friction
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t3k4vx/gitworkspace_local_environments_with_zero_friction/
+
+---
+
+#### 1993. [V2EX] ubuntu 24.04 今天点击更新后，蓝牙鼠标不能用了。
+
+**问题描述 / Problem Description**:
+如题，更新完右上角的蓝牙图标和其他图标不断闪烁，蓝牙模式不能用，2.4G 可以，这是啥问题，是自动更新内核导致蓝牙驱动崩溃了吗，这时候 V2EX 怎么能发图片呢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210138#reply10
+
+---
+
+#### 1994. [V2EX] 使用 auto-cpufreq 平衡 Linux 性能功耗
+
+**问题描述 / Problem Description**:
+在 Fedora Linux 下，调整系统使用 auto-cpufreq 速度和功耗优化器。 搭载 Intel Core Ultra 7 255H 处理器的设备，离电状态进行日常网页浏览、写作和听音乐等轻度任务时的功耗表现，基本维持在 10W 左右。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1206814#reply5
+
+---
+
+#### 1995. [V2EX] SiteCheck 是一个灵感来源于 https://ipcheck.ing 的 MacOS 桌面端软件
+
+**问题描述 / Problem Description**:
+SiteCheck 是一个灵感来源于 https://ipcheck.ing 的 MacOS 桌面端软件 官网是 sitecheck.top ，我一直是 ipcheck.ing 的忠实用户，平时只要切换代理、排查线路或者看 DNS 出口，第一反应就是先打开它看一眼。也正因为用得足够久，我才慢慢有了自己做一个同类小工具的想法。SiteCheck 就是在这个基础上做出来的，一个更轻一点、专门常驻 macOS menubar 的本地 app ，把我最常用的几件事单独拎出来：看连通性、看 DNS 测试、顺手看一下当前公网 IP 。不是想替代 ipcheck.ing ，而是想把我自己每天真会反复点开的那
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210227#reply4
+
+---
+
+#### 1996. [V2EX] gpt 网页端和 codex 不同账号的内容可以合并吗？
+
+**问题描述 / Problem Description**:
+之前的主号付款遇到了一些问题。想开一个 ios 或者安卓的新号付款。 1 想请教下是否有工具可以实现网页端聊天记录的迁移？看网上的意思好像只能整个导出记忆？并不能迁移对话？ 2 另外 codex 的对话好像是在本地？如果是切了账号之后，可以直接读取之前的会话吗？还是需要其他操作？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210225#reply4
+
+---
+
+#### 1997. [V2EX] 当我 VIbeing 的时候遇到了一些问题
+
+**问题描述 / Problem Description**:
+我以前很享受写代码带来的心流状态。当我尝试使用 Vibe 的时候，我遇到了 AI 几乎把原来我心流夺走的情况。原来调试 bug 让我烦躁，现在也是一样的。 我现在无法享受 VIBE 带来的快感，一直都停在调试 bug 的烦躁状态。当我想要去修改功能的时候，ai 在操作，我就会不受控制的去分神，去做一些其他的事情（刷网页）然后再回来点击 ok ，然后再去分神，再去回来。一直在这种状态切换中。 我想问一下大家都是怎么做的，如何使用 vibe 编程提高效率的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210222#reply2
+
+---
+
+#### 1998. [V2EX] 专注非标制造业 AI Agent 开发，寻找技术合伙人，已有行业资源和种子客户方向
+
+**问题描述 / Problem Description**:
+背景 我们在做非标工业齿轮箱这个细分行业，这类企业几乎都是单件定制生产，每台产品都不一样，生产管理靠微信群+Excel ，订单进度全靠老板脑子记。 传统 MES 工具对这类企业完全不适用——配置成本太高、逻辑不匹配。但这个问题用 AI Agent 可以用很轻的方式解决：工人自然语言更新进度，系统自动追踪交期风险、采购瓶颈，老板看一张看板就够了。 我能带来什么 · 对非标制造业有较深的行业理解，能准确定义产品场景 · 正在推进种子客户访谈，已有初步目标客户池 · 负责产品定义、客户开发、商务拓展 · 愿意以股权换技术，认真对待，不是来白嫖的 需要什么样的技术伙伴 · 有 Python 或全栈开发
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210188#reply7
+
+---
+
+#### 1999. [V2EX] Agent 开发实际在做什么？
+
+**问题描述 / Problem Description**:
+貌似 Agent 开发比较火。 我理解 Agent 开发就是围绕大模型（作为智能引擎），弥补大模型的不足（上下文限制，稳定性，不懂行业知识）。 感觉还是有点抽象，希望业内人士介绍一下。 在打造 AI 产品？ 在流程上引入 AI 为公司降本增效？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210142#reply6
+
+---
+
+#### 2000. [V2EX] 逆向了老牌音频可视化 Specterr 的前端，用 Next.js 重写实现了 100%还原+渲染后端并开源
+
+**问题描述 / Problem Description**:
+最近一直在用 Specterr 给音乐做可视化视频，但它要订阅收费，而且功能其实挺简单的——无非就是 waveform / spectrum 跑在一段背景视频上，加个 logo 导出。 后面发现他的代码没有关闭 source map 于是干脆逆向了它的前端源码，摸清楚数据结构和渲染逻辑之后，用 Next.js 从头重写了前端，然后自己实现了渲染后端。 项目叫 Spectral ，现在开源了： https://github.com/charmlinn/spectral 技术栈： 前端：Next.js 16 + React 19 + PixiJS （实时预览） 渲染后端：Node.js + Hea
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210139#reply2
+
+---
+
+#### 2001. [V2EX] 都说 Anthropic 不做人，现在国产模型厂也不做人
+
+**问题描述 / Problem Description**:
+潜水老玩意冒出来…首帖没想到竟是吐槽 事情是这样的… 某 G 开头的模型厂的 coding plan, 4/22 号改了用户协议，4/30 号老 plan 下架。 我今天 （ 5/3 ）登陆控制台才看到弹窗。 老 plan 每 5 小时 600 次调用，没有 weekly cap ，新 plan 每五小时 400 次，weekly cap 2000. 说是送两个月“同等级”套餐，首先上面的五小时调用就不是“同等级”了。另外我前面猛猛写的时候一天写 12 小时…老套餐理论 cap 是每周 19800 次，就算我按 10 小时的 cap 算，就算一周写 6 天，那是 600 * 2 * 6 = 7
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210113#reply48
+
+---
+
+#### 2002. [V2EX] 嘚瑟一下，有一个 gmail 账号可以改用户名了
+
+**问题描述 / Problem Description**:
+之前试了一个账号，更新成功了，又尝试了另一个账号，依然可以，但我就是不修改，气不气人！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210089#reply30
+
+---
+
+#### 2003. [V2EX] 目前可托管到 Cloudflare 公开注册的免费二级域名， Stackryze， DigitalPlat， DNSHE
+
+**问题描述 / Problem Description**:
+一、Stackryze 网站： domain.stackryze.com 后缀：.indevs.in 注册方式：GitHub （一个免费账户仅一个免费域名） 有效期：1 年，可续 二、DigitalPlat 网站： domain.digitalplat.org 后缀：.dpdns.org / .us.kg / .qzz.io / .xx.kg （部分需要赞助） 注册方式：邮箱 + GitHub （一个免费账户仅一个免费域名） 有效期：每年续 三、DNSHE （ SLA 较差） 网站： www.dnshe.com 后缀：.ccwu.cc 注册方式：邮箱 有效期写的十年 DNSHE 以前的 cc.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210029#reply3
+
+---
+
+#### 2004. [V2EX] 有没有必要开个 claude code 体验下呢
+
+**问题描述 / Problem Description**:
+之前是做测试的，一直没正经用过 claude code 。本来也不是啥正经码农，就是最近会没事玩玩 github 项目，改改代码之类的。之前一直在白嫖腾讯家的那俩龙虾，最好的模型就是 glm5.1 吧。用起来有时候也觉得一般，在我不看代码的情况下有可能会卡在一个问题上反复修改，体验挺差的。所以在想要不要试试高级的到底啥样，都说现在封号厉害，还有靠谱的渠道吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210019#reply11
+
+---
+
+#### 2005. [V2EX] tk 直播打算自己本地部署 Dubbing 实现直播中原声直接翻译成另外一种语言
+
+**问题描述 / Problem Description**:
+这样可以将视频直播中的原声直接翻译成另一种语言，并保留原说话人的音色和情感，且自动对齐口型. 不打算用付费的 https://github.com/elevenlabs , 打算在本地用 OBS(OBS-LocalVocal 插件) + Qwen2.5 / Llama-3, 请问有人实际性的做过吗? 效果如何?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209966#reply2
 
 ---
