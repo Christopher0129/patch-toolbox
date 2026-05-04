@@ -174,4 +174,3 @@ README.md
 - **仓库**: https://github.com/Christopher0129/patch-toolbox
 - **协议**: MIT
 - **公开/私有**: 公开
-- **本地路径**: `/root/.openclaw/workspace/patch-toolbox`
