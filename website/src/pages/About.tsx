@@ -329,7 +329,7 @@ export default function About() {
   const { t } = useTranslation();
 
   // Wire to generated static data stats
-  const [stats, setStats] = useState({ stars: 21, forks: 1, contributors: 3, commits: 63, entries: 3154 });
+  const [stats, setStats] = useState({ stars: 21, forks: 1, contributors: 3, commits: 63, entries: 0 });
   useEffect(() => {
     loadStats().then((s) => {
       if (s?.githubStars) setStats(prev => ({ ...prev, stars: s.githubStars }));
@@ -588,7 +588,7 @@ export default function About() {
           {/* Stats grid */}
           <div className="mb-12 grid grid-cols-2 gap-4 sm:grid-cols-4">
             <MetricCard icon={<RefreshCw className="h-5 w-5" />} value="Daily" label={t('about.statSync') as string} delay={0} />
-            <MetricCard icon={<Database className="h-5 w-5" />} value={stats.entries > 0 ? `${stats.entries.toLocaleString()}+` : '3,154+'} label={t('about.statEntries') as string} delay={0.1} />
+            <MetricCard icon={<Database className="h-5 w-5" />} value={stats.entries > 0 ? `${stats.entries.toLocaleString()}+` : '0+'} label={t('about.statEntries') as string} delay={0.1} />
             <MetricCard icon={<GitCommit className="h-5 w-5" />} value={String(stats.commits)} label={t('about.statCommits') as string} delay={0.2} />
             <MetricCard icon={<CheckCircle className="h-5 w-5" />} value="MIT" label={t('about.statLicense') as string} delay={0.3} />
           </div>
