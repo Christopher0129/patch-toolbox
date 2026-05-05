@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1720**
+**总计条目 / Total entries: 1765**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -26567,5 +26567,590 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210147#reply5
+
+---
+
+#### 1721. Files in Finder fly away when dragging them
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t457qv/files_in_finder_fly_away_when_dragging_them/
+
+---
+
+#### 1722. Is there a way to switch the time format in the menu bar?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t4a16i/is_there_a_way_to_switch_the_time_format_in_the/
+
+---
+
+#### 1723. What is this called? Can't find any info or settings on these mini windows
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t457qe/what_is_this_called_cant_find_any_info_or/
+
+---
+
+#### 1724. temp mail eating 1.5 gb of ram even after its tab is closed ?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t49p2j/temp_mail_eating_15_gb_of_ram_even_after_its_tab/
+
+---
+
+#### 1725. MacOS Excel
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t48pfv/macos_excel/
+
+---
+
+#### 1726. Is macOS security enough or do you use antivirus?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t488pj/is_macos_security_enough_or_do_you_use_antivirus/
+
+---
+
+#### 1727. MacOS Tahoe problemas
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t46qih/macos_tahoe_problemas/
+
+---
+
+#### 1728. Spotlight keeps recommending Grapher when I type “g”
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t46ig1/spotlight_keeps_recommending_grapher_when_i_type_g/
+
+---
+
+#### 1729. Apple Asks Supreme Court to Pause Epic Games Case Ahead of App Store Fee Ruling
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t46t4c/apple_asks_supreme_court_to_pause_epic_games_case/
+
+---
+
+#### 1730. A very much needed upgrade
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t47i9h/a_very_much_needed_upgrade/
+
+---
+
+#### 1731. Crying in 3rd World
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t47py4/crying_in_3rd_world/
+
+---
+
+#### 1732. MacBook M2 Palm Rest Discolouration Won't Clean Off – Is this normal sweat damage?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t48v1f/macbook_m2_palm_rest_discolouration_wont_clean/
+
+---
+
+#### 1733. 2023 Macbook Pro M3 Logic Board Failed - Should I get a new Air?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t46bf3/2023_macbook_pro_m3_logic_board_failed_should_i/
+
+---
+
+#### 1734. 16" MacBook Pro M3 512 18GB RAM or 14" MacBook Pro M5 1TB SSD 24GB RAM ? (CAD)
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t44x7i/16_macbook_pro_m3_512_18gb_ram_or_14_macbook_pro/
+
+---
+
+#### 1735. MacBook Air 13in 24gb ram or MacBook Pro 14in 24gb Ram
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t45ik5/macbook_air_13in_24gb_ram_or_macbook_pro_14in/
+
+---
+
+#### 1736. Please help me fix the Razer Megalodon headphones.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t4b0qi/please_help_me_fix_the_razer_megalodon_headphones/
+
+---
+
+#### 1737. MacOS 26.5 RC magsafe green led with battery limit
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1t4b20w/macos_265_rc_magsafe_green_led_with_battery_limit/
+
+---
+
+#### 1738. Is this normal??
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t46f80/is_this_normal/
+
+---
+
+#### 1739. AirPods show “No Location Found” in Find My
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t46ylx/airpods_show_no_location_found_in_find_my/
+
+---
+
+#### 1740. FaceTime notification on Mac simply won't disappear
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4anzj/facetime_notification_on_mac_simply_wont_disappear/
+
+---
+
+#### 1741. setting a total screen time limit
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t46kwe/setting_a_total_screen_time_limit/
+
+---
+
+#### 1742. MacBook Display Flickering – Liquid Damage Found, Need Advice
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t466om/macbook_display_flickering_liquid_damage_found/
+
+---
+
+#### 1743. Recently some of my Apps changed their icon to this blueprint symbol
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4a1nj/recently_some_of_my_apps_changed_their_icon_to/
+
+---
+
+#### 1744. Mac stuck on activate mac screen saying "Select an admin user you know the password for:" but there is nothing there and it is blank
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t49xz4/mac_stuck_on_activate_mac_screen_saying_select_an/
+
+---
+
+#### 1745. Can I have 2 Apple IDs using the same phone number for verification?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t49gbv/can_i_have_2_apple_ids_using_the_same_phone/
+
+---
+
+#### 1746. Phone app problem on iPhone 11 PM
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t459vu/phone_app_problem_on_iphone_11_pm/
+
+---
+
+#### 1747. Is this normal for a month old MacBook
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t49489/is_this_normal_for_a_month_old_macbook/
+
+---
+
+#### 1748. iPhone always uses System Services - Location Services (Find My iPhone)
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t487y1/iphone_always_uses_system_services_location/
+
+---
+
+#### 1749. iPhone Mirroring no longer functions after resetting network settings on iPhone
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t47om2/iphone_mirroring_no_longer_functions_after/
+
+---
+
+#### 1750. “Update contact information”
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t465g1/update_contact_information/
+
+---
+
+#### 1751. Messages app crashing after iOS update
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t458aj/messages_app_crashing_after_ios_update/
+
+---
+
+#### 1752. New iPhone 17 pro max battery drain
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t44yfj/new_iphone_17_pro_max_battery_drain/
+
+---
+
+#### 1753. My phone was stolen and í’m not able to access iCloud. ( me robaron el celular y no puedo acceder a mi cuenta de iCloud )
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t44w6q/my_phone_was_stolen_and_ím_not_able_to_access/
+
+---
+
+#### 1754. [V2EX] 使用 loon 浏览 X 的视频大概率载入不出来
+
+**问题描述 / Problem Description**:
+文字内容正常载入，看 youtube 也没有问题。 用的可莉，规则忘了具体是哪个了，就是自选节点那个。 我看有说是 QUIC 协议的问题，屏蔽了 QUIC 还是不行。暂时换回 QX 了 顺便说一下确实还是火箭和 QX 直接选节点+大陆白名单+一部分手动加入的规则更适合我，正常使用时就规则模式，有特殊需求的时候就切换全局模式，我 loon 使用的可莉好像并不能这样。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210323#reply0
+
+---
+
+#### 1755. [V2EX] 美区、港区 App Store 无法更新抖音了，求方法！
+
+**问题描述 / Problem Description**:
+我朋友港区，我自己美区，都无法更新抖音了，虽然软件还在已购里，但是无法重新下载。而且在存储里 Offload 以后，也无法 reload 回来。求下载回来的黑魔法？ 日常虽然用的少，但是作为一个运营，没办法脱离手机版本的抖音，工作需要，咋办？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210316#reply1
+
+---
+
+#### 1756. [V2EX] 大陆买的 Studio Display XDR 能加入美区 AppleCare One 吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210254#reply1
+
+---
+
+#### 1757. [V2EX] 写给苹果 CEO 库克的一封信
+
+**问题描述 / Problem Description**:
+写给苹果 CEO 库克的一封信 request for Official Free Repair for My iPad Air 3 Blank Screen Issue Dear Mr. Tim Cook, My name is a professional AI self-media blogger and a big Google fan. I have been a loyal Apple user for many years. I have purchased many Apple products including iPhone 4, iPhone 7 Plus, iPhone
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210228#reply28
+
+---
+
+#### 1758. [V2EX] apns（苹果消息服务）推送异常后目前所做的努力
+
+**问题描述 / Problem Description**:
+按照 https://support.apple.com/zh-cn/102266 信息，以及论坛上大佬们提供的域名，做了个 rule-set ，方便工具接入使用 地址： https://raw.githubusercontent.com/mrbruce516/apns-fix/refs/heads/main/Apple_APNs.list 指向外面的节. 即可 目前测试下来，最近并非所有海外 app 都受限制，我的 PlayStation app 、gemini 等可以正常收到消息，所以猜测是苹果针对部分 app 的 Bundle ID 结合设备终端 *.push.apple.com 请求头
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210130#reply30
+
+---
+
+#### 1759. [V2EX] Mac mini 配显示器，上 5K 还是高刷更重要？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210057#reply53
+
+---
+
+#### 1760. [V2EX] 搬运|真 0 元！开通 ChatGPT Plus 教程（已实测）可用的话给个铜币
+
+**问题描述 / Problem Description**:
+隔壁 ns 站看到的，试了下真的可以，先冲了 自助开通邀请链接 https://discord.gg/tGmRsZqK7 教程来自： https://www.nodeseek.com/post-714755-1 原帖的邀请链接： https://discord.gg/rhqpxt3Y 步骤： - 在免费邮箱频道，申请免费邮箱 - 用这个邮箱注册 chatgpt - 邮件在私人频道可以看到，查看验证码 - 注册好后，打开 https://chatgpt.com/api/auth/session 获取 access token - 打开 chatgpt sheerid 机器人频道，先签到获取积分，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210307#reply6
+
+---
+
+#### 1761. [V2EX] 商汤科技 Token Plan 免费公测，谁能试试模型能力咋样
+
+**问题描述 / Problem Description**:
+https://www.sensenova.cn/token-plan
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210223#reply6
+
+---
+
+#### 1762. [V2EX] NIST 的测试要比各家自己吹的口径靠谱吧
+
+**问题描述 / Problem Description**:
+https://www.nist.gov/news-events/news/2026/05/caisi-evaluation-deepseek-v4-pro
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210200#reply14
+
+---
+
+#### 1763. [V2EX] 现在这个形势，推荐备一个 CMHK 的流量卡
+
+**问题描述 / Problem Description**:
+10GB 流量，68 HKD 可以用半年，后续还能充值 是个 eSIM 卡，我测过速度还行，当备用以防失联 官网就能直接购买: esim.cmlink.com
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210180#reply32
+
+---
+
+#### 1764. [V2EX] 属实低劣！不愧是百度，不愧是文心一言...
+
+**问题描述 / Problem Description**:
+首先很感谢 V 站，这几年在平台零零散散记录的一些历程被各 AI 收录成了珍贵的语料 一直用心经营自己的香氛品牌 HUPPO 琥珀香氛 ，今天突发奇想，用各家 AI 测了一下品牌印象。 结果大跌眼镜： 豆包、GPT 、Gemini 的反馈基本符合我的品牌理念；唯独 百度 ，不仅删除了创业时申请的品牌词条， 文心一言更是优先抓取未经核实的负面虚假信息。 🚩 起因：一个“5 元运费”引发的血案 去年有个客户花 10.9 元 买了一套试香小样（ 5 元是运费）。试完后申请退款，系统自动退了 5.9 元。 结果对方就开始了“教科书级”恶意抹黑： 投诉平台 ：说我们恶意扣她 5 块钱。 平台判定 ：淘宝
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210112#reply9
+
+---
+
+#### 1765. [V2EX] 开虚拟机用 openclaw 整理 Anki 卡，已完成
+
+**问题描述 / Problem Description**:
+这事已亲自做完。整理了约 5000 张卡，生成了约 3000 张卡。简单验收，暂没发什么大问题。但小问题是依然是有一点，凑合用。自用算够了吧。 搜了下本站，还没人说这事。就开帖说下：这事可做。 虚拟机，有存/回档功能，做砸了回档。里面不放多余的个人信息。 安装 openclaw 。 Anki 卡组放进虚拟机。下 AnkiConnect 插件。 说需求。 我的需求是：我现在要对我手上的牌组按 [最小信息原则] 作整理。你可以参考我最近三天修改过的牌看规律。大意是，现在一张卡里我已经有比如 10 个词，那创建 9 个副本，每个副本只保留一个词，并在卡正面加粗对应的词，取消加粗别的词。然后生成 10
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210024#reply3
 
 ---
