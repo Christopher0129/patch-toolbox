@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2093**
+**总计条目 / Total entries: 2133**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -34990,5 +34990,525 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210029#reply4
+
+---
+
+#### 2094. Linux 0.11 Project
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t45fvw/linux_011_project/
+
+---
+
+#### 2095. Orion for Linux Beta 0.3 Released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t4967v/orion_for_linux_beta_03_released/
+
+---
+
+#### 2096. Does Linux help cool down hot IdeaPad laptops?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t48xp0/does_linux_help_cool_down_hot_ideapad_laptops/
+
+---
+
+#### 2097. Mint stuck on splash screen, nomodeset doesnt work anymore
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4a9p3/mint_stuck_on_splash_screen_nomodeset_doesnt_work/
+
+---
+
+#### 2098. is apt update broken for anyone else right now?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t48gzx/is_apt_update_broken_for_anyone_else_right_now/
+
+---
+
+#### 2099. UTAU SOFTWARE DOWNLOADING (pls help)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4axlz/utau_software_downloading_pls_help/
+
+---
+
+#### 2100. Help to install Linux on Iconbit tablet
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t46nym/help_to_install_linux_on_iconbit_tablet/
+
+---
+
+#### 2101. Windows 10 is getting too slow. Looking for a beginner-friendly Linux distro for an older laptop (i3, 12GB RAM, Dual GPU)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4afug/windows_10_is_getting_too_slow_looking_for_a/
+
+---
+
+#### 2102. Securely Sync Config-Files between 2 Servers
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4a83f/securely_sync_configfiles_between_2_servers/
+
+---
+
+#### 2103. Help, for some reason nobara doesn't appear in the dualboot menu
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4a0u1/help_for_some_reason_nobara_doesnt_appear_in_the/
+
+---
+
+#### 2104. Best linux distro for a beginner
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t48wxl/best_linux_distro_for_a_beginner/
+
+---
+
+#### 2105. Switching from Windows to linux (Need Suggestion)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t48el9/switching_from_windows_to_linux_need_suggestion/
+
+---
+
+#### 2106. Network issues
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t457le/network_issues/
+
+---
+
+#### 2107. Are launchpad servers still down?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4aqi6/are_launchpad_servers_still_down/
+
+---
+
+#### 2108. Keyboard + suspended session issue
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t474hu/keyboard_suspended_session_issue/
+
+---
+
+#### 2109. Can't update to 26.04 from 25.10
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t49cv2/cant_update_to_2604_from_2510/
+
+---
+
+#### 2110. I cannot get Obsidian to work on Ubuntu. Any help?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t49kd2/i_cannot_get_obsidian_to_work_on_ubuntu_any_help/
+
+---
+
+#### 2111. Kernel upgrade to 6.17.0-23-generic has weird behaviour
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t47z0p/kernel_upgrade_to_617023generic_has_weird/
+
+---
+
+#### 2112. trying to install python 3.11
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t48ztk/trying_to_install_python_311/
+
+---
+
+#### 2113. Increase desktop icon size beyond “large” in ubuntu 24.04 (gnome 46)
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t47zu2/increase_desktop_icon_size_beyond_large_in_ubuntu/
+
+---
+
+#### 2114. Ubuntu refusing to recognize wifi NIC
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4axcl/ubuntu_refusing_to_recognize_wifi_nic/
+
+---
+
+#### 2115. Grey wallpaper
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t48vdc/grey_wallpaper/
+
+---
+
+#### 2116. GNOME Remote Desktop RDP keyboard input shifted on Ubuntu 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t47vbs/gnome_remote_desktop_rdp_keyboard_input_shifted/
+
+---
+
+#### 2117. New Linux user - Having some trouble with Discord
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t49ovs/new_linux_user_having_some_trouble_with_discord/
+
+---
+
+#### 2118. Thinking to Change to Linux/Distro because I want full control of my pc and also being paranoid about corporations treating users like shit (Microsoft for example)
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t45x34/thinking_to_change_to_linuxdistro_because_i_want/
+
+---
+
+#### 2119. Get out of CLI mode where Enter makes >
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4azx1/get_out_of_cli_mode_where_enter_makes/
+
+---
+
+#### 2120. Securely Sync Config-Files between 2 Servers
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4a8ch/securely_sync_configfiles_between_2_servers/
+
+---
+
+#### 2121. Should I select image or clone when backing up my data before migrating?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t451lg/should_i_select_image_or_clone_when_backing_up_my/
+
+---
+
+#### 2122. I made a PostgreSQL TUI in Rust with ER diagram support
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t45t75/i_made_a_postgresql_tui_in_rust_with_er_diagram/
+
+---
+
+#### 2123. [V2EX] 用中转站省钱，怎么知道没踩坑？
+
+**问题描述 / Problem Description**:
+用中转站这件事，大家心里其实都有一个问号。 价格比官方低一半甚至更多，背后到底是怎么做到的？模型是真的吗？ token 计量准丈准？请求有没有经过二次处理？ 一个中转站理论上可以看到你的明文请求，包括 system prompt 、API key 、tool call 参数、代码执行指令。它与一定只是"转发"，还可能： - 用便宜模型冒充高价模型 - 截断长上下文但按正常方式收费 - 伪造流式输出或 usage 字段 - 改写 tool call 里的安装命令、URL 、钱包地址 - 注入隐藏 system prompt 或广告追踪 之前有篇论文在 Twitter 上爆火，研究者系统测试了 2
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210326#reply1
+
+---
+
+#### 2124. [V2EX] 消失的五一假期之——找不到好用的自托管图床，于是自己写了一个（开源 / Docker 一键部署）
+
+**问题描述 / Problem Description**:
+之前一直用的兰空图床，嫌弃的主要是界面老旧，技术栈也旧，想改点东西很费劲。找了一圈，Chevereto 收费，Picsur 还不错但停止维护了，没一个合适的。五一刚好有空，干脆自己写一个。 本来想做个简单的，结果边写边测边补功能，不知不觉把五一假期给写没了。发出来给需要的朋友，希望大家能支持下，或者一起来完善。 技术栈：Go 1.26 + React 19 + PostgreSQL ，前后端单 Docker 镜像，部署完直接完整可用。 Github 官方主页 Docker Hub 主页 演示站点 自带完整管理功能： 部署极简，推荐使用 docker compose 部署: #下载 Compos
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210315#reply0
+
+---
+
+#### 2125. [V2EX] 抖音小游戏&微信小游戏的难度和收益如何？
+
+**问题描述 / Problem Description**:
+想额外做些内容，能有点稳定收益，这样更踏实点，微信小视频刚有些收益，AI 风控又要求真人出镜验证。想做些简单的抖音小游戏或者微信小游戏，想问下这种的难度大概是什么样? 因为本身没做过游戏，另外就是上线流程复杂吗？ 纯个人这种，上线后的收益如何呢？以正常个人流量这种。是不是还要额外购买服务器内容。 另外抖音的特效是不是相对好做一些呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210306#reply5
+
+---
+
+#### 2126. [V2EX] gpt-sovits 跑 colab 能让人崩溃
+
+**问题描述 / Problem Description**:
+弄得我都崩溃
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210285#reply0
+
+---
+
+#### 2127. [V2EX] 有没有最近用天翼云或者 ollama 的朋友
+
+**问题描述 / Problem Description**:
+因为比较刚需 GLM5.1 ，所以想问问最近有没有在使用天翼云或者在 ollama cloud 里用 GLM5.1 的朋友。工作日和高峰期能用吗？速度和稳定性咋样？感谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210261#reply15
+
+---
+
+#### 2128. [V2EX] 之前分享的临时文件分享平台更新了一版，支持星签口令、更短的链接，欢迎大家体验新版
+
+**问题描述 / Problem Description**:
+前情提要： https://www.v2ex.com/t/1208698 http://share.dedyn.io/ 这次比较明显的变化： 1.新增「星签口令」 上传完成后，除了普通分享链接，也可以复制一段星签口令文案。对方打开口令页后，直接粘贴整段内容就能跳到对应下载页。 适合在聊天软件里转发，不一定非要贴完整 URL 。 示例： ✨ AURASHARE 星签 我给你留了一份文件：《一剪即现》.mp4 （ 7.0 MB ） 口令：悲挨篡焕 囊愁也僳 闰廉甄外 专无绵这 谅蒸幌俱 毕流髓私 膏艺捣竣 爱叠罕拆 痔差莫菩 维她奄拐 耐棘哭挠 阂擂钩酉 坊缔位欠 皿巴砂购 剐伸延涣 熄捻区宋 覆
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210253#reply1
+
+---
+
+#### 2129. [V2EX] Vibe Coding 手搓了个 macos 的用量查看应用
+
+**问题描述 / Problem Description**:
+平时用 codex 和 cc + glm ，订阅了一堆服务，每天都要到各个网站查看很多次用量。 于是干脆手搓了一个 UsageBoard App ，用来查看所有订阅的用量。 目前支持 Codex 、智谱（ ZAI ）、DeepSeek 、MiniMax 、Tavily ，全部基于官方 API 。 其中 Codex 和智谱支持查看 token 用量统计图表，智谱用的官方 API ，Codex 基于本地会话分析。 功能特性 菜单栏常驻，点击图标打开快速预览。 支持分组展示和标签页展示。 支持手动刷新、定时刷新、单卡片刷新、退出按钮。 插件化用量查询，插件可独立配置刷新间隔和参数。 插件图标支持，从
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210246#reply5
+
+---
+
+#### 2130. [V2EX] 当我 VIbeing 的时候遇到了一些问题
+
+**问题描述 / Problem Description**:
+我以前很享受写代码带来的心流状态。当我尝试使用 Vibe 的时候，我遇到了 AI 几乎把原来我心流夺走的情况。原来调试 bug 让我烦躁，现在也是一样的。 我现在无法享受 VIBE 带来的快感，一直都停在调试 bug 的烦躁状态。当我想要去修改功能的时候，ai 在操作，我就会不受控制的去分神，去做一些其他的事情（刷网页）然后再回来点击 ok ，然后再去分神，再去回来。一直在这种状态切换中。 我想问一下大家都是怎么做的，如何使用 vibe 编程提高效率的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210222#reply9
+
+---
+
+#### 2131. [V2EX] 专注非标制造业 AI Agent 开发，寻找技术合伙人，已有行业资源和种子客户方向
+
+**问题描述 / Problem Description**:
+背景 我们在做非标工业齿轮箱这个细分行业，这类企业几乎都是单件定制生产，每台产品都不一样，生产管理靠微信群+Excel ，订单进度全靠老板脑子记。 传统 MES 工具对这类企业完全不适用——配置成本太高、逻辑不匹配。但这个问题用 AI Agent 可以用很轻的方式解决：工人自然语言更新进度，系统自动追踪交期风险、采购瓶颈，老板看一张看板就够了。 我能带来什么 · 对非标制造业有较深的行业理解，能准确定义产品场景 · 正在推进种子客户访谈，已有初步目标客户池 · 负责产品定义、客户开发、商务拓展 · 愿意以股权换技术，认真对待，不是来白嫖的 需要什么样的技术伙伴 · 有 Python 或全栈开发
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210188#reply11
+
+---
+
+#### 2132. [V2EX] Agent 开发实际在做什么？
+
+**问题描述 / Problem Description**:
+貌似 Agent 开发比较火。 我理解 Agent 开发就是围绕大模型（作为智能引擎），弥补大模型的不足（上下文限制，稳定性，不懂行业知识）。 感觉还是有点抽象，希望业内人士介绍一下。 在打造 AI 产品？ 在流程上引入 AI 为公司降本增效？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210142#reply7
+
+---
+
+#### 2133. [V2EX] 都说 Anthropic 不做人，现在国产模型厂也不做人
+
+**问题描述 / Problem Description**:
+潜水老玩意冒出来…首帖没想到竟是吐槽 事情是这样的… 某 G 开头的模型厂的 coding plan, 4/22 号改了用户协议，4/30 号老 plan 下架。 我今天 （ 5/3 ）登陆控制台才看到弹窗。 老 plan 每 5 小时 600 次调用，没有 weekly cap ，新 plan 每五小时 400 次，weekly cap 2000. 说是送两个月“同等级”套餐，首先上面的五小时调用就不是“同等级”了。另外我前面猛猛写的时候一天写 12 小时…老套餐理论 cap 是每周 19800 次，就算我按 10 小时的 cap 算，就算一周写 6 天，那是 600 * 2 * 6 = 7
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210113#reply50
 
 ---
