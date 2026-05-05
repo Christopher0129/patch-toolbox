@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2179**
+**总计条目 / Total entries: 2218**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -36108,5 +36108,512 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210222#reply12
+
+---
+
+#### 2180. Qt's latest AI push is letting AI agents deal with performance profiling
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t4lqsk/qts_latest_ai_push_is_letting_ai_agents_deal_with/
+
+---
+
+#### 2181. An easy way to contribute that isn't money or expertise.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t4tolr/an_easy_way_to_contribute_that_isnt_money_or/
+
+---
+
+#### 2182. Intel's Vulkan Linux driver lands experimental support for descriptor heaps
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t4r13i/intels_vulkan_linux_driver_lands_experimental/
+
+---
+
+#### 2183. AMD preps Linux for CPPC HighestFreq feature coming with future ACPI spec
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t4l8xr/amd_preps_linux_for_cppc_highestfreq_feature/
+
+---
+
+#### 2184. Linux2ME — Linux on old J2ME Java phones
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t4kdxk/linux2me_linux_on_old_j2me_java_phones/
+
+---
+
+#### 2185. LCS - lightweight cluster service, new open source alternative to PCS or keepalived
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t4t39x/lcs_lightweight_cluster_service_new_open_source/
+
+---
+
+#### 2186. OpenCL 3.1 released to bolster AI & HPC workloads
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t4nfq9/opencl_31_released_to_bolster_ai_hpc_workloads/
+
+---
+
+#### 2187. I actually built a working Miracast client in Python after my last post here
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t4q0in/i_actually_built_a_working_miracast_client_in/
+
+---
+
+#### 2188. RootAsRole - A better alternative to sudo(-rs)/su
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t4m7c1/rootasrole_a_better_alternative_to_sudorssu/
+
+---
+
+#### 2189. Update Borked Server - Now Won't Boot. Tips to Debug/Fix
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4lkhw/update_borked_server_now_wont_boot_tips_to/
+
+---
+
+#### 2190. Trying to setup Mullvad on a Linux computer
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4typ1/trying_to_setup_mullvad_on_a_linux_computer/
+
+---
+
+#### 2191. New recommends for both of my computers.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4tg5x/new_recommends_for_both_of_my_computers/
+
+---
+
+#### 2192. Struggling to mount my Synology smb share to my Debian13 VM
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4spg1/struggling_to_mount_my_synology_smb_share_to_my/
+
+---
+
+#### 2193. Unable to install KEK CA firmware update on Ubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4lgxa/unable_to_install_kek_ca_firmware_update_on_ubuntu/
+
+---
+
+#### 2194. I got the error "Security verification failed" with the reason "NO_SIGNATURE" when trying to run LINE messenger with Wine.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4qmrj/i_got_the_error_security_verification_failed_with/
+
+---
+
+#### 2195. PDF-XChange Editor via Bottles launches but won’t open files from CLI / file association (Using Double Commander on Arch-Hyprland)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4q8o9/pdfxchange_editor_via_bottles_launches_but_wont/
+
+---
+
+#### 2196. Which Linux distribution is best for a Linux newbie?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4oh03/which_linux_distribution_is_best_for_a_linux/
+
+---
+
+#### 2197. How do I automate know responses to a menu when I run a command using Ansible?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4n50b/how_do_i_automate_know_responses_to_a_menu_when_i/
+
+---
+
+#### 2198. Linux Distro choices
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4rnjq/linux_distro_choices/
+
+---
+
+#### 2199. Which distro in your opinion are more usable for common user?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4lz7w/which_distro_in_your_opinion_are_more_usable_for/
+
+---
+
+#### 2200. crydiaaOS
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4plg0/crydiaaos/
+
+---
+
+#### 2201. why sleeping mode work incorrect Ubuntu?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4svpr/why_sleeping_mode_work_incorrect_ubuntu/
+
+---
+
+#### 2202. With the DDOS, can I even set up Xubuntu properly?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4mh83/with_the_ddos_can_i_even_set_up_xubuntu_properly/
+
+---
+
+#### 2203. Mouse issue solved, but confusing...
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4q7z8/mouse_issue_solved_but_confusing/
+
+---
+
+#### 2204. Where should I start my linux(Ubuntu) journey ?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4tk5t/where_should_i_start_my_linuxubuntu_journey/
+
+---
+
+#### 2205. Netplan: automatic switching between eth0 and wlan0 with static IP?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4n7i2/netplan_automatic_switching_between_eth0_and/
+
+---
+
+#### 2206. Ubuntu 26.04 + TorBrowser - Crashing
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4sh47/ubuntu_2604_torbrowser_crashing/
+
+---
+
+#### 2207. Dropbox Nautilus with Ubuntu 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4rvj9/dropbox_nautilus_with_ubuntu_2604/
+
+---
+
+#### 2208. Linux vs Windows Benchmark Street Fighter 6
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4rekt/linux_vs_windows_benchmark_street_fighter_6/
+
+---
+
+#### 2209. help? trying to run kaiOS simulator
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4p53r/help_trying_to_run_kaios_simulator/
+
+---
+
+#### 2210. Laptop will no longer boot
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4p36w/laptop_will_no_longer_boot/
+
+---
+
+#### 2211. How do I learn Linux properly?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4r60v/how_do_i_learn_linux_properly/
+
+---
+
+#### 2212. What usb boot to use
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4jvil/what_usb_boot_to_use/
+
+---
+
+#### 2213. Omarchy as a non-developer daily driver — is it worth it?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4s6cp/omarchy_as_a_nondeveloper_daily_driver_is_it/
+
+---
+
+#### 2214. Nvidia GeForce now keyboard not working
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4l7m2/nvidia_geforce_now_keyboard_not_working/
+
+---
+
+#### 2215. Doppio ☕ A double shot of speed for your shell. Alias manager + TUI + watch mode
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t4qxfa/doppio_a_double_shot_of_speed_for_your_shell/
+
+---
+
+#### 2216. [V2EX] 当敲代码如呼吸一样简单，程序员还剩下什么？
+
+**问题描述 / Problem Description**:
+项目开源两个星期，收获了近 400 个 star ，非常开心。这个速度虽然不算快，但是我已经很知足了。因为我大部分的时间都拿去做产品了，也没怎么去宣传。 五一这五天陆陆续续增加了一些新功能。现在写代码真的太简单了，基本上只要把需求描述清楚，AI 就能够一次把代码写对。唯一比较花时间的，可能就是把需求想清楚。总的来说，现在写代码基本上不是瓶颈了。 我最近在思考一个问题：当写代码不再是瓶颈的时候，什么东西会成为程序员的核心竞争力？我觉得至少有两个东西是重要的：第一个是想象力，或者说创造力，也就是能不能创造出一些新的东西，想出一些别人没想到的东西。这个能力在任何时代都是稀缺的。第二个是推广能力，当一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210368#reply7
+
+---
+
+#### 2217. [V2EX] 本地 API Proxy： Anthropic / OpenAI Chat / Responses 互转，支持 DeepSeek
+
+**问题描述 / Problem Description**:
+最近在深度试用几家国产大模型，但几乎清一色都还是 OpenAI Chat Completions 接口，导致在较新的 Codex CLI 里没法直接用。 于是在开源工具 VibeAround 的命令行一键启动功能上，加了一个 local API proxy ，主要解决 coding agent 和模型 provider 之间 API 格式不一致的问题。 现在可以在 Anthropic Messages / OpenAI Chat Completions / OpenAI Responses 之间做转换和适配，比如把 Claude 模型跑到 Codex CLI 里，或者把 OpenAI 模型跑到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210354#reply5
+
+---
+
+#### 2218. [V2EX] ChatGPT Plus 的 APP 现在是不是不能订阅升级了？
+
+**问题描述 / Problem Description**:
+ChatGPT Plus 的 APP 现在是不是不能订阅升级了？ 我下午 5 点多折腾到现在，一直显示“应用内购买目前不可用” ，我去好多网站搜了，结果发现基本没有答案，连相关的关键词都没有，甚至我从新买了另一个节点，还是没办法订阅。结果在 X 里有人评论晒图，也是跟我一样的状态，订阅难道目前被官方锁了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210346#reply13
 
 ---

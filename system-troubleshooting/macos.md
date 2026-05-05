@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1817**
+**总计条目 / Total entries: 1875**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -27828,5 +27828,759 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210024#reply4
+
+---
+
+#### 1818. Stay Away from Voice2Text
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t4kx2b/stay_away_from_voice2text/
+
+---
+
+#### 1819. Help! How can I restore this MacBook Air?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t4pdp1/help_how_can_i_restore_this_macbook_air/
+
+---
+
+#### 1820. My Launchpad keeps scrambling itself and it's driving me crazy.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t4r6za/my_launchpad_keeps_scrambling_itself_and_its/
+
+---
+
+#### 1821. Naming external hard drives - weird inconsistencies
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t4qprw/naming_external_hard_drives_weird_inconsistencies/
+
+---
+
+#### 1822. Experiencing abnormal heat on my MBA M5
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t4klcc/experiencing_abnormal_heat_on_my_mba_m5/
+
+---
+
+#### 1823. Passwords Program Notes
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t4k95f/passwords_program_notes/
+
+---
+
+#### 1824. Mac Automator custom quick action troubleshooting?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t4k3v1/mac_automator_custom_quick_action_troubleshooting/
+
+---
+
+#### 1825. URGENT STORAGE HELP 400gb(system data only)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t4l623/urgent_storage_help_400gbsystem_data_only/
+
+---
+
+#### 1826. Apple reaches $250M settlement over Siri delays, users could get up to $95 per device
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t4rzyh/apple_reaches_250m_settlement_over_siri_delays/
+
+---
+
+#### 1827. iPhone 18 Pro Rumored to Keep Aluminum Finish Amid Durability Complaints
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t4kxjg/iphone_18_pro_rumored_to_keep_aluminum_finish/
+
+---
+
+#### 1828. Apple's most powerful Mac Studio loses its last remaining RAM upgrade option
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t4o8ib/apples_most_powerful_mac_studio_loses_its_last/
+
+---
+
+#### 1829. Apple to Let Users Choose Rival AI Models Across Its iOS 27 Features (Gift Article)
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t4maiy/apple_to_let_users_choose_rival_ai_models_across/
+
+---
+
+#### 1830. Maryland Lawmakers Press Apple Over Decision to Close Unionized Store
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t4loyi/maryland_lawmakers_press_apple_over_decision_to/
+
+---
+
+#### 1831. RIP to my 2020 MacBook Pro
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t4kpbm/rip_to_my_2020_macbook_pro/
+
+---
+
+#### 1832. 5k display + mac for $300
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t4shxe/5k_display_mac_for_300/
+
+---
+
+#### 1833. Macbook pro 2018 intel i5 13”. Should I keep or not?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t4rvas/macbook_pro_2018_intel_i5_13_should_i_keep_or_not/
+
+---
+
+#### 1834. Which is the better place to trade in an old Mac for a new one??
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t4twxb/which_is_the_better_place_to_trade_in_an_old_mac/
+
+---
+
+#### 1835. White patch on macbook?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t4tnf0/white_patch_on_macbook/
+
+---
+
+#### 1836. MacBook neo o MacBook Pro ricondizionato?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t4sipa/macbook_neo_o_macbook_pro_ricondizionato/
+
+---
+
+#### 1837. MacBook Neo 512 gb Or Air M4 256 gb
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t4rijk/macbook_neo_512_gb_or_air_m4_256_gb/
+
+---
+
+#### 1838. Is it worth buying a MacBook Pro 2013 or a MacBook Pro 2016?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t4rf6s/is_it_worth_buying_a_macbook_pro_2013_or_a/
+
+---
+
+#### 1839. New Mac user ¿Should i buy the new Macbook Neo?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t4rcni/new_mac_user_should_i_buy_the_new_macbook_neo/
+
+---
+
+#### 1840. Qual uso vocês dariam pra um macbookpro 2013?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t4r8j4/qual_uso_vocês_dariam_pra_um_macbookpro_2013/
+
+---
+
+#### 1841. Need help Deciding between a MacBook pro M1 pro chip 32GB 512GB and a M4 air 16GB 256 GB at the same price
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t4r6vm/need_help_deciding_between_a_macbook_pro_m1_pro/
+
+---
+
+#### 1842. Best guides for new mac users
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t4r5cz/best_guides_for_new_mac_users/
+
+---
+
+#### 1843. Which Mac for music?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t4qhie/which_mac_for_music/
+
+---
+
+#### 1844. Have a doubt regarding app installation
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t4qcnq/have_a_doubt_regarding_app_installation/
+
+---
+
+#### 1845. Apple Care+ for new MacBook
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t4ni6x/apple_care_for_new_macbook/
+
+---
+
+#### 1846. Should I get a Macbook Pro?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t4nfbj/should_i_get_a_macbook_pro/
+
+---
+
+#### 1847. Color
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t4ncap/color/
+
+---
+
+#### 1848. wrong color in box
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t4tk71/wrong_color_in_box/
+
+---
+
+#### 1849. IOSSimulatorRuntime takes 25.9GB (in AssetsV2) How to delete it (I already deleted Xcode)
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1t4tczf/iossimulatorruntime_takes_259gb_in_assetsv2_how/
+
+---
+
+#### 1850. Network Provider Message
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4u1ro/network_provider_message/
+
+---
+
+#### 1851. I bought Beats Studio Buds+ from a third party seller, can I get free diagnostics in an Apple Store to check for any defects?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4tuub/i_bought_beats_studio_buds_from_a_third_party/
+
+---
+
+#### 1852. Trying to recover clash of clans account from old iPod 4 touch
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4tdp6/trying_to_recover_clash_of_clans_account_from_old/
+
+---
+
+#### 1853. Anyone else have this problem after 26.5?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4tct1/anyone_else_have_this_problem_after_265/
+
+---
+
+#### 1854. Steps count is ridiculously high for me
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4snoq/steps_count_is_ridiculously_high_for_me/
+
+---
+
+#### 1855. Carplay not working out of the blue
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4sfij/carplay_not_working_out_of_the_blue/
+
+---
+
+#### 1856. Apple charged all my subcriptions when I didn’t want them to what do I do.
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4rza1/apple_charged_all_my_subcriptions_when_i_didnt/
+
+---
+
+#### 1857. How can I turn off this autofill?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4raiy/how_can_i_turn_off_this_autofill/
+
+---
+
+#### 1858. Any way to filter photos after size?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4r8zn/any_way_to_filter_photos_after_size/
+
+---
+
+#### 1859. MacBook Pro overheating and loud fans on startup — even with low CPU usage
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4qx9y/macbook_pro_overheating_and_loud_fans_on_startup/
+
+---
+
+#### 1860. Old IPhone won’t transfer to new IPhone
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4ql94/old_iphone_wont_transfer_to_new_iphone/
+
+---
+
+#### 1861. Cant add correct phone number to apple account?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4qcog/cant_add_correct_phone_number_to_apple_account/
+
+---
+
+#### 1862. Ordered a laptop the other day but my bank still has pending
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4ot36/ordered_a_laptop_the_other_day_but_my_bank_still/
+
+---
+
+#### 1863. MacBook Pro M2 won’t turn on (charger shows green but battery not full)
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4ons9/macbook_pro_m2_wont_turn_on_charger_shows_green/
+
+---
+
+#### 1864. Just got a new iphone 12 and my wallpaper is black and wont change wont even allow me to put one
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4oi2z/just_got_a_new_iphone_12_and_my_wallpaper_is/
+
+---
+
+#### 1865. Where are unsaved Quicktime audio files stored?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4oh5w/where_are_unsaved_quicktime_audio_files_stored/
+
+---
+
+#### 1866. When I open a file dialog (i.e. open or save) the column view is not oriented to the directory that is active.
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4o20l/when_i_open_a_file_dialog_ie_open_or_save_the/
+
+---
+
+#### 1867. 2013 Mac Pro - previous owner did not erase; how to reset
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4nnz0/2013_mac_pro_previous_owner_did_not_erase_how_to/
+
+---
+
+#### 1868. iPhone 16 Catastrophic Failure and Concerns About Warranty Repair
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4n7jr/iphone_16_catastrophic_failure_and_concerns_about/
+
+---
+
+#### 1869. Sick of the brightness
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4myxv/sick_of_the_brightness/
+
+---
+
+#### 1870. Spontaneous app launch
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4myxk/spontaneous_app_launch/
+
+---
+
+#### 1871. If I messed up my MacBook’s battery connector, what can I do about o fix it without replacing the logic board
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4mv22/if_i_messed_up_my_macbooks_battery_connector_what/
+
+---
+
+#### 1872. Why can't reset apple password from website
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t4mrms/why_cant_reset_apple_password_from_website/
+
+---
+
+#### 1873. [V2EX] Mac mini 配显示器，上 5K 还是高刷更重要？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210057#reply56
+
+---
+
+#### 1874. [V2EX] 外区 iCloud 最近同步很慢
+
+**问题描述 / Problem Description**:
+我是美区，以前觉得速度跟国区没区别，无感状态。 但最近发现同步很慢，甚至有时候根本没有速度。 刚才在 mb 上挂了小火箭，点击同步的时候小火箭显示下载流量，同步在走翻墙的流量。关了小火箭，同步又卡住了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209994#reply7
+
+---
+
+#### 1875. [V2EX] 发现一个挺离谱便宜的 AI Coding 套餐，轻量使用可以考虑
+
+**问题描述 / Problem Description**:
+https://commandcode.ai/pricing GO 套餐，1 刀/月（加上手续费实际大概 1.3 刀，不到 10 块钱），给的可用额度是 10 美元 是一个全新的工具 commandcode 现在还不清楚能不能接到 cc ，opencode 里用，我感觉应该不行，估计要自己生态 Go 1 刀/月，10 刀额度 Pro 15 刀/月，30 刀 Max 100 刀/月 150 刀 Ultra 200 刀/月 300 刀 模型支持(GO 套餐只能用开源模型，Pro 和以上套餐可以用 A/O 家模型)： Anthropic Claude Sonnet 4.6 Claude Opus 4
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210348#reply3
 
 ---
