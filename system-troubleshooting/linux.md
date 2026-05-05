@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2133**
+**总计条目 / Total entries: 2179**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -35510,5 +35510,603 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210113#reply50
+
+---
+
+#### 2134. Thank you, on behalf of ODF | TDF Community Blog
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t4j2qb/thank_you_on_behalf_of_odf_tdf_community_blog/
+
+---
+
+#### 2135. Bug-monitoring expectations and Fedora GNOME packages
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t4hwir/bugmonitoring_expectations_and_fedora_gnome/
+
+---
+
+#### 2136. Application Packaging, Deployment and Endpointmanagement for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t4ipbu/application_packaging_deployment_and/
+
+---
+
+#### 2137. Mitigation script for Copy Fail vulnerability CVE-2026-31431
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t4glqi/mitigation_script_for_copy_fail_vulnerability/
+
+---
+
+#### 2138. Snapdragon X2 Elite Extreme: Ubuntu 26.04 PPD Results and Adreno iGPU Wall
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t4fhh9/snapdragon_x2_elite_extreme_ubuntu_2604_ppd/
+
+---
+
+#### 2139. Frustrated because of RAM
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4gel1/frustrated_because_of_ram/
+
+---
+
+#### 2140. installed openssh and now steam does not open
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4jqro/installed_openssh_and_now_steam_does_not_open/
+
+---
+
+#### 2141. Can't use the image I want in that fastfetch thing. Help
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4igbj/cant_use_the_image_i_want_in_that_fastfetch_thing/
+
+---
+
+#### 2142. help
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4iduq/help/
+
+---
+
+#### 2143. My migration to linux and daily struggle - university wifi eduroam
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4e0xn/my_migration_to_linux_and_daily_struggle/
+
+---
+
+#### 2144. any good kiosk distro to study , work and avoid distractions?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4dfao/any_good_kiosk_distro_to_study_work_and_avoid/
+
+---
+
+#### 2145. snapd randomly eating up my cpu
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4cxj5/snapd_randomly_eating_up_my_cpu/
+
+---
+
+#### 2146. Any quicker or automated way to change a Bottles application's DPI?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4b5pg/any_quicker_or_automated_way_to_change_a_bottles/
+
+---
+
+#### 2147. Two weeks in with 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4bcw1/two_weeks_in_with_2604/
+
+---
+
+#### 2148. Upgrade now or wait
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4hmln/upgrade_now_or_wait/
+
+---
+
+#### 2149. Black screen after graphic update
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4gdpj/black_screen_after_graphic_update/
+
+---
+
+#### 2150. Wayland + AMD/NVIDIA hybrid: how to actually use NVIDIA GPU?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4j104/wayland_amdnvidia_hybrid_how_to_actually_use/
+
+---
+
+#### 2151. rate my desktop
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4iuef/rate_my_desktop/
+
+---
+
+#### 2152. Space bar to preview files in Ubuntu 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4cuh7/space_bar_to_preview_files_in_ubuntu_2604/
+
+---
+
+#### 2153. screen resolution crushed and unable to connect to internet
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4idde/screen_resolution_crushed_and_unable_to_connect/
+
+---
+
+#### 2154. Bluetooth not working on Ubuntu 22.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4chh3/bluetooth_not_working_on_ubuntu_2204/
+
+---
+
+#### 2155. i wanna install steam on a ubuntu based Os (Educand Os)
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4gurk/i_wanna_install_steam_on_a_ubuntu_based_os/
+
+---
+
+#### 2156. Is it possible to transfer data from a dual‑boot setup (of one operating system) to another computer while preserving all the data?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4gnfd/is_it_possible_to_transfer_data_from_a_dualboot/
+
+---
+
+#### 2157. What Microsoft Office alternative do you recommend when your team uses it?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4fwql/what_microsoft_office_alternative_do_you/
+
+---
+
+#### 2158. Increase gamma in wayland?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4e4ti/increase_gamma_in_wayland/
+
+---
+
+#### 2159. Why Ubuntu never managed to fix BLE connection?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4crgc/why_ubuntu_never_managed_to_fix_ble_connection/
+
+---
+
+#### 2160. Black Circle
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4bbp1/black_circle/
+
+---
+
+#### 2161. Best "gaming" distro for general use? (Nvidia GPU)
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4ead4/best_gaming_distro_for_general_use_nvidia_gpu/
+
+---
+
+#### 2162. Which distro? Complete noob looking to switch from windows
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4ctwp/which_distro_complete_noob_looking_to_switch_from/
+
+---
+
+#### 2163. Playing team fortress 2 crashes my whole system momentarily after the newest update (fedora plasma kde version 44)
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4fl03/playing_team_fortress_2_crashes_my_whole_system/
+
+---
+
+#### 2164. Looking for a GUI feature, does it exist?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4busw/looking_for_a_gui_feature_does_it_exist/
+
+---
+
+#### 2165. Application Packaging, Deployment and Endpointmanagement for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4ifyj/application_packaging_deployment_and/
+
+---
+
+#### 2166. Launching a program through Terminal
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4iam3/launching_a_program_through_terminal/
+
+---
+
+#### 2167. How do you image a signle system?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4e3fg/how_do_you_image_a_signle_system/
+
+---
+
+#### 2168. Switching from W11 to Linux - Equalizer APO question
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4bfa8/switching_from_w11_to_linux_equalizer_apo_question/
+
+---
+
+#### 2169. Need some help
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4cnz7/need_some_help/
+
+---
+
+#### 2170. Allyas: turning messy shell aliases into managed POSIX functions (looking for feedback)
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t4emvf/allyas_turning_messy_shell_aliases_into_managed/
+
+---
+
+#### 2171. termbook – browsable HTML galleries from CLI output, with diff-on-PR (Apache-2.0)
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t4bg12/termbook_browsable_html_galleries_from_cli_output/
+
+---
+
+#### 2172. [V2EX] 当敲代码如呼吸一样简单，程序员还剩下什么？
+
+**问题描述 / Problem Description**:
+项目开源两个星期，收获了近 400 个 star ，非常开心。这个速度虽然不算快，但是我已经很知足了。因为我大部分的时间都拿去做产品了，也没怎么去宣传。 五一这五天陆陆续续增加了一些新功能。现在写代码真的太简单了，基本上只要把需求描述清楚，AI 就能够一次把代码写对。唯一比较花时间的，可能就是把需求想清楚。总的来说，现在写代码基本上不是瓶颈了。 我最近在思考一个问题：当写代码不再是瓶颈的时候，什么东西会成为程序员的核心竞争力？我觉得至少有两个东西是重要的：第一个是想象力，或者说创造力，也就是能不能创造出一些新的东西，想出一些别人没想到的东西。这个能力在任何时代都是稀缺的。第二个是推广能力，当一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210368#reply4
+
+---
+
+#### 2173. [V2EX] 本地 API Proxy： Anthropic / OpenAI Chat / Responses 互转，支持 DeepSeek
+
+**问题描述 / Problem Description**:
+最近在深度试用几家国产大模型，但几乎清一色都还是 OpenAI Chat Completions 接口，导致在较新的 Codex CLI 里没法直接用。 于是在开源工具 VibeAround 的命令行一键启动功能上，加了一个 local API proxy ，主要解决 coding agent 和模型 provider 之间 API 格式不一致的问题。 现在可以在 Anthropic Messages / OpenAI Chat Completions / OpenAI Responses 之间做转换和适配，比如把 Claude 模型跑到 Codex CLI 里，或者把 OpenAI 模型跑到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210354#reply4
+
+---
+
+#### 2174. [V2EX] ChatGPT Plus 的 APP 现在是不是不能订阅升级了？
+
+**问题描述 / Problem Description**:
+ChatGPT Plus 的 APP 现在是不是不能订阅升级了？ 我下午 5 点多折腾到现在，一直显示“应用内购买目前不可用” ，我去好多网站搜了，结果发现基本没有答案，连相关的关键词都没有，甚至我从新买了另一个节点，还是没办法订阅。结果在 X 里有人评论晒图，也是跟我一样的状态，订阅难道目前被官方锁了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210346#reply12
+
+---
+
+#### 2175. [V2EX] 用中转站省钱，怎么知道没踩坑？
+
+**问题描述 / Problem Description**:
+用中转站这件事，大家心里其实都有一个问号。 价格比官方低一半甚至更多，背后到底是怎么做到的？模型是真的吗？ token 计量准丈准？请求有没有经过二次处理？ 一个中转站理论上可以看到你的明文请求，包括 system prompt 、API key 、tool call 参数、代码执行指令。它与一定只是"转发"，还可能： - 用便宜模型冒充高价模型 - 截断长上下文但按正常方式收费 - 伪造流式输出或 usage 字段 - 改写 tool call 里的安装命令、URL 、钱包地址 - 注入隐藏 system prompt 或广告追踪 之前有篇论文在 Twitter 上爆火，研究者系统测试了 2
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210326#reply5
+
+---
+
+#### 2176. [V2EX] 抖音小游戏&微信小游戏的难度和收益如何？
+
+**问题描述 / Problem Description**:
+想额外做些内容，能有点稳定收益，这样更踏实点，微信小视频刚有些收益，AI 风控又要求真人出镜验证。想做些简单的抖音小游戏或者微信小游戏，想问下这种的难度大概是什么样? 因为本身没做过游戏，另外就是上线流程复杂吗？ 纯个人这种，上线后的收益如何呢？以正常个人流量这种。是不是还要额外购买服务器内容。 另外抖音的特效是不是相对好做一些呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210306#reply8
+
+---
+
+#### 2177. [V2EX] 有没有最近用天翼云或者 ollama 的朋友
+
+**问题描述 / Problem Description**:
+因为比较刚需 GLM5.1 ，所以想问问最近有没有在使用天翼云或者在 ollama cloud 里用 GLM5.1 的朋友。工作日和高峰期能用吗？速度和稳定性咋样？感谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210261#reply17
+
+---
+
+#### 2178. [V2EX] Vibe Coding 手搓了个 macos 的用量查看应用
+
+**问题描述 / Problem Description**:
+平时用 codex 和 cc + glm ，订阅了一堆服务，每天都要到各个网站查看很多次用量。 于是干脆手搓了一个 UsageBoard App ，用来查看所有订阅的用量。 目前支持 Codex 、智谱（ ZAI ）、DeepSeek 、MiniMax 、Tavily ，全部基于官方 API 。 其中 Codex 和智谱支持查看 token 用量统计图表，智谱用的官方 API ，Codex 基于本地会话分析。 功能特性 菜单栏常驻，点击图标打开快速预览。 支持分组展示和标签页展示。 支持手动刷新、定时刷新、单卡片刷新、退出按钮。 插件化用量查询，插件可独立配置刷新间隔和参数。 插件图标支持，从
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210246#reply6
+
+---
+
+#### 2179. [V2EX] 当我 VIbeing 的时候遇到了一些问题
+
+**问题描述 / Problem Description**:
+我以前很享受写代码带来的心流状态。当我尝试使用 Vibe 的时候，我遇到了 AI 几乎把原来我心流夺走的情况。原来调试 bug 让我烦躁，现在也是一样的。 我现在无法享受 VIBE 带来的快感，一直都停在调试 bug 的烦躁状态。当我想要去修改功能的时候，ai 在操作，我就会不受控制的去分神，去做一些其他的事情（刷网页）然后再回来点击 ok ，然后再去分神，再去回来。一直在这种状态切换中。 我想问一下大家都是怎么做的，如何使用 vibe 编程提高效率的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210222#reply12
 
 ---

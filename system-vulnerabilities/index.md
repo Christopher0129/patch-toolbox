@@ -11,6 +11,6 @@
 |---|---|---|
 | Windows | 546 | [windows.md](windows.md) |
 | Linux | 1053 | [linux.md](linux.md) |
-| Macos | 952 | [macos.md](macos.md) |
+| Macos | 990 | [macos.md](macos.md) |
 
 ---
