@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1935**
+**总计条目 / Total entries: 1982**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -29362,5 +29362,616 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210348#reply5
+
+---
+
+#### 1936. How do I resize a photo?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t584bo/how_do_i_resize_a_photo/
+
+---
+
+#### 1937. Airdrop—-90% v. 10% annoying
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t57a30/airdrop90_v_10_annoying/
+
+---
+
+#### 1938. how should i advertise my app for macos?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t55soi/how_should_i_advertise_my_app_for_macos/
+
+---
+
+#### 1939. battery drain
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t55oud/battery_drain/
+
+---
+
+#### 1940. Email space
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t55c80/email_space/
+
+---
+
+#### 1941. It doesn't solve your problems! On top of that, they act like cocky!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t53tdu/it_doesnt_solve_your_problems_on_top_of_that_they/
+
+---
+
+#### 1942. iPhone 17 Outselling Every Other Phone Worldwide So Far This Year
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t58ik6/iphone_17_outselling_every_other_phone_worldwide/
+
+---
+
+#### 1943. First Macbook
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t549u2/first_macbook/
+
+---
+
+#### 1944. MacBook Neo is selling like crazy
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t57ogw/macbook_neo_is_selling_like_crazy/
+
+---
+
+#### 1945. MST Macbook Pro help
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t5865q/mst_macbook_pro_help/
+
+---
+
+#### 1946. M4 vs M5
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t57vj9/m4_vs_m5/
+
+---
+
+#### 1947. How much acceleration do you have to subject a MacBook to before its hardware starts breaking? In which directions?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t579jl/how_much_acceleration_do_you_have_to_subject_a/
+
+---
+
+#### 1948. Should I get an intel mac? (read desc)
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t52znx/should_i_get_an_intel_mac_read_desc/
+
+---
+
+#### 1949. Stage manager keyboard command
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t56sxm/stage_manager_keyboard_command/
+
+---
+
+#### 1950. MacBook pro 2020 m1 still worth it ?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t52r4z/macbook_pro_2020_m1_still_worth_it/
+
+---
+
+#### 1951. Improving the performance of MacBook Pro M2
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t56kbc/improving_the_performance_of_macbook_pro_m2/
+
+---
+
+#### 1952. macbook upgrade or possibly ipad purchase?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t55bnc/macbook_upgrade_or_possibly_ipad_purchase/
+
+---
+
+#### 1953. How can I update to MacOS Sequoia?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t53wcb/how_can_i_update_to_macos_sequoia/
+
+---
+
+#### 1954. MacBook Air M5 or MacBook Neo
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t536fn/macbook_air_m5_or_macbook_neo/
+
+---
+
+#### 1955. Guys, what am I supposed to do next?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t55nl5/guys_what_am_i_supposed_to_do_next/
+
+---
+
+#### 1956. What does this star mean on Apple Music?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t56ol7/what_does_this_star_mean_on_apple_music/
+
+---
+
+#### 1957. Logic pro device not compatible
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t55cbt/logic_pro_device_not_compatible/
+
+---
+
+#### 1958. Account Recovery?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t57jjb/account_recovery/
+
+---
+
+#### 1959. Original Account/Phone Set up
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t57fgm/original_accountphone_set_up/
+
+---
+
+#### 1960. black thing popping out
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t56xhb/black_thing_popping_out/
+
+---
+
+#### 1961. am i the only one this stupid?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t56t4x/am_i_the_only_one_this_stupid/
+
+---
+
+#### 1962. AirPods Pro 3 Connection Problem
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t56mmk/airpods_pro_3_connection_problem/
+
+---
+
+#### 1963. Says to enter old password to change to new but there never was one
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t566ij/says_to_enter_old_password_to_change_to_new_but/
+
+---
+
+#### 1964. Refund question
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5607w/refund_question/
+
+---
+
+#### 1965. iPhone question. For anyone with extensive iPhone knowledge.
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t55dne/iphone_question_for_anyone_with_extensive_iphone/
+
+---
+
+#### 1966. Blocked someone a couple of days ago and they just now appear to be typing…glitch?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t55bod/blocked_someone_a_couple_of_days_ago_and_they/
+
+---
+
+#### 1967. iPad updated overnight - how long does the “ID Submitted, Verification may take a while” screen last?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t553wi/ipad_updated_overnight_how_long_does_the_id/
+
+---
+
+#### 1968. meu iphone está desde ontem sem pegar 4G/5G
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t544wk/meu_iphone_está_desde_ontem_sem_pegar_4g5g/
+
+---
+
+#### 1969. Are my AirPods done for?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t53p99/are_my_airpods_done_for/
+
+---
+
+#### 1970. Adding songs into playlists is very slow on Apple Music
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t53349/adding_songs_into_playlists_is_very_slow_on_apple/
+
+---
+
+#### 1971. [V2EX] Mac 新手 SSH 客户端推荐
+
+**问题描述 / Problem Description**:
+这几天 WinTerm 弹出即将结束对 M 系列 Mac 的支持，有没有其他一样免费好用的 SSH 工具推荐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210520#reply46
+
+---
+
+#### 1972. [V2EX] 受够了 Mac OS 上 Finder 的搜索体验，写了个 macOS 文件搜索工具
+
+**问题描述 / Problem Description**:
+用 Mac 这么多年，想找个文件每次用 Finder 都很难精准定位，搜索结果出来一堆没用的文件，真正要找的东西反而埋在下面。 索性自己写了一个，叫 AnySearch 。思路很简单：只做文件搜索，把这一件事做到极致。 简单说下它能干嘛： 快：百万级文件，搜索结果 3 毫秒出来 搜索语法：支持 ext:pdf 、size:>100mb 、modified:today 这种组合查询，不用再一个个翻文件夹了 实时更新：实时感知文件变化，改了文件不到半秒就能查了 全局快捷键：⌥Space 随时呼出，用完就走 隐私：纯本地运行，不联网，不收集任何数据 原生 Swift 开发，Mac App Store
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1208046#reply8
+
+---
+
+#### 1973. [V2EX] 淘宝会因为在不同城市给封号吗
+
+**问题描述 / Problem Description**:
+五一去了河北，现在在北京，这两天因为想要买合适的东西搜索的比较多。今天正浏览的时候弹出封号信息了。 用了 16 年的老帐号，是因为这个被风控封号了吗？给出的原因是疑似爬虫。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210622#reply2
+
+---
+
+#### 1974. [V2EX] 婚庆 1 个 w 贵不贵 值不值
+
+**问题描述 / Problem Description**:
+如题，跟对象五一找了个年底的婚庆，签了 10600 的合同，包含所有费用。贵吗？ 我对象其实一直不想要这种仪式 觉得浪费时间 她想讲两句直接开席，但是我觉得有点仪式感挺好，毕竟人生可能就这一次了 我们刚开始问的第一家报价是 1.4w 全包，最后选了这个 1.06w 的，地址：巴中 贵吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210616#reply11
+
+---
+
+#### 1975. [V2EX] 推荐哥们做的中转站，稳定 5 个 plus 账号跑，人再国外。
+
+**问题描述 / Problem Description**:
+网址放着了，0.3 倍率，不掺水 https://api2code.net
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210637#reply0
+
+---
+
+#### 1976. [V2EX] 分享一下在京东购买的二手手机绿线售后经历 , 维权真的太难了 .
+
+**问题描述 / Problem Description**:
+记一次艰难的维权记录 前提 2025 年 12 月中旬，我一时想换个安卓手机玩玩，就在京东二手平台花 885 元买了一台三星 S20 。手机到手后只体验了两天，后面基本就闲置在桌上，没怎么用，只是没电了充充电，一直很爱惜，没有磕碰或摔过。 维权完整时间线 2026 年 3 月 31 日 手机在桌上静置时突然出现竖向绿线。我当天就联系商家申请售后，结果我都没发照片给商家看，商家就直接说这是人为损坏，不给保修。 我马上找京东介入，最后协商的结果是：我把手机寄回商家检测，如果是质量问题就正常保修；如果是人为损坏，就原路寄回，不免费维修。我当时是直接同意了，因为这本身不是我人为损坏的，到底是什么原因造
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210613#reply2
+
+---
+
+#### 1977. [V2EX] OPC 一人公司最佳编程装备，这样工作的人已经开始赚钱了!
+
+**问题描述 / Problem Description**:
+很多人说我是卷王，每天又要管理公司，又要写代码，还要处理各种各样杂七杂八的事情，最关键的是发版本还发的这么勤。 你们还是好奇我是怎么写代码的，其实很简单，就是边走边写，边想边写，随时随地写，和陪老婆逛街的时候也写。 所以写代码时，我是程序员 走路思考时，我是产品经理 发布版本更新时，我是项目经理 同时，我还是这个这个项目的老板 这种形式其实就是在做 OPC ，一个人身兼多职，全部用下发任务给 AI 的方式来做，真正需要的是一套成体系的系统能把整个流程串起来，让你把 AI 用出花来，不用再局限于当下每天在工位上，利用碎片时间扮演其他角色，做自己的副业，做仅一人公司，而不是单纯 AI 界面呈现在手
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210569#reply13
+
+---
+
+#### 1978. [V2EX] 中转站果然是个好生意啊，特朗普都来了
+
+**问题描述 / Problem Description**:
+没错，就是那个特朗普，现在开会员还能抽奖海湖庄园私人聚会门票一张 https://worldclaw.ai/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210560#reply7
+
+---
+
+#### 1979. [V2EX] 我做 AI 工具站时踩过的 7 个坑
+
+**问题描述 / Problem Description**:
+1.自己做的屎自己吃。 自己做的过程中会发现很多设计不人性化的地方，才会逐步改进。 2.最好用授权码登陆，省事。邮箱手机验证码对于用户耗时耗力。再不济介入微信订阅号 ,github 登陆 3.不要从头开发，最好在 github 找一些可以直接复用的项目，二次开发 4.基本现在的 AI 应用都是 api 套壳，所以找一家靠谱的 new-api 中转，保证接口稳定性很重要 5.现在所有的付费客户都是优质客户，一定要保存邮箱 电话 等联系方式，以后自己的项目也可以借助 elasticeMail 来推广到这些优质客户 6.任何项目都是有盈利的生命周期的，盈利周期结束的原因可能是 官方修复修复了某个 b
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210531#reply1
+
+---
+
+#### 1980. [V2EX] 京东发票抽奖的工具
+
+**问题描述 / Problem Description**:
+上个月 fork 了一个老哥的京东发票抽奖工具，然后加入了一键重开，一键合开的功能，京东发票还没抽完的 v 友可以试试我的工具。 https://github.com/zanderzhng/jd-invoice-tool
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210521#reply7
+
+---
+
+#### 1981. [V2EX] 做了一个 YouTube 双语字幕插件，谷歌审核等了一个月终于过了
+
+**问题描述 / Problem Description**:
+最近做了一个 Chrome 插件，叫 TubeLingo ，主要是给经常用 YouTube 学语言的人用的。 网址是： https://www.tubelingo.net 一开始其实只是想解决我自己的问题：看 YouTube 英文视频时，原生字幕不太适合学习。比如想同时看原文和翻译，遇到生词想顺手查一下，想把字幕保存下来复习，或者长视频想先看个摘要，原来的流程都比较割裂。 所以做了这个插件，目前主要能力是： 在 YouTube 上显示双语字幕 自动翻译字幕 鼠标悬停查单词 保存生词，之后可以集中复习 生成视频 AI 摘要 和视频内容进行 AI 问答 导出字幕为 SRT ，方便后续整理或学习 比
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210494#reply8
+
+---
+
+#### 1982. [V2EX] 千篇一律的"用 AI 制作了一个***工具"，与其说是工具还不如说是玩具
+
+**问题描述 / Problem Description**:
+有没有同感的。ai 能做的东西门槛太低了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210472#reply3
 
 ---

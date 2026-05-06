@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2265**
+**总计条目 / Total entries: 2308**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -37226,5 +37226,564 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210326#reply7
+
+---
+
+#### 2266. thinking of switching from (wm)niri to (de)kde, is it worth it?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t57oqx/thinking_of_switching_from_wmniri_to_dekde_is_it/
+
+---
+
+#### 2267. Lerd v1.19, rootless-Podman local PHP dev env for Linux, follow-up since 1.0
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t56b03/lerd_v119_rootlesspodman_local_php_dev_env_for/
+
+---
+
+#### 2268. What is a power user?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t560tn/what_is_a_power_user/
+
+---
+
+#### 2269. Copy Fail (CVE-2026-31431) on chroot jailed account
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t53pp4/copy_fail_cve202631431_on_chroot_jailed_account/
+
+---
+
+#### 2270. Music production on linux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t55m9p/music_production_on_linux/
+
+---
+
+#### 2271. Persistent Boot Loop and Kernel-related BSOD on Lenovo IdeaPad Gaming 3 15ARH7
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t565qp/persistent_boot_loop_and_kernelrelated_bsod_on/
+
+---
+
+#### 2272. Linux and newer laptops
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t55o9y/linux_and_newer_laptops/
+
+---
+
+#### 2273. Audio setup help. My sinks are not suspending and stuck at 48kHz.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t53jug/audio_setup_help_my_sinks_are_not_suspending_and/
+
+---
+
+#### 2274. USB to ethernet adapter stopped working with Linux Mint (Kernel updates?)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t53gh1/usb_to_ethernet_adapter_stopped_working_with/
+
+---
+
+#### 2275. Followup Post from : Is Fedora or RedHat based on Either Or.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5668d/followup_post_from_is_fedora_or_redhat_based_on/
+
+---
+
+#### 2276. I really need help
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t53brw/i_really_need_help/
+
+---
+
+#### 2277. Dual Boot Windows
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t56coo/dual_boot_windows/
+
+---
+
+#### 2278. New on Ubuntu looking for advice
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t57216/new_on_ubuntu_looking_for_advice/
+
+---
+
+#### 2279. Ubuntu 24.04 - Laptop wakes immediately after suspending
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t52jc4/ubuntu_2404_laptop_wakes_immediately_after/
+
+---
+
+#### 2280. Switching from Windows: Which Linux Distribution Fits My Needs?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t58g5x/switching_from_windows_which_linux_distribution/
+
+---
+
+#### 2281. Dual booting or external SSD drive
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t57f30/dual_booting_or_external_ssd_drive/
+
+---
+
+#### 2282. When using the file system, I cannot move or edit any files. This is my personal computer with no other accounts
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t53dfm/when_using_the_file_system_i_cannot_move_or_edit/
+
+---
+
+#### 2283. can you have multiple home partitions
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t56xt9/can_you_have_multiple_home_partitions/
+
+---
+
+#### 2284. Best way to install onlyoffice? .deb vs snap vs apt? Kubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t56uvf/best_way_to_install_onlyoffice_deb_vs_snap_vs_apt/
+
+---
+
+#### 2285. Planning to upgrade to linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t56lbi/planning_to_upgrade_to_linux/
+
+---
+
+#### 2286. MiniOS thoughts?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t55ouy/minios_thoughts/
+
+---
+
+#### 2287. deltoids: a git diff pager with more context
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t55c2z/deltoids_a_git_diff_pager_with_more_context/
+
+---
+
+#### 2288. Refining a Zsh hardware lookup utility: Looking for technical feedback and community data
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t57cku/refining_a_zsh_hardware_lookup_utility_looking/
+
+---
+
+#### 2289. [V2EX] 苹果最新妙控触摸板和 Linux 适配的好吗?
+
+**问题描述 / Problem Description**:
+鼠标滑轮有点粘手,打算试试苹果的触摸板,就是不知道适配的怎样.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210536#reply8
+
+---
+
+#### 2290. [V2EX] 既然 ai coding 这么强大了，咱们来上点强度如何？
+
+**问题描述 / Problem Description**:
+去年公司安全部门要求我们升级 openssl ，因为安全漏洞。 于是我打算升级，但这玩意，被依赖的厉害，linux 的很多基础功能，都依赖它。 一旦 openssl 升级，动态库某些符号发生变化，依赖它的软件，势必发生问题。 比如 ssh 还一个 curl ，也不敢覆盖升级。 折中方式是，在 /usr/local/ 这里，新建个文件夹，比如 openssl_3.3 类似这种。 然后，你的 app 在编译时，依赖新的 openssl 世界就是这么不完美。 我想说： 既然 ai coding 如此厉害，那么，咱们是不是可以利用 ai ，来自己定制自己的 linux 呢？ 也就是，直接找源码，然后一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210634#reply0
+
+---
+
+#### 2291. [V2EX] 他们说我这个软件的图标像麻豆传媒，这对吗？🥲
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210632#reply2
+
+---
+
+#### 2292. [V2EX] deepseek 出问题了？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210619#reply3
+
+---
+
+#### 2293. [V2EX] Mem0 好野鸡啊，代码拉下来，我和 chatgpt 一起修复了 13 个 bug，才能正常用，一看 github， pr 都提交 1 周多了，就是把不合并
+
+**问题描述 / Problem Description**:
+我的 agent 推荐这个记忆库，真的太难受了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210610#reply10
+
+---
+
+#### 2294. [V2EX] 古法编程段子，梦回当年！
+
+**问题描述 / Problem Description**:
+快过年了,不要再讨论什么 Spring 、Mybatis 源码、微服务 之类的了。你带个破电脑回到家并不能给你带来任何实质性作用,朋友们兜里掏大把钱吃喝玩乐,你默默的在家里摆弄你的破烂框架。 亲戚朋友吃饭问你收获了什么,你说我做了个框架,把 JPA 、Mybatis 、Hibernate 的优点都结合了一遍。亲戚们懵逼了,你还在心里默默嘲笑他们,笑他们不懂你的设计模式,不懂你的算法。 你父母的同事都在说自己的子女今年的收获,儿子买了个房,女儿买了个车。你的父母默默无言,说我的儿子搞了个破电脑,开起来嗡嗡响,家里电表走得越来越快了。 而你还在想,明年是学 Spring Native, 还是 Ve
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210601#reply7
+
+---
+
+#### 2295. [V2EX] 近期发现有 v 友购买了正价 Claude/Openai 订阅后，疑似被诱导将账号用于反向代理（反代转 API）。提醒大家：将账号反代为 API 使用属于严重违反 TOS 的行为，一经检测账号将被封禁（返回 401）。
+
+**问题描述 / Problem Description**:
+近期发现有 v 友购买了正价 Claude/Openai 订阅后，疑似被卖家诱导将账号用于反向代理（反代转 API ）。提醒大家：将账号反代为 API 使用属于严重违反 TOS 的行为，一经检测账号将被封禁（返回 401 ）。相关帖子见楼下，请大家提高警惕，避免被套路。 建议 拼车时要求对方提供独立邮箱登录 + 2FA / OAuth 权限，而不是只收到一个 API 地址——后者很可能是套壳中转，并非你真正持有的账号。 https://www.v2ex.com/t/1210577 https://www.v2ex.com/t/1210117 https://www.v2ex.com/t/120
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210585#reply0
+
+---
+
+#### 2296. [V2EX] 海鲜市场已经开始屏蔽 chatgpt codex 克劳德等关键字了，大家怎么找新的靠谱渠道?
+
+**问题描述 / Problem Description**:
+五一放假回来，发现海鲜市场买的 codex 包月过期了，准备故技重施，结果相关关键字都给屏蔽了，搜不出来任何内容了，请问大家找到新的渠道了吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210584#reply3
+
+---
+
+#### 2297. [V2EX] 一个新的编程语言排行榜：基于 30 天内 github 活跃仓库数量
+
+**问题描述 / Problem Description**:
+个人觉得 TIOBE 基于搜索引擎查询量来对编程语言排名非常不靠谱，特别是在 AI 时代。所以我使用 github 数据做了一个新的编程语言排行榜与趋势图。 从 2026 年 4 月 20 号开始，每天快照一次最新数据。 代码都是开源的，网页托管在 cloudflare 。 网址: https://langpulse.top Github: https://github.com/doraemonkeys/LangPulse
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210583#reply12
+
+---
+
+#### 2298. [V2EX] 买三个 GPT Pro 20x 套餐，放 CPA 给小团队用是否可行？
+
+**问题描述 / Problem Description**:
+不是很想碰中转站
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210577#reply12
+
+---
+
+#### 2299. [V2EX] 求助大佬，如何解决公司局域网的 802.1x 认证
+
+**问题描述 / Problem Description**:
+公司局域网需要安装终端准入软件，用于检测电脑上是否安装如下两个毒瘤软件： 奇安信天勤 天空卫士 SkyGuard （屏幕水印） 只有安装了上面的三款软件，才能通过 802.1x 认证。奇安信装好之后电脑只是卡，勉强还能接受。后来公司又要求安装天空卫士，满屏的水印🤮。个人有洁癖，完全接受不了这个。 抓包看过终端准入软件的数据包，像是私有协议，感觉利用造数据包通过 802.1x 认证的难度比较大。因此想通过伪造进程的方式让终端准入软件以为我安装并运行了毒瘤软件，已通过 802.1x 认证。因为是这方面的小白，想请教大佬们给点相关解决思路。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210570#reply19
+
+---
+
+#### 2300. [V2EX] 我对智能体的理解
+
+**问题描述 / Problem Description**:
+好久没上 V2EX 了，一直在写这个芋艿头智能体。 我对个人智能体理解： 纯自然语言交互，不要有任何程序员的视角 浏览器是一等公民，就像你日常使用的浏览器，但是通过 playwright 完成常规交互，使用 computer 工具如果需要视觉理解。 在交谈中创建任务，执行任务，修正任务，纯业务逻辑描述。 不使用破解技术去登陆站点，采用交互模式合法人工登陆，比如登陆闲鱼，任务使用同一个浏览器因此可以保持登陆，要登陆 V2EX 也是一样的道理。 一个任务可以看作一个 project ，是由智能体自己维护的小项目，它不单单是代码，它是 llm 自己创建的包括 llm 调用，结果验证，script 等
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210529#reply0
+
+---
+
+#### 2301. [V2EX] ai 外挂大脑搭配
+
+**问题描述 / Problem Description**:
+“全知个人版”六位一体整合方案 综合全网技术博客与 Reddit 社区深度评测，专为个人开发者打造的 顶配 AI 编程外脑架构 。 🧠 核心架构：六边形全景感知 本方案将 AI 编程从“单向问答”升级为“多传感器融合”的深度协同，确保每一次代码生成都精准契合你的个人习惯与项目上下文。 阶段 核心工具 个人化行为感知描述 感知 Serena 识别你当前的类型定义，确保生成的代码绝对符合你习惯的强类型风格。 导航 GitNexus 快速定位你当前正在写的代码块坐标，绑定时空上下文。 外部查阅 Context7 补全你还没背熟的第三方库 API ，拒绝幻觉，直连官方最新文档。 逻辑分析 CodeGr
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210528#reply1
+
+---
+
+#### 2302. [V2EX] 让 AI 去 mjj， AI 会掉进营销陷阱吗？问 GPT-5.5 $7/y 服务器选型，它推荐家人云。
+
+**问题描述 / Problem Description**:
+问 GPT-5.5 $7/y 服务器选型，它推荐了家人云 BitsFlowCloud 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210526#reply2
+
+---
+
+#### 2303. [V2EX] 碰到个神奇的事： Codex 的剩余额度一直显示 100%，怎么用都不减
+
+**问题描述 / Problem Description**:
+有点费解，也没搜到类似情况，反而有点慌。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210518#reply7
+
+---
+
+#### 2304. [V2EX] Trellis v0.5 正式发布！
+
+**问题描述 / Problem Description**:
+安装： npm install -g @mindfoldhq/trellis 从 0.4.x 升级： trellis update --migrate （ --migrate 必须加 —— breaking-change gate 会拦下没加的，详见下文"迁移流程"） 1. /start 不再是必需入口 之前每次会话开始需要 /start 加载 Trellis 上下文，再开始描述需求。现在直接自然语言描述需求就进入 Trellis 工作流，无需手动启动命令。 如果习惯先手动 start 一下再开始对话，现在 /trellis:continue 直接替代 /start 当起手命令；不放心也可以
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210513#reply1
+
+---
+
+#### 2305. [V2EX] all in boom 了，零刻是真该死啊
+
+**问题描述 / Problem Description**:
+我买的零刻 ser7 送了一个系统盘，昨天因为 win11 系统启动十来回一直报错，我就想着进 pe 修复一下，选择了用这个系统盘启动，有意思的来了 开机后我全程没动鼠标键盘，这个系统盘自动把我 4t 的数据盘格式化了 我找京东店铺客服让他协助我恢复数据，他让我找零刻售后，打电话给售后叫我联系购买平台，再联系京东告诉我数据无法恢复，这个系统盘会随机选择一个硬盘进行格式化 很难想象这是人类设计出来的产品 另外求高手指导如何恢复这个磁盘。或者找点数据出来，我自己用 testdisk 试过不行。 我这个 4t 的盘是 ceph 的 osd ，格式是 bluestore ，k8s 存储类是 ceph-
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210507#reply10
+
+---
+
+#### 2306. [V2EX] opencode go 的 deepseek v4 flash 也开始 429 了？
+
+**问题描述 / Problem Description**:
+，今天调用报 bad response status code 429, message: Error from provider (DeepSeek): Too many requests. Please pace your requests reasonably. Your current concurrency: 2000, body: {"error":{"message":"Error from provider (DeepSeek): Too many requests. Please pace your requests reasonably. Your current conc
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210501#reply13
+
+---
+
+#### 2307. [V2EX] 请问有没有内容过滤系统推荐
+
+**问题描述 / Problem Description**:
+帮朋友搞 TK 直播, 搭建了一些节点, 怕主播乱搞, 想问一下有没有集中管理的内容过滤系统? 这样服务端部署在一台机器, 然后其他所有节点装客户端, 通过服务端来输入一些关键词/屏蔽网站来限制主播们的潜在出轨行为?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210464#reply3
+
+---
+
+#### 2308. [V2EX] v 友你们用什么 coding plan，我是说国内 v 友
+
+**问题描述 / Problem Description**:
+突然阿里只卖 PRO ，智谱要秒杀，字节也要秒杀。感觉都玩起了饥饿营销。。Kimi 目前还不用秒杀。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210455#reply38
 
 ---

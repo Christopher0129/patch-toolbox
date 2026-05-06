@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1057**
+**总计条目 / Total entries: 1062**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -19210,5 +19210,85 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8230-1
+
+---
+
+#### 1058. [Ubuntu] USN-8234-1: Mako vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Mako incorrectly handled URIs with double-slash prefixes in TemplateLookup. A remote attacker could possibly use this issue to obtain sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8234-1
+
+---
+
+#### 1059. [Ubuntu] USN-8233-1: nghttp2 vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Andrew MacPherson discovered that nghttp2 did not properly validate internal state when the session termination API was called. A remote attacker could possibly use this issue to cause nghttp2 to crash, resulting in a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8233-1
+
+---
+
+#### 1060. [Ubuntu] USN-8232-1: Django vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Django did not vary cached response headers on cookies when sessions were not modified while SESSION_SAVE_EVERY_REQUEST was enabled. A remote attacker could possibly use this issue to steal a user's session. (CVE-2026-35192) Kyle Agronick and Jacob Walls discovered that Django incorrectly handled ASGI requests with missing or understated Content-Length header values. A remot
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8232-1
+
+---
+
+#### 1061. [Ubuntu] USN-8229-1: sed vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Michał Majchrowicz and Marcin Wyczechowski discovered that sed incorrectly handled symbolic links when performing in-place edits. A local attacker could possibly use this issue to overwrite arbitrary files.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8229-1
+
+---
+
+#### 1062. [Ubuntu] USN-8227-1: curl vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that curl incorrectly reused non-TLS connections when TLS was required in some STARTTLS configurations. A remote attacker could possibly use this issue to obtain sensitive information. (CVE-2026-4873) It was discovered that curl incorrectly reused certain HTTP Negotiate connections. A remote attacker could possibly use this issue to obtain sensitive information. (CVE-2026-5545) I
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8227-1
 
 ---

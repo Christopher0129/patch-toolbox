@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2802**
+**总计条目 / Total entries: 2879**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -42189,5 +42189,1006 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210347#reply80
+
+---
+
+#### 2803. Where do I tell Windows to extract the BIOS update when installing via HirensBootCD on a Debian laptop?
+
+**问题描述 / Problem Description**:
+Tags: windows, debian, bios, updates, firmware | Score: 2 | Views: 32 | Answers: 1 | Created: 2026-05-06
+
+**解决方案 / Solution**:
+The C:\Boot directory should work in most cases, as it is mapped as drive C of the boot medium by WinPE. The mapping to X:\Boot is not recommended, as X drive might be a RAM drive created by WinPE that will no longer exist after the reboot. Before proceeding, however, make sure your BIOS update works with WinPE. Most of them are supposed to be run in full Windows installations and will fail at the reboot stage if there are no such systems installed on the computer. A note that should not be forgotten is that the failure of BIOS updating process will render the laptop unbootable.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937361/where-do-i-tell-windows-to-extract-the-bios-update-when-installing-via-hirensboo
+
+---
+
+#### 2804. Hard Drive Is Not Being Detected Properly In Windows
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t56z91/hard_drive_is_not_being_detected_properly_in/
+
+---
+
+#### 2805. My windows 11 forced an update on my PC that I did not want.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t586r2/my_windows_11_forced_an_update_on_my_pc_that_i/
+
+---
+
+#### 2806. Windows 11 installation stuck at 50% for hours
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t55rsn/windows_11_installation_stuck_at_50_for_hours/
+
+---
+
+#### 2807. How do I connect my phone to my laptop with USB?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t5769r/how_do_i_connect_my_phone_to_my_laptop_with_usb/
+
+---
+
+#### 2808. I can't find my VID or PID numbers anywhere on my USB drive
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t554pg/i_cant_find_my_vid_or_pid_numbers_anywhere_on_my/
+
+---
+
+#### 2809. aoddriver2.sys windows 11 upgrade
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t58cwt/aoddriver2sys_windows_11_upgrade/
+
+---
+
+#### 2810. RTX 4080 Super not pulling more than 150 watts
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t585w4/rtx_4080_super_not_pulling_more_than_150_watts/
+
+---
+
+#### 2811. BSOD: RQL_NOT_LESS_OR_EQUAL (0x0000000a)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t57w83/bsod_rql_not_less_or_equal_0x0000000a/
+
+---
+
+#### 2812. Monitor won’t turn on after power outage
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t53w5f/monitor_wont_turn_on_after_power_outage/
+
+---
+
+#### 2813. Context menu / right-click menu disappears within 1 second unless I hold down a keyboard key.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t53uvs/context_menu_rightclick_menu_disappears_within_1/
+
+---
+
+#### 2814. pink screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t56yyb/pink_screen/
+
+---
+
+#### 2815. Help with External Nvme ssd formatting stuck at 0 percent
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t56wfr/help_with_external_nvme_ssd_formatting_stuck_at_0/
+
+---
+
+#### 2816. Windows 11 Audio input problems
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t56tzs/windows_11_audio_input_problems/
+
+---
+
+#### 2817. "This application failed to start because side-by-side configuration is incorrect" but I can't install or uninstall any of it
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t56s7r/this_application_failed_to_start_because/
+
+---
+
+#### 2818. Keyboard keeps spamming a particular key I have pressed after a singular bleep
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t56r8j/keyboard_keeps_spamming_a_particular_key_i_have/
+
+---
+
+#### 2819. League of legends low fps in 5060
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t52rb0/league_of_legends_low_fps_in_5060/
+
+---
+
+#### 2820. new pc crashed and wont boot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t56o0b/new_pc_crashed_and_wont_boot/
+
+---
+
+#### 2821. Mousepad options
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t56bl3/mousepad_options/
+
+---
+
+#### 2822. Internet lags ONLY during calls/streams, normal otherwise, what could be wrong?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t56ai9/internet_lags_only_during_callsstreams_normal/
+
+---
+
+#### 2823. pc disconnects from wifi
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t5679h/pc_disconnects_from_wifi/
+
+---
+
+#### 2824. Computer screen blackout, everything gray, black, and laggy/slow upon return.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t5632k/computer_screen_blackout_everything_gray_black/
+
+---
+
+#### 2825. Pc stuttering on OS and games.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t562cg/pc_stuttering_on_os_and_games/
+
+---
+
+#### 2826. How do I change which app to open?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t55o9i/how_do_i_change_which_app_to_open/
+
+---
+
+#### 2827. Anyone else feeling overwhelmed?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t56wmq/anyone_else_feeling_overwhelmed/
+
+---
+
+#### 2828. Built a free M365 MFA Audit script — shows who has no MFA, weak MFA, and unprotected admins [GitHub]
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t55cs7/built_a_free_m365_mfa_audit_script_shows_who_has/
+
+---
+
+#### 2829. Helpdesk to Sysadmin — looking for honest advice from people who've made the jump
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t52int/helpdesk_to_sysadmin_looking_for_honest_advice/
+
+---
+
+#### 2830. Microsofts EWS deprecation is driving me mad...
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t554zr/microsofts_ews_deprecation_is_driving_me_mad/
+
+---
+
+#### 2831. Azure Arc Servers being removed from Azure Update Manager
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t58b34/azure_arc_servers_being_removed_from_azure_update/
+
+---
+
+#### 2832. Android app to check TLS cert expiry, TCP ports and HTTP endpoints Latency/Status
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t58a1o/android_app_to_check_tls_cert_expiry_tcp_ports/
+
+---
+
+#### 2833. Does Anyone know when the UI part of K2 updates will come?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t534kz/does_anyone_know_when_the_ui_part_of_k2_updates/
+
+---
+
+#### 2834. Need help: potential PC upgrade or should I buy a new PC?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t56x39/need_help_potential_pc_upgrade_or_should_i_buy_a/
+
+---
+
+#### 2835. Parts list help or advice
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t58ez8/parts_list_help_or_advice/
+
+---
+
+#### 2836. Trying to decide which upgrade path to take
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t588bd/trying_to_decide_which_upgrade_path_to_take/
+
+---
+
+#### 2837. missing PSU SATA cable
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t587gj/missing_psu_sata_cable/
+
+---
+
+#### 2838. extension cable mod
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t5867s/extension_cable_mod/
+
+---
+
+#### 2839. Gpu burned and i don't know why it did
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t583ou/gpu_burned_and_i_dont_know_why_it_did/
+
+---
+
+#### 2840. Help please
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t57x0i/help_please/
+
+---
+
+#### 2841. Build più sbilanciata di sempre?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t57ou2/build_più_sbilanciata_di_sempre/
+
+---
+
+#### 2842. 8GB GPU VRAM IN 2026 1080P gaming
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t57nlq/8gb_gpu_vram_in_2026_1080p_gaming/
+
+---
+
+#### 2843. I'm thinking of making the jump to AM5
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t57n6i/im_thinking_of_making_the_jump_to_am5/
+
+---
+
+#### 2844. is this a good pc?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t57kqx/is_this_a_good_pc/
+
+---
+
+#### 2845. Pic build from scratch
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t57ha4/pic_build_from_scratch/
+
+---
+
+#### 2846. How to finalise my RX 9070 XT build ?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t57g6u/how_to_finalise_my_rx_9070_xt_build/
+
+---
+
+#### 2847. Adding a nvme ssd but ram disappears after install
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t57ddw/adding_a_nvme_ssd_but_ram_disappears_after_install/
+
+---
+
+#### 2848. Is this a good part list
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t57al9/is_this_a_good_part_list/
+
+---
+
+#### 2849. How do i clean drives to use it again?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t5747g/how_do_i_clean_drives_to_use_it_again/
+
+---
+
+#### 2850. What is the best bugget ssd 500GB for average gaming, loading streaming asset right now?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t56eue/what_is_the_best_bugget_ssd_500gb_for_average/
+
+---
+
+#### 2851. [News] TSMC Reportedly Upgrades Central Taiwan 28/22nm Fab to 4nm; Phase 2 1.4nm Trial Production May Start 3Q27
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t552mg/news_tsmc_reportedly_upgrades_central_taiwan/
+
+---
+
+#### 2852. Is soldered LPDDR on laptops really about the thinner form factor or planned obsolescence?
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t573b2/is_soldered_lpddr_on_laptops_really_about_the/
+
+---
+
+#### 2853. [Feedback wanted] Vorn – a local backup tool with deduplication and content-addressable storage. Be honest.
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t57xac/feedback_wanted_vorn_a_local_backup_tool_with/
+
+---
+
+#### 2854. I built an app for the anxiety of walking into therapy unprepared. Free forever, runs offline.
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t55gkh/i_built_an_app_for_the_anxiety_of_walking_into/
+
+---
+
+#### 2855. Barcode scanner app recommendation
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t5881f/barcode_scanner_app_recommendation/
+
+---
+
+#### 2856. Built a bulk image compressor that runs entirely in the browser... need honest feedback
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t56ktr/built_a_bulk_image_compressor_that_runs_entirely/
+
+---
+
+#### 2857. I got tired of context switching for common tools so I made them an always on top suit for Windows
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t54y88/i_got_tired_of_context_switching_for_common_tools/
+
+---
+
+#### 2858. Hot clone software for Windows? (clone system drive while running)
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t54my8/hot_clone_software_for_windows_clone_system_drive/
+
+---
+
+#### 2859. Built the notes app that I always wanted, launched this morning
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t543s7/built_the_notes_app_that_i_always_wanted_launched/
+
+---
+
+#### 2860. A Windows tool for scheduled SQL reports and automated notifications
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t53nzp/a_windows_tool_for_scheduled_sql_reports_and/
+
+---
+
+#### 2861. How I gave Claude a real long-term memory — and why it lives in a SQL database
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t55xla/how_i_gave_claude_a_real_longterm_memory_and_why/
+
+---
+
+#### 2862. [V2EX] 外部事项插入很多的前提下，如何坚持落实自己的规划
+
+**问题描述 / Problem Description**:
+rt ，如果每天基本上插入的事项占据了大半数的时间，那怎么落实对自己，对团队真正有价值的东西
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210636#reply0
+
+---
+
+#### 2863. [V2EX] 有稳定的 GPT Image 2 API 渠道嘛？
+
+**问题描述 / Problem Description**:
+求一个官方中转或者逆向的 都可以～ 一定要稳定
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210630#reply0
+
+---
+
+#### 2864. [V2EX] 淘宝会因为在不同城市给封号吗
+
+**问题描述 / Problem Description**:
+五一去了河北，现在在北京，这两天因为想要买合适的东西搜索的比较多。今天正浏览的时候弹出封号信息了。 用了 16 年的老帐号，是因为这个被风控封号了吗？给出的原因是疑似爬虫。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210622#reply1
+
+---
+
+#### 2865. [V2EX] 婚庆 1 个 w 贵不贵 值不值
+
+**问题描述 / Problem Description**:
+如题，跟对象五一找了个年底的婚庆，签了 10600 的合同，包含所有费用。贵吗？ 我对象其实一直不想要这种仪式 觉得浪费时间 她想讲两句直接开席，但是我觉得有点仪式感挺好，毕竟人生可能就这一次了 我们刚开始问的第一家报价是 1.4w 全包，最后选了这个 1.06w 的，地址：巴中 贵吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210616#reply9
+
+---
+
+#### 2866. [V2EX] 关于泉州白名单问题
+
+**问题描述 / Problem Description**:
+有在泉州的小伙伴吗？原本在厦门的，来到泉州后很多网站都用不了了，看网上说有白名单，这是真的吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210611#reply4
+
+---
+
+#### 2867. [V2EX] 有没有大佬懂域名加白的原理的~
+
+**问题描述 / Problem Description**:
+场景 做了一个 H5 ； 不管是用微信、支付宝，打开的时候都被拦截一下，提示类似 “非官方链接”，“第三方链接，请注意账号的资金安全”，点击确定才能进入。 ssl 证书、服务器加白名单，ip 加白名单，什么都配置了。 还是拦截。 最后，在海鲜市场，花了几十块找了个“加白”，提供完域名 付完钱没一会就可以了。 真好奇他们是怎么做到的，内部渠道吗 有没有大佬知道这其中的原理的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210599#reply9
+
+---
+
+#### 2868. [V2EX] 想问问大家 IProyal 的 ISP 用来运营社交媒体稳吗
+
+**问题描述 / Problem Description**:
+或者有没有更推荐的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210595#reply0
+
+---
+
+#### 2869. [V2EX] 这样组网有什么弊端吗？
+
+**问题描述 / Problem Description**:
+因为客厅只有一个网口，但是客厅的电视和 NAS 都想连有线，书房的电脑也想连有线，wifi 不稳定 这样对网速有影响吗？或者有什么别的弊端？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210589#reply23
+
+---
+
+#### 2870. [V2EX] 哪里能维修路由器
+
+**问题描述 / Problem Description**:
+我有一个 Unify 的 AP 无法正常工作了。 虽然是前几年买的，是 Wi-Fi 5 的，但是现在买全新的也要将近 1000 。 想着哪里能够维修下，继续发光发热。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210580#reply5
+
+---
+
+#### 2871. [V2EX] 有没有大佬做过 tiktok minis 开发呢，开发挺简单，就是沙箱环境和调试一直没法用，请问一般怎么处理呢
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210575#reply0
+
+---
+
+#### 2872. [V2EX] B 站的充电频道 web 端和 ios 美区不同步么？
+
+**问题描述 / Problem Description**:
+食频道 我在 web 端可以看充电视频 但是 ios app 却看不了 是要使用国区 app 下载么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210574#reply0
+
+---
+
+#### 2873. [V2EX] 为什么我的 air pods pro 耳机初次链接 MacBook 声音会巨大？
+
+**问题描述 / Problem Description**:
+请问是我哪里没设置对吗？ 每次连 macbook ，声音都是一半的音量，然后打开视频，一下子被震到。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210566#reply0
+
+---
+
+#### 2874. [V2EX] 五一其实也发生不少悲惨的事
+
+**问题描述 / Problem Description**:
+开车撞人报复社会事件 景区吊秋千事件 烟花厂爆炸事件
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210540#reply18
+
+---
+
+#### 2875. [V2EX] 遇到一件返佣的事 不知道是不是真的 我担心被骗 所以问问大家
+
+**问题描述 / Problem Description**:
+是发生在微信上的 对方声称自己是阿里云的合作伙伴 对方一开始给我推荐了一个锁价活动 Qoder 相关的 220 元能买到 300 元的额度 然后要求我提供阿里云账号 id 和姓名 电话 （后来经过验证 这个活动自己就可以在阿里云市场里买 根本和他们没关系） 然后他们关联好我的阿里云账号之后 又说用这个账号购买云服务器可以返佣 10 个点 然后我就买了服务器 过了一段时间他们现在又要我提供支付宝账号和身份证号 让我在灵灵通签一个合同 然后才能返佣，我有点担心我现在是不是遇到什么新型诈骗了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210527#reply8
+
+---
+
+#### 2876. [V2EX] 云端 Agent+本地文件触达能力，这样的形态有价值吗？
+
+**问题描述 / Problem Description**:
+我发现许多云端的 Agent 虽然可以 24 小时替你工作 但始终触达不到本地电脑上的文件 但往往大部分有价值的信息和需要处理的文件都在本地 但是本地的 agent 又要求电脑 24 小时在线才能保证工作 如果把两者相结合呢？ 这是个伪需求吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210496#reply2
+
+---
+
+#### 2877. [V2EX] 好奇现在 LLM 应该怎么用？
+
+**问题描述 / Problem Description**:
+我还在古法编程，在 chatgpt 官网对话框，问他教我。 也下载过 codex ，clude code 想试试，打开看了下界面，没怎么用，一个要账号懒得注册，另一个界面不习惯，比较习惯 vscode 。 vscode 的 ai 功能也挺好用 想了解各位怎么用的？还有 API 中转站的 API 现在能用于哪些工具？这些工具好像不能填 api 接口，那 API 中转站主要是怎么用呢？还是用那种聊天界面对话吗。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210491#reply8
+
+---
+
+#### 2878. [V2EX] 哪里可以办到 20 元以下套餐的流量卡，也可收个二手的
+
+**问题描述 / Problem Description**:
+要长期的卡+100G 以上+语音
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210487#reply4
+
+---
+
+#### 2879. [V2EX] Android 下 WireGuard 和 Clash 订阅搭配的问题
+
+**问题描述 / Problem Description**:
+各位大佬，我目前使用 WireGuard 接到家里，使用 Clash 访问海外，但是在 Android 下无法同时开启两个 VPN 。目前想到的办法是通过 Sub-Store 或 subsconverter 这样的工具聚合并再发送给手机端的 Clash for Android ，但是不太好方便处理不同手机 WireGuard 配置 IP 问题。 各位大佬有没有作业可以让我抄抄呀？或者有没有别的推荐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210477#reply9
 
 ---
