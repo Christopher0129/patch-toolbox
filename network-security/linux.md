@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1273**
+**总计条目 / Total entries: 1295**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -20871,5 +20871,269 @@ It was discovered that Django did not vary cached response headers on cookies wh
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8232-1
+
+---
+
+#### 1274. CVE-2026-6420 - keylime: Keylime: Security bypass due to hardcoded TPM quote nonce
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keylime: Keylime: Security bypass due to hardcoded TPM quote nonce. Bugzilla: 2458889
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2458889
+
+---
+
+#### 1275. CVE-2026-44405 - paramiko: Paramiko: Data integrity could be compromised due to SHA-1 algorithm use
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] paramiko: Paramiko: Data integrity could be compromised due to SHA-1 algorithm use. Bugzilla: 2466929
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466929
+
+---
+
+#### 1276. CVE-2026-28780 - Apache HTTP Server: mod_proxy_ajp: Apache HTTP Server mod_proxy_ajp: Arbitrary…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] Apache HTTP Server: mod_proxy_ajp: Apache HTTP Server mod_proxy_ajp: Arbitrary code execution via heap-based buffer overflow. Bugzilla: 2466913
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466913
+
+---
+
+#### 1277. CVE-2026-34002 - xorg: xwayland: X.Org X server: Information disclosure or Denial of Service via…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] xorg: xwayland: X.Org X server: Information disclosure or Denial of Service via out-of-bounds read in XKB modifier map handling. Bugzilla: 2451112
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2451112
+
+---
+
+#### 1278. CVE-2026-34000 - xwayland: xorg: X.Org X server: Information disclosure and denial of service via…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] xwayland: xorg: X.Org X server: Information disclosure and denial of service via out-of-bounds read in XKB geometry processing.. Bugzilla: 2451107
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2451107
+
+---
+
+#### 1279. CVE-2026-43072 - kernel: drm/vc4: platform_get_irq_byname() returns an int
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: drm/vc4: platform_get_irq_byname() returns an int. Bugzilla: 2466773
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466773
+
+---
+
+#### 1280. CVE-2026-43071 - kernel: dcache: Limit the minimal number of bucket to two
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: dcache: Limit the minimal number of bucket to two. Bugzilla: 2466774
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466774
+
+---
+
+#### 1281. CVE-2026-43061 - kernel: serial: 8250: Fix TX deadlock when using DMA
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: serial: 8250: Fix TX deadlock when using DMA. Bugzilla: 2466777
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466777
+
+---
+
+#### 1282. CVE-2026-43070 - kernel: bpf: Reset register ID for BPF_END value tracking
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: bpf: Reset register ID for BPF_END value tracking. Bugzilla: 2466789
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466789
+
+---
+
+#### 1283. CVE-2026-43073 - kernel: x86-64: rename misleadingly named '__copy_user_nocache()' function
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: x86-64: rename misleadingly named '__copy_user_nocache()' function. Bugzilla: 2466792
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466792
+
+---
+
+#### 1284. CVE-2026-43064 - kernel: dmaengine: idxd: Fix not releasing workqueue on .release()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: dmaengine: idxd: Fix not releasing workqueue on .release(). Bugzilla: 2466793
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466793
+
+---
+
+#### 1285. CVE-2026-43063 - kernel: xfs: don't irele after failing to iget in xfs_attri_recover_work
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfs: don't irele after failing to iget in xfs_attri_recover_work. Bugzilla: 2466794
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466794
+
+---
+
+#### 1286. CVE-2026-43059 - kernel: Bluetooth: MGMT: Fix list corruption and UAF in command complete handlers
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Bluetooth: MGMT: Fix list corruption and UAF in command complete handlers. Bugzilla: 2466796
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466796
+
+---
+
+#### 1287. CVE-2026-43066 - kernel: ext4: fix iloc.bh leak in ext4_fc_replay_inode() error paths
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ext4: fix iloc.bh leak in ext4_fc_replay_inode() error paths. Bugzilla: 2466797
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466797
+
+---
+
+#### 1288. CVE-2026-43060 - kernel: netfilter: nft_ct: drop pending enqueued packets on removal
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: netfilter: nft_ct: drop pending enqueued packets on removal. Bugzilla: 2466803
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466803
+
+---
+
+#### 1289. CVE-2026-43068 - kernel: ext4: avoid allocate block from corrupted group in ext4_mb_find_by_goal()
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ext4: avoid allocate block from corrupted group in ext4_mb_find_by_goal(). Bugzilla: 2466805
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466805
+
+---
+
+#### 1290. CVE-2026-43069 - kernel: Bluetooth: hci_ll: Fix firmware leak on error path
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Bluetooth: hci_ll: Fix firmware leak on error path. Bugzilla: 2466808
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466808
+
+---
+
+#### 1291. CVE-2026-43067 - kernel: ext4: handle wraparound when searching for blocks for indirect mapped…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ext4: handle wraparound when searching for blocks for indirect mapped blocks. Bugzilla: 2466815
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466815
+
+---
+
+#### 1292. CVE-2026-6321 - fast-uri: fast-uri: Path traversal vulnerability allows bypass of security policies
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] fast-uri: fast-uri: Path traversal vulnerability allows bypass of security policies. Bugzilla: 2466582
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466582
+
+---
+
+#### 1293. CVE-2026-42027 - Apache OpenNLP: Apache OpenNLP: Arbitrary Class Loading via Model Manifest
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] Apache OpenNLP: Apache OpenNLP: Arbitrary Class Loading via Model Manifest. Bugzilla: 2466527
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466527
+
+---
+
+#### 1294. [Ubuntu] USN-8237-1: WebKitGTK vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the WebKitGTK Web and JavaScript engines. If a user were tricked into viewing a malicious website, a remote attacker could exploit a variety of issues related to web browser security, including cross-site scripting attacks, denial of service attacks, and arbitrary code execution.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8237-1
+
+---
+
+#### 1295. [Ubuntu] USN-8231-1: Dynaconf vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Dynaconf was incorrectly handling template evaluation in its string resolvers. A remote attacker could possibly use this issue to execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8231-1
 
 ---
