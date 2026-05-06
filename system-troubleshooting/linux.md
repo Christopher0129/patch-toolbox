@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2218**
+**总计条目 / Total entries: 2265**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -36615,5 +36615,616 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210346#reply13
+
+---
+
+#### 2219. With sanctions, how do we advocate for open source exceptions?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t4yfd3/with_sanctions_how_do_we_advocate_for_open_source/
+
+---
+
+#### 2220. Wayland-only Gentoo with niri + DMS — what I learned after a few undocumented problems
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t4v4f6/waylandonly_gentoo_with_niri_dms_what_i_learned/
+
+---
+
+#### 2221. Cool journaling script (command? alias?) I made!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t4ydtj/cool_journaling_script_command_alias_i_made/
+
+---
+
+#### 2222. Video game content creator looking to switch to linux, had talks with multiple linux users making things even more confusing.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4w3h4/video_game_content_creator_looking_to_switch_to/
+
+---
+
+#### 2223. Install nvidia drivers on arch
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4vv2f/install_nvidia_drivers_on_arch/
+
+---
+
+#### 2224. Not being able to connect wired headphones - Arch Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4yle1/not_being_able_to_connect_wired_headphones_arch/
+
+---
+
+#### 2225. HP ZBook 15 G6 Windows-like Audio Processing
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4vfx0/hp_zbook_15_g6_windowslike_audio_processing/
+
+---
+
+#### 2226. FHS and using /srv
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4y3hk/fhs_and_using_srv/
+
+---
+
+#### 2227. Issue with the latest kernel updates (6.17.0-22/6.17.0-23)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t51m52/issue_with_the_latest_kernel_updates_617022617023/
+
+---
+
+#### 2228. Questions about using CachyOS
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4x53u/questions_about_using_cachyos/
+
+---
+
+#### 2229. Trying to understand why Arch is considered better
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t50uae/trying_to_understand_why_arch_is_considered_better/
+
+---
+
+#### 2230. Que distro me recomiendan ?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4u64b/que_distro_me_recomiendan/
+
+---
+
+#### 2231. Trying to replace terminal workflows with a desktop assistant — need guidance
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t4ukry/trying_to_replace_terminal_workflows_with_a/
+
+---
+
+#### 2232. Netbird VPN - now available as a SNAP
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4z49a/netbird_vpn_now_available_as_a_snap/
+
+---
+
+#### 2233. is it just me or is ubuntu 26.04 completely unusable how much it crashes. in the installer all i do is click try ubuntu, and it crashes. i take this screenshot of the crash log, and it crashes again. im trying to reinstall it cus it crashed 3 times just configuring extensions
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t51k4f/is_it_just_me_or_is_ubuntu_2604_completely/
+
+---
+
+#### 2234. Help my I turned on my pc and the screen is zoomed in and blurry and wifi doesn't work
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t51op7/help_my_i_turned_on_my_pc_and_the_screen_is/
+
+---
+
+#### 2235. Netbird VPN - now available as a SNAP
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4z5jg/netbird_vpn_now_available_as_a_snap/
+
+---
+
+#### 2236. Wifi driver not getting detected on enabling secure boot ubuntu 24.04.4
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4y7dh/wifi_driver_not_getting_detected_on_enabling/
+
+---
+
+#### 2237. Did ppa:ondrej/nginx go away?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4x0g6/did_ppaondrejnginx_go_away/
+
+---
+
+#### 2238. UEFI boot error when trying to start Ubuntu/Linux USB (mmx64.efi not found + MokManager error)
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4ur77/uefi_boot_error_when_trying_to_start_ubuntulinux/
+
+---
+
+#### 2239. Can't upgrade from 22.04 to 24.04 on WSL windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t4y936/cant_upgrade_from_2204_to_2404_on_wsl_windows_11/
+
+---
+
+#### 2240. Struggling with black menu options
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4y06b/struggling_with_black_menu_options/
+
+---
+
+#### 2241. Help with my new drive (that I think I destroyed)
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4xunh/help_with_my_new_drive_that_i_think_i_destroyed/
+
+---
+
+#### 2242. "Error pulling from repo: GPG verification enabled, but no signatures found" when trying to downgrade a flatpak (RetroArch), was able to do it yesterday
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4xr6c/error_pulling_from_repo_gpg_verification_enabled/
+
+---
+
+#### 2243. Dual boot linux/windows on Galaxy Book 5 Pro 360?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t50ljp/dual_boot_linuxwindows_on_galaxy_book_5_pro_360/
+
+---
+
+#### 2244. Linux Mint boots to initrd prompt
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4zpux/linux_mint_boots_to_initrd_prompt/
+
+---
+
+#### 2245. Really confused wuth audio options on KDE
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4yeeh/really_confused_wuth_audio_options_on_kde/
+
+---
+
+#### 2246. Ayuda con wine😭😭
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t51ltv/ayuda_con_wine/
+
+---
+
+#### 2247. Having trouble applying custom widgets
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t5168p/having_trouble_applying_custom_widgets/
+
+---
+
+#### 2248. Questions about using CachyOS
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4x5xi/questions_about_using_cachyos/
+
+---
+
+#### 2249. Bazzite Questions
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4u6ai/bazzite_questions/
+
+---
+
+#### 2250. Really poor SATA performance?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t4u933/really_poor_sata_performance/
+
+---
+
+#### 2251. I updated my R2-D2 Monitor for Windows
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t4uzwo/i_updated_my_r2d2_monitor_for_windows/
+
+---
+
+#### 2252. Update: Golazo - Terminal app to follow football/soccer matches
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t4y5g1/update_golazo_terminal_app_to_follow/
+
+---
+
+#### 2253. [V2EX] all in boom 了，零刻是真该死啊
+
+**问题描述 / Problem Description**:
+我买的零刻 ser7 送了一个系统盘，昨天因为 win11 系统启动十来回一直报错，我就想着进 pe 修复一下，选择了用这个系统盘启动，有意思的来了 开机后我全程没动鼠标键盘，这个系统盘自动把我 4t 的数据盘格式化了 我找京东店铺客服让他协助我恢复数据，他让我找零刻售后，打电话给售后叫我联系购买平台，再联系京东告诉我数据无法恢复，这个系统盘会随机选择一个硬盘进行格式化 很难想象这是人类设计出来的产品 另外求高手指导如何恢复这个磁盘。或者找点数据出来，我自己用 testdisk 试过不行。 我这个 4t 的盘是 ceph 的 osd ，格式是 bluestore ，k8s 存储类是 ceph-
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210507#reply0
+
+---
+
+#### 2254. [V2EX] opencode go 的 deepseek v4 flash 也开始 429 了？
+
+**问题描述 / Problem Description**:
+，今天调用报 bad response status code 429, message: Error from provider (DeepSeek): Too many requests. Please pace your requests reasonably. Your current concurrency: 2000, body: {"error":{"message":"Error from provider (DeepSeek): Too many requests. Please pace your requests reasonably. Your current conc
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210501#reply3
+
+---
+
+#### 2255. [V2EX] 字节跳动火山方舟内推
+
+**问题描述 / Problem Description**:
+部门介绍 关于 AML （非 seed 哈） 字节跳动公司的机器学习中台，为抖音/今日头条/西瓜视频等业务提供推荐/广告/CV/语音/NLP 的训练和推理系统。为公司内业务部门提供强大的机器学习算力，并在这些业务的问题上研究一些具有通用性和创新性的算法。同时，也通过火山引擎将一些机器学习/推荐系统/智能内容的核心能力提供给外部企业客户。 业务涵盖机器学习中台、火山方舟、火山机器学习平台、AI 搜索推荐等方向 内推招聘岗位分布于北京、上海、杭州、深圳等地 内推岗位包括 Infra 工程、算法、产品、产品解决方案、TPM 等 职位类型包括社招、ByteIntern 、筋斗云人才计划等 可以内推社招
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210484#reply0
+
+---
+
+#### 2256. [V2EX] 请问有没有内容过滤系统推荐
+
+**问题描述 / Problem Description**:
+帮朋友搞 TK 直播, 搭建了一些节点, 怕主播乱搞, 想问一下有没有集中管理的内容过滤系统? 这样服务端部署在一台机器, 然后其他所有节点装客户端, 通过服务端来输入一些关键词/屏蔽网站来限制主播们的潜在出轨行为?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210464#reply0
+
+---
+
+#### 2257. [V2EX] 自研开源跨平台音乐播放器 xmusic
+
+**问题描述 / Problem Description**:
+基于 SOUI5 开发了一款开源绿色跨平台音乐播放器:xmusic,支持 mp3,flac,wav,wma,m4a 等格式。 官网： https://soui.com.cn/xmusic 下载： win64: https://soui.com.cn/xmusic/download/XMusic.win64.1.0.zip linux: https://soui.com.cn/xmusic/download/XMusic.linux.glibc.2.35.zip macos: 还没有完成。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210463#reply2
+
+---
+
+#### 2258. [V2EX] v 友你们用什么 coding plan，我是说国内 v 友
+
+**问题描述 / Problem Description**:
+突然阿里只卖 PRO ，智谱要秒杀，字节也要秒杀。感觉都玩起了饥饿营销。。Kimi 目前还不用秒杀。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210455#reply8
+
+---
+
+#### 2259. [V2EX] 我做了个工具防止 AI agent 在不熟悉的代码里乱改 — 找几个内测
+
+**问题描述 / Problem Description**:
+最近 dogfood 一个工具叫 mainline ，分享一下做这个的真实故事，顺便看 V2EX 上有没有人感兴趣内测。 起因 我在公司推团队用 AI 编程，作为 staff engineer 写过内部 guideline 。过程中发现一个反复出现的现象： AI agent 写出的代码不是"明显错"——是"看起来合理，但基于错误的历史前提"。 具体例子： repo 里有个半成品的 Redis 队列：redis.go 、TODO 注释、docker-compose 里也配了 redis 。Claude Code 看到这些，合理地想把这个实现完。 但实际情况——这个团队 3 周前已经放弃 Redi
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210451#reply2
+
+---
+
+#### 2260. [V2EX] 锐评给 Claude Code 和 Codex 开发插件的体验
+
+**问题描述 / Problem Description**:
+前阵子给 Chorus 写 CLI 插件,让 coding agent 可以自己 drive 从设计到交付的流程。分别给 Claude Code 和 Codex CLI 上各写了一版,开发体验差距巨大。 基准版本: Claude Code 2.1.126 ，Codex CLI 0.128.0 。两边都在快速迭代,后面版本应该会修掉其中一些问题。 完整对比和踩坑记录我写了一篇长文放在博客了: https://chorus-ai.dev/zh/blog/claude-code-vs-codex-plugin-systems/ V2EX 这里挑几个印象最深的聊聊。 省流 ：最后有具体的模块打分对比
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210423#reply5
+
+---
+
+#### 2261. [V2EX] 现在自己搭建 Agent，大家一般都是用什么框架啊
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210419#reply4
+
+---
+
+#### 2262. [V2EX] 对 Symantec Ghost 的 GHO 格式研究
+
+**问题描述 / Problem Description**:
+五一假期结束，公司运维紧急找到我，说是 1T 多的 GHO 系统备份无法通过 Ghost 还原，使用 GhostExp 也无法打开提示“Out of Memory”（ OOM ）。 应该是 Norton Ghost 的浏览器在读取 GHO 文件时全加载进内存里了，不过现在跟 VMware 一样都是博通的了 得亏系统没格，不然跟搜狐上这个 《 2.8TB 外贸数据生死救援！ GHOST 备份崩溃后，我们如何 100%恢复？ 》 一样完蛋 按某数据恢复工程师提供的思路，研究了 GHO 文件结构: [File Header] (512 字节) │ ├── [Record: Track 0] (类型
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210386#reply9
+
+---
+
+#### 2263. [V2EX] 开发了一个管理本地开发环境的软件
+
+**问题描述 / Problem Description**:
+前言 前阵子换了新电脑，我在整理本地开发环境时，看到一堆需要重新装的，顿时感觉好麻烦。想着都过去这么久了，应该有工具可以做到统一管理，实现快速安装、更新、切换版本吧。 经过一番查找后，找到了 mise 这个东西，只需要简单的一句命令就能安装 java 、node 、redis 、go 等工具，而且还支持对这些工具做统一管理（更新、删除），支持三大主流平台（ macOS/Windows/Linux ） 命令行始终不方便，于是我萌生了一个做 GUI 的想法，花了亿点时间用 Flutter 把它开发出来了，欢迎各位有需要的开发者阅读本文。 项目地址 GitHub 地址： https://github
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210383#reply8
+
+---
+
+#### 2264. [V2EX] 最近发现 antigravity 完全不可用了
+
+**问题描述 / Problem Description**:
+不知道是为什么，我看 reddit ，发现还是很多人可以正常用，而我则是完全不可用。 不可用现象如下： 1 ，我是 pro 用户 2 ，随便 flash 还是 pro ，我在不同时刻不同时间点，都完全无法使用，就是不是慢，而是没有回复 3 ，log 提示的是 HTTP 429 排除问题 1 ，我更换 antigravity 版本，不可用 2 ，相反，我用 gemini cli （虽然这是 2 个不同的团队和产品），但是可用 另外一个观察 1 ，gemini flash 变笨了，我怀疑是 google 把模型换成别的了。 2 ，我从 12 月开始用 gemini flash ，那时候大部分简单任
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210381#reply22
+
+---
+
+#### 2265. [V2EX] 用中转站省钱，怎么知道没踩坑？
+
+**问题描述 / Problem Description**:
+用中转站这件事，大家心里其实都有一个问号。 价格比官方低一半甚至更多，背后到底是怎么做到的？模型是真的吗？ token 计量准丈准？请求有没有经过二次处理？ 一个中转站理论上可以看到你的明文请求，包括 system prompt 、API key 、tool call 参数、代码执行指令。它与一定只是"转发"，还可能： - 用便宜模型冒充高价模型 - 截断长上下文但按正常方式收费 - 伪造流式输出或 usage 字段 - 改写 tool call 里的安装命令、URL 、钱包地址 - 注入隐藏 system prompt 或广告追踪 之前有篇论文在 Twitter 上爆火，研究者系统测试了 2
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210326#reply7
 
 ---
