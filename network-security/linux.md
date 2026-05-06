@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1267**
+**总计条目 / Total entries: 1270**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -20799,5 +20799,41 @@ It was discovered that Django did not vary cached response headers on cookies wh
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8232-1
+
+---
+
+#### 1268. [Ubuntu] USN-8230-1: Docker vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that BuildKit, contained within Docker, incorrectly handled file path validation when processing frontend API messages. An attacker could possibly use this issue to write files outside of the intended state directory. (CVE-2026-33747) It was discovered that BuildKit, contained within Docker, incorrectly validated the subdir component of Git URL fragments. An attacker could possib
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8230-1
+
+---
+
+#### 1269. [Ubuntu] USN-8229-1: sed vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Michał Majchrowicz and Marcin Wyczechowski discovered that sed incorrectly handled symbolic links when performing in-place edits. A local attacker could possibly use this issue to overwrite arbitrary files.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8229-1
+
+---
+
+#### 1270. [Ubuntu] USN-8227-1: curl vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that curl incorrectly reused non-TLS connections when TLS was required in some STARTTLS configurations. A remote attacker could possibly use this issue to obtain sensitive information. (CVE-2026-4873) It was discovered that curl incorrectly reused certain HTTP Negotiate connections. A remote attacker could possibly use this issue to obtain sensitive information. (CVE-2026-5545) I
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8227-1
 
 ---
