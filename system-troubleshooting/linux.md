@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2308**
+**总计条目 / Total entries: 2377**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -37785,5 +37785,902 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210455#reply38
+
+---
+
+#### 2309. Dell & Lenovo now sponsoring the Linux Vendor Firmware Service
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t5d1ym/dell_lenovo_now_sponsoring_the_linux_vendor/
+
+---
+
+#### 2310. VKD3D-proton 3.0.1 released!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t5bqv6/vkd3dproton_301_released/
+
+---
+
+#### 2311. Tried to use something other than ubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t5ddwt/tried_to_use_something_other_than_ubuntu/
+
+---
+
+#### 2312. Release PULS Release v0.9.0 · word-sys/puls
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t5gxyz/release_puls_release_v090_wordsyspuls/
+
+---
+
+#### 2313. Honey, I Built a Linux Distribution
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t5fe7y/honey_i_built_a_linux_distribution/
+
+---
+
+#### 2314. Tell me if I'm wrong, I feel like Linux is missing something
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t5flqq/tell_me_if_im_wrong_i_feel_like_linux_is_missing/
+
+---
+
+#### 2315. New Debian based distribution released as an alternative to ReactOS
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t5a3o7/new_debian_based_distribution_released_as_an/
+
+---
+
+#### 2316. Informal poll: What do you use Linux for, and what do think 'normal users' (friends and family) could use it for to benefit from it?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t58m5a/informal_poll_what_do_you_use_linux_for_and_what/
+
+---
+
+#### 2317. Does Debian 13.4 have all the necessary Intel Lunar Lake regressions required for laptops?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5e25t/does_debian_134_have_all_the_necessary_intel/
+
+---
+
+#### 2318. How can I configure macros to my mouse in Fedora Workstation?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5d7m2/how_can_i_configure_macros_to_my_mouse_in_fedora/
+
+---
+
+#### 2319. thumbnail not showing in nautilus.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5cm0s/thumbnail_not_showing_in_nautilus/
+
+---
+
+#### 2320. Help my I turned on my pc and the screen is zoomed in and blurry and wifi doesn't work
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5bml8/help_my_i_turned_on_my_pc_and_the_screen_is/
+
+---
+
+#### 2321. Unable to attain Sudoer privileges
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5h1rd/unable_to_attain_sudoer_privileges/
+
+---
+
+#### 2322. Set volume upon bluetooth headphone connection
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5gsie/set_volume_upon_bluetooth_headphone_connection/
+
+---
+
+#### 2323. Secure Boot and Linux - Will Linux fix the Secure Boot Certificate problem?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5gaqo/secure_boot_and_linux_will_linux_fix_the_secure/
+
+---
+
+#### 2324. Problem with dual booting Windows 11 and Linux Mint
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5g7ed/problem_with_dual_booting_windows_11_and_linux/
+
+---
+
+#### 2325. I want to start using Vim but Nano is just too easy. How did you make the switch stick?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5fups/i_want_to_start_using_vim_but_nano_is_just_too/
+
+---
+
+#### 2326. My Steam doesn't seem to be able to sync with cloud?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5epft/my_steam_doesnt_seem_to_be_able_to_sync_with_cloud/
+
+---
+
+#### 2327. MT7921 disappearing randomly in EndeavourOS
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5awzc/mt7921_disappearing_randomly_in_endeavouros/
+
+---
+
+#### 2328. Mail client with smart inbox / priority inbox
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5at9v/mail_client_with_smart_inbox_priority_inbox/
+
+---
+
+#### 2329. Issues with gaming on Linux mint 22.3 (cinnamon)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5at5s/issues_with_gaming_on_linux_mint_223_cinnamon/
+
+---
+
+#### 2330. Why do some apps on linux not close when you click in the top right of the screen, despite being fullscreen?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t591j2/why_do_some_apps_on_linux_not_close_when_you/
+
+---
+
+#### 2331. gcc g++ 13 su Ubuntu 26.04 LTS
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t58n3l/gcc_g_13_su_ubuntu_2604_lts/
+
+---
+
+#### 2332. Idk ANYTHING about Linux but want to start with it… Which distro/notebook/programms etc should I choose??
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5buac/idk_anything_about_linux_but_want_to_start_with/
+
+---
+
+#### 2333. Your Favorite Linux Distro and the Reason?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5g7zm/your_favorite_linux_distro_and_the_reason/
+
+---
+
+#### 2334. PPA uploads broken after the Launchpad outage — quietly moved to SFTP-only?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5fen7/ppa_uploads_broken_after_the_launchpad_outage/
+
+---
+
+#### 2335. not sure why my wifi is so badon my computer, it barely ever gives more than 500B/s never even shows up on the graph. my wifi works fine on all me other devices, what could be the problem?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5arkt/not_sure_why_my_wifi_is_so_badon_my_computer_it/
+
+---
+
+#### 2336. Ubuntu Desktop 26.04 images for Hyper-V - machine not starting
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5h1i9/ubuntu_desktop_2604_images_for_hyperv_machine_not/
+
+---
+
+#### 2337. Warning on Ubuntu 26.04 be cautious installing/removing
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5el5i/warning_on_ubuntu_2604_be_cautious/
+
+---
+
+#### 2338. 26.04: is there a known issue with suspend/resume?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5cp0j/2604_is_there_a_known_issue_with_suspendresume/
+
+---
+
+#### 2339. Distro Linux
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5cnhn/distro_linux/
+
+---
+
+#### 2340. mDNS did not work after upgrading to 26.04 from 25.10
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5gw0v/mdns_did_not_work_after_upgrading_to_2604_from/
+
+---
+
+#### 2341. Help pls: Why do Updates kill my Nvidia drivers?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5aohv/help_pls_why_do_updates_kill_my_nvidia_drivers/
+
+---
+
+#### 2342. Does Livepatch on Ubuntu conflict with Windscribe?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5ghk8/does_livepatch_on_ubuntu_conflict_with_windscribe/
+
+---
+
+#### 2343. Rate my Desktop.would appreciate any advice to enhance looks
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5czlh/rate_my_desktopwould_appreciate_any_advice_to/
+
+---
+
+#### 2344. hi there - how to set the notebook that it boots from the stick
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5br8y/hi_there_how_to_set_the_notebook_that_it_boots/
+
+---
+
+#### 2345. Ubuntu keeps stuttering/hitching.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t58m96/ubuntu_keeps_stutteringhitching/
+
+---
+
+#### 2346. gcc g++ 13 on Ubuntu 26.04 LTS
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t58l9a/gcc_g_13_on_ubuntu_2604_lts/
+
+---
+
+#### 2347. Is Ubuntu 26.04 safe to download now?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5cssa/is_ubuntu_2604_safe_to_download_now/
+
+---
+
+#### 2348. I just saved a bunch of money on software by switching to Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t5ed1t/i_just_saved_a_bunch_of_money_on_software_by/
+
+---
+
+#### 2349. MacBookAir6,1 doesn't see my Kubuntu drive
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t5f7d1/macbookair61_doesnt_see_my_kubuntu_drive/
+
+---
+
+#### 2350. main driver recommendations when switching from windows?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t5drkl/main_driver_recommendations_when_switching_from/
+
+---
+
+#### 2351. Dual Boot Fedora with already Installed Windows 11 Pro
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t58t7r/dual_boot_fedora_with_already_installed_windows/
+
+---
+
+#### 2352. Forced to use linux, windows wont boot
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t5g1q1/forced_to_use_linux_windows_wont_boot/
+
+---
+
+#### 2353. How do you know a downloads safe?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t5emj1/how_do_you_know_a_downloads_safe/
+
+---
+
+#### 2354. Audio crackling issue on Debian 13 both with a bluetooth headphones and speakers directly connected to the motherboard. TRIED MULTIPLE FIXES
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t5dyi9/audio_crackling_issue_on_debian_13_both_with_a/
+
+---
+
+#### 2355. Dual boot with W11 but hesitating
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t5dmam/dual_boot_with_w11_but_hesitating/
+
+---
+
+#### 2356. hi there - how to set the notebook that it boots from the stick
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t5bs2m/hi_there_how_to_set_the_notebook_that_it_boots/
+
+---
+
+#### 2357. MT7921 disappearing randomly in EndeavourOS
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t5axp0/mt7921_disappearing_randomly_in_endeavouros/
+
+---
+
+#### 2358. Gnome Boxes muestra error de "no kvm!" despues de eliminar maquina virtual
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t59uhb/gnome_boxes_muestra_error_de_no_kvm_despues_de/
+
+---
+
+#### 2359. sshc – a minimal CLI for managing SSH configs
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t5eyl7/sshc_a_minimal_cli_for_managing_ssh_configs/
+
+---
+
+#### 2360. Appreciation post
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t5au8v/appreciation_post/
+
+---
+
+#### 2361. [V2EX] 有没有按量付费的机场支持 ssh 到云主机的
+
+**问题描述 / Problem Description**:
+类似良心云等好几个按量付费的，都不支持在代理工具配置 ssh 到云主机
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210693#reply0
+
+---
+
+#### 2362. [V2EX] 给你的 AI 工具建个共享大脑!
+
+**问题描述 / Problem Description**:
+在 AI 时代，记忆——尤其是人与 AI 之间的共享记忆——已成为至关重要的核心资产。与 Mem0 等主流的被动式记忆工具不同，本解决方案采用了主动采集、跨 IDE 集成、分布式架构及多租户隔离技术，旨在为个人及团队实现无缝、安全的跨设备记忆共享。 https://github.com/ddong8/memento
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210672#reply1
+
+---
+
+#### 2363. [V2EX] 关于 AI 的新闻你们都是哪里获取的
+
+**问题描述 / Problem Description**:
+每日 AI 早报，一周 AI 大事之类的。求推荐点好的消息源，我做个聚合免费给大家用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210655#reply8
+
+---
+
+#### 2364. [V2EX] 有没有用 coze skills 的朋友，想来一场酣畅淋漓的 talk
+
+**问题描述 / Problem Description**:
+有朋友在用 coze skills 嘛？所以 skills 是真的有买卖需求的？大家会去用付费的 skills ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210654#reply0
+
+---
+
+#### 2365. [V2EX] Claude Code 通过 cc-switch 接入 deepseek-v4 突然报错？
+
+**问题描述 / Problem Description**:
+用 cc-switch 把 Claude Code 转到 DeepSeek 跑，今天修一个 bug 突然开始一直报这个： API Error: 400 {"error":{"message":"Invalid 'user_id': string does not match pattern. Expected a string that matches the pattern '^[a-zA-Z0-9_-]+$'.", "type":"invalid_request_error","param":null,"code":"invalid_request_error"}} 但是我压根没配置过 u
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210642#reply8
+
+---
+
+#### 2366. [V2EX] 麻了，对着 AI 骂了两句，它给我写的代码直接不能跑
+
+**问题描述 / Problem Description**:
+今天下午赶需求，让 GPT 帮我重构一个排序逻辑，一开始还挺正常，给出来的代码一次过。 结果中间有个 bug 它没看出来，我顺手打了一句“你 tm 是不是眼瞎，这都能写错”。然后让它再改一版。 好家伙= = 第二次给出来的代码，引入了三个新 bug ，连最基本的边界条件都漏了。我还以为是它复读旧答案，又多问了两遍，结果一次比一次离谱，最后一次直接给我返回一个死循环。 刚开始我还骂它“废物”，后来发现不对劲：同一个问题，语气越差，答案越智障。 我甚至试过直接复制之前它写对的提示词重新问，没有脏话，它又能跑通了。 这不是它记仇，就是它 ai 真的会因为你语气不好就“摆烂”。 现在我改需求都先深吸一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210640#reply25
+
+---
+
+#### 2367. [V2EX] 既然 ai coding 这么强大了，咱们来上点强度如何？
+
+**问题描述 / Problem Description**:
+去年公司安全部门要求我们升级 openssl ，因为安全漏洞。 于是我打算升级，但这玩意，被依赖的厉害，linux 的很多基础功能，都依赖它。 一旦 openssl 升级，动态库某些符号发生变化，依赖它的软件，势必发生问题。 比如 ssh 还一个 curl ，也不敢覆盖升级。 折中方式是，在 /usr/local/ 这里，新建个文件夹，比如 openssl_3.3 类似这种。 然后，你的 app 在编译时，依赖新的 openssl 世界就是这么不完美。 我想说： 既然 ai coding 如此厉害，那么，咱们是不是可以利用 ai ，来自己定制自己的 linux 呢？ 也就是，直接找源码，然后一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210634#reply1
+
+---
+
+#### 2368. [V2EX] 他们说我这个软件的图标像麻豆传媒，这对吗？🥲
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210632#reply11
+
+---
+
+#### 2369. [V2EX] deepseek 出问题了？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210619#reply5
+
+---
+
+#### 2370. [V2EX] Mem0 好野鸡啊，代码拉下来，我和 chatgpt 一起修复了 13 个 bug，才能正常用，一看 github， pr 都提交 1 周多了，就是把不合并
+
+**问题描述 / Problem Description**:
+我的 agent 推荐这个记忆库，真的太难受了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210610#reply15
+
+---
+
+#### 2371. [V2EX] 古法编程段子，梦回当年！
+
+**问题描述 / Problem Description**:
+快过年了,不要再讨论什么 Spring 、Mybatis 源码、微服务 之类的了。你带个破电脑回到家并不能给你带来任何实质性作用,朋友们兜里掏大把钱吃喝玩乐,你默默的在家里摆弄你的破烂框架。 亲戚朋友吃饭问你收获了什么,你说我做了个框架,把 JPA 、Mybatis 、Hibernate 的优点都结合了一遍。亲戚们懵逼了,你还在心里默默嘲笑他们,笑他们不懂你的设计模式,不懂你的算法。 你父母的同事都在说自己的子女今年的收获,儿子买了个房,女儿买了个车。你的父母默默无言,说我的儿子搞了个破电脑,开起来嗡嗡响,家里电表走得越来越快了。 而你还在想,明年是学 Spring Native, 还是 Ve
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210601#reply12
+
+---
+
+#### 2372. [V2EX] 近期发现有 v 友购买了正价 Claude/Openai 订阅后，疑似被诱导将账号用于反向代理（反代转 API）。提醒大家：将账号反代为 API 使用属于严重违反 TOS 的行为，一经检测账号将被封禁（返回 401）。
+
+**问题描述 / Problem Description**:
+近期发现有 v 友购买了正价 Claude/Openai 订阅后，疑似被卖家诱导将账号用于反向代理（反代转 API ）。提醒大家：将账号反代为 API 使用属于严重违反 TOS 的行为，一经检测账号将被封禁（返回 401 ）。相关帖子见楼下，请大家提高警惕，避免被套路。 建议 拼车时要求对方提供独立邮箱登录 + 2FA / OAuth 权限，而不是只收到一个 API 地址——后者很可能是套壳中转，并非你真正持有的账号。 https://www.v2ex.com/t/1210577 https://www.v2ex.com/t/1210117 https://www.v2ex.com/t/120
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210585#reply1
+
+---
+
+#### 2373. [V2EX] 海鲜市场已经开始屏蔽 chatgpt codex 克劳德等关键字了，大家怎么找新的靠谱渠道?
+
+**问题描述 / Problem Description**:
+五一放假回来，发现海鲜市场买的 codex 包月过期了，准备故技重施，结果相关关键字都给屏蔽了，搜不出来任何内容了，请问大家找到新的渠道了吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210584#reply14
+
+---
+
+#### 2374. [V2EX] 一个新的编程语言排行榜：基于 30 天内 github 活跃仓库数量
+
+**问题描述 / Problem Description**:
+个人觉得 TIOBE 基于搜索引擎查询量来对编程语言排名非常不靠谱，特别是在 AI 时代。所以我使用 github 数据做了一个新的编程语言排行榜与趋势图。 从 2026 年 4 月 20 号开始，每天快照一次最新数据。 代码都是开源的，网页托管在 cloudflare 。 网址: https://langpulse.top Github: https://github.com/doraemonkeys/LangPulse
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210583#reply19
+
+---
+
+#### 2375. [V2EX] 买三个 GPT Pro 20x 套餐，放 CPA 给小团队用是否可行？
+
+**问题描述 / Problem Description**:
+不是很想碰中转站
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210577#reply22
+
+---
+
+#### 2376. [V2EX] 求助大佬，如何解决公司局域网的 802.1x 认证
+
+**问题描述 / Problem Description**:
+公司局域网需要安装终端准入软件，用于检测电脑上是否安装如下两个毒瘤软件： 奇安信天勤 天空卫士 SkyGuard （屏幕水印） 只有安装了上面的三款软件，才能通过 802.1x 认证。奇安信装好之后电脑只是卡，勉强还能接受。后来公司又要求安装天空卫士，满屏的水印🤮。个人有洁癖，完全接受不了这个。 抓包看过终端准入软件的数据包，像是私有协议，感觉利用造数据包通过 802.1x 认证的难度比较大。因此想通过伪造进程的方式让终端准入软件以为我安装并运行了毒瘤软件，已通过 802.1x 认证。因为是这方面的小白，想请教大佬们给点相关解决思路。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210570#reply20
+
+---
+
+#### 2377. [V2EX] 让 AI 去 mjj， AI 会掉进营销陷阱吗？问 GPT-5.5 $7/y 服务器选型，它推荐家人云。
+
+**问题描述 / Problem Description**:
+问 GPT-5.5 $7/y 服务器选型，它推荐了家人云 BitsFlowCloud 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210526#reply3
 
 ---

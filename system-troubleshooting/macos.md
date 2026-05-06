@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1982**
+**总计条目 / Total entries: 2032**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -29973,5 +29973,655 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210472#reply3
+
+---
+
+#### 1983. I made some wallpapers inspired by MacOS 26.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t59w9z/i_made_some_wallpapers_inspired_by_macos_26/
+
+---
+
+#### 1984. Reflex app (Stunt Siftware) on MacMini/ Thunderbolt Apple Display isn't working?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t5h23z/reflex_app_stunt_siftware_on_macmini_thunderbolt/
+
+---
+
+#### 1985. VPN (Free?) for Mac OS 10.15.7 that allows P2P?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t5gfj2/vpn_free_for_mac_os_10157_that_allows_p2p/
+
+---
+
+#### 1986. Why do my function keys keep enabling themselves?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t5froz/why_do_my_function_keys_keep_enabling_themselves/
+
+---
+
+#### 1987. where to get clear list of ALL updates in a version?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t5eqdh/where_to_get_clear_list_of_all_updates_in_a/
+
+---
+
+#### 1988. what is kernel task? and why is it writing 175 GB bytes in SSD I presume?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t58v1k/what_is_kernel_task_and_why_is_it_writing_175_gb/
+
+---
+
+#### 1989. Magic Keyboard and Trackpad can no longer be paired simultaneously
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t5dy3y/magic_keyboard_and_trackpad_can_no_longer_be/
+
+---
+
+#### 1990. TOUCH ID don't appear so I can't download an app, what do I do?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t5dxfz/touch_id_dont_appear_so_i_cant_download_an_app/
+
+---
+
+#### 1991. iPhone 18 Pro's LTPO+ Display Upgrade to Come From Samsung, LG
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t5bst1/iphone_18_pros_ltpo_display_upgrade_to_come_from/
+
+---
+
+#### 1992. US Supreme Court declines to pause order holding Apple in contempt in Epic Games lawsuit
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t5g32x/us_supreme_court_declines_to_pause_order_holding/
+
+---
+
+#### 1993. iPhone 18 Pro CAD Leak Reignites the Dynamic Island Debate
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t5a9n6/iphone_18_pro_cad_leak_reignites_the_dynamic/
+
+---
+
+#### 1994. Should i purchase a 2017 macbook air
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t5dsq0/should_i_purchase_a_2017_macbook_air/
+
+---
+
+#### 1995. Air with 24gb ram or Pro with 16gb. Which is the correct choice for data science major?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t5ghfl/air_with_24gb_ram_or_pro_with_16gb_which_is_the/
+
+---
+
+#### 1996. Best value upgrade from MacOS Big Sur 11?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t5cins/best_value_upgrade_from_macos_big_sur_11/
+
+---
+
+#### 1997. Qual Macbook devo pegar?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t5c21i/qual_macbook_devo_pegar/
+
+---
+
+#### 1998. how to extract a zip file which requires more space than which is available
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t5has0/how_to_extract_a_zip_file_which_requires_more/
+
+---
+
+#### 1999. My desktop wallpaper now shows live cloud systems from space
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1t5b81v/my_desktop_wallpaper_now_shows_live_cloud_systems/
+
+---
+
+#### 2000. ‘Very important sim message’
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5gikt/very_important_sim_message/
+
+---
+
+#### 2001. Phishing? Or real?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5gafx/phishing_or_real/
+
+---
+
+#### 2002. Photos unaccessible through camera role
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5g980/photos_unaccessible_through_camera_role/
+
+---
+
+#### 2003. Battery percentage stuck
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5g3gw/battery_percentage_stuck/
+
+---
+
+#### 2004. Recent iPhone purchase
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5g33b/recent_iphone_purchase/
+
+---
+
+#### 2005. Asking for advice for modding an old Apple Cinema HD Display 30"
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5frv9/asking_for_advice_for_modding_an_old_apple_cinema/
+
+---
+
+#### 2006. I've a MBA M5 Is it normal for the spacebar feel a little wobbly and noisy compared to the other keys?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5fjh6/ive_a_mba_m5_is_it_normal_for_the_spacebar_feel_a/
+
+---
+
+#### 2007. My iPhone15 automatically started screen recording
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5fi1m/my_iphone15_automatically_started_screen_recording/
+
+---
+
+#### 2008. New to iPhone after years of Android - what are the must know tips/tricks/settings?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5evl6/new_to_iphone_after_years_of_android_what_are_the/
+
+---
+
+#### 2009. How to stop AirPods from pausing by touch
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5erla/how_to_stop_airpods_from_pausing_by_touch/
+
+---
+
+#### 2010. iPad M1 not restoring
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5ekrb/ipad_m1_not_restoring/
+
+---
+
+#### 2011. "Can't send code at this time"
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5ebvh/cant_send_code_at_this_time/
+
+---
+
+#### 2012. Why is my maps taking up 11.9 GBs?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5ds26/why_is_my_maps_taking_up_119_gbs/
+
+---
+
+#### 2013. My Internet is not working on my ipad.
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5dnfj/my_internet_is_not_working_on_my_ipad/
+
+---
+
+#### 2014. Mail search stopped working altogether on iPhone
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5d70d/mail_search_stopped_working_altogether_on_iphone/
+
+---
+
+#### 2015. Macbook Air Keyboard not working
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5cqrp/macbook_air_keyboard_not_working/
+
+---
+
+#### 2016. iPhone repair advice
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5clj2/iphone_repair_advice/
+
+---
+
+#### 2017. Can’t sign up/sign in to any app with apple account
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5bxsr/cant_sign_upsign_in_to_any_app_with_apple_account/
+
+---
+
+#### 2018. i just received this notification
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5bt1g/i_just_received_this_notification/
+
+---
+
+#### 2019. Whenever I try to access(open, copy, delete ...etc) files in my Icloud I get the rainbow pinwheel. It also happens when other apps try to access them, for example adding an attacthment to an email. Does anyone know how to fix this?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5bo9r/whenever_i_try_to_accessopen_copy_delete_etc/
+
+---
+
+#### 2020. What does this mean and how do you fix it?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5ag51/what_does_this_mean_and_how_do_you_fix_it/
+
+---
+
+#### 2021. Accented Letter Unique Fix (not using the typical methods)
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t596p5/accented_letter_unique_fix_not_using_the_typical/
+
+---
+
+#### 2022. [V2EX] Mac 新手 SSH 客户端推荐
+
+**问题描述 / Problem Description**:
+这几天 WinTerm 弹出即将结束对 M 系列 Mac 的支持，有没有其他一样免费好用的 SSH 工具推荐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210520#reply54
+
+---
+
+#### 2023. [V2EX] 在 Android 上面有什么类似 homekit 的监控摄像头方案吗？
+
+**问题描述 / Problem Description**:
+家里 2 台 onvif 摄像头，已经关了外网了，目前在苹果设备上可以用 homekit 很丝滑，还可以保存录像。 但是另一台三星 s25 edge ，有什么类似方案在非内网情况下使用吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210604#reply2
+
+---
+
+#### 2024. [V2EX] 如何定位 Mac 快捷键冲突
+
+**问题描述 / Problem Description**:
+经常会时不时地出现 Option 键“失灵”的情况，但是又不知道该如何排查 表现为 App 的快捷键失效： - Manico 的“Option+数字键”切换 App 失效 - Bob 的“Option+A”的翻译快捷键失效 整体感觉就是某个 App 抢占了 Option 键，导致其他 App 无法正常监听 Option 键
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210498#reply2
+
+---
+
+#### 2025. [V2EX] 实测 iOS loon 即使代理 push.apple.com 和相关域, tg 也无法正确推送. 需要在高级配置里面开启包含 APNS
+
+**问题描述 / Problem Description**:
+但是蛋疼的是, 一旦开了这个设置开关, Mac 就无法正常连 iPhone 的热点上网...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210438#reply4
+
+---
+
+#### 2026. [V2EX] 美区、港区 App Store 无法更新抖音了，求方法！
+
+**问题描述 / Problem Description**:
+我朋友港区，我自己美区，都无法更新抖音了，虽然软件还在已购里，但是无法重新下载。而且在存储里 Offload 以后，也无法 reload 回来。求下载回来的黑魔法？ 日常虽然用的少，但是作为一个运营，没办法脱离手机版本的抖音，工作需要，咋办？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210316#reply7
+
+---
+
+#### 2027. [V2EX] 写给苹果 CEO 库克的一封信
+
+**问题描述 / Problem Description**:
+写给苹果 CEO 库克的一封信 request for Official Free Repair for My iPad Air 3 Blank Screen Issue Dear Mr. Tim Cook, My name is a professional AI self-media blogger and a big Google fan. I have been a loyal Apple user for many years. I have purchased many Apple products including iPhone 4, iPhone 7 Plus, iPhone
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210228#reply33
+
+---
+
+#### 2028. [V2EX] apns（苹果消息服务）推送异常后目前所做的努力
+
+**问题描述 / Problem Description**:
+按照 https://support.apple.com/zh-cn/102266 信息，以及论坛上大佬们提供的域名，做了个 rule-set ，方便工具接入使用 地址： https://raw.githubusercontent.com/mrbruce516/apns-fix/refs/heads/main/Apple_APNs.list 指向外面的节. 即可 目前测试下来，最近并非所有海外 app 都受限制，我的 PlayStation app 、gemini 等可以正常收到消息，所以猜测是苹果针对部分 app 的 Bundle ID 结合设备终端 *.push.apple.com 请求头
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210130#reply32
+
+---
+
+#### 2029. [V2EX] 苹果的信号是我误解了吗
+
+**问题描述 / Problem Description**:
+昨天去大运看演唱会，我隔壁的一个香港大姐全程都在发视频，无任何卡顿，而且我看她微信从来没有转圈圈过。看信号是全球通，双卡，手机 pin 是四位的，这个是不是意味着她的手机是比较旧款的 iPhone 。我自己的是 iPhone 15 PRO MAX 联通流量，一张图都发不出去。 突然深深的怀疑我过去十来年对 iPhone 信号差的观点是错的，问题出在哪里？我也想像她一样在高峰期有好的网络体验。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210120#reply85
+
+---
+
+#### 2030. [V2EX] Mac mini 配显示器，上 5K 还是高刷更重要？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210057#reply62
+
+---
+
+#### 2031. [V2EX] Apple ID 国区转美区技巧
+
+**问题描述 / Problem Description**:
+摸索了很久，每次都被提示“此时无法创建账户”。 后来用了这个办法，很轻松就改成美区了。分享出来，供大家参考 1.把设置中的“语言与地区”中的国家改成美国 2.把 App Store 已有的账号退出来 3.关闭 VPN 3. “媒体与购买项目”-“查看账户”-“国家/地区”修改为美国，地址改成免税地址（具体可以问 Gemini 之类的），账单付款方式选择 None （无） 就可以了。简单的有点难以置信。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209565#reply20
+
+---
+
+#### 2032. [V2EX] iPhone 磁吸手机支架
+
+**问题描述 / Problem Description**:
+有没有用这个的朋友？仅磁吸不带充电的 我 17pm 发现用磁吸手机支架+有点充电时有时拿手机时手机边框有一点麻麻/震动的感觉 已知 16pm 用同一个磁吸支架时没问题，换 17pm 一天后就出现了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209519#reply9
 
 ---
