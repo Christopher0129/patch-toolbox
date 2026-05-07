@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1298**
+**总计条目 / Total entries: 1317**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -21171,5 +21171,233 @@ It was discovered that EditorConfig incorrectly handled specially crafted config
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8238-1
+
+---
+
+#### 1299. CVE-2026-43075 - kernel: ocfs2: fix out-of-bounds write in ocfs2_write_end_inline
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ocfs2: fix out-of-bounds write in ocfs2_write_end_inline. Bugzilla: 2466979
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466979
+
+---
+
+#### 1300. CVE-2026-43087 - kernel: pinctrl: mcp23s08: Disable all pin interrupts during probe
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: pinctrl: mcp23s08: Disable all pin interrupts during probe. Bugzilla: 2466980
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466980
+
+---
+
+#### 1301. CVE-2026-43088 - kernel: net: af_key: zero aligned sockaddr tail in PF_KEY exports
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: af_key: zero aligned sockaddr tail in PF_KEY exports. Bugzilla: 2466981
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466981
+
+---
+
+#### 1302. CVE-2026-43091 - kernel: xfrm: Wait for RCU readers during policy netns exit
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfrm: Wait for RCU readers during policy netns exit. Bugzilla: 2466983
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466983
+
+---
+
+#### 1303. CVE-2026-43102 - kernel: net: airoha: Fix memory leak in airoha_qdma_rx_process()
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: airoha: Fix memory leak in airoha_qdma_rx_process(). Bugzilla: 2466984
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466984
+
+---
+
+#### 1304. CVE-2026-43097 - kernel: PCI: hv: Fix double ida_free in hv_pci_probe error path
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: PCI: hv: Fix double ida_free in hv_pci_probe error path. Bugzilla: 2466985
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466985
+
+---
+
+#### 1305. CVE-2026-43079 - kernel: perf/x86/intel/uncore: Skip discovery table for offline dies
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: perf/x86/intel/uncore: Skip discovery table for offline dies. Bugzilla: 2466986
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466986
+
+---
+
+#### 1306. CVE-2026-43107 - kernel: xfrm: account XFRMA_IF_ID in aevent size calculation
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfrm: account XFRMA_IF_ID in aevent size calculation. Bugzilla: 2466987
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466987
+
+---
+
+#### 1307. CVE-2026-43106 - kernel: cachefiles: fix incorrect dentry refcount in cachefiles_cull()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: cachefiles: fix incorrect dentry refcount in cachefiles_cull(). Bugzilla: 2466988
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466988
+
+---
+
+#### 1308. CVE-2026-43111 - kernel: HID: roccat: fix use-after-free in roccat_report_event
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: HID: roccat: fix use-after-free in roccat_report_event. Bugzilla: 2466989
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466989
+
+---
+
+#### 1309. CVE-2026-43119 - kernel: Bluetooth: hci_sync: annotate data-races around hdev->req_status
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Bluetooth: hci_sync: annotate data-races around hdev->req_status. Bugzilla: 2466991
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466991
+
+---
+
+#### 1310. CVE-2026-43118 - kernel: btrfs: fix zero size inode with non-zero size after log replay
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: btrfs: fix zero size inode with non-zero size after log replay. Bugzilla: 2466992
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466992
+
+---
+
+#### 1311. CVE-2026-43086 - kernel: ipvs: fix NULL deref in ip_vs_add_service error path
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ipvs: fix NULL deref in ip_vs_add_service error path. Bugzilla: 2466993
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466993
+
+---
+
+#### 1312. CVE-2026-43114 - kernel: netfilter: nft_set_pipapo_avx2: don't return non-matching entry on expiry
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: netfilter: nft_set_pipapo_avx2: don't return non-matching entry on expiry. Bugzilla: 2466994
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466994
+
+---
+
+#### 1313. CVE-2026-43081 - kernel: net: ipa: fix GENERIC_CMD register field masks for IPA v5.0+
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: ipa: fix GENERIC_CMD register field masks for IPA v5.0+. Bugzilla: 2466995
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466995
+
+---
+
+#### 1314. CVE-2026-43101 - kernel: ipv6: ioam: fix potential NULL dereferences in __ioam6_fill_trace_data()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ipv6: ioam: fix potential NULL dereferences in __ioam6_fill_trace_data(). Bugzilla: 2466996
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466996
+
+---
+
+#### 1315. CVE-2026-43099 - kernel: ipv4: icmp: fix null-ptr-deref in icmp_build_probe()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ipv4: icmp: fix null-ptr-deref in icmp_build_probe(). Bugzilla: 2466997
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466997
+
+---
+
+#### 1316. CVE-2026-43113 - kernel: wifi: wl1251: validate packet IDs before indexing tx_frames
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: wifi: wl1251: validate packet IDs before indexing tx_frames. Bugzilla: 2466998
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466998
+
+---
+
+#### 1317. CVE-2026-43076 - kernel: ocfs2: validate inline data i_size during inode read
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ocfs2: validate inline data i_size during inode read. Bugzilla: 2466999
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466999
 
 ---
