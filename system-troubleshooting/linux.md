@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2377**
+**总计条目 / Total entries: 2424**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -38682,5 +38682,616 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210526#reply3
+
+---
+
+#### 2378. Inkscape 1.4.4 now available
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t5jmxu/inkscape_144_now_available/
+
+---
+
+#### 2379. [ANNOUNCE] mesa 26.1.0
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t5o8sv/announce_mesa_2610/
+
+---
+
+#### 2380. Release word-sys's PDF Editor v1.9.0 · word-sys/word-sys-pdf-editor
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t5pp84/release_wordsyss_pdf_editor_v190/
+
+---
+
+#### 2381. GNUstep monthly meeting (audio/(video) call) on Saturday, 9th of May 2026 -- Reminder
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t5jv16/gnustep_monthly_meeting_audiovideo_call_on/
+
+---
+
+#### 2382. ProxyGW: An L4 proxy built on nftables
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t5ma7p/proxygw_an_l4_proxy_built_on_nftables/
+
+---
+
+#### 2383. Release PULS Kernel/GRUB Manager v0.1.1 · word-sys/puls-kernel-mgr
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t5kwp7/release_puls_kernelgrub_manager_v011/
+
+---
+
+#### 2384. Are 3d Desktop Environments possible?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t5ic7j/are_3d_desktop_environments_possible/
+
+---
+
+#### 2385. wrote a systemd daemon that executes LLM scripts to manage my OS. here is my btrfs/docker setup to stop it from breaking arch.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t5qw84/wrote_a_systemd_daemon_that_executes_llm_scripts/
+
+---
+
+#### 2386. F*** Vultr, account restricted because I was using 50% of my vCPU
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t5relf/f_vultr_account_restricted_because_i_was_using_50/
+
+---
+
+#### 2387. Who else tends to not recommend any distro based on Ubuntu?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5hgsx/who_else_tends_to_not_recommend_any_distro_based/
+
+---
+
+#### 2388. Persistent audio issue across all Linux distros (Audio dropouts/popping) - Gigabyte A320M S2H
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5k1hv/persistent_audio_issue_across_all_linux_distros/
+
+---
+
+#### 2389. Stressed student + broke or linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5n2xw/stressed_student_broke_or_linux/
+
+---
+
+#### 2390. Kernel level issue with touchpad
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5kcr7/kernel_level_issue_with_touchpad/
+
+---
+
+#### 2391. Mate-dock-applet does not conform to MATE panel customizations
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5qnt8/matedockapplet_does_not_conform_to_mate_panel/
+
+---
+
+#### 2392. Most stable and easy OOTB distro for Asus laptop?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5iqz1/most_stable_and_easy_ootb_distro_for_asus_laptop/
+
+---
+
+#### 2393. QT Platform error when trying to launch software (which worked fine on Debian Stable but won't work on Pika OS)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5mi2h/qt_platform_error_when_trying_to_launch_software/
+
+---
+
+#### 2394. Display scaling issue
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5lgat/display_scaling_issue/
+
+---
+
+#### 2395. I am having issues with the drivers for my USB wifi adapter.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5leyg/i_am_having_issues_with_the_drivers_for_my_usb/
+
+---
+
+#### 2396. Installing Ubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5p6m0/installing_ubuntu/
+
+---
+
+#### 2397. Linux or Dual OS Methods
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t5mkju/linux_or_dual_os_methods/
+
+---
+
+#### 2398. Bye bye MacOs
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5lf26/bye_bye_macos/
+
+---
+
+#### 2399. I am really enjoying Ubuntu and open source software! "short story below!"
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5kow4/i_am_really_enjoying_ubuntu_and_open_source/
+
+---
+
+#### 2400. Hyperland on Ubuntu 26.04!
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5ny37/hyperland_on_ubuntu_2604/
+
+---
+
+#### 2401. Installed on 2015 macbook pro 8gb ram
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5i1mx/installed_on_2015_macbook_pro_8gb_ram/
+
+---
+
+#### 2402. I can't install 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5l7zl/i_cant_install_2604/
+
+---
+
+#### 2403. Layer 7 Attacks
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5ku1s/layer_7_attacks/
+
+---
+
+#### 2404. Help me troubleshoot my window manager?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5nowr/help_me_troubleshoot_my_window_manager/
+
+---
+
+#### 2405. Installing Ubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5p67m/installing_ubuntu/
+
+---
+
+#### 2406. For a next hypothetical official release would you prefer Unity or Gnome?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t5no6q/for_a_next_hypothetical_official_release_would/
+
+---
+
+#### 2407. Thank you
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t5q3ev/thank_you/
+
+---
+
+#### 2408. Stable, with long term support. Work and gaming.
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t5k7c8/stable_with_long_term_support_work_and_gaming/
+
+---
+
+#### 2409. Issue with ALFA AWUS036ACH
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t5pa1q/issue_with_alfa_awus036ach/
+
+---
+
+#### 2410. Linux Distro for gaming and programming
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t5p92h/linux_distro_for_gaming_and_programming/
+
+---
+
+#### 2411. Linux distros hate my keyboard???
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t5jazs/linux_distros_hate_my_keyboard/
+
+---
+
+#### 2412. I am having issues with the drivers for my USB wifi adapter.
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t5ldtf/i_am_having_issues_with_the_drivers_for_my_usb/
+
+---
+
+#### 2413. Genuinely looking for feedback on a CLI tool to safely clean up your inbox (IMAP + undo)
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t5qhvl/genuinely_looking_for_feedback_on_a_cli_tool_to/
+
+---
+
+#### 2414. Wordle-CLI. A Simple, Beautiful, and Lightweight CLI for Wordle.
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t5of9l/wordlecli_a_simple_beautiful_and_lightweight_cli/
+
+---
+
+#### 2415. [V2EX] 苹果最新妙控触摸板和 Linux 适配的好吗?
+
+**问题描述 / Problem Description**:
+鼠标滑轮有点粘手,打算试试苹果的触摸板,就是不知道适配的怎样.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210536#reply16
+
+---
+
+#### 2416. [V2EX] Ubuntu26.04 桌面端配置静态 IP 失败
+
+**问题描述 / Problem Description**:
+通过系统设置静态 IP ，选择 ipv4 manual,配置 IP ，子网掩码，路由。点击右上角的 apply 。 再次打开配置，又变成 DHCP 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209459#reply5
+
+---
+
+#### 2417. [V2EX] debian13 有必要升级吗？感觉 12 还能坚持好几年
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1190787#reply4
+
+---
+
+#### 2418. [V2EX] 😂 昨天又有一大批天才程序员陨落了，不如「改邪归正」吧
+
+**问题描述 / Problem Description**:
+昨天的电报群里，很多人都说自己的 plus 号，又被封了。 没有了 ChatGPT plus ，一大批天才程序员再次陨落。 其实这种低价的卡 bug 的 plus 账号，5.1 的时候就封过一批，昨天 5.6 又死了一批。 而且 codex 已经开始跳手机号验证了。（+86 的号码是不行的哈，可以用 5sim 、hero-sms 这些接码网站） 可以看得出来，OpenAI 在逐步的收紧风控，这种 bug 号的生存时间越来越短。 花二十多买个盗版 plus ，天天提心吊胆的，还是逃不掉被封号。 这种性价比其实很低了，真不如改邪归正，去走官方订阅了。 我做了个网站( https://aibijia
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210705#reply0
+
+---
+
+#### 2419. [V2EX] 继续 Vibe Coding 瘾大中，给小女友做了一个美美的阅读器
+
+**问题描述 / Problem Description**:
+现在感受到编程序比钓鱼的好了。年过半百了，凭这点新学的手艺，桃花运撞头。昨天给新小女友做了个美美的阅读器，被崇拜得不行。开源在 github 了，需要的同学自取不谢。 Github 地址： https://github.com/Oililyuk/amado ， 演示地址： https://oililyuk.github.io/amado/rain.html 可以上传 MD 文件，听着雨声阅读，是不是有点浪漫？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210703#reply0
+
+---
+
+#### 2420. [V2EX] 关于 AI 的新闻你们都是哪里获取的
+
+**问题描述 / Problem Description**:
+每日 AI 早报，一周 AI 大事之类的。求推荐点好的消息源，我做个聚合免费给大家用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210655#reply11
+
+---
+
+#### 2421. [V2EX] 麻了，对着 AI 骂了两句，它给我写的代码直接不能跑
+
+**问题描述 / Problem Description**:
+今天下午赶需求，让 GPT 帮我重构一个排序逻辑，一开始还挺正常，给出来的代码一次过。 结果中间有个 bug 它没看出来，我顺手打了一句“你 tm 是不是眼瞎，这都能写错”。然后让它再改一版。 好家伙= = 第二次给出来的代码，引入了三个新 bug ，连最基本的边界条件都漏了。我还以为是它复读旧答案，又多问了两遍，结果一次比一次离谱，最后一次直接给我返回一个死循环。 刚开始我还骂它“废物”，后来发现不对劲：同一个问题，语气越差，答案越智障。 我甚至试过直接复制之前它写对的提示词重新问，没有脏话，它又能跑通了。 这不是它记仇，就是它 ai 真的会因为你语气不好就“摆烂”。 现在我改需求都先深吸一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210640#reply26
+
+---
+
+#### 2422. [V2EX] 海鲜市场已经开始屏蔽 chatgpt codex 克劳德等关键字了，大家怎么找新的靠谱渠道?
+
+**问题描述 / Problem Description**:
+五一放假回来，发现海鲜市场买的 codex 包月过期了，准备故技重施，结果相关关键字都给屏蔽了，搜不出来任何内容了，请问大家找到新的渠道了吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210584#reply16
+
+---
+
+#### 2423. [V2EX] 一个新的编程语言排行榜：基于 30 天内 github 活跃仓库数量
+
+**问题描述 / Problem Description**:
+个人觉得 TIOBE 基于搜索引擎查询量来对编程语言排名非常不靠谱，特别是在 AI 时代。所以我使用 github 数据做了一个新的编程语言排行榜与趋势图。 从 2026 年 4 月 20 号开始，每天快照一次最新数据。 代码都是开源的，网页托管在 cloudflare 。 网址: https://langpulse.top Github: https://github.com/doraemonkeys/LangPulse
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210583#reply21
+
+---
+
+#### 2424. [V2EX] 买三个 GPT Pro 20x 套餐，放 CPA 给小团队用是否可行？
+
+**问题描述 / Problem Description**:
+不是很想碰中转站
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210577#reply23
 
 ---

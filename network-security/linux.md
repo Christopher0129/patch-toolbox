@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1295**
+**总计条目 / Total entries: 1298**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -21135,5 +21135,41 @@ It was discovered that Dynaconf was incorrectly handling template evaluation in 
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8231-1
+
+---
+
+#### 1296. [Ubuntu] USN-8239-1: Apache HTTP Server vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Bartlomiej Dmitruk and Stanislaw Strzalkowski discovered that Apache HTTP Server incorrectly handled certain memory operations when using the HTTP/2 protocol. A remote attacker could use this issue to cause Apache HTTP Server to crash, resulting in a denial of service, or possibly execute arbitrary code. This issue only affected Ubuntu 26.04 LTS. (CVE-2026-23918) It was discovered that the Apache
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8239-1
+
+---
+
+#### 1297. [Ubuntu] USN-8233-2: nghttp2 vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8233-1 fixed a vulnerability in nghttp2. This update provides the corresponding update for Ubuntu 26.04 LTS. Original advisory details: Andrew MacPherson discovered that nghttp2 did not properly validate internal state when the session termination API was called. A remote attacker could possibly use this issue to cause nghttp2 to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8233-2
+
+---
+
+#### 1298. [Ubuntu] USN-8238-1: EditorConfig vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that EditorConfig incorrectly handled specially crafted configuration files. A local attacker could possibly use this issue to cause EditorConfig to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8238-1
 
 ---
