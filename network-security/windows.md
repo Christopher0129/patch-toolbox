@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 840**
+**总计条目 / Total entries: 846**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -12470,5 +12470,77 @@ Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52545
+
+---
+
+#### 841. [remote] telnetd 2.7 - Buffer Overflow
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] telnetd 2.7 - Buffer Overflow
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52556
+
+---
+
+#### 842. [webapps] Ghost CMS 6.19.0 - SQLi
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Ghost CMS 6.19.0 - SQLi
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52555
+
+---
+
+#### 843. [webapps] LuaJIT 2.1.1774638290 - Arbitrary Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] LuaJIT 2.1.1774638290 - Arbitrary Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52554
+
+---
+
+#### 844. [webapps] Bludit CMS 3.18.4 -  RCE
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Bludit CMS 3.18.4 - RCE
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52553
+
+---
+
+#### 845. [local] NocoBase  2.0.27 - VM Sandbox Escape
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] NocoBase 2.0.27 - VM Sandbox Escape
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52552
+
+---
+
+#### 846. [webapps] ThingsBoard IoT Platform 4.2.0 - Server-Side Request Forgery (SSRF)
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] ThingsBoard IoT Platform 4.2.0 - Server-Side Request Forgery (SSRF)
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52551
 
 ---

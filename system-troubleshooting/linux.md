@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2528**
+**总计条目 / Total entries: 2592**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -40645,5 +40645,837 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210654#reply4
+
+---
+
+#### 2529. uPlot: A small, fast chart for time series, lines, areas, ohlc & bars
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t6bnvd/uplot_a_small_fast_chart_for_time_series_lines/
+
+---
+
+#### 2530. I made a script to deep purge Arch packages + their home directory residue. Thoughts?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t68gt9/i_made_a_script_to_deep_purge_arch_packages_their/
+
+---
+
+#### 2531. What's a good budget laptop for Linux (for my son)?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t66zoy/whats_a_good_budget_laptop_for_linux_for_my_son/
+
+---
+
+#### 2532. Why do only 4 Distros have their own font? (Ubuntu, Pi OS, openSUSE, Red Hat Enterprise)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t698zt/why_do_only_4_distros_have_their_own_font_ubuntu/
+
+---
+
+#### 2533. What Distro should i pick
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6a391/what_distro_should_i_pick/
+
+---
+
+#### 2534. Anyone else having this issue? InputActions fails to build
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6crfy/anyone_else_having_this_issue_inputactions_fails/
+
+---
+
+#### 2535. recover files from a corrupted arch linux, with a live version
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6eexl/recover_files_from_a_corrupted_arch_linux_with_a/
+
+---
+
+#### 2536. Dual booting Windows 11 with CachyOS
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6amxa/dual_booting_windows_11_with_cachyos/
+
+---
+
+#### 2537. Problem with libinput plugin
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6dk6k/problem_with_libinput_plugin/
+
+---
+
+#### 2538. Storage Problem
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6d82i/storage_problem/
+
+---
+
+#### 2539. UFW returns Closed when port is blocked.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6d2ii/ufw_returns_closed_when_port_is_blocked/
+
+---
+
+#### 2540. USB-C No video signal from monitor
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6cug4/usbc_no_video_signal_from_monitor/
+
+---
+
+#### 2541. Windows and Linux Mint Dual Boot
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t68b50/windows_and_linux_mint_dual_boot/
+
+---
+
+#### 2542. Formatting new drive for Steam gaming
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6b01p/formatting_new_drive_for_steam_gaming/
+
+---
+
+#### 2543. Why is DNS traffic still unencrypted on some corporate Wi-Fi networks?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t67n8u/why_is_dns_traffic_still_unencrypted_on_some/
+
+---
+
+#### 2544. Tiling not working and extra cursor in the corner.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6a5wg/tiling_not_working_and_extra_cursor_in_the_corner/
+
+---
+
+#### 2545. What part of OS or program should be responsible for good file synchronisation?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t69q6b/what_part_of_os_or_program_should_be_responsible/
+
+---
+
+#### 2546. Cannot run Farever game on ubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t69mgh/cannot_run_farever_game_on_ubuntu/
+
+---
+
+#### 2547. why is it that software repositories in linux are so much better than the google play store?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6eroe/why_is_it_that_software_repositories_in_linux_are/
+
+---
+
+#### 2548. My experience with Linux Mint
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6ef9v/my_experience_with_linux_mint/
+
+---
+
+#### 2549. okay so after reveiwing all yalls coments i want to try linux again
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6cggt/okay_so_after_reveiwing_all_yalls_coments_i_want/
+
+---
+
+#### 2550. need a good uncoventional linux gaming distro (i only really play games like beamng minecraft etc basically all games which are available on linux)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6c98g/need_a_good_uncoventional_linux_gaming_distro_i/
+
+---
+
+#### 2551. Dictation app for linux suggestions (ugly laptop, cannot run local models)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6bqpy/dictation_app_for_linux_suggestions_ugly_laptop/
+
+---
+
+#### 2552. Tips for downloading Pop_Os in the safest way possible
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6anab/tips_for_downloading_pop_os_in_the_safest_way/
+
+---
+
+#### 2553. How do I update hardware that has no Linux compatible software?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t68d32/how_do_i_update_hardware_that_has_no_linux/
+
+---
+
+#### 2554. Best Linux Distro for Dell Vostro 2520 for DnD Videocall with Discord (or something else) ?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t66ggl/best_linux_distro_for_dell_vostro_2520_for_dnd/
+
+---
+
+#### 2555. Why Did You Choose Linux? You answer
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6dmlq/why_did_you_choose_linux_you_answer/
+
+---
+
+#### 2556. Having lot of problems after installing Ubuntu 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t68uj1/having_lot_of_problems_after_installing_ubuntu/
+
+---
+
+#### 2557. 26.04 install on Qualcomm ARM CPU
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6cuis/2604_install_on_qualcomm_arm_cpu/
+
+---
+
+#### 2558. Automated WSL2/Ubuntu Dev Environment Setup - looking for Feedback
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6esqe/automated_wsl2ubuntu_dev_environment_setup/
+
+---
+
+#### 2559. Grúa-Customizer
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6dllk/grúacustomizer/
+
+---
+
+#### 2560. Display help!?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t67bno/display_help/
+
+---
+
+#### 2561. /dev/sdb or actual disc ID?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6cboe/devsdb_or_actual_disc_id/
+
+---
+
+#### 2562. Cant find update setting
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6b4uj/cant_find_update_setting/
+
+---
+
+#### 2563. why is the "reduced motion" button not working on ubuntu 26.04. do you also have these problems, because I'm already getting nervous about it.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6avgg/why_is_the_reduced_motion_button_not_working_on/
+
+---
+
+#### 2564. Tiling not working and extra cursor in the corner.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6a3on/tiling_not_working_and_extra_cursor_in_the_corner/
+
+---
+
+#### 2565. Migrating from windows to linus using external USB-SSD drive. Some thoughts.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t68iup/migrating_from_windows_to_linus_using_external/
+
+---
+
+#### 2566. Logitech G replacement for Linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6coit/logitech_g_replacement_for_linux/
+
+---
+
+#### 2567. I need help downloading Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6cnw5/i_need_help_downloading_linux/
+
+---
+
+#### 2568. Something going wrong...again
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6bpka/something_going_wrongagain/
+
+---
+
+#### 2569. i really wanna switch from windows 11 to ParrotOS
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t66lek/i_really_wanna_switch_from_windows_11_to_parrotos/
+
+---
+
+#### 2570. Laptop battery usage help
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t688d1/laptop_battery_usage_help/
+
+---
+
+#### 2571. How to ensure I disconnected to my VPS
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6d9xt/how_to_ensure_i_disconnected_to_my_vps/
+
+---
+
+#### 2572. Connection issues
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t68zqo/connection_issues/
+
+---
+
+#### 2573. okay so after reveiwing all yalls coments i want to try linux again
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6chgw/okay_so_after_reveiwing_all_yalls_coments_i_want/
+
+---
+
+#### 2574. sshoosh: a tiny TUI Slack replacement over SSH
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t66n73/sshoosh_a_tiny_tui_slack_replacement_over_ssh/
+
+---
+
+#### 2575. [V2EX] ubuntu 24.04 今天点击更新后，蓝牙鼠标不能用了。
+
+**问题描述 / Problem Description**:
+如题，更新完右上角的蓝牙图标和其他图标不断闪烁，蓝牙模式不能用，2.4G 可以，这是啥问题，是自动更新内核导致蓝牙驱动崩溃了吗，这时候 V2EX 怎么能发图片呢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210138#reply14
+
+---
+
+#### 2576. [V2EX] Ubuntu26.04 桌面端配置静态 IP 失败
+
+**问题描述 / Problem Description**:
+通过系统设置静态 IP ，选择 ipv4 manual,配置 IP ，子网掩码，路由。点击右上角的 apply 。 再次打开配置，又变成 DHCP 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1209459#reply6
+
+---
+
+#### 2577. [V2EX] 你们的 ai agent 一般用哪些 web_search 工具？
+
+**问题描述 / Problem Description**:
+楼主用了 16 个工具 1.minimax （ cli+mcp ） 2.step 3.baidu 4.baidu ai search 5.tavily 6.doubao 7.bailian 8.exa 9.brave 10.linkup 11.serpapi 12.bocha 13.openai 14.grok 15.duckduckgo （ hermes agent 自带搜索工具） 16.gemini 目前这些都是免费的 之前楼主都是全部写入我的 agent ，然后让自己的 agent 装上，然后一股脑全部调用，然后发现太耗费 token 了， 然后就弄了个子 agent ，用 minima
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211001#reply3
+
+---
+
+#### 2578. [V2EX] superpowers 太慢了，每天的工作蹬不完，有没有功能相似但速度快的 skill
+
+**问题描述 / Problem Description**:
+superpowers 用了之后确实很显著，大多数东西需求都是一把过。但是 gpt5.5+xhigh 配合 superpowers 的 subagent ，就慢的不行。 如果 gpt5.5+xhigh 是刚需的情况下。有另外的方案推荐吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210981#reply3
+
+---
+
+#### 2579. [V2EX] 大家偏向买一个 coding agent 的高级会员还是多个的基础会员？
+
+**问题描述 / Problem Description**:
+我之前是 cursor ，codex ，kiro ，gemini ，copilot 啥的都开了基础会员，轮流着用了试试。但现在觉得都开还是太麻烦了。不知道大家倾向于开一个的高级会员还是多个的基础会员？ 还有比如不同 agent 的相同模型表现是不是差不多？例如 cursor ，kiro 和 antigravity 等都有 claude 模型。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210961#reply4
+
+---
+
+#### 2580. [V2EX] codex 对付费主题的版权保护很强啊
+
+**问题描述 / Problem Description**:
+想参考 shopify 的付费主题搞一套主题 demo ，结果提示 “我不能按 XXX 做 1:1 克隆，即使不商用也一样。原因不是代码层面，而是主题的版式组合、视觉细节、交互表现、素材和商品页/首页的具体呈现都属于受保护的商业主题表达”。 然后说“目标是合法可用的相近风格替代主题“，结果生成的交互基本上可以说是毫无关系。 最后使用 stitch 参考主题出了一版设计稿，再使用 codex + stitch mcp 的方式可以还原 80%。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210960#reply2
+
+---
+
+#### 2581. [V2EX] 别再让 AI Agent 乱读规则了：我做了一个可路由的项目 Skill 架构
+
+**问题描述 / Problem Description**:
+因为笔者的工作需要接触到一些奇奇怪怪的项目,屎山可以说见得太多了,所以为了能让开发效率高一点,所以就写了一个 skill,但是单文件的 skill 太长了,会导致越看越读的错误,经过不断的拆分,这个 skill 项目诞生了. 项目地址： WoJiSama/skill-based-architecture 这个项目不是又写了一份更长的提示词，也不是把 AGENTS.md 、 CLAUDE.md 、 .cursor/rules/ 的内容换个地方复制一遍。 它想解决的是一个更具体的问题： 当项目越来越大，AI Agent 到底应该在什么时候读哪些规则、跟哪个流程、记录哪些新经验，并且在上游模板更新时
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210954#reply0
+
+---
+
+#### 2582. [V2EX] Antigravity 是不是彻底不能用了？
+
+**问题描述 / Problem Description**:
+每次请求都是 Agent Terminated due to error 错误 Trajectory ID: 69d98611-7e3e-4f62-888d-bf036a9722cd Error: HTTP 500 Internal Server Error Sherlog: TraceID: 0x766d55538d94b343 Headers: {"Alt-Svc":["h3=":443"; ma=2592000,h3-29=":443"; ma=2592000"],"Content-Length":["109"],"Content-Type":["text/event-stream"],
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210948#reply8
+
+---
+
+#### 2583. [V2EX] 这 AI 还能用吗？
+
+**问题描述 / Problem Description**:
+Antigravity Our servers are experiencing high traffic right now, please try again in a minute. Kiro Too many requests, please wait before trying again.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210947#reply0
+
+---
+
+#### 2584. [V2EX] 小米 mimo-v2.5-pro . 在 cc 里面用, 感觉非常慢
+
+**问题描述 / Problem Description**:
+一个小任务, 跑了 30 分钟 才完成. 同样的任务, 用 gpt 5.5 很快搞定. 赠送的 plan 就是这么慢吗? 还是买的也这样, 体验确实不太好.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210932#reply6
+
+---
+
+#### 2585. [V2EX] 很久没来吐槽了~有些人真的太坏了。
+
+**问题描述 / Problem Description**:
+事情是这样的，跟风做了个拼多多福袋组队[地址就不发了，免得说推广]，机缘巧合 不知道被谁点名了 现在每天差不多组队 1-2W ，而且这玩意真的没啥变现能力，所以也没想太多 接口也没有加什么限流风控。 然后大概是前天下午 很多人在群里说根本抢不到码，还有人说发上去就被用了，但是一直组队不成功。 然后晚上有电脑了看了下 被一个 ip 是 47.120.24.251 的吊毛刷了 4000 多个福袋码。 这得搞不懂 这玩意有啥弄得。而且换句说话说 就算这玩意能赚钱 变现 但是盘子这么大 何必恶心别人。 后面问了几个也做的比较厉害的网友 说都被这个 ip 刷过。 真的人心险恶，好事不做 不赚钱的东西也坑
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210889#reply17
+
+---
+
+#### 2586. [V2EX] DeepSeek TUI 的安装路线
+
+**问题描述 / Problem Description**:
+我把 DeepSeek TUI 的安装路线拆开了，分别做了： npm cargo Homebrew Windows update / upgrade 安装总页： https://deepseek-tui.app/install/index.html
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210888#reply1
+
+---
+
+#### 2587. [V2EX] 五一回来，发现网页版的谷歌 ai ,Gemini 等都被风控了怎么破？
+
+**问题描述 / Problem Description**:
+之前日常问简单问题都用网页版的 Gemini 等，因为他免费（都问收费的消耗不起，这个干脏活的吧），而且准确，因为我拒绝国产豆包，千问等国货，国货效果不好 这次打开无痕模式，开梯子 tun 模式代理都新加坡均还是被风控制 不太清楚是不是我的账号的问题，比如我绑的手机号是大陆，然后用户画像说我是 china 也有传言说因为我使用的语言是简体中文，或者其他 总之大家说说看怎么能解除谷歌的风控吧？ 或者大家想想其他的平替？我日常也会用 opencode 的免费模型来刷刷，但效果就一般，不及谷歌
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210859#reply9
+
+---
+
+#### 2588. [V2EX] codex 怎么官方购买按量付费版-企业付费
+
+**问题描述 / Problem Description**:
+codex 怎么官方购买按量付费版，公司可以付款，有没有办法直接购买企业付费版。公司要求必须要官网购买，但是没有海外卡，没有手机号，难道只能自己先购买然后报销吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210858#reply20
+
+---
+
+#### 2589. [V2EX] AI 编程工具大家实际使用中哪个综合下来最好用？
+
+**问题描述 / Problem Description**:
+claudecode,codex,cursor ，通义灵码，Qoder 等等..... 感觉很多测评的自媒体账号都是跟风随便乱说的， 想问问大家实际使用整体体验下来哪个最好？ 因为我们实际使用肯定要考虑性价比，效率等等各个方面
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210849#reply19
+
+---
+
+#### 2590. [V2EX] 好奇 B 站是如何追踪我的
+
+**问题描述 / Problem Description**:
+做了下面的实验： 在 iPhone 中下载 bilibili ， 未登录且未开启跟踪 的情况下刷某类冷门视频，卸载并重新安装 bilibili 后，首页的推荐出现了该类冷门视频的推荐（我这里称之为 命中 ）； 切换 WiFi 和蜂窝网络后 仍然能够成功命中推荐。系统中没有安装其他 bilibili 系的应用。 在 Android （小米）中下载了 bilibili 重复上述的 1 ，结果相似，且在设置中刷新广告 id 仍然能够命中，但在恢复出厂设置后重新安装，首页不再推荐该类视频。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210847#reply17
+
+---
+
+#### 2591. [V2EX] 如何在外面调用家里的本地算力，大佬们来个方案
+
+**问题描述 / Problem Description**:
+如何在外面调用家里的本地算力，大佬们来个方案，我玩一玩
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210806#reply23
+
+---
+
+#### 2592. [V2EX] 有人知道现在的大学生在学什么么，不会还是当年我学到 struct2 spring mvc 吧
+
+**问题描述 / Problem Description**:
+如题。学生一代又一代，老师还是那一批
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210801#reply51
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1322**
+**总计条目 / Total entries: 1329**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -21459,5 +21459,89 @@ It was discovered that Expat, vendored in Coin3D incorrectly handled certain fil
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8241-1
+
+---
+
+#### 1323. [Ubuntu] USN-8261-1: Linux kernel (Xilinx) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Josh Eads, Kristoffer Janke, Eduardo Vela Nava, Tavis Ormandy, and Matteo Rizzo discovered that some AMD Zen processors did not properly verify the signature of CPU microcode. This flaw is known as EntrySign. A privileged attacker could possibly use this issue to cause load malicious CPU microcode causing loss of integrity and confidentiality. (CVE-2024-36347) Qualys discovered that several vulner
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8261-1
+
+---
+
+#### 1324. [Ubuntu] USN-8255-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Stonejiajia, Shir Tamari and Sagi Tzadik discovered that the OverlayFS implementation in the Ubuntu Linux kernel did not properly perform permission checks in certain situations. A local attacker could possibly use this to gain elevated privileges. (CVE-2023-2640) Shir Tamari and Sagi Tzadik discovered that the OverlayFS implementation in the Ubuntu Linux kernel did not properly perform permission
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8255-1
+
+---
+
+#### 1325. [Ubuntu] USN-8254-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Network drivers; - NVME drivers; - Netfilter; (CVE-2026-23112, CVE-2026-23231, CVE-2026-23273)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8254-1
+
+---
+
+#### 1326. [Ubuntu] USN-8253-1: Postfix vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Kamil Frankowicz discovered that Postfix incorrectly handled certain enhanced status codes. A remote attacker could possibly use this issue to cause Postfix to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8253-1
+
+---
+
+#### 1327. [Ubuntu] USN-8252-1: OpenJPEG vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that OpenJPEG did not properly handle memory when encoding image files. An attacker could use this issue to cause OpenJPEG to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8252-1
+
+---
+
+#### 1328. [Ubuntu] USN-8251-1: libpng vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libpng incorrectly handled memory when processing certain PNG files. If a user or automated system were tricked into opening a specially crafted PNG file, an attacker could use this issue to cause libpng to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2026-33416) It was discovered that libpng incorrectly handled expanding 8-bit paletted r
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8251-1
+
+---
+
+#### 1329. [Ubuntu] USN-8250-1: Little CMS vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Little CMS incorrectly handled certain malformed ICC profiles. An attacker could possibly use this issue to cause Little CMS to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8250-1
 
 ---
