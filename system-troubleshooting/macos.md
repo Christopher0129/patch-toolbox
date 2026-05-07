@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2151**
+**总计条目 / Total entries: 2252**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -32170,5 +32170,1318 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210401#reply2
+
+---
+
+#### 2152. First 30 Days with macbook neo
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t604qt/first_30_days_with_macbook_neo/
+
+---
+
+#### 2153. Long Macbook Pro Restoration
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t604r0/long_macbook_pro_restoration/
+
+---
+
+#### 2154. Desktop files not staying where I put them
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t602ul/desktop_files_not_staying_where_i_put_them/
+
+---
+
+#### 2155. Files not staying in place on mac desktop
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5zz56/files_not_staying_in_place_on_mac_desktop/
+
+---
+
+#### 2156. MacBook Pro M1 Pro Liquid Damage: Apple Says Logic Board Is Dead, But Is Final Cut Pro Project/Data Recovery Still Possible?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t5zxjp/macbook_pro_m1_pro_liquid_damage_apple_says_logic/
+
+---
+
+#### 2157. [V2EX] Mac 新手 SSH 客户端推荐
+
+**问题描述 / Problem Description**:
+这几天 WinTerm 弹出即将结束对 M 系列 Mac 的支持，有没有其他一样免费好用的 SSH 工具推荐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210520#reply63
+
+---
+
+#### 2158. [V2EX] 20260507 大家用 pockyt shop 充苹果礼品卡能支付吗
+
+**问题描述 / Problem Description**:
+4 月 8 号直接支付宝打开重置正常,今天想着续费,发现支付宝下架 pockyt shop 了.于是直接登录官网去充值.发现选择支付宝支付时,支付宝提示诈骗,中断支付了.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210775#reply6
+
+---
+
+#### 2159. [V2EX] 实测 iOS loon 即使代理 push.apple.com 和相关域, tg 也无法正确推送. 需要在高级配置里面开启包含 APNS
+
+**问题描述 / Problem Description**:
+但是蛋疼的是, 一旦开了这个设置开关, Mac 就无法正常连 iPhone 的热点上网...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210438#reply6
+
+---
+
+#### 2160. [V2EX] 三星的家电业务退出中国市场了
+
+**问题描述 / Problem Description**:
+停止销售的产品包括电视、显示器、大型商用显示器、空调、冰箱、洗衣机、干衣机、洗衣干衣一体机、衣物护理机、音响、投影仪、吸尘器、空气净化器等所有家用电器。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210675#reply33
+
+---
+
+#### 2161. How to use macOS to create a Windows 11 USB installer flash drive?
+
+**问题描述 / Problem Description**:
+Tags: macos, installation, windows-11, usb-flash-drive | Score: 15 | Views: 30352 | Answers: 4 | Created: 2025-03-09
+
+**解决方案 / Solution**:
+This answer is summarized below. MBR partition a 16 GB or larger flash drive to contain a FAT32 volume and an ExFAT volume. Copy all the files, except sources/install.wim , from the mounted Windows ISO file to the FAT32 volume on the flash drive. Copy sources/install.wim from the mounted Windows ISO file to the ExFAT volume on the flash drive. Boot from the flash drive and enter a command to split the install.wim on the ExFAT volume to two files placed on the FAT32 volume. The result is an USB flash drive which can be used to install Windows 11. The steps are given next. Goto Microsoft's Download Windows 11 website and download the Windows 11 disk image (ISO) for x64 devices. In my case, the Win11_24H2_English_x64.iso file was downloaded to my Downloads folder. If your file name is different, then make the appropriate substitutions when entering the commands below. Insert a 16 GB or larger flash drive in an USB port on or connected to the Mac. Open a Terminal application window. Use the command below to determine the identifier for the USB flash drive. I my case, this was disk2 . If your identifier is different, the make the appropriate substitutions in the following commands. diskutil list external Enter the command below to format the flash drive. diskutil partitiondisk disk2 mbr fat32 MYFAT32 8G exfat MyExFAT R Enter the command below to remove all extended attributes from the Windows ISO file. This will remove the quarantine placed on the file when it was downloaded. xattr -c ~/Downloads/Win11_24H2_English_x64.iso Enter the command below to mount the Windows 11 ISO file. In my case, the output from the command shows the file was mounted on /Volumes/CCCOMA_X64FRE_EN-US_DV9 . If your folder name is different, then make the appropriate substitutions when entering the commands below. hdiutil attach ~/Downloads/Win11_24H2_English_x64.iso Enter the command below to change the current directory to /Volumes/CCCOMA_X64FRE_EN-US_DV9 . cd /Volumes/CCCOMA_X64FRE_EN-US_DV9 Enter the commands below to copy the files from the mounted ISO to the flash drive. Note: Since the install.wim file is very large, the cp command can take a while to complete. rsync -r -t --exclude=sources/install.wim . /Volumes/MYFAT32 cp sources/install.wim /Volumes/MyExFAT Enter the commands below to unmount the Windows 11 ISO file. cd ~ hdiutil detach /Volumes/CCCOMA_X64FRE_EN-US_DV9 Enter the command below to eject the flash drive. Afterwards, you can remove the flash drive. diskutil eject disk2 You can quit the Terminal application. Using the computer where Windows is to be installed, UEFI boot from the flash drive. You should get a window similar to the one shown below. You can ignore the contents of this window. Press the shift + F10 key combination to open Command Prompt window. Enter the command below. From the output, determine the drive letters for the MYFAT32 and MyExFAT volumes. In my case, the was C and D respectively. If your letters are different, the make the appropriate substitutions for c:\ and d:\ when entering the dism command given below. echo list volume | diskpart Enter the command below to create the install.swm and install2.swm files in the c:\sources folder. Note: This command will take a while to complete. dism /split-image /imagefile:d:\install.wim /swmfile:c:\sources\install.swm /filesize:4000 Enter the command below to close the Command Prompt window. exit Close the window. When the popup shown below appears, select "Yes". The computer will reboot. The next time you UEFI boot from this USB flash drive, you should encounter the following window. You then can proceed and install Windows 11. Example of Using the Terminal Window Last login: Sun Mar 9 09:16:57 on console davidanderson@Davids-Mac ~ % diskutil list external /dev/disk2 (external, physical): #: TYPE NAME SIZE IDENTIFIER 0: FDisk_partition_scheme *15.9 GB disk2 1: DOS_FAT_32 ⁨MYFLASHDRV⁩ 15.9 GB disk2s1 davidanderson@Davids-Mac ~ % diskutil partitiondisk disk2 mbr fat32 MYFAT32 8G exfat MyExFAT R Started partitioning on disk2 Unmounting disk Creating the partition map Waiting for partitions to activate Formatting disk2s1 as MS-DOS (FAT32) with name MYFAT32 512 bytes per physical sector /dev/rdisk2s1: 15594504 sectors in 1949313 FAT32 clusters (4096 bytes/cluster) bps=512 spc=8 res=32 nft=2 mid=0xf8 spt=32 hds=255 hid=2048 drv=0x80 bsec=15625000 bspf=15230 rdcl=2 infs=1 bkbs=6 Mounting disk Formatting disk2s2 as ExFAT with name MyExFAT Volume name : MyExFAT Partition offset : 15628288 sectors (8001683456 bytes) Volume size : 15370240 sectors (7869562880 bytes) Bytes per sector : 512 Bytes per cluster: 32768 FAT offset : 2048 sectors (1048576 bytes) # FAT sectors : 2048 Number of FATs : 1 Cluster offset : 4096 sectors (2097152 bytes) # Clusters : 240096 Volume Serial # : 67cdc143 Bitmap start : 2 Bitmap file size : 30012 Upcase start : 3 Upcase file size : 5836 Root start : 4 Mounting disk Finished partitioning on disk2 davidanderson@Davids-Mac ~ % xattr -c ~/Downloads/Win11_24H2_English_x64.iso davidanderson@Davids-Mac ~ % hdiutil attach ~/Downloads/Win11_24H2_English_x64.iso /dev/disk3 /Volumes/CCCOMA_X64FRE_EN-US_DV9 davidanderson@Davids-Mac ~ % cd /Volumes/CCCOMA_X64FRE_EN-US_DV9 davidanderson@Davids-Mac CCCOMA_X64FRE_EN-US_DV9 % rsync -r -t --exclude=sources/install.wim . /Volumes/MYFAT32 davidanderson@Davids-Mac CCCOMA_X64FRE_EN-US_DV9 % cp sources/install.wim /Volumes/MyExFAT davidanderson@Davids-Mac CCCOMA_X64FRE_EN-US_DV9 % cd ~ davidanderson@Davids-Mac ~ % hdiutil detach /Volumes/CCCOMA_X64FRE_EN-US_DV9 "disk3" ejected. davidanderson@Davids-Mac ~ % diskutil eject disk2 Disk disk2 ejected davidanderson@Davids-Mac ~ % Example of Using the Command Prompt Window Microsoft Windows [Version 10.0.26100.1742] (c) Microsoft Corporation. All rights reserved. X:\sources>echo list volume | diskpart Microsoft DiskPart version 10.0.26100.1150 Copyright (C) Microsoft Corporation. On computer: MININT-NBNQP5I DISKPART> Volume ### Ltr Label Fs Type Size Status Info ---------- --- ----------- ----- ---------- ------- --------- -------- Volume 0 E DVD-ROM 0 B No Media Volume 1 C MYFAT32 FAT32 Removable 7629 MB Healthy Volume 2 D MyExFAT exFAT Removable 7505 MB Healthy DISKPART> X:\sources>dism /split-image /imagefile:d:\install.wim /swmfile:c:\sources\install.swm /filesize=4000 Deployment Image Servicing and Management tool Version: 10.0.26100.1150 The operation completed successfully. X:\sources>exit
+
+**参考链接 / References**:
+- https://superuser.com/questions/1885142/how-to-use-macos-to-create-a-windows-11-usb-installer-flash-drive
+
+---
+
+#### 2162. Why doesn’t Bash in macOS accept non-ASCII key presses?
+
+**问题描述 / Problem Description**:
+Tags: macos, bash, keyboard, utf-8 | Score: 10 | Views: 730 | Answers: 2 | Created: 2026-04-08
+
+**解决方案 / Solution**:
+Any ideas? This isn't an answer, or at best only a step towards one, but it is too long for a comment. I'm hoping it constitutes some ideas that help find an answer. Why doesn’t Bash in macOS accept non-ASCII key presses? We should remember that there is no such thing as an ASCII keypress on any computer and keyboard that use the PC architecture. I don't have a Mac but I suspect all modern Macs use that architecture. All key presses produce scancodes, one on being pressed and another on being released. ASCII doesn't come into it. Some software in your operating system converts some received scancodes into "characters" based on your settings for keyboard layout and locale. this works as if it was an é in some sense. It is é. More specifically, it is the UTF8 encoding of é. The octal two byte sequence 303 251 is hexadecimal c3 a9 . Both are representations of the two byte UTF8 encoding of é. You can see this using hexdump or by using the g8 command in vim Or in bash $ echo $'ol\303\251' olé So it seems that some keyboard related software in the OS is forwarding keyboard data to bash in a form that bash doesn't understand. I don't know anything about bash on MacOS but on Linux (e.g. Ubuntu) there are a large number of configuration files which might have an effect on character handling. In Linux one is /etc/profile.d/cedilla-portuguese.sh # cedilla-portuguese.sh (c) 2015 Canonical # Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com> # # Released under the GPL # # File: /etc/profile.d/cedilla-portuguese.sh #▓ # The desired behavior when typing in certain languages is that # '+c results in the ç character, and not ć. In Portuguese this # can be achieved by setting LC_CTYPE to either pt_BR.UTF-8 or # pt_PT.UTF-8. Related files: # /usr/share/X11/locale/pt_BR.UTF-8/Compose # /usr/share/X11/locale/pt_PT.UTF-8/Compose # # When the selected display language is Portuguese (either Brazilian # Portuguese or Portuguese as spoken in Portugal), LC_CTYPE inherits # the desired value from LANG. Due to this file, setting the Regional # Formats value to Portuguese (Brazil) or Portuguese (Portugal) is # sufficient to enable the just mentioned behavior, even if the # display language is something else but Portuguese. # if [ "${LC_IDENTIFICATION%_*}" = 'pt' -a "${LANG%_*}" != 'pt' ]; then export LC_CTYPE="${LC_IDENTIFICATION%.*}.UTF-8" fi Maybe there is something errant in a similar file in your MacOS installation? You report LANG="en_US.UTF-8" LC_COLLATE="sv_SE.UTF-8" I would set $LANG to be the same as the $LC_ environment variables and see if that makes any difference.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936551/why-doesn-t-bash-in-macos-accept-non-ascii-key-presses
+
+---
+
+#### 2163. How do I show the dependents of a package?
+
+**问题描述 / Problem Description**:
+Tags: homebrew | Score: 8 | Views: 4175 | Answers: 2 | Created: 2023-12-11
+
+**解决方案 / Solution**:
+The command you're looking for is brew uses , e.g.: brew uses --installed libpng brew uses --eval-all boost Note that you must include either --installed or --eval-all – you probably want the former. From the manual page ( man brew ): Usage: brew uses [options] formula [...] Show formulae and casks that specify formula as a dependency; that is, show dependents of formula. When given multiple formula arguments, show the intersection of formulae that use formula. By default, uses shows all formulae and casks that specify formula as a required or recommended dependency for their stable builds. Note: --missing and --skip-recommended have precedence over --include-*. --recursive Resolve more than one level of dependencies. --installed Only list formulae and casks that are currently installed. --missing Only list formulae and casks that are not currently installed. --eval-all Evaluate all available formulae and casks, whether installed or not, to show their dependents. --include-build Include formulae that specify formula as a :build dependency. --include-test Include formulae that specify formula as a :test dependency. --include-optional Include formulae that specify formula as an :optional dependency. --skip-recommended Skip all formulae that specify formula as a :recommended dependency. --formula, --formulae Include only formulae. --cask, --casks Include only casks. -d, --debug Display any debugging information. -q, --quiet Make some output more quiet. -v, --verbose Make some output more verbose. -h, --help Show this message.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/467291/how-do-i-show-the-dependents-of-a-package
+
+---
+
+#### 2164. Why does Discord ask to monitor keyboard input across applications?
+
+**问题描述 / Problem Description**:
+Tags: macos, keyboard, permissions, discord | Score: 5 | Views: 1328 | Answers: 1 | Created: 2025-01-26
+
+**解决方案 / Solution**:
+Can anyone explain what this permission is for and whether it’s truly necessary for Discord to function properly? Discord has at least one obvious reason to ask for the permission - Keybinds that you can find in settings: . For example for toggling its overlay or PTT (push to talk), which is done from other apps. No, it shouldn't be needed for basic functionality. Are there any risks associated with granting this access? This is a pointless question. There are risks with everything, including walking or eating. If you're asking if Discord, a well established app used by hundreds of millions of people, will do anything malicious with it, the answer is: that's extremely unlikely.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1872821/why-does-discord-ask-to-monitor-keyboard-input-across-applications
+
+---
+
+#### 2165. How can I mount a remote SSH folder on Mac without sshfs?
+
+**问题描述 / Problem Description**:
+Tags: homebrew, ssh, mount | Score: 5 | Views: 4510 | Answers: 1 | Created: 2023-09-29
+
+**解决方案 / Solution**:
+Homebrew does not ship macFUSE/SSHFS no more because of its license change. It is still installable though through packages obtained from their homepage . Instead of macFUSE you can use FUSE-T that provides SSHFS aswell, which is installable through homebrew: brew tap macos-fuse-t/homebrew-cask brew install fuse-t brew install fuse-t-sshfs Alternatively the project page provides packages for FUSE-T and SSHFS . Currently there is an issue with FUSE-T-SSHFS under macOS Sequoia: Use -o nonamedattr as an additional argument on every connection. For uninstalltion hints of macFUSE/SSHFS, have a look at the README of SSHFS-Mountlet , a GUI to mount and unmount SSHFS connections on a Mac: To uninstall macFUSE open the System Preferences of macOS, go to the macFUSE preference pane and click on "Remove macFUSE". To uninstall macFUSE's sshfs: sudo rm /usr/local/bin/sshfs sudo rm /usr/local/share/man/man1/sshfs.1 sudo rm /Library/PreferencePanes/macFUSE.prefPane sudo pkgutil --forget com.github.osxfuse.pkg.SSHFS ...or for recent versions: sudo pkgutil --forget io.macfuse.installer.components.sshfs If you had installed macFUSE/SSHFS through homebrew, please report back, whether brew uninstall sshfs and brew uninstall macfuse still work, the above instructions suffice or another procedure is needed.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/464805/how-can-i-mount-a-remote-ssh-folder-on-mac-without-sshfs
+
+---
+
+#### 2166. Is there any way to find the URL of a file that is downloading from within an app on Mac?
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, download, url | Score: 4 | Views: 934 | Answers: 4 | Created: 2025-08-31
+
+**解决方案 / Solution**:
+Assuming it uses HTTP (not https) to download the file, you could use wireshark to intercept the request which should have the information you need. If its HTTPS then its encrypted so you wont be able to. (might be possible, no idea how though). Its possible that it doesn't use HTTP(s) too. Freeing some space (even if just temporarily) so the application can download the file it needs properly is likely much easier?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1922535/is-there-any-way-to-find-the-url-of-a-file-that-is-downloading-from-within-an-ap
+
+---
+
+#### 2167. macOS and git - from time to time dirmngr consume one whole CPU core
+
+**问题描述 / Problem Description**:
+Tags: macos, git, intellij-idea | Score: 4 | Views: 343 | Answers: 1 | Created: 2025-07-17
+
+**解决方案 / Solution**:
+I have edit dirmngr.conf and it seems it helps to solve the issue. Edit ~/.gnupg/dirmngr.conf: # Disable auto-key-retrieve and keyserver access no-use-tor standard-resolver And quick explanation. IDEA triggers Git operations (commit, push, fetch) -> -> Git is configured to GPG-sign -> -> commits -> -> Git calls gpg to sign -> -> GPG spawns dirmngr (the key directory/network manager) to validate or refresh keys via network (keyserver lookup) -> -> dirmngr gets stuck waiting on a network response (timeout, unreachable keyserver, OCSP check) -> CPU spin. Hopefully it will help somebody
+
+**参考链接 / References**:
+- https://superuser.com/questions/1911079/macos-and-git-from-time-to-time-dirmngr-consume-one-whole-cpu-core
+
+---
+
+#### 2168. Extremely slow Terminal startup on macOS Sequoia (M3 Mac Pro)
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, performance, zsh, arm | Score: 4 | Views: 885 | Answers: 1 | Created: 2025-04-22
+
+**解决方案 / Solution**:
+I've also been experiencing significant cold startup delays in my Zsh Terminal on my Intel i5 MacBook Pro with 8GB RAM (running macOS Sequoia 15.5). While my hardware is different from your M3, the symptoms were strikingly similar, and I believe I found the culprit in my case. My initial time zsh -i -c exit results were consistently around 1.1-1.2 seconds, very close to your "cold startup" numbers. My Terminal.app also felt sluggish to open. Like you, I tried stripping down my ~/.zshrc , checking ~/.zcompdump , and disabling Homebrew's automatic initialization. I also checked my ~/Library/LaunchAgents . I found in my ~/.zshrc a "conda initialize" block, whilst I didn’t have Anaconda installed anymore. Deleting this block has significantly reduced the delay to 0.04 s. You say that you’ve disabled all plugins but have you checked for useless blocks that might still hide in there ? I also found LaunchAgents from others previously deleted apps that might have slowed down my terminal, but I didn’t see any significant improvements by deleting them. Maybe you have some useless LaunchAgents too that might slow down your terminal. Those solutions worked for me, you might find junk in those places too.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1893377/extremely-slow-terminal-startup-on-macos-sequoia-m3-mac-pro
+
+---
+
+#### 2169. For a Chrome saved "Page as App" on MacOS, is there a way to make the entire Dock icon a specific background?
+
+**问题描述 / Problem Description**:
+Tags: macos, google-chrome, web-development, favicon | Score: 3 | Views: 178 | Answers: 1 | Created: 2026-01-24
+
+**解决方案 / Solution**:
+To control the way an icon will be rendered in the macOS Dock from a Progressive Web App (PWA), define it as a web app manifest : Reference the manifest file in your HTML, e.g. , <link rel="manifest" href="/manifest.json"> Include the necessary syntax in the manifest file to reference your icons. (See the icons examples in the Web App Manifest documentation or follow the link below.) Ensure your icon image(s) meet these requirements: Square Large (512×512 or larger) Fully opaque Have the background color baked-into the image No transparent margins If the icon includes transparency, macOS will add a white background when rendering it in the Dock. Reference: Manifest file with icon references
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934105/for-a-chrome-saved-page-as-app-on-macos-is-there-a-way-to-make-the-entire-doc
+
+---
+
+#### 2170. How do I undo actions I did via Terminal? I removed the “~/Downloads” folder in macOS after following directions
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal | Score: 3 | Views: 284 | Answers: 1 | Created: 2025-09-23
+
+**解决方案 / Solution**:
+Warning : I couldn’t test it since I don’t own a Mac. This answer assumes that macOS behaves like other UNIX variants, and that recreating the ~/Downloads from the command line will restore its functionalities. ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs/Downloads/ ~/Downloads It created a symbolic link from the first path to the second path. You can delete the link that was created: rm -v ~/Downloads . sudo rm -r ~/Downloads It removed the sudo rm -r ~/Downloads folder and its content, you can recreate it: mkdir -v ~/Downloads . (the option -v is used to enable the verbose mode, which will explain what was done) I do have a backup. ( source ) Now you can restore the backup files in your Downloads directory. ls -lhd ~/Downloads drwx------@ 8 xxxxxxxx staff 256B 23 Sep 15:00 /Users/xxxxxxxx/Downloads The first character d means that it’s a directory . It looks like the rm -r ~/Downloads command didn’t work when you ran it, and that this directory wasn’t affected.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1925324/how-do-i-undo-actions-i-did-via-terminal-i-removed-the-downloads-folder-in
+
+---
+
+#### 2171. How can I empty the trash from the macOS Terminal?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, trash | Score: 3 | Views: 1973 | Answers: 2 | Created: 2025-02-09
+
+**解决方案 / Solution**:
+Try changing that command to this: sudo rm -rf ~/.Trash/* And to delete so-called invisible “dot” files and directories, do this: sudo rm -rf ~/.Trash/.* Note the uppercase, ~/.Trash as well as the appended /* and /.* which will make sure you remove the contents of the ~/.Trash and not the whole ~/.Trash directory entirely. You don’t want to do that.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1877663/how-can-i-empty-the-trash-from-the-macos-terminal
+
+---
+
+#### 2172. I'm trying to install ncdu using MacPorts in macOS Catalina, however it depends on zig but zig is no longer compatible, looking for workaround
+
+**问题描述 / Problem Description**:
+Tags: macos, install, homebrew, macports | Score: 3 | Views: 620 | Answers: 2 | Created: 2023-08-28
+
+**解决方案 / Solution**:
+There's a ncdu1 port https://ports.macports.org/port/ncdu1/details/ which works from Snow Leopard to Sonoma.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/463673/im-trying-to-install-ncdu-using-macports-in-macos-catalina-however-it-depends
+
+---
+
+#### 2173. 7-zip for MacOS man page missing
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, open-source | Score: 3 | Views: 2800 | Answers: 3 | Created: 2023-08-16
+
+**解决方案 / Solution**:
+Man pages are not a requirement of any utility and if the dev or someone else didn't create them, they won't be available. 7-zip.org and Homebrew are two totally distinct entities and not related with each other. Because there's a Formulae or Cask isn't a developer endorsement of a particular platform. It just means a maintainer (a person) chose to create the Formulae/Cask and make it available. Don't make the assumption that because it exists there, the developer supports it. An excellent example of this is Microsoft's Visual Studio code available via FreshPorts for FreeBSD (Microsoft doesn't support this at all). That said, there are Linux and even macOS source versions available on the Source Forge page . They can be downloaded and compiled on your own machine. After a looking through the source, there's no man pages that I could find. Bottom line: the man pages don't exist; at least from the original/official developer.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/463257/7-zip-for-macos-man-page-missing
+
+---
+
+#### 2174. yt-dlp: How to download best m4a?
+
+**问题描述 / Problem Description**:
+Tags: homebrew, youtube | Score: 3 | Views: 7155 | Answers: 1 | Created: 2023-07-11
+
+**解决方案 / Solution**:
+You are being caught out by zsh and its interpretation of the command before passing parameters to yt-dlp . It's actually zsh throwing the error. Put quotes round your parameters. Also, be sure to quote your URL too, especially on zsh . yt-dlp -f 'bestaudio[ext=m4a]' 'URL'
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/461979/yt-dlp-how-to-download-best-m4a
+
+---
+
+#### 2175. New iTerm2 tab displays ‘brew: command not found’ after updating PHP although brew is installed and included in PATH
+
+**问题描述 / Problem Description**:
+Tags: bash, homebrew, iterm | Score: 3 | Views: 942 | Answers: 1 | Created: 2023-05-22
+
+**解决方案 / Solution**:
+The issue is that when you try to run the bash_completion.sh file brew is not on your $PATH. The fix is to move the line where you set $PATH to be above the test for bash_completion.sh file ie your .bashrc has these commands as # Prepend brew and $HOME/bin to $PATH export PATH="/opt/homebrew/bin:""/opt/homebrew/sbin:""$HOME/.bin"":$PATH" # Bash completion if [ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ] then source "/opt/homebrew/etc/profile.d/bash_completion.sh" fi
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/460148/new-iterm2-tab-displays-brew-command-not-found-after-updating-php-although-br
+
+---
+
+#### 2176. Is it possible to setup separate spaces and menu bars in macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, display, virtual-desktop, osx-spaces | Score: 2 | Views: 140 | Answers: 1 | Created: 2025-12-12
+
+**解决方案 / Solution**:
+No, this is not possible. This is something that strikes me as a fairly major UI design failure by Apple. When the OS is responsible for displaying the currently running applications menu bar, to have the menu bar only available on the designated primary display means that to get to many, if not all of the functions within an app, you will often need to move to a totally separate display, to get to the menu bar, to do anything in that app. This is just completely ridiculous, from a user perspective. With separate spaces enabled or not, it should be up to me whether I have menus or docks on one or any of the displays I have. This is one clear area where the UI design of Windows and Linux have addressed a basic UI requirement and Apple continue to stubbornly refuse to accept that their method of handling the menus for apps and the OS are archaic, from a time when a single display was the only option.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931369/is-it-possible-to-setup-separate-spaces-and-menu-bars-in-macos
+
+---
+
+#### 2177. How can I tell if someone is remotely accessing or watching my computer?
+
+**问题描述 / Problem Description**:
+Tags: macos | Score: 2 | Views: 3281 | Answers: 1 | Created: 2025-11-16
+
+**解决方案 / Solution**:
+Lets break down the question using IT processes and explain how to find this out yourself. You ask if someone might be watching you. Given that this is a computer related site, I'll not take into account any webcam in your area that someone may be remotely monitor, but instead, solely focus on the question: is someone remoting into my computer to see what's on my screen? If this were the case, then the following condition must be true: Software must be active on the computer Said software must open a network connection to somewhere else This is a listener connection that is always open, otherwise someone else cannot remote in If a listener connection is present and someone connects to it, a second connection will be made with status established. If you have a firewall running said program must have permission or the connection is simply dropped. If your computer is provided by your work or school, they can have this setup and there's nothing you can do as it would violate the agreement to use their hardware. Now that we've got that out of the way, lets actually dive into the IT aspect and see if this is the case. If you are a local administrator on your computer, things will be easy. Open a Command Prompt as administrator. Secondly, type the following command: netstat -ab This will show a list of every program with ports that they have opened for remote connections. Don't be alarmed, there will be a big list, this is expected. Most of this is common stuff such as Windows Update, steam, discord, spotify, your browser, and other stuff that requires internet. Any row that shows local ip address ::1 or 127.0.0.1 can be skipped. While these are ports that are opened, they are only opened for local use and cannot be connected to from outside your computer. This is typically for programs to communicate with eachother internally. For example, a program that has a second program called update. While the update program may communicate with the internet to see if there's an update, it will also communicate with the other program to tell if there is an update and it needs to be closed safely. Typically, you will need to look for your LAN IP address for the local ip address. The Foreign Address is the other end of the connection, and are connections your computer is connected to. The State will tell you what kind of connection this is. A Listening state indicates a port that is open on your computer that someone can connect to, but is not currently connected. These are incoming connections. An Established state indicates a port that has an active connection going. Thse are outgoing connections. A Close_wait state indicates a connection that was made but has already been closed by the other end. Your side is still doing some processes before it closes the connection on your end too. Typically, a process is spawned when a connection is formed, the remote side closes the connection, that process is now doing some finishing stuff before it closes again, and during that time, you see a close_wait state. The netstat -ab command is a combination of netstat -a and netstat -b . Netstat -a displays all listening ports and connections. Netstat -b displays the program executable name that belongs to that connection. If you are not a local administrator, you can run this command instead on a normal command prompt: netstat -ao Netstat -o displays the process id that belongs to that connection. You can open task manager and go to the details tab or use the command tasklist to see what program is responsible for what process id. The next thing you have to do is inspect the output of your netstat command, look for anything out of the ordinary and google the name of the executables to find out what kind of program it is, in case you don't know it. If you find a program that is some kind of remote management software or remote viewer, then you have the software on your computer that is capable of viewing your screen. If you not only find a LISTENING state, but also an ESTABLISHED state for that program, then someone is currently connected to your computer. Whether or not they are actually watching your screen is something you can't know for sure. If this is your own computer and you are seeing this, a hacker or family member may be on your system. You could consider reinstalling Windows. If this is a computer supplied to you for work or school there's nothing you can do. Its normal to have this installed as part of a support desk toolkit. You call them with a problem, they quickly remote in to assist you.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930227/how-can-i-tell-if-someone-is-remotely-accessing-or-watching-my-computer
+
+---
+
+#### 2178. How to access a macOS machine through VNC?
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, remote-desktop, vnc, remote-control | Score: 2 | Views: 1474 | Answers: 1 | Created: 2025-08-27
+
+**解决方案 / Solution**:
+macOS's built-in Screen Sharing system, as well as its built-in Remote Management (a.k.a. Apple Remote Desktop, ARD) system, both use the VNC protocol (also known as the remote framebuffer protocol), allowing any VNC client to connect, see the screen, control the system via mouse & keyboard input, etc. If you go to System Settings > General > Sharing , and enable either Screen Sharing or Remote Management, and look at the advanced settings for whichever one you enable, you'll find an option to allow VNC users to connect with a password, so you'll probably want to set a password for that. Since both of those services are built on the remote framebuffer protocol that VNC uses, they both try to own the default port that that protocol uses, so you have to choose one or the other to enable. If you're only planning to use VNC features and not planning to use the additional remote management features of the Apple Remote Desktop app, then it's probably slightly preferable to enable Screen Sharing instead of Remote Management.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1921903/how-to-access-a-macos-machine-through-vnc
+
+---
+
+#### 2179. How to manually launch the services needed for a working macOS loginwindow GUI?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, crash, authentication, user-interface | Score: 2 | Views: 268 | Answers: 1 | Created: 2025-07-01
+
+**解决方案 / Solution**:
+Restart the loginwindow process This handles the actual login screen. Try this over SSH: sudo pkill -9 loginwindow sudo pkill -9 WindowServer Wait 5–10 seconds, then restart it: sudo launchctl kickstart -k system/com.apple.loginwindow This should try to bring the login screen back.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1907873/how-to-manually-launch-the-services-needed-for-a-working-macos-loginwindow-gui
+
+---
+
+#### 2180. What does QuickTime player’s timecode actually mean?
+
+**问题描述 / Problem Description**:
+Tags: macos, video, quicktime, exif | Score: 2 | Views: 189 | Answers: 1 | Created: 2025-06-18
+
+**解决方案 / Solution**:
+For anyone else arriving here, Spiff's comment above got me the answer. In my specific case, the recording device had embedded its own timecode in the movie file (different from the track creation time), which would have been visible had I tried using ffprobe : $ ffprobe NINJVP_S140_S001_T009.MOV 2>&1 | grep -i time creation_time : 2025-05-19T10:36:06.000000Z timecode : 12:47:41;00 creation_time : 2025-05-19T10:36:06.000000Z creation_time : 2025-05-19T10:36:06.000000Z creation_time : 2025-05-19T10:36:06.000000Z timecode : 12:47:41;00 Fortunately, ffmpeg will happily let you change the timecode to anything you'd like: $ ffmpeg -i NINJVP_S140_S001_T002.MOV -c copy -timecode 10:10:16:00 recoded.mov With the following happy result:
+
+**参考链接 / References**:
+- https://superuser.com/questions/1905494/what-does-quicktime-player-s-timecode-actually-mean
+
+---
+
+#### 2181. How can I create a Linux VM on Linux for use on macOS with the M1 architecture?
+
+**问题描述 / Problem Description**:
+Tags: linux, macos, virtual-machine | Score: 2 | Views: 867 | Answers: 2 | Created: 2025-06-01
+
+**解决方案 / Solution**:
+I discovered I had to create a virtual environment running aarch64 and then work on the VM. Debian provides a good step by step account of this on Arm64Qemu . Note : Run all commands in the Host until prompted to enter the Guest Step 1: Elevate to root: $ su - password: Step 2: Configure locales so your Qemu Chroots have access to them. Otherwise, you will have to configure each Chroot's locale individually. dpkg-reconfigure locales Step 3: Install qemu, qemu-user-static, binfmt-support and debootstrap. apt-get install qemu qemu-user-static binfmt-support debootstrap Step 4: Use debootstrap to create the Chroot environment . In the command below, the Chroot will be named debian-arm64. You can change it to suit your taste. qemu-debootstrap --arch=arm64 --keyring /usr/share/keyrings/debian-archive-keyring.gpg \ --variant=buildd --exclude=debfoster jessie debian-arm64 http://ftp.debian.org/debian You should see output like this: ... I: Retrieving Release I: Retrieving Release.gpg I: Checking Release signature I: Valid Release signature (key id 75DDC3C4A499F1A18CB5F3C8CBF8D6FD518E17E1) I: Retrieving Packages I: Validating Packages I: Resolving dependencies of required packages... ... I: Checking component main on http://ftp.debian.org/debian... I: Retrieving acl 2.2.52-2 I: Validating acl 2.2.52-2 I: Retrieving apt 1.0.9.8.1 I: Validating apt 1.0.9.8.1 ... Step 5: Enter the arm64 Chroot: chroot debian-arm64/ Now enter the Guest and run the remaining commands: uname -a Linux core2 3.16.0-4-amd64 #1 SMP Debian 3.16.7-ckt11-1+deb8u5 (2015-10-09) aarch64 GNU/Linux Step 6: Install the Debian Ports keyring and software to use in the environment: Run this in the Guess also apt-get install debian-ports-archive-keyring apt-get install locales build-essential gcc g++ gdb make subversion git curl zip unzip
+
+**参考链接 / References**:
+- https://superuser.com/questions/1903277/how-can-i-create-a-linux-vm-on-linux-for-use-on-macos-with-the-m1-architecture
+
+---
+
+#### 2182. Why does “brew services httpd start” return an error?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, httpd | Score: 2 | Views: 522 | Answers: 1 | Created: 2025-05-24
+
+**解决方案 / Solution**:
+Your ps output shows that you're already running macOS's built-in Apache (the one at /usr/sbin/httpd ), and so it is using port 80 (and probably 443), so when you try to run Homebrew's copy of Apache (which is at /opt/homebrew/bin/httpd ), it can't open port 80 (and 443), so it fails with an I/O error. You need to shut down the system's httpd : sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist …before you launch Homebrew's copy of httpd : brew services start https
+
+**参考链接 / References**:
+- https://superuser.com/questions/1902050/why-does-brew-services-httpd-start-return-an-error
+
+---
+
+#### 2183. Unexpected value for DHCP option 12 "host name"
+
+**问题描述 / Problem Description**:
+Tags: macos, dhcp | Score: 2 | Views: 223 | Answers: 1 | Created: 2025-05-13
+
+**解决方案 / Solution**:
+FWIIW, I had the same symptoms. Because of Jörg's hint that it might be related to privacy, if found that changing the setting for Private Wi-Fi address (a.k.a. Mac address randomization) from "Fixed" to "Off" fixed the problem. Settings->Network->Wi-Fi->Details
+
+**参考链接 / References**:
+- https://superuser.com/questions/1897531/unexpected-value-for-dhcp-option-12-host-name
+
+---
+
+#### 2184. Does XLOOKUP in Excel not work with certain special characters?
+
+**问题描述 / Problem Description**:
+Tags: microsoft-excel, macos, worksheet-function, regex | Score: 2 | Views: 629 | Answers: 2 | Created: 2025-04-25
+
+**解决方案 / Solution**:
+Your formula doesn't work with your data because it is not matching the parentheses ( ( ) ). In a Regex, parentheses are special characters that enclose a capturing group. If you want to match them specifically, you have to escape them by preceding them with a backslash. To modify your formula so that it will work as a regex, you can use something like: =XLOOKUP(REDUCE(A2,{"(",")"},LAMBDA(a,b,SUBSTITUTE(a,b,"\" & b))),$D$2:$D$9,$D$2:$D$9,"not found",3) The REDUCE function will replace any of the characters in the array argument with \ + the character . e.g: A3 => Simeon \(#6\) In this instance I have only ) and ( in the array, but you can add other characters if needed. I'm not sure how this helps you with partial matches, but it does explain why your regex doesn't work.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1894083/does-xlookup-in-excel-not-work-with-certain-special-characters
+
+---
+
+#### 2185. Why am I no longer able to grant Python executable accessibility permissions on macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, permissions, python | Score: 2 | Views: 562 | Answers: 1 | Created: 2025-04-22
+
+**解决方案 / Solution**:
+OK, I wasted way too much time on this when all that was need was a restart of iTerm! Yeesh! I still have no idea what happened there, but it was yet another case of "have you tried turning it off and on again"! I'm still leaving this here in case it's useful to somebody else (or myself when I inevitably forget this and re-discover my own post ).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1893417/why-am-i-no-longer-able-to-grant-python-executable-accessibility-permissions-on
+
+---
+
+#### 2186. Why is it when I am trying to add a Quick Action to the context menu of Finder in macOS I seem to have trouble making it appear in the context menu?
+
+**问题描述 / Problem Description**:
+Tags: macos, automation, context-menu, finder, automator | Score: 2 | Views: 215 | Answers: 1 | Created: 2025-03-18
+
+**解决方案 / Solution**:
+For this version of macOS, the Quick Actions menu item only shows up when a file or folder is under the cursor when you Control -click it. Apple's documentation " Perform quick actions in the Finder on Mac " mentions you have to have a file selected: Select the file. Alternatively, you can select a file on your desktop. Control-click the file, then choose Quick Actions. And: Tip: You can use the Quick Actions buttons at the bottom of the preview pane in a finder window. If you select a folder, or nothing, the Quick Actions don't appear in the preview pane.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1887030/why-is-it-when-i-am-trying-to-add-a-quick-action-to-the-context-menu-of-finder-i
+
+---
+
+#### 2187. Get Proportional Resident Memory (PSS) of processes on MacOS
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, memory, unix, process | Score: 2 | Views: 320 | Answers: 1 | Created: 2025-03-16
+
+**解决方案 / Solution**:
+I was fighting with this same issue - try the -r flag: [nick@Mac ~]$ top -l 1 -s 0 -stats pid,command,rprvt,vsize,vprvt,kprvt,kshrd -pid 54203 | sed 1,11d PID COMMAND RPRVT VSIZE VPRVT KPRVT KSHRD 54203 emacs-30.1 N/A N/A N/A N/A N/A [nick@Mac ~]$ top -r -l 1 -s 0 -stats pid,command,rprvt,vsize,vprvt,kprvt,kshrd -pid 54203 | sed 1,11d PID COMMAND RPRVT VSIZE VPRVT KPRVT KSHRD 54203 emacs-30.1 44M 393G 2079M 496K 0B
+
+**参考链接 / References**:
+- https://superuser.com/questions/1886486/get-proportional-resident-memory-pss-of-processes-on-macos
+
+---
+
+#### 2188. Calling Sudo via sh script via Automator app without a password
+
+**问题描述 / Problem Description**:
+Tags: macos, sudo, applescript, sh, sudoers | Score: 2 | Views: 788 | Answers: 1 | Created: 2025-02-01
+
+**解决方案 / Solution**:
+Short version: Don't use sudo in do shell script do shell script has a built-in option for running scripts with elevated privileges: do shell script "/path/to/your.sh" with administrator privileges This will take care of elevating privileges, without needing the poke the bear of sudoers.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1875841/calling-sudo-via-sh-script-via-automator-app-without-a-password
+
+---
+
+#### 2189. How to Zip a macOS framework and preserve symbolic links?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, zip | Score: 2 | Views: 126 | Answers: 1 | Created: 2025-01-31
+
+**解决方案 / Solution**:
+I discovered the issue is not with zip , but rather with a cp operation I'm doing before that. cp needs the -H option to preserve symbolic links.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1875220/how-to-zip-a-macos-framework-and-preserve-symbolic-links
+
+---
+
+#### 2190. Risk of uninstalling a customised zsh version
+
+**问题描述 / Problem Description**:
+Tags: homebrew, zsh | Score: 2 | Views: 328 | Answers: 2 | Created: 2023-11-11
+
+**解决方案 / Solution**:
+In general, macOS doesn't care about custom-installed shells (I'm running a Homebrew-installed bash as my login shell since years), so there is no downside in keeping both versions installed, have shell scripts use /bin/zsh and use /usr/local/bin/zsh as your login shell in Terminal. If you want to uninstall it anyway, check for any shell scripts starting with !#/usr/local/bin/zsh and change the she-bang back to #!/bin/zsh , check whether you set /usr/local/bin/zsh as your shell in Terminal or in any other application (e.g. BBEdit or Visual Code), and set it back to the standard version, check whether you changed your login shell with chsh and set it back to the standard version with chsh -s /bin/zsh , remove /usr/local/bin/zsh from /etc/shells if you had added it there, uninstall with brew uninstall zsh .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/466310/risk-of-uninstalling-a-customised-zsh-version
+
+---
+
+#### 2191. Failed Homebrew Installation
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, homebrew | Score: 2 | Views: 2929 | Answers: 1 | Created: 2023-10-24
+
+**解决方案 / Solution**:
+Taking your device to a couple other networks would be prudent to be sure it's an issue on your setup with macOS and not just transient network communication issues or a broken proxy / firewall setting on the network side. This is a better command to test connectivity since it will show errors getting a small handshake with the intended server: curl -I https://raw.githubusercontent.com/Homebrew/install/master/install.sh I get the following lines at the end of the output of the command below (and echo $? shows a zero exit status for the curl to get details on the install script) expires: Thu, 30 Nov 2023 17:23:20 GMT source-age: 0 content-length: 30633 If your network is behind a firewall (say an entire country or just your connection) there are mirrors and other installation methods to try: https://docs.brew.sh/Installation the git mirror section or the untar section would get around blocks of the main git hub communications path that the default install needs to run.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/465711/failed-homebrew-installation
+
+---
+
+#### 2192. brew says outdated when I upgrade to latest version
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, postgresql | Score: 2 | Views: 1097 | Answers: 1 | Created: 2023-10-23
+
+**解决方案 / Solution**:
+It's complaining that your macOS version is out of date; Homebrew currently supports macOS 12 and higher. The second error message is unrelated. It's to do with linking a dependency. You can unlink the version you have currently installed ( brew unlink gettext ) if you want this version of gettext to be linked instead.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/465654/brew-says-outdated-when-i-upgrade-to-latest-version
+
+---
+
+#### 2193. Brew - How to stop losing app settings when updating?
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, applications, homebrew | Score: 2 | Views: 793 | Answers: 2 | Created: 2023-10-05
+
+**解决方案 / Solution**:
+Presumably you're using cask for some reason. Brew cask downloads from the developer's web site and replaces the binary with that download. So yes, macOS is going to detect that the app was changed. This is not a brew problem (other than the fundamental problem that cask is).
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/465032/brew-how-to-stop-losing-app-settings-when-updating
+
+---
+
+#### 2194. Homebrew installs elm, but elm-repl not available
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, open-source | Score: 2 | Views: 74 | Answers: 1 | Created: 2023-09-17
+
+**解决方案 / Solution**:
+You run the ELM REPL like this: $ elm repl See https://elmprogramming.com/elm-repl.html
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/464338/homebrew-installs-elm-but-elm-repl-not-available
+
+---
+
+#### 2195. Multipass not working on Mac M2
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, homebrew, virtualization | Score: 2 | Views: 1192 | Answers: 1 | Created: 2023-07-29
+
+**解决方案 / Solution**:
+Multipass has a deamon named multipass d . You have to run sudo launchctl stop com.canonical.multipassd sudo launchctl start com.canonical.multipassd You forgot the "d" character at the end of the commands.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/462614/multipass-not-working-on-mac-m2
+
+---
+
+#### 2196. Install individual homebrew packages in different locations
+
+**问题描述 / Problem Description**:
+Tags: applications, install, homebrew | Score: 2 | Views: 3128 | Answers: 2 | Created: 2023-07-28
+
+**解决方案 / Solution**:
+Like the OP, I wanted to keep non-Mac apps segregated from those in /Applications , so I moved them to /Applications/3rd-party , but then that broke where "brew" thought they were, and it complained. I found the following to use, going forward: brew usage options . I added the following to my .zshenv file: export HOMEBREW_CASK_OPTS="--appdir=/Applications/3rd-party" I then had to go through the already installed Casks ( only a few ), and update their .metadata files to reference the new location. For one Cask, I had to recreate the symlink in /opt/homebrew/bin to point to the correct location. Running brew list zed no longer issued "Missing App:", "Broken link:" messages.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/462573/install-individual-homebrew-packages-in-different-locations
+
+---
+
+#### 2197. High Sierra (10.13.6) npm OSSL PEM routine error
+
+**问题描述 / Problem Description**:
+Tags: command-line, homebrew, ssl, openssl | Score: 2 | Views: 129 | Answers: 1 | Created: 2023-06-26
+
+**解决方案 / Solution**:
+Solved, in short: Was a cryptography problem, not node/npm problem In detail: -Uninstalled node/nvm -Found MacPorts support for nodejs17 -returned error:1E08010C:DECODER routines::unsupported on that install pointing to cryptography rather than node -uninstalled all node dependencies from Homebrew -reinstalled those via MacPorts -installed nvm via MacPorts -installed node 16 LTS Gallium via nvm Working!
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/461467/high-sierra-10-13-6-npm-ossl-pem-routine-error
+
+---
+
+#### 2198. Brew can not find git
+
+**问题描述 / Problem Description**:
+Tags: terminal, homebrew, git | Score: 2 | Views: 2015 | Answers: 1 | Created: 2023-05-01
+
+**解决方案 / Solution**:
+I suggest uninstalling homebrew and then reinstalling it and your packages following this guide . Although this would seem to be more tedious than fixing the PATH to git , a clean uninstall/reinstall is guaranteed to end with a sound build. You currently have a homebrew installation that was built on a different architecture from where it sits. The issues begins with the PATH order as noted by @Allan and @bmike.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/459356/brew-can-not-find-git
+
+---
+
+#### 2199. Is it possible to download or copy the iOS SDK for Xcode 26.1 using command-line tools? If so, how?
+
+**问题描述 / Problem Description**:
+Tags: macos, ios, xcode | Score: 1 | Views: 171 | Answers: 2 | Created: 2026-03-04
+
+**解决方案 / Solution**:
+Clarification: It seems I was actually looking for the "Platform Support for iOS" component, not the iOS SDK. It turns out that this can be downloaded (if not already present), or exported (if it is present), along with the iOS Simulator, using the command-line tools as follows: xcodebuild -downloadPlatform iOS -exportPath ~/Downloads The confusing part is that this file is named only for the iOS Simulator. For example, when exporting from Xcode 26.1 with the iOS 26.1 Simulator and the iOS Platform Support component installed, the output file was named: iphonesimulator_26.1_23B86.dmg However, this file apparently contains both the iOS Simulator (26.1 / 23B86) and the iOS Platform Support files (version 23B77). Nowhere in the xcodebuild output or the .dmg file contents are the platform support files or their version mentioned - the filename is automatically generated by xcodebuild. The file can be copied to another Mac, which has Xcode 26.1 installed, but not the iOS 26.1 Simulator or Platform Support, and then this command can be used: xcodebuild -importplatform ~/Downloads/iphonesimulator_26.1_23B86.dmg and this results in both the iOS Simulator and the required iOS Platform Support files being installed there. (reference: my question & the response on the Apple Developer forum thread on Apple Developer forum )
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935522/is-it-possible-to-download-or-copy-the-ios-sdk-for-xcode-26-1-using-command-line
+
+---
+
+#### 2200. Why am I having issues with the Xcode StoreKit on macOS? Is it broken?
+
+**问题描述 / Problem Description**:
+Tags: macos, xcode | Score: 1 | Views: 51 | Answers: 1 | Created: 2026-01-17
+
+**解决方案 / Solution**:
+Long haul, but easy solution… wWithin Xcode just check "Debug Executable" on and run the app targeting macOS. Do a purchase and it will use StoreKit. You can then un-check "Debug Executable" and still works. Advice… Do not click you Purchase button if you launch the .app from outside of Xcode.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933838/why-am-i-having-issues-with-the-xcode-storekit-on-macos-is-it-broken
+
+---
+
+#### 2201. Is there a way to manually fix the GPT so the drive is readable without formatting the data in macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, usb, partitioning, gpt, external | Score: 1 | Views: 205 | Answers: 1 | Created: 2025-12-08
+
+**解决方案 / Solution**:
+TL;DR Use one of the two answers given below. Note Fixing the GPT does not guarantee the data in the partitions has not be corrupted. If a partition has been corrupted, then the partition will probably need to reformatted. Answer 1: Use the macOS fdisk command and a third party command called gdisk . To get the gdisk command, you will need to download and installed GPT fdisk. For a example use of the commands given below, see the Appendix section "Output 2: Using fdisk and gdisk to fix the MBR and GPT." Enter the following commands. These commands erase all data before the MBR table, create protected MBR, write zeros to addresses 0x200 through 0xFFF, repair primary GPT header and repair primary GPT entries. sudo fdisk -u -y -f /dev/zero /dev/disk4 sudo gdisk /dev/disk4 Note that the gdisk command given above is interactive. When prompted, enter the input given below. 3 r c y w y Answer 2: Use only macOS commands. For a example use of the commands given below, see the Appendix section "Output 3: Using only macOS commands to fix the MBR and GPT" for a example use of the commands given below." To fix the MBR, enter the commands given below. sudo fdisk -e -f /dev/zero /dev/disk4 Note that the fdisk command given above is interactive. When prompted, enter the input given below. The commands erase all data before the MBR table, then creates a new protected MBR. update erase edit 1 ee n 1 976746239 quit Enter the commands below to write zeros to addresses 0x200 through 0xFFF diskutil unmountdisk disk4 sudo dd if=/dev/zero bs=512 seek=1 count=7 of=/dev/disk4 To fix the GPT, enter the commands given below. Set the following variables. The values are from the sudo gpt -r show disk4 command output posted in the question. StartSecTable=976746235 StartSecHeader=976746239 Copy secondary header to header.bin . pushd ~ diskutil unmountdisk disk4 sudo dd if=/dev/disk4 bs=4096 skip=$StartSecHeader count=1 of=header.bin sudo chown $USER header.bin To start converting header.bin to be the primary header, write patches to patch.txt , then apply the patches to the header.bin file. echo "10: 0000 0000" > patch.txt echo "18: 0100 0000 0000 0000" >> patch.txt xxd -s 24 -l 8 -o 8 header.bin >> patch.txt echo "48: 0200 0000 0000 0000" >> patch.txt xxd -r patch.txt header.bin Write the LSB CRC32 value for the primary header to patch.txt as a patch, then apply the patch to the header.bin file. Afterwards, header.bin will contain the primary header. head -c 92 header.bin | crc32 /dev/fd/0 | xxd -r -p | xxd -e -o 16 > patch.txt xxd -r patch.txt header.bin Copy the GPT entries and the primary header to /dev/disk4 . diskutil umountdisk disk4 sudo dd if=/dev/disk4 bs=4096 skip=$StartSecTable count=4 seek=2 of=/dev/disk4 diskutil umountdisk disk4 sudo dd if=header.bin bs=4096 seek=1 of=/dev/disk4 Remove temporary files. rm header.bin patch.txt popd A More Detailed Explaination What you have posted appears to be a drive where a Linux installer ISO file has be copied to the drive using the dd command (or other software which would do the same). If an effort to recreate a drive similar to yours, I first GPT partitioned a 4 TB drive with a 4096 byte sector size with the following. A 315 MB hidden EFI partition A 2 TB APFS container partition A 1 TB partition containing a FAT32 volume Another 1 TB partition containing a FAT32 volume Next, the commands below were used to overwrite the first 2,885,681,152 bytes (2.8 GB) of the drive with the contents of a Linux installer ISO file. Note that the linuxmint-22.1-xfce-64bit.iso file was chosen arbitrarily. For a example use of the commands given below, see the Appendix section "Output 1: Commands used to create a drive similar to the one described in the question." diskutil unmountdisk disk4 sudo dd if=linuxmint-22.1-xfce-64bit.iso bs=1m of=/dev/rdisk4 The table given below give a more detailed explanation of the input to the interactive gdisk command. Input Type Comment 3 parameter Create blank GPT r command Switch to recovery and transformation menu c command Load backup partition table from disk (rebuilding main) y parameter Confirm to proceed with loading backup partition table w command Write table to disk and exit y parameter Confirm to proceed with write and exit The table given below give a more detailed explanation of the input to the interactive fdisk command. The input flagged with a ✅ do not actually need to be entered since the default can be used. Input Use Default Type Comment print command Print MBR partition table update command Erase machine code in MBR erase command Erase current MBR table print command Print MBR partition table edit 1 command Edit first table entry ee parameter Partition id for protected MBR n ✅ parameter Do not edit in CHS mode 1 parameter Partition offset 1073741823 ✅ parameter Partition size print command Print MBR partition table quit command Quit edit of current MBR, saving current changes The primary and seconder GPT entries are the same. However, the primary and secondary headers are different. Table below contains the GPT header format. This table was copied from Wikipedia article " GUID Partition Table ". The ✅ characters shows where the contents between the primary and secondary GPT headers are different. Offset Length Different Contents 0 (0x00) 8 bytes Signature ("EFI PART", 45h 46h 49h 20h 50h 41h 52h 54h or 0x5452415020494645ULL on little-endian machines) 8 (0x08) 4 bytes Revision number of header - 1.0 (00h 00h 01h 00h) for UEFI 2.10 12 (0x0C) 4 bytes Header size in little endian (in bytes, usually 5Ch 00h 00h 00h or 92 bytes) 16 (0x10) 4 bytes ✅ CRC-32 of header (offset +0 to +0x5B) in little endian, with this field zeroed during calculation 20 (0x14) 4 bytes Reserved; must be zero 24 (0x18) 8 bytes ✅ Current LBA (location of this header copy) 32 (0x20) 8 bytes ✅ Backup LBA (location of the other header copy) 40 (0x28) 8 bytes First usable LBA for partitions (primary partition table last LBA + 1) 48 (0x30) 8 bytes Last usable LBA for partitions (secondary partition table first LBA − 1) 56 (0x38) 16 bytes Disk GUID in little endian 72 (0x48) 8 bytes ✅ Starting LBA of array of partition entries (usually 2 for compatibility) 80 (0x50) 4 bytes Number of partition entries in array 84 (0x54) 4 bytes Size of a single partition entry (usually 80h or 128) 88 (0x58) 4 bytes CRC-32 of partition entries array in little endian 92 (0x5C) * Reserved; must be zeroes for the rest of the block (420 bytes for a sector size of 512 bytes; but can be more with larger sector sizes) The first patch.txt file contains the following patches. Set the 4 bytes at offset 16 to zero. Set the 8 bytes at offset 24 to 1. Set the 8 bytes at offset 32 to the original 8 bytes at offset 24. Set the 8 bytes at offset 72 to 2. The second patch.txt file contains the following patch. Set the 4 bytes at offset 16 to CRC32 of the primary GPT header. In the example provided in the answer, the MBR and GPT are repaired. However, the entire EFI partition and the beginning of the APFS container partition have been corrupted and are unmountable. The commands below can be used to reformat these partitions. For a example use of the commands given below, see the Appendix section "Output 4: Reformatting EFI and APFS container partitions." sudo newfs_msdos -F 32 -v EFI /dev/rdisk4s1 sudo diskutil mount disk4s1 diskutil unmount disk4s1 sudo newfs_apfs -v MyAPFS /dev/disk4s2 Appendix Output 1: Commands used to create a drive similar to the one described in the question. Note that the output for the second diskutil list disk4 and the sudo gpt -r show disk4 commands is similar to what is shown in the posted question. davidanderson@Snapper Downloads % diskutil list disk4; diskutil list disk5 /dev/disk4 (external, physical): #: TYPE NAME SIZE IDENTIFIER 0: GUID_partition_scheme *4.0 TB disk4 1: EFI EFI 314.6 MB disk4s1 2: Apple_APFS Container disk5 2.0 TB disk4s2 3: Microsoft Basic Data MYFAT1 1000.0 GB disk4s3 4: Microsoft Basic Data MYFAT2 1.0 TB disk4s4 /dev/disk5 (synthesized): #: TYPE NAME SIZE IDENTIFIER 0: APFS Container Scheme - +2.0 TB disk5 Physical Store disk4s2 1: APFS Volume MyAPFS 32.8 KB disk5s1 davidanderson@Snapper Downloads % ls -l linuxmint-22.1-xfce-64bit.iso -rw-r--r--@ 1 davidanderson admin 2885681152 Apr 16 2025 linuxmint-22.1-xfce-64bit.iso davidanderson@Snapper Downloads % diskutil unmountdisk disk4 Unmount of all volumes on disk4 was successful davidanderson@Snapper Downloads % sudo dd if=linuxmint-22.1-xfce-64bit.iso bs=1m of=/dev/rdisk4 2752+0 records in 2752+0 records out 2885681152 bytes transferred in 121.912330 secs (23670134 bytes/sec) davidanderson@Snapper Downloads % diskutil list disk4 /dev/disk4 (external, physical): #: TYPE NAME SIZE IDENTIFIER 0: Apple_partition_scheme *4.0 TB disk4 1: Apple_partition_map 4.1 KB disk4s1 2: Apple_HFS 5.2 MB disk4s2 davidanderson@Snapper Downloads % sudo gpt -r show disk4 start size index contents 0 1 MBR 1 8459 8460 10240 2 MBR part 239 18700 976727535 976746235 4 Sec GPT table 976746239 1 Sec GPT header davidanderson@Snapper Downloads % sudo fdisk /dev/disk4 Disk: /dev/disk4 geometry: 60799/255/63 [976746240 sectors] Sector size: 4096 bytes Signature: 0xAA55 Starting Ending #: id cyl hd sec - cyl hd sec [ start - size] ------------------------------------------------------------------------ 1: 00 0 0 0 - 0 0 0 [ 0 - 0] unused 2: EF 1023 254 63 - 1023 254 63 [ 8460 - 10240] <Unknown ID> 3: 00 0 0 0 - 0 0 0 [ 0 - 0] unused 4: 00 0 0 0 - 0 0 0 [ 0 - 0] unused davidanderson@Snapper Downloads % sudo hexdump -C -n 4096 /dev/disk4 00000000 45 52 08 00 00 00 90 90 00 00 00 00 00 00 00 00 |ER..............| 00000010 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| 00000020 33 ed fa 8e d5 bc 00 7c fb fc 66 31 db 66 31 c9 |3......|..f1.f1.| 00000030 66 53 66 51 06 57 8e dd 8e c5 52 be 00 7c bf 00 |fSfQ.W....R..|..| 00000040 06 b9 00 01 f3 a5 ea 4b 06 00 00 52 b4 41 bb aa |.......K...R.A..| 00000050 55 31 c9 30 f6 f9 cd 13 72 16 81 fb 55 aa 75 10 |U1.0....r...U.u.| 00000060 83 e1 01 74 0b 66 c7 06 f3 06 b4 42 eb 15 eb 02 |...t.f.....B....| 00000070 31 c9 5a 51 b4 08 cd 13 5b 0f b6 c6 40 50 83 e1 |1.ZQ....[...@P..| 00000080 3f 51 f7 e1 53 52 50 bb 00 7c b9 04 00 66 a1 b0 |?Q..SRP..|...f..| 00000090 07 e8 44 00 0f 82 80 00 66 40 80 c7 02 e2 f2 66 |..D.....f@.....f| 000000a0 81 3e 40 7c fb c0 78 70 75 09 fa bc ec 7b ea 44 |.>@|..xpu....{.D| 000000b0 7c 00 00 e8 83 00 69 73 6f 6c 69 6e 75 78 2e 62 ||.....isolinux.b| 000000c0 69 6e 20 6d 69 73 73 69 6e 67 20 6f 72 20 63 6f |in missing or co| 000000d0 72 72 75 70 74 2e 0d 0a 66 60 66 31 d2 66 03 06 |rrupt...f`f1.f..| 000000e0 f8 7b 66 13 16 fc 7b 66 52 66 50 06 53 6a 01 6a |.{f...{fRfP.Sj.j| 000000f0 10 89 e6 66 f7 36 e8 7b c0 e4 06 88 e1 88 c5 92 |...f.6.{........| 00000100 f6 36 ee 7b 88 c6 08 e1 41 b8 01 02 8a 16 f2 7b |.6.{....A......{| 00000110 cd 13 8d 64 10 66 61 c3 e8 1e 00 4f 70 65 72 61 |...d.fa....Opera| 00000120 74 69 6e 67 20 73 79 73 74 65 6d 20 6c 6f 61 64 |ting system load| 00000130 20 65 72 72 6f 72 2e 0d 0a 5e ac b4 0e 8a 3e 62 | error...^....>b| 00000140 04 b3 07 cd 10 3c 0a 75 f1 cd 18 f4 eb fd 00 00 |.....<.u........| 00000150 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| * 000001b0 0c 49 00 00 00 00 00 00 07 30 21 2e 00 00 80 02 |.I.......0!.....| 000001c0 01 00 00 ab e0 ff 40 00 00 00 c0 ff 55 00 00 fe |......@.....U...| 000001d0 ff ff ef fe ff ff 0c 21 00 00 00 28 00 00 00 00 |.......!...(....| 000001e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| 000001f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 55 aa |..............U.| 00000200 45 46 49 20 50 41 52 54 00 00 01 00 5c 00 00 00 |EFI PART....\...| 00000210 34 b4 d4 fd 00 00 00 00 01 00 00 00 00 00 00 00 |4...............| 00000220 ff ff 55 00 00 00 00 00 40 00 00 00 00 00 00 00 |..U.....@.......| 00000230 ca ff 55 00 00 00 00 00 32 30 32 35 30 31 31 40 |..U.....2025011@| 00000240 b1 30 30 34 35 37 30 32 0c 00 00 00 00 00 00 00 |.0045702........| 00000250 d0 00 00 00 80 00 00 00 9b 03 ea bf 00 00 00 00 |................| 00000260 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| * 00000800 50 4d 00 00 00 00 00 02 00 00 00 01 00 00 00 02 |PM..............| 00000810 41 70 70 6c 65 00 00 00 00 00 00 00 00 00 00 00 |Apple...........| 00000820 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| 00000830 41 70 70 6c 65 5f 70 61 72 74 69 74 69 6f 6e 5f |Apple_partition_| 00000840 6d 61 70 00 00 00 00 00 00 00 00 00 00 00 00 00 |map.............| 00000850 00 00 00 00 00 00 00 02 00 00 00 03 00 00 00 00 |................| 00000860 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| * 00001000 davidanderson@Snapper Downloads % Output 2: Using fdisk and gdisk to fix the MBR and GPT. davidanderson@Snapper Downloads % sudo fdisk -u -y -f /dev/zero /dev/disk4 davidanderson@Snapper Downloads % sudo gdisk /dev/disk4 GPT fdisk (gdisk) version 1.0.10 Caution: invalid main GPT header, but valid backup; regenerating main header from backup! Warning: Invalid CRC on main header data; loaded backup partition table. Warning! Main and backup partition tables differ! Use the 'c' and 'e' options on the recovery & transformation menu to examine the two tables. Warning! Main partition table CRC mismatch! Loaded backup partition table instead of main partition table! Warning! One or more CRCs don't match. You should repair the disk! Main header: ERROR Backup header: OK Main partition table: ERROR Backup partition table: OK Partition table scan: MBR: MBR only BSD: not present APM: present GPT: damaged ******************************************************************* This disk appears to contain an Apple-format (APM) partition table! It will be destroyed if you continue! ******************************************************************* Found valid MBR and corrupt GPT. Which do you want to use? (Using the GPT MAY permit recovery of GPT data.) 1 - MBR 2 - GPT 3 - Create blank GPT Your answer: 3 Command (? for help): r Recovery/transformation command (? for help): c Warning! This will probably do weird things if you've converted an MBR to GPT form and haven't yet saved the GPT! Proceed? (Y/N): y Recovery/transformation command (? for help): w Final checks complete. About to write GPT data. THIS WILL OVERWRITE EXISTING PARTITIONS!! Do you want to proceed? (Y/N): y OK; writing new GUID partition table (GPT) to /dev/disk4. Warning: The kernel may continue to use old or deleted partitions. You should reboot or remove the drive. The operation has completed successfully. davidanderson@Snapper Downloads % diskutil list disk4 /dev/disk4 (external, physical): #: TYPE NAME SIZE IDENTIFIER 0: GUID_partition_scheme *4.0 TB disk4 1: EFI 314.6 MB disk4s1 2: Apple_APFS 2.0 TB disk4s2 3: Microsoft Basic Data MYFAT1 1000.0 GB disk4s3 4: Microsoft Basic Data MYFAT2 1.0 TB disk4s4 davidanderson@Snapper Downloads % sudo gpt -r show disk4 start size index contents 0 1 PMBR 1 1 Pri GPT header 2 4 Pri GPT table 6 76800 1 GPT part - C12A7328-F81F-11D2-BA4B-00A0C93EC93B 76806 488281256 2 GPT part - 7C3457EF-0000-11AA-AA11-00306543ECAC 488358062 82 488358144 244140544 3 GPT part - EBD0A0A2-B9E5-4433-87C0-68B6B72699C7 732498688 244247296 4 GPT part - EBD0A0A2-B9E5-4433-87C0-68B6B72699C7 976745984 251 976746235 4 Sec GPT table 976746239 1 Sec GPT header davidanderson@Snapper Downloads % sudo fdisk /dev/disk4 Disk: /dev/disk4 geometry: 60799/255/63 [976746240 sectors] Sector size: 4096 bytes Signature: 0xAA55 Starting Ending #: id cyl hd sec - cyl hd sec [ start - size] ------------------------------------------------------------------------ 1: EE 0 0 2 - 1023 255 63 [ 1 - 976746239] <Unknown ID> 2: 00 0 0 0 - 0 0 0 [ 0 - 0] unused 3: 00 0 0 0 - 0 0 0 [ 0 - 0] unused 4: 00 0 0 0 - 0 0 0 [ 0 - 0] unused davidanderson@Snapper Downloads % sudo hexdump -C -n 4096 /dev/disk4 00000000 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| * 000001c0 02 00 ee ff ff ff 01 00 00 00 ff f6 37 3a 00 00 |............7:..| 000001d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| * 000001f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 55 aa |..............U.| 00000200 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| * 00001000 davidanderson@Snapper Downloads % Output 3: Using only macOS commands to fix the MBR and GPT. davidanderson@Snapper Downloads % sudo fdisk -e -f /dev/zero /dev/disk4 Enter 'help' for information fdisk: 1> update Machine code updated. fdisk:*1> erase fdisk:*1> edit 1 Starting Ending #: id cyl hd sec - cyl hd sec [ start - size] ------------------------------------------------------------------------ 1: 00 0 0 0 - 0 0 0 [ 0 - 0] unused Partition id ('0' to disable) [0 - FF]: [0] (? for help) ee Do you wish to edit in CHS mode? [n] Partition offset [0 - 976746240]: [63] 1 Partition size [1 - 976746239]: [976746239] fdisk:*1> quit Writing current MBR to disk. davidanderson@Snapper Downloads % diskutil unmountdisk disk4 Unmount of all volumes on disk4 was successful davidanderson@Snapper Downloads % sudo dd if=/dev/zero bs=512 seek=1 count=7 of=/dev/disk4 7+0 records in 7+0 records out 3584 bytes transferred in 0.001240 secs (2890288 bytes/sec) davidanderson@Snapper Downloads % StartSecTable=976746235 davidanderson@Snapper Downloads % StartSecHeader=976746239 davidanderson@Snapper Downloads % pushd ~ ~ ~/Downloads davidanderson@Snapper ~ % diskutil unmountdisk disk4 Unmount of all volumes on disk4 was successful davidanderson@Snapper ~ % sudo dd if=/dev/disk4 bs=4096 skip=$StartSecHeader count=1 of=header.bin 1+0 records in 1+0 records out 4096 bytes transferred in 0.001454 secs (2816834 bytes/sec) davidanderson@Snapper ~ % sudo chown $USER header.bin davidanderson@Snapper ~ % echo "10: 0000 0000" > patch.txt davidanderson@Snapper ~ % echo "18: 0100 0000 0000 0000" >> patch.txt davidanderson@Snapper ~ % xxd -s 24 -l 8 -o 8 header.bin >> patch.txt davidanderson@Snapper ~ % echo "48: 0200 0000 0000 0000" >> patch.txt davidanderson@Snapper ~ % xxd -r patch.txt header.bin davidanderson@Snapper ~ % head -c 92 header.bin | crc32 /dev/fd/0 | xxd -r -p | xxd -e -o 16 > patch.txt davidanderson@Snapper ~ % xxd -r patch.txt header.bin davidanderson@Snapper ~ % diskutil umountdisk disk4 Unmount of all volumes on disk4 was successful davidanderson@Snapper ~ % sudo dd if=/dev/disk4 bs=4096 skip=$StartSecTable count=4 seek=2 of=/dev/disk4 4+0 records in 4+0 records out 16384 bytes transferred in 0.029267 secs (559810 bytes/sec) davidanderson@Snapper ~ % diskutil umountdisk disk4 Unmount of all volumes on disk4 was successful davidanderson@Snapper ~ % sudo dd if=header.bin bs=4096 seek=1 of=/dev/disk4 1+0 records in 1+0 records out 4096 bytes transferred in 0.000417 secs (9822681 bytes/sec) davidanderson@Snapper ~ % rm header.bin patch.txt davidanderson@Snapper ~ % popd ~/Downloads davidanderson@Snapper Downloads % diskutil list disk4 /dev/disk4 (external, physical): #: TYPE NAME SIZE IDENTIFIER 0: GUID_partition_scheme *4.0 TB disk4 1: EFI 314.6 MB disk4s1 2: Apple_APFS 2.0 TB disk4s2 3: Microsoft Basic Data MYFAT1 1000.0 GB disk4s3 4: Microsoft Basic Data MYFAT2 1.0 TB disk4s4 davidanderson@Snapper Downloads % sudo gpt -r show disk4 start size index contents 0 1 PMBR 1 1 Pri GPT header 2 4 Pri GPT table 6 76800 1 GPT part - C12A7328-F81F-11D2-BA4B-00A0C93EC93B 76806 488281256 2 GPT part - 7C3457EF-0000-11AA-AA11-00306543ECAC 488358062 82 488358144 244140544 3 GPT part - EBD0A0A2-B9E5-4433-87C0-68B6B72699C7 732498688 244247296 4 GPT part - EBD0A0A2-B9E5-4433-87C0-68B6B72699C7 976745984 251 976746235 4 Sec GPT table 976746239 1 Sec GPT header davidanderson@Snapper Downloads % sudo fdisk /dev/disk4 Disk: /dev/disk4 geometry: 60799/255/63 [976746240 sectors] Sector size: 4096 bytes Signature: 0xAA55 Starting Ending #: id cyl hd sec - cyl hd sec [ start - size] ------------------------------------------------------------------------ 1: EE 0 0 2 - 1023 254 63 [ 1 - 976746239] <Unknown ID> 2: 00 0 0 0 - 0 0 0 [ 0 - 0] unused 3: 00 0 0 0 - 0 0 0 [ 0 - 0] unused 4: 00 0 0 0 - 0 0 0 [ 0 - 0] unused davidanderson@Snapper Downloads % sudo hexdump -C -n 4096 /dev/disk4 00000000 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| * 000001c0 02 00 ee fe ff ff 01 00 00 00 ff f6 37 3a 00 00 |............7:..| 000001d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| * 000001f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 55 aa |..............U.| 00000200 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| * 00001000 davidanderson@Snapper Downloads % Output 4: Reformatting EFI and APFS container partitions. root@Snapper Downloads # sudo newfs_msdos -F 32 -v EFI /dev/rdisk4s1 4096 bytes per physical sector /dev/rdisk4s1: 76618 sectors in 76618 FAT32 clusters (4096 bytes/cluster) bps=4096 spc=1 res=32 nft=2 mid=0xf8 spt=32 hds=16 hid=6 drv=0x80 bsec=76800 bspf=75 rdcl=2 infs=1 bkbs=6 root@Snapper Downloads # sudo diskutil mount disk4s1 Volume EFI on disk4s1 mounted root@Snapper Downloads # sudo diskutil unmount disk4s1 Volume EFI on disk4s1 unmounted root@Snapper Downloads # sudo newfs_apfs -v MyAPFS /dev/disk4s2 root@Snapper Downloads # diskutil list disk4; diskutil list disk5 /dev/disk4 (external, physical): #: TYPE NAME SIZE IDENTIFIER 0: GUID_partition_scheme *4.0 TB disk4 1: EFI EFI 314.6 MB disk4s1 2: Apple_APFS Container disk5 2.0 TB disk4s2 3: Microsoft Basic Data MYFAT1 1000.0 GB disk4s3 4: Microsoft Basic Data MYFAT2 1.0 TB disk4s4 /dev/disk5 (synthesized): #: TYPE NAME SIZE IDENTIFIER 0: APFS Container Scheme - +2.0 TB disk5 Physical Store disk4s2 1: APFS Volume MyAPFS 20.5 KB disk5s1 root@Snapper Downloads # References Partition type GUID Partition Table Apple Partition Map Apple Partition Map (APM) Layout of pre-APM Apple partition map
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931204/is-there-a-way-to-manually-fix-the-gpt-so-the-drive-is-readable-without-formatti
+
+---
+
+#### 2202. Why isn't rsync deleting an excluded directory?
+
+**问题描述 / Problem Description**:
+Tags: macos, rsync | Score: 1 | Views: 138 | Answers: 2 | Created: 2025-08-13
+
+**解决方案 / Solution**:
+I would have expected that /Volume/V200/imac_save/Library/Passes with all its subdirectories would be gone […] but the Passes directory is still on the backup medium The fundamental problem here is that you have not told rsync to process any directories. (You're missing either -a or -r .) Consequently only the top level non-directory items are processed from your source. If there are any directories in your destination they won't have been created by the rsync commands you've shown us. The correct approach is to use either -a (to copy all file and directory attributes, and to recurse downwards through any file trees) or -rt (to skip all metadata except timestamps, and still to recurse downwards through any file trees). Then you can specify directory-based exclusions and deletions. First, this will correctly copy everything underneath your Library : rsync -rt "$HOME/Library/" '/Volume/V200/imac_save' And then this modified version will exclude the top-most Passes subdirectory and delete its contents from the destination: rsync -rt --exclude '/Passes/' --delete "$HOME/Library/" '/Volume/V200/imac_save' rm -rf '/Volume/V200/imac_save/Passes' You cannot use rsync to delete items from the destination that are excluded from the transfer unless they also no longer exist on the source. Let me explain: The --delete option deletes items on the destination that no longer exist on the source. The --delete-excluded option extends this to consider items that are inside the --exclude list. Two options that may help you see what's going on are -iv (verbose) and --dry-run (show without action). You can combine them.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1917888/why-isnt-rsync-deleting-an-excluded-directory
+
+---
+
+#### 2203. Why is an encrypted APFS volume mounted with no password provided vulnerabilities?
+
+**问题描述 / Problem Description**:
+Tags: macos, encryption, mount, apfs | Score: 1 | Views: 431 | Answers: 1 | Created: 2025-08-03
+
+**解决方案 / Solution**:
+The password or encryption key for the volume in question is most likely in one of your keychains. To test this, unmount the encrypted volume, then lock all of your keychains, and then try to re-mount the volume without unlocking any keychains.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1914996/why-is-an-encrypted-apfs-volume-mounted-with-no-password-provided-vulnerabilitie
+
+---
+
+#### 2204. Why can't I resolve hostname on LAN via mDNS (.local)?
+
+**问题描述 / Problem Description**:
+Tags: networking, macos, dns, dnsmasq, ddns | Score: 1 | Views: 308 | Answers: 1 | Created: 2025-07-17
+
+**解决方案 / Solution**:
+First, check the computer’s hostname in the three (yes, three) places that they are set in macOS: scutil --get ComputerName scutil --get HostName scutil --get LocalHostName One of them should be named Mac ; the errant name. Now to the --set variant of that command like this on the errant value: sudo scutil --set ComputerName 'Dans-Macbook-Pro' sudo scutil --set HostName 'Dans-Macbook-Pro' sudo scutil --set LocalHostName 'Dans-Macbook-Pro' Or do all three and see how it goes. Just run this command to test it: ping Dans-Macbook-Pro.local Note that Dans-Macbook-Pro will never resolve to anything but append a .local like this and all should be good: Dans-Macbook-Pro.local
+
+**参考链接 / References**:
+- https://superuser.com/questions/1911152/why-cant-i-resolve-hostname-on-lan-via-mdns-local
+
+---
+
+#### 2205. Why is Rsync not excluding a folder?
+
+**问题描述 / Problem Description**:
+Tags: macos, rsync | Score: 1 | Views: 126 | Answers: 1 | Created: 2025-07-06
+
+**解决方案 / Solution**:
+Rsync exclude paths are relative to the root of the transfer as @gordon-davisson points out in his comment , not relative to where the script is running from. removing /Music/Music/Media/Music/ from the exclude path resolved this.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1909067/why-is-rsync-not-excluding-a-folder
+
+---
+
+#### 2206. How do I remove obsolete domains from macOS defaults/cfprefsd system?
+
+**问题描述 / Problem Description**:
+Tags: macos, system-preferences | Score: 1 | Views: 197 | Answers: 1 | Created: 2025-07-02
+
+**解决方案 / Solution**:
+Prefs are stored in .plist files in /Library/Preferences/ (for systemwide things) and ~/Library/Preferences/ (for each user's own preferences). Feel free to delete any of those files you're sure you don't need. Apps usually recreate them from scratch using default values the next time you launch that app, so typically all you stand to lose is any settings you customized.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1908240/how-do-i-remove-obsolete-domains-from-macos-defaults-cfprefsd-system
+
+---
+
+#### 2207. How to configure iterm2 color themes
+
+**问题描述 / Problem Description**:
+Tags: macos, colors, themes, iterm2, oh-my-zsh | Score: 1 | Views: 1230 | Answers: 1 | Created: 2025-05-28
+
+**解决方案 / Solution**:
+I have found the answer to my question. open iterm2 go to settings>general>settings check the "Load settings from a custom folder or url" box click "browse" button search for the directory Users/johnny/Library/Application Support/iTerm2/" if the directory "iTerm2-Color-Schemes" directory doesn't exist, To install: Launch iTerm 2. Get the latest version at iterm2.com Type CMD+i Navigate to Colors tab Click on Load Presets Click on Import Select the .itermcolors file(s) of the scheme(s) you'd like to use Click on Load Presets and choose a color scheme It took a little research effort, but it paid dividends. I hope this helps others.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1902661/how-to-configure-iterm2-color-themes
+
+---
+
+#### 2208. Where is located HTML for directory listing?
+
+**问题描述 / Problem Description**:
+Tags: macos, directory-listing | Score: 1 | Views: 157 | Answers: 2 | Created: 2025-05-24
+
+**解决方案 / Solution**:
+It's not exactly done via a template. Apache's directory listings are handled by its mod_autoindex module. Much of that module's configurability is done via its IndexOptions directive. Many people choose to enable the FancyIndexing option. You can use CSS to style the listings, using the IndexStyleSheet directive. There are many other Apache mod_autoindex configuration directives and options. A decent starting point is here . Also see the example in conf/extra/httpd-autoindex.conf in your Apache installation.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1902115/where-is-located-html-for-directory-listing
+
+---
+
+#### 2209. Why can't I run PHP via Apache on macOS? (Installed using Homebrew)
+
+**问题描述 / Problem Description**:
+Tags: macos, php, ssl, localhost, homebrew | Score: 1 | Views: 339 | Answers: 2 | Created: 2025-05-23
+
+**解决方案 / Solution**:
+I suspect you're running macOS's built-in Apache already and it's getting in the way of starting Homebrew's copy of Apache. Homebrew set up its own Apache environment for PHP, but no one set up macOS's Apache for PHP. So the copy of Apache you're running isn't doing PHP, and the copy of Apache you want to run (from Homebrew) can't run correctly because it can't steal ports 80 and 443 from macOS's Apache. Shut down the system's Apache before trying to start Homebrew's copy of Apache. You can shut down the system's Apache like this: sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist
+
+**参考链接 / References**:
+- https://superuser.com/questions/1901957/why-cant-i-run-php-via-apache-on-macos-installed-using-homebrew
+
+---
+
+#### 2210. How to install HTTPS (not HTTP) on localhost on macOS Sequoia?
+
+**问题描述 / Problem Description**:
+Tags: macos, apache-http-server, https, localhost, homebrew | Score: 1 | Views: 432 | Answers: 1 | Created: 2025-05-23
+
+**解决方案 / Solution**:
+ERR_CONNECTION_REFUSED indicates there is no web server process listening on the HTTPS port (443/TCP). In your description of the steps you've done so far, you didn't mention modifying Apache's config to tell it to listen on port 443. In the default way macOS installs Apache, the most basic way of telling it to do HTTPS on port 443 is to edit /etc/apache2/httpd.conf , scroll down to the SSL/TLS section near the bottom, and uncomment the line: Include /private/etc/apache2/extra/httpd-ssl.conf …and then do a sudo apachectl restart as usual.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1901950/how-to-install-https-not-http-on-localhost-on-macos-sequoia
+
+---
+
+#### 2211. Bizzare Apple Music Bug - Can't play music
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t64myc/bizzare_apple_music_bug_cant_play_music/
+
+---
+
+#### 2212. Why are these alignment options disabled on my Mac?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t65qvw/why_are_these_alignment_options_disabled_on_my_mac/
+
+---
+
+#### 2213. impostor
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t65f0j/impostor/
+
+---
+
+#### 2214. Inconsistent volume levels when playing songs on macOS (26+) (Apple Music)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t63hx9/inconsistent_volume_levels_when_playing_songs_on/
+
+---
+
+#### 2215. Does UE 5.7 Still have the Mac, macOS Issues?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t62634/does_ue_57_still_have_the_mac_macos_issues/
+
+---
+
+#### 2216. Time Machine and Apple Mail
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t60y2r/time_machine_and_apple_mail/
+
+---
+
+#### 2217. Macbook for Dummies
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t65m9o/macbook_for_dummies/
+
+---
+
+#### 2218. Any developer here using MacBook Neo as a secondary device?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t65hpf/any_developer_here_using_macbook_neo_as_a/
+
+---
+
+#### 2219. How comfortable is 16GB RAM for Xcode + Cursor in 2026?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t6227b/how_comfortable_is_16gb_ram_for_xcode_cursor_in/
+
+---
+
+#### 2220. Should I change my M2 air battery or buy a new one?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t63j06/should_i_change_my_m2_air_battery_or_buy_a_new_one/
+
+---
+
+#### 2221. Can resident evil 2 remake run on neo?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t65jv9/can_resident_evil_2_remake_run_on_neo/
+
+---
+
+#### 2222. payment plans
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t609xb/payment_plans/
+
+---
+
+#### 2223. IG on Macbook
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t63qou/ig_on_macbook/
+
+---
+
+#### 2224. looking for a deal to buy mb neo 512 gb vaiant in india (ahmedabad)
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t632is/looking_for_a_deal_to_buy_mb_neo_512_gb_vaiant_in/
+
+---
+
+#### 2225. Weird power on issue on Asus GA 350X motherboard
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t663yb/weird_power_on_issue_on_asus_ga_350x_motherboard/
+
+---
+
+#### 2226. I'm stuck on macos 26.5 beta 3, "cant connect to apple software update server."
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1t61krf/im_stuck_on_macos_265_beta_3_cant_connect_to/
+
+---
+
+#### 2227. Will Apple flag our loot boxes and block iOS submissions
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t65s5v/will_apple_flag_our_loot_boxes_and_block_ios/
+
+---
+
+#### 2228. Is it unusual to have certain apps glitch? The Weather Channel App “refreshes” every time I try to scroll left or right on daily forecast and sometimes Facebook things don’t work.
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t65m9r/is_it_unusual_to_have_certain_apps_glitch_the/
+
+---
+
+#### 2229. Private relay email
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t65giu/private_relay_email/
+
+---
+
+#### 2230. Alarm screen/notification not appearing.
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t6581r/alarm_screennotification_not_appearing/
+
+---
+
+#### 2231. Strange Sound When Connected to CarPlay or Bluetooth
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t64045/strange_sound_when_connected_to_carplay_or/
+
+---
+
+#### 2232. Automations for Apple Watch
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t61uoz/automations_for_apple_watch/
+
+---
+
+#### 2233. Someone assist me with this please
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t61mrm/someone_assist_me_with_this_please/
+
+---
+
+#### 2234. if im the owner of a shared note how can i delete it from my phone without deleting it from their device
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t61mqp/if_im_the_owner_of_a_shared_note_how_can_i_delete/
+
+---
+
+#### 2235. Is there a temperamental problem with the USB-C/3.5mm converter and the iPhone 17?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t61bxq/is_there_a_temperamental_problem_with_the/
+
+---
+
+#### 2236. Recovering pictures from an old iPhone back up
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t61541/recovering_pictures_from_an_old_iphone_back_up/
+
+---
+
+#### 2237. MacBook won’t show full screen when streaming
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t60pht/macbook_wont_show_full_screen_when_streaming/
+
+---
+
+#### 2238. How to temporarily transfer Macbook files to another Macbook
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t60kwf/how_to_temporarily_transfer_macbook_files_to/
+
+---
+
+#### 2239. Question about subscriptions
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t60krs/question_about_subscriptions/
+
+---
+
+#### 2240. I need support with my child’s iPhone settings
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t60hu1/i_need_support_with_my_childs_iphone_settings/
+
+---
+
+#### 2241. [V2EX] 请问有用过扣子编程的吗？
+
+**问题描述 / Problem Description**:
+非程序员，没有搞定 claude code 账户的问题，所以就用扣子编程写一些小程序和网站。也上线了 1-3 个自己做的项目。 V 友有没有也用扣子编程的呢？或者说有更好的国产编程工具替代吗？ 我做的比较多的是网站和微信小程序项目。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210928#reply8
+
+---
+
+#### 2242. [V2EX] 哪里有便宜的 GPT-image 2 或者 gemini nano banan 2 图片生成 API
+
+**问题描述 / Problem Description**:
+RT 大概需要一次性 50000 张请求，现在国内用好像一张要 5 毛钱，感觉有点贵啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210914#reply1
+
+---
+
+#### 2243. [V2EX] codex 和 copilot 都废了，还有便宜又量大管饱的平替吗？
+
+**问题描述 / Problem Description**:
+以前一个 codex 的号，5h 用量按照我的使用习惯基本能用一个小时，一个 team 车 5 个号轮流用，能做到一天不间断连续用。 （具体我不是很清楚，codex team 的车似乎是通过官方政策漏洞刷的，我是在咸鱼上二十来块钱买的） 自从 4 月 2 日 codex 改计费规则后，codex 就不耐用了，一个号最快 15 分钟就用完了，GPT5.5 上线后就更快了，给个稍微大点的任务，一条会话五六分钟就给用完了，压缩个上下文都会耗掉接近 20%的 5h 用量。 如果同时做多个项目，一个 team 车 5 个号最快 1 个小时出头就做完了。。。 而且现在 team 车也已经绝版了，手上仅剩下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210816#reply21
+
+---
+
+#### 2244. [V2EX] 大佬真的在用 AI 进行指数级的效率提升工作
+
+**问题描述 / Problem Description**:
+今天在浏览 GitHub 时看到 OpenClaw 作者 Merge 了一个 MR： https://github.com/openclaw/openclaw/pull/78558 我看了整个过程，很精彩，展现了 两个 AI Reviewer 和作者之间全力写作的过程，删除了 8 万行代码，但整个重构仅用了 16 小时，进行了 8 次修改就合并了，这样的重构工作量如果没有 AI 很难想象可以在 16 小时内完成
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210935#reply0
+
+---
+
+#### 2245. [V2EX] ChatGPT 广告上线，为什么中小品牌不该急着投钱？
+
+**问题描述 / Problem Description**:
+5 月 6 日凌晨，OpenAI 又一次刷屏了。 除了发布全新的 GPT-5.5 Instant 模型，更重磅的消息是：ChatGPT 广告平台正式向所有美国企业开放自助投放。投放门槛从此前的 25 万美金降至 5 万美金，任何企业都可以直接注册、充值、设置预算、上传素材，一键投放到 ChatGPT 的 9 亿周活用户面前。 这个消息在营销圈炸开了锅。不少品牌方的第一反应是：终于可以抢占 AI 流量了，赶紧测试投放！毕竟，ChatGPT 的 CPM 高达 60 美金（是 Meta 的 3 倍），这个定价本身就在传递一个信号——这是一个高价值、高意图的流量入口。 但在所有人都在讨论“要不要投 C
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210917#reply0
+
+---
+
+#### 2246. [V2EX] 中国最大的黑客松组织 AdventureX 来 V2EX 啦！
+
+**问题描述 / Problem Description**:
+大家好！我们是 AdventureX ，中国最大的黑客松组织。最近我们正在准备一场超级酷的 Hacker 活动，我们想让国内能有更多有梦想、想改变世界的年轻人。 在 2024 年，我们搭建起了属于中国年轻人的第一场黑客松。自那以后，所有人都看见了。仅仅两年时间，Demo Day 、黑客松、工作坊在中国遍地开花。资本开始追逐年轻的梦想，所有公司开始寻找最酷的大脑。我们改变了整个中国的创新结构。 两年过去，最初的那把火没有熄灭，反而在这片土地上越烧越旺，AdventureX 的第三年，这片自由的土壤比以往任何时候都要宽广。当我们回望那一刻，我们知道某些东西已经被改变，一只蝴蝶煽动了翅膀。 我们相信
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210899#reply13
+
+---
+
+#### 2247. [V2EX] 发现购买的便携式氧气瓶，是器械，购买的是瓶子
+
+**问题描述 / Problem Description**:
+很早前 买了几瓶便携氧气瓶，就是那种按下就出氧气的 然后今天好奇问了下客服 氧气浓度多少 客服说 他们卖的是瓶子 ， 氧气是赠送的 所以没有氧气浓度 直接震惊我一整年， 也就是说瓶子里面灌装空气 也没问题 商品页面上， 瓶罐上 给消费者的感觉就是 卖的“氧气”瓶子 首先是有氧气才是瓶子
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210885#reply3
+
+---
+
+#### 2248. [V2EX] 中转站自己带你揭晓中转站的计费坑，再说几个可能省钱的方式
+
+**问题描述 / Problem Description**:
+今天跟客户介绍我家的纯正价 Pro 号池，0.35 倍率，结果客户回了一句：别人家给我 0.08 啊 我人都傻了，pro 池子的成本都不止这样，他哪来的 0.08 ？客户说对方宣传的就是 0.08 人民币/1 美元额度，仔细一算，好家伙，如果充值按 1:1 走，那这个 0.08 ，实际倍率是 0.5 左右 已经不能称为割韭菜了，好像在考验数学水平，按这么算我纯 pro 的池子才 0.05 啊 于是我把市面上常见的几种计费套路理了一遍，发现几个文字游戏，分享在下面看看 方式一： 充值 1:1 ，模型官方价，纯按倍率计算 这个算最合理心智负担最小的，我家就是这个方式，但好像宣传上有点吃亏... 方
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210826#reply0
+
+---
+
+#### 2249. [V2EX] 看到不少 V 友在抵制豆包，但现实用户却恰恰相反
+
+**问题描述 / Problem Description**:
+“我来问问豆包“ “问豆包啊” “你问问豆包” “豆包知道” …… 像这些口语已经开始慢慢代替百度。 现实生活中，豆包早已渗透进男女老少的日常生活，从小学生到老人，很多人都在使用。有人会说，他们不会科学上网，只能用豆包、没有别的选择，但这种说法其实也不完全准确。国内 AI 产品并不少，不过在现阶段，真正被普通大众广泛认知、知名度最高的，确实还是豆包。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210796#reply34
+
+---
+
+#### 2250. [V2EX] 佛系开站却被豆包推荐：首周 35 亿 Token，聊聊 AI 中转的真实逻辑
+
+**问题描述 / Problem Description**:
+正文： 在正式入场前，作为一个写了 7 年代码的后端，我在 V 站和 Twitter 上观望了整整一个月。见过吹嘘开站能财富自由的，也见过被风控封到怀疑人生的同行。 今天不打广告，纯粹以一个独立开发者的视角，分享一些行业现状和自己跑通商业闭环的真实感悟。 1. 行业现状：大佬进场、分销猫腻与盈利真相 这个赛道现在的玩法水太深了： 大佬跑步进场： 最近连孙哥甚至川普（ worldclaw.ai ）都进场搞 API 中转了。当这种级别的资本都开始盯上这点“散碎银子”，说明底层逻辑已经完全变味了。 分销的猫腻： 现在的分销模式非常离谱，一层套一层。我见过最夸张的，能把高达 35% 的销售额直接返给代
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210784#reply7
+
+---
+
+#### 2251. [V2EX] 网友爆共享充电宝行业存在杀熟行为
+
+**问题描述 / Problem Description**:
+之前干共享充电宝开发，充电宝弹宝有策略，新用户都是给弹电池转换次数少的宝，先给用户体验，老用户都是弹宝损耗高的，并且 iOS 和安卓还不一样，充电功率也是，前 10% 充电功率高，后面降功率，为了赚时长 转自评论区 https://www.ithome.com/0/947/015.htm
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210740#reply2
+
+---
+
+#### 2252. [V2EX] 三星的家电业务退出中国市场了
+
+**问题描述 / Problem Description**:
+停止销售的产品包括电视、显示器、大型商用显示器、空调、冰箱、洗衣机、干衣机、洗衣干衣一体机、衣物护理机、音响、投影仪、吸尘器、空气净化器等所有家用电器。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210675#reply47
 
 ---

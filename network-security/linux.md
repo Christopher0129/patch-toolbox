@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1317**
+**总计条目 / Total entries: 1322**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -21399,5 +21399,65 @@ It was discovered that EditorConfig incorrectly handled specially crafted config
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2466999
+
+---
+
+#### 1318. [Ubuntu] USN-8245-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Josh Eads, Kristoffer Janke, Eduardo Vela Nava, Tavis Ormandy, and Matteo Rizzo discovered that some AMD Zen processors did not properly verify the signature of CPU microcode. This flaw is known as EntrySign. A privileged attacker could possibly use this issue to cause load malicious CPU microcode causing loss of integrity and confidentiality. (CVE-2024-36347) Several security issues were discover
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8245-1
+
+---
+
+#### 1319. [Ubuntu] USN-8244-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Network drivers; - NVME drivers; - Netfilter; (CVE-2026-23112, CVE-2026-23231, CVE-2026-23273)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8244-1
+
+---
+
+#### 1320. [Ubuntu] USN-8243-1: Linux kernel (Azure) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Qualys discovered that several vulnerabilities existed in the AppArmor Linux kernel Security Module (LSM). An unprivileged local attacker could use these issues to load, replace, and remove arbitrary AppArmor profiles causing denial of service, exposure of sensitive information (kernel memory), local privilege escalation, or possibly escape a container. (LP: #2143853, CVE-2026-23268, CVE-2026-2326
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8243-1
+
+---
+
+#### 1321. [Ubuntu] USN-8235-1: ITK vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Expat, vendored in ITK incorrectly handled certain files. An attacker could possibly use this issue to cause a crash or execute arbitrary code. (CVE-2022-25235, CVE-2022-25236)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8235-1
+
+---
+
+#### 1322. [Ubuntu] USN-8241-1: Coin3D vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Expat, vendored in Coin3D incorrectly handled certain files. An attacker could possibly use this issue to cause a crash or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8241-1
 
 ---

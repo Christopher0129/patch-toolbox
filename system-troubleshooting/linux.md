@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2483**
+**总计条目 / Total entries: 2528**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -40060,5 +40060,590 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210601#reply14
+
+---
+
+#### 2484. [V2EX] 懒得记账, 仅用微信/支付宝支出, 可行吗?
+
+**问题描述 / Problem Description**:
+因为每月都会看自己的支出, 发现跟很多银行对比, 只有微信/支付宝的账单是最好用的. 根据过滤条件很容易清晰看出支出在哪. 甚至不需要自己手动记账, 只需要支出时用这两项. 缺点是信用卡/储蓄卡羊毛没法薅. 有这样的老哥嘛?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210822#reply0
+
+---
+
+#### 2485. [V2EX] 微信今年国际银行卡累计交易金额过大有解决方案吗？
+
+**问题描述 / Problem Description**:
+如图，在资金不回国的情况下，有什么解决方案吗？支付宝也马上达到限额了。 现在的解决方案是转成港币然后使用 HK 钱包支付，但据说也有限额，然后支付场景也不如国际银行卡多。 然后比如美团、携程这种能绑定国际银行卡就使用各自平台的支付。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210819#reply5
+
+---
+
+#### 2486. [V2EX] 求推荐婴儿用品？
+
+**问题描述 / Problem Description**:
+包括但不限于奶粉、婴儿车、安全座椅等等，8 月份预产期，母婴店都看花眼了不知道怎么选，各位前辈有经验的帮忙推荐下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210773#reply22
+
+---
+
+#### 2487. [V2EX] 我把最近做的一个视频素材管理工具开源了： Meta Player。
+
+**问题描述 / Problem Description**:
+http://www.metaplayer.top 它是一个本地桌面应用，支持素材管理、视频播放、时间点标记、SRT 脚本导入、剧情大纲提取、搜索和片段导出。 仓库地址： https://github.com/renweilong7/meta-player 欢迎试用、提建议、点 star 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210818#reply0
+
+---
+
+#### 2488. [V2EX] 如何在外面调用家里的本地算力，大佬们来个方案
+
+**问题描述 / Problem Description**:
+如何在外面调用家里的本地算力，大佬们来个方案，我玩一玩
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210806#reply5
+
+---
+
+#### 2489. [V2EX] 有人知道现在的大学生在学什么么，不会还是当年我学到 struct2 spring mvc 吧
+
+**问题描述 / Problem Description**:
+如题。学生一代又一代，老师还是那一批
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210801#reply3
+
+---
+
+#### 2490. New LibreOffice website – thanks to the volunteers who helped out!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t65gc9/new_libreoffice_website_thanks_to_the_volunteers/
+
+---
+
+#### 2491. Anyone heard of/use EcoOS?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t62k41/anyone_heard_ofuse_ecoos/
+
+---
+
+#### 2492. Do i need to switch redhat?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t65if2/do_i_need_to_switch_redhat/
+
+---
+
+#### 2493. How do i make all of storage into one directory?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t619v9/how_do_i_make_all_of_storage_into_one_directory/
+
+---
+
+#### 2494. Linux Dual Boot
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t63weq/linux_dual_boot/
+
+---
+
+#### 2495. Unable to Update Librewolf
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t62n8b/unable_to_update_librewolf/
+
+---
+
+#### 2496. I try to run some programs over bottles, but they don´t work, why?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t628zp/i_try_to_run_some_programs_over_bottles_but_they/
+
+---
+
+#### 2497. rsync hardlinks for syncing renames?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t624er/rsync_hardlinks_for_syncing_renames/
+
+---
+
+#### 2498. signal blocking\jamming
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t61ddv/signal_blockingjamming/
+
+---
+
+#### 2499. switched finally!!!
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t65ui2/switched_finally/
+
+---
+
+#### 2500. Need help with installation
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t63i7q/need_help_with_installation/
+
+---
+
+#### 2501. Fix? Graphics freeze on Ubuntu 26.04 with Intel Ultra 7 265H (Arrow Lake)
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t64rbj/fix_graphics_freeze_on_ubuntu_2604_with_intel/
+
+---
+
+#### 2502. Community Help!!
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t62ace/community_help/
+
+---
+
+#### 2503. How to collect hardware hash from ubuntu box to connect with intune.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t61yih/how_to_collect_hardware_hash_from_ubuntu_box_to/
+
+---
+
+#### 2504. Linux on an external SSD drive.
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t63o1i/linux_on_an_external_ssd_drive/
+
+---
+
+#### 2505. Best distro for battery life
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t65i2c/best_distro_for_battery_life/
+
+---
+
+#### 2506. Acer swift 3 mint mate
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t61im4/acer_swift_3_mint_mate/
+
+---
+
+#### 2507. Is the Synaptic File managers content regulated?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t63jzd/is_the_synaptic_file_managers_content_regulated/
+
+---
+
+#### 2508. CachyOS install on Alienware laptop
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t61prb/cachyos_install_on_alienware_laptop/
+
+---
+
+#### 2509. A 2048 TUI game
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t61huz/a_2048_tui_game/
+
+---
+
+#### 2510. The text mode lie: why modern TUIs are a nightmare for accessibility
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t65rfu/the_text_mode_lie_why_modern_tuis_are_a_nightmare/
+
+---
+
+#### 2511. [V2EX] 苹果最新妙控触摸板和 Linux 适配的好吗?
+
+**问题描述 / Problem Description**:
+鼠标滑轮有点粘手,打算试试苹果的触摸板,就是不知道适配的怎样.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210536#reply28
+
+---
+
+#### 2512. [V2EX] 如何付费推广
+
+**问题描述 / Problem Description**:
+小弟搞了个小软件 https://github.com/XueYeHuLabs/Products ，想在 V2EX 上推广试试水，但是 v2ex“自助推广系统”只有各种虚拟货币付款，有其他付款方式吗？试试 200 ￥推广下有没有效果。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210934#reply3
+
+---
+
+#### 2513. [V2EX] 小米 mimo-v2.5-pro . 在 cc 里面用, 感觉非常慢
+
+**问题描述 / Problem Description**:
+一个小任务, 跑了 30 分钟 才完成. 同样的任务, 用 gpt 5.5 很快搞定. 赠送的 plan 就是这么慢吗? 还是买的也这样, 体验确实不太好.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210932#reply2
+
+---
+
+#### 2514. [V2EX] 很久没来吐槽了~有些人真的太坏了。
+
+**问题描述 / Problem Description**:
+事情是这样的，跟风做了个拼多多福袋组队[地址就不发了，免得说推广]，机缘巧合 不知道被谁点名了 现在每天差不多组队 1-2W ，而且这玩意真的没啥变现能力，所以也没想太多 接口也没有加什么限流风控。 然后大概是前天下午 很多人在群里说根本抢不到码，还有人说发上去就被用了，但是一直组队不成功。 然后晚上有电脑了看了下 被一个 ip 是 47.120.24.251 的吊毛刷了 4000 多个福袋码。 这得搞不懂 这玩意有啥弄得。而且换句说话说 就算这玩意能赚钱 变现 但是盘子这么大 何必恶心别人。 后面问了几个也做的比较厉害的网友 说都被这个 ip 刷过。 真的人心险恶，好事不做 不赚钱的东西也坑
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210889#reply15
+
+---
+
+#### 2515. [V2EX] DeepSeek TUI 的安装路线
+
+**问题描述 / Problem Description**:
+我把 DeepSeek TUI 的安装路线拆开了，分别做了： npm cargo Homebrew Windows update / upgrade 安装总页： https://deepseek-tui.app/install/index.html
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210888#reply0
+
+---
+
+#### 2516. [V2EX] 五一回来，发现网页版的谷歌 ai ,Gemini 等都被风控了怎么破？
+
+**问题描述 / Problem Description**:
+之前日常问简单问题都用网页版的 Gemini 等，因为他免费（都问收费的消耗不起，这个干脏活的吧），而且准确，因为我拒绝国产豆包，千问等国货，国货效果不好 这次打开无痕模式，开梯子 tun 模式代理都新加坡均还是被风控制 不太清楚是不是我的账号的问题，比如我绑的手机号是大陆，然后用户画像说我是 china 也有传言说因为我使用的语言是简体中文，或者其他 总之大家说说看怎么能解除谷歌的风控吧？ 或者大家想想其他的平替？我日常也会用 opencode 的免费模型来刷刷，但效果就一般，不及谷歌
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210859#reply4
+
+---
+
+#### 2517. [V2EX] codex 怎么官方购买按量付费版-企业付费
+
+**问题描述 / Problem Description**:
+codex 怎么官方购买按量付费版，公司可以付款，有没有办法直接购买企业付费版。公司要求必须要官网购买，但是没有海外卡，没有手机号，难道只能自己先购买然后报销吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210858#reply18
+
+---
+
+#### 2518. [V2EX] 中国最大的黑客松组织来 V2EX 啦！
+
+**问题描述 / Problem Description**:
+大家好！我们是 AdventureX ，中国最大的黑客松组织。最近我们正在准备一场超级酷的 Hacker 活动，我们想让国内能有更多有梦想、想改变世界的年轻人。 在 2024 年，我们搭建起了属于中国年轻人的第一场黑客松。自那以后，所有人都看见了。仅仅两年时间，Demo Day 、黑客松、工作坊在中国遍地开花。资本开始追逐年轻的梦想，所有公司开始寻找最酷的大脑。我们改变了整个中国的创新结构。 两年过去，最初的那把火没有熄灭，反而在这片土地上越烧越旺，AdventureX 的第三年，这片自由的土壤比以往任何时候都要宽广。当我们回望那一刻，我们知道某些东西已经被改变，一只蝴蝶煽动了翅膀。 我们相信
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210850#reply68
+
+---
+
+#### 2519. [V2EX] AI 编程工具大家实际使用中哪个综合下来最好用？
+
+**问题描述 / Problem Description**:
+claudecode,codex,cursor ，通义灵码，Qoder 等等..... 感觉很多测评的自媒体账号都是跟风随便乱说的， 想问问大家实际使用整体体验下来哪个最好？ 因为我们实际使用肯定要考虑性价比，效率等等各个方面
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210849#reply9
+
+---
+
+#### 2520. [V2EX] 好奇 B 站是如何追踪我的
+
+**问题描述 / Problem Description**:
+做了下面的实验： 在 iPhone 中下载 bilibili ， 未登录且未开启跟踪 的情况下刷某类冷门视频，卸载并重新安装 bilibili 后，首页的推荐出现了该类冷门视频的推荐（我这里称之为 命中 ）； 切换 WiFi 和蜂窝网络后 仍然能够成功命中推荐。系统中没有安装其他 bilibili 系的应用。 在 Android （小米）中下载了 bilibili 重复上述的 1 ，结果相似，且在设置中刷新广告 id 仍然能够命中，但在恢复出厂设置后重新安装，首页不再推荐该类视频。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210847#reply14
+
+---
+
+#### 2521. [V2EX] 如何在外面调用家里的本地算力，大佬们来个方案
+
+**问题描述 / Problem Description**:
+如何在外面调用家里的本地算力，大佬们来个方案，我玩一玩
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210806#reply20
+
+---
+
+#### 2522. [V2EX] 有人知道现在的大学生在学什么么，不会还是当年我学到 struct2 spring mvc 吧
+
+**问题描述 / Problem Description**:
+如题。学生一代又一代，老师还是那一批
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210801#reply41
+
+---
+
+#### 2523. [V2EX] 发现一个支持云同步的 Redis GUI 工具： RedisViewer
+
+**问题描述 / Problem Description**:
+我发现一个支持 WebDAV 同步的 Redis GUI 工具：RedisViewer 平时做后端开发或者运维时，Redis GUI 工具基本是刚需。 尤其是项目一多，连接配置也会越来越多：本地环境、测试环境、预发环境、生产环境，再加上不同客户、不同服务器、不同集群。时间久了之后，Redis 连接列表本身就变成了一份很重要的工作配置。 但这类工具有一个常见痛点： 换电脑、重装系统、临时用另一台设备时，Redis 连接配置又要重新配一遍。 最近我发现一个 Redis GUI 工具： RedisViewer ，它比较吸引我的一点是，除了常规 Redis 管理能力外，还支持通过 WebDAV 同步连
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210794#reply2
+
+---
+
+#### 2524. [V2EX] 长期在 github 给开源项目提 pr 的 git 规范流程是什么样的？
+
+**问题描述 / Problem Description**:
+我使用的一个开源项目工具，发现它有 bug ，于是 fork 了一份，然后 git clone 到本地，直接在 main 分支上改了一下，push 之后，然后在 github 开了一个 pr ，最终代码被 merge 了。 这个项目是 macOS 的一个 app ，只要 xcode 打开，就会改动一些配置文件。虽然 git 提交时候肯定会避免提交这些改动，而且没办法在 gitignore 中忽略它。但稍微有点影响。 另外关于 AI 工具，原作者用的 cc ，我用的 codex ，用 codex 打开后会自动生成一些 skills/ AGENTS.md 等，这些也不会提交，因为对原仓库原作者来说
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210765#reply8
+
+---
+
+#### 2525. [V2EX] 做过淘宝客，生成过淘口令的盆友进来指导一下呢
+
+**问题描述 / Problem Description**:
+帮盆友做了个微信小程序，要求能引流到他的淘宝店铺。我现在想的是用淘口令的形式，在商品详情页点击口令能复制口令引导用户到淘宝 App 识别打开店铺商品页。我看了下淘宝联盟 Api 文档，在生成淘口令时要传参“url：联盟官方渠道获取的淘客推广链接”，请问这个链接从哪能获取；第 2 问题，申请淘宝联盟 Api 要备案，我有个 PC 备案域名，但这个域名下就一个 pc 介绍页没做什么开发，请问怎么申请比较好通过
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210741#reply3
+
+---
+
+#### 2526. [V2EX] anytls 协议有什么过人之处？
+
+**问题描述 / Problem Description**:
+目前很多机场为了防通报及 ip 被墙换成了 anytls 协议，谁来讲讲 anytls 协议的过人之处？ 先说一下测试了两周的 anytls 了，3 台新 ip 机器目前没有被墙的情况。之前 vless reality 的大妈及 rn 服务器，两三天就被墙了(但不是所有大妈都被墙了，只是说被墙的概率高)。 谁来从各个解读分析评比一下 anytls 的优势？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210727#reply37
+
+---
+
+#### 2527. [V2EX] 为什么服务端应用一定要长在浏览器里？试试基于 SSH 开发“永不断线”的终端应用
+
+**问题描述 / Problem Description**:
+在这个万物皆可 Web 化的时代，我们似乎忘了终端才是程序员最亲近的 UI 。 如果你的应用（比如 AI 助手、监控工具、内网穿透）需要极致的低延迟和高稳定性，不如尝试挂在 tssh 上。 为什么是 tssh ？ 传统的 SSH 痛点：网络抖动就断线、切个 Wifi 就卡死，或休眠唤醒基本上就断了。 tsshd 是类似 mosh 的工具，底层使用 UDP (KCP / QUIC) 协议，解决了 SSH 的痛点，也解决了 mosh 的硬伤（支持滚动和端口转发等）。 同时 tsshd 也是一个 go 应用框架，你可以基于它开发各种 SSH 应用，自带 抗掉线 、 低延迟 属性： 无感重连 ：电脑合
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210713#reply51
+
+---
+
+#### 2528. [V2EX] 有没有用 coze skills 的朋友，想来一场酣畅淋漓的 talk
+
+**问题描述 / Problem Description**:
+有朋友在用 coze skills 嘛？所以 skills 是真的有买卖需求的？大家会去用付费的 skills ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210654#reply4
 
 ---
