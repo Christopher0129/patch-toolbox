@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2592**
+**总计条目 / Total entries: 2650**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -41477,5 +41477,759 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210801#reply51
+
+---
+
+#### 2593. Dirty Frag, a new copy.fail like vulnerability has been disclosed due to an embargo break
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t6lgub/dirty_frag_a_new_copyfail_like_vulnerability_has/
+
+---
+
+#### 2594. Using the free space on my home server to seed some Linux now :)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t6l8lh/using_the_free_space_on_my_home_server_to_seed/
+
+---
+
+#### 2595. Jujutsu (a Git-compatible VCS that is both simple and powerful) 0.41.0
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t6fapq/jujutsu_a_gitcompatible_vcs_that_is_both_simple/
+
+---
+
+#### 2596. Proprietary text display on a POS terminal
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t6f2si/proprietary_text_display_on_a_pos_terminal/
+
+---
+
+#### 2597. I don't get the vim hype. Am I missing something or is nano fine?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6gvqh/i_dont_get_the_vim_hype_am_i_missing_something_or/
+
+---
+
+#### 2598. Linux learning platforms
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6goyt/linux_learning_platforms/
+
+---
+
+#### 2599. Open source Hardware/Software to rival FitBit?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6m9pz/open_source_hardwaresoftware_to_rival_fitbit/
+
+---
+
+#### 2600. how to compress image to set bits per pixel using ImageMagick
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6igha/how_to_compress_image_to_set_bits_per_pixel_using/
+
+---
+
+#### 2601. Apple Music Lossless on Linux ?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6hdlr/apple_music_lossless_on_linux/
+
+---
+
+#### 2602. How do i wake up my monitor with Sunshine/Moonlight?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6h0dj/how_do_i_wake_up_my_monitor_with_sunshinemoonlight/
+
+---
+
+#### 2603. How do i solve the issue of "unable to install grub in /dev/mmcblk1"
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6gqjw/how_do_i_solve_the_issue_of_unable_to_install/
+
+---
+
+#### 2604. Ubuntu vs Linux Mint
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6fyv1/ubuntu_vs_linux_mint/
+
+---
+
+#### 2605. Ubuntu boot option disappeared from grub
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6f0dw/ubuntu_boot_option_disappeared_from_grub/
+
+---
+
+#### 2606. How to add WiFi option under Network menu?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6hpji/how_to_add_wifi_option_under_network_menu/
+
+---
+
+#### 2607. A CLI question for cmus (c*music player) users, please?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6muwj/a_cli_question_for_cmus_cmusic_player_users_please/
+
+---
+
+#### 2608. random af splash screen easter egg??
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6mka3/random_af_splash_screen_easter_egg/
+
+---
+
+#### 2609. ¿¿¿Puedo jugar mejor en Linux???
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6m8wm/puedo_jugar_mejor_en_linux/
+
+---
+
+#### 2610. How can I use my old tablet as a second monitor for my pc?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6fpkx/how_can_i_use_my_old_tablet_as_a_second_monitor/
+
+---
+
+#### 2611. Split Screen Multi-User
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6lsh7/split_screen_multiuser/
+
+---
+
+#### 2612. ALSA remap channel (CSL 7.1 USB soundcard) using 5.1 sound
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6lfb5/alsa_remap_channel_csl_71_usb_soundcard_using_51/
+
+---
+
+#### 2613. ALSA remap channel (CSL 7.1 USB soundcard) using 5.1 sound
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6lelf/alsa_remap_channel_csl_71_usb_soundcard_using_51/
+
+---
+
+#### 2614. Trying to calibrate a touchscreen monitor on a NexDock in Linux on Wayland. I cannot seem to get accurate values for the LIBINPUT_CALIBRATION_MATRIX. The program weston-calibrator seems nice but produces bad numbers for me.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6kl8h/trying_to_calibrate_a_touchscreen_monitor_on_a/
+
+---
+
+#### 2615. Ubuntu is so fun
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6j2m7/ubuntu_is_so_fun/
+
+---
+
+#### 2616. simple ubuntu logo wallpapers
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6f8h4/simple_ubuntu_logo_wallpapers/
+
+---
+
+#### 2617. APTUI is v0.8
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6igb9/aptui_is_v08/
+
+---
+
+#### 2618. Ubuntu on old notebook
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6nhqf/ubuntu_on_old_notebook/
+
+---
+
+#### 2619. Night light unavailable?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6idw3/night_light_unavailable/
+
+---
+
+#### 2620. Adding ppa repo in 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6h1vw/adding_ppa_repo_in_2604/
+
+---
+
+#### 2621. Mozilla VPN on 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6gip4/mozilla_vpn_on_2604/
+
+---
+
+#### 2622. Obsidian and Ubuntu 26.04 Broken Directory Links. İs it same for official .deb installation?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6myns/obsidian_and_ubuntu_2604_broken_directory_links/
+
+---
+
+#### 2623. Ubuntu24.04 : "Unable to mount root fs on unknown-block(0.0)"
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6f607/ubuntu2404_unable_to_mount_root_fs_on/
+
+---
+
+#### 2624. mbp Fan??
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6nlmb/mbp_fan/
+
+---
+
+#### 2625. Unable to install Ubuntu 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6kmap/unable_to_install_ubuntu_2604/
+
+---
+
+#### 2626. finally gameloop in ubuntu 26.4
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6k32c/finally_gameloop_in_ubuntu_264/
+
+---
+
+#### 2627. Migrating Windows->Kubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6jo82/migrating_windowskubuntu/
+
+---
+
+#### 2628. The best way to use Linux.
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6o45b/the_best_way_to_use_linux/
+
+---
+
+#### 2629. Kubuntu or Mint?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6meik/kubuntu_or_mint/
+
+---
+
+#### 2630. Linux distro for music producing
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6k5wb/linux_distro_for_music_producing/
+
+---
+
+#### 2631. How to install things not in the software manager
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6p18p/how_to_install_things_not_in_the_software_manager/
+
+---
+
+#### 2632. Is there a way to have Plasma load as the DE while using XRDP?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6odrl/is_there_a_way_to_have_plasma_load_as_the_de/
+
+---
+
+#### 2633. What Linux distro do you suggest?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6hlh2/what_linux_distro_do_you_suggest/
+
+---
+
+#### 2634. Anyone know how to enter the advance bios in a Hp laptop
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6npn5/anyone_know_how_to_enter_the_advance_bios_in_a_hp/
+
+---
+
+#### 2635. Linux starter project for learning *why* abstractions exist?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6g701/linux_starter_project_for_learning_why/
+
+---
+
+#### 2636. Puedo jugar mejor en Linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6maux/puedo_jugar_mejor_en_linux/
+
+---
+
+#### 2637. Any linux alternatives for Armoury crate?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6lker/any_linux_alternatives_for_armoury_crate/
+
+---
+
+#### 2638. Bazzite in read only mode.
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6kmt9/bazzite_in_read_only_mode/
+
+---
+
+#### 2639. Keyboard backlight not working on linux. (Bazzite)
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6iv1l/keyboard_backlight_not_working_on_linux_bazzite/
+
+---
+
+#### 2640. First time using Niri and am a little overwhelmed
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6ibjf/first_time_using_niri_and_am_a_little_overwhelmed/
+
+---
+
+#### 2641. PC running but no monitor signal (was working)
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6h25i/pc_running_but_no_monitor_signal_was_working/
+
+---
+
+#### 2642. Can't use Mangohud
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6gzbn/cant_use_mangohud/
+
+---
+
+#### 2643. Swapped from nvidia-open to nvidia-open-dkms and now vulkan applications wont work
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6gy0z/swapped_from_nvidiaopen_to_nvidiaopendkms_and_now/
+
+---
+
+#### 2644. Confused about system time in firejail
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6gk0y/confused_about_system_time_in_firejail/
+
+---
+
+#### 2645. Having difficulties with AX300 drivers.
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6gcxk/having_difficulties_with_ax300_drivers/
+
+---
+
+#### 2646. A small macOS CLI that blocks YouTube system-wide using /etc/hosts and PF
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t6hzmo/a_small_macos_cli_that_blocks_youtube_systemwide/
+
+---
+
+#### 2647. [V2EX] 五一回来，发现网页版的谷歌 ai ,Gemini 等都被风控了怎么破？
+
+**问题描述 / Problem Description**:
+之前日常问简单问题都用网页版的 Gemini 等，因为他免费（都问收费的消耗不起，这个干脏活的吧），而且准确，因为我拒绝国产豆包，千问等国货，国货效果不好 这次打开无痕模式，开梯子 tun 模式代理都新加坡均还是被风控制 不太清楚是不是我的账号的问题，比如我绑的手机号是大陆，然后用户画像说我是 china 也有传言说因为我使用的语言是简体中文，或者其他 总之大家说说看怎么能解除谷歌的风控吧？ 或者大家想想其他的平替？我日常也会用 opencode 的免费模型来刷刷，但效果就一般，不及谷歌
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210859#reply11
+
+---
+
+#### 2648. [V2EX] codex 怎么官方购买按量付费版-企业付费
+
+**问题描述 / Problem Description**:
+codex 怎么官方购买按量付费版，公司可以付款，有没有办法直接购买企业付费版。公司要求必须要官网购买，但是没有海外卡，没有手机号，难道只能自己先购买然后报销吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210858#reply21
+
+---
+
+#### 2649. [V2EX] AI 编程工具大家实际使用中哪个综合下来最好用？
+
+**问题描述 / Problem Description**:
+claudecode,codex,cursor ，通义灵码，Qoder 等等..... 感觉很多测评的自媒体账号都是跟风随便乱说的， 想问问大家实际使用整体体验下来哪个最好？ 因为我们实际使用肯定要考虑性价比，效率等等各个方面
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210849#reply20
+
+---
+
+#### 2650. [V2EX] anytls 协议有什么过人之处？
+
+**问题描述 / Problem Description**:
+目前很多机场为了防通报及 ip 被墙换成了 anytls 协议，谁来讲讲 anytls 协议的过人之处？ 先说一下测试了两周的 anytls 了，3 台新 ip 机器目前没有被墙的情况。之前 vless reality 的大妈及 rn 服务器，两三天就被墙了(但不是所有大妈都被墙了，只是说被墙的概率高)。 谁来从各个解读分析评比一下 anytls 的优势？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210727#reply45
 
 ---

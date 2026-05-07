@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1201**
+**总计条目 / Total entries: 1244**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -21801,5 +21801,849 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8250-1
+
+---
+
+#### 1202. [Ubuntu] USN-8259-1: OpenEXR vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Quang Luong discovered that OpenEXR incorrectly handled sample count accumulation when processing deep scan line image files. An attacker could possibly use this issue to cause OpenEXR to crash, resulting in a denial of service, or execute arbitrary code. (CVE-2026-27622) It was discovered that OpenEXR had an integer overflow in the PXR24 decoder. An attacker could possibly use this issue to cause
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8259-1
+
+---
+
+#### 1203. [Ubuntu] USN-8256-1: opam vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Andrew Nesbitt discovered that opam did not properly validate file destination paths in package install files. An attacker could use this issue to bypass sandbox protections and write files to arbitrary locations, possibly leading to arbitrary code execution.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8256-1
+
+---
+
+#### 1204. [Ubuntu] USN-8246-1: Vim vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Michał Majchrowicz discovered that Vim’s zip plugin could overwrite arbitrary files. An attacker could possibly use this issue to delete sensitive data or execute arbitrary code. This issue only affected Ubuntu 26.04 LTS. (CVE-2026-35177) It was discovered that Vim’s netbeans interface did not properly sanitize certain strings. An attacker could possibly use this issue to execute arbitrary command
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8246-1
+
+---
+
+#### 1205. CVE-2006-7176
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+**受影响产品 / Affected Products**: sendmail:sendmail, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The version of Sendmail 8.13.1-2 on Red Hat Enterprise Linux 4 Update 4 and earlier does not reject the "localhost.localdomain" domain name for e-mail messages that come from external hosts, which might allow remote attackers to spoof messages.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/25098.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/25098
+- http://secunia.com/advisories/25743
+- http://support.avaya.com/elmodocs2/security/ASA-2007-248.htm
+- http://www.redhat.com/support/errata/RHSA-2007-0252.html
+- http://www.securityfocus.com/bid/23742
+
+---
+
+#### 1206. CVE-2007-0773
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: redhat:enterprise_linux_desktop, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The Linux kernel before 2.6.9-42.0.8 in Red Hat 4.4 allows local users to cause a denial of service (kernel OOPS from null dereference) via fput in a 32-bit ioctl on 64-bit x86 systems, an incomplete fix of CVE-2005-3044.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=243252.
+
+**参考链接 / References**:
+- http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=243252
+- http://osvdb.org/37128
+- http://rhn.redhat.com/errata/RHSA-2007-0488.html
+- http://secunia.com/advisories/25838
+- http://secunia.com/advisories/26289
+
+---
+
+#### 1207. CVE-2007-3104
+
+**严重程度 / Severity**: N/A | CVSS: 4.9
+**受影响产品 / Affected Products**: redhat:enterprise_linux, linux:linux_kernel
+
+**漏洞描述 / Description**:
+The sysfs_readdir function in the Linux kernel 2.6, as used in Red Hat Enterprise Linux (RHEL) 4.5 and other distributions, allows users to cause a denial of service (kernel OOPS) by dereferencing a null pointer to an inode in a dentry.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=242558.
+
+**参考链接 / References**:
+- http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=242558
+- http://lists.opensuse.org/opensuse-security-announce/2007-12/msg00001.html
+- http://osvdb.org/37115
+- http://rhn.redhat.com/errata/RHSA-2007-0488.html
+- http://secunia.com/advisories/25771
+
+---
+
+#### 1208. CVE-2007-3908
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: hp:cluster_object_manager, hp:serviceguard
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in HP ServiceGuard for Linux for Red Hat Enterprise Linux (RHEL) 2.1 SG A.11.14.04 through A.11.14.06; RHEL 3.0 SG A.11.16.04 through A.11.16.10; and ServiceGuard Cluster Object Manager B.03.01.02 allows local users to gain privileges via unspecified vectors, a different vulnerability than CVE-2007-0980.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/38159.
+
+**参考链接 / References**:
+- http://osvdb.org/38159
+- http://secunia.com/advisories/26051
+- http://securityreason.com/securityalert/2907
+- http://www.securityfocus.com/archive/1/473783/100/0/threaded
+- http://www.securityfocus.com/bid/24920
+
+---
+
+#### 1209. CVE-2007-4132
+
+**严重程度 / Severity**: N/A | CVSS: 6.5
+**受影响产品 / Affected Products**: redhat:network_satelite_server
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Red Hat Network Satellite Server 5.0.0 allows remote authenticated users to execute arbitrary code via unknown vectors in a "back-end XMLRPC handler."
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/40438.
+
+**参考链接 / References**:
+- http://osvdb.org/40438
+- http://secunia.com/advisories/26687
+- http://www.redhat.com/support/errata/RHSA-2007-0868.html
+- http://www.securityfocus.com/bid/25490
+- http://www.securitytracker.com/id?1018626
+
+---
+
+#### 1210. CVE-2007-3849
+
+**严重程度 / Severity**: N/A | CVSS: 1.9
+**受影响产品 / Affected Products**: redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+Red Hat Enterprise Linux (RHEL) 5 ships the rpm for the Advanced Intrusion Detection Environment (AIDE) before 0.13.1 with a database that lacks checksum information, which allows context-dependent attackers to bypass file integrity checks and modify certain files.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/40439.
+
+**参考链接 / References**:
+- http://osvdb.org/40439
+- http://secunia.com/advisories/26711
+- http://www.redhat.com/support/errata/RHSA-2007-0539.html
+- http://www.securityfocus.com/bid/25542
+- http://www.securitytracker.com/id?1018652
+
+---
+
+#### 1211. CVE-2007-3379
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: redhat:linux, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in the kernel in Red Hat Enterprise Linux (RHEL) 4 on the x86_64 platform allows local users to cause a denial of service (OOPS) via unspecified vectors related to the get_gate_vma function and the fuser command.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHBA-2007-0304.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHBA-2007-0304.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=178981
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A10426
+- http://rhn.redhat.com/errata/RHBA-2007-0304.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=178981
+
+---
+
+#### 1212. CVE-2007-0004
+
+**严重程度 / Severity**: N/A | CVSS: 1.9
+**受影响产品 / Affected Products**: redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The NFS client implementation in the kernel in Red Hat Enterprise Linux (RHEL) 3, when a filesystem is mounted with the noacl option, checks permissions for the open system call via vfs_permission (mode bits) data rather than an NFS ACCESS call to the server, which allows local client processes to obtain a false success status from open calls that the server would deny, and possibly obtain sensitive information about file permissions on the server, as demonstrated in a root_squash environment.  NOTE: it is uncertain whether any scenarios involving this issue cross privilege boundaries.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.redhat.com/show_bug.cgi?id=199715.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=199715
+- https://bugzilla.redhat.com/show_bug.cgi?id=199715
+
+---
+
+#### 1213. CVE-2007-1865
+
+**严重程度 / Severity**: N/A | CVSS: 1.9
+**受影响产品 / Affected Products**: redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The ipv6_getsockopt_sticky function in the kernel in Red Hat Enterprise Linux (RHEL) Beta 5.1.0 allows local users to obtain sensitive information (kernel memory contents) via a negative value of the len parameter.  NOTE: this issue has been disputed in a bug comment, stating that "len is ignored when copying header info to the user's buffer.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/45909.
+
+**参考链接 / References**:
+- http://osvdb.org/45909
+- https://bugzilla.redhat.com/show_bug.cgi?id=232045
+- http://osvdb.org/45909
+- https://bugzilla.redhat.com/show_bug.cgi?id=232045
+
+---
+
+#### 1214. CVE-2007-5079
+
+**严重程度 / Severity**: N/A | CVSS: 6.0
+**受影响产品 / Affected Products**: redhat:linux
+
+**漏洞描述 / Description**:
+Red Hat Enterprise Linux 4 does not properly compile and link gdm with tcp_wrappers on x86_64 platforms, which might allow remote attackers to bypass intended access restrictions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.redhat.com/support/errata/RHSA-2010-0657.html.
+
+**参考链接 / References**:
+- http://www.redhat.com/support/errata/RHSA-2010-0657.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=181302
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/36791
+- http://www.redhat.com/support/errata/RHSA-2010-0657.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=181302
+
+---
+
+#### 1215. CVE-2007-4574
+
+**严重程度 / Severity**: N/A | CVSS: 4.7
+**受影响产品 / Affected Products**: amd:amd64, intel:ia64, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in the "stack unwinder fixes" in kernel in Red Hat Enterprise Linux 5, when running on AMD64 and Intel 64, allows local users to cause a denial of service via unknown vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/45489.
+
+**参考链接 / References**:
+- http://osvdb.org/45489
+- http://secunia.com/advisories/27322
+- http://securitytracker.com/id?1018844
+- http://www.redhat.com/support/errata/RHSA-2007-0940.html
+- http://www.securityfocus.com/bid/26158
+
+---
+
+#### 1216. CVE-2007-4994
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: redhat:certificate_server
+
+**漏洞描述 / Description**:
+Certificate Server 7.2 in Red Hat Certificate System (RHCS) does not properly handle new revocations that occur while a Certificate Revocation List (CRL) is being generated, which might prevent certain revoked certificates from appearing on the CRL quickly and allow users with revoked certificates to bypass the intended CRL.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/40440.
+
+**参考链接 / References**:
+- http://osvdb.org/40440
+- http://secunia.com/advisories/27557
+- http://www.redhat.com/support/errata/RHSA-2007-0934.html
+- http://www.securityfocus.com/bid/26377
+- http://www.securitytracker.com/id?1020532
+
+---
+
+#### 1217. CVE-2007-4136
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: redhat:conga
+
+**漏洞描述 / Description**:
+The ricci daemon in Red Hat Conga 0.10.0 allows remote attackers to cause a denial of service (loss of new connections) by repeatedly sending data or attempting connections.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2007-0640.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2007-0640.html
+- http://secunia.com/advisories/27611
+- http://securitytracker.com/id?1018921
+- http://www.securityfocus.com/bid/26393
+- https://bugzilla.redhat.com/show_bug.cgi?id=336101
+
+---
+
+#### 1218. CVE-2007-5494
+
+**严重程度 / Severity**: N/A | CVSS: 4.9
+**受影响产品 / Affected Products**: redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+Memory leak in the Red Hat Content Accelerator kernel patch in Red Hat Enterprise Linux (RHEL) 4 and 5 allows local users to cause a denial of service (memory consumption) via a large number of open requests involving O_ATOMICLOOKUP.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/44153.
+
+**参考链接 / References**:
+- http://osvdb.org/44153
+- http://secunia.com/advisories/27824
+- http://secunia.com/advisories/28162
+- http://www.redhat.com/support/errata/RHSA-2007-0993.html
+- http://www.redhat.com/support/errata/RHSA-2007-1104.html
+
+---
+
+#### 1219. CVE-2007-5964
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+**受影响产品 / Affected Products**: redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The default configuration of autofs 5 in some Linux distributions, such as Red Hat Enterprise Linux (RHEL) 5, omits the nosuid option for the hosts (/net filesystem) map, which allows local users to gain privileges via a setuid program on a remote NFS server.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/40441.
+
+**参考链接 / References**:
+- http://osvdb.org/40441
+- http://secunia.com/advisories/28052
+- http://secunia.com/advisories/28097
+- http://secunia.com/advisories/28456
+- http://securitytracker.com/id?1019087
+
+---
+
+#### 1220. CVE-2007-6285
+
+**严重程度 / Severity**: N/A | CVSS: 6.2
+**受影响产品 / Affected Products**: redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The default configuration for autofs 5 (autofs5) in some Linux distributions, such as Red Hat Enterprise Linux (RHEL) 4 and 5, does not specify the nodev mount option for the -hosts map, which allows local users to access "important devices" by operating a remote NFS server and creating special device files on that server, as demonstrated by the /dev/mem device.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/40442.
+
+**参考链接 / References**:
+- http://osvdb.org/40442
+- http://rhn.redhat.com/errata/RHSA-2007-1176.html
+- http://rhn.redhat.com/errata/RHSA-2007-1177.html
+- http://secunia.com/advisories/28156
+- http://secunia.com/advisories/28168
+
+---
+
+#### 1221. CVE-2007-4130
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: redhat:enterprise_linux_desktop, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The Linux kernel 2.6.9 before 2.6.9-67 in Red Hat Enterprise Linux (RHEL) 4 on Itanium (ia64) does not properly handle page faults during NUMA memory access, which allows local users to cause a denial of service (panic) via invalid arguments to set_mempolicy in an MPOL_BIND operation.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2008-0055.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2008-0055.html
+- http://secunia.com/advisories/28748
+- http://www.securityfocus.com/bid/27556
+- https://bugzilla.redhat.com/show_bug.cgi?id=179665
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A11437
+
+---
+
+#### 1222. CVE-2008-1198
+
+**严重程度 / Severity**: N/A | CVSS: 7.1
+**受影响产品 / Affected Products**: redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The default IPSec ifup script in Red Hat Enterprise Linux 3 through 5 configures racoon to use aggressive IKE mode instead of main IKE mode, which makes it easier for remote attackers to conduct brute force attacks by sniffing an unencrypted preshared key (PSK) hash.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/48045.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/48045
+- http://www.ernw.de/download/pskattack.pdf
+- http://www.securitytracker.com/id?1019563
+- https://bugzilla.redhat.com/show_bug.cgi?id=435274
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/41053
+
+---
+
+#### 1223. CVE-2008-0890
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: redhat:directory_server
+
+**漏洞描述 / Description**:
+Red Hat Directory Server 7.1 before SP4 uses insecure permissions for certain directories, which allows local users to modify JAR files and execute arbitrary code via unknown vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/29350.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/29350
+- http://www.redhat.com/support/errata/RHSA-2008-0173.html
+- http://www.securityfocus.com/bid/28204
+- http://www.securitytracker.com/id?1019577
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/41152
+
+---
+
+#### 1224. CVE-2008-0889
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: redhat:directory_server, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+Red Hat Directory Server 8.0, when running on Red Hat Enterprise Linux, uses insecure permissions for the redhat-idm-console script, which allows local users to execute arbitrary code by modifying the script.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/29482.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/29482
+- http://www.redhat.com/support/errata/RHSA-2008-0191.html
+- http://www.securityfocus.com/bid/28327
+- http://www.securitytracker.com/id?1019677
+- http://secunia.com/advisories/29482
+
+---
+
+#### 1225. CVE-2008-0884
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+**受影响产品 / Affected Products**: redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The Replace function in the capp-lspp-config script in the (1) lspp-eal4-config-ibm and (2) capp-lspp-eal4-config-hp packages before 0.65-2 in Red Hat Enterprise Linux (RHEL) 5 uses lstat instead of stat to determine the /etc/pam.d/system-auth file permissions, leading to a change to world-writable permissions for the /etc/pam.d/system-auth-ac file, which allows local users to gain privileges by modifying this file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2008-0193.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2008-0193.html
+- http://secunia.com/advisories/29642
+- http://securitytracker.com/id?1019740
+- http://www.securityfocus.com/bid/28557
+- https://bugzilla.redhat.com/show_bug.cgi?id=435442
+
+---
+
+#### 1226. CVE-2008-1374
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+**受影响产品 / Affected Products**: apple:cups
+
+**漏洞描述 / Description**:
+Integer overflow in pdftops filter in CUPS in Red Hat Enterprise Linux 3 and 4, when running on 64-bit platforms, allows remote attackers to execute arbitrary code via a crafted PDF file.  NOTE: this issue is due to an incomplete fix for CVE-2004-0888.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/29630.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/29630
+- http://secunia.com/advisories/31388
+- http://wiki.rpath.com/wiki/Advisories:rPSA-2008-0245
+- http://www.redhat.com/support/errata/RHSA-2008-0206.html
+- http://www.securityfocus.com/archive/1/495164/100/0/threaded
+
+---
+
+#### 1227. CVE-2008-0892
+
+**严重程度 / Severity**: N/A | CVSS: 9.0
+**受影响产品 / Affected Products**: redhat:fedora_directory_server, redhat:directory_server
+
+**漏洞描述 / Description**:
+The replication monitor CGI script (repl-monitor-cgi.pl) in Red Hat Administration Server, as used by Red Hat Directory Server 8.0 EL4 and EL5, allows remote attackers to execute arbitrary commands.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c01433676.
+
+**参考链接 / References**:
+- http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c01433676
+- http://secunia.com/advisories/29761
+- http://secunia.com/advisories/29826
+- http://secunia.com/advisories/30114
+- http://www.redhat.com/support/errata/RHSA-2008-0199.html
+
+---
+
+#### 1228. CVE-2008-0893
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: redhat:directory_server
+
+**漏洞描述 / Description**:
+Red Hat Administration Server, as used by Red Hat Directory Server 8.0 EL4 and EL5, does not properly restrict access to CGI scripts, which allows remote attackers to perform administrative actions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/29761.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/29761
+- http://secunia.com/advisories/29826
+- http://www.redhat.com/support/errata/RHSA-2008-0201.html
+- http://www.securityfocus.com/bid/28802
+- http://www.securitytracker.com/id?1019857
+
+---
+
+#### 1229. CVE-2008-1677
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: redhat:fedora_directory_server, redhat:directory_server
+
+**漏洞描述 / Description**:
+Buffer overflow in the regular expression handler in Red Hat Directory Server 8.0 and 7.1 before SP6 allows remote attackers to cause a denial of service (slapd crash) and possibly execute arbitrary code via a crafted LDAP query that triggers the overflow during translation to a regular expression.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/30181.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/30181
+- http://secunia.com/advisories/30185
+- http://www.redhat.com/support/errata/RHSA-2008-0268.html
+- http://www.redhat.com/support/errata/RHSA-2008-0269.html
+- http://www.securityfocus.com/bid/29126
+
+---
+
+#### 1230. CVE-2007-5961
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+**受影响产品 / Affected Products**: redhat:network_satellite
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in the Red Hat Network channel search feature, as used in RHN and Red Hat Network Satellite before 5.0.2, allows remote attackers to inject arbitrary web script or HTML via unknown vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/45765.
+
+**参考链接 / References**:
+- http://osvdb.org/45765
+- http://www.redhat.com/support/errata/RHSA-2008-0261.html
+- http://www.securitytracker.com/id?1020051
+- https://bugzilla.redhat.com/show_bug.cgi?id=396641
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/42559
+
+---
+
+#### 1231. CVE-2008-1036
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+**受影响产品 / Affected Products**: apple:mac_os_x_server, apple:mac_os_x, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The International Components for Unicode (ICU) library in Apple Mac OS X before 10.5.3, Red Hat Enterprise Linux 5, and other operating systems omits some invalid character sequences during conversion of some character encodings, which might allow remote attackers to conduct cross-site scripting (XSS) attacks.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2008//May/msg00001.html.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2008//May/msg00001.html
+- http://secunia.com/advisories/30430
+- http://secunia.com/advisories/34290
+- http://secunia.com/advisories/34777
+- http://securitytracker.com/id?1020139
+
+---
+
+#### 1232. CVE-2008-2366
+
+**严重程度 / Severity**: N/A | CVSS: 4.4
+**受影响产品 / Affected Products**: redhat:enterprise_linux, openoffice:openoffice
+
+**漏洞描述 / Description**:
+Untrusted search path vulnerability in a certain Red Hat build script for OpenOffice.org (OOo) 1.1.x on Red Hat Enterprise Linux (RHEL) 3 and 4 allows local users to gain privileges via a malicious library in the current working directory, related to incorrect quoting of the ORIGIN symbol for use in the RPATH library path.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/30633.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/30633
+- http://securitytracker.com/id?1020278
+- http://www.redhat.com/support/errata/RHSA-2008-0538.html
+- http://www.securityfocus.com/bid/29695
+- https://bugzilla.redhat.com/show_bug.cgi?id=450532
+
+---
+
+#### 1233. CVE-2008-1951
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+Untrusted search path vulnerability in a certain Red Hat build script for Standards Based Linux Instrumentation for Manageability (sblim) libraries before 1-13a.el4_6.1 in Red Hat Enterprise Linux (RHEL) 4, and before 1-31.el5_2.1 in RHEL 5, allows local users to gain privileges via a malicious library in a certain subdirectory of /var/tmp, related to an incorrect RPATH setting, as demonstrated by a malicious libc.so library for tog-pegasus.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/30803.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/30803
+- http://www.securityfocus.com/bid/29913
+- http://www.securitytracker.com/id?1020354
+- https://bugzilla.redhat.com/show_bug.cgi?id=447705
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/43315
+
+---
+
+#### 1234. CVE-2008-2365
+
+**严重程度 / Severity**: N/A | CVSS: 4.7
+**受影响产品 / Affected Products**: redhat:enterprise_linux_desktop, redhat:enterprise_linux, linux:linux_kernel
+
+**漏洞描述 / Description**:
+Race condition in the ptrace and utrace support in the Linux kernel 2.6.9 through 2.6.25, as used in Red Hat Enterprise Linux (RHEL) 4, allows local users to cause a denial of service (oops) via a long series of PTRACE_ATTACH ptrace calls to another user's process that trigger a conflict between utrace_detach and report_quiescent, related to "late ptrace_may_attach() check" and "race around &dead_engine_ops setting," a different vulnerability than CVE-2007-0771 and CVE-2008-1514.  NOTE: this issue might only affect kernel versions before 2.6.16.x.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.25.y.git%3Ba=commit%3Bh=5ecfbae093f0c37311e89b29bfc0c9d586eace87.
+
+**参考链接 / References**:
+- http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.25.y.git%3Ba=commit%3Bh=5ecfbae093f0c37311e89b29bfc0c9d586eace87
+- http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.25.y.git%3Ba=commit%3Bh=f358166a9405e4f1d8e50d8f415c26d95505b6de
+- http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.25.y.git%3Ba=commit%3Bh=f5b40e363ad6041a96e3da32281d8faa191597b9
+- http://marc.info/?l=linux-kernel&m=117863520707703&w=2
+- http://rhn.redhat.com/errata/RHSA-2008-0508.html
+
+---
+
+#### 1235. CVE-2008-1676
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: netscape:certificate_management_system, redhat:certificate_system
+
+**漏洞描述 / Description**:
+Red Hat PKI Common Framework (rhpki-common) in Red Hat Certificate System (aka Certificate Server or RHCS) 7.1 through 7.3, and Netscape Certificate Management System 6.x, does not recognize Certificate Authority profile constraints on Extensions, which might allow remote attackers to bypass intended restrictions and conduct man-in-the-middle attacks by submitting a certificate signing request (CSR) and using the resulting certificate.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2008-0500.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2008-0500.html
+- http://rhn.redhat.com/errata/RHSA-2008-0577.html
+- http://secunia.com/advisories/30929
+- http://www.securityfocus.com/bid/30062
+- http://www.securitytracker.com/id?1020427
+
+---
+
+#### 1236. CVE-2008-2375
+
+**严重程度 / Severity**: N/A | CVSS: 7.1
+**受影响产品 / Affected Products**: redhat:vsftpd, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+Memory leak in a certain Red Hat deployment of vsftpd before 2.0.5 on Red Hat Enterprise Linux (RHEL) 3 and 4, when PAM is used, allows remote attackers to cause a denial of service (memory consumption) via a large number of invalid authentication attempts within the same session, a different vulnerability than CVE-2007-5962.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/31007.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/31007
+- http://secunia.com/advisories/31223
+- http://secunia.com/advisories/32263
+- http://support.avaya.com/elmodocs2/security/ASA-2008-398.htm
+- http://wiki.rpath.com/Advisories:rPSA-2008-0217
+
+---
+
+#### 1237. CVE-2008-1376
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: redhat:nfs_utils, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+A certain Red Hat build script for nfs-utils before 1.0.9-35z.el5_2 on Red Hat Enterprise Linux (RHEL) 5 omits TCP wrappers support, which might allow remote attackers to bypass intended access restrictions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/31322.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/31322
+- http://secunia.com/advisories/35162
+- http://www.redhat.com/support/errata/RHSA-2008-0486.html
+- http://www.redhat.com/support/errata/RHSA-2009-0955.html
+- http://www.securityfocus.com/bid/30466
+
+---
+
+#### 1238. CVE-2008-2369
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.1
+**受影响产品 / Affected Products**: redhat:satellite
+
+**漏洞描述 / Description**:
+manzier.pxt in Red Hat Network Satellite Server before 5.1.1 has a hard-coded authentication key, which allows remote attackers to connect to the server and obtain sensitive information about user accounts and entitlements.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2008-0630.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2008-0630.html
+- http://secunia.com/advisories/31493
+- http://securitytracker.com/id?1020694
+- http://www.securityfocus.com/bid/30679
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/44452
+
+---
+
+#### 1239. CVE-2008-3270
+
+**严重程度 / Severity**: N/A | CVSS: 2.6
+**受影响产品 / Affected Products**: redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+yum-rhn-plugin in Red Hat Enterprise Linux (RHEL) 5 does not verify the SSL certificate for a file download from a Red Hat Network (RHN) server, which makes it easier for remote man-in-the-middle attackers to cause a denial of service (loss of updates) or force the download and installation of official Red Hat packages that were not requested.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/31472.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/31472
+- http://securitytracker.com/id?1020698
+- http://www.redhat.com/support/errata/RHSA-2008-0815.html
+- http://www.securityfocus.com/bid/30695
+- https://bugzilla.redhat.com/show_bug.cgi?id=457113
+
+---
+
+#### 1240. CVE-2008-3844
+
+**严重程度 / Severity**: N/A | CVSS: 9.3
+**受影响产品 / Affected Products**: openbsd:openssh, redhat:enterprise_linux_desktop, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+Certain Red Hat Enterprise Linux (RHEL) 4 and 5 packages for OpenSSH, as signed in August 2008 using a legitimate Red Hat GPG key, contain an externally introduced modification (Trojan Horse) that allows the package authors to have an unknown impact.  NOTE: since the malicious packages were not distributed from any official Red Hat sources, the scope of this issue is restricted to users who may have obtained these packages through unofficial distribution points.  As of 20080827, no unofficial distributions of this software are known.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/31575.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/31575
+- http://secunia.com/advisories/32241
+- http://securitytracker.com/id?1020730
+- http://support.avaya.com/elmodocs2/security/ASA-2008-399.htm
+- http://www.redhat.com/security/data/openssh-blacklist.html
+
+---
+
+#### 1241. CVE-2008-2928
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: redhat:directory_server
+
+**漏洞描述 / Description**:
+Multiple buffer overflows in the adminutil library in CGI applications in Red Hat Directory Server 7.1 before SP7 allow remote attackers to cause a denial of service (daemon crash) or possibly execute arbitrary code via a crafted Accept-Language HTTP header.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c01532861.
+
+**参考链接 / References**:
+- http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c01532861
+- http://secunia.com/advisories/31565
+- http://secunia.com/advisories/31702
+- http://secunia.com/advisories/31777
+- http://securitytracker.com/id?1020771
+
+---
+
+#### 1242. CVE-2008-3274
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: redhat:enterprise_ipa, redhat:freeipa
+
+**漏洞描述 / Description**:
+The default configuration of Red Hat Enterprise IPA 1.0.0 and FreeIPA before 1.1.1 places ldap:///anyone on the read ACL for the krbMKey attribute, which allows remote attackers to obtain the Kerberos master key via an anonymous LDAP query.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://git.fedorahosted.org/git/freeipa.git/?p=freeipa.git%3Ba=commit%3Bh=9932887f2af38b9701efec27707648c026ec445c.
+
+**参考链接 / References**:
+- http://git.fedorahosted.org/git/freeipa.git/?p=freeipa.git%3Ba=commit%3Bh=9932887f2af38b9701efec27707648c026ec445c
+- http://rhn.redhat.com/errata/RHSA-2008-0860.html
+- http://secunia.com/advisories/31861
+- http://www.freeipa.org/page/CVE-2008-3274
+- http://www.freeipa.org/page/Downloads
+
+---
+
+#### 1243. CVE-2008-3519
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+**受影响产品 / Affected Products**: redhat:jboss_enterprise_application_platform
+
+**漏洞描述 / Description**:
+The default configuration of the JBossAs component in Red Hat JBoss Enterprise Application Platform (aka JBossEAP or EAP), possibly 4.2 before CP04 and 4.3 before CP02, when a production environment is enabled, sets the DownloadServerClasses property to true, which allows remote attackers to obtain sensitive information (non-EJB classes) via a download request, a different vulnerability than CVE-2008-3273.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=458823.
+
+**参考链接 / References**:
+- http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=458823
+- http://www.redhat.com/docs/en-US/JBoss_Enterprise_Application_Platform/4.2.0.cp04/html-single/readme/index.html
+- http://www.redhat.com/docs/en-US/JBoss_Enterprise_Application_Platform/4.3.0.cp02/html-single/readme/index.html
+- http://www.redhat.com/support/errata/RHSA-2008-0831.html
+- http://www.redhat.com/support/errata/RHSA-2008-0832.html
+
+---
+
+#### 1244. CVE-2008-3825
+
+**严重程度 / Severity**: N/A | CVSS: 4.4
+**受影响产品 / Affected Products**: redhat:enterprise_linux_desktop, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+pam_krb5 2.2.14 in Red Hat Enterprise Linux (RHEL) 5 and earlier, when the existing_ticket option is enabled, uses incorrect privileges when reading a Kerberos credential cache, which allows local users to gain privileges by setting the KRB5CCNAME environment variable to an arbitrary cache filename and running the (1) su or (2) sudo program. NOTE: there may be a related vector involving sshd that has limited relevance.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2008-12/msg00002.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2008-12/msg00002.html
+- http://secunia.com/advisories/32119
+- http://secunia.com/advisories/32135
+- http://secunia.com/advisories/32174
+- http://secunia.com/advisories/43314
 
 ---

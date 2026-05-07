@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3279**
+**总计条目 / Total entries: 3350**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -48390,5 +48390,928 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210830#reply1
+
+---
+
+#### 3280. Can I disable a computers Wi-Fi/Bluetooth on shutdown until manual reactivation by the user?
+
+**问题描述 / Problem Description**:
+Tags: windows, wireless-networking, bluetooth | Score: 2 | Views: 55 | Answers: 1 | Created: 2026-05-07
+
+**解决方案 / Solution**:
+To shut all radio connections (both WiFi and Bluetooth), effectively putting the device in Airplane Mode, disable Radio Management Service (RmSvc) . This can be done with a simple Registry script that changes HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RmSvc Startup Type (enum ServiceStartMode) to 4 . Once that script's runs, and the machine's rebooted, no wireless connections would be available until a Registry script reverting the service to default Manual start ( 3 ) is run, (and Airplane Mode is disabled, if on ). This has the advantage of removing control from the user unless that user has Admin rights.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937414/can-i-disable-a-computers-wi-fi-bluetooth-on-shutdown-until-manual-reactivation
+
+---
+
+#### 3281. Firefox Windows GPO: ExtensionSettings fails to parse
+
+**问题描述 / Problem Description**:
+Tags: windows, firefox, group-policy | Score: 1 | Views: 27 | Answers: 1 | Created: 2026-05-07
+
+**解决方案 / Solution**:
+I may have figured out what the issue is. Firefox seems to be very particular about whitespaces and linebreaks. The above code I gave uses \r\n as line break. Firefox seems to only like \n. So currently, I'm using Notepad++ to make sure the line breaks are in order.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937421/firefox-windows-gpo-extensionsettings-fails-to-parse
+
+---
+
+#### 3282. Storage is almost full and I don't know why
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6kitb/storage_is_almost_full_and_i_dont_know_why/
+
+---
+
+#### 3283. Bluetooth completely vanished from Windows 11 – "Device does not have Bluetooth" error
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6j4dr/bluetooth_completely_vanished_from_windows_11/
+
+---
+
+#### 3284. How to fix monitor cutting out due to static electricity?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6jl4f/how_to_fix_monitor_cutting_out_due_to_static/
+
+---
+
+#### 3285. Issue in Vendor Cafe
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6otwt/issue_in_vendor_cafe/
+
+---
+
+#### 3286. BSOD and crashes while gaming (Windows 11)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6os1s/bsod_and_crashes_while_gaming_windows_11/
+
+---
+
+#### 3287. When editing a post, all spaces and formatting disappear
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6orru/when_editing_a_post_all_spaces_and_formatting/
+
+---
+
+#### 3288. Pc keeps restarting will trying to boot windows.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6oq6b/pc_keeps_restarting_will_trying_to_boot_windows/
+
+---
+
+#### 3289. Asus router's local domain name doesn't resolve anymore
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6onq4/asus_routers_local_domain_name_doesnt_resolve/
+
+---
+
+#### 3290. Wifi issue on pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6odip/wifi_issue_on_pc/
+
+---
+
+#### 3291. Safari on my phone acting bizarre
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6o5n8/safari_on_my_phone_acting_bizarre/
+
+---
+
+#### 3292. Vodafone 500Mbps fibre has delay before websites load
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6nxh7/vodafone_500mbps_fibre_has_delay_before_websites/
+
+---
+
+#### 3293. Is it safe to send the laptop back yet?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6ns0k/is_it_safe_to_send_the_laptop_back_yet/
+
+---
+
+#### 3294. Slow internet only on reddit and twitter
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6npq2/slow_internet_only_on_reddit_and_twitter/
+
+---
+
+#### 3295. gl502v isnt connecting after updating graphic’s drive
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6noof/gl502v_isnt_connecting_after_updating_graphics/
+
+---
+
+#### 3296. My pc internet is significantly slower than my phone suddenly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6h7yc/my_pc_internet_is_significantly_slower_than_my/
+
+---
+
+#### 3297. small window or button that says connect
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6nksm/small_window_or_button_that_says_connect/
+
+---
+
+#### 3298. My monitor keeps turning on and off repeatedly?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6nhp9/my_monitor_keeps_turning_on_and_off_repeatedly/
+
+---
+
+#### 3299. Laptop sometimes takes up to a minute to shut down
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6ncz9/laptop_sometimes_takes_up_to_a_minute_to_shut_down/
+
+---
+
+#### 3300. Windows 11 headset microphones never work
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6n9mp/windows_11_headset_microphones_never_work/
+
+---
+
+#### 3301. Intel CPU Fails?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6n2hh/intel_cpu_fails/
+
+---
+
+#### 3302. Completely fresh Windows install -- explorer still breaking
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6n07z/completely_fresh_windows_install_explorer_still/
+
+---
+
+#### 3303. Fragmentos na tela do notebook quando abre vídeo ou jogo
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t6ms9h/fragmentos_na_tela_do_notebook_quando_abre_vídeo/
+
+---
+
+#### 3304. Canvas (Instructure) LMS seems to have been hit by ransomware
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t6m7e0/canvas_instructure_lms_seems_to_have_been_hit_by/
+
+---
+
+#### 3305. Canvas hack?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t6mfiz/canvas_hack/
+
+---
+
+#### 3306. The Curse of the Ultimate Meat and Cheese Breakfast Burrito
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t6k7r9/the_curse_of_the_ultimate_meat_and_cheese/
+
+---
+
+#### 3307. The last day of dc migration, the new one caught 🔥
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t6n9vl/the_last_day_of_dc_migration_the_new_one_caught/
+
+---
+
+#### 3308. What is your pet-peeve?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t6ld4w/what_is_your_petpeeve/
+
+---
+
+#### 3309. Dell branding... get it together, man.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t6j5i6/dell_branding_get_it_together_man/
+
+---
+
+#### 3310. We need a new term for fighting GenAI hallucinations
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t6e1zx/we_need_a_new_term_for_fighting_genai/
+
+---
+
+#### 3311. Dirty Frag - New root exploit targeting newest Linux kernel
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t6ocb8/dirty_frag_new_root_exploit_targeting_newest/
+
+---
+
+#### 3312. Large folder moves within network drive
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t6nyk9/large_folder_moves_within_network_drive/
+
+---
+
+#### 3313. Random Dell computers reboot loop?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t6j6m3/random_dell_computers_reboot_loop/
+
+---
+
+#### 3314. Alternates for Synology Active Backup for Business
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t6l34w/alternates_for_synology_active_backup_for_business/
+
+---
+
+#### 3315. What are you guys using to automatically patch your servers
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t6n71k/what_are_you_guys_using_to_automatically_patch/
+
+---
+
+#### 3316. Options like TimeShift (Linux) for restoring on Windows 11?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t6fnpp/options_like_timeshift_linux_for_restoring_on/
+
+---
+
+#### 3317. tried to factory reset, now its tweaking
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t65nft/tried_to_factory_reset_now_its_tweaking/
+
+---
+
+#### 3318. Windows freezes after setup of Wireguard and map network drive.
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t65ihj/windows_freezes_after_setup_of_wireguard_and_map/
+
+---
+
+#### 3319. Chromebook running windows 11 natively with issues
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t636lt/chromebook_running_windows_11_natively_with_issues/
+
+---
+
+#### 3320. No audio coming from the speakers
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t62gb8/no_audio_coming_from_the_speakers/
+
+---
+
+#### 3321. Delete process get stuck at 0% whenever I try to delete some files/folders – how can I fix this?
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t62fp9/delete_process_get_stuck_at_0_whenever_i_try_to/
+
+---
+
+#### 3322. I cannot install windows for the life of me
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t60vml/i_cannot_install_windows_for_the_life_of_me/
+
+---
+
+#### 3323. New PC Gamer!!! Insane deal!
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t6id4t/new_pc_gamer_insane_deal/
+
+---
+
+#### 3324. I look to my PC Redditors for help!
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t6mxq0/i_look_to_my_pc_redditors_for_help/
+
+---
+
+#### 3325. Should i upgrade from 7900 gre now?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t6kcfu/should_i_upgrade_from_7900_gre_now/
+
+---
+
+#### 3326. How to migrate my PC internals into a smaller case?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t6koxh/how_to_migrate_my_pc_internals_into_a_smaller_case/
+
+---
+
+#### 3327. Cheap updates to old PC to make it usable again
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t6nfvq/cheap_updates_to_old_pc_to_make_it_usable_again/
+
+---
+
+#### 3328. Hello i need some help with deciding on my pc ( see description for full info)
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t6m1lv/hello_i_need_some_help_with_deciding_on_my_pc_see/
+
+---
+
+#### 3329. AMD vs Intel - BUT Real World!
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t6lxbx/amd_vs_intel_but_real_world/
+
+---
+
+#### 3330. KVM Switch Recommendations
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t6dd55/kvm_switch_recommendations/
+
+---
+
+#### 3331. Im a noob at PC building... is this a good bundle at Micro center for a 1000$ USD build?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t6laiw/im_a_noob_at_pc_building_is_this_a_good_bundle_at/
+
+---
+
+#### 3332. My Ryzen 7 7800X3D died suddenly
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t6kkq8/my_ryzen_7_7800x3d_died_suddenly/
+
+---
+
+#### 3333. Help me pick which cpu is better for me
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t6p00o/help_me_pick_which_cpu_is_better_for_me/
+
+---
+
+#### 3334. GPU Placement
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t6ozv3/gpu_placement/
+
+---
+
+#### 3335. Help regarding motherboard, RAM and SSD
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t6oz6f/help_regarding_motherboard_ram_and_ssd/
+
+---
+
+#### 3336. Help with Finishing up First PC Build
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t6opfw/help_with_finishing_up_first_pc_build/
+
+---
+
+#### 3337. Living Room Build - Price to Performance?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t6oo59/living_room_build_price_to_performance/
+
+---
+
+#### 3338. Motherboard sales 'collapse' by more than 25% as chipmakers strangle enthusiast PC market to build more AI chips — Asus projected to sell 5 million fewer boards in 2025, Gigabyte, MSI, and ASRock also expected to see reduced sales numbers
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t6k1pg/motherboard_sales_collapse_by_more_than_25_as/
+
+---
+
+#### 3339. Valve Steam Controller Update: New Availability and Purchasing Rules To Fight Scalping and Supply Issues (the queue is back!)
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t6l6ly/valve_steam_controller_update_new_availability/
+
+---
+
+#### 3340. AMD Holds Advanced Talks With Samsung For 2nm Production
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t6hgpe/amd_holds_advanced_talks_with_samsung_for_2nm/
+
+---
+
+#### 3341. Valve releases Steam Controller CAD files under Creative Commons license
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t6k7im/valve_releases_steam_controller_cad_files_under/
+
+---
+
+#### 3342. Introducing AMD DGF SuperCompression
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t6oafa/introducing_amd_dgf_supercompression/
+
+---
+
+#### 3343. Are there any tools to help me quiz myself?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t6jyxm/are_there_any_tools_to_help_me_quiz_myself/
+
+---
+
+#### 3344. which is the best O11y tool for agentic apps?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t6jsi4/which_is_the_best_o11y_tool_for_agentic_apps/
+
+---
+
+#### 3345. New background remover by Ideogram
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t6g51m/new_background_remover_by_ideogram/
+
+---
+
+#### 3346. Deal: NI Komplete 26 Collector's Edition — Unregistered Serial | 50% Off NI's Price
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t6m0ah/deal_ni_komplete_26_collectors_edition/
+
+---
+
+#### 3347. Kaspersky is being restricted by Samsung... Why?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t6g7jn/kaspersky_is_being_restricted_by_samsung_why/
+
+---
+
+#### 3348. Looking to generate a fake whatsapp group conversation
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t6g62w/looking_to_generate_a_fake_whatsapp_group/
+
+---
+
+#### 3349. [V2EX] 求推荐挪车码
+
+**问题描述 / Problem Description**:
+腾讯的挪车码下线了，而且目前是机器人打电话通知，不太方便，各位有推荐的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210950#reply2
+
+---
+
+#### 3350. [V2EX] 有没有好用的家庭共享的云相册
+
+**问题描述 / Problem Description**:
+rt op 现在用的是 familyalbum 缺点：app 需要谷歌框架，给家人安装不是很方便，而且服务器连接会比较慢，图片压缩比较严重 需求 安卓/ios 可以直接在商店安装 app 或者直接通过 apk 安装，尽量不需要谷歌框架 可以支持免费版本无限存储功能的 支持家庭共享 安卓端的权限需要干净一些 照片可以根据拍摄时间的时间线来排列 最好可以支持原图上传、并且支持 live 图、视频 最好可以进行权限区分(上传、下载、评论)可以查看上传记录 最好支持内容查找，或者评论查找 之前装了国内版亲宝宝，低 targetapi 直接是授权整个相册(信不过) 海外版亲宝宝倒是可以部分授权，但是 i
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210937#reply13
 
 ---
