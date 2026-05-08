@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3578**
+**总计条目 / Total entries: 3644**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -52277,5 +52277,863 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1211146#reply32
+
+---
+
+#### 3579. Internet on but saying “No Internet” when connected
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7imey/internet_on_but_saying_no_internet_when_connected/
+
+---
+
+#### 3580. PC crashes on certain games, even low-demand ones
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7gjil/pc_crashes_on_certain_games_even_lowdemand_ones/
+
+---
+
+#### 3581. RAM or MOBO, Getting BSOD
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7kt0y/ram_or_mobo_getting_bsod/
+
+---
+
+#### 3582. Pc is constantly freezing and nothing will respond
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7g52j/pc_is_constantly_freezing_and_nothing_will_respond/
+
+---
+
+#### 3583. Headset isnt detected in device manager on brothers new pc and no audio will come through
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7fhlr/headset_isnt_detected_in_device_manager_on/
+
+---
+
+#### 3584. RTX 3080ti freezes Windows UI, mouse still moves, Win+Ctrl+Shift+B fixes it
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7d4es/rtx_3080ti_freezes_windows_ui_mouse_still_moves/
+
+---
+
+#### 3585. S24 ultra Camera failure
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7m3ew/s24_ultra_camera_failure/
+
+---
+
+#### 3586. DSL Broadand Connection Issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7lzz9/dsl_broadand_connection_issue/
+
+---
+
+#### 3587. Internet tethering won’t work on windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7lzn7/internet_tethering_wont_work_on_windows_11/
+
+---
+
+#### 3588. Ethernet Cable Help
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7lzj9/ethernet_cable_help/
+
+---
+
+#### 3589. Xbox app shows as "Application Frame Host" in taskbar with no icon -- tried everything, need help
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7lxn9/xbox_app_shows_as_application_frame_host_in/
+
+---
+
+#### 3590. External hard drive issues- error checking runs but ends up restarting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7lrav/external_hard_drive_issues_error_checking_runs/
+
+---
+
+#### 3591. Monitor says "no signal" even after connecting HDM
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7lmi3/monitor_says_no_signal_even_after_connecting_hdm/
+
+---
+
+#### 3592. LG C1 65 inch (OLED65C1) showing weird artifacts during videos intermittently.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7f9fa/lg_c1_65_inch_oled65c1_showing_weird_artifacts/
+
+---
+
+#### 3593. Nvidia 5070ti optimization???
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7lceb/nvidia_5070ti_optimization/
+
+---
+
+#### 3594. PC powers on but no display (VGA/POST issue) – possible motherboard failure? Need advice.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7lb6z/pc_powers_on_but_no_display_vgapost_issue/
+
+---
+
+#### 3595. Computer stuttering every few seconds until freezing AFTER I close down a game
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7ezgi/computer_stuttering_every_few_seconds_until/
+
+---
+
+#### 3596. pc is not working after ram overclock
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7l757/pc_is_not_working_after_ram_overclock/
+
+---
+
+#### 3597. Laptop forgets OS every 24 hours
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7l4ua/laptop_forgets_os_every_24_hours/
+
+---
+
+#### 3598. PS5 getting 5kbps download speed on 500mbps network
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7l3yv/ps5_getting_5kbps_download_speed_on_500mbps/
+
+---
+
+#### 3599. Malformed link going to a locked Norton Virus Scan page from https://virushunterx.xyz/
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7ky1i/malformed_link_going_to_a_locked_norton_virus/
+
+---
+
+#### 3600. Very weird resolution issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7kujr/very_weird_resolution_issues/
+
+---
+
+#### 3601. D drive disappeared after a crash whilst downloading games on steam.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7ku1q/d_drive_disappeared_after_a_crash_whilst/
+
+---
+
+#### 3602. Caused a big outage at work- how do I move forward?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t7in2l/caused_a_big_outage_at_work_how_do_i_move_forward/
+
+---
+
+#### 3603. Let’s Encrypt stopping issuance for potential incident
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t7ja5q/lets_encrypt_stopping_issuance_for_potential/
+
+---
+
+#### 3604. Ansible playbook for Dirty Frag mitigation
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t7dlbw/ansible_playbook_for_dirty_frag_mitigation/
+
+---
+
+#### 3605. Hot Take: HPE firmware Applications like ILO and Intelligent Provisioning get less useful every year
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t7hwha/hot_take_hpe_firmware_applications_like_ilo_and/
+
+---
+
+#### 3606. Everyone is telling me to change my field (IT) and learn a trade.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t7cmto/everyone_is_telling_me_to_change_my_field_it_and/
+
+---
+
+#### 3607. Programmers should be supporting their own goddamn applications. Not the helpdesk.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t7lx8g/programmers_should_be_supporting_their_own/
+
+---
+
+#### 3608. Is it possibile to have dual power supply with Digi UsbAnywhere?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t7k452/is_it_possibile_to_have_dual_power_supply_with/
+
+---
+
+#### 3609. Do it all vs Silo’d
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t7di48/do_it_all_vs_silod/
+
+---
+
+#### 3610. Announcing Experimental Preview Build 26300.8376 - Windows Insider Program
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t7hrnh/announcing_experimental_preview_build_263008376/
+
+---
+
+#### 3611. Announcing Experimental (26H1) Preview Build 28020.2075 - Windows Insider Program
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t7hsci/announcing_experimental_26h1_preview_build/
+
+---
+
+#### 3612. Announcing Experimental (Future Platforms) Preview Build 29585.1000 - Windows Insider Program
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t7hss4/announcing_experimental_future_platforms_preview/
+
+---
+
+#### 3613. Announcing Beta Preview Build 26220.8370 - Windows Insider Program
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t7hr06/announcing_beta_preview_build_262208370_windows/
+
+---
+
+#### 3614. Nord Rice (Windows11)
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t7i4wk/nord_rice_windows11/
+
+---
+
+#### 3615. What is the point of Xbox mode?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t7jcwg/what_is_the_point_of_xbox_mode/
+
+---
+
+#### 3616. Trouble upgrading from outdated 23H2
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t7k7c4/trouble_upgrading_from_outdated_23h2/
+
+---
+
+#### 3617. Switching from Ubuntu Linux to Windows 11 Pro 25H2 (OS BUILD: 26200.8037)
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t7k5b0/switching_from_ubuntu_linux_to_windows_11_pro/
+
+---
+
+#### 3618. Windows 11 26H1 always open application maximized
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t7h9k5/windows_11_26h1_always_open_application_maximized/
+
+---
+
+#### 3619. Ultra 7 270k vs 7800x3D for Engineering Student
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t7fmby/ultra_7_270k_vs_7800x3d_for_engineering_student/
+
+---
+
+#### 3620. GPU Upgrade
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t7ffm4/gpu_upgrade/
+
+---
+
+#### 3621. Should I get the 9060xt or the 9070
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t7lltm/should_i_get_the_9060xt_or_the_9070/
+
+---
+
+#### 3622. What do you think of these parts for a future PC?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t7l0vh/what_do_you_think_of_these_parts_for_a_future_pc/
+
+---
+
+#### 3623. Upgrade decision paralysis
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t7in8j/upgrade_decision_paralysis/
+
+---
+
+#### 3624. Moving from console gaming to PC, I've only owned a handful of laptops in my life. Where do I start?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t7hlau/moving_from_console_gaming_to_pc_ive_only_owned_a/
+
+---
+
+#### 3625. Looking to upgrade CPU
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t7m7hw/looking_to_upgrade_cpu/
+
+---
+
+#### 3626. shortest gtx 1080 ti?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t7g25u/shortest_gtx_1080_ti/
+
+---
+
+#### 3627. is an Ry 5 5500 and Rx 5700 XT a GOOD combo in 2026 ?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t7m4vr/is_an_ry_5_5500_and_rx_5700_xt_a_good_combo_in/
+
+---
+
+#### 3628. 7500x3d and 9060 xt for budget 1080p 240hz gaming
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t7m1o8/7500x3d_and_9060_xt_for_budget_1080p_240hz_gaming/
+
+---
+
+#### 3629. Transporting a PC with liquid cooling
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t7lz84/transporting_a_pc_with_liquid_cooling/
+
+---
+
+#### 3630. mechanical keyboards and mics
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t7lxf2/mechanical_keyboards_and_mics/
+
+---
+
+#### 3631. Need help upgrading my pc
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t7lutl/need_help_upgrading_my_pc/
+
+---
+
+#### 3632. MOBO Sound card is meh
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t7lun7/mobo_sound_card_is_meh/
+
+---
+
+#### 3633. Apple, Intel have reached preliminary chip-making deal, WSJ reports
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t7eowu/apple_intel_have_reached_preliminary_chipmaking/
+
+---
+
+#### 3634. SK Hynix flooded with unprecedented offers from big tech firms to secure chip supplies
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t7ddrd/sk_hynix_flooded_with_unprecedented_offers_from/
+
+---
+
+#### 3635. Samsung Is Building a Holographic Display and the Spatial iPhone Could Be Its First Customer
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t7icxt/samsung_is_building_a_holographic_display_and_the/
+
+---
+
+#### 3636. KillerPDF v1.3.0 - I shipped almost everything from your feedback
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t7laet/killerpdf_v130_i_shipped_almost_everything_from/
+
+---
+
+#### 3637. OmniClip v0.1.4: A free clipboard manager for Windows with persistent history, filters, locking, bulk actions, and power-user features.
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t7ez8p/omniclip_v014_a_free_clipboard_manager_for/
+
+---
+
+#### 3638. Clicking on links from multiple sources, how to?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t7h589/clicking_on_links_from_multiple_sources_how_to/
+
+---
+
+#### 3639. ZAI Mail Bridge — lightweight Windows mailto handler for multiple webmail accounts
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t7l5bl/zai_mail_bridge_lightweight_windows_mailto/
+
+---
+
+#### 3640. Chrome crash problem.
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t7dy3a/chrome_crash_problem/
+
+---
+
+#### 3641. [V2EX] Claude 的免费版几乎处于不可用状态
+
+**问题描述 / Problem Description**:
+免费版本测试生成一个 html ，代码没完成就自动中断触发限额了，这是按 token 算的吗 plus 版差不多相当于之前的免费版体验
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211310#reply1
+
+---
+
+#### 3642. [V2EX] 请问一加 13 如何购买最划算？
+
+**问题描述 / Problem Description**:
+不得不打算换机了，看中 1+13 16+512 的，结果发现比去年还贵啊，这个手机怎么买到最低价？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211165#reply4
+
+---
+
+#### 3643. [V2EX] 想咨询下大佬，办港卡 okx 出入金稳定吗
+
+**问题描述 / Problem Description**:
+比较看好加密货币，但内地的监管和反诈又太严格。想办个港卡出入金，有没有有经验的大佬聊聊经验？ 可肉身赴港
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211085#reply5
+
+---
+
+#### 3644. [V2EX] 疑问：如果给国内用户在 ai 聊天类程序使用国外的模型，被举报会被拉取喝茶吗？
+
+**问题描述 / Problem Description**:
+怎么才能规避风险，难道只能用国内模型？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211066#reply7
 
 ---

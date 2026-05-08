@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2558**
+**总计条目 / Total entries: 2607**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -37461,5 +37461,642 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1211142#reply13
+
+---
+
+#### 2559. Controller trigger input bug since Tahoe.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t7fhwd/controller_trigger_input_bug_since_tahoe/
+
+---
+
+#### 2560. Anyone seen this before?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t7lz94/anyone_seen_this_before/
+
+---
+
+#### 2561. Automating moving Downloads folder content
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t7lcd9/automating_moving_downloads_folder_content/
+
+---
+
+#### 2562. Time machine backups set to hourly.. not even taking one daily. What is the deal?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t7jf1x/time_machine_backups_set_to_hourly_not_even/
+
+---
+
+#### 2563. Message notifications for spam
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t7ipav/message_notifications_for_spam/
+
+---
+
+#### 2564. Using bootable USB drive with brand new Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t7hk3p/using_bootable_usb_drive_with_brand_new_mac/
+
+---
+
+#### 2565. Siri won't talk out-loud. just prompt me to type rather than hear its responses, all mute
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t7h5pa/siri_wont_talk_outloud_just_prompt_me_to_type/
+
+---
+
+#### 2566. what is this pop-up on safari?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t7g8x3/what_is_this_popup_on_safari/
+
+---
+
+#### 2567. Touch ID annoying behavior after Tahoe 26.4.1
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t7feu1/touch_id_annoying_behavior_after_tahoe_2641/
+
+---
+
+#### 2568. Dock icon to launch Apps?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t7fcy3/dock_icon_to_launch_apps/
+
+---
+
+#### 2569. Remove Dropbox green ticks on Finder
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t7dfdi/remove_dropbox_green_ticks_on_finder/
+
+---
+
+#### 2570. Apple and intel make agreement
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t7dl4g/apple_and_intel_make_agreement/
+
+---
+
+#### 2571. Apple Seeds Second iOS 26.5 and iPadOS 26.5 Release Candidates to Developers
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t7ghdj/apple_seeds_second_ios_265_and_ipados_265_release/
+
+---
+
+#### 2572. What was the one MacBook accessory that you think was your best purchase?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t7k72r/what_was_the_one_macbook_accessory_that_you_think/
+
+---
+
+#### 2573. Apple and intel make agreement
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t7dm6k/apple_and_intel_make_agreement/
+
+---
+
+#### 2574. New Macbook 15 M5 with black speck
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t7g9dj/new_macbook_15_m5_with_black_speck/
+
+---
+
+#### 2575. Value of MacBook Air M1 with faulty display? Or just keep?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t7lrta/value_of_macbook_air_m1_with_faulty_display_or/
+
+---
+
+#### 2576. Air 24gb ram or Pro 16gb ram?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t7lrom/air_24gb_ram_or_pro_16gb_ram/
+
+---
+
+#### 2577. Confused on whether to get 16 RAM or 24 RAM
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t7iwbz/confused_on_whether_to_get_16_ram_or_24_ram/
+
+---
+
+#### 2578. I need help!!!
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t7gixg/i_need_help/
+
+---
+
+#### 2579. MacBook Pro or Air M5 for Developers
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t7fzyz/macbook_pro_or_air_m5_for_developers/
+
+---
+
+#### 2580. Benchmark request (Neatbench)
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t7ey4p/benchmark_request_neatbench/
+
+---
+
+#### 2581. Follow up question: What MacBook is the best fit for me
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t7e2rg/follow_up_question_what_macbook_is_the_best_fit/
+
+---
+
+#### 2582. MacBook NEO or Air?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t7hang/macbook_neo_or_air/
+
+---
+
+#### 2583. What is this?
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1t7ebmj/what_is_this/
+
+---
+
+#### 2584. New iPad can’t find old iPad to set up
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7lpa7/new_ipad_cant_find_old_ipad_to_set_up/
+
+---
+
+#### 2585. Stuck on "Syncing older messages" on WhatsApp Tablet – Need to access a 6-month-old message urgently!
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7loa4/stuck_on_syncing_older_messages_on_whatsapp/
+
+---
+
+#### 2586. iPhone SE 2020 NFC Software Problem
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7llmx/iphone_se_2020_nfc_software_problem/
+
+---
+
+#### 2587. HOW TO FREE UP SYSTEM DATA?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7m0vw/how_to_free_up_system_data/
+
+---
+
+#### 2588. Anyway to have 2 separate iCloud photo libraries?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7kgur/anyway_to_have_2_separate_icloud_photo_libraries/
+
+---
+
+#### 2589. Guided Access Passcode
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7ka96/guided_access_passcode/
+
+---
+
+#### 2590. Trying to add a payment method
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7ka72/trying_to_add_a_payment_method/
+
+---
+
+#### 2591. How do you clean these
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7jw4z/how_do_you_clean_these/
+
+---
+
+#### 2592. Cannot confirm I am 18
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7jk50/cannot_confirm_i_am_18/
+
+---
+
+#### 2593. [QUERY] Logged into a seller’s MacBook once, logged out later — now seller says it’s asking for my password
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7jjxq/query_logged_into_a_sellers_macbook_once_logged/
+
+---
+
+#### 2594. Why is my charger constantly going in and out?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7jdgn/why_is_my_charger_constantly_going_in_and_out/
+
+---
+
+#### 2595. hi i cant create another icloud account
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7izsi/hi_i_cant_create_another_icloud_account/
+
+---
+
+#### 2596. One AirTag not updating for me
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7i604/one_airtag_not_updating_for_me/
+
+---
+
+#### 2597. Official apple adapter rejected by iPhone
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7i5ig/official_apple_adapter_rejected_by_iphone/
+
+---
+
+#### 2598. If you move to another country, you have to wait until your apple tv subscription expires before you can switch the app store region
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7i46b/if_you_move_to_another_country_you_have_to_wait/
+
+---
+
+#### 2599. Find my app doesn’t work
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7i28d/find_my_app_doesnt_work/
+
+---
+
+#### 2600. My camera app is flashing
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7hxx6/my_camera_app_is_flashing/
+
+---
+
+#### 2601. Apple 15 Pro Max System Storage
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7h991/apple_15_pro_max_system_storage/
+
+---
+
+#### 2602. Cant download instagram or discord
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7gttk/cant_download_instagram_or_discord/
+
+---
+
+#### 2603. [V2EX] Apple 要开始赔偿用户了，可惜没有中国
+
+**问题描述 / Problem Description**:
+虚假宣传，苹果宣布支付 17 亿元天价赔偿：iPhone 15 Pro/16 用户最高可获赔 646 元 但没有中国 美国苹果公司就 AI 功能虚假宣传引发的消费者集体诉讼正式达成和解，同意支付 2.5 亿美元赔偿款（约合人民币 17 亿元）。该和解协议目前仍需法院最终批准方可生效，符合条件的 iPhone 美国用户，单台设备最高可获赔 95 美元（约合人民币 646 元）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211294#reply10
+
+---
+
+#### 2604. [V2EX] 写了个菜单栏 App，把 MacBook 合盖当小服务器用
+
+**问题描述 / Problem Description**:
+大家好，我最近写了一个 macOS 菜单栏小工具，叫 turnintoserver 。 开发这个 app 的初衷，是因为我自己遇到一个很具体的问题。 我有时候会把 MacBook 临时当一台小服务器用，比如跑 SSH 、远程桌面、局域网服务、开发服务器之类。接上电源以后，我希望合盖也能继续运行。 一开始我也试过市面上一些常见的防睡眠工具，比如 Amphetamine 这类 App Store 上很成熟的 app 。它们在“防止 Mac 睡眠”这件事上已经做得很好。 但我真正想要的不是单纯防睡眠。 我希望的是：MacBook 合盖以后继续跑服务，同时内建屏幕能够暗下来/熄掉，而且不要把外接显示器
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211160#reply10
+
+---
+
+#### 2605. [V2EX] 苹果的信号是我误解了吗
+
+**问题描述 / Problem Description**:
+昨天去大运看演唱会，我隔壁的一个香港大姐全程都在发视频，无任何卡顿，而且我看她微信从来没有转圈圈过。看信号是全球通，双卡，手机 pin 是四位的，这个是不是意味着她的手机是比较旧款的 iPhone 。我自己的是 iPhone 15 PRO MAX 联通流量，一张图都发不出去。 突然深深的怀疑我过去十来年对 iPhone 信号差的观点是错的，问题出在哪里？我也想像她一样在高峰期有好的网络体验。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210120#reply92
+
+---
+
+#### 2606. [V2EX] 新一批 UFO 文件解密啦
+
+**问题描述 / Problem Description**:
+https://www.war.gov/UFO/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211300#reply6
+
+---
+
+#### 2607. [V2EX] Superalink 大陆 5 日套餐购买攻略（附折扣码）
+
+**问题描述 / Problem Description**:
+Superalink 大陆 5 日套餐购买攻略（附折扣码） 最近有 V 友问我 Superalink 怎么用，干脆整理成一篇，省得重复解释。 Ref: https://www.v2ex.com/t/1210180#reply38 套餐情况 我目前用的是大陆地区 5 日套餐，参数如下： 有效期：5 天 流量：每日 5GB （其中热点分享上限 2GB ） 原价：200 泰铢（约 42 元人民币） 折扣价：25 泰铢（约 5.26 元人民币）——需要折扣码，结算时选泰铢货币 折扣码： ROY000000 网址： https://www.superalink.com/destination/aff/R
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211147#reply7
 
 ---
