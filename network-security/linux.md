@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1332**
+**总计条目 / Total entries: 1334**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -21579,5 +21579,29 @@ Michał Majchrowicz discovered that Vim’s zip plugin could overwrite arbitrary
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8246-1
+
+---
+
+#### 1333. [Ubuntu] USN-8248-2: NASM regression
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8248-1 fixed vulnerabilities in NASM. Unfortunately the update introduced a regression which could cause NASM to crash. This update fixes the problem by reverting the fix for CVE-2021-33450 and CVE-2021-33452 in Ubuntu 24.04 LTS. We apologize for the inconvenience. Original advisory details: Daisy Chen discovered that NASM was vulnerable to a heap buffer overflow when handling certain input. A
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8248-2
+
+---
+
+#### 1334. [Ubuntu] USN-8262-1: Lua vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Lua parser incorrectly handled garbage collection when processing specially crafted Lua scripts. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8262-1
 
 ---

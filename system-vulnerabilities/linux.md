@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1244**
+**总计条目 / Total entries: 1246**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -22645,5 +22645,37 @@ Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-ann
 - http://secunia.com/advisories/32135
 - http://secunia.com/advisories/32174
 - http://secunia.com/advisories/43314
+
+---
+
+#### 1245. [Ubuntu] USN-8248-2: NASM regression
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8248-1 fixed vulnerabilities in NASM. Unfortunately the update introduced a regression which could cause NASM to crash. This update fixes the problem by reverting the fix for CVE-2021-33450 and CVE-2021-33452 in Ubuntu 24.04 LTS. We apologize for the inconvenience. Original advisory details: Daisy Chen discovered that NASM was vulnerable to a heap buffer overflow when handling certain input. A
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8248-2
+
+---
+
+#### 1246. [Ubuntu] USN-8262-1: Lua vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the Lua parser incorrectly handled garbage collection when processing specially crafted Lua scripts. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8262-1
 
 ---

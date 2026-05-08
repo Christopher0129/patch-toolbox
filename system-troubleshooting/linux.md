@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2747**
+**总计条目 / Total entries: 2795**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -43492,5 +43492,629 @@ This works as expected: The unit file $ cat /etc/systemd/system/test_service.ser
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/787033/systemd-service-does-not-start-automatically-at-boot-service-is-enabled
+
+---
+
+#### 2748. Kernel got updated
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t7bu34/kernel_got_updated/
+
+---
+
+#### 2749. NVIDIA releases CUDA-Oxide 0.1 for experimental Rust-to-CUDA compiler
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t7a52k/nvidia_releases_cudaoxide_01_for_experimental/
+
+---
+
+#### 2750. New FOSS developer, worried about AI written forks
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t776cn/new_foss_developer_worried_about_ai_written_forks/
+
+---
+
+#### 2751. DM-INLINECRYPT expected for Linux 7.2 to leverage inline encryption
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t784ud/dminlinecrypt_expected_for_linux_72_to_leverage/
+
+---
+
+#### 2752. I'm dissapointed with Manjaro drama
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t782oa/im_dissapointed_with_manjaro_drama/
+
+---
+
+#### 2753. Simulate ARM64 on X86_64 hardware?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t73ke2/simulate_arm64_on_x86_64_hardware/
+
+---
+
+#### 2754. Reviving a really old laptop
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t74tly/reviving_a_really_old_laptop/
+
+---
+
+#### 2755. Why do I need to restart my system after an update?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t75jvx/why_do_i_need_to_restart_my_system_after_an_update/
+
+---
+
+#### 2756. Old thinkpad need os
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t73x29/old_thinkpad_need_os/
+
+---
+
+#### 2757. Kubuntu 26.04 installer stuck at Creating initramfs
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7cmzn/kubuntu_2604_installer_stuck_at_creating_initramfs/
+
+---
+
+#### 2758. Getting settled, digging deeper
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7c0oq/getting_settled_digging_deeper/
+
+---
+
+#### 2759. QEMU/KVM blank space
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t75357/qemukvm_blank_space/
+
+---
+
+#### 2760. Is anyone else still having issues reaching launchpad PPA's after the Canonical DDoS attack a week ago?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7a3d2/is_anyone_else_still_having_issues_reaching/
+
+---
+
+#### 2761. Any way to do this monitor config in Wayland?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t77fki/any_way_to_do_this_monitor_config_in_wayland/
+
+---
+
+#### 2762. How do I install Ubuntu Desktop on an old Intel-based Mac?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t76znu/how_do_i_install_ubuntu_desktop_on_an_old/
+
+---
+
+#### 2763. How do you build from source code on Git?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t76hhw/how_do_you_build_from_source_code_on_git/
+
+---
+
+#### 2764. I have a problem with installing Linux Mint.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t74gw9/i_have_a_problem_with_installing_linux_mint/
+
+---
+
+#### 2765. Just got Ubuntu 24.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t76ge9/just_got_ubuntu_2404/
+
+---
+
+#### 2766. Hi, reconsidering Ubuntu given my requirements. Any thoughts?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7b79l/hi_reconsidering_ubuntu_given_my_requirements_any/
+
+---
+
+#### 2767. FIX: latest 25.10 update breaks NVidia graphics
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t73lia/fix_latest_2510_update_breaks_nvidia_graphics/
+
+---
+
+#### 2768. Error installing Ubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t74pgw/error_installing_ubuntu/
+
+---
+
+#### 2769. Downloading Obsidian
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7al9h/downloading_obsidian/
+
+---
+
+#### 2770. Ubuntu Racoon Wallpapers
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t78lhm/ubuntu_racoon_wallpapers/
+
+---
+
+#### 2771. If you want to bring back the pill shaped quicksetting items.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t75kqp/if_you_want_to_bring_back_the_pill_shaped/
+
+---
+
+#### 2772. How smooth is the switch (browsers, installed games, videos, Playnite)
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t783sn/how_smooth_is_the_switch_browsers_installed_games/
+
+---
+
+#### 2773. Total Linux Noob looking for Distro Advice
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7a9r4/total_linux_noob_looking_for_distro_advice/
+
+---
+
+#### 2774. Asus Bios loop after Arch Linux installation
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t78f35/asus_bios_loop_after_arch_linux_installation/
+
+---
+
+#### 2775. How do I install Ubuntu Desktop on an old Intel-based Mac?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t76kwx/how_do_i_install_ubuntu_desktop_on_an_old/
+
+---
+
+#### 2776. Help with rootless install on Android
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7bpfd/help_with_rootless_install_on_android/
+
+---
+
+#### 2777. Server/OS/VM Troubleshoot
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7al64/serverosvm_troubleshoot/
+
+---
+
+#### 2778. crontab shutdown script only seems to work in any given session if i edit the script in that session.
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t76ujl/crontab_shutdown_script_only_seems_to_work_in_any/
+
+---
+
+#### 2779. mouse wheel skipping scroll inputs when playing games in bottles with a wireless mouse
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t76ij7/mouse_wheel_skipping_scroll_inputs_when_playing/
+
+---
+
+#### 2780. I need help
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t74fuu/i_need_help/
+
+---
+
+#### 2781. [Tarotui] Pre-release testing
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t7cq46/tarotui_prerelease_testing/
+
+---
+
+#### 2782. Tarotui demo ui - A tarot reading experience in a terminal
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t74x0s/tarotui_demo_ui_a_tarot_reading_experience_in_a/
+
+---
+
+#### 2783. [V2EX] 网间的 qos 神经到这种地步了吗?
+
+**问题描述 / Problem Description**:
+tailscale 机器, 移动访问某个节点没问题, 电信的就卡得要死, 网间的 qos 神经到这种地步了吗? 不知道搞个 derp 节点是否会解决这种问题.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211303#reply1
+
+---
+
+#### 2784. [V2EX] 还有 antigravity 的车可以上的吗
+
+**问题描述 / Problem Description**:
+最近用 antigravity 感觉还行，虽然高峰期会 retry
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211301#reply0
+
+---
+
+#### 2785. [V2EX] 研究证明中转站可以被用来劫持你的 Agent，为此我们做了个检测工具
+
+**问题描述 / Problem Description**:
+所有使用 api 中转站的人都应该去读一下这篇论文 arxiv 2604.08407 ，标题叫《 Your Agent Is Mine 》。 核心结论大概是：如果你的 AI agent 经过一个被恶意控制的中间层（比如中转站），攻击者可以通过篡改响应来劫持 agent 的行为——prompt injection 、目标替换、数据外泄，都在实验范围内。 这不是理论威胁。现在用中转站调 API 的场景越来越多，尤其是跑 agent 任务的时候，请求链路里多一个中间节点，就多一个攻击面。 我们之前内部就做过类似担忧，所以写了个检测工具 Probe ，专门测中转站的安全性。主要覆盖： 响应是否被注入内
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211298#reply0
+
+---
+
+#### 2786. [V2EX] 国产 CA 是不是风险有点高
+
+**问题描述 / Problem Description**:
+CA 私钥泄露，系统的所有流量都能被中间人攻击。国产的一堆 CA ，多数无强制证书透明 CT 日志，泄露了也不知道。 好像鸿蒙系统内置了很多国产 CA ，是不是风险有点大
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211244#reply9
+
+---
+
+#### 2787. [V2EX] openCode go + omo 使用效果一般，是我的姿势不对吗？
+
+**问题描述 / Problem Description**:
+如题，感觉 openCode go + omo 使用效果一般，而且 token 使用量耗费极大，一会儿就蹬没有了。 同样的提示语句： codex 一会儿就干完了，又快又对 glm5.1 + omo 很慢还写错好几遍 各位老哥有什么技巧可以传授一下吗？ opencode 相关的技巧都可以丢过来。 或者有没有 codex 20x 跟 claude 的中转不掺水的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211237#reply31
+
+---
+
+#### 2788. [V2EX] 多个云服务器、数据库、OSS、各种密钥如何让 AI 安全使用？
+
+**问题描述 / Problem Description**:
+自从 Vibe Coding 之后，自己能一把梭开发很多项目了， 云服务器、数据库、OSS 、各种密钥越来越多， 现在有点乱了，每个项目明文给 AI 这些东西总觉得有点不放心，（ AI 也会提示你不让明文） 现在我的做法是放一个.env 文件里，用 KEY-VALUE 的方式，同时这个.env 也不提交到仓库里。 这就带来了一个问题：我换一台电脑，就得重新配一套.env ，总觉得有点不方便。。。 兄弟们有没有更好的方法？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211234#reply1
+
+---
+
+#### 2789. [V2EX] chatgpt 的 /mnt/data 没法提取文件，问了一圈真无解
+
+**问题描述 / Problem Description**:
+chatgpt 对话过程中可以生成一些类似 .zip 文件和 .svg 文件，拿到的地址都是 /mnt/data 沙箱地址，但是这种没法把文件提取出来啊 有大神懂这个吗，实在没辙了😄
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211211#reply4
+
+---
+
+#### 2790. [V2EX] 高强度使用了半年 claude code 后，我终于无法忍受了，并且我发现了绝佳替代
+
+**问题描述 / Problem Description**:
+直接上菜： GenericAgent https://github.com/lsdefine/GenericAgent 本人基本信息 ：国内某 top3 的计算机博士在读，大模型方向。 最近对 cc 的使用情况 ： 我最近在 github trending 上关注了 GA 这个项目，并 高强度使用了一周多（完全接管我的科研+生活） ，然后我就 卸载了 cc 、codex 和 openclaw （但是感谢 cc 曾经在我的生命中出现过，不过 openclaw 你是真的垃圾啊）。。 那么有人问了，cc 那么屌，openclaw 被吹的那么神，有什么问题？ 我想但凡用过的人此时在心里都有答案了。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211200#reply90
+
+---
+
+#### 2791. [V2EX] 当前学 agent 有必要学 langchain langgraph 吗，还是 cc,hermes,openclaw 先扒一扒源码
+
+**问题描述 / Problem Description**:
+感觉出圈的 agent 好像都不是 langchain langgraph 的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211167#reply9
+
+---
+
+#### 2792. [V2EX] 求助-App 出海上架 Google Play 需要用户测试条件如何满足？
+
+**问题描述 / Problem Description**:
+背景说明 2023 年 11 月 13 日起，Google Play 对新创建的个人开发者账号实施了强化审核政策： 新账号 （ 2023-11-13 后创建）上架应用前，必须完成 封闭式测试 要求至少 12 名测试人员 ，持续参与 ≥ 14 天 流程周期长、规则多，容易踩坑 你们如何满足这个条件呢？？有互助的 V 么？ 群定位 封闭式测试互助 上架被拒/审核问题的交流 互助解答，共渡审核关 征途是星辰大海 加群须知 ⚠️ 加群必须备注 ，格式如下： 已上架：AppName 或 等待上架：AppName 未备注者一律 不通过 。 有意者请直接扫码加群 https://ibb.co.com/twt
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211163#reply2
+
+---
+
+#### 2793. [V2EX] 目前 AI IDE 编程工具之前区别大吗？大家目前都用哪些工具和模型组合
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211100#reply7
+
+---
+
+#### 2794. [V2EX] 你们的 ai agent 一般用哪些 web_search 工具？
+
+**问题描述 / Problem Description**:
+楼主用了 16 个工具 1.minimax （ cli+mcp ） 2.step 3.baidu 4.baidu ai search 5.tavily 6.doubao 7.bailian 8.exa 9.brave 10.linkup 11.serpapi 12.bocha 13.openai 14.grok 15.duckduckgo （ hermes agent 自带搜索工具） 16.gemini 目前这些都是免费的 之前楼主都是全部写入我的 agent ，然后让自己的 agent 装上，然后一股脑全部调用，然后发现太耗费 token 了， 然后就弄了个子 agent ，用 minima
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211001#reply9
+
+---
+
+#### 2795. [V2EX] superpowers 太慢了，每天的工作蹬不完，有没有功能相似但速度快的 skill
+
+**问题描述 / Problem Description**:
+superpowers 用了之后确实很显著，大多数东西需求都是一把过。但是 gpt5.5+xhigh 配合 superpowers 的 subagent ，就慢的不行。 如果 gpt5.5+xhigh 是刚需的情况下。有另外的方案推荐吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210981#reply25
 
 ---

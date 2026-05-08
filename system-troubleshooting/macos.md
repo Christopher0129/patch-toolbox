@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2494**
+**总计条目 / Total entries: 2558**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -36629,5 +36629,837 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210675#reply63
+
+---
+
+#### 2495. macOS Tahoe has got to be my favourite macOS in a while!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t7bxbr/macos_tahoe_has_got_to_be_my_favourite_macos_in_a/
+
+---
+
+#### 2496. Spotlight Search. The feature we used to use.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t78vfw/spotlight_search_the_feature_we_used_to_use/
+
+---
+
+#### 2497. WWDC26 is one month away
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t7axl0/wwdc26_is_one_month_away/
+
+---
+
+#### 2498. Give us a system-level option to prevent apps from stealing focus
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t7b2im/give_us_a_systemlevel_option_to_prevent_apps_from/
+
+---
+
+#### 2499. Is it possible for me to work on my iMac desktop at my home from a remote location?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t79cjk/is_it_possible_for_me_to_work_on_my_imac_desktop/
+
+---
+
+#### 2500. Just transferred everything from my Macbook Pro to my Mac Studio, and everything is unviewable / unopenable
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t7cyqh/just_transferred_everything_from_my_macbook_pro/
+
+---
+
+#### 2501. OS reinstall help
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t7c3lt/os_reinstall_help/
+
+---
+
+#### 2502. Does sort command in MacOS support Unicode?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t7a32u/does_sort_command_in_macos_support_unicode/
+
+---
+
+#### 2503. Duplicate find App
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t79r34/duplicate_find_app/
+
+---
+
+#### 2504. Hide widgets temporarily.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t76mih/hide_widgets_temporarily/
+
+---
+
+#### 2505. Has anyone else experienced this mouse movement bug?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t7612a/has_anyone_else_experienced_this_mouse_movement/
+
+---
+
+#### 2506. SD card slot fails to detect hot-plug insertion after first removal
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t74fe0/sd_card_slot_fails_to_detect_hotplug_insertion/
+
+---
+
+#### 2507. Filesystem strategies?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t744ca/filesystem_strategies/
+
+---
+
+#### 2508. Apple Now Requires UNiDAYS Verification for Education Discounts in U.S. and Canada, Adds Apple Watch
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t75jq1/apple_now_requires_unidays_verification_for/
+
+---
+
+#### 2509. Instagram redesigns iPad app to what it always should have been: New Instagram iPad app works just like the iPhone version, abandoning Reels-first design
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t78cg3/instagram_redesigns_ipad_app_to_what_it_always/
+
+---
+
+#### 2510. Control Ultimate Edition iOS/MacOS Review: Ray Tracing, Frame-Gen + MetalFX Upscaling... On A Phone!
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1t7a3de/control_ultimate_edition_iosmacos_review_ray/
+
+---
+
+#### 2511. difference between hp laptop and apple macbook
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t7cdd7/difference_between_hp_laptop_and_apple_macbook/
+
+---
+
+#### 2512. Need Help Deciding: Macbook M5 Pro (48GB / 1TB) OR Macbook M4 Pro (48GB / 1TB)
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t774ol/need_help_deciding_macbook_m5_pro_48gb_1tb_or/
+
+---
+
+#### 2513. STRIMIX - a truly native mac IP-TV app
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t7couz/strimix_a_truly_native_mac_iptv_app/
+
+---
+
+#### 2514. MacBook M4 nuovo, qualche consiglio?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t7bf9g/macbook_m4_nuovo_qualche_consiglio/
+
+---
+
+#### 2515. help! how much would this cost to repair
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t7aqfx/help_how_much_would_this_cost_to_repair/
+
+---
+
+#### 2516. VolumeScroll: Scroll on the menu bar icon to adjust your volume [Free App]
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t7a36z/volumescroll_scroll_on_the_menu_bar_icon_to/
+
+---
+
+#### 2517. Air 13 or 15 or pro 14
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t74i3k/air_13_or_15_or_pro_14/
+
+---
+
+#### 2518. Help with MacBook software
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t79wtt/help_with_macbook_software/
+
+---
+
+#### 2519. Macbook Air Black Horizontal Lines on Screen Problem
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t79p77/macbook_air_black_horizontal_lines_on_screen/
+
+---
+
+#### 2520. Upgrading my MacBook from over a decade ago
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t73tb8/upgrading_my_macbook_from_over_a_decade_ago/
+
+---
+
+#### 2521. Upgrading from 2017 intel MP Pro to M4 Air?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t78y9c/upgrading_from_2017_intel_mp_pro_to_m4_air/
+
+---
+
+#### 2522. I need assistance in resetting my pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7czfc/i_need_assistance_in_resetting_my_pc/
+
+---
+
+#### 2523. Restarting instead of sleep mode + random black screen crashes
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7cza9/restarting_instead_of_sleep_mode_random_black/
+
+---
+
+#### 2524. Can anything help me figure out what my problem is with Android Auto and WebLink?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t7cu5p/can_anything_help_me_figure_out_what_my_problem/
+
+---
+
+#### 2525. Has anyone tested whether focus-stealing behavior changed in 26.5 beta?
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1t7b2gj/has_anyone_tested_whether_focusstealing_behavior/
+
+---
+
+#### 2526. Portugal | I had 200GB of photos and videos on this iPhone and I want them back
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7bqke/portugal_i_had_200gb_of_photos_and_videos_on_this/
+
+---
+
+#### 2527. ipad pro advice
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t78sws/ipad_pro_advice/
+
+---
+
+#### 2528. Unable to search for messages that I didn't send today
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t78o2j/unable_to_search_for_messages_that_i_didnt_send/
+
+---
+
+#### 2529. This keeps popping up and then going away instantly.
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7arua/this_keeps_popping_up_and_then_going_away/
+
+---
+
+#### 2530. Apple id hacked
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t75xaa/apple_id_hacked/
+
+---
+
+#### 2531. IPhone 15 pro max
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t75eig/iphone_15_pro_max/
+
+---
+
+#### 2532. Downloading lectures from canvas since the Apple update.
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7cwq5/downloading_lectures_from_canvas_since_the_apple/
+
+---
+
+#### 2533. Icloud+ ending despite subscription
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7caod/icloud_ending_despite_subscription/
+
+---
+
+#### 2534. Still struggling for an off switch to “change wallpaper from lock screen”
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7c0nl/still_struggling_for_an_off_switch_to_change/
+
+---
+
+#### 2535. What do if I get this screen?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7al58/what_do_if_i_get_this_screen/
+
+---
+
+#### 2536. iPad stalled during recovery/reset
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7aeb0/ipad_stalled_during_recoveryreset/
+
+---
+
+#### 2537. How to turn off “Siri suggested sites” & the like in iPad Safari’s “look up” feature?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7aarq/how_to_turn_off_siri_suggested_sites_the_like_in/
+
+---
+
+#### 2538. My phone got physically damaged
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7a6cl/my_phone_got_physically_damaged/
+
+---
+
+#### 2539. iPad files - one PDF just overwrote and replace a different PDF??
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7a2ku/ipad_files_one_pdf_just_overwrote_and_replace_a/
+
+---
+
+#### 2540. How can I access old photos from my iPad's backup?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7998j/how_can_i_access_old_photos_from_my_ipads_backup/
+
+---
+
+#### 2541. 2020 M1 MacBook Pro 13” won’t work with any monitors, no other issues
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t76juw/2020_m1_macbook_pro_13_wont_work_with_any/
+
+---
+
+#### 2542. Still cant cancel cloud subscription after years of not having an iphone
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t7ayvn/still_cant_cancel_cloud_subscription_after_years/
+
+---
+
+#### 2543. Lost empty AirPod case and can’t determine exact location
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t74jsq/lost_empty_airpod_case_and_cant_determine_exact/
+
+---
+
+#### 2544. Anybody recognize these?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t747xk/anybody_recognize_these/
+
+---
+
+#### 2545. [V2EX] Mac 新手 SSH 客户端推荐
+
+**问题描述 / Problem Description**:
+这几天 WinTerm 弹出即将结束对 M 系列 Mac 的支持，有没有其他一样免费好用的 SSH 工具推荐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210520#reply74
+
+---
+
+#### 2546. [V2EX] Apple 要开始赔偿用户了，可惜没有中国
+
+**问题描述 / Problem Description**:
+虚假宣传，苹果宣布支付 17 亿元天价赔偿：iPhone 15 Pro/16 用户最高可获赔 646 元 但没有中国 美国苹果公司就 AI 功能虚假宣传引发的消费者集体诉讼正式达成和解，同意支付 2.5 亿美元赔偿款（约合人民币 17 亿元）。该和解协议目前仍需法院最终批准方可生效，符合条件的 iPhone 美国用户，单台设备最高可获赔 95 美元（约合人民币 646 元）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211294#reply9
+
+---
+
+#### 2547. [V2EX] Vibe 了个家庭资产管理 APP 全开源
+
+**问题描述 / Problem Description**:
+我自己一直都有记录家庭资产的习惯，但是我不认为那种记录每笔支出流水的方式是有必要。一来是太繁琐了，每一笔都要记，二是容易漏。所以我的做法是在每个月发工资的时候，记录每个账户的余额，只看总的变化，如果总开销在预期内就可以。 我的需求其实很简单，所以过去一年我只是用一个简单的 excel 记录就够了。但渐渐有些力不从心。 账户数量增多。我和媳妇两人现金，股票账户越开越多。我需要单独管理两人的账户 多币种变动。比如我持有人民币，美元，现在汇率波动巨大，如果转换为人民币，每次我都要手动查一下汇率。同时我想对每个月的汇率做个快照，每个月看汇率对资产的影响 其他类型资产。房产，设备等。虽然已经消费出去，但
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211135#reply5
+
+---
+
+#### 2548. [V2EX] 一众歌手，从天王到一二线歌手评论了个遍，这是你喜欢的 18 线所谓的歌手吗？
+
+**问题描述 / Problem Description**:
+2026 年 5 月 8 日晚她的直播，从天王刘德华、黎明，到伍佰，基本上她的评价就是这些大多数歌手不会唱歌，连谢霆锋的作曲她都评价为土。可以说大多数歌星的声线确实是没什么特点，但是评论为不会唱歌就有点过了，她自己在国内都混不下去了还在墙外找存在感。 https://i.imgur.com/tSzu2pP.jpeg
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211304#reply7
+
+---
+
+#### 2549. [V2EX] 新一批 UFO 文件解密啦
+
+**问题描述 / Problem Description**:
+https://www.war.gov/UFO/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211300#reply4
+
+---
+
+#### 2550. [V2EX] n8n 流程跑到最后一步"发布视频"，我卡了三个月
+
+**问题描述 / Problem Description**:
+做矩阵号，你有没有遇过这种情况： n8n 跑了一整条自动化——AI 写脚本、合成视频、生成封面。最后一步，发布到抖音 / B 站 / 视频号，流程断掉。没有节点可以调，没有 API 可以用，只能人坐在那手动点。 市面上的批量发布工具（易媒、蚁小二这类）全是 GUI ，n8n 根本调不到，Claude Code 也没办法接进去。你的"全自动流程"到这一步，还是半自动。 我自己也被卡了很久，后来干脆自己写了一个： MatrixMedia：开源 + Electron + Puppeteer ，核心是 CLI 入口，让 AI Agent 能把"发布视频"当成一条普通命令来调。 exit code 有明
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211291#reply0
+
+---
+
+#### 2551. [V2EX] Lenovo Legion Toolkit 的自动化会把断电状态切到 Balance
+
+**问题描述 / Problem Description**:
+Lenovo Legion Toolkit 的自动化会把断电状态切到 Balance ， Windows 电源模式改成 Best performance Windows 电源计划改成 卓越性能 运行速度立刻提升了一大截
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211284#reply0
+
+---
+
+#### 2552. [V2EX] oppo 手机母亲节宣传文案“妈妈有两个老公”
+
+**问题描述 / Problem Description**:
+oppo 的逆天文案： 《我妈有两个“老公”一个是我爸, 另一个一年见两回跟我爸约会基本不打扮见另一个， 她恨不得穿婚纱》 这不是骑在男人头上拉屎拉尿吗？ 图片地址： https://imgur.com/a/JnMSiQO
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211264#reply4
+
+---
+
+#### 2553. [V2EX] 闲鱼订单卡在“0 秒自动确认收货”的半年维权记录
+
+**问题描述 / Problem Description**:
+我是闲鱼卖家。2025 年 11 月，我发现自己有 20 多个闲鱼订单的货款一直没有到账。点开订单详情后，状态全部显示：“待买家确认收货，0 秒后将自动确认收货”。 正常情况下，闲鱼发货后 10 天会自动确认收货，但这些订单全部卡死在“0 秒自动确认收货”这一步，买家也无法手动确认收货。 发现问题后，我第一时间联系了闲鱼客服。当时只提供了其中一个订单号，并说明还有大量类似订单存在同样问题。结果大概等了一个月，平台才处理完这个订单，但其他订单完全没人跟进。 随后我再次联系客服，并提交了完整的异常订单列表。但接下来的一个多月里，无论是在线客服还是电话客服，我得到的回复始终只有：“专员正在处理，请耐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211259#reply4
+
+---
+
+#### 2554. [V2EX] 我是标题党，第一次看到这个 V 站首页感觉好壮观啊
+
+**问题描述 / Problem Description**:
+8 个帖子，5 个中转站推广，1 个应用推广，1 个产品推广，1 个问中转站为啥这么赚钱，推广指数高达 90%
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211254#reply8
+
+---
+
+#### 2555. [V2EX] HackerNews 上一个有趣的 1d chess 谜题，你能找到答案吗
+
+**问题描述 / Problem Description**:
+一维国际象棋是一种极简的国际象棋变体，在仅有八个格子的单行棋盘上进行。 每方只有三枚棋子 -- 国王、骑士和车。 这个游戏由传奇趣味数学家 Martin Gardner 构思， 最早发表于 1980 年 7 月他在《科学美国人》杂志上的《数学游戏》专栏。Gardner 提出了一个问题：假设双方都采用最优策略，白方是否存在必胜法? 你可以在点击 1d chess online 玩这个游戏 如何玩一维国际象棋 你执白方(左侧)，AI 控制黑方(右侧)。 点击一枚棋子选中它。绿色高亮显示它可以移动到的位置。 点击高亮的格子完成移动。 AI 会在短暂停顿后自动回应。 通过将杀对手的国王来获胜 -- 使
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211190#reply3
+
+---
+
+#### 2556. [V2EX] 帮忙直升滴滴 v7 礼遇卡用户
+
+**问题描述 / Problem Description**:
+这个是滴滴会员匹配直升活动。 1.提供手机号我帮你升级曹操出行的黑钻用户。 2.你自己在去滴滴 APP 参加 v7 直升活动(提供曹操出行个人页面的黑钻用户截图即可领取，多张页面) 主要是拿滴滴 v7 三个月体验卡。 滴滴 V7 会员礼遇卡，90 天有效期， 内含 31 次快速应答，5 次无车赔，1 次特快优惠， 5 次免取消，5 次极速赔付，50 次行程意外险。 重点是领完后打车 10 次解锁华住会铂金，亚朵铂金，一次机场贵宾厅和三个月海底捞金海等权益。 每天 10-15 点才能上传 ​发我手机号即可，觉得实用打赏一瓶饮料，嘻嘻 base64:WTI5dmJB
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211166#reply22
+
+---
+
+#### 2557. [V2EX] Superalink 大陆 5 日套餐购买攻略（附折扣码）
+
+**问题描述 / Problem Description**:
+Superalink 大陆 5 日套餐购买攻略（附折扣码） 最近有 V 友问我 Superalink 怎么用，干脆整理成一篇，省得重复解释。 Ref: https://www.v2ex.com/t/1210180#reply38 套餐情况 我目前用的是大陆地区 5 日套餐，参数如下： 有效期：5 天 流量：每日 5GB （其中热点分享上限 2GB ） 原价：200 泰铢（约 42 元人民币） 折扣价：25 泰铢（约 5.26 元人民币）——需要折扣码，结算时选泰铢货币 折扣码： ROY000000 网址： https://www.superalink.com/destination/aff/R
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211147#reply6
+
+---
+
+#### 2558. [V2EX] deepseek-v4-flash 能力强大
+
+**问题描述 / Problem Description**:
+IEC 104 Slave Simulator 开发与调试记录 1. 方案设计 工作需要测试 IEC 104 通讯协议，重点实现数据发生功能。我打算用 C# 编写一个 IEC 104 的 Slave Simulator 。首先使用 Claude Code 做方案设计，与它反复确认后形成了一份详细的方案文档。 2. 初次编程 方案确定后，我将文档交给 Cursor 进行第一次编码。我是 Cursor 的付费用户，但当时额度已用完，只能使用 Auto mode 。生成代码后，用真实的 IEC 104 Master 连接测试，结果可以连上，却读取不到任何数据。奇怪的是，仿真器界面上数据显示是在变化的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211142#reply13
 
 ---
