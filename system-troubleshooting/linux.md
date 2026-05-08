@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2650**
+**总计条目 / Total entries: 2702**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -42231,5 +42231,681 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210727#reply45
+
+---
+
+#### 2651. Is there an ACTUAL reason for big Software to not support linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t6p94p/is_there_an_actual_reason_for_big_software_to_not/
+
+---
+
+#### 2652. Installed Linux for the First Time. Even Managed to Configure Pi-Hole For the Home Network. Everything Is Running Smoother Than Ever!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t6tm5e/installed_linux_for_the_first_time_even_managed/
+
+---
+
+#### 2653. AMD K5 CPUs (or really any i586 CPU without a TSC) the latest to see support removed from the Linux kernel. This follows the removal of i486 support in Linux 7.1.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t6twh0/amd_k5_cpus_or_really_any_i586_cpu_without_a_tsc/
+
+---
+
+#### 2654. Do you guys think that because linux is open source it has more discovered security vulnerabilities?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t6r1d8/do_you_guys_think_that_because_linux_is_open/
+
+---
+
+#### 2655. copy fail 2: electric boogaloo
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t6scrv/copy_fail_2_electric_boogaloo/
+
+---
+
+#### 2656. sqt -- SSH Quick Tunnel
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t6urlw/sqt_ssh_quick_tunnel/
+
+---
+
+#### 2657. I use arch and i think I'm nowhere near an advanced linux user
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t6wyy3/i_use_arch_and_i_think_im_nowhere_near_an/
+
+---
+
+#### 2658. ArcDLP - Desktop app to download videos and playlists from YouTube, Instagram, Twitter/X, Vimeo, SoundCloud and 1000+ other sites. Free, open source, zero setup.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t6wx6u/arcdlp_desktop_app_to_download_videos_and/
+
+---
+
+#### 2659. I have two T480s and want to use one as a daily driver and one as a clone/synced backup, either manually over cable from computer to computer or wirelessly with one attached to my router via ethernet cable. Thoughts?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t6t26k/i_have_two_t480s_and_want_to_use_one_as_a_daily/
+
+---
+
+#### 2660. Reddit in Terminal
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t6smlr/reddit_in_terminal/
+
+---
+
+#### 2661. Libreoffice UI suggestions
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6q7tr/libreoffice_ui_suggestions/
+
+---
+
+#### 2662. Why am I seeing "Failed password" if password auth is disabled in sshd log?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6txru/why_am_i_seeing_failed_password_if_password_auth/
+
+---
+
+#### 2663. Ubuntu is stuck at 800x600 resolution
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6wezf/ubuntu_is_stuck_at_800x600_resolution/
+
+---
+
+#### 2664. Fedora 43: Every time I update my system, Unity gets uninstalled
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6tjf7/fedora_43_every_time_i_update_my_system_unity/
+
+---
+
+#### 2665. Ayuda con mi laptop
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6tnvv/ayuda_con_mi_laptop/
+
+---
+
+#### 2666. Whats better Flatpak or the native package manager (apt, dnf, etc)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6tjdf/whats_better_flatpak_or_the_native_package/
+
+---
+
+#### 2667. Omarchy on Virtual Machine
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6whqh/omarchy_on_virtual_machine/
+
+---
+
+#### 2668. does anyone knows how to install wifi drivers for mt7921 in fedora 44
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6rhb9/does_anyone_knows_how_to_install_wifi_drivers_for/
+
+---
+
+#### 2669. Presentation maker with smooth/complex animations and good visual quality? (Keynote alternative)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6r56x/presentation_maker_with_smoothcomplex_animations/
+
+---
+
+#### 2670. GParted/ntfsresize cannot shrink Windows NTFS partition: “extra cluster in $Bitmap” even after chkdsk /f
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6qp11/gpartedntfsresize_cannot_shrink_windows_ntfs/
+
+---
+
+#### 2671. Question about long-term safety/security of T2Linux on a outdated 2020 MacBook Air
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6tegc/question_about_longterm_safetysecurity_of_t2linux/
+
+---
+
+#### 2672. YSK: Ubuntu released a workaround for copy.fail (CVE-2026-31431) but the fix is not obvious & it's probably already installed on your system
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6udmn/ysk_ubuntu_released_a_workaround_for_copyfail/
+
+---
+
+#### 2673. How do I install Ubuntu Desktop on an old Intel-based Mac?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6ub6c/how_do_i_install_ubuntu_desktop_on_an_old/
+
+---
+
+#### 2674. Instalar Ubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6shuh/instalar_ubuntu/
+
+---
+
+#### 2675. Instalar Ubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6sh0f/instalar_ubuntu/
+
+---
+
+#### 2676. What are my options for headless remote desktop?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6pgc0/what_are_my_options_for_headless_remote_desktop/
+
+---
+
+#### 2677. Turn off screen via ssh
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6qiv5/turn_off_screen_via_ssh/
+
+---
+
+#### 2678. Advise for choosing a distro that is right for my AIO
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6s9xx/advise_for_choosing_a_distro_that_is_right_for_my/
+
+---
+
+#### 2679. Help with dual booting into windows not getting found and a drive probably being stuck in hibernation
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6rvxv/help_with_dual_booting_into_windows_not_getting/
+
+---
+
+#### 2680. Omarchy on Virtual Machine
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6whfc/omarchy_on_virtual_machine/
+
+---
+
+#### 2681. Package managers comparison
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6vxo1/package_managers_comparison/
+
+---
+
+#### 2682. Help
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6pvnw/help/
+
+---
+
+#### 2683. I need help
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6ptbz/i_need_help/
+
+---
+
+#### 2684. Advise for choosing a distro that is right for my AIO
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6saui/advise_for_choosing_a_distro_that_is_right_for_my/
+
+---
+
+#### 2685. twatch - record, rewind, diff, and to Text&crops for TUI Apps.
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t6akdo/twatch_record_rewind_diff_and_to_textcrops_for/
+
+---
+
+#### 2686. [V2EX] 新一键 root 提权漏洞 dirtyfrag.io
+
+**问题描述 / Problem Description**:
+https://dirtyfrag.io 验证 git clone https://github.com/V4bel/dirtyfrag.git && cd dirtyfrag && gcc -O0 -Wall -o exp exp.c -lutil && ./exp
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211129#reply0
+
+---
+
+#### 2687. [V2EX] gemini 会员购买
+
+**问题描述 / Problem Description**:
+gemini 有开过的没？选哪个区比较优惠？国内双币卡支持支付么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211123#reply3
+
+---
+
+#### 2688. [V2EX] 在 BOSS 直聘找工作未果后，平台于是把我推给了朴朴配送员岗位
+
+**问题描述 / Problem Description**:
+不过倒也不意外，笑死。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211118#reply13
+
+---
+
+#### 2689. [V2EX] 在 AI coding 上的困境，想做个调研
+
+**问题描述 / Problem Description**:
+先说问题，不绕。。。。你们觉得目前你最常用的模型，在开放需求下它的功能、架构设计你能给它定多少年工作经验的程序员（或阿里 P 几水平）。 模型：gpt5.5 中（大部分功能设计，因为便宜），Claude Opus 4.6 我的困境： 如果我的需求过于开放，在 plan 的时候，架构功能设计质量非常不稳定，大多数时候在我擅长领域我认为只能达到 4 年的程序员水准。 如果我给的过于严格的边界和约束，那么会变成 AI 的上限就是我的上限，又太过于突出个人能力或者弱化了 AI 的能力。 如果我给的过于严格的边界和约束并且总是坚持我的想法，那就变成了我在教 AI 做事，这里大量的成本在我和 ai 的沟通
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211116#reply11
+
+---
+
+#### 2690. [V2EX] 蔚来 es6
+
+**问题描述 / Problem Description**:
+蔚来 es6 还值得买吗？ 租电 23w 起步， 纠结的点在于：架构是老平台，没前备箱，空间不足，都说现在入手是 49 年入国军，但是颜值 品牌都很喜欢。 续航本人不太关注，350-450 的续航足够了，南方城市，换电站充足，本人也没有长途需求 400v 平台和 800v 差别很大吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211109#reply14
+
+---
+
+#### 2691. [V2EX] 企业用 cursor 怎么最划算
+
+**问题描述 / Problem Description**:
+企业用 cursor 是买 ultra 划算还是买企业版的按量划算，有用过企业按量的吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211105#reply0
+
+---
+
+#### 2692. [V2EX] Codex 新增的 Chrome 插件有点猛，可以后台控制 Chromium 系浏览器了
+
+**问题描述 / Problem Description**:
+今天更新了一下 Codex ，发现它现在多了一个内置的 Google Chrome 插件，可以直接控制浏览器执行任务。 我试了一下，体验比预期强不少。它不是简单地“帮你点网页”，而是可以在后台跨浏览器页面工作，不影响你正常使用浏览器。也就是说，你可以继续用自己的浏览器做事，同时让 Codex 在另一个页面里跑任务。 更有意思的是，它还支持并行。比如可以启动多个 SubAgent ，让它们分别操作不同网页，相当于同时开几条浏览器任务线。 我目前发现最厉害的一点是：它不只支持 Chrome ，任何基于 Chromium 的浏览器好像都可以。 大概使用流程是： 在 Codex 插件库里找到 Chro
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211090#reply15
+
+---
+
+#### 2693. [V2EX] 现在哪里还能花最便宜的方式买到正品的 mac(mini|studio) 64GB 的装备？
+
+**问题描述 / Problem Description**:
+跑本地大模型用，不想要二手
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211073#reply3
+
+---
+
+#### 2694. [V2EX] 周末双休会选择去爬山吗？
+
+**问题描述 / Problem Description**:
+rt ，最近喜欢周末去爬周边的山，有没有徒步、登山的大佬介绍一下适合小白的一些必备的装备？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211069#reply62
+
+---
+
+#### 2695. [V2EX] 有使用 mise 的好兄弟吗？
+
+**问题描述 / Problem Description**:
+最近为 mise 开发了一个 GUI 软件，支持 windows/Mac/Linux 三大平台，用 Flutter 写的，完全开源，软件体积也很小，只有 20 多 mb ，欢迎各位有需要的开发者使用。 GitHub 地址： https://github.com/likaia/mise_gui/ 下载地址： https://github.com/likaia/mise_gui/releases 如果大家使用过程中遇到问题或者有什么优化建议，可以加入我的用户群大家一起交流。 致谢 同时也准备了一个支付宝的口令红包，再次感谢🎉。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211026#reply12
+
+---
+
+#### 2696. [V2EX] 你们的 ai agent 一般用哪些 web_search 工具？
+
+**问题描述 / Problem Description**:
+楼主用了 16 个工具 1.minimax （ cli+mcp ） 2.step 3.baidu 4.baidu ai search 5.tavily 6.doubao 7.bailian 8.exa 9.brave 10.linkup 11.serpapi 12.bocha 13.openai 14.grok 15.duckduckgo （ hermes agent 自带搜索工具） 16.gemini 目前这些都是免费的 之前楼主都是全部写入我的 agent ，然后让自己的 agent 装上，然后一股脑全部调用，然后发现太耗费 token 了， 然后就弄了个子 agent ，用 minima
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211001#reply6
+
+---
+
+#### 2697. [V2EX] superpowers 太慢了，每天的工作蹬不完，有没有功能相似但速度快的 skill
+
+**问题描述 / Problem Description**:
+superpowers 用了之后确实很显著，大多数东西需求都是一把过。但是 gpt5.5+xhigh 配合 superpowers 的 subagent ，就慢的不行。 如果 gpt5.5+xhigh 是刚需的情况下。有另外的方案推荐吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210981#reply20
+
+---
+
+#### 2698. [V2EX] 大家偏向买一个 coding agent 的高级会员还是多个的基础会员？
+
+**问题描述 / Problem Description**:
+我之前是 cursor ，codex ，kiro ，gemini ，copilot 啥的都开了基础会员，轮流着用了试试。但现在觉得都开还是太麻烦了。不知道大家倾向于开一个的高级会员还是多个的基础会员？ 还有比如不同 agent 的相同模型表现是不是差不多？例如 cursor ，kiro 和 antigravity 等都有 claude 模型。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210961#reply5
+
+---
+
+#### 2699. [V2EX] codex 对付费主题的版权保护很强啊
+
+**问题描述 / Problem Description**:
+想参考 shopify 的付费主题搞一套主题 demo ，结果提示 “我不能按 XXX 做 1:1 克隆，即使不商用也一样。原因不是代码层面，而是主题的版式组合、视觉细节、交互表现、素材和商品页/首页的具体呈现都属于受保护的商业主题表达”。 然后说“目标是合法可用的相近风格替代主题“，结果生成的交互基本上可以说是毫无关系。 最后使用 stitch 参考主题出了一版设计稿，再使用 codex + stitch mcp 的方式可以还原 80%。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210960#reply9
+
+---
+
+#### 2700. [V2EX] Antigravity 是不是彻底不能用了？
+
+**问题描述 / Problem Description**:
+每次请求都是 Agent Terminated due to error 错误 Trajectory ID: 69d98611-7e3e-4f62-888d-bf036a9722cd Error: HTTP 500 Internal Server Error Sherlog: TraceID: 0x766d55538d94b343 Headers: {"Alt-Svc":["h3=":443"; ma=2592000,h3-29=":443"; ma=2592000"],"Content-Length":["109"],"Content-Type":["text/event-stream"],
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210948#reply12
+
+---
+
+#### 2701. [V2EX] 小米 mimo-v2.5-pro . 在 cc 里面用, 感觉非常慢
+
+**问题描述 / Problem Description**:
+一个小任务, 跑了 30 分钟 才完成. 同样的任务, 用 gpt 5.5 很快搞定. 赠送的 plan 就是这么慢吗? 还是买的也这样, 体验确实不太好.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210932#reply8
+
+---
+
+#### 2702. [V2EX] 很久没来吐槽了~有些人真的太坏了。
+
+**问题描述 / Problem Description**:
+事情是这样的，跟风做了个拼多多福袋组队[地址就不发了，免得说推广]，机缘巧合 不知道被谁点名了 现在每天差不多组队 1-2W ，而且这玩意真的没啥变现能力，所以也没想太多 接口也没有加什么限流风控。 然后大概是前天下午 很多人在群里说根本抢不到码，还有人说发上去就被用了，但是一直组队不成功。 然后晚上有电脑了看了下 被一个 ip 是 47.120.24.251 的吊毛刷了 4000 多个福袋码。 这得搞不懂 这玩意有啥弄得。而且换句说话说 就算这玩意能赚钱 变现 但是盘子这么大 何必恶心别人。 后面问了几个也做的比较厉害的网友 说都被这个 ip 刷过。 真的人心险恶，好事不做 不赚钱的东西也坑
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210889#reply18
 
 ---
