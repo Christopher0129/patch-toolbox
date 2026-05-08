@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2702**
+**总计条目 / Total entries: 2747**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -42907,5 +42907,590 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210889#reply18
+
+---
+
+#### 2703. Proposal: Hidden English aliases / symlinks for localized XDG user directories (for terminal users in non-English locales)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t6zdgb/proposal_hidden_english_aliases_symlinks_for/
+
+---
+
+#### 2704. PWA Instance issue in KDE Plasma 6
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t737m8/pwa_instance_issue_in_kde_plasma_6/
+
+---
+
+#### 2705. Building a native Wispr Flow alternative :D
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t702gf/building_a_native_wispr_flow_alternative_d/
+
+---
+
+#### 2706. Dirty Frag Linux kernel LPE: technical analysis and mitigation
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t6xe9d/dirty_frag_linux_kernel_lpe_technical_analysis/
+
+---
+
+#### 2707. I made a simple bash backup utility for heavy build artifacts. Looking for feedback/criticism
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t6zovz/i_made_a_simple_bash_backup_utility_for_heavy/
+
+---
+
+#### 2708. Keyboard Layout - Caps Lock
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6z9bb/keyboard_layout_caps_lock/
+
+---
+
+#### 2709. What will I miss?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t72qu9/what_will_i_miss/
+
+---
+
+#### 2710. Apple Muisc
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7281d/apple_muisc/
+
+---
+
+#### 2711. VPN ( ChrootVPN ? )
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t71b38/vpn_chrootvpn/
+
+---
+
+#### 2712. Remove disks from LVM
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t70ire/remove_disks_from_lvm/
+
+---
+
+#### 2713. Considering to dual boot on my dell latitude 7390
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t704b3/considering_to_dual_boot_on_my_dell_latitude_7390/
+
+---
+
+#### 2714. Unable to add entry to fstab
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6z5w3/unable_to_add_entry_to_fstab/
+
+---
+
+#### 2715. im gonna dualboot two linux mint, how can i change the name or something like that of the grub menu
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t6y5yr/im_gonna_dualboot_two_linux_mint_how_can_i_change/
+
+---
+
+#### 2716. Anyone else having a surprisingly smooth experience with Ubuntu 26.04 LTS on newer hardware?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t71epc/anyone_else_having_a_surprisingly_smooth/
+
+---
+
+#### 2717. Dirty Frag on Ubuntu?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t703l5/dirty_frag_on_ubuntu/
+
+---
+
+#### 2718. What is the purpose of this folder 'snap'?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6ybkk/what_is_the_purpose_of_this_folder_snap/
+
+---
+
+#### 2719. Line chat app
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t71fe4/line_chat_app/
+
+---
+
+#### 2720. Facing this screen after laptop sleeps. After switching ubuntu 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t70x2s/facing_this_screen_after_laptop_sleeps_after/
+
+---
+
+#### 2721. did anyone notice ubuntu 26 consuming more resources than 24 version
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t705bm/did_anyone_notice_ubuntu_26_consuming_more/
+
+---
+
+#### 2722. Small problem
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6zep1/small_problem/
+
+---
+
+#### 2723. native driver?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t6ywjw/native_driver/
+
+---
+
+#### 2724. Sick of the Googleification of Samsung. Teach me about Linux phones like I'm 3yo
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t6zy3v/sick_of_the_googleification_of_samsung_teach_me/
+
+---
+
+#### 2725. What will I miss?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t72qi8/what_will_i_miss/
+
+---
+
+#### 2726. Best Distro for video call via discord on old laptop?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t71zvl/best_distro_for_video_call_via_discord_on_old/
+
+---
+
+#### 2727. Two separate games show up as the same steam app default
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7029q/two_separate_games_show_up_as_the_same_steam_app/
+
+---
+
+#### 2728. The terminal is still the integration point: why workdash was made
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t72yoo/the_terminal_is_still_the_integration_point_why/
+
+---
+
+#### 2729. [V2EX] 国产 CA 是不是风险有点高
+
+**问题描述 / Problem Description**:
+CA 私钥泄露，系统的所有流量都能被中间人攻击。国产的一堆 CA ，多数无强制证书透明 CT 日志，泄露了也不知道。 好像鸿蒙系统内置了很多国产 CA ，是不是风险有点大
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211244#reply4
+
+---
+
+#### 2730. [V2EX] AeonRiddles - 我开发的 LLM 驱动的解谜游戏
+
+**问题描述 / Problem Description**:
+各位 V 友，我是硅基猫，我之前发过我做的一些小项目，比如红色警戒 2 ，所以有的朋友应该认识我。 我现在开发一个通过 LLM 驱动的解谜游戏 ，名字叫做 AeonRiddles （永恒解谜），该游戏通过 LLM 进行驱动，动态生成谜题，由 AI 进行判定谜题是否通过。 目前该游戏包含两部分内容： LLM 驱动的海龟汤解谜游戏 海龟汤谜题，可能有的人听说过，有的人没听说过，这个是日本那边兴起的一种谜题风格，有汤面和汤底，所谓“汤面”是谜题的题目，而汤底当然就是谜题的答案了。 我开发的这个游戏可以通过 LLM 动态生成新的谜题，每次都不一样，非常有趣。 这是一个关于民俗的海龟汤游戏。 LLM 驱
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211239#reply0
+
+---
+
+#### 2731. [V2EX] openCode go + omo 使用效果一般，是我的姿势不对吗？
+
+**问题描述 / Problem Description**:
+如题，感觉 openCode go + omo 使用效果一般，而且 token 使用量耗费极大，一会儿就蹬没有了。 同样的提示语句： codex 一会儿就干完了，又快又对 glm5.1 + omo 很慢还写错好几遍 各位老哥有什么技巧可以传授一下吗？ opencode 相关的技巧都可以丢过来。 或者有没有 codex 20x 跟 claude 的中转不掺水的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211237#reply12
+
+---
+
+#### 2732. [V2EX] 多个云服务器、数据库、OSS、各种密钥如何让 AI 安全使用？
+
+**问题描述 / Problem Description**:
+自从 Vibe Coding 之后，自己能一把梭开发很多项目了， 云服务器、数据库、OSS 、各种密钥越来越多， 现在有点乱了，每个项目明文给 AI 这些东西总觉得有点不放心，（ AI 也会提示你不让明文） 现在我的做法是放一个.env 文件里，用 KEY-VALUE 的方式，同时这个.env 也不提交到仓库里。 这就带来了一个问题：我换一台电脑，就得重新配一套.env ，总觉得有点不方便。。。 兄弟们有没有更好的方法？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211234#reply0
+
+---
+
+#### 2733. [V2EX] chatgpt 的 /mnt/data 没法提取文件，问了一圈真无解
+
+**问题描述 / Problem Description**:
+chatgpt 对话过程中可以生成一些类似 .zip 文件和 .svg 文件，拿到的地址都是 /mnt/data 沙箱地址，但是这种没法把文件提取出来啊 有大神懂这个吗，实在没辙了😄
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211211#reply3
+
+---
+
+#### 2734. [V2EX] 高强度使用了半年 claude code 后，我终于无法忍受了，并且我发现了绝佳替代
+
+**问题描述 / Problem Description**:
+直接上菜： GenericAgent https://github.com/lsdefine/GenericAgent 本人基本信息 ：国内某 top3 的计算机博士在读，大模型方向。 最近对 cc 的使用情况 ： 我最近在 github trending 上关注了 GA 这个项目，并 高强度使用了一周多（完全接管我的科研+生活） ，然后我就 卸载了 cc 、codex 和 openclaw （但是感谢 cc 曾经在我的生命中出现过，不过 openclaw 你是真的垃圾啊）。。 那么有人问了，cc 那么屌，openclaw 被吹的那么神，有什么问题？ 我想但凡用过的人此时在心里都有答案了。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211200#reply26
+
+---
+
+#### 2735. [V2EX] HackerNews 上一个有趣的 1d chess 谜题，你能找到答案吗
+
+**问题描述 / Problem Description**:
+一维国际象棋是一种极简的国际象棋变体，在仅有八个格子的单行棋盘上进行。 每方只有三枚棋子 -- 国王、骑士和车。 这个游戏由传奇趣味数学家 Martin Gardner 构思， 最早发表于 1980 年 7 月他在《科学美国人》杂志上的《数学游戏》专栏。Gardner 提出了一个问题：假设双方都采用最优策略，白方是否存在必胜法? 你可以在点击 1d chess online 玩这个游戏 如何玩一维国际象棋 你执白方(左侧)，AI 控制黑方(右侧)。 点击一枚棋子选中它。绿色高亮显示它可以移动到的位置。 点击高亮的格子完成移动。 AI 会在短暂停顿后自动回应。 通过将杀对手的国王来获胜 -- 使
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211190#reply3
+
+---
+
+#### 2736. [V2EX] 当前学 agent 有必要学 langchain langgraph 吗，还是 cc,hermes,openclaw 先扒一扒源码
+
+**问题描述 / Problem Description**:
+感觉出圈的 agent 好像都不是 langchain langgraph 的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211167#reply5
+
+---
+
+#### 2737. [V2EX] 求助-App 出海上架 Google Play 需要用户测试条件如何满足？
+
+**问题描述 / Problem Description**:
+背景说明 2023 年 11 月 13 日起，Google Play 对新创建的个人开发者账号实施了强化审核政策： 新账号 （ 2023-11-13 后创建）上架应用前，必须完成 封闭式测试 要求至少 12 名测试人员 ，持续参与 ≥ 14 天 流程周期长、规则多，容易踩坑 你们如何满足这个条件呢？？有互助的 V 么？ 群定位 封闭式测试互助 上架被拒/审核问题的交流 互助解答，共渡审核关 征途是星辰大海 加群须知 ⚠️ 加群必须备注 ，格式如下： 已上架：AppName 或 等待上架：AppName 未备注者一律 不通过 。 有意者请直接扫码加群 https://ibb.co.com/twt
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211163#reply1
+
+---
+
+#### 2738. [V2EX] [开源自荐] OpenJobAutofill： AI 辅助、隐私优先的网申表单自动填写插件
+
+**问题描述 / Problem Description**:
+OpenJobAutofill：AI 辅助、隐私优先的网申表单自动填写插件 链接 开源仓库： https://github.com/Br1an67/OpenJobAutofill 介绍 OpenJobAutofill 是一个给网申表单用的浏览器插件，主要用来减少重复填写简历信息。 不同公司的招聘系统界面差异很大，但要填的内容其实很重复，比如姓名、手机号、邮箱、教育经历、实习经历、项目经历、证书、奖项、家庭信息等。这个项目就是想把这部分重复劳动省掉。 功能 本机保存简历资料，不上传云端 AI 只看页面字段和本地资料目录，不看资料值 支持 Brave / Chrome 开发者模式加载 支持常见输入
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211158#reply0
+
+---
+
+#### 2739. [V2EX] gemini 会员购买
+
+**问题描述 / Problem Description**:
+gemini 有开过的没？选哪个区比较优惠？国内双币卡支持支付么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211123#reply19
+
+---
+
+#### 2740. [V2EX] 在 AI coding 上的困境，想做个调研
+
+**问题描述 / Problem Description**:
+先说问题，不绕。。。。你们觉得目前你最常用的模型，在开放需求下它的功能、架构设计你能给它定多少年工作经验的程序员（或阿里 P 几水平）。 模型：gpt5.5 中（大部分功能设计，因为便宜），Claude Opus 4.6 我的困境： 如果我的需求过于开放，在 plan 的时候，架构功能设计质量非常不稳定，大多数时候在我擅长领域我认为只能达到 4 年的程序员水准。 如果我给的过于严格的边界和约束，那么会变成 AI 的上限就是我的上限，又太过于突出个人能力或者弱化了 AI 的能力。 如果我给的过于严格的边界和约束并且总是坚持我的想法，那就变成了我在教 AI 做事，这里大量的成本在我和 ai 的沟通
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211116#reply18
+
+---
+
+#### 2741. [V2EX] 目前 AI IDE 编程工具之前区别大吗？大家目前都用哪些工具和模型组合
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211100#reply5
+
+---
+
+#### 2742. [V2EX] 有使用 mise 的好兄弟吗？
+
+**问题描述 / Problem Description**:
+最近为 mise 开发了一个 GUI 软件，支持 windows/Mac/Linux 三大平台，用 Flutter 写的，完全开源，软件体积也很小，只有 20 多 mb ，欢迎各位有需要的开发者使用。 GitHub 地址： https://github.com/likaia/mise_gui/ 下载地址： https://github.com/likaia/mise_gui/releases 如果大家使用过程中遇到问题或者有什么优化建议，可以加入我的用户群大家一起交流。 致谢 同时也准备了一个支付宝的口令红包，再次感谢🎉。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211026#reply13
+
+---
+
+#### 2743. [V2EX] 你们的 ai agent 一般用哪些 web_search 工具？
+
+**问题描述 / Problem Description**:
+楼主用了 16 个工具 1.minimax （ cli+mcp ） 2.step 3.baidu 4.baidu ai search 5.tavily 6.doubao 7.bailian 8.exa 9.brave 10.linkup 11.serpapi 12.bocha 13.openai 14.grok 15.duckduckgo （ hermes agent 自带搜索工具） 16.gemini 目前这些都是免费的 之前楼主都是全部写入我的 agent ，然后让自己的 agent 装上，然后一股脑全部调用，然后发现太耗费 token 了， 然后就弄了个子 agent ，用 minima
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211001#reply8
+
+---
+
+#### 2744. [V2EX] superpowers 太慢了，每天的工作蹬不完，有没有功能相似但速度快的 skill
+
+**问题描述 / Problem Description**:
+superpowers 用了之后确实很显著，大多数东西需求都是一把过。但是 gpt5.5+xhigh 配合 superpowers 的 subagent ，就慢的不行。 如果 gpt5.5+xhigh 是刚需的情况下。有另外的方案推荐吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210981#reply23
+
+---
+
+#### 2745. [V2EX] codex 对付费主题的版权保护很强啊
+
+**问题描述 / Problem Description**:
+想参考 shopify 的付费主题搞一套主题 demo ，结果提示 “我不能按 XXX 做 1:1 克隆，即使不商用也一样。原因不是代码层面，而是主题的版式组合、视觉细节、交互表现、素材和商品页/首页的具体呈现都属于受保护的商业主题表达”。 然后说“目标是合法可用的相近风格替代主题“，结果生成的交互基本上可以说是毫无关系。 最后使用 stitch 参考主题出了一版设计稿，再使用 codex + stitch mcp 的方式可以还原 80%。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210960#reply10
+
+---
+
+#### 2746. [V2EX] Antigravity 是不是彻底不能用了？
+
+**问题描述 / Problem Description**:
+每次请求都是 Agent Terminated due to error 错误 Trajectory ID: 69d98611-7e3e-4f62-888d-bf036a9722cd Error: HTTP 500 Internal Server Error Sherlog: TraceID: 0x766d55538d94b343 Headers: {"Alt-Svc":["h3=":443"; ma=2592000,h3-29=":443"; ma=2592000"],"Content-Length":["109"],"Content-Type":["text/event-stream"],
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210948#reply13
+
+---
+
+#### 2747. Systemd service does not start automatically at boot, service is enabled
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, systemd, boot, systemctl | Score: 2 | Views: 790 | Answers: 1 | Created: 2024-11-22
+
+**解决方案 / Solution**:
+This works as expected: The unit file $ cat /etc/systemd/system/test_service.service [Unit] Description=Test Service After=network.target [Service] ExecStart=bash -c 'echo "Script started at $(date)"' Restart=no Type=oneshot User=root [Install] WantedBy=multi-user.target The service status $ systemctl status test_service.service ● test_service.service - Test Service Loaded: loaded (/etc/systemd/system/test_service.service; enabled; vendor preset: enabled) Active: inactive (dead) since Mon 2024-11-25 09:10:13 CET; 1min 55s ago Process: 1508 ExecStart=/usr/bin/bash -c echo "Script started at $(date)" (code=exited, status=0/SUC> Main PID: 1508 (code=exited, status=0/SUCCESS) Nov 25 09:10:13 myhost systemd[1]: Starting Test Service... Nov 25 09:10:13 myhost bash[1508]: Script started at Mo 25 Nov 2024 09:10:13 CET Nov 25 09:10:13 myhost systemd[1]: test_service.service: Succeeded. Nov 25 09:10:13 myhost systemd[1]: Finished Test Service. The log output $ journalctl -b 0 -xefu test_service.service -- Logs begin at Mon 2024-06-24 07:53:06 CEST. -- Nov 25 09:10:13 myhost systemd[1]: Starting Test Service... -- Subject: A start job for unit test_service.service has begun execution -- Defined-By: systemd -- Support: http://www.ubuntu.com/support -- -- A start job for unit test_service.service has begun execution. -- -- The job identifier is 225. Nov 25 09:10:13 myhost bash[1508]: Script started at Mo 25 Nov 2024 09:10:13 CET Nov 25 09:10:13 myhost systemd[1]: test_service.service: Succeeded. -- Subject: Unit succeeded -- Defined-By: systemd -- Support: http://www.ubuntu.com/support -- -- The unit test_service.service has successfully entered the 'dead' state. Nov 25 09:10:13 myhost systemd[1]: Finished Test Service. -- Subject: A start job for unit test_service.service has finished successfully -- Defined-By: systemd -- Support: http://www.ubuntu.com/support -- -- A start job for unit test_service.service has finished successfully. -- -- The job identifier is 225.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/787033/systemd-service-does-not-start-automatically-at-boot-service-is-enabled
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2441**
+**总计条目 / Total entries: 2494**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -35940,5 +35940,694 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1210569#reply14
+
+---
+
+#### 2442. This is fine. Ship it!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t7373g/this_is_fine_ship_it/
+
+---
+
+#### 2443. Problem with Macos x 10.8.5
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t709ly/problem_with_macos_x_1085/
+
+---
+
+#### 2444. macOS Intune-managed device certificate disappears temporarily, then comes back
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t6ziw0/macos_intunemanaged_device_certificate_disappears/
+
+---
+
+#### 2445. Close and open apps depending on power source?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t73ghb/close_and_open_apps_depending_on_power_source/
+
+---
+
+#### 2446. Issues upgrading from Sonoma
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t710sh/issues_upgrading_from_sonoma/
+
+---
+
+#### 2447. Amazon Prime app fullscreen issue in M1 MacBook Pro
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t710a2/amazon_prime_app_fullscreen_issue_in_m1_macbook/
+
+---
+
+#### 2448. Mac Wallpaper Shuffle does not work
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t6ywml/mac_wallpaper_shuffle_does_not_work/
+
+---
+
+#### 2449. Can't download League of Legends on my MacOS Tahoe.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t6xo2t/cant_download_league_of_legends_on_my_macos_tahoe/
+
+---
+
+#### 2450. Is there seriously no keyboard shortcut to open spelling suggestions?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t6x75l/is_there_seriously_no_keyboard_shortcut_to_open/
+
+---
+
+#### 2451. A lot of apps on not appearing under Notifications from iPhone on Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t6x4gc/a_lot_of_apps_on_not_appearing_under/
+
+---
+
+#### 2452. M5 MacBook Air 2026
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t72kzu/m5_macbook_air_2026/
+
+---
+
+#### 2453. Mac m1only works connected
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t70o6w/mac_m1only_works_connected/
+
+---
+
+#### 2454. Is it worth at this price
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t708m2/is_it_worth_at_this_price/
+
+---
+
+#### 2455. M1 Air display hinge cracked → repair at ₹40k or upgrade to M5 Air / MBP M5 Pro? Seeking advice
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t72sds/m1_air_display_hinge_cracked_repair_at_40k_or/
+
+---
+
+#### 2456. Starting business!
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t6y8qe/starting_business/
+
+---
+
+#### 2457. MacBook Air M5 - How much Battery Drain is normal in Sleep?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t71v3k/macbook_air_m5_how_much_battery_drain_is_normal/
+
+---
+
+#### 2458. Mac Neo or Air
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t6xdgx/mac_neo_or_air/
+
+---
+
+#### 2459. Online Workers with 8gb Ram
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t6ykdd/online_workers_with_8gb_ram/
+
+---
+
+#### 2460. Just got my first MacBook/laptop, what are some essentials?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t6ygxn/just_got_my_first_macbooklaptop_what_are_some/
+
+---
+
+#### 2461. Alarm volume too low
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t718v9/alarm_volume_too_low/
+
+---
+
+#### 2462. My left AirPod makes a loud sound when in transparent and when both AirPods are in
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t6zq8q/my_left_airpod_makes_a_loud_sound_when_in/
+
+---
+
+#### 2463. I can’t anything anymore on my iPad Air
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t73arn/i_cant_anything_anymore_on_my_ipad_air/
+
+---
+
+#### 2464. I can’t anything anymore on my iPad Air
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t739gj/i_cant_anything_anymore_on_my_ipad_air/
+
+---
+
+#### 2465. Anyone faced warranty issues with Apple products bought from Blinkit?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t737v7/anyone_faced_warranty_issues_with_apple_products/
+
+---
+
+#### 2466. Can't update apple account.
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t72pfg/cant_update_apple_account/
+
+---
+
+#### 2467. How can I delete google calendars from Apple Calendar?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t72ikr/how_can_i_delete_google_calendars_from_apple/
+
+---
+
+#### 2468. Ipad turned black and won’t turn on
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t72963/ipad_turned_black_and_wont_turn_on/
+
+---
+
+#### 2469. Airport Extreme 2 (5th Gen) firmware downgrade?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t726ld/airport_extreme_2_5th_gen_firmware_downgrade/
+
+---
+
+#### 2470. Any way to turn device sharing off in Family Sharing???
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t724f3/any_way_to_turn_device_sharing_off_in_family/
+
+---
+
+#### 2471. Age verification not working
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t719er/age_verification_not_working/
+
+---
+
+#### 2472. Does the “Apple Devices” computer app back up all my stuff iCloud would?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t6zf9b/does_the_apple_devices_computer_app_back_up_all/
+
+---
+
+#### 2473. Is it normal for an iPhone to vibrate when playing sounds in the middle of the screen?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t6yypj/is_it_normal_for_an_iphone_to_vibrate_when/
+
+---
+
+#### 2474. Passed loved one text recovery
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t6xipl/passed_loved_one_text_recovery/
+
+---
+
+#### 2475. [V2EX] Time Machine 无法备份到群晖
+
+**问题描述 / Problem Description**:
+有没有人遇到过和我相似的场景？ https://imgur.com/a/jfePhGj 无法访问网络备份磁盘，因为网络用户名或密码出现问题。你可能需要重新选择备份磁盘并输入正确的用户名和密码。 最奇怪的是 SMB 能正常连接读写文件，但是 TimeMachine 却告诉我账号密码错误。 目前我尝试用 MacBook Air M2 (Sequoia 15.7.5)和 Mac mini M4 (Tahoe 26.2)均不能备份。 关闭 mihomo 代理应用，也会出现这个问题。 在群晖上创建新的用户，给予 TimeMachine 共享文件夹的配置权限，也无法备份。 群晖按照官方教程进行配置。 ht
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211149#reply4
+
+---
+
+#### 2476. [V2EX] 写了个菜单栏 App，把 MacBook 合盖当小服务器用
+
+**问题描述 / Problem Description**:
+大家好，我最近写了一个 macOS 菜单栏小工具，叫 turnintoserver 。 开发这个 app 的初衷，是因为我自己遇到一个很具体的问题。 我有时候会把 MacBook 临时当一台小服务器用，比如跑 SSH 、远程桌面、局域网服务、开发服务器之类。接上电源以后，我希望合盖也能继续运行。 一开始我也试过市面上一些常见的防睡眠工具，比如 Amphetamine 这类 App Store 上很成熟的 app 。它们在“防止 Mac 睡眠”这件事上已经做得很好。 但我真正想要的不是单纯防睡眠。 我希望的是：MacBook 合盖以后继续跑服务，同时内建屏幕能够暗下来/熄掉，而且不要把外接显示器
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211160#reply9
+
+---
+
+#### 2477. [V2EX] Vibe 了个家庭资产管理 APP 全开源
+
+**问题描述 / Problem Description**:
+我自己一直都有记录家庭资产的习惯，但是我不认为那种记录每笔支出流水的方式是有必要。一来是太繁琐了，每一笔都要记，二是容易漏。所以我的做法是在每个月发工资的时候，记录每个账户的余额，只看总的变化，如果总开销在预期内就可以。 我的需求其实很简单，所以过去一年我只是用一个简单的 excel 记录就够了。但渐渐有些力不从心。 账户数量增多。我和媳妇两人现金，股票账户越开越多。我需要单独管理两人的账户 多币种变动。比如我持有人民币，美元，现在汇率波动巨大，如果转换为人民币，每次我都要手动查一下汇率。同时我想对每个月的汇率做个快照，每个月看汇率对资产的影响 其他类型资产。房产，设备等。虽然已经消费出去，但
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211135#reply3
+
+---
+
+#### 2478. [V2EX] 现在哪里还能花最便宜的方式买到正品的 mac(mini|studio) 64GB 的装备？
+
+**问题描述 / Problem Description**:
+跑本地大模型用，不想要二手
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211073#reply8
+
+---
+
+#### 2479. [V2EX] 友友们注意了，最近 iOS 渠道充值 ChatGPT 有大坑，是大坑！
+
+**问题描述 / Problem Description**:
+事情是这样的，朋友找我帮忙充值 ChatGPT ，我因为有土耳其+美区两个号，也就答应了。 我先去土耳其区上尝试订阅，提示我已有订阅，无法再买。 然后我试着去美区号，登录他的账户给他充原价的，付费成功了，结果 ChatGPT 提醒我已绑定其他账户，无法再买。 我了个去，但是他不退款啊！不！退！款！ 我的 ChatGPT 从 5 月 25 号（上次更新订阅时间），更新到了 6 月 6 号（昨天尝试时间）。 吞了我 20 天 plus ！ 官方文档是说，我可以申请 apple 的退款，可我这件事情也很纠结。 我怕退款给我封号，也怕因此被 openai 关注，因而失去低价区。 痛，太痛了！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210841#reply40
+
+---
+
+#### 2480. [V2EX] 实测 iOS loon 即使代理 push.apple.com 和相关域, tg 也无法正确推送. 需要在高级配置里面开启包含 APNS
+
+**问题描述 / Problem Description**:
+但是蛋疼的是, 一旦开了这个设置开关, Mac 就无法正常连 iPhone 的热点上网...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210438#reply10
+
+---
+
+#### 2481. [V2EX] 美区、港区 App Store 无法更新抖音了，求方法！
+
+**问题描述 / Problem Description**:
+我朋友港区，我自己美区，都无法更新抖音了，虽然软件还在已购里，但是无法重新下载。而且在存储里 Offload 以后，也无法 reload 回来。求下载回来的黑魔法？ 日常虽然用的少，但是作为一个运营，没办法脱离手机版本的抖音，工作需要，咋办？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210316#reply9
+
+---
+
+#### 2482. [V2EX] 苹果的信号是我误解了吗
+
+**问题描述 / Problem Description**:
+昨天去大运看演唱会，我隔壁的一个香港大姐全程都在发视频，无任何卡顿，而且我看她微信从来没有转圈圈过。看信号是全球通，双卡，手机 pin 是四位的，这个是不是意味着她的手机是比较旧款的 iPhone 。我自己的是 iPhone 15 PRO MAX 联通流量，一张图都发不出去。 突然深深的怀疑我过去十来年对 iPhone 信号差的观点是错的，问题出在哪里？我也想像她一样在高峰期有好的网络体验。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210120#reply91
+
+---
+
+#### 2483. [V2EX] Mac mini 配显示器，上 5K 还是高刷更重要？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210057#reply64
+
+---
+
+#### 2484. [V2EX] 最近很火的一个 roblox 游戏
+
+**问题描述 / Problem Description**:
+最近很火的一款游戏 slime rng, 游戏攻略： slime rng
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211232#reply0
+
+---
+
+#### 2485. [V2EX] 有人试过 MuMu 的 CLI 工具吗？配合 Claude 可以自动完成游戏日常了
+
+**问题描述 / Problem Description**:
+发现个真能躺平的东西。MuMu 新版内置了 CLI 工具，再装上免费的 mumu-control Skill ，你的 Claude 就能直接控制模拟器干活了。 你可以理解成：CLI 把模拟器染上色让 AI 看见，Skill 就是帮 AI 修好红绿色盲，配戴上就能精准截图、识别按钮、滑动点击。 我现在把日常杂事全交给 AI ，说句话就自动签到扫荡领体力。MuMu 和 Skill 都免费，自备 Claude 账号就行。时间省下来，安心打游戏。🎮
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211188#reply2
+
+---
+
+#### 2486. [V2EX] 有谁玩过 reachy mini AI 机器人吗？
+
+**问题描述 / Problem Description**:
+- 产品背靠 huggingface ，之前老黄在 CES 的播片演示看着挺唬人，最近由刷到它的一些视频，感觉 AI 陪伴确实需要一个实体化的产品。 - 299 起步，不带电池和预算单元，感觉有点小贵。隔壁 M5StackChan 99 刀感觉更容易入手。 - 硬件是国内 seeed studio ，玩过他们家的具身机械臂，感觉还行。 https://huggingface.co/reachy-mini
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211168#reply0
+
+---
+
+#### 2487. [V2EX] 帮忙直升滴滴 v7 礼遇卡用户
+
+**问题描述 / Problem Description**:
+这个是滴滴会员匹配直升活动。 1.提供手机号我帮你升级曹操出行的黑钻用户。 2.你自己在去滴滴 APP 参加 v7 直升活动(提供曹操出行个人页面的黑钻用户截图即可领取，多张页面) 主要是拿滴滴 v7 三个月体验卡。 滴滴 V7 会员礼遇卡，90 天有效期， 内含 31 次快速应答，5 次无车赔，1 次特快优惠， 5 次免取消，5 次极速赔付，50 次行程意外险。 重点是领完后打车 10 次解锁华住会铂金，亚朵铂金，一次机场贵宾厅和三个月海底捞金海等权益。 每天 10-15 点才能上传 ​发我手机号即可，觉得实用打赏一瓶饮料，嘻嘻 base64:WTI5dmJB
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211166#reply14
+
+---
+
+#### 2488. [V2EX] Superalink 大陆 5 日套餐购买攻略（附折扣码）
+
+**问题描述 / Problem Description**:
+Superalink 大陆 5 日套餐购买攻略（附折扣码） 最近有 V 友问我 Superalink 怎么用，干脆整理成一篇，省得重复解释。 Ref: https://www.v2ex.com/t/1210180#reply38 套餐情况 我目前用的是大陆地区 5 日套餐，参数如下： 有效期：5 天 流量：每日 5GB （其中热点分享上限 2GB ） 原价：200 泰铢（约 42 元人民币） 折扣价：25 泰铢（约 5.26 元人民币）——需要折扣码，结算时选泰铢货币 折扣码： ROY000000 网址： https://www.superalink.com/destination/aff/R
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211147#reply4
+
+---
+
+#### 2489. [V2EX] deepseek-v4-flash 能力强大
+
+**问题描述 / Problem Description**:
+IEC 104 Slave Simulator 开发与调试记录 1. 方案设计 工作需要测试 IEC 104 通讯协议，重点实现数据发生功能。我打算用 C# 编写一个 IEC 104 的 Slave Simulator 。首先使用 Claude Code 做方案设计，与它反复确认后形成了一份详细的方案文档。 2. 初次编程 方案确定后，我将文档交给 Cursor 进行第一次编码。我是 Cursor 的付费用户，但当时额度已用完，只能使用 Auto mode 。生成代码后，用真实的 IEC 104 Master 连接测试，结果可以连上，却读取不到任何数据。奇怪的是，仿真器界面上数据显示是在变化的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211142#reply7
+
+---
+
+#### 2490. [V2EX] 推特上一个占卜师 2022 年预测的 2023 新冠结束和 2026 汉坦病毒，这算是真来自未来吗？还是也只是什么什么蒙的原理。。
+
+**问题描述 / Problem Description**:
+原文： https://x.com/iamasoothsayer/status/1535494638391664641 polymarket 在下面评论的笑死我了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211117#reply8
+
+---
+
+#### 2491. [V2EX] Codex 推出了 Chrome 插件，可以直接用已登录 Chrome 做网页任务
+
+**问题描述 / Problem Description**:
+开启方式，到 Codex App 中的 Setting - Computer Use 安装插件 然后根据提示到 Chrome 安装插件 插件地址： https://chromewebstore.google.com/detail/codex/hehggadaopoacecdllhhajmbjkdcmajg 目前似乎只能通过官方的 Auth 进行使用，用 CPA 会提示 Codex auth token is unavailable 使用方面，本帖就是借助这个插件完成的创建，当然最后的内容还是人工输入的 有意思的是她运行到最后还会点击 V2EX 的预览渲染 hhh 我的提示词为 通过 Chrom
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211095#reply21
+
+---
+
+#### 2492. [V2EX] 大家发现了吗，现在前端开始流行 hover 时鼠标不变 pointer 了
+
+**问题描述 / Problem Description**:
+准确的说是 button 元素变了。这个潮流似乎是 Tailwind v4 带来的，连带着 AI 生成的代码也这样了，一开始我还以为是 bug ，没想到是 feature 。 你们怎么看，还习惯吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211082#reply26
+
+---
+
+#### 2493. [V2EX] 看到不少 V 友在抵制豆包，但现实用户却恰恰相反
+
+**问题描述 / Problem Description**:
+“我来问问豆包“ “问豆包啊” “你问问豆包” “豆包知道” …… 像这些口语已经开始慢慢代替百度。 现实生活中，豆包早已渗透进男女老少的日常生活，从小学生到老人，很多人都在使用。有人会说，他们不会科学上网，只能用豆包、没有别的选择，但这种说法其实也不完全准确。国内 AI 产品并不少，不过在现阶段，真正被普通大众广泛认知、知名度最高的，确实还是豆包。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210796#reply40
+
+---
+
+#### 2494. [V2EX] 三星的家电业务退出中国市场了
+
+**问题描述 / Problem Description**:
+停止销售的产品包括电视、显示器、大型商用显示器、空调、冰箱、洗衣机、干衣机、洗衣干衣一体机、衣物护理机、音响、投影仪、吸尘器、空气净化器等所有家用电器。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210675#reply63
 
 ---
