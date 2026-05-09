@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2851**
+**总计条目 / Total entries: 2914**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -44844,5 +44844,824 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1211100#reply8
+
+---
+
+#### 2852. With European nations switching to Linux, do you think professonal software companies will follow
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t7ob36/with_european_nations_switching_to_linux_do_you/
+
+---
+
+#### 2853. KDE Plasma 6.7 will support ICC profiles in HDR mode and improve direct scan-out
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t7qlfj/kde_plasma_67_will_support_icc_profiles_in_hdr/
+
+---
+
+#### 2854. Windows user tries linux for the first time
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t7r66o/windows_user_tries_linux_for_the_first_time/
+
+---
+
+#### 2855. The Beta 2 release of FreeBSD 15.1 updates Zstd to 1.5.7 and also fixes some bugs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t7qma0/the_beta_2_release_of_freebsd_151_updates_zstd_to/
+
+---
+
+#### 2856. Ah, when Linus decides to erudite, he does!!! Stole it from Gentoo subreddit ....
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t7qv37/ah_when_linus_decides_to_erudite_he_does_stole_it/
+
+---
+
+#### 2857. I dream of full portability
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7tr4a/i_dream_of_full_portability/
+
+---
+
+#### 2858. New to Linux, PC will not completely shutdown or restart. Need help please.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7qff4/new_to_linux_pc_will_not_completely_shutdown_or/
+
+---
+
+#### 2859. Securing my personal Linux Mint install
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7t7ze/securing_my_personal_linux_mint_install/
+
+---
+
+#### 2860. Trackpad randomly stops working
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7t30e/trackpad_randomly_stops_working/
+
+---
+
+#### 2861. Got Kernel Panic trying to boot Linux Mint on my laptop without a CMOS battery.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7nmku/got_kernel_panic_trying_to_boot_linux_mint_on_my/
+
+---
+
+#### 2862. Just for knowing which Browser are you using
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7n9mq/just_for_knowing_which_browser_are_you_using/
+
+---
+
+#### 2863. I'm trying to find a nice grub theme that supports 3440x1440 (2K UW)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7rs0p/im_trying_to_find_a_nice_grub_theme_that_supports/
+
+---
+
+#### 2864. Making the jump to linux. Need help choosing a distro
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7rmrh/making_the_jump_to_linux_need_help_choosing_a/
+
+---
+
+#### 2865. Is it really just me?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7rd2r/is_it_really_just_me/
+
+---
+
+#### 2866. This error pops up whenever I boot up
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7r24q/this_error_pops_up_whenever_i_boot_up/
+
+---
+
+#### 2867. PWA Instance issue in KDE Plasma 6
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7qmd2/pwa_instance_issue_in_kde_plasma_6/
+
+---
+
+#### 2868. Should I use kubuntu or mint
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7oxfu/should_i_use_kubuntu_or_mint/
+
+---
+
+#### 2869. Mint, Flatpak Geeqie...and Geeqie plugins not working
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7ostf/mint_flatpak_geeqieand_geeqie_plugins_not_working/
+
+---
+
+#### 2870. Pentestgpt on kalilinux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7ofew/pentestgpt_on_kalilinux/
+
+---
+
+#### 2871. Can't find certain packages in Rex image (bookworm)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7mudh/cant_find_certain_packages_in_rex_image_bookworm/
+
+---
+
+#### 2872. What phone do Linux users use?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7sqxf/what_phone_do_linux_users_use/
+
+---
+
+#### 2873. First time trying Linux!
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7pptp/first_time_trying_linux/
+
+---
+
+#### 2874. lifelong windows user here. I'm sick of the slop, where can I find a guide for stupid people like me to get away from windows and into linux. picture unrelated
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7nyu4/lifelong_windows_user_here_im_sick_of_the_slop/
+
+---
+
+#### 2875. What do you think of my Ubuntu 26.04 Desktop?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7qtjz/what_do_you_think_of_my_ubuntu_2604_desktop/
+
+---
+
+#### 2876. Screen frozen after running apt upgrade
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7t3z1/screen_frozen_after_running_apt_upgrade/
+
+---
+
+#### 2877. No es Hate.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7mcwv/no_es_hate/
+
+---
+
+#### 2878. Enabling Pro GUI bug
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7tlht/enabling_pro_gui_bug/
+
+---
+
+#### 2879. Windows HDD not detected when Ubuntu SSD is disconnected
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7nx6m/windows_hdd_not_detected_when_ubuntu_ssd_is/
+
+---
+
+#### 2880. Ubuntu Whisperer
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7s3to/ubuntu_whisperer/
+
+---
+
+#### 2881. ubuntu26.04をインストールできなくて困っています
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7r6se/ubuntu2604をインストールできなくて困っています/
+
+---
+
+#### 2882. Audio issues on Asus Zenbook S16 (UM5606GA) Ryzen AI 9 465
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7q2k5/audio_issues_on_asus_zenbook_s16_um5606ga_ryzen/
+
+---
+
+#### 2883. Audio issues on Asus Zenbook S16 (UM5606GA) Ryzen AI 9 465
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7q2bg/audio_issues_on_asus_zenbook_s16_um5606ga_ryzen/
+
+---
+
+#### 2884. Using since 1 year , gonna install arch soon.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7ozkz/using_since_1_year_gonna_install_arch_soon/
+
+---
+
+#### 2885. Help with redacter installation on VM.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7ntku/help_with_redacter_installation_on_vm/
+
+---
+
+#### 2886. How do I fix audio not outputting on a 2017 Intel Mac running Ubuntu 26.04?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7mh4o/how_do_i_fix_audio_not_outputting_on_a_2017_intel/
+
+---
+
+#### 2887. New to Linux, PC will not completely shutdown or restart. Need help please.
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7qk2j/new_to_linux_pc_will_not_completely_shutdown_or/
+
+---
+
+#### 2888. Looking for a keyboard navigation app on linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7p75l/looking_for_a_keyboard_navigation_app_on_linux/
+
+---
+
+#### 2889. Guys which linux distro is better for a begginer?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7sez9/guys_which_linux_distro_is_better_for_a_begginer/
+
+---
+
+#### 2890. How to get better at terminal using beginner friendly distro
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7u35v/how_to_get_better_at_terminal_using_beginner/
+
+---
+
+#### 2891. Want to resurrect old laptop with no Linux experience
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7mkc4/want_to_resurrect_old_laptop_with_no_linux/
+
+---
+
+#### 2892. Trouble with graphics on 24.04
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7pj1s/trouble_with_graphics_on_2404/
+
+---
+
+#### 2893. KDE Plasma: Shutdown & Restart Menu Buttons no longer work
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7o00z/kde_plasma_shutdown_restart_menu_buttons_no/
+
+---
+
+#### 2894. How to fix tinny sounding audio in Mint?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7sq1i/how_to_fix_tinny_sounding_audio_in_mint/
+
+---
+
+#### 2895. VAAPI RENDER ENGINE v3.6 (VBR/CBR CLEAN BUILD + CINEMATIC SCALING)
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7se8f/vaapi_render_engine_v36_vbrcbr_clean_build/
+
+---
+
+#### 2896. Install from phone
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7q33x/install_from_phone/
+
+---
+
+#### 2897. Can’t get obs vkcapture to work on prism launcher
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7ntuc/cant_get_obs_vkcapture_to_work_on_prism_launcher/
+
+---
+
+#### 2898. nav - a terminal file navigator that cd's your shell
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t7s364/nav_a_terminal_file_navigator_that_cds_your_shell/
+
+---
+
+#### 2899. [V2EX] 苹果最新妙控触摸板和 Linux 适配的好吗?
+
+**问题描述 / Problem Description**:
+鼠标滑轮有点粘手,打算试试苹果的触摸板,就是不知道适配的怎样.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210536#reply29
+
+---
+
+#### 2900. [V2EX] 升级到 fedora 44 后在 konsole 里打字时 cpu 占用很高的问题有 v 友也遇到了吗？
+
+**问题描述 / Problem Description**:
+fedora 42 在 konsole 打字时 konsole 进程的 cpu 占用是正常的，在按着按键不松的情况下连续输入同一个字符 konsole 进程的 cpu 占用只有百分之十几，升级到 fedora 44 后就变成将近百分之百了，我用 perf record 分析了一下 cpu 占用高的原因，结果如下： Samples: 12K of event 'cpu_core/cycles/P', Event count (approx.): 10384837753 Children Self Command Shared Object Symbol + 91.73% 0.00% konsol
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210067#reply10
+
+---
+
+#### 2901. [V2EX] 买猫卖猫问题，老婆到底赚了多少钱？
+
+**问题描述 / Problem Description**:
+老婆：老公，我今天花了 2000 买了一只猫，转手卖 2700 。 老公：牛啊牛啊，挣了 700~ 老婆：我又花了 3000 买回来了！ 老公：啥？ 老婆：我又卖了 3500 。 老公：那不就挣 200 吗？ 老婆：你再好好算算，是 200 么？ 老公：天王老子来了，也是 200 。 给各位一个合理划水的理由
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211386#reply12
+
+---
+
+#### 2902. [V2EX] 昨天某国产模型崩了半个小时，知乎上的好多人开香槟了，这也太奇葩了
+
+**问题描述 / Problem Description**:
+第一次看见这么多人讽刺
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211415#reply16
+
+---
+
+#### 2903. [V2EX] 基于 AI 的 Chrome 爬虫辅助插件
+
+**问题描述 / Problem Description**:
+基于 AI 的 Chrome 爬虫辅助插件，自动监听网络请求并解析 API 逻辑。 之前爬虫每次都去抓 API 然后丢给 AI 分析，很麻烦，写了个 Chrome 插件，直接去抓请求，然后丢给 AI 分析这个接口是做什么的，以及一些字段分析。 功能 自动抓取 ：实时捕获浏览器 Fetch/XHR 请求及其 Response 。 AI 接口分析 ：一键分析接口功能，自动推断字段含义及业务逻辑。 语义解析 ：让 AI 解释复杂的 JSON 结构，告别手动盲猜字段。 计划 多语言生成 ：一键生成 Python (requests/httpx), Go, Node.js 爬虫代码。 类型定义导出 ：自
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211407#reply1
+
+---
+
+#### 2904. [V2EX] 前端 harness 有搞头吗？后端用 supabase 的数据库，直接纯前端操作！
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211404#reply4
+
+---
+
+#### 2905. [V2EX] 兄弟们你们加薪最低的比例是多少，有没有像我一样的小丑
+
+**问题描述 / Problem Description**:
+绩优，加薪 4%
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211380#reply44
+
+---
+
+#### 2906. [V2EX] 分析一个技巧让同事不知道我使用了 ai ： git 忽略本地改动文件，实现不提交
+
+**问题描述 / Problem Description**:
+git 库中不存在的文件 可以修改 项目路径下的 .git/info/exclude 添加忽略规则，和 .gitignore 效果一致，但是不会被提交到 git 已经被提交的文件 例如如果你使用了我的 vite-plugin-pilot 插件 ，而不想被人知道的话可以通过如下命令实现 ## 添加忽略 git update-index --skip-worktree ./vite.config.ts ## 撤销 git update-index --no-skip-worktree <文件路径> # 或 git update-index --no-assume-unchanged <文件路径>
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211377#reply5
+
+---
+
+#### 2907. [V2EX] DeepSeek V4 Pro：处于前沿的首个中文模型
+
+**问题描述 / Problem Description**:
+https://foodtruckbench.com/blog/deepseek-v4-pro 5 次运行全部成功。中位数投资回报率（ ROI ）高达 +1,257%。中位数净资产达 $27,142 。 首个跻身 Opus 4.6 、GPT-5.2 和 Grok 4.3 （最新版）同等 ROI 梯队的中国模型； 在所有受测的高级模型中，其运行表现最为出色且稳定性最高。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211341#reply7
+
+---
+
+#### 2908. [V2EX] Codex 推出迁移工具，协助从其他 Agent 一键迁移到 Codex
+
+**问题描述 / Problem Description**:
+网址： https://chatgpt.com/codex/switch-to-codex/ 工作原理： Codex 应用会自动检测来自其他代理的现有配置 显示全局和项目级别的配置、技能、插件以及其他可复制的设置。 Codex 启动一个新聊天以完成迁移过程。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211328#reply15
+
+---
+
+#### 2909. [V2EX] 千问推出了 PC 语音输入，功能和 typeless 差不多
+
+**问题描述 / Problem Description**:
+巨头随手做的东西，就把一个创新赛道里的参赛者挤死大半。 比功能，巨头随便投入点人力就能碾压。 比营销，根本不是一个量级。 比财力，比模型，这都没法比啊。。 说的就是上半年国内蛮火的闪电说。 更何况后面还有豆包的语音输入法蓄势待发。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211319#reply14
+
+---
+
+#### 2910. [V2EX] 教你以「上下文信息密度」为第一性原理构建最强通用 Agent
+
+**问题描述 / Problem Description**:
+写在开头 FBI Warning⚠️：如果您没有使用过 ai 工具，没有相关的编程经验，或是对这个话题不敢兴趣，请您现在就退出当前页面。它将浪费你人生中宝贵的三分钟 友情提示：如果你想设计一个自己的 agent 或者想要深入理解 agent 如何高效运行，那么花 10 分钟理解本文会是你今年迄今为止对自己的时间做出的最值得的投资 想象一个项目工程，是做加法容易？还是减法容易？做一个通用 agent ，如何兼顾所有用户需求？如何能在简洁的前提下让一个有智慧的 agent 充分自举？ GitHub： https://github.com/juntao-ai/GenericAgent 论文： htt
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211308#reply46
+
+---
+
+#### 2911. [V2EX] 国产 CA 是不是风险有点高
+
+**问题描述 / Problem Description**:
+CA 私钥泄露，系统的所有流量都能被中间人攻击。国产的一堆 CA ，多数无强制证书透明 CT 日志，泄露了也不知道。 好像鸿蒙系统内置了很多国产 CA ，是不是风险有点大
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211244#reply12
+
+---
+
+#### 2912. [V2EX] openCode go + omo 使用效果一般，是我的姿势不对吗？
+
+**问题描述 / Problem Description**:
+如题，感觉 openCode go + omo 使用效果一般，而且 token 使用量耗费极大，一会儿就蹬没有了。 同样的提示语句： codex 一会儿就干完了，又快又对 glm5.1 + omo 很慢还写错好几遍 各位老哥有什么技巧可以传授一下吗？ opencode 相关的技巧都可以丢过来。 或者有没有 codex 20x 跟 claude 的中转不掺水的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211237#reply36
+
+---
+
+#### 2913. [V2EX] 多个云服务器、数据库、OSS、各种密钥如何让 AI 安全使用？
+
+**问题描述 / Problem Description**:
+自从 Vibe Coding 之后，自己能一把梭开发很多项目了， 云服务器、数据库、OSS 、各种密钥越来越多， 现在有点乱了，每个项目明文给 AI 这些东西总觉得有点不放心，（ AI 也会提示你不让明文） 现在我的做法是放一个.env 文件里，用 KEY-VALUE 的方式，同时这个.env 也不提交到仓库里。 这就带来了一个问题：我换一台电脑，就得重新配一套.env ，总觉得有点不方便。。。 兄弟们有没有更好的方法？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211234#reply2
+
+---
+
+#### 2914. [V2EX] 高强度使用了半年 claude code 后，我终于无法忍受了，并且我发现了绝佳替代
+
+**问题描述 / Problem Description**:
+直接上菜： GenericAgent https://github.com/lsdefine/GenericAgent 本人基本信息 ：国内某 top3 的计算机博士在读，大模型方向。 最近对 cc 的使用情况 ： 我最近在 github trending 上关注了 GA 这个项目，并 高强度使用了一周多（完全接管我的科研+生活） ，然后我就 卸载了 cc 、codex 和 openclaw （但是感谢 cc 曾经在我的生命中出现过，不过 openclaw 你是真的垃圾啊）。。 那么有人问了，cc 那么屌，openclaw 被吹的那么神，有什么问题？ 我想但凡用过的人此时在心里都有答案了。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211200#reply164
 
 ---

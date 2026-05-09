@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1291**
+**总计条目 / Total entries: 1311**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -23569,5 +23569,325 @@ Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-ann
 - http://www.vupen.com/english/advisories/2011/0012
 - https://bugzilla.redhat.com/show_bug.cgi?id=570528
 - https://rhn.redhat.com/errata/RHSA-2010-0622.html
+
+---
+
+#### 1292. CVE-2026-43309 - kernel: md raid: fix hang when stopping arrays with metadata through dm-raid
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: md raid: fix hang when stopping arrays with metadata through dm-raid. Bugzilla: 2468037
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468037
+
+---
+
+#### 1293. CVE-2026-43342 - kernel: usb: gadget: f_rndis: Protect RNDIS options with mutex
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: usb: gadget: f_rndis: Protect RNDIS options with mutex. Bugzilla: 2468039
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468039
+
+---
+
+#### 1294. CVE-2026-43345 - kernel: net: ipa: fix event ring index not programmed for IPA v5.0+
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: ipa: fix event ring index not programmed for IPA v5.0+. Bugzilla: 2468040
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468040
+
+---
+
+#### 1295. CVE-2026-43293 - kernel: media: chips-media: wave5: Fix kthread worker destruction in polling mode
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: media: chips-media: wave5: Fix kthread worker destruction in polling mode. Bugzilla: 2468044
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468044
+
+---
+
+#### 1296. CVE-2026-43285 - kernel: mm/slab: do not access current->mems_allowed_seq if !allow_spin
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: mm/slab: do not access current->mems_allowed_seq if !allow_spin. Bugzilla: 2468046
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468046
+
+---
+
+#### 1297. CVE-2026-43321 - kernel: bpf: Properly mark live registers for indirect jumps
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: bpf: Properly mark live registers for indirect jumps. Bugzilla: 2468047
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468047
+
+---
+
+#### 1298. CVE-2026-43298 - kernel: drm/amdgpu: Skip vcn poison irq release on VF
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: drm/amdgpu: Skip vcn poison irq release on VF. Bugzilla: 2468048
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468048
+
+---
+
+#### 1299. CVE-2025-71297 - kernel: wifi: rtw88: 8822b: Avoid WARNING in rtw8822b_config_trx_mode()
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: wifi: rtw88: 8822b: Avoid WARNING in rtw8822b_config_trx_mode(). Bugzilla: 2468053
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468053
+
+---
+
+#### 1300. CVE-2025-71296 - kernel: drm/tests: shmem: Hold reservation lock around purge
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: drm/tests: shmem: Hold reservation lock around purge. Bugzilla: 2468054
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468054
+
+---
+
+#### 1301. CVE-2026-43299 - kernel: btrfs: do not ASSERT() when the fs flips RO inside…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: btrfs: do not ASSERT() when the fs flips RO inside btrfs_repair_io_failure(). Bugzilla: 2468058
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468058
+
+---
+
+#### 1302. CVE-2026-43304 - kernel: libceph: define and enforce CEPH_MAX_KEY_LEN
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: libceph: define and enforce CEPH_MAX_KEY_LEN. Bugzilla: 2468062
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468062
+
+---
+
+#### 1303. CVE-2026-43288 - kernel: ext4: move ext4_percpu_param_init() before ext4_mb_init()
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ext4: move ext4_percpu_param_init() before ext4_mb_init(). Bugzilla: 2468063
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468063
+
+---
+
+#### 1304. CVE-2026-43343 - kernel: usb: gadget: f_subset: Fix unbalanced refcnt in geth_free
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: usb: gadget: f_subset: Fix unbalanced refcnt in geth_free. Bugzilla: 2468064
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468064
+
+---
+
+#### 1305. CVE-2026-43347 - kernel: arm64: dts: qcom: monaco: Reserve full Gunyah metadata region
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: arm64: dts: qcom: monaco: Reserve full Gunyah metadata region. Bugzilla: 2468065
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468065
+
+---
+
+#### 1306. CVE-2026-43319 - kernel: spi: spidev: fix lock inversion between spi_lock and buf_lock
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: spi: spidev: fix lock inversion between spi_lock and buf_lock. Bugzilla: 2468066
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468066
+
+---
+
+#### 1307. CVE-2026-43349 - kernel: f2fs: fix to avoid uninit-value access in f2fs_sanity_check_node_footer
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: f2fs: fix to avoid uninit-value access in f2fs_sanity_check_node_footer. Bugzilla: 2468067
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468067
+
+---
+
+#### 1308. CVE-2026-43291 - kernel: net: nfc: nci: Fix parameter validation for packet data
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: nfc: nci: Fix parameter validation for packet data. Bugzilla: 2468069
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468069
+
+---
+
+#### 1309. CVE-2025-71302 - kernel: drm/panthor: fix for dma-fence safe access rules
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: drm/panthor: fix for dma-fence safe access rules. Bugzilla: 2468072
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468072
+
+---
+
+#### 1310. CVE-2026-43295 - kernel: rapidio: replace rio_free_net() with kfree() in rio_scan_alloc_net()
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: rapidio: replace rio_free_net() with kfree() in rio_scan_alloc_net(). Bugzilla: 2468075
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468075
+
+---
+
+#### 1311. CVE-2026-43308 - kernel: btrfs: don't BUG() on unexpected delayed ref type in run_one_delayed_ref()
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: btrfs: don't BUG() on unexpected delayed ref type in run_one_delayed_ref(). Bugzilla: 2468076
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468076
 
 ---
