@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2914**
+**总计条目 / Total entries: 2981**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -45663,5 +45663,876 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1211200#reply164
+
+---
+
+#### 2915. How can I run a command using only the P or E or LPE cores on my Intel laptop?
+
+**问题描述 / Problem Description**:
+Tags: bash, intel-cpu | Score: 2 | Views: 47 | Answers: 1 | Created: 2026-05-04
+
+**解决方案 / Solution**:
+There are a few steps to this. I have written a script below and I'll explain the steps to get there. First, you can find out which CPUs are P, E, or LPE cores by reading the following files. If the file isn't there then there are none of that type of core. /sys/devices/cpu_core/cpus will give a range of all the P core CPUs (two per physical core with multithreading) /sys/devices/cpu_atom/cpus will give a range of all the E cores. /sys/devices/cpu_lowpower/cpus will give a range of all the LPE cores Now, to set a program to run on only specific cpus we use taskset . Conveniently the ranges we get from reading the files above are perfect for feeding directly to taskset -c . So we can run on just the E cores using this command: taskset -c $(cat /sys/devices/cpu_atom/cpus) command_to_run arguments And just the P cores using this command: taskset -c $(cat /sys/devices/cpu_core/cpus) command_to_run arguments And just LPE cores with this command: taskset -c $(cat /sys/devices/cpu_lowpower/cpus) command_to_run arguments Which brings us to the script below. It directs a command to the correct cores based on what is selected in the first argument, then passes the rest of the command to taskset. If there are none of the selected core type it exits and does nothing. #!/bin/bash # Function to display usage usage() { echo "Usage: $0 [-p | -e | -l] <command> [args...]" echo " -p : Run on P-Cores (Performance)" echo " -e : Run on E-Cores (Efficiency)" echo " -l : Run on LPE-Cores (Low Power Efficiency)" exit 1 } # Ensure at least two arguments are provided if [[ $# -lt 2 ]]; then usage fi MODE=$1 shift # Remove the flag from the argument list, leaving only the command COMMAND=("$@") # Map flags to sysfs directories case "$MODE" in -p) SYS_PATH="/sys/devices/cpu_core/cpus" ;; -e) SYS_PATH="/sys/devices/cpu_atom/cpus" ;; -l) SYS_PATH="/sys/devices/cpu_lowpower/cpus" ;; *) usage ;; esac # Check if the core type exists on this hardware if [[ ! -f "$SYS_PATH" ]]; then echo "Error: Requested core type ($MODE) not found on this system." exit 1 fi # Read the CPU range CPU_LIST=$(cat "$SYS_PATH") # Execute the command using taskset # "$@" ensures that spaces in arguments are preserved correctly exec taskset -c "$CPU_LIST" "${COMMAND[@]}"
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1566412/how-can-i-run-a-command-using-only-the-p-or-e-or-lpe-cores-on-my-intel-laptop
+
+---
+
+#### 2916. Do you read books on linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t7wf2m/do_you_read_books_on_linux/
+
+---
+
+#### 2917. Using a SSD for Windows and Linux as second drive
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7woyc/using_a_ssd_for_windows_and_linux_as_second_drive/
+
+---
+
+#### 2918. Macbook Neo levels of optimizations on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7xxgv/macbook_neo_levels_of_optimizations_on_linux/
+
+---
+
+#### 2919. present but questionably-existent btrfs snapshots in root subvol
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7w6i7/present_but_questionablyexistent_btrfs_snapshots/
+
+---
+
+#### 2920. Desktop effects were restarted due to a graphics reset
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t8041n/desktop_effects_were_restarted_due_to_a_graphics/
+
+---
+
+#### 2921. I can't get my fans to turn on playing on HP victus
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7zt7r/i_cant_get_my_fans_to_turn_on_playing_on_hp_victus/
+
+---
+
+#### 2922. Can EndeavourOS have any benefit over CachyOS?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7vlcs/can_endeavouros_have_any_benefit_over_cachyos/
+
+---
+
+#### 2923. System decided it can no longer find files or boot beyond initramfs, what can I do?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7yexj/system_decided_it_can_no_longer_find_files_or/
+
+---
+
+#### 2924. Audio pop is back in F44
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7w4m6/audio_pop_is_back_in_f44/
+
+---
+
+#### 2925. Help
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7x2dt/help/
+
+---
+
+#### 2926. Pink screen of death installing 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7v6oa/pink_screen_of_death_installing_2604/
+
+---
+
+#### 2927. Ubuntu Screen Flickering from Nvidia 595 and 580
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7wdzj/ubuntu_screen_flickering_from_nvidia_595_and_580/
+
+---
+
+#### 2928. Has Canonical turned off access from VPN?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7z4e0/has_canonical_turned_off_access_from_vpn/
+
+---
+
+#### 2929. Bluetooth devices and Wi-Fi networks not detected
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7yjnz/bluetooth_devices_and_wifi_networks_not_detected/
+
+---
+
+#### 2930. Dual boot fileshare Ubuntu x ParrotOS
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7yi7w/dual_boot_fileshare_ubuntu_x_parrotos/
+
+---
+
+#### 2931. Cannot change terminal (kgx) theme.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7xu0y/cannot_change_terminal_kgx_theme/
+
+---
+
+#### 2932. Dual boot fileshare Ubuntu x ParrotOS
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7yi26/dual_boot_fileshare_ubuntu_x_parrotos/
+
+---
+
+#### 2933. switching to linux for the first time, any tips?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t80g7c/switching_to_linux_for_the_first_time_any_tips/
+
+---
+
+#### 2934. Having trouble understanding installing things off GitHub
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7vxef/having_trouble_understanding_installing_things/
+
+---
+
+#### 2935. I can't get my fans to turn on playing on HP victus
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7zswn/i_cant_get_my_fans_to_turn_on_playing_on_hp_victus/
+
+---
+
+#### 2936. Problem during encryption of the disk during installation
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7z28c/problem_during_encryption_of_the_disk_during/
+
+---
+
+#### 2937. Why is Gentoo so hard to use?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7yluf/why_is_gentoo_so_hard_to_use/
+
+---
+
+#### 2938. Question about switching
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7q65z/question_about_switching/
+
+---
+
+#### 2939. I need help with an open source cli tool to maintain and add new features
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t7yua3/i_need_help_with_an_open_source_cli_tool_to/
+
+---
+
+#### 2940. PRISM: preview, sort, log, and undo messy folder cleanup from the terminal
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t5evi6/prism_preview_sort_log_and_undo_messy_folder/
+
+---
+
+#### 2941. [V2EX] 苹果最新妙控触摸板和 Linux 适配的好吗?
+
+**问题描述 / Problem Description**:
+鼠标滑轮有点粘手,打算试试苹果的触摸板,就是不知道适配的怎样.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210536#reply30
+
+---
+
+#### 2942. [V2EX] 写了个 Docker 容器无痛迁移工具
+
+**问题描述 / Problem Description**:
+支持增量迁移，自动识别 Compose depends_on 按依赖顺序恢复，以及 volume 和挂载卷。 背景是最近要把我的 Lightsail 和腾讯云，阿里云服务都迁移到 Hetzner 。 三家零零散散跑了十几个容器，有些是 Docker compose 启动，有些配置了 network ，手动迁移太痛苦了。 使用方式很简单： mico pack # 打包所有运行中的容器（以及镜像/配置/卷/网络配置）为一个 .zst 压缩包 mico unpack mico.zstd # 在目标服务器一键恢复，按依赖顺序自动重建 有需要的可以试试。 https://github.com/Ray-D
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211508#reply6
+
+---
+
+#### 2943. [V2EX] 我被 Claude Code 搞崩后，用了这个，爽歪了
+
+**问题描述 / Problem Description**:
+最近被 Claude Code 和 codex 搞崩了几次仓库后，发现现在很多 AI Coding 最大的问题已经不是“不会写代码”，而是改着改着就开始跑偏，需求越做越歪，AI 还特别喜欢生成一大堆繁杂代码，最后看半天都不知道它到底改了啥。。。 官方 spec-kit 我也试了，确实屌，AWS 也应用了这个企业级的框架，但感觉有点重。所以自己搞了个更轻量一点的 mini-spec-kit： mini-spec-kit 核心思路就是别让 AI 上来直接一顿乱改，而是先理解需求、确认范围，梳理需求，制定计划，对齐需求，再一步一步实现，然后自动测试。 比较适合 Claude Code 、Codex
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211492#reply0
+
+---
+
+#### 2944. [V2EX] 企业 AI 落地，审批预审是不是比聊天机器人更容易先跑出价值？
+
+**问题描述 / Problem Description**:
+最近在做企业系统 AI 自动化，越来越觉得第一个试点不一定要做聊天机器人。 比如财务付款审批里，有很多高频、明确、可复核的风险点： - 发票金额和申请金额是否一致。 - 付款公司和发票购买方是否一致。 - 收款公司和发票销售方是否一致。 - 同一发票号是否重复提交。 - 是否超过合同、订单、报价或预算额度。 - 附件是否缺合同、报价单、验收单。 我的想法是：第一阶段不让 AI 自动审批，只做预审。 AI 负责读附件和发票，规则引擎负责金额、主体、重复、额度这些确定性校验，然后在审批页输出 PASS / WARN / REJECT 和依据。 这样对原系统侵入小，也比较容易让财务复核准确率。 我整
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211488#reply5
+
+---
+
+#### 2945. [V2EX] BoxLite —— 2K star 纪念，非常感谢 V2EX 这个社区和朋友
+
+**问题描述 / Problem Description**:
+一开始 BoxLite 只是想作为一个嵌入式 library ，内核是 rust 写的 micro-VM 现在 BoxLite 已经进化到可以嵌入，可以本地化部署，可以集群部署 记得一开始不懂 V2EX 的规则，发的帖子侵入性太强，不过社区的包容性非常强，社区的朋友立马指出了 今天 BoxLite 进入 2k star ，很大的功劳要归功于 V2EX 社区一开始的支持～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211461#reply2
+
+---
+
+#### 2946. [V2EX] Serverless 里怎么处理需要建立长连接的外部资源？
+
+**问题描述 / Problem Description**:
+最近在 Cloudflare Workers 上接外部 Redis / Valkey ，发现传统 Node 服务那套“建一个 Redis client 然后复用连接”的思路不太行 Worker 会冷启动、冻结、恢复或回收，模块级 client 虽然能复用，但不像常驻进程里的连接池那么可靠。实际遇到的现象是：client 看起来 ready ，但 Redis 命令经常 timeout ，后续还会引发一些连带错误。尤其是从 cloudflare 阿姆斯特丹机房到 digital ocean 班加罗尔机房的连接质量差得离谱，已经超时到无法忍受了 我现在的临时处理是：Serverless 侧不直接维护
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211420#reply8
+
+---
+
+#### 2947. [V2EX] 基于 AI 的 Chrome 爬虫辅助插件
+
+**问题描述 / Problem Description**:
+基于 AI 的 Chrome 爬虫辅助插件，自动监听网络请求并解析 API 逻辑。 之前爬虫每次都去抓 API 然后丢给 AI 分析，很麻烦，写了个 Chrome 插件，直接去抓请求，然后丢给 AI 分析这个接口是做什么的，以及一些字段分析。 功能 自动抓取 ：实时捕获浏览器 Fetch/XHR 请求及其 Response 。 AI 接口分析 ：一键分析接口功能，自动推断字段含义及业务逻辑。 语义解析 ：让 AI 解释复杂的 JSON 结构，告别手动盲猜字段。 计划 多语言生成 ：一键生成 Python (requests/httpx), Go, Node.js 爬虫代码。 类型定义导出 ：自
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211407#reply13
+
+---
+
+#### 2948. [V2EX] 前端 harness 有搞头吗？后端用 supabase 的数据库，直接纯前端操作！
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211404#reply6
+
+---
+
+#### 2949. [V2EX] DeepSeek V4 Pro：处于前沿的首个中文模型
+
+**问题描述 / Problem Description**:
+https://foodtruckbench.com/blog/deepseek-v4-pro 5 次运行全部成功。中位数投资回报率（ ROI ）高达 +1,257%。中位数净资产达 $27,142 。 首个跻身 Opus 4.6 、GPT-5.2 和 Grok 4.3 （最新版）同等 ROI 梯队的中国模型； 在所有受测的高级模型中，其运行表现最为出色且稳定性最高。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211341#reply11
+
+---
+
+#### 2950. [V2EX] Codex 推出迁移工具，协助从其他 Agent 一键迁移到 Codex
+
+**问题描述 / Problem Description**:
+网址： https://chatgpt.com/codex/switch-to-codex/ 工作原理： Codex 应用会自动检测来自其他代理的现有配置 显示全局和项目级别的配置、技能、插件以及其他可复制的设置。 Codex 启动一个新聊天以完成迁移过程。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211328#reply23
+
+---
+
+#### 2951. [V2EX] 千问推出了 PC 语音输入，功能和 typeless 差不多
+
+**问题描述 / Problem Description**:
+巨头随手做的东西，就把一个创新赛道里的参赛者挤死大半。 比功能，巨头随便投入点人力就能碾压。 比营销，根本不是一个量级。 比财力，比模型，这都没法比啊。。 说的就是上半年国内蛮火的闪电说。 更何况后面还有豆包的语音输入法蓄势待发。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211319#reply29
+
+---
+
+#### 2952. [V2EX] 教你以「上下文信息密度」为第一性原理构建最强通用 Agent
+
+**问题描述 / Problem Description**:
+写在开头 FBI Warning⚠️：如果您没有使用过 ai 工具，没有相关的编程经验，或是对这个话题不敢兴趣，请您现在就退出当前页面。它将浪费你人生中宝贵的三分钟 友情提示：如果你想设计一个自己的 agent 或者想要深入理解 agent 如何高效运行，那么花 10 分钟理解本文会是你今年迄今为止对自己的时间做出的最值得的投资 想象一个项目工程，是做加法容易？还是减法容易？做一个通用 agent ，如何兼顾所有用户需求？如何能在简洁的前提下让一个有智慧的 agent 充分自举？ GitHub： https://github.com/juntao-ai/GenericAgent 论文： htt
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211308#reply61
+
+---
+
+#### 2953. [V2EX] openCode go + omo 使用效果一般，是我的姿势不对吗？
+
+**问题描述 / Problem Description**:
+如题，感觉 openCode go + omo 使用效果一般，而且 token 使用量耗费极大，一会儿就蹬没有了。 同样的提示语句： codex 一会儿就干完了，又快又对 glm5.1 + omo 很慢还写错好几遍 各位老哥有什么技巧可以传授一下吗？ opencode 相关的技巧都可以丢过来。 或者有没有 codex 20x 跟 claude 的中转不掺水的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211237#reply40
+
+---
+
+#### 2954. [V2EX] chatgpt 的 /mnt/data 没法提取文件，问了一圈真无解
+
+**问题描述 / Problem Description**:
+chatgpt 对话过程中可以生成一些类似 .zip 文件和 .svg 文件，拿到的地址都是 /mnt/data 沙箱地址，但是这种没法把文件提取出来啊 有大神懂这个吗，实在没辙了😄
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211211#reply6
+
+---
+
+#### 2955. [V2EX] 高强度使用了半年 claude code 后，我终于无法忍受了，并且我发现了绝佳替代
+
+**问题描述 / Problem Description**:
+直接上菜： GenericAgent https://github.com/lsdefine/GenericAgent 本人基本信息 ：国内某 top3 的计算机博士在读，大模型方向。 最近对 cc 的使用情况 ： 我最近在 github trending 上关注了 GA 这个项目，并 高强度使用了一周多（完全接管我的科研+生活） ，然后我就 卸载了 cc 、codex 和 openclaw （但是感谢 cc 曾经在我的生命中出现过，不过 openclaw 你是真的垃圾啊）。。 那么有人问了，cc 那么屌，openclaw 被吹的那么神，有什么问题？ 我想但凡用过的人此时在心里都有答案了。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211200#reply245
+
+---
+
+#### 2956. [V2EX] 当前学 agent 有必要学 langchain langgraph 吗，还是 cc,hermes,openclaw 先扒一扒源码
+
+**问题描述 / Problem Description**:
+感觉出圈的 agent 好像都不是 langchain langgraph 的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211167#reply10
+
+---
+
+#### 2957. systemd-journald writes an average of 16MB per hour!
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, systemd, systemd-journald | Score: 1 | Views: 465 | Answers: 2 | Created: 2025-04-18
+
+**解决方案 / Solution**:
+I thought of making a lot of comments under your question, but a) that would have been too much and b) probably would have amounted to what you wanted to know from an answer, even if it wasn't primarily focused on answering your discrete questions. So. Here goes an answer instead. sudo iotop -a […] systemd-journald: Over 3h40m it wrote 60MB! You're confusing throughput with accumulated data. If my (in this case Python, but any programming language will do) program does f = open("somelogfile.bin", "wb") while(True): f.seek(0) f.write(b"x") when you just count the numbers of bytes written per second, this program writes many megabytes per second, but all it really does is update the first byte over and over. ls -l somelogfile.bin would tell you that file is 1 B large. One of the features of systemd-journal's binary log format is that it's seekable and relatively crash-safe. To achieve that, it's probably updating some fields regularly, even if it's not appending new data. (The format is publicly documented. I'm too lazy to check.) (note that write buffers can further complicate the relationship between what updating a file and writing a file to disk means.) Now, first check: How large is your journal really? journalctl --disk-usage will tell you something like 512 MB (at least it does on my machine). That number will be roundabout constant, because systemd-journald scrubs previous logs when they are old enough and you're running above a certain size threshold. Next, check what's really going on in things that get logged: journalctl -b0 -x -f -e # ^ ^ ^ ^ # | | | | # \———————————— 0: current boot's logging only # | | | (ignore things that were logged during previous boots) # | | | # \———————— add a bit more explanation # | | # \————— follow the output as it comes in live # | # \— scroll to end will show you what your system logs. Add --user to see what your user services log. Is there something scrolling by at high speeds? if not, well, then no new things are logged. If yes, that's the problem, not your logging system! (don't shoot the messenger.) If too much is happening at once, it's possible to get a bit of statistics on what logged how many messages since last boot journalctl -b0 --output=cat --output-fields=UNIT | sort | uniq --count | sort -n In that command line you already recognize -b0 as meaning "this current boot", --output=cat tells journalctl to output unformatted text, and --output-fields=UNIT tells it to only output the unit that's logging the message (not the message, not the timestamp etc). sort sorts things alphabetically, uniq -c takes sorted input and prints the count of consecutive identical lines, and the final sort -n sorts the output of that numerically. Should I be worried about my SSD system disk? I can't tell you. But my SSDs are rated for a write volume of 3 Petabytes mean time to failure, so assuming you have a smaller one with lower-quality memory, say, it's rated for 0.5 PB MTTF. That means that at 16 MB/h, 0.5·10¹⁵ B / (16·10⁶ B/h) = 31250000 h = 3567.4 a; in other words, if you had 1000 disks experiencing exactly this write load, after 3567 years, 500 would have failed. You have one disk. You would need to assume a statistic model for when hard disks fail (they obviously don't all fail at the exact same second in 3567 years. Some will fail earlier, some later, the question is the *distribution of that), which nobody knows (a datacenter SSD manufacturer might share their statistics with their high-profile customers; Google will have enough statistics themselves to be able to estimate this themselves. We just can't know.). A common statistical model for device failures is an exponential model (a lightbulb can't fail twice). This can't be correct here in detail (that's due to wear leveling, necessary transforming the failure model of the individual flash cells), but it's a starting point. It has a cumulative distribution function: F ( t , λ ) = 1 - e - λt , where t is time, and λ is the rate , which we don't know yet. But by what "mean time to failure" means, we F ( t MTTF , λ ) = 0.5, so (log being the natural logarithm) 0.5 = 1 - e - λt MTTF 0.5 = e - λt MTTF log 0.5 = log e - λt MTTF = - λt MTTF · log e = - λt MTTF , yielding the realization that λ = - log 0.5 / t MTTF , and in our case, λ = - 0.693147 / 3567.4 [1/a] = 0.00019430 / a. Which, inserted in the original cumulative density function, F ( t ) = 1 - e -0.00019430· t , means that after a realistic lifetime of t =15 years, your SSD would still be working with a probability of 0.99709; in other words, if your low-quality SSD did nothing but write logs at this rate, you'd lose it to write load within 15 years with a probability of 3 in 1000. You're fine.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793914/systemd-journald-writes-an-average-of-16mb-per-hour
+
+---
+
+#### 2958. Cgroups permission denied on Ubuntu 22.04.5 but works on Ubuntu 22.04.03
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, cgroups | Score: 1 | Views: 439 | Answers: 1 | Created: 2025-04-17
+
+**解决方案 / Solution**:
+You may want to check if you should use cgroups v1 or v2 ( https://man7.org/linux/man-pages/man7/cgroups.7.html , look for the paragraph "Cgroups version 1 and version 2" and ... actually read the whole page.), as depending on the application's code (and your kernel version), some may support one or the other.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793886/cgroups-permission-denied-on-ubuntu-22-04-5-but-works-on-ubuntu-22-04-03
+
+---
+
+#### 2959. After crash, Ubuntu boots into boot menu
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, boot, troubleshooting | Score: 1 | Views: 138 | Answers: 1 | Created: 2025-03-19
+
+**解决方案 / Solution**:
+Normally, this shouldn't be a problem if the system boots normally after pressing the buttons multiple times. The Windows entry is from your old installation. First step: Edit your boot order in BIOS, remove both entries, add the device where Ubuntu is installed, and reboot. Second step (optional): Edit your boot order in BIOS again, optionally remove the device or keep the entry and add Ubuntu (if present), and reboot. See what works. I sometimes get the message even when nothing has happened before, when starting my laptop. My OS is on a USB stick, and I just switch the USB port, reboot and then it boots normally without changing anything in the BIOS. That's why I asked whether it's the USB or another device.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792704/after-crash-ubuntu-boots-into-boot-menu
+
+---
+
+#### 2960. IPIP tunnel between two docker containers on separate servers
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, iptables, docker, route, iproute | Score: 1 | Views: 195 | Answers: 2 | Created: 2025-03-08
+
+**解决方案 / Solution**:
+As I am not sure whether this is the reason this should probably rather be a comment than an answer but it is too much text for that... My guess is that DNAT does not work with all IP protocols. I do not see a reason why you should not be able to just rewrite IP addresses but I am not familiar with the kernel implementation so that does not mean much. There may be reasons. I remember that I once tried DNAT with IPsec packets, and that failed. I just did a quick search for what IP protocols iptables DNAT supports but did not find anything. And then I went completely crazy and had a look at the kernel source (never having done that before so without much hope) but I found this : static bool l4proto_manip_pkt(struct sk_buff *skb, unsigned int iphdroff, unsigned int hdroff, const struct nf_conntrack_tuple *tuple, enum nf_nat_manip_type maniptype) { switch (tuple->dst.protonum) { case IPPROTO_TCP: return tcp_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_UDP: return udp_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_UDPLITE: return udplite_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_SCTP: return sctp_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_ICMP: return icmp_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_ICMPV6: return icmpv6_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_DCCP: return dccp_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_GRE: return gre_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); } /* If we don't know protocol -- no error, pass it unmodified. */ return true; } I may completely misunderstand what is happening there but it seems to me that the set of protocols supported in NAT is quite limited and does not contain IPIP (or IPsec). So I guess it would make sense to try DNAT with GRE instead. If you give that a try I would be glad to know about the results.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792111/ipip-tunnel-between-two-docker-containers-on-separate-servers
+
+---
+
+#### 2961. Can't mount exfat external hard disk drive: "Volume was not properly unmounted."
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, external-hdd, exfat | Score: 1 | Views: 1214 | Answers: 1 | Created: 2025-03-04
+
+**解决方案 / Solution**:
+The issue could be caused by power fluctuations, software, or simply hardware failure or due to aging. No matter what you do, even if your system has 0% errors, you should always have backups of your most important data, that’s obvious. I would try the following steps, even if some of them might not make sense! I would create a backup of the hard drive first before performing the following steps with ddrescure or dd In which case should I prefer dd over GNU ddrescue? What's the difference between ddrescue, gddrescue, and dd_rescue? Why can't ddrescue just recover blocks used by the filesystem? Does it make sense to create a backup of the hard drive using ddrescue even if no files are being displayed? Yes, it absolutely makes sense to create a backup of the hard drive using ddrescue , even if no files are being displayed Data recovery Even if no files are displayed, the data might still be present on the hard drive but inaccessible due to file system errors or corruption. ddrescue copies the raw data of the hard drive sector by sector, regardless of the file system. This means it can recover data even if the file system is damaged. Safety Before attempting any repairs (e.g. with fsck or chkdsk), it’s crucial to have a backup. Repair tools can sometimes cause further damage, especially if the hard drive is already compromised. Bad sectors ddrescue is specifically designed to bypass bad sectors and recover as much data as possible. It attempts to copy readable sectors first and then returns to the bad sectors later to try reading them again. Other Sources and Comparison of disk cloning software: Comparison of disk cloning software Cloning data from a damaged SSD USB ports, cables, a different PC, and a different OS Try other USB ports. Use a different USB cable and also try other USB ports. If you're using a USB hub, repeat the same steps again. If the hub has its own power supply, try different cables for that as well. Use a different PC if possible and repeat the steps. If at all possible, try connecting the hard drive to a Windows PC and repeat the steps. In this post, I’ve compiled a small list of tools that you can use to search for errors, repair, or recover lost data, and there are even many more available: PC was hanging, "Physical Volumes: not OK (BAD)" Errors don’t only occur in the data area, your hardware itself could have issues due to age or other factors, like physical or virtual failures. Usually, a combination of different steps and tools, like the list above and others, is used to analyze errors, and not every report or tool is 100% accurate Check/display the file format again with sudo blkid /dev/sdb1 or sudo /sbin/blkid /dev/sdb1 file -s /dev/sda1 Try to mount it again, with the file format specified using -t and other file format Mounting with the wrong file format could cause the system to attempt repairs, potentially leading to damage. So be careful! sudo mount -t exfat /dev/sdb1 /media/myself/Medias sudo mount -t ntfs /dev/sdb1 /media/myself/Medias If not already installed, install NTFS support sudo apt-get install ntfs-3g sudo mount -t ntfs-3g /dev/sdb1 /media/myself/Medias Try updating the firmware of your SSD There is a risk of losing your SSD and the data stored on it when updating to a new firmware! How to update Samsung SSD firmware from Ubuntu? Is it possible to take an image of the firmware of HDD and SSD? If nothing has helped If there are critical files on it, a professional data recovery company or specialist with the necessary tools and hardware would be required. However, this can be very expensive. Consider your options carefully and always have backups in the future. What could have caused this SSD to be no longer recoverable?
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791951/cant-mount-exfat-external-hard-disk-drive-volume-was-not-properly-unmounted
+
+---
+
+#### 2962. `Sessions should be nested with care. Unset $TMUX to force.` using Byobu and Fish load on boot
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, tmux, fish, byobu | Score: 1 | Views: 890 | Answers: 1 | Created: 2025-02-27
+
+**解决方案 / Solution**:
+The issue is because Byobu and Fish are both creating a individual TMUX session, causing a fatal error. It seems the newer Ubuntu versions cannot handle this. So the solution is to get Byobu to handle loading Fish shell, instead of Fish itself. Note: This assumes that you can log into and use the root account. If you have been solely using root on your server and customising it, you really shouldn't have been - root needs to stay as it is, and only for debugging purposes. Firstly you need to deactivate Fish shell: Log into the system as root . DigitalOcean has a "Recovery Console" if you have deactivated SSH for the root account. Enter chsh -s $(which bash) foobar (Replace "foobar" with the username of the account that is having the issue). This will switch to using Bash shell for the account in question. Now you should be able you log into the account, and it will just load Byobu. If you now type fish it should load a Fish shell fine, but it won't persist when you next reboot or create a new shell. Warning: If you enter chsh -s $(which fish) , you will be back to square one. So you now need to make it persist: nano ~/.byobu/bin/.tmux.conf . Enter this, which will make Byobu load Fish shell on each new shell: set -g default-shell /usr/bin/fish set -g default-command /usr/bin/fish Hit Ctrl + X , y , and then return key. That will save the changes to the file. That's it! 🙌 Byobu will now handle loading a Fish shell.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791687/sessions-should-be-nested-with-care-unset-tmux-to-force-using-byobu-and-fis
+
+---
+
+#### 2963. On Ubuntu 26.04 Desktop how to lock Firefox version?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, firefox, readonly | Score: 0 | Views: 78 | Answers: 1 | Created: 2026-05-01
+
+**解决方案 / Solution**:
+On Ubuntu 26.04, Firefox is typically installed via Snap rather than APT, so apt-mark hold firefox won’t reliably stop updates anymore. If you want to lock the version, the correct approach is to use Snap’s hold feature instead: sudo snap refresh --hold firefox That will prevent Firefox from updating until you explicitly unhold it ( sudo snap refresh --unhold firefox ). You can also hold for a specific time using something like --hold=30d .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805741/on-ubuntu-26-04-desktop-how-to-lock-firefox-version
+
+---
+
+#### 2964. Cleaning-up previous kernel RPMs after reboot
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, awk, rpm | Score: 0 | Views: 142 | Answers: 2 | Created: 2025-10-23
+
+**解决方案 / Solution**:
+Not 100% accurate but simple enough: rpm -qa | awk -F- -v r="$(uname -r)" '$1 == "kernel" && !index($0, r)'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800706/cleaning-up-previous-kernel-rpms-after-reboot
+
+---
+
+#### 2965. rsync with --include-from breaks hardlinks (evec with -H)
+
+**问题描述 / Problem Description**:
+Tags: linux, rsync, hard-link | Score: 0 | Views: 94 | Answers: 1 | Created: 2025-10-21
+
+**解决方案 / Solution**:
+OK, the problem was simple. --includes-from= is waiting for regexp from files to import. My file didn't have regexp but file names, sometimes with spaces or other special character, making them ignored by --includes-from . The very simple solution is to use --files-from= and droping the others include and exlude .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800638/rsync-with-include-from-breaks-hardlinks-evec-with-h
+
+---
+
+#### 2966. Can I combine raid1 and dup BTRFS profiles?
+
+**问题描述 / Problem Description**:
+Tags: linux, btrfs, raid | Score: 0 | Views: 85 | Answers: 1 | Created: 2025-10-17
+
+**解决方案 / Solution**:
+I am not aware of a way to do that directly (i.e. with btrfs means only) but you could use LVM to split the devices in two parts, 95:5. Then add all four devices to the filesystem, set data to RAID1 and metadata to RAID1C4 . Warning There seems not to be a way to prevent btrfs from putting data on the small devices. And if they are full then the filesystem is "full". So you would have to check regularly for this problem ( btrfs device usage ) and run btrfs balance if necessary. But even if you just write 3% of the capacity at once you may run into severe problems. An alternative might be to have the small devices offline most of the time; then is it obviously impossible to put data on them. From time to time (while no data is being written) add them to the filesystem and run btrfs balance to update the metadata on the small devices.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800550/can-i-combine-raid1-and-dup-btrfs-profiles
+
+---
+
+#### 2967. this monitor resolution not supported
+
+**问题描述 / Problem Description**:
+Tags: linux, monitors, resolution | Score: 0 | Views: 85 | Answers: 1 | Created: 2025-10-15
+
+**解决方案 / Solution**:
+I assume this happens in all Linux's ? I mean, it's been two decades since I connected a screen via VGA (and 1920×1200 is definitely pretty much above what you want to transport in analog), but recognizing a new screen when told to detect it definitely worked relatively flawlessly back when VGA was still something I used with my Linux systems day-to-day and still works (I just tried with a USB VGA adapter that I use for other purposes, an 1280-wide old screen that still has a VGA input that I'm never using, and an old 1024-wide projector); I did have to xrandr --auto in between, because the electrical interface on VGA has no good provision to signal "you really need to ask the screen EEPROM for its data again". (I forget how the equivalent wlroots/wayland tool is called; it exists.) So, maybe you just need to run xrandr --auto or use your control center's screen dialogue to detect your new screen?
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800491/this-monitor-resolution-not-supported
+
+---
+
+#### 2968. Trying to install blueman but asks to remove pipewire
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, apt, pulseaudio, bluetooth, blueman | Score: 0 | Views: 176 | Answers: 1 | Created: 2025-10-07
+
+**解决方案 / Solution**:
+If you tell apt to ignore recommended packages, it should stop trying to install pulseaudio-module-bluetooth and allow PipeWire to remain installed: sudo apt install --no-install-recommends blueman I don’t know whether that will fix your Bluetooth problems but it should allow blueman to be installed. In Ubuntu 24.04, blueman can work with PipeWire; install libspa-0.2-bluetooth for that.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800273/trying-to-install-blueman-but-asks-to-remove-pipewire
+
+---
+
+#### 2969. How to trigger an action when a kernel driver produces an error
+
+**问题描述 / Problem Description**:
+Tags: linux, systemd-journald, amdgpu | Score: 0 | Views: 126 | Answers: 2 | Created: 2025-10-04
+
+**解决方案 / Solution**:
+With rsyslogd you can match the error message and run a program. Create a file such as /etc/rsyslog.d/99-myamdgpu.conf with the contents: module(load="omprog") if $msg contains 'the error message' then action(type="omprog" binary="/bin/myprog") and restart rsyslogd . The executable program or script /bin/myprog will be run when there is a message match. It will be provided with matching messages on stdin. If the program exits, it will be restarted again the next time a message matches. To debug you can add a filename to collect output from the program whilst testing, for example action(type="omprog" binary="/bin/myprog" output="/tmp/mylog") See omprog .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800201/how-to-trigger-an-action-when-a-kernel-driver-produces-an-error
+
+---
+
+#### 2970. CONFIG_NAMESPACES, CONFIG_USER_NS, and user.max_*_namespaces
+
+**问题描述 / Problem Description**:
+Tags: linux, namespace | Score: 0 | Views: 156 | Answers: 1 | Created: 2025-10-01
+
+**解决方案 / Solution**:
+If a kernel is built with CONFIG_NAMESPACES disabled, then no namespace support is available with that kernel, at all. That can’t then be changed at runtime. The same applies to CONFIG_USER_NS : if a kernel is built with that disabled, then no user namespace support is available with that kernel, and that can’t be changed at run time. A kernel with namespace support provides user.max_*_namespaces controls to limit namespace support at runtime. This doesn’t imply that namespaces are still usable if these controls are set to 0; if they are set to 0, then no one can create namespaces, which effectively means namespaces are not usable.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800126/config-namespaces-config-user-ns-and-user-max-namespaces
+
+---
+
+#### 2971. How to wrap source command in tcsh
+
+**问题描述 / Problem Description**:
+Tags: linux, alias, source, tcsh | Score: 0 | Views: 161 | Answers: 1 | Created: 2025-09-20
+
+**解决方案 / Solution**:
+% \source /dev/null source: Command not found. % "source" /dev/null source: Command not found. But: % source"" /dev/null % sourc\e /dev/null % Seem to be fine for some reason, so you can do: alias source 'echo Sourcing: \!* && sourc\e \!*' Beware of the limitations. First, that echo writes to stdout, so that output will end up in the middle of the output of the rest of the script. Ideally, you'd want to send that to stderr but (t)csh has no support for that. Also, tcsh's echo expands escape sequences. So here, you should probably do: alias source 'sh -c '\''"$0">&2 "%s\n" "Sourcing: $*"'\'' printf \!*; sourc\e \!*' Resorting to sh to be able to send to stderr and to printf to print the arguments verbatim. Then, that's an alias, just something replaced by something else before reinterpretation, not a function. (t)csh has no functions, so if you do something like: source file > output That becomes: echo Sourcing: file > output && sourc\e file > output Yes, > output , despite not being arguments to the command are included in the !* expansion which happens at lexical level. So here output is opened (and truncated) twice. That also explains why you must not put that !* inside double quotes. With: source file | cmd cmd | source file That becomes: echo Sourcing: file && sourc\e file | cmd cmd | echo Sourcing: file && sourc\e file In the second line, the output of cmd is fed to echo , not to source . In Bourne-like or rc-like shells, you could have used { ... } to group the two commands (or begin ... end in fish ), but there's no equivalent in (t)csh. (t)csh has some control statements such as foreach loops, but their parsing is very messy. For instance, you'd think you could do: foreach dummy (dummy) cmd1 cmd2 end To group 2 commands without starting a subshell, but that doesn't really work in practice. cmd1 || foreach dummy (dummy) cmd2 cmd3 end For instance would still run cmd2 and cmd3 if cmd1 succeeded, and would complain about the end because the foreach has been skipped earlier. Piping those statements also don't work. You'd also have a hard time making an alias for that, with things working in a version of tcsh but not another. As @cas says , there are many reasons why (t)csh should not be used especially for scripting, its ill-designed syntax and broken parser one of them. What about in Bourne-like shells Incidentally, wrapping . (the Bourne shell equivalent of csh 's source ; though some Bourne-like shells also support source as an alias or as a slightly different version of . ) is also tricky. First, not many shells support defining a function with . as its name. zsh , bash , mksh do, but generally others don't. POSIX-compliant shells don't allow redefining special builtins as functions, and . happens to be a POSIX special builtin. In the case of bash (the GNU implementation of sh ), it only allows you to redefine . if not in POSIX mode that is if it's not invoked as sh , without the -o posix option, without POSIXLY_CORRECT or SHELLOPTS=posix in the environment. Using a function wrapper also implies a separate variable scope and positional parameters, so even in zsh or bash not in POSIX mode (the only two that let you define a . function), if you do: # zsh . source() { print -ru2 Sourcing: ${(q+)@} builtin $0 "$@" } # bash trace() { local IFS=' ' printf>&2 'Sourcing: %s\n' "$*" } .() { trace "${@@Q}" builtin . "$@" } source() { trace "${@@Q}" builtin source "$@" } . ./file or: source ./file And the sourced file has: typeset -i n=3 That will make the i variable local to the . / source function, so no longer available after it returns. Same happens if the sourced file does set foo bar to modify the positional parameters. Another approach in Korn-like shells is to use the DEBUG trap which triggers before (after in ksh88) any command (pipeline in zsh; and not in subshells or functions in ksh93 or bash (unless extdebug is set)) and inside which in ksh93, bash or zsh, the about-to-be-executed command/pipeline is available in respectively ${.sh.command} , $BASH_COMMAND and $ZSH_DEBUG_CMD . Then in zsh, you could do: TRAPDEBUG() { local words=( "${(Q@)${(z)ZSH_DEBUG_CMD}}" ) if [[ $words[1] = (.|source) ]] print -ru2 Running: $ZSH_DEBUG_CMD } Which would trace all and-or lists (pipelines connected with || or && ) whose first word is source or . , even if quoted (the z flag above is to do zsh syntax tokenisation of the code in $ZSH_DEBUG_CMD , Q to do quote removal). As zsh moves redirections after commands in ZSH_DEBUG_CMD , that would also work in: $ </dev/null 'source' file | cat && echo OK Running: 'source' file < /dev/null | cat && echo OK If would not work for things like cmd | source file or cmd || source file (where the first word is cmd ) or $(echo source) file or ${var+source} file or var=value source file ... rc-like shells In rc or derivatives such as es or akanga , the command to source file is also . like in Bourne-like shells, and they let you redefine it as a function, so you can do: fn . {echo>[1=2] Sourcing: $*; builtin . $*} With the same caveat as in Bourne-like shells that if sourced files modify the positional parameters, those changes will be lost after the function returns. fish fish has both . and source and lets you redefine it as a function which can share the scope of its caller with -S / --no-scope-shadowing : function . --no-scope-shadowing echo>&2 Sourcing: $argv builtin . $argv end function source --no-scope-shadowing echo>&2 Sourcing: $argv builtin source $argv end With the same caveat as in Bourne-like or rc-like shells that if sourced files modify the positional parameters, those changes will be lost after the function returns.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799827/how-to-wrap-source-command-in-tcsh
+
+---
+
+#### 2972. Is there a list of every scancode that Linux uses?
+
+**问题描述 / Problem Description**:
+Tags: linux, keyboard, unicode | Score: 0 | Views: 334 | Answers: 1 | Created: 2025-09-18
+
+**解决方案 / Solution**:
+If you’re only looking for evdev codes, those are all defined in include/uapi/linux/input-event-codes.h in the kernel source code. If you have the appropriate packages installed, the codes known on your system are thus available in /usr/include/linux/input-event-codes.h : grep '#define KEY_' /usr/include/linux/input-event-codes.h
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799766/is-there-a-list-of-every-scancode-that-linux-uses
+
+---
+
+#### 2973. Union mount for Linux where lower directory's contents are protected
+
+**问题描述 / Problem Description**:
+Tags: linux, union-mount | Score: 0 | Views: 88 | Answers: 1 | Created: 2025-09-14
+
+**解决方案 / Solution**:
+macOS goes to considerable effort to merge system, shared, and personal Applications into one view. On Linux, it is possible to layer certain file systems, but there is no obvious mechanism to give the lower layer priority. overlayfs features in general assume the upper layer will be written, often the lower layer is not writable. Writing to the lower layer bypassing the overlay is not an option: "If the underlying filesystem is changed, the behavior of the overlay is undefined, though it will not result in a crash or deadlock." Linux has other similar layered file systems, always reinventing the wheel, but I will not take the time to cite them here. Regarding the use case of write-protected, even immutable software distros, review what Fedora Atomic Desktop is doing. System software is a full image, with a / without write permissions. Recent work makes the root with composefs where the kernel always denies writes. Also enabling strong integrity checks like fs-verity and Secure Boot. Additional personal software can be installed via Flatpak packages and containers. This is not the single merged directory you asked for, /var is where the writes really happen. Rather, software is accessed via desktop environment shortcuts or scripts to use containers. It has stronger protection than merely file system write permissions, with fs-verity on a read of a corrupted program will fail.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799697/union-mount-for-linux-where-lower-directorys-contents-are-protected
+
+---
+
+#### 2974. how to do ctags without binary files?
+
+**问题描述 / Problem Description**:
+Tags: linux, ctags | Score: 0 | Views: 135 | Answers: 1 | Created: 2025-09-09
+
+**解决方案 / Solution**:
+Produce a NUL-separated list of filenames: sudo find / -type f -print0 | \ Look at the first few bytes of each file, to see what "type" it is: xargs -0 -r sudo file | \ 3a. Eliminate "binary" files (adjust the regexp); grep -E -i -v ':.*\(binary|ELF\)' | \ OR 3b. Select the "source" files (adjust the regexp) grep -E -i ':.*\(source|C|include\)' | \ Separate the filenames (before the : ) from file 's description (after the : ): cut "-d:" -f1 | \ Feed the list of filenames to ctags : xargs -r ctags Code: sudo find / -type f -print0 | \ xargs -0 -r sudo file | \ grep -E -i ':.*\(source|C|include\)' | \ cut "-d:" -f1 | \ xargs -r ctags
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799579/how-to-do-ctags-without-binary-files
+
+---
+
+#### 2975. Linux: prevent filesystem remount
+
+**问题描述 / Problem Description**:
+Tags: linux, filesystems, mount | Score: 0 | Views: 127 | Answers: 1 | Created: 2025-09-08
+
+**解决方案 / Solution**:
+I am not aware of a general approach. And, of course, the question is: Whom are you defending against, a certain process or just anyone on a system even unconfined root? In the case of ro you can make the underlying block device read-only: blockdev --setro /dev/ram0 Of course, this just moves the question to: How do I prevent the block device from being set rw again...
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799563/linux-prevent-filesystem-remount
+
+---
+
+#### 2976. Recommendations on configuring docker on Ubuntu 22.04
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, docker | Score: 0 | Views: 122 | Answers: 1 | Created: 2025-09-01
+
+**解决方案 / Solution**:
+The package documentation ( /usr/share/doc/docker.io/README.Debian on your system) explains how to proceed: As noted in the upstream documentation ( https://docs.docker.io ), Docker will allow non-root users in the "docker" group to access "docker.sock" and thus communicate with the daemon. To add yourself to the "docker" group, use something like: adduser YOURUSER docker As also noted in the upstream documentation, the "docker" group (and any other means of accessing the Docker API) is root-equivalent. If you don't trust a user with root on your box, you shouldn't trust them with Docker either.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799370/recommendations-on-configuring-docker-on-ubuntu-22-04
+
+---
+
+#### 2977. SSH connection over from LAN to WireGuard VPN Peer drops after ~1 minute despite keepalive settings
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, ssh, openssh, wireguard | Score: 0 | Views: 711 | Answers: 1 | Created: 2025-08-31
+
+**解决方案 / Solution**:
+After digging deeper into the issue, I realized the problem wasn’t with SSH itself or with WireGuard’s MTU/keepalive settings, but with how my network routing was set up. Setup Laptop (192.168.100.111) -> Gateway/Firewall (192.168.100.1) -> Server hosting WireGuard (192.168.100.115) -> WireGuard Peer (10.0.0.8) Root Cause The problem was caused by asymmetric routing . Packets went through the firewall initially, which created a state entry and sent back an ICMP redirect. Replies from the WireGuard peer bypassed the firewall, so the firewall never saw the full handshake. When its state expired, packets fell back through the firewall and were dropped. This caused the SSH session to disconnect. See explanation of asymmetric routing for more details. Solution Added a direct route from my Laptop to the WireGuard Hosting Server into so traffic always goes through the WireGuard server and not the firewall from the router: sudo ip route add 10.0.0.0/24 via 192.168.100.115
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799327/ssh-connection-over-from-lan-to-wireguard-vpn-peer-drops-after-1-minute-despite
+
+---
+
+#### 2978. Assign second IP to logical network interface with pattern matching
+
+**问题描述 / Problem Description**:
+Tags: linux, ip-address | Score: 0 | Views: 90 | Answers: 1 | Created: 2025-08-23
+
+**解决方案 / Solution**:
+This is described in the Debian wiki here: https://wiki.debian.org/NetworkConfiguration#Multiple_IP_addresses_on_one_Interface You can have multiple blocks starting: iface eth inet6 static This lets you add multiple IP addresses. Just add another block with the “second” IP address: iface eth inet6 static address 2001:db8::baba/128 gateway fe80::1 iface eth inet6 static address 3fff::c0c0/64
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799371/assign-second-ip-to-logical-network-interface-with-pattern-matching
+
+---
+
+#### 2979. iptables NAT rules not forwarding DPDK TAP traffic to external interface
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, networking, vmware | Score: 0 | Views: 116 | Answers: 1 | Created: 2025-08-20
+
+**解决方案 / Solution**:
+Solved by my self. The linux kernel will check dest mac to see whether belongs to iteself and packet's check sum is incorret. Fix the two points it works as expect.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799026/iptables-nat-rules-not-forwarding-dpdk-tap-traffic-to-external-interface
+
+---
+
+#### 2980. How do I use AppArmor to disable the execution of specific executables from bash?
+
+**问题描述 / Problem Description**:
+Tags: linux, apparmor | Score: 0 | Views: 421 | Answers: 1 | Created: 2025-08-17
+
+**解决方案 / Solution**:
+The problem is that iptables was a symlink. Apparently symlinks can be used to bypass AppArmor. That's pathetic. I updated the policy to block xtables-legacy-multi and it worked fine. # ls -lh /usr/bin/iptables lrwxrwxrwx 1 root root 20 22 mar 18.58 /usr/bin/iptables -> xtables-legacy-multi # iptables -bash: /usr/bin/iptables: Permission denied
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798943/how-do-i-use-apparmor-to-disable-the-execution-of-specific-executables-from-bash
+
+---
+
+#### 2981. top memory utilization with less COMMAND width
+
+**问题描述 / Problem Description**:
+Tags: linux, ps | Score: 0 | Views: 139 | Answers: 4 | Created: 2025-08-09
+
+**解决方案 / Solution**:
+ps has a sort option ( --sort -%mem makes it sort by reverse memory), and awk can be used to print both the first (header) line and limit the output to, say, 10 lines ( NR < 12 ) after the header. awk can also truncate the number of fields by setting NF. With ps aux the command name will be the eleventh field, so you can set NF=11 . And then pipe the output into column -t to neaten up the output table. $ ps aux --sort -%mem | awk 'NR == 1 { print; next}; NR < 12 { NF=11; print}' | column -t USER PID %CPU %MEM VSZ RSS TTY STAT START TIME COMMAND libvirt+ 668952 2.0 2.7 8285148 1724120 ? Sl Jul26 450:40 /usr/bin/kvm cas 29168 2.9 2.3 29414904 1478788 ? Sl Jul25 672:12 /usr/lib/firefox/firefox cas 53759 1.1 2.0 6003316 1316688 ? Sl Jul25 275:40 /usr/lib/firefox/firefox cas 53895 1.0 1.6 20607700 1067724 ? Sl Jul25 251:17 /usr/lib/firefox/firefox cas 30775 0.5 1.4 3694240 939016 ? Sl Jul25 133:51 /usr/lib/firefox/firefox cas 28898 2.8 1.4 13569076 927556 ? Sl Jul25 660:44 /usr/bin/firefox.real cas 2100749 0.3 1.3 3571244 833112 ? Sl Jul28 63:00 /usr/lib/firefox/firefox cas 117454 10.1 1.0 34430888 684428 ? S<Ll Aug09 120:58 /usr/lib/chromium/chromium Or, using head as well as awk , just: $ ps aux --sort -%mem | head -n 11 | awk 'NF=11' | column -t Alternatively, you could concatenate all the fields from $11 to $NF and then use awk's substr() function to truncate the command & args to, say, 30 characters or whatever width you want...but that will mean the $11 will contain spaces which will mess up the output table unless you use -v OFS='\t' with awk and tell column to use tabs as the separator. e.g. something like: ps aux --sort -%mem | awk -v cmdlen=30 -v OFS='\t' ' NR < 12 { cmd = $11; for (i=12; i <= NF; i++) { cmd = cmd " " $i }; $11 = substr(cmd, 1, cmdlen); NF = 11; print; }' | column -t -s $'\t'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798662/top-memory-utilization-with-less-command-width
 
 ---
