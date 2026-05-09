@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1354**
+**总计条目 / Total entries: 1388**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -21843,5 +21843,549 @@ It was discovered that the Lua parser incorrectly handled garbage collection whe
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2468076
+
+---
+
+#### 1355. CVE-2005-3349
+
+**严重程度 / Severity**: N/A | CVSS: 1.9
+
+**漏洞描述 / Description**:
+GNU Gnump3d before 2.9.8 allows local users to modify or delete arbitrary files via a symlink attack on the index.lok temporary file.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/17646
+- http://secunia.com/advisories/17647
+- http://secunia.com/advisories/17656
+- http://www.debian.org/security/2005/dsa-901
+- http://www.gentoo.org/security/en/glsa/glsa-200511-16.xml
+
+---
+
+#### 1356. CVE-2005-3355
+
+**严重程度 / Severity**: N/A | CVSS: 6.4
+
+**漏洞描述 / Description**:
+Directory traversal vulnerability in GNU Gnump3d before 2.9.8 has unknown impact via "CGI parameters, and cookie values".
+
+**参考链接 / References**:
+- http://secunia.com/advisories/17646
+- http://secunia.com/advisories/17647
+- http://secunia.com/advisories/17656
+- http://www.debian.org/security/2005/dsa-901
+- http://www.gentoo.org/security/en/glsa/glsa-200511-16.xml
+
+---
+
+#### 1357. CVE-2005-4807
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Stack-based buffer overflow in the as_bad function in messages.c in the GNU as (gas) assembler in Free Software Foundation GNU Binutils before 20050721 allows attackers to execute arbitrary code via a .c file with crafted inline assembly code.
+
+**参考链接 / References**:
+- http://bugs.gentoo.org/show_bug.cgi?id=99464
+- http://secunia.com/advisories/21508
+- http://secunia.com/advisories/21530
+- http://www.osvdb.org/27960
+- http://www.securityfocus.com/bid/19555
+
+---
+
+#### 1358. CVE-2005-4808
+
+**严重程度 / Severity**: N/A | CVSS: 7.6
+
+**漏洞描述 / Description**:
+Buffer overflow in reset_vars in config/tc-crx.c in the GNU as (gas) assembler in Free Software Foundation GNU Binutils before 20050714 allows user-assisted attackers to have an unknown impact via a crafted .s file.
+
+**参考链接 / References**:
+- http://sources.redhat.com/bugzilla/show_bug.cgi?id=1069
+- http://www.ubuntu.com/usn/usn-366-1
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/44661
+- http://sources.redhat.com/bugzilla/show_bug.cgi?id=1069
+- http://www.ubuntu.com/usn/usn-366-1
+
+---
+
+#### 1359. CVE-2006-0645
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Tiny ASN.1 Library (libtasn1) before 0.2.18, as used by (1) GnuTLS 1.2.x before 1.2.10 and 1.3.x before 1.3.4, and (2) GNU Shishi, allows attackers to crash the DER decoder and possibly execute arbitrary code via "out-of-bounds access" caused by invalid input, as demonstrated by the ProtoVer SSL test suite.
+
+**参考链接 / References**:
+- http://josefsson.org/cgi-bin/viewcvs.cgi/gnutls/tests/certder.c?view=markup
+- http://josefsson.org/cgi-bin/viewcvs.cgi/libtasn1/NEWS?root=gnupg-mirror&view=markup
+- http://josefsson.org/gnutls/releases/libtasn1/libtasn1-0.2.18-from-0.2.17.patch
+- http://lists.gnupg.org/pipermail/gnutls-dev/2006-February/001058.html
+- http://lists.gnupg.org/pipermail/gnutls-dev/2006-February/001059.html
+
+---
+
+#### 1360. CVE-2006-0455
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+
+**漏洞描述 / Description**:
+gpgv in GnuPG before 1.4.2.1, when using unattended signature verification, returns a 0 exit code in certain cases even when the detached signature file does not carry a signature, which could cause programs that use gpgv to assume that the signature verification has succeeded.  Note: this also occurs when running the equivalent command "gpg --verify".
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20060401-01-U
+- http://fedoranews.org/updates/FEDORA-2006-116.shtml
+- http://lists.gnupg.org/pipermail/gnupg-announce/2006q1/000211.html
+- http://marc.info/?l=gnupg-devel&m=113999098729114&w=2
+- http://secunia.com/advisories/18845
+
+---
+
+#### 1361. CVE-2006-0049
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+gpg in GnuPG before 1.4.2.2 does not properly verify non-detached signatures, which allows attackers to inject unsigned data via a data packet that is not associated with a control packet, which causes the check for concatenated signatures to report that the signature is valid, a different vulnerability than CVE-2006-0455.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20060401-01-U
+- http://lists.gnupg.org/pipermail/gnupg-announce/2006q1/000216.html
+- http://lists.suse.de/archive/suse-security-announce/2006-Mar/0003.html
+- http://secunia.com/advisories/19173
+- http://secunia.com/advisories/19197
+
+---
+
+#### 1362. CVE-2006-1712
+
+**严重程度 / Severity**: N/A | CVSS: 2.6
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in the private archive script (private.py) in GNU Mailman 2.1.7 allows remote attackers to inject arbitrary web script or HTML via the action argument.
+
+**参考链接 / References**:
+- http://bugs.gentoo.org/show_bug.cgi?id=129136
+- http://mail.python.org/pipermail/mailman-announce/2006-April/000084.html
+- http://secunia.com/advisories/19558
+- http://securitytracker.com/id?1015876
+- http://www.mail-archive.com/mailman-checkins%40python.org/msg06273.html
+
+---
+
+#### 1363. CVE-2006-1902
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+fold_binary in fold-const.c in GNU Compiler Collection (gcc) 4.1 improperly handles pointer overflow when folding a certain expr comparison to a corresponding offset comparison in cases other than EQ_EXPR and NE_EXPR, which might introduce buffer overflow vulnerabilities into applications that could be exploited by context-dependent attackers.NOTE: the vendor states that the essence of the issue is "not correctly interpreting an offset to a pointer as a signed value."
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=356896
+- http://gcc.gnu.org/bugzilla/show_bug.cgi?id=26763
+- http://gcc.gnu.org/ml/gcc-bugs/2006-04/msg01297.html
+- http://gcc.gnu.org/ml/gcc-bugs/2006-04/msg01298.html
+- http://gcc.gnu.org/viewcvs/branches/gcc-4_1-branch/gcc/fold-const.c?r1=110549&r2=112698&pathrev=112698&diff_format=h
+
+---
+
+#### 1364. CVE-2006-2362
+
+**严重程度 / Severity**: HIGH | CVSS: 7.3
+
+**漏洞描述 / Description**:
+Buffer overflow in getsym in tekhex.c in libbfd in Free Software Foundation GNU Binutils before 20060423, as used by GNU strings, allows context-dependent attackers to cause a denial of service (application crash) and possibly execute arbitrary code via a file with a crafted Tektronix Hex Format (TekHex) record in which the length character is not a valid hexadecimal character.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2007/Oct/msg00001.html
+- http://secunia.com/advisories/20188
+- http://secunia.com/advisories/20531
+- http://secunia.com/advisories/20550
+- http://secunia.com/advisories/22932
+
+---
+
+#### 1365. CVE-2006-2413
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+GNUnet before SVN revision 2781 allows remote attackers to cause a denial of service (infinite loop and CPU consumption) via an empty UDP datagram, possibly involving FIONREAD errors.
+
+**参考链接 / References**:
+- http://aluigi.altervista.org/adv/gnunetzero-adv.txt
+- http://secunia.com/advisories/20096
+- http://securityreason.com/securityalert/907
+- http://www.securityfocus.com/archive/1/433933/100/0/threaded
+- http://www.securityfocus.com/bid/17980
+
+---
+
+#### 1366. CVE-2006-3082
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+parse-packet.c in GnuPG (gpg) 1.4.3 and 1.9.20, and earlier versions, allows remote attackers to cause a denial of service (gpg crash) and possibly overwrite memory via a message packet with a large length (long user ID string), which could lead to an integer overflow, as demonstrated using the --no-armor option.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20060701-01-U
+- http://cvs.gnupg.org/cgi-bin/viewcvs.cgi/trunk/g10/parse-packet.c?rev=4157&r1=4141&r2=4157
+- http://seclists.org/lists/fulldisclosure/2006/May/0774.html
+- http://seclists.org/lists/fulldisclosure/2006/May/0782.html
+- http://seclists.org/lists/fulldisclosure/2006/May/0789.html
+
+---
+
+#### 1367. CVE-2006-3619
+
+**严重程度 / Severity**: N/A | CVSS: 2.6
+
+**漏洞描述 / Description**:
+Directory traversal vulnerability in FastJar 0.93, as used in Gnu GCC 4.1.1 and earlier, and 3.4.6 and earlier, allows user-assisted attackers to overwrite arbitrary files via a .jar file containing filenames with "../" sequences.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20070602-01-P.asc
+- http://gcc.gnu.org/bugzilla/show_bug.cgi?id=28359
+- http://lists.debian.org/debian-gcc/2006/05/msg00317.html
+- http://lists.grok.org.uk/pipermail/full-disclosure/2007-September/065902.html
+- http://rhn.redhat.com/errata/RHSA-2007-0473.html
+
+---
+
+#### 1368. CVE-2006-3746
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Integer overflow in parse_comment in GnuPG (gpg) 1.4.4 allows remote attackers to cause a denial of service (segmentation fault) via a crafted message.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20060801-01-P
+- http://bugs.debian.org/cgi-bin/bugreport.cgi/gnupg.CVE-2006-3746.diff?bug=381204%3Bmsg=15%3Batt=1
+- http://issues.rpath.com/browse/RPL-560
+- http://lists.immunitysec.com/pipermail/dailydave/2006-July/003354.html
+- http://lwn.net/Alerts/194228/
+
+---
+
+#### 1369. CVE-2006-4146
+
+**严重程度 / Severity**: N/A | CVSS: 5.1
+
+**漏洞描述 / Description**:
+Buffer overflow in the (1) DWARF (dwarfread.c) and (2) DWARF2 (dwarf2read.c) debugging code in GNU Debugger (GDB) 6.5 allows user-assisted attackers, or restricted users, to execute arbitrary code via a crafted file with a location block (DW_FORM_block) that contains a large number of operations.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20070602-01-P.asc
+- http://docs.info.apple.com/article.html?artnum=304669
+- http://lists.apple.com/archives/security-announce/2006/Oct/msg00000.html
+- http://lists.grok.org.uk/pipermail/full-disclosure/2007-September/065902.html
+- http://secunia.com/advisories/21713
+
+---
+
+#### 1370. CVE-2006-4790
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+verify.c in GnuTLS before 1.4.4, when using an RSA key with exponent 3, does not properly handle excess data in the digestAlgorithm.parameters field when generating a hash, which allows remote attackers to forge a PKCS #1 v1.5 signature that is signed by that RSA key and prevents GnuTLS from correctly verifying X.509 and other certificates that use PKCS, a variant of CVE-2006-4339.
+
+**参考链接 / References**:
+- http://lists.gnupg.org/pipermail/gnutls-dev/2006-September/001205.html
+- http://lists.gnupg.org/pipermail/gnutls-dev/2006-September/001212.html
+- http://secunia.com/advisories/21937
+- http://secunia.com/advisories/21942
+- http://secunia.com/advisories/21973
+
+---
+
+#### 1371. CVE-2006-4867
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+SQL injection vulnerability in mods.php in GNUTurk 2G and earlier allows remote attackers to execute arbitrary SQL commands via the t_id parameter when the go parameter is "Forum."
+
+**参考链接 / References**:
+- http://secunia.com/advisories/21956
+- http://www.gnuturk.com/mods.php?go=Forums&p=vtop&t_id=138
+- http://www.securityfocus.com/bid/20069
+- http://www.vupen.com/english/advisories/2006/3660
+- https://www.exploit-db.com/exploits/2378
+
+---
+
+#### 1372. CVE-2006-5864
+
+**严重程度 / Severity**: N/A | CVSS: 5.1
+
+**漏洞描述 / Description**:
+Stack-based buffer overflow in the ps_gettext function in ps.c for GNU gv 3.6.2, and possibly earlier versions, allows user-assisted attackers to execute arbitrary code via a PostScript (PS) file with certain headers that contain long comments, as demonstrated using the (1) DocumentMedia, (2) DocumentPaperSizes, and possibly (3) PageMedia and (4) PaperSize headers.  NOTE: this issue can be exploited through other products that use gv such as evince.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/22787
+- http://secunia.com/advisories/22932
+- http://secunia.com/advisories/23006
+- http://secunia.com/advisories/23018
+- http://secunia.com/advisories/23111
+
+---
+
+#### 1373. CVE-2006-6097
+
+**严重程度 / Severity**: N/A | CVSS: 4.0
+
+**漏洞描述 / Description**:
+GNU tar 1.16 and 1.15.1, and possibly other versions, allows user-assisted attackers to overwrite arbitrary files via a tar file that contains a GNUTYPE_NAMES record with a symbolic link, which is not properly handled by the extract_archive function in extract.c and extract_mangle function in mangle.c, a variant of CVE-2002-1216.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20061202-01-P.asc
+- http://docs.info.apple.com/article.html?artnum=305214
+- http://kb.vmware.com/KanisaPlatform/Publishing/817/2240267_f.SAL_Public.html
+- http://lists.apple.com/archives/security-announce/2007/Mar/msg00002.html
+- http://lists.grok.org.uk/pipermail/full-disclosure/2006-November/050812.html
+
+---
+
+#### 1374. CVE-2006-4181
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+Format string vulnerability in the sqllog function in the SQL accounting code for radiusd in GNU Radius 1.2 and 1.3 allows remote attackers to execute arbitrary code via unknown vectors.
+
+**参考链接 / References**:
+- http://labs.idefense.com/intelligence/vulnerabilities/display.php?id=443
+- http://secunia.com/advisories/23087
+- http://security.gentoo.org/glsa/glsa-200612-17.xml
+- http://securitytracker.com/id?1017285
+- http://www.securityfocus.com/bid/21303
+
+---
+
+#### 1375. CVE-2006-6169
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+Heap-based buffer overflow in the ask_outfile_name function in openfile.c for GnuPG (gpg) 1.4 and 2.0, when running interactively, might allow attackers to execute arbitrary code via messages with "C-escape" expansions, which cause the make_printable_string function to return a longer string than expected while constructing a prompt.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20061201-01-P.asc
+- http://lists.gnupg.org/pipermail/gnupg-announce/2006q4/000241.html
+- http://lists.suse.com/archive/suse-security-announce/2006-Dec/0004.html
+- http://secunia.com/advisories/23094
+- http://secunia.com/advisories/23110
+
+---
+
+#### 1376. CVE-2006-6235
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+A "stack overwrite" vulnerability in GnuPG (gpg) 1.x before 1.4.6, 2.x before 2.0.2, and 1.9.0 through 1.9.95 allows attackers to execute arbitrary code via crafted OpenPGP packets that cause GnuPG to dereference a function pointer from deallocated stack memory.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20061201-01-P.asc
+- http://lists.gnupg.org/pipermail/gnupg-announce/2006q4/000491.html
+- http://lists.suse.com/archive/suse-security-announce/2006-Dec/0004.html
+- http://secunia.com/advisories/23245
+- http://secunia.com/advisories/23250
+
+---
+
+#### 1377. CVE-2006-6719
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+The ftp_syst function in ftp-basic.c in Free Software Foundation (FSF) GNU wget 1.10.2 allows remote attackers to cause a denial of service (application crash) via a malicious FTP server with a large number of blank 220 responses to the SYST command.
+
+**参考链接 / References**:
+- http://www.mandriva.com/security/advisories?name=MDKSA-2007:017
+- http://www.securityfocus.com/bid/21650
+- https://issues.rpath.com/browse/RPL-930
+- https://www.exploit-db.com/exploits/2947
+- http://www.mandriva.com/security/advisories?name=MDKSA-2007:017
+
+---
+
+#### 1378. CVE-2006-6939
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+
+**漏洞描述 / Description**:
+GNU ed before 0.3 allows local users to overwrite arbitrary files via a symlink attack on temporary files, possibly in the open_sbuf function.
+
+**参考链接 / References**:
+- http://fedoranews.org/cms/node/2449
+- http://fedoranews.org/cms/node/2450
+- http://freshmeat.net/projects/ed/?branch_id=17855&release_id=240890
+- http://secunia.com/advisories/23832
+- http://secunia.com/advisories/23848
+
+---
+
+#### 1379. CVE-2007-0007
+
+**严重程度 / Severity**: N/A | CVSS: 3.6
+
+**漏洞描述 / Description**:
+gnucash 2.0.4 and earlier allows local users to overwrite arbitrary files via a symlink attack on the (1) gnucash.trace, (2) qof.trace, and (3) qof.trace.[PID] temporary files.
+
+**参考链接 / References**:
+- http://fedoranews.org/cms/node/2725
+- http://secunia.com/advisories/24225
+- http://secunia.com/advisories/24226
+- http://secunia.com/advisories/24317
+- http://sourceforge.net/project/shownotes.php?group_id=192&release_id=487446
+
+---
+
+#### 1380. CVE-2007-1263
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+GnuPG 1.4.6 and earlier and GPGME before 1.1.4, when run from the command line, does not visually distinguish signed and unsigned portions of OpenPGP messages with multiple components, which might allow remote attackers to forge the contents of a message without detection.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20070301-01-P.asc
+- http://fedoranews.org/cms/node/2775
+- http://fedoranews.org/cms/node/2776
+- http://lists.gnupg.org/pipermail/gnupg-users/2007-March/030514.html
+- http://lists.suse.com/archive/suse-security-announce/2007-Mar/0008.html
+
+---
+
+#### 1381. CVE-2007-1264
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Enigmail 0.94.2 and earlier does not properly use the --status-fd argument when invoking GnuPG, which prevents Enigmail from visually distinguishing between signed and unsigned portions of OpenPGP messages with multiple components, which allows remote attackers to forge the contents of a message without detection.
+
+**参考链接 / References**:
+- http://lists.gnupg.org/pipermail/gnupg-users/2007-March/030514.html
+- http://secunia.com/advisories/24416
+- http://securityreason.com/securityalert/2353
+- http://www.coresecurity.com/?action=item&id=1687
+- http://www.securityfocus.com/archive/1/461958/100/0/threaded
+
+---
+
+#### 1382. CVE-2007-1265
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+KMail 1.9.5 and earlier does not properly use the --status-fd argument when invoking GnuPG, which prevents KMail from visually distinguishing between signed and unsigned portions of OpenPGP messages with multiple components, which allows remote attackers to forge the contents of a message without detection.
+
+**参考链接 / References**:
+- http://lists.gnupg.org/pipermail/gnupg-users/2007-March/030514.html
+- http://secunia.com/advisories/24413
+- http://securityreason.com/securityalert/2353
+- http://www.coresecurity.com/?action=item&id=1687
+- http://www.securityfocus.com/archive/1/461958/100/0/threaded
+
+---
+
+#### 1383. CVE-2007-1266
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Evolution 2.8.1 and earlier does not properly use the --status-fd argument when invoking GnuPG, which prevents Evolution from visually distinguishing between signed and unsigned portions of OpenPGP messages with multiple components, which allows remote attackers to forge the contents of a message without detection.
+
+**参考链接 / References**:
+- http://lists.gnupg.org/pipermail/gnupg-users/2007-March/030514.html
+- http://secunia.com/advisories/24412
+- http://securityreason.com/securityalert/2353
+- http://www.coresecurity.com/?action=item&id=1687
+- http://www.securityfocus.com/archive/1/461958/100/0/threaded
+
+---
+
+#### 1384. CVE-2007-1267
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Sylpheed 2.2.7 and earlier does not properly use the --status-fd argument when invoking GnuPG, which prevents Sylpheed from visually distinguishing between signed and unsigned portions of OpenPGP messages with multiple components, which allows remote attackers to forge the contents of a message without detection.
+
+**参考链接 / References**:
+- http://lists.gnupg.org/pipermail/gnupg-users/2007-March/030514.html
+- http://secunia.com/advisories/24414
+- http://securityreason.com/securityalert/2353
+- http://www.coresecurity.com/?action=item&id=1687
+- http://www.securityfocus.com/archive/1/461958/100/0/threaded
+
+---
+
+#### 1385. CVE-2007-1268
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Mutt 1.5.13 and earlier does not properly use the --status-fd argument when invoking GnuPG, which prevents Mutt from visually distinguishing between signed and unsigned portions of OpenPGP messages with multiple components, which allows remote attackers to forge the contents of a message without detection.
+
+**参考链接 / References**:
+- http://lists.gnupg.org/pipermail/gnupg-users/2007-March/030514.html
+- http://secunia.com/advisories/24415
+- http://securityreason.com/securityalert/2353
+- http://www.coresecurity.com/?action=item&id=1687
+- http://www.securityfocus.com/archive/1/461958/100/0/threaded
+
+---
+
+#### 1386. CVE-2007-1269
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+GNUMail 1.1.2 and earlier does not properly use the --status-fd argument when invoking GnuPG, which prevents GNUMail from visually distinguishing between signed and unsigned portions of OpenPGP messages with multiple components, which allows remote attackers to forge the contents of a message without detection.
+
+**参考链接 / References**:
+- http://lists.gnupg.org/pipermail/gnupg-users/2007-March/030514.html
+- http://secunia.com/advisories/24417
+- http://securityreason.com/securityalert/2353
+- http://www.coresecurity.com/?action=item&id=1687
+- http://www.securityfocus.com/archive/1/461958/100/0/threaded
+
+---
+
+#### 1387. CVE-2007-2026
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+The gnu regular expression code in file 4.20 allows context-dependent attackers to cause a denial of service (CPU consumption) via a crafted document with a large number of line feed characters, which is not well handled by OS/2 REXX regular expressions that use wildcards, as originally reported for AMaViS.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/24918
+- http://secunia.com/advisories/25394
+- http://secunia.com/advisories/25544
+- http://secunia.com/advisories/25578
+- http://sourceforge.net/mailarchive/forum.php?thread_name=755AF709E5B77E6EA58479D5%40foxx.lsit.ucsb.edu&forum_name=amavis-user
+
+---
+
+#### 1388. CVE-2007-2162
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+(1) Mozilla Firefox 2.0.0.3 and (2) GNU IceWeasel 2.0.0.3 allow remote attackers to cause a denial of service (browser crash or system hang) via JavaScript that matches a regular expression against a long string, as demonstrated using /(.)*/.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/archive/1/466017/100/0/threaded
+- http://www.securityfocus.com/archive/1/466147/100/0/threaded
+- http://www.securityfocus.com/archive/1/466220/100/0/threaded
+- http://www.securityfocus.com/archive/1/466017/100/0/threaded
+- http://www.securityfocus.com/archive/1/466147/100/0/threaded
 
 ---

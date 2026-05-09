@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2784**
+**总计条目 / Total entries: 2860**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -40399,5 +40399,993 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1211147#reply10
+
+---
+
+#### 2785. How to use MacBook as a speaker through HDMI for my TV?
+
+**问题描述 / Problem Description**:
+Tags: audio, hdmi, macbook | Score: 7 | Views: 4249 | Answers: 2 | Created: 2024-02-13
+
+**解决方案 / Solution**:
+This won't work. Macs don't support HDMI-ARC. ARC is the "Audio Return Channel" that allows a smart TV to send audio "upstream" up the HDMI cable to a soundbar or other home theater receiver where the "good speakers" would be.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1830131/how-to-use-macbook-as-a-speaker-through-hdmi-for-my-tv
+
+---
+
+#### 2786. Why am I unable to sudo past permissions on the “~/Library/Application Support/MobileSync” directory in macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, backup, macbook, iphone, ios | Score: 4 | Views: 2361 | Answers: 1 | Created: 2023-11-20
+
+**解决方案 / Solution**:
+Open System Settings... (from Apple menu; top-left of screen). Click on Privacy & Security from the left pane. Click Full Disk Access under Privacy . Toggle the switch for Terminal .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1817442/why-am-i-unable-to-sudo-past-permissions-on-the-library-application-support-m
+
+---
+
+#### 2787. Can you upgrade the SSD of an M1 MacBook Air? Are there non-Apple shops doing this job?
+
+**问题描述 / Problem Description**:
+Tags: macbook, upgrade, laptop-repair, macbook-air | Score: 4 | Views: 26336 | Answers: 2 | Created: 2023-11-11
+
+**解决方案 / Solution**:
+No, you can’t. The chips for the SSD are soldered on the motherboard. This is the case for any/all MacBooks since 2018 or 2019. That said, if you are extremely skilled in component level tinkering, then you might attempt the “advice” in this answer . But doing this is not for the faint of heart and will definitely void your warranty and risks damaging your MacBook. I do not advise you take that advice seriously.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1816256/can-you-upgrade-the-ssd-of-an-m1-macbook-air-are-there-non-apple-shops-doing-th
+
+---
+
+#### 2788. Cannot boot after applying OpenCore Legacy Patcher Monterey for a MacBook5,1 (Late 2008 Aluminum Unibody)
+
+**问题描述 / Problem Description**:
+Tags: boot, installation, macbook, macos-monterey | Score: 3 | Views: 9805 | Answers: 2 | Created: 2024-03-19
+
+**解决方案 / Solution**:
+I managed to create a situation where there is no EFI boot partition on either the main system disk, or the OpenCore Legacy Patcher Monterey install USB. The older mac models cannot natively boot later operating systems. OpenCore's EFI bootloader provides the patches to make this possible. If you attempt to boot an unsupported operating system through the normal (Apple) bootloader, you'll see the 🚫 symbol. The OpenCore Legacy Patcher instructions are slightly vague on this, but ideally one wants to click "Install OpenCore" for both the main system disk and the newly created USB thumb-drive installer, before attempting the install. What happened was likely this: I installed OpenCore on the main system disk, which made it possible to boot the Monterey installer USB thumb drive. During installation, I erased my system disk, removing its EFI boot partition. Thus, the new system disk was not bootable. My OpenCore Legacy Patcher USB thumb drive did not have an EFI boot sector of its own, and so could not be used to boot the system either. It's unclear to me whether the "Create macOS Installer" feature is supposed to create the EFI boot sector on the thumb drive, or whether I clicked something that skipped this step. The online OpenCore Legacy Patcher walk-through does not cover these steps in full resolution. For future reference, one can manually install OpenCore onto the USB installer after it was created to make sure. Assuming your system drive is already partitioned as you would like, you should also be able to install OpenCore to the system disk and then run the patched installer, provided you do not alter the drive format in the process.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1835762/cannot-boot-after-applying-opencore-legacy-patcher-monterey-for-a-macbook5-1-la
+
+---
+
+#### 2789. Migrating from a 2TB MacBook Pro to a 500GB MacBook Air
+
+**问题描述 / Problem Description**:
+Tags: hard-drive, mac, ssd, macbook | Score: 3 | Views: 1495 | Answers: 2 | Created: 2024-02-03
+
+**解决方案 / Solution**:
+Assuming there is 1.6TB (not GB) worth of user files (not application files or library data), you can do that. Copy User Data to new SSD (Files and Folders) Migrate the system either from a backup or directly connecting to the Mac. You will get the option to select users, apps and settings usually. You have to deselect user files and folders during the migration. Use the new SSD along side the new migrated system on the MacBook Air. It is always best practice to create a full Time Machine backup including your files and folders to a hard drive prior to doing the above in case anything goes wrong.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1828721/migrating-from-a-2tb-macbook-pro-to-a-500gb-macbook-air
+
+---
+
+#### 2790. I want to install Ubuntu on a MacBook Air 2014 but can't see internal drive
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, hard-drive, macbook | Score: 2 | Views: 2361 | Answers: 1 | Created: 2025-01-17
+
+**解决方案 / Solution**:
+Quick internet search found this answer , by user di0zx , which is repeated below. If anyone stumbles across the same issue as described by Saúl , I solved it by adding intel_iommu=off in the live cd kernel options (at boot time). Below is how to implement the above answer. When booting from the USB flash drive for Ubuntu Desktop 24.04.1 LTS, the following Grub menu appears. After pressing the e key, the following commands appear. You can edit these commands. You need add intel_iommu=off to the command shown below. linux /casper/vmlinuz --- quiet splash After editing, the command should appear as shown below. linux /casper/vmlinuz --- quiet intel_iommu=off splash After making the changes, press the control + X key combination to boot Ubuntu Live from the flash drive. The rest of the steps needed to install Linux Ubuntu are the same as posted here , where Linux Mint was installed successfully. You also posted a comment , which is repeated below. @DavidAnderson[: Do you have] any idea how I upgrade to big sur...? App store says no upgrades for my Maverick 10.9.5 According the macOS Big Sur - Technical Specifications , you should be able to upgrade from Mavericks to Big Sur. However, I do not believe you can download Big Sur directly from Mavericks. To download Big Sur from the Apple Store, you would need to first upgrade to newer version of OS X or macOS which can be download without using the Apple Store. A good choice would be to first upgrade to El Capitan. To download El Capitan from Mavericks, you could enter the following command in a Terminal application window. open http://updates-http.cdn-apple.com/2019/cert/061-41424-20191024-218af9ec-cf50-4516-9011-228c78eda3d2/InstallMacOSX.dmg Another option, would be to download by selecting the link on the maclinks.linkpc.net webpage from the version of Safari included with Mavericks. Once the InstallMacOSX.dmg file has finished downloading, open the file. Next, open InstallMacOSX.pkg which will install the "Install OS X El Capitan" application in the Applications folder. I would recommend creating a bootable USB El Capitan flash drive installer, then boot from the installer to upgrade to El Capitan. See the Apple website Create a bootable installer for macOS for instructions. (Instructions can also be found at maclinks.linkpc.net ) Another option would be to use the "Install OS X El Capitan" application to upgrade. Once you have upgraded to El Capitan, make sure all available updates have been downloaded and installed. Afterwards, you should be able to use the Apple Store to download High Sierra through Big Sur. Use the links given at the Apple website How to download and install macOS . In the past, I would recommend first upgrading to High Sierra, then to Big Sur. Although, I believe you now may be able to upgrade directly from El Capitan to Big Sur.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1870854/i-want-to-install-ubuntu-on-a-macbook-air-2014-but-cant-see-internal-drive
+
+---
+
+#### 2791. Why is my MacBook Pro warm when it has slept 12 hours?
+
+**问题描述 / Problem Description**:
+Tags: sleep, macbook, macbook-pro | Score: 1 | Views: 732 | Answers: 1 | Created: 2025-06-04
+
+**解决方案 / Solution**:
+macOS has an "Optimized Battery Charging" feature that tries to learn your charging habits in order to preserve battery life by not charging the battery beyond 80% until it's getting close to the time you might unplug your charger. So it's possible that it's learned your overnight routine and tops off your battery that last 20% just before you grab it in the morning, and that's what's causing the warmth (rechargeable batteries always get warm when charging). To test this hypothesis, go to System Settings > Battery > Battery Health ⓘ (click the "lowercase 'i' in a circle" info button), and in the dialog box that comes up, toggle off "Optimized Battery Charging". Then do your normal daily routine, and see if your Mac stops being warm after sleeping 12 hours.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1903751/why-is-my-macbook-pro-warm-when-it-has-slept-12-hours
+
+---
+
+#### 2792. How can I tell whether a USB or Thunderbolt hub supports dual monitors for a MacBook Pro M4?
+
+**问题描述 / Problem Description**:
+Tags: usb, multiple-monitors, hdmi, macbook | Score: 1 | Views: 357 | Answers: 1 | Created: 2025-04-05
+
+**解决方案 / Solution**:
+Short answer: The docking station you link will work for basic office work, but not for multimedia or watching movies. It is based on USB 3 and uses compression technology which will cause the displays to lag. Get at least a USB4 certified, or better a Thunderbolt certified docking station from a reputable brand which has been tested to 100% work with Mac. Refer to a comparison article such as this one for help. If in doubt, contact the OEM per email: a good OEM will respond within 24-48 hours. Long answer: To fully understand the choices the market offers you, you need to consider the following USB-C is the connector type. It can deliver as little as 5Gbps or as much as 120Gbps of data speed, depending on the protocols and hardware used. USB 3 (3.2, 3.1, 3.0) is a data protocol which can run over any USB connector. It usually maxes out at 10Gbps (though 20Gbps is possible) and does NOT support displays . Any docking based on USB 3 which promises HDMI, will apply data compression using your CPU.Typically, as in the docking station you have linked , this is achieved using DisplayLink . The CPU compression of the GPU signal causes considerable lag , causing video and audio to be out of sync and inconsistent frame rates. This is usable for office applications, but not for multimedia! (I have previously fallen for the DisplayLink marketing, as detailed here ). USB4 (without space!) confusingly, is a 'connection-oriented, tunneling architecture' (as I've detailed here ), which supports tunneling for USB 3.2, Display Port and PCIe. However, it is up to the OEM to include or not the various connection types and other features. Minimum requirement for USB4 connections is support for 1 Display and 20Gbps data rate. Thunderbolt 4 (supported by M4) and Thunderbolt 5 ( supported by M4Pro & M4Max ) are certified specifications based on USB4 , and running over USB-C connectors. They deliver 40Gbps or 80Gbps of bidirectional data speed respectively, are guaranteed to support at least 2 4k@60Hz displays through Displayport tunnelling, and support PCIe tunneling, which is essential if you want to connect a high-speed external SSD ( reference ). Power delivery . There are docking stations which have their own power brick, and others which have pass-through power delivery, meaning you'll need to connect your Mac's power brick to them to get power delivery. The latter is useful for traveling. For use at home, choose one with its own power brick. Important is that it can deliver 100W of power (Not 100% sure, but I think the M4 uses up to 96W). SUMMING UP: You will need either a "USB4 Docking Station", or a "Thunderbolt 4 Docking station" ( such as this one ). Don't fall for the "Thunderbolt compatible" / "USB4 compatible" marketing strategy, usually used for slower devices based on USB 3 standard. If you choose Thunderbolt, the device is already certified to work with your mac. If you get the USB4 label, make sure it has been tested with the M4 Mac, as sometimes there can be compatibility issues. When looking at the rather high prices, take into consideration that the docking station might survive longer than your Macbook, and that in future you might want to have some 4k displays, or a fast external SSD to keep connected to your dock. Side Note: Thunderbolt 3 is an older standard which should work fine and might allow you to save some buck. It should be 100% compatible with Thunderbolt 4, but I'd make sure someone has tested it with an M4 Mac.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1890116/how-can-i-tell-whether-a-usb-or-thunderbolt-hub-supports-dual-monitors-for-a-mac
+
+---
+
+#### 2793. MacOS Finder - My biggest issues for usability I can't seem to fix
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t8abq8/macos_finder_my_biggest_issues_for_usability_i/
+
+---
+
+#### 2794. I made a MacBook browser use the wasted notch area in fullscreen
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t8buv3/i_made_a_macbook_browser_use_the_wasted_notch/
+
+---
+
+#### 2795. I'm calling it (again)...
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t8o37l/im_calling_it_again/
+
+---
+
+#### 2796. Post was deleted by promo-guard?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t8hmi0/post_was_deleted_by_promoguard/
+
+---
+
+#### 2797. my Mac OS 9 wallpaper remake with modern design and it's dynamic
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t8naxl/my_mac_os_9_wallpaper_remake_with_modern_design/
+
+---
+
+#### 2798. How to drag half size window without it resizing?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t8g3dw/how_to_drag_half_size_window_without_it_resizing/
+
+---
+
+#### 2799. Finder Quicklook plugins (Data and Sqlite)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t8oftl/finder_quicklook_plugins_data_and_sqlite/
+
+---
+
+#### 2800. macos animation lag
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t8jk93/macos_animation_lag/
+
+---
+
+#### 2801. Indexing on a new Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t8ifmi/indexing_on_a_new_mac/
+
+---
+
+#### 2802. Macbook Air M4 Not charging above 80% (Pls read the full story)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t8czio/macbook_air_m4_not_charging_above_80_pls_read_the/
+
+---
+
+#### 2803. Mac OS at home 2
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t8nevo/mac_os_at_home_2/
+
+---
+
+#### 2804. Skim app doesn't respect scroll bar autohide setting. Do other apps do this also?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t8b6m1/skim_app_doesnt_respect_scroll_bar_autohide/
+
+---
+
+#### 2805. Photos widget help
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t8b2ts/photos_widget_help/
+
+---
+
+#### 2806. I made Jarnac,a real-time multiplayer word game for Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1t8abwx/i_made_jarnaca_realtime_multiplayer_word_game_for/
+
+---
+
+#### 2807. I changed my keyboard to no engraving for one month and here is how it goes
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t8ab69/i_changed_my_keyboard_to_no_engraving_for_one/
+
+---
+
+#### 2808. 6 days with my new Macbook Air (first ever Mac)
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t8gf8m/6_days_with_my_new_macbook_air_first_ever_mac/
+
+---
+
+#### 2809. Planning on getting the Neo.
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t8cvmf/planning_on_getting_the_neo/
+
+---
+
+#### 2810. Neo trackpad thoughts?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t8ip7f/neo_trackpad_thoughts/
+
+---
+
+#### 2811. Any good macbook deals going on right now?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t8ile5/any_good_macbook_deals_going_on_right_now/
+
+---
+
+#### 2812. What configuration to buy?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t8d43l/what_configuration_to_buy/
+
+---
+
+#### 2813. Macbook static or vibration
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t8nqet/macbook_static_or_vibration/
+
+---
+
+#### 2814. audio on screen recording
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t8bgrj/audio_on_screen_recording/
+
+---
+
+#### 2815. Where to sell my macbook air M4?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1t8awbd/where_to_sell_my_macbook_air_m4/
+
+---
+
+#### 2816. The WiFi on my HP laptop disappeared
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8oma5/the_wifi_on_my_hp_laptop_disappeared/
+
+---
+
+#### 2817. My map app is taking up almost 50% of my phone's storage and I have tried every trick on the internet to fix it. HELPPPPP :(
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t8n8ra/my_map_app_is_taking_up_almost_50_of_my_phones/
+
+---
+
+#### 2818. Apple account seemingly changed, 2FA disabled after I recovered it
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t8omko/apple_account_seemingly_changed_2fa_disabled/
+
+---
+
+#### 2819. Locked out of old phone
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t8nwxk/locked_out_of_old_phone/
+
+---
+
+#### 2820. Unnecessarily showing charging was on hold due to iPhone temperature
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t8nwuy/unnecessarily_showing_charging_was_on_hold_due_to/
+
+---
+
+#### 2821. Icloud and Ibooks
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t8nibh/icloud_and_ibooks/
+
+---
+
+#### 2822. Im stuck here while transferring my data from iphone 13 to 17. What should I do
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t8b7uo/im_stuck_here_while_transferring_my_data_from/
+
+---
+
+#### 2823. Please, I need to resolve this
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t8lrni/please_i_need_to_resolve_this/
+
+---
+
+#### 2824. Gen 1 apple pencil disconnects as soon as I unplug it
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t8a1ev/gen_1_apple_pencil_disconnects_as_soon_as_i/
+
+---
+
+#### 2825. iPhone 17 Battery Life has nosedived lately
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t8jj7c/iphone_17_battery_life_has_nosedived_lately/
+
+---
+
+#### 2826. Apple Pay says that my card is expired but it’s not.
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t89be5/apple_pay_says_that_my_card_is_expired_but_its_not/
+
+---
+
+#### 2827. Liquid Detection
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t8il8g/liquid_detection/
+
+---
+
+#### 2828. GENIUSES: Is a trackpad repair on a 2021 16" Macbook Pro a 0-30?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t8i29k/geniuses_is_a_trackpad_repair_on_a_2021_16/
+
+---
+
+#### 2829. What is this? I've never searched these before
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t8gj1k/what_is_this_ive_never_searched_these_before/
+
+---
+
+#### 2830. Alarm app on apple watch series 6 malfunction
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t8f3ji/alarm_app_on_apple_watch_series_6_malfunction/
+
+---
+
+#### 2831. Deleted iMessage photos keep getting restored
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t8d9gl/deleted_imessage_photos_keep_getting_restored/
+
+---
+
+#### 2832. Hacked or risk of hacking?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t8cviv/hacked_or_risk_of_hacking/
+
+---
+
+#### 2833. Remote display from MacMini to conference room TV with AppleTV
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t8cliy/remote_display_from_macmini_to_conference_room_tv/
+
+---
+
+#### 2834. Mac storage: ApplicationSupport/CloudDocs taking up nearly 300GB
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t8bfwf/mac_storage_applicationsupportclouddocs_taking_up/
+
+---
+
+#### 2835. Ask to approve messages going to email
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t8bb0m/ask_to_approve_messages_going_to_email/
+
+---
+
+#### 2836. Getting repeated sign in attempts from all over my country on my iPhone.
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t8b7a5/getting_repeated_sign_in_attempts_from_all_over/
+
+---
+
+#### 2837. (follow-up) FIRE and SMOKE when charging iphone 17
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1t8apft/followup_fire_and_smoke_when_charging_iphone_17/
+
+---
+
+#### 2838. [V2EX] Mac 新手 SSH 客户端推荐
+
+**问题描述 / Problem Description**:
+这几天 WinTerm 弹出即将结束对 M 系列 Mac 的支持，有没有其他一样免费好用的 SSH 工具推荐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210520#reply79
+
+---
+
+#### 2839. [V2EX] Apple 要开始赔偿用户了，可惜没有中国
+
+**问题描述 / Problem Description**:
+虚假宣传，苹果宣布支付 17 亿元天价赔偿：iPhone 15 Pro/16 用户最高可获赔 646 元 但没有中国 美国苹果公司就 AI 功能虚假宣传引发的消费者集体诉讼正式达成和解，同意支付 2.5 亿美元赔偿款（约合人民币 17 亿元）。该和解协议目前仍需法院最终批准方可生效，符合条件的 iPhone 美国用户，单台设备最高可获赔 95 美元（约合人民币 646 元）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211294#reply22
+
+---
+
+#### 2840. [V2EX] 个人开发者“用户鉴权”问题请教
+
+**问题描述 / Problem Description**:
+自己学完 vibecoding 后，做了一个小产品，目前已经在让 5 个用户内测了。 开发快收尾了，准备接入用户账户鉴权系统，不太想自己手搓。 想问问大家有没有比较成熟、稳定、省心的方案推荐？ 我的情况大概是： 个人独立开发者，偏 vibecoding 技术栈是 Flutter 至少需要同时支持 Android 和 iOS 用户主要在国内使用 第一版打算先做邮箱注册 / 邮箱登录 希望接入成本低一点，后续维护简单一点 最好别一开始就涉及太复杂的自建后端、JWT 、短信验证码之类的东西 目前在考虑腾讯云 CloudBase 、LeanCloud 、Bmob 、Supabase 自托管这类方案，但
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211511#reply11
+
+---
+
+#### 2841. How can I toggle between Fn and function F-keys on Mac?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook | Score: 37 | Views: 91013 | Answers: 5 | Created: 2022-12-02
+
+**解决方案 / Solution**:
+You can set which way this behaves in System Preferences → Keyboard → Keyboard 'Use F1, F2, etc. keys as standard function keys' : Whichever way you choose, holding Fn /F-key will activate the opposite mode temporarily. This preferences pane has changed appearance slightly over the years, but the functionality remains the same up to macOS v12 (Monterey), but it has moved in macOS v13 (Ventura). Go to keyboard shortcuts Go to the function keys tab and turn on "Use F1, F2, etc. keys as standard function keys". From Apple KB : macOS Ventura Choose Apple menu  > System Settings. Click Keyboard in the sidebar. Click the Keyboard Shortcuts button on the right. Click Function Keys in the sidebar. Turn on "Use F1, F2, etc. keys as standard function keys".
+
+**参考链接 / References**:
+- https://superuser.com/questions/1755750/how-can-i-toggle-between-fn-and-function-f-keys-on-mac
+
+---
+
+#### 2842. Why idle power usage is much higher under linux than macos on the same, intel-based macbook?
+
+**问题描述 / Problem Description**:
+Tags: linux, battery, macbook, power-consumption, idle | Score: 7 | Views: 9977 | Answers: 4 | Created: 2022-03-31
+
+**解决方案 / Solution**:
+On MacOS, powermetrics shows the cpu package is at package c7 state 99% of the time when the computer is idle. It also reports package power usage of 0.2 Watts. On Linux, powertop reports around 55% package c2 and 40% package c3 state when idle. intel_gpu_top reports 3.2 Watts package power usage. The 3 Watts difference almost fills the gap between idle consumption on MacOS VS Linux. What keeps all tested Linux variants from entering deeper package C-states is yet to be answered.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1713899/why-idle-power-usage-is-much-higher-under-linux-than-macos-on-the-same-intel-ba
+
+---
+
+#### 2843. Prevent MacBook Pro from sleeping when the lid is closed and the AC adapter is being unplugged
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, macbook, power-management, external-display | Score: 6 | Views: 14854 | Answers: 3 | Created: 2022-05-26
+
+**解决方案 / Solution**:
+Open Terminal.app Type in the command sudo pmset disablesleep 1 Enter your password to authorize the change to the power management settings. Note: Tested with m1 macbook air, but it should work on other models as well, and you can run sudo pmset disablesleep 0 to restore setting Source: https://developerinsider.co/prevent-external-monitor-to-sleep-when-macbook-ac-adapter-unplugged
+
+**参考链接 / References**:
+- https://superuser.com/questions/1723079/prevent-macbook-pro-from-sleeping-when-the-lid-is-closed-and-the-ac-adapter-is-b
+
+---
+
+#### 2844. Remap MX Keys Right Option/Control to Right Command on Mac
+
+**问题描述 / Problem Description**:
+Tags: mac, keyboard, keyboard-shortcuts, macbook, keyboard-layout | Score: 5 | Views: 13102 | Answers: 3 | Created: 2023-01-25
+
+**解决方案 / Solution**:
+Logitech MX Keys has these shortcuts: Fn+P for 3 seconds, Windows layout Fn+O for 3 seconds, MacOS layout
+
+**参考链接 / References**:
+- https://superuser.com/questions/1764957/remap-mx-keys-right-option-control-to-right-command-on-mac
+
+---
+
+#### 2845. Is there an eraser tool to get rid of sketch in Preview?
+
+**问题描述 / Problem Description**:
+Tags: macbook, preview | Score: 2 | Views: 5283 | Answers: 1 | Created: 2023-02-21
+
+**解决方案 / Solution**:
+You can use Undo, until the changes are committed. Once committed - saved, or even just closed & re-opened - the annotation becomes a part of the image. JPG has no layering capability, so once saved the image & your annotation become just a single layer, with no way to differentiate them. The part of the original image 'behind' the annotation no longer exists.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1769829/is-there-an-eraser-tool-to-get-rid-of-sketch-in-preview
+
+---
+
+#### 2846. Automatically pop up shortcuts for emoji and symbols in Google Chrome on MacBook
+
+**问题描述 / Problem Description**:
+Tags: google-chrome, mac, keyboard-shortcuts, macbook | Score: 2 | Views: 241 | Answers: 1 | Created: 2022-09-25
+
+**解决方案 / Solution**:
+The system default keyboard shortcut is Cmd ⌘ Ctrl ⌃ Space If you want to change it, see Ask Different - Changing Emoji Shortcut
+
+**参考链接 / References**:
+- https://superuser.com/questions/1744192/automatically-pop-up-shortcuts-for-emoji-and-symbols-in-google-chrome-on-macbook
+
+---
+
+#### 2847. Some apps' windows won't stay on my MacBook screen
+
+**问题描述 / Problem Description**:
+Tags: display, macbook | Score: 2 | Views: 74 | Answers: 2 | Created: 2022-06-11
+
+**解决方案 / Solution**:
+Try this… Quit both apps Switch to Finder Cmd ⌘ N for New Finder Window Shift ⇧ Cmd ⌘ G for Go To Copy paste ~/Library/Saved Application State/ & hit Enter Scroll down to find com.apple.TextEdit.savedState Delete the contents of the folder [not the folder itself] Scroll down to find folders starting with com.hp. … Again, delete the contents of each [there may be a few HP folders, so clear them all] Try launching your apps again.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1725932/some-apps-windows-wont-stay-on-my-macbook-screen
+
+---
+
+#### 2848. MacBook cannot wake up from sleep mode after battery replacement
+
+**问题描述 / Problem Description**:
+Tags: macos, battery, macbook, macbook-pro | Score: 2 | Views: 279 | Answers: 1 | Created: 2022-02-16
+
+**解决方案 / Solution**:
+I have same issue. I has replaced my battery without issue 2 years ago and had no issues. Replaced battery again 2025 and it takes a quick plug in for it to work. I tried unplugging battery and doing the re-calibration.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1705242/macbook-cannot-wake-up-from-sleep-mode-after-battery-replacement
+
+---
+
+#### 2849. 'sudo -u' gives error "sorry, try again" for password - even though its correct
+
+**问题描述 / Problem Description**:
+Tags: macos, zsh, sudo | Score: 1 | Views: 832 | Answers: 1 | Created: 2025-04-01
+
+**解决方案 / Solution**:
+Note This answer is for Apple computer's macOS Ventura 13.7 operating system. I used Ventura to test this answer. The OP is entering commands from a standard user account, which by default under macOS cannot use the sudo command. In the OP's question, username is for an Admin account, which by default under macOS can use the sudo command. The password would be the one for username , which I assume you know. Below is an example of what you are entering. sudo -u username <command> However, what you are entering is incorrect. The correct command is given below. su username -c <string> Here the <command> would be stored in the <string> . For example, if the <command> was echo "hi there" , then the string would be 'echo "hi there"' . Below is for when you are trying to execute a command as the root user. You first need to become username before using sudo . For example, say you are the standard user (non-superuser) rpj and dma is an administrator, then use su to become dma followed by sudo to become root . Below is an example. Note, the -k option just forces the requesting of a password. You may wish to omit this option. % whoami rpj % su dma -c whoami Password: dma % su dma -c 'sudo -k whoami' Password: Password: root % Another option would to become the root user, then enter commands that require the root user. When finished, enter exit . See the example below. % whoami rpj % su dma -c "sudo -k -s" Password: Password: # whoami root # exit % whoami rpj %
+
+**参考链接 / References**:
+- https://superuser.com/questions/1889448/sudo-u-gives-error-sorry-try-again-for-password-even-though-its-correct
+
+---
+
+#### 2850. How to update the version of ruby on macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, ruby, jekyll | Score: 1 | Views: 2542 | Answers: 1 | Created: 2025-03-28
+
+**解决方案 / Solution**:
+The command sudo in sudo echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc is applied to echo and not to >> ~/.zshrc . Below is one possible way to do what you want. sudo zsh -c "cat >> ~/.zshrc" <<< 'export PATH="/opt/homebrew/bin:$PATH"' However, when you entered echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc you should not have received an error, unless you are not the owner of ~/.zshrc . You probably can fix this by entering the following. sudo chown $USER ~/.zshrc echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
+
+**参考链接 / References**:
+- https://superuser.com/questions/1888982/how-to-update-the-version-of-ruby-on-macos
+
+---
+
+#### 2851. Why am I unable to apply -R with rm on macOS Sequoia (15.3.1) to delete files on subfolders using a wildcard?
+
+**问题描述 / Problem Description**:
+Tags: macos, shell, rm | Score: 1 | Views: 319 | Answers: 1 | Created: 2025-03-07
+
+**解决方案 / Solution**:
+* is a wildcard that expands in the shell, it isn't interpreted by rm . Writiing *1.mp3 means "all the files that end with 1.mp3 in the directory". If the parent directory you're running rm from doesn't have any such files, it will expand to nothing. You can get the behavior you're looking for with a find command, though: find . -type f -name "*1.mp3" -exec rm -i {} \; Notes: Note the quotes ( " ) around the file pattern - this is done to prevent the shell from interpreting the * , and have find handle it. The -i is a safety measure to prevent deleting files you didn't mean to. If you run this command and are satisfied it finds the correct files, you can remove the -i so you don't need to manually approve every deletion.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1884878/why-am-i-unable-to-apply-r-with-rm-on-macos-sequoia-15-3-1-to-delete-files-on
+
+---
+
+#### 2852. How to disable the remote management popup screen on a macOS Sonoma 14.6.1?
+
+**问题描述 / Problem Description**:
+Tags: macos, mac | Score: 1 | Views: 412 | Answers: 1 | Created: 2025-02-20
+
+**解决方案 / Solution**:
+Ask the owner mentioned on that screen to relinquish control of that Mac.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1881566/how-to-disable-the-remote-management-popup-screen-on-a-macos-sonoma-14-6-1
+
+---
+
+#### 2853. Why is a MacBook Air running macOS Sequoia wirelessly connecting to DHCP server using two different MAC addresses, getting 2 IP addresses?
+
+**问题描述 / Problem Description**:
+Tags: macos, wireless-networking, routing, netstat, ifconfig | Score: 1 | Views: 460 | Answers: 1 | Created: 2025-02-05
+
+**解决方案 / Solution**:
+As a "security" measure, macOS 15 Sequoia introduced "private Wi-fi address". This means that Sequoia will use a different MAC address for each Wi-fi network. For mobile use on public Wi-fi networks this has value to reduce tracking by MAC address. For your home or work networks, this is just a nuisance (in my view) because IP address assignment becomes more confused. To avoid this go to Network Settings for each network and disable "Private Wi-fi address". Do this for both 2.4 GHz and 5 GHz Wi-fi networks. This way I get a single consistent IP address via DHCP from my router. PS. I don't mind if you see my full MAC address.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1876805/why-is-a-macbook-air-running-macos-sequoia-wirelessly-connecting-to-dhcp-server
+
+---
+
+#### 2854. How to protect key with secure enclave on MacOS
+
+**问题描述 / Problem Description**:
+Tags: macos, security, certificate, tpm, client-certificate | Score: 1 | Views: 1295 | Answers: 2 | Created: 2025-02-03
+
+**解决方案 / Solution**:
+I've been searching around the possibility of using Secure Enclave on MacOS to generate the key pair (and CSR if possible) but so far no luck. Answer link here: https://developer.apple.com/documentation/security/protecting-keys-with-the-secure-enclave let access = SecAccessControlCreateWithFlags( kCFAllocatorDefault, kSecAttrAccessibleWhenUnlockedThisDeviceOnly, .privateKeyUsage, nil)! // Ignore errors. This object includes a protection parameter of kSecAttrAccessibleWhenUnlockedThisDeviceOnly. As a result, you can access the associated keychain item only on the device that created it (a feature that’s also inherent to using the Secure Enclave), and only when the device is unlocked. Other less restrictive options are possible, but this option is generally preferred unless your app operates in the background. By specifying the privateKeyUsage flag, you make the private key available for use in signing and verification operations inside the Secure Enclave. Without the flag, key generation still succeeds, but signing operations that attempt to use it fail. You could also combine the privateKeyUsage flag with other flags to obtain additional protection for your key. For example, if you include the biometryAny flag, you instruct the system to make the key available only when the system can authenticate the user with Touch ID or Face ID (or a fallback passcode). See SecAccessControlCreateFlags for the complete list of available flags.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1876432/how-to-protect-key-with-secure-enclave-on-macos
+
+---
+
+#### 2855. Does the macOS charge chime even when sound is muted?
+
+**问题描述 / Problem Description**:
+Tags: macos, audio | Score: 1 | Views: 62 | Answers: 1 | Created: 2025-02-02
+
+**解决方案 / Solution**:
+You can use different Audio output device for Alert sounds with it's own volume and mute settings. I think charge chime falls to this category. You can find it in System Settings... (from Apple menu) select Sound in the sidebar. On the right side you can found Output & Input which is now set something like External headphone or similar. Up in the Sound Effects part there is a Play sound effects through and a menu selector. Choose something different from what you found down, like the Internal speaker or similar you need. Remember each sound output device have it's own volume and mute settings. For example you can set Internal speaker volume by temporary choosing it for output device. After setting appropriate volume you can switch back to your headphone's device.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1876142/does-the-macos-charge-chime-even-when-sound-is-muted
+
+---
+
+#### 2856. For `.md` files, how to use plugin for macOS QuickLook instead of the Xcode application?
+
+**问题描述 / Problem Description**:
+Tags: macos, plugins, quicklook | Score: 1 | Views: 1424 | Answers: 2 | Created: 2025-01-31
+
+**解决方案 / Solution**:
+I use QLMarkdown . This has is actively supported in the sense that there are updates (4 in the past year, latest 1 Jan). For me (macOS 15.3, Intel and Apple silicon) "it just works". I have never had any issues.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1874651/for-md-files-how-to-use-plugin-for-macos-quicklook-instead-of-the-xcode-appl
+
+---
+
+#### 2857. New version of zsh still shows old value of $SHELL variable
+
+**问题描述 / Problem Description**:
+Tags: macos, zsh, macos-catalina | Score: 1 | Views: 142 | Answers: 1 | Created: 2025-01-27
+
+**解决方案 / Solution**:
+TL;DR If /usr/local/bin/zsh is not in /etc/shells , then you should enter the following command. sudo sh -c 'echo /usr/local/bin/zsh >>/etc/shells' Next, you should enter the following command to fix your problem. chpass -s '/usr/local/bin/zsh' "$USER" Quit and reopen the Terminal application. Below is an explanation of how I determined my answer. I am using macOS Catalina Version 10.15.7. In order to use MacPorts, I first installed Xcode 12.4 Release 12D4e . This link was posted at the non-Apple website Xcode Releases . I installed zsh from MacPorts and encountered the same issue. The last lines output from the installation of zsh by MacPorts are shown below. ---> Installing zsh @5.9_3 ---> Activating zsh @5.9_3 ---> Cleaning zsh ---> Updating database of binaries ---> Scanning binaries for linking errors ---> No broken files found. ---> No broken ports found. ---> Some of the ports you installed have notes: zsh has the following notes: To set MacPorts' zsh as default login shell, run: sudo chpass -s '/opt/local/bin/zsh' "$USER" To be able to switch default shells to or from zsh without superuser privileges, add it to /etc/shells: sudo sh -c 'echo /opt/local/bin/zsh >>/etc/shells' So I entered the following commands. sudo sh -c 'echo /opt/local/bin/zsh >>/etc/shells' chpass -s '/opt/local/bin/zsh' "$USER" Any new Terminal application windows opened after entering the above commands resulted in the following: dma@dmas-Mac ~ % zsh --version zsh 5.9 (x86_64-apple-darwin19.6.0) dma@dmas-Mac ~ % echo $ZSH_VERSION 5.9 dma@dmas-Mac ~ % echo $SHELL /opt/local/bin/zsh Note I did not have changed my login shell in the general properties dialog of the Terminal application to the new path.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1873148/new-version-of-zsh-still-shows-old-value-of-shell-variable
+
+---
+
+#### 2858. What do the “Each orientation in the document” and “Each page size in the document” options in Word for Mac’s print dialog do?
+
+**问题描述 / Problem Description**:
+Tags: macos, microsoft-word, printing | Score: 1 | Views: 121 | Answers: 1 | Created: 2025-01-23
+
+**解决方案 / Solution**:
+This documents has pages of both a) different sizes, and b) different orientations. These options are only presented if there are such pages. In this case (different sizes and orientations) you may well want different print settings on different pages. So, if you enable one or both of these, you will get the opportunity to specify print settings for each type of page. And if you don't, printing will attempt to apply the settings you have specified to all pages. Apart from some experimentation on my part, this is really @Ramhound's comment turned into an answer.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1872002/what-do-the-each-orientation-in-the-document-and-each-page-size-in-the-docume
+
+---
+
+#### 2859. New MacBook .. Old Tabs
+
+**问题描述 / Problem Description**:
+Tags: google-chrome, macbook, tabs | Score: 1 | Views: 310 | Answers: 1 | Created: 2024-11-12
+
+**解决方案 / Solution**:
+Since it's a fresh installation and Chrome considers it a different device, you'll need to look in "History" → "Tabs from other devices" chrome://history/syncedTabs . (It seems that the latest Chrome also has a "Tab groups" button in the bookmarks toolbar, but that only shows grouped tabs, not the ungrouped ones.) If tabs from the old device aren't there, then they likely weren't synced and you'd need to dig through "Chrome history" to find what might have been visited.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1861490/new-macbook-old-tabs
+
+---
+
+#### 2860. Macos Music app - 'Options/Volume Adjust' - can this be changed in the terminal?
+
+**问题描述 / Problem Description**:
+Tags: macos, sound-volume, music.app, mp3 | Score: 0 | Views: 25 | Answers: 1 | Created: 2026-05-07
+
+**解决方案 / Solution**:
+Please enable Sound Check in the Playback settings as in this support article: Change Playback settings in Music on Mac . Or if it’s already enabled, disable it.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486382/macos-music-app-options-volume-adjust-can-this-be-changed-in-the-terminal
 
 ---

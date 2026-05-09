@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1325**
+**总计条目 / Total entries: 1365**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -24724,5 +24724,1039 @@ Apply patch from vendor. Monitor https://git.kernel.org/stable/c/1b3ff4d88b508b7
 - https://git.kernel.org/stable/c/7c1d221e475e3d8eb8ed4702392d43f8c5134d1f
 - https://git.kernel.org/stable/c/7e4d88e36e5d0b8ffda637999cbca64c81701a81
 - https://git.kernel.org/stable/c/d191101dee25567c2af3b28565f45346c33d65f5
+
+---
+
+#### 1326. CVE-2012-5536
+
+**严重程度 / Severity**: N/A | CVSS: 6.2
+**受影响产品 / Affected Products**: fedora_project:fedora_release_rawhide, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+A certain Red Hat build of the pam_ssh_agent_auth module on Red Hat Enterprise Linux (RHEL) 6 and Fedora Rawhide calls the glibc error function instead of the error function in the OpenSSH codebase, which allows local users to obtain sensitive information from process memory or possibly gain privileges via crafted use of an application that relies on this module, as demonstrated by su and sudo.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://pkgs.fedoraproject.org/cgit/openssh.git/commit/?id=4f4687ce8045418f678c323bb22c837f35d7b9fa.
+
+**参考链接 / References**:
+- http://pkgs.fedoraproject.org/cgit/openssh.git/commit/?id=4f4687ce8045418f678c323bb22c837f35d7b9fa
+- http://rhn.redhat.com/errata/RHSA-2013-0519.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=834618
+- http://pkgs.fedoraproject.org/cgit/openssh.git/commit/?id=4f4687ce8045418f678c323bb22c837f35d7b9fa
+- http://rhn.redhat.com/errata/RHSA-2013-0519.html
+
+---
+
+#### 1327. CVE-2012-1568
+
+**严重程度 / Severity**: N/A | CVSS: 1.9
+**受影响产品 / Affected Products**: redhat:enterprise_linux, fedoraproject:fedora
+
+**漏洞描述 / Description**:
+The ExecShield feature in a certain Red Hat patch for the Linux kernel in Red Hat Enterprise Linux (RHEL) 5 and 6 and Fedora 15 and 16 does not properly handle use of many shared libraries by a 32-bit executable file, which makes it easier for context-dependent attackers to bypass the ASLR protection mechanism by leveraging a predictable base address for one of these libraries.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://openwall.com/lists/oss-security/2012/03/21/3.
+
+**参考链接 / References**:
+- http://openwall.com/lists/oss-security/2012/03/21/3
+- http://scarybeastsecurity.blogspot.com/2012/03/some-random-observations-on-linux-aslr.html
+- http://www.openwall.com/lists/oss-security/2012/03/20/4
+- https://bugzilla.redhat.com/show_bug.cgi?id=804947
+- https://oss.oracle.com/git/?p=redpatch.git%3Ba=commit%3Bh=302a4fc15aebf202b6dffd6c804377c6058ee6e4
+
+---
+
+#### 1328. CVE-2013-2030
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: openstack:havana, openstack:compute, openstack:grizzly, openstack:folsom
+
+**漏洞描述 / Description**:
+keystone/middleware/auth_token.py in OpenStack Nova Folsom, Grizzly, and Havana uses an insecure temporary directory for storing signing certificates, which allows local users to spoof servers by pre-creating this directory, which is reused by Nova, as demonstrated using /tmp/keystone-signing-nova on Fedora.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.fedoraproject.org/pipermail/package-announce/2013-May/105916.html.
+
+**参考链接 / References**:
+- http://lists.fedoraproject.org/pipermail/package-announce/2013-May/105916.html
+- http://lists.openstack.org/pipermail/openstack-announce/2013-May/000098.html
+- http://www.openwall.com/lists/oss-security/2013/05/09/2
+- https://bugs.launchpad.net/nova/+bug/1174608
+- https://bugzilla.redhat.com/show_bug.cgi?id=958285
+
+---
+
+#### 1329. CVE-2013-7283
+
+**严重程度 / Severity**: N/A | CVSS: 9.3
+**受影响产品 / Affected Products**: libreswan:libreswan
+
+**漏洞描述 / Description**:
+Race condition in the libreswan.spec files for Red Hat Enterprise Linux (RHEL) and Fedora packages in libreswan 3.6 has unspecified impact and attack vectors, involving the /var/tmp/libreswan-nss-pwd temporary file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/56276.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/56276
+- http://www.osvdb.org/101575
+- https://github.com/libreswan/libreswan/commit/ef2d756e73a188401c36133c2e2f7ce4f3c6ae55
+- https://lists.libreswan.org/pipermail/swan-announce/2013/000007.html
+- http://secunia.com/advisories/56276
+
+---
+
+#### 1330. CVE-2010-0746
+
+**严重程度 / Severity**: N/A | CVSS: 6.2
+**受影响产品 / Affected Products**: fedoraproject:fedora
+
+**漏洞描述 / Description**:
+Directory traversal vulnerability in DeviceKit-disks in DeviceKit, as used in Fedora 11 and 12 and possibly other operating systems, allows local users to gain privileges via .. (dot dot) sequences in the label for a pluggable storage device.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://seclists.org/oss-sec/2010/q2/5.
+
+**参考链接 / References**:
+- http://seclists.org/oss-sec/2010/q2/5
+- http://stealth.openwall.net/xSports/devshit.pl
+- http://xorl.wordpress.com/2010/04/06/cve-2010-0746-devicekit-local-privilege-escalation/
+- https://bugs.freedesktop.org/show_bug.cgi?id=23235
+- https://bugzilla.redhat.com/show_bug.cgi?id=523178
+
+---
+
+#### 1331. CVE-2014-2094
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: catfish_project:catfish
+
+**漏洞描述 / Description**:
+Untrusted search path vulnerability in Catfish through 0.4.0.3, when a Fedora package such as 0.4.0.2-2 is not used, allows local users to gain privileges via a Trojan horse catfish.pyc in the current working directory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://openwall.com/lists/oss-security/2014/02/25/2.
+
+**参考链接 / References**:
+- http://openwall.com/lists/oss-security/2014/02/25/2
+- http://openwall.com/lists/oss-security/2014/02/25/4
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=739958
+- https://bugzilla.redhat.com/show_bug.cgi?id=1069396
+- http://openwall.com/lists/oss-security/2014/02/25/2
+
+---
+
+#### 1332. CVE-2014-2095
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: catfish_project:catfish
+
+**漏洞描述 / Description**:
+Untrusted search path vulnerability in Catfish 0.6.0 through 1.0.0, when a Fedora package such as 0.8.2-1 is not used, allows local users to gain privileges via a Trojan horse bin/catfish.pyc under the current working directory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://openwall.com/lists/oss-security/2014/02/25/2.
+
+**参考链接 / References**:
+- http://openwall.com/lists/oss-security/2014/02/25/2
+- http://openwall.com/lists/oss-security/2014/02/25/4
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=739958
+- https://bugzilla.redhat.com/show_bug.cgi?id=1069396
+- http://openwall.com/lists/oss-security/2014/02/25/2
+
+---
+
+#### 1333. CVE-2013-6494
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: fedoraproject:fedora, fedup_project:fedup
+
+**漏洞描述 / Description**:
+fedup 0.9.0 in Fedora 19, 20, and 21 uses a temporary directory with a static name for its download cache, which allows local users to cause a denial of service (prevention of system updates).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.fedoraproject.org/pipermail/package-announce/2014-November/141698.html.
+
+**参考链接 / References**:
+- http://lists.fedoraproject.org/pipermail/package-announce/2014-November/141698.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2014-November/142698.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2014-November/142933.html
+- http://www.securityfocus.com/bid/70874
+- https://bugzilla.redhat.com/show_bug.cgi?id=1066679
+
+---
+
+#### 1334. CVE-2014-9278
+
+**严重程度 / Severity**: N/A | CVSS: 4.0
+**受影响产品 / Affected Products**: redhat:fedora, openbsd:openssh, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The OpenSSH server, as used in Fedora and Red Hat Enterprise Linux 7 and when running in a Kerberos environment, allows remote authenticated users to log in as another user when they are listed in the .k5users file of that user, which might bypass intended authentication requirements that would force a local login.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2015-0425.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2015-0425.html
+- http://thread.gmane.org/gmane.comp.encryption.kerberos.general/15855
+- http://www.openwall.com/lists/oss-security/2014/12/02/3
+- http://www.openwall.com/lists/oss-security/2014/12/04/17
+- http://www.securityfocus.com/bid/71420
+
+---
+
+#### 1335. CVE-2015-3230
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: fedoraproject:389_directory_server
+
+**漏洞描述 / Description**:
+389 Directory Server (formerly Fedora Directory Server) before 1.3.3.12 does not enforce the nsSSL3Ciphers preference when creating an sslSocket, which allows remote attackers to have unspecified impact by requesting to use a disabled cipher.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://directory.fedoraproject.org/docs/389ds/releases/release-1-3-3-12.html.
+
+**参考链接 / References**:
+- http://directory.fedoraproject.org/docs/389ds/releases/release-1-3-3-12.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2015-October/168985.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=1230996
+- https://fedorahosted.org/389/ticket/48194
+- http://directory.fedoraproject.org/docs/389ds/releases/release-1-3-3-12.html
+
+---
+
+#### 1336. CVE-2016-0741
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: redhat:enterprise_linux, redhat:enterprise_linux_desktop, redhat:enterprise_linux_hpc_node, redhat:enterprise_linux_workstation, fedoraproject:389_directory_server
+
+**漏洞描述 / Description**:
+slapd/connection.c in 389 Directory Server (formerly Fedora Directory Server) 1.3.4.x before 1.3.4.7 allows remote attackers to cause a denial of service (infinite loop and connection blocking) by leveraging an abnormally closed connection.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://directory.fedoraproject.org/docs/389ds/releases/release-1-3-4-7.html.
+
+**参考链接 / References**:
+- http://directory.fedoraproject.org/docs/389ds/releases/release-1-3-4-7.html
+- http://rhn.redhat.com/errata/RHSA-2016-0204.html
+- http://www.oracle.com/technetwork/topics/security/linuxbulletinjan2016-2867209.html
+- http://www.securityfocus.com/bid/82343
+- https://fedorahosted.org/389/changeset/cd45d032421b0ecf76d8cbb9b1c3aeef7680d9a2/
+
+---
+
+#### 1337. CVE-2016-0726
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: nagios:nagios
+
+**漏洞描述 / Description**:
+The Fedora Nagios package uses "nagiosadmin" as the default password for the "nagiosadmin" administrator account, which makes it easier for remote attackers to obtain access by leveraging knowledge of the credentials.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.redhat.com/show_bug.cgi?id=1295446.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=1295446
+- https://bugzilla.redhat.com/show_bug.cgi?id=1295446
+
+---
+
+#### 1338. CVE-2017-7496
+
+**严重程度 / Severity**: HIGH | CVSS: 7.0
+**受影响产品 / Affected Products**: fedoraproject:arm_installer
+
+**漏洞描述 / Description**:
+fedora-arm-installer up to and including 1.99.16 is vulnerable to local privilege escalation due to lack of checking the error condition of mount operation failure on unsafely created temporary directories.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://pagure.io/arm-image-installer/pull-request/10.
+
+**参考链接 / References**:
+- https://pagure.io/arm-image-installer/pull-request/10
+- https://pagure.io/arm-image-installer/pull-request/10
+
+---
+
+#### 1339. CVE-2015-3277
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: mod_nss_project:mod_nss
+
+**漏洞描述 / Description**:
+The mod_nss module before 1.0.11 in Fedora allows remote attackers to obtain cipher lists due to incorrect parsing of multi-keyword cipherstring.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.fedoraproject.org/pipermail/package-announce/2015-November/170607.html.
+
+**参考链接 / References**:
+- http://lists.fedoraproject.org/pipermail/package-announce/2015-November/170607.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=1238324
+- https://bugzilla.redhat.com/show_bug.cgi?id=1243518
+- http://lists.fedoraproject.org/pipermail/package-announce/2015-November/170607.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=1238324
+
+---
+
+#### 1340. CVE-2017-12170
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: pureftpd:pure-ftpd, fedoraproject:fedora
+
+**漏洞描述 / Description**:
+Downstream version 1.0.46-1 of pure-ftpd as shipped in Fedora was vulnerable to packaging error due to which the original configuration was ignored after update and service started running with default configuration. This has security implications because of overriding security-related configuration. This issue doesn't affect upstream version of pure-ftpd.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.redhat.com/show_bug.cgi?id=1493114.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=1493114
+- https://bugzilla.redhat.com/show_bug.cgi?id=1493114
+
+---
+
+#### 1341. CVE-2015-0296
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.7
+**受影响产品 / Affected Products**: tug:texlive, fedoraproject:fedora
+
+**漏洞描述 / Description**:
+The pre-install script in texlive 3.1.20140525_r34255.fc21 as packaged in Fedora 21 and rpm, and texlive 6.20131226_r32488.fc20 and rpm allows local users to delete arbitrary files via a crafted file in the user's home directory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.fedoraproject.org/pipermail/package-announce/2015-April/154198.html.
+
+**参考链接 / References**:
+- http://lists.fedoraproject.org/pipermail/package-announce/2015-April/154198.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2015-April/154424.html
+- http://www.openwall.com/lists/oss-security/2015/02/27/6
+- http://www.securityfocus.com/bid/72826
+- https://bugzilla.redhat.com/show_bug.cgi?id=1197082
+
+---
+
+#### 1342. CVE-2015-3229
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.9
+**受影响产品 / Affected Products**: fedoraproject:spin-kickstarts, fedoraproject:atomic
+
+**漏洞描述 / Description**:
+fedora-cloud-atomic.ks in spin-kickstarts allows remote attackers to conduct man-in-the-middle attacks by leveraging use of HTTP to download Fedora Atomic updates.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.openwall.com/lists/oss-security/2015/06/12/8.
+
+**参考链接 / References**:
+- http://www.openwall.com/lists/oss-security/2015/06/12/8
+- http://www.securityfocus.com/bid/75185
+- https://bugzilla.redhat.com/show_bug.cgi?id=1231800
+- https://lists.fedoraproject.org/archives/list/spins%40lists.fedoraproject.org/thread/L3GSGM5JS2EAJJAGEHR7U4ATNM4ILFKK/
+- http://www.openwall.com/lists/oss-security/2015/06/12/8
+
+---
+
+#### 1343. CVE-2013-0159
+
+**严重程度 / Severity**: HIGH | CVSS: 7.1
+**受影响产品 / Affected Products**: fedoraproject:fedora
+
+**漏洞描述 / Description**:
+The fedora-business-cards package before 1-0.1.beta1.fc17 on Fedora 17 and before 1-0.1.beta1.fc18 on Fedora 18 allows local users to cause a denial of service or write to arbitrary files via a symlink attack on /tmp/fedora-business-cards-buffer.svg.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.redhat.com/show_bug.cgi?id=892299.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=892299
+- https://bugzilla.redhat.com/show_bug.cgi?id=892815
+- https://bugzilla.redhat.com/show_bug.cgi?id=892299
+- https://bugzilla.redhat.com/show_bug.cgi?id=892815
+
+---
+
+#### 1344. CVE-2018-1111
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: redhat:enterprise_linux, redhat:enterprise_virtualization_host, redhat:enterprise_linux_desktop, fedoraproject:fedora, redhat:enterprise_linux_workstation
+
+**漏洞描述 / Description**:
+DHCP packages in Red Hat Enterprise Linux 6 and 7, Fedora 28, and earlier are vulnerable to a command injection flaw in the NetworkManager integration script included in the DHCP client. A malicious DHCP server, or an attacker on the local network able to spoof DHCP responses, could use this flaw to execute arbitrary commands with root privileges on systems using NetworkManager and configured to obtain network configuration using the DHCP protocol.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/104195.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/104195
+- http://www.securitytracker.com/id/1040912
+- https://access.redhat.com/errata/RHSA-2018:1453
+- https://access.redhat.com/errata/RHSA-2018:1454
+- https://access.redhat.com/errata/RHSA-2018:1455
+
+---
+
+#### 1345. CVE-2018-1125
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: opensuse:leap, debian:debian_linux, procps-ng_project:procps-ng, canonical:ubuntu_linux
+
+**漏洞描述 / Description**:
+procps-ng before version 3.3.15 is vulnerable to a stack buffer overflow in pgrep. This vulnerability is mitigated by FORTIFY, as it involves strncat() to a stack-allocated string. When pgrep is compiled with FORTIFY (as on Red Hat Enterprise Linux and Fedora), the impact is limited to a crash.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2019-10/msg00058.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2019-10/msg00058.html
+- http://lists.opensuse.org/opensuse-security-announce/2019-10/msg00059.html
+- http://seclists.org/oss-sec/2018/q2/122
+- http://www.securityfocus.com/bid/104214
+- https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2018-1125
+
+---
+
+#### 1346. CVE-2018-1113
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.8
+**受影响产品 / Affected Products**: redhat:enterprise_linux, redhat:setup, redhat:enterprise_linux_desktop, fedoraproject:fedora, redhat:enterprise_linux_workstation
+
+**漏洞描述 / Description**:
+setup before version 2.11.4-1.fc28 in Fedora and Red Hat Enterprise Linux added /sbin/nologin and /usr/sbin/nologin to /etc/shells. This violates security assumptions made by pam_shells and some daemons which allow access based on a user's shell being listed in /etc/shells. Under some circumstances, users which had their shell changed to /sbin/nologin could still access the system.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://access.redhat.com/errata/RHBA-2019:0327.
+
+**参考链接 / References**:
+- https://access.redhat.com/errata/RHBA-2019:0327
+- https://access.redhat.com/errata/RHSA-2018:3249
+- https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2018-1113
+- https://access.redhat.com/errata/RHBA-2019:0327
+- https://access.redhat.com/errata/RHSA-2018:3249
+
+---
+
+#### 1347. CVE-2019-7639
+
+**严重程度 / Severity**: HIGH | CVSS: 8.1
+**受影响产品 / Affected Products**: gsi-openssh_project:gsi-openssh, fedoraproject:fedora
+
+**漏洞描述 / Description**:
+An issue was discovered in gsi-openssh-server 7.9p1 on Fedora 29. If PermitPAMUserChange is set to yes in the /etc/gsissh/sshd_config file, logins succeed with a valid username and an incorrect password, even though a failure entry is recorded in the /var/log/messages file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.redhat.com/show_bug.cgi?id=1673802.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=1673802
+- https://bugzilla.redhat.com/show_bug.cgi?id=1673802
+
+---
+
+#### 1348. CVE-2019-14844
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: fedoraproject:fedora, mit:kerberos_5
+
+**漏洞描述 / Description**:
+A flaw was found in, Fedora versions of krb5 from 1.16.1 to, including 1.17.x, in the way a Kerberos client could crash the KDC by sending one of the RFC 4556 "enctypes". A remote unauthenticated user could use this flaw to crash the KDC.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-14844.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-14844
+- https://github.com/krb5/krb5/pull/981
+- https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/54ZYKEJZ77BXZWGF4NEVKC33ESVROEYC/
+- https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/N4LS5PIJOCNOUZGLO2OBT6GY334PUOSW/
+- https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/TDE2QOKK4I4TV4WV74ZQWICZ4HJN2MOK/
+
+---
+
+#### 1349. CVE-2012-1615
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: fedoraproject:sectool, fedoraproject:fedora
+
+**漏洞描述 / Description**:
+A Privilege Escalation vulnerability exits in Fedoraproject Sectool due to an incorrect DBus file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.fedoraproject.org/pipermail/package-announce/2012-April/076873.html.
+
+**参考链接 / References**:
+- http://lists.fedoraproject.org/pipermail/package-announce/2012-April/076873.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2012-May/081113.html
+- http://www.openwall.com/lists/oss-security/2012/04/04/2
+- http://www.securityfocus.com/bid/52884
+- https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2012-1615
+
+---
+
+#### 1350. CVE-2020-14312
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.9
+**受影响产品 / Affected Products**: fedoraproject:fedora
+
+**漏洞描述 / Description**:
+A flaw was found in the default configuration of dnsmasq, as shipped with Fedora versions prior to 31 and in all versions Red Hat Enterprise Linux, where it listens on any interface and accepts queries from addresses outside of its local subnet. In particular, the option `local-service` is not enabled. Running dnsmasq in this manner may inadvertently make it an open resolver accessible from any address on the internet. This flaw allows an attacker to conduct a Distributed Denial of Service (DDoS) against other systems.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.redhat.com/show_bug.cgi?id=1851342.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=1851342
+- https://bugzilla.redhat.com/show_bug.cgi?id=1851342
+
+---
+
+#### 1351. CVE-2021-43816
+
+**严重程度 / Severity**: HIGH | CVSS: 8.0
+**受影响产品 / Affected Products**: linuxfoundation:containerd, fedoraproject:fedora
+
+**漏洞描述 / Description**:
+containerd is an open source container runtime. On installations using SELinux, such as EL8 (CentOS, RHEL), Fedora, or SUSE MicroOS, with containerd since v1.5.0-beta.0 as the backing container runtime interface (CRI), an unprivileged pod scheduled to the node may bind mount, via hostPath volume, any privileged, regular file on disk for complete read/write access (sans delete). Such is achieved by placing the in-container location of the hostPath volume mount at either `/etc/hosts`, `/etc/hostname`, or `/etc/resolv.conf`. These locations are being relabeled indiscriminately to match the container process-label which effectively elevates permissions for savvy containers that would not normally be able to access privileged host files. This issue has been resolved in version 1.5.9. Users are advised to upgrade as soon as possible.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/containerd/containerd/commit/a731039238c62be081eb8c31525b988415745eea.
+
+**参考链接 / References**:
+- https://github.com/containerd/containerd/commit/a731039238c62be081eb8c31525b988415745eea
+- https://github.com/containerd/containerd/issues/6194
+- https://github.com/containerd/containerd/security/advisories/GHSA-mvff-h3cj-wj9c
+- https://github.com/dweomer/containerd/commit/f7f08f0e34fb97392b0d382e58916d6865100299
+- https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/GD5GH7NMK5VJMA2Y5CYB5O5GTPYMWMLX/
+
+---
+
+#### 1352. CVE-2021-20269
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: kexec-tools_project:kexec-tools, redhat:enterprise_linux, fedoraproject:fedora
+
+**漏洞描述 / Description**:
+A flaw was found in the permissions of a log file created by kexec-tools. This flaw allows a local unprivileged user to read this file and leak kernel internal information from a previous panic. The highest threat from this vulnerability is to confidentiality. This flaw affects kexec-tools shipped by Fedora versions prior to 2.0.21-8 and RHEL versions prior to 2.0.20-47.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.redhat.com/show_bug.cgi?id=1934261.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=1934261
+- https://bugzilla.redhat.com/show_bug.cgi?id=1934261
+
+---
+
+#### 1353. CVE-2022-3675
+
+**严重程度 / Severity**: LOW | CVSS: 2.6
+**受影响产品 / Affected Products**: redhat:fedora_coreos
+
+**漏洞描述 / Description**:
+Fedora CoreOS supports setting a GRUB bootloader password
+using a Butane config. When this feature is enabled, GRUB requires a password to access the
+GRUB command-line, modify kernel command-line arguments, or boot
+non-default OSTree deployments.  Recent Fedora CoreOS releases have a
+misconfiguration which allows booting non-default OSTree deployments
+without entering a password.  This allows someone with access to the
+GRUB menu to boot into an older version of Fedora CoreOS, reverting
+any security fixes that have recently been applied to the machine.  A
+password is still required to modify kernel command-line arguments and
+to access the GRUB command line.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://docs.fedoraproject.org/en-US/fedora-coreos/grub-password/.
+
+**参考链接 / References**:
+- https://docs.fedoraproject.org/en-US/fedora-coreos/grub-password/
+- https://github.com/coreos/fedora-coreos-tracker/issues/1333
+- https://lists.fedoraproject.org/archives/list/coreos-status@lists.fedoraproject.org/thread/NHUCNH5Y4UH5DPUCXISYXXVA563TLFEJ/
+- https://docs.fedoraproject.org/en-US/fedora-coreos/grub-password/
+- https://github.com/coreos/fedora-coreos-tracker/issues/1333
+
+---
+
+#### 1354. CVE-2020-27418
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.4
+**受影响产品 / Affected Products**: fedoraproject:fedora_linux_kernel
+
+**漏洞描述 / Description**:
+A Use After Free vulnerability in Fedora Linux kernel 5.9.0-rc9 allows attackers to obatin sensitive information via vgacon_invert_region() function.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://fedora.com.
+
+**参考链接 / References**:
+- http://fedora.com
+- https://patchwork.freedesktop.org/patch/356372/
+- http://fedora.com
+- https://patchwork.freedesktop.org/patch/356372/
+
+---
+
+#### 1355. CVE-2022-3874
+
+**严重程度 / Severity**: HIGH | CVSS: 8.0
+**受影响产品 / Affected Products**: redhat:satellite, theforeman:foreman
+
+**漏洞描述 / Description**:
+A command injection flaw was found in foreman. This flaw allows an authenticated user with admin privileges on the foreman instance to transpile commands through CoreOS and Fedora CoreOS configurations in templates, possibly resulting in arbitrary command execution on the underlying operating system.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://access.redhat.com/security/cve/CVE-2022-3874.
+
+**参考链接 / References**:
+- https://access.redhat.com/security/cve/CVE-2022-3874
+- https://bugzilla.redhat.com/show_bug.cgi?id=2140577
+- https://access.redhat.com/security/cve/CVE-2022-3874
+- https://bugzilla.redhat.com/show_bug.cgi?id=2140577
+
+---
+
+#### 1356. CVE-2025-23011
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+**受影响产品 / Affected Products**: fedorarepository:fcrepo
+
+**漏洞描述 / Description**:
+Fedora Repository 3.8.1 allows path traversal when extracting uploaded archives ("Zip Slip"). A remote, authenticated attacker can upload a specially crafted archive that will extract an arbitrary JSP file to a location that can be executed by an unauthenticated GET request. Fedora Repository 3.8.1 was released on 2015-06-11 and is no longer maintained. Migrate to a currently supported version (6.5.1 as of 2025-01-23).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/fcrepo-exts/migration-utils.
+
+**参考链接 / References**:
+- https://github.com/fcrepo-exts/migration-utils
+- https://github.com/fcrepo/fcrepo/releases
+- https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/IT/white/2025/va-25-021-01.json
+
+---
+
+#### 1357. CVE-2025-23012
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: fedorarepository:fcrepo
+
+**漏洞描述 / Description**:
+Fedora Repository 3.8.x includes a service account (fedoraIntCallUser) with default credentials and privileges to read read local files by manipulating datastreams. Fedora Repository 3.8.1 was released on 2015-06-11 and is no longer maintained. Migrate to a currently supported version (6.5.1 as of 2025-01-23).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/fcrepo-exts/migration-utils.
+
+**参考链接 / References**:
+- https://github.com/fcrepo-exts/migration-utils
+- https://github.com/fcrepo/fcrepo/releases
+- https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/IT/white/2025/va-25-021-01.json
+- https://wiki.lyrasis.org/display/FEDORA38/XACML+Policy+Enforcement#XACMLPolicyEnforcement-4.1fedora-usersattributes
+
+---
+
+#### 1358. CVE-2025-21710
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+tcp: correct handling of extreme memory squeeze
+
+Testing with iperf3 using the "pasta" protocol splicer has revealed
+a problem in the way tcp handles window advertising in extreme memory
+squeeze situations.
+
+Under memory pressure, a socket endpoint may temporarily advertise
+a zero-sized window, but this is not stored as part of the socket data.
+The reasoning behind this is that it is considered a temporary setting
+which shouldn't influence any further calculations.
+
+However, if we happen to stall at an unfortunate value of the current
+window size, the algorithm selecting a new value will consistently fail
+to advertise a non-zero window once we have freed up enough memory.
+This means that this side's notion of the current window size is
+different from the one last advertised to the peer, causing the latter
+to not send any data to resolve the sitution.
+
+The problem occurs on the iperf3 server side, and the socket in question
+is a completely regular socket with the default settings for the
+fedora40 kernel. We do not use SO_PEEK or SO_RCVBUF on the socket.
+
+The following excerpt of a logging session, with own comments added,
+shows more in detail what is happening:
+
+//              tcp_v4_rcv(->)
+//                tcp_rcv_established(->)
+[5201<->39222]:     ==== Activating log @ net/ipv4/tcp_input.c/tcp_data_queue()/5257 ====
+[5201<->39222]:     tcp_data_queue(->)
+[5201<->39222]:        DROPPING skb [265600160..265665640], reason: SKB_DROP_REASON_PROTO_MEM
+                       [rcv_nxt 265600160, rcv_wnd 262144, snt_ack 265469200, win_now 131184]
+                       [copied_seq 259909392->260034360 (124968), unread 5565800, qlen 85, ofoq 0]
+                       [OFO queue: gap: 65480, len: 0]
+[5201<->39222]:     tcp_data_queue(<-)
+[5201<->39222]:     __tcp_transmit_skb(->)
+                        [tp->rcv_wup: 265469200, tp->rcv_wnd: 262144, tp->rcv_nxt 265600160]
+[5201<->39222]:       tcp_select_window(->)
+[5201<->39222]:         (inet_csk(sk)->icsk_ack.pending & ICSK_ACK_NOMEM) ? --> TRUE
+                        [tp->rcv_wup: 265469200, tp->rcv_wnd: 262144, tp->rcv_nxt 265600160]
+                        returning 0
+[5201<->39222]:       tcp_select_window(<-)
+[5201<->39222]:       ADVERTISING WIN 0, ACK_SEQ: 265600160
+[5201<->39222]:     [__tcp_transmit_skb(<-)
+[5201<->39222]:   tcp_rcv_established(<-)
+[5201<->39222]: tcp_v4_rcv(<-)
+
+// Receive queue is at 85 buffers and we are out of memory.
+// We drop the incoming buffer, although it is in sequence, and decide
+// to send an advertisement with a window of zero.
+// We don't update tp->rcv_wnd and tp->rcv_wup accordingly, which means
+// we unconditionally shrink the window.
+
+[5201<->39222]: tcp_recvmsg_locked(->)
+[5201<->39222]:   __tcp_cleanup_rbuf(->) tp->rcv_wup: 265469200, tp->rcv_wnd: 262144, tp->rcv_nxt 265600160
+[5201<->39222]:     [new_win = 0, win_now = 131184, 2 * win_now = 262368]
+[5201<->39222]:     [new_win >= (2 * win_now) ? --> time_to_ack = 0]
+[5201<->39222]:     NOT calling tcp_send_ack()
+                    [tp->rcv_wup: 265469200, tp->rcv_wnd: 262144, tp->rcv_nxt 265600160]
+[5201<->39222]:   __tcp_cleanup_rbuf(<-)
+                  [rcv_nxt 265600160, rcv_wnd 262144, snt_ack 265469200, win_now 131184]
+                  [copied_seq 260040464->260040464 (0), unread 5559696, qlen 85, ofoq 0]
+                  returning 6104 bytes
+[5201<->39222]: tcp_recvmsg_locked(<-)
+
+// After each read, the algorithm for calculating the new receive
+// window in __tcp_cleanup_rbuf() finds it is too small to advertise
+// or to update tp->rcv_wnd.
+// Meanwhile, the peer thinks the window is zero, and will not send
+// any more data to trigger an update from the interrupt mode side.
+
+[5201<->39222]: tcp_recvmsg_locked(->)
+[5201<->39222]:   __tcp_cleanup_rbuf(->) tp->rcv_wup: 265469200, tp->rcv_wnd: 262144, tp->rcv_nxt 265600160
+[5201<->39222]:     [new_win = 262144, win_now = 131184, 2 * win_n
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/1dd823a46e25ffde1492c391934f69a9e5eb574f.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/1dd823a46e25ffde1492c391934f69a9e5eb574f
+- https://git.kernel.org/stable/c/8c670bdfa58e48abad1d5b6ca1ee843ca91f7303
+- https://git.kernel.org/stable/c/b01e7ceb35dcb7ffad413da657b78c3340a09039
+- https://git.kernel.org/stable/c/b4055e2fe96f4ef101d8af0feb056d78d77514ff
+
+---
+
+#### 1359. CVE-2025-27512
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+Zincati is an auto-update agent for Fedora CoreOS hosts. Zincati ships a polkit rule which allows the `zincati` system user to use the actions `org.projectatomic.rpmostree1.deploy` to deploy updates to the system and `org.projectatomic.rpmostree1.finalize-deployment` to reboot the system into the deployed update. Since Zincati v0.0.24, this polkit rule contains a logic error which broadens access of those polkit actions to any unprivileged user rather than just the `zincati` system user. In practice, this means that any unprivileged user with access to the system D-Bus socket is able to deploy older Fedora CoreOS versions (which may have other known vulnerabilities). Note that rpm-ostree enforces that the selected version must be from the same branch the system is currently on so this cannot directly be used to deploy an attacker-controlled update payload. This primarily impacts users running untrusted workloads with access to the system D-Bus socket. Note that in general, untrusted workloads should not be given this access, whether containerized or not. By default, containers do not have access to the system D-Bus socket. The logic error is fixed in Zincati v0.0.30. A workaround is to manually add a following polkit rule, instructions for which are available in the GitHub Security Advisory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/coreos/zincati/commit/01d8e89f799e6ba21bdf7dc668abce23bd0d8f78.
+
+**参考链接 / References**:
+- https://github.com/coreos/zincati/commit/01d8e89f799e6ba21bdf7dc668abce23bd0d8f78
+- https://github.com/coreos/zincati/commit/28a43aa2c1edda091ba659677d73c13e6e3ea99d
+- https://github.com/coreos/zincati/releases/tag/v0.0.24
+- https://github.com/coreos/zincati/releases/tag/v0.0.30
+- https://github.com/coreos/zincati/security/advisories/GHSA-w6fv-6gcc-x825
+
+---
+
+#### 1360. CVE-2025-38181
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: linux:linux_kernel, debian:debian_linux
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+calipso: Fix null-ptr-deref in calipso_req_{set,del}attr().
+
+syzkaller reported a null-ptr-deref in sock_omalloc() while allocating
+a CALIPSO option.  [0]
+
+The NULL is of struct sock, which was fetched by sk_to_full_sk() in
+calipso_req_setattr().
+
+Since commit a1a5344ddbe8 ("tcp: avoid two atomic ops for syncookies"),
+reqsk->rsk_listener could be NULL when SYN Cookie is returned to its
+client, as hinted by the leading SYN Cookie log.
+
+Here are 3 options to fix the bug:
+
+  1) Return 0 in calipso_req_setattr()
+  2) Return an error in calipso_req_setattr()
+  3) Alaways set rsk_listener
+
+1) is no go as it bypasses LSM, but 2) effectively disables SYN Cookie
+for CALIPSO.  3) is also no go as there have been many efforts to reduce
+atomic ops and make TCP robust against DDoS.  See also commit 3b24d854cb35
+("tcp/dccp: do not touch listener sk_refcnt under synflood").
+
+As of the blamed commit, SYN Cookie already did not need refcounting,
+and no one has stumbled on the bug for 9 years, so no CALIPSO user will
+care about SYN Cookie.
+
+Let's return an error in calipso_req_setattr() and calipso_req_delattr()
+in the SYN Cookie case.
+
+This can be reproduced by [1] on Fedora and now connect() of nc times out.
+
+[0]:
+TCP: request_sock_TCPv6: Possible SYN flooding on port [::]:20002. Sending cookies.
+Oops: general protection fault, probably for non-canonical address 0xdffffc0000000006: 0000 [#1] PREEMPT SMP KASAN NOPTI
+KASAN: null-ptr-deref in range [0x0000000000000030-0x0000000000000037]
+CPU: 3 UID: 0 PID: 12262 Comm: syz.1.2611 Not tainted 6.14.0 #2
+Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.16.3-0-ga6ed6b701f0a-prebuilt.qemu.org 04/01/2014
+RIP: 0010:read_pnet include/net/net_namespace.h:406 [inline]
+RIP: 0010:sock_net include/net/sock.h:655 [inline]
+RIP: 0010:sock_kmalloc+0x35/0x170 net/core/sock.c:2806
+Code: 89 d5 41 54 55 89 f5 53 48 89 fb e8 25 e3 c6 fd e8 f0 91 e3 00 48 8d 7b 30 48 b8 00 00 00 00 00 fc ff df 48 89 fa 48 c1 ea 03 <80> 3c 02 00 0f 85 26 01 00 00 48 b8 00 00 00 00 00 fc ff df 4c 8b
+RSP: 0018:ffff88811af89038 EFLAGS: 00010216
+RAX: dffffc0000000000 RBX: 0000000000000000 RCX: ffff888105266400
+RDX: 0000000000000006 RSI: ffff88800c890000 RDI: 0000000000000030
+RBP: 0000000000000050 R08: 0000000000000000 R09: ffff88810526640e
+R10: ffffed1020a4cc81 R11: ffff88810526640f R12: 0000000000000000
+R13: 0000000000000820 R14: ffff888105266400 R15: 0000000000000050
+FS:  00007f0653a07640(0000) GS:ffff88811af80000(0000) knlGS:0000000000000000
+CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+CR2: 00007f863ba096f4 CR3: 00000000163c0005 CR4: 0000000000770ef0
+PKRU: 80000000
+Call Trace:
+ <IRQ>
+ ipv6_renew_options+0x279/0x950 net/ipv6/exthdrs.c:1288
+ calipso_req_setattr+0x181/0x340 net/ipv6/calipso.c:1204
+ calipso_req_setattr+0x56/0x80 net/netlabel/netlabel_calipso.c:597
+ netlbl_req_setattr+0x18a/0x440 net/netlabel/netlabel_kapi.c:1249
+ selinux_netlbl_inet_conn_request+0x1fb/0x320 security/selinux/netlabel.c:342
+ selinux_inet_conn_request+0x1eb/0x2c0 security/selinux/hooks.c:5551
+ security_inet_conn_request+0x50/0xa0 security/security.c:4945
+ tcp_v6_route_req+0x22c/0x550 net/ipv6/tcp_ipv6.c:825
+ tcp_conn_request+0xec8/0x2b70 net/ipv4/tcp_input.c:7275
+ tcp_v6_conn_request+0x1e3/0x440 net/ipv6/tcp_ipv6.c:1328
+ tcp_rcv_state_process+0xafa/0x52b0 net/ipv4/tcp_input.c:6781
+ tcp_v6_do_rcv+0x8a6/0x1a40 net/ipv6/tcp_ipv6.c:1667
+ tcp_v6_rcv+0x505e/0x5b50 net/ipv6/tcp_ipv6.c:1904
+ ip6_protocol_deliver_rcu+0x17c/0x1da0 net/ipv6/ip6_input.c:436
+ ip6_input_finish+0x103/0x180 net/ipv6/ip6_input.c:480
+ NF_HOOK include/linux/netfilter.h:314 [inline]
+ NF_HOOK include/linux/netfilter.h:308 [inline]
+ ip6_input+0x13c/0x6b0 net/ipv6/ip6_input.c:491
+ dst_input include/net/dst.h:469 [inline]
+ ip6_rcv_finish net/ipv6/ip6_input.c:79 [inline]
+ ip6_rcv_finish+0xb6/0x490 net/ipv6/ip6_input.c:69
+ NF_HOOK include/linux/netfilter.h:314 [inline]
+ NF_HOOK include/linux/netf
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/058dd4a370f23a5553a9449f2db53d5bfa88d45e.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/058dd4a370f23a5553a9449f2db53d5bfa88d45e
+- https://git.kernel.org/stable/c/10876da918fa1aec0227fb4c67647513447f53a9
+- https://git.kernel.org/stable/c/956f1499412ed0953f6a116df7fdb855e9f1fc66
+- https://git.kernel.org/stable/c/988edde4d52d5c02ea4dd95d7619372a5e2fb7b7
+- https://git.kernel.org/stable/c/bde8833eb075ba8e8674de88e32de6b669966451
+
+---
+
+#### 1361. CVE-2023-5342
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.1
+
+**漏洞描述 / Description**:
+The Fedora Secure Boot CA certificate shipped with shim in Fedora was expired which could lead to old or invalid signed boot components being loaded.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://access.redhat.com/security/cve/CVE-2023-5342.
+
+**参考链接 / References**:
+- https://access.redhat.com/security/cve/CVE-2023-5342
+- https://bodhi.fedoraproject.org/updates/FEDORA-2024-2aa28a4cfc
+- https://bugzilla.redhat.com/show_bug.cgi?id=2198977
+- https://bugzilla.redhat.com/show_bug.cgi?id=2388707
+
+---
+
+#### 1362. CVE-2025-68183
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+ima: don't clear IMA_DIGSIG flag when setting or removing non-IMA xattr
+
+Currently when both IMA and EVM are in fix mode, the IMA signature will
+be reset to IMA hash if a program first stores IMA signature in
+security.ima and then writes/removes some other security xattr for the
+file.
+
+For example, on Fedora, after booting the kernel with "ima_appraise=fix
+evm=fix ima_policy=appraise_tcb" and installing rpm-plugin-ima,
+installing/reinstalling a package will not make good reference IMA
+signature generated. Instead IMA hash is generated,
+
+    # getfattr -m - -d -e hex /usr/bin/bash
+    # file: usr/bin/bash
+    security.ima=0x0404...
+
+This happens because when setting security.selinux, the IMA_DIGSIG flag
+that had been set early was cleared. As a result, IMA hash is generated
+when the file is closed.
+
+Similarly, IMA signature can be cleared on file close after removing
+security xattr like security.evm or setting/removing ACL.
+
+Prevent replacing the IMA file signature with a file hash, by preventing
+the IMA_DIGSIG flag from being reset.
+
+Here's a minimal C reproducer which sets security.selinux as the last
+step which can also replaced by removing security.evm or setting ACL,
+
+    #include <stdio.h>
+    #include <sys/xattr.h>
+    #include <fcntl.h>
+    #include <unistd.h>
+    #include <string.h>
+    #include <stdlib.h>
+
+    int main() {
+        const char* file_path = "/usr/sbin/test_binary";
+        const char* hex_string = "030204d33204490066306402304";
+        int length = strlen(hex_string);
+        char* ima_attr_value;
+        int fd;
+
+        fd = open(file_path, O_WRONLY|O_CREAT|O_EXCL, 0644);
+        if (fd == -1) {
+            perror("Error opening file");
+            return 1;
+        }
+
+        ima_attr_value = (char*)malloc(length / 2 );
+        for (int i = 0, j = 0; i < length; i += 2, j++) {
+            sscanf(hex_string + i, "%2hhx", &ima_attr_value[j]);
+        }
+
+        if (fsetxattr(fd, "security.ima", ima_attr_value, length/2, 0) == -1) {
+            perror("Error setting extended attribute");
+            close(fd);
+            return 1;
+        }
+
+        const char* selinux_value= "system_u:object_r:bin_t:s0";
+        if (fsetxattr(fd, "security.selinux", selinux_value, strlen(selinux_value), 0) == -1) {
+            perror("Error setting extended attribute");
+            close(fd);
+            return 1;
+        }
+
+        close(fd);
+
+        return 0;
+    }
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/02aa671c08a4834bef5166743a7b88686fbfa023.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/02aa671c08a4834bef5166743a7b88686fbfa023
+- https://git.kernel.org/stable/c/88b4cbcf6b041ae0f2fc8a34554a5b6a83a2b7cd
+- https://git.kernel.org/stable/c/d2993a7e98eb70c737c6f5365a190e79c72b8407
+- https://git.kernel.org/stable/c/edd824eb45e4f7e05ad3ab090dab6dbdb79cd292
+
+---
+
+#### 1363. CVE-2026-23215
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+x86/vmware: Fix hypercall clobbers
+
+Fedora QA reported the following panic:
+
+  BUG: unable to handle page fault for address: 0000000040003e54
+  #PF: supervisor write access in kernel mode
+  #PF: error_code(0x0002) - not-present page
+  Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS edk2-20251119-3.fc43 11/19/2025
+  RIP: 0010:vmware_hypercall4.constprop.0+0x52/0x90
+  ..
+  Call Trace:
+   vmmouse_report_events+0x13e/0x1b0
+   psmouse_handle_byte+0x15/0x60
+   ps2_interrupt+0x8a/0xd0
+   ...
+
+because the QEMU VMware mouse emulation is buggy, and clears the top 32
+bits of %rdi that the kernel kept a pointer in.
+
+The QEMU vmmouse driver saves and restores the register state in a
+"uint32_t data[6];" and as a result restores the state with the high
+bits all cleared.
+
+RDI originally contained the value of a valid kernel stack address
+(0xff5eeb3240003e54).  After the vmware hypercall it now contains
+0x40003e54, and we get a page fault as a result when it is dereferenced.
+
+The proper fix would be in QEMU, but this works around the issue in the
+kernel to keep old setups working, when old kernels had not happened to
+keep any state in %rdi over the hypercall.
+
+In theory this same issue exists for all the hypercalls in the vmmouse
+driver; in practice it has only been seen with vmware_hypercall3() and
+vmware_hypercall4().  For now, just mark RDI/RSI as clobbered for those
+two calls.  This should have a minimal effect on code generation overall
+as it should be rare for the compiler to want to make RDI/RSI live
+across hypercalls.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/2687c848e57820651b9f69d30c4710f4219f7dbf.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/2687c848e57820651b9f69d30c4710f4219f7dbf
+- https://git.kernel.org/stable/c/2f467a92df61eb516a4ec36ee16234dd4e5ccf00
+- https://git.kernel.org/stable/c/feb603a69f830acb58f78d604f0c29e63cd38f87
+
+---
+
+#### 1364. CVE-2025-1272
+
+**严重程度 / Severity**: HIGH | CVSS: 7.7
+
+**漏洞描述 / Description**:
+The Linux Kernel lockdown mode for kernel versions starting on 6.12 and above for Fedora Linux has the lockdown mode disabled without any warning. This may allow an attacker to gain access to sensitive information such kernel memory mappings, I/O ports, BPF and kprobes. Additionally unsigned modules can be loaded, leading to execution of untrusted code breaking breaking any Secure Boot protection. This vulnerability affects only Fedora Linux.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://access.redhat.com/errata/RHSA-2025:6966.
+
+**参考链接 / References**:
+- https://access.redhat.com/errata/RHSA-2025:6966
+- https://access.redhat.com/security/cve/CVE-2025-1272
+- https://bugzilla.redhat.com/show_bug.cgi?id=2345615
+
+---
+
+#### 1365. CVE-2026-42301
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+pyp2spec generates working Fedora RPM spec file for Python projects. Prior to version 0.14.1, pyp2spec was writing PyPI package metadata (e.g. the summary field) into the generated spec file without escaping RPM macro directives. When a packager then runs rpmbuild, those directives get evaluated, so a malicious package can execute arbitrary commands on the build machine. This issue has been patched in version 0.14.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/befeleme/pyp2spec/releases/tag/v0.14.1.
+
+**参考链接 / References**:
+- https://github.com/befeleme/pyp2spec/releases/tag/v0.14.1
+- https://github.com/befeleme/pyp2spec/security/advisories/GHSA-r35x-v8p8-xvhw
 
 ---
