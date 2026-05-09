@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1311**
+**总计条目 / Total entries: 1325**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -23889,5 +23889,840 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2468076
+
+---
+
+#### 1312. CVE-2025-40351
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+hfsplus: fix KMSAN uninit-value issue in hfsplus_delete_cat()
+
+The syzbot reported issue in hfsplus_delete_cat():
+
+[   70.682285][ T9333] =====================================================
+[   70.682943][ T9333] BUG: KMSAN: uninit-value in hfsplus_subfolders_dec+0x1d7/0x220
+[   70.683640][ T9333]  hfsplus_subfolders_dec+0x1d7/0x220
+[   70.684141][ T9333]  hfsplus_delete_cat+0x105d/0x12b0
+[   70.684621][ T9333]  hfsplus_rmdir+0x13d/0x310
+[   70.685048][ T9333]  vfs_rmdir+0x5ba/0x810
+[   70.685447][ T9333]  do_rmdir+0x964/0xea0
+[   70.685833][ T9333]  __x64_sys_rmdir+0x71/0xb0
+[   70.686260][ T9333]  x64_sys_call+0xcd8/0x3cf0
+[   70.686695][ T9333]  do_syscall_64+0xd9/0x1d0
+[   70.687119][ T9333]  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+[   70.687646][ T9333]
+[   70.687856][ T9333] Uninit was stored to memory at:
+[   70.688311][ T9333]  hfsplus_subfolders_inc+0x1c2/0x1d0
+[   70.688779][ T9333]  hfsplus_create_cat+0x148e/0x1800
+[   70.689231][ T9333]  hfsplus_mknod+0x27f/0x600
+[   70.689730][ T9333]  hfsplus_mkdir+0x5a/0x70
+[   70.690146][ T9333]  vfs_mkdir+0x483/0x7a0
+[   70.690545][ T9333]  do_mkdirat+0x3f2/0xd30
+[   70.690944][ T9333]  __x64_sys_mkdir+0x9a/0xf0
+[   70.691380][ T9333]  x64_sys_call+0x2f89/0x3cf0
+[   70.691816][ T9333]  do_syscall_64+0xd9/0x1d0
+[   70.692229][ T9333]  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+[   70.692773][ T9333]
+[   70.692990][ T9333] Uninit was stored to memory at:
+[   70.693469][ T9333]  hfsplus_subfolders_inc+0x1c2/0x1d0
+[   70.693960][ T9333]  hfsplus_create_cat+0x148e/0x1800
+[   70.694438][ T9333]  hfsplus_fill_super+0x21c1/0x2700
+[   70.694911][ T9333]  mount_bdev+0x37b/0x530
+[   70.695320][ T9333]  hfsplus_mount+0x4d/0x60
+[   70.695729][ T9333]  legacy_get_tree+0x113/0x2c0
+[   70.696167][ T9333]  vfs_get_tree+0xb3/0x5c0
+[   70.696588][ T9333]  do_new_mount+0x73e/0x1630
+[   70.697013][ T9333]  path_mount+0x6e3/0x1eb0
+[   70.697425][ T9333]  __se_sys_mount+0x733/0x830
+[   70.697857][ T9333]  __x64_sys_mount+0xe4/0x150
+[   70.698269][ T9333]  x64_sys_call+0x2691/0x3cf0
+[   70.698704][ T9333]  do_syscall_64+0xd9/0x1d0
+[   70.699117][ T9333]  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+[   70.699730][ T9333]
+[   70.699946][ T9333] Uninit was created at:
+[   70.700378][ T9333]  __alloc_pages_noprof+0x714/0xe60
+[   70.700843][ T9333]  alloc_pages_mpol_noprof+0x2a2/0x9b0
+[   70.701331][ T9333]  alloc_pages_noprof+0xf8/0x1f0
+[   70.701774][ T9333]  allocate_slab+0x30e/0x1390
+[   70.702194][ T9333]  ___slab_alloc+0x1049/0x33a0
+[   70.702635][ T9333]  kmem_cache_alloc_lru_noprof+0x5ce/0xb20
+[   70.703153][ T9333]  hfsplus_alloc_inode+0x5a/0xd0
+[   70.703598][ T9333]  alloc_inode+0x82/0x490
+[   70.703984][ T9333]  iget_locked+0x22e/0x1320
+[   70.704428][ T9333]  hfsplus_iget+0x5c/0xba0
+[   70.704827][ T9333]  hfsplus_btree_open+0x135/0x1dd0
+[   70.705291][ T9333]  hfsplus_fill_super+0x1132/0x2700
+[   70.705776][ T9333]  mount_bdev+0x37b/0x530
+[   70.706171][ T9333]  hfsplus_mount+0x4d/0x60
+[   70.706579][ T9333]  legacy_get_tree+0x113/0x2c0
+[   70.707019][ T9333]  vfs_get_tree+0xb3/0x5c0
+[   70.707444][ T9333]  do_new_mount+0x73e/0x1630
+[   70.707865][ T9333]  path_mount+0x6e3/0x1eb0
+[   70.708270][ T9333]  __se_sys_mount+0x733/0x830
+[   70.708711][ T9333]  __x64_sys_mount+0xe4/0x150
+[   70.709158][ T9333]  x64_sys_call+0x2691/0x3cf0
+[   70.709630][ T9333]  do_syscall_64+0xd9/0x1d0
+[   70.710053][ T9333]  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+[   70.710611][ T9333]
+[   70.710842][ T9333] CPU: 3 UID: 0 PID: 9333 Comm: repro Not tainted 6.12.0-rc6-dirty #17
+[   70.711568][ T9333] Hardware name: QEMU Ubuntu 24.04 PC (i440FX + PIIX, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+[   70.712490][ T9333] =====================================================
+[   70.713085][ T9333] Disabling lock debugging due to kernel taint
+[   70.713618][ T9333] Kernel panic - not syncing: kmsan.panic set ...
+[   70.714159][ T9333] 
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/1b9e5ade272f8be6421c9eea4c4f6810180017f9.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/1b9e5ade272f8be6421c9eea4c4f6810180017f9
+- https://git.kernel.org/stable/c/295527bfdefd5bf31ec8218e2891a65777141d05
+- https://git.kernel.org/stable/c/2bb8bc99b1a7a46d83f95c46f530305f6df84eaf
+- https://git.kernel.org/stable/c/4891bf2b09c313622a6e07d7f108aa5e123c768d
+- https://git.kernel.org/stable/c/9b3d15a758910bb98ba8feb4109d99cc67450ee4
+
+---
+
+#### 1313. CVE-2026-23086
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+vsock/virtio: cap TX credit to local buffer size
+
+The virtio transports derives its TX credit directly from peer_buf_alloc,
+which is set from the remote endpoint's SO_VM_SOCKETS_BUFFER_SIZE value.
+
+On the host side this means that the amount of data we are willing to
+queue for a connection is scaled by a guest-chosen buffer size, rather
+than the host's own vsock configuration. A malicious guest can advertise
+a large buffer and read slowly, causing the host to allocate a
+correspondingly large amount of sk_buff memory.
+The same thing would happen in the guest with a malicious host, since
+virtio transports share the same code base.
+
+Introduce a small helper, virtio_transport_tx_buf_size(), that
+returns min(peer_buf_alloc, buf_alloc), and use it wherever we consume
+peer_buf_alloc.
+
+This ensures the effective TX window is bounded by both the peer's
+advertised buffer and our own buf_alloc (already clamped to
+buffer_max_size via SO_VM_SOCKETS_BUFFER_MAX_SIZE), so a remote peer
+cannot force the other to queue more data than allowed by its own
+vsock settings.
+
+On an unpatched Ubuntu 22.04 host (~64 GiB RAM), running a PoC with
+32 guest vsock connections advertising 2 GiB each and reading slowly
+drove Slab/SUnreclaim from ~0.5 GiB to ~57 GiB; the system only
+recovered after killing the QEMU process. That said, if QEMU memory is
+limited with cgroups, the maximum memory used will be limited.
+
+With this patch applied:
+
+  Before:
+    MemFree:        ~61.6 GiB
+    Slab:           ~142 MiB
+    SUnreclaim:     ~117 MiB
+
+  After 32 high-credit connections:
+    MemFree:        ~61.5 GiB
+    Slab:           ~178 MiB
+    SUnreclaim:     ~152 MiB
+
+Only ~35 MiB increase in Slab/SUnreclaim, no host OOM, and the guest
+remains responsive.
+
+Compatibility with non-virtio transports:
+
+  - VMCI uses the AF_VSOCK buffer knobs to size its queue pairs per
+    socket based on the local vsk->buffer_* values; the remote side
+    cannot enlarge those queues beyond what the local endpoint
+    configured.
+
+  - Hyper-V's vsock transport uses fixed-size VMBus ring buffers and
+    an MTU bound; there is no peer-controlled credit field comparable
+    to peer_buf_alloc, and the remote endpoint cannot drive in-flight
+    kernel memory above those ring sizes.
+
+  - The loopback path reuses virtio_transport_common.c, so it
+    naturally follows the same semantics as the virtio transport.
+
+This change is limited to virtio_transport_common.c and thus affects
+virtio-vsock, vhost-vsock, and loopback, bringing them in line with the
+"remote window intersected with local policy" behaviour that VMCI and
+Hyper-V already effectively have.
+
+[Stefano: small adjustments after changing the previous patch]
+[Stefano: tweak the commit message]
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/84ef86aa7120449828d1e0ce438c499014839711.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/84ef86aa7120449828d1e0ce438c499014839711
+- https://git.kernel.org/stable/c/8ee784fdf006cbe8739cfa093f54d326cbf54037
+- https://git.kernel.org/stable/c/c0e42fb0e054c2b2ec4ee80f48ccd256ae0227ce
+- https://git.kernel.org/stable/c/d9d5f222558b42f6277eafaaa6080966faf37676
+- https://git.kernel.org/stable/c/fef7110ae5617555c792a2bb4d27878d84583adf
+
+---
+
+#### 1314. CVE-2025-13350
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+Ubuntu Linux 6.8 GA retains the legacy AF_UNIX garbage collector but backports upstream commit 8594d9b85c07 ("af_unix: Don’t call skb_get() for OOB skb"). When orphaned MSG_OOB sockets hit unix_gc(), the garbage collector still calls kfree_skb() as if OOB SKBs held two references; on Ubuntu Linux 6.8 (Noble Numbat) kernel tree, they have only the queue reference, so the buffer is freed while still reachable and subsequent queue walks dereference freed memory, yielding a reliable local privilege escalation (LPE) caused by a use-after-free (UAF). Ubuntu builds that have already taken the new GC stack from commit 4090fa373f0e, and mainline Linux kernels shipping that infrastructure are unaffected because they no longer execute the legacy collector path. This issue affects Ubuntu Linux from 6.8.0-56.58 before 6.8.0-84.84.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2121515.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2121515
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=79cbc2a1d4f61e492ddac5da65b075836675f94d
+- http://www.openwall.com/lists/oss-security/2026/03/05/7
+
+---
+
+#### 1315. CVE-2026-3888
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Local privilege escalation in snapd on Linux allows local attackers to get root privilege by re-creating snap's private /tmp directory when systemd-tmpfiles is configured to automatically clean up this directory. This issue affects Ubuntu 16.04 LTS, 18.04 LTS, 20.04 LTS, 22.04 LTS, and 24.04 LTS.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://blog.qualys.com/vulnerabilities-threat-research/2026/03/17/cve-2026-3888-important-snap-flaw-enables-local-privilege-escalation-to-root.
+
+**参考链接 / References**:
+- https://blog.qualys.com/vulnerabilities-threat-research/2026/03/17/cve-2026-3888-important-snap-flaw-enables-local-privilege-escalation-to-root
+- https://cdn2.qualys.com/advisory/2026/03/17/snap-confine-systemd-tmpfiles.txt
+- https://discourse.ubuntu.com/t/snapd-local-privilege-escalation-cve-2026-3888
+- https://ubuntu.com/security/CVE-2026-3888
+- https://ubuntu.com/security/notices/USN-8102-1
+
+---
+
+#### 1316. CVE-2026-23321
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+mptcp: pm: in-kernel: always mark signal+subflow endp as used
+
+Syzkaller managed to find a combination of actions that was generating
+this warning:
+
+  msk->pm.local_addr_used == 0
+  WARNING: net/mptcp/pm_kernel.c:1071 at __mark_subflow_endp_available net/mptcp/pm_kernel.c:1071 [inline], CPU#1: syz.2.17/961
+  WARNING: net/mptcp/pm_kernel.c:1071 at mptcp_nl_remove_subflow_and_signal_addr net/mptcp/pm_kernel.c:1103 [inline], CPU#1: syz.2.17/961
+  WARNING: net/mptcp/pm_kernel.c:1071 at mptcp_pm_nl_del_addr_doit+0x81d/0x8f0 net/mptcp/pm_kernel.c:1210, CPU#1: syz.2.17/961
+  Modules linked in:
+  CPU: 1 UID: 0 PID: 961 Comm: syz.2.17 Not tainted 6.19.0-08368-gfafda3b4b06b #22 PREEMPT(full)
+  Hardware name: QEMU Ubuntu 25.10 PC v2 (i440FX + PIIX, + 10.1 machine, 1996), BIOS 1.17.0-debian-1.17.0-1build1 04/01/2014
+  RIP: 0010:__mark_subflow_endp_available net/mptcp/pm_kernel.c:1071 [inline]
+  RIP: 0010:mptcp_nl_remove_subflow_and_signal_addr net/mptcp/pm_kernel.c:1103 [inline]
+  RIP: 0010:mptcp_pm_nl_del_addr_doit+0x81d/0x8f0 net/mptcp/pm_kernel.c:1210
+  Code: 89 c5 e8 46 30 6f fe e9 21 fd ff ff 49 83 ed 80 e8 38 30 6f fe 4c 89 ef be 03 00 00 00 e8 db 49 df fe eb ac e8 24 30 6f fe 90 <0f> 0b 90 e9 1d ff ff ff e8 16 30 6f fe eb 05 e8 0f 30 6f fe e8 9a
+  RSP: 0018:ffffc90001663880 EFLAGS: 00010293
+  RAX: ffffffff82de1a6c RBX: 0000000000000000 RCX: ffff88800722b500
+  RDX: 0000000000000000 RSI: 0000000000000000 RDI: 0000000000000000
+  RBP: ffff8880158b22d0 R08: 0000000000010425 R09: ffffffffffffffff
+  R10: ffffffff82de18ba R11: 0000000000000000 R12: ffff88800641a640
+  R13: ffff8880158b1880 R14: ffff88801ec3c900 R15: ffff88800641a650
+  FS:  00005555722c3500(0000) GS:ffff8880f909d000(0000) knlGS:0000000000000000
+  CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+  CR2: 00007f66346e0f60 CR3: 000000001607c000 CR4: 0000000000350ef0
+  Call Trace:
+   <TASK>
+   genl_family_rcv_msg_doit+0x117/0x180 net/netlink/genetlink.c:1115
+   genl_family_rcv_msg net/netlink/genetlink.c:1195 [inline]
+   genl_rcv_msg+0x3a8/0x3f0 net/netlink/genetlink.c:1210
+   netlink_rcv_skb+0x16d/0x240 net/netlink/af_netlink.c:2550
+   genl_rcv+0x28/0x40 net/netlink/genetlink.c:1219
+   netlink_unicast_kernel net/netlink/af_netlink.c:1318 [inline]
+   netlink_unicast+0x3e9/0x4c0 net/netlink/af_netlink.c:1344
+   netlink_sendmsg+0x4aa/0x5b0 net/netlink/af_netlink.c:1894
+   sock_sendmsg_nosec net/socket.c:727 [inline]
+   __sock_sendmsg+0xc9/0xf0 net/socket.c:742
+   ____sys_sendmsg+0x272/0x3b0 net/socket.c:2592
+   ___sys_sendmsg+0x2de/0x320 net/socket.c:2646
+   __sys_sendmsg net/socket.c:2678 [inline]
+   __do_sys_sendmsg net/socket.c:2683 [inline]
+   __se_sys_sendmsg net/socket.c:2681 [inline]
+   __x64_sys_sendmsg+0x110/0x1a0 net/socket.c:2681
+   do_syscall_x64 arch/x86/entry/syscall_64.c:63 [inline]
+   do_syscall_64+0x143/0x440 arch/x86/entry/syscall_64.c:94
+   entry_SYSCALL_64_after_hwframe+0x77/0x7f
+  RIP: 0033:0x7f66346f826d
+  Code: ff c3 66 2e 0f 1f 84 00 00 00 00 00 90 f3 0f 1e fa 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 c7 c1 e8 ff ff ff f7 d8 64 89 01 48
+  RSP: 002b:00007ffc83d8bdc8 EFLAGS: 00000246 ORIG_RAX: 000000000000002e
+  RAX: ffffffffffffffda RBX: 00007f6634985fa0 RCX: 00007f66346f826d
+  RDX: 00000000040000b0 RSI: 0000200000000740 RDI: 0000000000000007
+  RBP: 0000000000000000 R08: 0000000000000000 R09: 0000000000000000
+  R10: 0000000000000000 R11: 0000000000000246 R12: 00007f6634985fa8
+  R13: 00007f6634985fac R14: 0000000000000000 R15: 0000000000001770
+   </TASK>
+
+The actions that caused that seem to be:
+
+ - Set the MPTCP subflows limit to 0
+ - Create an MPTCP endpoint with both the 'signal' and 'subflow' flags
+ - Create a new MPTCP connection from a different address: an ADD_ADDR
+   linked to the MPTCP endpoint will be sent ('signal' flag), but no
+   subflows is initiated ('subflow' flag)
+ - Remove the MPTCP endpoint
+
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/05799c2f1ca5eb13d65764dda688d02021b65e06.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/05799c2f1ca5eb13d65764dda688d02021b65e06
+- https://git.kernel.org/stable/c/198824ccfa64ffebd918bf99c939bd8170a4a4d8
+- https://git.kernel.org/stable/c/579a752464a64cb5f9139102f0e6b90a1f595ceb
+- https://git.kernel.org/stable/c/67f34ab318807989b57dfdb0f79e2d4e57018290
+- https://git.kernel.org/stable/c/a64aa7db39392add5be09dffaedbf1f0ce5554df
+
+---
+
+#### 1317. CVE-2026-23427
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+ksmbd: fix use-after-free in durable v2 replay of active file handles
+
+parse_durable_handle_context() unconditionally assigns dh_info->fp->conn
+to the current connection when handling a DURABLE_REQ_V2 context with
+SMB2_FLAGS_REPLAY_OPERATION. ksmbd_lookup_fd_cguid() does not filter by
+fp->conn, so it returns file handles that are already actively connected.
+The unconditional overwrite replaces fp->conn, and when the overwriting
+connection is subsequently freed, __ksmbd_close_fd() dereferences the
+stale fp->conn via spin_lock(&fp->conn->llist_lock), causing a
+use-after-free.
+
+KASAN report:
+
+[    7.349357] ==================================================================
+[    7.349607] BUG: KASAN: slab-use-after-free in _raw_spin_lock+0x75/0xe0
+[    7.349811] Write of size 4 at addr ffff8881056ac18c by task kworker/1:2/108
+[    7.350010]
+[    7.350064] CPU: 1 UID: 0 PID: 108 Comm: kworker/1:2 Not tainted 7.0.0-rc3+ #58 PREEMPTLAZY
+[    7.350068] Hardware name: QEMU Ubuntu 24.04 PC v2 (i440FX + PIIX, arch_caps fix, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+[    7.350070] Workqueue: ksmbd-io handle_ksmbd_work
+[    7.350083] Call Trace:
+[    7.350087]  <TASK>
+[    7.350087]  dump_stack_lvl+0x64/0x80
+[    7.350094]  print_report+0xce/0x660
+[    7.350100]  ? __pfx__raw_spin_lock_irqsave+0x10/0x10
+[    7.350101]  ? __pfx___mod_timer+0x10/0x10
+[    7.350106]  ? _raw_spin_lock+0x75/0xe0
+[    7.350108]  kasan_report+0xce/0x100
+[    7.350109]  ? _raw_spin_lock+0x75/0xe0
+[    7.350114]  kasan_check_range+0x105/0x1b0
+[    7.350116]  _raw_spin_lock+0x75/0xe0
+[    7.350118]  ? __pfx__raw_spin_lock+0x10/0x10
+[    7.350119]  ? __call_rcu_common.constprop.0+0x25e/0x780
+[    7.350125]  ? close_id_del_oplock+0x2cc/0x4e0
+[    7.350128]  __ksmbd_close_fd+0x27f/0xaf0
+[    7.350131]  ksmbd_close_fd+0x135/0x1b0
+[    7.350133]  smb2_close+0xb19/0x15b0
+[    7.350142]  ? __pfx_smb2_close+0x10/0x10
+[    7.350143]  ? xas_load+0x18/0x270
+[    7.350146]  ? _raw_spin_lock+0x84/0xe0
+[    7.350148]  ? __pfx__raw_spin_lock+0x10/0x10
+[    7.350150]  ? _raw_spin_unlock+0xe/0x30
+[    7.350151]  ? ksmbd_smb2_check_message+0xeb2/0x24c0
+[    7.350153]  ? ksmbd_tree_conn_lookup+0xcd/0xf0
+[    7.350154]  handle_ksmbd_work+0x40f/0x1080
+[    7.350156]  process_one_work+0x5fa/0xef0
+[    7.350162]  ? assign_work+0x122/0x3e0
+[    7.350163]  worker_thread+0x54b/0xf70
+[    7.350165]  ? __pfx_worker_thread+0x10/0x10
+[    7.350166]  kthread+0x346/0x470
+[    7.350170]  ? recalc_sigpending+0x19b/0x230
+[    7.350176]  ? __pfx_kthread+0x10/0x10
+[    7.350178]  ret_from_fork+0x4fb/0x6c0
+[    7.350183]  ? __pfx_ret_from_fork+0x10/0x10
+[    7.350185]  ? __switch_to+0x36c/0xbe0
+[    7.350188]  ? __pfx_kthread+0x10/0x10
+[    7.350190]  ret_from_fork_asm+0x1a/0x30
+[    7.350197]  </TASK>
+[    7.350197]
+[    7.355160] Allocated by task 123:
+[    7.355261]  kasan_save_stack+0x33/0x60
+[    7.355373]  kasan_save_track+0x14/0x30
+[    7.355484]  __kasan_kmalloc+0x8f/0xa0
+[    7.355593]  ksmbd_conn_alloc+0x44/0x6d0
+[    7.355711]  ksmbd_kthread_fn+0x243/0xd70
+[    7.355839]  kthread+0x346/0x470
+[    7.355942]  ret_from_fork+0x4fb/0x6c0
+[    7.356051]  ret_from_fork_asm+0x1a/0x30
+[    7.356164]
+[    7.356214] Freed by task 134:
+[    7.356305]  kasan_save_stack+0x33/0x60
+[    7.356416]  kasan_save_track+0x14/0x30
+[    7.356527]  kasan_save_free_info+0x3b/0x60
+[    7.356646]  __kasan_slab_free+0x43/0x70
+[    7.356761]  kfree+0x1ca/0x430
+[    7.356862]  ksmbd_tcp_disconnect+0x59/0xe0
+[    7.356993]  ksmbd_conn_handler_loop+0x77e/0xd40
+[    7.357138]  kthread+0x346/0x470
+[    7.357240]  ret_from_fork+0x4fb/0x6c0
+[    7.357350]  ret_from_fork_asm+0x1a/0x30
+[    7.357463]
+[    7.357513] The buggy address belongs to the object at ffff8881056ac000
+[    7.357513]  which belongs to the cache kmalloc-1k of size 1024
+[    7.357857] The buggy address is located 396 bytes inside of
+[    7.357857]  freed 1024-byte region 
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/568a25fd7bcdfb2790f7d42aa2a440dca4435c96.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/568a25fd7bcdfb2790f7d42aa2a440dca4435c96
+- https://git.kernel.org/stable/c/9b0792c3eacf01e67f356d6ef9707b0ae5022419
+- https://git.kernel.org/stable/c/a5828c14a9e3d5eeed0bcc0a58f0f3fbca0cdcb2
+- https://git.kernel.org/stable/c/b0158d9d6f4ec5941e49a0b812735db2844f9975
+- https://git.kernel.org/stable/c/b425e4d0eb321a1116ddbf39636333181675d8f4
+
+---
+
+#### 1318. CVE-2026-23428
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+ksmbd: fix use-after-free of share_conf in compound request
+
+smb2_get_ksmbd_tcon() reuses work->tcon in compound requests without
+validating tcon->t_state. ksmbd_tree_conn_lookup() checks t_state ==
+TREE_CONNECTED on the initial lookup path, but the compound reuse path
+bypasses this check entirely.
+
+If a prior command in the compound (SMB2_TREE_DISCONNECT) sets t_state
+to TREE_DISCONNECTED and frees share_conf via ksmbd_share_config_put(),
+subsequent commands dereference the freed share_conf through
+work->tcon->share_conf.
+
+KASAN report:
+
+[    4.144653] ==================================================================
+[    4.145059] BUG: KASAN: slab-use-after-free in smb2_write+0xc74/0xe70
+[    4.145415] Read of size 4 at addr ffff88810430c194 by task kworker/1:1/44
+[    4.145772]
+[    4.145867] CPU: 1 UID: 0 PID: 44 Comm: kworker/1:1 Not tainted 7.0.0-rc3+ #60 PREEMPTLAZY
+[    4.145871] Hardware name: QEMU Ubuntu 24.04 PC v2 (i440FX + PIIX, arch_caps fix, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+[    4.145875] Workqueue: ksmbd-io handle_ksmbd_work
+[    4.145888] Call Trace:
+[    4.145892]  <TASK>
+[    4.145894]  dump_stack_lvl+0x64/0x80
+[    4.145910]  print_report+0xce/0x660
+[    4.145919]  ? __pfx__raw_spin_lock_irqsave+0x10/0x10
+[    4.145928]  ? smb2_write+0xc74/0xe70
+[    4.145931]  kasan_report+0xce/0x100
+[    4.145934]  ? smb2_write+0xc74/0xe70
+[    4.145937]  smb2_write+0xc74/0xe70
+[    4.145939]  ? __pfx_smb2_write+0x10/0x10
+[    4.145942]  ? _raw_spin_unlock+0xe/0x30
+[    4.145945]  ? ksmbd_smb2_check_message+0xeb2/0x24c0
+[    4.145948]  ? smb2_tree_disconnect+0x31c/0x480
+[    4.145951]  handle_ksmbd_work+0x40f/0x1080
+[    4.145953]  process_one_work+0x5fa/0xef0
+[    4.145962]  ? assign_work+0x122/0x3e0
+[    4.145964]  worker_thread+0x54b/0xf70
+[    4.145967]  ? __pfx_worker_thread+0x10/0x10
+[    4.145970]  kthread+0x346/0x470
+[    4.145976]  ? recalc_sigpending+0x19b/0x230
+[    4.145980]  ? __pfx_kthread+0x10/0x10
+[    4.145984]  ret_from_fork+0x4fb/0x6c0
+[    4.145992]  ? __pfx_ret_from_fork+0x10/0x10
+[    4.145995]  ? __switch_to+0x36c/0xbe0
+[    4.145999]  ? __pfx_kthread+0x10/0x10
+[    4.146003]  ret_from_fork_asm+0x1a/0x30
+[    4.146013]  </TASK>
+[    4.146014]
+[    4.149858] Allocated by task 44:
+[    4.149953]  kasan_save_stack+0x33/0x60
+[    4.150061]  kasan_save_track+0x14/0x30
+[    4.150169]  __kasan_kmalloc+0x8f/0xa0
+[    4.150274]  ksmbd_share_config_get+0x1dd/0xdd0
+[    4.150401]  ksmbd_tree_conn_connect+0x7e/0x600
+[    4.150529]  smb2_tree_connect+0x2e6/0x1000
+[    4.150645]  handle_ksmbd_work+0x40f/0x1080
+[    4.150761]  process_one_work+0x5fa/0xef0
+[    4.150873]  worker_thread+0x54b/0xf70
+[    4.150978]  kthread+0x346/0x470
+[    4.151071]  ret_from_fork+0x4fb/0x6c0
+[    4.151176]  ret_from_fork_asm+0x1a/0x30
+[    4.151286]
+[    4.151332] Freed by task 44:
+[    4.151418]  kasan_save_stack+0x33/0x60
+[    4.151526]  kasan_save_track+0x14/0x30
+[    4.151634]  kasan_save_free_info+0x3b/0x60
+[    4.151751]  __kasan_slab_free+0x43/0x70
+[    4.151861]  kfree+0x1ca/0x430
+[    4.151952]  __ksmbd_tree_conn_disconnect+0xc8/0x190
+[    4.152088]  smb2_tree_disconnect+0x1cd/0x480
+[    4.152211]  handle_ksmbd_work+0x40f/0x1080
+[    4.152326]  process_one_work+0x5fa/0xef0
+[    4.152438]  worker_thread+0x54b/0xf70
+[    4.152545]  kthread+0x346/0x470
+[    4.152638]  ret_from_fork+0x4fb/0x6c0
+[    4.152743]  ret_from_fork_asm+0x1a/0x30
+[    4.152853]
+[    4.152900] The buggy address belongs to the object at ffff88810430c180
+[    4.152900]  which belongs to the cache kmalloc-96 of size 96
+[    4.153226] The buggy address is located 20 bytes inside of
+[    4.153226]  freed 96-byte region [ffff88810430c180, ffff88810430c1e0)
+[    4.153549]
+[    4.153596] The buggy address belongs to the physical page:
+[    4.153750] page: refcount:0 mapcount:0 mapping:0000000000000000 index:0xffff88810430ce80 pfn:0x10430c
+[    4.154000] flags: 0x
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/7f7468fd2a7554cea91b7d430335a3dbf01dcc09.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/7f7468fd2a7554cea91b7d430335a3dbf01dcc09
+- https://git.kernel.org/stable/c/806f13752652216db0c309392b4db3e64eeed4f2
+- https://git.kernel.org/stable/c/a5929c2020ce54e1dcbd1078c0f30b8aaf73c105
+- https://git.kernel.org/stable/c/c33615f995aee80657b9fdfbc4ee7f49c2bd733d
+- https://git.kernel.org/stable/c/c742b46a153d3ff95ff0825ab1950c87b9e14470
+
+---
+
+#### 1319. CVE-2025-14551
+
+**严重程度 / Severity**: HIGH | CVSS: 8.1
+**受影响产品 / Affected Products**: canonical:ubuntu_subiquity
+
+**漏洞描述 / Description**:
+In Ubuntu, Subiquity version 24.04.4 could leak sensitive user credentials during crash reporting. Upon installation failure, if a user submitted a bug report to Launchpad, Subiquity could include certain user credentials, such as the user's plaintext Wi-Fi password, in the attached logs.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/canonical/subiquity/pull/2357.
+
+**参考链接 / References**:
+- https://github.com/canonical/subiquity/pull/2357
+- https://github.com/canonical/subiquity/pull/2358
+
+---
+
+#### 1320. CVE-2025-15480
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.1
+**受影响产品 / Affected Products**: canonical:ubuntu_desktop_provision
+
+**漏洞描述 / Description**:
+In Ubuntu, ubuntu-desktop-provision version 24.04.4 could leak sensitive user credentials during crash reporting. Upon installation failure, if a user submitted a bug report to Launchpad, ubuntu-desktop-provision could include the user's password hash in the attached logs.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/canonical/ubuntu-desktop-provision/pull/1399.
+
+**参考链接 / References**:
+- https://github.com/canonical/ubuntu-desktop-provision/pull/1399
+- https://github.com/canonical/ubuntu-desktop-provision/pull/1400
+
+---
+
+#### 1321. CVE-2026-40489
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+editorconfig-core-c  is an EditorConfig core library for use by plugins supporting EditorConfig parsing. Versions up to and including 0.12.10 have a stack-based buffer overflow in ec_glob() that allows an attacker to crash any application using libeditorconfig by providing a specially crafted directory structure and .editorconfig file. This is an incomplete fix for CVE-2023-0341. The pcre_str buffer was protected in 0.12.6 but the adjacent l_pattern[8194] stack buffer received no equivalent protection. On Ubuntu 24.04, FORTIFY_SOURCE converts the overflow to SIGABRT (DoS). Version 0.12.11 contains an updated fix.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/editorconfig/editorconfig-core-c/commit/5159be88ad50641d9843289adda791ba300421ff.
+
+**参考链接 / References**:
+- https://github.com/editorconfig/editorconfig-core-c/commit/5159be88ad50641d9843289adda791ba300421ff
+- https://github.com/editorconfig/editorconfig-core-c/releases/tag/v0.12.11
+- https://github.com/editorconfig/editorconfig-core-c/security/advisories/GHSA-97xg-vrcq-254h
+
+---
+
+#### 1322. CVE-2026-6369
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+An improper access control vulnerability in the canonical-livepatch snap client prior to version 10.15.0 allows a local unprivileged user to obtain a sensitive, root-level authentication token by sending an unauthenticated request to the livepatchd.sock Unix domain socket. This vulnerability is exploitable on systems where an administrator has already enabled the Livepatch client with a valid Ubuntu Pro subscription. This token allows an attacker to access Livepatch services using the victim's credentials, as well as potentially cause issues to the Livepatch server.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://discourse.ubuntu.com/t/security-notice-canonical-livepatch-client-snap-vulnerability/80662.
+
+**参考链接 / References**:
+- https://discourse.ubuntu.com/t/security-notice-canonical-livepatch-client-snap-vulnerability/80662
+
+---
+
+#### 1323. CVE-2026-31654
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+mm/vma: fix memory leak in __mmap_region()
+
+commit 605f6586ecf7 ("mm/vma: do not leak memory when .mmap_prepare
+swaps the file") handled the success path by skipping get_file() via
+file_doesnt_need_get, but missed the error path.
+
+When /dev/zero is mmap'd with MAP_SHARED, mmap_zero_prepare() calls
+shmem_zero_setup_desc() which allocates a new shmem file to back the
+mapping. If __mmap_new_vma() subsequently fails, this replacement
+file is never fput()'d - the original is released by
+ksys_mmap_pgoff(), but nobody releases the new one.
+
+Add fput() for the swapped file in the error path.
+
+Reproducible with fault injection.
+
+FAULT_INJECTION: forcing a failure.
+name failslab, interval 1, probability 0, space 0, times 1
+CPU: 2 UID: 0 PID: 366 Comm: syz.7.14 Not tainted 7.0.0-rc6 #2 PREEMPT(full)
+Hardware name: QEMU Ubuntu 24.04 PC v2 (i440FX + PIIX, arch_caps fix, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+Call Trace:
+ <TASK>
+ dump_stack_lvl+0x164/0x1f0
+ should_fail_ex+0x525/0x650
+ should_failslab+0xdf/0x140
+ kmem_cache_alloc_noprof+0x78/0x630
+ vm_area_alloc+0x24/0x160
+ __mmap_region+0xf6b/0x2660
+ mmap_region+0x2eb/0x3a0
+ do_mmap+0xc79/0x1240
+ vm_mmap_pgoff+0x252/0x4c0
+ ksys_mmap_pgoff+0xf8/0x120
+ __x64_sys_mmap+0x12a/0x190
+ do_syscall_64+0xa9/0x580
+ entry_SYSCALL_64_after_hwframe+0x76/0x7e
+ </TASK>
+
+kmemleak: 1 new suspected memory leaks (see /sys/kernel/debug/kmemleak)
+BUG: memory leak
+unreferenced object 0xffff8881118aca80 (size 360):
+  comm "syz.7.14", pid 366, jiffies 4294913255
+  hex dump (first 32 bytes):
+    00 00 00 00 ad 4e ad de ff ff ff ff 00 00 00 00  .....N..........
+    ff ff ff ff ff ff ff ff c0 28 4d ae ff ff ff ff  .........(M.....
+  backtrace (crc db0f53bc):
+    kmem_cache_alloc_noprof+0x3ab/0x630
+    alloc_empty_file+0x5a/0x1e0
+    alloc_file_pseudo+0x135/0x220
+    __shmem_file_setup+0x274/0x420
+    shmem_zero_setup_desc+0x9c/0x170
+    mmap_zero_prepare+0x123/0x140
+    __mmap_region+0xdda/0x2660
+    mmap_region+0x2eb/0x3a0
+    do_mmap+0xc79/0x1240
+    vm_mmap_pgoff+0x252/0x4c0
+    ksys_mmap_pgoff+0xf8/0x120
+    __x64_sys_mmap+0x12a/0x190
+    do_syscall_64+0xa9/0x580
+    entry_SYSCALL_64_after_hwframe+0x76/0x7e
+
+Found by syzkaller.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/61fc8eaf2ab214b32c7bce52597c80cf0ca41ada.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/61fc8eaf2ab214b32c7bce52597c80cf0ca41ada
+- https://git.kernel.org/stable/c/894f99eb535edc4514f756818f3c4f688ba53a59
+
+---
+
+#### 1324. CVE-2026-43046
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+btrfs: reject root items with drop_progress and zero drop_level
+
+[BUG]
+When recovering relocation at mount time, merge_reloc_root() and
+btrfs_drop_snapshot() both use BUG_ON(level == 0) to guard against
+an impossible state: a non-zero drop_progress combined with a zero
+drop_level in a root_item, which can be triggered:
+
+------------[ cut here ]------------
+kernel BUG at fs/btrfs/relocation.c:1545!
+Oops: invalid opcode: 0000 [#1] SMP KASAN NOPTI
+CPU: 1 UID: 0 PID: 283 ... Tainted: 6.18.0+ #16 PREEMPT(voluntary)
+Tainted: [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+Hardware name: QEMU Ubuntu 24.04 PC v2, BIOS 1.16.3-debian-1.16.3-2
+RIP: 0010:merge_reloc_root+0x1266/0x1650 fs/btrfs/relocation.c:1545
+Code: ffff0000 00004589 d7e9acfa ffffe8a1 79bafebe 02000000
+Call Trace:
+ merge_reloc_roots+0x295/0x890 fs/btrfs/relocation.c:1861
+ btrfs_recover_relocation+0xd6e/0x11d0 fs/btrfs/relocation.c:4195
+ btrfs_start_pre_rw_mount+0xa4d/0x1810 fs/btrfs/disk-io.c:3130
+ open_ctree+0x5824/0x5fe0 fs/btrfs/disk-io.c:3640
+ btrfs_fill_super fs/btrfs/super.c:987 [inline]
+ btrfs_get_tree_super fs/btrfs/super.c:1951 [inline]
+ btrfs_get_tree_subvol fs/btrfs/super.c:2094 [inline]
+ btrfs_get_tree+0x111c/0x2190 fs/btrfs/super.c:2128
+ vfs_get_tree+0x9a/0x370 fs/super.c:1758
+ fc_mount fs/namespace.c:1199 [inline]
+ do_new_mount_fc fs/namespace.c:3642 [inline]
+ do_new_mount fs/namespace.c:3718 [inline]
+ path_mount+0x5b8/0x1ea0 fs/namespace.c:4028
+ do_mount fs/namespace.c:4041 [inline]
+ __do_sys_mount fs/namespace.c:4229 [inline]
+ __se_sys_mount fs/namespace.c:4206 [inline]
+ __x64_sys_mount+0x282/0x320 fs/namespace.c:4206
+ ...
+RIP: 0033:0x7f969c9a8fde
+Code: 0f1f4000 48c7c2b0 fffffff7 d8648902 b8ffffff ffc3660f
+---[ end trace 0000000000000000 ]---
+
+The bug is reproducible on 7.0.0-rc2-next-20260310 with our dynamic
+metadata fuzzing tool that corrupts btrfs metadata at runtime.
+
+[CAUSE]
+A non-zero drop_progress.objectid means an interrupted
+btrfs_drop_snapshot() left a resume point on disk, and in that case
+drop_level must be greater than 0 because the checkpoint is only
+saved at internal node levels.
+
+Although this invariant is enforced when the kernel writes the root
+item, it is not validated when the root item is read back from disk.
+That allows on-disk corruption to provide an invalid state with
+drop_progress.objectid != 0 and drop_level == 0.
+
+When relocation recovery later processes such a root item,
+merge_reloc_root() reads drop_level and hits BUG_ON(level == 0). The
+same invalid metadata can also trigger the corresponding BUG_ON() in
+btrfs_drop_snapshot().
+
+[FIX]
+Fix this by validating the root_item invariant in tree-checker when
+reading root items from disk: if drop_progress.objectid is non-zero,
+drop_level must also be non-zero. Reject such malformed metadata with
+-EUCLEAN before it reaches merge_reloc_root() or btrfs_drop_snapshot()
+and triggers the BUG_ON.
+
+After the fix, the same corruption is correctly rejected by tree-checker
+and the BUG_ON is no longer triggered.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/295f8075d00442d71dc9ccae421ace1c0d2d9224.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/295f8075d00442d71dc9ccae421ace1c0d2d9224
+- https://git.kernel.org/stable/c/53ceedd1eb6280ca8359664e0226983eded2ed73
+- https://git.kernel.org/stable/c/850de3d87f4720b71ccdcd44f4aa57e46b53a3f3
+- https://git.kernel.org/stable/c/ac68a9a8e481ab1becaed29d6d23087dac3de15d
+- https://git.kernel.org/stable/c/b17b79ff896305fd74980a5f72afec370ee88ca4
+
+---
+
+#### 1325. CVE-2026-43252
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+mptcp: pm: in-kernel: always set ID as avail when rm endp
+
+Syzkaller managed to find a combination of actions that was generating
+this warning:
+
+  WARNING: net/mptcp/pm_kernel.c:1074 at __mark_subflow_endp_available net/mptcp/pm_kernel.c:1074 [inline], CPU#1: syz.7.48/2535
+  WARNING: net/mptcp/pm_kernel.c:1074 at mptcp_pm_nl_fullmesh net/mptcp/pm_kernel.c:1446 [inline], CPU#1: syz.7.48/2535
+  WARNING: net/mptcp/pm_kernel.c:1074 at mptcp_pm_nl_set_flags_all net/mptcp/pm_kernel.c:1474 [inline], CPU#1: syz.7.48/2535
+  WARNING: net/mptcp/pm_kernel.c:1074 at mptcp_pm_nl_set_flags+0x5de/0x640 net/mptcp/pm_kernel.c:1538, CPU#1: syz.7.48/2535
+  Modules linked in:
+  CPU: 1 UID: 0 PID: 2535 Comm: syz.7.48 Not tainted 6.18.0-03987-gea5f5e676cf5 #17 PREEMPT(voluntary)
+  Hardware name: QEMU Ubuntu 25.10 PC (i440FX + PIIX, 1996), BIOS 1.17.0-debian-1.17.0-1 04/01/2014
+  RIP: 0010:__mark_subflow_endp_available net/mptcp/pm_kernel.c:1074 [inline]
+  RIP: 0010:mptcp_pm_nl_fullmesh net/mptcp/pm_kernel.c:1446 [inline]
+  RIP: 0010:mptcp_pm_nl_set_flags_all net/mptcp/pm_kernel.c:1474 [inline]
+  RIP: 0010:mptcp_pm_nl_set_flags+0x5de/0x640 net/mptcp/pm_kernel.c:1538
+  Code: 89 c7 e8 c5 8c 73 fe e9 f7 fd ff ff 49 83 ef 80 e8 b7 8c 73 fe 4c 89 ff be 03 00 00 00 e8 4a 29 e3 fe eb ac e8 a3 8c 73 fe 90 <0f> 0b 90 e9 3d ff ff ff e8 95 8c 73 fe b8 a1 ff ff ff eb 1a e8 89
+  RSP: 0018:ffffc9001535b820 EFLAGS: 00010287
+  netdevsim0: tun_chr_ioctl cmd 1074025677
+  RAX: ffffffff82da294d RBX: 0000000000000001 RCX: 0000000000080000
+  RDX: ffffc900096d0000 RSI: 00000000000006d6 RDI: 00000000000006d7
+  netdevsim0: linktype set to 823
+  RBP: ffff88802cdb2240 R08: 00000000000104ae R09: ffffffffffffffff
+  R10: ffffffff82da27d4 R11: 0000000000000000 R12: 0000000000000000
+  R13: ffff88801246d8c0 R14: ffffc9001535b8b8 R15: ffff88802cdb1800
+  FS:  00007fc6ac5a76c0(0000) GS:ffff8880f90c8000(0000) knlGS:0000000000000000
+  netlink: 'syz.3.50': attribute type 5 has an invalid length.
+  CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+  netlink: 1232 bytes leftover after parsing attributes in process `syz.3.50'.
+  CR2: 0000200000010000 CR3: 0000000025b1a000 CR4: 0000000000350ef0
+  Call Trace:
+   <TASK>
+   mptcp_pm_set_flags net/mptcp/pm_netlink.c:277 [inline]
+   mptcp_pm_nl_set_flags_doit+0x1d7/0x210 net/mptcp/pm_netlink.c:282
+   genl_family_rcv_msg_doit+0x117/0x180 net/netlink/genetlink.c:1115
+   genl_family_rcv_msg net/netlink/genetlink.c:1195 [inline]
+   genl_rcv_msg+0x3a8/0x3f0 net/netlink/genetlink.c:1210
+   netlink_rcv_skb+0x16d/0x240 net/netlink/af_netlink.c:2550
+   genl_rcv+0x28/0x40 net/netlink/genetlink.c:1219
+   netlink_unicast_kernel net/netlink/af_netlink.c:1318 [inline]
+   netlink_unicast+0x3e9/0x4c0 net/netlink/af_netlink.c:1344
+   netlink_sendmsg+0x4ab/0x5b0 net/netlink/af_netlink.c:1894
+   sock_sendmsg_nosec net/socket.c:718 [inline]
+   __sock_sendmsg+0xc9/0xf0 net/socket.c:733
+   ____sys_sendmsg+0x272/0x3b0 net/socket.c:2608
+   ___sys_sendmsg+0x2de/0x320 net/socket.c:2662
+   __sys_sendmsg net/socket.c:2694 [inline]
+   __do_sys_sendmsg net/socket.c:2699 [inline]
+   __se_sys_sendmsg net/socket.c:2697 [inline]
+   __x64_sys_sendmsg+0x110/0x1a0 net/socket.c:2697
+   do_syscall_x64 arch/x86/entry/syscall_64.c:63 [inline]
+   do_syscall_64+0xed/0x360 arch/x86/entry/syscall_64.c:94
+   entry_SYSCALL_64_after_hwframe+0x77/0x7f
+  RIP: 0033:0x7fc6adb66f6d
+  Code: ff c3 66 2e 0f 1f 84 00 00 00 00 00 90 f3 0f 1e fa 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 c7 c1 e8 ff ff ff f7 d8 64 89 01 48
+  RSP: 002b:00007fc6ac5a6ff8 EFLAGS: 00000246 ORIG_RAX: 000000000000002e
+  RAX: ffffffffffffffda RBX: 00007fc6addf5fa0 RCX: 00007fc6adb66f6d
+  RDX: 0000000000048084 RSI: 00002000000002c0 RDI: 000000000000000e
+  RBP: 0000000000000000 R08: 0000000000000000 R09: 0000000000000000
+  R10: 0000000000000000 R11: 0000000000000246 R12: 000000000000
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/1b3ff4d88b508b73e2bbddb59356311efb7ba192.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/1b3ff4d88b508b73e2bbddb59356311efb7ba192
+- https://git.kernel.org/stable/c/4d480efd98e290c445f4ba476e4dcda5624b1aab
+- https://git.kernel.org/stable/c/7c1d221e475e3d8eb8ed4702392d43f8c5134d1f
+- https://git.kernel.org/stable/c/7e4d88e36e5d0b8ffda637999cbca64c81701a81
+- https://git.kernel.org/stable/c/d191101dee25567c2af3b28565f45346c33d65f5
 
 ---
