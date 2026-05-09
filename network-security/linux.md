@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1334**
+**总计条目 / Total entries: 1354**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -21603,5 +21603,245 @@ It was discovered that the Lua parser incorrectly handled garbage collection whe
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8262-1
+
+---
+
+#### 1335. CVE-2026-43309 - kernel: md raid: fix hang when stopping arrays with metadata through dm-raid
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: md raid: fix hang when stopping arrays with metadata through dm-raid. Bugzilla: 2468037
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468037
+
+---
+
+#### 1336. CVE-2026-43342 - kernel: usb: gadget: f_rndis: Protect RNDIS options with mutex
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: usb: gadget: f_rndis: Protect RNDIS options with mutex. Bugzilla: 2468039
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468039
+
+---
+
+#### 1337. CVE-2026-43345 - kernel: net: ipa: fix event ring index not programmed for IPA v5.0+
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: ipa: fix event ring index not programmed for IPA v5.0+. Bugzilla: 2468040
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468040
+
+---
+
+#### 1338. CVE-2026-43293 - kernel: media: chips-media: wave5: Fix kthread worker destruction in polling mode
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: media: chips-media: wave5: Fix kthread worker destruction in polling mode. Bugzilla: 2468044
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468044
+
+---
+
+#### 1339. CVE-2026-43285 - kernel: mm/slab: do not access current->mems_allowed_seq if !allow_spin
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: mm/slab: do not access current->mems_allowed_seq if !allow_spin. Bugzilla: 2468046
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468046
+
+---
+
+#### 1340. CVE-2026-43321 - kernel: bpf: Properly mark live registers for indirect jumps
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: bpf: Properly mark live registers for indirect jumps. Bugzilla: 2468047
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468047
+
+---
+
+#### 1341. CVE-2026-43298 - kernel: drm/amdgpu: Skip vcn poison irq release on VF
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: drm/amdgpu: Skip vcn poison irq release on VF. Bugzilla: 2468048
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468048
+
+---
+
+#### 1342. CVE-2025-71297 - kernel: wifi: rtw88: 8822b: Avoid WARNING in rtw8822b_config_trx_mode()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: wifi: rtw88: 8822b: Avoid WARNING in rtw8822b_config_trx_mode(). Bugzilla: 2468053
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468053
+
+---
+
+#### 1343. CVE-2025-71296 - kernel: drm/tests: shmem: Hold reservation lock around purge
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: drm/tests: shmem: Hold reservation lock around purge. Bugzilla: 2468054
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468054
+
+---
+
+#### 1344. CVE-2026-43299 - kernel: btrfs: do not ASSERT() when the fs flips RO inside…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: btrfs: do not ASSERT() when the fs flips RO inside btrfs_repair_io_failure(). Bugzilla: 2468058
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468058
+
+---
+
+#### 1345. CVE-2026-43304 - kernel: libceph: define and enforce CEPH_MAX_KEY_LEN
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: libceph: define and enforce CEPH_MAX_KEY_LEN. Bugzilla: 2468062
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468062
+
+---
+
+#### 1346. CVE-2026-43288 - kernel: ext4: move ext4_percpu_param_init() before ext4_mb_init()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ext4: move ext4_percpu_param_init() before ext4_mb_init(). Bugzilla: 2468063
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468063
+
+---
+
+#### 1347. CVE-2026-43343 - kernel: usb: gadget: f_subset: Fix unbalanced refcnt in geth_free
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: usb: gadget: f_subset: Fix unbalanced refcnt in geth_free. Bugzilla: 2468064
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468064
+
+---
+
+#### 1348. CVE-2026-43347 - kernel: arm64: dts: qcom: monaco: Reserve full Gunyah metadata region
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: arm64: dts: qcom: monaco: Reserve full Gunyah metadata region. Bugzilla: 2468065
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468065
+
+---
+
+#### 1349. CVE-2026-43319 - kernel: spi: spidev: fix lock inversion between spi_lock and buf_lock
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: spi: spidev: fix lock inversion between spi_lock and buf_lock. Bugzilla: 2468066
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468066
+
+---
+
+#### 1350. CVE-2026-43349 - kernel: f2fs: fix to avoid uninit-value access in f2fs_sanity_check_node_footer
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: f2fs: fix to avoid uninit-value access in f2fs_sanity_check_node_footer. Bugzilla: 2468067
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468067
+
+---
+
+#### 1351. CVE-2026-43291 - kernel: net: nfc: nci: Fix parameter validation for packet data
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: nfc: nci: Fix parameter validation for packet data. Bugzilla: 2468069
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468069
+
+---
+
+#### 1352. CVE-2025-71302 - kernel: drm/panthor: fix for dma-fence safe access rules
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: drm/panthor: fix for dma-fence safe access rules. Bugzilla: 2468072
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468072
+
+---
+
+#### 1353. CVE-2026-43295 - kernel: rapidio: replace rio_free_net() with kfree() in rio_scan_alloc_net()
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: rapidio: replace rio_free_net() with kfree() in rio_scan_alloc_net(). Bugzilla: 2468075
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468075
+
+---
+
+#### 1354. CVE-2026-43308 - kernel: btrfs: don't BUG() on unexpected delayed ref type in run_one_delayed_ref()
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: btrfs: don't BUG() on unexpected delayed ref type in run_one_delayed_ref(). Bugzilla: 2468076
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2468076
 
 ---

