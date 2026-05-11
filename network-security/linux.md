@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1420**
+**总计条目 / Total entries: 1426**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -22888,5 +22888,77 @@ The Debian initrd script for the cryptsetup package 2:1.7.3-2 and earlier allows
 - http://www.openwall.com/lists/oss-security/2016/11/15/1
 - http://www.openwall.com/lists/oss-security/2016/11/15/4
 - http://www.openwall.com/lists/oss-security/2016/11/16/6
+
+---
+
+#### 1421. [Ubuntu] USN-8267-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Qualys discovered that several vulnerabilities existed in the AppArmor Linux kernel Security Module (LSM). An unprivileged local attacker could use these issues to load, replace, and remove arbitrary AppArmor profiles causing denial of service, exposure of sensitive information (kernel memory), local privilege escalation, or possibly escape a container. (LP: #2143853, CVE-2026-23268, CVE-2026-2326
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8267-1
+
+---
+
+#### 1422. [Ubuntu] USN-8255-2: Linux kernel (Azure) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Stonejiajia, Shir Tamari and Sagi Tzadik discovered that the OverlayFS implementation in the Ubuntu Linux kernel did not properly perform permission checks in certain situations. A local attacker could possibly use this to gain elevated privileges. (CVE-2023-2640) Shir Tamari and Sagi Tzadik discovered that the OverlayFS implementation in the Ubuntu Linux kernel did not properly perform permission
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8255-2
+
+---
+
+#### 1423. [Ubuntu] USN-8254-2: Linux kernel (NVIDIA) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Network drivers; - NVME drivers; - Netfilter; (CVE-2026-23112, CVE-2026-23231, CVE-2026-23273)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8254-2
+
+---
+
+#### 1424. [Ubuntu] USN-8180-6: Linux kernel (Raspberry Pi) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM64 architecture; - Block layer subsystem; - Drivers core; - Bluetooth drivers; - DMA engine subsystem; - GPU drivers; - HID subsystem; - Intel Trace Hub HW tracing drivers; - IIO ADC drivers; - IRQ chip drivers; - M
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8180-6
+
+---
+
+#### 1425. [Ubuntu] USN-8265-1: Linux kernel (NVIDIA Tegra) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Josh Eads, Kristoffer Janke, Eduardo Vela Nava, Tavis Ormandy, and Matteo Rizzo discovered that some AMD Zen processors did not properly verify the signature of CPU microcode. This flaw is known as EntrySign. A privileged attacker could possibly use this issue to cause load malicious CPU microcode causing loss of integrity and confidentiality. (CVE-2024-36347) Several security issues were discover
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8265-1
+
+---
+
+#### 1426. [Ubuntu] USN-8200-3: Linux kernel (Raspberry Pi) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM64 architecture; - Cryptographic API; - GPU drivers; - I2C subsystem; - Network traffic control; (CVE-2022-49046, CVE-2024-46816, CVE-2025-37849, CVE-2026-23060, CVE-2026-23074)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8200-3
 
 ---

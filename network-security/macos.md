@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 919**
+**总计条目 / Total entries: 930**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -14340,5 +14340,137 @@ An issue was discovered in certain Apple products. macOS before 10.13.1 is affec
 - https://support.apple.com/HT208221
 - http://www.securitytracker.com/id/1039710
 - https://support.apple.com/HT208221
+
+---
+
+#### 920. [Apple] iOS 26.5 and iPadOS 26.5
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127110
+
+---
+
+#### 921. [Apple] iOS 18.7.9 and iPadOS 18.7.9
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127111
+
+---
+
+#### 922. [Apple] iPadOS 17.7.11
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127112
+
+---
+
+#### 923. [Apple] iOS 16.7.16 and iPadOS 16.7.16
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127113
+
+---
+
+#### 924. [Apple] iOS 15.8.8 and iPadOS 15.8.8
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127114
+
+---
+
+#### 925. [Apple] macOS Tahoe 26.5
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127115
+
+---
+
+#### 926. [Apple] macOS Sequoia 15.7.7
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127116
+
+---
+
+#### 927. [Apple] macOS Sonoma 14.8.7
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127117
+
+---
+
+#### 928. [Apple] tvOS 26.5
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127118
+
+---
+
+#### 929. [Apple] watchOS 26.5
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127119
+
+---
+
+#### 930. [Apple] visionOS 26.5
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127120
 
 ---
