@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1325**
+**总计条目 / Total entries: 1465**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -24724,5 +24724,2925 @@ Apply patch from vendor. Monitor https://git.kernel.org/stable/c/1b3ff4d88b508b7
 - https://git.kernel.org/stable/c/7c1d221e475e3d8eb8ed4702392d43f8c5134d1f
 - https://git.kernel.org/stable/c/7e4d88e36e5d0b8ffda637999cbca64c81701a81
 - https://git.kernel.org/stable/c/d191101dee25567c2af3b28565f45346c33d65f5
+
+---
+
+#### 1326. CVE-2012-5536
+
+**严重程度 / Severity**: N/A | CVSS: 6.2
+**受影响产品 / Affected Products**: fedora_project:fedora_release_rawhide, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+A certain Red Hat build of the pam_ssh_agent_auth module on Red Hat Enterprise Linux (RHEL) 6 and Fedora Rawhide calls the glibc error function instead of the error function in the OpenSSH codebase, which allows local users to obtain sensitive information from process memory or possibly gain privileges via crafted use of an application that relies on this module, as demonstrated by su and sudo.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://pkgs.fedoraproject.org/cgit/openssh.git/commit/?id=4f4687ce8045418f678c323bb22c837f35d7b9fa.
+
+**参考链接 / References**:
+- http://pkgs.fedoraproject.org/cgit/openssh.git/commit/?id=4f4687ce8045418f678c323bb22c837f35d7b9fa
+- http://rhn.redhat.com/errata/RHSA-2013-0519.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=834618
+- http://pkgs.fedoraproject.org/cgit/openssh.git/commit/?id=4f4687ce8045418f678c323bb22c837f35d7b9fa
+- http://rhn.redhat.com/errata/RHSA-2013-0519.html
+
+---
+
+#### 1327. CVE-2012-1568
+
+**严重程度 / Severity**: N/A | CVSS: 1.9
+**受影响产品 / Affected Products**: redhat:enterprise_linux, fedoraproject:fedora
+
+**漏洞描述 / Description**:
+The ExecShield feature in a certain Red Hat patch for the Linux kernel in Red Hat Enterprise Linux (RHEL) 5 and 6 and Fedora 15 and 16 does not properly handle use of many shared libraries by a 32-bit executable file, which makes it easier for context-dependent attackers to bypass the ASLR protection mechanism by leveraging a predictable base address for one of these libraries.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://openwall.com/lists/oss-security/2012/03/21/3.
+
+**参考链接 / References**:
+- http://openwall.com/lists/oss-security/2012/03/21/3
+- http://scarybeastsecurity.blogspot.com/2012/03/some-random-observations-on-linux-aslr.html
+- http://www.openwall.com/lists/oss-security/2012/03/20/4
+- https://bugzilla.redhat.com/show_bug.cgi?id=804947
+- https://oss.oracle.com/git/?p=redpatch.git%3Ba=commit%3Bh=302a4fc15aebf202b6dffd6c804377c6058ee6e4
+
+---
+
+#### 1328. CVE-2013-2030
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: openstack:havana, openstack:compute, openstack:grizzly, openstack:folsom
+
+**漏洞描述 / Description**:
+keystone/middleware/auth_token.py in OpenStack Nova Folsom, Grizzly, and Havana uses an insecure temporary directory for storing signing certificates, which allows local users to spoof servers by pre-creating this directory, which is reused by Nova, as demonstrated using /tmp/keystone-signing-nova on Fedora.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.fedoraproject.org/pipermail/package-announce/2013-May/105916.html.
+
+**参考链接 / References**:
+- http://lists.fedoraproject.org/pipermail/package-announce/2013-May/105916.html
+- http://lists.openstack.org/pipermail/openstack-announce/2013-May/000098.html
+- http://www.openwall.com/lists/oss-security/2013/05/09/2
+- https://bugs.launchpad.net/nova/+bug/1174608
+- https://bugzilla.redhat.com/show_bug.cgi?id=958285
+
+---
+
+#### 1329. CVE-2013-7283
+
+**严重程度 / Severity**: N/A | CVSS: 9.3
+**受影响产品 / Affected Products**: libreswan:libreswan
+
+**漏洞描述 / Description**:
+Race condition in the libreswan.spec files for Red Hat Enterprise Linux (RHEL) and Fedora packages in libreswan 3.6 has unspecified impact and attack vectors, involving the /var/tmp/libreswan-nss-pwd temporary file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/56276.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/56276
+- http://www.osvdb.org/101575
+- https://github.com/libreswan/libreswan/commit/ef2d756e73a188401c36133c2e2f7ce4f3c6ae55
+- https://lists.libreswan.org/pipermail/swan-announce/2013/000007.html
+- http://secunia.com/advisories/56276
+
+---
+
+#### 1330. CVE-2010-0746
+
+**严重程度 / Severity**: N/A | CVSS: 6.2
+**受影响产品 / Affected Products**: fedoraproject:fedora
+
+**漏洞描述 / Description**:
+Directory traversal vulnerability in DeviceKit-disks in DeviceKit, as used in Fedora 11 and 12 and possibly other operating systems, allows local users to gain privileges via .. (dot dot) sequences in the label for a pluggable storage device.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://seclists.org/oss-sec/2010/q2/5.
+
+**参考链接 / References**:
+- http://seclists.org/oss-sec/2010/q2/5
+- http://stealth.openwall.net/xSports/devshit.pl
+- http://xorl.wordpress.com/2010/04/06/cve-2010-0746-devicekit-local-privilege-escalation/
+- https://bugs.freedesktop.org/show_bug.cgi?id=23235
+- https://bugzilla.redhat.com/show_bug.cgi?id=523178
+
+---
+
+#### 1331. CVE-2014-2094
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: catfish_project:catfish
+
+**漏洞描述 / Description**:
+Untrusted search path vulnerability in Catfish through 0.4.0.3, when a Fedora package such as 0.4.0.2-2 is not used, allows local users to gain privileges via a Trojan horse catfish.pyc in the current working directory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://openwall.com/lists/oss-security/2014/02/25/2.
+
+**参考链接 / References**:
+- http://openwall.com/lists/oss-security/2014/02/25/2
+- http://openwall.com/lists/oss-security/2014/02/25/4
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=739958
+- https://bugzilla.redhat.com/show_bug.cgi?id=1069396
+- http://openwall.com/lists/oss-security/2014/02/25/2
+
+---
+
+#### 1332. CVE-2014-2095
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: catfish_project:catfish
+
+**漏洞描述 / Description**:
+Untrusted search path vulnerability in Catfish 0.6.0 through 1.0.0, when a Fedora package such as 0.8.2-1 is not used, allows local users to gain privileges via a Trojan horse bin/catfish.pyc under the current working directory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://openwall.com/lists/oss-security/2014/02/25/2.
+
+**参考链接 / References**:
+- http://openwall.com/lists/oss-security/2014/02/25/2
+- http://openwall.com/lists/oss-security/2014/02/25/4
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=739958
+- https://bugzilla.redhat.com/show_bug.cgi?id=1069396
+- http://openwall.com/lists/oss-security/2014/02/25/2
+
+---
+
+#### 1333. CVE-2013-6494
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: fedoraproject:fedora, fedup_project:fedup
+
+**漏洞描述 / Description**:
+fedup 0.9.0 in Fedora 19, 20, and 21 uses a temporary directory with a static name for its download cache, which allows local users to cause a denial of service (prevention of system updates).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.fedoraproject.org/pipermail/package-announce/2014-November/141698.html.
+
+**参考链接 / References**:
+- http://lists.fedoraproject.org/pipermail/package-announce/2014-November/141698.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2014-November/142698.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2014-November/142933.html
+- http://www.securityfocus.com/bid/70874
+- https://bugzilla.redhat.com/show_bug.cgi?id=1066679
+
+---
+
+#### 1334. CVE-2014-9278
+
+**严重程度 / Severity**: N/A | CVSS: 4.0
+**受影响产品 / Affected Products**: redhat:fedora, openbsd:openssh, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The OpenSSH server, as used in Fedora and Red Hat Enterprise Linux 7 and when running in a Kerberos environment, allows remote authenticated users to log in as another user when they are listed in the .k5users file of that user, which might bypass intended authentication requirements that would force a local login.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2015-0425.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2015-0425.html
+- http://thread.gmane.org/gmane.comp.encryption.kerberos.general/15855
+- http://www.openwall.com/lists/oss-security/2014/12/02/3
+- http://www.openwall.com/lists/oss-security/2014/12/04/17
+- http://www.securityfocus.com/bid/71420
+
+---
+
+#### 1335. CVE-2015-3230
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: fedoraproject:389_directory_server
+
+**漏洞描述 / Description**:
+389 Directory Server (formerly Fedora Directory Server) before 1.3.3.12 does not enforce the nsSSL3Ciphers preference when creating an sslSocket, which allows remote attackers to have unspecified impact by requesting to use a disabled cipher.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://directory.fedoraproject.org/docs/389ds/releases/release-1-3-3-12.html.
+
+**参考链接 / References**:
+- http://directory.fedoraproject.org/docs/389ds/releases/release-1-3-3-12.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2015-October/168985.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=1230996
+- https://fedorahosted.org/389/ticket/48194
+- http://directory.fedoraproject.org/docs/389ds/releases/release-1-3-3-12.html
+
+---
+
+#### 1336. CVE-2016-0741
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: redhat:enterprise_linux, redhat:enterprise_linux_desktop, redhat:enterprise_linux_hpc_node, redhat:enterprise_linux_workstation, fedoraproject:389_directory_server
+
+**漏洞描述 / Description**:
+slapd/connection.c in 389 Directory Server (formerly Fedora Directory Server) 1.3.4.x before 1.3.4.7 allows remote attackers to cause a denial of service (infinite loop and connection blocking) by leveraging an abnormally closed connection.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://directory.fedoraproject.org/docs/389ds/releases/release-1-3-4-7.html.
+
+**参考链接 / References**:
+- http://directory.fedoraproject.org/docs/389ds/releases/release-1-3-4-7.html
+- http://rhn.redhat.com/errata/RHSA-2016-0204.html
+- http://www.oracle.com/technetwork/topics/security/linuxbulletinjan2016-2867209.html
+- http://www.securityfocus.com/bid/82343
+- https://fedorahosted.org/389/changeset/cd45d032421b0ecf76d8cbb9b1c3aeef7680d9a2/
+
+---
+
+#### 1337. CVE-2016-0726
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: nagios:nagios
+
+**漏洞描述 / Description**:
+The Fedora Nagios package uses "nagiosadmin" as the default password for the "nagiosadmin" administrator account, which makes it easier for remote attackers to obtain access by leveraging knowledge of the credentials.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.redhat.com/show_bug.cgi?id=1295446.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=1295446
+- https://bugzilla.redhat.com/show_bug.cgi?id=1295446
+
+---
+
+#### 1338. CVE-2017-7496
+
+**严重程度 / Severity**: HIGH | CVSS: 7.0
+**受影响产品 / Affected Products**: fedoraproject:arm_installer
+
+**漏洞描述 / Description**:
+fedora-arm-installer up to and including 1.99.16 is vulnerable to local privilege escalation due to lack of checking the error condition of mount operation failure on unsafely created temporary directories.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://pagure.io/arm-image-installer/pull-request/10.
+
+**参考链接 / References**:
+- https://pagure.io/arm-image-installer/pull-request/10
+- https://pagure.io/arm-image-installer/pull-request/10
+
+---
+
+#### 1339. CVE-2015-3277
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: mod_nss_project:mod_nss
+
+**漏洞描述 / Description**:
+The mod_nss module before 1.0.11 in Fedora allows remote attackers to obtain cipher lists due to incorrect parsing of multi-keyword cipherstring.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.fedoraproject.org/pipermail/package-announce/2015-November/170607.html.
+
+**参考链接 / References**:
+- http://lists.fedoraproject.org/pipermail/package-announce/2015-November/170607.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=1238324
+- https://bugzilla.redhat.com/show_bug.cgi?id=1243518
+- http://lists.fedoraproject.org/pipermail/package-announce/2015-November/170607.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=1238324
+
+---
+
+#### 1340. CVE-2017-12170
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: pureftpd:pure-ftpd, fedoraproject:fedora
+
+**漏洞描述 / Description**:
+Downstream version 1.0.46-1 of pure-ftpd as shipped in Fedora was vulnerable to packaging error due to which the original configuration was ignored after update and service started running with default configuration. This has security implications because of overriding security-related configuration. This issue doesn't affect upstream version of pure-ftpd.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.redhat.com/show_bug.cgi?id=1493114.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=1493114
+- https://bugzilla.redhat.com/show_bug.cgi?id=1493114
+
+---
+
+#### 1341. CVE-2015-0296
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.7
+**受影响产品 / Affected Products**: tug:texlive, fedoraproject:fedora
+
+**漏洞描述 / Description**:
+The pre-install script in texlive 3.1.20140525_r34255.fc21 as packaged in Fedora 21 and rpm, and texlive 6.20131226_r32488.fc20 and rpm allows local users to delete arbitrary files via a crafted file in the user's home directory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.fedoraproject.org/pipermail/package-announce/2015-April/154198.html.
+
+**参考链接 / References**:
+- http://lists.fedoraproject.org/pipermail/package-announce/2015-April/154198.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2015-April/154424.html
+- http://www.openwall.com/lists/oss-security/2015/02/27/6
+- http://www.securityfocus.com/bid/72826
+- https://bugzilla.redhat.com/show_bug.cgi?id=1197082
+
+---
+
+#### 1342. CVE-2015-3229
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.9
+**受影响产品 / Affected Products**: fedoraproject:spin-kickstarts, fedoraproject:atomic
+
+**漏洞描述 / Description**:
+fedora-cloud-atomic.ks in spin-kickstarts allows remote attackers to conduct man-in-the-middle attacks by leveraging use of HTTP to download Fedora Atomic updates.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.openwall.com/lists/oss-security/2015/06/12/8.
+
+**参考链接 / References**:
+- http://www.openwall.com/lists/oss-security/2015/06/12/8
+- http://www.securityfocus.com/bid/75185
+- https://bugzilla.redhat.com/show_bug.cgi?id=1231800
+- https://lists.fedoraproject.org/archives/list/spins%40lists.fedoraproject.org/thread/L3GSGM5JS2EAJJAGEHR7U4ATNM4ILFKK/
+- http://www.openwall.com/lists/oss-security/2015/06/12/8
+
+---
+
+#### 1343. CVE-2013-0159
+
+**严重程度 / Severity**: HIGH | CVSS: 7.1
+**受影响产品 / Affected Products**: fedoraproject:fedora
+
+**漏洞描述 / Description**:
+The fedora-business-cards package before 1-0.1.beta1.fc17 on Fedora 17 and before 1-0.1.beta1.fc18 on Fedora 18 allows local users to cause a denial of service or write to arbitrary files via a symlink attack on /tmp/fedora-business-cards-buffer.svg.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.redhat.com/show_bug.cgi?id=892299.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=892299
+- https://bugzilla.redhat.com/show_bug.cgi?id=892815
+- https://bugzilla.redhat.com/show_bug.cgi?id=892299
+- https://bugzilla.redhat.com/show_bug.cgi?id=892815
+
+---
+
+#### 1344. CVE-2018-1111
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: redhat:enterprise_linux, redhat:enterprise_virtualization_host, redhat:enterprise_linux_desktop, fedoraproject:fedora, redhat:enterprise_linux_workstation
+
+**漏洞描述 / Description**:
+DHCP packages in Red Hat Enterprise Linux 6 and 7, Fedora 28, and earlier are vulnerable to a command injection flaw in the NetworkManager integration script included in the DHCP client. A malicious DHCP server, or an attacker on the local network able to spoof DHCP responses, could use this flaw to execute arbitrary commands with root privileges on systems using NetworkManager and configured to obtain network configuration using the DHCP protocol.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/104195.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/104195
+- http://www.securitytracker.com/id/1040912
+- https://access.redhat.com/errata/RHSA-2018:1453
+- https://access.redhat.com/errata/RHSA-2018:1454
+- https://access.redhat.com/errata/RHSA-2018:1455
+
+---
+
+#### 1345. CVE-2018-1125
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: opensuse:leap, debian:debian_linux, procps-ng_project:procps-ng, canonical:ubuntu_linux
+
+**漏洞描述 / Description**:
+procps-ng before version 3.3.15 is vulnerable to a stack buffer overflow in pgrep. This vulnerability is mitigated by FORTIFY, as it involves strncat() to a stack-allocated string. When pgrep is compiled with FORTIFY (as on Red Hat Enterprise Linux and Fedora), the impact is limited to a crash.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2019-10/msg00058.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2019-10/msg00058.html
+- http://lists.opensuse.org/opensuse-security-announce/2019-10/msg00059.html
+- http://seclists.org/oss-sec/2018/q2/122
+- http://www.securityfocus.com/bid/104214
+- https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2018-1125
+
+---
+
+#### 1346. CVE-2018-1113
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.8
+**受影响产品 / Affected Products**: redhat:enterprise_linux, redhat:setup, redhat:enterprise_linux_desktop, fedoraproject:fedora, redhat:enterprise_linux_workstation
+
+**漏洞描述 / Description**:
+setup before version 2.11.4-1.fc28 in Fedora and Red Hat Enterprise Linux added /sbin/nologin and /usr/sbin/nologin to /etc/shells. This violates security assumptions made by pam_shells and some daemons which allow access based on a user's shell being listed in /etc/shells. Under some circumstances, users which had their shell changed to /sbin/nologin could still access the system.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://access.redhat.com/errata/RHBA-2019:0327.
+
+**参考链接 / References**:
+- https://access.redhat.com/errata/RHBA-2019:0327
+- https://access.redhat.com/errata/RHSA-2018:3249
+- https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2018-1113
+- https://access.redhat.com/errata/RHBA-2019:0327
+- https://access.redhat.com/errata/RHSA-2018:3249
+
+---
+
+#### 1347. CVE-2019-7639
+
+**严重程度 / Severity**: HIGH | CVSS: 8.1
+**受影响产品 / Affected Products**: gsi-openssh_project:gsi-openssh, fedoraproject:fedora
+
+**漏洞描述 / Description**:
+An issue was discovered in gsi-openssh-server 7.9p1 on Fedora 29. If PermitPAMUserChange is set to yes in the /etc/gsissh/sshd_config file, logins succeed with a valid username and an incorrect password, even though a failure entry is recorded in the /var/log/messages file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.redhat.com/show_bug.cgi?id=1673802.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=1673802
+- https://bugzilla.redhat.com/show_bug.cgi?id=1673802
+
+---
+
+#### 1348. CVE-2019-14844
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: fedoraproject:fedora, mit:kerberos_5
+
+**漏洞描述 / Description**:
+A flaw was found in, Fedora versions of krb5 from 1.16.1 to, including 1.17.x, in the way a Kerberos client could crash the KDC by sending one of the RFC 4556 "enctypes". A remote unauthenticated user could use this flaw to crash the KDC.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-14844.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-14844
+- https://github.com/krb5/krb5/pull/981
+- https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/54ZYKEJZ77BXZWGF4NEVKC33ESVROEYC/
+- https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/N4LS5PIJOCNOUZGLO2OBT6GY334PUOSW/
+- https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/TDE2QOKK4I4TV4WV74ZQWICZ4HJN2MOK/
+
+---
+
+#### 1349. CVE-2012-1615
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: fedoraproject:sectool, fedoraproject:fedora
+
+**漏洞描述 / Description**:
+A Privilege Escalation vulnerability exits in Fedoraproject Sectool due to an incorrect DBus file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.fedoraproject.org/pipermail/package-announce/2012-April/076873.html.
+
+**参考链接 / References**:
+- http://lists.fedoraproject.org/pipermail/package-announce/2012-April/076873.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2012-May/081113.html
+- http://www.openwall.com/lists/oss-security/2012/04/04/2
+- http://www.securityfocus.com/bid/52884
+- https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2012-1615
+
+---
+
+#### 1350. CVE-2020-14312
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.9
+**受影响产品 / Affected Products**: fedoraproject:fedora
+
+**漏洞描述 / Description**:
+A flaw was found in the default configuration of dnsmasq, as shipped with Fedora versions prior to 31 and in all versions Red Hat Enterprise Linux, where it listens on any interface and accepts queries from addresses outside of its local subnet. In particular, the option `local-service` is not enabled. Running dnsmasq in this manner may inadvertently make it an open resolver accessible from any address on the internet. This flaw allows an attacker to conduct a Distributed Denial of Service (DDoS) against other systems.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.redhat.com/show_bug.cgi?id=1851342.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=1851342
+- https://bugzilla.redhat.com/show_bug.cgi?id=1851342
+
+---
+
+#### 1351. CVE-2021-43816
+
+**严重程度 / Severity**: HIGH | CVSS: 8.0
+**受影响产品 / Affected Products**: linuxfoundation:containerd, fedoraproject:fedora
+
+**漏洞描述 / Description**:
+containerd is an open source container runtime. On installations using SELinux, such as EL8 (CentOS, RHEL), Fedora, or SUSE MicroOS, with containerd since v1.5.0-beta.0 as the backing container runtime interface (CRI), an unprivileged pod scheduled to the node may bind mount, via hostPath volume, any privileged, regular file on disk for complete read/write access (sans delete). Such is achieved by placing the in-container location of the hostPath volume mount at either `/etc/hosts`, `/etc/hostname`, or `/etc/resolv.conf`. These locations are being relabeled indiscriminately to match the container process-label which effectively elevates permissions for savvy containers that would not normally be able to access privileged host files. This issue has been resolved in version 1.5.9. Users are advised to upgrade as soon as possible.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/containerd/containerd/commit/a731039238c62be081eb8c31525b988415745eea.
+
+**参考链接 / References**:
+- https://github.com/containerd/containerd/commit/a731039238c62be081eb8c31525b988415745eea
+- https://github.com/containerd/containerd/issues/6194
+- https://github.com/containerd/containerd/security/advisories/GHSA-mvff-h3cj-wj9c
+- https://github.com/dweomer/containerd/commit/f7f08f0e34fb97392b0d382e58916d6865100299
+- https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/GD5GH7NMK5VJMA2Y5CYB5O5GTPYMWMLX/
+
+---
+
+#### 1352. CVE-2021-20269
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: kexec-tools_project:kexec-tools, redhat:enterprise_linux, fedoraproject:fedora
+
+**漏洞描述 / Description**:
+A flaw was found in the permissions of a log file created by kexec-tools. This flaw allows a local unprivileged user to read this file and leak kernel internal information from a previous panic. The highest threat from this vulnerability is to confidentiality. This flaw affects kexec-tools shipped by Fedora versions prior to 2.0.21-8 and RHEL versions prior to 2.0.20-47.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.redhat.com/show_bug.cgi?id=1934261.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=1934261
+- https://bugzilla.redhat.com/show_bug.cgi?id=1934261
+
+---
+
+#### 1353. CVE-2022-3675
+
+**严重程度 / Severity**: LOW | CVSS: 2.6
+**受影响产品 / Affected Products**: redhat:fedora_coreos
+
+**漏洞描述 / Description**:
+Fedora CoreOS supports setting a GRUB bootloader password
+using a Butane config. When this feature is enabled, GRUB requires a password to access the
+GRUB command-line, modify kernel command-line arguments, or boot
+non-default OSTree deployments.  Recent Fedora CoreOS releases have a
+misconfiguration which allows booting non-default OSTree deployments
+without entering a password.  This allows someone with access to the
+GRUB menu to boot into an older version of Fedora CoreOS, reverting
+any security fixes that have recently been applied to the machine.  A
+password is still required to modify kernel command-line arguments and
+to access the GRUB command line.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://docs.fedoraproject.org/en-US/fedora-coreos/grub-password/.
+
+**参考链接 / References**:
+- https://docs.fedoraproject.org/en-US/fedora-coreos/grub-password/
+- https://github.com/coreos/fedora-coreos-tracker/issues/1333
+- https://lists.fedoraproject.org/archives/list/coreos-status@lists.fedoraproject.org/thread/NHUCNH5Y4UH5DPUCXISYXXVA563TLFEJ/
+- https://docs.fedoraproject.org/en-US/fedora-coreos/grub-password/
+- https://github.com/coreos/fedora-coreos-tracker/issues/1333
+
+---
+
+#### 1354. CVE-2020-27418
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.4
+**受影响产品 / Affected Products**: fedoraproject:fedora_linux_kernel
+
+**漏洞描述 / Description**:
+A Use After Free vulnerability in Fedora Linux kernel 5.9.0-rc9 allows attackers to obatin sensitive information via vgacon_invert_region() function.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://fedora.com.
+
+**参考链接 / References**:
+- http://fedora.com
+- https://patchwork.freedesktop.org/patch/356372/
+- http://fedora.com
+- https://patchwork.freedesktop.org/patch/356372/
+
+---
+
+#### 1355. CVE-2022-3874
+
+**严重程度 / Severity**: HIGH | CVSS: 8.0
+**受影响产品 / Affected Products**: redhat:satellite, theforeman:foreman
+
+**漏洞描述 / Description**:
+A command injection flaw was found in foreman. This flaw allows an authenticated user with admin privileges on the foreman instance to transpile commands through CoreOS and Fedora CoreOS configurations in templates, possibly resulting in arbitrary command execution on the underlying operating system.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://access.redhat.com/security/cve/CVE-2022-3874.
+
+**参考链接 / References**:
+- https://access.redhat.com/security/cve/CVE-2022-3874
+- https://bugzilla.redhat.com/show_bug.cgi?id=2140577
+- https://access.redhat.com/security/cve/CVE-2022-3874
+- https://bugzilla.redhat.com/show_bug.cgi?id=2140577
+
+---
+
+#### 1356. CVE-2025-23011
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+**受影响产品 / Affected Products**: fedorarepository:fcrepo
+
+**漏洞描述 / Description**:
+Fedora Repository 3.8.1 allows path traversal when extracting uploaded archives ("Zip Slip"). A remote, authenticated attacker can upload a specially crafted archive that will extract an arbitrary JSP file to a location that can be executed by an unauthenticated GET request. Fedora Repository 3.8.1 was released on 2015-06-11 and is no longer maintained. Migrate to a currently supported version (6.5.1 as of 2025-01-23).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/fcrepo-exts/migration-utils.
+
+**参考链接 / References**:
+- https://github.com/fcrepo-exts/migration-utils
+- https://github.com/fcrepo/fcrepo/releases
+- https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/IT/white/2025/va-25-021-01.json
+
+---
+
+#### 1357. CVE-2025-23012
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: fedorarepository:fcrepo
+
+**漏洞描述 / Description**:
+Fedora Repository 3.8.x includes a service account (fedoraIntCallUser) with default credentials and privileges to read read local files by manipulating datastreams. Fedora Repository 3.8.1 was released on 2015-06-11 and is no longer maintained. Migrate to a currently supported version (6.5.1 as of 2025-01-23).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/fcrepo-exts/migration-utils.
+
+**参考链接 / References**:
+- https://github.com/fcrepo-exts/migration-utils
+- https://github.com/fcrepo/fcrepo/releases
+- https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/IT/white/2025/va-25-021-01.json
+- https://wiki.lyrasis.org/display/FEDORA38/XACML+Policy+Enforcement#XACMLPolicyEnforcement-4.1fedora-usersattributes
+
+---
+
+#### 1358. CVE-2025-21710
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+tcp: correct handling of extreme memory squeeze
+
+Testing with iperf3 using the "pasta" protocol splicer has revealed
+a problem in the way tcp handles window advertising in extreme memory
+squeeze situations.
+
+Under memory pressure, a socket endpoint may temporarily advertise
+a zero-sized window, but this is not stored as part of the socket data.
+The reasoning behind this is that it is considered a temporary setting
+which shouldn't influence any further calculations.
+
+However, if we happen to stall at an unfortunate value of the current
+window size, the algorithm selecting a new value will consistently fail
+to advertise a non-zero window once we have freed up enough memory.
+This means that this side's notion of the current window size is
+different from the one last advertised to the peer, causing the latter
+to not send any data to resolve the sitution.
+
+The problem occurs on the iperf3 server side, and the socket in question
+is a completely regular socket with the default settings for the
+fedora40 kernel. We do not use SO_PEEK or SO_RCVBUF on the socket.
+
+The following excerpt of a logging session, with own comments added,
+shows more in detail what is happening:
+
+//              tcp_v4_rcv(->)
+//                tcp_rcv_established(->)
+[5201<->39222]:     ==== Activating log @ net/ipv4/tcp_input.c/tcp_data_queue()/5257 ====
+[5201<->39222]:     tcp_data_queue(->)
+[5201<->39222]:        DROPPING skb [265600160..265665640], reason: SKB_DROP_REASON_PROTO_MEM
+                       [rcv_nxt 265600160, rcv_wnd 262144, snt_ack 265469200, win_now 131184]
+                       [copied_seq 259909392->260034360 (124968), unread 5565800, qlen 85, ofoq 0]
+                       [OFO queue: gap: 65480, len: 0]
+[5201<->39222]:     tcp_data_queue(<-)
+[5201<->39222]:     __tcp_transmit_skb(->)
+                        [tp->rcv_wup: 265469200, tp->rcv_wnd: 262144, tp->rcv_nxt 265600160]
+[5201<->39222]:       tcp_select_window(->)
+[5201<->39222]:         (inet_csk(sk)->icsk_ack.pending & ICSK_ACK_NOMEM) ? --> TRUE
+                        [tp->rcv_wup: 265469200, tp->rcv_wnd: 262144, tp->rcv_nxt 265600160]
+                        returning 0
+[5201<->39222]:       tcp_select_window(<-)
+[5201<->39222]:       ADVERTISING WIN 0, ACK_SEQ: 265600160
+[5201<->39222]:     [__tcp_transmit_skb(<-)
+[5201<->39222]:   tcp_rcv_established(<-)
+[5201<->39222]: tcp_v4_rcv(<-)
+
+// Receive queue is at 85 buffers and we are out of memory.
+// We drop the incoming buffer, although it is in sequence, and decide
+// to send an advertisement with a window of zero.
+// We don't update tp->rcv_wnd and tp->rcv_wup accordingly, which means
+// we unconditionally shrink the window.
+
+[5201<->39222]: tcp_recvmsg_locked(->)
+[5201<->39222]:   __tcp_cleanup_rbuf(->) tp->rcv_wup: 265469200, tp->rcv_wnd: 262144, tp->rcv_nxt 265600160
+[5201<->39222]:     [new_win = 0, win_now = 131184, 2 * win_now = 262368]
+[5201<->39222]:     [new_win >= (2 * win_now) ? --> time_to_ack = 0]
+[5201<->39222]:     NOT calling tcp_send_ack()
+                    [tp->rcv_wup: 265469200, tp->rcv_wnd: 262144, tp->rcv_nxt 265600160]
+[5201<->39222]:   __tcp_cleanup_rbuf(<-)
+                  [rcv_nxt 265600160, rcv_wnd 262144, snt_ack 265469200, win_now 131184]
+                  [copied_seq 260040464->260040464 (0), unread 5559696, qlen 85, ofoq 0]
+                  returning 6104 bytes
+[5201<->39222]: tcp_recvmsg_locked(<-)
+
+// After each read, the algorithm for calculating the new receive
+// window in __tcp_cleanup_rbuf() finds it is too small to advertise
+// or to update tp->rcv_wnd.
+// Meanwhile, the peer thinks the window is zero, and will not send
+// any more data to trigger an update from the interrupt mode side.
+
+[5201<->39222]: tcp_recvmsg_locked(->)
+[5201<->39222]:   __tcp_cleanup_rbuf(->) tp->rcv_wup: 265469200, tp->rcv_wnd: 262144, tp->rcv_nxt 265600160
+[5201<->39222]:     [new_win = 262144, win_now = 131184, 2 * win_n
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/1dd823a46e25ffde1492c391934f69a9e5eb574f.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/1dd823a46e25ffde1492c391934f69a9e5eb574f
+- https://git.kernel.org/stable/c/8c670bdfa58e48abad1d5b6ca1ee843ca91f7303
+- https://git.kernel.org/stable/c/b01e7ceb35dcb7ffad413da657b78c3340a09039
+- https://git.kernel.org/stable/c/b4055e2fe96f4ef101d8af0feb056d78d77514ff
+
+---
+
+#### 1359. CVE-2025-27512
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+Zincati is an auto-update agent for Fedora CoreOS hosts. Zincati ships a polkit rule which allows the `zincati` system user to use the actions `org.projectatomic.rpmostree1.deploy` to deploy updates to the system and `org.projectatomic.rpmostree1.finalize-deployment` to reboot the system into the deployed update. Since Zincati v0.0.24, this polkit rule contains a logic error which broadens access of those polkit actions to any unprivileged user rather than just the `zincati` system user. In practice, this means that any unprivileged user with access to the system D-Bus socket is able to deploy older Fedora CoreOS versions (which may have other known vulnerabilities). Note that rpm-ostree enforces that the selected version must be from the same branch the system is currently on so this cannot directly be used to deploy an attacker-controlled update payload. This primarily impacts users running untrusted workloads with access to the system D-Bus socket. Note that in general, untrusted workloads should not be given this access, whether containerized or not. By default, containers do not have access to the system D-Bus socket. The logic error is fixed in Zincati v0.0.30. A workaround is to manually add a following polkit rule, instructions for which are available in the GitHub Security Advisory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/coreos/zincati/commit/01d8e89f799e6ba21bdf7dc668abce23bd0d8f78.
+
+**参考链接 / References**:
+- https://github.com/coreos/zincati/commit/01d8e89f799e6ba21bdf7dc668abce23bd0d8f78
+- https://github.com/coreos/zincati/commit/28a43aa2c1edda091ba659677d73c13e6e3ea99d
+- https://github.com/coreos/zincati/releases/tag/v0.0.24
+- https://github.com/coreos/zincati/releases/tag/v0.0.30
+- https://github.com/coreos/zincati/security/advisories/GHSA-w6fv-6gcc-x825
+
+---
+
+#### 1360. CVE-2025-38181
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: linux:linux_kernel, debian:debian_linux
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+calipso: Fix null-ptr-deref in calipso_req_{set,del}attr().
+
+syzkaller reported a null-ptr-deref in sock_omalloc() while allocating
+a CALIPSO option.  [0]
+
+The NULL is of struct sock, which was fetched by sk_to_full_sk() in
+calipso_req_setattr().
+
+Since commit a1a5344ddbe8 ("tcp: avoid two atomic ops for syncookies"),
+reqsk->rsk_listener could be NULL when SYN Cookie is returned to its
+client, as hinted by the leading SYN Cookie log.
+
+Here are 3 options to fix the bug:
+
+  1) Return 0 in calipso_req_setattr()
+  2) Return an error in calipso_req_setattr()
+  3) Alaways set rsk_listener
+
+1) is no go as it bypasses LSM, but 2) effectively disables SYN Cookie
+for CALIPSO.  3) is also no go as there have been many efforts to reduce
+atomic ops and make TCP robust against DDoS.  See also commit 3b24d854cb35
+("tcp/dccp: do not touch listener sk_refcnt under synflood").
+
+As of the blamed commit, SYN Cookie already did not need refcounting,
+and no one has stumbled on the bug for 9 years, so no CALIPSO user will
+care about SYN Cookie.
+
+Let's return an error in calipso_req_setattr() and calipso_req_delattr()
+in the SYN Cookie case.
+
+This can be reproduced by [1] on Fedora and now connect() of nc times out.
+
+[0]:
+TCP: request_sock_TCPv6: Possible SYN flooding on port [::]:20002. Sending cookies.
+Oops: general protection fault, probably for non-canonical address 0xdffffc0000000006: 0000 [#1] PREEMPT SMP KASAN NOPTI
+KASAN: null-ptr-deref in range [0x0000000000000030-0x0000000000000037]
+CPU: 3 UID: 0 PID: 12262 Comm: syz.1.2611 Not tainted 6.14.0 #2
+Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.16.3-0-ga6ed6b701f0a-prebuilt.qemu.org 04/01/2014
+RIP: 0010:read_pnet include/net/net_namespace.h:406 [inline]
+RIP: 0010:sock_net include/net/sock.h:655 [inline]
+RIP: 0010:sock_kmalloc+0x35/0x170 net/core/sock.c:2806
+Code: 89 d5 41 54 55 89 f5 53 48 89 fb e8 25 e3 c6 fd e8 f0 91 e3 00 48 8d 7b 30 48 b8 00 00 00 00 00 fc ff df 48 89 fa 48 c1 ea 03 <80> 3c 02 00 0f 85 26 01 00 00 48 b8 00 00 00 00 00 fc ff df 4c 8b
+RSP: 0018:ffff88811af89038 EFLAGS: 00010216
+RAX: dffffc0000000000 RBX: 0000000000000000 RCX: ffff888105266400
+RDX: 0000000000000006 RSI: ffff88800c890000 RDI: 0000000000000030
+RBP: 0000000000000050 R08: 0000000000000000 R09: ffff88810526640e
+R10: ffffed1020a4cc81 R11: ffff88810526640f R12: 0000000000000000
+R13: 0000000000000820 R14: ffff888105266400 R15: 0000000000000050
+FS:  00007f0653a07640(0000) GS:ffff88811af80000(0000) knlGS:0000000000000000
+CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+CR2: 00007f863ba096f4 CR3: 00000000163c0005 CR4: 0000000000770ef0
+PKRU: 80000000
+Call Trace:
+ <IRQ>
+ ipv6_renew_options+0x279/0x950 net/ipv6/exthdrs.c:1288
+ calipso_req_setattr+0x181/0x340 net/ipv6/calipso.c:1204
+ calipso_req_setattr+0x56/0x80 net/netlabel/netlabel_calipso.c:597
+ netlbl_req_setattr+0x18a/0x440 net/netlabel/netlabel_kapi.c:1249
+ selinux_netlbl_inet_conn_request+0x1fb/0x320 security/selinux/netlabel.c:342
+ selinux_inet_conn_request+0x1eb/0x2c0 security/selinux/hooks.c:5551
+ security_inet_conn_request+0x50/0xa0 security/security.c:4945
+ tcp_v6_route_req+0x22c/0x550 net/ipv6/tcp_ipv6.c:825
+ tcp_conn_request+0xec8/0x2b70 net/ipv4/tcp_input.c:7275
+ tcp_v6_conn_request+0x1e3/0x440 net/ipv6/tcp_ipv6.c:1328
+ tcp_rcv_state_process+0xafa/0x52b0 net/ipv4/tcp_input.c:6781
+ tcp_v6_do_rcv+0x8a6/0x1a40 net/ipv6/tcp_ipv6.c:1667
+ tcp_v6_rcv+0x505e/0x5b50 net/ipv6/tcp_ipv6.c:1904
+ ip6_protocol_deliver_rcu+0x17c/0x1da0 net/ipv6/ip6_input.c:436
+ ip6_input_finish+0x103/0x180 net/ipv6/ip6_input.c:480
+ NF_HOOK include/linux/netfilter.h:314 [inline]
+ NF_HOOK include/linux/netfilter.h:308 [inline]
+ ip6_input+0x13c/0x6b0 net/ipv6/ip6_input.c:491
+ dst_input include/net/dst.h:469 [inline]
+ ip6_rcv_finish net/ipv6/ip6_input.c:79 [inline]
+ ip6_rcv_finish+0xb6/0x490 net/ipv6/ip6_input.c:69
+ NF_HOOK include/linux/netfilter.h:314 [inline]
+ NF_HOOK include/linux/netf
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/058dd4a370f23a5553a9449f2db53d5bfa88d45e.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/058dd4a370f23a5553a9449f2db53d5bfa88d45e
+- https://git.kernel.org/stable/c/10876da918fa1aec0227fb4c67647513447f53a9
+- https://git.kernel.org/stable/c/956f1499412ed0953f6a116df7fdb855e9f1fc66
+- https://git.kernel.org/stable/c/988edde4d52d5c02ea4dd95d7619372a5e2fb7b7
+- https://git.kernel.org/stable/c/bde8833eb075ba8e8674de88e32de6b669966451
+
+---
+
+#### 1361. CVE-2023-5342
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.1
+
+**漏洞描述 / Description**:
+The Fedora Secure Boot CA certificate shipped with shim in Fedora was expired which could lead to old or invalid signed boot components being loaded.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://access.redhat.com/security/cve/CVE-2023-5342.
+
+**参考链接 / References**:
+- https://access.redhat.com/security/cve/CVE-2023-5342
+- https://bodhi.fedoraproject.org/updates/FEDORA-2024-2aa28a4cfc
+- https://bugzilla.redhat.com/show_bug.cgi?id=2198977
+- https://bugzilla.redhat.com/show_bug.cgi?id=2388707
+
+---
+
+#### 1362. CVE-2025-68183
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+ima: don't clear IMA_DIGSIG flag when setting or removing non-IMA xattr
+
+Currently when both IMA and EVM are in fix mode, the IMA signature will
+be reset to IMA hash if a program first stores IMA signature in
+security.ima and then writes/removes some other security xattr for the
+file.
+
+For example, on Fedora, after booting the kernel with "ima_appraise=fix
+evm=fix ima_policy=appraise_tcb" and installing rpm-plugin-ima,
+installing/reinstalling a package will not make good reference IMA
+signature generated. Instead IMA hash is generated,
+
+    # getfattr -m - -d -e hex /usr/bin/bash
+    # file: usr/bin/bash
+    security.ima=0x0404...
+
+This happens because when setting security.selinux, the IMA_DIGSIG flag
+that had been set early was cleared. As a result, IMA hash is generated
+when the file is closed.
+
+Similarly, IMA signature can be cleared on file close after removing
+security xattr like security.evm or setting/removing ACL.
+
+Prevent replacing the IMA file signature with a file hash, by preventing
+the IMA_DIGSIG flag from being reset.
+
+Here's a minimal C reproducer which sets security.selinux as the last
+step which can also replaced by removing security.evm or setting ACL,
+
+    #include <stdio.h>
+    #include <sys/xattr.h>
+    #include <fcntl.h>
+    #include <unistd.h>
+    #include <string.h>
+    #include <stdlib.h>
+
+    int main() {
+        const char* file_path = "/usr/sbin/test_binary";
+        const char* hex_string = "030204d33204490066306402304";
+        int length = strlen(hex_string);
+        char* ima_attr_value;
+        int fd;
+
+        fd = open(file_path, O_WRONLY|O_CREAT|O_EXCL, 0644);
+        if (fd == -1) {
+            perror("Error opening file");
+            return 1;
+        }
+
+        ima_attr_value = (char*)malloc(length / 2 );
+        for (int i = 0, j = 0; i < length; i += 2, j++) {
+            sscanf(hex_string + i, "%2hhx", &ima_attr_value[j]);
+        }
+
+        if (fsetxattr(fd, "security.ima", ima_attr_value, length/2, 0) == -1) {
+            perror("Error setting extended attribute");
+            close(fd);
+            return 1;
+        }
+
+        const char* selinux_value= "system_u:object_r:bin_t:s0";
+        if (fsetxattr(fd, "security.selinux", selinux_value, strlen(selinux_value), 0) == -1) {
+            perror("Error setting extended attribute");
+            close(fd);
+            return 1;
+        }
+
+        close(fd);
+
+        return 0;
+    }
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/02aa671c08a4834bef5166743a7b88686fbfa023.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/02aa671c08a4834bef5166743a7b88686fbfa023
+- https://git.kernel.org/stable/c/88b4cbcf6b041ae0f2fc8a34554a5b6a83a2b7cd
+- https://git.kernel.org/stable/c/d2993a7e98eb70c737c6f5365a190e79c72b8407
+- https://git.kernel.org/stable/c/edd824eb45e4f7e05ad3ab090dab6dbdb79cd292
+
+---
+
+#### 1363. CVE-2026-23215
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+x86/vmware: Fix hypercall clobbers
+
+Fedora QA reported the following panic:
+
+  BUG: unable to handle page fault for address: 0000000040003e54
+  #PF: supervisor write access in kernel mode
+  #PF: error_code(0x0002) - not-present page
+  Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS edk2-20251119-3.fc43 11/19/2025
+  RIP: 0010:vmware_hypercall4.constprop.0+0x52/0x90
+  ..
+  Call Trace:
+   vmmouse_report_events+0x13e/0x1b0
+   psmouse_handle_byte+0x15/0x60
+   ps2_interrupt+0x8a/0xd0
+   ...
+
+because the QEMU VMware mouse emulation is buggy, and clears the top 32
+bits of %rdi that the kernel kept a pointer in.
+
+The QEMU vmmouse driver saves and restores the register state in a
+"uint32_t data[6];" and as a result restores the state with the high
+bits all cleared.
+
+RDI originally contained the value of a valid kernel stack address
+(0xff5eeb3240003e54).  After the vmware hypercall it now contains
+0x40003e54, and we get a page fault as a result when it is dereferenced.
+
+The proper fix would be in QEMU, but this works around the issue in the
+kernel to keep old setups working, when old kernels had not happened to
+keep any state in %rdi over the hypercall.
+
+In theory this same issue exists for all the hypercalls in the vmmouse
+driver; in practice it has only been seen with vmware_hypercall3() and
+vmware_hypercall4().  For now, just mark RDI/RSI as clobbered for those
+two calls.  This should have a minimal effect on code generation overall
+as it should be rare for the compiler to want to make RDI/RSI live
+across hypercalls.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/2687c848e57820651b9f69d30c4710f4219f7dbf.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/2687c848e57820651b9f69d30c4710f4219f7dbf
+- https://git.kernel.org/stable/c/2f467a92df61eb516a4ec36ee16234dd4e5ccf00
+- https://git.kernel.org/stable/c/feb603a69f830acb58f78d604f0c29e63cd38f87
+
+---
+
+#### 1364. CVE-2025-1272
+
+**严重程度 / Severity**: HIGH | CVSS: 7.7
+
+**漏洞描述 / Description**:
+The Linux Kernel lockdown mode for kernel versions starting on 6.12 and above for Fedora Linux has the lockdown mode disabled without any warning. This may allow an attacker to gain access to sensitive information such kernel memory mappings, I/O ports, BPF and kprobes. Additionally unsigned modules can be loaded, leading to execution of untrusted code breaking breaking any Secure Boot protection. This vulnerability affects only Fedora Linux.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://access.redhat.com/errata/RHSA-2025:6966.
+
+**参考链接 / References**:
+- https://access.redhat.com/errata/RHSA-2025:6966
+- https://access.redhat.com/security/cve/CVE-2025-1272
+- https://bugzilla.redhat.com/show_bug.cgi?id=2345615
+
+---
+
+#### 1365. CVE-2026-42301
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+pyp2spec generates working Fedora RPM spec file for Python projects. Prior to version 0.14.1, pyp2spec was writing PyPI package metadata (e.g. the summary field) into the generated spec file without escaping RPM macro directives. When a packager then runs rpmbuild, those directives get evaluated, so a malicious package can execute arbitrary commands on the build machine. This issue has been patched in version 0.14.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/befeleme/pyp2spec/releases/tag/v0.14.1.
+
+**参考链接 / References**:
+- https://github.com/befeleme/pyp2spec/releases/tag/v0.14.1
+- https://github.com/befeleme/pyp2spec/security/advisories/GHSA-r35x-v8p8-xvhw
+
+---
+
+#### 1366. CVE-2010-3087
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+**受影响产品 / Affected Products**: opensuse:opensuse, libtiff:libtiff
+
+**漏洞描述 / Description**:
+LibTIFF before 3.9.2-5.2.1 in SUSE openSUSE 11.3 allows remote attackers to cause a denial of service (memory corruption) or possibly execute arbitrary code via a crafted TIFF image.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://blackberry.com/btsc/KB27244.
+
+**参考链接 / References**:
+- http://blackberry.com/btsc/KB27244
+- http://lists.opensuse.org/opensuse-security-announce/2010-09/msg00006.html
+- http://secunia.com/advisories/50726
+- http://security.gentoo.org/glsa/glsa-201209-02.xml
+- http://support.novell.com/security/cve/CVE-2010-3087.html
+
+---
+
+#### 1367. CVE-2010-3110
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: opensuse:opensuse, novell:suse_linux
+
+**漏洞描述 / Description**:
+Multiple buffer overflows in the Novell Client novfs module for the Linux kernel in SUSE Linux Enterprise 11 SP1 and openSUSE 11.3 allow local users to gain privileges via unspecified vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2010-08/msg00000.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2010-08/msg00000.html
+- http://lists.opensuse.org/opensuse-security-announce/2010-08/msg00000.html
+
+---
+
+#### 1368. CVE-2010-3912
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: novell:suse_linux
+
+**漏洞描述 / Description**:
+The supportconfig script in supportutils in SUSE Linux Enterprise 11 SP1 and 10 SP3 does not "disguise passwords" in configuration files, which has unknown impact and attack vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-01/msg00003.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-01/msg00003.html
+- http://osvdb.org/70405
+- http://secunia.com/advisories/42877
+- http://www.vupen.com/english/advisories/2011/0076
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/64690
+
+---
+
+#### 1369. CVE-2011-1550
+
+**严重程度 / Severity**: N/A | CVSS: 6.3
+**受影响产品 / Affected Products**: novell:opensuse_factory, gentoo:logrotate
+
+**漏洞描述 / Description**:
+The default configuration of logrotate on SUSE openSUSE Factory uses root privileges to process files in directories that permit non-root write access, which allows local users to conduct symlink and hard link attacks by leveraging logrotate's lack of support for untrusted directories, as demonstrated by directories for the (1) cobbler, (2) inn, (3) safte-monitor, and (4) uucp packages.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://openwall.com/lists/oss-security/2011/03/04/16.
+
+**参考链接 / References**:
+- http://openwall.com/lists/oss-security/2011/03/04/16
+- http://openwall.com/lists/oss-security/2011/03/04/17
+- http://openwall.com/lists/oss-security/2011/03/04/18
+- http://openwall.com/lists/oss-security/2011/03/04/19
+- http://openwall.com/lists/oss-security/2011/03/04/22
+
+---
+
+#### 1370. CVE-2011-1551
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+**受影响产品 / Affected Products**: novell:opensuse_factory
+
+**漏洞描述 / Description**:
+SUSE openSUSE Factory assigns ownership of the /var/log/cobbler/ directory tree to the web-service user account, which might allow local users to gain privileges by leveraging access to this account during root filesystem operations by the Cobbler daemon.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://openwall.com/lists/oss-security/2011/03/23/11.
+
+**参考链接 / References**:
+- http://openwall.com/lists/oss-security/2011/03/23/11
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/66487
+- http://openwall.com/lists/oss-security/2011/03/23/11
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/66487
+
+---
+
+#### 1371. CVE-2011-0461
+
+**严重程度 / Severity**: N/A | CVSS: 6.3
+**受影响产品 / Affected Products**: opensuse:opensuse
+
+**漏洞描述 / Description**:
+/etc/init.d/boot.localfs in the aaa_base package before 11.2-43.48.1 in SUSE openSUSE 11.2, and before 11.3-8.7.1 in openSUSE 11.3, allows local users to overwrite arbitrary files via a symlink attack on /dev/shm/mtab.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-04/msg00000.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-04/msg00000.html
+- http://lists.opensuse.org/opensuse-security-announce/2011-05/msg00005.html
+- http://lists.opensuse.org/opensuse-updates/2011-03/msg00007.html
+- http://support.novell.com/security/cve/CVE-2011-0461.html
+- https://bugzilla.novell.com/665479
+
+---
+
+#### 1372. CVE-2011-0468
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+**受影响产品 / Affected Products**: opensuse:opensuse
+
+**漏洞描述 / Description**:
+The aaa_base package before 11.3-8.9.1 in SUSE openSUSE 11.3, and before 11.4-54.62.1 in openSUSE 11.4, allows local users to gain privileges via shell metacharacters in a filename, related to tab expansion.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-04/msg00000.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-04/msg00000.html
+- http://lists.opensuse.org/opensuse-updates/2011-03/msg00010.html
+- http://secunia.com/advisories/43825
+- http://support.novell.com/security/cve/CVE-2011-0468.html
+- http://www.osvdb.org/71253
+
+---
+
+#### 1373. CVE-2011-0462
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+**受影响产品 / Affected Products**: novell:opensuse_build_service
+
+**漏洞描述 / Description**:
+Multiple cross-site scripting (XSS) vulnerabilities in the login page in the webui component in SUSE openSUSE Build Service (OBS) before 2.1.6 allow remote attackers to inject arbitrary web script or HTML via unspecified vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://news.opensuse.org/2011/03/02/build-service-team-releases-new-versions-fixing-security-problems/.
+
+**参考链接 / References**:
+- http://news.opensuse.org/2011/03/02/build-service-team-releases-new-versions-fixing-security-problems/
+- https://bugzilla.novell.com/show_bug.cgi?id=669909
+- http://news.opensuse.org/2011/03/02/build-service-team-releases-new-versions-fixing-security-problems/
+- https://bugzilla.novell.com/show_bug.cgi?id=669909
+
+---
+
+#### 1374. CVE-2011-0466
+
+**严重程度 / Severity**: N/A | CVSS: 6.4
+**受影响产品 / Affected Products**: novell:opensuse_build_service
+
+**漏洞描述 / Description**:
+The API in SUSE openSUSE Build Service (OBS) 2.0.x before 2.0.8 and 2.1.x before 2.1.6 allows attackers to bypass intended write-access restrictions and modify a (1) package or (2) project via unspecified vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://news.opensuse.org/2011/03/02/build-service-team-releases-new-versions-fixing-security-problems/.
+
+**参考链接 / References**:
+- http://news.opensuse.org/2011/03/02/build-service-team-releases-new-versions-fixing-security-problems/
+- http://news.opensuse.org/2011/03/02/build-service-team-releases-new-versions-fixing-security-problems/
+
+---
+
+#### 1375. CVE-2011-0988
+
+**严重程度 / Severity**: N/A | CVSS: 4.4
+**受影响产品 / Affected Products**: pureftpd:pure-ftpd, novell:suse_linux
+
+**漏洞描述 / Description**:
+pure-ftpd 1.0.22, as used in SUSE Linux Enterprise Server 10 SP3 and SP4, and Enterprise Desktop 10 SP3 and SP4, when running OES Netware extensions, creates a world-writeable directory, which allows local users to overwrite arbitrary files and gain privileges via unspecified vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/44039.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/44039
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/66618
+- https://hermes.opensuse.org/messages/7849430
+- http://secunia.com/advisories/44039
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/66618
+
+---
+
+#### 1376. CVE-2011-0995
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: rubyforge:rubygem-sqlite3, novell:suse_linux_enterprise
+
+**漏洞描述 / Description**:
+The sqlite3-ruby gem in the rubygem-sqlite3 package before 1.2.4-0.5.1 in SUSE Linux Enterprise (SLE) 11 SP1 uses weak permissions for unspecified files, which allows local users to gain privileges via unknown vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/44418.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/44418
+- http://support.novell.com/security/cve/CVE-2011-0995.html
+- http://www.osvdb.org/72180
+- http://www.securityfocus.com/bid/47694
+- https://bugzilla.novell.com/show_bug.cgi?id=685928
+
+---
+
+#### 1377. CVE-2011-2225
+
+**严重程度 / Severity**: N/A | CVSS: 9.3
+**受影响产品 / Affected Products**: marcus_schafer:kiwi, novell:suse_studio_onsite
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Kiwi before 3.74.2, as used in SUSE Studio 1.1 before 1.1.4, allows attackers to have an unknown impact via a crafted directory pathname that is inserted into config.sh.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html
+- http://support.novell.com/security/cve/CVE-2011-2225.html
+- http://www.securityfocus.com/bid/49236
+- https://bugzilla.novell.com/show_bug.cgi?id=709572
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/69277
+
+---
+
+#### 1378. CVE-2011-2226
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+**受影响产品 / Affected Products**: marcus_schafer:kiwi, novell:suse_studio_onsite
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in Kiwi before 3.74.2, as used in SUSE Studio 1.1 before 1.1.4, allows remote attackers to inject arbitrary web script or HTML via unspecified vectors, related to a pattern listing.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html
+- http://support.novell.com/security/cve/CVE-2011-2226.html
+- http://www.securityfocus.com/bid/49236
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/69278
+- http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html
+
+---
+
+#### 1379. CVE-2011-2644
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+**受影响产品 / Affected Products**: marcus_schafer:kiwi, novell:suse_studio_onsite
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in Kiwi before 3.74.2, as used in SUSE Studio 1.1 before 1.1.4, allows remote attackers to inject arbitrary web script or HTML via unspecified vectors, related to an RPM info display.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html
+- http://support.novell.com/security/cve/CVE-2011-2644.html
+- http://www.securityfocus.com/bid/49236
+- https://bugzilla.novell.com/show_bug.cgi?id=700591
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/69279
+
+---
+
+#### 1380. CVE-2011-2645
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: marcus_schafer:kiwi, novell:suse_studio_onsite
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Kiwi before 3.74.2, as used in SUSE Studio 1.1 before 1.1.4, allows remote attackers to execute arbitrary code via a crafted filename for a custom RPM.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html
+- http://support.novell.com/security/cve/CVE-2011-2645.html
+- http://www.securityfocus.com/bid/49236
+- https://bugzilla.novell.com/show_bug.cgi?id=700948
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/69280
+
+---
+
+#### 1381. CVE-2011-2646
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: marcus_schafer:kiwi, novell:suse_studio_onsite
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Kiwi before 3.74.2, as used in SUSE Studio 1.1 before 1.1.4, allows remote attackers to execute arbitrary code via a crafted filename in the list of testdrive modified files.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html
+- http://support.novell.com/security/cve/CVE-2011-2646.html
+- http://www.securityfocus.com/bid/49236
+- https://bugzilla.novell.com/show_bug.cgi?id=700588
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/69281
+
+---
+
+#### 1382. CVE-2011-2647
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: marcus_schafer:kiwi, novell:suse_studio_onsite
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Kiwi before 3.74.2, as used in SUSE Studio 1.1 before 1.1.4, allows remote attackers to execute arbitrary code via a crafted archive name in the list of testdrive modified files.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html
+- http://support.novell.com/security/cve/CVE-2011-2647.html
+- http://www.securityfocus.com/bid/49236
+- https://bugzilla.novell.com/show_bug.cgi?id=700589
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/69282
+
+---
+
+#### 1383. CVE-2011-2648
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: marcus_schafer:kiwi, novell:suse_studio_onsite
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Kiwi before 3.74.2, as used in SUSE Studio 1.1 before 1.1.4, allows remote attackers to execute arbitrary code via a filter in a modified file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html
+- http://support.novell.com/security/cve/CVE-2011-2648.html
+- http://www.securityfocus.com/bid/49236
+- https://bugzilla.novell.com/show_bug.cgi?id=701814
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/69283
+
+---
+
+#### 1384. CVE-2011-2649
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: marcus_schafer:kiwi, novell:suse_studio_onsite
+
+**漏洞描述 / Description**:
+Kiwi before 3.74.2, as used in SUSE Studio 1.1 before 1.1.4, allows attackers to execute arbitrary commands via shell metacharacters in an unspecified FileUtils function call.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html
+- http://support.novell.com/security/cve/CVE-2011-2649.html
+- http://www.securityfocus.com/bid/49236
+- https://bugzilla.novell.com/show_bug.cgi?id=701815
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/69284
+
+---
+
+#### 1385. CVE-2011-2650
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+**受影响产品 / Affected Products**: marcus_schafer:kiwi, novell:suse_studio_onsite
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in Kiwi before 3.74.2, as used in SUSE Studio 1.1 before 1.1.4, allows remote attackers to inject arbitrary web script or HTML via a crafted pattern name that is included in an RPM info display.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html
+- http://support.novell.com/security/cve/CVE-2011-2650.html
+- http://www.securityfocus.com/bid/49236
+- https://bugzilla.novell.com/show_bug.cgi?id=701816
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/69285
+
+---
+
+#### 1386. CVE-2011-2651
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: marcus_schafer:kiwi, novell:suse_studio_onsite
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in the file browser in Kiwi before 3.74.2, as used in SUSE Studio 1.1 before 1.1.4, allows remote attackers to execute arbitrary code via a crafted filename.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html
+- http://support.novell.com/security/cve/CVE-2011-2651.html
+- http://www.securityfocus.com/bid/49236
+- https://bugzilla.novell.com/show_bug.cgi?id=702041
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/69286
+
+---
+
+#### 1387. CVE-2011-2652
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+**受影响产品 / Affected Products**: marcus_schafer:kiwi, novell:suse_studio_onsite
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in Kiwi before 3.74.2, as used in SUSE Studio 1.1 before 1.1.4, allows remote attackers to inject arbitrary web script or HTML via a crafted archive file list that is used in an overlay file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00013.html
+- http://support.novell.com/security/cve/CVE-2011-2652.html
+- http://www.securityfocus.com/bid/49236
+- https://bugzilla.novell.com/show_bug.cgi?id=702320
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/69287
+
+---
+
+#### 1388. CVE-2011-2660
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: suse:vpnc, suse:linux_enterprise_desktop
+
+**漏洞描述 / Description**:
+The modify_resolvconf_suse script in the vpnc package before 0.5.1-55.10.1 in SUSE Linux Enterprise Desktop 11 SP1 might allow remote attackers to execute arbitrary commands via a crafted DNS domain name.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00028.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00028.html
+- http://lists.opensuse.org/opensuse-security-announce/2011-08/msg00029.html
+- http://www.securityfocus.com/bid/49391
+- https://bugzilla.novell.com/651577
+- https://bugzilla.novell.com/708656
+
+---
+
+#### 1389. CVE-2011-3171
+
+**严重程度 / Severity**: N/A | CVSS: 3.6
+**受影响产品 / Affected Products**: suse:linux_enterprise_server, suse:linux_enterprise_desktop, pureftpd:pure-ftpd
+
+**漏洞描述 / Description**:
+Directory traversal vulnerability in pure-FTPd 1.0.22 and possibly other versions, when running on SUSE Linux Enterprise Server and possibly other operating systems, when the Netware OES remote server feature is enabled, allows local users to overwrite arbitrary files via unknown vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-09/msg00015.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-09/msg00015.html
+- http://lists.opensuse.org/opensuse-security-announce/2011-09/msg00016.html
+- http://www.securityfocus.com/bid/49541
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/69686
+- http://lists.opensuse.org/opensuse-security-announce/2011-09/msg00015.html
+
+---
+
+#### 1390. CVE-2012-0421
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: novell:suse_audit_log_keeper
+
+**漏洞描述 / Description**:
+The SUSE Audit Log Keeper daemon before 0.2.1-0.4.6.1 for SUSE Manager and Spacewalk uses world-readable permissions for /etc/auditlog-keeper.conf, which allows local users to obtain passwords by reading this file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2012-08/msg00001.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2012-08/msg00001.html
+- https://bugzilla.novell.com/771335
+- http://lists.opensuse.org/opensuse-security-announce/2012-08/msg00001.html
+- https://bugzilla.novell.com/771335
+
+---
+
+#### 1391. CVE-2012-0435
+
+**严重程度 / Severity**: N/A | CVSS: 5.8
+**受影响产品 / Affected Products**: suse:webyast
+
+**漏洞描述 / Description**:
+SUSE WebYaST before 1.2 0.2.63-0.6.1 allows remote attackers to modify the hosts list, and subsequently conduct man-in-the-middle attacks, via a crafted /host request on TCP port 4984.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2013-01/msg00008.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2013-01/msg00008.html
+- http://support.novell.com/security/cve/CVE-2012-0435.html
+- http://www.kb.cert.org/vuls/id/806908
+- https://bugzilla.novell.com/show_bug.cgi?id=792712
+- http://lists.opensuse.org/opensuse-security-announce/2013-01/msg00008.html
+
+---
+
+#### 1392. CVE-2013-0221
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+**受影响产品 / Affected Products**: opensuse:opensuse, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The SUSE coreutils-i18n.patch for GNU coreutils allows context-dependent attackers to cause a denial of service (segmentation fault and crash) via a long string to the sort command, when using the (1) -d or (2) -M switch, which triggers a stack-based buffer overflow in the alloca function.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-1652.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-1652.html
+- https://bugzilla.novell.com/show_bug.cgi?id=798538
+- https://bugzilla.redhat.com/show_bug.cgi?id=903464
+- https://build.opensuse.org/request/show/149348#diff_headline_coreutils-i18n-patch_diff_action_0_submit_0_19
+- http://rhn.redhat.com/errata/RHSA-2013-1652.html
+
+---
+
+#### 1393. CVE-2013-0222
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: opensuse:opensuse, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The SUSE coreutils-i18n.patch for GNU coreutils allows context-dependent attackers to cause a denial of service (segmentation fault and crash) via a long string to the uniq command, which triggers a stack-based buffer overflow in the alloca function.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-1652.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-1652.html
+- https://bugzilla.novell.com/show_bug.cgi?id=796243
+- https://bugzilla.redhat.com/show_bug.cgi?id=903465
+- https://build.opensuse.org/request/show/149348#diff_headline_coreutils-i18n-patch_diff_action_0_submit_0_19
+- http://rhn.redhat.com/errata/RHSA-2013-1652.html
+
+---
+
+#### 1394. CVE-2013-0223
+
+**严重程度 / Severity**: N/A | CVSS: 1.9
+**受影响产品 / Affected Products**: opensuse:opensuse, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The SUSE coreutils-i18n.patch for GNU coreutils allows context-dependent attackers to cause a denial of service (segmentation fault and crash) via a long string to the join command, when using the -i switch, which triggers a stack-based buffer overflow in the alloca function.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-1652.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-1652.html
+- https://bugzilla.novell.com/show_bug.cgi?id=798541
+- https://bugzilla.redhat.com/show_bug.cgi?id=903466
+- https://build.opensuse.org/request/show/149348#diff_headline_coreutils-i18n-patch_diff_action_0_submit_0_19
+- http://rhn.redhat.com/errata/RHSA-2013-1652.html
+
+---
+
+#### 1395. CVE-2012-0414
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+**受影响产品 / Affected Products**: novell:suse_manager, novell:suse_linux
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in the Spacewalk service in SUSE Manager 1.2 for SUSE Linux Enterprise (SLE) 11 SP1 allows remote attackers to inject arbitrary web script or HTML via an image name.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://support.novell.com/docs/Readmes/InfoDocument/patchbuilder/readme_5145796.html.
+
+**参考链接 / References**:
+- http://support.novell.com/docs/Readmes/InfoDocument/patchbuilder/readme_5145796.html
+- https://bugzilla.novell.com/show_bug.cgi?id=761165
+- https://support.novell.com/security/cve/CVE-2012-0414.html
+- http://support.novell.com/docs/Readmes/InfoDocument/patchbuilder/readme_5145796.html
+- https://bugzilla.novell.com/show_bug.cgi?id=761165
+
+---
+
+#### 1396. CVE-2012-0420
+
+**严重程度 / Severity**: N/A | CVSS: 4.4
+**受影响产品 / Affected Products**: opensuse:zypper
+
+**漏洞描述 / Description**:
+zypp-refresh-wrapper in SUSE Zypper before 1.3.20 and 1.6.x before 1.6.166 allows local users to create files in arbitrary directories, or possibly have unspecified other impact, via a pathname in the ZYPP_LOCKFILE_ROOT environment variable.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.novell.com/show_bug.cgi?id=770630.
+
+**参考链接 / References**:
+- https://bugzilla.novell.com/show_bug.cgi?id=770630
+- https://support.novell.com/security/cve/CVE-2012-0420.html
+- https://bugzilla.novell.com/show_bug.cgi?id=770630
+- https://support.novell.com/security/cve/CVE-2012-0420.html
+
+---
+
+#### 1397. CVE-2012-0425
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+**受影响产品 / Affected Products**: opensuse:opensuse
+
+**漏洞描述 / Description**:
+LanItems.ycp in save_y2logs in yast2-network before 2.24.4 in SUSE YaST writes cleartext Wi-Fi credentials to the y2log log file, which allows context-dependent attackers to obtain sensitive information by reading the (1) WIRELESS_WPA_PASSWORD or (2) WIRELESS_CLIENT_KEY_PASSWORD field.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.novell.com/show_bug.cgi?id=752464.
+
+**参考链接 / References**:
+- https://bugzilla.novell.com/show_bug.cgi?id=752464
+- https://support.novell.com/security/cve/CVE-2012-0425.html
+- https://bugzilla.novell.com/show_bug.cgi?id=752464
+- https://support.novell.com/security/cve/CVE-2012-0425.html
+
+---
+
+#### 1398. CVE-2012-0426
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: novell:suse_linux_enterprise_for_sap_applications
+
+**漏洞描述 / Description**:
+Race condition in sap_suse_cluster_connector before 1.0.0-0.8.1 in SUSE Linux Enterprise for SAP Applications 11 SP2 allows local users to have an unspecified impact via vectors related to a tmp/ directory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://download.novell.com/Download?buildid=DshQViDsMLE~.
+
+**参考链接 / References**:
+- http://download.novell.com/Download?buildid=DshQViDsMLE~
+- https://bugzilla.novell.com/show_bug.cgi?id=763793
+- https://bugzilla.novell.com/show_bug.cgi?id=777453
+- https://bugzilla.novell.com/show_bug.cgi?id=778273
+- https://bugzilla.novell.com/show_bug.cgi?id=778293
+
+---
+
+#### 1399. CVE-2012-0427
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: opensuse:opensuse
+
+**漏洞描述 / Description**:
+yast2-add-on-creator in SUSE inst-source-utils 2008.11.26 before 2008.11.26-0.9.1 and 2012.9.13 before 2012.9.13-0.8.1 allows local users to gain privileges via a crafted (1) file name or (2) directory name.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://download.novell.com/Download?buildid=tGCXHQR48E4~.
+
+**参考链接 / References**:
+- http://download.novell.com/Download?buildid=tGCXHQR48E4~
+- https://bugzilla.novell.com/show_bug.cgi?id=604730
+- https://support.novell.com/security/cve/CVE-2012-0427.html
+- http://download.novell.com/Download?buildid=tGCXHQR48E4~
+- https://bugzilla.novell.com/show_bug.cgi?id=604730
+
+---
+
+#### 1400. CVE-2012-0434
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: novell:suse_cloud
+
+**漏洞描述 / Description**:
+The server in Crowbar, as used in SUSE Cloud 1.0, uses weak permissions for the production.log file, which has unspecified impact and attack vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.novell.com/show_bug.cgi?id=784857.
+
+**参考链接 / References**:
+- https://bugzilla.novell.com/show_bug.cgi?id=784857
+- https://support.novell.com/security/cve/CVE-2012-0434.html
+- https://www.suse.com/support/update/announcement/2013/suse-ru-20130020-1.html
+- https://bugzilla.novell.com/show_bug.cgi?id=784857
+- https://support.novell.com/security/cve/CVE-2012-0434.html
+
+---
+
+#### 1401. CVE-2013-1090
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: opensuse:opensuse
+
+**漏洞描述 / Description**:
+The SUSE horde5 package before 5.0.2-2.4.1 sets incorrect ownership for certain configuration files and directories including /etc/apache2/vhosts.d, which allows local wwwrun users to gain privileges via unspecified vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-updates/2013-12/msg00025.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-updates/2013-12/msg00025.html
+- https://bugzilla.novell.com/show_bug.cgi?id=811369
+- http://lists.opensuse.org/opensuse-updates/2013-12/msg00025.html
+- https://bugzilla.novell.com/show_bug.cgi?id=811369
+
+---
+
+#### 1402. CVE-2013-3710
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+**受影响产品 / Affected Products**: novell:suse_lifecycle_management_server
+
+**漏洞描述 / Description**:
+SUSE Lifecycle Management Server (SLMS) before 1.3.7 does not generate a new secret key when the service starts, which allows remote attackers to defeat intended cryptographic protection mechanisms by leveraging knowledge of this key from a product installation elsewhere.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/100653.
+
+**参考链接 / References**:
+- http://osvdb.org/100653
+- https://bugzilla.novell.com/show_bug.cgi?id=852101
+- https://www.suse.com/support/update/announcement/2013/suse-su-20131813-1.html
+- http://osvdb.org/100653
+- https://bugzilla.novell.com/show_bug.cgi?id=852101
+
+---
+
+#### 1403. CVE-2013-7042
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: novell:suse_lifecycle_management_server
+
+**漏洞描述 / Description**:
+SUSE Lifecycle Management Server (SLMS) before 1.3.7 uses world-readable permissions for the secret keys, which allows local users to gain privileges via unspecified vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/100652.
+
+**参考链接 / References**:
+- http://osvdb.org/100652
+- https://bugzilla.novell.com/show_bug.cgi?id=852101
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/89897
+- https://www.suse.com/support/update/announcement/2013/suse-su-20131813-1.html
+- http://osvdb.org/100652
+
+---
+
+#### 1404. CVE-2013-3712
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: suse:studio_onsite, suse:studio_extension_for_system_z
+
+**漏洞描述 / Description**:
+SUSE Studio Onsite 1.3.x before 1.3.6 and SUSE Studio Extension for System z 1.3 uses "static" secret tokens, which has unspecified impact and vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/57050.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/57050
+- https://www.suse.com/support/update/announcement/2014/suse-su-20140254-1.html
+- http://secunia.com/advisories/57050
+- https://www.suse.com/support/update/announcement/2014/suse-su-20140254-1.html
+
+---
+
+#### 1405. CVE-2014-0592
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: crowbar:barclamp, novell:suse_cloud
+
+**漏洞描述 / Description**:
+Barclamp (aka barclamp-network) 1.7 for the Crowbar Framework, as used in SUSE Cloud 3, does not enable netfilter on bridges when creating new instances, which allows remote attackers to bypass security group restrictions via unspecified vectors, related to floating IPs.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2014-03/msg00025.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2014-03/msg00025.html
+- http://secunia.com/advisories/57509
+- http://www.securityfocus.com/bid/66519
+- https://bugzilla.novell.com/show_bug.cgi?id=864183
+- https://github.com/crowbar/barclamp-network/pull/269
+
+---
+
+#### 1406. CVE-2011-0993
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: novell:suse_lifecycle_management_server
+
+**漏洞描述 / Description**:
+SUSE Lifecycle Management Server before 1.1 uses world readable postgres credentials, which allows local users to obtain sensitive information via unspecified vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-04/msg00005.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-04/msg00005.html
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/95697
+- http://lists.opensuse.org/opensuse-security-announce/2011-04/msg00005.html
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/95697
+
+---
+
+#### 1407. CVE-2011-3180
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: suse:studio_onsite, suse:studio_extension_for_system_z, suse:kiwi
+
+**漏洞描述 / Description**:
+kiwi before 4.98.08, as used in SUSE Studio Onsite 1.2 before 1.2.1 and SUSE Studio Extension for System z 1.2 before 1.2.1, allows attackers to execute arbitrary commands via shell metacharacters in the path of an overlay file, related to chown.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-12/msg00015.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-12/msg00015.html
+- http://www.openwall.com/lists/oss-security/2011/11/02/4
+- https://github.com/openSUSE/kiwi/commit/f0f74b3f6ac6d47f7919aa9db380c0ad41ffe55f#
+- http://lists.opensuse.org/opensuse-security-announce/2011-12/msg00015.html
+- http://www.openwall.com/lists/oss-security/2011/11/02/4
+
+---
+
+#### 1408. CVE-2011-4192
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: suse:studio_onsite, suse:studio_extension_for_system_z, suse:kiwi
+
+**漏洞描述 / Description**:
+kiwi before 4.85.1, as used in SUSE Studio Onsite 1.2 before 1.2.1 and SUSE Studio Extension for System z 1.2 before 1.2.1, allows attackers to execute arbitrary commands as demonstrated by "double quotes in kiwi_oemtitle of .profile."
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-12/msg00015.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-12/msg00015.html
+- http://lists.opensuse.org/opensuse-security-announce/2011-12/msg00015.html
+
+---
+
+#### 1409. CVE-2011-4193
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+**受影响产品 / Affected Products**: suse:studio_onsite, suse:studio_extension_for_system_z
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in the overlay files tab in SUSE Studio Onsite 1.2 before 1.2.1 and SUSE Studio Extension for System z 1.2 before 1.2.1 allows remote attackers to inject arbitrary web script or HTML via a crafted application, related to cloning.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-12/msg00015.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-12/msg00015.html
+- http://lists.opensuse.org/opensuse-security-announce/2011-12/msg00015.html
+
+---
+
+#### 1410. CVE-2011-4195
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: suse:studio_onsite, suse:studio_extension_for_system_z, suse:kiwi
+
+**漏洞描述 / Description**:
+kiwi before 4.98.05, as used in SUSE Studio Onsite 1.2 before 1.2.1 and SUSE Studio Extension for System z 1.2 before 1.2.1, allows attackers to execute arbitrary commands via shell metacharacters in an image name.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2011-12/msg00015.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-12/msg00015.html
+- http://www.openwall.com/lists/oss-security/2011/11/02/4
+- https://github.com/openSUSE/kiwi/commit/88bf491d16942766016c606e4210b4e072c1019f
+- http://lists.opensuse.org/opensuse-security-announce/2011-12/msg00015.html
+- http://www.openwall.com/lists/oss-security/2011/11/02/4
+
+---
+
+#### 1411. CVE-2015-0777
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: xen:xen, linux:linux_kernel
+
+**漏洞描述 / Description**:
+drivers/xen/usbback/usbback.c in linux-2.6.18-xen-3.4.0 (aka the Xen 3.4.x support patches for the Linux kernel 2.6.18), as used in the Linux kernel 2.6.x and 3.x in SUSE Linux distributions, allows guest OS users to obtain sensitive information from uninitialized locations in host OS kernel memory via unspecified vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2015-04/msg00001.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2015-04/msg00001.html
+- http://lists.opensuse.org/opensuse-security-announce/2015-09/msg00004.html
+- http://lists.opensuse.org/opensuse-security-announce/2015-09/msg00018.html
+- http://lists.opensuse.org/opensuse-security-announce/2015-09/msg00021.html
+- http://www.securityfocus.com/bid/73921
+
+---
+
+#### 1412. CVE-2015-5969
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.2
+**受影响产品 / Affected Products**: suse:linux_enterprise_workstation_extension, opensuse:leap, suse:linux_enterprise_server, opensuse:opensuse, suse:linux_enterprise_desktop
+
+**漏洞描述 / Description**:
+The mysql-systemd-helper script in the mysql-community-server package before 5.6.28-2.17.1 in openSUSE 13.2 and before 5.6.28-13.1 in openSUSE Leap 42.1 and the mariadb package before 10.0.22-2.21.2 in openSUSE 13.2 and before 10.0.22-3.1 in SUSE Linux Enterprise (SLE) 12.1 and openSUSE Leap 42.1 allows local users to discover database credentials by listing a process and its arguments.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2016-02/msg00015.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2016-02/msg00015.html
+- http://lists.opensuse.org/opensuse-updates/2016-02/msg00039.html
+- http://lists.opensuse.org/opensuse-updates/2016-02/msg00050.html
+- https://bugzilla.suse.com/957174
+- https://www.suse.com/support/update/announcement/2016/suse-su-20160296-1.html
+
+---
+
+#### 1413. CVE-2016-4036
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: opensuse:opensuse, opensuse:leap
+
+**漏洞描述 / Description**:
+The quagga package before 0.99.23-2.6.1 in openSUSE and SUSE Linux Enterprise Server 11 SP 1 uses weak permissions for /etc/quagga, which allows local users to obtain sensitive information by reading files in the directory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-updates/2016-04/msg00040.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-updates/2016-04/msg00040.html
+- http://www.debian.org/security/2016/dsa-3654
+- http://www.securityfocus.com/bid/87324
+- https://bugzilla.suse.com/show_bug.cgi?id=770619
+- http://lists.opensuse.org/opensuse-updates/2016-04/msg00040.html
+
+---
+
+#### 1414. CVE-2016-1601
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: suse:linux_enterprise_desktop, suse:linux_enterprise_server, suse:yast2, suse:linux_enterprise_software_development_kit
+
+**漏洞描述 / Description**:
+yast2-users before 3.1.47, as used in SUSE Linux Enterprise 12 SP1, does not properly set empty password fields in /etc/shadow during an AutoYaST installation when the profile does not contain inst-sys users, which might allow attackers to have unspecified impact via unknown vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00051.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00051.html
+- http://lists.opensuse.org/opensuse-security-announce/2016-05/msg00007.html
+- https://bugzilla.suse.com/show_bug.cgi?id=974220
+- https://build.opensuse.org/request/show/388020
+- http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00051.html
+
+---
+
+#### 1415. CVE-2016-1602
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: suse:linux_enterprise_server, suse:linux_enterprise_desktop, suse:suse_linux_enterprise_server
+
+**漏洞描述 / Description**:
+A code injection in the supportconfig data collection tool in supportutils in SUSE Linux Enterprise Server 12 and 12-SP1 and SUSE Linux Enterprise Desktop 12 and 12-SP1 could be used by local attackers to execute code as the user running supportconfig (usually root).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.suse.com/pipermail/sle-security-updates/2016-June/002096.html.
+
+**参考链接 / References**:
+- http://lists.suse.com/pipermail/sle-security-updates/2016-June/002096.html
+- http://lists.suse.com/pipermail/sle-security-updates/2016-June/002096.html
+
+---
+
+#### 1416. CVE-2017-15638
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+**受影响产品 / Affected Products**: opensuse:leap, suse:susefirewall2, suse:linux_enterprise_server, suse:linux_enterprise_server_for_raspberry_pi, suse:linux_enterprise_desktop
+
+**漏洞描述 / Description**:
+The SuSEfirewall2 package before 3.6.312-2.13.1 in SUSE Linux Enterprise (SLE) Desktop 12 SP2, Server 12 SP2, and Server for Raspberry Pi 12 SP2; before 3.6.312.333-3.10.1 in SLE Desktop 12 SP3 and Server 12 SP3; before 3.6_SVNr208-2.18.3.1 in SLE Server 11 SP4; before 3.6.312-5.9.1 in openSUSE Leap 42.2; and before 3.6.312.333-7.1 in openSUSE Leap 42.3 might allow remote attackers to bypass intended access restrictions on the portmap service by leveraging a missing source net restriction for _rpc_ services.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-updates/2017-11/msg00014.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-updates/2017-11/msg00014.html
+- http://lists.opensuse.org/opensuse-updates/2017-11/msg00014.html
+
+---
+
+#### 1417. CVE-2017-1711
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: ibm:notes, ibm:client_application_access
+
+**漏洞描述 / Description**:
+IBM iNotes 8.5 and 9.0 SUService can be misguided into running malicious code from a DLL masquerading as a windows DLL in the temp directory. IBM X-Force ID: 134532.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.ibm.com/support/docview.wss?uid=swg22010774.
+
+**参考链接 / References**:
+- http://www.ibm.com/support/docview.wss?uid=swg22010774
+- http://www.ibm.com/support/docview.wss?uid=swg22010775
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/134532
+- http://www.ibm.com/support/docview.wss?uid=swg22010774
+- http://www.ibm.com/support/docview.wss?uid=swg22010775
+
+---
+
+#### 1418. CVE-2018-8059
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+**受影响产品 / Affected Products**: suse:portus
+
+**漏洞描述 / Description**:
+The Djelibeybi configuration examples for use of NGINX in SUSE Portus 2.3, when applied to certain configurations involving Docker Compose, have a Missing SSL Certificate Validation issue because no proxy_ssl_* directives are used.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://openwall.com/lists/oss-security/2018/03/07/4.
+
+**参考链接 / References**:
+- http://openwall.com/lists/oss-security/2018/03/07/4
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/140144
+- http://openwall.com/lists/oss-security/2018/03/07/4
+
+---
+
+#### 1419. CVE-2011-0467
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+**受影响产品 / Affected Products**: suse:studio_onsite, suse:studio_onsite_appliance
+
+**漏洞描述 / Description**:
+A vulnerability in the listing of available software of SUSE Studio Onsite, SUSE Studio Onsite 1.1 Appliance allows authenticated users to execute arbitrary SQL statements via SQL injection. Affected releases are SUSE Studio Onsite: versions prior to 1.0.3-0.18.1, SUSE Studio Onsite 1.1 Appliance: versions prior to 1.1.2-0.25.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=675039.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=675039
+- https://www.suse.com/security/cve/CVE-2011-0467/
+- https://bugzilla.suse.com/show_bug.cgi?id=675039
+- https://www.suse.com/security/cve/CVE-2011-0467/
+
+---
+
+#### 1420. CVE-2011-3172
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.4
+**受影响产品 / Affected Products**: suse:suse_linux_enterprise_server
+
+**漏洞描述 / Description**:
+A vulnerability in pam_modules of SUSE Linux Enterprise allows attackers to log into accounts that should have been disabled. Affected releases are SUSE Linux Enterprise: versions prior to 12.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=707645.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=707645
+- https://build.opensuse.org/request/show/80346
+- https://bugzilla.suse.com/show_bug.cgi?id=707645
+- https://build.opensuse.org/request/show/80346
+
+---
+
+#### 1421. CVE-2011-4190
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.9
+**受影响产品 / Affected Products**: suse:suse_linux_enterprise_server, suse:suse_linux_enterprise_desktop
+
+**漏洞描述 / Description**:
+The kdump implementation is missing the host key verification in the kdump and mkdumprd OpenSSH integration of kdump prior to version 2012-01-20. This is similar to CVE-2011-3588, but different in that the kdump implementation is specific to SUSE. A remote malicious kdump server could use this flaw to impersonate the correct kdump server to obtain security sensitive information (kdump core files).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=722440.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=722440
+- https://www.suse.com/security/cve/CVE-2011-4190/
+- https://bugzilla.suse.com/show_bug.cgi?id=722440
+- https://www.suse.com/security/cve/CVE-2011-4190/
+
+---
+
+#### 1422. CVE-2011-4181
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: opensuse:open_build_service
+
+**漏洞描述 / Description**:
+A vulnerability in open build service allows remote attackers to gain access to source files even though source access is disabled. Affected releases are SUSE open build service up to and including version 2.1.15 (for 2.1) and before version 2.3.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=734003.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=734003
+- https://github.com/openSUSE/open-build-service/commit/5281e4bff9df31f1f91e22a0d1e9086b93b23d7e
+- https://bugzilla.suse.com/show_bug.cgi?id=734003
+- https://github.com/openSUSE/open-build-service/commit/5281e4bff9df31f1f91e22a0d1e9086b93b23d7e
+
+---
+
+#### 1423. CVE-2011-4182
+
+**严重程度 / Severity**: HIGH | CVSS: 7.3
+**受影响产品 / Affected Products**: opensuse:sysconfig
+
+**漏洞描述 / Description**:
+Missing escaping of ESSID values in sysconfig of SUSE Linux Enterprise allows attackers controlling an access point to cause execute arbitrary code. Affected releases are sysconfig prior to 0.83.7-2.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=735394.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=735394
+- https://www.suse.com/security/cve/CVE-2017-15710/
+- https://bugzilla.suse.com/show_bug.cgi?id=735394
+- https://www.suse.com/security/cve/CVE-2017-15710/
+
+---
+
+#### 1424. CVE-2011-4183
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+**受影响产品 / Affected Products**: opensuse:open_build_service
+
+**漏洞描述 / Description**:
+A vulnerability in open build service allows remote attackers to upload arbitrary RPM files. Affected releases are SUSE open build service prior to 2.1.16.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=736243.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=736243
+- https://github.com/openSUSE/open-build-service/commit/5281e4bff9df31f1f91e22a0d1e9086b93b23d7e
+- https://bugzilla.suse.com/show_bug.cgi?id=736243
+- https://github.com/openSUSE/open-build-service/commit/5281e4bff9df31f1f91e22a0d1e9086b93b23d7e
+
+---
+
+#### 1425. CVE-2018-16588
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: suse:linux_enterprise, suse:shadow
+
+**漏洞描述 / Description**:
+Privilege escalation can occur in the SUSE useradd.c code in useradd, as distributed in the SUSE shadow package through 4.2.1-27.9.1 for SUSE Linux Enterprise 12 (SLE-12) and through 4.5-5.39 for SUSE Linux Enterprise 15 (SLE-15). Non-existing intermediate directories are created with mode 0777 during user creation. Given that they are world-writable, local attackers might use this for privilege escalation and other unspecified attacks.  NOTE: this would affect non-SUSE users who took useradd.c code from a 2014-04-02 upstream pull request; however, no non-SUSE distribution is known to be affected.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2018-09/msg00073.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2018-09/msg00073.html
+- http://lists.opensuse.org/opensuse-security-announce/2018-09/msg00073.html
+
+---
+
+#### 1426. CVE-2018-12470
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: suse:subscription_management_tool
+
+**漏洞描述 / Description**:
+A SQL Injection in the RegistrationSharing module of SUSE Linux SMT allows remote attackers to cause execute arbitrary SQL statements. Affected releases are SUSE Linux SMT: versions prior to 3.0.37.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1103810.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1103810
+- https://bugzilla.suse.com/show_bug.cgi?id=1103810
+
+---
+
+#### 1427. CVE-2018-12471
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+**受影响产品 / Affected Products**: suse:subscription_management_tool
+
+**漏洞描述 / Description**:
+A External Entity Reference ('XXE') vulnerability in SUSE Linux SMT allows remote attackers to read data from the server or cause DoS by referencing blocking elements. Affected releases are SUSE Linux SMT: versions prior to 3.0.37.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1103809.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1103809
+- https://bugzilla.suse.com/show_bug.cgi?id=1103809
+
+---
+
+#### 1428. CVE-2018-12472
+
+**严重程度 / Severity**: HIGH | CVSS: 7.3
+**受影响产品 / Affected Products**: suse:subscription_management_tool
+
+**漏洞描述 / Description**:
+A improper authentication using the HOST header in SUSE Linux SMT allows remote attackers to spoof a sibling server. Affected releases are SUSE Linux SMT: versions prior to 3.0.37.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1104076.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1104076
+- https://bugzilla.suse.com/show_bug.cgi?id=1104076
+
+---
+
+#### 1429. CVE-2018-17953
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: suse:linux_enterprise, kernel:linux-pam, opensuse:leap
+
+**漏洞描述 / Description**:
+A incorrect variable in a SUSE specific patch for pam_access rule matching in PAM 1.3.0 in openSUSE Leap 15.0 and SUSE Linux Enterprise 15 could lead to pam_access rules not being applied (fail open).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1115640.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1115640
+- https://bugzilla.suse.com/show_bug.cgi?id=1115640
+
+---
+
+#### 1430. CVE-2018-17957
+
+**严重程度 / Severity**: LOW | CVSS: 3.4
+**受影响产品 / Affected Products**: suse:repository_mirroring_tool
+
+**漏洞描述 / Description**:
+The YaST2 RMT module for configuring the SUSE Repository Mirroring Tool (RMT) before 1.1.2 exposed MySQL database passwords on process commandline, allowing local attackers to access or corrupt the RMT database.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1117602.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1117602
+- https://lists.opensuse.org/opensuse-security-announce/2018-12/msg00068.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1117602
+- https://lists.opensuse.org/opensuse-security-announce/2018-12/msg00068.html
+
+---
+
+#### 1431. CVE-2019-3684
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.9
+**受影响产品 / Affected Products**: suse:manager
+
+**漏洞描述 / Description**:
+SUSE Manager until version 4.0.7 and Uyuni until commit 1b426ad5ed0a7191a6fb46bb83e98ae4b99a5ade created world-readable swap files on systems that don't have a swap already configured and don't have btrfs as filesystem
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1131954.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1131954
+- https://bugzilla.suse.com/show_bug.cgi?id=1131954
+
+---
+
+#### 1432. CVE-2019-3689
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.1
+**受影响产品 / Affected Products**: suse:linux_enterprise_server, linux-nfs:nfs-utils
+
+**漏洞描述 / Description**:
+The nfs-utils package in SUSE Linux Enterprise Server 12 before and including version 1.3.0-34.18.1 and in SUSE Linux Enterprise Server 15 before and including version 2.1.1-6.10.2 the directory /var/lib/nfs is owned by statd:nogroup. This directory contains files owned and managed by root. If statd is compromised, it can therefore trick processes running with root privileges into creating/overwriting files anywhere on the system.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2019-10/msg00071.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2019-10/msg00071.html
+- http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00006.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1150733
+- https://git.linux-nfs.org/?p=steved/nfs-utils.git%3Ba=commitdiff%3Bh=fee2cc29e888f2ced6a76990923aef19d326dc0e
+- https://lists.debian.org/debian-lts-announce/2019/10/msg00026.html
+
+---
+
+#### 1433. CVE-2019-3688
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.1
+**受影响产品 / Affected Products**: suse:suse_linux_enterprise_server
+
+**漏洞描述 / Description**:
+The /usr/sbin/pinger binary packaged with squid in SUSE Linux Enterprise Server 15 before and including version 4.8-5.8.1 and in SUSE Linux Enterprise Server 12 before and including 3.5.21-26.17.1 had squid:root, 0750 permissions. This allowed an attacker that compromissed the squid user to gain persistence by changing the binary
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00053.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00053.html
+- http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00056.html
+- http://lists.opensuse.org/opensuse-security-announce/2019-12/msg00024.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1093414
+- http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00053.html
+
+---
+
+#### 1434. CVE-2019-3682
+
+**严重程度 / Severity**: HIGH | CVSS: 8.4
+**受影响产品 / Affected Products**: suse:caas_platform
+
+**漏洞描述 / Description**:
+The docker-kubic package in SUSE CaaS Platform 3.0 before 17.09.1_ce-7.6.1 provided access to an insecure API locally on the Kubernetes master node.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1121148.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1121148
+- https://bugzilla.suse.com/show_bug.cgi?id=1121148
+
+---
+
+#### 1435. CVE-2019-3683
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+**受影响产品 / Affected Products**: suse:openstack_cloud, suse:keystone-json-assignment, hp:helion_openstack
+
+**漏洞描述 / Description**:
+The keystone-json-assignment package in SUSE Openstack Cloud 8 before commit d7888c75505465490250c00cc0ef4bb1af662f9f every user listed in the /etc/keystone/user-project-map.json was assigned full "member" role access to every project. This allowed these users to access, modify, create and delete arbitrary resources, contrary to expectations.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1124864.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1124864
+- https://www.suse.com/security/cve/CVE-2019-3683/
+- https://bugzilla.suse.com/show_bug.cgi?id=1124864
+
+---
+
+#### 1436. CVE-2019-18898
+
+**严重程度 / Severity**: HIGH | CVSS: 7.7
+**受影响产品 / Affected Products**: opensuse:leap, suse:trousers, suse:suse_linux_enterprise_server, suse:opensuse_factory
+
+**漏洞描述 / Description**:
+UNIX Symbolic Link (Symlink) Following vulnerability in the trousers package of SUSE Linux Enterprise Server 15 SP1; openSUSE Factory allowed local attackers escalate privileges from user tss to root. This issue affects: SUSE Linux Enterprise Server 15 SP1 trousers versions prior to 0.3.14-6.3.1. openSUSE Factory trousers versions prior to 0.3.14-7.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2020-05/msg00066.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-05/msg00066.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1157651
+- http://lists.opensuse.org/opensuse-security-announce/2020-05/msg00066.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1157651
+
+---
+
+#### 1437. CVE-2019-3691
+
+**严重程度 / Severity**: HIGH | CVSS: 7.7
+**受影响产品 / Affected Products**: opensuse:factory, suse:suse_linux_enterprise_server, opensuse:munge
+
+**漏洞描述 / Description**:
+A Symbolic Link (Symlink) Following vulnerability in the packaging of munge in SUSE Linux Enterprise Server 15; openSUSE Factory allowed local attackers to escalate privileges from user munge to root. This issue affects: SUSE Linux Enterprise Server 15 munge versions prior to 0.5.13-4.3.1. openSUSE Factory munge versions prior to 0.5.13-6.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1155075.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1155075
+- https://bugzilla.suse.com/show_bug.cgi?id=1155075
+
+---
+
+#### 1438. CVE-2019-3687
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.0
+**受影响产品 / Affected Products**: suse:linux_enterprise_server
+
+**漏洞描述 / Description**:
+The permission package in SUSE Linux Enterprise Server allowed all local users to run dumpcap in the "easy" permission profile and sniff network traffic. This issue affects: SUSE Linux Enterprise Server permissions versions starting from 85c83fef7e017f8ab7f8602d3163786d57344439 to 081d081dcfaf61710bda34bc21c80c66276119aa.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00010.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00010.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1148788
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00010.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1148788
+
+---
+
+#### 1439. CVE-2019-3692
+
+**严重程度 / Severity**: HIGH | CVSS: 7.7
+**受影响产品 / Affected Products**: opensuse:leap, suse:linux_enterprise_server, opensuse:factory, opensuse:backports_sle, suse:inn
+
+**漏洞描述 / Description**:
+The packaging of inn on SUSE Linux Enterprise Server 11; openSUSE Factory, Leap 15.1 allows local attackers to escalate from user inn to root via symlink attacks. This issue affects: SUSE Linux Enterprise Server 11 inn version 2.4.2-170.21.3.1 and prior versions. openSUSE Factory inn version 2.6.2-2.2 and prior versions. openSUSE Leap 15.1 inn version 2.5.4-lp151.2.47 and prior versions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00027.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00027.html
+- http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00028.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1154302
+- http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00027.html
+- http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00028.html
+
+---
+
+#### 1440. CVE-2019-3693
+
+**严重程度 / Severity**: HIGH | CVSS: 7.7
+**受影响产品 / Affected Products**: suse:linux_enterprise_server, opensuse:leap, suse:mailman, opensuse:backports_sle
+
+**漏洞描述 / Description**:
+A symlink following vulnerability in the packaging of mailman in SUSE Linux Enterprise Server 11, SUSE Linux Enterprise Server 12; openSUSE Leap 15.1 allowed local attackers to escalate their privileges from user wwwrun to root. Additionally arbitrary files could be changed to group mailman. This issue affects: SUSE Linux Enterprise Server 11 mailman versions prior to 2.1.15-9.6.15.1. SUSE Linux Enterprise Server 12 mailman versions prior to 2.1.17-3.11.1. openSUSE Leap 15.1 mailman version 2.1.29-lp151.2.14 and prior versions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2020-01/msg00059.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-01/msg00059.html
+- http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00000.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1154328
+- http://lists.opensuse.org/opensuse-security-announce/2020-01/msg00059.html
+- http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00000.html
+
+---
+
+#### 1441. CVE-2019-18900
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.0
+**受影响产品 / Affected Products**: opensuse:libzypp, suse:suse_linux_enterprise_server, suse:caas_platform
+
+**漏洞描述 / Description**:
+: Incorrect Default Permissions vulnerability in libzypp of SUSE CaaS Platform 3.0, SUSE Linux Enterprise Server 12, SUSE Linux Enterprise Server 15 allowed local attackers to read a cookie store used by libzypp, exposing private cookies. This issue affects: SUSE CaaS Platform 3.0 libzypp versions prior to 16.21.2-27.68.1. SUSE Linux Enterprise Server 12 libzypp versions prior to 16.21.2-2.45.1. SUSE Linux Enterprise Server 15 17.19.0-3.34.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00036.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00036.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1158763
+- https://lists.debian.org/debian-lts-announce/2020/03/msg00005.html
+- http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00036.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1158763
+
+---
+
+#### 1442. CVE-2018-12476
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.3
+**受影响产品 / Affected Products**: suse:suse_linux_enterprise_server, suse:obs-service-tar_scm, suse:opensuse_factory
+
+**漏洞描述 / Description**:
+Relative Path Traversal vulnerability in obs-service-tar_scm of SUSE Linux Enterprise Server 15; openSUSE Factory allows remote attackers with control over a repository to overwrite files on the machine of the local user if a malicious service is executed. This issue affects: SUSE Linux Enterprise Server 15 obs-service-tar_scm versions prior to 0.9.2.1537788075.fefaa74:. openSUSE Factory obs-service-tar_scm versions prior to 0.9.2.1537788075.fefaa74.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1107944.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1107944
+- https://bugzilla.suse.com/show_bug.cgi?id=1107944
+
+---
+
+#### 1443. CVE-2018-20105
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.0
+**受影响产品 / Affected Products**: yast2-rmt_project:yast2-rmt, suse:suse_linux_enterprise_server, opensuse:leap
+
+**漏洞描述 / Description**:
+A Inclusion of Sensitive Information in Log Files vulnerability in yast2-rmt of SUSE Linux Enterprise Server 15; openSUSE Leap allows local attackers to learn the password if they can access the log file. This issue affects: SUSE Linux Enterprise Server 15 yast2-rmt versions prior to 1.2.2. openSUSE Leap yast2-rmt versions prior to 1.2.2.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00035.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00035.html
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00015.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1119835
+- http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00035.html
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00015.html
+
+---
+
+#### 1444. CVE-2017-14806
+
+**严重程度 / Severity**: LOW | CVSS: 3.7
+**受影响产品 / Affected Products**: suse:studio_onsite, suse:susestudio-ui-server
+
+**漏洞描述 / Description**:
+A Improper Certificate Validation vulnerability in susestudio-common of SUSE Studio onsite allows remote attackers to MITM connections to the repositories, which allows the modification of packages received over these connections. This issue affects: SUSE Studio onsite susestudio-common version 1.3.17-56.6.3 and prior versions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1065397.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1065397
+- https://bugzilla.suse.com/show_bug.cgi?id=1065397
+
+---
+
+#### 1445. CVE-2017-14807
+
+**严重程度 / Severity**: HIGH | CVSS: 8.1
+**受影响产品 / Affected Products**: suse:studio_onsite, suse:susestudio-ui-server
+
+**漏洞描述 / Description**:
+An Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in susestudio-ui-server of SUSE Studio onsite allows remote attackers with admin privileges in Studio to alter SQL statements, allowing for extraction and modification of data. This issue affects: SUSE Studio onsite susestudio-ui-server version 1.3.17-56.6.3 and prior versions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1065396.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1065396
+- https://bugzilla.suse.com/show_bug.cgi?id=1065396
+
+---
+
+#### 1446. CVE-2019-3698
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.7
+**受影响产品 / Affected Products**: nagios:nagios, suse:linux_enterprise_server, opensuse:leap, opensuse:backports_sle
+
+**漏洞描述 / Description**:
+UNIX Symbolic Link (Symlink) Following vulnerability in the cronjob shipped with nagios of SUSE Linux Enterprise Server 12, SUSE Linux Enterprise Server 11; openSUSE Factory allows local attackers to cause cause DoS or potentially escalate privileges by winning a race. This issue affects: SUSE Linux Enterprise Server 12 nagios version 3.5.1-5.27 and prior versions. SUSE Linux Enterprise Server 11 nagios version 3.0.6-1.25.36.3.1 and prior versions. openSUSE Factory nagios version 4.4.5-2.1 and prior versions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2020-04/msg00014.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-04/msg00014.html
+- http://lists.opensuse.org/opensuse-security-announce/2020-04/msg00022.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1156309
+- http://lists.opensuse.org/opensuse-security-announce/2020-04/msg00014.html
+- http://lists.opensuse.org/opensuse-security-announce/2020-04/msg00022.html
+
+---
+
+#### 1447. CVE-2019-18897
+
+**严重程度 / Severity**: HIGH | CVSS: 8.4
+**受影响产品 / Affected Products**: suse:linux_enterprise_server, opensuse:leap
+
+**漏洞描述 / Description**:
+A UNIX Symbolic Link (Symlink) Following vulnerability in the packaging of salt of SUSE Linux Enterprise Server 12, SUSE Linux Enterprise Server 15; openSUSE Factory allows local attackers to escalate privileges from user salt to root. This issue affects: SUSE Linux Enterprise Server 12 salt-master version 2019.2.0-46.83.1 and prior versions. SUSE Linux Enterprise Server 15 salt-master version 2019.2.0-6.21.1 and prior versions. openSUSE Factory salt-master version 2019.2.2-3.1 and prior versions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00026.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00026.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1157465
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00026.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1157465
+
+---
+
+#### 1448. CVE-2019-18901
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.1
+**受影响产品 / Affected Products**: suse:linux_enterprise_server, opensuse:leap
+
+**漏洞描述 / Description**:
+A UNIX Symbolic Link (Symlink) Following vulnerability in the mysql-systemd-helper of the mariadb packaging of SUSE Linux Enterprise Server 12, SUSE Linux Enterprise Server 15 allows local attackers to change the permissions of arbitrary files to 0640. This issue affects: SUSE Linux Enterprise Server 12 mariadb versions prior to 10.2.31-3.25.1. SUSE Linux Enterprise Server 15 mariadb versions prior to 10.2.31-3.26.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00007.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00007.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1160895
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00007.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1160895
+
+---
+
+#### 1449. CVE-2019-18902
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: suse:linux_enterprise_server, opensuse:leap
+
+**漏洞描述 / Description**:
+A Use After Free vulnerability in wicked of SUSE Linux Enterprise Server 12, SUSE Linux Enterprise Server 15; openSUSE Leap 15.1, Factory allows remote attackers to cause DoS or potentially code execution. This issue affects: SUSE Linux Enterprise Server 12 wicked versions prior to 0.6.60-3.5.1. SUSE Linux Enterprise Server 15 wicked versions prior to 0.6.60-3.21.1. openSUSE Leap 15.1 wicked versions prior to 0.6.60-lp151.2.6.1. openSUSE Factory wicked versions prior to 0.6.62.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1160903.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1160903
+- https://bugzilla.suse.com/show_bug.cgi?id=1160903
+
+---
+
+#### 1450. CVE-2019-18903
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: suse:linux_enterprise_server, opensuse:leap
+
+**漏洞描述 / Description**:
+A Use After Free vulnerability in wicked of SUSE Linux Enterprise Server 12, SUSE Linux Enterprise Server 15; openSUSE Leap 15.1, Factory allows remote attackers to cause DoS or potentially code execution. This issue affects: SUSE Linux Enterprise Server 12 wicked versions prior to 0.6.60-2.18.1. SUSE Linux Enterprise Server 15 wicked versions prior to 0.6.60-28.26.1. openSUSE Leap 15.1 wicked versions prior to 0.6.60-lp151.2.9.1. openSUSE Factory wicked versions prior to 0.6.62.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1160904.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1160904
+- https://bugzilla.suse.com/show_bug.cgi?id=1160904
+
+---
+
+#### 1451. CVE-2020-8013
+
+**严重程度 / Severity**: LOW | CVSS: 2.2
+**受影响产品 / Affected Products**: suse:linux_enterprise_server, opensuse:leap
+
+**漏洞描述 / Description**:
+A UNIX Symbolic Link (Symlink) Following vulnerability in chkstat of SUSE Linux Enterprise Server 12, SUSE Linux Enterprise Server 15, SUSE Linux Enterprise Server 11 set permissions intended for specific binaries on other binaries because it erroneously followed symlinks. The symlinks can't be controlled by attackers on default systems, so exploitation is difficult. This issue affects: SUSE Linux Enterprise Server 12 permissions versions prior to 2015.09.28.1626-17.27.1. SUSE Linux Enterprise Server 15 permissions versions prior to 20181116-9.23.1. SUSE Linux Enterprise Server 11 permissions versions prior to 2013.1.7-0.6.12.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00010.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00010.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1163922
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00010.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1163922
+
+---
+
+#### 1452. CVE-2019-3695
+
+**严重程度 / Severity**: HIGH | CVSS: 8.4
+**受影响产品 / Affected Products**: opensuse:pcp, opensuse:leap, suse:linux_enterprise_high_performance_computing, suse:linux_enterprise_server, suse:linux_enterprise_software_development_kit
+
+**漏洞描述 / Description**:
+A Improper Control of Generation of Code vulnerability in the packaging of pcp of SUSE Linux Enterprise High Performance Computing 15-ESPOS, SUSE Linux Enterprise High Performance Computing 15-LTSS, SUSE Linux Enterprise Module for Development Tools 15, SUSE Linux Enterprise Module for Development Tools 15-SP1, SUSE Linux Enterprise Module for Open Buildservice Development Tools 15, SUSE Linux Enterprise Server 15-LTSS, SUSE Linux Enterprise Server for SAP 15, SUSE Linux Enterprise Software Development Kit 12-SP4, SUSE Linux Enterprise Software Development Kit 12-SP5; openSUSE Leap 15.1 allows the user pcp to run code as root by placing it into /var/log/pcp/configs.sh This issue affects: SUSE Linux Enterprise High Performance Computing 15-ESPOS pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise High Performance Computing 15-LTSS pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise Module for Development Tools 15 pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise Module for Development Tools 15-SP1 pcp versions prior to 4.3.1-3.5.3. SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise Server 15-LTSS pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise Server for SAP 15 pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise Software Development Kit 12-SP4 pcp versions prior to 3.11.9-6.14.1. SUSE Linux Enterprise Software Development Kit 12-SP5 pcp versions prior to 3.11.9-6.14.1. openSUSE Leap 15.1 pcp versions prior to 4.3.1-lp151.2.3.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1152763.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1152763
+- https://bugzilla.suse.com/show_bug.cgi?id=1152763
+
+---
+
+#### 1453. CVE-2019-3696
+
+**严重程度 / Severity**: HIGH | CVSS: 8.4
+**受影响产品 / Affected Products**: opensuse:pcp, opensuse:leap, suse:linux_enterprise_high_performance_computing, suse:linux_enterprise_server, suse:linux_enterprise_software_development_kit
+
+**漏洞描述 / Description**:
+A Improper Limitation of a Pathname to a Restricted Directory vulnerability in the packaging of pcp of SUSE Linux Enterprise High Performance Computing 15-ESPOS, SUSE Linux Enterprise High Performance Computing 15-LTSS, SUSE Linux Enterprise Module for Development Tools 15, SUSE Linux Enterprise Module for Development Tools 15-SP1, SUSE Linux Enterprise Module for Open Buildservice Development Tools 15, SUSE Linux Enterprise Server 15-LTSS, SUSE Linux Enterprise Server for SAP 15, SUSE Linux Enterprise Software Development Kit 12-SP4, SUSE Linux Enterprise Software Development Kit 12-SP5; openSUSE Leap 15.1 allows local user pcp to overwrite arbitrary files with arbitrary content. This issue affects: SUSE Linux Enterprise High Performance Computing 15-ESPOS pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise High Performance Computing 15-LTSS pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise Module for Development Tools 15 pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise Module for Development Tools 15-SP1 pcp versions prior to 4.3.1-3.5.3. SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise Server 15-LTSS pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise Server for SAP 15 pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise Software Development Kit 12-SP4 pcp versions prior to 3.11.9-6.14.1. SUSE Linux Enterprise Software Development Kit 12-SP5 pcp versions prior to 3.11.9-6.14.1. openSUSE Leap 15.1 pcp versions prior to 4.3.1-lp151.2.3.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1153921.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1153921
+- https://bugzilla.suse.com/show_bug.cgi?id=1153921
+
+---
+
+#### 1454. CVE-2015-7333
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: lenovo:system_update
+
+**漏洞描述 / Description**:
+MITRE is populating this ID because it was assigned prior to Lenovo becoming a CNA. A local privilege escalation vulnerability was reported (fixed and publicly disclosed in 2015) in Lenovo System Update version 5.07.0008 and prior where the SUService.exe /type INF and INF_BY_COMPATIBLE_ID command types could allow a user to execute arbitrary code with elevated privileges.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://support.lenovo.com/us/en/product_security/lsu_privilege.
+
+**参考链接 / References**:
+- https://support.lenovo.com/us/en/product_security/lsu_privilege
+- https://support.lenovo.com/us/en/product_security/lsu_privilege
+
+---
+
+#### 1455. CVE-2015-7334
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: lenovo:system_update
+
+**漏洞描述 / Description**:
+MITRE is populating this ID because it was assigned prior to Lenovo becoming a CNA. A local privilege escalation vulnerability was reported (fixed and publicly disclosed in 2015) in Lenovo System Update version 5.07.0008 and prior where the SUService.exe /type COMMAND type could allow a user to execute arbitrary code with elevated privileges.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://support.lenovo.com/us/en/product_security/lsu_privilege.
+
+**参考链接 / References**:
+- https://support.lenovo.com/us/en/product_security/lsu_privilege
+- https://support.lenovo.com/us/en/product_security/lsu_privilege
+
+---
+
+#### 1456. CVE-2020-8016
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.9
+**受影响产品 / Affected Products**: opensuse:leap, suse:linux_enterprise_desktop, suse:linux_enterprise_software_development_kit, opensuse:texlive-filesystem
+
+**漏洞描述 / Description**:
+A Race Condition Enabling Link Following vulnerability in the packaging of texlive-filesystem of SUSE Linux Enterprise Module for Desktop Applications 15-SP1, SUSE Linux Enterprise Software Development Kit 12-SP4, SUSE Linux Enterprise Software Development Kit 12-SP5; openSUSE Leap 15.1 allows local users to corrupt files or potentially escalate privileges. This issue affects: SUSE Linux Enterprise Module for Desktop Applications 15-SP1 texlive-filesystem versions prior to 2017.135-9.5.1. SUSE Linux Enterprise Software Development Kit 12-SP4 texlive-filesystem versions prior to 2013.74-16.5.1. SUSE Linux Enterprise Software Development Kit 12-SP5 texlive-filesystem versions prior to 2013.74-16.5.1. openSUSE Leap 15.1 texlive-filesystem versions prior to 2017.135-lp151.8.3.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2020-06/msg00021.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-06/msg00021.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1159740
+- http://lists.opensuse.org/opensuse-security-announce/2020-06/msg00021.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1159740
+
+---
+
+#### 1457. CVE-2020-8017
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.2
+**受影响产品 / Affected Products**: opensuse:leap, suse:linux_enterprise_desktop, suse:linux_enterprise_software_development_kit, opensuse:texlive-filesystem
+
+**漏洞描述 / Description**:
+A Race Condition Enabling Link Following vulnerability in the cron job shipped with texlive-filesystem of SUSE Linux Enterprise Module for Desktop Applications 15-SP1, SUSE Linux Enterprise Software Development Kit 12-SP4, SUSE Linux Enterprise Software Development Kit 12-SP5; openSUSE Leap 15.1 allows local users in group mktex to delete arbitrary files on the system This issue affects: SUSE Linux Enterprise Module for Desktop Applications 15-SP1 texlive-filesystem versions prior to 2017.135-9.5.1. SUSE Linux Enterprise Software Development Kit 12-SP4 texlive-filesystem versions prior to 2013.74-16.5.1. SUSE Linux Enterprise Software Development Kit 12-SP5 texlive-filesystem versions prior to 2013.74-16.5.1. openSUSE Leap 15.1 texlive-filesystem versions prior to 2017.135-lp151.8.3.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2020-06/msg00021.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-06/msg00021.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1158910
+- http://lists.opensuse.org/opensuse-security-announce/2020-06/msg00021.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1158910
+
+---
+
+#### 1458. CVE-2018-17954
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.3
+**受影响产品 / Affected Products**: suse:openstack_cloud, suse:openstack_cloud_crowbar
+
+**漏洞描述 / Description**:
+An Improper Privilege Management in crowbar of SUSE OpenStack Cloud 7, SUSE OpenStack Cloud 8, SUSE OpenStack Cloud 9, SUSE OpenStack Cloud Crowbar 8, SUSE OpenStack Cloud Crowbar 9 allows root users on any crowbar managed node to cause become root on any other node. This issue affects: SUSE OpenStack Cloud 7 crowbar-core versions prior to 4.0+git.1578392992.fabfd186c-9.63.1, crowbar-. SUSE OpenStack Cloud 8 ardana-cinder versions prior to 8.0+git.1579279939.ee7da88-3.39.3, ardana-. SUSE OpenStack Cloud 9 ardana-ansible versions prior to 9.0+git.1581611758.f694f7d-3.16.1, ardana-. SUSE OpenStack Cloud Crowbar 8 crowbar-core versions prior to 5.0+git.1582968668.1a55c77c5-3.35.4, crowbar-. SUSE OpenStack Cloud Crowbar 9 crowbar-core versions prior to 6.0+git.1582892022.cbd70e833-3.19.3, crowbar-.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1117080.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1117080
+- https://bugzilla.suse.com/show_bug.cgi?id=1117080
+
+---
+
+#### 1459. CVE-2019-18904
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+**受影响产品 / Affected Products**: suse:linux_enterprise, opensuse:leap, opensuse:rmt-server, suse:linux_enterprise_high_performance_computing, suse:linux_enterprise_server
+
+**漏洞描述 / Description**:
+A Uncontrolled Resource Consumption vulnerability in rmt of SUSE Linux Enterprise High Performance Computing 15-ESPOS, SUSE Linux Enterprise High Performance Computing 15-LTSS, SUSE Linux Enterprise Module for Public Cloud 15-SP1, SUSE Linux Enterprise Module for Server Applications 15, SUSE Linux Enterprise Module for Server Applications 15-SP1, SUSE Linux Enterprise Server 15-LTSS, SUSE Linux Enterprise Server for SAP 15; openSUSE Leap 15.1 allows remote attackers to cause DoS against rmt by requesting migrations. This issue affects: SUSE Linux Enterprise High Performance Computing 15-ESPOS rmt-server versions prior to 2.5.2-3.26.1. SUSE Linux Enterprise High Performance Computing 15-LTSS rmt-server versions prior to 2.5.2-3.26.1. SUSE Linux Enterprise Module for Public Cloud 15-SP1 rmt-server versions prior to 2.5.2-3.9.1. SUSE Linux Enterprise Module for Server Applications 15 rmt-server versions prior to 2.5.2-3.26.1. SUSE Linux Enterprise Module for Server Applications 15-SP1 rmt-server versions prior to 2.5.2-3.9.1. SUSE Linux Enterprise Server 15-LTSS rmt-server versions prior to 2.5.2-3.26.1. SUSE Linux Enterprise Server for SAP 15 rmt-server versions prior to 2.5.2-3.26.1. openSUSE Leap 15.1 rmt-server versions prior to 2.5.2-lp151.2.9.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1160922.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1160922
+- https://bugzilla.suse.com/show_bug.cgi?id=1160922
+
+---
+
+#### 1460. CVE-2019-18905
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.8
+**受影响产品 / Affected Products**: suse:linux_enterprise_server, opensuse:autoyast2
+
+**漏洞描述 / Description**:
+A Insufficient Verification of Data Authenticity vulnerability in autoyast2 of SUSE Linux Enterprise Server 12, SUSE Linux Enterprise Server 15 allows remote attackers to MITM connections when deprecated and unused functionality of autoyast is used to create images. This issue affects: SUSE Linux Enterprise Server 12 autoyast2 version 4.1.9-3.9.1 and prior versions. SUSE Linux Enterprise Server 15 autoyast2 version 4.0.70-3.20.1 and prior versions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2020-05/msg00050.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-05/msg00050.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1140711
+- http://lists.opensuse.org/opensuse-security-announce/2020-05/msg00050.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1140711
+
+---
+
+#### 1461. CVE-2020-8018
+
+**严重程度 / Severity**: HIGH | CVSS: 8.4
+**受影响产品 / Affected Products**: suse:linux_enterprise_desktop
+
+**漏洞描述 / Description**:
+A Incorrect Default Permissions vulnerability in the SLES15-SP1-CHOST-BYOS and SLES15-SP1-CAP-Deployment-BYOS images of SUSE Linux Enterprise Server 15 SP1 allows local attackers with the UID 1000 to escalate to root due to a /etc directory owned by the user This issue affects: SUSE Linux Enterprise Server 15 SP1 SLES15-SP1-CAP-Deployment-BYOS version 1.0.1 and prior versions; SLES15-SP1-CHOST-BYOS versions prior to 1.0.3 and prior versions;
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1163813.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1163813
+- https://bugzilla.suse.com/show_bug.cgi?id=1163813
+
+---
+
+#### 1462. CVE-2020-8022
+
+**严重程度 / Severity**: HIGH | CVSS: 7.7
+**受影响产品 / Affected Products**: suse:openstack_cloud, suse:openstack_cloud_crowbar, opensuse:leap, suse:linux_enterprise_server, apache:tomcat
+
+**漏洞描述 / Description**:
+A Incorrect Default Permissions vulnerability in the packaging of tomcat on SUSE Enterprise Storage 5, SUSE Linux Enterprise Server 12-SP2-BCL, SUSE Linux Enterprise Server 12-SP2-LTSS, SUSE Linux Enterprise Server 12-SP3-BCL, SUSE Linux Enterprise Server 12-SP3-LTSS, SUSE Linux Enterprise Server 12-SP4, SUSE Linux Enterprise Server 12-SP5, SUSE Linux Enterprise Server 15-LTSS, SUSE Linux Enterprise Server for SAP 12-SP2, SUSE Linux Enterprise Server for SAP 12-SP3, SUSE Linux Enterprise Server for SAP 15, SUSE OpenStack Cloud 7, SUSE OpenStack Cloud 8, SUSE OpenStack Cloud Crowbar 8 allows local attackers to escalate from group tomcat to root. This issue affects: SUSE Enterprise Storage 5 tomcat versions prior to 8.0.53-29.32.1. SUSE Linux Enterprise Server 12-SP2-BCL tomcat versions prior to 8.0.53-29.32.1. SUSE Linux Enterprise Server 12-SP2-LTSS tomcat versions prior to 8.0.53-29.32.1. SUSE Linux Enterprise Server 12-SP3-BCL tomcat versions prior to 8.0.53-29.32.1. SUSE Linux Enterprise Server 12-SP3-LTSS tomcat versions prior to 8.0.53-29.32.1. SUSE Linux Enterprise Server 12-SP4 tomcat versions prior to 9.0.35-3.39.1. SUSE Linux Enterprise Server 12-SP5 tomcat versions prior to 9.0.35-3.39.1. SUSE Linux Enterprise Server 15-LTSS tomcat versions prior to 9.0.35-3.57.3. SUSE Linux Enterprise Server for SAP 12-SP2 tomcat versions prior to 8.0.53-29.32.1. SUSE Linux Enterprise Server for SAP 12-SP3 tomcat versions prior to 8.0.53-29.32.1. SUSE Linux Enterprise Server for SAP 15 tomcat versions prior to 9.0.35-3.57.3. SUSE OpenStack Cloud 7 tomcat versions prior to 8.0.53-29.32.1. SUSE OpenStack Cloud 8 tomcat versions prior to 8.0.53-29.32.1. SUSE OpenStack Cloud Crowbar 8 tomcat versions prior to 8.0.53-29.32.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.opensuse.org/opensuse-security-announce/2020-06/msg00066.html.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-06/msg00066.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1172405
+- https://lists.apache.org/thread.html/r393d4f431683e99c839b4aed68f720b8583bca6c35cd84adccaa02be%40%3Cjava-dev.axis.apache.org%3E
+- https://lists.apache.org/thread.html/r5be80ba868a11a1f64e4922399f171b8619bca4bc2039f79cf913928%40%3Cjava-dev.axis.apache.org%3E
+- https://lists.apache.org/thread.html/ra87ec20a0f4b226c81c7eed27e5d7433ccdc41e61a8da408a45f0fa1%40%3Cusers.tomcat.apache.org%3E
+
+---
+
+#### 1463. CVE-2019-3681
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: opensuse:leap, suse:linux_enterprise_server, opensuse:osc, opensuse:factory, suse:linux_enterprise_software_development_kit
+
+**漏洞描述 / Description**:
+A External Control of File Name or Path vulnerability in osc of SUSE Linux Enterprise Module for Development Tools 15, SUSE Linux Enterprise Software Development Kit 12-SP5, SUSE Linux Enterprise Software Development Kit 12-SP4; openSUSE Leap 15.1, openSUSE Factory allowed remote attackers that can change downloaded packages to overwrite arbitrary files. This issue affects: SUSE Linux Enterprise Module for Development Tools 15 osc versions prior to 0.169.1-3.20.1. SUSE Linux Enterprise Software Development Kit 12-SP5 osc versions prior to 0.162.1-15.9.1. SUSE Linux Enterprise Software Development Kit 12-SP4 osc versions prior to 0.162.1-15.9.1. openSUSE Leap 15.1 osc versions prior to 0.169.1-lp151.2.15.1. openSUSE Factory osc versions prior to 0.169.0 .
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1122675.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1122675
+- https://bugzilla.suse.com/show_bug.cgi?id=1122675
+
+---
+
+#### 1464. CVE-2020-8019
+
+**严重程度 / Severity**: HIGH | CVSS: 7.7
+**受影响产品 / Affected Products**: suse:linux_enterprise_debuginfo, opensuse:leap, suse:linux_enterprise_point_of_sale, suse:linux_enterprise_module_for_legacy, suse:linux_enterprise_server
+
+**漏洞描述 / Description**:
+A UNIX Symbolic Link (Symlink) Following vulnerability in the packaging of syslog-ng of SUSE Linux Enterprise Debuginfo 11-SP3, SUSE Linux Enterprise Debuginfo 11-SP4, SUSE Linux Enterprise Module for Legacy Software 12, SUSE Linux Enterprise Point of Sale 11-SP3, SUSE Linux Enterprise Server 11-SP4-LTSS, SUSE Linux Enterprise Server for SAP 12-SP1; openSUSE Backports SLE-15-SP1, openSUSE Leap 15.1 allowed local attackers controlling the user news to escalate their privileges to root. This issue affects: SUSE Linux Enterprise Debuginfo 11-SP3 syslog-ng versions prior to 2.0.9-27.34.40.5.1. SUSE Linux Enterprise Debuginfo 11-SP4 syslog-ng versions prior to 2.0.9-27.34.40.5.1. SUSE Linux Enterprise Module for Legacy Software 12 syslog-ng versions prior to 3.6.4-12.8.1. SUSE Linux Enterprise Point of Sale 11-SP3 syslog-ng versions prior to 2.0.9-27.34.40.5.1. SUSE Linux Enterprise Server 11-SP4-LTSS syslog-ng versions prior to 2.0.9-27.34.40.5.1. SUSE Linux Enterprise Server for SAP 12-SP1 syslog-ng versions prior to 3.6.4-12.8.1. openSUSE Backports SLE-15-SP1 syslog-ng versions prior to 3.19.1-bp151.4.6.1. openSUSE Leap 15.1 syslog-ng versions prior to 3.19.1-lp151.3.6.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1169385.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1169385
+- https://bugzilla.suse.com/show_bug.cgi?id=1169385
+
+---
+
+#### 1465. CVE-2020-8025
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.1
+**受影响产品 / Affected Products**: suse:linux_enterprise_high_performance_computing, suse:linux_enterprise_server, suse:linux_enterprise_software_development_kit
+
+**漏洞描述 / Description**:
+A Incorrect Execution-Assigned Permissions vulnerability in the permissions package of SUSE Linux Enterprise Server 12-SP4, SUSE Linux Enterprise Server 15-LTSS, SUSE Linux Enterprise Server for SAP 15; openSUSE Leap 15.1, openSUSE Tumbleweed sets the permissions for some of the directories of the pcp package to unintended settings. This issue affects: SUSE Linux Enterprise Server 12-SP4 permissions versions prior to 20170707-3.24.1. SUSE Linux Enterprise Server 15-LTSS permissions versions prior to 20180125-3.27.1. SUSE Linux Enterprise Server for SAP 15 permissions versions prior to 20180125-3.27.1. openSUSE Leap 15.1 permissions versions prior to 20181116-lp151.4.24.1. openSUSE Tumbleweed permissions versions prior to 20200624.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1171883.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1171883
+- https://bugzilla.suse.com/show_bug.cgi?id=1171883
 
 ---

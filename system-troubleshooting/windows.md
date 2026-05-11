@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3885**
+**总计条目 / Total entries: 4093**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -56268,5 +56268,2709 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1211409#reply17
+
+---
+
+#### 3886. When will DSClosestFlag of the DC Locator be set to 1?
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, domain-controller | Score: 3 | Views: 233 | Answers: 1 | Created: 2026-05-06
+
+**解决方案 / Solution**:
+Will DSClosestFlag then be 1? No. That flag is set to indicate that the IP networks of the DC and client are associated with the same site. HQ is the closest site to Branch. HQ is the only other site, so that statement isn't meaningful. Sites are an abstraction, associated with IP networks . Sites have no relationship at all with the physical location of the DC or client, or the distance between sites. does the domain controller know that there is a dedicated domain controller in Branch and therefore set it to 0? The DC performs the match based on network address of the client and DC, and the networks assigned to the site of the DC. If the flag is 1, this would lead to selection of a non-optimal domain controller? No, not necessarily. However if the two hosts are not in IP networks associated with the site, you should investigate why it is reporting as closest. Most organizations expect clients to authenticate with a central HQ site if the main site is unavailable, so this may be normal and expected behavior. already checked the official Microsoft documentation, The flag specified in the example is an incorrect configuration, so I would not expect the documentation to cover that case. There are valid reasons for the client to choose a DC in the HQ site, and it is a normal part of the process, including the "selection of any random DC" at the end of the process if a match is not found. https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/dc-locator https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/enabling-clients-to-locate-the-next-closest-domain-controller Enable Clients to Locate a Domain Controller in the Next Closest Site https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc772592(v=ws.10) https://learn.microsoft.com/en-us/troubleshoot/windows-server/windows-security/troubleshoot-domain-controller-location-issues https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/optimize-dc-location-global-catalog
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1198918/when-will-dsclosestflag-of-the-dc-locator-be-set-to-1
+
+---
+
+#### 3887. windows GPO prevent alternate wifi when in range
+
+**问题描述 / Problem Description**:
+Tags: windows, group-policy, wifi | Score: 1 | Views: 125 | Answers: 1 | Created: 2026-05-06
+
+**解决方案 / Solution**:
+This Windows Connection Manager policy setting may do what you need: "Prohibit connection to non-domain networks when connected to domain authenticated network" Computer Configuration > Policies > Administrative Templates > Network > Windows Connection Manager https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-windowsconnectionmanager https://www.stigviewer.com/stigs/microsoft-windows-11-security-technical-implementation-guide/2025-05-15/finding/V-253365 https://www.tenable.com/audits/items/CIS_Microsoft_Windows_10_EMS_Gateway_v3.0.0_L1.audit:a4093b1c3d8677c07ebef5f404c57dec
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1198925/windows-gpo-prevent-alternate-wifi-when-in-range
+
+---
+
+#### 3888. My drives are encrypted by tpm( i think) hence i cant access them on linux
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8bsia/my_drives_are_encrypted_by_tpm_i_think_hence_i/
+
+---
+
+#### 3889. Internet keeps cutting off frequently.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8fo6m/internet_keeps_cutting_off_frequently/
+
+---
+
+#### 3890. Pc freezes & i cant move mouse or keyboard
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8gvx1/pc_freezes_i_cant_move_mouse_or_keyboard/
+
+---
+
+#### 3891. Al abrir juegos con anticheat (Fortnite, rocket, dbd, etc) mi pc se reinicia
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8afzw/al_abrir_juegos_con_anticheat_fortnite_rocket_dbd/
+
+---
+
+#### 3892. Help! Black screen after trying to updating Nvidia drivers
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8oh22/help_black_screen_after_trying_to_updating_nvidia/
+
+---
+
+#### 3893. What is this notification noise???
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8oh14/what_is_this_notification_noise/
+
+---
+
+#### 3894. No audio from the tv’s connected Bluetooth speaker when the gaming PC is turned on
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8odpw/no_audio_from_the_tvs_connected_bluetooth_speaker/
+
+---
+
+#### 3895. Laptop for some reason experience extreme lag spikes when I plug/unplug its charger after a long period of it being unplugged/plugged
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8cfgc/laptop_for_some_reason_experience_extreme_lag/
+
+---
+
+#### 3896. Speakers doesn't working idk.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8oci6/speakers_doesnt_working_idk/
+
+---
+
+#### 3897. why does my pc keep crashing bc of roblox and only that? (hardware and possibly software)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8obgt/why_does_my_pc_keep_crashing_bc_of_roblox_and/
+
+---
+
+#### 3898. fps drops in league when streaming on discord
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8o6y6/fps_drops_in_league_when_streaming_on_discord/
+
+---
+
+#### 3899. Computer shuts down randomly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8o5kq/computer_shuts_down_randomly/
+
+---
+
+#### 3900. eli5 router
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8o4sb/eli5_router/
+
+---
+
+#### 3901. How do I configure HP tilt pen buttons?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8o4qu/how_do_i_configure_hp_tilt_pen_buttons/
+
+---
+
+#### 3902. Minecraft suddenly dropped from 300 FPS to 30 FPS — now iGPU 99%, RTX 0% (HP Omen + Modrinth)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8nz8c/minecraft_suddenly_dropped_from_300_fps_to_30_fps/
+
+---
+
+#### 3903. Laptop randomly shut off and I'm trying to diagnose it
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8nx2x/laptop_randomly_shut_off_and_im_trying_to/
+
+---
+
+#### 3904. Acer Spin laptop with a black screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8nswn/acer_spin_laptop_with_a_black_screen/
+
+---
+
+#### 3905. Anker wireless pad needs Quick Charge?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8nsce/anker_wireless_pad_needs_quick_charge/
+
+---
+
+#### 3906. Sending photos with the best quality from an iPhone
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8nm3i/sending_photos_with_the_best_quality_from_an/
+
+---
+
+#### 3907. Do I need to buy a PSU? (EZ Debug CPU after power issues)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8ng5m/do_i_need_to_buy_a_psu_ez_debug_cpu_after_power/
+
+---
+
+#### 3908. My sister needed to get a assignment real fast, and my gpu was left open for me to change the thermal paste and thermal pads, which i didn't buy and didn't put new.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8n719/my_sister_needed_to_get_a_assignment_real_fast/
+
+---
+
+#### 3909. I need help with my laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t8my08/i_need_help_with_my_laptop/
+
+---
+
+#### 3910. An IT Manager/Director with Great Social IQ and Emotional Intelligence is a God-Send
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t8c43o/an_it_managerdirector_with_great_social_iq_and/
+
+---
+
+#### 3911. How to handle Management consistently wanting 50+ hours a week?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t89gv9/how_to_handle_management_consistently_wanting_50/
+
+---
+
+#### 3912. The installation failed in the Safe_OS phase with an error during boot operation.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t8bqf6/the_installation_failed_in_the_safe_os_phase_with/
+
+---
+
+#### 3913. New junior systems admin. Lots of questions. Best forum?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t8o6k2/new_junior_systems_admin_lots_of_questions_best/
+
+---
+
+#### 3914. CCAT requirement
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t8nkjy/ccat_requirement/
+
+---
+
+#### 3915. New position - need ideas for things I will need
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t8nkcs/new_position_need_ideas_for_things_i_will_need/
+
+---
+
+#### 3916. Teaching Win11 to a youngin
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t8d9hv/teaching_win11_to_a_youngin/
+
+---
+
+#### 3917. Windows 11 system-wide choppiness
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t89x93/windows_11_systemwide_choppiness/
+
+---
+
+#### 3918. Sound Degradation While Gaming
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t8n3j9/sound_degradation_while_gaming/
+
+---
+
+#### 3919. Bluetooth option disappeared from my HP laptop (Windows 11)
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t8i5r8/bluetooth_option_disappeared_from_my_hp_laptop/
+
+---
+
+#### 3920. windows 7 on latitude 5420 11th gen intel i7
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t8f7qv/windows_7_on_latitude_5420_11th_gen_intel_i7/
+
+---
+
+#### 3921. Alt and Windows keys switched between each other
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t8c9tr/alt_and_windows_keys_switched_between_each_other/
+
+---
+
+#### 3922. The installation failed in the Safe_OS phase with an error during boot operation.
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t8bvh2/the_installation_failed_in_the_safe_os_phase_with/
+
+---
+
+#### 3923. Pc corrupted again, I tried a lot of command prompts to no avail
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t8b2tw/pc_corrupted_again_i_tried_a_lot_of_command/
+
+---
+
+#### 3924. My HP Victus laptop webcam is acting weird and I can’t figure out the issue.
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t8arpy/my_hp_victus_laptop_webcam_is_acting_weird_and_i/
+
+---
+
+#### 3925. Is This Fan Setup Enough For A Hot Climate Build
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t8nqmf/is_this_fan_setup_enough_for_a_hot_climate_build/
+
+---
+
+#### 3926. Looking for feedback on my planned build.
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t8bum8/looking_for_feedback_on_my_planned_build/
+
+---
+
+#### 3927. Buy GPU now or wait?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t8avrc/buy_gpu_now_or_wait/
+
+---
+
+#### 3928. My new GPU won't turn on and now my PC is dead.
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t8ae0e/my_new_gpu_wont_turn_on_and_now_my_pc_is_dead/
+
+---
+
+#### 3929. quick question. is ryzen 7 5700x for 100 cad or 73 usd a good deal?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t895j9/quick_question_is_ryzen_7_5700x_for_100_cad_or_73/
+
+---
+
+#### 3930. Should i get RX 9070 XT now?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t8b5hv/should_i_get_rx_9070_xt_now/
+
+---
+
+#### 3931. what need so be upgraded
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t8d9ad/what_need_so_be_upgraded/
+
+---
+
+#### 3932. CPU upgrade advice
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t8b05o/cpu_upgrade_advice/
+
+---
+
+#### 3933. First gaming PC build – does everything look good before I order?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t8axai/first_gaming_pc_build_does_everything_look_good/
+
+---
+
+#### 3934. Help With My First Build
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t8oia3/help_with_my_first_build/
+
+---
+
+#### 3935. I think i need to check my ram
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t8oh0s/i_think_i_need_to_check_my_ram/
+
+---
+
+#### 3936. Rx 7600 good gpu? For 300 usd budget gpu
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t8obi7/rx_7600_good_gpu_for_300_usd_budget_gpu/
+
+---
+
+#### 3937. Fractal North TG or Lian Li Lancool 217
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t8o7vu/fractal_north_tg_or_lian_li_lancool_217/
+
+---
+
+#### 3938. Upgrading from I7 11700
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t8o2w1/upgrading_from_i7_11700/
+
+---
+
+#### 3939. New motherboard isn't showing any sign of power
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t8o2qb/new_motherboard_isnt_showing_any_sign_of_power/
+
+---
+
+#### 3940. Opinions on this prebuilt PC?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t8o00s/opinions_on_this_prebuilt_pc/
+
+---
+
+#### 3941. AMD prepares CPPC HighestFreq support to report CPU boost clocks directly to the OS
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t8fwsy/amd_prepares_cppc_highestfreq_support_to_report/
+
+---
+
+#### 3942. Qualcomm Hexagon V81 HMX Programmer’s Reference Manual
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t8canw/qualcomm_hexagon_v81_hmx_programmers_reference/
+
+---
+
+#### 3943. Should i pursue swe in 2026 with AI growing this fast?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t8bwfk/should_i_pursue_swe_in_2026_with_ai_growing_this/
+
+---
+
+#### 3944. I think a program should be customizable.
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t8nnqu/i_think_a_program_should_be_customizable/
+
+---
+
+#### 3945. Simple audio trimmer
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t8cng6/simple_audio_trimmer/
+
+---
+
+#### 3946. Which sites should i use to upload my files?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t8ognm/which_sites_should_i_use_to_upload_my_files/
+
+---
+
+#### 3947. Free speech to text software
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t8c8fh/free_speech_to_text_software/
+
+---
+
+#### 3948. E and R keys are bugged
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t8jf9g/e_and_r_keys_are_bugged/
+
+---
+
+#### 3949. [Release] PluriHub – Free Chrome extension to manage all your AI chats in one place
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t8izt5/release_plurihub_free_chrome_extension_to_manage/
+
+---
+
+#### 3950. [Release] PluriHub – Free Chrome extension to manage all your AI chats in one place
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t8izst/release_plurihub_free_chrome_extension_to_manage/
+
+---
+
+#### 3951. LumiSync: lightweight OpenRGB screen-to-keyboard lighting with smart color detection
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t8i9gl/lumisync_lightweight_openrgb_screentokeyboard/
+
+---
+
+#### 3952. 🎬 Media Library App
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t8ecv9/media_library_app/
+
+---
+
+#### 3953. Evrame - The New Way To Organize
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t8cufz/evrame_the_new_way_to_organize/
+
+---
+
+#### 3954. I lost my Directory Opus config file. anyone have clean native looking win 11 config please!?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t8b0ev/i_lost_my_directory_opus_config_file_anyone_have/
+
+---
+
+#### 3955. [V2EX] 大家对 Gen UI 这个技术有什么看法，最近好像不是很火了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211571#reply0
+
+---
+
+#### 3956. [V2EX] 发现一个现象：海外招聘平台仍然大量雇佣 UI 设计师，这是为什么？
+
+**问题描述 / Problem Description**:
+2026 年，过完春节，一直如今，都在海外招聘平台上逛，欧美、亚洲等；只要输入 UI 设计，或前端，都是大批的公司 发布雇佣 UI 设计师职位，或前端职位；其中要求 ai,只是要求当工具使用；在 TW ，各个平台上，几乎没有要求会使用 AI 工具，但是要求熟练 fgima 的比较多。 再反观咱 mainland ，却是一摊死水，几乎没有 UI 设计师，或前端的活路。 小伙伴们，你们也发现了么？这是为什么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211569#reply1
+
+---
+
+#### 3957. [V2EX] 除了 iterm，有别的终端工具支持 tmux 的 -CC 模式吗？或者 tmux 的替代品 zellij 这些有类似的功能吗？
+
+**问题描述 / Problem Description**:
+感觉 tmux -CC 模式真的很好用，尤其是现在跟 cc 、codex 配合，能在确保 ssh 断连不丢状态的同时，还能有原生终端的体验，特别是能触发 iterm 的提醒，codex/cc 工作结束或者需要我做选择的时候提醒我。 但是感觉 iterm 有点卡，如果一个 tmux session 有很多 tab ，弹出速度太慢了…… 所以想问问有没有别的终端工具支持 tmux -CC 模式的。 或者是 zellij 这种新的类 tmux 工具有类似的功能吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211558#reply2
+
+---
+
+#### 3958. [V2EX] 求推荐云盘
+
+**问题描述 / Problem Description**:
+目前用的是 123 ，里面大概有 12T 的影视资源，想请教一下各位大佬用的都是什么云盘，排除自建
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211547#reply7
+
+---
+
+#### 3959. [V2EX] 求个沉浸式翻译的平替
+
+**问题描述 / Problem Description**:
+这玩意入侵性越来越强，全是狗皮膏药，甚至还入侵文本框，设置也越来越复杂，很难关。 需求很简单，支持 openrouter 即可。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211518#reply10
+
+---
+
+#### 3960. [V2EX] 真的有人用 AI 做 PPT 吗？
+
+**问题描述 / Problem Description**:
+虽然这种应用已经很多了，但是在实际工作流里面，考虑到公司的要求，根本也不会弄那么多酷炫的效果。 还是老老实实按照公司的模板来调整，一页一页的做。 AI 实现的 PPT 这时候可用性就不太强。 也欢迎大家讲讲自己的实际体验看看？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211441#reply47
+
+---
+
+#### 3961. How to disable Windows 11 sign-up from Linux
+
+**问题描述 / Problem Description**:
+Tags: windows-11, dualboot | Score: 0 | Views: 101 | Answers: 1 | Created: 2026-03-23
+
+**解决方案 / Solution**:
+As Ramhound said in the comments: use chntpw to enable the Administrator account, not the microsoft-synced account. It worked. (i'm re-posting it to make the question formally answered).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936084/how-to-disable-windows-11-sign-up-from-linux
+
+---
+
+#### 3962. How to turn off Automatic sample submission and disable the warning icon?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, windows-defender | Score: 0 | Views: 134 | Answers: 1 | Created: 2026-03-19
+
+**解决方案 / Solution**:
+Windows Security keeps alerting you with the warning symbol "⚠️" as turning the setting off in the UI is treated as a 'reduced protection' state. It will periodically check and readd the warning. You need to enforce the setting through a group policy. Press Win + R and type gpedit.msc Navigate to Computer Configuration Administrative Templates Windows Components Microsoft Defender Antivirus MAPS Right click the 'Send file samples when further analysis is required' setting and select edit . Set it to Enabled and then select Never Send from the drop down. Apply the changes then restart your computer.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935999/how-to-turn-off-automatic-sample-submission-and-disable-the-warning-icon
+
+---
+
+#### 3963. When installing WSL (Ubuntu), Windows shows a help, containing an image with the "screenfetch -p" command. How to run this?
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, windows-11, windows-subsystem-for-linux | Score: 0 | Views: 55 | Answers: 1 | Created: 2026-03-16
+
+**解决方案 / Solution**:
+WSL installs a "stock" distribution (usually from a distro-provided image that's adapted slightly to WSL), and if a distribution such as Ubuntu typically does not include such commands "out of the box", then its WSL image will most likely not have them either. Things like screenfetch are practically always installed as a separate package (since their only purpose is to show off the system – otherwise they just occupy extra space in the image). Ubuntu has it packaged as screenfetch in the universe component of the standard Ubuntu repository – I don't know if it is enabled by default (you might need to enable it via /etc/apt/sources.list ), but even if it is, AFAIK any contents of 'universe' are never included as part of a default Ubuntu installation since it's their "lower standards" section. https://packages.ubuntu.com/search?keywords=screenfetch https://packages.debian.org/search?keywords=screenfetch
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935884/when-installing-wsl-ubuntu-windows-shows-a-help-containing-an-image-with-the
+
+---
+
+#### 3964. Force Windows to install *all* missing updates
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, windows-update, windows-server | Score: 21 | Views: 17286 | Answers: 4 | Created: 2020-03-22
+
+**解决方案 / Solution**:
+No you can not force all the updates at one time. Sometimes updates are applied to other updates. It is updating as far as it can in one go, rechecking for any newer updates that can now be applied and then repeating the cycle until you are caught up. The best thing to do is be updating more often so they don't accumulate.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1534808/force-windows-to-install-all-missing-updates
+
+---
+
+#### 3965. A privilege that the service requires to start doesn't exist in the Service Account
+
+**问题描述 / Problem Description**:
+Tags: powershell, cmd.exe, windows-server, windows-services | Score: 6 | Views: 16980 | Answers: 1 | Created: 2020-07-12
+
+**解决方案 / Solution**:
+Members of the local group Administrators have many privileges, but definitely not all. One of those extra privileges is the one you already set: Logon as a service . You can find and manage all privileges in the Local Security Settings MMC snap-in (secpol.msc) under Security Settings > Local Policies > User Rights Assignment : As you can see, not all (allowing) rights contain the Administrators group. If everything worked well, you will already see your domain user under Logon as a service . If not, add it now. This is the minimum requirement for a user account to run an executable 1 as a service. Running the Themes service of course also needs the Logon as a service right. But as you observed - for this service - it is not enough. This particular service also needs the Replace a process level token right. Btw., to learn more about a particular right, just open it and navigate to the Explain tab: So, in conclusion, to run the Themes service under your domain user, add this account to the Logon as a service and Replace a process level token policies. A recommendation: Please do not add a user to every allowing policy, to "make things work". This may impose serious security flaws. How can I find out which privileges a particular service needs? As Windows services have to implement the Windows services API , they will contain a SERVICE_REQUIRED_PRIVILEGES_INFOA structure. This contains a list of all required privileges. You can use this C++ code to query this info. Alternatively, you can download the SystemExtensions module for PowerShell and use the Get-ServiceConfig cmdlet: Get-ServiceConfig Themes | Select-Object -ExpandProperty Privileges Output: SeAssignPrimaryTokenPrivilege SeDebugPrivilege SeImpersonatePrivilege You can then use this documentation to translate these privileges into the policy names (same order as above): Replace a process level token Debug programs Impersonate a client after authentication 1 Keep in mind that not all executables can be run as a service, as they have to implement the Windows services API at least.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1567994/a-privilege-that-the-service-requires-to-start-doesnt-exist-in-the-service-acco
+
+---
+
+#### 3966. Does Azure Backup for Windows Server affect regular SQL Server backups on the same server?
+
+**问题描述 / Problem Description**:
+Tags: backup, sql-server, azure, windows-server | Score: 6 | Views: 1452 | Answers: 2 | Created: 2019-12-24
+
+**解决方案 / Solution**:
+I wanted to clarify as per that post you linked to in the question and you are asking about " to be protected even better from a possible ransomware attack " specifically as per the. . . "You can use Azure Backup to protect your Windows Server from corruptions, attacks, and disasters . Azure Backup provides a lightweight tool known as the Microsoft Azure Recovery Services (MARS) agent. The MARS agent is installed on the Windows Server to protect files and folders, and server configuration info via Windows Server System State. " Essentially Azure Backup gives you three levels of backup technology that you want to use. . . Files and Folders System State Full volume point-in-time and image backups Bare Metal (on-premises) VM level backups (OS and other volumes) There are other types of Azure Backup agents you can add-on to take care of the SQL Server backups for you, but since you want to not affect your existing SQL Server backup strategy nor affect the backup log chain of your existing SQL Server backups, don't use that agent. Simply don't use any SQL Server specific Azure Backup agents or functionality In terms of a full system recovery and the correlated restore operations in the event any are needed—which is the entire purpose of backups to begin with , adding the Azure Backup level backups to your backup and recovery strategy will help you be better protected and be able to get your system back up and running quicker in the event such an action is needed. Well if getting your system back up and fully functional in a timely manner is of any importance, then adding the Azure Backup strategy will better protect your system operations/availability/resiliency. With just the SQL Server backups as you have today , in the event of a full system crash and recovery is needed, you need to get your Windows Server installed, and then get SQL Server installed and configured, and then get your SQL backup files and transactions logs copied over from backup media, and then start restoring the SQL Server database level stuff. Think about your backup strategy from a perspective of a full system recovery. Think about what data you need to get your system back up and running and go from there as a starting point. Azure Backup Recovery Understanding Testing and documenting the restore\recovery process for future reference with the Azure Backup data and technology once you get something in place—that you confirm works without breaking the existing SQL backup jobs, is important so don't overlook this critical step. Does Azure Backup for Windows Server affect regular SQL Server backups on the same server? Obviously it can affect the SQL database regular backup jobs if both the Azure Backup job and the SQL Server backup jobs are running at the same time—they will likely need to share CPU, memory, and disk resources from the same Windows Operating System and thus potentially affect each other at this level. Concurrently using shared resources from the same OS could equate to the SQL Server database backup jobs taking longer to complete. You won't know the specifics for certain until you just do it. It is important that your current restore strategy have an easy way to get the backup jobs back in sync in the event that it does break and you know the motions to take. In terms of breaking your SQL Server database backup chain , unless you are running SQL Server database specific job types where you could lose a transaction log or changing SQL Server database recovery models with the Azure backup technology, then it should not have any impact whatsoever on the SQL Server database log backup chain. I don't have much experience with SQL Server High Availability but I know when you have databases in standby applying transactions from a primary DB such as with Log Shipping, that the chain is of high importance and if it's broken, the Log Shipping process breaks too since it's not able to commit the transaction from the latest log backup from the primary database. Safe Options (per your concern and requirements) If you can ensure Azure Backup will not perform any SQL Server database backup operations, and you do NOT use it for any SQL Server specific operations or select it, then you will be fine. I think you'll be safe to use Azure Backup for backing up files and folders , entire VMs , system state , or for bare metal recovery and won't have any issues with anything breaking the log chain with your SQL Server database backups. Supporting Resources Back up system state and restore to bare metal with Azure Backup Server System state backup: Backs up operating system files, so you can recover when a computer starts, but system files and the registry are lost. A system state backup includes: Domain member: Boot files, COM+ class registration database, registry Domain controller: Windows Server Active Directory (NTDS), boot files, COM+ class registration database, registry, system volume (SYSVOL) Computer that runs cluster services: Cluster server metadata Computer that runs certificate services: Certificate data Bare-metal backup: Backs up operating system files and all data on critical volumes (except user data). By definition, a BMR backup includes a system state backup. It provides protection when a computer won't start and you have to recover everything
+
+**参考链接 / References**:
+- https://superuser.com/questions/1512283/does-azure-backup-for-windows-server-affect-regular-sql-server-backups-on-the-sa
+
+---
+
+#### 3967. How to copy folder and rename it with current date and time in powershell?
+
+**问题描述 / Problem Description**:
+Tags: powershell, windows-server | Score: 5 | Views: 12482 | Answers: 1 | Created: 2019-11-19
+
+**解决方案 / Solution**:
+You can use the Get-Date module and command substitution: copy-item .\documents\ -destination .\my-backup-$(Get-Date -format "yyyy_MM_dd_hh_mm_ss")
+
+**参考链接 / References**:
+- https://superuser.com/questions/1503509/how-to-copy-folder-and-rename-it-with-current-date-and-time-in-powershell
+
+---
+
+#### 3968. Windows Server: Multiple remote desktop user logins but the same setup (programs, files, shortcuts etc.)
+
+**问题描述 / Problem Description**:
+Tags: remote-desktop, user-accounts, user-profiles, windows-server | Score: 3 | Views: 2806 | Answers: 2 | Created: 2020-08-20
+
+**解决方案 / Solution**:
+For creating new user accounts with default desktop settings, favorites, and Start menu, you could use the default user profile of Windows. In Windows 10 this profile is located in the directory C:\Users\Default . The contents of this default user profile are provided to every new user account on the system. When a new user profile is created, these default settings and files will be copied to the new user's profile directory. By placing your shortcuts for files, folders and programs in the default user folder, they will copied to every new local account that you will in the future create on the server. If you really like that all your users share the very same desktop and Start menu, this will mean that any change by one user will propagate to all of them. If you still wish all user logins to and up with one user profile, set all their profile paths to the same path. The profile path of any user account can be found in the registry under HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList in the item named ProfileImagePath whose value will be C:\Users\user-name . click for a larger image The keys use the account's System ID (SID). If the user cannot easily be identified by the value of ProfileImagePath , to convert the marked SID to the current user account name, enter in cmd the command: wmic useraccount where sid='S-1-3-12-12451234567-1234567890-1234567-1434' get name You will need to modify the permissions of the shared folder so that all users could access these folders. If you don't wish them to be able to change these folders, don't give them write permissions to some sub-folders (it would be strange for users not to be in control of their desktop or have access to documents of other users). Another alternative is to modify for the user the settings under registry key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders , such as Desktop and Start Menu .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1579265/windows-server-multiple-remote-desktop-user-logins-but-the-same-setup-programs
+
+---
+
+#### 3969. Trying to get WSL working on a Windows Server 2019 VM. Getting 'Access denied' error
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, windows-subsystem-for-linux, windows-server, windows-server-2019 | Score: 3 | Views: 2722 | Answers: 1 | Created: 2020-04-28
+
+**解决方案 / Solution**:
+I had the same exact issue. For my particular issue, the root cause was traced to McAfee End Point Security. McAfee End Point has a McAfee-defined Access Protection rule that blocks WSL execution. Once this rule was disabled, WSL and Ubuntu started working without issue.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1546430/trying-to-get-wsl-working-on-a-windows-server-2019-vm-getting-access-denied-e
+
+---
+
+#### 3970. Failed to schedule Software Protection service for re-start at 2119-10-19T18:07:58Z. Error Code: 0x80041316
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-server-2012, windows-server | Score: 3 | Views: 13709 | Answers: 1 | Created: 2019-11-12
+
+**解决方案 / Solution**:
+This series of steps worked for me. It is an abbreviated version of this solution . Back up all files in the directory C:\Windows\System32\Tasks\Microsoft\Windows\SoftwareProtectionPlatform just in case Add an XML extension to the files in the SoftwareProtectionPlatform folder Navigate to to Computer Management->System Tools->Task Scheduler->Task Scheduler Library->Microsoft->Windows->SoftwareProtectionPlatform Right-click on each task and select Delete Right-click on SoftwareProtectionPlatform, Import Task, and import each of the files that you renamed. Don't worry if they don't appear in the Task List. Navigate to Computer Management->Services and Applications->Services and restart the Software Protection service Check the Event Viewer to verify that the errors have stopped Delete the XML files in the SoftwareProtectionPlatform folder
+
+**参考链接 / References**:
+- https://superuser.com/questions/1501559/failed-to-schedule-software-protection-service-for-re-start-at-2119-10-19t1807
+
+---
+
+#### 3971. Windows ACL deny move of folders on a hierarchy level
+
+**问题描述 / Problem Description**:
+Tags: windows, permissions, ntfs, windows-server, acl | Score: 2 | Views: 4525 | Answers: 1 | Created: 2020-02-22
+
+**解决方案 / Solution**:
+Thank You @harrymc for the useful Link. Here is the solution how i have solved this issue now. I'm describing the permissions for the user . Use the Advanced Security dialog to add this permissions. ( Right click / Settings / Security / Advanced ) RootShareDirecory Permission for This Folder, SubFolder and Files only Read, Execute ProjectFolderX Activate Permission inheritance. Permission for This Folder every permission excluding Delete . Permission for Only Subfolder and Files Full Access. Explaination In order to prevent a file from beeing moved, you have to disable the Delete. Unfortunately there are two values which influence if an folder can be deleted: The Delete Permission on the folder it self The Delete subfolders and files of the parent Folder. Please ensure the user which is not allowed to delete, has none of these two permissions.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1527438/windows-acl-deny-move-of-folders-on-a-hierarchy-level
+
+---
+
+#### 3972. Not Able to Start windows service on windows server 2016 using powershell
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, windows-server | Score: 1 | Views: 7191 | Answers: 1 | Created: 2020-07-27
+
+**解决方案 / Solution**:
+Windows services have a Display name, and a Service name. Fire up services.msc Find your service in the list Right-click and go to Properties Make a note of the Service name Update your PowerShell to use the correct name In the image below, you can see the Windows Biometric Service would be started by calling Start-Service -Name 'WbioSrvc' NOT Start-Service -Name 'Windows Biometric Service'
+
+**参考链接 / References**:
+- https://superuser.com/questions/1572050/not-able-to-start-windows-service-on-windows-server-2016-using-powershell
+
+---
+
+#### 3973. Windows Server 2016 - Is it possible to switch between the Desktop Experience and Non-Desktop Experience?
+
+**问题描述 / Problem Description**:
+Tags: raspberry-pi, windows-server | Score: 1 | Views: 559 | Answers: 1 | Created: 2020-07-03
+
+**解决方案 / Solution**:
+Not really. You would probably need to reinstall each time you wanted to switch. When Server 2016 was in preview, Desktop Experience was a "feature", as in roles and features on Windows Server. To switch between having a feature and not having it, you could install or uninstall the feature. And you could use PowerShell scripting to do it (though it wasn't an instant switch between one state and the other, and was likely to include a reboot.) There are some examples in this 4sysops article However, since that time, further restrictions were made such that, according to a TechNet article a few years ago, you can no longer convert between one and the other after installation, and you must re-install. The TechNet article seems to no longer be available but there is some more info about Server 2016 GUI options at https://superwidgets.wordpress.com/2016/10/29/windows-server-2016-gui-options/ It's now considered best practice to administer Windows servers using PowerShell commands rather than remote desktop. I'd recommend you spend some time getting familiar with the PowerShell commands to do the things you need with your server.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1565833/windows-server-2016-is-it-possible-to-switch-between-the-desktop-experience-an
+
+---
+
+#### 3974. How can I have a Windows VM running in a Windows remote server?
+
+**问题描述 / Problem Description**:
+Tags: virtual-machine, vpn, remote-desktop, hyper-v, windows-server | Score: 1 | Views: 237 | Answers: 1 | Created: 2020-06-25
+
+**解决方案 / Solution**:
+For a low-budget low-running academical project you may use Microsoft's Azure free account . This trial account will give you 12 months of free services, up to $200 credit, which include Windows Virtual Machines. Hopefully, this includes Windows Server.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1563866/how-can-i-have-a-windows-vm-running-in-a-windows-remote-server
+
+---
+
+#### 3975. VirtualBox - Guru Meditation
+
+**问题描述 / Problem Description**:
+Tags: windows, virtualbox, virtual-machine, virtualization, windows-server | Score: 1 | Views: 9655 | Answers: 1 | Created: 2020-05-11
+
+**解决方案 / Solution**:
+I looked at the VB spec's and could not find anything about Server 2019. You might consider a different virtualizing application as a test (trial version). VMware or Hyper-V. Virtual Box supports Server 2016, but Server 2019 is much newer.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1550735/virtualbox-guru-meditation
+
+---
+
+#### 3976. Accessing DFS network shares via VPN
+
+**问题描述 / Problem Description**:
+Tags: vpn, windows-server, dfs | Score: 1 | Views: 8657 | Answers: 1 | Created: 2020-03-11
+
+**解决方案 / Solution**:
+By default, DFS referrals are sent using "short" (NetBIOS) names, e.g. \\server01 , which external clients cannot resolve if the VPN client does not set the correct 'DNS Search Suffix' . (The suffix tells the OS how to expand single-word hostnames to full domain names.) You'll probably want to configure your DFS root server to send full domain name (FQDN) referrals instead, so that clients would be redirected to \\server01.my.domain which can always be resolved using DNS. The full instructions can be found at https://support.microsoft.com/kb/244380/ , but the summary is: Remove all domain-based namespaces from your DFS root server. Set the registry parameter: Set-DfsnServerConfiguration -ComputerName ABC -UseFqdn $true dfsutil server registry dfsdnsconfig set %COMPUTERNAME% reg add HKLM\SYSTEM\CurrentControlSet\Services\Dfs /v DfsDnsConfig /t REG_DWORD /d 1 Restart the dfs service. Re-add all domain-based namespaces.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1531941/accessing-dfs-network-shares-via-vpn
+
+---
+
+#### 3977. Azure VM - Windows Server 2016 Datacenter - Windows Update - There were some problems installing updates (0x8024000e)
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-update, windows-server, windows-server-2016 | Score: 1 | Views: 1322 | Answers: 2 | Created: 2020-01-26
+
+**解决方案 / Solution**:
+The system might be completely healthy, just running out of RAM. On my test VM (clean Server 2016 Datacenter Core install from official media) I had to increase the maximum memory to 5 GB to avoid the 0x8024000e error. Someone in another forum had similar experience with an Azure B-series VM.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1520386/azure-vm-windows-server-2016-datacenter-windows-update-there-were-some-pro
+
+---
+
+#### 3978. Windows Server Docker containers - Which (if any) server roles can be replaced?
+
+**问题描述 / Problem Description**:
+Tags: windows-server, docker-for-windows | Score: 1 | Views: 330 | Answers: 1 | Created: 2020-01-24
+
+**解决方案 / Solution**:
+I looked into setting up a Windows AD/DC within a container, but it was a no-go. Mainly because of persisting data across restarts, but also because of too many hoops to jump through. Read this discussion: https://www.reddit.com/r/docker/comments/ct77og/containerized_windows_domain/ and https://serverfault.com/questions/872413/is-it-possible-to-add-active-directory-to-a-windows-container It's not worth the struggle. I just kept mine as a VM using very small resources with Server Core.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1519695/windows-server-docker-containers-which-if-any-server-roles-can-be-replaced
+
+---
+
+#### 3979. Can not delete a local printer port
+
+**问题描述 / Problem Description**:
+Tags: printer, network-printer, windows-server | Score: 1 | Views: 30473 | Answers: 2 | Created: 2019-11-24
+
+**解决方案 / Solution**:
+I found an answer to the problem. I quickly restarted the printer spooler service and deleted the port. If any more time was taken, the port would again give error on deleting.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1504705/can-not-delete-a-local-printer-port
+
+---
+
+#### 3980. How to install an application on a windows server, available to any user in domain on any computer in domain?
+
+**问题描述 / Problem Description**:
+Tags: active-directory, windows-server, roaming-profiles, windows-server-2019 | Score: 1 | Views: 11599 | Answers: 1 | Created: 2019-11-23
+
+**解决方案 / Solution**:
+Please take note of the above comment by Keltari about installing software on a DC. I also recommend installing it on another Windows Server computer. The mechanism I used in the past was RemoteApp. You may see a detailed writeup in the article Step by Step How to Deploy RemoteApp in Windows Server 2016 . I have never used it on Windows Server 2019, so I don't know how well it works. According to reports ( example ), it may not work too well on Windows Server 2019 Essentials (this version has been so reduced as to be not very usable), the Standard version is recommended.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1504561/how-to-install-an-application-on-a-windows-server-available-to-any-user-in-doma
+
+---
+
+#### 3981. If Two Files Have The Exact Same SHA-256, Are They The Same File?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t93lzk/if_two_files_have_the_exact_same_sha256_are_they/
+
+---
+
+#### 3982. How do I completely remove GRUB after deleting Linux partitions? (UEFI dual boot issue + disk converted to Dynamic)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9hxys/how_do_i_completely_remove_grub_after_deleting/
+
+---
+
+#### 3983. My computer blue screened and won’t turn on
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9amne/my_computer_blue_screened_and_wont_turn_on/
+
+---
+
+#### 3984. Internet speed is much slower than it should be
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9fjt2/internet_speed_is_much_slower_than_it_should_be/
+
+---
+
+#### 3985. TPM 2.0 Enabled, Computer Goes Into Error
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9egwd/tpm_20_enabled_computer_goes_into_error/
+
+---
+
+#### 3986. Does anyone have any tips for this Nintendo lite
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9kc96/does_anyone_have_any_tips_for_this_nintendo_lite/
+
+---
+
+#### 3987. PC Crashing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9k4zu/pc_crashing/
+
+---
+
+#### 3988. how does a PCIE ethernet card effect the speed of the network going through?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9k45h/how_does_a_pcie_ethernet_card_effect_the_speed_of/
+
+---
+
+#### 3989. lexar ssd cannot get detected by pc or in disk management
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9e6sm/lexar_ssd_cannot_get_detected_by_pc_or_in_disk/
+
+---
+
+#### 3990. Apps cant connect to internet
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9jzog/apps_cant_connect_to_internet/
+
+---
+
+#### 3991. Computer turns on but no screen or sound
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9jxw3/computer_turns_on_but_no_screen_or_sound/
+
+---
+
+#### 3992. Can anybody help me completely wipe and then optimize my os on a secondhand budget gaming pc im getting?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9jul6/can_anybody_help_me_completely_wipe_and_then/
+
+---
+
+#### 3993. how to delete this folder
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9jn8k/how_to_delete_this_folder/
+
+---
+
+#### 3994. Acer nitro five charging issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9jjkz/acer_nitro_five_charging_issues/
+
+---
+
+#### 3995. Weird issue with file names
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9jav3/weird_issue_with_file_names/
+
+---
+
+#### 3996. Cant get my laptop docking hub to work.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9ja14/cant_get_my_laptop_docking_hub_to_work/
+
+---
+
+#### 3997. Help with USB drive. USB won't open on phone but opens on all other devices.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9j8j5/help_with_usb_drive_usb_wont_open_on_phone_but/
+
+---
+
+#### 3998. Controller causing exponential FPS drops
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9j2ke/controller_causing_exponential_fps_drops/
+
+---
+
+#### 3999. Does my iPhone have malware
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9ixqx/does_my_iphone_have_malware/
+
+---
+
+#### 4000. Android/google pixel group text messages sending in the wrong order.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9ig19/androidgoogle_pixel_group_text_messages_sending/
+
+---
+
+#### 4001. Microsoft Store Broken???
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9ibh2/microsoft_store_broken/
+
+---
+
+#### 4002. All of a sudden, my Bluetooth headset's microphone went really quiet and it makes occasional crackling noises.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9i5bi/all_of_a_sudden_my_bluetooth_headsets_microphone/
+
+---
+
+#### 4003. Battery runtime 30 minutes
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9i28d/battery_runtime_30_minutes/
+
+---
+
+#### 4004. Server no longer connecting through SSH and showing strange graphics when connected to a monitor.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1t9hx81/server_no_longer_connecting_through_ssh_and/
+
+---
+
+#### 4005. Suggestions for modern VPN solution
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t9fupe/suggestions_for_modern_vpn_solution/
+
+---
+
+#### 4006. Best linux sysadmin course for someone who knows commands but has gaps
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t9hpw1/best_linux_sysadmin_course_for_someone_who_knows/
+
+---
+
+#### 4007. Zkteco adms or data download via python
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t98f82/zkteco_adms_or_data_download_via_python/
+
+---
+
+#### 4008. Swiss banks/financial firms - how are you handling employee AI tool requests without breaking GDPR?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t9jpx0/swiss_banksfinancial_firms_how_are_you_handling/
+
+---
+
+#### 4009. Intel SPS Upgrade via ILO Repository Fails on Microserver Gen 10 Plus v2
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t9ieh8/intel_sps_upgrade_via_ilo_repository_fails_on/
+
+---
+
+#### 4010. FreeIPA + AD trust
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t9h2gy/freeipa_ad_trust/
+
+---
+
+#### 4011. What should I do?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t8rstw/what_should_i_do/
+
+---
+
+#### 4012. Site24x7 Monitoring Support
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t96ln1/site24x7_monitoring_support/
+
+---
+
+#### 4013. Looking for a way to search Dir *.* over and over again to use the hard drive for awhile.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t9h2rx/looking_for_a_way_to_search_dir_over_and_over/
+
+---
+
+#### 4014. Need Advice on creating a small network.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1t99aue/need_advice_on_creating_a_small_network/
+
+---
+
+#### 4015. I saw the comments. Let me tell you what's actually under the hood.
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1t8wfhv/i_saw_the_comments_let_me_tell_you_whats_actually/
+
+---
+
+#### 4016. Tip of the Week: If you have a file or folder selected in File Explorer, CTRL + Shift + C will copy the path to it
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t9es16/tip_of_the_week_if_you_have_a_file_or_folder/
+
+---
+
+#### 4017. An UWP WhatsApp client! (so barebones)
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t92b0u/an_uwp_whatsapp_client_so_barebones/
+
+---
+
+#### 4018. I saw the comments. Let me tell you what's actually under the hood.
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1t8we9r/i_saw_the_comments_let_me_tell_you_whats_actually/
+
+---
+
+#### 4019. BSOD happened , then I discover a heavy .DMP file in C drive. How do I proceed? (not tech savvy)
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t9dv7k/bsod_happened_then_i_discover_a_heavy_dmp_file_in/
+
+---
+
+#### 4020. I keep getting this window everytime i turn on my pc
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t96se8/i_keep_getting_this_window_everytime_i_turn_on_my/
+
+---
+
+#### 4021. Screen does not automatically lock after 15 minutes
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t938rq/screen_does_not_automatically_lock_after_15/
+
+---
+
+#### 4022. How long does it take for an advanced restart?
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t95jm4/how_long_does_it_take_for_an_advanced_restart/
+
+---
+
+#### 4023. 0xc000007b error seems unsolvable . I've tried everything I could find
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t9495v/0xc000007b_error_seems_unsolvable_ive_tried/
+
+---
+
+#### 4024. Notification area disappears in tablet mode
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t97mus/notification_area_disappears_in_tablet_mode/
+
+---
+
+#### 4025. I am encountering issues when trying to launch and play Roblox
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t97ckn/i_am_encountering_issues_when_trying_to_launch/
+
+---
+
+#### 4026. Lid/Battery/Power behavior question [Lenovo IdeaPad Pro 5i]
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t97aa1/lidbatterypower_behavior_question_lenovo_ideapad/
+
+---
+
+#### 4027. Internal microphone on windows 11 not working
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t92len/internal_microphone_on_windows_11_not_working/
+
+---
+
+#### 4028. Surface Laptop 2 failing to load
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t970kp/surface_laptop_2_failing_to_load/
+
+---
+
+#### 4029. My windows isn't booting, worked fine yesterday
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t8pn80/my_windows_isnt_booting_worked_fine_yesterday/
+
+---
+
+#### 4030. Out of Memory crashes 0x18 BSOD
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t92caa/out_of_memory_crashes_0x18_bsod/
+
+---
+
+#### 4031. Audio Enhancements keep turning themselves on
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t8zrsx/audio_enhancements_keep_turning_themselves_on/
+
+---
+
+#### 4032. I keep getting the IRQL_NOT_LESS_OR_EQUAL BSoD error and can't figure out the problem
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1t8hbax/i_keep_getting_the_irql_not_less_or_equal_bsod/
+
+---
+
+#### 4033. Simple Questions - May 09, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t8r4tk/simple_questions_may_09_2026/
+
+---
+
+#### 4034. spent all night troubleshooting and the monitor wasn’t plugged into the gpu
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t93q9l/spent_all_night_troubleshooting_and_the_monitor/
+
+---
+
+#### 4035. Buy used 7800X3D for 250€ and wait for ZEN6 or buy new 9800X3D for 390€?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t9javf/buy_used_7800x3d_for_250_and_wait_for_zen6_or_buy/
+
+---
+
+#### 4036. Should i wait for prices to go down to build my long-awaited first pc
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t95uj8/should_i_wait_for_prices_to_go_down_to_build_my/
+
+---
+
+#### 4037. Sanity check on upgrading CPU but staying on ddr4
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t9dpju/sanity_check_on_upgrading_cpu_but_staying_on_ddr4/
+
+---
+
+#### 4038. Got quoted $180 for a GPU repaste. Unsure if this is a fair price.
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t8u76j/got_quoted_180_for_a_gpu_repaste_unsure_if_this/
+
+---
+
+#### 4039. What would you replace first in an older PC?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t9b0jm/what_would_you_replace_first_in_an_older_pc/
+
+---
+
+#### 4040. Pc spec help
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t9iph8/pc_spec_help/
+
+---
+
+#### 4041. Buying a Desktop in 2026 worth it?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t9g4e8/buying_a_desktop_in_2026_worth_it/
+
+---
+
+#### 4042. Looking for a worthwhile CPU upgrade
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t9ejzu/looking_for_a_worthwhile_cpu_upgrade/
+
+---
+
+#### 4043. should i upgrade from 1080p to 1440p
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t9g8sc/should_i_upgrade_from_1080p_to_1440p/
+
+---
+
+#### 4044. Title: What should I upgrade next? GPU upgrade vs 1440p OLED monitor upgrade
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t996ee/title_what_should_i_upgrade_next_gpu_upgrade_vs/
+
+---
+
+#### 4045. Help me build a gaming pc
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t9ez6l/help_me_build_a_gaming_pc/
+
+---
+
+#### 4046. rate my pc build before buying it
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t9bbzz/rate_my_pc_build_before_buying_it/
+
+---
+
+#### 4047. Budget $400-450 gaming PC build complete, all used parts
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t9af7d/budget_400450_gaming_pc_build_complete_all_used/
+
+---
+
+#### 4048. which GPU should i get?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t9iac0/which_gpu_should_i_get/
+
+---
+
+#### 4049. Planning to go Wireless headset any recommendations around $100-200?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t8xi9h/planning_to_go_wireless_headset_any/
+
+---
+
+#### 4050. Assistance with new PC build
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t9fiyi/assistance_with_new_pc_build/
+
+---
+
+#### 4051. Wanting to buy a new pc, unsure between 2 really NEED HELP
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t970po/wanting_to_buy_a_new_pc_unsure_between_2_really/
+
+---
+
+#### 4052. Help me decide my next build parts
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t9kdlq/help_me_decide_my_next_build_parts/
+
+---
+
+#### 4053. No signal on First boot
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t9k7pq/no_signal_on_first_boot/
+
+---
+
+#### 4054. Terra Fractal Build Idea (feedback needed)
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t9jzvn/terra_fractal_build_idea_feedback_needed/
+
+---
+
+#### 4055. Looking for options for monitor stand or arm for couch
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t9jw5p/looking_for_options_for_monitor_stand_or_arm_for/
+
+---
+
+#### 4056. 16 Intake + 15 Exhaust vs 16 Intake and Exhaust W/ Higher Fan Curve on Intake ?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1t9jn6q/16_intake_15_exhaust_vs_16_intake_and_exhaust_w/
+
+---
+
+#### 4057. ASUS ROG Equalizer: I Forced 17A Through 3 Pins… Did It Melt? - YouTube
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t9how1/asus_rog_equalizer_i_forced_17a_through_3_pins/
+
+---
+
+#### 4058. China's Hanyuan-2 debuts as 'world's first' dual-core quantum computer — 200-qubit claims incredible power efficiency, but lacks critical performance benchmarks
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t9kdss/chinas_hanyuan2_debuts_as_worlds_first_dualcore/
+
+---
+
+#### 4059. The Sony Xperia 1 VIII is coming on May 13
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t8owel/the_sony_xperia_1_viii_is_coming_on_may_13/
+
+---
+
+#### 4060. GPU performance‑per‑dollar graphs (normalized, multi‑resolution)
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1t9eega/gpu_performanceperdollar_graphs_normalized/
+
+---
+
+#### 4061. I need a specific Xinput to KBM remaper
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t9gcqy/i_need_a_specific_xinput_to_kbm_remaper/
+
+---
+
+#### 4062. # [Update] I improved my lightweight tray temp monitor (C#) based on your feedback. Now with Dynamic Temperature-based Colors and Combined Tray mode!
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t9k9gr/update_i_improved_my_lightweight_tray_temp/
+
+---
+
+#### 4063. Which softwares reside on your tray?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t8qm7a/which_softwares_reside_on_your_tray/
+
+---
+
+#### 4064. CoseBase Understanding
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t9jdkd/cosebase_understanding/
+
+---
+
+#### 4065. Need an auto key presser that alternates between the tab and spacebar keys
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t9emr3/need_an_auto_key_presser_that_alternates_between/
+
+---
+
+#### 4066. PipZ has been updated.
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t96fq3/pipz_has_been_updated/
+
+---
+
+#### 4067. Looking for good OCR scanner software for Windows (offline, searchable PDFs)
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t8pyiv/looking_for_good_ocr_scanner_software_for_windows/
+
+---
+
+#### 4068. I need some career advice from developers who have experience with both Laravel and ASP.NET.
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t9961p/i_need_some_career_advice_from_developers_who/
+
+---
+
+#### 4069. Question about captchas
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t9bf8u/question_about_captchas/
+
+---
+
+#### 4070. Looking for a software that allows me to efficiently reorganize the pages in a PDF file
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t95h9h/looking_for_a_software_that_allows_me_to/
+
+---
+
+#### 4071. Chatbot
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t95e40/chatbot/
+
+---
+
+#### 4072. Screen recorder for Product Demos
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t944xb/screen_recorder_for_product_demos/
+
+---
+
+#### 4073. All software should come with a cyberpunk theme - RoloDex
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t8wxmy/all_software_should_come_with_a_cyberpunk_theme/
+
+---
+
+#### 4074. Will AI replace software engineers?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t930hr/will_ai_replace_software_engineers/
+
+---
+
+#### 4075. Software engineer
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1t8ptwb/software_engineer/
+
+---
+
+#### 4076. [V2EX] 请教一套出海独立站技术栈
+
+**问题描述 / Problem Description**:
+各位大佬，一个朋友做海外独立站，想请教一套技术栈，谢谢~ 具体内容包括： 前后端 数据库 服务器 CDN 支付 域名
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211718#reply4
+
+---
+
+#### 4077. [V2EX] Lingma 插件有能力支持自定义模型服务商,却没有开放该怎么办
+
+**问题描述 / Problem Description**:
+内置可选的服务商就是阿里百炼/GLM/MiniMax/Kimi 这几家 Coding Plan. 但阿里百炼的 Coding Plan 不仅没了丐版,200 元档也完全抢不到. 我想折反正普遍都是 Open AI 兼容接口, 为何不给放开自定义呢. 既然官方不动手我自己动手看看, 下载 Jetbrains Lingma 插件后,反编译,通过关键字搜索发现可用的服务商实际都是在线获取的. 完整的调用链： 模型服务商配置的获取流程： ByokConfigService.fetchAndCacheByokConfig() ↓ LanguageWebSocketService.getByokConfi
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211715#reply0
+
+---
+
+#### 4078. [V2EX] 你们常用的 ip/苹果商店是哪个国家 or 地区？
+
+**问题描述 / Problem Description**:
+先说说我吧，我好多年一直都是用的美国 ip 和美国苹果 ID ， 但近些年因为有了 ai ，就有了海外金融付费的需求，发现了很多金融机构和平台对美国 ip 并不友好， 但美国 ip 对 ai 又是极为友好的， 现在开始考虑在不分流的情况下，把 ip 和商店切换到哪个主要区域更合适呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211711#reply2
+
+---
+
+#### 4079. [V2EX] claude code mac 桌面端感觉很好用啊，为啥还是很多人只用 cli？
+
+**问题描述 / Problem Description**:
+特别是同时做多个项目，mac 桌面端一目了然。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211689#reply8
+
+---
+
+#### 4080. [V2EX] 求解无障碍里的 voice access 怎么启动
+
+**问题描述 / Problem Description**:
+这个语音控制软件，在中文语言里也是能通过语音点击包含文字的区域。至少控制 QQ 音乐是正常的。只是在中文语言环境，默认的那些英文命令优先翻译成中文，结果可能一踏糊涂。要验证英文命令，得在设置/系统/语言切换成默认英语语言才可以。 使用 PCAPdroid ，发现不管有墙无墙，只要启动 Voice 时有 dns 查询/连接到 www.google.com 的连接出现，不管域名是否被污染，稍后启动 SocksTun ，再启动前方的 Veles stunnel ，100%连接正常语音可上传服务器获得反馈。 问题是启动它的时候 99%看不到它的连接 www.google.com 出现在 PCAPdro
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211684#reply0
+
+---
+
+#### 4081. [V2EX] 为什么很多中转站都没上 grok-4.3?
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211683#reply0
+
+---
+
+#### 4082. [V2EX] 鬼神存在么，为什么有的事情无法解释？
+
+**问题描述 / Problem Description**:
+总有一些传闻，一些怪病，医院没招了，回去请菩萨，菩萨告诉是哪哪做的不对，遇到了什么不妥的东西，然后采取某种措施，好了。有些还从亲戚嘴里说出，斩钉截铁的说是切身看到的，这东西到底怎么用科学解释 我见过葬礼上受了惊吓，要念经赐一碗水的，确实就好了，科学的尽头是玄学？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211681#reply23
+
+---
+
+#### 4083. [V2EX] 有没有电商 image2 图片的生成网站
+
+**问题描述 / Problem Description**:
+有没有电商 image2 图片的生成网站，或者开源项目也可以，能填入自己的 API 和 KEY 使用的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211674#reply1
+
+---
+
+#### 4084. [V2EX] 安卓 17 没人讨论吗？要出 PC 桌面模式了
+
+**问题描述 / Problem Description**:
+以后折叠屏安卓可以做不少事情了。 远程桌面到刷系统，代替现有轻薄笔记本的部分功能。 加上一线通，处理本地的部分工作，娱乐视频也不错。 原生 linux ，超长的待机。 感觉是一次很大的功能和版本升级。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211669#reply32
+
+---
+
+#### 4085. [V2EX] 阿里云怎么这么奇葩
+
+**问题描述 / Problem Description**:
+昨天接到阿里云推销电话，今天想试试国内厂家的云服务，就购买了一台首尔的，没想到运气有点背，拿到的 IP 直接是被墙了的，发工单说明原因，给的回复是轻量云不支持更换 IP ，让我退款，退款了，再购买就不是新人价格了，跟客服理论，还说是我购买了海外云，只保证海外能连接，大陆地区不保证。。。。我真是无语，请问国内云服务商都是这种“爱买不买的态度吗”
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211668#reply6
+
+---
+
+#### 4086. [V2EX] 请问有无生产相同书写笔迹的网站或者 AI 呢
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211657#reply0
+
+---
+
+#### 4087. [V2EX] 湖南紫今驿站是哪家开的？早 10 点开门晚 6 点 45 关门。
+
+**问题描述 / Problem Description**:
+附近本来只有家招牌是菜鸟的系统是多多的七十平米左右的驿站。日收包裹在三四百单。 年后在它正对面新开了家十来平米的韵达驿站，日收包裹不超 50 单。通过短信取件码及现场目测，他只有一个货架。 韵达驿站估计只活了一个月，4 月初招牌改成“紫今驿站”。貌似专收邮政的件，晚上去取件时吃了闭门羹，门上贴了半张 A4 纸，“开门时间 10:00-18:45"。 我一般要七点半八点钟才能回去，现在就成了：邮政包裹只能放紫今驿站，驿站唯一的中年女工作人员在下班后去马路对面把我的件存入菜鸟/多多驿站。 今天又有三个邮政件，那工作人员电话联系时有点要崩的感觉。。。。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211649#reply1
+
+---
+
+#### 4088. [V2EX] 机械键盘、静电容
+
+**问题描述 / Problem Description**:
+这两天看飞智出了个磁轴键盘，然后就开始看国产的这些键盘，什么 nuphy air v3 ，洛菲 flow2 。 本人在用的是 niz ，以前也用过 hhkb （因为方向键的问题适应不了），后面也试过 realforce （ mac 版本只有 45g 很重适应不了），最后就是用的 niz ，家里一把，公司一把。 公司的有点太脏了，也想体验体验新键盘。但是今天突然发现 realforce 去年出了一个新的配列 rc1 ，虽然没有 mac 版（就是 command1.5u 的版本），但是 niz 用了这么久其实也适应了 1u 的 command 。有点心动。 看了一下咸鱼，1200-1300 能收到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211639#reply6
+
+---
+
+#### 4089. [V2EX] phpstorm 编辑的时候很卡
+
+**问题描述 / Problem Description**:
+一个 chrome 插件项目，一个 js 文件 2000 行左右，进行编辑的时候很卡。关掉代码检查就正常了，不过要是关掉它的话，还用 ide 做啥。 不是电脑性能问题，内存也给够了，谷歌搜索了一下不少人都有同样的问题，不过没有找到解决方案。 有人有解决方案吗？谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211630#reply1
+
+---
+
+#### 4090. [V2EX] 618 推荐买 n100 吗
+
+**问题描述 / Problem Description**:
+最近想折腾个低功耗小主机，目标是软路由 + 几个 Docker 服务（ Vaultwarden 之类的）。 2026 年了，这个机器竞争力吗？ 618 还能便宜捡漏吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211606#reply26
+
+---
+
+#### 4091. [V2EX] 如何按区域屏蔽外卖店铺
+
+**问题描述 / Problem Description**:
+天津某大学圈旁边有个预制菜一条街，自取过两三次感觉太恶心了。 店里面是拼桌子，说是能堂食，实则是多加预制菜店铺合租，然后共用一个桌子。照片与堂食环境根本不符。京东上也出现了该地区的店铺。 可以说直接屏蔽该地点的店铺（非连锁型）没有一个冤枉的。 如何按区域批量屏蔽外卖店铺
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211596#reply5
+
+---
+
+#### 4092. [V2EX] 突然想练练字，有什么硬笔推荐吗？
+
+**问题描述 / Problem Description**:
+最近感觉很空虚，工作也没有什么成就感，可能平常 AI 用太多了，有什么问题现在都不思考，直接问 AI 要解决方案。 忽然就想提升一些自身技能，就想到练字，但对软的毛笔没什么感觉，嫌麻烦。 硬笔感觉简单直接快速一点，所以想要一种硬笔练练字，可以写出一定的锋芒，有神态，有可玩性的笔。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211583#reply11
+
+---
+
+#### 4093. [V2EX] 求推荐云盘
+
+**问题描述 / Problem Description**:
+目前用的是 123 ，里面大概有 12T 的影视资源，想请教一下各位大佬用的都是什么云盘，排除自建
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1211547#reply8
 
 ---
