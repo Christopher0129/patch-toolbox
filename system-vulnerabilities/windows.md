@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 620**
+**总计条目 / Total entries: 640**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -9830,5 +9830,327 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 **参考链接 / References**:
 - https://www.cve.org/CVERecord?id=CVE-2026-43474
+
+---
+
+#### 621. [Microsoft] CVE-2026-42893 - Microsoft Outlook for iOS Tampering Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: M365 Copilot
+
+**漏洞描述 / Description**:
+[Microsoft] Improper neutralization of special elements used in a command ('command injection') in M365 Copilot allows an unauthorized attacker to perform tampering over a network.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-42893
+
+---
+
+#### 622. [Microsoft] CVE-2025-54518 - AMD: CVE-2025-54518 CPU OP Cache Corruption
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: AMD CPU Branch
+
+**漏洞描述 / Description**:
+[Microsoft] This vulnerability was found and addressed by AMD. We are documenting it in the Security Update Guide to encourage customers to install the May 2026 version of Windows as soon as possible. 
+
+The vulnerability assigned to this CVE is in certain processor models offered by AMD. The mitigation for this vulnerability requires a Windows update. This CVE is being documented in the Security Update Guide
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2025-54518
+
+---
+
+#### 623. [Microsoft] CVE-2026-42833 - Microsoft Dynamics 365 On-Premises Remote Code Execution Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Microsoft Dynamics 365 (on-premises)
+
+**漏洞描述 / Description**:
+[Microsoft] Execution with unnecessary privileges in Microsoft Dynamics 365 (on-premises) allows an authorized attacker to execute code over a network.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-42833
+
+---
+
+#### 624. [Microsoft] CVE-2026-42832 - Microsoft Office Spoofing Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Microsoft Office
+
+**漏洞描述 / Description**:
+[Microsoft] Improper access control in Microsoft Office allows an unauthorized attacker to perform spoofing locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-42832
+
+---
+
+#### 625. [Microsoft] CVE-2026-42830 - Azure Monitor Agent Metrics Extension Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Azure Monitor Agent
+
+**漏洞描述 / Description**:
+[Microsoft] Untrusted search path in Azure Monitor Agent allows an authorized attacker to elevate privileges locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-42830
+
+---
+
+#### 626. [Microsoft] CVE-2026-42823 - Azure Logic Apps Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Azure Logic Apps
+
+**漏洞描述 / Description**:
+[Microsoft] Improper access control in Azure Logic Apps allows an authorized attacker to elevate privileges over a network.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-42823
+
+---
+
+#### 627. [Microsoft] CVE-2026-41613 - Visual Studio Code Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Visual Studio Code
+
+**漏洞描述 / Description**:
+[Microsoft] Session fixation in Visual Studio Code allows an unauthorized attacker to elevate privileges over a network.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-41613
+
+---
+
+#### 628. [Microsoft] CVE-2026-41103 - Microsoft SSO Plugin for Jira & Confluence Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Microsoft SSO Plugin for Jira & Confluence
+
+**漏洞描述 / Description**:
+[Microsoft] Incorrect implementation of authentication algorithm in Microsoft SSO Plugin for Jira & Confluence allows an unauthorized attacker to elevate privileges over a network.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-41103
+
+---
+
+#### 629. [Microsoft] CVE-2026-40381 - Azure Connected Machine Agent Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Azure Connected Machine Agent
+
+**漏洞描述 / Description**:
+[Microsoft] Improper access control in Azure Connected Machine Agent allows an authorized attacker to elevate privileges locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-40381
+
+---
+
+#### 630. [Microsoft] CVE-2026-41097 - Secure Boot Security Feature Bypass Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows Secure Boot
+
+**漏洞描述 / Description**:
+[Microsoft] Reliance on a component that is not updateable in Windows Secure Boot allows an authorized attacker to bypass a security feature locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-41097
+
+---
+
+#### 631. [Microsoft] CVE-2026-41086 - Windows Admin Center in Azure Portal Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows Admin Center
+
+**漏洞描述 / Description**:
+[Microsoft] Improper access control in Windows Admin Center allows an authorized attacker to elevate privileges over a network.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-41086
+
+---
+
+#### 632. [Microsoft] CVE-2026-40420 - Microsoft Office Click-To-Run Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Microsoft Office Click-To-Run
+
+**漏洞描述 / Description**:
+[Microsoft] Improper access control in Microsoft Office Click-To-Run allows an authorized attacker to elevate privileges locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-40420
+
+---
+
+#### 633. [Microsoft] CVE-2026-35436 - Microsoft Office Click-To-Run Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Microsoft Office Click-To-Run
+
+**漏洞描述 / Description**:
+[Microsoft] Insufficient granularity of access control in Microsoft Office Click-To-Run allows an authorized attacker to elevate privileges locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-35436
+
+---
+
+#### 634. [Microsoft] CVE-2026-40418 - Microsoft Office Click-To-Run Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Microsoft Office Click-To-Run
+
+**漏洞描述 / Description**:
+[Microsoft] Use after free in Microsoft Office Click-To-Run allows an authorized attacker to elevate privileges locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-40418
+
+---
+
+#### 635. [Microsoft] CVE-2026-40413 - Windows TCP/IP Denial of Service Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows TCP/IP
+
+**漏洞描述 / Description**:
+[Microsoft] Null pointer dereference in Windows TCP/IP allows an unauthorized attacker to deny service over an adjacent network.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-40413
+
+---
+
+#### 636. [Microsoft] CVE-2026-40403 - Windows Graphics Component Remote Code Execution Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Windows Win32K - GRFX
+
+**漏洞描述 / Description**:
+[Microsoft] Heap-based buffer overflow in Windows Win32K - GRFX allows an authorized attacker to execute code locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-40403
+
+---
+
+#### 637. [Microsoft] CVE-2026-40402 - Windows Hyper-V Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Windows Hyper-V
+
+**漏洞描述 / Description**:
+[Microsoft] Use after free in Windows Hyper-V allows an unauthorized attacker to elevate privileges locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-40402
+
+---
+
+#### 638. [Microsoft] CVE-2026-40401 - Windows TCP/IP Denial of Service Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows TCP/IP
+
+**漏洞描述 / Description**:
+[Microsoft] Null pointer dereference in Windows TCP/IP allows an unauthorized attacker to deny service locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-40401
+
+---
+
+#### 639. [Microsoft] CVE-2026-40398 - Windows Remote Desktop Services Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows Remote Desktop
+
+**漏洞描述 / Description**:
+[Microsoft] Heap-based buffer overflow in Windows Remote Desktop allows an authorized attacker to elevate privileges locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-40398
+
+---
+
+#### 640. [Microsoft] CVE-2026-32209 - Windows Filtering Platform (WFP) Security Feature Bypass Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows Filtering Platform (WFP)
+
+**漏洞描述 / Description**:
+[Microsoft] Improper access control in Windows Filtering Platform (WFP) allows an authorized attacker to bypass a security feature locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-32209
 
 ---

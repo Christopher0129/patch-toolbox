@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1471**
+**总计条目 / Total entries: 1473**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -27740,5 +27740,37 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8200-3
+
+---
+
+#### 1472. [Ubuntu] USN-8270-1: Exim vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Exim incorrectly handled BDAT body parsing. A remote attacker could use this issue to cause Exim to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8270-1
+
+---
+
+#### 1473. [Ubuntu] USN-8263-1: ImageMagick vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that ImageMagick incorrectly handled certain malformed image files in certain instances. If a user or automated system using ImageMagick were tricked into opening a specially crafted image, an attacker could possibly use these issues to cause a denial of service or possibly execute code. These issues only affected Ubuntu 14.04 LTS. (CVE-2018-15607, CVE-2018-18544, CVE-2019-13137,
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8263-1
 
 ---
