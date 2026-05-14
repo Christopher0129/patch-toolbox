@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 640**
+**总计条目 / Total entries: 642**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -10152,5 +10152,37 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 **参考链接 / References**:
 - https://www.cve.org/CVERecord?id=CVE-2026-32209
+
+---
+
+#### 641. [Microsoft] CVE-2026-41615 - Microsoft Authenticator Information Disclosure Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Microsoft Authenticator
+
+**漏洞描述 / Description**:
+[Microsoft] Exposure of sensitive information to an unauthorized actor in Microsoft Authenticator allows an unauthorized attacker to disclose information over a network.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-41615
+
+---
+
+#### 642. [Microsoft] CVE-2026-42897 - Microsoft Exchange Server Spoofing Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Microsoft Exchange Server
+
+**漏洞描述 / Description**:
+[Microsoft] Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Exchange Server allows an unauthorized attacker to perform spoofing over a network.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-42897
 
 ---

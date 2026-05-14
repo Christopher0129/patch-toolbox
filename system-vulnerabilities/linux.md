@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1474**
+**总计条目 / Total entries: 1496**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -27788,5 +27788,357 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8268-1
+
+---
+
+#### 1475. CVE-2026-42945 - nginx: NGINX: Arbitrary Code Execution Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] nginx: NGINX: Arbitrary Code Execution Vulnerability. Bugzilla: 2477116
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477116
+
+---
+
+#### 1476. CVE-2026-46300 - kernel: "Fragnesia" is a variant of Dirty Frag vulnerability in the ESP/XFRM…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: "Fragnesia" is a variant of Dirty Frag vulnerability in the ESP/XFRM leading to Local Privilege Escalation (LPE) vulnerability in the Linux kernel. Bugzilla: 2477015
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477015
+
+---
+
+#### 1477. CVE-2026-43481 - kernel: net-shapers: don't free reply skb after genlmsg_reply()
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net-shapers: don't free reply skb after genlmsg_reply(). Bugzilla: 2477055
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477055
+
+---
+
+#### 1478. CVE-2026-43478 - kernel: ASoC: codecs: rt1011: Use component to get the dapm context in spk_mode_put
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ASoC: codecs: rt1011: Use component to get the dapm context in spk_mode_put. Bugzilla: 2477060
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477060
+
+---
+
+#### 1479. CVE-2026-43480 - kernel: ASoC: amd: acp3x-rt5682-max9836: Add missing error check for clock…
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ASoC: amd: acp3x-rt5682-max9836: Add missing error check for clock acquisition. Bugzilla: 2477069
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477069
+
+---
+
+#### 1480. CVE-2026-43483 - kernel: KVM: SVM: Set/clear CR8 write interception when AVIC is (de)activated
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: KVM: SVM: Set/clear CR8 write interception when AVIC is (de)activated. Bugzilla: 2477073
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477073
+
+---
+
+#### 1481. CVE-2026-43482 - kernel: sched_ext: Disable preemption between scx_claim_exit() and kicking helper…
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: sched_ext: Disable preemption between scx_claim_exit() and kicking helper work. Bugzilla: 2477079
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477079
+
+---
+
+#### 1482. CVE-2026-43484 - kernel: mmc: core: Avoid bitfield RMW for claim/retune flags
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: mmc: core: Avoid bitfield RMW for claim/retune flags. Bugzilla: 2477080
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477080
+
+---
+
+#### 1483. CVE-2026-43488 - kernel: usb: xhci: Prevent interrupt storm on host controller error (HCE)
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: usb: xhci: Prevent interrupt storm on host controller error (HCE). Bugzilla: 2477084
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477084
+
+---
+
+#### 1484. CVE-2026-43485 - kernel: nouveau/gsp: drop WARN_ON in ACPI probes
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: nouveau/gsp: drop WARN_ON in ACPI probes. Bugzilla: 2477092
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477092
+
+---
+
+#### 1485. CVE-2026-43477 - kernel: drm/i915/vrr: Configure VRR timings after enabling TRANS_DDI_FUNC_CTL
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: drm/i915/vrr: Configure VRR timings after enabling TRANS_DDI_FUNC_CTL. Bugzilla: 2477093
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477093
+
+---
+
+#### 1486. CVE-2026-43489 - kernel: liveupdate: luo_file: remember retrieve() status
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: liveupdate: luo_file: remember retrieve() status. Bugzilla: 2477126
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477126
+
+---
+
+#### 1487. CVE-2026-43479 - kernel: net: usb: lan78xx: fix WARN in __netif_napi_del_locked on disconnect
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: usb: lan78xx: fix WARN in __netif_napi_del_locked on disconnect. Bugzilla: 2477131
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477131
+
+---
+
+#### 1488. CVE-2026-43486 - kernel: arm64: contpte: fix set_access_flags() no-op check for SMMU/ATS faults
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: arm64: contpte: fix set_access_flags() no-op check for SMMU/ATS faults. Bugzilla: 2477140
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477140
+
+---
+
+#### 1489. CVE-2026-43476 - kernel: iio: chemical: sps30_i2c: fix buffer size in sps30_i2c_read_meas()
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: iio: chemical: sps30_i2c: fix buffer size in sps30_i2c_read_meas(). Bugzilla: 2477145
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477145
+
+---
+
+#### 1490. CVE-2026-8449 - kernel: ksmbd: Linux ksmbd: Privilege Escalation via crafted DACL in ACL inheritance
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ksmbd: Linux ksmbd: Privilege Escalation via crafted DACL in ACL inheritance. Bugzilla: 2476870
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2476870
+
+---
+
+#### 1491. CVE-2026-6402 - webpack-dev-server: webpack-dev-server: Information disclosure due to cross-origin…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] webpack-dev-server: webpack-dev-server: Information disclosure due to cross-origin source code exposure. Bugzilla: 2476411
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2476411
+
+---
+
+#### 1492. CVE-2026-43896 - jq: stack overflow in recursive object merge
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] jq: stack overflow in recursive object merge. Bugzilla: 2469184
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2469184
+
+---
+
+#### 1493. CVE-2026-44777 - jq: stack overflow in module loading on mutual include
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] jq: stack overflow in module loading on mutual include. Bugzilla: 2469192
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2469192
+
+---
+
+#### 1494. CVE-2026-43894 - jq: jq: Arbitrary Code Execution or Denial of Service via Signed Integer Overflow
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] jq: jq: Arbitrary Code Execution or Denial of Service via Signed Integer Overflow. Bugzilla: 2469175
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2469175
+
+---
+
+#### 1495. [Ubuntu] USN-8271-1: nginx vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the nginx ngx_http_rewrite_module component incorrectly handled certain rewrite directives. A remote attacker could use this issue to cause nginx to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8271-1
+
+---
+
+#### 1496. [Ubuntu] USN-8269-1: Avahi vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It is discovered that Avahi incorrectly handled crafted input. A remote attacker could possibly use this issue to crash the program, resulting in a denial of service. This issue only affected Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. (CVE-2026-24401) Guillaume Meunier discovered that Avahi incorrectly handled crafted input. An at
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8269-1
 
 ---
