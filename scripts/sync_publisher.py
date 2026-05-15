@@ -2,6 +2,15 @@
 """
 Sync Script: Publisher
 汇总同步结果，从SQLite重新生成MD，推送GitHub。
+
+Stage boundaries (explicit):
+  1. READ_REPORTS   — 读取各分类 sync 报告
+  2. PREFLIGHT      — 验证 DB、git 等前置条件
+  3. REGENERATE_MD  — 从 SQLite 重新生成 MD 文件
+  4. VECTOR_INDEX   — 向量索引增量更新（可选）
+  5. GENERATE_REPORT— 生成汇报文件
+  6. VERIFY         — 验证生成结果完整性
+  7. GIT_PUSH       — 提交并推送至 GitHub
 """
 import sys
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
@@ -12,9 +21,11 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from utils import (
-    log_sync, git_push, write_md_file,
-    regenerate_all_md, DB_DIR,
+    log_sync, log_stage_start, log_stage_end,
+    git_push, write_md_file,
+    regenerate_all_md, preflight_check, DB_DIR,
 )
+from verify_db_sync import verify_sync_state
 
 # 向量搜索可选集成
 try:
@@ -73,7 +84,9 @@ def run():
     log_sync(SYNC_NAME, "=" * 40)
     log_sync(SYNC_NAME, "Starting publisher run")
 
-    # 1. 读取三个 sync 报告
+    # ── Stage 1: READ_REPORTS ──────────────────────────────────────────
+    log_stage_start("READ_REPORTS")
+
     reports = {}
     for key, path in REPORTS.items():
         reports[key] = read_report(path)
@@ -84,17 +97,39 @@ def run():
     for r in reports.values():
         all_errors.extend(r.get("errors", []))
 
-    # 2. 从 SQLite 统计总条目数
-    sqlite_counts = count_from_sqlite()
-    total_all = sum(sqlite_counts.values())
+    log_sync(SYNC_NAME, f"  Total new items across reports: {total_new}")
+    log_sync(SYNC_NAME, f"  Total errors across reports: {len(all_errors)}")
+    log_stage_end("READ_REPORTS", "OK", f"{total_new} new, {len(all_errors)} errors")
 
-    # 3. 重新生成 MD 文件
+    # ── Stage 2: PREFLIGHT ─────────────────────────────────────────────
+    log_stage_start("PREFLIGHT")
+
+    pf = preflight_check(require_agents_dir=True)
+    pf_failures = [c for c in pf["checks"] if not c["ok"]]
+    for c in pf_failures:
+        log_sync(SYNC_NAME, f"  ⚠ Preflight failure: {c['name']} — {c['detail']}")
+    if pf["ok"]:
+        log_sync(SYNC_NAME, f"  Preflight: {pf['summary']}")
+        log_stage_end("PREFLIGHT", "OK", pf["summary"])
+    else:
+        log_sync(SYNC_NAME, f"  Preflight FAILED: {pf['summary']}")
+        log_stage_end("PREFLIGHT", "FAIL", pf["summary"])
+        log_sync(SYNC_NAME, "Aborting: preflight checks failed")
+        return {"total_new": total_new, "total_all": 0, "github_ok": False, "errors": len(all_errors), "preflight_failures": len(pf_failures)}
+
+    # ── Stage 3: REGENERATE_MD ─────────────────────────────────────────
+    log_stage_start("REGENERATE_MD")
+
     log_sync(SYNC_NAME, "Regenerating MD files from SQLite...")
     md_ok = regenerate_all_md()
     if not md_ok:
         log_sync(SYNC_NAME, "WARNING: MD regeneration may have failed")
 
-    # 3.5 向量索引增量更新（若配置启用）
+    log_stage_end("REGENERATE_MD", "WARN" if not md_ok else "OK")
+
+    # ── Stage 4: VECTOR_INDEX ──────────────────────────────────────────
+    log_stage_start("VECTOR_INDEX")
+
     if _VEC_AVAILABLE:
         try:
             from vector_search.config import VectorConfig
@@ -121,7 +156,13 @@ def run():
     else:
         log_sync(SYNC_NAME, "Vector search module not available — skipping vec-index update")
 
-    # 4. 生成汇报文件
+    log_stage_end("VECTOR_INDEX", "OK")
+
+    # ── Stage 5: GENERATE_REPORT ───────────────────────────────────────
+    log_stage_start("GENERATE_REPORT")
+
+    sqlite_counts = count_from_sqlite()
+    total_all = sum(sqlite_counts.values())
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
@@ -151,7 +192,24 @@ def run():
     write_md_file(AGENTS_DIR / f"report_{today}.md", report_md)
     log_sync(SYNC_NAME, "Report generated")
 
-    # 5. GitHub 推送
+    log_stage_end("GENERATE_REPORT", "OK", f"{total_new} new, {total_all} total")
+
+    # ── Stage 6: VERIFY ────────────────────────────────────────────────
+    log_stage_start("VERIFY")
+
+    verify_result = verify_sync_state()
+    log_sync(SYNC_NAME, f"  Verify: {verify_result['summary']}")
+    if verify_result["ok"]:
+        log_stage_end("VERIFY", "OK", verify_result["summary"])
+    else:
+        log_sync(SYNC_NAME, f"  Verify FAILED: {verify_result['summary']}")
+        log_stage_end("VERIFY", "FAIL", verify_result["summary"])
+        log_sync(SYNC_NAME, "Aborting: post-regeneration verification failed")
+        return {"total_new": total_new, "total_all": total_all, "github_ok": False, "errors": len(all_errors), "verify_ok": False}
+
+    # ── Stage 7: GIT_PUSH ──────────────────────────────────────────────
+    log_stage_start("GIT_PUSH")
+
     push_result = git_push(f"update: {today} — {total_new} new, {total_all} total")
     gh_ok = push_result.get("github", False)
     if gh_ok:
@@ -159,7 +217,9 @@ def run():
     else:
         log_sync(SYNC_NAME, "GitHub push failed or nothing to commit")
 
-    # 6. 简短文字汇报
+    log_stage_end("GIT_PUSH", "OK" if gh_ok else "FAIL")
+
+    # ── Final summary ──────────────────────────────────────────────────
     push_status = "✅ GitHub" if gh_ok else "❌ GitHub"
     summary = f"""📋 汇报 | Report
 ━━━━━━━━━━━━━━━━━━━━━

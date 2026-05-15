@@ -390,6 +390,96 @@ def _git_push_secure(remote: str, branch: str, token: str, env: dict) -> bool:
             askpass.unlink()
 
 
+def log_stage_start(stage: str) -> None:
+    """记录阶段开始，提供显式的 stage 边界。"""
+    sep = "─" * 50
+    msg = f"\n{sep}\n▶ STAGE START: {stage}\n{sep}"
+    log_sync("stage", msg)
+
+
+def log_stage_end(stage: str, status: str = "OK", details: str = "") -> None:
+    """记录阶段结束状态。"""
+    sep = "─" * 50
+    msg = f"\n{sep}\n◼ STAGE END: {stage} — {status}"
+    if details:
+        msg += f" | {details}"
+    msg += f"\n{sep}"
+    log_sync("stage", msg)
+
+
+def preflight_check(require_agents_dir: bool = False) -> dict:
+    """发布前预检查：验证核心目录、DB 文件、git 状态。
+    返回 dict {ok: bool, checks: list[dict], summary: str}
+    """
+    checks = []
+    all_ok = True
+
+    # Check DB files exist and have entries
+    db_files = [
+        ("network-security", DB_DIR / "network-security.db"),
+        ("system-vulnerabilities", DB_DIR / "system-vulnerabilities.db"),
+        ("system-troubleshooting", DB_DIR / "system-troubleshooting.db"),
+    ]
+    for name, db_path in db_files:
+        if not db_path.exists():
+            checks.append({"name": f"db/{name}", "ok": False, "detail": "file not found"})
+            all_ok = False
+        else:
+            try:
+                conn = sqlite3.connect(str(db_path))
+                c = conn.cursor()
+                c.execute("SELECT COUNT(*) FROM entries")
+                count = c.fetchone()[0]
+                conn.close()
+                checks.append({"name": f"db/{name}", "ok": True, "detail": f"{count} entries"})
+            except Exception as e:
+                checks.append({"name": f"db/{name}", "ok": False, "detail": str(e)})
+                all_ok = False
+
+    # Check agents dir if requested
+    if require_agents_dir:
+        has_agents = AGENTS_DIR.exists()
+        checks.append({"name": "agents_dir", "ok": has_agents, "detail": "exists" if has_agents else "not found"})
+        if not has_agents:
+            all_ok = False
+
+    # Check markdown output dirs exist (created by regeneration, but verify target locations are writable)
+    md_dirs = [
+        PROJECT_ROOT / "network-security",
+        PROJECT_ROOT / "system-vulnerabilities",
+        PROJECT_ROOT / "system-troubleshooting",
+    ]
+    for d in md_dirs:
+        ok = d.exists() or d.parent.exists()
+        checks.append({"name": f"md/{d.name}", "ok": ok, "detail": "exists" if d.exists() else "parent exists (will be created)"})
+        if not ok:
+            all_ok = False
+
+    # Git status check (not dirty beyond expectations? just check git repo)
+    try:
+        r = subprocess.run(
+            ["git", "rev-parse", "--git-dir"],
+            capture_output=True, text=True,
+            cwd=PROJECT_ROOT
+        )
+        git_ok = r.returncode == 0
+        checks.append({"name": "git_repo", "ok": git_ok, "detail": "valid" if git_ok else "not a git repository"})
+        if not git_ok:
+            all_ok = False
+    except Exception as e:
+        checks.append({"name": "git_repo", "ok": False, "detail": str(e)})
+        all_ok = False
+
+    ok_count = sum(1 for c in checks if c["ok"])
+    total_count = len(checks)
+
+    return {
+        "ok": all_ok,
+        "checks": checks,
+        "summary": f"{ok_count}/{total_count} checks passed",
+    }
+
+
 def write_report(sync_name: str, new_count: int, total_count: int, errors: List[str] = None):
     report = {
         "sync": sync_name,
