@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, X, FileText, Shield, Bug, Wrench, ArrowRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useTranslation } from '@/i18n/LanguageContext';
 import { loadSearchIndex } from '@/lib/search';
 import { cn } from '@/lib/utils';
@@ -39,6 +39,7 @@ interface SearchDialogProps {
 
 export default function SearchDialog({ open, onClose }: SearchDialogProps) {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   const [query, setQuery] = useState('');
   const [index, setIndex] = useState<SearchHit[]>([]);
   const [loaded, setLoaded] = useState(false);
@@ -85,6 +86,12 @@ export default function SearchDialog({ open, onClose }: SearchDialogProps) {
       .slice(0, 100);
   })();
 
+  const buildHitTarget = useCallback((hit: SearchHit) => {
+    const meta = CATEGORY_META[hit.category];
+    if (!meta) return '#';
+    return `${meta.route}#${hit.slug}`;
+  }, []);
+
   const handleKeyDown = useCallback(
     (e: React.KeyboardEvent) => {
       if (e.key === 'ArrowDown') {
@@ -96,17 +103,14 @@ export default function SearchDialog({ open, onClose }: SearchDialogProps) {
       } else if (e.key === 'Enter' && results[selectedIdx]) {
         e.preventDefault();
         const hit = results[selectedIdx];
-        const meta = CATEGORY_META[hit.category];
-        if (meta) {
-          onClose();
-          // Navigate - we use window.location to force a full page refresh for the anchor
-          window.location.href = meta.route;
-        }
+        const target = buildHitTarget(hit);
+        onClose();
+        navigate(target);
       } else if (e.key === 'Escape') {
         onClose();
       }
     },
-    [results, selectedIdx, onClose],
+    [buildHitTarget, navigate, results, selectedIdx, onClose],
   );
 
   // Format title for display (remove slug prefix noise)
@@ -184,7 +188,7 @@ export default function SearchDialog({ open, onClose }: SearchDialogProps) {
                     return (
                       <li key={hit.slug}>
                         <Link
-                          to={meta.route}
+                          to={buildHitTarget(hit)}
                           onClick={onClose}
                           className={cn(
                             'flex items-center gap-3 px-5 py-3 text-sm transition-colors',
