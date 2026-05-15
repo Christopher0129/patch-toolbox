@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1051**
+**总计条目 / Total entries: 1052**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -17680,5 +17680,21 @@ Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
 - https://support.apple.com/HT208221
 - http://www.securitytracker.com/id/1039710
 - https://support.apple.com/HT208221
+
+---
+
+#### 1052. [Apple] Safari 26.5
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: macOS, iOS, iPadOS, watchOS, tvOS
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for affected products and patch instructions.
+
+**补丁信息 / Patch Info**:
+Update to the latest Apple software version via System Settings > Software Update.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127121
 
 ---

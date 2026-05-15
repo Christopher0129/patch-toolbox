@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 846**
+**总计条目 / Total entries: 854**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -12542,5 +12542,101 @@ Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52551
+
+---
+
+#### 847. [webapps] Ninja Forms Uploads - Unauthenticated PHP File Upload
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Ninja Forms Uploads - Unauthenticated PHP File Upload
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52560
+
+---
+
+#### 848. [webapps] glances 4.5.2 - command injection
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] glances 4.5.2 - command injection
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52559
+
+---
+
+#### 849. [webapps] coreruleset 4.21.0 - Firewall Bypass
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] coreruleset 4.21.0 - Firewall Bypass
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52558
+
+---
+
+#### 850. [webapps] Flowise < 3.0.5 - Missing Authentication for Critical Function
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Flowise < 3.0.5 - Missing Authentication for Critical Function
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52557
+
+---
+
+#### 851. [webapps] WordPress Plugin Supsystic Contact Form 1.7.36 - SSTI
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] WordPress Plugin Supsystic Contact Form 1.7.36 - SSTI
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52564
+
+---
+
+#### 852. [webapps] Apache HertzBeat 1.8.0 - Remote Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Apache HertzBeat 1.8.0 - Remote Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52563
+
+---
+
+#### 853. [webapps] ePati Antikor NGFW 2.0.1301 -  Authentication Bypass
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] ePati Antikor NGFW 2.0.1301 - Authentication Bypass
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52562
+
+---
+
+#### 854. [webapps] PJPROJECT 2.16 - Heap Bufferoverflow
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] PJPROJECT 2.16 - Heap Bufferoverflow
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52561
 
 ---

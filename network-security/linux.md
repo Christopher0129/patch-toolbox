@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1429**
+**总计条目 / Total entries: 1594**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -23062,5 +23062,2455 @@ this warning:
 - https://git.kernel.org/stable/c/7c1d221e475e3d8eb8ed4702392d43f8c5134d1f
 - https://git.kernel.org/stable/c/7e4d88e36e5d0b8ffda637999cbca64c81701a81
 - https://git.kernel.org/stable/c/d191101dee25567c2af3b28565f45346c33d65f5
+
+---
+
+#### 1430. [Ubuntu] USN-8268-1: Dnsmasq vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Andrew S. Fasano, Royce M, and Hugo Martinez Ray discovered that Dnsmasq did not allocate the necessary space to store domain names in some contexts. An attacker could possibly use this issue to write out-of-bounds, and could cause a denial of service or execute arbitrary code. (CVE-2026-2291) Royce M discovered that Dnsmasq could loop infinitely due to erroneously missing the window header. An at
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8268-1
+
+---
+
+#### 1431. CVE-2008-4313
+
+**严重程度 / Severity**: N/A | CVSS: 6.0
+
+**漏洞描述 / Description**:
+A certain Red Hat patch for tog-pegasus in OpenGroup Pegasus 2.7.0 does not properly configure the PAM tty name, which allows remote authenticated users to bypass intended access restrictions and send requests to OpenPegasus WBEM services.
+
+**参考链接 / References**:
+- http://osvdb.org/50277
+- http://secunia.com/advisories/32862
+- http://www.redhat.com/support/errata/RHSA-2008-1001.html
+- http://www.securityfocus.com/bid/32460
+- http://www.securitytracker.com/id?1021283
+
+---
+
+#### 1432. CVE-2008-4310
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+httputils.rb in WEBrick in Ruby 1.8.1 and 1.8.5, as used in Red Hat Enterprise Linux 4 and 5, allows remote attackers to cause a denial of service (CPU consumption) via a crafted HTTP request.  NOTE: this issue exists because of an incomplete fix for CVE-2008-3656.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/33013
+- http://www.openwall.com/lists/oss-security/2008/12/04/2
+- http://www.redhat.com/support/errata/RHSA-2008-0981.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=470252
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A10250
+
+---
+
+#### 1433. CVE-2008-2367
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+Red Hat Certificate System 7.2 uses world-readable permissions for password.conf and unspecified other configuration files, which allows local users to discover passwords by reading these files.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/33540
+- http://securitytracker.com/id?1021608
+- http://www.securityfocus.com/bid/33288
+- http://www.vupen.com/english/advisories/2009/0145
+- https://bugzilla.redhat.com/show_bug.cgi?id=451998
+
+---
+
+#### 1434. CVE-2008-2368
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+Red Hat Certificate System 7.2 stores passwords in cleartext in the UserDirEnrollment log, the RA wizard installer log, and unspecified other debug log files, and uses weak permissions for these files, which allows local users to discover passwords by reading the files.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/33540
+- http://securitytracker.com/id?1021608
+- http://www.securityfocus.com/bid/33288
+- http://www.vupen.com/english/advisories/2009/0145
+- https://bugzilla.redhat.com/show_bug.cgi?id=452000
+
+---
+
+#### 1435. CVE-2009-0030
+
+**严重程度 / Severity**: N/A | CVSS: 6.5
+
+**漏洞描述 / Description**:
+A certain Red Hat patch for SquirrelMail 1.4.8 sets the same SQMSESSID cookie value for all sessions, which allows remote authenticated users to access other users' folder lists and configuration data in opportunistic circumstances by using the standard webmail.php interface.  NOTE: this vulnerability exists because of an incorrect fix for CVE-2008-3663.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2009-02/msg00002.html
+- http://secunia.com/advisories/33611
+- http://securitytracker.com/id?1021611
+- http://www.securityfocus.com/bid/33354
+- https://bugzilla.redhat.com/show_bug.cgi?id=480224
+
+---
+
+#### 1436. CVE-2008-5082
+
+**严重程度 / Severity**: N/A | CVSS: 6.0
+
+**漏洞描述 / Description**:
+The verifyProof function in the Token Processing System (TPS) component in Red Hat Certificate System (RHCS) 7.1 through 7.3 and Dogtag Certificate System 1.0 returns successfully even when token enrollment did not use the hardware key, which allows remote authenticated users with enrollment privileges to bypass intended authentication policies by performing enrollment with a software key.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/33693
+- http://www.securityfocus.com/bid/33508
+- http://www.vupen.com/english/advisories/2009/0145
+- https://bugzilla.redhat.com/show_bug.cgi?id=475998
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/48331
+
+---
+
+#### 1437. CVE-2009-0577
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+Integer overflow in the WriteProlog function in texttops in CUPS 1.1.17 on Red Hat Enterprise Linux (RHEL) 3 allows remote attackers to execute arbitrary code via a crafted PostScript file that triggers a heap-based buffer overflow.  NOTE: this issue exists because of an incorrect fix for CVE-2008-3640.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/33995
+- http://support.avaya.com/elmodocs2/security/ASA-2009-064.htm
+- http://www.redhat.com/support/errata/RHSA-2009-0308.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=486052
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/48977
+
+---
+
+#### 1438. CVE-2009-0671
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+Rejected reason: Format string vulnerability in the University of Washington (UW) c-client library, as used by the UW IMAP toolkit imap-2007d and other applications, allows remote attackers to execute arbitrary code via format string specifiers in the initial request to the IMAP port (143/tcp).  NOTE: Red Hat has disputed the vulnerability, stating "The Red Hat Security Response Team have been unable to confirm the existence of this format string vulnerability in the toolkit, and the sample published exploit is not complete or functional."  CVE agrees that the exploit contains syntax errors and uses Unix-only include files while invoking Windows functions
+
+---
+
+#### 1439. CVE-2009-0588
+
+**严重程度 / Severity**: N/A | CVSS: 6.5
+
+**漏洞描述 / Description**:
+agent/request/op.cgi in the Registration Authority (RA) component in Red Hat Certificate System (RHCS) 7.3 and Dogtag Certificate System allows remote authenticated users to approve certificate requests queued for arbitrary agent groups via a modified request ID field.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/35242
+- http://secunia.com/advisories/35263
+- http://www.redhat.com/support/errata/RHSA-2009-1065.html
+- http://www.securityfocus.com/bid/35104
+- http://www.securitytracker.com/id?1022278
+
+---
+
+#### 1440. CVE-2009-1384
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+pam_krb5 2.2.14 through 2.3.4, as used in Red Hat Enterprise Linux (RHEL) 5, generates different password prompts depending on whether the user account exists, which allows remote attackers to enumerate valid usernames.
+
+**参考链接 / References**:
+- http://osvdb.org/54791
+- http://secunia.com/advisories/35230
+- http://secunia.com/advisories/43314
+- http://www.mandriva.com/security/advisories?name=MDVSA-2010:054
+- http://www.openwall.com/lists/oss-security/2009/05/27/1
+
+---
+
+#### 1441. CVE-2009-1887
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+agent/snmp_agent.c in snmpd in net-snmp 5.0.9 in Red Hat Enterprise Linux (RHEL) 3 allows remote attackers to cause a denial of service (daemon crash) via a crafted SNMP GETBULK request that triggers a divide-by-zero error.  NOTE: this vulnerability exists because of an incorrect fix for CVE-2008-4309.
+
+**参考链接 / References**:
+- http://www.mandriva.com/security/advisories?name=MDVSA-2009:156
+- http://www.redhat.com/support/errata/RHSA-2009-1124.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=506903
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A8426
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9716
+
+---
+
+#### 1442. CVE-2009-1893
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+
+**漏洞描述 / Description**:
+The configtest function in the Red Hat dhcpd init script for DHCP 3.0.1 in Red Hat Enterprise Linux (RHEL) 3 allows local users to overwrite arbitrary files via a symlink attack on an unspecified temporary file, related to the "dhcpd -t" command.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/35831
+- http://securitytracker.com/id?1022554
+- http://www.redhat.com/support/errata/RHSA-2009-1154.html
+- http://www.securityfocus.com/bid/35670
+- https://bugzilla.redhat.com/show_bug.cgi?id=510024
+
+---
+
+#### 1443. CVE-2009-2695
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+
+**漏洞描述 / Description**:
+The Linux kernel before 2.6.31-rc7 does not properly prevent mmap operations that target page zero and other low memory addresses, which allows local users to gain privileges by exploiting NULL pointer dereference vulnerabilities, related to (1) the default configuration of the allow_unconfined_mmap_low boolean in SELinux on Red Hat Enterprise Linux (RHEL) 5, (2) an error that causes allow_unconfined_mmap_low to be ignored in the unconfined_t domain, (3) lack of a requirement for the CAP_SYS_RAWIO capability for these mmap operations, and (4) interaction between the mmap_min_addr protection mechanism and certain application programs.
+
+**参考链接 / References**:
+- http://danwalsh.livejournal.com/30084.html
+- http://eparis.livejournal.com/606.html
+- http://git.kernel.org/?p=linux/kernel/git/jmorris/security-testing-2.6.git%3Ba=commit%3Bh=47d439e9fb8a81a90022cfa785bf1c36c4e2aff6
+- http://git.kernel.org/?p=linux/kernel/git/jmorris/security-testing-2.6.git%3Ba=commit%3Bh=7c73875e7dda627040b12c19b01db634fa7f0fd1
+- http://git.kernel.org/?p=linux/kernel/git/jmorris/security-testing-2.6.git%3Ba=commit%3Bh=84336d1a77ccd2c06a730ddd38e695c2324a7386
+
+---
+
+#### 1444. CVE-2009-2697
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+The Red Hat build script for the GNOME Display Manager (GDM) before 2.16.0-56 on Red Hat Enterprise Linux (RHEL) 5 omits TCP Wrapper support, which might allow remote attackers to bypass intended access restrictions via XDMCP connections, a different vulnerability than CVE-2007-5079.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/36553
+- http://www.securityfocus.com/bid/36219
+- https://bugzilla.redhat.com/show_bug.cgi?id=239818
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9586
+- https://rhn.redhat.com/errata/RHSA-2009-1364.html
+
+---
+
+#### 1445. CVE-2009-4033
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+
+**漏洞描述 / Description**:
+A certain Red Hat patch for acpid 1.0.4 effectively triggers a call to the open function with insufficient arguments, which might allow local users to leverage weak permissions on /var/log/acpid, and obtain sensitive information by reading this file, cause a denial of service by overwriting this file, or gain privileges by executing this file.
+
+**参考链接 / References**:
+- http://securitytracker.com/id?1023284
+- http://www.mandriva.com/security/advisories?name=MDVSA-2009:342
+- http://www.redhat.com/support/errata/RHSA-2009-1642.html
+- http://www.securityfocus.com/bid/37249
+- https://bugzilla.redhat.com/show_bug.cgi?id=515062
+
+---
+
+#### 1446. CVE-2009-1380
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in JMX-Console in JBossAs in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.2 before 4.2.0.CP08 and 4.3 before 4.3.0.CP07 allows remote attackers to inject arbitrary web script or HTML via the filter parameter, related to the key property and the position of quote and colon characters.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/37671
+- http://securitytracker.com/id?1023315
+- http://www.securityfocus.com/bid/37276
+- https://bugzilla.redhat.com/show_bug.cgi?id=511224
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/54698
+
+---
+
+#### 1447. CVE-2009-2405
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Multiple cross-site scripting (XSS) vulnerabilities in the Web Console in the Application Server in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.2.0 before 4.2.0.CP08, 4.2.2GA, 4.3 before 4.3.0.CP07, and 5.1.0GA allow remote attackers to inject arbitrary web script or HTML via the (1) monitorName, (2) objectName, (3) attribute, or (4) period parameter to createSnapshot.jsp, or the (5) monitorName, (6) objectName, (7) attribute, (8) threshold, (9) period, or (10) enabled parameter to createThresholdMonitor.jsp.  NOTE: some of these details are obtained from third party information.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/35680
+- http://secunia.com/advisories/37671
+- http://securitytracker.com/id?1023315
+- http://www.osvdb.org/60898
+- http://www.osvdb.org/60899
+
+---
+
+#### 1448. CVE-2009-3554
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+Twiddle in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.2 before 4.2.0.CP08 and 4.3 before 4.3.0.CP07 writes the JMX password, and other command-line arguments, to the twiddle.log file, which allows local users to obtain sensitive information by reading this file.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/37671
+- http://securitytracker.com/id?1023316
+- http://www.redhat.com/docs/en-US/JBoss_Enterprise_Application_Platform/4.2.0.cp08/html-single/Release_Notes/index.html
+- http://www.securityfocus.com/bid/37276
+- https://bugzilla.redhat.com/show_bug.cgi?id=532111
+
+---
+
+#### 1449. CVE-2009-3556
+
+**严重程度 / Severity**: N/A | CVSS: 1.9
+
+**漏洞描述 / Description**:
+A certain Red Hat configuration step for the qla2xxx driver in the Linux kernel 2.6.18 on Red Hat Enterprise Linux (RHEL) 5, when N_Port ID Virtualization (NPIV) hardware is used, sets world-writable permissions for the (1) vport_create and (2) vport_delete files under /sys/class/scsi_host/, which allows local users to make arbitrary changes to SCSI host attributes by modifying these files.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2010-03/msg00007.html
+- http://support.avaya.com/css/P8/documents/100073666
+- http://www.openwall.com/lists/oss-security/2010/01/20/2
+- https://bugzilla.redhat.com/show_bug.cgi?id=537177
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/55809
+
+---
+
+#### 1450. CVE-2009-4272
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+A certain Red Hat patch for net/ipv4/route.c in the Linux kernel 2.6.18 on Red Hat Enterprise Linux (RHEL) 5 allows remote attackers to cause a denial of service (deadlock) via crafted packets that force collisions in the IPv4 routing hash table, and trigger a routing "emergency" in which a hash chain is too long.  NOTE: this is related to an issue in the Linux kernel before 2.6.31, when the kernel routing cache is disabled, involving an uninitialized pointer and a panic.
+
+**参考链接 / References**:
+- http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=73e42897e8e5619eacb787d2ce69be12f47cfc21
+- http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=b6280b47a7a42970d098a3059f4ebe7e55e90d8d
+- http://support.avaya.com/css/P8/documents/100073666
+- http://www.kernel.org/pub/linux/kernel/v2.6/ChangeLog-2.6.31
+- http://www.openwall.com/lists/oss-security/2010/01/20/1
+
+---
+
+#### 1451. CVE-2010-0727
+
+**严重程度 / Severity**: N/A | CVSS: 4.9
+
+**漏洞描述 / Description**:
+The gfs2_lock function in the Linux kernel before 2.6.34-rc1-next-20100312, and the gfs_lock function in the Linux kernel on Red Hat Enterprise Linux (RHEL) 5 and 6, does not properly remove POSIX locks on files that are setgid without group-execute permission, which allows local users to cause a denial of service (BUG and system crash) by locking a file on a (1) GFS or (2) GFS2 filesystem, and then changing this file's permissions.
+
+**参考链接 / References**:
+- http://lkml.org/lkml/2010/3/11/269
+- http://secunia.com/advisories/39830
+- http://securitytracker.com/id?1023809
+- http://www.debian.org/security/2010/dsa-2053
+- http://www.kernel.org/pub/linux/kernel/v2.6/next/patch-v2.6.34-rc1-next-20100312.bz2
+
+---
+
+#### 1452. CVE-2010-0729
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+
+**漏洞描述 / Description**:
+A certain Red Hat patch for the Linux kernel in Red Hat Enterprise Linux (RHEL) 4 on the ia64 platform allows local users to use ptrace on an arbitrary process, and consequently gain privileges, via vectors related to a missing ptrace_check_attach call.
+
+**参考链接 / References**:
+- http://support.avaya.com/css/P8/documents/100090459
+- http://www.openwall.com/lists/oss-security/2010/03/12/2
+- http://www.redhat.com/support/errata/RHSA-2010-0394.html
+- http://www.securityfocus.com/bid/38702
+- https://bugzilla.redhat.com/show_bug.cgi?id=572007
+
+---
+
+#### 1453. CVE-2010-0738
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.3
+
+**漏洞描述 / Description**:
+The JMX-Console web application in JBossAs in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.2 before 4.2.0.CP09 and 4.3 before 4.3.0.CP08 performs access control only for the GET and POST methods, which allows remote attackers to send requests to this application's GET handler by using a different method.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=132129312609324&w=2
+- http://public.support.unisys.com/common/public/vulnerability/NVD_Detail_Rpt.aspx?ID=35
+- http://secunia.com/advisories/39563
+- http://securityreason.com/securityalert/8408
+- http://securitytracker.com/id?1023918
+
+---
+
+#### 1454. CVE-2010-1428
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+The Web Console (aka web-console) in JBossAs in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.2 before 4.2.0.CP09 and 4.3 before 4.3.0.CP08 performs access control only for the GET and POST methods, which allows remote attackers to obtain sensitive information via an unspecified request that uses a different method.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=132698550418872&w=2
+- http://secunia.com/advisories/39563
+- http://securitytracker.com/id?1023917
+- http://www.securityfocus.com/bid/39710
+- http://www.vupen.com/english/advisories/2010/0992
+
+---
+
+#### 1455. CVE-2010-1429
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.2 before 4.2.0.CP09 and 4.3 before 4.3.0.CP08 allows remote attackers to obtain sensitive information about "deployed web contexts" via a request to the status servlet, as demonstrated by a full=true query string.  NOTE: this issue exists because of a CVE-2008-3273 regression.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=132698550418872&w=2
+- http://secunia.com/advisories/39563
+- http://securitytracker.com/id?1023918
+- http://www.securityfocus.com/bid/39710
+- http://www.vupen.com/english/advisories/2010/0992
+
+---
+
+#### 1456. CVE-2010-0730
+
+**严重程度 / Severity**: N/A | CVSS: 2.6
+
+**漏洞描述 / Description**:
+The MMIO instruction decoder in the Xen hypervisor in the Linux kernel 2.6.18 in Red Hat Enterprise Linux (RHEL) 5 allows guest OS users to cause a denial of service (32-bit guest OS crash) via vectors that trigger an unspecified instruction emulation.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/39649
+- http://secunia.com/advisories/43315
+- http://support.avaya.com/css/P8/documents/100088287
+- http://www.openwall.com/lists/oss-security/2010/05/07/1
+- http://www.redhat.com/support/errata/RHSA-2010-0398.html
+
+---
+
+#### 1457. CVE-2010-2223
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+Virtual Desktop Server Manager (VDSM) in Red Hat Enterprise Virtualization Hypervisor (aka RHEV-H or rhev-hypervisor) before 5.5-2.2 does not properly perform VM post-zeroing after the removal of a virtual machine's data, which allows guest OS users to obtain sensitive information by examining the disk blocks associated with a deleted virtual machine.
+
+**参考链接 / References**:
+- http://securitytracker.com/id?1024137
+- http://www.securityfocus.com/bid/41044
+- https://bugzilla.redhat.com/show_bug.cgi?id=604752
+- https://rhn.redhat.com/errata/RHSA-2010-0473.html
+- https://rhn.redhat.com/errata/RHSA-2010-0476.html
+
+---
+
+#### 1458. CVE-2010-2224
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+The snapshot merging functionality in Red Hat Enterprise Virtualization Manager (aka RHEV-M) before 2.2 does not properly pass the postzero parameter during operations on deleted volumes, which allows guest OS users to obtain sensitive information by examining the disk blocks associated with a deleted virtual machine.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/41045
+- https://bugzilla.redhat.com/show_bug.cgi?id=606774
+- https://rhn.redhat.com/errata/RHSA-2010-0478.html
+- http://www.securityfocus.com/bid/41045
+- https://bugzilla.redhat.com/show_bug.cgi?id=606774
+
+---
+
+#### 1459. CVE-2010-2598
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+LibTIFF in Red Hat Enterprise Linux (RHEL) 3 on x86_64 platforms, as used in tiff2rgba, attempts to process image data even when the required compression functionality is not configured, which allows remote attackers to cause a denial of service via a crafted TIFF image, related to "downsampled OJPEG input."
+
+**参考链接 / References**:
+- http://secunia.com/advisories/40536
+- http://www.redhat.com/support/errata/RHSA-2010-0520.html
+- http://www.vupen.com/english/advisories/2010/1761
+- https://bugzilla.redhat.com/show_bug.cgi?id=583081
+- http://secunia.com/advisories/40536
+
+---
+
+#### 1460. CVE-2010-2526
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+
+**漏洞描述 / Description**:
+The cluster logical volume manager daemon (clvmd) in lvm2-cluster in LVM2 before 2.02.72, as used in Red Hat Global File System (GFS) and other products, does not verify client credentials upon a socket connection, which allows local users to cause a denial of service (daemon exit or logical-volume change) or possibly have unspecified other impact via crafted control commands.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2010-09/msg00006.html
+- http://secunia.com/advisories/40759
+- http://securitytracker.com/id?1024258
+- http://www.osvdb.org/66753
+- http://www.ubuntu.com/usn/USN-1001-1
+
+---
+
+#### 1461. CVE-2010-1871
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+
+**漏洞描述 / Description**:
+JBoss Seam 2 (jboss-seam2), as used in JBoss Enterprise Application Platform 4.3.0 for Red Hat Linux, does not properly sanitize inputs for JBoss Expression Language (EL) expressions, which allows remote attackers to execute arbitrary code via a crafted URL.  NOTE: this is only a vulnerability when the Java Security Manager is not properly configured.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2013-05/0117.html
+- http://www.redhat.com/support/errata/RHSA-2010-0564.html
+- http://www.securityfocus.com/bid/41994
+- http://www.securitytracker.com/id?1024253
+- http://www.vupen.com/english/advisories/2010/1929
+
+---
+
+#### 1462. CVE-2009-2696
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in jsp/cal/cal2.jsp in the calendar application in the examples web application in Apache Tomcat on Red Hat Enterprise Linux 5, Desktop Workstation 5, and Linux Desktop 5 allows remote attackers to inject arbitrary web script or HTML via the time parameter, related to "invalid HTML." NOTE: this is due to a missing fix for CVE-2009-0781.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/40813
+- http://www.redhat.com/support/errata/RHSA-2010-0580.html
+- http://www.vupen.com/english/advisories/2010/1986
+- https://bugzilla.redhat.com/show_bug.cgi?id=616717
+- http://secunia.com/advisories/40813
+
+---
+
+#### 1463. CVE-2010-2241
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+The (1) setup-ds.pl and (2) setup-ds-admin.pl setup scripts for Red Hat Directory Server 8 before 8.2 use world-readable permissions when creating cache files, which allows local users to obtain sensitive information including passwords for Directory and Administration Server administrative accounts.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2010-0590.html
+- http://secunia.com/advisories/40811
+- http://www.osvdb.org/66962
+- http://www.securitytracker.com/id?1024281
+- https://bugzilla.redhat.com/show_bug.cgi?id=608032
+
+---
+
+#### 1464. CVE-2010-2237
+
+**严重程度 / Severity**: N/A | CVSS: 4.4
+
+**漏洞描述 / Description**:
+Red Hat libvirt, possibly 0.6.1 through 0.8.2, looks up disk backing stores without referring to the user-defined main disk format, which might allow guest OS users to read arbitrary files on the host OS, and possibly have unspecified other impact, via unknown vectors.
+
+**参考链接 / References**:
+- http://libvirt.org/news.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-July/044520.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-July/044579.html
+- http://lists.opensuse.org/opensuse-security-announce/2010-09/msg00006.html
+- http://ubuntu.com/usn/usn-1008-1
+
+---
+
+#### 1465. CVE-2010-2238
+
+**严重程度 / Severity**: N/A | CVSS: 4.4
+
+**漏洞描述 / Description**:
+Red Hat libvirt, possibly 0.7.2 through 0.8.2, recurses into disk-image backing stores without extracting the defined disk backing-store format, which might allow guest OS users to read arbitrary files on the host OS, and possibly have unspecified other impact, via unknown vectors.
+
+**参考链接 / References**:
+- http://libvirt.org/news.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-July/044520.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-July/044579.html
+- http://lists.opensuse.org/opensuse-security-announce/2010-09/msg00006.html
+- http://ubuntu.com/usn/usn-1008-1
+
+---
+
+#### 1466. CVE-2010-2239
+
+**严重程度 / Severity**: N/A | CVSS: 4.4
+
+**漏洞描述 / Description**:
+Red Hat libvirt, possibly 0.6.0 through 0.8.2, creates new images without setting the user-defined backing-store format, which allows guest OS users to read arbitrary files on the host OS via unspecified vectors.
+
+**参考链接 / References**:
+- http://libvirt.org/news.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-July/044520.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-July/044579.html
+- http://lists.opensuse.org/opensuse-security-announce/2010-09/msg00006.html
+- http://ubuntu.com/usn/usn-1008-1
+
+---
+
+#### 1467. CVE-2010-2242
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+Red Hat libvirt 0.2.0 through 0.8.2 creates iptables rules with improper mappings of privileged source ports, which allows guest OS users to bypass intended access restrictions by leveraging IP address and source-port values, as demonstrated by copying and deleting an NFS directory tree.
+
+**参考链接 / References**:
+- http://libvirt.org/news.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-July/044520.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-July/044579.html
+- http://lists.opensuse.org/opensuse-security-announce/2010-09/msg00006.html
+- http://ubuntu.com/usn/usn-1008-1
+
+---
+
+#### 1468. CVE-2010-1644
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Multiple cross-site scripting (XSS) vulnerabilities in Cacti before 0.8.7f, as used in Red Hat High Performance Computing (HPC) Solution and other products, allow remote attackers to inject arbitrary web script or HTML via the (1) hostname or (2) description parameter to host.php, or (3) the host_id parameter to data_sources.php.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/41041
+- http://svn.cacti.net/viewvc?view=rev&revision=5901
+- http://www.cacti.net/release_notes_0_8_7f.php
+- http://www.mandriva.com/security/advisories?name=MDVSA-2010:160
+- http://www.securityfocus.com/archive/1/511393
+
+---
+
+#### 1469. CVE-2010-1645
+
+**严重程度 / Severity**: N/A | CVSS: 6.5
+
+**漏洞描述 / Description**:
+Cacti before 0.8.7f, as used in Red Hat High Performance Computing (HPC) Solution and other products, allows remote authenticated administrators to execute arbitrary commands via shell metacharacters in (1) the FQDN field of a Device or (2) the Vertical Label field of a Graph Template.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/41041
+- http://svn.cacti.net/viewvc?view=rev&revision=5778
+- http://svn.cacti.net/viewvc?view=rev&revision=5782
+- http://svn.cacti.net/viewvc?view=rev&revision=5784
+- http://www.bonsai-sec.com/en/research/vulnerabilities/cacti-os-command-injection-0105.php
+
+---
+
+#### 1470. CVE-2010-2544
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in utilities.php in Cacti before 0.8.7g, as used in Red Hat High Performance Computing (HPC) Solution and other products, allows remote attackers to inject arbitrary web script or HTML via the filter parameter.
+
+**参考链接 / References**:
+- http://cacti.net/release_notes_0_8_7g.php
+- http://marc.info/?l=oss-security&m=127978954522586&w=2
+- http://marc.info/?l=oss-security&m=128017203704299&w=2
+- http://secunia.com/advisories/41041
+- http://svn.cacti.net/viewvc/cacti/branches/0.8.7/utilities.php?r1=6025&r2=6024&pathrev=6025
+
+---
+
+#### 1471. CVE-2010-2545
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Multiple cross-site scripting (XSS) vulnerabilities in Cacti before 0.8.7g, as used in Red Hat High Performance Computing (HPC) Solution and other products, allow remote attackers to inject arbitrary web script or HTML via (1) the name element in an XML template to templates_import.php; and allow remote authenticated administrators to inject arbitrary web script or HTML via vectors related to (2) cdef.php, (3) data_input.php, (4) data_queries.php, (5) data_sources.php, (6) data_templates.php, (7) gprint_presets.php, (8) graph.php, (9) graphs_new.php, (10) graphs.php, (11) graph_templates_inputs.php, (12) graph_templates_items.php, (13) graph_templates.php, (14) graph_view.php, (15) host.php, (16) host_templates.php, (17) lib/functions.php, (18) lib/html_form.php, (19) lib/html_form_template.php, (20) lib/html.php, (21) lib/html_tree.php, (22) lib/rrd.php, (23) rra.php, (24) tree.php, and (25) user_admin.php.
+
+**参考链接 / References**:
+- http://cacti.net/release_notes_0_8_7g.php
+- http://marc.info/?l=oss-security&m=127978954522586&w=2
+- http://marc.info/?l=oss-security&m=128017203704299&w=2
+- http://secunia.com/advisories/41041
+- http://svn.cacti.net/viewvc?view=rev&revision=6037
+
+---
+
+#### 1472. CVE-2010-0428
+
+**严重程度 / Severity**: N/A | CVSS: 6.6
+
+**漏洞描述 / Description**:
+libspice, as used in QEMU-KVM in the Hypervisor (aka rhev-hypervisor) in Red Hat Enterprise Virtualization (RHEV) 2.2 and qspice 0.3.0, does not properly validate guest QXL driver pointers, which allows guest OS users to cause a denial of service (invalid pointer dereference and guest OS crash) or possibly gain privileges via unspecified vectors.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=568699
+- https://rhn.redhat.com/errata/RHSA-2010-0622.html
+- https://rhn.redhat.com/errata/RHSA-2010-0633.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=568699
+- https://rhn.redhat.com/errata/RHSA-2010-0622.html
+
+---
+
+#### 1473. CVE-2010-0429
+
+**严重程度 / Severity**: N/A | CVSS: 6.6
+
+**漏洞描述 / Description**:
+libspice, as used in QEMU-KVM in the Hypervisor (aka rhev-hypervisor) in Red Hat Enterprise Virtualization (RHEV) 2.2 and qspice 0.3.0, does not properly restrict the addresses upon which memory-management actions are performed, which allows guest OS users to cause a denial of service (guest OS crash) or possibly gain privileges via unspecified vectors.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=568701
+- https://rhn.redhat.com/errata/RHSA-2010-0622.html
+- https://rhn.redhat.com/errata/RHSA-2010-0633.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=568701
+- https://rhn.redhat.com/errata/RHSA-2010-0622.html
+
+---
+
+#### 1474. CVE-2010-0431
+
+**严重程度 / Severity**: N/A | CVSS: 6.6
+
+**漏洞描述 / Description**:
+QEMU-KVM, as used in the Hypervisor (aka rhev-hypervisor) in Red Hat Enterprise Virtualization (RHEV) 2.2 and KVM 83, does not properly validate guest QXL driver pointers, which allows guest OS users to cause a denial of service (invalid pointer dereference and guest OS crash) or possibly gain privileges via unspecified vectors.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=568809
+- https://rhn.redhat.com/errata/RHSA-2010-0622.html
+- https://rhn.redhat.com/errata/RHSA-2010-0627.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=568809
+- https://rhn.redhat.com/errata/RHSA-2010-0622.html
+
+---
+
+#### 1475. CVE-2010-0435
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+
+**漏洞描述 / Description**:
+The Hypervisor (aka rhev-hypervisor) in Red Hat Enterprise Virtualization (RHEV) 2.2, and KVM 83, when the Intel VT-x extension is enabled, allows guest OS users to cause a denial of service (NULL pointer dereference and host OS crash) via vectors related to instruction emulation.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2011-01/msg00000.html
+- http://secunia.com/advisories/42778
+- http://www.vupen.com/english/advisories/2011/0012
+- https://bugzilla.redhat.com/show_bug.cgi?id=570528
+- https://rhn.redhat.com/errata/RHSA-2010-0622.html
+
+---
+
+#### 1476. CVE-2010-2784
+
+**严重程度 / Severity**: N/A | CVSS: 6.6
+
+**漏洞描述 / Description**:
+The subpage MMIO initialization functionality in the subpage_register function in exec.c in QEMU-KVM, as used in the Hypervisor (aka rhev-hypervisor) in Red Hat Enterprise Virtualization (RHEV) 2.2 and KVM 83, does not properly select the index for access to the callback array, which allows guest OS users to cause a denial of service (guest OS crash) or possibly gain privileges via unspecified vectors.
+
+**参考链接 / References**:
+- http://www.spinics.net/lists/kvm/msg39173.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=619411
+- https://rhn.redhat.com/errata/RHSA-2010-0622.html
+- https://rhn.redhat.com/errata/RHSA-2010-0627.html
+- http://www.spinics.net/lists/kvm/msg39173.html
+
+---
+
+#### 1477. CVE-2010-2811
+
+**严重程度 / Severity**: N/A | CVSS: 5.7
+
+**漏洞描述 / Description**:
+Virtual Desktop Server Manager (VDSM) in Red Hat Enterprise Virtualization (RHEV) 2.2 does not properly accept TCP connections for SSL sessions, which allows remote attackers to cause a denial of service (daemon outage) via crafted SSL traffic.
+
+**参考链接 / References**:
+- http://securitytracker.com/id?1024347
+- http://www.securityfocus.com/bid/42580
+- https://bugzilla.redhat.com/show_bug.cgi?id=622928
+- https://rhn.redhat.com/errata/RHSA-2010-0622.html
+- https://rhn.redhat.com/errata/RHSA-2010-0628.html
+
+---
+
+#### 1478. CVE-2010-2938
+
+**严重程度 / Severity**: N/A | CVSS: 4.9
+
+**漏洞描述 / Description**:
+arch/x86/hvm/vmx/vmcs.c in the virtual-machine control structure (VMCS) implementation in the Linux kernel 2.6.18 on Red Hat Enterprise Linux (RHEL) 5, when an Intel platform without Extended Page Tables (EPT) functionality is used, accesses VMCS fields without verifying hardware support for these fields, which allows local users to cause a denial of service (host OS crash) by requesting a VMCS dump for a fully virtualized Xen guest.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/46397
+- http://support.avaya.com/css/P8/documents/100113326
+- http://www.redhat.com/support/errata/RHSA-2010-0723.html
+- http://www.securityfocus.com/archive/1/520102/100/0/threaded
+- http://www.securityfocus.com/bid/43578
+
+---
+
+#### 1479. CVE-2010-3083
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+sys/ssl/SslSocket.cpp in qpidd in Apache Qpid, as used in Red Hat Enterprise MRG before 1.2.2 and other products, when SSL is enabled, allows remote attackers to cause a denial of service (daemon outage) by connecting to the SSL port but not participating in an SSL handshake.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/41710
+- http://svn.apache.org/viewvc/qpid/trunk/qpid/cpp/src/qpid/sys/ssl/SslSocket.cpp?r1=790291&r2=790290&pathrev=790291&view=patch
+- http://www.openwall.com/lists/oss-security/2010/10/08/1
+- http://www.redhat.com/support/errata/RHSA-2010-0756.html
+- http://www.redhat.com/support/errata/RHSA-2010-0757.html
+
+---
+
+#### 1480. CVE-2010-3701
+
+**严重程度 / Severity**: N/A | CVSS: 4.0
+
+**漏洞描述 / Description**:
+lib/MessageStoreImpl.cpp in Red Hat Enterprise MRG before 1.2.2 allows remote authenticated users to cause a denial of service (stack memory exhaustion and broker crash) via a large persistent message.
+
+**参考链接 / References**:
+- http://www.redhat.com/support/errata/RHSA-2010-0756.html
+- http://www.redhat.com/support/errata/RHSA-2010-0757.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=634014
+- https://bugzilla.redhat.com/show_bug.cgi?id=640006
+- http://www.redhat.com/support/errata/RHSA-2010-0756.html
+
+---
+
+#### 1481. CVE-2009-5005
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+The Cluster::deliveredEvent function in cluster/Cluster.cpp in Apache Qpid, as used in Red Hat Enterprise MRG before 1.3 and other products, allows remote attackers to cause a denial of service (daemon crash and cluster outage) via invalid AMQP data.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/41710
+- http://secunia.com/advisories/41812
+- http://svn.apache.org/viewvc?revision=785788&view=revision
+- http://www.vupen.com/english/advisories/2010/2684
+- https://bugzilla.redhat.com/show_bug.cgi?id=642373
+
+---
+
+#### 1482. CVE-2009-5006
+
+**严重程度 / Severity**: N/A | CVSS: 4.0
+
+**漏洞描述 / Description**:
+The SessionAdapter::ExchangeHandlerImpl::checkAlternate function in broker/SessionAdapter.cpp in the C++ Broker component in Apache Qpid before 0.6, as used in Red Hat Enterprise MRG before 1.3 and other products, allows remote authenticated users to cause a denial of service (NULL pointer dereference, daemon crash, and cluster outage) by attempting to modify the alternate of an exchange.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/41710
+- http://secunia.com/advisories/41812
+- http://svn.apache.org/viewvc?revision=811188&view=revision
+- http://www.vupen.com/english/advisories/2010/2684
+- https://bugzilla.redhat.com/show_bug.cgi?id=642377
+
+---
+
+#### 1483. CVE-2010-3852
+
+**严重程度 / Severity**: N/A | CVSS: 6.4
+
+**漏洞描述 / Description**:
+The default configuration of Luci 0.22.4 and earlier in Red Hat Conga uses "[INSERT SECRET HERE]" as its secret key for cookies, which makes it easier for remote attackers to bypass repoze.who authentication via a forged ticket cookie.
+
+**参考链接 / References**:
+- http://git.fedorahosted.org/git/?p=luci.git%3Ba=commit%3Bh=9e0bbf0c5faa198379d945474f7d55da5031cacf
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-November/050244.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-November/050246.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-November/050309.html
+- http://osvdb.org/69015
+
+---
+
+#### 1484. CVE-2010-3868
+
+**严重程度 / Severity**: N/A | CVSS: 5.8
+
+**漏洞描述 / Description**:
+Red Hat Certificate System (RHCS) 7.3 and 8 and Dogtag Certificate System do not require authentication for requests to decrypt SCEP one-time PINs, which allows remote attackers to obtain PINs by sniffing the network for SCEP requests and then sending decryption requests to the Certificate Authority component.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/42181
+- http://securitytracker.com/id?1024697
+- http://www.osvdb.org/69149
+- https://bugzilla.redhat.com/show_bug.cgi?id=648882
+- https://fedorahosted.org/pki/changeset/1261
+
+---
+
+#### 1485. CVE-2010-3869
+
+**严重程度 / Severity**: N/A | CVSS: 4.0
+
+**漏洞描述 / Description**:
+Red Hat Certificate System (RHCS) 7.3 and 8 and Dogtag Certificate System allow remote authenticated users to generate an arbitrary number of certificates by replaying a single SCEP one-time PIN.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/42181
+- http://securitytracker.com/id?1024697
+- http://www.osvdb.org/69148
+- https://bugzilla.redhat.com/show_bug.cgi?id=648883
+- https://fedorahosted.org/pki/changeset/1246
+
+---
+
+#### 1486. CVE-2010-4179
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+The installation documentation for Red Hat Enterprise Messaging, Realtime and Grid (MRG) 1.3 recommends that Condor should be configured so that the MRG Management Console (cumin) can submit jobs for users, which creates a trusted channel with insufficient access control that allows local users with the ability to publish to a broker to run jobs as arbitrary users via Condor QMF plug-ins.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/42406
+- http://www.redhat.com/support/errata/RHSA-2010-0921.html
+- http://www.redhat.com/support/errata/RHSA-2010-0922.html
+- http://www.securitytracker.com/id?1024806
+- http://www.vupen.com/english/advisories/2010/3091
+
+---
+
+#### 1487. CVE-2010-2793
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+Race condition in the SPICE (aka spice-activex) plug-in for Internet Explorer in Red Hat Enterprise Virtualization (RHEV) Manager before 2.2.4 allows local users to create a certain named pipe, and consequently gain privileges, via vectors involving knowledge of the name of this named pipe, in conjunction with use of the ImpersonateNamedPipeClient function.
+
+**参考链接 / References**:
+- http://securitytracker.com/id?1024825
+- http://www.securityfocus.com/bid/45213
+- https://bugzilla.redhat.com/show_bug.cgi?id=620355
+- https://rhn.redhat.com/errata/RHSA-2010-0818.html
+- http://securitytracker.com/id?1024825
+
+---
+
+#### 1488. CVE-2010-2235
+
+**严重程度 / Severity**: N/A | CVSS: 8.5
+
+**漏洞描述 / Description**:
+template_api.py in Cobbler before 2.0.7, as used in Red Hat Network Satellite Server and other products, does not disable the ability of the Cheetah template engine to execute Python statements contained in templates, which allows remote authenticated administrators to execute arbitrary code via a crafted kickstart template file, a different vulnerability than CVE-2008-6954.
+
+**参考链接 / References**:
+- http://people.fedoraproject.org/~shenson/cobbler/cobbler-2.0.8.tar.gz
+- http://www.redhat.com/support/errata/RHSA-2010-0775.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=607662
+- http://people.fedoraproject.org/~shenson/cobbler/cobbler-2.0.8.tar.gz
+- http://www.redhat.com/support/errata/RHSA-2010-0775.html
+
+---
+
+#### 1489. CVE-2010-4161
+
+**严重程度 / Severity**: N/A | CVSS: 4.9
+
+**漏洞描述 / Description**:
+The udp_queue_rcv_skb function in net/ipv4/udp.c in a certain Red Hat build of the Linux kernel 2.6.18 in Red Hat Enterprise Linux (RHEL) 5 allows attackers to cause a denial of service (deadlock and system hang) by sending UDP traffic to a socket that has a crafted socket filter, a related issue to CVE-2010-4158.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/42789
+- http://secunia.com/advisories/46397
+- http://www.redhat.com/support/errata/RHSA-2011-0004.html
+- http://www.securityfocus.com/archive/1/514845
+- http://www.securityfocus.com/archive/1/520102/100/0/threaded
+
+---
+
+#### 1490. CVE-2010-3708
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+The serialization implementation in JBoss Drools in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.3 before 4.3.0.CP09 and JBoss Enterprise SOA Platform 4.2 and 4.3 supports the embedding of class files, which allows remote attackers to execute arbitrary code via a crafted static initializer.
+
+**参考链接 / References**:
+- http://securitytracker.com/id?1024813
+- http://www.redhat.com/support/errata/RHSA-2010-0937.html
+- http://www.redhat.com/support/errata/RHSA-2010-0938.html
+- http://www.redhat.com/support/errata/RHSA-2010-0939.html
+- http://www.redhat.com/support/errata/RHSA-2010-0940.html
+
+---
+
+#### 1491. CVE-2010-3862
+
+**严重程度 / Severity**: N/A | CVSS: 2.6
+
+**漏洞描述 / Description**:
+The org.jboss.remoting.transport.bisocket.BisocketServerInvoker$SecondaryServerSocketThread.run method in JBoss Remoting 2.2.x before 2.2.3.SP4 and 2.5.x before 2.5.3.SP2 in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.3 through 4.3.0.CP09, and 5.1.0; and JBoss Enterprise Web Platform (aka JBEWP) 5.1.0; allows remote attackers to cause a denial of service (daemon outage) by establishing a bisocket control connection TCP session, and then not sending any application data.
+
+**参考链接 / References**:
+- http://securitytracker.com/id?1024813
+- http://www.redhat.com/support/errata/RHSA-2010-0937.html
+- http://www.redhat.com/support/errata/RHSA-2010-0938.html
+- http://www.redhat.com/support/errata/RHSA-2010-0939.html
+- http://www.redhat.com/support/errata/RHSA-2010-0959.html
+
+---
+
+#### 1492. CVE-2010-3878
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Cross-site request forgery (CSRF) vulnerability in the JMX Console in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.3 before 4.3.0.CP09 allows remote attackers to hijack the authentication of administrators for requests that deploy WAR files.
+
+**参考链接 / References**:
+- http://securitytracker.com/id?1024813
+- http://www.redhat.com/support/errata/RHSA-2010-0937.html
+- http://www.redhat.com/support/errata/RHSA-2010-0938.html
+- http://www.redhat.com/support/errata/RHSA-2010-0939.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=604617
+
+---
+
+#### 1493. CVE-2010-4265
+
+**严重程度 / Severity**: N/A | CVSS: 2.6
+
+**漏洞描述 / Description**:
+The org.jboss.remoting.transport.bisocket.BisocketServerInvoker$SecondaryServerSocketThread.run method in JBoss Remoting 2.2.x before 2.2.3.SP4 and 2.5.x before 2.5.3.SP2 in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.3 through 4.3.0.CP09 allows remote attackers to cause a denial of service (daemon outage) by establishing a bisocket control connection TCP session, and then not sending any application data, related to a missing CVE-2010-3862 patch.  NOTE: this can be considered a duplicate of CVE-2010-3862 because a missing patch should not be assigned a separate CVE identifier.
+
+**参考链接 / References**:
+- http://securitytracker.com/id?1024840
+- http://www.redhat.com/support/errata/RHSA-2010-0964.html
+- http://www.redhat.com/support/errata/RHSA-2010-0965.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=660623
+- https://issues.jboss.org/browse/JBPAPP-5253
+
+---
+
+#### 1494. CVE-2010-4238
+
+**严重程度 / Severity**: N/A | CVSS: 5.5
+
+**漏洞描述 / Description**:
+The vbd_create function in Xen 3.1.2, when the Linux kernel 2.6.18 on Red Hat Enterprise Linux (RHEL) 5 is used, allows guest OS users to cause a denial of service (host OS panic) via an attempted access to a virtual CD-ROM device through the blkback driver.  NOTE: some of these details are obtained from third party information.
+
+**参考链接 / References**:
+- http://bugs.centos.org/bug_view_advanced_page.php?bug_id=4517
+- http://secunia.com/advisories/42884
+- http://secunia.com/advisories/46397
+- http://www.redhat.com/support/errata/RHSA-2011-0017.html
+- http://www.securityfocus.com/archive/1/520102/100/0/threaded
+
+---
+
+#### 1495. CVE-2011-0019
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+slapd (aka ns-slapd) in 389 Directory Server 1.2.7.5 (aka Red Hat Directory Server 8.2.x or dirsrv) does not properly handle simple paged result searches, which allows remote attackers to cause a denial of service (daemon crash) or possibly have unspecified other impact via multiple search requests.
+
+**参考链接 / References**:
+- http://www.redhat.com/support/errata/RHSA-2011-0293.html
+- http://www.securityfocus.com/bid/46489
+- http://www.securitytracker.com/id?1025102
+- https://bugzilla.redhat.com/show_bug.cgi?id=666076
+- https://bugzilla.redhat.com/show_bug.cgi?id=670914
+
+---
+
+#### 1496. CVE-2011-0022
+
+**严重程度 / Severity**: N/A | CVSS: 4.7
+
+**漏洞描述 / Description**:
+The setup scripts in 389 Directory Server 1.2.x (aka Red Hat Directory Server 8.2.x), when multiple unprivileged instances are configured, use 0777 permissions for the /var/run/dirsrv directory, which allows local users to cause a denial of service (daemon outage or arbitrary process termination) by replacing PID files contained in this directory.
+
+**参考链接 / References**:
+- http://www.redhat.com/support/errata/RHSA-2011-0293.html
+- http://www.securityfocus.com/bid/46489
+- http://www.securitytracker.com/id?1025102
+- https://bugzilla.redhat.com/show_bug.cgi?id=671199
+- http://www.redhat.com/support/errata/RHSA-2011-0293.html
+
+---
+
+#### 1497. CVE-2011-0532
+
+**严重程度 / Severity**: N/A | CVSS: 6.2
+
+**漏洞描述 / Description**:
+The (1) backup and restore scripts, (2) main initialization script, and (3) ldap-agent script in 389 Directory Server 1.2.x (aka Red Hat Directory Server 8.2.x) place a zero-length directory name in the LD_LIBRARY_PATH, which allows local users to gain privileges via a Trojan horse shared library in the current working directory.
+
+**参考链接 / References**:
+- http://www.redhat.com/support/errata/RHSA-2011-0293.html
+- http://www.securityfocus.com/bid/46489
+- http://www.securitytracker.com/id?1025102
+- https://bugzilla.redhat.com/show_bug.cgi?id=672468
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/65637
+
+---
+
+#### 1498. CVE-2011-0717
+
+**严重程度 / Severity**: N/A | CVSS: 5.8
+
+**漏洞描述 / Description**:
+Session fixation vulnerability in Red Hat Network (RHN) Satellite Server 5.4 allows remote attackers to hijack web sessions via unspecified vectors related to Spacewalk.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/43487
+- http://www.redhat.com/support/errata/RHSA-2011-0300.html
+- http://www.securityfocus.com/bid/46528
+- http://www.securitytracker.com/id?1025116
+- http://www.vupen.com/english/advisories/2011/0491
+
+---
+
+#### 1499. CVE-2011-0718
+
+**严重程度 / Severity**: N/A | CVSS: 5.8
+
+**漏洞描述 / Description**:
+Red Hat Network (RHN) Satellite Server 5.4 does not use a time delay after a failed login attempt, which makes it easier for remote attackers to conduct brute force password guessing attacks.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/43487
+- http://www.redhat.com/support/errata/RHSA-2011-0300.html
+- http://www.securityfocus.com/bid/46528
+- http://www.securitytracker.com/id?1025116
+- http://www.vupen.com/english/advisories/2011/0491
+
+---
+
+#### 1500. CVE-2011-1146
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+
+**漏洞描述 / Description**:
+libvirt.c in the API in Red Hat libvirt 0.8.8 does not properly restrict operations in a read-only connection, which allows remote attackers to cause a denial of service (host OS crash) or possibly execute arbitrary code via a (1) virNodeDeviceDettach, (2) virNodeDeviceReset, (3) virDomainRevertToSnapshot, (4) virDomainSnapshotDelete, (5) virNodeDeviceReAttach, or (6) virConnectDomainXMLToNative call, a different vulnerability than CVE-2008-5086.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=617773
+- http://libvirt.org/git/?p=libvirt.git%3Ba=commit%3Bh=71753cb7f7a16ff800381c0b5ee4e99eea92fed3
+- http://lists.fedoraproject.org/pipermail/package-announce/2011-March/056209.html
+- http://lists.opensuse.org/opensuse-updates/2011-04/msg00022.html
+- http://openwall.com/lists/oss-security/2011/03/09/3
+
+---
+
+#### 1501. CVE-2011-0536
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+
+**漏洞描述 / Description**:
+Multiple untrusted search path vulnerabilities in elf/dl-object.c in certain modified versions of the GNU C Library (aka glibc or libc6), including glibc-2.5-49.el5_5.6 and glibc-2.12-1.7.el6_0.3 in Red Hat Enterprise Linux, allow local users to gain privileges via a crafted dynamic shared object (DSO) in a subdirectory of the current working directory during execution of a (1) setuid or (2) setgid program that has $ORIGIN in (a) RPATH or (b) RUNPATH within the program itself or a referenced library. NOTE: this issue exists because of an incorrect fix for CVE-2010-3847.
+
+**参考链接 / References**:
+- http://lists.debian.org/debian-security-announce/2011/msg00005.html
+- http://openwall.com/lists/oss-security/2011/02/01/3
+- http://openwall.com/lists/oss-security/2011/02/03/2
+- http://secunia.com/advisories/43830
+- http://secunia.com/advisories/43989
+
+---
+
+#### 1502. CVE-2009-0788
+
+**严重程度 / Severity**: N/A | CVSS: 6.4
+
+**漏洞描述 / Description**:
+Red Hat Network (RHN) Satellite Server 5.3 and 5.4 does not properly rewrite unspecified URLs, which allows remote attackers to (1) obtain unspecified sensitive host information or (2) use the server as an inadvertent proxy to connect to arbitrary services and IP addresses via unspecified vectors.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/44150
+- http://www.redhat.com/support/errata/RHSA-2011-0434.html
+- http://www.securityfocus.com/bid/47316
+- http://www.securitytracker.com/id?1025316
+- http://www.vupen.com/english/advisories/2011/0967
+
+---
+
+#### 1503. CVE-2010-1171
+
+**严重程度 / Severity**: N/A | CVSS: 5.5
+
+**漏洞描述 / Description**:
+Red Hat Network (RHN) Satellite 5.3 and 5.4 exposes a dangerous, obsolete XML-RPC API, which allows remote authenticated users to access arbitrary files and cause a denial of service (failed yum operations) via vectors related to configuration and package group (comps.xml) files for channels.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/44150
+- http://www.redhat.com/support/errata/RHSA-2011-0434.html
+- http://www.securityfocus.com/bid/47316
+- http://www.securitytracker.com/id?1025316
+- http://www.vupen.com/english/advisories/2011/0967
+
+---
+
+#### 1504. CVE-2011-0714
+
+**严重程度 / Severity**: N/A | CVSS: 5.7
+
+**漏洞描述 / Description**:
+Use-after-free vulnerability in a certain Red Hat patch for the RPC server sockets functionality in the Linux kernel 2.6.32 on Red Hat Enterprise Linux (RHEL) 6 might allow remote attackers to cause a denial of service (crash) via malformed data in a packet, related to lockd and the svc_xprt_received function.
+
+**参考链接 / References**:
+- http://openwall.com/lists/oss-security/2011/03/08/17
+- http://openwall.com/lists/oss-security/2011/03/09/1
+- https://bugzilla.redhat.com/show_bug.cgi?id=678144
+- https://rhn.redhat.com/errata/RHSA-2011-0329.html
+- http://openwall.com/lists/oss-security/2011/03/08/17
+
+---
+
+#### 1505. CVE-2011-1484
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+jboss-seam.jar in the JBoss Seam 2 framework 2.2.x and earlier, as distributed in Red Hat JBoss Enterprise SOA Platform 4.3.0.CP04 and 5.1.0 and JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.3.0.CP09 and 5.1.0, does not properly restrict use of Expression Language (EL) statements in FacesMessages during page exception handling, which allows remote attackers to execute arbitrary Java code via a crafted URL to an application.
+
+**参考链接 / References**:
+- http://www.redhat.com/support/errata/RHSA-2011-0460.html
+- http://www.redhat.com/support/errata/RHSA-2011-0461.html
+- http://www.redhat.com/support/errata/RHSA-2011-0462.html
+- http://www.redhat.com/support/errata/RHSA-2011-0463.html
+- http://www.redhat.com/support/errata/RHSA-2011-1148.html
+
+---
+
+#### 1506. CVE-2011-2196
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+jboss-seam.jar in the JBoss Seam 2 framework 2.2.x and earlier, as distributed in Red Hat JBoss Enterprise SOA Platform 4.3.0.CP05 and 5.1.0; JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.3.0, 4.3.0.CP09, and 5.1.1; and JBoss Enterprise Web Platform 5.1.1, does not properly restrict use of Expression Language (EL) statements in FacesMessages during page exception handling, which allows remote attackers to execute arbitrary Java code via a crafted URL to an application.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2011-1484.
+
+**参考链接 / References**:
+- http://www.redhat.com/support/errata/RHSA-2011-0945.html
+- http://www.redhat.com/support/errata/RHSA-2011-0946.html
+- http://www.redhat.com/support/errata/RHSA-2011-0947.html
+- http://www.redhat.com/support/errata/RHSA-2011-0948.html
+- http://www.redhat.com/support/errata/RHSA-2011-0949.html
+
+---
+
+#### 1507. CVE-2011-1576
+
+**严重程度 / Severity**: N/A | CVSS: 5.7
+
+**漏洞描述 / Description**:
+The Generic Receive Offload (GRO) implementation in the Linux kernel 2.6.18 on Red Hat Enterprise Linux 5 and 2.6.32 on Red Hat Enterprise Linux 6, as used in Red Hat Enterprise Virtualization (RHEV) Hypervisor and other products, allows remote attackers to cause a denial of service via crafted VLAN packets that are processed by the napi_reuse_skb function, leading to (1) a memory leak or (2) memory corruption, a different vulnerability than CVE-2011-1478.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2011-0927.html
+- http://www.redhat.com/support/errata/RHSA-2011-1090.html
+- http://www.redhat.com/support/errata/RHSA-2011-1106.html
+- http://www.securityfocus.com/bid/48907
+- http://www.securitytracker.com/id?1025853
+
+---
+
+#### 1508. CVE-2011-2925
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+
+**漏洞描述 / Description**:
+Cumin in Red Hat Enterprise Messaging, Realtime, and Grid (MRG) 2.0 records broker authentication credentials in a log file, which allows local users to bypass authentication and perform unauthorized actions on jobs and message queues via a direct connection to the broker.
+
+**参考链接 / References**:
+- http://osvdb.org/75217
+- http://secunia.com/advisories/45887
+- http://secunia.com/advisories/45928
+- http://www.redhat.com/support/errata/RHSA-2011-1249.html
+- http://www.redhat.com/support/errata/RHSA-2011-1250.html
+
+---
+
+#### 1509. CVE-2011-4346
+
+**严重程度 / Severity**: N/A | CVSS: 3.5
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in the web interface in Red Hat Network (RHN) Satellite 5.4.1 allows remote authenticated users to inject arbitrary web script or HTML via the Description field of the asset tag in a Custom Info page.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/47162
+- http://www.redhat.com/support/errata/RHSA-2011-1794.html
+- http://www.securityfocus.com/bid/50963
+- http://www.securitytracker.com/id?1026391
+- https://bugzilla.redhat.com/show_bug.cgi?id=742050
+
+---
+
+#### 1510. CVE-2011-4608
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+mod_cluster in JBoss Enterprise Application Platform 5.1.2 for Red Hat Linux allows worker nodes to register with arbitrary virtual hosts, which allows remote attackers to bypass intended access restrictions and provide malicious content, hijack sessions, and steal credentials by registering from an external vhost that does not enforce security constraints.
+
+**参考链接 / References**:
+- http://www.redhat.com/support/errata/RHSA-2012-0035.html
+- http://www.redhat.com/support/errata/RHSA-2012-0036.html
+- http://www.redhat.com/support/errata/RHSA-2012-0037.html
+- http://www.redhat.com/support/errata/RHSA-2012-0038.html
+- http://www.redhat.com/support/errata/RHSA-2012-0039.html
+
+---
+
+#### 1511. CVE-2012-1145
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+spacewalk-backend in Red Hat Network Satellite 5.4 on Red Hat Enterprise Linux 6 does not properly authorize or authenticate uploads to the NULL organization when mod_wsgi is used, which allows remote attackers to cause a denial of service (/var partition disk consumption and failed updates) via a large number of package uploads.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2012-0436.html
+- http://secunia.com/advisories/48664
+- http://www.osvdb.org/81481
+- http://www.securityfocus.com/bid/52832
+- http://www.securitytracker.com/id?1026873
+
+---
+
+#### 1512. CVE-2012-2664
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+The sosreport utility in the Red Hat sos package before 2.2-29 does not remove the root user password information from the Kickstart configuration file (/root/anaconda-ks.cfg) when creating an archive of debugging information, which might allow attackers to obtain passwords or password hashes.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2012-0958.html
+- http://rhn.redhat.com/errata/RHSA-2013-1121.html
+- http://www.oracle.com/technetwork/topics/security/ovmbulletinjul2016-3090546.html
+- http://www.securityfocus.com/bid/54116
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/76468
+
+---
+
+#### 1513. CVE-2012-2678
+
+**严重程度 / Severity**: N/A | CVSS: 1.2
+
+**漏洞描述 / Description**:
+389 Directory Server before 1.2.11.6 (aka Red Hat Directory Server before 8.2.10-3), after the password for a LDAP user has been changed and before the server has been reset, allows remote attackers to read the plaintext password via the unhashed#user#password attribute.
+
+**参考链接 / References**:
+- http://directory.fedoraproject.org/wiki/Release_Notes
+- http://osvdb.org/83336
+- http://rhn.redhat.com/errata/RHSA-2012-0997.html
+- http://rhn.redhat.com/errata/RHSA-2012-1041.html
+- http://secunia.com/advisories/49734
+
+---
+
+#### 1514. CVE-2012-2746
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+389 Directory Server before 1.2.11.6 (aka Red Hat Directory Server before 8.2.10-3), when the password of a LDAP user has been changed and audit logging is enabled, saves the new password to the log in plain text, which allows remote authenticated users to read the password.
+
+**参考链接 / References**:
+- http://directory.fedoraproject.org/wiki/Release_Notes
+- http://rhn.redhat.com/errata/RHSA-2012-0997.html
+- http://rhn.redhat.com/errata/RHSA-2012-1041.html
+- http://secunia.com/advisories/49734
+- http://www.osvdb.org/83329
+
+---
+
+#### 1515. CVE-2012-3440
+
+**严重程度 / Severity**: N/A | CVSS: 5.6
+
+**漏洞描述 / Description**:
+A certain Red Hat script for sudo 1.7.2 on Red Hat Enterprise Linux (RHEL) 5 allows local users to overwrite arbitrary files via a symlink attack on the /var/tmp/nsswitch.conf.bak temporary file.
+
+**参考链接 / References**:
+- http://www.oracle.com/technetwork/topics/security/ovmbulletinjul2016-3090546.html
+- http://www.securityfocus.com/bid/54868
+- https://bugzilla.redhat.com/show_bug.cgi?id=844442
+- http://www.oracle.com/technetwork/topics/security/ovmbulletinjul2016-3090546.html
+- http://www.securityfocus.com/bid/54868
+
+---
+
+#### 1516. CVE-2012-2662
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Multiple cross-site scripting (XSS) vulnerabilities in Red Hat Certificate System (RHCS) before 8.1.1 and Dogtag Certificate System allow remote attackers to inject arbitrary web script or HTML via unspecified parameters to the (1) System Agent or (2) End Entity pages.
+
+**参考链接 / References**:
+- http://osvdb.org/84099
+- http://rhn.redhat.com/errata/RHSA-2012-1103.html
+- http://rhn.redhat.com/errata/RHSA-2015-1347.html
+- http://secunia.com/advisories/50013
+- http://www.securityfocus.com/bid/54608
+
+---
+
+#### 1517. CVE-2012-3367
+
+**严重程度 / Severity**: N/A | CVSS: 5.5
+
+**漏洞描述 / Description**:
+Red Hat Certificate System (RHCS) before 8.1.1 and Dogtag Certificate System does not properly check certificate revocation requests made through the web interface, which allows remote attackers with permissions to revoke end entity certificates to revoke the Certificate Authority (CA) certificate.
+
+**参考链接 / References**:
+- http://osvdb.org/84098
+- http://rhn.redhat.com/errata/RHSA-2012-1103.html
+- http://secunia.com/advisories/50013
+- http://www.securityfocus.com/bid/54608
+- http://www.securitytracker.com/id?1027284
+
+---
+
+#### 1518. CVE-2012-2680
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Cumin before 0.1.5444, as used in Red Hat Enterprise Messaging, Realtime, and Grid (MRG) 2.0, does not properly restrict access to resources, which allows remote attackers to obtain sensitive information via unspecified vectors related to (1) "web pages," (2) "export functionality," and (3) "image viewing."
+
+**参考链接 / References**:
+- http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=829421
+- http://rhn.redhat.com/errata/RHSA-2012-1278.html
+- http://rhn.redhat.com/errata/RHSA-2012-1281.html
+- http://secunia.com/advisories/50660
+- http://www.securityfocus.com/bid/55618
+
+---
+
+#### 1519. CVE-2012-2681
+
+**严重程度 / Severity**: N/A | CVSS: 5.8
+
+**漏洞描述 / Description**:
+Cumin before 0.1.5444, as used in Red Hat Enterprise Messaging, Realtime, and Grid (MRG) 2.0, uses predictable random numbers to generate session keys, which makes it easier for remote attackers to guess the session key.
+
+**参考链接 / References**:
+- http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=827558
+- http://rhn.redhat.com/errata/RHSA-2012-1278.html
+- http://rhn.redhat.com/errata/RHSA-2012-1281.html
+- http://secunia.com/advisories/50660
+- http://www.securityfocus.com/bid/55618
+
+---
+
+#### 1520. CVE-2012-2683
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Multiple cross-site scripting (XSS) vulnerabilities in Cumin before 0.1.5444, as used in Red Hat Enterprise Messaging, Realtime, and Grid (MRG) 2.0, allow remote attackers to inject arbitrary web script or HTML via unspecified vectors related to (1) "error message displays" or (2) "in source HTML on certain pages."
+
+**参考链接 / References**:
+- http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=830243
+- http://lists.fedoraproject.org/pipermail/package-announce/2012-November/092543.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2012-November/092562.html
+- http://rhn.redhat.com/errata/RHSA-2012-1278.html
+- http://rhn.redhat.com/errata/RHSA-2012-1281.html
+
+---
+
+#### 1521. CVE-2012-2684
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Multiple SQL injection vulnerabilities in the get_sample_filters_by_signature function in Cumin before 0.1.5444, as used in Red Hat Enterprise Messaging, Realtime, and Grid (MRG) 2.0, allow remote attackers to execute arbitrary SQL commands via the (1) agent or (2) object id.
+
+**参考链接 / References**:
+- http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=830245
+- http://lists.fedoraproject.org/pipermail/package-announce/2012-November/092543.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2012-November/092562.html
+- http://rhn.redhat.com/errata/RHSA-2012-1278.html
+- http://rhn.redhat.com/errata/RHSA-2012-1281.html
+
+---
+
+#### 1522. CVE-2012-2685
+
+**严重程度 / Severity**: N/A | CVSS: 4.0
+
+**漏洞描述 / Description**:
+Cumin before 0.1.5444, as used in Red Hat Enterprise Messaging, Realtime, and Grid (MRG) 2.0, allows remote authenticated users to cause a denial of service (memory consumption) via a large size in an image request.
+
+**参考链接 / References**:
+- http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=830248
+- http://rhn.redhat.com/errata/RHSA-2012-1278.html
+- http://rhn.redhat.com/errata/RHSA-2012-1281.html
+- http://secunia.com/advisories/50660
+- http://www.securityfocus.com/bid/55618
+
+---
+
+#### 1523. CVE-2026-42945 - nginx: NGINX: Arbitrary Code Execution Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+
+**漏洞描述 / Description**:
+[Red Hat] nginx: NGINX: Arbitrary Code Execution Vulnerability. Bugzilla: 2477116
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477116
+
+---
+
+#### 1524. CVE-2026-46300 - kernel: "Fragnesia" is a variant of Dirty Frag vulnerability in the ESP/XFRM…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: "Fragnesia" is a variant of Dirty Frag vulnerability in the ESP/XFRM leading to Local Privilege Escalation (LPE) vulnerability in the Linux kernel. Bugzilla: 2477015
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477015
+
+---
+
+#### 1525. CVE-2026-43481 - kernel: net-shapers: don't free reply skb after genlmsg_reply()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net-shapers: don't free reply skb after genlmsg_reply(). Bugzilla: 2477055
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477055
+
+---
+
+#### 1526. CVE-2026-43478 - kernel: ASoC: codecs: rt1011: Use component to get the dapm context in spk_mode_put
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ASoC: codecs: rt1011: Use component to get the dapm context in spk_mode_put. Bugzilla: 2477060
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477060
+
+---
+
+#### 1527. CVE-2026-43480 - kernel: ASoC: amd: acp3x-rt5682-max9836: Add missing error check for clock…
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ASoC: amd: acp3x-rt5682-max9836: Add missing error check for clock acquisition. Bugzilla: 2477069
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477069
+
+---
+
+#### 1528. CVE-2026-43483 - kernel: KVM: SVM: Set/clear CR8 write interception when AVIC is (de)activated
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: KVM: SVM: Set/clear CR8 write interception when AVIC is (de)activated. Bugzilla: 2477073
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477073
+
+---
+
+#### 1529. CVE-2026-43482 - kernel: sched_ext: Disable preemption between scx_claim_exit() and kicking helper…
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: sched_ext: Disable preemption between scx_claim_exit() and kicking helper work. Bugzilla: 2477079
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477079
+
+---
+
+#### 1530. CVE-2026-43484 - kernel: mmc: core: Avoid bitfield RMW for claim/retune flags
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: mmc: core: Avoid bitfield RMW for claim/retune flags. Bugzilla: 2477080
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477080
+
+---
+
+#### 1531. CVE-2026-43488 - kernel: usb: xhci: Prevent interrupt storm on host controller error (HCE)
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: usb: xhci: Prevent interrupt storm on host controller error (HCE). Bugzilla: 2477084
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477084
+
+---
+
+#### 1532. CVE-2026-43485 - kernel: nouveau/gsp: drop WARN_ON in ACPI probes
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: nouveau/gsp: drop WARN_ON in ACPI probes. Bugzilla: 2477092
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477092
+
+---
+
+#### 1533. CVE-2026-43477 - kernel: drm/i915/vrr: Configure VRR timings after enabling TRANS_DDI_FUNC_CTL
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: drm/i915/vrr: Configure VRR timings after enabling TRANS_DDI_FUNC_CTL. Bugzilla: 2477093
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477093
+
+---
+
+#### 1534. CVE-2026-43489 - kernel: liveupdate: luo_file: remember retrieve() status
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: liveupdate: luo_file: remember retrieve() status. Bugzilla: 2477126
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477126
+
+---
+
+#### 1535. CVE-2026-43479 - kernel: net: usb: lan78xx: fix WARN in __netif_napi_del_locked on disconnect
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: usb: lan78xx: fix WARN in __netif_napi_del_locked on disconnect. Bugzilla: 2477131
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477131
+
+---
+
+#### 1536. CVE-2026-43486 - kernel: arm64: contpte: fix set_access_flags() no-op check for SMMU/ATS faults
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: arm64: contpte: fix set_access_flags() no-op check for SMMU/ATS faults. Bugzilla: 2477140
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477140
+
+---
+
+#### 1537. CVE-2026-43476 - kernel: iio: chemical: sps30_i2c: fix buffer size in sps30_i2c_read_meas()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: iio: chemical: sps30_i2c: fix buffer size in sps30_i2c_read_meas(). Bugzilla: 2477145
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477145
+
+---
+
+#### 1538. CVE-2026-8449 - kernel: ksmbd: Linux ksmbd: Privilege Escalation via crafted DACL in ACL inheritance
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ksmbd: Linux ksmbd: Privilege Escalation via crafted DACL in ACL inheritance. Bugzilla: 2476870
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2476870
+
+---
+
+#### 1539. CVE-2026-6402 - webpack-dev-server: webpack-dev-server: Information disclosure due to cross-origin…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] webpack-dev-server: webpack-dev-server: Information disclosure due to cross-origin source code exposure. Bugzilla: 2476411
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2476411
+
+---
+
+#### 1540. CVE-2026-43896 - jq: stack overflow in recursive object merge
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] jq: stack overflow in recursive object merge. Bugzilla: 2469184
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2469184
+
+---
+
+#### 1541. CVE-2026-44777 - jq: stack overflow in module loading on mutual include
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] jq: stack overflow in module loading on mutual include. Bugzilla: 2469192
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2469192
+
+---
+
+#### 1542. CVE-2026-43894 - jq: jq: Arbitrary Code Execution or Denial of Service via Signed Integer Overflow
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] jq: jq: Arbitrary Code Execution or Denial of Service via Signed Integer Overflow. Bugzilla: 2469175
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2469175
+
+---
+
+#### 1543. [Ubuntu] USN-8271-1: nginx vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the nginx ngx_http_rewrite_module component incorrectly handled certain rewrite directives. A remote attacker could use this issue to cause nginx to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8271-1
+
+---
+
+#### 1544. [Ubuntu] USN-8269-1: Avahi vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It is discovered that Avahi incorrectly handled crafted input. A remote attacker could possibly use this issue to crash the program, resulting in a denial of service. This issue only affected Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. (CVE-2026-24401) Guillaume Meunier discovered that Avahi incorrectly handled crafted input. An at
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8269-1
+
+---
+
+#### 1545. CVE-2017-15638
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+
+**漏洞描述 / Description**:
+The SuSEfirewall2 package before 3.6.312-2.13.1 in SUSE Linux Enterprise (SLE) Desktop 12 SP2, Server 12 SP2, and Server for Raspberry Pi 12 SP2; before 3.6.312.333-3.10.1 in SLE Desktop 12 SP3 and Server 12 SP3; before 3.6_SVNr208-2.18.3.1 in SLE Server 11 SP4; before 3.6.312-5.9.1 in openSUSE Leap 42.2; and before 3.6.312.333-7.1 in openSUSE Leap 42.3 might allow remote attackers to bypass intended access restrictions on the portmap service by leveraging a missing source net restriction for _rpc_ services.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-updates/2017-11/msg00014.html
+- http://lists.opensuse.org/opensuse-updates/2017-11/msg00014.html
+
+---
+
+#### 1546. CVE-2017-1711
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+IBM iNotes 8.5 and 9.0 SUService can be misguided into running malicious code from a DLL masquerading as a windows DLL in the temp directory. IBM X-Force ID: 134532.
+
+**参考链接 / References**:
+- http://www.ibm.com/support/docview.wss?uid=swg22010774
+- http://www.ibm.com/support/docview.wss?uid=swg22010775
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/134532
+- http://www.ibm.com/support/docview.wss?uid=swg22010774
+- http://www.ibm.com/support/docview.wss?uid=swg22010775
+
+---
+
+#### 1547. CVE-2018-8059
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+
+**漏洞描述 / Description**:
+The Djelibeybi configuration examples for use of NGINX in SUSE Portus 2.3, when applied to certain configurations involving Docker Compose, have a Missing SSL Certificate Validation issue because no proxy_ssl_* directives are used.
+
+**参考链接 / References**:
+- http://openwall.com/lists/oss-security/2018/03/07/4
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/140144
+- http://openwall.com/lists/oss-security/2018/03/07/4
+
+---
+
+#### 1548. CVE-2011-0467
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+
+**漏洞描述 / Description**:
+A vulnerability in the listing of available software of SUSE Studio Onsite, SUSE Studio Onsite 1.1 Appliance allows authenticated users to execute arbitrary SQL statements via SQL injection. Affected releases are SUSE Studio Onsite: versions prior to 1.0.3-0.18.1, SUSE Studio Onsite 1.1 Appliance: versions prior to 1.1.2-0.25.1.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=675039
+- https://www.suse.com/security/cve/CVE-2011-0467/
+- https://bugzilla.suse.com/show_bug.cgi?id=675039
+- https://www.suse.com/security/cve/CVE-2011-0467/
+
+---
+
+#### 1549. CVE-2011-3172
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.4
+
+**漏洞描述 / Description**:
+A vulnerability in pam_modules of SUSE Linux Enterprise allows attackers to log into accounts that should have been disabled. Affected releases are SUSE Linux Enterprise: versions prior to 12.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=707645
+- https://build.opensuse.org/request/show/80346
+- https://bugzilla.suse.com/show_bug.cgi?id=707645
+- https://build.opensuse.org/request/show/80346
+
+---
+
+#### 1550. CVE-2011-4190
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.9
+
+**漏洞描述 / Description**:
+The kdump implementation is missing the host key verification in the kdump and mkdumprd OpenSSH integration of kdump prior to version 2012-01-20. This is similar to CVE-2011-3588, but different in that the kdump implementation is specific to SUSE. A remote malicious kdump server could use this flaw to impersonate the correct kdump server to obtain security sensitive information (kdump core files).
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=722440
+- https://www.suse.com/security/cve/CVE-2011-4190/
+- https://bugzilla.suse.com/show_bug.cgi?id=722440
+- https://www.suse.com/security/cve/CVE-2011-4190/
+
+---
+
+#### 1551. CVE-2011-4181
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+A vulnerability in open build service allows remote attackers to gain access to source files even though source access is disabled. Affected releases are SUSE open build service up to and including version 2.1.15 (for 2.1) and before version 2.3.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=734003
+- https://github.com/openSUSE/open-build-service/commit/5281e4bff9df31f1f91e22a0d1e9086b93b23d7e
+- https://bugzilla.suse.com/show_bug.cgi?id=734003
+- https://github.com/openSUSE/open-build-service/commit/5281e4bff9df31f1f91e22a0d1e9086b93b23d7e
+
+---
+
+#### 1552. CVE-2011-4182
+
+**严重程度 / Severity**: HIGH | CVSS: 7.3
+
+**漏洞描述 / Description**:
+Missing escaping of ESSID values in sysconfig of SUSE Linux Enterprise allows attackers controlling an access point to cause execute arbitrary code. Affected releases are sysconfig prior to 0.83.7-2.1.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=735394
+- https://www.suse.com/security/cve/CVE-2017-15710/
+- https://bugzilla.suse.com/show_bug.cgi?id=735394
+- https://www.suse.com/security/cve/CVE-2017-15710/
+
+---
+
+#### 1553. CVE-2011-4183
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+
+**漏洞描述 / Description**:
+A vulnerability in open build service allows remote attackers to upload arbitrary RPM files. Affected releases are SUSE open build service prior to 2.1.16.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=736243
+- https://github.com/openSUSE/open-build-service/commit/5281e4bff9df31f1f91e22a0d1e9086b93b23d7e
+- https://bugzilla.suse.com/show_bug.cgi?id=736243
+- https://github.com/openSUSE/open-build-service/commit/5281e4bff9df31f1f91e22a0d1e9086b93b23d7e
+
+---
+
+#### 1554. CVE-2018-16588
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Privilege escalation can occur in the SUSE useradd.c code in useradd, as distributed in the SUSE shadow package through 4.2.1-27.9.1 for SUSE Linux Enterprise 12 (SLE-12) and through 4.5-5.39 for SUSE Linux Enterprise 15 (SLE-15). Non-existing intermediate directories are created with mode 0777 during user creation. Given that they are world-writable, local attackers might use this for privilege escalation and other unspecified attacks.  NOTE: this would affect non-SUSE users who took useradd.c code from a 2014-04-02 upstream pull request; however, no non-SUSE distribution is known to be affected.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2018-09/msg00073.html
+- http://lists.opensuse.org/opensuse-security-announce/2018-09/msg00073.html
+
+---
+
+#### 1555. CVE-2018-12470
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+A SQL Injection in the RegistrationSharing module of SUSE Linux SMT allows remote attackers to cause execute arbitrary SQL statements. Affected releases are SUSE Linux SMT: versions prior to 3.0.37.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1103810
+- https://bugzilla.suse.com/show_bug.cgi?id=1103810
+
+---
+
+#### 1556. CVE-2018-12471
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+
+**漏洞描述 / Description**:
+A External Entity Reference ('XXE') vulnerability in SUSE Linux SMT allows remote attackers to read data from the server or cause DoS by referencing blocking elements. Affected releases are SUSE Linux SMT: versions prior to 3.0.37.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1103809
+- https://bugzilla.suse.com/show_bug.cgi?id=1103809
+
+---
+
+#### 1557. CVE-2018-12472
+
+**严重程度 / Severity**: HIGH | CVSS: 7.3
+
+**漏洞描述 / Description**:
+A improper authentication using the HOST header in SUSE Linux SMT allows remote attackers to spoof a sibling server. Affected releases are SUSE Linux SMT: versions prior to 3.0.37.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1104076
+- https://bugzilla.suse.com/show_bug.cgi?id=1104076
+
+---
+
+#### 1558. CVE-2018-17953
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+A incorrect variable in a SUSE specific patch for pam_access rule matching in PAM 1.3.0 in openSUSE Leap 15.0 and SUSE Linux Enterprise 15 could lead to pam_access rules not being applied (fail open).
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1115640
+- https://bugzilla.suse.com/show_bug.cgi?id=1115640
+
+---
+
+#### 1559. CVE-2018-17957
+
+**严重程度 / Severity**: LOW | CVSS: 3.4
+
+**漏洞描述 / Description**:
+The YaST2 RMT module for configuring the SUSE Repository Mirroring Tool (RMT) before 1.1.2 exposed MySQL database passwords on process commandline, allowing local attackers to access or corrupt the RMT database.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1117602
+- https://lists.opensuse.org/opensuse-security-announce/2018-12/msg00068.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1117602
+- https://lists.opensuse.org/opensuse-security-announce/2018-12/msg00068.html
+
+---
+
+#### 1560. CVE-2019-3684
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.9
+
+**漏洞描述 / Description**:
+SUSE Manager until version 4.0.7 and Uyuni until commit 1b426ad5ed0a7191a6fb46bb83e98ae4b99a5ade created world-readable swap files on systems that don't have a swap already configured and don't have btrfs as filesystem
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1131954
+- https://bugzilla.suse.com/show_bug.cgi?id=1131954
+
+---
+
+#### 1561. CVE-2019-3689
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.1
+
+**漏洞描述 / Description**:
+The nfs-utils package in SUSE Linux Enterprise Server 12 before and including version 1.3.0-34.18.1 and in SUSE Linux Enterprise Server 15 before and including version 2.1.1-6.10.2 the directory /var/lib/nfs is owned by statd:nogroup. This directory contains files owned and managed by root. If statd is compromised, it can therefore trick processes running with root privileges into creating/overwriting files anywhere on the system.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2019-10/msg00071.html
+- http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00006.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1150733
+- https://git.linux-nfs.org/?p=steved/nfs-utils.git%3Ba=commitdiff%3Bh=fee2cc29e888f2ced6a76990923aef19d326dc0e
+- https://lists.debian.org/debian-lts-announce/2019/10/msg00026.html
+
+---
+
+#### 1562. CVE-2019-3688
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.1
+
+**漏洞描述 / Description**:
+The /usr/sbin/pinger binary packaged with squid in SUSE Linux Enterprise Server 15 before and including version 4.8-5.8.1 and in SUSE Linux Enterprise Server 12 before and including 3.5.21-26.17.1 had squid:root, 0750 permissions. This allowed an attacker that compromissed the squid user to gain persistence by changing the binary
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00053.html
+- http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00056.html
+- http://lists.opensuse.org/opensuse-security-announce/2019-12/msg00024.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1093414
+- http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00053.html
+
+---
+
+#### 1563. CVE-2019-3682
+
+**严重程度 / Severity**: HIGH | CVSS: 8.4
+
+**漏洞描述 / Description**:
+The docker-kubic package in SUSE CaaS Platform 3.0 before 17.09.1_ce-7.6.1 provided access to an insecure API locally on the Kubernetes master node.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1121148
+- https://bugzilla.suse.com/show_bug.cgi?id=1121148
+
+---
+
+#### 1564. CVE-2019-3683
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+
+**漏洞描述 / Description**:
+The keystone-json-assignment package in SUSE Openstack Cloud 8 before commit d7888c75505465490250c00cc0ef4bb1af662f9f every user listed in the /etc/keystone/user-project-map.json was assigned full "member" role access to every project. This allowed these users to access, modify, create and delete arbitrary resources, contrary to expectations.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1124864
+- https://www.suse.com/security/cve/CVE-2019-3683/
+- https://bugzilla.suse.com/show_bug.cgi?id=1124864
+
+---
+
+#### 1565. CVE-2019-18898
+
+**严重程度 / Severity**: HIGH | CVSS: 7.7
+
+**漏洞描述 / Description**:
+UNIX Symbolic Link (Symlink) Following vulnerability in the trousers package of SUSE Linux Enterprise Server 15 SP1; openSUSE Factory allowed local attackers escalate privileges from user tss to root. This issue affects: SUSE Linux Enterprise Server 15 SP1 trousers versions prior to 0.3.14-6.3.1. openSUSE Factory trousers versions prior to 0.3.14-7.1.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-05/msg00066.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1157651
+- http://lists.opensuse.org/opensuse-security-announce/2020-05/msg00066.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1157651
+
+---
+
+#### 1566. CVE-2019-3691
+
+**严重程度 / Severity**: HIGH | CVSS: 7.7
+
+**漏洞描述 / Description**:
+A Symbolic Link (Symlink) Following vulnerability in the packaging of munge in SUSE Linux Enterprise Server 15; openSUSE Factory allowed local attackers to escalate privileges from user munge to root. This issue affects: SUSE Linux Enterprise Server 15 munge versions prior to 0.5.13-4.3.1. openSUSE Factory munge versions prior to 0.5.13-6.1.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1155075
+- https://bugzilla.suse.com/show_bug.cgi?id=1155075
+
+---
+
+#### 1567. CVE-2019-3687
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.0
+
+**漏洞描述 / Description**:
+The permission package in SUSE Linux Enterprise Server allowed all local users to run dumpcap in the "easy" permission profile and sniff network traffic. This issue affects: SUSE Linux Enterprise Server permissions versions starting from 85c83fef7e017f8ab7f8602d3163786d57344439 to 081d081dcfaf61710bda34bc21c80c66276119aa.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00010.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1148788
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00010.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1148788
+
+---
+
+#### 1568. CVE-2019-3692
+
+**严重程度 / Severity**: HIGH | CVSS: 7.7
+
+**漏洞描述 / Description**:
+The packaging of inn on SUSE Linux Enterprise Server 11; openSUSE Factory, Leap 15.1 allows local attackers to escalate from user inn to root via symlink attacks. This issue affects: SUSE Linux Enterprise Server 11 inn version 2.4.2-170.21.3.1 and prior versions. openSUSE Factory inn version 2.6.2-2.2 and prior versions. openSUSE Leap 15.1 inn version 2.5.4-lp151.2.47 and prior versions.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00027.html
+- http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00028.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1154302
+- http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00027.html
+- http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00028.html
+
+---
+
+#### 1569. CVE-2019-3693
+
+**严重程度 / Severity**: HIGH | CVSS: 7.7
+
+**漏洞描述 / Description**:
+A symlink following vulnerability in the packaging of mailman in SUSE Linux Enterprise Server 11, SUSE Linux Enterprise Server 12; openSUSE Leap 15.1 allowed local attackers to escalate their privileges from user wwwrun to root. Additionally arbitrary files could be changed to group mailman. This issue affects: SUSE Linux Enterprise Server 11 mailman versions prior to 2.1.15-9.6.15.1. SUSE Linux Enterprise Server 12 mailman versions prior to 2.1.17-3.11.1. openSUSE Leap 15.1 mailman version 2.1.29-lp151.2.14 and prior versions.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-01/msg00059.html
+- http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00000.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1154328
+- http://lists.opensuse.org/opensuse-security-announce/2020-01/msg00059.html
+- http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00000.html
+
+---
+
+#### 1570. CVE-2019-18900
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.0
+
+**漏洞描述 / Description**:
+: Incorrect Default Permissions vulnerability in libzypp of SUSE CaaS Platform 3.0, SUSE Linux Enterprise Server 12, SUSE Linux Enterprise Server 15 allowed local attackers to read a cookie store used by libzypp, exposing private cookies. This issue affects: SUSE CaaS Platform 3.0 libzypp versions prior to 16.21.2-27.68.1. SUSE Linux Enterprise Server 12 libzypp versions prior to 16.21.2-2.45.1. SUSE Linux Enterprise Server 15 17.19.0-3.34.1.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00036.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1158763
+- https://lists.debian.org/debian-lts-announce/2020/03/msg00005.html
+- http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00036.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1158763
+
+---
+
+#### 1571. CVE-2018-12476
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Relative Path Traversal vulnerability in obs-service-tar_scm of SUSE Linux Enterprise Server 15; openSUSE Factory allows remote attackers with control over a repository to overwrite files on the machine of the local user if a malicious service is executed. This issue affects: SUSE Linux Enterprise Server 15 obs-service-tar_scm versions prior to 0.9.2.1537788075.fefaa74:. openSUSE Factory obs-service-tar_scm versions prior to 0.9.2.1537788075.fefaa74.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1107944
+- https://bugzilla.suse.com/show_bug.cgi?id=1107944
+
+---
+
+#### 1572. CVE-2018-20105
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.0
+
+**漏洞描述 / Description**:
+A Inclusion of Sensitive Information in Log Files vulnerability in yast2-rmt of SUSE Linux Enterprise Server 15; openSUSE Leap allows local attackers to learn the password if they can access the log file. This issue affects: SUSE Linux Enterprise Server 15 yast2-rmt versions prior to 1.2.2. openSUSE Leap yast2-rmt versions prior to 1.2.2.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00035.html
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00015.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1119835
+- http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00035.html
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00015.html
+
+---
+
+#### 1573. CVE-2017-14806
+
+**严重程度 / Severity**: LOW | CVSS: 3.7
+
+**漏洞描述 / Description**:
+A Improper Certificate Validation vulnerability in susestudio-common of SUSE Studio onsite allows remote attackers to MITM connections to the repositories, which allows the modification of packages received over these connections. This issue affects: SUSE Studio onsite susestudio-common version 1.3.17-56.6.3 and prior versions.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1065397
+- https://bugzilla.suse.com/show_bug.cgi?id=1065397
+
+---
+
+#### 1574. CVE-2017-14807
+
+**严重程度 / Severity**: HIGH | CVSS: 8.1
+
+**漏洞描述 / Description**:
+An Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in susestudio-ui-server of SUSE Studio onsite allows remote attackers with admin privileges in Studio to alter SQL statements, allowing for extraction and modification of data. This issue affects: SUSE Studio onsite susestudio-ui-server version 1.3.17-56.6.3 and prior versions.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1065396
+- https://bugzilla.suse.com/show_bug.cgi?id=1065396
+
+---
+
+#### 1575. CVE-2019-3698
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.7
+
+**漏洞描述 / Description**:
+UNIX Symbolic Link (Symlink) Following vulnerability in the cronjob shipped with nagios of SUSE Linux Enterprise Server 12, SUSE Linux Enterprise Server 11; openSUSE Factory allows local attackers to cause cause DoS or potentially escalate privileges by winning a race. This issue affects: SUSE Linux Enterprise Server 12 nagios version 3.5.1-5.27 and prior versions. SUSE Linux Enterprise Server 11 nagios version 3.0.6-1.25.36.3.1 and prior versions. openSUSE Factory nagios version 4.4.5-2.1 and prior versions.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-04/msg00014.html
+- http://lists.opensuse.org/opensuse-security-announce/2020-04/msg00022.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1156309
+- http://lists.opensuse.org/opensuse-security-announce/2020-04/msg00014.html
+- http://lists.opensuse.org/opensuse-security-announce/2020-04/msg00022.html
+
+---
+
+#### 1576. CVE-2019-18897
+
+**严重程度 / Severity**: HIGH | CVSS: 8.4
+
+**漏洞描述 / Description**:
+A UNIX Symbolic Link (Symlink) Following vulnerability in the packaging of salt of SUSE Linux Enterprise Server 12, SUSE Linux Enterprise Server 15; openSUSE Factory allows local attackers to escalate privileges from user salt to root. This issue affects: SUSE Linux Enterprise Server 12 salt-master version 2019.2.0-46.83.1 and prior versions. SUSE Linux Enterprise Server 15 salt-master version 2019.2.0-6.21.1 and prior versions. openSUSE Factory salt-master version 2019.2.2-3.1 and prior versions.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00026.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1157465
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00026.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1157465
+
+---
+
+#### 1577. CVE-2019-18901
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.1
+
+**漏洞描述 / Description**:
+A UNIX Symbolic Link (Symlink) Following vulnerability in the mysql-systemd-helper of the mariadb packaging of SUSE Linux Enterprise Server 12, SUSE Linux Enterprise Server 15 allows local attackers to change the permissions of arbitrary files to 0640. This issue affects: SUSE Linux Enterprise Server 12 mariadb versions prior to 10.2.31-3.25.1. SUSE Linux Enterprise Server 15 mariadb versions prior to 10.2.31-3.26.1.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00007.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1160895
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00007.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1160895
+
+---
+
+#### 1578. CVE-2019-18902
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+A Use After Free vulnerability in wicked of SUSE Linux Enterprise Server 12, SUSE Linux Enterprise Server 15; openSUSE Leap 15.1, Factory allows remote attackers to cause DoS or potentially code execution. This issue affects: SUSE Linux Enterprise Server 12 wicked versions prior to 0.6.60-3.5.1. SUSE Linux Enterprise Server 15 wicked versions prior to 0.6.60-3.21.1. openSUSE Leap 15.1 wicked versions prior to 0.6.60-lp151.2.6.1. openSUSE Factory wicked versions prior to 0.6.62.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1160903
+- https://bugzilla.suse.com/show_bug.cgi?id=1160903
+
+---
+
+#### 1579. CVE-2019-18903
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+A Use After Free vulnerability in wicked of SUSE Linux Enterprise Server 12, SUSE Linux Enterprise Server 15; openSUSE Leap 15.1, Factory allows remote attackers to cause DoS or potentially code execution. This issue affects: SUSE Linux Enterprise Server 12 wicked versions prior to 0.6.60-2.18.1. SUSE Linux Enterprise Server 15 wicked versions prior to 0.6.60-28.26.1. openSUSE Leap 15.1 wicked versions prior to 0.6.60-lp151.2.9.1. openSUSE Factory wicked versions prior to 0.6.62.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1160904
+- https://bugzilla.suse.com/show_bug.cgi?id=1160904
+
+---
+
+#### 1580. CVE-2020-8013
+
+**严重程度 / Severity**: LOW | CVSS: 2.2
+
+**漏洞描述 / Description**:
+A UNIX Symbolic Link (Symlink) Following vulnerability in chkstat of SUSE Linux Enterprise Server 12, SUSE Linux Enterprise Server 15, SUSE Linux Enterprise Server 11 set permissions intended for specific binaries on other binaries because it erroneously followed symlinks. The symlinks can't be controlled by attackers on default systems, so exploitation is difficult. This issue affects: SUSE Linux Enterprise Server 12 permissions versions prior to 2015.09.28.1626-17.27.1. SUSE Linux Enterprise Server 15 permissions versions prior to 20181116-9.23.1. SUSE Linux Enterprise Server 11 permissions versions prior to 2013.1.7-0.6.12.1.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00010.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1163922
+- http://lists.opensuse.org/opensuse-security-announce/2020-03/msg00010.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1163922
+
+---
+
+#### 1581. CVE-2019-3695
+
+**严重程度 / Severity**: HIGH | CVSS: 8.4
+
+**漏洞描述 / Description**:
+A Improper Control of Generation of Code vulnerability in the packaging of pcp of SUSE Linux Enterprise High Performance Computing 15-ESPOS, SUSE Linux Enterprise High Performance Computing 15-LTSS, SUSE Linux Enterprise Module for Development Tools 15, SUSE Linux Enterprise Module for Development Tools 15-SP1, SUSE Linux Enterprise Module for Open Buildservice Development Tools 15, SUSE Linux Enterprise Server 15-LTSS, SUSE Linux Enterprise Server for SAP 15, SUSE Linux Enterprise Software Development Kit 12-SP4, SUSE Linux Enterprise Software Development Kit 12-SP5; openSUSE Leap 15.1 allows the user pcp to run code as root by placing it into /var/log/pcp/configs.sh This issue affects: SUSE Linux Enterprise High Performance Computing 15-ESPOS pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise High Performance Computing 15-LTSS pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise Module for Development Tools 15 pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise Module for Development Tools 15-SP1 pcp versions prior to 4.3.1-3.5.3. SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise Server 15-LTSS pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise Server for SAP 15 pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise Software Development Kit 12-SP4 pcp versions prior to 3.11.9-6.14.1. SUSE Linux Enterprise Software Development Kit 12-SP5 pcp versions prior to 3.11.9-6.14.1. openSUSE Leap 15.1 pcp versions prior to 4.3.1-lp151.2.3.1.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1152763
+- https://bugzilla.suse.com/show_bug.cgi?id=1152763
+
+---
+
+#### 1582. CVE-2019-3696
+
+**严重程度 / Severity**: HIGH | CVSS: 8.4
+
+**漏洞描述 / Description**:
+A Improper Limitation of a Pathname to a Restricted Directory vulnerability in the packaging of pcp of SUSE Linux Enterprise High Performance Computing 15-ESPOS, SUSE Linux Enterprise High Performance Computing 15-LTSS, SUSE Linux Enterprise Module for Development Tools 15, SUSE Linux Enterprise Module for Development Tools 15-SP1, SUSE Linux Enterprise Module for Open Buildservice Development Tools 15, SUSE Linux Enterprise Server 15-LTSS, SUSE Linux Enterprise Server for SAP 15, SUSE Linux Enterprise Software Development Kit 12-SP4, SUSE Linux Enterprise Software Development Kit 12-SP5; openSUSE Leap 15.1 allows local user pcp to overwrite arbitrary files with arbitrary content. This issue affects: SUSE Linux Enterprise High Performance Computing 15-ESPOS pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise High Performance Computing 15-LTSS pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise Module for Development Tools 15 pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise Module for Development Tools 15-SP1 pcp versions prior to 4.3.1-3.5.3. SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise Server 15-LTSS pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise Server for SAP 15 pcp versions prior to 3.11.9-5.8.1. SUSE Linux Enterprise Software Development Kit 12-SP4 pcp versions prior to 3.11.9-6.14.1. SUSE Linux Enterprise Software Development Kit 12-SP5 pcp versions prior to 3.11.9-6.14.1. openSUSE Leap 15.1 pcp versions prior to 4.3.1-lp151.2.3.1.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1153921
+- https://bugzilla.suse.com/show_bug.cgi?id=1153921
+
+---
+
+#### 1583. CVE-2015-7333
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+MITRE is populating this ID because it was assigned prior to Lenovo becoming a CNA. A local privilege escalation vulnerability was reported (fixed and publicly disclosed in 2015) in Lenovo System Update version 5.07.0008 and prior where the SUService.exe /type INF and INF_BY_COMPATIBLE_ID command types could allow a user to execute arbitrary code with elevated privileges.
+
+**参考链接 / References**:
+- https://support.lenovo.com/us/en/product_security/lsu_privilege
+- https://support.lenovo.com/us/en/product_security/lsu_privilege
+
+---
+
+#### 1584. CVE-2015-7334
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+MITRE is populating this ID because it was assigned prior to Lenovo becoming a CNA. A local privilege escalation vulnerability was reported (fixed and publicly disclosed in 2015) in Lenovo System Update version 5.07.0008 and prior where the SUService.exe /type COMMAND type could allow a user to execute arbitrary code with elevated privileges.
+
+**参考链接 / References**:
+- https://support.lenovo.com/us/en/product_security/lsu_privilege
+- https://support.lenovo.com/us/en/product_security/lsu_privilege
+
+---
+
+#### 1585. CVE-2020-8016
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.9
+
+**漏洞描述 / Description**:
+A Race Condition Enabling Link Following vulnerability in the packaging of texlive-filesystem of SUSE Linux Enterprise Module for Desktop Applications 15-SP1, SUSE Linux Enterprise Software Development Kit 12-SP4, SUSE Linux Enterprise Software Development Kit 12-SP5; openSUSE Leap 15.1 allows local users to corrupt files or potentially escalate privileges. This issue affects: SUSE Linux Enterprise Module for Desktop Applications 15-SP1 texlive-filesystem versions prior to 2017.135-9.5.1. SUSE Linux Enterprise Software Development Kit 12-SP4 texlive-filesystem versions prior to 2013.74-16.5.1. SUSE Linux Enterprise Software Development Kit 12-SP5 texlive-filesystem versions prior to 2013.74-16.5.1. openSUSE Leap 15.1 texlive-filesystem versions prior to 2017.135-lp151.8.3.1.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-06/msg00021.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1159740
+- http://lists.opensuse.org/opensuse-security-announce/2020-06/msg00021.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1159740
+
+---
+
+#### 1586. CVE-2020-8017
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.2
+
+**漏洞描述 / Description**:
+A Race Condition Enabling Link Following vulnerability in the cron job shipped with texlive-filesystem of SUSE Linux Enterprise Module for Desktop Applications 15-SP1, SUSE Linux Enterprise Software Development Kit 12-SP4, SUSE Linux Enterprise Software Development Kit 12-SP5; openSUSE Leap 15.1 allows local users in group mktex to delete arbitrary files on the system This issue affects: SUSE Linux Enterprise Module for Desktop Applications 15-SP1 texlive-filesystem versions prior to 2017.135-9.5.1. SUSE Linux Enterprise Software Development Kit 12-SP4 texlive-filesystem versions prior to 2013.74-16.5.1. SUSE Linux Enterprise Software Development Kit 12-SP5 texlive-filesystem versions prior to 2013.74-16.5.1. openSUSE Leap 15.1 texlive-filesystem versions prior to 2017.135-lp151.8.3.1.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-06/msg00021.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1158910
+- http://lists.opensuse.org/opensuse-security-announce/2020-06/msg00021.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1158910
+
+---
+
+#### 1587. CVE-2018-17954
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.3
+
+**漏洞描述 / Description**:
+An Improper Privilege Management in crowbar of SUSE OpenStack Cloud 7, SUSE OpenStack Cloud 8, SUSE OpenStack Cloud 9, SUSE OpenStack Cloud Crowbar 8, SUSE OpenStack Cloud Crowbar 9 allows root users on any crowbar managed node to cause become root on any other node. This issue affects: SUSE OpenStack Cloud 7 crowbar-core versions prior to 4.0+git.1578392992.fabfd186c-9.63.1, crowbar-. SUSE OpenStack Cloud 8 ardana-cinder versions prior to 8.0+git.1579279939.ee7da88-3.39.3, ardana-. SUSE OpenStack Cloud 9 ardana-ansible versions prior to 9.0+git.1581611758.f694f7d-3.16.1, ardana-. SUSE OpenStack Cloud Crowbar 8 crowbar-core versions prior to 5.0+git.1582968668.1a55c77c5-3.35.4, crowbar-. SUSE OpenStack Cloud Crowbar 9 crowbar-core versions prior to 6.0+git.1582892022.cbd70e833-3.19.3, crowbar-.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1117080
+- https://bugzilla.suse.com/show_bug.cgi?id=1117080
+
+---
+
+#### 1588. CVE-2019-18904
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+
+**漏洞描述 / Description**:
+A Uncontrolled Resource Consumption vulnerability in rmt of SUSE Linux Enterprise High Performance Computing 15-ESPOS, SUSE Linux Enterprise High Performance Computing 15-LTSS, SUSE Linux Enterprise Module for Public Cloud 15-SP1, SUSE Linux Enterprise Module for Server Applications 15, SUSE Linux Enterprise Module for Server Applications 15-SP1, SUSE Linux Enterprise Server 15-LTSS, SUSE Linux Enterprise Server for SAP 15; openSUSE Leap 15.1 allows remote attackers to cause DoS against rmt by requesting migrations. This issue affects: SUSE Linux Enterprise High Performance Computing 15-ESPOS rmt-server versions prior to 2.5.2-3.26.1. SUSE Linux Enterprise High Performance Computing 15-LTSS rmt-server versions prior to 2.5.2-3.26.1. SUSE Linux Enterprise Module for Public Cloud 15-SP1 rmt-server versions prior to 2.5.2-3.9.1. SUSE Linux Enterprise Module for Server Applications 15 rmt-server versions prior to 2.5.2-3.26.1. SUSE Linux Enterprise Module for Server Applications 15-SP1 rmt-server versions prior to 2.5.2-3.9.1. SUSE Linux Enterprise Server 15-LTSS rmt-server versions prior to 2.5.2-3.26.1. SUSE Linux Enterprise Server for SAP 15 rmt-server versions prior to 2.5.2-3.26.1. openSUSE Leap 15.1 rmt-server versions prior to 2.5.2-lp151.2.9.1.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1160922
+- https://bugzilla.suse.com/show_bug.cgi?id=1160922
+
+---
+
+#### 1589. CVE-2019-18905
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.8
+
+**漏洞描述 / Description**:
+A Insufficient Verification of Data Authenticity vulnerability in autoyast2 of SUSE Linux Enterprise Server 12, SUSE Linux Enterprise Server 15 allows remote attackers to MITM connections when deprecated and unused functionality of autoyast is used to create images. This issue affects: SUSE Linux Enterprise Server 12 autoyast2 version 4.1.9-3.9.1 and prior versions. SUSE Linux Enterprise Server 15 autoyast2 version 4.0.70-3.20.1 and prior versions.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-05/msg00050.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1140711
+- http://lists.opensuse.org/opensuse-security-announce/2020-05/msg00050.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1140711
+
+---
+
+#### 1590. CVE-2020-8018
+
+**严重程度 / Severity**: HIGH | CVSS: 8.4
+
+**漏洞描述 / Description**:
+A Incorrect Default Permissions vulnerability in the SLES15-SP1-CHOST-BYOS and SLES15-SP1-CAP-Deployment-BYOS images of SUSE Linux Enterprise Server 15 SP1 allows local attackers with the UID 1000 to escalate to root due to a /etc directory owned by the user This issue affects: SUSE Linux Enterprise Server 15 SP1 SLES15-SP1-CAP-Deployment-BYOS version 1.0.1 and prior versions; SLES15-SP1-CHOST-BYOS versions prior to 1.0.3 and prior versions;
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1163813
+- https://bugzilla.suse.com/show_bug.cgi?id=1163813
+
+---
+
+#### 1591. CVE-2020-8022
+
+**严重程度 / Severity**: HIGH | CVSS: 7.7
+
+**漏洞描述 / Description**:
+A Incorrect Default Permissions vulnerability in the packaging of tomcat on SUSE Enterprise Storage 5, SUSE Linux Enterprise Server 12-SP2-BCL, SUSE Linux Enterprise Server 12-SP2-LTSS, SUSE Linux Enterprise Server 12-SP3-BCL, SUSE Linux Enterprise Server 12-SP3-LTSS, SUSE Linux Enterprise Server 12-SP4, SUSE Linux Enterprise Server 12-SP5, SUSE Linux Enterprise Server 15-LTSS, SUSE Linux Enterprise Server for SAP 12-SP2, SUSE Linux Enterprise Server for SAP 12-SP3, SUSE Linux Enterprise Server for SAP 15, SUSE OpenStack Cloud 7, SUSE OpenStack Cloud 8, SUSE OpenStack Cloud Crowbar 8 allows local attackers to escalate from group tomcat to root. This issue affects: SUSE Enterprise Storage 5 tomcat versions prior to 8.0.53-29.32.1. SUSE Linux Enterprise Server 12-SP2-BCL tomcat versions prior to 8.0.53-29.32.1. SUSE Linux Enterprise Server 12-SP2-LTSS tomcat versions prior to 8.0.53-29.32.1. SUSE Linux Enterprise Server 12-SP3-BCL tomcat versions prior to 8.0.53-29.32.1. SUSE Linux Enterprise Server 12-SP3-LTSS tomcat versions prior to 8.0.53-29.32.1. SUSE Linux Enterprise Server 12-SP4 tomcat versions prior to 9.0.35-3.39.1. SUSE Linux Enterprise Server 12-SP5 tomcat versions prior to 9.0.35-3.39.1. SUSE Linux Enterprise Server 15-LTSS tomcat versions prior to 9.0.35-3.57.3. SUSE Linux Enterprise Server for SAP 12-SP2 tomcat versions prior to 8.0.53-29.32.1. SUSE Linux Enterprise Server for SAP 12-SP3 tomcat versions prior to 8.0.53-29.32.1. SUSE Linux Enterprise Server for SAP 15 tomcat versions prior to 9.0.35-3.57.3. SUSE OpenStack Cloud 7 tomcat versions prior to 8.0.53-29.32.1. SUSE OpenStack Cloud 8 tomcat versions prior to 8.0.53-29.32.1. SUSE OpenStack Cloud Crowbar 8 tomcat versions prior to 8.0.53-29.32.1.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2020-06/msg00066.html
+- https://bugzilla.suse.com/show_bug.cgi?id=1172405
+- https://lists.apache.org/thread.html/r393d4f431683e99c839b4aed68f720b8583bca6c35cd84adccaa02be%40%3Cjava-dev.axis.apache.org%3E
+- https://lists.apache.org/thread.html/r5be80ba868a11a1f64e4922399f171b8619bca4bc2039f79cf913928%40%3Cjava-dev.axis.apache.org%3E
+- https://lists.apache.org/thread.html/ra87ec20a0f4b226c81c7eed27e5d7433ccdc41e61a8da408a45f0fa1%40%3Cusers.tomcat.apache.org%3E
+
+---
+
+#### 1592. CVE-2019-3681
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+A External Control of File Name or Path vulnerability in osc of SUSE Linux Enterprise Module for Development Tools 15, SUSE Linux Enterprise Software Development Kit 12-SP5, SUSE Linux Enterprise Software Development Kit 12-SP4; openSUSE Leap 15.1, openSUSE Factory allowed remote attackers that can change downloaded packages to overwrite arbitrary files. This issue affects: SUSE Linux Enterprise Module for Development Tools 15 osc versions prior to 0.169.1-3.20.1. SUSE Linux Enterprise Software Development Kit 12-SP5 osc versions prior to 0.162.1-15.9.1. SUSE Linux Enterprise Software Development Kit 12-SP4 osc versions prior to 0.162.1-15.9.1. openSUSE Leap 15.1 osc versions prior to 0.169.1-lp151.2.15.1. openSUSE Factory osc versions prior to 0.169.0 .
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1122675
+- https://bugzilla.suse.com/show_bug.cgi?id=1122675
+
+---
+
+#### 1593. CVE-2020-8019
+
+**严重程度 / Severity**: HIGH | CVSS: 7.7
+
+**漏洞描述 / Description**:
+A UNIX Symbolic Link (Symlink) Following vulnerability in the packaging of syslog-ng of SUSE Linux Enterprise Debuginfo 11-SP3, SUSE Linux Enterprise Debuginfo 11-SP4, SUSE Linux Enterprise Module for Legacy Software 12, SUSE Linux Enterprise Point of Sale 11-SP3, SUSE Linux Enterprise Server 11-SP4-LTSS, SUSE Linux Enterprise Server for SAP 12-SP1; openSUSE Backports SLE-15-SP1, openSUSE Leap 15.1 allowed local attackers controlling the user news to escalate their privileges to root. This issue affects: SUSE Linux Enterprise Debuginfo 11-SP3 syslog-ng versions prior to 2.0.9-27.34.40.5.1. SUSE Linux Enterprise Debuginfo 11-SP4 syslog-ng versions prior to 2.0.9-27.34.40.5.1. SUSE Linux Enterprise Module for Legacy Software 12 syslog-ng versions prior to 3.6.4-12.8.1. SUSE Linux Enterprise Point of Sale 11-SP3 syslog-ng versions prior to 2.0.9-27.34.40.5.1. SUSE Linux Enterprise Server 11-SP4-LTSS syslog-ng versions prior to 2.0.9-27.34.40.5.1. SUSE Linux Enterprise Server for SAP 12-SP1 syslog-ng versions prior to 3.6.4-12.8.1. openSUSE Backports SLE-15-SP1 syslog-ng versions prior to 3.19.1-bp151.4.6.1. openSUSE Leap 15.1 syslog-ng versions prior to 3.19.1-lp151.3.6.1.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1169385
+- https://bugzilla.suse.com/show_bug.cgi?id=1169385
+
+---
+
+#### 1594. CVE-2020-8025
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.1
+
+**漏洞描述 / Description**:
+A Incorrect Execution-Assigned Permissions vulnerability in the permissions package of SUSE Linux Enterprise Server 12-SP4, SUSE Linux Enterprise Server 15-LTSS, SUSE Linux Enterprise Server for SAP 15; openSUSE Leap 15.1, openSUSE Tumbleweed sets the permissions for some of the directories of the pcp package to unintended settings. This issue affects: SUSE Linux Enterprise Server 12-SP4 permissions versions prior to 20170707-3.24.1. SUSE Linux Enterprise Server 15-LTSS permissions versions prior to 20180125-3.27.1. SUSE Linux Enterprise Server for SAP 15 permissions versions prior to 20180125-3.27.1. openSUSE Leap 15.1 permissions versions prior to 20181116-lp151.4.24.1. openSUSE Tumbleweed permissions versions prior to 20200624.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1171883
+- https://bugzilla.suse.com/show_bug.cgi?id=1171883
 
 ---
