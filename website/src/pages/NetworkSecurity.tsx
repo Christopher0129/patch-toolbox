@@ -841,10 +841,29 @@ export default function NetworkSecurity() {
             </button>
           </motion.div>
         ) : (
-          <motion.div
-            layout
-            className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3"
-          >
+          <div className="flex flex-col">
+            {/* Result count header */}
+            <div className="mb-5 flex items-center justify-between text-sm">
+              <p className="text-text-muted">
+                <span className="font-semibold text-text-primary">{filtered.length}</span>
+                {' '}
+                {t('networkSecurity.totalEntries') as string}
+                {filtered.length !== data.length && (
+                  <span className="ml-1.5 text-text-muted">
+                    / {data.length} total
+                  </span>
+                )}
+              </p>
+              {search.trim() && (
+                <span className="rounded bg-bg-elevated px-2 py-0.5 text-[11px] font-medium text-text-muted">
+                  &ldquo;{search}&rdquo;
+                </span>
+              )}
+            </div>
+            <motion.div
+              layout
+              className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3"
+            >
             {filtered.map((vuln) => (
               <motion.article
                 key={vuln.id}
@@ -915,6 +934,7 @@ export default function NetworkSecurity() {
                 </motion.article>
               ))}
           </motion.div>
+          </div>
         )}
       </section>
 

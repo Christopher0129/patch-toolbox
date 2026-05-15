@@ -8,7 +8,8 @@
     "systemTroubleshooting": "시스템 문제 해결",
     "about": "소개",
     "contributing": "기여",
-    "github": "GitHub"
+    "github": "GitHub",
+    "search": "검색"
   },
   "footer": {
     "description": "네트워크 취약점, 시스템 취약점 및 일반적인 시스템 문제 해결 정보를 수집하는 공개 보안 지식 저장소입니다.",
@@ -32,7 +33,8 @@
       "totalEntries": "총 항목",
       "networkSecurity": "네트워크 보안",
       "commits": "커밋",
-      "dailyUpdates": "매일 업데이트"
+      "dailyUpdates": "매일 업데이트",
+      "daily": "매일 업데이트"
     }
   },
   "categories": {
@@ -298,5 +300,13 @@
     "ctaDesc": "GitHub의 전체 기여 가이드를 읽거나, 작은 수정으로 바로 시작하세요.",
     "ctaPrimaryBtn": "전체 가이드 읽기 →",
     "ctaSecondaryBtn": "입문 Issue 보기 →"
+  },
+  "searchDialog": {
+    "placeholder": "모든 카테고리에서 검색...",
+    "noResults": "항목을 찾을 수 없습니다",
+    "noResultsHint": "다른 검색어를 시도해보세요",
+    "navigate": "이동",
+    "open": "열기",
+    "close": "닫기"
   }
 }

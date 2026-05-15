@@ -252,6 +252,8 @@ export default function Home() {
   const [liveStats, setLiveStats] = useState({
     totalEntries: 0,
     networkSecurity: 0,
+    systemVulnerabilities: 0,
+    systemTroubleshooting: 0,
   });
   useEffect(() => {
     loadStats()
@@ -259,6 +261,8 @@ export default function Home() {
         setLiveStats({
           totalEntries: s?.totalEntries ?? 0,
           networkSecurity: s?.categories?.network_security ?? 0,
+          systemVulnerabilities: s?.categories?.system_vulnerabilities ?? 0,
+          systemTroubleshooting: s?.categories?.system_troubleshooting ?? 0,
         });
       })
       .catch(() => {});
@@ -475,8 +479,8 @@ export default function Home() {
               <div className="mb-1 text-text-muted">
                 <RefreshCw className="h-5 w-5" />
               </div>
-              <span className="font-mono text-2xl font-bold text-accent-cyan md:text-3xl">
-                {t('hero.stats.dailyUpdates') as string}
+              <span className="font-mono text-2xl font-bold text-accent-green md:text-3xl">
+                {t('hero.stats.daily') as string}
               </span>
               <span className="text-xs font-medium uppercase tracking-wider text-text-muted">
                 {t('hero.stats.dailyUpdates') as string}
@@ -596,7 +600,7 @@ export default function Home() {
                   {t('categories.systemVulnerabilities.description') as string}
                 </p>
                 <p className="mt-4 text-xs text-text-muted">
-                  {t('categories.systemVulnerabilities.stats') as string}
+                  {(categoryCounts['system-vulnerabilities'] ?? liveStats.systemVulnerabilities).toLocaleString()} {t('categories.systemVulnerabilities.stats') as string}
                 </p>
                 <span className="mt-auto inline-flex items-center gap-1 pt-6 text-sm text-text-muted transition-colors group-hover:text-accent-orange">
                   {t('categories.systemVulnerabilities.cta') as string}
@@ -621,7 +625,7 @@ export default function Home() {
                   {t('categories.systemTroubleshooting.description') as string}
                 </p>
                 <p className="mt-4 text-xs text-text-muted">
-                  {t('categories.systemTroubleshooting.stats') as string}
+                  {(categoryCounts['system-troubleshooting'] ?? liveStats.systemTroubleshooting).toLocaleString()} {t('categories.systemTroubleshooting.stats') as string}
                 </p>
                 <span className="mt-auto inline-flex items-center gap-1 pt-6 text-sm text-text-muted transition-colors group-hover:text-accent-green">
                   {t('categories.systemTroubleshooting.cta') as string}

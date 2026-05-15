@@ -8,7 +8,8 @@
     "systemTroubleshooting": "Dépannage Système",
     "about": "À propos",
     "contributing": "Contribuer",
-    "github": "GitHub"
+    "github": "GitHub",
+    "search": "Rechercher"
   },
   "footer": {
     "description": "Un référentiel de connaissances en sécurité publique collectant les vulnérabilités réseau, les vulnérabilités système et les informations de dépannage courantes.",
@@ -32,7 +33,8 @@
       "totalEntries": "Entrées Totales",
       "networkSecurity": "Sécurité Réseau",
       "commits": "Commits",
-      "dailyUpdates": "Mises à Jour"
+      "dailyUpdates": "Mises à Jour",
+      "daily": "Quotidien"
     }
   },
   "categories": {
@@ -298,5 +300,13 @@
     "ctaDesc": "Commencez par lire le guide complet sur GitHub, ou plongez directement avec un petit correctif.",
     "ctaPrimaryBtn": "Lire le Guide Complet →",
     "ctaSecondaryBtn": "Voir les Bonnes Premières Issues →"
+  },
+  "searchDialog": {
+    "placeholder": "Rechercher des entrées dans toutes les catégories...",
+    "noResults": "Aucune entrée trouvée",
+    "noResultsHint": "Essayez un autre terme de recherche",
+    "navigate": "Naviguer",
+    "open": "Ouvrir",
+    "close": "Fermer"
   }
 }
