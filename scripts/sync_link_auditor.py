@@ -12,6 +12,7 @@ from pathlib import Path
 from typing import Dict, List, Set, Tuple
 
 from utils import log_sync, git_push
+from stage_state import StageTimer, StageRecord, PipelineReport, pipeline_report_to_json
 
 SYNC_NAME = "sync-link-auditor"
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -205,10 +206,21 @@ def check_and_fix() -> Tuple[int, int, List[str]]:
 
 
 def run():
+    pipeline_start = datetime.now(timezone.utc)
+    pipeline_stages = []
     log_sync(SYNC_NAME, "=" * 40)
     log_sync(SYNC_NAME, "Starting link audit")
 
-    checked, fixed, details = check_and_fix()
+    timer_audit = StageTimer()
+    with timer_audit:
+        checked, fixed, details = check_and_fix()
+    pipeline_stages.append(timer_audit.to_record(
+        name="link-audit",
+        status="ok",
+        detail=f"checked {checked} files, fixed {fixed}",
+        count=fixed,
+        count_label="files_fixed",
+    ))
 
     # 直接写自定义报告（link-auditor 场景特殊，用自定义结构）
     report_file = PROJECT_ROOT / "agents" / f"{SYNC_NAME}_report.json"
@@ -227,13 +239,42 @@ def run():
     
     # 如果修复了文件，推送到远端仓库
     if fixed > 0:
-        push_ok = git_push(f"link-audit: fixed {fixed} files with missing navigation links")
+        timer_push = StageTimer()
+        with timer_push:
+            push_ok = git_push(f"link-audit: fixed {fixed} files with missing navigation links")
         if isinstance(push_ok, dict):
             github_ok = bool(push_ok.get("github", False))
         else:
             github_ok = bool(push_ok)
+        pipeline_stages.append(timer_push.to_record(
+            name="git-push",
+            status="ok" if github_ok else "error",
+            detail="GitHub push successful" if github_ok else "GitHub push failed",
+            error_detail=None if github_ok else "push returned non-True",
+        ))
         log_sync(SYNC_NAME, f"GitHub push: {'OK' if github_ok else 'FAIL'}")
-    
+    else:
+        pipeline_stages.append(StageRecord(
+            name="git-push",
+            status="ok",
+            duration_ms=0.0,
+            detail="No fixes — nothing to push",
+        ))
+
+    # 写入结构化 pipeline report
+    pipeline_finish = datetime.now(timezone.utc)
+    p_report = PipelineReport(
+        pipeline=SYNC_NAME,
+        started_at=pipeline_start.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        finished_at=pipeline_finish.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        stages=pipeline_stages,
+        summary=f"checked={checked}, fixed={fixed}",
+    )
+    struct_path = PROJECT_ROOT / "agents" / f"{SYNC_NAME}_stages.json"
+    with open(struct_path, "w", encoding="utf-8") as f:
+        f.write(pipeline_report_to_json(p_report))
+    log_sync(SYNC_NAME, f"Staged report written: {struct_path}")
+
     log_sync(SYNC_NAME, "Link audit complete")
     return custom_report
 

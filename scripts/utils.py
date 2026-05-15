@@ -172,9 +172,9 @@ def insert_entries_sqlite(
 
         desc = item.get("description", "")
         sol = item.get("solution", item.get("mitigation", "N/A"))
-        sev = item.get("severity", "")
+        sev = normalize_severity(item.get("severity", ""))
         cvss = item.get("cvss_score")
-        source = item.get("source_tag") or item.get("source") or "NVD"
+        source = normalize_source_tag(item.get("source_tag") or item.get("source") or "NVD")
         url = item.get("source_url", item.get("link", item.get("url", "")))
         refs = json.dumps(item.get("references", []), ensure_ascii=False)
         tags = json.dumps(item.get("tags", []), ensure_ascii=False)
@@ -388,6 +388,96 @@ def _git_push_secure(remote: str, branch: str, token: str, env: dict) -> bool:
     finally:
         if askpass and askpass.exists():
             askpass.unlink()
+
+
+def log_stage_start(stage: str) -> None:
+    """记录阶段开始，提供显式的 stage 边界。"""
+    sep = "─" * 50
+    msg = f"\n{sep}\n▶ STAGE START: {stage}\n{sep}"
+    log_sync("stage", msg)
+
+
+def log_stage_end(stage: str, status: str = "OK", details: str = "") -> None:
+    """记录阶段结束状态。"""
+    sep = "─" * 50
+    msg = f"\n{sep}\n◼ STAGE END: {stage} — {status}"
+    if details:
+        msg += f" | {details}"
+    msg += f"\n{sep}"
+    log_sync("stage", msg)
+
+
+def preflight_check(require_agents_dir: bool = False) -> dict:
+    """发布前预检查：验证核心目录、DB 文件、git 状态。
+    返回 dict {ok: bool, checks: list[dict], summary: str}
+    """
+    checks = []
+    all_ok = True
+
+    # Check DB files exist and have entries
+    db_files = [
+        ("network-security", DB_DIR / "network-security.db"),
+        ("system-vulnerabilities", DB_DIR / "system-vulnerabilities.db"),
+        ("system-troubleshooting", DB_DIR / "system-troubleshooting.db"),
+    ]
+    for name, db_path in db_files:
+        if not db_path.exists():
+            checks.append({"name": f"db/{name}", "ok": False, "detail": "file not found"})
+            all_ok = False
+        else:
+            try:
+                conn = sqlite3.connect(str(db_path))
+                c = conn.cursor()
+                c.execute("SELECT COUNT(*) FROM entries")
+                count = c.fetchone()[0]
+                conn.close()
+                checks.append({"name": f"db/{name}", "ok": True, "detail": f"{count} entries"})
+            except Exception as e:
+                checks.append({"name": f"db/{name}", "ok": False, "detail": str(e)})
+                all_ok = False
+
+    # Check agents dir if requested
+    if require_agents_dir:
+        has_agents = AGENTS_DIR.exists()
+        checks.append({"name": "agents_dir", "ok": has_agents, "detail": "exists" if has_agents else "not found"})
+        if not has_agents:
+            all_ok = False
+
+    # Check markdown output dirs exist (created by regeneration, but verify target locations are writable)
+    md_dirs = [
+        PROJECT_ROOT / "network-security",
+        PROJECT_ROOT / "system-vulnerabilities",
+        PROJECT_ROOT / "system-troubleshooting",
+    ]
+    for d in md_dirs:
+        ok = d.exists() or d.parent.exists()
+        checks.append({"name": f"md/{d.name}", "ok": ok, "detail": "exists" if d.exists() else "parent exists (will be created)"})
+        if not ok:
+            all_ok = False
+
+    # Git status check (not dirty beyond expectations? just check git repo)
+    try:
+        r = subprocess.run(
+            ["git", "rev-parse", "--git-dir"],
+            capture_output=True, text=True,
+            cwd=PROJECT_ROOT
+        )
+        git_ok = r.returncode == 0
+        checks.append({"name": "git_repo", "ok": git_ok, "detail": "valid" if git_ok else "not a git repository"})
+        if not git_ok:
+            all_ok = False
+    except Exception as e:
+        checks.append({"name": "git_repo", "ok": False, "detail": str(e)})
+        all_ok = False
+
+    ok_count = sum(1 for c in checks if c["ok"])
+    total_count = len(checks)
+
+    return {
+        "ok": all_ok,
+        "checks": checks,
+        "summary": f"{ok_count}/{total_count} checks passed",
+    }
 
 
 def write_report(sync_name: str, new_count: int, total_count: int, errors: List[str] = None):
@@ -669,6 +759,170 @@ def fetch_rss(url: str, timeout: int = 30, retries: int = 3, verify: bool = True
     except Exception as e:
         log_agent("utils", f"fetch_rss parse failed: {url} | {e}")
     return None
+
+
+# ---------------------------------------------------------------------------
+# 数据归一化 (Normalization)
+# ---------------------------------------------------------------------------
+
+# 受控词汇表：所有脚本输出 severity 必须来自此集合
+VALID_SEVERITIES = {
+    "CRITICAL", "HIGH", "MEDIUM", "LOW", "N/A",
+    "INFO", "EXPLOIT", "KEV", "UPDATE", "UNKNOWN",
+}
+
+# 严重等级映射：非标准值 → 标准值
+_SEVERITY_MAP = {
+    "CRITICAL": "CRITICAL",
+    "HIGH": "HIGH",
+    "MEDIUM": "MEDIUM",
+    "LOW": "LOW",
+    "INFO": "INFO",
+    "EXPLOIT": "EXPLOIT",
+    "KEV": "KEV",
+    "UPDATE": "UPDATE",
+    "UNKNOWN": "UNKNOWN",
+    "NONE": "N/A",
+    "N/A": "N/A",
+    # MSRC 映射
+    "IMPORTANT": "HIGH",
+    "MODERATE": "MEDIUM",
+    "LOWSEVERITY": "LOW",
+    # CISA / CVSS 映射
+    "CRIT": "CRITICAL",
+    "MOD": "MEDIUM",
+}
+
+
+def normalize_severity(severity: Any) -> str:
+    """将任意严重度输入归一化为受控词汇表中的标准值。
+    
+    Args:
+        severity: 原始严重度值（字符串、None 等）
+    
+    Returns:
+        标准化的严重度字符串，不在映射中的值返回其大写形式。
+        空值/None 返回 "N/A"。
+    """
+    if severity is None:
+        return "N/A"
+    if not isinstance(severity, str):
+        severity = str(severity)
+    s = severity.strip().upper()
+    if not s:
+        return "N/A"
+    # 移除可能的前缀后缀
+    s = s.replace("SEVERITY", "").replace("CVSS", "").strip()
+    # 直接映射查找
+    if s in _SEVERITY_MAP:
+        return _SEVERITY_MAP[s]
+    # 尝试部分匹配
+    for key, val in sorted(_SEVERITY_MAP.items(), key=lambda x: -len(x[0])):
+        if key in s:
+            return val
+    # 回退为受控词汇中的首字母大写值
+    if s in VALID_SEVERITIES:
+        return s
+    return "UNKNOWN"
+
+
+# 数据源标签映射
+_SOURCE_TAG_MAP = {
+    "NVD": "NVD",
+    "EXPLOIT-DB": "Exploit-DB",
+    "GITHUB": "GitHub",
+    "GITHUB ADVISORY": "GitHub",
+    "GITHUB ADVISORIES": "GitHub",
+    "CISA-KEV": "CISA-KEV",
+    "CISA KEV": "CISA-KEV",
+    "REDHAT": "RedHat",
+    "UBUNTU": "Ubuntu",
+    "SUSE": "SUSE",
+    "ARCH": "Arch",
+    "GENTOO": "Gentoo",
+    "APPLE": "Apple",
+    "MICROSOFT": "Microsoft",
+    "ANQUANKE": "Anquanke",
+    "KANXUE": "Kanxue",
+    "XIANZHI": "Xianzhi",
+    "SIHOU": "Sihou",
+    "STACKEXCHANGE": "StackExchange",
+    "REDDIT": "Reddit",
+    "V2EX": "V2EX",
+    "OSV": "OSV.dev",
+}
+
+
+def normalize_source_tag(tag: str) -> str:
+    """归一化数据源标签。
+    
+    覆盖所有脚本中用到的 source_tag / source 值，
+    确保同一数据源在不同脚本中输出一致的标签。
+    """
+    if not tag or not isinstance(tag, str):
+        return "Unknown"
+    t = tag.strip()
+    if not t:
+        return "Unknown"
+    upper = t.upper()
+    # 直接映射
+    if upper in _SOURCE_TAG_MAP:
+        return _SOURCE_TAG_MAP[upper]
+    # 前缀匹配（处理 reddit-xxx, v2ex-xxx 格式）
+    for prefix, canonical in [("REDDIT-", "Reddit"), ("V2EX-", "V2EX")]:
+        if upper.startswith(prefix):
+            return canonical
+    # 回退：首字母大写保留原名
+    return " ".join(w.capitalize() for w in t.split("-"))
+
+
+def normalize_timestamp(ts: Any) -> str:
+    """将各种时间戳格式归一化为 ISO-8601 格式的字符串。
+    
+    Args:
+        ts: 原始时间戳（字符串、int、float 等）
+    
+    Returns:
+        归一化后的 ISO-8601 字符串，若无法解析则返回原始值。
+        空值/None 返回空字符串。
+    """
+    if ts is None:
+        return ""
+    if not isinstance(ts, str):
+        # int/float → datetime
+        try:
+            if isinstance(ts, (int, float)) and ts > 1000000000:  # unix ts
+                dt = datetime.fromtimestamp(ts, tz=timezone.utc)
+                return dt.isoformat()
+        except (ValueError, OSError):
+            pass
+        return str(ts)
+
+    ts = ts.strip()
+    if not ts:
+        return ""
+
+    # 已经是 ISO 格式且含 T，直接返回
+    if "T" in ts:
+        # 确保 Z 结尾统一
+        return ts
+
+    # 纯数字 → unix timestamp
+    if ts.isdigit() and len(ts) >= 8:
+        try:
+            dt = datetime.fromtimestamp(int(ts), tz=timezone.utc)
+            return dt.isoformat()
+        except (ValueError, OSError):
+            pass
+        return ts
+
+    # 日期格式 YYYY-MM-DD
+    import re as _re
+    if _re.match(r"^\d{4}-\d{2}-\d{2}$", ts):
+        return ts
+
+    # 无法识别的格式，原样返回
+    return ts
 
 
 # ---------------------------------------------------------------------------

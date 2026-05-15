@@ -8,7 +8,8 @@
     "systemTroubleshooting": "系统故障排障",
     "about": "关于",
     "contributing": "贡献",
-    "github": "GitHub"
+    "github": "GitHub",
+    "search": "搜索"
   },
   "footer": {
     "description": "公开的安全知识库，收集网络安全漏洞、系统漏洞及常见系统故障信息。",
@@ -32,7 +33,8 @@
       "totalEntries": "总条目",
       "networkSecurity": "网络安全",
       "commits": "提交次数",
-      "dailyUpdates": "每日更新"
+      "dailyUpdates": "每日更新",
+      "daily": "每日"
     }
   },
   "categories": {
@@ -298,5 +300,13 @@
     "ctaDesc": "从 GitHub 上的完整贡献指南开始，或直接进行小的修复。",
     "ctaPrimaryBtn": "阅读完整指南 →",
     "ctaSecondaryBtn": "查看入门 Issue →"
+  },
+  "searchDialog": {
+    "placeholder": "跨分类搜索安全知识库...",
+    "noResults": "未找到匹配条目",
+    "noResultsHint": "请尝试其他搜索词",
+    "navigate": "切换",
+    "open": "打开",
+    "close": "关闭"
   }
 }

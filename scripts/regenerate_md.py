@@ -326,6 +326,57 @@ def generate_st_md(conn, out_dir: Path):
         (out_dir / f"{platform}.md").write_text("\n".join(plines), encoding="utf-8")
         print(f"  Written: {out_dir / f'{platform}.md'} ({len(rows)} entries)")
 
+def generate_md_manifest() -> dict:
+    """Generate a manifest of all MD files produced by this script.
+
+    Returns a dict with:
+      - generated_at: ISO-8601 timestamp
+      - files: list of {path, size_bytes, first_line}
+      - entry_counts: per-category {category: count}
+    """
+    from datetime import datetime, timezone
+
+    categories = {
+        "network-security": PROJECT_ROOT / "network-security",
+        "system-vulnerabilities": PROJECT_ROOT / "system-vulnerabilities",
+        "system-troubleshooting": PROJECT_ROOT / "system-troubleshooting",
+    }
+
+    manifest: dict = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "files": [],
+        "entry_counts": {},
+    }
+
+    for cat_name, cat_dir in categories.items():
+        if not cat_dir.exists():
+            continue
+        md_files = sorted(cat_dir.glob("*.md"))
+        md_count = 0
+        for md_file in md_files:
+            try:
+                size = md_file.stat().st_size
+                first_line = md_file.open(encoding="utf-8").readline().strip()
+                manifest["files"].append({
+                    "path": str(md_file.relative_to(PROJECT_ROOT)),
+                    "size_bytes": size,
+                    "first_line": first_line[:120],
+                })
+                md_count += 1
+            except Exception:
+                pass
+        # Count total entry lines (####) for category-level summary
+        try:
+            all_text = "".join(f.read_text(encoding="utf-8") for f in md_files)
+            import re
+            entry_count = len(re.findall(r"^####\s+", all_text, re.MULTILINE))
+            manifest["entry_counts"][cat_name] = entry_count
+        except Exception:
+            manifest["entry_counts"][cat_name] = 0
+
+    return manifest
+
+
 def main():
     print("[1/3] Generating network-security/ ...")
     conn_ns = sqlite3.connect(DB_DIR / "network-security.db")
@@ -341,6 +392,16 @@ def main():
     conn_st = sqlite3.connect(DB_DIR / "system-troubleshooting.db")
     generate_st_md(conn_st, PROJECT_ROOT / "system-troubleshooting")
     conn_st.close()
+
+    # Write manifest
+    manifest = generate_md_manifest()
+    manifest_path = PROJECT_ROOT / "db" / "md-manifest.json"
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    manifest_path.write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    print(f"  Manifest: {manifest_path} ({len(manifest['files'])} files)")
     
     print("\n✅ All MD files regenerated from SQLite.")
 

@@ -8,7 +8,8 @@
     "systemTroubleshooting": "System Troubleshooting",
     "about": "About",
     "contributing": "Contributing",
-    "github": "GitHub"
+    "github": "GitHub",
+    "search": "Search"
   },
   "footer": {
     "description": "A public security knowledge repository collecting network vulnerabilities, system vulnerabilities, and common system troubleshooting information.",
@@ -32,7 +33,8 @@
       "totalEntries": "Total Entries",
       "networkSecurity": "Network Security",
       "commits": "Commits",
-      "dailyUpdates": "Daily Updates"
+      "dailyUpdates": "Daily Updates",
+      "daily": "Daily"
     }
   },
   "categories": {
@@ -298,5 +300,13 @@
     "ctaDesc": "Start by reading the full contributing guide on GitHub, or jump right in with a small fix.",
     "ctaPrimaryBtn": "Read Full Guide →",
     "ctaSecondaryBtn": "View Good First Issues →"
+  },
+  "searchDialog": {
+    "placeholder": "Search entries across all categories...",
+    "noResults": "No entries found",
+    "noResultsHint": "Try a different search term",
+    "navigate": "Navigate",
+    "open": "Open",
+    "close": "Close"
   }
 }

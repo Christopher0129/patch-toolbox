@@ -8,7 +8,8 @@
     "systemTroubleshooting": "システムトラブルシューティング",
     "about": "概要",
     "contributing": "貢献",
-    "github": "GitHub"
+    "github": "GitHub",
+    "search": "検索"
   },
   "footer": {
     "description": "ネットワーク脆弱性、システム脆弱性、および一般的なシステムトラブルシューティング情報を収集した公開セキュリティ知識リポジトリ。",
@@ -32,7 +33,8 @@
       "totalEntries": "総エントリ",
       "networkSecurity": "ネットワークセキュリティ",
       "commits": "コミット",
-      "dailyUpdates": "毎日更新"
+      "dailyUpdates": "毎日更新",
+      "daily": "毎日"
     }
   },
   "categories": {
@@ -298,5 +300,13 @@
     "ctaDesc": "GitHub の完全な貢献ガイドから始めるか、小さな修正から始めてください。",
     "ctaPrimaryBtn": "完全ガイドを読む →",
     "ctaSecondaryBtn": "入門 Issue を見る →"
+  },
+  "searchDialog": {
+    "placeholder": "すべてのカテゴリから検索...",
+    "noResults": "エントリが見つかりません",
+    "noResultsHint": "別の検索語をお試しください",
+    "navigate": "移動",
+    "open": "開く",
+    "close": "閉じる"
   }
 }

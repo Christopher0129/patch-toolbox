@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
@@ -11,8 +11,10 @@ import {
   Wrench,
   ExternalLink,
   Star,
+  Search,
 } from 'lucide-react';
 import { useTranslation, LANGUAGE_NAMES, type Language } from '@/i18n/LanguageContext';
+import SearchDialog from '@/components/SearchDialog';
 
 const languages: Language[] = ['en', 'zh', 'fr', 'ja', 'ko'];
 const langCodes: Record<Language, string> = {
@@ -34,6 +36,20 @@ export default function Navbar() {
     (path: string) => location.pathname === path,
     [location],
   );
+
+  const [searchOpen, setSearchOpen] = useState(false);
+
+  // Global Cmd+K / Ctrl+K shortcut
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault();
+        setSearchOpen(true);
+      }
+    };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, []);
 
   const closeAll = () => {
     setCategoriesOpen(false);
@@ -118,8 +134,20 @@ export default function Navbar() {
             </NavLink>
           </div>
 
-          {/* Right: Language + GitHub */}
+          {/* Right: Search + Language + GitHub */}
           <div className="hidden items-center gap-3 md:flex">
+            {/* Search button */}
+            <button
+              onClick={() => setSearchOpen(true)}
+              className="flex items-center gap-1.5 rounded-md px-3 py-1.5 text-xs font-medium text-text-muted transition-colors hover:text-text-primary border border-border-subtle hover:border-border-active"
+              title={t('searchDialog.placeholder') as string}
+            >
+              <Search className="h-4 w-4" />
+              <span className="hidden lg:inline">{t('navbar.search') as string}</span>
+              <kbd className="ml-1 rounded border border-border-subtle bg-bg-elevated px-1 py-0.5 text-[10px] text-text-muted">
+                ⌘K
+              </kbd>
+            </button>
             {/* Language Switcher */}
             <div className="relative">
               <button
@@ -256,6 +284,9 @@ export default function Navbar() {
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* Global Search Dialog */}
+      <SearchDialog open={searchOpen} onClose={() => setSearchOpen(false)} />
 
       {/* Backdrop for mobile */}
       <AnimatePresence>
