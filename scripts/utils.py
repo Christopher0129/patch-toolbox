@@ -172,9 +172,9 @@ def insert_entries_sqlite(
 
         desc = item.get("description", "")
         sol = item.get("solution", item.get("mitigation", "N/A"))
-        sev = item.get("severity", "")
+        sev = normalize_severity(item.get("severity", ""))
         cvss = item.get("cvss_score")
-        source = item.get("source_tag") or item.get("source") or "NVD"
+        source = normalize_source_tag(item.get("source_tag") or item.get("source") or "NVD")
         url = item.get("source_url", item.get("link", item.get("url", "")))
         refs = json.dumps(item.get("references", []), ensure_ascii=False)
         tags = json.dumps(item.get("tags", []), ensure_ascii=False)
@@ -759,6 +759,170 @@ def fetch_rss(url: str, timeout: int = 30, retries: int = 3, verify: bool = True
     except Exception as e:
         log_agent("utils", f"fetch_rss parse failed: {url} | {e}")
     return None
+
+
+# ---------------------------------------------------------------------------
+# 数据归一化 (Normalization)
+# ---------------------------------------------------------------------------
+
+# 受控词汇表：所有脚本输出 severity 必须来自此集合
+VALID_SEVERITIES = {
+    "CRITICAL", "HIGH", "MEDIUM", "LOW", "N/A",
+    "INFO", "EXPLOIT", "KEV", "UPDATE", "UNKNOWN",
+}
+
+# 严重等级映射：非标准值 → 标准值
+_SEVERITY_MAP = {
+    "CRITICAL": "CRITICAL",
+    "HIGH": "HIGH",
+    "MEDIUM": "MEDIUM",
+    "LOW": "LOW",
+    "INFO": "INFO",
+    "EXPLOIT": "EXPLOIT",
+    "KEV": "KEV",
+    "UPDATE": "UPDATE",
+    "UNKNOWN": "UNKNOWN",
+    "NONE": "N/A",
+    "N/A": "N/A",
+    # MSRC 映射
+    "IMPORTANT": "HIGH",
+    "MODERATE": "MEDIUM",
+    "LOWSEVERITY": "LOW",
+    # CISA / CVSS 映射
+    "CRIT": "CRITICAL",
+    "MOD": "MEDIUM",
+}
+
+
+def normalize_severity(severity: Any) -> str:
+    """将任意严重度输入归一化为受控词汇表中的标准值。
+    
+    Args:
+        severity: 原始严重度值（字符串、None 等）
+    
+    Returns:
+        标准化的严重度字符串，不在映射中的值返回其大写形式。
+        空值/None 返回 "N/A"。
+    """
+    if severity is None:
+        return "N/A"
+    if not isinstance(severity, str):
+        severity = str(severity)
+    s = severity.strip().upper()
+    if not s:
+        return "N/A"
+    # 移除可能的前缀后缀
+    s = s.replace("SEVERITY", "").replace("CVSS", "").strip()
+    # 直接映射查找
+    if s in _SEVERITY_MAP:
+        return _SEVERITY_MAP[s]
+    # 尝试部分匹配
+    for key, val in sorted(_SEVERITY_MAP.items(), key=lambda x: -len(x[0])):
+        if key in s:
+            return val
+    # 回退为受控词汇中的首字母大写值
+    if s in VALID_SEVERITIES:
+        return s
+    return "UNKNOWN"
+
+
+# 数据源标签映射
+_SOURCE_TAG_MAP = {
+    "NVD": "NVD",
+    "EXPLOIT-DB": "Exploit-DB",
+    "GITHUB": "GitHub",
+    "GITHUB ADVISORY": "GitHub",
+    "GITHUB ADVISORIES": "GitHub",
+    "CISA-KEV": "CISA-KEV",
+    "CISA KEV": "CISA-KEV",
+    "REDHAT": "RedHat",
+    "UBUNTU": "Ubuntu",
+    "SUSE": "SUSE",
+    "ARCH": "Arch",
+    "GENTOO": "Gentoo",
+    "APPLE": "Apple",
+    "MICROSOFT": "Microsoft",
+    "ANQUANKE": "Anquanke",
+    "KANXUE": "Kanxue",
+    "XIANZHI": "Xianzhi",
+    "SIHOU": "Sihou",
+    "STACKEXCHANGE": "StackExchange",
+    "REDDIT": "Reddit",
+    "V2EX": "V2EX",
+    "OSV": "OSV.dev",
+}
+
+
+def normalize_source_tag(tag: str) -> str:
+    """归一化数据源标签。
+    
+    覆盖所有脚本中用到的 source_tag / source 值，
+    确保同一数据源在不同脚本中输出一致的标签。
+    """
+    if not tag or not isinstance(tag, str):
+        return "Unknown"
+    t = tag.strip()
+    if not t:
+        return "Unknown"
+    upper = t.upper()
+    # 直接映射
+    if upper in _SOURCE_TAG_MAP:
+        return _SOURCE_TAG_MAP[upper]
+    # 前缀匹配（处理 reddit-xxx, v2ex-xxx 格式）
+    for prefix, canonical in [("REDDIT-", "Reddit"), ("V2EX-", "V2EX")]:
+        if upper.startswith(prefix):
+            return canonical
+    # 回退：首字母大写保留原名
+    return " ".join(w.capitalize() for w in t.split("-"))
+
+
+def normalize_timestamp(ts: Any) -> str:
+    """将各种时间戳格式归一化为 ISO-8601 格式的字符串。
+    
+    Args:
+        ts: 原始时间戳（字符串、int、float 等）
+    
+    Returns:
+        归一化后的 ISO-8601 字符串，若无法解析则返回原始值。
+        空值/None 返回空字符串。
+    """
+    if ts is None:
+        return ""
+    if not isinstance(ts, str):
+        # int/float → datetime
+        try:
+            if isinstance(ts, (int, float)) and ts > 1000000000:  # unix ts
+                dt = datetime.fromtimestamp(ts, tz=timezone.utc)
+                return dt.isoformat()
+        except (ValueError, OSError):
+            pass
+        return str(ts)
+
+    ts = ts.strip()
+    if not ts:
+        return ""
+
+    # 已经是 ISO 格式且含 T，直接返回
+    if "T" in ts:
+        # 确保 Z 结尾统一
+        return ts
+
+    # 纯数字 → unix timestamp
+    if ts.isdigit() and len(ts) >= 8:
+        try:
+            dt = datetime.fromtimestamp(int(ts), tz=timezone.utc)
+            return dt.isoformat()
+        except (ValueError, OSError):
+            pass
+        return ts
+
+    # 日期格式 YYYY-MM-DD
+    import re as _re
+    if _re.match(r"^\d{4}-\d{2}-\d{2}$", ts):
+        return ts
+
+    # 无法识别的格式，原样返回
+    return ts
 
 
 # ---------------------------------------------------------------------------

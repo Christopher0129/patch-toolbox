@@ -46,6 +46,7 @@ from utils import (
     fetch_json, fetch_text, fetch_rss, log_sync, write_report,
     strip_html_tags, insert_entries_sqlite, init_sqlite_db, get_db_path,
     count_entries_sqlite, summarize_title, send_sync_report,
+    normalize_severity, normalize_source_tag,
 )
 
 SYNC_NAME = "sync-network-security"
@@ -207,7 +208,7 @@ def fetch_github_advisories(limit: int = 20) -> List[Dict[str, Any]]:
         ghsa_id = adv.get("ghsa_id", "")
         summary = adv.get("summary", "")
         desc = adv.get("description", "")[:500]
-        severity = (adv.get("severity") or "N/A").upper()
+        severity = normalize_severity(adv.get("severity", ""))
         cvss_score = adv.get("cvss", {}).get("score") if isinstance(adv.get("cvss"), dict) else None
         refs = [adv["html_url"]] if adv.get("html_url") else []
         cves = adv.get("cve_ids", [])
@@ -275,7 +276,7 @@ def fetch_redhat_advisories(limit: int = 20) -> List[Dict[str, Any]]:
     items = []
     for adv in data[:limit]:
         cve_id = adv.get("CVE", "")
-        severity = (adv.get("severity") or "N/A").upper()
+        severity = normalize_severity(adv.get("severity", ""))
         bugzilla = adv.get("bugzilla", "")
         description = adv.get("bugzilla_description", "")
 
@@ -368,7 +369,7 @@ def fetch_arch_security() -> List[Dict[str, Any]]:
         cve_id = issue.get("name", "")
         packages = ", ".join(issue.get("packages", []))[:100]
         status = issue.get("status", "")
-        severity = issue.get("severity", "Unknown").upper()
+        severity = normalize_severity(issue.get("severity", ""))
 
         items.append({
             "cve_id": cve_id,

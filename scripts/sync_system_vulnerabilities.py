@@ -25,6 +25,7 @@ from utils import (
     filter_new_items, make_bilingual_md, write_md_file,
     init_sqlite_db, get_db_path, insert_entries_sqlite, count_entries_sqlite,
     strip_html_tags, summarize_title, send_sync_report,
+    normalize_severity, normalize_source_tag,
 )
 
 SYNC_NAME = "sync-system-vulnerabilities"
@@ -118,7 +119,7 @@ def fetch_redhat_advisories(limit: int = 20) -> List[Dict[str, Any]]:
     items = []
     for adv in data[:limit]:
         cve_id = adv.get("CVE", "")
-        severity = (adv.get("severity") or "N/A").upper()
+        severity = normalize_severity(adv.get("severity", ""))
         bugzilla = adv.get("bugzilla", "")
         description = adv.get("bugzilla_description", "")
         items.append({
@@ -217,7 +218,7 @@ def fetch_microsoft_security(limit: int = 20) -> List[Dict[str, Any]]:
     for update in data[:limit]:
         cve_id = update.get("cveNumber", "")
         title = update.get("cveTitle", "")
-        severity = (update.get("severity") or "N/A").upper()
+        severity = normalize_severity(update.get("severity", ""))
         description = update.get("cveDescription", "")
         kb_articles = update.get("kbArticles", [])
         refs = [f"https://support.microsoft.com/kb/{kb.get('kbNumber', '')}" for kb in kb_articles if kb.get("kbNumber")]
