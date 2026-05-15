@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 958**
+**总计条目 / Total entries: 1081**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -14343,139 +14343,7 @@ An issue was discovered in certain Apple products. macOS before 10.13.1 is affec
 
 ---
 
-#### 920. [Apple] iOS 26.5 and iPadOS 26.5
-
-**严重程度 / Severity**: UPDATE
-
-**漏洞描述 / Description**:
-Apple security update. Refer to support article for details.
-
-**参考链接 / References**:
-- https://support.apple.com/en-us/127110
-
----
-
-#### 921. [Apple] iOS 18.7.9 and iPadOS 18.7.9
-
-**严重程度 / Severity**: UPDATE
-
-**漏洞描述 / Description**:
-Apple security update. Refer to support article for details.
-
-**参考链接 / References**:
-- https://support.apple.com/en-us/127111
-
----
-
-#### 922. [Apple] iPadOS 17.7.11
-
-**严重程度 / Severity**: UPDATE
-
-**漏洞描述 / Description**:
-Apple security update. Refer to support article for details.
-
-**参考链接 / References**:
-- https://support.apple.com/en-us/127112
-
----
-
-#### 923. [Apple] iOS 16.7.16 and iPadOS 16.7.16
-
-**严重程度 / Severity**: UPDATE
-
-**漏洞描述 / Description**:
-Apple security update. Refer to support article for details.
-
-**参考链接 / References**:
-- https://support.apple.com/en-us/127113
-
----
-
-#### 924. [Apple] iOS 15.8.8 and iPadOS 15.8.8
-
-**严重程度 / Severity**: UPDATE
-
-**漏洞描述 / Description**:
-Apple security update. Refer to support article for details.
-
-**参考链接 / References**:
-- https://support.apple.com/en-us/127114
-
----
-
-#### 925. [Apple] macOS Tahoe 26.5
-
-**严重程度 / Severity**: UPDATE
-
-**漏洞描述 / Description**:
-Apple security update. Refer to support article for details.
-
-**参考链接 / References**:
-- https://support.apple.com/en-us/127115
-
----
-
-#### 926. [Apple] macOS Sequoia 15.7.7
-
-**严重程度 / Severity**: UPDATE
-
-**漏洞描述 / Description**:
-Apple security update. Refer to support article for details.
-
-**参考链接 / References**:
-- https://support.apple.com/en-us/127116
-
----
-
-#### 927. [Apple] macOS Sonoma 14.8.7
-
-**严重程度 / Severity**: UPDATE
-
-**漏洞描述 / Description**:
-Apple security update. Refer to support article for details.
-
-**参考链接 / References**:
-- https://support.apple.com/en-us/127117
-
----
-
-#### 928. [Apple] tvOS 26.5
-
-**严重程度 / Severity**: UPDATE
-
-**漏洞描述 / Description**:
-Apple security update. Refer to support article for details.
-
-**参考链接 / References**:
-- https://support.apple.com/en-us/127118
-
----
-
-#### 929. [Apple] watchOS 26.5
-
-**严重程度 / Severity**: UPDATE
-
-**漏洞描述 / Description**:
-Apple security update. Refer to support article for details.
-
-**参考链接 / References**:
-- https://support.apple.com/en-us/127119
-
----
-
-#### 930. [Apple] visionOS 26.5
-
-**严重程度 / Severity**: UPDATE
-
-**漏洞描述 / Description**:
-Apple security update. Refer to support article for details.
-
-**参考链接 / References**:
-- https://support.apple.com/en-us/127120
-
----
-
-#### 931. [Apple] Safari 26.5
+#### 920. [Apple] Safari 26.5
 
 **严重程度 / Severity**: UPDATE
 
@@ -14487,431 +14355,2475 @@ Apple security update. Refer to support article for details.
 
 ---
 
-#### 932. CVE-2005-2713
+#### 921. [Apple] iOS 26.5 and iPadOS 26.5
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127110
+
+---
+
+#### 922. [Apple] iOS 18.7.9 and iPadOS 18.7.9
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127111
+
+---
+
+#### 923. [Apple] iPadOS 17.7.11
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127112
+
+---
+
+#### 924. [Apple] iOS 16.7.16 and iPadOS 16.7.16
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127113
+
+---
+
+#### 925. [Apple] iOS 15.8.8 and iPadOS 15.8.8
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127114
+
+---
+
+#### 926. [Apple] macOS Tahoe 26.5
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127115
+
+---
+
+#### 927. [Apple] macOS Sequoia 15.7.7
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127116
+
+---
+
+#### 928. [Apple] macOS Sonoma 14.8.7
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127117
+
+---
+
+#### 929. [Apple] tvOS 26.5
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127118
+
+---
+
+#### 930. [Apple] watchOS 26.5
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127119
+
+---
+
+#### 931. [Apple] visionOS 26.5
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127120
+
+---
+
+#### 932. CVE-2008-4963
+
+**严重程度 / Severity**: N/A | CVSS: 7.1
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in the VLAN Trunking Protocol (VTP) implementation on Cisco IOS and CatOS, when the VTP operating mode is not transparent, allows remote attackers to cause a denial of service (device reload or hang) via a crafted VTP packet sent to a switch interface configured as a trunk port.
+
+**参考链接 / References**:
+- http://osvdb.org/49601
+- http://secunia.com/advisories/32573
+- http://securitytracker.com/id?1021143
+- http://www.cisco.com/en/US/products/products_security_response09186a0080a231cf.html
+- http://www.securityfocus.com/bid/32120
+
+---
+
+#### 933. CVE-2008-3821
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Multiple cross-site scripting (XSS) vulnerabilities in the HTTP server in Cisco IOS 11.0 through 12.4 allow remote attackers to inject arbitrary web script or HTML via (1) the query string to the ping program or (2) unspecified other aspects of the URI.
+
+**参考链接 / References**:
+- http://jvn.jp/en/jp/JVN28344798/index.html
+- http://osvdb.org/51393
+- http://osvdb.org/51394
+- http://secunia.com/advisories/33461
+- http://securityreason.com/securityalert/4916
+
+---
+
+#### 934. CVE-2009-0470
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Multiple cross-site scripting (XSS) vulnerabilities in the HTTP server in Cisco IOS 12.4(23) allow remote attackers to inject arbitrary web script or HTML via the PATH_INFO to the default URI under (1) level/15/exec/-/ or (2) exec/, a different vulnerability than CVE-2008-3821.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/33844
+- http://www.securityfocus.com/archive/1/500674/100/0/threaded
+- http://www.securityfocus.com/bid/33625
+- http://secunia.com/advisories/33844
+- http://www.securityfocus.com/archive/1/500674/100/0/threaded
+
+---
+
+#### 935. CVE-2009-0471
 
 **严重程度 / Severity**: N/A | CVSS: 6.8
 
 **漏洞描述 / Description**:
-passwd in Directory Services in Mac OS X 10.3.x before 10.3.9 and 10.4.x before 10.4.5 allows local users to create arbitrary world-writable files as root by specifying an alternate file in the password database option.
+Cross-site request forgery (CSRF) vulnerability in the HTTP server in Cisco IOS 12.4(23) allows remote attackers to execute arbitrary commands, as demonstrated by executing the hostname command with a level/15/configure/-/hostname request.
 
 **参考链接 / References**:
-- http://docs.info.apple.com/article.html?artnum=303382
-- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
-- http://secunia.com/advisories/19064
-- http://www.idefense.com/intelligence/vulnerabilities/display.php?id=400
-- http://www.osvdb.org/23646
+- http://secunia.com/advisories/33844
+- http://www.securityfocus.com/archive/1/500674/100/0/threaded
+- http://secunia.com/advisories/33844
+- http://www.securityfocus.com/archive/1/500674/100/0/threaded
 
 ---
 
-#### 933. CVE-2005-2714
+#### 936. CVE-2009-0631
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Cisco IOS 12.0 through 12.4, when configured with (1) IP Service Level Agreements (SLAs) Responder, (2) Session Initiation Protocol (SIP), (3) H.323 Annex E Call Signaling Transport, or (4) Media Gateway Control Protocol (MGCP) allows remote attackers to cause a denial of service (blocked input queue on the inbound interface) via a crafted UDP packet.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080a90426.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080a90469.shtml
+- http://www.securityfocus.com/bid/34245
+- http://www.securitytracker.com/id?1021904
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/49419
+
+---
+
+#### 937. CVE-2009-0626
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+The SSLVPN feature in Cisco IOS 12.3 through 12.4 allows remote attackers to cause a denial of service (device reload or hang) via a crafted HTTPS packet.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/34438
+- http://securitytracker.com/id?1021896
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080a90424.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080a90469.shtml
+- http://www.securityfocus.com/bid/34239
+
+---
+
+#### 938. CVE-2009-0628
+
+**严重程度 / Severity**: N/A | CVSS: 9.0
+
+**漏洞描述 / Description**:
+Memory leak in the SSLVPN feature in Cisco IOS 12.3 through 12.4 allows remote attackers to cause a denial of service (memory consumption and device crash) by disconnecting an SSL session in an abnormal manner, leading to a Transmission Control Block (TCB) leak.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/34438
+- http://securitytracker.com/id?1021896
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080a90424.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080a90469.shtml
+- http://www.securityfocus.com/bid/34239
+
+---
+
+#### 939. CVE-2009-0629
+
+**严重程度 / Severity**: N/A | CVSS: 5.4
+
+**漏洞描述 / Description**:
+The (1) Airline Product Set (aka ALPS), (2) Serial Tunnel Code (aka STUN), (3) Block Serial Tunnel Code (aka BSTUN), (4) Native Client Interface Architecture (NCIA) support, (5) Data-link switching (aka DLSw), (6) Remote Source-Route Bridging (RSRB), (7) Point to Point Tunneling Protocol (PPTP), (8) X.25 for Record Boundary Preservation (RBP), (9) X.25 over TCP (XOT), and (10) X.25 Routing features in Cisco IOS 12.2 and 12.4 allows remote attackers to cause a denial of service (device reload) via a series of crafted TCP packets.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/34438
+- http://securitytracker.com/id?1021903
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080a90469.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080a904cb.shtml
+- http://www.securityfocus.com/bid/34238
+
+---
+
+#### 940. CVE-2009-0630
+
+**严重程度 / Severity**: N/A | CVSS: 7.1
+
+**漏洞描述 / Description**:
+The (1) Cisco Unified Communications Manager Express; (2) SIP Gateway Signaling Support Over Transport Layer Security (TLS) Transport; (3) Secure Signaling and Media Encryption; (4) Blocks Extensible Exchange Protocol (BEEP); (5) Network Admission Control HTTP Authentication Proxy; (6) Per-user URL Redirect for EAPoUDP, Dot1x, and MAC Authentication Bypass; (7) Distributed Director with HTTP Redirects; and (8) TCP DNS features in Cisco IOS 12.0 through 12.4 do not properly handle IP sockets, which allows remote attackers to cause a denial of service (outage or resource consumption) via a series of crafted TCP packets.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/34438
+- http://securitytracker.com/id?1021897
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080a90469.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080a904c6.shtml
+- http://www.securityfocus.com/bid/34242
+
+---
+
+#### 941. CVE-2009-0633
+
+**严重程度 / Severity**: N/A | CVSS: 7.1
+
+**漏洞描述 / Description**:
+Multiple unspecified vulnerabilities in the (1) Mobile IP NAT Traversal feature and (2) Mobile IPv6 subsystem in Cisco IOS 12.3 through 12.4 allow remote attackers to cause a denial of service (input queue wedge and interface outage) via MIPv6 packets, aka Bug ID CSCsm97220.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/34438
+- http://securitytracker.com/id?1021898
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080a9042f.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080a90469.shtml
+- http://www.securityfocus.com/bid/34241
+
+---
+
+#### 942. CVE-2009-0634
+
+**严重程度 / Severity**: N/A | CVSS: 7.1
+
+**漏洞描述 / Description**:
+Multiple unspecified vulnerabilities in the home agent (HA) implementation in the (1) Mobile IP NAT Traversal feature and (2) Mobile IPv6 subsystem in Cisco IOS 12.3 through 12.4 allow remote attackers to cause a denial of service (input queue wedge and interface outage) via an ICMP packet, aka Bug ID CSCso05337.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/34438
+- http://securitytracker.com/id?1021898
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080a9042f.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080a90469.shtml
+- http://www.securityfocus.com/bid/34241
+
+---
+
+#### 943. CVE-2009-0635
+
+**严重程度 / Severity**: N/A | CVSS: 7.1
+
+**漏洞描述 / Description**:
+Memory leak in the Cisco Tunneling Control Protocol (cTCP) encapsulation feature in Cisco IOS 12.4, when an Easy VPN (aka EZVPN) server is enabled, allows remote attackers to cause a denial of service (memory consumption and device crash) via a sequence of TCP packets.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/34438
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080a90459.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080a90469.shtml
+- http://www.securityfocus.com/bid/34246
+- http://www.securitytracker.com/id?1021895
+
+---
+
+#### 944. CVE-2009-0636
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Cisco IOS 12.0 through 12.4, when SIP voice services are enabled, allows remote attackers to cause a denial of service (device crash) via a valid SIP message.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/34438
+- http://securitytracker.com/id?1021902
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080a90469.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080a904c0.shtml
+- http://www.securityfocus.com/bid/34243
+
+---
+
+#### 945. CVE-2009-0637
+
+**严重程度 / Severity**: N/A | CVSS: 7.1
+
+**漏洞描述 / Description**:
+The SCP server in Cisco IOS 12.2 through 12.4, when Role-Based CLI Access is enabled, does not enforce the CLI view configuration for file transfers, which allows remote authenticated users with an attached CLI view to (1) read or (2) overwrite arbitrary files via an SCP command.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/34438
+- http://securitytracker.com/id?1021899
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080a90469.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080a904c8.shtml
+- http://www.securityfocus.com/bid/34247
+
+---
+
+#### 946. CVE-2009-1168
+
+**严重程度 / Severity**: N/A | CVSS: 7.1
+
+**漏洞描述 / Description**:
+Cisco IOS 12.0(32)S12 through 12.0(32)S13 and 12.0(33)S3 through 12.0(33)S4, 12.0(32)SY8 through 12.0(32)SY9, 12.2(33)SXI1, 12.2XNC before 12.2(33)XNC2, 12.2XND before 12.2(33)XND1, and 12.4(24)T1; and IOS XE 2.3 through 2.3.1t and 2.4 through 2.4.0; when RFC4893 BGP routing is enabled, allows remote attackers to cause a denial of service (memory corruption and device reload) by using an RFC4271 peer to send an update with a long series of AS numbers, aka Bug ID CSCsy86021.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/36046
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080aea4c9.shtml
+- http://www.securityfocus.com/bid/35862
+- http://www.securitytracker.com/id?1022619
+- http://www.vupen.com/english/advisories/2009/2082
+
+---
+
+#### 947. CVE-2009-2049
+
+**严重程度 / Severity**: N/A | CVSS: 5.4
+
+**漏洞描述 / Description**:
+Cisco IOS 12.0(32)S12 through 12.0(32)S13 and 12.0(33)S3 through 12.0(33)S4, 12.0(32)SY8 through 12.0(32)SY9, 12.2(33)SXI1 through 12.2(33)SXI2, 12.2XNC before 12.2(33)XNC2, 12.2XND before 12.2(33)XND1, and 12.4(24)T1; and IOS XE 2.3 through 2.3.1t and 2.4 through 2.4.0; when RFC4893 BGP routing is enabled, allows remote attackers to cause a denial of service (device reload) by using an RFC4271 peer to send a malformed update, aka Bug ID CSCta33973.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/36046
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080aea4c9.shtml
+- http://www.securityfocus.com/bid/35860
+- http://www.securitytracker.com/id?1022619
+- http://www.vupen.com/english/advisories/2009/2082
+
+---
+
+#### 948. CVE-2009-2055
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.9
+
+**漏洞描述 / Description**:
+Cisco IOS XR 3.4.0 through 3.8.1 allows remote attackers to cause a denial of service (session reset) via a BGP UPDATE message with an invalid attribute, as demonstrated in the wild on 17 August 2009.
+
+**参考链接 / References**:
+- http://mailman.nanog.org/pipermail/nanog/2009-August/012719.html
+- http://securitytracker.com/id?1022739
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080af150f.shtml
+- http://mailman.nanog.org/pipermail/nanog/2009-August/012719.html
+- http://securitytracker.com/id?1022739
+
+---
+
+#### 949. CVE-2009-1154
+
+**严重程度 / Severity**: N/A | CVSS: 3.3
+
+**漏洞描述 / Description**:
+Cisco IOS XR 3.8.1 and earlier allows remote attackers to cause a denial of service (process crash) via a long BGP UPDATE message, as demonstrated by a message with many AS numbers in the AS Path Attribute.
+
+**参考链接 / References**:
+- http://securitytracker.com/id?1022756
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080af150f.shtml
+- http://securitytracker.com/id?1022756
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080af150f.shtml
+
+---
+
+#### 950. CVE-2009-2056
+
+**严重程度 / Severity**: N/A | CVSS: 3.3
+
+**漏洞描述 / Description**:
+Cisco IOS XR 3.8.1 and earlier allows remote authenticated users to cause a denial of service (process crash) via vectors involving a BGP UPDATE message with many AS numbers prepended to the AS path.
+
+**参考链接 / References**:
+- http://securitytracker.com/id?1022756
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080af150f.shtml
+- http://securitytracker.com/id?1022756
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080af150f.shtml
+
+---
+
+#### 951. CVE-2009-2051
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Cisco IOS 12.2 through 12.4 and 15.0 through 15.1, Cisco IOS XE 2.5.x and 2.6.x before 2.6.1, and Cisco Unified Communications Manager (aka CUCM, formerly CallManager) 4.x, 5.x before 5.1(3g), 6.x before 6.1(4), and 7.x before 7.1(2) allow remote attackers to cause a denial of service (device reload or voice-services outage) via a malformed SIP INVITE message that triggers an improper call to the sipSafeStrlen function, aka Bug IDs CSCsz40392 and CSCsz43987.
+
+**参考链接 / References**:
+- http://osvdb.org/57453
+- http://secunia.com/advisories/36498
+- http://secunia.com/advisories/36499
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080af2d11.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a30f.shtml
+
+---
+
+#### 952. CVE-2009-2862
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+The Object Groups for Access Control Lists (ACLs) feature in Cisco IOS 12.2XNB, 12.2XNC, 12.2XND, 12.4MD, 12.4T, 12.4XZ, and 12.4YA allows remote attackers to bypass intended access restrictions via crafted requests, aka Bug IDs CSCsx07114, CSCsu70214, CSCsw47076, CSCsv48603, CSCsy54122, and CSCsu50252.
+
+**参考链接 / References**:
+- http://osvdb.org/58338
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=18876
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080af8119.shtml
+- http://www.securityfocus.com/bid/36495
+- http://www.securitytracker.com/id?1022933
+
+---
+
+#### 953. CVE-2009-2863
+
+**严重程度 / Severity**: N/A | CVSS: 7.1
+
+**漏洞描述 / Description**:
+Race condition in the Firewall Authentication Proxy feature in Cisco IOS 12.0 through 12.4 allows remote attackers to bypass authentication, or bypass the consent web page, via a crafted request, aka Bug ID CSCsy15227.
+
+**参考链接 / References**:
+- http://osvdb.org/58340
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=18882
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080af8132.shtml
+- http://www.securityfocus.com/bid/36491
+- http://www.securitytracker.com/id?1022935
+
+---
+
+#### 954. CVE-2009-2865
+
+**严重程度 / Severity**: N/A | CVSS: 7.6
+
+**漏洞描述 / Description**:
+Buffer overflow in the login implementation in the Extension Mobility feature in the Unified Communications Manager Express (CME) component in Cisco IOS 12.4XW, 12.4XY, 12.4XZ, and 12.4YA allows remote attackers to execute arbitrary code or cause a denial of service via crafted HTTP requests, aka Bug ID CSCsq58779.
+
+**参考链接 / References**:
+- http://osvdb.org/58335
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=18884
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080af8116.shtml
+- http://www.securityfocus.com/bid/36498
+- http://www.securitytracker.com/id?1022932
+
+---
+
+#### 955. CVE-2009-2866
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Cisco IOS 12.2 through 12.4 allows remote attackers to cause a denial of service (device reload) via a crafted H.323 packet, aka Bug ID CSCsz38104.
+
+**参考链接 / References**:
+- http://osvdb.org/58337
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=18885
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080af811a.shtml
+- http://www.securityfocus.com/bid/36494
+- http://www.securitytracker.com/id?1022930
+
+---
+
+#### 956. CVE-2009-2867
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Cisco IOS 12.2XNA, 12.2XNB, 12.2XNC, 12.2XND, 12.4T, 12.4XZ, and 12.4YA, when Zone-Based Policy Firewall SIP Inspection is enabled, allows remote attackers to cause a denial of service (device reload) via a crafted SIP transit packet, aka Bug ID CSCsr18691.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=18886
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080af8130.shtml
+- http://www.securitytracker.com/id?1022930
+- http://www.vupen.com/english/advisories/2009/2759
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A7254
+
+---
+
+#### 957. CVE-2009-2868
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Cisco IOS 12.2 through 12.4, when certificate-based authentication is enabled for IKE, allows remote attackers to cause a denial of service (Phase 1 SA exhaustion) via crafted requests, aka Bug IDs CSCsy07555 and CSCee72997.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=18887
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080af8117.shtml
+- http://www.vupen.com/english/advisories/2009/2759
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=18887
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080af8117.shtml
+
+---
+
+#### 958. CVE-2009-2869
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Cisco IOS 12.2XNA, 12.2XNB, 12.2XNC, 12.2XND, 12.4MD, 12.4T, 12.4XZ, and 12.4YA allows remote attackers to cause a denial of service (device reload) via a crafted NTPv4 packet, aka Bug IDs CSCsu24505 and CSCsv75948.
+
+**参考链接 / References**:
+- http://osvdb.org/58342
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=18889
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080af8131.shtml
+- http://www.securitytracker.com/id?1022930
+- http://www.vupen.com/english/advisories/2009/2759
+
+---
+
+#### 959. CVE-2009-2870
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Cisco IOS 12.2 through 12.4, when the Cisco Unified Border Element feature is enabled, allows remote attackers to cause a denial of service (device reload) via crafted SIP messages, aka Bug ID CSCsx25880.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=18891
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080af811b.shtml
+- http://www.securitytracker.com/id?1022930
+- http://www.vupen.com/english/advisories/2009/2759
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=18891
+
+---
+
+#### 960. CVE-2009-2871
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Cisco IOS 12.2 and 12.4, when SSLVPN sessions, SSH sessions, or IKE encrypted nonces are enabled, allows remote attackers to cause a denial of service (device reload) via a crafted encrypted packet, aka Bug ID CSCsq24002.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=18892
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080af811c.shtml
+- http://www.securitytracker.com/id?1022930
+- http://www.vupen.com/english/advisories/2009/2759
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=18892
+
+---
+
+#### 961. CVE-2009-2872
 
 **严重程度 / Severity**: N/A | CVSS: 6.8
 
 **漏洞描述 / Description**:
-passwd in Directory Services in Mac OS X 10.3.x before 10.3.9 and 10.4.x before 10.4.5 allows local users to overwrite arbitrary files via a symlink attack on the .pwtmp.[PID] temporary file.
+Cisco IOS 12.0 through 12.4, when IP-based tunnels and the Cisco Express Forwarding feature are enabled, allows remote attackers to cause a denial of service (device reload) via a malformed packet that is not properly handled during switching from one tunnel to a second tunnel, aka Bug IDs CSCsh97579 and CSCsq31776.
 
 **参考链接 / References**:
-- http://docs.info.apple.com/article.html?artnum=303382
-- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
-- http://secunia.com/advisories/19064
-- http://www.idefense.com/intelligence/vulnerabilities/display.php?id=400
-- http://www.osvdb.org/23647
+- http://osvdb.org/58333
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=18893
+- http://www.cisco.com/en/US/products/products_applied_mitigation_bulletin09186a0080af8113.html
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080af8115.shtml
+- http://www.cisco.com/web/about/security/intelligence/Cisco_ERP_sep09.html
 
 ---
 
-#### 934. CVE-2005-3706
+#### 962. CVE-2009-2873
 
-**严重程度 / Severity**: N/A | CVSS: 6.4
+**严重程度 / Severity**: N/A | CVSS: 7.1
 
 **漏洞描述 / Description**:
-Heap-based buffer overflow in LibSystem in Mac OS X 10.4 through 10.4.5 allows context-dependent attackers to execute arbitrary code by causing an application that uses LibSystem to request a large amount of memory.
+Cisco IOS 12.0 through 12.4, when IP-based tunnels and the Cisco Express Forwarding feature are enabled, allows remote attackers to cause a denial of service (device reload) via malformed packets, aka Bug ID CSCsx70889.
 
 **参考链接 / References**:
-- http://docs.info.apple.com/article.html?artnum=303382
-- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
-- http://secunia.com/advisories/19064
-- http://www.osvdb.org/23644
-- http://www.securityfocus.com/bid/16907
+- http://osvdb.org/58334
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=18895
+- http://www.cisco.com/en/US/products/products_applied_mitigation_bulletin09186a0080af8113.html
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080af8115.shtml
+- http://www.cisco.com/web/about/security/intelligence/Cisco_ERP_sep09.html
 
 ---
 
-#### 935. CVE-2005-3712
+#### 963. CVE-2010-0137
 
-**严重程度 / Severity**: N/A | CVSS: 6.5
+**严重程度 / Severity**: N/A | CVSS: 7.8
 
 **漏洞描述 / Description**:
-Heap-based buffer overflow in rsync in Mac OS X 10.4 through 10.4.5 allows remote authenticated users to execute arbitrary code via long extended attributes.
+Unspecified vulnerability in the sshd_child_handler process in the SSH server in Cisco IOS XR 3.4.1 through 3.7.0 allows remote attackers to cause a denial of service (process crash and memory consumption) via a crafted SSH2 packet, aka Bug ID CSCsu10574.
 
 **参考链接 / References**:
-- http://docs.info.apple.com/article.html?artnum=303382
-- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
-- http://secunia.com/advisories/19064
-- http://www.osvdb.org/23648
-- http://www.securityfocus.com/bid/16907
+- http://secunia.com/advisories/38227
+- http://securitytracker.com/id?1023480
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b13512.shtml
+- http://www.securityfocus.com/bid/37878
+- http://www.vupen.com/english/advisories/2010/0183
 
 ---
 
-#### 936. CVE-2005-3782
+#### 964. CVE-2010-0576
 
-**严重程度 / Severity**: N/A | CVSS: 2.1
+**严重程度 / Severity**: N/A | CVSS: 7.8
 
 **漏洞描述 / Description**:
-Mac OS X 10.4.3 up to 10.4.6, when loginwindow uses the "Name and password" setting, and the "Show the Restart, Sleep, and Shut Down buttons" option is disabled, allows users with physical access to bypass login and reboot the system by entering ">restart", ">power", or ">shutdown" sequences after the username.
+Unspecified vulnerability in Cisco IOS 12.0 through 12.4, IOS XE 2.1.x through 2.3.x before 2.3.2, and IOS XR 3.2.x through 3.4.3, when Multiprotocol Label Switching (MPLS) and Label Distribution Protocol (LDP) are enabled, allows remote attackers to cause a denial of service (device reload or process restart) via a crafted LDP packet, aka Bug IDs CSCsz45567 and CSCsj25893.
 
 **参考链接 / References**:
-- http://www.osvdb.org/20776
-- http://www.osvdb.org/20776
+- http://osvdb.org/63188
+- http://secunia.com/advisories/39065
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b20ee2.shtml
+- http://www.securityfocus.com/bid/38938
+- http://www.securitytracker.com/id?1023740
 
 ---
 
-#### 937. CVE-2006-0383
+#### 965. CVE-2010-0577
+
+**严重程度 / Severity**: N/A | CVSS: 7.1
+
+**漏洞描述 / Description**:
+Cisco IOS 12.2 through 12.4, when certain PMTUD, SNAT, or window-size configurations are used, allows remote attackers to cause a denial of service (infinite loop, and device reload or hang) via a TCP segment with crafted options, aka Bug ID CSCsz75186.
+
+**参考链接 / References**:
+- http://osvdb.org/63178
+- http://secunia.com/advisories/39078
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b20f34.shtml
+- http://www.securityfocus.com/bid/38930
+- http://www.securitytracker.com/id?1023743
+
+---
+
+#### 966. CVE-2010-0578
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+The IKE implementation in Cisco IOS 12.2 through 12.4 on Cisco 7200 and 7301 routers with VAM2+ allows remote attackers to cause a denial of service (device reload) via a malformed IKE packet, aka Bug ID CSCtb13491.
+
+**参考链接 / References**:
+- http://osvdb.org/63182
+- http://secunia.com/advisories/39057
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b20ee5.shtml
+- http://www.securityfocus.com/bid/38932
+- http://www.securitytracker.com/id?1023741
+
+---
+
+#### 967. CVE-2010-0579
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+The SIP implementation in Cisco IOS 12.3 and 12.4 allows remote attackers to cause a denial of service (device reload) via a malformed SIP message, aka Bug ID CSCtb93416, the "SIP Message Handling Denial of Service Vulnerability."
+
+**参考链接 / References**:
+- http://secunia.com/advisories/39068
+- http://securitytracker.com/id?1023744
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=20063
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b20f32.shtml
+- http://secunia.com/advisories/39068
+
+---
+
+#### 968. CVE-2010-0580
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in the SIP implementation in Cisco IOS 12.3 and 12.4 allows remote attackers to execute arbitrary code via a malformed SIP message, aka Bug ID CSCsz48680, the "SIP Message Processing Arbitrary Code Execution Vulnerability."
+
+**参考链接 / References**:
+- http://secunia.com/advisories/39068
+- http://securitytracker.com/id?1023744
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=20064
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b20f32.shtml
+- http://secunia.com/advisories/39068
+
+---
+
+#### 969. CVE-2010-0581
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in the SIP implementation in Cisco IOS 12.3 and 12.4 allows remote attackers to execute arbitrary code via a malformed SIP message, aka Bug ID CSCsz89904, the "SIP Packet Parsing Arbitrary Code Execution Vulnerability."
+
+**参考链接 / References**:
+- http://secunia.com/advisories/39068
+- http://securitytracker.com/id?1023744
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=20065
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b20f32.shtml
+- http://secunia.com/advisories/39068
+
+---
+
+#### 970. CVE-2010-0582
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Cisco IOS 12.1 through 12.4, and 15.0M before 15.0(1)M1, allows remote attackers to cause a denial of service (interface queue wedge) via malformed H.323 packets, aka Bug ID CSCta19962.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/39067
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b20ee4.shtml
+- http://www.securitytracker.com/id?1023742
+- http://www.vupen.com/english/advisories/2010/0706
+- http://secunia.com/advisories/39067
+
+---
+
+#### 971. CVE-2010-0583
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Memory leak in the H.323 implementation in Cisco IOS 12.1 through 12.4, and 15.0M before 15.0(1)M1, allows remote attackers to cause a denial of service (memory consumption and device reload) via malformed H.323 packets, aka Bug ID CSCtb93855.
+
+**参考链接 / References**:
+- http://osvdb.org/63181
+- http://secunia.com/advisories/39067
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b20ee4.shtml
+- http://www.securityfocus.com/bid/38934
+- http://www.securitytracker.com/id?1023742
+
+---
+
+#### 972. CVE-2010-0584
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Cisco IOS 12.4, when NAT SCCP fragmentation support is enabled, allows remote attackers to cause a denial of service (device reload) via crafted Skinny Client Control Protocol (SCCP) packets, aka Bug ID CSCsy09250.
+
+**参考链接 / References**:
+- http://osvdb.org/63187
+- http://secunia.com/advisories/39062
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b20ee6.shtml
+- http://www.securitytracker.com/id?1023739
+- http://www.vupen.com/english/advisories/2010/0708
+
+---
+
+#### 973. CVE-2010-0585
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Cisco IOS 12.1 through 12.4, when Cisco Unified Communications Manager Express (CME) or Cisco Unified Survivable Remote Site Telephony (SRST) is enabled, allows remote attackers to cause a denial of service (device reload) via a malformed Skinny Client Control Protocol (SCCP) message, aka Bug ID CSCsz48614, the "SCCP Packet Processing Denial of Service Vulnerability."
+
+**参考链接 / References**:
+- http://secunia.com/advisories/39069
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=20069
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b20f33.shtml
+- http://secunia.com/advisories/39069
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=20069
+
+---
+
+#### 974. CVE-2010-0586
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Cisco IOS 12.1 through 12.4, when Cisco Unified Communications Manager Express (CME) or Cisco Unified Survivable Remote Site Telephony (SRST) is enabled, allows remote attackers to cause a denial of service (device reload) via a malformed Skinny Client Control Protocol (SCCP) message, aka Bug ID CSCsz49741, the "SCCP Request Handling Denial of Service Vulnerability."
+
+**参考链接 / References**:
+- http://osvdb.org/63177
+- http://secunia.com/advisories/39069
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=20070
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b20f33.shtml
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A6625
+
+---
+
+#### 975. CVE-2010-1387
+
+**严重程度 / Severity**: N/A | CVSS: 9.3
+
+**漏洞描述 / Description**:
+Use-after-free vulnerability in JavaScriptCore in WebKit in Apple iTunes before 9.2 on Windows, and Apple iOS before 4 on the iPhone and iPod touch, allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via vectors related to page transitions, a different vulnerability than CVE-2010-1763 and CVE-2010-1769.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2010//Jun/msg00002.html
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00003.html
+- http://lists.apple.com/archives/security-announce/2010/Jun/msg00003.html
+- http://lists.opensuse.org/opensuse-security-announce/2011-01/msg00006.html
+- http://secunia.com/advisories/40196
+
+---
+
+#### 976. CVE-2010-1769
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+WebKit in Apple iTunes before 9.2 on Windows, and Apple iOS before 4 on the iPhone and iPod touch, accesses out-of-bounds memory during the handling of tables, which allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a crafted HTML document, a different vulnerability than CVE-2010-1387 and CVE-2010-1763.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2010//Jun/msg00002.html
+- http://lists.apple.com/archives/security-announce/2010/Jun/msg00003.html
+- http://lists.opensuse.org/opensuse-security-announce/2011-01/msg00006.html
+- http://secunia.com/advisories/40196
+- http://secunia.com/advisories/43068
+
+---
+
+#### 977. CVE-2010-1407
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+WebKit in Apple iOS before 4 on the iPhone and iPod touch does not properly implement the history.replaceState method in certain situations involving IFRAME elements, which allows remote attackers to obtain sensitive information via a crafted HTML document.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00003.html
+- http://lists.apple.com/archives/security-announce/2010/Jun/msg00003.html
+- http://lists.opensuse.org/opensuse-security-announce/2011-01/msg00006.html
+- http://secunia.com/advisories/41856
+- http://secunia.com/advisories/42314
+
+---
+
+#### 978. CVE-2010-1751
 
 **严重程度 / Severity**: N/A | CVSS: 5.0
 
 **漏洞描述 / Description**:
-IPSec when used with VPN networks in Mac OS X 10.4 through 10.4.5 allows remote attackers to cause a denial of service (application crash) via unspecified vectors involving the "incorrect handling of error conditions".
+Application Sandbox in Apple iOS before 4 on the iPhone and iPod touch does not prevent photo-library access, which might allow remote attackers to obtain location information via unspecified vectors.
 
 **参考链接 / References**:
-- http://docs.info.apple.com/article.html?artnum=303382
-- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
-- http://secunia.com/advisories/19064
-- http://www.osvdb.org/23643
-- http://www.securityfocus.com/bid/16907
+- http://lists.apple.com/archives/security-announce/2010/Jun/msg00003.html
+- http://support.apple.com/kb/HT4225
+- http://www.securityfocus.com/bid/41016
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/59630
+- http://lists.apple.com/archives/security-announce/2010/Jun/msg00003.html
 
 ---
 
-#### 938. CVE-2006-0384
+#### 979. CVE-2010-1752
 
-**严重程度 / Severity**: N/A | CVSS: 7.5
+**严重程度 / Severity**: N/A | CVSS: 6.8
 
 **漏洞描述 / Description**:
-automount in Mac OS X 10.4.5 and earlier allows remote file servers to cause a denial of service (unresponsiveness) or execute arbitrary code via unspecified vectors that cause automount to "mount file systems with reserved names".
+Stack-based buffer overflow in CFNetwork in Apple iOS before 4 on the iPhone and iPod touch allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via vectors related to URL handling.
 
 **参考链接 / References**:
-- http://docs.info.apple.com/article.html?artnum=303382
-- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
-- http://secunia.com/advisories/19064
-- http://securitytracker.com/id?1015709
-- http://www.osvdb.org/23640
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00000.html
+- http://lists.apple.com/archives/security-announce/2010/Jun/msg00003.html
+- http://support.apple.com/kb/HT4225
+- http://support.apple.com/kb/HT4435
+- http://www.securityfocus.com/bid/41016
 
 ---
 
-#### 939. CVE-2006-0386
+#### 980. CVE-2010-1753
 
-**严重程度 / Severity**: N/A | CVSS: 1.7
+**严重程度 / Severity**: N/A | CVSS: 6.8
 
 **漏洞描述 / Description**:
-FileVault in Mac OS X 10.4.5 and earlier does not properly mount user directories when creating a FileVault image, which allows local users to access protected files when FileVault is enabled.
+ImageIO in Apple iOS before 4 on the iPhone and iPod touch allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted JPEG image.
 
 **参考链接 / References**:
-- http://docs.info.apple.com/article.html?artnum=303382
-- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
-- http://secunia.com/advisories/19064
-- http://www.osvdb.org/23642
-- http://www.securityfocus.com/bid/16907
+- http://lists.apple.com/archives/security-announce/2010/Jun/msg00003.html
+- http://support.apple.com/kb/HT4225
+- http://www.securityfocus.com/bid/41016
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/59632
+- http://lists.apple.com/archives/security-announce/2010/Jun/msg00003.html
 
 ---
 
-#### 940. CVE-2006-0388
+#### 981. CVE-2010-1754
 
-**严重程度 / Severity**: N/A | CVSS: 2.6
+**严重程度 / Severity**: N/A | CVSS: 6.9
 
 **漏洞描述 / Description**:
-Safari in Mac OS X 10.3 before 10.3.9 and 10.4 before 10.4.5 allows remote attackers to redirect users to local files and execute arbitrary JavaScript via unspecified vectors involving HTTP redirection to local resources.
+Passcode Lock in Apple iOS before 4 on the iPhone and iPod touch does not properly handle alert-based unlocks in conjunction with subsequent Remote Lock operations through MobileMe, which allows physically proximate attackers to bypass intended passcode requirements via unspecified vectors.
 
 **参考链接 / References**:
-- http://docs.info.apple.com/article.html?artnum=303382
-- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
-- http://secunia.com/advisories/19064
-- http://securitytracker.com/id?1015713
-- http://www.securityfocus.com/bid/16907
+- http://lists.apple.com/archives/security-announce/2010/Jun/msg00003.html
+- http://support.apple.com/kb/HT4225
+- http://www.securityfocus.com/bid/41016
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/59633
+- http://lists.apple.com/archives/security-announce/2010/Jun/msg00003.html
 
 ---
 
-#### 941. CVE-2006-0389
+#### 982. CVE-2010-1755
 
-**严重程度 / Severity**: N/A | CVSS: 2.6
+**严重程度 / Severity**: N/A | CVSS: 4.3
 
 **漏洞描述 / Description**:
-Cross-site scripting (XSS) vulnerability in Syndication (Safari RSS) in Mac OS X 10.4 through 10.4.5 allows remote attackers to execute arbitrary JavaScript via unspecified vectors involving RSS feeds.
+Safari in Apple iOS before 4 on the iPhone and iPod touch does not properly implement the Accept Cookies preference, which makes it easier for remote web servers to track users via a cookie.
 
 **参考链接 / References**:
-- http://docs.info.apple.com/article.html?artnum=303382
-- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
-- http://secunia.com/advisories/19064
-- http://www.osvdb.org/23649
-- http://www.securityfocus.com/bid/16907
+- http://lists.apple.com/archives/security-announce/2010/Jun/msg00003.html
+- http://support.apple.com/kb/HT4225
+- http://www.securityfocus.com/bid/41016
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/59634
+- http://lists.apple.com/archives/security-announce/2010/Jun/msg00003.html
 
 ---
 
-#### 942. CVE-2006-0391
+#### 983. CVE-2010-1756
 
-**严重程度 / Severity**: N/A | CVSS: 1.7
+**严重程度 / Severity**: N/A | CVSS: 5.8
 
 **漏洞描述 / Description**:
-Directory traversal vulnerability in the BOM framework in Mac OS X 10.x before 10.3.9 and 10.4 before 10.4.5 allows user-assisted attackers to overwrite or create arbitrary files via an archive that is handled by BOMArchiveHelper.
+The Settings application in Apple iOS before 4 on the iPhone and iPod touch does not properly report the wireless network that is in use, which might make it easier for remote attackers to trick users into communicating over an unintended network.
 
 **参考链接 / References**:
-- http://docs.info.apple.com/article.html?artnum=303382
-- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
-- http://secunia.com/advisories/19064
-- http://www.idefense.com/intelligence/vulnerabilities/display.php?id=399
-- http://www.osvdb.org/23641
+- http://lists.apple.com/archives/security-announce/2010/Jun/msg00003.html
+- http://support.apple.com/kb/HT4225
+- http://www.securityfocus.com/bid/41016
+- http://lists.apple.com/archives/security-announce/2010/Jun/msg00003.html
+- http://support.apple.com/kb/HT4225
 
 ---
 
-#### 943. CVE-2006-0387
+#### 984. CVE-2010-1757
 
 **严重程度 / Severity**: N/A | CVSS: 6.4
 
 **漏洞描述 / Description**:
-Stack-based buffer overflow in Safari in Mac OS X 10.4.5 and earlier, and 10.3.9 and earlier, allows remote attackers to execute arbitrary code via unspecified vectors involving a web page with crafted JavaScript, a different vulnerability than CVE-2005-4504.
+WebKit in Apple iOS before 4 on the iPhone and iPod touch does not enforce the expected boundary restrictions on content display by an IFRAME element, which allows remote attackers to spoof the user interface via a crafted HTML document.
 
 **参考链接 / References**:
-- http://docs.info.apple.com/article.html?artnum=303382
-- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
-- http://secunia.com/advisories/19064
-- http://securitytracker.com/id?1015713
-- http://www.kb.cert.org/vuls/id/176732
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00003.html
+- http://lists.apple.com/archives/security-announce/2010/Jun/msg00003.html
+- http://lists.opensuse.org/opensuse-security-announce/2011-01/msg00006.html
+- http://secunia.com/advisories/42314
+- http://secunia.com/advisories/43068
 
 ---
 
-#### 944. CVE-2006-1166
+#### 985. CVE-2010-1775
 
-**严重程度 / Severity**: N/A | CVSS: 3.7
+**严重程度 / Severity**: N/A | CVSS: 1.9
 
 **漏洞描述 / Description**:
-Monotone 0.25 and earlier, when a user creates a file in a directory called "mt", and when checking out that file on a case-insensitive file system such as Windows or Mac OS X, places the file into the "MT" bookkeeping directory, which could allow context-dependent attackers to execute arbitrary Lua programs as the user running monotone.
+Race condition in Passcode Lock in Apple iOS before 4 on the iPhone and iPod touch allows physically proximate attackers to bypass intended passcode requirements, and pair a locked device with a computer and access arbitrary data, via vectors involving the initial boot.
 
 **参考链接 / References**:
-- http://lists.gnu.org/archive/html/monotone-devel/2006-03/msg00062.html
-- http://secunia.com/advisories/19260
-- http://www.securityfocus.com/bid/17139
-- http://www.vupen.com/english/advisories/2006/0990
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/25294
+- http://lists.apple.com/archives/security-announce/2010/Jun/msg00003.html
+- http://support.apple.com/kb/HT4225
+- http://www.securityfocus.com/bid/41016
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/59637
+- http://lists.apple.com/archives/security-announce/2010/Jun/msg00003.html
 
 ---
 
-#### 945. CVE-2006-1220
+#### 986. CVE-2010-1574
 
-**严重程度 / Severity**: N/A | CVSS: 4.6
+**严重程度 / Severity**: N/A | CVSS: 10.0
 
 **漏洞描述 / Description**:
-Integer overflow in the mach_msg_send function in the kernel for Mac OS X might allow local users to execute arbitrary code via unknown attack vectors related to a large message header size, which leads to a heap-based buffer overflow.
+IOS 12.2(52)SE and 12.2(52)SE1 on Cisco Industrial Ethernet (IE) 3000 series switches has (1) a community name of public for RO access and (2) a community name of private for RW access, which makes it easier for remote attackers to modify the configuration or obtain potentially sensitive information via SNMP requests, aka Bug ID CSCtf25589.
 
 **参考链接 / References**:
-- http://www.felinemenace.org/~nemo/
-- http://www.osvdb.org/28453
-- http://www.securityfocus.com/bid/17056
-- http://www.felinemenace.org/~nemo/
-- http://www.osvdb.org/28453
+- http://osvdb.org/66120
+- http://secunia.com/advisories/40407
+- http://securitytracker.com/id?1024173
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b3891f.shtml
+- http://www.kb.cert.org/vuls/id/732671
 
 ---
 
-#### 946. CVE-2006-0401
-
-**严重程度 / Severity**: N/A | CVSS: 4.6
-
-**漏洞描述 / Description**:
-Unspecified vulnerability in Mac OS X before 10.4.6, when running on an Intel-based computer, allows attackers with physical access to bypass the firmware password and log on in Single User Mode via unspecified vectors.
-
-**参考链接 / References**:
-- http://docs.info.apple.com/article.html?artnum=303567
-- http://secunia.com/advisories/19462
-- http://securitytracker.com/id?1015859
-- http://www.osvdb.org/24399
-- http://www.securityfocus.com/bid/17364
-
----
-
-#### 947. CVE-2006-1981
+#### 987. CVE-2010-2913
 
 **严重程度 / Severity**: N/A | CVSS: 2.1
 
 **漏洞描述 / Description**:
-Unspecified vulnerability in Java InputMethods on Mac OS X 10.4.5 may cause InputMethods to send input events for secure fields to the wrong text field, which might reveal the password to others who can view the screen.
+The Citibank Citi Mobile app before 2.0.3 for iOS stores account data in a file, which allows local users to obtain sensitive information via vectors involving (1) the mobile device or (2) a synchronized computer.
 
 **参考链接 / References**:
-- http://docs.info.apple.com/article.html?artnum=303658
-- http://www.vupen.com/english/advisories/2006/1398
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/26167
-- http://docs.info.apple.com/article.html?artnum=303658
-- http://www.vupen.com/english/advisories/2006/1398
+- http://itunes.apple.com/us/app/citi-mobile-sm/id301724680
+- http://news.cnet.com/8301-27080_3-20011664-245.html
+- http://securitytracker.com/id?1024249
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/60855
+- http://itunes.apple.com/us/app/citi-mobile-sm/id301724680
 
 ---
 
-#### 948. CVE-2006-1982
+#### 988. CVE-2010-2973
 
-**严重程度 / Severity**: N/A | CVSS: 7.5
+**严重程度 / Severity**: N/A | CVSS: 6.9
 
 **漏洞描述 / Description**:
-Heap-based buffer overflow in the LZWDecodeVector function in Mac OS X before 10.4.6, as used in applications that use ImageIO or AppKit, allows remote attackers to execute arbitrary code via crafted TIFF images.
+Integer overflow in IOSurface in Apple iOS before 4.0.2 on the iPhone and iPod touch, and before 3.2.2 on the iPad, allows local users to gain privileges via vectors involving IOSurface properties, as demonstrated by JailbreakMe.
 
 **参考链接 / References**:
-- http://docs.info.apple.com/article.html?artnum=303411
-- http://lists.apple.com/archives/security-announce/2006/May/msg00003.html
-- http://secunia.com/advisories/19686
-- http://secunia.com/advisories/20077
-- http://www.osvdb.org/31837
+- http://lists.apple.com/archives/security-announce/2010//Aug/msg00000.html
+- http://lists.apple.com/archives/security-announce/2010//Aug/msg00001.html
+- http://osvdb.org/66827
+- http://secunia.com/advisories/40807
+- http://support.apple.com/kb/HT4291
 
 ---
 
-#### 949. CVE-2006-1983
+#### 989. CVE-2010-1797
 
-**严重程度 / Severity**: N/A | CVSS: 6.4
+**严重程度 / Severity**: N/A | CVSS: 9.3
 
 **漏洞描述 / Description**:
-Multiple heap-based buffer overflows in Mac OS X 10.4.6 and earlier allow remote attackers to cause a denial of service and possibly execute arbitrary code via the (1) PredictorVSetField function for TIFF or (2) CFAllocatorAllocate function for GIF, as used in applications that use ImageIO or AppKit.  NOTE: the BMP vector has been re-assigned to CVE-2006-2238 because it affects a separate product family.
+Multiple stack-based buffer overflows in the cff_decoder_parse_charstrings function in the CFF Type2 CharStrings interpreter in cff/cffgload.c in FreeType before 2.4.2, as used in Apple iOS before 4.0.2 on the iPhone and iPod touch and before 3.2.2 on the iPad, allow remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via crafted CFF opcodes in embedded fonts in a PDF document, as demonstrated by JailbreakMe. NOTE: some of these details are obtained from third party information.
 
 **参考链接 / References**:
-- http://lists.apple.com/archives/security-announce/2006/May/msg00003.html
-- http://secunia.com/advisories/19686
-- http://secunia.com/advisories/20077
-- http://securitytracker.com/id?1016067
-- http://www.osvdb.org/24821
+- http://freetype.sourceforge.net/index2.html#release-freetype-2.4.2
+- http://git.savannah.gnu.org/cgit/freetype/freetype2.git/commit/?id=018f5c27813dd7eef4648fe254632ecea0c85a50
+- http://git.savannah.gnu.org/cgit/freetype/freetype2.git/commit/?id=11d65e8a1f1f14e56148fd991965424d9bd1cdbc
+- http://lists.apple.com/archives/security-announce/2010//Aug/msg00000.html
+- http://lists.apple.com/archives/security-announce/2010//Aug/msg00001.html
 
 ---
 
-#### 950. CVE-2006-1984
+#### 990. CVE-2010-2827
 
-**严重程度 / Severity**: N/A | CVSS: 5.0
+**严重程度 / Severity**: N/A | CVSS: 7.8
 
 **漏洞描述 / Description**:
-Unspecified vulnerability in the _cg_TIFFSetField function in Mac OS X 10.4.6 and earlier, as used in applications that use ImageIO or AppKit, allows remote attackers to cause a denial of service (application crash) via a crafted TIFF image that triggers a null dereference.
+Cisco IOS 15.1(2)T allows remote attackers to cause a denial of service (resource consumption and TCP outage) via spoofed TCP packets, related to embryonic TCP connections that remain in the SYN_RCVD or SYN_SENT state, aka Bug ID CSCti18193.
 
 **参考链接 / References**:
-- http://lists.apple.com/archives/security-announce/2006/May/msg00003.html
-- http://secunia.com/advisories/19686
-- http://secunia.com/advisories/20077
-- http://www.security-protocols.com/modules.php?name=News&file=article&sid=3233
-- http://www.security-protocols.com/sp-x29-advisory.php
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4095e.shtml
+- http://www.securityfocus.com/bid/42426
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4095e.shtml
+- http://www.securityfocus.com/bid/42426
 
 ---
 
-#### 951. CVE-2006-1985
+#### 991. CVE-2010-3035
 
-**严重程度 / Severity**: N/A | CVSS: 5.1
+**严重程度 / Severity**: HIGH | CVSS: 7.5
 
 **漏洞描述 / Description**:
-Heap-based buffer overflow in BOM BOMArchiveHelper 10.4 (6.3) Build 312, as used in Mac OS X 10.4.6 and earlier, allows user-assisted attackers to execute arbitrary code via a crafted archive (such as ZIP) that contains long path names, which triggers an error in the BOMStackPop function.
+Cisco IOS XR 3.4.0 through 3.9.1, when BGP is enabled, does not properly handle unrecognized transitive attributes, which allows remote attackers to cause a denial of service (peering reset) via a crafted prefix announcement, as demonstrated in the wild in August 2010 with attribute type code 99, aka Bug ID CSCti62211.
 
 **参考链接 / References**:
-- http://lists.apple.com/archives/security-announce/2006/May/msg00003.html
-- http://secunia.com/advisories/19686
-- http://secunia.com/advisories/20077
-- http://securitytracker.com/id?1016082
-- http://www.osvdb.org/24819
+- http://mailman.nanog.org/pipermail/nanog/2010-August/024837.html
+- http://osvdb.org/67696
+- http://secunia.com/advisories/41190
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4411f.shtml
+- http://www.securitytracker.com/id?1024371
 
 ---
 
-#### 952. CVE-2006-1466
+#### 992. CVE-2010-1781
 
-**严重程度 / Severity**: N/A | CVSS: 4.0
+**严重程度 / Severity**: N/A | CVSS: 6.8
 
 **漏洞描述 / Description**:
-Xcode Tools before 2.3 for Mac OS X 10.4, when running the WebObjects plugin, allows remote attackers to access or modify WebObjects projects through a network service.
+Double free vulnerability in WebKit in Apple iOS before 4.1 on the iPhone and iPod touch allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via vectors related to the rendering of an inline element.
 
 **参考链接 / References**:
-- http://lists.apple.com/archives/security-announce/2006/May/msg00004.html
-- http://secunia.com/advisories/20267
-- http://securitytracker.com/id?1016143
-- http://www.osvdb.org/25889
-- http://www.securityfocus.com/bid/18091
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00003.html
+- http://lists.apple.com/archives/security-announce/2010//Sep/msg00002.html
+- http://lists.opensuse.org/opensuse-security-announce/2010-10/msg00000.html
+- http://lists.opensuse.org/opensuse-security-announce/2011-01/msg00006.html
+- http://secunia.com/advisories/41856
 
 ---
 
-#### 953. CVE-2006-2702
+#### 993. CVE-2010-1809
 
-**严重程度 / Severity**: N/A | CVSS: 5.0
+**严重程度 / Severity**: N/A | CVSS: 10.0
 
 **漏洞描述 / Description**:
-vars.php in WordPress 2.0.2, possibly when running on Mac OS X, allows remote attackers to spoof their IP address via a PC_REMOTE_ADDR HTTP header, which vars.php uses to redefine $_SERVER['REMOTE_ADDR'].
+The Accessibility component in Apple iOS before 4.1 on the iPhone and iPod touch does not perform the expected VoiceOver announcement associated with the location services icon, which has unspecified impact and attack vectors.
 
 **参考链接 / References**:
-- http://retrogod.altervista.org/wordpress_202_xpl.html
-- http://secunia.com/advisories/20271
-- http://secunia.com/advisories/20608
-- http://www.gentoo.org/security/en/glsa/glsa-200606-08.xml
-- http://www.osvdb.org/25935
+- http://lists.apple.com/archives/security-announce/2010//Sep/msg00002.html
+- http://support.apple.com/kb/HT4334
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/61694
+- http://lists.apple.com/archives/security-announce/2010//Sep/msg00002.html
+- http://support.apple.com/kb/HT4334
 
 ---
 
-#### 954. CVE-2006-3669
+#### 994. CVE-2010-1810
 
-**严重程度 / Severity**: N/A | CVSS: 2.1
+**严重程度 / Severity**: N/A | CVSS: 3.5
 
 **漏洞描述 / Description**:
-Mercury Messenger, possibly 1.7.1.1 and other versions, when running on a multi-user Mac OS X platform, stores chat logs with world-readable permissions within the /Users directory, which allows local users to read the chat logs from other users.
+FaceTime in Apple iOS before 4.1 on the iPhone and iPod touch does not properly handle invalid X.509 certificates, which allows man-in-the-middle attackers to redirect calls via a crafted certificate.
 
 **参考链接 / References**:
-- http://www.securityfocus.com/archive/1/440243/100/0/threaded
-- http://www.securityfocus.com/bid/19005
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/27767
-- http://www.securityfocus.com/archive/1/440243/100/0/threaded
-- http://www.securityfocus.com/bid/19005
+- http://lists.apple.com/archives/security-announce/2010//Sep/msg00002.html
+- http://support.apple.com/kb/HT4334
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/61695
+- http://lists.apple.com/archives/security-announce/2010//Sep/msg00002.html
+- http://support.apple.com/kb/HT4334
 
 ---
 
-#### 955. CVE-2006-0395
+#### 995. CVE-2010-1811
 
-**严重程度 / Severity**: N/A | CVSS: 5.1
+**严重程度 / Severity**: N/A | CVSS: 6.8
 
 **漏洞描述 / Description**:
-The Download Validation in Mail in Mac OS X 10.4 does not properly recognize attachment file types to warn a user of an unsafe type, which allows user-assisted remote attackers to execute arbitrary code via crafted file types.
+ImageIO in Apple iOS before 4.1 on the iPhone and iPod touch allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted TIFF file.
 
 **参考链接 / References**:
-- http://docs.info.apple.com/article.html?artnum=303382
-- http://lists.apple.com/archives/client-management/2006/Mar/msg00030.html
-- http://secunia.com/advisories/19064
-- http://www.osvdb.org/23645
-- http://www.securityfocus.com/bid/16907
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00000.html
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00003.html
+- http://lists.apple.com/archives/security-announce/2010//Sep/msg00002.html
+- http://secunia.com/advisories/42314
+- http://support.apple.com/kb/HT4334
 
 ---
 
-#### 956. CVE-2006-3506
+#### 996. CVE-2010-1812
 
-**严重程度 / Severity**: N/A | CVSS: 4.6
+**严重程度 / Severity**: N/A | CVSS: 6.8
 
 **漏洞描述 / Description**:
-Buffer overflow in the Xsan Filesystem driver on Mac OS X 10.4.7 and OS X Server 10.4.7 allows local users with Xsan write access, to execute arbitrary code via unspecified vectors related to "processing a path name."
+Use-after-free vulnerability in WebKit in Apple iOS before 4.1 on the iPhone and iPod touch, and webkitgtk before 1.2.6, allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via vectors involving selections.
 
 **参考链接 / References**:
-- http://docs.info.apple.com/article.html?artnum=304188
-- http://secunia.com/advisories/21551
-- http://securitytracker.com/id?1016711
-- http://www.kb.cert.org/vuls/id/737204
-- http://www.osvdb.org/27994
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00002.html
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00003.html
+- http://lists.apple.com/archives/security-announce/2010//Sep/msg00002.html
+- http://lists.opensuse.org/opensuse-security-announce/2011-01/msg00006.html
+- http://secunia.com/advisories/41856
 
 ---
 
-#### 957. CVE-2006-4392
+#### 997. CVE-2010-1813
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+WebKit in Apple iOS before 4.1 on the iPhone and iPod touch allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors involving HTML object outlines.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00002.html
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00003.html
+- http://lists.apple.com/archives/security-announce/2010//Sep/msg00002.html
+- http://lists.opensuse.org/opensuse-security-announce/2011-01/msg00006.html
+- http://secunia.com/advisories/42314
+
+---
+
+#### 998. CVE-2010-1814
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+WebKit in Apple iOS before 4.1 on the iPhone and iPod touch, and webkitgtk before 1.2.6, allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors involving form menus.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00002.html
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00003.html
+- http://lists.apple.com/archives/security-announce/2010//Sep/msg00002.html
+- http://lists.opensuse.org/opensuse-security-announce/2011-01/msg00006.html
+- http://secunia.com/advisories/41856
+
+---
+
+#### 999. CVE-2010-1815
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+Use-after-free vulnerability in WebKit in Apple iOS before 4.1 on the iPhone and iPod touch, and webkitgtk before 1.2.6, allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via vectors involving scrollbars.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00002.html
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00003.html
+- http://lists.apple.com/archives/security-announce/2010//Sep/msg00002.html
+- http://lists.opensuse.org/opensuse-security-announce/2011-01/msg00006.html
+- http://secunia.com/advisories/41856
+
+---
+
+#### 1000. CVE-2010-1817
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+Buffer overflow in ImageIO in Apple iOS before 4.1 on the iPhone and iPod touch allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a crafted GIF file.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2010//Sep/msg00002.html
+- http://support.apple.com/kb/HT4334
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/61697
+- http://lists.apple.com/archives/security-announce/2010//Sep/msg00002.html
+- http://support.apple.com/kb/HT4334
+
+---
+
+#### 1001. CVE-2010-2828
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in the H.323 implementation in Cisco IOS 12.1 through 12.4 and 15.0 through 15.1, and IOS XE 2.5.x before 2.5.2 and 2.6.x before 2.6.1, allows remote attackers to cause a denial of service (device reload) via crafted H.323 packets, aka Bug ID CSCtc73759.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a300.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a300.shtml
+
+---
+
+#### 1002. CVE-2010-2829
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in the H.323 implementation in Cisco IOS 12.1 through 12.4 and 15.0 through 15.1, and IOS XE 2.5.x before 2.5.2 and 2.6.x before 2.6.1, allows remote attackers to cause a denial of service (traceback and device reload) via crafted H.323 packets, aka Bug ID CSCtd33567.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a300.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a300.shtml
+
+---
+
+#### 1003. CVE-2010-2830
+
+**严重程度 / Severity**: N/A | CVSS: 7.1
+
+**漏洞描述 / Description**:
+The IGMPv3 implementation in Cisco IOS 12.2, 12.3, 12.4, and 15.0 and IOS XE 2.5.x before 2.5.2, when PIM is enabled, allows remote attackers to cause a denial of service (device reload) via a malformed IGMP packet, aka Bug ID CSCte14603.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a310.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a310.shtml
+
+---
+
+#### 1004. CVE-2010-2831
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in the NAT for SIP implementation in Cisco IOS 12.1 through 12.4 and 15.0 through 15.1 allows remote attackers to cause a denial of service (device reload) via transit traffic on UDP port 5060, aka Bug ID CSCtf17624.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a311.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a311.shtml
+
+---
+
+#### 1005. CVE-2010-2832
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in the NAT for H.323 implementation in Cisco IOS 12.1 through 12.4 and 15.0 through 15.1 allows remote attackers to cause a denial of service (device reload) via transit traffic, aka Bug ID CSCtf91428.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a311.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a311.shtml
+
+---
+
+#### 1006. CVE-2010-2833
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in the NAT for H.225.0 implementation in Cisco IOS 12.1 through 12.4 and 15.0 through 15.1 allows remote attackers to cause a denial of service (device reload) via transit traffic, aka Bug ID CSCtd86472.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a311.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a311.shtml
+
+---
+
+#### 1007. CVE-2010-2834
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Cisco IOS 12.2 through 12.4 and 15.0 through 15.1, Cisco IOS XE 2.5.x and 2.6.x before 2.6.1, and Cisco Unified Communications Manager (aka CUCM, formerly CallManager) 6.x before 6.1(5)SU1, 7.x before 7.1(5), and 8.0 before 8.0(2) allow remote attackers to cause a denial of service (device reload or voice-services outage) via crafted SIP registration traffic over UDP, aka Bug IDs CSCtf72678 and CSCtf14987.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a30f.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a313.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a30f.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a313.shtml
+
+---
+
+#### 1008. CVE-2010-2835
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Cisco IOS 12.2 through 12.4 and 15.0 through 15.1, Cisco IOS XE 2.5.x and 2.6.x before 2.6.1, and Cisco Unified Communications Manager (aka CUCM, formerly CallManager) 6.x before 6.1(5), 7.0 before 7.0(2a)su3, 7.1su before 7.1(3b)su2, 7.1 before 7.1(5), and 8.0 before 8.0(1) allow remote attackers to cause a denial of service (device reload or voice-services outage) via a SIP REFER request with an invalid Refer-To header, aka Bug IDs CSCta20040 and CSCta31358.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a30f.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a313.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a30f.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a313.shtml
+
+---
+
+#### 1009. CVE-2010-2836
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Memory leak in the SSL VPN feature in Cisco IOS 12.4, 15.0, and 15.1, when HTTP port redirection is enabled, allows remote attackers to cause a denial of service (memory consumption) by improperly disconnecting SSL sessions, leading to connections that remain in the CLOSE-WAIT state, aka Bug ID CSCtg21685.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a312.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b4a312.shtml
+
+---
+
+#### 1010. CVE-2010-4211
+
+**严重程度 / Severity**: N/A | CVSS: 2.9
+
+**漏洞描述 / Description**:
+The PayPal app before 3.0.1 for iOS does not verify that the server hostname matches the domain name of the subject of an X.509 certificate, which allows man-in-the-middle attackers to spoof a PayPal web server via an arbitrary certificate.
+
+**参考链接 / References**:
+- http://itunes.apple.com/us/app/paypal/id283646709
+- http://news.cnet.com/8301-27080_3-20021730-245.html
+- http://online.wsj.com/article/SB10001424052748703506904575592782874885808.html
+- http://viaforensics.com/press-releases/viaforensics-uncovers-paypal-application-vulnerability.html
+- http://viaforensics.com/security/viaforensics-uncovers-significant-vulnerability-paypal-iphone.html
+
+---
+
+#### 1011. CVE-2010-3827
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Apple iOS before 4.2 does not properly validate signatures before displaying a configuration profile in the configuration installation utility, which allows remote attackers to spoof profiles via unspecified vectors.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00003.html
+- http://secunia.com/advisories/42314
+- http://support.apple.com/kb/HT4456
+- http://www.securitytracker.com/id?1024768
+- http://www.vupen.com/english/advisories/2010/3046
+
+---
+
+#### 1012. CVE-2010-3828
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+iAd Content Display in Apple iOS before 4.2 allows man-in-the-middle attackers to make calls via a crafted URL in an ad.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00003.html
+- http://secunia.com/advisories/42314
+- http://support.apple.com/kb/HT4456
+- http://www.securitytracker.com/id?1024768
+- http://www.vupen.com/english/advisories/2010/3046
+
+---
+
+#### 1013. CVE-2010-3829
+
+**严重程度 / Severity**: N/A | CVSS: 5.8
+
+**漏洞描述 / Description**:
+WebKit in Apple iOS before 4.2 allows remote attackers to bypass the remote image loading setting in Mail via an HTML LINK element with a DNS prefetching property, as demonstrated by an HTML e-mail message that uses a LINK element for X-Confirm-Reading-To functionality, a related issue to CVE-2010-3813.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00003.html
+- http://lists.apple.com/archives/security-announce/2011//Jul/msg00002.html
+- http://lists.opensuse.org/opensuse-security-announce/2011-01/msg00006.html
+- http://secunia.com/advisories/42314
+- http://secunia.com/advisories/43068
+
+---
+
+#### 1014. CVE-2010-3830
 
 **严重程度 / Severity**: N/A | CVSS: 7.2
 
 **漏洞描述 / Description**:
-The Mach kernel, as used in operating systems including (1) Mac OS X 10.4 through 10.4.7 and (2) OpenStep before 4.2, allows local users to gain privileges via a parent process that forces an exception in a setuid child and uses Mach exception ports to modify the child's thread context and task address space in a way that causes the child to call a parent-controlled function.
+Networking in Apple iOS before 4.2 accesses an invalid pointer during the processing of packet filter rules, which allows local users to gain privileges via unspecified vectors.
 
 **参考链接 / References**:
-- http://lists.apple.com/archives/security-announce/2006/Sep/msg00002.html
-- http://secunia.com/advisories/22187
-- http://securityreason.com/securityalert/1663
-- http://securitytracker.com/id?1016954
-- http://www.kb.cert.org/vuls/id/838404
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00003.html
+- http://secunia.com/advisories/42314
+- http://support.apple.com/kb/HT4456
+- http://www.securitytracker.com/id?1024772
+- http://www.vupen.com/english/advisories/2010/3046
 
 ---
 
-#### 958. CVE-2006-5330
+#### 1015. CVE-2010-3831
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Photos in Apple iOS before 4.2 enables support for HTTP Basic Authentication over an unencrypted connection, which allows man-in-the-middle attackers to read MobileMe account passwords by spoofing a MobileMe Gallery server during a "Send to MobileMe" action.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00003.html
+- http://secunia.com/advisories/42314
+- http://support.apple.com/kb/HT4456
+- http://www.securitytracker.com/id?1024771
+- http://www.vupen.com/english/advisories/2010/3046
+
+---
+
+#### 1016. CVE-2010-3832
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+Heap-based buffer overflow in the GSM mobility management implementation in Telephony in Apple iOS before 4.2 on the iPhone and iPad allows remote attackers to execute arbitrary code on the baseband processor via a crafted Temporary Mobile Subscriber Identity (TMSI) field.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00003.html
+- http://secunia.com/advisories/42314
+- http://support.apple.com/kb/HT4456
+- http://www.securitytracker.com/id?1024770
+- http://www.vupen.com/english/advisories/2010/3046
+
+---
+
+#### 1017. CVE-2010-4012
+
+**严重程度 / Severity**: N/A | CVSS: 6.2
+
+**漏洞描述 / Description**:
+Race condition in Apple iOS 4.0 through 4.1 for iPhone 3G and later allows physically proximate attackers to bypass the passcode lock by making a call from the Emergency Call screen, then quickly pressing the Sleep/Wake button.
+
+**参考链接 / References**:
+- http://support.apple.com/kb/HT4456
+- http://support.apple.com/kb/HT4456
+
+---
+
+#### 1018. CVE-2010-4671
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+The Neighbor Discovery (ND) protocol implementation in the IPv6 stack in Cisco IOS before 15.0(1)XA5 allows remote attackers to cause a denial of service (CPU consumption and device hang) by sending many Router Advertisement (RA) messages with different source addresses, as demonstrated by the flood_router6 program in the thc-ipv6 package, aka Bug ID CSCti33534.
+
+**参考链接 / References**:
+- http://events.ccc.de/congress/2010/Fahrplan/events/3957.en.html
+- http://mirror.fem-net.de/CCC/27C3/mp3-audio-only/27c3-3957-en-ipv6_insecurities.mp3
+- http://mirror.fem-net.de/CCC/27C3/mp4-h264-HQ/27c3-3957-en-ipv6_insecurities.mp4
+- http://www.ciscosystems.com/en/US/docs/ios/15_0/15_0x/15_01_XA/rn800xa.pdf
+- http://www.securityfocus.com/bid/45760
+
+---
+
+#### 1019. CVE-2009-5038
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Cisco IOS before 15.0(1)XA does not properly handle IRC traffic during a specific time period after an initial reload, which allows remote attackers to cause a denial of service (device reload) via an attempted connection to a certain IRC server, related to a "corrupted magic value," aka Bug ID CSCso05336.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/docs/ios/15_0/15_0x/15_01_XA/rn800xa.pdf
+- http://www.securityfocus.com/bid/45764
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/64682
+- http://www.cisco.com/en/US/docs/ios/15_0/15_0x/15_01_XA/rn800xa.pdf
+- http://www.securityfocus.com/bid/45764
+
+---
+
+#### 1020. CVE-2009-5039
 
 **严重程度 / Severity**: N/A | CVSS: 5.0
 
 **漏洞描述 / Description**:
-CRLF injection vulnerability in Adobe Flash Player plugin 9.0.16 and earlier for Windows, 7.0.63 and earlier for Linux, 7.x before 7.0 r67 for Solaris, and before 9.0.28.0 for Mac OS X, allows remote attackers to modify HTTP headers of client requests and conduct HTTP Request Splitting attacks via CRLF sequences in arguments to the ActionScript functions (1) XML.addRequestHeader and (2) XML.contentType.  NOTE: the flexibility of the attack varies depending on the type of web browser being used.
+Memory leak in the gk_circuit_info_do_in_acf function in the H.323 implementation in Cisco IOS before 15.0(1)XA allows remote attackers to cause a denial of service (memory consumption) via a large number of calls over a long duration, as demonstrated by InterZone Clear Token (IZCT) test traffic, aka Bug ID CSCsz72535.
 
 **参考链接 / References**:
-- http://docs.info.apple.com/article.html?artnum=305214
-- http://lists.apple.com/archives/security-announce/2007/Mar/msg00002.html
-- http://lists.suse.com/archive/suse-security-announce/2006-Dec/0006.html
-- http://secunia.com/advisories/22467
-- http://secunia.com/advisories/23324
+- http://www.cisco.com/en/US/docs/ios/15_0/15_0x/15_01_XA/rn800xa.pdf
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/64731
+- http://www.cisco.com/en/US/docs/ios/15_0/15_0x/15_01_XA/rn800xa.pdf
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/64731
+
+---
+
+#### 1021. CVE-2009-5040
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+CallManager Express (CME) on Cisco IOS before 15.0(1)XA allows remote authenticated users to cause a denial of service (device crash) by using an extension mobility (EM) phone to interact with the menu for SNR number changes, aka Bug ID CSCta63555.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/docs/ios/15_0/15_0x/15_01_XA/rn800xa.pdf
+- http://www.securityfocus.com/bid/45765
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/64681
+- http://www.cisco.com/en/US/docs/ios/15_0/15_0x/15_01_XA/rn800xa.pdf
+- http://www.securityfocus.com/bid/45765
+
+---
+
+#### 1022. CVE-2010-4683
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Memory leak in Cisco IOS before 15.0(1)XA5 might allow remote attackers to cause a denial of service (memory consumption) by sending a crafted SIP REGISTER message over UDP, aka Bug ID CSCtg41733.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/docs/ios/15_0/15_0x/15_01_XA/rn800xa.pdf
+- http://www.securityfocus.com/bid/45786
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/64588
+- http://www.cisco.com/en/US/docs/ios/15_0/15_0x/15_01_XA/rn800xa.pdf
+- http://www.securityfocus.com/bid/45786
+
+---
+
+#### 1023. CVE-2010-4684
+
+**严重程度 / Severity**: N/A | CVSS: 7.1
+
+**漏洞描述 / Description**:
+Cisco IOS before 15.0(1)XA1, when certain TFTP debugging is enabled, allows remote attackers to cause a denial of service (device crash) via a TFTP copy over IPv6, aka Bug ID CSCtb28877.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/docs/ios/15_0/15_0x/15_01_XA/rn800xa.pdf
+- http://www.securityfocus.com/bid/45769
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/64587
+- http://www.cisco.com/en/US/docs/ios/15_0/15_0x/15_01_XA/rn800xa.pdf
+- http://www.securityfocus.com/bid/45769
+
+---
+
+#### 1024. CVE-2010-4685
+
+**严重程度 / Severity**: N/A | CVSS: 4.0
+
+**漏洞描述 / Description**:
+Cisco IOS before 15.0(1)XA1 does not clear the public key cache upon a change to a certificate map, which allows remote authenticated users to bypass a certificate ban by connecting with a banned certificate that had previously been valid, aka Bug ID CSCta79031.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/docs/ios/15_0/15_0x/15_01_XA/rn800xa.pdf
+- http://www.securityfocus.com/bid/45769
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/64586
+- http://www.cisco.com/en/US/docs/ios/15_0/15_0x/15_01_XA/rn800xa.pdf
+- http://www.securityfocus.com/bid/45769
+
+---
+
+#### 1025. CVE-2010-4686
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+CallManager Express (CME) on Cisco IOS before 15.0(1)XA1 does not properly handle SIP TRUNK traffic that contains rate bursts and a "peculiar" request size, which allows remote attackers to cause a denial of service (memory consumption) by sending this traffic over a long duration, aka Bug ID CSCtb47950.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/docs/ios/15_0/15_0x/15_01_XA/rn800xa.pdf
+- http://www.securityfocus.com/bid/45769
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/64585
+- http://www.cisco.com/en/US/docs/ios/15_0/15_0x/15_01_XA/rn800xa.pdf
+- http://www.securityfocus.com/bid/45769
+
+---
+
+#### 1026. CVE-2010-4687
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+STCAPP (aka the SCCP telephony control application) on Cisco IOS before 15.0(1)XA1 does not properly handle multiple calls to a shared line, which allows remote attackers to cause a denial of service (port hang) by simultaneously ending two calls that were controlled by CallManager Express (CME), aka Bug ID CSCtd42552.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/docs/ios/15_0/15_0x/15_01_XA/rn800xa.pdf
+- http://www.securityfocus.com/bid/45769
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/64584
+- http://www.cisco.com/en/US/docs/ios/15_0/15_0x/15_01_XA/rn800xa.pdf
+- http://www.securityfocus.com/bid/45769
+
+---
+
+#### 1027. CVE-2011-0348
+
+**严重程度 / Severity**: N/A | CVSS: 6.4
+
+**漏洞描述 / Description**:
+Cisco IOS 12.4(11)MD, 12.4(15)MD, 12.4(22)MD, 12.4(24)MD before 12.4(24)MD3, 12.4(22)MDA before 12.4(22)MDA5, and 12.4(24)MDA before 12.4(24)MDA3 on the Cisco Content Services Gateway Second Generation (aka CSG2) allows remote attackers to bypass intended access restrictions and intended billing restrictions by sending HTTP traffic to a restricted destination after sending HTTP traffic to an unrestricted destination, aka Bug ID CSCtk35917.
+
+**参考链接 / References**:
+- http://osvdb.org/70720
+- http://secunia.com/advisories/43052
+- http://securitytracker.com/id?1024992
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b6791d.shtml
+- http://www.securityfocus.com/bid/46022
+
+---
+
+#### 1028. CVE-2011-0349
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Cisco IOS 12.4(24)MD before 12.4(24)MD2 on the Cisco Content Services Gateway Second Generation (aka CSG2) allows remote attackers to cause a denial of service (device hang or reload) via crafted TCP packets, aka Bug ID CSCth17178, a different vulnerability than CVE-2011-0350.
+
+**参考链接 / References**:
+- http://osvdb.org/70721
+- http://secunia.com/advisories/43052
+- http://securitytracker.com/id?1024992
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b6791d.shtml
+- http://www.securityfocus.com/bid/46026
+
+---
+
+#### 1029. CVE-2011-0350
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Cisco IOS 12.4(24)MD before 12.4(24)MD2 on the Cisco Content Services Gateway Second Generation (aka CSG2) allows remote attackers to cause a denial of service (device hang or reload) via crafted TCP packets, aka Bug ID CSCth41891, a different vulnerability than CVE-2011-0349.
+
+**参考链接 / References**:
+- http://osvdb.org/70722
+- http://secunia.com/advisories/43052
+- http://securitytracker.com/id?1024992
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b6791d.shtml
+- http://www.securityfocus.com/bid/46028
+
+---
+
+#### 1030. CVE-2011-0154
+
+**严重程度 / Severity**: N/A | CVSS: 5.1
+
+**漏洞描述 / Description**:
+WebKit, as used in Apple iTunes before 10.2 on Windows and Apple iOS, does not properly implement the .sort function for JavaScript arrays, which allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2011//Mar/msg00003.html
+- http://lists.apple.com/archives/security-announce/2011//Mar/msg00004.html
+- http://lists.apple.com/archives/security-announce/2011/Mar/msg00000.html
+- http://support.apple.com/kb/HT4554
+- http://support.apple.com/kb/HT4564
+
+---
+
+#### 1031. CVE-2011-1344
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+Use-after-free vulnerability in WebKit, as used in Apple Safari before 5.0.5; iOS before 4.3.2 for iPhone, iPod, and iPad; iOS before 4.2.7 for iPhone 4 (CDMA); and possibly other products allows remote attackers to execute arbitrary code by adding children to a WBR tag and then removing the tag, related to text nodes, as demonstrated by Chaouki Bekrar during a Pwn2Own competition at CanSecWest 2011.
+
+**参考链接 / References**:
+- http://dvlabs.tippingpoint.com/blog/2011/02/02/pwn2own-2011
+- http://lists.apple.com/archives/security-announce/2011//Apr/msg00000.html
+- http://lists.apple.com/archives/security-announce/2011//Apr/msg00001.html
+- http://lists.apple.com/archives/security-announce/2011//Apr/msg00002.html
+- http://secunia.com/advisories/44151
+
+---
+
+#### 1032. CVE-2011-1417
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+Integer overflow in QuickLook, as used in Apple Mac OS X before 10.6.7 and MobileSafari in Apple iOS before 4.2.7 and 4.3.x before 4.3.2, allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a Microsoft Office document with a crafted size field in the OfficeArtMetafileHeader, related to OfficeArtBlip, as demonstrated on the iPhone by Charlie Miller and Dion Blazakis during a Pwn2Own competition at CanSecWest 2011.
+
+**参考链接 / References**:
+- http://dvlabs.tippingpoint.com/blog/2011/02/02/pwn2own-2011
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00005.html
+- http://lists.apple.com/archives/security-announce/2011//Apr/msg00000.html
+- http://lists.apple.com/archives/security-announce/2011//Apr/msg00001.html
+- http://lists.apple.com/archives/security-announce/2011/Mar/msg00006.html
+
+---
+
+#### 1033. CVE-2011-0157
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+WebKit, as used in Apple iOS before 4.3, allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted web site, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-09-1.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2011//Mar/msg00003.html
+- http://support.apple.com/kb/HT4564
+- http://www.securityfocus.com/bid/46807
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/66007
+- http://lists.apple.com/archives/security-announce/2011//Mar/msg00003.html
+
+---
+
+#### 1034. CVE-2011-0158
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+MobileSafari in Apple iOS before 4.3 does not properly implement application launching through URL handlers, which allows remote attackers to cause a denial of service (persistent application crash) via crafted JavaScript code.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2011//Mar/msg00003.html
+- http://support.apple.com/kb/HT4564
+- http://www.securityfocus.com/bid/46806
+- http://www.securitytracker.com/id?1025182
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/66002
+
+---
+
+#### 1035. CVE-2011-0159
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+The Safari Settings feature in Safari in Apple iOS 4.x before 4.3 does not properly implement the clearing of cookies during execution of the Safari application, which might make it easier for remote web servers to track users by setting a cookie.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2011//Mar/msg00003.html
+- http://support.apple.com/kb/HT4564
+- http://www.securityfocus.com/bid/46810
+- http://www.securitytracker.com/id?1025182
+- http://lists.apple.com/archives/security-announce/2011//Mar/msg00003.html
+
+---
+
+#### 1036. CVE-2011-0160
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+WebKit, as used in Apple Safari before 5.0.4 and iOS before 4.3, does not properly handle redirects in conjunction with HTTP Basic Authentication, which might allow remote web servers to capture credentials by logging the Authorization HTTP header.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2011//Mar/msg00003.html
+- http://lists.apple.com/archives/security-announce/2011//Mar/msg00004.html
+- http://support.apple.com/kb/HT4564
+- http://support.apple.com/kb/HT4566
+- http://www.securitytracker.com/id?1025182
+
+---
+
+#### 1037. CVE-2011-0161
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+WebKit, as used in Apple Safari before 5.0.4 and iOS before 4.3, does not properly handle the Attr.style accessor, which allows remote attackers to bypass the Same Origin Policy and inject Cascading Style Sheets (CSS) token sequences via a crafted web site.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2011//Mar/msg00003.html
+- http://lists.apple.com/archives/security-announce/2011//Mar/msg00004.html
+- http://support.apple.com/kb/HT4564
+- http://support.apple.com/kb/HT4566
+- http://www.securityfocus.com/bid/46814
+
+---
+
+#### 1038. CVE-2011-0162
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Wi-Fi in Apple iOS before 4.3 and Apple TV before 4.2 does not properly perform bounds checking for Wi-Fi frames, which allows remote attackers to cause a denial of service (device reset) via unspecified traffic on the local wireless network.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2011//Mar/msg00003.html
+- http://lists.apple.com/archives/security-announce/2011//Mar/msg00005.html
+- http://support.apple.com/kb/HT4564
+- http://support.apple.com/kb/HT4565
+- http://www.securityfocus.com/bid/46813
+
+---
+
+#### 1039. CVE-2011-0163
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+WebKit, as used in Apple Safari before 5.0.4 and iOS before 4.3, does not properly handle unspecified "cached resources," which allows remote attackers to cause a denial of service (resource unavailability) via a crafted web site that conducts a cache-poisoning attack.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2011//Mar/msg00003.html
+- http://lists.apple.com/archives/security-announce/2011//Mar/msg00004.html
+- http://support.apple.com/kb/HT4564
+- http://support.apple.com/kb/HT4566
+- http://www.securitytracker.com/id?1025182
+
+---
+
+#### 1040. CVE-2011-1418
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+The stateless address autoconfiguration (aka SLAAC) functionality in the IPv6 networking implementation in Apple iOS before 4.3 and Apple TV before 4.2 places the MAC address into the IPv6 address, which makes it easier for remote IPv6 servers to track users by logging source IPv6 addresses.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2011//Mar/msg00003.html
+- http://lists.apple.com/archives/security-announce/2011//Mar/msg00005.html
+- http://support.apple.com/kb/HT4564
+- http://support.apple.com/kb/HT4565
+- http://lists.apple.com/archives/security-announce/2011//Mar/msg00003.html
+
+---
+
+#### 1041. CVE-2011-0935
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+The PKI functionality in Cisco IOS 15.0 and 15.1 does not prevent permanent caching of certain public keys, which allows remote attackers to bypass authentication and have unspecified other impact by leveraging an IKE peer relationship in which a key was previously valid but later revoked, aka Bug ID CSCth82164, a different vulnerability than CVE-2010-4685.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/docs/ios/15_1/release/notes/151-2TCAVS.html
+- http://www.cisco.com/en/US/docs/ios/15_1s/release/notes/15_1s_caveats_15_1_1s.html
+- http://www.securityfocus.com/bid/47407
+- http://www.cisco.com/en/US/docs/ios/15_1/release/notes/151-2TCAVS.html
+- http://www.cisco.com/en/US/docs/ios/15_1s/release/notes/15_1s_caveats_15_1_1s.html
+
+---
+
+#### 1042. CVE-2011-0195
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+The generate-id XPath function in libxslt in Apple iOS 4.3.x before 4.3.2 allows remote attackers to obtain potentially sensitive information about heap memory addresses via a crafted web site.  NOTE: this may overlap CVE-2011-1202.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2011//Apr/msg00000.html
+- http://lists.apple.com/archives/security-announce/2011//Jul/msg00002.html
+- http://lists.apple.com/archives/security-announce/2011//Jun/msg00000.html
+- http://support.apple.com/kb/HT4723
+- http://support.apple.com/kb/HT4808
+
+---
+
+#### 1043. CVE-2011-0943
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Cisco IOS XR 3.8.3, 3.8.4, and 3.9.1 allows remote attackers to cause a denial of service (NetIO process restart or device reload) via a crafted IPv4 packet, aka Bug ID CSCth44147.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b7f18e.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b7f18e.shtml
+
+---
+
+#### 1044. CVE-2011-0949
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Cisco IOS XR 3.6.x, 3.8.x before 3.8.3, and 3.9.x before 3.9.1 does not properly remove sshd_lock files from /tmp/, which allows remote attackers to cause a denial of service (disk consumption) by making many SSHv1 connections, aka Bug ID CSCtd64417.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b7f18f.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b7f18f.shtml
+
+---
+
+#### 1045. CVE-2011-1651
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Cisco IOS XR 3.9.x and 4.0.x before 4.0.3 and 4.1.x before 4.1.1, when an SPA interface processor is installed, allows remote attackers to cause a denial of service (device reload) via a crafted IPv4 packet, aka Bug ID CSCto45095.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b7f191.shtml
+- http://www.securitytracker.com/id?1025567
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b7f191.shtml
+- http://www.securitytracker.com/id?1025567
+
+---
+
+#### 1046. CVE-2011-2395
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+The Neighbor Discovery (ND) protocol implementation in Cisco IOS on unspecified switches allows remote attackers to bypass the Router Advertisement Guarding functionality via a fragmented IPv6 packet in which the Router Advertisement (RA) message is contained in the second fragment, as demonstrated by (1) a packet in which the first fragment contains a long Destination Options extension header or (2) a packet in which the first fragment contains an ICMPv6 Echo Request message.
+
+**参考链接 / References**:
+- http://seclists.org/fulldisclosure/2011/May/446
+- http://securityreason.com/securityalert/8271
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/67940
+- http://seclists.org/fulldisclosure/2011/May/446
+- http://securityreason.com/securityalert/8271
+
+---
+
+#### 1047. CVE-2011-2064
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Cisco IOS 12.4MDA before 12.4(24)MDA5 on the Cisco Content Services Gateway - Second Generation (CSG2) allows remote attackers to cause a denial of service (device reload) via crafted ICMP packets, aka Bug ID CSCtl79577.
+
+**参考链接 / References**:
+- http://osvdb.org/73657
+- http://secunia.com/advisories/45148
+- http://securitytracker.com/id?1025748
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b86503.shtml
+- http://www.securityfocus.com/bid/48581
+
+---
+
+#### 1048. CVE-2011-0226
+
+**严重程度 / Severity**: N/A | CVSS: 9.3
+
+**漏洞描述 / Description**:
+Integer signedness error in psaux/t1decode.c in FreeType before 2.4.6, as used in CoreGraphics in Apple iOS before 4.2.9 and 4.3.x before 4.3.4 and other products, allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted Type 1 font in a PDF document, as exploited in the wild in July 2011.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00003.html
+- http://lists.apple.com/archives/security-announce/2011//Jul/msg00000.html
+- http://lists.apple.com/archives/security-announce/2011//Jul/msg00001.html
+- http://lists.nongnu.org/archive/html/freetype-devel/2011-07/msg00014.html
+- http://lists.nongnu.org/archive/html/freetype-devel/2011-07/msg00015.html
+
+---
+
+#### 1049. CVE-2011-0227
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+
+**漏洞描述 / Description**:
+The queueing primitives in IOMobileFrameBuffer in Apple iOS before 4.2.9 and 4.3.x before 4.3.4 do not properly perform type conversion, which allows local users to gain privileges via a crafted application.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2011//Jul/msg00000.html
+- http://lists.apple.com/archives/security-announce/2011//Jul/msg00001.html
+- http://support.apple.com/kb/HT4802
+- http://support.apple.com/kb/HT4803
+- http://lists.apple.com/archives/security-announce/2011//Jul/msg00000.html
+
+---
+
+#### 1050. CVE-2011-2549
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Cisco IOS XR 4.1.x before 4.1.1 on Cisco Aggregation Services Routers (ASR) 9000 series devices allows remote attackers to cause a denial of service (line-card reload) via an IPv4 packet, aka Bug ID CSCtr26695.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/45333
+- http://securitytracker.com/id?1025811
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b89155.shtml
+- http://www.securityfocus.com/bid/48811
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/68733
+
+---
+
+#### 1051. CVE-2011-1624
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Cisco IOS 12.2(58)SE, when a login banner is configured, allows remote attackers to cause a denial of service (device reload) by establishing two SSH2 sessions, aka Bug ID CSCto62631.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/docs/switches/lan/cisco_ie3000/software/release/12.2_58_se/release/notes/OL24335.html
+- https://supportforums.cisco.com/message/3356210
+- http://www.cisco.com/en/US/docs/switches/lan/cisco_ie3000/software/release/12.2_58_se/release/notes/OL24335.html
+- https://supportforums.cisco.com/message/3356210
+
+---
+
+#### 1052. CVE-2011-1625
+
+**严重程度 / Severity**: N/A | CVSS: 5.4
+
+**漏洞描述 / Description**:
+Cisco IOS 12.2, 12.3, 12.4, 15.0, and 15.1, when the data-link switching (DLSw) feature is configured, allows remote attackers to cause a denial of service (device crash) by sending a sequence of malformed packets and leveraging a "narrow timing window," aka Bug ID CSCtf74999, a different vulnerability than CVE-2007-0199, CVE-2008-1152, and CVE-2009-0629.
+
+**参考链接 / References**:
+- http://www.cisco.com/en/US/docs/cable/cmts/release/notes/12_2sc/uBR7200/122_33_SCF/caveats.html
+- http://www.cisco.com/en/US/docs/cable/cmts/release/notes/12_2sc/uBR7200/122_33_SCF/caveats.html
+
+---
+
+#### 1053. CVE-2011-0228
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+The Data Security component in Apple iOS before 4.2.10 and 4.3.x before 4.3.5 does not check the basicConstraints parameter during validation of X.509 certificate chains, which allows man-in-the-middle attackers to spoof an SSL server by using a non-CA certificate to sign a certificate for an arbitrary domain.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2011//Jul/msg00004.html
+- http://lists.apple.com/archives/security-announce/2011//Jul/msg00005.html
+- http://secunia.com/advisories/45369
+- http://securityreason.com/securityalert/8361
+- http://securitytracker.com/id?1025837
+
+---
+
+#### 1054. CVE-2011-0939
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Cisco IOS 12.4, 15.0, and 15.1, and IOS XE 2.5.x through 3.2.x, allows remote attackers to cause a denial of service (device reload) via a crafted SIP message, aka Bug ID CSCth03022.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24127
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d5a.shtml
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24127
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d5a.shtml
+
+---
+
+#### 1055. CVE-2011-0944
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Cisco IOS 12.4, 15.0, and 15.1 allows remote attackers to cause a denial of service (device reload) via malformed IPv6 packets, aka Bug ID CSCtj41194.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24131
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d59.shtml
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24131
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d59.shtml
+
+---
+
+#### 1056. CVE-2011-0945
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Memory leak in the Data-link switching (aka DLSw) feature in Cisco IOS 12.1 through 12.4 and 15.0 through 15.1, and IOS XE 3.1.xS before 3.1.3S and 3.2.xS before 3.2.1S, when implemented over Fast Sequence Transport (FST), allows remote attackers to cause a denial of service (memory consumption and device reload or hang) via a crafted IP protocol 91 packet, aka Bug ID CSCth69364.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24116
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d4e.shtml
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24116
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d4e.shtml
+
+---
+
+#### 1057. CVE-2011-0946
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+The NAT implementation in Cisco IOS 12.1 through 12.4 and 15.0 through 15.1, and IOS XE 3.1.xSG, allows remote attackers to cause a denial of service (device reload or hang) via malformed NetMeeting Directory (aka Internet Locator Service or ILS) LDAP traffic, aka Bug ID CSCtd10712.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24117
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d4d.shtml
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24117
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d4d.shtml
+
+---
+
+#### 1058. CVE-2011-2072
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Memory leak in Cisco IOS 12.4, 15.0, and 15.1, Cisco IOS XE 2.5.x through 3.2.x, and Cisco Unified Communications Manager (CUCM) 6.x and 7.x before 7.1(5b)su4, 8.x before 8.5(1)su2, and 8.6 before 8.6(1) allows remote attackers to cause a denial of service (memory consumption and device reload or process failure) via a malformed SIP message, aka Bug IDs CSCtl86047 and CSCto88686.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20110928-cucm
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24129
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d58.shtml
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d5a.shtml
+- http://www.securitytracker.com/id?1026110
+
+---
+
+#### 1059. CVE-2011-3270
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Cisco IOS 12.2SB before 12.2(33)SB10 and 15.0S before 15.0(1)S3a on Cisco 10000 series routers allows remote attackers to cause a denial of service (device reload) via a sequence of crafted ICMP packets, aka Bug ID CSCtk62453.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24114
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d50.shtml
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24114
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d50.shtml
+
+---
+
+#### 1060. CVE-2011-3271
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in the Smart Install functionality in Cisco IOS 12.2 and 15.1 allows remote attackers to execute arbitrary code or cause a denial of service (device crash) via crafted TCP packets to port 4786, aka Bug ID CSCto10165.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24115
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d4f.shtml
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24115
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d4f.shtml
+
+---
+
+#### 1061. CVE-2011-3272
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+The IP Service Level Agreement (IP SLA) functionality in Cisco IOS 15.1, and IOS XE 2.1.x through 3.3.x, allows remote attackers to cause a denial of service (memory corruption and device reload) via malformed IP SLA packets, aka Bug ID CSCtk67073.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24122
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d4c.shtml
+- http://www.securitytracker.com/id?1026120
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24122
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d4c.shtml
+
+---
+
+#### 1062. CVE-2011-3273
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Memory leak in Cisco IOS 15.0 through 15.1, when IPS or Zone-Based Firewall (aka ZBFW) is configured, allows remote attackers to cause a denial of service (memory consumption or device crash) via vectors that trigger many session creation flows, aka Bug ID CSCti79848.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24123
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d57.shtml
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24123
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d57.shtml
+
+---
+
+#### 1063. CVE-2011-3274
+
+**严重程度 / Severity**: N/A | CVSS: 6.1
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Cisco IOS 12.2SRE before 12.2(33)SRE4, 15.0, and 15.1, and IOS XE 2.1.x through 3.3.x, when an MPLS domain is configured, allows remote attackers to cause a denial of service (device crash) via a crafted IPv6 packet, related to an expired MPLS TTL, aka Bug ID CSCto07919.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24125
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d52.shtml
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24125
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d52.shtml
+
+---
+
+#### 1064. CVE-2011-3275
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Memory leak in Cisco IOS 12.4, 15.0, and 15.1, and IOS XE 2.5.x through 3.2.x, allows remote attackers to cause a denial of service (memory consumption) via a crafted SIP message, aka Bug ID CSCti48504.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24130
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d5a.shtml
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24130
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d5a.shtml
+
+---
+
+#### 1065. CVE-2011-3276
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in the NAT implementation in Cisco IOS 12.1 through 12.4 and 15.0 through 15.1, and IOS XE 3.1.xSG, allows remote attackers to cause a denial of service (device reload or hang) by sending crafted SIP packets to TCP port 5060, aka Bug ID CSCso02147.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24118
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d4d.shtml
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24118
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d4d.shtml
+
+---
+
+#### 1066. CVE-2011-3277
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in the NAT implementation in Cisco IOS 12.1 through 12.4 and 15.0 through 15.1, and IOS XE 3.1.xSG, allows remote attackers to cause a denial of service (device reload) by sending crafted H.323 packets to TCP port 1720, aka Bug ID CSCth11006.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24119
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d4d.shtml
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24119
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d4d.shtml
+
+---
+
+#### 1067. CVE-2011-3278
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in the NAT implementation in Cisco IOS 12.1 through 12.4 and 15.0 through 15.1, and IOS XE 3.1.xSG, allows remote attackers to cause a denial of service (device reload) by sending crafted SIP packets to UDP port 5060, aka Bug ID CSCti48483.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24120
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d4d.shtml
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24120
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d4d.shtml
+
+---
+
+#### 1068. CVE-2011-3279
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+The provider-edge MPLS NAT implementation in Cisco IOS 12.1 through 12.4 and 15.0 through 15.1, and IOS XE 3.1.xSG, allows remote attackers to cause a denial of service (device reload) via a malformed SIP packet to UDP port 5060, aka Bug ID CSCti98219.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24121
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d4d.shtml
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A13781
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24121
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d4d.shtml
+
+---
+
+#### 1069. CVE-2011-3280
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Memory leak in the NAT implementation in Cisco IOS 12.1 through 12.4 and 15.0 through 15.1, and IOS XE 3.1.xSG, allows remote attackers to cause a denial of service (memory consumption or device reload) by sending crafted SIP packets to UDP port 5060, aka Bug ID CSCtj04672.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24120
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d4d.shtml
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24120
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d4d.shtml
+
+---
+
+#### 1070. CVE-2011-3281
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Cisco IOS 15.0 through 15.1, in certain HTTP Layer 7 Application Control and Inspection configurations, allows remote attackers to cause a denial of service (device reload or hang) via a crafted HTTP packet, aka Bug ID CSCto68554.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24124
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d57.shtml
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24124
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d57.shtml
+
+---
+
+#### 1071. CVE-2011-3282
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Cisco IOS 12.2SRE before 12.2(33)SRE4, 15.0, and 15.1, and IOS XE 2.1.x through 3.3.x, when an MPLS domain is configured, allows remote attackers to cause a denial of service (device reload) via an ICMPv6 packet, related to an expired MPLS TTL, aka Bug ID CSCtj30155.
+
+**参考链接 / References**:
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24126
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d52.shtml
+- http://tools.cisco.com/security/center/viewAlert.x?alertId=24126
+- http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d52.shtml
+
+---
+
+#### 1072. CVE-2011-3243
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in WebKit, as used in Apple iOS before 5 and Safari before 5.1.1, allows remote attackers to inject arbitrary web script or HTML via vectors involving inactive DOM windows.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00001.html
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00004.html
+- http://osvdb.org/76353
+- http://support.apple.com/kb/HT4999
+- http://support.apple.com/kb/HT5000
+
+---
+
+#### 1073. CVE-2011-3245
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+The Keyboards component in Apple iOS before 5 displays the final character of an entered password during a subsequent use of a keyboard, which allows physically proximate attackers to obtain sensitive information by reading this character.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00001.html
+- http://osvdb.org/76329
+- http://support.apple.com/kb/HT4999
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/70555
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00001.html
+
+---
+
+#### 1074. CVE-2011-3246
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+CFNetwork in Apple iOS before 5.0.1 and Mac OS X 10.7 before 10.7.2 does not properly parse URLs, which allows remote attackers to trigger visits to unintended web sites, and transmission of cookies to unintended web sites, via a crafted (1) http or (2) https URL.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00001.html
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00003.html
+- http://lists.apple.com/archives/Security-announce/2011/Nov/msg00001.html
+- http://lists.apple.com/archives/security-announce/2012/Feb/msg00000.html
+- http://support.apple.com/kb/HT4999
+
+---
+
+#### 1075. CVE-2011-3253
+
+**严重程度 / Severity**: N/A | CVSS: 2.6
+
+**漏洞描述 / Description**:
+CalDAV in Apple iOS before 5 does not validate X.509 certificates for SSL sessions, which allows man-in-the-middle attackers to spoof calendar servers and obtain sensitive information via an arbitrary certificate.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00001.html
+- http://support.apple.com/kb/HT4999
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00001.html
+- http://support.apple.com/kb/HT4999
+
+---
+
+#### 1076. CVE-2011-3254
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in Calendar in Apple iOS before 5 allows remote attackers to inject arbitrary web script or HTML via an invitation note.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00001.html
+- http://support.apple.com/kb/HT4999
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00001.html
+- http://support.apple.com/kb/HT4999
+
+---
+
+#### 1077. CVE-2011-3255
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+CFNetwork in Apple iOS before 5 stores AppleID credentials in an unspecified file, which makes it easier for remote attackers to obtain sensitive information via a crafted application.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00001.html
+- http://support.apple.com/kb/HT4999
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/70550
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00001.html
+- http://support.apple.com/kb/HT4999
+
+---
+
+#### 1078. CVE-2011-3256
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+FreeType 2 before 2.4.7, as used in CoreGraphics in Apple iOS before 5, Mandriva Enterprise Server 5, and possibly other products, allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted font, a different vulnerability than CVE-2011-0226.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00001.html
+- http://lists.apple.com/archives/security-announce/2012/Feb/msg00000.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2011-November/069100.html
+- http://lists.opensuse.org/opensuse-security-announce/2011-12/msg00008.html
+- http://lists.opensuse.org/opensuse-security-announce/2012-01/msg00003.html
+
+---
+
+#### 1079. CVE-2011-3257
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+The Data Access component in Apple iOS before 5 does not properly handle the existence of multiple user accounts on the same mail server, which allows local users to bypass intended access restrictions in opportunistic circumstances by leveraging a different account's cookie.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00001.html
+- http://osvdb.org/76325
+- http://support.apple.com/kb/HT4999
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/70553
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00001.html
+
+---
+
+#### 1080. CVE-2011-3259
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+The kernel in Apple iOS before 5 and Apple TV before 4.4 does not properly recover memory allocated for incomplete TCP connections, which allows remote attackers to cause a denial of service (resource consumption) by making many connection attempts.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00001.html
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00002.html
+- http://support.apple.com/kb/HT4999
+- http://support.apple.com/kb/HT5001
+- http://www.securityfocus.com/bid/50087
+
+---
+
+#### 1081. CVE-2011-3260
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+Buffer overflow in OfficeImport in Apple iOS before 5 allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a crafted Microsoft Word document.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00001.html
+- http://support.apple.com/kb/HT4999
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/70556
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00001.html
+- http://support.apple.com/kb/HT4999
 
 ---
