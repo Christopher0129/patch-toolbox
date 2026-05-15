@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Search,
@@ -28,6 +28,7 @@ const PLATFORM_ORDER: Platform[] = ['windows', 'linux', 'macos'];
 
 interface Vulnerability {
   id: string;
+  slug?: string;
   severity: Severity;
   cvss?: number;
   description: string;
@@ -385,6 +386,7 @@ type SortOption = (typeof SORT_OPTIONS)[number];
 /* ─── Main Component ─── */
 export default function NetworkSecurity() {
   const { t, lang } = useTranslation();
+  const location = useLocation();
 
   const [search, setSearch] = useState('');
   const [data, setData] = useState<Vulnerability[]>(FALLBACK_DATA);
@@ -397,6 +399,32 @@ export default function NetworkSecurity() {
       }
     }).catch(() => {});
   }, []);
+
+  useEffect(() => {
+    if (!location.hash) return;
+
+    const targetSlug = decodeURIComponent(location.hash.slice(1));
+    if (!targetSlug) return;
+
+    const matched = data.find((item) => item.slug === targetSlug);
+    if (!matched) return;
+
+    if (matched.platform && matched.platform !== activeTab) {
+      setActiveTab(matched.platform);
+    }
+
+    setSelectedVuln(matched);
+
+    const scrollToTarget = () => {
+      const el = document.getElementById(targetSlug);
+      if (el) {
+        el.scrollIntoView({ behavior: 'auto', block: 'center' });
+      }
+    };
+
+    const timer = window.setTimeout(scrollToTarget, 0);
+    return () => window.clearTimeout(timer);
+  }, [location.hash, data, activeTab]);
   const [severityFilter, setSeverityFilter] = useState<Severity | 'All'>('All');
   const [sourceFilter, setSourceFilter] = useState<Source | 'All'>('All');
   const [sortBy, setSortBy] = useState<SortOption>('newest');
@@ -867,10 +895,11 @@ export default function NetworkSecurity() {
             {filtered.map((vuln) => (
               <motion.article
                 key={vuln.id}
+                id={vuln.slug || undefined}
                 layout
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
-                  className="group cursor-pointer"
+                  className="group cursor-pointer scroll-mt-28"
                   onClick={() => setSelectedVuln(vuln)}
                 >
                   <div
