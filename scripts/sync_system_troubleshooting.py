@@ -18,6 +18,7 @@ from utils import (
     strip_html_tags, insert_entries_sqlite, init_sqlite_db, get_db_path,
     count_entries_sqlite, send_sync_report,
 )
+from stage_state import StageTimer, StageRecord, PipelineReport, pipeline_report_to_json
 
 SYNC_NAME = "sync-system-troubleshooting"
 MIN_ITEMS = 50
@@ -287,9 +288,11 @@ def fetch_v2ex(os_name: str, limit: int = 20) -> List[Dict[str, Any]]:
 # ---------------------------------------------------------------------------
 
 def run():
+    pipeline_start = __import__("datetime").datetime.now(__import__("datetime").timezone.utc)
     start_time = __import__("time").time()
     log_sync(SYNC_NAME, "=" * 40)
     log_sync(SYNC_NAME, "Starting scheduled run")
+    pipeline_stages = []
 
     all_new = 0
     errors = []
@@ -302,27 +305,58 @@ def run():
         conn = init_sqlite_db(db_path)
 
         # ---- A: 抓最新 ----
-        try:
-            items = fetch_stackexchange_deep(os_name, min_items=MIN_ITEMS, max_pages=1, sort="creation")
-        except Exception as e:
-            errors.append(f"{os_name}-SE-A: {e}")
-            log_sync(SYNC_NAME, f"{os_name} SE fetch-A error: {e}")
-            items = []
+        timer_a = StageTimer()
+        with timer_a:
+            try:
+                items = fetch_stackexchange_deep(os_name, min_items=MIN_ITEMS, max_pages=1, sort="creation")
+            except Exception as e:
+                errors.append(f"{os_name}-SE-A: {e}")
+                log_sync(SYNC_NAME, f"{os_name} SE fetch-A error: {e}")
+                items = []
+        se_fetched = len(items)
+        pipeline_stages.append(timer_a.to_record(
+            name=f"{os_name}-se-fetch-A",
+            status="ok" if se_fetched > 0 else "warning",
+            detail=f"StackExchange fetched {se_fetched} questions (min={MIN_ITEMS})",
+            count=se_fetched,
+            count_label="fetched",
+            error_detail=(errors[-1] if errors and errors[-1].startswith(f"{os_name}-SE-A") else None),
+        ))
 
         # 补充 Reddit + V2EX
-        try:
-            reddit_items = fetch_reddit(os_name, limit=25)
-            items.extend(reddit_items)
-        except Exception as e:
-            errors.append(f"{os_name}-Reddit: {e}")
-        try:
-            v2ex_items = fetch_v2ex(os_name, limit=20)
-            items.extend(v2ex_items)
-        except Exception as e:
-            errors.append(f"{os_name}-V2EX: {e}")
+        timer_social = StageTimer()
+        with timer_social:
+            try:
+                reddit_items = fetch_reddit(os_name, limit=25)
+                items.extend(reddit_items)
+            except Exception as e:
+                errors.append(f"{os_name}-Reddit: {e}")
+            try:
+                v2ex_items = fetch_v2ex(os_name, limit=20)
+                items.extend(v2ex_items)
+            except Exception as e:
+                errors.append(f"{os_name}-V2EX: {e}")
+        reddit_count = sum(1 for it in items if str(it.get("source", "")).startswith("reddit"))
+        v2ex_count = sum(1 for it in items if str(it.get("source", "")).startswith("v2ex"))
+        pipeline_stages.append(timer_social.to_record(
+            name=f"{os_name}-social-fetch",
+            status="ok",
+            detail=f"Reddit+{reddit_count} / V2EX+{v2ex_count}",
+            count=reddit_count + v2ex_count,
+            count_label="social_items",
+        ))
 
         # ---- 写入 SQLite（A阶段） ----
-        new_a = insert_entries_sqlite(conn, items, platform=os_name)
+        timer_ins = StageTimer()
+        with timer_ins:
+            new_a = insert_entries_sqlite(conn, items, platform=os_name)
+        pipeline_stages.append(timer_ins.to_record(
+            name=f"{os_name}-insert-A",
+            status="ok",
+            detail=f"inserted {new_a} new entries",
+            count=new_a,
+            count_label="new_entries",
+        ))
         log_sync(SYNC_NAME, f"{os_name} Phase-A: fetched={len(items)}, new={new_a}")
 
         # ---- B: 翻页深挖 ----
@@ -332,14 +366,34 @@ def run():
             for page_depth in range(2, MAX_DEEP_PAGES + 2):
                 if total_new >= MIN_ITEMS:
                     break
-                try:
-                    batch = fetch_stackexchange_deep(os_name, min_items=MIN_ITEMS * page_depth, max_pages=page_depth, sort="creation")
+                timer_b = StageTimer()
+                with timer_b:
+                    try:
+                        batch = fetch_stackexchange_deep(os_name, min_items=MIN_ITEMS * page_depth, max_pages=page_depth, sort="creation")
+                    except Exception as e:
+                        errors.append(f"{os_name}-B-{page_depth}: {e}")
+                        batch = []
+                batch_fetched = len(batch)
+                timer_ins_b = StageTimer()
+                with timer_ins_b:
                     batch_new = insert_entries_sqlite(conn, batch, platform=os_name)
-                    total_new += batch_new
-                    log_sync(SYNC_NAME, f"{os_name} Phase-B depth={page_depth}: batch_new={batch_new}, total_new={total_new}")
-                except Exception as e:
-                    errors.append(f"{os_name}-B-{page_depth}: {e}")
-                    break
+                total_new += batch_new
+                pipeline_stages.append(timer_b.to_record(
+                    name=f"{os_name}-se-fetch-B-d{page_depth}",
+                    status="ok" if batch_fetched > 0 else "warning",
+                    detail=f"fetched {batch_fetched}, net new {batch_new}",
+                    count=batch_new,
+                    count_label="new_entries",
+                    error_detail=(errors[-1] if errors and errors[-1].startswith(f"{os_name}-B-{page_depth}") else None),
+                ))
+                log_sync(SYNC_NAME, f"{os_name} Phase-B depth={page_depth}: batch_new={batch_new}, total_new={total_new}")
+        else:
+            pipeline_stages.append(StageRecord(
+                name=f"{os_name}-deep-skip",
+                status="ok",
+                duration_ms=0.0,
+                detail=f"A phase sufficed ({total_new} >= {MIN_ITEMS}), deep-paging skipped",
+            ))
 
         os_counts[os_name] = count_entries_sqlite(conn)
         conn.close()
@@ -353,6 +407,21 @@ def run():
 
     report = write_report(SYNC_NAME, all_new, total_all, errors)
     log_sync(SYNC_NAME, f"Summary: new={all_new}, errors={len(errors)}")
+
+    # ---- 写入结构化 pipeline report ----
+    pipeline_finish = __import__("datetime").datetime.now(__import__("datetime").timezone.utc)
+    p_report = PipelineReport(
+        pipeline=SYNC_NAME,
+        started_at=pipeline_start.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        finished_at=pipeline_finish.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        stages=pipeline_stages,
+        summary=f"new={all_new}, total={total_all}, errors={len(errors)}",
+    )
+    struct_path = AGENTS_DIR / f"{SYNC_NAME}_stages.json"
+    with open(struct_path, "w", encoding="utf-8") as f:
+        f.write(pipeline_report_to_json(p_report))
+    log_sync(SYNC_NAME, f"Staged report written: {struct_path}")
+
     log_sync(SYNC_NAME, "Run complete")
     return report
 
