@@ -31,6 +31,13 @@ jobs:
           python3 scripts/export_website_data.py --output-dir website/public/data
           python3 scripts/build_website_stats.py --output website/public/data/stats.json
           python3 scripts/build_search_index.py --output website/public/data/search-index.json
+
+      - name: Verify publish artifact contract
+        run: |
+          python3 scripts/publish_schema.py verify --artifacts-dir website/public/data
+
+      - name: Copy databases
+        run: |
           mkdir -p website/public/db
           cp db/*.db website/public/db/
 

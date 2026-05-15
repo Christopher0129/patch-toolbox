@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-05-15T11:23:20.876899+00:00",
+  "files": [
+    {
+      "path": "network-security/index.md",
+      "size_bytes": 811,
+      "first_line": "# 网络安全漏洞知识库 | Network Security Vulnerability Knowledge Base"
+    },
+    {
+      "path": "network-security/linux.md",
+      "size_bytes": 858216,
+      "first_line": "# Linux 网络安全漏洞 | Linux Network Security"
+    },
+    {
+      "path": "network-security/macos.md",
+      "size_bytes": 569095,
+      "first_line": "# Macos 网络安全漏洞 | Macos Network Security"
+    },
+    {
+      "path": "network-security/windows.md",
+      "size_bytes": 499691,
+      "first_line": "# Windows 网络安全漏洞 | Windows Network Security"
+    },
+    {
+      "path": "system-vulnerabilities/index.md",
+      "size_bytes": 486,
+      "first_line": "# 系统漏洞知识库总索引 | System Vulnerability Knowledge Base Index"
+    },
+    {
+      "path": "system-vulnerabilities/linux.md",
+      "size_bytes": 744323,
+      "first_line": "# Linux 系统漏洞知识库 | Linux System Vulnerabilities"
+    },
+    {
+      "path": "system-vulnerabilities/macos.md",
+      "size_bytes": 666752,
+      "first_line": "# Macos 系统漏洞知识库 | Macos System Vulnerabilities"
+    },
+    {
+      "path": "system-vulnerabilities/windows.md",
+      "size_bytes": 344235,
+      "first_line": "# Windows 系统漏洞知识库 | Windows System Vulnerabilities"
+    },
+    {
+      "path": "system-troubleshooting/index.md",
+      "size_bytes": 494,
+      "first_line": "# 系统故障知识库总索引 | System Troubleshooting Knowledge Base Index"
+    },
+    {
+      "path": "system-troubleshooting/linux.md",
+      "size_bytes": 2127278,
+      "first_line": "# Linux 系统故障知识库 | Linux Troubleshooting"
+    },
+    {
+      "path": "system-troubleshooting/macos.md",
+      "size_bytes": 1146439,
+      "first_line": "# Macos 系统故障知识库 | Macos Troubleshooting"
+    },
+    {
+      "path": "system-troubleshooting/windows.md",
+      "size_bytes": 1768117,
+      "first_line": "# Windows 系统故障知识库 | Windows Troubleshooting"
+    }
+  ],
+  "entry_counts": {
+    "network-security": 3023,
+    "system-vulnerabilities": 2459,
+    "system-troubleshooting": 5936
+  }
+}

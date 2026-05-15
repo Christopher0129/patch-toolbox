@@ -101,6 +101,10 @@ website/*.tsbuildinfo
 website/vite.config.d.ts
 website/vite.config.js
 
+# Publish build artifacts (generated at CI/deploy time, not committed)
+.report.json
+website/public/data/_tmp-export/
+
 # Local scripts and dev files
 local/
 local_scripts/
