@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 854**
+**总计条目 / Total entries: 857**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -12473,127 +12473,43 @@ Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability
 
 ---
 
-#### 841. [remote] telnetd 2.7 - Buffer Overflow
+#### 841. [local] Windows Snipping Tool - NTLMv2 Hash Hijack
 
 **严重程度 / Severity**: EXPLOIT
 
 **漏洞描述 / Description**:
-[Exploit-DB] telnetd 2.7 - Buffer Overflow
+[Exploit-DB] Windows Snipping Tool - NTLMv2 Hash Hijack
 
 **参考链接 / References**:
-- https://www.exploit-db.com/exploits/52556
+- https://www.exploit-db.com/exploits/52567
 
 ---
 
-#### 842. [webapps] Ghost CMS 6.19.0 - SQLi
+#### 842. [local] Remote Sunrise Helper for Windows 2026.14 - Unauthenticated File/Directory Listing
 
 **严重程度 / Severity**: EXPLOIT
 
 **漏洞描述 / Description**:
-[Exploit-DB] Ghost CMS 6.19.0 - SQLi
+[Exploit-DB] Remote Sunrise Helper for Windows 2026.14 - Unauthenticated File/Directory Listing
 
 **参考链接 / References**:
-- https://www.exploit-db.com/exploits/52555
+- https://www.exploit-db.com/exploits/52566
 
 ---
 
-#### 843. [webapps] LuaJIT 2.1.1774638290 - Arbitrary Code Execution
+#### 843. [local] Remote Sunrise Helper for Windows 2026.14 - Remote Code Execution
 
 **严重程度 / Severity**: EXPLOIT
 
 **漏洞描述 / Description**:
-[Exploit-DB] LuaJIT 2.1.1774638290 - Arbitrary Code Execution
+[Exploit-DB] Remote Sunrise Helper for Windows 2026.14 - Remote Code Execution
 
 **参考链接 / References**:
-- https://www.exploit-db.com/exploits/52554
+- https://www.exploit-db.com/exploits/52565
 
 ---
 
-#### 844. [webapps] Bludit CMS 3.18.4 -  RCE
-
-**严重程度 / Severity**: EXPLOIT
-
-**漏洞描述 / Description**:
-[Exploit-DB] Bludit CMS 3.18.4 - RCE
-
-**参考链接 / References**:
-- https://www.exploit-db.com/exploits/52553
-
----
-
-#### 845. [local] NocoBase  2.0.27 - VM Sandbox Escape
-
-**严重程度 / Severity**: EXPLOIT
-
-**漏洞描述 / Description**:
-[Exploit-DB] NocoBase 2.0.27 - VM Sandbox Escape
-
-**参考链接 / References**:
-- https://www.exploit-db.com/exploits/52552
-
----
-
-#### 846. [webapps] ThingsBoard IoT Platform 4.2.0 - Server-Side Request Forgery (SSRF)
-
-**严重程度 / Severity**: EXPLOIT
-
-**漏洞描述 / Description**:
-[Exploit-DB] ThingsBoard IoT Platform 4.2.0 - Server-Side Request Forgery (SSRF)
-
-**参考链接 / References**:
-- https://www.exploit-db.com/exploits/52551
-
----
-
-#### 847. [webapps] Ninja Forms Uploads - Unauthenticated PHP File Upload
-
-**严重程度 / Severity**: EXPLOIT
-
-**漏洞描述 / Description**:
-[Exploit-DB] Ninja Forms Uploads - Unauthenticated PHP File Upload
-
-**参考链接 / References**:
-- https://www.exploit-db.com/exploits/52560
-
----
-
-#### 848. [webapps] glances 4.5.2 - command injection
-
-**严重程度 / Severity**: EXPLOIT
-
-**漏洞描述 / Description**:
-[Exploit-DB] glances 4.5.2 - command injection
-
-**参考链接 / References**:
-- https://www.exploit-db.com/exploits/52559
-
----
-
-#### 849. [webapps] coreruleset 4.21.0 - Firewall Bypass
-
-**严重程度 / Severity**: EXPLOIT
-
-**漏洞描述 / Description**:
-[Exploit-DB] coreruleset 4.21.0 - Firewall Bypass
-
-**参考链接 / References**:
-- https://www.exploit-db.com/exploits/52558
-
----
-
-#### 850. [webapps] Flowise < 3.0.5 - Missing Authentication for Critical Function
-
-**严重程度 / Severity**: EXPLOIT
-
-**漏洞描述 / Description**:
-[Exploit-DB] Flowise < 3.0.5 - Missing Authentication for Critical Function
-
-**参考链接 / References**:
-- https://www.exploit-db.com/exploits/52557
-
----
-
-#### 851. [webapps] WordPress Plugin Supsystic Contact Form 1.7.36 - SSTI
+#### 844. [webapps] WordPress Plugin Supsystic Contact Form 1.7.36 - SSTI
 
 **严重程度 / Severity**: EXPLOIT
 
@@ -12605,7 +12521,7 @@ Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability
 
 ---
 
-#### 852. [webapps] Apache HertzBeat 1.8.0 - Remote Code Execution
+#### 845. [webapps] Apache HertzBeat 1.8.0 - Remote Code Execution
 
 **严重程度 / Severity**: EXPLOIT
 
@@ -12617,7 +12533,7 @@ Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability
 
 ---
 
-#### 853. [webapps] ePati Antikor NGFW 2.0.1301 -  Authentication Bypass
+#### 846. [webapps] ePati Antikor NGFW 2.0.1301 -  Authentication Bypass
 
 **严重程度 / Severity**: EXPLOIT
 
@@ -12629,7 +12545,7 @@ Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability
 
 ---
 
-#### 854. [webapps] PJPROJECT 2.16 - Heap Bufferoverflow
+#### 847. [webapps] PJPROJECT 2.16 - Heap Bufferoverflow
 
 **严重程度 / Severity**: EXPLOIT
 
@@ -12638,5 +12554,125 @@ Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52561
+
+---
+
+#### 848. [webapps] Ninja Forms Uploads - Unauthenticated PHP File Upload
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Ninja Forms Uploads - Unauthenticated PHP File Upload
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52560
+
+---
+
+#### 849. [webapps] glances 4.5.2 - command injection
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] glances 4.5.2 - command injection
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52559
+
+---
+
+#### 850. [webapps] coreruleset 4.21.0 - Firewall Bypass
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] coreruleset 4.21.0 - Firewall Bypass
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52558
+
+---
+
+#### 851. [webapps] Flowise < 3.0.5 - Missing Authentication for Critical Function
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Flowise < 3.0.5 - Missing Authentication for Critical Function
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52557
+
+---
+
+#### 852. [remote] telnetd 2.7 - Buffer Overflow
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] telnetd 2.7 - Buffer Overflow
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52556
+
+---
+
+#### 853. [webapps] Ghost CMS 6.19.0 - SQLi
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Ghost CMS 6.19.0 - SQLi
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52555
+
+---
+
+#### 854. [webapps] LuaJIT 2.1.1774638290 - Arbitrary Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] LuaJIT 2.1.1774638290 - Arbitrary Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52554
+
+---
+
+#### 855. [webapps] Bludit CMS 3.18.4 -  RCE
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Bludit CMS 3.18.4 - RCE
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52553
+
+---
+
+#### 856. [local] NocoBase  2.0.27 - VM Sandbox Escape
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] NocoBase 2.0.27 - VM Sandbox Escape
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52552
+
+---
+
+#### 857. [webapps] ThingsBoard IoT Platform 4.2.0 - Server-Side Request Forgery (SSRF)
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] ThingsBoard IoT Platform 4.2.0 - Server-Side Request Forgery (SSRF)
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52551
 
 ---

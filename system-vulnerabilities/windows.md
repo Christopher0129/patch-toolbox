@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 642**
+**总计条目 / Total entries: 565**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -8489,1351 +8489,39 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 ---
 
-#### 546. [Microsoft] CVE-2026-28532 - FRRouting < 10.5.3 Integer Overflow in OSPF TLV Parser Functions
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Mariner
-
-**漏洞描述 / Description**:
-[Microsoft]
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-28532
-
----
-
-#### 547. [Microsoft] CVE-2026-7598 - libssh2 userauth.c userauth_password integer overflow
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Mariner
-
-**漏洞描述 / Description**:
-[Microsoft]
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-7598
-
----
-
-#### 548. CVE-2001-1462
-
-**严重程度 / Severity**: N/A | CVSS: 7.5
-**受影响产品 / Affected Products**: rsa:securid
-
-**漏洞描述 / Description**:
-WebID in RSA Security SecurID 5.0 as used by ACE/Agent for Windows, Windows NT and Windows 2000 allows attackers to cause the WebID agent to enter debug mode via a URL containing null characters, which may allow attackers to obtain sensitive information.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/609840.
-
-**参考链接 / References**:
-- http://www.kb.cert.org/vuls/id/609840
-- http://www.securityfocus.com/bid/3462
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/7399
-- http://www.kb.cert.org/vuls/id/609840
-- http://www.securityfocus.com/bid/3462
-
----
-
-#### 549. CVE-2001-0540
-
-**严重程度 / Severity**: N/A | CVSS: 5.0
-**受影响产品 / Affected Products**: microsoft:terminal_server
-
-**漏洞描述 / Description**:
-Memory leak in Terminal servers in Windows NT and Windows 2000 allows remote attackers to cause a denial of service (memory exhaustion) via a large number of malformed Remote Desktop Protocol (RDP) requests to port 3389.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://www.securityfocus.com/bid/3099.
-
-**参考链接 / References**:
-- http://www.securityfocus.com/bid/3099
-- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-040
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/6912
-- http://www.securityfocus.com/bid/3099
-- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-040
-
----
-
-#### 550. CVE-2001-0662
-
-**严重程度 / Severity**: N/A | CVSS: 5.0
-**受影响产品 / Affected Products**: microsoft:windows_nt
-
-**漏洞描述 / Description**:
-RPC endpoint mapper in Windows NT 4.0 allows remote attackers to cause a denial of service (loss of RPC services) via a malformed request.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://www.ciac.org/ciac/bulletins/l-142.shtml.
-
-**参考链接 / References**:
-- http://www.ciac.org/ciac/bulletins/l-142.shtml
-- http://www.securityfocus.com/bid/3313
-- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-048
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/7105
-- http://www.ciac.org/ciac/bulletins/l-142.shtml
-
----
-
-#### 551. CVE-2001-0669
-
-**严重程度 / Severity**: N/A | CVSS: 7.5
-**受影响产品 / Affected Products**: cisco:catalyst_6000_intrusion_detection_system_module, snort:snort, iss:realsecure_network_sensor, enterasys:dragon, cisco:secure_intrusion_detection_system
-
-**漏洞描述 / Description**:
-Various Intrusion Detection Systems (IDS) including (1) Cisco Secure Intrusion Detection System, (2) Cisco Catalyst 6000 Intrusion Detection System Module, (3) Dragon Sensor 4.x, (4) Snort before 1.8.1, (5) ISS RealSecure Network Sensor 5.x and 6.x before XPU 3.2, and (6) ISS RealSecure Server Sensor 5.5 and 6.0 for Windows, allow remote attackers to evade detection of HTTP attacks via non-standard "%u" Unicode encoding of ASCII characters in the requested URL.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=99972950200602&w=2.
-
-**参考链接 / References**:
-- http://marc.info/?l=bugtraq&m=99972950200602&w=2
-- http://www.cisco.com/warp/public/707/cisco-intrusion-detection-obfuscation-vuln-pub.shtml
-- http://www.kb.cert.org/vuls/id/548515
-- http://www.securityfocus.com/bid/3292
-- http://xforce.iss.net/alerts/advise95.php
-
----
-
-#### 552. CVE-2001-0729
-
-**严重程度 / Severity**: N/A | CVSS: 5.0
-**受影响产品 / Affected Products**: apache:http_server
-
-**漏洞描述 / Description**:
-Apache 1.3.20 on Windows servers allows remote attackers to bypass the default index page and list directory contents via a URL with a large number of / (slash) characters.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://secunia.com/advisories/23794.
-
-**参考链接 / References**:
-- http://secunia.com/advisories/23794
-- http://securitytracker.com/id?1017522
-- http://www.apacheweek.com/issues/01-09-28#security
-- http://www.oracle.com/technetwork/topics/security/cpujan2007-101493.html
-- http://www.securityfocus.com/bid/22083
-
----
-
-#### 553. CVE-2001-0919
-
-**严重程度 / Severity**: N/A | CVSS: 5.1
-**受影响产品 / Affected Products**: microsoft:internet_explorer
-
-**漏洞描述 / Description**:
-Internet Explorer 5.50.4134.0100 on Windows ME with "Prompt to allow cookies to be stored on your machine" enabled does not warn a user when a cookie is set using Javascript.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=100679857614967&w=2.
-
-**参考链接 / References**:
-- http://marc.info/?l=bugtraq&m=100679857614967&w=2
-- http://marc.info/?l=bugtraq&m=100679857614967&w=2
-
----
-
-#### 554. CVE-2001-0663
-
-**严重程度 / Severity**: N/A | CVSS: 5.0
-**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_nt
-
-**漏洞描述 / Description**:
-Terminal Server in Windows NT and Windows 2000 allows remote attackers to cause a denial of service via a sequence of invalid Remote Desktop Protocol (RDP) packets.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://www.securityfocus.com/bid/3445.
-
-**参考链接 / References**:
-- http://www.securityfocus.com/bid/3445
-- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-052
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/7302
-- http://www.securityfocus.com/bid/3445
-- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-052
-
----
-
-#### 555. CVE-2001-0721
-
-**严重程度 / Severity**: N/A | CVSS: 5.0
-**受影响产品 / Affected Products**: microsoft:windows_me, microsoft:windows_98, microsoft:windows_xp, microsoft:windows_98se
-
-**漏洞描述 / Description**:
-Universal Plug and Play (UPnP) in Windows 98, 98SE, ME, and XP allows remote attackers to cause a denial of service (memory consumption or crash) via a malformed UPnP request.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=100467787323377&w=2.
-
-**参考链接 / References**:
-- http://marc.info/?l=bugtraq&m=100467787323377&w=2
-- http://marc.info/?l=bugtraq&m=100528449024158&w=2
-- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-054
-- http://marc.info/?l=bugtraq&m=100467787323377&w=2
-- http://marc.info/?l=bugtraq&m=100528449024158&w=2
-
----
-
-#### 556. CVE-2001-0860
-
-**严重程度 / Severity**: N/A | CVSS: 7.5
-**受影响产品 / Affected Products**: microsoft:windows_xp, microsoft:windows_2000
-
-**漏洞描述 / Description**:
-Terminal Services Manager MMC in Windows 2000 and XP trusts the Client Address (IP address) that is provided by the client instead of obtaining it from the packet headers, which allows clients to spoof their public IP address, e.g. through a Network Address Translation (NAT).
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=100578220002083&w=2.
-
-**参考链接 / References**:
-- http://marc.info/?l=bugtraq&m=100578220002083&w=2
-- http://www.securityfocus.com/bid/3541
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/7538
-- http://marc.info/?l=bugtraq&m=100578220002083&w=2
-- http://www.securityfocus.com/bid/3541
-
----
-
-#### 557. CVE-2001-0951
-
-**严重程度 / Severity**: N/A | CVSS: 5.0
-**受影响产品 / Affected Products**: microsoft:windows_2000
-
-**漏洞描述 / Description**:
-Windows 2000 allows remote attackers to cause a denial of service (CPU consumption) by flooding Internet Key Exchange (IKE) UDP port 500 with packets that contain a large number of dot characters.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=100774842520403&w=2.
-
-**参考链接 / References**:
-- http://marc.info/?l=bugtraq&m=100774842520403&w=2
-- http://marc.info/?l=bugtraq&m=100813081913496&w=2
-- http://www.securityfocus.com/bid/3652
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/7667
-- http://marc.info/?l=bugtraq&m=100774842520403&w=2
-
----
-
-#### 558. CVE-2001-1192
-
-**严重程度 / Severity**: N/A | CVSS: 7.5
-**受影响产品 / Affected Products**: citrix:ica_client
-
-**漏洞描述 / Description**:
-Citrix Independent Computing Architecture (ICA) Client for Windows 6.1 allows remote malicious web sites to execute arbitrary code via a .ICA file, which is downloaded and automatically executed by the client.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/245342.
-
-**参考链接 / References**:
-- http://www.securityfocus.com/archive/1/245342
-- http://www.securityfocus.com/cgi-bin/vulns-item.pl?section=info&id=3688
-- https://exchange.xforce.ibmcloud.com/vulnerabilities/7697
-- http://www.securityfocus.com/archive/1/245342
-- http://www.securityfocus.com/cgi-bin/vulns-item.pl?section=info&id=3688
-
----
-
-#### 559. CVE-2001-0876
-
-**严重程度 / Severity**: N/A | CVSS: 7.5
-**受影响产品 / Affected Products**: microsoft:windows_me, microsoft:windows_98, microsoft:windows_xp, microsoft:windows_98se
-
-**漏洞描述 / Description**:
-Buffer overflow in Universal Plug and Play (UPnP) on Windows 98, 98SE, ME, and XP allows remote attackers to execute arbitrary code via a NOTIFY directive with a long Location URL.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=100887440810532&w=2.
-
-**参考链接 / References**:
-- http://marc.info/?l=bugtraq&m=100887440810532&w=2
-- http://marc.info/?l=ntbugtraq&m=100887271006313&w=2
-- http://www.cert.org/advisories/CA-2001-37.html
-- http://www.ciac.org/ciac/bulletins/m-030.shtml
-- http://www.kb.cert.org/vuls/id/951555
-
----
-
-#### 560. CVE-2001-0877
-
-**严重程度 / Severity**: N/A | CVSS: 5.0
-**受影响产品 / Affected Products**: microsoft:windows_me, microsoft:windows_98, microsoft:windows_xp, microsoft:windows_98se
-
-**漏洞描述 / Description**:
-Universal Plug and Play (UPnP) on Windows 98, 98SE, ME, and XP allows remote attackers to cause a denial of service via (1) a spoofed SSDP advertisement that causes the client to connect to a service on another machine that generates a large amount of traffic (e.g., chargen), or (2) via a spoofed SSDP announcement to broadcast or multicast addresses, which could cause all UPnP clients to send traffic to a single target system.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=100887440810532&w=2.
-
-**参考链接 / References**:
-- http://marc.info/?l=bugtraq&m=100887440810532&w=2
-- http://marc.info/?l=ntbugtraq&m=100887271006313&w=2
-- http://www.cert.org/advisories/CA-2001-37.html
-- http://www.ciac.org/ciac/bulletins/m-030.shtml
-- http://www.kb.cert.org/vuls/id/411059
-
----
-
-#### 561. CVE-2001-1514
-
-**严重程度 / Severity**: N/A | CVSS: 10.0
-**受影响产品 / Affected Products**: macromedia:coldfusion
-
-**漏洞描述 / Description**:
-ColdFusion 4.5 and 5, when running on Windows with the advanced security sandbox type set to "operating system," does not properly pass security context to (1) child processes created with <CFEXECUTE> and (2) child processes that call the CreateProcess function and are executed with <CFOBJECT> or end with the CFX extension, which allows attackers to execute programs with the permissions of the System account.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://www.macromedia.com/v1/Handlers/index.cfm?ID=22263.
-
-**参考链接 / References**:
-- http://www.macromedia.com/v1/Handlers/index.cfm?ID=22263
-- http://www.macromedia.com/v1/Handlers/index.cfm?ID=22263
-
----
-
-#### 562. CVE-2001-1515
-
-**严重程度 / Severity**: HIGH | CVSS: 7.5
-**受影响产品 / Affected Products**: microsoft:windows_2000
-
-**漏洞描述 / Description**:
-Macintosh clients, when using NT file system volumes on Windows 2000 SP1, create subdirectories and automatically modify the inherited NTFS permissions, which may cause the directories to have less restrictive permissions than intended.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://securitytracker.com/id?1002626.
-
-**参考链接 / References**:
-- http://securitytracker.com/id?1002626
-- http://www.securityfocus.com/bid/3479
-- http://securitytracker.com/id?1002626
-- http://www.securityfocus.com/bid/3479
-
----
-
-#### 563. CVE-2001-1517
-
-**严重程度 / Severity**: N/A | CVSS: 2.1
-**受影响产品 / Affected Products**: microsoft:windows_2000
-
-**漏洞描述 / Description**:
-RunAs (runas.exe) in Windows 2000 stores cleartext authentication information in memory, which could allow attackers to obtain usernames and passwords by executing a process that is allocated the same memory page after termination of a RunAs command.  NOTE: the vendor disputes this issue, saying that administrative privileges are already required to exploit it, and the original researcher did not respond to requests for additional information
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2001-q4/0041.html.
-
-**参考链接 / References**:
-- http://archives.neohapsis.com/archives/vulnwatch/2001-q4/0041.html
-- http://cert.uni-stuttgart.de/archive/bugtraq/2001/11/msg00100.html
-- http://www.iss.net/security_center/static/7531.php
-- http://www.securityfocus.com/bid/3184
-- http://archives.neohapsis.com/archives/vulnwatch/2001-q4/0041.html
-
----
-
-#### 564. CVE-2001-1518
-
-**严重程度 / Severity**: N/A | CVSS: 2.1
-**受影响产品 / Affected Products**: microsoft:windows_2000
-
-**漏洞描述 / Description**:
-RunAs (runas.exe) in Windows 2000 only creates one session instance at a time, which allows local users to cause a denial of service (RunAs hang) by creating a named pipe session with the authentication server without any request for service.  NOTE: the vendor disputes this vulnerability, however the vendor also presents a scenario in which other users could be affected if running on a Terminal Server. Therefore this is a vulnerability.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://cert.uni-stuttgart.de/archive/bugtraq/2001/11/msg00100.html.
-
-**参考链接 / References**:
-- http://cert.uni-stuttgart.de/archive/bugtraq/2001/11/msg00100.html
-- http://online.securityfocus.com/archive/1/236113
-- http://www.iss.net/security_center/static/7533.php
-- http://www.securityfocus.com/bid/3291
-- http://cert.uni-stuttgart.de/archive/bugtraq/2001/11/msg00100.html
-
----
-
-#### 565. CVE-2001-1519
-
-**严重程度 / Severity**: N/A | CVSS: 3.6
-**受影响产品 / Affected Products**: microsoft:windows_2000
-
-**漏洞描述 / Description**:
-RunAs (runas.exe) in Windows 2000 allows local users to create a spoofed named pipe when the service is stopped, then capture cleartext usernames and passwords when clients connect to the service.  NOTE: the vendor disputes this issue, saying that administrative privileges are already required to exploit it
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/236111.
-
-**参考链接 / References**:
-- http://online.securityfocus.com/archive/1/236111
-- http://online.securityfocus.com/archive/1/240136
-- http://www.iss.net/security_center/static/7532.php
-- http://www.securityfocus.com/bid/3185
-- http://online.securityfocus.com/archive/1/236111
-
----
-
-#### 566. CVE-2001-1552
-
-**严重程度 / Severity**: N/A | CVSS: 5.0
-**受影响产品 / Affected Products**: microsoft:windows_me
-
-**漏洞描述 / Description**:
-ssdpsrv.exe in Windows ME allows remote attackers to cause a denial of service by sending multiple newlines in a Simple Service Discovery Protocol (SSDP) message.  NOTE: multiple replies to the original post state that the problem could not be reproduced.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-10/0133.html.
-
-**参考链接 / References**:
-- http://archives.neohapsis.com/archives/bugtraq/2001-10/0133.html
-- http://www.iss.net/security_center/static/7318.php
-- http://www.securityfocus.com/bid/3442
-- http://archives.neohapsis.com/archives/bugtraq/2001-10/0133.html
-- http://www.iss.net/security_center/static/7318.php
-
----
-
-#### 567. CVE-2001-1560
-
-**严重程度 / Severity**: N/A | CVSS: 2.1
-**受影响产品 / Affected Products**: microsoft:windows_xp, microsoft:windows_2000
-
-**漏洞描述 / Description**:
-Win32k.sys (aka Graphics Device Interface (GDI)) in Windows 2000 and XP allows local users to cause a denial of service (system crash) by calling the ShowWindow function after receiving a WM_NCCREATE message.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://www.derkeiler.com/Mailing-Lists/NT-Bugtraq/2001-10/0066.html.
-
-**参考链接 / References**:
-- http://www.derkeiler.com/Mailing-Lists/NT-Bugtraq/2001-10/0066.html
-- http://www.iss.net/security_center/static/7409.php
-- http://www.securityfocus.com/bid/3481
-- http://www.derkeiler.com/Mailing-Lists/NT-Bugtraq/2001-10/0066.html
-- http://www.iss.net/security_center/static/7409.php
-
----
-
-#### 568. CVE-2001-1570
-
-**严重程度 / Severity**: N/A | CVSS: 2.1
-**受影响产品 / Affected Products**: microsoft:windows_xp
-
-**漏洞描述 / Description**:
-Windows XP with fast user switching and account lockout enabled allows local users to deny user account access by setting the fast user switch to the same user (self) multiple times, which causes other accounts to be locked out.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-12/0213.html.
-
-**参考链接 / References**:
-- http://archives.neohapsis.com/archives/bugtraq/2001-12/0213.html
-- http://www.iss.net/security_center/static/7731.php
-- http://www.securityfocus.com/bid/3717
-- http://archives.neohapsis.com/archives/bugtraq/2001-12/0213.html
-- http://www.iss.net/security_center/static/7731.php
-
----
-
-#### 569. CVE-2001-1571
-
-**严重程度 / Severity**: N/A | CVSS: 5.0
-**受影响产品 / Affected Products**: microsoft:windows_xp
-
-**漏洞描述 / Description**:
-The Remote Desktop client in Windows XP sends the most recent user account name in cleartext, which could allow remote attackers to obtain terminal server user account names via sniffing.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-12/0213.html.
-
-**参考链接 / References**:
-- http://archives.neohapsis.com/archives/bugtraq/2001-12/0213.html
-- http://www.iss.net/security_center/static/7732.php
-- http://www.securityfocus.com/bid/3720
-- http://archives.neohapsis.com/archives/bugtraq/2001-12/0213.html
-- http://www.iss.net/security_center/static/7732.php
-
----
-
-#### 570. CVE-2001-1573
-
-**严重程度 / Severity**: N/A | CVSS: 10.0
-**受影响产品 / Affected Products**: trend_micro:interscan_viruswall
-
-**漏洞描述 / Description**:
-Buffer overflow in smtpscan.dll for Trend Micro InterScan VirusWall 3.51 for Windows NT has allows remote attackers to execute arbitrary code via a certain configuration parameter.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://cert.uni-stuttgart.de/archive/bugtraq/2001/06/msg00407.html.
-
-**参考链接 / References**:
-- http://cert.uni-stuttgart.de/archive/bugtraq/2001/06/msg00407.html
-- http://cert.uni-stuttgart.de/archive/bugtraq/2001/06/msg00407.html
-
----
-
-#### 571. CVE-2002-0020
-
-**严重程度 / Severity**: N/A | CVSS: 7.5
-**受影响产品 / Affected Products**: microsoft:interix, microsoft:windows_2000
-
-**漏洞描述 / Description**:
-Buffer overflow in telnet server in Windows 2000 and Interix 2.2 allows remote attackers to execute arbitrary code via malformed protocol options.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://www.iss.net/security_center/static/8094.php.
-
-**参考链接 / References**:
-- http://www.iss.net/security_center/static/8094.php
-- http://www.securityfocus.com/bid/4061
-- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2002/ms02-004
-- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A424
-- http://www.iss.net/security_center/static/8094.php
-
----
-
-#### 572. CVE-2002-0053
-
-**严重程度 / Severity**: N/A | CVSS: 7.5
-**受影响产品 / Affected Products**: microsoft:windows_98, microsoft:windows_2000, microsoft:windows_98se, microsoft:windows_nt, microsoft:windows_xp
-
-**漏洞描述 / Description**:
-Buffer overflow in SNMP agent service in Windows 95/98/98SE, Windows NT 4.0, Windows 2000, and Windows XP allows remote attackers to cause a denial of service or execute arbitrary code via a malformed management request.  NOTE: this candidate may be split or merged with other candidates.  This and other PROTOS-related candidates, especially CVE-2002-0012 and CVE-2002-0013, will be updated when more accurate information is available.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0012.
-
-**参考链接 / References**:
-- http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0012
-- http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0013
-- http://www.cert.org/advisories/CA-2002-03.html
-- http://www.ee.oulu.fi/research/ouspg/protos/testing/c06/snmpv1/index.html
-- http://www.kb.cert.org/vuls/id/107186
-
----
-
-#### 573. CVE-2002-0070
-
-**严重程度 / Severity**: N/A | CVSS: 7.6
-**受影响产品 / Affected Products**: microsoft:windows_nt, microsoft:windows_98, microsoft:windows_2000, microsoft:windows_98se
-
-**漏洞描述 / Description**:
-Buffer overflow in Windows Shell (used as the Windows Desktop) allows local and possibly remote attackers to execute arbitrary code via a custom URL handler that has not been removed for an application that has been improperly uninstalled.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101594127017290&w=2.
-
-**参考链接 / References**:
-- http://marc.info/?l=bugtraq&m=101594127017290&w=2
-- http://www.iss.net/security_center/static/8384.php
-- http://www.ntbugtraq.com/default.asp?pid=36&sid=1&A2=ind0203&L=ntbugtraq&F=P&S=&P=2404
-- http://www.securityfocus.com/bid/4248
-- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2002/ms02-014
-
----
-
-#### 574. CVE-2002-0142
-
-**严重程度 / Severity**: N/A | CVSS: 7.5
-**受影响产品 / Affected Products**: pi3:pi3web
-
-**漏洞描述 / Description**:
-CGI handler in John Roy Pi3Web for Windows 2.0 beta 1 and 2 allows remote attackers to cause a denial of service (crash) via a series of requests whose physical path is exactly 260 characters long and ends in a series of . (dot) characters.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101164598828093&w=2.
-
-**参考链接 / References**:
-- http://marc.info/?l=bugtraq&m=101164598828093&w=2
-- http://marc.info/?l=ntbugtraq&m=101102275316307&w=2
-- http://online.securityfocus.com/archive/1/250126
-- http://sourceforge.net/tracker/index.php?func=detail&aid=505583&group_id=17753&atid=317753
-- http://www.iss.net/security_center/static/7880.php
-
----
-
-#### 575. CVE-2002-0051
-
-**严重程度 / Severity**: HIGH | CVSS: 7.8
-**受影响产品 / Affected Products**: microsoft:windows_2000
-
-**漏洞描述 / Description**:
-Windows 2000 allows local users to prevent the application of new group policy settings by opening Group Policy files with exclusive-read access.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/244329.
-
-**参考链接 / References**:
-- http://online.securityfocus.com/archive/1/244329
-- http://www.securityfocus.com/bid/4438
-- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2002/ms02-016
-- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A38
-- http://online.securityfocus.com/archive/1/244329
-
----
-
-#### 576. CVE-2002-0065
-
-**严重程度 / Severity**: N/A | CVSS: 7.2
-**受影响产品 / Affected Products**: funk_software:funk_software_proxy, bindview:netrc
-
-**漏洞描述 / Description**:
-Funk Software Proxy Host 3.x uses weak encryption for the Proxy Host password, which allows local users to gain privileges by recovering the passwords from the PHOST.INI file or the Windows registry.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://razor.bindview.com/publish/advisories/adv_FunkProxy.html.
-
-**参考链接 / References**:
-- http://razor.bindview.com/publish/advisories/adv_FunkProxy.html
-- http://www.iss.net/security_center/static/8792.php
-- http://www.securityfocus.com/bid/4459
-- http://razor.bindview.com/publish/advisories/adv_FunkProxy.html
-- http://www.iss.net/security_center/static/8792.php
-
----
-
-#### 577. CVE-2002-0159
-
-**严重程度 / Severity**: N/A | CVSS: 7.5
-**受影响产品 / Affected Products**: cisco:secure_access_control_server
-
-**漏洞描述 / Description**:
-Format string vulnerability in the administration function in Cisco Secure Access Control Server (ACS) for Windows, 2.6.x and earlier and 3.x through 3.01 (build 40), allows remote attackers to crash the CSADMIN  module only (denial of service of administration function) or execute arbitrary code via format strings in the URL to port 2002.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101787248913611&w=2.
-
-**参考链接 / References**:
-- http://marc.info/?l=bugtraq&m=101787248913611&w=2
-- http://www.cisco.com/warp/public/707/ACS-Win-Web.shtml
-- http://www.iss.net/security_center/static/8742.php
-- http://www.osvdb.org/2062
-- http://www.securityfocus.com/bid/4416
-
----
-
-#### 578. CVE-2002-0160
-
-**严重程度 / Severity**: N/A | CVSS: 5.0
-**受影响产品 / Affected Products**: cisco:secure_access_control_server
-
-**漏洞描述 / Description**:
-The administration function in Cisco Secure Access Control Server (ACS) for Windows, 2.6.x and earlier and 3.x through 3.01 (build 40), allows remote attackers to read HTML, Java class, and image files outside the web root via a ..\.. (modified ..) in the URL to port 2002.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101786689128667&w=2.
-
-**参考链接 / References**:
-- http://marc.info/?l=bugtraq&m=101786689128667&w=2
-- http://www.cisco.com/warp/public/707/ACS-Win-Web.shtml
-- http://www.osvdb.org/5352
-- http://marc.info/?l=bugtraq&m=101786689128667&w=2
-- http://www.cisco.com/warp/public/707/ACS-Win-Web.shtml
-
----
-
-#### 579. CVE-2002-0200
-
-**严重程度 / Severity**: N/A | CVSS: 5.0
-**受影响产品 / Affected Products**: cyberstop:cyberstop_web_server
-
-**漏洞描述 / Description**:
-Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service via an HTTP request for an MS-DOS device name.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101174569103289&w=2.
-
-**参考链接 / References**:
-- http://marc.info/?l=bugtraq&m=101174569103289&w=2
-- http://www.iss.net/security_center/static/7959.php
-- http://www.securityfocus.com/bid/3929
-- http://marc.info/?l=bugtraq&m=101174569103289&w=2
-- http://www.iss.net/security_center/static/7959.php
-
----
-
-#### 580. CVE-2002-0201
-
-**严重程度 / Severity**: N/A | CVSS: 5.0
-**受影响产品 / Affected Products**: cyberstop:cyberstop_web_server
-
-**漏洞描述 / Description**:
-Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a long HTTP GET request, possibly triggering a buffer overflow.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101174569103289&w=2.
-
-**参考链接 / References**:
-- http://marc.info/?l=bugtraq&m=101174569103289&w=2
-- http://www.iss.net/security_center/static/7960.php
-- http://www.securityfocus.com/bid/3930
-- http://marc.info/?l=bugtraq&m=101174569103289&w=2
-- http://www.iss.net/security_center/static/7960.php
-
----
-
-#### 581. CVE-2002-0208
-
-**严重程度 / Severity**: N/A | CVSS: 5.0
-**受影响产品 / Affected Products**: network.associates:pgpfire
-
-**漏洞描述 / Description**:
-PGP Security PGPfire 7.1 for Windows alters the system's TCP/IP stack and modifies packets in ICMP error messages in a way that allows remote attackers to determine that the system is running PGPfire.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/252407.
-
-**参考链接 / References**:
-- http://online.securityfocus.com/archive/1/252407
-- http://www.iss.net/security_center/static/8008.php
-- http://www.securityfocus.com/bid/3961
-- http://online.securityfocus.com/archive/1/252407
-- http://www.iss.net/security_center/static/8008.php
-
----
-
-#### 582. CVE-2002-0249
-
-**严重程度 / Severity**: N/A | CVSS: 5.0
-**受影响产品 / Affected Products**: apache:http_server
-
-**漏洞描述 / Description**:
-PHP for Windows, when installed on Apache 2.0.28 beta as a standalone CGI module, allows remote attackers to obtain the physical path of the php.exe via a request with malformed arguments such as /123, which leaks the pathname in the error message.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101311698909691&w=2.
-
-**参考链接 / References**:
-- http://marc.info/?l=bugtraq&m=101311698909691&w=2
-- http://www.iss.net/security_center/static/8121.php
-- http://www.securityfocus.com/bid/4056
-- http://marc.info/?l=bugtraq&m=101311698909691&w=2
-- http://www.iss.net/security_center/static/8121.php
-
----
-
-#### 583. CVE-2002-0283
-
-**严重程度 / Severity**: N/A | CVSS: 5.0
-**受影响产品 / Affected Products**: microsoft:windows_xp
-
-**漏洞描述 / Description**:
-Windows XP with port 445 open allows remote attackers to cause a denial of service (CPU consumption) via a flood of TCP SYN packets containing possibly malformed data.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101408718030099&w=2.
-
-**参考链接 / References**:
-- http://marc.info/?l=bugtraq&m=101408718030099&w=2
-- http://marc.info/?l=bugtraq&m=101408718030099&w=2
-
----
-
-#### 584. CVE-2002-0285
-
-**严重程度 / Severity**: N/A | CVSS: 7.5
-**受影响产品 / Affected Products**: microsoft:outlook_express
-
-**漏洞描述 / Description**:
-Outlook Express 5.5 and 6.0 on Windows treats a carriage return ("CR") in a message header as if it were a valid carriage return/line feed combination (CR/LF), which could allow remote attackers to bypass virus protection and or other filtering mechanisms via a mail message with headers that only contain the CR, which causes Outlook to create separate headers.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101362077701164&w=2.
-
-**参考链接 / References**:
-- http://marc.info/?l=bugtraq&m=101362077701164&w=2
-- http://www.iss.net/security_center/static/8198.php
-- http://www.securityfocus.com/bid/4092
-- http://marc.info/?l=bugtraq&m=101362077701164&w=2
-- http://www.iss.net/security_center/static/8198.php
-
----
-
-#### 585. CVE-2002-0576
-
-**严重程度 / Severity**: N/A | CVSS: 5.0
-**受影响产品 / Affected Products**: allaire:coldfusion_server
-
-**漏洞描述 / Description**:
-ColdFusion 5.0 and earlier on Windows systems allows remote attackers to determine the absolute pathname of .cfm or .dbm files via an HTTP request that contains an MS-DOS device name such as NUL, which leaks the pathname in an error message.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2002-q2/0028.html.
-
-**参考链接 / References**:
-- http://archives.neohapsis.com/archives/vulnwatch/2002-q2/0028.html
-- http://online.securityfocus.com/archive/1/268263
-- http://www.iss.net/security_center/static/8866.php
-- http://www.macromedia.com/v1/handlers/index.cfm?ID=22906
-- http://www.osvdb.org/3337
-
----
-
-#### 586. CVE-2002-0314
-
-**严重程度 / Severity**: N/A | CVSS: 5.0
-**受影响产品 / Affected Products**: music_city_networks:morpheus, grokster:grokster, fasttrack:kazaa
-
-**漏洞描述 / Description**:
-fasttrack p2p, as used in (1) KaZaA before 1.5, (2) grokster, and (3) morpheus allows remote attackers to cause a denial of service (memory exhaustion) via a series of client-to-client messages, which pops up new windows per message.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101441689224760&w=2.
-
-**参考链接 / References**:
-- http://marc.info/?l=bugtraq&m=101441689224760&w=2
-- http://www.iss.net/security_center/static/8273.php
-- http://www.securityfocus.com/bid/4122
-- http://marc.info/?l=bugtraq&m=101441689224760&w=2
-- http://www.iss.net/security_center/static/8273.php
-
----
-
-#### 587. CVE-2002-0340
-
-**严重程度 / Severity**: N/A | CVSS: 7.5
-**受影响产品 / Affected Products**: microsoft:windows_media_player
-
-**漏洞描述 / Description**:
-Windows Media Player (WMP) 8.00.00.4477, and possibly other versions, automatically detects and executes .wmf and other content, even when the file's extension or content type does not specify .wmf, which could make it easier for attackers to conduct unauthorized activities via Trojan horse files containing .wmf content.
-
-**补丁信息 / Patch Info**:
-Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101447771102582&w=2.
-
-**参考链接 / References**:
-- http://marc.info/?l=bugtraq&m=101447771102582&w=2
-- http://marc.info/?l=bugtraq&m=101447771102582&w=2
-
----
-
-#### 588. [Microsoft] CVE-2026-43058 - media: vidtv: fix pass-by-value structs causing MSAN warnings
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Mariner
-
-**漏洞描述 / Description**:
-[Microsoft]
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-43058
-
----
-
-#### 589. [Microsoft] CVE-2026-7896 - Chromium: CVE-2026-7896 Integer overflow in Blink
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
-
-**漏洞描述 / Description**:
-[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-7896
-
----
-
-#### 590. [Microsoft] CVE-2026-7918 - Chromium: CVE-2026-7918 Use after free in GPU
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
-
-**漏洞描述 / Description**:
-[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-7918
-
----
-
-#### 591. [Microsoft] CVE-2026-7919 - Chromium: CVE-2026-7919 Use after free in Aura
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
-
-**漏洞描述 / Description**:
-[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-7919
-
----
-
-#### 592. [Microsoft] CVE-2026-7920 - Chromium: CVE-2026-7920 Use after free in Skia
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
-
-**漏洞描述 / Description**:
-[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-7920
-
----
-
-#### 593. [Microsoft] CVE-2026-7923 - Chromium: CVE-2026-7923 Out of bounds write in Skia
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
-
-**漏洞描述 / Description**:
-[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-7923
-
----
-
-#### 594. [Microsoft] CVE-2026-7921 - Chromium: CVE-2026-7921 Use after free in Passwords
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
-
-**漏洞描述 / Description**:
-[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-7921
-
----
-
-#### 595. [Microsoft] CVE-2026-7972 - Chromium: CVE-2026-7972 Uninitialized Use in GPU
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
-
-**漏洞描述 / Description**:
-[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-7972
-
----
-
-#### 596. [Microsoft] CVE-2026-7973 - Chromium: CVE-2026-7973 Integer overflow in Dawn
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
-
-**漏洞描述 / Description**:
-[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-7973
-
----
-
-#### 597. [Microsoft] CVE-2026-7974 - Chromium: CVE-2026-7974 Use after free in Blink
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
-
-**漏洞描述 / Description**:
-[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-7974
-
----
-
-#### 598. [Microsoft] CVE-2026-7975 - Chromium: CVE-2026-7975 Use after free in DevTools
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
-
-**漏洞描述 / Description**:
-[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-7975
-
----
-
-#### 599. [Microsoft] CVE-2026-7976 - Chromium: CVE-2026-7976 Use after free in Views
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
-
-**漏洞描述 / Description**:
-[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-7976
-
----
-
-#### 600. [Microsoft] CVE-2026-42826 - Azure DevOps Information Disclosure Vulnerability
+#### 546. [Microsoft] CVE-2026-41615 - Microsoft Authenticator Information Disclosure Vulnerability
 
 **严重程度 / Severity**: CRITICAL
-**受影响产品 / Affected Products**: Azure DevOps
+**受影响产品 / Affected Products**: Microsoft Authenticator
 
 **漏洞描述 / Description**:
-[Microsoft] Exposure of sensitive information to an unauthorized actor in Azure DevOps allows an unauthorized attacker to disclose information over a network.
+[Microsoft] Exposure of sensitive information to an unauthorized actor in Microsoft Authenticator allows an unauthorized attacker to disclose information over a network.
 
 **补丁信息 / Patch Info**:
 Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
 
 **参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-42826
+- https://www.cve.org/CVERecord?id=CVE-2026-41615
 
 ---
 
-#### 601. [Microsoft] CVE-2026-35428 - Azure Cloud Shell Spoofing Vulnerability
+#### 547. [Microsoft] CVE-2026-42897 - Microsoft Exchange Server Spoofing Vulnerability
 
 **严重程度 / Severity**: CRITICAL
-**受影响产品 / Affected Products**: Azure Cloud Shell
+**受影响产品 / Affected Products**: Microsoft Exchange Server
 
 **漏洞描述 / Description**:
-[Microsoft] Improper neutralization of special elements used in a command ('command injection') in Azure Cloud Shell allows an unauthorized attacker to perform spoofing over a network.
+[Microsoft] Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Exchange Server allows an unauthorized attacker to perform spoofing over a network.
 
 **补丁信息 / Patch Info**:
 Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
 
 **参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-35428
+- https://www.cve.org/CVERecord?id=CVE-2026-42897
 
 ---
 
-#### 602. [Microsoft] CVE-2026-35435 - Azure AI Foundry Elevation of Privilege Vulnerability
-
-**严重程度 / Severity**: CRITICAL
-**受影响产品 / Affected Products**: Azure AI Foundry M365 published agents
-
-**漏洞描述 / Description**:
-[Microsoft] Improper access control in Azure AI Foundry M365 published agents allows an unauthorized attacker to elevate privileges over a network.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-35435
-
----
-
-#### 603. [Microsoft] CVE-2026-34327 - Microsoft Partner Center Spoofing Vulnerability
-
-**严重程度 / Severity**: CRITICAL
-**受影响产品 / Affected Products**: Microsoft Partner Center
-
-**漏洞描述 / Description**:
-[Microsoft] Externally controlled reference to a resource in another sphere in Microsoft Partner Center allows an unauthorized attacker to perform spoofing over a network.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-34327
-
----
-
-#### 604. [Microsoft] CVE-2026-33844 - Azure Managed Instance for Apache Cassandra Remote Code Execution Vulnerability
-
-**严重程度 / Severity**: CRITICAL
-**受影响产品 / Affected Products**: Azure Managed Instance for Apache Cassandra
-
-**漏洞描述 / Description**:
-[Microsoft] Improper input validation in Azure Managed Instance for Apache Cassandra allows an authorized attacker to execute code over a network.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-33844
-
----
-
-#### 605. [Microsoft] CVE-2026-33823 - Microsoft Team Events Portal Information Disclosure Vulnerability
-
-**严重程度 / Severity**: CRITICAL
-**受影响产品 / Affected Products**: Microsoft Teams
-
-**漏洞描述 / Description**:
-[Microsoft] Improper authorization in Microsoft Teams allows an authorized attacker to disclose information over a network.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-33823
-
----
-
-#### 606. [Microsoft] CVE-2026-32207 - Azure Machine Learning Notebook Spoofing Vulnerability
-
-**严重程度 / Severity**: CRITICAL
-**受影响产品 / Affected Products**: Azure Machine Learning
-
-**漏洞描述 / Description**:
-[Microsoft] Improper neutralization of input during web page generation ('cross-site scripting') in Azure Machine Learning allows an unauthorized attacker to perform spoofing over a network.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-32207
-
----
-
-#### 607. [Microsoft] CVE-2026-40379 - Microsoft Enterprise Security Token Service (ESTS) Spoofing Vulnerability
-
-**严重程度 / Severity**: CRITICAL
-**受影响产品 / Affected Products**: Azure Entra ID
-
-**漏洞描述 / Description**:
-[Microsoft] Exposure of sensitive information to an unauthorized actor in Azure Entra ID allows an unauthorized attacker to perform spoofing over a network.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-40379
-
----
-
-#### 608. [Microsoft] CVE-2026-33109 - Azure Managed Instance for Apache Cassandra Remote Code Execution Vulnerability
-
-**严重程度 / Severity**: CRITICAL
-**受影响产品 / Affected Products**: Azure Managed Instance for Apache Cassandra
-
-**漏洞描述 / Description**:
-[Microsoft] Improper access control in Azure Managed Instance for Apache Cassandra allows an authorized attacker to execute code over a network.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-33109
-
----
-
-#### 609. [Microsoft] CVE-2026-43398 - drm/amdgpu: add upper bound check on user inputs in wait ioctl
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Mariner
-
-**漏洞描述 / Description**:
-[Microsoft]
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-43398
-
----
-
-#### 610. [Microsoft] CVE-2026-43292 - mm/vmalloc: prevent RCU stalls in kasan_release_vmalloc_node
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Mariner
-
-**漏洞描述 / Description**:
-[Microsoft]
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-43292
-
----
-
-#### 611. [Microsoft] CVE-2026-43400 - drm/amdgpu: add upper bound check on user inputs in signal ioctl
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Mariner
-
-**漏洞描述 / Description**:
-[Microsoft]
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-43400
-
----
-
-#### 612. [Microsoft] CVE-2026-43305 - drm/amd/display: Fix mismatched unlock for DMUB HW lock in HWSS fast path
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Mariner
-
-**漏洞描述 / Description**:
-[Microsoft]
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-43305
-
----
-
-#### 613. [Microsoft] CVE-2026-43321 - bpf: Properly mark live registers for indirect jumps
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Mariner
-
-**漏洞描述 / Description**:
-[Microsoft]
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-43321
-
----
-
-#### 614. [Microsoft] CVE-2026-43306 - bpf: crypto: Use the correct destructor kfunc type
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Mariner
-
-**漏洞描述 / Description**:
-[Microsoft]
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-43306
-
----
-
-#### 615. [Microsoft] CVE-2026-43320 - drm/amd/display: Fix dsc eDP issue
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Mariner
-
-**漏洞描述 / Description**:
-[Microsoft]
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-43320
-
----
-
-#### 616. [Microsoft] CVE-2026-43300 - drm/panel: Fix a possible null-pointer dereference in jdi_panel_dsi_remove()
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Mariner
-
-**漏洞描述 / Description**:
-[Microsoft]
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-43300
-
----
-
-#### 617. [Microsoft] CVE-2026-43284 - xfrm: esp: avoid in-place decrypt on shared skb frags
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Mariner
-
-**漏洞描述 / Description**:
-[Microsoft]
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-43284
-
----
-
-#### 618. [Microsoft] CVE-2025-71299 - spi: cadence-quadspi: Parse DT for flashes with the rest of the DT parsing
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Mariner
-
-**漏洞描述 / Description**:
-[Microsoft]
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2025-71299
-
----
-
-#### 619. [Microsoft] CVE-2025-71302 - drm/panthor: fix for dma-fence safe access rules
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Mariner
-
-**漏洞描述 / Description**:
-[Microsoft]
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2025-71302
-
----
-
-#### 620. [Microsoft] CVE-2026-43474 - fs: init flags_valid before calling vfs_fileattr_get
-
-**严重程度 / Severity**: N/A
-**受影响产品 / Affected Products**: Mariner
-
-**漏洞描述 / Description**:
-[Microsoft]
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-43474
-
----
-
-#### 621. [Microsoft] CVE-2026-42893 - Microsoft Outlook for iOS Tampering Vulnerability
+#### 548. [Microsoft] CVE-2026-42893 - Microsoft Outlook for iOS Tampering Vulnerability
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: M365 Copilot
@@ -9849,7 +8537,7 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 ---
 
-#### 622. [Microsoft] CVE-2025-54518 - AMD: CVE-2025-54518 CPU OP Cache Corruption
+#### 549. [Microsoft] CVE-2025-54518 - AMD: CVE-2025-54518 CPU OP Cache Corruption
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: AMD CPU Branch
@@ -9867,7 +8555,7 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 ---
 
-#### 623. [Microsoft] CVE-2026-42833 - Microsoft Dynamics 365 On-Premises Remote Code Execution Vulnerability
+#### 550. [Microsoft] CVE-2026-42833 - Microsoft Dynamics 365 On-Premises Remote Code Execution Vulnerability
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: Microsoft Dynamics 365 (on-premises)
@@ -9883,7 +8571,7 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 ---
 
-#### 624. [Microsoft] CVE-2026-42832 - Microsoft Office Spoofing Vulnerability
+#### 551. [Microsoft] CVE-2026-42832 - Microsoft Office Spoofing Vulnerability
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: Microsoft Office
@@ -9899,7 +8587,7 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 ---
 
-#### 625. [Microsoft] CVE-2026-42830 - Azure Monitor Agent Metrics Extension Elevation of Privilege Vulnerability
+#### 552. [Microsoft] CVE-2026-42830 - Azure Monitor Agent Metrics Extension Elevation of Privilege Vulnerability
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: Azure Monitor Agent
@@ -9915,7 +8603,7 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 ---
 
-#### 626. [Microsoft] CVE-2026-42823 - Azure Logic Apps Elevation of Privilege Vulnerability
+#### 553. [Microsoft] CVE-2026-42823 - Azure Logic Apps Elevation of Privilege Vulnerability
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: Azure Logic Apps
@@ -9931,7 +8619,7 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 ---
 
-#### 627. [Microsoft] CVE-2026-41613 - Visual Studio Code Elevation of Privilege Vulnerability
+#### 554. [Microsoft] CVE-2026-41613 - Visual Studio Code Elevation of Privilege Vulnerability
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: Visual Studio Code
@@ -9947,7 +8635,7 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 ---
 
-#### 628. [Microsoft] CVE-2026-41103 - Microsoft SSO Plugin for Jira & Confluence Elevation of Privilege Vulnerability
+#### 555. [Microsoft] CVE-2026-41103 - Microsoft SSO Plugin for Jira & Confluence Elevation of Privilege Vulnerability
 
 **严重程度 / Severity**: CRITICAL
 **受影响产品 / Affected Products**: Microsoft SSO Plugin for Jira & Confluence
@@ -9963,7 +8651,7 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 ---
 
-#### 629. [Microsoft] CVE-2026-40381 - Azure Connected Machine Agent Elevation of Privilege Vulnerability
+#### 556. [Microsoft] CVE-2026-40381 - Azure Connected Machine Agent Elevation of Privilege Vulnerability
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: Azure Connected Machine Agent
@@ -9979,7 +8667,7 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 ---
 
-#### 630. [Microsoft] CVE-2026-41097 - Secure Boot Security Feature Bypass Vulnerability
+#### 557. [Microsoft] CVE-2026-41097 - Secure Boot Security Feature Bypass Vulnerability
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: Windows Secure Boot
@@ -9995,7 +8683,7 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 ---
 
-#### 631. [Microsoft] CVE-2026-41086 - Windows Admin Center in Azure Portal Elevation of Privilege Vulnerability
+#### 558. [Microsoft] CVE-2026-41086 - Windows Admin Center in Azure Portal Elevation of Privilege Vulnerability
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: Windows Admin Center
@@ -10011,7 +8699,7 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 ---
 
-#### 632. [Microsoft] CVE-2026-40420 - Microsoft Office Click-To-Run Elevation of Privilege Vulnerability
+#### 559. [Microsoft] CVE-2026-40420 - Microsoft Office Click-To-Run Elevation of Privilege Vulnerability
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: Microsoft Office Click-To-Run
@@ -10027,7 +8715,7 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 ---
 
-#### 633. [Microsoft] CVE-2026-35436 - Microsoft Office Click-To-Run Elevation of Privilege Vulnerability
+#### 560. [Microsoft] CVE-2026-35436 - Microsoft Office Click-To-Run Elevation of Privilege Vulnerability
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: Microsoft Office Click-To-Run
@@ -10043,7 +8731,7 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 ---
 
-#### 634. [Microsoft] CVE-2026-40418 - Microsoft Office Click-To-Run Elevation of Privilege Vulnerability
+#### 561. [Microsoft] CVE-2026-40418 - Microsoft Office Click-To-Run Elevation of Privilege Vulnerability
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: Microsoft Office Click-To-Run
@@ -10059,7 +8747,7 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 ---
 
-#### 635. [Microsoft] CVE-2026-40413 - Windows TCP/IP Denial of Service Vulnerability
+#### 562. [Microsoft] CVE-2026-40413 - Windows TCP/IP Denial of Service Vulnerability
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: Windows TCP/IP
@@ -10075,7 +8763,7 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 ---
 
-#### 636. [Microsoft] CVE-2026-40403 - Windows Graphics Component Remote Code Execution Vulnerability
+#### 563. [Microsoft] CVE-2026-40403 - Windows Graphics Component Remote Code Execution Vulnerability
 
 **严重程度 / Severity**: CRITICAL
 **受影响产品 / Affected Products**: Windows Win32K - GRFX
@@ -10091,7 +8779,7 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 ---
 
-#### 637. [Microsoft] CVE-2026-40402 - Windows Hyper-V Elevation of Privilege Vulnerability
+#### 564. [Microsoft] CVE-2026-40402 - Windows Hyper-V Elevation of Privilege Vulnerability
 
 **严重程度 / Severity**: CRITICAL
 **受影响产品 / Affected Products**: Windows Hyper-V
@@ -10107,7 +8795,7 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 ---
 
-#### 638. [Microsoft] CVE-2026-40401 - Windows TCP/IP Denial of Service Vulnerability
+#### 565. [Microsoft] CVE-2026-40401 - Windows TCP/IP Denial of Service Vulnerability
 
 **严重程度 / Severity**: IMPORTANT
 **受影响产品 / Affected Products**: Windows TCP/IP
@@ -10120,69 +8808,5 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 **参考链接 / References**:
 - https://www.cve.org/CVERecord?id=CVE-2026-40401
-
----
-
-#### 639. [Microsoft] CVE-2026-40398 - Windows Remote Desktop Services Elevation of Privilege Vulnerability
-
-**严重程度 / Severity**: IMPORTANT
-**受影响产品 / Affected Products**: Windows Remote Desktop
-
-**漏洞描述 / Description**:
-[Microsoft] Heap-based buffer overflow in Windows Remote Desktop allows an authorized attacker to elevate privileges locally.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-40398
-
----
-
-#### 640. [Microsoft] CVE-2026-32209 - Windows Filtering Platform (WFP) Security Feature Bypass Vulnerability
-
-**严重程度 / Severity**: IMPORTANT
-**受影响产品 / Affected Products**: Windows Filtering Platform (WFP)
-
-**漏洞描述 / Description**:
-[Microsoft] Improper access control in Windows Filtering Platform (WFP) allows an authorized attacker to bypass a security feature locally.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-32209
-
----
-
-#### 641. [Microsoft] CVE-2026-41615 - Microsoft Authenticator Information Disclosure Vulnerability
-
-**严重程度 / Severity**: CRITICAL
-**受影响产品 / Affected Products**: Microsoft Authenticator
-
-**漏洞描述 / Description**:
-[Microsoft] Exposure of sensitive information to an unauthorized actor in Microsoft Authenticator allows an unauthorized attacker to disclose information over a network.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-41615
-
----
-
-#### 642. [Microsoft] CVE-2026-42897 - Microsoft Exchange Server Spoofing Vulnerability
-
-**严重程度 / Severity**: CRITICAL
-**受影响产品 / Affected Products**: Microsoft Exchange Server
-
-**漏洞描述 / Description**:
-[Microsoft] Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Exchange Server allows an unauthorized attacker to perform spoofing over a network.
-
-**补丁信息 / Patch Info**:
-Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
-
-**参考链接 / References**:
-- https://www.cve.org/CVERecord?id=CVE-2026-42897
 
 ---
