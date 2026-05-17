@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 964**
+**总计条目 / Total entries: 1014**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -15984,5 +15984,969 @@ Update to the latest Apple software version via System Settings > Software Updat
 
 **参考链接 / References**:
 - https://support.apple.com/en-us/127120
+
+---
+
+#### 965. CVE-2017-7119
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13 is affected. The issue involves the "IOFireWireFamily" component. It allows attackers to bypass intended memory-read restrictions via a crafted app.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/100993.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/100993
+- http://www.securitytracker.com/id/1039427
+- https://support.apple.com/HT208144
+- http://www.securityfocus.com/bid/100993
+- http://www.securitytracker.com/id/1039427
+
+---
+
+#### 966. CVE-2017-7121
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13 is affected. The issue involves the third-party "file" product. Versions before 5.30 allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/100993.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/100993
+- https://support.apple.com/HT208144
+- http://www.securityfocus.com/bid/100993
+- https://support.apple.com/HT208144
+
+---
+
+#### 967. CVE-2017-7122
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13 is affected. The issue involves the third-party "file" product. Versions before 5.30 allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/100993.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/100993
+- https://support.apple.com/HT208144
+- http://www.securityfocus.com/bid/100993
+- https://support.apple.com/HT208144
+
+---
+
+#### 968. CVE-2017-7123
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13 is affected. The issue involves the third-party "file" product. Versions before 5.30 allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/100993.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/100993
+- https://support.apple.com/HT208144
+- http://www.securityfocus.com/bid/100993
+- https://support.apple.com/HT208144
+
+---
+
+#### 969. CVE-2017-7124
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13 is affected. The issue involves the third-party "file" product. Versions before 5.30 allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/100993.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/100993
+- https://support.apple.com/HT208144
+- http://www.securityfocus.com/bid/100993
+- https://support.apple.com/HT208144
+
+---
+
+#### 970. CVE-2017-7125
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13 is affected. The issue involves the third-party "file" product. Versions before 5.30 allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/100993.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/100993
+- https://support.apple.com/HT208144
+- http://www.securityfocus.com/bid/100993
+- https://support.apple.com/HT208144
+
+---
+
+#### 971. CVE-2017-7126
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13 is affected. The issue involves the third-party "file" product. Versions before 5.30 allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/100993.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/100993
+- http://www.securitytracker.com/id/1038249
+- https://support.apple.com/HT208144
+- http://www.securityfocus.com/bid/100993
+- http://www.securitytracker.com/id/1038249
+
+---
+
+#### 972. CVE-2017-7127
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: apple:tvos, apple:iphone_os, apple:mac_os_x, apple:watchos, microsoft:windows
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. iOS before 11 is affected. macOS before 10.13 is affected. iCloud before 7.0 on Windows is affected. tvOS before 11 is affected. watchOS before 4 is affected. The issue involves the "SQLite" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/100990.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/100990
+- http://www.securitytracker.com/id/1039427
+- https://support.apple.com/HT208112
+- https://support.apple.com/HT208113
+- https://support.apple.com/HT208115
+
+---
+
+#### 973. CVE-2017-7128
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:watchos, apple:tvos, apple:iphone_os
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. iOS before 11 is affected. macOS before 10.13 is affected. tvOS before 11 is affected. watchOS before 4 is affected. The issue involves the third-party "SQLite" product. Versions before 3.19.3 allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/100987.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/100987
+- http://www.securitytracker.com/id/1039427
+- https://support.apple.com/HT208112
+- https://support.apple.com/HT208113
+- https://support.apple.com/HT208115
+
+---
+
+#### 974. CVE-2017-7129
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:watchos, apple:tvos, apple:iphone_os
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. iOS before 11 is affected. macOS before 10.13 is affected. tvOS before 11 is affected. watchOS before 4 is affected. The issue involves the third-party "SQLite" product. Versions before 3.19.3 allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/100987.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/100987
+- http://www.securitytracker.com/id/1039427
+- https://support.apple.com/HT208112
+- https://support.apple.com/HT208113
+- https://support.apple.com/HT208115
+
+---
+
+#### 975. CVE-2017-7130
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:watchos, apple:tvos, apple:iphone_os
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. iOS before 11 is affected. macOS before 10.13 is affected. tvOS before 11 is affected. watchOS before 4 is affected. The issue involves the third-party "SQLite" product. Versions before 3.19.3 allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/100987.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/100987
+- http://www.securitytracker.com/id/1039427
+- https://support.apple.com/HT208112
+- https://support.apple.com/HT208113
+- https://support.apple.com/HT208115
+
+---
+
+#### 976. CVE-2017-7138
+
+**严重程度 / Severity**: LOW | CVSS: 3.3
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13 is affected. The issue involves the "Directory Utility" component. It allows local users to discover the Apple ID of the computer's owner.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/100993.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/100993
+- http://www.securitytracker.com/id/1039427
+- https://support.apple.com/HT208144
+- http://www.securityfocus.com/bid/100993
+- http://www.securitytracker.com/id/1039427
+
+---
+
+#### 977. CVE-2017-7141
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.3
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13 is affected. The issue involves the "Mail" component. It allows remote attackers to bypass an intended off value of the "Load remote content in messages" setting, and consequently discover an e-mail recipient's IP address, via an HTML email message.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/100993.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/100993
+- http://www.securitytracker.com/id/1039427
+- https://support.apple.com/HT208144
+- http://www.securityfocus.com/bid/100993
+- http://www.securitytracker.com/id/1039427
+
+---
+
+#### 978. CVE-2017-7143
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13 is affected. The issue involves the "Captive Network Assistant" component. It allows remote attackers to discover cleartext passwords in opportunistic circumstances by sniffing the network during use of the captive portal browser, which has a UI error that can lead to cleartext transmission without the user's awareness.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/100993.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/100993
+- http://www.securitytracker.com/id/1039427
+- https://support.apple.com/HT208144
+- http://www.securityfocus.com/bid/100993
+- http://www.securitytracker.com/id/1039427
+
+---
+
+#### 979. CVE-2017-7149
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13 Supplemental Update is affected. The issue involves the "StorageKit" component. It allows attackers to discover passwords for APFS encrypted volumes by reading Disk Utility hints, because the stored hint value was accidentally set to the password itself, not the entered hint value.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/101178.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/101178
+- http://www.securitytracker.com/id/1039513
+- https://hackernoon.com/new-macos-high-sierra-vulnerability-exposes-the-password-of-an-encrypted-apfs-container-b4f2f5326e79
+- https://nakedsecurity.sophos.com/2017/10/05/urgent-update-your-mac-again-right-now/
+- https://support.apple.com/HT208165
+
+---
+
+#### 980. CVE-2017-7150
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13 Supplemental Update is affected. The issue involves the "Security" component. It allows attackers to bypass the keychain access prompt, and consequently extract passwords, via a synthetic click.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/101177.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/101177
+- http://www.securitytracker.com/id/1039430
+- https://support.apple.com/HT208165
+- http://www.securityfocus.com/bid/101177
+- http://www.securitytracker.com/id/1039430
+
+---
+
+#### 981. CVE-2017-16541
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+**受影响产品 / Affected Products**: redhat:enterprise_linux_eus, debian:debian_linux, torproject:tor, linux:linux_kernel, redhat:enterprise_linux_server_aus
+
+**漏洞描述 / Description**:
+Tor Browser before 7.0.9 on macOS and Linux allows remote attackers to bypass the intended anonymity feature and discover a client IP address via vectors involving a crafted web site that leverages file:// mishandling in Firefox, aka TorMoil. NOTE: Tails is unaffected.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/101665.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/101665
+- http://www.securitytracker.com/id/1041610
+- https://access.redhat.com/errata/RHSA-2018:2692
+- https://access.redhat.com/errata/RHSA-2018:2693
+- https://access.redhat.com/errata/RHSA-2018:3403
+
+---
+
+#### 982. CVE-2017-13782
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "Kernel" component. It allows attackers to bypass intended memory-read restrictions via a /dev/dtracehelper attack involving the dtrace_dif_variable and dtrace_getarg functions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://packetstormsecurity.com/files/172827/Apple-XNU-Kernel-Memory-Exposure.html.
+
+**参考链接 / References**:
+- http://packetstormsecurity.com/files/172827/Apple-XNU-Kernel-Memory-Exposure.html
+- http://www.securitytracker.com/id/1039710
+- https://lgtm.com/blog/apple_xnu_dtrace_CVE-2017-13782
+- https://support.apple.com/HT208221
+- http://packetstormsecurity.com/files/172827/Apple-XNU-Kernel-Memory-Exposure.html
+
+---
+
+#### 983. CVE-2017-13786
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.6
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "APFS" component. It does not properly restrict the DMA mapping time of FileVault decryption buffers, which allows attackers to read cleartext APFS data via a crafted Thunderbolt adapter.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 984. CVE-2017-13799
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:watchos, apple:tvos, apple:iphone_os
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. iOS before 11.1 is affected. macOS before 10.13.1 is affected. tvOS before 11.1 is affected. watchOS before 4.1 is affected. The issue involves the "Kernel" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039703.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039703
+- https://support.apple.com/HT208219
+- https://support.apple.com/HT208220
+- https://support.apple.com/HT208221
+- https://support.apple.com/HT208222
+
+---
+
+#### 985. CVE-2017-13800
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "APFS" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 986. CVE-2017-13801
+
+**严重程度 / Severity**: LOW | CVSS: 3.3
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "Dictionary Widget" component. It allows attackers to read local files if pasted text is used in a search.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 987. CVE-2017-13804
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:watchos, apple:tvos, apple:iphone_os
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. iOS before 11.1 is affected. macOS before 10.13.1 is affected. tvOS before 11.1 is affected. watchOS before 4.1 is affected. The issue involves the "StreamingZip" component. It allows remote attackers to write to unintended pathnames via a crafted ZIP archive.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039703.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039703
+- https://support.apple.com/HT208219
+- https://support.apple.com/HT208220
+- https://support.apple.com/HT208221
+- https://support.apple.com/HT208222
+
+---
+
+#### 988. CVE-2017-13807
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "Audio" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory consumption) via a crafted QuickTime file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 989. CVE-2017-13808
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "Remote Management" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 990. CVE-2017-13809
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "AppleScript" component. It allows remote attackers to execute arbitrary code via a crafted AppleScript file that is mishandled by osadecompile.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 991. CVE-2017-13810
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "Kernel" component. It allows local users to obtain sensitive information by leveraging an error in packet counters.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 992. CVE-2017-13811
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "fsck_msdos" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 993. CVE-2017-13812
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "libarchive" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted archive file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 994. CVE-2017-13813
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "libarchive" component. It allows remote attackers to execute arbitrary code or cause a denial of service (buffer overflow and application crash) via a crafted archive file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 995. CVE-2017-13814
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "ImageIO" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted image file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 996. CVE-2017-13815
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the third-party "file" product. Versions before 5.31 allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 997. CVE-2017-13816
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "libarchive" component. It allows remote attackers to execute arbitrary code or cause a denial of service (buffer overflow and application crash) via a crafted archive file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 998. CVE-2017-13817
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An out-of-bounds read issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "Kernel" component. It allows local users to bypass intended memory-read restrictions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 999. CVE-2017-13818
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "Kernel" component. It allows attackers to bypass intended memory-read restrictions via a crafted app.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 1000. CVE-2017-13819
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.1
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "HelpViewer" component. A cross-site scripting (XSS) vulnerability allows remote attackers to inject arbitrary web script or HTML by bypassing the Same Origin Policy for quarantined HTML documents.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 1001. CVE-2017-13820
+
+**严重程度 / Severity**: HIGH | CVSS: 7.1
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "ATS" component. It allows remote attackers to obtain sensitive information from process memory or cause a denial of service (memory corruption) via a crafted font.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 1002. CVE-2017-13821
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "CFString" component. It allows attackers to bypass intended memory-read restrictions via a crafted app.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 1003. CVE-2017-13822
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "Quick Look" component. It allows attackers to bypass intended memory-read restrictions via a crafted app.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 1004. CVE-2017-13823
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "QuickTime" component. It allows attackers to bypass intended memory-read restrictions via a crafted app.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 1005. CVE-2017-13824
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "Open Scripting Architecture" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted AppleScript file that is mishandled by osadecompile.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 1006. CVE-2017-13825
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "CoreText" component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory consumption) via a crafted font file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 1007. CVE-2017-13828
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "Fonts" component. It allows remote attackers to spoof the user interface via crafted text.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 1008. CVE-2017-13829
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "CFNetwork" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://support.apple.com/HT208221.
+
+**参考链接 / References**:
+- https://support.apple.com/HT208221
+- https://support.apple.com/HT208221
+
+---
+
+#### 1009. CVE-2017-13830
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "HFS" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 1010. CVE-2017-13831
+
+**严重程度 / Severity**: HIGH | CVSS: 7.1
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "ImageIO" component. It allows remote attackers to obtain sensitive information or cause a denial of service via a crafted image.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 1011. CVE-2017-13832
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "802.1X" component. It allows attackers to have an unspecified impact by leveraging TLS 1.0 support.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 1012. CVE-2017-13833
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "CFNetwork" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/102100.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/102100
+- http://www.securitytracker.com/id/1039952
+- http://www.securitytracker.com/id/1039953
+- http://www.securitytracker.com/id/1039966
+- https://support.apple.com/HT208221
+
+---
+
+#### 1013. CVE-2017-13834
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "Kernel" component. It allows remote attackers to cause a denial of service (memory corruption) or possibly have unspecified other impact via a crafted mach binary.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+
+---
+
+#### 1014. CVE-2017-13836
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+An issue was discovered in certain Apple products. macOS before 10.13.1 is affected. The issue involves the "Kernel" component. It allows attackers to bypass intended memory-read restrictions via a crafted app.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securitytracker.com/id/1039710.
+
+**参考链接 / References**:
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
+- http://www.securitytracker.com/id/1039710
+- https://support.apple.com/HT208221
 
 ---
