@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2166**
+**总计条目 / Total entries: 2263**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -35939,5 +35939,1266 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1212781#reply12
+
+---
+
+#### 2167. Wine 11.9 is released: highlights include Wayland pointer warping support, and beginning making use of system threads
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1telar8/wine_119_is_released_highlights_include_wayland/
+
+---
+
+#### 2168. This Week in Plasma: 6.7 beta release
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tep9ed/this_week_in_plasma_67_beta_release/
+
+---
+
+#### 2169. Looks like System Monitor is being replaced by Resources on Gnome 51
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tf38hw/looks_like_system_monitor_is_being_replaced_by/
+
+---
+
+#### 2170. Internet Download Manager style downloader for Linux with floating capture buttons
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1teom22/internet_download_manager_style_downloader_for/
+
+---
+
+#### 2171. Snap Firefox's RDD process consumed 28GB of shared memory and froze my system...
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tf0qca/snap_firefoxs_rdd_process_consumed_28gb_of_shared/
+
+---
+
+#### 2172. heads os won't boot
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tf6tlp/heads_os_wont_boot/
+
+---
+
+#### 2173. Recommendation Question: Which is a easy to learn/understand alternative to systemd?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tf6l1a/recommendation_question_which_is_a_easy_to/
+
+---
+
+#### 2174. new user here, i need help cause i dont know what else to do
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tf5vfk/new_user_here_i_need_help_cause_i_dont_know_what/
+
+---
+
+#### 2175. MBP 2015 Ubuntu or mint
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tf5gki/mbp_2015_ubuntu_or_mint/
+
+---
+
+#### 2176. How common is it for people to use something like debian/ubuntu with a non-native pkg mgr?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1teouu5/how_common_is_it_for_people_to_use_something_like/
+
+---
+
+#### 2177. What light-weight Linux Distro do you recommend for an Intel Celeron N4020 (4GB RAM)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1teokp1/what_lightweight_linux_distro_do_you_recommend/
+
+---
+
+#### 2178. Grub doesn't decrypt disk in real hardware but in qemu it does. But why?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tett1l/grub_doesnt_decrypt_disk_in_real_hardware_but_in/
+
+---
+
+#### 2179. Minecraft doesn't run unless I execute: xhost +local:
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tf30zt/minecraft_doesnt_run_unless_i_execute_xhost_local/
+
+---
+
+#### 2180. Cant hold keys to type
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tevg9l/cant_hold_keys_to_type/
+
+---
+
+#### 2181. Dual boot with win10 on linux mint
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tf0gns/dual_boot_with_win10_on_linux_mint/
+
+---
+
+#### 2182. Ark crashes. Why?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tf0ewe/ark_crashes_why/
+
+---
+
+#### 2183. GRUB stuck at “Booting a command list”
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1teuc1f/grub_stuck_at_booting_a_command_list/
+
+---
+
+#### 2184. Begginer in Mint. Need customization techniques. -_-
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1teztsz/begginer_in_mint_need_customization_techniques/
+
+---
+
+#### 2185. Complete noob from Windows 10 want to switch to linux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1teztce/complete_noob_from_windows_10_want_to_switch_to/
+
+---
+
+#### 2186. How do I install Nvidia graphics drivers on a KDE Debian Install?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tezhvs/how_do_i_install_nvidia_graphics_drivers_on_a_kde/
+
+---
+
+#### 2187. Ubuntu on Lenovo ThinkCentre M720X strange power on issue
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tezg1x/ubuntu_on_lenovo_thinkcentre_m720x_strange_power/
+
+---
+
+#### 2188. Ubuntu AMD video driver crashing while playing Sober (roblox). How to troubleshoot?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tez68p/ubuntu_amd_video_driver_crashing_while_playing/
+
+---
+
+#### 2189. Cannot transfer files to USB drive. Legacy BIOS system.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tez49r/cannot_transfer_files_to_usb_drive_legacy_bios/
+
+---
+
+#### 2190. A stop job is running for User Manager for UID 1000 (16s / 1min 49s). How do i fix it?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1teyq42/a_stop_job_is_running_for_user_manager_for_uid/
+
+---
+
+#### 2191. Nvidia Driver Fails, Fedora 44 Falls Back to Nouveau
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tesi8q/nvidia_driver_fails_fedora_44_falls_back_to/
+
+---
+
+#### 2192. Which linux distro should i choose?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tf3rhs/which_linux_distro_should_i_choose/
+
+---
+
+#### 2193. Is there a way to open android apps as of they were "normal" apps?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1ted4l3/is_there_a_way_to_open_android_apps_as_of_they/
+
+---
+
+#### 2194. What is the best performing linux distro for a very low end system?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1texc0f/what_is_the_best_performing_linux_distro_for_a/
+
+---
+
+#### 2195. MS WORD COVER PAGE
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tex1o6/ms_word_cover_page/
+
+---
+
+#### 2196. Windows to Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tevtq0/windows_to_linux/
+
+---
+
+#### 2197. This is my first time using Ubuntu, and it runs very smoothly
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1teyrcm/this_is_my_first_time_using_ubuntu_and_it_runs/
+
+---
+
+#### 2198. MacOS-> UBUNTU
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tf2fvf/macos_ubuntu/
+
+---
+
+#### 2199. Snap Firefox's RDD process consumed 28GB of shared memory and froze my system...
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tf0osh/snap_firefoxs_rdd_process_consumed_28gb_of_shared/
+
+---
+
+#### 2200. Ubuntu blockings VPNs?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tex5oy/ubuntu_blockings_vpns/
+
+---
+
+#### 2201. Intel RST vs Ubuntu 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tf641w/intel_rst_vs_ubuntu_2604/
+
+---
+
+#### 2202. CVE-2026-46333 (ssh-keysign-pwn)
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tf4aw7/cve202646333_sshkeysignpwn/
+
+---
+
+#### 2203. Windows boot manger missing after ubuntu download
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tf65pl/windows_boot_manger_missing_after_ubuntu_download/
+
+---
+
+#### 2204. VeloxDB (veloxdb.dev) is the SQL management tool I didn't know I needed on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tf35i7/veloxdb_veloxdbdev_is_the_sql_management_tool_i/
+
+---
+
+#### 2205. htop
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tf6fbh/htop/
+
+---
+
+#### 2206. Ubuntu installation slow command.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1teuqpm/ubuntu_installation_slow_command/
+
+---
+
+#### 2207. Мой стол рабочий!17.05.26
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tf681w/мой_стол_рабочий170526/
+
+---
+
+#### 2208. Greetins from Ubuntu Server
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tehzci/greetins_from_ubuntu_server/
+
+---
+
+#### 2209. Fingerprint Scanner
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tf1mdk/fingerprint_scanner/
+
+---
+
+#### 2210. Ubuntu on Lenovo ThinkCentre M720X strange power on issue
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tezgj7/ubuntu_on_lenovo_thinkcentre_m720x_strange_power/
+
+---
+
+#### 2211. Audio and Graphic issues on my laptop
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1teyd11/audio_and_graphic_issues_on_my_laptop/
+
+---
+
+#### 2212. Does anyone use Ubuntu as a TV?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tedwdr/does_anyone_use_ubuntu_as_a_tv/
+
+---
+
+#### 2213. Devuan with Openbox 197 MiB
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tenepo/devuan_with_openbox_197_mib/
+
+---
+
+#### 2214. 26.04 LTS installer hanging
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tep23f/2604_lts_installer_hanging/
+
+---
+
+#### 2215. Show all windows of single app. No shortcut?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1teoxfm/show_all_windows_of_single_app_no_shortcut/
+
+---
+
+#### 2216. Ubuntu 26 Accès compliqué au disque-dur
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tewctr/ubuntu_26_accès_compliqué_au_disquedur/
+
+---
+
+#### 2217. [ Removed by Reddit ]
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1teyqni/removed_by_reddit/
+
+---
+
+#### 2218. Ubuntu 26.04 Compatibility on ASUS ExpertBook P5 G2 (PM5606) - Ryzen AI 9 HX 470
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1teq5w4/ubuntu_2604_compatibility_on_asus_expertbook_p5/
+
+---
+
+#### 2219. Since CatchyOS is based on Arch, does that mean Arch can be configured to have the optimizations CatchyOS has?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1texrto/since_catchyos_is_based_on_arch_does_that_mean/
+
+---
+
+#### 2220. First time dual booting
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1texzj7/first_time_dual_booting/
+
+---
+
+#### 2221. Looking for a Distro to turn my older gaming laptop into a emulation machine
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tf6swy/looking_for_a_distro_to_turn_my_older_gaming/
+
+---
+
+#### 2222. Hi! I am wondering what are the pros and cons of Pop!OS?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tewc6n/hi_i_am_wondering_what_are_the_pros_and_cons_of/
+
+---
+
+#### 2223. Should I switch to linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1teuqlb/should_i_switch_to_linux/
+
+---
+
+#### 2224. Persistent Windows unintended
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1teyxcq/persistent_windows_unintended/
+
+---
+
+#### 2225. Ubuntu server doesn’t recognize SSD, it already was on AHCI
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1teyblk/ubuntu_server_doesnt_recognize_ssd_it_already_was/
+
+---
+
+#### 2226. Fingerprint Scanner
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tf1my2/fingerprint_scanner/
+
+---
+
+#### 2227. Hi help please VGA not working
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tf6z7j/hi_help_please_vga_not_working/
+
+---
+
+#### 2228. Boot Drive and Files
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tf5yxz/boot_drive_and_files/
+
+---
+
+#### 2229. Gnome question - customizing
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tf5pef/gnome_question_customizing/
+
+---
+
+#### 2230. Considering switching to linux, but not sure
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tes6v0/considering_switching_to_linux_but_not_sure/
+
+---
+
+#### 2231. Installed Linux Mint Cinnamon a few days ago; should I enable the firewall?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1teql92/installed_linux_mint_cinnamon_a_few_days_ago/
+
+---
+
+#### 2232. How to unbork my SSD system drive?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tf4rr7/how_to_unbork_my_ssd_system_drive/
+
+---
+
+#### 2233. Ethernet not working anymore
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1teu7ua/ethernet_not_working_anymore/
+
+---
+
+#### 2234. Easier Login
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tem1j6/easier_login/
+
+---
+
+#### 2235. Need some advice regarding linux and gaming
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tf1fcn/need_some_advice_regarding_linux_and_gaming/
+
+---
+
+#### 2236. Is Fedora Plasma KDE 44 faster than Windows 11 for a Potato laptop?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tf10xw/is_fedora_plasma_kde_44_faster_than_windows_11/
+
+---
+
+#### 2237. Simple text editors with *some* quality of life features?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tetiva/simple_text_editors_with_some_quality_of_life/
+
+---
+
+#### 2238. Cursor Configs - they work perfectly fine but I don't understand why
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1teqdy4/cursor_configs_they_work_perfectly_fine_but_i/
+
+---
+
+#### 2239. A stop job is running for User Manager for UID 1000 (16s / 1min 49s). How do i fix it?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1teypfw/a_stop_job_is_running_for_user_manager_for_uid/
+
+---
+
+#### 2240. Unable to boot Bazzite from USB; "active partition not found"
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tey02a/unable_to_boot_bazzite_from_usb_active_partition/
+
+---
+
+#### 2241. I can't load live USB on my very old laptop that I want to save
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tewm65/i_cant_load_live_usb_on_my_very_old_laptop_that_i/
+
+---
+
+#### 2242. made a cheat of radiogussr because i suck at it.
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1tf42e1/made_a_cheat_of_radiogussr_because_i_suck_at_it/
+
+---
+
+#### 2243. Epiq – A distributed git based issue tracker TUI optimized for ergonomics
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1teg7h0/epiq_a_distributed_git_based_issue_tracker_tui/
+
+---
+
+#### 2244. TAROTUI - Terminal Tarot [RELEASED]
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1tepft5/tarotui_terminal_tarot_released/
+
+---
+
+#### 2245. ssh vimflyer.app - A Terminal Arcade Game for Vim motions
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1tebop6/ssh_vimflyerapp_a_terminal_arcade_game_for_vim/
+
+---
+
+#### 2246. An ASCII shoot 'em up that runs entirely inside Windows CMD
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1td1v3k/an_ascii_shoot_em_up_that_runs_entirely_inside/
+
+---
+
+#### 2247. redthread: a sticky-note pegboard that lives in your terminal
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1tcnd6n/redthread_a_stickynote_pegboard_that_lives_in/
+
+---
+
+#### 2248. [V2EX] 国内的企业是压根不在乎域名吗
+
+**问题描述 / Problem Description**:
+看到一些 hack 域名，比如 redd.it 、 youtu.be ，挺好的，一眼能够看出来自哪里。 国内的企业好像没这种意识，B 站用的还是 b23.tv 这种没什么含义的域名。不知道在搞什么。 早些年可能还关注一点，比如天猫的 tianmao.com 。现在很少了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213230#reply13
+
+---
+
+#### 2249. [V2EX] 有没有好用手机端输入法？
+
+**问题描述 / Problem Description**:
+我真是受不了这个百度输入法了，联想前段时间突然变得弱智。 不需要语音输入。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213216#reply15
+
+---
+
+#### 2250. [V2EX] Bun 的 Rust 重写：一封来自 Zig 社区的公开信
+
+**问题描述 / Problem Description**:
+https://ziglang.cc/post/2026-05-16-bun-rust-port/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213191#reply17
+
+---
+
+#### 2251. [V2EX] 有了 agent 这种范式之后，语言大模型就不会算错基本的计算题了
+
+**问题描述 / Problem Description**:
+以前都说 LLM 是推理下一个字符，所以有可能算错 10+11 这种最基本的计算题 现在似乎不会了，agent 的逻辑之下，LLM 会发现这是一个计算题，所以会当场写一个脚本再来算，就不会算错了 很多以前纯靠预测字符的方案难以解决的问题现在似乎都被解决了（至少不会再犯离谱的错误
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213167#reply3
+
+---
+
+#### 2252. [V2EX] 开发用 Claude desktop 还是 Codex？
+
+**问题描述 / Problem Description**:
+这里不对两种选择做好坏评价。 从工具设计来说，Claude Desktop 设计思路是把所有东西塞进一个地方，「 Chat, Cowork, and Claude Code, all in one place 」，聊天、协作、终端，你坐在那儿和 AI 一起干活，它做一步你看一步，随时插手。用这类工具的人，天然喜欢盯着过程，不太放心把事情完全丢出去。 Codex 的思路是「 Use Codex across multiple surfaces, all connected by your ChatGPT account 」，CLI 、IDE 、手机端各用各的，任务扔出去，等结果，同时跑好几个。用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213136#reply7
+
+---
+
+#### 2253. [V2EX] 人在国外租了间房，然后房里有电脑，在国内有什么远程方案可以使用这台电脑? 主要是用 Claude 网页版和 code
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213129#reply41
+
+---
+
+#### 2254. [V2EX] codex 是通过本地安装 cc swithc 还是 newapi/sub2api 接入 deekpseek v4 更好
+
+**问题描述 / Problem Description**:
+有人用过吗? 可否说下哪个方式更好?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213127#reply10
+
+---
+
+#### 2255. [V2EX] 一个稍稍严肃的 Infra 开发， 200 刀 Codex 周消耗量
+
+**问题描述 / Problem Description**:
+5 月 12 日下午 3 时刷新了一周用量，到 5 月 15 日下午用完，下次刷新要等到 5 月 19 日了，套餐是 ChatGPT 200 刀，模型是 gpt-5.5 high fast 。 Infra 开发进入中后期（加模块），习惯是 Codex 主程（一个长期的 session ，token 使用量已经有 3.3B 左右），然后另开两个 Codex Review ，再加两个 Claude Code Review(100 刀套餐)。偶尔零散单开，忽略之。 按下面的统计来看，周用量如果跑标准 5.5API 大概是 1200 刀，fast 走 Priority ，也就是 2.5 倍是 3000
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213114#reply32
+
+---
+
+#### 2256. [V2EX] 我发现 CC 和 Codex 越来越像是温水煮青蛙
+
+**问题描述 / Problem Description**:
+新模型改分词器、新模型倍数消耗额度，单任务额度消耗被抬高； 在速度上也是，最近普通模式的速度体验明显变慢，他们顺势推出 fast 模式按倍数烧额度。 怕用户直接察觉到问题，好心推出短期额度翻倍让你适应高消耗，等活动结束你只会觉得“额度不禁用了”，而不是意识到它其实是在变相涨价。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213096#reply14
+
+---
+
+#### 2257. [V2EX] Tmux 会搞乱 codex 界面，所以我做了一款超简洁终端会话工具
+
+**问题描述 / Problem Description**:
+最近一直在践行行走编程、手机编程、口喷编程。目前个人设备状态是手机端、电脑端网络全部打通，所以我不用担心网络的问题。 最开始做了一个 Tmux 来远程运行 Code X 命令行的方式，但是我发现 Tmux 的 diff 序列会导致 Code X 在手机上用起来特别的垃圾。 所以便有了这个项目，超精简 session 管理，没有分屏、没有插件、没有状态栏。 有的只是断开重连，断开重连，优势是不会影响终端界面的显示。 使用教程: $ d codex --yolo # 开一个新会话。 # ctrl+] 临时断开会话 $ di # 用 fzf 来显示历史会话并恢复 是不是超级简单？ 而且对于我这种不喜
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213087#reply3
+
+---
+
+#### 2258. [V2EX] 中了一个小米 mimo 的 2 亿 token 套餐，发过来一个 64 位的种子
+
+**问题描述 / Problem Description**:
+求教，如何兑换，之前买过 coding plan ，知道怎么配置 claude code
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213066#reply4
+
+---
+
+#### 2259. [V2EX] codex 执行是真的慢啊,大家也是这样的吗
+
+**问题描述 / Problem Description**:
+平时 cursor 和 codex 都在用,不过 codex 执行一次太慢了,时不时就十几分钟,cursor 的 auto 要快很多,不过 codex 的智能要确实高不少
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213046#reply21
+
+---
+
+#### 2260. [V2EX] tauri 开发的应用浏览器感太重了
+
+**问题描述 / Problem Description**:
+PS: 虽然我知道它就是前端加浏览器那套东西 不知道是不是只有我有这种感觉,有些没处理的好应用随便右击还会出现前进/后退/停止/刷新的选项,文字和图标也非预期的能选中和拖动,并且整个界面感觉很臃肿动效也卡卡的完全没有原生的那种流畅感
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1212994#reply6
+
+---
+
+#### 2261. [V2EX] AI 时代，尽量开源自己项目的代码
+
+**问题描述 / Problem Description**:
+尤其是那些使用 Claude Code 写的代码。 真金白银花的 Token ，不能成为一家的语料库。与其被中转站碎片化的买卖，不如直接把成品端出来。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1212950#reply37
+
+---
+
+#### 2262. [V2EX] 几个国产大模型，用来对接用在 cc 上编程，哪家性价比高？
+
+**问题描述 / Problem Description**:
+codex 登录要手机号，加上之前的某境外大厂的账号莫名其妙被 ban ，想着用国产的得了，至少登录啥的省事不少。 现在国内的哪家好用点？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1212916#reply40
+
+---
+
+#### 2263. [V2EX] terminal.pub
+
+**问题描述 / Problem Description**:
+terminal.pub 之前在 V 站 看见推广来着 20265-15 跑路了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1212905#reply11
 
 ---
