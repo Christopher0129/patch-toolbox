@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1007**
+**总计条目 / Total entries: 1043**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -18692,5 +18692,702 @@ Apply patch from vendor. Monitor https://git.kernel.org/stable/c/1b3ff4d88b508b7
 - https://git.kernel.org/stable/c/7c1d221e475e3d8eb8ed4702392d43f8c5134d1f
 - https://git.kernel.org/stable/c/7e4d88e36e5d0b8ffda637999cbca64c81701a81
 - https://git.kernel.org/stable/c/d191101dee25567c2af3b28565f45346c33d65f5
+
+---
+
+#### 1008. CVE-2017-7358
+
+**严重程度 / Severity**: HIGH | CVSS: 7.3
+**受影响产品 / Affected Products**: lightdm_project:lightdm, canonical:ubuntu_linux
+
+**漏洞描述 / Description**:
+In LightDM through 1.22.0, a directory traversal issue in debian/guest-account.sh allows local attackers to own arbitrary directory path locations and escalate privileges to root when the guest user logs out.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bazaar.launchpad.net/~lightdm-team/lightdm/trunk/revision/2478.
+
+**参考链接 / References**:
+- http://bazaar.launchpad.net/~lightdm-team/lightdm/trunk/revision/2478
+- http://www.securityfocus.com/bid/97486
+- https://launchpad.net/bugs/1677924
+- https://lists.freedesktop.org/archives/lightdm/2017-April/001059.html
+- https://www.exploit-db.com/exploits/41923/
+
+---
+
+#### 1009. CVE-2015-6674
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: inspircd:inspircd, debian:debian_linux
+
+**漏洞描述 / Description**:
+Buffer underflow vulnerability in the Debian inspircd package before 2.0.5-1+deb7u1 for wheezy and before 2.0.16-1 for jessie and sid. NOTE: This issue exists as an additional issue from an incomplete fix of CVE-2012-1836.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.debian.org/security/2015/dsa-3226.
+
+**参考链接 / References**:
+- http://www.debian.org/security/2015/dsa-3226
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=780880
+- https://security.gentoo.org/glsa/201512-13
+- http://www.debian.org/security/2015/dsa-3226
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=780880
+
+---
+
+#### 1010. CVE-2017-8283
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: debian:dpkg
+
+**漏洞描述 / Description**:
+dpkg-source in dpkg 1.3.0 through 1.18.23 is able to use a non-GNU patch program and does not offer a protection mechanism for blank-indented diff hunks, which allows remote attackers to conduct directory traversal attacks via a crafted Debian source package, as demonstrated by use of dpkg-source on NetBSD.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.openwall.com/lists/oss-security/2017/04/20/2.
+
+**参考链接 / References**:
+- http://www.openwall.com/lists/oss-security/2017/04/20/2
+- http://www.securityfocus.com/bid/98064
+- http://www.openwall.com/lists/oss-security/2017/04/20/2
+- http://www.securityfocus.com/bid/98064
+
+---
+
+#### 1011. CVE-2017-0373
+
+**严重程度 / Severity**: HIGH | CVSS: 7.3
+**受影响产品 / Affected Products**: config-model_project:config-model
+
+**漏洞描述 / Description**:
+The gen_class_pod implementation in lib/Config/Model/Utils/GenClassPod.pm in Config-Model (aka libconfig-model-perl) before 2.102 has a dangerous "use lib" line, which allows remote attackers to have an unspecified impact via a crafted Debian package file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://cpansearch.perl.org/src/DDUMONT/Config-Model-2.102/Changes.
+
+**参考链接 / References**:
+- http://cpansearch.perl.org/src/DDUMONT/Config-Model-2.102/Changes
+- https://anonscm.debian.org/cgit/pkg-perl/packages/libconfig-model-perl.git/commit/?h=stretch&id=e7e5dd1a650939a0e021d1d5b311dbb3c4884773
+- https://security-tracker.debian.org/tracker/CVE-2017-0373
+- http://cpansearch.perl.org/src/DDUMONT/Config-Model-2.102/Changes
+- https://anonscm.debian.org/cgit/pkg-perl/packages/libconfig-model-perl.git/commit/?h=stretch&id=e7e5dd1a650939a0e021d1d5b311dbb3c4884773
+
+---
+
+#### 1012. CVE-2017-11565
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: debian:tor
+
+**漏洞描述 / Description**:
+debian/tor.init in the Debian tor_0.2.9.11-1~deb9u1 package for Tor was designed to execute aa-exec from the standard system pathname if the apparmor package is installed, but implements this incorrectly (with a wrong assumption that the specific pathname would remain the same forever), which allows attackers to bypass intended AppArmor restrictions by leveraging the silent loss of this protection mechanism. NOTE: this does not affect systems, such as default Debian stretch installations, on which Tor startup relies on a systemd unit file (instead of this tor.init script).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/99933.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/99933
+- https://bugs.debian.org/869153
+- http://www.securityfocus.com/bid/99933
+- https://bugs.debian.org/869153
+
+---
+
+#### 1013. CVE-2015-1378
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: grml:grml-debootstrap
+
+**漏洞描述 / Description**:
+cmdlineopts.clp in grml-debootstrap in Debian 0.54, 0.68.x before 0.68.1, 0.7x before 0.78 is sourced without checking that the local directory is writable by non-root users.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://cve.killedkenny.io/cve/CVE-2015-1378.
+
+**参考链接 / References**:
+- http://cve.killedkenny.io/cve/CVE-2015-1378
+- http://www.openwall.com/lists/oss-security/2015/01/27/17
+- https://github.com/grml/grml-debootstrap/issues/59
+- https://people.canonical.com/~ubuntu-security/cve/2015/CVE-2015-1378.html
+- https://security-tracker.debian.org/tracker/CVE-2015-1378/
+
+---
+
+#### 1014. CVE-2012-6696
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: inspircd:inspircd
+
+**漏洞描述 / Description**:
+inspircd in Debian before 2.0.7 does not properly handle unsigned integers.  NOTE: This vulnerability exists because of an incomplete fix to CVE-2012-1836.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.debian.org/security/2015/dsa-3226.
+
+**参考链接 / References**:
+- http://www.debian.org/security/2015/dsa-3226
+- http://www.openwall.com/lists/oss-security/2015/08/26/1
+- https://github.com/inspircd/inspircd/commit/ed28c1ba666b39581adb860bf51cdde43c84cc89
+- http://www.debian.org/security/2015/dsa-3226
+- http://www.openwall.com/lists/oss-security/2015/08/26/1
+
+---
+
+#### 1015. CVE-2017-8805
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.1
+**受影响产品 / Affected Products**: debian:ftpsync
+
+**漏洞描述 / Description**:
+Debian ftpsync before 20171017 does not use the rsync --safe-links option, which allows remote attackers to conduct directory traversal attacks via a crafted upstream mirror.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.openwall.com/lists/oss-security/2017/10/17/2.
+
+**参考链接 / References**:
+- http://www.openwall.com/lists/oss-security/2017/10/17/2
+- https://anonscm.debian.org/cgit/mirror/archvsync.git/commit/?id=d1ca2ab2210990b6dfb664cd6776a41b71c48016
+- https://lists.debian.org/debian-mirrors/2017/10/msg00017.html
+- http://www.openwall.com/lists/oss-security/2017/10/17/2
+- https://anonscm.debian.org/cgit/mirror/archvsync.git/commit/?id=d1ca2ab2210990b6dfb664cd6776a41b71c48016
+
+---
+
+#### 1016. CVE-2016-1253
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: debian:most, debian:debian_linux
+
+**漏洞描述 / Description**:
+The most package in Debian wheezy before 5.0.0a-2.2, in Debian jessie before 5.0.0a-2.3+deb8u1, and in Debian unstable before 5.0.0a-3 allows remote attackers to execute arbitrary commands via shell metacharacters in the name of an LZMA-compressed file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://seclists.org/oss-sec/2016/q4/666.
+
+**参考链接 / References**:
+- http://seclists.org/oss-sec/2016/q4/666
+- http://www.securityfocus.com/bid/94931
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=848132
+- https://lists.debian.org/debian-lts-announce/2016/12/msg00020.html
+- http://seclists.org/oss-sec/2016/q4/666
+
+---
+
+#### 1017. CVE-2011-2902
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.3
+**受影响产品 / Affected Products**: glyphandcog:xpdf, debian:debian_linux
+
+**漏洞描述 / Description**:
+zxpdf in xpdf before 3.02-19 as packaged in Debian unstable and 3.02-12+squeeze1 as packaged in Debian squeeze deletes temporary files insecurely, which allows remote attackers to delete arbitrary files via a crafted .pdf.gz file name.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.openwall.com/lists/oss-security/2014/02/08/5.
+
+**参考链接 / References**:
+- http://www.openwall.com/lists/oss-security/2014/02/08/5
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=635849
+- https://security-tracker.debian.org/tracker/CVE-2011-2902/
+- http://www.openwall.com/lists/oss-security/2014/02/08/5
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=635849
+
+---
+
+#### 1018. CVE-2017-18265
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: prosody:prosody, debian:debian_linux
+
+**漏洞描述 / Description**:
+Prosody before 0.10.0 allows remote attackers to cause a denial of service (application crash), related to an incompatibility with certain versions of the LuaSocket library, such as the lua-socket package from Debian stretch. The attacker needs to trigger a stream error. A crash can be observed in, for example, the c2s module.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.debian.org/875829.
+
+**参考链接 / References**:
+- https://bugs.debian.org/875829
+- https://hg.prosody.im/0.9/rev/176b7f4e4ac9
+- https://hg.prosody.im/0.9/rev/adfffc5b4e2a
+- https://prosody.im/issues/issue/987
+- https://www.debian.org/security/2018/dsa-4198
+
+---
+
+#### 1019. CVE-2018-13043
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, debian:devscripts
+
+**漏洞描述 / Description**:
+scripts/grep-excuses.pl in Debian devscripts through 2.18.3 allows code execution through unsafe YAML loading because YAML::Syck is used without a configuration that prevents unintended blessing.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.debian.org/902409.
+
+**参考链接 / References**:
+- https://bugs.debian.org/902409
+- https://usn.ubuntu.com/3704-1/
+- https://bugs.debian.org/902409
+- https://usn.ubuntu.com/3704-1/
+
+---
+
+#### 1020. CVE-2019-3461
+
+**严重程度 / Severity**: HIGH | CVSS: 7.0
+**受影响产品 / Affected Products**: debian:tmpreaper, debian:debian_linux
+
+**漏洞描述 / Description**:
+Debian tmpreaper version 1.6.13+nmu1 has a race condition when doing a (bind) mount via rename() which could result in local privilege escalation. Mounting via rename() could potentially lead to a file being placed elsewhereon the filesystem hierarchy (e.g. /etc/cron.d/) if the directory being cleaned up was on the same physical filesystem. Fixed versions include 1.6.13+nmu1+deb9u1 and 1.6.14.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=918956.
+
+**参考链接 / References**:
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=918956
+- https://lists.debian.org/debian-lts-announce/2019/01/msg00017.html
+- https://lists.debian.org/debian-security-announce/2019/msg00003.html
+- https://usn.ubuntu.com/4077-1/
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=918956
+
+---
+
+#### 1021. CVE-2019-7653
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: rdflib_project:rdflib, canonical:ubuntu_linux, debian:debian_linux
+
+**漏洞描述 / Description**:
+The Debian python-rdflib-tools 4.2.2-1 package for RDFLib 4.2.2 has CLI tools that can load Python modules from the current working directory, allowing code injection, because "python -m" looks in this directory, as demonstrated by rdf2dot. This issue is specific to use of the debian/scripts directory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.debian.org/921751.
+
+**参考链接 / References**:
+- https://bugs.debian.org/921751
+- https://lists.debian.org/debian-lts-announce/2019/03/msg00019.html
+- https://lists.debian.org/debian-lts-announce/2021/12/msg00026.html
+- https://usn.ubuntu.com/4535-1/
+- https://bugs.debian.org/921751
+
+---
+
+#### 1022. CVE-2019-9704
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: cron_project:cron, debian:debian_linux, fedoraproject:fedora
+
+**漏洞描述 / Description**:
+Vixie Cron before the 3.0pl1-133 Debian package allows local users to cause a denial of service (daemon crash) via a large crontab file because the calloc return value is not checked.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/107373.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/107373
+- https://lists.debian.org/debian-lts-announce/2019/03/msg00025.html
+- https://lists.debian.org/debian-lts-announce/2021/10/msg00029.html
+- https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/6DU7HAUAQR4E4AEBPYLUV6FZ4PHKH6A2/
+- https://salsa.debian.org/debian/cron/commit/f2525567
+
+---
+
+#### 1023. CVE-2019-9705
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: cron_project:cron, debian:debian_linux, fedoraproject:fedora
+
+**漏洞描述 / Description**:
+Vixie Cron before the 3.0pl1-133 Debian package allows local users to cause a denial of service (memory consumption) via a large crontab file because an unlimited number of lines is accepted.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/bid/107378.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/bid/107378
+- https://lists.debian.org/debian-lts-announce/2019/03/msg00025.html
+- https://lists.debian.org/debian-lts-announce/2021/10/msg00029.html
+- https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/6DU7HAUAQR4E4AEBPYLUV6FZ4PHKH6A2/
+- https://salsa.debian.org/debian/cron/commit/26814a26
+
+---
+
+#### 1024. CVE-2019-9706
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: debian:cron, debian:debian_linux
+
+**漏洞描述 / Description**:
+Vixie Cron before the 3.0pl1-133 Debian package allows local users to cause a denial of service (use-after-free and daemon crash) because of a force_rescan_user error.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=809167.
+
+**参考链接 / References**:
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=809167
+- https://lists.debian.org/debian-lts-announce/2019/03/msg00025.html
+- https://lists.debian.org/debian-lts-announce/2021/10/msg00029.html
+- https://packages.qa.debian.org/c/cron/news/20190311T170403Z.html
+- https://salsa.debian.org/debian/cron/commit/40791b93
+
+---
+
+#### 1025. CVE-2019-11675
+
+**严重程度 / Severity**: HIGH | CVSS: 7.0
+**受影响产品 / Affected Products**: groonga:groonga-httpd
+
+**漏洞描述 / Description**:
+The groonga-httpd package 6.1.5-1 for Debian sets the /var/log/groonga ownership to the groonga account, which might let local users obtain root access because of unsafe interaction with logrotate. For example, an attacker can exploit a race condition to insert a symlink from /var/log/groonga/httpd to /etc/bash_completion.d. NOTE: this is an issue in the Debian packaging of the Groonga HTTP server.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.debian.org/928304.
+
+**参考链接 / References**:
+- https://bugs.debian.org/928304
+- https://bugs.debian.org/928304
+
+---
+
+#### 1026. CVE-2018-5735
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: debian:debian_linux
+
+**漏洞描述 / Description**:
+The Debian backport of the fix for CVE-2017-3137 leads to assertion failure in validator.c:1858; Affects Debian versions 9.9.5.dfsg-9+deb8u15; 9.9.5.dfsg-9+deb8u18; 9.10.3.dfsg.P4-12.3+deb9u5; 9.11.5.P4+dfsg-5.1 No ISC releases are affected. Other packages from other distributions who did similar backports for the fix for 2017-3137 may also be affected.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://security-tracker.debian.org/tracker/CVE-2018-5735.
+
+**参考链接 / References**:
+- https://security-tracker.debian.org/tracker/CVE-2018-5735
+- https://security-tracker.debian.org/tracker/CVE-2018-5735
+
+---
+
+#### 1027. CVE-2019-3467
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: canonical:ubuntu_linux, debian:debian_linux, skolelinux:debian-edu-config, debian:debian-lan-config
+
+**漏洞描述 / Description**:
+Debian-edu-config all versions < 2.11.10, a set of configuration files used for Debian Edu, and debian-lan-config < 0.26, configured too permissive ACLs for the Kerberos admin server, which allowed password changes for other Kerberos user principals.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=946797.
+
+**参考链接 / References**:
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=946797
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=947459
+- https://lists.debian.org/debian-lts-announce/2019/12/msg00023.html
+- https://lists.debian.org/debian-lts-announce/2020/01/msg00012.html
+- https://seclists.org/bugtraq/2019/Dec/34
+
+---
+
+#### 1028. CVE-2020-2125
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.3
+**受影响产品 / Affected Products**: jenkins:debian_package_builder
+
+**漏洞描述 / Description**:
+Jenkins Debian Package Builder Plugin 1.6.11 and earlier stores a GPG passphrase unencrypted in its global configuration file on the Jenkins master where it can be viewed by users with access to the master file system.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.openwall.com/lists/oss-security/2020/02/12/3.
+
+**参考链接 / References**:
+- http://www.openwall.com/lists/oss-security/2020/02/12/3
+- https://jenkins.io/security/advisory/2020-02-12/#SECURITY-1558
+- http://www.openwall.com/lists/oss-security/2020/02/12/3
+- https://jenkins.io/security/advisory/2020-02-12/#SECURITY-1558
+
+---
+
+#### 1029. CVE-2012-1093
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: debian:x11-common, debian:debian_linux
+
+**漏洞描述 / Description**:
+The init script in the Debian x11-common package before 1:7.6+12 is vulnerable to a symlink attack that can lead to a privilege escalation during package installation.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://vladz.devzero.fr/012_x11-common-vuln.html.
+
+**参考链接 / References**:
+- http://vladz.devzero.fr/012_x11-common-vuln.html
+- http://www.openwall.com/lists/oss-security/2012/02/29/1
+- http://www.openwall.com/lists/oss-security/2012/03/01/1
+- https://access.redhat.com/security/cve/cve-2012-1093
+- https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
+
+---
+
+#### 1030. CVE-2020-15322
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: zyxel:cloudcnm_secumanager
+
+**漏洞描述 / Description**:
+Zyxel CloudCNM SecuManager 3.1.0 and 3.1.1 has the wbboEZ4BN3ssxAfM hardcoded password for the debian-sys-maint account.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://pierrekim.github.io/blog/2020-03-09-zyxel-secumanager-0day-vulnerabilities.html.
+
+**参考链接 / References**:
+- https://pierrekim.github.io/blog/2020-03-09-zyxel-secumanager-0day-vulnerabilities.html
+- https://www.zyxel.com/support/vulnerabilities-of-CloudCNM-SecuManager.shtml
+- https://pierrekim.github.io/blog/2020-03-09-zyxel-secumanager-0day-vulnerabilities.html
+- https://www.zyxel.com/support/vulnerabilities-of-CloudCNM-SecuManager.shtml
+
+---
+
+#### 1031. CVE-2020-5911
+
+**严重程度 / Severity**: HIGH | CVSS: 7.3
+**受影响产品 / Affected Products**: f5:nginx_controller
+
+**漏洞描述 / Description**:
+In versions 3.0.0-3.5.0, 2.0.0-2.9.0, and 1.0.1, the NGINX Controller installer starts the download of Kubernetes packages from an HTTP URL On Debian/Ubuntu system.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://support.f5.com/csp/article/K84084843.
+
+**参考链接 / References**:
+- https://support.f5.com/csp/article/K84084843
+- https://support.f5.com/csp/article/K84084843
+
+---
+
+#### 1032. CVE-2020-26932
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.3
+**受影响产品 / Affected Products**: sympa:sympa, debian:debian_linux
+
+**漏洞描述 / Description**:
+debian/sympa.postinst for the Debian Sympa package before 6.2.40~dfsg-7 uses mode 4755 for sympa_newaliases-wrapper, whereas the intended permissions are mode 4750 (for access by the sympa group)
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.debian.org/971904.
+
+**参考链接 / References**:
+- https://bugs.debian.org/971904
+- https://salsa.debian.org/sympa-team/sympa/-/merge_requests/1
+- https://www.debian.org/security/2020/dsa-4818
+- https://bugs.debian.org/971904
+- https://salsa.debian.org/sympa-team/sympa/-/merge_requests/1
+
+---
+
+#### 1033. CVE-2021-26720
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: avahi:avahi, debian:debian_linux
+
+**漏洞描述 / Description**:
+avahi-daemon-check-dns.sh in the Debian avahi package through 0.8-4 is executed as root via /etc/network/if-up.d/avahi-daemon, and allows a local attacker to cause a denial of service or create arbitrary empty files via a symlink attack on files under /run/avahi-daemon. NOTE: this only affects the packaging for Debian GNU/Linux (used indirectly by SUSE), not the upstream Avahi product.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=982796.
+
+**参考链接 / References**:
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=982796
+- https://bugs.launchpad.net/ubuntu/+source/avahi/+bug/1870824
+- https://bugzilla.suse.com/show_bug.cgi?id=1180827
+- https://lists.debian.org/debian-lts-announce/2022/06/msg00009.html
+- https://metadata.ftp-master.debian.org/changelogs/main/a/avahi/avahi_0.8-4_changelog
+
+---
+
+#### 1034. CVE-2021-28374
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: debian:courier-authlib, debian:debian_linux
+
+**漏洞描述 / Description**:
+The Debian courier-authlib package before 0.71.1-2 for Courier Authentication Library creates a /run/courier/authdaemon directory with weak permissions, allowing an attacker to read user information. This may include a cleartext password in some configurations. In general, it includes the user's existence, uid and gids, home and/or Maildir directory, quota, and some type of password information (such as a hash).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.debian.org/984810.
+
+**参考链接 / References**:
+- https://bugs.debian.org/984810
+- https://lists.debian.org/debian-lts-announce/2021/04/msg00011.html
+- https://bugs.debian.org/984810
+- https://lists.debian.org/debian-lts-announce/2021/04/msg00011.html
+
+---
+
+#### 1035. CVE-2017-20002
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: debian:shadow, debian:debian_linux
+
+**漏洞描述 / Description**:
+The Debian shadow package before 1:4.5-1 for Shadow incorrectly lists pts/0 and pts/1 as physical terminals in /etc/securetty. This allows local users to login as password-less users even if they are connected by non-physical means such as SSH (hence bypassing PAM's nullok_secure configuration). This notably affects environments such as virtual machines automatically generated with a default blank root password, allowing all local users to escalate privileges.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=877374.
+
+**参考链接 / References**:
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=877374
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=914957
+- https://lists.debian.org/debian-lts-announce/2021/03/msg00020.html
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=877374
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=914957
+
+---
+
+#### 1036. CVE-2021-31523
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: xscreensaver_project:xscreensaver
+
+**漏洞描述 / Description**:
+The Debian xscreensaver 5.42+dfsg1-1 package for XScreenSaver has cap_net_raw enabled for the /usr/libexec/xscreensaver/sonar file, which allows local users to gain privileges because this is arguably incompatible with the design of the Mesa 3D Graphics library dependency.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.openwall.com/lists/oss-security/2021/04/21/3.
+
+**参考链接 / References**:
+- http://www.openwall.com/lists/oss-security/2021/04/21/3
+- https://www.openwall.com/lists/oss-security/2021/04/17/1
+- http://www.openwall.com/lists/oss-security/2021/04/21/3
+- https://www.openwall.com/lists/oss-security/2021/04/17/1
+
+---
+
+#### 1037. CVE-2008-3280
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.9
+**受影响产品 / Affected Products**: openid:openid
+
+**漏洞描述 / Description**:
+It was found that various OpenID Providers (OPs) had TLS Server Certificates that used weak keys, as a result of the Debian Predictable Random Number Generator (CVE-2008-0166). In combination with the DNS Cache Poisoning issue (CVE-2008-1447) and the fact that almost all SSL/TLS implementations do not consult CRLs (currently an untracked issue), this means that it is impossible to rely on these OPs.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.openid.net/pipermail/openid-security/2008-August/000942.html.
+
+**参考链接 / References**:
+- http://lists.openid.net/pipermail/openid-security/2008-August/000942.html
+- https://www.exploit-db.com/exploits/5720
+- http://lists.openid.net/pipermail/openid-security/2008-August/000942.html
+- https://www.exploit-db.com/exploits/5720
+
+---
+
+#### 1038. CVE-2015-1877
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+**受影响产品 / Affected Products**: debian:debian_linux, freedesktop:xdg-utils
+
+**漏洞描述 / Description**:
+The open_generic_xdg_mime function in xdg-open in xdg-utils 1.1.0 rc1 in Debian, when using dash, does not properly handle local variables, which allows remote attackers to execute arbitrary commands via a crafted file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.debian.org/security/2015/dsa-3165.
+
+**参考链接 / References**:
+- http://www.debian.org/security/2015/dsa-3165
+- http://www.openwall.com/lists/oss-security/2015/02/18/7
+- http://www.openwall.com/lists/oss-security/2015/02/18/9
+- http://www.securityfocus.com/bid/72675
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=777722
+
+---
+
+#### 1039. CVE-2021-31891
+
+**严重程度 / Severity**: CRITICAL | CVSS: 10.0
+**受影响产品 / Affected Products**: debian:debian_linux, siemens:siveillance_control_pro, siemens:siveillance_control, siemens:gma-manager, siemens:operation_scheduler
+
+**漏洞描述 / Description**:
+A vulnerability has been identified in Desigo CC (All versions with OIS Extension Module), GMA-Manager (All versions with OIS running on Debian 9 or earlier), Operation Scheduler (All versions with OIS running on Debian 9 or earlier), Siveillance Control (All versions with OIS running on Debian 9 or earlier), Siveillance Control Pro (All versions). The affected application incorrectly neutralizes special elements in a specific HTTP GET request which could lead to command injection. An unauthenticated remote attacker could exploit this vulnerability to execute arbitrary code on the system with root privileges.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://cert-portal.siemens.com/productcert/pdf/ssa-535380.pdf.
+
+**参考链接 / References**:
+- https://cert-portal.siemens.com/productcert/pdf/ssa-535380.pdf
+- https://cert-portal.siemens.com/productcert/pdf/ssa-535380.pdf
+
+---
+
+#### 1040. CVE-2021-41583
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+**受影响产品 / Affected Products**: eduvpn:vpn-user-portal, debian:debian_linux, fedoraproject:fedora
+
+**漏洞描述 / Description**:
+vpn-user-portal (aka eduVPN or Let's Connect!) before 2.3.14, as packaged for Debian 10, Debian 11, and Fedora, allows remote authenticated users to obtain OS filesystem access, because of the interaction of QR codes with an exec that uses the -r option. This can be leveraged to obtain additional VPN access.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://list.surfnet.nl/pipermail/eduvpn-deploy/2021-September/000352.html.
+
+**参考链接 / References**:
+- https://list.surfnet.nl/pipermail/eduvpn-deploy/2021-September/000352.html
+- https://github.com/eduvpn/vpn-user-portal/releases
+- https://list.surfnet.nl/pipermail/eduvpn-deploy/2021-September/000352.html
+
+---
+
+#### 1041. CVE-2021-43617
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: laravel:framework
+
+**漏洞描述 / Description**:
+Laravel Framework through 8.70.2 does not sufficiently block the upload of executable PHP content because Illuminate/Validation/Concerns/ValidatesAttributes.php lacks a check for .phar files, which are handled as application/x-httpd-php on systems based on Debian. NOTE: this CVE Record is for Laravel Framework, and is unrelated to any reports concerning incorrectly written user applications for image upload.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/laravel/framework/blob/2049de73aa099a113a287587df4cc522c90961f5/src/Illuminate/Validation/Concerns/ValidatesAttributes.php#L1331-L1333.
+
+**参考链接 / References**:
+- https://github.com/laravel/framework/blob/2049de73aa099a113a287587df4cc522c90961f5/src/Illuminate/Validation/Concerns/ValidatesAttributes.php#L1331-L1333
+- https://salsa.debian.org/php-team/php/-/blob/dc253886b5b2e9bc8d9e36db787abb083a667fd8/debian/php-cgi.conf#L5-6
+- https://salsa.debian.org/php-team/php/-/commit/dc253886b5b2e9bc8d9e36db787abb083a667fd8
+- https://github.com/laravel/framework/blob/2049de73aa099a113a287587df4cc522c90961f5/src/Illuminate/Validation/Concerns/ValidatesAttributes.php#L1331-L1333
+- https://salsa.debian.org/php-team/php/-/blob/dc253886b5b2e9bc8d9e36db787abb083a667fd8/debian/php-cgi.conf#L5-6
+
+---
+
+#### 1042. CVE-2022-23118
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+**受影响产品 / Affected Products**: jenkins:debian_package_builder
+
+**漏洞描述 / Description**:
+Jenkins Debian Package Builder Plugin 1.6.11 and earlier implements functionality that allows agents to invoke command-line `git` at an attacker-specified path on the controller, allowing attackers able to control agent processes to invoke arbitrary OS commands on the controller.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.openwall.com/lists/oss-security/2022/01/12/6.
+
+**参考链接 / References**:
+- http://www.openwall.com/lists/oss-security/2022/01/12/6
+- https://www.jenkins.io/security/advisory/2022-01-12/#SECURITY-2546
+- http://www.openwall.com/lists/oss-security/2022/01/12/6
+- https://www.jenkins.io/security/advisory/2022-01-12/#SECURITY-2546
+
+---
+
+#### 1043. CVE-2021-20001
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: debian:debian_linux, skolelinux:debian-edu-config
+
+**漏洞描述 / Description**:
+It was discovered, that debian-edu-config, a set of configuration files used for the Debian Edu blend, before 2.12.16 configured insecure permissions for the user web shares (~/public_html), which could result in privilege escalation.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://lists.debian.org/debian-lts-announce/2022/02/msg00012.html.
+
+**参考链接 / References**:
+- https://lists.debian.org/debian-lts-announce/2022/02/msg00012.html
+- https://lists.debian.org/debian-security-announce/2022/msg00039.html
+- https://salsa.debian.org/debian-edu/debian-edu-config/-/commit/4d39a5888d193567704238f8c035f8d17cfe34e5
+- https://www.debian.org/security/2022/dsa-5072
+- https://lists.debian.org/debian-lts-announce/2022/02/msg00012.html
 
 ---
