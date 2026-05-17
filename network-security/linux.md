@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1326**
+**总计条目 / Total entries: 1328**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -21690,5 +21690,29 @@ The Debian initrd script for the cryptsetup package 2:1.7.3-2 and earlier allows
 - http://www.openwall.com/lists/oss-security/2016/11/15/1
 - http://www.openwall.com/lists/oss-security/2016/11/15/4
 - http://www.openwall.com/lists/oss-security/2016/11/16/6
+
+---
+
+#### 1327. CVE-2026-46333 - kernel: Read root-owned files as an unprivileged user
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Read root-owned files as an unprivileged user. Bugzilla: 2477802
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477802
+
+---
+
+#### 1328. CVE-2026-44673 - libyang: libyang: Denial of Service or arbitrary code execution via maliciously…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] libyang: libyang: Denial of Service or arbitrary code execution via maliciously crafted LYB binary blob. Bugzilla: 2477617
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477617
 
 ---

