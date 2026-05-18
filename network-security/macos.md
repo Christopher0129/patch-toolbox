@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1081**
+**总计条目 / Total entries: 1101**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -16825,5 +16825,322 @@ Buffer overflow in OfficeImport in Apple iOS before 5 allows remote attackers to
 - https://exchange.xforce.ibmcloud.com/vulnerabilities/70556
 - http://lists.apple.com/archives/Security-announce/2011//Oct/msg00001.html
 - http://support.apple.com/kb/HT4999
+
+---
+
+#### 1082. CVE-2005-2713
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+passwd in Directory Services in Mac OS X 10.3.x before 10.3.9 and 10.4.x before 10.4.5 allows local users to create arbitrary world-writable files as root by specifying an alternate file in the password database option.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://www.idefense.com/intelligence/vulnerabilities/display.php?id=400
+- http://www.osvdb.org/23646
+
+---
+
+#### 1083. CVE-2005-2714
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+passwd in Directory Services in Mac OS X 10.3.x before 10.3.9 and 10.4.x before 10.4.5 allows local users to overwrite arbitrary files via a symlink attack on the .pwtmp.[PID] temporary file.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://www.idefense.com/intelligence/vulnerabilities/display.php?id=400
+- http://www.osvdb.org/23647
+
+---
+
+#### 1084. CVE-2005-3706
+
+**严重程度 / Severity**: N/A | CVSS: 6.4
+
+**漏洞描述 / Description**:
+Heap-based buffer overflow in LibSystem in Mac OS X 10.4 through 10.4.5 allows context-dependent attackers to execute arbitrary code by causing an application that uses LibSystem to request a large amount of memory.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://www.osvdb.org/23644
+- http://www.securityfocus.com/bid/16907
+
+---
+
+#### 1085. CVE-2005-3712
+
+**严重程度 / Severity**: N/A | CVSS: 6.5
+
+**漏洞描述 / Description**:
+Heap-based buffer overflow in rsync in Mac OS X 10.4 through 10.4.5 allows remote authenticated users to execute arbitrary code via long extended attributes.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://www.osvdb.org/23648
+- http://www.securityfocus.com/bid/16907
+
+---
+
+#### 1086. CVE-2005-3782
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+Mac OS X 10.4.3 up to 10.4.6, when loginwindow uses the "Name and password" setting, and the "Show the Restart, Sleep, and Shut Down buttons" option is disabled, allows users with physical access to bypass login and reboot the system by entering ">restart", ">power", or ">shutdown" sequences after the username.
+
+**参考链接 / References**:
+- http://www.osvdb.org/20776
+- http://www.osvdb.org/20776
+
+---
+
+#### 1087. CVE-2006-0383
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+IPSec when used with VPN networks in Mac OS X 10.4 through 10.4.5 allows remote attackers to cause a denial of service (application crash) via unspecified vectors involving the "incorrect handling of error conditions".
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://www.osvdb.org/23643
+- http://www.securityfocus.com/bid/16907
+
+---
+
+#### 1088. CVE-2006-0384
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+automount in Mac OS X 10.4.5 and earlier allows remote file servers to cause a denial of service (unresponsiveness) or execute arbitrary code via unspecified vectors that cause automount to "mount file systems with reserved names".
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://securitytracker.com/id?1015709
+- http://www.osvdb.org/23640
+
+---
+
+#### 1089. CVE-2006-0386
+
+**严重程度 / Severity**: N/A | CVSS: 1.7
+
+**漏洞描述 / Description**:
+FileVault in Mac OS X 10.4.5 and earlier does not properly mount user directories when creating a FileVault image, which allows local users to access protected files when FileVault is enabled.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://www.osvdb.org/23642
+- http://www.securityfocus.com/bid/16907
+
+---
+
+#### 1090. CVE-2006-0388
+
+**严重程度 / Severity**: N/A | CVSS: 2.6
+
+**漏洞描述 / Description**:
+Safari in Mac OS X 10.3 before 10.3.9 and 10.4 before 10.4.5 allows remote attackers to redirect users to local files and execute arbitrary JavaScript via unspecified vectors involving HTTP redirection to local resources.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://securitytracker.com/id?1015713
+- http://www.securityfocus.com/bid/16907
+
+---
+
+#### 1091. CVE-2006-0389
+
+**严重程度 / Severity**: N/A | CVSS: 2.6
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in Syndication (Safari RSS) in Mac OS X 10.4 through 10.4.5 allows remote attackers to execute arbitrary JavaScript via unspecified vectors involving RSS feeds.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://www.osvdb.org/23649
+- http://www.securityfocus.com/bid/16907
+
+---
+
+#### 1092. CVE-2006-0391
+
+**严重程度 / Severity**: N/A | CVSS: 1.7
+
+**漏洞描述 / Description**:
+Directory traversal vulnerability in the BOM framework in Mac OS X 10.x before 10.3.9 and 10.4 before 10.4.5 allows user-assisted attackers to overwrite or create arbitrary files via an archive that is handled by BOMArchiveHelper.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://www.idefense.com/intelligence/vulnerabilities/display.php?id=399
+- http://www.osvdb.org/23641
+
+---
+
+#### 1093. CVE-2006-0387
+
+**严重程度 / Severity**: N/A | CVSS: 6.4
+
+**漏洞描述 / Description**:
+Stack-based buffer overflow in Safari in Mac OS X 10.4.5 and earlier, and 10.3.9 and earlier, allows remote attackers to execute arbitrary code via unspecified vectors involving a web page with crafted JavaScript, a different vulnerability than CVE-2005-4504.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://securitytracker.com/id?1015713
+- http://www.kb.cert.org/vuls/id/176732
+
+---
+
+#### 1094. CVE-2006-1166
+
+**严重程度 / Severity**: N/A | CVSS: 3.7
+
+**漏洞描述 / Description**:
+Monotone 0.25 and earlier, when a user creates a file in a directory called "mt", and when checking out that file on a case-insensitive file system such as Windows or Mac OS X, places the file into the "MT" bookkeeping directory, which could allow context-dependent attackers to execute arbitrary Lua programs as the user running monotone.
+
+**参考链接 / References**:
+- http://lists.gnu.org/archive/html/monotone-devel/2006-03/msg00062.html
+- http://secunia.com/advisories/19260
+- http://www.securityfocus.com/bid/17139
+- http://www.vupen.com/english/advisories/2006/0990
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/25294
+
+---
+
+#### 1095. CVE-2006-1220
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+
+**漏洞描述 / Description**:
+Integer overflow in the mach_msg_send function in the kernel for Mac OS X might allow local users to execute arbitrary code via unknown attack vectors related to a large message header size, which leads to a heap-based buffer overflow.
+
+**参考链接 / References**:
+- http://www.felinemenace.org/~nemo/
+- http://www.osvdb.org/28453
+- http://www.securityfocus.com/bid/17056
+- http://www.felinemenace.org/~nemo/
+- http://www.osvdb.org/28453
+
+---
+
+#### 1096. CVE-2006-0401
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Mac OS X before 10.4.6, when running on an Intel-based computer, allows attackers with physical access to bypass the firmware password and log on in Single User Mode via unspecified vectors.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303567
+- http://secunia.com/advisories/19462
+- http://securitytracker.com/id?1015859
+- http://www.osvdb.org/24399
+- http://www.securityfocus.com/bid/17364
+
+---
+
+#### 1097. CVE-2006-1981
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Java InputMethods on Mac OS X 10.4.5 may cause InputMethods to send input events for secure fields to the wrong text field, which might reveal the password to others who can view the screen.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303658
+- http://www.vupen.com/english/advisories/2006/1398
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/26167
+- http://docs.info.apple.com/article.html?artnum=303658
+- http://www.vupen.com/english/advisories/2006/1398
+
+---
+
+#### 1098. CVE-2006-1982
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Heap-based buffer overflow in the LZWDecodeVector function in Mac OS X before 10.4.6, as used in applications that use ImageIO or AppKit, allows remote attackers to execute arbitrary code via crafted TIFF images.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303411
+- http://lists.apple.com/archives/security-announce/2006/May/msg00003.html
+- http://secunia.com/advisories/19686
+- http://secunia.com/advisories/20077
+- http://www.osvdb.org/31837
+
+---
+
+#### 1099. CVE-2006-1983
+
+**严重程度 / Severity**: N/A | CVSS: 6.4
+
+**漏洞描述 / Description**:
+Multiple heap-based buffer overflows in Mac OS X 10.4.6 and earlier allow remote attackers to cause a denial of service and possibly execute arbitrary code via the (1) PredictorVSetField function for TIFF or (2) CFAllocatorAllocate function for GIF, as used in applications that use ImageIO or AppKit.  NOTE: the BMP vector has been re-assigned to CVE-2006-2238 because it affects a separate product family.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2006/May/msg00003.html
+- http://secunia.com/advisories/19686
+- http://secunia.com/advisories/20077
+- http://securitytracker.com/id?1016067
+- http://www.osvdb.org/24821
+
+---
+
+#### 1100. CVE-2006-1984
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in the _cg_TIFFSetField function in Mac OS X 10.4.6 and earlier, as used in applications that use ImageIO or AppKit, allows remote attackers to cause a denial of service (application crash) via a crafted TIFF image that triggers a null dereference.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2006/May/msg00003.html
+- http://secunia.com/advisories/19686
+- http://secunia.com/advisories/20077
+- http://www.security-protocols.com/modules.php?name=News&file=article&sid=3233
+- http://www.security-protocols.com/sp-x29-advisory.php
+
+---
+
+#### 1101. CVE-2006-1985
+
+**严重程度 / Severity**: N/A | CVSS: 5.1
+
+**漏洞描述 / Description**:
+Heap-based buffer overflow in BOM BOMArchiveHelper 10.4 (6.3) Build 312, as used in Mac OS X 10.4.6 and earlier, allows user-assisted attackers to execute arbitrary code via a crafted archive (such as ZIP) that contains long path names, which triggers an error in the BOMStackPop function.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2006/May/msg00003.html
+- http://secunia.com/advisories/19686
+- http://secunia.com/advisories/20077
+- http://securitytracker.com/id?1016082
+- http://www.osvdb.org/24819
 
 ---
