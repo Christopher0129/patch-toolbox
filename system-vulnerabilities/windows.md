@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 625**
+**总计条目 / Total entries: 640**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -9912,5 +9912,245 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101447771102582&w
 **参考链接 / References**:
 - http://marc.info/?l=bugtraq&m=101447771102582&w=2
 - http://marc.info/?l=bugtraq&m=101447771102582&w=2
+
+---
+
+#### 626. [Microsoft] CVE-2026-42822 - Azure Local Disconnected Operations (ALDO) Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Azure Local Disconnected Operations
+
+**漏洞描述 / Description**:
+[Microsoft] Improper authentication in Azure Local Disconnected Operations allows an unauthorized attacker to elevate privileges over a network.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-42822
+
+---
+
+#### 627. [Microsoft] CVE-2026-42946 - NGINX ngx_http_scgi_module and ngx_http_uwsgi_module vulnerability
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-42946
+
+---
+
+#### 628. [Microsoft] CVE-2026-42945 - NGINX ngx_http_rewrite_module vulnerability
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-42945
+
+---
+
+#### 629. [Microsoft] CVE-2026-42934 - NGINX ngx_http_charset_module vulnerability
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-42934
+
+---
+
+#### 630. [Microsoft] CVE-2026-40701 - NGINX ngx_http_ssl_module vulnerability
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-40701
+
+---
+
+#### 631. [Microsoft] CVE-2026-40460 - NGINX ngx_quic_module vulnerability
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-40460
+
+---
+
+#### 632. [Microsoft] CVE-2026-6479 - PostgreSQL SSL/GSS init causes denial of service, via uncontrolled recursion
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-6479
+
+---
+
+#### 633. [Microsoft] CVE-2026-6477 - PostgreSQL libpq lo_* functions let server superuser overwrite client stack memory
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-6477
+
+---
+
+#### 634. [Microsoft] CVE-2026-6637 - PostgreSQL refint allows stack buffer overflow and SQL injection
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-6637
+
+---
+
+#### 635. [Microsoft] CVE-2026-6472 - PostgreSQL CREATE TYPE does not check multirange schema CREATE privilege
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-6472
+
+---
+
+#### 636. [Microsoft] CVE-2026-6474 - PostgreSQL timeofday() can disclose portions of server memory
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-6474
+
+---
+
+#### 637. [Microsoft] CVE-2026-6475 - PostgreSQL pg_basebackup and pg_rewind can overwrite unrelated files of origin superuser choice
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-6475
+
+---
+
+#### 638. [Microsoft] CVE-2026-6638 - PostgreSQL REFRESH PUBLICATION allows SQL injection via table name
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-6638
+
+---
+
+#### 639. [Microsoft] CVE-2026-6473 - PostgreSQL server undersizes allocations, via integer wraparound
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-6473
+
+---
+
+#### 640. [Microsoft] CVE-2026-6478 - PostgreSQL discloses MD5-hashed passwords via covert timing channel
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-6478
 
 ---
