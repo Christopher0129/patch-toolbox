@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1043**
+**总计条目 / Total entries: 1062**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -19389,5 +19389,309 @@ Apply patch from vendor. Monitor https://lists.debian.org/debian-lts-announce/20
 - https://salsa.debian.org/debian-edu/debian-edu-config/-/commit/4d39a5888d193567704238f8c035f8d17cfe34e5
 - https://www.debian.org/security/2022/dsa-5072
 - https://lists.debian.org/debian-lts-announce/2022/02/msg00012.html
+
+---
+
+#### 1044. CVE-2026-7504 - org.keycloak/keycloak-services: Open redirect when using wildcard valid redirect…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] org.keycloak/keycloak-services: Open redirect when using wildcard valid redirect URIs in Keycloak. Bugzilla: 2464128
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2464128
+
+---
+
+#### 1045. CVE-2026-7507 - org.keycloak/keycloak-services: Session fixation in OIDC login flow that can lead…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] org.keycloak/keycloak-services: Session fixation in OIDC login flow that can lead to account takeover. Bugzilla: 2464145
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2464145
+
+---
+
+#### 1046. CVE-2026-7571 - keycloak: Keycloak: Access token disclosure and implicit flow bypass via forged…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Access token disclosure and implicit flow bypass via forged client data. Bugzilla: 2464263
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2464263
+
+---
+
+#### 1047. CVE-2026-37978 - keycloak: org.keycloak.services: Keycloak: Information Disclosure via…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: org.keycloak.services: Keycloak: Information Disclosure via evaluate-scopes Admin API. Bugzilla: 2455327
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2455327
+
+---
+
+#### 1048. CVE-2026-7307 - keycloak: Keycloak: Denial of Service via specially crafted SAML input
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Denial of Service via specially crafted SAML input. Bugzilla: 2476526
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2476526
+
+---
+
+#### 1049. CVE-2026-37981 - keycloak: org.keycloak.authorization: Keycloak: Information disclosure via broken…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: org.keycloak.authorization: Keycloak: Information disclosure via broken access control in user lookup endpoint. Bugzilla: 2455326
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2455326
+
+---
+
+#### 1050. CVE-2026-8922 - org.keycloak/keycloak-services: keycloak: org.keycloak.protocol.oidc: Security flaw…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] org.keycloak/keycloak-services: keycloak: org.keycloak.protocol.oidc: Security flaw in org.keycloak/keycloak-services. Bugzilla: 2479586
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479586
+
+---
+
+#### 1051. CVE-2026-8830 - keycloak: org.keycloak/keycloak-services: Keycloak: Policy bypass during WebAuthn…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: org.keycloak/keycloak-services: Keycloak: Policy bypass during WebAuthn credential registration via client-side JavaScript manipulation. Bugzilla: 2479565
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479565
+
+---
+
+#### 1052. CVE-2026-37979 - keycloak: Keycloak: Information disclosure via OIDC token introspection endpoint…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Information disclosure via OIDC token introspection endpoint audience bypass. Bugzilla: 2455328
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2455328
+
+---
+
+#### 1053. CVE-2026-37982 - keycloak: org.keycloak.authentication: Keycloak: Unauthorized account takeover via…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: org.keycloak.authentication: Keycloak: Unauthorized account takeover via WebAuthn token replay. Bugzilla: 2455329
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2455329
+
+---
+
+#### 1054. CVE-2026-45829 - chromadb: ChromaDB Python Project: Arbitrary code execution via pre-authentication…
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromadb: ChromaDB Python Project: Arbitrary code execution via pre-authentication code injection. Bugzilla: 2479623
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479623
+
+---
+
+#### 1055. CVE-2021-47952 - python-jsonpickle: python-jsonpickle: Arbitrary Code Execution via Malicious JSON…
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] python-jsonpickle: python-jsonpickle: Arbitrary Code Execution via Malicious JSON Deserialization. Bugzilla: 2478170
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2478170
+
+---
+
+#### 1056. CVE-2026-34253 - vorbis-tools: vorbis-tools ogg123: Arbitrary code execution via buffer underflow…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] vorbis-tools: vorbis-tools ogg123: Arbitrary code execution via buffer underflow in remote control functionality. Bugzilla: 2477925
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477925
+
+---
+
+#### 1057. [Ubuntu] USN-8276-1: Highlight.js vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Highlight.js used plain JavaScript objects for internal language name lookups, making them susceptible to prototype pollution attacks. An attacker could use this to cause a denial of service or unexpected application behaviour.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8276-1
+
+---
+
+#### 1058. [Ubuntu] USN-8275-1: Linux kernel (Xilinx ZynqMP) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Stonejiajia, Shir Tamari and Sagi Tzadik discovered that the OverlayFS implementation in the Ubuntu Linux kernel did not properly perform permission checks in certain situations. A local attacker could possibly use this to gain elevated privileges. (CVE-2023-2640) Shir Tamari and Sagi Tzadik discovered that the OverlayFS implementation in the Ubuntu Linux kernel did not properly perform permission
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8275-1
+
+---
+
+#### 1059. [Ubuntu] USN-8254-3: Linux kernel (NVIDIA Tegra) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Network drivers; - NVME drivers; - Netfilter; (CVE-2026-23112, CVE-2026-23231, CVE-2026-23273)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8254-3
+
+---
+
+#### 1060. [Ubuntu] USN-8274-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Network drivers; - BTRFS file system; - Sun RPC protocol; - XFRM subsystem; (CVE-2022-49033, CVE-2024-27388, CVE-2024-49938, CVE-2024-50008, CVE-2024-50142)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8274-1
+
+---
+
+#### 1061. [Ubuntu] USN-8273-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Network drivers; - NVME drivers; - IPv4 networking; (CVE-2024-50304, CVE-2026-23112, CVE-2026-23209)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8273-1
+
+---
+
+#### 1062. [Ubuntu] USN-8272-1: Smarty vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Takuya Aramaki discovered that Smarty did not properly escape JavaScript code. An attacker could possibly use this issue to conduct a cross-site scripting attack.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8272-1
 
 ---

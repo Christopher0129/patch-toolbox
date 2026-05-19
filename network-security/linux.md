@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1363**
+**总计条目 / Total entries: 1382**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -22253,5 +22253,233 @@ It was discovered, that debian-edu-config, a set of configuration files used for
 - https://salsa.debian.org/debian-edu/debian-edu-config/-/commit/4d39a5888d193567704238f8c035f8d17cfe34e5
 - https://www.debian.org/security/2022/dsa-5072
 - https://lists.debian.org/debian-lts-announce/2022/02/msg00012.html
+
+---
+
+#### 1364. CVE-2026-7504 - org.keycloak/keycloak-services: Open redirect when using wildcard valid redirect…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] org.keycloak/keycloak-services: Open redirect when using wildcard valid redirect URIs in Keycloak. Bugzilla: 2464128
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2464128
+
+---
+
+#### 1365. CVE-2026-7507 - org.keycloak/keycloak-services: Session fixation in OIDC login flow that can lead…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] org.keycloak/keycloak-services: Session fixation in OIDC login flow that can lead to account takeover. Bugzilla: 2464145
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2464145
+
+---
+
+#### 1366. CVE-2026-7571 - keycloak: Keycloak: Access token disclosure and implicit flow bypass via forged…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Access token disclosure and implicit flow bypass via forged client data. Bugzilla: 2464263
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2464263
+
+---
+
+#### 1367. CVE-2026-37978 - keycloak: org.keycloak.services: Keycloak: Information Disclosure via…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: org.keycloak.services: Keycloak: Information Disclosure via evaluate-scopes Admin API. Bugzilla: 2455327
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2455327
+
+---
+
+#### 1368. CVE-2026-7307 - keycloak: Keycloak: Denial of Service via specially crafted SAML input
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Denial of Service via specially crafted SAML input. Bugzilla: 2476526
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2476526
+
+---
+
+#### 1369. CVE-2026-37981 - keycloak: org.keycloak.authorization: Keycloak: Information disclosure via broken…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: org.keycloak.authorization: Keycloak: Information disclosure via broken access control in user lookup endpoint. Bugzilla: 2455326
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2455326
+
+---
+
+#### 1370. CVE-2026-8922 - org.keycloak/keycloak-services: keycloak: org.keycloak.protocol.oidc: Security flaw…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] org.keycloak/keycloak-services: keycloak: org.keycloak.protocol.oidc: Security flaw in org.keycloak/keycloak-services. Bugzilla: 2479586
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479586
+
+---
+
+#### 1371. CVE-2026-8830 - keycloak: org.keycloak/keycloak-services: Keycloak: Policy bypass during WebAuthn…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: org.keycloak/keycloak-services: Keycloak: Policy bypass during WebAuthn credential registration via client-side JavaScript manipulation. Bugzilla: 2479565
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479565
+
+---
+
+#### 1372. CVE-2026-37979 - keycloak: Keycloak: Information disclosure via OIDC token introspection endpoint…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Information disclosure via OIDC token introspection endpoint audience bypass. Bugzilla: 2455328
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2455328
+
+---
+
+#### 1373. CVE-2026-37982 - keycloak: org.keycloak.authentication: Keycloak: Unauthorized account takeover via…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: org.keycloak.authentication: Keycloak: Unauthorized account takeover via WebAuthn token replay. Bugzilla: 2455329
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2455329
+
+---
+
+#### 1374. CVE-2026-45829 - chromadb: ChromaDB Python Project: Arbitrary code execution via pre-authentication…
+
+**严重程度 / Severity**: CRITICAL
+
+**漏洞描述 / Description**:
+[Red Hat] chromadb: ChromaDB Python Project: Arbitrary code execution via pre-authentication code injection. Bugzilla: 2479623
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479623
+
+---
+
+#### 1375. CVE-2021-47952 - python-jsonpickle: python-jsonpickle: Arbitrary Code Execution via Malicious JSON…
+
+**严重程度 / Severity**: CRITICAL
+
+**漏洞描述 / Description**:
+[Red Hat] python-jsonpickle: python-jsonpickle: Arbitrary Code Execution via Malicious JSON Deserialization. Bugzilla: 2478170
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2478170
+
+---
+
+#### 1376. CVE-2026-34253 - vorbis-tools: vorbis-tools ogg123: Arbitrary code execution via buffer underflow…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] vorbis-tools: vorbis-tools ogg123: Arbitrary code execution via buffer underflow in remote control functionality. Bugzilla: 2477925
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477925
+
+---
+
+#### 1377. [Ubuntu] USN-8276-1: Highlight.js vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Highlight.js used plain JavaScript objects for internal language name lookups, making them susceptible to prototype pollution attacks. An attacker could use this to cause a denial of service or unexpected application behaviour.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8276-1
+
+---
+
+#### 1378. [Ubuntu] USN-8275-1: Linux kernel (Xilinx ZynqMP) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Stonejiajia, Shir Tamari and Sagi Tzadik discovered that the OverlayFS implementation in the Ubuntu Linux kernel did not properly perform permission checks in certain situations. A local attacker could possibly use this to gain elevated privileges. (CVE-2023-2640) Shir Tamari and Sagi Tzadik discovered that the OverlayFS implementation in the Ubuntu Linux kernel did not properly perform permission
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8275-1
+
+---
+
+#### 1379. [Ubuntu] USN-8254-3: Linux kernel (NVIDIA Tegra) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Network drivers; - NVME drivers; - Netfilter; (CVE-2026-23112, CVE-2026-23231, CVE-2026-23273)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8254-3
+
+---
+
+#### 1380. [Ubuntu] USN-8274-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Network drivers; - BTRFS file system; - Sun RPC protocol; - XFRM subsystem; (CVE-2022-49033, CVE-2024-27388, CVE-2024-49938, CVE-2024-50008, CVE-2024-50142)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8274-1
+
+---
+
+#### 1381. [Ubuntu] USN-8273-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Network drivers; - NVME drivers; - IPv4 networking; (CVE-2024-50304, CVE-2026-23112, CVE-2026-23209)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8273-1
+
+---
+
+#### 1382. [Ubuntu] USN-8272-1: Smarty vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Takuya Aramaki discovered that Smarty did not properly escape JavaScript code. An attacker could possibly use this issue to conduct a cross-site scripting attack.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8272-1
 
 ---
