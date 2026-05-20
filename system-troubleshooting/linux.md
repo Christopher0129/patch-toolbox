@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2584**
+**总计条目 / Total entries: 2701**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -41373,5 +41373,1527 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1213602#reply13
+
+---
+
+#### 2585. is it possible to use multiple input streams through ssh?
+
+**问题描述 / Problem Description**:
+Tags: bash, ssh | Score: 1 | Views: 48 | Answers: 3 | Created: 2026-05-20
+
+**解决方案 / Solution**:
+I can't get a clean solution, however this PoC does work for me: ( sleep 1; echo hello | nc -q0 localhost 55001 & echo world | nc -q0 localhost 55002 & ) & ssh -L 55001:localhost:55001 -L 55002:localhost:55002 remoteHost 'diff <(nc -q0 -l 55001) <(nc -q0 -l 55002)' The initial sleep 1 was sufficient for me to allow the subsequent ssh connection to establish and start running the remote command. You may need to adjust that for a longer delay. I originally had this as a one-line hack. You can still roll it up if you want to, but I think it's much easier to read like this. You'll need to have TCP/IP transport forwarding enabled for the SSH service on the remote server. If it's not already set it can be configured like this: echo 'AllowTcpForwarding yes' >/etc/ssh/sshd_config.d/allowtcpforwarding.conf systemctl reload sshd Finally, I'm using the OpenBSD variant of nc (Debian package netcat-openbsd ). If you use the other version take care because its flags and implementation are different.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806075/is-it-possible-to-use-multiple-input-streams-through-ssh
+
+---
+
+#### 2586. HP has become the third premier sponsor of the Linux Vendor Firmware Service (LVFS) and fwupd, joining Dell and Lenovo in contributing $100k+ annually to support firmware updates on Linux.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1til638/hp_has_become_the_third_premier_sponsor_of_the/
+
+---
+
+#### 2587. Greg KH Calls For More Rust Linux Developers
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1timy7b/greg_kh_calls_for_more_rust_linux_developers/
+
+---
+
+#### 2588. RHEL 10.2 and 9.8 released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1timxf8/rhel_102_and_98_released/
+
+---
+
+#### 2589. Silly problems require silly solutions
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tiy5ql/silly_problems_require_silly_solutions/
+
+---
+
+#### 2590. LVFS Sponsorship Announcement: HP
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tik6xp/lvfs_sponsorship_announcement_hp/
+
+---
+
+#### 2591. Looking for old Realtek wifi cards and USB adapters
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tiw9uv/looking_for_old_realtek_wifi_cards_and_usb/
+
+---
+
+#### 2592. are there any "4th level" distros?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tizlet/are_there_any_4th_level_distros/
+
+---
+
+#### 2593. El EndeavourOS de Void Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tijln4/el_endeavouros_de_void_linux/
+
+---
+
+#### 2594. BeeMesh++ — A distributed volunteer computing framework built with modern C++ & Asio
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tiiheg/beemesh_a_distributed_volunteer_computing/
+
+---
+
+#### 2595. MS Office finally achieved after hours of battling
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tizye6/ms_office_finally_achieved_after_hours_of_battling/
+
+---
+
+#### 2596. AppGrid Launcher 1.8.0-rc.3 - looking for testers before final
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tic0zc/appgrid_launcher_180rc3_looking_for_testers/
+
+---
+
+#### 2597. Unity Hub on Bazzite
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tirqmj/unity_hub_on_bazzite/
+
+---
+
+#### 2598. Concern regarding public opinion on GNOME shifting.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tiwoic/concern_regarding_public_opinion_on_gnome_shifting/
+
+---
+
+#### 2599. Script de instalación automatica del driver MT7902 de Mediatek
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tirik2/script_de_instalación_automatica_del_driver/
+
+---
+
+#### 2600. Computer broke, salvaged the ssd. Now im trying to run Linux from an external ssd on a Windows 11 machine.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tirbcn/computer_broke_salvaged_the_ssd_now_im_trying_to/
+
+---
+
+#### 2601. How to add mods to a game (GOG and steam)?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tiuf4r/how_to_add_mods_to_a_game_gog_and_steam/
+
+---
+
+#### 2602. Best Linux for Windows 98/XP theme? XFCE?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tijjsx/best_linux_for_windows_98xp_theme_xfce/
+
+---
+
+#### 2603. Distro Choosing Help as a gamer
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tijyqo/distro_choosing_help_as_a_gamer/
+
+---
+
+#### 2604. Games running at near 0 fps or completely freezing.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tj0bet/games_running_at_near_0_fps_or_completely_freezing/
+
+---
+
+#### 2605. UI Scaling issue in Linux Mint
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tizyvb/ui_scaling_issue_in_linux_mint/
+
+---
+
+#### 2606. May not be entirely linux-specific, but i've been trying to mux and avs3 bitstream to mkv but can't. It is definitely possible in a playable form, there are avs3 mkv sample videos online.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tiz6p6/may_not_be_entirely_linuxspecific_but_ive_been/
+
+---
+
+#### 2607. No KVM error when creating a Linux Lite VM on Gnome Boxes
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tiymcu/no_kvm_error_when_creating_a_linux_lite_vm_on/
+
+---
+
+#### 2608. I need help choosing the distro
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tiiau5/i_need_help_choosing_the_distro/
+
+---
+
+#### 2609. Password/Keyboard layout issues after cosmic update (24.04 LTS Pop!_OS)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tiqeti/passwordkeyboard_layout_issues_after_cosmic/
+
+---
+
+#### 2610. Need help!! To fix my NVIDIA Fans
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tifvz0/need_help_to_fix_my_nvidia_fans/
+
+---
+
+#### 2611. Unable to get CUPS working on raspberry pi 3 model b for HP laserjet pro p 1108 plus printer
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tiv2vi/unable_to_get_cups_working_on_raspberry_pi_3/
+
+---
+
+#### 2612. Help needed in disabling Turbo Boost on Ubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tikdtl/help_needed_in_disabling_turbo_boost_on_ubuntu/
+
+---
+
+#### 2613. Inserting a DVD: GUI vs. Terminal
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tiue0y/inserting_a_dvd_gui_vs_terminal/
+
+---
+
+#### 2614. Hard core road map to learn pentesting
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tiucit/hard_core_road_map_to_learn_pentesting/
+
+---
+
+#### 2615. How would i get Capcut on my linux device?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tit0i6/how_would_i_get_capcut_on_my_linux_device/
+
+---
+
+#### 2616. Why am I running out of space on my VM?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tilcp5/why_am_i_running_out_of_space_on_my_vm/
+
+---
+
+#### 2617. How did Linux "know" it wasn't updated when not online?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1ti4obq/how_did_linux_know_it_wasnt_updated_when_not/
+
+---
+
+#### 2618. [FIX] Acer Nitro ANV15-51 (and similar): 3.5mm headset mic not working on Linux (Realtek ALC245)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tijgoe/fix_acer_nitro_anv1551_and_similar_35mm_headset/
+
+---
+
+#### 2619. Audio issues on CachyOS
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tij81e/audio_issues_on_cachyos/
+
+---
+
+#### 2620. Not sure if I have a Windows question or Linux question.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tiooe3/not_sure_if_i_have_a_windows_question_or_linux/
+
+---
+
+#### 2621. Anybody else use DupeGuru with Kubuntu Linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tio3ax/anybody_else_use_dupeguru_with_kubuntu_linux/
+
+---
+
+#### 2622. OnScreen python keyboard on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tinqle/onscreen_python_keyboard_on_linux/
+
+---
+
+#### 2623. IdeaPad 5 Pro 14ACN6: No bass/woofers working on Linux (ALC257)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tiekyx/ideapad_5_pro_14acn6_no_basswoofers_working_on/
+
+---
+
+#### 2624. Best Linux Distro for Painless NVIDIA Experience
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tibs94/best_linux_distro_for_painless_nvidia_experience/
+
+---
+
+#### 2625. What do you do in this position?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1titow6/what_do_you_do_in_this_position/
+
+---
+
+#### 2626. Is it weird to choose a distro based off branding?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1ticnur/is_it_weird_to_choose_a_distro_based_off_branding/
+
+---
+
+#### 2627. Successfully Dual booted my PC to have 26.04 and 24.06
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tiedx1/successfully_dual_booted_my_pc_to_have_2604_and/
+
+---
+
+#### 2628. Thinkpad E14 - Touch ID
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tiz4qp/thinkpad_e14_touch_id/
+
+---
+
+#### 2629. What is the status of the fix for the Dirty Frag exploit on Ubuntu?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tiu4ja/what_is_the_status_of_the_fix_for_the_dirty_frag/
+
+---
+
+#### 2630. Issue with putting the laptop to sleep
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tiqgow/issue_with_putting_the_laptop_to_sleep/
+
+---
+
+#### 2631. How do i change these to the Mac OS style?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tikzvh/how_do_i_change_these_to_the_mac_os_style/
+
+---
+
+#### 2632. Halp!
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tj0laa/halp/
+
+---
+
+#### 2633. I beg for saving from the Reddit helpdesk
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tj0ho7/i_beg_for_saving_from_the_reddit_helpdesk/
+
+---
+
+#### 2634. Ubuntu 26.04 live version crashing a lot
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tiresk/ubuntu_2604_live_version_crashing_a_lot/
+
+---
+
+#### 2635. Suddenly no option to connect to Wi-Fi on 26.04 LTS.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tiv01k/suddenly_no_option_to_connect_to_wifi_on_2604_lts/
+
+---
+
+#### 2636. Just a question as a beginner
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tik43v/just_a_question_as_a_beginner/
+
+---
+
+#### 2637. Não consigo baixar o snap
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tisp3l/não_consigo_baixar_o_snap/
+
+---
+
+#### 2638. How do I lock screen without putting the display to sleep?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tiiuw4/how_do_i_lock_screen_without_putting_the_display/
+
+---
+
+#### 2639. i feel my computer on this one at a personal level
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tidn6n/i_feel_my_computer_on_this_one_at_a_personal_level/
+
+---
+
+#### 2640. Trying to setup Ubuntu Budgie but can't get past this part.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tiace4/trying_to_setup_ubuntu_budgie_but_cant_get_past/
+
+---
+
+#### 2641. Recently update my Kubuntu, and now these things don't seem to be updating properly
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tirjl4/recently_update_my_kubuntu_and_now_these_things/
+
+---
+
+#### 2642. Remember window position and size
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tihjcm/remember_window_position_and_size/
+
+---
+
+#### 2643. ubuntu iso verification
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tiphgb/ubuntu_iso_verification/
+
+---
+
+#### 2644. Warning message
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tieecf/warning_message/
+
+---
+
+#### 2645. Fingerprint Login Available Only on Local Account
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tilf3j/fingerprint_login_available_only_on_local_account/
+
+---
+
+#### 2646. how to solve the IO error
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tikw2r/how_to_solve_the_io_error/
+
+---
+
+#### 2647. Font issues with gnome-tweaks
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tijo5g/font_issues_with_gnometweaks/
+
+---
+
+#### 2648. From Win 11 to Ubuntu 26.04 - approaches to backup seem patchy - or have I missed something?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1ti53ae/from_win_11_to_ubuntu_2604_approaches_to_backup/
+
+---
+
+#### 2649. should i switch to arch or debian
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tic537/should_i_switch_to_arch_or_debian/
+
+---
+
+#### 2650. SSH Command Cheatsheet
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tirkmm/ssh_command_cheatsheet/
+
+---
+
+#### 2651. Need help picking an OS for a family member's old laptop, what would you guys recommend?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tizemv/need_help_picking_an_os_for_a_family_members_old/
+
+---
+
+#### 2652. Trouble with audio latency increase with different interfaces
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tis023/trouble_with_audio_latency_increase_with/
+
+---
+
+#### 2653. Dabbling in Linux - should I buy a cheap dedicated pc?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tikxep/dabbling_in_linux_should_i_buy_a_cheap_dedicated/
+
+---
+
+#### 2654. How i can change icon for ubuntu directory?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tirkmd/how_i_can_change_icon_for_ubuntu_directory/
+
+---
+
+#### 2655. Need Help for starters
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tirqap/need_help_for_starters/
+
+---
+
+#### 2656. Is it possible to resize drive partitions post install?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tirojw/is_it_possible_to_resize_drive_partitions_post/
+
+---
+
+#### 2657. OnScreen python keyboard on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tinq7f/onscreen_python_keyboard_on_linux/
+
+---
+
+#### 2658. Help for linux command lines
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tialnb/help_for_linux_command_lines/
+
+---
+
+#### 2659. alt+f4 equivalent built into Mint?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tiwysc/altf4_equivalent_built_into_mint/
+
+---
+
+#### 2660. how can i dissable sceure boot on linux minth?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tiwieg/how_can_i_dissable_sceure_boot_on_linux_minth/
+
+---
+
+#### 2661. Intel Arc B580 stable and fast on Kernel 7.0.9 and mesa 26.0.7?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tivu9p/intel_arc_b580_stable_and_fast_on_kernel_709_and/
+
+---
+
+#### 2662. First experience with Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tiu5jy/first_experience_with_linux/
+
+---
+
+#### 2663. KDE question: Is it possible to change the icons on the bottom right?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tij37r/kde_question_is_it_possible_to_change_the_icons/
+
+---
+
+#### 2664. Bazzite on Macmini6,1
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tisx4f/bazzite_on_macmini61/
+
+---
+
+#### 2665. Want to make The Switch soon, any suggestions for an IT student?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tij206/want_to_make_the_switch_soon_any_suggestions_for/
+
+---
+
+#### 2666. I cant get access to a file(bazzite)
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tisn0r/i_cant_get_access_to_a_filebazzite/
+
+---
+
+#### 2667. Is it possible to substitute package on a mirror?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tiqecq/is_it_possible_to_substitute_package_on_a_mirror/
+
+---
+
+#### 2668. What to use for maintaining, cleaning up, and editing PDF?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tie62m/what_to_use_for_maintaining_cleaning_up_and/
+
+---
+
+#### 2669. KDE rice integration
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tip1nu/kde_rice_integration/
+
+---
+
+#### 2670. Extracting Japanese zip files
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tiocki/extracting_japanese_zip_files/
+
+---
+
+#### 2671. Output failure
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tihthb/output_failure/
+
+---
+
+#### 2672. Customizations abound: Colors Update for a Classic Terminal Game
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1tizb3u/customizations_abound_colors_update_for_a_classic/
+
+---
+
+#### 2673. Do you guys use zsh/oh-my-zsh or bash on the daily?
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1tiyl72/do_you_guys_use_zshohmyzsh_or_bash_on_the_daily/
+
+---
+
+#### 2674. Galaxy made with OpenTUI
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1tj02g4/galaxy_made_with_opentui/
+
+---
+
+#### 2675. A Commandline Indie Game Where You Perform Cult Rituals
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1tixjge/a_commandline_indie_game_where_you_perform_cult/
+
+---
+
+#### 2676. Dirplot 0.5.0 – Local and remote directory treemaps, as snapshots and animations
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1tiokgr/dirplot_050_local_and_remote_directory_treemaps/
+
+---
+
+#### 2677. base – CLI tool to convert between raw bytes and base 2, 8, 10, or 16
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1tiutrh/base_cli_tool_to_convert_between_raw_bytes_and/
+
+---
+
+#### 2678. Chawan 0.4.0 TUI web browser (2026-05-17)
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1ti4pgb/chawan_040_tui_web_browser_20260517/
+
+---
+
+#### 2679. docker hello-world as Matrix code
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1tidjra/docker_helloworld_as_matrix_code/
+
+---
+
+#### 2680. [V2EX] niri 怎么连自动切换显示器都这么难啊
+
+**问题描述 / Problem Description**:
+折腾几个小时了，能自动熄屏内置，拔了外置的线，内置不能点亮，这种功能都没有原生的，怎么玩 #!/bin/bash 将所有输出（包括报错）追加写入到日志文件中 exec >> ~/screen-switch.log 2>&1 echo "=== $(date) 脚本被触发 ===" 第一次防抖：等待系统初步刷新显示器连接状态 sleep 2 提取纯显示器代号 connected_outputs=$(wlr-randr | grep "DP-3 ") echo "当前识别到的连接显示器: $connected_outputs" 检查外接显示器 DP-3 if echo "$connected_ou
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214237#reply0
+
+---
+
+#### 2681. [V2EX] 分享 tmux 快捷方式
+
+**问题描述 / Problem Description**:
+在 .bashrc 添加了下面的快捷方式，用不着每次都输入 tmux ... aa() { if tmux has-session -t aa 2>/dev/null; then tmux attach -t aa else tmux new -s aa fi } rr() { if tmux has-session -t rr 2>/dev/null; then tmux attach -t rr else tmux new -s rr fi }
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1213636#reply10
+
+---
+
+#### 2682. [V2EX] Antigravity 3.5 Flash 额度消耗的巨快，好像是 3.1 Flash 的 6 倍， reddit 上哀嚎遍野
+
+**问题描述 / Problem Description**:
+https://www.reddit.com/r/google_antigravity/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214273#reply0
+
+---
+
+#### 2683. [V2EX] 有做网页逆向的兄弟吗？现在有了 ai 自动化，是否都能直接搞定了？
+
+**问题描述 / Problem Description**:
+现在对比之前难度是减少了 还是出现了某种难题，比如技术上是否 vm 加强了？ 或者验证码触发更容易了？ 主要想了解一下，做网页爬虫，还是做 api 更容易。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214270#reply0
+
+---
+
+#### 2684. [V2EX] 手搓了个让 Claude Code、Codex、Cursor 共享记忆的小工具
+
+**问题描述 / Problem Description**:
+在用 Claude Code 、Codex 、Cursor 这些 AI 工具写东西，感觉有个问题 每换一个工具、一个项目、一个新会话，都要重新解释一遍自己是谁 比如：我习惯用中文沟通、我希望它先读代码再下判断，每次都要给他教育一遍，定规则。。 所以我做了一个小工具，叫 Engram 。 简单说，它就是把这些记忆存在本地 JSON 里，然后通过 MCP 暴露给支持 MCP 的 AI 工具读取。 它主要做几件事： 记住我的身份、偏好、沟通习惯 记住项目里的经验教训和关键决策 多个 AI 工具共享同一份本地记忆 数据都在本地，JSON 可以直接编辑 通过 MCP 接入，不绑定某一个 AI 产品 比如
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214263#reply0
+
+---
+
+#### 2685. [V2EX] 验证 OpenAI 生成的图像
+上传图片，即可检验该图像是否出自 OpenAI 的 AI 工具之手
+
+**问题描述 / Problem Description**:
+https://openai.com/zh-Hans-CN/research/verify/ https://github.com/wiltodelta/remove-ai-watermarks 关于 CLI 和库用于去除图像中可见（ Gemini ）和不可见（ SynthID 、C2PA 、EXIF ） AI 水印
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214259#reply0
+
+---
+
+#### 2686. [V2EX] kimi 2.6 悄悄删除了我的数据库
+
+**问题描述 / Problem Description**:
+让写一个启动脚本，kimi 在 docker 建了一个 mysql ，写完后自己测试时因为端口占用失败了，就把我的库删了，留了自己建的。整个过程悄迷迷的，都没问一下我。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214257#reply4
+
+---
+
+#### 2687. [V2EX] 推荐一款可在云手机中改机的程序？
+
+**问题描述 / Problem Description**:
+大家好，我目前在做云手机项目，想在云端实现系统改机（刷机）功能。已尝试过以下方法： 1. 使用 AOSP `adb` + `fastboot`，但需要云手机支持物理接口。 2. 利用 QEMU 进行系统模拟，却遇到卡顿和权限问题。 希望能找到： - 在云环境下可直接执行的刷机脚本或工具； - 兼容 Android 11+ 的方式； - 任何开源或可商用方案都欢迎分享。 如果你们有相似需求或经验，欢迎在评论区交流。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214224#reply2
+
+---
+
+#### 2688. [V2EX] 这就是谷歌新发布的 antigravity cli 吗
+
+**问题描述 / Problem Description**:
+谷歌目前做 ai 的思路到底是什么，完全摸不着头脑。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214220#reply15
+
+---
+
+#### 2689. [V2EX] deepseek api
+
+**问题描述 / Problem Description**:
+提供包天，包周，包月服务 无限量 deepseek 和 qwen 的 api 调用接口(baseUrl+apiKey) 有没有搞头?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214215#reply9
+
+---
+
+#### 2690. [V2EX] 有没有推荐的查资料做报告好用的 AI agent？
+
+**问题描述 / Problem Description**:
+主要诉求是根据需求自动去网络搜索资料，整理内容，根据内容做分析，最后输出报告。不太需要其他能力。 要免费，有 windows 版本，可接入 deepseek
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214213#reply9
+
+---
+
+#### 2691. [V2EX] antigravity 升级后 Auto Accept Agent 插件没用了，有解决办法吗？
+
+**问题描述 / Problem Description**:
+之前用习惯了这个插件，自动确认执行，太方便了，现在没法用，很不习惯 有平替插件吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214204#reply0
+
+---
+
+#### 2692. [V2EX] 分享一个我自用的 git 提交的 skill（提高提交信息质量和 AI 检索效率）
+
+**问题描述 / Problem Description**:
+其实大多数人都不会好好写 git 提交信息，甚至有些人根本不写，直接用默认的 "Update" 或 "Fix bug" 之类的提交信息。 虽然现代码都不是人写的了，但是 git 提交信息除了提高可维护、团队协作， 其实也很方便 AI 追踪排查问题，还是很重要的。 我过去都是用 vscode 自带的提交信息生成，但是那个缺少模型对话的上下文，生成效果不好，所以还是用一个 skill 比较好。 这个 skill 有几个注意事项我写到后面了。 --- description: 智能提交：有暂存文件则提交暂存内容，否则提交所有已追踪的改动，使用中文提交信息 argument-hint: "[可选的补充
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214196#reply7
+
+---
+
+#### 2693. [V2EX] codex gpt 5.5 突然冒出“精品国产”
+
+**问题描述 / Problem Description**:
+输出内容突然冒出“精品国产”，离大谱... 官方订阅的 codex ，不是中转站。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214185#reply3
+
+---
+
+#### 2694. [V2EX] 新的 anti-gravity 大家感觉怎么样？
+
+**问题描述 / Problem Description**:
+之前 用过一段时间 antigravity ，还是很喜欢他的使用体验的， 奈何后面 各种砍额度，retry ，以至于完全没办法使用了。 现在新的 定价方案出来了， 新的模型也发布了， 但是我也不敢贸然去订阅会员了。所以来请教一下过来人现在的情况。 1 、 新的 gemini 的订阅额度 如何？ $20 的订阅额度， 和 codex 的 $20 相比， 差的多吗？ codex 的是可以轻度的使用。 2 、 新的 Antigravity 还有 claude opus 的模型的使用额度吗？ 还是只有 gemini 了？ 其实还是挺怀念当时的 antigravity ，配合 claude opus ，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214184#reply10
+
+---
+
+#### 2695. [V2EX] [已经更新] 我是如何用 Codex-cli 蹬 XIAOMI-MIMO 的
+
+**问题描述 / Problem Description**:
+前文再续上一回。 上一回的帖子地址 https://v2ex.com/t/1210054 上回有人说字介绍太详细了，那这次贴 CHANGELOG 吧。（有人说收了广告费，LongCat ，GLM 也测试了。） 有人 FEEDBACK 需要图片支持，已经加了图片支持和声音文件支持 reasoning_content 已经支持了。看配置文件就可以了。 要求支持 /compact 的朋友。抱歉，当前的版本我没有很合理的解决方案（压缩上下文再插回去）。当前会有友好的提示。我自己测试手动 compact 是没问题的。 bugfix: CODEX DESKTOP 的自动 approve 模式 最新的 CO
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214180#reply0
+
+---
+
+#### 2696. [V2EX] 用 Claude Code 半年，我才意识到 AI 时代程序员真正的瓶颈不在代码
+
+**问题描述 / Problem Description**:
+28 岁，上海，普通公司程序员。半年前学 Claude Code ，本来是想"提效"。 提效是成功了——工作压到了一天 4 小时左右，剩下的时间跑副业（一个个人网站，月入 ¥1000 ，挺寒酸但是真的）。 可就在这种"提效成功"的副作用里，我反而开始意识到一件让我有点不舒服的事： 写代码从来不是真瓶颈。 AI 把这一段彻底消灭之后，我看清了三个真正卡我的地方。想跟同路人聊一下，也求 V 友拍砖。 1. 选品瓶颈：能做的越多，越不知道做什么 以前是"想做的东西做不出来"，所以努力学技术。 现在是"任何东西理论上都能做出来"，但每个想法刚冒出来，下一秒就被自己否决： 这东西已经有人做过了 没人会付
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214170#reply9
+
+---
+
+#### 2697. [V2EX] 各位 Vibe Coder,我可能解决了你在 VSCODE 和 CURSOR 中的一个小痛点
+
+**问题描述 / Problem Description**:
+大家好！ 自从用上了 Cursor 和各种 AI 编程助手，我发现自己每天花在“盯着屏幕看 AI 打字”上的时间越来越多了。遇到稍微复杂点的任务，AI 吭哧吭哧能跑好几分钟。一直盯着看很傻，出去干点啥又怕错过什么重要的事。 为了解决这个痛点，我开发了一个 VS Code / Cursor 插件：Boomerang Notifier (回旋镖🪃)。 它的功能非常简单粗暴： 当你把需求丢给 AI 开始干活后，插件就会在后台默默帮你“监工”。等 AI 停止输出（活干完了，或者报错卡住了），它会立刻通过你设置好的通道（微信、Bark 、钉钉等）把消息推送到你手机上。就像你扔出去的回旋镖,终究飞回来击中
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214167#reply11
+
+---
+
+#### 2698. [V2EX] 目前 AI 能完全读取整个项目并且记住了全部代码了吗
+
+**问题描述 / Problem Description**:
+目前据我了解，网页版以及 app 似乎都不能读取整个项目的代码（通常有长度限制或者无法读取某些文件格式） 我个人的 swift 写的项目，有些资源竞争问题导致崩溃，目前还没有好的方式解决。想问下目前哪个 AI/agent 可 以解决。 额外问题： openclaw 可以自动在股票市场上赚钱了吗😄，token 烧的速度怎么样。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214166#reply13
+
+---
+
+#### 2699. [V2EX] AI 越来越强，抓包工具会消失吗？想听听大家的看法
+
+**问题描述 / Problem Description**:
+最近在做一个 HTTP 抓包调试工具，叫 HTTPeep 。做到一半，开始有点怀疑自己。 不是因为技术难，技术部分现在有 AI ，生产不再是瓶颈，但是另一方面我又一直在问自己，我现在在做的东西，几年后还有人需要吗？就我自己的感受，抓包工具确实是打开得变少了。 根据这几个月高强度的 Agent Coding 和经历过好几次模型迭代，我感受到一个以前要用抓包才能搞清楚的 API 问题，直接问 AI ，就算上下文不足，根据已有的代码信息，多推理几轮基本上问题也能解决了。然后开始认真想这件事。有两个想法在脑子里打转... 论点 A：这个赛道会萎缩 AI 通过静态代码就能推理出大部分网络行为。随着模型越
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214152#reply5
+
+---
+
+#### 2700. [V2EX] 亚马逊云科技中国峰会 2026 预约参会名额
+
+**问题描述 / Problem Description**:
+今年 亚马逊云科技中国峰会 2026 要来了，主题会围绕 Agentic AI 、生成式 AI 、云原生、企业上云和行业实践展开。 如果你最近在关注： 1.AI 应用落地 2.云原生架构 3.Serverless / 大模型应用 4.企业数字化 可以考虑去现场看看，免费预约参会。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214137#reply1
+
+---
+
+#### 2701. [V2EX] 软考准考证可以打印了,有准备考试的,别忘了
+
+**问题描述 / Problem Description**:
+希望大家,逢考必过
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1214116#reply3
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 640**
+**总计条目 / Total entries: 647**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -10152,5 +10152,119 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 **参考链接 / References**:
 - https://www.cve.org/CVERecord?id=CVE-2026-6478
+
+---
+
+#### 641. [Microsoft] CVE-2026-42834 - Windows Admin Center in Azure Portal Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Azure Portal Windows Admin Center
+
+**漏洞描述 / Description**:
+[Microsoft] Improper link resolution before file access ('link following') in Azure Portal Windows Admin Center allows an authorized attacker to elevate privileges locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-42834
+
+---
+
+#### 642. [Microsoft] CVE-2026-45584 - Microsoft Defender Remote Code Execution Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Microsoft Defender
+
+**漏洞描述 / Description**:
+[Microsoft] Heap-based buffer overflow in Microsoft Defender allows an unauthorized attacker to execute code over a network.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-45584
+
+---
+
+#### 643. [Microsoft] CVE-2026-41091 - Microsoft Defender Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Microsoft Defender
+
+**漏洞描述 / Description**:
+[Microsoft] Improper link resolution before file access ('link following') in Microsoft Defender allows an authorized attacker to elevate privileges locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-41091
+
+---
+
+#### 644. [Microsoft] CVE-2026-45498 - Microsoft Defender Denial of Service Vulnerability
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Microsoft Defender
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-45498
+
+---
+
+#### 645. [Microsoft] CVE-2026-45585 - Windows BitLocker Security Feature Bypass Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows BitLocker
+
+**漏洞描述 / Description**:
+[Microsoft] Microsoft is aware of a security feature bypass vulnerability in Windows publicly referred to as "YellowKey". The proof of concept for this vulnerability has been made public violating coordinated vulnerability best practices.
+ 
+We are issuing this CVE to provide mitigation guidance that can be implemented to protect against this vulnerability until the security update is made available.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-45585
+
+---
+
+#### 646. [Microsoft] CVE-2026-46483 - Vim: Command injection in tar#Vimuntar via missing shellescape {special} flag
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-46483
+
+---
+
+#### 647. [Microsoft] CVE-2026-44431 - urllib3: Sensitive headers forwarded across origins in proxied low-level redirects
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-44431
 
 ---
