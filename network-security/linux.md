@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1432**
+**总计条目 / Total entries: 1495**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -23217,5 +23217,1859 @@ The gnu regular expression code in file 4.20 allows context-dependent attackers 
 - http://www.securityfocus.com/archive/1/466220/100/0/threaded
 - http://www.securityfocus.com/archive/1/466017/100/0/threaded
 - http://www.securityfocus.com/archive/1/466147/100/0/threaded
+
+---
+
+#### 1433. CVE-2026-2734 - mlflow: mlflow: Information Disclosure via improper authorization checks
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] mlflow: mlflow: Information Disclosure via improper authorization checks. Bugzilla: 2480345
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480345
+
+---
+
+#### 1434. CVE-2026-9150 - libsolv: Stack-based buffer overflow in libsolv's Debian metadata parser when…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] libsolv: Stack-based buffer overflow in libsolv's Debian metadata parser when handling SHA384/SHA512 checksums. Bugzilla: 2460379
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2460379
+
+---
+
+#### 1435. CVE-2026-9149 - libsolv: Heap buffer overflow in libsolv repo_add_solv via negative maxsize from…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] libsolv: Heap buffer overflow in libsolv repo_add_solv via negative maxsize from crafted .solv file. Bugzilla: 2460380
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2460380
+
+---
+
+#### 1436. CVE-2026-47099 - telejson: TeleJSON: Arbitrary code execution via DOM-based cross-site scripting
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] telejson: TeleJSON: Arbitrary code execution via DOM-based cross-site scripting. Bugzilla: 2480251
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480251
+
+---
+
+#### 1437. CVE-2026-9087 - keycloak: Cross-Session Email Verification Proof Not Bound to Upstream Identity in…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Cross-Session Email Verification Proof Not Bound to Upstream Identity in First-Broker-Login. Bugzilla: 2480172
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480172
+
+---
+
+#### 1438. CVE-2026-33278 - unbound: Unbound DNSSEC Validator Use-After-Free via Deep Copy Pointer Overwrite…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] unbound: Unbound DNSSEC Validator Use-After-Free via Deep Copy Pointer Overwrite Leading to DoS and Possible Remote Code Execution. Bugzilla: 2479808
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479808
+
+---
+
+#### 1439. CVE-2026-42944 - unbound: Heap overflow and crash with multiple nsid, cookie, padding EDNS options
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] unbound: Heap overflow and crash with multiple nsid, cookie, padding EDNS options. Bugzilla: 2479774
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479774
+
+---
+
+#### 1440. CVE-2026-44608 - unbound: Unbound: Denial of Service due to locking inconsistency during RPZ XFR…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] unbound: Unbound: Denial of Service due to locking inconsistency during RPZ XFR reload. Bugzilla: 2480126
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480126
+
+---
+
+#### 1441. CVE-2026-47784 - memcached: Memcached: Information disclosure via timing side channel
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] memcached: Memcached: Information disclosure via timing side channel. Bugzilla: 2480088
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480088
+
+---
+
+#### 1442. CVE-2026-45232 - rsync: Rsync: Denial of Service via malformed HTTP proxy response
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] rsync: Rsync: Denial of Service via malformed HTTP proxy response. Bugzilla: 2480057
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480057
+
+---
+
+#### 1443. CVE-2026-42959 - unbound: Unbound DNSSEC Validator Denial of Service via Incorrect Write Offset…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] unbound: Unbound DNSSEC Validator Denial of Service via Incorrect Write Offset Counter in Chase-Reply Messages. Bugzilla: 2479806
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479806
+
+---
+
+#### 1444. [Ubuntu] USN-8294-1: PostgreSQL vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that PostgreSQL did not correctly enforce authorization for CREATE TYPE. An attacker could possibly use this issue to execute arbitrary SQL functions. (CVE-2026-6472) It was discovered that PostgreSQL incorrectly handled large user input in multiple server features. An attacker could possibly use this issue to cause PostgreSQL to crash, resulting in a denial of service, or execut
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8294-1
+
+---
+
+#### 1445. [Ubuntu] USN-8293-1: Bind vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Vitaly Simonovich discovered that Bind could exhaust memory during GSS-API TKEY negotiation. A remote attacker could possibly use this issue to cause Bind to use excessive resources, leading to a denial of service. (CVE-2026-3039) Shuhan Zhang discovered that Bind incorrectly handled self-pointed glue records. A remote attacker could possibly use this issue to use Bind in denial of service amplifi
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8293-1
+
+---
+
+#### 1446. [Ubuntu] USN-8292-1: libarchive vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libarchive incorrectly handled certain RAR archives. An attacker could possibly use this issue to cause an out-of-bounds read via a crafted RAR archive, leading to sensitive memory disclosure. (CVE-2026-4424) It was discovered that libarchive incorrectly handled certain ISO files. An attacker could possibly use this issue to cause incorrect memory allocation via a crafted IS
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8292-1
+
+---
+
+#### 1447. [Ubuntu] USN-8291-1: Linux kernel (Intel IoTG Real-time) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - SMB network file system; - Netfilter; - io_uring subsystem; (CVE-2024-35862, CVE-2024-50060, CVE-2026-23274, CVE-2026-23351)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8291-1
+
+---
+
+#### 1448. [Ubuntu] USN-8202-3: jq regression
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8202-1 fixed vulnerabilities in jq. The update caused a regression for Ubuntu 18.04 LTS and Ubuntu 20.04 LTS. This update fixes the problem. We apologize for the inconvenience. Original advisory details: It was discovered that jq did not correctly handle certain string concatenations. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. This issue w
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8202-3
+
+---
+
+#### 1449. [Ubuntu] USN-8289-1: Linux kernel (NVIDIA) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel algif_aead module did not properly handle in-place cryptographic operations. This flaw is known as Copy Fail. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-31431) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8289-1
+
+---
+
+#### 1450. [Ubuntu] USN-8288-1: Bubblewrap vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Bubblewrap incorrectly handled the sandbox setup phase when installed in setuid mode. A local attacker could possibly use this issue to bypass sandbox restrictions.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8288-1
+
+---
+
+#### 1451. [Ubuntu] USN-8287-1: XDG Desktop Portal vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that XDG Desktop Portal incorrectly handled trashing files. A local attacker could possibly use this issue to delete arbitrary files on the host file system via a symlink attack.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8287-1
+
+---
+
+#### 1452. CVE-2022-29186
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.1
+
+**漏洞描述 / Description**:
+Rundeck is an open source automation service with a web console, command line tools and a WebAPI. Rundeck community and rundeck-enterprise docker images contained a pre-generated SSH keypair. If the id_rsa.pub public key of the keypair was copied to authorized_keys files on remote host, those hosts would allow access to anyone with the exposed private credentials. This misconfiguration only impacts Rundeck Docker instances of PagerDuty® Process Automation On Prem (formerly Rundeck) version 4.0 and earlier, not Debian, RPM or .WAR. Additionally, the id_rsa.pub file would have to be copied from the Docker image filesystem contents without overwriting it and used to configure SSH access on a host. A patch on Rundeck's `main` branch has removed the pre-generated SSH key pair, but it does not remove exposed keys that have been configured. To patch, users must run a script on hosts in their environment to search for exposed keys and rotate them. Two workarounds are available: Do not use any pre-existing public key file from the rundeck docker images to allow SSH access by adding it to authorized_keys files and, if you have copied the public key file included in the docker image, remove it from any authorized_keys files.
+
+**参考链接 / References**:
+- https://github.com/rundeck/rundeck/commit/16ef7a70b202492f9fbb54d8af4bb8ea0afa10ad
+- https://github.com/rundeck/rundeck/security/advisories/GHSA-qxjx-xr2m-hgqx
+- https://github.com/rundeck/rundeck/commit/16ef7a70b202492f9fbb54d8af4bb8ea0afa10ad
+- https://github.com/rundeck/rundeck/security/advisories/GHSA-qxjx-xr2m-hgqx
+
+---
+
+#### 1453. CVE-2022-1664
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+Dpkg::Source::Archive in dpkg, the Debian package management system, before version 1.21.8, 1.20.10, 1.19.8, 1.18.26 is prone to a directory traversal vulnerability. When extracting untrusted source packages in v2 and v3 source package formats that include a debian.tar, the in-place extraction can lead to directory traversal situations on specially crafted orig.tar and debian.tar tarballs.
+
+**参考链接 / References**:
+- https://git.dpkg.org/cgit/dpkg/dpkg.git/commit/?id=1f23dddc17f69c9598477098c7fb9936e15fa495
+- https://git.dpkg.org/cgit/dpkg/dpkg.git/commit/?id=58814cacee39c4ce9e2cd0e3a3b9b57ad437eff5
+- https://git.dpkg.org/cgit/dpkg/dpkg.git/commit/?id=7a6c03cb34d4a09f35df2f10779cbf1b70a5200b
+- https://git.dpkg.org/cgit/dpkg/dpkg.git/commit/?id=faa4c92debe45412bfcf8a44f26e827800bb24be
+- https://lists.debian.org/debian-lts-announce/2022/05/msg00033.html
+
+---
+
+#### 1454. CVE-2022-33912
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+A permission issue affects users that deployed the shipped version of the Checkmk Debian package. Packages created by the agent bakery (enterprise editions only) were not affected. Using the shipped version of the agents, the maintainer scripts located at /var/lib/dpkg/info/ will be owned by the user and the group with ID 1001. If such a user exists on the system, they can change the content of these files (which are then executed by root). This leads to a local privilege escalation on the monitored host. Version 1.6 through 1.6.9p29, version 2.0 through 2.0.0p26, version 2.1 through 2.1.0p3, and version 2.2.0i1 are affected.
+
+**参考链接 / References**:
+- https://checkmk.com/werk/14098
+- https://checkmk.com/werk/14098
+
+---
+
+#### 1455. CVE-2022-3088
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+UC-8100A-ME-T System Image: Versions v1.0 to v1.6, UC-2100 System Image: Versions v1.0 to v1.12, UC-2100-W System Image: Versions v1.0 to v 1.12, UC-3100 System Image: Versions v1.0 to v1.6, UC-5100 System Image: Versions v1.0 to v1.4, UC-8100 System Image: Versions v3.0 to v3.5, UC-8100-ME-T System Image: Versions v3.0 and v3.1, UC-8200 System Image: v1.0 to v1.5, AIG-300 System Image: v1.0 to v1.4, UC-8410A with Debian 9 System Image: Versions v4.0.2 and v4.1.2, UC-8580 with Debian 9 System Image: Versions v2.0 and v2.1, UC-8540 with Debian 9 System Image: Versions v2.0 and v2.1, and DA-662C-16-LX (GLB) System Image: Versions v1.0.2 to v1.1.2 of Moxa's ARM-based computers have an execution with unnecessary privileges vulnerability, which could allow an attacker with user-level privileges to gain root privileges.
+
+**参考链接 / References**:
+- https://www.cisa.gov/uscert/ics/advisories/icsa-22-326-05
+- https://www.cisa.gov/uscert/ics/advisories/icsa-22-326-05
+
+---
+
+#### 1456. CVE-2023-26314
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+
+**漏洞描述 / Description**:
+The mono package before 6.8.0.105+dfsg-3.3 for Debian allows arbitrary code execution because the application/x-ms-dos-executable MIME type is associated with an un-sandboxed Mono CLR interpreter.
+
+**参考链接 / References**:
+- https://bugs.debian.org/972146
+- https://lists.debian.org/debian-lts-announce/2023/02/msg00037.html
+- https://www.openwall.com/lists/oss-security/2023/01/05/1
+- http://www.openwall.com/lists/oss-security/2026/05/19/2
+- http://www.openwall.com/lists/oss-security/2026/05/19/41
+
+---
+
+#### 1457. CVE-2023-27635
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+debmany in debian-goodies 0.88.1 allows attackers to execute arbitrary shell commands (because of an eval call) via a crafted .deb file. (The path is shown to the user before execution.)
+
+**参考链接 / References**:
+- https://bugs.debian.org/1031267
+- https://bugs.debian.org/1031267
+
+---
+
+#### 1458. CVE-2021-46933
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+usb: gadget: f_fs: Clear ffs_eventfd in ffs_data_clear.
+
+ffs_data_clear is indirectly called from both ffs_fs_kill_sb and
+ffs_ep0_release, so it ends up being called twice when userland closes ep0
+and then unmounts f_fs.
+If userland provided an eventfd along with function's USB descriptors, it
+ends up calling eventfd_ctx_put as many times, causing a refcount
+underflow.
+NULL-ify ffs_eventfd to prevent these extraneous eventfd_ctx_put calls.
+
+Also, set epfiles to NULL right after de-allocating it, for readability.
+
+For completeness, ffs_data_clear actually ends up being called thrice, the
+last call being before the whole ffs structure gets freed, so when this
+specific sequence happens there is a second underflow happening (but not
+being reported):
+
+/sys/kernel/debug/tracing# modprobe usb_f_fs
+/sys/kernel/debug/tracing# echo ffs_data_clear > set_ftrace_filter
+/sys/kernel/debug/tracing# echo function > current_tracer
+/sys/kernel/debug/tracing# echo 1 > tracing_on
+(setup gadget, run and kill function userland process, teardown gadget)
+/sys/kernel/debug/tracing# echo 0 > tracing_on
+/sys/kernel/debug/tracing# cat trace
+ smartcard-openp-436     [000] .....  1946.208786: ffs_data_clear <-ffs_data_closed
+ smartcard-openp-431     [000] .....  1946.279147: ffs_data_clear <-ffs_data_closed
+ smartcard-openp-431     [000] .n...  1946.905512: ffs_data_clear <-ffs_data_put
+
+Warning output corresponding to above trace:
+[ 1946.284139] WARNING: CPU: 0 PID: 431 at lib/refcount.c:28 refcount_warn_saturate+0x110/0x15c
+[ 1946.293094] refcount_t: underflow; use-after-free.
+[ 1946.298164] Modules linked in: usb_f_ncm(E) u_ether(E) usb_f_fs(E) hci_uart(E) btqca(E) btrtl(E) btbcm(E) btintel(E) bluetooth(E) nls_ascii(E) nls_cp437(E) vfat(E) fat(E) bcm2835_v4l2(CE) bcm2835_mmal_vchiq(CE) videobuf2_vmalloc(E) videobuf2_memops(E) sha512_generic(E) videobuf2_v4l2(E) sha512_arm(E) videobuf2_common(E) videodev(E) cpufreq_dt(E) snd_bcm2835(CE) brcmfmac(E) mc(E) vc4(E) ctr(E) brcmutil(E) snd_soc_core(E) snd_pcm_dmaengine(E) drbg(E) snd_pcm(E) snd_timer(E) snd(E) soundcore(E) drm_kms_helper(E) cec(E) ansi_cprng(E) rc_core(E) syscopyarea(E) raspberrypi_cpufreq(E) sysfillrect(E) sysimgblt(E) cfg80211(E) max17040_battery(OE) raspberrypi_hwmon(E) fb_sys_fops(E) regmap_i2c(E) ecdh_generic(E) rfkill(E) ecc(E) bcm2835_rng(E) rng_core(E) vchiq(CE) leds_gpio(E) libcomposite(E) fuse(E) configfs(E) ip_tables(E) x_tables(E) autofs4(E) ext4(E) crc16(E) mbcache(E) jbd2(E) crc32c_generic(E) sdhci_iproc(E) sdhci_pltfm(E) sdhci(E)
+[ 1946.399633] CPU: 0 PID: 431 Comm: smartcard-openp Tainted: G         C OE     5.15.0-1-rpi #1  Debian 5.15.3-1
+[ 1946.417950] Hardware name: BCM2835
+[ 1946.425442] Backtrace:
+[ 1946.432048] [<c08d60a0>] (dump_backtrace) from [<c08d62ec>] (show_stack+0x20/0x24)
+[ 1946.448226]  r7:00000009 r6:0000001c r5:c04a948c r4:c0a64e2c
+[ 1946.458412] [<c08d62cc>] (show_stack) from [<c08d9ae0>] (dump_stack+0x28/0x30)
+[ 1946.470380] [<c08d9ab8>] (dump_stack) from [<c0123500>] (__warn+0xe8/0x154)
+[ 1946.482067]  r5:c04a948c r4:c0a71dc8
+[ 1946.490184] [<c0123418>] (__warn) from [<c08d6948>] (warn_slowpath_fmt+0xa0/0xe4)
+[ 1946.506758]  r7:00000009 r6:0000001c r5:c0a71dc8 r4:c0a71e04
+[ 1946.517070] [<c08d68ac>] (warn_slowpath_fmt) from [<c04a948c>] (refcount_warn_saturate+0x110/0x15c)
+[ 1946.535309]  r8:c0100224 r7:c0dfcb84 r6:ffffffff r5:c3b84c00 r4:c24a17c0
+[ 1946.546708] [<c04a937c>] (refcount_warn_saturate) from [<c0380134>] (eventfd_ctx_put+0x48/0x74)
+[ 1946.564476] [<c03800ec>] (eventfd_ctx_put) from [<bf5464e8>] (ffs_data_clear+0xd0/0x118 [usb_f_fs])
+[ 1946.582664]  r5:c3b84c00 r4:c2695b00
+[ 1946.590668] [<bf546418>] (ffs_data_clear [usb_f_fs]) from [<bf547cc0>] (ffs_data_closed+0x9c/0x150 [usb_f_fs])
+[ 1946.609608]  r5:bf54d014 r4:c2695b00
+[ 1946.617522] [<bf547c24>] (ffs_data_closed [usb_f_fs]) from [<bf547da0>] (ffs_fs_kill_sb+0x2c/0x30 [usb_f_fs])
+[ 1946.636217]  r7:c0dfcb
+---truncated---
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/1c4ace3e6b8575745c50dca9e76e0021e697d645
+- https://git.kernel.org/stable/c/240fc586e83d645912accce081a48aa63a45f6ee
+- https://git.kernel.org/stable/c/33f6a0cbb7772146e1c11f38028fffbfed14728b
+- https://git.kernel.org/stable/c/52500239e3f2d6fc77b6f58632a9fb98fe74ac09
+- https://git.kernel.org/stable/c/b1e0887379422975f237d43d8839b751a6bcf154
+
+---
+
+#### 1459. CVE-2023-7207
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.9
+
+**漏洞描述 / Description**:
+Debian's cpio contains a path traversal vulnerability. This issue was introduced by reverting CVE-2015-1197 patches which had caused a regression in --no-absolute-filenames. Upstream has since provided a proper fix to --no-absolute-filenames.
+
+**参考链接 / References**:
+- http://www.openwall.com/lists/oss-security/2024/01/05/1
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1059163
+- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7207
+- https://git.savannah.gnu.org/cgit/cpio.git/commit/?id=376d663340a9dc91c91a5849e5713f07571c1628
+- https://www.openwall.com/lists/oss-security/2023/12/21/8
+
+---
+
+#### 1460. CVE-2021-47126
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+ipv6: Fix KASAN: slab-out-of-bounds Read in fib6_nh_flush_exceptions
+
+Reported by syzbot:
+HEAD commit:    90c911ad Merge tag 'fixes' of git://git.kernel.org/pub/scm..
+git tree:       git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git master
+dashboard link: https://syzkaller.appspot.com/bug?extid=123aa35098fd3c000eb7
+compiler:       Debian clang version 11.0.1-2
+
+==================================================================
+BUG: KASAN: slab-out-of-bounds in fib6_nh_get_excptn_bucket net/ipv6/route.c:1604 [inline]
+BUG: KASAN: slab-out-of-bounds in fib6_nh_flush_exceptions+0xbd/0x360 net/ipv6/route.c:1732
+Read of size 8 at addr ffff8880145c78f8 by task syz-executor.4/17760
+
+CPU: 0 PID: 17760 Comm: syz-executor.4 Not tainted 5.12.0-rc8-syzkaller #0
+Call Trace:
+ <IRQ>
+ __dump_stack lib/dump_stack.c:79 [inline]
+ dump_stack+0x202/0x31e lib/dump_stack.c:120
+ print_address_description+0x5f/0x3b0 mm/kasan/report.c:232
+ __kasan_report mm/kasan/report.c:399 [inline]
+ kasan_report+0x15c/0x200 mm/kasan/report.c:416
+ fib6_nh_get_excptn_bucket net/ipv6/route.c:1604 [inline]
+ fib6_nh_flush_exceptions+0xbd/0x360 net/ipv6/route.c:1732
+ fib6_nh_release+0x9a/0x430 net/ipv6/route.c:3536
+ fib6_info_destroy_rcu+0xcb/0x1c0 net/ipv6/ip6_fib.c:174
+ rcu_do_batch kernel/rcu/tree.c:2559 [inline]
+ rcu_core+0x8f6/0x1450 kernel/rcu/tree.c:2794
+ __do_softirq+0x372/0x7a6 kernel/softirq.c:345
+ invoke_softirq kernel/softirq.c:221 [inline]
+ __irq_exit_rcu+0x22c/0x260 kernel/softirq.c:422
+ irq_exit_rcu+0x5/0x20 kernel/softirq.c:434
+ sysvec_apic_timer_interrupt+0x91/0xb0 arch/x86/kernel/apic/apic.c:1100
+ </IRQ>
+ asm_sysvec_apic_timer_interrupt+0x12/0x20 arch/x86/include/asm/idtentry.h:632
+RIP: 0010:lock_acquire+0x1f6/0x720 kernel/locking/lockdep.c:5515
+Code: f6 84 24 a1 00 00 00 02 0f 85 8d 02 00 00 f7 c3 00 02 00 00 49 bd 00 00 00 00 00 fc ff df 74 01 fb 48 c7 44 24 40 0e 36 e0 45 <4b> c7 44 3d 00 00 00 00 00 4b c7 44 3d 09 00 00 00 00 43 c7 44 3d
+RSP: 0018:ffffc90009e06560 EFLAGS: 00000206
+RAX: 1ffff920013c0cc0 RBX: 0000000000000246 RCX: dffffc0000000000
+RDX: 0000000000000000 RSI: 0000000000000000 RDI: 0000000000000000
+RBP: ffffc90009e066e0 R08: dffffc0000000000 R09: fffffbfff1f992b1
+R10: fffffbfff1f992b1 R11: 0000000000000000 R12: 0000000000000000
+R13: dffffc0000000000 R14: 0000000000000000 R15: 1ffff920013c0cb4
+ rcu_lock_acquire+0x2a/0x30 include/linux/rcupdate.h:267
+ rcu_read_lock include/linux/rcupdate.h:656 [inline]
+ ext4_get_group_info+0xea/0x340 fs/ext4/ext4.h:3231
+ ext4_mb_prefetch+0x123/0x5d0 fs/ext4/mballoc.c:2212
+ ext4_mb_regular_allocator+0x8a5/0x28f0 fs/ext4/mballoc.c:2379
+ ext4_mb_new_blocks+0xc6e/0x24f0 fs/ext4/mballoc.c:4982
+ ext4_ext_map_blocks+0x2be3/0x7210 fs/ext4/extents.c:4238
+ ext4_map_blocks+0xab3/0x1cb0 fs/ext4/inode.c:638
+ ext4_getblk+0x187/0x6c0 fs/ext4/inode.c:848
+ ext4_bread+0x2a/0x1c0 fs/ext4/inode.c:900
+ ext4_append+0x1a4/0x360 fs/ext4/namei.c:67
+ ext4_init_new_dir+0x337/0xa10 fs/ext4/namei.c:2768
+ ext4_mkdir+0x4b8/0xc00 fs/ext4/namei.c:2814
+ vfs_mkdir+0x45b/0x640 fs/namei.c:3819
+ ovl_do_mkdir fs/overlayfs/overlayfs.h:161 [inline]
+ ovl_mkdir_real+0x53/0x1a0 fs/overlayfs/dir.c:146
+ ovl_create_real+0x280/0x490 fs/overlayfs/dir.c:193
+ ovl_workdir_create+0x425/0x600 fs/overlayfs/super.c:788
+ ovl_make_workdir+0xed/0x1140 fs/overlayfs/super.c:1355
+ ovl_get_workdir fs/overlayfs/super.c:1492 [inline]
+ ovl_fill_super+0x39ee/0x5370 fs/overlayfs/super.c:2035
+ mount_nodev+0x52/0xe0 fs/super.c:1413
+ legacy_get_tree+0xea/0x180 fs/fs_context.c:592
+ vfs_get_tree+0x86/0x270 fs/super.c:1497
+ do_new_mount fs/namespace.c:2903 [inline]
+ path_mount+0x196f/0x2be0 fs/namespace.c:3233
+ do_mount fs/namespace.c:3246 [inline]
+ __do_sys_mount fs/namespace.c:3454 [inline]
+ __se_sys_mount+0x2f9/0x3b0 fs/namespace.c:3431
+ do_syscall_64+0x2d/0x70 arch/x86/entry/common.c:46
+ entry_SYSCALL_64_after_hwframe+0x44/0xae
+RIP: 0033:0x4665f9
+Code: ff ff c3 66 2e 0f 1f 84 
+---truncated---
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/09870235827451409ff546b073d754a19fd17e2e
+- https://git.kernel.org/stable/c/0a462e25ef0f7ab305081a08d435bbd1f13c0a94
+- https://git.kernel.org/stable/c/7ba7fa78a92dc410b6f93ed73075ab669c3a0b59
+- https://git.kernel.org/stable/c/821bbf79fe46a8b1d18aa456e8ed0a3c208c3754
+- https://git.kernel.org/stable/c/09870235827451409ff546b073d754a19fd17e2e
+
+---
+
+#### 1461. CVE-2021-47174
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+netfilter: nft_set_pipapo_avx2: Add irq_fpu_usable() check, fallback to non-AVX2 version
+
+Arturo reported this backtrace:
+
+[709732.358791] WARNING: CPU: 3 PID: 456 at arch/x86/kernel/fpu/core.c:128 kernel_fpu_begin_mask+0xae/0xe0
+[709732.358793] Modules linked in: binfmt_misc nft_nat nft_chain_nat nf_nat nft_counter nft_ct nf_tables nf_conntrack_netlink nfnetlink 8021q garp stp mrp llc vrf intel_rapl_msr intel_rapl_common skx_edac nfit libnvdimm ipmi_ssif x86_pkg_temp_thermal intel_powerclamp coretemp crc32_pclmul mgag200 ghash_clmulni_intel drm_kms_helper cec aesni_intel drm libaes crypto_simd cryptd glue_helper mei_me dell_smbios iTCO_wdt evdev intel_pmc_bxt iTCO_vendor_support dcdbas pcspkr rapl dell_wmi_descriptor wmi_bmof sg i2c_algo_bit watchdog mei acpi_ipmi ipmi_si button nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 ipmi_devintf ipmi_msghandler ip_tables x_tables autofs4 ext4 crc16 mbcache jbd2 dm_mod raid10 raid456 async_raid6_recov async_memcpy async_pq async_xor async_tx xor sd_mod t10_pi crc_t10dif crct10dif_generic raid6_pq libcrc32c crc32c_generic raid1 raid0 multipath linear md_mod ahci libahci tg3 libata xhci_pci libphy xhci_hcd ptp usbcore crct10dif_pclmul crct10dif_common bnxt_en crc32c_intel scsi_mod
+[709732.358941]  pps_core i2c_i801 lpc_ich i2c_smbus wmi usb_common
+[709732.358957] CPU: 3 PID: 456 Comm: jbd2/dm-0-8 Not tainted 5.10.0-0.bpo.5-amd64 #1 Debian 5.10.24-1~bpo10+1
+[709732.358959] Hardware name: Dell Inc. PowerEdge R440/04JN2K, BIOS 2.9.3 09/23/2020
+[709732.358964] RIP: 0010:kernel_fpu_begin_mask+0xae/0xe0
+[709732.358969] Code: ae 54 24 04 83 e3 01 75 38 48 8b 44 24 08 65 48 33 04 25 28 00 00 00 75 33 48 83 c4 10 5b c3 65 8a 05 5e 21 5e 76 84 c0 74 92 <0f> 0b eb 8e f0 80 4f 01 40 48 81 c7 00 14 00 00 e8 dd fb ff ff eb
+[709732.358972] RSP: 0018:ffffbb9700304740 EFLAGS: 00010202
+[709732.358976] RAX: 0000000000000001 RBX: 0000000000000003 RCX: 0000000000000001
+[709732.358979] RDX: ffffbb9700304970 RSI: ffff922fe1952e00 RDI: 0000000000000003
+[709732.358981] RBP: ffffbb9700304970 R08: ffff922fc868a600 R09: ffff922fc711e462
+[709732.358984] R10: 000000000000005f R11: ffff922ff0b27180 R12: ffffbb9700304960
+[709732.358987] R13: ffffbb9700304b08 R14: ffff922fc664b6c8 R15: ffff922fc664b660
+[709732.358990] FS:  0000000000000000(0000) GS:ffff92371fec0000(0000) knlGS:0000000000000000
+[709732.358993] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[709732.358996] CR2: 0000557a6655bdd0 CR3: 000000026020a001 CR4: 00000000007706e0
+[709732.358999] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[709732.359001] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[709732.359003] PKRU: 55555554
+[709732.359005] Call Trace:
+[709732.359009]  <IRQ>
+[709732.359035]  nft_pipapo_avx2_lookup+0x4c/0x1cba [nf_tables]
+[709732.359046]  ? sched_clock+0x5/0x10
+[709732.359054]  ? sched_clock_cpu+0xc/0xb0
+[709732.359061]  ? record_times+0x16/0x80
+[709732.359068]  ? plist_add+0xc1/0x100
+[709732.359073]  ? psi_group_change+0x47/0x230
+[709732.359079]  ? skb_clone+0x4d/0xb0
+[709732.359085]  ? enqueue_task_rt+0x22b/0x310
+[709732.359098]  ? bnxt_start_xmit+0x1e8/0xaf0 [bnxt_en]
+[709732.359102]  ? packet_rcv+0x40/0x4a0
+[709732.359121]  nft_lookup_eval+0x59/0x160 [nf_tables]
+[709732.359133]  nft_do_chain+0x350/0x500 [nf_tables]
+[709732.359152]  ? nft_lookup_eval+0x59/0x160 [nf_tables]
+[709732.359163]  ? nft_do_chain+0x364/0x500 [nf_tables]
+[709732.359172]  ? fib4_rule_action+0x6d/0x80
+[709732.359178]  ? fib_rules_lookup+0x107/0x250
+[709732.359184]  nft_nat_do_chain+0x8a/0xf2 [nft_chain_nat]
+[709732.359193]  nf_nat_inet_fn+0xea/0x210 [nf_nat]
+[709732.359202]  nf_nat_ipv4_out+0x14/0xa0 [nf_nat]
+[709732.359207]  nf_hook_slow+0x44/0xc0
+[709732.359214]  ip_output+0xd2/0x100
+[709732.359221]  ? __ip_finish_output+0x210/0x210
+[709732.359226]  ip_forward+0x37d/0x4a0
+[709732.359232]  ? ip4_key_hashfn+0xb0/0xb0
+[709732.359238]  ip_subli
+---truncated---
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/727a2b4fc951ee69847d4904d98961856ea9fbe6
+- https://git.kernel.org/stable/c/b1f45a26bd322525c14edd9504f6d46dfad679a4
+- https://git.kernel.org/stable/c/f0b3d338064e1fe7531f0d2977e35f3b334abfb4
+- https://git.kernel.org/stable/c/727a2b4fc951ee69847d4904d98961856ea9fbe6
+- https://git.kernel.org/stable/c/b1f45a26bd322525c14edd9504f6d46dfad679a4
+
+---
+
+#### 1462. CVE-2024-2312
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.7
+
+**漏洞描述 / Description**:
+GRUB2 does not call the module fini functions on exit, leading to Debian/Ubuntu's peimage GRUB2 module leaving UEFI system table hooks after exit. This lead to a use-after-free condition, and could possibly lead to secure boot bypass.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/ubuntu/+source/grub2-unsigned/+bug/2054127
+- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-2312
+- https://security.netapp.com/advisory/ntap-20240426-0003/
+- https://bugs.launchpad.net/ubuntu/+source/grub2-unsigned/+bug/2054127
+- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-2312
+
+---
+
+#### 1463. CVE-2024-32478
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.9
+
+**漏洞描述 / Description**:
+Git Credential Manager (GCM) is a secure Git credential helper. Prior to 2.5.0, the Debian package does not set root ownership on installed files. This allows user 1001 on a multi-user system can replace binary and gain other users' privileges. This vulnerability is fixed in 2.5.0.
+
+**参考链接 / References**:
+- https://github.com/git-ecosystem/git-credential-manager/commit/d9ac33c5b1478383672b4425f5ecf875a62efba9
+- https://github.com/git-ecosystem/git-credential-manager/security/advisories/GHSA-3c3g-h9rx-f7vq
+- https://github.com/git-ecosystem/git-credential-manager/commit/d9ac33c5b1478383672b4425f5ecf875a62efba9
+- https://github.com/git-ecosystem/git-credential-manager/security/advisories/GHSA-3c3g-h9rx-f7vq
+
+---
+
+#### 1464. CVE-2024-31992
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+
+**漏洞描述 / Description**:
+Mealie is a self hosted recipe manager and meal planner. Prior to 1.4.0, the safe_scrape_html function utilizes a user-controlled URL to issue a request to a remote server, however these requests are not rate-limited. While there are efforts to prevent DDoS by implementing a timeout on requests, it is possible for an attacker to issue a large number of requests to the server which will be handled in batches based on the configuration of the Mealie server. The chunking of responses is helpful for mitigating memory exhaustion on the Mealie server, however a single request to an arbitrarily large external file (e.g. a Debian ISO) is often sufficient to completely saturate a CPU core assigned to the Mealie container. Without rate limiting in place, it is possible to not only sustain traffic against an external target indefinitely, but also to exhaust the CPU resources assigned to the Mealie container. This vulnerability is fixed in 1.4.0.
+
+**参考链接 / References**:
+- https://github.com/mealie-recipes/mealie/blob/mealie-next/mealie/services/scraper/scraper_strategies.py#L27-L70
+- https://github.com/mealie-recipes/mealie/commit/2a3463b7466bc297aede50046da9550d919ec56f
+- https://github.com/mealie-recipes/mealie/pull/3368
+- https://securitylab.github.com/advisories/GHSL-2023-225_GHSL-2023-226_Mealie/
+- https://github.com/mealie-recipes/mealie/blob/mealie-next/mealie/services/scraper/scraper_strategies.py#L27-L70
+
+---
+
+#### 1465. CVE-2022-48664
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+btrfs: fix hang during unmount when stopping a space reclaim worker
+
+Often when running generic/562 from fstests we can hang during unmount,
+resulting in a trace like this:
+
+  Sep 07 11:52:00 debian9 unknown: run fstests generic/562 at 2022-09-07 11:52:00
+  Sep 07 11:55:32 debian9 kernel: INFO: task umount:49438 blocked for more than 120 seconds.
+  Sep 07 11:55:32 debian9 kernel:       Not tainted 6.0.0-rc2-btrfs-next-122 #1
+  Sep 07 11:55:32 debian9 kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+  Sep 07 11:55:32 debian9 kernel: task:umount          state:D stack:    0 pid:49438 ppid: 25683 flags:0x00004000
+  Sep 07 11:55:32 debian9 kernel: Call Trace:
+  Sep 07 11:55:32 debian9 kernel:  <TASK>
+  Sep 07 11:55:32 debian9 kernel:  __schedule+0x3c8/0xec0
+  Sep 07 11:55:32 debian9 kernel:  ? rcu_read_lock_sched_held+0x12/0x70
+  Sep 07 11:55:32 debian9 kernel:  schedule+0x5d/0xf0
+  Sep 07 11:55:32 debian9 kernel:  schedule_timeout+0xf1/0x130
+  Sep 07 11:55:32 debian9 kernel:  ? lock_release+0x224/0x4a0
+  Sep 07 11:55:32 debian9 kernel:  ? lock_acquired+0x1a0/0x420
+  Sep 07 11:55:32 debian9 kernel:  ? trace_hardirqs_on+0x2c/0xd0
+  Sep 07 11:55:32 debian9 kernel:  __wait_for_common+0xac/0x200
+  Sep 07 11:55:32 debian9 kernel:  ? usleep_range_state+0xb0/0xb0
+  Sep 07 11:55:32 debian9 kernel:  __flush_work+0x26d/0x530
+  Sep 07 11:55:32 debian9 kernel:  ? flush_workqueue_prep_pwqs+0x140/0x140
+  Sep 07 11:55:32 debian9 kernel:  ? trace_clock_local+0xc/0x30
+  Sep 07 11:55:32 debian9 kernel:  __cancel_work_timer+0x11f/0x1b0
+  Sep 07 11:55:32 debian9 kernel:  ? close_ctree+0x12b/0x5b3 [btrfs]
+  Sep 07 11:55:32 debian9 kernel:  ? __trace_bputs+0x10b/0x170
+  Sep 07 11:55:32 debian9 kernel:  close_ctree+0x152/0x5b3 [btrfs]
+  Sep 07 11:55:32 debian9 kernel:  ? evict_inodes+0x166/0x1c0
+  Sep 07 11:55:32 debian9 kernel:  generic_shutdown_super+0x71/0x120
+  Sep 07 11:55:32 debian9 kernel:  kill_anon_super+0x14/0x30
+  Sep 07 11:55:32 debian9 kernel:  btrfs_kill_super+0x12/0x20 [btrfs]
+  Sep 07 11:55:32 debian9 kernel:  deactivate_locked_super+0x2e/0xa0
+  Sep 07 11:55:32 debian9 kernel:  cleanup_mnt+0x100/0x160
+  Sep 07 11:55:32 debian9 kernel:  task_work_run+0x59/0xa0
+  Sep 07 11:55:32 debian9 kernel:  exit_to_user_mode_prepare+0x1a6/0x1b0
+  Sep 07 11:55:32 debian9 kernel:  syscall_exit_to_user_mode+0x16/0x40
+  Sep 07 11:55:32 debian9 kernel:  do_syscall_64+0x48/0x90
+  Sep 07 11:55:32 debian9 kernel:  entry_SYSCALL_64_after_hwframe+0x63/0xcd
+  Sep 07 11:55:32 debian9 kernel: RIP: 0033:0x7fcde59a57a7
+  Sep 07 11:55:32 debian9 kernel: RSP: 002b:00007ffe914217c8 EFLAGS: 00000246 ORIG_RAX: 00000000000000a6
+  Sep 07 11:55:32 debian9 kernel: RAX: 0000000000000000 RBX: 00007fcde5ae8264 RCX: 00007fcde59a57a7
+  Sep 07 11:55:32 debian9 kernel: RDX: 0000000000000000 RSI: 0000000000000000 RDI: 000055b57556cdd0
+  Sep 07 11:55:32 debian9 kernel: RBP: 000055b57556cba0 R08: 0000000000000000 R09: 00007ffe91420570
+  Sep 07 11:55:32 debian9 kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000000
+  Sep 07 11:55:32 debian9 kernel: R13: 000055b57556cdd0 R14: 000055b57556ccb8 R15: 0000000000000000
+  Sep 07 11:55:32 debian9 kernel:  </TASK>
+
+What happens is the following:
+
+1) The cleaner kthread tries to start a transaction to delete an unused
+   block group, but the metadata reservation can not be satisfied right
+   away, so a reservation ticket is created and it starts the async
+   metadata reclaim task (fs_info->async_reclaim_work);
+
+2) Writeback for all the filler inodes with an i_size of 2K starts
+   (generic/562 creates a lot of 2K files with the goal of filling
+   metadata space). We try to create an inline extent for them, but we
+   fail when trying to insert the inline extent with -ENOSPC (at
+   cow_file_range_inline()) - since this is not critical, we fallback
+   to non-inline mode (back to cow_file_range()), reserve extents
+---truncated---
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/6ac5b52e3f352f9cb270c89e6e1d4dadb564ddb8
+- https://git.kernel.org/stable/c/a362bb864b8db4861977d00bd2c3222503ccc34b
+- https://git.kernel.org/stable/c/c338bea1fec5504290dc0acf026c9e7dba25004b
+- https://git.kernel.org/stable/c/d8a76a2e514fbbb315a6dfff2d342de2de833994
+- https://git.kernel.org/stable/c/6ac5b52e3f352f9cb270c89e6e1d4dadb564ddb8
+
+---
+
+#### 1466. CVE-2021-47458
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+ocfs2: mount fails with buffer overflow in strlen
+
+Starting with kernel 5.11 built with CONFIG_FORTIFY_SOURCE mouting an
+ocfs2 filesystem with either o2cb or pcmk cluster stack fails with the
+trace below.  Problem seems to be that strings for cluster stack and
+cluster name are not guaranteed to be null terminated in the disk
+representation, while strlcpy assumes that the source string is always
+null terminated.  This causes a read outside of the source string
+triggering the buffer overflow detection.
+
+  detected buffer overflow in strlen
+  ------------[ cut here ]------------
+  kernel BUG at lib/string.c:1149!
+  invalid opcode: 0000 [#1] SMP PTI
+  CPU: 1 PID: 910 Comm: mount.ocfs2 Not tainted 5.14.0-1-amd64 #1
+    Debian 5.14.6-2
+  RIP: 0010:fortify_panic+0xf/0x11
+  ...
+  Call Trace:
+   ocfs2_initialize_super.isra.0.cold+0xc/0x18 [ocfs2]
+   ocfs2_fill_super+0x359/0x19b0 [ocfs2]
+   mount_bdev+0x185/0x1b0
+   legacy_get_tree+0x27/0x40
+   vfs_get_tree+0x25/0xb0
+   path_mount+0x454/0xa20
+   __x64_sys_mount+0x103/0x140
+   do_syscall_64+0x3b/0xc0
+   entry_SYSCALL_64_after_hwframe+0x44/0xae
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/0e677ea5b7396f715a76b6b0ef441430e4c4b57f
+- https://git.kernel.org/stable/c/232ed9752510de4436468b653d145565669c8498
+- https://git.kernel.org/stable/c/4b74ddcc22ee6455946e80a9c4808801f8f8561e
+- https://git.kernel.org/stable/c/7623b1035ca2d17bde0f6a086ad6844a34648df1
+- https://git.kernel.org/stable/c/93be0eeea14cf39235e585c8f56df3b3859deaad
+
+---
+
+#### 1467. CVE-2024-6238
+
+**严重程度 / Severity**: HIGH | CVSS: 7.4
+
+**漏洞描述 / Description**:
+pgAdmin <= 8.8 has an installation Directory permission issue. Because of this issue, attackers can gain unauthorised access to the installation directory on the Debian or RHEL 8 platforms.
+
+**参考链接 / References**:
+- https://github.com/pgadmin-org/pgadmin4/issues/7605
+- https://github.com/pgadmin-org/pgadmin4/issues/7605
+
+---
+
+#### 1468. CVE-2024-50031
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+drm/v3d: Stop the active perfmon before being destroyed
+
+When running `kmscube` with one or more performance monitors enabled
+via `GALLIUM_HUD`, the following kernel panic can occur:
+
+[   55.008324] Unable to handle kernel paging request at virtual address 00000000052004a4
+[   55.008368] Mem abort info:
+[   55.008377]   ESR = 0x0000000096000005
+[   55.008387]   EC = 0x25: DABT (current EL), IL = 32 bits
+[   55.008402]   SET = 0, FnV = 0
+[   55.008412]   EA = 0, S1PTW = 0
+[   55.008421]   FSC = 0x05: level 1 translation fault
+[   55.008434] Data abort info:
+[   55.008442]   ISV = 0, ISS = 0x00000005, ISS2 = 0x00000000
+[   55.008455]   CM = 0, WnR = 0, TnD = 0, TagAccess = 0
+[   55.008467]   GCS = 0, Overlay = 0, DirtyBit = 0, Xs = 0
+[   55.008481] user pgtable: 4k pages, 39-bit VAs, pgdp=00000001046c6000
+[   55.008497] [00000000052004a4] pgd=0000000000000000, p4d=0000000000000000, pud=0000000000000000
+[   55.008525] Internal error: Oops: 0000000096000005 [#1] PREEMPT SMP
+[   55.008542] Modules linked in: rfcomm [...] vc4 v3d snd_soc_hdmi_codec drm_display_helper
+gpu_sched drm_shmem_helper cec drm_dma_helper drm_kms_helper i2c_brcmstb
+drm drm_panel_orientation_quirks snd_soc_core snd_compress snd_pcm_dmaengine snd_pcm snd_timer snd backlight
+[   55.008799] CPU: 2 PID: 166 Comm: v3d_bin Tainted: G         C         6.6.47+rpt-rpi-v8 #1  Debian 1:6.6.47-1+rpt1
+[   55.008824] Hardware name: Raspberry Pi 4 Model B Rev 1.5 (DT)
+[   55.008838] pstate: 20000005 (nzCv daif -PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[   55.008855] pc : __mutex_lock.constprop.0+0x90/0x608
+[   55.008879] lr : __mutex_lock.constprop.0+0x58/0x608
+[   55.008895] sp : ffffffc080673cf0
+[   55.008904] x29: ffffffc080673cf0 x28: 0000000000000000 x27: ffffff8106188a28
+[   55.008926] x26: ffffff8101e78040 x25: ffffff8101baa6c0 x24: ffffffd9d989f148
+[   55.008947] x23: ffffffda1c2a4008 x22: 0000000000000002 x21: ffffffc080673d38
+[   55.008968] x20: ffffff8101238000 x19: ffffff8104f83188 x18: 0000000000000000
+[   55.008988] x17: 0000000000000000 x16: ffffffda1bd04d18 x15: 00000055bb08bc90
+[   55.009715] x14: 0000000000000000 x13: 0000000000000000 x12: ffffffda1bd4cbb0
+[   55.010433] x11: 00000000fa83b2da x10: 0000000000001a40 x9 : ffffffda1bd04d04
+[   55.011162] x8 : ffffff8102097b80 x7 : 0000000000000000 x6 : 00000000030a5857
+[   55.011880] x5 : 00ffffffffffffff x4 : 0300000005200470 x3 : 0300000005200470
+[   55.012598] x2 : ffffff8101238000 x1 : 0000000000000021 x0 : 0300000005200470
+[   55.013292] Call trace:
+[   55.013959]  __mutex_lock.constprop.0+0x90/0x608
+[   55.014646]  __mutex_lock_slowpath+0x1c/0x30
+[   55.015317]  mutex_lock+0x50/0x68
+[   55.015961]  v3d_perfmon_stop+0x40/0xe0 [v3d]
+[   55.016627]  v3d_bin_job_run+0x10c/0x2d8 [v3d]
+[   55.017282]  drm_sched_main+0x178/0x3f8 [gpu_sched]
+[   55.017921]  kthread+0x11c/0x128
+[   55.018554]  ret_from_fork+0x10/0x20
+[   55.019168] Code: f9400260 f1001c1f 54001ea9 927df000 (b9403401)
+[   55.019776] ---[ end trace 0000000000000000 ]---
+[   55.020411] note: v3d_bin[166] exited with preempt_count 1
+
+This issue arises because, upon closing the file descriptor (which happens
+when we interrupt `kmscube`), the active performance monitor is not
+stopped. Although all perfmons are destroyed in `v3d_perfmon_close_file()`,
+the active performance monitor's pointer (`v3d->active_perfmon`) is still
+retained.
+
+If `kmscube` is run again, the driver will attempt to stop the active
+performance monitor using the stale pointer in `v3d->active_perfmon`.
+However, this pointer is no longer valid because the previous process has
+already terminated, and all performance monitors associated with it have
+been destroyed and freed.
+
+To fix this, when the active performance monitor belongs to a given
+process, explicitly stop it before destroying and freeing it.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/07c51108d9e278831c16191d1223ee49986e7890
+- https://git.kernel.org/stable/c/0c9e9a3a4873705740b19300cadc6599170646ef
+- https://git.kernel.org/stable/c/24ab54a066d2ef671b03eb909ca2114c0c9ac1e7
+- https://git.kernel.org/stable/c/333767cbce6ac20ec794c76eec82ed0ef55022db
+- https://git.kernel.org/stable/c/7d1fd3638ee3a9f9bca4785fffb638ca19120718
+
+---
+
+#### 1469. CVE-2022-49372
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+tcp: tcp_rtx_synack() can be called from process context
+
+Laurent reported the enclosed report [1]
+
+This bug triggers with following coditions:
+
+0) Kernel built with CONFIG_DEBUG_PREEMPT=y
+
+1) A new passive FastOpen TCP socket is created.
+   This FO socket waits for an ACK coming from client to be a complete
+   ESTABLISHED one.
+2) A socket operation on this socket goes through lock_sock()
+   release_sock() dance.
+3) While the socket is owned by the user in step 2),
+   a retransmit of the SYN is received and stored in socket backlog.
+4) At release_sock() time, the socket backlog is processed while
+   in process context.
+5) A SYNACK packet is cooked in response of the SYN retransmit.
+6) -> tcp_rtx_synack() is called in process context.
+
+Before blamed commit, tcp_rtx_synack() was always called from BH handler,
+from a timer handler.
+
+Fix this by using TCP_INC_STATS() & NET_INC_STATS()
+which do not assume caller is in non preemptible context.
+
+[1]
+BUG: using __this_cpu_add() in preemptible [00000000] code: epollpep/2180
+caller is tcp_rtx_synack.part.0+0x36/0xc0
+CPU: 10 PID: 2180 Comm: epollpep Tainted: G           OE     5.16.0-0.bpo.4-amd64 #1  Debian 5.16.12-1~bpo11+1
+Hardware name: Supermicro SYS-5039MC-H8TRF/X11SCD-F, BIOS 1.7 11/23/2021
+Call Trace:
+ <TASK>
+ dump_stack_lvl+0x48/0x5e
+ check_preemption_disabled+0xde/0xe0
+ tcp_rtx_synack.part.0+0x36/0xc0
+ tcp_rtx_synack+0x8d/0xa0
+ ? kmem_cache_alloc+0x2e0/0x3e0
+ ? apparmor_file_alloc_security+0x3b/0x1f0
+ inet_rtx_syn_ack+0x16/0x30
+ tcp_check_req+0x367/0x610
+ tcp_rcv_state_process+0x91/0xf60
+ ? get_nohz_timer_target+0x18/0x1a0
+ ? lock_timer_base+0x61/0x80
+ ? preempt_count_add+0x68/0xa0
+ tcp_v4_do_rcv+0xbd/0x270
+ __release_sock+0x6d/0xb0
+ release_sock+0x2b/0x90
+ sock_setsockopt+0x138/0x1140
+ ? __sys_getsockname+0x7e/0xc0
+ ? aa_sk_perm+0x3e/0x1a0
+ __sys_setsockopt+0x198/0x1e0
+ __x64_sys_setsockopt+0x21/0x30
+ do_syscall_64+0x38/0xc0
+ entry_SYSCALL_64_after_hwframe+0x44/0xae
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/0a0f7f84148445c9f02f226928803a870139d820
+- https://git.kernel.org/stable/c/0a375c822497ed6ad6b5da0792a12a6f1af10c0b
+- https://git.kernel.org/stable/c/3db889f883e65bbd3b1401279bfc1e9ed255c481
+- https://git.kernel.org/stable/c/58bd38cbc961fd799842b7be8c5222310f04b908
+- https://git.kernel.org/stable/c/88cd232146207ff1d41dededed5e77c0d4438113
+
+---
+
+#### 1470. CVE-2025-30234
+
+**严重程度 / Severity**: HIGH | CVSS: 8.3
+
+**漏洞描述 / Description**:
+SmartOS, as used in Triton Data Center and other products, has static host SSH keys in the 60f76fd2-143f-4f57-819b-1ae32684e81b image (a Debian 12 LX zone image from 2024-07-26).
+
+**参考链接 / References**:
+- https://security.tritondatacenter.com/tps-2025-002/
+- https://smartos.topicbox.com/groups/smartos-discuss/Ta6f13072e6bedddc-M3702e993edd7d6ce8d78dfc8
+- https://www.openwall.com/lists/oss-security/2025/03/13/10
+
+---
+
+#### 1471. CVE-2025-30095
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.0
+
+**漏洞描述 / Description**:
+VyOS 1.3 through 1.5 (fixed in 1.4.2) or any Debian-based system using dropbear in combination with live-build has the same Dropbear private host keys across different installations. Thus, an attacker can conduct active man-in-the-middle attacks against SSH connections if Dropbear is enabled as the SSH daemon. I n VyOS, this is not the default configuration for the system SSH daemon, but is for the console service. To mitigate this, one can run "rm -f /etc/dropbear/*key*" and/or "rm -f /etc/dropbear-initramfs/*key*" and then dropbearkey -t rsa -s 4096 -f /etc/dropbear_rsa_host_key and reload the service or reboot the system before using Dropbear as the SSH daemon (this clears out all keys mistakenly built into the release image) or update to the latest version of VyOS 1.4 or 1.5. Note that this vulnerability is not unique to VyOS and may appear in any Debian-based Linux distribution that uses Dropbear in combination with live-build, which has a safeguard against this behavior in OpenSSH but no equivalent one for Dropbear.
+
+**参考链接 / References**:
+- https://blog.vyos.io/vyos-project-march-2025-update
+- https://blog.vyos.io/vyos-stream-1.5-2025-q1
+- https://github.com/vyos/
+- https://vyos.dev/T7217
+- https://vyos.net/get/stream/#1.5-2025-Q1
+
+---
+
+#### 1472. CVE-2025-32754
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.1
+
+**漏洞描述 / Description**:
+In jenkins/ssh-agent Docker images 6.11.1 and earlier, SSH host keys are generated on image creation for images based on Debian, causing all containers based on images of the same version use the same SSH host keys, allowing attackers able to insert themselves into the network path between the SSH client (typically the Jenkins controller) and SSH build agent to impersonate the latter.
+
+**参考链接 / References**:
+- https://www.jenkins.io/security/advisory/2025-04-10/#SECURITY-3565
+
+---
+
+#### 1473. CVE-2025-32755
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.1
+
+**漏洞描述 / Description**:
+In jenkins/ssh-slave Docker images based on Debian, SSH host keys are generated on image creation for images based on Debian, causing all containers based on images of the same version use the same SSH host keys, allowing attackers able to insert themselves into the network path between the SSH client (typically the Jenkins controller) and SSH build agent to impersonate the latter.
+
+**参考链接 / References**:
+- https://www.jenkins.io/security/advisory/2025-04-10/#SECURITY-3565
+
+---
+
+#### 1474. CVE-2024-13861
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+A code injection vulnerability in the Debian package component of Taegis Endpoint Agent (Linux) versions older than 1.3.10 allows local users arbitrary code execution as root. Redhat-based systems using RPM packages are not affected.
+
+**参考链接 / References**:
+- https://www.sophos.com/en-us/security-advisories/sophos-sa-20250411-taegis-agent-lpe
+
+---
+
+#### 1475. CVE-2025-22033
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+arm64: Don't call NULL in do_compat_alignment_fixup()
+
+do_alignment_t32_to_handler() only fixes up alignment faults for
+specific instructions; it returns NULL otherwise (e.g. LDREX). When
+that's the case, signal to the caller that it needs to proceed with the
+regular alignment fault handling (i.e. SIGBUS). Without this patch, the
+kernel panics:
+
+  Unable to handle kernel NULL pointer dereference at virtual address 0000000000000000
+  Mem abort info:
+    ESR = 0x0000000086000006
+    EC = 0x21: IABT (current EL), IL = 32 bits
+    SET = 0, FnV = 0
+    EA = 0, S1PTW = 0
+    FSC = 0x06: level 2 translation fault
+  user pgtable: 4k pages, 48-bit VAs, pgdp=00000800164aa000
+  [0000000000000000] pgd=0800081fdbd22003, p4d=0800081fdbd22003, pud=08000815d51c6003, pmd=0000000000000000
+  Internal error: Oops: 0000000086000006 [#1] SMP
+  Modules linked in: cfg80211 rfkill xt_nat xt_tcpudp xt_conntrack nft_chain_nat xt_MASQUERADE nf_nat nf_conntrack_netlink nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 xfrm_user xfrm_algo xt_addrtype nft_compat br_netfilter veth nvme_fa>
+   libcrc32c crc32c_generic raid0 multipath linear dm_mod dax raid1 md_mod xhci_pci nvme xhci_hcd nvme_core t10_pi usbcore igb crc64_rocksoft crc64 crc_t10dif crct10dif_generic crct10dif_ce crct10dif_common usb_common i2c_algo_bit i2c>
+  CPU: 2 PID: 3932954 Comm: WPEWebProcess Not tainted 6.1.0-31-arm64 #1  Debian 6.1.128-1
+  Hardware name: GIGABYTE MP32-AR1-00/MP32-AR1-00, BIOS F18v (SCP: 1.08.20211002) 12/01/2021
+  pstate: 80400009 (Nzcv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+  pc : 0x0
+  lr : do_compat_alignment_fixup+0xd8/0x3dc
+  sp : ffff80000f973dd0
+  x29: ffff80000f973dd0 x28: ffff081b42526180 x27: 0000000000000000
+  x26: 0000000000000000 x25: 0000000000000000 x24: 0000000000000000
+  x23: 0000000000000004 x22: 0000000000000000 x21: 0000000000000001
+  x20: 00000000e8551f00 x19: ffff80000f973eb0 x18: 0000000000000000
+  x17: 0000000000000000 x16: 0000000000000000 x15: 0000000000000000
+  x14: 0000000000000000 x13: 0000000000000000 x12: 0000000000000000
+  x11: 0000000000000000 x10: 0000000000000000 x9 : ffffaebc949bc488
+  x8 : 0000000000000000 x7 : 0000000000000000 x6 : 0000000000000000
+  x5 : 0000000000400000 x4 : 0000fffffffffffe x3 : 0000000000000000
+  x2 : ffff80000f973eb0 x1 : 00000000e8551f00 x0 : 0000000000000001
+  Call trace:
+   0x0
+   do_alignment_fault+0x40/0x50
+   do_mem_abort+0x4c/0xa0
+   el0_da+0x48/0xf0
+   el0t_32_sync_handler+0x110/0x140
+   el0t_32_sync+0x190/0x194
+  Code: bad PC value
+  ---[ end trace 0000000000000000 ]---
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/2df8ee605eb6806cd41c2095306db05206633a08
+- https://git.kernel.org/stable/c/617a4b0084a547917669fef2b54253cc9c064990
+- https://git.kernel.org/stable/c/c28f31deeacda307acfee2f18c0ad904e5123aac
+- https://git.kernel.org/stable/c/cf187601053ecaf671ae645edb898901f81d03e9
+- https://git.kernel.org/stable/c/ecf798573bbe0805803f7764e12a34b4bcc65074
+
+---
+
+#### 1476. CVE-2025-47153
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+
+**漏洞描述 / Description**:
+Certain build processes for libuv and Node.js for 32-bit systems, such as for the nodejs binary package through nodejs_20.19.0+dfsg-2_i386.deb for Debian GNU/Linux, have an inconsistent off_t size (e.g., building on i386 Debian always uses _FILE_OFFSET_BITS=64 for the libuv dynamic library, but uses the _FILE_OFFSET_BITS global system default of 32 for nodejs), leading to out-of-bounds access. NOTE: this is not a problem in the Node.js software itself. In particular, the Node.js website's download page does not offer prebuilt Node.js for Linux on i386.
+
+**参考链接 / References**:
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1076350
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=922075
+- https://bugzilla.redhat.com/show_bug.cgi?id=892601
+- https://github.com/nodejs/node-v0.x-archive/issues/4549
+- http://www.openwall.com/lists/oss-security/2025/05/02/2
+
+---
+
+#### 1477. CVE-2025-47276
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Actualizer is a single shell script solution to allow developers and embedded engineers to create Debian operating systems (OS). Prior to version 1.2.0, Actualizer uses OpenSSL's  "-passwd" function, which uses SHA512 instead of a more suitable password hasher like Yescript/Argon2i. All Actualizer users building a full Debian Operating System are affected. Users should upgrade to version 1.2.0 of Actualizer. Existing OS deployment requires manual password changes against the alpha and root accounts. The change will deploy's Debian's yescript overriding the older SHA512 hash created by OpenSSL. As a workaround, users need to reset both `root` and "Alpha" users' passwords.
+
+**参考链接 / References**:
+- https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html
+- https://github.com/ChewKeanHo/Actualizer/commit/32c9cc232c856f078f8269fba80ce7562bbff86b
+- https://github.com/ChewKeanHo/Actualizer/issues/1
+- https://github.com/ChewKeanHo/Actualizer/releases/tag/v1.2.0
+- https://github.com/ChewKeanHo/Actualizer/security/advisories/GHSA-v626-chv9-v9qr
+
+---
+
+#### 1478. CVE-2014-7210
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+pdns specific as packaged in Debian in version before 3.3.1-1 creates a too privileged MySQL user. It was discovered that the maintainer scripts of pdns-backend-mysql grant too wide database permissions for the pdns user. Other backends
+are not affected.
+
+**参考链接 / References**:
+- https://lists.debian.org/debian-lts-announce/2016/05/msg00046.html
+- https://salsa.debian.org/debian/pdns/-/commit/f0de6b3583039bb63344fbd5eb246939264d7b05
+
+---
+
+#### 1479. CVE-2025-53391
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.3
+
+**漏洞描述 / Description**:
+The Debian zuluPolkit/CMakeLists.txt file for zuluCrypt through the zulucrypt_6.2.0-1 package has insecure PolicyKit allow_any/allow_inactive/allow_active settings that allow a local user to escalate their privileges to root.
+
+**参考链接 / References**:
+- https://bugs.debian.org/1108288
+- https://deb.debian.org/debian/pool/main/z/zulucrypt/zulucrypt_6.2.0-1.dsc
+- https://salsa.debian.org/debian/zulucrypt/-/blob/9d661c9f384c4d889d3387944e14ac70cfb9684b/debian/patches/fix_zulupolkit_policy.patch
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1108288
+
+---
+
+#### 1480. CVE-2025-38189
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+drm/v3d: Avoid NULL pointer dereference in `v3d_job_update_stats()`
+
+The following kernel Oops was recently reported by Mesa CI:
+
+[  800.139824] Unable to handle kernel NULL pointer dereference at virtual address 0000000000000588
+[  800.148619] Mem abort info:
+[  800.151402]   ESR = 0x0000000096000005
+[  800.155141]   EC = 0x25: DABT (current EL), IL = 32 bits
+[  800.160444]   SET = 0, FnV = 0
+[  800.163488]   EA = 0, S1PTW = 0
+[  800.166619]   FSC = 0x05: level 1 translation fault
+[  800.171487] Data abort info:
+[  800.174357]   ISV = 0, ISS = 0x00000005, ISS2 = 0x00000000
+[  800.179832]   CM = 0, WnR = 0, TnD = 0, TagAccess = 0
+[  800.184873]   GCS = 0, Overlay = 0, DirtyBit = 0, Xs = 0
+[  800.190176] user pgtable: 4k pages, 39-bit VAs, pgdp=00000001014c2000
+[  800.196607] [0000000000000588] pgd=0000000000000000, p4d=0000000000000000, pud=0000000000000000
+[  800.205305] Internal error: Oops: 0000000096000005 [#1] PREEMPT SMP
+[  800.211564] Modules linked in: vc4 snd_soc_hdmi_codec drm_display_helper v3d cec gpu_sched drm_dma_helper drm_shmem_helper drm_kms_helper drm drm_panel_orientation_quirks snd_soc_core snd_compress snd_pcm_dmaengine snd_pcm i2c_brcmstb snd_timer snd backlight
+[  800.234448] CPU: 0 UID: 0 PID: 0 Comm: swapper/0 Not tainted 6.12.25+rpt-rpi-v8 #1  Debian 1:6.12.25-1+rpt1
+[  800.244182] Hardware name: Raspberry Pi 4 Model B Rev 1.4 (DT)
+[  800.250005] pstate: 600000c5 (nZCv daIF -PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[  800.256959] pc : v3d_job_update_stats+0x60/0x130 [v3d]
+[  800.262112] lr : v3d_job_update_stats+0x48/0x130 [v3d]
+[  800.267251] sp : ffffffc080003e60
+[  800.270555] x29: ffffffc080003e60 x28: ffffffd842784980 x27: 0224012000000000
+[  800.277687] x26: ffffffd84277f630 x25: ffffff81012fd800 x24: 0000000000000020
+[  800.284818] x23: ffffff8040238b08 x22: 0000000000000570 x21: 0000000000000158
+[  800.291948] x20: 0000000000000000 x19: ffffff8040238000 x18: 0000000000000000
+[  800.299078] x17: ffffffa8c1bd2000 x16: ffffffc080000000 x15: 0000000000000000
+[  800.306208] x14: 0000000000000000 x13: 0000000000000000 x12: 0000000000000000
+[  800.313338] x11: 0000000000000040 x10: 0000000000001a40 x9 : ffffffd83b39757c
+[  800.320468] x8 : ffffffd842786420 x7 : 7fffffffffffffff x6 : 0000000000ef32b0
+[  800.327598] x5 : 00ffffffffffffff x4 : 0000000000000015 x3 : ffffffd842784980
+[  800.334728] x2 : 0000000000000004 x1 : 0000000000010002 x0 : 000000ba4c0ca382
+[  800.341859] Call trace:
+[  800.344294]  v3d_job_update_stats+0x60/0x130 [v3d]
+[  800.349086]  v3d_irq+0x124/0x2e0 [v3d]
+[  800.352835]  __handle_irq_event_percpu+0x58/0x218
+[  800.357539]  handle_irq_event+0x54/0xb8
+[  800.361369]  handle_fasteoi_irq+0xac/0x240
+[  800.365458]  handle_irq_desc+0x48/0x68
+[  800.369200]  generic_handle_domain_irq+0x24/0x38
+[  800.373810]  gic_handle_irq+0x48/0xd8
+[  800.377464]  call_on_irq_stack+0x24/0x58
+[  800.381379]  do_interrupt_handler+0x88/0x98
+[  800.385554]  el1_interrupt+0x34/0x68
+[  800.389123]  el1h_64_irq_handler+0x18/0x28
+[  800.393211]  el1h_64_irq+0x64/0x68
+[  800.396603]  default_idle_call+0x3c/0x168
+[  800.400606]  do_idle+0x1fc/0x230
+[  800.403827]  cpu_startup_entry+0x40/0x50
+[  800.407742]  rest_init+0xe4/0xf0
+[  800.410962]  start_kernel+0x5e8/0x790
+[  800.414616]  __primary_switched+0x80/0x90
+[  800.418622] Code: 8b170277 8b160296 11000421 b9000861 (b9401ac1)
+[  800.424707] ---[ end trace 0000000000000000 ]---
+[  800.457313] ---[ end Kernel panic - not syncing: Oops: Fatal exception in interrupt ]---
+
+This issue happens when the file descriptor is closed before the jobs
+submitted by it are completed. When the job completes, we update the
+global GPU stats and the per-fd GPU stats, which are exposed through
+fdinfo. If the file descriptor was closed, then the struct `v3d_file_priv`
+and its stats were already freed and we can't update the per-fd stats.
+
+Therefore, if the file descriptor was already closed, don't u
+---truncated---
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/4f4701489d0f768a232b10d281491184f34bacf0
+- https://git.kernel.org/stable/c/c886784000934d5486621106da0614c85bcd76a8
+- https://git.kernel.org/stable/c/e1bc3a13bd775791cca0bb144d977b00f3598042
+
+---
+
+#### 1481. CVE-2025-38265
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+serial: jsm: fix NPE during jsm_uart_port_init
+
+No device was set which caused serial_base_ctrl_add to crash.
+
+ BUG: kernel NULL pointer dereference, address: 0000000000000050
+ Oops: Oops: 0000 [#1] PREEMPT SMP NOPTI
+ CPU: 16 UID: 0 PID: 368 Comm: (udev-worker) Not tainted 6.12.25-amd64 #1  Debian 6.12.25-1
+ RIP: 0010:serial_base_ctrl_add+0x96/0x120
+ Call Trace:
+  <TASK>
+  serial_core_register_port+0x1a0/0x580
+  ? __setup_irq+0x39c/0x660
+  ? __kmalloc_cache_noprof+0x111/0x310
+  jsm_uart_port_init+0xe8/0x180 [jsm]
+  jsm_probe_one+0x1f4/0x410 [jsm]
+  local_pci_probe+0x42/0x90
+  pci_device_probe+0x22f/0x270
+  really_probe+0xdb/0x340
+  ? pm_runtime_barrier+0x54/0x90
+  ? __pfx___driver_attach+0x10/0x10
+  __driver_probe_device+0x78/0x110
+  driver_probe_device+0x1f/0xa0
+  __driver_attach+0xba/0x1c0
+  bus_for_each_dev+0x8c/0xe0
+  bus_add_driver+0x112/0x1f0
+  driver_register+0x72/0xd0
+  jsm_init_module+0x36/0xff0 [jsm]
+  ? __pfx_jsm_init_module+0x10/0x10 [jsm]
+  do_one_initcall+0x58/0x310
+  do_init_module+0x60/0x230
+
+Tested with Digi Neo PCIe 8 port card.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/3258d7ff8ebfa451426662b23e8f2b51b129afe1
+- https://git.kernel.org/stable/c/985961dd2688a527a4847300d41beaad475ab7af
+- https://git.kernel.org/stable/c/a14c0d2eb3f0b1836fdec22908b87ecffd2ac844
+- https://git.kernel.org/stable/c/abaecb2a4ad021c2f2426e9b2a9c020aef57aca9
+- https://git.kernel.org/stable/c/e3975aa899c0a3bbc10d035e699b142cd1373a71
+
+---
+
+#### 1482. CVE-2025-38371
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+drm/v3d: Disable interrupts before resetting the GPU
+
+Currently, an interrupt can be triggered during a GPU reset, which can
+lead to GPU hangs and NULL pointer dereference in an interrupt context
+as shown in the following trace:
+
+ [  314.035040] Unable to handle kernel NULL pointer dereference at virtual address 00000000000000c0
+ [  314.043822] Mem abort info:
+ [  314.046606]   ESR = 0x0000000096000005
+ [  314.050347]   EC = 0x25: DABT (current EL), IL = 32 bits
+ [  314.055651]   SET = 0, FnV = 0
+ [  314.058695]   EA = 0, S1PTW = 0
+ [  314.061826]   FSC = 0x05: level 1 translation fault
+ [  314.066694] Data abort info:
+ [  314.069564]   ISV = 0, ISS = 0x00000005, ISS2 = 0x00000000
+ [  314.075039]   CM = 0, WnR = 0, TnD = 0, TagAccess = 0
+ [  314.080080]   GCS = 0, Overlay = 0, DirtyBit = 0, Xs = 0
+ [  314.085382] user pgtable: 4k pages, 39-bit VAs, pgdp=0000000102728000
+ [  314.091814] [00000000000000c0] pgd=0000000000000000, p4d=0000000000000000, pud=0000000000000000
+ [  314.100511] Internal error: Oops: 0000000096000005 [#1] PREEMPT SMP
+ [  314.106770] Modules linked in: v3d i2c_brcmstb vc4 snd_soc_hdmi_codec gpu_sched drm_shmem_helper drm_display_helper cec drm_dma_helper drm_kms_helper drm drm_panel_orientation_quirks snd_soc_core snd_compress snd_pcm_dmaengine snd_pcm snd_timer snd backlight
+ [  314.129654] CPU: 0 UID: 0 PID: 0 Comm: swapper/0 Not tainted 6.12.25+rpt-rpi-v8 #1  Debian 1:6.12.25-1+rpt1
+ [  314.139388] Hardware name: Raspberry Pi 4 Model B Rev 1.4 (DT)
+ [  314.145211] pstate: 600000c5 (nZCv daIF -PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+ [  314.152165] pc : v3d_irq+0xec/0x2e0 [v3d]
+ [  314.156187] lr : v3d_irq+0xe0/0x2e0 [v3d]
+ [  314.160198] sp : ffffffc080003ea0
+ [  314.163502] x29: ffffffc080003ea0 x28: ffffffec1f184980 x27: 021202b000000000
+ [  314.170633] x26: ffffffec1f17f630 x25: ffffff8101372000 x24: ffffffec1f17d9f0
+ [  314.177764] x23: 000000000000002a x22: 000000000000002a x21: ffffff8103252000
+ [  314.184895] x20: 0000000000000001 x19: 00000000deadbeef x18: 0000000000000000
+ [  314.192026] x17: ffffff94e51d2000 x16: ffffffec1dac3cb0 x15: c306000000000000
+ [  314.199156] x14: 0000000000000000 x13: b2fc982e03cc5168 x12: 0000000000000001
+ [  314.206286] x11: ffffff8103f8bcc0 x10: ffffffec1f196868 x9 : ffffffec1dac3874
+ [  314.213416] x8 : 0000000000000000 x7 : 0000000000042a3a x6 : ffffff810017a180
+ [  314.220547] x5 : ffffffec1ebad400 x4 : ffffffec1ebad320 x3 : 00000000000bebeb
+ [  314.227677] x2 : 0000000000000000 x1 : 0000000000000000 x0 : 0000000000000000
+ [  314.234807] Call trace:
+ [  314.237243]  v3d_irq+0xec/0x2e0 [v3d]
+ [  314.240906]  __handle_irq_event_percpu+0x58/0x218
+ [  314.245609]  handle_irq_event+0x54/0xb8
+ [  314.249439]  handle_fasteoi_irq+0xac/0x240
+ [  314.253527]  handle_irq_desc+0x48/0x68
+ [  314.257269]  generic_handle_domain_irq+0x24/0x38
+ [  314.261879]  gic_handle_irq+0x48/0xd8
+ [  314.265533]  call_on_irq_stack+0x24/0x58
+ [  314.269448]  do_interrupt_handler+0x88/0x98
+ [  314.273624]  el1_interrupt+0x34/0x68
+ [  314.277193]  el1h_64_irq_handler+0x18/0x28
+ [  314.281281]  el1h_64_irq+0x64/0x68
+ [  314.284673]  default_idle_call+0x3c/0x168
+ [  314.288675]  do_idle+0x1fc/0x230
+ [  314.291895]  cpu_startup_entry+0x3c/0x50
+ [  314.295810]  rest_init+0xe4/0xf0
+ [  314.299030]  start_kernel+0x5e8/0x790
+ [  314.302684]  __primary_switched+0x80/0x90
+ [  314.306691] Code: 940029eb 360ffc13 f9442ea0 52800001 (f9406017)
+ [  314.312775] ---[ end trace 0000000000000000 ]---
+ [  314.317384] Kernel panic - not syncing: Oops: Fatal exception in interrupt
+ [  314.324249] SMP: stopping secondary CPUs
+ [  314.328167] Kernel Offset: 0x2b9da00000 from 0xffffffc080000000
+ [  314.334076] PHYS_OFFSET: 0x0
+ [  314.336946] CPU features: 0x08,00002013,c0200000,0200421b
+ [  314.342337] Memory Limit: none
+ [  314.345382] ---[ end Kernel panic - not syncing: Oops: Fatal exception in interrupt ]---
+
+Before resetting the G
+---truncated---
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/226862f50a7a88e4e4de9abbf36c64d19acd6fd0
+- https://git.kernel.org/stable/c/2446e25e9246e0642a41d91cbf54c33b275da3c3
+- https://git.kernel.org/stable/c/387da3b6d1a90e3210bc9a7fb56703bdad2ac18a
+- https://git.kernel.org/stable/c/576a6739e08ac06c67f2916f71204557232388b0
+- https://git.kernel.org/stable/c/9ff95ed0371aec4d9617e478e9c69cde86cd7c38
+
+---
+
+#### 1483. CVE-2025-8454
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+It was discovered that uscan, a tool to scan/watch upstream sources for new releases of software, included in devscripts (a collection of scripts to make the life of a Debian Package maintainer easier), skips OpenPGP verification if the upstream source is already downloaded from a previous run even if the verification failed back then.
+
+**参考链接 / References**:
+- https://bugs.debian.org/1109251
+
+---
+
+#### 1484. CVE-2025-55014
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.7
+
+**漏洞描述 / Description**:
+The YouDao plugin for StarDict, as used in stardict 3.0.7+git20220909+dfsg-6 in Debian trixie and elsewhere, sends an X11 selection to the dict.youdao.com and dict.cn servers via cleartext HTTP.
+
+**参考链接 / References**:
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1110370
+- https://lists.debian.org/debian-user/2025/08/msg00076.html
+- https://packages.debian.org/trixie/stardict
+- https://packages.debian.org/trixie/stardict-gtk
+- https://stardict-4.sourceforge.net/index_en.php
+
+---
+
+#### 1485. CVE-2025-23257
+
+**严重程度 / Severity**: HIGH | CVSS: 7.3
+
+**漏洞描述 / Description**:
+NVIDIA DOCA contains a vulnerability in the collectx-clxapidev Debian package that could allow an actor with low privileges to escalate privileges. A successful exploit of this vulnerability might lead to escalation of privileges.
+
+**参考链接 / References**:
+- https://nvd.nist.gov/vuln/detail/CVE-2025-23257
+- https://nvidia.custhelp.com/app/answers/detail/a_id/5655
+- https://www.cve.org/CVERecord?id=CVE-2025-23257
+
+---
+
+#### 1486. CVE-2025-23258
+
+**严重程度 / Severity**: HIGH | CVSS: 7.3
+
+**漏洞描述 / Description**:
+NVIDIA DOCA contains a vulnerability in the collectx-dpeserver Debian package for arm64 that could allow an attacker with low privileges to escalate privileges. A successful exploit of this vulnerability might lead to escalation of privileges.
+
+**参考链接 / References**:
+- https://nvd.nist.gov/vuln/detail/CVE-2025-23258
+- https://nvidia.custhelp.com/app/answers/detail/a_id/5655
+- https://www.cve.org/CVERecord?id=CVE-2025-23258
+
+---
+
+#### 1487. CVE-2023-53243
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+btrfs: add handling for RAID1C23/DUP to btrfs_reduce_alloc_profile
+
+Callers of `btrfs_reduce_alloc_profile` expect it to return exactly
+one allocation profile flag, and failing to do so may ultimately
+result in a WARN_ON and remount-ro when allocating new blocks, like
+the below transaction abort on 6.1.
+
+`btrfs_reduce_alloc_profile` has two ways of determining the profile,
+first it checks if a conversion balance is currently running and
+uses the profile we're converting to. If no balance is currently
+running, it returns the max-redundancy profile which at least one
+block in the selected block group has.
+
+This works by simply checking each known allocation profile bit in
+redundancy order. However, `btrfs_reduce_alloc_profile` has not been
+updated as new flags have been added - first with the `DUP` profile
+and later with the RAID1C34 profiles.
+
+Because of the way it checks, if we have blocks with different
+profiles and at least one is known, that profile will be selected.
+However, if none are known we may return a flag set with multiple
+allocation profiles set.
+
+This is currently only possible when a balance from one of the three
+unhandled profiles to another of the unhandled profiles is canceled
+after allocating at least one block using the new profile.
+
+In that case, a transaction abort like the below will occur and the
+filesystem will need to be mounted with -o skip_balance to get it
+mounted rw again (but the balance cannot be resumed without a
+similar abort).
+
+  [770.648] ------------[ cut here ]------------
+  [770.648] BTRFS: Transaction aborted (error -22)
+  [770.648] WARNING: CPU: 43 PID: 1159593 at fs/btrfs/extent-tree.c:4122 find_free_extent+0x1d94/0x1e00 [btrfs]
+  [770.648] CPU: 43 PID: 1159593 Comm: btrfs Tainted: G        W 6.1.0-0.deb11.7-powerpc64le #1  Debian 6.1.20-2~bpo11+1a~test
+  [770.648] Hardware name: T2P9D01 REV 1.00 POWER9 0x4e1202 opal:skiboot-bc106a0 PowerNV
+  [770.648] NIP:  c00800000f6784fc LR: c00800000f6784f8 CTR: c000000000d746c0
+  [770.648] REGS: c000200089afe9a0 TRAP: 0700   Tainted: G        W (6.1.0-0.deb11.7-powerpc64le Debian 6.1.20-2~bpo11+1a~test)
+  [770.648] MSR:  9000000002029033 <SF,HV,VEC,EE,ME,IR,DR,RI,LE>  CR: 28848282  XER: 20040000
+  [770.648] CFAR: c000000000135110 IRQMASK: 0
+	    GPR00: c00800000f6784f8 c000200089afec40 c00800000f7ea800 0000000000000026
+	    GPR04: 00000001004820c2 c000200089afea00 c000200089afe9f8 0000000000000027
+	    GPR08: c000200ffbfe7f98 c000000002127f90 ffffffffffffffd8 0000000026d6a6e8
+	    GPR12: 0000000028848282 c000200fff7f3800 5deadbeef0000122 c00000002269d000
+	    GPR16: c0002008c7797c40 c000200089afef17 0000000000000000 0000000000000000
+	    GPR20: 0000000000000000 0000000000000001 c000200008bc5a98 0000000000000001
+	    GPR24: 0000000000000000 c0000003c73088d0 c000200089afef17 c000000016d3a800
+	    GPR28: c0000003c7308800 c00000002269d000 ffffffffffffffea 0000000000000001
+  [770.648] NIP [c00800000f6784fc] find_free_extent+0x1d94/0x1e00 [btrfs]
+  [770.648] LR [c00800000f6784f8] find_free_extent+0x1d90/0x1e00 [btrfs]
+  [770.648] Call Trace:
+  [770.648] [c000200089afec40] [c00800000f6784f8] find_free_extent+0x1d90/0x1e00 [btrfs] (unreliable)
+  [770.648] [c000200089afed30] [c00800000f681398] btrfs_reserve_extent+0x1a0/0x2f0 [btrfs]
+  [770.648] [c000200089afeea0] [c00800000f681bf0] btrfs_alloc_tree_block+0x108/0x670 [btrfs]
+  [770.648] [c000200089afeff0] [c00800000f66bd68] __btrfs_cow_block+0x170/0x850 [btrfs]
+  [770.648] [c000200089aff100] [c00800000f66c58c] btrfs_cow_block+0x144/0x288 [btrfs]
+  [770.648] [c000200089aff1b0] [c00800000f67113c] btrfs_search_slot+0x6b4/0xcb0 [btrfs]
+  [770.648] [c000200089aff2a0] [c00800000f679f60] lookup_inline_extent_backref+0x128/0x7c0 [btrfs]
+  [770.648] [c000200089aff3b0] [c00800000f67b338] lookup_extent_backref+0x70/0x190 [btrfs]
+  [770.648] [c000200089aff470] [c00800000f67b54c] __btrfs_free_extent+0xf4/0x1490 [btrfs]
+  [770.648] [
+---truncated---
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/12b6d68498982a053a4a7e561a04387e57ca6f1a
+- https://git.kernel.org/stable/c/160fe8f6fdb13da6111677be6263e5d65e875987
+- https://git.kernel.org/stable/c/1b532748ba00bd2a1d9b09e0d5e81280582c7770
+- https://git.kernel.org/stable/c/4fadf53fa95142f01f215012e97c384529759a72
+- https://git.kernel.org/stable/c/a3fbd156bd2cd16e3c64e250ebce33eb9f2ef612
+
+---
+
+#### 1488. CVE-2025-40037
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+fbdev: simplefb: Fix use after free in simplefb_detach_genpds()
+
+The pm_domain cleanup can not be devres managed as it uses struct
+simplefb_par which is allocated within struct fb_info by
+framebuffer_alloc(). This allocation is explicitly freed by
+unregister_framebuffer() in simplefb_remove().
+Devres managed cleanup runs after the device remove call and thus can no
+longer access struct simplefb_par.
+Call simplefb_detach_genpds() explicitly from simplefb_destroy() like
+the cleanup functions for clocks and regulators.
+
+Fixes an use after free on M2 Mac mini during
+aperture_remove_conflicting_devices() using the downstream asahi kernel
+with Debian's kernel config. For unknown reasons this started to
+consistently dereference an invalid pointer in v6.16.3 based kernels.
+
+[    6.736134] BUG: KASAN: slab-use-after-free in simplefb_detach_genpds+0x58/0x220
+[    6.743545] Read of size 4 at addr ffff8000304743f0 by task (udev-worker)/227
+[    6.750697]
+[    6.752182] CPU: 6 UID: 0 PID: 227 Comm: (udev-worker) Tainted: G S                  6.16.3-asahi+ #16 PREEMPTLAZY
+[    6.752186] Tainted: [S]=CPU_OUT_OF_SPEC
+[    6.752187] Hardware name: Apple Mac mini (M2, 2023) (DT)
+[    6.752189] Call trace:
+[    6.752190]  show_stack+0x34/0x98 (C)
+[    6.752194]  dump_stack_lvl+0x60/0x80
+[    6.752197]  print_report+0x17c/0x4d8
+[    6.752201]  kasan_report+0xb4/0x100
+[    6.752206]  __asan_report_load4_noabort+0x20/0x30
+[    6.752209]  simplefb_detach_genpds+0x58/0x220
+[    6.752213]  devm_action_release+0x50/0x98
+[    6.752216]  release_nodes+0xd0/0x2c8
+[    6.752219]  devres_release_all+0xfc/0x178
+[    6.752221]  device_unbind_cleanup+0x28/0x168
+[    6.752224]  device_release_driver_internal+0x34c/0x470
+[    6.752228]  device_release_driver+0x20/0x38
+[    6.752231]  bus_remove_device+0x1b0/0x380
+[    6.752234]  device_del+0x314/0x820
+[    6.752238]  platform_device_del+0x3c/0x1e8
+[    6.752242]  platform_device_unregister+0x20/0x50
+[    6.752246]  aperture_detach_platform_device+0x1c/0x30
+[    6.752250]  aperture_detach_devices+0x16c/0x290
+[    6.752253]  aperture_remove_conflicting_devices+0x34/0x50
+...
+[    6.752343]
+[    6.967409] Allocated by task 62:
+[    6.970724]  kasan_save_stack+0x3c/0x70
+[    6.974560]  kasan_save_track+0x20/0x40
+[    6.978397]  kasan_save_alloc_info+0x40/0x58
+[    6.982670]  __kasan_kmalloc+0xd4/0xd8
+[    6.986420]  __kmalloc_noprof+0x194/0x540
+[    6.990432]  framebuffer_alloc+0xc8/0x130
+[    6.994444]  simplefb_probe+0x258/0x2378
+...
+[    7.054356]
+[    7.055838] Freed by task 227:
+[    7.058891]  kasan_save_stack+0x3c/0x70
+[    7.062727]  kasan_save_track+0x20/0x40
+[    7.066565]  kasan_save_free_info+0x4c/0x80
+[    7.070751]  __kasan_slab_free+0x6c/0xa0
+[    7.074675]  kfree+0x10c/0x380
+[    7.077727]  framebuffer_release+0x5c/0x90
+[    7.081826]  simplefb_destroy+0x1b4/0x2c0
+[    7.085837]  put_fb_info+0x98/0x100
+[    7.089326]  unregister_framebuffer+0x178/0x320
+[    7.093861]  simplefb_remove+0x3c/0x60
+[    7.097611]  platform_remove+0x60/0x98
+[    7.101361]  device_remove+0xb8/0x160
+[    7.105024]  device_release_driver_internal+0x2fc/0x470
+[    7.110256]  device_release_driver+0x20/0x38
+[    7.114529]  bus_remove_device+0x1b0/0x380
+[    7.118628]  device_del+0x314/0x820
+[    7.122116]  platform_device_del+0x3c/0x1e8
+[    7.126302]  platform_device_unregister+0x20/0x50
+[    7.131012]  aperture_detach_platform_device+0x1c/0x30
+[    7.136157]  aperture_detach_devices+0x16c/0x290
+[    7.140779]  aperture_remove_conflicting_devices+0x34/0x50
+...
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/b1deb39cfd614fb2f278b71011692a8dbf0f05ba
+- https://git.kernel.org/stable/c/b6ff0d8de8452ec0e18e5bd7394c2a23e7ff7353
+- https://git.kernel.org/stable/c/da1bb9135213744e7ec398826c8f2e843de4fb94
+
+---
+
+#### 1489. CVE-2025-65105
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.5
+
+**漏洞描述 / Description**:
+Apptainer is an open source container platform. In Apptainer versions less than 1.4.5, a container can disable two of the forms of the little used --security option, in particular the forms --security=apparmor:<profile> and --security=selinux:<label> which otherwise put restrictions on operations that containers can do. The --security option has always been mentioned in Apptainer documentation as being a feature for the root user, although these forms do also work for unprivileged users on systems where the corresponding feature is enabled. Apparmor is enabled by default on Debian-based distributions and SElinux is enabled by default on RHEL-based distributions, but on SUSE it depends on the distribution version. This vulnerability is fixed in 1.4.5.
+
+**参考链接 / References**:
+- https://github.com/apptainer/apptainer/commit/4313b42717e18a4add7dd7503528bc15af905981
+- https://github.com/apptainer/apptainer/commit/82f17900a0c31bc769bf9b4612d271c7068d8bf2
+- https://github.com/apptainer/apptainer/pull/3226
+- https://github.com/apptainer/apptainer/security/advisories/GHSA-j3rw-fx6g-q46j
+- https://github.com/opencontainers/runc/security/advisories/GHSA-cgrx-mc8f-2prm
+
+---
+
+#### 1490. CVE-2025-40290
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+xsk: avoid data corruption on cq descriptor number
+
+Since commit 30f241fcf52a ("xsk: Fix immature cq descriptor
+production"), the descriptor number is stored in skb control block and
+xsk_cq_submit_addr_locked() relies on it to put the umem addrs onto
+pool's completion queue.
+
+skb control block shouldn't be used for this purpose as after transmit
+xsk doesn't have control over it and other subsystems could use it. This
+leads to the following kernel panic due to a NULL pointer dereference.
+
+ BUG: kernel NULL pointer dereference, address: 0000000000000000
+ #PF: supervisor read access in kernel mode
+ #PF: error_code(0x0000) - not-present page
+ PGD 0 P4D 0
+ Oops: Oops: 0000 [#1] SMP NOPTI
+ CPU: 2 UID: 1 PID: 927 Comm: p4xsk.bin Not tainted 6.16.12+deb14-cloud-amd64 #1 PREEMPT(lazy)  Debian 6.16.12-1
+ Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.17.0-debian-1.17.0-1 04/01/2014
+ RIP: 0010:xsk_destruct_skb+0xd0/0x180
+ [...]
+ Call Trace:
+  <IRQ>
+  ? napi_complete_done+0x7a/0x1a0
+  ip_rcv_core+0x1bb/0x340
+  ip_rcv+0x30/0x1f0
+  __netif_receive_skb_one_core+0x85/0xa0
+  process_backlog+0x87/0x130
+  __napi_poll+0x28/0x180
+  net_rx_action+0x339/0x420
+  handle_softirqs+0xdc/0x320
+  ? handle_edge_irq+0x90/0x1e0
+  do_softirq.part.0+0x3b/0x60
+  </IRQ>
+  <TASK>
+  __local_bh_enable_ip+0x60/0x70
+  __dev_direct_xmit+0x14e/0x1f0
+  __xsk_generic_xmit+0x482/0xb70
+  ? __remove_hrtimer+0x41/0xa0
+  ? __xsk_generic_xmit+0x51/0xb70
+  ? _raw_spin_unlock_irqrestore+0xe/0x40
+  xsk_sendmsg+0xda/0x1c0
+  __sys_sendto+0x1ee/0x200
+  __x64_sys_sendto+0x24/0x30
+  do_syscall_64+0x84/0x2f0
+  ? __pfx_pollwake+0x10/0x10
+  ? __rseq_handle_notify_resume+0xad/0x4c0
+  ? restore_fpregs_from_fpstate+0x3c/0x90
+  ? switch_fpu_return+0x5b/0xe0
+  ? do_syscall_64+0x204/0x2f0
+  ? do_syscall_64+0x204/0x2f0
+  ? do_syscall_64+0x204/0x2f0
+  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+  </TASK>
+ [...]
+ Kernel panic - not syncing: Fatal exception in interrupt
+ Kernel Offset: 0x1c000000 from 0xffffffff81000000 (relocation range: 0xffffffff80000000-0xffffffffbfffffff)
+
+Instead use the skb destructor_arg pointer along with pointer tagging.
+As pointers are always aligned to 8B, use the bottom bit to indicate
+whether this a single address or an allocated struct containing several
+addresses.
+
+**参考链接 / References**:
+- https://bugs.debian.org/1118437
+- https://git.kernel.org/stable/c/0ebc27a4c67d44e5ce88d21cdad8201862b78837
+- https://git.kernel.org/stable/c/c5ea2e50b5c9aa80c5b53526257540f0c26cd66d
+
+---
+
+#### 1491. CVE-2023-54180
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+btrfs: handle case when repair happens with dev-replace
+
+[BUG]
+There is a bug report that a BUG_ON() in btrfs_repair_io_failure()
+(originally repair_io_failure() in v6.0 kernel) got triggered when
+replacing a unreliable disk:
+
+  BTRFS warning (device sda1): csum failed root 257 ino 2397453 off 39624704 csum 0xb0d18c75 expected csum 0x4dae9c5e mirror 3
+  kernel BUG at fs/btrfs/extent_io.c:2380!
+  invalid opcode: 0000 [#1] PREEMPT SMP NOPTI
+  CPU: 9 PID: 3614331 Comm: kworker/u257:2 Tainted: G           OE      6.0.0-5-amd64 #1  Debian 6.0.10-2
+  Hardware name: Micro-Star International Co., Ltd. MS-7C60/TRX40 PRO WIFI (MS-7C60), BIOS 2.70 07/01/2021
+  Workqueue: btrfs-endio btrfs_end_bio_work [btrfs]
+  RIP: 0010:repair_io_failure+0x24a/0x260 [btrfs]
+  Call Trace:
+   <TASK>
+   clean_io_failure+0x14d/0x180 [btrfs]
+   end_bio_extent_readpage+0x412/0x6e0 [btrfs]
+   ? __switch_to+0x106/0x420
+   process_one_work+0x1c7/0x380
+   worker_thread+0x4d/0x380
+   ? rescuer_thread+0x3a0/0x3a0
+   kthread+0xe9/0x110
+   ? kthread_complete_and_exit+0x20/0x20
+   ret_from_fork+0x22/0x30
+
+[CAUSE]
+
+Before the BUG_ON(), we got some read errors from the replace target
+first, note the mirror number (3, which is beyond RAID1 duplication,
+thus it's read from the replace target device).
+
+Then at the BUG_ON() location, we are trying to writeback the repaired
+sectors back the failed device.
+
+The check looks like this:
+
+		ret = btrfs_map_block(fs_info, BTRFS_MAP_WRITE, logical,
+				      &map_length, &bioc, mirror_num);
+		if (ret)
+			goto out_counter_dec;
+		BUG_ON(mirror_num != bioc->mirror_num);
+
+But inside btrfs_map_block(), we can modify bioc->mirror_num especially
+for dev-replace:
+
+	if (dev_replace_is_ongoing && mirror_num == map->num_stripes + 1 &&
+	    !need_full_stripe(op) && dev_replace->tgtdev != NULL) {
+		ret = get_extra_mirror_from_replace(fs_info, logical, *length,
+						    dev_replace->srcdev->devid,
+						    &mirror_num,
+					    &physical_to_patch_in_first_stripe);
+		patch_the_first_stripe_for_dev_replace = 1;
+	}
+
+Thus if we're repairing the replace target device, we're going to
+trigger that BUG_ON().
+
+But in reality, the read failure from the replace target device may be
+that, our replace hasn't reached the range we're reading, thus we're
+reading garbage, but with replace running, the range would be properly
+filled later.
+
+Thus in that case, we don't need to do anything but let the replace
+routine to handle it.
+
+[FIX]
+Instead of a BUG_ON(), just skip the repair if we're repairing the
+device replace target device.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/53e9d6851b56626885476a2966194ba994f8bb4b
+- https://git.kernel.org/stable/c/a7018b40b49c37fb55736499f790ec0d2b381ae4
+- https://git.kernel.org/stable/c/d73a27b86fc722c28a26ec64002e3a7dc86d1c07
+
+---
+
+#### 1492. CVE-2026-23088
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+tracing: Fix crash on synthetic stacktrace field usage
+
+When creating a synthetic event based on an existing synthetic event that
+had a stacktrace field and the new synthetic event used that field a
+kernel crash occurred:
+
+ ~# cd /sys/kernel/tracing
+ ~# echo 's:stack unsigned long stack[];' > dynamic_events
+ ~# echo 'hist:keys=prev_pid:s0=common_stacktrace if prev_state & 3' >> events/sched/sched_switch/trigger
+ ~# echo 'hist:keys=next_pid:s1=$s0:onmatch(sched.sched_switch).trace(stack,$s1)' >> events/sched/sched_switch/trigger
+
+The above creates a synthetic event that takes a stacktrace when a task
+schedules out in a non-running state and passes that stacktrace to the
+sched_switch event when that task schedules back in. It triggers the
+"stack" synthetic event that has a stacktrace as its field (called "stack").
+
+ ~# echo 's:syscall_stack s64 id; unsigned long stack[];' >> dynamic_events
+ ~# echo 'hist:keys=common_pid:s2=stack' >> events/synthetic/stack/trigger
+ ~# echo 'hist:keys=common_pid:s3=$s2,i0=id:onmatch(synthetic.stack).trace(syscall_stack,$i0,$s3)' >> events/raw_syscalls/sys_exit/trigger
+
+The above makes another synthetic event called "syscall_stack" that
+attaches the first synthetic event (stack) to the sys_exit trace event and
+records the stacktrace from the stack event with the id of the system call
+that is exiting.
+
+When enabling this event (or using it in a historgram):
+
+ ~# echo 1 > events/synthetic/syscall_stack/enable
+
+Produces a kernel crash!
+
+ BUG: unable to handle page fault for address: 0000000000400010
+ #PF: supervisor read access in kernel mode
+ #PF: error_code(0x0000) - not-present page
+ PGD 0 P4D 0
+ Oops: Oops: 0000 [#1] SMP PTI
+ CPU: 6 UID: 0 PID: 1257 Comm: bash Not tainted 6.16.3+deb14-amd64 #1 PREEMPT(lazy)  Debian 6.16.3-1
+ Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS 1.17.0-debian-1.17.0-1 04/01/2014
+ RIP: 0010:trace_event_raw_event_synth+0x90/0x380
+ Code: c5 00 00 00 00 85 d2 0f 84 e1 00 00 00 31 db eb 34 0f 1f 00 66 66 2e 0f 1f 84 00 00 00 00 00 66 66 2e 0f 1f 84 00 00 00 00 00 <49> 8b 04 24 48 83 c3 01 8d 0c c5 08 00 00 00 01 cd 41 3b 5d 40 0f
+ RSP: 0018:ffffd2670388f958 EFLAGS: 00010202
+ RAX: ffff8ba1065cc100 RBX: 0000000000000000 RCX: 0000000000000000
+ RDX: 0000000000000001 RSI: fffff266ffda7b90 RDI: ffffd2670388f9b0
+ RBP: 0000000000000010 R08: ffff8ba104e76000 R09: ffffd2670388fa50
+ R10: ffff8ba102dd42e0 R11: ffffffff9a908970 R12: 0000000000400010
+ R13: ffff8ba10a246400 R14: ffff8ba10a710220 R15: fffff266ffda7b90
+ FS:  00007fa3bc63f740(0000) GS:ffff8ba2e0f48000(0000) knlGS:0000000000000000
+ CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+ CR2: 0000000000400010 CR3: 0000000107f9e003 CR4: 0000000000172ef0
+ Call Trace:
+  <TASK>
+  ? __tracing_map_insert+0x208/0x3a0
+  action_trace+0x67/0x70
+  event_hist_trigger+0x633/0x6d0
+  event_triggers_call+0x82/0x130
+  trace_event_buffer_commit+0x19d/0x250
+  trace_event_raw_event_sys_exit+0x62/0xb0
+  syscall_exit_work+0x9d/0x140
+  do_syscall_64+0x20a/0x2f0
+  ? trace_event_raw_event_sched_switch+0x12b/0x170
+  ? save_fpregs_to_fpstate+0x3e/0x90
+  ? _raw_spin_unlock+0xe/0x30
+  ? finish_task_switch.isra.0+0x97/0x2c0
+  ? __rseq_handle_notify_resume+0xad/0x4c0
+  ? __schedule+0x4b8/0xd00
+  ? restore_fpregs_from_fpstate+0x3c/0x90
+  ? switch_fpu_return+0x5b/0xe0
+  ? do_syscall_64+0x1ef/0x2f0
+  ? do_fault+0x2e9/0x540
+  ? __handle_mm_fault+0x7d1/0xf70
+  ? count_memcg_events+0x167/0x1d0
+  ? handle_mm_fault+0x1d7/0x2e0
+  ? do_user_addr_fault+0x2c3/0x7f0
+  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+
+The reason is that the stacktrace field is not labeled as such, and is
+treated as a normal field and not as a dynamic event that it is.
+
+In trace_event_raw_event_synth() the event is field is still treated as a
+dynamic array, but the retrieval of the data is considered a normal field,
+and the reference is just the meta data:
+
+// Meta data is retrieved instead of a dynamic array
+---truncated---
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/327af07dff6ab5650b21491eb4f69694999ff3d1
+- https://git.kernel.org/stable/c/3b90d099efa2b67239bd3b3dc3521ec584261748
+- https://git.kernel.org/stable/c/90f9f5d64cae4e72defd96a2a22760173cb3c9ec
+- https://git.kernel.org/stable/c/98ecbfb2598c9c7ca755a29f402da9d36c057077
+
+---
+
+#### 1493. CVE-2025-40931
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.1
+
+**漏洞描述 / Description**:
+Apache::Session::Generate::MD5 versions through 1.94 for Perl create insecure session id.
+
+Apache::Session::Generate::MD5 generates session ids insecurely. The default session id generator returns a MD5 hash seeded with the built-in rand() function, the epoch time, and the PID. The PID will come from a small set of numbers, and the epoch time may be guessed, if it is not leaked from the HTTP Date header. The built-in rand function is unsuitable for cryptographic usage. Predicable session ids could allow an attacker to gain access to systems.
+
+Note that the libapache-session-perl package in some Debian-based Linux distributions may be patched to use Crypt::URandom.
+
+**参考链接 / References**:
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=930659
+- https://github.com/chorny/Apache-Session/issues/4
+- https://gitlab.ow2.org/lemonldap-ng/lemonldap-ng/-/work_items/1633
+- https://metacpan.org/dist/Apache-Session/source/lib/Apache/Session/Generate/MD5.pm#L27
+- https://metacpan.org/pod/Apache::Session::Generate::Random
+
+---
+
+#### 1494. CVE-2026-2219
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+It was discovered that dpkg-deb (a component of dpkg, the Debian package management system) does not properly validate the end of the data stream when uncompressing a zstd-compressed .deb archive, which may result in denial of service (infinite loop spinning the CPU).
+
+**参考链接 / References**:
+- https://bugs.debian.org/1129722
+- https://git.dpkg.org/cgit/dpkg/dpkg.git/commit/?id=6610297a62c0780dd0e80b0e302ef64fdcc9d313
+
+---
+
+#### 1495. CVE-2026-9150
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+
+**漏洞描述 / Description**:
+A flaw was found in libsolv. This stack-based buffer overflow vulnerability occurs in libsolv's Debian metadata parser when processing specially crafted Debian repository metadata. An attacker could exploit this by providing malicious SHA384 or SHA512 checksum tags, leading to memory corruption and a denial of service (DoS) in the affected system.
+
+**参考链接 / References**:
+- https://access.redhat.com/security/cve/CVE-2026-9150
+- https://bugzilla.redhat.com/show_bug.cgi?id=2460379
+- https://github.com/openSUSE/libsolv/pull/616
 
 ---

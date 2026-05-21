@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 857**
+**总计条目 / Total entries: 862**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -12674,5 +12674,65 @@ Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52551
+
+---
+
+#### 858. [webapps] Cockpit 359 - RCE
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Cockpit 359 - RCE
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52572
+
+---
+
+#### 859. [webapps] BookStack 25.12.1 - Denial of Service
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] BookStack 25.12.1 - Denial of Service
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52571
+
+---
+
+#### 860. [local] Lenovo LegionSpace 1.7.11.2 - 'DAService' Unquoted Service Path
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Lenovo LegionSpace 1.7.11.2 - 'DAService' Unquoted Service Path
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52570
+
+---
+
+#### 861. [webapps] solaredge - (CSRF-OOB-Injection)
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] solaredge - (CSRF-OOB-Injection)
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52569
+
+---
+
+#### 862. [webapps] FUXA  1.2.9 -  RCE
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] FUXA 1.2.9 - RCE
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52568
 
 ---

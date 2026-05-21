@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1275**
+**总计条目 / Total entries: 1294**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -24053,5 +24053,309 @@ Apply patch from vendor. Monitor ftp://ftp.netbsd.org/pub/NetBSD/security/adviso
 - https://exchange.xforce.ibmcloud.com/vulnerabilities/6637
 - ftp://ftp.netbsd.org/pub/NetBSD/security/advisories/NetBSD-SA2001-008.txt.asc
 - http://www.securityfocus.com/bid/2810
+
+---
+
+#### 1276. CVE-2026-2734 - mlflow: mlflow: Information Disclosure via improper authorization checks
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] mlflow: mlflow: Information Disclosure via improper authorization checks. Bugzilla: 2480345
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480345
+
+---
+
+#### 1277. CVE-2026-9150 - libsolv: Stack-based buffer overflow in libsolv's Debian metadata parser when…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libsolv: Stack-based buffer overflow in libsolv's Debian metadata parser when handling SHA384/SHA512 checksums. Bugzilla: 2460379
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2460379
+
+---
+
+#### 1278. CVE-2026-9149 - libsolv: Heap buffer overflow in libsolv repo_add_solv via negative maxsize from…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libsolv: Heap buffer overflow in libsolv repo_add_solv via negative maxsize from crafted .solv file. Bugzilla: 2460380
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2460380
+
+---
+
+#### 1279. CVE-2026-47099 - telejson: TeleJSON: Arbitrary code execution via DOM-based cross-site scripting
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] telejson: TeleJSON: Arbitrary code execution via DOM-based cross-site scripting. Bugzilla: 2480251
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480251
+
+---
+
+#### 1280. CVE-2026-9087 - keycloak: Cross-Session Email Verification Proof Not Bound to Upstream Identity in…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Cross-Session Email Verification Proof Not Bound to Upstream Identity in First-Broker-Login. Bugzilla: 2480172
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480172
+
+---
+
+#### 1281. CVE-2026-33278 - unbound: Unbound DNSSEC Validator Use-After-Free via Deep Copy Pointer Overwrite…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] unbound: Unbound DNSSEC Validator Use-After-Free via Deep Copy Pointer Overwrite Leading to DoS and Possible Remote Code Execution. Bugzilla: 2479808
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479808
+
+---
+
+#### 1282. CVE-2026-42944 - unbound: Heap overflow and crash with multiple nsid, cookie, padding EDNS options
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] unbound: Heap overflow and crash with multiple nsid, cookie, padding EDNS options. Bugzilla: 2479774
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479774
+
+---
+
+#### 1283. CVE-2026-44608 - unbound: Unbound: Denial of Service due to locking inconsistency during RPZ XFR…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] unbound: Unbound: Denial of Service due to locking inconsistency during RPZ XFR reload. Bugzilla: 2480126
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480126
+
+---
+
+#### 1284. CVE-2026-47784 - memcached: Memcached: Information disclosure via timing side channel
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] memcached: Memcached: Information disclosure via timing side channel. Bugzilla: 2480088
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480088
+
+---
+
+#### 1285. CVE-2026-45232 - rsync: Rsync: Denial of Service via malformed HTTP proxy response
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] rsync: Rsync: Denial of Service via malformed HTTP proxy response. Bugzilla: 2480057
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480057
+
+---
+
+#### 1286. CVE-2026-42959 - unbound: Unbound DNSSEC Validator Denial of Service via Incorrect Write Offset…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] unbound: Unbound DNSSEC Validator Denial of Service via Incorrect Write Offset Counter in Chase-Reply Messages. Bugzilla: 2479806
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479806
+
+---
+
+#### 1287. [Ubuntu] USN-8294-1: PostgreSQL vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that PostgreSQL did not correctly enforce authorization for CREATE TYPE. An attacker could possibly use this issue to execute arbitrary SQL functions. (CVE-2026-6472) It was discovered that PostgreSQL incorrectly handled large user input in multiple server features. An attacker could possibly use this issue to cause PostgreSQL to crash, resulting in a denial of service, or execut
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8294-1
+
+---
+
+#### 1288. [Ubuntu] USN-8293-1: Bind vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Vitaly Simonovich discovered that Bind could exhaust memory during GSS-API TKEY negotiation. A remote attacker could possibly use this issue to cause Bind to use excessive resources, leading to a denial of service. (CVE-2026-3039) Shuhan Zhang discovered that Bind incorrectly handled self-pointed glue records. A remote attacker could possibly use this issue to use Bind in denial of service amplifi
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8293-1
+
+---
+
+#### 1289. [Ubuntu] USN-8292-1: libarchive vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libarchive incorrectly handled certain RAR archives. An attacker could possibly use this issue to cause an out-of-bounds read via a crafted RAR archive, leading to sensitive memory disclosure. (CVE-2026-4424) It was discovered that libarchive incorrectly handled certain ISO files. An attacker could possibly use this issue to cause incorrect memory allocation via a crafted IS
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8292-1
+
+---
+
+#### 1290. [Ubuntu] USN-8291-1: Linux kernel (Intel IoTG Real-time) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - SMB network file system; - Netfilter; - io_uring subsystem; (CVE-2024-35862, CVE-2024-50060, CVE-2026-23274, CVE-2026-23351)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8291-1
+
+---
+
+#### 1291. [Ubuntu] USN-8202-3: jq regression
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8202-1 fixed vulnerabilities in jq. The update caused a regression for Ubuntu 18.04 LTS and Ubuntu 20.04 LTS. This update fixes the problem. We apologize for the inconvenience. Original advisory details: It was discovered that jq did not correctly handle certain string concatenations. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. This issue w
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8202-3
+
+---
+
+#### 1292. [Ubuntu] USN-8289-1: Linux kernel (NVIDIA) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel algif_aead module did not properly handle in-place cryptographic operations. This flaw is known as Copy Fail. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-31431) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8289-1
+
+---
+
+#### 1293. [Ubuntu] USN-8288-1: Bubblewrap vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Bubblewrap incorrectly handled the sandbox setup phase when installed in setuid mode. A local attacker could possibly use this issue to bypass sandbox restrictions.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8288-1
+
+---
+
+#### 1294. [Ubuntu] USN-8287-1: XDG Desktop Portal vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that XDG Desktop Portal incorrectly handled trashing files. A local attacker could possibly use this issue to delete arbitrary files on the host file system via a symlink attack.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8287-1
 
 ---
