@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1495**
+**总计条目 / Total entries: 1513**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -25071,5 +25071,221 @@ A flaw was found in libsolv. This stack-based buffer overflow vulnerability occu
 - https://access.redhat.com/security/cve/CVE-2026-9150
 - https://bugzilla.redhat.com/show_bug.cgi?id=2460379
 - https://github.com/openSUSE/libsolv/pull/616
+
+---
+
+#### 1496. CVE-2026-5946 - bind: Invalid handling of CLASS != IN
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] bind: Invalid handling of CLASS != IN. Bugzilla: 2479771
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479771
+
+---
+
+#### 1497. CVE-2026-3039 - bind: BIND 9 server memory exhaustion during GSS-API TKEY negotiation
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] bind: BIND 9 server memory exhaustion during GSS-API TKEY negotiation. Bugzilla: 2479767
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479767
+
+---
+
+#### 1498. CVE-2026-5947 - bind: SIG(0) validation during query flood may lead to undefined behavior
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] bind: SIG(0) validation during query flood may lead to undefined behavior. Bugzilla: 2479772
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479772
+
+---
+
+#### 1499. CVE-2026-3593 - bind: Heap use-after-free vulnerability in BIND 9 DNS-over-HTTPS implementation
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] bind: Heap use-after-free vulnerability in BIND 9 DNS-over-HTTPS implementation. Bugzilla: 2479770
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479770
+
+---
+
+#### 1500. CVE-2026-43494 - kernel: net/rds: reset op_nents when zerocopy page pin fails
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net/rds: reset op_nents when zerocopy page pin fails. Bugzilla: 2480434
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480434
+
+---
+
+#### 1501. CVE-2026-43495 - kernel: net: wwan: t7xx: validate port_count against message length in…
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: wwan: t7xx: validate port_count against message length in t7xx_port_enum_msg_handler. Bugzilla: 2480452
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480452
+
+---
+
+#### 1502. CVE-2026-43499 - kernel: rtmutex: Use waiter::task instead of current in remove_waiter()
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: rtmutex: Use waiter::task instead of current in remove_waiter(). Bugzilla: 2480453
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480453
+
+---
+
+#### 1503. CVE-2026-43498 - kernel: accel/ivpu: Disallow re-exporting imported GEM objects
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: accel/ivpu: Disallow re-exporting imported GEM objects. Bugzilla: 2480454
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480454
+
+---
+
+#### 1504. CVE-2026-43502 - kernel: net/rds: handle zerocopy send cleanup before the message is queued
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net/rds: handle zerocopy send cleanup before the message is queued. Bugzilla: 2480456
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480456
+
+---
+
+#### 1505. CVE-2026-43501 - kernel: ipv6: rpl: reserve mac_len headroom when recompressed SRH grows
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ipv6: rpl: reserve mac_len headroom when recompressed SRH grows. Bugzilla: 2480457
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480457
+
+---
+
+#### 1506. CVE-2026-43497 - kernel: fbdev: udlfb: add vm_ops to dlfb_ops_mmap to prevent use-after-free
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: fbdev: udlfb: add vm_ops to dlfb_ops_mmap to prevent use-after-free. Bugzilla: 2480458
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480458
+
+---
+
+#### 1507. CVE-2026-43496 - kernel: net/sched: sch_red: Replace direct dequeue call with peek and…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net/sched: sch_red: Replace direct dequeue call with peek and qdisc_dequeue_peeked. Bugzilla: 2480459
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480459
+
+---
+
+#### 1508. CVE-2026-8632 - HPLIP: HPLIP: Privilege escalation and arbitrary code execution via operating…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] HPLIP: HPLIP: Privilege escalation and arbitrary code execution via operating system command injection. Bugzilla: 2480297
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480297
+
+---
+
+#### 1509. [Ubuntu] USN-8279-2: Linux kernel (GCP) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel algif_aead module did not properly handle in-place cryptographic operations. This flaw is known as Copy Fail. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-31431) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8279-2
+
+---
+
+#### 1510. [Ubuntu] USN-8297-1: Linux kernel (GCP) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Stonejiajia, Shir Tamari and Sagi Tzadik discovered that the OverlayFS implementation in the Ubuntu Linux kernel did not properly perform permission checks in certain situations. A local attacker could possibly use this to gain elevated privileges. (CVE-2023-2640) Shir Tamari and Sagi Tzadik discovered that the OverlayFS implementation in the Ubuntu Linux kernel did not properly perform permission
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8297-1
+
+---
+
+#### 1511. [Ubuntu] USN-8291-2: Linux kernel (Low Latency) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - SMB network file system; - Netfilter; - io_uring subsystem; (CVE-2024-35862, CVE-2024-50060, CVE-2026-23274, CVE-2026-23351)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8291-2
+
+---
+
+#### 1512. [Ubuntu] USN-8296-1: Linux kernel (FIPS) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM64 architecture; - x86 architecture; - Compute Acceleration Framework; - Drivers core; - Null block device driver; - Ublk userspace block driver; - Bluetooth drivers; - Counter interface drivers; - DMA engine subsys
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8296-1
+
+---
+
+#### 1513. [Ubuntu] USN-8295-1: Evince vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Evince did not properly sanitize command-line arguments in PDF /GoToR actions. If a user opened a specially crafted PDF file, an attacker could possibly use this issue to execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8295-1
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1294**
+**总计条目 / Total entries: 1312**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -24357,5 +24357,293 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8287-1
+
+---
+
+#### 1295. CVE-2026-5946 - bind: Invalid handling of CLASS != IN
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] bind: Invalid handling of CLASS != IN. Bugzilla: 2479771
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479771
+
+---
+
+#### 1296. CVE-2026-3039 - bind: BIND 9 server memory exhaustion during GSS-API TKEY negotiation
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] bind: BIND 9 server memory exhaustion during GSS-API TKEY negotiation. Bugzilla: 2479767
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479767
+
+---
+
+#### 1297. CVE-2026-5947 - bind: SIG(0) validation during query flood may lead to undefined behavior
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] bind: SIG(0) validation during query flood may lead to undefined behavior. Bugzilla: 2479772
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479772
+
+---
+
+#### 1298. CVE-2026-3593 - bind: Heap use-after-free vulnerability in BIND 9 DNS-over-HTTPS implementation
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] bind: Heap use-after-free vulnerability in BIND 9 DNS-over-HTTPS implementation. Bugzilla: 2479770
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479770
+
+---
+
+#### 1299. CVE-2026-43494 - kernel: net/rds: reset op_nents when zerocopy page pin fails
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net/rds: reset op_nents when zerocopy page pin fails. Bugzilla: 2480434
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480434
+
+---
+
+#### 1300. CVE-2026-43495 - kernel: net: wwan: t7xx: validate port_count against message length in…
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: wwan: t7xx: validate port_count against message length in t7xx_port_enum_msg_handler. Bugzilla: 2480452
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480452
+
+---
+
+#### 1301. CVE-2026-43499 - kernel: rtmutex: Use waiter::task instead of current in remove_waiter()
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: rtmutex: Use waiter::task instead of current in remove_waiter(). Bugzilla: 2480453
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480453
+
+---
+
+#### 1302. CVE-2026-43498 - kernel: accel/ivpu: Disallow re-exporting imported GEM objects
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: accel/ivpu: Disallow re-exporting imported GEM objects. Bugzilla: 2480454
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480454
+
+---
+
+#### 1303. CVE-2026-43502 - kernel: net/rds: handle zerocopy send cleanup before the message is queued
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net/rds: handle zerocopy send cleanup before the message is queued. Bugzilla: 2480456
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480456
+
+---
+
+#### 1304. CVE-2026-43501 - kernel: ipv6: rpl: reserve mac_len headroom when recompressed SRH grows
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ipv6: rpl: reserve mac_len headroom when recompressed SRH grows. Bugzilla: 2480457
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480457
+
+---
+
+#### 1305. CVE-2026-43497 - kernel: fbdev: udlfb: add vm_ops to dlfb_ops_mmap to prevent use-after-free
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: fbdev: udlfb: add vm_ops to dlfb_ops_mmap to prevent use-after-free. Bugzilla: 2480458
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480458
+
+---
+
+#### 1306. CVE-2026-43496 - kernel: net/sched: sch_red: Replace direct dequeue call with peek and…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net/sched: sch_red: Replace direct dequeue call with peek and qdisc_dequeue_peeked. Bugzilla: 2480459
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480459
+
+---
+
+#### 1307. CVE-2026-8632 - HPLIP: HPLIP: Privilege escalation and arbitrary code execution via operating…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] HPLIP: HPLIP: Privilege escalation and arbitrary code execution via operating system command injection. Bugzilla: 2480297
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480297
+
+---
+
+#### 1308. [Ubuntu] USN-8279-2: Linux kernel (GCP) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel algif_aead module did not properly handle in-place cryptographic operations. This flaw is known as Copy Fail. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-31431) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8279-2
+
+---
+
+#### 1309. [Ubuntu] USN-8297-1: Linux kernel (GCP) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Stonejiajia, Shir Tamari and Sagi Tzadik discovered that the OverlayFS implementation in the Ubuntu Linux kernel did not properly perform permission checks in certain situations. A local attacker could possibly use this to gain elevated privileges. (CVE-2023-2640) Shir Tamari and Sagi Tzadik discovered that the OverlayFS implementation in the Ubuntu Linux kernel did not properly perform permission
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8297-1
+
+---
+
+#### 1310. [Ubuntu] USN-8291-2: Linux kernel (Low Latency) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - SMB network file system; - Netfilter; - io_uring subsystem; (CVE-2024-35862, CVE-2024-50060, CVE-2026-23274, CVE-2026-23351)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8291-2
+
+---
+
+#### 1311. [Ubuntu] USN-8296-1: Linux kernel (FIPS) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM64 architecture; - x86 architecture; - Compute Acceleration Framework; - Drivers core; - Null block device driver; - Ublk userspace block driver; - Bluetooth drivers; - Counter interface drivers; - DMA engine subsys
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8296-1
+
+---
+
+#### 1312. [Ubuntu] USN-8295-1: Evince vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Evince did not properly sanitize command-line arguments in PDF /GoToR actions. If a user opened a specially crafted PDF file, an attacker could possibly use this issue to execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8295-1
 
 ---
