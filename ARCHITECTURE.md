@@ -1,5 +1,7 @@
 # patch-toolbox 仓库架构总览
 
+> 当前公开仓库的审查约定：**PR 审源，CI 产预览，Pages 只认 `main` 上成功部署的 CI 产物。**
+
 ## 🗂️ 文件树（实际）
 
 ```
@@ -72,14 +74,18 @@ patch-toolbox/
 │   ├── summary.txt                   # 简短文字汇报
 │   └── cron.log                      # cron 运行日志
 │
-├── 📁 db/                            # SQLite 数据文件
+├── 📁 db/                            # SQLite 数据文件（对外可读数据面）
 │   ├── network-security.db
 │   ├── system-vulnerabilities.db
 │   └── system-troubleshooting.db
 │
+├── 📁 website/public/data/           # 网站预览 JSON（CI / 本地构建生成，不再作为 PR 常规输入）
+├── 📁 website/public/db/             # 网站预览用 SQLite 副本（CI / 本地构建生成）
+│
 ├── 📁 .github/
 │   └── workflows/
-│       └── ci-check.yml
+│       ├── ci-check.yml            # PR / push 校验 + 预览 artifact
+│       └── deploy-website.yml      # main 分支 Pages 正式部署
 │
 └── 📄 state.json                     # 去重数据库（本地，不上传GitHub）
 ```
@@ -168,6 +174,21 @@ README.md
 - **无法归类条目**：不进入公开三分栏，转人工确认处理。
 
 ---
+
+## PR / CI / Pages 职责切分
+
+### 1. PR 审查层
+- 审查重点：源码、源数据、工作流、文档。
+- 不再把 `website/public/data/` 这类生成 JSON 当成常规 PR diff 的主体。
+
+### 2. CI 预览层
+- `ci-check.yml` 在 PR 与 push 上执行结构校验、数据导出、前端测试与构建。
+- CI 上传 `patch-toolbox-preview` artifact，供审查者查看统计结果与站点预览产物。
+- 审查者看两样东西：PR diff 里的“原因”，artifact 里的“结果”。
+
+### 3. Pages 正式发布层
+- `deploy-website.yml` 只在 `main`（或手动触发）上生成正式网站产物并部署到 GitHub Pages。
+- 线上状态以 `main` 上成功部署工作流为准，不以开发者本地生成结果为准。
 
 ## 📦 GitHub 仓库状态
 

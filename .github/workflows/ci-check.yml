@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 jobs:
-  lint:
+  lint-and-preview:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -17,7 +17,13 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: website/package-lock.json
+
+      - name: Install Python dependencies
         run: pip install pyyaml requests
 
       - name: Validate Markdown structure
@@ -29,8 +35,59 @@ jobs:
       - name: Verify SQLite sync
         run: python scripts/verify_db_sync.py
 
-      - name: Build website data smoke test
+      - name: Build website data
         run: |
-          python scripts/export_website_data.py --output-dir /tmp/website-data
-          python scripts/build_website_stats.py --output /tmp/website-stats.json
-          python scripts/build_search_index.py --output /tmp/website-search-index.json
+          python scripts/export_website_data.py --output-dir website/public/data
+          python scripts/build_website_stats.py --output website/public/data/stats.json
+          python scripts/build_search_index.py --output website/public/data/search-index.json
+          mkdir -p website/public/db
+          cp db/*.db website/public/db/
+
+      - name: Install website dependencies
+        working-directory: website
+        run: npm ci --legacy-peer-deps
+
+      - name: Test website
+        working-directory: website
+        run: npm run test
+
+      - name: Build website
+        working-directory: website
+        run: npm run build
+
+      - name: Write review summary
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          stats = json.loads(Path('website/public/data/stats.json').read_text(encoding='utf-8'))
+          categories = json.loads(Path('website/public/data/categories.json').read_text(encoding='utf-8'))
+          lines = [
+              '## patch-toolbox preview summary',
+              '',
+              f"- total_entries: {stats['total_entries']}",
+              '- categories:',
+          ]
+          for item in categories:
+              lines.append(f"  - {item['key']}: {item['entry_count']}")
+          summary = '\n'.join(lines) + '\n'
+          Path('website/public/data/review-summary.md').write_text(summary, encoding='utf-8')
+          step_summary = os.environ.get('GITHUB_STEP_SUMMARY')
+          if step_summary:
+              with open(step_summary, 'a', encoding='utf-8') as fh:
+                  fh.write(summary)
+          PY
+
+      - name: Upload patch-toolbox-preview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: patch-toolbox-preview
+          path: |
+            website/dist
+            website/public/data/stats.json
+            website/public/data/categories.json
+            website/public/data/search-index.json
+            website/public/data/review-summary.md
+          if-no-files-found: error
