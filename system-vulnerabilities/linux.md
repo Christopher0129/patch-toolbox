@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1356**
+**总计条目 / Total entries: 1367**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -26433,5 +26433,181 @@ Apply patch from vendor. Monitor https://access.redhat.com/security/cve/CVE-2026
 - https://access.redhat.com/security/cve/CVE-2026-9150
 - https://bugzilla.redhat.com/show_bug.cgi?id=2460379
 - https://github.com/openSUSE/libsolv/pull/616
+
+---
+
+#### 1357. CVE-2026-9298 - AMF: omec-project amf: Memory corruption vulnerability in PathSwitchRequest Handler
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] AMF: omec-project amf: Memory corruption vulnerability in PathSwitchRequest Handler. Bugzilla: 2480897
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480897
+
+---
+
+#### 1358. CVE-2026-43503 - kernel: net: skbuff: propagate shared-frag marker through frag-transfer helpers
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: skbuff: propagate shared-frag marker through frag-transfer helpers. Bugzilla: 2480902
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480902
+
+---
+
+#### 1359. CVE-2026-9277 - shell-quote: shell-quote: Arbitrary code execution via command injection due to…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] shell-quote: shell-quote: Arbitrary code execution via command injection due to unescaped line terminators. Bugzilla: 2480741
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480741
+
+---
+
+#### 1360. [Ubuntu] USN-8304-1: Vim vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Joshua Rogers discovered that Vim incorrectly handled certain URL schemes in the netrw plugin. An attacker could possibly use this issue to execute arbitrary commands. (CVE-2026-42307) It was discovered that Vim incorrectly handled command-line completion for the :find command. An attacker could possibly use this issue to execute arbitrary commands. (CVE-2026-44656) Daniel Cervera discovered that
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8304-1
+
+---
+
+#### 1361. [Ubuntu] USN-8291-3: Linux kernel (Low Latency) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - SMB network file system; - Netfilter; - io_uring subsystem; (CVE-2024-35862, CVE-2024-50060, CVE-2026-23274, CVE-2026-23351)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8291-3
+
+---
+
+#### 1362. [Ubuntu] USN-8296-2: Linux kernel (NVIDIA Tegra) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM64 architecture; - x86 architecture; - Compute Acceleration Framework; - Drivers core; - Null block device driver; - Ublk userspace block driver; - Bluetooth drivers; - Counter interface drivers; - DMA engine subsys
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8296-2
+
+---
+
+#### 1363. [Ubuntu] USN-8302-1: NLTK vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that NLTK incorrectly validated file paths when opening files using the nltk.util module. An attacker could possibly use this issue to obtain sensitive information. (CVE-2026-0846) It was discovered that NLTK incorrectly validated file paths in multiple CorpusReader classes. An attacker could possibly use this issue to obtain sensitive information. (CVE-2026-0847) It was discover
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8302-1
+
+---
+
+#### 1364. [Ubuntu] USN-8301-1: SimpleEval vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Byambadalai Sumiya discovered that SimpleEval did not properly restrict attribute access and callback handling inside a sandbox. An attacker could possibly use this issue to execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8301-1
+
+---
+
+#### 1365. [Ubuntu] USN-8300-1: ngtcp2 vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Zou Dikai discovered that ngtcp2 serialized peer transport parameters into a fixed 1024-byte stack buffer without bounds checking. When qlog was enabled, a remote attacker could possibly use this issue to execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8300-1
+
+---
+
+#### 1366. [Ubuntu] USN-8299-1: Rclone vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Rclone incorrectly handled authorization in the remote control API. An attacker could possibly use this issue to obtain sensitive information. (CVE-2026-41176) It was discovered that Rclone incorrectly handled backend instantiation via the remote control API. An attacker could possibly use this issue to execute arbitrary code. This issue only affected Ubuntu 24.04 LTS, Ubunt
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8299-1
+
+---
+
+#### 1367. [Ubuntu] USN-8298-1: .NET vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Muhammad Abdul Rehman discovered that .NET incorrectly handled certain network requests, leading to a loop with an unreachable exit condition. A remote attacker could possibly use this issue to consume excessive resources, resulting in a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8298-1
 
 ---
