@@ -1,3 +1,5 @@
 node_modules
 dist
+public/data
+public/db
 .DS_Store

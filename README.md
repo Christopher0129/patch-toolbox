@@ -21,6 +21,8 @@
 - 新条目会追加，历史内容保留，同一漏洞的不同缓解方法会分别记录
 - 所有页面同时提供中英双语结构，技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性
 - 提供 SQLite 和 Markdown 两种格式：SQLite 在 `db/` 目录，适合程序查询；Markdown 在各分类目录，适合直接阅读
+- PR 默认只审源码、源数据、构建规则与文档；网站预览结果通过 CI artifact 查看，而不是把 `website/public/data/` 这类生成文件混进 PR diff
+- GitHub Pages 只认 `main` 分支上的成功部署工作流产物，本地工作区或 PR 预览产物都不视为正式线上状态
 
 ### 数据来源
 
@@ -45,6 +47,8 @@ A long-term maintained security knowledge base collecting network vulnerabilitie
 - New entries are appended; historical content is kept. Different mitigations for the same vulnerability are recorded separately.
 - All pages have bilingual structure. Technical details (descriptions, patch info, etc.) remain in original language for accuracy.
 - Available in SQLite (`db/` for programmatic use) and Markdown (category directories for reading).
+- Pull requests are reviewed primarily on source changes, source data, build rules, and docs. Generated website preview output is inspected through CI artifacts instead of committed preview JSON in the PR diff.
+- GitHub Pages only trusts artifacts produced by the successful deployment workflow on `main`; local or PR preview output is not the source of truth for production.
 
 ### Sources
 

@@ -100,6 +100,8 @@ website/.vite/
 website/*.tsbuildinfo
 website/vite.config.d.ts
 website/vite.config.js
+website/public/data/
+website/public/db/
 
 # Publish build artifacts (generated at CI/deploy time, not committed)
 .report.json
