@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1101**
+**总计条目 / Total entries: 1108**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -17142,5 +17142,117 @@ Heap-based buffer overflow in BOM BOMArchiveHelper 10.4 (6.3) Build 312, as used
 - http://secunia.com/advisories/20077
 - http://securitytracker.com/id?1016082
 - http://www.osvdb.org/24819
+
+---
+
+#### 1102. CVE-2006-1466
+
+**严重程度 / Severity**: N/A | CVSS: 4.0
+
+**漏洞描述 / Description**:
+Xcode Tools before 2.3 for Mac OS X 10.4, when running the WebObjects plugin, allows remote attackers to access or modify WebObjects projects through a network service.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2006/May/msg00004.html
+- http://secunia.com/advisories/20267
+- http://securitytracker.com/id?1016143
+- http://www.osvdb.org/25889
+- http://www.securityfocus.com/bid/18091
+
+---
+
+#### 1103. CVE-2006-2702
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+vars.php in WordPress 2.0.2, possibly when running on Mac OS X, allows remote attackers to spoof their IP address via a PC_REMOTE_ADDR HTTP header, which vars.php uses to redefine $_SERVER['REMOTE_ADDR'].
+
+**参考链接 / References**:
+- http://retrogod.altervista.org/wordpress_202_xpl.html
+- http://secunia.com/advisories/20271
+- http://secunia.com/advisories/20608
+- http://www.gentoo.org/security/en/glsa/glsa-200606-08.xml
+- http://www.osvdb.org/25935
+
+---
+
+#### 1104. CVE-2006-3669
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+Mercury Messenger, possibly 1.7.1.1 and other versions, when running on a multi-user Mac OS X platform, stores chat logs with world-readable permissions within the /Users directory, which allows local users to read the chat logs from other users.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/archive/1/440243/100/0/threaded
+- http://www.securityfocus.com/bid/19005
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/27767
+- http://www.securityfocus.com/archive/1/440243/100/0/threaded
+- http://www.securityfocus.com/bid/19005
+
+---
+
+#### 1105. CVE-2006-0395
+
+**严重程度 / Severity**: N/A | CVSS: 5.1
+
+**漏洞描述 / Description**:
+The Download Validation in Mail in Mac OS X 10.4 does not properly recognize attachment file types to warn a user of an unsafe type, which allows user-assisted remote attackers to execute arbitrary code via crafted file types.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/client-management/2006/Mar/msg00030.html
+- http://secunia.com/advisories/19064
+- http://www.osvdb.org/23645
+- http://www.securityfocus.com/bid/16907
+
+---
+
+#### 1106. CVE-2006-3506
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+
+**漏洞描述 / Description**:
+Buffer overflow in the Xsan Filesystem driver on Mac OS X 10.4.7 and OS X Server 10.4.7 allows local users with Xsan write access, to execute arbitrary code via unspecified vectors related to "processing a path name."
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=304188
+- http://secunia.com/advisories/21551
+- http://securitytracker.com/id?1016711
+- http://www.kb.cert.org/vuls/id/737204
+- http://www.osvdb.org/27994
+
+---
+
+#### 1107. CVE-2006-4392
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+
+**漏洞描述 / Description**:
+The Mach kernel, as used in operating systems including (1) Mac OS X 10.4 through 10.4.7 and (2) OpenStep before 4.2, allows local users to gain privileges via a parent process that forces an exception in a setuid child and uses Mach exception ports to modify the child's thread context and task address space in a way that causes the child to call a parent-controlled function.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2006/Sep/msg00002.html
+- http://secunia.com/advisories/22187
+- http://securityreason.com/securityalert/1663
+- http://securitytracker.com/id?1016954
+- http://www.kb.cert.org/vuls/id/838404
+
+---
+
+#### 1108. CVE-2006-5330
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+CRLF injection vulnerability in Adobe Flash Player plugin 9.0.16 and earlier for Windows, 7.0.63 and earlier for Linux, 7.x before 7.0 r67 for Solaris, and before 9.0.28.0 for Mac OS X, allows remote attackers to modify HTTP headers of client requests and conduct HTTP Request Splitting attacks via CRLF sequences in arguments to the ActionScript functions (1) XML.addRequestHeader and (2) XML.contentType.  NOTE: the flexibility of the attack varies depending on the type of web browser being used.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=305214
+- http://lists.apple.com/archives/security-announce/2007/Mar/msg00002.html
+- http://lists.suse.com/archive/suse-security-announce/2006-Dec/0006.html
+- http://secunia.com/advisories/22467
+- http://secunia.com/advisories/23324
 
 ---

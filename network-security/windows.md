@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 862**
+**总计条目 / Total entries: 868**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -12734,5 +12734,77 @@ Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52568
+
+---
+
+#### 863. [webapps] Grav CMS 2.0.0-beta.2 -  Remote Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Grav CMS 2.0.0-beta.2 - Remote Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52578
+
+---
+
+#### 864. [webapps] Apache HTTP Server 2.4.66 - 'mod_http2' Double-Free Denial of Service
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Apache HTTP Server 2.4.66 - 'mod_http2' Double-Free Denial of Service
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52577
+
+---
+
+#### 865. [hardware] D-Link DSL2600U - 'rom-0' Admin Password Disclosure
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] D-Link DSL2600U - 'rom-0' Admin Password Disclosure
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52576
+
+---
+
+#### 866. [webapps] Wordpress Temporary Login Plugin  1.0.0 - 'temp-login-token' Authentication Bypass to Account Takeover
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Wordpress Temporary Login Plugin 1.0.0 - 'temp-login-token' Authentication Bypass to Account Takeover
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52575
+
+---
+
+#### 867. [webapps] cPanel - CRLF Injection
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] cPanel - CRLF Injection
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52574
+
+---
+
+#### 868. [local] Linux Kernel 6.8 - Local Privilege Escalation
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Linux Kernel 6.8 - Local Privilege Escalation
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52573
 
 ---

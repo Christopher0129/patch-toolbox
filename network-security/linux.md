@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1569**
+**总计条目 / Total entries: 1581**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -26132,5 +26132,149 @@ Muhammad Abdul Rehman discovered that .NET incorrectly handled certain network r
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8298-1
+
+---
+
+#### 1570. CVE-2026-9530 - libredwg: GNU LibreDWG: Denial of Service via out-of-bounds read in Dwgbmp Utility
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] libredwg: GNU LibreDWG: Denial of Service via out-of-bounds read in Dwgbmp Utility. Bugzilla: 2481389
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2481389
+
+---
+
+#### 1571. CVE-2026-3592 - bind: Amplification vulnerabilities via self-pointed glue records
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] bind: Amplification vulnerabilities via self-pointed glue records. Bugzilla: 2479768
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479768
+
+---
+
+#### 1572. CVE-2026-5950 - bind: Unbounded resend loop in BIND 9 resolver
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] bind: Unbounded resend loop in BIND 9 resolver. Bugzilla: 2479773
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479773
+
+---
+
+#### 1573. CVE-2026-32792 - unbound: Packet of death with DNSCrypt
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] unbound: Packet of death with DNSCrypt. Bugzilla: 2479779
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2479779
+
+---
+
+#### 1574. CVE-2026-9256 - nginx: ngx_http_rewrite_module: code execution and denial of service
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] nginx: ngx_http_rewrite_module: code execution and denial of service. Bugzilla: 2480746
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480746
+
+---
+
+#### 1575. [Ubuntu] USN-7972-2: OpenCC vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-7972-1 fixed a vulnerability in OpenCC. This update provides the corresponding update for Ubuntu 18.04 LTS and Ubuntu 20.04 LTS. Original advisory details: It was discovered that OpenCC incorrectly handled truncated UTF-8 input. An attacker could possibly use this issue to cause OpenCC to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-7972-2
+
+---
+
+#### 1576. [Ubuntu] USN-8063-2: Protocol Buffers vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8063-1 fixed a vulnerability in Protocol Buffers. This update provides the corresponding update for Ubuntu 18.04 LTS and Ubuntu 20.04 LTS. Original advisory details: It was discovered that Protocol Buffers incorrectly handled recursion when the Python google.protobuf.json_format.ParseDict() function is being used. An attacker could possibly use this issue to cause Protocol Buffers to consume r
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8063-2
+
+---
+
+#### 1577. [Ubuntu] USN-8280-3: Linux kernel (IoT) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel algif_aead module did not properly handle in-place cryptographic operations. This flaw is known as Copy Fail. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-31431) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8280-3
+
+---
+
+#### 1578. [Ubuntu] USN-8309-1: libssh2 vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libssh2 incorrectly handled username and password length values during SSH password authentication. A remote attacker could possibly use this issue to cause a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8309-1
+
+---
+
+#### 1579. [Ubuntu] USN-8167-2: xdg-dbus-proxy vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8167-1 fixed a vulnerability in xdg-dbus-proxy. This update provides the corresponding update for Ubuntu 20.04 LTS. Original advisory details: It was discovered that xdg-dbus-proxy incorrectly handled eavesdropping in policy rules. A local attacker could possibly use this issue to intercept certain D-Bus messages.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8167-2
+
+---
+
+#### 1580. [Ubuntu] USN-8308-1: Dnsmasq vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Dnsmasq incorrectly handled BOOTREPLY packets when configured with the --dhcp-split-relay option. A remote attacker could use this issue to cause Dnsmasq to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8308-1
+
+---
+
+#### 1581. [Ubuntu] USN-8307-1: ONNX vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that ONNX did not properly validate paths when extracting tar archives during model downloads. An attacker could possibly use this issue to overwrite arbitrary files on the system.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8307-1
 
 ---
