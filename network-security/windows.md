@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 868**
+**总计条目 / Total entries: 875**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -12806,5 +12806,89 @@ Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52573
+
+---
+
+#### 869. [local] Linux Kernel - Local Privilege Escalation
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Linux Kernel - Local Privilege Escalation
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52585
+
+---
+
+#### 870. [webapps] Casdoor 3.54.1 - Arbitrary File Write via Path Traversal
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Casdoor 3.54.1 - Arbitrary File Write via Path Traversal
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52584
+
+---
+
+#### 871. [webapps] EspoCRM 9.3.3 -  SSRF
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] EspoCRM 9.3.3 - SSRF
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52583
+
+---
+
+#### 872. [webapps] scramble - Remote Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] scramble - Remote Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52582
+
+---
+
+#### 873. [hardware] MeiG Smart FORGE_SLT711 - OS Command Injection
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] MeiG Smart FORGE_SLT711 - OS Command Injection
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52581
+
+---
+
+#### 874. [local] Realtek rtl819x  - Local Privilege
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Realtek rtl819x - Local Privilege
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52580
+
+---
+
+#### 875. [webapps] OpenCATS 0.9.7.4 - SQL Injection
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] OpenCATS 0.9.7.4 - SQL Injection
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52579
 
 ---

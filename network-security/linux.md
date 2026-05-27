@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1581**
+**总计条目 / Total entries: 1597**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -26276,5 +26276,199 @@ It was discovered that ONNX did not properly validate paths when extracting tar 
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8307-1
+
+---
+
+#### 1582. CVE-2026-48863 - libsolv: Stack-based buffer overflow in libsolv EdDSA PGP signature verification…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] libsolv: Stack-based buffer overflow in libsolv EdDSA PGP signature verification allows denial of service. Bugzilla: 2460975
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2460975
+
+---
+
+#### 1583. CVE-2026-48864 - libsolv: Heap buffer overflow in libsolv repopagestore via unchecked decompression…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] libsolv: Heap buffer overflow in libsolv repopagestore via unchecked decompression of malicious .solv page data. Bugzilla: 2460425
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2460425
+
+---
+
+#### 1584. CVE-2026-4480 - samba: Samba: Remote Code Execution in printing subsystem via unescaped job…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] samba: Samba: Remote Code Execution in printing subsystem via unescaped job description. Bugzilla: 2452232
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2452232
+
+---
+
+#### 1585. CVE-2026-7374 - kubevirt: KubeVirt virt-handler: Privilege escalation and node compromise via…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kubevirt: KubeVirt virt-handler: Privilege escalation and node compromise via symlink following vulnerability. Bugzilla: 2463728
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2463728
+
+---
+
+#### 1586. [Ubuntu] USN-8326-1: Foomuuri vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Matthias Gerstner discovered that Foomuuri's D-Bus service did not properly enforce authorization. An unprivileged local attacker could possibly use this issue to manipulate the firewall configuration, contrary to expectations. (CVE-2025-67603) Matthias Gerstner discovered that Foomuuri's D-Bus service did not properly validate interface names. A local attacker could possibly use this issue to man
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8326-1
+
+---
+
+#### 1587. [Ubuntu] USN-8325-1: tgt vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that tgt incorrectly tried to achieve entropy by calling rand without srand. An attacker could possibly use this issue to make tgt generate an identical sequence of challenges, resulting in authentication bypass.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8325-1
+
+---
+
+#### 1588. [Ubuntu] USN-8324-1: Apache Tika vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Apache Tika incorrectly handled XML external entities when parsing XFA content in PDF files. An attacker could possibly use this issue to obtain sensitive information or send malicious requests to internal resources or third-party servers.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8324-1
+
+---
+
+#### 1589. [Ubuntu] USN-8323-1: Postorius vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Postorius did not properly escape HTML in message subjects when rendering the Held messages pop-up. An attacker could possibly use this issue to inject arbitrary HTML, resulting in exposure of sensitive information.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8323-1
+
+---
+
+#### 1590. [Ubuntu] USN-8322-1: Apache Commons BeanUtils vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Apache Commons BeanUtils incorrectly allowed access to the declaredClass property of Java enum objects when handling externally supplied property paths. An attacker could possibly use this issue to execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8322-1
+
+---
+
+#### 1591. [Ubuntu] USN-8321-1: Papers vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Papers incorrectly handled PDF /GoToR actions. If a user were tricked into opening a specially crafted PDF file, an attacker could use this issue to manipulate command lines and possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8321-1
+
+---
+
+#### 1592. [Ubuntu] USN-8320-1: Memcached vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Memcached's SASL password database authentication had a timing side channel when handling username and password data. A remote attacker could possibly use this issue to obtain sensitive information.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8320-1
+
+---
+
+#### 1593. [Ubuntu] USN-8319-1: Libgcrypt vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Libgcrypt incorrectly handled crafted ECDH ciphertext. An attacker could possibly use this issue to cause Libgcrypt to crash, resulting in a denial of service. (CVE-2026-41989) It was discovered that Libgcrypt incorrectly handled Dilithium signing. An attacker could possibly use this issue to cause Libgcrypt to crash, resulting in a denial of service. This issue only affecte
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8319-1
+
+---
+
+#### 1594. [Ubuntu] USN-8318-1: libcaca vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libcaca incorrectly handled certain malformed files. An attacker could use this issue to cause libcaca to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8318-1
+
+---
+
+#### 1595. [Ubuntu] USN-8317-1: GStreamer Good Plugins vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that GStreamer Good Plugins incorrectly handled certain MP4 audio tracks. An attacker could possibly use this issue to cause GStreamer Good Plugins to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8317-1
+
+---
+
+#### 1596. CVE-2026-42301
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+pyp2spec generates working Fedora RPM spec file for Python projects. Prior to version 0.14.1, pyp2spec was writing PyPI package metadata (e.g. the summary field) into the generated spec file without escaping RPM macro directives. When a packager then runs rpmbuild, those directives get evaluated, so a malicious package can execute arbitrary commands on the build machine. This issue has been patched in version 0.14.1.
+
+**参考链接 / References**:
+- https://github.com/befeleme/pyp2spec/releases/tag/v0.14.1
+- https://github.com/befeleme/pyp2spec/security/advisories/GHSA-r35x-v8p8-xvhw
+
+---
+
+#### 1597. CVE-2026-47271
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.1
+
+**漏洞描述 / Description**:
+pam_usb provides hardware authentication for Linux using ordinary removable media. Prior to 0.9.0, src/mem.c implemented out-of-memory guards for xmalloc(), xrealloc(), and xstrdup() using assert(data != NULL). The C standard specifies that all assert() expressions are compiled out when NDEBUG is defined at build time. NDEBUG is commonly defined in release and packaging builds (Debian, Fedora, Arch package flags all define it via -DNDEBUG in CFLAGS). With the guard removed, xmalloc/xrealloc/xstrdup silently return NULL on allocation failure. Every caller in the codebase dereferences the return value without a NULL check -- this is the intended design, as the guard was supposed to abort before the dereference. With the guard gone, any allocation failure causes a NULL pointer dereference, crashing the PAM module. A crash in a PAM module loaded by sudo or login causes authentication to fail for the duration of the crash, creating a local denial-of-service condition. An attacker who can induce memory pressure at authentication time can lock all users out of sudo and login. This vulnerability is fixed in 0.9.0.
+
+**参考链接 / References**:
+- https://github.com/mcdope/pam_usb/commit/d003e551b794a9e3774ff4720830fb7aadaa48bd
+- https://github.com/mcdope/pam_usb/security/advisories/GHSA-7rvx-jcc6-7hqq
 
 ---

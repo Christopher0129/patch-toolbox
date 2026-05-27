@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1437**
+**总计条目 / Total entries: 1452**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -27901,5 +27901,245 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8294-1
+
+---
+
+#### 1438. CVE-2026-48863 - libsolv: Stack-based buffer overflow in libsolv EdDSA PGP signature verification…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libsolv: Stack-based buffer overflow in libsolv EdDSA PGP signature verification allows denial of service. Bugzilla: 2460975
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2460975
+
+---
+
+#### 1439. CVE-2026-48864 - libsolv: Heap buffer overflow in libsolv repopagestore via unchecked decompression…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libsolv: Heap buffer overflow in libsolv repopagestore via unchecked decompression of malicious .solv page data. Bugzilla: 2460425
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2460425
+
+---
+
+#### 1440. CVE-2026-4480 - samba: Samba: Remote Code Execution in printing subsystem via unescaped job…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] samba: Samba: Remote Code Execution in printing subsystem via unescaped job description. Bugzilla: 2452232
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2452232
+
+---
+
+#### 1441. CVE-2026-7374 - kubevirt: KubeVirt virt-handler: Privilege escalation and node compromise via…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kubevirt: KubeVirt virt-handler: Privilege escalation and node compromise via symlink following vulnerability. Bugzilla: 2463728
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2463728
+
+---
+
+#### 1442. [Ubuntu] USN-8326-1: Foomuuri vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Matthias Gerstner discovered that Foomuuri's D-Bus service did not properly enforce authorization. An unprivileged local attacker could possibly use this issue to manipulate the firewall configuration, contrary to expectations. (CVE-2025-67603) Matthias Gerstner discovered that Foomuuri's D-Bus service did not properly validate interface names. A local attacker could possibly use this issue to man
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8326-1
+
+---
+
+#### 1443. [Ubuntu] USN-8325-1: tgt vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that tgt incorrectly tried to achieve entropy by calling rand without srand. An attacker could possibly use this issue to make tgt generate an identical sequence of challenges, resulting in authentication bypass.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8325-1
+
+---
+
+#### 1444. [Ubuntu] USN-8324-1: Apache Tika vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Apache Tika incorrectly handled XML external entities when parsing XFA content in PDF files. An attacker could possibly use this issue to obtain sensitive information or send malicious requests to internal resources or third-party servers.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8324-1
+
+---
+
+#### 1445. [Ubuntu] USN-8323-1: Postorius vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Postorius did not properly escape HTML in message subjects when rendering the Held messages pop-up. An attacker could possibly use this issue to inject arbitrary HTML, resulting in exposure of sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8323-1
+
+---
+
+#### 1446. [Ubuntu] USN-8322-1: Apache Commons BeanUtils vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Apache Commons BeanUtils incorrectly allowed access to the declaredClass property of Java enum objects when handling externally supplied property paths. An attacker could possibly use this issue to execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8322-1
+
+---
+
+#### 1447. [Ubuntu] USN-8321-1: Papers vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Papers incorrectly handled PDF /GoToR actions. If a user were tricked into opening a specially crafted PDF file, an attacker could use this issue to manipulate command lines and possibly execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8321-1
+
+---
+
+#### 1448. [Ubuntu] USN-8320-1: Memcached vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Memcached's SASL password database authentication had a timing side channel when handling username and password data. A remote attacker could possibly use this issue to obtain sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8320-1
+
+---
+
+#### 1449. [Ubuntu] USN-8319-1: Libgcrypt vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Libgcrypt incorrectly handled crafted ECDH ciphertext. An attacker could possibly use this issue to cause Libgcrypt to crash, resulting in a denial of service. (CVE-2026-41989) It was discovered that Libgcrypt incorrectly handled Dilithium signing. An attacker could possibly use this issue to cause Libgcrypt to crash, resulting in a denial of service. This issue only affecte
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8319-1
+
+---
+
+#### 1450. [Ubuntu] USN-8318-1: libcaca vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libcaca incorrectly handled certain malformed files. An attacker could use this issue to cause libcaca to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8318-1
+
+---
+
+#### 1451. [Ubuntu] USN-8317-1: GStreamer Good Plugins vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that GStreamer Good Plugins incorrectly handled certain MP4 audio tracks. An attacker could possibly use this issue to cause GStreamer Good Plugins to crash, resulting in a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8317-1
+
+---
+
+#### 1452. CVE-2026-47271
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.1
+
+**漏洞描述 / Description**:
+pam_usb provides hardware authentication for Linux using ordinary removable media. Prior to 0.9.0, src/mem.c implemented out-of-memory guards for xmalloc(), xrealloc(), and xstrdup() using assert(data != NULL). The C standard specifies that all assert() expressions are compiled out when NDEBUG is defined at build time. NDEBUG is commonly defined in release and packaging builds (Debian, Fedora, Arch package flags all define it via -DNDEBUG in CFLAGS). With the guard removed, xmalloc/xrealloc/xstrdup silently return NULL on allocation failure. Every caller in the codebase dereferences the return value without a NULL check -- this is the intended design, as the guard was supposed to abort before the dereference. With the guard gone, any allocation failure causes a NULL pointer dereference, crashing the PAM module. A crash in a PAM module loaded by sudo or login causes authentication to fail for the duration of the crash, creating a local denial-of-service condition. An attacker who can induce memory pressure at authentication time can lock all users out of sudo and login. This vulnerability is fixed in 0.9.0.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/mcdope/pam_usb/commit/d003e551b794a9e3774ff4720830fb7aadaa48bd.
+
+**参考链接 / References**:
+- https://github.com/mcdope/pam_usb/commit/d003e551b794a9e3774ff4720830fb7aadaa48bd
+- https://github.com/mcdope/pam_usb/security/advisories/GHSA-7rvx-jcc6-7hqq
 
 ---
