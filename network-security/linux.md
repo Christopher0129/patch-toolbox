@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1597**
+**总计条目 / Total entries: 1606**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -26470,5 +26470,113 @@ pam_usb provides hardware authentication for Linux using ordinary removable medi
 **参考链接 / References**:
 - https://github.com/mcdope/pam_usb/commit/d003e551b794a9e3774ff4720830fb7aadaa48bd
 - https://github.com/mcdope/pam_usb/security/advisories/GHSA-7rvx-jcc6-7hqq
+
+---
+
+#### 1598. [Ubuntu] USN-8341-1: OpenJDK 26 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Thomas Beckers discovered that the JAXP component of OpenJDK 26 did not correctly authenticate certain APIs. A remote unauthenticated attacker could possibly use this issue to gain unauthorized access to sensitive information. (CVE-2026-22016) It was discovered that the Networking component of OpenJDK 26 did not correctly authenticate certain APIs. A remote unauthenticated attacker could possibly
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8341-1
+
+---
+
+#### 1599. [Ubuntu] USN-8344-1: pip vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that pip incorrectly handled TLS certificate verification in session connections. If a session was first used with certificate verification disabled, subsequent requests to the same host would also skip verification regardless of the session's current settings. A remote attacker could possibly use this issue to perform a machine-in-the-middle attack and expose sensitive informati
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8344-1
+
+---
+
+#### 1600. [Ubuntu] USN-8229-2: sed vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8229-1 fixed a vulnerability in sed. This update provides the corresponding update for Ubuntu 18.04 LTS and Ubuntu 20.04 LTS. Original advisory details: Michał Majchrowicz and Marcin Wyczechowski discovered that sed incorrectly handled symbolic links when performing in-place edits. A local attacker could possibly use this issue to overwrite arbitrary files.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8229-2
+
+---
+
+#### 1601. [Ubuntu] USN-8342-1: Vim vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Vim did not properly handle backticks in tag filenames. An attacker could possibly use this issue to execute arbitrary commands.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8342-1
+
+---
+
+#### 1602. [Ubuntu] USN-8343-1: multipart vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that multipart had an ambiguous regular expression alternation when handling certain HTTP header values. A remote attacker could possibly use this issue to cause multipart to use excessive resources, leading to a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8343-1
+
+---
+
+#### 1603. [Ubuntu] USN-8340-1: LibreOffice vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Duc Anh Nguyen discovered that LibreOffice incorrectly handled mismatched encryption salt parameters in crafted OOXML documents. An attacker could use this issue to cause LibreOffice to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8340-1
+
+---
+
+#### 1604. [Ubuntu] USN-8338-1: Apache HTTP Server vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Apache HTTP Server incorrectly handled certain response headers. An attacker could possibly use this issue to perform HTTP response splitting attacks. This issue only affected Ubuntu 14.04 LTS. (CVE-2023-38709) Will Dormann and David Warren discovered that Apache HTTP Server's HTTP/2 implementation did not properly reclaim memory when streams were reset by clients. A remote
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8338-1
+
+---
+
+#### 1605. [Ubuntu] USN-8337-1: QtSvg vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that QtSvg incorrectly handled certain SVG images. An attacker could possibly use this issue to cause QtSvg to crash, resulting in a denial of service. This issue only affected Ubuntu 16.04 LTS. (CVE-2018-19869) It was discovered that QtSvg incorrectly handled certain SVG images. An attacker could use this issue to cause QtSvg to crash, resulting in a denial of service, or possib
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8337-1
+
+---
+
+#### 1606. [Ubuntu] USN-8336-1: PHP vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Aleksey Solovev and Nikita Sveshnikov discovered that PHP improperly handled NUL bytes when preparing SQL queries in the PDO Firebird driver. An attacker could possibly use this issue to perform SQL injection attacks. (CVE-2025-14179) It was discovered that PHP incorrectly handled certain encoding names in mbstring. An attacker could possibly use this issue to obtain sensitive information or cause
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8336-1
 
 ---
