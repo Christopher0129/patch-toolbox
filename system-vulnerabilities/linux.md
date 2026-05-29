@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1461**
+**总计条目 / Total entries: 1508**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -28285,5 +28285,841 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8336-1
+
+---
+
+#### 1462. CVE-2026-10028 - glib-networking: Infinite loop in glib-networking GnuTLS backend allows remote…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] glib-networking: Infinite loop in glib-networking GnuTLS backend allows remote denial of service via circular certificate chain. Bugzilla: 2465152
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2465152
+
+---
+
+#### 1463. CVE-2026-41565 - perl-CryptX: perl-CryptX: Stack buffer overflow allows arbitrary code execution…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] perl-CryptX: perl-CryptX: Stack buffer overflow allows arbitrary code execution via a crafted authentication tag.. Bugzilla: 2482740
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482740
+
+---
+
+#### 1464. CVE-2026-9804 - kubevirt: kubevirt: VMExport directory symlink escape enables exporter pod file read
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kubevirt: kubevirt: VMExport directory symlink escape enables exporter pod file read. Bugzilla: 2482487
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482487
+
+---
+
+#### 1465. CVE-2026-44604 - rpm: Command injection in rpmuncompress doUntar() via unescaped archive top-level…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] rpm: Command injection in rpmuncompress doUntar() via unescaped archive top-level directory name in popen() shell command. Bugzilla: 2460967
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2460967
+
+---
+
+#### 1466. CVE-2026-9801 - keycloak: Keycloak: Denial of Service via malformed LDAP password policy response
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Denial of Service via malformed LDAP password policy response. Bugzilla: 2482473
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482473
+
+---
+
+#### 1467. CVE-2026-9802 - keycloak: Keycloak: Unauthorized account access via replayed refresh tokens after…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Unauthorized account access via replayed refresh tokens after cluster restart. Bugzilla: 2482467
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482467
+
+---
+
+#### 1468. CVE-2026-9803 - keycloak: Keycloak: Denial of Service via malformed Authorization header
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Denial of Service via malformed Authorization header. Bugzilla: 2482465
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482465
+
+---
+
+#### 1469. CVE-2026-9798 - keycloak: Keycloak: Brute-force protection bypass in CIBA flow
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Brute-force protection bypass in CIBA flow. Bugzilla: 2482470
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482470
+
+---
+
+#### 1470. CVE-2026-9796 - keycloak: Keycloak: Privilege escalation via Time-of-Check to Time-of-Use (TOCTOU)…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Privilege escalation via Time-of-Check to Time-of-Use (TOCTOU) vulnerability. Bugzilla: 2482464
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482464
+
+---
+
+#### 1471. CVE-2026-9795 - keycloak: Keycloak: Privilege escalation via improper scope mapping enforcement
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Privilege escalation via improper scope mapping enforcement. Bugzilla: 2482462
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482462
+
+---
+
+#### 1472. CVE-2026-9794 - keycloak: Keycloak: Information disclosure via SAML ECP endpoint
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Information disclosure via SAML ECP endpoint. Bugzilla: 2482461
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482461
+
+---
+
+#### 1473. CVE-2026-9793 - keycloak: Keycloak: Security policy bypass in JWE-encrypted request object…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Security policy bypass in JWE-encrypted request object processing. Bugzilla: 2482460
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482460
+
+---
+
+#### 1474. CVE-2026-9792 - keycloak: Keycloak: Security restriction bypass allows unauthorized ROPC token…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Security restriction bypass allows unauthorized ROPC token acquisition. Bugzilla: 2482459
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482459
+
+---
+
+#### 1475. CVE-2026-9791 - keycloak-rhel9: Organization Data Leak After Feature Disabled in Keycloak
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-rhel9: Organization Data Leak After Feature Disabled in Keycloak. Bugzilla: 2482458
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482458
+
+---
+
+#### 1476. CVE-2026-46190 - kernel: mtd: spi-nor: debugfs: fix out-of-bounds read in spi_nor_params_show()
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: mtd: spi-nor: debugfs: fix out-of-bounds read in spi_nor_params_show(). Bugzilla: 2482519
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482519
+
+---
+
+#### 1477. CVE-2026-46154 - kernel: sched_ext: Read scx_root under scx_cgroup_ops_rwsem in cgroup setters
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: sched_ext: Read scx_root under scx_cgroup_ops_rwsem in cgroup setters. Bugzilla: 2482520
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482520
+
+---
+
+#### 1478. CVE-2026-46187 - kernel: wifi: rsi: fix kthread lifetime race between self-exit and external-stop
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: wifi: rsi: fix kthread lifetime race between self-exit and external-stop. Bugzilla: 2482521
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482521
+
+---
+
+#### 1479. CVE-2026-46157 - kernel: ALSA: pcm: oss: Fix data race at accessing runtime.oss.trigger
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ALSA: pcm: oss: Fix data race at accessing runtime.oss.trigger. Bugzilla: 2482522
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482522
+
+---
+
+#### 1480. CVE-2026-46116 - kernel: xfrm: defensively unhash xfrm_state lists in __xfrm_state_delete
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfrm: defensively unhash xfrm_state lists in __xfrm_state_delete. Bugzilla: 2482523
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482523
+
+---
+
+#### 1481. CVE-2026-46148 - kernel: spi: microchip-core-qspi: control built-in cs manually
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: spi: microchip-core-qspi: control built-in cs manually. Bugzilla: 2482524
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482524
+
+---
+
+#### 1482. [Ubuntu] USN-8344-2: pip regression
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8344-1 fixed vulnerabilities in pip. On Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, and Ubuntu 26.04 LTS the patches for CVE-2025-66471 caused a regression when using pip. The patches for CVE-2025-66471 have been temporarily reverted pending investigation. We apologize for the inconvenience. Original advisory details: It was discovered that pip incorrectly handled TLS certificate verification in sessi
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8344-2
+
+---
+
+#### 1483. [Ubuntu] USN-8338-2: Apache HTTP Server regression
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8338-1 fixed vulnerabilities in Apache HTTP Server. The update introduced a regression that prevented mod_http2 from loading on Ubuntu 18.04 LTS. This update fixes the problem. We apologize for the inconvenience. Original advisory details: It was discovered that Apache HTTP Server incorrectly handled certain response headers. An attacker could possibly use this issue to perform HTTP response s
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8338-2
+
+---
+
+#### 1484. [Ubuntu] USN-8347-1: QT WebEngine vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the vendored LibTIFF in QT WebEngine incorrectly handled memory when parsing malformed TIFF image metadata. An attacker could possibly use this issue to cause a denial of service, obtain sensitive information, or execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8347-1
+
+---
+
+#### 1485. [Ubuntu] USN-8346-1: Texmaker vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the vendored LibTIFF in Texmaker incorrectly handled memory when parsing malformed TIFF image metadata. An attacker could possibly use this issue to cause a denial of service, obtain sensitive information, or execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8346-1
+
+---
+
+#### 1486. [Ubuntu] USN-8345-1: GDAL vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the vendored LibTIFF in GDAL incorrectly handled memory when parsing malformed TIFF image metadata. An attacker could possibly use this issue to cause a denial of service, obtain sensitive information, or execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8345-1
+
+---
+
+#### 1487. CVE-2001-0822
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: packet_knights:fpf_linux_kernel_module
+
+**漏洞描述 / Description**:
+FPF kernel module 1.0 allows a remote attacker to cause a denial of service via fragmented packets.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=99167206319643&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=99167206319643&w=2
+- http://www.pkcrew.org/news.php
+- http://www.securityfocus.com/bid/2816
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/6659
+- http://marc.info/?l=bugtraq&m=99167206319643&w=2
+
+---
+
+#### 1488. CVE-2001-1559
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: openbsd:openbsd
+
+**漏洞描述 / Description**:
+The uipc system calls (uipc_syscalls.c) in OpenBSD 2.9 and 3.0 provide user mode return instead of versus rval kernel mode values to the fdrelease function, which allows local users to cause a denial of service and trigger a null dereference.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2001-12/0014.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2001-12/0014.html
+- http://monkey.org/openbsd/archive/tech/0112/msg00015.html
+- http://www.iss.net/security_center/static/7690.php
+- http://archives.neohapsis.com/archives/bugtraq/2001-12/0014.html
+- http://monkey.org/openbsd/archive/tech/0112/msg00015.html
+
+---
+
+#### 1489. CVE-2002-0279
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: hp:hp-ux
+
+**漏洞描述 / Description**:
+The kernel in HP-UX 11.11 does not properly provide arguments for setrlimit, which could allow local attackers to cause a denial of service (kernel panic) and possibly gain privileges.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=101372194225046&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=101372194225046&w=2
+- http://www.iss.net/security_center/static/8195.php
+- http://www.kb.cert.org/vuls/id/726187
+- http://www.securityfocus.com/bid/4094
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A5469
+
+---
+
+#### 1490. CVE-2002-0766
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: openbsd:openbsd
+
+**漏洞描述 / Description**:
+OpenBSD 2.9 through 3.1 allows local users to cause a denial of service (resource exhaustion) and gain root privileges by filling the kernel's file descriptor table and closing file descriptors 0, 1, or 2 before executing a privileged process, which is not properly handled when OpenBSD fails to open an alternate descriptor.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://online.securityfocus.com/archive/1/271702.
+
+**参考链接 / References**:
+- http://online.securityfocus.com/archive/1/271702
+- http://www.iss.net/security_center/static/9048.php
+- http://www.kb.cert.org/vuls/id/314963
+- http://www.openbsd.org/errata.html#fdalloc2
+- http://www.osvdb.org/5114
+
+---
+
+#### 1491. CVE-2002-0820
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: freebsd:freebsd
+
+**漏洞描述 / Description**:
+FreeBSD kernel 4.6 and earlier closes the file descriptors 0, 1, and 2 after they have already been assigned to /dev/null when the descriptors reference procfs or linprocfs, which could allow local users to reuse the file descriptors in a setuid or setgid program to modify critical data and gain privileges.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:23.stdio.asc.
+
+**参考链接 / References**:
+- ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:23.stdio.asc
+- http://archives.neohapsis.com/archives/vulnwatch/2002-q3/0047.html
+- http://groups.google.com/groups?hl=en&lr=&ie=UTF-8&oe=UTF-8&frame=right&th=d429cd2ef1d3a2b7&seekm=ai6c0q%242289%241%40FreeBSD.csie.NCTU.edu.tw#link16
+- http://marc.info/?l=bugtraq&m=102979180524452&w=2
+- ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:23.stdio.asc
+
+---
+
+#### 1492. CVE-2002-0973
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: freebsd:freebsd
+
+**漏洞描述 / Description**:
+Integer signedness error in several system calls for FreeBSD 4.6.1 RELEASE-p10 and earlier may allow attackers to access sensitive kernel memory via large negative values to the (1) accept, (2) getsockname, and (3) getpeername system calls, and the (4) vesa FBIO_GETPALETTE ioctl.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=102976839728706&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=102976839728706&w=2
+- http://www.iss.net/security_center/static/9903.php
+- http://www.securityfocus.com/bid/5493
+- http://marc.info/?l=bugtraq&m=102976839728706&w=2
+- http://www.iss.net/security_center/static/9903.php
+
+---
+
+#### 1493. CVE-2002-1125
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: freebsd:freebsd
+
+**漏洞描述 / Description**:
+FreeBSD port programs that use libkvm for FreeBSD 4.6.2-RELEASE and earlier, including (1) asmon, (2) ascpu, (3) bubblemon, (4) wmmon, and (5) wmnet2, leave open file descriptors for /dev/mem and /dev/kmem, which allows local users to read kernel memory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:39.libkvm.asc.
+
+**参考链接 / References**:
+- ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:39.libkvm.asc
+- http://archives.neohapsis.com/archives/vulnwatch/2002-q3/0115.html
+- http://marc.info/?l=bugtraq&m=103228135413310&w=2
+- http://www.iss.net/security_center/static/10109.php
+- http://www.securityfocus.com/bid/5714
+
+---
+
+#### 1494. CVE-2002-1589
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: sun:sunos, sun:solaris
+
+**漏洞描述 / Description**:
+Unknown vulnerability in Solaris 8, when the 0x02 bit (aka TEST, KMF_DEADBEEF, or deadbeef) is set in the kmem_flags kernel parameter, allows local users to cause a denial of service (system panic).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://sunsolve.sun.com/search/document.do?assetkey=1-26-48067-1.
+
+**参考链接 / References**:
+- http://sunsolve.sun.com/search/document.do?assetkey=1-26-48067-1
+- http://www.securityfocus.com/bid/6080
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/10496
+- http://sunsolve.sun.com/search/document.do?assetkey=1-26-48067-1
+- http://www.securityfocus.com/bid/6080
+
+---
+
+#### 1495. CVE-2002-1296
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: sun:sunos, sun:solaris
+
+**漏洞描述 / Description**:
+Directory traversal vulnerability in priocntl system call in Solaris does allows local users to execute arbitrary code via ".." sequences in the pc_clname field of a pcinfo_t structure, which cause priocntl to load a malicious kernel module.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=103842619803173&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=103842619803173&w=2
+- http://sunsolve.Sun.COM/pub-cgi/retrieve.pl?doc=fsalert/49131
+- http://www.iss.net/security_center/static/10717.php
+- http://www.kb.cert.org/vuls/id/683673
+- http://www.securityfocus.com/bid/6262
+
+---
+
+#### 1496. CVE-2002-1912
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: skystream:emr5000
+
+**漏洞描述 / Description**:
+SkyStream EMR5000 1.16 through 1.18 does not drop packets or disable the Ethernet interface when the buffers are full, which allows remote attackers to cause a denial of service (null pointer exception and kernel panic) via a large number of packets.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.globalintersec.com/adv/skystream-2002021001.txt.
+
+**参考链接 / References**:
+- http://www.globalintersec.com/adv/skystream-2002021001.txt
+- http://www.iss.net/security_center/static/10380.php
+- http://www.securityfocus.com/archive/1/295516
+- http://www.securityfocus.com/bid/5977
+- http://www.globalintersec.com/adv/skystream-2002021001.txt
+
+---
+
+#### 1497. CVE-2002-2092
+
+**严重程度 / Severity**: N/A | CVSS: 3.7
+**受影响产品 / Affected Products**: openbsd:openbsd, freebsd:freebsd, netbsd:netbsd
+
+**漏洞描述 / Description**:
+Race condition in exec in OpenBSD 4.0 and earlier, NetBSD 1.5.2 and earlier, and FreeBSD 4.4 and earlier allows local users to gain privileges by attaching a debugger to a process before the kernel has determined that the process is setuid or setgid.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:08.exec.asc.
+
+**参考链接 / References**:
+- ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:08.exec.asc
+- ftp://ftp.netbsd.org/pub/NetBSD/security/advisories/NetBSD-SA2002-001.txt.asc
+- http://www.osvdb.org/19475
+- http://www.securityfocus.com/bid/3891
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/7945
+
+---
+
+#### 1498. CVE-2002-2111
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: gianni_tedesco:fwmon
+
+**漏洞描述 / Description**:
+Fwmon before 1.0.10 allows remote attackers to cause a denial of service (crash) by causing the kernel to return a large packet.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.scaramanga.co.uk/fwmon/fwmon-1.0.10.tar.gz.
+
+**参考链接 / References**:
+- http://www.scaramanga.co.uk/fwmon/fwmon-1.0.10.tar.gz
+- http://www.securityfocus.com/bid/3984
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/8104
+- http://www.scaramanga.co.uk/fwmon/fwmon-1.0.10.tar.gz
+- http://www.securityfocus.com/bid/3984
+
+---
+
+#### 1499. CVE-2002-2127
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: pedestal_software:integrity_protection_driver
+
+**漏洞描述 / Description**:
+Integrity Protection Driver (IPD) 1.2 and earlier blocks access to \Device\PhysicalMemory by its name, which could allow local privileged processes to overwrite kernel memory by accessing the device through a symlink.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/ntbugtraq/2002-q4/0087.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/ntbugtraq/2002-q4/0087.html
+- http://www.phrack.org/show.php?p=59&a=16
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/10747
+- http://archives.neohapsis.com/archives/ntbugtraq/2002-q4/0087.html
+- http://www.phrack.org/show.php?p=59&a=16
+
+---
+
+#### 1500. CVE-2002-2180
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+**受影响产品 / Affected Products**: openbsd:openbsd
+
+**漏洞描述 / Description**:
+The setitimer(2) system call in OpenBSD 2.0 through 3.1 does not properly check certain arguments, which allows local users to write to kernel memory and possibly gain root privileges, possibly via an integer signedness error.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor ftp://ftp.openbsd.org/pub/OpenBSD/patches/3.0/common/032_kerntime.patch.
+
+**参考链接 / References**:
+- ftp://ftp.openbsd.org/pub/OpenBSD/patches/3.0/common/032_kerntime.patch
+- http://www.iss.net/security_center/static/10278.php
+- http://www.openbsd.org/plus32.html
+- http://www.securityfocus.com/bid/5861
+- ftp://ftp.openbsd.org/pub/OpenBSD/patches/3.0/common/032_kerntime.patch
+
+---
+
+#### 1501. CVE-2003-0001
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: freebsd:freebsd, microsoft:windows_2000, netbsd:netbsd, linux:linux_kernel, microsoft:windows_2000_terminal_services
+
+**漏洞描述 / Description**:
+Multiple ethernet Network Interface Card (NIC) device drivers do not pad frames with null bytes, which allows remote attackers to obtain information from previous packets or kernel memory by using malformed packets, as demonstrated by Etherleak.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/vulnwatch/2003-q1/0016.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/vulnwatch/2003-q1/0016.html
+- http://marc.info/?l=bugtraq&m=104222046632243&w=2
+- http://secunia.com/advisories/7996
+- http://www.atstake.com/research/advisories/2003/a010603-1.txt
+- http://www.atstake.com/research/advisories/2003/atstake_etherleak_report.pdf
+
+---
+
+#### 1502. CVE-2002-1420
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: openbsd:openbsd
+
+**漏洞描述 / Description**:
+Integer signedness error in select() on OpenBSD 3.1 and earlier allows local users to overwrite arbitrary kernel memory via a negative value for the size parameter, which satisfies the boundary check as a signed integer, but is later used as an unsigned integer during a data copying operation.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=102918817012863&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=102918817012863&w=2
+- http://www.iss.net/security_center/static/9809.php
+- http://www.kb.cert.org/vuls/id/259787
+- http://www.osvdb.org/7554
+- http://www.securityfocus.com/bid/5442
+
+---
+
+#### 1503. CVE-2003-0112
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: microsoft:windows_xp, microsoft:windows_2000_terminal_services, microsoft:windows_2000, microsoft:windows_nt
+
+**漏洞描述 / Description**:
+Buffer overflow in Windows Kernel allows local users to gain privileges by causing certain error messages to be passed to a debugger.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.kb.cert.org/vuls/id/446338.
+
+**参考链接 / References**:
+- http://www.kb.cert.org/vuls/id/446338
+- http://www.securityfocus.com/bid/7370
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2003/ms03-013
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/11803
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A1264
+
+---
+
+#### 1504. CVE-2003-0465
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+The kernel strncpy function in Linux 2.4 and 2.5 does not %NUL pad the buffer on architectures other than x86, as opposed to the expected behavior of strncpy as implemented in libc, which could lead to information leaks.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=linux-kernel&m=105796021120436&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=linux-kernel&m=105796021120436&w=2
+- http://marc.info/?l=linux-kernel&m=105796415223490&w=2
+- http://www.redhat.com/support/errata/RHSA-2004-188.html
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A10285
+- http://marc.info/?l=linux-kernel&m=105796021120436&w=2
+
+---
+
+#### 1505. CVE-2003-0464
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: redhat:linux
+
+**漏洞描述 / Description**:
+The RPC code in Linux kernel 2.4 sets the reuse flag when sockets are created, which could allow local users to bind to UDP ports that are used by privileged services such as nfsd.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.redhat.com/support/errata/RHSA-2003-238.html.
+
+**参考链接 / References**:
+- http://www.redhat.com/support/errata/RHSA-2003-238.html
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A311
+- http://www.redhat.com/support/errata/RHSA-2003-238.html
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A311
+
+---
+
+#### 1506. CVE-2003-0467
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+Unknown vulnerability in ip_nat_sack_adjust of Netfilter in Linux kernels 2.4.20, and some 2.5.x, when CONFIG_IP_NF_NAT_FTP or CONFIG_IP_NF_NAT_IRC is enabled, or the ip_nat_ftp or ip_nat_irc modules are loaded, allows remote attackers to cause a denial of service (crash) in systems using NAT, possibly due to an integer signedness error.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=105985703724758&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=105985703724758&w=2
+- http://marc.info/?l=bugtraq&m=105985703724758&w=2
+
+---
+
+#### 1507. CVE-2003-0619
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+Integer signedness error in the decode_fh function of nfs3xdr.c in Linux kernel before 2.4.21 allows remote attackers to cause a denial of service (kernel panic) via a negative size value within XDR data of an NFSv3 procedure call.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=105950927708272&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=105950927708272&w=2
+- http://www.debian.org/security/2004/dsa-358
+- http://www.redhat.com/support/errata/RHSA-2003-198.html
+- http://www.redhat.com/support/errata/RHSA-2003-239.html
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A386
+
+---
+
+#### 1508. CVE-2003-0642
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: watchguard:serverlock
+
+**漏洞描述 / Description**:
+WatchGuard ServerLock for Windows 2000 before SL 2.0.4 allows local users to access kernel memory via a symlink attack on \Device\PhysicalMemory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=105848106631132&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=105848106631132&w=2
+- http://secunia.com/advisories/9310
+- http://www.securityfocus.com/bid/8223
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/12666
+- http://marc.info/?l=bugtraq&m=105848106631132&w=2
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1606**
+**总计条目 / Total entries: 1631**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -26578,5 +26578,305 @@ Aleksey Solovev and Nikita Sveshnikov discovered that PHP improperly handled NUL
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8336-1
+
+---
+
+#### 1607. CVE-2026-10028 - glib-networking: Infinite loop in glib-networking GnuTLS backend allows remote…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] glib-networking: Infinite loop in glib-networking GnuTLS backend allows remote denial of service via circular certificate chain. Bugzilla: 2465152
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2465152
+
+---
+
+#### 1608. CVE-2026-41565 - perl-CryptX: perl-CryptX: Stack buffer overflow allows arbitrary code execution…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] perl-CryptX: perl-CryptX: Stack buffer overflow allows arbitrary code execution via a crafted authentication tag.. Bugzilla: 2482740
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482740
+
+---
+
+#### 1609. CVE-2026-9804 - kubevirt: kubevirt: VMExport directory symlink escape enables exporter pod file read
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kubevirt: kubevirt: VMExport directory symlink escape enables exporter pod file read. Bugzilla: 2482487
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482487
+
+---
+
+#### 1610. CVE-2026-44604 - rpm: Command injection in rpmuncompress doUntar() via unescaped archive top-level…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] rpm: Command injection in rpmuncompress doUntar() via unescaped archive top-level directory name in popen() shell command. Bugzilla: 2460967
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2460967
+
+---
+
+#### 1611. CVE-2026-9801 - keycloak: Keycloak: Denial of Service via malformed LDAP password policy response
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Denial of Service via malformed LDAP password policy response. Bugzilla: 2482473
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482473
+
+---
+
+#### 1612. CVE-2026-9802 - keycloak: Keycloak: Unauthorized account access via replayed refresh tokens after…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Unauthorized account access via replayed refresh tokens after cluster restart. Bugzilla: 2482467
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482467
+
+---
+
+#### 1613. CVE-2026-9803 - keycloak: Keycloak: Denial of Service via malformed Authorization header
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Denial of Service via malformed Authorization header. Bugzilla: 2482465
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482465
+
+---
+
+#### 1614. CVE-2026-9798 - keycloak: Keycloak: Brute-force protection bypass in CIBA flow
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Brute-force protection bypass in CIBA flow. Bugzilla: 2482470
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482470
+
+---
+
+#### 1615. CVE-2026-9796 - keycloak: Keycloak: Privilege escalation via Time-of-Check to Time-of-Use (TOCTOU)…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Privilege escalation via Time-of-Check to Time-of-Use (TOCTOU) vulnerability. Bugzilla: 2482464
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482464
+
+---
+
+#### 1616. CVE-2026-9795 - keycloak: Keycloak: Privilege escalation via improper scope mapping enforcement
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Privilege escalation via improper scope mapping enforcement. Bugzilla: 2482462
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482462
+
+---
+
+#### 1617. CVE-2026-9794 - keycloak: Keycloak: Information disclosure via SAML ECP endpoint
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Information disclosure via SAML ECP endpoint. Bugzilla: 2482461
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482461
+
+---
+
+#### 1618. CVE-2026-9793 - keycloak: Keycloak: Security policy bypass in JWE-encrypted request object…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Security policy bypass in JWE-encrypted request object processing. Bugzilla: 2482460
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482460
+
+---
+
+#### 1619. CVE-2026-9792 - keycloak: Keycloak: Security restriction bypass allows unauthorized ROPC token…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Security restriction bypass allows unauthorized ROPC token acquisition. Bugzilla: 2482459
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482459
+
+---
+
+#### 1620. CVE-2026-9791 - keycloak-rhel9: Organization Data Leak After Feature Disabled in Keycloak
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-rhel9: Organization Data Leak After Feature Disabled in Keycloak. Bugzilla: 2482458
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482458
+
+---
+
+#### 1621. CVE-2026-46190 - kernel: mtd: spi-nor: debugfs: fix out-of-bounds read in spi_nor_params_show()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: mtd: spi-nor: debugfs: fix out-of-bounds read in spi_nor_params_show(). Bugzilla: 2482519
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482519
+
+---
+
+#### 1622. CVE-2026-46154 - kernel: sched_ext: Read scx_root under scx_cgroup_ops_rwsem in cgroup setters
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: sched_ext: Read scx_root under scx_cgroup_ops_rwsem in cgroup setters. Bugzilla: 2482520
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482520
+
+---
+
+#### 1623. CVE-2026-46187 - kernel: wifi: rsi: fix kthread lifetime race between self-exit and external-stop
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: wifi: rsi: fix kthread lifetime race between self-exit and external-stop. Bugzilla: 2482521
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482521
+
+---
+
+#### 1624. CVE-2026-46157 - kernel: ALSA: pcm: oss: Fix data race at accessing runtime.oss.trigger
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ALSA: pcm: oss: Fix data race at accessing runtime.oss.trigger. Bugzilla: 2482522
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482522
+
+---
+
+#### 1625. CVE-2026-46116 - kernel: xfrm: defensively unhash xfrm_state lists in __xfrm_state_delete
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfrm: defensively unhash xfrm_state lists in __xfrm_state_delete. Bugzilla: 2482523
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482523
+
+---
+
+#### 1626. CVE-2026-46148 - kernel: spi: microchip-core-qspi: control built-in cs manually
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: spi: microchip-core-qspi: control built-in cs manually. Bugzilla: 2482524
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2482524
+
+---
+
+#### 1627. [Ubuntu] USN-8344-2: pip regression
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8344-1 fixed vulnerabilities in pip. On Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, and Ubuntu 26.04 LTS the patches for CVE-2025-66471 caused a regression when using pip. The patches for CVE-2025-66471 have been temporarily reverted pending investigation. We apologize for the inconvenience. Original advisory details: It was discovered that pip incorrectly handled TLS certificate verification in sessi
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8344-2
+
+---
+
+#### 1628. [Ubuntu] USN-8338-2: Apache HTTP Server regression
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8338-1 fixed vulnerabilities in Apache HTTP Server. The update introduced a regression that prevented mod_http2 from loading on Ubuntu 18.04 LTS. This update fixes the problem. We apologize for the inconvenience. Original advisory details: It was discovered that Apache HTTP Server incorrectly handled certain response headers. An attacker could possibly use this issue to perform HTTP response s
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8338-2
+
+---
+
+#### 1629. [Ubuntu] USN-8347-1: QT WebEngine vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the vendored LibTIFF in QT WebEngine incorrectly handled memory when parsing malformed TIFF image metadata. An attacker could possibly use this issue to cause a denial of service, obtain sensitive information, or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8347-1
+
+---
+
+#### 1630. [Ubuntu] USN-8346-1: Texmaker vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the vendored LibTIFF in Texmaker incorrectly handled memory when parsing malformed TIFF image metadata. An attacker could possibly use this issue to cause a denial of service, obtain sensitive information, or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8346-1
+
+---
+
+#### 1631. [Ubuntu] USN-8345-1: GDAL vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the vendored LibTIFF in GDAL incorrectly handled memory when parsing malformed TIFF image metadata. An attacker could possibly use this issue to cause a denial of service, obtain sensitive information, or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8345-1
 
 ---

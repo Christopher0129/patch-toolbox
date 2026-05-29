@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 875**
+**总计条目 / Total entries: 890**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -12890,5 +12890,185 @@ Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52579
+
+---
+
+#### 876. [remote] Microsoft - NTLMv2 Hash Capture
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Microsoft - NTLMv2 Hash Capture
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52601
+
+---
+
+#### 877. [webapps] MikroORM   7.0.13 - SQL Injection
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] MikroORM 7.0.13 - SQL Injection
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52600
+
+---
+
+#### 878. [webapps] Prodigy Commerce 3.3.0 - Local File Inclusion
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Prodigy Commerce 3.3.0 - Local File Inclusion
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52598
+
+---
+
+#### 879. [webapps] Langflow 1.3.0 - Remote Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Langflow 1.3.0 - Remote Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52597
+
+---
+
+#### 880. [webapps] Quick Playground for WordPress 1.3.1 - Unauthenticated Remote Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Quick Playground for WordPress 1.3.1 - Unauthenticated Remote Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52596
+
+---
+
+#### 881. [local] ImageMagick - Infinite Loop in the MIFF decoder can lead to CPU exhaustion
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] ImageMagick - Infinite Loop in the MIFF decoder can lead to CPU exhaustion
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52595
+
+---
+
+#### 882. [local] ZTE Routers  - Unauthenticated Denial of Service
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] ZTE Routers - Unauthenticated Denial of Service
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52594
+
+---
+
+#### 883. [local] ZTE ZXHN H188A V6 - Authentication Bypass
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] ZTE ZXHN H188A V6 - Authentication Bypass
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52593
+
+---
+
+#### 884. [local] ZTE H298A / H108N - Unauthenticated Credential Exposure
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] ZTE H298A / H108N - Unauthenticated Credential Exposure
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52592
+
+---
+
+#### 885. [local] Linux Kernel -  Local Privilege Escalation
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Linux Kernel - Local Privilege Escalation
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52591
+
+---
+
+#### 886. [webapps] MixPHP Framework 2.2.17 - Unsafe Deserialization Remote Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] MixPHP Framework 2.2.17 - Unsafe Deserialization Remote Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52590
+
+---
+
+#### 887. [remote] Wing FTP Server 8.1.3 - Authenticated Remote Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Wing FTP Server 8.1.3 - Authenticated Remote Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52589
+
+---
+
+#### 888. [webapps] CubeCart < 6.7.0 - Reflected Cross-Site Scripting (XSS) (Unauthenticated)
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] CubeCart < 6.7.0 - Reflected Cross-Site Scripting (XSS) (Unauthenticated)
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52588
+
+---
+
+#### 889. [remote] strongSwan 5.9.13 - libsimaka EAP-SIM/AKA heap buffer overflow
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] strongSwan 5.9.13 - libsimaka EAP-SIM/AKA heap buffer overflow
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52587
+
+---
+
+#### 890. [dos] strongSwan 5.9.13 - DoS
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] strongSwan 5.9.13 - DoS
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52586
 
 ---
