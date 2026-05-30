@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1631**
+**总计条目 / Total entries: 1632**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -26878,5 +26878,17 @@ It was discovered that the vendored LibTIFF in GDAL incorrectly handled memory w
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8345-1
+
+---
+
+#### 1632. CVE-2026-10101 - assisted-service: assisted-service: InfraEnv status leaks referenced pull-secret…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] assisted-service: assisted-service: InfraEnv status leaks referenced pull-secret contents to namespace view users. Bugzilla: 2483298
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483298
 
 ---

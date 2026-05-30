@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 890**
+**总计条目 / Total entries: 894**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -13070,5 +13070,53 @@ Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52586
+
+---
+
+#### 891. [remote] Notepad++ 8.9.6 - Arbitrary Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Notepad++ 8.9.6 - Arbitrary Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52606
+
+---
+
+#### 892. [webapps] YAMCS yamcs-core  5.12.7 - No Rate Limiting
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] YAMCS yamcs-core 5.12.7 - No Rate Limiting
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52605
+
+---
+
+#### 893. [webapps] YAMCS yamcs-core  5.12.7 - User Enumeration
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] YAMCS yamcs-core 5.12.7 - User Enumeration
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52604
+
+---
+
+#### 894. [webapps] YAMCS yamcs-core  5.12.7 - LDAP Injection
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] YAMCS yamcs-core 5.12.7 - LDAP Injection
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52603
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1508**
+**总计条目 / Total entries: 1509**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -29121,5 +29121,21 @@ Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=105848106631132&w
 - http://www.securityfocus.com/bid/8223
 - https://exchange.xforce.ibmcloud.com/vulnerabilities/12666
 - http://marc.info/?l=bugtraq&m=105848106631132&w=2
+
+---
+
+#### 1509. CVE-2026-10101 - assisted-service: assisted-service: InfraEnv status leaks referenced pull-secret…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] assisted-service: assisted-service: InfraEnv status leaks referenced pull-secret contents to namespace view users. Bugzilla: 2483298
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483298
 
 ---
