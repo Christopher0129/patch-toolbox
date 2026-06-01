@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1509**
+**总计条目 / Total entries: 1520**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -29137,5 +29137,181 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2483298
+
+---
+
+#### 1510. [Ubuntu] USN-8361-1: Linux kernel vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+A security issue was discovered in the Linux kernel. An attacker could possibly use this to compromise the system. This update corrects flaws in the following subsystem: - Packet sockets; (CVE-2026-31504)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8361-1
+
+---
+
+#### 1511. [Ubuntu] USN-8209-2: Little CMS vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8209-1 fixed vulnerabilities in Little CMS. This update contains the fixes for Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, and Ubuntu 20.04 LTS. Original advisory details: It was discovered that Little CMS incorrectly handled certain malformed ICC profiles. An attacker could use this issue to cause Little CMS to crash, resulting in a denial of service, or possibly execute arbitrary c
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8209-2
+
+---
+
+#### 1512. [Ubuntu] USN-8360-1: sslh vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that sslh did not properly handle symbolic links when writing its PID file. A local attacker could possibly use this issue to overwrite arbitrary files.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8360-1
+
+---
+
+#### 1513. [Ubuntu] USN-8359-1: NNCP vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that NNCP did not properly sanitize file paths in packet data during file requesting and file saving operations. A remote attacker could possibly use this issue to read or write arbitrary files outside of the intended directory.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8359-1
+
+---
+
+#### 1514. [Ubuntu] USN-8358-1: haveged vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that haveged incorrectly handled credential checks on its control socket. A local attacker could possibly use this issue to execute privileged commands.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8358-1
+
+---
+
+#### 1515. [Ubuntu] USN-8055-2: Evolution Data Server vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8055-1 fixed a vulnerability in Evolution Data Server. This update provides the corresponding update for Ubuntu 18.04 LTS and Ubuntu 20.04 LTS. Original advisory details: It was discovered that Evolution Data Server incorrectly handled removing local cache files. An attacker could possibly use this issue to cause Evolution Data Server to remove arbitrary files.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8055-2
+
+---
+
+#### 1516. [Ubuntu] USN-8357-1: Qt Declarative vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Qt Declarative did not properly validate the width and height attributes of image tags in the Text component of Qt Quick. An attacker could possibly use this issue to cause Qt Declarative to use excessive resources, leading to a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8357-1
+
+---
+
+#### 1517. [Ubuntu] USN-8356-1: GNU SASL vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that GNU SASL did not properly handle certain DIGEST-MD5 tokens. An attacker could possibly use this issue to cause GNU SASL to crash, resulting in a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8356-1
+
+---
+
+#### 1518. [Ubuntu] USN-8355-1: SSSD vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that SSSD did not properly handle raw bytes in the PAM passkey responder. A local attacker could possibly use this issue to cause the SSSD PAM responder to crash, resulting in a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8355-1
+
+---
+
+#### 1519. [Ubuntu] USN-8354-1: nginx vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that nginx did not properly validate source addresses in the HTTP/3 QUIC module. A remote attacker could possibly use this issue to bypass authorization checks or rate limiting. This issue only affected Ubuntu 25.04 and Ubuntu 25.10. (CVE-2026-40460) It was discovered that nginx contained a use-after-free vulnerability in the ngx_http_ssl_module module when client certificate ver
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8354-1
+
+---
+
+#### 1520. [SUSE] SUSE-SU-2026:2176-1: important: Security update for the Linux Kernel
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: SUSE Linux Enterprise
+
+**漏洞描述 / Description**:
+# Security update for the Linux Kernel (Live Patch 2 for SUSE Linux Enterprise 15 SP7) Announcement ID: SUSE-SU-2026:2176-1 Release Date: 2026-05-31T19:36:24Z Rating: important References: * bsc#1259798 * bsc#1260563 * bsc#1260908 * bsc#1264096 * bsc#1265224 * bsc#1265384 Cross-References: * CVE-2025-54518 * CVE-2026-23243 * CVE-2026-23274 * CVE-2026-23317 * CVE-2026-46300 * CVE-2026-46333 CVSS sc
+
+**补丁信息 / Patch Info**:
+Apply SUSE security patch via zypper or YaST Online Update.
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-June.txt
 
 ---

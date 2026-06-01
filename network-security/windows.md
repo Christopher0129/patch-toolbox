@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 894**
+**总计条目 / Total entries: 896**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -13118,5 +13118,29 @@ Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52603
+
+---
+
+#### 895. [webapps] Drupal Core 10.5.5 - Error-Based SQL Injection
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Drupal Core 10.5.5 - Error-Based SQL Injection
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52608
+
+---
+
+#### 896. [webapps] WordPress OrderConvo 14 - Path Traversal
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] WordPress OrderConvo 14 - Path Traversal
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52607
 
 ---
