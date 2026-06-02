@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1690**
+**总计条目 / Total entries: 1708**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -27770,5 +27770,221 @@ Warisjeet Singh discovered that Exim with SUPPORT_PROXY enabled did not properly
 
 **参考链接 / References**:
 - https://lists.suse.com/pipermail/sle-security-updates/2026-June.txt
+
+---
+
+#### 1691. CVE-2026-1784 - ose-cluster-ingress-operator: Remote Code Execution Through HAProxy Configuration…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] ose-cluster-ingress-operator: Remote Code Execution Through HAProxy Configuration Injection. Bugzilla: 2436075
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2436075
+
+---
+
+#### 1692. CVE-2024-52011 - launch-editor: vite: launch-editor: Arbitrary command execution via insufficient…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] launch-editor: vite: launch-editor: Arbitrary command execution via insufficient file argument sanitization. Bugzilla: 2483853
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483853
+
+---
+
+#### 1693. CVE-2026-43958 - rrdtool: rrdtool: Stack buffer overflow allows local code execution or denial of…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] rrdtool: rrdtool: Stack buffer overflow allows local code execution or denial of service. Bugzilla: 2460932
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2460932
+
+---
+
+#### 1694. CVE-2026-10118 - poppler: Integer overflow in Poppler SplashOutputDev::tilingPatternFill leads to…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] poppler: Integer overflow in Poppler SplashOutputDev::tilingPatternFill leads to heap buffer overflow via unchecked dimension multiplication. Bugzilla: 2460428
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2460428
+
+---
+
+#### 1695. CVE-2026-10230 - assimp: Assimp: Local heap-based buffer overflow in Half-Life 1 MDL Loader
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] assimp: Assimp: Local heap-based buffer overflow in Half-Life 1 MDL Loader. Bugzilla: 2483759
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483759
+
+---
+
+#### 1696. CVE-2026-10201 - assimp: Assimp: Denial of Service via divide-by-zero in FBXExporter
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] assimp: Assimp: Denial of Service via divide-by-zero in FBXExporter. Bugzilla: 2483758
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483758
+
+---
+
+#### 1697. CVE-2026-10200 - assimp: Assimp: Heap-based buffer overflow in glTFCommon::CopyValue function
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] assimp: Assimp: Heap-based buffer overflow in glTFCommon::CopyValue function. Bugzilla: 2483757
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483757
+
+---
+
+#### 1698. CVE-2026-46242 - kernel: eventpoll: fix ep_remove struct eventpoll / struct file UAF
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: eventpoll: fix ep_remove struct eventpoll / struct file UAF. Bugzilla: 2483519
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483519
+
+---
+
+#### 1699. CVE-2026-46344 - liboqs: liboqs: Denial of Service due to out-of-bounds read in XMSS/XMSS^MT…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] liboqs: liboqs: Denial of Service due to out-of-bounds read in XMSS/XMSS^MT signature verification. Bugzilla: 2483418
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483418
+
+---
+
+#### 1700. CVE-2026-44518 - liboqs: liboqs: Denial of Service due to out-of-bounds read in XMSS/XMSS^MT…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] liboqs: liboqs: Denial of Service due to out-of-bounds read in XMSS/XMSS^MT signature verification. Bugzilla: 2483392
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483392
+
+---
+
+#### 1701. [Ubuntu] USN-8282-2: Unbound vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8282-1 fixed vulnerabilities in Unbound. This update provides the corresponding updates for CVE-2026-41292 in Ubuntu 18.04 LTS and Ubuntu 20.04 LTS and CVE-2026-42959, CVE-2026-42960 in Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, and Ubuntu 20.04 LTS. Original advisory details: Andrew Griffiths discovered that Unbound did not properly handle certain DNSCrypt packets. A remote attacke
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8282-2
+
+---
+
+#### 1702. [Ubuntu] USN-8374-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel algif_aead module did not properly handle in-place cryptographic operations. This flaw is known as Copy Fail. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-31431) It was discovered that the Linux kernel did not properly handle shared page fragments during socket buffer operations, collectively known as Dirt
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8374-1
+
+---
+
+#### 1703. [Ubuntu] USN-8373-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel did not properly handle shared page fragments during socket buffer operations, collectively known as Dirty Frag. A logic flaw existed in the XFRM ESP-in-TCP subsystem and in the RxRPC networking subsystem when processing paged fragments. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-43284, CVE-2026-43500, C
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8373-1
+
+---
+
+#### 1704. [Ubuntu] USN-8372-1: age vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that age did not properly validate plugin names. An attacker could possibly use this issue to cause execution of an arbitrary program by supplying a crafted recipient or identity string.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8372-1
+
+---
+
+#### 1705. [Ubuntu] USN-8238-2: EditorConfig vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8238-1 fixed a vulnerability in EditorConfig. This update contains the corresponding fix for Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, and Ubuntu 22.04 LTS. Original advisory details: It was discovered that EditorConfig incorrectly handled specially crafted configuration files. A local attacker could possibly use this issue to cause EditorConfig to crash, resulting in a denial of s
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8238-2
+
+---
+
+#### 1706. [Ubuntu] USN-8369-1: Apache Tomcat Connectors vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Apache Tomcat Connectors used incorrect default permissions for shared memory on Unix-like systems. A local attacker could possibly use this issue to view or modify mod_jk configuration data in shared memory, resulting in sensitive information exposure or a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8369-1
+
+---
+
+#### 1707. [Ubuntu] USN-8368-1: libeconf vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libeconf did not properly check the size of input when copying data to a buffer. An attacker could possibly use this issue to cause libeconf to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8368-1
+
+---
+
+#### 1708. [Ubuntu] USN-8367-1: tar-fs vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that tar-fs did not properly limit paths when extracting crafted tar files. An attacker could possibly use this issue to write or overwrite files outside the intended extraction directory. This issue only affected Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. (CVE-2024-12905) It was discovered that tar-fs did not properly validate extraction paths for certain crafted tar archives. An at
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8367-1
 
 ---

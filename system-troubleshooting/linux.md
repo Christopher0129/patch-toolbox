@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3970**
+**总计条目 / Total entries: 4074**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -59392,5 +59392,1357 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1216987#reply1
+
+---
+
+#### 3971. Failed to Lchown: for UID 304185, GID 89939 (Hint: try increasing the number of subordinate IDs in /etc/subuid and /etc/subgid)
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, docker, non-root-user | Score: 3 | Views: 141 | Answers: 1 | Created: 2026-06-01
+
+**解决方案 / Solution**:
+The image you are pulling includes files with very large UID or GID which cannot be mapped back to host. Assuming the lines you showed are from /etc/subuid (please, always include the command used to produce the output), these lines allow UIDs up to 141134 inside the container, while your container has a file with UID 304185. If this is expected, the only solution is to increase the range of available sub-UIDs (and if necessary sub-GIDs). But most likely it is a bug in image generation. See the post about similar problem that shows how to check for UIDs/GIDs used inside the image. To clarify - /etc/subuid defines the available UID range(s) on the host . In the container there is the linear UID range starting from 0 . The container UID 1234 in your case will be mapped to the host UID 91172 ( 89938 + 1234 ). The container UID 10063 will be mapped to the host UID 241135 ( 231072 + 10063 ) because it exceeds the first range. But you have the container UID 304185 that cannot be mapped. See also Understanding user namespaces with rootless containers .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806261/failed-to-lchown-for-uid-304185-gid-89939-hint-try-increasing-the-number-of
+
+---
+
+#### 3972. You Don't Love systemd Timers Enough
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tuu7w0/you_dont_love_systemd_timers_enough/
+
+---
+
+#### 3973. I just realized that homebrew works on linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tuzrsk/i_just_realized_that_homebrew_works_on_linux/
+
+---
+
+#### 3974. Red Hat npm Packages Compromised to Spread a Credential-Stealing Worm
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tun9c1/red_hat_npm_packages_compromised_to_spread_a/
+
+---
+
+#### 3975. The Linux Kernel Ready To Make TSC A Hard Requirement For x86 CPUs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1turf79/the_linux_kernel_ready_to_make_tsc_a_hard/
+
+---
+
+#### 3976. Flatpak Next | Adrian Vovk & Sebastian Wick @ LAS 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tuwmae/flatpak_next_adrian_vovk_sebastian_wick_las_2026/
+
+---
+
+#### 3977. ASUS ZenVision Laptop Lid Screen Reverse Engineered & Now Able To Work On Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1turd3w/asus_zenvision_laptop_lid_screen_reverse/
+
+---
+
+#### 3978. X.Org Security Advisory released for 9 new vulnerabilities in X.Org X server and Xwayland
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tujx7g/xorg_security_advisory_released_for_9_new/
+
+---
+
+#### 3979. EX-11: Prepping for Plasma’s Last X11-Supported Release
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tus1r3/ex11_prepping_for_plasmas_last_x11supported/
+
+---
+
+#### 3980. DskDitto v0.5.3 Release
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tutmwr/dskditto_v053_release/
+
+---
+
+#### 3981. word-sys's PDF Editor v1.9.2 Released with AppImage and Binary Release!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tunfyg/wordsyss_pdf_editor_v192_released_with_appimage/
+
+---
+
+#### 3982. Interview with GNOME and KDE on the Future of Linux Apps
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tuekjl/interview_with_gnome_and_kde_on_the_future_of/
+
+---
+
+#### 3983. p9wl: A 9P wayland compositor
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tudbl9/p9wl_a_9p_wayland_compositor/
+
+---
+
+#### 3984. Built PulseBook, a low-latency C++20 trading engine using DPDK Ring PMD, fixed-size Ethernet protocols, L2 order book, imbalance strategy, and inline risk checks.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tv37cj/built_pulsebook_a_lowlatency_c20_trading_engine/
+
+---
+
+#### 3985. [ANN] Qsynth 1.0.6 - A Mid-Spring'26 Release
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tujcmh/ann_qsynth_106_a_midspring26_release/
+
+---
+
+#### 3986. Razer Keyboard Hypershift Fix for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tufyvx/razer_keyboard_hypershift_fix_for_linux/
+
+---
+
+#### 3987. [ANN] QSampler 1.0.2 - A Mid-Spring'26 Release
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tux20z/ann_qsampler_102_a_midspring26_release/
+
+---
+
+#### 3988. Maybe i will go into linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tv48rk/maybe_i_will_go_into_linux/
+
+---
+
+#### 3989. LlamaStash 0.0.2 — a Rust TUI + CLI for managing local llama.cpp servers, Linux/macOS/Windows (ratatui, tokio, hyper, custom GGUF parser, ~176 .rs files)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tuqude/llamastash_002_a_rust_tui_cli_for_managing_local/
+
+---
+
+#### 3990. Are ARM laptops actually bad for Linux and Open Source?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tuke6l/are_arm_laptops_actually_bad_for_linux_and_open/
+
+---
+
+#### 3991. Any tips for a newbie?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tv4ibm/any_tips_for_a_newbie/
+
+---
+
+#### 3992. unable to connect to wifi on kde neon
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tv1e7d/unable_to_connect_to_wifi_on_kde_neon/
+
+---
+
+#### 3993. Partition of a partition?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tv18td/partition_of_a_partition/
+
+---
+
+#### 3994. Will I ever be able to install Linux on my laptop?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tutssc/will_i_ever_be_able_to_install_linux_on_my_laptop/
+
+---
+
+#### 3995. Kernel panic during time shift restore
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tv5cks/kernel_panic_during_time_shift_restore/
+
+---
+
+#### 3996. Multiple mice and input devices for 1 device
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tv43gz/multiple_mice_and_input_devices_for_1_device/
+
+---
+
+#### 3997. Offline desktop Linux speech to text software? Don't mind paying.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tv3q3q/offline_desktop_linux_speech_to_text_software/
+
+---
+
+#### 3998. Switching from Windows to Linux & HDD to SSD at the same time
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tuwl59/switching_from_windows_to_linux_hdd_to_ssd_at_the/
+
+---
+
+#### 3999. How to use rsync to get the most recent .crt and .key files from a directory?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tv342n/how_to_use_rsync_to_get_the_most_recent_crt_and/
+
+---
+
+#### 4000. How to use drm with OpenGLES2 with drm?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tv26ct/how_to_use_drm_with_opengles2_with_drm/
+
+---
+
+#### 4001. Thrustmaster TPR Pedals Not Detected in Proton Games (DCS/IL-2) – Linux Mint 22.3
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tuydxv/thrustmaster_tpr_pedals_not_detected_in_proton/
+
+---
+
+#### 4002. Linux installation problem
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tuwcr4/linux_installation_problem/
+
+---
+
+#### 4003. Windows 11/Ubuntu Dual Boot Installation issue
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tuw2ac/windows_11ubuntu_dual_boot_installation_issue/
+
+---
+
+#### 4004. Free note-taking app that syncs via my existing cloud storage
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tunrkx/free_notetaking_app_that_syncs_via_my_existing/
+
+---
+
+#### 4005. Hyprland/wayland in a VM...I need a guide.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tumvig/hyprlandwayland_in_a_vmi_need_a_guide/
+
+---
+
+#### 4006. Black screen on boot with Celeron N4020C (Intel UHD 600) - tried everything, need help
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1turtvl/black_screen_on_boot_with_celeron_n4020c_intel/
+
+---
+
+#### 4007. Looking for a Linux distro for long term use.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1turkz9/looking_for_a_linux_distro_for_long_term_use/
+
+---
+
+#### 4008. Unable to install custom kernel
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tulwfc/unable_to_install_custom_kernel/
+
+---
+
+#### 4009. Looking for a guide on how to set Clip studio paint!
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tul40l/looking_for_a_guide_on_how_to_set_clip_studio/
+
+---
+
+#### 4010. genuinely who uses nyarch linux...
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tuowfh/genuinely_who_uses_nyarch_linux/
+
+---
+
+#### 4011. Archinstall - disk configuration only showing USB and not my HHD
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tuny93/archinstall_disk_configuration_only_showing_usb/
+
+---
+
+#### 4012. Kernel Panic/Firmware Timeout on Vivobook X1502VA with MT7902e — Looking for stable driver alternatives
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tunxpc/kernel_panicfirmware_timeout_on_vivobook_x1502va/
+
+---
+
+#### 4013. Alternative to Pop! OS
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tunwul/alternative_to_pop_os/
+
+---
+
+#### 4014. Yayyy i installed ubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tuk6sr/yayyy_i_installed_ubuntu/
+
+---
+
+#### 4015. Ubuntu 26.04 is the OS for the AI agentic era, says Canonical's Mark Shuttleworth - here's why
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tuysv5/ubuntu_2604_is_the_os_for_the_ai_agentic_era_says/
+
+---
+
+#### 4016. Ubuntu 26.04 stuck, help!!!!
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tv12ms/ubuntu_2604_stuck_help/
+
+---
+
+#### 4017. New desktop
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tutj81/new_desktop/
+
+---
+
+#### 4018. Multiple mice and input devices for 1 device
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tv42y4/multiple_mice_and_input_devices_for_1_device/
+
+---
+
+#### 4019. Looking for a no-nonsense Ubuntu VPS - what's everyone using?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tv2k10/looking_for_a_nononsense_ubuntu_vps_whats/
+
+---
+
+#### 4020. What am I supposed to do?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tuykaa/what_am_i_supposed_to_do/
+
+---
+
+#### 4021. Started using hyperland with ubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tuq84a/started_using_hyperland_with_ubuntu/
+
+---
+
+#### 4022. Linux vs Windows Benchmark Cyberpunk 2077 RT 2026
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tuvxwn/linux_vs_windows_benchmark_cyberpunk_2077_rt_2026/
+
+---
+
+#### 4023. Could use some help with Ubuntu 26.04 LTS "Resolute Raccoon"
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tuvoiu/could_use_some_help_with_ubuntu_2604_lts_resolute/
+
+---
+
+#### 4024. AMD RX 580 crashes system in very specific circumstances
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tv46v6/amd_rx_580_crashes_system_in_very_specific/
+
+---
+
+#### 4025. Repeated OOM events in Ubuntu Server VM on Hyper-V dynamic memory (even with swap available)
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tuykse/repeated_oom_events_in_ubuntu_server_vm_on_hyperv/
+
+---
+
+#### 4026. New Laptop and New Ubuntu Budgie install - weird login forces a reboot
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tuyesh/new_laptop_and_new_ubuntu_budgie_install_weird/
+
+---
+
+#### 4027. Is it possible to install ubuntu straight to a hard drive without a usb?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tuy9bm/is_it_possible_to_install_ubuntu_straight_to_a/
+
+---
+
+#### 4028. I want to virtualize but I'm having trouble picking which virtualization to go with.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tuqtke/i_want_to_virtualize_but_im_having_trouble/
+
+---
+
+#### 4029. Could use some help with Ubuntu 26.04 LTS "Resolute Raccoon"
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tuvowq/could_use_some_help_with_ubuntu_2604_lts_resolute/
+
+---
+
+#### 4030. Zoom not opening in 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tuk2bg/zoom_not_opening_in_2604/
+
+---
+
+#### 4031. Does GRUB still appear if Ubuntu is the only OS installed?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tutdk4/does_grub_still_appear_if_ubuntu_is_the_only_os/
+
+---
+
+#### 4032. Unable to install custom kernel
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tulw76/unable_to_install_custom_kernel/
+
+---
+
+#### 4033. Ubuntu on Omen
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tujd9o/ubuntu_on_omen/
+
+---
+
+#### 4034. having audio problem on my pc
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tup0dp/having_audio_problem_on_my_pc/
+
+---
+
+#### 4035. I'm reusing an SSD from my broken laptop for my PC build and want to go from win10 to Linux, will there be any issues?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tv1ah4/im_reusing_an_ssd_from_my_broken_laptop_for_my_pc/
+
+---
+
+#### 4036. Audio on linux for my laptop is terrible compared to windows, tried everything I could, (Details in body)
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tv0cnj/audio_on_linux_for_my_laptop_is_terrible_compared/
+
+---
+
+#### 4037. little Linux-tool that shows disk- , Processor- and RAM-usage on my Desktop? (CachyOS)
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tuwcjg/little_linuxtool_that_shows_disk_processor_and/
+
+---
+
+#### 4038. Pc crashes when disconnecting microphone.
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tuzr1x/pc_crashes_when_disconnecting_microphone/
+
+---
+
+#### 4039. USB wifi adapter recommendations
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tul5u3/usb_wifi_adapter_recommendations/
+
+---
+
+#### 4040. Thrustmaster TPR Pedals Not Detected in Proton Games (DCS/IL-2) – Linux Mint 22.3
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tuyf8v/thrustmaster_tpr_pedals_not_detected_in_proton/
+
+---
+
+#### 4041. Kernel Panic/Firmware Timeout on Vivobook X1502VA with MT7902e — Looking for stable driver alternatives
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tunnpc/kernel_panicfirmware_timeout_on_vivobook_x1502va/
+
+---
+
+#### 4042. Love the QBZ player, playing local files
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tug8n0/love_the_qbz_player_playing_local_files/
+
+---
+
+#### 4043. How do you guys protect againt rm -rf?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tv4bdg/how_do_you_guys_protect_againt_rm_rf/
+
+---
+
+#### 4044. Keyboard layout for Spanish & Portuguese
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tumlh7/keyboard_layout_for_spanish_portuguese/
+
+---
+
+#### 4045. Which AMD Drivers?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tu88rj/which_amd_drivers/
+
+---
+
+#### 4046. [How To] PulseAudio to Pipewire in Zorin 17.3 or Ubuntu 22.04 in 2026 - And update it too
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tujp8p/how_to_pulseaudio_to_pipewire_in_zorin_173_or/
+
+---
+
+#### 4047. So i got Fedora after realizing core OS was something else and after copying syncing setting up apps and data i just left necessary data in the windows C: drive( DUAL BOOT W/MINT FOR NOW 0
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tuivzf/so_i_got_fedora_after_realizing_core_os_was/
+
+---
+
+#### 4048. Installing rpms on atomic distros
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tuc9vc/installing_rpms_on_atomic_distros/
+
+---
+
+#### 4049. Swapping cause i feel like it. Need help with preparing
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tu8z15/swapping_cause_i_feel_like_it_need_help_with/
+
+---
+
+#### 4050. Getting Spout2PW working in VRC (VR Chat)
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tu8cq6/getting_spout2pw_working_in_vrc_vr_chat/
+
+---
+
+#### 4051. mojify - one CLI to play video as ascii in your terminal (with sound) and export it to mp4
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1tuyyyw/mojify_one_cli_to_play_video_as_ascii_in_your/
+
+---
+
+#### 4052. t-rush, CLI tool that turns TODO comments into a list of tasks
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1tujka1/trush_cli_tool_that_turns_todo_comments_into_a/
+
+---
+
+#### 4053. I made a TUI that aggregates search results from 11 package registries to find prior art for code ideas.
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1tuhgi2/i_made_a_tui_that_aggregates_search_results_from/
+
+---
+
+#### 4054. finch-cli — tailor your resume to a job posting from your terminal (textual TUI + cli)
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1tue4gq/finchcli_tailor_your_resume_to_a_job_posting_from/
+
+---
+
+#### 4055. [V2EX] Codex 还是 Cluade cowork 选择
+
+**问题描述 / Problem Description**:
+各位我主要是用 AI 做两件事, 主要是 computer use 和辅助开发软件以及爬取数据请问这 2 个如何选择. 第一件继续放弃了 10 年的外贸行业, 实现 Wordpress 快速优启用和优化官网. 同时建立快速工作流, 比如媒体素材生成- 批量自动发布以及 ads 投放 会参考一些开源的系统, 比如 invoice 系统/简单的 CRM 系统来建立自己的自动寻客并纳入 CRM 系统- 自动回复- 自动跟进的工作流. 第二件事尝试利用 AI 协助我来股市/crypto. 目前已经部署了 qtrade/freqtrade, 正在寻找离交易所最近的主机, 尽量做到尽可能的低延迟, 还在慢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1217449#reply1
+
+---
+
+#### 4056. [V2EX] 100 行运行你自己的 Claude Code
+
+**问题描述 / Problem Description**:
+公司不给用 Pi ，我又苦于 Claude Code 的可观测性太差，尝试自己学习写一个 Coding Agent 。 读了一下 OpenAI 的 API 文档，发现写一个最基本的，只支持命令行单次输入输出的 claude -p 还挺简单的。因为目标主要是学习，所以完全没有用 AI ，手写了两百行不到的代码，它就可以 work 了。 写完就开始有意思了。一是我不想学 tui 怎么写，二是出于好奇和 dogfood ， 于是我就让刚写好的极简版 coding agent 自己写自己 bun start -p "implement interative mode for this project"
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1217444#reply2
+
+---
+
+#### 4057. [V2EX] 有人在看 Microsoft Build 2026 大会吗？
+
+**问题描述 / Problem Description**:
+https://news.microsoft.com/build-2026-live-blog/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1217441#reply15
+
+---
+
+#### 4058. [V2EX] GPT 完胜 Claude
+
+**问题描述 / Problem Description**:
+🚀根据 DeepSWE (最佳编码基准)排名： gpt-5.5 xhigh 完胜 opus-4.8 max 所以，聪明的你，选 Codex 还是 Claude code ?🙂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1217427#reply11
+
+---
+
+#### 4059. [V2EX] [实时数字人开源项目] 重磅更新！实时数字人支持视频克隆模式！
+
+**问题描述 / Problem Description**:
+V 站大佬们！我们的实时数字人 OpenTalking 支持视频克隆模式啦！ 同时支持调整面部动作幅度，能玩出来很抽象的东西哈哈哈~ 麻烦走过路过感兴趣的可以支持我们，在 Github 点个 Star! ！！！ 你们的支持是我们一直保持免费和开源的力量！ Github 传送: https://github.com/datascale-ai/opentalking 视频演示: https://www.bilibili.com/video/BV1d6VB6iE15/?vd_source=4820076c616e58ceb357c528a571ff11 欢迎大家体验！多多提意见！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1217406#reply2
+
+---
+
+#### 4060. [V2EX] minimax 无敌了
+
+**问题描述 / Problem Description**:
+先是没有公告的情况下直接出了一个新的计费方案, 以前没有周限额的老用户都被增加了周限额限制。 然后在群里发了一个飞书表单的退款通道。 一些人退款后, 又修改计费规则, 恢复老用户无周限额套餐的权利。 于是 minimax 在一顿操作下, 清退了一部分没有周限额的老用户，既保障了算力，又表现出很重视老用户的样子。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1217381#reply6
+
+---
+
+#### 4061. [V2EX] 花云节点访问 v2 又 403 了吗
+
+**问题描述 / Problem Description**:
+大家的花云正常吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1217379#reply21
+
+---
+
+#### 4062. [V2EX] 有人知道为什么这种 Cursor 无限续杯工具可以这么便宜
+
+**问题描述 / Problem Description**:
+https://cc.yougoaigc.com/index.html
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1217375#reply6
+
+---
+
+#### 4063. [V2EX] 遇到了一个 sub2api 中给 OpenAI 账号授权时卡在加载界面的问题及解决
+
+**问题描述 / Problem Description**:
+先说结论 ，是 VS Code 转发了 1455 端口导致的 现象 sub2api 授权 OpenAI/Codex 账号时 应该出现的是 ，浏览器跳到： http://localhost:1455/auth/callback?code=... 但实际出现的是 ，页面一直 loading ，sub2api 没有导入成功 拓扑 实际牵扯到了 3 台设备，本机电脑、一台服务器，另一台搭了 sub2api 的服务器 本机： 192.168.1.2 sub2api 服务： 192.168.1.3 VS Code Remote-SSH 当前连接： 192.168.1.4 VS Code 里转发了本机端口：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1217374#reply1
+
+---
+
+#### 4064. [V2EX] 有没可能自动 Vibe 一份"上线文档"吗？
+
+**问题描述 / Problem Description**:
+AI 读取 git 改动内容已经肯定能实现了。 再加上我们给设定的一些上线流程上可能需要注意的点或者规则。 是不是 AI 就能在分支上进行生成出一份基于公司标准的上线流程文档。 包括上线步骤、上线对接人、上线注意事项等。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1217367#reply1
+
+---
+
+#### 4065. [V2EX] MiMo Token Plan 老用户专属福利（订阅过期用户）
+
+**问题描述 / Problem Description**:
+xhs 上发的，之前的账号确实已经到账了： “老朋友，还记得你用 MiMo Token Plan 跑代码、做项目的日子吗？ 这次，我们为你准备了一份诚意满满的回归礼： 如果你是在 5 月 27 日 0 点前过期的付费 Token Plan 用户，可免费获得相同 Token Plan ，无需续费、无需操作，直接到账。 如果你在 5 月 27 日 0 点后续费了 Token Plan ，我们会赠送你等额 Token Plan 续费金额的礼金，你可以直接抵扣 API 消耗费用。 上述 Token Plan 或礼金有效期均为一个自然月。 回来看看，惊喜不止一点点 😏”
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1217359#reply10
+
+---
+
+#### 4066. [V2EX] 刚写了套桌面应用的代码
+
+**问题描述 / Problem Description**:
+https://github.com/bnpysse/erth_assistant ，请大家品鉴。😄 ERTH Assistant 🪐 License Version Architecture ERTH Assistant 是一款拥有“极客灵魂”的跨平台桌面应用。它脱胎于《全栈极客开发图鉴》（ The Full-Stack Geek's Guide ），展示了如何通过异构双核架构与前端零 JS 约束，打造一个极速、安全的下一代个人信息管理（ PIM ）与 AI 代理中枢。 ✨ 核心亮点 (Core Features) ⚡️ 异构双核架构：前端基于 ElectroBun 极速渲染，后端基于 Py
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1217344#reply0
+
+---
+
+#### 4067. [V2EX] [分享] Memory Sidecar v3.1.0 — 给任意 AI 智能体加装长期记忆
+
+**问题描述 / Problem Description**:
+AI 智能体有个硬伤：记不住你。每次新对话都是白纸一张。你上周讨论过的项目背景、写过的代码逻辑、提过的个人偏好，它全忘了。这不是你的问题，是所有对话式 AI 的天生缺陷。 Memory Sidecar v3.1.0 就是为了解决这个。它是一个外挂记忆系统，跑在你的智能体（ Hermes 、Claude Code 、Cursor 、Codex ，什么都行）旁边，不碰核心代码，独立进程、共享目录。装完你的智能体就有了三层记忆：热层（当前会话 context ）→ 温层（ PostgreSQL 事实图谱，50ms 级召回）→ 冷层（知识图谱 + 十万条消息的全文搜索）。 说人话就是：它帮你智能体记住
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1217342#reply5
+
+---
+
+#### 4068. [V2EX] codex 账号今天要二次手机号验证
+
+**问题描述 / Problem Description**:
+土区开通的 PLUS ，今天被踢出，重新登录后需要收验证码，之前填的虚拟手机号，这号是不是废了 大佬们有什么稳定的方式吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1217339#reply31
+
+---
+
+#### 4069. [V2EX] 问个关于 vibe coding 的问题
+
+**问题描述 / Problem Description**:
+我目前正在做旧项目按功能维度迁移至 Vibe Coding 项目，已提前约定技术规范、架构约束等要求。 现有翻新执行流程： 借助 AI 梳理总结老项目单个核心功能点 基于总结结果罗列全部功能点 根据功能点制定迁移翻新 TODO LIST 依照 TODO LIST 落地迁移改造 目前有两个比较大的问题 AI 梳理内容存在选择性遗漏 AI 梳理、改造时容易漏掉配置化代码、第三方接口请求等隐性逻辑。 新架构规范与老旧代码冲突，AI 改造丢失原有功能 既定分层规范：拆分数据层与业务逻辑层，逻辑层禁止直接引入 RPC 、配置组件，仅依赖数据层；配置解析、原始数据处理全部收拢至数据层。 但老项目历史代码不
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1217323#reply24
+
+---
+
+#### 4070. [V2EX] 有没有比 whisper large v3 更准更强的
+
+**问题描述 / Problem Description**:
+我平时用来输出词级字幕，最近测试了 qwen 的 asr 感觉准确率和时间戳都不是很准啊。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1217320#reply12
+
+---
+
+#### 4071. [V2EX] 国产模型选哪个来编码？
+
+**问题描述 / Problem Description**:
+现在 gpt 都搞双重验证了，越来越难搞了，想用国产模型了？大佬们有推荐的吗？现在国产模型大概到什么水平？听朋友推荐 kimi 说是 gpt 是 1 的话 kimi 就是 0.8
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1217318#reply21
+
+---
+
+#### 4072. [V2EX] 没什么人说 qorder 限免吗最近。
+
+**问题描述 / Problem Description**:
+可以免费使用 qwen3.7 max
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1217298#reply2
+
+---
+
+#### 4073. [V2EX] Codex free/20 美金 team ，周额度都变成了月额度，糟了😭
+
+**问题描述 / Problem Description**:
+codex Codex free/20 美金 team ，周额度都变成了月额度，糟了。😭 触发时间 12:46
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1217297#reply10
+
+---
+
+#### 4074. [V2EX] 谷歌市场内部测试求帮忙
+
+**问题描述 / Problem Description**:
+我是个人 Android 开发者，正在开发和发布一款名为 ChatImage 的图片生成与图片创作工具应用。这个应用使用 Kotlin 和 Jetpack Compose 构建，主要功能是让用户输入提示词并生成图片，也支持参考图片、历史记录和保存生成结果。 我之前有 Android 应用开发经验，熟悉 Android Studio 、Gradle 、Kotlin 、Compose 、网络请求、图片处理和应用签名打包流程。这是我为个人项目创建的 Google Play 开发者账号，计划通过 Play 管理中心发布、测试和维护 ChatImage ，并根据 Google Play 政策完善隐私政策
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1217272#reply2
 
 ---
