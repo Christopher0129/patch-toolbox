@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1538**
+**总计条目 / Total entries: 1576**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -29601,5 +29601,830 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8367-1
+
+---
+
+#### 1539. CVE-2026-50031 - freeipmi: FreeIPMI: Denial of service via buffer overflow in ipmi-oem client
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] freeipmi: FreeIPMI: Denial of service via buffer overflow in ipmi-oem client. Bugzilla: 2484296
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484296
+
+---
+
+#### 1540. CVE-2026-28946 - webkitgtk: Processing maliciously crafted web content may lead to an unexpected…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash. Bugzilla: 2471790
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2471790
+
+---
+
+#### 1541. CVE-2026-28847 - webkitgtk: Processing maliciously crafted web content may lead to an unexpected…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash. Bugzilla: 2483955
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483955
+
+---
+
+#### 1542. CVE-2026-28883 - webkitgtk: Processing maliciously crafted web content may lead to an unexpected…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash. Bugzilla: 2483956
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483956
+
+---
+
+#### 1543. CVE-2026-28901 - webkitgtk: Processing maliciously crafted web content may lead to an unexpected…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash. Bugzilla: 2483957
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483957
+
+---
+
+#### 1544. CVE-2026-28902 - webkitgtk: Processing maliciously crafted web content may lead to an unexpected…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash. Bugzilla: 2483958
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483958
+
+---
+
+#### 1545. CVE-2026-28903 - webkitgtk: Processing maliciously crafted web content may lead to an unexpected…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash. Bugzilla: 2483959
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483959
+
+---
+
+#### 1546. CVE-2026-28904 - webkitgtk: Processing maliciously crafted web content may lead to an unexpected…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash. Bugzilla: 2483960
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483960
+
+---
+
+#### 1547. CVE-2026-28905 - webkitgtk: Processing maliciously crafted web content may lead to an unexpected…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash. Bugzilla: 2483961
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483961
+
+---
+
+#### 1548. CVE-2026-28907 - webkitgtk: Processing maliciously crafted web content may prevent Content Security…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Processing maliciously crafted web content may prevent Content Security Policy from being enforced. Bugzilla: 2483962
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483962
+
+---
+
+#### 1549. CVE-2026-28942 - webkitgtk: Processing maliciously crafted web content may lead to an unexpected…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash. Bugzilla: 2483963
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483963
+
+---
+
+#### 1550. CVE-2026-28947 - webkitgtk: Processing maliciously crafted web content may lead to an unexpected…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash. Bugzilla: 2483964
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483964
+
+---
+
+#### 1551. CVE-2026-28953 - webkitgtk: Processing maliciously crafted web content may lead to an unexpected…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash. Bugzilla: 2483965
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483965
+
+---
+
+#### 1552. CVE-2026-28955 - webkitgtk: Processing maliciously crafted web content may lead to an unexpected…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash. Bugzilla: 2483966
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483966
+
+---
+
+#### 1553. CVE-2026-28958 - webkitgtk: An app may be able to access sensitive user data
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: An app may be able to access sensitive user data. Bugzilla: 2483967
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483967
+
+---
+
+#### 1554. CVE-2026-43658 - webkitgtk: Processing maliciously crafted web content may lead to an unexpected…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash. Bugzilla: 2483968
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483968
+
+---
+
+#### 1555. CVE-2026-43660 - webkitgtk: Processing maliciously crafted web content may prevent Content Security…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Processing maliciously crafted web content may prevent Content Security Policy from being enforced. Bugzilla: 2483969
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483969
+
+---
+
+#### 1556. [Ubuntu] USN-8344-3: pip vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8344-1 introduced a regression in pip. This update provides a complete fix for this issue.. We apologize for the inconvenience. Original advisory details: It was discovered that pip's bundled urllib3 library improperly handled streaming decompression of highly compressed data. A remote attacker could possibly use this issue to cause pip to consume excessive resources, leading to a denial of se
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8344-3
+
+---
+
+#### 1557. [Ubuntu] USN-8363-2: MySQL vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8363-1 fixed several vulnerabilities in MySQL. This update provides the corresponding fixes for MySQL on Ubuntu 20.04 LTS. Original advisory details: Multiple security issues were discovered in MySQL and this update includes new upstream MySQL versions to fix these issues. MySQL has been updated to 8.0.46 in Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. Ubuntu 25.10 and Ubuntu 26.04 LTS have been upd
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8363-2
+
+---
+
+#### 1558. [Ubuntu] USN-8375-1: nginx vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the nginx ngx_mail_smtp_module module incorrectly handled certain memory operations when doing SMTP authentication. This could possibly result in sensitive information being sent to the authentication server. (CVE-2025-53859) It was discovered that nginx incorrectly handled proxying to upstream TLS servers. An attacker could possibly use this issue to insert plain text data
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8375-1
+
+---
+
+#### 1559. [Ubuntu] USN-8348-1: GoBGP vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that GoBGP incorrectly handled certain specially crafted BGP UPDATE messages. A remote attacker could possibly use this issue to cause GoBGP to crash, resulting in a denial of service. (CVE-2026-37461) Yanlei Wang discovered that GoBGP incorrectly handled certain malformed BGP UPDATE messages containing 4-byte AS attributes. A remote attacker could possibly use this issue to caus
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8348-1
+
+---
+
+#### 1560. CVE-2026-45840
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+openvswitch: cap upcall PID array size and pre-size vport replies
+
+The vport netlink reply helpers allocate a fixed-size skb with
+nlmsg_new(NLMSG_DEFAULT_SIZE, ...) but serialize the full upcall PID
+array via ovs_vport_get_upcall_portids().  Since
+ovs_vport_set_upcall_portids() accepts any non-zero multiple of
+sizeof(u32) with no upper bound, a CAP_NET_ADMIN user can install a PID
+array large enough to overflow the reply buffer, causing nla_put() to
+fail with -EMSGSIZE and hitting BUG_ON(err < 0).  On systems with
+unprivileged user namespaces enabled (e.g., Ubuntu default), this is
+reachable via unshare -Urn since OVS vport mutation operations use
+GENL_UNS_ADMIN_PERM.
+
+ kernel BUG at net/openvswitch/datapath.c:2414!
+ Oops: invalid opcode: 0000 [#1] SMP KASAN NOPTI
+ CPU: 1 UID: 0 PID: 65 Comm: poc Not tainted 7.0.0-rc7-00195-geb216e422044 #1
+ RIP: 0010:ovs_vport_cmd_set+0x34c/0x400
+ Call Trace:
+  <TASK>
+  genl_family_rcv_msg_doit (net/netlink/genetlink.c:1116)
+  genl_rcv_msg (net/netlink/genetlink.c:1194)
+  netlink_rcv_skb (net/netlink/af_netlink.c:2550)
+  genl_rcv (net/netlink/genetlink.c:1219)
+  netlink_unicast (net/netlink/af_netlink.c:1344)
+  netlink_sendmsg (net/netlink/af_netlink.c:1894)
+  __sys_sendto (net/socket.c:2206)
+  __x64_sys_sendto (net/socket.c:2209)
+  do_syscall_64 (arch/x86/entry/syscall_64.c:63)
+  entry_SYSCALL_64_after_hwframe (arch/x86/entry/entry_64.S:130)
+  </TASK>
+ Kernel panic - not syncing: Fatal exception
+
+Reject attempts to set more PIDs than nr_cpu_ids in
+ovs_vport_set_upcall_portids(), and pre-compute the worst-case reply
+size in ovs_vport_cmd_msg_size() based on that bound, similar to the
+existing ovs_dp_cmd_msg_size().  nr_cpu_ids matches the cap already
+used by the per-CPU dispatch configuration on the datapath side
+(ovs_dp_cmd_fill_info() serialises at most nr_cpu_ids PIDs), so the
+two sides stay consistent.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/1d6c02b86329883aa467a3a61f8d34369db73a2f.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/1d6c02b86329883aa467a3a61f8d34369db73a2f
+- https://git.kernel.org/stable/c/2091c6aa0df6aba47deb5c8ab232b1cb60af3519
+- https://git.kernel.org/stable/c/8d59b80e69dddb665eb2de36e62859ab2073470e
+- https://git.kernel.org/stable/c/b39f763d720d623218bc1d95ace6855d7b474e81
+- https://git.kernel.org/stable/c/d9e47e29aacb9f8a9d59feb6ab5b128a9bbb40b0
+
+---
+
+#### 1561. CVE-2026-45898
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+RDMA/iwcm: Fix workqueue list corruption by removing work_list
+
+The commit e1168f0 ("RDMA/iwcm: Simplify cm_event_handler()")
+changed the work submission logic to unconditionally call
+queue_work() with the expectation that queue_work() would
+have no effect if work was already pending. The problem is
+that a free list of struct iwcm_work is used (for which
+struct work_struct is embedded), so each call to queue_work()
+is basically unique and therefore does indeed queue the work.
+
+This causes a problem in the work handler which walks the work_list
+until it's empty to process entries. This means that a single
+run of the work handler could process item N+1 and release it
+back to the free list while the actual workqueue entry is still
+queued. It could then get reused (INIT_WORK...) and lead to
+list corruption in the workqueue logic.
+
+Fix this by just removing the work_list. The workqueue already
+does this for us.
+
+This fixes the following error that was observed when stress
+testing with ucmatose on an Intel E830 in iWARP mode:
+
+[  151.465780] list_del corruption. next->prev should be ffff9f0915c69c08, but was ffff9f0a1116be08. (next=ffff9f0a15b11c08)
+[  151.466639] ------------[ cut here ]------------
+[  151.466986] kernel BUG at lib/list_debug.c:67!
+[  151.467349] Oops: invalid opcode: 0000 [#1] SMP NOPTI
+[  151.467753] CPU: 14 UID: 0 PID: 2306 Comm: kworker/u64:18 Not tainted 6.19.0-rc4+ #1 PREEMPT(voluntary)
+[  151.468466] Hardware name: QEMU Ubuntu 24.04 PC (i440FX + PIIX, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+[  151.469192] Workqueue:  0x0 (iw_cm_wq)
+[  151.469478] RIP: 0010:__list_del_entry_valid_or_report+0xf0/0x100
+[  151.469942] Code: c7 58 5f 4c b2 e8 10 50 aa ff 0f 0b 48 89 ef e8 36 57 cb ff 48 8b 55 08 48 89 e9 48 89 de 48 c7 c7 a8 5f 4c b2 e8 f0 4f aa ff <0f> 0b 66 2e 0f 1f 84 00 00 00 00 00 0f 1f 40 00 90 90 90 90 90 90
+[  151.471323] RSP: 0000:ffffb15644e7bd68 EFLAGS: 00010046
+[  151.471712] RAX: 000000000000006d RBX: ffff9f0915c69c08 RCX: 0000000000000027
+[  151.472243] RDX: 0000000000000000 RSI: 0000000000000000 RDI: ffff9f0a37d9c600
+[  151.472768] RBP: ffff9f0a15b11c08 R08: 0000000000000000 R09: c0000000ffff7fff
+[  151.473294] R10: 0000000000000001 R11: ffffb15644e7bba8 R12: ffff9f092339ee68
+[  151.473817] R13: ffff9f0900059c28 R14: ffff9f092339ee78 R15: 0000000000000000
+[  151.474344] FS:  0000000000000000(0000) GS:ffff9f0a847b5000(0000) knlGS:0000000000000000
+[  151.474934] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[  151.475362] CR2: 0000559e233a9088 CR3: 000000020296b004 CR4: 0000000000770ef0
+[  151.475895] PKRU: 55555554
+[  151.476118] Call Trace:
+[  151.476331]  <TASK>
+[  151.476497]  move_linked_works+0x49/0xa0
+[  151.476792]  __pwq_activate_work.isra.46+0x2f/0xa0
+[  151.477151]  pwq_dec_nr_in_flight+0x1e0/0x2f0
+[  151.477479]  process_scheduled_works+0x1c8/0x410
+[  151.477823]  worker_thread+0x125/0x260
+[  151.478108]  ? __pfx_worker_thread+0x10/0x10
+[  151.478430]  kthread+0xfe/0x240
+[  151.478671]  ? __pfx_kthread+0x10/0x10
+[  151.478955]  ? __pfx_kthread+0x10/0x10
+[  151.479240]  ret_from_fork+0x208/0x270
+[  151.479523]  ? __pfx_kthread+0x10/0x10
+[  151.479806]  ret_from_fork_asm+0x1a/0x30
+[  151.480103]  </TASK>
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/38c5b49fffa1b760959af74f11806eeb3ef4706d.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/38c5b49fffa1b760959af74f11806eeb3ef4706d
+- https://git.kernel.org/stable/c/7874eeacfa42177565c01d5198726671acf7adf2
+- https://git.kernel.org/stable/c/a6b9e793e74e372daa266fd0d58b751305877897
+- https://git.kernel.org/stable/c/eb715133e0ae12514bba4d2d5ce1dee774476056
+
+---
+
+#### 1562. CVE-2026-45965
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+apparmor: fix invalid deref of rawdata when export_binary is unset
+
+If the export_binary parameter is disabled on runtime, profiles that
+were loaded before that will still have their rawdata stored in
+apparmorfs, with a symbolic link to the rawdata on the policy
+directory. When one of those profiles are replaced, the rawdata is set
+to NULL, but when trying to resolve the symbolic links to rawdata for
+that profile, it will try to dereference profile->rawdata->name when
+profile->rawdata is now NULL causing an oops. Fix it by checking if
+rawdata is set.
+
+[  168.653080] BUG: kernel NULL pointer dereference, address: 0000000000000088
+[  168.657420] #PF: supervisor read access in kernel mode
+[  168.660619] #PF: error_code(0x0000) - not-present page
+[  168.663613] PGD 0 P4D 0
+[  168.665450] Oops: Oops: 0000 [#1] SMP NOPTI
+[  168.667836] CPU: 1 UID: 0 PID: 1729 Comm: ls Not tainted 6.19.0-rc7+ #3 PREEMPT(voluntary)
+[  168.672308] Hardware name: QEMU Ubuntu 24.04 PC (i440FX + PIIX, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+[  168.679327] RIP: 0010:rawdata_get_link_base.isra.0+0x23/0x330
+[  168.682768] Code: 90 90 90 90 90 90 90 0f 1f 44 00 00 55 48 89 e5 41 57 41 56 41 55 41 54 53 48 83 ec 18 48 89 55 d0 48 85 ff 0f 84 e3 01 00 00 <48> 83 3c 25 88 00 00 00 00 0f 84 d4 01 00 00 49 89 f6 49 89 cc e8
+[  168.689818] RSP: 0018:ffffcdcb8200fb80 EFLAGS: 00010282
+[  168.690871] RAX: ffffffffaee74ec0 RBX: 0000000000000000 RCX: ffffffffb0120158
+[  168.692251] RDX: ffffcdcb8200fbe0 RSI: ffff88c187c9fa80 RDI: ffff88c186c98a80
+[  168.693593] RBP: ffffcdcb8200fbc0 R08: 0000000000000000 R09: 0000000000000000
+[  168.694941] R10: 0000000000000000 R11: 0000000000000000 R12: ffff88c186c98a80
+[  168.696289] R13: 00007fff005aaa20 R14: 0000000000000080 R15: ffff88c188f4fce0
+[  168.697637] FS:  0000790e81c58280(0000) GS:ffff88c20a957000(0000) knlGS:0000000000000000
+[  168.699227] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[  168.700349] CR2: 0000000000000088 CR3: 000000012fd3e000 CR4: 0000000000350ef0
+[  168.701696] Call Trace:
+[  168.702325]  <TASK>
+[  168.702995]  rawdata_get_link_data+0x1c/0x30
+[  168.704145]  vfs_readlink+0xd4/0x160
+[  168.705152]  do_readlinkat+0x114/0x180
+[  168.706214]  __x64_sys_readlink+0x1e/0x30
+[  168.708653]  x64_sys_call+0x1d77/0x26b0
+[  168.709525]  do_syscall_64+0x81/0x500
+[  168.710348]  ? do_statx+0x72/0xb0
+[  168.711109]  ? putname+0x3e/0x80
+[  168.711845]  ? __x64_sys_statx+0xb7/0x100
+[  168.712711]  ? x64_sys_call+0x10fc/0x26b0
+[  168.713577]  ? do_syscall_64+0xbf/0x500
+[  168.714412]  ? do_user_addr_fault+0x1d2/0x8d0
+[  168.715404]  ? irqentry_exit+0xb2/0x740
+[  168.716359]  ? exc_page_fault+0x90/0x1b0
+[  168.717307]  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/1432ab0774cba43e8111be39989ff226531a9bac.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/1432ab0774cba43e8111be39989ff226531a9bac
+- https://git.kernel.org/stable/c/19f2e4055626a58842ddec3282ad4465a80c6625
+- https://git.kernel.org/stable/c/1d2b2b58fde9059a488bc25399e6c3d74e9b5548
+- https://git.kernel.org/stable/c/3c36b87fc2a4cf88eadea8cf13923bd2b4f9a3fa
+- https://git.kernel.org/stable/c/6d8c180c825cbc73eeffaa79591f8e142dacae70
+
+---
+
+#### 1563. CVE-2026-46055
+
+**严重程度 / Severity**: HIGH | CVSS: 7.1
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+apparmor: Fix string overrun due to missing termination
+
+When booting Ubuntu 26.04 with Linux 7.0-rc4 on an ARM64 Qualcomm
+Snapdragon X1 we see a string buffer overrun:
+
+BUG: KASAN: slab-out-of-bounds in aa_dfa_match (security/apparmor/match.c:535)
+Read of size 1 at addr ffff0008901cc000 by task snap-update-ns/2120
+
+CPU: 5 UID: 60578 PID: 2120 Comm: snap-update-ns Not tainted 7.0.0-rc4+ #22 PREEMPTLAZY
+Hardware name: LENOVO 83ED/LNVNB161216, BIOS NHCN60WW 09/11/2025
+Call trace:
+show_stack (arch/arm64/kernel/stacktrace.c:501) (C)
+dump_stack_lvl (lib/dump_stack.c:122)
+print_report (mm/kasan/report.c:379 mm/kasan/report.c:482)
+kasan_report (mm/kasan/report.c:597)
+__asan_report_load1_noabort (mm/kasan/report_generic.c:378)
+aa_dfa_match (security/apparmor/match.c:535)
+match_mnt_path_str (security/apparmor/mount.c:244 security/apparmor/mount.c:336)
+match_mnt (security/apparmor/mount.c:371)
+aa_bind_mount (security/apparmor/mount.c:447 (discriminator 4))
+apparmor_sb_mount (security/apparmor/lsm.c:719 (discriminator 1))
+security_sb_mount (security/security.c:1062 (discriminator 31))
+path_mount (fs/namespace.c:4101)
+__arm64_sys_mount (fs/namespace.c:4172 fs/namespace.c:4361 fs/namespace.c:4338 fs/namespace.c:4338)
+invoke_syscall.constprop.0 (arch/arm64/kernel/syscall.c:35 arch/arm64/kernel/syscall.c:49)
+el0_svc_common.constprop.0 (./include/linux/thread_info.h:142 (discriminator 2) arch/arm64/kernel/syscall.c:140 (discriminator 2))
+do_el0_svc (arch/arm64/kernel/syscall.c:152)
+el0_svc (arch/arm64/kernel/entry-common.c:80 arch/arm64/kernel/entry-common.c:725)
+el0t_64_sync_handler (arch/arm64/kernel/entry-common.c:744)
+el0t_64_sync (arch/arm64/kernel/entry.S:596)
+
+Allocated by task 2120:
+kasan_save_stack (mm/kasan/common.c:58)
+kasan_save_track (./arch/arm64/include/asm/current.h:19 mm/kasan/common.c:70 mm/kasan/common.c:79)
+kasan_save_alloc_info (mm/kasan/generic.c:571)
+__kasan_kmalloc (mm/kasan/common.c:419)
+__kmalloc_noprof (./include/linux/kasan.h:263 mm/slub.c:5260 mm/slub.c:5272)
+aa_get_buffer (security/apparmor/lsm.c:2201)
+aa_bind_mount (security/apparmor/mount.c:442)
+apparmor_sb_mount (security/apparmor/lsm.c:719 (discriminator 1))
+security_sb_mount (security/security.c:1062 (discriminator 31))
+path_mount (fs/namespace.c:4101)
+__arm64_sys_mount (fs/namespace.c:4172 fs/namespace.c:4361 fs/namespace.c:4338 fs/namespace.c:4338)
+invoke_syscall.constprop.0 (arch/arm64/kernel/syscall.c:35 arch/arm64/kernel/syscall.c:49)
+el0_svc_common.constprop.0 (./include/linux/thread_info.h:142 (discriminator 2) arch/arm64/kernel/syscall.c:140 (discriminator 2))
+do_el0_svc (arch/arm64/kernel/syscall.c:152)
+el0_svc (arch/arm64/kernel/entry-common.c:80 arch/arm64/kernel/entry-common.c:725)
+el0t_64_sync_handler (arch/arm64/kernel/entry-common.c:744)
+el0t_64_sync (arch/arm64/kernel/entry.S:596)
+
+The buggy address belongs to the object at ffff0008901ca000
+which belongs to the cache kmalloc-rnd-06-8k of size 8192
+The buggy address is located 0 bytes to the right of
+allocated 8192-byte region [ffff0008901ca000, ffff0008901cc000)
+
+The buggy address belongs to the physical page:
+page: refcount:0 mapcount:0 mapping:0000000000000000 index:0x0 pfn:0x9101c8
+head: order:3 mapcount:0 entire_mapcount:0 nr_pages_mapped:-1 pincount:0
+flags: 0x8000000000000040(head|zone=2)
+page_type: f5(slab)
+raw: 8000000000000040 ffff000800016c40 fffffdffe2d14e10 ffff000800015c70
+raw: 0000000000000000 0000000800010001 00000000f5000000 0000000000000000
+head: 8000000000000040 ffff000800016c40 fffffdffe2d14e10 ffff000800015c70
+head: 0000000000000000 0000000800010001 00000000f5000000 0000000000000000
+head: 8000000000000003 fffffdffe2407201 fffffdffffffffff 00000000ffffffff
+head: ffffffffffffffff 0000000000000000 00000000ffffffff 0000000000000008
+page dumped because: kasan: bad access detected
+
+Memory state around the buggy address:
+ffff0008901cbf00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ffff0008
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/4b877ef27adc8ec187b0418629169856e7264e01.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/4b877ef27adc8ec187b0418629169856e7264e01
+- https://git.kernel.org/stable/c/828bf7929bedcb79b560b5b4e44f22abee07d31b
+
+---
+
+#### 1564. CVE-2026-47269
+
+**严重程度 / Severity**: HIGH | CVSS: 7.4
+
+**漏洞描述 / Description**:
+pam_usb provides hardware authentication for Linux using ordinary removable media. Prior to 0.9.0,  pam_usb's deny_remote feature checks utmpx ut_addr_v6 to detect whether an authentication request originates from a remote session. The outer guard was if (utent->ut_addr_v6[0] != 0), which only tests the first 32-bit word of the 128-bit address field. IPv4-mapped IPv6 addresses (::ffff:x.x.x.x) store the IPv4 address in ut_addr_v6[3] with ut_addr_v6[0] == 0. On systems where the SSH daemon listens on :: (IPv6 wildcard) with AddressFamily any -- common on Ubuntu and Debian -- incoming IPv4 connections are recorded in utmpx as IPv4-mapped IPv6 addresses. The outer check evaluates to false, the remote-detection block is skipped entirely, and the session is treated as local. deny_remote=true does not block the authentication. An attacker with physical access to a registered USB device can authenticate over SSH on an affected system as if they were sitting at a local terminal, bypassing the deny_remote restriction. This vulnerability is fixed in 0.9.0.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/mcdope/pam_usb/commit/804fe24eae3d742d8be05fd015e36abc3c7d94e5.
+
+**参考链接 / References**:
+- https://github.com/mcdope/pam_usb/commit/804fe24eae3d742d8be05fd015e36abc3c7d94e5
+- https://github.com/mcdope/pam_usb/security/advisories/GHSA-jmmj-qhrq-w45g
+
+---
+
+#### 1565. CVE-2026-47326
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+
+**漏洞描述 / Description**:
+Ubuntu Linux 6.8, 6.17 and 7.0 contain SAUCE patches with a memory leak in the handling of big responses to AppArmor notifications. The bug can be triggered by an unprivileged local user. The memory leak could lead to resource exhaustion.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=8d858ecb7e2e216ca2987302a04c266f2355fefe.
+
+**参考链接 / References**:
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=8d858ecb7e2e216ca2987302a04c266f2355fefe
+
+---
+
+#### 1566. CVE-2026-47327
+
+**严重程度 / Severity**: LOW | CVSS: 3.3
+
+**漏洞描述 / Description**:
+Ubuntu Linux 6.8, 6.17 and 7.0 contain SAUCE patches with a possible NULL pointer dereference in the handling of AppArmor notifications. The bug can be triggered by an unprivileged local user. This can lead to a kernel oops.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=7f3c4902c39432ce7ea0d384cb70eba282247fac.
+
+**参考链接 / References**:
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=7f3c4902c39432ce7ea0d384cb70eba282247fac
+
+---
+
+#### 1567. CVE-2026-47328
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.1
+
+**漏洞描述 / Description**:
+Ubuntu Linux 6.8, 6.17 and 7.0 contain AppArmor SAUCE patches which incorrectly attempt to free a pointer which was not previously kmalloc()d, while at the same time leaking allocated memory. The bug can be triggered by an unprivileged local user and can result in the corruption of slab metadata and could lead to resource exhaustion.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=7f3c4902c39432ce7ea0d384cb70eba282247fac.
+
+**参考链接 / References**:
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=7f3c4902c39432ce7ea0d384cb70eba282247fac
+
+---
+
+#### 1568. CVE-2026-47329
+
+**严重程度 / Severity**: LOW | CVSS: 3.3
+
+**漏洞描述 / Description**:
+Ubuntu Linux 6.8, 6.17 and 7.0 contain SAUCE patches which fail to validate invalid sizes of the name field in AppAmor notification responses. The bug can be triggered by an unprivileged local user and could result in handling of crafted responses.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=9ea8b64b3ad27d0501cf711efa98077998a33b14.
+
+**参考链接 / References**:
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=9ea8b64b3ad27d0501cf711efa98077998a33b14
+
+---
+
+#### 1569. CVE-2026-47330
+
+**严重程度 / Severity**: LOW | CVSS: 3.3
+
+**漏洞描述 / Description**:
+Ubuntu Linux 6.8, 7.17 and 7.0 contain AppArmor SAUCE patches which can, under certain circumstances, use an uninitialized variable in notification handling code. The bug can be triggered by an unprivileged local user and can result in the incorrect caching of AppArmor notification responses.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=9b2c6eded493fa50e7c8cd3618d7ebe1358abaab.
+
+**参考链接 / References**:
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=9b2c6eded493fa50e7c8cd3618d7ebe1358abaab
+
+---
+
+#### 1570. CVE-2026-47331
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Ubuntu Linux 6.8 contains AppArmor SAUCE patches which fail to acquire a lock when modifying a linked list. An unprivileged local user could trigger the race condition that can lead to a use-after-free (UAF) and, theoretically, arbitrary code execution.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=5e5cd4759b63363373faf1ce15d1cab3606d6ec8.
+
+**参考链接 / References**:
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=5e5cd4759b63363373faf1ce15d1cab3606d6ec8
+
+---
+
+#### 1571. CVE-2026-47332
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+
+**漏洞描述 / Description**:
+Ubuntu Linux 6.8, 6.17 and 7.0 contain AppArmor SAUCE patches which incorrectly validate the size of an internal structure, leading to an out-of-bounds read in notification handling code. The bug can be triggered by an unprivileged local user and can result in information disclosure from adjacent slab objects.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=0418e5f61b55465f19245705bce6590c807fc9f2.
+
+**参考链接 / References**:
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=0418e5f61b55465f19245705bce6590c807fc9f2
+
+---
+
+#### 1572. CVE-2026-47333
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Ubuntu Linux 6.8, 6.17 and 7.0 contain AppArmor SAUCE patches which can potentially incorrectly compute the size of an internal buffer, leading to a heap memory out-of-bounds read in notification handling code. The bug can be triggered by an unprivileged local user and can result in invalid data being processed by the AppArmor DFA policy engine.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=635fa30ed9e944bdb7e811fb8a8906286b4b4f06.
+
+**参考链接 / References**:
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=635fa30ed9e944bdb7e811fb8a8906286b4b4f06
+
+---
+
+#### 1573. CVE-2026-47334
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+
+**漏洞描述 / Description**:
+Ubuntu Linux 6.8, 6.17 and 7.0 contain AppArmor SAUCE patches which incorrectly sleep while holding a spinlock in notification handling code. The bug can be triggered by an unprivileged local user and can result in kernel panic or deadlock.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=f0e73aec23d13a9877fba096b1c2fd19f66e5313.
+
+**参考链接 / References**:
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=f0e73aec23d13a9877fba096b1c2fd19f66e5313
+
+---
+
+#### 1574. CVE-2026-47335
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+**受影响产品 / Affected Products**: canonical:ubuntu_linux
+
+**漏洞描述 / Description**:
+Ubuntu Linux 6.8 contains SAUCE patches with a possible NULL pointer dereference in the handling of AppArmor notifications. The bug can be triggered by an unprivileged local user. This can lead to a kernel panic.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=406571d530ccdbae6119fe64ce9cf5c74160f20b.
+
+**参考链接 / References**:
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=406571d530ccdbae6119fe64ce9cf5c74160f20b
+
+---
+
+#### 1575. CVE-2026-47336
+
+**严重程度 / Severity**: LOW | CVSS: 3.3
+**受影响产品 / Affected Products**: canonical:ubuntu_linux
+
+**漏洞描述 / Description**:
+Ubuntu Linux 6.8 contains SAUCE patches with a possible use of an uninitialized variable in AppArmor AF_INET/AF_INET6 socket mediation code. The bug can be triggered by an unprivileged local user and could result in incorrect fine-grained mediation of network sockets.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=f37c6a70fe7b435322c334554002809a4e7b7293.
+
+**参考链接 / References**:
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=f37c6a70fe7b435322c334554002809a4e7b7293
+
+---
+
+#### 1576. CVE-2026-47337
+
+**严重程度 / Severity**: LOW | CVSS: 3.3
+**受影响产品 / Affected Products**: canonical:ubuntu_linux
+
+**漏洞描述 / Description**:
+Ubuntu Linux 6.8, 6.17 and 7.0 contain SAUCE patches with a possible NULL pointer dereference in the handling of AF_INET/AF_INET6 socket mediation. The bug can be triggered by an unprivileged local user. This can lead to a kernel oops.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=9f03f0012a2367efae1edb4798f1c5103aeb6cbc.
+
+**参考链接 / References**:
+- https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=9f03f0012a2367efae1edb4798f1c5103aeb6cbc
 
 ---
