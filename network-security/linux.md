@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1746**
+**总计条目 / Total entries: 1765**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -28673,5 +28673,233 @@ Ubuntu Linux 6.8, 6.17 and 7.0 contain SAUCE patches with a possible NULL pointe
 
 **参考链接 / References**:
 - https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble/commit/?id=9f03f0012a2367efae1edb4798f1c5103aeb6cbc
+
+---
+
+#### 1747. CVE-2026-10805 - NetworkManager: NetworkManager: Local privilege escalation via malformed MUD URLs…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] NetworkManager: NetworkManager: Local privilege escalation via malformed MUD URLs in dhclient backend. Bugzilla: 2484613
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484613
+
+---
+
+#### 1748. CVE-2026-3276 - python: Python unicodedata: Denial of Service due to excessive CPU consumption
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] python: Python unicodedata: Denial of Service due to excessive CPU consumption. Bugzilla: 2484424
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484424
+
+---
+
+#### 1749. CVE-2026-48587 - django: Django: Information disclosure via improper handling of Vary header…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] django: Django: Information disclosure via improper handling of Vary header whitespace. Bugzilla: 2484372
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484372
+
+---
+
+#### 1750. CVE-2026-35193 - django: Django: Information disclosure due to improper caching of authenticated…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] django: Django: Information disclosure due to improper caching of authenticated responses. Bugzilla: 2484374
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484374
+
+---
+
+#### 1751. CVE-2026-8404 - Django: Django: Information disclosure due to improper handling of Cache-Control…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] Django: Django: Information disclosure due to improper handling of Cache-Control directives. Bugzilla: 2484370
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484370
+
+---
+
+#### 1752. CVE-2026-7666 - django: Django: Information disclosure via failed STARTTLS handshake in EmailBackend
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] django: Django: Information disclosure via failed STARTTLS handshake in EmailBackend. Bugzilla: 2484369
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484369
+
+---
+
+#### 1753. CVE-2026-6873 - python-django: Django: Information disclosure via non-injective cookie salt…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] python-django: Django: Information disclosure via non-injective cookie salt derivation. Bugzilla: 2484373
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484373
+
+---
+
+#### 1754. CVE-2026-5241 - python-transformers: python-transformers: Arbitrary code execution due to…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] python-transformers: python-transformers: Arbitrary code execution due to overridden trust_remote_code setting. Bugzilla: 2484384
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484384
+
+---
+
+#### 1755. CVE-2026-46258 - kernel: gpio: cdev: Avoid NULL dereference in linehandle_create()
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: gpio: cdev: Avoid NULL dereference in linehandle_create(). Bugzilla: 2484436
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484436
+
+---
+
+#### 1756. CVE-2026-46260 - kernel: ipv6: Fix out-of-bound access in fib6_add_rt2node()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ipv6: Fix out-of-bound access in fib6_add_rt2node(). Bugzilla: 2484438
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484438
+
+---
+
+#### 1757. CVE-2026-46273 - kernel: ibmveth: Disable GSO for packets with small MSS
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ibmveth: Disable GSO for packets with small MSS. Bugzilla: 2484442
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484442
+
+---
+
+#### 1758. CVE-2026-46245 - kernel: drm/amd/display: Fix dc_link NULL handling in HPD init
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: drm/amd/display: Fix dc_link NULL handling in HPD init. Bugzilla: 2484444
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484444
+
+---
+
+#### 1759. CVE-2026-46254 - kernel: AppArmor: Allow apparmor to handle unaligned dfa tables
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: AppArmor: Allow apparmor to handle unaligned dfa tables. Bugzilla: 2484445
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484445
+
+---
+
+#### 1760. CVE-2026-46250 - kernel: MIPS: Work around LLVM bug when gp is used as global register variable
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: MIPS: Work around LLVM bug when gp is used as global register variable. Bugzilla: 2484446
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484446
+
+---
+
+#### 1761. CVE-2026-46271 - kernel: wifi: ath12k: do WoW offloads only on primary link
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: wifi: ath12k: do WoW offloads only on primary link. Bugzilla: 2484447
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484447
+
+---
+
+#### 1762. CVE-2026-46268 - kernel: PCI/P2PDMA: Fix p2pmem_alloc_mmap() warning condition
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: PCI/P2PDMA: Fix p2pmem_alloc_mmap() warning condition. Bugzilla: 2484449
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484449
+
+---
+
+#### 1763. CVE-2026-46262 - kernel: ASoC: fsl_xcvr: Revert fix missing lock in fsl_xcvr_mode_put()
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ASoC: fsl_xcvr: Revert fix missing lock in fsl_xcvr_mode_put(). Bugzilla: 2484450
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484450
+
+---
+
+#### 1764. CVE-2026-46244 - kernel: netfilter: nft_inner: Fix IPv6 inner_thoff desync
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: netfilter: nft_inner: Fix IPv6 inner_thoff desync. Bugzilla: 2484451
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484451
+
+---
+
+#### 1765. CVE-2026-46270 - kernel: power: supply: rt9455: Fix use-after-free in power_supply_changed()
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: power: supply: rt9455: Fix use-after-free in power_supply_changed(). Bugzilla: 2484453
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484453
 
 ---
