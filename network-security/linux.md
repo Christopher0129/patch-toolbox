@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1765**
+**总计条目 / Total entries: 1778**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -28901,5 +28901,161 @@ Ubuntu Linux 6.8, 6.17 and 7.0 contain SAUCE patches with a possible NULL pointe
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2484453
+
+---
+
+#### 1766. CVE-2026-9088 - keycloak: Keycloak: Information disclosure due to user profile permission bypass
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Information disclosure due to user profile permission bypass. Bugzilla: 2480179
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480179
+
+---
+
+#### 1767. CVE-2026-11332 - ansible-core: argument injection in ansible-galaxy role install leads to arbitrary…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] ansible-core: argument injection in ansible-galaxy role install leads to arbitrary code execution. Bugzilla: 2485379
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2485379
+
+---
+
+#### 1768. CVE-2026-50265 - libinput: local privilege escalation via crafted uinput devices
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] libinput: local privilege escalation via crafted uinput devices. Bugzilla: 2485390
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2485390
+
+---
+
+#### 1769. CVE-2026-6657 - jupyter-server: jupyter-server: Arbitrary code execution due to CORS origin…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] jupyter-server: jupyter-server: Arbitrary code execution due to CORS origin validation bypass. Bugzilla: 2484420
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484420
+
+---
+
+#### 1770. CVE-2026-4035 - python-mlflow: MLflow: Sensitive credential exfiltration via environment variable…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] python-mlflow: MLflow: Sensitive credential exfiltration via environment variable resolution in AI Gateway secrets. Bugzilla: 2484318
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484318
+
+---
+
+#### 1771. CVE-2026-46261 - kernel: spi: wpcm-fiu: Fix potential NULL pointer dereference in wpcm_fiu_probe()
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: spi: wpcm-fiu: Fix potential NULL pointer dereference in wpcm_fiu_probe(). Bugzilla: 2484437
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484437
+
+---
+
+#### 1772. [Ubuntu] USN-8394-1: YARD vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that YARD incorrectly sanitized paths in its built-in documentation server. An attacker could possibly use this issue to read arbitrary files from the server host.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8394-1
+
+---
+
+#### 1773. [Ubuntu] USN-8393-1: Linux kernel (Azure FIPS) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel algif_aead module did not properly handle in-place cryptographic operations. This flaw is known as Copy Fail. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-31431) It was discovered that the Linux kernel did not properly handle shared page fragments during socket buffer operations, collectively known as Dirt
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8393-1
+
+---
+
+#### 1774. [Ubuntu] USN-8361-2: Linux kernel (FIPS) vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+A security issue was discovered in the Linux kernel. An attacker could possibly use this to compromise the system. This update corrects flaws in the following subsystem: - Packet sockets; (CVE-2026-31504)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8361-2
+
+---
+
+#### 1775. [Ubuntu] USN-8390-1: Linux kernel vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel did not properly handle shared page fragments during socket buffer operations, collectively known as Dirty Frag. A logic flaw existed in the XFRM ESP-in-TCP subsystem and in the RxRPC networking subsystem when processing paged fragments. A local attacker could use this to escalate privileges, or possibly escape a container.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8390-1
+
+---
+
+#### 1776. [Ubuntu] USN-8389-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel did not properly handle shared page fragments during socket buffer operations, collectively known as Dirty Frag. A logic flaw existed in the XFRM ESP-in-TCP subsystem and in the RxRPC networking subsystem when processing paged fragments. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-43284, CVE-2026-43500) S
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8389-1
+
+---
+
+#### 1777. [Ubuntu] USN-8386-1: Nano vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Michał Majchrowicz and Marcin Wyczechowski discovered that Nano created the ~/.local directory with incorrect permissions. In environments with permissive umask settings, a local attacker could possibly use this issue to inject a malicious launcher file, resulting in information disclosure or other unintended actions. (CVE-2026-6842) Michał Majchrowicz and Marcin Wyczechowski discovered that Nano
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8386-1
+
+---
+
+#### 1778. [Ubuntu] USN-8385-1: Robocode vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Robocode could be tricked into making network requests to attacker-controlled systems. An attacker could possibly use this issue to cause external service interaction, resulting in information disclosure. This issue only affected Ubuntu 16.04 LTS and Ubuntu 18.04 LTS. (CVE-2019-10648) Lim Sim Yee discovered that Robocode did not properly validate file paths in the CacheClean
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8385-1
 
 ---

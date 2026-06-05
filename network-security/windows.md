@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 896**
+**总计条目 / Total entries: 897**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -13142,5 +13142,17 @@ Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52607
+
+---
+
+#### 897. [webapps] WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52609
 
 ---
