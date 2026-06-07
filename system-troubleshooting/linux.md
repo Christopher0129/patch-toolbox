@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4477**
+**总计条目 / Total entries: 4582**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -65983,5 +65983,1376 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1218273#reply6
+
+---
+
+#### 4478. Connected but blank screen in gnome wayland remote desktop/RDP
+
+**问题描述 / Problem Description**:
+Tags: fedora, gnome, wayland, remote-desktop, rdp | Score: 1 | Views: 1222 | Answers: 1 | Created: 2026-01-30
+
+**解决方案 / Solution**:
+I'm guessing this is a bug with multi-monitor support, or maybe streaming the larger one; not sure. I was able to select the smaller display and disable the bigger one remotely. After this, connecting worked fine again: sudo dnf install gnome-monitor-config gnome-monitor-config list gnome-monitor-config set -Lp -M DP-2 -x 0 -y 0 -Lp sets the specified display as primary. -M DP-2 specifies the monitor to keep enabled. -x 0 -y 0 sets the position of the enabled monitor to the origin (top-left) of the virtual desktop. No luck with wlr-randr : $ wlr-randr --output DP-1 --off compositor doesn't support wlr-output-management-unstable-v1 [EDIT] I have hit some similar issues where I actually see a single still image, not just black/white and the cursor changes at various points over the screen. Pressing the windows button to bring up the task switcher works, but as soon as the task switcher disappears the image freezes again. A temporary workaround was to un-maximize the apps I had running and suddenly it started working again. This may be a full-screen direct-to-display optimiztion issue.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804128/connected-but-blank-screen-in-gnome-wayland-remote-desktop-rdp
+
+---
+
+#### 4479. Trying to install a lubuntu desktop on a raspberry pi 3b running ubuntu 24.04.4 LTS but I am getting errors even after restarting/upgrading packages
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, apt, raspberry-pi | Score: 0 | Views: 30 | Answers: 1 | Created: 2026-06-07
+
+**解决方案 / Solution**:
+Hm, that seems to be a bit of a mess on canonical's side: As Ubuntu 24.04 ages, they updated some system components repository, but not all of what depends on it. So, you get a newer dbus-bin than your older dbus-x11 works with. oops! Quite honestly, not your fault, you've been using outdated instructions; the fastest way forward here is to just go back to the start, use the Raspberry Pi Imager as you've been before, but instead of choosing the old Ubuntu Server 24.04 image, use Ubuntu Server 26.04 . Even if we ended up fixing your current installation instead, the first thing you'd do is update to a more modern version of Ubuntu, in all likelihood, there's 2 years of improvements in between, and it shows. Note that there's probably even a slight performance improvement to be had by using 26.04 instead 24.04.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806318/trying-to-install-a-lubuntu-desktop-on-a-raspberry-pi-3b-running-ubuntu-24-04-4
+
+---
+
+#### 4480. Installing Package on Offline Machine
+
+**问题描述 / Problem Description**:
+Tags: debian, apt, dpkg | Score: 0 | Views: 87 | Answers: 3 | Created: 2026-06-06
+
+**解决方案 / Solution**:
+On an offline system, if you have all the package files ready as is your case, you can still use apt : sudo apt install ./*.deb will install all the packages in the current directory. In practice on an offline system that ends up being equivalent to sudo dpkg -i ./*.deb Both of these will handle complex situations that require splitting up installations into multiple phases. Note though that this splitting up into multiple phases happens even in simple scenarios; your set of packages doesn’t need it, but dpkg always works this way (because of guarantees it makes). Given the specific packages you’re installing, installing them one at a time in the order you give would also work without producing errors. Installing them one at a time in the wrong order would produce errors but wouldn’t lead to a broken system: if you install nvme-cli first, dpkg will unpack it without configuring it; a subsequent dpkg -i will then configure it once that becomes possible (when libnvme1 and uuid-runtime are installed).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806302/installing-package-on-offline-machine
+
+---
+
+#### 4481. How can I know the UUID of the Claude Code session I currently use and interact with on Ubuntu?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, command-line, application | Score: 0 | Views: 85 | Answers: 1 | Created: 2026-06-04
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806291/how-can-i-know-the-uuid-of-the-claude-code-session-i-currently-use-and-interact
+
+---
+
+#### 4482. Fresh basic debian 13.5 install - cannot access ssh (permission denied trying to connect to port)
+
+**问题描述 / Problem Description**:
+Tags: debian, sshd | Score: 0 | Views: 60 | Answers: 2 | Created: 2026-06-04
+
+**解决方案 / Solution**:
+guess: SSH might notbe listening on the interfaces you want it to be listening on. Check whether /etc/ssh/sshd_config says Listen … on a concrete address or interface. guess: your default firewall blocks ssh . iptables is just a command-line interface to the (old, superseded) kernel firewall. I'd install the debian firewall tool, ufw , and ufw allow ssh . guess: your server is actually itself behind a firewall that filters incoming SSH. That's the case on a couple of cloud providers, for example, and on a lot of residential ISPs, as well. By the way, I'm not sure installing task-ssh-server also enables SSH to be started at boot; a systemctl enable --now sshd makes sure it is.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806288/fresh-basic-debian-13-5-install-cannot-access-ssh-permission-denied-trying-to
+
+---
+
+#### 4483. Open source kept my 2009 Logitech G19 alive
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tze9pd/open_source_kept_my_2009_logitech_g19_alive/
+
+---
+
+#### 4484. History Fun Fact: ZFS was original ported to Linux to support the Lustre filesystem
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tzng31/history_fun_fact_zfs_was_original_ported_to_linux/
+
+---
+
+#### 4485. Pwnd Blaster: Hacking your PC using your speaker without ever touching it
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tz97i7/pwnd_blaster_hacking_your_pc_using_your_speaker/
+
+---
+
+#### 4486. Mesa 26.2 Lands VK_GOOGLE_display_timing Support For Direct Display Mode
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tzh4kf/mesa_262_lands_vk_google_display_timing_support/
+
+---
+
+#### 4487. It looks like Vulkan video decode has finally merged for Firefox 153
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tz1o0p/it_looks_like_vulkan_video_decode_has_finally/
+
+---
+
+#### 4488. "Flatten The Pick" Linux Patches Progress For Better cgroup Scheduling While Linux Gaming
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tzbpl7/flatten_the_pick_linux_patches_progress_for/
+
+---
+
+#### 4489. Tristim: a tool that measures how your Wayland compositor actually reproduces color (SDR and HDR), using a Spyder/i1Display colorimeter
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tz3g0n/tristim_a_tool_that_measures_how_your_wayland/
+
+---
+
+#### 4490. I created a web-based management service that teaches users Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tyx23c/i_created_a_webbased_management_service_that/
+
+---
+
+#### 4491. .tar & .zip - Universal, Portable Application Distribution
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tzm1k6/tar_zip_universal_portable_application/
+
+---
+
+#### 4492. Using AI for troubleshooting with full system access
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1tyv75o/using_ai_for_troubleshooting_with_full_system/
+
+---
+
+#### 4493. Which distro should I use?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tznshy/which_distro_should_i_use/
+
+---
+
+#### 4494. What audio server are you using? PulseAudio vs JACK vs PipeWire
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tzftoq/what_audio_server_are_you_using_pulseaudio_vs/
+
+---
+
+#### 4495. Black screen after trying to update Nvidia drivers on fedora kde
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tzojn9/black_screen_after_trying_to_update_nvidia/
+
+---
+
+#### 4496. Cron does not run my shell scripts (Debian 13)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tz8nr5/cron_does_not_run_my_shell_scripts_debian_13/
+
+---
+
+#### 4497. What's the difference between these two iptables rulesets?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tzdvtr/whats_the_difference_between_these_two_iptables/
+
+---
+
+#### 4498. What's the smallest (in a sense that it could be smuggled in a body cavity and/or well-hidden) commercially available or DIY device that runs full fledged distro of Linux with any form of internet access and GUI? I want to be able to code on it, read e-books, play simple games and doomscroll socials
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tyvr5r/whats_the_smallest_in_a_sense_that_it_could_be/
+
+---
+
+#### 4499. Desktop Environment on a container:
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tzmycr/desktop_environment_on_a_container/
+
+---
+
+#### 4500. Wi-Fi Not Working on Ubuntu / CachyOS (Intel Wi-Fi 6 AX201) - Driver: N/A
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tzb8v5/wifi_not_working_on_ubuntu_cachyos_intel_wifi_6/
+
+---
+
+#### 4501. Que distro deberia empezar a usar con HyprLand?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tzm4q5/que_distro_deberia_empezar_a_usar_con_hyprland/
+
+---
+
+#### 4502. [omarchy] Errores de configuración tras la actualización del sistema: looknfeel.conf está dañado con la última versión de Hyprland.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tzm347/omarchy_errores_de_configuración_tras_la/
+
+---
+
+#### 4503. Linux boot manager disappears whenever I boot windows and i have to reinstall it
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tzg0os/linux_boot_manager_disappears_whenever_i_boot/
+
+---
+
+#### 4504. Widget/Plasmoid for Elapsing The Amount of Days Since a Given Date?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tzlvtd/widgetplasmoid_for_elapsing_the_amount_of_days/
+
+---
+
+#### 4505. where can I find guides for all such tools in a single place?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tzlguw/where_can_i_find_guides_for_all_such_tools_in_a/
+
+---
+
+#### 4506. Fedora Screen Flicker Randomly
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tza0dr/fedora_screen_flicker_randomly/
+
+---
+
+#### 4507. Should I use linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tzktr1/should_i_use_linux/
+
+---
+
+#### 4508. Best Distro for 3D work?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tz7ywo/best_distro_for_3d_work/
+
+---
+
+#### 4509. How can one set up theme switching?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tzb1hr/how_can_one_set_up_theme_switching/
+
+---
+
+#### 4510. Looking for PDF reader that syncs between iphone and linux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tzcg77/looking_for_pdf_reader_that_syncs_between_iphone/
+
+---
+
+#### 4511. performance problems
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tz9i9p/performance_problems/
+
+---
+
+#### 4512. Favorite file manager for customization + features
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tzc96r/favorite_file_manager_for_customization_features/
+
+---
+
+#### 4513. How do i connect to public wifis ?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tzhsuu/how_do_i_connect_to_public_wifis/
+
+---
+
+#### 4514. Problem related to shell script
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tzh2gz/problem_related_to_shell_script/
+
+---
+
+#### 4515. Switching to linux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tzh2ba/switching_to_linux/
+
+---
+
+#### 4516. How do i get my gamecube controller working on dolphin
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tzg60o/how_do_i_get_my_gamecube_controller_working_on/
+
+---
+
+#### 4517. How to set ENV vars in a way that "just works" everywhere. Why is this so hard?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1tz1hts/how_to_set_env_vars_in_a_way_that_just_works/
+
+---
+
+#### 4518. I finally finished setting up dualboot Ubuntu on my Galaxy Book
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tzihqd/i_finally_finished_setting_up_dualboot_ubuntu_on/
+
+---
+
+#### 4519. A strange menu suddenly appeared on my Linux Ubuntu after some strange key combinations + random typing.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tz6ft4/a_strange_menu_suddenly_appeared_on_my_linux/
+
+---
+
+#### 4520. black bar help
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tzo9ad/black_bar_help/
+
+---
+
+#### 4521. How to reasign a microphone input ? it reads as headset
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tzckey/how_to_reasign_a_microphone_input_it_reads_as/
+
+---
+
+#### 4522. Get Full application name on hovering
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tzkt56/get_full_application_name_on_hovering/
+
+---
+
+#### 4523. I've been using Ubuntu recently, and one thing keeps bothering me.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tzknml/ive_been_using_ubuntu_recently_and_one_thing/
+
+---
+
+#### 4524. How do you handle backup and system recovery on Ubuntu?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tzjpcy/how_do_you_handle_backup_and_system_recovery_on/
+
+---
+
+#### 4525. Stuck on first screen
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tzjk4k/stuck_on_first_screen/
+
+---
+
+#### 4526. Armoury Crate or Similar Software for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tzjj11/armoury_crate_or_similar_software_for_linux/
+
+---
+
+#### 4527. Advanced Media Controller: New Custom Theme Engine for Popup Player Progress Bars
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tz67mb/advanced_media_controller_new_custom_theme_engine/
+
+---
+
+#### 4528. Battery Limit Problem with Asus Laptop
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tzcrgz/battery_limit_problem_with_asus_laptop/
+
+---
+
+#### 4529. Why is my Ubuntu Sever is using 4gb of memory even tho my BIOS recognizes 8gb
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tzhjxw/why_is_my_ubuntu_sever_is_using_4gb_of_memory/
+
+---
+
+#### 4530. Help getting dual Tesla GPUs working on Ubuntu 26.04 (with Wayland)
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tze9sj/help_getting_dual_tesla_gpus_working_on_ubuntu/
+
+---
+
+#### 4531. aio update command
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tzdnc8/aio_update_command/
+
+---
+
+#### 4532. OpenUsage Community: Linux-first AI subscription tracker for Claude, Codex, Cursor and Copilot
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tzci57/openusage_community_linuxfirst_ai_subscription/
+
+---
+
+#### 4533. I am using Ubuntu 26.04 with Gnome 50. I am facing a screen freezing hard lock and I can't do anything
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tz3qy6/i_am_using_ubuntu_2604_with_gnome_50_i_am_facing/
+
+---
+
+#### 4534. Icon pack
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tyzx6i/icon_pack/
+
+---
+
+#### 4535. How to add things such as wget and apt to Ubuntu 26.04 LTS in Linuxulator on FreeBSD?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tz7dln/how_to_add_things_such_as_wget_and_apt_to_ubuntu/
+
+---
+
+#### 4536. efficiency
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1tyzcry/efficiency/
+
+---
+
+#### 4537. 12 days in and I borked my system
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tzfi6s/12_days_in_and_i_borked_my_system/
+
+---
+
+#### 4538. Problems with Mint
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tzbmqn/problems_with_mint/
+
+---
+
+#### 4539. MS Teams web functionality is not fully working in Brave Origin browser environment
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tzpgsk/ms_teams_web_functionality_is_not_fully_working/
+
+---
+
+#### 4540. I'm thinking of switching to cachyos but:
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tzoqgc/im_thinking_of_switching_to_cachyos_but/
+
+---
+
+#### 4541. Completely lost on how to install Nvidia drivers on fedora kde
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tzo6z3/completely_lost_on_how_to_install_nvidia_drivers/
+
+---
+
+#### 4542. Fedora RTX 5060 ti 16gb vs RX 9060 xt 16gb
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tznqet/fedora_rtx_5060_ti_16gb_vs_rx_9060_xt_16gb/
+
+---
+
+#### 4543. A problem with nvidia GPU and counter strike 2.
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tzn6md/a_problem_with_nvidia_gpu_and_counter_strike_2/
+
+---
+
+#### 4544. Critique my .AppImage chrome-sandbox error workaround
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tzmkcx/critique_my_appimage_chromesandbox_error/
+
+---
+
+#### 4545. How do I diagnose software level echo in linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tzlv3f/how_do_i_diagnose_software_level_echo_in_linux/
+
+---
+
+#### 4546. Please help me with my super-ultra-niche issue!
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tzluqc/please_help_me_with_my_superultraniche_issue/
+
+---
+
+#### 4547. Best distro to use on charity with old computers ?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tzllor/best_distro_to_use_on_charity_with_old_computers/
+
+---
+
+#### 4548. rolling release even worth it for me?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tzje46/rolling_release_even_worth_it_for_me/
+
+---
+
+#### 4549. Gnome frozen on login, help!
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tzja26/gnome_frozen_on_login_help/
+
+---
+
+#### 4550. How do i connect to public wifis ?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tzhlmr/how_do_i_connect_to_public_wifis/
+
+---
+
+#### 4551. Which distro should i use?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tzhea8/which_distro_should_i_use/
+
+---
+
+#### 4552. Screentide - A highly customizable ActivityWatch screentime widget that automatically matches system accent colors
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tz90w7/screentide_a_highly_customizable_activitywatch/
+
+---
+
+#### 4553. I'm new to Pop Os, which one those are legit? I'm using Pop Os 22.04
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tzhcco/im_new_to_pop_os_which_one_those_are_legit_im/
+
+---
+
+#### 4554. How do i get my gamecube controller working on dolphin
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tzgeoo/how_do_i_get_my_gamecube_controller_working_on/
+
+---
+
+#### 4555. Fingerprint scanner issues
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tzgcgm/fingerprint_scanner_issues/
+
+---
+
+#### 4556. USB WiFi 6E (6GHz) adapters WITH BLUETOOTH
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tzfceg/usb_wifi_6e_6ghz_adapters_with_bluetooth/
+
+---
+
+#### 4557. Installed mint and cannot log in
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tzfbn3/installed_mint_and_cannot_log_in/
+
+---
+
+#### 4558. Please help its starting to annoy me!
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1tzdm72/please_help_its_starting_to_annoy_me/
+
+---
+
+#### 4559. torrent-tui: lightweight bitttorrent client made using opentui
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1tz5e47/torrenttui_lightweight_bitttorrent_client_made/
+
+---
+
+#### 4560. I made a full terminal based (like vim/nano) text/code editor from scratch in python.
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1tzh5es/i_made_a_full_terminal_based_like_vimnano/
+
+---
+
+#### 4561. Pomodoro Timer in Your Terminal
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1tz9qq6/pomodoro_timer_in_your_terminal/
+
+---
+
+#### 4562. How do you solve CLI mess?
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1tz6ebt/how_do_you_solve_cli_mess/
+
+---
+
+#### 4563. [V2EX] 『ArchLinux』简明安装指南(Laptop+Nvidia+Cachyos Kernel +xfs+KDE)
+
+**问题描述 / Problem Description**:
+原创性声明： 本文转载自本人在 Nodeseek 原创 的 ArchLinux 安装帖 ，这份教程是我在初步学习 Linux 并积极开荒后得到的经验,在此向大家分享。 笔者在入门学习 linux 时选择了 ArchLinux 开始传教 ,翻阅了很多教程,踩了很多新手的坑。零零散散 Obsidian 中存下很多自己需要注意的事项。遂写成一篇针对性的安装方案，以供大家参考。 有纰漏或者勘误的地方还请大家多多指点。 安装时遇到报错请首先在 ArchWiki 上寻找解决方案。 参考网页： ArchWiki Install guide(官方) 请首先参考官方安装文档 arch_icekylin 的博客(
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218319#reply7
+
+---
+
+#### 4564. [V2EX] 国产 Touchpad 在 arch 下偶发无法用手势
+
+**问题描述 / Problem Description**:
+ricky@archlinux ~> sudo dmesg | grep -i i2c [sudo] password for ricky: [ 0.211745] ACPI BIOS Error (bug): Could not resolve symbol [_SB.PC00.I2C3.TPD0], AE_NOT_FOUND (20251212/dswload2-162) [ 0.211891] ACPI BIOS Error (bug): Could not resolve symbol [_SB.PC00.I2C4.TPL1], AE_NOT_FOUND (20251212/dswlo
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1216141#reply1
+
+---
+
+#### 4565. [V2EX] 将生图模型和编程模型合并在一个会话
+
+**问题描述 / Problem Description**:
+我将生图大模型和 Claude Code 编程模型合并到一个会话中，就可以修改完图让 AI 直接设置为 icon ，毕竟编程大模型生图的能力比较弱，程序员偶尔还是需要生成图的，汇报、开发界面、写文档还是需要的，我感觉在一个工作流中更方便，而且也符合程序员的操作习惯，我是不喜欢用美术那套工具的，大家有兴趣可以试试。 https://github.com/wellingfeng/FreeUltraCode 不好意思又发了一次，希望不要打扰到大家。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218599#reply0
+
+---
+
+#### 4566. [V2EX] 开源个好玩的 Agent Skill，现在 Star 400 多个
+
+**问题描述 / Problem Description**:
+大家很多公司在做出海网站，那这个可以拿过去功劳了。这个工具是我自己做 SEO 时的痛点产物，希望能帮到更多人。 https://github.com/JeffLi1993/seo-audit-skill 可复用的单页面 SEO 审计 Agent Skill 。给一个 URL ，输出结构化 HTML 审计报告，包含可执行的修复建议。 最佳实践 1 、运行 npx skills add JeffLi1993/seo-audit-skill ，然后发起审计，例如：audit this page: https://example.com 。根据生成的报告（ reports/<hostname>-aud
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218588#reply0
+
+---
+
+#### 4567. [V2EX] 阿里的 Qwen3.7-Max 比我想象中差
+
+**问题描述 / Problem Description**:
+https://x.com/cheez_ai/status/2063523537001001284
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218551#reply12
+
+---
+
+#### 4568. [V2EX] sub2api gpt pro 容易中断, 需要输入继续才会继续, 有人遇到吗
+
+**问题描述 / Problem Description**:
+gpt 5.5 模型, 自用中转, 请求量低
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218543#reply3
+
+---
+
+#### 4569. [V2EX] [独家] 通过 Coding Tools MCP 使用 GPT 5.5 Pro 进行编码
+
+**问题描述 / Problem Description**:
+如图借助 Coding Tools MCP 总算是能把 OpenAI 的最强模型 GPT 5.5 Pro 用来编程了，就算是 Codex 里面都没有 5.5 Pro 能用，当然前提是你 ChatGPT 账号本身要有 5.5 Pro 模型的使用权限（ Business 账号和 Pro 账号都有 5.5 Pro 模型可以用，Plus 用户没有）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218541#reply1
+
+---
+
+#### 4570. [V2EX] 用 gpt-image-2 做设计图，用 claude opus4.8 扣了一个通宵才复原一张图的 98%
+
+**问题描述 / Problem Description**:
+用 gpt-image2 设计自己玩具项目网站的首页，设计的还是挺不错的，很有设计感，比 claude opus 自己直接设计网页有质感太多了。 gpt-image-2 设计一个页面里面的基本网页元素，claude 复现起来还是很精准很快的。 折磨在里面的一些复杂的图元素，claude 使用 svg 来复现来一点点扣的。这个相差就太大了。 感觉这个复现 UI 的方案应该是问题的，太累了。 等下试一下第二张图用“React Flow + dagre 数据驱动” 这种方案，也是 claude opus 4.8 调研推荐的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218530#reply11
+
+---
+
+#### 4571. [V2EX] 汇编修改 BIOS 驱动安装包
+
+**问题描述 / Problem Description**:
+升级新的 BIOS 驱动之后电脑发热厉害，想回滚旧版本被拒绝了 于是用汇编编辑器打开旧驱动安装包，搜索拒绝的对话框内容，定位到了相关跳转指令，果断改成 90 90 （好像是 N 年前在某个计算机杂志上看到的方法==） 保存后重新运行，顺利安装了！当然也有冒险的成分，旧版本 BIOS 强行装上去可能电脑就坏了，但是冒险一试也挺好玩的，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218528#reply10
+
+---
+
+#### 4572. [V2EX] GitCode/AtomCode 第三方客户端来了，得到官方认可的那种！
+
+**问题描述 / Problem Description**:
+拿在手里的 GitCode AtGit 是一个 GitCode/AtomGit 第三方客户端。AtGit 不会从您的 GitCode 帐户收集任何信息，因为我连自己的服务器都没有，请放心使用。 您可以随时随地查看开源库源文件、讨论 Issue 与 Pull request 、Star 、Watch 、Fork 项目，并跟踪关注的开源库和开发者动态。 截图 官网 https://atgit.xiaobingkj.com/ 直达链接 https://appgallery.huawei.com/app/detail?id=com.xiaobingkj.atomcode&channelId=SHARE
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218522#reply3
+
+---
+
+#### 4573. [V2EX] 人机 Agent 团队协同：从 Managed Agents 原理到 Multica 实践
+
+**问题描述 / Problem Description**:
+本文完整内容见（包括 Agent 指令设计）： 原文地址 1 、Managed Agents 核心理念：解耦"大脑"与"双手" Managed Agents 定义：一套用于大规模构建、部署和运行 AI Agent 的全托管基础设施，核心设计原理围绕‌组件解耦与分层抽象‌，解决长周期 AI Agent 开发和生产部署的痛点。 Managed Agents 设计思路：将智能体的‌「决策能力」（模型作为"大脑"）‌、「‌执行能力」（工具/沙箱作为"双手"）‌和‌「记忆能力」（持久化会话作为记忆）‌完全分离； 借鉴操作系统分层思想重构 Agent 架构，各模块独立演进提升整体系统的稳定性。解决了传统
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218512#reply5
+
+---
+
+#### 4574. [V2EX] 一个疯狂的想法：用本体论抽象一个现实
+
+**问题描述 / Problem Description**:
+背景。 我认为，大语言模型从 gpt3 开始（ 2020 年 6 月）到今天，虽然已经有了 5-6 年时间，但仍然处于这项技术的发展初期，大语言模型本身还有很多可以改进的地方（这块我不是很懂，我觉得如何用更少的资源实现更强的能力应该是一个很重要的方面，特别是如何在 cpu 上也能运行能力强大的模型。），但是，最关键的是我认为，大语言模型的工程化还在非常早的初期，很多问题还有待解决，特别是大模型的幻觉问题，直接限制了大模型在实际业务中的应用。 我认为，从开始我们直接用语言和大模型进行沟通，也就是所谓的“提示词工程”可能就是一个错误。 大模型的本质，就是以语言为计算因子的一种数学计算过程。大模型的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218495#reply7
+
+---
+
+#### 4575. [V2EX] 写 README/技术方案时被 Ai 生成的 PlantUml/Mermaid 折腾烦了，做了个 预览小工具
+
+**问题描述 / Problem Description**:
+大家好，最近我做了一个小工具 DiagramPreview： https://diagrampreview.com 起因是我最近写 README 、技术方案和接口文档时，经常让大模型生成 Mermaid 、PlantUML 、架构图、OpenAPI 流程、SQL ER 图之类的文本。 AI 生成初稿确实很快，但有个步骤一直很烦：它通常只给代码，不帮你确认能不能渲染。很多时候复制到文档里才发现 Mermaid 报错，或者 PlantUML 图看起来不对，还要再找工具预览、修语法、导出图片。 所以我把这个中间步骤做成了一个在线工具站： - Mermaid / PlantUML / Graphviz
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218486#reply8
+
+---
+
+#### 4576. [V2EX] HarmonyOS App 开发, 现在用哪个 LLM 比较靠谱
+
+**问题描述 / Problem Description**:
+得写一个 HarmonyOS App , 但自己并不熟悉这个平台, 打算用 AI 搞定, app 并不复杂, 请教做这个的大佬, 哪个模型比较靠谱
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218465#reply3
+
+---
+
+#### 4577. [V2EX] 尼区 Aepple 礼品卡, 且用且珍惜
+
+**问题描述 / Problem Description**:
+🚀我靠！尼区礼品卡，且用且珍惜。 今天上闲鱼，准备给尼区🇳🇬Claude Pro 再充一点值，然后搜礼品卡，发现商家少了好多 尤其额度，很多额度全都售罄了！ 小道消息 Apple 有风控，现在售卖的基本都是库存。 尼区低价会成为历史吗？🤔
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218461#reply7
+
+---
+
+#### 4578. [V2EX] vibe coding 提升网站审美小小心得
+
+**问题描述 / Problem Description**:
+目前 Vibe Coding 了几个小网站，毕竟不是专业的设计但 AI 的审美总感觉不太行，前不久看见一个 skill npx impeccable skills install ， 可以帮忙排版、添加交互动画、多设备适配、性能检查，功能挺多，对于网站优化还是有不少帮助，所以一直在用，但是依然提不高审美。这两天在用 gpt-image-2 的时候，突发奇想也许可以告诉 gpt-image-2 我的网站,例如 Hello Kitty 在线填色 网站的功能和主题，然后一个一个模块的让他帮我生成设计图，如果有一个满意的风格，可以使用这张图作为参考图生成其它模块，不管怎么说总体感觉还是不错的，目前没有
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218438#reply13
+
+---
+
+#### 4579. [V2EX] vue3 史诗级更新
+
+**问题描述 / Problem Description**:
+子组件可以用 const { foo = 'hello' } = defineProps<{ foo?: string }>()
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218375#reply28
+
+---
+
+#### 4580. [V2EX] 求好用、性价比高的中转站，以及支持 OpenAI Python SDK 的中转站
+
+**问题描述 / Problem Description**:
+大家都用啥中转站呢？求价格透明，稳定、性价比高、又支持 OpenAI python sdk 的中转站
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218374#reply9
+
+---
+
+#### 4581. [V2EX] 我怎么感觉 glm 5.1 还不如 composer 2.5 了
+
+**问题描述 / Problem Description**:
+最近 2 次，5.1 的额度用完了，有待解决的问题，换成 composer 2.5 ，居然都完美解决了，是我的错觉吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218368#reply18
+
+---
+
+#### 4582. [V2EX] 开源项目自荐：洁癖.skill
+
+**问题描述 / Problem Description**:
+在这里向各位 V 站的大佬自荐一下我的这个开源项目：洁癖.skill 。 我是一个比较有电脑环境洁癖的人，但是现在的各种 agent 会产生各种 md 文件来污染你的环境。 这个项目的第一层就是可以防止 Agent 乱生成 md 文件，只有在你需要的时候才会生成，平时尽可能在对话框里给你提供信息。 第二层讲就是可以帮你扫描你工作区层的一些开发缓存，可以在你的指令下清理他们。 第三层可以全量扫描你整台电脑的开发和环境，指出像 WSL2 位置、模型缓存等可以优化的地方让你优化，还可以给你的开发环境打分。 仓库地址： https://github.com/Phoenix0531-sudo/tidy-
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218363#reply2
 
 ---
