@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 897**
+**总计条目 / Total entries: 898**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -13154,5 +13154,17 @@ Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52609
+
+---
+
+#### 898. [webapps] OpenEMR 7.0.2 - Arbitrary File Read
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] OpenEMR 7.0.2 - Arbitrary File Read
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52610
 
 ---

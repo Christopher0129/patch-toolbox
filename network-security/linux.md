@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1778**
+**总计条目 / Total entries: 1791**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -29057,5 +29057,161 @@ It was discovered that Robocode could be tricked into making network requests to
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8385-1
+
+---
+
+#### 1779. CVE-2026-11569 - quay: quay: Stored XSS via Filedrop SVG Upload
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] quay: quay: Stored XSS via Filedrop SVG Upload. Bugzilla: 2486194
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486194
+
+---
+
+#### 1780. CVE-2026-10803 - mlflow: MLflow: Use of weak hash in Dataset Digest Computation
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] mlflow: MLflow: Use of weak hash in Dataset Digest Computation. Bugzilla: 2484755
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484755
+
+---
+
+#### 1781. CVE-2026-50219 - expat: libexpat: Use-after-free vulnerability due to improper handler call depth…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] expat: libexpat: Use-after-free vulnerability due to improper handler call depth tracking. Bugzilla: 2484620
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484620
+
+---
+
+#### 1782. [Ubuntu] USN-8408-1: Twig vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Twig did not properly validate PHP callables when using a source policy. An authenticated user could possibly use this issue to execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8408-1
+
+---
+
+#### 1783. [Ubuntu] USN-8407-1: strongSwan vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Elliott Childre discovered that strongSwan incorrectly handled the cloning of certain identities. A remote attacker could use this issue to cause strongSwan to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8407-1
+
+---
+
+#### 1784. [Ubuntu] USN-8349-2: rsync regression
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8349-1 fixed vulnerabilities in rsync. The update introduced multiple regressions in rsync functionality. This update fixes the problem. Original advisory details: Calum Hutton discovered that rsync contained a heap-based out-of-bounds read when handling file transfers. A remote attacker with read access to an rsync server could possibly use this issue to cause a denial of service. (CVE-2025-1
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8349-2
+
+---
+
+#### 1785. [Ubuntu] USN-8406-1: Net::CIDR::Lite vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Dave Rolsky discovered that Net::CIDR::Lite did not properly handle extraneous zero characters at the beginning of an IP address string. A remote attacker could possibly use this issue to bypass access controls that are based on IP addresses. This issue only affected Ubuntu 16.04 LTS and Ubuntu 18.04 LTS. (CVE-2021-47154) It was discovered that Net::CIDR::Lite did not properly validate the IPv6 gr
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8406-1
+
+---
+
+#### 1786. [Ubuntu] USN-8405-1: CUPS vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Ariel Silver discovered that CUPS incorrectly handled username comparisons during authorization checks. A local attacker could possibly use this issue to gain unauthorized access to restricted operations. (CVE-2026-27447) Asim Viladi Oglu Manizada discovered that CUPS incorrectly handled notify-recipient-uri values in the RSS notifier. A remote attacker could possibly use this issue to overwrite l
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8405-1
+
+---
+
+#### 1787. [Ubuntu] USN-8404-1: Transmission vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Transmission had a clickjacking weakness in the browser-facing WebUI and RPC response paths. An attacker could possibly use this issue to trick users into performing unintended actions.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8404-1
+
+---
+
+#### 1788. [Ubuntu] USN-8403-1: Kea DHCP vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Ali Norouzi discovered that Kea DHCP did not properly handle maliciously crafted messages over configured API sockets and HA listeners. A remote attacker could possibly use this issue to cause Kea DHCP to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8403-1
+
+---
+
+#### 1789. [Ubuntu] USN-8401-1: Netty vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Netty's HTTP proxy handler did not properly validate headers when constructing CONNECT requests. An attacker could possibly use this issue to inject arbitrary HTTP headers into CONNECT requests. This issue only affected Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, and Ubuntu 26.04 LTS. (CVE-2026-42578) It was discovered that Netty's DNS codec did n
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8401-1
+
+---
+
+#### 1790. [Ubuntu] USN-8402-1: systemd vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that systemd-nspawn incorrectly handled certain optional configuration files. A local attacker could possibly use this issue to escape to the host system and execute arbitrary code. (CVE-2026-40226) It was discovered that systemd-resolved incorrectly validated DNSSEC records for signed domains. An attacker could possibly use this issue to manipulate DNS records. This issue only a
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8402-1
+
+---
+
+#### 1791. [Ubuntu] USN-8400-1: poppler vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that poppler incorrectly handled certain malformed PDF tiling patterns in the Splash backend. An attacker could possibly use this issue to execute arbitrary code, obtain sensitive information, or cause a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8400-1
 
 ---
