@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4690**
+**总计条目 / Total entries: 4800**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -68758,5 +68758,1435 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1218657#reply21
+
+---
+
+#### 4691. How can you have Debian build initramfs in a different non-/boot directory?
+
+**问题描述 / Problem Description**:
+Tags: debian, partition, initramfs | Score: 0 | Views: 59 | Answers: 1 | Created: 2026-06-08
+
+**解决方案 / Solution**:
+As shown in this answer the underlying utility that the system uses is /usr/sbin/update-initramfs . You'll need to patch it to be something like this (which moves the .new files into /tmp ) generate_initramfs() { echo "update-initramfs: Generating ${initramfs}" OPTS="-o" # XXX: Generate into /tmp TMP=$(mktemp -d) # XXX: At least for me $initramfs includes a `boot/` directory mkdir -vp "$(dirname $TMP/${initramfs})"; if [ "${verbose}" = 1 ]; then OPTS="-v ${OPTS}" fi # XXX: Update stuff below to use ${TMP} prefix # shellcheck disable=SC2086 if mkinitramfs ${OPTS} "${TMP}/${initramfs}.new" "${version}"; then mv -f "${TMP}/${initramfs}.new" "${initramfs}" # Guard against an unclean shutdown sync -f "${initramfs}" else mkinitramfs_return="$?" remove_initramfs_bak rm -f "${TMP}/${initramfs}.new" echo "update-initramfs: failed for ${initramfs} with $mkinitramfs_return." >&2 exit $mkinitramfs_return fi }
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806344/how-can-you-have-debian-build-initramfs-in-a-different-non-boot-directory
+
+---
+
+#### 4692. Sonny Piers elaborates on his ban from the Gnome community
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u1gj4s/sonny_piers_elaborates_on_his_ban_from_the_gnome/
+
+---
+
+#### 4693. PSA for AsahiLinux users
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u12vnv/psa_for_asahilinux_users/
+
+---
+
+#### 4694. Linux App Summit 2026: Meeting of the Linux Desktop Avant-garde
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u12v3h/linux_app_summit_2026_meeting_of_the_linux/
+
+---
+
+#### 4695. CachyOS With The BORE Scheduler While Disabling Ananicy-CPP
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u0xap3/cachyos_with_the_bore_scheduler_while_disabling/
+
+---
+
+#### 4696. rsync 3.4.4 released with regression fixes
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u0nyvl/rsync_344_released_with_regression_fixes/
+
+---
+
+#### 4697. Asterinas 0.18 Released For Rust-Written, Memory Safe Linux Alternative OS
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u17v9u/asterinas_018_released_for_rustwritten_memory/
+
+---
+
+#### 4698. runwhenidle - an utility to pause a process during user activity now supports Wayland (only for compositors supporting ext_idle_notification_v1)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u0w95u/runwhenidle_an_utility_to_pause_a_process_during/
+
+---
+
+#### 4699. omnipackage - a tool that makes RPM&DEB packaging and distribution easy
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u0vqyg/omnipackage_a_tool_that_makes_rpmdeb_packaging/
+
+---
+
+#### 4700. The first release of ReterminateVT is out! (along with a demo ISO)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u0tjey/the_first_release_of_reterminatevt_is_out_along/
+
+---
+
+#### 4701. Emacs users, this blog is for you - "Emacs Appearances in Pop Culture"
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u0vlm0/emacs_users_this_blog_is_for_you_emacs/
+
+---
+
+#### 4702. certificate of git.busybox.net is expired for few days now
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u0wl1b/certificate_of_gitbusyboxnet_is_expired_for_few/
+
+---
+
+#### 4703. New native Open Source Linux Client!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u140zz/new_native_open_source_linux_client/
+
+---
+
+#### 4704. Coming from Windows, is there a way to copy and edit text in the terminal like Powershell?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u13lb7/coming_from_windows_is_there_a_way_to_copy_and/
+
+---
+
+#### 4705. What can slow down a linux/ubuntu system?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u190j4/what_can_slow_down_a_linuxubuntu_system/
+
+---
+
+#### 4706. How can I update my drivers via recovery mode?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u1ez8w/how_can_i_update_my_drivers_via_recovery_mode/
+
+---
+
+#### 4707. Lightest Linux distro for Dell XPS 13 9365 (Core i7-7Y75, 16GB RAM) used only to watch media using Jellyfin ?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u1dfbg/lightest_linux_distro_for_dell_xps_13_9365_core/
+
+---
+
+#### 4708. Installing Linux.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u1jc03/installing_linux/
+
+---
+
+#### 4709. Linux apps
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u1j97f/linux_apps/
+
+---
+
+#### 4710. any distros with focus on accessibility for users living with visual impairment?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u1j6e7/any_distros_with_focus_on_accessibility_for_users/
+
+---
+
+#### 4711. Does anyone else use xmonad anymore?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u1840t/does_anyone_else_use_xmonad_anymore/
+
+---
+
+#### 4712. I want to switch to Linux but my biggest problem is gaming
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u1htue/i_want_to_switch_to_linux_but_my_biggest_problem/
+
+---
+
+#### 4713. Linux of a android phone
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u173df/linux_of_a_android_phone/
+
+---
+
+#### 4714. How do I learn Linux without having Linux on my pc??
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u1ftd2/how_do_i_learn_linux_without_having_linux_on_my_pc/
+
+---
+
+#### 4715. Confused about the EFI partition
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u14vc0/confused_about_the_efi_partition/
+
+---
+
+#### 4716. How much difference does it make, to use LTS kernel or Normal kernel in terms of compability and FPS?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u1ewdx/how_much_difference_does_it_make_to_use_lts/
+
+---
+
+#### 4717. Issue with Realtek RTL8125 2.5GbE stopping working on nixos
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u181lz/issue_with_realtek_rtl8125_25gbe_stopping_working/
+
+---
+
+#### 4718. My wireless hotspot can't share internet after reboot, why? How do I make it work better.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u1e7pf/my_wireless_hotspot_cant_share_internet_after/
+
+---
+
+#### 4719. From cachyOS to arch
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u1bsif/from_cachyos_to_arch/
+
+---
+
+#### 4720. Nvidia LED Visualizer for Linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u1bj2m/nvidia_led_visualizer_for_linux/
+
+---
+
+#### 4721. can i learn Linux in kail even if i don't need it for hacking and security ?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u1hrau/can_i_learn_linux_in_kail_even_if_i_dont_need_it/
+
+---
+
+#### 4722. How would i continue here?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u1avzc/how_would_i_continue_here/
+
+---
+
+#### 4723. what distro to choose for the first
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u1ap04/what_distro_to_choose_for_the_first/
+
+---
+
+#### 4724. Hardware video acceleration is laggy (AMD GPU)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u1agwn/hardware_video_acceleration_is_laggy_amd_gpu/
+
+---
+
+#### 4725. Applying Linux to Win/Android Tablet - port and distro questions
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u199co/applying_linux_to_winandroid_tablet_port_and/
+
+---
+
+#### 4726. Do I have to worry about hardware compatibility when upgrading my pc?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u18rl4/do_i_have_to_worry_about_hardware_compatibility/
+
+---
+
+#### 4727. Soo should i do it?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u183ph/soo_should_i_do_it/
+
+---
+
+#### 4728. Trying to make a custom boot splash.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1u17wi9/trying_to_make_a_custom_boot_splash/
+
+---
+
+#### 4729. Swithed to Ubuntu, best decision of my life after my frustration with Windows 11!
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u1b3vu/swithed_to_ubuntu_best_decision_of_my_life_after/
+
+---
+
+#### 4730. Upgraded to Ubuntu 25.10
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u10c79/upgraded_to_ubuntu_2510/
+
+---
+
+#### 4731. Upgraded to 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u16qvq/upgraded_to_2604/
+
+---
+
+#### 4732. Who was gonna tell me?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u19948/who_was_gonna_tell_me/
+
+---
+
+#### 4733. Looking for new wallpapers? Here is a collection of high-quality Ubuntu and other OS wallpapers! (Google drive Link in Description)
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u0ubkd/looking_for_new_wallpapers_here_is_a_collection/
+
+---
+
+#### 4734. Just installed Ubuntu! Which programming languages will be most important from 2026 to 2030?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u0wwet/just_installed_ubuntu_which_programming_languages/
+
+---
+
+#### 4735. Moving to Linux from Windows: What should I expect to give up?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u14gsk/moving_to_linux_from_windows_what_should_i_expect/
+
+---
+
+#### 4736. botles epic games and some apps dosent work
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u1j7ny/botles_epic_games_and_some_apps_dosent_work/
+
+---
+
+#### 4737. Woke up to a broken laptop
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u12xp8/woke_up_to_a_broken_laptop/
+
+---
+
+#### 4738. Ubuntu 24.04 LTS - nginx segfaults after installing updates
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u14eyz/ubuntu_2404_lts_nginx_segfaults_after_installing/
+
+---
+
+#### 4739. Please help with installing ubuntu on my surface
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u1fkru/please_help_with_installing_ubuntu_on_my_surface/
+
+---
+
+#### 4740. Wayland to xorg
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u1eyg6/wayland_to_xorg/
+
+---
+
+#### 4741. Key Remapping for Dummies
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u1etiv/key_remapping_for_dummies/
+
+---
+
+#### 4742. Updated to 26.04 LTS and now USB KB doesn't work
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u1e8r1/updated_to_2604_lts_and_now_usb_kb_doesnt_work/
+
+---
+
+#### 4743. Ubuntu server shell prompt
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u1ci1s/ubuntu_server_shell_prompt/
+
+---
+
+#### 4744. What’s the difference between Ubuntu on Xorg and Ubuntu on Wayland?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u12qmo/whats_the_difference_between_ubuntu_on_xorg_and/
+
+---
+
+#### 4745. big problem
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u1bllc/big_problem/
+
+---
+
+#### 4746. Ubuntu boot freezes on gray screen (ThinkBook Plus Gen 2 Dual Screen - Intel i915 / ITE T-CON E-Ink)
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u13uqt/ubuntu_boot_freezes_on_gray_screen_thinkbook_plus/
+
+---
+
+#### 4747. x64 packages
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u111el/x64_packages/
+
+---
+
+#### 4748. Is user experience getting worse?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u12n2j/is_user_experience_getting_worse/
+
+---
+
+#### 4749. Guide on how to configure Ubuntu 26.04 after installation
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u1ecw1/guide_on_how_to_configure_ubuntu_2604_after/
+
+---
+
+#### 4750. Expanding a partition
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u10bkq/expanding_a_partition/
+
+---
+
+#### 4751. Need help with bios logo and booting screen
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u1ieag/need_help_with_bios_logo_and_booting_screen/
+
+---
+
+#### 4752. Saved you a click: Article highlighting four frustrations with linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u1i3hc/saved_you_a_click_article_highlighting_four/
+
+---
+
+#### 4753. Applications won't open (including terminal) after installing RPMFusion (Fedora 44)
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u1i2y1/applications_wont_open_including_terminal_after/
+
+---
+
+#### 4754. I want to switch to Linux but my biggest problem is gaming
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u1hr9w/i_want_to_switch_to_linux_but_my_biggest_problem/
+
+---
+
+#### 4755. Dual boot question
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u1gkaj/dual_boot_question/
+
+---
+
+#### 4756. switched to arch linux a while ago, want to switch from kde plasma
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u1a2fc/switched_to_arch_linux_a_while_ago_want_to_switch/
+
+---
+
+#### 4757. Trying to connect to my Linux Server via SSH with Filezilla on my Windows Computer but I'm having issues.
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u1396t/trying_to_connect_to_my_linux_server_via_ssh_with/
+
+---
+
+#### 4758. I plan on installing Linux Mint Cinnamon, as I briefly used it before with few problems. I want KDE Plasma as my desktop environment. Will the fact that it comes installed with Cinnamon cause problems? Should I just install vanilla Debian and choose Plasma as my desktop?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u18gfn/i_plan_on_installing_linux_mint_cinnamon_as_i/
+
+---
+
+#### 4759. big problem
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u1dzkn/big_problem/
+
+---
+
+#### 4760. Need advice on some lightweight Linux on my 20 years old laptop.
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u116zl/need_advice_on_some_lightweight_linux_on_my_20/
+
+---
+
+#### 4761. Clipboards
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u1baoa/clipboards/
+
+---
+
+#### 4762. Installing Linux (Mint) on Acer Aspire 314-22
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u13f8a/installing_linux_mint_on_acer_aspire_31422/
+
+---
+
+#### 4763. Applying Linux to Win/Android Tablet - port and distro questions
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u198vn/applying_linux_to_winandroid_tablet_port_and/
+
+---
+
+#### 4764. Huion HS611 Graphic Tablet not working.
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u12ure/huion_hs611_graphic_tablet_not_working/
+
+---
+
+#### 4765. what's a good linux distro for both ricing and gaming?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u1dtpd/whats_a_good_linux_distro_for_both_ricing_and/
+
+---
+
+#### 4766. Help with installing on a serfece laptop
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u1cp33/help_with_installing_on_a_serfece_laptop/
+
+---
+
+#### 4767. Not what you want to hear, but after fighting with Mint and Kubuntu, I'm going back to windows.
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u1hdyy/not_what_you_want_to_hear_but_after_fighting_with/
+
+---
+
+#### 4768. Capturas de pantalla y problemas de RDP
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u11azw/capturas_de_pantalla_y_problemas_de_rdp/
+
+---
+
+#### 4769. Best gaming Linux distro?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u0uz0r/best_gaming_linux_distro/
+
+---
+
+#### 4770. My server broke itself without touching
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1u1150l/my_server_broke_itself_without_touching/
+
+---
+
+#### 4771. Yet another progress bar for ffmpeg
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1u0vt2c/yet_another_progress_bar_for_ffmpeg/
+
+---
+
+#### 4772. findlargedir: Quickly locate flat "blackhole" directories with pathological entry counts
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1u1gzbv/findlargedir_quickly_locate_flat_blackhole/
+
+---
+
+#### 4773. replaySh save your terminal session as a workflow
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1u1e6f3/replaysh_save_your_terminal_session_as_a_workflow/
+
+---
+
+#### 4774. database workbench in terminal.
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1u13qzi/database_workbench_in_terminal/
+
+---
+
+#### 4775. roost - TUI-first dotfiles manager, written in Rust
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1u1czsa/roost_tuifirst_dotfiles_manager_written_in_rust/
+
+---
+
+#### 4776. Can git history be used to estimate ownership concentration in large OSS projects?
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1u1efis/can_git_history_be_used_to_estimate_ownership/
+
+---
+
+#### 4777. I got tired of remembering whether a file needed tar -xzf, unzip or 7z x so I wrote a script that handles common archive formats with a single command
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1u0uox7/i_got_tired_of_remembering_whether_a_file_needed/
+
+---
+
+#### 4778. Consent and staying informed are the key
+
+**问题描述 / Problem Description**:
+Reddit r/linuxmasterrace discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxmasterrace/comments/1u0moj3/consent_and_staying_informed_are_the_key/
+
+---
+
+#### 4779. [V2EX] 国产 Touchpad 在 arch 下偶发无法用手势
+
+**问题描述 / Problem Description**:
+ricky@archlinux ~> sudo dmesg | grep -i i2c [sudo] password for ricky: [ 0.211745] ACPI BIOS Error (bug): Could not resolve symbol [_SB.PC00.I2C3.TPD0], AE_NOT_FOUND (20251212/dswload2-162) [ 0.211891] ACPI BIOS Error (bug): Could not resolve symbol [_SB.PC00.I2C4.TPL1], AE_NOT_FOUND (20251212/dswlo
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1216141#reply4
+
+---
+
+#### 4780. [V2EX] Debian 龙芯 移植进度
+
+**问题描述 / Problem Description**:
+base-files_14_loong64.changes ACCEPTED into unstable Debian FTP Masters dpkg_1.22.21_loong64.changes ACCEPTED into unstable Debian FTP Masters make-dfsg_4.4.1-3_loong64.changes ACCEPTED into unstable Debian FTP Masters binutils_2.45.50.20251209-1_loong64.changes ACCEPTED into unstable Debian FTP Mas
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1178918#reply4
+
+---
+
+#### 4781. [V2EX] 来个靠谱中转站, 我用 codex, 只希望满血的 chatgpt5.5
+
+**问题描述 / Problem Description**:
+八戒给了我的 team 漏洞全部失效了, 昨天用它搞了一天, 爽歪了. 自己充值的 2 个土区 plus 要后天才恢复额度, 根本等不急, 做中转站的兄弟靠谱的留下联系方式吧.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219208#reply1
+
+---
+
+#### 4782. [V2EX] Claude Mythos 披着 Fable 5 的马甲发布了
+
+**问题描述 / Problem Description**:
+写着 included until June 22 ，饥饿营销这一块
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219205#reply5
+
+---
+
+#### 4783. [V2EX] [记录帖] 朋友准备去泰国发展，这一趟不知道会怎样
+
+**问题描述 / Problem Description**:
+起因是朋友在国内找不到工作，找了很久没响应，找的时间可能有 1 年了吧，也可能是手头拮据实在不行了，想去外面试试。 看截图感觉不靠谱，劝过也说了风险点，截图用 gemini 问了一嘴，输出一堆风险。但是他还是想试试，只能给句生死有命富贵在天了。 今天拉了个微信群，拉了家人和好友，一起充当后备安全站，出事马上 call 。 我俩认识了有 10 多年了，是初中同学来的，只能感慨，希望他能顺利吧。 以下是朋友和人事的截图： https://imgur.com/a/gqmWtZT https://imgur.com/a/4ZcJSof https://imgur.com/a/kwZU7OH https
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219202#reply11
+
+---
+
+#### 4784. [V2EX] 开发交给苍老师，测试全靠特朗普，管理全看三上悠亚，让日本老师们组成了个 agent 团队😂
+
+**问题描述 / Problem Description**:
+V2EX 放不了图，大家可以去 X 看： 日本老师们组成的 Hive Agent 团队 😍 Hive GitHub 仓库 大家感兴趣可以搭个试试
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219198#reply1
+
+---
+
+#### 4785. [V2EX] VibeCoding 了一个 VS Code 的 git 插件
+
+**问题描述 / Problem Description**:
+比较习惯 JetBrains 的 git 提交逻辑，但是 VSCode 上没找到类似的，于是 Vibe Coding 了一个，已上架插件商店 GitConstellation https://marketplace.visualstudio.com/items?itemName=flybugxyz.vscode-git-constellation
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219188#reply0
+
+---
+
+#### 4786. [V2EX] 有技术大牛吗
+
+**问题描述 / Problem Description**:
+最近我在研究脚本爬虫，但是玩不明白，球球大师来教教我
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219186#reply3
+
+---
+
+#### 4787. [V2EX] 分享 https://axisdepth.com，有关元宇宙 信息(股票 币) 互动 3D
+
+**问题描述 / Problem Description**:
+分享一个我最近做的项目， https://axisdepth.com 元宇宙这个话题热度已经过去了，我个人其实非常喜欢相关的创意和想法，但是感觉没做起来 的原因主要是俩个，一个是 VR/AR 的设备价格太高，舒适度也不够，再看内容主要是酷炫的显示为主， 感觉没有什么信息。 所以我萌生了这个项目，把信息存在感最强的金融数据和新闻数据融合到 3D 世界里面，还支持多用户的 位置实时共享和表情互动，数据都是实时更新的，金融数据包含美股、币等。 还有一点就是我感觉 3D 世界 对于人使用起来更加自然，你让一个小朋友学习浏览网站，点击新闻等实际上成本很高，3D 世界人类天天接触， 外面的高楼大厦的建筑，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219185#reply2
+
+---
+
+#### 4788. [V2EX] 讨论 LLM 哪家强和讨论语言是一样的，又不一样
+
+**问题描述 / Problem Description**:
+什么话题能把整个论坛的人惹毛？很多年前答案是“在论坛发个帖子：PHP 是最好的语言”。LLM 出现后，变成了哪个模型编程最强。但是没人再吵了，毕竟有这力气还不如讨论怎么保住饭碗，送外卖的时候什么品牌的电瓶车更好。 吵不起来的另一个原因是范围太大，语言有一定的适用性，PHP 做硬件再怎么杠也很难强过 C 。但模型什么都能做，写代码，测试，画图，拍视频，换尿布，策划战争，杀猪，开挖掘机，作诗，算账，砌墙，正骨，临终关怀，星际旅行，也许哪天就能生孩子了，从而实现对 C 语言和所有编程语言的超越。 还要考虑立场，为商业公司的模型摇旗呐喊是对无产阶级的背叛，工程师没有砸毁机器，以前调侃自己是码农，但那时
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219181#reply0
+
+---
+
+#### 4789. [V2EX] 比对工具:渐进式改造跑得通的隐形基础设施
+
+**问题描述 / Problem Description**:
+比对工具,我做老系统改造时唯一不省的东西 8 年里我反复总结过一句话: 老系统改造,新老两边的输出如果不能用工具自动 diff,就只能 靠人盯。靠人盯一定会漏。 漏的不是大 bug——大 bug 上线 1 小时就报警了。 漏的是那种"看起来对但不对"的——单跑任何一边都看不出来, 机器把全量数据 diff 一遍,问题才浮出来。 下面是 4 个例子,都是真实经历过的项目,做了脱敏。 例 1 · 订单类系统迁移的 dump 比对 上篇提过的"老语言迁到主流语言"的项目,跨 14 个月切完。 这 14 个月里整个迁移就靠一件事撑着: dump 比对 。 老系统的事件流 dump 一份,新系统的事件流
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219171#reply0
+
+---
+
+#### 4790. [V2EX] 8 年重构踩坑的领悟：渐进式改造
+
+**问题描述 / Problem Description**:
+干了 8 年业务系统,最后只剩一句话:能不重写就不重写 8 年时间,做过订单结算、比价、实体匹配、主数据治理 4 个领域。 最近整理过往项目时发现一个规律: 我做过的几次大改造,跨度 5 年, 没有一次是"推倒重来"成功 的——但全部"逐步替换"成功了 。 不是我胆小。是真的踩过坑。 最近带 mentee 时这个判断反复被问,所以想完整写一次。 1. 老订单系统从 .NET 迁到 Java 跨 2 年。 方式不是停掉老的、上线新的——是同时跑,新订单走新系统、老 订单仍走老系统,通过比对工具持续校验差异。 切流粒度很细。从 0.1% 灰度开始, 最小灰度颗粒到具体业务 ID 维度 ,最终切完用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219149#reply0
+
+---
+
+#### 4791. [V2EX] 一个人写了大半年 Android App，聊聊过程中的一些取舍，第 5
+
+**问题描述 / Problem Description**:
+一个人写了大半年 Android App ，聊聊过程中的一些取舍 #5 前几篇聊过 Meows （ #1 、 #2 等）——一个 SSH 服务器监控 App ，填个 IP 加账号就能盯自己 VPS 的 CPU / 内存 / 磁盘 / 网络，服务器端零安装。这篇说说 1.0.151 比上一版多了啥：一个大功能（ Docker 管理）+ 一堆磨细节的优化。 先放张图，一台服务器在卡片上长这样： 光这一张卡片就够我纠结半天——地区、系统、内核、机房、几个流媒体/AI 的解锁状态、CPU/内存/磁盘、上下行……信息想给全，又怕糊一脸。来回改了好几版，最后按"多久变一次"来排：基本不动的系统信息靠前，状
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219146#reply12
+
+---
+
+#### 4792. [V2EX] 目前对口型性价比高的 API 有推荐么？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219134#reply0
+
+---
+
+#### 4793. [V2EX] 为何没人探讨 MAF Microsoft Agent Framework
+
+**问题描述 / Problem Description**:
+为何没人探讨 MAF Microsoft Agent Framework 六边形架构，开发起来很顺手 中间件注入也很方便 架构层 telemetry 声明式 Func tool 开发 + doc String 上下文注入，无脑 tool 渐进式披露 内置 harness agent 模板 安利一波
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219132#reply5
+
+---
+
+#### 4794. [V2EX] 被公安请去喝茶了，刚回到家，提醒一下大家注意安全
+
+**问题描述 / Problem Description**:
+接到陌生人电话让我去派出所一趟，也不明说有什么事情，一开始以为是诈骗，但是对方说本地话，感觉不像骗子。 然后我就去了，民警说我们公司的网站涉黄，我一看，我说这个域名我们 2019 年就没有使用了，很多年不用了，不是我们的域名。 但是，这个域名的备案信息之前是用我们公司备案的，所以找到了我。 然后提交了一些证明，证明和我无关。公安给我下发几个通知书、整改书、网络安全知识等公文，然后喝了杯茶就回家了，茶还不错。 提醒大家，不续费的域名记得取消备案，以免给自己带来麻烦。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219106#reply79
+
+---
+
+#### 4795. [V2EX] 建议大家在分享自己项目的时候详细讲讲技术原理
+
+**问题描述 / Problem Description**:
+论坛里大家分享自己的项目的挺多的，个人是很理解。 不过上来直接就推广，毕竟会让大家比较反感，而且你的推广效果也不好。 个人建议： 1 、分享项目的时候，详细讲讲项目的技术原理、创新思路、经验教训，让大家从你的分享里有所收获。所谓吃人的嘴短，这样大家也不好意思说你了，也能让大家对你的产品更放心。 2 、也不用担心自己的东西被别人抄了，这个时代，其实实现本身就是最大的成本了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219095#reply14
+
+---
+
+#### 4796. [V2EX] 1 个 gpt pro 账号有多少并发 rpm
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219094#reply3
+
+---
+
+#### 4797. [V2EX] 目前模型在代码里面的感觉只能 0-1 是比较 ok 的;
+
+**问题描述 / Problem Description**:
+AI 出来到现在也用了不少模型,国内国外都用过,从最开始一问一答,到现在各家 cli,集成 IDE,插件;使用各种工具,技能,边界限定,能读写文件,创建目录,重构等等; 以及市面上比较惊艳的宣传片. 从 0-1 是真的很好用,但是发现从 2-100;就需要人各种参与了,或者说你给写很完善的设计,架构,边界.可能效果会好很多. 个人认为模型底层思想不破局,即还是基于统计学,什么回答奖励,各种机制的前提下. 并且目前各家模型同质化会更加严重.个人观点
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219075#reply13
+
+---
+
+#### 4798. [V2EX] Vibe Coding 不是软件工程？符合软件工程规范的 AI 软件工程平台来了。
+
+**问题描述 / Problem Description**:
+过去半年，我们团队尝试了全流程的 Vibe Coding 模式。刚开始用提示词生成代码的感觉非常爽快，但随着项目规模扩大，技术债开始爆发。 Vibe Coding 的核心问题并不在于某几行代码的质量低下，而在于它完全缺乏全局观，且不遵循软件工程的规范。 没有宏观架构，没有项目长期记忆，没有自动化审计，我们意识到 Vibe Coding Is Not Engineering 。 为了使 AI 编程更符合软件工程规范，我们开发了这个项目。 AnyPal：将 Vibe Coding 带入软件工程时代 AnyPal 是由 Pomesoft 研发的全栈 AI 编程平台，支持导入国内外主流模型 API 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219067#reply25
+
+---
+
+#### 4799. [V2EX] 分享一个学英语的浏览器插件，可以浏览器划词添加，手机零碎时间复习
+
+**问题描述 / Problem Description**:
+天天都用来标记 openai,anthropic,x 上的英文单词，还是挺好用的。 地址： https://github.com/hapiman/vocab-plugin 贴一些图：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219036#reply0
+
+---
+
+#### 4800. [V2EX] 试试你显卡一秒的计算量，用 CPU 单核需要算多久
+
+**问题描述 / Problem Description**:
+用前几天讨论的 只有 3 个运算操作的解密函数 更新了之前的时间锁算法。现在“GPU 并行加密时间 / CPU 单核解密时间”的比例更大，在高端显卡上可达到万级，几秒钟的加密可生成一天的解密。 在线演示 默认 8192 并发，高端显卡可以调高。想测试 GPU 性能的话，可以把 Cost 调到几万，否则加密很快就完成。 加密完成后点击 Share 按钮可生成解密链接，打开后可测试 CPU 的解密速度和用时。不过 CPU 单核性能不像 GPU 那样有巨大差距，即使顶配也只有 6GHz 左右（能长时间稳定运行的频率），因此解密的时间差距相对公平，这也是这个锁的意义。 原理细节 （看不懂的话让 AI
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219019#reply1
 
 ---

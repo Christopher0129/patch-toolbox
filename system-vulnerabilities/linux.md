@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1720**
+**总计条目 / Total entries: 1748**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -33026,5 +33026,453 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8400-1
+
+---
+
+#### 1721. CVE-2026-52903 - manageiq: YAML safe_load production fallback to unsafe_load enables RCE via…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] manageiq: YAML safe_load production fallback to unsafe_load enables RCE via deserialization. Bugzilla: 2486730
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486730
+
+---
+
+#### 1722. CVE-2026-52902 - awxkit: path traversal via YAML !include directive
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] awxkit: path traversal via YAML !include directive. Bugzilla: 2486729
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486729
+
+---
+
+#### 1723. CVE-2026-11577 - keycloak: keycloak: privilege escalation via partialImport FGAP permission bypass
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: keycloak: privilege escalation via partialImport FGAP permission bypass. Bugzilla: 2459993
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2459993
+
+---
+
+#### 1724. CVE-2025-71315 - kernel: drm/vkms: Convert to DRM's vblank timer
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: drm/vkms: Convert to DRM's vblank timer. Bugzilla: 2486385
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486385
+
+---
+
+#### 1725. CVE-2026-46275 - kernel: Bluetooth: hci_uart: fix UAFs and race conditions in close and init paths
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Bluetooth: hci_uart: fix UAFs and race conditions in close and init paths. Bugzilla: 2486398
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486398
+
+---
+
+#### 1726. CVE-2026-46274 - kernel: io-wq: check that the predecessor is hashed in io_wq_remove_pending()
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: io-wq: check that the predecessor is hashed in io_wq_remove_pending(). Bugzilla: 2486404
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486404
+
+---
+
+#### 1727. CVE-2026-46292 - kernel: pmdomain: core: Fix detach procedure for virtual devices in genpd
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: pmdomain: core: Fix detach procedure for virtual devices in genpd. Bugzilla: 2486428
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486428
+
+---
+
+#### 1728. CVE-2026-46313 - kernel: media: intel/ipu6: fix error pointer dereference
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: media: intel/ipu6: fix error pointer dereference. Bugzilla: 2486429
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486429
+
+---
+
+#### 1729. CVE-2026-46299 - kernel: hfsplus: fix held lock freed on hfsplus_fill_super()
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: hfsplus: fix held lock freed on hfsplus_fill_super(). Bugzilla: 2486430
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486430
+
+---
+
+#### 1730. CVE-2026-46302 - kernel: selinux: allow multiple opens of /sys/fs/selinux/policy
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: selinux: allow multiple opens of /sys/fs/selinux/policy. Bugzilla: 2486432
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486432
+
+---
+
+#### 1731. CVE-2026-46295 - kernel: KVM: x86: Do IRR scan in __kvm_apic_update_irr even if PIR is empty
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: KVM: x86: Do IRR scan in __kvm_apic_update_irr even if PIR is empty. Bugzilla: 2486435
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486435
+
+---
+
+#### 1732. CVE-2026-46289 - kernel: lib/scatterlist: fix length calculations in extract_kvec_to_sg
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: lib/scatterlist: fix length calculations in extract_kvec_to_sg. Bugzilla: 2486436
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486436
+
+---
+
+#### 1733. CVE-2026-46279 - kernel: mm/alloc_tag: clear codetag for pages allocated before page_ext…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: mm/alloc_tag: clear codetag for pages allocated before page_ext initialization. Bugzilla: 2486437
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486437
+
+---
+
+#### 1734. CVE-2026-46312 - kernel: media: videobuf2: Set vma_flags in vb2_dma_sg_mmap
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: media: videobuf2: Set vma_flags in vb2_dma_sg_mmap. Bugzilla: 2486438
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486438
+
+---
+
+#### 1735. CVE-2026-46305 - kernel: staging: rtl8723bs: os_dep: avoid NULL pointer dereference in…
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: staging: rtl8723bs: os_dep: avoid NULL pointer dereference in rtw_cbuf_alloc. Bugzilla: 2486439
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486439
+
+---
+
+#### 1736. CVE-2026-46308 - kernel: pmdomain: mediatek: fix use-after-free in…
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: pmdomain: mediatek: fix use-after-free in scpsys_get_bus_protection_legacy(). Bugzilla: 2486440
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486440
+
+---
+
+#### 1737. CVE-2026-46310 - kernel: media: renesas: vsp1: Fix NULL pointer deref on module unload
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: media: renesas: vsp1: Fix NULL pointer deref on module unload. Bugzilla: 2486441
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486441
+
+---
+
+#### 1738. CVE-2026-46296 - kernel: spi: s3c64xx: fix NULL-deref on driver unbind
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: spi: s3c64xx: fix NULL-deref on driver unbind. Bugzilla: 2486443
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486443
+
+---
+
+#### 1739. CVE-2026-46277 - kernel: mm/zone_device: do not touch device folio after calling ->folio_free()
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: mm/zone_device: do not touch device folio after calling ->folio_free(). Bugzilla: 2486444
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486444
+
+---
+
+#### 1740. [Ubuntu] USN-8414-2: OpenSSL vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8414-1 fixed several vulnerabilities in OpenSSL. This update provides the corresponding update for Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, and Ubuntu 20.04 LTS. Original advisory details: Frank Buss discovered that OpenSSL had a heap buffer over-read in ASN.1 content parsing. An attacker could possibly use this issue to cause OpenSSL to crash, resulting in a denial of service, or
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8414-2
+
+---
+
+#### 1741. [Ubuntu] USN-8416-1: Go Networking vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Go Networking incorrectly handled certain Punycode-encoded labels in the idna package. An attacker could possibly use this issue to bypass hostname-based access restrictions.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8416-1
+
+---
+
+#### 1742. [Ubuntu] USN-8415-1: Vim vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Vim incorrectly handled marked filenames in the netrw plugin. An attacker could possibly use this issue to execute arbitrary code. (CVE-2026-43961) It was discovered that Vim incorrectly handled filenames when decompressing certain archives. An attacker could possibly use this issue to execute arbitrary code. (CVE-2026-46483)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8415-1
+
+---
+
+#### 1743. [Ubuntu] USN-8409-1: uriparser vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that uriparser incorrectly handled certain URI strings. An attacker could possibly use this issue to cause uriparser to crash, resulting in a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8409-1
+
+---
+
+#### 1744. [Ubuntu] USN-8156-2: GDK-PixBuf vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8156-1 fixed a vulnerability in GDK-PixBuf. This update provides the corresponding update for Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, and Ubuntu 20.04 LTS. Original advisory details: It was discovered that GDK-PixBuf incorrectly handled certain JPEG files. An attacker could use this issue to cause GDK-PixBuf to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8156-2
+
+---
+
+#### 1745. [Ubuntu] USN-8412-1: QEMU vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Felipe Franciosi, Raphael Norwitz, and Peter Turschmid discovered that the iSCSI block driver in QEMU incorrectly handled certain responses from an iSCSI server. A remote attacker could possibly use this issue to cause QEMU to crash, resulting in a denial of service, or possibly execute arbitrary code. This issue only affected Ubuntu 14.04 LTS. (CVE-2020-1711) It was discovered that the iSCSI bloc
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8412-1
+
+---
+
+#### 1746. [Ubuntu] USN-8413-1: Cyborg vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Cyborg did not properly enforce project ownership in the Accelerator Request (ARQ) API. An authenticated user could possibly use this issue to delete ARQs bound to other projects' instances, resulting in a cross-tenant denial of service. (CVE-2026-40214) It was discovered that Cyborg used a permissive default policy that authorized any request carrying a valid authentication
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8413-1
+
+---
+
+#### 1747. [Ubuntu] USN-8411-1: Lodash vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Lodash was vulnerable to a prototype pollution issue in the zipObjectDeep function. An attacker could possibly use this issue to modify application behavior. This issue only affected Ubuntu 18.04 LTS and Ubuntu 20.04 LTS. (CVE-2020-8203) Liyuan Chen discovered that Lodash was vulnerable to a regular expression denial of service issue in the toNumber, trim, and trimEnd functi
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8411-1
+
+---
+
+#### 1748. [Ubuntu] USN-8398-2: nginx regression
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8398-1 fixed a vulnerability in nginx. The update introduced a regression causing nginx to crash when being used with external modules. This update reverts the fix for CVE-2026-49975 pending further investigation. We apologize for the inconvenience. Original advisory details: It was discovered that nginx incorrectly handled certain cookie headers in the HTTP/2 implementation. A remote attacker
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8398-2
 
 ---
