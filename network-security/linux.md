@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1819**
+**总计条目 / Total entries: 1841**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -29549,5 +29549,269 @@ USN-8398-1 fixed a vulnerability in nginx. The update introduced a regression ca
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8398-2
+
+---
+
+#### 1820. CVE-2026-11837 - ansible-collection-ansible-posix: ansible.posix authorized_key: local privilege…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] ansible-collection-ansible-posix: ansible.posix authorized_key: local privilege escalation via symlink-following chown. Bugzilla: 2487424
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487424
+
+---
+
+#### 1821. CVE-2026-46315 - kernel: io_uring/waitid: clear waitid info before copying it to userspace
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: io_uring/waitid: clear waitid info before copying it to userspace. Bugzilla: 2486933
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486933
+
+---
+
+#### 1822. CVE-2026-46317 - kernel: KVM: arm64: Reassign nested_mmus array behind mmu_lock
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: KVM: arm64: Reassign nested_mmus array behind mmu_lock. Bugzilla: 2486976
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486976
+
+---
+
+#### 1823. CVE-2026-46321 - kernel: tun: free page on short-frame rejection in tun_xdp_one()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: tun: free page on short-frame rejection in tun_xdp_one(). Bugzilla: 2486977
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486977
+
+---
+
+#### 1824. CVE-2026-46319 - kernel: net/sched: act_ct: Only release RCU read lock after ct_ft
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net/sched: act_ct: Only release RCU read lock after ct_ft. Bugzilla: 2486979
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486979
+
+---
+
+#### 1825. CVE-2026-46324 - kernel: netfilter: nf_tables: use list_del_rcu for netlink hooks
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: netfilter: nf_tables: use list_del_rcu for netlink hooks. Bugzilla: 2486980
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486980
+
+---
+
+#### 1826. CVE-2026-46316 - kernel: KVM: arm64: vgic-its: Drop the translation cache reference only for the…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: KVM: arm64: vgic-its: Drop the translation cache reference only for the erased entry. Bugzilla: 2486982
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486982
+
+---
+
+#### 1827. CVE-2026-46318 - kernel: Revert "mm/hugetlbfs: update hugetlbfs to use mmap_prepare"
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Revert "mm/hugetlbfs: update hugetlbfs to use mmap_prepare". Bugzilla: 2486983
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486983
+
+---
+
+#### 1828. CVE-2026-46320 - kernel: tap: free page on error paths in tap_get_user_xdp()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: tap: free page on error paths in tap_get_user_xdp(). Bugzilla: 2486985
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486985
+
+---
+
+#### 1829. CVE-2026-46322 - kernel: tun: free page on build_skb failure in tun_xdp_one()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: tun: free page on build_skb failure in tun_xdp_one(). Bugzilla: 2486987
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486987
+
+---
+
+#### 1830. CVE-2026-46327 - kernel: dm: fix unlocked test for dm_suspended_md
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: dm: fix unlocked test for dm_suspended_md. Bugzilla: 2486994
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486994
+
+---
+
+#### 1831. CVE-2026-46332 - kernel: greybus: gb-beagleplay: bound bootloader receive buffering
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: greybus: gb-beagleplay: bound bootloader receive buffering. Bugzilla: 2486995
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486995
+
+---
+
+#### 1832. CVE-2026-46326 - kernel: iio: pressure: mprls0025pa: fix spi_transfer struct initialisation
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: iio: pressure: mprls0025pa: fix spi_transfer struct initialisation. Bugzilla: 2486997
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486997
+
+---
+
+#### 1833. CVE-2026-52906 - kernel: 9p: fix access mode flags being ORed instead of replaced
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: 9p: fix access mode flags being ORed instead of replaced. Bugzilla: 2486998
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486998
+
+---
+
+#### 1834. CVE-2026-46330 - kernel: Revert "net/smc: Introduce TCP ULP support"
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Revert "net/smc: Introduce TCP ULP support". Bugzilla: 2486999
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486999
+
+---
+
+#### 1835. CVE-2026-46328 - kernel: apparmor: fix rlimit for posix cpu timers
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: apparmor: fix rlimit for posix cpu timers. Bugzilla: 2487000
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487000
+
+---
+
+#### 1836. CVE-2026-52907 - kernel: media: rockchip: rkcif: fix off by one bugs
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: media: rockchip: rkcif: fix off by one bugs. Bugzilla: 2487001
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487001
+
+---
+
+#### 1837. CVE-2026-46325 - kernel: RDMA/rxe: Fix iova-to-va conversion for MR page sizes != PAGE_SIZE
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: RDMA/rxe: Fix iova-to-va conversion for MR page sizes != PAGE_SIZE. Bugzilla: 2487002
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487002
+
+---
+
+#### 1838. [Ubuntu] USN-8419-1: HTTP-Daemon vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that HTTP-Daemon incorrectly handled untrusted input under certain circumstances. A remote attacker could possibly use this issue to execute arbitrary commands, create or overwrite arbitrary files, or expose sensitive information.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8419-1
+
+---
+
+#### 1839. [Ubuntu] USN-6455-2: Exim regression
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-6455-1 fixed vulnerabilities in Exim. The fix for CVE-2023-42117 introduced a regression on Ubuntu 22.04 LTS that resulted in certain connections logging a Taint mismatch error. This update fixes the problem. We apologize for the inconvenience. Original advisory details: It was discovered that Exim incorrectly handled validation of user-supplied data, which could lead to memory corruption. A r
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-6455-2
+
+---
+
+#### 1840. [Ubuntu] USN-8130-3: GStreamer Base Plugins vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8130-1 fixed a vulnerability in GStreamer Base Plugins. This update provides the corresponding update for Ubuntu 16.04 LTS. Original advisory details: It was discovered that GStreamer Base Plugins incorrectly handled certain AVI media files. A remote attacker could use this issue to cause GStreamer Base Plugins to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8130-3
+
+---
+
+#### 1841. [Ubuntu] USN-8417-1: Tomcat vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Tomcat did not properly limit the size of WebDAV LOCK and PROPFIND request bodies. A remote attacker could use this issue to cause Tomcat to consume excessive memory, resulting in a denial of service. (CVE-2026-41284) It was discovered that Tomcat incorrectly validated HTTP/2 header fields. A remote attacker could use this issue to cause Tomcat to crash or possibly execute a
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8417-1
 
 ---
