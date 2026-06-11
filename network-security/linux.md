@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1841**
+**总计条目 / Total entries: 1865**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -29813,5 +29813,297 @@ It was discovered that Tomcat did not properly limit the size of WebDAV LOCK and
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8417-1
+
+---
+
+#### 1842. CVE-2026-46520 - ImageMagick: ImageMagick: Denial of Service via out-of-bounds write when…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via out-of-bounds write when processing multiple images. Bugzilla: 2487729
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487729
+
+---
+
+#### 1843. CVE-2026-45664 - ImageMagick: ImageMagick: Denial of Service due to excessive resource use in MNG…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service due to excessive resource use in MNG coder. Bugzilla: 2487732
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487732
+
+---
+
+#### 1844. CVE-2026-46522 - ImageMagick: ImageMagick: Denial of Service via crafted MIFF file
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via crafted MIFF file. Bugzilla: 2487730
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487730
+
+---
+
+#### 1845. CVE-2026-45624 - ImageMagick: ImageMagick: Data exposure due to image processing vulnerability
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Data exposure due to image processing vulnerability. Bugzilla: 2487739
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487739
+
+---
+
+#### 1846. CVE-2026-45359 - ImageMagick: ImageMagick: Information Disclosure via Invalid Connected-Components…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Information Disclosure via Invalid Connected-Components Value. Bugzilla: 2487737
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487737
+
+---
+
+#### 1847. CVE-2026-42326 - ImageMagick: ImageMagick: Information disclosure via malicious IPTC input file
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Information disclosure via malicious IPTC input file. Bugzilla: 2487735
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487735
+
+---
+
+#### 1848. CVE-2026-45031 - ImageMagick: ImageMagick: Denial of Service due to resource policy bypass in PSD…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service due to resource policy bypass in PSD decoder. Bugzilla: 2487734
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487734
+
+---
+
+#### 1849. CVE-2026-46523 - ImageMagick: ImageMagick: Denial of Service via crafted MSL image leading to…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via crafted MSL image leading to heap-use-after-free. Bugzilla: 2487743
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487743
+
+---
+
+#### 1850. CVE-2026-10143 - kafka-python: kafka-python: Denial of Service via excessive SCRAM authentication…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kafka-python: kafka-python: Denial of Service via excessive SCRAM authentication iteration count. Bugzilla: 2487722
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487722
+
+---
+
+#### 1851. CVE-2026-6893 - dracut: dracut: Root code execution via DHCP options command injection
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] dracut: dracut: Root code execution via DHCP options command injection. Bugzilla: 2459963
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2459963
+
+---
+
+#### 1852. CVE-2026-45591 - dotnet: ASP.NET Core: Denial of Service via uncontrolled resource consumption
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] dotnet: ASP.NET Core: Denial of Service via uncontrolled resource consumption. Bugzilla: 2487224
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487224
+
+---
+
+#### 1853. CVE-2026-45491 - dotnet: .NET: Local file tampering via link following vulnerability
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] dotnet: .NET: Local file tampering via link following vulnerability. Bugzilla: 2487164
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487164
+
+---
+
+#### 1854. CVE-2026-45490 - dotnet: .NET SDK workload elevate: arbitrary file creation/truncation via LogFile…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] dotnet: .NET SDK workload elevate: arbitrary file creation/truncation via LogFile named pipe.. Bugzilla: 2487184
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487184
+
+---
+
+#### 1855. CVE-2026-42599 - svelte: Svelte: Cross-Site Scripting via untrusted data in spread attributes
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] svelte: Svelte: Cross-Site Scripting via untrusted data in spread attributes. Bugzilla: 2487076
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487076
+
+---
+
+#### 1856. CVE-2025-10263 - kernel: Arm Processors: Privilege escalation or information disclosure via writes…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Arm Processors: Privilege escalation or information disclosure via writes to higher exception level resources. Bugzilla: 2486958
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486958
+
+---
+
+#### 1857. CVE-2026-7383 - openssl: OpenSSL: Heap buffer overflow due to signed integer overflow in Unicode…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] openssl: OpenSSL: Heap buffer overflow due to signed integer overflow in Unicode output sizing. Bugzilla: 2481879
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2481879
+
+---
+
+#### 1858. CVE-2026-9076 - openssl: OpenSSL: Denial of Service due to heap out-of-bounds read in CMS…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] openssl: OpenSSL: Denial of Service due to heap out-of-bounds read in CMS password-based decryption. Bugzilla: 2481880
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2481880
+
+---
+
+#### 1859. [Ubuntu] USN-8426-1: Linux kernel (Azure) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel algif_aead module did not properly handle in-place cryptographic operations. This flaw is known as Copy Fail. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-31431) It was discovered that the Linux kernel did not properly handle shared page fragments during socket buffer operations, collectively known as Dirt
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8426-1
+
+---
+
+#### 1860. [Ubuntu] USN-8423-1: lwIP vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that lwIP contained a buffer overflow in the EAP authentication handling code. An attacker could possibly use this issue to trigger a buffer overflow, resulting in arbitrary code execution or a denial of service. This issue only affected Ubuntu 20.04 LTS. (CVE-2020-8597) It was discovered that lwIP incorrectly handled certain ICMPv6 or 6LoWPAN packets. An attacker could possibly
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8423-1
+
+---
+
+#### 1861. [Ubuntu] USN-8424-1: Ubuntu Kylin Software Center vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Ubuntu Kylin Software Center incorrectly handled user-supplied input in its D-Bus service. A local attacker could possibly use this issue to gain administrative privileges.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8424-1
+
+---
+
+#### 1862. [Ubuntu] USN-8422-1: Mistral vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Eduardo Gonzalez Gutierrez and Arnaud Morin discovered that Mistral did not properly enforce access policies on some API endpoints. An attacker could possibly execute arbitrary code on a Mistral worker and possibly extract sensitive data including service credentials from it.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8422-1
+
+---
+
+#### 1863. [Ubuntu] USN-8418-1: Crypt-SaltedHash vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Crypt-SaltedHash incorrectly generated salts using a cryptographically weak pseudo-random number generator. An attacker could possibly use this issue to predict generated salts, leading to a weakening of cryptographic protections.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8418-1
+
+---
+
+#### 1864. CVE-2026-11852
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+
+**漏洞描述 / Description**:
+Debusine is an integrated solution to build, distribute and maintain a Debian-based distribution. Files managed by debusine are organized into artifacts. The endpoints that create and delete relationships between artifacts enforced no permissions checks beyond being able to see the artifacts in question.
+
+**参考链接 / References**:
+- https://salsa.debian.org/freexian-team/debusine/-/commit/98104f46dc546a27a0326d5ef728ac7f426c430a
+- https://salsa.debian.org/freexian-team/debusine/-/merge_requests/2836
+- https://salsa.debian.org/freexian-team/debusine/-/work_items/1499
+
+---
+
+#### 1865. CVE-2026-11853
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+
+**漏洞描述 / Description**:
+Debusine is an integrated solution to build, distribute and maintain a Debian-based distribution. Debian source packages (.dsc) and upload artifacts (.changes) are manifest files that name the files that make up the artifact. The parser used to read these files in Debusine accepted arbitrary fully user-controlled paths. The mergeuploads task could be abused to create arbitrary symbolic links on a worker, overwriting any file that the worker user has access to.
+
+**参考链接 / References**:
+- https://salsa.debian.org/freexian-team/debusine/-/commit/c24cdc49fb258714767546bdec5b09f8065d414e
+- https://salsa.debian.org/freexian-team/debusine/-/merge_requests/3103
+- https://salsa.debian.org/freexian-team/debusine/-/work_items/1484
 
 ---

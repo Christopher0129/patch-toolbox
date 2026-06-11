@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6354**
+**总计条目 / Total entries: 6440**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -88366,5 +88366,1123 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1219336#reply24
+
+---
+
+#### 6355. Windows Keeps Reinstalling Updates immediately after uninstalling.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u303up/windows_keeps_reinstalling_updates_immediately/
+
+---
+
+#### 6356. Pc fans spin to life but rgb randomly stopped working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3cch6/pc_fans_spin_to_life_but_rgb_randomly_stopped/
+
+---
+
+#### 6357. rsync --exclude-from won't exclude filenames starting with #
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3a6jj/rsync_excludefrom_wont_exclude_filenames_starting/
+
+---
+
+#### 6358. Multiple different laptops suddenly losing battery around 50%
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3a2ss/multiple_different_laptops_suddenly_losing/
+
+---
+
+#### 6359. PC Not Displaying Problem
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u33yi8/pc_not_displaying_problem/
+
+---
+
+#### 6360. PC wont' connect to Ethernet.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3cv5y/pc_wont_connect_to_ethernet/
+
+---
+
+#### 6361. windows update 2026-06 Security Update (KB5094126) (26200.8655) failing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3cqgr/windows_update_202606_security_update_kb5094126/
+
+---
+
+#### 6362. Laptop graphics using integrated intel graphics
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3cq3j/laptop_graphics_using_integrated_intel_graphics/
+
+---
+
+#### 6363. Almost Black Screen for 2nd screen/ Drawing tablet.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3cnsw/almost_black_screen_for_2nd_screen_drawing_tablet/
+
+---
+
+#### 6364. My 3070 FE caught on fire
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3c99j/my_3070_fe_caught_on_fire/
+
+---
+
+#### 6365. When booting PC it turned off and then turned on, but screen stayed black
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3bj4c/when_booting_pc_it_turned_off_and_then_turned_on/
+
+---
+
+#### 6366. PC keeps turning on and off after MEUpdateTool
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3bcyq/pc_keeps_turning_on_and_off_after_meupdatetool/
+
+---
+
+#### 6367. 2 newer Win 11 laptops in our enviroment have slowed to a crawl with zero explanation
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u31kry/2_newer_win_11_laptops_in_our_enviroment_have/
+
+---
+
+#### 6368. Pcap analysis
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3b97c/pcap_analysis/
+
+---
+
+#### 6369. Phone turns the screen on every 3-4 minutes (Solved)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u2ytqr/phone_turns_the_screen_on_every_34_minutes_solved/
+
+---
+
+#### 6370. sentry headphones not connecting normally
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3aw4f/sentry_headphones_not_connecting_normally/
+
+---
+
+#### 6371. Go a screen replacement, now my phone over heats
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3amia/go_a_screen_replacement_now_my_phone_over_heats/
+
+---
+
+#### 6372. I keep getting this message: D is not accesible. A device which does not exist was specified.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3akvb/i_keep_getting_this_message_d_is_not_accesible_a/
+
+---
+
+#### 6373. The Witcher 3 error
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3ajf1/the_witcher_3_error/
+
+---
+
+#### 6374. Problem with AIO cooler unscrewing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3aj7k/problem_with_aio_cooler_unscrewing/
+
+---
+
+#### 6375. Windows 11 Mobile Hotspot not working with Oppo A9 2020
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3aixr/windows_11_mobile_hotspot_not_working_with_oppo/
+
+---
+
+#### 6376. Anyone know how to fix monitor
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3aibl/anyone_know_how_to_fix_monitor/
+
+---
+
+#### 6377. Weird alphanumeric folder name appearing in delete confirmation prompt inside Recycle Bin (Is this a virus?)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u347xs/weird_alphanumeric_folder_name_appearing_in/
+
+---
+
+#### 6378. Customers can’t access my website
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3aed4/customers_cant_access_my_website/
+
+---
+
+#### 6379. Thickheaded Thursday - June 11, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u2uqgj/thickheaded_thursday_june_11_2026/
+
+---
+
+#### 6380. Password Caps Lock instead of Shift Key
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u2wq1s/password_caps_lock_instead_of_shift_key/
+
+---
+
+#### 6381. Anyone else having issues accessing m365.cloud.microsoft?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u3afyg/anyone_else_having_issues_accessing/
+
+---
+
+#### 6382. What software do you miss from the pre-subscription era?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u37987/what_software_do_you_miss_from_the/
+
+---
+
+#### 6383. Anyone else feel more exhausted by their manager than their actual workload
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u2upkb/anyone_else_feel_more_exhausted_by_their_manager/
+
+---
+
+#### 6384. PSA: disabling the Run box (NoRun) to fight ClickFix also breaks typing paths in File Explorer. What are you guys doing to stop ClickFix attacks?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u3aaas/psa_disabling_the_run_box_norun_to_fight_clickfix/
+
+---
+
+#### 6385. Solo IT Itching to jump but scared my experience is wide, not deep.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u38ly1/solo_it_itching_to_jump_but_scared_my_experience/
+
+---
+
+#### 6386. Why does every "quick question" turn into a 30 minute troubleshooting session?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u2pgt2/why_does_every_quick_question_turn_into_a_30/
+
+---
+
+#### 6387. Proxmox Mail Gateway 9.1 released
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u2y23c/proxmox_mail_gateway_91_released/
+
+---
+
+#### 6388. Am I dreaming? (Office 365)
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u2tsfi/am_i_dreaming_office_365/
+
+---
+
+#### 6389. Ghost-Sender - Universal Email Spoofing against Exchange Online
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u2z12d/ghostsender_universal_email_spoofing_against/
+
+---
+
+#### 6390. 24hr lock on failed credentials?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u2war6/24hr_lock_on_failed_credentials/
+
+---
+
+#### 6391. Cisco Smartport
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u305by/cisco_smartport/
+
+---
+
+#### 6392. Work phone question?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u32dq3/work_phone_question/
+
+---
+
+#### 6393. Browser Notification Highjacking
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u31crv/browser_notification_highjacking/
+
+---
+
+#### 6394. KB5094126 - Breaking word integration with some dental software
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u31bje/kb5094126_breaking_word_integration_with_some/
+
+---
+
+#### 6395. New Start Menu - Can someone test something out?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u328yc/new_start_menu_can_someone_test_something_out/
+
+---
+
+#### 6396. I had a weird job interview yesterday
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u2m03a/i_had_a_weird_job_interview_yesterday/
+
+---
+
+#### 6397. Looking for an RMM that is more FOCUSED on patching
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u37yj8/looking_for_an_rmm_that_is_more_focused_on/
+
+---
+
+#### 6398. Interview tomorrow for IT System Manager, any advice?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u34ts2/interview_tomorrow_for_it_system_manager_any/
+
+---
+
+#### 6399. AZ-700 Exam Lab Issue – Contoso Authentication App QR Code Not Recognized
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u392vd/az700_exam_lab_issue_contoso_authentication_app/
+
+---
+
+#### 6400. Windows engineers/admins, are any of you writing actual Powershell now, or are you all using Al?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u2nqyi/windows_engineersadmins_are_any_of_you_writing/
+
+---
+
+#### 6401. Dell serviceshell.exe Consuming Several GB of RAM, New ControlUp IT Crash & Stability Finding
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u2w4yo/dell_serviceshellexe_consuming_several_gb_of_ram/
+
+---
+
+#### 6402. [V2EX] 游戏美术专业学生，拯救者 Y9000P 和 ASUS ProArt 16，应该选哪一款？
+
+**问题描述 / Problem Description**:
+因为一直几乎只用 Mac ，完全不懂 Windows ，但因为游戏美术专业的需求，必须选择一台高性能的 windows pc 。 目前，基本选定了二款： 拯救者 Y9000P ，5060ti 或 5070ti ，64G 内存； ASUS ProArt 创 16 ，锐龙 AI 9 HX370 ，5060 或 5070 （残血版），64G 内存。 性能肯定 Y9000P 更强，颜值和重量，则完败于 ProArt 创 16 ，但问题是创 16 的 5060 、5070 本身是残血版，而且没有 ti 选项，有点怕满足了不了需求。 尽管这些天做了一些功课，也问了一下 AI ，但考虑到 AI 的幻觉，求助
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219453#reply21
+
+---
+
+#### 6403. [V2EX] 讨论题，写 PPT、写材料到底对职业发展帮助大不大
+
+**问题描述 / Problem Description**:
+以前的公司，能用 Excel 讲清楚的，绝对不用 Word，能用 Word 讲清楚的，绝对不需要用到 PPT。 换了工作之后，经常要给老板做 PPT、工作里面要写各种报告、文档、每周要写周报、每个月要写月报，还要写自评，年中、年底还有大的汇报，大事小事，讨论之前一定要写各种材料，开会还要写会议纪要...等等 如果不是有 AI，我都不知道怎么活下去，以前的人又是怎么应付这些工作的。 整个人做麻木之后，我不禁想，我每天花大量时间写这些材料、做 PPT，到底对我职业发展有大帮助吗？ 领导喜欢的 PPT 风格不一样， 每个单位要写的材料格式不一样，而且做这些事情，反而没办法花费精力做主要工作， 每周感
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219762#reply1
+
+---
+
+#### 6404. [V2EX] 有没有搞过中转站的，想给公司内部搭建个号池，有没有传授下经验的
+
+**问题描述 / Problem Description**:
+公司领导同意搭建号池给内部提供 AI 服务，并且可以报销，没做过这方面的，想请教下有过这方面经验的人，比如账号注册，号池，订阅之类，sub2api 之类的感觉有点复杂呢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219751#reply7
+
+---
+
+#### 6405. [V2EX] 这个 word cpu 哪支队最有希望夺冠啊？
+
+**问题描述 / Problem Description**:
+如题如题，看它几场
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219741#reply10
+
+---
+
+#### 6406. [V2EX] 当前有哪些人工智能工作岗位比较容易找到工作呢？
+
+**问题描述 / Problem Description**:
+虽然用 claude code / gpt / codex 用它辅助生成代码也有一年半载的时间了，感受到人工智能编程带来的效率的提升，但是真正项目种对接人工智能场景其实还是不太多，我感觉到，如果各行各业要融入到人工智能带去的便捷，我认为市场上最需要的其实是能够对接人工智能到项目中，让项目借助人工智能而带给具体使用者便利性的开发者。 前些时间在招聘平台上招聘者问我会 agent 开发么？ 我愣了一下，agent 开发 最近看了下，agent 开发实际上就是 把工具指令 参数入口描述好，然后用人工智能调用这个指令 那么是不是 agent 开发这种需求比较多呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219739#reply0
+
+---
+
+#### 6407. [V2EX] 应届生不小心进了大厂咋办
+
+**问题描述 / Problem Description**:
+请问不小心进入大厂的后果是什么？应届本科双非女不小心进了大厂，没啥实力很担心试用期（三个月不打折）咋办呢？现在已经在公司实习快大半年个月了，然后给的薪资是 26k 但是觉得自己做的方向很偏，基本给人打杂做 dirtywork 的。我学习成绩蛮好的，离保研就差一点点，我心理一直都想考研的，但是感觉研究生考出来就那样，生活没有方向标了。。很迷茫，我的身体一直在干着，但是我的大脑空空，而且我实习期薪资就两百一天的水平。秋招一份简历没投一次都没面试过。其实对于开出来的价格已经很满意了，但是找不到自己的价值，技术也没提升，纯 vibe coding ；周围也没同事，只有领导给任务，很孤独；平时还会被各个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219723#reply36
+
+---
+
+#### 6408. [V2EX] 有没有让多个 AI 小组讨论的中转服务?
+
+**问题描述 / Problem Description**:
+中转服务会把一个问题同时发给多给 AI,接收到答案后合并一下,再次发给 AI 就说类似"我搜索到了一些信息,不一定正确,请参考后给出你的回答",如此 2-3 轮后输出回答,虽然也不一定统一或者正确.但有些时候是需要的. 感谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219722#reply2
+
+---
+
+#### 6409. [V2EX] 有 ifast ，可以办 wise, 怎么开通 chatgpt plus 账号
+
+**问题描述 / Problem Description**:
+现在 google 显示土耳其，估计当年买 10 年域名改的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219716#reply2
+
+---
+
+#### 6410. [V2EX] AI 编程麦克风的选择
+
+**问题描述 / Problem Description**:
+mac 上豆包输入法的语音输入很好用，win 上的微信输入法也更新了语音输入功能，目前耳机的麦克风收音不好，口喷编程的时候经常把对面同事的声音也录进去了，大家有没有好的麦克风推荐？动圈麦克风？电容麦克风？对这个领域不太熟悉。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219714#reply5
+
+---
+
+#### 6411. [V2EX] 世界杯到了，大家来预测一下世界杯冠军吧
+
+**问题描述 / Problem Description**:
+我先来，西班牙
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219711#reply16
+
+---
+
+#### 6412. [V2EX] 现在动不动都是大模型编程，但是我想做一个移动端实时人像分割的功能， AI 给的方案完全没法弄
+
+**问题描述 / Problem Description**:
+大家有什么好的移动端实时人像分割方案吗。 看过 PaddleSeg ，和 mediapipe ，在低端手机上性能还是不够。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219703#reply0
+
+---
+
+#### 6413. [V2EX] 如何降低 ds 不遵守规则的情况？
+
+**问题描述 / Problem Description**:
+各种 agent 都用过了， agents.md 明确要求了文档生成规则、文件名生成规则、流程规则，但是就是不遵守。包括有时候开发测试规则都不遵守，有啥好的办法么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219700#reply2
+
+---
+
+#### 6414. [V2EX] 怎么这样的 side project 都需要批量啊？
+
+**问题描述 / Problem Description**:
+https://imgur.com/a/H9wAG94 这个送电子花的项目，最近一下子刷到 3 个大差不差的。。为啥？什么出海群又搞活动么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219699#reply0
+
+---
+
+#### 6415. [V2EX] 阿里系的 app 是不是大厂中最难用的？
+
+**问题描述 / Problem Description**:
+点击支付宝，闪购，经常白屏，无任何反应。 还有阿里系的 app 打开经常跳到淘宝，好恶心。 要不是淘宝闪购比其他家便宜很多，早就卸了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219690#reply28
+
+---
+
+#### 6416. [V2EX] 虚心求教：现在找工作所需的垂直经验（不同行业业务实现），从什么方式可以学到
+
+**问题描述 / Problem Description**:
+比如自己想要自学包装成有电商系统、广告系统经验，这种该怎么系统学习达到面试能够侃侃而谈呢。 电商这个感觉还好，市面上有很多成熟的教程，但对于其他行业的呢，比如广告系统这类呢，感觉无从下手
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219687#reply2
+
+---
+
+#### 6417. [V2EX] 请问奈云可以退款吗？怎么稳定性这么差啊，还不如几块钱的机场
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219685#reply0
+
+---
+
+#### 6418. [V2EX] 人工智能或者半导体股票还能买吗
+
+**问题描述 / Problem Description**:
+如题，上个月入手的，这个月全跌回去了，亏得裤衩都没了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219684#reply7
+
+---
+
+#### 6419. [V2EX] codex 额度是不是缩水了
+
+**问题描述 / Problem Description**:
+背景 PRO 账户 5.4-高+5.5-中 现象 今天用了 2 个 5 小时额度，总 token 是 109,985,886 ，1 亿出头。 之前一天可以用到 2-3 亿，差不多也是 2 个 5 小时额度，有时候可能是 2.5 。 大家最近有这种情况吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219681#reply2
+
+---
+
+#### 6420. [V2EX] 大伙看看是不是骗子软件
+
+**问题描述 / Problem Description**:
+在找工作过程中突然有来了个短信找我要邮件地址进行沟通 后面在邮件中进行沟通给出了一个朝九晚五，福利待遇十分好的岗位，以为天上掉馅饼了。 但是我发现他面试需要单独下载一个什么 Make 软件还要单独给出手机型号，请大伙凑个热闹看看软件是不是骗子软件。 警惕天上馅饼。感觉不可能是真的。[捂脸] 请不要随意下载，或在虚拟环境中试用。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219680#reply3
+
+---
+
+#### 6421. [V2EX] m5 air 32 升级 m5 pro 48G
+
+**问题描述 / Problem Description**:
+如题: 发现最近 m5 pro 48G 14 寸 价格 逼近 15k ， 现有 m5 air 32G 在用，要不要升级。 话说这些 agents 还挺占内存的。现有内存占用: CPU: Apple M5 (10) @ 4.46 GHz GPU: Apple M5 (10) @ 1.58 GHz [Integrated] Memory: 26.63 GiB / 32.00 GiB (83%) Swap: 2.68 GiB / 4.00 GiB (67%) Disk (/): 315.55 GiB / 460.38 GiB (69%) 个人犹豫的点在于 48G 感觉不会比 32G 有翻天覆地的 体
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219673#reply7
+
+---
+
+#### 6422. [V2EX] 工作后第一次面试
+
+**问题描述 / Problem Description**:
+各位 v 友好，最近蠢蠢欲动一些面试机会。但是由于本人第一次毕业后开始找工作，有一些问题想请教下。 公司的话是个小公司基本上没啥空的会议室，有电话间倒是没什么人。 想知道如果一般这种有面试机会，比如 hr 面，技术面。需要请假吗？还是找个没人的地方就行，这样长时间比如面试的 40min-1.5 小时内不在工位会不会不太好？ （想知道大家是怎么处理的） 其次面试，我第一次面试先 hr 面说是 40-50min ，我有点没懂 hr 面需要这么久吗？大家一般准备一个公司比如 A 的各种面，hr 面，业务面，领导（管理层）面都是怎么准备的？或者每个的侧重点是什么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219665#reply2
+
+---
+
+#### 6423. How do I disable a physical Copilot button?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, microsoft-copilot | Score: 21 | Views: 3076 | Answers: 3 | Created: 2026-04-04
+
+**解决方案 / Solution**:
+Microsoft PowerToys Keyboard Manager can do it, but instead of "Remap a key", use "Remap a Shortcut", and remap Win (Left) + Shift (Left) + F23 to "Disable": Can also be remapped to left-arrow. (Found the solution like 40 minutes after posting the question)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936426/how-do-i-disable-a-physical-copilot-button
+
+---
+
+#### 6424. Force Windows to install *all* missing updates
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, windows-update, windows-server | Score: 21 | Views: 17388 | Answers: 4 | Created: 2020-03-22
+
+**解决方案 / Solution**:
+No you can not force all the updates at one time. Sometimes updates are applied to other updates. It is updating as far as it can in one go, rechecking for any newer updates that can now be applied and then repeating the cycle until you are caught up. The best thing to do is be updating more often so they don't accumulate.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1534808/force-windows-to-install-all-missing-updates
+
+---
+
+#### 6425. A privilege that the service requires to start doesn't exist in the Service Account
+
+**问题描述 / Problem Description**:
+Tags: powershell, cmd.exe, windows-server, windows-services | Score: 6 | Views: 17101 | Answers: 1 | Created: 2020-07-12
+
+**解决方案 / Solution**:
+Members of the local group Administrators have many privileges, but definitely not all. One of those extra privileges is the one you already set: Logon as a service . You can find and manage all privileges in the Local Security Settings MMC snap-in (secpol.msc) under Security Settings > Local Policies > User Rights Assignment : As you can see, not all (allowing) rights contain the Administrators group. If everything worked well, you will already see your domain user under Logon as a service . If not, add it now. This is the minimum requirement for a user account to run an executable 1 as a service. Running the Themes service of course also needs the Logon as a service right. But as you observed - for this service - it is not enough. This particular service also needs the Replace a process level token right. Btw., to learn more about a particular right, just open it and navigate to the Explain tab: So, in conclusion, to run the Themes service under your domain user, add this account to the Logon as a service and Replace a process level token policies. A recommendation: Please do not add a user to every allowing policy, to "make things work". This may impose serious security flaws. How can I find out which privileges a particular service needs? As Windows services have to implement the Windows services API , they will contain a SERVICE_REQUIRED_PRIVILEGES_INFOA structure. This contains a list of all required privileges. You can use this C++ code to query this info. Alternatively, you can download the SystemExtensions module for PowerShell and use the Get-ServiceConfig cmdlet: Get-ServiceConfig Themes | Select-Object -ExpandProperty Privileges Output: SeAssignPrimaryTokenPrivilege SeDebugPrivilege SeImpersonatePrivilege You can then use this documentation to translate these privileges into the policy names (same order as above): Replace a process level token Debug programs Impersonate a client after authentication 1 Keep in mind that not all executables can be run as a service, as they have to implement the Windows services API at least.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1567994/a-privilege-that-the-service-requires-to-start-doesnt-exist-in-the-service-acco
+
+---
+
+#### 6426. Does Azure Backup for Windows Server affect regular SQL Server backups on the same server?
+
+**问题描述 / Problem Description**:
+Tags: backup, sql-server, azure, windows-server | Score: 6 | Views: 1460 | Answers: 2 | Created: 2019-12-24
+
+**解决方案 / Solution**:
+I wanted to clarify as per that post you linked to in the question and you are asking about " to be protected even better from a possible ransomware attack " specifically as per the. . . "You can use Azure Backup to protect your Windows Server from corruptions, attacks, and disasters . Azure Backup provides a lightweight tool known as the Microsoft Azure Recovery Services (MARS) agent. The MARS agent is installed on the Windows Server to protect files and folders, and server configuration info via Windows Server System State. " Essentially Azure Backup gives you three levels of backup technology that you want to use. . . Files and Folders System State Full volume point-in-time and image backups Bare Metal (on-premises) VM level backups (OS and other volumes) There are other types of Azure Backup agents you can add-on to take care of the SQL Server backups for you, but since you want to not affect your existing SQL Server backup strategy nor affect the backup log chain of your existing SQL Server backups, don't use that agent. Simply don't use any SQL Server specific Azure Backup agents or functionality In terms of a full system recovery and the correlated restore operations in the event any are needed—which is the entire purpose of backups to begin with , adding the Azure Backup level backups to your backup and recovery strategy will help you be better protected and be able to get your system back up and running quicker in the event such an action is needed. Well if getting your system back up and fully functional in a timely manner is of any importance, then adding the Azure Backup strategy will better protect your system operations/availability/resiliency. With just the SQL Server backups as you have today , in the event of a full system crash and recovery is needed, you need to get your Windows Server installed, and then get SQL Server installed and configured, and then get your SQL backup files and transactions logs copied over from backup media, and then start restoring the SQL Server database level stuff. Think about your backup strategy from a perspective of a full system recovery. Think about what data you need to get your system back up and running and go from there as a starting point. Azure Backup Recovery Understanding Testing and documenting the restore\recovery process for future reference with the Azure Backup data and technology once you get something in place—that you confirm works without breaking the existing SQL backup jobs, is important so don't overlook this critical step. Does Azure Backup for Windows Server affect regular SQL Server backups on the same server? Obviously it can affect the SQL database regular backup jobs if both the Azure Backup job and the SQL Server backup jobs are running at the same time—they will likely need to share CPU, memory, and disk resources from the same Windows Operating System and thus potentially affect each other at this level. Concurrently using shared resources from the same OS could equate to the SQL Server database backup jobs taking longer to complete. You won't know the specifics for certain until you just do it. It is important that your current restore strategy have an easy way to get the backup jobs back in sync in the event that it does break and you know the motions to take. In terms of breaking your SQL Server database backup chain , unless you are running SQL Server database specific job types where you could lose a transaction log or changing SQL Server database recovery models with the Azure backup technology, then it should not have any impact whatsoever on the SQL Server database log backup chain. I don't have much experience with SQL Server High Availability but I know when you have databases in standby applying transactions from a primary DB such as with Log Shipping, that the chain is of high importance and if it's broken, the Log Shipping process breaks too since it's not able to commit the transaction from the latest log backup from the primary database. Safe Options (per your concern and requirements) If you can ensure Azure Backup will not perform any SQL Server database backup operations, and you do NOT use it for any SQL Server specific operations or select it, then you will be fine. I think you'll be safe to use Azure Backup for backing up files and folders , entire VMs , system state , or for bare metal recovery and won't have any issues with anything breaking the log chain with your SQL Server database backups. Supporting Resources Back up system state and restore to bare metal with Azure Backup Server System state backup: Backs up operating system files, so you can recover when a computer starts, but system files and the registry are lost. A system state backup includes: Domain member: Boot files, COM+ class registration database, registry Domain controller: Windows Server Active Directory (NTDS), boot files, COM+ class registration database, registry, system volume (SYSVOL) Computer that runs cluster services: Cluster server metadata Computer that runs certificate services: Certificate data Bare-metal backup: Backs up operating system files and all data on critical volumes (except user data). By definition, a BMR backup includes a system state backup. It provides protection when a computer won't start and you have to recover everything
+
+**参考链接 / References**:
+- https://superuser.com/questions/1512283/does-azure-backup-for-windows-server-affect-regular-sql-server-backups-on-the-sa
+
+---
+
+#### 6427. How to copy folder and rename it with current date and time in powershell?
+
+**问题描述 / Problem Description**:
+Tags: powershell, windows-server | Score: 5 | Views: 12498 | Answers: 1 | Created: 2019-11-19
+
+**解决方案 / Solution**:
+You can use the Get-Date module and command substitution: copy-item .\documents\ -destination .\my-backup-$(Get-Date -format "yyyy_MM_dd_hh_mm_ss")
+
+**参考链接 / References**:
+- https://superuser.com/questions/1503509/how-to-copy-folder-and-rename-it-with-current-date-and-time-in-powershell
+
+---
+
+#### 6428. Windows Server: Multiple remote desktop user logins but the same setup (programs, files, shortcuts etc.)
+
+**问题描述 / Problem Description**:
+Tags: remote-desktop, user-accounts, user-profiles, windows-server | Score: 3 | Views: 2815 | Answers: 2 | Created: 2020-08-20
+
+**解决方案 / Solution**:
+For creating new user accounts with default desktop settings, favorites, and Start menu, you could use the default user profile of Windows. In Windows 10 this profile is located in the directory C:\Users\Default . The contents of this default user profile are provided to every new user account on the system. When a new user profile is created, these default settings and files will be copied to the new user's profile directory. By placing your shortcuts for files, folders and programs in the default user folder, they will copied to every new local account that you will in the future create on the server. If you really like that all your users share the very same desktop and Start menu, this will mean that any change by one user will propagate to all of them. If you still wish all user logins to and up with one user profile, set all their profile paths to the same path. The profile path of any user account can be found in the registry under HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList in the item named ProfileImagePath whose value will be C:\Users\user-name . click for a larger image The keys use the account's System ID (SID). If the user cannot easily be identified by the value of ProfileImagePath , to convert the marked SID to the current user account name, enter in cmd the command: wmic useraccount where sid='S-1-3-12-12451234567-1234567890-1234567-1434' get name You will need to modify the permissions of the shared folder so that all users could access these folders. If you don't wish them to be able to change these folders, don't give them write permissions to some sub-folders (it would be strange for users not to be in control of their desktop or have access to documents of other users). Another alternative is to modify for the user the settings under registry key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders , such as Desktop and Start Menu .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1579265/windows-server-multiple-remote-desktop-user-logins-but-the-same-setup-programs
+
+---
+
+#### 6429. Trying to get WSL working on a Windows Server 2019 VM. Getting 'Access denied' error
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, windows-subsystem-for-linux, windows-server, windows-server-2019 | Score: 3 | Views: 2757 | Answers: 1 | Created: 2020-04-28
+
+**解决方案 / Solution**:
+I had the same exact issue. For my particular issue, the root cause was traced to McAfee End Point Security. McAfee End Point has a McAfee-defined Access Protection rule that blocks WSL execution. Once this rule was disabled, WSL and Ubuntu started working without issue.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1546430/trying-to-get-wsl-working-on-a-windows-server-2019-vm-getting-access-denied-e
+
+---
+
+#### 6430. Failed to schedule Software Protection service for re-start at 2119-10-19T18:07:58Z. Error Code: 0x80041316
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-server-2012, windows-server | Score: 3 | Views: 13756 | Answers: 1 | Created: 2019-11-12
+
+**解决方案 / Solution**:
+This series of steps worked for me. It is an abbreviated version of this solution . Back up all files in the directory C:\Windows\System32\Tasks\Microsoft\Windows\SoftwareProtectionPlatform just in case Add an XML extension to the files in the SoftwareProtectionPlatform folder Navigate to to Computer Management->System Tools->Task Scheduler->Task Scheduler Library->Microsoft->Windows->SoftwareProtectionPlatform Right-click on each task and select Delete Right-click on SoftwareProtectionPlatform, Import Task, and import each of the files that you renamed. Don't worry if they don't appear in the Task List. Navigate to Computer Management->Services and Applications->Services and restart the Software Protection service Check the Event Viewer to verify that the errors have stopped Delete the XML files in the SoftwareProtectionPlatform folder
+
+**参考链接 / References**:
+- https://superuser.com/questions/1501559/failed-to-schedule-software-protection-service-for-re-start-at-2119-10-19t1807
+
+---
+
+#### 6431. Windows ACL deny move of folders on a hierarchy level
+
+**问题描述 / Problem Description**:
+Tags: windows, permissions, ntfs, windows-server, acl | Score: 2 | Views: 4535 | Answers: 1 | Created: 2020-02-22
+
+**解决方案 / Solution**:
+Thank You @harrymc for the useful Link. Here is the solution how i have solved this issue now. I'm describing the permissions for the user . Use the Advanced Security dialog to add this permissions. ( Right click / Settings / Security / Advanced ) RootShareDirecory Permission for This Folder, SubFolder and Files only Read, Execute ProjectFolderX Activate Permission inheritance. Permission for This Folder every permission excluding Delete . Permission for Only Subfolder and Files Full Access. Explaination In order to prevent a file from beeing moved, you have to disable the Delete. Unfortunately there are two values which influence if an folder can be deleted: The Delete Permission on the folder it self The Delete subfolders and files of the parent Folder. Please ensure the user which is not allowed to delete, has none of these two permissions.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1527438/windows-acl-deny-move-of-folders-on-a-hierarchy-level
+
+---
+
+#### 6432. Not Able to Start windows service on windows server 2016 using powershell
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, windows-server | Score: 1 | Views: 7203 | Answers: 1 | Created: 2020-07-27
+
+**解决方案 / Solution**:
+Windows services have a Display name, and a Service name. Fire up services.msc Find your service in the list Right-click and go to Properties Make a note of the Service name Update your PowerShell to use the correct name In the image below, you can see the Windows Biometric Service would be started by calling Start-Service -Name 'WbioSrvc' NOT Start-Service -Name 'Windows Biometric Service'
+
+**参考链接 / References**:
+- https://superuser.com/questions/1572050/not-able-to-start-windows-service-on-windows-server-2016-using-powershell
+
+---
+
+#### 6433. Windows Server 2016 - Is it possible to switch between the Desktop Experience and Non-Desktop Experience?
+
+**问题描述 / Problem Description**:
+Tags: raspberry-pi, windows-server | Score: 1 | Views: 564 | Answers: 1 | Created: 2020-07-03
+
+**解决方案 / Solution**:
+Not really. You would probably need to reinstall each time you wanted to switch. When Server 2016 was in preview, Desktop Experience was a "feature", as in roles and features on Windows Server. To switch between having a feature and not having it, you could install or uninstall the feature. And you could use PowerShell scripting to do it (though it wasn't an instant switch between one state and the other, and was likely to include a reboot.) There are some examples in this 4sysops article However, since that time, further restrictions were made such that, according to a TechNet article a few years ago, you can no longer convert between one and the other after installation, and you must re-install. The TechNet article seems to no longer be available but there is some more info about Server 2016 GUI options at https://superwidgets.wordpress.com/2016/10/29/windows-server-2016-gui-options/ It's now considered best practice to administer Windows servers using PowerShell commands rather than remote desktop. I'd recommend you spend some time getting familiar with the PowerShell commands to do the things you need with your server.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1565833/windows-server-2016-is-it-possible-to-switch-between-the-desktop-experience-an
+
+---
+
+#### 6434. How can I have a Windows VM running in a Windows remote server?
+
+**问题描述 / Problem Description**:
+Tags: virtual-machine, vpn, remote-desktop, hyper-v, windows-server | Score: 1 | Views: 239 | Answers: 1 | Created: 2020-06-25
+
+**解决方案 / Solution**:
+For a low-budget low-running academical project you may use Microsoft's Azure free account . This trial account will give you 12 months of free services, up to $200 credit, which include Windows Virtual Machines. Hopefully, this includes Windows Server.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1563866/how-can-i-have-a-windows-vm-running-in-a-windows-remote-server
+
+---
+
+#### 6435. VirtualBox - Guru Meditation
+
+**问题描述 / Problem Description**:
+Tags: windows, virtualbox, virtual-machine, virtualization, windows-server | Score: 1 | Views: 9680 | Answers: 1 | Created: 2020-05-11
+
+**解决方案 / Solution**:
+I looked at the VB spec's and could not find anything about Server 2019. You might consider a different virtualizing application as a test (trial version). VMware or Hyper-V. Virtual Box supports Server 2016, but Server 2019 is much newer.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1550735/virtualbox-guru-meditation
+
+---
+
+#### 6436. Accessing DFS network shares via VPN
+
+**问题描述 / Problem Description**:
+Tags: vpn, windows-server, dfs | Score: 1 | Views: 8680 | Answers: 1 | Created: 2020-03-11
+
+**解决方案 / Solution**:
+By default, DFS referrals are sent using "short" (NetBIOS) names, e.g. \\server01 , which external clients cannot resolve if the VPN client does not set the correct 'DNS Search Suffix' . (The suffix tells the OS how to expand single-word hostnames to full domain names.) You'll probably want to configure your DFS root server to send full domain name (FQDN) referrals instead, so that clients would be redirected to \\server01.my.domain which can always be resolved using DNS. The full instructions can be found at https://support.microsoft.com/kb/244380/ , but the summary is: Remove all domain-based namespaces from your DFS root server. Set the registry parameter: Set-DfsnServerConfiguration -ComputerName ABC -UseFqdn $true dfsutil server registry dfsdnsconfig set %COMPUTERNAME% reg add HKLM\SYSTEM\CurrentControlSet\Services\Dfs /v DfsDnsConfig /t REG_DWORD /d 1 Restart the dfs service. Re-add all domain-based namespaces.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1531941/accessing-dfs-network-shares-via-vpn
+
+---
+
+#### 6437. Azure VM - Windows Server 2016 Datacenter - Windows Update - There were some problems installing updates (0x8024000e)
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-update, windows-server, windows-server-2016 | Score: 1 | Views: 1326 | Answers: 2 | Created: 2020-01-26
+
+**解决方案 / Solution**:
+The system might be completely healthy, just running out of RAM. On my test VM (clean Server 2016 Datacenter Core install from official media) I had to increase the maximum memory to 5 GB to avoid the 0x8024000e error. Someone in another forum had similar experience with an Azure B-series VM.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1520386/azure-vm-windows-server-2016-datacenter-windows-update-there-were-some-pro
+
+---
+
+#### 6438. Windows Server Docker containers - Which (if any) server roles can be replaced?
+
+**问题描述 / Problem Description**:
+Tags: windows-server, docker-for-windows | Score: 1 | Views: 331 | Answers: 1 | Created: 2020-01-24
+
+**解决方案 / Solution**:
+I looked into setting up a Windows AD/DC within a container, but it was a no-go. Mainly because of persisting data across restarts, but also because of too many hoops to jump through. Read this discussion: https://www.reddit.com/r/docker/comments/ct77og/containerized_windows_domain/ and https://serverfault.com/questions/872413/is-it-possible-to-add-active-directory-to-a-windows-container It's not worth the struggle. I just kept mine as a VM using very small resources with Server Core.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1519695/windows-server-docker-containers-which-if-any-server-roles-can-be-replaced
+
+---
+
+#### 6439. Can not delete a local printer port
+
+**问题描述 / Problem Description**:
+Tags: printer, network-printer, windows-server | Score: 1 | Views: 30725 | Answers: 2 | Created: 2019-11-24
+
+**解决方案 / Solution**:
+I found an answer to the problem. I quickly restarted the printer spooler service and deleted the port. If any more time was taken, the port would again give error on deleting.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1504705/can-not-delete-a-local-printer-port
+
+---
+
+#### 6440. How to install an application on a windows server, available to any user in domain on any computer in domain?
+
+**问题描述 / Problem Description**:
+Tags: active-directory, windows-server, roaming-profiles, windows-server-2019 | Score: 1 | Views: 11613 | Answers: 1 | Created: 2019-11-23
+
+**解决方案 / Solution**:
+Please take note of the above comment by Keltari about installing software on a DC. I also recommend installing it on another Windows Server computer. The mechanism I used in the past was RemoteApp. You may see a detailed writeup in the article Step by Step How to Deploy RemoteApp in Windows Server 2016 . I have never used it on Windows Server 2019, so I don't know how well it works. According to reports ( example ), it may not work too well on Windows Server 2019 Essentials (this version has been so reduced as to be not very usable), the Standard version is recommended.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1504561/how-to-install-an-application-on-a-windows-server-available-to-any-user-in-doma
 
 ---

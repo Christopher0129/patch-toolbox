@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4632**
+**总计条目 / Total entries: 4715**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -64426,5 +64426,1084 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1219035#reply34
+
+---
+
+#### 4633. How to install HPScanner software for an HP PSC 1350 on an Apple silicon Mac?
+
+**问题描述 / Problem Description**:
+Tags: macos, driver, scanning, third-party | Score: 3 | Views: 434 | Answers: 3 | Created: 2026-06-08
+
+**解决方案 / Solution**:
+If the driver is still Intel-based, you can easily install Rosetta and move on. I found that VueScan works well with old scanners. The software comes with a trial mode, so you can verify that it works before paying. Also, if the Information on the VueScan page for your printer/scanner is correct, you shouldn‘t need any driver at all, and can just remove the HP software currently installed.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486562/how-to-install-hpscanner-software-for-an-hp-psc-1350-on-an-apple-silicon-mac
+
+---
+
+#### 4634. Apple Mail with a Microsoft 365 shared mailbox
+
+**问题描述 / Problem Description**:
+Tags: macos, mail.app, ms-office, exchange | Score: 1 | Views: 72 | Answers: 2 | Created: 2026-06-11
+
+**解决方案 / Solution**:
+According to Microsoft, as of early 2026, shared mailboxes via Exchange with MFA are not supported in Apple Mail: I have not identified any official documentation or support article confirming that Apple Mail supports Microsoft 365/Exchange shared mailboxes using modern authentication (OAuth2/MFA) yet. Based on my research, I found a thread, where users report that previously suggested methods, such as using IMAP workarounds or adding the shared mailbox as a separate Exchange account, no longer work, especially after Apple and Microsoft enforced modern authentication. Microsoft shared mailbox in Apple Mail (learn.microsoft.com) If you don't use MFA and you want to try accessing the mailbox via IMAP, see, for example: Accessing a Shared Mailbox in Apple Mail (kb.uconn.edu)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486573/apple-mail-with-a-microsoft-365-shared-mailbox
+
+---
+
+#### 4635. Is there a free alternative to CrossOver for Mac with AVX instruction set support?
+
+**问题描述 / Problem Description**:
+Tags: macos, software-recommendation | Score: 1 | Views: 31 | Answers: 1 | Created: 2026-06-11
+
+**解决方案 / Solution**:
+Have you looked if your Mac can run the game via Steam? https://store.steampowered.com/app/1934680/Age_of_Mythology_Retold/
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486572/is-there-a-free-alternative-to-crossover-for-mac-with-avx-instruction-set-suppor
+
+---
+
+#### 4636. Now that Intel Macs are officially legacy, how do you feel about Apple cutting the cord completely for macOS 27?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u351r8/now_that_intel_macs_are_officially_legacy_how_do/
+
+---
+
+#### 4637. In your opinion, what is the best version of macOS ever released, and why? (And can Golden Gate be the next Snow Leopard?)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u33rqf/in_your_opinion_what_is_the_best_version_of_macos/
+
+---
+
+#### 4638. My first experience with macOS Golden Gate
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u30hn9/my_first_experience_with_macos_golden_gate/
+
+---
+
+#### 4639. I just got Siri Ai on my Mac. ask her questions
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u2t888/i_just_got_siri_ai_on_my_mac_ask_her_questions/
+
+---
+
+#### 4640. Unlocked weird old OS UI in Reminders app on Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u30vkp/unlocked_weird_old_os_ui_in_reminders_app_on_mac/
+
+---
+
+#### 4641. Good news! MacOS 27 now works correctly on 3rd party HDR displays when displaying SDR content side by side with HDR content (like their XDR display)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u3cz2s/good_news_macos_27_now_works_correctly_on_3rd/
+
+---
+
+#### 4642. Does anyone else feel like they’re reading a lot in their target language but not making as much vocabulary progress as they expected?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u36xy1/does_anyone_else_feel_like_theyre_reading_a_lot/
+
+---
+
+#### 4643. Please help a Windows convert make a screenshot automation
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u34rve/please_help_a_windows_convert_make_a_screenshot/
+
+---
+
+#### 4644. 26.5x fixed external drives unmounting when Mac sleeping - finally!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u2y09u/265x_fixed_external_drives_unmounting_when_mac/
+
+---
+
+#### 4645. Hey everyone, do you know how I can get this wallpaper ?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u3743l/hey_everyone_do_you_know_how_i_can_get_this/
+
+---
+
+#### 4646. Mac Air 2024 M3 8GB Freezing and Lagging. What to do
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u35dzz/mac_air_2024_m3_8gb_freezing_and_lagging_what_to/
+
+---
+
+#### 4647. Finder - 'Searching "This Mac"' but when are you finished?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u2uk04/finder_searching_this_mac_but_when_are_you/
+
+---
+
+#### 4648. MBA M5 - Photoshop lags on 4K display
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u34zy2/mba_m5_photoshop_lags_on_4k_display/
+
+---
+
+#### 4649. Can't send SMS/RCS from Mac to most people
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u2y7ol/cant_send_smsrcs_from_mac_to_most_people/
+
+---
+
+#### 4650. MS Teams voice isolation on MacOS 26
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u345y6/ms_teams_voice_isolation_on_macos_26/
+
+---
+
+#### 4651. Dell D6000 Issues.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u3335z/dell_d6000_issues/
+
+---
+
+#### 4652. Longtime iPhone user, new Mac user, need help with type settings
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u324zq/longtime_iphone_user_new_mac_user_need_help_with/
+
+---
+
+#### 4653. How to delete or unmount all these simulators?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u321ks/how_to_delete_or_unmount_all_these_simulators/
+
+---
+
+#### 4654. This is how Calendar looks when app is not in focus...
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u30fiw/this_is_how_calendar_looks_when_app_is_not_in/
+
+---
+
+#### 4655. Having trouble updating to macOS 17 on M1 MacBook Pro (Error during installation)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u2y7hd/having_trouble_updating_to_macos_17_on_m1_macbook/
+
+---
+
+#### 4656. [V2EX] macOS27 自动填充短信验证码爽啊
+
+**问题描述 / Problem Description**:
+和手机上的一样了，app 和网页的都可以了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219457#reply8
+
+---
+
+#### 4657. [V2EX] macOS 27 已知问题汇总
+
+**问题描述 / Problem Description**:
+如题，macOS27 不支持 Intel 心了，用家里的 mac mini m1 的更新了感受了一下，发现 BUG 如下，其他感觉很好，尤其是新款的动效以及对刘海屏的优化等。macOS 27 Golden Gate 目前仍属于 beta 版本，主力机慎更！ 1 、Xcode 编译时候，找到真机设备，有可能是我 iOS 没更新的缘故 2 、新的 Liquid Glass 外接显示器，外接 4K 显示器 UI 上有时候会出现窗口边缘毛边闪烁 3 、破解软件都失效了，比如我用的 Paralles desktop 啥的，新版 macOS 可能调整了系统安全策略、签名验证、运行环境或底层接口的原因 其他
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219247#reply54
+
+---
+
+#### 4658. [V2EX] macOS27 的屏幕共享变得指哪打哪了，流畅得根本不像话，推荐各位试试
+
+**问题描述 / Problem Description**:
+我经常在家里用 MacBook 连接 Mac mini 使用屏幕共享，可以确定的是路由器和网络设置从来都没有变过，就只是今天更新了 macOS27 ，真的很惊喜，Apple 到底还做了什么底层优化
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219190#reply23
+
+---
+
+#### 4659. [V2EX] macos27 的史诗级更新！
+
+**问题描述 / Problem Description**:
+多出显示不下的的菜单栏终于可以收起来了，再也不需要 ice 、thaw 了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219058#reply37
+
+---
+
+#### 4660. [V2EX] 为什么 Mac 中英文切换失效？
+
+**问题描述 / Problem Description**:
+已经开启了输入法设置中的“使用“中/英”键切换“ABC”输入法”，是我莫名其妙出现的问题，开始这个问题是 26.5 的系统，然后有下一个豆包输入法，出现这个问题是前面这个环境正常用了一阵子后出现的，然后我卸载了豆包输入法没解决，然后更新 26.6 系统然后也没解决🙁
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218335#reply10
+
+---
+
+#### 4661. [V2EX] iPhone 连 2.4G Wi-Fi 容易发烫
+
+**问题描述 / Problem Description**:
+你们发现这问题没？ 而且信号即使记录 AP 等发射端很近，也时不时少一格
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219767#reply0
+
+---
+
+#### 4662. [V2EX] Apple 开发者个人 team 被误封怎么办
+
+**问题描述 / Problem Description**:
+如题，我自己的 Apple id 下有一个我自己的中国的 team ，还有个海外公司的 team 最近在给海外公司做 macos 的开发，然后今天早上用公司的 team 公证完一个 app 过后收到了邮件说 We have discovered a potentially suspicious software signed with your Apple Developer Program Developer ID certificate 然后我的个人 team 就被禁用了，现在自己的 appstore connect 也用不了，已经有的 app 后端也直接 APNs 报错了 但是公证过的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219734#reply0
+
+---
+
+#### 4663. [V2EX] 港版 17， iOS27，开启新版 AI 流程
+
+**问题描述 / Problem Description**:
+一直挂梯子 + 美区商店 + 通用->语言地区里只设置英文为首选语言（不用改地区）+ Siri 里面的语言设置为英语美国（目前只支持这个语言） 然后等待下载完 AI 后，重启手机，重启手机，这个是重点，然后 Siri app + 灵动岛下拉 Siri 都能正常使用，可以中文对话操作 app
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219618#reply8
+
+---
+
+#### 4664. [V2EX] mbp m1 pro 挺耐用啊，战力大于 m4?
+
+**问题描述 / Problem Description**:
+目前在家里远程办公是用 mbp m1 pro 32gb 2tb （当台式机用），公司管设备的人说有一台新的 mbp m4 24gb 1t ，问我换不换。 我让 chatgpt 和 claude 对比了一下，都说建议别换。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219550#reply44
+
+---
+
+#### 4665. [V2EX] ios27 上划 bug
+
+**问题描述 / Problem Description**:
+下方短滑条消失，锁屏页面上划功能失效，通过通知消息进入 app 后上划功能依然失效，回不到首页。 昨天下午一次，今天早上一次。均通过重启解决 暂时无法稳定复现
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219541#reply2
+
+---
+
+#### 4666. [V2EX] tg 已更新. 修复 macOS27 聊天界面布局显示异常问题.
+
+**问题描述 / Problem Description**:
+rt. 商店版微信还是崩溃中.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219501#reply12
+
+---
+
+#### 4667. [V2EX] Siri AI 用了 Gemini，国内会用谁的
+
+**问题描述 / Problem Description**:
+能有谁能达到及格线....
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219472#reply9
+
+---
+
+#### 4668. [V2EX] 在国行 Mac(macOS 27)上开启完整 Apple 智能
+
+**问题描述 / Problem Description**:
+https://github.com/SkyBlue997/enableMacosAI 欢迎大家提 issue 或者一起完善
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219470#reply28
+
+---
+
+#### 4669. [V2EX] 求问， iOS27 的新 siri 一直在排队……
+
+**问题描述 / Problem Description**:
+如题，环境都有，语言也改了，日版、美版、港版三台不同设备都是排队，大家还有在排队的吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219437#reply12
+
+---
+
+#### 4670. [V2EX] iOS27 好丝滑！
+
+**问题描述 / Problem Description**:
+siri 好酷炫
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219434#reply24
+
+---
+
+#### 4671. [V2EX] Mac 下有什么好用的 AI Chat 客户端吗?
+
+**问题描述 / Problem Description**:
+最好原生,买断付费的也行,谢谢佬们!
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219356#reply33
+
+---
+
+#### 4672. [V2EX] Egern 开始支持 snell 协议
+
+**问题描述 / Problem Description**:
+不知道是不是慢讯
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219339#reply4
+
+---
+
+#### 4673. [V2EX] 各位用 16G MacBook Air 的，有没有感觉性能不够用
+
+**问题描述 / Problem Description**:
+我是 M4 版本的，但我估计 M3 到 M5 应该都差不多 日常就是开多个看盘软件，东财同花顺、富途、TradingView 一起开，再开 Chrome 几十多个标签（其实大部分是冻结的） 明显就会感觉系统卡的不行，尤其是 Mac OS 这个新版富途，单屏没问题，只要开双屏到三屏，活动监视器的 CPU 占用就要干到百分百 有点滤镜破碎的感觉，苹果还能卡？ 毕竟我又没用什么吃性能的东西，都是普通办公工具
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219327#reply57
+
+---
+
+#### 4674. [V2EX] ios27 新搜索 14
+
+**问题描述 / Problem Description**:
+手持 14pro ，白升级了，根本不会索引
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219323#reply8
+
+---
+
+#### 4675. [V2EX] 升级到了 macOS 27 感觉还可以
+
+**问题描述 / Problem Description**:
+设备是 MacBook M1 16G 蓝牙似乎有点小问题,偶尔鼠标会卡那么一下 登录的时候,外接蓝牙键盘输入的时候会卡一段时间,但是进入系统之后就都正常了 其它没发现不适配的软件
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219237#reply44
+
+---
+
+#### 4676. [V2EX] 升级了 iOS 27 b1，一晚上充电状态还在 Indexing，是 bug 还是正常？
+
+**问题描述 / Problem Description**:
+也没个进度条，按说一晚上七八个小时总该建完了吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219218#reply36
+
+---
+
+#### 4677. [V2EX] 世界杯观看清晰度小结
+
+**问题描述 / Problem Description**:
+折腾对比一晚上，个人总结如下，欢迎指正： 清晰度排名如下 第一梯队：咪咕视频（网页）（会员） 会员可以 4k ，我用 MacBook Air 看的，仔细对比了下比投屏电视清晰，草坪不太糊，球拖影轨迹有一点不严重，能看。 虽然跟 YouTube 上的 4k 球赛没法比，但算清晰了。 第二梯队：咪咕（会员）投屏、小红书投屏 两个投屏都能 4k ，但效果比网页观看稍微糊一点。尤其是草坪，运动场景特别糊。静态好一些。 咪咕必须会员才能 4k 投屏，小红书免费。 第三梯队：咪咕（免费）、iptv 都是 1080p ，实际观看非常糊，人是糊的，草坪也是糊的。球的轨迹拖延极其严重。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219775#reply0
+
+---
+
+#### 4678. [V2EX] 我成功抢到了商汤最新模型功能的内测码
+
+**问题描述 / Problem Description**:
+有种当年抢 Manus 的感觉了。。 只能在 Discord 里抢，运营会不定时放： https://discord.gg/BuTXPHmQub 抢到了之后在他们官网可以直接用： https://unify.light-ai.top/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219769#reply1
+
+---
+
+#### 4679. [V2EX] 今天在 X 上看到个神仙脑洞，自己动手复刻了一版
+
+**问题描述 / Problem Description**:
+今天在 X 上刷到一个可以在美股和币的 K 线上开摩托的小游戏，感觉脑洞挺大挺有意思。 下午摸鱼手痒，自己也跟着搓了一版，没想到玩了一会儿居然还挺上头的。 测试了下，标普是最简单的平缓上坡。 但是跑妖股和 Meme 币的时候有点地狱难度，动不动断崖暴跌，极度容易翻车。 手机浏览器直接就能玩，大家可以试试自己手里的票跑起来是什么难度： https://stonkrider.win/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219758#reply5
+
+---
+
+#### 4680. [V2EX] 推荐一部电影《请求救援》（2026）
+
+**问题描述 / Problem Description**:
+一开始的剧情很普通，女主看起来冒傻气，后来剧情急转直下，加上怎么也想不到的结局，值得一看。 很久没有看到值得推荐的电影了，上次是《一个小忙》。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219745#reply0
+
+---
+
+#### 4681. [V2EX] 小米 Token Plan，额度 380 亿，剩 1 天到期，速蹬
+
+**问题描述 / Problem Description**:
+API Key:tp-c0x5wrgpqqjm1fhtp74758tmesl3lun3eu4xlvvxbwanwfee Base URL 兼容 OpenAI 接口协议： https://token-plan-cn.xiaomimimo.com/v1 兼容 Anthropic 接口协议： https://token-plan-cn.xiaomimimo.com/anthropic ipad 党方便测试蹬入口： https://vb.do/dashboard?autosubmit=true#prompt=hello&providerId=mi&providerName=MI&providerPro
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219740#reply6
+
+---
+
+#### 4682. [V2EX] 羊毛： mimo code 免费 m-2.5-pro
+
+**问题描述 / Problem Description**:
+自己 github 找 别自己整不明白又来扣推广帽子
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219644#reply0
+
+---
+
+#### 4683. [V2EX] AI 太空站 - 国内直连 13 个顶级 AI 模型， OpenAI 兼容 API
+
+**问题描述 / Problem Description**:
+一个专注于全球三大厂商的 AI API 聚合平台。 🚀 GPT-5.5 / Claude Opus 4.8 / Gemini 3.5 Flash 等 13 个模型 💰 ¥1.5 起 / 百万 token ，输入输出分别计价 🔌 兼容 OpenAI SDK ，改 base_url 即可 🆓 注册送 DeepSeek Flash 每日 3 次免费 📱 微信支付，即充即用 🔒 HTTPS + 国内直连 接口： https://aispacestation.com.cn/v1/chat/completions 指南： https://aispacestation.com.cn/guide 注册： ht
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219597#reply1
+
+---
+
+#### 4684. [V2EX] 商汤的文生图模型 SenseNova U1 开始发图文交错的内测码了
+
+**问题描述 / Problem Description**:
+在他们的 discord 里会不定期放内测功能的内测码，我用了下还行，对图片风格的一致性保持的不错。 Discord 邀请链接： https://discord.gg/BuTXPHmQub 下面是图文交错的一些案例，最终结果完成度不错。文字有叙事节奏，图片有场景变化，两者配合得挺自然。 注意看——我只给了一句话，SenseNova U1 就自动搭出了完整的故事框架。它选了 4 个关键画面做图文交错生成，每个画面都自动生成了完整的生图指令，包括场景描述、角色设定、画面风格，一口气搞定。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219596#reply1
+
+---
+
+#### 4685. [V2EX] MIMO 这个是写得真好。里面提到 agent coding 几乎每个痛点我都遇到过
+
+**问题描述 / Problem Description**:
+https://mimo.xiaomi.com/zh/blog/mimo-code-long-horizon Max Mode 只管做的对不对，不管做没做完；后来出现的 /goal 才解决 部分模型（特别是 GPT 5.5 系列）在输出结构化 JSON 时格式错误率较高 Dynamic Workflow 的确是好东西 能在每一轮迭代进行总结的记忆系统，我现在是手动挡搓这个，搞得很烦躁 给主 agent 配一个助理总结归纳项目 等等。。都是我想要的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219576#reply15
+
+---
+
+#### 4686. [V2EX] 撸了个监控 Claude Code 的 Mac 菜单栏工具，不需要任何凭据，开源了
+
+**问题描述 / Problem Description**:
+在 X 上看到有人晒了张菜单栏工具的截图，手痒，让 Claude Code 照着撸了一个（对，用 Claude Code 写监控 Claude Code 的工具），顺手开源： https://github.com/adaiguoguo/Oolong 做的过程中发现一个有意思的事：市面上的同类工具（ ClaudeBar 、Claude-Usage-Tracker 这些）要显示官方限流百分比，要么读你的 OAuth token 去调未公开接口，要么要你的 claude.ai cookie 。我本来也打算这么干，结果发现 Claude Code 自己就把官方限流数据（ 5h/7d 的 % used
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219568#reply3
+
+---
+
+#### 4687. [V2EX] 工作应该找那种复利性比较强的工作
+
+**问题描述 / Problem Description**:
+像程序员的工作，就很容易复利 比如入职第一年，业务逻辑理解清楚，然后就把框架搭建好，再后续就是在这个框架下持续开发，一年比一年舒服，一年比一年轻松，后续往前看自己的框架设计，都觉得太好了，感谢自己的前瞻性。 我家人比如我老婆，她以前的几份工作她都没有一个复利的思维，比如她做过会计，做过猎头， 但是这种工作，就没有复利性，会计每天都是大量的财务报表要计算，要处理 猎头招聘到一个人后，后续还要继续招人，这种工作我判断无复利的工作。当然经验可能会增加一些。 我的建议是，应该做那种比如客户跟单，或者运营，或者管理，而不要做无复利的工作。 这样自己的一生才能越来越幸运，越来越幸福。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219557#reply2
+
+---
+
+#### 4688. [V2EX] MiMo-Code 开源发布，缝合了 opencode + openclaw（MiMo Auto（限时免费） — 匿名通道，零配置
+
+**问题描述 / Problem Description**:
+https://github.com/XiaomiMiMo/MiMo-Code 一键安装 curl -fsSL https://mimo.xiaomi.com/install | bash # 或通过 npm 安装 npm install -g @ mimo-ai /cli 首次启动自动引导配置。支持： MiMo Auto （限时免费） — 匿名通道，零配置 小米 MiMo 平台 — OAuth 登录 从 Claude Code 导入 — 一键迁移已有认证 自定义 Provider — TUI 内添加任意 OpenAI 兼容 API MiMoCode 基于 OpenCode fork 构建，保
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219552#reply3
+
+---
+
+#### 4689. [V2EX] 美剧推荐
+
+**问题描述 / Problem Description**:
+还有像《绝命毒师》、《黄石》这样的美剧推荐嘛
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219539#reply0
+
+---
+
+#### 4690. [V2EX] 花云 gg 了？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219519#reply54
+
+---
+
+#### 4691. [V2EX] 免费领取无限期法兰西二级域名两个
+
+**问题描述 / Problem Description**:
+kdns.fr 免费域名和容器注册地址： https://dashboard.katabump.com 无需绑卡，无需续期，注册即永久 Youtube: &t=54s
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219505#reply53
+
+---
+
+#### 4692. [V2EX] 小米又整了个 code 工具... 在 github 开源并内置免费 mimo 模型
+
+**问题描述 / Problem Description**:
+https://github.com/XiaomiMiMo/MiMo-Code 基于 opencode 开发的，睡前刚刷到 试了一下界面还行... 就是不知道水平如何
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219486#reply8
+
+---
+
+#### 4693. [V2EX] 国内用户通过 CC Switch 绕过 Claude Code 和 Codex 登录和适配难题，实现工具的使用
+
+**问题描述 / Problem Description**:
+https://x.com/yupi996/status/2064228879657844816 程序员鱼皮发布的保姆级教程视频，教国内用户通过免费开源工具 CC Switch 快速配置 Claude Code 和 Codex ，实现无需国外账号即可使用 AI 编程助手。 CC Switch 支持可视化管理模型供应商、添加 DeepSeek 等国内 API 、本地路由转换请求格式，解决登录和适配难题，节省订阅费用。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219427#reply2
+
+---
+
+#### 4694. [V2EX] macOS 抓包神器：比 Wireshark 更清爽易用的替代方案
+
+**问题描述 / Problem Description**:
+来源 https://github.com/ProxymanApp/TCPViewer 预览
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219412#reply1
+
+---
+
+#### 4695. Is there any way to find the URL of a file that is downloading from within an app on Mac?
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, download, url | Score: 4 | Views: 955 | Answers: 4 | Created: 2025-08-31
+
+**解决方案 / Solution**:
+Assuming it uses HTTP (not https) to download the file, you could use wireshark to intercept the request which should have the information you need. If its HTTPS then its encrypted so you wont be able to. (might be possible, no idea how though). Its possible that it doesn't use HTTP(s) too. Freeing some space (even if just temporarily) so the application can download the file it needs properly is likely much easier?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1922535/is-there-any-way-to-find-the-url-of-a-file-that-is-downloading-from-within-an-ap
+
+---
+
+#### 4696. macOS and git - from time to time dirmngr consume one whole CPU core
+
+**问题描述 / Problem Description**:
+Tags: macos, git, intellij-idea | Score: 4 | Views: 378 | Answers: 1 | Created: 2025-07-17
+
+**解决方案 / Solution**:
+I have edit dirmngr.conf and it seems it helps to solve the issue. Edit ~/.gnupg/dirmngr.conf: # Disable auto-key-retrieve and keyserver access no-use-tor standard-resolver And quick explanation. IDEA triggers Git operations (commit, push, fetch) -> -> Git is configured to GPG-sign -> -> commits -> -> Git calls gpg to sign -> -> GPG spawns dirmngr (the key directory/network manager) to validate or refresh keys via network (keyserver lookup) -> -> dirmngr gets stuck waiting on a network response (timeout, unreachable keyserver, OCSP check) -> CPU spin. Hopefully it will help somebody
+
+**参考链接 / References**:
+- https://superuser.com/questions/1911079/macos-and-git-from-time-to-time-dirmngr-consume-one-whole-cpu-core
+
+---
+
+#### 4697. Extremely slow Terminal startup on macOS Sequoia (M3 Mac Pro)
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, performance, zsh, arm | Score: 4 | Views: 941 | Answers: 1 | Created: 2025-04-22
+
+**解决方案 / Solution**:
+I've also been experiencing significant cold startup delays in my Zsh Terminal on my Intel i5 MacBook Pro with 8GB RAM (running macOS Sequoia 15.5). While my hardware is different from your M3, the symptoms were strikingly similar, and I believe I found the culprit in my case. My initial time zsh -i -c exit results were consistently around 1.1-1.2 seconds, very close to your "cold startup" numbers. My Terminal.app also felt sluggish to open. Like you, I tried stripping down my ~/.zshrc , checking ~/.zcompdump , and disabling Homebrew's automatic initialization. I also checked my ~/Library/LaunchAgents . I found in my ~/.zshrc a "conda initialize" block, whilst I didn’t have Anaconda installed anymore. Deleting this block has significantly reduced the delay to 0.04 s. You say that you’ve disabled all plugins but have you checked for useless blocks that might still hide in there ? I also found LaunchAgents from others previously deleted apps that might have slowed down my terminal, but I didn’t see any significant improvements by deleting them. Maybe you have some useless LaunchAgents too that might slow down your terminal. Those solutions worked for me, you might find junk in those places too.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1893377/extremely-slow-terminal-startup-on-macos-sequoia-m3-mac-pro
+
+---
+
+#### 4698. How to access a macOS machine through VNC?
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, remote-desktop, vnc, remote-control | Score: 2 | Views: 1720 | Answers: 1 | Created: 2025-08-27
+
+**解决方案 / Solution**:
+macOS's built-in Screen Sharing system, as well as its built-in Remote Management (a.k.a. Apple Remote Desktop, ARD) system, both use the VNC protocol (also known as the remote framebuffer protocol), allowing any VNC client to connect, see the screen, control the system via mouse & keyboard input, etc. If you go to System Settings > General > Sharing , and enable either Screen Sharing or Remote Management, and look at the advanced settings for whichever one you enable, you'll find an option to allow VNC users to connect with a password, so you'll probably want to set a password for that. Since both of those services are built on the remote framebuffer protocol that VNC uses, they both try to own the default port that that protocol uses, so you have to choose one or the other to enable. If you're only planning to use VNC features and not planning to use the additional remote management features of the Apple Remote Desktop app, then it's probably slightly preferable to enable Screen Sharing instead of Remote Management.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1921903/how-to-access-a-macos-machine-through-vnc
+
+---
+
+#### 4699. How to manually launch the services needed for a working macOS loginwindow GUI?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, crash, authentication, user-interface | Score: 2 | Views: 308 | Answers: 1 | Created: 2025-07-01
+
+**解决方案 / Solution**:
+Restart the loginwindow process This handles the actual login screen. Try this over SSH: sudo pkill -9 loginwindow sudo pkill -9 WindowServer Wait 5–10 seconds, then restart it: sudo launchctl kickstart -k system/com.apple.loginwindow This should try to bring the login screen back.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1907873/how-to-manually-launch-the-services-needed-for-a-working-macos-loginwindow-gui
+
+---
+
+#### 4700. What does QuickTime player’s timecode actually mean?
+
+**问题描述 / Problem Description**:
+Tags: macos, video, quicktime, exif | Score: 2 | Views: 199 | Answers: 1 | Created: 2025-06-18
+
+**解决方案 / Solution**:
+For anyone else arriving here, Spiff's comment above got me the answer. In my specific case, the recording device had embedded its own timecode in the movie file (different from the track creation time), which would have been visible had I tried using ffprobe : $ ffprobe NINJVP_S140_S001_T009.MOV 2>&1 | grep -i time creation_time : 2025-05-19T10:36:06.000000Z timecode : 12:47:41;00 creation_time : 2025-05-19T10:36:06.000000Z creation_time : 2025-05-19T10:36:06.000000Z creation_time : 2025-05-19T10:36:06.000000Z timecode : 12:47:41;00 Fortunately, ffmpeg will happily let you change the timecode to anything you'd like: $ ffmpeg -i NINJVP_S140_S001_T002.MOV -c copy -timecode 10:10:16:00 recoded.mov With the following happy result:
+
+**参考链接 / References**:
+- https://superuser.com/questions/1905494/what-does-quicktime-player-s-timecode-actually-mean
+
+---
+
+#### 4701. How can I create a Linux VM on Linux for use on macOS with the M1 architecture?
+
+**问题描述 / Problem Description**:
+Tags: linux, macos, virtual-machine | Score: 2 | Views: 906 | Answers: 2 | Created: 2025-06-01
+
+**解决方案 / Solution**:
+I discovered I had to create a virtual environment running aarch64 and then work on the VM. Debian provides a good step by step account of this on Arm64Qemu . Note : Run all commands in the Host until prompted to enter the Guest Step 1: Elevate to root: $ su - password: Step 2: Configure locales so your Qemu Chroots have access to them. Otherwise, you will have to configure each Chroot's locale individually. dpkg-reconfigure locales Step 3: Install qemu, qemu-user-static, binfmt-support and debootstrap. apt-get install qemu qemu-user-static binfmt-support debootstrap Step 4: Use debootstrap to create the Chroot environment . In the command below, the Chroot will be named debian-arm64. You can change it to suit your taste. qemu-debootstrap --arch=arm64 --keyring /usr/share/keyrings/debian-archive-keyring.gpg \ --variant=buildd --exclude=debfoster jessie debian-arm64 http://ftp.debian.org/debian You should see output like this: ... I: Retrieving Release I: Retrieving Release.gpg I: Checking Release signature I: Valid Release signature (key id 75DDC3C4A499F1A18CB5F3C8CBF8D6FD518E17E1) I: Retrieving Packages I: Validating Packages I: Resolving dependencies of required packages... ... I: Checking component main on http://ftp.debian.org/debian... I: Retrieving acl 2.2.52-2 I: Validating acl 2.2.52-2 I: Retrieving apt 1.0.9.8.1 I: Validating apt 1.0.9.8.1 ... Step 5: Enter the arm64 Chroot: chroot debian-arm64/ Now enter the Guest and run the remaining commands: uname -a Linux core2 3.16.0-4-amd64 #1 SMP Debian 3.16.7-ckt11-1+deb8u5 (2015-10-09) aarch64 GNU/Linux Step 6: Install the Debian Ports keyring and software to use in the environment: Run this in the Guess also apt-get install debian-ports-archive-keyring apt-get install locales build-essential gcc g++ gdb make subversion git curl zip unzip
+
+**参考链接 / References**:
+- https://superuser.com/questions/1903277/how-can-i-create-a-linux-vm-on-linux-for-use-on-macos-with-the-m1-architecture
+
+---
+
+#### 4702. Why does “brew services httpd start” return an error?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, httpd | Score: 2 | Views: 559 | Answers: 1 | Created: 2025-05-24
+
+**解决方案 / Solution**:
+Your ps output shows that you're already running macOS's built-in Apache (the one at /usr/sbin/httpd ), and so it is using port 80 (and probably 443), so when you try to run Homebrew's copy of Apache (which is at /opt/homebrew/bin/httpd ), it can't open port 80 (and 443), so it fails with an I/O error. You need to shut down the system's httpd : sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist …before you launch Homebrew's copy of httpd : brew services start https
+
+**参考链接 / References**:
+- https://superuser.com/questions/1902050/why-does-brew-services-httpd-start-return-an-error
+
+---
+
+#### 4703. Unexpected value for DHCP option 12 "host name"
+
+**问题描述 / Problem Description**:
+Tags: macos, dhcp | Score: 2 | Views: 233 | Answers: 1 | Created: 2025-05-13
+
+**解决方案 / Solution**:
+FWIIW, I had the same symptoms. Because of Jörg's hint that it might be related to privacy, if found that changing the setting for Private Wi-Fi address (a.k.a. Mac address randomization) from "Fixed" to "Off" fixed the problem. Settings->Network->Wi-Fi->Details
+
+**参考链接 / References**:
+- https://superuser.com/questions/1897531/unexpected-value-for-dhcp-option-12-host-name
+
+---
+
+#### 4704. Does XLOOKUP in Excel not work with certain special characters?
+
+**问题描述 / Problem Description**:
+Tags: microsoft-excel, macos, worksheet-function, regex | Score: 2 | Views: 659 | Answers: 2 | Created: 2025-04-25
+
+**解决方案 / Solution**:
+Your formula doesn't work with your data because it is not matching the parentheses ( ( ) ). In a Regex, parentheses are special characters that enclose a capturing group. If you want to match them specifically, you have to escape them by preceding them with a backslash. To modify your formula so that it will work as a regex, you can use something like: =XLOOKUP(REDUCE(A2,{"(",")"},LAMBDA(a,b,SUBSTITUTE(a,b,"\" & b))),$D$2:$D$9,$D$2:$D$9,"not found",3) The REDUCE function will replace any of the characters in the array argument with \ + the character . e.g: A3 => Simeon \(#6\) In this instance I have only ) and ( in the array, but you can add other characters if needed. I'm not sure how this helps you with partial matches, but it does explain why your regex doesn't work.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1894083/does-xlookup-in-excel-not-work-with-certain-special-characters
+
+---
+
+#### 4705. Why am I no longer able to grant Python executable accessibility permissions on macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, permissions, python | Score: 2 | Views: 627 | Answers: 1 | Created: 2025-04-22
+
+**解决方案 / Solution**:
+OK, I wasted way too much time on this when all that was need was a restart of iTerm! Yeesh! I still have no idea what happened there, but it was yet another case of "have you tried turning it off and on again"! I'm still leaving this here in case it's useful to somebody else (or myself when I inevitably forget this and re-discover my own post ).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1893417/why-am-i-no-longer-able-to-grant-python-executable-accessibility-permissions-on
+
+---
+
+#### 4706. Why isn't rsync deleting an excluded directory?
+
+**问题描述 / Problem Description**:
+Tags: macos, rsync | Score: 1 | Views: 143 | Answers: 2 | Created: 2025-08-13
+
+**解决方案 / Solution**:
+I would have expected that /Volume/V200/imac_save/Library/Passes with all its subdirectories would be gone […] but the Passes directory is still on the backup medium The fundamental problem here is that you have not told rsync to process any directories. (You're missing either -a or -r .) Consequently only the top level non-directory items are processed from your source. If there are any directories in your destination they won't have been created by the rsync commands you've shown us. The correct approach is to use either -a (to copy all file and directory attributes, and to recurse downwards through any file trees) or -rt (to skip all metadata except timestamps, and still to recurse downwards through any file trees). Then you can specify directory-based exclusions and deletions. First, this will correctly copy everything underneath your Library : rsync -rt "$HOME/Library/" '/Volume/V200/imac_save' And then this modified version will exclude the top-most Passes subdirectory and delete its contents from the destination: rsync -rt --exclude '/Passes/' --delete "$HOME/Library/" '/Volume/V200/imac_save' rm -rf '/Volume/V200/imac_save/Passes' You cannot use rsync to delete items from the destination that are excluded from the transfer unless they also no longer exist on the source. Let me explain: The --delete option deletes items on the destination that no longer exist on the source. The --delete-excluded option extends this to consider items that are inside the --exclude list. Two options that may help you see what's going on are -iv (verbose) and --dry-run (show without action). You can combine them.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1917888/why-isnt-rsync-deleting-an-excluded-directory
+
+---
+
+#### 4707. Why is an encrypted APFS volume mounted with no password provided vulnerabilities?
+
+**问题描述 / Problem Description**:
+Tags: macos, encryption, mount, apfs | Score: 1 | Views: 467 | Answers: 1 | Created: 2025-08-03
+
+**解决方案 / Solution**:
+The password or encryption key for the volume in question is most likely in one of your keychains. To test this, unmount the encrypted volume, then lock all of your keychains, and then try to re-mount the volume without unlocking any keychains.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1914996/why-is-an-encrypted-apfs-volume-mounted-with-no-password-provided-vulnerabilitie
+
+---
+
+#### 4708. Why can't I resolve hostname on LAN via mDNS (.local)?
+
+**问题描述 / Problem Description**:
+Tags: networking, macos, dns, dnsmasq, ddns | Score: 1 | Views: 356 | Answers: 1 | Created: 2025-07-17
+
+**解决方案 / Solution**:
+First, check the computer’s hostname in the three (yes, three) places that they are set in macOS: scutil --get ComputerName scutil --get HostName scutil --get LocalHostName One of them should be named Mac ; the errant name. Now to the --set variant of that command like this on the errant value: sudo scutil --set ComputerName 'Dans-Macbook-Pro' sudo scutil --set HostName 'Dans-Macbook-Pro' sudo scutil --set LocalHostName 'Dans-Macbook-Pro' Or do all three and see how it goes. Just run this command to test it: ping Dans-Macbook-Pro.local Note that Dans-Macbook-Pro will never resolve to anything but append a .local like this and all should be good: Dans-Macbook-Pro.local
+
+**参考链接 / References**:
+- https://superuser.com/questions/1911152/why-cant-i-resolve-hostname-on-lan-via-mdns-local
+
+---
+
+#### 4709. Why is Rsync not excluding a folder?
+
+**问题描述 / Problem Description**:
+Tags: macos, rsync | Score: 1 | Views: 129 | Answers: 1 | Created: 2025-07-06
+
+**解决方案 / Solution**:
+Rsync exclude paths are relative to the root of the transfer as @gordon-davisson points out in his comment , not relative to where the script is running from. removing /Music/Music/Media/Music/ from the exclude path resolved this.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1909067/why-is-rsync-not-excluding-a-folder
+
+---
+
+#### 4710. How do I remove obsolete domains from macOS defaults/cfprefsd system?
+
+**问题描述 / Problem Description**:
+Tags: macos, system-preferences | Score: 1 | Views: 223 | Answers: 1 | Created: 2025-07-02
+
+**解决方案 / Solution**:
+Prefs are stored in .plist files in /Library/Preferences/ (for systemwide things) and ~/Library/Preferences/ (for each user's own preferences). Feel free to delete any of those files you're sure you don't need. Apps usually recreate them from scratch using default values the next time you launch that app, so typically all you stand to lose is any settings you customized.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1908240/how-do-i-remove-obsolete-domains-from-macos-defaults-cfprefsd-system
+
+---
+
+#### 4711. How to configure iterm2 color themes
+
+**问题描述 / Problem Description**:
+Tags: macos, colors, themes, iterm2, oh-my-zsh | Score: 1 | Views: 1330 | Answers: 1 | Created: 2025-05-28
+
+**解决方案 / Solution**:
+I have found the answer to my question. open iterm2 go to settings>general>settings check the "Load settings from a custom folder or url" box click "browse" button search for the directory Users/johnny/Library/Application Support/iTerm2/" if the directory "iTerm2-Color-Schemes" directory doesn't exist, To install: Launch iTerm 2. Get the latest version at iterm2.com Type CMD+i Navigate to Colors tab Click on Load Presets Click on Import Select the .itermcolors file(s) of the scheme(s) you'd like to use Click on Load Presets and choose a color scheme It took a little research effort, but it paid dividends. I hope this helps others.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1902661/how-to-configure-iterm2-color-themes
+
+---
+
+#### 4712. Where is located HTML for directory listing?
+
+**问题描述 / Problem Description**:
+Tags: macos, directory-listing | Score: 1 | Views: 163 | Answers: 2 | Created: 2025-05-24
+
+**解决方案 / Solution**:
+It's not exactly done via a template. Apache's directory listings are handled by its mod_autoindex module. Much of that module's configurability is done via its IndexOptions directive. Many people choose to enable the FancyIndexing option. You can use CSS to style the listings, using the IndexStyleSheet directive. There are many other Apache mod_autoindex configuration directives and options. A decent starting point is here . Also see the example in conf/extra/httpd-autoindex.conf in your Apache installation.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1902115/where-is-located-html-for-directory-listing
+
+---
+
+#### 4713. Why can't I run PHP via Apache on macOS? (Installed using Homebrew)
+
+**问题描述 / Problem Description**:
+Tags: macos, php, ssl, localhost, homebrew | Score: 1 | Views: 369 | Answers: 2 | Created: 2025-05-23
+
+**解决方案 / Solution**:
+I suspect you're running macOS's built-in Apache already and it's getting in the way of starting Homebrew's copy of Apache. Homebrew set up its own Apache environment for PHP, but no one set up macOS's Apache for PHP. So the copy of Apache you're running isn't doing PHP, and the copy of Apache you want to run (from Homebrew) can't run correctly because it can't steal ports 80 and 443 from macOS's Apache. Shut down the system's Apache before trying to start Homebrew's copy of Apache. You can shut down the system's Apache like this: sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist
+
+**参考链接 / References**:
+- https://superuser.com/questions/1901957/why-cant-i-run-php-via-apache-on-macos-installed-using-homebrew
+
+---
+
+#### 4714. How to install HTTPS (not HTTP) on localhost on macOS Sequoia?
+
+**问题描述 / Problem Description**:
+Tags: macos, apache-http-server, https, localhost, homebrew | Score: 1 | Views: 447 | Answers: 1 | Created: 2025-05-23
+
+**解决方案 / Solution**:
+ERR_CONNECTION_REFUSED indicates there is no web server process listening on the HTTPS port (443/TCP). In your description of the steps you've done so far, you didn't mention modifying Apache's config to tell it to listen on port 443. In the default way macOS installs Apache, the most basic way of telling it to do HTTPS on port 443 is to edit /etc/apache2/httpd.conf , scroll down to the SSL/TLS section near the bottom, and uncomment the line: Include /private/etc/apache2/extra/httpd-ssl.conf …and then do a sudo apachectl restart as usual.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1901950/how-to-install-https-not-http-on-localhost-on-macos-sequoia
+
+---
+
+#### 4715. New MacBook .. Old Tabs
+
+**问题描述 / Problem Description**:
+Tags: google-chrome, macbook, tabs | Score: 1 | Views: 329 | Answers: 1 | Created: 2024-11-12
+
+**解决方案 / Solution**:
+Since it's a fresh installation and Chrome considers it a different device, you'll need to look in "History" → "Tabs from other devices" chrome://history/syncedTabs . (It seems that the latest Chrome also has a "Tab groups" button in the bookmarks toolbar, but that only shows grouped tabs, not the ungrouped ones.) If tabs from the old device aren't there, then they likely weren't synced and you'd need to dig through "Chrome history" to find what might have been visited.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1861490/new-macbook-old-tabs
 
 ---

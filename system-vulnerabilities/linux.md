@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1770**
+**总计条目 / Total entries: 1792**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -33826,5 +33826,357 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8417-1
+
+---
+
+#### 1771. CVE-2026-46520 - ImageMagick: ImageMagick: Denial of Service via out-of-bounds write when…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via out-of-bounds write when processing multiple images. Bugzilla: 2487729
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487729
+
+---
+
+#### 1772. CVE-2026-45664 - ImageMagick: ImageMagick: Denial of Service due to excessive resource use in MNG…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service due to excessive resource use in MNG coder. Bugzilla: 2487732
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487732
+
+---
+
+#### 1773. CVE-2026-46522 - ImageMagick: ImageMagick: Denial of Service via crafted MIFF file
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via crafted MIFF file. Bugzilla: 2487730
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487730
+
+---
+
+#### 1774. CVE-2026-45624 - ImageMagick: ImageMagick: Data exposure due to image processing vulnerability
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Data exposure due to image processing vulnerability. Bugzilla: 2487739
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487739
+
+---
+
+#### 1775. CVE-2026-45359 - ImageMagick: ImageMagick: Information Disclosure via Invalid Connected-Components…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Information Disclosure via Invalid Connected-Components Value. Bugzilla: 2487737
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487737
+
+---
+
+#### 1776. CVE-2026-42326 - ImageMagick: ImageMagick: Information disclosure via malicious IPTC input file
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Information disclosure via malicious IPTC input file. Bugzilla: 2487735
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487735
+
+---
+
+#### 1777. CVE-2026-45031 - ImageMagick: ImageMagick: Denial of Service due to resource policy bypass in PSD…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service due to resource policy bypass in PSD decoder. Bugzilla: 2487734
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487734
+
+---
+
+#### 1778. CVE-2026-46523 - ImageMagick: ImageMagick: Denial of Service via crafted MSL image leading to…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via crafted MSL image leading to heap-use-after-free. Bugzilla: 2487743
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487743
+
+---
+
+#### 1779. CVE-2026-10143 - kafka-python: kafka-python: Denial of Service via excessive SCRAM authentication…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kafka-python: kafka-python: Denial of Service via excessive SCRAM authentication iteration count. Bugzilla: 2487722
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487722
+
+---
+
+#### 1780. CVE-2026-6893 - dracut: dracut: Root code execution via DHCP options command injection
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] dracut: dracut: Root code execution via DHCP options command injection. Bugzilla: 2459963
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2459963
+
+---
+
+#### 1781. CVE-2026-45591 - dotnet: ASP.NET Core: Denial of Service via uncontrolled resource consumption
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] dotnet: ASP.NET Core: Denial of Service via uncontrolled resource consumption. Bugzilla: 2487224
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487224
+
+---
+
+#### 1782. CVE-2026-45491 - dotnet: .NET: Local file tampering via link following vulnerability
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] dotnet: .NET: Local file tampering via link following vulnerability. Bugzilla: 2487164
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487164
+
+---
+
+#### 1783. CVE-2026-45490 - dotnet: .NET SDK workload elevate: arbitrary file creation/truncation via LogFile…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] dotnet: .NET SDK workload elevate: arbitrary file creation/truncation via LogFile named pipe.. Bugzilla: 2487184
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487184
+
+---
+
+#### 1784. CVE-2026-42599 - svelte: Svelte: Cross-Site Scripting via untrusted data in spread attributes
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] svelte: Svelte: Cross-Site Scripting via untrusted data in spread attributes. Bugzilla: 2487076
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487076
+
+---
+
+#### 1785. CVE-2025-10263 - kernel: Arm Processors: Privilege escalation or information disclosure via writes…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Arm Processors: Privilege escalation or information disclosure via writes to higher exception level resources. Bugzilla: 2486958
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486958
+
+---
+
+#### 1786. CVE-2026-7383 - openssl: OpenSSL: Heap buffer overflow due to signed integer overflow in Unicode…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openssl: OpenSSL: Heap buffer overflow due to signed integer overflow in Unicode output sizing. Bugzilla: 2481879
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2481879
+
+---
+
+#### 1787. CVE-2026-9076 - openssl: OpenSSL: Denial of Service due to heap out-of-bounds read in CMS…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openssl: OpenSSL: Denial of Service due to heap out-of-bounds read in CMS password-based decryption. Bugzilla: 2481880
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2481880
+
+---
+
+#### 1788. [Ubuntu] USN-8426-1: Linux kernel (Azure) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel algif_aead module did not properly handle in-place cryptographic operations. This flaw is known as Copy Fail. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-31431) It was discovered that the Linux kernel did not properly handle shared page fragments during socket buffer operations, collectively known as Dirt
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8426-1
+
+---
+
+#### 1789. [Ubuntu] USN-8423-1: lwIP vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that lwIP contained a buffer overflow in the EAP authentication handling code. An attacker could possibly use this issue to trigger a buffer overflow, resulting in arbitrary code execution or a denial of service. This issue only affected Ubuntu 20.04 LTS. (CVE-2020-8597) It was discovered that lwIP incorrectly handled certain ICMPv6 or 6LoWPAN packets. An attacker could possibly
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8423-1
+
+---
+
+#### 1790. [Ubuntu] USN-8424-1: Ubuntu Kylin Software Center vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Ubuntu Kylin Software Center incorrectly handled user-supplied input in its D-Bus service. A local attacker could possibly use this issue to gain administrative privileges.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8424-1
+
+---
+
+#### 1791. [Ubuntu] USN-8422-1: Mistral vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Eduardo Gonzalez Gutierrez and Arnaud Morin discovered that Mistral did not properly enforce access policies on some API endpoints. An attacker could possibly execute arbitrary code on a Mistral worker and possibly extract sensitive data including service credentials from it.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8422-1
+
+---
+
+#### 1792. [Ubuntu] USN-8418-1: Crypt-SaltedHash vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Crypt-SaltedHash incorrectly generated salts using a cryptographically weak pseudo-random number generator. An attacker could possibly use this issue to predict generated salts, leading to a weakening of cryptographic protections.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8418-1
 
 ---

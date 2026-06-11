@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4903**
+**总计条目 / Total entries: 4988**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -71527,5 +71527,1110 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1219338#reply20
+
+---
+
+#### 4904. prp on virtual machines
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, networking, virtual-machine | Score: 0 | Views: 23 | Answers: 1 | Created: 2026-06-10
+
+**解决方案 / Solution**:
+version sets the HSR protocol version and is not applicable to the PRP protocol (which internally hardcodes its own version number). Just omit version . tw:~ # ip link add dev prp0 type hsr slave1 dummy0 slave2 dummy1 version 1 proto 1 Error: hsr: PRP version unsupported. tw:~ # ip link add dev prp0 type hsr slave1 dummy0 slave2 dummy1 proto 1 tw:~ # ip -d link show prp0 6: prp0: <BROADCAST,MULTICAST> mtu 1494 qdisc noop state DOWN mode DEFAULT group default qlen 1000 link/ether 8a:5e:61:1f:5b:34 brd ff:ff:ff:ff:ff:ff promiscuity 0 allmulti 0 minmtu 0 maxmtu 1500 netns-immutable hsr slave1 dummy0 slave2 dummy1 sequence 64511 supervision 01:15:4e:00:01:00 proto 1 addrgenmode eui64 numtxqueues 1 numrxqueues 1 gso_max_size 65536 gso_max_segs 65535 tso_max_size 65536 tso_max_segs 65535 gro_max_size 65536 gso_ipv4_max_size 65536 gro_ipv4_max_size 65536 tw:~ # Compare with HSR protocol: ... hsr slave1 dummy0 slave2 dummy1 ... proto 0 version 1 ...
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806363/prp-on-virtual-machines
+
+---
+
+#### 4905. Roughly 400 AUR packages compromised
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u3alhe/roughly_400_aur_packages_compromised/
+
+---
+
+#### 4906. Half Life running on ReactOS for the first time
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u31vel/half_life_running_on_reactos_for_the_first_time/
+
+---
+
+#### 4907. I have FINALLY finished the engineering prototype for the CG Deck - An Open Source, x86, Modular Handheld PC running Dual Boot Linux & Windows
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u38iiq/i_have_finally_finished_the_engineering_prototype/
+
+---
+
+#### 4908. ALVR AUR package has been compromised
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u35jxh/alvr_aur_package_has_been_compromised/
+
+---
+
+#### 4909. Spoiling Linux Kernel with "sanctioned" code
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u2u4ql/spoiling_linux_kernel_with_sanctioned_code/
+
+---
+
+#### 4910. OmniGlyph - Fast Emoji and Unicode Symbol Picker for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u2vt9h/omniglyph_fast_emoji_and_unicode_symbol_picker/
+
+---
+
+#### 4911. Compromised Fedora account linked to suspicious AI-generated contributions
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u3194t/compromised_fedora_account_linked_to_suspicious/
+
+---
+
+#### 4912. Your country's distro
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u363mz/your_countrys_distro/
+
+---
+
+#### 4913. Newton (the Wayland-native accessibility project)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u2n44z/newton_the_waylandnative_accessibility_project/
+
+---
+
+#### 4914. Cine - modern mpv based video player for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u2vl8w/cine_modern_mpv_based_video_player_for_linux/
+
+---
+
+#### 4915. Mouzi - auto file organizer for Downloads (now on Linux: AppImage, deb, rpm)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u33gjp/mouzi_auto_file_organizer_for_downloads_now_on/
+
+---
+
+#### 4916. GNOME Foundation Announces its First Fellows
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u2wueq/gnome_foundation_announces_its_first_fellows/
+
+---
+
+#### 4917. Emoji Pop - A really fast emoji picker for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u31ff3/emoji_pop_a_really_fast_emoji_picker_for_linux/
+
+---
+
+#### 4918. OpenEffects: bring cool facetime webcam effects to your Linux desktop
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u37agq/openeffects_bring_cool_facetime_webcam_effects_to/
+
+---
+
+#### 4919. Toshy - Mac Keymapper for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u3abwl/toshy_mac_keymapper_for_linux/
+
+---
+
+#### 4920. AMD says XDNA1 Linux LLM support isn't available. I used AI-assisted development to get a full transformer layer running on a Ryzen 7 8845HS NPU.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u2tld0/amd_says_xdna1_linux_llm_support_isnt_available_i/
+
+---
+
+#### 4921. I built a bootable OS from scratch that only runs containers — no package manager, no bloat
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u35kei/i_built_a_bootable_os_from_scratch_that_only_runs/
+
+---
+
+#### 4922. I found this new distro called CalamaroOS which claims to be an easy way to install Gentoo. I haven't seen much people talk about it. Does anyone here know much of it?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u38emv/i_found_this_new_distro_called_calamaroos_which/
+
+---
+
+#### 4923. [V2EX] Debian 13 “trixie” released
+
+**问题描述 / Problem Description**:
+https://www.debian.org/News/2025/20250809 正式新闻终于出了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1151300#reply5
+
+---
+
+#### 4924. [V2EX] gemini 开始封号了？？
+
+**问题描述 / Problem Description**:
+cockpit tools 登录不了了。几个号同时出现这个情况。 OAuth 授权失败: Token 交换请求失败: error sending request for url ( https://oauth2.googleapis.com/token )
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219770#reply0
+
+---
+
+#### 4925. [V2EX] iOS 27 wifi 默认会导致 WiFi dhcp 下发的 dns 失效
+
+**问题描述 / Problem Description**:
+之前一直用 AdGuard 屏蔽一些广告，更新后发现屏蔽广告功能失效了，但是远程 WG 回家又是正常的，google 了一下发现 reddit 有人发现了这个问题，关闭 Connectivity Assist 后正常了。 https://www.reddit.com/r/dns/comments/1u1ovlp/psa_updated_ios_27_feature_seems_to_override_the/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219765#reply1
+
+---
+
+#### 4926. [V2EX] mimo cli 好难用
+
+**问题描述 / Problem Description**:
+命令输入 mimo,打印了一串 pppppp ,不知道是何用意 多发几次聊天页面就乱套了，新旧内容叠在一起，乱七八遭 ai 输出完一大堆内容以后，居然不能翻看前面的内容，只能看当前屏，无法滚动 估计都是用 mimo 写的，还没咋测试
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219750#reply4
+
+---
+
+#### 4927. [V2EX] 有没有 claude 拼车的朋友
+
+**问题描述 / Problem Description**:
+三人 20x 如题 平分 翻车尽力搞 责任一起担 用 CLAUDECODE 优先
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219744#reply5
+
+---
+
+#### 4928. [V2EX] 辞职三年，在家带娃，不想被淘汰开始搭自动化
+
+**问题描述 / Problem Description**:
+儿子一岁多，最近趁他午睡，刚跑通一个 Steam 折扣推荐网页自动化。 技术选型上，用 Flask 跑网页展示，requests 调 Steam 公开 API （ featuredcategories + appdetails + appreviews ，零 Key ），Pillow 生成 4 宫格封面图。Python 手写，没依赖什么框架，核心就三块：抓数据、过滤折扣、生成页面。 跑了 3 天，每天定时跑一次，暂时没遇到啥 bug 。代码开源在 GitHub： https://github.com/fcqcc/auto-hub 接下来想搭 GitHub Trending 推送，每天自动抓 t
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219738#reply4
+
+---
+
+#### 4929. [V2EX] MiMo API 提前停止：是我用法不对还是模型问题？
+
+**问题描述 / Problem Description**:
+求解惑 Xiaomi MiMo-v2.5Pro 的 api 构造，官网提到 tool_choice 只能填 auto ，在测试我的 agent loop 的时候经常出现 finish_reason=stop, tools=[] 提前停止，SOP 还没走完 （其他不管冷门还是热门的几家 LLM api 都未出现过）。不知道是我操作不对还是 LLM 的问题。参考 https://platform.xiaomimimo.com/docs/zh-CN/welcome 补充：opencode 、claude code 接入 mimo 从来没出现过。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219736#reply2
+
+---
+
+#### 4930. [V2EX] Vue&ViteConf 2026 将于 7 月 18 日在上海举办，尤雨溪将现场发表主题演讲
+
+**问题描述 / Problem Description**:
+Vue&ViteConf 2026 将于 7 月 18 日在上海举办！ VoidZero 创始人 & CEO ，Vue.js & Vite 作者尤雨溪将出席本次会议并发表主题演讲，本次会议计划设置 10-12 个演讲主题。**目前已经确定 11 位演讲嘉宾，10 个演讲主题。** 除尤雨溪以外，我们一起来看看都还有哪些演讲嘉宾和演讲主题： VoidZero 成员，Rolldown / Vite / Oxc 核心贡献者 shulaoda 将为大家带来主题为《从社区贡献到 VoidZero：聊聊 Vite 和 Rolldown 的内存优化》 的演讲。 字节 Lynx 架构师、前 Meta Reac
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219729#reply2
+
+---
+
+#### 4931. [V2EX] 测试不是测一遍 —— 是 6 个阶段每阶段都不一样
+
+**问题描述 / Problem Description**:
+主流的"测试" vs 我的"6 阶段" 很多团队的测试流程是 3 段式: UT → 集成 → 上线 每阶段都做"测试"——只是测试对象不同。 我的判断不一样: ▌ 测试不是"测一遍"—— ▌ 是按 6 个阶段性质拆分, ▌ 每阶段有"该阶段独有、其他阶段无法替代"的验证内容。 不是 6 次相同动作 —— 是 6 类不同性质的验证 。 6 阶段是什么 ┌──────────────────────────────────────────────────────────┐ │ │ │ ① 单元测试 ── 验证"函数内部" │ │ ↓ │ │ ② 集成测试 ── 验证"跨网络" │ │ ↓ ← 比对
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219678#reply3
+
+---
+
+#### 4932. [V2EX] 做为 IT 工程师十几年，你做的最不后悔的决定是什么？
+
+**问题描述 / Problem Description**:
+我先来，买了一把 HHKB ，至今手感优秀，无可取代。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219631#reply10
+
+---
+
+#### 4933. [V2EX] chartgpt-plus 涨价了？
+
+**问题描述 / Problem Description**:
+翻了一倍了，什么时候价格能降下来啊？感觉没有 AI ，干活太痛苦了。是不是中毒了啊？；）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219609#reply0
+
+---
+
+#### 4934. [V2EX] 大家抓紧看看 deepseek 开放平台有没有异常 apikey!
+
+**问题描述 / Problem Description**:
+1.起因:一个月来我的 deepseek 用量异常,钱烧的特别快(100 附近),但 token 用量妥妥不正常. 我本地只在 cowork 中会使用,只在 ccswitch 中添加过 deepseek.ccswitch 只用 700mtoken,deepseep 显示我使用了接近 5 个亿. 2.端倪:我检查了 apikey 列表,有多个未知 key. 3.发起 2 次投诉:deepseek 官方未理会. 4.删除异常 key,无奈之举 5.今天又发现了 3 个异常 key. 6.后知后觉账号泄漏,我一直觉得自己是扫码+手机验证登录的 deepseek!! deepseek 的开放平台是完全
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219604#reply34
+
+---
+
+#### 4935. [V2EX] Codex 可以通过邀请朋友来重置周额度了，大佬，请帮我砍一刀！
+
+**问题描述 / Problem Description**:
+这两天发现 Codex 额度查询旁边多了一个“邀请好友”，规则是被邀请的用户需要登陆 codex 并且发送一条消息 是通过邮件发邀请链接，还没试过，不知道被邀请的用户是否有什么福利 有没有愿意试试的老哥，邮件给我，我邀请你试试。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219583#reply2
+
+---
+
+#### 4936. [V2EX] Chat gpt plus 苹果商店订阅是有延迟嘛
+
+**问题描述 / Problem Description**:
+5 月 9 号土区充值的 plus ，到今天 6 月 11 号发现还是 plus 去商店看了下已经过期 9 天了？但是我还是 plus 这是啥原因呀
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219581#reply4
+
+---
+
+#### 4937. [V2EX] 失业半年，结束十年北漂，回老家躺平一个多月了
+
+**问题描述 / Problem Description**:
+公司倒闭后，差不多失业半年了。 93 年，工作也快十年了。之前人在北京，简历投了一阵，回复很少。挺讽刺的是，这两年 AI 确实方便了很多，也让我这种一个人做项目的人效率高了不少；但另一边也挺现实，岗位少了，要求高了，最后自己也被影响到了。 孩子刚两周岁，家里暂时压力也不大，我就从北京回内蒙老家了。四线小城市，回来一个多月。说是躺平也行，反正先不折腾了。 回来之后感觉还挺好。平时带孩子去公园、淘气堡玩儿，自己做饭也多了，几乎不吃外卖。朋友、家人聚会也多了，孤独感少了不少。以前在北京待久了，嘴上大家都客客气气，但有时候还是会觉得自己不是那里的人。回老家之后反而踏实很多。 当然也不是完全什么都不做。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219564#reply42
+
+---
+
+#### 4938. [V2EX] chatgpt plus 土耳其区涨价一倍
+
+**问题描述 / Problem Description**:
+要去当菲律宾人了吗，哪里有靠谱的菲律宾礼品卡充值渠道呢，怕买到黑卡
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219561#reply13
+
+---
+
+#### 4939. [V2EX] 闲聊： GNU/ Linux VS Agent/LLM
+
+**问题描述 / Problem Description**:
+大家在工作生活日常提及目前的“AI”的时候，是会脱口而出“Agent”还是“LLM”,还是直接就是“AI”
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219548#reply2
+
+---
+
+#### 4940. [V2EX] 电商从 0 到 1 经验分享，一个春节日历卖了 4000 份， 21 万营业额 [重发]
+
+**问题描述 / Problem Description**:
+一个月，卖 4000 份，21 万营业额，7 万纯利。 在 2026 年 1 月之前， 我主要做一些 倒狗 和 黄牛的生意。 在 1 月 8 号， 机会来了， 之前我关注了年货选品，知道过年有很大的流量！ 知道高赞评论可能隐藏着需求！ 我之前关注了毛选语录小卡，高赞评论说： 为什么不做成一个 365 页的日历？ 一天一句话。 我想这个可能已经有人做了就搜了下。 看到了一款 365 页的毛选主题的日历！，是 8 天前发售的! 几天卖了几千份，我当天直接上架了淘宝，第二天起床：50 单！ 我知道这事成了! 这时候我开始进行日历的设计，我的朋友去跑印刷厂， 我利用 Gemini, 咨询了日历设计的常
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219495#reply39
+
+---
+
+#### 4941. [V2EX] GitHub 又挂了……
+
+**问题描述 / Problem Description**:
+https://www.githubstatus.com/incidents/fcj3088jg1wx 照这个趋势下去连 99%都守不住了，似乎自从迁移到 Azure 开始稳定性就变差了很多
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219481#reply8
+
+---
+
+#### 4942. [V2EX] cursor 优惠注册连接，新用户半价
+
+**问题描述 / Problem Description**:
+我是老用户，cursor 给了我优惠连接，你可以半价购买；我可以获得 25 美元的奖励，双赢！ https://cursor.com/referral?code=RVWHWDU0ZRLJ
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219476#reply16
+
+---
+
+#### 4943. [V2EX] 来个靠谱中转站, 我用生图, 只希望满血的 banana
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219458#reply4
+
+---
+
+#### 4944. Changing file permissions from 777 to 755 or changing the owner doesn't do anything
+
+**问题描述 / Problem Description**:
+Tags: centos, permissions, filesystems, vagrant | Score: 5 | Views: 2817 | Answers: 1 | Created: 2024-05-30
+
+**解决方案 / Solution**:
+The most common cause for this kind of behavior (note: no error messages when trying to change permissions or ownership) is that the files are located in a filesystem that does not support Unix-style file ownerships/permissions, like a VFAT/FAT32/ExFAT filesystem, or a SMB/CIFS share from a system that won't support the Unix extensions of the SMB protocol. Such filesystems typically allow setting a default owner/group for all files and directories within, and perhaps one set of permissions for all files and another for all directories. These are usually set using mount options at filesystem mount time. There are no error messages because the filesystem driver "knows" that changing the per-file ownerships and permissions is fundamentally not possible, so the driver simply does nothing and reports a successful operation whenever asked to change owners/permissions. To identify the filesystem type used, run findmnt --target . in the directory that contains the files whose permissions you would like to change. Please edit your question to add the output of that command in it as text , not as a picture of text. The filesystem type appears to be vboxsf , indicating this is a VirtualBox share from the host system. If VirtualBox is running as a regular user in the host system, it will have no privileges to change file ownerships on the host side. And if the host filesystem happens to be VFAT/FAT32/ExFAT, there will be no way to store the permissions for individual files, so the driver cannot rely on the host filesystem capabilities at all. So it will have to assume it must provide all the ownership/permissions emulation by itself, just like a VFAT filesystem driver has to do. See man mount.vboxsf for mount options to use for setting the permissions.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/777437/changing-file-permissions-from-777-to-755-or-changing-the-owner-doesnt-do-anyth
+
+---
+
+#### 4945. How can I get DNF to ignore dependencies when upgrading a package?
+
+**问题描述 / Problem Description**:
+Tags: fedora, dnf5 | Score: 4 | Views: 2768 | Answers: 1 | Created: 2025-03-29
+
+**解决方案 / Solution**:
+Marcus Müller had the solution: dnf swap --allowerasing libheif-1.19.5-3.fc41 libheif-1.19.7-1.fc41 This uninstalled the older version of libheif , and also the dependent leaf libheif-freeworld . It was then free to upgrade libheif and libheif-tools , and brought in the new dependency libopenjph . I hope I never need this again, but it is good to know.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793127/how-can-i-get-dnf-to-ignore-dependencies-when-upgrading-a-package
+
+---
+
+#### 4946. Where can I find update logs in Fedora 41?
+
+**问题描述 / Problem Description**:
+Tags: fedora, upgrade, dnf, dnf5 | Score: 3 | Views: 724 | Answers: 1 | Created: 2025-04-14
+
+**解决方案 / Solution**:
+GNOME Software actually uses PackageKit to manage packages, not DNF directly so dnf history won't show you the changes. Or to be precise, it doesn't use the new DNF5, but PackageKit internally uses the old DNF4. The dnf4 command is still available in Fedora 41, so you can get the GNOME Software history with dnf4 history : $ dnf4 history info 0 Transaction ID : 2 Begin time : Mon Apr 14 19:24:03 2025 Begin rpmdb : 1241ed23c15047a4e952cc748be21846d722c71b2a7f324346f0822ddb2f740e End time : Mon Apr 14 19:24:05 2025 (2 seconds) End rpmdb : c03ffb9f2765ce13629212465594c46231551a85e390d9652be477be9cf7934c User : Super User <root> Return-Code : Success Releasever : Command Line : Comment : Packages Altered: Upgrade firefox-137.0-2.fc41.x86_64 @updates Upgrade firefox-langpacks-137.0-2.fc41.x86_64 @updates Upgraded firefox-131.0.2-1.fc41.x86_64 @@System Upgraded firefox-langpacks-131.0.2-1.fc41.x86_64 @@System This is an entry for Firefox update I did with GNOME Software. DNF5 and DNF4 don't share the metadata (and history) database so dnf history won't show you this. In ideal world, pkcon get-transactions would also show you all changes made with GNOME Software, but that's currently broken . There is a plan to switch GNOME Software to DNF5 , so let's hope this hack won't be needed in the near future.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793710/where-can-i-find-update-logs-in-fedora-41
+
+---
+
+#### 4947. User permissions on shared files in dual boot system (Windows, Linux): unable to edit shared file on Linux
+
+**问题描述 / Problem Description**:
+Tags: fedora, permissions, windows, dual-boot, btrfs | Score: 3 | Views: 836 | Answers: 2 | Created: 2025-04-05
+
+**解决方案 / Solution**:
+If your Windows Btrfs driver is this one , it includes a way to set up mappings between your Windows user account and your Linux UID. It sounds like you haven't done that, or perhaps there is an error with your mappings. See the chapter titled Mappings on the driver's Github page.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793356/user-permissions-on-shared-files-in-dual-boot-system-windows-linux-unable-to
+
+---
+
+#### 4948. CentOS ls uses dpkg
+
+**问题描述 / Problem Description**:
+Tags: centos, dpkg | Score: 3 | Views: 485 | Answers: 1 | Created: 2024-03-17
+
+**解决方案 / Solution**:
+From the question text, it is evident that the ls command is picked up from the /usr/local/bin directory, which means that this directory is found earlier in the PATH variable's value than e.g. /usr/bin and /bin . Changing the ordering of the variable's value in your shell's startup files, possibly by prepend /bin and /usr/bin to it, should stop your shell from using ls from /usr/local/bin , assuming that there is an ls command in /bin or /usr/bin . PATH=/bin:/usr/bin:$PATH The reason why /usr/local/bin/ls is a shell script (possibly a copy of the Ubuntu-specific script found here , which, although not malware, is not at all related to the ls command in any way) is still a mystery, as is whether this anomality is limited to the ls executable or whether it extends to other files and directories under /usr/local .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/772539/centos-ls-uses-dpkg
+
+---
+
+#### 4949. `Transaction failed: Rpm transaction failed.` when trying to install a package
+
+**问题描述 / Problem Description**:
+Tags: fedora, dnf | Score: 2 | Views: 2693 | Answers: 1 | Created: 2025-04-23
+
+**解决方案 / Solution**:
+The collision is in the build ID file /usr/lib/.build-id/1c/26baeb945b7e2802e2ac040b8e5e44d63ddea2 . Non-debug RPM packages should not include build IDs, which are used for debuginfo. It's possible to force installation by using rpm directly with the --replacefiles option. But the better answer is to let the package maintainer know to drop build ID files in their RPMs (this can be accomplished by setting %define _build_id_links none in the RPM SPEC file).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794065/transaction-failed-rpm-transaction-failed-when-trying-to-install-a-package
+
+---
+
+#### 4950. Updating CentOS Stream
+
+**问题描述 / Problem Description**:
+Tags: centos, opensuse | Score: 2 | Views: 2991 | Answers: 2 | Created: 2024-06-16
+
+**解决方案 / Solution**:
+Major upgrades of Stream can be done but they are not officially supported. Strictly speaking, there is no officially supported in-place upgrade option for CentOS Stream. The only way that is 100% guaranteed to work is a reinstall. That said, RHEL major version upgrades are officially supported by Red Hat using the Leapp system, and due to the inherent similarity of CentOS Stream with RHEL, you can use Leapp for Stream as well. Leapp does not work entirely out of the box on Stream the way it does on RHEL, mainly because Stream does not have point (minor) releases while Leapp relies on point release numbers to figure out what adjustments need to be done to the system during an upgrade. Fortunately, patched Leapp is available , and does the job just fine. Most of those patches are already submitted for upstream inclusion, so with some luck this will start working with unmodified Leapp at a later stage. The good thing about Leapp is that the entire upgrade is prepared ahead of time and all compatibility checks are done at that stage. So even if you have to perform the preupgrade in several iterations to iron out any wrinkles, this phase is entirely non-destructive. Only after everything is ready you reboot and apply the whole upgrade, which is fairly low risk at that point. (FWIW, I have upgraded several servers from CentOS 7 via Stream 8 to Stream 9 without any trouble or unforeseen downtime.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/778433/updating-centos-stream
+
+---
+
+#### 4951. How to configure key press repeat delay?
+
+**问题描述 / Problem Description**:
+Tags: centos, keyboard, vnc | Score: 2 | Views: 1343 | Answers: 1 | Created: 2024-06-12
+
+**解决方案 / Solution**:
+From what I understand, CentOS defaults to GNOME as its DE. You ought to be able to change it pursuant to this answer on AskUbuntu These settings are under Settings → Universal Access → Typing → Repeat Keys. You have to click the Repeat Keys row item, which brings up a pop-up dialog with two settings: Delay and Speed. If that doesn't work / you're running a different DE and you're using X11 as a display server, you can use xset . In the case of your connection, you can turn key repeat off completely with: $ xset off Implementation differs if you're using another Wayland compositor.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/778242/how-to-configure-key-press-repeat-delay
+
+---
+
+#### 4952. How to correctly unzip weird character file in zip?
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, zip | Score: 2 | Views: 1160 | Answers: 1 | Created: 2024-04-01
+
+**解决方案 / Solution**:
+The character encoding in your locale is ANSI_X3.4-1968 which is another name for ASCII, that charset only has 128 different characters, American (the A in both ASCII and ANSI) English ones. It doesn't have any Chinese character. You land in such a locale because the LC_CTYPE environment variable is set to UTF-8 and UTF-8 is not a valid locale name on your CentOS system (see the output of locale -a for the list of supported locales). It is a valid locale in very few systems, a known exception being Apple macos (formerly known as macOS, OS/X and MacOS/X or whatever Apple's marketing team fancied on a given day). When the locale category for LC_CTYPE , which covers the character encoding among other things, cannot be found, it defaults to the C locale in which on most systems including CentOS the charmap is ASCII. Your output of locale also shows that the LANG environment variable is set to en_US.UTF-8 . That is a valid locale on your system, the LC_CTYPE one is bogus, and should be left unset, so that, like for the other LC_* categories, it is derived from $LANG , and the en_US.UTF-8 locale will have a UTF-8 charmap which is an encoding of Unicode which contains all known characters in existence. You can address the problem locally in your shell environment by doing: unset -v LC_CTYPE (assuming a POSIX-like shell) After which you'll see the output of locale showing: LC_CTYPE="en_US.UTF-8" (the double quotes indicate that the value is inferred , here from $LANG as $LC_ALL is not set) To fix the problem more permanently, you'd need to figure out what sets that environment variable. One possibility is that you're logging in over ssh to that CentOS system from a macos system and that the environment on your macos system includes a LC_CTYPE=UTF-8 (as it's valid there) and as ssh is often configured by default to pass the localisation variables along to the server¹, that variable ends up being propagated to the remote shell session on the CentOS system. If that's the case, you need to tell macos to stop sending the LC_CTYPE variable, or to send it with a value that is portable to other systems and is not macos-specific. For instance, you could add: SetEnv LC_CTYPE=en_US.UTF-8 To your ~/.ssh/config for it to send a specific value for that variable. Stopping it from sending your $LC_CTYPE variable may be more difficult or more clunky as it may involve changing the system-wide ssh_config . You could also raise it as an issue with Apple as it's obviously a nuisance that it sends bogus env var values to non-macos systems. You could also do: env -u LC_CTYPE ssh centos-machine Instead of: ssh centos-machine To make sure the LC_CTYPE environment variable it not passed to ssh , and therefore not pass along to the remote shell. ¹ usually via some SendEnv LANG LC_* configuration directive client-side and AcceptEnv LANG LC_* server-side
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/773562/how-to-correctly-unzip-weird-character-file-in-zip
+
+---
+
+#### 4953. Adb is giving an undefined symbol: libusb_get_ssplus_usb_device_capability_descriptor error, and I am unsure how to solve this?
+
+**问题描述 / Problem Description**:
+Tags: fedora, kde, android, adb, symbol-table | Score: 1 | Views: 311 | Answers: 1 | Created: 2025-06-21
+
+**解决方案 / Solution**:
+Remove libusb1-1.0.27 . I had the same problem but libusb1 upgrade solved it: $ sudo dnf5 upgrade libusb1 ... Package Arch Version Repository Size Upgrading: libusb1 x86_64 1.0.28-2.fc41 updates 170.7 KiB replacing libusb1 x86_64 1.0.27-4.fc41 142727d57aa047619b88514e26d58c3f 170.2 KiB $ rpm -q libusb1 libusb1-1.0.28-2.fc41.x86_64
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797268/adb-is-giving-an-undefined-symbol-libusb-get-ssplus-usb-device-capability-descr
+
+---
+
+#### 4954. Fedora CoreOS: how can I add a user to dialout group?
+
+**问题描述 / Problem Description**:
+Tags: fedora, configuration, passwd, coreos | Score: 1 | Views: 902 | Answers: 2 | Created: 2025-05-15
+
+**解决方案 / Solution**:
+Workaround I was able to add the user myuser to group dialout via the following commands: grep -qE "^dialout:" /etc/group || grep -E "^dialout:" /usr/lib/group >> /etc/group usermod -a -G dialout myuser Full Butane configuration: variant: fcos version: 1.6.0 passwd: users: - name: myuser # Password: mypassword password_hash: "$y$j9T$tZyPwp1NEbj9P6WAv.F720$Rj9PJnLqoTph5k2Qd5hAPLF6Evsp9TEgCz5ZkmwMHT4" groups: - sudo home_dir: /home/myuser shell: /bin/bash uid: 1001 systemd: units: - name: add-myuser-to-dialout.service enabled: true contents: | [Unit] Description=Add myuser to dialout group Wants=sysinit.target After=sysinit.target Before=zincati.service ConditionPathExists=!/var/lib/%N.stamp [Service] Type=oneshot RemainAfterExit=yes ExecStart=/bin/sh -eux -c 'grep -qE "^dialout:" /etc/group || grep -E "^dialout:" /usr/lib/group >> /etc/group' ExecStart=/bin/sh -eux -c 'usermod -a -G dialout myuser' ExecStart=/bin/touch /var/lib/%N.stamp [Install] WantedBy=multi-user.target
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794934/fedora-coreos-how-can-i-add-a-user-to-dialout-group
+
+---
+
+#### 4955. Qualcomm WIFI kernel drive ath12k_pci failing to load
+
+**问题描述 / Problem Description**:
+Tags: fedora, wifi, kernel-modules | Score: 1 | Views: 1609 | Answers: 1 | Created: 2025-05-13
+
+**解决方案 / Solution**:
+This is a firmware bug with this Qualcomm card WCN7850, that is being tracked already https://bugzilla.kernel.org/show_bug.cgi?id=220108 For now the workaround is Download the two files amss.bin and m3.bin in this repo https://git.codelinaro.org/clo/ath-firmware/ath12k-firmware/-/tree/main/WCN7850/hw2.0/1.0.c5/WLAN.HMT.1.0.c5-00481-QCAHMTSWPL_V1.0_V2.0_SILICONZ-3 remove the existing files in /lib/firmware/ath12k/WCN7850/hw2.0 and copy the downloaded ones there instead sudo cp amss.bin m3.bin /lib/firmware/ath12k/WCN7850/hw2.0
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794840/qualcomm-wifi-kernel-drive-ath12k-pci-failing-to-load
+
+---
+
+#### 4956. How do I keep Fedora to try to suspend my system when idle?
+
+**问题描述 / Problem Description**:
+Tags: systemd, fedora, suspend, systemctl | Score: 1 | Views: 1506 | Answers: 1 | Created: 2025-04-14
+
+**解决方案 / Solution**:
+I found it!! /etc/systemd/sleep.conf has the settings related to sleep and hibernate. I edited two lines and did a systemctl daemon-reload , and the problem seems to have gone away. #AllowSuspend=yes AllowSuspend=no #AllowHibernation=yes AllowHibernation=no
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793749/how-do-i-keep-fedora-to-try-to-suspend-my-system-when-idle
+
+---
+
+#### 4957. Fedora 38->40 upgrade failed, /bin/bash requires glibc_2.38
+
+**问题描述 / Problem Description**:
+Tags: fedora, upgrade, chroot, glibc | Score: 1 | Views: 147 | Answers: 1 | Created: 2025-03-06
+
+**解决方案 / Solution**:
+First get a Live CD with the OS that matches yours. Nothing older, nothing newer. Boot into the Live CD on the affected system. Open a terminal su or sudo the following commands: Determine if sda2 is root, or if another partition is root. > blkid | grep /dev/sd > ls -lha /dev/disk/by-uuid > lsblk -l Connect root to /mnt > cd / > mount /dev/sda2 /mnt > mount -t proc proc /mnt/proc > mount -t sysfs sys /mnt/sys > mount -o bind /dev /mnt/dev > mount --bind /run /mnt/run > mount /dev/sda1 /mnt/boot Normally, you would use chroot at this point to manipulate the OS on the target drive, but since the file system is corrupted, dnf will need to repair it from here. > dnf distro-sync \ --refresh \ --allowerasing \ --releasever=40 \ --installroot=/mnt Note that dnf took a long time to complete the repairs. While it looks like it's stuck, watch the hard drive activity using iotop or a hard drive light. > rpm -V -a --root=/mnt Once these commands are complete you can reboot. > reboot -p If all goes well, your system should be restored to normal working order, and the previous offending OS should be removed.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792023/fedora-38-40-upgrade-failed-bin-bash-requires-glibc-2-38
+
+---
+
+#### 4958. Finding CentOS 7 Compatible Packages
+
+**问题描述 / Problem Description**:
+Tags: centos, yum, rpm | Score: 1 | Views: 344 | Answers: 2 | Created: 2024-07-01
+
+**解决方案 / Solution**:
+While you can download packages from vault.centos.org, you will at some point have issues from a Centos7 host due to the ancient TLS / CA certs DB. Also, you shouldn't be connecting an unsupported OS to the internet. If you have a modern host where you can run a TLS proxy, then you can do this.... Install stunnel on the host designated as the proxy with: [centos7-http] client = yes accept = 0.0.0.0:8080 connect = vault.centos.org:443 verifyChain = yes CApath = /etc/ssl/certs checkHost = vault.centos.org Add the IP address of the stunnel host to /etc/hosts on the Centos 7 host: 10.0.0.1 vault.centos.org (note that you need to use the name of the origin host here) amend the files in centos5:/etc/yum.repos.d/CentOS-Base.repo and CentOS-Sources.repo to replace http://mirror.centos.org with http://vault.centos.org:8080 remove or disable any other repos in /etc/yum.repos.d
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/779317/finding-centos-7-compatible-packages
+
+---
+
+#### 4959. What file is /dev/autofs?
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, centos, devices | Score: 1 | Views: 180 | Answers: 1 | Created: 2024-02-02
+
+**解决方案 / Solution**:
+/dev/autofs provides access to the autofs mount control interface; this is a set of ioctl s which can be used to retrieve information about autofs mounts and to configure them. See Miscellaneous Device control operations for the autofs kernel module in the kernel documentation for details. The behaviour change in stat is a bug fix applied in coreutils 9.0.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/768284/what-file-is-dev-autofs
+
+---
+
+#### 4960. Pseudo-terminals control each other, how to get the return display
+
+**问题描述 / Problem Description**:
+Tags: centos, devices, pty | Score: 1 | Views: 410 | Answers: 1 | Created: 2024-02-01
+
+**解决方案 / Solution**:
+It may be expecting additional input. Sending the line feed might help signal to the target shell that the command is complete: echo -n text > /dev/pts/4 Or use -e to add the newline, same difference: echo -e "text\n" > /dev/pts/4 You can use the -s option with man , like this: man -s pty > /dev/pts/4 This should prevent the target pseudo-terminal from showing the new line after the manual page loads. The "proper" way to redirect a man page is with the script command, which creates a new shell session for interaction: script -q -c 'man pty' /dev/pts/4 Make sure the environment variables (like TERM and PAGER ) are correctly set for the target terminal. To intercept all output that goes to a specific pseudo-terminal, you can use tee . However, intercepting all output of another terminal can be difficult when processes are directly writing to /dev/pts/4 . { echo "text" ; other_command ; } | tee /dev/pts/4 This will send the output of echo "text" and other_command to the current terminal and /dev/pts/4 . Where you want to capture anything a process sends to /dev/pts/4 , you would need to involve system call tracing or terminal multiplexers like screen or tmux that allow session sharing and logging. Oh, and tee could also help with the blank line: echo text | tee /dev/pts/4 .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/768235/pseudo-terminals-control-each-other-how-to-get-the-return-display
+
+---
+
+#### 4961. Is there a way to access files and information on an offline Linux server
+
+**问题描述 / Problem Description**:
+Tags: centos, cpanel | Score: 1 | Views: 247 | Answers: 1 | Created: 2024-01-05
+
+**解决方案 / Solution**:
+It might be easiest to just remove the disk drive and connect it to your current server. If you don't want to do that you'll have to boot the machine and log in. If you don't have a valid login you can boot from an installation CD. Once you're logged in there are several ways to get the files onto the new server: if the old machine has a network card you can use rsync to transfer the files if it has a USB port you can copy the files to a USB drive
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/766188/is-there-a-way-to-access-files-and-information-on-an-offline-linux-server
+
+---
+
+#### 4962. Can anyone explain this key-combo sequence
+
+**问题描述 / Problem Description**:
+Tags: bash, fedora, keyboard-shortcuts | Score: 10 | Views: 827 | Answers: 1 | Created: 2024-10-11
+
+**解决方案 / Solution**:
+The initial = does not really matter, it's only needed because completion does not trigger on an empty prompt. Hitting Alt + = will send the control sequence ^[= . You can figure this out by hitting Ctrl + v in the terminal, followed by your key combination. By default in bash , this is bound to the Readline function possible-completions : $ bind -P | grep '=' possible-completions can be found on "\e=", "\e?". possible-completions is defined in man 1 bash as: possible-completions (M-?) List the possible completions of the text before point.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/784890/can-anyone-explain-this-key-combo-sequence
+
+---
+
+#### 4963. Prevent application from being executed by any local user except systemd
+
+**问题描述 / Problem Description**:
+Tags: fedora, security, root, selinux, executable | Score: 9 | Views: 1611 | Answers: 3 | Created: 2024-11-10
+
+**解决方案 / Solution**:
+Confine the app using a custom SELinux policy module. Given that you're on Fedora, which runs with SELinux enabled, the obvious answer would be to give the program its own SELinux domain to which only init_t can transition. That can be expressed using something like this in your myapp.te file: allow init_t myapp_t:process { transition }; type_transition init_t myapp_exec_t:process myapp_t; Then make sure to add allow myapp_t something rules listing exactly the kind of access the app needs to have but no more than that. Finally, label the binary as myapp_exec_t using chcon and you're set. If you have never created a SELinux module before, Quick start to write a custom SELinux policy should get you started.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/786395/prevent-application-from-being-executed-by-any-local-user-except-systemd
+
+---
+
+#### 4964. What is a DNF 5 compatible alternative to `dnf repository-packages ancient-repo remove`?
+
+**问题描述 / Problem Description**:
+Tags: fedora, dnf, dnf5 | Score: 3 | Views: 690 | Answers: 3 | Created: 2025-01-18
+
+**解决方案 / Solution**:
+I'm not sure if this is what you're looking for, but the --repo option might be something to try. --repo=REPO_ID,... Enable just specified repositories. This is a list option which can be specified multiple times. Accepted values are ids, or a glob of ids.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789778/what-is-a-dnf-5-compatible-alternative-to-dnf-repository-packages-ancient-repo
+
+---
+
+#### 4965. Extract a RAR file while automatically truncating long filenames
+
+**问题描述 / Problem Description**:
+Tags: fedora, filenames, archive, rar | Score: 3 | Views: 685 | Answers: 1 | Created: 2024-11-23
+
+**解决方案 / Solution**:
+With libarchive's bsdtar (which supports at least some versions of rar files as well as dozens of other archive formats), you could do something like: bsdtar -'s|\([^/]\{100\}\)[^/]*|\1|gp' -xvvf file.rar Which would truncate file path components to 100 characters ¹. You can change it to: LC_ALL=C bsdtar -'s|\([^/]\{255\}\)[^/]*|\1|gp' -xvvf file.rar To truncate to 255 bytes , which is the usual limit on the length of a file name on Linux, but beware it might cut a character in the middle if multi-byte encoded (as in UTF-8 as is the default in most modern locales). bsdtar can extract but not create rar archives, it can however create more Unix like ones and with generally better compression and can convert archive formats. To create a file.tar.xz file out of your file.rar with file path components truncated to 255 bytes, you could do: LC_ALL=C bsdtar -'s|\([^/]\{255\}\)[^/]*|\1|gp' -cvvf - @file.rar | nice pixz > file.tar.xz Here using pixz instead of xz -T0 as it produces indexed archives which makes it faster to extract individual archive members (provided you use pixz to do so). Beware those take the characters / bytes off the end, so the extension for those path components that contain dots will be the first to go, and there's no guard against files ending up with the same name after truncation. If you know the extensions are all 3 bytes long or less, you can preserve them by changing the substitution to: LC_ALL=C bsdtar -'s|\([^/.]\{251\}\)[^/.]*|\1|gp' -xvvf file.rar That is truncate all sequences of bytes other than those representing the / and . characters² to 251 bytes instead of the sequence of bytes other than representing / to 255 bytes. A smarter way, that would handle extensions of any length and always truncate to 255 bytes, but that requires a version of libarchive with that bug fixed (which hasn't been released yet) would be to do something like: LC_ALL=C bsdtar -'s|[^/]\{1,\}|~:|gp' \ -'s|\([^/]*\)\(\.[^/]*\)|\2\1|bg' \ -'s|\([^/]\{256\}\)[^/]*|\1|bg' \ -'s|\([^/]*\):\([^/]*\)|\2\1|bg' \ -'s|\([^/]\{255\}\)[^/]|\1|bg' \ -xvvf file.rar That is, for each path component: append a delimiter (here : which is unlikely to be found in a rar archive as those are more for Microsoft systems where : is special). move the .extension to the beginning truncate the result to 256 byte (one extra byte to account for the delimiter). move the extension back to the end and remove the delimiter. truncate the path components that are still 256 bytes long after : removal because they didn't have an extension or had an extension that was over 254 bytes long. Note that the extension of a file called 01. Monarchy 2.0.html.gz is taken as being .gz here, not .html.gz , .0.html.gz nor . Monarchy 2.0.html.gz . ¹ Note that UTF-8 encoded characters can be up to 4 bytes long (formerly 6), so you could still end-up with file names that are 400 bytes long if all characters in them were all in the U+10000 .. U+10FFFF range. ² POSIX does guarantee that the encoding of . and / be single-byte, invariant across locales and that their encoding be not found in the encoding of any other character in any locale, so it should be a safe thing to do.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/787086/extract-a-rar-file-while-automatically-truncating-long-filenames
+
+---
+
+#### 4966. DBus Policy that Allows Group to Access System Service
+
+**问题描述 / Problem Description**:
+Tags: systemd, fedora, d-bus, polkit | Score: 2 | Views: 910 | Answers: 1 | Created: 2025-02-08
+
+**解决方案 / Solution**:
+After a lot of digging and a hint from the Fedora forums , I was able to figure out what was going on. I haven't completely tested it - unrelated issues with my release pipeline - but the API I'm using bears this out. The dbus policy I have in this question is to my knowledge well-formed - in fact, it could be narrowed a bit by adding send_interface to the allow tag. But there are at least two other ways of managing access policies for dbus. One of them is using polkit , and in fact I thought that was the issue for a while. But, as far as I can tell, polkit is an optional, added layer - it's not implemented by default. The other way - and the culprit in this case - is the service itself marking a method as privileged within the sd-bus library . This is what was happening in my case. Some evidence of this is that, on introspecting my service's API, I could see an annotation called "org.freedesktop.systemd1.Privileged": <method name="Eject"> <annotation name="org.freedesktop.systemd1.Privileged" value="true"/> </method> By default, sd-bus marks all methods as privileged, unless an "unprivileged" flag is explicitly applied when defining the method. In the C API , this flag is called SD_BUS_VTABLE_UNPRIVILEGED . Note that signals and properties are not treated as such by default - in fact, those were all working fine. My service is written in Python with python-sdbus , and indeed, it does support this API. So in my code, I had something like: @dbus_method_async("") async def eject(self: Self) -> None: """ Eject the tape. """ self.client.eject() and I needed to change it to: @dbus_method_async("", flags=sdbus.DbusUnprivilegedFlag) async def eject(self: Self) -> None: """ Eject the tape. """ self.client.eject() Like I said, I haven't been able to fully test this end-to-end. But I'm really confident that this is the answer, and so am posting this as the solution.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790750/dbus-policy-that-allows-group-to-access-system-service
+
+---
+
+#### 4967. Locale: Unable to get correct date (for Sunday of this week)
+
+**问题描述 / Problem Description**:
+Tags: bash, fedora, date, locale, gnu | Score: 2 | Views: 223 | Answers: 1 | Created: 2025-01-13
+
+**解决方案 / Solution**:
+For the GNU implementation of date , see info date 'date input' for the description of input format. Relevant: 29.6 Day of week items The explicit mention of a day of the week will forward the date (only if necessary) to reach that day of the week in the future. Days of the week may be spelled out in full: ‘Sunday’, ‘Monday’, ‘Tuesday’, ‘Wednesday’, ‘Thursday’, ‘Friday’ or ‘Saturday’. Days may be abbreviated to their first three letters, optionally followed by a period. The special abbreviations ‘Tues’ for ‘Tuesday’, ‘Wednes’ for ‘Wednesday’ and ‘Thur’ or ‘Thurs’ for ‘Thursday’ are also allowed. A number may precede a day of the week item to move forward supplementary weeks. It is best used in expression like ‘third monday’. In this context, ‘last DAY’ or ‘next DAY’ is also acceptable; they move one week before or after the day that DAY by itself would represent. 29.7 Relative items in date strings “Relative items” adjust a date (or the current date if none) forward or backward. The effects of relative items accumulate. [...] The strings ‘now’ or ‘today’ are relative items corresponding to zero-valued time displacement, these strings come from the fact a zero-valued time displacement represents the current time when not otherwise changed by previous items. They may be used to stress other items, like in ‘12:00 today’. The string ‘this’ also has the meaning of a zero-valued time displacement, but is preferred in date strings like ‘this thursday’. Here you have a relative date format where this is ordinal number 0, week a multiplier. So date -d 'this week monday' is the same as date -d monday which takes you to the next Monday (or today if today is a Monday) as this week has no effect as it shifts the time by 0. FWIW, it's the same with ast-open's date ¹ (same as in ksh93's printf %T ). Here instead, you could do: date -d "-$(( $(date +%u) -1 )) day" +%F Which shifts the current time backward by a number of days which is the current week day number (1 for Monday, 7 for Sunday) minus 1. Beware that won't work properly in the middle of the night around the daylight saving changes as one day actually means 86400 seconds. So for instance if run on 2024-10-27T23:30:00 in Europe, that gives you 2024-10-22 which is a Tuesday, as 2024-10-27 was actually 25 hours long because of the switch to winter time in the morning. To address that, best is to do the calculations at noon (and hope you're not in a timezone where the government decided to switch from GMT+12 to GMT-12 on that week) noon=$(date -d "$(date +%FT12:00:00)" +%s) dow=$(date -d "@$noon" +%u) date -d "@$(( noon - (dow - 1) * 86400 ))" +%F Or switch to zsh which has datetime parsing and formatting builtin which would avoid the GNUisms. ¹ busybox date is another implementation where you can input a specific date, but relative ones are not supported there (though at least it supports specifying the input format with -D , like ast-open's -p ). BSDs have a different API for specifying input dates (and depending no the BSD, -d is for something totally unrelated while some others have added a -d for compatibility with GNU's).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789479/locale-unable-to-get-correct-date-for-sunday-of-this-week
+
+---
+
+#### 4968. ImageMagick on Fedora will not read HEIC images created with iOS 18
+
+**问题描述 / Problem Description**:
+Tags: fedora, imagemagick | Score: 2 | Views: 1082 | Answers: 2 | Created: 2025-01-11
+
+**解决方案 / Solution**:
+Looks like Rawhide has libheif 1.19. You can wait until Fedora Linux 42 in April/May, or ask the package maintainer if they're planning to update the current release too (this sounds like a good reason to do it). Or, you can try out the future, using toolbox to set up a (pre-release) F42 containerized environment: $ toolbox enter --release 42 No Toolbx containers found. Create now? [y/N] y Image required to create Toolbx container. Download registry.fedoraproject.org/fedora-toolbox:42 (375.8MB)? [y/N]: y last: cannot open /var/run/utmp: No such file or directory toolbx:~$ magick bash: magick: command not found toolbx:~$ sudo dnf install ImageMagick Updating and loading repositories: Fedora - Rawhide - Developmental packages for the next Fedora release [...] The toolbox container has full transparent access to your regular home directory, so from there you can just proceed as normal. Note the prompt change to toolbx: — and if you're using the new terminal app in F41, the title bar will change color. When you're done, just exit that shell and you'll be back to the "normal" system.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789400/imagemagick-on-fedora-will-not-read-heic-images-created-with-ios-18
+
+---
+
+#### 4969. EPEL 7 links are dead... Where to find replacement?
+
+**问题描述 / Problem Description**:
+Tags: fedora, rhel, repository, archive, epel | Score: 2 | Views: 5571 | Answers: 2 | Created: 2025-01-10
+
+**解决方案 / Solution**:
+You can find a mirror of the repo at the archive site; https://archives.fedoraproject.org/pub/archive/epel/7/ I would suspect a repo entry similar to name=Extra Packages for Enterprise Linux 7 - $basearch baseurl=https://archives.fedoraproject.org/pub/archive/epel/7/x86_64/ failovermethod=priority enabled=1 gpgcheck=1 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7 priority=4 But you may be better creating your own internal mirror if you plan on using this longer term. You can get the gpg key from https://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-7
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789369/epel-7-links-are-dead-where-to-find-replacement
+
+---
+
+#### 4970. How do I configure US layout with German special characters (on Fedora/GNOME/wayland)?
+
+**问题描述 / Problem Description**:
+Tags: fedora, gnome, keyboard-layout, wayland, language | Score: 2 | Views: 957 | Answers: 2 | Created: 2024-12-05
+
+**解决方案 / Solution**:
+You have two options to change your keyboard layout. If you want to make your own keyboard layout, see this and that . 1. Via GNOME settings Install gnome-tweaks to enable "Show Extended Input Sources" in the Keyboard tab or run gsettings set org.gnome.desktop.input-sources show-all-sources true . Restart GNOME by logging out. Then, go to the "Keyboard" tab in GNOME settings, click on "Add input source", click on "English", then scroll down and add the "German, Swedish, and Finnish (US)" layout. This layout allows you to type "@€üöå~äß|ÜÖÅÄẞ¦" using the right alt key. 2. Via command line Open a terminal and type gsettings set org.gnome.desktop.input-sources mru-sources "[('xkb', 'us+de_se_fi')]" gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us+de_se_fi')]"
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/787701/how-do-i-configure-us-layout-with-german-special-characters-on-fedora-gnome-way
+
+---
+
+#### 4971. Configure current GNOME 47 to put buttons (back) at bottom
+
+**问题描述 / Problem Description**:
+Tags: fedora, gnome, kde | Score: 2 | Views: 291 | Answers: 1 | Created: 2024-11-15
+
+**解决方案 / Solution**:
+This change is very infuriating indeed and totally against all UI design consistency between various apps. Some users have reported this is also inconsistent between X11 and Wayland. Forcing the application to run in XWAYLAND is one way to work around the issue. A better way is to correct this UI bug by changing the source code of GTK. More precisely, change TRUE to FALSE on line 1100 of gdk/wayland/gdkscreen-wayland.c See also : https://www.gimp-forum.net/Thread-Open-save-buttons-on-bottom-of-the-dialog Instructions are given there for repackaging GTK on Debian, I don't know how to do it for Fedora.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/786689/configure-current-gnome-47-to-put-buttons-back-at-bottom
+
+---
+
+#### 4972. How to prevent showmount from hanging?
+
+**问题描述 / Problem Description**:
+Tags: centos, nfs | Score: 2 | Views: 1062 | Answers: 1 | Created: 2023-11-23
+
+**解决方案 / Solution**:
+The timeout command can be instructed to use the SIGKILL signal (see man timeout ). This works with showmount quite effectively: timeout --signal KILL 3s showmount -e remoteNFSServer
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/762192/how-to-prevent-showmount-from-hanging
+
+---
+
+#### 4973. How should I approach multibooting Windows 11, Fedora 41, and openSUSE Tumbleweed?
+
+**问题描述 / Problem Description**:
+Tags: fedora, windows, opensuse, multiboot | Score: 1 | Views: 167 | Answers: 1 | Created: 2025-01-25
+
+**解决方案 / Solution**:
+Understanding that this is not the answer you are looking for, i would step away from multi-boot, if you really need all those system baselines, the i would recommend, if the resource allow that, to head for virtual machines. E.g. W11 as boot up + hyper-v vms for the linux boxes/WSL2 D12+Proxmox + Vms for W11, ... Ubuntu + virt-manager (qemu/kvm) + vms for the others. as this keeps your physical setup simple and you have (assuming enough resources) even parallel access to those system with snapshots + rollback... For Data-sharing, you can head for "shared guest folders" in most of the solutions mentioned above.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790120/how-should-i-approach-multibooting-windows-11-fedora-41-and-opensuse-tumblewee
+
+---
+
+#### 4974. How can I unbind a device without sudo?
+
+**问题描述 / Problem Description**:
+Tags: fedora, hid | Score: 1 | Views: 115 | Answers: 1 | Created: 2024-12-26
+
+**解决方案 / Solution**:
+It has root owner and 0400 permission, so only root or a process with CAP_DAC_OVERRIDE capabilities can write to it. You could create a simple bash script #!/bin/bash echo "<device-id>" > /sys/bus/hid/drivers/hid-multitouch/unbind and arrange for sudo to permit you to execute just this script with privilege and without password. How to run a specific program as root without a password prompt? Alternatively you could write a trivial program, compile it to a binary, and then give the binary privileges to do this. Preferably: $ sudo setcap CAP_DAC_OVERRIDE ./myprog see man pages for capabilities(7) and setcap(8).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/788703/how-can-i-unbind-a-device-without-sudo
+
+---
+
+#### 4975. USBtoSerial monitoring and modification of settings of charge controller Epever XTRA series
+
+**问题描述 / Problem Description**:
+Tags: fedora, hardware, monitoring, serial-port, ttyusb | Score: 1 | Views: 100 | Answers: 1 | Created: 2024-12-15
+
+**解决方案 / Solution**:
+Yes, it is possible. The easiest way is to buy compatible USB/RS485 cable for Epever/EPsolar MPPT controllers of XTRA/Tracer series and PWM LSxxxxB series. In my case it was marked as CC-USB-RS485-150U and lsusb reports it as: Bus 001 Device 007: ID 1a86:55d3 QinHeng Electronics USB Single Serial # lsusb -t /: Bus 001.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/15p, 480M |__ Port 001: Dev 007, If 0, Class=Communications, Driver=cdc_acm, 12M The Fedora 39 (and probably newer) can detect it and use cdc_acm module as driver. It creates the /dev/ttyACM0 device. No special module compilation was needed in my case (there are such a projects, which can be found on the Internet - in case of older distributions or different cable models it may be required). The charge controller I have tried the connection with is Epever XTRA4210N-XDS2. I successfully used epevermodbus project version 0.0.18 for connection: https://pypi.org/project/epevermodbus/0.0.18/ The installation via Python pip is really simple: pip install epevermodbus The epevermodbus requires root privileges for running. For simple reading it is sufficient to specify the device port ( /dev/ttyACM0 ) and slaveaddress (usually 1): # epevermodbus --portname /dev/ttyACM0 --slaveaddress 1 Real Time Data Solar voltage: 13.82V Solar current: 0.47A Solar power: 6.23W Load voltage: 12.46V Load current: 0.08A Load power: 1.37W Battery voltage: 12.46V Battery current: 0.45A Battery power: 6.72W Battery state of charge: 51% Battery temperature: 16.95°C Remote battery temperature: 0°C Controller temperature: 21.95°C Battery status: {'wrong_identifaction_for_rated_voltage': False, 'battery_inner_resistence_abnormal': False, 'temperature_warning_status': 'NORMAL', 'battery_status': 'NORMAL'} Charging equipment status: {'input_voltage_status': 'NORMAL', 'charging_mosfet_is_short_circuit': False, 'charging_or_anti_reverse_mosfet_is_open_circuit': False, 'anti_reverse_mosfet_is_short_circuit': False, 'input_over_current': False, 'load_over_current': False, 'load_short_circuit': False, 'load_mosfet_short_circuit': False, 'disequilibrium_in_three_circuits': False, 'pv_input_short_circuit': False, 'charging_status': 'BOOST', 'fault': True, 'running': True} Discharging equipment status: {'input_voltage_status': 'NORMAL', 'output_power_load': 'LIGHT', 'short_circuit': False, 'unable_to_discharge': False, 'unable_to_stop_discharging': False, 'output_voltage_abnormal': False, 'input_over_voltage': False, 'short_circuit_in_high_voltage_side': False, 'boost_over_voltage': False, 'output_over_voltage': False, 'fault': False, 'running': True} Day time: True Night time: False Maximum battery voltage today: 14.18V Minimum battery voltage today: 12.32V Maximum PV voltage today: 20.96V Minimum PV voltage today: 0V Device over temperature: False Consumed energy today: 0.11kWh Consumed energy this month: 0.25kWh Consumed energy this year: 0.25kWh Total consumed energy: 0.25kWh Generated energy today: 0.02kWh Generated energy this month: 0.43kWh Generated energy this year: 0.43kWh Total generated energy: 0.43kWh Current device time: 2013-01-14 23:58:31 Battery Parameters: Rated charging current: 40A Rated load current: 40A Battery real rated voltage: 12V Battery type: GEL Battery capacity: 200AH Temperature compensation coefficient: 3mV/°C/Cell Over voltage disconnect voltage: 16V Charging limit voltage: 15V Over voltage reconnect voltage: 15V Equalize charging voltage: 15V Boost charging voltage: 14.2V Float charging voltage: 13.8V Boost reconnect charging voltage: 13.2V Low voltage reconnect voltage: 12.6V Under voltage recover voltage: 12.2V Under voltage warning voltage: 12V Low voltage disconnect voltage: 11.1V Discharging limit voltage: 10.6V Battery rated voltage: AUTO Default load on/off in manual mode: ON Equalize duration: 120 min Boost duration: 120 min Battery discharge: 30% Battery charge: 100% Charging mode: VOLTAGE_COMPENSATION Except reading in human readable form, the tool also supports export in JSON format with --json parameter. The full list of parameters is accessible with --help parameter. There are examples of changing the date and "Equalize charging voltage" controller settings: # epevermodbus --portname /dev/ttyACM0 --slaveaddress 1 --set-time Old RTC value: 2013-01-15 00:03:09 New RTC value: 2024-12-14 10:51:34 # epevermodbus --portname /dev/ttyACM0 --slaveaddress 1 --set-equalize-charging-voltage 14.1 Old equalize charging voltage: 15V New equalize charging voltage: 14.1V To check the values really change, just read again: # epevermodbus --portname /dev/ttyACM0 --slaveaddress 1 ... Current device time: 2024-12-14 10:55:03 ... Equalize charging voltage: 14.1V ... With this tool you can easily modify the charging parameters to best fit your battery settings - doing so through the controller monitoring LCD is quite a nightmare... (Low values explanation - this installation is quite small (400Wp) and in winter cloudy conditions of the day and mostly SW orientation it does not generate much power - when it is sunny, the energy production is much better - later that day it was producing some 40W and still it wasn't really sunny.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/788155/usbtoserial-monitoring-and-modification-of-settings-of-charge-controller-epever
+
+---
+
+#### 4976. How do I hibernate my Fedora 40 laptop with a swapfile on an encrypted btrfs filesystem?
+
+**问题描述 / Problem Description**:
+Tags: fedora, laptop, hibernate | Score: 1 | Views: 280 | Answers: 1 | Created: 2024-12-07
+
+**解决方案 / Solution**:
+Btrfs does not currently support swap. Use a swap partition instead.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/787764/how-do-i-hibernate-my-fedora-40-laptop-with-a-swapfile-on-an-encrypted-btrfs-fil
+
+---
+
+#### 4977. Use an integrated fingerprint reader on HP 6710b with linux, Fedora 41
+
+**问题描述 / Problem Description**:
+Tags: fedora, linux-kernel, fingerprint | Score: 1 | Views: 250 | Answers: 1 | Created: 2024-11-24
+
+**解决方案 / Solution**:
+I tested with Fedora 41 not work on my laptop , maybe is broken. I cannot enroll my fingerprint: dnf5 reinstall fprintd.x86_64 fprintd-pam.x86_64 --assumeno the finger print commands are : fprintd-enroll fprintd-verify fprintd-delete fprintd-list
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/787138/use-an-integrated-fingerprint-reader-on-hp-6710b-with-linux-fedora-41
+
+---
+
+#### 4978. Fedora 40 - Apache Perl CGI - Open for writing fails
+
+**问题描述 / Problem Description**:
+Tags: fedora, apache-httpd, perl, cgi | Score: 1 | Views: 82 | Answers: 1 | Created: 2024-11-15
+
+**解决方案 / Solution**:
+The answer was simple, but hard to find. Fedora uses systemd and systemd has implemented a lot of sandboxing around httpd and other service elements. These are not really new, but it appears that Fedora has just recently turned them on for httpd (Apache). The result is, that with the current default settings, each instance of httpd gets its own temporary version of /tmp. Any CGI program that writes to /tmp sees it succeed, but the next time you call the same CGI program, that file is not there anymore. Similarly, the whole file tree under /home is read-only for CGI programs. In my installation, each application is installed under a pseudo user under /home . For example, the system I wrote to track product serial numbers and the customers they are shipped to, lives under /home/sales/serial . Similarly, the Foswiki service lives under /home/foswiki2 . To solve the problem I used sudo systemctl edit httpd to create an override parameter file for httpd.service , containing [Service] PrivateTmp=false ProtectHome=no I then issued the commands sudo systemctl reload-daemons and sudo systemctl restart httpd Now things work like I am used to.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/786671/fedora-40-apache-perl-cgi-open-for-writing-fails
+
+---
+
+#### 4979. wget unable to resolve localhost: "Failed to send 233 bytes (hostname='localhost', ip=::1, errno=111)"
+
+**问题描述 / Problem Description**:
+Tags: fedora, wget | Score: 1 | Views: 158 | Answers: 1 | Created: 2024-11-13
+
+**解决方案 / Solution**:
+Fedora seems to (correctly) resolve localhost to IPv6 ::1 , before even trying IPv4. My guess here is that your HTTP daemon isn't bound to an IPv6 address, and so doesn't get asked. getent seems to return what it should: but getent hosts isn't what is used to resolve names!
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/786598/wget-unable-to-resolve-localhost-failed-to-send-233-bytes-hostname-localhost
+
+---
+
+#### 4980. Since Fedora 41, how do you list packages installed explicitly by the user
+
+**问题描述 / Problem Description**:
+Tags: fedora, dnf | Score: 1 | Views: 1117 | Answers: 1 | Created: 2024-11-13
+
+**解决方案 / Solution**:
+This works for me $ dnf history list ID Command line Date and time Action(s) Altered 38 dnf install fastfetch 2025-01-09 18:03:56 9 37 dnf install google-earth-pro-stable-current.x86_64.rpm 2025-01-07 20:47:59 1 ... 9 dnf install shutter 2024-12-22 19:40:59 167 8 dnf install audacious 2024-12-22 19:40:37 9 7 dnf install okular 2024-12-22 19:37:42 89 6 dnf update 2024-12-21 04:29:02 71 5 dnf install ksshaskpass 2024-12-20 22:32:09 37 4 dnf install libbsd 2024-12-20 18:11:54 2 3 dnf install yum-utils 2024-12-18 16:50:28 1 2 dnf install emacs.x86_64 2024-12-18 06:00:46 17 1 dnf update 2024-12-17 04:22:58 738
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/786559/since-fedora-41-how-do-you-list-packages-installed-explicitly-by-the-user
+
+---
+
+#### 4981. How to get docker-compose back in Fedora 41?
+
+**问题描述 / Problem Description**:
+Tags: fedora, docker, docker-compose | Score: 1 | Views: 876 | Answers: 1 | Created: 2024-11-12
+
+**解决方案 / Solution**:
+I discussed the issue on the Red Hat Bugzilla ( https://bugzilla.redhat.com/show_bug.cgi?id=2325904 ). As their answer explains quite well the why and how, I reproduce it here. Versions of docker-compose Fedora 40 provides docker-compose v1.x and Fedora 41 provides docker-compose v2.x. With version 2, the docker-compose team switched to implementing the compose functionality as a plug-in to docker. In version 1 docker-compose is a stand-alone application. The docker-compose team now provides a separate component (see https://github.com/docker/compose-switch ) to emulate the stand-alone client functionality. This functionality is now available in Fedora 41 (and newer) as docker-compose-switch. Install from Docker rpms If you are installing docker using rpms from the Docker community (e.g. docker-compose-plugin rpm), then the instructions provided at https://github.com/docker/compose-switch can be followed to regain docker-compose at the command line with the compose v2 functionality. Install from Fedora rpms To implement docker-compose from Fedora rpms, please remove the Docker rpms such as docker-ce-stable and docker-compose-plugin and then using 'sudo dnf install docker-compose-switch'. This will then include the docker-compose rpm (as a plugin) and suggest the containerd rpm which contains docker. Alternatively podman-docker can be installed to provide a docker alias which will also work with the plug-in.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/786532/how-to-get-docker-compose-back-in-fedora-41
+
+---
+
+#### 4982. Sway: waybar doesn't start, GTK apps take more than 20 seconds to start up
+
+**问题描述 / Problem Description**:
+Tags: fedora, wayland, gtk, sway | Score: 1 | Views: 750 | Answers: 1 | Created: 2024-11-08
+
+**解决方案 / Solution**:
+Create a file ~/.config/xdg-desktop-portal/sway-portals.conf with the following contents: [preferred] default=wlr;gtk; xdg-desktop-portal is indeed the problem. It requires a configuration file declaring which portals should be used and if it doesn't find one, it hangs for about 25 seconds before exiting. I found the right configuration here .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/786334/sway-waybar-doesnt-start-gtk-apps-take-more-than-20-seconds-to-start-up
+
+---
+
+#### 4983. scikit-image fails to install under Fedora 41
+
+**问题描述 / Problem Description**:
+Tags: fedora, software-installation | Score: 1 | Views: 515 | Answers: 1 | Created: 2024-11-02
+
+**解决方案 / Solution**:
+Meson is trying to build a dependency, and needs the proper headers. Installing the python3.12-devel package fixed this problem.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/786017/scikit-image-fails-to-install-under-fedora-41
+
+---
+
+#### 4984. Persistent systemd-logind error in Fedora Silverblue: Failed to open '/boot//loader/entries'
+
+**问题描述 / Problem Description**:
+Tags: systemd, fedora, boot | Score: 1 | Views: 386 | Answers: 1 | Created: 2024-10-20
+
+**解决方案 / Solution**:
+I reported the issue upstream, you can find more details there: https://github.com/systemd/systemd/issues/35293
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/785355/persistent-systemd-logind-error-in-fedora-silverblue-failed-to-open-boot-loa
+
+---
+
+#### 4985. CentOS systemd places service subprocesses started with `sudo` in `user.slice` (instead of `system.slice`)
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, centos, systemd, cgroups | Score: 1 | Views: 607 | Answers: 1 | Created: 2023-11-15
+
+**解决方案 / Solution**:
+Systemd service configuration does not take over child process creation nor move child process anywhere. That's done by the PAM configuration of sudo itself, which unnecessarily invokes pam_systemd (perhaps deliberately to achieve the result that you don't want, or perhaps just in an attempt to have XDG_RUNTIME_DIR set for the target user when people try to run GUI apps as root? I don't know). The PAM module creates a systemd-logind session and this causes logind to move the invoking process to the "session" cgroup, in much the same way that your own shell process gets moved out of sshd.service or getty@.service when you log in. Edit /etc/pam.d/sudo to disable the use of this module. Take care to not disable it for other PAM configurations, however – if the file includes /etc/pam.d/system-auth (which is also used by console and SSH logins), you'll want to keep pam_systemd there; instead you might have to insert a pam_succeed_if to trick PAM into skipping it: session [success=1 default=ignore] pam_succeed_if.so service = sudo session whatever pam_systemd.so ("success=1" skips 1 next module if pam_succeed_if returns PAM_SUCCESS, while "default=ignore" causes all other results to be disregarded.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/761524/centos-systemd-places-service-subprocesses-started-with-sudo-in-user-slice
+
+---
+
+#### 4986. How to quickly edit commands in the Linux terminal?
+
+**问题描述 / Problem Description**:
+Tags: bash, centos, terminal | Score: 1 | Views: 2737 | Answers: 4 | Created: 2023-10-06
+
+**解决方案 / Solution**:
+If you are using the usual default emacs key bindings (IE not vi bindings) you can use Ctrl W to delete backwards from the cursor to the next space boundary. That can be a bit aggressive when, say, trying to remove part of a path or URL, so there is also Alt Backspace which respects various other word boundary characters. There are many bindings available, too many to list here.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/758264/how-to-quickly-edit-commands-in-the-linux-terminal
+
+---
+
+#### 4987. FTP transfer fails unless I open an ssh session with the server
+
+**问题描述 / Problem Description**:
+Tags: centos, vsftpd | Score: 1 | Views: 605 | Answers: 2 | Created: 2023-09-07
+
+**解决方案 / Solution**:
+If your FTP transfer only works when you open an SSH session with the server, it might be due to a few reasons: Firewall or Security Settings: Your server's firewall or security settings may allow SSH connections but not FTP. You should check your server's configuration to ensure that FTP traffic is permitted. Port Forwarding : FTP uses different ports for data and control connections. If your server is behind a NAT router, you might need to set up port forwarding to allow FTP connections. Passive FTP: If you're using passive FTP, you might need to configure your FTP client to use a specific range of ports. Check your server's passive FTP settings and make sure your client is set up accordingly. Server Configuration: The FTP server on your machine may have specific configuration settings that are causing issues. Review the FTP server's settings and logs to identify any potential problems. User Permissions: Make sure the user account you are using for FTP has the necessary permissions to access and transfer files. SSH sessions might grant different permissions by default. It's essential to check these aspects to determine why FTP transfers are failing without an open SSH session and to adjust your server or client configurations accordingly.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/756000/ftp-transfer-fails-unless-i-open-an-ssh-session-with-the-server
+
+---
+
+#### 4988. CentOS 7 with Apache 2.4 not serving content after change of root web directory
+
+**问题描述 / Problem Description**:
+Tags: centos, apache-httpd, webserver | Score: 1 | Views: 484 | Answers: 1 | Created: 2023-09-06
+
+**解决方案 / Solution**:
+One possible answer would be that SELinux is denying the new webroot. Check if SELinux is enabled: $ getenforce Enforcing Enforcing means that SELinux is enabled and enforcing the rules. A quick check to see if SElinux is really the problem would be to temporarily disable it: $ setenforce 0 Reload the webpage and if it works now, SELinux is most likely the culprit. But how to fix this permanently without having to disable SELinux? Check the correct context of a webroot: $ ll -Z /var/www/html drwxr-xr-x. root root system_u:object_r:httpd_sys_content_t:s0 . drwxr-xr-x. root root system_u:object_r:httpd_sys_content_t:s0 .. Notice the httpd_sys_content_t tag! This probably differs from your new webroot at /mnt/webfiles . You need to define a correct context for the new webroot in the SELinux policy. Do this: # This sets correct context in the policy $ semanage fcontext -a -t httpd_sys_content_t "/mnt/webfiles(/.*)?" # This applies the context to the webroot $ restorecon -v /mnt/webfiles Then check if it worked. Remember to re-enable SELinux otherwise you won't be actually testing it :-) $ setenforce 1 To check for denials, you can view the SELinux AVC denial log like so: $ ausearch -ts recent -m avc Also, if you need write access to the webroot, you may need to change the context from httpd_sys_content_t to httpd_sys_rw_content_t OR set the httpd_unified SELinux boolean to true : $ setsebool -P httpd_unified 1
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/755868/centos-7-with-apache-2-4-not-serving-content-after-change-of-root-web-directory
 
 ---
