@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6440**
+**总计条目 / Total entries: 6506**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -89484,5 +89484,863 @@ Please take note of the above comment by Keltari about installing software on a 
 
 **参考链接 / References**:
 - https://superuser.com/questions/1504561/how-to-install-an-application-on-a-windows-server-available-to-any-user-in-doma
+
+---
+
+#### 6441. Why is the video folder in media streaming empty in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: networking, windows-11, streaming, tv | Score: 0 | Views: 37 | Answers: 1 | Created: 2026-06-10
+
+**解决方案 / Solution**:
+Found the solution by myself. Not an issue relative to my Entreprise edition.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938351/why-is-the-video-folder-in-media-streaming-empty-in-windows-11
+
+---
+
+#### 6442. Lost video from the iphone of a family member that has passed away.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3yxzq/lost_video_from_the_iphone_of_a_family_member/
+
+---
+
+#### 6443. New computer, first windows update, been stuck at "You're 100% there. Please keep your computer on." Am I cooked?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u3ut7d/new_computer_first_windows_update_been_stuck_at/
+
+---
+
+#### 6444. Windows 11 Installation wont boot from USB kicks me to BIOS
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u48jok/windows_11_installation_wont_boot_from_usb_kicks/
+
+---
+
+#### 6445. Wifi connecdtions causing KMODE_EXCEPTION_NOT_HANDLED (0x1E)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u487m4/wifi_connecdtions_causing_kmode_exception_not/
+
+---
+
+#### 6446. Mouse/Acceleration Problems
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u4879f/mouseacceleration_problems/
+
+---
+
+#### 6447. Help monitor turned off suddenly & is now lifeless.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u484o7/help_monitor_turned_off_suddenly_is_now_lifeless/
+
+---
+
+#### 6448. Unable to download a certain file!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u47t8v/unable_to_download_a_certain_file/
+
+---
+
+#### 6449. Win11 and Tumbleweed wont boot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u47sbm/win11_and_tumbleweed_wont_boot/
+
+---
+
+#### 6450. Windows 11-PC Boot Error after PCIe-USB-Hub removal
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u47mzy/windows_11pc_boot_error_after_pcieusbhub_removal/
+
+---
+
+#### 6451. Do I need to switch out my PSU for my new build?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u47lnk/do_i_need_to_switch_out_my_psu_for_my_new_build/
+
+---
+
+#### 6452. Subject: Hardware Defect: Internal EMI/Crosstalk Interference in Arctis Nova 3P Wireless
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u47j8k/subject_hardware_defect_internal_emicrosstalk/
+
+---
+
+#### 6453. External SSD keeps disconnecting randomly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u47g56/external_ssd_keeps_disconnecting_randomly/
+
+---
+
+#### 6454. My keyboard goes crazy when I press alt
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u47btz/my_keyboard_goes_crazy_when_i_press_alt/
+
+---
+
+#### 6455. Mouse behaving in bizzare ways
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u477ph/mouse_behaving_in_bizzare_ways/
+
+---
+
+#### 6456. Full Windows C Drive showing apps that are installed on other drives?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u473p5/full_windows_c_drive_showing_apps_that_are/
+
+---
+
+#### 6457. Black screen when i run any benchmarks with directx 12 and volume shader gpu benchmark
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u4737u/black_screen_when_i_run_any_benchmarks_with/
+
+---
+
+#### 6458. PC no display/peripherals not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u4727p/pc_no_displayperipherals_not_working/
+
+---
+
+#### 6459. "HackTool:Win64/Malgent!MSR" What is it?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u46ylv/hacktoolwin64malgentmsr_what_is_it/
+
+---
+
+#### 6460. Help. is ssd failing, is this just my pc? what is it?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u46x6d/help_is_ssd_failing_is_this_just_my_pc_what_is_it/
+
+---
+
+#### 6461. HDD Issues Running Rampant
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u46vkd/hdd_issues_running_rampant/
+
+---
+
+#### 6462. Computer will not start up after the screen stopped working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u46pse/computer_will_not_start_up_after_the_screen/
+
+---
+
+#### 6463. TCL won't charge
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u46ort/tcl_wont_charge/
+
+---
+
+#### 6464. Tv signal keeps dropping out
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u46m6b/tv_signal_keeps_dropping_out/
+
+---
+
+#### 6465. Pixel 9 Pro won't pair with Corsair Virtuoso XT Bluetooth headset
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u46jy7/pixel_9_pro_wont_pair_with_corsair_virtuoso_xt/
+
+---
+
+#### 6466. [V2EX] 在 AI 盛行的今天我请教一个关于 ZooKeeper 的技术问题
+
+**问题描述 / Problem Description**:
+我有一个关于 ZooKeeper 的问题：假设有三个客户端，客户端依次写入 5 条数据，编号为 1 、2 、3 、4 、5 。是否存在这样一种可能：在同一时间点，Client1 读到的数据是 1 、2 、3 、4 、5 ，Client2 读到的是 2 、3 、4 、5 ，Client3 读到的是 3 、4 、5 ？ 我认为: 不可能。zookeeper 保证顺序一致性，既然某条客户端已经读到的写入顺序是 1 、2 、3 、4 、5 ，其他人就可能读到 1 、2 、3 或 1 、2 、3 、4 ，但不可能读到 2 、3 、4 。因为一旦读到 2 ，就一定能读到 1 。 我之所以在这里发帖请教，是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220069#reply2
+
+---
+
+#### 6467. [V2EX] 有什么好的方案？关于 win 和安卓手机之间互传文件
+
+**问题描述 / Problem Description**:
+rt ，想问一下 v 友们平常在面对这种情况时使用的什么方案，除了用微信或者 QQ 以外的，大中小文件，有推荐的方法或者第三方平台吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220058#reply8
+
+---
+
+#### 6468. [V2EX] 请问在哪里可以体验华为的盘古大模型？
+
+**问题描述 / Problem Description**:
+有没有类似 glm 、deepseek 、qwen 、mimo 、kimi 等国产大模型的官方体验渠道？很期待，想试试。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220052#reply0
+
+---
+
+#### 6469. [V2EX] 我想问问现在 Cloudflare 能不能正常登陆?
+
+**问题描述 / Problem Description**:
+我被甲骨文封号搞出心里阴影了,我的 Cloudflare 突然不能登陆了,我在这家还有两个域名在里面
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220051#reply7
+
+---
+
+#### 6470. [V2EX] 一款一键入门的小白首选小梯子：实证零代码纯嘴吹的 Agent 编程已经到了可以完美取代资深程序员的程度。
+
+**问题描述 / Problem Description**:
+初次提交 C 代码是在近代物理研究所的 PDP 11 系列上，最后一次提交 JAVA 代码时 Eclipse 还不太流行。小三十年没碰代码的老古董一枚。 上个月放假，儿子带回来一台装着他们公司大模型的二手机，让我体验了一把无代码纯嘴吹的 Agent 编程，主要通过麦克风，偶尔用用鼠标，基本上没碰键盘，搞出了个自认涵盖小白一切需求，无门槛一键入门的科学用小梯子。 https://raw.githubusercontent.com/qiu-yuxiao/clash-mini/dev/docs/assets/screenshot_traffic_monitor.png 宗旨：极简，零门槛，开箱即用，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220050#reply0
+
+---
+
+#### 6471. [V2EX] 个人网站加了 AI 聊天、测试眼缘、卡片分享、朋友推荐等，还有啥好玩的可以加？
+
+**问题描述 / Problem Description**:
+去年抓取了在豆瓣标记的影视书籍数据，一直放着不知道怎么利用。 这两天在 AI 的忽悠下，将单页面改造成了一个相对完整的网站，加了不少互动功能。 比如 AI 聊天，所谓的“数字分身”吧，基于已有的个人数据，接的 DeepSeek 。 其他豆瓣标记的影视书籍数据，还有之前写的博客文字，就是简单的罗列展示。 有点四不像，也不知道想要什么，问了好几个 AI ，说的也都不一样。 V 站各位大佬，帮忙看看还可以加哪些功能？ 比如基于现有数据，现在影视数据利用不高。 最好是有个确定方向性的、所谓逻辑关系链条比较统一的一些功能。 感谢！！！ https://me.eeee.me/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220049#reply0
+
+---
+
+#### 6472. [V2EX] 购买 m2 硬盘和 ddr4 内存的建议 (目前一定要购买的情况下)
+
+**问题描述 / Problem Description**:
+# 用途: 3 台零刻 EQR5(R5-5500U) , 准备购买这个机器, 接近每天 12 小时跑小应用, (以前 零刻 EQ14 -N150, 够用了, 但是现在也没有了) 系统是 Ubuntu 24.04, 所以没选 大小核的 零刻 EQi12 # 内存需求: DDR4 8G/16G # 硬盘需求: m2 500G-1T 以前内存硬盘随便买, 选大牌买, 现在一定要买了, 大牌超级贵了, 现在京东看了一圈, 不知道如何选了. 辛苦大家给个建议, 谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220027#reply4
+
+---
+
+#### 6473. [V2EX] 基于 FCC 新提案， cn2gia 美国线路是否已经变成垃圾？
+
+**问题描述 / Problem Description**:
+如题，我想了解一下后续影响，看起来基本要通过了的样子？以后买服务器要避雷美国方向的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220020#reply0
+
+---
+
+#### 6474. [V2EX] 做无痛肠镜 如何清肠？
+
+**问题描述 / Problem Description**:
+去年做了一次 按照医生嘱咐 喝那个难喝的水 清肠 但是做完肠镜 结果显示： 肠道清洁度 6 分 有做过肠镜的老铁 能分享下经验嘛 肠洁净度如何提高到 8 分或者 9 分
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220017#reply13
+
+---
+
+#### 6475. [V2EX] 世界第一！在全世界都不知道大模型是何物的时候华为就推出了盘古大模型！
+
+**问题描述 / Problem Description**:
+“2021 年 4 月，我当时管华为云几个月，后来我去负责车这块业务去了，我就没再管这个业务，我代表我们这个华为云去发布这个全中国的第一个大模型，当时不仅全中国，全世界，大家都不知道大模型为何物的时候，我们就发布了盘古大模型，（台下掌声），我们可以说是这个行业的大模型行业的绝对的全球的先驱者。”
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220015#reply13
+
+---
+
+#### 6476. [V2EX] Linux 系统下微信中 fcitx5 的输入法候选词非常小
+
+**问题描述 / Problem Description**:
+我的屏幕分辨率高，设置了 2 倍缩放，其他应用都正常，就微信死活调不正常，用的 wayland 调整全局字体大小：在 classicui.conf 中将 Font="思源黑体 20"，微信候选词依然很小。 调整 X11 DPI 强制参数：在 classicui.conf 中设置 PerScreenDPI=True ，并尝试 OverrideSystemX11DPI=True 配合 ForceX11DPI=288 （及 192 等其他数值），无效。 调整 Wayland DPI 强制参数：尝试设置 FixedWaylandFontDPI=192 （及 256 等数值），无效。 微信启动参数调整：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220011#reply0
+
+---
+
+#### 6477. [V2EX] 有没有云备份方案推荐？
+
+**问题描述 / Problem Description**:
+数据比较重要，不能丢失，目前是 NAS 和电脑都存了一份，需要经常读写，网盘用着不太方便 目前打算用阿里的对象存储备份，还有更好的方案吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220003#reply2
+
+---
+
+#### 6478. [V2EX] 寻求 kcptun 20260101 最终版，找了几天没找到……
+
+**问题描述 / Problem Description**:
+xtaci 他是遇到什么事了吗？ 这么成熟稳定的项目，就这么没了，可惜呀。 1e263319f84eb78a0fbe0378ff38a7d22b49c3b2 kcptun-linux-amd64-20260101.tar.gz 71df59011cf478142d4786504c0d1582e4df6d07 kcptun-windows-amd64-20260101.tar.gz https://github.com/xtaci/kcptun/releases/download/v20260101/kcptun-linux-amd64-20260101.tar.gz https://githu
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219995#reply3
+
+---
+
+#### 6479. [V2EX] 有没有文生图提示词大师啊，是我的 ai 太垃圾了吗？
+
+**问题描述 / Problem Description**:
+我要崩溃了，谁能使用 AI 绘图工具帮我生成这个图片的下一个关键帧？我想用两张图片轮播实现奔跑动作。也就是变成左手抬起右手放下、左腿放下右腿抬起。我试了 ChatGPT 、banana 换了很多提示词都实现不了。 ![ChatGPT Image 2026 年 6 月 12 日 16_40_07.png]( https://picui.ogmua.cn/s1/2026/06/12/6a2bd1a8da984.webp )
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219992#reply1
+
+---
+
+#### 6480. [V2EX] tmd 被人当枪使了
+
+**问题描述 / Problem Description**:
+最近朋友给介绍了个兼职，负责维护对方公司一套十几年前搭建的业务系统，目前几乎属于养老阶段了，没有新功能开发，纯粹解决业务偶尔反馈上来的几个数据问题，一个月几千块，属于是天上掉钱的活儿。 没细想就先拍了份协议给对方，也没要求签字盖章以后再干活，就开始对接了，md ，等我跟对方要离职的开发开始对接以后才发现这活儿有点不简单，对方开发明显想拿手里的资料拿捏公司多给钱，然后我和对方公司负责人反馈这问题，之后负责人去跟他的开发沟通，等过了 2 天，好玩的事情来了，md 对方开发不离职了，转兼职了。我 tm 被当枪使了，变相用来压力这个要离职的开发，fuck ，到手的鸭子飞了。负责人跟我朋友认识，还尼玛不
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219991#reply1
+
+---
+
+#### 6481. [V2EX] [避雷] 不要办站内 1 美元手机卡，需要 KYC 证件，众所周知美国手机卡办理是不需要 KYC 的，警惕信息泄漏
+
+**问题描述 / Problem Description**:
+如题，正规的美国手机卡办理是不需要 KYC 的，这还是个 VPN 的商家旗下的服务，VPN 在国内的性质大家也知道，你上传的证件下一脚就被卖掉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219987#reply2
+
+---
+
+#### 6482. [V2EX] 求问有哪些 Agent 可以实现学习通考试答题的功能啊
+
+**问题描述 / Problem Description**:
+成人专升本，马上期末考试了，一天四门考试，老师会提前发答案，有哪些 Agent 可以实现自动答题考试呀，孩子实在不想早起
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219975#reply1
+
+---
+
+#### 6483. [V2EX] 找了个接单平台，抽 45%，应该就是淘宝店铺，真的好无语
+
+**问题描述 / Problem Description**:
+不想坐班，不想 PPT ，不想被人评价打分，只想专注于技术，于是想找远程兼职或者自己开发。 首先自己开发产品基本是没什么希望的，成本也很高，这年头做出来的产品想被人用起来跟在抖音发布一个视频突然成爆款了没啥差别 接单、远程、兼职、也在 boss 上投简历、咸鱼、小红书上发简历、甚至找了接单平台，基本也都是凉凉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219974#reply2
+
+---
+
+#### 6484. [V2EX] 最近境外短信收不到了？
+
+**问题描述 / Problem Description**:
+因为要支付 ai ，所以搞了个 giffgaff 和爱沙尼亚的号，但最近几天开始收不到短信了，用 appleid 登录获取短信收不到，发送的短信验证码触达不到，目前是 iPhone 手机，开通了国际漫游，可能和基站或者网络有关？开梯子也没收到，不知道是哪里出问题了，最近还更新了 iOS27 ，有没有相同问题的？求解...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219965#reply1
+
+---
+
+#### 6485. [V2EX] 问一下，注册一个一人公司 OPC，每年的成本实打实的要多少？
+
+**问题描述 / Problem Description**:
+成都， 要注册个 100W 资金的，没有地址要找个地址的。 这种每年固定的支出有那些？一起多少钱，好像一人公司超过 5W 还要实缴对吗？ 有实际注册过的大佬来分享一下吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219962#reply10
+
+---
+
+#### 6486. Windows Hello PIN/Fingerprint "This option is currently unavailable"
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, group-policy, authentication, windows-server | Score: 17 | Views: 136348 | Answers: 2 | Created: 2019-07-27
+
+**解决方案 / Solution**:
+I had the same problem, here is what worked for me: Found a solution finally at the following location: https://social.technet.microsoft.com/Forums/en-US/84a0bd50-1360-4a94-bfb3-b049ecace521/pin-and-fingerprint-signin-options-unavailable-greyed-out-in-windows-10-1607-enterprise?forum=win10itprogeneral "Turn on Convenience PIN sign-in" policy (as above) must be enabled All 3 Policies under Computer Configuration\Administrative Templates\Windows Components\Windows Hello for Business\ must be in the state "Not configured". This was the piece that was missing, and not documented properly on Technet. After the policy changes and a restart, PIN and fingerprint options were available. Source: Windows 10 Fingerprint - "Some settings are managed by your organization"
+
+**参考链接 / References**:
+- https://superuser.com/questions/1464842/windows-hello-pin-fingerprint-this-option-is-currently-unavailable
+
+---
+
+#### 6487. Can Windows Server 2019 on EC2 run WSL 2
+
+**问题描述 / Problem Description**:
+Tags: linux, docker, amazon-ec2, windows-subsystem-for-linux, windows-server | Score: 6 | Views: 5010 | Answers: 1 | Created: 2019-08-14
+
+**解决方案 / Solution**:
+There are 2 issues with WSL 2 on Windows Server 2019 on EC2: 1) WSL 2 is available only in Insider builds at the moment. It is unlikely that it would be added into Windows Server 2019 at all, and there is no insider version for next LTSC Server. You can use use insider builds of semi-annual server for WSL 2, but it would be non trivial to install it on EC2 2) WSL 2 requires Hyper-V and Hyper-V supported only on Bare Metal Instances of EC2. So it is much easier to run linux and windows docker containers separately in aws.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1471444/can-windows-server-2019-on-ec2-run-wsl-2
+
+---
+
+#### 6488. Install fonts on Windows 2019 Terminal Server for all users
+
+**问题描述 / Problem Description**:
+Tags: windows, remote-desktop, fonts, windows-server | Score: 6 | Views: 39619 | Answers: 3 | Created: 2019-07-23
+
+**解决方案 / Solution**:
+The answer is simple: When one right-clicks on a font, there is the well known option to "install" it. Right below is an option to "install for all users" which does what I want. (Sorry for having been blind here, I have used this function so often that I hadn't read the menu anymore and totally overlooked the "install for all users".)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1463154/install-fonts-on-windows-2019-terminal-server-for-all-users
+
+---
+
+#### 6489. Everyone and NTFS permissions
+
+**问题描述 / Problem Description**:
+Tags: windows, ntfs, shared-folders, windows-server, sharing | Score: 5 | Views: 5533 | Answers: 1 | Created: 2019-09-20
+
+**解决方案 / Solution**:
+There are 2 different aspects of accessing files on a share. The share itself (which is like a door), and the files behind it, which is like the room. By setting accessrights to the share itself, you only set permissions if a user can go through the door or not. In the past, this was the only way to set access to files on a network and for the sake of backwards compatibility, this was never removed. For that reason, it is indeed common practice to give the Everyone group Full Control on the share itself. When you then set access rights in the Security tab, you control access per file or per folder inside the share. For example, you can specify that a user can go through the door and reach the room behind it and the user only has permission to sit at table 2 and 3 (aka different folders controlled by either security groups or the user has permission set on the folder directly. So if you give the Everyone group full control on the share, but you set NTFS security group rights, the user can still be denied. If however you set the Everyone group in the security settings alongside with an NTFS security group, everyone has full control and the security group is ignored.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1484616/everyone-and-ntfs-permissions
+
+---
+
+#### 6490. Why can't I access files that I copied from another machine?
+
+**问题描述 / Problem Description**:
+Tags: permissions, windows-explorer, windows-11 | Score: 2 | Views: 253 | Answers: 2 | Created: 2025-11-01
+
+**解决方案 / Solution**:
+If your USB drive is formatted with NTFS then the permissions on the source system will be retained. Since the number that represents the source account won't have an entry in your new system, so there is no name to. To remove the permissions you can: use the security tab use something like the script below copy them to a drive formatted with fat32 and back again. initially, and then copy to the target device.(Fat32 doesn't support NTFS permission so don't get copied) $source = "X:\" # root of your USB or ideally the location you've copied them to $user = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name takeown /F $source /R /D Y | Out-Null icacls $source /grant "$user:(F)" /T /C
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929574/why-cant-i-access-files-that-i-copied-from-another-machine
+
+---
+
+#### 6491. Setting permissions so folder can't be deleted (but contents can be modified and deleted)
+
+**问题描述 / Problem Description**:
+Tags: file-permissions, windows-server | Score: 2 | Views: 2040 | Answers: 1 | Created: 2019-09-30
+
+**解决方案 / Solution**:
+On the folder, grant the user: Modify permissions, specifying that they Apply To: Subfolder and files only The following permissions, specifying that they Apply To: This folder only : Traverse Folder / Execute File List Folder / Read Data Read Attributes Read Extended Attributes Create Files / Write Data Create Folders / Append Data Read Permissions These permissions grant the user the traditional Modify permissions to the folder, with the two exceptions that they CANNOT 1) Rename, or 2) Delete the folder.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1487846/setting-permissions-so-folder-cant-be-deleted-but-contents-can-be-modified-and
+
+---
+
+#### 6492. Why does Installation of new domain controller throws an error about used ports (88)?
+
+**问题描述 / Problem Description**:
+Tags: windows, domain, windows-server, ports | Score: 2 | Views: 3920 | Answers: 2 | Created: 2019-09-16
+
+**解决方案 / Solution**:
+On the computer hosting your CA, on the Windows desktop, select Start > Programs > Administrative Tools, and then select Internet Information Services (IIS) Manager. In the Internet Information Services (IIS) Manager dialog, Connections pane, expand your computer name, expand Sites, and select Default Web Site. On the Actions pane, select Bindings. In the Site Bindings dialog, select specific port option delete the service.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1483002/why-does-installation-of-new-domain-controller-throws-an-error-about-used-ports
+
+---
+
+#### 6493. Enable Remote Desktop in Windows firewall without ticking Public
+
+**问题描述 / Problem Description**:
+Tags: remote-desktop, windows-firewall, windows-server | Score: 2 | Views: 3777 | Answers: 1 | Created: 2019-08-03
+
+**解决方案 / Solution**:
+In Windows firewall, Public and Domain/Private refer to the two network profiles your computer can be in. A network profile describes what kind of network you're connected to. You can only be connected to one type of profile at a time. Generally the Domain/Private profile is used when connected to a network you control and/or trust other devices on. The Public profile is for networks you don't trust, such as public WiFi hotpots. For this reason fewer services are enabled by default in the Windows firewall for the Public profile. You can change the network profile by going to Network Connections in Control Panel. Is there anything else I need to do so that I can remote to server without ticking Public? You can put the computer in to the Domain/Private profile. Make sure the corresponding firewall rule is enabled. Is there a risk with ticking "Public"? Not if you trust the other devices on the network. However, if you do move the computer from network to network and anticipate connecting to untrusted networks, you should not enable services like Remote Desktop for the Public profile.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1467272/enable-remote-desktop-in-windows-firewall-without-ticking-public
+
+---
+
+#### 6494. Cancel Server Manager feature installation
+
+**问题描述 / Problem Description**:
+Tags: windows, telnet, windows-server, windows-server-2016 | Score: 2 | Views: 15143 | Answers: 1 | Created: 2019-07-16
+
+**解决方案 / Solution**:
+Well, found the solution. The service that manage Server Manager features installation is "Windows Modules Installer". It is not possible to manually restart it. To do so, go and kill task named "TrustedInstaller" (close Server Manager before). Service will stop. Start it. Open Server Manager and feature installation should be gone.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1460649/cancel-server-manager-feature-installation
+
+---
+
+#### 6495. Trying to make it so that i need a password to remove programs (Windows Server 2019)
+
+**问题描述 / Problem Description**:
+Tags: windows-server, windows-server-2016, windows-server-2019 | Score: 2 | Views: 2447 | Answers: 2 | Created: 2019-07-07
+
+**解决方案 / Solution**:
+I need to do it with my admin account as well. It's not possible to put restrictions on what an administrator account can do. An admin account can do anything to the Windows OS, which includes removing the restrictions you might put in place. The correct (and only!) way to restrict what a user can do is to give them a standard user account. Standard users cannot uninstall programs that are installed for all users of the computer.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1457143/trying-to-make-it-so-that-i-need-a-password-to-remove-programs-windows-server-2
+
+---
+
+#### 6496. Can I disable the rebalancing of disks in Storage Spaces?
+
+**问题描述 / Problem Description**:
+Tags: windows-server, storage-spaces | Score: 1 | Views: 851 | Answers: 1 | Created: 2019-09-29
+
+**解决方案 / Solution**:
+The closest I think you can come to this is to disable Storage Spaces retiring of a missing disk and so automatically starting a repair. Use the PowerShell command Set-StoragePool with the parameters -RetireMissingPhysicalDisks Never , described as: When set to Never, Windows never retires missing physical disks. This is one step in the recommended procedure when replacing a bad disk, as described in Turn off automatic disk retirement in the storage pool .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1487432/can-i-disable-the-rebalancing-of-disks-in-storage-spaces
+
+---
+
+#### 6497. Setting up the IIS website for the intranet only
+
+**问题描述 / Problem Description**:
+Tags: networking, iis, windows-server | Score: 1 | Views: 5592 | Answers: 2 | Created: 2019-08-22
+
+**解决方案 / Solution**:
+I made it. What was missing was an entry in the IIS. There I had to edit bindings under Sites. There I entered the IP of the server. Subsequently I made the corresponding entry in the hosts file of the client. So with IP of the server and desired address. Now it works very well. Thanks to Cris for the thought-provoking ideas.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1474195/setting-up-the-iis-website-for-the-intranet-only
+
+---
+
+#### 6498. How do i restrict write permissions to a type of file (image)
+
+**问题描述 / Problem Description**:
+Tags: windows, ntfs, file-permissions, shared-folders, windows-server | Score: 1 | Views: 441 | Answers: 1 | Created: 2019-08-05
+
+**解决方案 / Solution**:
+Try File Server Resource Manager . File Server Resource Manager includes the following features: Quota management allows you to limit the space that is allowed for a volume or folder, and they can be automatically applied to new folders that are created on a volume. You can also define quota templates that can be applied to new volumes or folders. File Classification Infrastructure provides insight into your data by automating classification processes so that you can manage your data more effectively. You can classify files and apply policies based on this classification. Example policies include dynamic access control for restricting access to files, file encryption, and file expiration. Files can be classified automatically by using file classification rules or manually by modifying the properties of a selected file or folder. File Management Tasks enables you to apply a conditional policy or action to files based on their classification. The conditions of a file management task include the file location, the classification properties, the date the file was created, the last modified date of the file, or the last time the file was accessed. The actions that a file management task can take include the ability to expire files, encrypt files, or run a custom command. File screening management helps you control the types of files that user can store on a file server. You can limit the extension that can be stored on your shared files. For example, you can create a file screen that does not allow files with an MP3 extension to be stored in personal shared folders on a file server. Storage reports help you identify trends in disk usage and how your data is classified. You can also monitor a selected group of users for attempts to save unauthorized files.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1467683/how-do-i-restrict-write-permissions-to-a-type-of-file-image
+
+---
+
+#### 6499. Windows modules installer worker 100% cpu on windows server?
+
+**问题描述 / Problem Description**:
+Tags: windows-server | Score: 1 | Views: 3325 | Answers: 1 | Created: 2019-07-28
+
+**解决方案 / Solution**:
+This process enables Windows updates. If you disable it, you will need to regularly and manually check for updates yourself. Before going this way, here is some advice: Many reports indicate that by letting it run its course, it will eventually calm down to a much more moderate use of the CPU Killing in Task Manager the TiWorker.exe process may stop it temporarily, but it could return later Run the Windows Update Troubleshooter via Settings > Updates & Security > Troubleshoot > Windows Update Run the System File Checker and the DISM Tool to replace corrupted system files and fix a corrupted system image The last resort : Disable automatic Windows Update .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1464921/windows-modules-installer-worker-100-cpu-on-windows-server
+
+---
+
+#### 6500. How to set file association for all users (Windows Server)
+
+**问题描述 / Problem Description**:
+Tags: sql-server, file-association, perl, windows-server | Score: 1 | Views: 3470 | Answers: 1 | Created: 2019-06-11
+
+**解决方案 / Solution**:
+Try to get the file-type associations by using in Command Prompt the commands: assoc .pl (might give PerlScript) ftype PerlScript Ensure that the ftype command gives the full path to perl . Check their values in the CmdExec environment by running the commands like: assoc .pl > \path\to\file ftype PerlScript >> \path\to\file If the values are wrong, try to set them by running in an elevated CmdExec: assoc .pl=PerlScript ftype PerlScript=c:\path\to\perl.exe %1 %*
+
+**参考链接 / References**:
+- https://superuser.com/questions/1447483/how-to-set-file-association-for-all-users-windows-server
+
+---
+
+#### 6501. How do I connect to Windows Virtual Server on the IBM Cloud
+
+**问题描述 / Problem Description**:
+Tags: windows-server, ibm-server | Score: 1 | Views: 423 | Answers: 1 | Created: 2019-05-10
+
+**解决方案 / Solution**:
+You have to install the infrastructure plugin... ibmcloud plugin install infrastructure-service
+
+**参考链接 / References**:
+- https://superuser.com/questions/1435121/how-do-i-connect-to-windows-virtual-server-on-the-ibm-cloud
+
+---
+
+#### 6502. How to set environment variables only in the SYSTEM account
+
+**问题描述 / Problem Description**:
+Tags: windows, environment-variables, windows-server, windows-services | Score: 1 | Views: 4679 | Answers: 1 | Created: 2019-05-07
+
+**解决方案 / Solution**:
+Found the solution: In the registry, add a Value/Data pair to the key \HKEY_USERS\S-1-5-18\Environment\ This will of course allow all local admins access (as would any "secure" solution), but that group in this case is trustworthy.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1434086/how-to-set-environment-variables-only-in-the-system-account
+
+---
+
+#### 6503. Why does my Android phone fail to make DNS queries only when using Windows Server as its gateway?
+
+**问题描述 / Problem Description**:
+Tags: networking, dns, routing, android, windows-server | Score: 1 | Views: 2400 | Answers: 2 | Created: 2019-04-30
+
+**解决方案 / Solution**:
+What I have tried in the meantime, is to redesign my network a bit. Instead of having the Windows Server running RRAS, I chose to have a separate router. Then have the DHCP point to that as gateway but still force the clients to use the local DNS. This seems to be working on all devices, but I am still flabbergasted about why the situation with RRAS wouldn't be working.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1431261/why-does-my-android-phone-fail-to-make-dns-queries-only-when-using-windows-serve
+
+---
+
+#### 6504. How to prevent windows server from locking?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-server, lock-screen, windows-server-2019 | Score: 1 | Views: 9153 | Answers: 1 | Created: 2019-04-25
+
+**解决方案 / Solution**:
+You can control this behavior via GPO. gpedit.msc -> Computer Configuration\Administrative Templates\System\Power Management\Video and Display Settings -> "Turn Off the Diplay (Plugged in) Enable that GPO, and set the seconds to value to "0". https://redmondmag.com/articles/2016/04/25/disable-windows-server-auto-lock-feature.aspx It isn't recommended though, from a security point of view.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1429621/how-to-prevent-windows-server-from-locking
+
+---
+
+#### 6505. Regex match failing in GNU grep on Windows Server
+
+**问题描述 / Problem Description**:
+Tags: regex, grep, windows-server, mintty | Score: 1 | Views: 341 | Answers: 1 | Created: 2019-04-16
+
+**解决方案 / Solution**:
+Problem 1: Your pattern begins with a hyphen, which makes it ambiguous to grep. Is it a command line option, or is it a regexp? The -e option of grep specifically tells grep that the next option is the regexp to use. Similarly, -- tells grep that no more command-line options follow, therefore the next argument is the regexp. I don't have access to a Windows machine, but FreeBSD's grep reports an error on your first example: $ grep '-[0-9]+$' file.csv grep: invalid option -- [ Usage: grep [OPTION]... PATTERN [FILE]... Try `grep --help' for more information. grep is seeing the -[... string as a quoted command-line option, and reports an error because grep has no -[ option. Your second command succeeds on BSD: $ grep '1$' file.csv 9464384,334600,12,,complete,4,1124822691805,1,1,1 9464413,334626,12,,complete,4,1124822691805,1,1,1 9464430,334659,12,,complete,4,1124822691805,1,1,1 9464470,334692,12,,complete,4,1124822691805,1,1,1 9464560,334772,12,,complete,4,1124822691805,1,1,1 9464756,335003,12,,complete,4,1124822691805,1,1,-1 For these two reasons, I would submit that your grep implementation may be broken. Problem 2: Your regexp uses Extended regexp syntax, and grep defaults to Basic regexp syntax. The FreeBSD man page for egrep describes a key difference between Basic and Extended regexps: In basic regular expressions the metacharacters ?, +, {, |, (, and ) lose their special meaning; instead use the backslashed versions \?, \+, \{, \|, \(, and \). You need to use either the -E option to get grep to parse it as an extended regexp, or else escape the + with a backslash: $ grep -- '-[0-9]+$' file.csv $ grep -E -- '-[0-9]+$' file.csv 9464756,335003,12,,complete,4,1124822691805,1,1,-1 $ grep -- '-[0-9]\+$' file.csv 9464756,335003,12,,complete,4,1124822691805,1,1,-1
+
+**参考链接 / References**:
+- https://superuser.com/questions/1426132/regex-match-failing-in-gnu-grep-on-windows-server
+
+---
+
+#### 6506. 2 players on 1 PC
+
+**问题描述 / Problem Description**:
+Tags: windows, virtualization, gaming, windows-server, multiple-users | Score: 1 | Views: 2058 | Answers: 2 | Created: 2019-02-14
+
+**解决方案 / Solution**:
+I'm not sure there is any good solution to have two players at the same time on one PC. Anything that use remote connection (VNC, RDP, etc) will be much slower. The server - if it can even work in 3D mode - would have to receive every rendered frame from the video card, compress them, send them over the network, uncompress and finally render them on the other side. It would require some decent performance on the client side and will likely skip many frame and significantly reduce video quality. Commercial solutions may be better at this but are expensive and will likely not be enough. In any case, wireless lan will likely be a bottleneck so you'd have to consider wired connections too. Also I don't think your GPU is designed to run two games at the same time, so unless you can manage to have a 2nd dedicated GPU for this (and how would it even work??) the remote player will end up with software rending which will be much worse. Possibly the closest you could get to native performance is with two GPUs, installing an hypervisor with PCI passthrough for the GPUs and USB passthrough for the mouse and keyboard. I have never tested that kind of setup so I have no ideas if it would even work nor how fast it would be. You'd have to make sure all hypervisor-related features in your BIOS are enabled. You would also need two distinct installations of Windows, possibly requiring a 2nd license. There are two possible approaches there too, none of which I tested for this use case: Bare-metal hypervisor like ESXi or stripped down Linux KVM and you virtualize both Windows OS, passthrough one GPU and USB hub for each desktop. Given equal resource allocations both desktops should get equal performance. Play from your bare-metal OS and run another hypervisor (ex. Hyper-V, VMWare, VirtualBox) for the VM. You will suffer less performance degradation than the VM.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1405648/2-players-on-1-pc
 
 ---

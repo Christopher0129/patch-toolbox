@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1792**
+**总计条目 / Total entries: 1810**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -34178,5 +34178,295 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8418-1
+
+---
+
+#### 1793. CVE-2026-44490 - axios: Axios: Information disclosure and denial of service due to prototype…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] axios: Axios: Information disclosure and denial of service due to prototype pollution. Bugzilla: 2487941
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487941
+
+---
+
+#### 1794. CVE-2026-44489 - axios: Axios: Information disclosure via Prototype Pollution
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] axios: Axios: Information disclosure via Prototype Pollution. Bugzilla: 2487940
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487940
+
+---
+
+#### 1795. CVE-2026-11986 - keycloak-rest-admin-ui-ext: Authorization Bypass vulnerability in the admin-ui-ext…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-rest-admin-ui-ext: Authorization Bypass vulnerability in the admin-ui-ext bulk role-mapping-delete endpoints of Keycloak. Bugzilla: 2487906
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487906
+
+---
+
+#### 1796. CVE-2026-47734 - dulwich: Dulwich: Denial of Service via crafted Git thin pack
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] dulwich: Dulwich: Denial of Service via crafted Git thin pack. Bugzilla: 2487774
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487774
+
+---
+
+#### 1797. CVE-2026-53465 - ImageMagick: ImageMagick: Denial of Service via crafted multi-frame image leading…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via crafted multi-frame image leading to heap buffer overwrite. Bugzilla: 2487772
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487772
+
+---
+
+#### 1798. CVE-2026-53464 - ImageMagick: ImageMagick: Memory leak via invalid options to wand option parser
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Memory leak via invalid options to wand option parser. Bugzilla: 2487768
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487768
+
+---
+
+#### 1799. CVE-2026-53462 - ImageMagick: ImageMagick: Denial of Service due to heap-use-after-free in…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service due to heap-use-after-free in CheckPrimitiveExtent. Bugzilla: 2487761
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487761
+
+---
+
+#### 1800. CVE-2026-47712 - dulwich: Dulwich: Arbitrary file write via malicious commit subject in format_patch
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] dulwich: Dulwich: Arbitrary file write via malicious commit subject in format_patch. Bugzilla: 2487762
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487762
+
+---
+
+#### 1801. CVE-2026-48994 - ImageMagick: ImageMagick: Denial of Service via heap buffer over-write in MAT…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via heap buffer over-write in MAT decoder. Bugzilla: 2487771
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487771
+
+---
+
+#### 1802. CVE-2026-48734 - ImageMagick: ImageMagick: Denial of Service via crafted MVG file leading to stack…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via crafted MVG file leading to stack overflow. Bugzilla: 2487756
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487756
+
+---
+
+#### 1803. CVE-2026-48733 - ImageMagick: ImageMagick: Denial of Service via crafted image in subimage-search
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via crafted image in subimage-search. Bugzilla: 2487767
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487767
+
+---
+
+#### 1804. CVE-2026-48724 - ImageMagick: ImageMagick: Denial of Service via heap buffer overwrite in…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via heap buffer overwrite in Floyd-Steinberg dithering. Bugzilla: 2487759
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487759
+
+---
+
+#### 1805. CVE-2026-47165 - ImageMagick: ImageMagick: Information disclosure due to missing authentication in…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Information disclosure due to missing authentication in distributed pixel cache. Bugzilla: 2487760
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487760
+
+---
+
+#### 1806. CVE-2026-46521 - ImageMagick: ImageMagick: Denial of Service via out-of-bounds write in LZMA MIFF…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via out-of-bounds write in LZMA MIFF encoder. Bugzilla: 2487766
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487766
+
+---
+
+#### 1807. [Ubuntu] USN-8421-1: Ironic vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Dmitry Tantsur and Tuomo Tanskanen discovered that Ironic did not properly validate file paths when handling ISO images. A privileged authenticated remote user could use this issue to perform path traversal via a crafted ISO image and overwrite arbitrary files on the Ironic conductor. (CVE-2026-48681) Dmitry Tantsur and Tuomo Tanskanen discovered that Ironic did not properly validate kernel comman
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8421-1
+
+---
+
+#### 1808. [Ubuntu] USN-8420-1: .NET vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that .NET did not properly handle link resolution before file access. A local attacker could use this issue to perform unauthorized file tampering and write arbitrary files outside of the intended extraction directory. (CVE-2026-45491) It was discovered that .NET did not properly handle deeply-nested MessagePack arrays. An attacker could use this to cause .NET to consume excessiv
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8420-1
+
+---
+
+#### 1809. CVE-2026-11852
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+
+**漏洞描述 / Description**:
+Debusine is an integrated solution to build, distribute and maintain a Debian-based distribution. Files managed by debusine are organized into artifacts. The endpoints that create and delete relationships between artifacts enforced no permissions checks beyond being able to see the artifacts in question.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://salsa.debian.org/freexian-team/debusine/-/commit/98104f46dc546a27a0326d5ef728ac7f426c430a.
+
+**参考链接 / References**:
+- https://salsa.debian.org/freexian-team/debusine/-/commit/98104f46dc546a27a0326d5ef728ac7f426c430a
+- https://salsa.debian.org/freexian-team/debusine/-/merge_requests/2836
+- https://salsa.debian.org/freexian-team/debusine/-/work_items/1499
+
+---
+
+#### 1810. CVE-2026-11853
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+
+**漏洞描述 / Description**:
+Debusine is an integrated solution to build, distribute and maintain a Debian-based distribution. Debian source packages (.dsc) and upload artifacts (.changes) are manifest files that name the files that make up the artifact. The parser used to read these files in Debusine accepted arbitrary fully user-controlled paths. The mergeuploads task could be abused to create arbitrary symbolic links on a worker, overwriting any file that the worker user has access to.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://salsa.debian.org/freexian-team/debusine/-/commit/c24cdc49fb258714767546bdec5b09f8065d414e.
+
+**参考链接 / References**:
+- https://salsa.debian.org/freexian-team/debusine/-/commit/c24cdc49fb258714767546bdec5b09f8065d414e
+- https://salsa.debian.org/freexian-team/debusine/-/merge_requests/3103
+- https://salsa.debian.org/freexian-team/debusine/-/work_items/1484
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4988**
+**总计条目 / Total entries: 5137**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -72632,5 +72632,1942 @@ One possible answer would be that SELinux is denying the new webroot. Check if S
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/755868/centos-7-with-apache-2-4-not-serving-content-after-change-of-root-web-directory
+
+---
+
+#### 4989. Arch Linux's AUR Sees More Than 400 Packages Compromised With Malware - Phoronix
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u3tt43/arch_linuxs_aur_sees_more_than_400_packages/
+
+---
+
+#### 4990. Ubuntu 26.04 generic error messages always make me chuckle
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u3w6vk/ubuntu_2604_generic_error_messages_always_make_me/
+
+---
+
+#### 4991. Homebrew 6.0.0 is released with many new features
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u3w5u9/homebrew_600_is_released_with_many_new_features/
+
+---
+
+#### 4992. Linux 7.2's expected features include Apple M3 boot support, the AMD ISP4 driver, cache-aware scheduling, USB4STREAM, FSERROR for F2FS, and many more
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u40xsj/linux_72s_expected_features_include_apple_m3_boot/
+
+---
+
+#### 4993. Audacity 4 beta released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u3z0nm/audacity_4_beta_released/
+
+---
+
+#### 4994. The new NTFS kernel driver sees an improvement for Windows native symbolic links
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u43a2l/the_new_ntfs_kernel_driver_sees_an_improvement/
+
+---
+
+#### 4995. Changing How We Develop Ladybird
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u3wgq4/changing_how_we_develop_ladybird/
+
+---
+
+#### 4996. Ubuntu 26.10 is reaffirming its plans to switch to dbus-broker after a long delay
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u4383c/ubuntu_2610_is_reaffirming_its_plans_to_switch_to/
+
+---
+
+#### 4997. arch-chroot+android-apis
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u48ey1/archchrootandroidapis/
+
+---
+
+#### 4998. Interesting plotting ....Linux kernel mail client timeline
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u3tox6/interesting_plotting_linux_kernel_mail_client/
+
+---
+
+#### 4999. Bypassing block layer abstractions for true drive sanitization via raw kernel passthroughs (ioctl / SG_IO)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u3qo1f/bypassing_block_layer_abstractions_for_true_drive/
+
+---
+
+#### 5000. Small read-only script to check if any of the compromised AUR package names are installed
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u474fs/small_readonly_script_to_check_if_any_of_the/
+
+---
+
+#### 5001. Git 2.55-rc0 Released With Rust Enabled By Default
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u3ftt1/git_255rc0_released_with_rust_enabled_by_default/
+
+---
+
+#### 5002. How do i set up windows on virtual machine manager?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u481nn/how_do_i_set_up_windows_on_virtual_machine_manager/
+
+---
+
+#### 5003. [V2EX] c 真能比 Python 快这么多？
+
+**问题描述 / Problem Description**:
+事情是这样的，最近几天在接手别人的一个 python 写的仿真程序，这个程序的运行速度奇慢无比，于是 -m cProfile 看了一眼 检查了一下之后发现程序运行一次大概 500 秒，其中大约有 170 秒都花在一个模拟用的计算函数里了，暂且称其为函数 A 吧 函数 A 大概做了两件事，首先调用了几次函数 B ，去几个表里查表并线性插值，这个过程大概花了 40 秒，这个 40 秒也是优化过的结果了，它原本的算法能干到 500 秒去了。然后就是对大概 30 个参数进行了一系列运算，我大概统计了一下有哪些运算，列表在下面了 算符 次数 × 30 ÷ 5 + 15 - 10 √ 1 顺便说一下，这个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220070#reply13
+
+---
+
+#### 5004. [V2EX] 我是个代码菜鸟，尝试了 Vibcoding，随便做了网站
+
+**问题描述 / Problem Description**:
+我想了解大家 vibe coding 都有什么灵感，想一起交流看看 https://listeningdrill.onrender.com/ cursor 新用户半价连接 https://cursor.com/referral?code=RVWHWDU0ZRLJ 大家会不会部署网页，我搞个一键部署，大家有没有兴趣； 上次发了个帖子，结果评论区直接变成了 Cursor 推广链接大接龙，最后被版主无情移到了水区默默流泪…… 这次带上我自己熬夜搓出来的这个新网站，确实也私心带了一个我自己的 Cursor 邀请码（在上面正文里）。跪求各位大佬和同行高抬贵手，这次千万别在评论区盖楼发一模一样的推广链接了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220067#reply0
+
+---
+
+#### 5005. [V2EX] Kimi K2.7 Code 发布了，有人已经替换 Claude Code / Codex 了吗?
+
+**问题描述 / Problem Description**:
+刚刚看到 Kimi 发布了 K2.7 Code 。 官方给的数据： Kimi Code Bench v2 +21.8% Program Bench +11.0% MLS Bench Lite +31.5% 推理 Token 消耗降低 30% 有没有已经体验过的大佬说说感受？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220063#reply15
+
+---
+
+#### 5006. [V2EX] [开源] tta：从 TUI 控制到多 Agent 编排
+
+**问题描述 / Problem Description**:
+先放链接：🔗 https://github.com/yanggggjie/terminal-tool-for-agents terminal-tool-for-agents （ tta ） 可以让 Agent 操作 TUI ，比如 IPython 、pdb ，lazygit ，甚至是另一个 Coding Agent 。 给你的 claude code 装上 tta ，可以使用 pdb 进行 debug 。 可以让 claude code 自己调用 codex 进行代码 review 。 可以让 claude code 组织起自己的多 agent 开发流程，比如 claude code 用于写代
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220039#reply0
+
+---
+
+#### 5007. [V2EX] 对于 talkatone 的 udp 测试结果(成功打通电话)
+
+**问题描述 / Problem Description**:
+又是一月一度的 talkatone 保号, 虽然免费 talkatone 已经废了, 但绑定了我的美国 paypal, 还是有必要保一保的 先说使用的节点: 中转:aws 光帆(nginx+sni 分流+443 端口,vless+tcp+tls+vision) 落地:购买的 socks 伪家宽(webshare 和 cliproxy)仅测试,非推广 前提: 以 shadowsocks 为例, 设置 > UDP > 禁用 STUN > 必须关闭(即必须支持 stun), 以下测试均需要这个 测试 1. 直接通过代理链: aws 光帆->socks 家宽 能成功登录 tt 软件(显示 60 余额)
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220025#reply0
+
+---
+
+#### 5008. [V2EX] deepseek 有没有官方技术服务团队
+
+**问题描述 / Problem Description**:
+发邮箱不回，discord 里纯扯蛋，还涉及主权言论； 好不容易加上微信群里，群里也是全扯蛋。。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220023#reply2
+
+---
+
+#### 5009. [V2EX] 订阅制还能持续多久呢？ oai 和 anthropic 的订阅制都是赔本赚吆喝吧？
+
+**问题描述 / Problem Description**:
+SemiAnalysis 把 Anthropic 和 OpenAI 的每一档订阅各买了一份，跑长程编程任务，一直跑到把每周限额耗尽，再按 API 牌价折算：这些用量，值多少钱。 得出的结论是 20 美元的 Claude Pro ，上限约 400 美元； 200 美元的 Max 20x ，约 8000 美元。OpenAI 这边更夸张——20 美元的 ChatGPT Plus 能跑出约 700 美元，200 美元的 Pro 20x ，约 14000 美元：最高一档的补贴倍数，是 70 倍。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220007#reply23
+
+---
+
+#### 5010. [V2EX] 这周碰到的奇葩事
+
+**问题描述 / Problem Description**:
+朋友公司，我有些股份，中了个大标，集成项目。软硬件是某巨厂，你懂的。 后来厂家说硬件成本上升，交付不了，会亏本，把里面的存储软件砍掉了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220006#reply3
+
+---
+
+#### 5011. [V2EX] 买 macbook pro 笔记本，跑本地模型，怎么配置性价比比较高？
+
+**问题描述 / Problem Description**:
+macbook pro 跑本地模型，64g 内存够用吗？ 64g 可以跑哪些模型呢？ 等 9 月新品还是现在呢？ 不懂 mac 的商品啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219998#reply21
+
+---
+
+#### 5012. [V2EX] 2026 年了 BDD 还活着吗？
+
+**问题描述 / Problem Description**:
+2026 年了 BDD 还活着吗？ 过年很多年没见过了，国外呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219990#reply1
+
+---
+
+#### 5013. [V2EX] 大模型工作的时候，你们都在干嘛？
+
+**问题描述 / Problem Description**:
+我发现近些年自己有点注意力涣散了，工作的流程就是： 提示词 -> 大模型工作我刷 B 站 -> 看结果 -> 修改提示词 -> 循环... 完全没有以前写代码进入心流的状态，效率是提高了但是时间稀碎。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219985#reply25
+
+---
+
+#### 5014. [V2EX] 想用 hermes+gemini 替换掉 codex 了，各位大佬怎么看？
+
+**问题描述 / Problem Description**:
+公司有 gemini api 套餐，并 codex 经常被封号和封 IP 折磨。 hermes+gemini 小用了两天，感觉也还行，主观能动性特别高。不知道有没有双修的大佬对比一下这二者能力差。 hermes ，叫它看一个后端项目 直接一顿改了 然后尝试启动 发现本地没数据库（其实在 docker 里）直接给我现场装了一个。 然后发现 8080 端口被占用（另外一个服务）直接给我 kill 掉，强行起到 8080 服务。并且代码给我推到 git 上 一气呵成。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219977#reply17
+
+---
+
+#### 5015. [V2EX] 趁着这次 GPT Plus 政策调整，求推荐靠谱中转站。
+
+**问题描述 / Problem Description**:
+这次政策调整，导致一堆不靠谱的中转站跑路。 那些推广的时候号称 一手纯 Pro 号池 的站，这时候就原形毕露了。可以说留下来的都能算有点良心了，大部分中转站今天的稳定性可用性都贼差。 所以，是不是可以这么理解： 只有真正的 Pro 号池的中转站才没受到这次影响 。 如果是这样，我想趁着这次机会，求大家推荐下你用的没有受影响的中转站。希望大家分享下，这两天你正在使用且还算稳定的 Codex 中转站。感谢！ 中转站的站长就不要参与了，想收集下真正用户的反馈。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219950#reply5
+
+---
+
+#### 5016. [V2EX] 用 Fable 打败 Fable: 效仿云天明成功突破 Claude Fable 5 的研究审查
+
+**问题描述 / Problem Description**:
+用光了周额度进行尝试，终于越过了审查机制，成功让 Claude Fable 5 回答了我的研究问题。 核心就是下面这三个点： 1.受《三体》的云天明的启发，把研究问题藏进领域无关的寓言故事里 2.清理上下文和历史记忆中所有敏感信息 2.中文输入的审查远比英文严格(A/这样做可以说毫不意外)，请尽量使用英文 详细思路和 prompt 可见： https://github.com/HughYau/anti-fable
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219947#reply3
+
+---
+
+#### 5017. [V2EX] 大家帮推荐个 AI 时代的好用的 IDE 推荐
+
+**问题描述 / Problem Description**:
+现在前端 IDE 使用 vscode 后端 IDE: Intellij IDEA , AI 工具用的 opencod-go IDE 感觉太臃肿了，微服务项目，工程略大，占用资源高，大家帮推荐个 AI 下使用那个工具合适，也要方便调试！！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219937#reply25
+
+---
+
+#### 5018. [V2EX] 48 岁了还在干 c#软件开发
+
+**问题描述 / Problem Description**:
+35 岁以前在企业干 ERP 管理，2013 年转行做了 C#开发，一晃十几年了。一直想学 BS 开发，没学会，最近用上了 codex ，终于觉得自己又行了。哈哈
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219930#reply4
+
+---
+
+#### 5019. [V2EX] OpenCode，今天怎么啦
+
+**问题描述 / Problem Description**:
+一天了： 提示 工具遇到内部数据库故障（ no such column: "data"），这是平台基础设施的问题，我无法从会话中修复或预计恢复时间。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219928#reply0
+
+---
+
+#### 5020. [V2EX] 36 岁生日当天踩坑被违法辞退，十年.NET 老码农在济南何去何从
+
+**问题描述 / Problem Description**:
+刚过完 36 岁生日，遭遇公司违法辞退，目前正在仲裁维权。 本人函授本科今年毕业，拥有十余年 C#/.NET 开发实战经验，长期深耕后端业务开发。 目前两个方向想请教社区各位大佬： 济南本地有没有靠谱的 C#/.NET 岗位可以内推？制造业、企业管理系统、 工控类.NET 项目都能适配； 如果本地.NET 岗位机会偏少，这个年纪转行选什么赛道容错率高？干了十几年几乎只精通代码，其他行业经验空白，心里比较迷茫。 有行业行情、岗位渠道、转行思路的建议都欢迎指点，感激不尽！ V: Y2FpY2FpY2FpLXY1ODc=
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219925#reply13
+
+---
+
+#### 5021. [V2EX] 金蝶 KIS 云专业版 KISProfessionalPlugin 开发对接问题
+
+**问题描述 / Problem Description**:
+概要 通过 com 对接录入数据，测试发现 “多借一贷 + 小数金额” 这种情况下经常出现 532 “凭证借贷不平衡，不可保存”，测试了脚本在没有保存之前取出数据计算是平的，有没有金蝶或者相关经验的大佬知道什么原因 环境 产品：金蝶 KIS 云·专业版 V16.0 客户端：已登录目标测试套账 接口组件： KISProfessionalPlugin.dll DLL 时间： 2008-05-04 调用方式：32 位 COM ，使用 KISProfessionalPlugin.Voucher / VoucherEntry 写入凭证 问题现象 通过 KIS 客户端界面手工录入以下凭证可以保存成功： 借
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219915#reply2
+
+---
+
+#### 5022. [V2EX] KIMI 是不是玩不起了？
+
+**问题描述 / Problem Description**:
+今天上班后没多久同事就开始反馈公司内部的编程接口服务提示额度限制了。 打开我们内部的 AI 网关（自己开发的一个）看了一下，KIMI 接口频繁返回 429 ，登录 kimi 官网再次印证，的确是 5 小时额度已经用完了。 可是，今天我们还没有怎么使用呢，我们的内部 AI 网关统计，这两个 699 的 KEY 都是到 50M 的 token 就超限额了。 联系客服说正在紧急排查，已经 1 个小时了还没有回信儿。 （已经去 KIMI 官网上印证了，请求都是我们网关发的，没有发现被盗用的情况）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219911#reply8
+
+---
+
+#### 5023. “Terminal is not fully functional” warning with `less` but not with `more` (which is also `less`)
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, shell | Score: 16 | Views: 4548 | Answers: 1 | Created: 2023-05-30
+
+**解决方案 / Solution**:
+The same program can behave differently if it is being run with different parameters: in your first command it receives argv[] = {"less", NULL} as the command-line argument array, while the second one calls it with argv[] = {"more", NULL} , with the 0th item in argv always being the program's own name (the "normal" args begin at 1). This is sometimes used to create "multi-call" programs, most famously BusyBox which provides almost the entire /bin in small systems (e.g. in your Wi-Fi router). If the 'less' program is invoked as more , its argument array will have argv[0] == "more" , which enables " POSIX more(1) compatibility " code within Less. (For example, instead of looking for additional options in the LESS environment variable it instead looks for them in MORE .)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1786488/terminal-is-not-fully-functional-warning-with-less-but-not-with-more-whic
+
+---
+
+#### 5024. Is there any scenario where using cat speeds things up?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, filesystems, cat, fuse | Score: 13 | Views: 2080 | Answers: 1 | Created: 2025-08-10
+
+**解决方案 / Solution**:
+Usually removing an "extra" cat from a Bourne script is a good call. I tend to only use it for typographic purposes, to break up a long line, in a situation like cat /some/very/extremely/super/long/full/path.txt | egrep '(some|very|extremley|super|long|regex)' | ... Could it be a one-liner? Sure. But expressed as two lines it's a little more maintainable by humans. Using "extra" variables is another way to make it legible: FILE=... REGEX=... grep "$REGEX" "$FILE" The OP example code with "an inefficient read routine" is always going to be inefficient, will always burn more CPU cycles than needed, and nothing in the pipeline can really influence that. Its buffer length should be longer than 1 . The underlying read() and device driver will transfer at least 4 KiB behind the scenes. The driver may issue read-ahead requests, letting it easily keep up with the data consumer. isatty Where cat could save resources is in the case that we're interactively running some program prog which makes lots of short printf("%d %s\n", i, something) calls. In that case the chapter 3 printf() will make lots of short chapter 2 write() calls into the kernel. The idea is an interactive user on the pty might want to immediately see each result, so a newline in the output triggers a sys call. But sys calls into the kernel are expensive. Contrast prog with prog | cat . In the latter case isatty() reports 0 , "not a TTY". So each short printf() will append text to a user land buffer, and only upon filling that buffer will we make a sys call to write(). So we burn fewer CPU cycles on kernel context switches, and complete the prog batch job in less time. We obtain essentially equivalent performance by capturing output to a file: prog > log.txt Note that we're typically talking about 4 KiB buffers in these situations, so "short" refers to records that are noticeably smaller than that. buffer I have personally obtained good results on certain performance problems by using the buffer command. Please see its man page . It tends to be relevant on batch jobs where there's more than one piece of the pipeline that could plausibly be the bottleneck. I have used it in a "disk -- network -- disk" situation: read_from_disk.sh | ssh server 'store_to_disk.sh' but we could plausibly insert a "burn many CPU cycles" stage, as well, perhaps as part of an image analysis ETL. Sometimes I'm storing to filesystem, but sometimes to an indexed RDBMS table which has other overheads, such as verifying Foreign Key relationships. One approach would be read_from_disk.sh | buffer | ssh server 'store_to_disk.sh' . Another would be for the remote server to run buffer . The idea is that seeking a spinning Winchester drive is expensive ( ~ 10 msec), and we may have a mix of "small" and "large" I/O operations. Even with SSD we pay a seek() penalty for random reads, though it is smaller. When sending TCP data to a server across the WAN, we want to keep the receive window open. Pausing for even as long as a RTT closes the window, and then it takes several round trip delays for it to fully re-open again. This can induce back-pressure on the disk reading stage, where it momentarily blocks in a network write() call, waiting for a few more packets to be sent out. Can adding buffering to a pipeline be beneficial? Yes. But only in fairly limited circumstances. It's the sort of thing where you want to have a good understanding of what the bottleneck limitations are, and be armed with timings that show what effect adding buffering had on total time to complete a batch job.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1917005/is-there-any-scenario-where-using-cat-speeds-things-up
+
+---
+
+#### 5025. Why does assigning a variable with command substitution, and then echoing that variable, always fail?
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, bash, shell | Score: 10 | Views: 4184 | Answers: 4 | Created: 2024-03-27
+
+**解决方案 / Solution**:
+It doesn't work because $var expansions are performed by the shell before the command line is run, i.e. not by the 'echo' command. Meanwhile, VAR=value somecommand is not a regular assignment – it is only meant to inject an environment variable into the new process, but has no effect on shell variables before that process is created, i.e. it is completely different from VAR=value; somecommand . So in other words, it happens in the opposite order than what your post's title describes. First the (stil-empty) "$TEST" is expanded into "" , then echo "" is run with an additional TEST=... environment variable which it does not care about. Since your test commands are supposed to imitate the behavior of Ansible, they should be actually looking at their environment variables and not relying on pre-expansion by the shell; something like VAR=value env or VAR=value printenv VAR would be a much better fit.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1836819/why-does-assigning-a-variable-with-command-substitution-and-then-echoing-that-v
+
+---
+
+#### 5026. Is there a good way to use environment modules to set up conda as an alternative to "conda init"?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, environment-variables, work-environment | Score: 9 | Views: 432 | Answers: 2 | Created: 2025-07-12
+
+**解决方案 / Solution**:
+Just extract the values that conda init sets. This doesn't get all of them (it misses the prompt) but it gets enough: #%Module 1.0 prepend-path PATH /usr/local/conda/bin prepend-path CPATH /usr/local/conda/include #prepend-path LD_LIBRARY_PATH /usr/local/conda/lib prepend-path LIBRARY_PATH /usr/local/conda/lib prepend-path MANPATH /usr/local/conda/share/man prepend-path PKG_CONFIG_PATH /usr/local/conda/lib/pkgconfig You might be able to leave out some of these, for example LD_LIBRARY_PATH You will need to adjust these to match your actual paths.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1910118/is-there-a-good-way-to-use-environment-modules-to-set-up-conda-as-an-alternative
+
+---
+
+#### 5027. Complete overview of Bash and Zsh startup files sourcing order
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, zsh | Score: 8 | Views: 7787 | Answers: 1 | Created: 2024-04-25
+
+**解决方案 / Solution**:
+With this overview, I hope to end any confusion and introduce an easy overview of which files are sourced under what circumstances, for Bash and Zsh. The diagrams below have been tested on an archlinux vanilla install on a VM. Startup files sourcing orders Bash Zsh The diagrams above displays in what order the scripts are sourced, depending on whether the shell is login, non-login, interactive or non-interactive. To follow the sourcing order of one combination, start at the most-left node and 'choose' your combination. You will end up with only one color passing both choices of login/interactive: that's the color to follow! Notes on the diagram Files in /etc/zsh/ , if present in /etc/ , function exactly the same. Both paths are equal, and are sourced. Furthermore, this graph assumes that ZDOTDIR is unset. If set, all files sourced in ~ are instead sourced from ZDOTDIR . Notes Types of startup files (overview) A diagram is great, but words have their nuance as well, so here goes. There are X types of startup files (files sourced when the shell starts): 'env', 'profile', 'rc', 'login' and 'logout', which are sourced in this presedence. Depending on your shell, the files of these types have a slightly different naming. All those types, come both in system-wide and user scoped variants, placed respectively in /etc and $HOME . Those in $HOME work only for the belonging user, but those system-wide are sourced by everyone - even root - and is maintained by the system admin. 'env' files are just for defining global variables, nothing more! Profile files commonly define more specific variables and functions. 'rc files are intended interactive shells, enriching the shell with things like the prompt and other tools to make interaction a brease. 'login' and 'logout' are for, well, logging in and logging out, and there just so you have extra options on when certain things are sourced. Intended purposes of startup files Not all original intentions for a startup file may be obvious enough. Thus, here is extra explenation on some of the files: /etc/profile : typically used to source /etc/bash.bashrc . *zlogin : has the exact same purpose as *zprofile , but is intended for logic who depends on the shell being fully configured by other files. Its only difference is indeed that it is sourced after *zshrc , not before. Commonly used to run startx or other display managers. /etc/zsh/zprofile : must source /etc/profile through emulate sh -c , or some common scripts like make will break. /etc/bash.bashrc : typically loads bash_functions. ~/.bash_profile : typically used to source ~/.bashrc since ~/.bashrc is not sourced when in a login shell - while there are scenarios you actively use a login-shell. Other notable remarks Some distros (at least Manjaro I believe) also have Zsh files in /etc/ , instead of /etc/zsh/ . Both are the same, and on Manjaro only one of both will be sourced. Some distros, like ubuntu, have additional startup files available to utilise. Logout scripts in bash are not run in an non-interactive shell, unless bye , logout , or exit (or other similar commands) is executed. Please realise that *zshenv is sourced even by make ! (Hence you keep these files as simple as possible.) Commands in *zshenv files are thus reccommended to always be surrounded with the follownig code: if [[ ! -o norcs ]]; then echo 'your command' fi Main difference Zsh and Bash Bash seems to seperate startup files for login shells from interactive shells. If the interactive login-shell runs a display manager, you generally do not need configs an interactive shell would need, since you won't directly interact with it anyway. However, in other scenarios (for example, when SSH'ing), you would like those interactive shell configs to be sourced. Zsh does not seperate both: interactive scripts are run when interactive, and login shells are run when login-shell; simple. Also, notice how ~/.profile is not sourced by zsh, and is instead replaced with it's own ~/.zprofile . What is my sourcing order? I tested the full sourcing order, by prepending the following line in every startup file, where FILE_NAME is the startup file's name: export startup_trace="$startup_trace\nFILE_NAME" For *logout startup files, I instead echoed the filename since you cannot print the updated trace after exiting. To test a trace for an non-interactive Zsh login-shell, for example, run the following command: su $SOME_USER -ls /bin/zsh -c 'setopt; echo -e $startup_trace; exit' This will print, in order, all the files that were sourced. Notice how exit also tests the *logout startup files.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1840395/complete-overview-of-bash-and-zsh-startup-files-sourcing-order
+
+---
+
+#### 5028. Horribly messed ZFS pool after power cut
+
+**问题描述 / Problem Description**:
+Tags: linux, zfs, zfsonlinux | Score: 7 | Views: 748 | Answers: 1 | Created: 2025-04-24
+
+**解决方案 / Solution**:
+You linked to one of my other posts. What operating system is this? I think it's more telling that the OS shuffled device names around than anything else. Please export your pool and re-import it. zpool import -d /dev/disk/by-id storage
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1179744/horribly-messed-zfs-pool-after-power-cut
+
+---
+
+#### 5029. How can I make second argument path relative to the first on a command?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, zsh, cp, mv | Score: 7 | Views: 999 | Answers: 2 | Created: 2024-09-26
+
+**解决方案 / Solution**:
+cp path/to/the/{file.txt,file.copy} This expands to cp path/to/the/file.txt path/to/the/file.copy .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1857018/how-can-i-make-second-argument-path-relative-to-the-first-on-a-command
+
+---
+
+#### 5030. Software RAID-1 using NVMe drives on multi-socket system: split the drives or share a CPU?
+
+**问题描述 / Problem Description**:
+Tags: linux, software-raid, nvme | Score: 6 | Views: 500 | Answers: 1 | Created: 2026-05-27
+
+**解决方案 / Solution**:
+Normally, you want your high-performance NVMe drives assigned to the same NUMA node, so your actual data and XOR traffic, if you use parity, don’t have to travel through the CPU interconnect fabric. But in your case, with an extremely lightly used RAID1 setup, the difference would be minimal, if noticeable at all.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199077/software-raid-1-using-nvme-drives-on-multi-socket-system-split-the-drives-or-sh
+
+---
+
+#### 5031. What's the idiomatic way to process input stream in chunks?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, shell-script | Score: 6 | Views: 441 | Answers: 2 | Created: 2025-05-30
+
+**解决方案 / Solution**:
+GNU split Use GNU split with its --filter option: seq 100 | split -l 10 --filter='wc -l' Note the value for --filter= is interpreted as shell code, so you can directly build more complex logic there; and split sets a variable named FILE for you to use. Example: seq 100 | split -d -l 10 --filter='printf "%s: " "$FILE"; wc -l' - 'chunk ' GNU parallel While split runs filters sequentially, GNU parallel can start many jobs in parallel. With seq 100 and wc -l this is overkill, but for more complicated jobs parallel makes sense. seq 100 | parallel --pipe -n 10 --keep-order --group -- wc -l
+
+**参考链接 / References**:
+- https://superuser.com/questions/1903025/whats-the-idiomatic-way-to-process-input-stream-in-chunks
+
+---
+
+#### 5032. How to make Visual Studio Code forward caught keystrokes to shell?
+
+**问题描述 / Problem Description**:
+Tags: keyboard-shortcuts, shell, visual-studio-code | Score: 6 | Views: 1909 | Answers: 2 | Created: 2023-05-15
+
+**解决方案 / Solution**:
+In the current version, you can: enable terminal.integrated.sendKeybindingsToShell - this will send most keybinds to the shell, some of them are still skipped. edit terminal.integrated.commandsToSkipShell - there you can set commands which are and aren't sent to shell specifically. It's overriden by the option above. E.g. to disable mentioned Ctrl + B by default, you can use -workbench.action.toggleSidebarVisibility : "terminal.integrated.commandsToSkipShell": [ // Minus at the start means it should go through "-workbench.action.toggleSidebarVisibility" ] The problem with Ctrl + K is that it's used by a lot of commands as a chord. You could disable terminal.integrated.allowChords setting to get rid of chords overall, which this setting also mentions as something you should do for these kind of shortcuts to work: Note that when setting this to true and the keystroke results in a chord it will bypass Terminal > Integrated: Commands To Skip Shell, setting this to false is particularly useful when you want ctrl+k to go to your shell (not VS Code) You can read more about these here . Unbinding/rebinding all chords which have a combination that starts with your desired keybind (e.g. Ctrl + K -> Ctrl + M ) should also normally work and I'm pretty sure that's all you can try.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1784221/how-to-make-visual-studio-code-forward-caught-keystrokes-to-shell
+
+---
+
+#### 5033. Byobu: Save context for each window
+
+**问题描述 / Problem Description**:
+Tags: shell, zsh, byobu | Score: 5 | Views: 201 | Answers: 1 | Created: 2024-09-08
+
+**解决方案 / Solution**:
+Hello, my solution consists of the following parts: saving the results folder path to a variable, local to the window that the binary runs in creating key bind to copy said variable's contents to the clipboard. Note: to quickly test the idea with variables you can do: export results_path="$(env | grep -o $HOME | head -n 1)" echo $results_path Do I have to clarify what the output should look like? :] To save some part of STDOUT to a variable after running your_script binary the easiest solution (IMO!) is to add to your ~/.zshrc (or /etc/zsh/zshrc for global sourcing) the following (trivial ;]) function: capture_results_path() { results_path="$(your_script | grep -o $MELFI0/.polina/.* | head -n 1)" # OR - for capturing STDERR (choose ONE!): results_path="$(your_script 2>&1 | grep -o $MELFI0/.polina/.* | head -n 1)" } if it's possible that the output will sometimes produce more paths starting at $MELFI0/.polina/ and leading to other locations than your results folder you'd have to add some regex instead of .* , for example: results_path="$(your_script | grep -o "$MELFI0/.polina/[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}-[0-9]\{2\}-[0-9]\{2\}-[0-9]\{2\}-[0-9]\{1,10\}" | head -n 1)" also note, that to utilize the new functionality you'll have to run your experiment by invoking capture_results_path (which will execute whatever you put instead of your_script ) - so I'd suggest to use something short, like qaz : qaz() { results_path="$(your_script | grep -o "$MELFI0/.polina/[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}-[0-9]\{2\}-[0-9]\{2\}-[0-9]\{2\}-[0-9]\{1,10\}" | head -n 1)" } To create the shortcut that'll copy the focused-on windows' variable to the clipboard you'll need to invoke xclip (to install: apt-get install xclip / yum install xclip / dnf install xclip - or whatever else your distro uses). Then its another one-liner, that you have to add to your ~/.zshrc or /etc/zsh/zshrc : bindkey -s '^q' 'echo $results_path | xclip -selection clipboard\n' The above command binds copying the variable from the currently focused-on window to the shortcut CTRL + q . It should work for both foreground and background executables. Bonus1: to quickly debug simple regex - execute (for the different user change /root/ to /home/username/ : export HOME1=/root/2024-09-08-10-09-32-056727 # so we have $HOME1 in "env" export results_path="$(env | grep -o "$HOME/[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}-[0-9]\{2\}-[0-9]\{2\}-[0-9]\{2\}-[0-9]\{1,10\}")" echo $results_path The output of echo should be: /root/2024-09-08-10-09-32-056727 - or whatever else you exported as $HOME1. For the more advanced regex-es I recommend regex101.com Bonus2: To check if Byobu uses the same key combination (like CTRL + q ), you can list Byobu’s key bindings using the following command: byobu-ctrl-a-keys Enjoy! And feel free to ask in case of unclearness ;]
+
+**参考链接 / References**:
+- https://superuser.com/questions/1854938/byobu-save-context-for-each-window
+
+---
+
+#### 5034. Is ksh-syntax (Korn shell) compatible to bash?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, ksh | Score: 5 | Views: 2256 | Answers: 2 | Created: 2024-08-05
+
+**解决方案 / Solution**:
+Not all ksh scripts will run in Bash. Bash has "borrowed" a few features that originated from ksh, but it doesn't support everything ksh(93) has. The most obvious difference is in the handling of local variables: ksh's function foo functions support static scoping, while Bash supports dynamic scoping. Even though Bash supports the same style of function declarations, and ksh's typeset command, they're not compatible. The following script runs in both, but behaves differently: % cat local.sh function g { echo "in g: '$var'" } function f { typeset var="value from f" echo "in f: '$var'" g } typeset var="value from main" f echo "in main: '$var'" in ksh, function g sees the value set in the main level, while in Bash, it sees the value set in function f : % ksh local.sh in f: 'value from f' in g: 'value from main' in main: 'value from main' % bash local.sh in f: 'value from f' in g: 'value from f' in main: 'value from main' With foo() functions, ksh's typeset would just modify the global value. Zsh and many other shells behave just like Bash, here. (Though they might only support local and not typeset . Ksh doesn't have local .) Another thing is that ksh supports nested arrays (and IIRC, some other data structures too). Bash doesn't, and will just croak for e.g. this script: % cat nested.sh a=((a b c) (d e f)) typeset -p a echo "a[1][*] is '${a[1][*]}'" echo "a[1][2] is '${a[1][2]}'" % ksh nested.sh typeset -a a=((a b c) (d e f) ) a[1][*] is 'd e f' a[1][2] is 'f' There may be other, minor differences, like read -A vs. read -a for reading in an array, and ksh doesn't have Bash's mapfile / readarray (at least not with the same name). Of course Bash also has a few Bash-specific features, like all the BASH* variables. (The above scripts were run with the ksh on my Mac, where ksh --version says sh (AT&T Research) 93u+ 2012-08-01 )
+
+**参考链接 / References**:
+- https://superuser.com/questions/1851348/is-ksh-syntax-korn-shell-compatible-to-bash
+
+---
+
+#### 5035. How to split a string (of arguments) in fish?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, fish | Score: 5 | Views: 1401 | Answers: 2 | Created: 2023-05-20
+
+**解决方案 / Solution**:
+The string docs say: Arguments beginning with - are normally interpreted as switches; -- causes the following arguments not to be treated as switches even if they begin with - . So the command is: string split -- " " "-r --run"
+
+**参考链接 / References**:
+- https://superuser.com/questions/1785037/how-to-split-a-string-of-arguments-in-fish
+
+---
+
+#### 5036. Debian CIS - partition or multiple EBS on EC2
+
+**问题描述 / Problem Description**:
+Tags: amazon-web-services, debian, security, amazon-ec2 | Score: 4 | Views: 103 | Answers: 1 | Created: 2026-06-05
+
+**解决方案 / Solution**:
+For AWS EC2, I'd personally keep it simple and use a single EBS volume with multiple partitions, rather than a separate EBS volume for every CIS mount point. See, CIS cares about isolation of mount options and permissions, not whether each filesystem lives on a separate virtual disk. Multiple EBS volumes add cost and operational complexity without much security benefit for most workloads, that's why I'd only split into separate EBS volumes if you have specific performance, encryption, snapshot, or lifecycle requirements. Bottom line is, for a hardened AMI, separate partitions on one EBS volume is usually the practical choice.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199143/debian-cis-partition-or-multiple-ebs-on-ec2
+
+---
+
+#### 5037. NFSv4: How to ensure group write permissions on new files and directories with a squashed group?
+
+**问题描述 / Problem Description**:
+Tags: linux, permissions, nfs, file-permissions, access-control-list | Score: 4 | Views: 260 | Answers: 1 | Created: 2026-05-31
+
+**解决方案 / Solution**:
+The permissions are set on the client according to the current umask value. If you want wider permissions, you need to set umask accordingly ( 002 to not mask group bits) on the client. You should see the same permissions on local files created on the client by the same processes. It may be possible to set NFSv4 ACLs on the /data/jellyfin including inherited ACLs, but it won't affect the permissions bits you are seeing.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199112/nfsv4-how-to-ensure-group-write-permissions-on-new-files-and-directories-with-a
+
+---
+
+#### 5038. Use public CA wildcard certificate for initial ssh connection
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, ssh, ssl-certificate | Score: 4 | Views: 1187 | Answers: 3 | Created: 2024-12-13
+
+**解决方案 / Solution**:
+It seems you desire a PKI for SSH: How could I go about installing the certificate to the server so it is used for the initial ssh connection (not user authentication — that will be separate!) and trusted by the client computer, so this warning does not display? The problem is that OpenSSH can't use X.509 PKI . RFC 6187 declares the way to support that, but stock OpenSSH doesn't implement it. There exist unofficial builds by Roumen Petrov that include such support, and these can actually use X.509 certificates. Instead, OpenSSH defines its own ad-hoc form of PKI, see man ssh-keygen for details. My most "magical" experience with this, however, was DNSSEC as a PKI and SSHFP DNS RRs to publish keys. In that case conforming clients will not ask this, exactly as you want. PuTTY doesn't support it; built-in OpenSSH client feature of Windows does though (since Windows 10 and Windows Server 2016, AFAIK). But, as @dave_thompson_085 mentioned in their comment, good luck setting it up with Windows workstation; I've never tried it, my workstations are all Linux. In a practical sense, the most affordable and easy way is to distribute host keys and/or SSH PKI's signing key to clients using configuration management system like Ansible.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168850/use-public-ca-wildcard-certificate-for-initial-ssh-connection
+
+---
+
+#### 5039. Digital Ocean droplet 100% CPU usage - kauditd0
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, digital-ocean, devops | Score: 4 | Views: 4131 | Answers: 1 | Created: 2024-11-12
+
+**解决方案 / Solution**:
+i had this process on my server and used 100% of all my cpu. this is malware (minner). chek if these files and folders exists on your linux, remove them: /root/.configrc7/ /tmp/.kswapd00 /var/tmp/.kswapd00 and then check your cron with crontab -e, if these lines exists, remove them too: */30 * * * * /tmp/.kswapd00 || /root/.configrc7/a/kswapd00 > /dev/null 2>&1 5 6 */2 * 0 /root/.configrc7/a/upd>/dev/null 2>&1 @reboot /root/.configrc7/a/upd>/dev/null 2>&1 5 8 * * 0 /root/.configrc7/b/sync>/dev/null 2>&1 @reboot /root/.configrc7/b/sync>/dev/null 2>&1 0 0 */3 * * /tmp/.X291-unix/.rsync/c/aptitude>/dev/null 2>&1 check your /root/.ssh/authorized_keys and other /home/{users}/.ssh/authorized_keys files, some times he put his key in your server for future connection.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167706/digital-ocean-droplet-100-cpu-usage-kauditd0
+
+---
+
+#### 5040. How to disable row highlighting on iterm and oh-my-zsh?
+
+**问题描述 / Problem Description**:
+Tags: terminal, shell, iterm2, oh-my-zsh | Score: 4 | Views: 2293 | Answers: 2 | Created: 2024-06-10
+
+**解决方案 / Solution**:
+This is iTerm2 feature added recently. uncheck [ ] Click on a command selects to restrict Find and Filter UPD : to get rid of tiny arrow at the beginning of the line Go to iTerm2 preferences: Profiles -> Open Profiles -> Edit Profiles -> Select your profile -> Terminal -> uncheck [ ] Show mark indicators
+
+**参考链接 / References**:
+- https://superuser.com/questions/1845408/how-to-disable-row-highlighting-on-iterm-and-oh-my-zsh
+
+---
+
+#### 5041. "set editing-mode vi" vs "set -o vi" What is the difference?
+
+**问题描述 / Problem Description**:
+Tags: bash, terminal, shell | Score: 4 | Views: 5908 | Answers: 1 | Created: 2023-11-04
+
+**解决方案 / Solution**:
+Interactive Bash uses the Readline library to read command lines. Programs other than Bash can use the library as well. The library is designed to interactively read a command (or anything) from a user, with quite advanced line editing, key bindings, history and such. .inputrc is the default file to customize Readline. Any program (including Bash) that uses Readline will be affected by what you put in the file (unless Readline uses another file; there are ways to customize). set editing-mode vi in .inputrc configures Readline directly. .bashrc is the default file to customize Bash. It can be used to run anything and to configure Bash itself, including Readline used by Bash ; but not Readline used by other programs. set -o vi enables vi mode in command line editing in a shell. In general POSIX mandates set -o vi , but it does not force shells to use Readline. Only because Bash does use Readline, set -o vi in Bash has anything to do with Readline. Bash implements set -o vi by configuring Readline it uses. In Bash set -o vi is an indirect way to tell Readline used by Bash to set its editing-mode to vi . (There is yet another way: the bind builtin in Bash is the interface to Readline, you can give it a command Readline understands, e.g. the command in question. The relevant command for Bash will be bind 'set editing-mode vi' . This is a command for Bash that explicitly uses a command for Readline.) The two methods you discovered give you the same result in Bash . For other programs using Readline, .inputrc matters and .bashrc doesn't. And any such program may or may not support its own rc or config file designed to configure the program itself and possibly (indirectly) Readline used by it, like Bash does with .bashrc . If Bash is about to use Readline and to parse .bashrc then Readline will read .inputrc before .bashrc gets parsed. This means if there are conflicting settings for Readline in the two files, the setting(s) from .bashrc will reconfigure Readline last, so they will win.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1815341/set-editing-mode-vi-vs-set-o-vi-what-is-the-difference
+
+---
+
+#### 5042. How to save abbreviation in fish?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, fedora, fish | Score: 4 | Views: 3436 | Answers: 2 | Created: 2023-04-24
+
+**解决方案 / Solution**:
+According to documentation , you should just place your definitions in config.fish file for them to load at the start. Command for default location and your example: echo "abbr --add ro rpm-ostree" >> ~/.config/fish/config.fish
+
+**参考链接 / References**:
+- https://superuser.com/questions/1780597/how-to-save-abbreviation-in-fish
+
+---
+
+#### 5043. How to run shell commands via stdin?
+
+**问题描述 / Problem Description**:
+Tags: ssh, shell, stdin | Score: 3 | Views: 458 | Answers: 1 | Created: 2026-02-27
+
+**解决方案 / Solution**:
+Using ssh with Here Documents So a command being read and executed before next command is read, which is causing your problems. To avoid this, use a group command, so the entire group command is read before executing the group command. For example, try the following. ssh another_host <<EOF { set -x command_a command_b run_framework command_c ... } EOF or maybe this would be safer. ssh another_host <<EOF : | { set -x command_a command_b run_framework command_c ... } or ssh another_host <<EOF { set -x command_a command_b run_framework command_c ... } < /dev/null Note: When I use ssh another_host <<EOF , I get the following error message. Pseudo-terminal will not be allocated because stdin is not a terminal. Either one of the following 2 changes can be used to avoid this message. Add the -T option to the ssh command, as in the following. ssh -T another_host <<EOF This option disables pseudo-terminal allocation. Add bash -s to the ssh command, as in the following. ssh another_host 'bash -s' <<EOF This executes the bash -s command on the remote host instead of a login shell. I suppose if some of the commands actually needed input, then another "here document" could be used. For example, see the following. ssh another_host 'bash -s' <<'EOF' { echo a echo b read x echo "$x" echo c head -n1 echo d } <<'EOF2' hi there nice day bye now EOF2 EOF For me, this produced the following output. a b hi there c nice day d The OP has the following script file. echo only this line is executed ./runs_head echo not executed echo not executed either I changed the script file to be the following. { echo only this line is executed ./runs_head echo not executed echo not executed either } Now both cat script | bash and bash < script produce the following output. only this line is executed not executed not executed either Using head with Pipes On my mac, the default pipe buffer size is 64 kiB. If you are using Linux you may be able to determine your buffer size by entering the command below. : | pipesz --get For example, using Arch Linux produced the following output. Note that 64 kiB is exactly 65536 bytes. fd 0 65536 0 The commands below were used to create the myfile file, which will be used to illustrate how the head command behaves. printf "%s\n" a b c d > myfile printf "%s\n" w x y z | dd bs=1024 seek=64 of=myfile The content of this myfile is listed below. The following lines occur at the beginning of the file. a b c d 65528 bytes of zeros are in the middle of the file. The following lines occur at the end of the file. w x y z To confirm the content, the following commands were entered. head -n4 myfile; hexdump -C myfile; tail -n4 myfile The output is shown below. a b c d 00000000 61 0a 62 0a 63 0a 64 0a 00 00 00 00 00 00 00 00 |a.b.c.d.........| 00000010 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| * 00010000 77 0a 78 0a 79 0a 7a 0a |w.x.y.z.| 00010008 w x y z For my first test, I entered the following. Here each head -n1 command is reading from the same regular file. for i in 1 2 3; do head -n1; done < myfile Below is the output, which to me looks OK. a b c For my second test, I entered the following. Here each head -n1 command is reading from the same pipe. cat myfile | for i in 1 2 3; do head -n1; done The output is shown below. a w The following happened. The first head -n1 read the first 64 kiB from the pipe and output the line containing a . The second head -n1 read the remaining 8 bytes from the pipe and output the line containing w . The third head -n1 had no bytes left to read from the pipe and therefore output nothing. For my third test, I entered the following. Here each read command is reading from the same pipe. cat myfile | for i in 1 2 3; do read; echo $REPLY; done Below is the output, which to me looks OK. a b c My conclusion would be that the command head -n1 has undocumented behavior with respect to pipes and therefore the use of the command should be avoided when reading from a pipe. References pipesz(1) — Linux manual page Add a big buffer to a pipe between two commands Advanced Bash-Scripting Guide: Chapter 19. Here Documents How to use SSH to run a local shell script on a remote machine?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935378/how-to-run-shell-commands-via-stdin
+
+---
+
+#### 5044. Systemd: How to unpack %I arguments to ExecStart without wrapping in Shell?
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, shell, systemd, command-line-arguments | Score: 3 | Views: 412 | Answers: 1 | Created: 2025-10-11
+
+**解决方案 / Solution**:
+As far as I know %I is designed to be a single string rather than multiple. For now it seems to me the answer to "is there any way to achieve %I unpacking, without using another wrapper like shell?" is "no". A shell is not a bad tool to perform splitting, but what you straightforwardly did is not necessarily the best. The rest of this answer possibly improves what you did; it does use a shell. A better and safer way to use a shell for what you want to do is like: ExecStart=/usr/bin/sh -fc 'exec /path/to/my/exec $1' sh %I The way is better because: (The first) exec will make the shell replace itself with (your) exec , so ultimately (your) exec will be the child, not a grandchild of systemd. In general it's good to make the main process of the service the direct child of systemd. I guess some implementations of sh may implicitly do exec for the very last command as an optimization. With the explicit exec we make the shell do this for sure. The way is better and safer because: %I here is like {} in the context of this answer: Never embed {} in the shell code! It shall not be embedded in shell code. -f is a shortcut for set -o noglob , it disables pathname expansion (globbing). Are these really needed? The documentation of systemd states that The "unit name prefix" must consist of one or more valid characters (ASCII letters, digits, ":", "-", "_", ".", and "\") The instance name will be used to create the name of the full unit and it seems the above rule applies to the whole resulting string. Still with proper escaping (see systemd-escape ) you can pass other characters as well (e.g. ; or * ), then your %I (as opposed to %i ) will expand to unescaped instance name. I'm sure it's not new to you; I'm sure you're already passing spaces as \x20 . I have tested and confirmed that in case of %I embedded in shell code (like in the question) one can inject shell code and/or trigger globbing. You probably do not deliberately want to inject code or to trigger globbing by crafting an instance name that does this. I totally don't know what exactly your exec expects as arguments, maybe you want some of them to contain ; , & , * , [ or so. This answer allows you to do this safely. But if you want your exec to be able to get argument(s) that contain space(s), tab(s) or newline(s) then our safer way is actually a bad way. Embedding %I in shell code (like you did) will allow you to pass (quoted or escaped) spaces and such. Then you must remember the instance name will be interpreted as shell code . If you want your exec to be able to get argument(s) that contain spaces(s) and/or such, and if you don't want the instance name to be interpreted as shell code, and if there is a character that is unlikely to ever appear inside any argument to your exec , then consider the following example (where : has been chosen to be the character): ExecStart=/usr/bin/sh -fc 'IFS=:; exec /path/to/my/exec $1' sh %I In instance names you then use : to separate arguments one from another. If your exec (or any descendant) relies on IFS being the default then you may want to remove IFS from its environment (so the default value will be used): ExecStart=/usr/bin/sh -fc 'IFS=:; exec env -u IFS /path/to/my/exec $1' sh %I ( env will replace itself with your exec , so ultimately your exec will become the child of systemd.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926499/systemd-how-to-unpack-i-arguments-to-execstart-without-wrapping-in-shell
+
+---
+
+#### 5045. Route does not exist even though IP route looks fine
+
+**问题描述 / Problem Description**:
+Tags: linux, networking, linux-networking | Score: 3 | Views: 516 | Answers: 1 | Created: 2025-05-28
+
+**解决方案 / Solution**:
+"No route to host" can also be the result of receiving an ICMP 'Destination Unreachable' – it is not exclusively local. For example, it can be caused by a network firewall returning ICMP 'Destination Unreachable: Administratively Prohibited' when trying to connect to a blocked port. (And receiving the equivalent ICMPv6 message would even cause Linux to report "Permission denied".) Use tcpdump -n icmp to see what is responding.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1184768/route-does-not-exist-even-though-ip-route-looks-fine
+
+---
+
+#### 5046. Migrating ancient Linux system to newer kernel
+
+**问题描述 / Problem Description**:
+Tags: linux, vmware-esxi, memory-usage, memory-leak | Score: 3 | Views: 191 | Answers: 1 | Created: 2025-04-24
+
+**解决方案 / Solution**:
+First do the most important preventive measure: restore from backup. Pretend the old host and the VM host are gone, and copy a new host in a test environment. Especially important when the entity you got the software from might not exist anymore. Require that the restore procedures validate that it does things it is supposed to do. Ask people responsible for this system to check things, or even better provide documentation. How do the PLCs communicate? Does test hardware exist, or can that be faked via emulation? What does the DB do? Get the application to write something to the database. Run a query to spot check some data. Ideally there also is a way to clean install the operating system, in case an image based restore doesn't work or to help with upgrades. Get and archive a copy of United Linux install media, as it is old and won't be available forever. Find and copy over application files. After the restore, either you have a test environment to play with, or if you don't a major problem to document and escalate. Either of which is progress. Investigate whether the application can be run on a different host than the DB. Such as if they can connect over IP. Separating them might make isolating performance or other issues easier. Regarding memory, the basics would include collecting /proc/meminfo under load, and watching vmstat 1 over time. Its normal to have MemFree very low, MemAvailable is what is actually easy to reclaim. Also, sustained swapping may indicate memory pressure, if swap space is enabled. Unfortunately a lot of useful tools are just not available on a kernel that old. There are plenty of reasons to skip anything old (2.6 is also very old in the year 2025) and try upgrading directly to a supported modern distro. On modern Linux, the best indicator of memory contention is pressure stall information, for memory /proc/pressure/memory. Think load average, but directly correlated to the resources of memory, cpu, or io. Definitely will not have this on Linux 2.4. For hosts running multiple applications, cgroups can provide an accurate accounting, or setting limits, of memory in each. Such as across systemd units or containers. Will not have this on 2.4 either. Review this theory of memory working set size . Getting some numbers about recently accessed memory can inform capacity planning. Let's say that backup job is dumping some number of GB of data, how much memory does that touch? You can tell if that's pushing the system to the point of swapping by watching for vmscan activity by running perf stat -e vmscan:mm_vmscan_kswapd_wake -I 1000 -a Or attach some wss scripts to PIDs and estimate how much memory they reference over time. But these won't work on 2.4. A BPF based tool called memleak attempts to trace memory allocation and reallocation, estimating what did not get freed. This is the level of evidence I would expect for something actually leaking memory, as opposed to poor capacity planning. But you guessed it, not available on 2.4. Short term, try throwing hardware at it, by increasing the memory allocation of the VM. And not dynamic memory, do not overcommit memory on a VM host. Its crude, but if it really is the difference of just a couple GB memory that's cheap to keep the application responsive. Research Oracle performance tuning guides regarding memory. Find out the SGA size and what fraction this is of the host's memory. Possibly no need to change things, but working towards a DBMS estimate will help capacity planning. Having no access to the source code of the application will be a problem in the long term. Inquire as to how long this application is projected to stay around, and what the plan is for rewriting the software. Not being able to rebuild implies needing to keep around increasingly old and unsupported dependencies. Additionally will not have the performance and security features of newer compilers. The code may document useful implementation details to how this works. And the code would provide freedom to run things in a different environment. Imagine removing the operating system and running this as a unikernel like IncludeOS . Probably not, but having options is preferable.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1179757/migrating-ancient-linux-system-to-newer-kernel
+
+---
+
+#### 5047. Catching download filename of wget or cURL command?
+
+**问题描述 / Problem Description**:
+Tags: shell, wget, curl | Score: 3 | Views: 971 | Answers: 1 | Created: 2025-02-28
+
+**解决方案 / Solution**:
+What I'd like (and what seems impossible) is something like this: Enable the --xattr option of curl or wget. This will make it automatically store the URL to the [user.]xdg.origin.url attribute. ~/.wgetrc xattr = on You can then read it with attr -g xdg.origin.url /path/to/downloaded/file The curl option --write-out can output specific fields to stdout: curl -w "%{filename_effective}" [options...] $url For wget, you can at least log to file and parse the results: log=$(mktemp /tmp/wget.XXXXXX) LC_ALL=C.utf-8 wget -o $log [options...] $url file=$(sed -En 's/^Saving to: ‘(.+)’/\1/p' $log)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1883717/catching-download-filename-of-wget-or-curl-command
+
+---
+
+#### 5048. NginX Permission denied
+
+**问题描述 / Problem Description**:
+Tags: nginx, ubuntu | Score: 3 | Views: 1001 | Answers: 1 | Created: 2024-11-25
+
+**解决方案 / Solution**:
+You should not put your website in your homefolder, but instead under /var/www/yoursite or /srv/yoursite. Check the FHS documention for more info on that topic. Then you can change the owner of the file to the nginx user to avoid any problems with file permissions.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168119/nginx-permission-denied
+
+---
+
+#### 5049. Avoiding accidental execution of python scripts as bash scripts
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, python, shebang | Score: 3 | Views: 634 | Answers: 2 | Created: 2024-04-22
+
+**解决方案 / Solution**:
+Possible approach In Linux you can use binfmt_misc . See the documentation , it states: First you must mount binfmt_misc : mount binfmt_misc -t binfmt_misc /proc/sys/fs/binfmt_misc but Debian or Ubuntu (and possibly other distros that use systemd) mount this automatically out of the box. If mount | grep binfmt_misc shows binfmt_misc mounted on /proc/sys/fs/binfmt_misc then it's already set up. You can manually assign /usr/bin/python3 to the py "extension" by invoking: echo ':py:E::py::/usr/bin/python3:' | sudo tee /proc/sys/fs/binfmt_misc/register For completeness, this is how you manually unregister: echo -1 | sudo tee /proc/sys/fs/binfmt_misc/py To make the assignment survive reboots (if your Linux uses systemd-binfmt.service ), create a py.conf file in /etc/binfmt.d/ with the following content: # Run .py files with /usr/bin/python3 :py:E::py::/usr/bin/python3: See man 5 binfmt.d for details. My tests indicate the defined interpreter wins with the shebang, if any. In other words: after applying the above, a shebang in a *.py file will be irrelevant, /usr/bin/python3 will be used anyway. Personal view The approach works and you may even like it, I'm not a fan of it though. My reasons: If you sometimes forget the shebang, you can forget the py "extension" as well. Frankly, in my opinion you should forget it, because… "Extensions" for executable files are ugly. Imagine you have rewritten your tool.py in C or whatever; are you going to change the filename? If so, everything that uses tool.py must be updated. If the file was named tool from the beginning, then the world could start using the new release just like that, maybe even without realizing something has changed. Relying on magic bytes (like the shebang) makes this easy.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1839943/avoiding-accidental-execution-of-python-scripts-as-bash-scripts
+
+---
+
+#### 5050. Bash read -e -i "Test" needs to be in Zsh
+
+**问题描述 / Problem Description**:
+Tags: shell, zsh, compatibility | Score: 3 | Views: 310 | Answers: 1 | Created: 2023-08-15
+
+**解决方案 / Solution**:
+I'd go with this approach: t="This is pre written text " vared t This will prepopulate the variable t and then interactively edit it with zsh's line editor as described in man zshzle -- see there also for its command parameters: vared [...] name The value of the parameter name is loaded into the edit buffer, and the line editor is invoked. When the editor exits, name is set to the string value returned by the editor.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1804320/bash-read-e-i-test-needs-to-be-in-zsh
+
+---
+
+#### 5051. zsh - bad math expression: illegal character: ^A - when trying to read 0x01 from a file
+
+**问题描述 / Problem Description**:
+Tags: shell, zsh | Score: 3 | Views: 1020 | Answers: 2 | Created: 2023-06-28
+
+**解决方案 / Solution**:
+The %d operator for the printf builtin will convert a character to its numeric value, but it needs a leading quote to differentiate the input parameter from an arithmetic expression: >> one=$'\1' >> typeset -p one typeset one=$'\C-A' >> printf '%d\n' "'$one" # leading single quote 1 >> printf '%d\n' "' " # quote and space 32 >> printf '%d\n' '"A' # leading double-quote 65 >> # your input values: >> bytes=($'\0' $'\C-@' ${(#):-0} $'\C-A') >> typeset -p bytes typeset -a bytes=( $'\C-@' $'\C-@' $'\C-@' $'\C-A' ) >> integer b=$(printf '%d' "'$bytes[4]") >> print "value in b: $b" value in b: 1 Note that the internal representation for b is a string, even though it was declared as an integer ; the typeset declaration only changes how a variable is treated in some assignments and expansions. This can lead to surprises for anyone expecting behavior similar to integer operations in other programming contexts. >> local v=${(#):-124}; integer b=$(printf '%d' \'$v) >> printf "v:$v type:${(t)v} length:$#v numeric:%d\n" \'$v >> printf "b:$b type:${(t)b} length:$#b numeric:%d\n" \'$b v:| type:scalar length:1 numeric:124 b:124 type:integer length:3 numeric:49 49 is the ascii value for 1 , i.e. the first character in 124 . To convert an entire array of bytes, use the -v (assign variable) option in printf : >> setopt nomultibyte >> typeset -a bin=($'\C-@' $'\C-C' ' ' 'A' '~' ${(#):-240}) >> typeset -a nums >> printf -v nums %d \'${^bin} >> typeset -p nums typeset -a nums=( 0 3 32 65 126 240 ) Some of the pieces: typeset -a nums - the output array. This is declared as an array so that printf will assign each result to a separate array element. From the documentation : The -v option causes the output to be stored as the value of the parameter name , instead of printed. If name is an array and the format string is reused when consuming arguments then one array element will be used for each use of the format string. \'${^bin} - this will prefix each element in the array with a single quote, using the ${^...} rc_expand_param option. setopt nomultibyte - with this, shell operations will treat each byte as a single character. This isn't absolutely necessary when processing arrays of single bytes, but it ensures some consistency when displaying and assigning values.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1792235/zsh-bad-math-expression-illegal-character-a-when-trying-to-read-0x01-from
+
+---
+
+#### 5052. How do I delete every ocurrence of a word that is followed by another, without altering the whitespace?
+
+**问题描述 / Problem Description**:
+Tags: shell, sed, find-and-replace, awk, text-editing | Score: 3 | Views: 618 | Answers: 3 | Created: 2023-05-29
+
+**解决方案 / Solution**:
+OK, I found out how to do this. The command to do this with sed would be: sed -i -E 's/foo([[:blank:]]*)bar/\1bar/' file
+
+**参考链接 / References**:
+- https://superuser.com/questions/1786352/how-do-i-delete-every-ocurrence-of-a-word-that-is-followed-by-another-without-a
+
+---
+
+#### 5053. How to get a list of existing files from a list of files?
+
+**问题描述 / Problem Description**:
+Tags: shell | Score: 2 | Views: 194 | Answers: 1 | Created: 2026-02-20
+
+**解决方案 / Solution**:
+You could always write a small function such as filter_existing(){ for f in "$@" do [ -e "$f" ] && echo "$f" done } Then you could write ln -s $(filter_existing builddir/foo.{s,i{,i}}) . (That's assuming that you are confident at least one of the files exists).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935106/how-to-get-a-list-of-existing-files-from-a-list-of-files
+
+---
+
+#### 5054. How can I use Awk to match multiple lines and then concatenate other fields?
+
+**问题描述 / Problem Description**:
+Tags: command-line, shell, linux-mint, awk, text-processing | Score: 2 | Views: 134 | Answers: 2 | Created: 2026-02-03
+
+**解决方案 / Solution**:
+The output of your code clearly shows that the last field of each line is never used. No surprise, as inside 1 Gen 1:1 10 we have 1 as $1 , Gen as $2 , 1:1 as $3 and 10 as $4 ; but your code does not use $4 at all. It seems you want your key to be like $2" "$3 , not just $2 . This is an attempt that takes your code and fixes the above problem: awk '{ key = $2" "$3; if (key in vals) vals[key] = vals[key] "," $4; else vals[key] = $4; } END { for (k in vals) print k"\t"vals[k]; }' ScriptureTest.txt If you want to print in the order defined by the first occurrence of each key, then this is one way to do it: awk '{ key = $2" "$3; if (key in vals) vals[key] = vals[key] "," $4; else { vals[key] = $4; sequence[n++] = key; } } END { for (m=0; m<n; m++) { k = sequence[m]; print k"\t"vals[k]; } }' ScriptureTest.txt Here is a substantially different approach that aggregates lines until the key changes: awk ' NR == 1 { key = $2" "$3; oldkey = key; vals = $4; } NR != 1 { key = $2" "$3; if (key == oldkey) vals = vals","$4; else { print oldkey"\t"vals; oldkey = key; vals = $4; } } END { if (NR>0) print key"\t"vals; }' ScriptureTest.txt It prints kinda on the fly, so it can be sanely used in a pipe even if its input is never going to end; but it aggregates only neighboring lines with the same key. If your input is in a regular file, then this approach may still be preferred because, in general, it will consume less memory, as it does not need to store data from all lines before printing, it just needs to store data for one key at a time. You will get one line of output for each key, only if the content of the input file is adequately sorted, i.e., if for each key all lines with the key are neighbors. Your example input meets this requirement.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934460/how-can-i-use-awk-to-match-multiple-lines-and-then-concatenate-other-fields
+
+---
+
+#### 5055. Why does `bind -x` with Ctrl+O stop working after dropping to shell from `vifm` in Kitty terminal?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, vifm | Score: 2 | Views: 114 | Answers: 1 | Created: 2025-10-13
+
+**解决方案 / Solution**:
+You run bind -x '"\C-o":vifm' in Bash. Then you hit Ctrl + o and Bash runs vifm ; the shell is a parent, vifm is a child. Then you invoke :shell and vifm spawns its own child: a new Bash. Finally you hit Ctrl + o again. The child of vifm (the shell which received your futile Ctrl + o ) is not the parent of vifm (the shell which has been configured with bind … ). If you made it so each new interactive Bash runs bind -x '"\C-o":vifm' for itself automatically then Ctrl + o would work in the child shell. But it would run yet another vifm in which you might be tempted to invoke :shell again an spawn yet another shell. Stacking shells and vifm s is not elegant. From a child shell you can go back to the parent (i.e. old) vifm simply by exiting the shell ( exit Enter or Ctrl + d when command line is empty).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926616/why-does-bind-x-with-ctrlo-stop-working-after-dropping-to-shell-from-vifm
+
+---
+
+#### 5056. How to directly reboot into the EFI GUI via an EFI shell?
+
+**问题描述 / Problem Description**:
+Tags: shell, reboot, efi, firmware | Score: 2 | Views: 423 | Answers: 1 | Created: 2025-09-20
+
+**解决方案 / Solution**:
+Use the -fwui option of the reset command. reset -fwui This option is "new" in Shell 2.2 and was implemented in EDK2 in 2016. A custom .EFI program that just sets the OsIndications EFI variable could also be used, as it's a separate step from the actual (completely ordinary) reboot request.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1925082/how-to-directly-reboot-into-the-efi-gui-via-an-efi-shell
+
+---
+
+#### 5057. How to reuse the content of file descriptor more than once?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, file-descriptors | Score: 2 | Views: 350 | Answers: 2 | Created: 2025-08-28
+
+**解决方案 / Solution**:
+This is not going to work, as the function is being presented with a stream of bytes, not a file. The first wc -l works on this stream, but then there is nothing left for wc -c to process. Essentially, /dev/fd/63 is not something that can be processed more than once and is not seekable but has to be processed sequentially.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1922022/how-to-reuse-the-content-of-file-descriptor-more-than-once
+
+---
+
+#### 5058. Linux Mint fstab for NAS share with space in name \40 not working
+
+**问题描述 / Problem Description**:
+Tags: linux, fstab | Score: 2 | Views: 151 | Answers: 1 | Created: 2025-06-15
+
+**解决方案 / Solution**:
+You meant to escape the space as \040 but wrote \40 instead. Add the missing zero. The fstab manual only briefly mentions this for the 2nd field, but what utilities parsing it will use is usually getmntent() . That one has the documentation for octal escapes for all 4 string columns: Since fields in the mtab and fstab files are separated by whitespace, octal escapes are used to represent the characters space (\040), tab (\011), newline (\012), and backslash (\) in those files when they occur in one of the four strings in a mntent structure. The routines addmntent() and getmntent() will convert from string representation to escaped representation and back. -- from man 3 getmntent Side note: Sticking to forward slashes otherwise is the correct thing to do, you got that right.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1186038/linux-mint-fstab-for-nas-share-with-space-in-name-40-not-working
+
+---
+
+#### 5059. With dynamic clock, how to measure actual work done by CPU?
+
+**问题描述 / Problem Description**:
+Tags: linux, central-processing-unit | Score: 2 | Views: 155 | Answers: 1 | Created: 2025-05-17
+
+**解决方案 / Solution**:
+Clock speed no longer tells the whole story of power efficiency on CPUs. Boost frequencies depending on thermals. Multiple instructions per clock. Vector instructions if the compiler knows about them. What is actually important is useful work done for applications. Processing meteorological data for weather reports. Crunching numbers for accounting reports. Encoding video into useful formats for presentation. Serve some large of http requests. A bit of a challenge, but try to quantify real work for your users into representative chunks. Calculate work done per watt on that. For counting cycles, use tools that profile with performance counters, rather than trying to infer from clock speed. On Linux perf is developed with the kernel and reveals many things. Here I'm doing a classic CPU exercise of calculating pi: $ perf stat -- perl -Mbignum=bpi -le 'print bpi(3000)' 3.141592653589793238... Performance counter stats for 'perl -Mbignum=bpi -le print bpi(3000)': 5814.93 msec task-clock # 0.976 CPUs utilized 1337 context-switches # 229.925 /sec 0 cpu-migrations # 0.000 /sec 2987 page-faults # 513.677 /sec 56003866626 instructions # 3.29 insn per cycle # 0.00 stalled cycles per insn 17015646855 cycles # 2.926 GHz 268154800 stalled-cycles-frontend # 1.58% frontend cycles idle 10269657786 branches # 1.766 G/sec 10698657 branch-misses # 0.10% of all branches 5.959619466 seconds time elapsed 5.665189000 seconds user 0.022550000 seconds sys 6 seconds wall clock time at 2.9 GHz returned 3000 digits. I don't know how much this could be optimized further with fewer instructions, but its a starting data point. Notice more than 3 instructions per cycle and very few stalls. Evidence of a workload that needs to do very little I/O, its not really waiting on memory. Likely this is pushing the CPU pretty hard, but does not say directly what that power consumption was. Would we say this is efficient if it happened to draw near max power, but did near the maximum possible number of instructions? That's a lot of math instructions retired. powerstat is a program to measure power consumption of the machine. Only useful on certain systems, Intel RAPL interface or the battery stats of laptops. CPU is not the whole story either, memory and other components use power. Get a PDU that can measure power consumption, while you track the rate of useful work it does. Do your racks need to draw more kW to keep up with what your organization wants to do? Can you leave low power states enabled, or does that hurt latency sensitive applications? Would a hardware refresh to the latest processors improve your power efficiency? Returning to my simplistic pi example, the most efficient answer is a little bit of a cheat: to not do that calculation. pi is a constant, already calculated to a vast number of digits. Store those and look them up. Or if the workload is video encoding, do that once read it when needed. Not all workloads benefit this obviously from a space versus time tradeoff. However it does show that just because the computer is doing something, its not always useful work.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1181627/with-dynamic-clock-how-to-measure-actual-work-done-by-cpu
+
+---
+
+#### 5060. Extending root partition of a Linux OS while it is running or being used
+
+**问题描述 / Problem Description**:
+Tags: linux, partition, parted | Score: 2 | Views: 506 | Answers: 2 | Created: 2025-04-23
+
+**解决方案 / Solution**:
+I used cfdisk and resize2fs to extend the root partition on my server without restarting it. fdisk would also work, but cfdisk is nicer and safer because you see the partition layout at all times. cfdisk is available by default in all major Linux distributions.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1179654/extending-root-partition-of-a-linux-os-while-it-is-running-or-being-used
+
+---
+
+#### 5061. Why is my computer booting in EFI shell first instead of Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows, boot, shell, uefi, efi | Score: 2 | Views: 929 | Answers: 1 | Created: 2025-04-01
+
+**解决方案 / Solution**:
+EFI has a separate boot menu, with its own entries and boot order. You can control the EFI boot order from within Windows bcdedit through the { fw bootmgr} object (not to be confused with the regular {bootmgr} which represents the Windows Boot Manager). The following should set the EFI BootOrder to start the Windows Boot Manager first: bcdedit /set {fwbootmgr} displayorder {bootmgr} If it still won't start the {bootmgr} entry automatically, reinstall the Windows Boot Manager: bcdboot C:\Windows If you can't get into the firmware settings in the regular way (assuming it's not due to password protection but some other problems), you can reboot from Windows directly into firmware settings using shutdown /r /fw /t 0 .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1889353/why-is-my-computer-booting-in-efi-shell-first-instead-of-windows
+
+---
+
+#### 5062. Why am I unable to remove attributes from files using xattr on macOS?
+
+**问题描述 / Problem Description**:
+Tags: bash, mac, shell, zsh, xattr | Score: 2 | Views: 561 | Answers: 2 | Created: 2025-01-21
+
+**解决方案 / Solution**:
+The files were located under my iCloud Drive. Moving them from that folder fixed the issue.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1871402/why-am-i-unable-to-remove-attributes-from-files-using-xattr-on-macos
+
+---
+
+#### 5063. Can't get Rsync to exclude directories with include option?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, rsync | Score: 2 | Views: 931 | Answers: 1 | Created: 2025-01-13
+
+**解决方案 / Solution**:
+The purpose of using include with exclude option is to save me some work from listing out all excluded files and directories. The list of included files is significantly shorter than the exclusion list. Finally figured it out. The */ was including everything in the source directory. The /*** after each folder is needed to copy everything recursively inside. sudo rsync -aAXv --dry-run --include={"Documents/***","Downloads/***","Music/***","Pictures/***","Videos/***",".ssh/***",".thunderbird/***"} --exclude="*" /home/username/ /mnt/backup/ Here's an alternative method that achieves similar results. First, compile a list of all files and directories. $ ls -a > /mnt/backup/exclude_files.txt $ head -n 20 /mnt/backup/exclude_files.txt . .. .ansible .aqbanking .bash_history .bash_logout .bash_profile .bashrc .cache .config .cups Desktop Documents .dotnet Downloads .fontconfig .gitconfig Edit the exclude_files.txt and remove the . and .. at the top as well as any directory that should not be in the exclude file. $ sudo rsync -aAXv --dry-run --exclude-from='exclude_files.txt' /home/username/ /mnt/backup/ Note : The exclude_files.txt must be in the same directory where the rsync command is being run. In my case, it's ran from /mnt/backup/ . Don't forget to remove the --dry-run .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1870309/cant-get-rsync-to-exclude-directories-with-include-option
+
+---
+
+#### 5064. Can I see how package configurations (CentOS/Ubuntu) are made for prebuilt packages?
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, centos, sssd | Score: 2 | Views: 185 | Answers: 1 | Created: 2024-12-06
+
+**解决方案 / Solution**:
+for anyone that is interested or has the same problem I may have an answer. First, I haven't really figured out the issue but I've seen that the type of requesting the global catalog or details regarding an AD object differs between centos and ubuntu. But, after long tcpdump & wireshark sessions and no clue what I read there^^ we decided to update our domain controllers. Since then, both Ubuntu end CentOS behave the same. This is neither a solution nor a good analysis, but it may helps. greetings tbol
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168595/can-i-see-how-package-configurations-centos-ubuntu-are-made-for-prebuilt-packa
+
+---
+
+#### 5065. print (only) line preceding a match
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, grep, sed, awk | Score: 2 | Views: 726 | Answers: 4 | Created: 2024-10-30
+
+**解决方案 / Solution**:
+With sed : sed -n ' N /\n.*pattern/ P D ' Normally the pattern space in sed contains a single line, the current line of input. It's like a one-line window that moves through the input as lines come. Here we start each cycle by trying to append the next line of input to the pattern space ( N ). We end each cycle by deleting the initial line of the pattern space ( D ). This way the pattern space is a two-line window that moves through the input as lines come. Having the two-line window, we can easily detect when pattern is in the second line of the pattern space ( /\n.*pattern/ , where \n matches a newline character) and only then print the first line of the pattern space ( P ). Details here: POSIX specification of sed .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1860301/print-only-line-preceding-a-match
+
+---
+
+#### 5066. How to set a global variable from a bash function when its output is piped to another command
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, environment-variables | Score: 2 | Views: 2181 | Answers: 1 | Created: 2024-10-29
+
+**解决方案 / Solution**:
+Analysis When executing a pipeline, Bash runs each part of it in a subshell. Changes made to the subshell environment cannot affect the shell's execution environment. You can think of the execution environment as a shell-specific extension to the environment: it includes aliases, shell variables, shell options and more. And like the environment gets inherited by a child but the child cannot change the environment of the parent, execution environment gets inherited by a subshell but the subshell cannot change the execution environment of the main shell. You can make Bash run the last command of a pipeline (not executed in the background) in the current shell environment, by setting the lastpipe option of shopt ( shopt -s lastpipe ), but this will only work if job control is turned off ( set +m ). Usually in an interactive shell you want job control to be on (and it is on by default). Since you want to pipe from your function, the function cannot be the last command of a pipeline, so lastpipe cannot help you anyway. Portable solution You can make a named pipe, start a receiver asynchronously, run your function as a writer not in a pipeline, then wait for the receiver to finish: #/bin/bash testit() { a=4 echo "Hello world" } fifo='/tmp/myfifo' mkfifo -- "$fifo" { cat -n; sleep 2; } <"$fifo" & testit >"$fifo" wait echo "$a" rm -- "$fifo" I used cat -n so it's clear the output comes through cat . I used sleep 2 so it's clear the shell waits for the receiver. In an interactive shell (where job control is on by default) you will get messages about the job in the background; in a script (where job control is off by default) there will be no such messages. The shebang only matters if the code is executed as a script. Note if you execute the code as a script then testit will set the variable in the shell interpreting the script, not in the shell you invoke the script from (see What is the difference between executing a Bash script vs sourcing it? ). The above solution is portable (well, cat -n is not portable, but it's not a part of the solution itself, just an example receiver). Neater solution In Bash you can use process substitution: #/bin/bash testit() { a=4 echo "Hello world" } testit > >(cat -n; sleep 2) wait echo "$a" Notes In each of the above solutions the receiver cannot affect the execution environment of the shell. This is true even if you use a shell function instead of cat -n; sleep 2 . In general you can pipe from function to function (e.g. f1 | f2 | f3 | f4 | f5 ) but at most one of them can be executed in the execution environment of the main shell. E.g. for f3 the solution is < <(f1 | f2) f3 > >(f4 | f5); wait . If you want more than one function to affect the execution environment of the shell then you must not run them concurrently. Example: f1 >regular_file <regular_file f2 Conclusion A shell function can affect the execution environment of the shell; and a shell function can be used in a pipeline. The problem is the two functionalities cannot work at the same time. In my opinion it is reasonable to design your functions (and consequently maybe even the whole workflow), so each function is supposed to do at most one of these things.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1860181/how-to-set-a-global-variable-from-a-bash-function-when-its-output-is-piped-to-an
+
+---
+
+#### 5067. What is the most efficient way of stacking two videos using FFmpeg?
+
+**问题描述 / Problem Description**:
+Tags: ffmpeg, video, shell, video-conversion, video-editing | Score: 2 | Views: 890 | Answers: 1 | Created: 2024-10-04
+
+**解决方案 / Solution**:
+Here are four ways of doing what you described: Method A - basically your method ffmpeg -y -i small.mp4 -s 1920x1080 -c:a copy upscaled.mp4 ffmpeg -y -i upscaled.mp4 -i big.mp4 -filter_complex vstack=inputs=2 A.mp4 Method B - your method, but done as one chain ffmpeg -y -i small.mp4 -i big.mp4 -filter_complex "[0] scale=1920:1080 [a]; [1:v][a] vstack=inputs=2" B.mp4 Method C - Padding (what I assume you meant by black bars) ffmpeg -y -i small.mp4 -i big.mp4 -filter_complex "[0] pad=1920:1080:0:0 [a]; [1:v][a] vstack=inputs=2" C.mp4 Method D - Padding and overlay ffmpeg -y -i small.mp4 -i big.mp4 -filter_complex "[0] pad=1920:1560:0:1080 [a]; [a][1:v] overlay=x=0:y=0" D.mp4 Method Time (s) A 29.3567267 B 19.932263 C 14.8910977 D 13.7423037 Notes: A and B have similar results. C and D have similar results. C and D will not resize the smaller video. If you have different SARs, C and D will look weird. You can also use overlay_cuda if you have a CUDA card and are prepared to tweak the filters. I ran this in Windows and compared using Powershell (see below) function VersionA { ffmpeg -y -i small.mp4 -s 1920x1080 -c:a copy upscaled.mp4 ffmpeg -y -i upscaled.mp4 -i big.mp4 -filter_complex vstack=inputs=2 combinedA.mp4 } function VersionB { ffmpeg -y -i small.mp4 -i big.mp4 -filter_complex "[0] scale=1920:1080 [a]; [1:v][a] vstack=inputs=2" combinedB.mp4 } function VersionC { ffmpeg -y -i small.mp4 -i big.mp4 -filter_complex "[0] pad=1920:1080:0:0 [a]; [1:v][a] vstack=inputs=2" combinedC.mp4 } function VersionD { ffmpeg -y -i small.mp4 -i big.mp4 -filter_complex "[0] pad=1920:1560:0:1080 [a]; [a][1:v] overlay=x=0:y=0" combinedD.mp4 } Measure-Command {VersionA | Out-Default} Measure-Command {VersionB | Out-Default} Measure-Command {VersionC | Out-Default} Measure-Command {VersionD | Out-Default} Apologies if I misunderstood the question regarding the black bars.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1857755/what-is-the-most-efficient-way-of-stacking-two-videos-using-ffmpeg
+
+---
+
+#### 5068. Create a visual diff between two images and overlay it on one of these using imagemagick
+
+**问题描述 / Problem Description**:
+Tags: shell, shell-script, imagemagick, image-processing | Score: 2 | Views: 331 | Answers: 2 | Created: 2024-09-25
+
+**解决方案 / Solution**:
+To avoid some non-diff color from appearing on the diff image, add -lowlight-color none option that specifically sets the color to fully transparent: magick compare schematic.png schematic-new.png -compose src -lowlight-color none diff.png As for overlaying the images, you basically used the only predefined composition mode that mixes transparencies like that. E.g. both -dissolve and -watermark work much better in terms of putting a layer over another with transparency. This looks quite good to me and I think is close to what you desire: magick composite -dissolve 30 diff.png schematic-new.png schematic_diff.png Lower the 30 percentage if needed.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1856840/create-a-visual-diff-between-two-images-and-overlay-it-on-one-of-these-using-ima
+
+---
+
+#### 5069. How to disable MOTD from Debian 12?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell | Score: 2 | Views: 3770 | Answers: 2 | Created: 2024-04-24
+
+**解决方案 / Solution**:
+In order to disable (or otherwise manage) output of MOTD there are typically three places to consider. SSH server configuration, /etc/ssh/sshd_config . The documentation writes, PrintMotd Specifies whether sshd (8) should print /etc/motd when a user logs in interactively. (On some systems it is also printed by the shell, /etc/profile , or equivalent.) The default is yes . So PrintMotd no On my installation (Debian 12) this is already set as no , so it's clearly not the source of the message output. PAM. Looking in /etc/pam.d/sshd we can see # Print the message of the day upon successful login. # This includes a dynamically generated part from /run/motd.dynamic # and a static (admin-editable) part from /etc/motd. session optional pam_motd.so motd=/run/motd.dynamic session optional pam_motd.so noupdate Open a root shell ( sudo -s or other). Do not rely on using sudo as a prefix to edit and change the files. Open a root shell. Really. Save a copy of the file and then comment out these two session lines to disable MOTD. Restart sshd ( systemctl restart sshd ) and test that you can still log in. If there is an issue, use the still-open root shell to revert your changes and retest. Shell. Check in /etc/profile , /etc/bash.basrc , and other shell initialisation scripts to ensure that none is displaying MOTD. (It's unlikely, but we'll check.) grep -ril motd /etc/zsh /etc/bash.bashrc /etc/profile /etc/profile.d You can safely ignore any " No such file or directory " errors. On my system this found no matching files.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1840229/how-to-disable-motd-from-debian-12
+
+---
+
+#### 5070. Execute self-extracting bash script (with binary data appended) w/o saving it first
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, shell, bash-scripting, tail | Score: 2 | Views: 780 | Answers: 1 | Created: 2024-03-29
+
+**解决方案 / Solution**:
+I would just change the structure of the script slightly so you don't need tail . Just save the data as a variable instead: #!/bin/bash ## begin data dump read -r -d '' archive_data <<'EoF' <BINARY_DATA_ARCHIVE> EoF ## end data dump export tmpdir=$(mktemp -d) # extracting data archive into a temporary directory printf '%s' "$archive_data" | tar xzv -C "$tmpdir" exit 0 Comments: This will not work if the data archive can contain NUL ( \0 ) . Note the single quotes around 'EoF' , these ensure that any $ won't be expanded to wrong variable names. I also changed your variables to lower case as it is bad practice to use caps for shell variables since, by convention, global environment variables are capitalized and this can lead to naming collisions and unexpected bugs. Use lower case for your variables and capitalize global envs only whenever possible. I changed mktemp to mktemp -d since you seem to be trying to create a directory and without -d the command mktemp makes a file. You should now be able to do something like curl -fsSL https://<omitted>/script.sh | bash
+
+**参考链接 / References**:
+- https://superuser.com/questions/1837168/execute-self-extracting-bash-script-with-binary-data-appended-w-o-saving-it-fi
+
+---
+
+#### 5071. Is it possible to replace the Windows shell with Steam to launch to Big Picture faster, and have Explorer.exe load after Steam launches automatically?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-explorer, shell, windows-registry | Score: 2 | Views: 4699 | Answers: 3 | Created: 2024-01-20
+
+**解决方案 / Solution**:
+Setting explorer as a startup program will probably cause it and Big Picture to be started at once. You may need to program your own shell replacement. I would suggest replacing the shell by a PowerShell script that will call up Big Picture, wait for it to terminate, then call up Explorer. Useful references : Start-Process Wait-Process How to tell PowerShell to wait for each command to end before starting the next? EDIT1: According to tests done by user @LPChip, the replacement shell needs to terminate in order for Explorer to understand that it needs to create the desktop. In this case, I suggest dividing the PowerShell script into two scripts, where the first one starts Big Picture and waits for it to terminate, then starts a second script that will wait until its parent terminates, then starts Explorer and terminates itself. To make the second script independent of its parent, better use a method from the post Launch an unparented process from PowerShell . EDIT2: I have looked into how the primary Explorer is started, and the command is C:\Windows\explorer.exe /NoUACCheck , from a scheduled task named CreateExplorerShellUnelevatedTask . User @LPChip has verified that this command with the /NoUACCheck parameter causes Explorer to put up the desktop, however when closing explorer it restarts automatically. To block this from happening requires setting in the registry key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon the item AutoRestartShell to zero.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1826568/is-it-possible-to-replace-the-windows-shell-with-steam-to-launch-to-big-picture
+
+---
+
+#### 5072. How does symlink from shutdown to systemctl work?
+
+**问题描述 / Problem Description**:
+Tags: shell, systemctl | Score: 2 | Views: 347 | Answers: 1 | Created: 2023-12-26
+
+**解决方案 / Solution**:
+Short answer A program can know the name it was invoked as; it learns its own name by examining argv[0] . This allows identical executables to behave differently under different names ( example ) or a single executable to behave differently when called via differently named symlinks ( example ). In your case the actual systemctl executable knows if it's being invoked as systemctl or shutdown or whatever. It adjusts its behavior accordingly. Additional details The array of arguments is set by the parent process. It's a convention (not a strict requirement) that argv[0] is the name. The parent may or may not follow the convention. When you run systemctl or shutdown from a shell, the shell is the parent and it follows the convention; in general shells follow the convention. An example where the convention is not followed is the behavior of login (and tools that try to mimic it): login uses a leading dash in the zeroth argument to inform a child shell it is supposed to be a login shell. Let's assume the login shell is Bash. In the shell echo "$0" will show you -bash , despite the fact the executable is named bash . This leading dash is another convention. You can run systemctl with an arbitrary name. Some names are special, they change the behavior of systemctl , this is deliberately to support symlinks like the one you observed. In my Debian 12 these are (among others) shutdown and runlevel . You don't need to create a symlink or a copy to pass an arbitrary argv[0] to systemctl , you can use exec -a of Bash. Examples of using arbitrary argv[0] (The examples assume systemctl can be reached via $PATH . Supply the full pathname if needed.) bash -c 'exec -a foo systemctl' # should behave like plain systemctl because foo is not a name that would change the behavior bash -c 'exec -a shutdown systemctl --help' # should behave like shutdown --help bash -c 'exec -a runlevel systemctl' # should behave like runlevel In fact you can use a symlink to systemctl (like your shutdown ) and still pass an arbitrary argv[0] . Example: bash -c 'exec -a runlevel shutdown' # should behave like runlevel Fixing your "goofy command" Your "goofy command" sudo systemctl -h +120 can be fixed like this: sudo bash -c 'exec -a shutdown systemctl -h +120' Here the symlink named shutdown is not used at all (it might not exist), the executable systemctl is invoked directly; still it behaves like shutdown because we pass the right name ( shutdown ) as argv[0] .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1823196/how-does-symlink-from-shutdown-to-systemctl-work
+
+---
+
+#### 5073. HKEY_CLASSES_ROOT\Directory\shell\open\command but per user
+
+**问题描述 / Problem Description**:
+Tags: windows, shell, windows-registry | Score: 2 | Views: 4898 | Answers: 1 | Created: 2023-10-15
+
+**解决方案 / Solution**:
+Yes. HKCR is not saved to a file like HKCU or HKLM . It is in fact created in memory by combining entries found under HKCU\Software\Classes and HKLM\Software\Classses . You'll find your edited entry under: HKLM\Software\Classses\Directory\Shell\Open\Command You'll want to create per-user entries under: HKCU\Software\Classses\Directory\Shell\Open\Command The per-user entries will override the HKLM entries, so it will still be there for new users. Note that you can only create an HKCU (HK Current User) entry for the currently logged on user unless you use Load Hive... to access a different user's ntuser.dat file. But since you only want behavior for your login modified, you want to: Edit the HKLM entry back to default behavior. Create your HKCU entry to modify behavior under your profile
+
+**参考链接 / References**:
+- https://superuser.com/questions/1812719/hkey-classes-root-directory-shell-open-command-but-per-user
+
+---
+
+#### 5074. On Linux, how can one diff directories, excluding files by name, but including directories of the same name?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, diff | Score: 2 | Views: 949 | Answers: 1 | Created: 2023-10-05
+
+**解决方案 / Solution**:
+I assume you want diff -r cool_1 cool_2 with exclusions. --exclude and --exclude-from are indeed too limited . There is a method, somewhat cumbersome but quite straightforward in its core: Copy the two directories you want to diff to elsewhere. E.g. let the target directory be target/ . Our basic command is then cp -R cool_1 cool_2 target/ . Notes: You want target/ not to contain cool_1 or cool_2 beforehand. A good idea is to create a new empty directory ( mkdir target ) and then cp to it. You want -P (copy symbolic links as symbolic links). Ideally the whole directory hierarchies in cool_1 and in cool_2 belong to a single filesystem. If so, choose the target directory inside the same filesystem and then: use cp -l and create hardlinks to regular files instead of actually copying them (your cp may or may not support -l though); alternatively create reflinks with cp --reflink=always , if the filesystem supports reflinks and if your cp supports --reflink . Without a good reason for reflinks, you should go with hardlinks. A good reason for reflinks is when some regular file below cool_1 or cool_2 is immutable and you cannot create a new hardlink to it. This way you will avoid unnecessary actual copying. It's not only about I/O, hardlinking or reflinking will consume far less additional diskspace than actual copying. The command will be like: cp -RPl cool_1 cool_2 target/ Go to the target directory: cd target/ Make sure there was no error and you are in the target directory. Use whatever means to actually remove files you want to exclude. Remove them by hand with rm , or in mc , or with some automation. E.g. this command: find cool_1 cool_2 -name dumb ! -type d -delete will remove all files inside cool_1 or cool_2 with basename dumb except files of the type directory. -delete is not portable, use -exec rm {} \; instead if necessary; see this question . If the target directory (which is now our . ) contains only cool_1 and cool_2 then you can simplify and act on the entire directory: find . … You may find this question useful: Recursively search files with exclusions and inclusions . Use tree to inspect if the hierarchy looks good. You can also run like diff -r cool_1 ../cool_1 and diff -r cool_2 ../cool_2 to see what you have removed. In case you remove too much, remember you can always copy (hardlink, reflink) again from the original directory. Because you can remove (or re-add) files even one by one, it's possible to attain arbitrary exclusions. Use diff -r inside the target directory: diff -r cool_1 cool_2 Here cool_1/ and cool_2/ do not contain files you wanted to exclude, so there is no need to tell diff to exclude anything. Eventually remove the target directory: cd .. && rm -r target/
+
+**参考链接 / References**:
+- https://superuser.com/questions/1811463/on-linux-how-can-one-diff-directories-excluding-files-by-name-but-including-d
+
+---
+
+#### 5075. How do I change the background color for folders in PowerShell when invoking the "ls" command from WSL Interop?
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, powershell, shell, windows-subsystem-for-linux | Score: 2 | Views: 1557 | Answers: 1 | Created: 2023-09-26
+
+**解决方案 / Solution**:
+According to the author of PowerShell WSL InterOP , Environment variables are supported by $WslEnvironmentVariables . And Default parameters are supported by $WslDefaultParameterValues . So the solution I came across was to add the following lines to my PowerShell profile: $PSStyle.OutputRendering = 'Ansi' $WslDefaultParameterValues = @{} $WslDefaultParameterValues["ls"] = '--color=always' $WslEnvironmentVariables = @{} $WslEnvironmentVariables["LS_COLORS"] = "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36::ow=1;34:tw=1;34:" By populating $WslEnvironmentVariables["LS_COLORS"] with the same values as Bash, I was able to get the same color highlighting as if I was in a Bash shell. I also added $WslDefaultParameterValues["ls"] = '--color=always' to ensure that color is always displayed for the ls command. All of these additions fixed my problem entirely. Hope this helps someone!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1810071/how-do-i-change-the-background-color-for-folders-in-powershell-when-invoking-the
+
+---
+
+#### 5076. Linux: Where to define my aliases regardless of the shell being used?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, windows-subsystem-for-linux | Score: 2 | Views: 764 | Answers: 2 | Created: 2023-09-24
+
+**解决方案 / Solution**:
+Let me preface this by saying that this solution is probably gross overkill 1 for the question at hand, but nix + home-manager 2 allows you to create shell-agnostic aliases in the ~/.config/home-manager/home.nix file. For example, I have defined (simplified): { home.shellAliases = { ls = "exa --header --icons --classify"; ll = "exa -l --header --icons --classify"; la = "exa -a --header --icons --classify"; }; # Have home-manager create and manage the config files for these shells: programs.bash.enable = true; programs.fish.enable = true; } Zsh (and more) is also supported. As mentioned in the help : This option should only be used to manage simple aliases that are compatible across all shells. If you need to use a shell specific feature then make sure to use a shell specific option, for example programs.bash.shellAliases for Bash. 1 Overkill, because Nix essentially overlays an entirely separate distribution on top of your existing distribution (Void, in this case). That said, there are a lot of benefits to Nix, so I'm using it with WSL so that each of the distributions I run in WSL has all of my client apps pre-configured the way I like them. Before Nix, I was using Ansible for essentially the same purpose (also overkill), but that requires different Ansible configuration for each distribution. Nix, by overlaying its set of applications on top of the distribution, abstracts that away. (Side-note for other readers: Don't worry, I typically test out most of my answers here on Super User and other SE sites in a fresh distribution without Nix, so that I'm attempting to reproduce problems in a similar environment to the one most users will be running.) 2 Note that there is a big difference between NixOS and Nix, and it's hard to figure that out when first learning about Nix. NixOS is a distribution itself based entirely on Nix. Nix (as a language and packaging system) can run on most any distribution, although I have not tried it with Void specifically.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1809768/linux-where-to-define-my-aliases-regardless-of-the-shell-being-used
+
+---
+
+#### 5077. Change windows shell
+
+**问题描述 / Problem Description**:
+Tags: windows, shell | Score: 2 | Views: 4436 | Answers: 1 | Created: 2023-08-23
+
+**解决方案 / Solution**:
+Going from the linked guide , there are three steps: Set steam to launch in big picture mode Set steam as your windows shell (making it run instead of the desktop): open regedit and navigate to HKEY_CURRENT_USER\Software\Microsoft\WindowsNT\CurrentVersion\Winlogon Make a new string entry with Name= Shell , and Value= "C:\Program Files (x86)\Steam\Steam.exe" Set windows to log in automatically, skipping the logon screen: I recommend using the Microsoft tool AutoLogon to configure this automatically instead of following the guide instructions. Otherwise, the longer manual process can be found here: https://learn.microsoft.com/en-us/troubleshoot/windows-server/user-profiles-and-logon/turn-on-automatic-logon To start the normal windows desktop: ctrl + alt + del > Task Manager > File > Run new task > explorer To undo the shell change permanently, use regedit to delete the Shell value you created before, and reboot
+
+**参考链接 / References**:
+- https://superuser.com/questions/1805533/change-windows-shell
+
+---
+
+#### 5078. XDG Base Directory environment variables not respected by notionally compliant software
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, zsh, environment-variables, xdg | Score: 2 | Views: 2321 | Answers: 1 | Created: 2023-07-24
+
+**解决方案 / Solution**:
+I solved the problem with all the helpful advice from the comments. Huzzah. The issue was that because I defined the environment variables in /etc/zsh/zshenv , they would only be set in Zsh shells, and not during a graphical login, done through a display manager. Testing this theory by logging into a different TTY and starting Hyprland manually from the command line proved successful. To solve it, I followed the advice in the Arch Wiki and defined variables in /etc/security/pam_env.conf : # ... XDG_CONFIG_HOME DEFAULT=@{HOME}/local/config XDG_STATE_HOME DEFAULT=@{HOME}/local/state XDG_DATA_HOME DEFAULT=@{HOME}/local/data XDG_CACHE_HOME DEFAULT=@{HOME}/local/cache ZDOTDIR DEFAULT=${XDG_CONFIG_HOME}/zsh Hence, these variables will now be loaded no matter the context and Hyprland (and by extension some programs run directly from it) will respect the preferences I set.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1799400/xdg-base-directory-environment-variables-not-respected-by-notionally-compliant-s
+
+---
+
+#### 5079. Change the default location of zsh completion cache files for macOS
+
+**问题描述 / Problem Description**:
+Tags: shell, shell-script, zsh, cache | Score: 2 | Views: 4649 | Answers: 2 | Created: 2023-05-21
+
+**解决方案 / Solution**:
+Update and fix. I've updated my code to the following to fix the issue of two dump files being created. ZSH_COMPDUMP="$HOME/.cache/zsh/zcompcache" # Create the parent directory if it doesn't exist [[ -d $ZSH_COMPDUMP ]] || mkdir -p $ZSH_COMPDUMP _comp_files=($ZSH_COMPDUMP/zcompdump(Nm-20)) if (( $#_comp_files )); then autoload -Uz compinit -C -d "$ZSH_COMPDUMP/.zcompdump-${ZSH_VERSION}" else autoload -Uz compinit -d "$ZSH_COMPDUMP/.zcompdump-${ZSH_VERSION}" fi The previous implementation had an issue where two dump files were being created because the compinit command was being called from outside the function. This resulted in a dump file being created in the $HOME directory and the one created by the code. The code has been modified to call compinit inside the function to address this. This ensures that compinit is invoked only once while performing the necessary checks and applying the appropriate settings. By doing so, we resolve the duplication of dump files and ensure the correct behaviour of the code. If anyone has any further insights or alternative suggestions, please drop me an answer. Thanks
+
+**参考链接 / References**:
+- https://superuser.com/questions/1785213/change-the-default-location-of-zsh-completion-cache-files-for-macos
+
+---
+
+#### 5080. How do you move (mv) in ZSH all files from current directory except two or more to a child directory?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, zsh, kali-linux, xargs | Score: 2 | Views: 4738 | Answers: 1 | Created: 2023-03-24
+
+**解决方案 / Solution**:
+You can use the “not” operator: setopt extendedglob mv ^a[12] testfolder mv ^a<1-2> testfolder mv ^(a1|a2) testfolder Or, alternatively, the "but not" operator: setopt extendedglob mv *~a[12] testfolder mv *~a<1-2> testfolder mv *~(a1|a2) testfolder ( <x-y> matches any number between x and y, inclusive.) See https://zsh.sourceforge.io/Doc/Release/Expansion.html#Filename-Generation Fun fact: Combining them as ~^ gives you an “and” operator. :)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1775494/how-do-you-move-mv-in-zsh-all-files-from-current-directory-except-two-or-more
+
+---
+
+#### 5081. zsh: event not found: /bin/bash
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, shell, zsh | Score: 2 | Views: 20061 | Answers: 1 | Created: 2023-03-16
+
+**解决方案 / Solution**:
+Explanation #!/bin/bash is a common shebang. To be a shebang, this line has to be the first line of a script. A shebang in a script matters for the kernel when you start the script as an executable. The shebang tells the kernel which interpreter to start. The path to the script is passed to the interpreter. The interpreter itself ( /bin/bash in this case) should ignore the shebang. In many interpreters (including bash ) this requires no special treatment, because in many languages # starts a comment anyway; from the point of view of the interpreter the shebang is just a comment. If the shebang in a script was #!/bin/zsh and you directly run the script as an executable (e.g. /path/to/the-script or ./the-script ), or if you explicitly invoked zsh to interpret a script with any shebang (e.g. zsh ./the-script ) then zsh would run non-interactively and it would interpret the shebang as a comment. This is fine; when the interpreter gets to the shebang, the shebang has already served its purpose and can (or rather: should) safely be ignored. It looks like you pasted #!/bin/bash into an interactive zsh . Interactive zsh by default does not treat #comments as comments like other shells, you need to run setopt interactive_comments to enable the feature . Your zsh tried to interpret #!/bin/bash as a command. Then history expansion kicked in because of the ! . This is why you got zsh: event not found: /bin/bash . setopt interactive_comments is not a solution in this case. If the code you want to paste starts with #!/bin/bash then it's a clear indication the code is for bash , not for zsh . You shall not mindlessly feed it to any zsh , interactive or not. Solution Save the whole snippet starting with #!/bin/bash to a regular file, make the file executable (with chmod +x ) and execute it. The mechanics of shebang will do its job and bash will be started to interpret the code intended for bash . This is the right way to run such snippets. Broader view In general, if you want to run a snippet by pasting it to an interactive interpreter, then you need to do the shebang-related job of the kernel by yourself: you need to pay attention to the shebang and choose the right interpreter. In your case you could paste the snippet to an interactive bash and it would probably work. "Probably", not "certainly", because interactive and non-interactive shells of the same type are somewhat different anyway. E.g. if the shebang was #!/bin/zsh , the right interpreter would be zsh , but the code wouldn't run smoothly after being pasted to an interactive zsh because of interactive_comments disabled. In such case setopt interactive_comments might help. There are more differences that may result in an interactive shell doing things the author of code did not intend. In general the right way to run code that starts with a shebang is to save it in a regular file, make the file executable and invoke it. In some cases you can get away with pasting to an interactive interpreter, if you choose the interpreter according to the shebang (or at least compatible with the one specified in the shebang). But even if the shell is right, pasting a multi-line snippet to an interactive shell may in itself be problematic (see this question ), this is why a feature called "bracketed paste" is useful for interactive shells. Observation, personal view Short snippets of shell code published here on Super User are usually safe when being pasted into the right shell. It may be such snippet includes a shebang only to indicate the right shell. I tend to explicitly warn in my answers if my code certainly should not be pasted interactively. Still, if a snippet includes a shebang then it's usually best to create a script (file) instead of pasting interactively. At least once ( here ) I used a line that resembles a shebang but cannot work as one. It was only to indicate the right shell.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1774083/zsh-event-not-found-bin-bash
+
+---
+
+#### 5082. Can't type accented character "é" via SSH
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, keyboard, shell, qnap | Score: 2 | Views: 827 | Answers: 1 | Created: 2023-02-19
+
+**解决方案 / Solution**:
+I found a solution with the help of @KamilMaciorowski Modifying /etc/inputrc to include set convert-meta off did it. Due to QNAPs special OS, this modification did not survive reboot, but following https://wiki.qnap.com/wiki/Running_Your_Own_Application_at_Startup and making the script to modify the file accordingly, it works! There is an issue though, but small enough to live with it for now: Type é , I have to backspace twice to erase the character. So: [user@QNAP_NAME ~]$ echo "ABé" ABé [user@QNAP_NAME ~]$ echo "AB" ==> DID one backspace AB� [user@QNAP_NAME ~]$ echo "A" ==> No "é" A [user@QNAP_NAME ~]$ echo "A" ==> Typed "A", "B", "é", two backspaces AB So, what we see is no more reflecting the real string, but hey, do not erase and it will ok! If someone finds/knows why, I'll modify my answer.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1769459/cant-type-accented-character-%c3%a9-via-ssh
+
+---
+
+#### 5083. How to get all apps to show in shell:AppsFolder when using Shell Launcher V2 to launch a custom shell app?
+
+**问题描述 / Problem Description**:
+Tags: windows, shell, windows-11 | Score: 2 | Views: 1932 | Answers: 1 | Created: 2023-02-05
+
+**解决方案 / Solution**:
+Try out some of these - I'm not sure what all gets updated when the shell isn't really running: # List the package class names for the user from the registry # these should be closest to the actual packages list, but don't have ID as a property $ActivatableClasses = (Get-ChildItem 'HKCU:\Software\Classes\ActivatableClasses\Package\').PSChildName # this should get all the actual AppX AUMIDs $AppxClasses = (Get-ItemProperty 'HKCU:\SOFTWARE\Classes\AppX*\Application').AppUserModelID # starts a new shell com instance and asks it for the appx ID list - likely the same result as shell:AppsFolder $ApplicationIDs = (New-Object -ComObject Shell.Application).NameSpace('shell:::{4234d49b-0245-4df3-b780-3893943456e1}').Items() | % path # more of a .net-specific way to do Get-AppxPackage $packages = [Windows.Management.Deployment.PackageManager]::new().FindPackagesForUser("")
+
+**参考链接 / References**:
+- https://superuser.com/questions/1766912/how-to-get-all-apps-to-show-in-shellappsfolder-when-using-shell-launcher-v2-to
+
+---
+
+#### 5084. Postfix multi-instance configuration issues
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, postfix, amavis | Score: 1 | Views: 78 | Answers: 2 | Created: 2026-06-07
+
+**解决方案 / Solution**:
+I was finally able to fix the problem. Here is my resolution. If having multiple Postfix instances, and when having Amavis linked, each instance must have a separate listening port, and separate policy in Amavis. Here is the configuration highlight: For main instance (domain1.com) on 'postfix': In main.cf: content_filter = smtp-amavis:[127.0.0.1]:10024 In master.cf: 127.0.0.1:10025 inet n - n - - smtpd smtp-amavis unix - - n - 4 smtp For secondary instance (domain2.com) on 'postfix-domain2.com' In main.cf: content_filter = smtp-amavis:[127.0.0.1]:10028 In master.cf: 127.0.0.1:10027 inet n - n - - smtpd smtp-amavis unix - - n - 4 smtp In Amavis (50-user): $inet_socket_port = [10024,10026, 10028]; $interface_policy{'10026'} = 'ORIGINATING'; $interface_policy{'10028'} = 'DOMAIN2'; @inet_acl = qw( 127.0.0.1 192.168.100.2 192.168.110.2); @local_domains_maps = ( [ ".domain1.com", ".domain2.com" ] ); $policy_bank{'ORIGINATING'} = { ADDITIONAL CONFIGURATION HERE } $policy_bank{'DOMAIN2'} = { forward_method => 'smtp:127.0.0.1:10027', notify_method => 'smtp:127.0.0.1:10027', ADDITIONAL CONFIGURATION HERE }
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199154/postfix-multi-instance-configuration-issues
+
+---
+
+#### 5085. Loopback testing of NVME target created using fcloop using SPDK without physical hardware support
+
+**问题描述 / Problem Description**:
+Tags: linux, testing, nvme, hba | Score: 1 | Views: 68 | Answers: 1 | Created: 2026-05-20
+
+**解决方案 / Solution**:
+Well, the reality is that you actually can’t. To handle Fibre Channel properly, even in a loopback configuration (if it’s supported by your FC HBA), and even inside the VM using SR-IOV (again, if your HBA supports it), you still need to have at least one Fibre Channel HBA. So “no hardware” is definitely a no-go in your case.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199019/loopback-testing-of-nvme-target-created-using-fcloop-using-spdk-without-physical
+
+---
+
+#### 5086. Ubuntu host in Azure cannot reach Internet after restart
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, azure | Score: 1 | Views: 221 | Answers: 1 | Created: 2026-05-08
+
+**解决方案 / Solution**:
+Azure networking can be really strange if you're unused to it. Hint: there is no layer 2, everything happens at layer 3. And the platform needs to know which IP address your VM has. There's no ARP, even more there is no gratuitous ARP. An Azure VM can't simply say "I have this IP address", the platform needs to know about it. Please provide additional details about the virtual NIC configuration on the Azure side. Also, do you have any Route Tables? Is your subnet configured to be a private one (which is the default nowadays, and doesn't allow your VM to reach the Internet unless you have a NAT Gateway or a firewall appliance)? And if you have a firewall, does it allow the traffic you want? Also, is this a standard marketplace image or a customized one? Azure networking can get quite tricky. You really need to know what you're doing.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1198941/ubuntu-host-in-azure-cannot-reach-internet-after-restart
+
+---
+
+#### 5087. Minimizing CPU Process Scheduling Latency in Linux for Light Workloads?
+
+**问题描述 / Problem Description**:
+Tags: linux, process, scheduler | Score: 1 | Views: 521 | Answers: 1 | Created: 2026-05-04
+
+**解决方案 / Solution**:
+As usual, define your requirements. Specific time budgets, high level for an application level request, or low level in terms of the function calls that make things happen. Just as important, what is the consequence for exceeding the budget? Sure, performance objectives are important. Making up some numbers, perhaps in your environment 99.99% of responses by this app needs to be under 500 ms for users to think it is fast. However, considerable performance tuning effort may be justified if missing a deadline results in data loss from some specialty low latency sensor or network, or a robot physically bumping into something. When low latency is the primary objective, predictable scheduling becomes more important than throughput or utilization. Context switching other tasks, or moving to another CPU, are fast, and indirectly support the applications running and scaling up. But they do introduce small amounts of overhead. If you are almost counting CPU cycles to reliably meet a budget, this is uncertainty you do not want. Theoretically, locking one task to one CPU, and scheduling little else on that CPU, is the fastest. So yes, consider disabling irqbalance. Or configuring it with a banned CPU list. I/O and such are then handled by certain CPUs, I think CPU 0 is default if not balanced. If you can reliably confine latency sensitive applications to other CPUs, that is a little bit more predictability. Several ways you could run tasks on specific CPUs. On systemd distros, there is the AllowedCPUs= directive, implemented by cgroups using cpusets. Could set some overrides on the relevant service units to run on AllowedCPUs=6-7 for the 7th and 8th CPU, "1" for the 2nd, and so on. As cpusets are at the cgroup level, they are available for a lot of systemd unit types. Including slices. Its possible to configure a custom and the system slice to have different AllowedCPUs . Or the scheduler can be told CPU affinity not using cgroups, via sched_setaffinity(). systemd also has a directive for this, CPUAffinity= and also takes CPU indexes and ranges. Continuing down the SCHEDULING section of man systemd.exec , units can define a CPU scheduler or NUMA policy, features you mentioned. CPUSchedulingPolicy=rr and pick a number for CPUSchedulingPriority= . Beware that realtime is a higher priority than any SCHED_OTHER tasks, in the worst case it is possible to starve the system with priority inversion. More so with some policies, per man sched : "A SCHED_FIFO thread runs until either it is blocked by an I/O request, it is preempted by a higher priority thread, or it calls sched_yield(2)." While SCHED_RR is a variant that introduces time quantums, it is still at that higher priority. Simply elevating the priority of select processes might not break things, however this alone might not help either. You have not produced evidence of some other task running, only that the task you were watching was not running. This does not begin to cover tuning for low latency. An in depth analysis of what your specific workload does, and trying a few things, can take many days. Decide how much effort to spend based on how important it is to you to stay in this deadline. Ideally do some off-CPU analysis where you trace code paths to find what blocks execution, and what wakes things up. Build an understanding of how the application is implemented and alternatives. For example, if waiting on file descriptors to be ready for I/O, why not use epoll on Linux. Review documentation for real time Linux use cases, to get practical ideas. RHEL for Real Time optimizing guide mentions several latency measurement tools, application profiling tools, CPU assignment to containers or services, housekeeping like irq and rcu and how to isolate them, mlock() memory to not page out, and more.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1198896/minimizing-cpu-process-scheduling-latency-in-linux-for-light-workloads
+
+---
+
+#### 5088. Why can't I grab <address> with bind with Netcat?
+
+**问题描述 / Problem Description**:
+Tags: networking, vpn, shell, port, netcat | Score: 1 | Views: 236 | Answers: 1 | Created: 2025-06-04
+
+**解决方案 / Solution**:
+First of all, with the -l option you are trying to set up both sides to be the "listener". Neither side is active so they will never establish a connection to each other. You need to remove -l from whichever side is supposed to be the client. Second, with the -s option, you are trying to specify 10.10.14.249 as the "local" address instead of the "remote" address. Since that address doesn't belong to the Windows Server 2019 system, nc64 can't possibly bind to it as a local address. (Similarly, -p specifies the "local" port number, not the remote port. It is possible for a client to bind to the same port, but it doesn't really make much practical sense.) Also, since the specified address is "consumed" as a parameter for the -s option (and the port consumed by the -p option), the result is that you're not specifying any remote address:port for nc64 to connect to. (The only reason nc64 isn't complaining about that is because it's in "listen" mode from the -l option so it's not connecting to anything, either way.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1903825/why-cant-i-grab-address-with-bind-with-netcat
+
+---
+
+#### 5089. When a script is sourced in the Ash shell, can it determine its own path (and how)?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, sh | Score: 1 | Views: 234 | Answers: 1 | Created: 2025-03-31
+
+**解决方案 / Solution**:
+Unfortunately, as far as I know, ash has no built-in way to get the path of the currently sourced script, but instead of sourcing the script directly, you can define a shell function and take the path of the script and set a variable (like SCRIPT_PATH) to that path, and then source the script from that path, like this: source_with_path() { SCRIPT_PATH="$(cd "$(dirname "$1")" && pwd)/$(basename "$1")" . "$1" } source_with_path ./myscript.sh
+
+**参考链接 / References**:
+- https://superuser.com/questions/1889283/when-a-script-is-sourced-in-the-ash-shell-can-it-determine-its-own-path-and-ho
+
+---
+
+#### 5090. Why am I unable to apply -R with rm on macOS Sequoia (15.3.1) to delete files on subfolders using a wildcard?
+
+**问题描述 / Problem Description**:
+Tags: macos, shell, rm | Score: 1 | Views: 337 | Answers: 1 | Created: 2025-03-07
+
+**解决方案 / Solution**:
+* is a wildcard that expands in the shell, it isn't interpreted by rm . Writiing *1.mp3 means "all the files that end with 1.mp3 in the directory". If the parent directory you're running rm from doesn't have any such files, it will expand to nothing. You can get the behavior you're looking for with a find command, though: find . -type f -name "*1.mp3" -exec rm -i {} \; Notes: Note the quotes ( " ) around the file pattern - this is done to prevent the shell from interpreting the * , and have find handle it. The -i is a safety measure to prevent deleting files you didn't mean to. If you run this command and are satisfied it finds the correct files, you can remove the -i so you don't need to manually approve every deletion.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1884878/why-am-i-unable-to-apply-r-with-rm-on-macos-sequoia-15-3-1-to-delete-files-on
+
+---
+
+#### 5091. How to recover the functions declared in powershell profile if the file is lost?
+
+**问题描述 / Problem Description**:
+Tags: powershell, shell, data-recovery | Score: 1 | Views: 101 | Answers: 1 | Created: 2025-01-24
+
+**解决方案 / Solution**:
+The complete command is Get-Command -CommandType Function | Where-Object { $_.ScriptBlock -and $_.ScriptBlock.File -match 'profile\.ps1$' } | ForEach-Object { "# Function: $($_.Name)" $_.ScriptBlock.ToString() "`n" } Which gathers all methods from all Profile files across your system (I believe there are roguhyl 5 different possible locations). By modifying the -match parameter it would be possible to single out individual files. While some non-function commands like "Set-Alias" are also recoverable (probably because they declare something analog to a function, other executed script parts are not. [I only tested that command with powershell 7]
+
+**参考链接 / References**:
+- https://superuser.com/questions/1872312/how-to-recover-the-functions-declared-in-powershell-profile-if-the-file-is-lost
+
+---
+
+#### 5092. Ubuntu 24.04 I am unable to disable IPv6 SSH access
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, ssh | Score: 1 | Views: 1327 | Answers: 1 | Created: 2025-01-20
+
+**解决方案 / Solution**:
+Define a firewall rule that blocks packets to TCP port 22 from ::/0 . Ubuntu might have switched its OpenSSH service to use systemd "socket activation". If you have an ssh.socket or sshd.socket unit active, you will need to systemctl edit --full that unit and edit its ListenStream= parameter. Though most of your attackers will be coming in through IPv4 anyway (takes only hours to scan the entirety of IPv4 Internet), so there is very little point in disabling IPv6 just for SSH alone.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1171257/ubuntu-24-04-i-am-unable-to-disable-ipv6-ssh-access
+
+---
+
+#### 5093. Postfix content filter service recognizing it as relay
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, postfix, smtp, smtp-headers, e-mailrelay | Score: 1 | Views: 247 | Answers: 1 | Created: 2024-12-30
+
+**解决方案 / Solution**:
+At the end of the day I've solved my problem by doing: smtp inet n - - - - smtpd -o content_filter=piperelay -o receive_override_options=no_address_mappings piperelay unix - n n - - pipe flags=Rq user=filteruser argv=/usr/bin/php8.2 /etc/postfix/scripts/modify_header.php Perhaps I've not stated my original question clearly, sorry. Basically I wanted to be able to overwrite the " From " address line, and to add a Reply-To header line, but with header_checks that didn't seem possible, thus I had to resort to either a milter or a content_filter , but for whatever reason, none of the solutions worked for me that I've been trying while looking around on the internet for literal days. Naturally I've also tried consulting GPT as I've been using it almost daily for years now, and it did have some constructive things to say, but the o1 model sucks, and GPT 4 legacy model easily solved my problems. At the end of the day I tried not using the "global settings" as in " main.cf " but set it up directly under that one custom service defined in " master.cf " and that did the job. The content_filter worked, and there was no more infinite loop either, which was a new problem that came up after, that was solved by the " -o receive_override_options=no_address_mappings " which was interesting to see, because if I added this option to " main.cf " as a "global setting" it did not work! It only started to work once I've added it directly under my command to be executed. And the most important part is, Yes postfix gives our external script (in my case I made a php script) the raw data, which we can read with STDIN but just simply doing STDOUT is not enough, which was NOT clear for me. I had to "send back" or "inject back" the modified email data to the postfix service by using sendmail, which can indeed cause infinite loops if you're not careful. So basically this was what I was missing. Yes it does treat it as the external script is a "relay" thus postfix did not expect it to just be something that filters it, and has further work with it, but correct me if I'm wrong. Anyway I sent the modified email back with sendmail from the php script, and boom, everything worked perfectly fine. Hope this helps someone in the future! Sorry if my original question wasn't clear enough, I'm a bit new to making these kind of posts.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1169632/postfix-content-filter-service-recognizing-it-as-relay
+
+---
+
+#### 5094. How to reload custom dictionary in FreeRadius without restarting?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, freeradius | Score: 1 | Views: 200 | Answers: 1 | Created: 2024-12-24
+
+**解决方案 / Solution**:
+I would try using the " service reload " command, as follows. service radiusd reload If the command above fails, try the " kill -HUP " command. kill -HUP $(cat /var/run/radiusd/radiusd.pid) If neither work for you, let me know. I may have some additional suggestions.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1169279/how-to-reload-custom-dictionary-in-freeradius-without-restarting
+
+---
+
+#### 5095. use new hard drive to extend existing partition on Ubuntu
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, hard-drive, lvm, mount, partition | Score: 1 | Views: 2079 | Answers: 1 | Created: 2024-12-16
+
+**解决方案 / Solution**:
+Overview Your root filesystem sits on a logical volume named ubuntu-lv . That volume is carved out of a volume group named ubuntu-vg . The volume group (probably) contains a single physical volume , /dev/sda3 . You want to: Add a new physical volume to volume group ubuntu-vg Grow logical volume ubuntu-lv to take advantage of the additional space Grow the filesystem on ubuntu-lv so that you can use that space. You can use the lvs command to list logical volumes (note that this and all following commands are run in a test environment and won't produce identical output to what you see; in particular, I don't have 1.8T of free space available): # lvs VG #PV #LV #SN Attr VSize VFree ubuntu-vg 1 1 0 wz--n- <5.00g <4.00g You can use the vgs command to list volume groups: # vgs VG #PV #LV #SN Attr VSize VFree ubuntu-vg 1 1 0 wz--n- <5.00g <4.00g You can use the pvs command to list physical volumes: # pvs PV VG Fmt Attr PSize PFree /dev/vdb ubuntu-vg lvm2 a-- <5.00g <4.00g Adding a physical volume Prepare /dev/sdb for use by lvm: pvcreate /dev/sdb You should receive the message "Physical volume "/dev/sdb" successfully created." At this point, running pvs should now show two physical volumes: # pvs PV VG Fmt Attr PSize PFree /dev/vdb ubuntu-vg lvm2 a-- <5.00g <4.00g /dev/vdc lvm2 --- 5.00g 5.00g Extend the volume group Add /dev/sdb to the ubuntu-vg volume group: vgextend ubuntu-vg /dev/sdb You should receive the message "Volume group "ubuntu-vg" successfully extended". Running vgs should show that the volume group is now larger: # vgs VG #PV #LV #SN Attr VSize VFree ubuntu-vg 2 1 0 wz--n- 9.99g 8.99g Grow the logical volume and the filesystem Extend your logical volume to use the available space. Assuming that you want your filesystem to use all the available space, you can run: lvextend -l 100%FREE -r ubuntu-vg/ubuntu-lv This instructs lvm to extend the logical volume to use 100% of the free space on the volume group ( -l 100%FREE ), and then resize the filesystem ( -r ). If you want to extend by a specific amount of space, you can use the -L option. E.g., to extend your filesystem so that the total size is 2.5T , you could write: lvextend -L 2.5T -r ubuntu-vg/ubuntu-lv If you want to add a specific amount of space (as in, "make the filesystem 1T bigger"), you can do it like this instead: lvextend -L +1T -r ubuntu-vg/ubuntu-lv At this point, you should see that your logical volume is now bigger: # lvs LV VG Attr LSize Pool Origin Data% Meta% Move Log Cpy%Sync Convert ubuntu-lv ubuntu-vg -wi-ao---- 8.99g And that your filesystem is as well: # df -h /mnt Filesystem Size Used Avail Use% Mounted on /dev/mapper/ubuntu--vg-ubuntu--lv 8.9G 24K 8.8G 1% /mnt plus there is no data backup mechanism in place... Hard drives can fail. If that data is important, you'll want to ensure you have a way to restore it.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168956/use-new-hard-drive-to-extend-existing-partition-on-ubuntu
+
+---
+
+#### 5096. Ubuntu 24 VM "systemd-logind crashed with SIGABRT" error while running Gala TownStar v2 Node
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, ubuntu-24.04 | Score: 1 | Views: 742 | Answers: 1 | Created: 2024-12-08
+
+**解决方案 / Solution**:
+After I noticed that the error in Ubuntu 20.04 was complaining about the CPUs, I started messing around with more CPUs and even adding another type of node to the same VM. Conclusion: to run 2 different types of nodes on an single Ubuntu 24 VM (20.04 performed worse) I ended up needing 6 CPUs (3 physical, 3 virtual) to be stable... also 12GB of RAM
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168630/ubuntu-24-vm-systemd-logind-crashed-with-sigabrt-error-while-running-gala-town
+
+---
+
+#### 5097. Publicly available website inside a private webapp via docker container
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, apache-2.4, docker, virtualhost | Score: 1 | Views: 96 | Answers: 1 | Created: 2024-11-09
+
+**解决方案 / Solution**:
+I actually decided against this approach as the more research I conducted, it didn't give me full confidence directory traversal could not be done. Instead, I've decided to go with CI/CD from the secure CMS files to the public website folder using Jenkins. Approach was easier to setup than I thought. User authenticates User makes updates to the pages via the secure CMS On save, webapp triggers a webhook to Jenkins to package the secure CMS files, store them on a shared volume, then send the files to the public folder. Seems to work OK however if there are any comments or suggestions on how to make it better, I'm open to them.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167599/publicly-available-website-inside-a-private-webapp-via-docker-container
+
+---
+
+#### 5098. How to stop Ubuntu using domain name from DHCP server during autoinstall
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, cloud-config | Score: 1 | Views: 532 | Answers: 1 | Created: 2024-11-02
+
+**解决方案 / Solution**:
+Linux itself (the kernel) doesn't care about it's domain name. FQDN is only used for the networking applications and the resolution of the domain name is performed by C library calls. /etc/hostname should contain only the first component of the FQDN, the host name. It shouldn't contain dots. It is incorrect to set it to the complete FQDN. The same is true about hostnamectl invocation. That is, both of your late command are wrong. The domain name is set up using some entry in the /etc/hosts . I.e. if your system has the "canonical" IP address 192.168.10.10 and the hostname is my-server , the following hosts entry will associate it with domain.org : 192.168.10.10 my-server.domain.org my-server the last item in the record being alias ; there may be many aliases. There may also be many FQDNs associated with different addresses. This means, the FQDN doesn't play a significant role in the system behavior (a notable exception is Kerberos setup, but it's related to the networking anyway). For systems that have dynamic IPs (e.g. in the case of DHCP-assigned address), Debian-based systems typically use an address 127.0.1.1 in that entry (which is one of 16777216 loopback IPs). I don't know how far Ubuntu deviated from Debian in this aspect, but I suspect it is the same way. To check your setup use hostname and hostname -f commands; the first must show short name, while the second should display FQDN. If there are no hosts entries with FQDN for the IPs assigned to the server, getaddrinfo in glibc will perform DNS queries to resolve it; if no useful DNS server answers comes, you'll experience long delays in certain applications. For example, SSH logins, Midnight Commander startup, etc. would be delayed by tens of seconds which is very annoying. The hostname -f command will also experience the delay. So if you observe such symptoms, check your DNS and hosts .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167322/how-to-stop-ubuntu-using-domain-name-from-dhcp-server-during-autoinstall
+
+---
+
+#### 5099. Trying to iterate jinja lists in cloud-init template
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, cloud-init, jinja | Score: 1 | Views: 363 | Answers: 1 | Created: 2024-11-01
+
+**解决方案 / Solution**:
+What ended up working for my needs. ## template: jinja #cloud-config {% set users = ['joe' , 'ansible' , 'foo' , 'bar'] %} {% set hashes = '$6$eMxyzabc123/Mzt/','$6$ansiblehash','$7$foo-hash','$2$barhash' %} {% set keys = ['- ssh-ed25519 joekey XX-ed25519-ansible','- ssh-ed25519 ansible_keyAAAAC3Nz','fookey','barkey' %} {% set group = 'wheel' %} users: {% for i in users %} {% set user = users[loop.index-1] %} {% set hash = hashes[loop.index-1] %} {% set key = keys[loop.index-1] %} - name: {{ user }} groups: {{ group }} sudo: ALL=(ALL) NOPASSWD:ALL lock_passwd: false passwd: {{ hash }} ssh_authorized_keys: {{ key }} shell: /bin/bash {% endfor %}
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167286/trying-to-iterate-jinja-lists-in-cloud-init-template
+
+---
+
+#### 5100. Will `cp --update` remove files from destination?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, cp | Score: 1 | Views: 353 | Answers: 1 | Created: 2024-10-30
+
+**解决方案 / Solution**:
+Yes, --update keeps the destination in sync with the source, it is not a backup option. older means that primary flag the process checks to see if an object has changed is the date. If the source object's created/modified date is younger (the destination's is older), the destination object is replaced. Keeping a destination synced with a source means that objects that have been removed or changed in the source will be removed or changed in the destination. A backup retains objects that have been removed in the source, AND retains previous versions of objects that have been changed in the source. The purpose of syncing is to keep two (or more) usable copies of the files. It is about redundancy or resiliency more than backup.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1860302/will-cp-update-remove-files-from-destination
+
+---
+
+#### 5101. Issue with Activating Virtual Environment in Shell Script on Raspberry Pi via Remote-SSH
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, ssh, shell | Score: 1 | Views: 922 | Answers: 1 | Created: 2024-10-24
+
+**解决方案 / Solution**:
+"Activating Virtual Environment" means (or at least includes) adjusting the current interactive shell (e.g. its prompt) somehow. .VENV/bin/activate is a script containing shell code to do so. A shell can only adjust itself; this is why normally you source the mentioned script directly. See What is the difference between executing a Bash script vs sourcing it? By putting source .VENV/bin/activate inside another script and running it with bash venv.sh (or even with ./venv.sh , if set up right), you create an additional bash process that interprets the script. The process is not your current interactive shell, it sources the original script, configures itself and exits. Your current interactive shell is unaffected. With source venv.sh you make your current interactive shell interpret the shell code inside venv.sh . Then the only uncommented line there ( source .VENV/bin/activate ) makes the shell interpret the code from .VENV/bin/activate , so everything works. Creating an additional script you need to source anyway seems overcomplicated. If you want to type less, consider defining a function (in ~/.bashrc ): acti () { source .VENV/bin/activate; } Then just run it: acti . Note .VENV/bin/activate is a relative path, so the function will properly work only in some specific directory. Maybe this is by design (i.e. the original script expects you to be in this exact directory when sourcing it), I don't know; but if not, then consider using the absolute path of the activate script.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1859712/issue-with-activating-virtual-environment-in-shell-script-on-raspberry-pi-via-re
+
+---
+
+#### 5102. zsh why and how to fix Completion error running command: "trial"
+
+**问题描述 / Problem Description**:
+Tags: linux, macos, command-line, shell, zsh | Score: 1 | Views: 231 | Answers: 1 | Created: 2024-09-23
+
+**解决方案 / Solution**:
+This message is caused by the completion definition file Completion/Unix/Command/_twisted from where I quote: This is the ZSH completion file for Twisted commands. It calls the current command-line with the special "--_shell-completion" option which is handled by twisted.python.usage. t.p.usage then generates zsh code on stdout to handle the completions for this particular command-line. So to my understanding for those commands defined herein (i.e. twist, twistd, trial, conch, cftp, ckeygen, pyhtmlizer, tkconch) zsh tries to invoke the command to generate the completins on thy fly. But if the command is not installed, this will fail, hence this cryptic error message. Probably two, maybe three solutions: Install the trial command. Delete the completion definition file _twisted . Disable the completion for trial by issuing: compdef -d trial The last options seems to be the most targeted one, but it depends on your specific case.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1856643/zsh-why-and-how-to-fix-completion-error-running-command-trial
+
+---
+
+#### 5103. Why can't I delete a file named '.' on external NAS with macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, terminal, shell, finder | Score: 1 | Views: 169 | Answers: 1 | Created: 2024-08-25
+
+**解决方案 / Solution**:
+I run into this problem occasionally in Windows but trying to remove Mac-originated files on my Synology NAS. Windows sees them, will open them, etc. but will not copy or delete them. Instead, I log into the NAS itself and use its file manager to delete the problem files. So far, works every time.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1853542/why-cant-i-delete-a-file-named-on-external-nas-with-macos
+
+---
+
+#### 5104. store available disks for LVM in array
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, lvm | Score: 1 | Views: 130 | Answers: 1 | Created: 2024-06-03
+
+**解决方案 / Solution**:
+Technically LVM can run on any block devices, not only disks but also partitions, volumes (ZFS, Btrfs…), device-mapper devices (LVM, LUKS, RAID…) so here I assume you want to get full disks that are unpartitioned and completely unused by device-mapper. It's very tricky to cover all the possible results because there are many edge cases like zram, ramdisk, loopback, mtdblock, emmc, VM-direct-access disk… which are also block devices with a possible mountpoint and some of them may even identify as disks. But for most intents and purposes you can filter out the ones that are used by device mapper with dmsetup ls --tree or dmsetup deps , then filter out devices that are mounted or have a child that's mounted like this deps=$(sudo dmsetup deps | sed -E -e 's#^.+[[:space:]]+[[:digit:]]+[[:space:]]+dependencies[[:space:]]+:[[:space:]]+##g' \ -e 's/\(([[:digit:]]+), ([[:digit:]]+)\)/-e \1:\2/g') disksUnusedByDm=$(lsblk -o MAJ:MIN,TYPE,PATH | grep -v $deps | grep -P '^\s*\d+:\d+\s+disk' | awk '{print $3}') freeDisks=() for disk in $disksUnusedByDm; do if [[ "$(/usr/bin/lsblk -no MOUNTPOINT "${disk}" | grep -vE "^$")" == "" ]]; then freeDisks+=("${disk}") fi done echo "${freeDisks[@]}" Actually you can get disks that are being used by LVM with pvdisplay and lvdisplay . Unfortunately the output PV/VG/LV names are somehow missing a dash compared to the device name so dmsetup is still more correct and versatile
+
+**参考链接 / References**:
+- https://superuser.com/questions/1844636/store-available-disks-for-lvm-in-array
+
+---
+
+#### 5105. Shell script gives "command not found" but command works in terminal
+
+**问题描述 / Problem Description**:
+Tags: macos, shell, zsh, beets | Score: 1 | Views: 927 | Answers: 1 | Created: 2024-05-12
+
+**解决方案 / Solution**:
+That are two different environments, interactive and non-interactive. They use different initialization files. Take a look at ZSH: .zprofile, .zshrc, .zlogin - What goes where?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1842129/shell-script-gives-command-not-found-but-command-works-in-terminal
+
+---
+
+#### 5106. Show long commands in fish (ctrl+r) history on multiple lines
+
+**问题描述 / Problem Description**:
+Tags: shell, fish | Score: 1 | Views: 405 | Answers: 2 | Created: 2024-04-27
+
+**解决方案 / Solution**:
+This was asked in Feature Request history multiline commands #2585 , where two workaround were suggested by users: Apply splitting manually. For example: set line (echo $history[1]) for the most recent history element. Using sed to split lines in the file fish_history . Unfortunately, this Feature Request was never marked as assigned to a developer.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1840622/show-long-commands-in-fish-ctrlr-history-on-multiple-lines
+
+---
+
+#### 5107. How do I create a pty without a shell?
+
+**问题描述 / Problem Description**:
+Tags: linux, terminal, shell, python, tmux | Score: 1 | Views: 522 | Answers: 1 | Created: 2024-02-21
+
+**解决方案 / Solution**:
+If I understand your problem correctly (I have no experience with debugging Python) it seems at first glance that the easiest approach would be to use 2 shell windows. Run the debugger (with the application to debug) in one of them and redirect the debugger input/output to the 2nd one. You can then control the debugger and observe its output in the 2nd shell without affected the output in the 1st one.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1831181/how-do-i-create-a-pty-without-a-shell
+
+---
+
+#### 5108. Default shell zsh but responding bin/bash
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, terminal, shell, zsh | Score: 1 | Views: 1232 | Answers: 1 | Created: 2024-02-14
+
+**解决方案 / Solution**:
+I gather that you're running a Mac, since Apple made zsh their default shell starting with the macOS 10.15 "Catalina" release back in 2019. You can relaunch a bash interactive login shell with this command, to see if that helps, assuming that you normally use bash. exec bash -il Your bash config files may have been modified by whatever you did, so try examining these files, if they exist, to see if anything looks odd. .bashrc .bash_profile .bash_login .profile If you're using a Mac, Homebrew is a really nice package manager that lets you just type brew install maven . Also, if you changed your shell to zsh, and want to switch back to bash: chsh -s /bin/bash
+
+**参考链接 / References**:
+- https://superuser.com/questions/1830280/default-shell-zsh-but-responding-bin-bash
+
+---
+
+#### 5109. What does it mean to "run something in a shell profile"
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, path, homebrew, .bash-profile | Score: 1 | Views: 834 | Answers: 1 | Created: 2024-02-07
+
+**解决方案 / Solution**:
+They are just telling you to run the command in the shell (and as the identity) you want to interact with Homebrew from. from man brew , shellenv [bash|csh|fish|pwsh|sh|tcsh|zsh] Print export statements. When run in a shell, this installation of Homebrew will be added to your PATH, MANPATH, and INFOPATH. The variables HOMEBREW_PREFIX, HOMEBREW_CELLAR and HOMEBREW_REPOSITORY are also exported to avoid querying them multiple times. To help guarantee idempotence, this command produces no output when Homebrew’s bin and sbin directories are first and second respectively in your PATH. Consider adding evaluation of this command’s output to your dotfiles (e.g. ~/.bash_profile or ~/.zprofile on macOS and ~/.bashrc or ~/.zshrc on Linux) with: eval "$(brew shellenv)" The shell can be specified explicitly with a supported shell name parameter. Unknown shells will output POSIX exports. So, while the sentence you quote isn't the best I've ever seen, brew shellenv will configure your shell profile to include brew on the PATH and add a number of other required shell variables. basically all they are saying is "run this command as yourself, so that it can modify your preferred shell's profile file (like your bash or zsh profile)".
+
+**参考链接 / References**:
+- https://superuser.com/questions/1829175/what-does-it-mean-to-run-something-in-a-shell-profile
+
+---
+
+#### 5110. Why is this tmux option not persisting?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, terminal, shell, tmux | Score: 1 | Views: 978 | Answers: 1 | Created: 2023-12-10
+
+**解决方案 / Solution**:
+Why is this option not persisting? Many issues with tmux become more understandable when you realize and remember the tmux server and each tmux client are separate processes. In some circumstances a client starts a server. .tmux.conf is for the server, not for clients. Similarly -f (that specifies an alternative configuration file) is for the server. Your exec tmux -f <( echo "${config}" ) "${@}" execs to a tmux client. The client may or may not start a tmux server. It will start a server if there is no server yet. If it starts a server then -f will work. In your case -f will matter for the first tmux command, the one that doesn't find a server and has to start one. You are "starting multiple sessions simultaneously", so your subsequent tmux commands will find the server and their -f will be irrelevant. The server may exit later and if you run your script after this then it's all over again: one tmux command will start a new server, so its -f will matter; but as long as the server remains, -f in subsequent invocations of your tmux -f … won't matter. See the manual [emphasis mine]: -f file Specify an alternative configuration file. […] tmux loads configuration files once when the server process has started. The source-file command may be used to load a file later. The command tmux set-option -g default-command FOO defines a global session option. To see global session options you need tmux show -g (i.e. without -s , -w , -p ). The whole mechanics of options in tmux is kinda complicated .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1820070/why-is-this-tmux-option-not-persisting
+
+---
+
+#### 5111. Keyboard layout wrong on Arch Linux emergency mode
+
+**问题描述 / Problem Description**:
+Tags: keyboard, shell, arch-linux, layout, spanish | Score: 1 | Views: 425 | Answers: 1 | Created: 2023-11-27
+
+**解决方案 / Solution**:
+SOLVED. In Emergency Mode or Normal Mode : Edit /etc/locale.gen and uncomment #es_ES.UTF-8 UTF-8 : # nano /etc/locale.gen Before: #es_ES.UTF-8 UTF-8 After: es_ES.UTF-8 UTF-8 Generate the locales: # locale-gen Add LANG variable: # echo LANG=es_ES.UTF-8 > /etc/locale.conf Define keyboard layout: # echo KEYMAP=es > /etc/vconsole.conf Edit /etc/mkinitcpio.conf file and move keyboard word before autodetect word in HOOK parameters: # nano /etc/mkinitcpio.conf Before: HOOKS=(base udev autodetect modconf kms keyboard keymap consolefont block encrypt lvm2 filesystems fsck) After: HOOKS=(base udev keyboard autodetect modconf kms keymap consolefont block encrypt lvm2 filesystems fsck) Regenerate initramfs image: # mkinitcpio -p linux Reboot system and return to Emergency Mode Now Emergency, Recovery and Rescue Modes have Spanish keyboard by default correctly without errors in special characters.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1818362/keyboard-layout-wrong-on-arch-linux-emergency-mode
+
+---
+
+#### 5112. Play single mp3 through specific Pipewire device via shell command
+
+**问题描述 / Problem Description**:
+Tags: linux, audio, shell, pipewire | Score: 1 | Views: 2339 | Answers: 1 | Created: 2023-11-13
+
+**解决方案 / Solution**:
+With pipewire-pulse you can act as if you were using PulseAudio. paplay is a basic command to play audio on a PulseAudio sound server: paplay -d "bluez_output.25_4E_4A_C7_43_C4.1" "foo.mp3" In my Kubuntu 23.04 it works well with mp3 files. node.name s from pw-cli list-objects agree with pactl list sinks . I notice that in Bash or in Zsh paplay -d tab gives me quite sane autocompletion.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1816531/play-single-mp3-through-specific-pipewire-device-via-shell-command
+
+---
+
+#### 5113. !$ not automatic in Kali Linux
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, zsh, kali-linux | Score: 1 | Views: 140 | Answers: 1 | Created: 2023-11-12
+
+**解决方案 / Solution**:
+Start by using ps $$ or echo $SHELL to check what shell you're using in both cases – e.g. Bash and Zsh are similar but not identical, and the default behavior of ! expansions may differ. In Bash, set/unset the histverify option (e.g. through ~/.bashrc): shopt -s histverify shopt -u histverify Zsh appears to have the same option, although configured differently: unsetopt histverify It could also be that these options were changed as part of the customizations included by each distro, and/or as part of the shell "theme" that's being used (i.e. the same package that provides that fancy prompt style in your screenshot). Alternative: Alt . (Alt+period) will insert the last argument at cursor position, so you could type cd [Alt+.][Enter] in fewer keystrokes than using history expansion.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1816380/not-automatic-in-kali-linux
+
+---
+
+#### 5114. Where to set env var for Debian12?
+
+**问题描述 / Problem Description**:
+Tags: bash, debian, shell, environment-variables | Score: 1 | Views: 7030 | Answers: 1 | Created: 2023-10-11
+
+**解决方案 / Solution**:
+In short, /etc/profile.d/*.sh is the traditional place for environment variables for all users, but these days /etc/environment may cover a little bit more. These days, not all processes go through the same startup path; in practice with GNOME as your graphical interface there will be two parallel paths that have different configurations, and one of them may behave differently depending on whether you chose Wayland mode or the (soon to be removed) X11 mode for GNOME. When you log in to anything at all, 'pam_env' is run as part of PAM and loads /etc/environment. This would be the most appropriate place for "system-wide" environment variables that have to apply to every kind of user session. If an X11 session was chosen, GDM's Xsession script loads /etc/profile, /etc/xprofile, ~/.profile, ~/.xprofile (as 'sh' shell scripts – regardless of what shell you normally use). So /etc/xprofile would be a good place for anything that's inherently X11-specific. If a Wayland session was chosen, GDM loads nothing at all, but gnome-session provides similar behavior by restarting itself through your default login shell and will therefore load /etc/profile, ~/.profile (or ~/.bash_profile) if you are using Bash. So /etc/profile would be a good place for environment variables that apply to all GUI processes of either kind. In both cases, if /etc/profile is being run, it'll usually load /etc/profile.d/*.sh as well. Quite a few packages that need a certain enviroment variable do so through /etc/profile.d/. (If ~/.profile is being run through Bash, it will also explicitly load ~/.bashrc; however, I would generally not put global environment variables in bashrc, because in the X11 case ~/.profile is actually being run through /bin/sh which is not Bash on Debian.) At the same time, the login causes a 'systemd --user' service manager to independently start in background. This also calls PAM on its own – including pam_env – so it'll start with everything that /etc/environment has. The 'systemd --user' service manager loads everything from /etc/environment.d/ and ~/.config/environment.d/ (see 'man environment.d') before starting its "user-level" background services. Now, gnome-session calls into 'systemd-user' and supplies the environment variables that it collected from steps 1-2 (basically does 'systemctl --user import-environment'), then asks it to start the rest of GNOME GUI. So the GUI apps will have a combination of environment variables from steps 1-2 and 3-4, as they actually descend from 'systemd-user' and not from GDM/gnome-session. Finally, if the user opens a terminal app, the shell being run within that terminal window will generally load /etc/bash.bashrc, ~/.bashrc (but usually not the "profile" scripts). So anything defined in bashrc will be available to terminal windows but not to the rest of the system; it's a good place to put shell-specific stuff (not just environment but also aliases and such). For SSH logins, the process is somewhat simpler as 'systemd-user' is not involved (it does start but remains in background and uninvolved with your login shell). The SSH server calls 'pam_env' as well, loading /etc/environment. The SSH server starts your login shell; if it's Bash, it will load /etc/profile (including .d/*.sh) and ~/.profile. Usually your ~/.profile will typically load ~/.bashrc. Console (tty) logins work the same way (just with "The /sbin/login process" instead of "The SSH server").
+
+**参考链接 / References**:
+- https://superuser.com/questions/1812117/where-to-set-env-var-for-debian12
+
+---
+
+#### 5115. CentOS 9 Stream SSH with PuTTy - multiline commands
+
+**问题描述 / Problem Description**:
+Tags: bash, ssh, shell, centos, putty | Score: 1 | Views: 597 | Answers: 1 | Created: 2023-09-09
+
+**解决方案 / Solution**:
+It's an update to the bash shell, yes. Instead of always processing input line by line, it now requests the terminal (PuTTY in this case) to use "bracketed paste" mode and indicate when text is being pasted rather than typed. (It also affects other programs using bash's "readline" text input library, such as the interactive Python.) The solution I would recommend is to...not paste blobs of commands anymore, but to script everything – instead of having a huge Excel table, have a collection of .sh scripts (or Ansible playbooks, or...), and instead of pasting stuff individually to each server, have a Bash or PowerShell script to loop over them all with for x in $hosts . Disabling bracketed paste in your shell is possible through ~/.inputrc: $include /etc/inputrc set enable-bracketed-paste off or through ~/.bashrc: bind 'set enable-bracketed-paste off' The terminal settings in PuTTY might also have an option to disable this on the sending side (though it can be useful in text editors even if you don't want it in shells).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1807736/centos-9-stream-ssh-with-putty-multiline-commands
+
+---
+
+#### 5116. Bash shell - shorter way to remove last characters from the file name
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, bash, shell | Score: 1 | Views: 1927 | Answers: 1 | Created: 2023-08-02
+
+**解决方案 / Solution**:
+In bash, you can use parameter expansion: path=/long/path/to/foo_bar mv "$path" "${path%_bar}" # Remove the pattern from the end of the value. For literal string, you can just switch the order of the elements in the curlies: mv long/path/to/foo{_bar,}
+
+**参考链接 / References**:
+- https://superuser.com/questions/1802057/bash-shell-shorter-way-to-remove-last-characters-from-the-file-name
+
+---
+
+#### 5117. Maintain a fixed-size-queue of nohup jobs
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, shell-script, nohup | Score: 1 | Views: 797 | Answers: 1 | Created: 2023-07-26
+
+**解决方案 / Solution**:
+Welcome to SuperUser, Sheng Yang. In order to run multiple nohup jobs at once, while also controlling how many run, you can use nohup with a script that runs additional nohup commands. Save the script below with a .sh file extension. I chose fourJobs.sh . To test this script, I created a small test script that performed a random sleep function. You need to replace these calls to "./sleepTest.sh" with your own commands. Each command will execute in order, using nohup . Only 4 commands will run at a single time, as indicated by MAX_JOBS=4 . Ensure to run this script with the nohup command as well, so it doesn't terminate prematurely. fourJobs.sh #!/bin/bash # Manages concurrent execution of nohup jobs with a maximum limit. # Number of maximum concurrent jobs MAX_JOBS=4 # List of commands you want to run with nohup declare -a commands=( "./sleepTest.sh" "./sleepTest.sh" "./sleepTest.sh" "./sleepTest.sh" "./sleepTest.sh" "./sleepTest.sh" "./sleepTest.sh" # ... add more commands as needed ) # Function to get the current number of background jobs num_jobs() { jobs -p | wc -l } # Loop through each command and execute them for cmd in "${commands[@]}"; do while true; do # Check if the number of current jobs is less than the maximum allowed if [[ $(num_jobs) -lt $MAX_JOBS ]]; then echo "Executing: nohup $cmd & $(($(num_jobs) + 1)) now running" nohup $cmd &> /dev/null & sleep 1 # give a little time before checking again break fi # Wait a bit before rechecking sleep 5 done done # Wait for all jobs to finish wait sleepTest.sh is the command script I used to test. The output from the echo commands is being dumped by the > /dev/null in the nohup command above. sleepTest.sh #!/bin/bash # Simulates job duration by sleeping for a random period. sleep_time=$((1 + RANDOM % 10)) echo "Script $1 sleeping for $sleep_time seconds" sleep $sleep_time echo "Script $1 done" Running these scripts on my computer produces the following output. This output could easily be removed and was used to show the script operating as expected. ./fourJobs.sh Executing: nohup ./sleepTest.sh & 1 now running Executing: nohup ./sleepTest.sh & 2 now running Executing: nohup ./sleepTest.sh & 2 now running Executing: nohup ./sleepTest.sh & 3 now running Executing: nohup ./sleepTest.sh & 4 now running Executing: nohup ./sleepTest.sh & 4 now running Executing: nohup ./sleepTest.sh & 3 now running
+
+**参考链接 / References**:
+- https://superuser.com/questions/1800175/maintain-a-fixed-size-queue-of-nohup-jobs
+
+---
+
+#### 5118. bash: /etc/shells: Permission denied in Ubuntu
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, command-line, permissions, shell, xonsh | Score: 1 | Views: 669 | Answers: 1 | Created: 2023-06-07
+
+**解决方案 / Solution**:
+The output redirection >> is perhaps tried to be applied by the shell before the sudo is executed, but the user shell has no permission to do that. To avoid the error, the following two formulations might work : sudo sh -c "echo $(which xonsh) >> /etc/shells" echo $(which xonsh) | sudo tee -a /etc/shells
+
+**参考链接 / References**:
+- https://superuser.com/questions/1787830/bash-etc-shells-permission-denied-in-ubuntu
+
+---
+
+#### 5119. Unix cat and zip together
+
+**问题描述 / Problem Description**:
+Tags: command-line, shell, unix | Score: 1 | Views: 2103 | Answers: 2 | Created: 2023-05-26
+
+**解决方案 / Solution**:
+From zip(1) - Linux man page : zip also accepts a single dash ("-") as the name of a file to be compressed, in which case it will read the file from standard input, allowing zip to take input from another program. For example: tar cf - . | zip backup - would compress the output of the tar command for the purpose of backing up the current directory. This generally produces better compression than the previous example using the -r option because zip can take advantage of redundancy between files. The backup can be restored using the command unzip -p backup | tar xf - So in your case this will be : cat File2022*.txt | zip All_2022.zip -
+
+**参考链接 / References**:
+- https://superuser.com/questions/1786102/unix-cat-and-zip-together
+
+---
+
+#### 5120. Running shell Script via Crontab
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, bash, shell, cron | Score: 1 | Views: 2717 | Answers: 2 | Created: 2023-05-25
+
+**解决方案 / Solution**:
+Use > cron.log 2>&1 to have the cronjob write its output to a file, so that you could see the error messages it produces. (Some cron daemons automatically write the output to syslog when mail is not available; yours apparently doesn't.) Most likely the problem is that 'gsettings set' works via D-Bus (the session bus, specifically, not the system bus) and usually requires either one of DBUS_SESSION_BUS_ADDRESS or XDG_RUNTIME_DIR environment variables to be present (depending on setup). First of all, though: If your system has systemctl --user available, consider using its .timer units instead, as most likely your graphical desktop already forwards the necessary environment variables into your systemd per-user manager. If you don't want to deal with .timer and .service units, you could use systemd-run from crontab to start the script in the correct environment: 00 20 * * * systemd-run --user ~/Bilder/Hintergründe/.background_skript/background_night.sh If you want to do everything through cron: Run echo $DBUS_SESSION_BUS_ADDRESS in a terminal window and check what path is shown. If the bus path was shown as /run/user/XXX/bus , its location is static – you can just put one of the following at the top of your cronjob (or, export them at the beginning of your script): XDG_RUNTIME_DIR="/run/user/XXX" DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/XXX/bus" (Usually XDG_RUNTIME_DIR is enough to cover D-Bus as well as various other components.) If the bus path is shown as /tmp/dbus-XXXXXXX , it's dynamic – you need to store the value somewhere on every login: Edit ~/.xprofile or ~/.xinitrc (whichever applies) to store the environment in files: echo "$DBUS_SESSION_BUS_ADDRESS" > /tmp/dbus.env echo "$DISPLAY" > /tmp/display.env Edit your script to load the environment from files: export DBUS_SESSION_BUS_ADDRESS=$(< /tmp/dbus.env) export DISPLAY=$(< /tmp/display.env)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1785909/running-shell-script-via-crontab
+
+---
+
+#### 5121. zsh completion ( compctl ) does not trig for command names containing dashes
+
+**问题描述 / Problem Description**:
+Tags: command-line, shell, zsh, tab-completion | Score: 1 | Views: 214 | Answers: 1 | Created: 2023-04-26
+
+**解决方案 / Solution**:
+Got it confirmed in the zsh-workers@zsh.org mailing-list that this is a bug and got a suggested patch: --- zsh-5.9.orig/Src/Zle/zle_tricky.c +++ zsh-5.9/Src/Zle/zle_tricky.c @@ -1315,6 +1315,8 @@ get_comp_string(void) ins = (tok == REPEAT ? 2 : (tok != STRING && tok != TYPESET)); zsfree(cmdstr); cmdstr = ztrdup(tokstr); + untokenize(cmdstr); + remnulargs(cmdstr); cmdtok = tok; /* * If everything before is a redirection, or anything I've tested it by applying the change as a quilt patch to the Debian zsh_5.9-4 source package rebuilt and installed it ... and it resolved my problem. I will continue to run it now and if it does not seem to break anything else I will make sure it's applied in zsh upstream expecting it to eventually trinkle down to all different distributions. If you have the problem now, and can't wait on it to trinkle down your distribuiton, download the zsh 5.9.4 source and patch it with the above patch and build it locally. If you want it integrated in you distribution packet here's how to do it for Debian (should work for most deb-package based distributions): sudo apt install devscripts libcap-dev libelf-dev libgdbm-dev cm-super-minimal texinfo yodl quilt mkdir /tmp/zsh_5.9 cd /tmp/zsh_5.9 apt source zsh=5.9-4 /bin/echo -e "1317a1318,1319\n> \t untokenize(cmdstr);\n> \t remnulargs(cmdstr);" > compctl-dash.diff cd zsh-5.9 export QUILT_PATCHES=debian/patches export QUILT_REFRESH_ARGS="-p ab --no-timestamps --no-index" quilt push -a quilt new compctl-dash.diff quilt add Src/Zle/zle_tricky.c patch Src/Zle/zle_tricky.c ../compctl-dash.diff quilt refresh quilt pop -a debuild -b -uc -us sudo dpkg -i ../zsh_5.9-4_amd64.deb Hopefully this will be fixed upstream and have reached your distribution before the package is updated next, otherwise you will have to repeat it (or lock the zsh package version) until it is :-)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1780925/zsh-completion-compctl-does-not-trig-for-command-names-containing-dashes
+
+---
+
+#### 5122. Are linux commands (grep, awk etc) part of the system, or the shell?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, terminal, shell, awk | Score: 1 | Views: 1264 | Answers: 2 | Created: 2023-03-29
+
+**解决方案 / Solution**:
+In addition to @Peregrino69's answer: most commands like grep , man , ls et cetera are separate programs. But the shell itself is also a separate program. The shell program ( ash or bash in your case) takes your commands and will try to call the program that you specify. So, if you type ls at the prompt, the shell will look in its PATH if there is an executable file called ls and then execute that program. What you call "the terminal" is a program too. The program might be konsole , xterm or a number of other terminal programs. The terminal normally starts your interactive shell, but that is not necessary. Try, for example: xterm -e 'ls ; sleep 3' A terminal, but no interactive shell. pstree will give you a overview of what programs are started. Try pstree $PPID
+
+**参考链接 / References**:
+- https://superuser.com/questions/1776275/are-linux-commands-grep-awk-etc-part-of-the-system-or-the-shell
+
+---
+
+#### 5123. How to execute "source" command inside a shell script and then store the output of source in a variable within the shell script?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, script, shell-script | Score: 1 | Views: 2745 | Answers: 1 | Created: 2023-03-07
+
+**解决方案 / Solution**:
+So, to run the script get_fps.sh from my profile.sh here's the following code: #!/system/bin/sh echo "power and temperature reading started...." ini_signal="echo 1 > /data/local/tmp/signal.txt" exec_signal=$(eval $ini_signal) signal="cat /data/local/tmp/signal.txt" exec_signal=$(eval $signal) file_name=profile.csv current_time=$(date "+%T") new_fileName=$current_time.$file_name while [[ $exec_signal != "0" ]] do TEMP_0="cat /sys/class/thermal/thermal_zone0/temp" TEMP_1="cat /sys/class/thermal/thermal_zone1/temp" TEMP_2="cat /sys/class/thermal/thermal_zone2/temp" TEMP0=$((OUT_TEMP0 / 100)) TEMP1=$((OUT_TEMP1 / 100)) TEMP2=$((OUT_TEMP2 / 100)) FPS=$(source get_fps.sh) echo $TEMP0,$TEMP1,$TEMP2,$FPS >> /data/local/tmp/$new_fileName signal="cat /data/local/tmp/signal.txt" exec_signal=$(eval $signal) sleep 0.2 done Basically, I am running the get_fps.sh and storing the output value in a variable named FPS as follows: FPS=$(source get_fps.sh)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1772495/how-to-execute-source-command-inside-a-shell-script-and-then-store-the-output
+
+---
+
+#### 5124. how to chop (truncate) long lines in bash output to fit in the screen with?
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, shell, less | Score: 1 | Views: 864 | Answers: 1 | Created: 2023-03-01
+
+**解决方案 / Solution**:
+For many terminals, setterm -linewrap off should do the trick for the truncation. There seems to be a java implementation of a terminal with a horizontal scrollbar. It is called Terminator Haven't tried it myself.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1771367/how-to-chop-truncate-long-lines-in-bash-output-to-fit-in-the-screen-with
+
+---
+
+#### 5125. Add new content after specific string in text file using shell script
+
+**问题描述 / Problem Description**:
+Tags: shell, sed | Score: 1 | Views: 1211 | Answers: 1 | Created: 2023-02-28
+
+**解决方案 / Solution**:
+This solution should work in GNU sed . You can nest address ranges in sed . Start with your command which is: sed -i '/server {/r content.txt' $path/nginx.conf and turn it into: sed -i '0,/server {/ { //r content.txt };' "$path"/nginx.conf (I fixed quoting here. In your script there are other places where quoting should be fixed.) The trick is in the 0,/server {/ range. The range is from the first line to (and including) the line with the first occurrence of server { . It's similar to 1,/server {/ , but if server { occurs in the first line then 0,/server {/ will treat the first line as the end of the range, while 1,/server {/ would treat it as the beginning of the range (and thus it would end the range at the second occurrence of server { , if it exists). The variant with 0 is good for us, but I think it's not portable. GNU sed supports it for sure. (If your sed does not support this 0 address, add a dummy (empty) line at the very beginning, use the 1,/server {/ range, ultimately remove the dummy line. Thanks to the dummy line, server { will never occur in the first line, so 1,/server {/ will work without the quirk.) Only in this range the sed code inside { … }; is executed. This code is your original sed code (I just replaced /server {/ with // which means "use the recently used regular expression", so it's effectively still /server {/ but it's DRY ). After encountering the first occurrence of /server {/ , r content.txt is executed and the range specified by 0,/server {/ ends. The range will match no further line because no further line is the first line. This guarantees that r is executed at most once. Note: The content of content.txt will be added after the first line containing server { , not after the (sub)string server { . If the line is e.g. server { foo then it will stay like this and new content will appear below it, not between { and foo . Your original code works this way and I assumed this is what you want and the problem is only in limiting to the first occurrence.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1771170/add-new-content-after-specific-string-in-text-file-using-shell-script
+
+---
+
+#### 5126. Checking my understanding regarding the difference between Terminal and Shell
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, bash, terminal, shell | Score: 1 | Views: 1487 | Answers: 1 | Created: 2023-02-28
+
+**解决方案 / Solution**:
+Moreover, the terminal executes the shell Yes, that's true in general, assuming you're talking about the "terminal emulator" apps. (They're called that way because they emulate physical terminals, and those didn't execute the shell – they connected to a computer that ran one, sort of like how PuTTY is a terminal emulator that doesn't run any shell locally, it just connects to remote computers via SSH.) Though it's worth mentioning that Windows is somewhat of an exception, where originally it used to be the opposite – in Windows, you would directly start a shell such as Cmd.exe (or any other console-based .exe file) and the system would automatically pop up a 'Conhost' console window for it, which could not be started manually. (The point here being that Cmd.exe is a shell, not a terminal, and the Windows behavior is a common source of confusion.) This did change somewhat with the Windows console system rework done as part of creating the new "Windows Terminal" app (which brought various concepts such as pseudo-tty over from Unix): the original behavior remains but now you can start Windows Terminal and it'll then run the shell, like you would expect. The shell is a command-line interpreter. That is , it is responsible for converting the commands into a form to be executed by the OS, so it is literally an interpreter for the commands. There are many types of shells, such as Bourne Shell (sh)and Bourne Again Shell (bash) which is an extended version of the sh. In general, every shell flavor has its own features, they have very similar syntax if they conform to a standard such as POSIX. Is that correct ? Please correct me if I am wrong. Yes, although there is a much greater variety of shells than just Bourne/POSIX-style; shells don't have to conform to POSIX – for example, csh/tcsh were very widely used in the past (csh predates Bash by a decade and has a syntax very different from Bourne), Fish seems to be rather popular these days, not to mention PowerShell and Cmd.exe on Windows, DCL on VMS, and similar. Only the specific shell located at /bin/sh is required to be POSIX-compliant (if the system as a whole aims for some level of POSIX compliance in the first place). So it's rather common e.g. for BSDs to default to a non-POSIX shell such as tcsh for interactive use, while still including a POSIX-compliant shell at /bin/sh for use with scripts.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1771153/checking-my-understanding-regarding-the-difference-between-terminal-and-shell
+
+---
+
+#### 5127. Does a shell script wait for commands executed in a different screen?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, gnu-screen | Score: 1 | Views: 760 | Answers: 1 | Created: 2023-02-02
+
+**解决方案 / Solution**:
+No. The screen -X stuff command will return immediately, because it is not aware that it is being asked to run a command in the first place, even more so when that command is complete – all it's doing is injecting keypresses (which is why you had to add the ^M manually). As soon as the fake tty input has been sent, the command returns and your script continues. In general, as a terminal emulator, screen does not know what exactly is happening in any specific terminal window – there's nothing that would delimit a shell prompt (or any other interactive console prompt) from regular output. (This is not fundamentally impossible – some terminal emulators allow the shell to output "output start/end" and "prompt start/end" markers, e.g. VSCode will inject special configuration into Bash to achieve exactly that – but it requires support from the terminal emulator and cooperation from every program that would show an input prompt, and neither Screen nor Minecraft will do that currently.) On the other hand, your script might have an easier time because it only deals with a single program, which means it only needs to wait for a specific prompt to appear, not just any prompt in general. You could implement this by having a loop that would query Screen for the current buffer "contents" using -X hardcopy , and if the last line of that buffer is not the Minecraft prompt yet, sleep 1 second and repeat. This is similar to how the expect program works: one can write an Expect script to automate various kinds of interactive input, but the core of such a script is always a set of expect "this" and expect "that" , i.e. knowing up-front that some specific text is a "prompt" and waiting for that text. [...] expect "Password:" { send "$password\r" } expect ">" { send "enable\r" } expect "Password:" { send "$enablepwd\r" } expect "#" { send "show run\r" } What other Minecraft-management scripts do (such as this project , which recently switched from Screen to tmux) appears to be 1) blindly submit both "save-all" and "stop" at once, 2) wait for the server to process bot commands until it exits by itself. That is, instead of waiting for the command to complete, they wait for the result of that command. Similarly, if you want to wait for the save to finish, you don't need to wait for the "save-all" command – you can instead use inotifywait to wait until the server has finished writing a specific file. This can be somewhat tricky to do right (normally you'd need to use "coproc" to start inotifywait before issuing the command so that you wouldn't miss the event), but as a save is likely to take a while, it's probably fine to just do it after. echo "waiting..." inotifywait -q -e close_write /path/to/game echo "probably done!" Some programs deliberately create a specific file last, so that other tools could wait for it to appear: echo "waiting..." until [ -e /path/to/marker_file ]; do sleep 1; done echo "marker file showed up"
+
+**参考链接 / References**:
+- https://superuser.com/questions/1766435/does-a-shell-script-wait-for-commands-executed-in-a-different-screen
+
+---
+
+#### 5128. How do I print a newline after there user enters a password with zshbuiltin read command
+
+**问题描述 / Problem Description**:
+Tags: command-line, shell, passwords, zsh, read | Score: 1 | Views: 1800 | Answers: 1 | Created: 2023-01-31
+
+**解决方案 / Solution**:
+It seems that you just placed the newline \n at the wrong place. You should get the desired output with this command: $ echo -e "\nthis is a $(read -e -s \?"Password: ")" What I think is happening: The argument of echo includes a command substitution , so the shell needs to span a subshell first, to compute the complete argument, i.e. the read command is executed first, printing "Password: " Since you told read to not echo ( -s ) the user input to the terminal, the "cursor" remains at the end of the read prompt, even you press Enter at the end. Now the echo command is ready to be executed, and this will happen next. So, you need to start with a newline character, to get to a new line and then print the desired string. At the end a newline character is appended automatically as this is echo 's default behavior. Just as a remark, echo -e is not portable (see e.g. https://unix.stackexchange.com/q/88307/33390 ), so you should consider one of these options instead: Use the shell expansion $'\n' to get a newline character: $ echo $'\n'"this is a $(read -e -s \?"Password: ")" Omit echo altogether and use printf ; note that you now need also a trailing \n : $ printf "\nthis is a $(read -e -s \?"Password: ")\n"
+
+**参考链接 / References**:
+- https://superuser.com/questions/1766036/how-do-i-print-a-newline-after-there-user-enters-a-password-with-zshbuiltin-read
+
+---
+
+#### 5129. prerequisites for working at a data center
+
+**问题描述 / Problem Description**:
+Tags: linux, networking, datacenter | Score: 0 | Views: 52 | Answers: 1 | Created: 2026-06-11
+
+**解决方案 / Solution**:
+With modern datacenters, there are different jobs: Actually building the thing: normal construction work plus pulling fibers without damaging them and terminating them. Some building contractors can do the latter, but most won't touch it, so there is a specialist niche, but that is a traveling job. Hands-on work for maintenance. Very few jobs, but on-site, so with a fixed location. Mostly pulling out and replacing fans and harddisks, usually no configuration work except maybe resetting a BIOS. Actual server management. Sitting in an office with less aggressive AC settings than the actual datacenter, so it's actually comfortable, and controlling everything remotely, creating tickets for the local people if something breaks. These are pretty much separate, so there's no path from hands-on work to doing the actual server management. No one in that stack actually does any system administration, that is on the customer side.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199195/prerequisites-for-working-at-a-data-center
+
+---
+
+#### 5130. Syntax error when running simple shell script
+
+**问题描述 / Problem Description**:
+Tags: shell-script, ubuntu, syntax | Score: 0 | Views: 105 | Answers: 1 | Created: 2026-05-31
+
+**解决方案 / Solution**:
+Ah-HA! I ran "dos2unix", fixed the script file and it magically runs fine now! Man, all that mucking around to learn that same line-feed error over and over again (for seemingly all my career)! Thanks guys! B-)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806256/syntax-error-when-running-simple-shell-script
+
+---
+
+#### 5131. I accidentally deleted a boot entry "Linux Firmware Updater". Does it matter?
+
+**问题描述 / Problem Description**:
+Tags: linux, boot, uefi, boot-loader, firmware | Score: 0 | Views: 61 | Answers: 1 | Created: 2026-05-28
+
+**解决方案 / Solution**:
+The "Linux Firmware Updater" boot entry is temporarily added by fwupd . Deleting it is just like harmlessly temporarily cancelling the firmware update. That boot entry doesn't exist on a system in regular operation. If you don't care about firmware updates, you can just leave it deleted. Or you could retry the firmware update via sudo fwupdmgr get-updates ; sudo fwupdmgr update .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806209/i-accidentally-deleted-a-boot-entry-linux-firmware-updater-does-it-matter
+
+---
+
+#### 5132. Issue with <linux/gpio.h> & __u32
+
+**问题描述 / Problem Description**:
+Tags: linux, ioctl | Score: 0 | Views: 38 | Answers: 1 | Created: 2026-05-28
+
+**解决方案 / Solution**:
+__u32 isn’t about allowing 32-bit code to work with 64-bit kernels; it’s the base type used to represent 32-bit unsigned integers in the kernel UAPI (and the kernel source code in general). You’ll find it defined in /usr/include/asm-generic/int-l64.h on 64-bit x86. You need to handle __u32 the same way you’d handle uint32_t ; for example, the appropriate format specifier for printf is given by the PRIu32 macro ( in inttypes.h ), so you’d write printf("GPIOS[0] %"PRIu32"\n", GPIOS[0]); The test code you show to calculate the number of elements is fine: sizeof(GPIOS)/sizeof(__u32) gives the correct result, your array contains two 32-bit elements. Note that for size_t (the type used for sizeof results in C) the correct printf format specifier is %zu .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806206/issue-with-linux-gpio-h-u32
+
+---
+
+#### 5133. GRUB stops working if I delete one of my Linux/GNU systems. How can I fix it?
+
+**问题描述 / Problem Description**:
+Tags: linux, boot, partition, dual-boot, grub | Score: 0 | Views: 46 | Answers: 1 | Created: 2026-05-27
+
+**解决方案 / Solution**:
+Just boot into the Linux/GNU you want and execute this command. $ sudo grub-install Then, you should be able to remove the other Linux/GNU partition safely. Execute this later to update your GRUB menu. $ sudo update-grub
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806183/grub-stops-working-if-i-delete-one-of-my-linux-gnu-systems-how-can-i-fix-it
+
+---
+
+#### 5134. ZFS pool: physical disk usage of a file is twice the logical file size
+
+**问题描述 / Problem Description**:
+Tags: linux, zfs | Score: 0 | Views: 48 | Answers: 1 | Created: 2026-05-25
+
+**解决方案 / Solution**:
+As discovered in the comments, the zfs dataset had the copies property set to 2 , causing a second duplicate copy of each block of data to be written, using twice as much space. BTW, given that the pool was created with a mirror vdev which already writes two copies (one to each drive in the mirror), this means that 4 copies of each data block are written, effectively quartering the available space on the pool. Also reducing write performance and increasing fragmentation. The default value of the copies property is 1 but it may optionally be set to 2 or 3 (unless the dataset is encrypted, in which case only copies=1 and copies=2 are available). See man zfsprops for details. To determine the copies value of a dataset, you can run: zfs get copies e..g # zfs get copies backup NAME PROPERTY VALUE SOURCE backup copies 1 default or with the -o option of zfs list , e.g. # zfs list -o space,copies backup NAME AVAIL USED USEDSNAP USEDDS USEDREFRESERV USEDCHILD COPIES backup 4.03T 6.41T 0B 628K 0B 6.41T 1 Either of these commands can be used with the -r option to recursively show child filesystems (and/or snapshots) of the dataset. See man zfs-get and man zfs-list . The copies property provides some additional protection against bit-rot and may be useful (mostly for "peace of mind" rather than any practical benefit) for small datasets containing extremely important data but it doesn't provide any additional protection against disk failure - you are far more likely to suffer disk failure than bit-rot (worrying too much about bit-rot makes about as much sense as worrying about being struck by a meteor whilst ignoring the risk of crossing the road - and even that is greatly overstating the comparative risk). The mirror vdev already provides both "bit-rot" error-detection and correction AND redundancy against single-disk failure. The copies= property doesn't really provide anything of any value in most cases, I'd recommend turning it off with zfs set copies=1 <dataset> (but note that, like changing the compression level, this will not affect existing data, only new data written after the change. To get back all the space used by the extra copies, you'd have to rewrite all the data - easiest way to do that is a full backup and restore). I'd recommend setting compress=zstd too. There's no reason not to use it except on datasets containing mostly pre-compressed files like video or music - it saves space and improves performance. If you do have large collections of video or music files, create separate dataset(s) for them with compress=off . So, backup the entire pool (e.g. by creating a snapshot and zfs send -ing it to a file on another drive if you don't have a second zfs pool to send it to), then destroy and recreate the pool, run zfs set copies=1,compress=zstd <pool name> , and then restore the data with zfs receive . Also, if you're not already backing up regularly, then you should start doing so. RAID and RAID-like filesystems such as ZFS are not a substitute for regular backups.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806161/zfs-pool-physical-disk-usage-of-a-file-is-twice-the-logical-file-size
+
+---
+
+#### 5135. Properly handle dependencies to build a new SELinux module
+
+**问题描述 / Problem Description**:
+Tags: debian, selinux | Score: 0 | Views: 91 | Answers: 2 | Created: 2026-05-23
+
+**解决方案 / Solution**:
+Without knowing anything about how you have generated this module, this feels as if you are missing the macro to declare a new module. Try stuffing policy_module(mymodule, 1.2.3) At the top of the type enforcement file declaration. This macro calls another macro all_kernel_class_perms that will import the entire most classes and most permissions. Then, when it comes to making the module outright use the following command (in Redhat based systems) to make the module and insert it. Remove the load argument to just make. make -f /usr/share/selinux/devel/Makefile load You will also need the selinux-policy-devel package installed on Redhat based systems.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199044/properly-handle-dependencies-to-build-a-new-selinux-module
+
+---
+
+#### 5136. Linux/Unix domain-joined computer objects with PasswordNeverExpires=True — expected behavior or should I remediate?
+
+**问题描述 / Problem Description**:
+Tags: linux, windows, active-directory, domain | Score: 0 | Views: 29 | Answers: 1 | Created: 2026-05-21
+
+**解决方案 / Solution**:
+Is PasswordNeverExpires=True actively set by the Linux join tooling, or did sysadmins set it manually years ago to prevent breakage? Does realm join / adcli / net ads join set bit 65536 by default? adcli used to set this bit from its original release in 2012, until version 0.9.2 in 2021 when the flag was made optional (behind a dont-expire-password option). If I clear the flag on a Linux box where SSSD rotation is disabled, does anything actually break? My understanding is the GPO doesn't actively expire passwords — the client initiates the change. So clearing the flag on a non-rotating box should be functionally a no-op while making the health report happy. Am I missing something? According to Steve Syfuhs , you are correct in that DCs disregard password expiry for computer accounts, and the expiry acts only as a hint to the client's proactive change mechanism but isn't enforced by the DC. (Also, password expiry in itself isn't "the GPO", it's part of the core functionality of a domain controller.) What's actual best practice in 2026 for Linux machine password rotation? Enable ad_maximum_machine_account_password_age = 30 everywhere? Cron adcli update ? Or just accept Linux passwords don't rotate and document the exception? The default value of this parameter is 30 days (according to man sssd-ad ). The equivalent parameter in Winbindd, machine password timeout , instead defaults to 7 days. So both SSSD and Winbindd are capable of password rotation by default, and there is no reason for you to "accept Linux passwords don't rotate" when that's a result of your custom configuration.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806098/linux-unix-domain-joined-computer-objects-with-passwordneverexpires-true-expec
+
+---
+
+#### 5137. When systemd target becomes active?
+
+**问题描述 / Problem Description**:
+Tags: linux, systemd, distributions, sysvinit | Score: 0 | Views: 52 | Answers: 2 | Created: 2026-05-20
+
+**解决方案 / Solution**:
+From man systemd.target on Debian 13 (= using systemd version 257): Default Dependencies The following dependencies are added unless DefaultDependencies=no is set: Target units will automatically complement all configured dependencies of type Wants= or Requires= with dependencies of type After= unless DefaultDependencies=no is set in the specified units. Note that the reverse is not true. For example, defining Wants=that.target in some.service will not automatically add the After=that.target ordering dependency for some.service . Instead, some.service should use the primary synchronization function of target type units, by setting a specific After=that.target or Before=that.target ordering dependency in its .service unit file. Target units automatically gain Conflicts= and Before= dependencies against shutdown.target . In other words, whenever a service specifies WantedBy=multi-user.target (i.e. places a Wants=<that>.service on the multi-user.target ), the multi-user.target also gains an implicit After=<that>.service unless the service is configured with DefaultDependencies=no . And so, in the usual case with the default DefaultDependencies=yes in effect, services that declare WantedBy=multi-user.service will all be started before multi-user.service becomes active. If you want something different, you can specify DefaultDependencies=no in your service, but then you should also use the appropriate Before= or After= lines to specify exactly when you want your service started. On my headless home server, I have defined this service to be the last to start up and the first to shut down, by simply designating it After=default.target : [Unit] Description=Beep to indicate completion of boot and beginning of shutdown After=default.target [Service] Type=oneshot RemainAfterExit=true ExecStart=/usr/bin/beep -l 100 -f 1000 -n -l 100 -f 2000 -n -l 100 -f 2700 ExecStop=/usr/bin/beep -l 100 -f 2700 -n -l 100 -f 2000 -n -l 100 -f 1000 [Install] WantedBy=default.target Note that you can also use something like this instead of checking for files in /var/run to detect boot completeness: # if the system is still booting, wait until boot is done if systemctl --wait --quiet is-system-running then echo "System has completed booting and is fully operational" else echo "Either the system is shutting down, or something went wrong in the boot process." fi See man systemctl for exit codes and other details.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806083/when-systemd-target-becomes-active
 
 ---

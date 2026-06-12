@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4715**
+**总计条目 / Total entries: 4810**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -65505,5 +65505,1240 @@ Since it's a fresh installation and Chrome considers it a different device, you'
 
 **参考链接 / References**:
 - https://superuser.com/questions/1861490/new-macbook-old-tabs
+
+---
+
+#### 4716. I'd like to use a recent version of bash as my login shell in macos
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, bash | Score: 1 | Views: 116 | Answers: 2 | Created: 2026-06-12
+
+**解决方案 / Solution**:
+I‘ve set my login shell to the Homebrew version ages ago (with chsh ) and never run into any issues. If you want to careful, you just set the Homebrew bash as the command to run in the Terminal settings. This will, for all practical purposes, give you the same result as setting the login shell. And you can always revert the settings if the Homebrew version is missing. If you want to be extra-careful, you can create a backup admin account and leave that with the default login shell ( /bin/zsh nowadays).
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486579/id-like-to-use-a-recent-version-of-bash-as-my-login-shell-in-macos
+
+---
+
+#### 4717. “MacOS 26 was just a preview of 27. Prove me wrong”
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u41b4z/macos_26_was_just_a_preview_of_27_prove_me_wrong/
+
+---
+
+#### 4718. Homebrew 6.0.0 is released with many new features
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u3w0bp/homebrew_600_is_released_with_many_new_features/
+
+---
+
+#### 4719. You won't be blocking ads for much longer. Google is killing uBlock Origin bypasses, burying Manifest V2, and tightening its grip on Chrome. Every update means less control for users and more control for Google.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u43e7h/you_wont_be_blocking_ads_for_much_longer_google/
+
+---
+
+#### 4720. A fun little thing
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u3zqc6/a_fun_little_thing/
+
+---
+
+#### 4721. Crossing the Golden Gate, Intel support, and an update to SystHist
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u3u736/crossing_the_golden_gate_intel_support_and_an/
+
+---
+
+#### 4722. Why is macOS so slow when browsing network shares? A Windows VM running on the same Mac is instant
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u47ie3/why_is_macos_so_slow_when_browsing_network_shares/
+
+---
+
+#### 4723. Does anyone else really dislike how the "show colour in tab" setting in Safari just gets disabled when you go full-screen?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u3w9pe/does_anyone_else_really_dislike_how_the_show/
+
+---
+
+#### 4724. First Time Backup
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u486bg/first_time_backup/
+
+---
+
+#### 4725. Why is the google favicon showing up as the adobe logo??
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u3rvgs/why_is_the_google_favicon_showing_up_as_the_adobe/
+
+---
+
+#### 4726. can no longer show menu bar icon after hidden it using ICE App
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u48y83/can_no_longer_show_menu_bar_icon_after_hidden_it/
+
+---
+
+#### 4727. Two Folders, one Pane? (to reduce clicking in copy/paste?) (reduce repetitive strain?)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u46nip/two_folders_one_pane_to_reduce_clicking_in/
+
+---
+
+#### 4728. Can’t sign PDFs with my iPhone anymore in Preview on Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u3rw07/cant_sign_pdfs_with_my_iphone_anymore_in_preview/
+
+---
+
+#### 4729. 3-finger swipe to cycle through stacked windows from different apps — is this possible?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u3yd19/3finger_swipe_to_cycle_through_stacked_windows/
+
+---
+
+#### 4730. Invisible item in menu bar
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u3vmk0/invisible_item_in_menu_bar/
+
+---
+
+#### 4731. Performance issues while using ChatGPT on safari.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u404cb/performance_issues_while_using_chatgpt_on_safari/
+
+---
+
+#### 4732. This gave me a heart attack
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u3e34t/this_gave_me_a_heart_attack/
+
+---
+
+#### 4733. is the Mac App Store down currently?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u3xxp4/is_the_mac_app_store_down_currently/
+
+---
+
+#### 4734. How can I format a Late 2008 MacBook while keeping Snow Leopard?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u3s6kl/how_can_i_format_a_late_2008_macbook_while/
+
+---
+
+#### 4735. macOS Tahoe 26.5.1: intermittent system freezes, CoreSpotlight at 200–400% CPU, anyone else seeing this?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u3prtg/macos_tahoe_2651_intermittent_system_freezes/
+
+---
+
+#### 4736. [V2EX] macos27 有办法关闭 sip 了吗？
+
+**问题描述 / Problem Description**:
+macos27 有办法关闭 sip 了吗？ 想开启新 siri ，有教程必须要关闭 sip ，但现在 macos27 无法关闭 sip 了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219971#reply2
+
+---
+
+#### 4737. [V2EX] 啥也不懂混吃等死的画电路图的三流选手，第一次用 Codex 二开了下年久失修的 LyricsX，放出体验版。
+
+**问题描述 / Problem Description**:
+LyricsX-Anya 一个基于 LyricsX 二次开发的 macOS 桌面歌词小玩具（花了三天业余时间弄的完全毛坯房，但能用）：在桌面歌词旁加了一只可以拖动、跑动、双击隐藏歌词的 Anya 。 这个项目仅供我自己娱乐和学习使用，不是严肃维护的产品。能折腾的朋友等这几天修完基本的会放在 GitHub 可以直接 Fork 自己改；如果你期待稳定、及时的维护，这里大概率会让你等很久。 项目说明 原版 ddddxxx/LyricsX 已经多年缺少持续维护，但它仍然是一个很好用、也很有历史价值的 macOS 歌词应用。本项目主要基于 MxIris-LyricsX-Project/LyricsX 继
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219853#reply0
+
+---
+
+#### 4738. [V2EX] macOS27 自动填充短信验证码爽啊
+
+**问题描述 / Problem Description**:
+和手机上的一样了，app 和网页的都可以了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219457#reply9
+
+---
+
+#### 4739. [V2EX] macOS 27 已知问题汇总
+
+**问题描述 / Problem Description**:
+如题，macOS27 不支持 Intel 心了，用家里的 mac mini m1 的更新了感受了一下，发现 BUG 如下，其他感觉很好，尤其是新款的动效以及对刘海屏的优化等。macOS 27 Golden Gate 目前仍属于 beta 版本，主力机慎更！ 1 、Xcode 编译时候，找到真机设备，有可能是我 iOS 没更新的缘故 2 、新的 Liquid Glass 外接显示器，外接 4K 显示器 UI 上有时候会出现窗口边缘毛边闪烁 3 、破解软件都失效了，比如我用的 Paralles desktop 啥的，新版 macOS 可能调整了系统安全策略、签名验证、运行环境或底层接口的原因 其他
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219247#reply58
+
+---
+
+#### 4740. [V2EX] macOS27 的屏幕共享变得指哪打哪了，流畅得根本不像话，推荐各位试试
+
+**问题描述 / Problem Description**:
+我经常在家里用 MacBook 连接 Mac mini 使用屏幕共享，可以确定的是路由器和网络设置从来都没有变过，就只是今天更新了 macOS27 ，真的很惊喜，Apple 到底还做了什么底层优化
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219190#reply24
+
+---
+
+#### 4741. [V2EX] 17E 能否双待国内 eSIM 卡和境外实体卡？
+
+**问题描述 / Problem Description**:
+RT ，17E 既然是一个实体 sim 卡槽和一个 eSIM 卡槽吗，那么如果我把中国移动的实体卡转为 eSIM 写入 17E,然后插入 Paygo 紫卡的实体卡，这样能实现双卡双待吗？不会像 Air 那样写入国内 eSIM 卡之后就有电子围栏，然后就不让插境外卡用了吧？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220037#reply2
+
+---
+
+#### 4742. [V2EX] 今天把 MacOS27 和 iPadOS27 都重置了一下，结果微信上不去了。
+
+**问题描述 / Problem Description**:
+macos 里官网下载的扫码登录不了，appstore 的打开直接崩掉。 iPados 里是二维码出不来 不知道咋整了 还好手机闲麻烦没重置
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220030#reply5
+
+---
+
+#### 4743. [V2EX] macos27 有办法在无法关闭 sip 的前提下开启新 ai 吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219984#reply0
+
+---
+
+#### 4744. [V2EX] ios26.5 电话 app 通知角标问题
+
+**问题描述 / Problem Description**:
+主要是想看看大家手上这个版本的手机有没有相同的情况，本人主力 16e ，确定是升级 26.5 后才出现的问题 电话用的经典界面。非通讯录中的号码来电未接，app 会有个未知来电通知，点电话 app 查看后，按正常逻辑这个通知角标就应该消失了。问题就出在这，如果想角标消失，必须点下右上角三道杠，再点一下“未知的来电”项目才行（不管角标显示多少个通知，这处未知来电里面都是空的） 管理过滤的开关，无论开和关的状态，三道杠中都有个“未知的来电”项目，备用的 16pm 系统 26.4.2 ，同样操作，只要管理过滤的开关关闭后，三道杠中不会出现“未知的来电”这一项目。不确定是否有关联。 在 apple 社
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219936#reply3
+
+---
+
+#### 4745. [V2EX] ios27 WiFi 断流断联真严重
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219850#reply22
+
+---
+
+#### 4746. [V2EX] mac 和 ios 27 系统, 有个不知道是不是 bug 或者逻辑硬伤的问题. 最近发现的, 不确定以前 26 有没有.
+
+**问题描述 / Problem Description**:
+就是通信录/联系人里面, 一般情况下不都是写 11 位手机号的嘛; 然后打电话的时候, 通话记录是能正常匹配上姓名的, 因为国内接打电话推送来的号码一般不带+86; 但是收到短信的时候, 我不确定是运营商传过来号码就是这样 还是 手机系统本身识别到就加上的, 收到的短信来信人是有+86 前缀的, 这直接导致了短信匹配不上联系人里面的名字, 只显示+86 号码... 在 Mac 的 message app 里面也是同样的显示逻辑, 来信号码有+86, 通信录里面的号码如果没有的话是匹配不上的.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219819#reply3
+
+---
+
+#### 4747. [V2EX] 微信 Beta 版已过期 商店无法下载怎么办？
+
+**问题描述 / Problem Description**:
+之前在 tg 频道看到有 beta 版，应该是官方的，所以就下载了，现在到期了，我想着商店重下就好了，但是点了重新下载，一直在转圈圈😵‍💫，有老哥遇到过吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219778#reply8
+
+---
+
+#### 4748. [V2EX] iPhone 连 2.4G Wi-Fi 容易发烫
+
+**问题描述 / Problem Description**:
+你们发现这问题没？ 而且信号即使记录 AP 等发射端很近，也时不时少一格
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219767#reply2
+
+---
+
+#### 4749. [V2EX] 港版 17， iOS27，开启新版 AI 流程
+
+**问题描述 / Problem Description**:
+一直挂梯子 + 美区商店 + 通用->语言地区里只设置英文为首选语言（不用改地区）+ Siri 里面的语言设置为英语美国（目前只支持这个语言） 然后等待下载完 AI 后，重启手机，重启手机，这个是重点，然后 Siri app + 灵动岛下拉 Siri 都能正常使用，可以中文对话操作 app
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219618#reply18
+
+---
+
+#### 4750. [V2EX] Siri AI 用了 Gemini，国内会用谁的
+
+**问题描述 / Problem Description**:
+能有谁能达到及格线....
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219472#reply12
+
+---
+
+#### 4751. [V2EX] 求问， iOS27 的新 siri 一直在排队……
+
+**问题描述 / Problem Description**:
+如题，环境都有，语言也改了，日版、美版、港版三台不同设备都是排队，大家还有在排队的吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219437#reply15
+
+---
+
+#### 4752. [V2EX] Mac 下有什么好用的 AI Chat 客户端吗?
+
+**问题描述 / Problem Description**:
+最好原生,买断付费的也行,谢谢佬们!
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219356#reply34
+
+---
+
+#### 4753. [V2EX] Egern 开始支持 snell 协议
+
+**问题描述 / Problem Description**:
+不知道是不是慢讯
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219339#reply7
+
+---
+
+#### 4754. [V2EX] 用上 Claude Fable 5 后，我的投资量化工具有点猛
+
+**问题描述 / Problem Description**:
+使用 Claude Fable 5 模型烧了 200 刀，重构了「股市挖掘机」。🏄 1️⃣ 支持自定义模型。可以直接配置 openrouter 、deepseek 、minimax 等模型，也支持调用本地 claude code 、codex 等 cli 工具使用。 2️⃣ 打通实时数据，支持期权、现货、数字货币等行情数据直接实时分析。 3️⃣ 内设白毛女、游资等 Skills ，基于产业链找出卖铲子的公司。现在输出效果接近无敌。🚀 https://mastersgo.cc
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220041#reply0
+
+---
+
+#### 4755. [V2EX] 腾讯官方客服加我一直跟我说要买产品和续费跟她说，帮我申请优惠，每次一看根本跟官方差不了多少。
+
+**问题描述 / Problem Description**:
+是真的腾讯官方客服。又没优惠加我干啥啊。挺浪费时间了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220012#reply2
+
+---
+
+#### 4756. [V2EX] 世界杯体彩首战告捷，晒一下前两场预测的票根
+
+**问题描述 / Problem Description**:
+微信图片_20260611201347_451_2.jpg
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219982#reply9
+
+---
+
+#### 4757. [V2EX] 有 N26 账户的现在可以免费开世界杯万事达主题虚拟银行卡，已测试至少免费开四张！
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219979#reply2
+
+---
+
+#### 4758. [V2EX] 小米 MiMoCode 的简单反代方案
+
+**问题描述 / Problem Description**:
+来源-网络技术分享 t.me/wzxylh 整体流程比较简单： 1️⃣ 调用 Bootstrap 接口获取临时 JWT Token 2️⃣ 携带 JWT 调用 OpenAI 兼容接口完成对话 目前支持通过 OpenAI 格式直接调用 MiMo 模型，对于测试和接入第三方客户端来说比较方便。 获取 JWT： JWT=$(curl -s -X POST ' https://api.xiaomimimo.com/api/free-ai/bootstrap' -H 'Content-Type: application/json' -d '{"client":"haha"}' | python3 -c
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219956#reply9
+
+---
+
+#### 4759. [V2EX] [避雷] B 站上卖手机卡的大多是骗人的
+
+**问题描述 / Problem Description**:
+在 B 站购买了好几个 up 推荐的手机卡，都是宣传套餐很便宜的，首年 19 块 200+G 流量的，买了 3 张卡，激活后套餐是原价
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219951#reply11
+
+---
+
+#### 4760. [V2EX] codex 给了“1 次可用重置”
+
+**问题描述 / Problem Description**:
+奥特曼发福利的新形式吗？大家都收到了吗？ 设置-剩余用量-1 次可用重置
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219948#reply7
+
+---
+
+#### 4761. [V2EX] AI 回旋标来了
+
+**问题描述 / Problem Description**:
+至多 50%公司后悔由于 AI 裁员 https://www.techspot.com/news/112707-ai-boomerang-effect-more-data-suggests-employers-reversing.html
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219935#reply12
+
+---
+
+#### 4762. [V2EX] 最近读了悉达多,当下的力量,我想说,可以一定程度缓解焦虑
+
+**问题描述 / Problem Description**:
+如题,悉达多读完了,当下的力量也快读完,很多地方没读懂,肯定还是要多读几遍,但是我想说真的缓解了一些我的焦虑 好东西就要分享, 焦虑的小伙伴不妨试试. (我是结合微信读书里很多书友的笔记读的)
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219885#reply7
+
+---
+
+#### 4763. [V2EX] 时不时的想起以前做得蠢事，会控制不住发癫
+
+**问题描述 / Problem Description**:
+比如正在上厕所，然后莫名其妙的想起以前做得蠢事，就会在厕所在大骂起来 不过也在想，如果自己不觉得自己以前是个傻子，那么说明自己没进步 不断的反思以前的过错，避免后续再产生同样的过错
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219877#reply2
+
+---
+
+#### 4764. [V2EX] 后知后觉，与人交往其实是一种很重要的能力
+
+**问题描述 / Problem Description**:
+也就是我们所谓的情商。 读书的时候看中的是智商，但是到了大学/出社会后情商占比变更多了。 可惜的是学校和家人不会特别教你怎么提升情商，与人交往/沟通的能力。除非天赋很好，或者有意识地主动去学去实践，否则直到吃到亏/失去了东西才能重视到。用途包括 面试时候的沟通交流 与同事之间的沟通交流 和异性的沟通交流 和朋友的沟通交流 等等
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219832#reply5
+
+---
+
+#### 4765. [V2EX] 前段时间刷视频看到了一个心率监测 app，不是很好用，用 cursor coding 了一个
+
+**问题描述 / Problem Description**:
+现在用 AI 来做这种东西真的太简单太方便了，不知道还可以坚持多久
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219825#reply4
+
+---
+
+#### 4766. [V2EX] 世界杯观看清晰度小结
+
+**问题描述 / Problem Description**:
+折腾对比一晚上，个人总结如下，欢迎指正： 清晰度排名如下 第一梯队：咪咕视频（网页）（会员） 会员可以 4k ，我用 MacBook Air 看的，仔细对比了下比投屏电视清晰，草坪不太糊，球拖影轨迹有一点不严重，能看。 虽然跟 YouTube 上的 4k 球赛没法比，但算清晰了。 第二梯队：咪咕（会员）投屏、小红书投屏 两个投屏都能 4k ，但效果比网页观看稍微糊一点。尤其是草坪，运动场景特别糊。静态好一些。 咪咕必须会员才能 4k 投屏，小红书免费。 第三梯队：咪咕（免费）、iptv 都是 1080p ，实际观看非常糊，人是糊的，草坪也是糊的。球的轨迹拖延极其严重。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219775#reply3
+
+---
+
+#### 4767. [V2EX] 我成功抢到了商汤最新模型功能的内测码
+
+**问题描述 / Problem Description**:
+有种当年抢 Manus 的感觉了。。 只能在 Discord 里抢，运营会不定时放： https://discord.gg/BuTXPHmQub 抢到了之后在他们官网可以直接用： https://unify.light-ai.top/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219769#reply11
+
+---
+
+#### 4768. [V2EX] 今天在 X 上看到个神仙脑洞，自己动手复刻了一版
+
+**问题描述 / Problem Description**:
+今天在 X 上刷到一个可以在美股和币的 K 线上开摩托的小游戏，感觉脑洞挺大挺有意思。 下午摸鱼手痒，自己也跟着搓了一版，没想到玩了一会儿居然还挺上头的。 测试了下，标普是最简单的平缓上坡。 但是跑妖股和 Meme 币的时候有点地狱难度，动不动断崖暴跌，极度容易翻车。 手机浏览器直接就能玩，大家可以试试自己手里的票跑起来是什么难度： https://stonkrider.win/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219758#reply12
+
+---
+
+#### 4769. [V2EX] 小米 Token Plan，额度 380 亿，剩 1 天到期，速蹬
+
+**问题描述 / Problem Description**:
+API Key:tp-c0x5wrgpqqjm1fhtp74758tmesl3lun3eu4xlvvxbwanwfee Base URL 兼容 OpenAI 接口协议： https://token-plan-cn.xiaomimimo.com/v1 兼容 Anthropic 接口协议： https://token-plan-cn.xiaomimimo.com/anthropic ipad 党方便测试蹬入口： https://vb.do/dashboard?autosubmit=true#prompt=hello&providerId=mi&providerName=MI&providerPro
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219740#reply7
+
+---
+
+#### 4770. [V2EX] MIMO 这个是写得真好。里面提到 agent coding 几乎每个痛点我都遇到过
+
+**问题描述 / Problem Description**:
+https://mimo.xiaomi.com/zh/blog/mimo-code-long-horizon Max Mode 只管做的对不对，不管做没做完；后来出现的 /goal 才解决 部分模型（特别是 GPT 5.5 系列）在输出结构化 JSON 时格式错误率较高 Dynamic Workflow 的确是好东西 能在每一轮迭代进行总结的记忆系统，我现在是手动挡搓这个，搞得很烦躁 给主 agent 配一个助理总结归纳项目 等等。。都是我想要的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219576#reply16
+
+---
+
+#### 4771. How can I toggle between Fn and function F-keys on Mac?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook | Score: 37 | Views: 92670 | Answers: 5 | Created: 2022-12-02
+
+**解决方案 / Solution**:
+You can set which way this behaves in System Preferences → Keyboard → Keyboard 'Use F1, F2, etc. keys as standard function keys' : Whichever way you choose, holding Fn /F-key will activate the opposite mode temporarily. This preferences pane has changed appearance slightly over the years, but the functionality remains the same up to macOS v12 (Monterey), but it has moved in macOS v13 (Ventura). Go to keyboard shortcuts Go to the function keys tab and turn on "Use F1, F2, etc. keys as standard function keys". From Apple KB : macOS Ventura Choose Apple menu  > System Settings. Click Keyboard in the sidebar. Click the Keyboard Shortcuts button on the right. Click Function Keys in the sidebar. Turn on "Use F1, F2, etc. keys as standard function keys".
+
+**参考链接 / References**:
+- https://superuser.com/questions/1755750/how-can-i-toggle-between-fn-and-function-f-keys-on-mac
+
+---
+
+#### 4772. How to use macOS to create a Windows 11 USB installer flash drive?
+
+**问题描述 / Problem Description**:
+Tags: macos, installation, windows-11, usb-flash-drive | Score: 15 | Views: 31492 | Answers: 4 | Created: 2025-03-09
+
+**解决方案 / Solution**:
+This answer is summarized below. MBR partition a 16 GB or larger flash drive to contain a FAT32 volume and an ExFAT volume. Copy all the files, except sources/install.wim , from the mounted Windows ISO file to the FAT32 volume on the flash drive. Copy sources/install.wim from the mounted Windows ISO file to the ExFAT volume on the flash drive. Boot from the flash drive and enter a command to split the install.wim on the ExFAT volume to two files placed on the FAT32 volume. The result is an USB flash drive which can be used to install Windows 11. The steps are given next. Goto Microsoft's Download Windows 11 website and download the Windows 11 disk image (ISO) for x64 devices. In my case, the Win11_24H2_English_x64.iso file was downloaded to my Downloads folder. If your file name is different, then make the appropriate substitutions when entering the commands below. Insert a 16 GB or larger flash drive in an USB port on or connected to the Mac. Open a Terminal application window. Use the command below to determine the identifier for the USB flash drive. I my case, this was disk2 . If your identifier is different, the make the appropriate substitutions in the following commands. diskutil list external Enter the command below to format the flash drive. diskutil partitiondisk disk2 mbr fat32 MYFAT32 8G exfat MyExFAT R Enter the command below to remove all extended attributes from the Windows ISO file. This will remove the quarantine placed on the file when it was downloaded. xattr -c ~/Downloads/Win11_24H2_English_x64.iso Enter the command below to mount the Windows 11 ISO file. In my case, the output from the command shows the file was mounted on /Volumes/CCCOMA_X64FRE_EN-US_DV9 . If your folder name is different, then make the appropriate substitutions when entering the commands below. hdiutil attach ~/Downloads/Win11_24H2_English_x64.iso Enter the command below to change the current directory to /Volumes/CCCOMA_X64FRE_EN-US_DV9 . cd /Volumes/CCCOMA_X64FRE_EN-US_DV9 Enter the commands below to copy the files from the mounted ISO to the flash drive. Note: Since the install.wim file is very large, the cp command can take a while to complete. rsync -r -t --exclude=sources/install.wim . /Volumes/MYFAT32 cp sources/install.wim /Volumes/MyExFAT Enter the commands below to unmount the Windows 11 ISO file. cd ~ hdiutil detach /Volumes/CCCOMA_X64FRE_EN-US_DV9 Enter the command below to eject the flash drive. Afterwards, you can remove the flash drive. diskutil eject disk2 You can quit the Terminal application. Using the computer where Windows is to be installed, UEFI boot from the flash drive. You should get a window similar to the one shown below. You can ignore the contents of this window. Press the shift + F10 key combination to open Command Prompt window. Enter the command below. From the output, determine the drive letters for the MYFAT32 and MyExFAT volumes. In my case, the was C and D respectively. If your letters are different, the make the appropriate substitutions for c:\ and d:\ when entering the dism command given below. echo list volume | diskpart Enter the command below to create the install.swm and install2.swm files in the c:\sources folder. Note: This command will take a while to complete. dism /split-image /imagefile:d:\install.wim /swmfile:c:\sources\install.swm /filesize:4000 Enter the command below to close the Command Prompt window. exit Close the window. When the popup shown below appears, select "Yes". The computer will reboot. The next time you UEFI boot from this USB flash drive, you should encounter the following window. You then can proceed and install Windows 11. Example of Using the Terminal Window Last login: Sun Mar 9 09:16:57 on console davidanderson@Davids-Mac ~ % diskutil list external /dev/disk2 (external, physical): #: TYPE NAME SIZE IDENTIFIER 0: FDisk_partition_scheme *15.9 GB disk2 1: DOS_FAT_32 ⁨MYFLASHDRV⁩ 15.9 GB disk2s1 davidanderson@Davids-Mac ~ % diskutil partitiondisk disk2 mbr fat32 MYFAT32 8G exfat MyExFAT R Started partitioning on disk2 Unmounting disk Creating the partition map Waiting for partitions to activate Formatting disk2s1 as MS-DOS (FAT32) with name MYFAT32 512 bytes per physical sector /dev/rdisk2s1: 15594504 sectors in 1949313 FAT32 clusters (4096 bytes/cluster) bps=512 spc=8 res=32 nft=2 mid=0xf8 spt=32 hds=255 hid=2048 drv=0x80 bsec=15625000 bspf=15230 rdcl=2 infs=1 bkbs=6 Mounting disk Formatting disk2s2 as ExFAT with name MyExFAT Volume name : MyExFAT Partition offset : 15628288 sectors (8001683456 bytes) Volume size : 15370240 sectors (7869562880 bytes) Bytes per sector : 512 Bytes per cluster: 32768 FAT offset : 2048 sectors (1048576 bytes) # FAT sectors : 2048 Number of FATs : 1 Cluster offset : 4096 sectors (2097152 bytes) # Clusters : 240096 Volume Serial # : 67cdc143 Bitmap start : 2 Bitmap file size : 30012 Upcase start : 3 Upcase file size : 5836 Root start : 4 Mounting disk Finished partitioning on disk2 davidanderson@Davids-Mac ~ % xattr -c ~/Downloads/Win11_24H2_English_x64.iso davidanderson@Davids-Mac ~ % hdiutil attach ~/Downloads/Win11_24H2_English_x64.iso /dev/disk3 /Volumes/CCCOMA_X64FRE_EN-US_DV9 davidanderson@Davids-Mac ~ % cd /Volumes/CCCOMA_X64FRE_EN-US_DV9 davidanderson@Davids-Mac CCCOMA_X64FRE_EN-US_DV9 % rsync -r -t --exclude=sources/install.wim . /Volumes/MYFAT32 davidanderson@Davids-Mac CCCOMA_X64FRE_EN-US_DV9 % cp sources/install.wim /Volumes/MyExFAT davidanderson@Davids-Mac CCCOMA_X64FRE_EN-US_DV9 % cd ~ davidanderson@Davids-Mac ~ % hdiutil detach /Volumes/CCCOMA_X64FRE_EN-US_DV9 "disk3" ejected. davidanderson@Davids-Mac ~ % diskutil eject disk2 Disk disk2 ejected davidanderson@Davids-Mac ~ % Example of Using the Command Prompt Window Microsoft Windows [Version 10.0.26100.1742] (c) Microsoft Corporation. All rights reserved. X:\sources>echo list volume | diskpart Microsoft DiskPart version 10.0.26100.1150 Copyright (C) Microsoft Corporation. On computer: MININT-NBNQP5I DISKPART> Volume ### Ltr Label Fs Type Size Status Info ---------- --- ----------- ----- ---------- ------- --------- -------- Volume 0 E DVD-ROM 0 B No Media Volume 1 C MYFAT32 FAT32 Removable 7629 MB Healthy Volume 2 D MyExFAT exFAT Removable 7505 MB Healthy DISKPART> X:\sources>dism /split-image /imagefile:d:\install.wim /swmfile:c:\sources\install.swm /filesize=4000 Deployment Image Servicing and Management tool Version: 10.0.26100.1150 The operation completed successfully. X:\sources>exit
+
+**参考链接 / References**:
+- https://superuser.com/questions/1885142/how-to-use-macos-to-create-a-windows-11-usb-installer-flash-drive
+
+---
+
+#### 4773. How do I show the dependents of a package?
+
+**问题描述 / Problem Description**:
+Tags: homebrew | Score: 8 | Views: 4410 | Answers: 2 | Created: 2023-12-11
+
+**解决方案 / Solution**:
+The command you're looking for is brew uses , e.g.: brew uses --installed libpng brew uses --eval-all boost Note that you must include either --installed or --eval-all – you probably want the former. From the manual page ( man brew ): Usage: brew uses [options] formula [...] Show formulae and casks that specify formula as a dependency; that is, show dependents of formula. When given multiple formula arguments, show the intersection of formulae that use formula. By default, uses shows all formulae and casks that specify formula as a required or recommended dependency for their stable builds. Note: --missing and --skip-recommended have precedence over --include-*. --recursive Resolve more than one level of dependencies. --installed Only list formulae and casks that are currently installed. --missing Only list formulae and casks that are not currently installed. --eval-all Evaluate all available formulae and casks, whether installed or not, to show their dependents. --include-build Include formulae that specify formula as a :build dependency. --include-test Include formulae that specify formula as a :test dependency. --include-optional Include formulae that specify formula as an :optional dependency. --skip-recommended Skip all formulae that specify formula as a :recommended dependency. --formula, --formulae Include only formulae. --cask, --casks Include only casks. -d, --debug Display any debugging information. -q, --quiet Make some output more quiet. -v, --verbose Make some output more verbose. -h, --help Show this message.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/467291/how-do-i-show-the-dependents-of-a-package
+
+---
+
+#### 4774. Why idle power usage is much higher under linux than macos on the same, intel-based macbook?
+
+**问题描述 / Problem Description**:
+Tags: linux, battery, macbook, power-consumption, idle | Score: 7 | Views: 10151 | Answers: 4 | Created: 2022-03-31
+
+**解决方案 / Solution**:
+On MacOS, powermetrics shows the cpu package is at package c7 state 99% of the time when the computer is idle. It also reports package power usage of 0.2 Watts. On Linux, powertop reports around 55% package c2 and 40% package c3 state when idle. intel_gpu_top reports 3.2 Watts package power usage. The 3 Watts difference almost fills the gap between idle consumption on MacOS VS Linux. What keeps all tested Linux variants from entering deeper package C-states is yet to be answered.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1713899/why-idle-power-usage-is-much-higher-under-linux-than-macos-on-the-same-intel-ba
+
+---
+
+#### 4775. Prevent MacBook Pro from sleeping when the lid is closed and the AC adapter is being unplugged
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, macbook, power-management, external-display | Score: 6 | Views: 15370 | Answers: 3 | Created: 2022-05-26
+
+**解决方案 / Solution**:
+Open Terminal.app Type in the command sudo pmset disablesleep 1 Enter your password to authorize the change to the power management settings. Note: Tested with m1 macbook air, but it should work on other models as well, and you can run sudo pmset disablesleep 0 to restore setting Source: https://developerinsider.co/prevent-external-monitor-to-sleep-when-macbook-ac-adapter-unplugged
+
+**参考链接 / References**:
+- https://superuser.com/questions/1723079/prevent-macbook-pro-from-sleeping-when-the-lid-is-closed-and-the-ac-adapter-is-b
+
+---
+
+#### 4776. Why does Discord ask to monitor keyboard input across applications?
+
+**问题描述 / Problem Description**:
+Tags: macos, keyboard, permissions, discord | Score: 5 | Views: 1401 | Answers: 1 | Created: 2025-01-26
+
+**解决方案 / Solution**:
+Can anyone explain what this permission is for and whether it’s truly necessary for Discord to function properly? Discord has at least one obvious reason to ask for the permission - Keybinds that you can find in settings: . For example for toggling its overlay or PTT (push to talk), which is done from other apps. No, it shouldn't be needed for basic functionality. Are there any risks associated with granting this access? This is a pointless question. There are risks with everything, including walking or eating. If you're asking if Discord, a well established app used by hundreds of millions of people, will do anything malicious with it, the answer is: that's extremely unlikely.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1872821/why-does-discord-ask-to-monitor-keyboard-input-across-applications
+
+---
+
+#### 4777. How can I mount a remote SSH folder on Mac without sshfs?
+
+**问题描述 / Problem Description**:
+Tags: homebrew, ssh, mount | Score: 5 | Views: 4729 | Answers: 1 | Created: 2023-09-29
+
+**解决方案 / Solution**:
+Homebrew does not ship macFUSE/SSHFS no more because of its license change. It is still installable though through packages obtained from their homepage . Instead of macFUSE you can use FUSE-T that provides SSHFS aswell, which is installable through homebrew: brew tap macos-fuse-t/homebrew-cask brew install fuse-t brew install fuse-t-sshfs Alternatively the project page provides packages for FUSE-T and SSHFS . Currently there is an issue with FUSE-T-SSHFS under macOS Sequoia: Use -o nonamedattr as an additional argument on every connection. For uninstalltion hints of macFUSE/SSHFS, have a look at the README of SSHFS-Mountlet , a GUI to mount and unmount SSHFS connections on a Mac: To uninstall macFUSE open the System Preferences of macOS, go to the macFUSE preference pane and click on "Remove macFUSE". To uninstall macFUSE's sshfs: sudo rm /usr/local/bin/sshfs sudo rm /usr/local/share/man/man1/sshfs.1 sudo rm /Library/PreferencePanes/macFUSE.prefPane sudo pkgutil --forget com.github.osxfuse.pkg.SSHFS ...or for recent versions: sudo pkgutil --forget io.macfuse.installer.components.sshfs If you had installed macFUSE/SSHFS through homebrew, please report back, whether brew uninstall sshfs and brew uninstall macfuse still work, the above instructions suffice or another procedure is needed.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/464805/how-can-i-mount-a-remote-ssh-folder-on-mac-without-sshfs
+
+---
+
+#### 4778. Remap MX Keys Right Option/Control to Right Command on Mac
+
+**问题描述 / Problem Description**:
+Tags: mac, keyboard, keyboard-shortcuts, macbook, keyboard-layout | Score: 5 | Views: 13438 | Answers: 3 | Created: 2023-01-25
+
+**解决方案 / Solution**:
+Logitech MX Keys has these shortcuts: Fn+P for 3 seconds, Windows layout Fn+O for 3 seconds, MacOS layout
+
+**参考链接 / References**:
+- https://superuser.com/questions/1764957/remap-mx-keys-right-option-control-to-right-command-on-mac
+
+---
+
+#### 4779. How can I disable the "Last Login" message in ZSH?
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, zsh | Score: 3 | Views: 671 | Answers: 1 | Created: 2026-01-02
+
+**解决方案 / Solution**:
+The last session message is not triggered by any config file in your home directory. Instead, it's done by the zshrc_Apple_Terminal file in your /private/etc/ folder. Googling doesn't reveal this very readily. Locate the file and edit as root, and uncomment the line that reads: SHELL_SESSIONS_DISABLE=1
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485500/how-can-i-disable-the-last-login-message-in-zsh
+
+---
+
+#### 4780. How can I empty the trash from the macOS Terminal?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, trash | Score: 3 | Views: 2058 | Answers: 2 | Created: 2025-02-09
+
+**解决方案 / Solution**:
+Try changing that command to this: sudo rm -rf ~/.Trash/* And to delete so-called invisible “dot” files and directories, do this: sudo rm -rf ~/.Trash/.* Note the uppercase, ~/.Trash as well as the appended /* and /.* which will make sure you remove the contents of the ~/.Trash and not the whole ~/.Trash directory entirely. You don’t want to do that.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1877663/how-can-i-empty-the-trash-from-the-macos-terminal
+
+---
+
+#### 4781. I'm trying to install ncdu using MacPorts in macOS Catalina, however it depends on zig but zig is no longer compatible, looking for workaround
+
+**问题描述 / Problem Description**:
+Tags: macos, install, homebrew, macports | Score: 3 | Views: 658 | Answers: 2 | Created: 2023-08-28
+
+**解决方案 / Solution**:
+There's a ncdu1 port https://ports.macports.org/port/ncdu1/details/ which works from Snow Leopard to Sonoma.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/463673/im-trying-to-install-ncdu-using-macports-in-macos-catalina-however-it-depends
+
+---
+
+#### 4782. 7-zip for MacOS man page missing
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, open-source | Score: 3 | Views: 2869 | Answers: 3 | Created: 2023-08-16
+
+**解决方案 / Solution**:
+Man pages are not a requirement of any utility and if the dev or someone else didn't create them, they won't be available. 7-zip.org and Homebrew are two totally distinct entities and not related with each other. Because there's a Formulae or Cask isn't a developer endorsement of a particular platform. It just means a maintainer (a person) chose to create the Formulae/Cask and make it available. Don't make the assumption that because it exists there, the developer supports it. An excellent example of this is Microsoft's Visual Studio code available via FreshPorts for FreeBSD (Microsoft doesn't support this at all). That said, there are Linux and even macOS source versions available on the Source Forge page . They can be downloaded and compiled on your own machine. After a looking through the source, there's no man pages that I could find. Bottom line: the man pages don't exist; at least from the original/official developer.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/463257/7-zip-for-macos-man-page-missing
+
+---
+
+#### 4783. yt-dlp: How to download best m4a?
+
+**问题描述 / Problem Description**:
+Tags: homebrew, youtube | Score: 3 | Views: 7305 | Answers: 1 | Created: 2023-07-11
+
+**解决方案 / Solution**:
+You are being caught out by zsh and its interpretation of the command before passing parameters to yt-dlp . It's actually zsh throwing the error. Put quotes round your parameters. Also, be sure to quote your URL too, especially on zsh . yt-dlp -f 'bestaudio[ext=m4a]' 'URL'
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/461979/yt-dlp-how-to-download-best-m4a
+
+---
+
+#### 4784. New iTerm2 tab displays ‘brew: command not found’ after updating PHP although brew is installed and included in PATH
+
+**问题描述 / Problem Description**:
+Tags: bash, homebrew, iterm | Score: 3 | Views: 954 | Answers: 1 | Created: 2023-05-22
+
+**解决方案 / Solution**:
+The issue is that when you try to run the bash_completion.sh file brew is not on your $PATH. The fix is to move the line where you set $PATH to be above the test for bash_completion.sh file ie your .bashrc has these commands as # Prepend brew and $HOME/bin to $PATH export PATH="/opt/homebrew/bin:""/opt/homebrew/sbin:""$HOME/.bin"":$PATH" # Bash completion if [ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ] then source "/opt/homebrew/etc/profile.d/bash_completion.sh" fi
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/460148/new-iterm2-tab-displays-brew-command-not-found-after-updating-php-although-br
+
+---
+
+#### 4785. Why is it when I am trying to add a Quick Action to the context menu of Finder in macOS I seem to have trouble making it appear in the context menu?
+
+**问题描述 / Problem Description**:
+Tags: macos, automation, context-menu, finder, automator | Score: 2 | Views: 247 | Answers: 1 | Created: 2025-03-18
+
+**解决方案 / Solution**:
+For this version of macOS, the Quick Actions menu item only shows up when a file or folder is under the cursor when you Control -click it. Apple's documentation " Perform quick actions in the Finder on Mac " mentions you have to have a file selected: Select the file. Alternatively, you can select a file on your desktop. Control-click the file, then choose Quick Actions. And: Tip: You can use the Quick Actions buttons at the bottom of the preview pane in a finder window. If you select a folder, or nothing, the Quick Actions don't appear in the preview pane.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1887030/why-is-it-when-i-am-trying-to-add-a-quick-action-to-the-context-menu-of-finder-i
+
+---
+
+#### 4786. Get Proportional Resident Memory (PSS) of processes on MacOS
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, memory, unix, process | Score: 2 | Views: 330 | Answers: 1 | Created: 2025-03-16
+
+**解决方案 / Solution**:
+I was fighting with this same issue - try the -r flag: [nick@Mac ~]$ top -l 1 -s 0 -stats pid,command,rprvt,vsize,vprvt,kprvt,kshrd -pid 54203 | sed 1,11d PID COMMAND RPRVT VSIZE VPRVT KPRVT KSHRD 54203 emacs-30.1 N/A N/A N/A N/A N/A [nick@Mac ~]$ top -r -l 1 -s 0 -stats pid,command,rprvt,vsize,vprvt,kprvt,kshrd -pid 54203 | sed 1,11d PID COMMAND RPRVT VSIZE VPRVT KPRVT KSHRD 54203 emacs-30.1 44M 393G 2079M 496K 0B
+
+**参考链接 / References**:
+- https://superuser.com/questions/1886486/get-proportional-resident-memory-pss-of-processes-on-macos
+
+---
+
+#### 4787. Calling Sudo via sh script via Automator app without a password
+
+**问题描述 / Problem Description**:
+Tags: macos, sudo, applescript, sh, sudoers | Score: 2 | Views: 832 | Answers: 1 | Created: 2025-02-01
+
+**解决方案 / Solution**:
+Short version: Don't use sudo in do shell script do shell script has a built-in option for running scripts with elevated privileges: do shell script "/path/to/your.sh" with administrator privileges This will take care of elevating privileges, without needing the poke the bear of sudoers.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1875841/calling-sudo-via-sh-script-via-automator-app-without-a-password
+
+---
+
+#### 4788. How to Zip a macOS framework and preserve symbolic links?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, zip | Score: 2 | Views: 129 | Answers: 1 | Created: 2025-01-31
+
+**解决方案 / Solution**:
+I discovered the issue is not with zip , but rather with a cp operation I'm doing before that. cp needs the -H option to preserve symbolic links.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1875220/how-to-zip-a-macos-framework-and-preserve-symbolic-links
+
+---
+
+#### 4789. Risk of uninstalling a customised zsh version
+
+**问题描述 / Problem Description**:
+Tags: homebrew, zsh | Score: 2 | Views: 337 | Answers: 2 | Created: 2023-11-11
+
+**解决方案 / Solution**:
+In general, macOS doesn't care about custom-installed shells (I'm running a Homebrew-installed bash as my login shell since years), so there is no downside in keeping both versions installed, have shell scripts use /bin/zsh and use /usr/local/bin/zsh as your login shell in Terminal. If you want to uninstall it anyway, check for any shell scripts starting with !#/usr/local/bin/zsh and change the she-bang back to #!/bin/zsh , check whether you set /usr/local/bin/zsh as your shell in Terminal or in any other application (e.g. BBEdit or Visual Code), and set it back to the standard version, check whether you changed your login shell with chsh and set it back to the standard version with chsh -s /bin/zsh , remove /usr/local/bin/zsh from /etc/shells if you had added it there, uninstall with brew uninstall zsh .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/466310/risk-of-uninstalling-a-customised-zsh-version
+
+---
+
+#### 4790. Failed Homebrew Installation
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, homebrew | Score: 2 | Views: 2967 | Answers: 1 | Created: 2023-10-24
+
+**解决方案 / Solution**:
+Taking your device to a couple other networks would be prudent to be sure it's an issue on your setup with macOS and not just transient network communication issues or a broken proxy / firewall setting on the network side. This is a better command to test connectivity since it will show errors getting a small handshake with the intended server: curl -I https://raw.githubusercontent.com/Homebrew/install/master/install.sh I get the following lines at the end of the output of the command below (and echo $? shows a zero exit status for the curl to get details on the install script) expires: Thu, 30 Nov 2023 17:23:20 GMT source-age: 0 content-length: 30633 If your network is behind a firewall (say an entire country or just your connection) there are mirrors and other installation methods to try: https://docs.brew.sh/Installation the git mirror section or the untar section would get around blocks of the main git hub communications path that the default install needs to run.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/465711/failed-homebrew-installation
+
+---
+
+#### 4791. brew says outdated when I upgrade to latest version
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, postgresql | Score: 2 | Views: 1109 | Answers: 1 | Created: 2023-10-23
+
+**解决方案 / Solution**:
+It's complaining that your macOS version is out of date; Homebrew currently supports macOS 12 and higher. The second error message is unrelated. It's to do with linking a dependency. You can unlink the version you have currently installed ( brew unlink gettext ) if you want this version of gettext to be linked instead.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/465654/brew-says-outdated-when-i-upgrade-to-latest-version
+
+---
+
+#### 4792. Brew - How to stop losing app settings when updating?
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, applications, homebrew | Score: 2 | Views: 817 | Answers: 2 | Created: 2023-10-05
+
+**解决方案 / Solution**:
+Presumably you're using cask for some reason. Brew cask downloads from the developer's web site and replaces the binary with that download. So yes, macOS is going to detect that the app was changed. This is not a brew problem (other than the fundamental problem that cask is).
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/465032/brew-how-to-stop-losing-app-settings-when-updating
+
+---
+
+#### 4793. Homebrew installs elm, but elm-repl not available
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, open-source | Score: 2 | Views: 74 | Answers: 1 | Created: 2023-09-17
+
+**解决方案 / Solution**:
+You run the ELM REPL like this: $ elm repl See https://elmprogramming.com/elm-repl.html
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/464338/homebrew-installs-elm-but-elm-repl-not-available
+
+---
+
+#### 4794. Multipass not working on Mac M2
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, homebrew, virtualization | Score: 2 | Views: 1211 | Answers: 1 | Created: 2023-07-29
+
+**解决方案 / Solution**:
+Multipass has a deamon named multipass d . You have to run sudo launchctl stop com.canonical.multipassd sudo launchctl start com.canonical.multipassd You forgot the "d" character at the end of the commands.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/462614/multipass-not-working-on-mac-m2
+
+---
+
+#### 4795. Install individual homebrew packages in different locations
+
+**问题描述 / Problem Description**:
+Tags: applications, install, homebrew | Score: 2 | Views: 3207 | Answers: 2 | Created: 2023-07-28
+
+**解决方案 / Solution**:
+Like the OP, I wanted to keep non-Mac apps segregated from those in /Applications , so I moved them to /Applications/3rd-party , but then that broke where "brew" thought they were, and it complained. I found the following to use, going forward: brew usage options . I added the following to my .zshenv file: export HOMEBREW_CASK_OPTS="--appdir=/Applications/3rd-party" I then had to go through the already installed Casks ( only a few ), and update their .metadata files to reference the new location. For one Cask, I had to recreate the symlink in /opt/homebrew/bin to point to the correct location. Running brew list zed no longer issued "Missing App:", "Broken link:" messages.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/462573/install-individual-homebrew-packages-in-different-locations
+
+---
+
+#### 4796. High Sierra (10.13.6) npm OSSL PEM routine error
+
+**问题描述 / Problem Description**:
+Tags: command-line, homebrew, ssl, openssl | Score: 2 | Views: 131 | Answers: 1 | Created: 2023-06-26
+
+**解决方案 / Solution**:
+Solved, in short: Was a cryptography problem, not node/npm problem In detail: -Uninstalled node/nvm -Found MacPorts support for nodejs17 -returned error:1E08010C:DECODER routines::unsupported on that install pointing to cryptography rather than node -uninstalled all node dependencies from Homebrew -reinstalled those via MacPorts -installed nvm via MacPorts -installed node 16 LTS Gallium via nvm Working!
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/461467/high-sierra-10-13-6-npm-ossl-pem-routine-error
+
+---
+
+#### 4797. Brew can not find git
+
+**问题描述 / Problem Description**:
+Tags: terminal, homebrew, git | Score: 2 | Views: 2055 | Answers: 1 | Created: 2023-05-01
+
+**解决方案 / Solution**:
+I suggest uninstalling homebrew and then reinstalling it and your packages following this guide . Although this would seem to be more tedious than fixing the PATH to git , a clean uninstall/reinstall is guaranteed to end with a sound build. You currently have a homebrew installation that was built on a different architecture from where it sits. The issues begins with the PATH order as noted by @Allan and @bmike.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/459356/brew-can-not-find-git
+
+---
+
+#### 4798. Is there an eraser tool to get rid of sketch in Preview?
+
+**问题描述 / Problem Description**:
+Tags: macbook, preview | Score: 2 | Views: 5335 | Answers: 1 | Created: 2023-02-21
+
+**解决方案 / Solution**:
+You can use Undo, until the changes are committed. Once committed - saved, or even just closed & re-opened - the annotation becomes a part of the image. JPG has no layering capability, so once saved the image & your annotation become just a single layer, with no way to differentiate them. The part of the original image 'behind' the annotation no longer exists.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1769829/is-there-an-eraser-tool-to-get-rid-of-sketch-in-preview
+
+---
+
+#### 4799. Automatically pop up shortcuts for emoji and symbols in Google Chrome on MacBook
+
+**问题描述 / Problem Description**:
+Tags: google-chrome, mac, keyboard-shortcuts, macbook | Score: 2 | Views: 241 | Answers: 1 | Created: 2022-09-25
+
+**解决方案 / Solution**:
+The system default keyboard shortcut is Cmd ⌘ Ctrl ⌃ Space If you want to change it, see Ask Different - Changing Emoji Shortcut
+
+**参考链接 / References**:
+- https://superuser.com/questions/1744192/automatically-pop-up-shortcuts-for-emoji-and-symbols-in-google-chrome-on-macbook
+
+---
+
+#### 4800. Some apps' windows won't stay on my MacBook screen
+
+**问题描述 / Problem Description**:
+Tags: display, macbook | Score: 2 | Views: 76 | Answers: 2 | Created: 2022-06-11
+
+**解决方案 / Solution**:
+Try this… Quit both apps Switch to Finder Cmd ⌘ N for New Finder Window Shift ⇧ Cmd ⌘ G for Go To Copy paste ~/Library/Saved Application State/ & hit Enter Scroll down to find com.apple.TextEdit.savedState Delete the contents of the folder [not the folder itself] Scroll down to find folders starting with com.hp. … Again, delete the contents of each [there may be a few HP folders, so clear them all] Try launching your apps again.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1725932/some-apps-windows-wont-stay-on-my-macbook-screen
+
+---
+
+#### 4801. MacBook cannot wake up from sleep mode after battery replacement
+
+**问题描述 / Problem Description**:
+Tags: macos, battery, macbook, macbook-pro | Score: 2 | Views: 283 | Answers: 1 | Created: 2022-02-16
+
+**解决方案 / Solution**:
+I have same issue. I has replaced my battery without issue 2 years ago and had no issues. Replaced battery again 2025 and it takes a quick plug in for it to work. I tried unplugging battery and doing the re-calibration.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1705242/macbook-cannot-wake-up-from-sleep-mode-after-battery-replacement
+
+---
+
+#### 4802. 'sudo -u' gives error "sorry, try again" for password - even though its correct
+
+**问题描述 / Problem Description**:
+Tags: macos, zsh, sudo | Score: 1 | Views: 900 | Answers: 1 | Created: 2025-04-01
+
+**解决方案 / Solution**:
+Note This answer is for Apple computer's macOS Ventura 13.7 operating system. I used Ventura to test this answer. The OP is entering commands from a standard user account, which by default under macOS cannot use the sudo command. In the OP's question, username is for an Admin account, which by default under macOS can use the sudo command. The password would be the one for username , which I assume you know. Below is an example of what you are entering. sudo -u username <command> However, what you are entering is incorrect. The correct command is given below. su username -c <string> Here the <command> would be stored in the <string> . For example, if the <command> was echo "hi there" , then the string would be 'echo "hi there"' . Below is for when you are trying to execute a command as the root user. You first need to become username before using sudo . For example, say you are the standard user (non-superuser) rpj and dma is an administrator, then use su to become dma followed by sudo to become root . Below is an example. Note, the -k option just forces the requesting of a password. You may wish to omit this option. % whoami rpj % su dma -c whoami Password: dma % su dma -c 'sudo -k whoami' Password: Password: root % Another option would to become the root user, then enter commands that require the root user. When finished, enter exit . See the example below. % whoami rpj % su dma -c "sudo -k -s" Password: Password: # whoami root # exit % whoami rpj %
+
+**参考链接 / References**:
+- https://superuser.com/questions/1889448/sudo-u-gives-error-sorry-try-again-for-password-even-though-its-correct
+
+---
+
+#### 4803. How to update the version of ruby on macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, ruby, jekyll | Score: 1 | Views: 2611 | Answers: 1 | Created: 2025-03-28
+
+**解决方案 / Solution**:
+The command sudo in sudo echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc is applied to echo and not to >> ~/.zshrc . Below is one possible way to do what you want. sudo zsh -c "cat >> ~/.zshrc" <<< 'export PATH="/opt/homebrew/bin:$PATH"' However, when you entered echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc you should not have received an error, unless you are not the owner of ~/.zshrc . You probably can fix this by entering the following. sudo chown $USER ~/.zshrc echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
+
+**参考链接 / References**:
+- https://superuser.com/questions/1888982/how-to-update-the-version-of-ruby-on-macos
+
+---
+
+#### 4804. How to disable the remote management popup screen on a macOS Sonoma 14.6.1?
+
+**问题描述 / Problem Description**:
+Tags: macos, mac | Score: 1 | Views: 421 | Answers: 1 | Created: 2025-02-20
+
+**解决方案 / Solution**:
+Ask the owner mentioned on that screen to relinquish control of that Mac.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1881566/how-to-disable-the-remote-management-popup-screen-on-a-macos-sonoma-14-6-1
+
+---
+
+#### 4805. Why is a MacBook Air running macOS Sequoia wirelessly connecting to DHCP server using two different MAC addresses, getting 2 IP addresses?
+
+**问题描述 / Problem Description**:
+Tags: macos, wireless-networking, routing, netstat, ifconfig | Score: 1 | Views: 482 | Answers: 1 | Created: 2025-02-05
+
+**解决方案 / Solution**:
+As a "security" measure, macOS 15 Sequoia introduced "private Wi-fi address". This means that Sequoia will use a different MAC address for each Wi-fi network. For mobile use on public Wi-fi networks this has value to reduce tracking by MAC address. For your home or work networks, this is just a nuisance (in my view) because IP address assignment becomes more confused. To avoid this go to Network Settings for each network and disable "Private Wi-fi address". Do this for both 2.4 GHz and 5 GHz Wi-fi networks. This way I get a single consistent IP address via DHCP from my router. PS. I don't mind if you see my full MAC address.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1876805/why-is-a-macbook-air-running-macos-sequoia-wirelessly-connecting-to-dhcp-server
+
+---
+
+#### 4806. How to protect key with secure enclave on MacOS
+
+**问题描述 / Problem Description**:
+Tags: macos, security, certificate, tpm, client-certificate | Score: 1 | Views: 1360 | Answers: 2 | Created: 2025-02-03
+
+**解决方案 / Solution**:
+I've been searching around the possibility of using Secure Enclave on MacOS to generate the key pair (and CSR if possible) but so far no luck. Answer link here: https://developer.apple.com/documentation/security/protecting-keys-with-the-secure-enclave let access = SecAccessControlCreateWithFlags( kCFAllocatorDefault, kSecAttrAccessibleWhenUnlockedThisDeviceOnly, .privateKeyUsage, nil)! // Ignore errors. This object includes a protection parameter of kSecAttrAccessibleWhenUnlockedThisDeviceOnly. As a result, you can access the associated keychain item only on the device that created it (a feature that’s also inherent to using the Secure Enclave), and only when the device is unlocked. Other less restrictive options are possible, but this option is generally preferred unless your app operates in the background. By specifying the privateKeyUsage flag, you make the private key available for use in signing and verification operations inside the Secure Enclave. Without the flag, key generation still succeeds, but signing operations that attempt to use it fail. You could also combine the privateKeyUsage flag with other flags to obtain additional protection for your key. For example, if you include the biometryAny flag, you instruct the system to make the key available only when the system can authenticate the user with Touch ID or Face ID (or a fallback passcode). See SecAccessControlCreateFlags for the complete list of available flags.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1876432/how-to-protect-key-with-secure-enclave-on-macos
+
+---
+
+#### 4807. Does the macOS charge chime even when sound is muted?
+
+**问题描述 / Problem Description**:
+Tags: macos, audio | Score: 1 | Views: 64 | Answers: 1 | Created: 2025-02-02
+
+**解决方案 / Solution**:
+You can use different Audio output device for Alert sounds with it's own volume and mute settings. I think charge chime falls to this category. You can find it in System Settings... (from Apple menu) select Sound in the sidebar. On the right side you can found Output & Input which is now set something like External headphone or similar. Up in the Sound Effects part there is a Play sound effects through and a menu selector. Choose something different from what you found down, like the Internal speaker or similar you need. Remember each sound output device have it's own volume and mute settings. For example you can set Internal speaker volume by temporary choosing it for output device. After setting appropriate volume you can switch back to your headphone's device.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1876142/does-the-macos-charge-chime-even-when-sound-is-muted
+
+---
+
+#### 4808. For `.md` files, how to use plugin for macOS QuickLook instead of the Xcode application?
+
+**问题描述 / Problem Description**:
+Tags: macos, plugins, quicklook | Score: 1 | Views: 1556 | Answers: 2 | Created: 2025-01-31
+
+**解决方案 / Solution**:
+I use QLMarkdown . This has is actively supported in the sense that there are updates (4 in the past year, latest 1 Jan). For me (macOS 15.3, Intel and Apple silicon) "it just works". I have never had any issues.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1874651/for-md-files-how-to-use-plugin-for-macos-quicklook-instead-of-the-xcode-appl
+
+---
+
+#### 4809. New version of zsh still shows old value of $SHELL variable
+
+**问题描述 / Problem Description**:
+Tags: macos, zsh, macos-catalina | Score: 1 | Views: 151 | Answers: 1 | Created: 2025-01-27
+
+**解决方案 / Solution**:
+TL;DR If /usr/local/bin/zsh is not in /etc/shells , then you should enter the following command. sudo sh -c 'echo /usr/local/bin/zsh >>/etc/shells' Next, you should enter the following command to fix your problem. chpass -s '/usr/local/bin/zsh' "$USER" Quit and reopen the Terminal application. Below is an explanation of how I determined my answer. I am using macOS Catalina Version 10.15.7. In order to use MacPorts, I first installed Xcode 12.4 Release 12D4e . This link was posted at the non-Apple website Xcode Releases . I installed zsh from MacPorts and encountered the same issue. The last lines output from the installation of zsh by MacPorts are shown below. ---> Installing zsh @5.9_3 ---> Activating zsh @5.9_3 ---> Cleaning zsh ---> Updating database of binaries ---> Scanning binaries for linking errors ---> No broken files found. ---> No broken ports found. ---> Some of the ports you installed have notes: zsh has the following notes: To set MacPorts' zsh as default login shell, run: sudo chpass -s '/opt/local/bin/zsh' "$USER" To be able to switch default shells to or from zsh without superuser privileges, add it to /etc/shells: sudo sh -c 'echo /opt/local/bin/zsh >>/etc/shells' So I entered the following commands. sudo sh -c 'echo /opt/local/bin/zsh >>/etc/shells' chpass -s '/opt/local/bin/zsh' "$USER" Any new Terminal application windows opened after entering the above commands resulted in the following: dma@dmas-Mac ~ % zsh --version zsh 5.9 (x86_64-apple-darwin19.6.0) dma@dmas-Mac ~ % echo $ZSH_VERSION 5.9 dma@dmas-Mac ~ % echo $SHELL /opt/local/bin/zsh Note I did not have changed my login shell in the general properties dialog of the Terminal application to the new path.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1873148/new-version-of-zsh-still-shows-old-value-of-shell-variable
+
+---
+
+#### 4810. What do the “Each orientation in the document” and “Each page size in the document” options in Word for Mac’s print dialog do?
+
+**问题描述 / Problem Description**:
+Tags: macos, microsoft-word, printing | Score: 1 | Views: 128 | Answers: 1 | Created: 2025-01-23
+
+**解决方案 / Solution**:
+This documents has pages of both a) different sizes, and b) different orientations. These options are only presented if there are such pages. In this case (different sizes and orientations) you may well want different print settings on different pages. So, if you enable one or both of these, you will get the opportunity to specify print settings for each type of page. And if you don't, printing will attempt to apply the settings you have specified to all pages. Apart from some experimentation on my part, this is really @Ramhound's comment turned into an answer.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1872002/what-do-the-each-orientation-in-the-document-and-each-page-size-in-the-docume
 
 ---
