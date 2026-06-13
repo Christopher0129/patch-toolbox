@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1810**
+**总计条目 / Total entries: 1826**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -34468,5 +34468,261 @@ Apply patch from vendor. Monitor https://salsa.debian.org/freexian-team/debusine
 - https://salsa.debian.org/freexian-team/debusine/-/commit/c24cdc49fb258714767546bdec5b09f8065d414e
 - https://salsa.debian.org/freexian-team/debusine/-/merge_requests/3103
 - https://salsa.debian.org/freexian-team/debusine/-/work_items/1484
+
+---
+
+#### 1811. CVE-2026-48748 - netty: Netty: Denial of Service due to memory exhaustion in HTTP/3 codec
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] netty: Netty: Denial of Service due to memory exhaustion in HTTP/3 codec. Bugzilla: 2488441
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488441
+
+---
+
+#### 1812. CVE-2026-48059 - netty-codec-haproxy: Netty HAProxy PROXY protocol v2 codec: Denial of Service via…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] netty-codec-haproxy: Netty HAProxy PROXY protocol v2 codec: Denial of Service via memory leak from crafted PROXY protocol headers. Bugzilla: 2488437
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488437
+
+---
+
+#### 1813. CVE-2026-48043 - netty-codec-http2: netty-codec-http2: Denial of Service due to resource leak
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] netty-codec-http2: netty-codec-http2: Denial of Service due to resource leak. Bugzilla: 2488442
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488442
+
+---
+
+#### 1814. CVE-2026-45673 - netty-resolver-dns: Netty DNS resolver: DNS Cache Poisoning via predictable…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] netty-resolver-dns: Netty DNS resolver: DNS Cache Poisoning via predictable transaction IDs. Bugzilla: 2488386
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488386
+
+---
+
+#### 1815. CVE-2026-44894 - netty-codec-classes-quic: Netty: Denial of Service amplification via improper QUIC…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] netty-codec-classes-quic: Netty: Denial of Service amplification via improper QUIC token validation. Bugzilla: 2488380
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488380
+
+---
+
+#### 1816. CVE-2026-44893 - netty-codec-haproxy: Netty-codec-haproxy: Denial of Service via malformed HAProxy…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] netty-codec-haproxy: Netty-codec-haproxy: Denial of Service via malformed HAProxy message. Bugzilla: 2488383
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488383
+
+---
+
+#### 1817. CVE-2026-44249 - netty-handler: netty-handler: IPv6 subnet rule bypass due to incorrect masking…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] netty-handler: netty-handler: IPv6 subnet rule bypass due to incorrect masking operation. Bugzilla: 2488081
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488081
+
+---
+
+#### 1818. CVE-2026-52859 - vim: Vim: Denial of Service via out-of-bounds write in terminal handling
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] vim: Vim: Denial of Service via out-of-bounds write in terminal handling. Bugzilla: 2487989
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487989
+
+---
+
+#### 1819. CVE-2026-44486 - axios: Axios: Information disclosure of proxy credentials via HTTP redirects
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] axios: Axios: Information disclosure of proxy credentials via HTTP redirects. Bugzilla: 2487947
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487947
+
+---
+
+#### 1820. CVE-2026-44487 - axios: Axios: Information disclosure of proxy credentials via redirect flows
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] axios: Axios: Information disclosure of proxy credentials via redirect flows. Bugzilla: 2487948
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487948
+
+---
+
+#### 1821. CVE-2026-44488 - axios: Axios: Denial of Service due to unenforced request and response size limits
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] axios: Axios: Denial of Service due to unenforced request and response size limits. Bugzilla: 2487949
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487949
+
+---
+
+#### 1822. CVE-2026-44496 - axios: Axios: Client-side Denial of Service via unescaped regex metacharacters in…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] axios: Axios: Client-side Denial of Service via unescaped regex metacharacters in XSRF cookie name. Bugzilla: 2487943
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487943
+
+---
+
+#### 1823. CVE-2026-44495 - axios: Axios: Information disclosure due to prototype pollution vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] axios: Axios: Information disclosure due to prototype pollution vulnerability. Bugzilla: 2487937
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487937
+
+---
+
+#### 1824. CVE-2026-44494 - axios: Axios: Man-in-the-Middle (MITM) attack via Prototype Pollution
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] axios: Axios: Man-in-the-Middle (MITM) attack via Prototype Pollution. Bugzilla: 2487942
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487942
+
+---
+
+#### 1825. CVE-2026-44492 - axios: Axios: Proxy bypass via IPv4-mapped IPv6 address non-normalization
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] axios: Axios: Proxy bypass via IPv4-mapped IPv6 address non-normalization. Bugzilla: 2487938
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487938
+
+---
+
+#### 1826. CVE-2026-48998 - guzzlehttp/psr7: guzzlehttp/psr7: Information disclosure via improper Host header…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] guzzlehttp/psr7: guzzlehttp/psr7: Information disclosure via improper Host header validation. Bugzilla: 2487891
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487891
 
 ---

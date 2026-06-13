@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 5137**
+**总计条目 / Total entries: 5249**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -74569,5 +74569,1461 @@ From man systemd.target on Debian 13 (= using systemd version 257): Default Depe
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/806083/when-systemd-target-becomes-active
+
+---
+
+#### 5138. Arch Linux Now Believes Malware Incident Under Control: More Than 1,500 Affected Packages
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u4d7zb/arch_linux_now_believes_malware_incident_under/
+
+---
+
+#### 5139. vpod: tiny Linux sandbox running in WebAssembly for untrusted processes
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u4m9rm/vpod_tiny_linux_sandbox_running_in_webassembly/
+
+---
+
+#### 5140. Haiku Activity & Contract Report, May 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u4rgqs/haiku_activity_contract_report_may_2026/
+
+---
+
+#### 5141. [ANN] Qtractor 1.6.1 - An End-of-Spring'26 Release
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u4lubp/ann_qtractor_161_an_endofspring26_release/
+
+---
+
+#### 5142. What’s missing for developers on GNOME OS and other image-based systems? — Invitation to an open introductory call
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u4vuhi/whats_missing_for_developers_on_gnome_os_and/
+
+---
+
+#### 5143. Showcase / Discussion — Building a highly customizable hybrid (stacking + tiling) Awesome WM-like Window Manager in Rust from scratch
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u4opne/showcase_discussion_building_a_highly/
+
+---
+
+#### 5144. [V2EX] 使用 glm5.2 完成了一个复杂 2d 渲染桥接引擎，很强， opus 级别的
+
+**问题描述 / Problem Description**:
+内容简单的说，首先模仿 jetbrains 的 compose dsl 实现一套 kotlin 的声明式 UI ，然后写 html 解析器，把 html+css+js 翻译成这个 compose dsl ，js 状态和 kotlin 里的双向绑定，然后渲染引擎本身桥接到 minecraft 的 drawcontext 上去完成 2d 渲染。 把 effort 开到 max 之后，每个小时大概消耗 10M tokens ，干活挺慢，大部分时间在推理，对话轮数显著降低了，这对于模型提供商来说是最不利的场景，模型提供商最喜欢的场景是快速的触发多轮对话，每一轮对话都要把前一轮所有历史收一次缓存读的钱，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220241#reply1
+
+---
+
+#### 5145. [V2EX] 这次 fable 拉闸想到的
+
+**问题描述 / Problem Description**:
+模型真不能靠 A 社和 openai ，对面不让你用随时可以一个 policy 就给断电 我之前有个哥们充了 glm 的包年不用，用 codex 和 cc 现在来看颇具战略眼光啊 明天去抢个 glm 包年
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220227#reply4
+
+---
+
+#### 5146. [V2EX] 实测： Kimi2.7 很拉！且 Token 消耗增高而不是所谓的减少 30%
+
+**问题描述 / Problem Description**:
+实测：Kimi2.7 很拉！且 Token 消耗增高而不是所谓的减少 30% 自媒体上一群鼓吹实测的，都是胡扯。 第一：并没有感觉明显增强！ 第二：明显感觉消耗 token 剧增！ 一个任务消耗了我 10%的 5 小时额度，我还是 Allegretto 级的会员，已反馈给 Kimi 官方
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220226#reply6
+
+---
+
+#### 5147. [V2EX] AI 时代了，语言之争和框架之争是不是没那么重要了？
+
+**问题描述 / Problem Description**:
+以前程序员之间经常吵： PHP 是不是最好的语言 Java 太重，Go 太简单，Python 太慢 Vue 好还是 React 好 Spring Boot 还是 Node MySQL 还是 PostgreSQL 单体还是微服务 但到了 AI 时代，这些争论好像都弱了很多。 不是说语言、框架、架构不重要了，而是它们的重要性从“信仰问题”变成了“工具选择问题”。 现在 AI 可以帮你快速读懂代码，写代码 以前换框架成本很高； 现在只要你能描述清楚业务逻辑、数据结构、边界条件，AI 可以帮你在不同技术栈之间迁移不少东西。 我现在越来越觉得，真正拉开差距的不是： 你会不会某个语言，或者是不是某个框架专
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220207#reply15
+
+---
+
+#### 5148. [V2EX] 用 AI 写了一个 AI Coding Agent，欢迎试用和提意见
+
+**问题描述 / Problem Description**:
+用了一些 AI Coding Agent （ claude-code ，antigravity ，windsurf ），但是总觉得不是特别顺手。原因有很多，就不赘述了，所以我一开始就打算作为一个挑战，自己搓一个 AI Coding Agent 自己用。 https://github.com/w-t-yang/aynite 后来写着写着发现还真能用，到现在，我已经完全使用这个 agent 本身配合 deepseek-v4-flash 来写它自己的源代码了。 现在这个项目源代码的 AI 纯度 99.99%，用 App 写它自己的源代码的纯度已经接近 50%了。 Aynite + DeepSeek-
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220188#reply0
+
+---
+
+#### 5149. [V2EX] openrouter 大家打开网站还能看到模型么？
+
+**问题描述 / Problem Description**:
+我打开后能正常登录，但是看不到任何模型。 https://openrouter.ai/models
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220178#reply4
+
+---
+
+#### 5150. [V2EX] 有没有人有同感。。vibe coding 效率大增，但是给公司干活太亏了
+
+**问题描述 / Problem Description**:
+vibe coding 之后，并行四五个窗口咔咔排任务 而且自己一个人就能前后端算法全干，减少了大部分沟通量 生产力大增，干活也容易进心流，居家办公下自己不自觉就会加班干 但是你做的多了老板不会给你多发工资，甚至在客户压力下可能还会 push 你，还得做向上沟通 其实已经具备自己去做完整产品的能力，但是缺少商务能力，卖不出去，还得依赖公司 我在做医疗领域软件，朋友做法律领域软件，都是类似的，一个人撸出产品然后让公司去卖
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220177#reply12
+
+---
+
+#### 5151. [V2EX] UniRTM，一个统一环境和工具管理软件（致敬 mise）
+
+**问题描述 / Problem Description**:
+UniRTM 集开发工具、环境变量和任务管理于一体的 CLI （内置安全扫描）。 灵感来源于出色的 mise 项目，在此向其致敬。 快速开始 • 官方文档 • 开发工具 • 环境变量 • 任务系统 [!TIP] UniRTM 强大的任务编排能力让你能够极其轻松地将 Trivy 、Syft 等安全工具无缝集成到你的日常构建和部署流程中。 介绍 UniRTM (Universal Runtime Manager) 能够在每次执行命令前自动准备好你的开发环境。它将项目所需的工具版本、环境变量和常用任务统一集中在 .unirtm.toml 文件中进行管理，确保每次打开新终端、切换分支或运行 CI 任务
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220176#reply0
+
+---
+
+#### 5152. [V2EX] Claude code 现在不订阅就不能使用这个工具了吗
+
+**问题描述 / Problem Description**:
+Claude Max or Pro is required to connect to Claude Code Sign up for a Max or Pro subscription to connect your account, or use your API key.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220171#reply7
+
+---
+
+#### 5153. [V2EX] Fable 真强到那种地步了吗？
+
+**问题描述 / Problem Description**:
+在个人的项目上，我使用 Fable 用了几个小时的 High 模式，然后又把它降到了 Low 模式，反正感觉没有太大的差异啊。 还是说在编程领域纯 coding 领域模型已经到头了，它可能强在架构设计？还是在其他的领域强？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220168#reply33
+
+---
+
+#### 5154. [V2EX] 分享一些 agent 开发中常遇到的解析问题
+
+**问题描述 / Problem Description**:
+我们平时说“处理文档”，很容易把文档理解成一长串文字。这个理解在简单问答里够用，但在真实工作里很快就不够了。 比方说，一份合同里，重要的不只是某个条款的句子，还有它属于哪一版？和哪个定义条款有关？例外条件在哪里？哪些批注已经接受？哪些还在审阅？ 一份投资 memo 里，重要的不只是结论，还有这个结论依赖哪张表、哪个市场假设、哪份访谈记录？以及这些假设有没有被后来的数据推翻？ 以及一份产品文档里，除了说明文字，还有版本、配置前提、截图、变更记录、上下游模块和还没关闭的问题。如果把这些东西都压成文本片段，很多信息在进入模型之前就已经丢了。 这种处理方式太过扁平，你可以理解为“二维”的，用在传统的软
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220167#reply4
+
+---
+
+#### 5155. [V2EX] [引战] [命名规范] 试用了下 odin/jai 使用的 Ada_Case 感觉还挺清晰的
+
+**问题描述 / Problem Description**:
+RT: 试用了下 odin/jai 使用的 Ada_Case 感觉还挺清晰的~ odin 的命名规范 https://github.com/odin-lang/Odin/wiki/naming-convention 除了少量 CONSTANT_CASE 外, 类型/enum: Ada_Case , 其他: snake_case 主流编程语言基本是 camelCase, PascalCase, snake_case 包圆。 如 JavaScript / TypeScript：主流只使用 camelCase 标识符、PascalCase 类型/类 优点 （ content via ChatGPT,
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220150#reply0
+
+---
+
+#### 5156. [V2EX] 致开发者： GLM-5.2 全量开放，前沿智能属于所有人
+
+**问题描述 / Problem Description**:
+在一些前沿模型突然变得不可用的时刻，我们选择相信另一条路：前沿智能不应只属于少数人，也不应被少数规则随时收回。它应该开放、可用、可构建，并服务于每一位开发者。 GLM-5.2 是智谱迄今能力最强的开源模型，支持真正可用的 1M 上下文，并在长程任务中继续保持领先。它也依旧是我们心中最强的国产 Coding 模型。 今晚 5:21，GLM-5.2 将面向 GLM Coding Plan 全量用户开放，覆盖 Lite / Pro / Max / 团队版。 GLM-5.2 API 将于下周上线，模型下周正式开源，遵循 MIT 协议。 A step closer to frontier intelli
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220146#reply15
+
+---
+
+#### 5157. [V2EX] 微信小程序原生开发自动化测试的疑问？
+
+**问题描述 / Problem Description**:
+微信小程序原生开发，我想需要构建完整的 基于本地脚本文件的 自动化回归测试，单元测试 小程序自动化测试，大家都用什么方式实现的，我想跑通一个标准之后，给 codex 执行的。但是看文档太乱了啊，所以来问问大家
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220138#reply1
+
+---
+
+#### 5158. [V2EX] 许多中转站宣称高 SLA，面向政企，可是政企真的会用吗？
+
+**问题描述 / Problem Description**:
+有没有安全与隐私风险
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220131#reply16
+
+---
+
+#### 5159. [V2EX] codex 5.5xhigh 对项目 AGENTS.md 的遵循度有点低，是我方式不对?
+
+**问题描述 / Problem Description**:
+之前一直在用 5.3-codex,很听话 ( https://www.v2ex.com/t/1217269 ) 然后今天，明明给了测试数据库却自己加了个内存 Mock.... : 而且上下文也没压缩过... 是不是反而应该拉低`推理`，有没有老哥说说什么挡位比较`听话`？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220126#reply2
+
+---
+
+#### 5160. [V2EX] 程序员的工作用 PC 硬盘不分区有什么麻烦么？
+
+**问题描述 / Problem Description**:
+硬盘分区的好处除了格式化 C 盘时可以保住其他分区的数据文件以外，是否还有其他好处？ 对于程序员群体来说，如果硬盘不分区(整块硬盘就一个分区)长期使用会有什么不便之处？(非程序员回答此问题请注明“本人不是程序员”)
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220124#reply14
+
+---
+
+#### 5161. [V2EX] 央视开始报道中转站了
+
+**问题描述 / Problem Description**:
+https://mp.weixin.qq.com/s/-s5ihFhJ9BqyYZRo7ZgwYw 看起来小中转站们离死不远了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220119#reply38
+
+---
+
+#### 5162. [V2EX] A/这个公司太招笑了
+
+**问题描述 / Problem Description**:
+这傻逼 CEO 天天喊，我家圈里养了一头饿狼，可吓人了，你们都得付费参观，谁参观还得我选择，我怕吓死你们。结果村长一听，这还了得？这么吓人？算了，干脆把狼圈封死吧
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220111#reply21
+
+---
+
+#### 5163. [V2EX] Fable 模型下架，额度重置，请问如何在 24 小时重置周期内登完 80%周限额
+
+**问题描述 / Problem Description**:
+1. 14 号中午是我正常的重置时间。 2. 我现在手头也确实有正常的自己的需求要做。 3. 所以，怎么能最大限度地利用这 24 小时的整周限额呢。 开 workflow 开 group 吗。但是感觉有 5 小时限额在这边卡着，应该登不动吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220109#reply4
+
+---
+
+#### 5164. How to request for a package to be added to the Fedora repositories?
+
+**问题描述 / Problem Description**:
+Tags: fedora, packaging | Score: 7 | Views: 1341 | Answers: 2 | Created: 2024-07-17
+
+**解决方案 / Solution**:
+There's a "packaging requests" wiki page, but it's rather long in backlog, because people that care for software are hard to find. You will need to find someone who will do the work of maintaining the package – you can volunteer to do that yourself, but I've done that with other software, and: it's a nontrivial amount of work, you don't want to do that "on top" of other things. If that someone (incl. you) is a new contributor to Fedora, they need an experienced packager to "sponsor" them, i.e. say they will mentor and assist them and vouch for their honesty. https://docs.fedoraproject.org/en-US/packaging-guidelines/ describes the process. You usually start out writing a .spec file for your own software (the openSuSE one might just work!), and show that it builds on your own https://copr.fedorainfracloud.org/ repo for the current version of Fedora (40, and rawhide). Once that's done, it's easier to convince people that maintaining this software package is feasible!
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/780324/how-to-request-for-a-package-to-be-added-to-the-fedora-repositories
+
+---
+
+#### 5165. cURL in bash script reads $HOME as /root/
+
+**问题描述 / Problem Description**:
+Tags: bash, fedora, curl | Score: 5 | Views: 1166 | Answers: 3 | Created: 2024-09-24
+
+**解决方案 / Solution**:
+Is this because I run this with sudo? yes If so, can I use another variable instead of $HOME to point to my home folder instead of root? Why not put your sudo command inside the script - for only those commands which need to be run as root, rather than running the whole script as root: Note that, for example sudo echo $HOME will print your expected home directory - because the expansion of that variable happens before the command is executed. To clear up some confusion Nickotine in the comments has regarding this answer: $ cat > test.sh echo $HOME ^C $ sh test.sh /home/dev $ sudo sh test.sh /root
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/784004/curl-in-bash-script-reads-home-as-root
+
+---
+
+#### 5166. How to stop CTRL-EVENT-SIGNAL-CHANGE spam in system logs
+
+**问题描述 / Problem Description**:
+Tags: fedora, networkmanager, wpa-supplicant | Score: 5 | Views: 3758 | Answers: 3 | Created: 2024-09-02
+
+**解决方案 / Solution**:
+This should fix it: sudo tee /etc/systemd/system/wpa_supplicant.service.d/log.conf << EOF [Service] LogLevelMax=2 EOF sudo systemctl daemon-reload sudo systemctl restart wpa_supplicant.service P.S. LogLevelMax=4 could be more preferrable, 2 silences the daemon a lot harder. December 29, 2024 update: This has now finally been fixed upstream. Ask your distro to apply the patch or push the latest version of the daemon.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/782886/how-to-stop-ctrl-event-signal-change-spam-in-system-logs
+
+---
+
+#### 5167. How do you back up an entire Fedora Linux system at the file level?
+
+**问题描述 / Problem Description**:
+Tags: fedora, grub, backup | Score: 2 | Views: 2244 | Answers: 1 | Created: 2024-07-10
+
+**解决方案 / Solution**:
+I'd use .img instead of tar , with partclone . It's on the repository. Change ext4 to match your file system type. partclone.ext4 Create a disk image: partclone.ext4 -c -d -s /dev/sda1 -o ~/sda1.img Restore the image using: partclone.ext4 -r -d -s ~/sda1.img -o /dev/sda1 The .img is the most portable and simple way to backup the entire partition.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/779857/how-do-you-back-up-an-entire-fedora-linux-system-at-the-file-level
+
+---
+
+#### 5168. How we can increase length of hostname from 64 to more characters in CentOS?
+
+**问题描述 / Problem Description**:
+Tags: centos, hostname | Score: 2 | Views: 1055 | Answers: 2 | Created: 2023-08-23
+
+**解决方案 / Solution**:
+Modify limits.h (change HOST_NAME_MAX from 64 to your desired length), recompile the kernel, libc, and any network related program that requires the value above. You can find its current value on a per system basis by running: $ getconf HOST_NAME_MAX 64 Rumour has it that there are some BSD versions out there that allow a significantly longer hostname, but what you're doing with those names doesn't look like great design.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/754717/how-we-can-increase-length-of-hostname-from-64-to-more-characters-in-centos
+
+---
+
+#### 5169. How to prevent Centos from recovery password in remount - Grub?
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, grub, password | Score: 2 | Views: 640 | Answers: 2 | Created: 2023-06-07
+
+**解决方案 / Solution**:
+Preventing password recovery in CentOS through remounting in GRUB can be challenging, it requires modifying the bootloader configuration and implementing additional security measures. It's difficult to completely eliminate all possible methods of password recovery. Here some approaches: Full Disk Encryption ,implementing full disk encryption using tools like LUKS (Linux Unified Key Setup) Secure Boot , enable secure boot in the system's BIOS or UEFI settings BIOS/UEFI Password , set a strong password for the system's BIOS or UEFI firmware to prevent unauthorized access to the boot settings Grub Password , configure a password for GRUB to prevent unauthorized access to its command-line interface The question you need to ask yourself is: user-friendliness/simplicity versus security. Physical access can bypass all restricted methods For me, physical access also means that someone steals the server, removes the hard drives, and reads them on their own computer. If you want to prevent someone from resetting the password if they have physical access, you would need to encrypt your disks using dm-crypt/cryptsetup/LUKS . However, if a remote user accesses your system, what does that have to do with GRUB? When it comes to remote access, the encryption of your disks using dm-crypt/cryptsetup/LUKS does not directly relate to GRUB. GRUB (Grand Unified Bootloader) is responsible for the initial booting process of your system and loading the operating system. It is not directly involved in disk encryption. To enhance security against physical access, you need to encrypt the hard drives. If you don't want to manually enter a password, the question is who and how the server will be restarted. If a person is present on-site, you can also create a USB stick that acts as a kind of dongle, storing a key for LUKS. When the server starts, you insert the USB stick, and the server reads the key/password from the USB stick to decrypt the hard drives and boot the system. If someone gains access to the USB stick, they will also have the key and password. Remote Access Security I need a remote solution.. Strengthen the security of remote access to your server. If you using secure protocols such as SSH with key-based authentication instead of passwords. Disable direct root login and create separate user accounts with limited privileges for remote access. Regularly update and patch your server's software to address any potential security vulnerabilities.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/748178/how-to-prevent-centos-from-recovery-password-in-remount-grub
+
+---
+
+#### 5170. AppArmor "network netlink raw" vs "network raw"
+
+**问题描述 / Problem Description**:
+Tags: debian, networking, apparmor | Score: 1 | Views: 145 | Answers: 1 | Created: 2025-11-05
+
+**解决方案 / Solution**:
+It is certainly described in 'man apparmor.d' by the NETWORK RULE = line. Generally 'inet' is a network type (address domain), but 'raw' is a socket type, which is a different kind of category. There's no "raw" network as such – all raw sockets are a subtype of some other socket type (e.g. a subtype of AF_INET for raw IPv4, or a subtype of AF_PACKET for raw Ethernet). The apparmor.d manual page says that network is followed first by the address domain (inet, inet6, netlink, etc) and then by socket type (stream, dgram, raw, etc), and either or both of those parameters can be omitted. So in network inet you are specifying the domain 'inet' (meaning IPv4) but not specifying the socket type, so it covers network inet stream , network inet dgram , network inet raw , and so on. Whereas in network raw you are specifying the socket type 'raw' but not specifying a domain (meaning it applies to every kind of raw sockets, e.g. it implies network inet raw , network inet6 raw , network unix raw , and so on). As for Netlink – the domain AF_NETLINK is a pseudo-network interface used for communicating with the kernel. One very common use of Netlink is listening to udev "hardware hotplug" events to detect when e.g. a new device has been connected (no, those don't go through D-Bus). Other than that, programs use Netlink mainly to interact with network configuration – e.g. configuring IP addresses and routes. A browser might use Netlink to get local IP addresses for WebRTC, or check for presence of a default route to know whether the system might have Internet access at all. For Netlink, both netlink raw and netlink dgram exist and do the same thing, so I don't think it makes sense to block or allow specifically just netlink raw . Either you allow all of Netlink or you don't. (It would make more sense to rule based on the Netlink protocol field instead.) As for real network types (IPv4, inet6) – their "raw sockets" are only allowed to be used by root; there's likely no point in restricting them via AppArmor.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801068/apparmor-network-netlink-raw-vs-network-raw
+
+---
+
+#### 5171. systemd-journald writes an average of 16MB per hour!
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, systemd, systemd-journald | Score: 1 | Views: 505 | Answers: 2 | Created: 2025-04-18
+
+**解决方案 / Solution**:
+I thought of making a lot of comments under your question, but a) that would have been too much and b) probably would have amounted to what you wanted to know from an answer, even if it wasn't primarily focused on answering your discrete questions. So. Here goes an answer instead. sudo iotop -a […] systemd-journald: Over 3h40m it wrote 60MB! You're confusing throughput with accumulated data. If my (in this case Python, but any programming language will do) program does f = open("somelogfile.bin", "wb") while(True): f.seek(0) f.write(b"x") when you just count the numbers of bytes written per second, this program writes many megabytes per second, but all it really does is update the first byte over and over. ls -l somelogfile.bin would tell you that file is 1 B large. One of the features of systemd-journal's binary log format is that it's seekable and relatively crash-safe. To achieve that, it's probably updating some fields regularly, even if it's not appending new data. (The format is publicly documented. I'm too lazy to check.) (note that write buffers can further complicate the relationship between what updating a file and writing a file to disk means.) Now, first check: How large is your journal really? journalctl --disk-usage will tell you something like 512 MB (at least it does on my machine). That number will be roundabout constant, because systemd-journald scrubs previous logs when they are old enough and you're running above a certain size threshold. Next, check what's really going on in things that get logged: journalctl -b0 -x -f -e # ^ ^ ^ ^ # | | | | # \———————————— 0: current boot's logging only # | | | (ignore things that were logged during previous boots) # | | | # \———————— add a bit more explanation # | | # \————— follow the output as it comes in live # | # \— scroll to end will show you what your system logs. Add --user to see what your user services log. Is there something scrolling by at high speeds? if not, well, then no new things are logged. If yes, that's the problem, not your logging system! (don't shoot the messenger.) If too much is happening at once, it's possible to get a bit of statistics on what logged how many messages since last boot journalctl -b0 --output=cat --output-fields=UNIT | sort | uniq --count | sort -n In that command line you already recognize -b0 as meaning "this current boot", --output=cat tells journalctl to output unformatted text, and --output-fields=UNIT tells it to only output the unit that's logging the message (not the message, not the timestamp etc). sort sorts things alphabetically, uniq -c takes sorted input and prints the count of consecutive identical lines, and the final sort -n sorts the output of that numerically. Should I be worried about my SSD system disk? I can't tell you. But my SSDs are rated for a write volume of 3 Petabytes mean time to failure, so assuming you have a smaller one with lower-quality memory, say, it's rated for 0.5 PB MTTF. That means that at 16 MB/h, 0.5·10¹⁵ B / (16·10⁶ B/h) = 31250000 h = 3567.4 a; in other words, if you had 1000 disks experiencing exactly this write load, after 3567 years, 500 would have failed. You have one disk. You would need to assume a statistic model for when hard disks fail (they obviously don't all fail at the exact same second in 3567 years. Some will fail earlier, some later, the question is the *distribution of that), which nobody knows (a datacenter SSD manufacturer might share their statistics with their high-profile customers; Google will have enough statistics themselves to be able to estimate this themselves. We just can't know.). A common statistical model for device failures is an exponential model (a lightbulb can't fail twice). This can't be correct here in detail (that's due to wear leveling, necessary transforming the failure model of the individual flash cells), but it's a starting point. It has a cumulative distribution function: F ( t , λ ) = 1 - e - λt , where t is time, and λ is the rate , which we don't know yet. But by what "mean time to failure" means, we F ( t MTTF , λ ) = 0.5, so (log being the natural logarithm) 0.5 = 1 - e - λt MTTF 0.5 = e - λt MTTF log 0.5 = log e - λt MTTF = - λt MTTF · log e = - λt MTTF , yielding the realization that λ = - log 0.5 / t MTTF , and in our case, λ = - 0.693147 / 3567.4 [1/a] = 0.00019430 / a. Which, inserted in the original cumulative density function, F ( t ) = 1 - e -0.00019430· t , means that after a realistic lifetime of t =15 years, your SSD would still be working with a probability of 0.99709; in other words, if your low-quality SSD did nothing but write logs at this rate, you'd lose it to write load within 15 years with a probability of 3 in 1000. You're fine.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793914/systemd-journald-writes-an-average-of-16mb-per-hour
+
+---
+
+#### 5172. Cgroups permission denied on Ubuntu 22.04.5 but works on Ubuntu 22.04.03
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, cgroups | Score: 1 | Views: 465 | Answers: 1 | Created: 2025-04-17
+
+**解决方案 / Solution**:
+You may want to check if you should use cgroups v1 or v2 ( https://man7.org/linux/man-pages/man7/cgroups.7.html , look for the paragraph "Cgroups version 1 and version 2" and ... actually read the whole page.), as depending on the application's code (and your kernel version), some may support one or the other.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793886/cgroups-permission-denied-on-ubuntu-22-04-5-but-works-on-ubuntu-22-04-03
+
+---
+
+#### 5173. After crash, Ubuntu boots into boot menu
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, boot, troubleshooting | Score: 1 | Views: 141 | Answers: 1 | Created: 2025-03-19
+
+**解决方案 / Solution**:
+Normally, this shouldn't be a problem if the system boots normally after pressing the buttons multiple times. The Windows entry is from your old installation. First step: Edit your boot order in BIOS, remove both entries, add the device where Ubuntu is installed, and reboot. Second step (optional): Edit your boot order in BIOS again, optionally remove the device or keep the entry and add Ubuntu (if present), and reboot. See what works. I sometimes get the message even when nothing has happened before, when starting my laptop. My OS is on a USB stick, and I just switch the USB port, reboot and then it boots normally without changing anything in the BIOS. That's why I asked whether it's the USB or another device.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792704/after-crash-ubuntu-boots-into-boot-menu
+
+---
+
+#### 5174. IPIP tunnel between two docker containers on separate servers
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, iptables, docker, route, iproute | Score: 1 | Views: 199 | Answers: 2 | Created: 2025-03-08
+
+**解决方案 / Solution**:
+As I am not sure whether this is the reason this should probably rather be a comment than an answer but it is too much text for that... My guess is that DNAT does not work with all IP protocols. I do not see a reason why you should not be able to just rewrite IP addresses but I am not familiar with the kernel implementation so that does not mean much. There may be reasons. I remember that I once tried DNAT with IPsec packets, and that failed. I just did a quick search for what IP protocols iptables DNAT supports but did not find anything. And then I went completely crazy and had a look at the kernel source (never having done that before so without much hope) but I found this : static bool l4proto_manip_pkt(struct sk_buff *skb, unsigned int iphdroff, unsigned int hdroff, const struct nf_conntrack_tuple *tuple, enum nf_nat_manip_type maniptype) { switch (tuple->dst.protonum) { case IPPROTO_TCP: return tcp_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_UDP: return udp_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_UDPLITE: return udplite_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_SCTP: return sctp_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_ICMP: return icmp_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_ICMPV6: return icmpv6_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_DCCP: return dccp_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); case IPPROTO_GRE: return gre_manip_pkt(skb, iphdroff, hdroff, tuple, maniptype); } /* If we don't know protocol -- no error, pass it unmodified. */ return true; } I may completely misunderstand what is happening there but it seems to me that the set of protocols supported in NAT is quite limited and does not contain IPIP (or IPsec). So I guess it would make sense to try DNAT with GRE instead. If you give that a try I would be glad to know about the results.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792111/ipip-tunnel-between-two-docker-containers-on-separate-servers
+
+---
+
+#### 5175. Can't mount exfat external hard disk drive: "Volume was not properly unmounted."
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, external-hdd, exfat | Score: 1 | Views: 1288 | Answers: 1 | Created: 2025-03-04
+
+**解决方案 / Solution**:
+The issue could be caused by power fluctuations, software, or simply hardware failure or due to aging. No matter what you do, even if your system has 0% errors, you should always have backups of your most important data, that’s obvious. I would try the following steps, even if some of them might not make sense! I would create a backup of the hard drive first before performing the following steps with ddrescure or dd In which case should I prefer dd over GNU ddrescue? What's the difference between ddrescue, gddrescue, and dd_rescue? Why can't ddrescue just recover blocks used by the filesystem? Does it make sense to create a backup of the hard drive using ddrescue even if no files are being displayed? Yes, it absolutely makes sense to create a backup of the hard drive using ddrescue , even if no files are being displayed Data recovery Even if no files are displayed, the data might still be present on the hard drive but inaccessible due to file system errors or corruption. ddrescue copies the raw data of the hard drive sector by sector, regardless of the file system. This means it can recover data even if the file system is damaged. Safety Before attempting any repairs (e.g. with fsck or chkdsk), it’s crucial to have a backup. Repair tools can sometimes cause further damage, especially if the hard drive is already compromised. Bad sectors ddrescue is specifically designed to bypass bad sectors and recover as much data as possible. It attempts to copy readable sectors first and then returns to the bad sectors later to try reading them again. Other Sources and Comparison of disk cloning software: Comparison of disk cloning software Cloning data from a damaged SSD USB ports, cables, a different PC, and a different OS Try other USB ports. Use a different USB cable and also try other USB ports. If you're using a USB hub, repeat the same steps again. If the hub has its own power supply, try different cables for that as well. Use a different PC if possible and repeat the steps. If at all possible, try connecting the hard drive to a Windows PC and repeat the steps. In this post, I’ve compiled a small list of tools that you can use to search for errors, repair, or recover lost data, and there are even many more available: PC was hanging, "Physical Volumes: not OK (BAD)" Errors don’t only occur in the data area, your hardware itself could have issues due to age or other factors, like physical or virtual failures. Usually, a combination of different steps and tools, like the list above and others, is used to analyze errors, and not every report or tool is 100% accurate Check/display the file format again with sudo blkid /dev/sdb1 or sudo /sbin/blkid /dev/sdb1 file -s /dev/sda1 Try to mount it again, with the file format specified using -t and other file format Mounting with the wrong file format could cause the system to attempt repairs, potentially leading to damage. So be careful! sudo mount -t exfat /dev/sdb1 /media/myself/Medias sudo mount -t ntfs /dev/sdb1 /media/myself/Medias If not already installed, install NTFS support sudo apt-get install ntfs-3g sudo mount -t ntfs-3g /dev/sdb1 /media/myself/Medias Try updating the firmware of your SSD There is a risk of losing your SSD and the data stored on it when updating to a new firmware! How to update Samsung SSD firmware from Ubuntu? Is it possible to take an image of the firmware of HDD and SSD? If nothing has helped If there are critical files on it, a professional data recovery company or specialist with the necessary tools and hardware would be required. However, this can be very expensive. Consider your options carefully and always have backups in the future. What could have caused this SSD to be no longer recoverable?
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791951/cant-mount-exfat-external-hard-disk-drive-volume-was-not-properly-unmounted
+
+---
+
+#### 5176. Mount disk with an unknown filesystem
+
+**问题描述 / Problem Description**:
+Tags: fedora, mount, raid | Score: 1 | Views: 597 | Answers: 1 | Created: 2024-09-24
+
+**解决方案 / Solution**:
+It might be a MD RAID, you would assemble that with mdadm --assemble --scan . The RAID superblock will say how many devices that array consisted of, and if some are missing, the array will refuse to start. The --run option can be added to start if the minimum number of disks is present, which for a RAID1 would be one.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/784010/mount-disk-with-an-unknown-filesystem
+
+---
+
+#### 5177. Unexplained X11 crash with QXL video in kvm/virt-manager under load
+
+**问题描述 / Problem Description**:
+Tags: fedora, x11, kvm, libvirt, virt-manager | Score: 1 | Views: 1207 | Answers: 2 | Created: 2024-09-06
+
+**解决方案 / Solution**:
+I experience the same issues running Fedora 40 and kernel 6.10. In the meantime I switched the VM's video driver to Virtio, but as you said I'm experiencing screen adjustments issues, for example the cursor is misaligned to the VM's screen when in full screen mode, but at least I get no more crashes. If you have managed to find a solution to the QXL or Virtio problems, please do let me know. I'll do the same if I find any
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/783120/unexplained-x11-crash-with-qxl-video-in-kvm-virt-manager-under-load
+
+---
+
+#### 5178. How to get OpenVPN's remote peer external (real) IP address?
+
+**问题描述 / Problem Description**:
+Tags: fedora, routing, openvpn, ip-address | Score: 1 | Views: 278 | Answers: 1 | Created: 2024-09-01
+
+**解决方案 / Solution**:
+If the IP address is not in the output of nmcli connection show , then as far as I can tell the best source would be inspecting the established TCP connections: port 1194 for OpenVPN, e.g. via ss --tcp --ipv4 -o state ESTABLISHED dport = :openvpn ; the output of ss can be massaged (see man ss ). There's a UDP mode for OpenVPN, but I think there's a control link that's always there going through TCP. If that's not the case, well, you already know a solution (that's not great, I agree) with journalctl .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/782862/how-to-get-openvpns-remote-peer-external-real-ip-address
+
+---
+
+#### 5179. Wi-Fi not working and Wi-Fi Settings not visible in Settings on Linux
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, fedora, wifi, windows | Score: 1 | Views: 1946 | Answers: 2 | Created: 2024-08-31
+
+**解决方案 / Solution**:
+Since the WiFi adapter does not appear in the lspci listing, it seems to have been completely disconnected from the PCIe bus. Some laptops have a mechanical switch or function key for "flight mode", that disables WiFi transmitters. This would be one possible cause for the WiFi adapter apparently vanishing completely off the bus like that. Normally, the PCIe-connected WiFi adapter should be detectable by lspci even without drivers, but a "flight mode" switch/function implemented in a suitable way can disable it completely. In Dell Latitude 5480 Owner's Manual , page 16 says the keystroke to enable/disable wireless would be Fn + PrntScr . However, that doesn't seem plausible, as according to the picture of the keyboard on page 14, PrntScr itself is a Fn key combination, and the symbols on the keyboard would suggest it could be Fn + Home instead. Depending on the current state of the "Fn key lock", pressing the appropriate key either alone, or together with the Fn key might allow the WiFi adapter to reappear. Normally it should be then detected by the kernel, which should trigger the appropriate module to be autoloaded if it isn't alreadly loaded. If this does not help, also check the BIOS settings, paying particular attention to the "Wireless Radio Control" setting in the "Power Management" BIOS settings screen, and all the options in the "Wireless" BIOS settings screen. (Pages 80 and 82 in the Owner's Manual linked above.) Based on your later comments, and the fact that even Ubuntu 24.04 LTS cannot detect the wireless adapter any more, it looks like either the WiFi adapter itself or the "flight mode" circuitry of the laptop is broken.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/782822/wi-fi-not-working-and-wi-fi-settings-not-visible-in-settings-on-linux
+
+---
+
+#### 5180. How to merge 2 partitions (without data loss)
+
+**问题描述 / Problem Description**:
+Tags: fedora, partition | Score: 1 | Views: 587 | Answers: 1 | Created: 2024-08-27
+
+**解决方案 / Solution**:
+Just make sure the partitions you want 2 merge are next eachother, then boot https://gparted.org/liveusb.php and resize the part you want bigger, thanks @maxemillian
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/782594/how-to-merge-2-partitions-without-data-loss
+
+---
+
+#### 5181. Kernel image (vmlinuz...) on /boot has always the same date/time across different compilations. Where is it specified?
+
+**问题描述 / Problem Description**:
+Tags: fedora, rpm, packaging, rpmbuild, rpm-spec | Score: 1 | Views: 135 | Answers: 1 | Created: 2024-08-14
+
+**解决方案 / Solution**:
+After digging a lot, in parallel endorsed by Stephen Kitt's comment, I found the Fedora documentation that explains how mtime for the packages are set on the link below: https://fedoraproject.org/wiki/Changes/ReproducibleBuildsClampMtimes extracted text: 🔗 Summary The %clamp_mtime_to_source_date_epoch RPM macro will be set to 1. When an RPM package is built, mtimes of packaged files will be clamped to $SOURCE_DATE_EPOCH which is already set to the date of the latest %changelog entry . As a result, more RPM packages will be reproducible: The actual modification time of files that are e.g. modified in the %prep section or built in the %build section will not be reflected in the resulting RPM packages. Files in RPM packages will have mtimes that are independent of the time of the actual build. So, basically the solution to change the mtime of the generated package files is to add a new changelog entry in the %changelog section of the .spec file with a more recent date. The mtimes of the installed files will be set accordingly.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/781953/kernel-image-vmlinuz-on-boot-has-always-the-same-date-time-across-differen
+
+---
+
+#### 5182. Cisco AnyConnect VPN fails with illegal or unsupported version
+
+**问题描述 / Problem Description**:
+Tags: fedora, vpn, cisco, openconnect | Score: 1 | Views: 1200 | Answers: 1 | Created: 2024-07-24
+
+**解决方案 / Solution**:
+It seems that some old and deprecated ciphers might be used on the VPN server side. Therefore, the solution that worked for me was to allow legacy: sudo update-crypto-policies --set LEGACY Following this, I was establish the connection: Connected to HTTPS on vpn.vpn.vpn with ciphersuite (TLS1.0)-(DHE-CUSTOM1024)-(AES-256-CBC)-(SHA1)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/780730/cisco-anyconnect-vpn-fails-with-illegal-or-unsupported-version
+
+---
+
+#### 5183. Execute a script when powering off, but not when rebooting (using systemd)
+
+**问题描述 / Problem Description**:
+Tags: systemd, fedora, shutdown | Score: 1 | Views: 323 | Answers: 3 | Created: 2024-07-16
+
+**解决方案 / Solution**:
+I tried to start a script, when powering off and it worked. Made a service unit called myservice.service [Unit] Description=Run mycommand at shutdown DefaultDependencies=no Before=poweroff.target [Service] Type=oneshot ExecStart=/usr/bin/bash -->absolute path to script<-- [Install] WantedBy=poweroff.target placed it in /usr/lib/systemd/system and enable it systemctl enable myservice.service
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/780290/execute-a-script-when-powering-off-but-not-when-rebooting-using-systemd
+
+---
+
+#### 5184. Can't open gnome-terminal on fedora 40
+
+**问题描述 / Problem Description**:
+Tags: fedora, gnome-terminal, segmentation-fault | Score: 1 | Views: 2121 | Answers: 2 | Created: 2024-06-21
+
+**解决方案 / Solution**:
+OK, that looks like a bug. Not sure what causes it – but the first order of the day would be running an update; assuming you can still "check for available updates" via GUI, that should work. If you can't find that, switching to a virtual terminal using Alt + F2 should work; log in there, and run sudo dnf update -y (The -y is for "yes to everything"; since you say you haven't done anything special, at this point it's very unlikely that things go wrong here). Afterwards, systemctl reboot (or just selecting to reboot your system from the graphical interface) to restart your computer. You can also install a different terminal emulator to get you working again, sudo dnf install alacritty , for example (or install alacritty through the graphical software manager).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/778768/cant-open-gnome-terminal-on-fedora-40
+
+---
+
+#### 5185. Rescue/Emergency mode with Fedora 12 and GNU GRUB 0.97
+
+**问题描述 / Problem Description**:
+Tags: fedora, grub, disk, reboot | Score: 1 | Views: 294 | Answers: 1 | Created: 2024-06-20
+
+**解决方案 / Solution**:
+Thanks to @frostschutz answer I did it. Instead of using e I used a so I could append into the line and at the end of the line I added single . With this, I could enter the emergency mode and do whatever I needed to do with root acces. I repost it as an answer so it is more visible.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/778672/rescue-emergency-mode-with-fedora-12-and-gnu-grub-0-97
+
+---
+
+#### 5186. Configure Grub2 to boot multiple Linux installations on multiple drives
+
+**问题描述 / Problem Description**:
+Tags: fedora, grub2 | Score: 1 | Views: 499 | Answers: 1 | Created: 2024-06-12
+
+**解决方案 / Solution**:
+Note the Differences from BootLoaderSpec chapter in the Fedora change log you linked: Only the device grub is loaded from is searched for config files. The following keywords have not currently been implemented: multiboot, module, version, machine-id, filesystem, chainload, efi, devicetree. If encountered, they are ignored. These will somewhat restrict what you can do with the BLS-style setup compared to a traditional one. The files in /boot/loader/entries by default include the options $kernelopts line, which refers to a variable set in the grubenv file. By default, that variable includes the root= kernel boot parameter. As a result, unless you have modified something, your F39 and F40 will both end up trying to use the same root filesystem. That might explain why F39 dropped into emergency mode. If you want the F39 and F40 to use separate root filesystems, you would have to modify the BLS config files of one or the other OS to use a different options line, perhaps referring to a different GRUB environment variable or to not use a GRUB variable at all. Otherwise the use of the single $kernelopts variable defining a single root filesystem will become a point of conflict between the two distributions.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/778188/configure-grub2-to-boot-multiple-linux-installations-on-multiple-drives
+
+---
+
+#### 5187. CentOS 7 upgrade openssh to 9.3p2
+
+**问题描述 / Problem Description**:
+Tags: centos, openssh | Score: 1 | Views: 13102 | Answers: 2 | Created: 2023-08-25
+
+**解决方案 / Solution**:
+You set the type of systemd service to notify, but that requires the daemon to have been built with systems support, which I at least don't see in the ./configure line. Other than that, you should not be doing this . You've read somewhere that this vulnerability is bad and that you need to update your system, and do you jumped and replaced a vital part of it with something that you with zero insight replaced. You probably broke quite a few things on the way that depend on openssh and libraries, so congratulations, you're your system's worst vulnerability. https://forums.centos.org/viewtopic.php?f=47&t=80334 that thing is already patched upstream, a yum update is all that it would have taken. But now you've built the software (as root, just to make matters worse), and just randomly installed things. So what you'll have to do is a make uninstall , hoping your system continues to run at that point, then a yum update . Luckily, this should reinstall all potentially affected parts of your openssh installation.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/754898/centos-7-upgrade-openssh-to-9-3p2
+
+---
+
+#### 5188. How do i install Maria DB Server on a offline Centos VM?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, centos, software-installation | Score: 1 | Views: 728 | Answers: 2 | Created: 2023-08-15
+
+**解决方案 / Solution**:
+You'll have to download the rpm -packages for Maria DB and its depedencies. Transfer the files to the VM and install via (e.g.): rpm -i mariadb-1.4.3.rpm For showing the dependcies of an rpm -file use: rpm -qpR mariadb-1.4.3.rpm But the installation will also just show missing dependencies when you run it.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/754061/how-do-i-install-maria-db-server-on-a-offline-centos-vm
+
+---
+
+#### 5189. DISPLAY=:0: Command not found
+
+**问题描述 / Problem Description**:
+Tags: centos, display, tcsh | Score: 1 | Views: 716 | Answers: 1 | Created: 2023-07-12
+
+**解决方案 / Solution**:
+tcsh has different syntax from Bash. To set your variable in that shell and make it available for the programs you'll call, you have to use the following command: setenv DISPLAY :0 ssh .... Or if you want that variable only to launch ssh (as mentioned in the answer you linked), you can use env before the command: env DISPLAY=:0 ssh ......
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/751332/display-0-command-not-found
+
+---
+
+#### 5190. Installing npm on Centos 7
+
+**问题描述 / Problem Description**:
+Tags: centos, node.js, npm | Score: 1 | Views: 2801 | Answers: 2 | Created: 2023-06-13
+
+**解决方案 / Solution**:
+I got it work: cloning it from Github - V19.9.0 Installing C++ 11 Setting the proper export variables for configure Compiling and installing it. This are now the installed versions: root@server:/usr/local/src/node => npm version { npm: '9.6.3', node: '19.9.0', acorn: '8.8.2', ada: '1.0.4', ares: '1.19.0', brotli: '1.0.9', cldr: '42.0', icu: '72.1', llhttp: '8.1.0', modules: '111', napi: '8', nghttp2: '1.52.0', nghttp3: '0.7.0', ngtcp2: '0.8.1', openssl: '3.0.8+quic', simdutf: '3.2.3', tz: '2023c', undici: '5.21.0', unicode: '15.0', uv: '1.44.2', uvwasi: '0.0.16', v8: '10.8.168.25-node.16', zlib: '1.2.13' } root@server:~ => cat /etc/centos-release CentOS Linux release 7.9.2009 (Core) root@server:~ => ldd --version ldd (GNU libc) 2.17 Copyright (C) 2012 Free Software Foundation, Inc. This is free software; see the source for copying conditions. There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. Written by Roland McGrath and Ulrich Drepper.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/748789/installing-npm-on-centos-7
+
+---
+
+#### 5191. Kernel Panic after replacing CMOS battery
+
+**问题描述 / Problem Description**:
+Tags: centos, kernel | Score: 1 | Views: 448 | Answers: 1 | Created: 2023-05-31
+
+**解决方案 / Solution**:
+The messages No volume groups found mount: could not find filesystem '/dev/root' all hint to that the kernel can't find the disk containing the root filesystem. While the disk can be accessed by the BIOS and the bootloader using the BIOS, it seems like it is inaccessible using the Linux drivers built in the kernel or provided by the initramfs under the current BIOS settings. On most mainboards the BIOS settings are kept in volatile memory that is kept alive by the CMOS battery when the system is not connected to a power supply. By removing the battery all BIOS settings were likely reset. You should check if the BIOS has settings for an SATA controller mode. Many BIOSes support running the SATA controller in "Legacy", "AHCI" or "RAID" mode. If this setting exists, try out "Legacy" or "AHCI" and check if it boots. "RAID" mode may cause data loss if it wasn't setup that way initially, so make a backup before trying it out.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/747608/kernel-panic-after-replacing-cmos-battery
+
+---
+
+#### 5192. Unable to run rsyslogd as non-root user on CentOS Stream 9
+
+**问题描述 / Problem Description**:
+Tags: centos, rhel, rsyslog | Score: 1 | Views: 619 | Answers: 1 | Created: 2023-05-27
+
+**解决方案 / Solution**:
+This seems to be an unfortunate change that forbids anyone from running rsyslogd without root privileges. The code is here if ((capng_rc = capng_apply(CAPNG_SELECT_BOTH)) != 0) { LogError(0, RS_RET_LIBCAPNG_ERR, "could not transfer the specified internal posix capabilities " "settings to the kernel, capng_apply=%d\n", capng_rc); exit(-1); } but the 13 capabilities required are extensive and most users do not have, for example, CAP_SETUID allows you to change your id. Clearly, if rsyslogd is started as root, this code is a good idea, dropping all but the necessary capabilities. However, if you started off as non-root, or without some of the capabilities, the call of exit() is brutal. A solution is to download rsyslogd from the sources, and rebuild it without adding the configure option --enable-libcap-ng (which is not there by default anyway). Alternatively, you can create a simple shim to dummy up the call to capng_apply() so that it returns 0. Create a file shim_capng.c holding: /* * capture calls to a routine and replace with your code * https://unix.stackexchange.com/a/747252/119298 * gcc -Wall -O2 -fpic -shared -ldl -o shim_capng.so shim_capng.c * LD_PRELOAD=/path/to/shim_capng.so rsyslogd */ #include <stdlib.h> #include <stdio.h> #include <cap-ng.h> int capng_apply(capng_select_t set){ fprintf(stderr, "not calling real capng_apply\n"); return 0; } and compile it with gcc -Wall -O2 -fpic -shared -ldl -o shim_capng.so shim_capng.c You will probably need to install some packages such as libcap-ng-devel , the name depending on your distribution, to have the include file cap-ng.h . Replace your rsyslogd command with LD_PRELOAD=/path/to/shim_capng.so rsyslogd ...
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/747224/unable-to-run-rsyslogd-as-non-root-user-on-centos-stream-9
+
+---
+
+#### 5193. resize partition overlapping parted
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, fdisk, parted, resize2fs | Score: 1 | Views: 1304 | Answers: 1 | Created: 2023-05-26
+
+**解决方案 / Solution**:
+The answer which work from Frostschutz : for parted, 100% means you are trying to resize the partition to the end of disk. that doesn't work since you have other partitions in the way. try unit s print free to get the specific sector offset you can resize to
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/747109/resize-partition-overlapping-parted
+
+---
+
+#### 5194. Is it possible to downgrade an XFS filesystem in order for it to be compatible with an older kernel?
+
+**问题描述 / Problem Description**:
+Tags: centos, rhel, xfs | Score: 3 | Views: 1943 | Answers: 1 | Created: 2023-05-05
+
+**解决方案 / Solution**:
+It seems that is the relink feature flag, and it would make sense that such a file system could only be mounted read only on a kernel predating this (IMHO very useful) file system feature. There's no tool to disable that feature after it's been used at file system creation time. You will have to make a new file system and copy over the contents of the old. mkfs.xfs -m reflink=0 -f yourfilesystemimage
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/745088/is-it-possible-to-downgrade-an-xfs-filesystem-in-order-for-it-to-be-compatible-w
+
+---
+
+#### 5195. Control characters (\001-\x01 and \002-\x02) not treated correctly by Gnome-Terminal
+
+**问题描述 / Problem Description**:
+Tags: bash, centos, terminal | Score: 2 | Views: 822 | Answers: 1 | Created: 2023-05-08
+
+**解决方案 / Solution**:
+These control characters are not meant to be printed to the terminal at all – they're meant to be consumed by the Readline library before it displays the prompt, as their purpose is to help Readline's width calculations (precisely because it has to determine the width of your prompt without any help from the terminal 1 ). So they are only useful if you use read together with the -e ("use Readline") option, but you have to omit them from the prompt otherwise. What you're seeing is more or less normal differences in behavior between Konsole and GNOME Terminal (or specifically libVTE) when printing "unprintable" characters that otherwise have no defined effect to a terminal, and it is not just GNOME Terminal that makes control characters visible – other terminals may do so as well. The same applies to the \[ \] sequences – they are there specifically for Bash for use in PS1 or PS2 (which really just converts them to \x01 and \x02 before giving the prompt string to the Readline library) and make no sense in any other context. 1 (The terminal doesn't need such help as it is the renderer and already understands what the wrapped \e[... sequences do and how they affect the layout.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/745279/control-characters-001-x01-and-002-x02-not-treated-correctly-by-gnome-term
+
+---
+
+#### 5196. How do i distribute my commercial application using the yum package manager?
+
+**问题描述 / Problem Description**:
+Tags: centos, fedora, rhel, yum | Score: 2 | Views: 316 | Answers: 1 | Created: 2023-04-14
+
+**解决方案 / Solution**:
+Create your (binary) RPM packages and don't forget to sign them with your GPG key. Create the yum repository layout and meta data files with for example the createrepo command/tool. Recommended: sign the repository after it has been created by running: gpg --detach-sign --armor repodata/repomd.xml This will create a repomd.xml.asc file in the repodata directory which for modern versions of yum this will allow yum to verify that the repository metadata came from the owner of the gpg key. Publish the resulting repo directory layout on a suitable sub domain of yours e.g. https://repo.example.com/yum/..... Consider a more complex directory layout with multiple repo's when you create different binary RPM packages for different distro's , major versions, CPU architectures etc. Publish your ASCII armored public GPG key on a suitable location, for example on https://repo.example.com/publickeys/example-appp-rpm-signing-key.asc In you App's installation instructions instruct people to add the repository file /etc/yum.repos.d/example-app.repo: [example-app] name=Example App baseurl=https://repo.example.com/yum/..... gpgcheck=1 enabled=1 gpgkey=https://repo.example.com/publickeys/example-appp-rpm-signing-key.asc Add your public signing key to the RPM keyring [sudo] rpm --import ttps://repo.example.com/publickeys/example-appp-rpm-signing-key.asc Alternatively ; provide RPM packages that combine steps 5 & 6 ; similar to how for example EPEL distributes release packages: https://docs.fedoraproject.org/en-US/epel/
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/742898/how-do-i-distribute-my-commercial-application-using-the-yum-package-manager
+
+---
+
+#### 5197. systemd-journal-flush.service Failed with result timeout - Failed to start Flush Journal to Persistent Storage
+
+**问题描述 / Problem Description**:
+Tags: centos, systemd, systemctl, systemd-journald, timeout | Score: 2 | Views: 7939 | Answers: 2 | Created: 2023-03-18
+
+**解决方案 / Solution**:
+The journald daemon is not flushing to /var/log/journal because that directory doesn't exist, and /etc/systemd/journald.conf does not tell it to create that directory. Unfortunately, journalctl --flush waits for the flush to complete, which it never will. The solution which worked for me was this: sudoedit /etc/systemd/journald.conf After the [Journal] line, add a line that says Storage=persistent Reboot. If you read the journald.conf(5) man page, you'll see this explanation for how persistent differs from the default auto : "auto" is similar to "persistent" but the directory /var/log/journal is not created if needed, so that its existence controls where log data goes. By changing the configuration and rebooting, you're allowing journald to create the missing directory with the right permissions (which is, apparently, owner=root, group=systemd-journal, mode=02755, with an ACL granting explicit r-x access to groups adm and wheel). Of course, you could create it yourself and avoid the need to reboot.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/740162/systemd-journal-flush-service-failed-with-result-timeout-failed-to-start-flush
+
+---
+
+#### 5198. `Sessions should be nested with care. Unset $TMUX to force.` using Byobu and Fish load on boot
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, tmux, fish, byobu | Score: 1 | Views: 948 | Answers: 1 | Created: 2025-02-27
+
+**解决方案 / Solution**:
+The issue is because Byobu and Fish are both creating a individual TMUX session, causing a fatal error. It seems the newer Ubuntu versions cannot handle this. So the solution is to get Byobu to handle loading Fish shell, instead of Fish itself. Note: This assumes that you can log into and use the root account. If you have been solely using root on your server and customising it, you really shouldn't have been - root needs to stay as it is, and only for debugging purposes. Firstly you need to deactivate Fish shell: Log into the system as root . DigitalOcean has a "Recovery Console" if you have deactivated SSH for the root account. Enter chsh -s $(which bash) foobar (Replace "foobar" with the username of the account that is having the issue). This will switch to using Bash shell for the account in question. Now you should be able you log into the account, and it will just load Byobu. If you now type fish it should load a Fish shell fine, but it won't persist when you next reboot or create a new shell. Warning: If you enter chsh -s $(which fish) , you will be back to square one. So you now need to make it persist: nano ~/.byobu/bin/.tmux.conf . Enter this, which will make Byobu load Fish shell on each new shell: set -g default-shell /usr/bin/fish set -g default-command /usr/bin/fish Hit Ctrl + X , y , and then return key. That will save the changes to the file. That's it! 🙌 Byobu will now handle loading a Fish shell.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791687/sessions-should-be-nested-with-care-unset-tmux-to-force-using-byobu-and-fis
+
+---
+
+#### 5199. Ham Radio simulator: live streaming microphone audio between 2 browsers, connected via ubuntu 22
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, audio, socket, streaming, microphone | Score: 1 | Views: 263 | Answers: 1 | Created: 2025-02-22
+
+**解决方案 / Solution**:
+If you're looking for a simple open-source API solution, I recommend WebRTC . WebRTC is open source and was developed by Google under the BSD license. It is optimized for peer-to-peer audio/video streaming without a server relay and lower latency. You can implement Push-to-Talk (PTT) and control WebRTC with a simple button. In my opinion, WebRTC is the better choice for your project because it is optimized for real-time audio . It is used for video, image, and audio capturing with smartphones and tablets in one of our web project. You will need a signaling server to coordinate connections between the clients, and maybe a STUN or TURN server to bypass network issues such as NAT (Network Address Translation). WebRTC API WebRTC (Web Real-Time Communication) is a technology that enables Web applications and sites to capture and optionally stream audio and/or video media, as well as to exchange arbitrary data between browsers without requiring an intermediary. The set of standards that comprise WebRTC makes it possible to share data and perform teleconferencing peer-to-peer, without requiring that the user install plug-ins or any other third-party software. WebRTC concepts and usage Real time communication with WebRTC Media capture and constraints WebRTC Demos, Experiments, Libraries, Examples WebRTC samples github.com/webrtc/samples WebRTC presentation WEBRTC_Overview_TPAC_SC_presentation Experience WebRTC with Ant Media Server webrtc, socket.io, websockets and RTSP WebRTC vs WebSocket: If WebRTC can do Video, Audio, and Data, why do I need WebSocket? Differences between socket.io and websockets What is RTSP and WebRTC for streaming? Signaling Server A signaling server in WebRTC is required to establish the initial connection between communication partners. It transmits information such as IP addresses, ports, and media capabilities (SDP) so that the clients can communicate directly with each other without further involvement from the server afterward. Socket.IO A widely used solution for WebRTC signaling, based on WebSockets and very easy to implement and flexible for real-time communication. Set up a signaling service to exchange messages WebSockets A direct, bidirectional communication protocol between server and client, often used for signaling. It is commonly used with Node.js and is a popular choice for WebRTC. https://socket.io/ PeerJS A simple JavaScript library that enables WebRTC connections and provides an integrated signaling solution. Very easy to integrate and a good choice if you need a quick solution. https://peerjs.com/ https://github.com/peers/peerjs Jitsi Jitsi provides a complete WebRTC-based solution for video calls and conferences and also includes a signaling server implementation. It is open-source and can be customized for specific applications. https://jitsi.org/projects/ More Sources: STUN (Session Traversal Utilities for NAT) helps WebRTC clients discover their public IP addresses and NAT types, enabling direct peer-to-peer communication. TURN (Traversal Using Relays around NAT) acts as a fallback, relaying data through a server when direct connection fails due to restrictive firewalls or NATs . How to connect to stun and turn servers using simple peer Is STUN server absolutely necessary for webrtc when I have a socket.io based signaling server? How can I setup STUN server in my socket.io video calling app? WEBRTC video conference using STUN TURN server with PEER.JS How to communicate with own STUN,TURN and Socket.io servers from web as well as mobile native app
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791447/ham-radio-simulator-live-streaming-microphone-audio-between-2-browsers-connect
+
+---
+
+#### 5200. How can I specify which Node version to use when Node was installed with Homebrew?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, node.js | Score: 1 | Views: 190 | Answers: 1 | Created: 2025-02-21
+
+**解决方案 / Solution**:
+The following fixed the issue: brew uninstall node brew install nvm nvm use 18.18.2 brew install glibc echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/glibc/bin:$PATH"' >> ~/.profile echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/glibc/sbin:$PATH"' >> ~/.profile source ~/.profile Now I get: user@server:~/horizon/hz$ node --version v18.20.6 Note: I first tried to solve the issue by running brew uninstall node brew install node@18 but that gave me the error: node: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.25' not found (required by node)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791386/how-can-i-specify-which-node-version-to-use-when-node-was-installed-with-homebre
+
+---
+
+#### 5201. Virtual Machine and Physical PC Can't communicate over hub
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, networking, windows, virtual-machine, routing | Score: 1 | Views: 87 | Answers: 1 | Created: 2025-02-17
+
+**解决方案 / Solution**:
+I figured out how to solve it. Virtual Ubuntu can find other devices via my physical windows 11 host and when Windows Server reply Virtual Ubuntu's arp request its not reaching to Virtual Ubuntu because of mac address conflict. Windows Server's arp package destination is Virtual Ubuntu's mac address which is different hosts physical adapter. I replaced Virtual Ubuntu's adapter mac address with hosts physical adapter then everything started to work Windows Server is able to find Virtual Ubuntu.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791145/virtual-machine-and-physical-pc-cant-communicate-over-hub
+
+---
+
+#### 5202. Connect Minitel1B to Ubuntu 20.04
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, serial-console, getty, ttyusb | Score: 1 | Views: 91 | Answers: 1 | Created: 2025-02-13
+
+**解决方案 / Solution**:
+/etc/inittab and /etc/gettydefs have been replace by systemd on many systems. You can create a systemd Unit to run agetty on /dev/ttyUSB0 by using the command sudo systemctl edit serial-getty@ttyUSB0 This will run your editor (set in the environment variable EDITOR ) on a temporary file full of commented out lines. Add the 3 lines [Service] ExecStart= ExecStart=-/sbin/agetty -o '-p -- \\u' --keep-baud 4800 - $TERM in the blank space after the first set of comments, and quit. This should create the file /etc/systemd/system/serial-getty@ttyUSB0.service.d/override.conf and if you do systemctl cat serial-getty@ttyUSB0 you should see your lines at the end, overriding the standard ExecStart . You can now run the agetty by starting the Unit: sudo systemctl start serial-getty@ttyUSB0 You can see if it is running with systemctl status serial-getty@ttyUSB0 You can enable it to start on reboot: sudo systemctl enable serial-getty@ttyUSB0 I don't know how to add any specific stty settings other than the baud rate using systemd, but perhaps the defaults will do.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791004/connect-minitel1b-to-ubuntu-20-04
+
+---
+
+#### 5203. Keycloak Authentication for Ubuntu 24.04 Login - New User Creation
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, login, pam, authentication, oauth2 | Score: 1 | Views: 1899 | Answers: 1 | Created: 2025-02-11
+
+**解决方案 / Solution**:
+According to nsswitch.conf your system gets user information from local files, systemd (normally for root, nobody and container users only), and sssd if it's configured. Have you configured sssd to access whatever user database is used by your Keycloak server? If not, that explains the issue: then there is no way to map Keycloak-only usernames/groups to UID/GID numbers and vice versa. And when there is no UID/GID numbers to associate with a user/group, then that user/group is not really usable system-wide: it cannot own files or processes, for example. With such a configuration, the login process will fail as soon as it attempts to look up a UID for the logging-in user and no such mapping can be found. Some classic Unix programs might react to this situation with an error message: You don't exist, go away! Background Basically, there are two elements that must be in place for users defined in external databases/directories to work system-wide: a libnss_*.so library (selected by nsswitch.conf , and effectively an extension of the system's C standard library) that provides the username <-> UID and/or groupname <-> GID lookup services for users defined in the external database/directory. Once this is in place and working, the external users can "exist" on the system: they can own files and processes, and privileged processes can run other processes "as" external users. libnss_sss.so can be used with Active Directory, FreeIPA or generic LDAP user directories. It works with the sssd service process. a PAM authentication library that provides at least an authentication service that allows the user's password to be checked against the external user database. Having other PAM services like accounting, session management and password change services associated with the external user database/directory is, strictly speaking, optional - but can be quite useful. When using external user databases, it is also common to add the pam_mkhomedir.so PAM module, so that when a new user is created in the external user database, a Unix-style home directory for it can be automatically created on first login. If you need Keycloak only with a particular app or a web service, whose concept of "users" does not require those users to own files or processes on the system, then and only then using only the PAM element can be meaningful - but then you should configure the Keycloak PAM module in the respective /etc/pam.d/<name of application or service> only, not in a file with system-wide effect like /etc/pam.d/common-auth . It seems to me that you've only configured the PAM side of things, and assumed it's all that is needed to make externally-defined users work at the system level. Unfortunately, this assumption is not correct.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790899/keycloak-authentication-for-ubuntu-24-04-login-new-user-creation
+
+---
+
+#### 5204. How to pin an apt package to a version, and *fail* if it's not available
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, apt | Score: 1 | Views: 1311 | Answers: 1 | Created: 2025-02-10
+
+**解决方案 / Solution**:
+You need to include the epoch in the pin: Package: redis-server Pin: version 5:7.0.* Pin-Priority: 1001 This gives the desired candidate in my tests: a 7.0 version if it exists (in any configured repository), nothing if there is no 7.0 package available. apt policy ’s priority output is confusing though, I haven’t looked into that in much detail to figure out why the 1001 priority doesn’t show up.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790837/how-to-pin-an-apt-package-to-a-version-and-fail-if-its-not-available
+
+---
+
+#### 5205. How to mount MTP devices independently of desktop environment
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, gnome, mtp, gvfs | Score: 1 | Views: 3636 | Answers: 1 | Created: 2025-02-09
+
+**解决方案 / Solution**:
+If you want send or get files from mtp, use mtp-tools without gvfs : pkill gvfs-* mtp-detect mtp-filetree mtp-getfile <fileID> <Name> It may take few minutes and it works for me. Also, you can try to open Arch Wiki and find go-mtpfs . It simple mount my old android
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790786/how-to-mount-mtp-devices-independently-of-desktop-environment
+
+---
+
+#### 5206. Where is the initial iso boot screen and guided gui installer stored on common linux distro's .iso image?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, filesystems, linux-kernel, boot | Score: 1 | Views: 144 | Answers: 1 | Created: 2025-02-05
+
+**解决方案 / Solution**:
+I don't know about Trisquel specifically, but Ubuntu does not use a script to guide the installer. It's an executable, and it has changed between Ubuntu Desktop 22.04 and 24.04 . You can answer the questions the installer asks with a yaml file which you can supply on the kernel command line for Ubuntu 20-22 and the Ubuntu 24.04 desktop installer asks if you have one very although I believe once you apply the yaml file, it doesn't ask the questions it supplies, so that's not the same as changing the default. (There may be a way to control that.) If you want to change the colors, backgrounds, and other themed parts, those are at least in part in the normal places in Gnome where themes go. There probably is a theme config file for that and distro flavor should be able to easily drop new themes in.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790602/where-is-the-initial-iso-boot-screen-and-guided-gui-installer-stored-on-common-l
+
+---
+
+#### 5207. Not able to upgrade Ubuntu due to issue of mysql GPG keys
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, apt, gpg | Score: 1 | Views: 3165 | Answers: 2 | Created: 2025-01-29
+
+**解决方案 / Solution**:
+Good news: This isn't anything you did wrong; it turns out that MySQL does something incredibly convoluted and flat out dumb with its apt repositories. According to their own guide, made available here , you need to manually download and install the mysql-apt-config package (available here )which will (presumably) configure an apt repository and download the key you need. ... No, I don't know why they thought this was a good idea either. If you're not hell bent on using the now-license-restricted version of MySQL, may I take this opportunity to recommend switching to MariaDB , which is a fully open-source fork and drop-in replacement?
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790290/not-able-to-upgrade-ubuntu-due-to-issue-of-mysql-gpg-keys
+
+---
+
+#### 5208. USB drive with Kali live image not recognized by bios/uefi for dual boot purposes
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, kali-linux, dual-boot | Score: 1 | Views: 552 | Answers: 1 | Created: 2025-01-25
+
+**解决方案 / Solution**:
+While a UEFI system may support booting from NTFS filesystems, the specification won't require that. The only filesystem type guaranteed to be supported for booting by even the oldest versions of the UEFI specification is FAT32. Newer versions of the specification extend the support requirement to some other versions of the FAT filesystem family, so you often see UEFI systems booting off FAT16 or FAT12 filesystems. For removable media to be bootable on a 64-bit x86 UEFI system, there must be a filesystem (FAT32 or some other type the UEFI firmware is able to understand) that contains a file whose case-insensitive pathname can be expressed Windows-style as \EFI\BOOT\BOOTX64.EFI . Your USB stick seems to contain the \EFI\ directory, but because the filesystem type is ext4 , it will not be recognized by the UEFI firmware. When you wrote the image to the USB stick using dd , it originally contained two partitions: a large one that contained the main data of the ISO image as an ISO9660 filesystem, and a smaller FAT partition for the UEFI bootloader. This is known as an "isohybrid" image. See for yourself: losetup -P /dev/loop0 kali-linux-2024.4-live-amd64.iso fdisk -l /dev/loop0 Disk /dev/loop0: 4,7 GiB, 5041469440 bytes, 9846620 sectors Units: sectors of 1 * 512 = 512 bytes Sector size (logical/physical): 512 bytes / 512 bytes I/O size (minimum/optimal): 512 bytes / 512 bytes Disklabel type: dos Disk identifier: 0xa8d8652c Device Boot Start End Sectors Size Id Type /dev/loop0p1 * 64 9837827 9837764 4,7G 17 Hidden HPFS/NTFS /dev/loop0p2 9837828 9846019 8192 4M 1 FAT12 file -s /dev/loop0p1 /dev/loop0p1: ISO 9660 CD-ROM filesystem data 'Kali Live' file -s /dev/loop0p2 /dev/loop0p2: DOS/MBR boot sector, code offset 0x3c+2, OEM-ID "mkfs.fat", sectors/cluster 4, root entries 512, sectors 8192 (volumes <=32 MB), Media descriptor 0xf8, sectors/FAT 6, sectors/track 32, serial number 0x674acf41, unlabeled, FAT (12 bit) By your own description, your USB disk no longer contains that small FAT partition, which would be essential for UEFI boot process. The "Hidden HPFS/NTFS" partition type ID is used only because MBR-style partition table does not have a type ID for ISO9660 filesystems. Because Linux identifies filesystems by the actual content of the partitions and not by the type IDs in partition tables, this use of an incorrect ID has no effect in practice. (The image also contains isolinux : a BIOS-style bootloader that can be invoked in two ways. It includes one set of boot code embedded in the MBR for BIOS-style booting from USB sticks, and another in the ISO9660-compliant boot area in case the image is burned onto an actual DVD and booted from there. But your system is apparently sensibly configured to look for UEFI bootloaders only, and so it ignores those.) You could probably restore the UEFI-bootability of your USB stick by deleting the NTFS partition, creating a small partition (just enough to fit the contents of the efi.img file), setting its type to FAT12 and writing the contents of efi.img to it using dd . It might be important to use the partition slot #2 specifically for it. After that, you could use any further partition slots as you see fit.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790106/usb-drive-with-kali-live-image-not-recognized-by-bios-uefi-for-dual-boot-purpose
+
+---
+
+#### 5209. Created a group with existing gid, now cannot delete it
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, group | Score: 1 | Views: 885 | Answers: 1 | Created: 2025-01-25
+
+**解决方案 / Solution**:
+For some strange reason your docker group has either not been created locally / in /etc/group (or maybe the group conflict was there before but you dod not notice?) but on the System Security Services Daemon (SSSD) or (see the comments) it is not configured anywhere any more and you are seeing caching effects. Either way you must fix it in sssd (see the comments, I am not familiar with sssd ).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790101/created-a-group-with-existing-gid-now-cannot-delete-it
+
+---
+
+#### 5210. Cron works at 5pm instead of 5am
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, cron | Score: 1 | Views: 190 | Answers: 1 | Created: 2023-05-18
+
+**解决方案 / Solution**:
+The correct answer was in the comments from user bxm . The matter is that the time zone of the server for 12 hours differs from the time zone expected by me.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/746242/cron-works-at-5pm-instead-of-5am
+
+---
+
+#### 5211. Is the list of upgradeable packages stored anywhere? If so, where?
+
+**问题描述 / Problem Description**:
+Tags: debian, centos, rhel, apt, dnf | Score: 1 | Views: 1143 | Answers: 2 | Created: 2023-05-16
+
+**解决方案 / Solution**:
+apt and dnf don’t store a list of upgradable packages, they calculate it whenever they’re asked. They do this by comparing installed packages’ versions with the versions available in the repositories they’re configured with; the latter information is cached ( e.g. in /var/lib/apt/lists for apt ).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/746060/is-the-list-of-upgradeable-packages-stored-anywhere-if-so-where
+
+---
+
+#### 5212. NFS share turned read-only
+
+**问题描述 / Problem Description**:
+Tags: centos, rhel, nfs | Score: 1 | Views: 648 | Answers: 1 | Created: 2023-04-27
+
+**解决方案 / Solution**:
+Problem solved: simply, the RHEL client was set as read-only on the NFS server (which I don't manage, so I don't have any more information about it).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/744253/nfs-share-turned-read-only
+
+---
+
+#### 5213. How are routes getting set on RockyLinux 8 VM?
+
+**问题描述 / Problem Description**:
+Tags: centos, networkmanager | Score: 1 | Views: 1032 | Answers: 1 | Created: 2023-04-19
+
+**解决方案 / Solution**:
+(It would be helpful to see the full output of nmcli -p -o con show -id "System ens5" ). The answer is here: DHCP4.OPTION[17]: requested_rfc3442_classless_static_routes = 1 DHCP4.OPTION[24]: rfc3442_classless_static_routes = 169.254.169.254/32 10.29.107.6 10.1.112.0/24 10.29.107.254 10.29.0.0/16 10.29.107.254 0.0.0.0/0 10.29.107.254 nmcli outputs properties in upper case when they are set dynamically e.g., as opposed to statically defined as settings on the connection. DHCP4.OPTION is an array that shows the DHCP options that were requested in NetworkManager's DHCPREQUEST , and received in the response from the DHCP server. In this case, the first line tells us that a request was made for classless static routes . The second line tells us that the DHCP server responded with those routes. As a result, NetworkMangager duly added those routes to the routing table. It set proto dhcp on them as a hint that they came from DHCP. This is only advisory, but usually it's a fairly decent place to start looking.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/743397/how-are-routes-getting-set-on-rockylinux-8-vm
+
+---
+
+#### 5214. How to fix SSHD due to libssl.so.10 error?
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, ssh, openssl | Score: 1 | Views: 692 | Answers: 1 | Created: 2023-04-12
+
+**解决方案 / Solution**:
+Answer taken from an updated question edit FIXED by replacing the working file /usr/lib64/libssl.so.10
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/742743/how-to-fix-sshd-due-to-libssl-so-10-error
+
+---
+
+#### 5215. Why does adding a user and setting an SUID for it throws me the "Operation not permitted" error?
+
+**问题描述 / Problem Description**:
+Tags: centos, chmod, setuid, suid | Score: 1 | Views: 673 | Answers: 1 | Created: 2023-03-20
+
+**解决方案 / Solution**:
+If you want user tommy to be able to run /usr/bin/ls as root, then you need to configure sudo to allow that. e.g. in /etc/sudoers : tommy ALL = /usr/bin/ls You do not need to change the permissions of ls to make it setuid . The elevation to root is performed by sudo if the rules in /etc/sudoers (and files in /etc/sudoers.d/ ) allow it. In fact, you should NOT make ls setuid - that would make ls run as root (the owner, unless you've changed it) every time it is executed, no matter who executes it.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/740318/why-does-adding-a-user-and-setting-an-suid-for-it-throws-me-the-operation-not-p
+
+---
+
+#### 5216. What is the purpose and benefit of a Security Profile in Almalinux setup screen?
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, security, software-installation, alma-linux | Score: 8 | Views: 3456 | Answers: 2 | Created: 2023-02-02
+
+**解决方案 / Solution**:
+These are OpenSCAP profiles to ensure compliance with various government security standards. These are mostly used in situations when you are required to adhere to some specific security policy. So you'd usually choose a security policy if you are working for a governmental organization or your company is a government contractor or something similar. The installer basically checks the policy rules and makes changes (or ask you to make changes) to follow the policy. The rules can define partition layout (for example force encryption), specify what packages should be installed (or should not), what services needs to be enabled and how should they be configured (for example SSH with root login disabled) etc. The rules are public, if you are interested, you can read for example the first one from your screenshot, the French ANSSI-BP-028 . You can read more about this in the RHEL installer guide . The rules generally can have some useful security "tips & tricks" but I wouldn't bother using them on a private machine, using some general guides for server hardening is probably better than picking a specific government policy.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/734124/what-is-the-purpose-and-benefit-of-a-security-profile-in-almalinux-setup-screen
+
+---
+
+#### 5217. When exactly do the scripts in /etc/profile.d get executed?
+
+**问题描述 / Problem Description**:
+Tags: centos, configuration | Score: 5 | Views: 10194 | Answers: 1 | Created: 2023-01-28
+
+**解决方案 / Solution**:
+All about bash Let's start with this bit from the bash man page: When bash is invoked as an interactive login shell, or as a non- interactive shell with the --login option, it first reads and executes commands from the file /etc/profile, if that file exists. After reading that file, it looks for ~/.bash_profile , ~/.bash_login , and ~/.profile , in that order, and reads and executes commands from the first one that exists and is readable. The --noprofile option may be used when the shell is started to inhibit this behavior. [...] When an interactive shell that is not a login shell is started, bash reads and executes commands from ~/.bashrc , if that file exists. This may be inhibited by using the --norc option. The --rcfile file option will force bash to read and execute commands from file instead of ~/.bashrc . And also: Bash attempts to determine when it is being run with its standard input connected to a network connection, as when executed by the historical remote shell daemon, usually rshd , or the secure shell daemon sshd . If bash determines it is being run non- interactively in this fashion, it reads and executes commands from ~/.bashrc , if that file exists and is readable. All about ssh When you ssh into a remote server without specifying a command... ssh me@example.com ...this starts a login shell, so you get /etc/profile services. On the other hand, when you run a command -- either explicitly, as in ssh me@example.com somecommand , or implicitly, by using git or rsync or some other tool that operates over an ssh connection -- you start a non-interactive shell, so you don't get /etc/profile services. As we see from the third man page excerpt above, bash will still read your ~/.bashrc file, despite it being a non-interactive shell. All about dotfiles The specific configuration of dotfiles I'm referring to in this section is specific to Fedora (and probably most RHEL derivatives), but may also hold true for other distributions. When you start a login shell, bash reads /etc/profile . This script typically contains code to source the scripts from /etc/profile.d . So when someone runs ssh user@serveraddress , this start an interactive login shell, which we know causes bash to read /etc/profile , hence it runs your logchk.sh script. When you start an interactive non-login shell or when you start a non-interactive shell via a network connection like ssh , bash reads your ~/.bashrc file. The default .bashrc file created for user accounts include: if [ -f /etc/bashrc ]; then . /etc/bashrc fi And /etc/bashrc also sources script from /etc/profile.d . So if someone has the default .bashrc file, then when they run a command over ssh (e.g., by running git pull user@repoaddress ), this will also execute your logchk.sh script. However, if they have replaced or modified the default ~/.bashrc file in their account so that it no longer sources /etc/bashrc , then they won't run scripts from /etc/profile.d (unless they have explicitly decided to do so). This would explain why you see different behavior for some of your users.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/733465/when-exactly-do-the-scripts-in-etc-profile-d-get-executed
+
+---
+
+#### 5218. How to enable fingerprint login?
+
+**问题描述 / Problem Description**:
+Tags: fedora, kde, login, plasma, fingerprint | Score: 4 | Views: 8849 | Answers: 1 | Created: 2024-04-02
+
+**解决方案 / Solution**:
+first you need to check if your fingerprint reader is on here , to check it run lsusb, don't worry if it's not. The list of supported devices is not updated regularly and is not complete. It is worth testing your device using the instructions on this page even if it does not appear on that list, then install fprintd, imagemagick might also be needed. Add pam_fprintd.so as sufficient to the top of the auth section of /etc/pam.d/system-local-login auth sufficient pam_fprintd.so auth include system-login This tries to use fingerprint login first, and if it fails or if it finds no fingerprint signatures in the given user's home directory, it proceeds to password login. You will need to have an authentication agent/polkit running before being able to enroll your finger print. To add a signature for a finger, run: fprintd-enroll To verify the newly created fingerprint, use: fprintd-verify By default every user is allowed to enroll new fingerprints without prompting for the password or the fingerprint. You can change this behavior using polkit rules. There are two locations that contains the polkit configuration files /etc/polkit-1/rules.d/ /usr/share/polkit-1/rules.d/ You should not modify the files under /usr/share/polkit-1/rules.d/ because they will be overwritten on update. Copy them to /etc/polkit-1/rules.d/ first. In the following example only root can enroll fingerprints /etc/polkit-1/rules.d/50-net.reactivated.fprint.device.enroll.rules polkit.addRule(function (action, subject) { if (action.id == "net.reactivated.fprint.device.enroll") { return subject.user == "root" ? polkit.Result.YES : polkit.Result.NO } }) to login via sddm Make sure that your fingerprint is registered before making these changes. Fingerprint support is not completely working properly yet, and it seems logging in with only a password no longer works using this method. In order to use either a password or a fingerprint add the following to the top of /etc/pam.d/sddm auth [success=1 new_authtok_reqd=1 default=ignore] pam_unix.so try_first_pass likeauth nullok auth sufficient pam_fprintd.so source source for sddm login
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/773694/how-to-enable-fingerprint-login
+
+---
+
+#### 5219. Can't change to Home directory on log in from console
+
+**问题描述 / Problem Description**:
+Tags: fedora, permissions, login, home | Score: 3 | Views: 710 | Answers: 2 | Created: 2024-05-01
+
+**解决方案 / Solution**:
+the above conditions and permissions should work for default user home directory. furthermore, i would try to debug this issue by: using ssh [-v] [-vv] [-vvv] fab@$HOST and su commands to check if the issue persist checking user login scripts if there might be other accounts trying to access the homedir looking into the logs at /var/log/security and /var/log/messages for any relevant information
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/775621/cant-change-to-home-directory-on-log-in-from-console
+
+---
+
+#### 5220. How to install JDownloader? X Server not found and directory name must not contain spaces error
+
+**问题描述 / Problem Description**:
+Tags: fedora, software-installation, wayland | Score: 3 | Views: 3447 | Answers: 2 | Created: 2024-04-16
+
+**解决方案 / Solution**:
+I was able to get the unattended installer working (but not the GUI mode). Install latest Java After installing JDownloader, it got an "java.lang.UnsatisfiedLinkError: Can't load library: /usr/lib/jvm/java-17-openjdk-17.0.9.0.9-3.fc39.x86_64/lib/libawt_xawt.so" error on OpenJDK 17, so I had to switch to the latest OpenJDK 22. Installing Java: https://docs.fedoraproject.org/en-US/quick-docs/installing-java/ # Install latest OpenJDK. sudo dnf install java-latest-openjdk-devel.x86_64 java-latest-openjdk.x86_64 # Switch to latest OpenJDK. sudo alternatives --config java # Confirm Java version. java --version Install in unattended mode To use the unattended mode, you need to create and provide a " response.varfile " file. [Solved] Mode unattended new installer https://board.jdownloader.org/showthread.php?t=28335 " response.varfile " file: sys.fileAssociation.launchers$StringArray="26","26","26","26","26" sys.languageId=en customTab$Boolean=false customBasic$Boolean=true sys.installationDir=/opt/JDownloader customSearch$Boolean=false customHomepage$Boolean=false executeLauncherAction$Boolean=false sys.fileAssociation.extensions$StringArray="dlc","jdc","ccf","rsdf","metalink" installFM=skip Set the " sys.installationDir ". For example, I installed to " /opt/JDownloader ". # Create JDownloader installation directory. sudo mkdir /opt/JDownloader sudo chmod 777 /opt/JDownloader ./JDownloader2Setup_unix_nojre.sh -q -varfile "response.varfile" Success: Starting Installer ... The installation directory has been set to /opt/JDownloader. Import proxyList null StepID: CREATE_PACKAGE StepID: DOWNLOAD StepID: EXTRACTION StepID: PREPARE_INSTALL StepID: PREPARE_INSTALL StepID: INSTALLING StepID: INSTALLING StepID: CLIENT_OPTIONS StepID: CLEANUP StepID: CREATE_PACKAGE StepID: DOWNLOAD StepID: EXTRACTION StepID: PREPARE_INSTALL StepID: PREPARE_INSTALL StepID: INSTALLING StepID: INSTALLING StepID: CLIENT_OPTIONS StepID: CLEANUP CustomProxyListPath: /opt/JDownloader/cfg/org.jdownloader.settings.InternetConnectionSettings.customproxylist.json [1/3|Priority: 0]ShutdownController: start item->ShutdownEvent: SaveAllStorageHandler [1/3|Priority: 0]ShutdownController: item ended after->0 [Done:1/3] [2/3|Priority: 0]ShutdownController: start item->ShutdownEvent: ProcessDelayedWrites num=0 [2/3|Priority: 0]ShutdownController: item ended after->0 [Done:2/3] [3/3|Priority: 0]ShutdownController: start item->ShutdownEvent: Save JSonStorages [3/3|Priority: 0]ShutdownController: item ended after->1 [Done:3/3] Shutdown Hooks Finished
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/774615/how-to-install-jdownloader-x-server-not-found-and-directory-name-must-not-conta
+
+---
+
+#### 5221. How do I fix dnf after trying to remove the system Python installation?
+
+**问题描述 / Problem Description**:
+Tags: fedora, python, dnf | Score: 3 | Views: 2045 | Answers: 2 | Created: 2024-03-11
+
+**解决方案 / Solution**:
+You need to reinstall the Python interpreter itself: sudo rpm -Uvh https://dl.fedoraproject.org/pub/fedora/linux/updates/39/Everything/x86_64/Packages/p/python3-3.12.2-2.fc39.x86_64.rpm \ https://dl.fedoraproject.org/pub/fedora/linux/updates/39/Everything/x86_64/Packages/p/python3-libs-3.12.2-2.fc39.x86_64.rpm For future reference, everything under /usr (apart from /usr/local ) belongs to the package manager; you mustn’t delete or change files there yourself. If you want to remove Python 3, run sudo dnf remove python3 This will tell you why you shouldn’t try this, and give you the options to add in order to proceed.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/772064/how-do-i-fix-dnf-after-trying-to-remove-the-system-python-installation
+
+---
+
+#### 5222. Is it better to have NO swap partition on a system which is installed on SSD and has 256GB RAM?
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, swap, webserver, ram | Score: 3 | Views: 4767 | Answers: 1 | Created: 2023-01-23
+
+**解决方案 / Solution**:
+Of course, the purpose for swap is if your RAM runs out. Not quite, it’s to provide a backing store for memory which doesn’t correspond to something on disk. See this answer for details. The key is But with 256GB RAM, I doubt this will happen. If you never get close to 256GiB of actual memory use, you don’t need swap. If you do, the risk you run by not having any swap is that some of your programs will be killed because they run out of memory, even though a decent amount of your memory is occupied by data which isn’t actually used. All long-running systems have pages which are never used, and can be usefully pushed out to swap without affecting performance negatively or causing significant wear on the device (they’re written once per boot and that’s it). Note that swap use is unlikely to affect a SSD much, especially not a datacenter-grade SSD. In a web server, you’ll get more wear (and that’s still small compare to what a SSD can handle) from your server’s logs than from swap use. MicroSD cards have much less write endurance than SSDs.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/732774/is-it-better-to-have-no-swap-partition-on-a-system-which-is-installed-on-ssd-and
+
+---
+
+#### 5223. Systemd service does not start automatically at boot, service is enabled
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, systemd, boot, systemctl | Score: 2 | Views: 864 | Answers: 1 | Created: 2024-11-22
+
+**解决方案 / Solution**:
+This works as expected: The unit file $ cat /etc/systemd/system/test_service.service [Unit] Description=Test Service After=network.target [Service] ExecStart=bash -c 'echo "Script started at $(date)"' Restart=no Type=oneshot User=root [Install] WantedBy=multi-user.target The service status $ systemctl status test_service.service ● test_service.service - Test Service Loaded: loaded (/etc/systemd/system/test_service.service; enabled; vendor preset: enabled) Active: inactive (dead) since Mon 2024-11-25 09:10:13 CET; 1min 55s ago Process: 1508 ExecStart=/usr/bin/bash -c echo "Script started at $(date)" (code=exited, status=0/SUC> Main PID: 1508 (code=exited, status=0/SUCCESS) Nov 25 09:10:13 myhost systemd[1]: Starting Test Service... Nov 25 09:10:13 myhost bash[1508]: Script started at Mo 25 Nov 2024 09:10:13 CET Nov 25 09:10:13 myhost systemd[1]: test_service.service: Succeeded. Nov 25 09:10:13 myhost systemd[1]: Finished Test Service. The log output $ journalctl -b 0 -xefu test_service.service -- Logs begin at Mon 2024-06-24 07:53:06 CEST. -- Nov 25 09:10:13 myhost systemd[1]: Starting Test Service... -- Subject: A start job for unit test_service.service has begun execution -- Defined-By: systemd -- Support: http://www.ubuntu.com/support -- -- A start job for unit test_service.service has begun execution. -- -- The job identifier is 225. Nov 25 09:10:13 myhost bash[1508]: Script started at Mo 25 Nov 2024 09:10:13 CET Nov 25 09:10:13 myhost systemd[1]: test_service.service: Succeeded. -- Subject: Unit succeeded -- Defined-By: systemd -- Support: http://www.ubuntu.com/support -- -- The unit test_service.service has successfully entered the 'dead' state. Nov 25 09:10:13 myhost systemd[1]: Finished Test Service. -- Subject: A start job for unit test_service.service has finished successfully -- Defined-By: systemd -- Support: http://www.ubuntu.com/support -- -- A start job for unit test_service.service has finished successfully. -- -- The job identifier is 225.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/787033/systemd-service-does-not-start-automatically-at-boot-service-is-enabled
+
+---
+
+#### 5224. How to unset a locale variable using localectl?
+
+**问题描述 / Problem Description**:
+Tags: fedora, locale, localectl | Score: 2 | Views: 387 | Answers: 1 | Created: 2024-06-05
+
+**解决方案 / Solution**:
+localectl can’t unset a locale variable directly, however it does simplify locale variable assignments, clearing LC_ variables whose value equals that of LANG . So you can clear LC_TIME by setting it to match LANG : localectl set-locale "LC_TIME=$LANG" If LANG isn’t set in your environment, or doesn’t match the value known to localed , you’ll need to specify it manually; run localectl to see the current value assigned to LANG . systemd uses /etc/locale.conf to store its locale settings; if you can’t get localectl to work, you can edit that file instead. You‘ll need to run systemctl daemon-reload so that the changes are taken into account.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/777823/how-to-unset-a-locale-variable-using-localectl
+
+---
+
+#### 5225. Why are new kernel versions not appearing in Fedora 40 Grub?
+
+**问题描述 / Problem Description**:
+Tags: fedora, linux-kernel, grub2, configuration | Score: 2 | Views: 1034 | Answers: 2 | Created: 2024-05-20
+
+**解决方案 / Solution**:
+With the /boot/loader/entries in existence and up to date, there should be no mention of individual kernels in /boot/grub2/grub.cfg : instead, the configuration should be invoking the GRUB command blscfg which will cause GRUB to read /boot/loader/entries and use the information within. In other words, grep blscfg /boot/grub2/grub.cfg should return something like: # The blscfg command parses the BootLoaderSpec files stored in /boot/loader/entries and insmod blscfg blscfg If your grub2-mkconfig updates the list of kernels into /boot/grub2/grub.cfg , it means you must have an old version of the script /etc/grub.d/10_linux still active, or you must have added GRUB_ENABLE_BLSCFG=false to /etc/default/grub . However, since RHEL 8 (and corresponding Fedora versions) the default kernel postinstall scripts now assume that blscfg is in use, and so the grub2-mkconfig doesn't need to be invoked after installing a new kernel, unless GRUB_ENABLE_BLSCFG=false is used in /etc/default/grub . In RHEL/Fedora, kernel package post-transaction scripts will invoke /bin/kernel-install add <kernel version> ... on installation and /bin/kernel-install remove <kernel-version> ... on removal. The /bin/kernel-install will in turn invoke any scripts it finds in directories /etc/kernel/install.d/ and /usr/lib/kernel/install.d (with files in the former directory overriding any files with the same names in the latter) with similar add / remove and kernel version arguments. The last script to execute on both installation and removal should be /usr/lib/kernel/install.d/99-grub-mkconfig.install : it runs grub2-mkconfig , but only if /etc/default/grub has GRUB_ENABLE_BLSCFG set to the exact string false . Any deviation will cause the script to assume the bootloader is capable of using /boot/loader/entries , and so the script will exit without doing anything. If all this seems fine, look into your /etc/grub.d/ directory. Do you perhaps have a 10_linux.rpmnew or similar in there? If you have such a file, backup your old (possibly customized) 10_linux file and replace it with the 10_linux.rpmnew (or similar) file, then run grub2-mkconfig -o /boot/grub2/grub.cfg one final time. Apparently the /etc/grub.d/10_linux file might come from the grub2-tools package, so a dnf reinstall grub2-tools might be necessary if there is no 10_linux.rpmnew or similar file present.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/776789/why-are-new-kernel-versions-not-appearing-in-fedora-40-grub
+
+---
+
+#### 5226. How to disable MAC address randomization in Fedora 40?
+
+**问题描述 / Problem Description**:
+Tags: fedora, wifi, configuration, networkmanager, mac-address | Score: 2 | Views: 4575 | Answers: 1 | Created: 2024-05-09
+
+**解决方案 / Solution**:
+I tried to follow the advice from link 2 and create 2 I don't think that is what link 2 suggests. The Fedora change introduces a new file /usr/lib/NetworkManager/conf.d/22-wifi-mac-addr.conf . That's all. You can prevent that file from being loaded at all, by creating a file /etc/NetworkManager/conf.d/22-wifi-mac-addr.conf . That file can be empty, or contain additional configuration. Of course, you can drop any other configuration snippets (preferably sorted after "22*"), to overwrite that configuration. Configuration snippets are loaded in a documented order, where later files overwrite earlier ones. See man NetworkManager.conf . Also, it's possible that the best choice is not to change the default back. Instead, modify the few profiles that should use a certain MAC address. For example with nmcli connection modify "$PROFILE" wifi.cloned-mac-address permanent . You probably should do that instead. the MAC address keeped to change on every enable/disable Wifi toggle. Are you sure about that? Note that while NetworkManager is not connected, the MAC address also gets randomized. That is nothing new. Did you check that the MAC address also changes while being connected? You could disable the randomization during scanning via wifi.scan-rand-mac-address . See man NetworkManager.conf . But there should be no need to do that.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/776171/how-to-disable-mac-address-randomization-in-fedora-40
+
+---
+
+#### 5227. iotop fields on missing SWAPIN and IO columns on AlmaLinux 8
+
+**问题描述 / Problem Description**:
+Tags: centos, alma-linux, iotop | Score: 2 | Views: 891 | Answers: 1 | Created: 2023-03-01
+
+**解决方案 / Solution**:
+Install iotop-c instead of iotop dnf install iotop-c Run iotop-c and the output is as below Total DISK READ: 0.00 B/s ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ | Total DISK WRITE: 588.24 M/s ⣶⣶⣾⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ Current DISK READ: 0.00 B/s ⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ | Current DISK WRITE: 585.24 M/s ⣿⣿⣷⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ TID PRIO USER DISK READ DISK WRITE SWAPIN IOGRAPH[IO]▽COMMAND 465 be/4 root 0.00 B/s 0.00 B/s 0.00 % 53.42 % ⣶⣤⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ kworker/u2:3+flush-253:0 ▲ 6332 be/4 slee 0.00 B/s 588.24 M/s 0.00 % 21.82 % ⣀⣠⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ dd █ 6246 be/4 root 0.00 B/s 0.00 B/s 0.00 % 0.00 % ⠀⠀⢀⢀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ kworker/0:1-ata_sff █ 5792 be/4 root 0.00 B/s 0.00 B/s 0.00 % 0.00 % ⢀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ kworker/0:2-events ▃ 1 be/4 root 0.00 B/s 0.00 B/s 0.00 % 0.00 % ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ systemd 2 be/4 root 0.00 B/s 0.00 B/s 0.00 % 0.00 % ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ kthreadd 3 be/0 root 0.00 B/s 0.00 B/s 0.00 % 0.00 % ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ rcu_gp
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/737279/iotop-fields-on-missing-swapin-and-io-columns-on-almalinux-8
+
+---
+
+#### 5228. How to configure Firewalld to block incoming traffic on loopback interface?
+
+**问题描述 / Problem Description**:
+Tags: centos, rhel, iptables, firewalld | Score: 2 | Views: 1361 | Answers: 1 | Created: 2023-02-12
+
+**解决方案 / Solution**:
+This should work. It is everything explained in this RH article . Not everyone has RH account, but I wasn't able to find another article. I changed the original command from the article (to fix the error --dports and to match the OP needs). sudo firewall-cmd --direct --add-passthrough ipv4 -I OUTPUT -d 127.0.0.0/8 -p tcp --dport 8080 -j REJECT The RH article says nothing about ipv6, but of course in your case you need to block possibility to reach your lo over ipv6 also: sudo firewall-cmd --direct --add-passthrough ipv6 -I OUTPUT -d ::1/128 -p tcp --dport 8080 -j REJECT
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/735283/how-to-configure-firewalld-to-block-incoming-traffic-on-loopback-interface
+
+---
+
+#### 5229. Bash command find with exec and grep not working properly, anything wrong?
+
+**问题描述 / Problem Description**:
+Tags: bash, centos, find | Score: 2 | Views: 269 | Answers: 2 | Created: 2023-01-28
+
+**解决方案 / Solution**:
+The argument to grep is missing and : should be an L to get the expected result, thus grep -E "ALARM|FATA:" 1>> "$0.txt" should be grep -E "ALARM|FATAL" "$0" > "$0.txt" (or use >> or 1>> if you want to append the result to an existing file) Since $0 should be the command name and positional parameters start with $1 , you could add a name and pass the result as $1 to the script: find . -name '*.log' -type f -exec sh -c ' grep -E "ALARM|FATAL" "$1" > "$1.txt" ' 'find-sh' {} \; Or loop the results using as few sh invocations as possible with {} + : find . -name '*.log' -type f -exec sh -c ' for file; do grep -E "ALARM|FATAL" "$file" > "${file}.txt" done ' 'find-sh' {} + Edit: I added a variable for the target directory which is passed as first argument to the script. To be able to sort the resulting logfile, I used a temporary file. ip=$(hostname -I | awk '{ print $1 }') targetdir="/data/backup/$ip/alarm_history" mkdir -p "$targetdir" find "/data/backup/$ip" -name '*.log' -type f -exec sh -c ' targetdir=$1; shift for file; do # extract the log filename from the path, append ".alarm", prepend directory targetfile=${targetdir}/${file##*/}.alarm grep -E "ALARM|FATAL" "$file" >> "$targetfile" \ && mv "$targetfile" "${targetfile}.tmp" \ && sort -o "$targetfile" -u "${targetfile}.tmp" \ && rm "${targetfile}.tmp" done ' 'find-sh' "$targetdir" {} +
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/733427/bash-command-find-with-exec-and-grep-not-working-properly-anything-wrong
+
+---
+
+#### 5230. How to Verify a Fix to smartctl Error?
+
+**问题描述 / Problem Description**:
+Tags: centos, hard-disk, xfs, smartctl, sata | Score: 2 | Views: 1442 | Answers: 1 | Created: 2023-01-25
+
+**解决方案 / Solution**:
+First and foremost, there is some sort of hardware error here. Check that all the cables are seated (and if it's USB that the port is delivering enough power for the drive): 188 Command_Timeout 0x0032 100 099 000 Old_age Always - 12885098499 Secondly, your disk has a faulty area and is (currently successfully) remapping sectors to its spares. Sooner or later, though, it's going to run out of spare sectors and you'll start to see errors in your data: 5 Reallocated_Sector_Ct 0x0033 099 099 010 Pre-fail Always - 2720 Now, let's look at what you've done in response. Erased everything in /dev/sdc1 , the first partition on the disk Erased everything in /dev/sdc2 , the second partition on the disk Tried to fix an XFS filesystem that's not in a partition but taking up the entire disk /dev/sdc If you've erased data in partitions 1 and 2 then there's no accessible data left. But if you've got a partition table then you're unlikely to have a filesystem (XFS or otherwise) on the disk outside that partition table. It's more likely that you've either erased the data and there's no filesystem left to fix, or maybe just possibly there's an XFS filesystem on /dev/sdc3 . In your updated question, the partition table shows just a single partition, /dev/sdc1 . If what you have shown us is accurate this means that your earlier dd will have created a large file called /dev/sdc2 - and because there was no bound on the file size you will have filled your /dev partition and dd should have reported this error. Use ls -l /dev/sdc2 to check whether it is a file or a device, and if and only if it is a file then remove it with rm /dev/sdc2 . On the other hand if /dev/sdc2 is listed as a device or is missing then the partition table you're showing us isn't the partition table you've described in the rest of the question.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/733058/how-to-verify-a-fix-to-smartctl-error
+
+---
+
+#### 5231. Issue in l2cap test - Bluez
+
+**问题描述 / Problem Description**:
+Tags: linux, bluetooth, socket, bluez | Score: 1 | Views: 227 | Answers: 1 | Created: 2025-06-16
+
+**解决方案 / Solution**:
+For your first approach, I'm assuming you set it up so that your nRF device has a listening L2CAP channel and is receiving data there. You might want to check some things: Pass one of the following flags to l2test to test the L2CAP connection (output from running l2test -h ): -r listen and receive -w listen and send -d listen and dump incoming data -x listen, then send, then dump incoming data -t listen, then send and receive at the same time -q connect, then send and receive at the same time -s connect and send -u connect and receive -n connect and be silent -y connect, then send, then dump incoming data -c connect, disconnect, connect, ... -m multiple connects -p trigger dedicated bonding -z information request Since I'm assuming your device is listening and receiving, you should pass the -s flag (connect and send); Make sure the device has a L2CAP channel listening on PSM 0x80 (128) for l2test (or on the PSM of your choice by passing the -P $YOUR_PSM flag); Get the used Bluetooth protocol (BR/EDR or LE) on your device (most likely LE from the logs); If you're using Bluetooth LE, check whether the device's Bluetooth LE address is public or random (from Zephyr's logs, it is the latter); Pass the correct flag to l2test to indicate the device's address type: -V bredr for BR/EDR; -V le_random for LE random; -V le_public for LE public; Putting it all together, you should be able to connect to your listening BLE device and send data with l2test -s -V le_random $YOUR_DEVICE_ADDRESS . If you want to debug the connection on Zephyr's side, you can set the L2CAP module's log level to debug by setting CONFIG_BT_L2CAP_LOG_LEVEL_DBG=y in your project's configuration file (e.g. prj.conf ).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797089/issue-in-l2cap-test-bluez
+
+---
+
+#### 5232. How to specify ELF shared objects in `LD_PRELOAD` if their path contains a space character?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell-script, scripting, elf, ld | Score: 1 | Views: 193 | Answers: 2 | Created: 2025-06-02
+
+**解决方案 / Solution**:
+Relative path to current working directory If the path to the ELF shared object can be given without a space character as a relative path to the current working directory: $ pwd /path/with space/lib $ LD_PRELOAD="./libsomething.so" myprogram Or: $ pwd /path/with space/lib/foo $ LD_PRELOAD="../libsomething.so" myprogram Or: $ pwd /path/with space $ LD_PRELOAD="./lib/libsomething.so" myprogram Relative path to path of the program Within the names specified in the LD_PRELOAD list, the dynamic linker understands the tokens $ORIGIN , $LIB , and $PLATFORM and $ORIGIN (or equivalently ${ORIGIN} ) This expands to the directory containing the program or shared object. Source: https://manpages.debian.org/bookworm/manpages/ld.so.8.en.html If the path to the ELF shared object can be given without a space character as a relative path to the path of the program: $ which myprogram /path/with space/bin/myprogram $ LD_PRELOAD='$ORIGIN/../lib/libsomething.so' myprogram Note the use of single quotes instead of double quotes, so $ORIGIN doesn't get expanded by the shell. Adjusting LD_LIBRARY_PATH LD_LIBRARY_PATH A list of directories in which to search for ELF libraries at execution time. The items in the list are separated by either colons or semicolons, and there is no support for escaping either separator. Source: https://manpages.debian.org/bookworm/manpages/ld.so.8.en.html Since LD_LIBRARY_PATH uses colons or semicolons as separators, we can use paths with space characters: $ LD_LIBRARY_PATH="/path/with space/lib" myprogram However, if you are using preloading to (partially) replace an already existing default library, then, by modifying LD_LIBRARY_PATH , you "turn" the alternative library into the (new) default library. So this way, the original default library doesn't get loaded at all - whereas preloading a shared object with LD_PRELOAD doesn't prevent the default library from being loaded, too. (Verifiable by checking the output when running the command with LD_DEBUG=all .) Therefore, if your alternative shared object /path/with space/lib/libsomething.so isn't a full replacement for the default library, then you do need to explicitly load the original library, too. Note the order in LD_PRELOAD : $ LD_LIBRARY_PATH="/path/with space/lib" LD_PRELOAD="libsomething.so:/original/lib/libsomething.so" myprogram The path to the original library /original/lib/libsomething.so can be identified with ldconfig : $ ldconfig -p | grep libsomething.so libsomething.so (libc6,x86-64) => /original/lib/libsomething.so
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796527/how-to-specify-elf-shared-objects-in-ld-preload-if-their-path-contains-a-space
+
+---
+
+#### 5233. Expected behaviour of GNU parallel --memfree <size> and --memsuspend <size> when size much bigger than RAM
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, command-line, freeze, gnu-parallel | Score: 1 | Views: 159 | Answers: 1 | Created: 2025-05-31
+
+**解决方案 / Solution**:
+continuously reading /proc/meminfo with an awk subprocess which is in line with expected behaviour (memfreescript) even though it seems pretty wasteful every 1 second. It only does this on GNU/Linux. If run on HP-UX it calls vmstat instead of reading /proc/meminfo. On FreeBSD it calls sysctl . The idea is to have a single awk script that gives the same output no matter the O/S. It does this every second because we need to know if the free memory has changed. We assume that there are other things running on the machine, so GNU Parallel is not the only program that affects memory usage, thus we cannot predict what the memory usage will be in a second from now. Why does it allow --memfree and --memsuspend values much greater than physical RAM ? GNU Parallel does not rigorously check every single option for sane combinations. And as you have discovered, it is not sane to use a value greater than physical RAM. Could someone also clarify this section in the manual for --memfree. Does it mean the youngest running job would be killed? Yes. So why killing the youngest? Let us assume all jobs need 60% RAM to complete, then no jobs would ever complete if you killed the oldest.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796486/expected-behaviour-of-gnu-parallel-memfree-size-and-memsuspend-size-when
+
+---
+
+#### 5234. rsync between two PCs which are both reverse SSH into a "jumpbox"?
+
+**问题描述 / Problem Description**:
+Tags: linux, rsync, scp | Score: 1 | Views: 161 | Answers: 1 | Created: 2025-05-25
+
+**解决方案 / Solution**:
+I guess the easiest approach is to create configurations (on PC1) in ~/.ssh/config for the tunneling to jumpbox the SSH connection to PC2 Host jumpbox-tunnel Hostaddress 10.1.2.3 User foo Host pc2-via-jumpbox-tunnel Hostaddress 127.0.0.1:39998 User foo ProxyJump jumpbox-tunnel Then ssh pc2-via-jumpbox-tunnel should work on PC1. If it does then you can do this with rsync : rsync -e 'ssh pc2-via-jumpbox-tunnel' --dry-run -av /source/path/ pc2:/target/path/
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796266/rsync-between-two-pcs-which-are-both-reverse-ssh-into-a-jumpbox
+
+---
+
+#### 5235. How can I bind-mount a file into an existing directory tree inside a fresh user/mount namespace?
+
+**问题描述 / Problem Description**:
+Tags: linux, mount, namespace | Score: 1 | Views: 152 | Answers: 1 | Created: 2025-05-20
+
+**解决方案 / Solution**:
+Content of parent directories NOT required unshare -Urm mount -t tmpfs tmpfs /opt mkdir -p /opt/dir1/dir2/ touch /opt/dir1/dir2/file mount --bind /home/user/path/to/file /opt/dir1/dir2/file Content of parent directories required In this case something like overlayfs would have to be used. Due to the permission problem that requires a user namespace - which is used here anyway.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/795107/how-can-i-bind-mount-a-file-into-an-existing-directory-tree-inside-a-fresh-user
+
+---
+
+#### 5236. SIGTERM Signal Not Received by Process Group in Python 3.6 but Works in Python 3.10
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, apt | Score: 1 | Views: 189 | Answers: 1 | Created: 2025-01-21
+
+**解决方案 / Solution**:
+You can cancel an apt-get dist-upgrade during the download phase by pressing Ctrl C . apt-get will stop cleanly, removing all locks.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789944/sigterm-signal-not-received-by-process-group-in-python-3-6-but-works-in-python-3
+
+---
+
+#### 5237. Up-arrow does not complete the typed command in gdb, but instead iterates through all the history
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, command-history, readline, gdb | Score: 1 | Views: 198 | Answers: 2 | Created: 2025-01-19
+
+**解决方案 / Solution**:
+The up arrow cycles through the history because that's what it is suppose to do. If you want to search in history, perhaps you want ctrl-r instead of up arrow .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789827/up-arrow-does-not-complete-the-typed-command-in-gdb-but-instead-iterates-throug
+
+---
+
+#### 5238. OpenSSH SSH daemon: IPv4-socket missing on Ubuntu 24.04
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, openssh, sshd, socket | Score: 1 | Views: 1592 | Answers: 2 | Created: 2024-12-16
+
+**解决方案 / Solution**:
+The IPv6 listening socket you see in the netstat output accepts both IPv6 and IPv4 connections. This has been normal behavior on Linux for ages, but can be changed by using the IPV6_V6ONLY socket option. You can view (and change) the default value of this socket option with cat /proc/sys/net/ipv6/bindv6only . The dual role of IPv6 listening sockets has aroused some controversy, with some people claiming that is is a security problem. RFC 3493 "Basic Socket Interface Extensions for IPv6" has the details, and specifies that the IPV6_V6ONLY sockets options default value should be "off". Nonetheless, both Windows and BSD default to "on".
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/788252/openssh-ssh-daemon-ipv4-socket-missing-on-ubuntu-24-04
+
+---
+
+#### 5239. Ubuntu GNOME desktop freezing randomly
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, gnome, nvidia, desktop | Score: 1 | Views: 785 | Answers: 1 | Created: 2024-12-15
+
+**解决方案 / Solution**:
+A day or two later, I found few error logs related to GNS3 which I do not need currently. So I uninstalled GNS3 and all related dependencies including VM completely, removed the entries from apt.sources and ran "apt autopurge". The GNOME seems stable since then and it has been ~10 days and it has not frozen even once on me. Just in case it helps anyone, monitoring logs did help and seems like a good practice for me going forward.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/788138/ubuntu-gnome-desktop-freezing-randomly
+
+---
+
+#### 5240. How do I configure a remote desktop connection to a local Ubuntu VM so that it looks and performs as expected?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, display, remote-desktop, hyper-v | Score: 1 | Views: 491 | Answers: 1 | Created: 2024-12-11
+
+**解决方案 / Solution**:
+The Simplicity And Frustration of A Virtual Machine So, fellow readers, let's put ourselves in the OP's shoes for a few minutes. As a VM user myself (VirtualBox), I understand the OP's frustration level: Whatever he is doing requires a VM. He spent a few days setting up a VM on his own. He attempted to start working on whatever project the VM was created for, only to find the immersion of treating the VM like a real machine not up to par. He is probably a bit mad at me for asking him to start over. Reasoning for Starting Over The OP posed his original question because he was treating the VM as if it were a real machine, but: Instead of fighting the machine to determine what's wrong, it's easiest to start over following predetermined steps I could have linked about a million tutorials in my above comment. A simple Google for "Install Ubuntu Hyper-V" will find them. Find one you're comfortable following, that is easy as a reader to understand. Follow the steps step-by-step even if you know where the steps are leading. Now all the OP needs to do is troubleshoot installing a desktop, as he knows the install he recreated is a good base. Pro Tip I'm not here to advertise any particular tool, but the OP should be using a tool like Vagrant , to provision his VM, either custom or using a pre-made Vagrant Box , and adding what's needed.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/787985/how-do-i-configure-a-remote-desktop-connection-to-a-local-ubuntu-vm-so-that-it-l
+
+---
+
+#### 5241. How to recover from deleted /var/lib/rpm/ SQL database rpm files?
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, package-management, rpm, dnf | Score: 1 | Views: 1536 | Answers: 3 | Created: 2024-05-14
+
+**解决方案 / Solution**:
+I would run sudo rpmdb --rebuilddb in order to recreate it from scratch.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/776423/how-to-recover-from-deleted-var-lib-rpm-sql-database-rpm-files
+
+---
+
+#### 5242. Fedora - Migrate root filesystem to new drive / partition
+
+**问题描述 / Problem Description**:
+Tags: fedora, root, initramfs, move-partition | Score: 1 | Views: 795 | Answers: 1 | Created: 2024-05-04
+
+**解决方案 / Solution**:
+This saga starts with a mix of technologies coming together and repeatedly barfing. These technologies for me are .. VirtualBox, Wine, and BTRFS file systems ... I'm not sure why, but whenever these 3 technologies come together the BTRFS file system becomes corrupted. But, let's set aside why it barfs and focus on What to do when it barfs. If you want to move from a BTRFS to an EXT4 partition. If you just want to move your linux operating system to a new hard drive, because you need more drive space. Note: where ever possible, I will try to provide the search terms needed to allow you to find the right command to perform the function on your version / distro of Linux. !!! ALWAYS USE THE LATEST LIVE CD WHEN TROUBLESHOOTING BTRFS PARTITIONS !!! !!! ALWAYS USE A LIVE CD THAT MATCHES YOUR CURRENT OS WHEN MANIPULATING INITRAMFS AND GRUB !!! In this tutorial I will use LiveCD and terminal for most of the operations to be executed here. Whenever you see " > ", assume that I'm refering to a terminal command, and I'm logged in as a super user. > su > whoami root Note: LiveCD does not require a password when logged in as a super user. However, if your drive is encrypted, you will need to unlock it before performing any operations on it. === CLI Commands we will use === `lsblk`, `ls`, `btrfsck`, `btrfs check`, `btrfs scrub`, `badblocks`, `mount -t btrfs`, `dmesg`, `mkfs.ext4`, `umount`, `chroot`, `fixfiles`, `touch /.autorelabel`, `blkid>`, `parted`, `e4label`, `df`, `dd`, `cp`, `rsync`, `btrfs check`, `blkid`, `rm`, `cat`, `grep`, `vi`, `dracut`, `lsinitrd`, `grub2-editenv`, `update-grub2`, `grub2-mkconfig`, `dnf update`, `dnf remove`, `dnf install`, `rpm -Va`, `reboot -p`, `systemctl`, `dnf reinstall` === Drive UUIDs and Mappings === The first thing we want to do is find out where all our drives and partitions have been mapped to. `blkid`, and `ls` will tell us what the drive UUIDs are, for future reference, while the `lsblk` command tells where the drives / partitions have been mounted. > blkid | grep /dev/sd /dev/sda1: UUID="d8755717-901c-47d0-9a72-d584f93eeb5c" BLOCK_SIZE="4096" TYPE="ext4" PARTUUID="11ab6e7f-01" /dev/sda2: LABEL="root" UUID="6bec82ae-4d47-4704-adfa-fd51dab23cc8" BLOCK_SIZE="4096" TYPE="ext4" PARTUUID="11ab6e7f-02" /dev/sda3: LABEL="home" UUID="8d30ac74-d8f5-472d-8fb2-c45988c4e89a" BLOCK_SIZE="4096" TYPE="ext4" PARTUUID="11ab6e7f-03" /dev/sdb1: UUID="924b405f-a7f0-e680-50b8-fff949d284db" UUID_SUB="4b7d64dc-5554-ea63-4d63-e20917d3d4bf" LABEL="fedora:0" TYPE="linux_raid_member" PARTUUID="f481e95f-01" /dev/sdg1: UUID="4322e75a-cea4-4395-a3ab-8880ac64561b" BLOCK_SIZE="4096" TYPE="ext4" PARTUUID="5e91dae0-01" > ls -lha /dev/disk/by-uuid total 0 drwxr-xr-x. 2 root root 180 May 4 11:40 . drwxr-xr-x. 9 root root 180 May 4 11:39 .. lrwxrwxrwx. 1 root root 10 May 4 2024 0ae2646a-8a22-4ab9-b4e9-1300348a52e3 -> ../../dm-1 lrwxrwxrwx. 1 root root 10 May 4 2024 d8755717-901c-47d0-9a72-d584f93eeb5c -> ../../sda1 lrwxrwxrwx. 1 root root 10 May 4 2024 6bec82ae-4d47-4704-adfa-fd51dab23cc8 -> ../../sda2 lrwxrwxrwx. 1 root root 10 May 4 2024 8d30ac74-d8f5-472d-8fb2-c45988c4e89a -> ../../sda3 lrwxrwxrwx. 1 root root 10 May 4 2024 2023-04-13-22-14-25-00 -> ../../sdf1 lrwxrwxrwx. 1 root root 10 May 4 2024 EBE8-26A4 -> ../../sdf2 > lsblk -l NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINTS LABEL sda 8:0 0 1.8T 0 disk ├─sda1 8:1 0 1G 0 part /boot └─sda2 8:3 0 1.8T 0 part / sdb 8:16 0 1.8T 0 disk └─sdb1 8:17 0 1.8T 0 part └─md0 9:0 0 1.8T 0 raid1 /Data sdf 8:0 0 1G 0 disk └─sdf1 8:1 0 1G 0 part /LiveCD sdg 8:0 0 2T 0 disk ├─sdg1 8:1 0 1G 0 part /mnt/boot GRUB ├─sdg2 8:1 0 0.8T 0 part /mnt/root Root └─sdg3 8:1 0 1T 0 part /mnt/root/home Home OR sdg 8:0 0 2T 0 disk └─sdg1 8:1 0 1T 0 part /mnt/sdg1 Backup Let's review the partions before here /dev/sda1 .. contains grub /dev/sda2 .. contains the BTRFS with /root and /home subvolumes /dev/sdb1 .. is a raid array with sdb, sdc, and sdd /dev/sdf1 .. is the LiveCD /dev/sdg .. is a backup drive where root and home will be copied to /dev/sdg1 .. is the boot partition containing grub /dev/sdg2 .. is the root partition containing the OS /dev/sdg3 .. is the home partition containing the user directories === Preparing a Replacement / Backup Drive === It far faster and easier to use GParted GUI to partition, label, and format a new drive. However, if you choose, use the commands here to walk through the process manually. > parted --list > parted /dev/sdg > mklabel msdos # or gpt > print > mkpart primary EXT4 0 2T > print > set 1 boot off > quit To label the drive > e4label /dev/sdg1 Backup to format the drive > mkfs.ext4 /dev/sdg To create a mount point > mkdir -p /mnt/sdg1 To mount the drive > mount /dev/sdg1 /mnt/sdg1 To view drive/partition sizes > df -hT === Cloning the Drive === If you don't feel comfortable doing a destructive operation on your hard drive, then perform a block level copy of the partition to another drive first. To duplicate the partition to a new drive, use `dd`. Short for Disk Duplicate > dd if=/dev/sda1 of=/dev/sdg bs=64K conv=noerror,sync if .. means the input partition of .. means the output partition bs .. is the size of the chucks you want to read and write larger chucks mean faster service smaller chucks means better quality data conv .. === Recover your BTRFS file system === !!! ALWAYS USE THE LATEST LIVE CD WHEN TROUBLESHOOTING BTRFS PARTITIONS !!! Initially, GParted GUI can be used to recover the BTRFS partition. Where possible, use the latest LiveCD OS when asking GParted to recover a BTRFS partition, as it has the latest methods to reconstruct the BTRFS tree. If possible, store any reports that BTRFS generates to a seperate drive. GParted, used to ask you to send these reports to them, but it seems that they are no longer interested. If GParted can't restore your hard drive to a usable state, switch to terminal and attempt the recovery. ===== Confirm that the drive has no physical issues by using `badblocks`. The command below will only do a verify, not a destructive write / read operation. > badblocks -v [PARTITION] > badblocks -v /dev/sda2 When `badblocks` is finished, we can attempt to recover the BTRFS partition, with `btrfs check`, and `btrfs check --repair`. Use `btrfs check` initially for a non-destructive report on what has happened. > btrfs check [PARTITION] > btrfs check /dev/sda2 Use `btrfs check --repair` for a destructive repair. This will touch the drive and attempt to repair it. (If you don't feel comfortable with this option yet, then perform a block level copy of the partition to another drive first.) > btrfs check --repair /dev/sda2 Once the BTRFS tree has been fixed, you can mount the partition and move the contents to a backup device. === Copying Data Out === For my purposes, I did not use /dev/sdg as a replacement drive. I used it as a backup drive. For that, I only had /dev/sdg1 which contained sub directories /root and /home. I chose this option, as I didn't want to disturb grub in /dev/sda1. In the Linux distro that I use, the root and home folders are seperated into 2 sub volumes in the BTRFS partition. What this means, or how to think about this from a directory perspective, is that the BTRFS has created two folders .. root and home .. However, be careful with this perspective, since linux requires these directories .. root and home .. to be either merged into 1 tree or copied to seperate partitions when migrated to EXT4. For the backup process, I choose to create 1 partition on /dev/sdg1 to backup all the data to. When that was complete, I choose then to create 2 partitions on /dev/sda, labeled "root" and "home", /dev/sda2 .. root /dev/sda3 .. home to restore the backed up folders to. The other option for the restore is to create 1 large partition, and the restore the contents of the /mnt/sdg1/root to /mnt/sda2 first, then restore /mnt/sdg1/home to /mnt/sda2/home For this process, we will use `rsync` Note: you can use copy `cp -a [SRC] [DEST]`, but you will lose the SELinux labels, and it won't give you a progress report. > rsync --progress [SRC] [DEST] > rsync --info=progress2 [SRC] [DEST] > mkdir -p /mnt/sda2 > mkdir -p /mnt/sdg1 To copy root and home as seperate directories to sdg1 > mount /dev/sda2 /mnt/sda2 > mount /dev/sdg1 /mnt/sdg1 If mount /dev/sda2 throughs an error use `dmesg` to see what happened. Unfortuantely, I don't remember what my BTRFS threw, but with a bit of quick searching I was able to sort it out. > dmesg > rsync --progress /mnt/sda2/root /mnt/sdg1 > rsync --progress /mnt/sda2/home /mnt/sdg1 To copy root and home to seperate partitions > mount /dev/sda2 /mnt/sda2 > mount /dev/sdg1 /mnt/sdg1 > mount /dev/sdg2 /mnt/sdg2 > rsync --progress /mnt/sda2/root/* /mnt/sdg1 > rsync --progress /mnt/sda2/home/* /mnt/sdg2 Once the contents have been copied out, you can swap the drives or reformat the existing drive with a set of EXT4 partitions for root and home, and copy the data back. === Updating Grub === !!! ALWAYS USE A LIVE CD THAT MATCHES YOUR CURRENT OS WHEN MANIPULATING INITRAMFS AND GRUB !!! Once the partitions have the data, you are ready to tell Grub where to look to start the OS. This is known as updating Grub and Updating the `initramfs`. One mistake that most people make, is mounting /dev/sda1 and making edits to grub directly. !!! DONT DO THIS !!! Grub will make the necessary changes to /dev/sda1. Since all the drive and parition UUID's have changed, you will need to relist them gain. > blkid | grep /dev/sd > ls -lha /dev/disk/by-uuid > lsblk -l If you followed any of the steps in copying the data out of a BTRFS partiton, make sure that /mnt is empty. > cd /mnt > rm { sda2, sdg1, sdg2 } The next steps map the partitions to the /mnt directory and prepare it for OS manipulation. > cd / > mount /dev/sda2 /mnt > mount -t proc proc /mnt/proc > mount -t sysfs sys /mnt/sys > mount -o bind /dev /mnt/dev > mount --bind /run /mnt/run > mount /dev/sda1 /mnt/boot To configure your network while in chroot > cp -L /etc/resolv.conf /mnt/etc/resolv.conf Enter `chroot` === ENTER Change Root === Do not exit `chroot` until you are explicitly told to in this script otherwise, the commands you issue will affect LiveCD. > chroot /mnt /bin/bash Confirm that the `mtab` file to has all drives listed > grep -v rootfs /proc/mounts > cat /etc/mtab Or > grep -v rootfs /proc/mounts > /etc/mtab Make sure the `fstab` file has the drives that should be auto-mounted `vi` is a text editor > cat /etc/fstab > vi /etc/fstab UUID=d8755717-901c-47d0-9a72-d584f93eeb5c /boot ext4 defaults 1 2 UUID=6bec82ae-4d47-4704-adfa-fd51dab23cc8 / ext4 defaults 0 1 UUID=8d30ac74-d8f5-472d-8fb2-c45988c4e89a /home ext4 defaults 0 1 List the `initramfs` found in the boot partition. You may need the versions of the OS, if you have to run dracut on a different PC to regenerate the initramfs. > ls /boot | grep initramfs initramfs-6.8.4-100.fc38.x86_64.img Regenerate your image file with `dracut`. The first command makes sure you are hitting the right images. The second command will overwrite them. > dracut --regenerate-all > dracut -f --regenerate-all Use `lsinitrd` to make sure the files are correct. It's not a necessary step, but I was trying to see if `fstab` had been copied into the image, and if so, did it contain the drive mappings. > lsinitrd /boot/initramfs-6.8.4-100.fc38.x86_64.img !!! DO NOT EXIT chroot, just yet !!! === Update Grub === Since drive / partition UUID's changed, you will need to run grub2's list and update commands make sure grub matches `fstab` > cat /etc/fstab Use Grub to list the boot environments in the system > grub2-editenv - list saved_entry=a6a84281584b4fb69829b970ecb6d26b-6.8.4-100.fc38.x86_64 boot_success=0 boot_indeterminate=0 Note: if you only see this (boot_success=1), you exited `chroot`. You can re-enter `chroot` by issueing the command above. boot_success=1 Now issue the update 1 of the 2 commands below. They do the same thing ... > update-grub2 > grub2-mkconfig -o /boot/grub2/grub.cfg Now confirm that the grub command actually updated the configuration file. > cd /boot/loader/entries > ls -al -rw-r--r--. 1 root root 326 May 4 11:50 a6a84281584b4fb69829b970ecb6d26b-6.8.4-100.fc38.x86_64.conf All entries should have today's date > cat a6a84281584b4fb69829b970ecb6d26b-6.8.4-100.fc38.x86_64.conf title Fedora Linux (6.8.4-100.fc38.x86_64) 38 (MATE-Compiz) version 6.8.4-100.fc38.x86_64 linux /vmlinuz-6.8.4-100.fc38.x86_64 initrd /initramfs-6.8.4-100.fc38.x86_64.img options root=UUID=6bec82ae-4d47-4704-adfa-fd51dab23cc8 ro video=HDMI-0:D video=VGA-1-1:d grub_users $grub_users grub_arg --unrestricted grub_class fedora Make sure the UUID listed as root, matches the device partiton /dev/sda1's UUID. If you see quiet in the output, re-run update-grub2 and turn off quiet. You will want to see any and all errors during the boot process to trouble shoot them. One such error that can occur, is the system won't boot if the JournalCtl fails to start. This happens due to a SELinux issue. !!! DO NOT EXIT chroot, just yet !!! === Updating SELinux === SELinux is the enhanced security system Linux uses to make sure roge programs can't touch files they aren't supposed to. Sometimes turning off the system can help you trouble shoot boot issues. See the current status of the OS > sestatus See if SE Linux is being enforced or not > getenforce Check SE Linux's configuration file > cat /etc/selinux/config # This file controls the state of SELinux on the system. # grubby --update-kernel ALL --args selinux=0 # To revert back to SELinux enabled: # grubby --update-kernel ALL --remove-args selinux SELINUX=enforcing SELINUXTYPE=targeted To fix the files for SE Linux so that they are all labeled correctly use `fixfiles` or `touch /.autorelabel` > fixfiles onboot > touch /.autorelabel === End Change Root === You can now safely exit `chroot` > exit Dismount all the drive and partition mappings from above > umount /mnt/boot > umount /mnt/run > umount /mnt/{proc,sys,dev} > umount /mnt Issue mount to determine if all the mounts have been dismounted > mount > lsblk -l Shutdown the pc, either from CLI or from the LiveCD desktop > reboot -p === Reboot === As your computer reboots it will run into errors. Remember, though, one of the operations running in the background is `fixfiles`. Let this operation complete before you begin any trouble shooting. If you see that the JournalCtl has failed, this is becuase `fixfiles` has not completed its job, and JournalCtl cant access its files due to SELinux. If the problem persists, turn off SELinux as instructed above. Another reported issue that could come up is the `machine-id` mismatch between /etc/machine-id and /var/lib/dbus/machine-id. You could try resetting them, but as I found out, the ID's contained in these files match those in Grub, and many other locations. So, avoid them until you cant. > systemd-firstboot --root=/mnt --setup-machine-id or > systemd-machine-id-setup If problems persist, and you need to use the LiveCD to go back into the OS to fix things, follow the `Enter Change Root` and `Exit Change Root` steps. === Post Clean Up === Once your OS is up and running, you should update it immediately and verify that all packages are functional. > dnf update > rpm -Va If `dnf` doesn't update the kernal, then issue `dnf reinstall` and execute `dracut` again. You won't need to use `chroot` as you are in the system you want to change. > dnf reinstall > dracut --regenerate-all > dracut -f --regenerate-all After the update reboot > reboot -p The next thing I did was remove VirtualBox > dnf remove VirtualBox-\* > dnf list installed | grep -i VirtualBox > dnf list installed | grep -i vbox Make sure `systemctl` says that anything vbox or VirtualBox is stopped. > systemctl | grep -i VirtualBox > systemctl | grep -i vbox Reboot > reboot -p You can re-install VirtualBox if needed at this point. > dnf install VirtualBox === References === === Problems Booting into EXT4 === F40 not boot after upgrade 39->40 https://forums.fedoraforum.org/showthread.php?332468-F40-not-boot-after-upgrade-39-gt-40&highlight=initramfs Kernel upgrade isssue https://forums.fedoraforum.org/showthread.php?332442-Kernel-upgrade-isssue&highlight=initramfs Problems booting with an ext4 root filesystem https://bbs.archlinux.org/viewtopic.php?id=72844 === GParted === GParted forum http://gparted-forum.surf4.info/viewforum.php?id=2 === Disk Cloning / Duplicating === Using DD for disk cloning https://serverfault.com/questions/4906/using-dd-for-disk-cloning How to Clone a Partition or Hard drive in Linux https://www.tecmint.com/clone-linux-partitions/ dd-ArchWiki https://wiki.archlinux.org/title/Dd === Partitioning Drives === linux mount command syntax https://man7.org/linux/man-pages/man8/mount.8.html Creating a Disk Partition in Linux https://docs.fedoraproject.org/en-US/quick-docs/creating-a-disk-partition-in-linux/ How to Create a New Ext4 File System (Partition) in Linux https://www.tecmint.com/create-new-ext4-file-system-partition-in-linux/ How to set or change boot partition flag on Linux https://linuxconfig.org/how-to-set-or-change-boot-partition-flag-on-linux Set Bootable Partition Command Line Set Bootable Partition Command Line === BTRFS === BTRFS error when using gparted? https://www.reddit.com/r/btrfs/comments/17od8g0/btrfs_error_when_using_gparted/ Mount can't find device in /etc/fstab https://askubuntu.com/questions/771473/mount-cant-find-device-in-etc-fstab How to recover from BTRFS errors https://www.suse.com/support/kb/doc/?id=000018769 Btrfs - ArchWiki https://wiki.archlinux.org/title/btrfs Wrong fs type, bad option, bad superblock https://www.reddit.com/r/btrfs/comments/nxdbar/wrong_fs_type_bad_option_bad_superblock/ How do I recover a BTRFS partition that will not mount? https://askubuntu.com/questions/157917/how-do-i-recover-a-btrfs-partition-that-will-not-mount convert BTRFS to Ext4 https://askubuntu.com/questions/36252/how-can-i-convert-my-root-partition-from-btrfs-to-ext4 === Change Root - What is it? === chroot https://en.wikipedia.org/wiki/Chroot what is chroot? https://www.google.com/search?client=firefox-b-1-d&q=what+is+chroot%3F === Update initramfs === How to run update-initramfs from bootable usb? https://forum.endeavouros.com/t/dracut-generating-initramfs/37346/10 How to restore deleted files in /boot? (vmlinuz missing, system does not boot) https://askubuntu.com/questions/696409/how-to-restore-deleted-files-in-boot-vmlinuz-missing-system-does-not-boot/696653#696653 How to regenerate intrramfs on boot partition from live dvd https://forums.fedoraforum.org/showthread.php?311425-How-to-regenerate-intrramfs-on-boot-partition-from-live-dvd regenerate initramfs after moving boot partition https://superuser.com/questions/901162/regenerate-initramfs-after-moving-boot-partition How to use initramfs-tools instead of dracut? #1000 https://github.com/systemd/mkosi/issues/1000 https://forum.endeavouros.com/t/dracut-generating-initramfs/37346/10 https://forum.endeavouros.com/t/dracut-generating-initramfs/37346/10 === Update Grub === Grub2/Setup https://help.ubuntu.com/community/Grub2/Setup What is the correct command to use to update grub after editing the kernel’s menu entries? https://discussion.fedoraproject.org/t/what-is-the-correct-command-to-use-to-update-grub-after-editing-the-kernels-menu-entries/77260 After changing a system disk partition, system won't boot, goes into "Dracut Emergency Shell"; how do I get it to boot? https://serverfault.com/questions/1031328/after-changing-a-system-disk-partition-system-wont-boot-goes-into-dracut-eme How to build an initramfs using Dracut on Linux https://linuxconfig.org/how-to-build-an-initramfs-using-dracut-on-linux Help with dracut(8) and/or adding device path in /boot/initramfs after O/S migration https://forums.fedoraforum.org/showthread.php?294196-Help-with-dracut(8)-and-or-adding-device-path-in-boot-initramfs-after-O-S-migration regenerate initramfs after moving boot partition https://superuser.com/questions/901162/regenerate-initramfs-after-moving-boot-partition === SE Linux === enable permissive SELinux mode https://www.google.com/search?client=firefox-b-1-d&q=enable+permissive+SELinux+mode+ Permanent changes in SELinux states and modes https://docs.fedoraproject.org/en-US/quick-docs/selinux-changing-states-and-modes/ === Update DNF === Have DNF check installed package? https://www.reddit.com/r/Fedora/comments/nqymdc/have_dnf_check_installed_package/ Using RPM to Verify Installed Packages http://ftp.rpm.org/max-rpm/s1-rpm-verify-what-to-verify.html#S2-RPM-VERIFY-A-OPTION === End of File ===
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/775782/fedora-migrate-root-filesystem-to-new-drive-partition
+
+---
+
+#### 5243. coreutils man pages are missing in WSL Fedora
+
+**问题描述 / Problem Description**:
+Tags: fedora, man, windows-subsystem-for-linux | Score: 1 | Views: 330 | Answers: 1 | Created: 2024-04-18
+
+**解决方案 / Solution**:
+In Fedora, the man pages for coreutils are in package coreutils-common . You should reinstall that too.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/774784/coreutils-man-pages-are-missing-in-wsl-fedora
+
+---
+
+#### 5244. Flameshot does not work at Fedora Workstation 39
+
+**问题描述 / Problem Description**:
+Tags: fedora, gui, screenshot | Score: 1 | Views: 177 | Answers: 1 | Created: 2024-03-11
+
+**解决方案 / Solution**:
+This is a known issue: Fedora bugzilla report , upstream issue . One of the recommended workarounds is to run these two commands to grant necessary permissions for screenshoting to Flameshot: dbus-send --session --print-reply=literal --dest=org.freedesktop.impl.portal.PermissionStore /org/freedesktop/impl/portal/PermissionStore org.freedesktop.impl.portal.PermissionStore.SetPermission string:'screenshot' boolean:true string:'screenshot' string:'org.flameshot.Flameshot' array:string:'yes' dbus-send --session --print-reply=literal --dest=org.freedesktop.impl.portal.PermissionStore /org/freedesktop/impl/portal/PermissionStore org.freedesktop.impl.portal.PermissionStore.Lookup string:'screenshot' string:'screenshot'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/772052/flameshot-does-not-work-at-fedora-workstation-39
+
+---
+
+#### 5245. Rolling back from fedora 40 to 39
+
+**问题描述 / Problem Description**:
+Tags: fedora | Score: 1 | Views: 3595 | Answers: 1 | Created: 2024-03-08
+
+**解决方案 / Solution**:
+Downgrading a major release of Fedora has been done as you can see from the question that you referenced but it isn't supported and isn't guaranteed to work. In some cases, it just makes things worse. Your best option in this case is to back up any needed data and then reinstall Fedora 39 and then wait until the official release of Fedora 40 comes out on April 16th and then update to that or better yet, create a Fedora 40 virtual machine to make sure that what you need is functional and then upgrade to it. The reason that you are having issues is most likely because you upgraded to a beta release where there are things that still haven't been finalized.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/771874/rolling-back-from-fedora-40-to-39
+
+---
+
+#### 5246. jbd2/sda2-8 utilizing disk I/O and Xorg.0.log log
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, xorg, iotop | Score: 1 | Views: 332 | Answers: 1 | Created: 2023-02-28
+
+**解决方案 / Solution**:
+This may not be the cause, but there is an option -audit number to the Xorg server that can be used to get these sort of messages on stderr. See man Xserver . If you can see this option on the process command line with a value of 2 or more, you need to find where it is being set and change it to 1 or 0: The default level is 1, meaning only connection rejections are reported. Level 2 additionally reports all successful connections and disconnects. [...] Level 0 turns off the audit trail. Audit lines are sent as standard error output.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/737159/jbd2-sda2-8-utilizing-disk-i-o-and-xorg-0-log-log
+
+---
+
+#### 5247. /dev/mapper/centos-root is at 100% Running CentOs
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, disk-usage | Score: 1 | Views: 21152 | Answers: 1 | Created: 2023-02-28
+
+**解决方案 / Solution**:
+It looks like /dev/sda3 might be unused. If it's actually unused and big enough to be useful, you could add it to the centos LVM volume group (VG for short), and then use its capacity to extend /dev/mapper/centos-root . Also, if sda3 is not reusable for some reason, but there is unpartitioned space on the /dev/sda disk, now would be a good time to get it into use, by creating a new partition from the unpartitioned space. To verify, use lsblk without the -f option, or fdisk -l /dev/sda . You might have to clear a little bit of space first, to allow the LVM tools to successfully make their LVM configuration backups before each operation. In many cases, yum clean all does that nicely by cleaning the package management caches. yum clean all pvcreate /dev/sda3 vgextend centos /dev/sda3 lvextend -r -L <new size> /dev/mapper/centos-root All this can be done while /dev/mapper/centos-root is mounted and in use. No reboot required. If /dev/sda3 is not big enough and the sda disk is fully allocated (check with fdisk -l /dev/sda or lsblk without the -f option), then you might have to extend the sda virtual disk. How to do it depends on what you are using as a virtualization host. But once you've done that, using the new capacity requires some more steps. First, install the cloud-utils-growpart package, as the growpart command in it makes it really easy to extend partitioned virtual disks. Verify that the VM's operating system recognises the new increased size of the sda virtual disk, using lsblk or fdisk -l . If not, run echo 1 > /sys/block/sda/device/rescan and check again. Now you can extend sda3 to cover the added space: growpart /dev/sda 3 (or if sda3 is in use by something else, use fdisk to create a new partition sda4 . Verify that lsblk sees it; if not, use partprobe /dev/sda to rescan.) If you already added sda3 to the centos volume group, use pvresize /dev/sda3 to make LVM aware of the larger size of the partition, and then lvextend to add the capacity to the filesystem, same as above.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/737157/dev-mapper-centos-root-is-at-100-running-centos
+
+---
+
+#### 5248. How to install systemd-resolved on centos7 and use systemd-resolve
+
+**问题描述 / Problem Description**:
+Tags: centos, systemd, dns, systemd-resolved | Score: 1 | Views: 5281 | Answers: 1 | Created: 2023-02-25
+
+**解决方案 / Solution**:
+Unfortunately, in CentOS 7, the version of systemd is 219, which does not include a management binary like resolvectl to perform the action you want. From what I can tell, this binary was only introduced in systemd version 239 and later. resolvectl(1) - Linux manual page
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/736919/how-to-install-systemd-resolved-on-centos7-and-use-systemd-resolve
+
+---
+
+#### 5249. Cinnamon crashes when opening terminal on CentOS 7 VM
+
+**问题描述 / Problem Description**:
+Tags: centos, cinnamon | Score: 1 | Views: 128 | Answers: 1 | Created: 2023-02-20
+
+**解决方案 / Solution**:
+When a terminal opened .bashrc ran scripts that are located in /etc/profile.d and a few of them were made to create desktop shourtcuts for applications such as Pycharm, CLion etc.. The next command is what caused the crashes: echo " [Desktop Entry] <Shortcut Configurations> " | tee ~/Desktop/APP.desktop > ~/.local/share/applications/APP.desktop I just removed the scripts that contained the same type of command from /etc/profile.d and it solved the issue.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/736171/cinnamon-crashes-when-opening-terminal-on-centos-7-vm
 
 ---

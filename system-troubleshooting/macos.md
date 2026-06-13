@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4810**
+**总计条目 / Total entries: 4899**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -66740,5 +66740,1162 @@ This documents has pages of both a) different sizes, and b) different orientatio
 
 **参考链接 / References**:
 - https://superuser.com/questions/1872002/what-do-the-each-orientation-in-the-document-and-each-page-size-in-the-docume
+
+---
+
+#### 4811. Swiftcord is back! The 100% native Discord client, now with Voice & Video and Liquid Glass!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u4ut8g/swiftcord_is_back_the_100_native_discord_client/
+
+---
+
+#### 4812. UPDATE: Brew Browser for Homebrew... now with more SwiftUI (too!)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u4ygk3/update_brew_browser_for_homebrew_now_with_more/
+
+---
+
+#### 4813. Hope it’s ok to post here my iMac g3 blueberry
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u4l0jb/hope_its_ok_to_post_here_my_imac_g3_blueberry/
+
+---
+
+#### 4814. Gargantua: an open-source macOS cleaner that explains why every file is safe to delete
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u4t8p6/gargantua_an_opensource_macos_cleaner_that/
+
+---
+
+#### 4815. I love my little homunculus
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u4o3cr/i_love_my_little_homunculus/
+
+---
+
+#### 4816. I made a clipboard manager app for macOS that looks like it's a part of macOS itself and with a generous free tier
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u4tajt/i_made_a_clipboard_manager_app_for_macos_that/
+
+---
+
+#### 4817. Siri AI on my EU Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u4m24e/siri_ai_on_my_eu_mac/
+
+---
+
+#### 4818. We still have the old battery icon on the Mac.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u4lc1q/we_still_have_the_old_battery_icon_on_the_mac/
+
+---
+
+#### 4819. Content-adaptive display brightness for macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u4lgtu/contentadaptive_display_brightness_for_macos/
+
+---
+
+#### 4820. The macOS menu bar ecosystem is more fragile than it looks
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u4m8rd/the_macos_menu_bar_ecosystem_is_more_fragile_than/
+
+---
+
+#### 4821. W padding logic Apple. 👏👏👏
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u4icsl/w_padding_logic_apple/
+
+---
+
+#### 4822. New siri ai terminal unblock method got leaked
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u4p8f3/new_siri_ai_terminal_unblock_method_got_leaked/
+
+---
+
+#### 4823. tuplutv
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u50l9y/tuplutv/
+
+---
+
+#### 4824. MacBook Pro won’t power on
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u53k6u/macbook_pro_wont_power_on/
+
+---
+
+#### 4825. MacOS taking up 73.91 GB of 115.44 GB
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u51a4r/macos_taking_up_7391_gb_of_11544_gb/
+
+---
+
+#### 4826. Reading academic papers in another language means constantly looking up words and forgetting them again（solved）
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u4msft/reading_academic_papers_in_another_language_means/
+
+---
+
+#### 4827. airportd spikes cpu to 190% usage
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u4y17w/airportd_spikes_cpu_to_190_usage/
+
+---
+
+#### 4828. Search for an App on my Desktop
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u4xvxh/search_for_an_app_on_my_desktop/
+
+---
+
+#### 4829. How to extract the background/ambiant sound audio stream?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u4piie/how_to_extract_the_backgroundambiant_sound_audio/
+
+---
+
+#### 4830. [V2EX] 写了个 macOS 小工具：给每个常用 app 绑个全局快捷键，不用再 Cmd+Tab 数位置
+
+**问题描述 / Problem Description**:
+Cmd+Tab 的顺序是按最近使用排的，每次都不一样。想切到某个固定的 app ，还得用眼睛在那一排图标里找、数位置——高频切换时这个动作其实很烦。 我想要的其实很简单：按一个固定的键 = 永远跳到那个 app ，纯肌肉记忆，不用看屏幕。但 macOS 原生没法给某个具体应用绑全局快捷键。 于是写了个 HotkeyLauncher： 给任意 app 绑全局快捷键，比如 Option+Cmd+C 永远打开 Chrome ，不管它现在在第几个 全局生效（基于 Carbon 注册），任何界面下都能触发 菜单栏常驻，支持开机自启 快捷键能导出成 JSON ，换机器直接导入 还处理了一个坑：app 在运
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220245#reply0
+
+---
+
+#### 4831. [V2EX] macOS27JiBA 没法正常使用
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220218#reply3
+
+---
+
+#### 4832. [V2EX] 翻出一台 macbook pro mid2012， 想装上 montery
+
+**问题描述 / Problem Description**:
+目前是 catalina ，官方支持也只能到 catalina ， 还能抢救一下吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220215#reply7
+
+---
+
+#### 4833. [V2EX] MAC 系统设置进来 APPLE 账户头像一直被更改，是什么原因？
+
+**问题描述 / Problem Description**:
+MAC 系统设置进来 APPLE 账户头像一直被更改， file:///Users/kaede/Library/Metadata/CoreSpotlight/PasteboardHistory/2026-06-13_10-38-59.png
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220114#reply6
+
+---
+
+#### 4834. [V2EX] 啥也不懂混吃等死的画电路图的三流选手，第一次用 Codex 二开了下年久失修的 LyricsX，放出体验版。
+
+**问题描述 / Problem Description**:
+LyricsX-Anya 一个基于 LyricsX 二次开发的 macOS 桌面歌词小玩具（花了三天业余时间弄的完全毛坯房，但能用）：在桌面歌词旁加了一只可以拖动、跑动、双击隐藏歌词的 Anya 。 这个项目仅供我自己娱乐和学习使用，不是严肃维护的产品。能折腾的朋友等这几天修完基本的会放在 GitHub 可以直接 Fork 自己改；如果你期待稳定、及时的维护，这里大概率会让你等很久。 项目说明 原版 ddddxxx/LyricsX 已经多年缺少持续维护，但它仍然是一个很好用、也很有历史价值的 macOS 歌词应用。本项目主要基于 MxIris-LyricsX-Project/LyricsX 继
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219853#reply1
+
+---
+
+#### 4835. [V2EX] macOS 27 已知问题汇总
+
+**问题描述 / Problem Description**:
+如题，macOS27 不支持 Intel 心了，用家里的 mac mini m1 的更新了感受了一下，发现 BUG 如下，其他感觉很好，尤其是新款的动效以及对刘海屏的优化等。macOS 27 Golden Gate 目前仍属于 beta 版本，主力机慎更！ 1 、Xcode 编译时候，找到真机设备，有可能是我 iOS 没更新的缘故 2 、新的 Liquid Glass 外接显示器，外接 4K 显示器 UI 上有时候会出现窗口边缘毛边闪烁 3 、破解软件都失效了，比如我用的 Paralles desktop 啥的，新版 macOS 可能调整了系统安全策略、签名验证、运行环境或底层接口的原因 其他
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219247#reply59
+
+---
+
+#### 4836. [V2EX] 3500 买了一个 macbook pro m1 16➕256，请问怎么验货比较好？
+
+**问题描述 / Problem Description**:
+感觉这个价格还是比较划算的，整台机只有底部有一道划痕，其他地方都正常，然后电池健康 100%，走的闲鱼严选 新手第一次买苹果，请问大家怎么验货好呢？还有平时大概开 50-80 个网页，加上 idea 写 java ，不知道这台设备的性能够不够，以及 3500 的性价比如何，谢谢大家！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220180#reply11
+
+---
+
+#### 4837. [V2EX] M2 macmini 值得现在升级金门 27 吗？
+
+**问题描述 / Problem Description**:
+家用电脑，非工作机
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220139#reply2
+
+---
+
+#### 4838. [V2EX] iPhone 17 / iPhone Air 怎么选？
+
+**问题描述 / Problem Description**:
+主力机是小米 17Pro ，最近有点想研究一下 IOS 的 App 开发，顺便买个果子手机自己用一下。 看了一下京东价格分别是 4999 和 5070 。 大佬们推荐哪个呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220083#reply61
+
+---
+
+#### 4839. [V2EX] 17E 能否双待国内 eSIM 卡和境外实体卡？
+
+**问题描述 / Problem Description**:
+RT ，17E 既然是一个实体 sim 卡槽和一个 eSIM 卡槽吗，那么如果我把中国移动的实体卡转为 eSIM 写入 17E,然后插入 Paygo 紫卡的实体卡，这样能实现双卡双待吗？不会像 Air 那样写入国内 eSIM 卡之后就有电子围栏，然后就不让插境外卡用了吧？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220037#reply3
+
+---
+
+#### 4840. [V2EX] 今天把 MacOS27 和 iPadOS27 都重置了一下，结果微信上不去了。
+
+**问题描述 / Problem Description**:
+macos 里官网下载的扫码登录不了，appstore 的打开直接崩掉。 iPados 里是二维码出不来 不知道咋整了 还好手机闲麻烦没重置
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220030#reply6
+
+---
+
+#### 4841. [V2EX] ios27 WiFi 断流断联真严重
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219850#reply23
+
+---
+
+#### 4842. [V2EX] iPhone 连 2.4G Wi-Fi 容易发烫
+
+**问题描述 / Problem Description**:
+你们发现这问题没？ 而且信号即使记录 AP 等发射端很近，也时不时少一格
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219767#reply4
+
+---
+
+#### 4843. [V2EX] 港版 17， iOS27，开启新版 AI 流程
+
+**问题描述 / Problem Description**:
+一直挂梯子 + 美区商店 + 通用->语言地区里只设置英文为首选语言（不用改地区）+ Siri 里面的语言设置为英语美国（目前只支持这个语言） 然后等待下载完 AI 后，重启手机，重启手机，这个是重点，然后 Siri app + 灵动岛下拉 Siri 都能正常使用，可以中文对话操作 app
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219618#reply23
+
+---
+
+#### 4844. [V2EX] ios27 上划 bug
+
+**问题描述 / Problem Description**:
+下方短滑条消失，锁屏页面上划功能失效，通过通知消息进入 app 后上划功能依然失效，回不到首页。 昨天下午一次，今天早上一次。均通过重启解决 暂时无法稳定复现
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219541#reply3
+
+---
+
+#### 4845. [V2EX] HomePod 在发 Thread/HomeKit IPv6 RA，怎么规避？
+
+**问题描述 / Problem Description**:
+除了把 HomePod 放到 IoT VLAN ，还有什么更优雅的解决方案吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219455#reply9
+
+---
+
+#### 4846. [V2EX] 曝光骗子网站 codepier.shop,购买的 github 不发货
+
+**问题描述 / Problem Description**:
+前几天在这个网站用虚拟货币购买 github ，售后机器人只会回复收到，telegram 登录了，不看消息也不回，13 年开始使用虚拟货币，第一次被骗，我以后会小心，希望大家也小心
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220191#reply0
+
+---
+
+#### 4847. [V2EX] 市面上的各类招聘软件涉嫌故意让雇主找不到合适的简历
+
+**问题描述 / Problem Description**:
+市面上的各类招聘软件涉嫌故意让雇主找不到合适的简历，让求职者找不到合适的工作，给你推送的也都是 僵尸公司 我是今天刷到一个抖音看到别人这样分析 雇主 HR 自己给自己做了个简历，怎么筛选都找不到自己的这份简历 然后她最后是通过群和社区很快找到匹配度很高的几十份简历 其实就是利用自身的垄断地位，让市场上的这些人付费，从而提高自己公司的营收 这类败类公司，我已经卸载了他的 app ，从此再也不用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220174#reply3
+
+---
+
+#### 4848. [V2EX] 用 Codex 把 Mac 和手机性能都救回来了，效果立竿见影
+
+**问题描述 / Problem Description**:
+最近用 Codex 折腾了一下电脑和手机的性能，效果立竿见影，记录一下。 电脑（ M1 Pro / macOS 26 ） 升级到 macOS 26 之后，WindowServer 占用一直偏高，电脑动不动就发热。为这事纠结了挺久要不要重装、甚至降级系统，结果一直没动手。 这次直接把需求丢给 Codex：关掉了一堆动态效果（透明度、动画这些），还顺手做了后台占用的优化——具体细节我也没细看，反正系统占用一下子就降下来了。对我来说这就够了，不用再为这事焦虑，享受懒人模式挺爽的。 手机（小米） 小米自带一堆卸载不掉的应用，还有像「智慧助理」这种我根本用不上的功能。本着极简主义想清掉，但又懒得去翻那些
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220170#reply0
+
+---
+
+#### 4849. [V2EX] A 社重置 Claude Code 当周使用限额，同时在 7 月 13 日前周限额增加 50%， 5 小时限额不变
+
+**问题描述 / Problem Description**:
+作为 Fable 5 下架的补偿措施 来源： https://www.landian.news/archives/113469.html
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220159#reply0
+
+---
+
+#### 4850. [V2EX] 分享一款在线 AI 图片转视频工具，适合快速制作短视频物料
+
+**问题描述 / Problem Description**:
+日常做社交媒体配图、产品宣传物料时，经常遇到静态图片缺少动态效果的问题，实拍剪辑耗时又有成本门槛，近期实测了一款在线图生视频工具，整体体验不错，分享给有同类需求的朋友。 这款工具基于 Seedance 2 模型开发，核心能力是通过文字提示词控制静态图片生成动态视频，无需本地部署，浏览器直接使用。 核心功能 支持单张 / 最多三张参考图，可自定义镜头运动、光影、画面氛围，同时兼顾图生视频、文生视频两种模式； 尺寸与时长 预设主流短视频比例：16:9 、9:16 、1:1 、4:3 ，视频时长支持 5s/10s/15s ，完美适配抖音、视频号、B 站、海外社媒等平台； 画质选择 提供 720p 、
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220156#reply0
+
+---
+
+#### 4851. [V2EX] 下午茶，小米 Token Plan，额度 820 亿，剩 1 天，速蹬
+
+**问题描述 / Problem Description**:
+key：tp-cg22984rfjgel2qnst1z4aizurta4rn791e0mhho5dhu8fe4 Base URL 兼容 OpenAI 接口协议： https://token-plan-cn.xiaomimimo.com/v1 兼容 Anthropic 接口协议： https://token-plan-cn.xiaomimimo.com/anthropic ipad 党方便测试蹬入口： https://vb.do/dashboard?autosubmit=true#prompt=hello%2Cbuild+a+todo+app&providerId=mi&providerName
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220153#reply7
+
+---
+
+#### 4852. [V2EX] 亮亮丽君夫妇揭开了国产资本的野蛮丑恶形态
+
+**问题描述 / Problem Description**:
+https://v.douyin.com/mH5dXB59rrGI/ 他们为自己的房子退房抗争了多年。 账号也被反复封了好几次。 当然他们也利用自己的粉丝群体去尽可能的去带货赚钱。 但是本质上来说，他们还是揭开了中国房地产的真相。 最大的受益方其实还是地主和银行。 他们不承担任何损失，却获得最大的收益。 所以我说某些组织贪婪无比。 希望年轻人能认清这样一个现状。 很多时候他们提倡的事情 我们要琢磨一下，思考一下。不要上当 他们没有任何信用可言。我记得小时候，农村的墙上都贴着，计划生育好，政府来养老。这类的标题，即便如此，当时老百姓都是不相信的，基本上家家户户都会想生男孩，那说明当时的老百姓就认
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220125#reply8
+
+---
+
+#### 4853. [V2EX] 发现 chatGPT 开始耍我了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220088#reply6
+
+---
+
+#### 4854. [V2EX] Windows 原生代理客户端
+
+**问题描述 / Problem Description**:
+https://github.com/yaog6700-bit/Swell-Proxy
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220080#reply8
+
+---
+
+#### 4855. [V2EX] 用上 Claude Fable 5 后，我的投资量化工具有点猛
+
+**问题描述 / Problem Description**:
+使用 Claude Fable 5 模型烧了 200 刀，重构了「股市挖掘机」。🏄 1️⃣ 支持自定义模型。可以直接配置 openrouter 、deepseek 、minimax 等模型，也支持调用本地 claude code 、codex 等 cli 工具使用。 2️⃣ 打通实时数据，支持期权、现货、数字货币等行情数据直接实时分析。 3️⃣ 内设白毛女、游资等 Skills ，基于产业链找出卖铲子的公司。现在输出效果接近无敌。🚀 https://mastersgo.cc
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220041#reply2
+
+---
+
+#### 4856. [V2EX] 腾讯官方客服加我一直跟我说要买产品和续费跟她说，帮我申请优惠，每次一看根本跟官方差不了多少。
+
+**问题描述 / Problem Description**:
+是真的腾讯官方客服。又没优惠加我干啥啊。挺浪费时间了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220012#reply5
+
+---
+
+#### 4857. [V2EX] 小米 MiMoCode 的简单反代方案
+
+**问题描述 / Problem Description**:
+来源-网络技术分享 t.me/wzxylh 整体流程比较简单： 1️⃣ 调用 Bootstrap 接口获取临时 JWT Token 2️⃣ 携带 JWT 调用 OpenAI 兼容接口完成对话 目前支持通过 OpenAI 格式直接调用 MiMo 模型，对于测试和接入第三方客户端来说比较方便。 获取 JWT： JWT=$(curl -s -X POST ' https://api.xiaomimimo.com/api/free-ai/bootstrap' -H 'Content-Type: application/json' -d '{"client":"haha"}' | python3 -c
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219956#reply10
+
+---
+
+#### 4858. [V2EX] [避雷] B 站上卖手机卡的大多是骗人的
+
+**问题描述 / Problem Description**:
+在 B 站购买了好几个 up 推荐的手机卡，都是宣传套餐很便宜的，首年 19 块 200+G 流量的，买了 3 张卡，激活后套餐是原价
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219951#reply14
+
+---
+
+#### 4859. [V2EX] 后知后觉，与人交往其实是一种很重要的能力
+
+**问题描述 / Problem Description**:
+也就是我们所谓的情商。 读书的时候看中的是智商，但是到了大学/出社会后情商占比变更多了。 可惜的是学校和家人不会特别教你怎么提升情商，与人交往/沟通的能力。除非天赋很好，或者有意识地主动去学去实践，否则直到吃到亏/失去了东西才能重视到。用途包括 面试时候的沟通交流 与同事之间的沟通交流 和异性的沟通交流 和朋友的沟通交流 等等
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219832#reply6
+
+---
+
+#### 4860. Installation issue "ext4fuse:Linux is required for this software." on Mac OS Mojave
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew | Score: 13 | Views: 28344 | Answers: 3 | Created: 2023-02-13
+
+**解决方案 / Solution**:
+You might need to build it manually on your Mac. Taken from https://github.com/gerard/ext4fuse/issues/74#issuecomment-1374069541 : install mac4fuse from https://osxfuse.github.io/ , restart Run the following in Terminal git clone https://github.com/gerard/ext4fuse.git && cd "$(basename "$_" .git)" make mkdir ~/ext4_mount diskutil list # shows you a list of all disks connected to your system, choose your ext4 disk/partition, let's assume it's /dev/disk4 sudo ./ext4fuse /dev/disk4 ~/ext4_mount -o allow_other # sudo is required # approve all the security prompts, reboot sudo ./ext4fuse /dev/disk4 ~/ext4_mount -o allow_other # run again after reboot
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/454827/installation-issue-ext4fuselinux-is-required-for-this-software-on-mac-os-moj
+
+---
+
+#### 4861. Ghostty terminal - how do I show an image?
+
+**问题描述 / Problem Description**:
+Tags: linux, macos, ghostty | Score: 10 | Views: 21700 | Answers: 2 | Created: 2025-01-05
+
+**解决方案 / Solution**:
+It claims to only support the protocol . There are no signs of any in-built CLI tools, neither in docs, nor in the code. You could try a 3rd party tool like viu or chafa that specify that they support the protocol and are available on all Mac, Linux and Windows. They don't list support for Ghostty specifically, so it might not work if something about the protocol gets non-standard in this terminal at any point. chafa image.jpg or viu image.jpg
+
+**参考链接 / References**:
+- https://superuser.com/questions/1869316/ghostty-terminal-how-do-i-show-an-image
+
+---
+
+#### 4862. How to restart AirDrop on a MacBook without restarting macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, file-transfer, iphone, macos-monterey, apple | Score: 10 | Views: 3968 | Answers: 2 | Created: 2024-11-07
+
+**解决方案 / Solution**:
+What I found after digging a fair bit is that you simply need to restart the interface like so: Open a terminal. Type the following in the Terminal: sudo ifconfig awdl0 down sudo ifconfig awdl0 up Try again on your iPhone/device. You will see your MacBook for a little while (until it stops again). Notes : You could schedule (cron) the above commands to automagically fix itself once a day. I leave that as an exercise for the reader. If desperate, rebooting is still the simplest fix although (very) annoying.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1860955/how-to-restart-airdrop-on-a-macbook-without-restarting-macos
+
+---
+
+#### 4863. Firefox on macOS refuses to visit a single website in my home network, 192.168.1.232: NS_ERROR_CONNECTION_REFUSED
+
+**问题描述 / Problem Description**:
+Tags: networking, macos, firefox, dns | Score: 5 | Views: 4964 | Answers: 1 | Created: 2024-12-29
+
+**解决方案 / Solution**:
+Try enabling "Local Network" access for Firefox within your Mac System Settings System Settings > Privacy & Security > Local Network > Firefox (set to true) I faced essentially the exact same issue. Firefox will initially ask for access to your local network, and if you decline it will not prompt you again. I discovered this fixed my issue when I got the popup on the Firefox "Nightly" edition. After setting this to true, Firefox worked along with Safari and Chrome
+
+**参考链接 / References**:
+- https://superuser.com/questions/1868404/firefox-on-macos-refuses-to-visit-a-single-website-in-my-home-network-192-168-1
+
+---
+
+#### 4864. Error: joplin: It seems the App source '/Applications/Joplin.app' is not there
+
+**问题描述 / Problem Description**:
+Tags: homebrew | Score: 5 | Views: 4021 | Answers: 1 | Created: 2023-01-03
+
+**解决方案 / Solution**:
+You installed an application "Joplin" previously using Brew. When you run brew upgrade it tries to upgrade things it's installed in the past. However, you must've deleted "Joplin", so Brew stops when it cannot find it. If you don't want "Joplin," uninstall it using Brew to resolve the discrepancy: brew uninstall joplin If you do want "Joplin," then you should uninstall it to resolve the discrepancy, then fully reinstall it: brew uninstall joplin brew install joplin You can also use --force to try upgrading it directly: brew upgrade --force joplin
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/452747/error-joplin-it-seems-the-app-source-applications-joplin-app-is-not-there
+
+---
+
+#### 4865. Where is bash installed by brew?
+
+**问题描述 / Problem Description**:
+Tags: bash, homebrew, monterey | Score: 5 | Views: 4811 | Answers: 2 | Created: 2022-11-19
+
+**解决方案 / Solution**:
+Brew has changed the installation location for Apple Silicon (M1/M2) to be /opt/homebrew/bin , see https://docs.brew.sh/Installation .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/450766/where-is-bash-installed-by-brew
+
+---
+
+#### 4866. How to chain two VPNs on MacOS to bypass blocked VPN
+
+**问题描述 / Problem Description**:
+Tags: networking, macos, vpn | Score: 4 | Views: 1092 | Answers: 1 | Created: 2024-11-24
+
+**解决方案 / Solution**:
+how do I route (chain) my MacOS traffic through two different VPNs without using extra hardware? You can't. That is, unless you control one of the VPN providers, which means extra hardware. Each provider routes traffic as they see fit. There is no way for you to tell them to connect to another provider and route through them. The only solution - if really required - is an external server that you control. Set up two VPN connections, one for you to dial in to and another to where you'd want the traffic to go through. While you're at it, you might want to set up your dial-in VPN so that it is not easily detectable - use TCP port 443 with TLS, and so on. (Yes, TCP over TCP sucks but it's better than nothing.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1862664/how-to-chain-two-vpns-on-macos-to-bypass-blocked-vpn
+
+---
+
+#### 4867. Sleepwatcher on Ventura
+
+**问题描述 / Problem Description**:
+Tags: sleep-wake, homebrew | Score: 4 | Views: 1758 | Answers: 1 | Created: 2023-03-17
+
+**解决方案 / Solution**:
+Seems to be working fine for me - I'm running Ventura 13.6.3 on Apple M2 My config: $ sleepwatcher -v sleepwatcher 2.2.1 Copyright (c) 2002-2019 Bernhard Baehr (bernhard.baehr@gmx.de) This is free software that comes with ABSOLUTELY NO WARRANTY. See the GNU General Public License for details. $ ps ax |grep sleepw 2314 ?? S 0:00.16 /opt/homebrew/opt/sleepwatcher/sbin/sleepwatcher -V -s /Users/admin/.sleep -w /Users/admin/.wakeup I gave execution permissions to both files, chmod a+x ~/.sleep chmod a+x ~/.wakeup checking the service with brew I get $ brew services info sleepwatcher sleepwatcher (homebrew.mxcl.sleepwatcher) Running: ✔ Loaded: ✔ Schedulable: ✘ User: admin PID: 2314 Lastly, my .sleep contains #!/bin/bash networksetup -setairportpower en0 off Then, when I run $ pmset sleepnow Sleeping now... and I re-login, I have my WiFi off
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/457292/sleepwatcher-on-ventura
+
+---
+
+#### 4868. Why does brew has to compile files instead of simply installing binaries
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, homebrew | Score: 4 | Views: 2348 | Answers: 1 | Created: 2023-01-09
+
+**解决方案 / Solution**:
+Posting this as an answer for future reference. From the Homebrew Documentation: FAQ (Frequently Asked Questions provided by @Martin R in a comment. Why do you compile everything? Homebrew provides pre-built binary packages for many formulae. These are referred to as bottles and are available at https://github.com/Homebrew/homebrew-core/packages . If available, bottled binaries will be used by default except under the following conditions: The --build-from-source option is invoked. No bottle is available for the machine’s currently running OS version. (Bottles for macOS are generated only for supported macOS versions.) Homebrew is installed to a prefix other than the default (although some bottles support this). Formula options were passed to the install command. For example, brew install will try to find a bottled binary, but brew install --with-foo will trigger a source build. We aim to bottle everything.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/453083/why-does-brew-has-to-compile-files-instead-of-simply-installing-binaries
+
+---
+
+#### 4869. Brew postgresql@14 error on Mac M2
+
+**问题描述 / Problem Description**:
+Tags: homebrew, postgresql | Score: 4 | Views: 12665 | Answers: 2 | Created: 2022-11-26
+
+**解决方案 / Solution**:
+The error messages give information that needs to be investigated. HINT: Is another postmaster already running on port 5432? If not, wait a few seconds and retry. So check if port 5432 is being used. If so put postgress on another port
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/451097/brew-postgresql14-error-on-mac-m2
+
+---
+
+#### 4870. How to block all traffic on a Mac when “sshuttle” isn't running?
+
+**问题描述 / Problem Description**:
+Tags: networking, macos, vpn, sshuttle | Score: 3 | Views: 220 | Answers: 1 | Created: 2025-01-05
+
+**解决方案 / Solution**:
+I've adapted this kill switch solution from Reddit . I created a Bash script in my home directory named ~/pn-check.sh : #!/bin/bash # Bring the interface en0 up /sbin/ifconfig en0 up sleep 1 # Wait for the interface to come up # Run sshuttle, and if it fails, bring en0 down and send a macOS notification /opt/homebrew/bin/sshuttle -vr xxx@123.123.123.123 0/0 --ssh-cmd "ssh -i /Users/dara/.ssh/id_ed25519" || { /sbin/ifconfig en0 down osascript -e 'display notification "No longer protected. check vpn-check.sh in home and com.dara.script.plist" with title "Error"' } I then added this to a Plist named com.dara.script.plist : ~/Library/LaunchAgents/com.dara.script.plist ; feel free to change the name to better match your setup. Also note that the path to ~/pn-check.sh is explicitly set to /Users/dara/vpn-check.sh but it should be changed to match your environment: <?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"> <plist version="1.0"> <dict> <key>Label</key> <string>com.dara.script</string> <key>ProgramArguments</key> <array> <string>/usr/bin/sudo</string> <string>/Users/dara/vpn-check.sh</string> </array> <key>RunAtLoad</key> <true/> <key>KeepAlive</key> <true/> <key>StandardErrorPath</key> <string>/tmp/script.err</string> <key>StandardOutPath</key> <string>/tmp/script.out</string> </dict> </plist> It seems to be quite robust! Losing network connection doesn't reset sshuttle and if I manually kill the command macOS retries the script every few seconds.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1869322/how-to-block-all-traffic-on-a-mac-when-sshuttle-isnt-running
+
+---
+
+#### 4871. Moving local git repo from macOS to external hard drive (APFS case-insensitive) - will there be problems?
+
+**问题描述 / Problem Description**:
+Tags: git, macos, hard-drive | Score: 3 | Views: 437 | Answers: 2 | Created: 2024-12-11
+
+**解决方案 / Solution**:
+You ask this in your question: “Moving local git repo from macOS to external hard drive (APFS case-insensitive) - will there be problems?” And you further elabtorte in the body of your question: “However, I have read that generally, Git is case-sensitive (because Linux is), and that this might induce problems when moving to a case-insensitive hard drive. However, this directory has only ever been used on my Mac which is case-insensitive and I've never had issues.” If your macOS drive case-insensitive and your new external drive is case-insensitive then there is utterly no concern. The drives are the same and the files are therefore in the same exact state. That said… You are absolutely overthinking this. Why do you want to use the Terminal to do this? Just run these two commands if you insist on using the Terminal and you should be fine: mv /Users/a/b/c/d/* /Volumes/hDrive; mv /Users/a/b/c/d/.* /Volumes/hDrive; That said, just use the Finder to copy the files. Git directories and files are just plain directories and files. But seriously, you can more easily just drag and drop the directories via the Finder. Just open up the /Users/a/b/c/ directory and drag and drop the directories to /Volumes/hDrive .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1864636/moving-local-git-repo-from-macos-to-external-hard-drive-apfs-case-insensitive
+
+---
+
+#### 4872. Why does deleting files on FAT32 USB flash drive on macOS just rename the files and doesn't delete them?
+
+**问题描述 / Problem Description**:
+Tags: macos, finder, fat32 | Score: 3 | Views: 721 | Answers: 1 | Created: 2024-11-30
+
+**解决方案 / Solution**:
+You can remove ._ files on your FAT32 USB flash drive by entering the command below in a Terminal application window. dot_clean /Volumes/<Name of Volume> Here you would replace <Name of Volume> with the "Name & Extension" shown in the "Get Info" window for the volume. To do this from the Finder you would have use the Automator application to create a quick action. Below are two fast ways to acquire this quick action. Details for each are given below. Create a simple one yourself. The instructions given in this answer will not specify any dot_clean options and logs all output, which can be viewed by the Console application. Download a third party quick action. The one given in this answer is written in AppleScript, which allows the user to select the options for the dot_clean command and displays dialogs and notifications when appropriate. All output is logged, which can be viewed by the Console application. Create One Yourself The steps are given below. Open Automator application and select a new quick action. Older versions of macOS refer to this as a service. Drag "Run a Shell Script" to your empty workflow. Replace any existing script with the following { echo -n "dot_clean" printf " %q" "$@" echo dot_clean "$@" status=$? echo "Returned status: $status" exit $status } >> ~/Library/Logs/Finder.log 2>&1 Basically, this script prints the dot_clean command to be executed, then executes the command. All output is sent to the Finder.log , which can be viewed by the Console application. Save using the name "Dot Clean". The workflow file ~/Library/Services/Dot Clean.workflow will be created. Configure the rest of the workflow as shown below. This was created using macOS Sonoma 14.7.1. Close the workflow. Quit the Automator application. Below is an example, where all the ._ files are being removed from a flash drive. The following output was appended to the ~/Library/Logs/Finder.log file. dot_clean /Volumes/MYFLASHDRV Failed trying to change dir to .Spotlight-V100 Bad Pathname: Operation not permitted Failed trying to change dir to .TemporaryItems Bad Pathname: Operation not permitted Returned status: 0 This output can be viewed in the Console application, as shown below. Download from the Internet I wrote a workflow which uses AppleScript instead of a Bash script. This can be found at the SourceForge Dot Clean Project . The installation and usage instructions can be found here . Using the same flash drive as before produces the following popup, where dot_clean options can be selected. Here, "Continue" was chosen without selecting any options. The following notification was issued. The following output was appended to the ~/Library/Logs/Finder.log file. ********** 2024-12-04 20:13:34 Dot Clean executing: dot_clean '/Volumes/MYFLASHDRV' 2>&1 2024-12-04 20:13:34 Dot Clean completed with a status of 0: Failed trying to change dir to .Spotlight-V100 Bad Pathname: Operation not permitted Failed trying to change dir to .TemporaryItems Bad Pathname: Operation not permitted This output can be viewed in the Console application, as shown below.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1863187/why-does-deleting-files-on-fat32-usb-flash-drive-on-macos-just-rename-the-files
+
+---
+
+#### 4873. Why does entering a second-level domain in Firefox (macOS Sequoia 15.1.1) URL bar not auto-complete to URLs with non-www subdomains?
+
+**问题描述 / Problem Description**:
+Tags: macos, firefox, history, autocomplete, user-interface | Score: 3 | Views: 188 | Answers: 1 | Created: 2024-11-28
+
+**解决方案 / Solution**:
+I've tried in both Firefox and Chrome, and can't reproduce what you're describing. For me, whatever I start typing gets handled in one of two ways. Both Firefox and Chrome autocomplete the rest of the URL from the point I've reached, with the autocompleted section hightlighted. Both Firefox and Chrome also provide suggestions which are displayed below the current address bar, so I can arrow down and select one of those suggestions as needed. Nothing I tried leads to Chrome displaying an expanded address (for instance my equivalent of mail.yahoo.com when typing yahoo) after a - which can be selected by pressing enter. But, even if that functionality does happen in your Chrome when you've visited a particular website frequently enough, there's no reason to expect Firefox to behave in the exact same way since they're entirely different browsers, written by completely different companies, and no doubt some users wouldn't want the browser to behave that way.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1863092/why-does-entering-a-second-level-domain-in-firefox-macos-sequoia-15-1-1-url-ba
+
+---
+
+#### 4874. How can I fix a zshrc:export:1: not valid in this context error when I'm installing homebrew?
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, homebrew | Score: 3 | Views: 8362 | Answers: 1 | Created: 2023-04-13
+
+**解决方案 / Solution**:
+You have something wrong with line 1 of your .zshrc file. Use a text editor like nano to open ~/.zshrc /usr/bin/nano ~/.zshrc Delete the line with ctrl-K if you don't need it. Save with ctrl-X. Restart Terminal.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/458506/how-can-i-fix-a-zshrcexport1-not-valid-in-this-context-error-when-im-install
+
+---
+
+#### 4875. Brew: Newly installed package, command not found
+
+**问题描述 / Problem Description**:
+Tags: homebrew, apple-silicon, zsh, ventura | Score: 3 | Views: 931 | Answers: 1 | Created: 2023-03-17
+
+**解决方案 / Solution**:
+There is no command xxhash installed by this package. The binary is called xxhsum and is in your PATH . $ ll /opt/homebrew/Cellar/xxhash/0.8.1/bin total 184 lrwxr-xr-x 1 verence wheel 6 Nov 29 2021 xxh128sum@ -> xxhsum lrwxr-xr-x 1 verence wheel 6 Nov 29 2021 xxh32sum@ -> xxhsum lrwxr-xr-x 1 verence wheel 6 Nov 29 2021 xxh64sum@ -> xxhsum -rwxr-xr-x 1 verence wheel 92131 Nov 29 2021 xxhsum* $ type xxhsum xxhsum is /opt/homebrew/bin/xxhsum
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/457288/brew-newly-installed-package-command-not-found
+
+---
+
+#### 4876. How to check if brew installs M1 or intel packages?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, apple-silicon | Score: 3 | Views: 1810 | Answers: 1 | Created: 2023-01-22
+
+**解决方案 / Solution**:
+Fix Common Issues Homebrew Not Installed for ARM (M1/M2). Check which how Brew is installed. If which brew shows /usr/local/bin/brew then you have Intel version. You would need to uninstall and reinstall Homebrew for ARM . Uninstall old Homebrew (Intel) /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)" Reinstall for ARM64 (M1/M2) /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" Uninstall and Reinstall Jetbeans brew uninstall --cask jetbrains-toolbox then Reinstall brew install --cask jetbrains-toolbox
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/453757/how-to-check-if-brew-installs-m1-or-intel-packages
+
+---
+
+#### 4877. How to implement a GUI based Linux (XUbuntu) linux on arm Mac M1 processor
+
+**问题描述 / Problem Description**:
+Tags: install, homebrew, java, ui, virtualbox | Score: 3 | Views: 1562 | Answers: 2 | Created: 2023-01-08
+
+**解决方案 / Solution**:
+From the nature of your question, it seems like you want first of all an easy to use solution for first time users. In that case, I would suggest Parallels Desktop . There is a free, 14-day trial version. The full version of the software costs €99.99 for home users. After installing Parallels Desktop, you can select to create a new virtual machine. You will be given the choice of automatically installing included, ready-to-go Linux distributions for ARM. You can choose from Ubuntu, Fedora, Debian and Kali. This will give you a full installation of Linux - including the GUI - and you do not have to know how to install Linux. It is done automatically. UPDATE: From your comments, you indicate that you are not a first time user of VirtualBox. In that case, I would again recommend Parallels Desktop, but if you must go with VirtualBox then remember to download the ARM64 version of Ubuntu. You list in the question that you have tried installing the AMD64 version of Ubuntu in VirtualBox on the M1 Mac. That will not work, as it requires an Intel-compatible CPU in order to work. You can install it using CPU-emulation, but that would not be workable in practice. Use the ARM64 version and you'll get (more than) decent performance.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/453003/how-to-implement-a-gui-based-linux-xubuntu-linux-on-arm-mac-m1-processor
+
+---
+
+#### 4878. What's the methodology for dealing with MacOS updates breaking npm and brew commands?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, command-line, homebrew, zsh | Score: 3 | Views: 218 | Answers: 1 | Created: 2022-12-16
+
+**解决方案 / Solution**:
+"Command not found" implies that the path to brew binaries got lost. A way to keep the paths is to add a file to /etc/paths.d : cat <<EOF $(brew --prefix)/bin $(brew --prefix)/sbin EOF > /tmp/homebrew sudo mv /tmp/homebrew /etc/paths.d/ You can do the same for other paths.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/452023/whats-the-methodology-for-dealing-with-macos-updates-breaking-npm-and-brew-comm
+
+---
+
+#### 4879. KeepassXC update
+
+**问题描述 / Problem Description**:
+Tags: homebrew, software-update, apple-silicon | Score: 3 | Views: 750 | Answers: 1 | Created: 2022-12-07
+
+**解决方案 / Solution**:
+Probably because I haven't originally installed with brew? Exactly. You haven't installed KeePass XC with Homebrew, so they have no idea whether it's installed or not. You can check which apps you've installed with Homebrew by running the following: brew list --cask How do I update it then? If you want to automate the process via Homebrew in the future, the easiest thing might be to manually uninstall the app and then run brew install keepassxc . I am afraid to substitute the app in Applications will delete the database. The database is a separate kdbx file, completely unrelated to the app. Uninstalling the app might mean that any KeePass XC configurations/settings might be reverted, but the database will be fine.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/451581/keepassxc-update
+
+---
+
+#### 4880. Wine or Wineskin on Ventura
+
+**问题描述 / Problem Description**:
+Tags: mac, homebrew, wine, windows | Score: 3 | Views: 14939 | Answers: 1 | Created: 2022-12-02
+
+**解决方案 / Solution**:
+Partial answer: three places where it is not known to work on Ventura… I re-downloaded a Wineskin-wrapped app that I deleted when it failed in 2017 . Don't know when/if they updated it, but it still doesn't work now. Next I decided to take a chance on the reddit advice: brew install --formula gcenx/wine/winetricks\ brew install --cask --no-quarantine gcenx/wine/wine-crossover\ That creates /Applications/Wine.app which when launched opens a Terminal with a modified path. Trying to use wine there complains that wine64 is not in the path. But find … -print | grep -i wine64 shows that it is located in the second item on $path. I may try PlayOnMac after I make sure I've removed all traces of the brew attempt. Reluctant to pay $74 US to run a single app I've done without for five years. There's also Winebottler, but the latest "development" version identifies it as for Mojave.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/451376/wine-or-wineskin-on-ventura
+
+---
+
+#### 4881. Can't uninstall MacPorts with error "Current platform "darwin 23" does not match expected platform "darwin 22""
+
+**问题描述 / Problem Description**:
+Tags: macos, macports | Score: 2 | Views: 1432 | Answers: 2 | Created: 2025-01-09
+
+**解决方案 / Solution**:
+I managed to fix this by simply reinstalling MacPorts with the latest version . Then I continued with the uninstall instructions as mentioned in the question above.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1869921/cant-uninstall-macports-with-error-current-platform-darwin-23-does-not-match
+
+---
+
+#### 4882. How to stop browsers from opening the App Store on macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, links, mac-app-store | Score: 2 | Views: 1350 | Answers: 1 | Created: 2025-01-09
+
+**解决方案 / Solution**:
+I have recreated this on MacOS Sonoma 14.5 and Google Chrome version 131.0.6778.205. The feature controlling this behavior is a 'protocol handler' in the browser. The easiest way to reset this is to delete your browsing data - Go to the Top right menu -> "Delete browsing data..." -> Select everything (By default for me it skips Browsing History and Passwords) -> Delete data. This will reset the protocol handler (from under 'Cookies and other site data') and provide you with a pop up again when you open the page next time to decide if you want to open the app. P.S. To disable default handling if any , go to "Settings-> Privacy and Security -> Site settings -> Additional permissions -> Protocol Handlers -> Don't allow ... " There are advanced ways to reset protocol handling for specific sites ( Registry in Windows ). For example, on Mac I found the following in ~/Library/Application Support/Google/Chrome/Default/Preferences "allowed_origin_protocol_pairs": { "https://www.apple.com": { "itms-apps": true } } }, I played around with it to set this to False, saved, and restarted but that didn't work. If anyone has an answer to that it would be great.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1869826/how-to-stop-browsers-from-opening-the-app-store-on-macos
+
+---
+
+#### 4883. How can I use Hammerspoon to allow me to use Windows and macOS hotkeys?
+
+**问题描述 / Problem Description**:
+Tags: linux, macos, mac, lua | Score: 2 | Views: 350 | Answers: 1 | Created: 2024-12-17
+
+**解决方案 / Solution**:
+I was missing this at the end of the Lua script. … return false end ) controlToCommandTap:start() Now it works well and both ctl and cmd hotkeys work!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1865805/how-can-i-use-hammerspoon-to-allow-me-to-use-windows-and-macos-hotkeys
+
+---
+
+#### 4884. How to identify contributors to system wide DNS configuration as seen by `scutil --dns` output
+
+**问题描述 / Problem Description**:
+Tags: networking, macos, dns, domain, dnsmasq | Score: 2 | Views: 112 | Answers: 1 | Created: 2024-11-09
+
+**解决方案 / Solution**:
+Found the issue. I had added a resolver for app here; ➜ ~ git:(main) ✗ cat /etc/resolver/app nameserver 127.0.0.1 Removing it solved the issue immediately. Shout out here for some great sign posting .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1861228/how-to-identify-contributors-to-system-wide-dns-configuration-as-seen-by-scutil
+
+---
+
+#### 4885. Problem with ARM package selection when installing homebrew git on an Intel MacBook Air
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, homebrew, open-source | Score: 2 | Views: 2286 | Answers: 1 | Created: 2023-04-13
+
+**解决方案 / Solution**:
+For whatever reason your homebrew installation ended up in the wrong directory ( /opt/homebrew is the location for Apple Silicon, not for Intel). To fix, do the following sudo rm -r /opt/homebrew Quit ( Cmd-Q ) Terminal and restart it /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" After the installation, run type brew again. If it returns /usr/local/bin/brew (which is the default Homebrew location on Intel), you are all set.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/458510/problem-with-arm-package-selection-when-installing-homebrew-git-on-an-intel-macb
+
+---
+
+#### 4886. How to add PATH environment variable to the HomeBrew Profiles
+
+**问题描述 / Problem Description**:
+Tags: terminal, mac, homebrew | Score: 2 | Views: 1588 | Answers: 2 | Created: 2023-04-10
+
+**解决方案 / Solution**:
+tl;dr You don't need build dependencies to install packages from a Bottle . I didn't require Go installed, Homebrew or otherwise, to install buf. Let's start with brew info buf to see what we're working with $ brew info buf ==> buf: stable 1.15.1 (bottled), HEAD … ==> Dependencies Build: go ✘ ==> Options … ==> Analytics … The two key pieces of information here are ==> buf: stable 1.15.1 (bottled) , HEAD Build: go ✘ This tells us: buf is available in a bottle Bottles are simple gzipped tarballs of compiled binaries. https://docs.brew.sh/Bottles building buf depends on go , which is not installed with Brew (hence ✘ ). This means you don't need to install go just to install buf from a bottle, as I was successfully able to do: $ brew install buf ==> Fetching buf ==> Downloading https://ghcr.io/v2/homebrew/core/buf/manifests/1.17.0 ######################################################################## 100.0% ==> Downloading https://ghcr.io/v2/homebrew/core/buf/blobs/sha256:b190b169d11d6acb1d81d9da47c1369074ee50deee237e4c544ca79731c78b6a ==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:b190b169d11d6acb1d81d9da47c1369074ee50deee237e4c544ca79731c78b6a?se=2023-04 ######################################################################## 100.0% ==> Pouring buf--1.17.0.ventura.bottle.tar.gz ==> Caveats fish completions have been installed to: /usr/local/share/fish/vendor_completions.d ==> Summary 🍺 /usr/local/Cellar/buf/1.17.0: 86 files, 56.0MB $ buf -h The Buf CLI A tool for working with Protocol Buffers and managing resources on the Buf Schema Registry (BSR) … If your install is building from source, see ‘Bottles will not be used if:’ section of https://docs.brew.sh/Bottles . If you want to install a package with Homebrew and you know you don't need its help in installing dependencies, you can always use --ignore-dependencies with brew install .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/458342/how-to-add-path-environment-variable-to-the-homebrew-profiles
+
+---
+
+#### 4887. How to set up Varnish locally on a Mac OS with MAMP Pro?
+
+**问题描述 / Problem Description**:
+Tags: homebrew, mamp | Score: 2 | Views: 674 | Answers: 1 | Created: 2023-02-08
+
+**解决方案 / Solution**:
+Here is the solution and what I was missing. My vhost was in HTTPS and working with Varnish it's easier to work with HTTP. Here is all the step that might help someone : Make sure that Apache in MAMP Pro is running on port 80. In the VCL file make sure that Varnish targets port 80. Mine was looking like that : backend default { .host = "127.0.0.1"; .port = "80"; } Then I start varnish with the following command (varnish running on port 8080) : sudo varnishd -a :8080 -T localhost:6082 -f /usr/local/etc/varnish/drupal.vcl -s file,/tmp,500M When I visit http://my-vhost.local:8080/node/1 varnish is properly caching the page. If I go to http://my-vhost.local/node/1 , I see the page without varnish. To clear the varnish cache of the page I just do this command : curl 'http://my-vhost.local:8080/node/1' -X PURGE
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/454616/how-to-set-up-varnish-locally-on-a-mac-os-with-mamp-pro
+
+---
+
+#### 4888. How do I change from PHP 7 to 8 when using Homebrew?
+
+**问题描述 / Problem Description**:
+Tags: homebrew, php | Score: 2 | Views: 2317 | Answers: 1 | Created: 2023-01-12
+
+**解决方案 / Solution**:
+Context The way that the command line shell knows what you mean when you type php is to lookin a number of defined directories in your computers hard drive, this is known as your $PATH or path. Homebrew automatically installs software into a directory of it's own that isn't in the path, and then uses symlinks to make them available in the path. Step 1 - Unlink PHP 7 When you first installed PHP it would have been the earlier 7.x version you are 'stuck' with, this can be removed from the path using brew unlink php@7.4.33 . Step 2 - Link PHP 8 Once this is complete you can then issue brew link php@8.1.12 , according to the aricle I am referencing this might require a forced overwrite, for example: brew link php@8.1.12 --force --overwrite . Step 3 - Confirm version You should now be able to close the console and reopen it, then enter php -v and it should now be the newer version. Source: https://localheinz.com/articles/2020/05/05/switching-between-php-versions-when-using-homebrew/
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/453231/how-do-i-change-from-php-7-to-8-when-using-homebrew
+
+---
+
+#### 4889. Safari can’t open the file “.dmg” because no available application can open it
+
+**问题描述 / Problem Description**:
+Tags: safari, macos, homebrew, dmg, disk-format | Score: 2 | Views: 2550 | Answers: 1 | Created: 2023-01-02
+
+**解决方案 / Solution**:
+I just can't double click them [DMG files] in Safari or install stuff from brew. No, you can't "double-click" DMG files to run from Safari. It's not a filetype Safari knows how to handle. As for installing applications, the typical type of DMG is read-only so you wouldn't be able to write anything to it. Just double click the DMG in Finder and it should automatically mount the volume and open a Finder window showing the file to be copied or installer to be run. A DMG file is an Apple Disk Image and is a completely separate entity from your APFS container. To install software, you shouldn't be mounting/dismounting your APFS volumes; it's unclear why you're doing so. I am pretty sure I was learning how to partition my disk to install Linux and I may have done something with diskutil like unmounting my primary disk. If you're booted into macOS, you simply cannot unmount your primary drive. You'd need to boot into Recovery to make those changes. Dual booting an OS has been asked/answered many times and there are excellent guides on how to do this. However, this is unrelated to installing software via Homebrew. As you're new to all of this, I don't advise you go down the dual/multi-boot path just yet. Instead, try things out in a virtual environment ( VirtualBox is free). You can run things in "seamless mode" meaning that it appears as if it's running natively rather than in a window. You'll gain valuable experience running things before you take on the challenge of modifying APFS containers and drive partitions. That said, if you do plan on persuing a dual/multi-boot system, be sure to back everything up before you proceed! As for installing your Homebrew Apps, it's best to peruse the documentation to gain a familiarity with how things work. However, to summarize, you'd install a package with the command brew install <formulae> . We even have questions/answers on how to install formulae from local files which is what you'd do if you had a DMG with brew formulae/packages contained within it.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/452722/safari-can-t-open-the-file-dmg-because-no-available-application-can-open-it
+
+---
+
+#### 4890. What exactly are "git pack objects"? Why are they so huge in the "homebrew-core" repo? We are talking about half a GB of metadata
+
+**问题描述 / Problem Description**:
+Tags: command-line, homebrew, disk-space, git | Score: 2 | Views: 9191 | Answers: 1 | Created: 2022-12-27
+
+**解决方案 / Solution**:
+The relevant documentation from Git is 10.4 Git Internals - Packfiles . Basically, they contain the history of all the files that have ever been in the repository. This can be limited by choosing just the recent versions of the files when you clone the repository, ie, getting it onto your machine. The details of using Git are off-topic on this site, try StackOverflow, but a quick search gives an an answer to "How to remove old versions of media files from a git repository" , saying you have to rewrite history if you wanted to reduce the size of an existing repo and that is not going to be practical for the HomeBrew repo. So, I think you'll need to reclone the repo.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/452440/what-exactly-are-git-pack-objects-why-are-they-so-huge-in-the-homebrew-core
+
+---
+
+#### 4891. Identify process sending DNS queries
+
+**问题描述 / Problem Description**:
+Tags: networking, macos, dns | Score: 1 | Views: 759 | Answers: 2 | Created: 2025-01-02
+
+**解决方案 / Solution**:
+Assuming auditd is available to you on MacOS, have a look at the following: https://serverfault.com/a/193088/480983
+
+**参考链接 / References**:
+- https://superuser.com/questions/1868961/identify-process-sending-dns-queries
+
+---
+
+#### 4892. Keyboard only, how to move to the right hand pane in System Settings?
+
+**问题描述 / Problem Description**:
+Tags: macos, mac | Score: 1 | Views: 1830 | Answers: 1 | Created: 2025-01-02
+
+**解决方案 / Solution**:
+Open System Settings Arrow down to bluetooth Press tab (Bluetooth switch highlights) Press SPACE to change Bluetooth to on or off Continue to press tab until you get to the Connect button you want, then... Press SPACE to connect
+
+**参考链接 / References**:
+- https://superuser.com/questions/1868905/keyboard-only-how-to-move-to-the-right-hand-pane-in-system-settings
+
+---
+
+#### 4893. How to update all the packages installed via homebrew after a big OS upgrade
+
+**问题描述 / Problem Description**:
+Tags: macos, upgrade, homebrew | Score: 1 | Views: 509 | Answers: 1 | Created: 2025-01-01
+
+**解决方案 / Solution**:
+I ended up uninstalling homebrew by following the instructions , namely invoking sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)" .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1868849/how-to-update-all-the-packages-installed-via-homebrew-after-a-big-os-upgrade
+
+---
+
+#### 4894. Why am I unable to launch Virtual Box via Vagrant on macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, virtualbox, vagrant | Score: 1 | Views: 767 | Answers: 1 | Created: 2024-12-09
+
+**解决方案 / Solution**:
+You are trying to run Vagrant on an Apple Silicon Mac: An M1. Because while Vagrant might technically work in Apple Silicon, the underlying issue is Virtual Box currently only supports Intel Macs. Vagrant is just a bunch of scripts to automate VM creation; Vagrant will technically “work” but Virtual Box itself won’t work. Attempting to run VirtualBox on Apple Silicon will only result in failure.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1864344/why-am-i-unable-to-launch-virtual-box-via-vagrant-on-macos
+
+---
+
+#### 4895. Why does adding a new route on macOS not affect existing TCP and UDP connections?
+
+**问题描述 / Problem Description**:
+Tags: macos, routing, tcpip, bsd | Score: 1 | Views: 157 | Answers: 2 | Created: 2024-12-03
+
+**解决方案 / Solution**:
+Turns out the routing information is indeed cached on per-socket basis in the BSD network stack. It's stored in a structure called inpcb (Internet Protocol Control Block?) attached to every socket. In Darwin, this is defined in bsd/netinet/in_pcb.h .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1863577/why-does-adding-a-new-route-on-macos-not-affect-existing-tcp-and-udp-connections
+
+---
+
+#### 4896. How to stop Tor from Mac terminal?
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, tor | Score: 1 | Views: 275 | Answers: 1 | Created: 2024-11-28
+
+**解决方案 / Solution**:
+The easiest way to stop Tor in the latter case is if you know the exact path of the Tor binary , in which case you can directly kill all instances of it with pkill : pkill -f /path/to/tor Now, the other way you can kill Tor is with a simple kill “PID” : To find Tor’s process ID, run: ps aux | grep tor Then once you have said PID, just kill it with kill 12345 , for example. If that doesn’t work, force kill it with kill -9 12345 .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1863090/how-to-stop-tor-from-mac-terminal
+
+---
+
+#### 4897. How can I erase a “doc-id” record on an APFS disk in macOS? Error 69845
+
+**问题描述 / Problem Description**:
+Tags: macos | Score: 1 | Views: 378 | Answers: 1 | Created: 2024-11-22
+
+**解决方案 / Solution**:
+“The volume /dev/rdisk1s1 was found to be corrupt and needs to be repaired.” So repair it and the issue should be cleared up. Look at your screenshot. It says: “The volume /dev/rdisk1s1 was found to be corrupt and needs to be repaired.” So repair the disk and the issue should go away. You might have to reboot into single user mode or recovery mode to allow Disk Utility to work on your hard drive if it’s a system drive. But repairing the disk should be the solution.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1862552/how-can-i-erase-a-doc-id-record-on-an-apfs-disk-in-macos-error-69845
+
+---
+
+#### 4898. Close all Firefox windows
+
+**问题描述 / Problem Description**:
+Tags: macos, firefox | Score: 1 | Views: 337 | Answers: 2 | Created: 2024-11-06
+
+**解决方案 / Solution**:
+Command + Option + Q Closes all windows of your current app on Mac. This will close all windows for the app but keep the app "open." To completely close the app, follow up with Command + Q . Apple Article
+
+**参考链接 / References**:
+- https://superuser.com/questions/1860920/close-all-firefox-windows
+
+---
+
+#### 4899. Launch new terminal window via hotkey MacOS
+
+**问题描述 / Problem Description**:
+Tags: linux, macos, keyboard-shortcuts, terminal | Score: 1 | Views: 598 | Answers: 1 | Created: 2024-11-03
+
+**解决方案 / Solution**:
+This can be simplified quite a bit using MacOS' open command. I did have the same issue as you're addressing, and here's how i've fixed that using within my .skhdrc file: ctrl + lcmd - j : open -na "/Applications/WezTerm.app/Contents/MacOS/wezterm" ctrl + lcmd - j is the key bind for those not familiar with skhd. -a is to open the application, and -n will open a new instance of the application. i use -a for applications where this behavior is not wanted or the app has builtin key binds for new windows such the browser.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1860586/launch-new-terminal-window-via-hotkey-macos
 
 ---

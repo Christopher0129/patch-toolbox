@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6506**
+**总计条目 / Total entries: 6548**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -90342,5 +90342,551 @@ I'm not sure there is any good solution to have two players at the same time on 
 
 **参考链接 / References**:
 - https://superuser.com/questions/1405648/2-players-on-1-pc
+
+---
+
+#### 6507. What is the purpose of the registry value ConsentPromptBehaviorEnhancedAdmin?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, windows-registry, administrator, uac | Score: 0 | Views: 47 | Answers: 1 | Created: 2026-06-12
+
+**解决方案 / Solution**:
+Download Windows 11 v25H2 Security Baseline.zip from Microsoft Security Compliance Toolkit 1.0 . Then, Security Template sheet of Documentation\MS Security Baseline Windows 11 v25H2.xlsx contains the following info about ConsentPromptBehaviorAdmin , ConsentPromptBehaviorEnhancedAdmin , and ConsentPromptBehaviorUser values (excerpted using PowerShell 7 ): Policy Path : Security Options Policy Setting Name : User Account Control: Behavior of the elevation prompt for administrators in Admin Approval Mode Windows 11 : Prompt for consent on the secure desktop Help Text : User Account Control: Behavior of the elevation prompt for administrators in Admin Approval Mode This security setting determines the behavior of the elevation prompt for administrators The options are: • Prompt for consent: An operation that requires elevation of privilege will prompt the Consent Admin to select either Permit or Deny. If the Consent Admin selects Permit the operation will continue with their highest available privilege. This option allows users to enter their name and password to perform a privileged task. • Prompt for credentials: An operation that requires elevation of privilege will prompt the Consent Admin to enter their user name and password. If the user enters valid credentials the operation will continue with the applicable privilege. • Elevate without prompting: This option allows the Consent Admin to perform an operation that requires elevation without consent or credentials. Note: this scenario should only be used in the most constrained environments. Default: Prompt for consent Registry Information : SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\ ConsentPromptBehaviorAdmin Comments : Policy Path : Security Options Policy Setting Name : User Account Control: Behavior of the elevation prompt for administrators running with enhanced privilege protection Windows 11 : Prompt for credentials on secure desktop Help Text : User Account Control: Behavior of the elevation prompt for administrators in Enhanced Privilege Protection Mode This policy setting controls the behavior of the elevation prompt for administrators running in Enhanced Privilege Protection Mode. The options are: • Prompt for consent on the secure desktop: When an operation requires elevation of privilege, the user is prompted on the secure desktop to select either Permit or Deny. If the user selects Permit, the operation continues elevated with enhanced privilege protection. • Prompt for credentials: When an operation requires elevation of privilege, the user is prompted on the secure desktop to enter an administrative user name and password. If the user enters valid credentials, the operation continues elevated with enhanced privilege protection. Registry Information : MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies \System\ConsentPromptBehaviorEnhancedAdmin Comments : Policy Path : Security Options Policy Setting Name : User Account Control: Behavior of the elevation prompt for standard users Windows 11 : Automatically deny elevation requests Help Text : User Account Control: Behavior of the elevation prompt for standard users This security setting determines the behavior of the elevation prompt for standard users The options are: • Prompt for credentials: An operation that requires elevation of privilege will prompt the user to enter an administrative user name and password. If the user enters valid credentials the operation will continue with the applicable privilege. • Automatically deny elevation requests: This option results in an access denied error message being returned to the standard user when they try to perform an operation that requires elevation of privilege. Most enterprises running desktops as standard user will configure this policy to reduce help desk calls. Default: Prompt for credentials (home) / Automatically deny elevation requests (enterprise) Registry Information : SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\ ConsentPromptBehaviorUser Comments : HTH.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938391/what-is-the-purpose-of-the-registry-value-consentpromptbehaviorenhancedadmin
+
+---
+
+#### 6508. Choosing "Restart" is not the same as "Shut down" and then switch on again?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u4umpn/choosing_restart_is_not_the_same_as_shut_down_and/
+
+---
+
+#### 6509. My brother had zero bytes remaining on his C drive. How did that happen? is it a virus?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u4wt4m/my_brother_had_zero_bytes_remaining_on_his_c/
+
+---
+
+#### 6510. All of a sudden my 2019 Microsoft office license isn’t compatible with my version anymore? (MacBook)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u4ljot/all_of_a_sudden_my_2019_microsoft_office_license/
+
+---
+
+#### 6511. "AI Mode not available on device or account" error on Google App (iPad Air M4, Australia)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5220o/ai_mode_not_available_on_device_or_account_error/
+
+---
+
+#### 6512. Laptop randomly shuts off
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u4z7m8/laptop_randomly_shuts_off/
+
+---
+
+#### 6513. CANT INSTALL WINDOWS 11 I AM VERY STUPID
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u53asx/cant_install_windows_11_i_am_very_stupid/
+
+---
+
+#### 6514. My audio keeps cracking
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u53am3/my_audio_keeps_cracking/
+
+---
+
+#### 6515. My wifi works but windows says i do not have internet access
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u52yqo/my_wifi_works_but_windows_says_i_do_not_have/
+
+---
+
+#### 6516. I need help emulating my Xbox series x dev mode
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u52wzd/i_need_help_emulating_my_xbox_series_x_dev_mode/
+
+---
+
+#### 6517. No audio at all
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u4xcb4/no_audio_at_all/
+
+---
+
+#### 6518. PC stopped working and now only a few RGB lights turn on and nothing else
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u52t8u/pc_stopped_working_and_now_only_a_few_rgb_lights/
+
+---
+
+#### 6519. Code 76 on start up then switches to code 08?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u52pxf/code_76_on_start_up_then_switches_to_code_08/
+
+---
+
+#### 6520. Where can i find this part?? NVME gen 4
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u52g71/where_can_i_find_this_part_nvme_gen_4/
+
+---
+
+#### 6521. I found a hp omny that looked good but i've never heard of this processor config? the intel 368h?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u52d6p/i_found_a_hp_omny_that_looked_good_but_ive_never/
+
+---
+
+#### 6522. New laptop overheating
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u52d0d/new_laptop_overheating/
+
+---
+
+#### 6523. Pritech PBP-564 universal remote – light comes on but my LG TV doesn’t respond, how do I fix it?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u526uu/pritech_pbp564_universal_remote_light_comes_on/
+
+---
+
+#### 6524. accidentally deleted dashcam video folder that I saved on a Bit-Locker-protected drive. can they be recovered or are they gone forever?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u4whjg/accidentally_deleted_dashcam_video_folder_that_i/
+
+---
+
+#### 6525. Koorui P02 monitor built-in speakers no longer selectable.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u51nsv/koorui_p02_monitor_builtin_speakers_no_longer/
+
+---
+
+#### 6526. PC Auto restarts after closing a game
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u51njg/pc_auto_restarts_after_closing_a_game/
+
+---
+
+#### 6527. Cpu over voltage error and weird things.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u51nhu/cpu_over_voltage_error_and_weird_things/
+
+---
+
+#### 6528. Computer monitor started having horizontal lines that disrupted color
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u51d5o/computer_monitor_started_having_horizontal_lines/
+
+---
+
+#### 6529. Wifi works for 2 mins then cuts
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u51ctx/wifi_works_for_2_mins_then_cuts/
+
+---
+
+#### 6530. Local account and email questions
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u516ef/local_account_and_email_questions/
+
+---
+
+#### 6531. LG 55UK6300PVB - Sound works but completely black screen, no logo or menu, backlight seems on
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u50tpm/lg_55uk6300pvb_sound_works_but_completely_black/
+
+---
+
+#### 6532. [V2EX] react 文档写得很垃圾吗？
+
+**问题描述 / Problem Description**:
+今天在看 useReducer 这一章时，看生气了。 文档在介绍引入 useReducer 的步骤，实现了 reducer 函数以后，它说了这样一段话： 由于 reducer 函数接受 state （ tasks ）作为参数，因此你可以 在组件之外声明它。这减少了代码的缩进级别，提升了代码的可读性。 此时，还没有介绍到写完 reducer 函数后，如何在函数组件内结合 useReducer hook 进行使用。 所以我突然陷入了一个非常大的困惑： 为什么 reducer 函数接受 state 作为参数，它都使用到了组件的 state ，还可以在组件之外声明它呢？ 后来我才明白，这句话的意思其实
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220244#reply0
+
+---
+
+#### 6533. [V2EX] 澳洲留学电子设备怎么选？
+
+**问题描述 / Problem Description**:
+如题，9 月份去澳洲 UNSW 读网安方向 it 硕士，出发前准备更换一批现在主力用的破烂电子设备。 个人需求纯日用，上课、做作业+轻度写代码、学渗透测试以及各种网安技能，有一台 windows 游戏本跑高性能需求应用，从来没有用过任何苹果设备。 笔记本： 目前在用 1235u 的 windows 轻薄本，散热稀烂看个视频都降频(刚刚清灰换硅脂结束的状态)。 考虑更换 258v 、338H 的 windows 轻薄本、macbook air 13 寸 16+512(某鱼上这一款格外便宜，只要 6000)。 现在有点担心之前打 CTF 积累下来的一堆杂七杂八安全相关软件没法放到 macos 上使
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220243#reply4
+
+---
+
+#### 6534. [V2EX] X 上面的这种是不是都是骗人的？
+
+**问题描述 / Problem Description**:
+卡塔尔 vs 瑞士 100USDT 给 5 位正确预测比分的人。 留下 BSC 地址 12 小时后结束 以上是在 X 上面看到的内容，不是我发的。但是参与的人好多啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220230#reply3
+
+---
+
+#### 6535. [V2EX] 卡了 30 分钟的 Bug，被 AI 1 分钟解决
+
+**问题描述 / Problem Description**:
+越来越觉得自己变菜了，不用 AI 都不会写代码了 现在真的是自费 AI 上班 完成兼职
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220223#reply1
+
+---
+
+#### 6536. [V2EX] 是不是大部分程序员都会被大模型替代
+
+**问题描述 / Problem Description**:
+今天突然想到，如果把程序员看作是人类语言/思维和机器语言之间的翻译官的话，人与人之间的不同语言的交流可以基于模型实现，那么是不是早晚有一天低端的翻译会被机器替代，留下的都是头部的领头人。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220221#reply6
+
+---
+
+#### 6537. [V2EX] 想安装 scrcpy 让安卓实现投屏到 mac，遇到了 android-platform-tools 无法下载的问题。
+
+**问题描述 / Problem Description**:
+brew install --cask android-platform-tools ➜ ~ brew install --cask android-platform-tools ==> Would install 1 cask: android-platform-tools ==> Fetching downloads for: android-platform-tools ✘ Cask android-platform-tools (37.0.0) Error: Download failed on Cask 'android-platform-tools' with message: D
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220219#reply5
+
+---
+
+#### 6538. [V2EX] 有没有这样的 tabs sort 标签页排序的扩展，支持 The Great Suspender，支持 Dia 这种浏览器的？
+
+**问题描述 / Problem Description**:
+https://github.com/pwhite2/super-tab-sorter 这类的好像支持 The Great Suspender 但是在 DIA 浏览器下面失效了，咱也不懂是啥问题，所以请教一下 V 友，有没有留意这个的？ 谢谢 🙏🙏🙏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220203#reply0
+
+---
+
+#### 6539. [V2EX] 有没有纯前端开源 AI 对话组件
+
+**问题描述 / Problem Description**:
+找很多要么 app ，要么带后端，想找个纯前端对话组件，流式加载，展示思考过程，展示工具 mcp 调用，停止这些常规功能，有没有这种，想快速集成到项目，而不是一点点弄再开发
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220198#reply3
+
+---
+
+#### 6540. [V2EX] 怎么炒美股，炒股新手
+
+**问题描述 / Problem Description**:
+新手，开了众安，没开通股票…
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220172#reply0
+
+---
+
+#### 6541. [V2EX] 马来西亚 YN 科技是干嘛的，靠谱吗？
+
+**问题描述 / Problem Description**:
+最近收到猎头推荐这家公司，说支持全职远程办公，在 google 上找不到任何信息，只看到一个网址： https://yn.com/ 页面也没有什么有效信息，设计的还很 low ，查看域名 whois 也被隐藏，感觉诈骗啊？有了解这方面的人吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220154#reply6
+
+---
+
+#### 6542. [V2EX] 编程模型选哪家？请您现身说法
+
+**问题描述 / Problem Description**:
+现状 职业码农，用 ClaudeCode + 各种 API 试下来后，感觉不出各家模型能力有什么大差异，都能用又都傻乎乎的。我主要用的是国内的 API ，国外的还没舍得花钱。 问题 单从码农上班编程场景来考虑，从国内和国外各选一家模型，你会怎么推荐？打动你的点是什么？ PS：我工作编码领域是 Android Framework/HAL ，语言是 C/C++/Java ，偏重于业务，基本不涉及 HMI/UI 等。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220149#reply4
+
+---
+
+#### 6543. [V2EX] 推荐好看的小说和 manga
+
+**问题描述 / Problem Description**:
+1 父亲的解放日志 清新幽默调侃 2 极品家丁 女主写的好，印象深刻，宁雨惜 月牙儿 军师，再没找到一本深刻有趣的后宫文。 3 史记 文字清新，故事抑扬顿挫，内核涉及多种学说，爱不释手 4 web manga 美丽新世界 画质人物精美，故事还可以，韩国女作者画的，蛮深刻。 5 修真门派掌门人 6 汉书 经班超 班昭 马续多人创作，文字也评价清新有力度感，很有余味 7 凡人修仙传 人界灵界篇可以，虽然结构副本一个人又一个换，没啥眼前一亮，但写出了了蝼蚁的不易。遇到难回答的问题又不说话了。剧情还是可以 8 历史的尘埃 求好看不烂尾的网文以及好的 manga
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220148#reply1
+
+---
+
+#### 6544. [V2EX] 有人在用有数 APP 吗，很久没有更新了，依然觉得是最好用的计算器。有人愿意 Vibe 出来吗？
+
+**问题描述 / Problem Description**:
+超级喜欢这个链接的逻辑，非常符合直觉。找遍了所有计算器，没有可以赶上它的，哪怕这么多年没有更新了。 目前这个的问题在于不能自动跟随系统模式，以及链接的那个快捷键不好点。 如果有人 愿意 vibe 出来一款吗，我愿意付费使用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220113#reply5
+
+---
+
+#### 6545. [V2EX] 一不小心花出去 20 美元，谁说 chatGPT 国内信用卡订阅失败的？？
+
+**问题描述 / Problem Description**:
+其实我也知道国内信用卡难付款，网页版总是提示免费体验 plus ，每次都是付款失败，换谁家的信用卡都不行。 平时嫌手机页面小，很少用手机版，刚才用手机版，也有升级选项，我好奇手机上失败提示什么样，直接点升级，确定，刷的一下调用 Google pay ，绑定的建行信用卡付款成功了？？？ 合着网页版有个白嫖一个月再付款所以失败，手机第一个月就掏钱所以成功吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220108#reply18
+
+---
+
+#### 6546. [V2EX] IBM Cloud 注册，国内 VISA/AMEX 均被拒，邮件只说"不便透露"
+
+**问题描述 / Problem Description**:
+尝试注册 IBM Cloud ，用了国内发卡行的一张 VISA 和一张 AMEX ，绑定支付方式时均被拒绝。 发邮件询问 IBM 支持，回复只有一句："No further information will be disclosed regarding this matter." 想请教有经验的大佬： 这种拒单最可能的触发点是什么？是发卡行、账单地址，还是 IP 环境？ IBM Cloud 的风控对中国用户是不是有比较严格的策略？ 有没有什么相对可行的解决方向？ P.S. 卡本身可以正常境外在线交易。感谢指点。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220085#reply3
+
+---
+
+#### 6547. [V2EX] 有什么好的方案？关于 win 和安卓手机之间互传文件
+
+**问题描述 / Problem Description**:
+rt ，想问一下 v 友们平常在面对这种情况时使用的什么方案，除了用微信或者 QQ 以外的，大中小文件，有推荐的方法或者第三方平台吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220058#reply16
+
+---
+
+#### 6548. [V2EX] 我想问问现在 Cloudflare 能不能正常登陆?
+
+**问题描述 / Problem Description**:
+我被甲骨文封号搞出心里阴影了,我的 Cloudflare 突然不能登陆了,我在这家还有两个域名在里面
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220051#reply8
 
 ---

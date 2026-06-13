@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1881**
+**总计条目 / Total entries: 1897**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -30297,5 +30297,197 @@ It was discovered that .NET did not properly handle link resolution before file 
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8420-1
+
+---
+
+#### 1882. CVE-2026-48748 - netty: Netty: Denial of Service due to memory exhaustion in HTTP/3 codec
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] netty: Netty: Denial of Service due to memory exhaustion in HTTP/3 codec. Bugzilla: 2488441
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488441
+
+---
+
+#### 1883. CVE-2026-48059 - netty-codec-haproxy: Netty HAProxy PROXY protocol v2 codec: Denial of Service via…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] netty-codec-haproxy: Netty HAProxy PROXY protocol v2 codec: Denial of Service via memory leak from crafted PROXY protocol headers. Bugzilla: 2488437
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488437
+
+---
+
+#### 1884. CVE-2026-48043 - netty-codec-http2: netty-codec-http2: Denial of Service due to resource leak
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] netty-codec-http2: netty-codec-http2: Denial of Service due to resource leak. Bugzilla: 2488442
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488442
+
+---
+
+#### 1885. CVE-2026-45673 - netty-resolver-dns: Netty DNS resolver: DNS Cache Poisoning via predictable…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] netty-resolver-dns: Netty DNS resolver: DNS Cache Poisoning via predictable transaction IDs. Bugzilla: 2488386
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488386
+
+---
+
+#### 1886. CVE-2026-44894 - netty-codec-classes-quic: Netty: Denial of Service amplification via improper QUIC…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] netty-codec-classes-quic: Netty: Denial of Service amplification via improper QUIC token validation. Bugzilla: 2488380
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488380
+
+---
+
+#### 1887. CVE-2026-44893 - netty-codec-haproxy: Netty-codec-haproxy: Denial of Service via malformed HAProxy…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] netty-codec-haproxy: Netty-codec-haproxy: Denial of Service via malformed HAProxy message. Bugzilla: 2488383
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488383
+
+---
+
+#### 1888. CVE-2026-44249 - netty-handler: netty-handler: IPv6 subnet rule bypass due to incorrect masking…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] netty-handler: netty-handler: IPv6 subnet rule bypass due to incorrect masking operation. Bugzilla: 2488081
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488081
+
+---
+
+#### 1889. CVE-2026-52859 - vim: Vim: Denial of Service via out-of-bounds write in terminal handling
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] vim: Vim: Denial of Service via out-of-bounds write in terminal handling. Bugzilla: 2487989
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487989
+
+---
+
+#### 1890. CVE-2026-44486 - axios: Axios: Information disclosure of proxy credentials via HTTP redirects
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] axios: Axios: Information disclosure of proxy credentials via HTTP redirects. Bugzilla: 2487947
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487947
+
+---
+
+#### 1891. CVE-2026-44487 - axios: Axios: Information disclosure of proxy credentials via redirect flows
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] axios: Axios: Information disclosure of proxy credentials via redirect flows. Bugzilla: 2487948
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487948
+
+---
+
+#### 1892. CVE-2026-44488 - axios: Axios: Denial of Service due to unenforced request and response size limits
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] axios: Axios: Denial of Service due to unenforced request and response size limits. Bugzilla: 2487949
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487949
+
+---
+
+#### 1893. CVE-2026-44496 - axios: Axios: Client-side Denial of Service via unescaped regex metacharacters in…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] axios: Axios: Client-side Denial of Service via unescaped regex metacharacters in XSRF cookie name. Bugzilla: 2487943
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487943
+
+---
+
+#### 1894. CVE-2026-44495 - axios: Axios: Information disclosure due to prototype pollution vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] axios: Axios: Information disclosure due to prototype pollution vulnerability. Bugzilla: 2487937
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487937
+
+---
+
+#### 1895. CVE-2026-44494 - axios: Axios: Man-in-the-Middle (MITM) attack via Prototype Pollution
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] axios: Axios: Man-in-the-Middle (MITM) attack via Prototype Pollution. Bugzilla: 2487942
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487942
+
+---
+
+#### 1896. CVE-2026-44492 - axios: Axios: Proxy bypass via IPv4-mapped IPv6 address non-normalization
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] axios: Axios: Proxy bypass via IPv4-mapped IPv6 address non-normalization. Bugzilla: 2487938
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487938
+
+---
+
+#### 1897. CVE-2026-48998 - guzzlehttp/psr7: guzzlehttp/psr7: Information disclosure via improper Host header…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] guzzlehttp/psr7: guzzlehttp/psr7: Information disclosure via improper Host header validation. Bugzilla: 2487891
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487891
 
 ---
